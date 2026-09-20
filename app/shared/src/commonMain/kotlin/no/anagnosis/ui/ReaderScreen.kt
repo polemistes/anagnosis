@@ -180,6 +180,13 @@ fun ReaderScreen(
     LaunchedEffect(pagerState.currentPage) {
         if (scrubPage == null) pages.getOrNull(pagerState.currentPage)?.let { anchorN = it.firstN }
     }
+    // Swiping while the Go here / Go back choice is showing counts as "Go here".
+    LaunchedEffect(pagerState.isScrollInProgress, scrubPopup) {
+        if (scrubPopup && pagerState.isScrollInProgress) {
+            scrubPopup = false
+            scrubPage = null
+        }
+    }
 
     Scaffold(
         topBar = {
