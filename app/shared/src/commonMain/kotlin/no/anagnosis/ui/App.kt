@@ -32,6 +32,7 @@ const val WORK_SLUG = "antigone"
 @Composable
 fun App(repository: AnagnosisRepository, settingsStore: SettingsStore, appVersion: String) {
     var settings by remember { mutableStateOf(settingsStore.load()) }
+    var showIntro by remember { mutableStateOf(!settingsStore.introSeen()) }
     val systemDark = isSystemInDarkTheme()
     val colors = remember(settings.theme, systemDark) { colorScheme(settings.theme, systemDark) }
     MaterialTheme(colorScheme = colors) {
@@ -49,8 +50,12 @@ fun App(repository: AnagnosisRepository, settingsStore: SettingsStore, appVersio
                     data = loaded,
                     settings = settings,
                     onSettingsChange = { settings = it; settingsStore.save(it) },
+                    onHelp = { showIntro = true },
                     appVersion = appVersion,
                 )
+                if (showIntro) {
+                    IntroDialog(onDismiss = { showIntro = false; settingsStore.markIntroSeen() })
+                }
             }
         }
     }

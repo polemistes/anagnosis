@@ -11,6 +11,12 @@ actual class SettingsStore(context: Context) {
         theme = prefs.getString("theme", null)?.let { name -> ColorTheme.entries.firstOrNull { it.name == name } } ?: ColorTheme.SYSTEM,
     )
 
+    actual fun introSeen(): Boolean = prefs.getBoolean("intro_seen", false)
+
+    actual fun markIntroSeen() {
+        prefs.edit().putBoolean("intro_seen", true).apply()
+    }
+
     actual fun save(settings: ReaderSettings) {
         prefs.edit()
             .putString("font", settings.font.name)

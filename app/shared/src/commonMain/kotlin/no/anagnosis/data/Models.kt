@@ -17,6 +17,8 @@ class WorkData(
     val sectionsByFirstLine: Map<Long, List<Sections>>,
     val translations: List<TranslationData>,
     val commentaries: List<Commentaries>,
+    /** ids of the lines that open commentary notes (shown with a dot). */
+    val linesWithNotes: Set<Long>,
 )
 
 class TranslationData(val translation: Translations, val segments: List<Translation_segments>)

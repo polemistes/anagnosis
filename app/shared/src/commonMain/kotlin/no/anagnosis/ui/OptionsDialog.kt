@@ -35,12 +35,23 @@ import no.anagnosis.prefs.FontChoice
 import no.anagnosis.prefs.ReaderSettings
 
 @Composable
-fun OptionsDialog(settings: ReaderSettings, onChange: (ReaderSettings) -> Unit, onAbout: () -> Unit, onDismiss: () -> Unit) {
+fun OptionsDialog(
+    settings: ReaderSettings,
+    onChange: (ReaderSettings) -> Unit,
+    onHelp: () -> Unit,
+    onAbout: () -> Unit,
+    onDismiss: () -> Unit,
+) {
     AlertDialog(
         onDismissRequest = onDismiss,
         title = { Text("Options") },
         confirmButton = { TextButton(onClick = onDismiss) { Text("Close") } },
-        dismissButton = { TextButton(onClick = onAbout) { Text("About") } },
+        dismissButton = {
+            Row {
+                TextButton(onClick = onHelp) { Text("Help") }
+                TextButton(onClick = onAbout) { Text("About") }
+            }
+        },
         text = {
             Column(Modifier.verticalScroll(rememberScrollState())) {
                 Text("Font", style = MaterialTheme.typography.labelLarge)
@@ -151,4 +162,38 @@ fun AboutDialog(appVersion: String, credits: List<Credit>, onDismiss: () -> Unit
             }
         },
     )
+}
+
+/** Shown on the first launch and from Options > Help. */
+@Composable
+fun IntroDialog(onDismiss: () -> Unit) {
+    AlertDialog(
+        onDismissRequest = onDismiss,
+        title = { Text("Welcome to Anagnosis") },
+        confirmButton = { TextButton(onClick = onDismiss) { Text("Start reading") } },
+        text = {
+            Column(Modifier.verticalScroll(rememberScrollState())) {
+                Text(
+                    "Anagnosis is a reader for ancient Greek texts. This app contains Sophocles' Antigone " +
+                        "with an English translation, a commentary and two dictionaries, all available offline.",
+                    style = MaterialTheme.typography.bodyMedium,
+                )
+                Spacer(Modifier.height(12.dp))
+                HelpItem("Tap a word", "to see its dictionary form, its inflection and a short definition. The LSJ and Middle Liddell buttons open the full dictionary entries.")
+                HelpItem("Tap a line outside the words", "to read the commentary on it. A small dot at the end of a line shows that a note exists.")
+                HelpItem("Swipe left or right", "to turn the page.")
+                HelpItem("Press or slide on the bar at the bottom", "to look at any part of the text, then choose Go here or Go back.")
+                HelpItem("Greek / English", "at the top switches between the text and the translation.")
+                HelpItem("The gear", "opens the options: font, text size and colours. You can reopen this help there.")
+            }
+        },
+    )
+}
+
+@Composable
+private fun HelpItem(title: String, body: String) {
+    Column(Modifier.padding(bottom = 10.dp)) {
+        Text(title, style = MaterialTheme.typography.bodyMedium, fontWeight = FontWeight.Bold)
+        Text(body, style = MaterialTheme.typography.bodyMedium)
+    }
 }

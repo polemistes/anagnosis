@@ -19,7 +19,16 @@ class AnagnosisRepository(driverFactory: DriverFactory) {
             TranslationData(it, q.selectSegments(it.id).executeAsList())
         }
         val commentaries = q.selectCommentaries(work.id).executeAsList()
-        return WorkData(work, lines, tokens, sections, translations, commentaries)
+        // A note on line n attaches to the first existing line with n_int >= n (numbering has gaps).
+        val starts = q.selectNoteStarts().executeAsList()
+        val withNotes = HashSet<Long>()
+        var i = 0
+        for (line in lines) {
+            var mark = false
+            while (i < starts.size && starts[i] <= line.n_int) { mark = true; i++ }
+            if (mark) withNotes += line.id
+        }
+        return WorkData(work, lines, tokens, sections, translations, commentaries, withNotes)
     }
 
     fun lookupWord(data: WorkData, tokenId: Long): WordInfo? {

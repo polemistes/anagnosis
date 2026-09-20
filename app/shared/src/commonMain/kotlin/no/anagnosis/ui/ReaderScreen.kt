@@ -55,6 +55,7 @@ import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.rememberTextMeasurer
 import androidx.compose.ui.text.style.TextIndent
 import androidx.compose.ui.text.withLink
+import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.Constraints
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
@@ -109,6 +110,12 @@ private val ROW_GAP = 2.dp
 private val SEGMENT_GAP = 6.dp
 private val NUMBER_GAP = 12.dp
 
+/** Appended to lines that have commentary: a thin space and a small dot. */
+private const val NOTE_MARK = "\u2009•"
+
+private fun lineTextFor(line: Lines, data: WorkData): String =
+    if (line.id in data.linesWithNotes) line.text + NOTE_MARK else line.text
+
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ReaderScreen(
@@ -116,6 +123,7 @@ fun ReaderScreen(
     data: WorkData,
     settings: ReaderSettings,
     onSettingsChange: (ReaderSettings) -> Unit,
+    onHelp: () -> Unit,
     appVersion: String,
 ) {
     var mode by remember { mutableStateOf(ViewMode.GREEK) }
@@ -226,7 +234,7 @@ fun ReaderScreen(
             val widthPx = with(density) { (maxWidth - horizontal * 2).roundToPx() }
             val heightPx = with(density) { (maxHeight - vertical * 2).roundToPx() }
             val computed = remember(rows, widthPx, heightPx, styles) {
-                paginate(rows, measurer, styles, widthPx, heightPx, density)
+                paginate(rows, measurer, styles, widthPx, heightPx, density) { lineTextFor(it, data) }
             }
             LaunchedEffect(computed) {
                 pages = computed
@@ -260,7 +268,12 @@ fun ReaderScreen(
 
     wordInfo?.let { WordSheet(it, onDismiss = { selectedTokenId = null }) }
     if (showOptions) {
-        OptionsDialog(settings, onSettingsChange, onAbout = { showOptions = false; showAbout = true }, onDismiss = { showOptions = false })
+        OptionsDialog(
+            settings, onSettingsChange,
+            onHelp = { showOptions = false; onHelp() },
+            onAbout = { showOptions = false; showAbout = true },
+            onDismiss = { showOptions = false },
+        )
     }
     if (showAbout) {
         val credits = remember { repository.credits() }
@@ -299,6 +312,7 @@ private fun paginate(
     widthPx: Int,
     heightPx: Int,
     density: androidx.compose.ui.unit.Density,
+    lineText: (Lines) -> String,
 ): List<Page> {
     if (widthPx <= 0 || heightPx <= 0) return emptyList()
     fun Dp.px() = with(density) { roundToPx() }
@@ -315,7 +329,7 @@ private fun paginate(
             is ReaderRow.Speaker ->
                 Measured(row, measurer.measure(row.name, styles.speaker, constraints = constraints).size.height + SPEAKER_TOP.px() + ROW_GAP.px())
             is ReaderRow.GreekLine -> {
-                val layout = measurer.measure(row.line.text, styles.greek, constraints = constraints)
+                val layout = measurer.measure(lineText(row.line), styles.greek, constraints = constraints)
                 val fits = widthPx - layout.getLineRight(0) >= numberWidth
                 Measured(row, layout.size.height, fits)
             }
@@ -382,7 +396,9 @@ private fun SectionHeader(section: Sections, styles: Styles) {
 private fun GreekLineRow(line: Lines, number: String?, data: WorkData, styles: Styles, onWord: (Long) -> Unit, onLine: () -> Unit) {
     val tokens = data.tokensByLine[line.id] ?: emptyList()
     val textColor = MaterialTheme.colorScheme.onBackground
-    val annotated = remember(line.id, textColor) {
+    val dotColor = MaterialTheme.colorScheme.primary
+    val hasNote = line.id in data.linesWithNotes
+    val annotated = remember(line.id, textColor, hasNote) {
         buildAnnotatedString {
             var pos = 0
             for (t in tokens) {
@@ -395,6 +411,9 @@ private fun GreekLineRow(line: Lines, number: String?, data: WorkData, styles: S
                 pos = end
             }
             if (pos < line.text.length) append(line.text.substring(pos))
+            if (hasNote) {
+                withStyle(SpanStyle(color = dotColor.copy(alpha = 0.7f), fontSize = 11.sp)) { append(NOTE_MARK) }
+            }
         }
     }
     Box(Modifier.fillMaxWidth().clickable(onClick = onLine)) {

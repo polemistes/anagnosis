@@ -32,4 +32,6 @@ data class ReaderSettings(
 expect class SettingsStore {
     fun load(): ReaderSettings
     fun save(settings: ReaderSettings)
+    fun introSeen(): Boolean
+    fun markIntroSeen()
 }

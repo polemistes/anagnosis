@@ -122,3 +122,6 @@ SELECT * FROM translations ORDER BY id;
 
 selectAllCommentaries:
 SELECT * FROM commentaries ORDER BY id;
+
+selectNoteStarts:
+SELECT DISTINCT from_n_int FROM commentary_notes ORDER BY from_n_int;
