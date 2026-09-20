@@ -1,6 +1,7 @@
 package no.anagnosis.ui
 
 import androidx.compose.foundation.Canvas
+import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.gestures.awaitEachGesture
 import androidx.compose.foundation.gestures.awaitFirstDown
@@ -15,7 +16,9 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.pager.HorizontalPager
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Settings
@@ -55,7 +58,6 @@ import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.rememberTextMeasurer
 import androidx.compose.ui.text.style.TextIndent
 import androidx.compose.ui.text.withLink
-import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.Constraints
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
@@ -110,11 +112,9 @@ private val ROW_GAP = 2.dp
 private val SEGMENT_GAP = 6.dp
 private val NUMBER_GAP = 12.dp
 
-/** Appended to lines that have commentary: a thin space and a small dot. */
-private const val NOTE_MARK = "\u2009•"
-
-private fun lineTextFor(line: Lines, data: WorkData): String =
-    if (line.id in data.linesWithNotes) line.text + NOTE_MARK else line.text
+/** Width reserved at the right edge for the commentary dot, beyond the line numbers. */
+private val DOT_COLUMN = 12.dp
+private val DOT_SIZE = 5.dp
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -241,7 +241,7 @@ fun ReaderScreen(
             val widthPx = with(density) { (maxWidth - horizontal * 2).roundToPx() }
             val heightPx = with(density) { (maxHeight - vertical * 2).roundToPx() }
             val computed = remember(rows, widthPx, heightPx, styles) {
-                paginate(rows, measurer, styles, widthPx, heightPx, density) { lineTextFor(it, data) }
+                paginate(rows, measurer, styles, widthPx, heightPx, density)
             }
             LaunchedEffect(computed) {
                 pages = computed
@@ -319,11 +319,11 @@ private fun paginate(
     widthPx: Int,
     heightPx: Int,
     density: androidx.compose.ui.unit.Density,
-    lineText: (Lines) -> String,
 ): List<Page> {
     if (widthPx <= 0 || heightPx <= 0) return emptyList()
     fun Dp.px() = with(density) { roundToPx() }
-    val constraints = Constraints(maxWidth = widthPx)
+    val textWidth = widthPx - DOT_COLUMN.px()
+    val constraints = Constraints(maxWidth = textWidth)
     val numberWidth = measurer.measure("0000", styles.number).size.width + NUMBER_GAP.px()
 
     val measured = rows.map { row ->
@@ -336,8 +336,8 @@ private fun paginate(
             is ReaderRow.Speaker ->
                 Measured(row, measurer.measure(row.name, styles.speaker, constraints = constraints).size.height + SPEAKER_TOP.px() + ROW_GAP.px())
             is ReaderRow.GreekLine -> {
-                val layout = measurer.measure(lineText(row.line), styles.greek, constraints = constraints)
-                val fits = widthPx - layout.getLineRight(0) >= numberWidth
+                val layout = measurer.measure(row.line.text, styles.greek, constraints = constraints)
+                val fits = textWidth - layout.getLineRight(0) >= numberWidth
                 Measured(row, layout.size.height, fits)
             }
             is ReaderRow.Segment -> {
@@ -403,9 +403,7 @@ private fun SectionHeader(section: Sections, styles: Styles) {
 private fun GreekLineRow(line: Lines, number: String?, data: WorkData, styles: Styles, onWord: (Long) -> Unit, onLine: () -> Unit) {
     val tokens = data.tokensByLine[line.id] ?: emptyList()
     val textColor = MaterialTheme.colorScheme.onBackground
-    val dotColor = MaterialTheme.colorScheme.primary
-    val hasNote = line.id in data.linesWithNotes
-    val annotated = remember(line.id, textColor, hasNote) {
+    val annotated = remember(line.id, textColor) {
         buildAnnotatedString {
             var pos = 0
             for (t in tokens) {
@@ -418,19 +416,27 @@ private fun GreekLineRow(line: Lines, number: String?, data: WorkData, styles: S
                 pos = end
             }
             if (pos < line.text.length) append(line.text.substring(pos))
-            if (hasNote) {
-                withStyle(SpanStyle(color = dotColor.copy(alpha = 0.7f), fontSize = 11.sp)) { append(NOTE_MARK) }
-            }
         }
     }
+    val density = LocalDensity.current
+    val dotTop = with(density) { styles.greek.lineHeight.toDp() } / 2 - DOT_SIZE / 2
     Box(Modifier.fillMaxWidth().clickable(onClick = onLine)) {
-        Text(text = annotated, style = styles.greek, modifier = Modifier.fillMaxWidth())
+        Text(text = annotated, style = styles.greek, modifier = Modifier.fillMaxWidth().padding(end = DOT_COLUMN))
         if (number != null) {
             Text(
                 number,
                 style = styles.number,
                 color = MaterialTheme.colorScheme.outline,
-                modifier = Modifier.align(Alignment.TopEnd).padding(top = 5.dp),
+                modifier = Modifier.align(Alignment.TopEnd).padding(top = 5.dp, end = DOT_COLUMN),
+            )
+        }
+        if (line.id in data.linesWithNotes) {
+            Box(
+                Modifier
+                    .align(Alignment.TopEnd)
+                    .padding(top = dotTop)
+                    .size(DOT_SIZE)
+                    .background(MaterialTheme.colorScheme.primary.copy(alpha = 0.7f), CircleShape),
             )
         }
     }
