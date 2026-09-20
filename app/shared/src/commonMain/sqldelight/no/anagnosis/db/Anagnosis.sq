@@ -1,0 +1,124 @@
+-- Schema of the bundle built by pipeline/anagnosis_pipeline/build.py (schema_version 1).
+-- The database file ships prebuilt; these CREATE statements only give SQLDelight the types.
+
+CREATE TABLE meta (key TEXT NOT NULL PRIMARY KEY, value TEXT NOT NULL);
+
+CREATE TABLE works (
+    id INTEGER NOT NULL PRIMARY KEY, slug TEXT NOT NULL, title TEXT NOT NULL, author TEXT,
+    lang TEXT NOT NULL, source TEXT, edition TEXT, license TEXT
+);
+
+CREATE TABLE sections (
+    id INTEGER NOT NULL PRIMARY KEY, work_id INTEGER NOT NULL, ord INTEGER NOT NULL,
+    level INTEGER NOT NULL, kind TEXT NOT NULL, label TEXT, first_line_id INTEGER
+);
+
+CREATE TABLE lines (
+    id INTEGER NOT NULL PRIMARY KEY, work_id INTEGER NOT NULL, ord INTEGER NOT NULL,
+    n TEXT NOT NULL, n_int INTEGER NOT NULL, n_sub TEXT NOT NULL,
+    section_id INTEGER, speaker TEXT, speech_start INTEGER NOT NULL, text TEXT NOT NULL
+);
+
+CREATE TABLE tokens (
+    id INTEGER NOT NULL PRIMARY KEY, line_id INTEGER NOT NULL, ord INTEGER NOT NULL,
+    start INTEGER NOT NULL, end INTEGER NOT NULL, form TEXT NOT NULL,
+    lemma TEXT NOT NULL, lemma_key TEXT NOT NULL, postag TEXT NOT NULL,
+    relation TEXT, head INTEGER, sentence TEXT
+);
+
+CREATE TABLE translations (
+    id INTEGER NOT NULL PRIMARY KEY, work_id INTEGER NOT NULL, slug TEXT NOT NULL,
+    title TEXT, translator TEXT, lang TEXT NOT NULL, source TEXT, edition TEXT, license TEXT
+);
+
+CREATE TABLE translation_segments (
+    id INTEGER NOT NULL PRIMARY KEY, translation_id INTEGER NOT NULL,
+    ord INTEGER NOT NULL, kind TEXT NOT NULL, speaker TEXT, speech_start INTEGER NOT NULL,
+    from_n_int INTEGER NOT NULL, from_n_sub TEXT NOT NULL,
+    to_n_int INTEGER NOT NULL, to_n_sub TEXT NOT NULL, text TEXT NOT NULL
+);
+
+CREATE TABLE commentaries (
+    id INTEGER NOT NULL PRIMARY KEY, work_id INTEGER NOT NULL, slug TEXT NOT NULL,
+    title TEXT, author TEXT, lang TEXT, source TEXT, license TEXT
+);
+
+CREATE TABLE commentary_notes (
+    id INTEGER NOT NULL PRIMARY KEY, commentary_id INTEGER NOT NULL,
+    ord INTEGER NOT NULL, n TEXT NOT NULL, from_n_int INTEGER NOT NULL, to_n_int INTEGER NOT NULL,
+    html TEXT NOT NULL
+);
+
+CREATE TABLE lexicons (
+    id INTEGER NOT NULL PRIMARY KEY, slug TEXT NOT NULL, title TEXT NOT NULL, source TEXT, license TEXT
+);
+
+CREATE TABLE lexicon_entries (
+    id INTEGER NOT NULL PRIMARY KEY, lexicon_id INTEGER NOT NULL, key TEXT NOT NULL,
+    headword TEXT NOT NULL, homograph INTEGER NOT NULL, lemma_key TEXT NOT NULL,
+    loose_key TEXT NOT NULL, sort_key TEXT NOT NULL, html TEXT NOT NULL
+);
+
+selectMeta:
+SELECT value FROM meta WHERE key = ?;
+
+selectWorks:
+SELECT * FROM works ORDER BY id;
+
+selectWorkBySlug:
+SELECT * FROM works WHERE slug = ?;
+
+selectSections:
+SELECT * FROM sections WHERE work_id = ? ORDER BY ord;
+
+selectLines:
+SELECT * FROM lines WHERE work_id = ? ORDER BY ord;
+
+selectTokensForWork:
+SELECT tokens.* FROM tokens JOIN lines ON lines.id = tokens.line_id
+WHERE lines.work_id = ? ORDER BY lines.ord, tokens.ord;
+
+selectTranslations:
+SELECT * FROM translations WHERE work_id = ? ORDER BY id;
+
+selectSegments:
+SELECT * FROM translation_segments WHERE translation_id = ? ORDER BY ord;
+
+selectCommentaries:
+SELECT * FROM commentaries WHERE work_id = ? ORDER BY id;
+
+selectNotesForLine:
+SELECT * FROM commentary_notes
+WHERE commentary_id = ?
+  AND ((from_n_int > :prevN AND from_n_int <= :n) OR (from_n_int <= :n AND to_n_int >= :n))
+ORDER BY ord;
+
+selectLexicons:
+SELECT * FROM lexicons ORDER BY id;
+
+selectEntriesByKey:
+SELECT lexicon_entries.*, lexicons.slug AS lexicon_slug, lexicons.title AS lexicon_title
+FROM lexicon_entries JOIN lexicons ON lexicons.id = lexicon_entries.lexicon_id
+WHERE lemma_key = ? ORDER BY lexicon_id, homograph;
+
+selectEntriesByLooseKey:
+SELECT lexicon_entries.*, lexicons.slug AS lexicon_slug, lexicons.title AS lexicon_title
+FROM lexicon_entries JOIN lexicons ON lexicons.id = lexicon_entries.lexicon_id
+WHERE loose_key = ? ORDER BY lexicon_id, homograph;
+
+searchHeadwords:
+SELECT id, headword, lexicon_id FROM lexicon_entries
+WHERE loose_key LIKE :prefix || '%' ORDER BY sort_key LIMIT 50;
+
+CREATE TABLE short_definitions (
+    lemma_key TEXT NOT NULL PRIMARY KEY, source TEXT NOT NULL, definition TEXT NOT NULL
+);
+
+selectShortDefinition:
+SELECT definition, source FROM short_definitions WHERE lemma_key = ?;
+
+selectAllTranslations:
+SELECT * FROM translations ORDER BY id;
+
+selectAllCommentaries:
+SELECT * FROM commentaries ORDER BY id;

@@ -1,0 +1,18 @@
+# Build outputs and downloaded upstream sources
+pipeline/sources/
+pipeline/build/
+data/*.sqlite
+data/*.sqlite.gz
+data/*.sqlite.version
+.venv/
+__pycache__/
+*.pyc
+
+# Android / KMP
+app/.gradle/
+app/build/
+app/*/build/
+app/local.properties
+app/.idea/
+app/.kotlin/
+*.iml

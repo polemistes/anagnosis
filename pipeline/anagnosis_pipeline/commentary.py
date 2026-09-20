@@ -1,0 +1,120 @@
+"""Import Jebb's commentary (Perseus TEI P4) into an editable Markdown file.
+
+Output format (texts/<slug>/commentary-<name>.md):
+
+    # title: ...
+    # author: ...
+
+    ## 1            <- Greek line (or range like 1-3) the note refers to
+    **κοινόν** (kindred) ... note text in Markdown, paragraphs separated by blank lines
+
+Markdown subset used: **bold** (lemmas), *italic*, [text](#line) cross references to other notes.
+"""
+from __future__ import annotations
+
+import re
+from pathlib import Path
+
+from lxml import etree
+
+from . import greek
+from .tei_p4 import load as load_p4
+
+
+def _md(el, grk: bool) -> str:
+    tag = etree.QName(el).localname
+    grk = grk or el.get("lang") == "greek"
+    inner = _md_children(el, grk)
+    if tag == "lemma":
+        return f"**{inner.strip()}**"
+    if tag in ("emph", "title", "hi"):
+        return f"*{inner.strip()}*"
+    if tag == "ref":
+        target = el.get("target") or ""
+        m = re.match(r"^cl(\d+)$", target)
+        if m:
+            return f"[{inner.strip()}](#{m.group(1)})"
+        return inner
+    if tag == "note":
+        return f" ({inner.strip()}) "
+    if tag == "l":
+        return inner.strip() + " | "
+    if tag == "lg":
+        return " " + inner.strip().rstrip("| ").strip() + " "
+    if tag == "p":
+        return inner.strip() + "\n\n"
+    if tag in ("pb", "milestone"):
+        return ""
+    return inner
+
+
+def _md_children(el, grk: bool) -> str:
+    parts = [_txt(el.text, grk)]
+    for child in el:
+        if isinstance(child.tag, str):  # skip comments and processing instructions
+            parts.append(_md(child, grk))
+        parts.append(_txt(child.tail, grk))
+    return "".join(parts)
+
+
+def _txt(s: str | None, grk: bool) -> str:
+    if not s:
+        return ""
+    if grk:
+        s = greek.betacode_to_unicode(s)
+    s = s.replace("*", "\\*").replace("_", "\\_") if not grk else s
+    return re.sub(r"\s+", " ", s)
+
+
+def import_jebb_commentary(source: Path, out: Path, meta: dict[str, str]) -> int:
+    root = load_p4(source)
+    comm = None
+    for d in root.iter("div1"):
+        if d.get("type") == "commentary":
+            comm = d
+    if comm is None:
+        raise SystemExit("no <div1 type=commentary> found")
+    lines = [f"# {k}: {v}" for k, v in meta.items()]
+    lines.append("")
+    n_notes = 0
+    for d3 in comm.iter("div3"):
+        n = d3.get("n")
+        body = _md_children(d3, False)
+        body = re.sub(r"[ \t]+\n", "\n", body)
+        body = re.sub(r"\n{3,}", "\n\n", body).strip()
+        body = re.sub(r" +", " ", body)
+        lines.append(f"## {n}")
+        lines.append(body)
+        lines.append("")
+        n_notes += 1
+    out.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    return n_notes
+
+
+def parse_commentary_md(path: Path) -> tuple[dict[str, str], list[dict]]:
+    """Read a commentary Markdown file into (meta, notes). Note keys: n, from, to, body."""
+    meta: dict[str, str] = {}
+    notes: list[dict] = []
+    current: dict | None = None
+    buf: list[str] = []
+
+    def flush():
+        if current is not None:
+            current["body"] = "\n".join(buf).strip()
+            notes.append(current)
+
+    for raw in path.read_text(encoding="utf-8").splitlines():
+        if current is None and raw.startswith("#") and not raw.startswith("##"):
+            k, _, v = raw[1:].partition(":")
+            meta[k.strip()] = v.strip()
+            continue
+        m = re.match(r"^## (\d+[a-z]?)(?:-(\d+[a-z]?))?\s*$", raw)
+        if m:
+            flush()
+            current = {"n": m.group(1), "from": m.group(1), "to": m.group(2) or m.group(1)}
+            buf = []
+            continue
+        if current is not None:
+            buf.append(raw)
+    flush()
+    return meta, notes

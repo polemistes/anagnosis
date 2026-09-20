@@ -1,0 +1,455 @@
+"""Build the SQLite bundle from texts/ and the lexica.
+
+Conventions inside texts/<slug>/:
+    grc.txt               the Greek text
+    tokens.tsv            per-word lemma and morphology, aligned to grc.txt
+    <lang>-<name>.txt     a translation (e.g. eng-jebb.txt)
+    commentary-<name>.md  a commentary
+"""
+from __future__ import annotations
+
+import html
+import json
+import re
+import sqlite3
+import sys
+from pathlib import Path
+
+from . import greek
+from .commentary import parse_commentary_md
+from .import_perseus import read_tokens
+from .lexicon import Entry, parse_lsj, parse_middle_liddell
+from .textfmt import Line, Section, Speaker, Stage, parse_file
+
+SCHEMA_VERSION = 1
+
+SCHEMA = """
+CREATE TABLE meta (key TEXT PRIMARY KEY, value TEXT NOT NULL);
+
+CREATE TABLE works (
+    id INTEGER PRIMARY KEY, slug TEXT NOT NULL UNIQUE, title TEXT NOT NULL, author TEXT,
+    lang TEXT NOT NULL, source TEXT, edition TEXT, license TEXT
+);
+CREATE TABLE sections (
+    id INTEGER PRIMARY KEY, work_id INTEGER NOT NULL REFERENCES works(id), ord INTEGER NOT NULL,
+    level INTEGER NOT NULL, kind TEXT NOT NULL, label TEXT, first_line_id INTEGER
+);
+CREATE TABLE lines (
+    id INTEGER PRIMARY KEY, work_id INTEGER NOT NULL REFERENCES works(id), ord INTEGER NOT NULL,
+    n TEXT NOT NULL, n_int INTEGER NOT NULL, n_sub TEXT NOT NULL DEFAULT '',
+    section_id INTEGER REFERENCES sections(id), speaker TEXT, speech_start INTEGER NOT NULL DEFAULT 0,
+    text TEXT NOT NULL
+);
+CREATE INDEX lines_work_n ON lines(work_id, n_int, n_sub);
+CREATE TABLE tokens (
+    id INTEGER PRIMARY KEY, line_id INTEGER NOT NULL REFERENCES lines(id), ord INTEGER NOT NULL,
+    start INTEGER NOT NULL, end INTEGER NOT NULL, form TEXT NOT NULL,
+    lemma TEXT NOT NULL, lemma_key TEXT NOT NULL, postag TEXT NOT NULL DEFAULT '',
+    relation TEXT, head INTEGER, sentence TEXT
+);
+CREATE INDEX tokens_line ON tokens(line_id, ord);
+CREATE INDEX tokens_lemma ON tokens(lemma_key);
+
+CREATE TABLE translations (
+    id INTEGER PRIMARY KEY, work_id INTEGER NOT NULL REFERENCES works(id), slug TEXT NOT NULL,
+    title TEXT, translator TEXT, lang TEXT NOT NULL, source TEXT, edition TEXT, license TEXT
+);
+CREATE TABLE translation_segments (
+    id INTEGER PRIMARY KEY, translation_id INTEGER NOT NULL REFERENCES translations(id),
+    ord INTEGER NOT NULL, kind TEXT NOT NULL, speaker TEXT, speech_start INTEGER NOT NULL DEFAULT 0,
+    from_n_int INTEGER NOT NULL, from_n_sub TEXT NOT NULL DEFAULT '',
+    to_n_int INTEGER NOT NULL, to_n_sub TEXT NOT NULL DEFAULT '', text TEXT NOT NULL
+);
+CREATE INDEX translation_segments_range ON translation_segments(translation_id, from_n_int);
+
+CREATE TABLE commentaries (
+    id INTEGER PRIMARY KEY, work_id INTEGER NOT NULL REFERENCES works(id), slug TEXT NOT NULL,
+    title TEXT, author TEXT, lang TEXT, source TEXT, license TEXT
+);
+CREATE TABLE commentary_notes (
+    id INTEGER PRIMARY KEY, commentary_id INTEGER NOT NULL REFERENCES commentaries(id),
+    ord INTEGER NOT NULL, n TEXT NOT NULL, from_n_int INTEGER NOT NULL, to_n_int INTEGER NOT NULL,
+    html TEXT NOT NULL
+);
+CREATE INDEX commentary_notes_range ON commentary_notes(commentary_id, from_n_int);
+
+CREATE TABLE lexicons (
+    id INTEGER PRIMARY KEY, slug TEXT NOT NULL UNIQUE, title TEXT NOT NULL, source TEXT, license TEXT
+);
+CREATE TABLE lexicon_entries (
+    id INTEGER PRIMARY KEY, lexicon_id INTEGER NOT NULL REFERENCES lexicons(id), key TEXT NOT NULL,
+    headword TEXT NOT NULL, homograph INTEGER NOT NULL DEFAULT 0, lemma_key TEXT NOT NULL,
+    loose_key TEXT NOT NULL, sort_key TEXT NOT NULL, html TEXT NOT NULL
+);
+CREATE INDEX lexicon_entries_key ON lexicon_entries(lemma_key);
+CREATE INDEX lexicon_entries_loose ON lexicon_entries(loose_key);
+CREATE INDEX lexicon_entries_sort ON lexicon_entries(lexicon_id, sort_key);
+
+CREATE TABLE short_definitions (
+    lemma_key TEXT NOT NULL PRIMARY KEY, source TEXT NOT NULL, definition TEXT NOT NULL
+);
+"""
+
+LEXICONS = {
+    "lsj": {
+        "title": "Liddell, Scott, Jones: A Greek-English Lexicon (1940)",
+        "source": "Perseus Digital Library, https://github.com/PerseusDL/lexica",
+        "license": "CC BY-SA 4.0",
+    },
+    "ml": {
+        "title": "Liddell & Scott: An Intermediate Greek-English Lexicon (1889)",
+        "source": "Perseus Digital Library, hopper-texts-GreekRoman",
+        "license": "CC BY-SA 3.0 US",
+    },
+}
+
+
+def line_n_parts(n: str) -> tuple[int, str]:
+    m = re.match(r"^(\d+)([a-z]?)$", n)
+    if not m:
+        raise ValueError(f"bad line number {n!r}")
+    return int(m.group(1)), m.group(2)
+
+
+# ------------------------------------------------------------------ markdown
+
+def md_to_html(md: str) -> str:
+    paras = [p.strip() for p in re.split(r"\n\s*\n", md) if p.strip()]
+    out = []
+    for p in paras:
+        s = html.escape(p, quote=False)
+        s = re.sub(r"\[([^\]]+)\]\(#([0-9a-z-]+)\)", r'<a href="note:\2">\1</a>', s)
+        s = re.sub(r"(?<!\\)\*\*(.+?)(?<!\\)\*\*", r"<b>\1</b>", s)
+        s = re.sub(r"(?<!\\)\*(.+?)(?<!\\)\*", r"<i>\1</i>", s)
+        s = s.replace("\\*", "*").replace("\\_", "_")
+        s = re.sub(r"\s*\n\s*", " ", s)
+        out.append(f"<p>{s}</p>")
+    return "".join(out)
+
+
+# ------------------------------------------------------------------ lexica cache
+
+def load_lexica(sources: Path, cache_dir: Path) -> dict[str, list[Entry]]:
+    cache_dir.mkdir(parents=True, exist_ok=True)
+    result = {}
+    for slug, fn in (("lsj", parse_lsj), ("ml", parse_middle_liddell)):
+        cache = cache_dir / f"{slug}.jsonl"
+        if cache.exists():
+            entries = [Entry(**json.loads(l)) for l in cache.open(encoding="utf-8")]
+        else:
+            print(f"parsing {slug} (cached afterwards in {cache}) ...", file=sys.stderr)
+            entries = fn(sources)
+            with cache.open("w", encoding="utf-8") as f:
+                for e in entries:
+                    f.write(json.dumps(e.__dict__, ensure_ascii=False) + "\n")
+        result[slug] = entries
+    return result
+
+
+# ------------------------------------------------------------------ build
+
+def build(texts: Path, sources: Path, out: Path, include_full_lsj: bool = False) -> None:
+    out.parent.mkdir(parents=True, exist_ok=True)
+    if out.exists():
+        out.unlink()
+    db = sqlite3.connect(out)
+    db.executescript(SCHEMA)
+    db.executemany("INSERT INTO meta VALUES (?, ?)", [
+        ("schema_version", str(SCHEMA_VERSION)),
+        ("generator", "anagnosis_pipeline"),
+    ])
+
+    lemma_keys_used: set[str] = set()
+    lemmas_used: dict[str, str] = {}  # lemma_key -> lemma as written in tokens.tsv
+    overrides: dict[str, str] = {}
+    for work_dir in sorted(p for p in texts.iterdir() if p.is_dir() and (p / "grc.txt").exists()):
+        keys, lemmas = build_work(db, work_dir)
+        lemma_keys_used |= keys
+        lemmas_used.update(lemmas)
+        overrides.update(read_shortdef_overrides(work_dir / "shortdefs.tsv"))
+    build_short_definitions(db, sources, lemmas_used, overrides)
+
+    lexica = load_lexica(sources, sources.parent / "build")
+    for slug, entries in lexica.items():
+        info = LEXICONS[slug]
+        cur = db.execute(
+            "INSERT INTO lexicons (slug, title, source, license) VALUES (?, ?, ?, ?)",
+            (slug, info["title"], info["source"], info["license"]),
+        )
+        lex_id = cur.lastrowid
+        rows = []
+        for e in entries:
+            key = greek.lemma_key(e.headword)
+            loose = greek.strip_diacritics(e.headword)
+            if slug == "lsj" and not include_full_lsj and key not in lemma_keys_used and loose not in _loose_used:
+                continue  # keep only LSJ entries for lemmas that occur in the bundled texts
+            rows.append((lex_id, e.key, e.headword, e.homograph, key, loose, e.sort_key, e.html))
+        db.executemany(
+            "INSERT INTO lexicon_entries (lexicon_id, key, headword, homograph, lemma_key, loose_key, sort_key, html) VALUES (?,?,?,?,?,?,?,?)",
+            rows,
+        )
+        print(f"lexicon {slug}: {len(rows)} entries")
+
+    db.execute("PRAGMA user_version = %d" % SCHEMA_VERSION)
+    db.commit()
+    db.execute("VACUUM")
+    db.close()
+    # Sidecar with a content hash: the app recopies the bundle out of its assets when it changes.
+    import hashlib
+    digest = hashlib.sha256(out.read_bytes()).hexdigest()[:16]
+    out.with_suffix(out.suffix + ".version").write_text(digest + "\n", encoding="utf-8")
+    print(f"wrote {out} ({out.stat().st_size / 1e6:.1f} MB), version {digest}")
+
+
+_loose_used: set[str] = set()
+
+
+def build_work(db: sqlite3.Connection, work_dir: Path) -> set[str]:
+    slug = work_dir.name
+    doc = parse_file(work_dir / "grc.txt")
+    m = doc.meta
+    cur = db.execute(
+        "INSERT INTO works (slug, title, author, lang, source, edition, license) VALUES (?,?,?,?,?,?,?)",
+        (slug, m.get("title", slug), m.get("author"), m.get("lang", "grc"), m.get("source"), m.get("edition"), m.get("license")),
+    )
+    work_id = cur.lastrowid
+
+    # sections, speakers and lines
+    section_stack: list[tuple[int, int]] = []  # (level, section_id)
+    speaker = None
+    speech_start = 0
+    line_ids: dict[str, int] = {}
+    line_texts: dict[str, str] = {}
+    ord_line = ord_section = 0
+    pending_section_ids: list[int] = []
+    for item in doc.items:
+        if isinstance(item, Section):
+            while section_stack and section_stack[-1][0] >= item.level:
+                section_stack.pop()
+            ord_section += 1
+            cur = db.execute(
+                "INSERT INTO sections (work_id, ord, level, kind, label) VALUES (?,?,?,?,?)",
+                (work_id, ord_section, item.level, item.kind, item.label or None),
+            )
+            section_stack.append((item.level, cur.lastrowid))
+            pending_section_ids.append(cur.lastrowid)
+        elif isinstance(item, Speaker):
+            speaker = item.name or None
+            speech_start = 1
+        elif isinstance(item, Stage):
+            pass  # stage directions are not part of the Greek text as transmitted
+        elif isinstance(item, Line):
+            n_int, n_sub = line_n_parts(item.n)
+            ord_line += 1
+            cur = db.execute(
+                "INSERT INTO lines (work_id, ord, n, n_int, n_sub, section_id, speaker, speech_start, text) VALUES (?,?,?,?,?,?,?,?,?)",
+                (work_id, ord_line, item.n, n_int, n_sub, section_stack[-1][1] if section_stack else None, speaker, speech_start, item.text),
+            )
+            speech_start = 0
+            if item.n in line_ids:
+                raise SystemExit(f"{slug}: duplicate line number {item.n}")
+            line_ids[item.n] = cur.lastrowid
+            line_texts[item.n] = item.text
+            for sid in pending_section_ids:
+                db.execute("UPDATE sections SET first_line_id = ? WHERE id = ?", (cur.lastrowid, sid))
+            pending_section_ids = []
+
+    # tokens
+    lemma_keys: set[str] = set()
+    lemmas: dict[str, str] = {}
+    tokens_by_line: dict[str, list[dict]] = {}
+    for row in read_tokens(work_dir / "tokens.tsv"):
+        tokens_by_line.setdefault(row["line"], []).append(row)
+    for n, rows in tokens_by_line.items():
+        if n not in line_ids:
+            raise SystemExit(f"{slug}: tokens.tsv refers to unknown line {n}")
+        words = greek.words(line_texts[n])
+        if len(words) != len(rows):
+            raise SystemExit(f"{slug}: line {n}: {len(words)} words in text but {len(rows)} in tokens.tsv (run 'check')")
+        for row, (form, start, end) in zip(rows, words):
+            lemma = row["lemma"]
+            key = greek.lemma_key(lemma)
+            lemma_keys.add(key)
+            lemmas[key] = lemma
+            _loose_used.add(greek.strip_diacritics(lemma))
+            db.execute(
+                "INSERT INTO tokens (line_id, ord, start, end, form, lemma, lemma_key, postag, relation, head, sentence) VALUES (?,?,?,?,?,?,?,?,?,?,?)",
+                (line_ids[n], int(row["ord"]), start, end, form, lemma, key, row["postag"], row["relation"] or None,
+                 int(row["head"]) if row["head"].isdigit() else None, row["sentence"] or None),
+            )
+    print(f"work {slug}: {len(line_ids)} lines, {sum(len(r) for r in tokens_by_line.values())} tokens, {len(lemma_keys)} lemmas")
+
+    last_line = max(line_ids, key=lambda n: line_n_parts(n))
+    last_int, last_sub = line_n_parts(last_line)
+
+    # translations
+    for path in sorted(work_dir.glob("*-*.txt")):
+        if path.name.startswith("commentary-"):
+            continue
+        build_translation(db, work_id, path, (last_int, last_sub))
+
+    # commentaries
+    for path in sorted(work_dir.glob("commentary-*.md")):
+        build_commentary(db, work_id, path)
+
+    # glossary (hand-written entries, e.g. proper names missing from the lexica)
+    if (work_dir / "glossary.md").exists():
+        build_glossary(db, slug, work_dir / "glossary.md")
+
+    return lemma_keys, lemmas
+
+
+def read_shortdef_overrides(path: Path) -> dict[str, str]:
+    """texts/<work>/shortdefs.tsv: 'lemma<TAB>definition' lines; '#' comments."""
+    out: dict[str, str] = {}
+    if not path.exists():
+        return out
+    for raw in path.read_text(encoding="utf-8").splitlines():
+        if not raw.strip() or raw.startswith("#"):
+            continue
+        lemma, _, definition = raw.partition("\t")
+        if definition.strip():
+            out[greek.lemma_key(lemma)] = definition.strip()
+    return out
+
+
+def load_logeion_shortdefs(sources: Path) -> tuple[dict[str, str], dict[str, list[str]]]:
+    """Logeion short definitions: exact key -> definition, and loose key -> [exact keys]."""
+    exact: dict[str, str] = {}
+    loose: dict[str, list[str]] = {}
+    path = sources / "logeion-shortdefs.txt"
+    if not path.exists():
+        print(f"warning: {path} missing, no short definitions (run 'fetch')", file=sys.stderr)
+        return exact, loose
+    for raw in path.read_text(encoding="utf-8").splitlines():
+        lemma, _, definition = raw.partition("\t")
+        lemma, definition = lemma.strip(), definition.strip()
+        if not lemma or not definition or definition.isdigit():
+            continue
+        key = greek.lemma_key(lemma)
+        if key in exact:
+            continue
+        exact[key] = definition
+        loose.setdefault(greek.strip_diacritics(lemma), []).append(key)
+    return exact, loose
+
+
+def resolve_short_definition(lemma: str, exact: dict[str, str], loose: dict[str, list[str]]) -> str | None:
+    key = greek.lemma_key(lemma)
+    if key in exact:
+        return exact[key]
+    candidates = loose.get(greek.strip_diacritics(lemma), [])
+    if len(candidates) == 1:
+        return exact[candidates[0]]
+    return None
+
+
+def build_short_definitions(db: sqlite3.Connection, sources: Path, lemmas: dict[str, str], overrides: dict[str, str]) -> None:
+    exact, loose = load_logeion_shortdefs(sources)
+    rows = []
+    missing = []
+    for key, lemma in sorted(lemmas.items()):
+        if key in overrides:
+            rows.append((key, "override", overrides[key]))
+            continue
+        definition = resolve_short_definition(lemma, exact, loose)
+        if definition is None:
+            missing.append(lemma)
+        else:
+            rows.append((key, "logeion", definition))
+    db.executemany("INSERT INTO short_definitions (lemma_key, source, definition) VALUES (?,?,?)", rows)
+    print(f"short definitions: {len(rows)} of {len(lemmas)} lemmas ({len(missing)} missing; 'check' lists them)")
+
+
+def build_glossary(db: sqlite3.Connection, slug: str, path: Path) -> None:
+    meta: dict[str, str] = {}
+    entries: list[tuple[str, list[str]]] = []
+    for raw in path.read_text(encoding="utf-8").splitlines():
+        if not entries and raw.startswith("#") and not raw.startswith("##"):
+            k, _, v = raw[1:].partition(":")
+            meta[k.strip()] = v.strip()
+        elif raw.startswith("## "):
+            entries.append((raw[3:].strip(), []))
+        elif entries:
+            entries[-1][1].append(raw)
+    cur = db.execute(
+        "INSERT INTO lexicons (slug, title, source, license) VALUES (?,?,?,?)",
+        (f"{slug}-glossary", meta.get("title", "Glossary"), None, meta.get("license")),
+    )
+    lex_id = cur.lastrowid
+    for headword, body in entries:
+        db.execute(
+            "INSERT INTO lexicon_entries (lexicon_id, key, headword, homograph, lemma_key, loose_key, sort_key, html) VALUES (?,?,?,?,?,?,?,?)",
+            (lex_id, headword, headword, 0, greek.lemma_key(headword), greek.strip_diacritics(headword),
+             greek.strip_diacritics(headword), md_to_html("\n".join(body))),
+        )
+    print(f"glossary {path}: {len(entries)} entries")
+
+
+def build_translation(db: sqlite3.Connection, work_id: int, path: Path, last: tuple[int, str]) -> None:
+    doc = parse_file(path)
+    m = doc.meta
+    lang, _, name = path.stem.partition("-")
+    cur = db.execute(
+        "INSERT INTO translations (work_id, slug, title, translator, lang, source, edition, license) VALUES (?,?,?,?,?,?,?,?)",
+        (work_id, path.stem, m.get("title"), m.get("translator"), m.get("lang", lang), m.get("source"), m.get("edition"), m.get("license")),
+    )
+    tr_id = cur.lastrowid
+    # collect segments in order, then compute ranges from the next speech segment's start
+    segs: list[dict] = []
+    speaker = None
+    speech_start = 0
+    for item in doc.items:
+        if isinstance(item, Speaker):
+            speaker = item.name or None
+            speech_start = 1
+        elif isinstance(item, Stage):
+            segs.append({"kind": "stage", "speaker": None, "n": None, "text": item.text, "speech_start": 0})
+        elif isinstance(item, Line):
+            segs.append({"kind": "speech", "speaker": speaker, "n": item.n, "text": item.text, "speech_start": speech_start})
+            speech_start = 0
+    # stage directions take the start of the next speech segment (or the previous one at the end)
+    next_n = None
+    for s in reversed(segs):
+        if s["n"] is not None:
+            next_n = s["n"]
+        else:
+            s["n"] = next_n
+    prev_n = None
+    for s in segs:
+        if s["n"] is None:
+            s["n"] = prev_n or "1"
+        prev_n = s["n"]
+    starts = [line_n_parts(s["n"]) for s in segs]
+    count = 0
+    for i, s in enumerate(segs):
+        frm = starts[i]
+        to = last
+        for j in range(i + 1, len(segs)):
+            if segs[j]["kind"] == "speech" and starts[j] > frm:
+                nxt = starts[j]
+                to = (nxt[0] - 1, "") if nxt[1] == "" else (nxt[0], "")
+                break
+        if to < frm:
+            to = frm
+        db.execute(
+            "INSERT INTO translation_segments (translation_id, ord, kind, speaker, speech_start, from_n_int, from_n_sub, to_n_int, to_n_sub, text) VALUES (?,?,?,?,?,?,?,?,?,?)",
+            (tr_id, i + 1, s["kind"], s["speaker"], s["speech_start"], frm[0], frm[1], to[0], to[1], s["text"]),
+        )
+        count += 1
+    print(f"translation {path.stem}: {count} segments")
+
+
+def build_commentary(db: sqlite3.Connection, work_id: int, path: Path) -> None:
+    meta, notes = parse_commentary_md(path)
+    cur = db.execute(
+        "INSERT INTO commentaries (work_id, slug, title, author, lang, source, license) VALUES (?,?,?,?,?,?,?)",
+        (work_id, path.stem, meta.get("title"), meta.get("author"), meta.get("lang"), meta.get("source"), meta.get("license")),
+    )
+    c_id = cur.lastrowid
+    for i, note in enumerate(notes):
+        db.execute(
+            "INSERT INTO commentary_notes (commentary_id, ord, n, from_n_int, to_n_int, html) VALUES (?,?,?,?,?,?)",
+            (c_id, i + 1, note["n"], line_n_parts(note["from"])[0], line_n_parts(note["to"])[0], md_to_html(note["body"])),
+        )
+    print(f"commentary {path.stem}: {len(notes)} notes")
