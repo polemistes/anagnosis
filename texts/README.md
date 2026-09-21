@@ -87,3 +87,17 @@ definitions (Helma Dik, University of Chicago; based on the Perseus short defini
 https://github.com/helmadik/shortdefs); this file adds glosses for lemmas Logeion lacks or
 overrides Logeion's. Format: `lemma<TAB>definition`, `#` starts a comment. `check` lists the
 lemmas still without a gloss.
+
+## `commentary-jebb-apparatus.md`
+
+Jebb's critical notes (textual apparatus), transcribed from the Internet Archive scan of the
+1891 second edition (`sophocles03soph`, PDF pages 76–308). It uses the commentary format
+above; the lemma and any manuscript readings Jebb prints in bold are `**bold**`, and the
+line number in the heading is the first number of Jebb's label ("4 ff." becomes `## 4`).
+The transcription was made page by page from the images and can contain reading errors;
+corrections are welcome. To check that quoted words sit near their line:
+
+    .venv/bin/python -m anagnosis_pipeline verify-apparatus
+
+Entries it lists are usually lists of conjectures (words that by design are not in the text);
+a `NOLINE` or `ORDER` line points to a wrong line number.
