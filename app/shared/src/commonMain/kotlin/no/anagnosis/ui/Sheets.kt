@@ -24,7 +24,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import no.anagnosis.data.LineNotes
+import no.anagnosis.data.NoteGroup
 import no.anagnosis.data.NoteInfo
 import no.anagnosis.data.NoteKind
 import no.anagnosis.data.kind
@@ -105,7 +105,7 @@ fun NotesSheet(line: Lines, notes: List<NoteInfo>, onDismiss: () -> Unit) {
 /** Apparatus or commentary for all the lines of the current page. */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun PageNotesSheet(kind: NoteKind, entries: List<LineNotes>, onDismiss: () -> Unit) {
+fun PageNotesSheet(kind: NoteKind, entries: List<NoteGroup>, onDismiss: () -> Unit) {
     val state = rememberModalBottomSheetState(skipPartiallyExpanded = true)
     ModalBottomSheet(onDismissRequest = onDismiss, sheetState = state) {
         Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 20.dp, vertical = 8.dp)) {
@@ -116,7 +116,8 @@ fun PageNotesSheet(kind: NoteKind, entries: List<LineNotes>, onDismiss: () -> Un
             }
             entries.forEachIndexed { i, entry ->
                 if (i > 0) HorizontalDivider(Modifier.padding(vertical = 14.dp)) else Spacer(Modifier.height(12.dp))
-                LineHeading(entry.line)
+                Text(entry.heading, style = MaterialTheme.typography.titleMedium)
+                entry.lineText?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant) }
                 for (note in entry.notes) {
                     Spacer(Modifier.height(6.dp))
                     HtmlText(note.html)

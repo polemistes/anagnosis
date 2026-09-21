@@ -64,7 +64,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import no.anagnosis.data.AnagnosisRepository
-import no.anagnosis.data.LineNotes
+import no.anagnosis.data.NoteGroup
 import no.anagnosis.data.NoteInfo
 import no.anagnosis.data.NoteKind
 import no.anagnosis.data.kind
@@ -132,7 +132,7 @@ fun ReaderScreen(
     var notesLine by remember { mutableStateOf<Lines?>(null) }
     var notes by remember { mutableStateOf<List<NoteInfo>>(emptyList()) }
     var pageNotesKind by remember { mutableStateOf<NoteKind?>(null) }
-    var pageNotes by remember { mutableStateOf<List<LineNotes>>(emptyList()) }
+    var pageNotes by remember { mutableStateOf<List<NoteGroup>>(emptyList()) }
 
     val translation = data.translations.firstOrNull()
     val rows = remember(data, mode) { buildRows(data, mode, translation?.segments ?: emptyList()) }
@@ -184,8 +184,7 @@ fun ReaderScreen(
         val kind = pageNotesKind
         val page = pages.getOrNull(pagerState.currentPage)
         pageNotes = if (kind == null || page == null) emptyList() else withContext(Dispatchers.Default) {
-            val linesOnPage = data.lines.filter { it.n_int >= page.firstN && it.n_int <= page.lastN }
-            repository.notesForLines(data, linesOnPage, kind)
+            repository.notesForPage(data, page.firstN, page.lastN, kind)
         }
     }
     // Swiping while the Go here / Go back choice is showing counts as "Go here".

@@ -77,12 +77,25 @@ def import_jebb_commentary(source: Path, out: Path, meta: dict[str, str]) -> int
     lines = [f"# {k}: {v}" for k, v in meta.items()]
     lines.append("")
     n_notes = 0
+    def clean(md: str) -> str:
+        md = re.sub(r"[ \t]+\n", "\n", md)
+        md = re.sub(r"\n{3,}", "\n\n", md).strip()
+        return re.sub(r" +", " ", md)
+
     for d3 in comm.iter("div3"):
         n = d3.get("n")
-        body = _md_children(d3, False)
-        body = re.sub(r"[ \t]+\n", "\n", body)
-        body = re.sub(r"\n{3,}", "\n\n", body).strip()
-        body = re.sub(r" +", " ", body)
+        head = d3.find("head")
+        paragraphs = [c for c in d3 if isinstance(c.tag, str) and c.tag != "head"]
+        # A <head> like "4-6" gives the range of the first note; the rest belong to line n.
+        if head is not None and re.fullmatch(r"\d+-\d+", (head.text or "").strip()) and paragraphs:
+            lines.append(f"## {head.text.strip()}")
+            lines.append(clean(_md(paragraphs[0], False)))
+            lines.append("")
+            n_notes += 1
+            paragraphs = paragraphs[1:]
+            if not paragraphs:
+                continue
+        body = clean("".join(_md(p, False) for p in paragraphs))
         lines.append(f"## {n}")
         lines.append(body)
         lines.append("")

@@ -125,3 +125,9 @@ SELECT * FROM commentaries ORDER BY id;
 
 selectNoteStarts:
 SELECT DISTINCT from_n_int FROM commentary_notes ORDER BY from_n_int;
+
+selectNotesForPage:
+SELECT * FROM commentary_notes
+WHERE commentary_id = ?
+  AND ((from_n_int > :prevN AND from_n_int <= :lastN) OR (from_n_int <= :lastN AND to_n_int >= :firstN))
+ORDER BY from_n_int, to_n_int DESC, ord;

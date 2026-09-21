@@ -52,17 +52,24 @@ class AnagnosisRepository(driverFactory: DriverFactory) {
         }.filter { it.notes.isNotEmpty() }
     }
 
-    /** Notes of the given kind for every line in [lines] (the lines of one page). */
-    fun notesForLines(data: WorkData, lines: List<Lines>, kind: NoteKind): List<LineNotes> {
-        val commentaries = data.commentaries.filter { it.kind() == kind }
-        val out = mutableListOf<LineNotes>()
-        for (line in lines) {
-            val idx = data.lines.indexOf(line)
-            val prevN = if (idx > 0) data.lines[idx - 1].n_int else 0L
-            val notes = commentaries.flatMap { q.selectNotesForLine(it.id, prevN, line.n_int).executeAsList() }
-            if (notes.isNotEmpty()) out += LineNotes(line, notes)
+    /**
+     * Notes of the given kind for a page: every note that starts on the page (or on a skipped
+     * number just before it) or whose range overlaps it, grouped by line or range.
+     */
+    fun notesForPage(data: WorkData, firstN: Long, lastN: Long, kind: NoteKind): List<NoteGroup> {
+        val firstIdx = data.lines.indexOfFirst { it.n_int >= firstN }
+        val prevN = if (firstIdx > 0) data.lines[firstIdx - 1].n_int else 0L
+        val notes = data.commentaries.filter { it.kind() == kind }
+            .flatMap { q.selectNotesForPage(it.id, prevN, lastN, firstN).executeAsList() }
+            .sortedWith(compareBy({ it.from_n_int }, { -it.to_n_int }, { it.ord }))
+        val groups = mutableListOf<NoteGroup>()
+        for ((key, group) in notes.groupBy { it.n }) {
+            val first = group.first()
+            val heading = if (first.to_n_int > first.from_n_int) "Lines ${key.replace("-", "–")}" else "Line $key"
+            val lineText = data.lines.firstOrNull { it.n_int >= first.from_n_int }?.text
+            groups += NoteGroup(heading, lineText, group)
         }
-        return out
+        return groups
     }
 
     /** Attribution for everything in the bundle, for the About screen. */

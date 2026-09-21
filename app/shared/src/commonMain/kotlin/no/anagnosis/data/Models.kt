@@ -36,8 +36,8 @@ class WordInfo(val token: Tokens, val morphology: String, val shortDefinition: S
 
 class NoteInfo(val commentary: Commentaries, val notes: List<Commentary_notes>)
 
-/** Notes of one commentary for one line, for the page-wide Apparatus / Commentary views. */
-class LineNotes(val line: Lines, val notes: List<Commentary_notes>)
+/** One heading of the page-wide Apparatus / Commentary views: a line or range with its notes. */
+class NoteGroup(val heading: String, val lineText: String?, val notes: List<Commentary_notes>)
 
 /** Which kind of notes a commentary holds; decided from its slug. */
 enum class NoteKind(val label: String) { APPARATUS("Apparatus"), COMMENTARY("Commentary") }
