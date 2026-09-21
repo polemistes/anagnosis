@@ -274,7 +274,12 @@ fun ReaderScreen(
                 HorizontalPager(state = pagerState, modifier = Modifier.fillMaxSize(), beyondViewportPageCount = 1) { index ->
                     val page = pages.getOrNull(index) ?: return@HorizontalPager
                     if (mode == ViewMode.TRANSLATION) {
-                        TranslationPage(pageSegments.getOrNull(index) ?: emptyList(), styles, Modifier.fillMaxSize().padding(horizontal = horizontal, vertical = vertical))
+                        TranslationPage(
+                            pageSegments.getOrNull(index) ?: emptyList(),
+                            styles,
+                            showAnchors = settings.lineNumbers != LineNumberMode.NONE,
+                            Modifier.fillMaxSize().padding(horizontal = horizontal, vertical = vertical),
+                        )
                         return@HorizontalPager
                     }
                     Column(Modifier.fillMaxSize().padding(horizontal = horizontal, vertical = vertical)) {
@@ -572,7 +577,7 @@ private fun GreekLineRow(line: Lines, number: String?, numberColumn: Dp, data: W
  * one paragraph; each segment's anchor line number is shown as a small raised figure.
  */
 @Composable
-private fun TranslationPage(segments: List<Translation_segments>, styles: Styles, modifier: Modifier) {
+private fun TranslationPage(segments: List<Translation_segments>, styles: Styles, showAnchors: Boolean, modifier: Modifier) {
     val anchorStyle = SpanStyle(
         fontSize = 10.sp,
         color = MaterialTheme.colorScheme.outline,
@@ -597,8 +602,10 @@ private fun TranslationPage(segments: List<Translation_segments>, styles: Styles
             val paragraph = buildAnnotatedString {
                 group.forEachIndexed { k, g ->
                     if (k > 0) append(" ")
-                    withStyle(anchorStyle) { append(g.from_n_int.toString()) }
-                    append("\u2009")
+                    if (showAnchors) {
+                        withStyle(anchorStyle) { append(g.from_n_int.toString()) }
+                        append("\u2009")
+                    }
                     append(g.text)
                 }
             }
