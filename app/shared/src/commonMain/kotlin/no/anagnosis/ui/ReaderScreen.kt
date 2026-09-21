@@ -52,6 +52,7 @@ import androidx.compose.ui.text.TextMeasurer
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontStyle
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.rememberTextMeasurer
 import androidx.compose.ui.text.style.TextIndent
 import androidx.compose.ui.text.withLink
@@ -152,9 +153,9 @@ fun ReaderScreen(
     val size = settings.fontSize
     val styles = remember(typography, base, family, size) {
         Styles(
-            section = base.merge(typography.titleMedium.copy(fontFamily = family)),
-            subsection = base.merge(typography.labelMedium),
-            speaker = base.merge(typography.labelLarge.copy(fontFamily = family, fontSize = (size - 2).sp)),
+            section = base.merge(typography.titleLarge.copy(fontFamily = family, fontSize = (size + 5).sp, lineHeight = (size + 9).sp)),
+            subsection = base.merge(typography.titleSmall.copy(fontFamily = family, fontSize = (size - 1).sp, lineHeight = (size + 3).sp)),
+            speaker = base.merge(typography.titleMedium.copy(fontFamily = family, fontSize = size.sp, lineHeight = (size + 4).sp, fontWeight = FontWeight.SemiBold)),
             greek = base.merge(TextStyle(fontFamily = family, fontSize = size.sp, lineHeight = (size * 1.5f).sp, textIndent = TextIndent(restLine = 20.sp))),
             translation = base.merge(TextStyle(fontFamily = family, fontSize = (size - 1).sp, lineHeight = ((size - 1) * 1.5f).sp)),
             stage = base.merge(TextStyle(fontFamily = family, fontSize = (size - 2).sp, lineHeight = ((size - 2) * 1.4f).sp, fontStyle = FontStyle.Italic)),
@@ -264,7 +265,12 @@ fun ReaderScreen(
                         for (row in page.rows) {
                             when (row) {
                                 is ReaderRow.Section -> SectionHeader(row.section, styles)
-                                is ReaderRow.Speaker -> Text(row.name, style = styles.speaker, modifier = Modifier.padding(top = SPEAKER_TOP, bottom = ROW_GAP))
+                                is ReaderRow.Speaker -> Text(
+                                    row.name,
+                                    style = styles.speaker,
+                                    color = MaterialTheme.colorScheme.primary,
+                                    modifier = Modifier.padding(top = SPEAKER_TOP, bottom = ROW_GAP),
+                                )
                                 is ReaderRow.GreekLine -> GreekLineRow(
                                     line = row.line,
                                     number = page.numbers[row],
@@ -404,7 +410,13 @@ private fun paginate(
     return pages
 }
 
-private fun sectionLabel(section: Sections) = listOfNotNull(section.kind, section.label).joinToString(" ")
+/** "Prologue" when the section has a name; otherwise the kind and number, e.g. "Strophe 1". */
+private fun sectionLabel(section: Sections): String {
+    val label = section.label
+    if (!label.isNullOrBlank() && label.first().isLetter()) return label
+    val kind = section.kind.replaceFirstChar { it.uppercase() }
+    return listOfNotNull(kind, label?.takeIf { it.isNotBlank() }).joinToString(" ")
+}
 
 @Composable
 private fun SectionHeader(section: Sections, styles: Styles) {
@@ -412,7 +424,7 @@ private fun SectionHeader(section: Sections, styles: Styles) {
     Text(
         sectionLabel(section),
         style = if (section.level <= 1L) styles.section else styles.subsection,
-        color = MaterialTheme.colorScheme.secondary,
+        color = if (section.level <= 1L) MaterialTheme.colorScheme.onBackground else MaterialTheme.colorScheme.secondary,
         modifier = Modifier.padding(top = top, bottom = ROW_GAP),
     )
 }

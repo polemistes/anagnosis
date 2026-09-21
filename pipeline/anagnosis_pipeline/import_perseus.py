@@ -295,6 +295,7 @@ def import_antigone(sources: Path, texts: Path) -> None:
     )
     for w in renumber_from_treebank(grc, tb):
         print("  numbering: " + w, file=sys.stderr)
+    label_sections(grc, ANTIGONE_SECTIONS)
     write_file(out / "grc.txt", grc)
     print(f"wrote {out/'grc.txt'}: {len(grc.lines)} lines")
 
@@ -480,3 +481,20 @@ def renumber_from_treebank(doc: Document, tb: list[dict]) -> list[str]:
     for line, n in zip(lines, final):
         line.n = n
     return warnings
+
+
+# Names for the top-level sections (Perseus marks them only as episode/choral), in order.
+ANTIGONE_SECTIONS = [
+    "Prologue", "Parodos", "First episode", "First stasimon", "Second episode", "Second stasimon",
+    "Third episode", "Third stasimon", "Kommos", "Fourth episode", "Fourth stasimon",
+    "Fifth episode", "Fifth stasimon", "Exodos", "Kommos", "Exodos (continued)",
+]
+
+
+def label_sections(doc: Document, names: list[str]) -> None:
+    tops = [i for i in doc.items if isinstance(i, Section) and i.level == 1]
+    if len(tops) != len(names):
+        print(f"  warning: {len(tops)} top-level sections but {len(names)} names; labels not applied", file=sys.stderr)
+        return
+    for sec, name in zip(tops, names):
+        sec.label = name
