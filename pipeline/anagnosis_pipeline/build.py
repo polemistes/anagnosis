@@ -85,6 +85,11 @@ CREATE INDEX lexicon_entries_key ON lexicon_entries(lemma_key);
 CREATE INDEX lexicon_entries_loose ON lexicon_entries(loose_key);
 CREATE INDEX lexicon_entries_sort ON lexicon_entries(lexicon_id, sort_key);
 
+CREATE TABLE documents (
+    id INTEGER PRIMARY KEY, work_id INTEGER NOT NULL REFERENCES works(id), slug TEXT NOT NULL,
+    title TEXT NOT NULL, source TEXT, license TEXT, html TEXT NOT NULL
+);
+
 CREATE TABLE short_definitions (
     lemma_key TEXT NOT NULL PRIMARY KEY, source TEXT NOT NULL, definition TEXT NOT NULL
 );
@@ -292,6 +297,12 @@ def build_work(db: sqlite3.Connection, work_dir: Path) -> set[str]:
     for path in sorted(work_dir.glob("commentary-*.md")):
         build_commentary(db, work_id, path)
 
+    # free-standing documents: manuscripts and sigla, later perhaps introductions
+    for path in sorted(work_dir.glob("*.md")):
+        if path.name.startswith("commentary-") or path.name == "glossary.md":
+            continue
+        build_document(db, work_id, path)
+
     # glossary (hand-written entries, e.g. proper names missing from the lexica)
     if (work_dir / "glossary.md").exists():
         build_glossary(db, slug, work_dir / "glossary.md")
@@ -359,6 +370,22 @@ def build_short_definitions(db: sqlite3.Connection, sources: Path, lemmas: dict[
             rows.append((key, "logeion", definition))
     db.executemany("INSERT INTO short_definitions (lemma_key, source, definition) VALUES (?,?,?)", rows)
     print(f"short definitions: {len(rows)} of {len(lemmas)} lemmas ({len(missing)} missing; 'check' lists them)")
+
+
+def build_document(db: sqlite3.Connection, work_id: int, path: Path) -> None:
+    meta: dict[str, str] = {}
+    body: list[str] = []
+    for raw in path.read_text(encoding="utf-8").splitlines():
+        if not body and raw.startswith("# ") and ":" in raw:
+            k, _, v = raw[2:].partition(":")
+            meta[k.strip()] = v.strip()
+        elif body or raw.strip():
+            body.append(raw)
+    db.execute(
+        "INSERT INTO documents (work_id, slug, title, source, license, html) VALUES (?,?,?,?,?,?)",
+        (work_id, path.stem, meta.get("title", path.stem), meta.get("source"), meta.get("license"), md_to_html("\n".join(body))),
+    )
+    print(f"document {path.stem}: {meta.get('title')}")
 
 
 def build_glossary(db: sqlite3.Connection, slug: str, path: Path) -> None:

@@ -2,6 +2,7 @@ package no.anagnosis.data
 
 import no.anagnosis.DriverFactory
 import no.anagnosis.db.AnagnosisDatabase
+import no.anagnosis.db.Documents
 import no.anagnosis.db.Lines
 
 class AnagnosisRepository(driverFactory: DriverFactory) {
@@ -71,6 +72,9 @@ class AnagnosisRepository(driverFactory: DriverFactory) {
         }
         return groups
     }
+
+    /** A free-standing document of the work, e.g. "sigla" (manuscripts and symbols). */
+    fun document(data: WorkData, slug: String): Documents? = q.selectDocument(data.work.id, slug).executeAsOneOrNull()
 
     /** Attribution for everything in the bundle, for the About screen. */
     fun credits(): List<Credit> {

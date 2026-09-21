@@ -109,3 +109,10 @@ from the OCR text of the 1891 scan (`pipeline/sources/scans/sophocles03soph_djvu
 heading `## 4` becomes `## 4 ff.` when an OCR paragraph starts with that label and the same
 Greek word. Headings may carry a range, a mark, or neither: `## 4`, `## 4-6`, `## 4 ff.`.
 Marks the OCR missed can be added by hand.
+
+## Other documents (`sigla.md`, ...)
+
+Any other `*.md` file in the work's folder (not `commentary-*.md` or `glossary.md`) becomes a
+free-standing document in the bundle, with `# key: value` headers for title, source and
+license. `sigla.md` lists the manuscripts and symbols of the critical notes; the app shows it
+from the Manuscripts button of the Apparatus view.

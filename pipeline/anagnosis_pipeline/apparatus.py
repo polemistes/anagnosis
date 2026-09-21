@@ -33,8 +33,8 @@ def merge(batch_dir: Path, out: Path) -> int:
                 elif entries[current] and entries[current][-1].strip():
                     entries[current].append("")
                 continue
-            if current is not None and not raw.startswith("# "):
-                entries[current].append(raw)
+            if current is not None and not raw.startswith("# ") and not raw.startswith("*Sigla.*"):
+                entries[current].append(raw)  # the sigla preface lives in sigla.md instead
     lines = [HEADER]
     for n in order:
         body = "\n".join(entries[n]).strip("\n")

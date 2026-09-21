@@ -16,12 +16,14 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
 import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import no.anagnosis.data.NoteGroup
@@ -29,6 +31,7 @@ import no.anagnosis.data.NoteInfo
 import no.anagnosis.data.NoteKind
 import no.anagnosis.data.kind
 import no.anagnosis.data.WordInfo
+import no.anagnosis.db.Documents
 import no.anagnosis.db.Lines
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -105,11 +108,17 @@ fun NotesSheet(line: Lines, notes: List<NoteInfo>, onDismiss: () -> Unit) {
 /** Apparatus or commentary for all the lines of the current page. */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun PageNotesSheet(kind: NoteKind, entries: List<NoteGroup>, onDismiss: () -> Unit) {
+fun PageNotesSheet(kind: NoteKind, entries: List<NoteGroup>, sigla: Documents?, onDismiss: () -> Unit) {
     val state = rememberModalBottomSheetState(skipPartiallyExpanded = true)
+    var showSigla by remember { mutableStateOf(false) }
     ModalBottomSheet(onDismissRequest = onDismiss, sheetState = state) {
         Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 20.dp, vertical = 8.dp)) {
-            Text(kind.label, style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
+            Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+                Text(kind.label, style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary, modifier = Modifier.weight(1f))
+                if (sigla != null) {
+                    TextButton(onClick = { showSigla = true }) { Text("Manuscripts") }
+                }
+            }
             if (entries.isEmpty()) {
                 Spacer(Modifier.height(12.dp))
                 Text("Nothing on this page.", style = MaterialTheme.typography.bodyMedium)
@@ -123,6 +132,24 @@ fun PageNotesSheet(kind: NoteKind, entries: List<NoteGroup>, onDismiss: () -> Un
                     HtmlText(note.html)
                 }
             }
+            Spacer(Modifier.height(32.dp))
+        }
+    }
+    if (showSigla && sigla != null) {
+        DocumentSheet(sigla, onDismiss = { showSigla = false })
+    }
+}
+
+/** A free-standing document such as the list of manuscripts and sigla. */
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun DocumentSheet(document: Documents, onDismiss: () -> Unit) {
+    val state = rememberModalBottomSheetState(skipPartiallyExpanded = true)
+    ModalBottomSheet(onDismissRequest = onDismiss, sheetState = state) {
+        Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 20.dp, vertical = 8.dp)) {
+            Text(document.title, style = MaterialTheme.typography.titleMedium)
+            Spacer(Modifier.height(8.dp))
+            HtmlText(document.html)
             Spacer(Modifier.height(32.dp))
         }
     }

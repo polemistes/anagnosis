@@ -5,8 +5,6 @@
 # license: CC BY-SA 4.0 (transcription; the 1891 edition is in the public domain)
 
 ## 1
-*Sigla.* L=cod. Laur. 32. 9 (first half of eleventh century). r=one or more of the later MSS. This symbol is used where a more particular statement is unnecessary. ‘MSS.,’ after a reading, means that it is in all the MSS. known to the editor.
-
 **κοινὸν**] κλεινὸν Wecklein *Ars Soph. em.* 52: μοῦνον M. Schmidt.
 
 ## 2

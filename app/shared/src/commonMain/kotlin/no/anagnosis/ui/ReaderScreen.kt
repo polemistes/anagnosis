@@ -295,7 +295,10 @@ fun ReaderScreen(
     }
 
     wordInfo?.let { WordSheet(it, onDismiss = { selectedTokenId = null }) }
-    pageNotesKind?.let { kind -> PageNotesSheet(kind, pageNotes, onDismiss = { pageNotesKind = null }) }
+    pageNotesKind?.let { kind ->
+        val sigla = remember(kind) { if (kind == NoteKind.APPARATUS) repository.document(data, "sigla") else null }
+        PageNotesSheet(kind, pageNotes, sigla, onDismiss = { pageNotesKind = null })
+    }
     if (showOptions) {
         OptionsDialog(
             settings, onSettingsChange,
