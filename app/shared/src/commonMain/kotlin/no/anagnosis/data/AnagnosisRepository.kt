@@ -60,7 +60,7 @@ class AnagnosisRepository(driverFactory: DriverFactory) {
         val firstIdx = data.lines.indexOfFirst { it.n_int >= firstN }
         val prevN = if (firstIdx > 0) data.lines[firstIdx - 1].n_int else 0L
         val notes = data.commentaries.filter { it.kind() == kind }
-            .flatMap { q.selectNotesForPage(it.id, prevN, lastN, firstN).executeAsList() }
+            .flatMap { q.selectNotesForPage(it.id, prevN, lastN, firstN, OVERLAP_MAX_SPAN).executeAsList() }
             .sortedWith(compareBy({ it.from_n_int }, { -it.to_n_int }, { it.ord }))
         val groups = mutableListOf<NoteGroup>()
         for ((key, group) in notes.groupBy { it.n }) {
@@ -95,6 +95,9 @@ class AnagnosisRepository(driverFactory: DriverFactory) {
     }
 
     companion object {
+        /** Ranged notes shorter than this follow the reader across pages; longer ones stay on their first page. */
+        const val OVERLAP_MAX_SPAN = 20L
+
         /** Mirrors greek.strip_diacritics in the pipeline: base letters only, lower case. */
         fun looseKey(s: String): String {
             val sb = StringBuilder()

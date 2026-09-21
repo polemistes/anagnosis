@@ -101,3 +101,11 @@ corrections are welcome. To check that quoted words sit near their line:
 
 Entries it lists are usually lists of conjectures (words that by design are not in the text);
 a `NOLINE` or `ORDER` line points to a wrong line number.
+
+### "f." and "ff." marks
+
+Jebb labels many notes "4 ff." or "5 f.". Perseus dropped these, so the pipeline restores them
+from the OCR text of the 1891 scan (`pipeline/sources/scans/sophocles03soph_djvu.txt`): a
+heading `## 4` becomes `## 4 ff.` when an OCR paragraph starts with that label and the same
+Greek word. Headings may carry a range, a mark, or neither: `## 4`, `## 4-6`, `## 4 ff.`.
+Marks the OCR missed can be added by hand.

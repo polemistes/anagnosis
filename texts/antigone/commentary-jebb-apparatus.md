@@ -12,7 +12,7 @@
 ## 2
 **ἆρ’ οἶσθ’ ὅ, τι** L. For the emendations proposed here and in v. 3, see Appendix.
 
-## 4
+## 4 ff.
 **οὔτ’ ἄτης ἄτερ** MSS. For the proposed emendations, see Appendix.—Paley regards vv. 4—6 as interpolated: v. 6 is suspected by Nauck.—**οὐκ ὄπωπ’**] εἰσόπωπ’ B. Todt. The 1st hand in L wrote οὐχὶ (thinking of v. 3), but the letters χὶ were afterwards erased.—For οὐ, Blaydes conject. ὄν.
 
 ## 10
@@ -57,7 +57,7 @@
 ## 44
 **ἦ**] εἰ L, which an early hand sought to change into ἦ: η is also written above.
 
-## 45
+## 45 f.
 L points thus: τὸν γοῦν ἐμὸν καὶ τὸν σόν· ἢν σὺ μὴ θέλῃς ἀδελφὸν, etc.—Benedict (*Observ. in Soph.*, Leipsic, 1820, p. 104) is followed by several edd. in rejecting v. 46, which was already suspected in antiquity: see comment. In v. 45 Dindorf conject. κοὐ τὸν σόν: M. Schmidt, τὸν καὶ σόν: Nauck, ἔγωγε τὸν ἐμόν, τὸν σόν.
 
 ## 48
@@ -117,7 +117,7 @@ In L the first h. omitted μὴ: S added it.
 ## 96
 **οὐ**] οὖν Elms. on Eur. *Med.* 804, M. Seyffert, Dindorf.
 
-## 100
+## 100 f.
 **ἀελίοιο** L. The first hand wrote ἀελίου, which is also in the lemma of the scholium. An early hand then changed υ into ιο. Hence Bothe, ἀελίοιο κάλλιστον (omitting τό).
 
 ## 102
@@ -165,7 +165,7 @@ Before ὀξέα κλάζων, Erfurdt conjecturally supplies ἐπόρευσε�
 ## 134
 **ἀντίτυπα** L, which a later hand wished to make into ἀντιτύπως (not ἀντίτυπος, as the accent shows). The later MSS. read with L, except those which have the conject. of Triclinius, ἀντίτυπος. Porson restored ἀντιτύπᾳ. Bergk and Wieseler conject. ἀντιτυπὰς (cp. ἐντυπάς).
 
-## 138
+## 138 ff.
 **εἶχε δ’ ἄλλαι τὰ μὲν ἄλλαι τὰ δ’ ἐπ’ ἄλλοισ** | L. The first hand wrote ἄλλα—ἄλλα: the first corrector added ι to each. The word μὲν is represented by μ in an erasure, with < above it. The scribe had written τὰ δ’ ἄλλα (his eye running on to τὰ δ’ ἄλλοις): then, on perceiving the error, he deleted δ’, but, in the narrow space between τὰ and ἄλλα, could not write μὲν at full length. With regard to the last word of the v., Campbell thinks that the first hand wrote ἄλλουσ, and that the corrector made this into ἄλλοισ: but I doubt whether the ι was ever υ.—The only noteworthy variation in the later MSS. is that, instead of L's second ἄλλαι, V has δεινά, prob. a grammarian's conjecture.—For emendations, see Appendix.
 
 ## 140
@@ -183,7 +183,7 @@ In L the first σ of δεξιόσειροσ has been altered from χ either by t
 ## 154
 **βακχεῖοσ** MSS.: Βάκχιος Bothe.
 
-## 156
+## 156 f.
 **κρέων ὁ μενοικέωσ νεοχμὸσ | νεαραῖσι θεῶν ἐπὶ συντυχίαισ** | MSS.
 
 ## 159
@@ -207,7 +207,7 @@ In L the first σ of δεξιόσειροσ has been altered from χ either by t
 ## 180
 **ἐγκλείσασ** L: ἐγκλῄσας Elmsley. Cp. on *O. T.* 1388.
 
-## 182
+## 182 f.
 **μείζον’**] In L the first hand wrote μεῖζον: another hand added ’ after ν, indicating μείζον’, but left the circumflex unchanged. μεῖζον, which Wakefield conjectured, is read by Nauck and others.—αὑτοῦ] αὐτοῦ L.
 
 ## 184
@@ -228,7 +228,7 @@ In L the first σ of δεξιόσειροσ has been altered from χ either by t
 ## 193
 **τῶν** r, τῶνδ’ L.
 
-## 195
+## 195 f.
 **δορί** L, with χε (*i.e.* χερί) written above by S.
 
 ## 196
@@ -240,7 +240,7 @@ In L the first σ of δεξιόσειροσ has been altered from χ either by t
 ## 201
 **πρῆσαι**] Musgrave conject. πέρσαι.
 
-## 203
+## 203 f.
 **ἐκκεκηρύχθαι** (*sic*) **τάφῳ** MSS., and so Wolff, understanding λέγω. Musgrave’s ἐκκεκήρυκται τάφῳ has been received by most later edd. But Nauck gives ἐκκεκηρῦχθαι λέγω from the parody by Carneades in Diog. L. 4. 64, τοῦτον σχολῆς τῆσδ’ ἐκκεκηρῦχθαι λέγω, and so Wecklein.
 
 ## 206
@@ -357,7 +357,7 @@ For **λόφον δικαίως εἶχον**, Hartung writes νῶτ’ εὐλ
 ## 311
 L has ἁρπάζητε, not (as has been stated) ἁρπάξητε. The mistake was easy, because the ζ begins low down, being a continuation of the down stroke of the α. But the difference between αζ and αξ, as the scribe of L writes them, can be seen by comparing this word with ἐξέπραξαν in 303, or (*e.g.*) ἄξω in *O. C.* 819 with θαύμαζε *ib.* 1119.
 
-## 313
+## 313 f.
 **ἐκ τῶν . . σεσωσμένους.** Bergk rejects these two verses; M. Schmidt would spare them, but place them after v. 326.—Wecklein writes σεσωμένους (*Curae epigraph.* p. 60).
 
 ## 315
@@ -444,7 +444,7 @@ L has ἁρπάζητε, not (as has been stated) ἁρπάξητε. The mistake
 ## 363
 **ἀμηχάνων** L, with ουσ written over ων by a late hand. (Dübner says, ‘ων ex ουσ factum a m. rec.’; but ων is from the first hand, and has not been touched.)
 
-## 365
+## 365 f.
 **σοφόν τι**] Heimsoeth conject. δεινόν τι: Schmidt, τοῖόν τι: Gleditsch, τοσόνδε.
 
 ## 366
@@ -516,7 +516,7 @@ Nauck condenses these two verses into one, which he places in the text: πέπε
 ## 407
 **ἥκομεν**] ἱκόμην Kvíčala.
 
-## 408
+## 408 f.
 **δείν’**] δεῖν’ L.
 
 ## 410
@@ -675,13 +675,13 @@ These two vv. are rejected as spurious by A. Jacob, who is followed by Dindorf, 
 ## 520
 **λαχεῖν** L: λαβεῖν r.—**ἴσος** MSS. Bergk conject. ἴσα (which Nauck adopts), or ἴσον. Nauck also suggests ἴσους (if τούτους be kept in 519).
 
-## 521
+## 521 f.
 **κάτω ’στιν** MSS. In L, γρ. κάτωθεν is written above.
 
 ## 523
 **οὔτοι συνέχθειν**] In L the first hand seems to have written οὐ τοινυν εχειν, but added θ above χ, and S completed the correction.
 
-## 524
+## 524 f.
 **νυν**] νῦν L.
 
 ## 525
@@ -774,7 +774,7 @@ L gives this verse to the Chorus (not to Ismene, as has sometimes been stated). 
 ## 577
 **καὶ σοί γε κἀμοί**] F. Kern conject. καὶ σοί γε κοινῇ.
 
-## 578
+## 578 f.
 **ἐκ δὲ τοῦδε χρὴ** L. The τοῦδε has been made from τασδε: whether the latter was originally τάσδε or τᾶσδε, or accentless, is doubtful, but the circumflex has been added by the corrector just over the ο, perh. to avoid blotting in the erasure over υ. The correction ȣ had been written above before the letters ασ were altered in the text. The lemma of the schol. has ἐκ δὲ τᾶσδε. The later MSS. have ἐκ δὲ τοῦδε.
 
 ## 579
@@ -792,16 +792,16 @@ L gives this verse to the Chorus (not to Ismene, as has sometimes been stated). 
 ## 591
 **θῖνα καὶ δυσάνεμον | στόνωι βρέμουσι** (the β from τ?) δ’ ἀντιπλῆγεσ ἀκταί· L. So the later MSS. (βρέμουσιν for βρέμουσι δ’ Vat.). Bergk conject. δυσάνεμοι: Jacobs, δυσανέμῳ.
 
-## 593
+## 593 f.
 **Λαβδακιδᾶν**] μ deleted before β in L.—**οἴκων**] Seyffert conject. δόμων: Wecklein, κλύων or σκοπῶν.—**πήματα φθιμένων** MSS. For φθιμένων Dindorf conject. φθιτῶν, comparing Eur. *Alc.* 100, where φθιτῶν has become φθιμένων in some MSS. He also conjectured πήματ’ ἄλλ’ ἄλλοις, which Wecklein receives. Seyffert, πήματ’ ἐκφύντων.
 
 ## 597
 **ἐρείπει** r, ἐρίπει L. Seyffert conject. ἐπείγει.
 
-## 599
+## 599 f.
 **νῦν γὰρ ἐσχάτας ὑπὲρ** (ὕπερ L) | **ῥίζας τέτατο φάος** MSS.—Hermann proposed three different emendations: (1) ὑπὲρ | ῥίζας ὃ τέτατο, to which the schol. points. (2) ὑπὲρ ῥίζας ἐπέτατο, so that a new sentence begins with κατ’ αὖ. (3) ὅπερ | ῥίζας ἐτέτατο. This last he preferred.—Nauck would change ὑπέρ into θάλος (acc. governed by καταμᾷ). Keeping ὑπέρ, Theod. Kock and others would substitute θάλος for φάος.
 
-## 601
+## 601 f.
 **κατ’**] κᾆτ’ L, but a line has been drawn through the ῀. The later MSS. have κᾆτ’, κατ’, κᾷτ’ (V4), κἄτ’ (L2), or κατά νιν. Gaisford, writing κᾆτ’ with Brunck and others, reads ὑπὲρ | ῥίζας ἐτέτατο (see last note).—καὶ ταύταν Semitelos.
 
 ## 602
@@ -813,7 +813,7 @@ L gives this verse to the Chorus (not to Ismene, as has sometimes been stated). 
 ## 605
 **ὑπερβασίᾳ** r. Meineke conject. ὑπέρβασις (Pallis ὑπέρβιος) ἄν. Nauck, ἂν παρβασία.—**κατάσχοι** L, and so almost all the later MSS.: E seems to be alone in κατάσχῃ.
 
-## 606
+## 606 f.
 **παντογήρωσ** L, with gl. αἰώνιος above by S. The letters γηρ are underlined. παντογήρως was also read by the Scholiast. πανταγήρως A.—Bamberger conject. παντοθήρας. Schneidewin, πάντ’ ἀγρευτάς. Wolff, πανταγρεύς. Wecklein, πάντ’ ἀγρῶν (and formerly πάντ’ ἀφαυρῶν). Semitelos, πάντ’ ἀγρώσσων.
 
 ## 607
@@ -900,7 +900,7 @@ Seidler, whom Nauck and others follow, places these five verses after 671. See c
 ## 664
 Doederlein conject. ἤτοι ’πιτάσσειν.—The first hand in L wrote κρατύνουσιν νοεῖ. A later hand has made this into κρατοῦσιν ἐννοεῖ, the reading of some later MSS. (including A).
 
-## 666
+## 666 f.
 **στήσειε.** In L the final ε was added by S.
 
 ## 672
@@ -909,7 +909,7 @@ Doederlein conject. ἤτοι ’πιτάσσειν.—The first hand in L wrote
 ## 673
 **πόλισθ’** L, with τ written above by S. The later MSS. have πόλεις τ’ (as A), πόλεις δ’ (L2), or πόλεις (V4). The choice is between πόλεις ὄλλυσιν, ἥδ’ (Dindorf), and πόλεις τ’ ὄλλυσιν ἠδ’ (Nauck). L has ἠδ’ here and in 674. ἥδ’ is found in some later MSS. (V, Liv. a). See comment.
 
-## 674
+## 674 ff.
 **συμμάχηι** L: σὺν μάχῃ r. Reiske and Bothe conjectured συμμάχου, which has been generally received. Held, κἀν μάχῃ. M. Schmidt, σὺν τροπῇ, with στίχας for τροπὰς in 675.
 
 ## 676
@@ -933,7 +933,7 @@ Heimreich suspects both these two verses. Bergk and Meineke reject 680. As Weckl
 ## 687
 **χἀτέρῳ**] Erfurdt conject. χἀτέρως or χἀτέρᾳ. The schol. in L has δυνατόν σε [not δυνατὸν δὲ, as it has been reported] καὶ ἑτέρως καλῶς μεταβουλεύσασθαι.
 
-## 688
+## 688 f.
 **σοῦ** L, with ι written above by the first hand, and gl. in marg. by S, σὺ δ’ οὐ πέφυκας.
 
 ## 690
@@ -1143,7 +1143,7 @@ L divides thus: θεσμῶν· ἄμαχος γὰρ ἐμ|παίζει θεὸ
 ## 800
 **ἐμπαίζει**] Blaydes conject. ἐμπαίει: Herwerden, ἐνστάζει.
 
-## 804
+## 804 f.
 **παγκοίταν** L: παγκοίτην Wolff.
 
 ## 809
@@ -1167,7 +1167,7 @@ L divides the vv. thus: κού|ποτ— | Ἅιδας— | τὰν— | ἔγκ
 ## 822
 **θνατῶν ἀΐδαν** L. Dindorf writes Ἀΐδην: others, Ἅιδην.
 
-## 827
+## 827 ff.
 L divides the vv. thus: πετραία— | ὄμβρῳ— | ὡς φάτις— | τάκει (τέγγει)— | δειράδας— | δαίμων .. κατευνάζει.
 
 ## 828
@@ -1200,7 +1200,7 @@ L divides the vv. thus: πετραία— | ὄμβρῳ— | ὡς φάτις�
 ## 843
 **πολυκτήμονος** Nauck.
 
-## 844
+## 844 ff.
 **Διρκαῖαι κρῆναι**] Διρκαῖαι καὶ κρῆναι L (by dittographia).—L divides the vv. thus: ἰὼ— | Θήβασ τ’ | ξυμμάρτυρασ— | οἷα— | πρὸς ἔργμα—ἔρ|χομαι—ποταινίου.
 
 ## 846
@@ -1377,7 +1377,7 @@ L divides the vv. thus: παρὰ— | διδύμασ— | ἀκταὶ— | ἢ
 ## 966
 **παρα δε** (sic) κυανέων πελάγεων (note the accent) πετρῶν | διδύμασ ἁλὸσ L. Brunck omitted πετρῶν. For πελάγεων I conjecture πελάγει. See comment.
 
-## 968
+## 968 ff.
 **ἀκταὶ βοσπόριαι | ἦδ’ ὁ θρηικῶν σαλμυδησσόσ |** L. For ἦδ’ (ἢδ’ r) Triclinius wrote ἰδ’. Blaydes suggests ἵν’ or καί: Semitelos τ’ ἰδ’. After Θρῃκῶν, Boeckh supplies ἄξενος: Meineke, ἠϊών: H. Schütz, δύσχιμος.—**ἵν’ ἀγχίπολισ ἄρησ** L, with •δν• written over ἵν’ by S. Of the later MSS., some (as A, V) have ἀγχίπολις, others (as L2, Vat., Vat. b, Aug. b, Dresd. a) ἀγχίπτολις. Dindorf (formerly) conject. ἄγχουρος. Seyffert, ἀρχέπολις.
 
 ## 972
@@ -1584,7 +1584,7 @@ L divides thus: πολυώνυμε— | νύμφασ— | βαρυβρεμέτα
 ## 1119
 **ἰτάλειαν** L: Ἰταλίαν r.—R. Unger conject. Ἰκαρίαν (also suggested by Erfurdt): Bergk, Κιδαλίαν: M. Schmidt, Φιγαλίαν: Seyffert, φυταλίαν.—**μέδεισ** from μηδεῖσ L.
 
-## 1120
+## 1120 f.
 **παγκοίνουσ** L. The first hand sometimes writes υσ very like ισ: but normally it makes this distinction, that υ is joined to the σ, while ι is not; so in κόλποισ, 1121.
 
 ## 1121
@@ -1593,7 +1593,7 @@ L divides thus: πολυώνυμε— | νύμφασ— | βαρυβρεμέτα
 ## 1122
 **ὦ βακχεῦ· βακχᾶν μητρόπολιν** L. Herm. deleted ὦ: Musgrave added ὁ before μητρόπολιν.—**ματρόπολιν** Dindorf.
 
-## 1123
+## 1123 f.
 **ναίων παρ’ ὑγρὸν ἰσμηνοῦ | ῥέεθρον** L (the second ρ of ῥέεθρον from ν). Dindorf restored ναιετῶν. Triclinius gave ὑγρῶν..ῥεέθρων (Hermann ῥείθρων). I conjecture ὑγρὸν..ῥεῖθρόν τ’.
 
 ## 1126-1135
@@ -1620,7 +1620,7 @@ L divides thus: τὰν— | ὑπερτάταν— | ματρὶ— | καὶ �
 ## 1137
 **τὰν ἐκ πασᾶν τιμᾶσ | ὑπερτάταν πόλεων** L. The second α of ὑπερτάταν seems to have been ω: and some letters have been erased above the line. Dindorf conject. τὰν ἔκπαγλα τιμᾷς | ὑπὲρ πασᾶν πόλεων. Blaydes τὰν ἐξ ἁπασᾶν | ὑπερτιμᾷς πόλεων. Wecklein proposed (*Ars Soph. em.* p. 76) τὰν ἔκπαγλα τιμᾷς | ὑπερτιμᾷς πόλεων, but in his ed. (1874) has πασᾶν instead of τιμᾷς.
 
-## 1140
+## 1140 f.
 **καὶ νῦν** L. Tournier conject. καιρός.
 
 ## 1141
@@ -1644,7 +1644,7 @@ L divides thus: ἰὼ— | χοραγὲ— | φθεγμάτων— | παῖ�
 ## 1150
 **προφάνηθι ναξίαισ** L. Bergk restored προφάνηθ’, ὦναξ.—Musgrave had given προφάνηθ’, ὦ Ναξίαις. See on 1141.
 
-## 1152
+## 1152 f.
 **θυϊάσιν** L: Θυίαισιν Boeckh.
 
 ## 1156
@@ -1671,13 +1671,13 @@ After θάλλων, τε has been erased in L.
 ## 1165
 **τὰσ γὰρ ἡδονὰσ | ὅταν προδῶσιν· ἀνδρὸσ οὐ τίθημ’ ἐγώ·** L. Then follows v. 1168 πλούτει τε. So too the later MSS. Athenaeus 7. 280 C supplies verse 1167, quoting 1165—1171 thus: τὰς γὰρ ἡδονὰς | ὅταν προδῶσιν ἄνδρες, οὐ τίθημ’ ἐγὼ | ζῆν τοῦτον, ἀλλ’ ἔμψυχον ἡγοῦμαι νεκρόν. | πλούτει τε...πρὸς τὴν ἡδονήν. In 12. p. 547 C he quotes the same verses in the same words. Eustathius p. 957. 17 quotes τὰς γὰρ ἡδονὰς | ὅταν προδῶσιν ἄνδρα (*sic*), οὐ τίθημ’ ἐγώ, and remarks that, after these words, τὰ ἀκριβῆ ἀντίγραφα have the verse, ζῆν τοῦτον, ἀλλ’ ἔμψυχον ἡγοῦμαι νεκρόν. If his statement did not rest merely on Athenaeus, then, in the 12th cent., a century after L was written, there were MSS. extant which could have corrected it here; yet all our MSS. share its defect. This point should be noticed as favouring the view that all our MSS. come from L. The edition of Turnebus (Paris, 1553) was the first which incorporated v. 1167.—See Appendix.
 
-## 1168
+## 1168 f.
 **πλούτει** from πλουτεῖ L. **βούλει** is accentless in L, with an erasure above it.
 
 ## 1169
 **ζῆ**] ζῆι L: ζῆ r (with gl. ζῆθι in V).
 
-## 1170
+## 1170 f.
 **ἐγὼ**] Tournier proposes to write ἄγω, and to delete v. 1171.—**πριαίμην ἀνδρὶ**] Gleditsch conject. ποιοίμην πάντα.
 
 ## 1175
@@ -1752,7 +1752,7 @@ Reiske conject. φόβοισι κλέπτομαι: Tournier, θεοῖσι βλ�
 ## 1226
 **στυγὸν** L, with ν above γ from an early hand.
 
-## 1228
+## 1228 f.
 **οἷον**] ποῖον L.
 
 ## 1229
@@ -1800,7 +1800,7 @@ Blaydes conject. ἄμοιρος for ἄπειρος: Semitelos, δεινῶν f
 ## 1256
 **ἐστί που**] Bergk conject. ἔσθ’ ὅπου. Nauck suspects the verse (*Jahr. f. Philol.*, 65. 250).
 
-## 1259
+## 1259 f.
 **ἀλλοτρίαν | ἄτην**] Musgrave conject. ἀλλοτρίας | ἄτης.
 
 ## 1261-1269
@@ -1839,7 +1839,7 @@ L divides thus: οἴμοι | ἔχω— | θεὸσ— | ἔπαισεν— | �
 ## 1278
 **ΕΞΑΓΓΕΛΟΣ**] The designation in L is οἰκέτης here, and at v. 1282: ἄγγελος at vv. 1293, 1301, 1312, 1315.
 
-## 1279
+## 1279 f.
 **πρὸ χειρῶν**] προχειρῶν L.—**τάδε**] ταδὲ (not τὰ δὲ) from ταδε, L.—**τὰ δ’ ἐν δόμοισ** L first hand. A corrector has made τὰ δ’ into τάδ’.
 
 ## 1280
@@ -1932,7 +1932,7 @@ In L δειλαίαι has been made from δειλαία.
 ## 1320
 **ἐγὼ φᾶμ’ ἔτυμον** L. Semitelos conject. ἐγώ, φαμί, σύννομ’.
 
-## 1322
+## 1322 f.
 **ἄγετέ μ’ ὅτι τάχοσ, ἄγετέ μ’ ἐκ ποδῶν** (*sic*, not ἐκποδῶν) L. Unless the ος of τάχος is lengthened before the pause, the dochmiac requires either (*a*) a long syllable there, or (*b*) the addition of one short. Hence (*a*) Erfurdt proposed τάχιστ’ instead of τάχος. Many edd. receive this. Enger, ἄγ’ ἄγεθ’ ὅτι τάχος μ’, ἀπάγετ’ ἐκποδών. Meineke, ἄγετέ μ’, ὅτι τάχος μ’ ἀπάγετ’ ἐκποδών. Pallis, ἄγετέ μ’ ὅτι τάχος, τίθεσθέ μ’ ἐκποδών. (*b*) Schöne, ἀπάγετέ μ’ ὅτι τάχος, ἄγετέ μ’ ἐκποδών.
 
 ## 1327
@@ -1965,7 +1965,7 @@ L divides thus: ἄγοιτ’— | ὃς, ὦ παῖ— | ὃς, σέ τ’—
 ## 1342
 **ὅπᾱ πρὸσ πρότερον ἴδω· πᾶ καὶ θῶ· |** L. For πρότερον, some of the later MSS. (including A) have πότερον. For καὶ θῶ, Musgrave conjectured κλιθῶ. ὅπᾳ was first omitted by Seidler. See Appendix.
 
-## 1344
+## 1344 f.
 **λέχρια τάδ’ ἐν χεροῖν** L, and so most of the later MSS.: for τάδ’, Aug. b and Dresd. a give τά τ’. Brunck gave λέχρια τὰν χεροῖν: Kayser, λέχρια τὰ πρὸ χεροῖν.
 
 ## 1347-1353

@@ -334,6 +334,11 @@ def import_antigone(sources: Path, texts: Path) -> None:
         },
     )
     print(f"wrote {out/'commentary-jebb.md'}: {n} notes")
+    ocr = sources / "scans" / "sophocles03soph_djvu.txt"
+    if ocr.exists():
+        from .ffmarks import apply_ff_marks
+
+        print(f"  f./ff. marks from OCR: {apply_ff_marks(out / 'commentary-jebb.md', ocr)} headings")
 
 
 # ---------------------------------------------------------------- Perseus P4 Greek editions (betacode)

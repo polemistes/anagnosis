@@ -38,6 +38,11 @@ def main(argv: list[str] | None = None) -> int:
         out = TEXTS / "antigone" / "commentary-jebb-apparatus.md"
         n = merge(Path(args.batches), out)
         print(f"wrote {out}: {n} entries")
+        ocr = SOURCES / "scans" / "sophocles03soph_djvu.txt"
+        if ocr.exists():
+            from .ffmarks import apply_ff_marks
+
+            print(f"f./ff. marks from OCR: {apply_ff_marks(out, ocr)} headings")
     elif args.cmd == "verify-apparatus":
         from .apparatus import verify
         return 1 if verify(TEXTS / "antigone" / "commentary-jebb-apparatus.md", TEXTS / "antigone" / "grc.txt") else 0
