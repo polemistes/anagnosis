@@ -19,6 +19,12 @@ actual class SettingsStore(context: Context) {
         prefs.edit().putBoolean("intro_seen", true).apply()
     }
 
+    actual fun lastLine(): Long? = prefs.getLong("last_line", -1L).takeIf { it >= 0 }
+
+    actual fun saveLastLine(nInt: Long) {
+        prefs.edit().putLong("last_line", nInt).apply()
+    }
+
     actual fun save(settings: ReaderSettings) {
         prefs.edit()
             .putString("font", settings.font.name)

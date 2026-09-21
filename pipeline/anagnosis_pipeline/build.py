@@ -303,9 +303,9 @@ def build_work(db: sqlite3.Connection, work_dir: Path) -> set[str]:
         build_commentary(db, work_id, path)
 
     # free-standing documents: manuscripts and sigla, later perhaps introductions
-    for path in sorted(work_dir.glob("*.md")):
-        if path.name.startswith("commentary-") or path.name == "glossary.md":
-            continue
+    preferred = ["introduction", "appendix", "sigla"]
+    docs = [p for p in work_dir.glob("*.md") if not p.name.startswith("commentary-") and p.name != "glossary.md"]
+    for path in sorted(docs, key=lambda p: (preferred.index(p.stem) if p.stem in preferred else len(preferred), p.stem)):
         build_document(db, work_id, path)
 
     # glossary (hand-written entries, e.g. proper names missing from the lexica)

@@ -123,6 +123,9 @@ fun ReaderScreen(
     settings: ReaderSettings,
     onSettingsChange: (ReaderSettings) -> Unit,
     onHelp: () -> Unit,
+    onHome: () -> Unit,
+    startLine: Long,
+    onPositionChange: (Long) -> Unit,
     appVersion: String,
 ) {
     var mode by remember { mutableStateOf(ViewMode.GREEK) }
@@ -167,7 +170,7 @@ fun ReaderScreen(
     }
 
     // Position to keep across re-pagination (rotation, mode change): the first Greek line on screen.
-    var anchorN by remember { mutableStateOf(1L) }
+    var anchorN by remember { mutableStateOf(startLine) }
     var pages by remember { mutableStateOf<List<Page>>(emptyList()) }
     val pagerState = rememberPagerState { pages.size }
     val scope = rememberCoroutineScope()
@@ -177,11 +180,8 @@ fun ReaderScreen(
     var scrubOrigin by remember { mutableStateOf(0) }
     var scrubPopup by remember { mutableStateOf(false) }
 
-    LaunchedEffect(pagerState, pages) {
-        snapshotCurrentPage(pagerState.currentPage, pages)?.let { if (scrubPage == null) anchorN = it }
-    }
     LaunchedEffect(pagerState.currentPage) {
-        if (scrubPage == null) pages.getOrNull(pagerState.currentPage)?.let { anchorN = it.firstN }
+        if (scrubPage == null) pages.getOrNull(pagerState.currentPage)?.let { anchorN = it.firstN; onPositionChange(it.firstN) }
     }
     LaunchedEffect(pageNotesKind, pagerState.currentPage) {
         val kind = pageNotesKind
@@ -201,7 +201,7 @@ fun ReaderScreen(
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text(data.work.title, maxLines = 1, modifier = Modifier.clickable { showDocuments = true }) },
+                title = { Text(data.work.title, maxLines = 1, modifier = Modifier.clickable { onHome() }) },
                 actions = {
                     if (translation != null) {
                         SingleChoiceSegmentedButtonRow(Modifier.padding(end = 4.dp)) {
@@ -339,8 +339,6 @@ fun ReaderScreen(
         NotesSheet(line, notes, onDismiss = { notesLine = null })
     }
 }
-
-private fun snapshotCurrentPage(index: Int, pages: List<Page>): Long? = pages.getOrNull(index)?.firstN
 
 private fun buildRows(data: WorkData): List<ReaderRow> {
     val rows = mutableListOf<ReaderRow>()

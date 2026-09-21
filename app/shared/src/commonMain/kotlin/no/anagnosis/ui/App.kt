@@ -32,7 +32,7 @@ const val WORK_SLUG = "antigone"
 @Composable
 fun App(repository: AnagnosisRepository, settingsStore: SettingsStore, appVersion: String) {
     var settings by remember { mutableStateOf(settingsStore.load()) }
-    var showIntro by remember { mutableStateOf(!settingsStore.introSeen()) }
+    var showIntro by remember { mutableStateOf(false) }  // the home page covers the first-launch introduction
     val systemDark = isSystemInDarkTheme()
     val colors = remember(settings.theme, systemDark) { colorScheme(settings.theme, systemDark) }
     MaterialTheme(colorScheme = colors) {
@@ -42,8 +42,22 @@ fun App(repository: AnagnosisRepository, settingsStore: SettingsStore, appVersio
                 data = withContext(Dispatchers.Default) { repository.loadWork(WORK_SLUG) }
             }
             val loaded = data
+            var showHome by remember { mutableStateOf(settingsStore.lastLine() == null) }
+            var homeDocument by remember { mutableStateOf<String?>(null) }
             if (loaded == null) {
                 Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) { CircularProgressIndicator() }
+            } else if (showHome) {
+                HomeScreen(
+                    repository = repository,
+                    data = loaded,
+                    appVersion = appVersion,
+                    onRead = { showHome = false },
+                    onOpenDocument = { homeDocument = it },
+                )
+                homeDocument?.let { slug ->
+                    val doc = remember(slug) { repository.document(loaded, slug) }
+                    if (doc != null) DocumentSheet(doc, onDismiss = { homeDocument = null }) else homeDocument = null
+                }
             } else {
                 ReaderScreen(
                     repository = repository,
@@ -51,6 +65,9 @@ fun App(repository: AnagnosisRepository, settingsStore: SettingsStore, appVersio
                     settings = settings,
                     onSettingsChange = { settings = it; settingsStore.save(it) },
                     onHelp = { showIntro = true },
+                    onHome = { showHome = true },
+                    startLine = settingsStore.lastLine() ?: 1L,
+                    onPositionChange = { settingsStore.saveLastLine(it) },
                     appVersion = appVersion,
                 )
                 if (showIntro) {
