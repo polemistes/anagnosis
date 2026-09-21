@@ -36,6 +36,8 @@ def _md(el, grk: bool) -> str:
             return f"[{inner.strip()}](#{m.group(1)})"
         return inner
     if tag == "note":
+        if el.get("place") == "marg":
+            return ""  # marginal titles are used as headings by the introduction importer
         return f" ({inner.strip()}) "
     if tag == "l":
         return inner.strip() + " | "

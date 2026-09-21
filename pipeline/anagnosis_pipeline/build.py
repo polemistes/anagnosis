@@ -122,6 +122,11 @@ def md_to_html(md: str) -> str:
     paras = [p.strip() for p in re.split(r"\n\s*\n", md) if p.strip()]
     out = []
     for p in paras:
+        m = re.match(r"^(#{1,3}) (.+)$", p)
+        if m:
+            level = len(m.group(1))
+            out.append(f"<h{level}>{html.escape(m.group(2).strip(), quote=False)}</h{level}>")
+            continue
         s = html.escape(p, quote=False)
         s = re.sub(r"\[([^\]]+)\]\(#([0-9a-z-]+)\)", r'<a href="note:\2">\1</a>', s)
         s = re.sub(r"(?<!\\)\*\*(.+?)(?<!\\)\*\*", r"<b>\1</b>", s)
@@ -376,7 +381,7 @@ def build_document(db: sqlite3.Connection, work_id: int, path: Path) -> None:
     meta: dict[str, str] = {}
     body: list[str] = []
     for raw in path.read_text(encoding="utf-8").splitlines():
-        if not body and raw.startswith("# ") and ":" in raw:
+        if not body and re.match(r"^# [a-z]+: ", raw):
             k, _, v = raw[2:].partition(":")
             meta[k.strip()] = v.strip()
         elif body or raw.strip():

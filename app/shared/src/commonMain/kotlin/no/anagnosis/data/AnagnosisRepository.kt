@@ -73,6 +73,10 @@ class AnagnosisRepository(driverFactory: DriverFactory) {
         return groups
     }
 
+    /** Titles of the work's free-standing documents (introduction, appendix, sigla ...). */
+    fun documents(data: WorkData): List<Pair<String, String>> =
+        q.selectDocuments(data.work.id).executeAsList().map { it.slug to it.title }
+
     /** A free-standing document of the work, e.g. "sigla" (manuscripts and symbols). */
     fun document(data: WorkData, slug: String): Documents? = q.selectDocument(data.work.id, slug).executeAsOneOrNull()
 

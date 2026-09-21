@@ -127,6 +127,8 @@ fun ReaderScreen(
 ) {
     var mode by remember { mutableStateOf(ViewMode.GREEK) }
     var showOptions by remember { mutableStateOf(false) }
+    var showDocuments by remember { mutableStateOf(false) }
+    var openDocument by remember { mutableStateOf<String?>(null) }
     var showAbout by remember { mutableStateOf(false) }
     var selectedTokenId by remember { mutableStateOf<Long?>(null) }
     var wordInfo by remember { mutableStateOf<WordInfo?>(null) }
@@ -199,7 +201,7 @@ fun ReaderScreen(
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text(data.work.title, maxLines = 1) },
+                title = { Text(data.work.title, maxLines = 1, modifier = Modifier.clickable { showDocuments = true }) },
                 actions = {
                     if (translation != null) {
                         SingleChoiceSegmentedButtonRow(Modifier.padding(end = 4.dp)) {
@@ -306,6 +308,14 @@ fun ReaderScreen(
     pageNotesKind?.let { kind ->
         val sigla = remember(kind) { if (kind == NoteKind.APPARATUS) repository.document(data, "sigla") else null }
         PageNotesSheet(kind, pageNotes, sigla, onDismiss = { pageNotesKind = null })
+    }
+    if (showDocuments) {
+        val docs = remember { repository.documents(data) }
+        DocumentsSheet(docs, onOpen = { showDocuments = false; openDocument = it }, onDismiss = { showDocuments = false })
+    }
+    openDocument?.let { slug ->
+        val doc = remember(slug) { repository.document(data, slug) }
+        if (doc != null) DocumentSheet(doc, onDismiss = { openDocument = null }) else openDocument = null
     }
     if (showOptions) {
         OptionsDialog(

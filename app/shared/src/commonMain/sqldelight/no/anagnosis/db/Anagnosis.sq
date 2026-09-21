@@ -142,3 +142,6 @@ CREATE TABLE documents (
 
 selectDocument:
 SELECT * FROM documents WHERE work_id = ? AND slug = ?;
+
+selectDocuments:
+SELECT id, work_id, slug, title, source, license FROM documents WHERE work_id = ? ORDER BY id;

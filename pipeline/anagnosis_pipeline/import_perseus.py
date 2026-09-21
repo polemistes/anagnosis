@@ -334,6 +334,19 @@ def import_antigone(sources: Path, texts: Path) -> None:
         },
     )
     print(f"wrote {out/'commentary-jebb.md'}: {n} notes")
+    from .introduction import import_introduction
+
+    n = import_introduction(
+        sources / "jebb-antigone-commentary.xml",
+        out / "introduction.md",
+        {
+            "title": "Introduction",
+            "author": "Richard C. Jebb",
+            "source": "Perseus Digital Library, jebb.soph.ant_eng.xml (Sophocles: The Plays and Fragments, part III, Cambridge University Press, 1900)",
+            "license": "CC BY-SA 3.0 US",
+        },
+    )
+    print(f"wrote {out/'introduction.md'}: {n} sections")
     ocr = sources / "scans" / "sophocles03soph_djvu.txt"
     if ocr.exists():
         from .ffmarks import apply_ff_marks

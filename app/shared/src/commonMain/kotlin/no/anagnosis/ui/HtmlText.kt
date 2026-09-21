@@ -13,6 +13,7 @@ import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextDecoration
+import androidx.compose.ui.unit.sp
 
 /**
  * Renders the small HTML subset produced by the pipeline: p, br, b, i, span, a.
@@ -66,6 +67,11 @@ fun htmlToAnnotated(
                 }
                 "br" -> append("\n")
                 "b" -> { pushStyle(SpanStyle(fontWeight = FontWeight.Bold)); pushed++ }
+                "h1", "h2", "h3" -> {
+                    if (length > 0) append("\n\n")
+                    pushStyle(SpanStyle(fontWeight = FontWeight.Bold, fontSize = if (tag == "h1") 20.sp else 17.sp)); pushed++
+                    pendingParagraphBreak = false
+                }
                 "i" -> { pushStyle(SpanStyle(fontStyle = FontStyle.Italic)); pushed++ }
                 "span" -> {
                     val cls = CLASS.find(attrs)?.groupValues?.get(1) ?: ""
@@ -95,6 +101,7 @@ fun htmlToAnnotated(
         } else {
             val pushed = styleStack.removeLastOrNull() ?: 0
             repeat(pushed) { pop() }
+            if (tag == "h1" || tag == "h2" || tag == "h3") pendingParagraphBreak = true
         }
     }
     appendText(html.substring(pos))

@@ -1,7 +1,12 @@
 package no.anagnosis.ui
 
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.itemsIndexed
+import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -22,6 +27,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -31,6 +37,7 @@ import no.anagnosis.data.NoteInfo
 import no.anagnosis.data.NoteKind
 import no.anagnosis.data.kind
 import no.anagnosis.data.WordInfo
+import kotlinx.coroutines.launch
 import no.anagnosis.db.Documents
 import no.anagnosis.db.Lines
 
@@ -140,16 +147,89 @@ fun PageNotesSheet(kind: NoteKind, entries: List<NoteGroup>, sigla: Documents?, 
     }
 }
 
-/** A free-standing document such as the list of manuscripts and sigla. */
+/** A section of a document: the text between two <h1>/<h2> headings. */
+private class DocSection(val level: Int, val title: String?, val html: String)
+
+private fun splitSections(html: String): List<DocSection> {
+    val out = mutableListOf<DocSection>()
+    val re = Regex("<h([12])>(.*?)</h[12]>")
+    var pos = 0
+    var level = 0
+    var title: String? = null
+    for (m in re.findAll(html)) {
+        val body = html.substring(pos, m.range.first)
+        if (body.isNotBlank() || title != null) out += DocSection(level, title, body)
+        level = m.groupValues[1].toInt()
+        title = m.groupValues[2]
+        pos = m.range.last + 1
+    }
+    out += DocSection(level, title, html.substring(pos))
+    return out
+}
+
+/** A free-standing document (introduction, appendix, sigla), section by section with a contents list. */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun DocumentSheet(document: Documents, onDismiss: () -> Unit) {
     val state = rememberModalBottomSheetState(skipPartiallyExpanded = true)
+    val sections = remember(document.id) { splitSections(document.html) }
+    val listState = rememberLazyListState()
+    val scope = rememberCoroutineScope()
     ModalBottomSheet(onDismissRequest = onDismiss, sheetState = state) {
-        Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 20.dp, vertical = 8.dp)) {
-            Text(document.title, style = MaterialTheme.typography.titleMedium)
+        LazyColumn(state = listState, modifier = Modifier.fillMaxWidth(), contentPadding = PaddingValues(horizontal = 20.dp, vertical = 8.dp)) {
+            item { Text(document.title, style = MaterialTheme.typography.titleLarge, modifier = Modifier.padding(bottom = 8.dp)) }
+            if (sections.count { it.title != null } > 3) {
+                item {
+                    Column(Modifier.padding(bottom = 12.dp)) {
+                        sections.forEachIndexed { i, sec ->
+                            if (sec.title != null) {
+                                Text(
+                                    sec.title,
+                                    style = if (sec.level == 1) MaterialTheme.typography.labelLarge else MaterialTheme.typography.bodySmall,
+                                    color = MaterialTheme.colorScheme.primary,
+                                    modifier = Modifier
+                                        .fillMaxWidth()
+                                        .clickable { scope.launch { listState.animateScrollToItem(i + 2) } }
+                                        .padding(start = if (sec.level == 1) 0.dp else 12.dp, top = if (sec.level == 1) 8.dp else 2.dp),
+                                )
+                            }
+                        }
+                    }
+                    HorizontalDivider()
+                }
+            }
+            itemsIndexed(sections) { _, sec ->
+                if (sec.title != null) {
+                    Text(
+                        sec.title,
+                        style = if (sec.level == 1) MaterialTheme.typography.titleLarge else MaterialTheme.typography.titleMedium,
+                        modifier = Modifier.padding(top = if (sec.level == 1) 24.dp else 16.dp, bottom = 6.dp),
+                    )
+                }
+                if (sec.html.isNotBlank()) HtmlText(sec.html)
+            }
+            item { Spacer(Modifier.height(32.dp)) }
+        }
+    }
+}
+
+/** The list of documents, opened from the title. */
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun DocumentsSheet(documents: List<Pair<String, String>>, onOpen: (String) -> Unit, onDismiss: () -> Unit) {
+    val state = rememberModalBottomSheetState(skipPartiallyExpanded = false)
+    ModalBottomSheet(onDismissRequest = onDismiss, sheetState = state) {
+        Column(Modifier.fillMaxWidth().padding(horizontal = 20.dp, vertical = 8.dp)) {
+            Text("About this edition", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
             Spacer(Modifier.height(8.dp))
-            HtmlText(document.html)
+            for ((slug, title) in documents) {
+                Text(
+                    title,
+                    style = MaterialTheme.typography.titleMedium,
+                    modifier = Modifier.fillMaxWidth().clickable { onOpen(slug) }.padding(vertical = 12.dp),
+                )
+                HorizontalDivider()
+            }
             Spacer(Modifier.height(32.dp))
         }
     }
