@@ -10,6 +10,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.safeDrawingPadding
+import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Card
@@ -28,6 +29,9 @@ import androidx.compose.ui.unit.dp
 import no.anagnosis.data.AnagnosisRepository
 import no.anagnosis.data.CatalogEntry
 
+/** The widest a page of the library, a text's page or the search is laid out; wider screens centre it. */
+val CONTENT_MAX_WIDTH = 640.dp
+
 /** The library: every text the app knows about, installed ones first. */
 @Composable
 fun LibraryScreen(
@@ -43,6 +47,8 @@ fun LibraryScreen(
         Modifier.fillMaxSize().safeDrawingPadding().verticalScroll(rememberScrollState()).padding(horizontal = 24.dp, vertical = 32.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
+    // on a tablet the page keeps a readable width in the middle of the screen
+    Column(Modifier.widthIn(max = CONTENT_MAX_WIDTH).fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
         Spacer(Modifier.height(16.dp))
         Text("Anagnosis", style = MaterialTheme.typography.displaySmall, textAlign = TextAlign.Center)
         Text(
@@ -83,6 +89,7 @@ fun LibraryScreen(
             TextButton(onClick = { showHelp = true }) { Text("How to use") }
             TextButton(onClick = { showAbout = true }) { Text("About and credits") }
         }
+    }
     }
     if (showHelp) IntroDialog(onDismiss = { showHelp = false })
     if (showAbout) {

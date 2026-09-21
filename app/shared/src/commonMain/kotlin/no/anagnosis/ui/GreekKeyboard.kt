@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -33,7 +34,8 @@ fun GreekKeyboard(onKey: (String) -> Unit, onBackspace: () -> Unit, onDone: () -
         "ᾶ" to Polytonic.CIRCUMFLEX, "ᾳ" to Polytonic.SUBSCRIPT, "ϊ" to Polytonic.DIAERESIS,
     )
     val rows = listOf("ςερτυθιοπ", "ασδφγηξκλ", "ζχψωβνμ")
-    Column(Modifier.fillMaxWidth().background(MaterialTheme.colorScheme.surfaceVariant).padding(horizontal = 4.dp, vertical = 6.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+    Box(Modifier.fillMaxWidth().background(MaterialTheme.colorScheme.surfaceVariant), contentAlignment = Alignment.Center) {
+    Column(Modifier.widthIn(max = 560.dp).fillMaxWidth().padding(horizontal = 4.dp, vertical = 6.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(4.dp)) {
             for ((label, mark) in marks) {
                 Key(label, Modifier.weight(1f), accent = true) { onKey(mark.toString()) }
@@ -51,6 +53,7 @@ fun GreekKeyboard(onKey: (String) -> Unit, onBackspace: () -> Unit, onDone: () -
             Key("space", Modifier.weight(3f)) { onKey(" ") }
             Key("Done", Modifier.weight(1.5f), accent = true, onClick = onDone)
         }
+    }
     }
 }
 

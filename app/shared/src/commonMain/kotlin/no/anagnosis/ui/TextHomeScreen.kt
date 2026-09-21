@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.safeDrawingPadding
+import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Button
@@ -46,6 +47,7 @@ fun TextHomeScreen(
         Modifier.fillMaxSize().safeDrawingPadding().verticalScroll(rememberScrollState()).padding(horizontal = 28.dp, vertical = 32.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
+    Column(Modifier.widthIn(max = CONTENT_MAX_WIDTH).fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
         TextButton(onClick = onBack, modifier = Modifier.align(Alignment.Start)) { Text("‹ Library") }
         Spacer(Modifier.height(8.dp))
         Text(entry.titleEn.ifEmpty { entry.title }, style = MaterialTheme.typography.displaySmall, textAlign = TextAlign.Center)
@@ -76,6 +78,7 @@ fun TextHomeScreen(
             TextButton(onClick = { showHelp = true }) { Text("How to use") }
             TextButton(onClick = { showAbout = true }) { Text("About and credits") }
         }
+    }
     }
     openDocument?.let { slug ->
         val doc = remember(slug) { repository.document(data, slug) }

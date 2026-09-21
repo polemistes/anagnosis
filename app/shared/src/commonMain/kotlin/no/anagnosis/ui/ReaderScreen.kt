@@ -13,7 +13,9 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
@@ -84,7 +86,15 @@ import no.anagnosis.db.Translation_segments
 import no.anagnosis.prefs.LineNumberMode
 import no.anagnosis.prefs.ReaderSettings
 
-enum class ViewMode(val label: String) { GREEK("Greek"), TRANSLATION("English") }
+/** What the page shows. `BOTH` (Greek and translation side by side) is offered on wide screens only. */
+enum class ViewMode(val label: String) { GREEK("Greek"), TRANSLATION("English"), BOTH("Both") }
+
+/** A text column is never wider than this: about 80 characters of prose, or the longest verse at the largest size. */
+private val MAX_COLUMN = 580.dp
+/** The space between the Greek and the translation when they are shown side by side. */
+private val COLUMN_GAP = 40.dp
+/** Windows at least this wide can show the two columns next to each other. */
+private val WIDE = 840.dp
 
 /** One row of the reader. `nInt` is the Greek line number the row belongs to, for the progress bar. */
 sealed interface ReaderRow {
@@ -133,7 +143,8 @@ fun ReaderScreen(
     onPositionChange: (Long) -> Unit,
     appVersion: String,
 ) {
-    var mode by remember { mutableStateOf(ViewMode.GREEK) }
+    // The reader's choice of view, or null for the default: both columns on a wide screen, else the Greek.
+    var chosenMode by remember { mutableStateOf<ViewMode?>(null) }
     var showOptions by remember { mutableStateOf(false) }
     var showDocuments by remember { mutableStateOf(false) }
     var openDocument by remember { mutableStateOf<String?>(null) }
@@ -178,7 +189,7 @@ fun ReaderScreen(
     var scrubOrigin by remember { mutableStateOf(0) }
     var scrubPopup by remember { mutableStateOf(false) }
 
-    LaunchedEffect(pagerState.currentPage) {
+    LaunchedEffect(pagerState.currentPage, pages) {  // also once the pages exist, so opening a text counts as reading it
         if (scrubPage == null) pages.getOrNull(pagerState.currentPage)?.let { anchorN = it.firstN; onPositionChange(it.firstN) }
     }
     LaunchedEffect(pageNotesKind, pagerState.currentPage) {
@@ -196,6 +207,10 @@ fun ReaderScreen(
         }
     }
 
+    BoxWithConstraints(Modifier.fillMaxSize()) {
+    val wide = translation != null && maxWidth >= WIDE
+    val modes = if (wide) ViewMode.entries else ViewMode.entries.filter { it != ViewMode.BOTH }
+    val mode = chosenMode?.takeIf { it in modes } ?: if (wide) ViewMode.BOTH else ViewMode.GREEK
     Scaffold(
         topBar = {
             TopAppBar(
@@ -203,11 +218,11 @@ fun ReaderScreen(
                 actions = {
                     if (translation != null) {
                         SingleChoiceSegmentedButtonRow(Modifier.padding(end = 4.dp)) {
-                            ViewMode.entries.forEachIndexed { i, m ->
+                            modes.forEachIndexed { i, m ->
                                 SegmentedButton(
                                     selected = mode == m,
-                                    onClick = { mode = m },
-                                    shape = SegmentedButtonDefaults.itemShape(i, ViewMode.entries.size),
+                                    onClick = { chosenMode = m },
+                                    shape = SegmentedButtonDefaults.itemShape(i, modes.size),
                                     label = { Text(m.label, fontSize = 13.sp) },
                                 )
                             }
@@ -251,7 +266,11 @@ fun ReaderScreen(
             val density = LocalDensity.current
             val horizontal = 20.dp
             val vertical = 12.dp
-            val widthPx = with(density) { (maxWidth - horizontal * 2).roundToPx() }
+            // The text sits in a column of readable width, centred; side by side, each column gets half.
+            val available = maxWidth - horizontal * 2
+            val sideBySide = mode == ViewMode.BOTH
+            val columnWidth = (if (sideBySide) (available - COLUMN_GAP) / 2 else available).coerceAtMost(MAX_COLUMN)
+            val widthPx = with(density) { columnWidth.roundToPx() }
             val heightPx = with(density) { (maxHeight - vertical * 2).roundToPx() }
             // With numbers on every line, reserve a column for them so the text wraps around it.
             val numberColumnPx = if (settings.lineNumbers == LineNumberMode.ALL) {
@@ -332,34 +351,50 @@ fun ReaderScreen(
                     }
                 }
             }
+            val showAnchors = settings.lineNumbers != LineNumberMode.NONE
+            /** The page area: one centred column, or the Greek and the translation next to each other. */
+            @Composable
+            fun PageFrame(greek: @Composable () -> Unit, english: (@Composable () -> Unit)?, modifier: Modifier = Modifier) {
+                Box(modifier.fillMaxSize().padding(horizontal = horizontal, vertical = vertical), contentAlignment = Alignment.TopCenter) {
+                    if (sideBySide && english != null) {
+                        Row(Modifier.fillMaxHeight()) {
+                            Column(Modifier.width(columnWidth).fillMaxHeight()) { greek() }
+                            Spacer(Modifier.width(COLUMN_GAP))
+                            Column(Modifier.width(columnWidth).fillMaxHeight()) { english() }
+                        }
+                    } else {
+                        Column(Modifier.width(columnWidth).fillMaxHeight()) { if (english != null && mode == ViewMode.TRANSLATION) english() else greek() }
+                    }
+                }
+            }
             Box(Modifier.fillMaxSize().then(pinchModifier)) {
                 if (pages.isNotEmpty()) {
                     val pageSegments = remember(pages, translation) { segmentsByPage(pages, translation?.segments ?: emptyList(), data.lines) }
                     HorizontalPager(state = pagerState, modifier = Modifier.fillMaxSize(), beyondViewportPageCount = 1) { index ->
                         val page = pages.getOrNull(index) ?: return@HorizontalPager
-                        if (mode == ViewMode.TRANSLATION) {
-                            TranslationPage(
-                                pageSegments.getOrNull(index) ?: emptyList(),
-                                styles,
-                                showAnchors = settings.lineNumbers != LineNumberMode.NONE,
-                                Modifier.fillMaxSize().padding(horizontal = horizontal, vertical = vertical),
-                            )
-                            return@HorizontalPager
-                        }
-                        Column(Modifier.fillMaxSize().padding(horizontal = horizontal, vertical = vertical)) {
-                            PageContent(page, styles, data, numberColumn, forcedColumn, onWord = { selectedTokenId = it }, onLine = { notesLine = it })
-                        }
+                        PageFrame(
+                            greek = { PageContent(page, styles, data, numberColumn, forcedColumn, onWord = { selectedTokenId = it }, onLine = { notesLine = it }) },
+                            english = if (translation == null) null else {
+                                { TranslationPage(pageSegments.getOrNull(index) ?: emptyList(), styles, showAnchors, Modifier.fillMaxSize()) }
+                            },
+                        )
                     }
                 }
                 if (previewPage != null && previewStyles != null) {
-                    Column(
-                        Modifier.fillMaxSize().background(MaterialTheme.colorScheme.background).padding(horizontal = horizontal, vertical = vertical),
-                    ) {
-                        PageContent(previewPage, previewStyles, data, numberColumn, forcedColumn, onWord = {}, onLine = {})
-                    }
+                    val previewSegments = if (sideBySide && translation != null) {
+                        segmentsByPage(listOf(previewPage), translation.segments, data.lines).first()
+                    } else emptyList()
+                    PageFrame(
+                        greek = { PageContent(previewPage, previewStyles, data, numberColumn, forcedColumn, onWord = {}, onLine = {}) },
+                        english = if (translation == null) null else {
+                            { TranslationPage(previewSegments, previewStyles, showAnchors, Modifier.fillMaxSize()) }
+                        },
+                        modifier = Modifier.background(MaterialTheme.colorScheme.background),
+                    )
                 }
             }
         }
+    }
     }
 
     wordInfo?.let { WordSheet(it, onDismiss = { selectedTokenId = null }) }
