@@ -249,8 +249,13 @@ fun ReaderScreen(
             val vertical = 12.dp
             val widthPx = with(density) { (maxWidth - horizontal * 2).roundToPx() }
             val heightPx = with(density) { (maxHeight - vertical * 2).roundToPx() }
+            // With numbers on every line, reserve a column for them so the text wraps around it.
+            val numberColumnPx = if (settings.lineNumbers == LineNumberMode.ALL) {
+                measurer.measure("0000", styles.number).size.width + with(density) { NUMBER_GAP.roundToPx() }
+            } else 0
+            val numberColumn = with(density) { numberColumnPx.toDp() }
             val computed = remember(rows, widthPx, heightPx, styles, settings.lineNumbers) {
-                paginate(rows, measurer, styles, widthPx, heightPx, density, settings.lineNumbers)
+                paginate(rows, measurer, styles, widthPx - numberColumnPx, heightPx, density, settings.lineNumbers)
             }
             LaunchedEffect(computed) {
                 pages = computed
@@ -273,6 +278,7 @@ fun ReaderScreen(
                                 is ReaderRow.GreekLine -> GreekLineRow(
                                     line = row.line,
                                     number = page.numbers[row],
+                                    numberColumn = numberColumn,
                                     data = data,
                                     styles = styles,
                                     onWord = { selectedTokenId = it },
@@ -353,7 +359,8 @@ private fun paginate(
                 Measured(row, measurer.measure(row.name, styles.speaker, constraints = constraints).size.height + SPEAKER_TOP.px() + ROW_GAP.px())
             is ReaderRow.GreekLine -> {
                 val layout = measurer.measure(row.line.text, styles.greek, constraints = constraints)
-                val fits = textWidth - layout.getLineRight(0) >= numberWidth
+                // In the all-lines mode the caller has already reserved a column for the numbers.
+                val fits = numbering == LineNumberMode.ALL || textWidth - layout.getLineRight(0) >= numberWidth
                 Measured(row, layout.size.height, fits)
             }
             is ReaderRow.Segment -> {
@@ -429,7 +436,7 @@ private fun SectionHeader(section: Sections, styles: Styles) {
 }
 
 @Composable
-private fun GreekLineRow(line: Lines, number: String?, data: WorkData, styles: Styles, onWord: (Long) -> Unit, onLine: () -> Unit) {
+private fun GreekLineRow(line: Lines, number: String?, numberColumn: Dp, data: WorkData, styles: Styles, onWord: (Long) -> Unit, onLine: () -> Unit) {
     val tokens = data.tokensByLine[line.id] ?: emptyList()
     val textColor = MaterialTheme.colorScheme.onBackground
     val annotated = remember(line.id, textColor) {
@@ -448,7 +455,7 @@ private fun GreekLineRow(line: Lines, number: String?, data: WorkData, styles: S
         }
     }
     Box(Modifier.fillMaxWidth().clickable(onClick = onLine)) {
-        Text(text = annotated, style = styles.greek, modifier = Modifier.fillMaxWidth())
+        Text(text = annotated, style = styles.greek, modifier = Modifier.fillMaxWidth().padding(end = numberColumn))
         if (number != null) {
             Text(
                 number,
