@@ -95,7 +95,7 @@ sealed interface ReaderRow {
 /** A laid-out row: its rendering height and, for Greek lines, whether the line number fits on the right. */
 private class Measured(val row: ReaderRow, val height: Int, val numberFits: Boolean = false)
 
-class Page(val rows: List<ReaderRow>, val numbers: Map<ReaderRow, String>, val firstN: Long, val lastN: Long)
+class Page(val rows: List<ReaderRow>, val numbers: Map<ReaderRow, String>, val forced: Set<ReaderRow>, val firstN: Long, val lastN: Long)
 
 private class Styles(
     val section: TextStyle,
@@ -254,6 +254,7 @@ fun ReaderScreen(
                 measurer.measure("0000", styles.number).size.width + with(density) { NUMBER_GAP.roundToPx() }
             } else 0
             val numberColumn = with(density) { numberColumnPx.toDp() }
+            val forcedColumn = with(density) { (measurer.measure("0000", styles.number).size.width + NUMBER_GAP.roundToPx()).toDp() }
             val computed = remember(rows, widthPx, heightPx, styles, settings.lineNumbers) {
                 paginate(rows, measurer, styles, widthPx - numberColumnPx, heightPx, density, settings.lineNumbers)
             }
@@ -278,7 +279,7 @@ fun ReaderScreen(
                                 is ReaderRow.GreekLine -> GreekLineRow(
                                     line = row.line,
                                     number = page.numbers[row],
-                                    numberColumn = numberColumn,
+                                    numberColumn = if (row in page.forced) forcedColumn else numberColumn,
                                     data = data,
                                     styles = styles,
                                     onWord = { selectedTokenId = it },
@@ -348,7 +349,7 @@ private fun paginate(
     val constraints = Constraints(maxWidth = textWidth)
     val numberWidth = measurer.measure("0000", styles.number).size.width + NUMBER_GAP.px()
 
-    val measured = rows.map { row ->
+    val measured: MutableList<Measured> = rows.map { row ->
         when (row) {
             is ReaderRow.Section -> {
                 val top = if (row.section.level <= 1L) SECTION_TOP else SUBSECTION_TOP
@@ -368,24 +369,39 @@ private fun paginate(
                 Measured(row, measurer.measure(row.segment.text, style, constraints = constraints).size.height + SEGMENT_GAP.px())
             }
         }
-    }
+    }.toMutableList()
 
-    // Line numbers on the right, only where the first line of the verse leaves room. In the
-    // every-fifth mode a number that does not fit moves to the next line with room.
+    // Line numbers on the right. Every-fifth mode: the number goes on its own line if the first
+    // line of the verse leaves room, else on the following line, else on the preceding one
+    // (each showing its own number), else on its own line, which is re-wrapped around it.
     val numbers = HashMap<ReaderRow, String>()
-    var pending = false
-    for (m in measured) {
-        val row = m.row as? ReaderRow.GreekLine ?: continue
+    val forced = HashSet<ReaderRow>()
+    val greekIdx = measured.withIndex().filter { it.value.row is ReaderRow.GreekLine }.map { it.index }
+    fun lineAt(k: Int) = measured[greekIdx[k]].row as ReaderRow.GreekLine
+    fun fitsAt(k: Int) = measured[greekIdx[k]].numberFits
+    for ((k, i) in greekIdx.withIndex()) {
+        val row = lineAt(k)
         when (numbering) {
             LineNumberMode.NONE -> {}
-            LineNumberMode.ALL -> if (m.numberFits) numbers[row] = row.line.n
+            LineNumberMode.ALL -> if (measured[i].numberFits) numbers[row] = row.line.n
             LineNumberMode.FIFTH -> {
-                if (row.line.n_int % 5 == 0L || row.line.n_sub.isNotEmpty()) pending = true
-                if (pending && m.numberFits) {
-                    numbers[row] = row.line.n
-                    pending = false
+                val isTarget = row.line.n_int % 5 == 0L || row.line.n_sub.isNotEmpty()
+                if (!isTarget) continue
+                when {
+                    fitsAt(k) -> numbers[row] = row.line.n
+                    k + 1 < greekIdx.size && fitsAt(k + 1) && lineAt(k + 1) !in numbers -> numbers[lineAt(k + 1)] = lineAt(k + 1).line.n
+                    k > 0 && fitsAt(k - 1) && lineAt(k - 1) !in numbers -> numbers[lineAt(k - 1)] = lineAt(k - 1).line.n
+                    else -> { numbers[row] = row.line.n; forced += row }
                 }
             }
+        }
+    }
+    // Lines that must make room for a forced number are laid out narrower.
+    for (i in greekIdx) {
+        val row = measured[i].row
+        if (row in forced) {
+            val layout = measurer.measure((row as ReaderRow.GreekLine).line.text, styles.greek, constraints = Constraints(maxWidth = textWidth - numberWidth))
+            measured[i] = Measured(row, layout.size.height, true)
         }
     }
 
@@ -394,7 +410,7 @@ private fun paginate(
     var used = 0
     fun flush() {
         if (current.isEmpty()) return
-        pages += Page(current, numbers, current.first().nInt, current.last().nInt)
+        pages += Page(current, numbers, forced, current.first().nInt, current.last().nInt)
         current = mutableListOf()
         used = 0
     }
