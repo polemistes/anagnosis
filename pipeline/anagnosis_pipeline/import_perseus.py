@@ -100,6 +100,10 @@ def read_treebank(path: Path) -> list[dict]:
             cite = w.get("cite", "")
             if cite:
                 current_line = cite.rsplit(":", 1)[-1]
+                # "161.1" is the treebank's spelling of the extra line 161b
+                m = re.match(r"^(\d+)\.(\d+)$", current_line)
+                if m:
+                    current_line = m.group(1) + "abcdefgh"[int(m.group(2))]
             form = greek.nfc(w.get("form", ""))
             out.append(
                 {
@@ -151,8 +155,6 @@ LEMMA_FIXES = {
 TOKEN_FIXES = {
     ("591", 2): {"lemma": "βρέμω", "postag": "v3ppia---"},
     ("591", 3): {"lemma": "δέ", "postag": "g--------"},
-    ("1321", 2): {"lemma": "ὅς", "postag": "p-s---na-"},
-    ("1321", 3): {"lemma": "τις", "postag": "p-s---na-"},
 }
 
 
@@ -279,17 +281,20 @@ def import_antigone(sources: Path, texts: Path) -> None:
     out = texts / "antigone"
     out.mkdir(parents=True, exist_ok=True)
 
-    grc = tei_to_document(
-        sources / "antigone.grc2.xml",
+    tb = read_treebank(sources / "antigone.tb.xml")
+    grc = p4_text_to_document(
+        sources / "antigone.perseus-gk.xml",
         {
             "title": "Ἀντιγόνη",
             "author": "Σοφοκλῆς",
             "lang": "grc",
-            "source": "urn:cts:greekLit:tlg0011.tlg002.perseus-grc2",
-            "edition": "Sophocles, vol. 1, ed. Francis Storr, Loeb Classical Library, 1912 (Perseus Digital Library)",
-            "license": "CC BY-SA 4.0",
+            "source": "Perseus Digital Library, soph.ant_gk.xml",
+            "edition": "The Antigone of Sophocles, ed. R. C. Jebb, Cambridge University Press, 1891 (Perseus Digital Library)",
+            "license": "CC BY-SA 3.0 US",
         },
     )
+    for w in renumber_from_treebank(grc, tb):
+        print("  numbering: " + w, file=sys.stderr)
     write_file(out / "grc.txt", grc)
     print(f"wrote {out/'grc.txt'}: {len(grc.lines)} lines")
 
@@ -307,7 +312,6 @@ def import_antigone(sources: Path, texts: Path) -> None:
     write_file(out / "eng-jebb.txt", eng)
     print(f"wrote {out/'eng-jebb.txt'}: {len(eng.lines)} paragraphs")
 
-    tb = read_treebank(sources / "antigone.tb.xml")
     rows, warnings = align_tokens(grc, tb)
     write_tokens(out / "tokens.tsv", rows)
     missing = sum(1 for r in rows if not r["lemma"])
@@ -329,3 +333,150 @@ def import_antigone(sources: Path, texts: Path) -> None:
         },
     )
     print(f"wrote {out/'commentary-jebb.md'}: {n} notes")
+
+
+# ---------------------------------------------------------------- Perseus P4 Greek editions (betacode)
+
+def p4_text_to_document(path: Path, meta: dict[str, str]) -> Document:
+    """Older Perseus Greek editions: TEI P4, betacode, <l> mostly without n (only every fifth line)."""
+    from .tei_p4 import load as load_p4
+
+    root = load_p4(path)
+    body = root.find(".//body")
+    doc = Document(meta=dict(meta))
+    counter = 0
+    explicit: set[int] = set()  # indices (in doc.lines) of lines whose number the file states
+
+    def text_of(el) -> str:
+        parts = [el.text or ""]
+        for child in el:
+            if isinstance(child.tag, str):
+                parts.append(text_of(child))
+            parts.append(child.tail or "")
+        return "".join(parts)
+
+    def walk(node, depth: int):
+        nonlocal counter
+        for child in node:
+            if not isinstance(child.tag, str):
+                continue
+            tag = child.tag
+            if tag in ("div1", "div2", "div3"):
+                doc.items.append(Section(depth, child.get("type", "div"), child.get("n", "")))
+                walk(child, depth + 1)
+            elif tag == "sp":
+                sp = child.find("speaker")
+                doc.items.append(Speaker(greek.betacode_to_unicode(text_of(sp).strip()) if sp is not None else ""))
+                walk(child, depth)
+            elif tag == "l":
+                n = child.get("n")
+                if n:
+                    m = re.match(r"^(\d+)([a-z]?)$", n)
+                    counter = int(m.group(1))
+                    label = n
+                    explicit.add(len(doc.lines))
+                else:
+                    counter += 1
+                    label = str(counter)
+                raw = text_of(child)
+                raw = raw.replace("[", "⟦").replace("]", "⟧")  # keep brackets out of betacode's way
+                text = greek.betacode_to_unicode(re.sub(r"\s+", " ", raw).strip())
+                text = text.replace("⟦", "[").replace("⟧", "]").replace("'", greek.APOSTROPHE)
+                text = re.sub(r"\s+([,.;·])", r"\1", text)
+                if text in P4_DROP_DUPLICATE_LINES and doc.lines and doc.lines[-1].text == text:
+                    counter -= 1
+                    explicit.discard(len(doc.lines))
+                    continue
+                doc.items.append(Line(label, text))
+            elif tag in ("speaker", "milestone", "pb", "head"):
+                pass
+            else:
+                walk(child, depth)
+
+    walk(body, 1)
+    doc.meta["_explicit"] = ",".join(str(i) for i in sorted(explicit))
+    return doc
+
+
+# Lines in the Perseus P4 Jebb text that are data errors (a line printed twice); matched by text.
+P4_DROP_DUPLICATE_LINES = {"ξύν θʼ ἱπποκόμοις κορύθεσσιν."}
+
+
+def renumber_from_treebank(doc: Document, tb: list[dict]) -> list[str]:
+    """Give each line the number the treebank cites for most of its words.
+
+    The treebank was annotated on Jebb's text and carries Jebb's traditional numbering, which
+    the Perseus P4 file only marks every fifth line. Lines that share a number get letter
+    suffixes (323, 323a). Returns warnings.
+    """
+    from collections import Counter
+
+    rows, warnings = align_tokens(doc, tb)
+    by_line: dict[str, Counter] = {}
+    tb_by_id = {(w["sentence"], w["word_id"]): w for w in tb}
+    for r in rows:
+        if not r["word_id"] or "+" in r["word_id"]:
+            continue
+        w = tb_by_id.get((r["sentence"], r["word_id"]))
+        if w and w["line"]:
+            by_line.setdefault(r["line"], Counter())[w["line"]] += 1
+
+    lines = doc.lines
+    explicit = sorted(int(i) for i in doc.meta.pop("_explicit", "").split(",") if i)
+
+    def vote_for(idx: int) -> str | None:
+        votes = by_line.get(lines[idx].n)
+        return votes.most_common(1)[0][0] if votes else None
+
+    def n_int(n: str) -> int:
+        return int(re.match(r"\d+", n).group())
+
+    new_numbers: list[str] = [""] * len(lines)
+    for i in explicit:
+        new_numbers[i] = lines[i].n
+    # Number the lines between consecutive anchors. When the count of lines equals the count of
+    # free numbers, count; otherwise let the treebank's citations decide which numbers are
+    # skipped (lyric numbering) or shared (short lines), keeping the sequence monotonic.
+    bounds = [-1] + explicit + [len(lines)]
+    for a, b in zip(bounds, bounds[1:]):
+        lo = n_int(new_numbers[a]) if a >= 0 else 0
+        hi = n_int(new_numbers[b]) if b < len(lines) else 10**9
+        if b < len(lines) and re.search(r"[a-z]$", new_numbers[b]):
+            hi += 1  # an anchor like 161b leaves room for a plain 161 before it
+        idxs = list(range(a + 1, b))
+        free = hi - lo - 1
+        if not idxs:
+            continue
+        if len(idxs) == free or hi == 10**9 and all(vote_for(i) is None for i in idxs):
+            for k, i in enumerate(idxs):
+                new_numbers[i] = str(lo + 1 + k)
+            continue
+        prev = lo
+        for pos, i in enumerate(idxs):
+            remaining = len(idxs) - pos  # lines still to number, this one included
+            vote = vote_for(i)
+            v = n_int(vote) if vote else None
+            if v is not None and prev < v < hi and (hi - v) >= 1 and (v + remaining - 1) < hi + remaining:
+                n = vote
+            elif prev + 1 < hi:
+                n = str(prev + 1)
+            else:
+                n = str(prev)
+                warnings.append(f"line {lines[i].n}: shares number {prev} (no room before {hi})")
+            new_numbers[i] = n
+            prev = n_int(n)
+    # letter suffixes for lines sharing a number
+    seen: dict[str, int] = {}
+    final: list[str] = []
+    explicit_set = set(explicit)
+    for idx, n in enumerate(new_numbers):
+        base = re.match(r"^\d+", n).group()
+        count = seen.get(base, 0)
+        if idx in explicit_set:
+            final.append(n)  # keep the file's own label, e.g. 161b
+        else:
+            final.append(base if count == 0 else base + "abcdefgh"[count - 1])
+        seen[base] = count + 1
+    for line, n in zip(lines, final):
+        line.n = n
+    return warnings
