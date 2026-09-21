@@ -52,6 +52,19 @@ class AnagnosisRepository(driverFactory: DriverFactory) {
         }.filter { it.notes.isNotEmpty() }
     }
 
+    /** Notes of the given kind for every line in [lines] (the lines of one page). */
+    fun notesForLines(data: WorkData, lines: List<Lines>, kind: NoteKind): List<LineNotes> {
+        val commentaries = data.commentaries.filter { it.kind() == kind }
+        val out = mutableListOf<LineNotes>()
+        for (line in lines) {
+            val idx = data.lines.indexOf(line)
+            val prevN = if (idx > 0) data.lines[idx - 1].n_int else 0L
+            val notes = commentaries.flatMap { q.selectNotesForLine(it.id, prevN, line.n_int).executeAsList() }
+            if (notes.isNotEmpty()) out += LineNotes(line, notes)
+        }
+        return out
+    }
+
     /** Attribution for everything in the bundle, for the About screen. */
     fun credits(): List<Credit> {
         val out = mutableListOf<Credit>()

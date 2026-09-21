@@ -24,7 +24,10 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import no.anagnosis.data.LineNotes
 import no.anagnosis.data.NoteInfo
+import no.anagnosis.data.NoteKind
+import no.anagnosis.data.kind
 import no.anagnosis.data.WordInfo
 import no.anagnosis.db.Lines
 
@@ -85,22 +88,47 @@ fun NotesSheet(line: Lines, notes: List<NoteInfo>, onDismiss: () -> Unit) {
     val state = rememberModalBottomSheetState(skipPartiallyExpanded = false)
     ModalBottomSheet(onDismissRequest = onDismiss, sheetState = state) {
         Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 20.dp, vertical = 8.dp)) {
-            Text("Line ${line.n}", style = MaterialTheme.typography.headlineSmall)
-            Text(line.text, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            LineHeading(line)
             for (info in notes) {
                 Spacer(Modifier.height(12.dp))
-                Text(
-                    listOfNotNull(info.commentary.author, info.commentary.title).joinToString(", "),
-                    style = MaterialTheme.typography.labelSmall,
-                    color = MaterialTheme.colorScheme.primary,
-                )
+                Text(info.commentary.kind().label, style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.primary)
                 for (note in info.notes) {
                     Spacer(Modifier.height(6.dp))
-                    Text("§ ${note.n}", style = MaterialTheme.typography.labelMedium)
                     HtmlText(note.html)
                 }
             }
             Spacer(Modifier.height(32.dp))
         }
     }
+}
+
+/** Apparatus or commentary for all the lines of the current page. */
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun PageNotesSheet(kind: NoteKind, entries: List<LineNotes>, onDismiss: () -> Unit) {
+    val state = rememberModalBottomSheetState(skipPartiallyExpanded = true)
+    ModalBottomSheet(onDismissRequest = onDismiss, sheetState = state) {
+        Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 20.dp, vertical = 8.dp)) {
+            Text(kind.label, style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
+            if (entries.isEmpty()) {
+                Spacer(Modifier.height(12.dp))
+                Text("Nothing on this page.", style = MaterialTheme.typography.bodyMedium)
+            }
+            entries.forEachIndexed { i, entry ->
+                if (i > 0) HorizontalDivider(Modifier.padding(vertical = 14.dp)) else Spacer(Modifier.height(12.dp))
+                LineHeading(entry.line)
+                for (note in entry.notes) {
+                    Spacer(Modifier.height(6.dp))
+                    HtmlText(note.html)
+                }
+            }
+            Spacer(Modifier.height(32.dp))
+        }
+    }
+}
+
+@Composable
+private fun LineHeading(line: Lines) {
+    Text("Line ${line.n}", style = MaterialTheme.typography.titleMedium)
+    Text(line.text, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
 }

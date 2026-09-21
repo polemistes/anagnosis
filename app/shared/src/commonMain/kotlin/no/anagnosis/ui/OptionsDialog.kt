@@ -18,6 +18,9 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.RadioButton
+import androidx.compose.material3.SegmentedButton
+import androidx.compose.material3.SegmentedButtonDefaults
+import androidx.compose.material3.SingleChoiceSegmentedButtonRow
 import androidx.compose.material3.Slider
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
@@ -32,6 +35,7 @@ import androidx.compose.ui.unit.sp
 import no.anagnosis.data.Credit
 import no.anagnosis.prefs.ColorTheme
 import no.anagnosis.prefs.FontChoice
+import no.anagnosis.prefs.LineNumberMode
 import no.anagnosis.prefs.ReaderSettings
 
 @Composable
@@ -73,6 +77,17 @@ fun OptionsDialog(
                     steps = ReaderSettings.MAX_SIZE - ReaderSettings.MIN_SIZE - 1,
                 )
                 Spacer(Modifier.height(8.dp))
+                Text("Line numbers", style = MaterialTheme.typography.labelLarge)
+                SingleChoiceSegmentedButtonRow(Modifier.fillMaxWidth().padding(top = 6.dp, bottom = 12.dp)) {
+                    LineNumberMode.entries.forEachIndexed { i, m ->
+                        SegmentedButton(
+                            selected = settings.lineNumbers == m,
+                            onClick = { onChange(settings.copy(lineNumbers = m)) },
+                            shape = SegmentedButtonDefaults.itemShape(i, LineNumberMode.entries.size),
+                            label = { Text(m.label, fontSize = 13.sp) },
+                        )
+                    }
+                }
                 Text("Colours", style = MaterialTheme.typography.labelLarge)
                 Row(Modifier.fillMaxWidth().padding(top = 8.dp), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
                     for (theme in ColorTheme.entries) {
@@ -180,11 +195,11 @@ fun IntroDialog(onDismiss: () -> Unit) {
                 )
                 Spacer(Modifier.height(12.dp))
                 HelpItem("Tap a word", "to see its dictionary form, its inflection and a short definition. The LSJ and Middle Liddell buttons open the full dictionary entries.")
-                HelpItem("Tap a line outside the words", "to read the commentary on it. A small dot at the end of a line shows that a note exists.")
+                HelpItem("Apparatus and Commentary", "at the bottom open Jebb's critical notes or his commentary for all the lines on the page. Tapping a line outside the words shows the notes for that line alone.")
                 HelpItem("Swipe left or right", "to turn the page.")
                 HelpItem("Press or slide on the bar at the bottom", "to look at any part of the text, then choose Go here or Go back.")
                 HelpItem("Greek / English", "at the top switches between the text and the translation.")
-                HelpItem("The gear", "opens the options: font, text size and colours. You can reopen this help there.")
+                HelpItem("The gear", "opens the options: font, text size, line numbers and colours. You can reopen this help there.")
             }
         },
     )

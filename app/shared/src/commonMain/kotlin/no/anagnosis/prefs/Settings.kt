@@ -17,10 +17,13 @@ enum class ColorTheme(val label: String, val background: Long, val text: Long, v
     BLACK("Black", 0xFF000000, 0xFFC8C8C8, true),
 }
 
+enum class LineNumberMode(val label: String) { ALL("All"), FIFTH("Every 5th"), NONE("None") }
+
 data class ReaderSettings(
     val font: FontChoice = FontChoice.SYSTEM,
     val fontSize: Int = 17,
     val theme: ColorTheme = ColorTheme.SYSTEM,
+    val lineNumbers: LineNumberMode = LineNumberMode.FIFTH,
 ) {
     companion object {
         const val MIN_SIZE = 13

@@ -1,7 +1,6 @@
 package no.anagnosis.ui
 
 import androidx.compose.foundation.Canvas
-import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.gestures.awaitEachGesture
 import androidx.compose.foundation.gestures.awaitFirstDown
@@ -16,9 +15,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.pager.HorizontalPager
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Settings
@@ -66,12 +63,16 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import no.anagnosis.data.AnagnosisRepository
+import no.anagnosis.data.LineNotes
 import no.anagnosis.data.NoteInfo
+import no.anagnosis.data.NoteKind
+import no.anagnosis.data.kind
 import no.anagnosis.data.WordInfo
 import no.anagnosis.data.WorkData
 import no.anagnosis.db.Lines
 import no.anagnosis.db.Sections
 import no.anagnosis.db.Translation_segments
+import no.anagnosis.prefs.LineNumberMode
 import no.anagnosis.prefs.ReaderSettings
 
 enum class ViewMode(val label: String) { GREEK("Greek"), TRANSLATION("English") }
@@ -112,10 +113,6 @@ private val ROW_GAP = 2.dp
 private val SEGMENT_GAP = 6.dp
 private val NUMBER_GAP = 12.dp
 
-/** Width reserved at the right edge for the commentary dot, beyond the line numbers. */
-private val DOT_COLUMN = 12.dp
-private val DOT_SIZE = 5.dp
-
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ReaderScreen(
@@ -133,6 +130,8 @@ fun ReaderScreen(
     var wordInfo by remember { mutableStateOf<WordInfo?>(null) }
     var notesLine by remember { mutableStateOf<Lines?>(null) }
     var notes by remember { mutableStateOf<List<NoteInfo>>(emptyList()) }
+    var pageNotesKind by remember { mutableStateOf<NoteKind?>(null) }
+    var pageNotes by remember { mutableStateOf<List<LineNotes>>(emptyList()) }
 
     val translation = data.translations.firstOrNull()
     val rows = remember(data, mode) { buildRows(data, mode, translation?.segments ?: emptyList()) }
@@ -180,6 +179,14 @@ fun ReaderScreen(
     LaunchedEffect(pagerState.currentPage) {
         if (scrubPage == null) pages.getOrNull(pagerState.currentPage)?.let { anchorN = it.firstN }
     }
+    LaunchedEffect(pageNotesKind, pagerState.currentPage) {
+        val kind = pageNotesKind
+        val page = pages.getOrNull(pagerState.currentPage)
+        pageNotes = if (kind == null || page == null) emptyList() else withContext(Dispatchers.Default) {
+            val linesOnPage = data.lines.filter { it.n_int >= page.firstN && it.n_int <= page.lastN }
+            repository.notesForLines(data, linesOnPage, kind)
+        }
+    }
     // Swiping while the Go here / Go back choice is showing counts as "Go here".
     LaunchedEffect(pagerState.isScrollInProgress, scrubPopup) {
         if (scrubPopup && pagerState.isScrollInProgress) {
@@ -217,6 +224,8 @@ fun ReaderScreen(
                 currentPage = scrubPage ?: pagerState.currentPage,
                 scrubbing = scrubPage != null,
                 popup = scrubPopup,
+                noteKinds = data.commentaries.map { it.kind() }.distinct(),
+                onNotes = { pageNotesKind = it },
                 onScrub = { page ->
                     if (scrubPage == null) scrubOrigin = pagerState.currentPage
                     scrubPopup = false
@@ -240,8 +249,8 @@ fun ReaderScreen(
             val vertical = 12.dp
             val widthPx = with(density) { (maxWidth - horizontal * 2).roundToPx() }
             val heightPx = with(density) { (maxHeight - vertical * 2).roundToPx() }
-            val computed = remember(rows, widthPx, heightPx, styles) {
-                paginate(rows, measurer, styles, widthPx, heightPx, density)
+            val computed = remember(rows, widthPx, heightPx, styles, settings.lineNumbers) {
+                paginate(rows, measurer, styles, widthPx, heightPx, density, settings.lineNumbers)
             }
             LaunchedEffect(computed) {
                 pages = computed
@@ -274,6 +283,7 @@ fun ReaderScreen(
     }
 
     wordInfo?.let { WordSheet(it, onDismiss = { selectedTokenId = null }) }
+    pageNotesKind?.let { kind -> PageNotesSheet(kind, pageNotes, onDismiss = { pageNotesKind = null }) }
     if (showOptions) {
         OptionsDialog(
             settings, onSettingsChange,
@@ -319,10 +329,11 @@ private fun paginate(
     widthPx: Int,
     heightPx: Int,
     density: androidx.compose.ui.unit.Density,
+    numbering: LineNumberMode,
 ): List<Page> {
     if (widthPx <= 0 || heightPx <= 0) return emptyList()
     fun Dp.px() = with(density) { roundToPx() }
-    val textWidth = widthPx - DOT_COLUMN.px()
+    val textWidth = widthPx
     val constraints = Constraints(maxWidth = textWidth)
     val numberWidth = measurer.measure("0000", styles.number).size.width + NUMBER_GAP.px()
 
@@ -347,15 +358,22 @@ private fun paginate(
         }
     }
 
-    // Line numbers on the right: every fifth line, or the next line with room for it.
+    // Line numbers on the right, only where the first line of the verse leaves room. In the
+    // every-fifth mode a number that does not fit moves to the next line with room.
     val numbers = HashMap<ReaderRow, String>()
     var pending = false
     for (m in measured) {
         val row = m.row as? ReaderRow.GreekLine ?: continue
-        if (row.line.n_int % 5 == 0L || row.line.n_sub.isNotEmpty()) pending = true
-        if (pending && m.numberFits) {
-            numbers[row] = row.line.n
-            pending = false
+        when (numbering) {
+            LineNumberMode.NONE -> {}
+            LineNumberMode.ALL -> if (m.numberFits) numbers[row] = row.line.n
+            LineNumberMode.FIFTH -> {
+                if (row.line.n_int % 5 == 0L || row.line.n_sub.isNotEmpty()) pending = true
+                if (pending && m.numberFits) {
+                    numbers[row] = row.line.n
+                    pending = false
+                }
+            }
         }
     }
 
@@ -418,25 +436,14 @@ private fun GreekLineRow(line: Lines, number: String?, data: WorkData, styles: S
             if (pos < line.text.length) append(line.text.substring(pos))
         }
     }
-    val density = LocalDensity.current
-    val dotTop = with(density) { styles.greek.lineHeight.toDp() } / 2 - DOT_SIZE / 2
     Box(Modifier.fillMaxWidth().clickable(onClick = onLine)) {
-        Text(text = annotated, style = styles.greek, modifier = Modifier.fillMaxWidth().padding(end = DOT_COLUMN))
+        Text(text = annotated, style = styles.greek, modifier = Modifier.fillMaxWidth())
         if (number != null) {
             Text(
                 number,
                 style = styles.number,
                 color = MaterialTheme.colorScheme.outline,
-                modifier = Modifier.align(Alignment.TopEnd).padding(top = 5.dp, end = DOT_COLUMN),
-            )
-        }
-        if (line.id in data.linesWithNotes) {
-            Box(
-                Modifier
-                    .align(Alignment.TopEnd)
-                    .padding(top = dotTop)
-                    .size(DOT_SIZE)
-                    .background(MaterialTheme.colorScheme.primary.copy(alpha = 0.7f), CircleShape),
+                modifier = Modifier.align(Alignment.TopEnd).padding(top = 5.dp),
             )
         }
     }
@@ -463,6 +470,8 @@ private fun ProgressScrubber(
     currentPage: Int,
     scrubbing: Boolean,
     popup: Boolean,
+    noteKinds: List<NoteKind>,
+    onNotes: (NoteKind) -> Unit,
     onScrub: (Int) -> Unit,
     onRelease: () -> Unit,
     onGoHere: () -> Unit,
@@ -481,7 +490,7 @@ private fun ProgressScrubber(
                 if (page != null && count > 0) {
                     val span = if (page.firstN == page.lastN) "Line ${page.firstN}" else "Lines ${page.firstN}–${page.lastN}"
                     Text(
-                        "$span  ·  page ${currentPage + 1} of $count",
+                        span,
                         style = MaterialTheme.typography.labelMedium,
                         color = if (scrubbing || popup) MaterialTheme.colorScheme.onSurface else MaterialTheme.colorScheme.outline,
                         modifier = Modifier.weight(1f),
@@ -492,6 +501,10 @@ private fun ProgressScrubber(
                 if (popup) {
                     TextButton(onClick = onGoBack) { Text("Go back") }
                     TextButton(onClick = onGoHere) { Text("Go here") }
+                } else {
+                    for (kind in noteKinds) {
+                        TextButton(onClick = { onNotes(kind) }) { Text(kind.label) }
+                    }
                 }
             }
             Canvas(

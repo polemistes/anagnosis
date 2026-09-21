@@ -36,5 +36,13 @@ class WordInfo(val token: Tokens, val morphology: String, val shortDefinition: S
 
 class NoteInfo(val commentary: Commentaries, val notes: List<Commentary_notes>)
 
+/** Notes of one commentary for one line, for the page-wide Apparatus / Commentary views. */
+class LineNotes(val line: Lines, val notes: List<Commentary_notes>)
+
+/** Which kind of notes a commentary holds; decided from its slug. */
+enum class NoteKind(val label: String) { APPARATUS("Apparatus"), COMMENTARY("Commentary") }
+
+fun Commentaries.kind(): NoteKind = if ("apparatus" in slug) NoteKind.APPARATUS else NoteKind.COMMENTARY
+
 /** One line of the About screen's credits, read from the bundle's licence columns. */
 class Credit(val kind: String, val title: String, val detail: String?, val license: String?)
