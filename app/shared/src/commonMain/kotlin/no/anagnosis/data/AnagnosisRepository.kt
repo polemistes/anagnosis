@@ -80,7 +80,7 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
         val glossary = q.selectGlossaryByKey(token.lemma_key).executeAsList()
             .map { Entry(it.lexicon_slug, it.lexicon_title, it.headword, it.homograph, it.html) }
         val short = q.selectShortDefinition(token.lemma_key).executeAsOneOrNull()?.definition
-        return WordInfo(token, Morphology.describe(token.postag), short, glossary + rows)
+        return WordInfo(token.form, token.lemma, Morphology.describe(token.postag), short, glossary + rows)
     }
 
     /** Notes for a line: those on the line itself plus those on absent line numbers just before it. */
@@ -122,15 +122,21 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
     fun document(data: WorkData, slug: String): Documents? =
         textDb(data.slug).anagnosisQueries.selectDocument(data.work.id, slug).executeAsOneOrNull()
 
-    /** Headwords starting with the given loose key (diacritics ignored), across both dictionaries. */
-    fun searchHeadwords(looseKey: String, limit: Long = 60): List<HeadwordHit> {
+    /** Headwords starting with the given loose key (diacritics ignored), one per lemma. */
+    fun searchHeadwords(looseKey: String, limit: Long = 80): List<HeadwordHit> {
         if (looseKey.isEmpty()) return emptyList()
         return lexicon.lexiconQueries.searchHeadwords(looseKey, looseKey + "\uFFFF", limit).executeAsList()
-            .map { HeadwordHit(it.id, it.headword, it.homograph, it.lexicon_id) }
+            .map { HeadwordHit(it.lemma_key, it.headword ?: it.lemma_key) }
     }
 
-    fun entry(id: Long): Entry? = lexicon.lexiconQueries.selectEntryById(id).executeAsOneOrNull()
-        ?.let { Entry(it.lexicon_slug, it.lexicon_title, it.headword, it.homograph, inflate(it.html)) }
+    /** The word sheet for a dictionary headword: gloss (when the lexicon has one) and full entries. */
+    fun wordInfoForLemma(lemmaKey: String, headword: String): WordInfo {
+        val lq = lexicon.lexiconQueries
+        val entries = lq.selectEntriesByKey(lemmaKey).executeAsList()
+            .map { Entry(it.lexicon_slug, it.lexicon_title, it.headword, it.homograph, inflate(it.html)) }
+        val short = lq.selectShortDefinition(lemmaKey).executeAsOneOrNull()
+        return WordInfo(headword, headword, "", short, entries)
+    }
 
     /** Dictionary entries for a lemma, exact key first, then ignoring diacritics. */
     fun entriesForLemma(lemma: String): List<Entry> {
@@ -140,6 +146,12 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
         if (exact.isNotEmpty()) return exact
         return lq.selectEntriesByLooseKey(looseKey(lemma)).executeAsList()
             .map { Entry(it.lexicon_slug, it.lexicon_title, it.headword, it.homograph, inflate(it.html)) }
+    }
+
+    /** The word sheet for an analysed form: the lemma's gloss and entries plus the parse. */
+    fun wordInfoForAnalysis(a: FormAnalysis): WordInfo {
+        val short = lexicon.lexiconQueries.selectShortDefinition(a.lemmaKey).executeAsOneOrNull()
+        return WordInfo(a.form, a.lemma, Morphology.describe(a.postag), short, entriesForLemma(a.lemma))
     }
 
     /** Analyses of an inflected form (diacritics ignored). */
@@ -181,25 +193,7 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
         const val OVERLAP_MAX_SPAN = 20L
 
         /** Mirrors greek.strip_diacritics in the pipeline: base letters only, lower case. */
-        fun looseKey(s: String): String {
-            val sb = StringBuilder()
-            for (ch in s.lowercase()) {
-                val base = STRIP[ch] ?: ch
-                if (base in 'α'..'ω' || base == 'ϝ' || base == 'ς') sb.append(base)
-            }
-            return sb.toString()
-        }
+        fun looseKey(s: String): String = no.anagnosis.greek.GreekNormalizer.looseKey(s)
 
-        private val STRIP: Map<Char, Char> = buildMap {
-            fun add(base: Char, variants: String) = variants.forEach { put(it, base) }
-            add('α', "ἀἁἂἃἄἅἆἇὰάᾀᾁᾂᾃᾄᾅᾆᾇᾰᾱᾲᾳᾴᾶᾷά")
-            add('ε', "ἐἑἒἓἔἕὲέέ")
-            add('η', "ἠἡἢἣἤἥἦἧὴήᾐᾑᾒᾓᾔᾕᾖᾗῂῃῄῆῇή")
-            add('ι', "ἰἱἲἳἴἵἶἷὶίῐῑῒΐῖῗίϊΐ")
-            add('ο', "ὀὁὂὃὄὅὸόό")
-            add('υ', "ὐὑὒὓὔὕὖὗὺύῠῡῢΰῦῧύϋΰ")
-            add('ω', "ὠὡὢὣὤὥὦὧὼώᾠᾡᾢᾣᾤᾥᾦᾧῲῳῴῶῷώ")
-            add('ρ', "ῤῥ")
-        }
     }
 }

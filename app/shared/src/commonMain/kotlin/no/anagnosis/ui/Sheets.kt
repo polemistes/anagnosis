@@ -46,27 +46,28 @@ import no.anagnosis.db.Lines
 @Composable
 fun WordSheet(info: WordInfo, onDismiss: () -> Unit) {
     val state = rememberModalBottomSheetState(skipPartiallyExpanded = true)
-    var open by remember { mutableStateOf<String?>(null) }
+    val glossary = info.entries.filter { it.lexiconSlug.endsWith("-glossary") }
+    val buttons = listOf("ml" to "Middle Liddell", "lsj" to "LSJ")
+        .filter { (slug, _) -> info.entries.any { it.lexiconSlug == slug } }
+    // Without a gloss there is nothing to read on the sheet itself: open the only or the shorter dictionary at once.
+    val initial = if (info.shortDefinition == null && glossary.isEmpty()) buttons.firstOrNull()?.first else null
+    var open by remember { mutableStateOf(initial) }
     ModalBottomSheet(onDismissRequest = onDismiss, sheetState = state) {
         Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 20.dp, vertical = 8.dp)) {
-            Text(info.token.form, style = MaterialTheme.typography.headlineSmall)
-            Text(
-                text = buildString {
-                    append(info.token.lemma)
-                    if (info.morphology.isNotEmpty()) append("  ·  ").append(info.morphology)
-                },
-                style = MaterialTheme.typography.bodyMedium,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-            )
+            Text(info.form, style = MaterialTheme.typography.headlineSmall)
+            val subtitle = buildString {
+                if (info.lemma != info.form) append(info.lemma)
+                if (info.morphology.isNotEmpty()) { if (isNotEmpty()) append("  ·  "); append(info.morphology) }
+            }
+            if (subtitle.isNotEmpty()) {
+                Text(subtitle, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            }
             Spacer(Modifier.height(12.dp))
-            val glossary = info.entries.filter { it.lexiconSlug.endsWith("-glossary") }
             when {
                 info.shortDefinition != null -> Text(info.shortDefinition, style = MaterialTheme.typography.bodyLarge)
                 glossary.isNotEmpty() -> glossary.forEach { HtmlText(it.html) }
                 info.entries.isEmpty() -> Text("No dictionary entry found.", style = MaterialTheme.typography.bodyMedium)
             }
-            val buttons = listOf("lsj" to "LSJ", "ml" to "Middle Liddell")
-                .filter { (slug, _) -> info.entries.any { it.lexiconSlug == slug } }
             if (buttons.isNotEmpty()) {
                 Spacer(Modifier.height(16.dp))
                 Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
@@ -145,28 +146,6 @@ fun PageNotesSheet(kind: NoteKind, entries: List<NoteGroup>, sigla: Documents?, 
     }
     if (showSigla && sigla != null) {
         DocumentSheet(sigla, onDismiss = { showSigla = false })
-    }
-}
-
-/** Full dictionary entries under a title (used by the search screen). */
-@OptIn(ExperimentalMaterial3Api::class)
-@Composable
-fun EntrySheet(title: String, entries: List<Entry>, onDismiss: () -> Unit) {
-    val state = rememberModalBottomSheetState(skipPartiallyExpanded = true)
-    ModalBottomSheet(onDismissRequest = onDismiss, sheetState = state) {
-        Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 20.dp, vertical = 8.dp)) {
-            Text(title, style = MaterialTheme.typography.headlineSmall)
-            if (entries.isEmpty()) {
-                Spacer(Modifier.height(12.dp))
-                Text("No dictionary entry found.", style = MaterialTheme.typography.bodyMedium)
-            }
-            entries.forEachIndexed { i, e ->
-                if (i > 0) HorizontalDivider(Modifier.padding(vertical = 10.dp)) else Spacer(Modifier.height(12.dp))
-                Text(e.lexiconTitle, style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.primary, modifier = Modifier.padding(bottom = 4.dp))
-                HtmlText(e.html)
-            }
-            Spacer(Modifier.height(32.dp))
-        }
     }
 }
 

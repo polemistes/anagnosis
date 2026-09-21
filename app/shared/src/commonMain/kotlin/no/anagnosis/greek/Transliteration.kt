@@ -51,14 +51,19 @@ object GreekNormalizer {
         add('ρ', "ῤῥῬ")
     }
 
+    /**
+     * Matches the pipeline's strip_diacritics: base letters, lower case, no diacritics. A final
+     * sigma is written ς at the end of the key, as the stored keys have it, so that a search
+     * typed with σ or in Latin letters still matches.
+     */
     fun looseKey(s: String): String {
         val sb = StringBuilder(s.length)
         for (raw in s) {
             val ch = strip[raw] ?: raw.lowercaseChar()
             val base = strip[ch] ?: ch
-            val out = if (base == 'ς') 'σ' else base
-            if (out in 'α'..'ω' || out == 'ϝ') sb.append(out)
+            if (base in 'α'..'ω' || base == 'ϝ') sb.append(base)
         }
+        if (sb.isNotEmpty() && sb[sb.length - 1] == 'σ') sb.setCharAt(sb.length - 1, 'ς')
         return sb.toString()
     }
 }

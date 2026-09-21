@@ -3,6 +3,7 @@ package no.anagnosis.ui
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -27,6 +28,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
@@ -38,18 +40,20 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.withContext
 import no.anagnosis.data.AnagnosisRepository
-import no.anagnosis.data.Entry
 import no.anagnosis.data.FormAnalysis
 import no.anagnosis.data.HeadwordHit
 import no.anagnosis.data.Morphology
+import no.anagnosis.data.WordInfo
 import no.anagnosis.greek.InputScheme
 import no.anagnosis.greek.Transliteration
 import no.anagnosis.prefs.ReaderSettings
 
+enum class SearchMode(val label: String) { DICTIONARY("Dictionary"), ANALYSER("Word analysis") }
+
 /**
- * Dictionary lookup and morphological analysis. Type Greek, or Latin letters in the chosen
- * scheme; diacritics are ignored. Matching headwords appear as you type; if the typed word is
- * an inflected form known to the analyser, its analyses are shown first.
+ * Dictionary lookup or morphological analysis. Type Greek, or Latin letters in the chosen
+ * scheme; diacritics are ignored. In the dictionary, matching headwords appear as you type,
+ * one per word; in the analyser, the typed form's analyses are listed.
  */
 @Composable
 fun SearchScreen(
@@ -58,28 +62,54 @@ fun SearchScreen(
     onSettingsChange: (ReaderSettings) -> Unit,
     onBack: () -> Unit,
 ) {
+    var mode by remember { mutableStateOf(SearchMode.DICTIONARY) }
     var query by remember { mutableStateOf("") }
     var hits by remember { mutableStateOf<List<HeadwordHit>>(emptyList()) }
     var analyses by remember { mutableStateOf<List<FormAnalysis>>(emptyList()) }
-    var openEntries by remember { mutableStateOf<List<Entry>?>(null) }
-    var openTitle by remember { mutableStateOf("") }
+    var word by remember { mutableStateOf<WordInfo?>(null) }
     val focus = remember { FocusRequester() }
 
     val greekQuery = Transliteration.toGreek(query, settings.inputScheme)
     val key = Transliteration.looseKey(greekQuery)
 
-    LaunchedEffect(key) {
+    LaunchedEffect(key, mode) {
         if (key.isEmpty()) { hits = emptyList(); analyses = emptyList(); return@LaunchedEffect }
         delay(60)
-        val (h, a) = withContext(Dispatchers.Default) { repository.searchHeadwords(key) to repository.analyse(key) }
-        hits = h
-        analyses = a
+        when (mode) {
+            SearchMode.DICTIONARY -> { hits = withContext(Dispatchers.Default) { repository.searchHeadwords(key) }; analyses = emptyList() }
+            SearchMode.ANALYSER -> { analyses = withContext(Dispatchers.Default) { repository.analyse(key) }; hits = emptyList() }
+        }
     }
     LaunchedEffect(Unit) { focus.requestFocus() }
 
     Column(Modifier.fillMaxSize().safeDrawingPadding().padding(horizontal = 16.dp)) {
-        Row(Modifier.fillMaxWidth().padding(top = 4.dp), verticalAlignment = androidx.compose.ui.Alignment.CenterVertically) {
+        Row(Modifier.fillMaxWidth().padding(top = 4.dp), verticalAlignment = Alignment.CenterVertically) {
             TextButton(onClick = onBack) { Text("‹ Back") }
+            Spacer(Modifier.weight(1f))
+            SingleChoiceSegmentedButtonRow {
+                SearchMode.entries.forEachIndexed { i, m ->
+                    SegmentedButton(
+                        selected = mode == m,
+                        onClick = { mode = m },
+                        shape = SegmentedButtonDefaults.itemShape(i, SearchMode.entries.size),
+                        label = { Text(m.label, fontSize = 12.sp) },
+                    )
+                }
+            }
+        }
+        OutlinedTextField(
+            value = query,
+            onValueChange = { query = it },
+            modifier = Modifier.fillMaxWidth().padding(top = 4.dp).focusRequester(focus),
+            singleLine = true,
+            label = { Text(if (mode == SearchMode.DICTIONARY) "Headword" else "Inflected form") },
+            supportingText = {
+                Text(if (greekQuery != query && greekQuery.isNotEmpty()) greekQuery else settings.inputScheme.hint)
+            },
+            keyboardOptions = KeyboardOptions(capitalization = KeyboardCapitalization.None, autoCorrectEnabled = false, keyboardType = KeyboardType.Text),
+        )
+        Row(Modifier.fillMaxWidth().padding(top = 2.dp, bottom = 4.dp), verticalAlignment = Alignment.CenterVertically) {
+            Text("Latin letters:", style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.outline)
             Spacer(Modifier.weight(1f))
             SingleChoiceSegmentedButtonRow {
                 InputScheme.entries.forEachIndexed { i, s ->
@@ -92,57 +122,26 @@ fun SearchScreen(
                 }
             }
         }
-        OutlinedTextField(
-            value = query,
-            onValueChange = { query = it },
-            modifier = Modifier.fillMaxWidth().focusRequester(focus),
-            singleLine = true,
-            label = { Text("Greek word or Latin letters") },
-            supportingText = {
-                Text(if (greekQuery != query && greekQuery.isNotEmpty()) greekQuery else settings.inputScheme.hint)
-            },
-            keyboardOptions = KeyboardOptions(capitalization = KeyboardCapitalization.None, autoCorrectEnabled = false, keyboardType = KeyboardType.Text),
-        )
-        LazyColumn(Modifier.fillMaxSize(), contentPadding = androidx.compose.foundation.layout.PaddingValues(vertical = 8.dp)) {
-            if (analyses.isNotEmpty()) {
-                item {
-                    Text("Forms", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary, modifier = Modifier.padding(top = 8.dp, bottom = 4.dp))
-                }
-                items(analyses) { a ->
-                    Column(
-                        Modifier.fillMaxWidth().clickable {
-                            openTitle = a.lemma
-                            openEntries = repository.entriesForLemma(a.lemma)
-                        }.padding(vertical = 8.dp),
-                    ) {
-                        Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                            Text(a.form, style = MaterialTheme.typography.titleMedium)
-                            Text("→ ${a.lemma}", style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.primary)
-                        }
-                        Text(Morphology.describe(a.postag), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        LazyColumn(Modifier.fillMaxSize(), contentPadding = PaddingValues(vertical = 4.dp)) {
+            items(analyses) { a ->
+                Column(
+                    Modifier.fillMaxWidth().clickable { word = repository.wordInfoForAnalysis(a) }.padding(vertical = 8.dp),
+                ) {
+                    Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+                        Text(a.form, style = MaterialTheme.typography.titleMedium)
+                        Text("→ ${a.lemma}", style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.primary)
                     }
-                    HorizontalDivider()
+                    Text(Morphology.describe(a.postag), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
                 }
+                HorizontalDivider()
             }
-            if (hits.isNotEmpty()) {
-                item {
-                    Text("Headwords", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary, modifier = Modifier.padding(top = 12.dp, bottom = 4.dp))
-                }
-                items(hits) { hit ->
-                    Row(
-                        Modifier.fillMaxWidth().clickable {
-                            openTitle = hit.headword
-                            openEntries = listOfNotNull(repository.entry(hit.entryId))
-                        }.padding(vertical = 10.dp),
-                        horizontalArrangement = Arrangement.spacedBy(8.dp),
-                    ) {
-                        Text(hit.headword, style = MaterialTheme.typography.titleMedium)
-                        if (hit.homograph > 0) Text(hit.homograph.toString(), style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.outline)
-                        Spacer(Modifier.weight(1f))
-                        Text(if (hit.lexiconId == 1L) "LSJ" else "Middle Liddell", style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.outline)
-                    }
-                    HorizontalDivider()
-                }
+            items(hits) { hit ->
+                Text(
+                    hit.headword,
+                    style = MaterialTheme.typography.titleMedium,
+                    modifier = Modifier.fillMaxWidth().clickable { word = repository.wordInfoForLemma(hit.lemmaKey, hit.headword) }.padding(vertical = 10.dp),
+                )
+                HorizontalDivider()
             }
             if (key.isNotEmpty() && hits.isEmpty() && analyses.isEmpty()) {
                 item { Text("No matches.", style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 16.dp)) }
@@ -150,7 +149,5 @@ fun SearchScreen(
             item { Spacer(Modifier.height(48.dp)) }
         }
     }
-    openEntries?.let { entries ->
-        EntrySheet(title = openTitle, entries = entries, onDismiss = { openEntries = null })
-    }
+    word?.let { WordSheet(it, onDismiss = { word = null }) }
 }

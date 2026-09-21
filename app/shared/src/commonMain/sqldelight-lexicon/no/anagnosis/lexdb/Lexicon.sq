@@ -28,9 +28,17 @@ FROM lexicon_entries JOIN lexicons ON lexicons.id = lexicon_entries.lexicon_id
 WHERE loose_key = ? ORDER BY lexicon_id, homograph;
 
 searchHeadwords:
-SELECT id, headword, homograph, lexicon_id FROM lexicon_entries
+SELECT lemma_key, MIN(headword) AS headword, MIN(sort_key) AS sort_key
+FROM lexicon_entries
 WHERE loose_key >= :prefix AND loose_key < :prefixEnd
-ORDER BY sort_key, lexicon_id, homograph LIMIT :limit;
+GROUP BY lemma_key ORDER BY sort_key, lemma_key LIMIT :limit;
+
+CREATE TABLE short_definitions (
+    lemma_key TEXT NOT NULL PRIMARY KEY, source TEXT NOT NULL, definition TEXT NOT NULL
+);
+
+selectShortDefinition:
+SELECT definition FROM short_definitions WHERE lemma_key = ?;
 
 selectEntryById:
 SELECT lexicon_entries.id, lexicon_entries.headword, lexicon_entries.homograph, lexicon_entries.html,

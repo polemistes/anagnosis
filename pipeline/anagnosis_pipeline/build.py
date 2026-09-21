@@ -108,6 +108,9 @@ CREATE TABLE lexicon_entries (
 CREATE INDEX lexicon_entries_key ON lexicon_entries(lemma_key);
 CREATE INDEX lexicon_entries_loose ON lexicon_entries(loose_key);
 CREATE INDEX lexicon_entries_sort ON lexicon_entries(lexicon_id, sort_key);
+CREATE TABLE short_definitions (
+    lemma_key TEXT NOT NULL PRIMARY KEY, source TEXT NOT NULL, definition TEXT NOT NULL
+);
 """
 # In the shared database the html column holds zlib-compressed UTF-8 (BLOB); see meta html_encoding.
 
@@ -223,6 +226,12 @@ def build(texts: Path, sources: Path, out_dir: Path) -> None:
     from .forms import build_forms
 
     build_forms(db, sources)
+    # Logeion's short definitions for every headword that has one, for the dictionary search
+    exact, _loose = load_logeion_shortdefs(sources)
+    headword_keys = {greek.lemma_key(e.headword) for entries in lexica.values() for e in entries}
+    rows = [(k, "logeion", d) for k, d in exact.items() if k in headword_keys]
+    db.executemany("INSERT OR IGNORE INTO short_definitions (lemma_key, source, definition) VALUES (?,?,?)", rows)
+    print(f"short definitions in lexicon: {len(rows)}")
     _finish(db, lex_path)
 
     # one database per text, and a catalog of them for the app's library

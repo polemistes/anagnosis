@@ -45,7 +45,8 @@ class Entry(
     val html: String,
 )
 
-class WordInfo(val token: Tokens, val morphology: String, val shortDefinition: String?, val entries: List<Entry>)
+/** What the word sheet shows: a headword (or a token's form), its parse if any, gloss and entries. */
+class WordInfo(val form: String, val lemma: String, val morphology: String, val shortDefinition: String?, val entries: List<Entry>)
 
 class NoteInfo(val commentary: Commentaries, val notes: List<Commentary_notes>)
 
@@ -60,8 +61,8 @@ fun Commentaries.kind(): NoteKind = if ("apparatus" in slug) NoteKind.APPARATUS 
 /** One line of the About screen's credits, read from the bundle's licence columns. */
 class Credit(val kind: String, val title: String, val detail: String?, val license: String?)
 
-/** A headword match in the dictionary search. */
-class HeadwordHit(val entryId: Long, val headword: String, val homograph: Long, val lexiconId: Long)
+/** A headword match in the dictionary search (one per lemma, across both dictionaries). */
+class HeadwordHit(val lemmaKey: String, val headword: String)
 
 /** One analysis of an inflected form. */
 class FormAnalysis(val form: String, val lemma: String, val lemmaKey: String, val postag: String, val source: String)
