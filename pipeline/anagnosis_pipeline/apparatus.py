@@ -106,3 +106,28 @@ def verify(apparatus: Path, grc: Path, show_accents: bool = False) -> int:
                     print(f"ACCENT {n}: {diff} vs {lines[idx].text[:60]}")
     print(f"{len(notes)} entries, {problems} problems, {accents} lemmas with accent/spelling differences (mostly MS readings)")
     return problems
+
+
+APPENDIX_HEADER = """# title: Appendix
+# author: Richard C. Jebb
+# source: Sophocles, The Plays and Fragments, Part III: The Antigone, 2nd ed., Cambridge University Press 1891, Appendix (pp. 241-268), transcribed from the Internet Archive scan sophocles03soph
+# license: CC BY-SA 4.0 (transcription; the 1891 edition is in the public domain)
+
+"""
+
+
+def merge_appendix(batch_dir: Path, out: Path) -> int:
+    """Concatenate appendix-NN.md files into the Appendix document (headings become 'Line n')."""
+    parts: list[str] = []
+    n = 0
+    for path in sorted(batch_dir.glob("appendix-*.md")):
+        for raw in path.read_text(encoding="utf-8").splitlines():
+            m = re.match(r"^##\s+(.+?)\s*$", raw)
+            if m:
+                label = m.group(1).replace("-", "–")
+                parts.append(f"## Line{'s' if '–' in label else ''} {label}")
+                n += 1
+            elif not raw.startswith("# "):
+                parts.append(raw)
+    out.write_text(APPENDIX_HEADER + "\n".join(parts).strip() + "\n", encoding="utf-8")
+    return n

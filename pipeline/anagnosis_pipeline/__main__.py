@@ -20,6 +20,8 @@ def main(argv: list[str] | None = None) -> int:
     m = sub.add_parser("merge-apparatus", help="merge transcription batches into texts/antigone/commentary-jebb-apparatus.md")
     m.add_argument("--batches", default=str(ROOT / "pipeline" / "build" / "apparatus"))
     v = sub.add_parser("verify-apparatus", help="check apparatus lemmas against the Greek text")
+    ma = sub.add_parser("merge-appendix", help="merge appendix transcription batches into texts/antigone/appendix.md")
+    ma.add_argument("--batches", default=str(ROOT / "pipeline" / "build" / "apparatus"))
     b = sub.add_parser("build", help="build the SQLite bundle in data/")
     b.add_argument("--out", default=str(DATA / "antigone.sqlite"))
     args = ap.parse_args(argv)
@@ -43,6 +45,10 @@ def main(argv: list[str] | None = None) -> int:
             from .ffmarks import apply_ff_marks
 
             print(f"f./ff. marks from OCR: {apply_ff_marks(out, ocr)} headings")
+    elif args.cmd == "merge-appendix":
+        from .apparatus import merge_appendix
+        out = TEXTS / "antigone" / "appendix.md"
+        print(f"wrote {out}: {merge_appendix(Path(args.batches), out)} entries")
     elif args.cmd == "verify-apparatus":
         from .apparatus import verify
         return 1 if verify(TEXTS / "antigone" / "commentary-jebb-apparatus.md", TEXTS / "antigone" / "grc.txt") else 0
