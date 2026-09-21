@@ -35,6 +35,7 @@ fun LibraryScreen(
     appVersion: String,
     repository: AnagnosisRepository,
     onOpen: (String) -> Unit,
+    onSearch: () -> Unit,
 ) {
     var showHelp by remember { mutableStateOf(false) }
     var showAbout by remember { mutableStateOf(false) }
@@ -75,7 +76,9 @@ fun LibraryScreen(
                 }
             }
         }
-        Spacer(Modifier.height(28.dp))
+        Spacer(Modifier.height(20.dp))
+        androidx.compose.material3.OutlinedButton(onClick = onSearch, modifier = Modifier.fillMaxWidth()) { Text("Dictionary and word analysis") }
+        Spacer(Modifier.height(20.dp))
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             TextButton(onClick = { showHelp = true }) { Text("How to use") }
             TextButton(onClick = { showAbout = true }) { Text("About and credits") }

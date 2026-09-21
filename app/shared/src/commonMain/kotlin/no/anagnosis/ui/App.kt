@@ -32,6 +32,8 @@ sealed interface Screen {
     data object Library : Screen
     data class TextHome(val slug: String) : Screen
     data class Reader(val slug: String) : Screen
+    /** The dictionary and analyser; `from` is the screen to return to. */
+    data class Search(val from: Screen) : Screen
 }
 
 @Composable
@@ -55,7 +57,7 @@ fun App(repository: AnagnosisRepository, settingsStore: SettingsStore, appVersio
             screen = Screen.Reader(last)
         }
     }
-    val wantedSlug = (screen as? Screen.Reader)?.slug
+    val wantedSlug = ((screen as? Screen.Search)?.from as? Screen.Reader)?.slug ?: (screen as? Screen.Reader)?.slug
     LaunchedEffect(wantedSlug) {
         if (wantedSlug != null) {
             current = loaded[wantedSlug] ?: withContext(Dispatchers.Default) { repository.loadWork(wantedSlug) }.also { loaded[wantedSlug] = it }
@@ -66,11 +68,16 @@ fun App(repository: AnagnosisRepository, settingsStore: SettingsStore, appVersio
         Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
             val list = catalog
             when (val s = screen) {
+                is Screen.Search -> {
+                    SearchScreen(repository, settings, onSettingsChange = { settings = it; settingsStore.save(it) }, onBack = { screen = s.from })
+                    PlatformBackHandler { screen = s.from }
+                }
                 Screen.Library -> if (list == null) Loading() else LibraryScreen(
                     catalog = list,
                     appVersion = appVersion,
                     repository = repository,
                     onOpen = { screen = Screen.TextHome(it) },
+                    onSearch = { screen = Screen.Search(Screen.Library) },
                 )
                 is Screen.TextHome -> {
                     val entry = list?.firstOrNull { it.slug == s.slug }
@@ -80,6 +87,7 @@ fun App(repository: AnagnosisRepository, settingsStore: SettingsStore, appVersio
                         appVersion = appVersion,
                         onRead = { screen = Screen.Reader(s.slug) },
                         onBack = { screen = Screen.Library },
+                        onSearch = { screen = Screen.Search(s) },
                     )
                     PlatformBackHandler { screen = Screen.Library }
                 }
@@ -93,6 +101,7 @@ fun App(repository: AnagnosisRepository, settingsStore: SettingsStore, appVersio
                             onSettingsChange = { settings = it; settingsStore.save(it) },
                             onHelp = { showIntro = true },
                             onHome = { screen = Screen.TextHome(s.slug) },
+                            onSearch = { screen = Screen.Search(s) },
                             startLine = settingsStore.lastLine(s.slug) ?: 1L,
                             onPositionChange = { settingsStore.saveLastText(s.slug); settingsStore.saveLastLine(s.slug, it) },
                             appVersion = appVersion,

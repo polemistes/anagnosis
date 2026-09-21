@@ -122,6 +122,35 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
     fun document(data: WorkData, slug: String): Documents? =
         textDb(data.slug).anagnosisQueries.selectDocument(data.work.id, slug).executeAsOneOrNull()
 
+    /** Headwords starting with the given loose key (diacritics ignored), across both dictionaries. */
+    fun searchHeadwords(looseKey: String, limit: Long = 60): List<HeadwordHit> {
+        if (looseKey.isEmpty()) return emptyList()
+        return lexicon.lexiconQueries.searchHeadwords(looseKey, looseKey + "\uFFFF", limit).executeAsList()
+            .map { HeadwordHit(it.id, it.headword, it.homograph, it.lexicon_id) }
+    }
+
+    fun entry(id: Long): Entry? = lexicon.lexiconQueries.selectEntryById(id).executeAsOneOrNull()
+        ?.let { Entry(it.lexicon_slug, it.lexicon_title, it.headword, it.homograph, inflate(it.html)) }
+
+    /** Dictionary entries for a lemma, exact key first, then ignoring diacritics. */
+    fun entriesForLemma(lemma: String): List<Entry> {
+        val lq = lexicon.lexiconQueries
+        val exact = lq.selectEntriesByKey(lemma.lowercase()).executeAsList()
+            .map { Entry(it.lexicon_slug, it.lexicon_title, it.headword, it.homograph, inflate(it.html)) }
+        if (exact.isNotEmpty()) return exact
+        return lq.selectEntriesByLooseKey(looseKey(lemma)).executeAsList()
+            .map { Entry(it.lexicon_slug, it.lexicon_title, it.headword, it.homograph, inflate(it.html)) }
+    }
+
+    /** Analyses of an inflected form (diacritics ignored). */
+    fun analyse(form: String): List<FormAnalysis> {
+        val packed = lexicon.lexiconQueries.selectForms(looseKey(form)).executeAsOneOrNull() ?: return emptyList()
+        return inflate(packed).lineSequence().mapNotNull { line ->
+            val f = line.split('\t')
+            if (f.size >= 4) FormAnalysis(f[0], f[1], f[1].lowercase(), f[2], f[3]) else null
+        }.toList()
+    }
+
     /** Attribution for everything installed, for the About screen. */
     fun credits(): List<Credit> {
         val out = mutableListOf<Credit>()

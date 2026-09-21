@@ -116,3 +116,10 @@ Any other `*.md` file in the work's folder (not `commentary-*.md`, `glossary.md`
 free-standing document in the bundle, with `# key: value` headers for title, source and
 license. `sigla.md` lists the manuscripts and symbols of the critical notes; the app shows it
 from the Manuscripts button of the Apparatus view.
+
+## Inflected forms (the analyser)
+
+`data/lexicon.sqlite` also holds a `forms` table: every inflected form known to Morpheus
+(the Unicode dump in gcelano/LemmatizedAncientGreekXML, `pipeline/sources/MorpheusUnicode.xml.zip`)
+and to the Perseus treebanks (`pipeline/sources/treebanks/`), keyed by the form without
+diacritics, with lemma and morphology. Treebank analyses are listed first. Fetched by `fetch`.

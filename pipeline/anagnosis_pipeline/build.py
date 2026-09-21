@@ -220,6 +220,9 @@ def build(texts: Path, sources: Path, out_dir: Path) -> None:
             rows,
         )
         print(f"lexicon {slug}: {len(rows)} entries")
+    from .forms import build_forms
+
+    build_forms(db, sources)
     _finish(db, lex_path)
 
     # one database per text, and a catalog of them for the app's library

@@ -35,6 +35,7 @@ fun TextHomeScreen(
     appVersion: String,
     onRead: () -> Unit,
     onBack: () -> Unit,
+    onSearch: () -> Unit,
 ) {
     var showHelp by remember { mutableStateOf(false) }
     var showAbout by remember { mutableStateOf(false) }
@@ -68,6 +69,8 @@ fun TextHomeScreen(
                 OutlinedButton(onClick = { openDocument = slug }, modifier = Modifier.fillMaxWidth()) { Text(title) }
             }
         }
+        Spacer(Modifier.height(12.dp))
+        OutlinedButton(onClick = onSearch, modifier = Modifier.fillMaxWidth().padding(horizontal = 24.dp)) { Text("Dictionary and word analysis") }
         Spacer(Modifier.height(28.dp))
         androidx.compose.foundation.layout.Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             TextButton(onClick = { showHelp = true }) { Text("How to use") }

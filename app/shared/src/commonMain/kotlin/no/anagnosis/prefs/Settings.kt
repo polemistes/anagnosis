@@ -26,6 +26,8 @@ data class ReaderSettings(
     val lineNumbers: LineNumberMode = LineNumberMode.FIFTH,
     /** End a Greek page early when its translation would not fit on one screen. */
     val fitTranslation: Boolean = false,
+    /** Latin-letter input scheme for the dictionary search. */
+    val inputScheme: no.anagnosis.greek.InputScheme = no.anagnosis.greek.InputScheme.BETA,
 ) {
     companion object {
         const val MIN_SIZE = 13

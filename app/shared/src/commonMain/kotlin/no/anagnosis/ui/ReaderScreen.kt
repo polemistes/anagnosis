@@ -20,6 +20,7 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
@@ -124,6 +125,7 @@ fun ReaderScreen(
     onSettingsChange: (ReaderSettings) -> Unit,
     onHelp: () -> Unit,
     onHome: () -> Unit,
+    onSearch: () -> Unit,
     startLine: Long,
     onPositionChange: (Long) -> Unit,
     appVersion: String,
@@ -214,6 +216,9 @@ fun ReaderScreen(
                                 )
                             }
                         }
+                    }
+                    IconButton(onClick = onSearch) {
+                        Icon(Icons.Filled.Search, contentDescription = "Dictionary")
                     }
                     IconButton(onClick = { showOptions = true }) {
                         Icon(Icons.Filled.Settings, contentDescription = "Options")

@@ -59,3 +59,9 @@ fun Commentaries.kind(): NoteKind = if ("apparatus" in slug) NoteKind.APPARATUS 
 
 /** One line of the About screen's credits, read from the bundle's licence columns. */
 class Credit(val kind: String, val title: String, val detail: String?, val license: String?)
+
+/** A headword match in the dictionary search. */
+class HeadwordHit(val entryId: Long, val headword: String, val homograph: Long, val lexiconId: Long)
+
+/** One analysis of an inflected form. */
+class FormAnalysis(val form: String, val lemma: String, val lemmaKey: String, val postag: String, val source: String)

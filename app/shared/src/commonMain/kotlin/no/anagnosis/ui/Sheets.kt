@@ -32,6 +32,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import no.anagnosis.data.Entry
 import no.anagnosis.data.NoteGroup
 import no.anagnosis.data.NoteInfo
 import no.anagnosis.data.NoteKind
@@ -144,6 +145,28 @@ fun PageNotesSheet(kind: NoteKind, entries: List<NoteGroup>, sigla: Documents?, 
     }
     if (showSigla && sigla != null) {
         DocumentSheet(sigla, onDismiss = { showSigla = false })
+    }
+}
+
+/** Full dictionary entries under a title (used by the search screen). */
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun EntrySheet(title: String, entries: List<Entry>, onDismiss: () -> Unit) {
+    val state = rememberModalBottomSheetState(skipPartiallyExpanded = true)
+    ModalBottomSheet(onDismissRequest = onDismiss, sheetState = state) {
+        Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 20.dp, vertical = 8.dp)) {
+            Text(title, style = MaterialTheme.typography.headlineSmall)
+            if (entries.isEmpty()) {
+                Spacer(Modifier.height(12.dp))
+                Text("No dictionary entry found.", style = MaterialTheme.typography.bodyMedium)
+            }
+            entries.forEachIndexed { i, e ->
+                if (i > 0) HorizontalDivider(Modifier.padding(vertical = 10.dp)) else Spacer(Modifier.height(12.dp))
+                Text(e.lexiconTitle, style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.primary, modifier = Modifier.padding(bottom = 4.dp))
+                HtmlText(e.html)
+            }
+            Spacer(Modifier.height(32.dp))
+        }
     }
 }
 
