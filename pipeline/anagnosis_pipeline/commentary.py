@@ -124,7 +124,8 @@ def parse_commentary_md(path: Path) -> tuple[dict[str, str], list[dict]]:
         m = re.match(r"^## (\d+[a-z]?)(?:-(\d+[a-z]?))?\s*$", raw)
         if m:
             flush()
-            current = {"n": m.group(1), "from": m.group(1), "to": m.group(2) or m.group(1)}
+            label = m.group(1) + (f"-{m.group(2)}" if m.group(2) else "")
+            current = {"n": label, "from": m.group(1), "to": m.group(2) or m.group(1)}
             buf = []
             continue
         if current is not None:
