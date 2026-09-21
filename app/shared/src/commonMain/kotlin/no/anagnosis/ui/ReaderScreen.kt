@@ -4,6 +4,7 @@ import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.gestures.awaitEachGesture
 import androidx.compose.foundation.gestures.awaitFirstDown
+import androidx.compose.ui.input.pointer.PointerEventPass
 import androidx.compose.foundation.gestures.drag
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.BoxWithConstraints
@@ -41,6 +42,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.rememberUpdatedState
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -159,20 +161,13 @@ fun ReaderScreen(
     val base = LocalTextStyle.current
     val family = settings.font.family()
     val size = settings.fontSize
-    val styles = remember(typography, base, family, size) {
-        Styles(
-            section = base.merge(typography.titleLarge.copy(fontFamily = family, fontSize = (size + 5).sp, lineHeight = (size + 9).sp)),
-            subsection = base.merge(typography.titleSmall.copy(fontFamily = family, fontSize = (size - 1).sp, lineHeight = (size + 3).sp)),
-            speaker = base.merge(typography.titleMedium.copy(fontFamily = family, fontSize = size.sp, lineHeight = (size + 4).sp, fontWeight = FontWeight.SemiBold)),
-            greek = base.merge(TextStyle(fontFamily = family, fontSize = size.sp, lineHeight = (size * 1.5f).sp, textIndent = TextIndent(restLine = 20.sp))),
-            translation = base.merge(TextStyle(fontFamily = family, fontSize = (size - 1).sp, lineHeight = ((size - 1) * 1.5f).sp)),
-            stage = base.merge(TextStyle(fontFamily = family, fontSize = (size - 2).sp, lineHeight = ((size - 2) * 1.4f).sp, fontStyle = FontStyle.Italic)),
-            number = base.merge(typography.labelSmall),
-        )
-    }
+    val styles = remember(typography, base, family, size) { stylesFor(typography, base, family, size) }
 
     // Position to keep across re-pagination (rotation, mode change): the first Greek line on screen.
     var anchorN by remember { mutableStateOf(startLine) }
+    // Pinch-to-zoom: the size being previewed while the fingers are down, or null.
+    var pinchSize by remember { mutableStateOf<Float?>(null) }
+    var pinchAnchorRow by remember { mutableStateOf<ReaderRow?>(null) }
     var pages by remember { mutableStateOf<List<Page>>(emptyList()) }
     val pagerState = rememberPagerState { pages.size }
     val scope = rememberCoroutineScope()
@@ -267,14 +262,78 @@ fun ReaderScreen(
                 val enHeights = if (settings.fitTranslation && translation != null) {
                     translationHeights(translation.segments, data.lines, measurer, styles, widthPx, density)
                 } else emptyMap()
-                paginate(rows, measurer, styles, widthPx - numberColumnPx, heightPx, density, settings.lineNumbers, enHeights)
+                // after a pinch, the page the reader was previewing keeps its first row
+                val anchorRow = pinchAnchorRow
+                val anchorIndex = if (anchorRow != null) rows.indexOfFirst { it === anchorRow }.takeIf { it >= 0 } else null
+                paginate(rows, measurer, styles, widthPx - numberColumnPx, heightPx, density, settings.lineNumbers, enHeights, anchorIndex)
             }
+            // Live preview during a pinch: only the current page, re-laid out at the previewed size.
+            val previewStyles = pinchSize?.let { size -> stylesFor(typography, base, family, size.toInt()) }
+            val previewPage = if (previewStyles != null && pages.isNotEmpty()) {
+                val page = pages.getOrNull(pagerState.currentPage)
+                val first = page?.rows?.firstOrNull()
+                val startIdx = if (first != null) rows.indexOfFirst { it === first } else -1
+                if (startIdx >= 0) {
+                    val enHeights = if (settings.fitTranslation && translation != null) {
+                        translationHeights(translation.segments, data.lines, measurer, previewStyles, widthPx, density)
+                    } else emptyMap()
+                    // only as many rows as could possibly fit on one page, so the preview stays cheap
+                    val endIdx = minOf(rows.size, startIdx + 120)
+                    paginate(rows.subList(startIdx, endIdx), measurer, previewStyles, widthPx - numberColumnPx, heightPx, density, settings.lineNumbers, enHeights).firstOrNull()
+                } else null
+            } else null
             LaunchedEffect(computed) {
                 pages = computed
-                val target = computed.indexOfLast { it.firstN <= anchorN }.coerceAtLeast(0)
+                val anchorRow = pinchAnchorRow
+                pinchAnchorRow = null
+                val byRow = if (anchorRow != null) computed.indexOfFirst { page -> page.rows.any { it === anchorRow } } else -1
+                val target = if (byRow >= 0) byRow else computed.indexOfLast { it.firstN <= anchorN }.coerceAtLeast(0)
                 pagerState.scrollToPage(target)
             }
-            if (pages.isNotEmpty()) {
+            // Two-finger pinch changes the text size; one finger is left to the pager. The page
+            // content is a child of the pager, so it sees the pointers first and can claim them.
+            val currentSize = rememberUpdatedState(settings.fontSize)
+            val currentSettings = rememberUpdatedState(settings)
+            val currentPages = rememberUpdatedState(pages)
+            val pinchModifier = Modifier.pointerInput(Unit) {
+                awaitEachGesture {
+                    awaitFirstDown(requireUnconsumed = false)
+                    var size = currentSize.value.toFloat()
+                    var lastDistance = -1f
+                    var pinched = false
+                    while (true) {
+                        val event = awaitPointerEvent()
+                        val pressed = event.changes.filter { it.pressed }
+                        if (pressed.isEmpty()) break
+                        if (pressed.size >= 2) {
+                            val distance = (pressed[0].position - pressed[1].position).getDistance()
+                            if (lastDistance > 0f && distance > 0f) {
+                                size = (size * distance / lastDistance).coerceIn(ReaderSettings.MIN_SIZE.toFloat(), ReaderSettings.MAX_SIZE.toFloat())
+                                pinchSize = size
+                                pinched = true
+                            }
+                            lastDistance = distance
+                            event.changes.forEach { it.consume() }
+                        } else if (pinched) {
+                            event.changes.forEach { it.consume() }  // one finger lifted: keep the gesture until all are up
+                        }
+                    }
+                    if (pinched) {
+                        // commit: the previewed page keeps its first row after the full re-pagination
+                        val page = currentPages.value.getOrNull(pagerState.currentPage)
+                        pinchAnchorRow = page?.rows?.firstOrNull()
+                        pinchSize = null
+                        val rounded = size.toInt()
+                        val current = currentSettings.value
+                        if (rounded != current.fontSize) onSettingsChange(current.copy(fontSize = rounded))
+                    }
+                }
+            }
+            if (previewPage != null && previewStyles != null) {
+                Column(Modifier.fillMaxSize().then(pinchModifier).padding(horizontal = horizontal, vertical = vertical)) {
+                    PageContent(previewPage, previewStyles, data, numberColumn, forcedColumn, onWord = {}, onLine = {})
+                }
+            } else if (pages.isNotEmpty()) {
                 val pageSegments = remember(pages, translation) { segmentsByPage(pages, translation?.segments ?: emptyList(), data.lines) }
                 HorizontalPager(state = pagerState, modifier = Modifier.fillMaxSize(), beyondViewportPageCount = 1) { index ->
                     val page = pages.getOrNull(index) ?: return@HorizontalPager
@@ -283,31 +342,12 @@ fun ReaderScreen(
                             pageSegments.getOrNull(index) ?: emptyList(),
                             styles,
                             showAnchors = settings.lineNumbers != LineNumberMode.NONE,
-                            Modifier.fillMaxSize().padding(horizontal = horizontal, vertical = vertical),
+                            Modifier.fillMaxSize().then(pinchModifier).padding(horizontal = horizontal, vertical = vertical),
                         )
                         return@HorizontalPager
                     }
-                    Column(Modifier.fillMaxSize().padding(horizontal = horizontal, vertical = vertical)) {
-                        for (row in page.rows) {
-                            when (row) {
-                                is ReaderRow.Section -> SectionHeader(row.section, styles)
-                                is ReaderRow.Speaker -> Text(
-                                    row.name,
-                                    style = styles.speaker,
-                                    color = MaterialTheme.colorScheme.primary,
-                                    modifier = Modifier.padding(top = SPEAKER_TOP, bottom = ROW_GAP),
-                                )
-                                is ReaderRow.GreekLine -> GreekLineRow(
-                                    line = row.line,
-                                    number = page.numbers[row],
-                                    numberColumn = if (row in page.forced) forcedColumn else numberColumn,
-                                    data = data,
-                                    styles = styles,
-                                    onWord = { selectedTokenId = it },
-                                    onLine = { notesLine = row.line },
-                                )
-                            }
-                        }
+                    Column(Modifier.fillMaxSize().then(pinchModifier).padding(horizontal = horizontal, vertical = vertical)) {
+                        PageContent(page, styles, data, numberColumn, forcedColumn, onWord = { selectedTokenId = it }, onLine = { notesLine = it })
                     }
                 }
             }
@@ -381,6 +421,7 @@ private fun paginate(
     density: androidx.compose.ui.unit.Density,
     numbering: LineNumberMode,
     translationHeights: Map<Long, Int> = emptyMap(),
+    anchorIndex: Int? = null,
 ): List<Page> {
     if (widthPx <= 0 || heightPx <= 0) return emptyList()
     fun Dp.px() = with(density) { roundToPx() }
@@ -440,36 +481,78 @@ private fun paginate(
         }
     }
 
-    val pages = mutableListOf<Page>()
-    var current = mutableListOf<ReaderRow>()
-    var used = 0
-    fun flush() {
-        if (current.isEmpty()) return
-        pages += Page(current, numbers, forced, current.first().nInt, current.last().nInt)
-        current = mutableListOf()
-        used = 0
-    }
-    var usedEn = 0  // height of the translation anchored to the lines on the page so far
     fun enHeight(row: ReaderRow) = (row as? ReaderRow.GreekLine)?.let { translationHeights[it.line.id] } ?: 0
-    fun flushAll() { flush(); usedEn = 0 }
-    var i = 0
-    while (i < measured.size) {
-        val m = measured[i]
-        // keep a heading together with the row that follows it
-        val isHeading = m.row is ReaderRow.Section || m.row is ReaderRow.Speaker
-        val needed = if (isHeading && i + 1 < measured.size) m.height + measured[i + 1].height else m.height
-        val neededEn = enHeight(m.row) + (if (isHeading && i + 1 < measured.size) enHeight(measured[i + 1].row) else 0)
-        if (current.isNotEmpty() && (used + needed > heightPx || usedEn + neededEn > heightPx)) {
-            flushAll()
-            continue
+    fun isHeading(row: ReaderRow) = row is ReaderRow.Section || row is ReaderRow.Speaker
+
+    /** Cuts rows[from until to) into pages from the front. */
+    fun forward(from: Int, to: Int): List<List<ReaderRow>> {
+        val pages = mutableListOf<List<ReaderRow>>()
+        var current = mutableListOf<ReaderRow>()
+        var used = 0
+        var usedEn = 0
+        var i = from
+        while (i < to) {
+            val m = measured[i]
+            val heading = isHeading(m.row) && i + 1 < to
+            val needed = if (heading) m.height + measured[i + 1].height else m.height
+            val neededEn = enHeight(m.row) + (if (heading) enHeight(measured[i + 1].row) else 0)
+            if (current.isNotEmpty() && (used + needed > heightPx || usedEn + neededEn > heightPx)) {
+                pages += current; current = mutableListOf(); used = 0; usedEn = 0
+                continue
+            }
+            current += m.row; used += m.height; usedEn += enHeight(m.row); i++
         }
-        current += m.row
-        used += m.height
-        usedEn += enHeight(m.row)
-        i++
+        if (current.isNotEmpty()) pages += current
+        return pages
     }
-    flush()
-    return pages
+
+    /** Cuts rows[0 until to) into pages from the back, so that a page ends just before `to`. */
+    fun backward(to: Int): List<List<ReaderRow>> {
+        val pages = mutableListOf<List<ReaderRow>>()
+        var current = ArrayDeque<ReaderRow>()
+        var used = 0
+        var usedEn = 0
+        var i = to - 1
+        while (i >= 0) {
+            val m = measured[i]
+            if (current.isNotEmpty() && (used + m.height > heightPx || usedEn + enHeight(m.row) > heightPx)) {
+                pages += current.toList(); current = ArrayDeque(); used = 0; usedEn = 0
+                continue
+            }
+            current.addFirst(m.row); used += m.height; usedEn += enHeight(m.row); i--
+        }
+        if (current.isNotEmpty()) pages += current.toList()
+        pages.reverse()
+        // a heading that ended up last on a page moves to the start of the following page
+        for (k in 0 until pages.size - 1) {
+            val page = pages[k].toMutableList()
+            while (page.isNotEmpty() && isHeading(page.last())) {
+                pages[k + 1] = listOf(page.removeAt(page.size - 1)) + pages[k + 1]
+            }
+            pages[k] = page
+        }
+        return pages.filter { it.isNotEmpty() }
+    }
+
+    val minFirst = heightPx / 3
+    fun heightOf(rows: List<ReaderRow>) = rows.sumOf { r -> measured.first { it.row === r }.height }
+    val chunks: List<List<ReaderRow>> = if (anchorIndex == null || anchorIndex <= 0 || anchorIndex >= measured.size) {
+        forward(0, measured.size)
+    } else {
+        // pages after the anchor from the front, pages before it from the back
+        var before = backward(anchorIndex)
+        var after = forward(anchorIndex, measured.size)
+        if (before.isNotEmpty() && heightOf(before.first()) < minFirst) {
+            // a stub at the beginning looks wrong: cut the pages before the anchor from the front
+            // instead and let the anchored page start a little earlier
+            val fwd = forward(0, anchorIndex)
+            val tail = fwd.last()
+            before = fwd.dropLast(1)
+            after = forward(anchorIndex - tail.size, measured.size)
+        }
+        before + after
+    }
+    return chunks.map { Page(it, numbers, forced, it.first().nInt, it.last().nInt) }
 }
 
 /** "Prologue" when the section has a name; otherwise the kind and number, e.g. "Strophe 1". */
@@ -523,6 +606,40 @@ private fun translationHeights(
         i = j
     }
     return out
+}
+
+private fun stylesFor(typography: androidx.compose.material3.Typography, base: TextStyle, family: androidx.compose.ui.text.font.FontFamily, size: Int) = Styles(
+    section = base.merge(typography.titleLarge.copy(fontFamily = family, fontSize = (size + 5).sp, lineHeight = (size + 9).sp)),
+    subsection = base.merge(typography.titleSmall.copy(fontFamily = family, fontSize = (size - 1).sp, lineHeight = (size + 3).sp)),
+    speaker = base.merge(typography.titleMedium.copy(fontFamily = family, fontSize = size.sp, lineHeight = (size + 4).sp, fontWeight = FontWeight.SemiBold)),
+    greek = base.merge(TextStyle(fontFamily = family, fontSize = size.sp, lineHeight = (size * 1.5f).sp, textIndent = TextIndent(restLine = 20.sp))),
+    translation = base.merge(TextStyle(fontFamily = family, fontSize = (size - 1).sp, lineHeight = ((size - 1) * 1.5f).sp)),
+    stage = base.merge(TextStyle(fontFamily = family, fontSize = (size - 2).sp, lineHeight = ((size - 2) * 1.4f).sp, fontStyle = FontStyle.Italic)),
+    number = base.merge(typography.labelSmall),
+)
+
+@Composable
+private fun PageContent(page: Page, styles: Styles, data: WorkData, numberColumn: Dp, forcedColumn: Dp, onWord: (Long) -> Unit, onLine: (Lines) -> Unit) {
+    for (row in page.rows) {
+        when (row) {
+            is ReaderRow.Section -> SectionHeader(row.section, styles)
+            is ReaderRow.Speaker -> Text(
+                row.name,
+                style = styles.speaker,
+                color = MaterialTheme.colorScheme.primary,
+                modifier = Modifier.padding(top = SPEAKER_TOP, bottom = ROW_GAP),
+            )
+            is ReaderRow.GreekLine -> GreekLineRow(
+                line = row.line,
+                number = page.numbers[row],
+                numberColumn = if (row in page.forced) forcedColumn else numberColumn,
+                data = data,
+                styles = styles,
+                onWord = onWord,
+                onLine = { onLine(row.line) },
+            )
+        }
+    }
 }
 
 private fun sectionLabel(section: Sections): String {
