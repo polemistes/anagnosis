@@ -1,6 +1,7 @@
 package no.anagnosis.ui
 
 import androidx.compose.foundation.Canvas
+import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.gestures.awaitEachGesture
 import androidx.compose.foundation.gestures.awaitFirstDown
@@ -268,7 +269,7 @@ fun ReaderScreen(
                 paginate(rows, measurer, styles, widthPx - numberColumnPx, heightPx, density, settings.lineNumbers, enHeights, anchorIndex)
             }
             // Live preview during a pinch: only the current page, re-laid out at the previewed size.
-            val previewStyles = pinchSize?.let { size -> stylesFor(typography, base, family, size.toInt()) }
+            val previewStyles = pinchSize?.let { size -> stylesFor(typography, base, family, (size + 0.5f).toInt()) }
             val previewPage = if (previewStyles != null && pages.isNotEmpty()) {
                 val page = pages.getOrNull(pagerState.currentPage)
                 val first = page?.rows?.firstOrNull()
@@ -295,14 +296,16 @@ fun ReaderScreen(
             val currentSize = rememberUpdatedState(settings.fontSize)
             val currentSettings = rememberUpdatedState(settings)
             val currentPages = rememberUpdatedState(pages)
+            // The handler lives on a parent that stays in composition throughout the gesture and
+            // watches the Initial pass, so two-finger events are taken before the pager sees them.
             val pinchModifier = Modifier.pointerInput(Unit) {
                 awaitEachGesture {
-                    awaitFirstDown(requireUnconsumed = false)
+                    awaitFirstDown(requireUnconsumed = false, pass = PointerEventPass.Initial)
                     var size = currentSize.value.toFloat()
                     var lastDistance = -1f
                     var pinched = false
                     while (true) {
-                        val event = awaitPointerEvent()
+                        val event = awaitPointerEvent(PointerEventPass.Initial)
                         val pressed = event.changes.filter { it.pressed }
                         if (pressed.isEmpty()) break
                         if (pressed.size >= 2) {
@@ -323,31 +326,36 @@ fun ReaderScreen(
                         val page = currentPages.value.getOrNull(pagerState.currentPage)
                         pinchAnchorRow = page?.rows?.firstOrNull()
                         pinchSize = null
-                        val rounded = size.toInt()
+                        val rounded = (size + 0.5f).toInt()
                         val current = currentSettings.value
                         if (rounded != current.fontSize) onSettingsChange(current.copy(fontSize = rounded))
                     }
                 }
             }
-            if (previewPage != null && previewStyles != null) {
-                Column(Modifier.fillMaxSize().then(pinchModifier).padding(horizontal = horizontal, vertical = vertical)) {
-                    PageContent(previewPage, previewStyles, data, numberColumn, forcedColumn, onWord = {}, onLine = {})
-                }
-            } else if (pages.isNotEmpty()) {
-                val pageSegments = remember(pages, translation) { segmentsByPage(pages, translation?.segments ?: emptyList(), data.lines) }
-                HorizontalPager(state = pagerState, modifier = Modifier.fillMaxSize(), beyondViewportPageCount = 1) { index ->
-                    val page = pages.getOrNull(index) ?: return@HorizontalPager
-                    if (mode == ViewMode.TRANSLATION) {
-                        TranslationPage(
-                            pageSegments.getOrNull(index) ?: emptyList(),
-                            styles,
-                            showAnchors = settings.lineNumbers != LineNumberMode.NONE,
-                            Modifier.fillMaxSize().then(pinchModifier).padding(horizontal = horizontal, vertical = vertical),
-                        )
-                        return@HorizontalPager
+            Box(Modifier.fillMaxSize().then(pinchModifier)) {
+                if (pages.isNotEmpty()) {
+                    val pageSegments = remember(pages, translation) { segmentsByPage(pages, translation?.segments ?: emptyList(), data.lines) }
+                    HorizontalPager(state = pagerState, modifier = Modifier.fillMaxSize(), beyondViewportPageCount = 1) { index ->
+                        val page = pages.getOrNull(index) ?: return@HorizontalPager
+                        if (mode == ViewMode.TRANSLATION) {
+                            TranslationPage(
+                                pageSegments.getOrNull(index) ?: emptyList(),
+                                styles,
+                                showAnchors = settings.lineNumbers != LineNumberMode.NONE,
+                                Modifier.fillMaxSize().padding(horizontal = horizontal, vertical = vertical),
+                            )
+                            return@HorizontalPager
+                        }
+                        Column(Modifier.fillMaxSize().padding(horizontal = horizontal, vertical = vertical)) {
+                            PageContent(page, styles, data, numberColumn, forcedColumn, onWord = { selectedTokenId = it }, onLine = { notesLine = it })
+                        }
                     }
-                    Column(Modifier.fillMaxSize().then(pinchModifier).padding(horizontal = horizontal, vertical = vertical)) {
-                        PageContent(page, styles, data, numberColumn, forcedColumn, onWord = { selectedTokenId = it }, onLine = { notesLine = it })
+                }
+                if (previewPage != null && previewStyles != null) {
+                    Column(
+                        Modifier.fillMaxSize().background(MaterialTheme.colorScheme.background).padding(horizontal = horizontal, vertical = vertical),
+                    ) {
+                        PageContent(previewPage, previewStyles, data, numberColumn, forcedColumn, onWord = {}, onLine = {})
                     }
                 }
             }
