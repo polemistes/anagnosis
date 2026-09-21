@@ -66,4 +66,10 @@ object GreekNormalizer {
         if (sb.isNotEmpty() && sb[sb.length - 1] == 'σ') sb.setCharAt(sb.length - 1, 'ς')
         return sb.toString()
     }
+
+    /** The key with a medial sigma at the end, for prefix searches where the word goes on. */
+    fun prefixKey(s: String): String {
+        val k = looseKey(s)
+        return if (k.endsWith('ς')) k.dropLast(1) + 'σ' else k
+    }
 }

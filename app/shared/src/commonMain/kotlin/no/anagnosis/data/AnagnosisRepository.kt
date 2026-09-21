@@ -125,7 +125,15 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
     /** Headwords starting with the given loose key (diacritics ignored), one per lemma. */
     fun searchHeadwords(looseKey: String, limit: Long = 80): List<HeadwordHit> {
         if (looseKey.isEmpty()) return emptyList()
-        return lexicon.lexiconQueries.searchHeadwords(looseKey, looseKey + "\uFFFF", limit).executeAsList()
+        val q = lexicon.lexiconQueries
+        val exactEnd = q.searchHeadwords(looseKey, looseKey + "\uFFFF", limit).executeAsList()
+        // a key ending in ς is also the start of longer words, where the sigma is medial (σ)
+        val longer = if (looseKey.endsWith('ς')) {
+            val p = looseKey.dropLast(1) + 'σ'
+            q.searchHeadwords(p, p + "\uFFFF", limit).executeAsList()
+        } else emptyList()
+        return (exactEnd + longer).distinctBy { it.lemma_key }
+            .sortedWith(compareBy({ it.sort_key }, { it.lemma_key })).take(limit.toInt())
             .map { HeadwordHit(it.lemma_key, it.headword ?: it.lemma_key) }
     }
 
