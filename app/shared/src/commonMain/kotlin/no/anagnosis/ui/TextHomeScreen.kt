@@ -25,34 +25,32 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import no.anagnosis.data.AnagnosisRepository
-import no.anagnosis.data.WorkData
+import no.anagnosis.data.CatalogEntry
 
-/** The first screen: what this app is, and the way into the text and the edition's documents. */
+/** A text's own page: title, description, the way into the text and the edition's documents. */
 @Composable
-fun HomeScreen(
+fun TextHomeScreen(
     repository: AnagnosisRepository,
-    data: WorkData,
+    entry: CatalogEntry,
     appVersion: String,
     onRead: () -> Unit,
-    onOpenDocument: (String) -> Unit,
+    onBack: () -> Unit,
 ) {
     var showHelp by remember { mutableStateOf(false) }
     var showAbout by remember { mutableStateOf(false) }
-    val documents = remember { repository.documents(data) }
+    var openDocument by remember { mutableStateOf<String?>(null) }
+    val data = remember(entry.slug) { repository.loadWork(entry.slug) }
+    val documents = remember(entry.slug) { repository.documents(data) }
     Column(
         Modifier.fillMaxSize().safeDrawingPadding().verticalScroll(rememberScrollState()).padding(horizontal = 28.dp, vertical = 32.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
-        Spacer(Modifier.height(24.dp))
-        Text("Antigone", style = MaterialTheme.typography.displaySmall, textAlign = TextAlign.Center)
-        Text("by Sophocles", style = MaterialTheme.typography.titleLarge, color = MaterialTheme.colorScheme.onSurfaceVariant, textAlign = TextAlign.Center)
+        TextButton(onClick = onBack, modifier = Modifier.align(Alignment.Start)) { Text("‹ Library") }
+        Spacer(Modifier.height(8.dp))
+        Text(entry.titleEn.ifEmpty { entry.title }, style = MaterialTheme.typography.displaySmall, textAlign = TextAlign.Center)
+        Text("by ${entry.authorEn.ifEmpty { entry.author }}", style = MaterialTheme.typography.titleLarge, color = MaterialTheme.colorScheme.onSurfaceVariant, textAlign = TextAlign.Center)
         Spacer(Modifier.height(28.dp))
-        Text(
-            "The Greek text of Sir Richard Jebb's edition, with his translation, critical notes and commentary, " +
-                "and the Liddell–Scott dictionaries. Tap any word for its meaning and form.",
-            style = MaterialTheme.typography.bodyLarge,
-            textAlign = TextAlign.Center,
-        )
+        Text(entry.description, style = MaterialTheme.typography.bodyLarge, textAlign = TextAlign.Center)
         Spacer(Modifier.height(12.dp))
         Text(
             "Provided by Anagnosis, an ancient Greek text reader for Android.",
@@ -67,7 +65,7 @@ fun HomeScreen(
         Spacer(Modifier.height(20.dp))
         Column(Modifier.fillMaxWidth().padding(horizontal = 24.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
             for ((slug, title) in documents) {
-                OutlinedButton(onClick = { onOpenDocument(slug) }, modifier = Modifier.fillMaxWidth()) { Text(title) }
+                OutlinedButton(onClick = { openDocument = slug }, modifier = Modifier.fillMaxWidth()) { Text(title) }
             }
         }
         Spacer(Modifier.height(28.dp))
@@ -75,6 +73,10 @@ fun HomeScreen(
             TextButton(onClick = { showHelp = true }) { Text("How to use") }
             TextButton(onClick = { showAbout = true }) { Text("About and credits") }
         }
+    }
+    openDocument?.let { slug ->
+        val doc = remember(slug) { repository.document(data, slug) }
+        if (doc != null) DocumentSheet(doc, onDismiss = { openDocument = null }) else openDocument = null
     }
     if (showHelp) IntroDialog(onDismiss = { showHelp = false })
     if (showAbout) {

@@ -4,12 +4,48 @@ import no.anagnosis.DriverFactory
 import no.anagnosis.db.AnagnosisDatabase
 import no.anagnosis.db.Documents
 import no.anagnosis.db.Lines
+import no.anagnosis.inflate
+import no.anagnosis.lexdb.LexiconDatabase
 
-class AnagnosisRepository(driverFactory: DriverFactory) {
-    private val db = AnagnosisDatabase(driverFactory.createDriver())
-    private val q get() = db.anagnosisQueries
+class AnagnosisRepository(private val driverFactory: DriverFactory) {
+    private val lexicon by lazy { LexiconDatabase(driverFactory.createDriver("lexicon")) }
+    private val textDbs = HashMap<String, AnagnosisDatabase>()
+
+    private fun textDb(slug: String): AnagnosisDatabase =
+        textDbs.getOrPut(slug) { AnagnosisDatabase(driverFactory.createDriver(slug)) }
+
+    /** The texts this app knows about, installed ones marked. */
+    fun catalog(): List<CatalogEntry> {
+        val installed = driverFactory.installedTexts().toSet()
+        val json = driverFactory.readCatalog()
+        val entries = if (json != null) parseCatalog(json) else emptyList()
+        val listed = entries.map { it.slug }.toSet()
+        // installed texts missing from the catalog (e.g. a downloaded text) still appear
+        val extra = installed.filter { it !in listed }.map { slug ->
+            val w = textDb(slug).anagnosisQueries.selectWorkBySlug(slug).executeAsOneOrNull()
+            CatalogEntry(slug, w?.title ?: slug, w?.author ?: "", w?.title ?: slug, w?.author ?: "", "", w?.edition ?: "", true)
+        }
+        return entries.map { it.copy(installed = it.slug in installed) } + extra
+    }
+
+    private fun CatalogEntry.copy(installed: Boolean) =
+        CatalogEntry(slug, title, author, titleEn, authorEn, description, edition, installed)
+
+    private fun parseCatalog(json: String): List<CatalogEntry> {
+        // the catalog is a flat JSON array of objects with string values; a small parser suffices
+        val objects = Regex("\\{[^{}]*\\}").findAll(json).map { it.value }
+        fun field(obj: String, name: String): String {
+            val m = Regex("\"$name\"\\s*:\\s*\"((?:[^\"\\\\]|\\\\.)*)\"").find(obj) ?: return ""
+            return m.groupValues[1].replace("\\n", "\n").replace("\\\"", "\"").replace("\\\\", "\\")
+        }
+        return objects.map { o ->
+            CatalogEntry(field(o, "slug"), field(o, "title"), field(o, "author"), field(o, "title_en"),
+                field(o, "author_en"), field(o, "description"), field(o, "edition"), false)
+        }.filter { it.slug.isNotEmpty() }.toList()
+    }
 
     fun loadWork(slug: String): WorkData {
+        val q = textDb(slug).anagnosisQueries
         val work = q.selectWorkBySlug(slug).executeAsOne()
         val lines = q.selectLines(work.id).executeAsList()
         val tokens = q.selectTokensForWork(work.id).executeAsList().groupBy { it.line_id }
@@ -20,7 +56,6 @@ class AnagnosisRepository(driverFactory: DriverFactory) {
             TranslationData(it, q.selectSegments(it.id).executeAsList())
         }
         val commentaries = q.selectCommentaries(work.id).executeAsList()
-        // A note on line n attaches to the first existing line with n_int >= n (numbering has gaps).
         val starts = q.selectNoteStarts().executeAsList()
         val withNotes = HashSet<Long>()
         var i = 0
@@ -29,23 +64,28 @@ class AnagnosisRepository(driverFactory: DriverFactory) {
             while (i < starts.size && starts[i] <= line.n_int) { mark = true; i++ }
             if (mark) withNotes += line.id
         }
-        return WorkData(work, lines, tokens, sections, translations, commentaries, withNotes)
+        return WorkData(slug, work, lines, tokens, sections, translations, commentaries, withNotes)
     }
 
     fun lookupWord(data: WorkData, tokenId: Long): WordInfo? {
+        val q = textDb(data.slug).anagnosisQueries
         val token = data.tokensByLine.values.asSequence().flatten().firstOrNull { it.id == tokenId } ?: return null
-        var rows = q.selectEntriesByKey(token.lemma_key).executeAsList()
-            .map { Entry(it.lexicon_slug, it.lexicon_title, it.headword, it.homograph, it.html) }
+        val lq = lexicon.lexiconQueries
+        var rows = lq.selectEntriesByKey(token.lemma_key).executeAsList()
+            .map { Entry(it.lexicon_slug, it.lexicon_title, it.headword, it.homograph, inflate(it.html)) }
         if (rows.isEmpty()) {
-            rows = q.selectEntriesByLooseKey(looseKey(token.lemma)).executeAsList()
-                .map { Entry(it.lexicon_slug, it.lexicon_title, it.headword, it.homograph, it.html) }
+            rows = lq.selectEntriesByLooseKey(looseKey(token.lemma)).executeAsList()
+                .map { Entry(it.lexicon_slug, it.lexicon_title, it.headword, it.homograph, inflate(it.html)) }
         }
+        val glossary = q.selectGlossaryByKey(token.lemma_key).executeAsList()
+            .map { Entry(it.lexicon_slug, it.lexicon_title, it.headword, it.homograph, it.html) }
         val short = q.selectShortDefinition(token.lemma_key).executeAsOneOrNull()?.definition
-        return WordInfo(token, Morphology.describe(token.postag), short, rows)
+        return WordInfo(token, Morphology.describe(token.postag), short, glossary + rows)
     }
 
     /** Notes for a line: those on the line itself plus those on absent line numbers just before it. */
     fun notesForLine(data: WorkData, line: Lines): List<NoteInfo> {
+        val q = textDb(data.slug).anagnosisQueries
         val idx = data.lines.indexOf(line)
         val prevN = if (idx > 0) data.lines[idx - 1].n_int else 0L
         return data.commentaries.map { c ->
@@ -55,9 +95,10 @@ class AnagnosisRepository(driverFactory: DriverFactory) {
 
     /**
      * Notes of the given kind for a page: every note that starts on the page (or on a skipped
-     * number just before it) or whose range overlaps it, grouped by line or range.
+     * number just before it) or whose short range overlaps it, grouped by line or range.
      */
     fun notesForPage(data: WorkData, firstN: Long, lastN: Long, kind: NoteKind): List<NoteGroup> {
+        val q = textDb(data.slug).anagnosisQueries
         val firstIdx = data.lines.indexOfFirst { it.n_int >= firstN }
         val prevN = if (firstIdx > 0) data.lines[firstIdx - 1].n_int else 0L
         val notes = data.commentaries.filter { it.kind() == kind }
@@ -75,30 +116,34 @@ class AnagnosisRepository(driverFactory: DriverFactory) {
 
     /** Titles of the work's free-standing documents (introduction, appendix, sigla ...). */
     fun documents(data: WorkData): List<Pair<String, String>> =
-        q.selectDocuments(data.work.id).executeAsList().map { it.slug to it.title }
+        textDb(data.slug).anagnosisQueries.selectDocuments(data.work.id).executeAsList().map { it.slug to it.title }
 
     /** A free-standing document of the work, e.g. "sigla" (manuscripts and symbols). */
-    fun document(data: WorkData, slug: String): Documents? = q.selectDocument(data.work.id, slug).executeAsOneOrNull()
+    fun document(data: WorkData, slug: String): Documents? =
+        textDb(data.slug).anagnosisQueries.selectDocument(data.work.id, slug).executeAsOneOrNull()
 
-    /** Attribution for everything in the bundle, for the About screen. */
+    /** Attribution for everything installed, for the About screen. */
     fun credits(): List<Credit> {
         val out = mutableListOf<Credit>()
-        for (w in q.selectWorks().executeAsList()) {
-            out += Credit("Text", "${w.author ?: ""}, ${w.title}".trim(' ', ','), w.edition ?: w.source, w.license)
+        for (slug in driverFactory.installedTexts()) {
+            val q = textDb(slug).anagnosisQueries
+            for (w in q.selectWorks().executeAsList()) {
+                out += Credit("Text", "${w.author ?: ""}, ${w.title}".trim(' ', ','), w.edition ?: w.source, w.license)
+            }
+            for (t in q.selectAllTranslations().executeAsList()) {
+                out += Credit("Translation", listOfNotNull(t.translator, t.title).joinToString(", "), t.edition ?: t.source, t.license)
+            }
+            for (c in q.selectAllCommentaries().executeAsList()) {
+                out += Credit("Commentary", listOfNotNull(c.author, c.title).joinToString(", "), c.source, c.license)
+            }
+            for (l in q.selectLexicons().executeAsList()) {
+                out += Credit("Glossary", l.title, l.source, l.license)
+            }
         }
-        for (t in q.selectAllTranslations().executeAsList()) {
-            out += Credit("Translation", listOfNotNull(t.translator, t.title).joinToString(", "), t.edition ?: t.source, t.license)
-        }
-        for (c in q.selectAllCommentaries().executeAsList()) {
-            out += Credit("Commentary", listOfNotNull(c.author, c.title).joinToString(", "), c.source, c.license)
-        }
-        for (l in q.selectLexicons().executeAsList()) {
+        for (l in lexicon.lexiconQueries.selectLexicons().executeAsList()) {
             out += Credit("Dictionary", l.title, l.source, l.license)
         }
-        val short = q.selectShortDefinition("ὁ").executeAsOneOrNull()
-        if (short != null) {
-            out += Credit("Short definitions", "Logeion (Helma Dik, University of Chicago), based on the Perseus short definitions", "https://github.com/helmadik/shortdefs", "Used with credit to Perseus and Logeion")
-        }
+        out += Credit("Short definitions", "Logeion (Helma Dik, University of Chicago), based on the Perseus short definitions", "https://github.com/helmadik/shortdefs", "Used with credit to Perseus and Logeion")
         return out
     }
 

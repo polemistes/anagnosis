@@ -19,10 +19,16 @@ actual class SettingsStore(context: Context) {
         prefs.edit().putBoolean("intro_seen", true).apply()
     }
 
-    actual fun lastLine(): Long? = prefs.getLong("last_line", -1L).takeIf { it >= 0 }
+    actual fun lastText(): String? = prefs.getString("last_text", null)
 
-    actual fun saveLastLine(nInt: Long) {
-        prefs.edit().putLong("last_line", nInt).apply()
+    actual fun saveLastText(slug: String) {
+        prefs.edit().putString("last_text", slug).apply()
+    }
+
+    actual fun lastLine(slug: String): Long? = prefs.getLong("last_line_$slug", -1L).takeIf { it >= 0 }
+
+    actual fun saveLastLine(slug: String, nInt: Long) {
+        prefs.edit().putLong("last_line_$slug", nInt).apply()
     }
 
     actual fun save(settings: ReaderSettings) {

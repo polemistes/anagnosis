@@ -41,6 +41,7 @@ kotlin {
         }
         androidMain.dependencies {
             implementation(libs.sqldelight.android.driver)
+            implementation(libs.androidx.activity.compose)
         }
     }
 }
@@ -54,6 +55,10 @@ sqldelight {
     databases {
         create("AnagnosisDatabase") {
             packageName.set("no.anagnosis.db")
+        }
+        create("LexiconDatabase") {
+            packageName.set("no.anagnosis.lexdb")
+            srcDirs("src/commonMain/sqldelight-lexicon")
         }
     }
 }

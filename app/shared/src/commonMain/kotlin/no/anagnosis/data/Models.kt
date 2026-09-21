@@ -9,8 +9,21 @@ import no.anagnosis.db.Translation_segments
 import no.anagnosis.db.Translations
 import no.anagnosis.db.Works
 
+/** One text in the catalog, installed or not. */
+class CatalogEntry(
+    val slug: String,
+    val title: String,
+    val author: String,
+    val titleEn: String,
+    val authorEn: String,
+    val description: String,
+    val edition: String,
+    val installed: Boolean,
+)
+
 /** Everything needed to display one work, loaded once. */
 class WorkData(
+    val slug: String,
     val work: Works,
     val lines: List<Lines>,
     val tokensByLine: Map<Long, List<Tokens>>,

@@ -19,7 +19,7 @@ translations, and consult commentaries. Everything works offline.
     .venv/bin/python -m anagnosis_pipeline fetch    # download upstream sources into pipeline/sources/
     .venv/bin/python -m anagnosis_pipeline import   # (re)generate texts/ from upstream; overwrites hand edits
     .venv/bin/python -m anagnosis_pipeline check    # validate texts/
-    .venv/bin/python -m anagnosis_pipeline build    # write data/antigone.sqlite
+    .venv/bin/python -m anagnosis_pipeline build    # write data/lexicon.sqlite (shared dictionaries) and data/<text>.sqlite
     .venv/bin/python -m unittest discover -s tests  # run the pipeline tests
 
 See [texts/README.md](texts/README.md) for the file formats.

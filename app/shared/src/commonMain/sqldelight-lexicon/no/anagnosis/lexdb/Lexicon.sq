@@ -1,0 +1,28 @@
+-- Schema of data/lexicon.sqlite, the shared dictionaries (LSJ, Middle Liddell). html is zlib-compressed UTF-8.
+
+CREATE TABLE meta (key TEXT NOT NULL PRIMARY KEY, value TEXT NOT NULL);
+
+CREATE TABLE lexicons (
+    id INTEGER NOT NULL PRIMARY KEY, slug TEXT NOT NULL, title TEXT NOT NULL, source TEXT, license TEXT
+);
+
+CREATE TABLE lexicon_entries (
+    id INTEGER NOT NULL PRIMARY KEY, lexicon_id INTEGER NOT NULL, key TEXT NOT NULL,
+    headword TEXT NOT NULL, homograph INTEGER NOT NULL, lemma_key TEXT NOT NULL,
+    loose_key TEXT NOT NULL, sort_key TEXT NOT NULL, html BLOB NOT NULL
+);
+
+selectLexicons:
+SELECT * FROM lexicons ORDER BY id;
+
+selectEntriesByKey:
+SELECT lexicon_entries.id, lexicon_entries.headword, lexicon_entries.homograph, lexicon_entries.html,
+       lexicons.slug AS lexicon_slug, lexicons.title AS lexicon_title
+FROM lexicon_entries JOIN lexicons ON lexicons.id = lexicon_entries.lexicon_id
+WHERE lemma_key = ? ORDER BY lexicon_id, homograph;
+
+selectEntriesByLooseKey:
+SELECT lexicon_entries.id, lexicon_entries.headword, lexicon_entries.homograph, lexicon_entries.html,
+       lexicons.slug AS lexicon_slug, lexicons.title AS lexicon_title
+FROM lexicon_entries JOIN lexicons ON lexicons.id = lexicon_entries.lexicon_id
+WHERE loose_key = ? ORDER BY lexicon_id, homograph;

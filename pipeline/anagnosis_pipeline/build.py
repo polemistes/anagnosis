@@ -23,7 +23,7 @@ from .textfmt import Line, Section, Speaker, Stage, parse_file
 
 SCHEMA_VERSION = 1
 
-SCHEMA = """
+TEXT_SCHEMA = """
 CREATE TABLE meta (key TEXT PRIMARY KEY, value TEXT NOT NULL);
 
 CREATE TABLE works (
@@ -73,6 +73,12 @@ CREATE TABLE commentary_notes (
 );
 CREATE INDEX commentary_notes_range ON commentary_notes(commentary_id, from_n_int);
 
+CREATE TABLE documents (
+    id INTEGER PRIMARY KEY, work_id INTEGER NOT NULL REFERENCES works(id), slug TEXT NOT NULL,
+    title TEXT NOT NULL, source TEXT, license TEXT, html TEXT NOT NULL
+);
+
+-- Per-text lexicon material: the glossary of names and the short definitions of the text's lemmas.
 CREATE TABLE lexicons (
     id INTEGER PRIMARY KEY, slug TEXT NOT NULL UNIQUE, title TEXT NOT NULL, source TEXT, license TEXT
 );
@@ -83,17 +89,27 @@ CREATE TABLE lexicon_entries (
 );
 CREATE INDEX lexicon_entries_key ON lexicon_entries(lemma_key);
 CREATE INDEX lexicon_entries_loose ON lexicon_entries(loose_key);
-CREATE INDEX lexicon_entries_sort ON lexicon_entries(lexicon_id, sort_key);
-
-CREATE TABLE documents (
-    id INTEGER PRIMARY KEY, work_id INTEGER NOT NULL REFERENCES works(id), slug TEXT NOT NULL,
-    title TEXT NOT NULL, source TEXT, license TEXT, html TEXT NOT NULL
-);
-
 CREATE TABLE short_definitions (
     lemma_key TEXT NOT NULL PRIMARY KEY, source TEXT NOT NULL, definition TEXT NOT NULL
 );
 """
+
+# The shared dictionary database: full LSJ and Middle Liddell.
+LEXICON_SCHEMA = """
+CREATE TABLE meta (key TEXT PRIMARY KEY, value TEXT NOT NULL);
+CREATE TABLE lexicons (
+    id INTEGER PRIMARY KEY, slug TEXT NOT NULL UNIQUE, title TEXT NOT NULL, source TEXT, license TEXT
+);
+CREATE TABLE lexicon_entries (
+    id INTEGER PRIMARY KEY, lexicon_id INTEGER NOT NULL REFERENCES lexicons(id), key TEXT NOT NULL,
+    headword TEXT NOT NULL, homograph INTEGER NOT NULL DEFAULT 0, lemma_key TEXT NOT NULL,
+    loose_key TEXT NOT NULL, sort_key TEXT NOT NULL, html BLOB NOT NULL
+);
+CREATE INDEX lexicon_entries_key ON lexicon_entries(lemma_key);
+CREATE INDEX lexicon_entries_loose ON lexicon_entries(loose_key);
+CREATE INDEX lexicon_entries_sort ON lexicon_entries(lexicon_id, sort_key);
+"""
+# In the shared database the html column holds zlib-compressed UTF-8 (BLOB); see meta html_encoding.
 
 LEXICONS = {
     "lsj": {
@@ -158,28 +174,36 @@ def load_lexica(sources: Path, cache_dir: Path) -> dict[str, list[Entry]]:
 
 # ------------------------------------------------------------------ build
 
-def build(texts: Path, sources: Path, out: Path, include_full_lsj: bool = False) -> None:
-    out.parent.mkdir(parents=True, exist_ok=True)
-    if out.exists():
-        out.unlink()
-    db = sqlite3.connect(out)
-    db.executescript(SCHEMA)
-    db.executemany("INSERT INTO meta VALUES (?, ?)", [
-        ("schema_version", str(SCHEMA_VERSION)),
-        ("generator", "anagnosis_pipeline"),
-    ])
+def _finish(db: sqlite3.Connection, out: Path) -> None:
+    db.execute("PRAGMA user_version = %d" % SCHEMA_VERSION)
+    db.commit()
+    db.execute("VACUUM")
+    db.close()
+    import hashlib
+    digest = hashlib.sha256(out.read_bytes()).hexdigest()[:16]
+    out.with_suffix(out.suffix + ".version").write_text(digest + "\n", encoding="utf-8")
+    print(f"wrote {out} ({out.stat().st_size / 1e6:.1f} MB), version {digest}")
 
-    lemma_keys_used: set[str] = set()
-    lemmas_used: dict[str, str] = {}  # lemma_key -> lemma as written in tokens.tsv
-    overrides: dict[str, str] = {}
-    for work_dir in sorted(p for p in texts.iterdir() if p.is_dir() and (p / "grc.txt").exists()):
-        keys, lemmas = build_work(db, work_dir)
-        lemma_keys_used |= keys
-        lemmas_used.update(lemmas)
-        overrides.update(read_shortdef_overrides(work_dir / "shortdefs.tsv"))
-    build_short_definitions(db, sources, lemmas_used, overrides)
 
+def build(texts: Path, sources: Path, out_dir: Path) -> None:
+    """Write data/lexicon.sqlite (LSJ + Middle Liddell, shared) and data/<slug>.sqlite per text."""
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    # the shared dictionaries
+    lex_path = out_dir / "lexicon.sqlite"
+    if lex_path.exists():
+        lex_path.unlink()
+    db = sqlite3.connect(lex_path)
+    db.executescript(LEXICON_SCHEMA)
+    db.executemany("INSERT INTO meta VALUES (?, ?)", [("schema_version", str(SCHEMA_VERSION)), ("kind", "lexicon"), ("html_encoding", "zlib")])
     lexica = load_lexica(sources, sources.parent / "build")
+    import zlib
+
+    def pack(html_text: str) -> bytes:
+        # citation targets are not used by the app; dropping them saves a third of the size
+        html_text = re.sub(r' data-ref="[^"]*"', "", html_text)
+        return zlib.compress(html_text.encode("utf-8"), 9)
+
     for slug, entries in lexica.items():
         info = LEXICONS[slug]
         cur = db.execute(
@@ -187,31 +211,53 @@ def build(texts: Path, sources: Path, out: Path, include_full_lsj: bool = False)
             (slug, info["title"], info["source"], info["license"]),
         )
         lex_id = cur.lastrowid
-        rows = []
-        for e in entries:
-            key = greek.lemma_key(e.headword)
-            loose = greek.strip_diacritics(e.headword)
-            if slug == "lsj" and not include_full_lsj and key not in lemma_keys_used and loose not in _loose_used:
-                continue  # keep only LSJ entries for lemmas that occur in the bundled texts
-            rows.append((lex_id, e.key, e.headword, e.homograph, key, loose, e.sort_key, e.html))
+        rows = [
+            (lex_id, e.key, e.headword, e.homograph, greek.lemma_key(e.headword), greek.strip_diacritics(e.headword), e.sort_key, pack(e.html))
+            for e in entries
+        ]
         db.executemany(
             "INSERT INTO lexicon_entries (lexicon_id, key, headword, homograph, lemma_key, loose_key, sort_key, html) VALUES (?,?,?,?,?,?,?,?)",
             rows,
         )
         print(f"lexicon {slug}: {len(rows)} entries")
+    _finish(db, lex_path)
 
-    db.execute("PRAGMA user_version = %d" % SCHEMA_VERSION)
-    db.commit()
-    db.execute("VACUUM")
-    db.close()
-    # Sidecar with a content hash: the app recopies the bundle out of its assets when it changes.
-    import hashlib
-    digest = hashlib.sha256(out.read_bytes()).hexdigest()[:16]
-    out.with_suffix(out.suffix + ".version").write_text(digest + "\n", encoding="utf-8")
-    print(f"wrote {out} ({out.stat().st_size / 1e6:.1f} MB), version {digest}")
+    # one database per text, and a catalog of them for the app's library
+    catalog = []
+    for work_dir in sorted(p for p in texts.iterdir() if p.is_dir() and (p / "grc.txt").exists()):
+        catalog.append(read_catalog_entry(work_dir))
+        path = out_dir / f"{work_dir.name}.sqlite"
+        if path.exists():
+            path.unlink()
+        db = sqlite3.connect(path)
+        db.executescript(TEXT_SCHEMA)
+        db.executemany("INSERT INTO meta VALUES (?, ?)", [("schema_version", str(SCHEMA_VERSION)), ("kind", "text")])
+        keys, lemmas = build_work(db, work_dir)
+        overrides = read_shortdef_overrides(work_dir / "shortdefs.tsv")
+        build_short_definitions(db, sources, lemmas, overrides)
+        _finish(db, path)
+    (out_dir / "catalog.json").write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"wrote {out_dir / 'catalog.json'}: {len(catalog)} texts")
 
 
-_loose_used: set[str] = set()
+def read_catalog_entry(work_dir: Path) -> dict:
+    """texts/<slug>/catalog.toml-like header in about.md, or defaults from grc.txt."""
+    from .textfmt import parse_file as _parse
+
+    meta = _parse(work_dir / "grc.txt").meta
+    entry = {"slug": work_dir.name, "title": meta.get("title", work_dir.name), "author": meta.get("author", ""),
+             "title_en": "", "author_en": "", "description": "", "edition": meta.get("edition", "")}
+    about = work_dir / "about.md"
+    if about.exists():
+        body = []
+        for raw in about.read_text(encoding="utf-8").splitlines():
+            m = re.match(r"^# ([a-z_]+): (.*)$", raw)
+            if m and not body:
+                entry[m.group(1)] = m.group(2).strip()
+            elif body or raw.strip():
+                body.append(raw)
+        entry["description"] = "\n".join(body).strip()
+    return entry
 
 
 def build_work(db: sqlite3.Connection, work_dir: Path) -> set[str]:
@@ -281,7 +327,6 @@ def build_work(db: sqlite3.Connection, work_dir: Path) -> set[str]:
             key = greek.lemma_key(lemma)
             lemma_keys.add(key)
             lemmas[key] = lemma
-            _loose_used.add(greek.strip_diacritics(lemma))
             db.execute(
                 "INSERT INTO tokens (line_id, ord, start, end, form, lemma, lemma_key, postag, relation, head, sentence) VALUES (?,?,?,?,?,?,?,?,?,?,?)",
                 (line_ids[n], int(row["ord"]), start, end, form, lemma, key, row["postag"], row["relation"] or None,
@@ -304,7 +349,7 @@ def build_work(db: sqlite3.Connection, work_dir: Path) -> set[str]:
 
     # free-standing documents: manuscripts and sigla, later perhaps introductions
     preferred = ["introduction", "appendix", "sigla"]
-    docs = [p for p in work_dir.glob("*.md") if not p.name.startswith("commentary-") and p.name != "glossary.md"]
+    docs = [p for p in work_dir.glob("*.md") if not p.name.startswith("commentary-") and p.name not in ("glossary.md", "about.md")]
     for path in sorted(docs, key=lambda p: (preferred.index(p.stem) if p.stem in preferred else len(preferred), p.stem)):
         build_document(db, work_id, path)
 

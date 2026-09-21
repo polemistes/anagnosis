@@ -73,6 +73,8 @@ def check_work(work_dir: Path, lexicon_keys: dict[str, set[str]] | None, sources
         print(f"  commentary {path.name}: {len(notes)} notes" + (f", {len(bad)} refer to line numbers absent from grc.txt (attach to the next line): {bad[:10]}" if bad else ""))
 
     # lexicon coverage (the work's own glossary counts as a lexicon)
+    if lexicon_keys is not None and not isinstance(lexicon_keys, dict):
+        lexicon_keys = None
     if lexicon_keys is not None:
         glossary = work_dir / "glossary.md"
         if glossary.exists():

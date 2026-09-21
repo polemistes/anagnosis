@@ -22,8 +22,8 @@ def main(argv: list[str] | None = None) -> int:
     v = sub.add_parser("verify-apparatus", help="check apparatus lemmas against the Greek text")
     ma = sub.add_parser("merge-appendix", help="merge appendix transcription batches into texts/antigone/appendix.md")
     ma.add_argument("--batches", default=str(ROOT / "pipeline" / "build" / "apparatus"))
-    b = sub.add_parser("build", help="build the SQLite bundle in data/")
-    b.add_argument("--out", default=str(DATA / "antigone.sqlite"))
+    b = sub.add_parser("build", help="build data/lexicon.sqlite and one data/<text>.sqlite per text")
+    b.add_argument("--out", default=str(DATA))
     args = ap.parse_args(argv)
 
     if args.cmd == "fetch":

@@ -5,7 +5,7 @@ hand; then run the pipeline to rebuild the SQLite bundle:
 
     cd pipeline
     .venv/bin/python -m anagnosis_pipeline check     # validate
-    .venv/bin/python -m anagnosis_pipeline build     # write data/antigone.sqlite
+    .venv/bin/python -m anagnosis_pipeline build     # write data/lexicon.sqlite and data/antigone.sqlite
 
 The pipeline's `import` command regenerates these files from the upstream Perseus sources
 and **overwrites hand edits**. Run it only when you want to resync with upstream, and diff the
@@ -110,9 +110,9 @@ heading `## 4` becomes `## 4 ff.` when an OCR paragraph starts with that label a
 Greek word. Headings may carry a range, a mark, or neither: `## 4`, `## 4-6`, `## 4 ff.`.
 Marks the OCR missed can be added by hand.
 
-## Other documents (`sigla.md`, ...)
+## Other documents (`sigla.md`, `introduction.md`, `appendix.md`)
 
-Any other `*.md` file in the work's folder (not `commentary-*.md` or `glossary.md`) becomes a
+Any other `*.md` file in the work's folder (not `commentary-*.md`, `glossary.md` or `about.md`) becomes a
 free-standing document in the bundle, with `# key: value` headers for title, source and
 license. `sigla.md` lists the manuscripts and symbols of the critical notes; the app shows it
 from the Manuscripts button of the Apparatus view.

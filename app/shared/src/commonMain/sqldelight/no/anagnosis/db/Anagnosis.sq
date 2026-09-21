@@ -96,19 +96,10 @@ ORDER BY ord;
 selectLexicons:
 SELECT * FROM lexicons ORDER BY id;
 
-selectEntriesByKey:
+selectGlossaryByKey:
 SELECT lexicon_entries.*, lexicons.slug AS lexicon_slug, lexicons.title AS lexicon_title
 FROM lexicon_entries JOIN lexicons ON lexicons.id = lexicon_entries.lexicon_id
 WHERE lemma_key = ? ORDER BY lexicon_id, homograph;
-
-selectEntriesByLooseKey:
-SELECT lexicon_entries.*, lexicons.slug AS lexicon_slug, lexicons.title AS lexicon_title
-FROM lexicon_entries JOIN lexicons ON lexicons.id = lexicon_entries.lexicon_id
-WHERE loose_key = ? ORDER BY lexicon_id, homograph;
-
-searchHeadwords:
-SELECT id, headword, lexicon_id FROM lexicon_entries
-WHERE loose_key LIKE :prefix || '%' ORDER BY sort_key LIMIT 50;
 
 CREATE TABLE short_definitions (
     lemma_key TEXT NOT NULL PRIMARY KEY, source TEXT NOT NULL, definition TEXT NOT NULL

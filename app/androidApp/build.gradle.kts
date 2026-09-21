@@ -15,7 +15,7 @@ android {
     compileSdk = libs.versions.android.compileSdk.get().toInt()
 
     defaultConfig {
-        applicationId = "no.anagnosis.antigone"
+        applicationId = "no.anagnosis.reader"
         minSdk = libs.versions.android.minSdk.get().toInt()
         targetSdk = libs.versions.android.targetSdk.get().toInt()
         versionCode = 1
@@ -43,9 +43,12 @@ kotlin {
     }
 }
 
-// The data bundle is built by the Python pipeline into ../data and copied into the APK assets.
+// The data bundles are built by the Python pipeline into ../data and copied into the APK assets:
+// lexicon.sqlite (shared dictionaries), catalog.json, and one <text>.sqlite per bundled text.
 val copyBundle by tasks.registering(Copy::class) {
-    from(rootProject.file("../data/antigone.sqlite"), rootProject.file("../data/antigone.sqlite.version"))
-    into(layout.projectDirectory.dir("src/main/assets"))
+    from(rootProject.file("../data")) {
+        include("*.sqlite", "*.sqlite.version", "catalog.json")
+    }
+    into(layout.projectDirectory.dir("src/main/assets/data"))
 }
 tasks.matching { it.name == "preBuild" }.configureEach { dependsOn(copyBundle) }

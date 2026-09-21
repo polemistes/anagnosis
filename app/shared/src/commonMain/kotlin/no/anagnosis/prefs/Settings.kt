@@ -39,7 +39,10 @@ expect class SettingsStore {
     fun save(settings: ReaderSettings)
     fun introSeen(): Boolean
     fun markIntroSeen()
-    /** Line number (n_int) of the page last read, or null when reading has not started. */
-    fun lastLine(): Long?
-    fun saveLastLine(nInt: Long)
+    /** The text last read, or null when reading has not started. */
+    fun lastText(): String?
+    fun saveLastText(slug: String)
+    /** Line number (n_int) of the page last read in a text, or null. */
+    fun lastLine(slug: String): Long?
+    fun saveLastLine(slug: String, nInt: Long)
 }

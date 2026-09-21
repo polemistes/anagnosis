@@ -22,60 +22,95 @@ import androidx.compose.ui.graphics.lerp
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import no.anagnosis.data.AnagnosisRepository
+import no.anagnosis.data.CatalogEntry
 import no.anagnosis.data.WorkData
 import no.anagnosis.prefs.ColorTheme
-import no.anagnosis.prefs.ReaderSettings
 import no.anagnosis.prefs.SettingsStore
 
-const val WORK_SLUG = "antigone"
+/** The app's screens: the library of texts, a text's own page, and the reader. */
+sealed interface Screen {
+    data object Library : Screen
+    data class TextHome(val slug: String) : Screen
+    data class Reader(val slug: String) : Screen
+}
 
 @Composable
 fun App(repository: AnagnosisRepository, settingsStore: SettingsStore, appVersion: String) {
     var settings by remember { mutableStateOf(settingsStore.load()) }
-    var showIntro by remember { mutableStateOf(false) }  // the home page covers the first-launch introduction
+    var showIntro by remember { mutableStateOf(false) }
     val systemDark = isSystemInDarkTheme()
     val colors = remember(settings.theme, systemDark) { colorScheme(settings.theme, systemDark) }
+
+    var catalog by remember { mutableStateOf<List<CatalogEntry>?>(null) }
+    var screen by remember { mutableStateOf<Screen>(Screen.Library) }
+    val loaded = remember { HashMap<String, WorkData>() }
+    var current by remember { mutableStateOf<WorkData?>(null) }
+
+    LaunchedEffect(Unit) {
+        val list = withContext(Dispatchers.Default) { repository.catalog() }
+        catalog = list
+        // Resume where the reader left off, if that text is still installed.
+        val last = settingsStore.lastText()
+        if (last != null && list.any { it.slug == last && it.installed } && settingsStore.lastLine(last) != null) {
+            screen = Screen.Reader(last)
+        }
+    }
+    val wantedSlug = (screen as? Screen.Reader)?.slug
+    LaunchedEffect(wantedSlug) {
+        if (wantedSlug != null) {
+            current = loaded[wantedSlug] ?: withContext(Dispatchers.Default) { repository.loadWork(wantedSlug) }.also { loaded[wantedSlug] = it }
+        }
+    }
+
     MaterialTheme(colorScheme = colors) {
         Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
-            var data by remember { mutableStateOf<WorkData?>(null) }
-            LaunchedEffect(Unit) {
-                data = withContext(Dispatchers.Default) { repository.loadWork(WORK_SLUG) }
-            }
-            val loaded = data
-            var showHome by remember { mutableStateOf(settingsStore.lastLine() == null) }
-            var homeDocument by remember { mutableStateOf<String?>(null) }
-            if (loaded == null) {
-                Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) { CircularProgressIndicator() }
-            } else if (showHome) {
-                HomeScreen(
-                    repository = repository,
-                    data = loaded,
+            val list = catalog
+            when (val s = screen) {
+                Screen.Library -> if (list == null) Loading() else LibraryScreen(
+                    catalog = list,
                     appVersion = appVersion,
-                    onRead = { showHome = false },
-                    onOpenDocument = { homeDocument = it },
+                    repository = repository,
+                    onOpen = { screen = Screen.TextHome(it) },
                 )
-                homeDocument?.let { slug ->
-                    val doc = remember(slug) { repository.document(loaded, slug) }
-                    if (doc != null) DocumentSheet(doc, onDismiss = { homeDocument = null }) else homeDocument = null
+                is Screen.TextHome -> {
+                    val entry = list?.firstOrNull { it.slug == s.slug }
+                    if (entry == null) Loading() else TextHomeScreen(
+                        repository = repository,
+                        entry = entry,
+                        appVersion = appVersion,
+                        onRead = { screen = Screen.Reader(s.slug) },
+                        onBack = { screen = Screen.Library },
+                    )
+                    PlatformBackHandler { screen = Screen.Library }
                 }
-            } else {
-                ReaderScreen(
-                    repository = repository,
-                    data = loaded,
-                    settings = settings,
-                    onSettingsChange = { settings = it; settingsStore.save(it) },
-                    onHelp = { showIntro = true },
-                    onHome = { showHome = true },
-                    startLine = settingsStore.lastLine() ?: 1L,
-                    onPositionChange = { settingsStore.saveLastLine(it) },
-                    appVersion = appVersion,
-                )
-                if (showIntro) {
-                    IntroDialog(onDismiss = { showIntro = false; settingsStore.markIntroSeen() })
+                is Screen.Reader -> {
+                    val data = current
+                    if (data == null || data.slug != s.slug) Loading() else {
+                        ReaderScreen(
+                            repository = repository,
+                            data = data,
+                            settings = settings,
+                            onSettingsChange = { settings = it; settingsStore.save(it) },
+                            onHelp = { showIntro = true },
+                            onHome = { screen = Screen.TextHome(s.slug) },
+                            startLine = settingsStore.lastLine(s.slug) ?: 1L,
+                            onPositionChange = { settingsStore.saveLastText(s.slug); settingsStore.saveLastLine(s.slug, it) },
+                            appVersion = appVersion,
+                        )
+                        if (showIntro) {
+                            IntroDialog(onDismiss = { showIntro = false; settingsStore.markIntroSeen() })
+                        }
+                        PlatformBackHandler { screen = Screen.TextHome(s.slug) }
+                    }
                 }
             }
         }
     }
+}
+
+@Composable
+private fun Loading() {
+    Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) { CircularProgressIndicator() }
 }
 
 private fun colorScheme(theme: ColorTheme, systemDark: Boolean): ColorScheme {
@@ -83,7 +118,7 @@ private fun colorScheme(theme: ColorTheme, systemDark: Boolean): ColorScheme {
     val base = if (theme.dark) darkColorScheme() else lightColorScheme()
     val bg = Color(theme.background)
     val fg = Color(theme.text)
-    val raised = lerp(bg, fg, 0.06f) // sheets and dialogs, slightly lifted from the page
+    val raised = lerp(bg, fg, 0.06f)
     return base.copy(
         background = bg,
         onBackground = fg,
