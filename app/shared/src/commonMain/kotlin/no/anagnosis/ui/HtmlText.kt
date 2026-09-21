@@ -13,6 +13,7 @@ import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextDecoration
+import androidx.compose.ui.unit.em
 import androidx.compose.ui.unit.sp
 
 /**
@@ -22,8 +23,9 @@ import androidx.compose.ui.unit.sp
 @Composable
 fun HtmlText(html: String, modifier: Modifier = Modifier, onNoteLink: ((String) -> Unit)? = null) {
     val linkColor = MaterialTheme.colorScheme.primary
+    val muted = MaterialTheme.colorScheme.outline
     Text(
-        text = htmlToAnnotated(html, linkColor = linkColor, onNoteLink = onNoteLink),
+        text = htmlToAnnotated(html, linkColor = linkColor, onNoteLink = onNoteLink, mutedColor = muted),
         modifier = modifier,
         style = MaterialTheme.typography.bodyMedium,
     )
@@ -37,6 +39,7 @@ fun htmlToAnnotated(
     html: String,
     linkColor: Color,
     onNoteLink: ((String) -> Unit)?,
+    mutedColor: Color = linkColor.copy(alpha = 0.55f),
 ): AnnotatedString = buildAnnotatedString {
     var pos = 0
     var paragraphs = 0
@@ -72,15 +75,21 @@ fun htmlToAnnotated(
                     pushStyle(SpanStyle(fontWeight = FontWeight.Bold, fontSize = if (tag == "h1") 20.sp else 17.sp)); pushed++
                     pendingParagraphBreak = false
                 }
-                "i" -> { pushStyle(SpanStyle(fontStyle = FontStyle.Italic)); pushed++ }
+                "i" -> {
+                val cls = CLASS.find(attrs)?.groupValues?.get(1) ?: ""
+                if ("tr" in cls) pushStyle(SpanStyle(fontWeight = FontWeight.SemiBold, color = linkColor))
+                else pushStyle(SpanStyle(fontStyle = FontStyle.Italic))
+                pushed++
+            }
                 "span" -> {
                     val cls = CLASS.find(attrs)?.groupValues?.get(1) ?: ""
                     when {
                         "orth" in cls -> { pushStyle(SpanStyle(fontWeight = FontWeight.Bold)); pushed++ }
-                        "tr" in cls -> { pushStyle(SpanStyle(fontStyle = FontStyle.Italic)); pushed++ }
-                        "bibl" in cls || "usg" in cls -> {
-                            pushStyle(SpanStyle(color = linkColor.copy(alpha = 0.75f))); pushed++
-                        }
+                        // the definitions are what the reader is after: bold in the accent colour
+                        "tr" in cls -> { pushStyle(SpanStyle(fontWeight = FontWeight.SemiBold, color = linkColor)); pushed++ }
+                        // citations and author abbreviations recede
+                        "bibl" in cls || "usg" in cls -> { pushStyle(SpanStyle(color = mutedColor, fontSize = 0.88.em)); pushed++ }
+                        "gram" in cls || "etym" in cls -> { pushStyle(SpanStyle(color = mutedColor)); pushed++ }
                     }
                 }
                 "a" -> {
