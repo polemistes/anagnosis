@@ -256,8 +256,11 @@ fun ReaderScreen(
             } else 0
             val numberColumn = with(density) { numberColumnPx.toDp() }
             val forcedColumn = with(density) { (measurer.measure("0000", styles.number).size.width + NUMBER_GAP.roundToPx()).toDp() }
-            val computed = remember(rows, widthPx, heightPx, styles, settings.lineNumbers) {
-                paginate(rows, measurer, styles, widthPx - numberColumnPx, heightPx, density, settings.lineNumbers)
+            val computed = remember(rows, widthPx, heightPx, styles, settings.lineNumbers, settings.fitTranslation) {
+                val enHeights = if (settings.fitTranslation && translation != null) {
+                    translationHeights(translation.segments, data.lines, measurer, styles, widthPx, density)
+                } else emptyMap()
+                paginate(rows, measurer, styles, widthPx - numberColumnPx, heightPx, density, settings.lineNumbers, enHeights)
             }
             LaunchedEffect(computed) {
                 pages = computed
@@ -359,6 +362,7 @@ private fun paginate(
     heightPx: Int,
     density: androidx.compose.ui.unit.Density,
     numbering: LineNumberMode,
+    translationHeights: Map<Long, Int> = emptyMap(),
 ): List<Page> {
     if (widthPx <= 0 || heightPx <= 0) return emptyList()
     fun Dp.px() = with(density) { roundToPx() }
@@ -427,18 +431,23 @@ private fun paginate(
         current = mutableListOf()
         used = 0
     }
+    var usedEn = 0  // height of the translation anchored to the lines on the page so far
+    fun enHeight(row: ReaderRow) = (row as? ReaderRow.GreekLine)?.let { translationHeights[it.line.id] } ?: 0
+    fun flushAll() { flush(); usedEn = 0 }
     var i = 0
     while (i < measured.size) {
         val m = measured[i]
         // keep a heading together with the row that follows it
         val isHeading = m.row is ReaderRow.Section || m.row is ReaderRow.Speaker
         val needed = if (isHeading && i + 1 < measured.size) m.height + measured[i + 1].height else m.height
-        if (current.isNotEmpty() && used + needed > heightPx) {
-            flush()
+        val neededEn = enHeight(m.row) + (if (isHeading && i + 1 < measured.size) enHeight(measured[i + 1].row) else 0)
+        if (current.isNotEmpty() && (used + needed > heightPx || usedEn + neededEn > heightPx)) {
+            flushAll()
             continue
         }
         current += m.row
         used += m.height
+        usedEn += enHeight(m.row)
         i++
     }
     flush()
@@ -446,6 +455,58 @@ private fun paginate(
 }
 
 /** "Prologue" when the section has a name; otherwise the kind and number, e.g. "Strophe 1". */
+/**
+ * Height of the translation attached to each line (by line id). Speeches are measured as the
+ * joined paragraphs they are displayed as, and the height is shared out among the speech's
+ * segments in proportion to their length.
+ */
+private fun translationHeights(
+    segments: List<Translation_segments>,
+    lines: List<Lines>,
+    measurer: TextMeasurer,
+    styles: Styles,
+    widthPx: Int,
+    density: androidx.compose.ui.unit.Density,
+): Map<Long, Int> {
+    if (widthPx <= 0) return emptyMap()
+    val constraints = Constraints(maxWidth = widthPx)
+    val gap = with(density) { SEGMENT_GAP.roundToPx() }
+    val speakerTop = with(density) { (SPEAKER_TOP + ROW_GAP).roundToPx() }
+    val out = HashMap<Long, Int>()
+    fun lineOf(seg: Translation_segments) = lines.firstOrNull { it.n_int >= seg.from_n_int } ?: lines.last()
+    fun add(seg: Translation_segments, h: Int) {
+        val id = lineOf(seg).id
+        out[id] = (out[id] ?: 0) + h
+    }
+    var i = 0
+    while (i < segments.size) {
+        val seg = segments[i]
+        if (seg.kind == "stage") {
+            add(seg, measurer.measure(seg.text, styles.stage, constraints = constraints).size.height + gap)
+            i++
+            continue
+        }
+        var j = i + 1
+        while (j < segments.size && segments[j].kind == "speech" && segments[j].speech_start == 0L) j++
+        val group = segments.subList(i, j)
+        // Each segment's height is the growth of the paragraph when the segment is appended.
+        var previous = 0
+        val prefix = StringBuilder()
+        for ((k, g) in group.withIndex()) {
+            if (k > 0) prefix.append(' ')
+            prefix.append(g.from_n_int).append('\u2009').append(g.text)
+            val h = measurer.measure(prefix.toString(), styles.translation, constraints = constraints).size.height
+            add(g, h - previous + if (k == group.lastIndex) gap else 0)
+            previous = h
+        }
+        if (seg.speech_start == 1L && seg.speaker != null) {
+            add(seg, measurer.measure(seg.speaker, styles.speaker, constraints = constraints).size.height + speakerTop)
+        }
+        i = j
+    }
+    return out
+}
+
 private fun sectionLabel(section: Sections): String {
     val label = section.label
     if (!label.isNullOrBlank() && label.first().isLetter()) return label

@@ -22,6 +22,7 @@ import androidx.compose.material3.SegmentedButton
 import androidx.compose.material3.SegmentedButtonDefaults
 import androidx.compose.material3.SingleChoiceSegmentedButtonRow
 import androidx.compose.material3.Slider
+import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
@@ -88,6 +89,11 @@ fun OptionsDialog(
                         )
                     }
                 }
+                Row(Modifier.fillMaxWidth().clickable { onChange(settings.copy(fitTranslation = !settings.fitTranslation)) }, verticalAlignment = Alignment.CenterVertically) {
+                    Text("Shorten pages so the translation fits", style = MaterialTheme.typography.bodyMedium, modifier = Modifier.weight(1f))
+                    Switch(checked = settings.fitTranslation, onCheckedChange = { onChange(settings.copy(fitTranslation = it)) })
+                }
+                Spacer(Modifier.height(8.dp))
                 Text("Colours", style = MaterialTheme.typography.labelLarge)
                 Row(Modifier.fillMaxWidth().padding(top = 8.dp), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
                     for (theme in ColorTheme.entries) {
