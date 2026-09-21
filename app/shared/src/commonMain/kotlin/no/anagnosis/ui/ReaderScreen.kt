@@ -16,6 +16,8 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.pager.HorizontalPager
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Settings
@@ -53,9 +55,11 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.BaselineShift
 import androidx.compose.ui.text.rememberTextMeasurer
 import androidx.compose.ui.text.style.TextIndent
 import androidx.compose.ui.text.withLink
+import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.Constraints
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
@@ -86,9 +90,6 @@ sealed interface ReaderRow {
     data class Speaker(val name: String, override val nInt: Long) : ReaderRow
     data class GreekLine(val line: Lines) : ReaderRow {
         override val nInt get() = line.n_int
-    }
-    data class Segment(val segment: Translation_segments) : ReaderRow {
-        override val nInt get() = segment.from_n_int
     }
 }
 
@@ -135,7 +136,7 @@ fun ReaderScreen(
     var pageNotes by remember { mutableStateOf<List<NoteGroup>>(emptyList()) }
 
     val translation = data.translations.firstOrNull()
-    val rows = remember(data, mode) { buildRows(data, mode, translation?.segments ?: emptyList()) }
+    val rows = remember(data) { buildRows(data) }
 
     LaunchedEffect(selectedTokenId) {
         val id = selectedTokenId
@@ -264,8 +265,13 @@ fun ReaderScreen(
                 pagerState.scrollToPage(target)
             }
             if (pages.isNotEmpty()) {
+                val pageSegments = remember(pages, translation) { segmentsByPage(pages, translation?.segments ?: emptyList(), data.lines) }
                 HorizontalPager(state = pagerState, modifier = Modifier.fillMaxSize(), beyondViewportPageCount = 1) { index ->
                     val page = pages.getOrNull(index) ?: return@HorizontalPager
+                    if (mode == ViewMode.TRANSLATION) {
+                        TranslationPage(pageSegments.getOrNull(index) ?: emptyList(), styles, Modifier.fillMaxSize().padding(horizontal = horizontal, vertical = vertical))
+                        return@HorizontalPager
+                    }
                     Column(Modifier.fillMaxSize().padding(horizontal = horizontal, vertical = vertical)) {
                         for (row in page.rows) {
                             when (row) {
@@ -285,7 +291,6 @@ fun ReaderScreen(
                                     onWord = { selectedTokenId = it },
                                     onLine = { notesLine = row.line },
                                 )
-                                is ReaderRow.Segment -> SegmentRow(row.segment, styles)
                             }
                         }
                     }
@@ -319,21 +324,30 @@ fun ReaderScreen(
 
 private fun snapshotCurrentPage(index: Int, pages: List<Page>): Long? = pages.getOrNull(index)?.firstN
 
-private fun buildRows(data: WorkData, mode: ViewMode, segments: List<Translation_segments>): List<ReaderRow> {
+private fun buildRows(data: WorkData): List<ReaderRow> {
     val rows = mutableListOf<ReaderRow>()
-    if (mode == ViewMode.TRANSLATION) {
-        for (s in segments) {
-            if (s.speech_start == 1L && s.speaker != null) rows += ReaderRow.Speaker(s.speaker, s.from_n_int)
-            rows += ReaderRow.Segment(s)
-        }
-        return rows
-    }
     for (line in data.lines) {
         data.sectionsByFirstLine[line.id]?.forEach { rows += ReaderRow.Section(it, line.n_int) }
         if (line.speech_start == 1L && line.speaker != null) rows += ReaderRow.Speaker(line.speaker, line.n_int)
         rows += ReaderRow.GreekLine(line)
     }
     return rows
+}
+
+/**
+ * The translation segments belonging to each Greek page: a segment goes with the page that
+ * holds the first line at or after its anchor. English page N is thus the prose for Greek page N.
+ */
+private fun segmentsByPage(pages: List<Page>, segments: List<Translation_segments>, lines: List<Lines>): List<List<Translation_segments>> {
+    val pageOfLine = HashMap<Long, Int>()
+    pages.forEachIndexed { i, page -> page.rows.forEach { if (it is ReaderRow.GreekLine) pageOfLine[it.line.id] = i } }
+    val out = List(pages.size) { mutableListOf<Translation_segments>() }
+    if (pages.isEmpty()) return out
+    for (seg in segments) {
+        val line = lines.firstOrNull { it.n_int >= seg.from_n_int } ?: lines.last()
+        out[pageOfLine[line.id] ?: (pages.size - 1)] += seg
+    }
+    return out
 }
 
 /** Measure every row at the given width, assign line numbers, and cut the list into pages. */
@@ -366,10 +380,6 @@ private fun paginate(
                 // In the all-lines mode the caller has already reserved a column for the numbers.
                 val fits = numbering == LineNumberMode.ALL || textWidth - layout.getLineRight(0) >= numberWidth
                 Measured(row, layout.size.height, fits)
-            }
-            is ReaderRow.Segment -> {
-                val style = if (row.segment.kind == "stage") styles.stage else styles.translation
-                Measured(row, measurer.measure(row.segment.text, style, constraints = constraints).size.height + SEGMENT_GAP.px())
             }
         }
     }.toMutableList()
@@ -486,15 +496,45 @@ private fun GreekLineRow(line: Lines, number: String?, numberColumn: Dp, data: W
     }
 }
 
+/**
+ * Jebb's prose for one Greek page. Consecutive segments of the same speech are joined into
+ * one paragraph; each segment's anchor line number is shown as a small raised figure.
+ */
 @Composable
-private fun SegmentRow(segment: Translation_segments, styles: Styles) {
-    val isStage = segment.kind == "stage"
-    Text(
-        text = segment.text,
-        style = if (isStage) styles.stage else styles.translation,
-        color = if (isStage) MaterialTheme.colorScheme.secondary else MaterialTheme.colorScheme.onBackground,
-        modifier = Modifier.padding(bottom = SEGMENT_GAP),
+private fun TranslationPage(segments: List<Translation_segments>, styles: Styles, modifier: Modifier) {
+    val anchorStyle = SpanStyle(
+        fontSize = 10.sp,
+        color = MaterialTheme.colorScheme.outline,
+        baselineShift = BaselineShift.Superscript,
     )
+    Column(modifier.verticalScroll(rememberScrollState())) {
+        var i = 0
+        while (i < segments.size) {
+            val seg = segments[i]
+            if (seg.kind == "stage") {
+                Text(seg.text, style = styles.stage, color = MaterialTheme.colorScheme.secondary, modifier = Modifier.padding(vertical = 6.dp))
+                i++
+                continue
+            }
+            // gather the rest of this speech
+            var j = i + 1
+            while (j < segments.size && segments[j].kind == "speech" && segments[j].speech_start == 0L) j++
+            val group = segments.subList(i, j)
+            if (seg.speech_start == 1L && seg.speaker != null) {
+                Text(seg.speaker, style = styles.speaker, color = MaterialTheme.colorScheme.primary, modifier = Modifier.padding(top = SPEAKER_TOP, bottom = ROW_GAP))
+            }
+            val paragraph = buildAnnotatedString {
+                group.forEachIndexed { k, g ->
+                    if (k > 0) append(" ")
+                    withStyle(anchorStyle) { append(g.from_n_int.toString()) }
+                    append("\u2009")
+                    append(g.text)
+                }
+            }
+            Text(paragraph, style = styles.translation, color = MaterialTheme.colorScheme.onBackground, modifier = Modifier.padding(bottom = SEGMENT_GAP))
+            i = j
+        }
+    }
 }
 
 /**
