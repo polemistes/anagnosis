@@ -26,6 +26,7 @@ kotlin {
         androidResources {
             enable = true
         }
+        withHostTestBuilder {}
     }
 
     sourceSets {
@@ -38,6 +39,9 @@ kotlin {
             implementation("org.jetbrains.compose.material:material-icons-core:1.7.3")
             implementation(libs.kotlinx.coroutines.core)
             implementation(libs.sqldelight.runtime)
+        }
+        commonTest.dependencies {
+            implementation(kotlin("test"))
         }
         androidMain.dependencies {
             implementation(libs.sqldelight.android.driver)

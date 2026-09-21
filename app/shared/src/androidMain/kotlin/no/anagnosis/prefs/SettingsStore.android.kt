@@ -13,6 +13,8 @@ actual class SettingsStore(context: Context) {
         lineNumbers = prefs.getString("line_numbers", null)?.let { name -> LineNumberMode.entries.firstOrNull { it.name == name } } ?: LineNumberMode.FIFTH,
         fitTranslation = prefs.getBoolean("fit_translation", false),
         inputScheme = prefs.getString("input_scheme", null)?.let { name -> InputScheme.entries.firstOrNull { it.name == name } } ?: InputScheme.BETA,
+        exactDiacritics = prefs.getBoolean("exact_diacritics", false),
+        greekKeyboard = prefs.getBoolean("greek_keyboard", false),
     )
 
     actual fun introSeen(): Boolean = prefs.getBoolean("intro_seen", false)
@@ -41,6 +43,8 @@ actual class SettingsStore(context: Context) {
             .putString("line_numbers", settings.lineNumbers.name)
             .putBoolean("fit_translation", settings.fitTranslation)
             .putString("input_scheme", settings.inputScheme.name)
+            .putBoolean("exact_diacritics", settings.exactDiacritics)
+            .putBoolean("greek_keyboard", settings.greekKeyboard)
             .apply()
     }
 }

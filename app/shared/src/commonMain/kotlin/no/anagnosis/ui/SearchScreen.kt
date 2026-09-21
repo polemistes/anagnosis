@@ -32,7 +32,9 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
+import androidx.compose.ui.text.TextRange
 import androidx.compose.ui.text.input.KeyboardCapitalization
+import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -45,6 +47,7 @@ import no.anagnosis.data.HeadwordHit
 import no.anagnosis.data.Morphology
 import no.anagnosis.data.WordInfo
 import no.anagnosis.greek.InputScheme
+import no.anagnosis.greek.Polytonic
 import no.anagnosis.greek.Transliteration
 import no.anagnosis.prefs.ReaderSettings
 
@@ -63,24 +66,31 @@ fun SearchScreen(
     onBack: () -> Unit,
 ) {
     var mode by remember { mutableStateOf(SearchMode.DICTIONARY) }
-    var query by remember { mutableStateOf("") }
+    var query by remember { mutableStateOf(TextFieldValue("")) }
     var hits by remember { mutableStateOf<List<HeadwordHit>>(emptyList()) }
     var analyses by remember { mutableStateOf<List<FormAnalysis>>(emptyList()) }
     var word by remember { mutableStateOf<WordInfo?>(null) }
     val focus = remember { FocusRequester() }
 
-    val greekQuery = Transliteration.toGreek(query, settings.inputScheme)
+    val greekQuery = Transliteration.toGreek(query.text, settings.inputScheme)
     val key = Transliteration.looseKey(greekQuery)
+    val exact = settings.exactDiacritics && mode == SearchMode.ANALYSER
 
-    LaunchedEffect(key, mode) {
+    LaunchedEffect(key, mode, greekQuery, exact) {
         if (key.isEmpty()) { hits = emptyList(); analyses = emptyList(); return@LaunchedEffect }
         delay(60)
         when (mode) {
             SearchMode.DICTIONARY -> { hits = withContext(Dispatchers.Default) { repository.searchHeadwords(key) }; analyses = emptyList() }
-            SearchMode.ANALYSER -> { analyses = withContext(Dispatchers.Default) { repository.analyse(key) }; hits = emptyList() }
+            SearchMode.ANALYSER -> { analyses = withContext(Dispatchers.Default) { repository.analyse(greekQuery, exact) }; hits = emptyList() }
         }
     }
-    LaunchedEffect(Unit) { focus.requestFocus() }
+    LaunchedEffect(settings.greekKeyboard) { if (!settings.greekKeyboard) focus.requestFocus() }
+
+    fun typeGreek(s: String) {
+        val text = query.text
+        val newText = if (s.length == 1 && s[0].code in 0x300..0x345) Polytonic.apply(text, s[0]) else text + s
+        query = TextFieldValue(newText, TextRange(newText.length))
+    }
 
     Column(Modifier.fillMaxSize().safeDrawingPadding().padding(horizontal = 16.dp)) {
         Row(Modifier.fillMaxWidth().padding(top = 4.dp), verticalAlignment = Alignment.CenterVertically) {
@@ -102,27 +112,37 @@ fun SearchScreen(
             onValueChange = { query = it },
             modifier = Modifier.fillMaxWidth().padding(top = 4.dp).focusRequester(focus),
             singleLine = true,
+            readOnly = settings.greekKeyboard,
             label = { Text(if (mode == SearchMode.DICTIONARY) "Headword" else "Inflected form") },
             supportingText = {
-                Text(if (greekQuery != query && greekQuery.isNotEmpty()) greekQuery else settings.inputScheme.hint)
+                Text(if (greekQuery != query.text && greekQuery.isNotEmpty()) greekQuery else if (settings.greekKeyboard) "Type a vowel, then its breathing and accent" else settings.inputScheme.hint)
             },
             keyboardOptions = KeyboardOptions(capitalization = KeyboardCapitalization.None, autoCorrectEnabled = false, keyboardType = KeyboardType.Text),
         )
         Row(Modifier.fillMaxWidth().padding(top = 2.dp, bottom = 4.dp), verticalAlignment = Alignment.CenterVertically) {
-            Text("Latin letters:", style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.outline)
+            TextButton(onClick = { onSettingsChange(settings.copy(greekKeyboard = !settings.greekKeyboard)) }) {
+                Text(if (settings.greekKeyboard) "Phone keyboard" else "Greek keyboard", fontSize = 12.sp)
+            }
+            if (mode == SearchMode.ANALYSER) {
+                TextButton(onClick = { onSettingsChange(settings.copy(exactDiacritics = !settings.exactDiacritics)) }) {
+                    Text(if (settings.exactDiacritics) "Accents: exact" else "Accents: ignored", fontSize = 12.sp)
+                }
+            }
             Spacer(Modifier.weight(1f))
-            SingleChoiceSegmentedButtonRow {
-                InputScheme.entries.forEachIndexed { i, s ->
-                    SegmentedButton(
-                        selected = settings.inputScheme == s,
-                        onClick = { onSettingsChange(settings.copy(inputScheme = s)) },
-                        shape = SegmentedButtonDefaults.itemShape(i, InputScheme.entries.size),
-                        label = { Text(if (s == InputScheme.BETA) "q=θ w=ω" else "u=θ v=ω", fontSize = 12.sp) },
-                    )
+            if (!settings.greekKeyboard) {
+                SingleChoiceSegmentedButtonRow {
+                    InputScheme.entries.forEachIndexed { i, s ->
+                        SegmentedButton(
+                            selected = settings.inputScheme == s,
+                            onClick = { onSettingsChange(settings.copy(inputScheme = s)) },
+                            shape = SegmentedButtonDefaults.itemShape(i, InputScheme.entries.size),
+                            label = { Text(if (s == InputScheme.BETA) "q=θ w=ω" else "u=θ v=ω", fontSize = 12.sp) },
+                        )
+                    }
                 }
             }
         }
-        LazyColumn(Modifier.fillMaxSize(), contentPadding = PaddingValues(vertical = 4.dp)) {
+        LazyColumn(Modifier.weight(1f).fillMaxWidth(), contentPadding = PaddingValues(vertical = 4.dp)) {
             items(analyses) { a ->
                 Column(
                     Modifier.fillMaxWidth().clickable { word = repository.wordInfoForAnalysis(a) }.padding(vertical = 8.dp),
@@ -147,6 +167,13 @@ fun SearchScreen(
                 item { Text("No matches.", style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 16.dp)) }
             }
             item { Spacer(Modifier.height(48.dp)) }
+        }
+        if (settings.greekKeyboard) {
+            GreekKeyboard(
+                onKey = { typeGreek(it) },
+                onBackspace = { val t = query.text; if (t.isNotEmpty()) query = TextFieldValue(t.dropLast(1), TextRange(t.length - 1)) },
+                onDone = { onSettingsChange(settings.copy(greekKeyboard = false)) },
+            )
         }
     }
     word?.let { WordSheet(it, onDismiss = { word = null }) }

@@ -162,13 +162,20 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
         return WordInfo(a.form, a.lemma, Morphology.describe(a.postag), short, entriesForLemma(a.lemma))
     }
 
-    /** Analyses of an inflected form (diacritics ignored). */
-    fun analyse(form: String): List<FormAnalysis> {
+    /**
+     * Analyses of an inflected form. Diacritics are ignored for the lookup; with [exact] the
+     * result is narrowed to analyses whose form has the typed diacritics (when any were typed).
+     */
+    fun analyse(form: String, exact: Boolean = false): List<FormAnalysis> {
         val packed = lexicon.lexiconQueries.selectForms(looseKey(form)).executeAsOneOrNull() ?: return emptyList()
-        return inflate(packed).lineSequence().mapNotNull { line ->
+        val all = inflate(packed).lineSequence().mapNotNull { line ->
             val f = line.split('\t')
             if (f.size >= 4) FormAnalysis(f[0], f[1], f[1].lowercase(), f[2], f[3]) else null
         }.toList()
+        if (!exact) return all
+        val typed = no.anagnosis.greek.Polytonic.exactKey(form)
+        if (typed == looseKey(form)) return all  // nothing beyond base letters was typed
+        return all.filter { no.anagnosis.greek.Polytonic.exactKey(it.form) == typed }
     }
 
     /** Attribution for everything installed, for the About screen. */

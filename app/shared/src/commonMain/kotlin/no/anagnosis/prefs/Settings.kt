@@ -28,6 +28,10 @@ data class ReaderSettings(
     val fitTranslation: Boolean = false,
     /** Latin-letter input scheme for the dictionary search. */
     val inputScheme: no.anagnosis.greek.InputScheme = no.anagnosis.greek.InputScheme.BETA,
+    /** Word analysis matches the typed diacritics exactly instead of ignoring them. */
+    val exactDiacritics: Boolean = false,
+    /** Show the app's own Greek keyboard in the search screen. */
+    val greekKeyboard: Boolean = false,
 ) {
     companion object {
         const val MIN_SIZE = 13
