@@ -25,7 +25,7 @@ data class ReaderSettings(
     val theme: ColorTheme = ColorTheme.SYSTEM,
     val lineNumbers: LineNumberMode = LineNumberMode.FIFTH,
     /** End a Greek page early when its translation would not fit on one screen. */
-    val fitTranslation: Boolean = true,
+    val fitTranslation: Boolean = false,
 ) {
     companion object {
         const val MIN_SIZE = 13

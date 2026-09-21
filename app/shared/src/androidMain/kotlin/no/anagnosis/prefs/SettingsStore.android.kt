@@ -10,7 +10,7 @@ actual class SettingsStore(context: Context) {
         fontSize = prefs.getInt("font_size", 17).coerceIn(ReaderSettings.MIN_SIZE, ReaderSettings.MAX_SIZE),
         theme = prefs.getString("theme", null)?.let { name -> ColorTheme.entries.firstOrNull { it.name == name } } ?: ColorTheme.SYSTEM,
         lineNumbers = prefs.getString("line_numbers", null)?.let { name -> LineNumberMode.entries.firstOrNull { it.name == name } } ?: LineNumberMode.FIFTH,
-        fitTranslation = prefs.getBoolean("fit_translation", true),
+        fitTranslation = prefs.getBoolean("fit_translation", false),
     )
 
     actual fun introSeen(): Boolean = prefs.getBoolean("intro_seen", false)
