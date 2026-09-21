@@ -125,7 +125,10 @@ def merge_appendix(batch_dir: Path, out: Path) -> int:
             m = re.match(r"^##\s+(.+?)\s*$", raw)
             if m:
                 label = m.group(1).replace("-", "–")
+                if parts and parts[-1] != "":
+                    parts.append("")
                 parts.append(f"## Line{'s' if '–' in label else ''} {label}")
+                parts.append("")
                 n += 1
             elif not raw.startswith("# "):
                 parts.append(raw)

@@ -4,6 +4,7 @@
 # license: CC BY-SA 4.0 (transcription; the 1891 edition is in the public domain)
 
 ## Line 2 f.
+
 **ἆρ’ οἶσθ’ ὅ τι Ζεὺς τῶν ἀπ’ Οἰδίπου κακῶν ὁποῖον οὐχὶ νῷν ἔτι ζώσαιν τελεῖ;**
 
 The view taken in the commentary—that ὅ τι is subject to ἐστί understood—seems to have been first proposed by W. Schneider, then by Neue; it was advocated by Bonitz (*Beiträge* II. 17); and it is now received by Bellermann. What is new in my note, so far as I know, is the attempt to show how associations of colloquial idiom may have helped to soften the apparent harshness, and, more especially, to excuse the hyperbaton of Ζεύς. Here, at any rate, we approach the root of the difficulty which these verses present. The ultimate question is,—how much irregularity would the spoken language of the day have tolerated in such a sentence? We do not know: we can but study the evidence of contemporary analogies.
@@ -23,6 +24,7 @@ The proposed emendations are all unsatisfactory. They are of three classes.
 (3) Those which change, or transpose, words in both verses.—Heimsoeth (*Krit. Stud.* I. 211): ἆρ’ οἶσθά πού τι τῶν ἀπ’ Οἰδίπου κακῶν | ὁποῖον οὐ Ζεὺς νῷν ἔτι ζώσαιν τελεῖ;—Nauck: ἆρ’ οἶσθ’ ὅ τι Ζεὺς νῷν ἔτι ζώσαιν τελεῖ | ὁποῖον οὐχὶ τῶν ἀπ’ Οἰδίπου κακῶν; As Moriz Schmidt says, this would naturally mean, ‘Knowest thou what Zeus fulfils for us, which does not belong to the woes from Oedipus?’—Moriz Schmidt (1880): ἆρ’ ἔσθ’ ὅ τι Ζεὺς τῶν ἀπ’ Οἰδίπου κακῶν—ἔοικεν οὐχὶ νῷν ἔτι ζώσαιν τελεῖν; He prefers ἔσθ’ to οἶσθ’ on the ground that, after the latter, ὅτι would naturally be taken as the conjunction. (But cp. Plat. *Theaet.* 197 D κατασκευάζομεν οὐκ οἶδ’ ὅ τι πλάσμα.) The origin of ὁποῖον was, he supposes, a marginal gloss ὁποιονδήποτε, referring to κακῶν.—Semitelos compresses the two vv. into one: ἆρ’ οἶσθ’ ὅ τι Ζεὺς οὐχὶ νῷν ζώσαιν τελεῖ;
 
 ## Line 4
+
 **οὔτ’ ἄτης ἄτερ.** It is difficult to avoid the conclusion that we have to choose between two views. One is that the words ἄτης ἄτερ are sound, but that there has been some confusion of negatives. I shall return presently to this theory, which has lately been gaining ground in Germany. The other view is that the words ἄτης ἄτερ conceal a corruption, but that the process which led to it can no longer be traced.
 
 It must never be forgotten—it is indeed the capital condition of sound criticism here—that οὔτ’ ἄτης ἄτερ was already the traditional reading in the time of Didymus, *c.* 30 B.C.¹ The practice of writing explanations, ‘glosses,’ in the margin of MSS. was common in the later age to which our MSS. belong; but we are not entitled to suppose that it existed in the earlier Alexandrian age, from which the MSS. of 30 B.C. had come down. Therefore we cannot assume, as Porson did, that ἄτερ arose from a marginal gloss ἀτηρ″, *i.e.* ἀτηρόν, representing the *sense* of some other word or phrase which originally stood in the text. Again: it is possible that ἄτης ἄτερ arose from a dittographia, ἄτης ἄτης, and that the word which originally followed ἄτης bore no likeness to ἄτερ. But this also would be a bold assumption. And, apart from such hypotheses, we can only be guided by the letters of οὔτ’ ἄτης ἄτερ. No reading can claim to be more than a guess, unless it is such that a mis-writing of it might have generated those words.
@@ -59,6 +61,7 @@ I subjoin a classified list of the conjectures known to me.
 5. Conjectures which change both **οὔτ’** and **ἄτης ἄτερ**.—Buchholz: οἶδ’ ἄτλης, πάτερ.—Moriz Schmidt: ἔσθ’ ὁποιονοῦν.
 
 ## Line 23 ff.
+
 **23 Ἐτεοκλέα μέν, ὡς λέγουσι, σὺν δίκῃ 24 χρησθεὶς δικαίᾳ καὶ νόμῳ κατὰ χθονὸς 25 ἔκρυψε τοῖς ἔνερθεν ἔντιμον νεκροῖς.**
 
 The attempts to correct this passage have been of two classes: I. those which disturb the present number of verses: II. those which are confined to verbal emendation.
@@ -78,9 +81,11 @@ II. 1. Among the merely verbal emendations, the simplest are those which change 
 After my commentary on vv. 23 f. had been printed, I discovered that the conjecture **σὺν δίκης | χρήσει** had been made before,—viz., by Gerh. Heinrich Müller, in his *Emendationes et interpretationes Sophocleae* (Berlin, 1878), p. 51; and that Madvig had thought of σὺν τύχης (for δίκης) χρήσει. In one respect, however, I have not been anticipated,—viz., in the statement of the considerations by which the emendation was suggested to me, and by which it may be defended. Even if it should find little acceptance, still many students will probably feel that this is a case where we have to choose between gentle remedies,—among which σὺν δίκης χρήσει may ask a hearing,—and violent remedies which part company with the tradition. It may well be, of course, that the fault really lies deeper—and beyond discovery now.
 
 ## Line 110 ff.
+
 Some edd. change **γᾷ** (110), **γᾶν, ὑπερέπτα** (113) to the forms in **η**, because no other Doric forms occur in these anapaests. Anapaests held an intermediate place between dialogue and lyrics proper. According to the context in which they occur, they are sometimes more nearly akin to the former, and sometimes to the latter. Now, in the lyrics of Attic Tragedy the Doric **α** was a conventional mark of lyric style. The question of retaining it in any given set of anapaests must therefore be governed by the consideration just stated, and cannot be settled by an inflexible rule. In this passage the anapaests are essentially part of the choral song; and the Doric forms γᾷ, γᾶν, ὑπερέπτα, are therefore appropriate. They serve to maintain the continuity of lyric character. It is otherwise with the anapaests spoken by the Chorus just after the third stasimon (801—805), and in the following kommos (815—822). There, it is evident that the anapaests have the tone of dialogue rather than of lyrics; they are intended to afford a relief, or a contrast, to the lyrics before and after them. (Cp. n. on 804 f.) In them, accordingly, it seems clearly best to write παγκοίτην (804), and θνητῶν Ἀίδην (822). Some cases occur elsewhere which are on the border-line; but, as a general rule, it is not difficult to decide. The MSS. almost invariably give the Doric forms in anapaests, which the transcribers regarded as following ordinary lyric usage.
 
 ## Line 138 ff.
+
 **εἶχε δ’ ἄλλᾳ τὰ μέν, | ἄλλα δ’ ἐπ’ ἄλλοις, κ.τ.λ.**
 
 This, Erfurdt’s reading, is a very gentle correction of L’s **εἶχε δ’ ἄλλᾳ τὰ μὲν ἄλλᾳ τὰ δ’ ἐπ’ ἄλλοις**, and has the peculiar merit of suggesting how the vulgate arose,—viz., by a confusion between ἄλλᾳ, ἄλλα on the one hand, and between τὰ μέν, τὰ δέ on the other. Dindorf’s objection to the short μέν at the end of the verse is obviated by the pause (cp. on 1276). And, since the immediately preceding words, βακχεύων κ.τ.λ., have indicated the threats of Capaneus, the reference in τὰ μέν is perfectly clear. The irony of εἶχε δ’ ἄλλᾳ is also tragic. It is surprising, then, that Erfurdt’s correction has not found more general acceptance.
@@ -88,6 +93,7 @@ This, Erfurdt’s reading, is a very gentle correction of L’s **εἶχε δ�
 The other emendations fall under three heads. (1) Those which keep at least one **ἄλλᾳ**.—Hermann: εἶχε δ’ ἄλλᾳ μὲν ἄλλ|ᾳ· τὰ δ’ ἐπ’ ἄλλοις.—Emperius: εἶχε δ’ ἄλλᾳ μὲν ἄλλ’, | ἄλλα δ’ ἐπ’ ἄλλοις.—Wecklein: εἶχε δ’ ἄλλᾳ τὰ τοῦδ’, | ἄλλα δ’ ἐκ’ ἄλλοις. [So in ed. 1874: formerly εἶχε δ’ ἄλλᾳ τάδ’ ἄρ’, *Ars Soph. em.* p. 12.]—Hense: εἶχε δ’ ἄλλᾳ τάλαντ’· | ἄλλα δ’ ἐπ’ ἄλλοις.—Musgrave: εἶχε δ’ ἄλλᾳ τὰ δείν’· | ἆθλα δ’ ἐπ’ ἄθλοις.—G. Wolff: εἶχε δ’ ἄλλᾳ τὰ Διός· | ἄλλα δ’ ἐπ’ ἄλλοις. (2) Those which change **ἄλλᾳ** into another part of **ἄλλος**.—Seyffert: εἶχε δ’ ἄλλος τὰ μέν· | ἄλλα δ’ etc.—Semitelos: εἶχε δ’ ἄλλους δέος· | ἄλλα δ’ ἐπ’ ἄλλοις. (3) Those which change **ἄλλᾳ** into some other word or words.—Blaydes: εἶχε ταύτᾳ τὰ μέν, | ἄλλα δ’ ἐπ’ ἄλλοις.—Gleditsch: εἷλε τόνδ’ ἅδε μοῖρ’· | ἄλλα δ’ etc.—Kayser: ἔσχε δ’ Ἅιδα λαχάν· | ἄλλα δ’ etc. [Nearer to the letters than either of these would be εἶχε δ’ ἅδ’ αἶσά νιν,—the pause excusing the short νιν, as it excuses μέν.]
 
 ## Line 155 ff.
+
 The traditional text has:
 
 155 ἀλλ’ ὅδε γὰρ δὴ βασιλεὺς χώρας
@@ -105,15 +111,19 @@ When this has been done, one difference still remains between this system of ana
 Many critics, however, have required a rigidly complete correspondence with 141—147. They have therefore supplied the metrical equivalent of three anapaests. The supplements are shown by brackets. (1) Erfurdt: [τῆσδ’ ἄρτι] Κρέων ὁ Μενοικέως [παῖς | φανθεὶς] νεοχμὸς νεαραῖσι θεῶν.—(2) Hermann: [ὃς τῇσδε] Κρέων [παῖς] ὁ Μενοικέως | [νεοχμῶς] νεοχμὸς νεαραῖσι θεῶν.—(3) Boeckh: Κρέων ὁ Μενοικέως, [νέον εἰληχὼς | ἀρχήν,] νεοχμὸς νεαραῖσι θεῶν.—(4) Wolff: Κρέων ὁ Μενοικέως, νεοχμὸς [νεοχμῶς | ταγὸς ταχθείς,] νεαραῖσι θεῶν.—(5) Wecklein: Κρέων ὁ Μενοικέως [οἴκων ἔξω | ταγὸς] νεοχμὸς νεαραῖσι θεῶν.—Moriz Schmidt and Herm. Schütz take a like view, but leave a lacuna.
 
 ## Line 292
+
 **λόφον δικαίως εἶχον, ὡς στέργειν ἐμέ.** The following are the passages in which Eustathius refers to this verse. On *Il.* 10. 573: παρὰ Σοφοκλεῖ τὸ ὑπὸ ζυγῷ νῶτον εὐλόφως φέρειν. On *Od.* 5. 285: τῷ Σοφοκλεῖ ἐν τῷ κάρα σείοντες οὐδ’ ὑπὸ ζυγῷ νῶτον εὐλόφως εἶχον. Cp. also on *Od.* 10. 169 ὁ τραγικὸς Οἰδίπους (an oversight for Κρέων) φησὶ τῶν τινας πολιτῶν μὴ ἐθέλειν ὑπὸ ζυγῷ νῶτον εὐλόφως φέρειν. On *Il.* 23. 508 νῶτος εὔλοφος παρὰ Σοφοκλεῖ. The very way in which these references are made suffices to show how preposterous it is to re-write the verse in accordance with them. G. Wolff has brought together a number of instances in which Eustathius has made similar slips. For example:—(1) *El.* 66, δεδορκότ’ ἐχθροῖς ἄστρον ὣς λάμψειν ἔτι, cited on *Il.* 2. 135 δεδορκὼς ἄστρον ὣς λάμψειν: (2) *O. T.* 161 κυκλόεντ’ ἀγορᾶς θρόνον εὐκλέα, cited on *Il.* 24. 1 Σοφοκλῆς που κυκλόεντα θῶκον ἀγορᾶς εὐκλεῆ: (3) *ib.* 1035 δεινόν γ’ ὄνειδος cited on *Il.* 17. 105 καλόν γ’ ὄνειδος: (4) *Ai.* 445 φωτί, cited on *Il.* 6. 367 ἀνδρί: (5) *ib.* 1219 ἄκραν, cited on *Il.* 6. 397 ἱερήν. Such instances, which could easily be multiplied, detract nothing from the merit of Eustathius in his proper field; they merely show that his incidental literary references were usually made from memory, and that his memory was not infallible. We cannot treat his quotations as if they possessed a critical value for the texts of authors to whom he casually alludes. So much is equally true of Aristotle.
 
 ## Line 318
+
 L here has τί **δαὶ** ῥυθμίζεις. **δαί**, a colloquial form of δή, is not read in any other passage of Soph., but is supported by L in Aesch. *P. V.* 933 (where τί δ’ ἄν should be read), and *Cho.* 900 (where Porson rightly gave ποῦ δή). As Ar. and Plato show, **δαί** was commonly used in short phrases expressing surprise, like τί δαί; πῶς δαί; τί δαὶ λέγεις; etc. In this verse **δαί** is clearly unsuitable, while on the other hand **δέ** constantly follows τί in such questions. The Triclinian gloss, διὰ τὸ μέτρον, suggests that δέ was changed to δαί by a corrector who did not know that δέ could be long before ῥ. In Plat. *Gorg.* 474 C where τί δὲ δὴ αἴσχιον is right, some MSS. have τί **δαὶ** δή: and in many other places δαί seems to have supplanted δέ or δή. (In Ar. *Ach.* 912, however, the metre permits δαί, which some edd. have changed to δέ.) Porson on Eur. *Med.* 1008 says, ‘assentior Brunckio δαί e tragicis eximenti’; but the case of Eur. is different from that of Aesch. or of Soph. Thus in *Ion* 275 (τί δαὶ τόδ’;) it is quite possible that the colloquial style of the passage should have led Euripides to prefer **δαί**. Each passage in which the MSS. ascribe δαί to him should be tested by our sense of the degree in which, there, he meant to reproduce the language of every-day life.
 
 ## Line 340
+
 Here, as in 509, I have preferred the spelling **ἴλλω** to **εἴλλω**, though without regarding it as certain. Cobet (*Var. Lect.* 361) pronounces confidently for ἴλλω, though without convincing reasons. The fact is that the MS. evidence is small in amount and doubtful in quality; and there is no epigraphic evidence. In Eur. fr. 544, οὐρὰν δ’ ὑπίλασ’, the MSS. of Athen. 701 B give ὑπήλασ’ or ὑπήκας: those of Aelian *De Nat. An.* 12. 7 give ὑπήλλασ’ or ὑπίλλασ’. Erotianus (gloss. Hippocr. p. 378) gives ὑπείλλει. See Nauck, *Fragm. Trag.* p. 420; and cp. Schweighäuser on Athen. *l. c.* (vol. 8, p. 366). In Plat. *Tim.* 40 B εἰλλομένην and ἰλλομένην are among the various readings of the MSS. (others being these same forms aspirated, and εἰλομένην, εἰλουμένην, εἱλουμένην): so, again, *ib.* 76 B, 86 E. In Arist. *De Cael.* 2. 13 the Berlin editors (p. 293 *b* 31) give ἴλλεσθαι, as also *ib.* 14 (p. 296 *b* 26), noting εἰλεῖσθαι as a *v. l.* in the first passage, and εἰλεῖσθαι in the second. Here, the corruption in L, ἀποτρύετ’ ἁπλομένων, arose from ΑΠΟΤΡΥΕΤΑΙΙΛΟΜΕΝΟΝ (ἀποτρύεται ἰλομένων), Π having been substituted for the doubled iota, ΙΙ. This passage, then, must be added to the testimony for ἴλλω *versus* εἴλλω. So, too, must ἰπίλλουσιν (L) and ὑπίλλουσι (A, with other MSS.), in 509. In Ar. *Nub.* 762, where most MSS. have εἶλλε, the Ravenna has ἴλλε. This last seems the most significant of all the facts which can be gathered from the MSS. That is, there is no testimony for εἶλλε which can fairly be set against this. There is no instance in which εἶλλε is supported by a manuscript excelling the other MSS. of the same author as much as the Ravenna excels the other MSS. of Aristophanes. I cannot, therefore, concur with Mr Rutherford (who does not notice *Ant.* 340 and 509, or Arist. *De Caelo* 2. 13) in thinking that ‘the evidence for the spelling εἴλλω is...much greater than that for ἴλλω’ (*New Phryn.*, p. 90). I should rather have thought that the MS. evidence, so far as it goes, is slightly in favour of **ἴλλω**. It is true that our MSS. sometimes wrongly changed ει to ι, as in ἔτισα for ἔτεισα: but, in regard to ἴλλω, we have to consider whether the doubling of λ might not have induced a weakening of the initial diphthong into ι.
 
 ## Line 350 f.
+
 **λασιαύχενά θ’ ἵππον ἔξεται ἀμ | φίλοφον ζυγόν** L.—The emendations may be divided into two classes.
 
 I. The following retain ἀμφίλοφον ζυγόν, either as acc. or nom.
@@ -123,6 +133,7 @@ I. The following retain ἀμφίλοφον ζυγόν, either as acc. or nom.
 II. In the following, ἀμφίλοφον ζυγόν is modified.—(i) Schöne and Franz, ὀχμάζεται ἀμφὶ λόφον ζυγῷ (so Wecklein), or ζυγῶν (so Donaldson). Receiving ὀχμάζεται, (ii) Schneidewin, ἀμφιλοφῶν ζυγόν, (iii) Kayser, ἀμφιλόφῳ ζυγῷ, (iv) Blaydes, *inter alia*, ἀμφιβαλὼν ζυγόν.—(v) Schütz, ἐφέζεται ἀμφὶ λόφον ζυγῶν.—(vi) Seyffert, ἀνάσσεται ἀμφιλόφῳ ζυγῷ.—(vii) Semitelos, κρατεῖ δὲ μηχαναῖς ἀγραύλους | θῆρας ὀρεσσιβάτας, λασιαύχενά θ’ | ἵππον, ὃν ἐξετέ’ ἀμφὶ λόφον ζυγοῖ.—(viii) Pallis, λασιαύχενόν θ’ | ἵππον ζεύξατ’ ἐν ἀμφιλόφῳ ζυγῷ.
 
 ## Line 466 f.
+
 L gives εἰ τὸν ἐξ ἐμῆς | μητρὸς θανόντ’ ἄθαπτον **ἠισχόμην** νέκυν. The later MSS. have ἠισχόμην (ᾐσχόμην), ἠνσχόμην, ἠσχόμην, ἰσχόμην, ἠνεσχόμην, or ἠνειχόμην. Leaving aside the mere corruptions, ἠισχόμην and ἠσχόμην, we see that the other MS. readings represent two different kinds of endeavour to amend the passage. One was ἰσχόμην: along with which we might have expected to find ἐσχόμην: and, in fact, ἐσχόμην and ἠσχόμην were the readings known to Eustathius (p. 529. 20, on *Il.* 5. 120). The other assumed the aor. or imperf., of ἀνέχομαι, contracted or uncontracted.
 
 Hermann, who thought ἰσχόμην defensible (‘non spernendum’), adopted ἐσχόμην. He took it, seemingly, in the sense of ἠνεσχόμην. This, as all would now admit, is impossible. Brunck adopted the portentous ἠνεχόμην from Pierson. Dindorf defends ἠνσχόμην as = ἠνεσχόμην: but see comment. Most of the other emendations assume either (1) ἠνεσχόμην, or (2) ἀνεσχόμην.
@@ -134,9 +145,11 @@ Hermann, who thought ἰσχόμην defensible (‘non spernendum’), adopted 
 Any reader who will consider these conjectures will find, I think, that they justify the remarks made in my note on this passage.
 
 ## Line 578 f.
+
 **ἐκ δὲ τοῦδε χρὴ | γυναῖκας εἶναι τάσδε**—The following emendations have been proposed. (1) Dindorf: εὖ δὲ τάσδε χρὴ | γυναῖκας **ἷλαι** μηδ’ ἀνειμένας ἐᾶν. So Meineke, but with εἷρξαι instead of ἷλαι. Herwerden (*Obs. cr. in fragm. Com.* p. 134) improves this to εἶρξαι. And Nauck accordingly gives εὖ δὲ τάσδε χρὴ | γυναῖκας **εἶρξαι** μηδ’ ἀνειμένας **ἐᾶν**. He would prefer, however, to place ἐᾶν *before* ἀνειμ., with Madvig (*Adv.* I. 216). (2) Bergk adopts the insertion of ἐᾶν and the omission of τάσδε in 579, but would refrain from further change: ἐκ δὲ τοῦδε χρὴ | γυναῖκας εἶναι μηδ’ ἐᾶν ἀνειμένας. The change of subject for the infinitives would, however, be very harsh. (3) Seyffert: **εὖ δετὰς** δὲ χρὴ | γυναῖκας εἶναι τάσδε μηδ’ ἀνειμένας. Engelmann substituted ἐκδετὰς for εὖ δετάς. This is one of those conjectures which are taking at first sight, but which reflection condemns. δετός occurs only in the subst. δετή, a faggot. Nor were the royal maidens to be put in bonds; they were merely to be detained in the house.
 
 ## Line 601 f.
+
 **κατ’ αὖ νιν...ἀμᾷ κόνις.** The primary sense of ἀμᾶν was probably ‘gather’: the special sense ‘cut,’ ‘mow,’ was derived from the gathering of crops. The passages in which the verb occurs are of three classes. (1) Those which refer to reaping or mowing, and which therefore throw no light on the question whether ‘gather’ or ‘cut’ was the original notion. (2) Those which require the sense ‘gather’: as *Il.* 24. 165 (κόπρον) καταμήσατο χερσὶν ἑῇσιν, ‘heaped it up’ on himself: imitated by Josephus, *Bell. Iud.* 2. 21. 3 καταμώμενοι τῆς κεφαλῆς κόνιν. *Od.* 5. 482 εὐνὴν ἐπαμήσατο, ‘heaped up a couch’: *ib.* 9. 247 (γάλα) ἐν ταλάροισιν ἀμησάμενος, ‘having collected.’ (3) Those which require the sense, ‘cut’: as *Il.* 3. 359 (and 7. 253) διάμησε χιτῶνα. *Od.* 21. 300 ἀπ’ οὔατα... | ῥῖνάς τ’ ἀμήσαντες.
 
 If, however, the MS. **κόνις** is retained in v. 602, the fact that **καταμᾷ** originally meant ‘gathers in,’ and only secondarily ‘cuts down,’ will not help to obviate the confusion of metaphor; for the metaphor is still borrowed from the gathering of the harvest.
@@ -148,6 +161,7 @@ In the *Journal of Education* (May 1, 1888) Prof. Campbell suggests, however, an
 With regard to the usage of the word **κοπίς**, a few words may be added in supplement to the commentary. (1) Ar. fr. 184, κοπίδι τῶν **μαγειρικῶν**, is enough to indicate that, if the kitchen use of the implement was the most familiar to Athenians, other kinds of κοπίς were also known to them. (2) The military κοπίς, as used by some orientals, occurs in Xen. *Cyr.* 2. 1. 9, where Cyrus describes the ordinary equipment of the Persian nobles called ὁμότιμοι as θώραξ,...γέρρον.. κοπὶς δὲ ἢ σάγαρις εἰς τὴν δεξιάν. Again, in *Cyr.* 6. 2. 10, the Asiatic troops of Cyrus are armed with ἀσπίς, δόρυ, and κοπίς. That the blade of the κοπίς was of a curved form is shown by its being distinguished from the Dorian σφαγίς, of which the blade was straight: cp. Eur. *El.* 811, 837. It is unknown whether the military κοπίς was a small curved sword, like a scimitar, or a curved blade on a long handle, like a ‘bill.’ At any rate the fact that it was current in Attic prose as the name of a warlike weapon tends to show that, for Attic ears, it cannot have been a word of such homely sound as ‘chopper’; and Euripides, at least, did not think it out of keeping with the tone of a tragic ῥῆσις. (3) The image of Death thus armed might be illustrated by Eur. *Or.* 1398 ὅταν αἷμα χυθῇ κατὰ γᾶν ξίφεσιν | σιδαρέοισιν Ἅιδα. Eur. fr. 757 βίον θερίζειν ὥστε κάρπιμον στάχυν. Apoll. Rh. 3. 1186 Ἄρεος ἀμώοντος. Hor *Ep.* 2. 2. 178 *metit Orcus | grandia cum parvis.*
 
 ## Line 606 f.
+
 L has ὁ παντογήρωσ | οὔτ’ ἀκάματοι θεῶν. These words answer metrically to 617 f. -νόων ἐρώτων | εἰδότι δ’ οὐδὲν ἕρπει. The conjectures have followed one of two courses, according as **παντογήρως** is (1) retained, or replaced by a metrical equivalent: (2) replaced by – ⏑ –, while **οὔτ’** is brought back from v. 607.
 
 (1) Hermann: ὁ παντογήρως | οὔτε θεῶν ἄκμητοι. [He afterwards preferred, ἀκάματοι θεῶν οὐ.] The Doric ἄκματοι should, however, be written. Schneidewin conjectured οὔτ’ ἐτέων ἄκματοι.—Heath and Brunck had proposed a simple transposition (with οὐδέ), οὐδὲ θεῶν ἀκάματοι. But ἄκματοι is metrically better, and would most easily have arisen from ἀκάματοι. For the form, cp. *Hom. hymn. Ap.* 520, ἄκμητοι δὲ λόφον προσέβαν ποσίν. It is unnecessary, then, to write οὔτε θεῶν ἀκμῆτες, with Blaydes.—Dindorf: ὁ παντογήρως | οὔτ’ ἄκοποι θεῶν νιν.—Neue, whom Hartung follows: ὁ παντογήρως | ἀκάματοί τε θεῶν οὐ.—Nauck (omitting θεῶν): ὁ παντογήρως | οὔτ’ ἀκάμαντες.
@@ -155,29 +169,37 @@ L has ὁ παντογήρωσ | οὔτ’ ἀκάματοι θεῶν. These w
 (2) Donaldson: ὁ παγκρατὴς οὔτ’ | ἀκάματοι θέοντες. So Wolff, but with ὁ πανταγρεύς.—Wecklein desires a verb in the place of θεῶν: as ὁ πάντ’ ἀγρῶν, οὔτ’ | ἀκάματοι φθίνουσιν. He also thought of φθεροῦσιν. Mekler prefers σκεδῶσιν.
 
 ## Line 613 f.
+
 The MSS. give οὐδὲν ἕρπει | θνατῶν βιότῳ **πάμπολις** ἐκτὸς ἄτας. On πάμπολις the Schol. has, ὁ κατὰ πᾶσαν πόλιν ἕρπων νόμος, ὅ ἐστι, πάντες ἄνθρωποι. Triclinius took the sense to be: ‘the law never (οὐδέν as adv.) comes (= is never applicable to) the life of men, in any of their cities, without ἄτη’: *i.e.*, when any mortal thinks to rival the sovereignty of Zeus, he incurs ἄτη. This interpretation, which tortures the language without fitting the context, requires no refutation. Boeckh reads ἕρπων. Receiving this, Prof. Campbell explains:—‘This principle (the sovereignty of Zeus) will last the coming time, and the time to come, as well as the time past, never swerving, as it moves onward, from calamity to the life of mortals in all their cities.’ Are we, then, to understand that the attitude of mortals towards the sovereignty of Zeus has been, and will be, *everywhere and always*, such as to bring down divine wrath? There are other difficulties; but this suffices.
 
 Wecklein, adopting Heath’s **πάμπολύ γ’** in his text, conjectures **πλημμελές** (*Ars Soph. em.* p. 47), which D’Ooge receives. It means ‘nothing wrong,’ *i.e.*, nothing out of harmony with the sovereignty of Zeus. But πάμπολύ γ’ is far better in this general maxim, and is also far nearer to the letters.—Hartung, admitting Lange’s **παντελές**, reads οὐδέν’ ἕρπειν | θνατῶν βίοτον παντελὲς ἐκτὸς ἄτας, ‘that no mortal life performs its course to the end (παντελὲς adv.) without ἄτη.’—Schneidewin sought a similar sense by reading οὐδὲν ἕρπει | θνατῶν βίοτον **τὸν πολὺν** ἐκτὸς ἄτας, *i.e.*, ‘no mortal (οὐδὲν = οὐδεὶς) goes through the greater part of life without ἄτη.’ Pallis: οὐδέν’ ἕρπειν | θνατῶν βιότου **πρὸς τέλος** ἐκτὸς ἄτας.—Bergk invented a form **παμπᾰδίς** as = παμπήδην (‘altogether’).
+
 ## Line 619
+
 **προσαύσῃ.** The following are the principal pieces of evidence for an αὔω=αἴρω. (1) Alcman fr. 94 τὰν Μῶσαν καταύσεις. Eustathius explains this by ἀφανίσεις: cp. Ar. *Nub.* 972 τὰς Μούσας ἀφανίζων. (2) Hesychius: καταῦσαι· καταυλῆσαι [καταντλῆσαι Lobeck], καταδῦσαι. (3) Pollux 6. 88 ἐξαῦσαι τὸ ἐξελεῖν. (4) *Etym. M.* p. 346. 58 gives ἐξαυστήρ as ‘a flesh-hook,’ for taking meat out of the pot (=κρεάγρα). Lobeck (on *Ai.* 805, p. 296 f., 3rd ed.) would add the *v. l.* προσάρῃ [and προσαίρῃ] here, regarding them as glosses on the true sense of προσαύσῃ. But it is surely far more probable that προσάρῃ and προσαίρῃ were merely conjectures, (generated, probably, by a corruption,) which sought to give a clear and simple word, suited to the context. And, on the other hand, two things are certain,—viz., that προσαύω could mean to ‘burn against,’ and that such a sense is specially fitting here. It may be granted that there was an αὔω=αἴρω, but there is no proof that an Attic writer would have used αὔω, or any compound of it, in that sense. And there is one piece of evidence the other way. Pollux (see above) quotes ἐξαῦσαι as=‘to take out,’ from αὔω=αἴρω: yet it is known that an Attic writer used ἐξαῦσαι as=‘to roast,’ from αὔω ‘to kindle’: Plat. com. Ἑορταί fr. 9 τὸ δὲ ὀπτῆσαι ἐξαῦσαι (*ap.* Eustath. p. 1547. 48, on *Od.* 5. 490, αὔοι).
 
 ## Line 622
+
 The Greek verses given in the note, ὅταν δ’ ὁ δαίμων, κ.τ.λ., were probably the original of ‘Quem Iuppiter vult perdere, dementat prius.’ They are cited, with this Latin verse added in brackets, by James Duport (Regius Professor of Greek at Cambridge, 1639—1654) in his *Gnomologia Homerica* (Cambridge, 1660), p. 282. He is illustrating *Od.* 23. 11, μάργην σε θεοὶ θέσαν. Joshua Barnes, in the ‘Index prior’ to his Euripides (Camb., 1694), has, ‘Deus quos vult perdere, dementat prius, incerta v. 436.’ On that verse itself, p. 515, another version is given, viz., ‘At quando numen miserias paret viro, Mens laesa primum.’ And in the margin he cites ‘Franciados nostrae’ v. 3, ‘certe ille deorum | Arbiter ultricem cum vult extendere dextram | Dementat prius.’ It was suggested to me that the line ‘Quem Iuppiter’ etc. had first appeared in Canter’s Euripides. I have looked through both the editions, but without finding it. His duodecimo ed. (Antwerp, 1571) has an appendix of 16 pages, ‘Euripidis sententiae aliquot insigniores breviter collectae et Latinis versibus redditae’: but ‘Quem Iuppiter’ is not among them. His folio ed. (of 1614) does not seem to contain it either. Publius Syrus 610 has ‘stultum facit fortuna quem volt perdere.’ This shows that part of the line, at least, was familiar *circ.* 50 B.C. The use of *dementat* as=*dementem facit* proves, of course, a post-classical origin.
 
 ## Line 648
+
 The older MSS. have **τὰς φρένας ὑφ’ ἡδονῆς.** Triclinius wrote **φρένας γ’**—rightly, I think (see comment.). Critics have proposed various other remedies, which may be classified thus. (1) Changes confined to ὑφ’. Hermann, πρὸς ἡδονῆς: Blaydes, δι’ ἡδονήν: Hertel, σύ γ’ ἡδονῆς (Meineke, σύ γ’ ἡδονῇ): Seyffert, χύθ’ ἡδονῆς (*i.e.* χυτά, adv., as=‘at random,’ *temere*). (2) Larger changes.—Kayser, φιληδίᾳ for ὑφ’ ἡδονῆς.—Stürenburg, κακόφρονος (do.).—Wecklein, τῶν φρενῶν ὑφ’ ἡδονῆς |...ἐκπέσῃς.—Semitelos, μή νυν ποτῶ [ποτάομαι—‘be fluttered’], παῖ, τὰς φρένας, μήθ’ [*imo* μηδ’] ἡδονάς, | κ.τ.λ.—Pappageorgius, removing the note of interrogation after γέλων in 647, writes γέλων | ὑφ’ ἡδονῆς· μή νύν ποτ’, ὦ παῖ, τὰς φρένας, against metre.
 
 ## Line 718
+
 L gives ἀλλ’ εἶκε θυμῶι καὶ μετάστασιν δίδου. For θυμῷ, several of the later MSS. have **θυμοῦ.** Porson was content to propose ἀλλ’ εἶκε **θυμόν**, comparing *O. C.* 1178 τάδ’ εἰκαθεῖν, etc. Hermann conjectured, ἀλλ’ εἶκε, θυμῷ καὶ μετάστασιν **διδούς**, ‘sed cede, irae etiam intermissionem faciens.’ (He does not say how he understood **καί**, which he renders by the equally ambiguous *etiam.*) Afterwards, while adhering to this text and punctuation, he preferred to retain **δίδου** with Gaisford; ‘quae est per asyndeton instantius precantis oratio.’—Dindorf: ἀλλ’ εἶκε, καὶ θυμῷ μετάστασιν δίδου. (So Pallis, but with θυμοῦ.)
 
 The bolder treatments of the verse have usually been directed against θυμῷ or θυμοῦ. Schneidewin: ἀλλ’ εἶκε δή μοι, or ἀλλ’ εἶκέ θ’ ἡμῖν.—Martin: ἀλλ’ εἶκε **μύθῳ.** (So Nauck.)—Meineke: ἀλλ’ εἶκε **δήμῳ.** (He afterwards acquiesced in εἶκε θυμῷ as=‘yield in thy mind,’ but then desired καὶ ματάστασιν τίθου as=μετάστηθι.)—Mekler: ἀλλ’ εἶκε **καὶ σύ.**—Mr J. G. Smith suggests, ἀλλ’ εἴ γε θυμοῖ: this is ingenious, but the γε is unsuitable.
 
 ## Line 782
+
 **ἐν κτήμασι πίπτεις.** These words have provoked a curious variety of interpretation and of conjecture. Besides the version defended in my note, the following have been proposed. (1) ‘Love attacks rich men.’ (Hermann: ‘Non videtur mihi dubitari posse quin κτήματα pro opulentis ac potentibus dixerit.’) ‘Love attacks cattle’: κτήμασι=κτήνεσι (Brunck). (3) ‘Love falls on his slaves,’ *i.e.* falls on men, so as to enslave them,—κτήμασι being proleptic. This was Schneidewin’s view, who compared Lucian *Dial. Deor.* 6. 3 where Hera describes Zeus as ὅλως κτῆμα καὶ παιδιὰ τοῦ Ἔρωτος. But surely it is one thing for Hera to say that Zeus is ‘the very chattel and play-thing of Love,’ and quite another thing to suppose that Sophocles here meant to say, ‘Love falls upon his chattels.’ κτῆμα, in this sense, suits humorous prose, but not elevated poetry.
 
 The conjectures have been numerous. (1) Keeping the rest, instead of κτήμασι Dindorf proposes **λήμασι** (1860 Oxon. 3rd ed.), or **ἔν τ’ ἀνδράσι** (1863 Leipsic 4th ed.): Blaydes, **σώμασι** (or **νεάνισι** as a trisyll.): Hartung, **στήθεσι**: Meineke, **δώμασι**: Musgrave, **σχήμασι** (*titulos dignitatesque invadis*). Seyffert, **βλέμμασι.** (2) Some would change the verb, with or without changing κτήμασι. Blaydes: εἰν ὄμμασι παίζεις (or -ν ἵζεις). He also mentions an old conject., εἰν ὄμμασιν ἵπτῃ (‘*harmest* through the eyes’?).—Pallis: ἐν δέργμασιν ἵζεις.—Semitelos: ἐν κτήμασι τίκτει (‘art born amid wealth’).
 
 ## Line 797 f.
+
 **τῶν μεγάλων πάρεδρος ἐν ἀρχαῖς | θεσμῶν.** If πάρεδρος is sound here, the first two syllables are equivalent to the first long syllable of a dactyl. The following examples are furnished by Pindar. In each case I give the antistrophic verse along with the verse in which the example occurs. The example itself is printed in thicker type.
 
 (1) *Ol.* 10 (11).
@@ -209,6 +231,7 @@ The conjectures have been numerous. (1) Keeping the rest, instead of κτήμα�
 In the third and fourth of these examples, it will be observed that the resolution of the long syllable into ◡ ◡ has the special excuse of a proper name.
 
 ## Lines 836–838
+
 L gives the verses thus:
 
 836 καίτοι φθιμένα [with ω over α] μέγ’ ἀκοῦσαι
@@ -236,14 +259,92 @@ and indicates a lacuna between these verses and ζῶσαν καὶ ἔπειτ�
 *i.e.*, ‘Many among the dead will marvel to hear that in *life* thou didst win the same lot as a goddess (Niobe), and afterwards (after thy death) the same lot as the dead.’ Are the dead to marvel, then, at the appearance among them of one who had seemed to be lifted out of the ranks of ordinary mortals?
 
 ## Lines 904–920
-[This entry, Jebb's discussion of the authenticity of verses 904–920 (printed pages 258–263 of the 1891 edition), could not be transcribed automatically. The scan is at pipeline/sources/scans/jebb1891/p-326.png to p-331.png, and an OCR text is in pipeline/sources/scans/sophocles03soph_djvu.txt.]
+
+
+[This entry is taken from the Internet Archive's OCR of the scan and has not been proof-read; Greek words and footnote marks may be garbled. See pipeline/sources/scans/jebb1891/p-326.png to p-331.png.]
+
+This famous passage affords one of the most interesting exercises for criticism which can be found in ancient literature. Is it
+
+4
+
+indeed the work of Sophocles? Or was it interpolated, after his death, by his son Iophon? The anonymous Life of Sophocles records a statement by the biographer Satyrus' (ς 200 B.c.) that the poet died in the act of reading the Axzgone aloud. It has been suggested that he may then have been employed in revising the play, with a view to reproducing it; and: that Iophon, in completing the task, may have brought in these verses. Another possibility is that they were due
+
+- to the actors, whose innovations Lycurgus sought to check as early
+
+as ¢. 330 B.c. At any rate these verses were recognised in the text of Sophocles at the time when Aristotle composed his Rhetoric,—z.e., not later than ς 3 38 B.C.
+
+The first impression which the passage tends to produce is Bi described in the simple and direct words of Goethe, as reported by Eckermann. ‘In the course of the piece, the heroine has given the most admirable reasons for her conduct, and has shown the noble courage of a stainless soul; but now, at the end, she puts forward a motive which is quite unworthy of her, (‘ganz schlecht,’) and which almost borders on the comic.’ And then Goethe expresses the hope that scholars will prove the passage to be spurious.
+
+Among those who think it genuine, few, perhaps, would say that it is good. A large majority would allow that, at the best, it requires some apology. The question comes to this:—Can the faults of the passage, as they appear to a modern taste, be excused by a peculiarity in ancient modes of thought? Or are they such as to make it inconceivable that any great poet, ancient or modern, should have embodied the passage in a work of art?
+
+At v. 458 Antigone said that she had buried her brother, in defiance
+
+of Creon’s edict, because she deemed that no mortal ‘could override
+
+the unwritten and unfailing statutes of heaven.’ ‘ Not through dread of any human pride could I answer to the gods for breaking these.’ ‘The justice that dwells with the gods below’ (451) requires that rites should be paid to the dead by the living; and, among the living, that duty falls first upon the kinsfolk. This is a perfectly intelligible principle; and everything else that Antigone says or does is in harmony with it. But here she startles us by saying that she would zo¢ have braved Creon, and obeyed the gods, if it had been merely a husband or a child that had been lying unburied. Yet her religious duty would have been as clear—on her own principle—in those cases as in this. Would she
+
+have been prepared, then, to suffer that punishment beyond the _ grave which she formerly professed to fear (459)? Or does she now
+
+suppose that the gods would pardon a breach of the religious duty in any case except that of a brother? Whichever she means, her feet slip from the rock on which they were set; she suddenly gives up that which, throughout the drama, has been the immovable basis of her action,—the universal and unqualified validity of the divine
+
+law.
+
+1 See O..C. p..xli. ι7---2
+
+260 APPENDIX,
+
+But this is not all. After saying that she would not have thus — buried husband or child, she adds this explanation, ‘The husband lost, another might have been found, and child from another, to replace the first-born ; but, father and mother hidden with Hades, no brother’s life could ever bloom for me again.’ She has not buried even her brother, then, simply because he was her brother; but because he was her last brother, and there could not now be any more. ‘The inference is that, if Polyneices had not been a relative unique in his own kind, she might have thought twice. This astonishing view is at once explained by the origin of the verses which contain it (g0g—9g12). They are a tolerably close metrical version—and a very poor one, too—of the reason given by the wife of Intaphernes for saving her brother rather .. than her husband or one of her children. (Her. 3. 119: see comment. ' on 909 ff.)
+
+Now, the ‘primitive sophism’ employed by the wife of Intaphernes, . and the tendency to exalt the fraternal tie, are things which we . may certainly recognise as characteristic of that age. And it is true that Aeschylus has some quaint subtleties of a similar kind: as when Apollo defends Orestes on the ground that a man’s mother is not, properly speaking, his parent (Zum. 658); and when Athena
+
+votes for Orestes because she herself had had no mother at all ~ (736). Ϊ
+
+But all that is beside the question here. We have to ask ourselves :— In adopting the argument used by the wife of Intaphernes, could a great poet have overlooked the absurdities involved in transferring it from the living to the dead? Moriz Seyffert suggests an excuse, to this effect :— ‘She means that, if she had not buried him, she would not have had his ~ love when (in the course of nature) she joined him in the world below.’ But such a motive would have been independent of the fact that no other brother could be born to her. And another brother—also dear to her—was already in the world of the dead (cp. 899 n.). The plain fact is that the composer who adapted the words from Herodotus was thinking only of the rhetorical opportunity, and was heedless of everything else. Remark particularly verse 908, which prefaces the four verses paraphrased from the historian:—rivos νόμου δὴ ταῦτα πρὸς χάριν λέγω; There is a certain tone of clumsy triumph in that, strongly suggestive of the interpolator who bespeaks attention for his coming point. The singularities of diction in vy. gog-——gt2 have been noticed in the commentary.
+
+The considerations which have been stated above render it increcia to me that Sophocles should have composed vv. go5—g12: with which v. 913 on the one side, and v. 904 on the other, closely cohere. A. Jacob,—who, in 1821, first brought arguments against the genuineness of the passage,—was content to eject VV. 905—913. And Schneidewin, sharing his view, proposed μέντοι (or μόνῳ, to precede Κρέοντι) = νόμῳ 11 γ. 914. The sequent would then be,
+
+904 καίτοι σ᾽ ἐγὼ ᾿τύμησα τοῖς φρονοῦσιν εὖ. / / 9 Ν ε 914 Κρέοντι μέντοι ταῦτ᾽ ἔδοξ᾽ ἁμαρτάνειν, κ.τ.λ.
+
+APPENDIX, 261
+
+But v. 904 has thoroughly the air of a preface to a specific self-justification. If it was followed merely by the statement, ‘Yet Creon thought me wrong,’ both v. 904 and v. 914 would be very weak. Again, it is evident that v. 913 could not directly follow v. 903, since the νόμος mentioned in 914 would not then have been stated. Now observe, on the other hand, how fitly v. 921 would follow 903 :—
+
+τὸ σὸν 903 δέμας περιστέλλουσα τοιαδ ἄρνυμαι. 921 ποίαν παρεξελθοῦσα δαιμόνων δίκην;
+
+Verse ο21 is in every way worthy of Sophocles; nor does any just suspicion rest on ο22---928. I agree, then, with those who define the interpolation as consisting of vv. 904—920.
+
+In conclusion, it will be proper to state the principal arguments (not already noticed) which have been used to defend the authenticity of the passage.
+
+(τ) Bellermann’s defence (in the Wolff-Bellerm. ed., pp. 83 f.) is, perhaps, the most ingenious. He argues, in effect:—She does not give up her original motive,—the religious duty. But she feels that this duty has degrees, answering to degrees of relationship. No one could be held bound to gzve Ais /fe in order to bury a stranger; and so, ’ from the zero point, the scale of obligation rises, till it becomes strongest in the case of a brother. Here, then, as everywhere, her sole motive is the divine command. She merely says:—‘I can imagine breaking that command in any case—yes, in a husband’s or in a child’s —sooner than in the case of this brother.’ This is psychologically natural. The duty which occupies us at a given moment is apt to seem the most imperative; and the mind seizes on every thought that can enforce it. It does not follow that, if the supposed cases had been real, Antigone would then have acted as she now imagines. She knew the feelings of a sister; she had never known those of wife or mother.
+
+_ To this I should reply :—The sliding-scale-theory of the religious duty here involves a fallacy, from the Greek point of view. Greeks distinguished between the obligation in respect to θυραῖοι and in respect to oixetou. A husband and child are on the same side of that line as a brother. [In Her. 3. 119 οἰκήϊοι is the term which comprehends all three relationships.| It is true that, if the dead had been a mere stranger, she could not have been deemed ἐναγής (cp. 255 f. η.) for declining to bury him at the cost of her own life. But her duty towards husband or child would have been the same in kind as her duty towards her brother. Besides, Bellermann’s subtlety invests the crude and blunt sophistry of the text with an imaginative charm which is not its own. If the psychological phase which he supposes in the heroine had been expressed by the poet, such an expression must have preserved the essential harmony between her recent and her present attitude of mind, |
+
+Thudichum! also holds that Antigone is still loyal to her former principle. But now—so near to death, and condemned by all—she wishes to declare, in the most impressive manner, how overmastering was the sense of religious duty which she obeyed. It was not through insolence that she defied the State. She would have deferred to it in almost any imaginable case—but here she could not.—This is in general accord with Bellermann’s view, but differs from it in giving the passage a more external character ;—one of self-defence rather than of self-communing ; and that is no gain, either in dignity or in pathos.
+
+(2) Boeckh and Seyffert, in their editions of the play, take a bolder line. They agree in thinking that Antigone has abandoned the lofty ground on which she had formerly justified her action. ; ie
+
+Boeckh concedes that this passage ‘destroys the grandeur of her conduct.’ She has now attained to a perception that she did wrong in breaking Creon’s law. And, at the moment when that noble illusion fails her, ‘the poet permits her to catch at such support as sophistry can lend to despair.’
+
+- Seyffert’s conception is more refined; it is, in fact, related to Boeckh’s much as the harmonising theory of Bellermann is related to that of Thudichum. . She had acted, says Seyffert, from an elevated sense of religious duty. She finds herself condemned by all. The enthusiasm of her religious faith has been chilled; she is helpless and hopeless; her troubled thoughts fall back on the one thing of which she still feels sure,—the deep human affection which bound her to her brother. 9 yen
+
+Now, of Seyffert’s view we may say, first, what has been said of Bellermann’s,—that it is an idealising paraphrase of a crude text. But there is a further and yet graver objection,—one which applies alike to Seyffert and to Boeckh. After this disputed passage, and at . the very moment when she is being led away to death, she says:— . ‘If these things are pleasing to the gods, when I have suffered my doom, I shall come to know my sin; but if the sin is with my judges, I could wish them no fuller measure of evil than they, on their part, mete | wrongfully to me.’ (925 ff.) Here the poet identifies his heroine, in one of her latest utterances, with the principle on which the catastrophe turns. Creon zs punished by the gods; and his punishment is the token that they approve of Antigone’s conduct. In the very last words which she speaks she describes herself as τὴν εὐσεβίαν σεβίσασα. (943.) Thus, in two different places—both of them subsequent to the suspected passage—she stands forth distinctly as the representative of the great law which had inspired her act. Is it probable—would it be endurable—that at a slightly earlier moment,—in vv. 905—g12,—she ~ should speak in the tone of one to whom that divine law had proved a mockery and a delusion,—who had come to feel that thence, at least, no adequate vindication of her conduct could be derived,—and who was —
+
+1 SYahresbericht d. Gymn. 2. Biidingen. Schulj. 1857—8, pp. 33 ff., quoted by Semitelos, p. 600. oi) =) oa
+
+π.......
+
+now looking around her for such excuse, or such solace, as could be found on a lower range of thought and feeling ?
+
+No; if this passage is to be defended at all, it must be defended from such a point of view as that taken by Bellermann, not from that of Seyffert or of Boeckh. Goethe’s wish can never be fulfilled. No one will ever convince every one that this passage is spurious. But every student of the Axztigone is bound to reflect earnestly on this vital problem of the text,—the answer to which must so profoundly affect our conception of the great drama as a whole. |
 
 ## Line 966 f.
+
 Wieseler’s conjecture, παρὰ δὲ **κυανεᾶν σπιλάδων** (for πελαγέων) διδύμας ἁλός, published in 1857 (*Ind. Lectt. Götting.* p. 10), has been received by some editors. Bergk proposed **Κυανεᾶν σπιλάδας**, to avoid παρά with the genitive, which is, indeed, an insuperable objection to σπιλάδων: but then, with the change of case, the probability of the emendation is still further diminished.
 
 Other readings are:—Wecklein, παρὰ δὲ κυανέων (*sic*) σπιλάδων διδύμας **πέτρας** (for ἁλός). | Meineke, παρὰ δὲ κυανέων **τεναγέων** διδύμας ἁλός, comparing Scymnus Perieget. 724 εἶτ’ αἰγιαλός τις Σαλμυδησσὸς λεγόμενος | ἐφ’ ἑπτακόσια στάδια τεναγώδης ἄγαν.—Hartung alters more boldly:—παρὰ δὲ Κυανέων (*sic*) διδύμαις ἁλὸς | ἀκταῖς Βοσπορίαις Θρῃκῶν Ἄρης | Σαλμυδήσιος ἀγχιπτόλεμος.
 
 ## Line 1034 f.
+
 The MSS. give κοὐδὲ μαντικῆς | **ἄπρακτος** ὑμῖν εἰμι **τῶν δ’ ὑπαὶ γένους.**
 
 (1) For ἄπρακτος, H. Stephanus conjectures **ἄπρατος**: Nauck, **ἄγευστος**: Pallis, **ἄτρωτος** or **ἄπληκτος.**
@@ -251,6 +352,7 @@ The MSS. give κοὐδὲ μαντικῆς | **ἄπρακτος** ὑμῖν 
 (2) The words τῶν δ’ ὑπαὶ γένους have given rise to many conjectures, which, as I cannot but think, are unnecessary. Brunck is content with τῶν for τῶνδ’, and Blaydes with τῶν γένους ὕπο. But others have sought to obtain the sense, ‘and by my kinsmen’: thus Hermann, τῶν δ’ ὑπ’ ἐγγενῶν· Dindorf (omitting εἰμί) τῶν δὲ συγγενῶν ὕπο: Schneidewin, τῶν δ’ ὕπ’ ἐν γένει: Nauck, τοῖσι δ’ ἐν γένει. Donaldson, again, proposes τῶν ὑπ’ ἀργύρου. Seyffert, γόνους (for γένους), to be taken with ἐξημπόλημαι: *i.e.*, ‘by whom I have long since been relieved of my son’ (‘who have long since alienated my son’s loyalty from me’!).—Wolff strangely proposed μῶν for τῶν δ’.—Moriz Schmidt supposes that either two or four verses for the Chorus have been lost after 1032. Then πρέσβυ in 1033 would be said by Creon to the Chorus, not to Teiresias. He also thinks that one verse of Creon’s has dropped out after 1034.
 
 ## Lines 1080–1083
+
 Boeckh denies that there is any reference, direct or indirect, to the war of the Epigoni. He takes the verses as merely stating a general axiom: ‘All cities, becoming hateful [ἐχθραί, to the gods], are convulsed by calamity,’—when dogs, etc., defile their altars with carrion. This, surely, robs the seer’s words of all force and point. Schneidewin, agreeing with Boeckh, takes ἐχθραί as ‘hateful to the Erinyes’ (1075). Semitelos, favouring the same view, amends thus: **ἔχθραι** [the subst., for ἐχθραί, adj.] δὲ πᾶσαι **συνταράσσουσιν** πόλεις, *i.e.*, ‘intestine factions.’—Kvíčala would place verses 1080—1083 immediately after v. 1022, when ἐχθραί, as ‘hateful *to the gods*,’ would be interpreted by the neighbouring θεοί in 1020.
 
 Erfurdt, with whom Hermann agrees, supposes a reference to the war of the Epigoni. My commentary has shown how far, and in what sense, I think that view correct. Wex finds an allusion to the war made by Athens on Thebes, in order to enforce burial of the Argives. But then, as Herm. says, Athens must have been specially indicated.
@@ -258,9 +360,11 @@ Erfurdt, with whom Hermann agrees, supposes a reference to the war of the Epigon
 In 1081 Seyffert writes **τὰ πράγματ’** for σπαράγματ’, with **καθήγισαν**, understanding, ‘Hostile to thee, all the cities will be [Bergk’s συνταράξονται] in tumult, whose *affairs* have been polluted by birds,’ etc., that carry pollution ἑστιοῦχον ἐς **πόλον** (for πόλιν), ‘to the region near the altars.’ His idea was that the affairs of the cities would be impeded by unfavourable auspices.—Nauck also conjectures ἑστιοῦχον ἐς **πόλον**, but refers it to the birds:—‘the sky that contains their homes,’—the πόλος that is their πόλις (Ar. *Av.* 179).—Other emendations of πόλιν are the following. Dobree (*Adv.* 2. 31), σποδόν: Blaydes, δόμον, πέδον, πυράν, or φλόγα: Wieseler, πάλην as = τέφραν, σποδόν.—Schneidewin would write ἐς φλογοῦχον ἑστίαν (or ὀμφαλόν): Semitelos, ἄστεως ἐς ὀμφαλόν, comparing Pind. fr. 45. 3.
 
 ## Line 1165 f.
+
 **τὰς γὰρ ἡδονὰς | ὅταν προδῶσιν ἄνδρες.**—The conjectures are of two classes, according as they retain τὰς γὰρ ἡδονάς, or require καὶ γὰρ ἡδοναί. (1) Blaydes proposes τὰς γὰρ ἡδονὰς | ὅταν προδῷ τις, ἄνδρ’ ἔτ’. Mekler, τὰς γὰρ ἡδονὰς | ὅταν προδῷ σῶμ’ ἀνδρός. Both these use the verb in the same sense as if we retained προδῶσιν ἄνδρες. The only object, then, is to avoid the plur. ἄνδρες before τοῦτον: but the plur. is quite admissible.—Herm. Schütz suggests τὰς γὰρ ἡδονὰς | ὅταν **προῶσιν** ἄνδρες. The act., though much rarer in this sense than the midd., is defensible: cp. Thuc. 8. 32 τὰς ναῦς...προήσειν. But the open οω is unexampled in tragic dialogue, though we find open οε (as in αὐτοέντης, προεῖπας). I had thought of **παρῶσιν** (‘remit,’ then, ‘give up,’ *O. C.* 1229 n.), but now believe **προδῶσιν** to be sound.—(2) Wecklein **ὅταν** γὰρ ἡδοναὶ | **βίον** προδῶσιν ἀνδρός.—Semitelos: καὶ γὰρ ἡδοναὶ | **ὅτου ’ποδρῶσιν** ἀνδρός (‘when a man’s pleasures take flight’).—Hartung (omitting 1167): καὶ γὰρ ἡδοναὶ | **οὓς ἂν** προδῶσιν, ἄνδρας οὐ τίθημ’ ἐγώ.—Seyffert’s reading has been noticed in the commentary.
 
 ## Line 1207
+
 In the history of the word **παστάς** two points, at least, are clear. (1) Writers of the 5th and 4th centuries B.C. used the word to denote a portico, or a corridor, supported by pillars. In Her. 2. 148 παστάδες are pillared corridors dividing, and connecting, the groups of chambers in the Labyrinth near Lake Moeris. In Her. 2. 169 παστάς is a structure like a gallery, or cloister, built on to one side of an open court (αὐλή) in a temple. Doors opened from the παστάς into a sepulchral chamber. In Xen. *Mem.* 3. 8. 9 παστάδες are the open porticoes, or verandahs, of dwelling-houses, which receive the winter sunshine. (2) The word παστάς was especially associated with the θάλαμος or bed-room of a married couple. In Eur. *Or.* 1371 a Phrygian slave escapes from Helen’s apartments in the house of Menelaus by climbing παστάδων ὑπὲρ τέρεμνα, *i.e.* over the roof-beams above the colonnade or peristyle (παστάδες) of the women’s court. Theocritus (24. 46) uses παστάς as = θάλαμος,—the bed-room of Amphitryon and Alcmenè: ἀμφιλαφὴς δ’ ἄρα παστὰς (the wide chamber) ἐνεπλήσθη πάλιν ὄρφνης. So παστός in Lucian *Dial. Mort.* 23. 3: νεανίαν, οἷος ἦν ἐκ τοῦ παστοῦ (as he came forth from the bridal chamber).
 
 Then the word is often *joined with* θάλαμος in epitaphs on young brides or maidens: *Anthol. P.* append. 248 οὔπω νυμφείου θαλάμου καὶ παστάδος ὥρης | γευσαμένην: *ib.* 9. 245 δυσμοίρων θαλάμων ἐπὶ παστάσιν οὐχ Ὑμέναιος | ἀλλ’ Ἅιδης ἔστη πικρογάμου Πετάλης (by Antiphanes, 1st cent. B.C.). So παστός, Kaibel *Epigr.* 468 ἐκ δέ με παστῶν νύμφην κἀιχ (*sic*) θαλάμων ἥρπασ’ ἄφνως Ἀίδας.
@@ -270,11 +374,13 @@ The three last passages suggest that παστάς was *a part* of the θάλαμ
 Here, I believe that the poet used παστάς simply for θάλαμος, without reference to any columnar character of the rocky tomb.—The word is probably compressed from παραστάς (pilaster, *anta*): thus παραστάδες can mean, ‘a vestibule’ (Eur. *Ph.* 415), as παστάς also can (*Anth.* 6. 172).
 
 ## Line 1279 f.
+
 **τὰ μὲν πρὸ χειρῶν τάδε φέρων, τὰ δ’ ἐν δόμοις | ἔοικας ἥκειν καὶ τάχ’ ὄψεσθαι κακά.**
 
 The following conjectures illustrate the difficulties which some critics have felt here. (1) Musgrave proposed, τὰ μὲν πρὸ χειρῶν, **τὰ δ’ ἐφορῶν, τά γ’** ἐν δόμοις | ἔοικας **ἥκων κύντατ’** ὄψεσθαι κακά. He understood: ‘(having) one sorrow in thy hands (viz., Haemon’s corpse), and *giving charge concerning* another [viz., concerning Antigone’s body, which Creon had consigned to the guards], thou art likely, on arrival, to see most cruel woes in thy house.’ He compared Eur. *Suppl.* 807 τὰ κύντατ’ ἄλγη κακῶν (the idea of ‘cruel,’ or ‘ruthless,’ coming from that of ‘shameless,’ as in ἀναιδής, *improbus*).—(2) Brunck: **φέρεις** for φέρων, and **ἥκων** for ἥκειν, so that καὶ τάχ’ = ‘*full* soon.’—(3) Semitelos adopts Brunck’s changes and makes some others,—thus: τὰ μὲν πρὸ χειρῶν τάδε **φέρεις, ἃ δ’** ἐν δόμοις | **εἴακας, ἥκων** καὶ τάχ’ **εἰσόψει** κακά. [He does not explain **εἴακας**, but perh. intended it to mean, ‘hast permitted to happen.’]—(4) Hartung: **φέρειν** for φέρων. He understands: ‘thou seemest to bear some woes in thy hands, and to have come (in order) full soon (καὶ τάχ’) to see the woes in the house.’—(5) Blaydes adopts **φέρειν**, and also changes ἥκειν καὶ into **εἰσήκων.**—(6) Wieseler (*Lectionskatal.*, Götting. 1875—6) proposes **ἐοικόθ’ ἥκεις** for ἔοικας ἥκειν: meaning by ἐοικότα woes that have naturally resulted from Creon’s acts.—(7) Wex rejects v. 1280, ἔοικας ἥκειν καὶ τάχ’ ὄψεσθαι κακά. He supposes that the Messenger’s speech was interrupted, after the word δόμοις (1279), by Creon’s hurried question, τί δ’ ἔστιν etc. The forged verse was designed to complete the unfinished sentence.—It is obvious that the easiest mode of smoothing the construction would be simply to transpose vv. 1279 f. Then τὰ μὲν πρὸ χειρῶν τάδε φέρων, τὰ δ’ ἐν δόμοις would be a case of parataxis (like that in 1112), = ὥσπερ τὰ πρὸ χειρῶν, οὕτω καὶ τὰ ἐν δόμοις. But neither this nor any other change is necessary.
 
 ## Line 1301
+
 With regard to the traditional reading, ἥδ’ **ὀξύθηκτος** ἥδε βωμία πέριξ, it is generally admitted that the first of the two epithets will not bear the figurative sense, ‘with keen resolve.’ Hence the conjectures have followed one of three courses.
 
 (1) To read **ὀξυθήκτῳ** instead of ὀξύθηκτος, and introduce a subst. in the dat., meaning ‘knife’ or ‘sword.’ The readings of Arndt and Blaydes have been noticed in the commentary. Gleditsch, with much less probability, suggests ἡ δ’ ὀξυθήκτῳ φασγάνῳ περιπτυχής.
@@ -284,6 +390,7 @@ With regard to the traditional reading, ἥδ’ **ὀξύθηκτος** ἥδε
 (3) To substitute **ὀξύπληκτος** for ὀξύθηκτος.—Thus Seyffert: ἴδ’, ὀξύπληκτος ἥδε φοινίαν ἀπρὶξ | λύει etc.: ‘lo, this woman, sharply smitten with a deadly blow (φοιν., *sc.* πληγήν), from a tightly-clutched weapon (ἀπρίξ),’ etc.—Wecklein (*Ars Soph. em.* p. 74): ἥδ’ ὀξύπληκτος βῆμα βώμιον πέριξ (‘at the altar steps’).—Hartung: ἡ δ’ ὀξύπληκτος βωμία περιπτυχής, ‘crouching at the altar’ (‘um den Hausesheerd geschmiegt’),—to represent the Schol.’s προπετής.—Pallis: ἥδ’ ὀξύπληκτος ἧμιν οἰκείᾳ χερί.
 
 ## Line 1342 f.
+
 The traditional reading is ὅπα πρὸς πότερον [πρότερον L] ἴδω, πᾷ καὶ θῶ· πάντα γὰρ | λέχρια τάδ’ [or τά τ’] ἐν χεροῖν.
 
 Verse 1342 is a dochmiac dimeter. But we cannot assume that the dochmiacs answered, syllable by syllable, to those in the strophic verse, 1320. Here, as often in dochmiacs, conjecture is rendered more uncertain by the fact that a dochmiac dimeter admitted of so many different forms. [A clear and accurate synopsis of all the forms in use is given by Schmidt, *Rhythmic and Metric*, p. 77.] It will simplify a study of the various treatments applied to this passage, if we note that they represent three different ideas, viz.:—
