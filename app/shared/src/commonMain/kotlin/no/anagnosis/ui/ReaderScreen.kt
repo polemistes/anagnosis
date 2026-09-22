@@ -179,10 +179,8 @@ fun ReaderScreen(
     val pagerState = rememberPagerState { pages.size }
     val scope = rememberCoroutineScope()
 
-    // Scrubbing state for the progress bar
+    // The page being previewed while a finger slides on the progress bar, or null.
     var scrubPage by remember { mutableStateOf<Int?>(null) }
-    var scrubOrigin by remember { mutableStateOf(0) }
-    var scrubPopup by remember { mutableStateOf(false) }
 
     LaunchedEffect(pagerState.currentPage, pages) {  // also once the pages exist, so opening a text counts as reading it
         if (scrubPage == null) pages.getOrNull(pagerState.currentPage)?.let { anchorN = it.firstN; onPositionChange(it.firstN) }
@@ -192,13 +190,6 @@ fun ReaderScreen(
         val page = pages.getOrNull(pagerState.currentPage)
         pageNotes = if (kind == null || page == null) emptyList() else withContext(Dispatchers.Default) {
             repository.notesForPage(data, page.firstN, page.lastN, kind)
-        }
-    }
-    // Swiping while the Go here / Go back choice is showing counts as "Go here".
-    LaunchedEffect(pagerState.isScrollInProgress, scrubPopup) {
-        if (scrubPopup && pagerState.isScrollInProgress) {
-            scrubPopup = false
-            scrubPage = null
         }
     }
 
@@ -237,22 +228,13 @@ fun ReaderScreen(
                 pages = pages,
                 currentPage = scrubPage ?: pagerState.currentPage,
                 scrubbing = scrubPage != null,
-                popup = scrubPopup,
                 noteKinds = data.commentaries.map { it.kind() }.distinct(),
                 onNotes = { pageNotesKind = it },
                 onScrub = { page ->
-                    if (scrubPage == null) scrubOrigin = pagerState.currentPage
-                    scrubPopup = false
                     scrubPage = page
                     scope.launch { pagerState.scrollToPage(page) }
                 },
-                onRelease = { scrubPopup = true },
-                onGoHere = { scrubPopup = false; scrubPage = null },
-                onGoBack = {
-                    scrubPopup = false
-                    scrubPage = null
-                    scope.launch { pagerState.scrollToPage(scrubOrigin) }
-                },
+                onRelease = { scrubPage = null },
             )
         },
     ) { padding ->
@@ -785,22 +767,16 @@ private fun TranslationPage(segments: List<Translation_segments>, styles: Styles
     }
 }
 
-/**
- * Bottom progress bar. Press or slide anywhere on it to preview that page (the reader follows);
- * on release a small popup offers to stay ("Go here") or return to the original page ("Go back").
- */
+/** Bottom progress bar. Press or slide anywhere on it to go to that page; the reader follows the finger. */
 @Composable
 private fun ProgressScrubber(
     pages: List<Page>,
     currentPage: Int,
     scrubbing: Boolean,
-    popup: Boolean,
     noteKinds: List<NoteKind>,
     onNotes: (NoteKind) -> Unit,
     onScrub: (Int) -> Unit,
     onRelease: () -> Unit,
-    onGoHere: () -> Unit,
-    onGoBack: () -> Unit,
 ) {
     val count = pages.size
     val primary = MaterialTheme.colorScheme.primary
@@ -817,19 +793,14 @@ private fun ProgressScrubber(
                     Text(
                         span,
                         style = MaterialTheme.typography.labelMedium,
-                        color = if (scrubbing || popup) MaterialTheme.colorScheme.onSurface else MaterialTheme.colorScheme.outline,
+                        color = if (scrubbing) MaterialTheme.colorScheme.onSurface else MaterialTheme.colorScheme.outline,
                         modifier = Modifier.weight(1f),
                     )
                 } else {
                     Spacer(Modifier.weight(1f))
                 }
-                if (popup) {
-                    TextButton(onClick = onGoBack) { Text("Go back") }
-                    TextButton(onClick = onGoHere) { Text("Go here") }
-                } else {
-                    for (kind in noteKinds) {
-                        TextButton(onClick = { onNotes(kind) }) { Text(kind.label) }
-                    }
+                for (kind in noteKinds) {
+                    TextButton(onClick = { onNotes(kind) }) { Text(kind.label) }
                 }
             }
             Canvas(
