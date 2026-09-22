@@ -3,7 +3,6 @@ package no.anagnosis.data
 import no.anagnosis.DriverFactory
 import no.anagnosis.db.AnagnosisDatabase
 import no.anagnosis.db.Documents
-import no.anagnosis.db.Lines
 import no.anagnosis.inflate
 import no.anagnosis.lexdb.LexiconDatabase
 
@@ -81,16 +80,6 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
             .map { Entry(it.lexicon_slug, it.lexicon_title, it.headword, it.homograph, it.html) }
         val short = q.selectShortDefinition(token.lemma_key).executeAsOneOrNull()?.definition
         return WordInfo(token.form, token.lemma, Morphology.describe(token.postag), short, glossary + rows)
-    }
-
-    /** Notes for a line: those on the line itself plus those on absent line numbers just before it. */
-    fun notesForLine(data: WorkData, line: Lines): List<NoteInfo> {
-        val q = textDb(data.slug).anagnosisQueries
-        val idx = data.lines.indexOf(line)
-        val prevN = if (idx > 0) data.lines[idx - 1].n_int else 0L
-        return data.commentaries.map { c ->
-            NoteInfo(c, q.selectNotesForLine(c.id, prevN, line.n_int).executeAsList())
-        }.filter { it.notes.isNotEmpty() }
     }
 
     /**

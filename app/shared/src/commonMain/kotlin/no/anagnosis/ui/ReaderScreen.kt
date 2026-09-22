@@ -5,6 +5,7 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.gestures.awaitEachGesture
 import androidx.compose.foundation.gestures.awaitFirstDown
+import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.ui.input.pointer.PointerEventPass
 import androidx.compose.foundation.gestures.drag
 import androidx.compose.foundation.layout.Box
@@ -26,6 +27,7 @@ import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.Settings
+import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
@@ -53,9 +55,10 @@ import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.platform.LocalDensity
-import androidx.compose.ui.text.LinkAnnotation
+import androidx.compose.ui.platform.LocalFontFamilyResolver
+import androidx.compose.ui.platform.LocalLayoutDirection
 import androidx.compose.ui.text.SpanStyle
-import androidx.compose.ui.text.TextLinkStyles
+import androidx.compose.ui.text.TextLayoutResult
 import androidx.compose.ui.text.TextMeasurer
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.buildAnnotatedString
@@ -64,18 +67,17 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.BaselineShift
 import androidx.compose.ui.text.rememberTextMeasurer
 import androidx.compose.ui.text.style.TextIndent
-import androidx.compose.ui.text.withLink
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.Constraints
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.ensureActive
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import no.anagnosis.data.AnagnosisRepository
 import no.anagnosis.data.NoteGroup
-import no.anagnosis.data.NoteInfo
 import no.anagnosis.data.NoteKind
 import no.anagnosis.data.kind
 import no.anagnosis.data.WordInfo
@@ -151,8 +153,6 @@ fun ReaderScreen(
     var showAbout by remember { mutableStateOf(false) }
     var selectedTokenId by remember { mutableStateOf<Long?>(null) }
     var wordInfo by remember { mutableStateOf<WordInfo?>(null) }
-    var notesLine by remember { mutableStateOf<Lines?>(null) }
-    var notes by remember { mutableStateOf<List<NoteInfo>>(emptyList()) }
     var pageNotesKind by remember { mutableStateOf<NoteKind?>(null) }
     var pageNotes by remember { mutableStateOf<List<NoteGroup>>(emptyList()) }
 
@@ -162,11 +162,6 @@ fun ReaderScreen(
     LaunchedEffect(selectedTokenId) {
         val id = selectedTokenId
         wordInfo = if (id == null) null else withContext(Dispatchers.Default) { repository.lookupWord(data, id) }
-    }
-    LaunchedEffect(notesLine) {
-        val line = notesLine
-        notes = if (line == null) emptyList() else withContext(Dispatchers.Default) { repository.notesForLine(data, line) }
-        if (line != null && notes.isEmpty()) notesLine = null
     }
 
     val typography = MaterialTheme.typography
@@ -278,14 +273,32 @@ fun ReaderScreen(
             } else 0
             val numberColumn = with(density) { numberColumnPx.toDp() }
             val forcedColumn = with(density) { (measurer.measure("0000", styles.number).size.width + NUMBER_GAP.roundToPx()).toDp() }
-            val computed = remember(rows, widthPx, heightPx, styles, settings.lineNumbers, settings.fitTranslation) {
-                val enHeights = if (settings.fitTranslation && translation != null) {
-                    translationHeights(translation.segments, data.lines, measurer, styles, widthPx, density)
-                } else emptyMap()
+            // Pagination measures every line of the text, which takes seconds on a slow tablet, so it
+            // runs off the main thread with its own measurer. Row heights are kept between runs that
+            // share a width and style, so a rotation only has to cut the pages again.
+            val fontResolver = LocalFontFamilyResolver.current
+            val layoutDirection = LocalLayoutDirection.current
+            val backgroundMeasurer = remember(fontResolver, density, layoutDirection) { TextMeasurer(fontResolver, density, layoutDirection, cacheSize = 0) }
+            val measureCache = remember(rows, styles, widthPx, numberColumnPx, settings.lineNumbers) { HashMap<ReaderRow, Measured>() }
+            LaunchedEffect(rows, widthPx, heightPx, styles, settings.lineNumbers, settings.fitTranslation, numberColumnPx) {
                 // after a pinch, the page the reader was previewing keeps its first row
                 val anchorRow = pinchAnchorRow
                 val anchorIndex = if (anchorRow != null) rows.indexOfFirst { it === anchorRow }.takeIf { it >= 0 } else null
-                paginate(rows, measurer, styles, widthPx - numberColumnPx, heightPx, density, settings.lineNumbers, enHeights, anchorIndex)
+                // the job works on its own copy of the cache: the shared one is touched on this thread only
+                val cache = HashMap(measureCache)
+                val computed = withContext(Dispatchers.Default) {
+                    val enHeights = if (settings.fitTranslation && translation != null) {
+                        translationHeights(translation.segments, data.lines, backgroundMeasurer, styles, widthPx, density)
+                    } else emptyMap()
+                    paginate(rows, backgroundMeasurer, styles, widthPx - numberColumnPx, heightPx, density, settings.lineNumbers, enHeights, anchorIndex, cache) { ensureActive() }
+                }
+                measureCache.putAll(cache)
+                pages = computed
+                pinchAnchorRow = null
+                pinchSize = null  // a committed pinch keeps its preview on screen until here
+                val byRow = if (anchorRow != null) computed.indexOfFirst { page -> page.rows.any { it === anchorRow } } else -1
+                val target = if (byRow >= 0) byRow else computed.indexOfLast { it.firstN <= anchorN }.coerceAtLeast(0)
+                pagerState.scrollToPage(target)
             }
             // Live preview during a pinch: only the current page, re-laid out at the previewed size.
             val previewStyles = pinchSize?.let { size -> stylesFor(typography, base, family, (size + 0.5f).toInt()) }
@@ -302,14 +315,6 @@ fun ReaderScreen(
                     paginate(rows.subList(startIdx, endIdx), measurer, previewStyles, widthPx - numberColumnPx, heightPx, density, settings.lineNumbers, enHeights).firstOrNull()
                 } else null
             } else null
-            LaunchedEffect(computed) {
-                pages = computed
-                val anchorRow = pinchAnchorRow
-                pinchAnchorRow = null
-                val byRow = if (anchorRow != null) computed.indexOfFirst { page -> page.rows.any { it === anchorRow } } else -1
-                val target = if (byRow >= 0) byRow else computed.indexOfLast { it.firstN <= anchorN }.coerceAtLeast(0)
-                pagerState.scrollToPage(target)
-            }
             // Two-finger pinch changes the text size; one finger is left to the pager. The page
             // content is a child of the pager, so it sees the pointers first and can claim them.
             val currentSize = rememberUpdatedState(settings.fontSize)
@@ -344,10 +349,10 @@ fun ReaderScreen(
                         // commit: the previewed page keeps its first row after the full re-pagination
                         val page = currentPages.value.getOrNull(pagerState.currentPage)
                         pinchAnchorRow = page?.rows?.firstOrNull()
-                        pinchSize = null
                         val rounded = (size + 0.5f).toInt()
                         val current = currentSettings.value
-                        if (rounded != current.fontSize) onSettingsChange(current.copy(fontSize = rounded))
+                        // the preview stays up while the pages are cut again at the new size
+                        if (rounded != current.fontSize) onSettingsChange(current.copy(fontSize = rounded)) else pinchSize = null
                     }
                 }
             }
@@ -368,12 +373,15 @@ fun ReaderScreen(
                 }
             }
             Box(Modifier.fillMaxSize().then(pinchModifier)) {
+                if (pages.isEmpty()) {
+                    CircularProgressIndicator(Modifier.align(Alignment.Center))
+                }
                 if (pages.isNotEmpty()) {
                     val pageSegments = remember(pages, translation) { segmentsByPage(pages, translation?.segments ?: emptyList(), data.lines) }
                     HorizontalPager(state = pagerState, modifier = Modifier.fillMaxSize(), beyondViewportPageCount = 1) { index ->
                         val page = pages.getOrNull(index) ?: return@HorizontalPager
                         PageFrame(
-                            greek = { PageContent(page, styles, data, numberColumn, forcedColumn, onWord = { selectedTokenId = it }, onLine = { notesLine = it }) },
+                            greek = { PageContent(page, styles, data, numberColumn, forcedColumn, onWord = { selectedTokenId = it }) },
                             english = if (translation == null) null else {
                                 { TranslationPage(pageSegments.getOrNull(index) ?: emptyList(), styles, showAnchors, Modifier.fillMaxSize()) }
                             },
@@ -385,7 +393,7 @@ fun ReaderScreen(
                         segmentsByPage(listOf(previewPage), translation.segments, data.lines).first()
                     } else emptyList()
                     PageFrame(
-                        greek = { PageContent(previewPage, previewStyles, data, numberColumn, forcedColumn, onWord = {}, onLine = {}) },
+                        greek = { PageContent(previewPage, previewStyles, data, numberColumn, forcedColumn, onWord = {}) },
                         english = if (translation == null) null else {
                             { TranslationPage(previewSegments, previewStyles, showAnchors, Modifier.fillMaxSize()) }
                         },
@@ -421,10 +429,6 @@ fun ReaderScreen(
     if (showAbout) {
         val credits = remember { repository.credits() }
         AboutDialog(appVersion, credits, onDismiss = { showAbout = false })
-    }
-    val line = notesLine
-    if (line != null && notes.isNotEmpty()) {
-        NotesSheet(line, notes, onDismiss = { notesLine = null })
     }
 }
 
@@ -465,6 +469,8 @@ private fun paginate(
     numbering: LineNumberMode,
     translationHeights: Map<Long, Int> = emptyMap(),
     anchorIndex: Int? = null,
+    cache: MutableMap<ReaderRow, Measured>? = null,
+    checkActive: () -> Unit = {},
 ): List<Page> {
     if (widthPx <= 0 || heightPx <= 0) return emptyList()
     fun Dp.px() = with(density) { roundToPx() }
@@ -473,6 +479,8 @@ private fun paginate(
     val numberWidth = measurer.measure("0000", styles.number).size.width + NUMBER_GAP.px()
 
     val measured: MutableList<Measured> = rows.map { row ->
+        cache?.get(row) ?: run {
+        checkActive()
         when (row) {
             is ReaderRow.Section -> {
                 val top = if (row.section.level <= 1L) SECTION_TOP else SUBSECTION_TOP
@@ -487,6 +495,7 @@ private fun paginate(
                 val fits = numbering == LineNumberMode.ALL || textWidth - layout.getLineRight(0) >= numberWidth
                 Measured(row, layout.size.height, fits)
             }
+        }.also { cache?.put(row, it) }
         }
     }.toMutableList()
 
@@ -662,7 +671,7 @@ private fun stylesFor(typography: androidx.compose.material3.Typography, base: T
 )
 
 @Composable
-private fun PageContent(page: Page, styles: Styles, data: WorkData, numberColumn: Dp, forcedColumn: Dp, onWord: (Long) -> Unit, onLine: (Lines) -> Unit) {
+private fun PageContent(page: Page, styles: Styles, data: WorkData, numberColumn: Dp, forcedColumn: Dp, onWord: (Long) -> Unit) {
     for (row in page.rows) {
         when (row) {
             is ReaderRow.Section -> SectionHeader(row.section, styles)
@@ -679,7 +688,6 @@ private fun PageContent(page: Page, styles: Styles, data: WorkData, numberColumn
                 data = data,
                 styles = styles,
                 onWord = onWord,
-                onLine = { onLine(row.line) },
             )
         }
     }
@@ -704,26 +712,25 @@ private fun SectionHeader(section: Sections, styles: Styles) {
 }
 
 @Composable
-private fun GreekLineRow(line: Lines, number: String?, numberColumn: Dp, data: WorkData, styles: Styles, onWord: (Long) -> Unit, onLine: () -> Unit) {
+private fun GreekLineRow(line: Lines, number: String?, numberColumn: Dp, data: WorkData, styles: Styles, onWord: (Long) -> Unit) {
     val tokens = data.tokensByLine[line.id] ?: emptyList()
-    val textColor = MaterialTheme.colorScheme.onBackground
-    val annotated = remember(line.id, textColor) {
-        buildAnnotatedString {
-            var pos = 0
-            for (t in tokens) {
-                val start = t.start.toInt()
-                val end = t.end.toInt()
-                if (start > pos) append(line.text.substring(pos, start))
-                withLink(
-                    LinkAnnotation.Clickable(tag = "t:${t.id}", styles = TextLinkStyles(style = SpanStyle(color = textColor))) { onWord(t.id) }
-                ) { append(line.text.substring(start, end)) }
-                pos = end
+    // One tap handler per line, which finds the word from the tap position, is far cheaper than
+    // a clickable link per word: a page holds a few hundred words, and slow tablets feel it.
+    var layout by remember { mutableStateOf<TextLayoutResult?>(null) }
+    val currentOnWord = rememberUpdatedState(onWord)
+    Box(
+        Modifier.fillMaxWidth().pointerInput(tokens) {
+            detectTapGestures { pos ->
+                val result = layout ?: return@detectTapGestures
+                val lineIndex = result.getLineForVerticalPosition(pos.y)
+                // a tap in the blank space to the right of the words is not a tap on a word
+                if (pos.x > result.getLineRight(lineIndex) + 4.dp.toPx()) return@detectTapGestures
+                val offset = result.getOffsetForPosition(pos)
+                tokens.firstOrNull { offset >= it.start && offset < it.end }?.let { currentOnWord.value(it.id) }
             }
-            if (pos < line.text.length) append(line.text.substring(pos))
-        }
-    }
-    Box(Modifier.fillMaxWidth().clickable(onClick = onLine)) {
-        Text(text = annotated, style = styles.greek, modifier = Modifier.fillMaxWidth().padding(end = numberColumn))
+        },
+    ) {
+        Text(text = line.text, style = styles.greek, onTextLayout = { layout = it }, modifier = Modifier.fillMaxWidth().padding(end = numberColumn))
         if (number != null) {
             Text(
                 number,

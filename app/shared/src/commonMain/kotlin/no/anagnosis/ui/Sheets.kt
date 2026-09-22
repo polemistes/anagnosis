@@ -34,13 +34,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import no.anagnosis.data.Entry
 import no.anagnosis.data.NoteGroup
-import no.anagnosis.data.NoteInfo
 import no.anagnosis.data.NoteKind
 import no.anagnosis.data.kind
 import no.anagnosis.data.WordInfo
 import kotlinx.coroutines.launch
 import no.anagnosis.db.Documents
-import no.anagnosis.db.Lines
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -87,26 +85,6 @@ fun WordSheet(info: WordInfo, onDismiss: () -> Unit) {
                 info.entries.filter { it.lexiconSlug == shown }.forEachIndexed { i, e ->
                     if (i > 0) HorizontalDivider(Modifier.padding(vertical = 10.dp))
                     HtmlText(e.html)
-                }
-            }
-            Spacer(Modifier.height(32.dp))
-        }
-    }
-}
-
-@OptIn(ExperimentalMaterial3Api::class)
-@Composable
-fun NotesSheet(line: Lines, notes: List<NoteInfo>, onDismiss: () -> Unit) {
-    val state = rememberModalBottomSheetState(skipPartiallyExpanded = false)
-    ModalBottomSheet(onDismissRequest = onDismiss, sheetState = state) {
-        Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 20.dp, vertical = 8.dp)) {
-            LineHeading(line)
-            for (info in notes) {
-                Spacer(Modifier.height(12.dp))
-                Text(info.commentary.kind().label, style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.primary)
-                for (note in info.notes) {
-                    Spacer(Modifier.height(6.dp))
-                    HtmlText(note.html)
                 }
             }
             Spacer(Modifier.height(32.dp))
@@ -235,10 +213,4 @@ fun DocumentsSheet(documents: List<Pair<String, String>>, onOpen: (String) -> Un
             Spacer(Modifier.height(32.dp))
         }
     }
-}
-
-@Composable
-private fun LineHeading(line: Lines) {
-    Text("Line ${line.n}", style = MaterialTheme.typography.titleMedium)
-    Text(line.text, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
 }

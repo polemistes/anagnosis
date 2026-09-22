@@ -48,7 +48,6 @@ class Entry(
 /** What the word sheet shows: a headword (or a token's form), its parse if any, gloss and entries. */
 class WordInfo(val form: String, val lemma: String, val morphology: String, val shortDefinition: String?, val entries: List<Entry>)
 
-class NoteInfo(val commentary: Commentaries, val notes: List<Commentary_notes>)
 
 /** One heading of the page-wide Apparatus / Commentary views: a line or range with its notes. */
 class NoteGroup(val heading: String, val lineText: String?, val notes: List<Commentary_notes>)

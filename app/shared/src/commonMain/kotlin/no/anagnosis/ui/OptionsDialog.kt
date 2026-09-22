@@ -202,7 +202,7 @@ fun IntroDialog(onDismiss: () -> Unit) {
                 )
                 Spacer(Modifier.height(12.dp))
                 HelpItem("Tap a word", "to see its dictionary form, its inflection and a short definition. The LSJ and Middle Liddell buttons open the full dictionary entries.")
-                HelpItem("Apparatus and Commentary", "at the bottom open Jebb's critical notes or his commentary for all the lines on the page. Tapping a line outside the words shows the notes for that line alone.")
+                HelpItem("Apparatus and Commentary", "at the bottom open Jebb's critical notes or his commentary for all the lines on the page.")
                 HelpItem("Swipe left or right", "to turn the page.")
                 HelpItem("Press or slide on the bar at the bottom", "to look at any part of the text, then choose Go here or Go back.")
                 HelpItem("Greek / English", "at the top switches between the text and the translation.")

@@ -87,12 +87,6 @@ SELECT * FROM translation_segments WHERE translation_id = ? ORDER BY ord;
 selectCommentaries:
 SELECT * FROM commentaries WHERE work_id = ? ORDER BY id;
 
-selectNotesForLine:
-SELECT * FROM commentary_notes
-WHERE commentary_id = ?
-  AND ((from_n_int > :prevN AND from_n_int <= :n) OR (from_n_int <= :n AND to_n_int >= :n))
-ORDER BY ord;
-
 selectLexicons:
 SELECT * FROM lexicons ORDER BY id;
 
