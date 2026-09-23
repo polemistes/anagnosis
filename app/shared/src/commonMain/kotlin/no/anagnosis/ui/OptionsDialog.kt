@@ -139,9 +139,9 @@ fun AboutDialog(appVersion: String, credits: List<Credit>, onDismiss: () -> Unit
                 Text("Licence", style = MaterialTheme.typography.labelLarge)
                 Text(
                     "Copyright © 2026 Robert Emil Berge. The app is free software under the GNU General Public License, " +
-                        "version 3 or later: you may use, study, share and modify it, and its source code is published at " +
-                        "the project's repository. It comes without any warranty. The name Anagnosis and the app icon are " +
-                        "not covered by that licence.",
+                        "version 3 or later: you may use, study, share and modify it. The source code, the texts and the data " +
+                        "are published at github.com/polemistes/anagnosis. It comes without any warranty. The name Anagnosis " +
+                        "and the app icon are not covered by that licence.",
                     style = MaterialTheme.typography.bodySmall,
                 )
                 Spacer(Modifier.height(12.dp))

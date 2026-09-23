@@ -5,6 +5,10 @@ Readers for ancient Greek texts on Android. The first text is Sophocles' *Antigo
 Tap a word to see its dictionary entry and morphology, switch between the Greek and
 translations, and consult commentaries. Everything works offline.
 
+The app is sold on Google Play. Everything needed to build it yourself is in this repository,
+free of charge: the code under the GPL (see LICENSE), the texts and data under CC BY-SA 4.0
+(see DATA-LICENSE). The privacy policy is in PRIVACY.md.
+
 ## Repository layout
 
     texts/       the texts, translations, commentaries and word annotations, as editable plain files
