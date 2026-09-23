@@ -57,7 +57,19 @@ fun LibraryScreen(
             color = MaterialTheme.colorScheme.onSurfaceVariant,
             textAlign = TextAlign.Center,
         )
-        Spacer(Modifier.height(28.dp))
+        Spacer(Modifier.height(20.dp))
+        Text(
+            "Anagnosis is for reading ancient Greek texts in the original. Tap any word to see its dictionary " +
+                "form, its inflection and its meaning, with the full Liddell–Scott entries a tap further. Each text " +
+                "comes with an English translation, a critical apparatus and a commentary, and everything works offline.",
+            style = MaterialTheme.typography.bodyMedium,
+            textAlign = TextAlign.Center,
+        )
+        Spacer(Modifier.height(24.dp))
+        Text("Dictionary", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary, modifier = Modifier.fillMaxWidth())
+        Spacer(Modifier.height(8.dp))
+        androidx.compose.material3.OutlinedButton(onClick = onSearch, modifier = Modifier.fillMaxWidth()) { Text("Look up a word or analyse a form") }
+        Spacer(Modifier.height(24.dp))
         Text("Texts", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary, modifier = Modifier.fillMaxWidth())
         Spacer(Modifier.height(8.dp))
         Column(Modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(12.dp)) {
@@ -82,8 +94,6 @@ fun LibraryScreen(
                 }
             }
         }
-        Spacer(Modifier.height(20.dp))
-        androidx.compose.material3.OutlinedButton(onClick = onSearch, modifier = Modifier.fillMaxWidth()) { Text("Dictionary and word analysis") }
         Spacer(Modifier.height(20.dp))
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             TextButton(onClick = { showHelp = true }) { Text("How to use") }
