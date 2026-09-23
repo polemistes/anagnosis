@@ -6,3 +6,4 @@ local.properties
 .kotlin/
 *.iml
 androidApp/src/main/assets/data/
+/keystore/
