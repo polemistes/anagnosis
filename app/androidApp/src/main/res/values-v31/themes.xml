@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The system splash screen (Android 12 and later) shows the launcher icon on the icon's own brown. -->
+    <style name="Theme.Anagnosis" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowSplashScreenBackground">@color/ic_launcher_background</item>
+    </style>
+</resources>
