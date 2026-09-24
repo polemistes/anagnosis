@@ -66,9 +66,7 @@ fun LibraryScreen(
             textAlign = TextAlign.Center,
         )
         Spacer(Modifier.height(24.dp))
-        Text("Dictionary", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary, modifier = Modifier.fillMaxWidth())
-        Spacer(Modifier.height(8.dp))
-        androidx.compose.material3.OutlinedButton(onClick = onSearch, modifier = Modifier.fillMaxWidth()) { Text("Look up a word or analyse a form") }
+        androidx.compose.material3.OutlinedButton(onClick = onSearch, modifier = Modifier.fillMaxWidth()) { Text("Dictionary and Word Analysis") }
         Spacer(Modifier.height(24.dp))
         Text("Texts", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary, modifier = Modifier.fillMaxWidth())
         Spacer(Modifier.height(8.dp))
