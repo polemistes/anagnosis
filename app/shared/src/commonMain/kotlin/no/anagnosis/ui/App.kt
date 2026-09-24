@@ -51,11 +51,8 @@ fun App(repository: AnagnosisRepository, settingsStore: SettingsStore, appVersio
     LaunchedEffect(Unit) {
         val list = withContext(Dispatchers.Default) { repository.catalog() }
         catalog = list
-        // Resume where the reader left off, if that text is still installed.
-        val last = settingsStore.lastText()
-        if (last != null && list.any { it.slug == last && it.installed } && settingsStore.lastLine(last) != null) {
-            screen = Screen.Reader(last)
-        }
+        // A fresh start opens on the front page; the reading position is kept per text, so
+        // "Read the text" continues where the reader left off.
     }
     val wantedSlug = ((screen as? Screen.Search)?.from as? Screen.Reader)?.slug ?: (screen as? Screen.Reader)?.slug
     LaunchedEffect(wantedSlug) {
@@ -100,7 +97,8 @@ fun App(repository: AnagnosisRepository, settingsStore: SettingsStore, appVersio
                             settings = settings,
                             onSettingsChange = { settings = it; settingsStore.save(it) },
                             onHelp = { showIntro = true },
-                            onHome = { screen = Screen.TextHome(s.slug) },
+                            onBack = { screen = Screen.TextHome(s.slug) },
+                            onHome = { screen = Screen.Library },
                             onSearch = { screen = Screen.Search(s) },
                             startLine = settingsStore.lastLine(s.slug) ?: 1L,
                             onPositionChange = { settingsStore.saveLastText(s.slug); settingsStore.saveLastLine(s.slug, it) },

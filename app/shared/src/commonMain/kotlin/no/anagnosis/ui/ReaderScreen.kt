@@ -25,6 +25,8 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.CircularProgressIndicator
@@ -41,6 +43,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.material3.TopAppBar
+import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -67,6 +70,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.BaselineShift
 import androidx.compose.ui.text.rememberTextMeasurer
 import androidx.compose.ui.text.style.TextIndent
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.Constraints
 import androidx.compose.ui.unit.Dp
@@ -139,6 +143,7 @@ fun ReaderScreen(
     settings: ReaderSettings,
     onSettingsChange: (ReaderSettings) -> Unit,
     onHelp: () -> Unit,
+    onBack: () -> Unit,
     onHome: () -> Unit,
     onSearch: () -> Unit,
     startLine: Long,
@@ -199,11 +204,25 @@ fun ReaderScreen(
     val mode = chosenMode?.takeIf { it in modes } ?: if (wide) ViewMode.BOTH else ViewMode.GREEK
     Scaffold(
         topBar = {
-            TopAppBar(
-                title = { Text(data.work.title, maxLines = 1, modifier = Modifier.clickable { onHome() }) },
-                actions = {
+            // Two rows: the title with the way back and the way home, then the controls, so that
+            // the title is never squeezed by the buttons on a narrow screen.
+            Column(Modifier.background(MaterialTheme.colorScheme.surface)) {
+                TopAppBar(
+                    title = { Text(data.work.title, maxLines = 1, overflow = TextOverflow.Ellipsis, modifier = Modifier.clickable { onBack() }) },
+                    navigationIcon = {
+                        IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back to the text's page") }
+                    },
+                    actions = {
+                        IconButton(onClick = onHome) { Icon(Icons.Filled.Home, contentDescription = "Front page") }
+                    },
+                    windowInsets = TopAppBarDefaults.windowInsets,
+                )
+                Row(
+                    Modifier.fillMaxWidth().padding(start = 12.dp, end = 4.dp, bottom = 4.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                ) {
                     if (translation != null) {
-                        SingleChoiceSegmentedButtonRow(Modifier.padding(end = 4.dp)) {
+                        SingleChoiceSegmentedButtonRow {
                             modes.forEachIndexed { i, m ->
                                 SegmentedButton(
                                     selected = mode == m,
@@ -214,14 +233,15 @@ fun ReaderScreen(
                             }
                         }
                     }
+                    Spacer(Modifier.weight(1f))
                     IconButton(onClick = onSearch) {
                         Icon(Icons.Filled.Search, contentDescription = "Dictionary")
                     }
                     IconButton(onClick = { showOptions = true }) {
                         Icon(Icons.Filled.Settings, contentDescription = "Options")
                     }
-                },
-            )
+                }
+            }
         },
         bottomBar = {
             ProgressScrubber(
