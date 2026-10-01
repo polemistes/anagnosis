@@ -43,12 +43,12 @@ import kotlinx.coroutines.launch
 import no.anagnosis.db.Documents
 
 /**
- * The word popup. In the reader [onSyntax] shows or hides the syntax of the word's sentence,
- * labelled [syntaxLabel]; the search screen has no sentence and leaves both null.
+ * The word popup. In the reader [onSyntax] opens the syntax of the word's sentence; the search
+ * screen has no sentence and leaves it null.
  */
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalLayoutApi::class)
 @Composable
-fun WordSheet(info: WordInfo, onDismiss: () -> Unit, syntaxLabel: String? = null, onSyntax: (() -> Unit)? = null) {
+fun WordSheet(info: WordInfo, onDismiss: () -> Unit, onSyntax: (() -> Unit)? = null) {
     val state = rememberModalBottomSheetState(skipPartiallyExpanded = true)
     val glossary = info.entries.filter { it.lexiconSlug.endsWith("-glossary") }
     val buttons = listOf("ml" to "Middle Liddell", "lsj" to "LSJ")
@@ -87,7 +87,7 @@ fun WordSheet(info: WordInfo, onDismiss: () -> Unit, syntaxLabel: String? = null
                         }
                     }
                     if (onSyntax != null) {
-                        OutlinedButton(onClick = onSyntax) { Text(syntaxLabel ?: "Syntax") }
+                        OutlinedButton(onClick = onSyntax) { Text("Syntax") }
                     }
                 }
             }

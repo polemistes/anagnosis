@@ -119,6 +119,30 @@ object Syntax {
         return if (notes.isEmpty()) name else "$name, ${notes.reversed().joinToString(", ")}"
     }
 
+    /** The role in a few letters, for the label on an arc: "subj", "attr co" (coordinated), "pred nom". */
+    fun shortLabel(relation: String?): String {
+        if (relation.isNullOrEmpty()) return ""
+        var base: String = relation
+        val notes = mutableListOf<String>()
+        while (true) {
+            when {
+                base.endsWith("_CO") -> { base = base.removeSuffix("_CO"); notes += "co" }
+                base.endsWith("_AP") -> { base = base.removeSuffix("_AP"); notes += "ap" }
+                base.endsWith("_PA") -> { base = base.removeSuffix("_PA"); notes += "pa" }
+                else -> break
+            }
+        }
+        return (listOf(shortNames[base] ?: base.lowercase()) + notes.reversed()).joinToString(" ")
+    }
+
+    private val shortNames = mapOf(
+        "PRED" to "pred", "SBJ" to "subj", "OBJ" to "obj", "ATR" to "attr", "ADV" to "adv",
+        "PNOM" to "pred nom", "OCOMP" to "obj compl", "ATV" to "compl", "AtvV" to "compl",
+        "APOS" to "appos", "COORD" to "coord", "AuxP" to "prep", "AuxC" to "conj", "AuxZ" to "emph",
+        "AuxY" to "ptcl", "AuxV" to "aux", "AuxX" to "punct", "AuxK" to "punct", "AuxG" to "punct",
+        "ExD" to "indep", "UNDEFINED" to "?",
+    )
+
     /** The group a relation belongs to, for colouring; null for the glue (particles, punctuation ...). */
     fun role(relation: String?): Role? {
         if (relation.isNullOrEmpty()) return null

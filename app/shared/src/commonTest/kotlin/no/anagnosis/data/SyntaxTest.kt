@@ -74,6 +74,17 @@ class SyntaxTest {
     }
 
     @Test
+    fun shortLabelsAndPartsOfSpeech() {
+        assertEquals("subj", Syntax.shortLabel("SBJ"))
+        assertEquals("attr co", Syntax.shortLabel("ATR_CO"))
+        assertEquals("obj ap co", Syntax.shortLabel("OBJ_AP_CO"))
+        assertEquals("ptcp", Morphology.pos("v-pappmn-"))
+        assertEquals("inf", Morphology.pos("v--pna---"))
+        assertEquals("noun", Morphology.pos("n-s---fg-"))
+        assertEquals("", Morphology.pos(""))
+    }
+
+    @Test
     fun shortMorphology() {
         assertEquals("verb 3rd sg pres ind act", Morphology.short("v3spia---"))
         assertEquals("noun fem gen sg", Morphology.short("n-s---fg-"))

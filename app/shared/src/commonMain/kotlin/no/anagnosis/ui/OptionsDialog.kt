@@ -202,7 +202,7 @@ fun IntroDialog(onDismiss: () -> Unit) {
                 )
                 Spacer(Modifier.height(12.dp))
                 HelpItem("Tap a word", "to see its dictionary form, its inflection and a short definition. The LSJ and Middle Liddell buttons open the full dictionary entries.")
-                HelpItem("Press and hold a word", "to show the syntax of its sentence: every word with its role (subject, object, attribute ...) and its form, listed under the word it depends on. The words of the sentence are coloured by role; […] stands for a word that is understood. Hold again, or tap the cross, to hide it.")
+                HelpItem("Press and hold a word", "to see the syntax of its sentence on a page of its own: the words in a row with their parts of speech, coloured by role (subject, object, attribute ...), and a line from each word to the words that depend on it. Drag and pinch to move and zoom; double tap to reset. Tree at the top lists the same under one another with the full forms; […] stands for a word that is understood. Tap a word for its dictionary entry.")
                 HelpItem("Apparatus and Commentary", "at the bottom open Jebb's critical notes or his commentary for all the lines on the page.")
                 HelpItem("Swipe left or right", "to turn the page.")
                 HelpItem("Press or slide on the bar at the bottom", "to go to any part of the text.")

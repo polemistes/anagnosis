@@ -55,6 +55,16 @@ object Morphology {
     private val shortCase = mapOf('n' to "nom", 'g' to "gen", 'd' to "dat", 'a' to "acc", 'v' to "voc", 'l' to "loc")
     private val shortDegree = mapOf('c' to "comp", 's' to "superl")
 
+    /** The part of speech alone, abbreviated; a participle or an infinitive is named as such. */
+    fun pos(postag: String): String {
+        if (postag.length < 9) return ""
+        return when (postag[4]) {
+            'p' -> "ptcp"
+            'n' -> "inf"
+            else -> shortPos[postag[0]] ?: ""
+        }
+    }
+
     /**
      * The tag in the abbreviated form of a grammar: "verb 3rd sg pres ind act", "noun fem gen sg",
      * "part aor pass part masc nom pl". Finite verbs list person and number first; nominal forms
