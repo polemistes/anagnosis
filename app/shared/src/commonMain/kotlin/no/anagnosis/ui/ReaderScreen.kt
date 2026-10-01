@@ -18,6 +18,7 @@ import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.pager.HorizontalPager
@@ -29,6 +30,7 @@ import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.Settings
+import androidx.compose.material.icons.filled.Close
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
@@ -57,9 +59,14 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.pointer.pointerInput
+import androidx.compose.ui.draw.drawBehind
+import androidx.compose.ui.graphics.luminance
+import androidx.compose.ui.hapticfeedback.HapticFeedbackType
 import androidx.compose.ui.platform.LocalDensity
+import androidx.compose.ui.platform.LocalHapticFeedback
 import androidx.compose.ui.platform.LocalFontFamilyResolver
 import androidx.compose.ui.platform.LocalLayoutDirection
+import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.TextLayoutResult
 import androidx.compose.ui.text.TextMeasurer
@@ -81,13 +88,17 @@ import kotlinx.coroutines.ensureActive
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import no.anagnosis.data.AnagnosisRepository
+import no.anagnosis.data.Morphology
 import no.anagnosis.data.NoteGroup
+import no.anagnosis.data.Syntax
+import no.anagnosis.data.SyntaxNode
 import no.anagnosis.data.NoteKind
 import no.anagnosis.data.kind
 import no.anagnosis.data.WordInfo
 import no.anagnosis.data.WorkData
 import no.anagnosis.db.Lines
 import no.anagnosis.db.Sections
+import no.anagnosis.db.Tokens
 import no.anagnosis.db.Translation_segments
 import no.anagnosis.prefs.LineNumberMode
 import no.anagnosis.prefs.ReaderSettings
@@ -111,6 +122,10 @@ sealed interface ReaderRow {
     data class GreekLine(val line: Lines) : ReaderRow {
         override val nInt get() = line.n_int
     }
+    /** Heads the syntax of a sentence, shown after the sentence's last line; `label` names its lines. */
+    class SyntaxHeader(val sentence: String, val label: String, override val nInt: Long) : ReaderRow
+    /** One node of a sentence's syntax tree, indented by its depth; `last` closes the tree. */
+    class SyntaxLine(val sentence: String, val node: SyntaxNode, val depth: Int, val last: Boolean, override val nInt: Long) : ReaderRow
 }
 
 /** A laid-out row: its rendering height and, for Greek lines, whether the line number fits on the right. */
@@ -126,6 +141,13 @@ private class Styles(
     val translation: TextStyle,
     val stage: TextStyle,
     val number: TextStyle,
+    /** A row of the syntax tree: the word in the text's font, a little smaller. */
+    val syntaxWord: TextStyle,
+    /** The role and the parse after the word, smaller and muted. */
+    val syntaxSmall: SpanStyle,
+    val syntaxHeader: TextStyle,
+    /** The colour of each syntactic role, in the text and in the tree. */
+    val roleColors: Map<Syntax.Role, Color>,
 )
 
 private val SECTION_TOP = 16.dp
@@ -134,6 +156,10 @@ private val SPEAKER_TOP = 10.dp
 private val ROW_GAP = 2.dp
 private val SEGMENT_GAP = 6.dp
 private val NUMBER_GAP = 12.dp
+private val SYNTAX_INDENT = 14.dp
+private val SYNTAX_HEADER_TOP = 8.dp
+private val SYNTAX_HEADER_HEIGHT = 28.dp
+private val SYNTAX_BOTTOM = 8.dp
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -162,7 +188,22 @@ fun ReaderScreen(
     var pageNotes by remember { mutableStateOf<List<NoteGroup>>(emptyList()) }
 
     val translation = data.translations.firstOrNull()
-    val rows = remember(data) { buildRows(data) }
+    val baseRows = remember(data) { buildRows(data) }
+    // The sentences whose syntax is shown in the text, by treebank sentence id. The tree of a
+    // sentence goes after its last line; its rows are built once and kept.
+    var openSentences by remember(data) { mutableStateOf<Set<String>>(emptySet()) }
+    val syntaxRowsCache = remember(data) { HashMap<String, List<ReaderRow>>() }
+    val lastLineOfSentence = remember(data) { lastLines(data) }
+    val rows = remember(baseRows, openSentences) {
+        if (openSentences.isEmpty()) baseRows
+        else withSyntax(baseRows, openSentences, lastLineOfSentence) { s -> syntaxRowsCache.getOrPut(s) { syntaxRows(data, repository, s) } }
+    }
+    fun toggleSentence(sentence: String) {
+        openSentences = if (sentence in openSentences) openSentences - sentence else openSentences + sentence
+    }
+    val selectedToken = remember(selectedTokenId, data) {
+        selectedTokenId?.let { id -> data.tokensByLine.values.asSequence().flatten().firstOrNull { it.id == id } }
+    }
 
     LaunchedEffect(selectedTokenId) {
         val id = selectedTokenId
@@ -171,9 +212,10 @@ fun ReaderScreen(
 
     val typography = MaterialTheme.typography
     val base = LocalTextStyle.current
+    val colors = MaterialTheme.colorScheme
     val family = settings.font.family()
     val size = settings.fontSize
-    val styles = remember(typography, base, family, size) { stylesFor(typography, base, family, size) }
+    val styles = remember(typography, base, colors, family, size) { stylesFor(typography, base, family, size, colors) }
 
     // Position to keep across re-pagination (rotation, mode change): the first Greek line on screen.
     var anchorN by remember { mutableStateOf(startLine) }
@@ -281,7 +323,7 @@ fun ReaderScreen(
             val fontResolver = LocalFontFamilyResolver.current
             val layoutDirection = LocalLayoutDirection.current
             val backgroundMeasurer = remember(fontResolver, density, layoutDirection) { TextMeasurer(fontResolver, density, layoutDirection, cacheSize = 0) }
-            val measureCache = remember(rows, styles, widthPx, numberColumnPx, settings.lineNumbers) { HashMap<ReaderRow, Measured>() }
+            val measureCache = remember(data, styles, widthPx, numberColumnPx, settings.lineNumbers) { HashMap<ReaderRow, Measured>() }
             LaunchedEffect(rows, widthPx, heightPx, styles, settings.lineNumbers, settings.fitTranslation, numberColumnPx) {
                 // after a pinch, the page the reader was previewing keeps its first row
                 val anchorRow = pinchAnchorRow
@@ -303,7 +345,7 @@ fun ReaderScreen(
                 pagerState.scrollToPage(target)
             }
             // Live preview during a pinch: only the current page, re-laid out at the previewed size.
-            val previewStyles = pinchSize?.let { size -> stylesFor(typography, base, family, (size + 0.5f).toInt()) }
+            val previewStyles = pinchSize?.let { size -> stylesFor(typography, base, family, (size + 0.5f).toInt(), colors) }
             val previewPage = if (previewStyles != null && pages.isNotEmpty()) {
                 val page = pages.getOrNull(pagerState.currentPage)
                 val first = page?.rows?.firstOrNull()
@@ -383,7 +425,14 @@ fun ReaderScreen(
                     HorizontalPager(state = pagerState, modifier = Modifier.fillMaxSize(), beyondViewportPageCount = 1) { index ->
                         val page = pages.getOrNull(index) ?: return@HorizontalPager
                         PageFrame(
-                            greek = { PageContent(page, styles, data, numberColumn, forcedColumn, onWord = { selectedTokenId = it }) },
+                            greek = {
+                                PageContent(
+                                    page, styles, data, numberColumn, forcedColumn, openSentences,
+                                    onWord = { selectedTokenId = it },
+                                    onSentence = { token -> token.sentence?.let { toggleSentence(it) } },
+                                    onCloseSyntax = { toggleSentence(it) },
+                                )
+                            },
                             english = if (translation == null) null else {
                                 { TranslationPage(pageSegments.getOrNull(index) ?: emptyList(), styles, showAnchors, Modifier.fillMaxSize()) }
                             },
@@ -395,7 +444,7 @@ fun ReaderScreen(
                         segmentsByPage(listOf(previewPage), translation.segments, data.lines).first()
                     } else emptyList()
                     PageFrame(
-                        greek = { PageContent(previewPage, previewStyles, data, numberColumn, forcedColumn, onWord = {}) },
+                        greek = { PageContent(previewPage, previewStyles, data, numberColumn, forcedColumn, openSentences, onWord = {}, onSentence = {}, onCloseSyntax = {}) },
                         english = if (translation == null) null else {
                             { TranslationPage(previewSegments, previewStyles, showAnchors, Modifier.fillMaxSize()) }
                         },
@@ -407,7 +456,15 @@ fun ReaderScreen(
     }
     }
 
-    wordInfo?.let { WordSheet(it, onDismiss = { selectedTokenId = null }) }
+    wordInfo?.let { info ->
+        val sentence = selectedToken?.sentence
+        WordSheet(
+            info,
+            onDismiss = { selectedTokenId = null },
+            syntaxLabel = if (sentence in openSentences) "Hide syntax" else "Show syntax",
+            onSyntax = if (sentence == null) null else { { toggleSentence(sentence); selectedTokenId = null } },
+        )
+    }
     pageNotesKind?.let { kind ->
         val sigla = remember(kind) { if (kind == NoteKind.APPARATUS) repository.document(data, "sigla") else null }
         PageNotesSheet(kind, pageNotes, sigla, onDismiss = { pageNotesKind = null })
@@ -442,6 +499,61 @@ private fun buildRows(data: WorkData): List<ReaderRow> {
         rows += ReaderRow.GreekLine(line)
     }
     return rows
+}
+
+/** The id of the line each sentence ends on. */
+private fun lastLines(data: WorkData): Map<String, Long> {
+    val out = HashMap<String, Long>()
+    for (line in data.lines) {
+        for (t in data.tokensByLine[line.id] ?: emptyList()) t.sentence?.let { out[it] = line.id }
+    }
+    return out
+}
+
+/** The rows with the syntax of the open sentences inserted after each sentence's last line. */
+private fun withSyntax(base: List<ReaderRow>, open: Set<String>, lastLine: Map<String, Long>, rowsFor: (String) -> List<ReaderRow>): List<ReaderRow> {
+    val out = ArrayList<ReaderRow>(base.size + open.size * 24)
+    for (row in base) {
+        out += row
+        if (row is ReaderRow.GreekLine) {
+            // sentence ids number the sentences in order, so sorting them keeps the text's order
+            for (s in open.filter { lastLine[it] == row.line.id }.sorted()) out += rowsFor(s)
+        }
+    }
+    return out
+}
+
+/** The syntax rows of a sentence: a header naming its lines, then its tree, each head before its dependents. */
+private fun syntaxRows(data: WorkData, repository: AnagnosisRepository, sentence: String): List<ReaderRow> {
+    val tree = repository.sentenceTree(data, sentence)
+    val linesById = data.lines.associateBy { it.id }
+    val lines = tree.nodes.mapNotNull { it.token }.mapNotNull { linesById[it.line_id] }
+    val first = lines.minByOrNull { it.ord } ?: return emptyList()
+    val last = lines.maxBy { it.ord }
+    val label = if (first.id == last.id) "line ${first.n}" else "lines ${first.n}–${last.n}"
+    val flat = tree.flatten()
+    val rows = ArrayList<ReaderRow>(flat.size + 1)
+    rows += ReaderRow.SyntaxHeader(sentence, label, last.n_int)
+    flat.forEachIndexed { i, (node, depth) -> rows += ReaderRow.SyntaxLine(sentence, node, depth, i == flat.lastIndex, last.n_int) }
+    return rows
+}
+
+/** What a row of the tree says: the word, its role in colour, its parse in small muted type. */
+private fun syntaxLineText(row: ReaderRow.SyntaxLine, styles: Styles): AnnotatedString = buildAnnotatedString {
+    val node = row.node
+    if (node.artificial) withStyle(SpanStyle(fontStyle = FontStyle.Italic)) { append(Syntax.displayForm(node)) }
+    else append(Syntax.displayForm(node))
+    val role = Syntax.describe(node.relation)
+    if (role.isNotEmpty()) {
+        append("  ")
+        val colour = Syntax.role(node.relation)?.let { styles.roleColors[it] }
+        withStyle(styles.syntaxSmall.copy(fontWeight = FontWeight.SemiBold, color = colour ?: styles.syntaxSmall.color)) { append(role) }
+    }
+    val morph = Morphology.short(node.postag)
+    if (morph.isNotEmpty()) {
+        append("  ")
+        withStyle(styles.syntaxSmall) { append(morph) }
+    }
 }
 
 /**
@@ -497,6 +609,12 @@ private fun paginate(
                 val fits = numbering == LineNumberMode.ALL || textWidth - layout.getLineRight(0) >= numberWidth
                 Measured(row, layout.size.height, fits)
             }
+            is ReaderRow.SyntaxHeader -> Measured(row, (SYNTAX_HEADER_TOP + SYNTAX_HEADER_HEIGHT).px())
+            is ReaderRow.SyntaxLine -> {
+                val indent = (SYNTAX_INDENT * row.depth).px()
+                val layout = measurer.measure(syntaxLineText(row, styles), styles.syntaxWord, constraints = Constraints(maxWidth = (textWidth - indent).coerceAtLeast(1)))
+                Measured(row, layout.size.height + if (row.last) SYNTAX_BOTTOM.px() else 0)
+            }
         }.also { cache?.put(row, it) }
         }
     }.toMutableList()
@@ -536,7 +654,7 @@ private fun paginate(
     }
 
     fun enHeight(row: ReaderRow) = (row as? ReaderRow.GreekLine)?.let { translationHeights[it.line.id] } ?: 0
-    fun isHeading(row: ReaderRow) = row is ReaderRow.Section || row is ReaderRow.Speaker
+    fun isHeading(row: ReaderRow) = row is ReaderRow.Section || row is ReaderRow.Speaker || row is ReaderRow.SyntaxHeader
 
     /** Cuts rows[from until to) into pages from the front. */
     fun forward(from: Int, to: Int): List<List<ReaderRow>> {
@@ -662,7 +780,7 @@ private fun translationHeights(
     return out
 }
 
-private fun stylesFor(typography: androidx.compose.material3.Typography, base: TextStyle, family: androidx.compose.ui.text.font.FontFamily, size: Int) = Styles(
+private fun stylesFor(typography: androidx.compose.material3.Typography, base: TextStyle, family: androidx.compose.ui.text.font.FontFamily, size: Int, colors: androidx.compose.material3.ColorScheme) = Styles(
     section = base.merge(typography.titleLarge.copy(fontFamily = family, fontSize = (size + 5).sp, lineHeight = (size + 9).sp)),
     subsection = base.merge(typography.titleSmall.copy(fontFamily = family, fontSize = (size - 1).sp, lineHeight = (size + 3).sp)),
     speaker = base.merge(typography.titleMedium.copy(fontFamily = family, fontSize = size.sp, lineHeight = (size + 4).sp, fontWeight = FontWeight.SemiBold)),
@@ -670,12 +788,71 @@ private fun stylesFor(typography: androidx.compose.material3.Typography, base: T
     translation = base.merge(TextStyle(fontFamily = family, fontSize = (size - 1).sp, lineHeight = ((size - 1) * 1.5f).sp)),
     stage = base.merge(TextStyle(fontFamily = family, fontSize = (size - 2).sp, lineHeight = ((size - 2) * 1.4f).sp, fontStyle = FontStyle.Italic)),
     number = base.merge(typography.labelSmall),
+    syntaxWord = base.merge(TextStyle(fontFamily = family, fontSize = (size - 1).sp, lineHeight = ((size - 1) * 1.4f).sp)),
+    syntaxSmall = SpanStyle(fontSize = (size - 4).sp, color = colors.onSurfaceVariant),
+    syntaxHeader = base.merge(typography.labelMedium),
+    roleColors = roleColors(dark = colors.background.luminance() < 0.5f),
+)
+
+/** One colour per syntactic role, legible on the light and on the dark backgrounds. */
+private fun roleColors(dark: Boolean): Map<Syntax.Role, Color> = if (dark) mapOf(
+    Syntax.Role.PREDICATE to Color(0xFFFF8A80),
+    Syntax.Role.SUBJECT to Color(0xFF82B1FF),
+    Syntax.Role.OBJECT to Color(0xFF9CCC65),
+    Syntax.Role.ATTRIBUTE to Color(0xFFFFB74D),
+    Syntax.Role.ADVERBIAL to Color(0xFFCE93D8),
+    Syntax.Role.COMPLEMENT to Color(0xFF80CBC4),
+) else mapOf(
+    Syntax.Role.PREDICATE to Color(0xFFB3261E),
+    Syntax.Role.SUBJECT to Color(0xFF1F5FBF),
+    Syntax.Role.OBJECT to Color(0xFF2E7D32),
+    Syntax.Role.ATTRIBUTE to Color(0xFFB26A00),
+    Syntax.Role.ADVERBIAL to Color(0xFF7B1FA2),
+    Syntax.Role.COMPLEMENT to Color(0xFF00796B),
 )
 
 @Composable
-private fun PageContent(page: Page, styles: Styles, data: WorkData, numberColumn: Dp, forcedColumn: Dp, onWord: (Long) -> Unit) {
+private fun PageContent(
+    page: Page,
+    styles: Styles,
+    data: WorkData,
+    numberColumn: Dp,
+    forcedColumn: Dp,
+    openSentences: Set<String>,
+    onWord: (Long) -> Unit,
+    onSentence: (Tokens) -> Unit,
+    onCloseSyntax: (String) -> Unit,
+) {
     for (row in page.rows) {
         when (row) {
+            is ReaderRow.SyntaxHeader -> Row(
+                Modifier.fillMaxWidth().padding(top = SYNTAX_HEADER_TOP, end = numberColumn).height(SYNTAX_HEADER_HEIGHT),
+                verticalAlignment = Alignment.CenterVertically,
+            ) {
+                Text("Syntax, ${row.label}", style = styles.syntaxHeader, color = MaterialTheme.colorScheme.primary, modifier = Modifier.weight(1f))
+                Box(Modifier.size(SYNTAX_HEADER_HEIGHT).clickable { onCloseSyntax(row.sentence) }, contentAlignment = Alignment.Center) {
+                    Icon(Icons.Filled.Close, contentDescription = "Hide the syntax", tint = MaterialTheme.colorScheme.outline, modifier = Modifier.size(18.dp))
+                }
+            }
+            is ReaderRow.SyntaxLine -> {
+                val token = row.node.token
+                val guide = MaterialTheme.colorScheme.outlineVariant
+                Row(
+                    Modifier.fillMaxWidth().padding(end = numberColumn)
+                        .then(if (token != null) Modifier.clickable { onWord(token.id) } else Modifier)
+                        .padding(bottom = if (row.last) SYNTAX_BOTTOM else 0.dp)
+                        .drawBehind {
+                            // a rule down from each ancestor, so that the depth can be followed
+                            for (d in 0 until row.depth) {
+                                val x = (SYNTAX_INDENT * d).toPx() + 3.dp.toPx()
+                                drawLine(guide, Offset(x, 0f), Offset(x, size.height), strokeWidth = 1.dp.toPx())
+                            }
+                        },
+                ) {
+                    Spacer(Modifier.width(SYNTAX_INDENT * row.depth))
+                    Text(syntaxLineText(row, styles), style = styles.syntaxWord, color = MaterialTheme.colorScheme.onBackground, modifier = Modifier.weight(1f))
+                }
+            }
             is ReaderRow.Section -> SectionHeader(row.section, styles)
             is ReaderRow.Speaker -> Text(
                 row.name,
@@ -689,7 +866,9 @@ private fun PageContent(page: Page, styles: Styles, data: WorkData, numberColumn
                 numberColumn = if (row in page.forced) forcedColumn else numberColumn,
                 data = data,
                 styles = styles,
+                openSentences = openSentences,
                 onWord = onWord,
+                onSentence = onSentence,
             )
         }
     }
@@ -714,25 +893,56 @@ private fun SectionHeader(section: Sections, styles: Styles) {
 }
 
 @Composable
-private fun GreekLineRow(line: Lines, number: String?, numberColumn: Dp, data: WorkData, styles: Styles, onWord: (Long) -> Unit) {
+private fun GreekLineRow(
+    line: Lines,
+    number: String?,
+    numberColumn: Dp,
+    data: WorkData,
+    styles: Styles,
+    openSentences: Set<String>,
+    onWord: (Long) -> Unit,
+    onSentence: (Tokens) -> Unit,
+) {
     val tokens = data.tokensByLine[line.id] ?: emptyList()
     // One tap handler per line, which finds the word from the tap position, is far cheaper than
     // a clickable link per word: a page holds a few hundred words, and slow tablets feel it.
     var layout by remember { mutableStateOf<TextLayoutResult?>(null) }
     val currentOnWord = rememberUpdatedState(onWord)
+    val currentOnSentence = rememberUpdatedState(onSentence)
+    val haptic = LocalHapticFeedback.current
+    // The words of a sentence whose syntax is shown take the colour of their role.
+    val text = remember(line, tokens, openSentences, styles) {
+        if (tokens.none { it.sentence in openSentences }) AnnotatedString(line.text) else buildAnnotatedString {
+            append(line.text)
+            for (t in tokens) {
+                if (t.sentence !in openSentences) continue
+                val colour = Syntax.role(t.relation)?.let { styles.roleColors[it] } ?: continue
+                addStyle(SpanStyle(color = colour), t.start.toInt(), t.end.toInt())
+            }
+        }
+    }
     Box(
         Modifier.fillMaxWidth().pointerInput(tokens) {
-            detectTapGestures { pos ->
-                val result = layout ?: return@detectTapGestures
+            fun tokenAt(pos: Offset): Tokens? {
+                val result = layout ?: return null
                 val lineIndex = result.getLineForVerticalPosition(pos.y)
                 // a tap in the blank space to the right of the words is not a tap on a word
-                if (pos.x > result.getLineRight(lineIndex) + 4.dp.toPx()) return@detectTapGestures
+                if (pos.x > result.getLineRight(lineIndex) + 4.dp.toPx()) return null
                 val offset = result.getOffsetForPosition(pos)
-                tokens.firstOrNull { offset >= it.start && offset < it.end }?.let { currentOnWord.value(it.id) }
+                return tokens.firstOrNull { offset >= it.start && offset < it.end }
             }
+            detectTapGestures(
+                onLongPress = { pos ->
+                    tokenAt(pos)?.let {
+                        haptic.performHapticFeedback(HapticFeedbackType.LongPress)
+                        currentOnSentence.value(it)
+                    }
+                },
+                onTap = { pos -> tokenAt(pos)?.let { currentOnWord.value(it.id) } },
+            )
         },
     ) {
-        Text(text = line.text, style = styles.greek, onTextLayout = { layout = it }, modifier = Modifier.fillMaxWidth().padding(end = numberColumn))
+        Text(text = text, style = styles.greek, onTextLayout = { layout = it }, modifier = Modifier.fillMaxWidth().padding(end = numberColumn))
         if (number != null) {
             Text(
                 number,

@@ -23,7 +23,15 @@ CREATE TABLE tokens (
     id INTEGER NOT NULL PRIMARY KEY, line_id INTEGER NOT NULL, ord INTEGER NOT NULL,
     start INTEGER NOT NULL, end INTEGER NOT NULL, form TEXT NOT NULL,
     lemma TEXT NOT NULL, lemma_key TEXT NOT NULL, postag TEXT NOT NULL,
-    relation TEXT, head INTEGER, sentence TEXT
+    relation TEXT, head INTEGER, sentence TEXT, word_id TEXT
+);
+
+-- Treebank nodes that are not words of the text (punctuation, omitted words); with the tokens
+-- they make up a sentence's dependency tree. head is a word_id within the sentence, 0 the root.
+CREATE TABLE sentence_nodes (
+    id INTEGER NOT NULL PRIMARY KEY, work_id INTEGER NOT NULL, sentence TEXT NOT NULL,
+    word_id INTEGER NOT NULL, form TEXT NOT NULL, lemma TEXT, postag TEXT NOT NULL,
+    relation TEXT, head INTEGER, artificial INTEGER NOT NULL
 );
 
 CREATE TABLE translations (
@@ -77,6 +85,9 @@ SELECT * FROM lines WHERE work_id = ? ORDER BY ord;
 selectTokensForWork:
 SELECT tokens.* FROM tokens JOIN lines ON lines.id = tokens.line_id
 WHERE lines.work_id = ? ORDER BY lines.ord, tokens.ord;
+
+selectNodesForWork:
+SELECT * FROM sentence_nodes WHERE work_id = ? ORDER BY sentence, word_id;
 
 selectTranslations:
 SELECT * FROM translations WHERE work_id = ? ORDER BY id;

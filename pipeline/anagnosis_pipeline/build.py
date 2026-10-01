@@ -17,7 +17,7 @@ from pathlib import Path
 
 from . import greek
 from .commentary import parse_commentary_md
-from .import_perseus import read_tokens
+from .import_perseus import read_syntax_nodes, read_tokens
 from .lexicon import Entry, parse_lsj, parse_middle_liddell
 from .textfmt import Line, Section, Speaker, Stage, parse_file
 
@@ -45,10 +45,19 @@ CREATE TABLE tokens (
     id INTEGER PRIMARY KEY, line_id INTEGER NOT NULL REFERENCES lines(id), ord INTEGER NOT NULL,
     start INTEGER NOT NULL, end INTEGER NOT NULL, form TEXT NOT NULL,
     lemma TEXT NOT NULL, lemma_key TEXT NOT NULL, postag TEXT NOT NULL DEFAULT '',
-    relation TEXT, head INTEGER, sentence TEXT
+    relation TEXT, head INTEGER, sentence TEXT, word_id TEXT
 );
 CREATE INDEX tokens_line ON tokens(line_id, ord);
 CREATE INDEX tokens_lemma ON tokens(lemma_key);
+-- Treebank nodes that are not words of the text: punctuation and artificial (elliptic) nodes.
+-- Together with tokens they make up the dependency tree of a sentence; head refers to a
+-- word_id within the sentence, 0 being the sentence root.
+CREATE TABLE sentence_nodes (
+    id INTEGER PRIMARY KEY, work_id INTEGER NOT NULL REFERENCES works(id), sentence TEXT NOT NULL,
+    word_id INTEGER NOT NULL, form TEXT NOT NULL, lemma TEXT, postag TEXT NOT NULL DEFAULT '',
+    relation TEXT, head INTEGER, artificial INTEGER NOT NULL DEFAULT 0
+);
+CREATE INDEX sentence_nodes_sentence ON sentence_nodes(work_id, sentence);
 
 CREATE TABLE translations (
     id INTEGER PRIMARY KEY, work_id INTEGER NOT NULL REFERENCES works(id), slug TEXT NOT NULL,
@@ -340,11 +349,18 @@ def build_work(db: sqlite3.Connection, work_dir: Path) -> set[str]:
             lemma_keys.add(key)
             lemmas[key] = lemma
             db.execute(
-                "INSERT INTO tokens (line_id, ord, start, end, form, lemma, lemma_key, postag, relation, head, sentence) VALUES (?,?,?,?,?,?,?,?,?,?,?)",
+                "INSERT INTO tokens (line_id, ord, start, end, form, lemma, lemma_key, postag, relation, head, sentence, word_id) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)",
                 (line_ids[n], int(row["ord"]), start, end, form, lemma, key, row["postag"], row["relation"] or None,
-                 int(row["head"]) if row["head"].isdigit() else None, row["sentence"] or None),
+                 int(row["head"]) if row["head"].isdigit() else None, row["sentence"] or None, row.get("word_id") or None),
             )
-    print(f"work {slug}: {len(line_ids)} lines, {sum(len(r) for r in tokens_by_line.values())} tokens, {len(lemma_keys)} lemmas")
+    nodes = read_syntax_nodes(work_dir / "syntax-nodes.tsv")
+    for row in nodes:
+        db.execute(
+            "INSERT INTO sentence_nodes (work_id, sentence, word_id, form, lemma, postag, relation, head, artificial) VALUES (?,?,?,?,?,?,?,?,?)",
+            (work_id, row["sentence"], int(row["word_id"]), row["form"], row["lemma"] or None, row["postag"],
+             row["relation"] or None, int(row["head"]) if row["head"].isdigit() else None, 1 if row["artificial"] else 0),
+        )
+    print(f"work {slug}: {len(line_ids)} lines, {sum(len(r) for r in tokens_by_line.values())} tokens, {len(lemma_keys)} lemmas, {len(nodes)} syntax nodes")
 
     last_line = max(line_ids, key=lambda n: line_n_parts(n))
     last_int, last_sub = line_n_parts(last_line)

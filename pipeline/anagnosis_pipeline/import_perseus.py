@@ -152,9 +152,11 @@ LEMMA_FIXES = {
 
 # Hand annotations for words the treebank does not cover (Storr's text differs from the
 # text the treebank was made from). Keyed by (line, word index in line).
+# Jebb reads βρέμουσι δʼ where the treebank's text has βρέμουσιν: the verb takes the treebank's
+# word 21 and the particle a new id, so that the sentence's syntax tree is complete.
 TOKEN_FIXES = {
-    ("591", 2): {"lemma": "βρέμω", "postag": "v3ppia---"},
-    ("591", 3): {"lemma": "δέ", "postag": "g--------"},
+    ("591", 2): {"lemma": "βρέμω", "postag": "v3ppia---", "relation": "PRED_CO", "head": "18", "sentence": "2900392", "word_id": "21"},
+    ("591", 3): {"lemma": "δέ", "postag": "g--------", "relation": "AuxY", "head": "21", "sentence": "2900392", "word_id": "26"},
 }
 
 
@@ -275,6 +277,61 @@ def read_tokens(path: Path) -> list[dict]:
         return list(csv.DictReader(f, delimiter="\t"))
 
 
+# ---------------------------------------------------------------- syntax nodes
+
+# Tokens of the treebank that are not words of the text, yet take part in the syntax: the
+# punctuation (a comma often heads a coordination) and the artificial nodes that stand for
+# an omitted word (an elided verb, "[0]"). They complete the trees drawn from tokens.tsv.
+SYNTAX_NODE_COLUMNS = ["sentence", "word_id", "form", "lemma", "postag", "relation", "head", "artificial"]
+
+
+def read_treebank_nodes(path: Path) -> list[dict]:
+    """The treebank's punctuation and artificial nodes, in document order."""
+    tree = etree.parse(str(path))
+    out = []
+    for sent in tree.iter("sentence"):
+        for w in sent.iter("word"):
+            form = greek.nfc(w.get("form", ""))
+            artificial = bool(w.get("artificial") or w.get("insertion_id"))
+            if not artificial and greek.is_word(form):
+                continue
+            out.append(
+                {
+                    "sentence": sent.get("id"),
+                    "word_id": w.get("id"),
+                    "form": form,
+                    "lemma": greek.nfc(w.get("lemma", "")) if not artificial else "",
+                    "postag": w.get("postag", "") if not artificial else "",
+                    "relation": w.get("relation", ""),
+                    "head": w.get("head", ""),
+                    "artificial": "1" if artificial else "",
+                }
+            )
+    return out
+
+
+def write_syntax_nodes(path: Path, rows: list[dict]) -> None:
+    with path.open("w", encoding="utf-8", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=SYNTAX_NODE_COLUMNS, delimiter="\t", lineterminator="\n")
+        w.writeheader()
+        w.writerows(rows)
+
+
+def read_syntax_nodes(path: Path) -> list[dict]:
+    if not path.exists():
+        return []
+    with path.open(encoding="utf-8", newline="") as f:
+        return list(csv.DictReader(f, delimiter="\t"))
+
+
+def import_syntax_nodes(sources: Path, texts: Path) -> None:
+    """Write texts/antigone/syntax-nodes.tsv alone; it touches no hand-edited file."""
+    out = texts / "antigone" / "syntax-nodes.tsv"
+    rows = read_treebank_nodes(sources / "antigone.tb.xml")
+    write_syntax_nodes(out, rows)
+    print(f"wrote {out}: {len(rows)} nodes ({sum(1 for r in rows if r['artificial'])} artificial)")
+
+
 # ---------------------------------------------------------------- entry point
 
 def import_antigone(sources: Path, texts: Path) -> None:
@@ -319,6 +376,7 @@ def import_antigone(sources: Path, texts: Path) -> None:
     print(f"wrote {out/'tokens.tsv'}: {len(rows)} words, {missing} without lemma, {len(warnings)} warnings")
     for w in warnings:
         print("  " + w, file=sys.stderr)
+    import_syntax_nodes(sources, texts)
 
     from .commentary import import_jebb_commentary
 

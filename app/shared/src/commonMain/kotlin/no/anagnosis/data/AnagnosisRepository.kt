@@ -3,6 +3,7 @@ package no.anagnosis.data
 import no.anagnosis.DriverFactory
 import no.anagnosis.db.AnagnosisDatabase
 import no.anagnosis.db.Documents
+import no.anagnosis.db.Tokens
 import no.anagnosis.inflate
 import no.anagnosis.lexdb.LexiconDatabase
 
@@ -48,6 +49,7 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
         val work = q.selectWorkBySlug(slug).executeAsOne()
         val lines = q.selectLines(work.id).executeAsList()
         val tokens = q.selectTokensForWork(work.id).executeAsList().groupBy { it.line_id }
+        val nodes = q.selectNodesForWork(work.id).executeAsList().groupBy { it.sentence }
         val sections = q.selectSections(work.id).executeAsList()
             .filter { it.first_line_id != null }
             .groupBy { it.first_line_id!! }
@@ -63,7 +65,7 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
             while (i < starts.size && starts[i] <= line.n_int) { mark = true; i++ }
             if (mark) withNotes += line.id
         }
-        return WorkData(slug, work, lines, tokens, sections, translations, commentaries, withNotes)
+        return WorkData(slug, work, lines, tokens, nodes, sections, translations, commentaries, withNotes)
     }
 
     fun lookupWord(data: WorkData, tokenId: Long): WordInfo? {
@@ -79,8 +81,17 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
         val glossary = q.selectGlossaryByKey(token.lemma_key).executeAsList()
             .map { Entry(it.lexicon_slug, it.lexicon_title, it.headword, it.homograph, it.html) }
         val short = q.selectShortDefinition(token.lemma_key).executeAsOneOrNull()?.definition
-        return WordInfo(token.form, token.lemma, Morphology.describe(token.postag), short, glossary + rows)
+        val syntax = token.sentence?.let { Syntax.roleOf(sentenceTree(data, it), token) }
+        return WordInfo(token.form, token.lemma, Morphology.describe(token.postag), short, glossary + rows, syntax)
     }
+
+    /** The tokens of a sentence in text order; a sentence can run over several lines and share a line with another. */
+    fun sentenceTokens(data: WorkData, sentence: String): List<Tokens> =
+        data.lines.asSequence().flatMap { data.tokensByLine[it.id] ?: emptyList() }.filter { it.sentence == sentence }.toList()
+
+    /** The dependency tree of a sentence, from its tokens and the treebank's extra nodes. */
+    fun sentenceTree(data: WorkData, sentence: String): SyntaxTree =
+        Syntax.build(sentence, sentenceTokens(data, sentence), data.nodesBySentence[sentence] ?: emptyList())
 
     /**
      * Notes of the given kind for a page: every note that starts on the page (or on a skipped

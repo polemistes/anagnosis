@@ -16,6 +16,7 @@ def main(argv: list[str] | None = None) -> int:
     sub = ap.add_subparsers(dest="cmd", required=True)
     sub.add_parser("fetch", help="download upstream sources into pipeline/sources/")
     sub.add_parser("import", help="convert upstream sources into the editable files in texts/")
+    sub.add_parser("import-syntax", help="regenerate texts/antigone/syntax-nodes.tsv (treebank punctuation and elliptic nodes) without touching the other files")
     sub.add_parser("check", help="validate texts/ (line numbers, token alignment, lexicon coverage)")
     m = sub.add_parser("merge-apparatus", help="merge transcription batches into texts/antigone/commentary-jebb-apparatus.md")
     m.add_argument("--batches", default=str(ROOT / "pipeline" / "build" / "apparatus"))
@@ -32,6 +33,9 @@ def main(argv: list[str] | None = None) -> int:
     elif args.cmd == "import":
         from .import_perseus import import_antigone
         import_antigone(SOURCES, TEXTS)
+    elif args.cmd == "import-syntax":
+        from .import_perseus import import_syntax_nodes
+        import_syntax_nodes(SOURCES, TEXTS)
     elif args.cmd == "check":
         from .check import check_all
         return check_all(TEXTS, SOURCES)

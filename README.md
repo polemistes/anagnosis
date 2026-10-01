@@ -22,6 +22,7 @@ free of charge: the code under the GPL (see LICENSE), the texts and data under C
     python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
     .venv/bin/python -m anagnosis_pipeline fetch    # download upstream sources into pipeline/sources/
     .venv/bin/python -m anagnosis_pipeline import   # (re)generate texts/ from upstream; overwrites hand edits
+    .venv/bin/python -m anagnosis_pipeline import-syntax  # regenerate only texts/antigone/syntax-nodes.tsv
     .venv/bin/python -m anagnosis_pipeline check    # validate texts/
     .venv/bin/python -m anagnosis_pipeline build    # write data/lexicon.sqlite (shared dictionaries) and data/<text>.sqlite
     .venv/bin/python -m unittest discover -s tests  # run the pipeline tests

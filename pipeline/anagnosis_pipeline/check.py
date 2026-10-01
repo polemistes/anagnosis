@@ -8,7 +8,7 @@ from pathlib import Path
 
 from . import greek
 from .commentary import parse_commentary_md
-from .import_perseus import read_tokens
+from .import_perseus import read_syntax_nodes, read_tokens
 from .textfmt import Line, parse_file
 
 
@@ -57,6 +57,22 @@ def check_work(work_dir: Path, lexicon_keys: dict[str, set[str]] | None, sources
                 no_lemma += 1
     if no_lemma:
         print(f"  WARN {no_lemma} tokens without lemma"); warnings += 1
+
+    # syntax: every head points at a word of its sentence or at a node of syntax-nodes.tsv
+    nodes = read_syntax_nodes(work_dir / "syntax-nodes.tsv")
+    ids: dict[str, set[str]] = collections.defaultdict(set)
+    for t in tokens:
+        for i in t.get("word_id", "").split("+"):
+            if i:
+                ids[t["sentence"]].add(i)
+    for nd in nodes:
+        ids[nd["sentence"]].add(nd["word_id"])
+    dangling = [t for t in tokens if t.get("head") not in ("", "0") and t["head"] not in ids[t["sentence"]]]
+    dangling += [nd for nd in nodes if nd["head"] not in ("", "0") and nd["head"] not in ids[nd["sentence"]]]
+    if dangling:
+        print(f"  WARN {len(dangling)} syntax heads point at no word of their sentence, e.g. "
+              + ", ".join(f"{t.get('line', 'node')}:{t['form']}" for t in dangling[:8])); warnings += 1
+    print(f"  syntax: {len(nodes)} nodes beyond the words (punctuation, omitted words)")
 
     # translations
     for path in sorted(work_dir.glob("*-*.txt")):

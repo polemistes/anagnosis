@@ -51,6 +51,19 @@ Tab-separated with a header row: `line ord form lemma postag relation head sente
 If you change the words of a line in `grc.txt`, update the matching rows here. `check`
 fails when the words of a line and its token rows disagree.
 
+## `syntax-nodes.tsv`
+
+The treebank's tokens that are not words of the text but take part in the syntax: the
+punctuation (a comma often heads a coordination) and the artificial nodes that stand for an
+omitted word (an elided verb, written `[0]`). Together with the `relation`, `head`, `sentence`
+and `word_id` columns of `tokens.tsv` they make up the dependency tree of each sentence,
+which the app shows when a word is pressed and held.
+
+Tab-separated with a header row: `sentence word_id form lemma postag relation head artificial`.
+`head` refers to a `word_id` within the sentence, `0` being the root; `artificial` is `1` for
+an omitted word. The file is written by `import` and, on its own, by `import-syntax`, which
+touches no other file. `check` warns about heads that point at no word of their sentence.
+
 ## Commentary files
 
     # key: value          header (title, author, lang, source, license)

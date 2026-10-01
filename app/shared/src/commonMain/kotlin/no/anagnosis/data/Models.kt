@@ -4,6 +4,7 @@ import no.anagnosis.db.Commentaries
 import no.anagnosis.db.Commentary_notes
 import no.anagnosis.db.Lines
 import no.anagnosis.db.Sections
+import no.anagnosis.db.Sentence_nodes
 import no.anagnosis.db.Tokens
 import no.anagnosis.db.Translation_segments
 import no.anagnosis.db.Translations
@@ -27,6 +28,8 @@ class WorkData(
     val work: Works,
     val lines: List<Lines>,
     val tokensByLine: Map<Long, List<Tokens>>,
+    /** The treebank's punctuation and omitted-word nodes, by sentence id (see [Syntax]). */
+    val nodesBySentence: Map<String, List<Sentence_nodes>>,
     val sectionsByFirstLine: Map<Long, List<Sections>>,
     val translations: List<TranslationData>,
     val commentaries: List<Commentaries>,
@@ -45,8 +48,18 @@ class Entry(
     val html: String,
 )
 
-/** What the word sheet shows: a headword (or a token's form), its parse if any, gloss and entries. */
-class WordInfo(val form: String, val lemma: String, val morphology: String, val shortDefinition: String?, val entries: List<Entry>)
+/**
+ * What the word sheet shows: a headword (or a token's form), its parse if any, gloss and entries.
+ * [syntax] is the word's role in its sentence ("subject of φέρει"), when the treebank gives one.
+ */
+class WordInfo(
+    val form: String,
+    val lemma: String,
+    val morphology: String,
+    val shortDefinition: String?,
+    val entries: List<Entry>,
+    val syntax: String? = null,
+)
 
 
 /** One heading of the page-wide Apparatus / Commentary views: a line or range with its notes. */

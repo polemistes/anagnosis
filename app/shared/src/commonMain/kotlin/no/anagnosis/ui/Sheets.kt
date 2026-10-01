@@ -3,6 +3,8 @@ package no.anagnosis.ui
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
+import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.itemsIndexed
@@ -40,9 +42,13 @@ import no.anagnosis.data.WordInfo
 import kotlinx.coroutines.launch
 import no.anagnosis.db.Documents
 
-@OptIn(ExperimentalMaterial3Api::class)
+/**
+ * The word popup. In the reader [onSyntax] shows or hides the syntax of the word's sentence,
+ * labelled [syntaxLabel]; the search screen has no sentence and leaves both null.
+ */
+@OptIn(ExperimentalMaterial3Api::class, ExperimentalLayoutApi::class)
 @Composable
-fun WordSheet(info: WordInfo, onDismiss: () -> Unit) {
+fun WordSheet(info: WordInfo, onDismiss: () -> Unit, syntaxLabel: String? = null, onSyntax: (() -> Unit)? = null) {
     val state = rememberModalBottomSheetState(skipPartiallyExpanded = true)
     val glossary = info.entries.filter { it.lexiconSlug.endsWith("-glossary") }
     val buttons = listOf("ml" to "Middle Liddell", "lsj" to "LSJ")
@@ -60,15 +66,18 @@ fun WordSheet(info: WordInfo, onDismiss: () -> Unit) {
             if (subtitle.isNotEmpty()) {
                 Text(subtitle, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
+            info.syntax?.let {
+                Text(it.replaceFirstChar { c -> c.uppercase() }, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            }
             Spacer(Modifier.height(12.dp))
             when {
                 info.shortDefinition != null -> Text(info.shortDefinition, style = MaterialTheme.typography.bodyLarge)
                 glossary.isNotEmpty() -> glossary.forEach { HtmlText(it.html) }
                 info.entries.isEmpty() -> Text("No dictionary entry found.", style = MaterialTheme.typography.bodyMedium)
             }
-            if (buttons.isNotEmpty()) {
+            if (buttons.isNotEmpty() || onSyntax != null) {
                 Spacer(Modifier.height(16.dp))
-                Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                     for ((slug, label) in buttons) {
                         val toggle = { open = if (open == slug) null else slug }
                         if (open == slug) {
@@ -76,6 +85,9 @@ fun WordSheet(info: WordInfo, onDismiss: () -> Unit) {
                         } else {
                             OutlinedButton(onClick = toggle) { Text(label) }
                         }
+                    }
+                    if (onSyntax != null) {
+                        OutlinedButton(onClick = onSyntax) { Text(syntaxLabel ?: "Syntax") }
                     }
                 }
             }
