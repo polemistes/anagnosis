@@ -138,10 +138,9 @@ LEXICONS = {
 
 
 def line_n_parts(n: str) -> tuple[int, str]:
-    m = re.match(r"^(\d+)([a-z]?)$", n)
-    if not m:
-        raise ValueError(f"bad line number {n!r}")
-    return int(m.group(1)), m.group(2)
+    from .linenum import parts
+
+    return parts(n)
 
 
 # ------------------------------------------------------------------ markdown
@@ -156,7 +155,7 @@ def md_to_html(md: str) -> str:
             out.append(f"<h{level}>{html.escape(m.group(2).strip(), quote=False)}</h{level}>")
             continue
         s = html.escape(p, quote=False)
-        s = re.sub(r"\[([^\]]+)\]\(#([0-9a-z-]+)\)", r'<a href="note:\2">\1</a>', s)
+        s = re.sub(r"\[([^\]]+)\]\(#([0-9a-z.-]+)\)", r'<a href="note:\2">\1</a>', s)
         s = re.sub(r"(?<!\\)\*\*(.+?)(?<!\\)\*\*", r"<b>\1</b>", s)
         s = re.sub(r"(?<!\\)\*(.+?)(?<!\\)\*", r"<i>\1</i>", s)
         s = s.replace("\\*", "*").replace("\\_", "_")

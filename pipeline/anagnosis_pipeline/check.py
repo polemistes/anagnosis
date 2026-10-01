@@ -13,8 +13,12 @@ from .textfmt import Line, parse_file
 
 
 def _n_parts(n: str) -> tuple[int, str]:
-    m = re.match(r"^(\d+)([a-z]?)$", n)
-    return (int(m.group(1)), m.group(2)) if m else (-1, n)
+    from .linenum import parts
+
+    try:
+        return parts(n)
+    except ValueError:
+        return (-1, n)
 
 
 def check_work(work_dir: Path, lexicon_keys: dict[str, set[str]] | None, sources: Path) -> tuple[int, int]:

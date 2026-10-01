@@ -7,6 +7,7 @@ from pathlib import Path
 
 from . import greek
 from .commentary import parse_commentary_md
+from .linenum import N_PATTERN, parts
 from .textfmt import parse_file
 
 HEADER = """# title: Critical notes
@@ -24,7 +25,7 @@ def merge(batch_dir: Path, out: Path) -> int:
     for path in sorted(batch_dir.glob("batch-*.md")):
         current = None
         for raw in path.read_text(encoding="utf-8").splitlines():
-            m = re.match(r"^##\s+(\d+[a-z]?(?:-\d+[a-z]?)?)\s*$", raw)
+            m = re.match(rf"^##\s+({N_PATTERN}(?:-{N_PATTERN})?)\s*$", raw)
             if m:
                 current = m.group(1)
                 if current not in entries:
@@ -63,14 +64,17 @@ def verify(apparatus: Path, grc: Path, show_accents: bool = False) -> int:
     doc = parse_file(grc)
     lines = doc.lines
     by_n = {l.n: i for i, l in enumerate(lines)}
-    ints = sorted({int(re.match(r"\d+", l.n).group()) for l in lines})
+    ints = sorted({parts(l.n)[0] for l in lines})
+    by_int = {}
+    for l in lines:
+        by_int.setdefault(parts(l.n)[0], l.n)
     meta, notes = parse_commentary_md(apparatus)
     problems = 0
     accents = 0
     prev_int = 0
     for note in notes:
         n = note["from"]
-        n_int = int(re.match(r"\d+", n).group())
+        n_int = parts(n)[0]
         if n_int < prev_int:
             print(f"ORDER  {n}: out of order (after {prev_int})")
             problems += 1
@@ -78,14 +82,14 @@ def verify(apparatus: Path, grc: Path, show_accents: bool = False) -> int:
         idx = by_n.get(n)
         if idx is None:
             later = [i for i in ints if i >= n_int]
-            idx = by_n.get(str(later[0])) if later else None
+            idx = by_n.get(by_int[later[0]]) if later else None
         if idx is None:
             print(f"NOLINE {n}: no such line")
             problems += 1
             continue
-        to_int = int(re.match(r"\d+", note["to"]).group())
+        to_int = parts(note["to"])[0]
         end = idx
-        while end + 1 < len(lines) and int(re.match(r"\d+", lines[end + 1].n).group()) <= to_int:
+        while end + 1 < len(lines) and parts(lines[end + 1].n)[0] <= to_int:
             end += 1
         window = " ".join(l.text for l in lines[max(0, idx - 2) : end + 4])
         window_loose = _loose(window)

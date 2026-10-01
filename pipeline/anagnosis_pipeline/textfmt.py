@@ -5,7 +5,8 @@
     == kind [label]         section, level = number of '=' minus 1 (== is level 1)
     @ Speaker               speaker change (empty name closes the speech)
     !<TAB>text              stage direction
-    <n><TAB>text            a line; n is digits optionally followed by a letter (161b)
+    <n><TAB>text            a line; n is digits optionally followed by a letter (161b),
+                            or book.line for an epic (1.12)
 
 For translations, <n> is the first Greek line the paragraph corresponds to.
 Blank lines are ignored. A document is a flat, ordered list of items.
@@ -16,7 +17,7 @@ import re
 from dataclasses import dataclass, field
 from pathlib import Path
 
-LINE_N = re.compile(r"^(\d+)([a-z]?)$")
+from .linenum import LINE_N, parts as _n_parts
 
 
 @dataclass
@@ -43,10 +44,7 @@ class Line:
 
     @property
     def sort_key(self) -> tuple[int, str]:
-        m = LINE_N.match(self.n)
-        if not m:
-            raise ValueError(f"bad line number {self.n!r}")
-        return int(m.group(1)), m.group(2)
+        return _n_parts(self.n)
 
 
 Item = Section | Speaker | Stage | Line

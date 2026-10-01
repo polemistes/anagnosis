@@ -14,6 +14,14 @@ FILES = {
     "MorpheusUnicode.xml.zip": f"{RAW}/gcelano/LemmatizedAncientGreekXML/master/Morpheus/MorpheusUnicode.xml.zip",
     "logeion-shortdefs.txt": f"{RAW}/helmadik/shortdefs/master/shortdefsGreekEnglishLogeion",
     "antigone.tb.xml": f"{RAW}/PerseusDL/treebank_data/master/v2.1/Greek/texts/tlg0011.tlg002.perseus-grc2.tb.xml",
+    # Allen's Oxford Odyssey, second edition (1917, 1919), in two printings; archive.org dates
+    # them 1908 and 1912, but both title pages read "editio altera". The UConn copy is clean;
+    # the Toronto copy has a student's notes on a few pages but an OCR that reads the Latin.
+    **{
+        f"scans/{ident}.{ext}": f"https://archive.org/download/{ident}/{ident}{suffix}"
+        for ident in ("homeriopera03home", "homeriopera04home", "homerioperarecog03homeuoft", "homerioperarecog04homeuoft")
+        for ext, suffix in (("pdf", ".pdf"), ("txt", "_djvu.txt"))
+    },
     **{
         f"lsj/grc.lsj.perseus-eng{i}.xml": f"{RAW}/PerseusDL/lexica/master/CTS_XML_TEI/perseus/pdllex/grc/lsj/grc.lsj.perseus-eng{i}.xml"
         for i in range(1, 28)
@@ -23,6 +31,9 @@ HOPPER = "https://www.perseus.tufts.edu/hopper/opensource/downloads/texts/hopper
 HOPPER_FILES = {
     "Classics/LSJ/opensource/ml.xml": "middle-liddell.xml",
     "Classics/Sophocles/opensource/jebb.soph.ant_eng.xml": "jebb-antigone-commentary.xml",
+    "Classics/Homer/opensource/hom.od_gk.xml": "odyssey.perseus-gk.xml",
+    "Classics/Homer/opensource/hom.od_eng.xml": "odyssey.murray-eng.xml",
+    "Classics/Homer/opensource/monro.hom.od_eng.xml": "odyssey-merry-monro-commentary.xml",
 }
 
 
@@ -55,6 +66,8 @@ def fetch(sources: Path) -> None:
         _download(HOPPER, tarball)
         with tarfile.open(tarball) as tf:
             for member, out in HOPPER_FILES.items():
+                if (sources / out).exists():
+                    continue
                 f = tf.extractfile(member)
                 if f is None:
                     raise SystemExit(f"{member} not found in {tarball}")

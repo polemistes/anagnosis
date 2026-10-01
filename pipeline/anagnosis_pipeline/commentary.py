@@ -18,6 +18,7 @@ from pathlib import Path
 from lxml import etree
 
 from . import greek
+from .linenum import N_PATTERN, complete
 from .tei_p4 import load as load_p4
 
 
@@ -145,11 +146,11 @@ def parse_commentary_md(path: Path) -> tuple[dict[str, str], list[dict]]:
             k, _, v = raw[1:].partition(":")
             meta[k.strip()] = v.strip()
             continue
-        m = re.match(r"^## (\d+[a-z]?)(?:-(\d+[a-z]?))?(?:\s+(ff?\.))?\s*$", raw)
+        m = re.match(rf"^## ({N_PATTERN})(?:-({N_PATTERN}))?(?:\s+(ff?\.))?\s*$", raw)
         if m:
             flush()
             label = m.group(1) + (f"-{m.group(2)}" if m.group(2) else "") + (f" {m.group(3)}" if m.group(3) else "")
-            current = {"n": label, "from": m.group(1), "to": m.group(2) or m.group(1)}
+            current = {"n": label, "from": m.group(1), "to": complete(m.group(2), m.group(1)) if m.group(2) else m.group(1)}
             buf = []
             continue
         if current is not None:

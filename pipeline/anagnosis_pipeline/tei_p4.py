@@ -16,6 +16,8 @@ _EXTRA = {
     "macr": "¯", "dagger": "†", "sect": "§", "lsquo": "‘", "rsquo": "’", "ldquo": "“",
     "rdquo": "”", "mdash": "—", "ndash": "–", "hellip": "…", "amp": "&amp;", "lt": "&lt;",
     "gt": "&gt;", "quot": "&quot;", "apos": "&apos;",
+    "consi": "j",  # consonantal i, declared in the Merry-Monro commentary's DOCTYPE
+    "ucaron": "ǔ", "rdot": "ṛ", "mnull": "m̥",  # Sanskrit and Indo-European notation
     # Perseus boilerplate entities (header only)
     "responsibility": "", "fund.AnnCPB": "", "fund.NEH": "", "Perseus.publish": "",
 }
