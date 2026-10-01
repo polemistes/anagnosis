@@ -14,6 +14,7 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -43,6 +44,15 @@ import kotlinx.coroutines.launch
 import no.anagnosis.db.Documents
 
 /**
+ * Keeps a sheet below the status bar. Material's sheet pads its content for the status bar by
+ * as much as the sheet overlaps it, so a sheet whose content is just short of the screen grows
+ * as it rises and rises as it grows, hopping between the two; with the bar kept outside the
+ * sheet altogether its height no longer depends on its position.
+ */
+@Composable
+private fun sheetModifier(): Modifier = Modifier.statusBarsPadding()
+
+/**
  * The word popup. In the reader [onSyntax] opens the syntax of the word's sentence; the search
  * screen has no sentence and leaves it null.
  */
@@ -56,7 +66,7 @@ fun WordSheet(info: WordInfo, onDismiss: () -> Unit, onSyntax: (() -> Unit)? = n
     // Without a gloss there is nothing to read on the sheet itself: open the only or the shorter dictionary at once.
     val initial = if (info.shortDefinition == null && glossary.isEmpty()) buttons.firstOrNull()?.first else null
     var open by remember { mutableStateOf(initial) }
-    ModalBottomSheet(onDismissRequest = onDismiss, sheetState = state) {
+    ModalBottomSheet(onDismissRequest = onDismiss, sheetState = state, modifier = sheetModifier()) {
         Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 20.dp, vertical = 8.dp)) {
             Text(info.form, style = MaterialTheme.typography.headlineSmall)
             val subtitle = buildString {
@@ -110,7 +120,7 @@ fun WordSheet(info: WordInfo, onDismiss: () -> Unit, onSyntax: (() -> Unit)? = n
 fun PageNotesSheet(kind: NoteKind, entries: List<NoteGroup>, sigla: Documents?, onDismiss: () -> Unit) {
     val state = rememberModalBottomSheetState(skipPartiallyExpanded = true)
     var showSigla by remember { mutableStateOf(false) }
-    ModalBottomSheet(onDismissRequest = onDismiss, sheetState = state) {
+    ModalBottomSheet(onDismissRequest = onDismiss, sheetState = state, modifier = sheetModifier()) {
         Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 20.dp, vertical = 8.dp)) {
             Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
                 Text(kind.label, style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary, modifier = Modifier.weight(1f))
@@ -167,7 +177,7 @@ fun DocumentSheet(document: Documents, onDismiss: () -> Unit) {
     val sections = remember(document.id) { splitSections(document.html) }
     val listState = rememberLazyListState()
     val scope = rememberCoroutineScope()
-    ModalBottomSheet(onDismissRequest = onDismiss, sheetState = state) {
+    ModalBottomSheet(onDismissRequest = onDismiss, sheetState = state, modifier = sheetModifier()) {
         LazyColumn(state = listState, modifier = Modifier.fillMaxWidth(), contentPadding = PaddingValues(horizontal = 20.dp, vertical = 8.dp)) {
             item { Text(document.title, style = MaterialTheme.typography.titleLarge, modifier = Modifier.padding(bottom = 8.dp)) }
             if (sections.count { it.title != null } > 3) {
@@ -210,7 +220,7 @@ fun DocumentSheet(document: Documents, onDismiss: () -> Unit) {
 @Composable
 fun DocumentsSheet(documents: List<Pair<String, String>>, onOpen: (String) -> Unit, onDismiss: () -> Unit) {
     val state = rememberModalBottomSheetState(skipPartiallyExpanded = false)
-    ModalBottomSheet(onDismissRequest = onDismiss, sheetState = state) {
+    ModalBottomSheet(onDismissRequest = onDismiss, sheetState = state, modifier = sheetModifier()) {
         Column(Modifier.fillMaxWidth().padding(horizontal = 20.dp, vertical = 8.dp)) {
             Text("About this edition", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
             Spacer(Modifier.height(8.dp))
