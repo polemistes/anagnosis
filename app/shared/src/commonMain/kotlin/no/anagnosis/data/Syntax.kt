@@ -19,6 +19,7 @@ class SyntaxNode(
     val artificial: Boolean,
 ) {
     val isWord get() = token != null
+    val isPunctuation get() = token == null && !artificial
     /** The treebank's bare label, e.g. "SBJ_CO". */
     val label get() = relation ?: ""
 }
@@ -60,10 +61,21 @@ class SyntaxTree(val sentence: String, val nodes: List<SyntaxNode>) {
     /** The node that stands for a token of the text. */
     fun nodeFor(token: Tokens): SyntaxNode? = nodes.firstOrNull { it.token?.id == token.id }
 
-    /** Every node with its depth, each head before its dependents, dependents in text order. */
+    /**
+     * Whether a node is shown: words and omitted words always; a punctuation mark only when
+     * something depends on it (a comma heading a coordination or an apposition stands for
+     * "and" or "that is"), since the treebank attaches the rest merely for completeness.
+     */
+    fun isShown(node: SyntaxNode): Boolean = !node.isPunctuation || children(node).isNotEmpty()
+
+    /** The nodes that are shown, in text order. */
+    val shownNodes: List<SyntaxNode> get() = nodes.filter { isShown(it) }
+
+    /** Every shown node with its depth, each head before its dependents, dependents in text order. */
     fun flatten(): List<Pair<SyntaxNode, Int>> {
         val out = ArrayList<Pair<SyntaxNode, Int>>(nodes.size)
         fun visit(n: SyntaxNode, depth: Int) {
+            if (!isShown(n)) return
             out += n to depth
             for (c in children(n)) visit(c, depth + 1)
         }

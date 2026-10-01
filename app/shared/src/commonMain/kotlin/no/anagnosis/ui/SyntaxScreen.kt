@@ -200,7 +200,8 @@ private fun DependencyDiagram(tree: SyntaxTree, family: FontFamily, onWord: (Lon
         var offset by remember(layout, viewW, viewH) { mutableStateOf(clampOffset(Offset(margin, 0f), zoom)) }
         Canvas(
             Modifier.fillMaxSize()
-                .pointerInput(layout) {
+                // keyed on the size too: after a rotation the handlers would otherwise keep the old size and state
+                .pointerInput(layout, viewW, viewH) {
                     detectTransformGestures { centroid, pan, gestureZoom, _ ->
                         val newZoom = (zoom * gestureZoom).coerceIn(MIN_ZOOM, MAX_ZOOM)
                         // zoom about the fingers: the point under the centroid stays put
@@ -209,7 +210,7 @@ private fun DependencyDiagram(tree: SyntaxTree, family: FontFamily, onWord: (Lon
                         offset = clampOffset(scaled + pan, newZoom)
                     }
                 }
-                .pointerInput(layout) {
+                .pointerInput(layout, viewW, viewH) {
                     detectTapGestures(
                         onTap = { pos -> layout.tokenAt((pos - offset) / zoom)?.node?.token?.let { onWord(it.id) } },
                         onDoubleTap = { zoom = initialZoom(); offset = clampOffset(Offset(margin, 0f), zoom) },
@@ -313,14 +314,15 @@ private fun layoutDiagram(tree: SyntaxTree, measurer: TextMeasurer, styles: Diag
  * would have been read, rather than at the end of the sentence where the treebank keeps it.
  */
 private fun diagramOrder(tree: SyntaxTree): List<SyntaxNode> {
+    val shown = tree.shownNodes
     val position = HashMap<SyntaxNode, Double>()
-    for (n in tree.nodes) position[n] = n.id.toDouble()
-    for (n in tree.nodes) {
+    for (n in shown) position[n] = n.id.toDouble()
+    for (n in shown) {
         if (!n.artificial) continue
         val first = tree.children(n).filter { it.isWord || it.artificial }.minByOrNull { it.id } ?: continue
         position[n] = first.id - 0.5
     }
-    return tree.nodes.sortedBy { position[it] }
+    return shown.sortedBy { position[it] }
 }
 
 // ------------------------------------------------------------------ the tree

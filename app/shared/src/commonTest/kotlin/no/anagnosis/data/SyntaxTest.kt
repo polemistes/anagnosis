@@ -30,10 +30,23 @@ class SyntaxTest {
     fun treeHangsWordsUnderTheirHeadsInTextOrder() {
         val tree = Syntax.build("s1", tokens, extra)
         val flat = tree.flatten().map { (n, d) -> "${"  ".repeat(d)}${Syntax.displayForm(n)}" }
+        // the comma hangs on the omitted verb but nothing depends on it, so it is not shown
         assertEquals(
-            listOf("[…]", "  κάρα", "    ὦ", "    κοινὸν", "    αὐτάδελφον", "    Ἰσμήνης", "  ,", "  ἆρ"),
+            listOf("[…]", "  κάρα", "    ὦ", "    κοινὸν", "    αὐτάδελφον", "    Ἰσμήνης", "  ἆρ"),
             flat,
         )
+    }
+
+    @Test
+    fun aCommaThatHeadsACoordinationIsShown() {
+        val verb = token("1", "λέγω", "PRED", 0, "v1spia---")
+        val a = token("2", "ταῦτα", "OBJ_CO", 3)
+        val b = token("4", "ἐκεῖνα", "OBJ_CO", 3)
+        val comma = node(3, ",", "COORD", 1)
+        val stop = node(5, ".", "AuxK", 0)
+        val tree = Syntax.build("s1", listOf(verb, a, b), listOf(comma, stop))
+        assertEquals(listOf("λέγω", ",", "ταῦτα", "ἐκεῖνα"), tree.flatten().map { it.first.form })
+        assertEquals(listOf("λέγω", "ταῦτα", ",", "ἐκεῖνα"), tree.shownNodes.map { it.form })
     }
 
     @Test
