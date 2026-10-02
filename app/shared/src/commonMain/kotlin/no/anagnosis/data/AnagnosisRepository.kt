@@ -65,8 +65,14 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
             while (i < starts.size && starts[i] <= line.n_int) { mark = true; i++ }
             if (mark) withNotes += line.id
         }
-        val bookNumbered = q.selectMeta("line_numbers").executeAsOneOrNull() == "book.line"
-        return WorkData(slug, work, lines, tokens, nodes, sections, translations, commentaries, withNotes, bookNumbered)
+        val numbering = q.selectMeta("line_numbers").executeAsOneOrNull()
+        return WorkData(
+            slug, work, lines, tokens, nodes, sections, translations, commentaries, withNotes,
+            bookNumbered = numbering == "book.line",
+            stephanus = numbering == "stephanus",
+            prose = q.selectMeta("layout").executeAsOneOrNull() == "prose",
+            automaticSyntax = q.selectMeta("syntax").executeAsOneOrNull() == "automatic",
+        )
     }
 
     fun lookupWord(data: WorkData, tokenId: Long): WordInfo? {
@@ -89,6 +95,7 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
             .map { Entry(it.lexicon_slug, it.lexicon_title, it.headword, it.homograph, it.html) }
         val short = q.selectShortDefinition(token.lemma_key).executeAsOneOrNull()?.definition
         val syntax = token.sentence?.let { Syntax.roleOf(sentenceTree(data, it), token) }
+            ?.let { if (data.automaticSyntax) "$it (automatic)" else it }
         return WordInfo(token.form, token.lemma, Morphology.describe(token.postag), short, glossary + rows, syntax)
     }
 
@@ -115,7 +122,7 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
         for ((key, group) in notes.groupBy { it.n }) {
             val first = group.first()
             val heading = if (first.to_n_int > first.from_n_int) "Lines ${key.replace("-", "–")}" else "Line $key"
-            val lineText = data.lines.firstOrNull { it.n_int >= first.from_n_int }?.text
+            val lineText = data.lines.firstOrNull { it.n_int >= first.from_n_int }?.text?.let(::displayText)
             groups += NoteGroup(heading, lineText, group)
         }
         return groups
@@ -219,3 +226,6 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
 
     }
 }
+
+/** A line as a reader sees it: without the verse mark ("| ") or a speaker label's braces. */
+fun displayText(text: String): String = text.removePrefix("| ").replace(Regex("\\{([^}]*)\\}"), "$1")

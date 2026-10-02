@@ -11,7 +11,8 @@ APOSTROPHE_LIKE = "ʼ’'̓᾿᾽"  # ʼ ’ ' ̓ ᾿ ᾽
 
 # Word characters: Greek letters plus the elision apostrophe. Everything else splits.
 # A speaker's name printed in a prose text is written in braces, {ΑΠΟΛ.}: one token, not a word.
-_TOKEN = re.compile(r"\{[^}]*\}|[ʼ᾽᾿]?[Ͱ-Ͽἀ-῿̀-ͯ]+[ʼ᾽᾿]?|[^\s]")
+# a word may hold an editor's addition: Ἀγάθων⟨ος⟩
+_TOKEN = re.compile(r"\{[^}]*\}|[ʼ᾽᾿]?[Ͱ-Ͽἀ-῿̀-ͯ]+(?:⟨[Ͱ-Ͽἀ-῿̀-ͯ]+⟩[Ͱ-Ͽἀ-῿̀-ͯ]*)*[ʼ᾽᾿]?|[^\s]")
 
 
 def nfc(s: str) -> str:
@@ -25,7 +26,7 @@ def nfd(s: str) -> str:
 def strip_diacritics(s: str) -> str:
     """Base letters only, lowercased, apostrophes removed. Used for fuzzy comparison."""
     return "".join(
-        c for c in nfd(s).lower() if not unicodedata.combining(c) and c not in APOSTROPHE_LIKE
+        c for c in nfd(s).lower() if not unicodedata.combining(c) and c not in APOSTROPHE_LIKE and c not in "⟨⟩"
     )
 
 

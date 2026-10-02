@@ -17,5 +17,15 @@
     "description": "The Greek text of T. W. Allen's Oxford edition with its critical apparatus, A. T. Murray's translation, the commentary of Merry, Riddell and Monro, and the Liddell–Scott dictionaries. Tap any word for its meaning and form.",
     "edition": "Homeri Opera III-IV, ed. T. W. Allen, 2nd ed., Oxford 1917-1919",
     "app_id": "no.anagnosis.odyssey"
+  },
+  {
+    "slug": "symposium",
+    "title": "Συμπόσιον",
+    "author": "Πλάτων",
+    "title_en": "Symposium",
+    "author_en": "Plato",
+    "description": "The Greek text of John Burnet's Oxford edition with its critical apparatus, Benjamin Jowett's translation, and R. G. Bury's commentary and introduction, with the Liddell–Scott dictionaries. Tap any word for its meaning and form. The analysis of each sentence's syntax is automatic (GLAUx) and has not been checked by hand.",
+    "edition": "Platonis Opera II, ed. J. Burnet, Oxford 1901 (corrected printing 1910)",
+    "app_id": "no.anagnosis.symposium"
   }
 ]

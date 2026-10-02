@@ -27,7 +27,8 @@ result with git before committing.
     @ Speaker               speaker change
     !<TAB>text              stage direction
     <n><TAB>text            a line of text; n = line number, digits plus optional letter (161b),
-                            or book.line for an epic (1.12, 1.93a)
+                            book.line for an epic (1.12, 1.93a), or Stephanus page, section
+                            and line for Plato (172a1)
 
 The line number and the text are separated by a single TAB. Line numbers must be unique
 and increasing. In translations, `<n>` is the first Greek line the paragraph corresponds to,
@@ -35,6 +36,11 @@ and the paragraph runs until the next paragraph begins.
 
 Editorial marks in the Greek: `⟨…⟩` for editorial additions, `[…]` for deletions.
 Elision is written with U+02BC MODIFIER LETTER APOSTROPHE (ʼ), never a straight quote.
+
+Prose (a header `# layout: prose`) is shown as running paragraphs: `@ ` with no name begins a
+paragraph, a speaker's name printed in the text is written in braces where it stands
+(`{ΑΠΟΛ.} Δοκῶ μοι`), and a line of verse quoted in the prose begins with `| `. With
+`# syntax: automatic` the syntax view says that the analysis is a parser's, not checked by hand.
 
 ## `tokens.tsv`
 
@@ -144,6 +150,26 @@ Riddell (books 1–12) and Monro (books 13–24), also from Perseus.
 text (Murray's). Where Allen reads differently the word keeps its place in the treebank's
 sentence, and its lemma and parse come from the analyser; `merge-odyssey` lists those words in
 `pipeline/build/odyssey-review.tsv` for checking by hand. Lines are numbered book.line.
+
+## The Symposium (`texts/symposium/`)
+
+The Greek text is John Burnet's Oxford edition (*Platonis Opera* II, 1901, printing of 1910 and
+later), with his apparatus criticus in `commentary-burnet-apparatus.md` and his sigla in
+`sigla.md`. Burnet's line numbers (172a1: Stephanus page, section, line within the section) and
+his apparatus exist only in print, so the pages were transcribed from the Internet Archive scan
+`platonisopera02platuoft` (with `operarecognovitb02platuoft`, the 1910 printing, for the
+apparatus); the transcription and its brief are in `pipeline/transcriptions/symposium/`, checked
+word for word against the Perseus text of Burnet, and `merge-symposium` builds the files here.
+
+* Lemmas, morphology and syntax (`tokens.tsv`, `syntax-nodes.tsv`): GLAUx (Alek Keersmaekers,
+  github.com/alekkeersmaekers/glaux), CC BY-SA 4.0. GLAUx is an automatic annotation (lemmas about
+  99% right, morphology 97%, syntax about 80%); the app says so on the syntax page.
+* Translation (`eng-jowett.txt`): B. Jowett, *The Dialogues of Plato*, 3rd ed. (1892), from the
+  proofread Wikisource transcription. Jowett marks only the Stephanus pages; the sections within a
+  page are placed at the sentence end nearest to where they fall in proportion to the Greek.
+* Commentary (`commentary-bury.md`) and introduction (`introduction.md`): R. G. Bury, *The
+  Symposium of Plato* (1909), Perseus, CC BY-SA 3.0 US. Each note stands at the line where its
+  lemma is found in Burnet's text, or at its section's first line where Bury's text differs.
 
 ## Other documents (`sigla.md`, `introduction.md`, `appendix.md`)
 

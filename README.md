@@ -13,10 +13,10 @@ free of charge: the code under the GPL (see LICENSE), the texts and data under C
 
     texts/       the texts, translations, commentaries and word annotations, as editable plain files
     pipeline/    Python pipeline: fetches upstream sources, imports them into texts/, builds the SQLite bundle
-    pipeline/transcriptions/   page-by-page transcriptions of printed editions (Allen's Odyssey)
+    pipeline/transcriptions/   page-by-page transcriptions of printed editions (Allen's Odyssey, Burnet's Symposium)
     data/        build output: the SQLite bundle shipped with the app (not committed)
     app/         the Android apps (Kotlin Multiplatform, Compose): the reader (androidApp) with Antigone,
-                 and one small app per text sold separately (odysseyApp), which hands its text to the reader
+                 and one small app per text sold separately (odysseyApp, symposiumApp), which hands its text to the reader
 
 ## Building the data bundle
 
@@ -34,6 +34,16 @@ The Odyssey has commands of its own:
     .venv/bin/python -m anagnosis_pipeline import-odyssey         # texts/odyssey/ from Perseus and the treebank (Perseus text as a draft)
     .venv/bin/python -m anagnosis_pipeline prepare-odyssey-pages  # page images and drafts for transcribing Allen's edition
     .venv/bin/python -m anagnosis_pipeline merge-odyssey          # Allen's text and apparatus from the transcription; re-aligns the treebank
+
+So has the Symposium:
+
+    .venv/bin/python -m anagnosis_pipeline prepare-symposium-pages        # page images and drafts for transcribing Burnet's edition
+    .venv/bin/python -m anagnosis_pipeline check-symposium-batch FILE...  # check transcription batches against the Perseus text
+    .venv/bin/python -m anagnosis_pipeline merge-symposium                # texts/symposium/: Burnet's text and apparatus, GLAUx, Jowett, Bury
+
+The word analyser's forms come from running Morpheus over the open Perseus corpus:
+
+    .venv/bin/python -m anagnosis_pipeline build-morpheus-forms  # pipeline/build/morpheus-analyses.tsv.gz (needs Morpheus built in pipeline/sources/morpheus)
     .venv/bin/python -m unittest discover -s tests  # run the pipeline tests
 
 See [texts/README.md](texts/README.md) for the file formats.
@@ -41,7 +51,7 @@ See [texts/README.md](texts/README.md) for the file formats.
 ## Texts sold as separate apps
 
 The reader (`no.anagnosis.reader`) comes with Antigone. Every further text is a paid app of its
-own (the Odyssey: `no.anagnosis.odyssey`) that carries the text's database. The reader looks for
+own (the Odyssey: `no.anagnosis.odyssey`; the Symposium: `no.anagnosis.symposium`) that carries the text's database. The reader looks for
 apps that answer the action `no.anagnosis.action.TEXT` and are signed with its own key, copies
 their text in, and removes it again when the app is uninstalled. On Google Play the text apps
 must therefore be signed with the same app signing key as the reader: when creating such an
@@ -54,7 +64,8 @@ app in Play Console, choose to use the reader's app signing key.
   Copyright (C) 2026 Robert Emil Berge.
 * Data (`texts/`, `data/`): Creative Commons Attribution-ShareAlike 4.0, see [DATA-LICENSE](DATA-LICENSE).
   The data is derived from the Perseus Digital Library (Tufts University), the Ancient Greek
-  Dependency Treebank and Logeion; see [texts/README.md](texts/README.md) for the individual sources.
+  Dependency Treebank, GLAUx, Wikisource and Logeion, and from transcriptions of public-domain
+  editions; see [texts/README.md](texts/README.md) for the individual sources.
 
 The Anagnosis name and app icon are trademarks of the author and are not covered by these
 licences. Builds made by others must not use them.

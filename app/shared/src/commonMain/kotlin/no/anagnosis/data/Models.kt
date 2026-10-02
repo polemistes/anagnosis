@@ -39,6 +39,12 @@ class WorkData(
     val linesWithNotes: Set<Long>,
     /** An epic cited by book and line (1.12): n_int is book * 1000 + line. */
     val bookNumbered: Boolean = false,
+    /** Prose cited by Stephanus page, section and line (172a1): n_int is page * 1000 + section * 100 + line. */
+    val stephanus: Boolean = false,
+    /** Prose: the lines are shown as flowing paragraphs, not one under the other. */
+    val prose: Boolean = false,
+    /** The syntax was made by a parser and not checked by hand (shown on the syntax page). */
+    val automaticSyntax: Boolean = false,
 ) {
     /** The books of an epic in order (empty for a play): number, label and first and last line. */
     val books: List<Book> by lazy {
@@ -49,15 +55,32 @@ class WorkData(
     }
 
     /** The number of a line as printed in the margin: within its book for an epic. */
-    fun lineLabel(nInt: Long, sub: String = ""): String = if (bookNumbered) "${nInt % BOOK}$sub" else "$nInt$sub"
+    fun lineLabel(nInt: Long, sub: String = ""): String = when {
+        bookNumbered -> "${nInt % BOOK}$sub"
+        stephanus -> stephanusLabel(nInt)
+        else -> "$nInt$sub"
+    }
 
-    /** The full reference of a line: 1.12 for an epic, 12 for a play. */
-    fun citation(nInt: Long, sub: String = ""): String = if (bookNumbered) "${nInt / BOOK}.${nInt % BOOK}$sub" else "$nInt$sub"
+    /** The full reference of a line: 1.12 for an epic, 12 for a play, 172a1 for Plato. */
+    fun citation(nInt: Long, sub: String = ""): String = when {
+        bookNumbered -> "${nInt / BOOK}.${nInt % BOOK}$sub"
+        stephanus -> stephanusLabel(nInt)
+        else -> "$nInt$sub"
+    }
+
+    /** The Stephanus section a line belongs to (172a), or null for other numbering. */
+    fun stephanusSection(nInt: Long): String? =
+        if (!stephanus) null else "${nInt / BOOK}${SECTIONS.getOrElse(((nInt % BOOK) / 100).toInt()) { '?' }}"
 
     fun bookOf(nInt: Long): Int = (nInt / BOOK).toInt()
 
     companion object {
         const val BOOK = 1000L
+        const val SECTIONS = "abcde"
+
+        /** 172001 -> "172a1" */
+        fun stephanusLabel(nInt: Long): String =
+            "${nInt / BOOK}${SECTIONS.getOrElse(((nInt % BOOK) / 100).toInt()) { '?' }}${nInt % 100}"
     }
 }
 

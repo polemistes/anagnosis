@@ -49,7 +49,15 @@ def book_of(n: str) -> str | None:
 
 
 def complete(to: str, frm: str) -> str:
-    """The end of a range written short: '7' after '1.5' means '1.7'."""
+    """The end of a range written short: '7' after '1.5' means '1.7'; after '172a3', '5' means
+    '172a5' and 'b2' means '172b2'."""
+    m = STEPHANUS.match(frm)
+    if m:
+        if re.fullmatch(r"\d+", to):
+            return f"{m.group(1)}{m.group(2)}{to}"
+        if re.fullmatch(r"[a-e]\d+", to):
+            return f"{m.group(1)}{to}"
+        return to
     if "." not in to and book_of(frm):
         return f"{book_of(frm)}.{to}"
     return to

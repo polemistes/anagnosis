@@ -23,6 +23,7 @@ def main(argv: list[str] | None = None) -> int:
     cb.add_argument("files", nargs="+")
     sub.add_parser("build-morpheus-forms", help="run Morpheus over the open corpora: pipeline/build/morpheus-analyses.tsv.gz for the analyser")
     sub.add_parser("prepare-symposium-pages", help="page images and drafts for transcribing Burnet's Symposium (pipeline/build/symposium-pages/)")
+    sub.add_parser("merge-symposium", help="texts/symposium/ from the transcription (pipeline/transcriptions/symposium/), GLAUx, Jowett and Bury")
     csb = sub.add_parser("check-symposium-batch", help="check Symposium transcription batch files")
     csb.add_argument("files", nargs="+")
     sub.add_parser("import-syntax", help="regenerate texts/antigone/syntax-nodes.tsv (treebank punctuation and elliptic nodes) without touching the other files")
@@ -64,6 +65,10 @@ def main(argv: list[str] | None = None) -> int:
                 print("  " + p)
             bad += len(problems)
         return 1 if bad else 0
+    elif args.cmd == "merge-symposium":
+        from .symposium_merge import merge as merge_symposium
+        return 1 if merge_symposium(ROOT / "pipeline" / "transcriptions" / "symposium", ROOT / "pipeline" / "build" / "symposium-pages",
+                                    TEXTS, SOURCES, DATA / "lexicon.sqlite", ROOT / "pipeline" / "build") else 0
     elif args.cmd == "check-symposium-batch":
         from .symposium_merge import check_batch as check_symposium
         bad = 0

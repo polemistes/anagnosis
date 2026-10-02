@@ -97,7 +97,7 @@ private enum class SyntaxView(val label: String) { DIAGRAM("Diagram"), TREE("Tre
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun SyntaxScreen(tree: SyntaxTree, label: String, family: FontFamily, onWord: (Long) -> Unit, onBack: () -> Unit) {
+fun SyntaxScreen(tree: SyntaxTree, label: String, family: FontFamily, onWord: (Long) -> Unit, onBack: () -> Unit, automatic: Boolean = false) {
     var view by remember { mutableStateOf(SyntaxView.DIAGRAM) }
     Scaffold(
         topBar = {
@@ -119,12 +119,23 @@ fun SyntaxScreen(tree: SyntaxTree, label: String, family: FontFamily, onWord: (L
             )
         },
     ) { padding ->
-        Box(Modifier.padding(padding).fillMaxSize()) {
-            when (view) {
-                SyntaxView.DIAGRAM -> DependencyDiagram(tree, family, onWord, Modifier.fillMaxSize())
-                SyntaxView.TREE -> Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(horizontal = 20.dp, vertical = 12.dp)) {
-                    SyntaxTreeView(tree, family, onWord)
-                    Spacer(Modifier.padding(bottom = 32.dp))
+        Column(Modifier.padding(padding).fillMaxSize()) {
+            if (automatic) {
+                // a parser's analysis, which the reader should not take for an editor's
+                Text(
+                    "Automatic analysis (GLAUx), not checked by hand: expect mistakes, above all in the structure.",
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    modifier = Modifier.fillMaxWidth().background(MaterialTheme.colorScheme.surfaceVariant).padding(horizontal = 16.dp, vertical = 6.dp),
+                )
+            }
+            Box(Modifier.weight(1f).fillMaxWidth()) {
+                when (view) {
+                    SyntaxView.DIAGRAM -> DependencyDiagram(tree, family, onWord, Modifier.fillMaxSize())
+                    SyntaxView.TREE -> Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(horizontal = 20.dp, vertical = 12.dp)) {
+                        SyntaxTreeView(tree, family, onWord)
+                        Spacer(Modifier.padding(bottom = 32.dp))
+                    }
                 }
             }
         }

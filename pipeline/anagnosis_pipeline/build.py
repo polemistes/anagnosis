@@ -19,6 +19,7 @@ from . import greek
 from .commentary import parse_commentary_md
 from .import_perseus import read_syntax_nodes, read_tokens
 from .lexicon import Entry, parse_lsj, parse_middle_liddell
+from .linenum import STEPHANUS
 from .textfmt import Line, Section, Speaker, Stage, parse_file
 
 SCHEMA_VERSION = 1
@@ -384,6 +385,13 @@ def build_work(db: sqlite3.Connection, work_dir: Path) -> set[str]:
     # an epic is cited by book and line; the app shows the line within the book
     if any("." in n for n in line_ids):
         db.execute("INSERT OR REPLACE INTO meta VALUES ('line_numbers', 'book.line')")
+    # prose is cited by Stephanus page, section and line (172a1)
+    elif line_ids and all(STEPHANUS.match(n) for n in line_ids):
+        db.execute("INSERT OR REPLACE INTO meta VALUES ('line_numbers', 'stephanus')")
+    # prose is shown as paragraphs; an automatic syntax is labelled as such
+    for key in ("layout", "syntax"):
+        if m.get(key):
+            db.execute("INSERT OR REPLACE INTO meta VALUES (?, ?)", (key, m[key]))
 
     last_line = max(line_ids, key=lambda n: line_n_parts(n))
     last_int, last_sub = line_n_parts(last_line)

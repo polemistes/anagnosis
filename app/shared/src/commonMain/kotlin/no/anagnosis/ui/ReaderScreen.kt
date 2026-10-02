@@ -64,6 +64,7 @@ import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.platform.LocalHapticFeedback
 import androidx.compose.ui.platform.LocalFontFamilyResolver
 import androidx.compose.ui.platform.LocalLayoutDirection
+import androidx.compose.ui.text.ParagraphStyle
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.TextLayoutResult
 import androidx.compose.ui.text.TextMeasurer
@@ -80,6 +81,9 @@ import androidx.compose.ui.unit.Constraints
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.compose.foundation.layout.offset
+import androidx.compose.ui.unit.em
+import androidx.compose.ui.text.AnnotatedString
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ensureActive
 import kotlinx.coroutines.launch
@@ -132,6 +136,9 @@ private class Styles(
     val translation: TextStyle,
     val stage: TextStyle,
     val number: TextStyle,
+    /** Prose: a paragraph's first line is indented; a paragraph continued from the page before is not. */
+    val prose: TextStyle,
+    val proseContinued: TextStyle,
 )
 
 private val SECTION_TOP = 16.dp
@@ -140,6 +147,8 @@ private val SPEAKER_TOP = 10.dp
 private val ROW_GAP = 2.dp
 private val SEGMENT_GAP = 6.dp
 private val NUMBER_GAP = 12.dp
+/** The space above a paragraph of prose. */
+private val PARAGRAPH_GAP = 6.dp
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -333,7 +342,10 @@ fun ReaderScreen(
             val widthPx = with(density) { columnWidth.roundToPx() }
             val heightPx = with(density) { (maxHeight - vertical * 2).roundToPx() }
             // With numbers on every line, reserve a column for them so the text wraps around it.
-            val numberColumnPx = if (settings.lineNumbers == LineNumberMode.ALL) {
+            // Prose keeps a narrower column for its section marks (172, b, c ...) unless they are hidden.
+            val numberColumnPx = if (data.prose) {
+                if (settings.lineNumbers != LineNumberMode.NONE) measurer.measure("000", styles.number).size.width + with(density) { NUMBER_GAP.roundToPx() } else 0
+            } else if (settings.lineNumbers == LineNumberMode.ALL) {
                 measurer.measure("0000", styles.number).size.width + with(density) { NUMBER_GAP.roundToPx() }
             } else 0
             val numberColumn = with(density) { numberColumnPx.toDp() }
@@ -355,7 +367,7 @@ fun ReaderScreen(
                     val enHeights = if (settings.fitTranslation && translation != null) {
                         translationHeights(bookSegments, bookLines, backgroundMeasurer, styles, widthPx, density, data::lineLabel)
                     } else emptyMap()
-                    paginate(rows, backgroundMeasurer, styles, widthPx - numberColumnPx, heightPx, density, settings.lineNumbers, enHeights, anchorIndex, cache, { data.lineLabel(it.n_int, it.n_sub) }) { ensureActive() }
+                    paginate(rows, backgroundMeasurer, styles, widthPx - numberColumnPx, heightPx, density, settings.lineNumbers, enHeights, anchorIndex, cache, { data.lineLabel(it.n_int, it.n_sub) }, data.prose) { ensureActive() }
                 }
                 measureCache.putAll(cache)
                 pages = computed
@@ -380,7 +392,7 @@ fun ReaderScreen(
                     } else emptyMap()
                     // only as many rows as could possibly fit on one page, so the preview stays cheap
                     val endIdx = minOf(rows.size, startIdx + 120)
-                    paginate(rows.subList(startIdx, endIdx), measurer, previewStyles, widthPx - numberColumnPx, heightPx, density, settings.lineNumbers, enHeights, label = { data.lineLabel(it.n_int, it.n_sub) }).firstOrNull()
+                    paginate(rows.subList(startIdx, endIdx), measurer, previewStyles, widthPx - numberColumnPx, heightPx, density, settings.lineNumbers, enHeights, label = { data.lineLabel(it.n_int, it.n_sub) }, prose = data.prose).firstOrNull()
                 } else null
             } else null
             // Two-finger pinch changes the text size; one finger is left to the pager. The page
@@ -459,6 +471,7 @@ fun ReaderScreen(
                                     page, styles, data, numberColumn, forcedColumn,
                                     onWord = { selectedTokenId = it },
                                     onSentence = { token -> syntaxSentence = token.sentence },
+                                    showMarks = settings.lineNumbers != LineNumberMode.NONE,
                                 )
                             },
                             english = if (translation == null) null else {
@@ -472,7 +485,7 @@ fun ReaderScreen(
                         segmentsByPage(listOf(previewPage), bookSegments, bookLines).first()
                     } else emptyList()
                     PageFrame(
-                        greek = { PageContent(previewPage, previewStyles, data, numberColumn, forcedColumn, onWord = {}, onSentence = {}) },
+                        greek = { PageContent(previewPage, previewStyles, data, numberColumn, forcedColumn, onWord = {}, onSentence = {}, showMarks = settings.lineNumbers != LineNumberMode.NONE) },
                         english = if (translation == null) null else {
                             { TranslationPage(previewSegments, previewStyles, showAnchors, Modifier.fillMaxSize(), data::lineLabel) }
                         },
@@ -487,7 +500,7 @@ fun ReaderScreen(
         val tree = remember(sentence, data) { repository.sentenceTree(data, sentence) }
         val label = remember(tree, data) { sentenceLabel(tree, data) }
         Box(Modifier.fillMaxSize()) {
-            SyntaxScreen(tree, label, family, onWord = { selectedTokenId = it }, onBack = { syntaxSentence = null })
+            SyntaxScreen(tree, label, family, onWord = { selectedTokenId = it }, onBack = { syntaxSentence = null }, automatic = data.automaticSyntax)
         }
         PlatformBackHandler { syntaxSentence = null }
     }
@@ -598,6 +611,7 @@ private fun paginate(
     anchorIndex: Int? = null,
     cache: MutableMap<ReaderRow, Measured>? = null,
     label: (Lines) -> String = { it.n },
+    prose: Boolean = false,
     checkActive: () -> Unit = {},
 ): List<Page> {
     if (widthPx <= 0 || heightPx <= 0) return emptyList()
@@ -605,6 +619,10 @@ private fun paginate(
     val textWidth = widthPx
     val constraints = Constraints(maxWidth = textWidth)
     val numberWidth = measurer.measure("0000", styles.number).size.width + NUMBER_GAP.px()
+    // Prose: each line's height is its share of its paragraph, measured as a whole. A page that
+    // ends inside a paragraph starts the rest on a new line, so a line's height is kept in reserve.
+    val proseHeights = if (prose) proseLineHeights(rows, measurer, styles, textWidth, PARAGRAPH_GAP.px()) else emptyMap()
+    val pageHeight = if (prose) heightPx - measurer.measure("Α", styles.prose).size.height else heightPx
 
     val measured: MutableList<Measured> = rows.map { row ->
         cache?.get(row) ?: run {
@@ -617,7 +635,7 @@ private fun paginate(
             }
             is ReaderRow.Speaker ->
                 Measured(row, measurer.measure(row.name, styles.speaker, constraints = constraints).size.height + SPEAKER_TOP.px() + ROW_GAP.px())
-            is ReaderRow.GreekLine -> {
+            is ReaderRow.GreekLine -> if (prose) Measured(row, proseHeights[row.line.id] ?: 0, false) else {
                 val layout = measurer.measure(row.line.text, styles.greek, constraints = constraints)
                 // In the all-lines mode the caller has already reserved a column for the numbers.
                 val fits = numbering == LineNumberMode.ALL || textWidth - layout.getLineRight(0) >= numberWidth
@@ -636,6 +654,7 @@ private fun paginate(
     fun lineAt(k: Int) = measured[greekIdx[k]].row as ReaderRow.GreekLine
     fun fitsAt(k: Int) = measured[greekIdx[k]].numberFits
     for ((k, i) in greekIdx.withIndex()) {
+        if (prose) break  // prose shows its section marks in the margin instead
         val row = lineAt(k)
         when (numbering) {
             LineNumberMode.NONE -> {}
@@ -676,7 +695,7 @@ private fun paginate(
             val heading = isHeading(m.row) && i + 1 < to
             val needed = if (heading) m.height + measured[i + 1].height else m.height
             val neededEn = enHeight(m.row) + (if (heading) enHeight(measured[i + 1].row) else 0)
-            if (current.isNotEmpty() && (used + needed > heightPx || usedEn + neededEn > heightPx)) {
+            if (current.isNotEmpty() && (used + needed > pageHeight || usedEn + neededEn > heightPx)) {
                 pages += current; current = mutableListOf(); used = 0; usedEn = 0
                 continue
             }
@@ -695,7 +714,7 @@ private fun paginate(
         var i = to - 1
         while (i >= 0) {
             val m = measured[i]
-            if (current.isNotEmpty() && (used + m.height > heightPx || usedEn + enHeight(m.row) > heightPx)) {
+            if (current.isNotEmpty() && (used + m.height > pageHeight || usedEn + enHeight(m.row) > heightPx)) {
                 pages += current.toList(); current = ArrayDeque(); used = 0; usedEn = 0
                 continue
             }
@@ -797,6 +816,8 @@ private fun stylesFor(typography: androidx.compose.material3.Typography, base: T
     translation = base.merge(TextStyle(fontFamily = family, fontSize = (size - 1).sp, lineHeight = ((size - 1) * 1.5f).sp)),
     stage = base.merge(TextStyle(fontFamily = family, fontSize = (size - 2).sp, lineHeight = ((size - 2) * 1.4f).sp, fontStyle = FontStyle.Italic)),
     number = base.merge(typography.labelSmall),
+    prose = base.merge(TextStyle(fontFamily = family, fontSize = size.sp, lineHeight = (size * 1.5f).sp, textIndent = TextIndent(firstLine = (size * 1.5f).sp))),
+    proseContinued = base.merge(TextStyle(fontFamily = family, fontSize = size.sp, lineHeight = (size * 1.5f).sp)),
 )
 
 @Composable
@@ -808,7 +829,12 @@ private fun PageContent(
     forcedColumn: Dp,
     onWord: (Long) -> Unit,
     onSentence: (Tokens) -> Unit,
+    showMarks: Boolean = true,
 ) {
+    if (data.prose) {
+        ProsePage(page, styles, data, numberColumn, showMarks, onWord, onSentence)
+        return
+    }
     for (row in page.rows) {
         when (row) {
             is ReaderRow.Section -> SectionHeader(row.section, styles)
@@ -1002,6 +1028,209 @@ private fun ProgressScrubber(
                     drawLine(primary, Offset(0f, y), Offset(x, y), strokeWidth = stroke)
                     drawCircle(primary, radius = if (scrubbing) 9.dp.toPx() else 6.dp.toPx(), center = Offset(x, y))
                 }
+            }
+        }
+    }
+}
+
+
+// ---------------------------------------------------------------- prose
+
+/** Lines of prose laid out as one paragraph: the text, and where each line's text begins in it. */
+private class ProseText(val text: AnnotatedString, val start: Map<Long, Int>, val end: Map<Long, Int>)
+
+/** A word-joiner, which takes the place of a speaker label's braces: it keeps the offsets and shows nothing. */
+private const val HIDDEN = '\u2060'
+
+/**
+ * Burnet's lines joined into running text. Lines are joined by a space (a word divided at a line
+ * end is printed whole on its first line). A verse line ("| " at its start) is a paragraph of its
+ * own with a hanging indent, and the prose after it goes on without an indent. A speaker's name
+ * in braces ({ΑΠΟΛ.}) is set as a label. Offsets stay those of the lines' own text: marks that
+ * are not shown are replaced by invisible characters, never removed.
+ */
+private fun proseText(lines: List<Lines>, label: SpanStyle): ProseText {
+    val start = HashMap<Long, Int>()
+    val end = HashMap<Long, Int>()
+    var previousVerse = false
+    var continued = false  // a paragraph style is open for prose after verse
+    val text = buildAnnotatedString {
+        lines.forEachIndexed { i, line ->
+            val verse = line.text.startsWith("| ")
+            if (verse) {
+                if (continued) { pop(); continued = false }
+                pushStyle(VERSE)
+            } else if (previousVerse) {
+                pushStyle(AFTER_VERSE)
+                continued = true
+            } else if (i > 0) append(" ")
+            start[line.id] = length
+            var t = line.text
+            if (verse) t = "$HIDDEN$HIDDEN" + t.substring(2)
+            var k = 0
+            for (m in SPEAKER_LABEL.findAll(t)) {
+                append(t.substring(k, m.range.first))
+                append(HIDDEN)
+                withStyle(label) { append(m.groupValues[1]) }
+                append(HIDDEN)
+                k = m.range.last + 1
+            }
+            append(t.substring(k))
+            end[line.id] = length
+            if (verse) pop()
+            previousVerse = verse
+        }
+        if (continued) pop()
+    }
+    return ProseText(text, start, end)
+}
+
+private val VERSE = ParagraphStyle(textIndent = TextIndent(firstLine = 2.em, restLine = 3.em))
+private val AFTER_VERSE = ParagraphStyle(textIndent = TextIndent(firstLine = 0.em, restLine = 0.em))
+
+private val SPEAKER_LABEL = Regex("\\{([^}]*)\\}")
+
+private fun speakerLabelStyle(color: Color) = SpanStyle(fontWeight = FontWeight.SemiBold, fontSize = 0.8.em, color = color, letterSpacing = 0.05.em)
+
+/** The rows' Greek lines grouped into paragraphs: a paragraph begins where speech_start is set. */
+private fun paragraphsOf(rows: List<ReaderRow>): List<List<Lines>> {
+    val out = mutableListOf<MutableList<Lines>>()
+    var breakNext = true
+    for (row in rows) {
+        if (row !is ReaderRow.GreekLine) { breakNext = true; continue }
+        if (breakNext || row.line.speech_start == 1L) out += mutableListOf<Lines>()
+        out.last() += row.line
+        breakNext = false
+    }
+    return out
+}
+
+/**
+ * The height each line of prose adds to its page: the bottom of the visual line its last word
+ * is on, less that of the line before it; the first line of a paragraph also takes the space
+ * above the paragraph.
+ */
+private fun proseLineHeights(rows: List<ReaderRow>, measurer: TextMeasurer, styles: Styles, widthPx: Int, gapPx: Int): Map<Long, Int> {
+    val out = HashMap<Long, Int>()
+    val constraints = Constraints(maxWidth = widthPx)
+    for (para in paragraphsOf(rows)) {
+        val prose = proseText(para, speakerLabelStyle(Color.Unspecified))
+        val layout = measurer.measure(prose.text, styles.prose, constraints = constraints)
+        var previous = 0f
+        para.forEachIndexed { i, line ->
+            val last = ((prose.end[line.id] ?: 1) - 1).coerceAtLeast(0)
+            val bottom = layout.getLineBottom(layout.getLineForOffset(last))
+            out[line.id] = (bottom - previous).toInt() + (if (i == 0) gapPx else 0)
+            previous = bottom
+        }
+        // what rounding lost goes to the last line
+        val total = para.sumOf { out[it.id] ?: 0 }
+        val whole = layout.size.height + gapPx
+        if (total < whole) out[para.last().id] = (out[para.last().id] ?: 0) + (whole - total)
+    }
+    return out
+}
+
+/** A page of prose: its lines as paragraphs, with the Stephanus marks in the margin. */
+@Composable
+private fun ProsePage(
+    page: Page,
+    styles: Styles,
+    data: WorkData,
+    margin: Dp,
+    showMarks: Boolean,
+    onWord: (Long) -> Unit,
+    onSentence: (Tokens) -> Unit,
+) {
+    // headings in their place, and the lines between them as paragraphs
+    val blocks = remember(page) {
+        val out = mutableListOf<Any>()
+        var run = mutableListOf<ReaderRow>()
+        for (row in page.rows) {
+            if (row is ReaderRow.GreekLine) { run += row; continue }
+            if (run.isNotEmpty()) { out.addAll(paragraphsOf(run)); run = mutableListOf() }
+            out += row
+        }
+        if (run.isNotEmpty()) out.addAll(paragraphsOf(run))
+        out
+    }
+    for (block in blocks) {
+        when (block) {
+            is ReaderRow.Section -> SectionHeader(block.section, styles)
+            is ReaderRow.Speaker -> Text(block.name, style = styles.speaker, color = MaterialTheme.colorScheme.primary, modifier = Modifier.padding(top = SPEAKER_TOP, bottom = ROW_GAP))
+            is List<*> -> @Suppress("UNCHECKED_CAST") ProseParagraph(block as List<Lines>, styles, data, margin, showMarks, onWord, onSentence)
+        }
+    }
+}
+
+@Composable
+private fun ProseParagraph(
+    lines: List<Lines>,
+    styles: Styles,
+    data: WorkData,
+    margin: Dp,
+    showMarks: Boolean,
+    onWord: (Long) -> Unit,
+    onSentence: (Tokens) -> Unit,
+) {
+    val labelColor = MaterialTheme.colorScheme.primary
+    val prose = remember(lines, labelColor) { proseText(lines, speakerLabelStyle(labelColor)) }
+    // the words with their offsets in the paragraph
+    val words = remember(lines, prose) {
+        lines.flatMap { line ->
+            val base = prose.start[line.id] ?: 0
+            (data.tokensByLine[line.id] ?: emptyList()).map { Triple(base + it.start.toInt(), base + it.end.toInt(), it) }
+        }
+    }
+    val opens = lines.first().speech_start == 1L
+    var layout by remember { mutableStateOf<TextLayoutResult?>(null) }
+    val currentOnWord = rememberUpdatedState(onWord)
+    val currentOnSentence = rememberUpdatedState(onSentence)
+    val haptic = LocalHapticFeedback.current
+    val density = LocalDensity.current
+    Box(
+        Modifier.fillMaxWidth().padding(top = if (opens) PARAGRAPH_GAP else 0.dp).pointerInput(words) {
+            fun tokenAt(pos: Offset): Tokens? {
+                val result = layout ?: return null
+                val lineIndex = result.getLineForVerticalPosition(pos.y)
+                if (pos.x > result.getLineRight(lineIndex) + 4.dp.toPx()) return null
+                val offset = result.getOffsetForPosition(pos)
+                return words.firstOrNull { offset >= it.first && offset < it.second }?.third
+            }
+            detectTapGestures(
+                onLongPress = { pos ->
+                    tokenAt(pos)?.let {
+                        haptic.performHapticFeedback(HapticFeedbackType.LongPress)
+                        currentOnSentence.value(it)
+                    }
+                },
+                onTap = { pos -> tokenAt(pos)?.let { currentOnWord.value(it.id) } },
+            )
+        },
+    ) {
+        Text(
+            prose.text,
+            style = if (opens) styles.prose else styles.proseContinued,
+            color = MaterialTheme.colorScheme.onBackground,
+            onTextLayout = { layout = it },
+            modifier = Modifier.fillMaxWidth().padding(end = margin),
+        )
+        val result = layout
+        if (showMarks && data.stephanus && result != null) {
+            // Burnet's margin: the Stephanus page where it begins, the section letters b-e
+            for (line in lines) {
+                if (line.n_int % 100 != 1L) continue
+                val section = ((line.n_int % WorkData.BOOK) / 100).toInt()
+                val mark = if (section == 0) "${line.n_int / WorkData.BOOK}" else WorkData.SECTIONS[section].toString()
+                val offset = (prose.start[line.id] ?: 0).coerceAtMost(maxOf(0, prose.text.length - 1))
+                val top = result.getLineTop(result.getLineForOffset(offset))
+                Text(
+                    mark,
+                    style = styles.number,
+                    color = MaterialTheme.colorScheme.outline,
+                    fontWeight = if (section == 0) FontWeight.SemiBold else null,
+                    modifier = Modifier.align(Alignment.TopEnd).offset(y = with(density) { top.toDp() } + 5.dp),
+                )
             }
         }
     }

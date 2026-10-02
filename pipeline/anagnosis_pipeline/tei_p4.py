@@ -18,6 +18,7 @@ _EXTRA = {
     "gt": "&gt;", "quot": "&quot;", "apos": "&apos;",
     "consi": "j",  # consonantal i, declared in the Merry-Monro commentary's DOCTYPE
     "ucaron": "ǔ", "rdot": "ṛ", "mnull": "m̥",  # Sanskrit and Indo-European notation
+    "abreve": "ă", "ebreve": "ĕ", "ibreve": "ĭ", "obreve": "ŏ", "ubreve": "ŭ",  # quantities (Bury)
     # Perseus boilerplate entities (header only)
     "responsibility": "", "fund.AnnCPB": "", "fund.NEH": "", "Perseus.publish": "",
 }

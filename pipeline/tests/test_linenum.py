@@ -29,6 +29,11 @@ class LineNumberTest(unittest.TestCase):
         self.assertEqual(complete("2.3", "1.5"), "2.3")
         self.assertEqual(complete("7", "5"), "7")
 
+    def test_short_range_end_takes_the_stephanus_page(self):
+        self.assertEqual(complete("5", "172a3"), "172a5")
+        self.assertEqual(complete("b2", "172a3"), "172b2")
+        self.assertEqual(complete("173a1", "172e4"), "173a1")
+
     def test_text_format_accepts_book_lines(self):
         doc = parse("== book 1\n1.1\tἄνδρα μοι ἔννεπε\n1.2\tπλάγχθη\n")
         self.assertEqual([l.n for l in doc.lines], ["1.1", "1.2"])

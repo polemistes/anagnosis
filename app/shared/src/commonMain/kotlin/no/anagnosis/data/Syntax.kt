@@ -153,6 +153,8 @@ object Syntax {
         "APOS" to "appos", "COORD" to "coord", "AuxP" to "prep", "AuxC" to "conj", "AuxZ" to "emph",
         "AuxY" to "ptcl", "AuxV" to "aux", "AuxX" to "punct", "AuxK" to "punct", "AuxG" to "punct",
         "ExD" to "indep", "UNDEFINED" to "?",
+        // GLAUx's own labels
+        "MWE" to "expr", "UNLINKED" to "unlinked", "GAP" to "gap",
     )
 
     /** The group a relation belongs to, for colouring; null for the glue (particles, punctuation ...). */
@@ -198,6 +200,9 @@ object Syntax {
         "AuxG" to "punctuation",
         "ExD" to "independent",
         "UNDEFINED" to "undefined",
+        "MWE" to "part of a fixed expression",
+        "UNLINKED" to "not attached",
+        "GAP" to "gap",
     )
 
     /** "subject of φέρει" or "predicate" for a root; null when the word has no syntactic annotation. */

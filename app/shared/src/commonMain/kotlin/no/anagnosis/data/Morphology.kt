@@ -19,7 +19,8 @@ object Morphology {
         'm' to "imperative", 'p' to "participle",
     )
     private val voice = mapOf('a' to "active", 'p' to "passive", 'm' to "middle", 'e' to "middle/passive")
-    private val gender = mapOf('m' to "masculine", 'f' to "feminine", 'n' to "neuter")
+    // 'c' (masculine or feminine) is GLAUx's
+    private val gender = mapOf('m' to "masculine", 'f' to "feminine", 'n' to "neuter", 'c' to "masculine/feminine")
     private val case = mapOf(
         'n' to "nominative", 'g' to "genitive", 'd' to "dative", 'a' to "accusative",
         'v' to "vocative", 'l' to "locative",
@@ -51,7 +52,7 @@ object Morphology {
     private val shortTense = mapOf('p' to "pres", 'i' to "impf", 'r' to "perf", 'l' to "plpf", 't' to "fut perf", 'f' to "fut", 'a' to "aor")
     private val shortMood = mapOf('i' to "ind", 's' to "subj", 'o' to "opt", 'n' to "inf", 'm' to "imper", 'p' to "part")
     private val shortVoice = mapOf('a' to "act", 'p' to "pass", 'm' to "mid", 'e' to "mid/pass")
-    private val shortGender = mapOf('m' to "masc", 'f' to "fem", 'n' to "neut")
+    private val shortGender = mapOf('m' to "masc", 'f' to "fem", 'n' to "neut", 'c' to "m/f")
     private val shortCase = mapOf('n' to "nom", 'g' to "gen", 'd' to "dat", 'a' to "acc", 'v' to "voc", 'l' to "loc")
     private val shortDegree = mapOf('c' to "comp", 's' to "superl")
 

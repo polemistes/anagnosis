@@ -161,8 +161,9 @@ fun AboutDialog(appVersion: String, credits: List<Credit>, onDismiss: () -> Unit
                 }
                 Spacer(Modifier.height(6.dp))
                 Text(
-                    "Lemmas and morphology come from the Ancient Greek Dependency Treebank (Perseus Digital Library, " +
-                        "CC BY-SA 3.0 US). The word analyser uses the Perseus treebanks and the Morpheus morphological " +
+                    "Lemmas, morphology and syntax come from the Ancient Greek Dependency Treebank (Perseus Digital Library, " +
+                        "CC BY-SA 3.0 US) and, for Plato's Symposium, from GLAUx " +
+                        "(Alek Keersmaekers, KU Leuven, CC BY-SA 4.0), whose annotation is automatic. The word analyser uses the Perseus treebanks and the Morpheus morphological " +
                         "analyser (Perseus Digital Library, Mozilla Public License 2.0), run over the Perseus Greek corpus. Perseus Digital Library materials are copyright Tufts University and are used " +
                         "under their Creative Commons Attribution-ShareAlike licences; the data has been reformatted and in " +
                         "places corrected for this app.",
@@ -203,12 +204,13 @@ fun IntroDialog(onDismiss: () -> Unit) {
                 )
                 Spacer(Modifier.height(12.dp))
                 HelpItem("Tap a word", "to see its dictionary form, its inflection and a short definition. The LSJ and Middle Liddell buttons open the full dictionary entries.")
-                HelpItem("Press and hold a word", "to see the syntax of its sentence on a page of its own: the words in a row with their parts of speech, coloured by role (subject, object, attribute ...), and a line from each word to the words that depend on it. Drag and pinch to move and zoom; double tap to reset. Tree at the top lists the same under one another with the full forms; […] stands for a word that is understood. Tap a word for its dictionary entry.")
-                HelpItem("Apparatus and Commentary", "at the bottom open Jebb's critical notes or his commentary for all the lines on the page.")
+                HelpItem("Press and hold a word", "to see the syntax of its sentence on a page of its own: the words in a row with their parts of speech, coloured by role (subject, object, attribute ...), and a line from each word to the words that depend on it. Drag and pinch to move and zoom; double tap to reset. Tree at the top lists the same under one another with the full forms; […] stands for a word that is understood. Tap a word for its dictionary entry. In Plato the syntax is a parser's and not checked by hand, so it can be wrong.")
+                HelpItem("Apparatus and Commentary", "at the bottom open the editor's critical notes or the commentary for all the lines on the page.")
                 HelpItem("Swipe left or right", "to turn the page.")
                 HelpItem("Press or slide on the bar at the bottom", "to go to any part of the text.")
                 HelpItem("Greek / English", "at the top switches between the text and the translation.")
                 HelpItem("Book", "at the top of an epic such as the Odyssey chooses the book to read. Swiping past the last page of a book goes on to the next.")
+                HelpItem("Plato", "is cited by the pages of Stephanus's edition (1578) and their sections a–e, which the margin shows (172, b, c ...). Line numbers count the editor's lines within each section: 172a1 is the first line of 172a.")
                 HelpItem("The gear", "opens the options: font, text size, line numbers and colours. You can reopen this help there.")
             }
         },
