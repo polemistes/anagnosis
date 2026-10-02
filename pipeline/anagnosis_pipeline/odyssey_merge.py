@@ -297,7 +297,7 @@ def check_batch(path: Path, pages_dir: Path) -> list[str]:
         for n, text in block["text"]:
             if text != unicodedata.normalize("NFC", text):
                 out.append(f"{stem} {n}: not NFC")
-            if "'" in text or "’" in text or "᾽" in text:
+            if "'" in text or "᾽" in text:  # ’ closes a quotation within a speech
                 out.append(f"{stem} {n}: apostrophe other than ʼ")
             odd = [w for w, _s, _e in greek.words(text) if _skel(w) not in witnesses]
             if odd:
