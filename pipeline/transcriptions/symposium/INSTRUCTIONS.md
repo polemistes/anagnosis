@@ -65,7 +65,8 @@ The number and the text are separated by a single TAB.
 * Elision mark: ʼ (U+02BC MODIFIER LETTER APOSTROPHE), not ’ or ᾽: `δʼ`, `ἀλλʼ`. ’ (U+2019) is
   only the closing single quotation mark. Raised stop: · (U+00B7 MIDDLE DOT).
 * **Speaker names** printed in the text (ΑΠΟΛ., ΕΤ., ΕΤΑΙ.) are written in braces where they
-  stand: `{ΑΠΟΛ.} Δοκῶ μοι …`, also in the middle of a line.
+  stand: `{ΑΠΟΛ.} Δοκῶ μοι …`, also in the middle of a line. Only where the page prints them:
+  D adds some at section starts that Burnet does not print.
 * **A new paragraph** (a line Burnet indents) is marked by a line with only `¶` before it. In
   the reported dialogues (Diotima and Socrates, Socrates and Agathon) each reply begins a new
   indented line: each gets its `¶`.
@@ -87,6 +88,9 @@ The number and the text are separated by a single TAB.
 * Copy each item as printed: lemma, readings, sigla (B T W and others, as printed; small
   letters for later hands, as printed: `Tb`, `W t`; superscripts as Unicode superscripts),
   authorities, Latin. Greek with full accents. Ignore italics.
+* Letters printed small above a word (a variant spelling in a manuscript) are written in
+  parentheses with ss. after the word: `συνδείπνῳ (εῖν ss.) W`.
+* Keep Burnet's line number even where it seems off by one, and say so under `--- notes`.
 * Items follow one another on a line separated by wide spaces; each starts with its section
   letter and line number in bold ("a 2", "b 7"), or, for a further item on the same line, with
   its lemma alone (it belongs to the line of the item before it).
