@@ -346,7 +346,7 @@ def merge(transcriptions: Path, pages_dir: Path, texts: Path, sources: Path, lex
     # --- Jowett, Bury
     from .symposium import JOWETT_META
 
-    segs = jowett_segments(jowett_paragraphs(sources), lines)
+    segs = jowett_segments(jowett_paragraphs(sources), lines, para)
     eng = [f"# {k}: {v}" for k, v in JOWETT_META.items()] + [""]
     for n, text, starts in segs:
         if starts:

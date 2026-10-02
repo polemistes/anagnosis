@@ -44,18 +44,18 @@
 @ 
 174b3	'To the feasts of inferior men the good unbidden go;'
 @ 
-174b4	instead of which our proverb will run:—
+174b3	instead of which our proverb will run:—
 @ 
-174b5	'To the feasts of the good the good unbidden go;'
+174b3	'To the feasts of the good the good unbidden go;'
 @ 
-174b6	and this alteration may be supported by the authority of Homer himself, who not only demolishes but literally outrages the proverb.
+174b3	and this alteration may be supported by the authority of Homer himself, who not only demolishes but literally outrages the proverb.
 174c1	For, after picturing Agamemnon as the most valiant of men, he makes Menelaus, who is but a faint-hearted warrior, come unbidden to the banquet of Agamemnon, who is feasting and offering sacrifices, not the better to the worse, but the worse to the better.
 @ 
 174c5	I rather fear, Socrates, said Aristodemus, lest this may still be my case: and that, like Menelaus in Homer, I shall be the inferior person, who
 @ 
-174c8	'To the feasts of the wise unbidden goes.'
+174d2	'To the feasts of the wise unbidden goes.'
 @ 
-174d1	But I shall say that I was bidden of you, and then you will have to make an excuse.
+174d2	But I shall say that I was bidden of you, and then you will have to make an excuse.
 @ 
 174d2	'Two going together,'
 @ 
@@ -64,9 +64,9 @@
 174d4	This was the style of their conversation as they went along. Socrates dropped behind in a fit of abstraction, and desired Aristodemus, who was waiting, to go on before him.
 174e1	When he reached the house of Agathon he found the doors wide open, and a comical thing happened. A servant coming out met him, and led him at once into the banqueting-hall in which the guests were reclining, for the banquet was about to begin. Welcome, Aristodemus, said Agathon, as soon as he appeared—you are just in time to sup with us; if you come on any other matter put it off, and make one of us, as I was looking for you yesterday and meant to have asked you, if I could have found you. But what have you done with Socrates?
 @ 
-174e8	I turned round, but Socrates was nowhere to be seen; and I had to explain that he had been with me a moment before, and that I came by his invitation to the supper.
+174e9	I turned round, but Socrates was nowhere to be seen; and I had to explain that he had been with me a moment before, and that I came by his invitation to the supper.
 @ 
-174e11	You were quite right in coming, said Agathon; but where is he himself?
+174e12	You were quite right in coming, said Agathon; but where is he himself?
 @ 
 175a1	He was behind me just now, as I entered, he said, and I cannot think what has become of him.
 @ 
@@ -81,7 +81,7 @@
 175c1	But on this occasion imagine that you are our hosts, and that I and the company are your guests; treat us well, and then we shall commend you.' After this, supper was served, but still no Socrates; and during the meal Agathon several times expressed a wish to send for him, but Aristodemus objected; and at last when the feast was about half over—for the fit, as usual, was not of long duration—Socrates entered. Agathon, who was redining alone at the end of the table, begged that he would take the place next to him;
 175d1	that 'I may touch you,' he said, 'and have the benefit of that wise thought which came into your mind in the portico, and is now in your possession; for I am certain that you would not have come away until you had found what you sought.'
 @ 
-175d4	How I wish, said Socrates, taking his place as he was desired, that wisdom could be infused by touch, out of the fuller into the emptier man, as water runs through wool out of a fuller cup into an emptier one;
+175d3	How I wish, said Socrates, taking his place as he was desired, that wisdom could be infused by touch, out of the fuller into the emptier man, as water runs through wool out of a fuller cup into an emptier one;
 175e1	if that were so, how greatly should I value the privilege of reclining at your side! For you would have filled me full with a stream of wisdom plenteous and fair; whereas my own is of a very mean and questionable sort, no better than a dream. But yours is bright and full of promise, and was manifested forth in all the splendour of youth the day before yesterday, in the presence of more than thirty thousand Hellenes.
 @ 
 175e7	You are mocking, Socrates, said Agathon, and ere long you and I will have to determine who bears off the palm of wisdom—of this Dionysus shall be the judge; but at present you are better occupied with supper.
@@ -89,14 +89,14 @@
 176a1	Socrates took his place on the couch, and supped with the rest; and then libations were offered, and after a hymn had been sung to the god, and there had been the usual ceremonies, they were about to commence drinking, when Pausanias said, And now, my friends, how can we drink with least injury to ourselves? I can assure you that I feel severely the effect of yesterday's potations, and must have time to recover;
 176b1	and I suspect that most of you are in the same predicament, for you were of the party yesterday. Consider then: How can the drinking be made easiest?
 @ 
-176b3	I entirely agree, said Aristophanes, that we should, by all means, avoid hard drinking, for I was myself one of those who were yesterday drowned in drink.
+176b2	I entirely agree, said Aristophanes, that we should, by all means, avoid hard drinking, for I was myself one of those who were yesterday drowned in drink.
 @ 
-176b6	I think that you are right, said Eryximachus, the son of Acumenus; but I should still like to hear one other person speak:
+176b5	I think that you are right, said Eryximachus, the son of Acumenus; but I should still like to hear one other person speak:
 176c1	Is Agathon able to drink hard?
 @ 
 176c1	I am not equal to it, said Agathon.
 @ 
-176c2	Then, said Eryximachus, the weak heads like myself, Aristodemus, Phaedrus, and others who never can drink, are fortunate in finding that the stronger ones are not in a drinking mood. (I do not include Socrates, who is able either to drink or to abstain, and will not mind, whichever we do.)
+176c1	Then, said Eryximachus, the weak heads like myself, Aristodemus, Phaedrus, and others who never can drink, are fortunate in finding that the stronger ones are not in a drinking mood. (I do not include Socrates, who is able either to drink or to abstain, and will not mind, whichever we do.)
 176d1	Well, as none of the company seem disposed to drink much, I may be forgiven for saying, as a physician, that drinking deep is a bad practice, which I never follow, if I can help, and certainly do not recommend to another, least of all to any one who still feels the effects of yesterday's carouse.
 @ 
 176d5	I always do what you advise, and especially what you prescribe as a physician, rejoined Phaedrus the Myrrhinusian, and the rest of the company, if they are wise, will do the same.
@@ -106,21 +106,21 @@
 176e4	Then, said Eryximachus, as you are all agreed that drinking is to be voluntary, and that there is to be no compulsion, I move, in the next place, that the flute-girl, who has just made her appearance, be told to go away and play to herself, or, if she likes, to the women who are within. To-day let us have conversation instead;
 177a1	and, if you will allow me, I will tell you what sort of conversation. This proposal having been accepted, Eryximachus proceeded as follows:—
 @ 
-177a3	I will begin, he said, after the manner of Melanippe in Euripides,
+177a1	I will begin, he said, after the manner of Melanippe in Euripides,
 @ 
-177a4	'Not mine the word'
+177a1	'Not mine the word'
 @ 
-177a4	which I am about to speak, but that of Phaedrus. For often he says to me in an indignant tone:—'What a strange thing it is, Eryximachus, that, whereas other gods have poems and hymns made in their honour, the great and glorious god, Love, has no encomiast among all the poets who are so many.
+177a1	which I am about to speak, but that of Phaedrus. For often he says to me in an indignant tone:—'What a strange thing it is, Eryximachus, that, whereas other gods have poems and hymns made in their honour, the great and glorious god, Love, has no encomiast among all the poets who are so many.
 177b1	There are the worthy sophists too—the excellent Prodicus for example, who have descanted in prose on the virtues of Heracles and other heroes; and, what is still more extraordinary, I have met with a philosophical work in which the utility of salt has been made the theme of an eloquent discourse; and many other like things have had a like honour bestowed upon them.
 177c1	And only to think that there should have been an eager interest created about them, and yet that to this day no one has ever dared worthily to hymn Love's praises! So entirely has this great deity been neglected.' Now in this Phaedrus seems to me to be quite right, and therefore I want to offer him a contribution; also I think that at the present moment we who are here assembled cannot do better than honour the god Love. If you agree with me, there will be no lack of conversation;
 177d1	for I mean to propose that each of us in turn, going from left to right, shall make a speech in honour of Love. Let him give us the best which he can; and Phaedrus, because he is sitting first on the left hand, and because he is the father of the thought, shall begin.
 @ 
-177d5	No one will vote against you, Eryximachus, said Socrates, How can I oppose your motion, who profess to understand nothing but matters of love; nor, I presume, will Agathon and Pausanias;
+177d6	No one will vote against you, Eryximachus, said Socrates, How can I oppose your motion, who profess to understand nothing but matters of love; nor, I presume, will Agathon and Pausanias;
 177e1	and there can be no doubt of Aristophanes, whose whole concern is with Dionysus and Aphrodite; nor will any one disagree of those whom I see around me. The proposal, as I am aware, may seem rather hard upon us whose place is last; but we shall be contented if we hear some good speeches first. Let Phaedrus begin the praise of Love, and good luck to him. All the company expressed their assent, and desired him to do as Socrates bade him.
 @ 
 178a1	Aristodemus did not recollect all that was said, nor do I recollect all that he related to me; but I will tell you what I thought most worthy of remembrance, and what the chief speakers said.
 @ 
-178a4	Phaedrus began by affirming that Love is a mighty god, and wonderful among gods and men, but especially wonderful in his birth. For he is the eldest of the gods, which is an honour to him; and a proof of his claim to this honour is, that of his parents there is no memorial;
+178a6	Phaedrus began by affirming that Love is a mighty god, and wonderful among gods and men, but especially wonderful in his birth. For he is the eldest of the gods, which is an honour to him; and a proof of his claim to this honour is, that of his parents there is no memorial;
 178b1	neither poet nor prose-writer has ever affirmed that he had any. As Hesiod says:—
 @ 
 178b2	'First Chaos came, and then broad-bosomed Earth; / The everlasting seat of all that is, / And Love.'
@@ -136,14 +136,14 @@
 179a1	and when fighting at each other's side, although a mere handful, they would overcome the world. For what lover would not choose rather to be seen by all mankind than by his beloved, either when abandoning his post or throwing away his arms? He would be ready to die a thousand deaths rather than endure this. Or who would desert his beloved or fail him in the hour of danger? The veriest coward would become an inspired hero, equal to the bravest, at such a time; Love would inspire him.
 179b1	That courage which, as Homer says, the god breathes into the souls of some heroes. Love of his own nature infuses into the lover.
 @ 
-179b2	Love will make men dare to die for their beloved—love alone; and women as well as men. Of this, Alcestis, the daughter of Pelias, is a monument to all Hellas; for she was dare to die willing to lay down her life on behalf of her husband, when no one else would, although he had a father and mother;
+179b4	Love will make men dare to die for their beloved—love alone; and women as well as men. Of this, Alcestis, the daughter of Pelias, is a monument to all Hellas; for she was dare to die willing to lay down her life on behalf of her husband, when no one else would, although he had a father and mother;
 179c1	but the tenderness of her love so far exceeded theirs, that she made them seem to be strangers in blood to their own son, and in name only related to him; and so noble did this action of hers appear to the gods, as well as to men, that among the many who have done virtuously she is one of the very few to whom, in admiration of her noble action, they have granted the privilege of returning alive to earth; such exceeding honour is paid by the gods to the devotion and virtue of love.
 179d1	But Orpheus, the son of Oeagrus, the harper, they sent empty away, and presented to him an apparition only of her whom he sought, but herself they would not give up, because he showed no spirit; he was only a harp-player, and did not dare like Alcestis to die for love, but was contriving how he might enter Hades alive; moreover, they afterwards caused him to suffer death at the hands of women, as the punishment of his cowardliness.
 179e1	Very different was the reward of the true love of Achilles towards his lover Patroclus—his lover and not his love (the notion that Patroclus was the beloved one is a foolish error into which Aeschylus has fallen, for Achilles was surely the fairer of the two, fairer also than all the other heroes; and, as Homer informs us, he was still beardless, and younger far).
 180a1	And greatly as the gods honour the virtue of love, still the return of love on the part of the beloved to the lover is more admired and valued and rewarded by them, for the lover is more divine; because he is inspired by God. Now Achilles was quite aware, for he had been told by his mother, that he might avoid death and return home, and live to a good old age, if he abstained from slaying Hector. Nevertheless he gave his life to revenge his friend, and dared to die, not only in his defence, but after he was dead.
 180b1	Wherefore the gods honoured him even above Alcestis, and sent him to the Islands of the Blest. These are my reasons for affirming that Love is the eldest and noblest and mightiest of the gods, and the chiefest author and giver of virtue in life, and of happiness after death.
 @ 
-180b5	This, or something like this, was the speech of Phaedrus; and some other speeches followed which Aristodemus did not remember; the next which he repeated was that of Pausanias.
+180b6	This, or something like this, was the speech of Phaedrus; and some other speeches followed which Aristodemus did not remember; the next which he repeated was that of Pausanias.
 180c1	Phaedrus, he said, the argument has not been set before us, I think, quite in the right form;—we should not be called upon to praise Love in such an indiscriminate manner. If there were only one Love, then what you said would be well enough; but since there are more Loves than one, you should have begun by determining which of them was to be the theme of our praises. I will amend this defect;
 180d1	and first of all I will tell you which Love is deserving of praise, and then try to hymn the praiseworthy one in a manner worthy of him. For we all know that Love is inseparable from Aphrodite, and if there were only one Aphrodite there would be only one Love; but as there are two goddesses there must be two Loves. And am I not right in asserting that there are two goddesses? The elder one, having no mother, who is called the heavenly Aphrodite—she is the daughter of Uranus;
 180e1	the younger, who is the daughter of Zeus and Dione—her we call common; and the Love who is her fellow-worker is rightly named common, as the other love is called heavenly. All the gods ought to have praise given to them, but not without distinction of their natures; and therefore I must try to distinguish the characters of the two Loves.
@@ -175,7 +175,7 @@
 185b1	and if he is deceived he has committed a noble error. For he has proved that for his part he will do anything for anybody with a view to virtue and improvement, than which there can be nothing nobler. Thus noble in every case is the acceptance of another for the sake of virtue.
 185c1	This is that love which is the love of the heavenly g6ddess, and is heavenly, and of great price to individuals and cities, making the lover and the beloved alike eager in the work of their own improvement. But all other loves are the offspring of the other, who is the common goddess. To you, Phaedrus, I offer this my contribution in praise of love, which is as good as I could make extempore.
 @ 
-185c5	Pāusanĭās cāme tŏ ă pāuse—this is the balanced way in which I have been taught by the wise to speak;
+185c4	Pāusanĭās cāme tŏ ă pāuse—this is the balanced way in which I have been taught by the wise to speak;
 185d1	and Aristodemus said that the turn of Aristophanes was next, but either he had eaten too much, or from some other cause he had the hiccough, and was obliged to change turns with Eryximachus the physician, who was reclining on the couch below him. Eryximachus, he said, you ought either to stop my hiccough, or to speak in my turn until I have left off.
 @ 
 185d5	I will do both, said Eryximachus: I will speak in your turn, and do you speak in mine;
@@ -201,14 +201,14 @@
 188d1	Such is the great and mighty, or rather omnipotent force of love in general. And the love, more especially, which is concerned with the good, and which is perfected in company with temperance and justice, whether among gods or men, has the greatest power, and is the source of all our happiness and harmony, and makes us friends with the gods who are above us, and with one another.
 188e1	I dare say that I too have omitted several things which might be said in praise of Love, but this was not intentional, and you, Aristophanes, may now supply the omission or take some other line of commendation; for I perceive that you are rid of the hiccough.
 @ 
-188e4	Yes, said Aristophanes, who followed, the hiccough is gone;
+189a1	Yes, said Aristophanes, who followed, the hiccough is gone;
 189a1	not, however, until I applied the sneezing; and I wonder whether the harmony of the body has a love of such noises and ticklings, for I no sooner applied the sneezing than I was cured.
 @ 
-189a4	Eryximachus said: Beware, friend Aristophanes, although you are going to speak, you are making fun of me; and I shall have to watch and see whether I cannot have a laugh at your expense, when you might speak in peace.
+189a1	Eryximachus said: Beware, friend Aristophanes, although you are going to speak, you are making fun of me; and I shall have to watch and see whether I cannot have a laugh at your expense, when you might speak in peace.
 @ 
 189b1	You are quite right, said Aristophanes, laughing. I will unsay my words; but do you please not to watch me, as I fear that in the speech which I am about to make, instead of others laughing with me, which is to the manner born of our muse and would be all the better, I shall only be laughed at by them.
 @ 
-189b6	Do you expect to shoot your bolt and escape, Aristophanes? Well, perhaps if you are very careful and bear in mind that you will be called to account, I may be induced to let you off.
+189b8	Do you expect to shoot your bolt and escape, Aristophanes? Well, perhaps if you are very careful and bear in mind that you will be called to account, I may be induced to let you off.
 @ 
 189c1	Aristophanes professed to open another vein of discourse; he had a mind to praise Love in another way, unlike that either of Pausanias or Eryximachus. Mankind, he said, judging by their neglect of him, have never, as I think, at all understood the power of Love. For if they had understood him they would surely have built noble temples and altars, and offered solemn sacrifices in his honour; but this is not done, and most certainly ought to be done:
 189d1	since of all the gods he is the best friend of men, the helper and the healer of the ills which are the great impediment to the happiness of the race. I will try to describe his power to you, and you shall teach the rest of the world what I am teaching you. In the first place, let me treat of the nature of man and what has happened to it; for the original human nature was not like the present, but different. The sexes were not two as they are now, but originally three in number;
@@ -235,26 +235,26 @@
 @ 
 193e1	Indeed, I am not going to attack you, said Eryximachus, for I thought your speech charming, and did I not know that Agathon and Socrates are masters in the art of love, I should be really afraid that they would have nothing to say, after the world of things which have been said already. But, for all that, I am not without hopes.
 @ 
-193e7	Socrates said: You played your part well, Eryximachus;
+194a1	Socrates said: You played your part well, Eryximachus;
 194a1	but if you were as I am now, or rather as I shall be when Agathon has spoken, you would, indeed, be in a great strait. You want to cast a spell over me, Socrates, said Agathon, in the hope that I may be disconcerted at the expectation raised among the audience that I shall speak well.
 @ 
 194b1	I should be strangely forgetful, Agathon, replied Socrates, of the courage and magnanimity which you showed when your own compositions were about to be exhibited, and you came upon the stage with the actors and faced the vast theatre altogether undismayed, if I thought that your nerves could be fluttered at a small party of friends.
 @ 
-194b4	Do you think, Socrates, said Agathon, that my head is so full of the theatre as not to know how much more formidable to a man of sense a few good judges are than many fools?
+194b6	Do you think, Socrates, said Agathon, that my head is so full of the theatre as not to know how much more formidable to a man of sense a few good judges are than many fools?
 @ 
-194b7	Nay, replied Socrates, I should be very wrong in attributing to you, Agathon, that or any other want of refinement.
+194b6	Nay, replied Socrates, I should be very wrong in attributing to you, Agathon, that or any other want of refinement.
 194c1	And I am quite aware that if you happened to meet with any whom you thought wise, you would care for their opinion much more than for that of the many. Rut then we, having been a part of the foolish many in the theatre, cannot be regarded as the select wise; though I know that if you chanced to be in the presence, not of one of ourselves, but of some really wise man, you would be ashamed of disgracing yourself before him—would you not?
 @ 
 194c9	Yes, said Agathon.
 @ 
 194d1	But before the many you would not be ashamed, if you thought that you were doing something disgraceful in their presence?
 @ 
-194d2	Here Phaedrus interrupted them, saying: Do not answer him, my dear Agathon; for if he can only get a partner with whom he can talk, especially a good-looking one, he will no longer care about the completion of our plan. Now I love to hear him talk; but just at present I must not forget the encomium on Love which I ought to receive from him and from every one.
+194d1	Here Phaedrus interrupted them, saying: Do not answer him, my dear Agathon; for if he can only get a partner with whom he can talk, especially a good-looking one, he will no longer care about the completion of our plan. Now I love to hear him talk; but just at present I must not forget the encomium on Love which I ought to receive from him and from every one.
 194e1	When you and he have paid your tribute to the god, then you may talk.
 @ 
-194e2	Very good, Phaedrus, said Agathon; I see no reason why I should not proceed with my speech, as I shall have many other opportunities of conversing with Socrates. Let me say first how I ought to speak, and then speak:—
+194e1	Very good, Phaedrus, said Agathon; I see no reason why I should not proceed with my speech, as I shall have many other opportunities of conversing with Socrates. Let me say first how I ought to speak, and then speak:—
 @ 
-194e6	The previous speakers, instead of praising the god Love, or unfolding his nature, appear to have congratulated mankind on the benefits which he confers upon them.
+194e4	The previous speakers, instead of praising the god Love, or unfolding his nature, appear to have congratulated mankind on the benefits which he confers upon them.
 195a1	But I would rather praise the god first, and then speak of his gifts; this is always the right way of praising everything. May I say without impiety or offence, that of all the blessed gods he is the most blessed because he is the fairest and best? And he is the fairest: for, in the first place, he is the youngest, and of his youth he is himself the witness, fleeing out of theway of age, who is swift enough, swifter truly than most of us like:—Love hates him and will not come near him;
 195b1	but youth and love live and move together—like to like, as the proverb says. Many things were said by Phaedrus about Love in which I agree with him; but I cannot agree that he is older than Iapetus and Kronos:—not so; I maintain him to be the youngest of the gods, and youthful ever.
 195c1	The ancient doings among the gods of which Hesiod and Parmenides spoke, if the tradition of them be true, were done of Necessity and not of Love; had Love been in those days, there would have been no chaining or mutilation of the gods, or other violence, but peace and sweetness, as there is now in heaven, since the rule of Love began. Love is young and Love is not also tender;
@@ -273,7 +273,7 @@
 197b1	so that he too is a disciple of Love. Also the melody of the Muses, the metallurgy of Hephaestus, the weaving of Athene, the empire of Zeus over gods and men, are all due to Love, who was the inventor of them. And so Love set in order the empire of the gods—the love of beauty, as is evident, for with deformity Love has no concern. In the days of old, as I began by saying, dreadful deeds were done among the gods, for they were ruled by Necessity; but now since the birth of Love, and from the Love of the beautiful, has sprung every good in heaven and earth.
 197c1	Therefore, Phaedrus, I say of Love that he is the fairest and best in himself, and the cause of what is fairest and best in all other things. And there comes into my mind a line of poetry in which he is said to be the god who
 @ 
-197c5	'Gives peace on earth and calms the stormy deep, / Who stills the winds and bids the sufferer sleep.'
+197c1	'Gives peace on earth and calms the stormy deep, / Who stills the winds and bids the sufferer sleep.'
 @ 
 197d1	This is he who empties men of disaffection and fills them with affection, who makes them to meet together at banquets such as these: in sacrifices, feasts, dances, he is our lord—who sends courtesy and sends away discourtesy, who gives kindness ever and never gives unkindness; the friend of the good, the wonder of the wise, the amazement of the gods; desired by those who have no part in him, and precious to those who have the better part in him; parent of delicacy, luxury, desire, fondness, softness, grace;
 197e1	regardful of the good, regardless of the evil: in every word, work, wish, fear—saviour, pilot, comrade, helper; glory of gods and men, leader best and brightest: in whose footsteps let every man follow, sweetly singing in his honour and joining in that sweet strain with which love charms the souls of gods and men. Such is the speech, Phaedrus, half-playful, yet having a certain measure of seriousness, which, according to my ability, I dedicate to the god.
@@ -295,7 +295,7 @@
 @ 
 199c3	I grant the permission, said Phaedrus: put your questions. Socrates then proceeded as follows:—
 @ 
-199c5	In the magnificent oration which you have just uttered, I think that you were right, my dear Agathon, in proposing to speak of the nature of Love first and afterwards of his works—that is a way of beginning which I very much approve.
+199c3	In the magnificent oration which you have just uttered, I think that you were right, my dear Agathon, in proposing to speak of the nature of Love first and afterwards of his works—that is a way of beginning which I very much approve.
 199d1	And as you have spoken so eloquently of his nature, may I ask you further, Whether love is the love of something or of nothing? And here I must explain myself: I do not want you to say that love is the love of a father or the love of a mother—that would be ridiculous; but to answer as you would, if I asked is a father a father of something? to which you would find no difficulty in replying, of a son or daughter: and the answer would be right.
 @ 
 199e1	Very true, said Agathon.
@@ -304,9 +304,9 @@
 @ 
 199e1	He assented.
 @ 
-199e2	Yet let me ask you one more question in order to illustrate my meaning: Is not a brother to be regarded essentially as a brother of something?
+199e1	Yet let me ask you one more question in order to illustrate my meaning: Is not a brother to be regarded essentially as a brother of something?
 @ 
-199e4	Certainly, he replied.
+199e5	Certainly, he replied.
 @ 
 199e5	That is, of a brother or sister?
 @ 
@@ -316,18 +316,18 @@
 @ 
 200a1	Keep in mind what this is, and tell me what I want to know—whether Love desires that of which love is.
 @ 
-200a3	Yes, surely.
+200a4	Yes, surely.
 @ 
-200a3	And does he possess, or does he not possess, that which he loves and desires?
+200a4	And does he possess, or does he not possess, that which he loves and desires?
 @ 
 200a5	Probably not, I should say.
 @ 
-200a6	Nay, replied Socrates, I would have you consider whether 'necessarily' is not rather the word. The inference that he who desires something is in want of something, and that he who desires nothing is in want of nothing, is in my judgment, Agathon, absolutely and necessarily true.
+200a5	Nay, replied Socrates, I would have you consider whether 'necessarily' is not rather the word. The inference that he who desires something is in want of something, and that he who desires nothing is in want of nothing, is in my judgment, Agathon, absolutely and necessarily true.
 200b1	What do you think?
 @ 
-200b2	I agree with you, said Agathon.
+200b3	I agree with you, said Agathon.
 @ 
-200b4	Very good. Would he who is great, desire to be great, or he who is strong, desire to be strong?
+200b3	Very good. Would he who is great, desire to be great, or he who is strong, desire to be strong?
 @ 
 200b6	That would be inconsistent with our previous admissions.
 @ 
@@ -339,29 +339,29 @@
 200c1	I give the example in order that we may avoid misconception. For the possessors of these qualities, Agathon, must be supposed to have their respective advantages at the time, whether they choose or not; and who can desire that which he has? Therefore, when a person says, I am well and wish to be well, or I am rich and wish to be rich, and I desire simply to have what I have—to him we shall reply:
 200d1	'You, my friend, having wealth and health and strength, want to have the continuance of them; for at this moment, whether you choose or no, you have them. And when you say, I desire that which I have and nothing else, is not your meaning that you want to have what you now have in the future?' He must agree with us—must he not?
 @ 
-200d5	He must, replied Agathon. Then, said Socrates, he desires that what he has at present may be preserved to him in the future, which is equivalent to saying that he desires something which is nonexistent to him, and which as yet he has not got:
+200d8	He must, replied Agathon. Then, said Socrates, he desires that what he has at present may be preserved to him in the future, which is equivalent to saying that he desires something which is nonexistent to him, and which as yet he has not got:
 @ 
-200d10	Very true, he said.
+200e1	Very true, he said.
 @ 
 200e1	Then he and every one who desires, desires that which he has not already, and which is future and not present, and which he has not, and is not, and of which he is in want;—these are the sort of things which love and desire seek?
 @ 
-200e5	Very true, he said.
+200e6	Very true, he said.
 @ 
 200e6	Then now, said Socrates, let us recapitulate the argument. First, is not love of something, and of something too which is wanting to a man?
 @ 
-200e9	Yes, he replied.
+201a1	Yes, he replied.
 @ 
 201a1	Remember further what you said in your speech, or if you do not remember I will remind you: you said that the love of the beautiful set in order the empire of the gods, for that of deformed things there is no love—did you not say something of that kind?
 @ 
-201a6	Yes, said Agathon.
+201a7	Yes, said Agathon.
 @ 
 201a7	Yes, my friend, and the remark was a just one. And if this is true, Love is the love of beauty and not of deformity?
 @ 
-201a9	He assented.
+201a8	He assented.
 @ 
 201b1	And the admission has been already made that Love is of something which a man wants and has not?
 @ 
-201b2	True, he said.
+201b1	True, he said.
 @ 
 201b3	Then Love wants and has not beauty?
 @ 
@@ -369,7 +369,7 @@
 @ 
 201b5	And would you call that beautiful which wants and does not possess beauty?
 @ 
-201b7	Certainly not.
+201b6	Certainly not.
 @ 
 201b8	Then would you still say that love is beautiful?
 @ 
@@ -382,7 +382,7 @@
 @ 
 201c4	Then in wanting the beautiful, love wants also the good? I refute you, Socrates, said Agathon:—Let us assume that what you say is true.
 @ 
-201c7	Say rather, beloved Agathon, that you cannot refute the truth; for Socrates is easily refuted.
+201c6	Say rather, beloved Agathon, that you cannot refute the truth; for Socrates is easily refuted.
 @ 
 201d1	And now, taking my leave of you, I will rehearse a tale of love which I heard from Diotima of Mantineia, a woman wise in this and in many other kinds of knowledge, who in the days of old, when the Athenians offered sacrifice before the coming of the plague, delayed the disease ten years. She was my instructress in the art of love, and I shall repeat to you what she said to me, beginning with the admissions made by Agathon, which are nearly if not quite the same which I made to the wise woman when she questioned me:
 201e1	I think that this will be the easiest way, and I shall take both parts myself as well as I can. As you, Agathon, suggested, I must speak first of the being and nature of Love, and then of his works. First I said to her in nearly the same words which he used to me, that Love was a mighty god, and likewise fair; and she proved to me as I proved to him that, by my own showing, Love was neither fair nor good. 'What do you mean, Diotima,' I said, 'is love then evil and foul?' 'Hush,' she cried; 'must that be foul which is not fair?'
@@ -402,7 +402,7 @@
 204b1	Love is one of them. For wisdom is a most beautiful thing, and Love is of the beautiful; and therefore Love is also a philosopher or lover of wisdom, and being a lover of wisdom is in a mean between the wise and the ignorant. And of this too his birth is the cause; for his father is wealthy and wise, and his mother poor and foolish. Such, my dear Socrates, is the nature of the spirit Love.
 204c1	The error in your conception of him was very natural, and as I imagine from what you say, has arisen out of a confusion of love and the beloved, which made you think that love was all beautiful. For the beloved is the truly beautiful, and delicate, and perfect, and blessed; but the principle of love is of another nature, and is such as I have described.'
 @ 
-204c5	I said: 'O thou stranger woman, thou sayest well; but, assuming Love to be such as you say, what is the use of him to men?' 'That, Socrates,' she replied, 'I will attempt to unfold:
+204c7	I said: 'O thou stranger woman, thou sayest well; but, assuming Love to be such as you say, what is the use of him to men?' 'That, Socrates,' she replied, 'I will attempt to unfold:
 204d1	of his nature and birth I have already spoken; and you acknowledge that love is of the beautiful. But some one will say: Of the beautiful in what, Socrates and Diotima?—or rather let me put the question more clearly, and ask: When a man loves the beautiful, what does he desire?' I answered her 'That the beautiful maybe his.' 'Still,' she said,' the answer suggests a further question: What is given by the possession of beauty? ' 'To what you have asked,' I replied, 'I have no answer ready.'
 204e1	'Then,' she said, 'let me put the word "good" in the place of the beautiful, and repeat the question once more: If he who loves loves the good, what is it then that he loves?' 'The possession of the good,' I said. 'And what does he gain who possesses the good?' 'Happiness,' I replied; 'there is less difficulty in answering that question.'
 205a1	'Yes,' she said, 'the happy are made happy by the acquisition of good things. Nor is there any need to ask why a man desires happiness ; the answer is already final.' 'You are right,' I said. 'And is this wish and this desire common to all? and do all men always desire their own good, or only some men?—what say you?' 'All men,' I replied; 'the desire is common to all.' ' Why, then,' she rejoined, 'are not all men, Socrates, said to love, but only some of them?
@@ -418,7 +418,7 @@
 206e1	For love, Socrates, is not, as you imagine, the love of the beautiful only.' 'What then?' 'The love of generation and of birth in beauty.' 'Yes,' I said. 'Yes, indeed,' she replied. 'But why of generation?' 'Because to the mortal creature, generation is a sort of eternity and immortality,' she replied; 'and if, as has been already admitted, love is of the everlasting possession of the good, all men will necessarily desire immortality together with good:
 207a1	Wherefore love is of immortality.'
 @ 
-207a2	All this she taught me at various times when she spoke of love. And I remember her once saying to me, ' What is the cause, Socrates, of love, and the attendant desire? See you not how all animals, birds, as well as beasts, in their desire of procreation, are m agony when they take the infection of love, which begins with the desire of union;
+207a1	All this she taught me at various times when she spoke of love. And I remember her once saying to me, ' What is the cause, Socrates, of love, and the attendant desire? See you not how all animals, birds, as well as beasts, in their desire of procreation, are m agony when they take the infection of love, which begins with the desire of union;
 207b1	whereto is added the care of offspring, on whose behalf the weakest are ready to battle against the strongest even to the uttermost, and to die for them, and will let themselves be tormented with hunger or suffer anything in order to maintain their young. Man may be supposed to act thus from reason ; but why should animals have these passionate feelings? Can you tell me why?' Again I replied that I did not know. She said to me: 'And do you expect ever to become a master in the art of love, if you do not know this?'
 207c1	'But I have told you already, Diotima, that my ignorance is the reason why I come to you; for I am conscious that I want a teacher; tell me then the cause of this and of the other mysteries of love.' 'Marvel not,' she said, 'if you believe that love is of the immortal, as we have several times acknowledged for here again, and on the same principle too, the mortal nature is seeking as far as is possible to be everlasting and immortal:
 207d1	and this is only to be attained by generation, because generation always leaves behind a new existence in the place of the old. Nay even in the life of the same individual there is succession and not absolute unity: a man is called the same, and yet in the short interval which elapses between youth and age, and in which every animal is said to have life and identity, he is undergoing a perpetual process of loss and reparation—hair, flesh, bones, blood, and the whole body are always changing.
@@ -426,7 +426,7 @@
 208a1	and equally true of knowledge, and what is still more surprising to us mortals, not only do the sciences in general spring up and decay, so that in respect of them we are never the same; but each of them individually experiences a like change. For what is implied in the word "recollection," but the departure of knowledge, which is ever being forgotten, and is renewed and preserved by recollection, and appears to be the same although in reality new, according to that law of succession by which all mortal things are preserved, not absolutely the same, but by substitution, the old worn-out mortality leaving another new and similar existence behind—unlike the divine, which is always the same and not another?
 208b1	And in this way, Socrates, the mortal body, or mortal anything, partakes of immortality; but the immortal in another way. Marvel not then at the love which all men have of their offspring; for that universal love and interest is for the sake of immortality.'
 @ 
-208b8	I was astonished at her words, and said;
+208b7	I was astonished at her words, and said;
 208c1	'Is this really true, O thou wise Diotima?' And she answered with all the authority of an accomplished sophist: 'Of that, Socrates, you may be assured;—think only of the ambition of men, and you will wonder at the senselessness of their ways, unless you consider how they are stirred by the love of an immortality of fame. They are ready to run all risks greater far than they would have run for their children, and to spend money and undergo any sort of toil, and even to die, for the sake of leaving behind them a name which shall be eternal.
 208d1	Do you imagine that Alcestis would have died to save Admetus, or Achilles to avenge Patroclus, or your own Codrus in order to preserve the kingdom for his sons, if they had not imagined that the memory of their virtues, which still survives among us, would be immortal? Nay,' she said, 'I am persuaded that all men do all things, and the better they are the more they do them, in hope of the glorious fame of immortal virtue;
 208e1	for they desire the immortal.
@@ -438,7 +438,7 @@
 209d1	Who would not emulate them in the creation of children such as theirs, which have preserved their memory and given them everlasting glory? Or who would not have such children as Lycurgus left behind him to be the saviours, not only of Lacedaemon, but of Hellas, as one may say? There is Solon, too, who is the revered father of Athenian laws; and many others there are in many other places, both among Hellenes and barbarians, who have given to the world many noble works, and have been the parents of virtue of every kind;
 209e1	and many temples have been raised in their honour for the sake of children such as theirs; which were never raised in honour of any one, for the sake of his mortal, children.
 @ 
-209e4	'These are the lesser mysteries of love, into which even you, Socrates, may enter;
+209e5	'These are the lesser mysteries of love, into which even you, Socrates, may enter;
 210a1	to the greater and more hidden ones which are the crown of these, and to which, if you pursue them in a right spirit, they will lead, I know not whether you will be able to attain. But I will do my utmost to inform you, and do you follow if you can. For he who would proceed aright in this matter should begin in youth to visit beautiful forms; and first, if he be guided by his instructor aright, to love one such form only—out of that he should create fair thoughts;
 210b1	and soon he will of himself perceive that the beauty of one form is akin to the beauty of another; and then if beauty of form in general is his pursuit, how foolish would he be not to recognize that the beauty in every form is one and the same! And when he perceives this he will abate his violent love of the one, which he will despise and deem a small thing, and will become a lover of all beautiful forms; in the next stage he will consider that the beauty of the mind is more honourable than the beauty of the outward form.
 210c1	So that if a virtuous soul have but a little comeliness, he will be content to love and tend him, and will search out and bring to the birth thoughts which may improve the young, until he is compelled to contemplate and see the beauty of institutions and laws, and to understand that the beauty of them all is of one family, and that personal beauty is a trifle;
@@ -453,43 +453,43 @@
 211e1	But what if man had eyes to see the true beauty—the divine beauty, I mean, pure and clear and unalloyed, not clogged with the pollutions of mortality and all the colours and vanities of human life—thither looking, and holding converse with the true beauty simple and divine?
 212a1	Remember how in that communion only, beholding beauty with the eye of the mind, he will be enabled to bring forth, not images of beauty, but realities (for he has hold not of an image but of a reality), and bringing forth and nourishing true virtue to become the friend of God and be immortal, if mortal man may. Would that be an ignoble life?'
 @ 
-212a6	Such, Phaedrus—and I speak not only to you, but to all of you—were the words of Diotima;
+212b1	Such, Phaedrus—and I speak not only to you, but to all of you—were the words of Diotima;
 212b1	and I am persuaded of their truth. And being persuaded of them, I try to persuade others, that in the attainment of this end human nature will not easily find a helper better than love. And therefore, also, I say that every man ought to honour him as I myself honour him, and walk in his ways, and exhort others to do the same, and praise the power and spirit of love according to the measure of my ability now and ever.
 @ 
 212c1	The words which I have spoken, you, Phaedrus, may call an encomium of love, or anything else which you please.
 @ 
-212c2	When Socrates had done speaking, the company applauded, and Aristophanes was beginning to say something in answer to the allusion which Socrates had made to his own speech, when suddenly there was a great knocking at the door of the house, as of revellers, and the sound of a flute-girl was heard. Agathon told the attendants to go and see who were the intruders.
+212c4	When Socrates had done speaking, the company applauded, and Aristophanes was beginning to say something in answer to the allusion which Socrates had made to his own speech, when suddenly there was a great knocking at the door of the house, as of revellers, and the sound of a flute-girl was heard. Agathon told the attendants to go and see who were the intruders.
 212d1	'If they are friends of ours,' he said, 'invite them in, but if not, say that the drinking is over.' A little while afterwards they heard the voice of Alcibiades resounding in the court; he was in a great state of intoxication, and kept roaring and shouting 'Where is Agathon? Lead me to Agathon,' and at length, supported by the flute-girl and some of his attendants, he found his way to them.
 212e1	'Hail, friends,' he said, appearing at the door crowned with a massive garland of ivy and violets, his head flowing with ribands. 'Will you have Agathon. a very drunken man as a companion of your revels? Or shall I crown Agathon, which was my intention in coming, and go away? For I was unable to come yesterday, and therefore I am here to-day, carrying on my head these ribands, that taking them from my own head, I may crown the head of this fairest and wisest of men, as I may be allowed to call him. Will you laugh at me because I am drunk?
 213a1	Yet I know very well that I am speaking the truth, although you may laugh. But first tell me; if I come in shall we have the understanding of which I spoke? Will you drink with me or not?'
 @ 
-213a4	The company were vociferous in begging that he would take his place among them, and Agathon specially invited him. Thereupon he was led in by the people who were with him; and as he was being led, intending to crown Agathon, he took the ribands from his own head and held them in front of his eyes;
+213a3	The company were vociferous in begging that he would take his place among them, and Agathon specially invited him. Thereupon he was led in by the people who were with him; and as he was being led, intending to crown Agathon, he took the ribands from his own head and held them in front of his eyes;
 213b1	he was thus prevented from seeing Socrates, who made way for him, and Alcibiades took the vacant place between Agathon and Socrates, and in taking the place he embraced Agathon and crowned him. Take off his sandals, said Agathon, and let him make a third on the same couch.
 @ 
 213b6	By all means; but who makes the third partner in our revels? said Alcibiades, turning round and starting up as he caught sight of Socrates. By Heracles, he said, what is this?
 213c1	here is Socrates always lying in wait for me, and always, as his way is, coming out at all sorts of unsuspected places: and now, what have you to say for yourself, and why are you lying here, where I perceive that you have contrived to find a place, not by a joker or lover of jokes, like Aristophanes, but by the fairest of the company?
 @ 
-213c5	Socrates turned to Agathon and said: I must ask you to protect me, Agathon; for the passion of this man has grown quite a serious matter to me.
+213c6	Socrates turned to Agathon and said: I must ask you to protect me, Agathon; for the passion of this man has grown quite a serious matter to me.
 213d1	Since I became his admirer I have never been allowed to speak to any other fair one, or so much as to look at them. If I do, he goes wild with envy and jealousy, and not only abuses me but can hardly keep his hands off me, and at this moment he may do me some harm. Please to see to this, and either reconcile me to him, or, if he attempts violence, protect me, as I am in bodily fear of his mad and passionate attempts.
 @ 
-213d6	There can never be reconciliation between you and me, said Alcibiades; but for the present I will defer your chastisement.
+213d7	There can never be reconciliation between you and me, said Alcibiades; but for the present I will defer your chastisement.
 213e1	And I must beg you, Agathon, to give me back some of the ribands that I may crown the marvellous head of this universal despot—I would not have him complain of me for crowning you, and neglecting him, who in conversation is the conqueror of all mankind ; and this not only once, as you were the day before yesterday, but always. Whereupon, taking some of the ribands, he crowned Socrates, and again reclined.
 @ 
-213e6	Then he said: You seem, my friends, to be sober, which is a thing not to be endured; you must drink—for that was the agreement under which I was admitted—and I elect myself master of the feast until you are well drunk. Let us have a large goblet, Agathon, or rather, he said, addressing the attendant, bring me that wine-cooler.
+213e7	Then he said: You seem, my friends, to be sober, which is a thing not to be endured; you must drink—for that was the agreement under which I was admitted—and I elect myself master of the feast until you are well drunk. Let us have a large goblet, Agathon, or rather, he said, addressing the attendant, bring me that wine-cooler.
 214a1	The wine-cooler which had caught his eye was a vessel holding more than two quarts—this he filled and emptied, and bade the attendant fill it again for Socrates. Observe, my friends, said Alcibiades, that this ingenious trick of mine will have no effect on Socrates, for he can drink any quantity of wine and not be at all nearer being drunk. Socrates drank the cup which the attendant filled for him.
 @ 
 214a6	Eryximachus said: What is this, Alcibiades?
 214b1	Are we to have neither conversation nor singing over our cups; but simply to drink as if we were thirsty?
 @ 
-214b2	Alcibiades replied: Hail, worthy son of a most wise and worthy sire! The same to you, said Eryximachus; but what shall we do?
+214b3	Alcibiades replied: Hail, worthy son of a most wise and worthy sire! The same to you, said Eryximachus; but what shall we do?
 @ 
 214b5	That I leave to you, said Alcibiades.
 @ 
 214b5	'The wise physician skilled our wounds to heal'
 @ 
-214b7	shall prescribe and we will obey. What do you want?
+214b6	shall prescribe and we will obey. What do you want?
 @ 
-214b8	Well, said Eryximachus, before you appeared we had passed a resolution that each one of us in turn should make a speech in praise of love, and as good a one as he could:
+214b9	Well, said Eryximachus, before you appeared we had passed a resolution that each one of us in turn should make a speech in praise of love, and as good a one as he could:
 214c1	the turn was passed round from left to right; and as all of us have spoken, and you have not spoken but have well drunken, you ought to speak, and then impose upon Socrates any task which you please, and he on his right hand neighbour, and so on.
 @ 
 214c6	That is good, Eryximachus, said Alcibiades; and yet the comparison of a drunken man's speech with those of sober men is hardly fair;
@@ -521,7 +521,7 @@
 216b1	therefore I hold my ears and tear myself away from him. And he is the only person who ever made me ashamed, which you might think not to be in my nature, and there is no one else who does the same. For I know that I cannot answer him or say that I ought not to do as he bids, but when I leave his presence the love of popularity gets the better of me.
 216c1	And therefore I run away and fly from him, and when I see him I am ashamed of what I have confessed to him. Many a time have I wished that he were dead, and yet I know that I should be much more sorry than glad, if he were to die: so that I am at my wit's end.
 @ 
-216c5	And this is what I and many others have suffered from the flute-playing of this satyr. Yet hear me once more while I show you how exact the image is, and how marvellous his power.
+216c4	And this is what I and many others have suffered from the flute-playing of this satyr. Yet hear me once more while I show you how exact the image is, and how marvellous his power.
 216d1	For let me tell you ; none of you know him; but I will reveal him to you; having begun, I must go on. See you how fond he is of the fair? He is always with them and is always being smitten by them, and then again he knows nothing and is ignorant of all things—such is the appearance which he puts on. Is he not like a Silenus in this? To be sure he is: his outer mask is the carved head of the Silenus;
 216e1	but, O my companions in drink, when he is opened, what temperance there is residing within! Know you that beauty and wealth and honour, at which the many wonder, are of no account with him, and are utterly despised by him: he regards not at all the persons who are gifted with them; mankind are nothing to him; all his life is spent in mocking and flouting at them.
 217a1	But when I opened him, and looked within at his serious purpose, I saw in him divine and golden images of such fascinating beauty that I was ready to do in a moment whatever Socrates commanded: they may have escaped the observation of others, but I saw them. Now I fancied that he was seriously enamoured of my beauty, and I thought that I should therefore have a grand opportunity of hearing him tell what he knew, for I had a wonderful opinion of the attractions of my youth.
@@ -558,26 +558,26 @@
 221e1	they are ridiculous when you first hear them ; he clothes himself in language that is like the skin of the wanton satyr—for his talk is of pack-asses and smiths and cobblers and curriers, and he is always repeating the same things in the same words, so that any ignorant or inexperienced person might feel disposed to laugh at him;
 222a1	but he who opens the bust and sees what is within will find that they are the only words which have a meaning in them, and also the most divine, abounding in fair images of virtue, and of the widest comprehension, or rather extending to the whole duty of a good and honourable man.
 @ 
-222a6	This, friends, is my praise of Socrates. I have added my blame of him for his ill-treatment of me;
+222a7	This, friends, is my praise of Socrates. I have added my blame of him for his ill-treatment of me;
 222b1	and he has ill-treated not only me, but Charmides the son of Glaucon, and Euthydemus the son of Diodes, and many others in the same way—beginning as their lover he has ended by making them pay their addresses to him. Wherefore I say to you, Agathon, 'Be not deceived by him; learn from me and take warning, and do not be a fool and learn by experience, as the proverb says.'
 @ 
 222c1	When Alcibiades had finished, there was a laugh at his outspokenness; for he seemed to be still in love with Socrates. You are sober, Alcibiades, said Socrates, or you would never have gone so far about to hide the purpose of your satyr's praises, for all this long story is only an ingenious circumlocution, of which the point comes in by the way at the end;
 222d1	you want to get up a quarrel between me and Agathon, and your notion is that I ought to love you and nobody else, and that you and you only ought to love Agathon. But the plot of this Satyric or Silenic drama hasbeen detected, and you must not allow him, Agathon, to set us at variance.
 @ 
-222d5	I believe you are right, said Agathon, and I am disposed to think that his intention in placing himself between you and me was only to divide us;
+222d7	I believe you are right, said Agathon, and I am disposed to think that his intention in placing himself between you and me was only to divide us;
 222e1	but he shall gain nothing by that move; for I will go and lie on the couch next to you.
 @ 
-222e3	Yes, yes, replied Socrates, by all means come here and lie on the couch below me.
+222e4	Yes, yes, replied Socrates, by all means come here and lie on the couch below me.
 @ 
 222e4	Alas, said Alcibiades, how I am fooled by this man; he is determined to get the better of me at every turn. I do beseech you, allow Agathon to lie between us.
 @ 
-222e8	Certainly not, said Socrates; as you praised me, and I in turn ought to praise my neighbour on the right, he will be out of order in praising me again when he ought rather to be praised by me, and I must entreat you to consent to this, and not be jealous, for I have a great desire to praise the youth.
+222e6	Certainly not, said Socrates; as you praised me, and I in turn ought to praise my neighbour on the right, he will be out of order in praising me again when he ought rather to be praised by me, and I must entreat you to consent to this, and not be jealous, for I have a great desire to praise the youth.
 @ 
 223a1	Hurrah! cried Agathon, I will rise instantly, that I may be praised by Socrates.
 @ 
 223a3	The usual way, said Alcibiades; where Socrates is, no one else has any chance with the fair; and now how readily has he invented a specious reason for attracting Agathon to himself.
 @ 
-223a7	Agathon arose in order that he might take his place on the couch by Socrates, when suddenly a band of revellers entered, and spoiled the order of the banquet.
+223a6	Agathon arose in order that he might take his place on the couch by Socrates, when suddenly a band of revellers entered, and spoiled the order of the banquet.
 223b1	Some one who was going out having left the door open, they had found their way in, and made themselves at home; great confusion ensued, and every one was compelled to drink large quantities of wine. Aristodemus said that Eryximachus, Phaedrus, and others went away—he himself fell asleep, and as the nights were long took a good rest:
 223c1	he was awakened towards daybreak by a crowing of cocks, and when he awoke, the others were either asleep, or had gone away; there remained only Socrates, Aristophanes, and Agathon, who were drinking out of a large goblet which they passed round, and Socrates was discoursing to them. Aristodemus was only half awake, and he did not hear the beginning of the discourse;
 223d1	the chief thing which he remembered was Socrates compelling the other two to acknowledge that the genius of comedy was the same with that of tragedy, and that the true artist in tragedy was an artist in comedy also. To this they were constrained to assent, being drowsy, and not quite following the argument. And first of all Aristophanes dropped off, then, when the day was already dawning, Agathon. Socrates, having laid them to sleep, rose to depart; Aristodemus, as his manner was, following him. At the Lyceum he took a bath, and passed the day as usual. In the evening he retired to rest at his own home.

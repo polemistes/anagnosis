@@ -109,10 +109,14 @@ def jowett_paragraphs(sources: Path) -> list[str]:
 _SENTENCE_END = re.compile(r"[.?!;:](?:['’\"”)]*)\s+(?=\S)")
 
 
-def jowett_segments(paras: list[str], lines: list[tuple[str, str]]) -> list[tuple[str, str, bool]]:
+def jowett_segments(paras: list[str], lines: list[tuple[str, str]], greek_paragraphs: set[str] | None = None,
+                    reach: int = 4) -> list[tuple[str, str, bool]]:
     """(first Greek line, English, begins a paragraph) segments: Jowett's paragraphs, cut also
     where a Stephanus section begins (at the sentence end nearest to the section's place in
-    proportion to the Greek of its page)."""
+    proportion to the Greek of its page). A paragraph of Jowett's that begins within `reach`
+    lines of a paragraph of Burnet's is taken to begin with it."""
+    order = {n: i for i, (n, _t) in enumerate(lines)}
+    starts = sorted(order[n] for n in (greek_paragraphs or set()) if n in order)
     # the Greek: characters before each line, by page
     by_page: dict[int, list[tuple[str, int]]] = defaultdict(list)
     for n, text in lines:
@@ -172,6 +176,9 @@ def jowett_segments(paras: list[str], lines: list[tuple[str, str]]) -> list[tupl
             n = glines[idx][0]
             if _ord(n) < _ord(sec_n):
                 n = sec_n
+            near = [k for k in starts if abs(k - order[n]) <= reach]
+            if near:
+                n = lines[min(near, key=lambda k: abs(k - order[n]))][0]
             cuts[ps] = n
     out = []
     positions = sorted(cuts)
