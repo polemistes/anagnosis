@@ -197,7 +197,9 @@ def merge(transcriptions: Path, pages_dir: Path, texts: Path, sources: Path, lex
                 problems.append(f"{p['stem']}: bad apparatus number {n!r}")
                 continue
             bk, ln, letter, end = m.groups()
-            if letter:  # an added line: filed under the line it follows, with its own label
+            if ln == "0" and not letter:  # a note on the book's title: shown with its first line
+                heading, body = f"{bk}.1", f"*(title)* {item}"
+            elif letter:  # an added line: filed under the line it follows, with its own label
                 label = f"{ln}{letter}" + (f"–{end}" if end else "")
                 heading, body = f"{bk}.{ln}", f"*{label}* {item}"
             else:
