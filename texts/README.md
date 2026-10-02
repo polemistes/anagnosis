@@ -26,7 +26,8 @@ result with git before committing.
     == kind [label]         section; more '=' for deeper nesting (== choral / === strophe 1)
     @ Speaker               speaker change
     !<TAB>text              stage direction
-    <n><TAB>text            a line of text; n = line number, digits plus optional letter (161b)
+    <n><TAB>text            a line of text; n = line number, digits plus optional letter (161b),
+                            or book.line for an epic (1.12, 1.93a)
 
 The line number and the text are separated by a single TAB. Line numbers must be unique
 and increasing. In translations, `<n>` is the first Greek line the paragraph corresponds to,
@@ -122,6 +123,27 @@ from the OCR text of the 1891 scan (`pipeline/sources/scans/sophocles03soph_djvu
 heading `## 4` becomes `## 4 ff.` when an OCR paragraph starts with that label and the same
 Greek word. Headings may carry a range, a mark, or neither: `## 4`, `## 4-6`, `## 4 ff.`.
 Marks the OCR missed can be added by hand.
+
+## `aliases.tsv` (optional)
+
+Lemmas the dictionaries list under another headword, mostly Homeric forms:
+`lemma<TAB>headword`, e.g. `ἠέλιος	ἥλιος`. The word popup then shows the headword's entries and
+short definition. `check` counts aliased lemmas as covered.
+
+## The Odyssey (`texts/odyssey/`)
+
+The Greek text is T. W. Allen's Oxford edition (*Homeri Opera* III–IV, 2nd ed., 1917 and 1919),
+with his apparatus criticus in `commentary-allen-apparatus.md`, his preface in `preface.md` and
+his list of witnesses in `sigla.md`. Allen's edition exists only in print, so it was transcribed
+page by page from the Internet Archive scans; the transcription and its brief are in
+`pipeline/transcriptions/odyssey/`, and `merge-odyssey` builds the files here from it. The
+translation is A. T. Murray's (Loeb, 1919, from Perseus), the commentary that of Merry and
+Riddell (books 1–12) and Monro (books 13–24), also from Perseus.
+
+`tokens.tsv` comes from the Ancient Greek Dependency Treebank, which was made on the Perseus
+text (Murray's). Where Allen reads differently the word keeps its place in the treebank's
+sentence, and its lemma and parse come from the analyser; `merge-odyssey` lists those words in
+`pipeline/build/odyssey-review.tsv` for checking by hand. Lines are numbered book.line.
 
 ## Other documents (`sigla.md`, `introduction.md`, `appendix.md`)
 
