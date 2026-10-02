@@ -291,8 +291,18 @@ def _skeleton(s: str) -> str:
     return greek.strip_diacritics(s).replace("ς", "σ")
 
 
-# Treebank lemmas to correct (spelling, or a form used as lemma). Applied after alignment.
-LEMMA_FIXES: dict[str, str] = {}
+# Treebank lemmas to correct (spelling, or a form used as lemma). Applied after alignment, after
+# a stray breathing mark at the start of a lemma (̓ὀδυσσεύς) has been removed.
+LEMMA_FIXES: dict[str, str] = {
+    "ὀδυσσεύς": "Ὀδυσσεύς", "ἀθήνη": "Ἀθήνη", "ὠγυγία": "Ὠγυγία",
+    "πάτηρ": "πατήρ", "ἤτορ": "ἦτορ", "παίς": "παῖς", "ὁμοῖος": "ὅμοιος",
+    "Ποσειδεών": "Ποσειδῶν",  # the month, for Poseidon
+}
+
+
+def fix_lemma(lemma: str) -> str:
+    lemma = lemma.lstrip("\u0313\u0314'’ʼ᾿")
+    return LEMMA_FIXES.get(lemma, lemma)
 
 
 def align(doc: Document, tb: list[dict], keep_tb_form: bool = False) -> tuple[list[dict], list[str]]:
@@ -364,7 +374,7 @@ def align(doc: Document, tb: list[dict], keep_tb_form: bool = False) -> tuple[li
                        relation=w["relation"], head=w["head"])
             # the first part's tag fits when the merge is a crasis or compound of it
             row["postag"] = w["postag"] if _skeleton(ws[0]["lemma"]).startswith(_skeleton(form)[:2]) else ""
-        row["lemma"] = LEMMA_FIXES.get(row["lemma"], row["lemma"])
+        row["lemma"] = fix_lemma(row["lemma"])
         rows.append(row)
     return rows, warnings
 

@@ -79,6 +79,12 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
             rows = lq.selectEntriesByLooseKey(looseKey(token.lemma)).executeAsList()
                 .map { Entry(it.lexicon_slug, it.lexicon_title, it.headword, it.homograph, inflate(it.html)) }
         }
+        // a Homeric lemma the dictionaries list under another headword (ἠέλιος under ἥλιος)
+        val alias = q.selectAliasTarget(token.lemma_key).executeAsOneOrNull()
+        if (rows.isEmpty() && alias != null) {
+            rows = lq.selectEntriesByKey(alias).executeAsList()
+                .map { Entry(it.lexicon_slug, it.lexicon_title, it.headword, it.homograph, inflate(it.html)) }
+        }
         val glossary = q.selectGlossaryByKey(token.lemma_key).executeAsList()
             .map { Entry(it.lexicon_slug, it.lexicon_title, it.headword, it.homograph, it.html) }
         val short = q.selectShortDefinition(token.lemma_key).executeAsOneOrNull()?.definition

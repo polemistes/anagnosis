@@ -125,14 +125,15 @@ fun OptionsDialog(
 fun AboutDialog(appVersion: String, credits: List<Credit>, onDismiss: () -> Unit) {
     AlertDialog(
         onDismissRequest = onDismiss,
-        title = { Text("Anagnosis: Antigone") },
+        title = { Text("Anagnosis") },
         confirmButton = { TextButton(onClick = onDismiss) { Text("Close") } },
         text = {
             Column(Modifier.verticalScroll(rememberScrollState())) {
                 Text("Version $appVersion", style = MaterialTheme.typography.bodyMedium)
                 Spacer(Modifier.height(8.dp))
                 Text(
-                    "A reader for Sophocles' Antigone in ancient Greek, with translation, commentary and dictionaries, working offline.",
+                    "A reader for ancient Greek texts, with translations, commentaries and dictionaries, working offline. " +
+                        "Sophocles' Antigone comes with the app; other texts are added by apps of their own.",
                     style = MaterialTheme.typography.bodyMedium,
                 )
                 Spacer(Modifier.height(12.dp))
@@ -196,8 +197,8 @@ fun IntroDialog(onDismiss: () -> Unit) {
         text = {
             Column(Modifier.verticalScroll(rememberScrollState())) {
                 Text(
-                    "Anagnosis is a reader for ancient Greek texts. This app contains Sophocles' Antigone " +
-                        "with an English translation, a commentary and two dictionaries, all available offline.",
+                    "Anagnosis is a reader for ancient Greek texts. Each text comes with an English translation, " +
+                        "commentary and critical notes, and two dictionaries, all available offline.",
                     style = MaterialTheme.typography.bodyMedium,
                 )
                 Spacer(Modifier.height(12.dp))
@@ -207,6 +208,7 @@ fun IntroDialog(onDismiss: () -> Unit) {
                 HelpItem("Swipe left or right", "to turn the page.")
                 HelpItem("Press or slide on the bar at the bottom", "to go to any part of the text.")
                 HelpItem("Greek / English", "at the top switches between the text and the translation.")
+                HelpItem("Book", "at the top of an epic such as the Odyssey chooses the book to read. Swiping past the last page of a book goes on to the next.")
                 HelpItem("The gear", "opens the options: font, text size, line numbers and colours. You can reopen this help there.")
             }
         },

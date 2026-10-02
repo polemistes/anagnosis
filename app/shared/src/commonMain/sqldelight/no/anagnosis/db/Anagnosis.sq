@@ -131,6 +131,12 @@ WHERE commentary_id = ?
        OR (from_n_int <= :lastN AND to_n_int >= :firstN AND to_n_int - from_n_int < :maxSpan))
 ORDER BY from_n_int, to_n_int DESC, ord;
 
+-- A lemma the dictionaries list under another headword (Homeric ἠέλιος under ἥλιος).
+CREATE TABLE lemma_aliases (lemma_key TEXT NOT NULL PRIMARY KEY, target_key TEXT NOT NULL);
+
+selectAliasTarget:
+SELECT target_key FROM lemma_aliases WHERE lemma_key = ?;
+
 CREATE TABLE documents (
     id INTEGER NOT NULL PRIMARY KEY, work_id INTEGER NOT NULL, slug TEXT NOT NULL,
     title TEXT NOT NULL, source TEXT, license TEXT, html TEXT NOT NULL

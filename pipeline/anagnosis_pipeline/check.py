@@ -103,6 +103,12 @@ def check_work(work_dir: Path, lexicon_keys: dict[str, set[str]] | None, sources
                     hw = raw[3:].strip()
                     lexicon_keys["exact"].add(greek.lemma_key(hw))
                     lexicon_keys["loose"].add(greek.strip_diacritics(hw))
+        from .build import read_aliases
+        aliases = read_aliases(work_dir / "aliases.tsv")
+        for k, target in aliases.items():
+            if target in lexicon_keys["exact"]:
+                lexicon_keys["exact"].add(k)
+                lexicon_keys["loose"].add(greek.strip_diacritics(k))
         counts = collections.Counter(t["lemma"] for t in tokens if t["lemma"])
         missing_exact = {lem: c for lem, c in counts.items() if greek.lemma_key(lem) not in lexicon_keys["exact"]}
         missing_loose = {lem: c for lem, c in missing_exact.items() if greek.strip_diacritics(lem) not in lexicon_keys["loose"]}
@@ -118,9 +124,12 @@ def check_work(work_dir: Path, lexicon_keys: dict[str, set[str]] | None, sources
     from .build import load_logeion_shortdefs, read_shortdef_overrides, resolve_short_definition
     exact, loose = load_logeion_shortdefs(sources)
     overrides = read_shortdef_overrides(work_dir / "shortdefs.tsv")
+    from .build import read_aliases
+    aliases = read_aliases(work_dir / "aliases.tsv")
     counts = collections.Counter(t["lemma"] for t in tokens if t["lemma"])
     no_short = {l: c for l, c in counts.items()
-                if greek.lemma_key(l) not in overrides and resolve_short_definition(l, exact, loose) is None}
+                if greek.lemma_key(l) not in overrides and resolve_short_definition(l, exact, loose) is None
+                and not (greek.lemma_key(l) in aliases and (aliases[greek.lemma_key(l)] in exact or aliases[greek.lemma_key(l)] in overrides))}
     print(f"  short definitions: {len(counts) - len(no_short)}/{len(counts)} lemmas covered; "
           f"{len(no_short)} without ({sum(no_short.values())} tokens) - add them to shortdefs.tsv:")
     for lem, c in sorted(no_short.items(), key=lambda x: -x[1])[:60]:

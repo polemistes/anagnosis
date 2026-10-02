@@ -82,6 +82,10 @@ CREATE TABLE commentary_notes (
 );
 CREATE INDEX commentary_notes_range ON commentary_notes(commentary_id, from_n_int);
 
+-- A lemma the dictionaries list under another headword (Homeric ἠέλιος under ἥλιος):
+-- the word sheet shows the target's entries and short definition.
+CREATE TABLE lemma_aliases (lemma_key TEXT PRIMARY KEY, target_key TEXT NOT NULL);
+
 CREATE TABLE documents (
     id INTEGER PRIMARY KEY, work_id INTEGER NOT NULL REFERENCES works(id), slug TEXT NOT NULL,
     title TEXT NOT NULL, source TEXT, license TEXT, html TEXT NOT NULL
@@ -266,7 +270,9 @@ def build_texts(texts: Path, sources: Path, out_dir: Path, only: str | None = No
         db.executemany("INSERT INTO meta VALUES (?, ?)", [("schema_version", str(SCHEMA_VERSION)), ("kind", "text")])
         keys, lemmas = build_work(db, work_dir)
         overrides = read_shortdef_overrides(work_dir / "shortdefs.tsv")
-        build_short_definitions(db, sources, lemmas, overrides)
+        aliases = read_aliases(work_dir / "aliases.tsv")
+        db.executemany("INSERT INTO lemma_aliases VALUES (?, ?)", sorted(aliases.items()))
+        build_short_definitions(db, sources, lemmas, overrides, aliases)
         _finish(db, path)
     (out_dir / "catalog.json").write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     # each text's own entry, for the app that sells it to hand to the reader
@@ -450,8 +456,24 @@ def resolve_short_definition(lemma: str, exact: dict[str, str], loose: dict[str,
     return None
 
 
-def build_short_definitions(db: sqlite3.Connection, sources: Path, lemmas: dict[str, str], overrides: dict[str, str]) -> None:
+def read_aliases(path: Path) -> dict[str, str]:
+    """texts/<work>/aliases.tsv: 'lemma<TAB>headword' lines ('#' comments); lemma key -> headword key."""
+    out: dict[str, str] = {}
+    if not path.exists():
+        return out
+    for raw in path.read_text(encoding="utf-8").splitlines():
+        if not raw.strip() or raw.startswith("#"):
+            continue
+        lemma, _, target = raw.partition("\t")
+        if target.strip():
+            out[greek.lemma_key(lemma)] = greek.lemma_key(target.strip())
+    return out
+
+
+def build_short_definitions(db: sqlite3.Connection, sources: Path, lemmas: dict[str, str], overrides: dict[str, str],
+                            aliases: dict[str, str] | None = None) -> None:
     exact, loose = load_logeion_shortdefs(sources)
+    aliases = aliases or {}
     rows = []
     missing = []
     for key, lemma in sorted(lemmas.items()):
@@ -459,6 +481,8 @@ def build_short_definitions(db: sqlite3.Connection, sources: Path, lemmas: dict[
             rows.append((key, "override", overrides[key]))
             continue
         definition = resolve_short_definition(lemma, exact, loose)
+        if definition is None and key in aliases:
+            definition = overrides.get(aliases[key]) or exact.get(aliases[key])
         if definition is None:
             missing.append(lemma)
         else:
