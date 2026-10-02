@@ -37,7 +37,14 @@ sealed interface Screen {
 }
 
 @Composable
-fun App(repository: AnagnosisRepository, settingsStore: SettingsStore, appVersion: String) {
+fun App(
+    repository: AnagnosisRepository,
+    settingsStore: SettingsStore,
+    appVersion: String,
+    resumeCount: Int = 0,
+    openText: String? = null,
+    onOpenTextHandled: () -> Unit = {},
+) {
     var settings by remember { mutableStateOf(settingsStore.load()) }
     var showIntro by remember { mutableStateOf(false) }
     val systemDark = isSystemInDarkTheme()
@@ -48,11 +55,20 @@ fun App(repository: AnagnosisRepository, settingsStore: SettingsStore, appVersio
     val loaded = remember { HashMap<String, WorkData>() }
     var current by remember { mutableStateOf<WorkData?>(null) }
 
-    LaunchedEffect(Unit) {
+    // Read the catalog whenever the app comes to the front: a text bought as an app of its own
+    // is copied in then.
+    LaunchedEffect(resumeCount) {
         val list = withContext(Dispatchers.Default) { repository.catalog() }
         catalog = list
         // A fresh start opens on the front page; the reading position is kept per text, so
         // "Read the text" continues where the reader left off.
+    }
+    // the app that sells a text asked for it to be opened
+    LaunchedEffect(openText, catalog) {
+        val slug = openText ?: return@LaunchedEffect
+        val list = catalog ?: return@LaunchedEffect
+        if (list.any { it.slug == slug && it.installed }) screen = Screen.TextHome(slug)
+        onOpenTextHandled()
     }
     val wantedSlug = ((screen as? Screen.Search)?.from as? Screen.Reader)?.slug ?: (screen as? Screen.Reader)?.slug
     LaunchedEffect(wantedSlug) {

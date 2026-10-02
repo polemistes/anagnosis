@@ -24,6 +24,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import no.anagnosis.data.AnagnosisRepository
@@ -71,9 +72,14 @@ fun LibraryScreen(
         Text("Texts", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary, modifier = Modifier.fillMaxWidth())
         Spacer(Modifier.height(8.dp))
         Column(Modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+            val uriHandler = LocalUriHandler.current
             for (entry in catalog.sortedByDescending { it.installed }) {
+                // a text sold as an app of its own leads to its page on Google Play until installed
+                val store = entry.appId.takeIf { !entry.installed && it.isNotEmpty() }?.let { "https://play.google.com/store/apps/details?id=$it" }
                 Card(
-                    modifier = Modifier.fillMaxWidth().clickable(enabled = entry.installed) { onOpen(entry.slug) },
+                    modifier = Modifier.fillMaxWidth().clickable(enabled = entry.installed || store != null) {
+                        if (entry.installed) onOpen(entry.slug) else store?.let { uriHandler.openUri(it) }
+                    },
                 ) {
                     Column(Modifier.padding(16.dp)) {
                         Text(entry.titleEn.ifEmpty { entry.title }, style = MaterialTheme.typography.titleLarge)
@@ -84,9 +90,13 @@ fun LibraryScreen(
                         }
                         Spacer(Modifier.height(8.dp))
                         Text(
-                            if (entry.installed) "Installed" else "Not yet available",
+                            when {
+                                entry.installed -> "Installed"
+                                store != null -> "Available on Google Play as a separate app"
+                                else -> "Not yet available"
+                            },
                             style = MaterialTheme.typography.labelMedium,
-                            color = if (entry.installed) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.outline,
+                            color = if (entry.installed || store != null) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.outline,
                         )
                     }
                 }

@@ -25,11 +25,11 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
             val w = textDb(slug).anagnosisQueries.selectWorkBySlug(slug).executeAsOneOrNull()
             CatalogEntry(slug, w?.title ?: slug, w?.author ?: "", w?.title ?: slug, w?.author ?: "", "", w?.edition ?: "", true)
         }
-        return entries.map { it.copy(installed = it.slug in installed) } + extra
+        return entries.map { it.copy(installed = it.slug in installed) }.distinctBy { it.slug } + extra
     }
 
     private fun CatalogEntry.copy(installed: Boolean) =
-        CatalogEntry(slug, title, author, titleEn, authorEn, description, edition, installed)
+        CatalogEntry(slug, title, author, titleEn, authorEn, description, edition, installed, appId)
 
     private fun parseCatalog(json: String): List<CatalogEntry> {
         // the catalog is a flat JSON array of objects with string values; a small parser suffices
@@ -40,7 +40,7 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
         }
         return objects.map { o ->
             CatalogEntry(field(o, "slug"), field(o, "title"), field(o, "author"), field(o, "title_en"),
-                field(o, "author_en"), field(o, "description"), field(o, "edition"), false)
+                field(o, "author_en"), field(o, "description"), field(o, "edition"), false, field(o, "app_id"))
         }.filter { it.slug.isNotEmpty() }.toList()
     }
 
@@ -65,7 +65,8 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
             while (i < starts.size && starts[i] <= line.n_int) { mark = true; i++ }
             if (mark) withNotes += line.id
         }
-        return WorkData(slug, work, lines, tokens, nodes, sections, translations, commentaries, withNotes)
+        val bookNumbered = q.selectMeta("line_numbers").executeAsOneOrNull() == "book.line"
+        return WorkData(slug, work, lines, tokens, nodes, sections, translations, commentaries, withNotes, bookNumbered)
     }
 
     fun lookupWord(data: WorkData, tokenId: Long): WordInfo? {

@@ -30,6 +30,8 @@ import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.DropdownMenu
+import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
@@ -83,6 +85,7 @@ import kotlinx.coroutines.ensureActive
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import no.anagnosis.data.AnagnosisRepository
+import no.anagnosis.data.Book
 import no.anagnosis.data.NoteGroup
 import no.anagnosis.data.NoteKind
 import no.anagnosis.data.kind
@@ -165,7 +168,20 @@ fun ReaderScreen(
     var pageNotes by remember { mutableStateOf<List<NoteGroup>>(emptyList()) }
 
     val translation = data.translations.firstOrNull()
-    val rows = remember(data) { buildRows(data) }
+    val allRows = remember(data) { buildRows(data) }
+    // An epic is read one book at a time: pagination stays quick, and a page before and after
+    // each book leads to the neighbouring one. For a play `book` is null and all rows are paged.
+    var book by remember(data) { mutableStateOf(if (data.bookNumbered) data.bookOf(startLine).coerceIn(data.books.first().number, data.books.last().number) else null) }
+    val currentBook = book?.let { b -> data.books.firstOrNull { it.number == b } }
+    val rows = remember(allRows, book) { if (book == null) allRows else allRows.filter { data.bookOf(it.nInt) == book } }
+    val bookLines = remember(data, book) { if (currentBook == null) data.lines else data.lines.filter { it.n_int in currentBook.firstN..currentBook.lastN } }
+    val bookSegments = remember(translation, book) {
+        val segs = translation?.segments ?: emptyList()
+        if (currentBook == null) segs else segs.filter { it.from_n_int in currentBook.firstN..currentBook.lastN }
+    }
+    val prevBook = currentBook?.let { b -> data.books.lastOrNull { it.number < b.number } }
+    val nextBook = currentBook?.let { b -> data.books.firstOrNull { it.number > b.number } }
+    var showBooks by remember { mutableStateOf(false) }
     // The sentence whose syntax sheet is open, by treebank sentence id.
     var syntaxSentence by remember { mutableStateOf<String?>(null) }
     val selectedToken = remember(selectedTokenId, data) {
@@ -189,18 +205,39 @@ fun ReaderScreen(
     var pinchSize by remember { mutableStateOf<Float?>(null) }
     var pinchAnchorRow by remember { mutableStateOf<ReaderRow?>(null) }
     var pages by remember { mutableStateOf<List<Page>>(emptyList()) }
-    val pagerState = rememberPagerState { pages.size }
+    // False from a change of book until the new pages are cut and scrolled to the anchor: until
+    // then the pager's index belongs to the old pages and must not move the reader.
+    var positioned by remember { mutableStateOf(false) }
+    // pager index = page index + offset: the first pager page leads back to the previous book
+    val offset = if (prevBook != null && pages.isNotEmpty()) 1 else 0
+    val stubs = if (pages.isEmpty()) 0 else offset + (if (nextBook != null) 1 else 0)
+    val pagerState = rememberPagerState { pages.size + stubs }
+    fun pageAt(pagerIndex: Int): Page? = pages.getOrNull(pagerIndex - offset)
+    /** Opens another book at its first line, or at its last page when going back. */
+    fun goToBook(target: Book, atEnd: Boolean = false) {
+        positioned = false
+        pages = emptyList()
+        anchorN = if (atEnd) target.lastN else target.firstN
+        book = target.number
+    }
     val scope = rememberCoroutineScope()
 
     // The page being previewed while a finger slides on the progress bar, or null.
     var scrubPage by remember { mutableStateOf<Int?>(null) }
 
     LaunchedEffect(pagerState.currentPage, pages) {  // also once the pages exist, so opening a text counts as reading it
-        if (scrubPage == null) pages.getOrNull(pagerState.currentPage)?.let { anchorN = it.firstN; onPositionChange(it.firstN) }
+        if (scrubPage == null && positioned) pageAt(pagerState.currentPage)?.let { anchorN = it.firstN; onPositionChange(it.firstN) }
+    }
+    // Settling on the page before or after a book opens the neighbouring book.
+    LaunchedEffect(pagerState.settledPage, pages, positioned) {
+        if (pages.isEmpty() || !positioned) return@LaunchedEffect
+        val i = pagerState.settledPage
+        if (i < offset) prevBook?.let { goToBook(it, atEnd = true) }
+        else if (i >= offset + pages.size) nextBook?.let { goToBook(it) }
     }
     LaunchedEffect(pageNotesKind, pagerState.currentPage) {
         val kind = pageNotesKind
-        val page = pages.getOrNull(pagerState.currentPage)
+        val page = pageAt(pagerState.currentPage)
         pageNotes = if (kind == null || page == null) emptyList() else withContext(Dispatchers.Default) {
             repository.notesForPage(data, page.firstN, page.lastN, kind)
         }
@@ -242,6 +279,19 @@ fun ReaderScreen(
                         }
                     }
                     Spacer(Modifier.weight(1f))
+                    if (currentBook != null) {
+                        Box {
+                            TextButton(onClick = { showBooks = true }) { Text("Book ${currentBook.label}") }
+                            DropdownMenu(expanded = showBooks, onDismissRequest = { showBooks = false }) {
+                                for (b in data.books) {
+                                    DropdownMenuItem(
+                                        text = { Text("Book ${b.label}", fontWeight = if (b.number == currentBook.number) FontWeight.Bold else null) },
+                                        onClick = { showBooks = false; if (b.number != currentBook.number) goToBook(b) },
+                                    )
+                                }
+                            }
+                        }
+                    }
                     IconButton(onClick = onSearch) {
                         Icon(Icons.Filled.Search, contentDescription = "Dictionary")
                     }
@@ -254,13 +304,18 @@ fun ReaderScreen(
         bottomBar = {
             ProgressScrubber(
                 pages = pages,
-                currentPage = scrubPage ?: pagerState.currentPage,
+                currentPage = scrubPage ?: (pagerState.currentPage - offset).coerceIn(0, maxOf(0, pages.size - 1)),
+                span = { first, last ->
+                    val prefix = currentBook?.let { "Book ${it.number}, " } ?: ""
+                    if (first == last) "${prefix}line ${data.lineLabel(first)}".replaceFirstChar { it.uppercase() }
+                    else "${prefix}lines ${data.lineLabel(first)}–${data.lineLabel(last)}".replaceFirstChar { it.uppercase() }
+                },
                 scrubbing = scrubPage != null,
                 noteKinds = data.commentaries.map { it.kind() }.distinct(),
                 onNotes = { pageNotesKind = it },
                 onScrub = { page ->
                     scrubPage = page
-                    scope.launch { pagerState.scrollToPage(page) }
+                    scope.launch { pagerState.scrollToPage(page + offset) }
                 },
                 onRelease = { scrubPage = null },
             )
@@ -298,9 +353,9 @@ fun ReaderScreen(
                 val cache = HashMap(measureCache)
                 val computed = withContext(Dispatchers.Default) {
                     val enHeights = if (settings.fitTranslation && translation != null) {
-                        translationHeights(translation.segments, data.lines, backgroundMeasurer, styles, widthPx, density)
+                        translationHeights(bookSegments, bookLines, backgroundMeasurer, styles, widthPx, density, data::lineLabel)
                     } else emptyMap()
-                    paginate(rows, backgroundMeasurer, styles, widthPx - numberColumnPx, heightPx, density, settings.lineNumbers, enHeights, anchorIndex, cache) { ensureActive() }
+                    paginate(rows, backgroundMeasurer, styles, widthPx - numberColumnPx, heightPx, density, settings.lineNumbers, enHeights, anchorIndex, cache, { data.lineLabel(it.n_int, it.n_sub) }) { ensureActive() }
                 }
                 measureCache.putAll(cache)
                 pages = computed
@@ -308,21 +363,24 @@ fun ReaderScreen(
                 pinchSize = null  // a committed pinch keeps its preview on screen until here
                 val byRow = if (anchorRow != null) computed.indexOfFirst { page -> page.rows.any { it === anchorRow } } else -1
                 val target = if (byRow >= 0) byRow else computed.indexOfLast { it.firstN <= anchorN }.coerceAtLeast(0)
-                pagerState.scrollToPage(target)
+                // the page before the book exists once pages do
+                pagerState.scrollToPage(target + (if (prevBook != null) 1 else 0))
+                positioned = true
+                pages.getOrNull(target)?.let { anchorN = it.firstN; onPositionChange(it.firstN) }
             }
             // Live preview during a pinch: only the current page, re-laid out at the previewed size.
             val previewStyles = pinchSize?.let { size -> stylesFor(typography, base, family, (size + 0.5f).toInt()) }
             val previewPage = if (previewStyles != null && pages.isNotEmpty()) {
-                val page = pages.getOrNull(pagerState.currentPage)
+                val page = pageAt(pagerState.currentPage)
                 val first = page?.rows?.firstOrNull()
                 val startIdx = if (first != null) rows.indexOfFirst { it === first } else -1
                 if (startIdx >= 0) {
                     val enHeights = if (settings.fitTranslation && translation != null) {
-                        translationHeights(translation.segments, data.lines, measurer, previewStyles, widthPx, density)
+                        translationHeights(bookSegments, bookLines, measurer, previewStyles, widthPx, density, data::lineLabel)
                     } else emptyMap()
                     // only as many rows as could possibly fit on one page, so the preview stays cheap
                     val endIdx = minOf(rows.size, startIdx + 120)
-                    paginate(rows.subList(startIdx, endIdx), measurer, previewStyles, widthPx - numberColumnPx, heightPx, density, settings.lineNumbers, enHeights).firstOrNull()
+                    paginate(rows.subList(startIdx, endIdx), measurer, previewStyles, widthPx - numberColumnPx, heightPx, density, settings.lineNumbers, enHeights, label = { data.lineLabel(it.n_int, it.n_sub) }).firstOrNull()
                 } else null
             } else null
             // Two-finger pinch changes the text size; one finger is left to the pager. The page
@@ -357,7 +415,7 @@ fun ReaderScreen(
                     }
                     if (pinched) {
                         // commit: the previewed page keeps its first row after the full re-pagination
-                        val page = currentPages.value.getOrNull(pagerState.currentPage)
+                        val page = currentPages.value.getOrNull(pagerState.currentPage - offset)
                         pinchAnchorRow = page?.rows?.firstOrNull()
                         val rounded = (size + 0.5f).toInt()
                         val current = currentSettings.value
@@ -387,9 +445,14 @@ fun ReaderScreen(
                     CircularProgressIndicator(Modifier.align(Alignment.Center))
                 }
                 if (pages.isNotEmpty()) {
-                    val pageSegments = remember(pages, translation) { segmentsByPage(pages, translation?.segments ?: emptyList(), data.lines) }
+                    val pageSegments = remember(pages, bookSegments) { segmentsByPage(pages, bookSegments, bookLines) }
                     HorizontalPager(state = pagerState, modifier = Modifier.fillMaxSize(), beyondViewportPageCount = 1) { index ->
-                        val page = pages.getOrNull(index) ?: return@HorizontalPager
+                        if (index < offset || index >= offset + pages.size) {
+                            val target = if (index < offset) prevBook else nextBook
+                            if (target != null) BookStub(target, styles)
+                            return@HorizontalPager
+                        }
+                        val page = pages.getOrNull(index - offset) ?: return@HorizontalPager
                         PageFrame(
                             greek = {
                                 PageContent(
@@ -399,19 +462,19 @@ fun ReaderScreen(
                                 )
                             },
                             english = if (translation == null) null else {
-                                { TranslationPage(pageSegments.getOrNull(index) ?: emptyList(), styles, showAnchors, Modifier.fillMaxSize()) }
+                                { TranslationPage(pageSegments.getOrNull(index - offset) ?: emptyList(), styles, showAnchors, Modifier.fillMaxSize(), data::lineLabel) }
                             },
                         )
                     }
                 }
                 if (previewPage != null && previewStyles != null) {
                     val previewSegments = if (sideBySide && translation != null) {
-                        segmentsByPage(listOf(previewPage), translation.segments, data.lines).first()
+                        segmentsByPage(listOf(previewPage), bookSegments, bookLines).first()
                     } else emptyList()
                     PageFrame(
                         greek = { PageContent(previewPage, previewStyles, data, numberColumn, forcedColumn, onWord = {}, onSentence = {}) },
                         english = if (translation == null) null else {
-                            { TranslationPage(previewSegments, previewStyles, showAnchors, Modifier.fillMaxSize()) }
+                            { TranslationPage(previewSegments, previewStyles, showAnchors, Modifier.fillMaxSize(), data::lineLabel) }
                         },
                         modifier = Modifier.background(MaterialTheme.colorScheme.background),
                     )
@@ -493,10 +556,33 @@ private fun segmentsByPage(pages: List<Page>, segments: List<Translation_segment
     val out = List(pages.size) { mutableListOf<Translation_segments>() }
     if (pages.isEmpty()) return out
     for (seg in segments) {
-        val line = lines.firstOrNull { it.n_int >= seg.from_n_int } ?: lines.last()
+        if (lines.isEmpty()) break
+        val line = firstLineFrom(lines, seg.from_n_int)
         out[pageOfLine[line.id] ?: (pages.size - 1)] += seg
     }
     return out
+}
+
+/** The first line at or after n (binary search; `lines` is in order), or the last line. */
+private fun firstLineFrom(lines: List<Lines>, n: Long): Lines {
+    var lo = 0
+    var hi = lines.size - 1
+    if (lines[hi].n_int < n) return lines[hi]
+    while (lo < hi) {
+        val mid = (lo + hi) / 2
+        if (lines[mid].n_int >= n) hi = mid else lo = mid + 1
+    }
+    return lines[lo]
+}
+
+/** The page before or after a book: its title, leading on to it. */
+@Composable
+private fun BookStub(target: Book, styles: Styles) {
+    Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+        Column(horizontalAlignment = Alignment.CenterHorizontally) {
+            Text("Book ${target.label}", style = styles.section, color = MaterialTheme.colorScheme.onBackground)
+        }
+    }
 }
 
 /** Measure every row at the given width, assign line numbers, and cut the list into pages. */
@@ -511,6 +597,7 @@ private fun paginate(
     translationHeights: Map<Long, Int> = emptyMap(),
     anchorIndex: Int? = null,
     cache: MutableMap<ReaderRow, Measured>? = null,
+    label: (Lines) -> String = { it.n },
     checkActive: () -> Unit = {},
 ): List<Page> {
     if (widthPx <= 0 || heightPx <= 0) return emptyList()
@@ -552,15 +639,15 @@ private fun paginate(
         val row = lineAt(k)
         when (numbering) {
             LineNumberMode.NONE -> {}
-            LineNumberMode.ALL -> if (measured[i].numberFits) numbers[row] = row.line.n
+            LineNumberMode.ALL -> if (measured[i].numberFits) numbers[row] = label(row.line)
             LineNumberMode.FIFTH -> {
                 val isTarget = row.line.n_int % 5 == 0L || row.line.n_sub.isNotEmpty()
                 if (!isTarget) continue
                 when {
-                    fitsAt(k) -> numbers[row] = row.line.n
-                    k + 1 < greekIdx.size && fitsAt(k + 1) && lineAt(k + 1) !in numbers -> numbers[lineAt(k + 1)] = lineAt(k + 1).line.n
-                    k > 0 && fitsAt(k - 1) && lineAt(k - 1) !in numbers -> numbers[lineAt(k - 1)] = lineAt(k - 1).line.n
-                    else -> { numbers[row] = row.line.n; forced += row }
+                    fitsAt(k) -> numbers[row] = label(row.line)
+                    k + 1 < greekIdx.size && fitsAt(k + 1) && lineAt(k + 1) !in numbers -> numbers[lineAt(k + 1)] = label(lineAt(k + 1).line)
+                    k > 0 && fitsAt(k - 1) && lineAt(k - 1) !in numbers -> numbers[lineAt(k - 1)] = label(lineAt(k - 1).line)
+                    else -> { numbers[row] = label(row.line); forced += row }
                 }
             }
         }
@@ -661,13 +748,14 @@ private fun translationHeights(
     styles: Styles,
     widthPx: Int,
     density: androidx.compose.ui.unit.Density,
+    anchorLabel: (Long) -> String = { it.toString() },
 ): Map<Long, Int> {
-    if (widthPx <= 0) return emptyMap()
+    if (widthPx <= 0 || lines.isEmpty()) return emptyMap()
     val constraints = Constraints(maxWidth = widthPx)
     val gap = with(density) { SEGMENT_GAP.roundToPx() }
     val speakerTop = with(density) { (SPEAKER_TOP + ROW_GAP).roundToPx() }
     val out = HashMap<Long, Int>()
-    fun lineOf(seg: Translation_segments) = lines.firstOrNull { it.n_int >= seg.from_n_int } ?: lines.last()
+    fun lineOf(seg: Translation_segments) = firstLineFrom(lines, seg.from_n_int)
     fun add(seg: Translation_segments, h: Int) {
         val id = lineOf(seg).id
         out[id] = (out[id] ?: 0) + h
@@ -688,7 +776,7 @@ private fun translationHeights(
         val prefix = StringBuilder()
         for ((k, g) in group.withIndex()) {
             if (k > 0) prefix.append(' ')
-            prefix.append(g.from_n_int).append('\u2009').append(g.text)
+            prefix.append(anchorLabel(g.from_n_int)).append('\u2009').append(g.text)
             val h = measurer.measure(prefix.toString(), styles.translation, constraints = constraints).size.height
             add(g, h - previous + if (k == group.lastIndex) gap else 0)
             previous = h
@@ -816,7 +904,7 @@ private fun GreekLineRow(
  * one paragraph; each segment's anchor line number is shown as a small raised figure.
  */
 @Composable
-private fun TranslationPage(segments: List<Translation_segments>, styles: Styles, showAnchors: Boolean, modifier: Modifier) {
+private fun TranslationPage(segments: List<Translation_segments>, styles: Styles, showAnchors: Boolean, modifier: Modifier, anchorLabel: (Long) -> String = { it.toString() }) {
     val anchorStyle = SpanStyle(
         fontSize = 10.sp,
         color = MaterialTheme.colorScheme.outline,
@@ -842,7 +930,7 @@ private fun TranslationPage(segments: List<Translation_segments>, styles: Styles
                 group.forEachIndexed { k, g ->
                     if (k > 0) append(" ")
                     if (showAnchors) {
-                        withStyle(anchorStyle) { append(g.from_n_int.toString()) }
+                        withStyle(anchorStyle) { append(anchorLabel(g.from_n_int)) }
                         append("\u2009")
                     }
                     append(g.text)
@@ -859,6 +947,7 @@ private fun TranslationPage(segments: List<Translation_segments>, styles: Styles
 private fun ProgressScrubber(
     pages: List<Page>,
     currentPage: Int,
+    span: (Long, Long) -> String,
     scrubbing: Boolean,
     noteKinds: List<NoteKind>,
     onNotes: (NoteKind) -> Unit,
@@ -876,7 +965,7 @@ private fun ProgressScrubber(
             ) {
                 val page = pages.getOrNull(currentPage)
                 if (page != null && count > 0) {
-                    val span = if (page.firstN == page.lastN) "Line ${page.firstN}" else "Lines ${page.firstN}–${page.lastN}"
+                    val span = span(page.firstN, page.lastN)
                     Text(
                         span,
                         style = MaterialTheme.typography.labelMedium,

@@ -20,6 +20,8 @@ class CatalogEntry(
     val description: String,
     val edition: String,
     val installed: Boolean,
+    /** The Google Play id of the separate app that adds this text, if it is sold that way. */
+    val appId: String = "",
 )
 
 /** Everything needed to display one work, loaded once. */
@@ -35,7 +37,32 @@ class WorkData(
     val commentaries: List<Commentaries>,
     /** ids of the lines that open commentary notes (shown with a dot). */
     val linesWithNotes: Set<Long>,
-)
+    /** An epic cited by book and line (1.12): n_int is book * 1000 + line. */
+    val bookNumbered: Boolean = false,
+) {
+    /** The books of an epic in order (empty for a play): number, label and first and last line. */
+    val books: List<Book> by lazy {
+        if (!bookNumbered) emptyList() else lines.groupBy { bookOf(it.n_int) }.map { (b, ls) ->
+            val label = sectionsByFirstLine[ls.first().id]?.firstOrNull()?.label ?: b.toString()
+            Book(b, label, ls.first().n_int, ls.last().n_int)
+        }
+    }
+
+    /** The number of a line as printed in the margin: within its book for an epic. */
+    fun lineLabel(nInt: Long, sub: String = ""): String = if (bookNumbered) "${nInt % BOOK}$sub" else "$nInt$sub"
+
+    /** The full reference of a line: 1.12 for an epic, 12 for a play. */
+    fun citation(nInt: Long, sub: String = ""): String = if (bookNumbered) "${nInt / BOOK}.${nInt % BOOK}$sub" else "$nInt$sub"
+
+    fun bookOf(nInt: Long): Int = (nInt / BOOK).toInt()
+
+    companion object {
+        const val BOOK = 1000L
+    }
+}
+
+/** A book of an epic; `label` is e.g. "1 · Α". */
+class Book(val number: Int, val label: String, val firstN: Long, val lastN: Long)
 
 class TranslationData(val translation: Translations, val segments: List<Translation_segments>)
 

@@ -27,6 +27,7 @@ def main(argv: list[str] | None = None) -> int:
     ma.add_argument("--batches", default=str(ROOT / "pipeline" / "build" / "apparatus"))
     b = sub.add_parser("build", help="build data/lexicon.sqlite and one data/<text>.sqlite per text")
     b.add_argument("--out", default=str(DATA))
+    b.add_argument("--only", help="rebuild only this text's database (and the catalog), keeping the lexicon")
     args = ap.parse_args(argv)
 
     if args.cmd == "fetch":
@@ -67,7 +68,7 @@ def main(argv: list[str] | None = None) -> int:
         return 1 if verify(TEXTS / "antigone" / "commentary-jebb-apparatus.md", TEXTS / "antigone" / "grc.txt") else 0
     elif args.cmd == "build":
         from .build import build
-        build(TEXTS, SOURCES, Path(args.out))
+        build(TEXTS, SOURCES, Path(args.out), only=args.only)
     return 0
 
 

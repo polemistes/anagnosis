@@ -7,3 +7,4 @@ local.properties
 *.iml
 androidApp/src/main/assets/data/
 /keystore/
+odysseyApp/src/main/assets/data/

@@ -196,10 +196,18 @@ def _finish(db: sqlite3.Connection, out: Path) -> None:
     print(f"wrote {out} ({out.stat().st_size / 1e6:.1f} MB), version {digest}")
 
 
-def build(texts: Path, sources: Path, out_dir: Path) -> None:
-    """Write data/lexicon.sqlite (LSJ + Middle Liddell, shared) and data/<slug>.sqlite per text."""
-    out_dir.mkdir(parents=True, exist_ok=True)
+def build(texts: Path, sources: Path, out_dir: Path, only: str | None = None) -> None:
+    """Write data/lexicon.sqlite (LSJ + Middle Liddell, shared) and data/<slug>.sqlite per text.
 
+    With `only`, rebuild just that text's database (and the catalog), keeping the lexicon.
+    """
+    out_dir.mkdir(parents=True, exist_ok=True)
+    if only is None:
+        build_lexicon(sources, out_dir)
+    build_texts(texts, sources, out_dir, only)
+
+
+def build_lexicon(sources: Path, out_dir: Path) -> None:
     # the shared dictionaries
     lex_path = out_dir / "lexicon.sqlite"
     if lex_path.exists():
@@ -242,10 +250,14 @@ def build(texts: Path, sources: Path, out_dir: Path) -> None:
     print(f"short definitions in lexicon: {len(rows)}")
     _finish(db, lex_path)
 
+
+def build_texts(texts: Path, sources: Path, out_dir: Path, only: str | None = None) -> None:
     # one database per text, and a catalog of them for the app's library
     catalog = []
     for work_dir in sorted(p for p in texts.iterdir() if p.is_dir() and (p / "grc.txt").exists()):
         catalog.append(read_catalog_entry(work_dir))
+        if only is not None and work_dir.name != only:
+            continue
         path = out_dir / f"{work_dir.name}.sqlite"
         if path.exists():
             path.unlink()
@@ -257,6 +269,9 @@ def build(texts: Path, sources: Path, out_dir: Path) -> None:
         build_short_definitions(db, sources, lemmas, overrides)
         _finish(db, path)
     (out_dir / "catalog.json").write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    # each text's own entry, for the app that sells it to hand to the reader
+    for entry in catalog:
+        (out_dir / f"{entry['slug']}.catalog.json").write_text(json.dumps([entry], ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"wrote {out_dir / 'catalog.json'}: {len(catalog)} texts")
 
 
@@ -360,6 +375,9 @@ def build_work(db: sqlite3.Connection, work_dir: Path) -> set[str]:
              row["relation"] or None, int(row["head"]) if row["head"].isdigit() else None, 1 if row["artificial"] else 0),
         )
     print(f"work {slug}: {len(line_ids)} lines, {sum(len(r) for r in tokens_by_line.values())} tokens, {len(lemma_keys)} lemmas, {len(nodes)} syntax nodes")
+    # an epic is cited by book and line; the app shows the line within the book
+    if any("." in n for n in line_ids):
+        db.execute("INSERT OR REPLACE INTO meta VALUES ('line_numbers', 'book.line')")
 
     last_line = max(line_ids, key=lambda n: line_n_parts(n))
     last_int, last_sub = line_n_parts(last_line)
