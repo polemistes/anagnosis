@@ -399,7 +399,7 @@ def build_work(db: sqlite3.Connection, work_dir: Path) -> set[str]:
         build_commentary(db, work_id, path)
 
     # free-standing documents: manuscripts and sigla, later perhaps introductions
-    preferred = ["introduction", "appendix", "sigla"]
+    preferred = ["introduction", "preface", "appendix", "sigla"]
     docs = [p for p in work_dir.glob("*.md") if not p.name.startswith("commentary-") and p.name not in ("glossary.md", "about.md")]
     for path in sorted(docs, key=lambda p: (preferred.index(p.stem) if p.stem in preferred else len(preferred), p.stem)):
         build_document(db, work_id, path)
