@@ -388,10 +388,13 @@ def align(doc: Document, tb: list[dict], keep_tb_form: bool = False) -> tuple[li
             from .import_perseus import _merge_lemma
 
             w = ws[0]
+            # the merged word takes the syntax of the part that is not a mere particle: the δέ of
+            # οὐδέ is the coordinator, the οὐ only an AuxZ on a member
+            main = next((x for x in ws if x["relation"] not in ("AuxZ", "AuxY", "")), ws[0])
             row.update(lemma=_merge_lemma(form, ws), sentence=w["sentence"], word_id="+".join(x["word_id"] for x in ws),
-                       relation=w["relation"], head=w["head"])
+                       relation=main["relation"], head=main["head"])
             # the first part's tag fits when the merge is a crasis or compound of it
-            row["postag"] = w["postag"] if _skeleton(ws[0]["lemma"]).startswith(_skeleton(form)[:2]) else ""
+            row["postag"] = w["postag"] if _skeleton(ws[0]["lemma"]).startswith(_skeleton(form)[:2]) else main["postag"] if main is not w else ""
         row["lemma"] = fix_lemma(row["lemma"])
         rows.append(row)
     return rows, warnings

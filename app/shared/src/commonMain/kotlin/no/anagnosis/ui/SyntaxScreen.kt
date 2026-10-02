@@ -8,6 +8,9 @@ import androidx.compose.foundation.gestures.detectTransformGestures
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
+import androidx.compose.foundation.layout.FlowRow
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -33,6 +36,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clipToBounds
 import androidx.compose.ui.draw.drawBehind
@@ -60,6 +64,7 @@ import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import no.anagnosis.data.Morphology
+import no.anagnosis.data.SimpleSyntax
 import no.anagnosis.data.Syntax
 import no.anagnosis.data.SyntaxNode
 import no.anagnosis.data.SyntaxTree
@@ -87,7 +92,7 @@ private fun roleColors(dark: Boolean): Map<Syntax.Role, Color> = if (dark) mapOf
     Syntax.Role.COMPLEMENT to Color(0xFF00796B),
 )
 
-private enum class SyntaxView(val label: String) { DIAGRAM("Diagram"), TREE("Tree") }
+private enum class SyntaxView(val label: String) { SIMPLE("Simple"), DIAGRAM("Diagram"), TREE("Tree") }
 
 /**
  * The syntax of one sentence, as a page: the words in one row with their parts of speech,
@@ -98,7 +103,7 @@ private enum class SyntaxView(val label: String) { DIAGRAM("Diagram"), TREE("Tre
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun SyntaxScreen(tree: SyntaxTree, label: String, family: FontFamily, onWord: (Long) -> Unit, onBack: () -> Unit, automatic: Boolean = false) {
-    var view by remember { mutableStateOf(SyntaxView.DIAGRAM) }
+    var view by remember { mutableStateOf(SyntaxView.SIMPLE) }
     Scaffold(
         topBar = {
             TopAppBar(
@@ -131,6 +136,10 @@ fun SyntaxScreen(tree: SyntaxTree, label: String, family: FontFamily, onWord: (L
             }
             Box(Modifier.weight(1f).fillMaxWidth()) {
                 when (view) {
+                    SyntaxView.SIMPLE -> Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(horizontal = 16.dp, vertical = 12.dp)) {
+                        SimpleSyntaxView(tree, family, onWord)
+                        Spacer(Modifier.padding(bottom = 32.dp))
+                    }
                     SyntaxView.DIAGRAM -> DependencyDiagram(tree, family, onWord, Modifier.fillMaxSize())
                     SyntaxView.TREE -> Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(horizontal = 20.dp, vertical = 12.dp)) {
                         SyntaxTreeView(tree, family, onWord)
@@ -374,6 +383,85 @@ fun SyntaxTreeView(tree: SyntaxTree, family: FontFamily, onWord: (Long) -> Unit)
             ) {
                 Spacer(Modifier.width(TREE_INDENT * depth))
                 Text(text, style = wordStyle, color = MaterialTheme.colorScheme.onSurface, modifier = Modifier.padding(vertical = 1.dp))
+            }
+        }
+    }
+}
+
+
+// ------------------------------------------------------------------ the simple view
+
+private val SIMPLE_INDENT = 16.dp
+
+/** The colour of a reader's role, from the diagram's palette. */
+private fun colourOf(role: SimpleSyntax.Role, roleColors: Map<Syntax.Role, Color>): Color? = when (role) {
+    SimpleSyntax.Role.VERB -> roleColors[Syntax.Role.PREDICATE]
+    SimpleSyntax.Role.SUBJECT -> roleColors[Syntax.Role.SUBJECT]
+    SimpleSyntax.Role.OBJECT -> roleColors[Syntax.Role.OBJECT]
+    SimpleSyntax.Role.COMPLEMENT -> roleColors[Syntax.Role.COMPLEMENT]
+    SimpleSyntax.Role.MODIFIER -> roleColors[Syntax.Role.ADVERBIAL]
+    SimpleSyntax.Role.ADDRESSED -> roleColors[Syntax.Role.ATTRIBUTE]
+    else -> null
+}
+
+/**
+ * The sentence as clauses: each a row of phrases, the words of a phrase together with their
+ * parts of speech beneath and the phrase's role under them; subordinate clauses indented
+ * under the clause they belong to, each named (relative clause, ὅτι clause, infinitive ...).
+ */
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+fun SimpleSyntaxView(tree: SyntaxTree, family: FontFamily, onWord: (Long) -> Unit) {
+    val roleColors = rememberRoleColors()
+    val blocks = remember(tree) { SimpleSyntax.blocks(tree) }
+    val wordStyle = TextStyle(fontFamily = family, fontSize = 18.sp, lineHeight = 22.sp)
+    val posStyle = TextStyle(fontSize = 10.sp, lineHeight = 12.sp)
+    val roleStyle = TextStyle(fontSize = 11.sp, lineHeight = 13.sp, fontWeight = FontWeight.SemiBold)
+    val labelStyle = TextStyle(fontSize = 12.sp, lineHeight = 16.sp, fontStyle = FontStyle.Italic)
+    val muted = MaterialTheme.colorScheme.onSurfaceVariant
+    val guide = MaterialTheme.colorScheme.outlineVariant
+    val text = MaterialTheme.colorScheme.onSurface
+    Column(Modifier.fillMaxWidth()) {
+        for (block in blocks) {
+            Column(
+                Modifier.fillMaxWidth().drawBehind {
+                    for (d in 0 until block.depth) {
+                        val x = (SIMPLE_INDENT * d).toPx() + 3.dp.toPx()
+                        drawLine(guide, Offset(x, 0f), Offset(x, size.height), strokeWidth = 1.dp.toPx())
+                    }
+                }.padding(start = SIMPLE_INDENT * block.depth, bottom = 10.dp),
+            ) {
+                if (block.label != null) {
+                    Text(block.label, style = labelStyle, color = muted, modifier = Modifier.padding(bottom = 4.dp))
+                }
+                FlowRow(horizontalArrangement = Arrangement.spacedBy(14.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                    for (phrase in block.phrases) {
+                        val colour = colourOf(phrase.role, roleColors)
+                        val dim = phrase.role == SimpleSyntax.Role.PARTICLE || phrase.role == SimpleSyntax.Role.CONNECTOR
+                        Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                            Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                                for (node in phrase.words) {
+                                    val token = node.token
+                                    Column(
+                                        horizontalAlignment = Alignment.CenterHorizontally,
+                                        modifier = if (token != null) Modifier.clickable { onWord(token.id) } else Modifier,
+                                    ) {
+                                        Text(
+                                            Syntax.displayForm(node),
+                                            style = wordStyle.copy(fontStyle = if (node.artificial) FontStyle.Italic else FontStyle.Normal),
+                                            color = if (dim) muted else colour ?: text,
+                                        )
+                                        val pos = if (node.artificial) "omitted" else Morphology.pos(node.postag)
+                                        if (pos.isNotEmpty()) Text(pos, style = posStyle, color = muted)
+                                    }
+                                }
+                            }
+                            if (phrase.label.isNotEmpty()) {
+                                Text(phrase.label, style = roleStyle, color = colour ?: muted, modifier = Modifier.padding(top = 2.dp))
+                            }
+                        }
+                    }
+                }
             }
         }
     }

@@ -252,7 +252,11 @@ def align_tokens(doc: Document, tb: list[dict]) -> tuple[list[dict], list[str]]:
         elif ws:
             w = ws[0]
             lemma = _merge_lemma(form, ws)
-            postag, relation, head, sentence, word_id = "", "", "", w["sentence"], "+".join(x["word_id"] for x in ws)
+            # the merged word takes the syntax of the part that is not a mere particle: the τε of
+            # οὔτε is the coordinator (COORD), the οὔ only an AuxZ on a member
+            main = next((x for x in ws if x["relation"] not in ("AuxZ", "AuxY", "")), ws[0])
+            postag, relation, head = main["postag"], main["relation"], main["head"]
+            sentence, word_id = w["sentence"], "+".join(x["word_id"] for x in ws)
         else:
             lemma = postag = relation = head = sentence = word_id = ""
         row = {"line": n, "ord": ord_, "form": form, "lemma": lemma, "postag": postag,
