@@ -27,7 +27,7 @@ from pathlib import Path
 
 from . import greek
 from .linenum import LINE_N, parts
-from .odyssey import GREEK_META, TREEBANK, align, read_treebank, section_for, syntax_nodes
+from .odyssey import GREEK_META, TREEBANK, align, fix_lemma, read_treebank, section_for, syntax_nodes
 from .textfmt import Document, Line, write_file
 
 APPARATUS_META = {
@@ -237,7 +237,7 @@ def merge(transcriptions: Path, pages_dir: Path, texts: Path, sources: Path, lex
                 reason += "; the analyser does not know the form"
             review.append({"line": r["line"], "form": r["form"], "lemma": r["lemma"], "postag": r["postag"], "reason": reason})
             continue
-        r["lemma"], r["postag"] = chosen
+        r["lemma"], r["postag"] = fix_lemma(chosen[0]), chosen[1]
         review.append({"line": r["line"], "form": r["form"], "lemma": r["lemma"], "postag": r["postag"], "reason": reason})
     write_tokens(out / "tokens.tsv", rows)
     used = set()
@@ -259,3 +259,46 @@ def merge(transcriptions: Path, pages_dir: Path, texts: Path, sources: Path, lex
         print("  " + p, file=sys.stderr)
     print(f"{len(problems)} problems (pipeline/build/odyssey-merge.log); review list in pipeline/build/odyssey-review.tsv")
     return len(problems)
+
+
+def check_batch(path: Path, pages_dir: Path) -> list[str]:
+    """Problems in one batch file: format, numbering, line counts against the draft, and
+    transcribed words that neither the draft nor the OCRs support."""
+    import tempfile
+
+    out: list[str] = []
+    with tempfile.TemporaryDirectory() as tmp:
+        (Path(tmp) / "batch-x.md").write_text(path.read_text(encoding="utf-8"), encoding="utf-8")
+        pages = read_batches(Path(tmp))
+    index = {p["stem"]: p for p in json.loads((pages_dir / "pages.json").read_text(encoding="utf-8"))}
+    prev = None
+    for stem, block in pages.items():
+        for e in block.get("errors", []):
+            out.append(f"{stem}: {e}")
+        if stem not in index:
+            out.append(f"{stem}: unknown page")
+            continue
+        draft_n = index[stem]["lines"]
+        if abs(len(block["text"]) - draft_n) > 2:
+            out.append(f"{stem}: {len(block['text'])} lines, the draft has {draft_n}")
+        if not block["apparatus"]:
+            out.append(f"{stem}: no apparatus")
+        witnesses = set()
+        for w in _draft_witnesses(pages_dir / f"{stem}.md"):
+            witnesses.update(_words(w))
+        for n, text in block["text"]:
+            if text != unicodedata.normalize("NFC", text):
+                out.append(f"{stem} {n}: not NFC")
+            if "'" in text or "’" in text or "᾽" in text:
+                out.append(f"{stem} {n}: apostrophe other than ʼ")
+            odd = [w for w, _s, _e in greek.words(text) if _skel(w) not in witnesses]
+            if odd:
+                out.append(f"{stem} {n}: words no draft reading has: {' '.join(odd)}")
+            if not LINE_N.match(n):
+                out.append(f"{stem}: bad number {n!r}")
+                continue
+            cur = parts(n)
+            if prev is not None and cur[0] // 1000 == prev[0] // 1000 and cur[0] != prev[0] + 1 and not cur[1]:
+                out.append(f"{stem}: {n} follows {prev[0] // 1000}.{prev[0] % 1000}{prev[1]}")
+            prev = cur
+    return out
