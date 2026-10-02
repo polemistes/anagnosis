@@ -80,12 +80,18 @@ def _words(text: str) -> list[str]:
 
 
 def _draft_witnesses(md: Path) -> list[str]:
-    """All the draft's readings of the page (D, A and B), for checking the transcription."""
+    """All the draft's readings of the page (D, A and B) and of the pages either side, since the
+    draft's division into pages can be off by a line, for checking the transcription."""
     out = []
-    for raw in md.read_text(encoding="utf-8").splitlines():
-        m = re.match(r"^(?:[\d.a-z]+)?\t(D|A|B): (.*)$", raw)
-        if m:
-            out.append(m.group(2))
+    m = re.match(r"^(p\d-)(\d{4})$", md.stem)
+    paths = [md] if not m else [md.with_name(f"{m.group(1)}{int(m.group(2)) + k:04d}.md") for k in (-1, 0, 1)]
+    for path in paths:
+        if not path.exists():
+            continue
+        for raw in path.read_text(encoding="utf-8").splitlines():
+            r = re.match(r"^(?:[\d.a-z]+)?\t(D|A|B): (.*)$", raw)
+            if r:
+                out.append(r.group(2))
     return out
 
 
