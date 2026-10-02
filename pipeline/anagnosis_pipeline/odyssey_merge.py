@@ -95,6 +95,12 @@ def _draft_witnesses(md: Path) -> list[str]:
     return out
 
 
+# Forms of Allen's text that neither the treebank nor the analyser knows: (lemma, tag).
+HAND_ANALYSES: dict[str, tuple[str, str]] = {
+    "ἀγάσσεαι": ("ἄγαμαι", "v2sfim---"),
+}
+
+
 class Analyser:
     """Analyses of a form from data/lexicon.sqlite (the app's word analyser)."""
 
@@ -118,7 +124,8 @@ def _accent_key(s: str) -> str:
 def choose_analysis(form: str, analyses: list, near: str = "", lemma: str = "") -> tuple[str, str] | None:
     """(lemma, postag) for a form: the analysis that best agrees with the treebank's lemma and
     tag (`lemma`, `near`), an analysis of exactly this form counting a little extra."""
-    pool = [a for a in analyses if len(a) >= 3]
+    # an analysis whose lemma has no Greek letter ("??" in a treebank) is no analysis
+    pool = [a for a in analyses if len(a) >= 3 and re.search(r"[\u0370-\u03ff\u1f00-\u1fff]", a[1])]
     if not pool:
         return None
 
@@ -236,7 +243,7 @@ def merge(transcriptions: Path, pages_dir: Path, texts: Path, sources: Path, lex
             continue
         if r["lemma"] and r["postag"] and not tb_form:
             continue  # a word the treebank split in two, annotated from its parts
-        chosen = choose_analysis(r["form"], analyse(r["form"]), r["postag"], r["lemma"])
+        chosen = HAND_ANALYSES.get(r["form"]) or choose_analysis(r["form"], analyse(r["form"]), r["postag"], r["lemma"])
         reason = ("the treebank leaves it without lemma or parse" if same
                   else f"reads {r['form']} where the treebank has {tb_form}" if tb_form
                   else "a word the treebank splits" if "+" in r["word_id"] else "not in the treebank")
