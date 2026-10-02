@@ -16,13 +16,14 @@ with words of the transcription that neither the draft nor either OCR supports.
 from __future__ import annotations
 
 import csv
+import difflib
 import json
 import re
 import sqlite3
 import sys
 import unicodedata
 import zlib
-from collections import defaultdict
+from collections import Counter, defaultdict
 from pathlib import Path
 
 from . import greek
@@ -96,10 +97,41 @@ def _draft_witnesses(md: Path) -> list[str]:
 
 
 # Forms of Allen's text that neither the treebank nor the analyser knows: (lemma, tag).
+# Analyses chosen by hand, by form or by "line form" where the form is ambiguous
 HAND_ANALYSES: dict[str, tuple[str, str]] = {
     "ἀγάσσεαι": ("ἄγαμαι", "v2sfim---"),
     "ἥ": ("ὁ", "p-s---fn-"),  # 2.434 ἥ γε
+    "κῆται": ("κεῖμαι", "v3spse---"),  # Epic subjunctive (19.147, 24.137)
+    "μεθήμενος": ("μέθημαι", "v-sppemn-"),  # 1.118
+    "δαὶ": ("δαί", "g--------"),  # 1.225, 24.299
+    "αἴνου": ("αἶνος", "n-s---mg-"),  # 21.110
+    "ἀέθλια": ("ἀέθλιον", "n-p---na-"),  # 21.117
+    "2.152 ἱκέτην": ("ἱκνέομαι", "v3daia---"),  # Allen's reading for ἰδέτην
+    "4.847 τῇ": ("τῇ", "d--------"),
+    "7.213 πλείονʼ": ("πλείων", "a-p---nac"),
+    "9.531 ἔνι": ("ἐν", "r--------"),
+    "9.532 οἱ": ("ἕ", "p-s---md-"),
+    "13.430 οἱ": ("ἕ", "p-s---md-"),
+    "4.19 ἐξάρχοντες": ("ἐξάρχω", "v-pppamn-"),  # Allen's plural: the participle
+    "11.306 ἔσιδον": ("εἰσοράω", "v1saia---"),
+    "17.182 δαῖτʼ": ("δαίς", "n-s---fa-"),
+    "θέσπιν": ("θέσπις", "a-s---ma-"),  # 17.385 θέσπιν ἀοιδόν
+    "21.116 ὅτʼ": ("ὅτε", "c--------"),
 }
+
+
+class Frequencies:
+    """How often each lemma, and each analysis of each form, occurs in the Perseus treebanks:
+    the choice among analyses where the treebank gives no usable hint."""
+
+    def __init__(self, tb_dir: Path):
+        from .forms import treebank_analyses
+
+        self.lemma: Counter = Counter()
+        self.analysis: Counter = Counter()
+        for form, lemma, postag in treebank_analyses(tb_dir):
+            self.lemma[greek.nfc(lemma)] += 1
+            self.analysis[(_accent_key(form), greek.nfc(lemma), postag[:9])] += 1
 
 
 class Analyser:
@@ -122,21 +154,31 @@ def _accent_key(s: str) -> str:
     return unicodedata.normalize("NFC", unicodedata.normalize("NFD", s.replace(greek.APOSTROPHE, "")).replace("̀", "́")).lower()
 
 
-def choose_analysis(form: str, analyses: list, near: str = "", lemma: str = "") -> tuple[str, str] | None:
-    """(lemma, postag) for a form: the analysis that best agrees with the treebank's lemma and
-    tag (`lemma`, `near`), an analysis of exactly this form counting a little extra."""
+def choose_analysis(form: str, analyses: list, near: str = "", lemma: str = "",
+                    freq: "Frequencies | None" = None, tb_form: str = "") -> tuple[str, str] | None:
+    """(lemma, postag) for a form. Where an analysis has the treebank's lemma (`lemma`), the one
+    whose tag best agrees with the treebank's tag (`near`); otherwise the treebank word is another
+    word and its tag is no guide (unless the two forms are nearly the same), and the analysis
+    most frequent in the treebanks is taken; then an analysis of exactly this form, then the more
+    frequent lemma."""
     # an analysis whose lemma has no Greek letter ("??" in a treebank) is no analysis
     pool = [a for a in analyses if len(a) >= 3 and re.fullmatch(r"[\u0370-\u03ff\u1f00-\u1fff\u0300-\u036f]+\d*", a[1].strip())]
     if not pool:
         return None
+    offered = bool(lemma) and any(greek.lemma_key(a[1]) == greek.lemma_key(lemma) for a in pool)
+    # the treebank's tag still helps where its word is this word spelled differently (ἀπώμνυον, ἐπόμνυον)
+    similar = bool(tb_form) and difflib.SequenceMatcher(None, _skel(tb_form), _skel(form)).ratio() >= 0.75
 
     def score(a):
-        s = 1 if _accent_key(a[0]) == _accent_key(form) else 0
-        if lemma and greek.lemma_key(a[1]) == greek.lemma_key(lemma):
+        s = 0
+        if offered and greek.lemma_key(a[1]) == greek.lemma_key(lemma):
             s += 3
-        if near:
+        if near and (offered or similar):
             s += sum(1 for x, y in zip(a[2].ljust(9, "-"), near.ljust(9, "-")) if x == y)
-        return s
+        exact = 1 if _accent_key(a[0]) == _accent_key(form) else 0
+        if freq is None:
+            return (s, exact, 0, 0)
+        return (s, freq.analysis[(_accent_key(form), greek.nfc(a[1]), a[2][:9])], exact, freq.lemma[greek.nfc(a[1])])
 
     best = max(pool, key=score)  # max keeps the first of equals: the analyser lists treebank analyses first
     return best[1], best[2][:9]
@@ -236,6 +278,7 @@ def merge(transcriptions: Path, pages_dir: Path, texts: Path, sources: Path, lex
     tb = read_treebank(sources / TREEBANK)
     rows, _warnings = align(doc, tb, keep_tb_form=True)
     analyse = Analyser(lexicon)
+    freq = Frequencies(sources / "treebanks")
     by_line: dict[str, list[dict]] = defaultdict(list)
     for r in rows:
         tb_form = r.pop("tb_form", "")
@@ -244,7 +287,8 @@ def merge(transcriptions: Path, pages_dir: Path, texts: Path, sources: Path, lex
             continue
         if r["lemma"] and r["postag"] and not tb_form:
             continue  # a word the treebank split in two, annotated from its parts
-        chosen = HAND_ANALYSES.get(r["form"]) or choose_analysis(r["form"], analyse(r["form"]), r["postag"], r["lemma"])
+        chosen = (HAND_ANALYSES.get(f"{r['line']} {r['form']}") or HAND_ANALYSES.get(r["form"])
+                  or choose_analysis(r["form"], analyse(r["form"]), r["postag"], r["lemma"], freq, tb_form))
         reason = ("the treebank leaves it without lemma or parse" if same
                   else f"reads {r['form']} where the treebank has {tb_form}" if tb_form
                   else "a word the treebank splits" if "+" in r["word_id"] else "not in the treebank")

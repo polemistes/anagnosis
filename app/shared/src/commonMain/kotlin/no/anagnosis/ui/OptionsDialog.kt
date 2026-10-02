@@ -163,7 +163,7 @@ fun AboutDialog(appVersion: String, credits: List<Credit>, onDismiss: () -> Unit
                 Text(
                     "Lemmas and morphology come from the Ancient Greek Dependency Treebank (Perseus Digital Library, " +
                         "CC BY-SA 3.0 US). The word analyser uses the Perseus treebanks and the Morpheus morphological " +
-                        "analyser (Perseus Digital Library, Mozilla Public License 2.0; Unicode dump by Giuseppe G. A. Celano). Perseus Digital Library materials are copyright Tufts University and are used " +
+                        "analyser (Perseus Digital Library, Mozilla Public License 2.0), run over the Perseus Greek corpus. Perseus Digital Library materials are copyright Tufts University and are used " +
                         "under their Creative Commons Attribution-ShareAlike licences; the data has been reformatted and in " +
                         "places corrected for this app.",
                     style = MaterialTheme.typography.bodySmall,

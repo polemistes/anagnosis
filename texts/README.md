@@ -154,7 +154,10 @@ from the Manuscripts button of the Apparatus view.
 
 ## Inflected forms (the analyser)
 
-`data/lexicon.sqlite` also holds a `forms` table: every inflected form known to Morpheus
-(the Unicode dump in gcelano/LemmatizedAncientGreekXML, `pipeline/sources/MorpheusUnicode.xml.zip`)
-and to the Perseus treebanks (`pipeline/sources/treebanks/`), keyed by the form without
-diacritics, with lemma and morphology. Treebank analyses are listed first. Fetched by `fetch`.
+`data/lexicon.sqlite` also holds a `forms` table: the analyses of every word form of the open
+Perseus Greek corpus (canonical-greekLit, CC BY-SA 4.0), made by running Morpheus
+(perseids-tools/morpheus, Mozilla Public License 2.0, built in `pipeline/sources/morpheus`)
+with `build-morpheus-forms`, together with the analyses in the Perseus treebanks
+(`pipeline/sources/treebanks/`). Forms are keyed without diacritics; treebank analyses are
+listed first. Where a form has an analysis valid in Attic, Epic or Ionic, its analyses valid only
+in other dialects are left out. `fetch` downloads the corpus and Morpheus.

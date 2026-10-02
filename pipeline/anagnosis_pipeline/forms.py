@@ -1,15 +1,15 @@
 """Build the inflected-forms table for the analyser.
 
-Sources: the Unicode dump of Morpheus (gcelano/LemmatizedAncientGreekXML, Morpheus folder)
-and the Perseus treebanks (hand-verified analyses). Stored compactly: one row per
-diacritic-less form key, with all analyses packed as "form\\tlemma\\tpostag\\tsource" lines.
+Sources: Morpheus (MPL-2.0), run by morpheus_forms.py over the forms of the open Perseus
+corpus (pipeline/build/morpheus-analyses.tsv.gz), and the Perseus treebanks (hand-verified
+analyses). Stored compactly: one row per diacritic-less form key, with all analyses packed as
+"form\\tlemma\\tpostag\\tsource" lines.
 """
 from __future__ import annotations
 
 import re
 import sqlite3
 import sys
-import zipfile
 import zlib
 from collections import defaultdict
 from pathlib import Path
@@ -28,18 +28,28 @@ def _strip_length_marks(s: str) -> str:
     return "".join(c for c in greek.nfd(s) if c not in "̄̆").replace("ᾱ", "α").replace("ᾰ", "α")
 
 
-def morpheus_analyses(zip_path: Path):
-    """Yield (form, lemma, postag) from MorpheusUnicode.xml.zip."""
-    with zipfile.ZipFile(zip_path) as z:
-        name = z.namelist()[0]
-        with z.open(name) as f:
-            for _, el in etree.iterparse(f, tag="t"):
-                form = el.findtext("f") or ""
-                lemma = el.findtext("l") or ""
-                postag = el.findtext("p") or ""
-                if form and lemma:
-                    yield greek.nfc(_strip_length_marks(form)), greek.nfc(lemma), postag
-                el.clear()
+# Morpheus's dialect labels for the literary dialects of the texts read here
+MAIN_DIALECTS = {"attic", "epic", "ionic", "homeric"}
+
+
+def morpheus_analyses(path: Path):
+    """Yield (form, lemma, postag) from morpheus-analyses.tsv.gz (see morpheus_forms.py). Where a
+    form has an analysis valid in Attic, Epic or Ionic (or in every dialect), its analyses valid only
+    in other dialects (a Doric or Aeolic contraction that happens to look the same) are left out."""
+    import gzip
+    import itertools
+
+    def rows():
+        with gzip.open(path, "rt", encoding="utf-8") as f:
+            for raw in f:
+                form, lemma, postag, *rest = raw.rstrip("\n").split("\t")
+                yield form, lemma, postag, set((rest[0] if rest else "").split())
+
+    for form, group in itertools.groupby(rows(), key=lambda r: r[0]):
+        group = list(group)
+        main = [r for r in group if not r[3] or r[3] & MAIN_DIALECTS]
+        for _f, lemma, postag, _d in (main or group):
+            yield greek.nfc(_strip_length_marks(form)), greek.nfc(lemma), postag
 
 
 def treebank_analyses(tb_dir: Path):
@@ -58,9 +68,11 @@ def build_forms(db: sqlite3.Connection, sources: Path) -> None:
     db.executescript(FORMS_SCHEMA)
     table: dict[str, dict[tuple[str, str, str], str]] = defaultdict(dict)  # key -> (lemma_key, postag, source) -> "form\\tlemma"
     n = 0
-    zip_path = sources / "MorpheusUnicode.xml.zip"
-    if zip_path.exists():
-        for form, lemma, postag in morpheus_analyses(zip_path):
+    morpheus_path = sources.parent / "build" / "morpheus-analyses.tsv.gz"
+    if not morpheus_path.exists():
+        raise SystemExit(f"{morpheus_path} is missing: run 'build-morpheus-forms' first")
+    if morpheus_path.exists():
+        for form, lemma, postag in morpheus_analyses(morpheus_path):
             key = greek.strip_diacritics(form)
             table[key].setdefault((greek.lemma_key(lemma), postag, "morpheus"), f"{form}\t{lemma}")
             n += 1
