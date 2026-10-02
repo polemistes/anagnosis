@@ -721,3 +721,6 @@
 
 ## Πανδάρεος
 **Πανδάρεος, ὁ** Pandareus, whose daughter, the nightingale, killed her son Itylus in error (19.518–523), and whose orphaned daughters were snatched away by the storm-winds (20.66–78).
+
+## Χρόμιος
+**Χρόμιος, ὁ** Chromius, son of Neleus and Chloris, brother of Nestor and Periclymenus (11.286).

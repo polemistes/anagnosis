@@ -98,6 +98,7 @@ def _draft_witnesses(md: Path) -> list[str]:
 # Forms of Allen's text that neither the treebank nor the analyser knows: (lemma, tag).
 HAND_ANALYSES: dict[str, tuple[str, str]] = {
     "ἀγάσσεαι": ("ἄγαμαι", "v2sfim---"),
+    "ἥ": ("ὁ", "p-s---fn-"),  # 2.434 ἥ γε
 }
 
 
@@ -125,7 +126,7 @@ def choose_analysis(form: str, analyses: list, near: str = "", lemma: str = "") 
     """(lemma, postag) for a form: the analysis that best agrees with the treebank's lemma and
     tag (`lemma`, `near`), an analysis of exactly this form counting a little extra."""
     # an analysis whose lemma has no Greek letter ("??" in a treebank) is no analysis
-    pool = [a for a in analyses if len(a) >= 3 and re.search(r"[\u0370-\u03ff\u1f00-\u1fff]", a[1])]
+    pool = [a for a in analyses if len(a) >= 3 and re.fullmatch(r"[\u0370-\u03ff\u1f00-\u1fff\u0300-\u036f]+\d*", a[1].strip())]
     if not pool:
         return None
 
