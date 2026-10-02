@@ -16,3 +16,4 @@ app/local.properties
 app/.idea/
 app/.kotlin/
 *.iml
+data/*.catalog.json
