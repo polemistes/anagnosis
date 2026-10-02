@@ -10,7 +10,8 @@ APOSTROPHE = "ʼ"  # MODIFIER LETTER APOSTROPHE, used for elision in the texts
 APOSTROPHE_LIKE = "ʼ’'̓᾿᾽"  # ʼ ’ ' ̓ ᾿ ᾽
 
 # Word characters: Greek letters plus the elision apostrophe. Everything else splits.
-_TOKEN = re.compile(r"[ʼ᾽᾿]?[Ͱ-Ͽἀ-῿̀-ͯ]+[ʼ᾽᾿]?|[^\s]")
+# A speaker's name printed in a prose text is written in braces, {ΑΠΟΛ.}: one token, not a word.
+_TOKEN = re.compile(r"\{[^}]*\}|[ʼ᾽᾿]?[Ͱ-Ͽἀ-῿̀-ͯ]+[ʼ᾽᾿]?|[^\s]")
 
 
 def nfc(s: str) -> str:
@@ -29,7 +30,7 @@ def strip_diacritics(s: str) -> str:
 
 
 def is_word(tok: str) -> bool:
-    return any(c.isalpha() for c in tok)
+    return not tok.startswith("{") and any(c.isalpha() for c in tok)
 
 
 def tokenize(line: str) -> list[tuple[str, int, int]]:

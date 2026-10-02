@@ -13,6 +13,17 @@ class LineNumberTest(unittest.TestCase):
         with self.assertRaises(ValueError):
             parts("1.x")
 
+    def test_stephanus_lines(self):
+        self.assertEqual(parts("172a1"), (172001, ""))
+        self.assertEqual(parts("172b3"), (172103, ""))
+        self.assertLess(parts("172e12")[0], parts("173a1")[0])
+        doc = parse("172a1\t{ΑΠΟΛ.} Δοκῶ μοι\n172a2\tεἶναι.\n")
+        self.assertEqual([l.n for l in doc.lines], ["172a1", "172a2"])
+
+    def test_speaker_label_is_not_a_word(self):
+        from anagnosis_pipeline import greek
+        self.assertEqual([w for w, _s, _e in greek.words("{ΑΠΟΛ.} Δοκῶ μοι")], ["Δοκῶ", "μοι"])
+
     def test_short_range_end_takes_the_book(self):
         self.assertEqual(complete("7", "1.5"), "1.7")
         self.assertEqual(complete("2.3", "1.5"), "2.3")

@@ -11,7 +11,8 @@ FILES = {
     "antigone.grc2.xml": f"{RAW}/PerseusDL/canonical-greekLit/master/data/tlg0011/tlg002/tlg0011.tlg002.perseus-grc2.xml",
     "antigone.eng2.xml": f"{RAW}/PerseusDL/canonical-greekLit/master/data/tlg0011/tlg002/tlg0011.tlg002.perseus-eng2.xml",
     "scans/sophocles03soph_djvu.txt": "https://archive.org/download/sophocles03soph/sophocles03soph_djvu.txt",
-    "MorpheusUnicode.xml.zip": f"{RAW}/gcelano/LemmatizedAncientGreekXML/master/Morpheus/MorpheusUnicode.xml.zip",
+    # the open Greek corpus whose word forms Morpheus analyses for the word analyser (morpheus_forms.py)
+    "corpora/canonical-greekLit.tar.gz": "https://codeload.github.com/PerseusDL/canonical-greekLit/tar.gz/refs/heads/master",
     "logeion-shortdefs.txt": f"{RAW}/helmadik/shortdefs/master/shortdefsGreekEnglishLogeion",
     "antigone.tb.xml": f"{RAW}/PerseusDL/treebank_data/master/v2.1/Greek/texts/tlg0011.tlg002.perseus-grc2.tb.xml",
     # Allen's Oxford Odyssey, second edition (1917, 1919), in two printings; archive.org dates
@@ -22,6 +23,15 @@ FILES = {
         for ident in ("homeriopera03home", "homeriopera04home", "homerioperarecog03homeuoft", "homerioperarecog04homeuoft")
         for ext, suffix in (("pdf", ".pdf"), ("txt", "_djvu.txt"))
     },
+    # Burnet's Oxford Plato, vol. II (the Symposium): a reprint of about 1935 with a good Greek
+    # OCR, and the 1910 printing the Perseus text follows, whose OCR reads the Latin
+    **{
+        f"scans/{ident}{suffix}": f"https://archive.org/download/{ident}/{ident}{suffix}"
+        for ident in ("platonisopera02platuoft", "operarecognovitb02platuoft")
+        for suffix in (".pdf", "_djvu.txt")
+    },
+    # GLAUx (CC BY-SA 4.0): automatic lemmas, morphology and syntax of the Symposium
+    "glaux/0059-011.xml": f"{RAW}/alekkeersmaekers/glaux/main/xml/0059-011.xml",
     **{
         f"lsj/grc.lsj.perseus-eng{i}.xml": f"{RAW}/PerseusDL/lexica/master/CTS_XML_TEI/perseus/pdllex/grc/lsj/grc.lsj.perseus-eng{i}.xml"
         for i in range(1, 28)
@@ -34,7 +44,11 @@ HOPPER_FILES = {
     "Classics/Homer/opensource/hom.od_gk.xml": "odyssey.perseus-gk.xml",
     "Classics/Homer/opensource/hom.od_eng.xml": "odyssey.murray-eng.xml",
     "Classics/Homer/opensource/monro.hom.od_eng.xml": "odyssey-merry-monro-commentary.xml",
+    "Classics/Plato/opensource/bury.symp.xml": "symposium-bury-commentary.xml",
 }
+# Jowett's Symposium (The Dialogues of Plato, 3rd ed., 1892, vol. I), as proofread on Wikisource
+JOWETT = "https://en.wikisource.org/w/index.php?title=Page:The_Dialogues_of_Plato_v._1.djvu/{n}&action=raw"
+JOWETT_PAGES = range(580, 634)
 
 
 def _download(url: str, dest: Path) -> None:
@@ -43,7 +57,11 @@ def _download(url: str, dest: Path) -> None:
         return
     print(f"fetching {url}", file=sys.stderr)
     tmp = dest.with_suffix(dest.suffix + ".part")
-    urllib.request.urlretrieve(url, tmp)
+    # Wikimedia refuses the default Python user agent
+    req = urllib.request.Request(url, headers={"User-Agent": "anagnosis-pipeline/1.0 (https://github.com/anagnosis)"})
+    with urllib.request.urlopen(req) as r, open(tmp, "wb") as f:
+        while chunk := r.read(1 << 20):
+            f.write(chunk)
     tmp.rename(dest)
 
 
@@ -53,6 +71,13 @@ TREEBANKS_API = "https://api.github.com/repos/PerseusDL/treebank_data/contents/v
 def fetch(sources: Path) -> None:
     for name, url in FILES.items():
         _download(url, sources / name)
+    # Morpheus (MPL-2.0), built here and run by build-morpheus-forms
+    morpheus = sources / "morpheus"
+    if not morpheus.exists():
+        import subprocess
+
+        subprocess.run(["git", "clone", "--depth", "1", "https://github.com/perseids-tools/morpheus.git", str(morpheus)], check=True)
+        print("Morpheus cloned; build it: cd pipeline/sources/morpheus/src && CFLAGS='-std=gnu89 -fcommon' make && make install", file=sys.stderr)
     import json
 
     tb_dir = sources / "treebanks"
@@ -61,6 +86,8 @@ def fetch(sources: Path) -> None:
             for entry in json.load(r):
                 if entry["name"].endswith(".xml"):
                     _download(entry["download_url"], tb_dir / entry["name"])
+    for n in JOWETT_PAGES:
+        _download(JOWETT.format(n=n), sources / "jowett" / f"{n}.wiki")
     if not all((sources / v).exists() for v in HOPPER_FILES.values()):
         tarball = sources / "hopper-texts-GreekRoman.tar.gz"
         _download(HOPPER, tarball)

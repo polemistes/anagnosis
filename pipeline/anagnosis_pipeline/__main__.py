@@ -21,6 +21,10 @@ def main(argv: list[str] | None = None) -> int:
     sub.add_parser("merge-odyssey", help="build texts/odyssey/ grc.txt, apparatus and tokens from the transcription of Allen's text")
     cb = sub.add_parser("check-odyssey-batch", help="check transcription batch files")
     cb.add_argument("files", nargs="+")
+    sub.add_parser("build-morpheus-forms", help="run Morpheus over the open corpora: pipeline/build/morpheus-analyses.tsv.gz for the analyser")
+    sub.add_parser("prepare-symposium-pages", help="page images and drafts for transcribing Burnet's Symposium (pipeline/build/symposium-pages/)")
+    csb = sub.add_parser("check-symposium-batch", help="check Symposium transcription batch files")
+    csb.add_argument("files", nargs="+")
     sub.add_parser("import-syntax", help="regenerate texts/antigone/syntax-nodes.tsv (treebank punctuation and elliptic nodes) without touching the other files")
     sub.add_parser("check", help="validate texts/ (line numbers, token alignment, lexicon coverage)")
     m = sub.add_parser("merge-apparatus", help="merge transcription batches into texts/antigone/commentary-jebb-apparatus.md")
@@ -60,6 +64,23 @@ def main(argv: list[str] | None = None) -> int:
                 print("  " + p)
             bad += len(problems)
         return 1 if bad else 0
+    elif args.cmd == "check-symposium-batch":
+        from .symposium_merge import check_batch as check_symposium
+        bad = 0
+        for f in args.files:
+            problems = check_symposium(Path(f), ROOT / "pipeline" / "build" / "symposium-pages", SOURCES)
+            print(f"{f}: {len(problems)} remarks")
+            for p in problems:
+                print("  " + p)
+            bad += len(problems)
+        return 1 if bad else 0
+    elif args.cmd == "build-morpheus-forms":
+        from .morpheus_forms import build as build_morpheus
+        build_morpheus(SOURCES, TEXTS, ROOT / "pipeline" / "build" / "morpheus-analyses.tsv.gz")
+    elif args.cmd == "prepare-symposium-pages":
+        from .symposium_pages import prepare as prepare_symposium
+        index = prepare_symposium(SOURCES, ROOT / "pipeline" / "build" / "symposium-pages")
+        print(f"{len(index)} pages")
     elif args.cmd == "import-syntax":
         from .import_perseus import import_syntax_nodes
         import_syntax_nodes(SOURCES, TEXTS)

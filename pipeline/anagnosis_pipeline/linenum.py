@@ -8,15 +8,25 @@ from __future__ import annotations
 
 import re
 
-LINE_N = re.compile(r"^(?:(\d+)\.)?(\d+)([a-z]?)$")
+_PLAIN = re.compile(r"^(?:(\d+)\.)?(\d+)([a-z]?)$")
+# Plato is cited by Stephanus page, section and Burnet's line within the section: 172a1.
+STEPHANUS = re.compile(r"^(\d+)([a-e])(\d+)$")
+LINE_N = re.compile(r"^(?:(?:\d+\.)?\d+[a-z]?|\d+[a-e]\d+)$")
 BOOK = 1000
+SECTIONS = "abcde"
 # A line number as it may appear in headings and ranges, for embedding in larger patterns.
-N_PATTERN = r"(?:\d+\.)?\d+[a-z]?"
+N_PATTERN = r"(?:\d+[a-e]\d+|(?:\d+\.)?\d+[a-z]?)"
 
 
 def parts(n: str) -> tuple[int, str]:
-    """(n_int, letter) of a line number; raises ValueError for anything else."""
-    m = LINE_N.match(n)
+    """(n_int, letter) of a line number; raises ValueError for anything else.
+
+    A Stephanus line 172a1 is page * 1000 + section * 100 + line (172001; 172b3 is 172103).
+    """
+    m = STEPHANUS.match(n)
+    if m:
+        return int(m.group(1)) * BOOK + SECTIONS.index(m.group(2)) * 100 + int(m.group(3)), ""
+    m = _PLAIN.match(n)
     if not m:
         raise ValueError(f"bad line number {n!r}")
     book = int(m.group(1)) if m.group(1) else 0
@@ -27,8 +37,14 @@ def valid(n: str) -> bool:
     return LINE_N.match(n) is not None
 
 
+def stephanus_section(n: str) -> str | None:
+    """'172a' for the line 172a1; None for other kinds of number."""
+    m = STEPHANUS.match(n)
+    return f"{m.group(1)}{m.group(2)}" if m else None
+
+
 def book_of(n: str) -> str | None:
-    m = LINE_N.match(n)
+    m = _PLAIN.match(n)
     return m.group(1) if m else None
 
 
