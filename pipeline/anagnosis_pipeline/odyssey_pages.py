@@ -180,7 +180,7 @@ def prepare(sources: Path, texts: Path, out_dir: Path, refresh_crops: bool = Fal
         for pno in sorted(on_page):
             ids = on_page[pno]
             page = by_number[pno]
-            _verse, _app, app_top = split_page(page, clean_aligned)
+            verse, _app, app_top = split_page(page, clean_aligned)
             stem = f"p{vol}-{pno:04d}"
             # images: the page, and the apparatus enlarged
             if not (out_dir / f"{stem}.png").exists():
@@ -193,13 +193,25 @@ def prepare(sources: Path, texts: Path, out_dir: Path, refresh_crops: bool = Fal
                 subprocess.run(["pdftoppm", "-r", "400", "-f", str(pno), "-l", str(pno), "-singlefile", "-png",
                                 "-y", str(y), "-H", str(h), "-x", "0", "-W", str(int(page["width"] * scale)),
                                 str(clean_pdf), str(out_dir / f"{stem}-app")], check=True)
+            # the verse enlarged, in two halves cut between lines, cropped to the text block
+            if verse and (refresh_crops or not (out_dir / f"{stem}-v2.png").exists()):
+                scale = 400 / 72
+                ordered = sorted(verse, key=lambda l: l[0])
+                top = max(0.0, min(l[0] for l in ordered) - 14)  # room for a title or a capital
+                k = len(ordered) // 2
+                cut = (ordered[k - 1][1] + ordered[k][0]) / 2 if k > 0 else (top + app_top) / 2
+                bottom = app_top if app_top is not None else max(l[1] for l in ordered) + 3
+                for part, (y0, y1) in (("v1", (top, cut)), ("v2", (cut - 1, bottom))):
+                    subprocess.run(["pdftoppm", "-r", "400", "-f", str(pno), "-l", str(pno), "-singlefile", "-png",
+                                    "-x", "0", "-y", str(int(y0 * scale)), "-W", str(int(page["width"] * scale)), "-H", str(int((y1 - y0) * scale)),
+                                    str(clean_pdf), str(out_dir / f"{stem}-{part}")], check=True)
             # the Toronto copy's page with most of these lines, for its apparatus OCR
             other_pno = Counter(other_page_of.get(i) for i in ids if other_page_of.get(i)).most_common(1)
             other_app = []
             if other_pno:
                 _v, other_app, _y = split_page(other_by_number[other_pno[0][0]], other_aligned)
             md = [f"# Page {stem}: Odyssey {draft[ids[0]][0]}–{draft[ids[-1]][0]}", ""]
-            md.append(f"Images: {stem}.png (whole page), {stem}-app.png (apparatus, enlarged)")
+            md.append(f"Images: {stem}.png (whole page); {stem}-v1.png and {stem}-v2.png (upper and lower half of the text, enlarged); {stem}-app.png (apparatus, enlarged)")
             md.append("")
             md.append("## Draft of the text")
             md.append("D = Perseus text (another edition: Murray's Loeb); A = OCR of this scan; B = OCR of another printing")

@@ -7,5 +7,15 @@
     "author_en": "Sophocles",
     "description": "The Greek text of Sir Richard Jebb's edition, with his translation, critical notes and commentary, and the Liddell–Scott dictionaries. Tap any word for its meaning and form.",
     "edition": "The Antigone of Sophocles, ed. R. C. Jebb, Cambridge University Press, 1891 (Perseus Digital Library)"
+  },
+  {
+    "slug": "odyssey",
+    "title": "Ὀδύσσεια",
+    "author": "Ὅμηρος",
+    "title_en": "Odyssey",
+    "author_en": "Homer",
+    "description": "The Greek text of T. W. Allen's Oxford edition with its critical apparatus, A. T. Murray's translation, the commentary of Merry, Riddell and Monro, and the Liddell–Scott dictionaries. Tap any word for its meaning and form.",
+    "edition": "The Odyssey, ed. A. T. Murray, Loeb 1919 (Perseus Digital Library)",
+    "app_id": "no.anagnosis.odyssey"
   }
 ]

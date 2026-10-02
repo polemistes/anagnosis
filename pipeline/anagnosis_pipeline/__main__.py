@@ -18,6 +18,7 @@ def main(argv: list[str] | None = None) -> int:
     sub.add_parser("import", help="convert upstream sources into the editable files in texts/")
     sub.add_parser("import-odyssey", help="(re)generate texts/odyssey/ from Perseus and the treebank; overwrites hand edits")
     sub.add_parser("prepare-odyssey-pages", help="page images and drafts for transcribing Allen's Odyssey (pipeline/build/odyssey-pages/)")
+    sub.add_parser("merge-odyssey", help="build texts/odyssey/ grc.txt, apparatus and tokens from the transcription of Allen's text")
     sub.add_parser("import-syntax", help="regenerate texts/antigone/syntax-nodes.tsv (treebank punctuation and elliptic nodes) without touching the other files")
     sub.add_parser("check", help="validate texts/ (line numbers, token alignment, lexicon coverage)")
     m = sub.add_parser("merge-apparatus", help="merge transcription batches into texts/antigone/commentary-jebb-apparatus.md")
@@ -43,6 +44,10 @@ def main(argv: list[str] | None = None) -> int:
         from .odyssey_pages import prepare
         index = prepare(SOURCES, TEXTS, ROOT / "pipeline" / "build" / "odyssey-pages", refresh_crops=True)
         print(f"{len(index)} pages; {sum(1 for p in index if not p['apparatus_found'])} without a detected apparatus")
+    elif args.cmd == "merge-odyssey":
+        from .odyssey_merge import merge
+        merge(ROOT / "pipeline" / "transcriptions" / "odyssey", ROOT / "pipeline" / "build" / "odyssey-pages", TEXTS, SOURCES,
+              DATA / "lexicon.sqlite", ROOT / "pipeline" / "build")
     elif args.cmd == "import-syntax":
         from .import_perseus import import_syntax_nodes
         import_syntax_nodes(SOURCES, TEXTS)

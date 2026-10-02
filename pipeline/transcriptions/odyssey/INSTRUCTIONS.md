@@ -9,7 +9,9 @@ transcription is published under CC BY-SA 4.0.
 
 The page images and drafts are made by `prepare-odyssey-pages` in `pipeline/build/odyssey-pages/`:
 
-* `<stem>.png`: the whole page; `<stem>-app.png`: the apparatus, enlarged.
+* `<stem>.png`: the whole page; `<stem>-v1.png` and `<stem>-v2.png`: the upper and lower half of
+  the text, enlarged; `<stem>-app.png`: the apparatus, enlarged. Read the text from the enlarged
+  halves; use the whole page to see where the page begins and ends.
 * `<stem>.md`: a draft. For every line it gives **D**, the Perseus text (from another edition,
   Murray's Loeb, so it differs from Allen in places), and two OCR readings of Allen's line:
   **A** from this scan and **B** from another printing of the same edition. Then an OCR of the
@@ -49,7 +51,9 @@ The number and the text are separated by a single TAB.
 * Copy Allen exactly: words, accents and breathings, iota subscript, diaeresis, capitals
   (he capitalises proper names and the first word of a paragraph), punctuation.
 * Elision mark: ʼ (U+02BC MODIFIER LETTER APOSTROPHE), as in δʼ, ἀλλʼ, ἔνθʼ.
-  Raised stop: · (U+00B7 MIDDLE DOT). Allen prints no quotation marks; neither do you.
+  Raised stop: · (U+00B7 MIDDLE DOT).
+* Allen marks direct speech with quotation marks: copy them as printed, “ where a speech
+  opens and ” where it closes (also ‘ ’ for a speech within a speech).
 * Words or lines that Allen sets in square brackets keep their brackets.
 * A line Allen prints that is missing from the draft (16.101, for instance) goes in with its
   number. A draft line Allen does not print is simply left out.
@@ -65,10 +69,14 @@ The number and the text are separated by a single TAB.
 * Copy each item as printed: lemma, the bracket `]`, readings, sigla, authorities, Latin.
   Greek with full accents.
 * Manuscript family sigla are printed in **bold** lower-case letters: write `**a**`, `**cd**`.
-  Other sigla as printed, with superscript digits as Unicode superscripts: H³, L⁴, U⁵, p¹⁰.
-* References: Iliad books are Greek capitals (`Z 154`), Odyssey books small letters
+  Other sigla as printed, with superscript digits as Unicode superscripts: H³, L⁴, U⁵, p¹⁰
+  (write the Gothic papyrus 𝔭 as a plain p).
+* References: Iliad books are Greek capitals (`Ζ 154`), Odyssey books small letters
   (`ε 408`); keep them as printed. Keep Latin abbreviations as printed (`coni.`, `om.`,
-  `add.`, `cf.`, `schol.`, `Zen.`, `Ar.`, `gl.`, `γρ.`, `ss.`, `uv.`).
+  `add.`, `cf.`, `schol.`, `Zen.`, `Ar.`, `gl.`, `γρ.`, `ss.`, `uv.`). Write a colon or semicolon
+  without the space Allen sets before it (`οἷς ἑτάροισι **be**: ...`).
+* Lines Allen quotes as additions (plus-verses) are items of the line they follow, numbered with
+  a letter as he does: `1.93a`, or `1.93a-b` for two.
 * Ignore italics (the apparatus prints its Greek in italic). Keep spaced dots `. . .` as `...`.
 * An item running over to the next page continues there; finish it on the page where it
   starts, under its own number.

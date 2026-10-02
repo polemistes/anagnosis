@@ -295,7 +295,7 @@ def _skeleton(s: str) -> str:
 LEMMA_FIXES: dict[str, str] = {}
 
 
-def align(doc: Document, tb: list[dict]) -> tuple[list[dict], list[str]]:
+def align(doc: Document, tb: list[dict], keep_tb_form: bool = False) -> tuple[list[dict], list[str]]:
     """Pair the words of the text with treebank words, in order.
 
     A difflib alignment of skeletons (no diacritics) finds the stretches that agree; inside a
@@ -354,6 +354,8 @@ def align(doc: Document, tb: list[dict]) -> tuple[list[dict], list[str]]:
         if ws and len(ws) == 1:
             w = ws[0]
             row.update(lemma=w["lemma"], postag=w["postag"], relation=w["relation"], head=w["head"], sentence=w["sentence"], word_id=w["word_id"])
+            if keep_tb_form:
+                row["tb_form"] = w["form"]
         elif ws:
             from .import_perseus import _merge_lemma
 
