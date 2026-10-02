@@ -44,6 +44,23 @@ def _drafts(pages_dir: Path, stem: str) -> list[dict]:
     return out
 
 
+# Letters the OCR of this typeface confuses: a word that differs from the transcription's only
+# by one of these is an OCR error, not a reading the transcriber missed.
+_CONFUSED = {frozenset(p) for p in ("δο", "ιυ", "οα", "εο", "ρο", "νυ", "ηπ", "θβ", "κχ", "γτ", "λι", "ηι", "σο", "ιι")}
+
+
+def ocr_slip(ocr: str, word: str) -> bool:
+    if word.replace("δ", "ο") == ocr or ocr == word[1:] or ocr == word[:-1]:
+        return True
+    if len(ocr) == len(word):
+        diff = [(x, y) for x, y in zip(ocr, word) if x != y]
+        return len(diff) == 1 and frozenset(diff[0]) in _CONFUSED
+    if abs(len(ocr) - len(word)) == 1:  # a letter dropped or doubled
+        longer, shorter = (ocr, word) if len(ocr) > len(word) else (word, ocr)
+        return any(longer[:i] + longer[i + 1:] == shorter for i in range(len(longer)))
+    return False
+
+
 def flag(transcriptions: Path, pages_dir: Path) -> list[dict]:
     pages = read_batches(transcriptions)
     found = []
@@ -64,6 +81,7 @@ def flag(transcriptions: Path, pages_dir: Path) -> list[dict]:
             ocr_both = {w for w in a if w in b and len(w) > 1}
             missing = [w for w in ocr_both if tc[w] < min(a[w], b[w]) and dd[w] < min(a[w], b[w])]
             from_draft = [w for w in tc if dd[w] and not a[w] and not b[w] and len(w) > 1]
+            missing = [w for w in missing if not any(ocr_slip(w, u) for u in from_draft)]
             if missing and from_draft:
                 found.append({"stem": stem, "n": n, "text": text, "A": best.get("A", ""), "B": best.get("B", ""),
                               "D": best.get("D", ""), "ocr": " ".join(missing), "draft": " ".join(from_draft)})
