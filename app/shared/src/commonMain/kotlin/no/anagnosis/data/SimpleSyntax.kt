@@ -147,12 +147,13 @@ object SimpleSyntax {
         fun isFinite(n: SyntaxNode) = n.isWord && mood(n) in "isom"
         fun bare(n: SyntaxNode) = tree.children(n).isEmpty()
         fun isBarePunct(n: SyntaxNode) = n.isPunctuation && bare(n)
-        fun isParticle(n: SyntaxNode) = n.isWord && base(n.relation) in setOf("AuxY", "AuxZ") && bare(n)
+        /** A connecting word on its own: a particle, or a coordinator the treebank gave no members (a stray δέ). */
+        fun isParticle(n: SyntaxNode) = n.isWord && bare(n) && base(n.relation) in setOf("AuxY", "AuxZ", "COORD", "APOS")
         fun hasMemberSuffix(n: SyntaxNode) = (n.relation ?: "").let { it.endsWith("_CO") || it.endsWith("_AP") }
         fun isConnector(n: SyntaxNode) = base(n.relation) in setOf("AuxC", "AuxP")
 
         /** A member of a coordination: marked _CO/_AP, a preposition or conjunction over one, or a nested coordination. */
-        fun isMember(n: SyntaxNode): Boolean = hasMemberSuffix(n) || base(n.relation) in setOf("COORD", "APOS") ||
+        fun isMember(n: SyntaxNode): Boolean = hasMemberSuffix(n) || base(n.relation) in setOf("COORD", "APOS") && !bare(n) ||
             isConnector(n) && contentOf(n).first?.let { hasMemberSuffix(it) } == true
         fun isCoordinator(n: SyntaxNode) = base(n.relation) in setOf("COORD", "APOS") ||
             (!n.isWord || pos(n) in "cg" || base(n.relation) in AUX) && base(n.relation) != "PRED" && tree.children(n).any { hasMemberSuffix(it) }
@@ -466,7 +467,10 @@ object SimpleSyntax {
             while (p != null && steps++ < 20) {
                 // a member of a coordination hangs on what the coordination hangs on; a shared dependent on the members
                 if (isCoordinator(p) && members(p).isNotEmpty() && below !in members(p)) {
-                    return members(p).joinToString(", ") { m -> contentNode(m).let { if (it.artificial) "the understood verb" else Syntax.headLabel(it) } }
+                    // shared by coordinated clauses: named by the first; by coordinated words: all of them
+                    val ms = members(p)
+                    val named = if (ms.any { leadsToClause(it) }) ms.take(1) else ms
+                    return named.joinToString(", ") { m -> contentNode(m).let { if (it.artificial) "the understood verb" else Syntax.headLabel(it) } }
                 }
                 if (!isTransparent(p)) break
                 below = p
