@@ -43,11 +43,11 @@ class SimpleSyntaxDump {
             val lostIds = mutableListOf<String>()
             for ((s, toks) in bySentence) {
                 val tree = Syntax.build(s, toks, extra[s] ?: emptyList())
-                val blocks = SimpleSyntax.blocks(tree)
-                val shown = blocks.flatMap { b -> b.phrases.flatMap { it.words } }.map { it.id }
+                val outline = SimpleSyntax.outline(tree)
+                val shown = SimpleSyntax.words(outline).map { it.id }
                 val dup = shown.size - shown.toSet().size
                 if (dup > 0) println("$slug $s: $dup words shown twice")
-                if (blocks.lastOrNull()?.stray == true) { lost++; lostIds += s }
+                if ((outline.lastOrNull() as? SimpleSyntax.Phrase)?.stray == true) { lost++; lostIds += s }
             }
             println("$slug: ${bySentence.size} sentences, $lost with words placed only by the safety net: ${lostIds.take(8)}")
             val sb = StringBuilder()

@@ -17,6 +17,9 @@ class SimpleSyntaxTest {
     private fun render(tokens: List<Tokens>, extra: List<Sentence_nodes> = emptyList()) =
         SimpleSyntax.render(Syntax.build("s1", tokens, extra)).trimEnd().lines()
 
+    private fun words(tokens: List<Tokens>, extra: List<Sentence_nodes> = emptyList()) =
+        SimpleSyntax.words(SimpleSyntax.outline(Syntax.build("s1", tokens, extra))).map { it.form }
+
     @Test
     fun aSubordinateClauseIsIndentedUnderItsVerbWithItsConjunction() {
         // λέγω ὅτι ὁ ἀνὴρ ἥκει . : the ὅτι clause is the object of λέγω
@@ -30,9 +33,11 @@ class SimpleSyntaxTest {
         assertEquals(
             listOf(
                 "— main clause",
-                "λέγω ⟨verb⟩",
+                "    λέγω ⟨main verb⟩",
                 "    — ὅτι clause (that, because) · object of λέγω",
-                "    ὅτι   ὁ ἀνὴρ ⟨subject⟩   ἥκει ⟨verb⟩",
+                "        ὅτι",
+                "        ὁ ἀνὴρ ⟨subject⟩",
+                "        ἥκει ⟨verb⟩",
             ),
             render(tokens, listOf(node(6, ".", "AuxK", 0))),
         )
@@ -48,7 +53,7 @@ class SimpleSyntaxTest {
             token("4", "τὴν", "ATR", 5, "l-s---fa-", "ὁ"),
             token("5", "πόλιν", "ADV", 3, "n-s---fa-", "πόλις"),
         )
-        assertEquals(listOf("— main clause", "οὐκ ἦλθεν ⟨verb⟩   εἰς τὴν πόλιν ⟨when · why · how⟩"), render(tokens))
+        assertEquals(listOf("— main clause", "    οὐκ ἦλθεν ⟨main verb⟩", "    εἰς τὴν πόλιν ⟨adverbial⟩"), render(tokens))
     }
 
     @Test
@@ -59,20 +64,19 @@ class SimpleSyntaxTest {
             token("2", "καὶ", "COORD", 0, "c--------", "καί"),
             token("3", "εἶδε", "PRED_CO", 2, "v3saia---", "ὁράω"),
         )
-        assertEquals(listOf("— main clause", "ἦλθε ⟨verb⟩", "— main clause", "καὶ   εἶδε ⟨verb⟩"), render(tokens))
+        assertEquals(listOf("— main clause", "    ἦλθε ⟨main verb⟩", "— main clause", "    καὶ", "    εἶδε ⟨main verb⟩"), render(tokens))
     }
 
     @Test
-    fun aMainClauseIsNamedBeforeTheClausesInsideIt() {
-        // εἰ βούλει , λέγε : the if-clause precedes
+    fun aShortClauseInsideAnotherIsOneLineWhereItStands() {
+        // εἰ βούλει , λέγε : the if-clause precedes, and being short is one line
         val tokens = listOf(
             token("1", "εἰ", "AuxC", 4, "c--------"),
             token("2", "βούλει", "ADV", 1, "v2spie---", "βούλομαι"),
             token("4", "λέγε", "PRED", 0, "v2spma---", "λέγω"),
         )
-        // the main clause is named first, then the clauses inside it
         assertEquals(
-            listOf("— main clause", "λέγε ⟨verb⟩", "    — εἰ clause (if, whether) · goes with λέγε (when, why, how)", "    εἰ   βούλει ⟨verb⟩"),
+            listOf("— main clause", "    εἰ βούλει ⟨εἰ clause (if, whether) · modifies λέγε⟩", "    λέγε ⟨main verb · imperative⟩"),
             render(tokens, listOf(node(3, ",", "AuxX", 4))),
         )
     }
@@ -85,10 +89,12 @@ class SimpleSyntaxTest {
             token("2", "ὁ", "SBJ", 3, "p-s---mn-", "ὁ"),
         )
         val extra = listOf(node(3, "[0]", "PRED", 0, artificial = true), node(4, ",", "AuxX", 3))
-        val blocks = SimpleSyntax.blocks(Syntax.build("s1", tokens, extra))
-        val words = blocks.flatMap { b -> b.phrases.flatMap { it.words } }.map { it.form }
-        assertEquals(listOf("σοφὸς", "ὁ", "[0]"), words)
-        assertEquals("main clause, verb understood", blocks.single().label)
+        // the omitted verb stands by its first dependent, not at the end where the treebank keeps it
+        assertEquals(listOf("σοφὸς", "[0]", "ὁ"), words(tokens, extra))
+        assertEquals(
+            listOf("— main clause, verb understood", "    σοφὸς ⟨predicate⟩", "    […] ⟨verb understood⟩", "    ὁ ⟨subject⟩"),
+            render(tokens, extra),
+        )
     }
 
     @Test
@@ -103,7 +109,20 @@ class SimpleSyntaxTest {
             token("7", "οἰωνῶν", "OBJ_CO", 6, "n-p---mg-", "οἰωνός"),
             token("8", "ὀλέσθαι", "PRED", 0, "v--anm---", "ὄλλυμι"),
         )
-        assertEquals(listOf("— main clause", "μήθʼ ὑπὸ κυνῶν μήθʼ ὑπʼ οἰωνῶν ⟨when · why · how⟩   ὀλέσθαι ⟨verb⟩"), render(tokens))
+        assertEquals(listOf("— main clause", "    μήθʼ ὑπὸ κυνῶν μήθʼ ὑπʼ οἰωνῶν ⟨adverbial⟩", "    ὀλέσθαι ⟨infinitive⟩"), render(tokens))
+    }
+
+    @Test
+    fun aNounsCaseNamesItsConstruction() {
+        // δίδωσι τῷ ἀνδρὶ τὸν ἵππον: a dative object is marked, an accusative one is simply the object
+        val tokens = listOf(
+            token("1", "δίδωσι", "PRED", 0, "v3spia---", "δίδωμι"),
+            token("2", "τῷ", "ATR", 3, "l-s---md-", "ὁ"),
+            token("3", "ἀνδρὶ", "OBJ", 1, "n-s---md-", "ἀνήρ"),
+            token("4", "τὸν", "ATR", 5, "l-s---ma-", "ὁ"),
+            token("5", "ἵππον", "OBJ", 1, "n-s---ma-", "ἵππος"),
+        )
+        assertEquals(listOf("— main clause", "    δίδωσι ⟨main verb⟩", "    τῷ ἀνδρὶ ⟨object · dat.⟩", "    τὸν ἵππον ⟨object⟩"), render(tokens))
     }
 
     @Test
@@ -115,8 +134,7 @@ class SimpleSyntaxTest {
             token("3", "λέγω", "ADV", 1, "v1spia---"),
             token("4", "σοι", "OBJ", 3, "p-s---md-", "σύ"),
         )
-        val blocks = SimpleSyntax.blocks(Syntax.build("s1", tokens, emptyList()))
-        val words = blocks.flatMap { b -> b.phrases.flatMap { it.words } }.map { it.form }
+        val words = words(tokens)
         assertEquals(setOf("καὶ", "νῦν", "λέγω", "σοι"), words.toSet())
         assertEquals(4, words.size)
     }

@@ -1,14 +1,16 @@
 package no.anagnosis.data
 
 /**
- * A reader's view of a sentence's syntax: its clauses, each a row of phrases with plain roles
- * (verb, subject, object ...), subordinate clauses indented under the clause they belong to.
+ * A reader's view of a sentence's syntax as an outline: one phrase per line with a plain role
+ * (main verb, subject, object · dat. ...), in the order of the text, each clause named and its
+ * lines kept together, a clause inside a clause indented one step where it occurs, the outer
+ * clause going on below it.
  *
  * It is drawn from the treebank's dependency tree ([SyntaxTree]) but hides the treebank's
  * conventions: prepositions and conjunctions as heads, coordination nodes, elliptic nodes,
  * the labels of the Prague scheme. A word stays with its article, adjectives and genitives;
- * a preposition with its noun; a conjunction with its clause. A clause shows its own phrases
- * first, then the clauses inside it, in the order of the text. The treebank's errors remain.
+ * a preposition with its noun; a conjunction with its clause. The words of a phrase that the
+ * text splits are brought together. The treebank's errors remain.
  */
 object SimpleSyntax {
     /** The roles a reader is shown. [label] is empty for words shown without one. */
@@ -17,8 +19,8 @@ object SimpleSyntax {
         SUBJECT("subject"),
         OBJECT("object"),
         COMPLEMENT("complement"),
-        MODIFIER("when · why · how"),
-        ADDRESSED("addressed"),
+        MODIFIER("adverbial"),
+        ADDRESSED("vocative"),
         EXCLAMATION("exclamation"),
         ASIDE("stands apart"),
         CONNECTOR(""),
@@ -26,32 +28,46 @@ object SimpleSyntax {
         OTHER(""),
     }
 
-    /** Words that belong together, with the role they play in their clause. */
-    class Phrase(val role: Role, val words: List<SyntaxNode>, val label: String = role.label) {
-        val first: Int get() = words.first().id
-    }
+    /** A line of the outline: a phrase, or a clause with the lines inside it. */
+    sealed interface Item
 
     /**
-     * One group of rows of the view: a clause's label and its phrases at its depth. A clause
-     * with nothing but subordinate clauses has a block with its label and no phrases.
+     * Words that belong together, with the role they play in their clause. A clause of one
+     * phrase (a bare infinitive, a participle) is shown as a phrase whose label names the clause.
+     * [stray] marks the safety net: words the rules placed nowhere.
      */
-    class Block(val depth: Int, val label: String?, val phrases: List<Phrase>, val stray: Boolean = false)
+    class Phrase(
+        val role: Role, val words: List<SyntaxNode>, val label: String = role.label, val stray: Boolean = false,
+        /** Where the phrase stands in the text, for the order of lines: an omitted word stands by its first dependent. */
+        val start: Int = words.first().id,
+    ) : Item
 
-    fun blocks(tree: SyntaxTree): List<Block> = Builder(tree).build()
+    /** A clause: its name (empty for a group of words among clauses) and its lines in the order of the text. */
+    class Clause(val label: String, val items: List<Item>) : Item
+
+    /** The outline of a sentence: its clauses in the order of the text, and last any stray words. */
+    fun outline(tree: SyntaxTree): List<Item> = Builder(tree).build()
+
+    /** Every word of [items], in the order shown. */
+    fun words(items: List<Item>): List<SyntaxNode> = items.flatMap { when (it) { is Phrase -> it.words; is Clause -> words(it.items) } }
 
     /** The view as plain text, for checking the rules outside the app. */
     fun render(tree: SyntaxTree): String {
         val sb = StringBuilder()
-        for (b in blocks(tree)) {
-            val indent = "    ".repeat(b.depth)
-            if (b.label != null) sb.append(indent).append("— ").append(b.label).append('\n')
-            if (b.phrases.isNotEmpty()) {
-                sb.append(indent).append(b.phrases.joinToString("   ") { p ->
-                    val words = p.words.joinToString(" ") { Syntax.displayForm(it) }
-                    if (p.label.isEmpty()) words else "$words ⟨${p.label}⟩"
-                }).append('\n')
+        fun line(item: Item, depth: Int) {
+            val indent = "    ".repeat(depth)
+            when (item) {
+                is Phrase -> {
+                    val words = item.words.joinToString(" ") { Syntax.displayForm(it) }
+                    sb.append(indent).append(if (item.label.isEmpty()) words else "$words ⟨${item.label}⟩").append('\n')
+                }
+                is Clause -> {
+                    sb.append(indent).append("— ").append(item.label).append('\n')
+                    for (i in item.items) line(i, depth + 1)
+                }
             }
         }
+        for (item in outline(tree)) line(item, 0)
         return sb.toString()
     }
 
@@ -85,17 +101,20 @@ object SimpleSyntax {
     )
 
     private class Builder(val tree: SyntaxTree) {
-        private val out = mutableListOf<Block>()
-
-        /** A clause: its label, its own phrases, the clauses inside it, its depth, and the span of its own words. */
+        /** A clause as built: its label, its own phrases, the clauses inside it, its depth, and the span of its own words. */
         class Clause(val label: String, val phrases: List<Phrase>, val subs: List<Clause>, val depth: Int, val range: IntRange) {
             /** Where the clause begins in the text: its first own word, else its first inner clause. */
-            val start: Int get() = phrases.minOfOrNull { it.first } ?: subs.minOfOrNull { it.start } ?: range.first
-            fun with(more: List<Phrase>) = Clause(label, (phrases + more).sortedBy { it.first }, subs, depth, range)
+            val start: Int get() = phrases.minOfOrNull { it.start } ?: subs.minOfOrNull { it.start } ?: range.first
+            fun with(more: List<Phrase>) = Clause(label, (phrases + more).sortedBy { it.start }, subs, depth, range)
             fun at(d: Int): Clause = Clause(label, phrases, subs.map { it.at(d + 1) }, d, range)
         }
 
-        fun build(): List<Block> {
+        /** Where a node stands for the order of lines: an omitted word by its first dependent, as the diagram places it. */
+        fun startOf(n: SyntaxNode): Int = if (n.artificial) tree.children(n).filter { it.isWord || it.artificial }.minOfOrNull { startOf(it) } ?: n.id else n.id
+
+        fun ph(role: Role, words: List<SyntaxNode>, label: String = role.label) = Phrase(role, words, label, start = words.minOf { startOf(it) })
+
+        fun build(): List<Item> {
             // the sentence's top nodes: the roots, a punctuation root standing for its dependents
             val tops = tree.roots.flatMap { if (it.isPunctuation) tree.children(it) else listOf(it) }
                 .filter { !isBarePunct(it) }
@@ -111,15 +130,15 @@ object SimpleSyntax {
                     collect(st, 1, phrases, subs)
                     val target = clauses.firstOrNull { st.id in it.range } ?: clauses.firstOrNull { it.start > st.id } ?: clauses.last()
                     val k = clauses.indexOf(target)
-                    clauses[k] = Clause(target.label, (target.phrases + phrases).sortedBy { it.first }, (target.subs + subs).sortedBy { it.start }, target.depth, target.range)
+                    clauses[k] = Clause(target.label, (target.phrases + phrases).sortedBy { it.start }, (target.subs + subs).sortedBy { it.start }, target.depth, target.range)
                 }
             }
-            for (c in clauses.sortedBy { it.start }) emit(c)
+            val out = mutableListOf<Item>()
+            for (c in clauses.sortedBy { it.start }) out += view(c, nested = false)
             // nothing may be lost: a word the rules left out is shown at the end, so the reader sees it
-            val shown = HashSet<Int>()
-            for (b in out) for (p in b.phrases) for (w in p.words) shown += w.id
+            val shown = words(out).map { it.id }.toHashSet()
             val lost = tree.nodes.filter { it.isWord && it.id !in shown }
-            if (lost.isNotEmpty()) out += Block(0, null, listOf(Phrase(Role.OTHER, lost, "")), stray = true)
+            if (lost.isNotEmpty()) out += Phrase(Role.OTHER, lost, "not placed", stray = true)
             return out
         }
 
@@ -254,16 +273,46 @@ object SimpleSyntax {
             return Role.ASIDE
         }
 
+        /** The case of a noun phrase, where it tells the reader something: an object or adverbial not in the accusative or any case. */
+        private val CASES = mapOf('g' to "gen.", 'd' to "dat.", 'a' to "acc.")
+
         fun labelOf(n: SyntaxNode, role: Role): String {
             val c = contentNode(n)
             val ptcp = if (c.isWord && mood(c) == 'p' && c === n) "participle · " else ""
             val label = when (role) {
                 Role.COMPLEMENT -> when (base(c.relation)) { "OCOMP" -> "object complement"; "PNOM" -> "predicate"; else -> "complement" }
-                Role.OTHER -> when (base(n.relation)) { "ATR" -> "describes"; "MWE" -> "expression"; "CO" -> "joined on"; else -> "" }
+                Role.OTHER -> when (base(c.relation)) {
+                    "ATR" -> governorLabel(c)?.let { "describes $it" } ?: "attributive"
+                    "MWE" -> "expression"; "CO" -> "joined on"; else -> ""
+                }
                 Role.ASIDE -> if (pos(n) == 'v' && base(n.relation) in setOf("AuxY", "AuxZ")) "says" else role.label
                 else -> role.label
             }
-            return if (label.isEmpty()) ptcp.removeSuffix(" · ") else ptcp + label
+            // a noun's case names its construction: object · dat., adverbial · gen.; not through a preposition
+            val nominal = !throughPreposition(n) && c.isWord && pos(c) in "nalpm" && mood(c) != 'p'
+            val case = if (nominal && (role == Role.MODIFIER || role == Role.OBJECT && case(c) != 'a')) CASES[case(c)] else null
+            val full = if (case != null) "$label · $case" else label
+            return if (full.isEmpty()) ptcp.removeSuffix(" · ") else ptcp + full
+        }
+
+        /** Whether the phrase's content stands under a preposition (or its coordinated members do). */
+        fun throughPreposition(n: SyntaxNode): Boolean = isConnector(n) || isCoordinator(n) && members(n).any { throughPreposition(it) }
+
+        /** The verb's line: "main verb", "verb · optative", "infinitive", "verb understood"; a noun standing as predicate "predicate". */
+        fun verbLabel(head: SyntaxNode, main: Boolean, auxiliary: Boolean): String {
+            if (head.artificial) return "verb understood"
+            if (!head.isWord) return Role.VERB.label
+            val m = mood(head)
+            if (m !in "isomnp") return if (base(head.relation) == "PRED") "predicate" else Role.VERB.label
+            val kind = when {
+                auxiliary -> if (main) "main verb" else Role.VERB.label
+                m == 'n' -> "infinitive"
+                m == 'p' -> "participle"
+                main -> "main verb"
+                else -> Role.VERB.label
+            }
+            val note = when (m) { 's' -> "subjunctive"; 'o' -> "optative"; 'm' -> "imperative"; else -> null }
+            return if (note != null) "$kind · $note" else kind
         }
 
         // ---- building
@@ -279,7 +328,7 @@ object SimpleSyntax {
                 leadsToClause(c) -> subs += clausesOf(c, depth)
                 c.isWord && base(c.relation) in setOf("AuxY", "AuxZ") && !bare(c) && pos(c) != 'v' -> {
                     // the treebank hung words on a particle: the particle alone, its dependents on their own
-                    phrases += Phrase(Role.PARTICLE, listOf(c))
+                    phrases += ph(Role.PARTICLE, listOf(c))
                     for (k in tree.children(c)) collect(k, depth, phrases, subs)
                 }
                 else -> {
@@ -287,7 +336,7 @@ object SimpleSyntax {
                     gather(c, depth, words, subs)
                     if (words.isNotEmpty()) {
                         val role = roleOf(c)
-                        phrases += Phrase(role, words.sortedBy { it.id }, labelOf(c, role))
+                        phrases += ph(role, words.sortedBy { it.id }, labelOf(c, role))
                     }
                 }
             }
@@ -316,7 +365,7 @@ object SimpleSyntax {
             collect(n, depth + 1, phrases, subs)
             for (e in extra) collect(e, depth + 1, phrases, subs)
             if (phrases.isEmpty()) return subs.map { it.at(depth) }
-            return listOf(Clause("", phrases.sortedBy { it.first }, subs.sortedBy { it.start }, depth, rangeOf(n)))
+            return listOf(Clause("", phrases.sortedBy { it.start }, subs.sortedBy { it.start }, depth, rangeOf(n)))
         }
 
         /** The clause(s) under a conjunction or preposition, the connector word leading the first. */
@@ -358,7 +407,7 @@ object SimpleSyntax {
             for (w in words) {
                 val target = clauses.firstOrNull { w.id in it.range } ?: clauses.firstOrNull { it.start > w.id } ?: clauses.last()
                 val k = clauses.indexOf(target)
-                clauses[k] = target.with(listOf(Phrase(Role.CONNECTOR, listOf(w))))
+                clauses[k] = target.with(listOf(ph(Role.CONNECTOR, listOf(w))))
             }
             return clauses
         }
@@ -393,10 +442,10 @@ object SimpleSyntax {
                     else -> collect(c, depth + 1, phrases, subs)
                 }
             }
-            val verbLabel = if (head.isWord && mood(head) !in "isomnp" && base(head.relation) == "PRED") "predicate" else Role.VERB.label
-            phrases += Phrase(Role.VERB, verb.sortedBy { it.id }, verbLabel)
-            if (leadWords.isNotEmpty()) phrases += Phrase(Role.CONNECTOR, leadWords.sortedBy { it.id })
-            phrases.sortBy { it.first }
+            val main = head in tree.roots || tree.headOf(head)?.isPunctuation == true || base(head.relation) == "PRED"
+            phrases += ph(Role.VERB, verb.sortedBy { it.id }, verbLabel(head, main, auxiliary))
+            if (leadWords.isNotEmpty()) phrases += ph(Role.CONNECTOR, leadWords.sortedBy { it.id })
+            phrases.sortBy { it.start }
             val ownWords = phrases.flatMap { it.words }
             val label = clauseLabel(head, connector, opener, ownWords, auxiliary)
             val ids = ownWords.filter { it.isWord }.map { it.id }
@@ -435,7 +484,7 @@ object SimpleSyntax {
             val function = when (rel) {
                 "SBJ" -> "subject of $x"
                 "OBJ" -> "object of $x"
-                "ADV" -> "goes with $x (when, why, how)"
+                "ADV" -> "modifies $x"
                 "ATR" -> "describes $x"
                 "PNOM" -> "predicate of $x"
                 "ATV", "AtvV" -> "complement of $x"
@@ -479,11 +528,36 @@ object SimpleSyntax {
             return p?.let { if (it.artificial) "the understood verb" else Syntax.headLabel(it) }
         }
 
-        // ---- rows
+        // ---- lines
 
-        fun emit(c: Clause) {
-            if (c.label.isNotEmpty() || c.phrases.isNotEmpty()) out += Block(c.depth, c.label.takeIf { it.isNotEmpty() }, c.phrases)
-            for (s in c.subs.sortedBy { it.start }) emit(s)
+        fun isGlue(p: Phrase) = p.role == Role.CONNECTOR || p.role == Role.PARTICLE
+
+        /**
+         * A clause as shown: its phrases and inner clauses in the order of the text, connecting
+         * words that follow one another on one line. A nested clause of a single phrase (a bare
+         * infinitive, a participle) becomes a phrase named after the clause.
+         */
+        fun view(c: Clause, nested: Boolean): Item {
+            val items = (c.phrases.map { it.start to (it as Item) } + c.subs.map { it.start to view(it, nested = true) })
+                .sortedBy { it.first }.map { it.second }
+            val merged = mutableListOf<Item>()
+            for (item in items) {
+                val last = merged.lastOrNull()
+                if (item is Phrase && isGlue(item) && last is Phrase && isGlue(last)) {
+                    merged[merged.size - 1] = Phrase(Role.CONNECTOR, last.words + item.words, "", start = last.start)
+                } else merged += item
+            }
+            val only = merged.singleOrNull()
+            if (only != null && c.label.isEmpty()) return only
+            // a short clause (εἰ βούλει, καὶ ἀκοῦσαι) reads as one line, the connecting words in front
+            val lead = merged.firstOrNull() as? Phrase
+            val core = merged.getOrNull(1) as? Phrase
+            val short = if (merged.size == 2 && lead != null && isGlue(lead) && core != null && !isGlue(core)) Phrase(core.role, lead.words + core.words, core.label, start = lead.start) else only as? Phrase
+            if (nested && short != null) {
+                val label = if (short.role == Role.VERB || short.label.isEmpty()) c.label else "${c.label} · ${short.label}"
+                return Phrase(short.role, short.words, label, start = short.start)
+            }
+            return SimpleSyntax.Clause(c.label, merged)
         }
     }
 }

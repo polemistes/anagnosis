@@ -8,9 +8,6 @@ import androidx.compose.foundation.gestures.detectTransformGestures
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.ExperimentalLayoutApi
-import androidx.compose.foundation.layout.FlowRow
-import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -36,7 +33,6 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clipToBounds
 import androidx.compose.ui.draw.drawBehind
@@ -44,6 +40,7 @@ import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Path
+import androidx.compose.ui.graphics.drawscope.DrawScope
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.graphics.drawscope.withTransform
 import androidx.compose.ui.graphics.luminance
@@ -61,6 +58,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.rememberTextMeasurer
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.text.withStyle
+import androidx.compose.ui.unit.Constraints
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import no.anagnosis.data.Morphology
@@ -136,10 +134,7 @@ fun SyntaxScreen(tree: SyntaxTree, label: String, family: FontFamily, onWord: (L
             }
             Box(Modifier.weight(1f).fillMaxWidth()) {
                 when (view) {
-                    SyntaxView.SIMPLE -> Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(horizontal = 16.dp, vertical = 12.dp)) {
-                        SimpleSyntaxView(tree, family, onWord)
-                        Spacer(Modifier.padding(bottom = 32.dp))
-                    }
+                    SyntaxView.SIMPLE -> SyntaxOutline(tree, family, onWord, Modifier.fillMaxSize())
                     SyntaxView.DIAGRAM -> DependencyDiagram(tree, family, onWord, Modifier.fillMaxSize())
                     SyntaxView.TREE -> Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(horizontal = 20.dp, vertical = 12.dp)) {
                         SyntaxTreeView(tree, family, onWord)
@@ -187,6 +182,70 @@ private class DiagramStyles(
     val roleColors: Map<Syntax.Role, Color>, val muted: Color, val text: Color, val arc: Color, val background: Color,
 )
 
+/**
+ * What a pannable canvas shows: its content's size and drawing, in pixels, where it opens, what
+ * a tap does, and whether content smaller than the view is centred (a diagram) or kept at the top left (an outline).
+ */
+private class PanZoomContent(
+    val width: Float, val height: Float, val initialZoom: Float, val initialOffset: Offset,
+    val centre: Boolean, val onTap: (Offset) -> Unit, val draw: DrawScope.() -> Unit,
+)
+
+/**
+ * A canvas whose content pans and zooms with the fingers and resets on a double tap. [content]
+ * lays the content out for the view's size, and is called again when [key] or the size changes
+ * (a rotation). Content smaller than the view is centred; larger content pans from end to end.
+ */
+@Composable
+private fun PanZoomCanvas(modifier: Modifier, key: Any?, content: (viewW: Float, viewH: Float) -> PanZoomContent) {
+    val density = LocalDensity.current
+    BoxWithConstraints(modifier.clipToBounds()) {
+        val viewW = with(density) { maxWidth.toPx() }
+        val viewH = with(density) { maxHeight.toPx() }
+        val margin = with(density) { CANVAS_MARGIN.toPx() }
+        val c = remember(key, viewW, viewH) { content(viewW, viewH) }
+        fun clampOffset(o: Offset, z: Float): Offset {
+            val w = c.width * z
+            val h = c.height * z
+            val x = when {
+                w + 2 * margin > viewW -> o.x.coerceIn(viewW - w - margin, margin)
+                c.centre -> (viewW - w) / 2
+                else -> margin
+            }
+            val y = when {
+                h + 2 * margin > viewH -> o.y.coerceIn(viewH - h - margin, margin)
+                c.centre -> (viewH - h) / 2
+                else -> margin
+            }
+            return Offset(x, y)
+        }
+        val startZoom = c.initialZoom.coerceIn(MIN_ZOOM, MAX_ZOOM)
+        var zoom by remember(c) { mutableStateOf(startZoom) }
+        var offset by remember(c) { mutableStateOf(clampOffset(c.initialOffset, startZoom)) }
+        Canvas(
+            Modifier.fillMaxSize()
+                // keyed on the content: after a rotation the handlers would otherwise keep the old size and state
+                .pointerInput(c) {
+                    detectTransformGestures { centroid, pan, gestureZoom, _ ->
+                        val newZoom = (zoom * gestureZoom).coerceIn(MIN_ZOOM, MAX_ZOOM)
+                        // zoom about the fingers: the point under the centroid stays put
+                        val scaled = (offset - centroid) * (newZoom / zoom) + centroid
+                        zoom = newZoom
+                        offset = clampOffset(scaled + pan, newZoom)
+                    }
+                }
+                .pointerInput(c) {
+                    detectTapGestures(
+                        onTap = { pos -> c.onTap((pos - offset) / zoom) },
+                        onDoubleTap = { zoom = startZoom; offset = clampOffset(c.initialOffset, startZoom) },
+                    )
+                },
+        ) {
+            withTransform({ translate(offset.x, offset.y); scale(zoom, zoom, pivot = Offset.Zero) }) { c.draw(this) }
+        }
+    }
+}
+
 @Composable
 private fun DependencyDiagram(tree: SyntaxTree, family: FontFamily, onWord: (Long) -> Unit, modifier: Modifier) {
     val measurer = rememberTextMeasurer()
@@ -201,50 +260,23 @@ private fun DependencyDiagram(tree: SyntaxTree, family: FontFamily, onWord: (Lon
             roleColors = roleColors, muted = colors.onSurfaceVariant, text = colors.onSurface, arc = colors.outline, background = colors.background,
         )
     }
-    val layout = remember(tree, styles) { layoutDiagram(tree, measurer, styles, with(density) { SLOT_GAP.toPx() }, with(density) { ARC_STEP.toPx() }) }
-    BoxWithConstraints(modifier.background(colors.background).clipToBounds()) {
-        val viewW = with(density) { maxWidth.toPx() }
-        val viewH = with(density) { maxHeight.toPx() }
-        val margin = with(density) { CANVAS_MARGIN.toPx() }
-        // Opens at full size with the whole height in view and the start of the sentence at the left.
-        fun initialZoom(): Float = minOf(1f, (viewH - 2 * margin) / layout.height).coerceIn(MIN_ZOOM, MAX_ZOOM)
-        var zoom by remember(layout, viewW, viewH) { mutableStateOf(initialZoom()) }
-        fun clampOffset(o: Offset, z: Float): Offset {
-            val w = layout.width * z
-            val h = layout.height * z
-            // a diagram narrower than the view is centred; a wider one can be panned from end to end
-            val x = if (w + 2 * margin <= viewW) (viewW - w) / 2 else o.x.coerceIn(viewW - w - margin, margin)
-            val y = if (h + 2 * margin <= viewH) (viewH - h) / 2 else o.y.coerceIn(viewH - h - margin, margin)
-            return Offset(x, y)
-        }
-        var offset by remember(layout, viewW, viewH) { mutableStateOf(clampOffset(Offset(margin, 0f), zoom)) }
-        Canvas(
-            Modifier.fillMaxSize()
-                // keyed on the size too: after a rotation the handlers would otherwise keep the old size and state
-                .pointerInput(layout, viewW, viewH) {
-                    detectTransformGestures { centroid, pan, gestureZoom, _ ->
-                        val newZoom = (zoom * gestureZoom).coerceIn(MIN_ZOOM, MAX_ZOOM)
-                        // zoom about the fingers: the point under the centroid stays put
-                        val scaled = (offset - centroid) * (newZoom / zoom) + centroid
-                        zoom = newZoom
-                        offset = clampOffset(scaled + pan, newZoom)
-                    }
-                }
-                .pointerInput(layout, viewW, viewH) {
-                    detectTapGestures(
-                        onTap = { pos -> layout.tokenAt((pos - offset) / zoom)?.node?.token?.let { onWord(it.id) } },
-                        onDoubleTap = { zoom = initialZoom(); offset = clampOffset(Offset(margin, 0f), zoom) },
-                    )
-                },
-        ) {
-            withTransform({ translate(offset.x, offset.y); scale(zoom, zoom, pivot = Offset.Zero) }) {
-                drawDiagram(layout, styles)
-            }
-        }
+    val gap = with(density) { SLOT_GAP.toPx() }
+    val step = with(density) { ARC_STEP.toPx() }
+    val margin = with(density) { CANVAS_MARGIN.toPx() }
+    PanZoomCanvas(modifier.background(colors.background), key = Pair(tree, styles)) { _, viewH ->
+        val layout = layoutDiagram(tree, measurer, styles, gap, step)
+        // opens at full size with the whole height in view and the start of the sentence at the left
+        PanZoomContent(
+            layout.width, layout.height,
+            initialZoom = minOf(1f, (viewH - 2 * margin) / layout.height),
+            initialOffset = Offset(margin, 0f), centre = true,
+            onTap = { p -> layout.tokenAt(p)?.node?.token?.let { onWord(it.id) } },
+            draw = { drawDiagram(layout, styles) },
+        )
     }
 }
 
-private fun androidx.compose.ui.graphics.drawscope.DrawScope.drawDiagram(layout: DiagramLayout, styles: DiagramStyles) {
+private fun DrawScope.drawDiagram(layout: DiagramLayout, styles: DiagramStyles) {
     val step = ARC_STEP.toPx()
     val tip = ARC_TIP.toPx()
     val radius = ARC_RADIUS.toPx()
@@ -389,9 +421,17 @@ fun SyntaxTreeView(tree: SyntaxTree, family: FontFamily, onWord: (Long) -> Unit)
 }
 
 
-// ------------------------------------------------------------------ the simple view
+// ------------------------------------------------------------------ the outline
 
-private val SIMPLE_INDENT = 16.dp
+private val OUTLINE_INDENT = 18.dp        // one step per clause inside a clause
+private val OUTLINE_BAR = 2.dp            // the bar down a clause's left, from its indent
+private val OUTLINE_TEXT = 12.dp          // its lines, from its indent
+private val OUTLINE_WORD_GAP = 7.dp
+private val OUTLINE_LABEL_GAP = 12.dp
+private val OUTLINE_LINE_GAP = 5.dp
+private val OUTLINE_CLAUSE_GAP = 7.dp
+private val OUTLINE_WRAP = 14.dp          // the hanging indent of a line that wraps
+private val OUTLINE_MIN_WIDTH = 160.dp    // room kept for the words however deep the nesting; past that the view pans
 
 /** The colour of a reader's role, from the diagram's palette. */
 private fun colourOf(role: SimpleSyntax.Role, roleColors: Map<Syntax.Role, Color>): Color? = when (role) {
@@ -404,65 +444,154 @@ private fun colourOf(role: SimpleSyntax.Role, roleColors: Map<Syntax.Role, Color
     else -> null
 }
 
+/** A connecting word (a conjunction, a particle) shown muted inside whatever phrase it stands in. */
+private fun isGlue(node: SyntaxNode): Boolean {
+    val pos = node.postag.getOrElse(0) { '-' }
+    val rel = (node.relation ?: "").substringBefore('_')
+    return pos == 'c' || pos == 'g' || rel == "AuxC" || rel == "AuxY" || rel == "COORD"
+}
+
+private class OWord(val node: SyntaxNode, val text: TextLayoutResult, val x: Float, val y: Float, val color: Color) {
+    fun contains(p: Offset) = p.x >= x && p.x < x + text.size.width && p.y >= y && p.y < y + text.size.height
+}
+private class OText(val text: TextLayoutResult, val x: Float, val y: Float, val color: Color)
+private class OBar(val x: Float, val top: Float, val bottom: Float)
+
+/** The outline laid out: words (tappable), headers and labels, and the bar of each clause. */
+private class OutlineLayout(val words: List<OWord>, val texts: List<OText>, val bars: List<OBar>, val width: Float, val height: Float) {
+    fun wordAt(p: Offset): OWord? = words.firstOrNull { it.contains(p) }
+}
+
+private class OutlineStyles(
+    val word: TextStyle, val verb: TextStyle, val label: TextStyle, val header: TextStyle,
+    val roleColors: Map<Syntax.Role, Color>, val muted: Color, val text: Color, val bar: Color, val background: Color,
+)
+
+private class OutlineMetrics(
+    val indent: Float, val bar: Float, val text: Float, val wordGap: Float, val labelGap: Float, val lineGap: Float,
+    val clauseGap: Float, val wrap: Float, val minWidth: Float, val maxWidth: Float,
+)
+
 /**
- * The sentence as clauses: each a row of phrases, the words of a phrase together with their
- * parts of speech beneath and the phrase's role under them; subordinate clauses indented
- * under the clause they belong to, each named (relative clause, ὅτι clause, infinitive ...).
+ * The sentence as an outline: one phrase per line in the order of the text, the words of a
+ * phrase together with its role after them, the verb in bold; each clause named on a line of
+ * its own with a bar down its left, a clause inside a clause indented one step where it
+ * occurs. Lines wrap at the view's width with a hanging indent; the view pans and zooms.
  */
-@OptIn(ExperimentalLayoutApi::class)
 @Composable
-fun SimpleSyntaxView(tree: SyntaxTree, family: FontFamily, onWord: (Long) -> Unit) {
+fun SyntaxOutline(tree: SyntaxTree, family: FontFamily, onWord: (Long) -> Unit, modifier: Modifier) {
+    val measurer = rememberTextMeasurer()
+    val density = LocalDensity.current
+    val colors = MaterialTheme.colorScheme
     val roleColors = rememberRoleColors()
-    val blocks = remember(tree) { SimpleSyntax.blocks(tree) }
-    val wordStyle = TextStyle(fontFamily = family, fontSize = 18.sp, lineHeight = 22.sp)
-    val posStyle = TextStyle(fontSize = 10.sp, lineHeight = 12.sp)
-    val roleStyle = TextStyle(fontSize = 11.sp, lineHeight = 13.sp, fontWeight = FontWeight.SemiBold)
-    val labelStyle = TextStyle(fontSize = 12.sp, lineHeight = 16.sp, fontStyle = FontStyle.Italic)
-    val muted = MaterialTheme.colorScheme.onSurfaceVariant
-    val guide = MaterialTheme.colorScheme.outlineVariant
-    val text = MaterialTheme.colorScheme.onSurface
-    Column(Modifier.fillMaxWidth()) {
-        for (block in blocks) {
-            Column(
-                Modifier.fillMaxWidth().drawBehind {
-                    for (d in 0 until block.depth) {
-                        val x = (SIMPLE_INDENT * d).toPx() + 3.dp.toPx()
-                        drawLine(guide, Offset(x, 0f), Offset(x, size.height), strokeWidth = 1.dp.toPx())
-                    }
-                }.padding(start = SIMPLE_INDENT * block.depth, bottom = 10.dp),
-            ) {
-                if (block.label != null) {
-                    Text(block.label, style = labelStyle, color = muted, modifier = Modifier.padding(bottom = 4.dp))
-                }
-                FlowRow(horizontalArrangement = Arrangement.spacedBy(14.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                    for (phrase in block.phrases) {
-                        val colour = colourOf(phrase.role, roleColors)
-                        val dim = phrase.role == SimpleSyntax.Role.PARTICLE || phrase.role == SimpleSyntax.Role.CONNECTOR
-                        Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                            Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
-                                for (node in phrase.words) {
-                                    val token = node.token
-                                    Column(
-                                        horizontalAlignment = Alignment.CenterHorizontally,
-                                        modifier = if (token != null) Modifier.clickable { onWord(token.id) } else Modifier,
-                                    ) {
-                                        Text(
-                                            Syntax.displayForm(node),
-                                            style = wordStyle.copy(fontStyle = if (node.artificial) FontStyle.Italic else FontStyle.Normal),
-                                            color = if (dim) muted else colour ?: text,
-                                        )
-                                        val pos = if (node.artificial) "omitted" else Morphology.pos(node.postag)
-                                        if (pos.isNotEmpty()) Text(pos, style = posStyle, color = muted)
-                                    }
-                                }
-                            }
-                            if (phrase.label.isNotEmpty()) {
-                                Text(phrase.label, style = roleStyle, color = colour ?: muted, modifier = Modifier.padding(top = 2.dp))
-                            }
-                        }
-                    }
-                }
+    val styles = remember(family, colors, roleColors) {
+        val word = TextStyle(fontFamily = family, fontSize = 18.sp, lineHeight = 24.sp)
+        OutlineStyles(
+            word = word,
+            verb = word.copy(fontWeight = FontWeight.Bold),
+            label = TextStyle(fontSize = 11.sp, lineHeight = 14.sp, fontWeight = FontWeight.SemiBold),
+            header = TextStyle(fontSize = 12.sp, lineHeight = 16.sp, fontStyle = FontStyle.Italic),
+            roleColors = roleColors, muted = colors.onSurfaceVariant, text = colors.onSurface, bar = colors.outlineVariant, background = colors.background,
+        )
+    }
+    val items = remember(tree) { SimpleSyntax.outline(tree) }
+    val margin = with(density) { CANVAS_MARGIN.toPx() }
+    PanZoomCanvas(modifier.background(colors.background), key = Pair(items, styles)) { viewW, _ ->
+        val metrics = with(density) {
+            OutlineMetrics(
+                OUTLINE_INDENT.toPx(), OUTLINE_BAR.toPx(), OUTLINE_TEXT.toPx(), OUTLINE_WORD_GAP.toPx(), OUTLINE_LABEL_GAP.toPx(),
+                OUTLINE_LINE_GAP.toPx(), OUTLINE_CLAUSE_GAP.toPx(), OUTLINE_WRAP.toPx(), OUTLINE_MIN_WIDTH.toPx(), viewW - 2 * margin,
+            )
+        }
+        val layout = layoutOutline(items, measurer, styles, metrics)
+        PanZoomContent(
+            layout.width, layout.height, initialZoom = 1f, initialOffset = Offset(margin, margin), centre = false,
+            onTap = { p -> layout.wordAt(p)?.node?.token?.let { onWord(it.id) } },
+            draw = { drawOutline(layout, styles) },
+        )
+    }
+}
+
+private fun layoutOutline(items: List<SimpleSyntax.Item>, measurer: TextMeasurer, styles: OutlineStyles, m: OutlineMetrics): OutlineLayout {
+    val words = mutableListOf<OWord>()
+    val texts = mutableListOf<OText>()
+    val bars = mutableListOf<OBar>()
+    var y = 0f
+    var right = 0f
+    fun limitAt(x0: Float) = maxOf(m.maxWidth, x0 + m.minWidth)
+
+    fun phrase(p: SimpleSyntax.Phrase, depth: Int) {
+        val x0 = depth * m.indent + m.text
+        val limit = limitAt(x0)
+        val colour = colourOf(p.role, styles.roleColors)
+        val dim = p.role == SimpleSyntax.Role.PARTICLE || p.role == SimpleSyntax.Role.CONNECTOR
+        var x = x0
+        var rowTop = y
+        var rowHeight = 0f
+        var rowBaseline = 0f
+        fun newRow() { rowTop += rowHeight; rowHeight = 0f; rowBaseline = 0f; x = x0 + m.wrap }
+        for (node in p.words) {
+            val glue = isGlue(node)
+            val style = (if (p.role == SimpleSyntax.Role.VERB && !glue) styles.verb else styles.word)
+                .let { if (node.artificial) it.copy(fontStyle = FontStyle.Italic) else it }
+            val t = measurer.measure(Syntax.displayForm(node), style)
+            if (x > x0 && x + t.size.width > limit) newRow()
+            val color = when { node.artificial || glue || dim -> styles.muted; else -> colour ?: styles.text }
+            words += OWord(node, t, x, rowTop, color)
+            rowHeight = maxOf(rowHeight, t.size.height.toFloat())
+            rowBaseline = maxOf(rowBaseline, t.firstBaseline)
+            x += t.size.width + m.wordGap
+            right = maxOf(right, x - m.wordGap)
+        }
+        if (p.label.isNotEmpty()) {
+            val t = measurer.measure(p.label, styles.label, constraints = Constraints(maxWidth = (limit - x0 - m.wrap).toInt().coerceAtLeast(1)))
+            val lx = if (x > x0) x - m.wordGap + m.labelGap else x0
+            if (lx + t.size.width <= limit && rowHeight > 0f) {
+                // on the words' line, on their baseline
+                texts += OText(t, lx, rowTop + rowBaseline - t.firstBaseline, colour ?: styles.muted)
+                right = maxOf(right, lx + t.size.width)
+            } else {
+                if (rowHeight > 0f) newRow()
+                texts += OText(t, x, rowTop, colour ?: styles.muted)
+                rowHeight = t.size.height.toFloat()
+                right = maxOf(right, x + t.size.width)
             }
         }
+        y = rowTop + rowHeight + m.lineGap
     }
+
+    fun clause(c: SimpleSyntax.Clause, depth: Int, nested: Boolean) {
+        val x0 = depth * m.indent + m.text
+        if (nested) y += m.clauseGap
+        val top = y
+        if (c.label.isNotEmpty()) {
+            val t = measurer.measure(c.label, styles.header, constraints = Constraints(maxWidth = (limitAt(x0) - x0).toInt().coerceAtLeast(1)))
+            texts += OText(t, x0, y, styles.muted)
+            right = maxOf(right, x0 + t.size.width)
+            y += t.size.height + m.lineGap
+        }
+        for (item in c.items) {
+            when (item) {
+                is SimpleSyntax.Phrase -> phrase(item, depth)
+                is SimpleSyntax.Clause -> clause(item, depth + 1, nested = true)
+            }
+        }
+        bars += OBar(depth * m.indent + m.bar, top, y - m.lineGap)
+        y += m.clauseGap
+    }
+
+    for (item in items) {
+        when (item) {
+            is SimpleSyntax.Phrase -> phrase(item, 0)
+            is SimpleSyntax.Clause -> clause(item, 0, nested = false)
+        }
+    }
+    return OutlineLayout(words, texts, bars, right, y)
+}
+
+private fun DrawScope.drawOutline(layout: OutlineLayout, styles: OutlineStyles) {
+    val stroke = 1.5.dp.toPx()
+    for (b in layout.bars) drawLine(styles.bar, Offset(b.x, b.top), Offset(b.x, b.bottom), strokeWidth = stroke)
+    for (t in layout.texts) drawText(t.text, t.color, Offset(t.x, t.y))
+    for (w in layout.words) drawText(w.text, w.color, Offset(w.x, w.y))
 }
