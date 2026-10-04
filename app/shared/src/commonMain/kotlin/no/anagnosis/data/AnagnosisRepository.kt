@@ -141,6 +141,20 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
     fun document(data: WorkData, slug: String): Documents? =
         textDb(data.slug).anagnosisQueries.selectDocument(data.work.id, slug).executeAsOneOrNull()
 
+    /** The documents of a text by its slug, without loading the text itself (for its title page). */
+    fun documents(textSlug: String): List<Pair<String, String>> {
+        val q = textDb(textSlug).anagnosisQueries
+        val work = q.selectWorkBySlug(textSlug).executeAsOneOrNull() ?: return emptyList()
+        return q.selectDocuments(work.id).executeAsList().map { it.slug to it.title }
+    }
+
+    /** A document of a text by the text's slug, without loading the text itself. */
+    fun document(textSlug: String, slug: String): Documents? {
+        val q = textDb(textSlug).anagnosisQueries
+        val work = q.selectWorkBySlug(textSlug).executeAsOneOrNull() ?: return null
+        return q.selectDocument(work.id, slug).executeAsOneOrNull()
+    }
+
     /** Headwords starting with the given loose key (diacritics ignored), one per lemma. */
     fun searchHeadwords(looseKey: String, limit: Long = 80): List<HeadwordHit> {
         if (looseKey.isEmpty()) return emptyList()

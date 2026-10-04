@@ -41,8 +41,8 @@ fun TextHomeScreen(
     var showHelp by remember { mutableStateOf(false) }
     var showAbout by remember { mutableStateOf(false) }
     var openDocument by remember { mutableStateOf<String?>(null) }
-    val data = remember(entry.slug) { repository.loadWork(entry.slug) }
-    val documents = remember(entry.slug) { repository.documents(data) }
+    // the documents only: loading the whole text here froze the page for the long texts
+    val documents = remember(entry.slug) { repository.documents(entry.slug) }
     Column(
         Modifier.fillMaxSize().safeDrawingPadding().verticalScroll(rememberScrollState()).padding(horizontal = 28.dp, vertical = 32.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
@@ -83,7 +83,7 @@ fun TextHomeScreen(
     }
     }
     openDocument?.let { slug ->
-        val doc = remember(slug) { repository.document(data, slug) }
+        val doc = remember(slug) { repository.document(entry.slug, slug) }
         if (doc != null) DocumentSheet(doc, onDismiss = { openDocument = null }) else openDocument = null
     }
     if (showHelp) IntroDialog(onDismiss = { showHelp = false })

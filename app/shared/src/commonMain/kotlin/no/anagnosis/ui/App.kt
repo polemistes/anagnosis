@@ -2,11 +2,14 @@ package no.anagnosis.ui
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ColorScheme
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
+import androidx.compose.material3.Text
 import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
@@ -19,6 +22,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.lerp
+import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import no.anagnosis.data.AnagnosisRepository
@@ -70,7 +74,10 @@ fun App(
         if (list.any { it.slug == slug && it.installed }) screen = Screen.TextHome(slug)
         onOpenTextHandled()
     }
+    // The text is loaded in the background from its title page on, so that it is ready, or
+    // nearly, when the reader asks for it; the long ones take a few seconds.
     val wantedSlug = ((screen as? Screen.Search)?.from as? Screen.Reader)?.slug ?: (screen as? Screen.Reader)?.slug
+        ?: (screen as? Screen.TextHome)?.slug
     LaunchedEffect(wantedSlug) {
         if (wantedSlug != null) {
             current = loaded[wantedSlug] ?: withContext(Dispatchers.Default) { repository.loadWork(wantedSlug) }.also { loaded[wantedSlug] = it }
@@ -106,7 +113,7 @@ fun App(
                 }
                 is Screen.Reader -> {
                     val data = current
-                    if (data == null || data.slug != s.slug) Loading() else {
+                    if (data == null || data.slug != s.slug) Loading("Opening ${list?.firstOrNull { it.slug == s.slug }?.let { e -> e.titleEn.ifEmpty { e.title } } ?: "the text"} …") else {
                         ReaderScreen(
                             repository = repository,
                             data = data,
@@ -131,9 +138,22 @@ fun App(
     }
 }
 
+/** A spinner, with a line saying what is being waited for when that takes a moment. */
 @Composable
-private fun Loading() {
-    Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) { CircularProgressIndicator() }
+private fun Loading(message: String? = null) {
+    Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+        Column(horizontalAlignment = Alignment.CenterHorizontally) {
+            CircularProgressIndicator()
+            if (message != null) {
+                Text(
+                    message,
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    modifier = Modifier.padding(top = 16.dp),
+                )
+            }
+        }
+    }
 }
 
 private fun colorScheme(theme: ColorTheme, systemDark: Boolean): ColorScheme {
