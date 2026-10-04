@@ -12,6 +12,7 @@ actual class SettingsStore(context: Context) {
         theme = prefs.getString("theme", null)?.let { name -> ColorTheme.entries.firstOrNull { it.name == name } } ?: ColorTheme.SYSTEM,
         lineNumbers = prefs.getString("line_numbers", null)?.let { name -> LineNumberMode.entries.firstOrNull { it.name == name } } ?: LineNumberMode.FIFTH,
         fitTranslation = prefs.getBoolean("fit_translation", false),
+        wordFunction = prefs.getBoolean("word_function", true),
         inputScheme = prefs.getString("input_scheme", null)?.let { name -> InputScheme.entries.firstOrNull { it.name == name } } ?: InputScheme.BETA,
         exactDiacritics = prefs.getBoolean("exact_diacritics", false),
         greekKeyboard = prefs.getBoolean("greek_keyboard", false),
@@ -42,6 +43,7 @@ actual class SettingsStore(context: Context) {
             .putString("theme", settings.theme.name)
             .putString("line_numbers", settings.lineNumbers.name)
             .putBoolean("fit_translation", settings.fitTranslation)
+            .putBoolean("word_function", settings.wordFunction)
             .putString("input_scheme", settings.inputScheme.name)
             .putBoolean("exact_diacritics", settings.exactDiacritics)
             .putBoolean("greek_keyboard", settings.greekKeyboard)

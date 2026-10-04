@@ -512,6 +512,7 @@ fun ReaderScreen(
             info,
             onDismiss = { selectedTokenId = null },
             onSyntax = if (sentence == null) null else { { syntaxSentence = sentence; selectedTokenId = null } },
+            showFunction = settings.wordFunction,
         )
     }
     pageNotesKind?.let { kind ->

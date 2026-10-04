@@ -26,6 +26,8 @@ data class ReaderSettings(
     val lineNumbers: LineNumberMode = LineNumberMode.FIFTH,
     /** End a Greek page early when its translation would not fit on one screen. */
     val fitTranslation: Boolean = false,
+    /** The word popup names the word's function in its sentence (subject of φέρει). */
+    val wordFunction: Boolean = true,
     /** Latin-letter input scheme for the dictionary search. */
     val inputScheme: no.anagnosis.greek.InputScheme = no.anagnosis.greek.InputScheme.BETA,
     /** Word analysis matches the typed diacritics exactly instead of ignoring them. */

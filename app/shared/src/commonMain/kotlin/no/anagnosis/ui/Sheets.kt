@@ -54,11 +54,12 @@ private fun sheetModifier(): Modifier = Modifier.statusBarsPadding()
 
 /**
  * The word popup. In the reader [onSyntax] opens the syntax of the word's sentence; the search
- * screen has no sentence and leaves it null.
+ * screen has no sentence and leaves it null. [showFunction] names the word's function in its
+ * sentence under its form, which a reader may prefer to work out alone.
  */
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalLayoutApi::class)
 @Composable
-fun WordSheet(info: WordInfo, onDismiss: () -> Unit, onSyntax: (() -> Unit)? = null) {
+fun WordSheet(info: WordInfo, onDismiss: () -> Unit, onSyntax: (() -> Unit)? = null, showFunction: Boolean = true) {
     val state = rememberModalBottomSheetState(skipPartiallyExpanded = true)
     val glossary = info.entries.filter { it.lexiconSlug.endsWith("-glossary") }
     val buttons = listOf("ml" to "Middle Liddell", "lsj" to "LSJ")
@@ -76,7 +77,7 @@ fun WordSheet(info: WordInfo, onDismiss: () -> Unit, onSyntax: (() -> Unit)? = n
             if (subtitle.isNotEmpty()) {
                 Text(subtitle, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
-            info.syntax?.let {
+            info.syntax?.takeIf { showFunction }?.let {
                 Text(it.replaceFirstChar { c -> c.uppercase() }, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
             Spacer(Modifier.height(12.dp))

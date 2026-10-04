@@ -93,6 +93,10 @@ fun OptionsDialog(
                     Text("Shorten pages so the translation fits", style = MaterialTheme.typography.bodyMedium, modifier = Modifier.weight(1f))
                     Switch(checked = settings.fitTranslation, onCheckedChange = { onChange(settings.copy(fitTranslation = it)) })
                 }
+                Row(Modifier.fillMaxWidth().clickable { onChange(settings.copy(wordFunction = !settings.wordFunction)) }, verticalAlignment = Alignment.CenterVertically) {
+                    Text("Name a word's function in its sentence when tapped", style = MaterialTheme.typography.bodyMedium, modifier = Modifier.weight(1f))
+                    Switch(checked = settings.wordFunction, onCheckedChange = { onChange(settings.copy(wordFunction = it)) })
+                }
                 Spacer(Modifier.height(8.dp))
                 Text("Colours", style = MaterialTheme.typography.labelLarge)
                 Row(Modifier.fillMaxWidth().padding(top = 8.dp), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
