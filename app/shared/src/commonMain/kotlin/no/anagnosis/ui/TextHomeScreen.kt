@@ -51,7 +51,9 @@ fun TextHomeScreen(
         TextButton(onClick = onBack, modifier = Modifier.align(Alignment.Start)) { Text("‹ Library") }
         Spacer(Modifier.height(8.dp))
         Text(entry.titleEn.ifEmpty { entry.title }, style = MaterialTheme.typography.displaySmall, textAlign = TextAlign.Center)
-        Text("by ${entry.authorEn.ifEmpty { entry.author }}", style = MaterialTheme.typography.titleLarge, color = MaterialTheme.colorScheme.onSurfaceVariant, textAlign = TextAlign.Center)
+        // a text without an author (the New Testament) is named in Greek instead
+        val author = entry.authorEn.ifEmpty { entry.author }
+        Text(if (author.isNotBlank()) "by $author" else entry.title, style = MaterialTheme.typography.titleLarge, color = MaterialTheme.colorScheme.onSurfaceVariant, textAlign = TextAlign.Center)
         Spacer(Modifier.height(28.dp))
         Text(entry.description, style = MaterialTheme.typography.bodyLarge, textAlign = TextAlign.Center)
         Spacer(Modifier.height(12.dp))

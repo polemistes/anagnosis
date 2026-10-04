@@ -27,8 +27,10 @@ result with git before committing.
     @ Speaker               speaker change
     !<TAB>text              stage direction
     <n><TAB>text            a line of text; n = line number, digits plus optional letter (161b),
-                            book.line for an epic (1.12, 1.93a), or Stephanus page, section
-                            and line for Plato (172a1)
+                            book.line for an epic (1.12, 1.93a), Stephanus page, section
+                            and line for Plato (172a1), or book.chapter.verse for the New
+                            Testament (1.5.3; books 1-27 in the canonical order; a verse that
+                            a paragraph divides goes on as 1.5.3b)
 
 The line number and the text are separated by a single TAB. Line numbers must be unique
 and increasing. In translations, `<n>` is the first Greek line the paragraph corresponds to,
@@ -170,6 +172,30 @@ word for word against the Perseus text of Burnet, and `merge-symposium` builds t
 * Commentary (`commentary-bury.md`) and introduction (`introduction.md`): R. G. Bury, *The
   Symposium of Plato* (1909), Perseus, CC BY-SA 3.0 US. Each note stands at the line where its
   lemma is found in Burnet's text, or at its section's first line where Bury's text differs.
+
+## The New Testament (`texts/newtestament/`)
+
+Every file here is made by `import-nt` from the sources `fetch-nt` downloads; edit the importer
+(`pipeline/anagnosis_pipeline/nt.py`), not the files.
+
+* Text and apparatus (`grc.txt`, `commentary-sbl-apparatus.md`): *The Greek New Testament: SBL
+  Edition*, ed. Michael W. Holmes (2010, github.com/LogosBible/SBLGNT, version 1.2), CC BY 4.0,
+  © Society of Biblical Literature and Logos Bible Software. A line is a verse; the SBL
+  paragraphs are kept, and a paragraph that begins inside a verse makes the rest of the verse a
+  line of its own (1.1.6b). The signs with which the SBL text marks the places its apparatus
+  discusses (⸀ ⸂ ⸃) are left out; each note stands at its verse. `sigla.md` explains the editions
+  the apparatus cites.
+* Lemmas and morphology (`tokens.tsv`): MACULA Greek (Clear Bible / Biblica,
+  github.com/Clear-Bible/macula-greek), CC BY 4.0, whose words match the SBL text's one for one.
+  No syntax yet.
+* Dictionaries: `aliases.tsv` sends New Testament lemmas to the LSJ headword they stand under
+  (ἀποκρίνομαι to ἀποκρίνω, γινώσκω to γιγνώσκω); `glossary.md` holds J. J. Dodson's entries
+  (*A Lexicon of the Greek New Testament*, CC0, by Strong's number) for the names and words LSJ
+  and Middle Liddell lack, and `shortdefs.tsv` his short glosses where Logeion has none.
+* Translation (`eng-bsb.txt`): the Berean Standard Bible (public domain since 2023), a paragraph
+  wherever the Greek begins one. Its verse numbers are mapped to the SBL text's where they differ
+  (Acts 19:41, 2 Corinthians 13:13-14); the doxology of Romans 16:25-27, which the SBL text
+  leaves out, is in brackets.
 
 ## Other documents (`sigla.md`, `introduction.md`, `appendix.md`)
 

@@ -213,7 +213,7 @@ fun IntroDialog(onDismiss: () -> Unit) {
                 HelpItem("Swipe left or right", "to turn the page.")
                 HelpItem("Press or slide on the bar at the bottom", "to go to any part of the text.")
                 HelpItem("Greek / English", "at the top switches between the text and the translation.")
-                HelpItem("Book", "at the top of an epic such as the Odyssey chooses the book to read. Swiping past the last page of a book goes on to the next.")
+                HelpItem("Book", "at the top of an epic such as the Odyssey, or of the New Testament, chooses the book to read. Swiping past the last page of a book goes on to the next. In the New Testament the chapter's number stands in bold before its first verse and the verse numbers are raised; Line numbers None hides them.")
                 HelpItem("Plato", "is cited by the pages of Stephanus's edition (1578) and their sections a–e, which the margin shows (172, b, c ...). Line numbers count the editor's lines within each section: 172a1 is the first line of 172a.")
                 HelpItem("The gear", "opens the options: font, text size, line numbers and colours. You can reopen this help there.")
             }

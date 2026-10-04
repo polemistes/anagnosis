@@ -16,7 +16,7 @@ free of charge: the code under the GPL (see LICENSE), the texts and data under C
     pipeline/transcriptions/   page-by-page transcriptions of printed editions (Allen's Odyssey, Burnet's Symposium)
     data/        build output: the SQLite bundle shipped with the app (not committed)
     app/         the Android apps (Kotlin Multiplatform, Compose): the reader (androidApp) with Antigone,
-                 and one small app per text sold separately (odysseyApp, symposiumApp), which hands its text to the reader
+                 and one small app per text sold separately (odysseyApp, symposiumApp, newTestamentApp), which hands its text to the reader
 
 ## Building the data bundle
 
@@ -41,6 +41,11 @@ So has the Symposium:
     .venv/bin/python -m anagnosis_pipeline check-symposium-batch FILE...  # check transcription batches against the Perseus text
     .venv/bin/python -m anagnosis_pipeline merge-symposium                # texts/symposium/: Burnet's text and apparatus, GLAUx, Jowett, Bury
 
+The New Testament is imported, not transcribed:
+
+    .venv/bin/python -m anagnosis_pipeline fetch-nt    # the SBLGNT, MACULA Greek, Dodson's lexicon and the Berean Standard Bible into pipeline/sources/nt/
+    .venv/bin/python -m anagnosis_pipeline import-nt   # texts/newtestament/ from them
+
 The word analyser's forms come from running Morpheus over the open Perseus corpus:
 
     .venv/bin/python -m anagnosis_pipeline build-morpheus-forms  # pipeline/build/morpheus-analyses.tsv.gz (needs Morpheus built in pipeline/sources/morpheus)
@@ -51,7 +56,8 @@ See [texts/README.md](texts/README.md) for the file formats.
 ## Texts sold as separate apps
 
 The reader (`no.anagnosis.reader`) comes with Antigone. Every further text is a paid app of its
-own (the Odyssey: `no.anagnosis.odyssey`; the Symposium: `no.anagnosis.symposium`) that carries the text's database. The reader looks for
+own (the Odyssey: `no.anagnosis.odyssey`; the Symposium: `no.anagnosis.symposium`; the New Testament:
+`no.anagnosis.newtestament`) that carries the text's database. The reader looks for
 apps that answer the action `no.anagnosis.action.TEXT` and are signed with its own key, copies
 their text in, and removes it again when the app is uninstalled. On Google Play the text apps
 must therefore be signed with the same app signing key as the reader: when creating such an
@@ -65,7 +71,9 @@ app in Play Console, choose to use the reader's app signing key.
 * Data (`texts/`, `data/`): Creative Commons Attribution-ShareAlike 4.0, see [DATA-LICENSE](DATA-LICENSE).
   The data is derived from the Perseus Digital Library (Tufts University), the Ancient Greek
   Dependency Treebank, GLAUx, Wikisource and Logeion, and from transcriptions of public-domain
-  editions; see [texts/README.md](texts/README.md) for the individual sources.
+  editions; the New Testament from the SBL Greek New Testament and MACULA Greek (both CC BY 4.0),
+  Dodson's lexicon (CC0) and the Berean Standard Bible (public domain); see
+  [texts/README.md](texts/README.md) for the individual sources.
 
 The Anagnosis name and app icon are trademarks of the author and are not covered by these
 licences. Builds made by others must not use them.

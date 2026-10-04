@@ -69,6 +69,7 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
         return WorkData(
             slug, work, lines, tokens, nodes, sections, translations, commentaries, withNotes,
             bookNumbered = numbering == "book.line",
+            verses = numbering == "verse",
             stephanus = numbering == "stephanus",
             prose = q.selectMeta("layout").executeAsOneOrNull() == "prose",
             automaticSyntax = q.selectMeta("syntax").executeAsOneOrNull() == "automatic",
@@ -121,7 +122,11 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
         val groups = mutableListOf<NoteGroup>()
         for ((key, group) in notes.groupBy { it.n }) {
             val first = group.first()
-            val heading = if (first.to_n_int > first.from_n_int) "Lines ${key.replace("-", "–")}" else "Line $key"
+            val heading = when {
+                data.verses -> data.range(first.from_n_int, first.to_n_int)
+                first.to_n_int > first.from_n_int -> "Lines ${key.replace("-", "–")}"
+                else -> "Line $key"
+            }
             val lineText = data.lines.firstOrNull { it.n_int >= first.from_n_int }?.text?.let(::displayText)
             groups += NoteGroup(heading, lineText, group)
         }

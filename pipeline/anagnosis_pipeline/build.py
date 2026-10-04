@@ -293,7 +293,7 @@ def read_catalog_entry(work_dir: Path) -> dict:
     if about.exists():
         body = []
         for raw in about.read_text(encoding="utf-8").splitlines():
-            m = re.match(r"^# ([a-z_]+): (.*)$", raw)
+            m = re.match(r"^# ([a-z_]+):\s*(.*)$", raw)
             if m and not body:
                 entry[m.group(1)] = m.group(2).strip()
             elif body or raw.strip():

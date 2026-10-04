@@ -83,7 +83,7 @@ fun LibraryScreen(
                 ) {
                     Column(Modifier.padding(16.dp)) {
                         Text(entry.titleEn.ifEmpty { entry.title }, style = MaterialTheme.typography.titleLarge)
-                        Text(entry.authorEn.ifEmpty { entry.author }, style = MaterialTheme.typography.titleSmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                        Text(entry.authorEn.ifEmpty { entry.author }.ifBlank { entry.title }, style = MaterialTheme.typography.titleSmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
                         if (entry.description.isNotEmpty()) {
                             Spacer(Modifier.height(8.dp))
                             Text(entry.description, style = MaterialTheme.typography.bodyMedium)

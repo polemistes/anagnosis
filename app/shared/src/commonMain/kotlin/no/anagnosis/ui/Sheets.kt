@@ -126,7 +126,8 @@ fun PageNotesSheet(kind: NoteKind, entries: List<NoteGroup>, sigla: Documents?, 
             Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
                 Text(kind.label, style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary, modifier = Modifier.weight(1f))
                 if (sigla != null) {
-                    TextButton(onClick = { showSigla = true }) { Text("Manuscripts") }
+                    // named by its document: "Manuscripts and sigla" gives Manuscripts, "Editions cited ..." Editions
+                    TextButton(onClick = { showSigla = true }) { Text(sigla.title.substringBefore(' ')) }
                 }
             }
             if (entries.isEmpty()) {

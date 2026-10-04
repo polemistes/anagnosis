@@ -180,7 +180,7 @@ fun ReaderScreen(
     val allRows = remember(data) { buildRows(data) }
     // An epic is read one book at a time: pagination stays quick, and a page before and after
     // each book leads to the neighbouring one. For a play `book` is null and all rows are paged.
-    var book by remember(data) { mutableStateOf(if (data.bookNumbered) data.bookOf(startLine).coerceIn(data.books.first().number, data.books.last().number) else null) }
+    var book by remember(data) { mutableStateOf(if (data.byBook) data.bookOf(startLine).coerceIn(data.books.first().number, data.books.last().number) else null) }
     val currentBook = book?.let { b -> data.books.firstOrNull { it.number == b } }
     val rows = remember(allRows, book) { if (book == null) allRows else allRows.filter { data.bookOf(it.nInt) == book } }
     val bookLines = remember(data, book) { if (currentBook == null) data.lines else data.lines.filter { it.n_int in currentBook.firstN..currentBook.lastN } }
@@ -290,11 +290,11 @@ fun ReaderScreen(
                     Spacer(Modifier.weight(1f))
                     if (currentBook != null) {
                         Box {
-                            TextButton(onClick = { showBooks = true }) { Text("Book ${currentBook.label}") }
+                            TextButton(onClick = { showBooks = true }) { Text(if (currentBook.named) currentBook.name else currentBook.title) }
                             DropdownMenu(expanded = showBooks, onDismissRequest = { showBooks = false }) {
                                 for (b in data.books) {
                                     DropdownMenuItem(
-                                        text = { Text("Book ${b.label}", fontWeight = if (b.number == currentBook.number) FontWeight.Bold else null) },
+                                        text = { Text(b.title, fontWeight = if (b.number == currentBook.number) FontWeight.Bold else null) },
                                         onClick = { showBooks = false; if (b.number != currentBook.number) goToBook(b) },
                                     )
                                 }
@@ -316,7 +316,8 @@ fun ReaderScreen(
                 currentPage = scrubPage ?: (pagerState.currentPage - offset).coerceIn(0, maxOf(0, pages.size - 1)),
                 span = { first, last ->
                     val prefix = currentBook?.let { "Book ${it.number}, " } ?: ""
-                    if (first == last) "${prefix}line ${data.lineLabel(first)}".replaceFirstChar { it.uppercase() }
+                    if (data.verses) data.range(first, last)
+                    else if (first == last) "${prefix}line ${data.lineLabel(first)}".replaceFirstChar { it.uppercase() }
                     else "${prefix}lines ${data.lineLabel(first)}–${data.lineLabel(last)}".replaceFirstChar { it.uppercase() }
                 },
                 scrubbing = scrubPage != null,
@@ -344,7 +345,7 @@ fun ReaderScreen(
             // With numbers on every line, reserve a column for them so the text wraps around it.
             // Prose keeps a narrower column for its section marks (172, b, c ...) unless they are hidden.
             val numberColumnPx = if (data.prose) {
-                if (settings.lineNumbers != LineNumberMode.NONE) measurer.measure("000", styles.number).size.width + with(density) { NUMBER_GAP.roundToPx() } else 0
+                if (settings.lineNumbers != LineNumberMode.NONE && !data.verses) measurer.measure("000", styles.number).size.width + with(density) { NUMBER_GAP.roundToPx() } else 0
             } else if (settings.lineNumbers == LineNumberMode.ALL) {
                 measurer.measure("0000", styles.number).size.width + with(density) { NUMBER_GAP.roundToPx() }
             } else 0
@@ -367,7 +368,7 @@ fun ReaderScreen(
                     val enHeights = if (settings.fitTranslation && translation != null) {
                         translationHeights(bookSegments, bookLines, backgroundMeasurer, styles, widthPx, density, data::lineLabel)
                     } else emptyMap()
-                    paginate(rows, backgroundMeasurer, styles, widthPx - numberColumnPx, heightPx, density, settings.lineNumbers, enHeights, anchorIndex, cache, { data.lineLabel(it.n_int, it.n_sub) }, data.prose) { ensureActive() }
+                    paginate(rows, backgroundMeasurer, styles, widthPx - numberColumnPx, heightPx, density, settings.lineNumbers, enHeights, anchorIndex, cache, { data.lineLabel(it.n_int, it.n_sub) }, data.prose, verseMarks(data, settings.lineNumbers != LineNumberMode.NONE)) { ensureActive() }
                 }
                 measureCache.putAll(cache)
                 pages = computed
@@ -392,7 +393,7 @@ fun ReaderScreen(
                     } else emptyMap()
                     // only as many rows as could possibly fit on one page, so the preview stays cheap
                     val endIdx = minOf(rows.size, startIdx + 120)
-                    paginate(rows.subList(startIdx, endIdx), measurer, previewStyles, widthPx - numberColumnPx, heightPx, density, settings.lineNumbers, enHeights, label = { data.lineLabel(it.n_int, it.n_sub) }, prose = data.prose).firstOrNull()
+                    paginate(rows.subList(startIdx, endIdx), measurer, previewStyles, widthPx - numberColumnPx, heightPx, density, settings.lineNumbers, enHeights, label = { data.lineLabel(it.n_int, it.n_sub) }, prose = data.prose, marks = verseMarks(data, settings.lineNumbers != LineNumberMode.NONE)).firstOrNull()
                 } else null
             } else null
             // Two-finger pinch changes the text size; one finger is left to the pager. The page
@@ -475,7 +476,7 @@ fun ReaderScreen(
                                 )
                             },
                             english = if (translation == null) null else {
-                                { TranslationPage(pageSegments.getOrNull(index - offset) ?: emptyList(), styles, showAnchors, Modifier.fillMaxSize(), data::lineLabel) }
+                                { TranslationPage(pageSegments.getOrNull(index - offset) ?: emptyList(), styles, showAnchors, Modifier.fillMaxSize(), anchorLabel(data)) }
                             },
                         )
                     }
@@ -487,7 +488,7 @@ fun ReaderScreen(
                     PageFrame(
                         greek = { PageContent(previewPage, previewStyles, data, numberColumn, forcedColumn, onWord = {}, onSentence = {}, showMarks = settings.lineNumbers != LineNumberMode.NONE) },
                         english = if (translation == null) null else {
-                            { TranslationPage(previewSegments, previewStyles, showAnchors, Modifier.fillMaxSize(), data::lineLabel) }
+                            { TranslationPage(previewSegments, previewStyles, showAnchors, Modifier.fillMaxSize(), anchorLabel(data)) }
                         },
                         modifier = Modifier.background(MaterialTheme.colorScheme.background),
                     )
@@ -557,6 +558,7 @@ private fun sentenceLabel(tree: no.anagnosis.data.SyntaxTree, data: WorkData): S
     val lines = tree.nodes.mapNotNull { it.token }.mapNotNull { linesById[it.line_id] }
     val first = lines.minByOrNull { it.ord } ?: return ""
     val last = lines.maxBy { it.ord }
+    if (data.verses) return data.range(first.n_int, last.n_int)
     return if (first.id == last.id) "line ${first.n}" else "lines ${first.n}–${last.n}"
 }
 
@@ -594,7 +596,7 @@ private fun firstLineFrom(lines: List<Lines>, n: Long): Lines {
 private fun BookStub(target: Book, styles: Styles) {
     Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
         Column(horizontalAlignment = Alignment.CenterHorizontally) {
-            Text("Book ${target.label}", style = styles.section, color = MaterialTheme.colorScheme.onBackground)
+            Text(target.title, style = styles.section, color = MaterialTheme.colorScheme.onBackground)
         }
     }
 }
@@ -613,6 +615,7 @@ private fun paginate(
     cache: MutableMap<ReaderRow, Measured>? = null,
     label: (Lines) -> String = { it.n },
     prose: Boolean = false,
+    marks: ((Lines) -> VerseMark?)? = null,
     checkActive: () -> Unit = {},
 ): List<Page> {
     if (widthPx <= 0 || heightPx <= 0) return emptyList()
@@ -622,7 +625,7 @@ private fun paginate(
     val numberWidth = measurer.measure("0000", styles.number).size.width + NUMBER_GAP.px()
     // Prose: each line's height is its share of its paragraph, measured as a whole. A page that
     // ends inside a paragraph starts the rest on a new line, so a line's height is kept in reserve.
-    val proseHeights = if (prose) proseLineHeights(rows, measurer, styles, textWidth, PARAGRAPH_GAP.px()) else emptyMap()
+    val proseHeights = if (prose) proseLineHeights(rows, measurer, styles, textWidth, PARAGRAPH_GAP.px(), marks) else emptyMap()
     val pageHeight = if (prose) heightPx - measurer.measure("Α", styles.prose).size.height else heightPx
 
     val measured: MutableList<Measured> = rows.map { row ->
@@ -1050,7 +1053,7 @@ private const val HIDDEN = '\u2060'
  * in braces ({ΑΠΟΛ.}) is set as a label. Offsets stay those of the lines' own text: marks that
  * are not shown are replaced by invisible characters, never removed.
  */
-private fun proseText(lines: List<Lines>, label: SpanStyle): ProseText {
+private fun proseText(lines: List<Lines>, label: SpanStyle, marks: ((Lines) -> VerseMark?)? = null, markColor: Color = Color.Unspecified, chapterColor: Color = Color.Unspecified): ProseText {
     val start = HashMap<Long, Int>()
     val end = HashMap<Long, Int>()
     var previousVerse = false
@@ -1065,6 +1068,10 @@ private fun proseText(lines: List<Lines>, label: SpanStyle): ProseText {
                 pushStyle(AFTER_VERSE)
                 continued = true
             } else if (i > 0) append(" ")
+            marks?.invoke(line)?.let { mark ->
+                withStyle(if (mark.chapter) chapterMarkStyle(chapterColor) else verseMarkStyle(markColor)) { append(mark.text) }
+                append(VERSE_GAP)
+            }
             start[line.id] = length
             var t = line.text
             if (verse) t = "$HIDDEN$HIDDEN" + t.substring(2)
@@ -1091,6 +1098,34 @@ private val AFTER_VERSE = ParagraphStyle(textIndent = TextIndent(firstLine = 0.e
 
 private val SPEAKER_LABEL = Regex("\\{([^}]*)\\}")
 
+/** The number set before a verse of the New Testament: its chapter's number at the first verse. */
+private class VerseMark(val text: String, val chapter: Boolean)
+
+/** A narrow no-break space between a verse number and its verse: the number never ends a line. */
+private const val VERSE_GAP = "\u202F"
+
+/**
+ * The verse numbers of a text cited by verse, when shown: the chapter's number in bold before
+ * its first verse, a small raised number before the others, none before the rest of a verse a
+ * paragraph divides (1.1.6b).
+ */
+private fun verseMarks(data: WorkData, shown: Boolean): ((Lines) -> VerseMark?)? =
+    if (!data.verses || !shown) null else { line ->
+        when {
+            line.n_sub.isNotEmpty() -> null
+            data.verseOf(line.n_int) == 1L -> VerseMark(data.chapterOf(line.n_int).toString(), chapter = true)
+            else -> VerseMark(data.verseOf(line.n_int).toString(), chapter = false)
+        }
+    }
+
+private fun verseMarkStyle(color: Color) = SpanStyle(fontSize = 0.6.em, baselineShift = BaselineShift.Superscript, color = color)
+
+private fun chapterMarkStyle(color: Color) = SpanStyle(fontWeight = FontWeight.Bold, color = color)
+
+/** How the translation marks where a Greek line begins: the verse number, chapter and verse at a chapter's start. */
+private fun anchorLabel(data: WorkData): (Long) -> String =
+    if (!data.verses) data::lineLabel else { n -> if (data.verseOf(n) == 1L) data.lineLabel(n) else data.verseOf(n).toString() }
+
 private fun speakerLabelStyle(color: Color) = SpanStyle(fontWeight = FontWeight.SemiBold, fontSize = 0.8.em, color = color, letterSpacing = 0.05.em)
 
 /** The rows' Greek lines grouped into paragraphs: a paragraph begins where speech_start is set. */
@@ -1111,11 +1146,11 @@ private fun paragraphsOf(rows: List<ReaderRow>): List<List<Lines>> {
  * is on, less that of the line before it; the first line of a paragraph also takes the space
  * above the paragraph.
  */
-private fun proseLineHeights(rows: List<ReaderRow>, measurer: TextMeasurer, styles: Styles, widthPx: Int, gapPx: Int): Map<Long, Int> {
+private fun proseLineHeights(rows: List<ReaderRow>, measurer: TextMeasurer, styles: Styles, widthPx: Int, gapPx: Int, marks: ((Lines) -> VerseMark?)? = null): Map<Long, Int> {
     val out = HashMap<Long, Int>()
     val constraints = Constraints(maxWidth = widthPx)
     for (para in paragraphsOf(rows)) {
-        val prose = proseText(para, speakerLabelStyle(Color.Unspecified))
+        val prose = proseText(para, speakerLabelStyle(Color.Unspecified), marks)
         val layout = measurer.measure(prose.text, styles.prose, constraints = constraints)
         var previous = 0f
         para.forEachIndexed { i, line ->
@@ -1175,7 +1210,10 @@ private fun ProseParagraph(
     onSentence: (Tokens) -> Unit,
 ) {
     val labelColor = MaterialTheme.colorScheme.primary
-    val prose = remember(lines, labelColor) { proseText(lines, speakerLabelStyle(labelColor)) }
+    val markColor = MaterialTheme.colorScheme.outline
+    val prose = remember(lines, labelColor, markColor, showMarks) {
+        proseText(lines, speakerLabelStyle(labelColor), verseMarks(data, showMarks), markColor, labelColor)
+    }
     // the words with their offsets in the paragraph
     val words = remember(lines, prose) {
         lines.flatMap { line ->

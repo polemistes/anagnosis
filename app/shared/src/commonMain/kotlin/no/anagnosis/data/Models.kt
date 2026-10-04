@@ -41,41 +41,64 @@ class WorkData(
     val bookNumbered: Boolean = false,
     /** Prose cited by Stephanus page, section and line (172a1): n_int is page * 1000 + section * 100 + line. */
     val stephanus: Boolean = false,
+    /** The New Testament, cited by book, chapter and verse (1.5.3): n_int is book * 1000000 + chapter * 1000 + verse. */
+    val verses: Boolean = false,
     /** Prose: the lines are shown as flowing paragraphs, not one under the other. */
     val prose: Boolean = false,
     /** The syntax was made by a parser and not checked by hand (shown on the syntax page). */
     val automaticSyntax: Boolean = false,
 ) {
-    /** The books of an epic in order (empty for a play): number, label and first and last line. */
+    /** Whether the text is read one book at a time: an epic, the New Testament. */
+    val byBook: Boolean get() = bookNumbered || verses
+
+    /** The books in order (empty for a play): number, label and first and last line. */
     val books: List<Book> by lazy {
-        if (!bookNumbered) emptyList() else lines.groupBy { bookOf(it.n_int) }.map { (b, ls) ->
+        if (!byBook) emptyList() else lines.groupBy { bookOf(it.n_int) }.map { (b, ls) ->
             val label = sectionsByFirstLine[ls.first().id]?.firstOrNull()?.label ?: b.toString()
-            Book(b, label, ls.first().n_int, ls.last().n_int)
+            Book(b, label, ls.first().n_int, ls.last().n_int, named = verses)
         }
     }
 
-    /** The number of a line as printed in the margin: within its book for an epic. */
+    /** The number of a line as printed in the margin: within its book for an epic; chapter and verse (5:3) in the New Testament. */
     fun lineLabel(nInt: Long, sub: String = ""): String = when {
+        verses -> "${chapterOf(nInt)}:${verseOf(nInt)}"
         bookNumbered -> "${nInt % BOOK}$sub"
         stephanus -> stephanusLabel(nInt)
         else -> "$nInt$sub"
     }
 
-    /** The full reference of a line: 1.12 for an epic, 12 for a play, 172a1 for Plato. */
+    /** The full reference of a line: 1.12 for an epic, 12 for a play, 172a1 for Plato, Matthew 5:3 in the New Testament. */
     fun citation(nInt: Long, sub: String = ""): String = when {
+        verses -> "${books.firstOrNull { it.number == bookOf(nInt) }?.name ?: bookOf(nInt)} ${lineLabel(nInt)}"
         bookNumbered -> "${nInt / BOOK}.${nInt % BOOK}$sub"
         stephanus -> stephanusLabel(nInt)
         else -> "$nInt$sub"
     }
 
+    /** A range of lines as a reader writes it: Matthew 5:3–7, Matthew 5:3–6:2, lines 12–14. */
+    fun range(from: Long, to: Long): String = when {
+        verses && to <= from -> citation(from)
+        verses && chapterOf(to) == chapterOf(from) -> "${citation(from)}–${verseOf(to)}"
+        verses -> "${citation(from)}–${lineLabel(to)}"
+        to <= from -> "Line ${citation(from)}"
+        else -> "Lines ${citation(from)}–${citation(to)}"
+    }
+
+    /** The chapter of a verse. */
+    fun chapterOf(nInt: Long): Long = (nInt % VERSE_BOOK) / BOOK
+
+    /** The verse number within its chapter. */
+    fun verseOf(nInt: Long): Long = nInt % BOOK
+
     /** The Stephanus section a line belongs to (172a), or null for other numbering. */
     fun stephanusSection(nInt: Long): String? =
         if (!stephanus) null else "${nInt / BOOK}${SECTIONS.getOrElse(((nInt % BOOK) / 100).toInt()) { '?' }}"
 
-    fun bookOf(nInt: Long): Int = (nInt / BOOK).toInt()
+    fun bookOf(nInt: Long): Int = (nInt / (if (verses) VERSE_BOOK else BOOK)).toInt()
 
     companion object {
         const val BOOK = 1000L
+        const val VERSE_BOOK = 1000000L
         const val SECTIONS = "abcde"
 
         /** 172001 -> "172a1" */
@@ -84,8 +107,17 @@ class WorkData(
     }
 }
 
-/** A book of an epic; `label` is e.g. "1 · Α". */
-class Book(val number: Int, val label: String, val firstN: Long, val lastN: Long)
+/**
+ * A book of an epic or of the New Testament; `label` is e.g. "1 · Α" or "Matthew · ΚΑΤΑ ΜΑΘΘΑΙΟΝ".
+ * A [named] book (the New Testament's) is called by its name, an epic's by "Book" and its number.
+ */
+class Book(val number: Int, val label: String, val firstN: Long, val lastN: Long, val named: Boolean = false) {
+    /** "Matthew" for a named book, else its number. */
+    val name: String get() = if (named) label.substringBefore(" · ") else number.toString()
+
+    /** How the book is offered in the book menu: "Book 1 · Α", "Matthew · ΚΑΤΑ ΜΑΘΘΑΙΟΝ". */
+    val title: String get() = if (named) label else "Book $label"
+}
 
 class TranslationData(val translation: Translations, val segments: List<Translation_segments>)
 
