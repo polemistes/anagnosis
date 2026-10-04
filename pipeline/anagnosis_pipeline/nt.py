@@ -120,7 +120,7 @@ def fetch_nt(sources: Path) -> None:
             subprocess.run(["git", "clone", "-q", "--depth", "1", url, dest], cwd=nt, check=True)
 
     git("https://github.com/LogosBible/SBLGNT.git", "sblgnt")
-    git("https://github.com/Clear-Bible/macula-greek.git", "macula", ["/SBLGNT/tsv/", "/LICENSE.md", "/README.md"])
+    git("https://github.com/Clear-Bible/macula-greek.git", "macula", ["/SBLGNT/tsv/", "/SBLGNT/lowfat/", "/LICENSE.md", "/README.md"])
     git("https://github.com/biblicalhumanities/Dodson-Greek-Lexicon.git", "dodson")
     if not (nt / "bsb.txt").exists():
         subprocess.run(["curl", "-sSL", "-o", str(nt / "bsb.txt"), "https://bereanbible.com/bsb.txt"], check=True)
@@ -201,10 +201,17 @@ def read_macula(sources: Path) -> list[dict]:
         return list(csv.DictReader(f, delimiter="\t", quoting=csv.QUOTE_NONE))
 
 
+# particles that are interjections: ἰδού "behold", ἀμήν; tagged as such, like the treebanks tag ὦ
+INTERJECTIONS = {"ἰδού", "ἴδε", "ἀμήν", "οὐαί", "ναί", "ὦ", "ἔα", "οὐά", "ἁλληλουϊά", "ὡσαννά"}
+
+
 def postag(r: dict) -> str:
     """MACULA's analysis of a word as a Perseus tag: pos, person, number, tense, mood, voice, gender, case, degree."""
+    pos = "i" if r["lemma"] in INTERJECTIONS and r["class"] in ("ptcl", "intj", "adv") else POS.get(r["class"], "x")
+    if r["class"] in ("ptcl", "intj") or pos == "i":
+        return pos + "--------"  # ἰδού is an imperative by origin only: no verbal features for a particle
     return "".join([
-        POS.get(r["class"], "x"), PERSON.get(r["person"], "-"), NUMBER.get(r["number"], "-"),
+        pos, PERSON.get(r["person"], "-"), NUMBER.get(r["number"], "-"),
         TENSE.get(r["tense"], "-"), MOOD.get(r["mood"], "-"), VOICE.get(r["voice"], "-"),
         GENDER.get(r["gender"], "-"), CASE.get(r["case"], "-"), DEGREE.get(r["degree"], "-"),
     ])
@@ -417,8 +424,21 @@ def import_nt(sources: Path, texts: Path, build: Path, slug: str = "newtestament
                 problems.append(f"{line['n']}: {form} is {r['text']} in MACULA ({r['xml:id']})")
             rows.append({"line": line["n"], "ord": str(ord_), "form": form, "lemma": greek.nfc(r["lemma"]),
                          "postag": postag(r), "relation": "", "head": "", "sentence": "", "word_id": ""})
+    # --- the syntax, from MACULA's trees
+    from .import_perseus import write_syntax_nodes
+    from .nt_syntax import convert
+
+    by_word, nodes, stats = convert(sources)
+    for r, m in zip(rows, macula):
+        sentence, word_id, relation, head = by_word[m["xml:id"]]
+        r["sentence"], r["word_id"], r["relation"], r["head"] = sentence, str(word_id), relation, str(head)
     write_tokens(out / "tokens.tsv", rows)
+    write_syntax_nodes(out / "syntax-nodes.tsv", nodes)
     print(f"wrote {out / 'tokens.tsv'}: {len(rows)} words, {len({r['lemma'] for r in rows})} lemmas")
+    print(f"wrote {out / 'syntax-nodes.tsv'}: {len(nodes)} nodes; " + ", ".join(f"{k} {v}" for k, v in sorted(stats.items())))
+    for key in ("dangling heads", "cycles"):
+        if stats[key]:
+            problems.append(f"syntax: {stats[key]} {key}")
 
     # --- the dictionaries: aliases for New Testament spellings, Dodson for what they lack
     lexica = load_lexica(sources, build)

@@ -185,9 +185,14 @@ Every file here is made by `import-nt` from the sources `fetch-nt` downloads; ed
   line of its own (1.1.6b). The signs with which the SBL text marks the places its apparatus
   discusses (⸀ ⸂ ⸃) are left out; each note stands at its verse. `sigla.md` explains the editions
   the apparatus cites.
-* Lemmas and morphology (`tokens.tsv`): MACULA Greek (Clear Bible / Biblica,
-  github.com/Clear-Bible/macula-greek), CC BY 4.0, whose words match the SBL text's one for one.
-  No syntax yet.
+* Lemmas, morphology and syntax (`tokens.tsv`, `syntax-nodes.tsv`): MACULA Greek (Clear Bible /
+  Biblica, github.com/Clear-Bible/macula-greek), CC BY 4.0, whose words match the SBL text's one
+  for one. MACULA's hand-checked syntax trees are nested word groups with roles; `nt_syntax.py`
+  turns them into dependency trees in the style of the Perseus treebanks (a head word for every
+  group, the Prague relations, a preposition or conjunction heading its phrase, a coordination
+  headed by its conjunction or by the punctuation between its members, an artificial node
+  "[0]" for an understood verb); the module's docstring states the rules. The sentence ids are
+  MACULA's ids of each sentence's first word.
 * Dictionaries: `aliases.tsv` sends New Testament lemmas to the LSJ headword they stand under
   (ἀποκρίνομαι to ἀποκρίνω, γινώσκω to γιγνώσκω); `glossary.md` holds J. J. Dodson's entries
   (*A Lexicon of the Greek New Testament*, CC0, by Strong's number) for the names and words LSJ

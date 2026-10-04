@@ -71,7 +71,8 @@ app in Play Console, choose to use the reader's app signing key.
 * Data (`texts/`, `data/`): Creative Commons Attribution-ShareAlike 4.0, see [DATA-LICENSE](DATA-LICENSE).
   The data is derived from the Perseus Digital Library (Tufts University), the Ancient Greek
   Dependency Treebank, GLAUx, Wikisource and Logeion, and from transcriptions of public-domain
-  editions; the New Testament from the SBL Greek New Testament and MACULA Greek (both CC BY 4.0),
+  editions; the New Testament from the SBL Greek New Testament and MACULA Greek (text, apparatus,
+  lemmas, morphology and syntax, both CC BY 4.0),
   Dodson's lexicon (CC0) and the Berean Standard Bible (public domain); see
   [texts/README.md](texts/README.md) for the individual sources.
 

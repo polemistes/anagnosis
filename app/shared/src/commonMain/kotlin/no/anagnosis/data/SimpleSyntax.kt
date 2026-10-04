@@ -98,6 +98,11 @@ object SimpleSyntax {
         "εὖτε" to "when", "ἦμος" to "when", "τόφρα" to "meanwhile", "ἐπήν" to "when", "ὁπηνίκα" to "when",
         "ἐπείτε" to "since", "ὁσάκις" to "as often as", "μέχρι" to "until", "ἄχρι" to "until", "ἠμέν" to "both",
         "ἠδέ" to "and", "καί" to "and", "τε" to "and", "δέ" to "and, but", "ἀλλά" to "but", "οὐδέ" to "nor", "μηδέ" to "nor",
+        // the New Testament's
+        "καθώς" to "as, just as", "καθάπερ" to "just as", "ἐπειδήπερ" to "inasmuch as", "μήποτε" to "lest, whether perhaps",
+        "εἴπερ" to "if indeed", "ἐάνπερ" to "if indeed", "ὡσεί" to "as, as if", "ἐπάν" to "when", "καθότι" to "because, as",
+        "ὁπόταν" to "whenever", "κἄν" to "even if, and if", "ἄχρι" to "until", "μέχρι" to "until", "ὁσάκις" to "as often as",
+        "ἵνα" to "so that, that",
     )
 
     private class Builder(val tree: SyntaxTree) {
@@ -207,6 +212,7 @@ object SimpleSyntax {
             if (n.artificial) {
                 if (isCoordinator(n)) return false
                 if (base(n.relation) == "PRED" || n in tree.roots) return true
+                if (pos(n) == 'v') return true  // an omitted verb tagged as one (the New Testament's)
                 val kids = tree.children(n).filter { !isBarePunct(it) && !isParticle(it) }
                 // an omitted noun with one dependent is a phrase; an omitted verb with a subject or several parts a clause
                 return kids.any { base(it.relation) == "SBJ" } || kids.size > 1 && kids.any { base(it.relation) in setOf("OBJ", "PNOM", "ADV") }
@@ -345,7 +351,7 @@ object SimpleSyntax {
         /** The words of a phrase headed by [n], with the clauses found inside it made clauses of their own. */
         fun gather(n: SyntaxNode, depth: Int, words: MutableList<SyntaxNode>, subs: MutableList<Clause>) {
             if (isBarePunct(n)) return
-            if (!n.artificial) words += n  // an omitted noun inside a phrase is not shown
+            if (!n.artificial && !n.isPunctuation) words += n  // an omitted noun inside a phrase, or a comma, is not shown
             for (c in tree.children(n)) {
                 if (leadsToClause(c)) subs += clausesOf(c, depth) else gather(c, depth, words, subs)
             }
@@ -456,9 +462,10 @@ object SimpleSyntax {
 
         fun clauseLabel(head: SyntaxNode, connector: SyntaxNode?, opener: SyntaxNode?, ownWords: List<SyntaxNode>, auxiliary: Boolean): String {
             val rel = base(head.relation)
-            val root = head in tree.roots || tree.headOf(head)?.isPunctuation == true
+            val root = head in tree.roots || tree.headOf(head)?.let { it.isPunctuation && it in tree.roots } == true
             val isRelative = { n: SyntaxNode -> lemma(n) in RELATIVES && pos(n) in "pd" }
-            val relative = ownWords.any { it !== head && isRelative(it) && base(it.relation) != "ATR" } || isRelative(head)
+            // a relative pronoun among the clause's own words, as an attribute too (ἐν ᾧ κρίματι κρίνετε)
+            val relative = ownWords.any { it !== head && isRelative(it) } || isRelative(head)
             val firstWord = ownWords.filter { it.isWord }.minByOrNull { it.id }
             val continuing = root && firstWord != null && firstWord.id == tree.nodes.firstOrNull { it.isWord }?.id && isRelative(firstWord)
             val kind = when {
@@ -475,7 +482,9 @@ object SimpleSyntax {
                 mood(head) == 'p' && !auxiliary -> "participle"
                 relative || rel == "ATR" && isFinite(head) -> "relative clause"
                 connector != null && base(connector.relation) == "AuxP" -> "${connector.form} clause"
-                ownWords.any { lemma(it) in INTERROGATIVES } && rel in setOf("OBJ", "SBJ") -> "indirect question"
+                // the SBL New Testament capitalises the first word of direct speech
+                ownWords.any { lemma(it) in INTERROGATIVES } && rel in setOf("OBJ", "SBJ") ->
+                    if (firstWord != null && firstWord.form.first().isUpperCase() && firstWord.id != tree.nodes.firstOrNull { it.isWord }?.id && pos(firstWord) != 'n') "quoted question" else "indirect question"
                 rel in setOf("OBJ", "SBJ") && (connector == null || isCoordinator(connector)) -> "quoted or reported clause"
                 else -> "clause"
             }
