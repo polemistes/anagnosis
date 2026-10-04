@@ -26,6 +26,8 @@ def main(argv: list[str] | None = None) -> int:
     sub.add_parser("merge-symposium", help="texts/symposium/ from the transcription (pipeline/transcriptions/symposium/), GLAUx, Jowett and Bury")
     csb = sub.add_parser("check-symposium-batch", help="check Symposium transcription batch files")
     csb.add_argument("files", nargs="+")
+    sub.add_parser("fetch-nt", help="download the New Testament sources into pipeline/sources/nt/ (SBLGNT, MACULA, Dodson, BSB)")
+    sub.add_parser("import-nt", help="texts/newtestament/ from the SBLGNT, MACULA, Dodson and the Berean Standard Bible")
     sub.add_parser("import-syntax", help="regenerate texts/antigone/syntax-nodes.tsv (treebank punctuation and elliptic nodes) without touching the other files")
     sub.add_parser("check", help="validate texts/ (line numbers, token alignment, lexicon coverage)")
     m = sub.add_parser("merge-apparatus", help="merge transcription batches into texts/antigone/commentary-jebb-apparatus.md")
@@ -86,6 +88,12 @@ def main(argv: list[str] | None = None) -> int:
         from .symposium_pages import prepare as prepare_symposium
         index = prepare_symposium(SOURCES, ROOT / "pipeline" / "build" / "symposium-pages")
         print(f"{len(index)} pages")
+    elif args.cmd == "fetch-nt":
+        from .nt import fetch_nt
+        fetch_nt(SOURCES)
+    elif args.cmd == "import-nt":
+        from .nt import import_nt
+        return 1 if import_nt(SOURCES, TEXTS, ROOT / "pipeline" / "build") else 0
     elif args.cmd == "import-syntax":
         from .import_perseus import import_syntax_nodes
         import_syntax_nodes(SOURCES, TEXTS)

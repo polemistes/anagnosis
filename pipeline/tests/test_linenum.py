@@ -39,6 +39,17 @@ class LineNumberTest(unittest.TestCase):
         self.assertEqual([l.n for l in doc.lines], ["1.1", "1.2"])
         self.assertLess(doc.lines[0].sort_key, doc.lines[1].sort_key)
 
+    def test_verses(self):
+        self.assertEqual(parts("1.5.3"), (1005003, ""))
+        self.assertEqual(parts("27.22.21"), (27022021, ""))
+        self.assertEqual(parts("5.20.28b"), (5020028, "b"))
+        self.assertLess(parts("1.28.20")[0], parts("2.1.1")[0])
+        self.assertEqual(complete("7", "1.5.3"), "1.5.7")
+        self.assertEqual(complete("6.2", "1.5.3"), "1.6.2")
+        doc = parse("== book Matthew\n1.1.1\tΒίβλος γενέσεως\n1.1.2\tἈβραὰμ ἐγέννησεν\n1.1.2b\tἸσαὰκ δὲ\n")
+        self.assertEqual([l.n for l in doc.lines], ["1.1.1", "1.1.2", "1.1.2b"])
+        self.assertLess(doc.lines[1].sort_key, doc.lines[2].sort_key)
+
 
 if __name__ == "__main__":
     unittest.main()

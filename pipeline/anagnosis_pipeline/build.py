@@ -19,7 +19,7 @@ from . import greek
 from .commentary import parse_commentary_md
 from .import_perseus import read_syntax_nodes, read_tokens
 from .lexicon import Entry, parse_lsj, parse_middle_liddell
-from .linenum import STEPHANUS
+from .linenum import STEPHANUS, VERSE
 from .textfmt import Line, Section, Speaker, Stage, parse_file
 
 SCHEMA_VERSION = 1
@@ -383,8 +383,11 @@ def build_work(db: sqlite3.Connection, work_dir: Path) -> set[str]:
         )
     print(f"work {slug}: {len(line_ids)} lines, {sum(len(r) for r in tokens_by_line.values())} tokens, {len(lemma_keys)} lemmas, {len(nodes)} syntax nodes")
     # an epic is cited by book and line; the app shows the line within the book
-    if any("." in n for n in line_ids):
+    if any(n.count(".") == 1 for n in line_ids):
         db.execute("INSERT OR REPLACE INTO meta VALUES ('line_numbers', 'book.line')")
+    # the New Testament is cited by book, chapter and verse (1.5.3; the app shows 5:3)
+    elif line_ids and all(VERSE.match(n) for n in line_ids):
+        db.execute("INSERT OR REPLACE INTO meta VALUES ('line_numbers', 'verse')")
     # prose is cited by Stephanus page, section and line (172a1)
     elif line_ids and all(STEPHANUS.match(n) for n in line_ids):
         db.execute("INSERT OR REPLACE INTO meta VALUES ('line_numbers', 'stephanus')")
