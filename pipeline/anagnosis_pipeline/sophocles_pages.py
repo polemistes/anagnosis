@@ -121,7 +121,7 @@ def _skel(s: str) -> str:
 def check_batch(path: Path, texts: Path, slug: str) -> list[str]:
     out: list[str] = []
     pages = read_batches(path.parent, files=[path])
-    grc = _grc_lines(texts, slug)
+    grc = read_reference(path.parent) or _grc_lines(texts, slug)
     prev = 0
     for stem, block in pages.items():
         for raw in block["numbers"]:

@@ -27,7 +27,9 @@ critical notes need no block, except that a left-hand page with Greek text alway
 
 1. **Critical notes**: transcribe the small full-width block exactly.
 2. **Text check** (left-hand pages only): compare the Greek text printed at the top with our text
-   of the play, `texts/<play>/grc.txt` (each line is `number<TAB>text`; a verse shared between
+   of the play, `transcriptions/sophocles/<play>/reference-grc.txt` (the Perseus text as first
+   imported, kept fixed while the batches are made, because the import that applies the check
+   renumbers `texts/<play>/grc.txt`; each line is `number<TAB>text`; a verse shared between
    speakers has its later parts lettered: `591`, `591a`; speakers are lines beginning `@`).
    * Under `--- numbers`, list every line number printed in the margin, with the first word of
      that printed line: `5 ὅθεν`.
@@ -90,6 +92,6 @@ From `pipeline/`:
     .venv/bin/python -m anagnosis_pipeline check-sophocles-batch <play> transcriptions/sophocles/<play>/batch-NN.md
 
 It checks the format, the order of the notes, and the printed line numbers you listed against our
-text: a remark "numbering differs" means the printed line N begins with another word than our
+text (reference-grc.txt): a remark "numbering differs" means the printed line N begins with another word than our
 line N. Look again at the image: if you misread, fix it; if the print really is so, leave it (and
 it is a numbering difference we will correct) and say so under `--- notes`.
