@@ -1,7 +1,7 @@
 # title: Introduction
 # author: Richard C. Jebb
-# source: Perseus Digital Library, jebb.soph.aj_eng.xml (Sophocles: The Plays and Fragments, Part VII: The Ajax, ed. R. C. Jebb, Cambridge University Press, 1896)
-# license: CC BY-SA 3.0 US
+# source: Perseus Digital Library, jebb.soph.aj_eng.xml (Sophocles: The Plays and Fragments, Part VII: The Ajax, ed. R. C. Jebb, Cambridge University Press, 1896); the chapters after § 22 from Sophocles: The Plays and Fragments, Part VII: The Ajax, Cambridge University Press, first edition 1896, reprinted 1914; Internet Archive playsfragmentswi07sophuoft (University of Toronto), transcribed page by page
+# license: CC BY-SA 3.0 US (Perseus); the transcribed chapters CC BY-SA 4.0
 
 # Introduction
 
@@ -239,3 +239,132 @@ Aristotle's work called Διδασκαλίαι was a chronological list of trage
 
  According to the rule of the Greek theatre, the side of the scene on the spectator's right represents the home-region,— in this case, that of the Greek camp. To the spectator's left is the region of the open country, stretching east and south from the camp, over the plain of Troy, towards those ‘Mysian highlands’ from which Teucer returns (v. 720). Aristotle speaks of σκηνογραφία as an invention distinctive of Sophocles ( *Poet.* 4: see Smith's *Dict. of Ant.*, new ed., vol. II. p. 816). And the words in v. 4, ἔνθα τάξιν ἐσχάτην ἔχει, rather suggest that the Greek camp was somehow indicated here,—perhaps with a glimpse of the Hellespont, and of Cape Rhoeteum. It is not known whether the theatre of the fifth century B.C. had περίακτοι,—those triangular prisms on pivots, with scenery painted on each of their three faces, which served as movable side-scenes. A periaktos on the spectator's right could have been used to show the camp. Or, if this resource was not then available, the purpose may have been effected by painted hangings on the back-wall, which, in the fifth century B.C., was probably a temporary structure of wood. With regard to the change of scene after v. 814, see note on 815.
 
+# Manuscripts, editions, etc.
+
+## § 1 — MSS.
+
+The *Ajax* exists in a slightly larger number of MSS. than any other play of Sophocles, though the *Electra* comes near it in that respect; the *Oedipus Tyrannus* ranks third, at a considerable interval after the first two, but far above the rest. Those three plays were evidently the most widely read in the Byzantine age, or perhaps from an earlier date; and the first two were probably especial favourites for use in schools. The *Ajax* paid the same penalty for this kind of popularity which has already been observed in the case of the *Electra*. Many readers seem to have tried their hands, often in a very wanton manner, on the correction of the text. The general quality of these conjectures can be judged from the variants recorded in the scholia, which are no doubt merely gleanings from a larger crop. These are a few examples:—115 ἐννέπεις for ἐννοεῖς. 273 βλέποντας for φρονοῦντας. 564 φρουρὰν for θήραν. 880 ἕδρας for ἄγρας. 1233 διωρίσω for διωμόσω. 1309 συνεμπόρους for συγκειμένους. Some alterations of this sort have found their way into the text of one or more of the MSS. Thus in v. 130 βάρει (instead of βάθει), noted as a variant in Mosq. b, stands in the text of A, Aug. a, Ienensis, and a few others. In v. 198 Γ has βακχαζόντων (for καγχαζόντων). In 582 T and others have θροεῖν (for θρηνεῖν) In 1036 ὁμοῦ (for ἀεί) is the reading of Pal., Ien., Mosq. a and b. In 1059 ἀθλίῳ (for αἰσχίστῳ) is the reading of Γ, Δ, and ἐχθίστῳ of T. But, considering the freedom with which conjecture appears to have been used on the *Ajax*, its text has suffered less, on the whole, than might have been expected. There is only one respect in which it may be said to have fared somewhat worse than the other plays, and that is in the matter of interpolation (see below, § 4).
+
+## § 2 — The Laurentian MS.
+
+Several passages in the *Ajax* throw light on the relation of L to the other MSS. In v. 330 L shares with all the rest the false reading, φίλων γὰρ οἱ τοιοίδε νικῶνται φίλοι, where the true reading (λόγοις instead of φίλοι) has been preserved by Stobaeus (*Flor.* 113. 8). In v. 28, where A and most MSS. have the true reading, τήνδ’ οὖν ἐκείνῳ πᾶς τις αἰτίαν νέμει, L has τρέπει instead of νέμει, a corruption found also in a few of the later MSS., as Pal., Δ, L2 (Dindorf’s Lb), Aug. b., V4. This is one of the variants which make against the theory that L is the common archetype of all the other extant MSS., since it is improbable that νέμει should have been restored by conjecture in the interval between the date of L (the first half of the eleventh century) and that of A (the thirteenth century). Similar instances occur in *Ant.* 386, where A gives εἰς δέον (doubtless rightly), but L εἰς μέσον, and *Ant.* 831, where A has the genuine τέγγει, but L τάκει. To these we may perhaps add another passage of the *Ajax*, v. 61, where L, A, and most MSS. have κἄπειτ’ ἐπειδὴ τοῦδ’ ἐλώφησεν φόνου. The true reading, πόνου (instead of φόνου), is preserved only in a few copies (Vat. a, Harl., Ienensis, R): but it seems scarcely probable that πόνου was restored by conjecture, since φόνου, though a tamer reading, lacking the touch of tragic irony conveyed by πόνου, yet satisfies the context, and would hardly provoke suspicion in an age when the prevalent tone of criticism was so prosaic. In v. 112 L is one of a very few MSS. (others being Γ, Aug. b, and Dresd. a) which have the gross blunder τἄλλ’ ἔγωγέ σ’ ἐφίεμαι (instead of τἄλλ’ ἐγώ σ’ ἐφίεμαι, the reading of A and most MSS.).
+
+On the other hand, several points in this play, as in the rest, indicate L’s superiority. In v. 45 L alone preserves ἐξεπράξατ’, where ἐξέπραξεν (noted as a variant in L) is the reading of the other MSS. (The lemma of the old scholium in L here confirms the text, having κἂν ἐξεπράξατο.) In v. 232, again, L alone has traces of ἱππονώμας (which Porson restored by conjecture), though the word has been altered by erasure into ἱππονόμους, the reading of the other MSS. In v. 1137 πόλλ’ ἂν καλῶς λάθρᾳ σὺ κλέψειας κακά, L has the distinction of attesting the true but more difficult reading, while in the other MSS. καλῶς has been changed into κακῶς. If in 927 the form ἐξανύσσειν be right (as it seems to be), L can claim the credit of having preserved it, while A and nearly all the other MSS. have ἐξανύσειν. Those who hold, with Bergk and Dindorf, that ἐπευθύνοντ’ should be read in v. 451, will count it among L’s merits that it is the only MS. which shows a vestige of that reading; but ἐπεντύνοντ’, the reading of the other MSS., seems to have greater intrinsic probability (see n. on 451). Some points of interest in regard to the characteristics of L will be found in the critical notes on 80, 82, 151, 222, 232, 730, 921, 1053, 1137, 1265, 1329, 1335.
+
+## § 3 — Scholia.
+
+The scholium in L on v. 831 preserves προστρέπω, which has been corrupted in the MSS. (L included) to προτρέπω. Another noteworthy scholium is that on 636 f., where the reading of the MSS. (excepting T, and a few others which exhibit the Triclinian recension) is, ὃς ἐκ πατρῴας ἥκων γενεᾶς πολυπόνων Ἀχαιῶν. As the metre shows, there is a defect of ⏑ – ⏓ before πολυπόνων. The scholium runs thus: ὃς ἄνωθεν κατὰ πατρῴας γενεᾶς ἄριστος ἥκων (λείπει γὰρ τὸ ἄριστος) κ.τ.λ. This scholium seems to have been the authority of Triclinius for inserting ἄριστος in the text, where it has since kept its place.
+
+At v. 1225 (δῆλος δέ μοὐστὶ σκαιὸν ἐκλύσων στόμα), a remarkable note appears in the margin of L:—Διᵡ καὶ δῆλός ἐστιν ὥς τι σημανῶν νέον. This verse is compounded from *Ai.* 326, καὶ δῆλός ἐστιν ὥς τι δρασείων κακόν, and *Ant.* 242, δηλοῖς δ’ ὥς τι σημανῶν νέον. The letters Δι, prefixed to it, probably denote Didymus (the χ above them being merely a mark calling attention to the note); they are similarly prefixed (with a superscript χ) to the scholium on *El.* 28. The grammarian’s object was evidently to illustrate the construction of δῆλος with ἐκλύσων in v. 1225 by quoting *Ant.* 242; but, having in mind an earlier verse in the *Ajax* itself (326), he inadvertently wrote καὶ δῆλός ἐστιν instead of δηλοῖς δ’. The scholiast may have derived this note from the ὑπόμνημα of Didymus on Sophocles, mentioned in the scholia on *El.* 451 and 488. A verse thus written in the margin, but so inaccurately quoted as to veil the quotation, might easily be understood as a substitute for the verse in the text, and, in this case, as one attested by Didymus. It is an instance which well illustrates one possible source of textual corruption.
+
+## § 4 — State of the text. Lacunae.
+
+Few lacunae exist in the text of this play. The defect in v. 636 (which Triclinius supplied by ἄριστος) has already been noticed (§ 3). In 936 the metre shows that a choriambus (– ⏑ ⏑ –) has dropped out before ὅπλων. It is probable, though not certain, that verses 384 and 951 ought to be iambic trimeters, in which case each of them has suffered the loss of a syllable (see notes *ad loc.*).
+
+*Proposed transpositions.* There are some passages in which critics have supposed that the original order of the verses has been disturbed. The transpositions suggested in vv. 966—973 will be found in the Appendix on 966. Morstadt’s rearrangement of 1067—1070, and Leeuwen’s of 1346—1369, will be seen in the notes on those passages.
+
+*Interpolation.* The interpolation of whole verses has occurred in four places. (1) Verse 554 b (τὸ μὴ φρονεῖν γὰρ κάρτ’ ἀνώδυνον κακόν) may have crept into the text from the margin, where it had been cited as a parallel passage. (2) Verse 571, μέχρις οὗ μυχοὺς κίχωσι τοῦ κάτω θεοῦ, is clearly spurious. (3) The four verses, 839—842, are rejected by several critics. I hold rather with those who condemn only 841 and 842. (4) Verse 1417, Αἴαντος, ὅτ’ ἦν, τότε φωνῶ, may safely be rejected. Of smaller interpolations, the most noteworthy is that in 714, where, instead of the simple μαραίνει, all the MSS. have μαραίνει τε καὶ φλέγει. Heath was the first critic who pointed out the spurious words, and Brunck the first editor who omitted them. In v. 884 most MSS. (including L) have ἴδρις interpolated after ποταμῶν. The interpolation of ἠνεμόεσσαν after Τροίαν in 1190 is confined to a few of the later MSS. (see cr. n.).
+
+Besides the verses mentioned above, many others in this play have been condemned or suspected as spurious by various scholars. The following is a list of them (so far as known to me):—
+
+4—6 Nauck would substitute one verse for these three, viz. Αἴαντ’ ἰχνοσκοποῦντα, τεκμαρούμενον. 68—70 E. Reichard. 289—291 Nauck would reduce these three vv. to two (see cr. n.). 314 Nauck. 327 Nauck and Wecklein. 433 Morstadt and Nauck. 522 Dobree (‘An delendus versus?’). 546 Dindorf. 660 Geel. 674—676 Morstadt. 734 Wecklein (*Ars Soph. em.* p. 122). 812 Dindorf and others. (Leeuwen would put v. 786 in the place of 812.) 835 f. Mekler would reduce these two vv. to one. 843 f. O. Jahn. 853 and 855 Geel. 855—865 Bergk. 856—858 O. Jahn. 865 Geel and Herwerden. 918 f. Nauck. 966—970 Nauck. (Several other critics reject some part of vv. 966—973; see Appendix.) 1028—1039 Morstadt and Nauck, 1058 f. Nauck would reduce these two vv. to one. 1061 Nauck. 1069 f. Nauck. 1105 f. Schneidewin, Dindorf, Nauck, Wecklein. 1248 f. Nauck would reduce these two vv. to one. 1257—1263 E. Reichard. 1262 Nauck. 1290 Nauck. 1291—1298 Nauck. (Mor. Schmidt rejects only 1293, 1294.) 1311 f. Lissner (mentioned by Wecklein, *Ars* p. 118) would reduce these two vv. to one. 1336—1339 Morstadt. 1337 Nauck. 1396—1398 Nauck. (Schneidewin rejects only 1396, 1397.) 1402—1413 Nauck brackets the passage beginning with ἤδη and ending with μένος. 1418—1420 F. Ritter.
+
+In no one of these instances does the suspicion or rejection appear to me well-founded; in most of them it seems wholly gratuitous. But it is needless to repeat what I have said in former volumes on this tendency in textual criticism, against which, as we may be thankful to observe, a reaction seems at last to be setting in. It is the duty of an editor to acquaint his readers with the opinions advanced by scholars of repute, however much he may differ from them. The best way of vindicating an unduly impugned text is to provide students with the means of examining each point for themselves.
+
+## § 5 — Editions.
+
+The complete editions of Sophocles which have been consulted are enumerated in the Introduction to the *Oedipus Tyrannus* (3rd ed., p. lxi). I have used also C. A. Lobeck’s commentary on the *Ajax* (3rd ed., Berlin, 1866); the edition of the *Ajax*, with notes chiefly critical, by Moritz Seyffert (Berlin, 1866); the edition with commentary and critical notes by G. Wolff, revised by L. Bellermann (4th ed., Leipsic, 1887); and the commentary by F. A. Paley (London, 1880). Mention is also due to an edition of the *Ajax*, with critical and explanatory notes, by C. E. Palmer (London, 1877), designed especially as a protest against conjectural emendation, and exhibiting the same characteristics which I have described in reference to his edition of the *Oedipus Coloneus* (Introd. to *Oed. Col.*, 2nd ed., p. lvi).
+
+# The ancient argument
+
+## The argument
+
+**ΥΠΟΘΕΣΙΣ.** Τὸ δρᾶμα τῆς Τρωϊκῆς ἐστι πραγματείας, ὥσπερ οἱ ΑΝΤΗΝΟΡΙΔΑΙ καὶ ΑΙΧΜΑΛΩΤΙΔΕΣ καὶ ΕΛΕΝΗΣ ΑΡΠΑΓΗ καὶ ΜΕΜΝΩΝ. πεπτωκότος γὰρ ἐν τῇ μάχῃ τοῦ Ἀχιλλέως ἐδόκουν Αἴας τε καὶ Ὀδυσσεὺς ἐπ’ αὐτῷ πλέον τι ἀριστεύειν περὶ τὴν τοῦ σώματος κομιδήν· καὶ κρινομένων περὶ τῶν ὅπλων κρατεῖ Ὀδυσσεύς. ὅθεν καὶ ὁ Αἴας τῆς κρίσεως μὴ τυχὼν παρακεκίνηται καὶ διέφθαρται τὴν γνώμην, ὥστε ἐφαπτόμενος τῶν ποιμνίων δοκεῖν τοὺς Ἕλληνας διαχειρίσασθαι. καὶ τὰ μὲν ἀνεῖλε τῶν τετραπόδων, τὰ δὲ δήσας ἀπάγει ἐπὶ τὴν σκηνήν· ἐν οἷς ἐστί τις καὶ κριὸς ἔξοχος, ὃν ᾤετο εἶναι Ὀδυσσέα, ὃν δήσας ἐμαστίγωσεν, ὅθεν καὶ τῇ ἐπιγραφῇ πρόκειται ΜΑΣΤΙΓΟΦΟΡΟΣ, ἢ πρὸς ἀντιδιαστολὴν τοῦ ΛΟΚΡΟΥ. Δικαίαρχος δὲ ΑΙΑΝΤΟΣ ΘΑΝΑΤΟΝ ἐπιγράφει. ἐν δὲ ταῖς διδασκαλίαις ψιλῶς ΑΙΑΣ ἀναγέγραπται.
+
+*Critical notes.* This Argument is found in A (cod. Par. 2712, 13th cent.), and in a large number of the later MSS., but not in the Laurentian MS. (L). 5 διαχειρίσασθαι T, and some other MSS.: διαχρήσασθαι vulg. 8 **ΜΑΣΤΙΓΟΦΟΡΟΣ**] ὁ μαστιγοφόρος Brunck's edition. 10 **ἀναγέγραπται**] *v.l.* γέγραπται, or ἐπιγέγραπται. 5 **πρὸς Μενέλαον, οὐκ ἐῶντα**] πρὸς μενέλεων καὶ πρὸς ἀγαμέμνονα οὐκ ἐῶντας T,—a correction by Triclinius of the grammarian's oversight. 7 **φιλονεικίας**] λύπης ἄκρας T, and a few others. 7, 8 **οἱ ἄνθρωποι ἥκοιεν**] ἐμπίπτουσιν οἱ ἄνθρωποι Ienensis (cod. B. 7).—In T the whole sentence down to ἑαυτὸν ἀνελεῖν has been thus rewritten by Triclinius:—οἱ ἄνθρωποι εἰς μανίαν περιτρέπονται, ὃ δὴ καὶ Αἴας πέπονθε τῶν Ἀχιλλείων ὅπλων ἀποτυχών. 10 φιλονεικίαι Mosq. a (cod. 357): νῖκαι vulg. 14 **τευχέων**] νίκης the MSS. in *Od.* 11. 544. 20—26 **δαιμονίως δὲ...εἰς ὁδὸν κυνηγίᾳ**] In place of this passage, A has simply, προλογίζει δὲ ἡ ἀθηνᾶ. 24 προκηδομένης Ienensis: προσκηδομένης vulg.
+
+The first paragraph of this ὑπόθεσις (ending with ἀναγέγραπται) is complete in itself, and is the work of a well-informed Alexandrian scholar. The second part (beginning at ταῦτα μὲν οὖν) is a more diffuse composition by a feebler hand, and in Greek of a worse quality,—as may be seen (e.g.) in the use of ἔξεισι (twice) as = ἐξέρχεται, and of ὑποκρινόμενος with infin. as = προσποιούμενος.
+
+1 **ΑΝΤΗΝΟΡΙΔΑΙ**] All the plays mentioned here were by Sophocles. The subject of his *Antenoridae* is indicated in Strabo XIII. p. 608. When Troy was taken, the Greeks spared the house of Antenor (one of the Trojan γέροντες), who had shown hospitality to Odysseus and Menelaüs, when they came as envoys (*Il.* 3. 207). He and his sons then joined the Paphlagonian Ἐνετοί (*Il.* 2. 852), who had fought on the Trojan side in the war, and went with them, by way of Thrace, to the country afterwards known as Venetia, on the N.W. of the Adriatic. Attius also wrote an *Antenoridae*, probably based on that of Sophocles.
+
+2 **ΑΙΧΜΑΛΩΤΙΔΕΣ**] We may infer that these were Trojan women, and formed the Chorus; but nothing is known of the plot. A. Schöll and Bergk suppose that it concerned the restoration of Chryseïs to her father. Welcker, on the other hand, thinks that the central incident was the death of Hector's son, Astyanax (told by Arctînus in the *Iliupersis*), and that Attius founded his *Astyanax* on this play (*Gr. Trag.* I. pp. 171 ff.).
+
+**ΕΛΕΝΗΣ ΑΡΠΑΓΗ**] Not mentioned elsewhere. But Sophocles wrote a Ἑλένης Ἀπαίτησις, and this may be the play meant. The subject was probably an embassy of Greek chiefs to Troy (like that noticed in *Il.* 3. 205 ff.), to demand that Helen should be surrendered. Alexis, the poet of the Middle Comedy, wrote a Ἑλένης Ἁρπαγή, and this may have caused the error. Welcker, however, conjectures that Ἑλένης Ἁρπαγή was really the title of a play by Sophocles, on a subject furnished by the *Iliupersis*—viz., Menelaüs finding Helen in the house of the Trojan Deïphobus, and taking her away to the ships (*Gr. Trag.* I. 158 ff.).
+
+**ΜΕΜΝΩΝ**] Not mentioned elsewhere; but Heyne identifies it with the often-quoted Αἰθίοπες, and, as Memnon was king of that people, this seems very probable. The *Aethiopis* of Arctînus would have furnished the material.
+
+Ταῦτα μὲν οὖν πράττει ὁ Αἴας· καταλαμβάνει δὲ Ἀθηνᾶ Ὀδυσσέα ἐπὶ τῆς σκηνῆς διοπτεύοντα τί ποτε ἄρα πράττει ὁ Αἴας, καὶ δηλοῖ αὐτῷ τὰ πραχθέντα, καὶ προκαλεῖται εἰς τὸ ἐμφανὲς τὸν Αἴαντα ἔτι ἐμμανῆ ὄντα καὶ ἐπικομπάζοντα ὡς τῶν ἐχθρῶν ἀνῃρημένων. καὶ ὁ μὲν εἰσέρχεται ὡς ἐπὶ τῷ μαστιγοῦν τὸν Ὀδυσσέα· παραγίνεται δὲ χορὸς Σαλαμινίων ναυτῶν, εἰδὼς μὲν τὸ γεγονός, ὅτι ποίμνια ἐσφάγησαν Ἑλληνικά, ἀγνοῶν δὲ τὸν δράσαντα. ἔξεισι δὲ καὶ Τέκμησσα, τοῦ Αἴαντος αἰχμάλωτος παλλακίς, εἰδυῖα μὲν τὸν σφαγέα τῶν ποιμνίων ὅτι Αἴας ἐστίν, ἀγνοοῦσα δὲ τίνος εἶεν τὰ ποίμνια. ἑκάτερος οὖν παρ’ ἑκατέρου μαθόντες τὸ ἀγνοούμενον, ὁ χορὸς μὲν παρὰ Τεκμήσσης, ὅτι ὁ Αἴας ταῦτα ἔδρασε, Τέκμησσα δὲ παρὰ τοῦ χοροῦ, ὅτι Ἑλληνικὰ τὰ σφαγέντα ποίμνια, ἀπολοφύρονται, καὶ μάλιστα ὁ χορός. ὅθεν δὴ ὁ Αἴας προελθὼν ἔμφρων γενόμενος ἑαυτὸν ἀπολοφύρεται. καὶ τούτου ἡ Τέκμησσα δεῖται παύσασθαι τῆς ὀργῆς· ὁ δὲ ὑποκρινόμενος πεπαῦσθαι ἔξεισι καθαρσίων ἕνεκα καὶ ἑαυτὸν διαχρῆται. εἰσὶ δὲ καὶ ἐπὶ τῷ τέλει τοῦ δράματος λόγοι τινὲς Τεύκρου πρὸς Μενέλαον, οὐκ ἐῶντα θάπτειν τὸ σῶμα. τὸ δὲ πέρας, θάψας αὐτὸν Τεῦκρος ἀπολοφύρεται. παρίστησι δὲ ὁ λόγος τῆς τραγῳδίας ὅτι ἐξ ὀργῆς καὶ φιλονεικίας οἱ ἄνθρωποι ἥκοιεν ἐπὶ τὰ τοιαῦτα νοσήματα, ὥσπερ ὁ Αἴας προσδοκήσας ἐγκρατὴς εἶναι τῶν ὅπλων ἀποτυχὼν ἔγνω ἑαυτὸν ἀνελεῖν. αἱ δὲ τοιαῦται φιλονεικίαι οὐκ εἰσὶν ἐπωφελεῖς οὐδὲ τοῖς δοκοῦσι νενικηκέναι. ὅρα γὰρ καὶ παρ’ Ὁμήρῳ τὰ περὶ τῆς ἥττης τοῦ Αἴαντος πάνυ διὰ βραχέων καὶ περιπαθῶς· οἴη δ’ Αἴαντος ψυχὴ Τελαμωνιάδαο | νόσφιν ἀφειστήκει κεχολωμένη εἵνεκα τευχέων. εἶτα αὐτοῦ ἄκουε τοῦ κεκρατηκότος· ὡς δὴ μὴ ὄφελον νικᾶν τοιῷδ’ ἐπ’ ἀέθλῳ. οὐκ ἐλυσιτέλησεν ἄρα αὐτῷ ἡ νίκη, τοιούτου ἀνδρὸς διὰ τὴν ἧτταν ἀποθανόντος.
+
+3, 4 **τῆς κρίσεως μὴ τυχὼν...διέφθαρται τὴν γνώμην**] In the play, the madness of Ajax is not the result of his disappointment about the arms, but of Athena's intervention.
+
+8 **ΜΑΣΤΙΓΟΦΟΡΟΣ**] At v. 91 Ajax enters carrying the lash (110) which he has used on his captives (241).
+
+**ΛΟΚΡΟΥ**] The ‘lesser’ Ajax, son of Oïleus king of the Locrians. The subject of the Αἴας Λοκρός was probably taken from the *Iliupersis*. The hero attempts to drag Cassandra, who carries the ξόανον of Athena, from the temple of that goddess. The Greeks threaten to stone him, when he flies to Athena's altar. He is tried by a Greek tribunal, and acquitted (see Welcker, *Gr. Trag.* I. 161 ff.).
+
+**Δικαίαρχος**] Of Messana, the pupil of Aristotle. He wrote περὶ Διονυσιακῶν ἀγώνων, and (perhaps in the same work) ὑποθέσεις τῶν Εὐριπίδου καὶ Σοφοκλέους μύθων.
+
+9 **ταῖς Διδασκαλίαις**] ‘Dramatic performances,’—a list of the tragedies and comedies produced at Athens in each year. Aristotle compiled a work with this title, which is probably meant here. Similar lists were drawn up by the poet Callimachus (260 B.C.), by Aristophanes of Byzantium (*c.* 200 B.C.), and others. See Smith's *Dict. Ant.*, vol. II. p. 865.
+
+Ἡ σκηνὴ τοῦ δράματος ἐν τῷ ναυστάθμῳ πρὸς τῇ σκηνῇ τοῦ Αἴαντος. δαιμονίως δὲ εἰσφέρει προλογίζουσαν τὴν Ἀθηνᾶν. ἀπίθανον γὰρ τὸν Αἴαντα προϊόντα εἰπεῖν περὶ τῶν αὐτῷ πεπραγμένων, ὥσπερ ἐξελέγχοντα ἑαυτόν· οὐδὲ μὴν ἕτερός τις ἠπίστατο τὰ τοιαῦτα, ἐν ἀπορρήτῳ καὶ νυκτὸς τοῦ Αἴαντος δράσαντος. θεοῦ οὖν ἦν τὸ τοιοῦτον διασαφῆσαι, καὶ Ἀθηνᾶς προκηδομένης τοῦ Ὀδυσσέως, διό φησι· καὶ πάλαι φύλαξ ἔβην | τῇ σῇ πρόθυμος εἰς ὁδὸν κυνηγίᾳ.
+
+5 **πρὸς Μενέλαον**] The writer ignores the scene with Agamemnon: see critical note above.
+
+6 **ἀπολοφύρεται**] Teucer's lament (992—1039) precedes the controversy as to burial, and there is nothing that can be called a lament at the end of the play. But this is evidently a mere oversight,—not a trace of a text different from ours.
+
+8 **ἥκοιεν**] The simple optative is here impossible. Either ἂν must be added, or a pres. (or aor.) indic. must be restored: see crit. n. above.
+
+11 **παρ’ Ὁμήρῳ**] *Od.* 11. 543 f., 548.
+
+Περὶ δὲ τοῦ θανάτου τοῦ Αἴαντος διαφόρως ἱστορήκασιν. οἱ μὲν γάρ φασιν ὅτι ὑπὸ Πάριδος τρωθεὶς ἦλθεν εἰς τὰς ναῦς αἱμορροῶν, οἱ δὲ ὅτι χρησμὸς ἐδόθη Τρωσὶ πηλὸν κατ’ αὐτοῦ βαλεῖν· σιδήρῳ γὰρ οὐκ ἦν τρωτός· καὶ οὕτω τελευτᾷ. οἱ δὲ ὅτι αὐτόχειρ αὑτοῦ γέγονεν, ὧν ἐστι καὶ Σοφοκλῆς. περὶ δὲ τῆς πλευρᾶς, ὅτι μόνην αὐτὴν τρωτὴν εἶχεν, ἱστορεῖ καὶ Πίνδαρος, ὅτι τὸ μὲν σῶμα, ὅπερ ἐκάλυψεν ἡ λεοντῆ, ἄτρωτον ἦν, τὸ δὲ μὴ καλυφθὲν τρωτὸν ἔμεινε.
+
+2 **ὑπὸ Πάριδος τρωθεὶς**] The legend that Ajax died by the arrow of Paris can be traced only in late sources (Anticleides, an Alexandrian grammarian of the 3rd cent. B.C., *ap.* Tzetzes on Lycophron 464: Dares Phrygius, *Hist. de excidio Troiae* c. 35).
+
+3 **πηλὸν κατ’ αὐτοῦ βαλεῖν**] This story, of which the source was perhaps a satyr-play or a comedy, was used by Sophron (*c.* 450 B.C.) in one of his mimes (frag. 44).
+
+5 **τῆς πλευρᾶς**] Aeschylus, in his Θρῇσσαι, had represented Ajax as vulnerable only in the side (τὰ πλευρά, schol. Lycophr. 455: Aesch. frag. 83, Nauck, 2nd ed.: cp. schol. *Ai.* 833). The author of this Argument has inferred from v. 834, πλευρὰν διαρρήξαντα, that Sophocles followed the same tradition.
+
+**ἱστορεῖ καὶ Πίνδαρος**] In *Isthm.* 5. 45 ff. Heracles merely prays that the lion-skin which he is wearing may be a symbol of the strength which shall be given to Eriboea's son (ἄρρηκτον φυάν, ὥσπερ τόδε δέρμα, κ.τ.λ.). The author of the Argument may have had only a vague recollection of that passage; or he may refer to some lost work of Pindar. As to this post-Homeric legend, see Introduction, § 4.
+
+## The persons of the drama
+
+ΑΘΗΝΑ. · ΟΔΥΣΣΕΥΣ. · ΑΙΑΣ. · ΧΟΡΟΣ ΣΑΛΑΜΙΝΙΩΝ ΝΑΥΤΩΝ. · ΤΕΚΜΗΣΣΑ. · ΑΓΓΕΛΟΣ. · ΤΕΥΚΡΟΣ. · ΜΕΝΕΛΑΟΣ. · ΑΓΑΜΕΜΝΩΝ.
+
+According to the *Iliad* (2. 557), ‘Ajax brought twelve ships from Salamis’. Fifteen of his followers,—at once sailors (ναυβάται, v. 348) and warriors (ἀσπιστῆρες, v. 565),—form the Chorus. The mute persons are, the child Eurysaces and his Paedagogus (542); the two heralds who accompany Menelaüs (1047, cp. 1115); two body-guards, δορυφόροι, not noticed in the text, but who may be supposed to attend Agamemnon (1226); and the attendants of Teucer (see notes on 1002 and 1402 f.).
+
+The following cast of the parts is generally assumed:—
+
+1. *Protagonist.* Ajax, Teucer.
+
+2. *Deuteragonist.* Odysseus, Tecmessa.
+
+3. *Tritagonist.* Athena, Messenger, Menelaüs, Agamemnon.
+
+(Or Menelaüs might be played by the Deuteragonist.) Wecklein prefers to suppose that the *Deuteragonist* undertook Athena, Tecmessa, and Agamemnon; the *Tritagonist*, Odysseus, Messenger, Menelaüs.
+
+On any of these views, it follows that the part of Tecmessa, from the moment when she re-enters at v. 1168 down to the end of the play, must have been taken by a mute person; since, in the last scene, she is on the stage at the same time with Agamemnon and Odysseus. She has nothing to speak after v. 973. Similarly in the *Oedipus Coloneus* Ismene was played by the Deuteragonist as far as v. 509, and by a supernumerary from 1096 to 1555, or perhaps to the end.
+
+## Structure of the play
+
+1. πρόλογος, verses 1—133.
+
+2. πάροδος, 134—200.
+
+3. ἐπεισόδιον πρῶτον, 201—595 (including two κομμοί, 201—262, and 348—429).
+
+4. στάσιμον πρῶτον, 596—645.
+
+5. ἐπεισόδιον δεύτερον, 646—692.
+
+6. στάσιμον δεύτερον (in the form of a ὑπόρχημα), 693—718.
+
+7. ἐπεισόδιον τρίτον, 719—865.
+
+8. ἐπιπάροδος (866—878), followed by a κομμός (879—973).
+
+9. ἐπεισόδιον τέταρτον, 974—1184.
+
+10. στάσιμον τρίτον, 1185—1222.
+
+11. ἔξοδος, 1223—1420.
+
+Another view recognises only three ἐπεισόδια,—the third consisting of the whole passage from v. 719 to v. 1184. But the re-entrance (*Epiparodos*) of the Chorus at v. 866, followed by the long antistrophic kommos, forms a lyric interval even more marked than that which is made by an ordinary stasimon. Aristotle's definition of an ἐπεισόδιον, as the portion of a tragedy which stands μεταξὺ ὅλων χορικῶν μελῶν (*Poet.* 12), seems to require that we should regard the third episode as ending at v. 865, and a fourth as beginning at v. 974.

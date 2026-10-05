@@ -230,14 +230,35 @@ def merge_pages(directory: Path, prefix: str) -> list[str]:
             if not rows:
                 continue
             text = greek.nfc(" ".join(rows))
-            if text.startswith("+ ") and paras:
-                k = len(paras) - 1
-                while k > 0 and paras[k].startswith("[Note:"):
-                    k -= 1
-                paras[k] = join_run_on(paras[k], text[2:])
+            m = re.match(r"^\+(notes|comm)? ", text)
+            if m and paras:
+                # an argument's text, its critical notes and its commentary run on in parallel:
+                # "+ " continues the text, "+notes " the critical notes, "+comm " the commentary
+                stream = m.group(1) or "text"
+                rest = text[m.end():]
+                ours = [k for k in range(len(paras)) if _stream(paras[k]) == stream]
+                # the Greek of an argument goes on in the Greek paragraph, not in an English note
+                same = [k for k in ours if _greek(paras[k]) == _greek(rest)]
+                k = (same or ours or [len(paras) - 1])[-1]
+                paras[k] = join_run_on(paras[k], rest)
             else:
                 paras.append(text)
     return paras
+
+
+def _greek(text: str) -> bool:
+    letters = re.findall(r"[A-Za-z\u0370-\u03ff\u1f00-\u1fff]", re.sub(r"\*\*[^*]*\*\*", "", text))
+    return sum(1 for c in letters if c > "\u036f") > len(letters) / 2
+
+
+def _stream(para: str) -> str:
+    if para.startswith("*Critical notes.*"):
+        return "notes"
+    if re.match(r"^(\d+[a-z]?\s+)?\*\*[^*]+\*\*\]", para):
+        return "comm"
+    if para.startswith("[Note:"):
+        return "footnote"
+    return "text"
 
 
 # ---------------------------------------------------------------- the commentary (Philoctetes)

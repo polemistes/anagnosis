@@ -41,5 +41,7 @@ All the rules of APPENDIX.md (same folder) hold here: read it first. The differe
 ## Output
 
 One block per page, `=== p-NNNN`, in the file your task names; a paragraph that runs on to the
-next page continues there after `+ `, as in APPENDIX.md. Read the file through once against the
+next page continues there after `+ `, as in APPENDIX.md. On the pages of an argument, where the
+Greek text, the critical notes and the commentary each run on at once, the critical notes
+continue after `+notes ` and the commentary after `+comm ` (the text after `+ `), in print order. Read the file through once against the
 images when you have finished, above all the Greek accents and breathings.

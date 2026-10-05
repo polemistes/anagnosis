@@ -127,3 +127,136 @@ II. Emendations which involve a change in the antistrophe, v. 1197.
 1. Hermann: ἀν’ αἶαν ἀερώδεα Τρωΐαν, and in 1197 ἰὼ πόνοι, <πόνοι> πρόγονοι πόνων.
 
 2. Dindorf: ἀν’ εὐρώδη Τροΐαν, and in 1197 ἰὼ πόνοι πρόπονοι.
+
+=== p-0321
+3. Bergk (ed. 1858, adnot. crit. p. xliv): ἀν’ ἀκτὰν εὐρυεδῆ. He would omit Τροίαν as a
+marginal gloss, and in 1197 read ἰὼ πόνοι πρὸ πόνων.
+
+4. Blaydes: ἀν τὰν εὐρυεδῆ Τροίαν, and in 1197 ὦ μόχθοι πρόγονοι μόχθων.
+
+## Line 1252
+
+**ἀλλ’ οἱ φρονοῦντες εὖ κρατοῦσι πανταχοῦ.** Michael Apostolius (*circ.* 1470 A.D.), quoting
+this verse in his Συναγωγὴ Παροιμιῶν, subjoins another to it, viz. ὁ γὰρ φρονῶν εὖ πάντα
+συλλαβὼν ἔχει, and adds Σοφοκλέους, as if that poet were the author of both. The error arose
+from his having found the two verses together in a collection of commonplaces and proverbs by
+the monk Maximus Confessor (born at Constantinople *circ.* 580 A.D.), who, however, had
+attributed only the first verse to Sophocles: see *Paroemiographi Graeci*, ed. Leutsch and
+Schneidewin, vol. II. p. 765.
+
+The verse ὁ γὰρ φρονῶν εὖ πάντα συλλαβὼν ἔχει is ascribed by Stobaeus (*Flor.* 3. 17) to the
+tragic poet Chaerêmon (*circ.* 380 B.C.), among whose fragments it is included by Nauck (*Trag.
+Graec. Frag.*, p. 788, 2nd ed.).
+
+## Line 1276 ff.
+
+**ἀμφὶ μὲν νεῶν | ἄκροισιν ἤδη ναυτικοῖς ἑδωλίοις | πυρὸς φλέγοντος, ἐς δὲ ναυτικὰ σκάφη |
+πηδῶντος ἄρδην Ἕκτορος τάφρων ὕπερ.**
+
+1. ἑδώλια as = *a raised quarter-deck* at the stern of the ship.—This meaning came through that
+of a *sitting-place* for those who were not employed, as ἐρέται or ναῦται, in rowing or working
+the ship. It appears clearly in Her. 1. 24, where the passenger Arion, and the officers of the
+ship to whom he makes his request, are at first together on the ἑδώλια at the stern. From the
+raised ἑδώλια Arion springs into the sea. That passage is strikingly illustrated by one of
+Lycophron (295 ff.), where Cassandra imagines the scene which will ensue when the Trojans have
+set fire to the Greek ships. The Greeks, pressed by the victorious enemy, will spring from the
+high ἑδώλια of their ships, either towards the ‘ensigns’ *at the stern* (ἄφλαστα καὶ κόρυμβα),
+or towards the rowers’ benches (κληδῶν θρόνους, the μέσην νέα of Her. 1. 24), and will dye the
+foreign soil with their blood:— ἄφλαστα καὶ κόρυμβα καὶ κληδῶν θρόνους | πυκνοὶ κυβιστητῆρες
+ἐξ ἑδωλίων | πηδῶντες αἱμάξουσιν ὀθνείαν κόνιν. (Lycophron, with his usual taste for rare
+constructions, means the accusatives ἄφλαστα καὶ κόρυμβα etc. to be taken with πηδῶντες, as
+denoting the points *towards which* they leap; an admissible usage, but not like πηδῶντα πεδία
+in *Ai.* 30.) In the *Thesaurus* of Stephanus, where the words ἐξ ἑδωλίων πηδῶντες are cited,
+Dindorf quotes a scholium which correctly explains ἑδωλίων there as τῶν σανιδωμάτων καὶ
+καταστρωμάτων τῆς νεώς. The scholiast, wishing to be explicit, added καταστρωμάτων, because the
+term σανιδώματα (‘planking,’ ‘plank-fittings’)
+
+=== p-0322
++ was too vague; it could include the rowers’ benches. Thus Suidas distinguishes three senses of
+ἑδώλια:—(1) σανιδώματα, κυρίως τῶν πλοίων, ἐφ’ ὧν οἱ ἐρέται καθέζονται. For this sense,
+‘rowers’ benches,’ he gives no reference to literature. (2) καθέδραι ἢ ἑδράσματα, *i.e.*,
+*sedes*, abodes; for which he quotes Soph. *El.* 1393, ἀρχαιόπλουτα πατρὸς <εἰς> ἑδώλια. (3) He
+then adds, καὶ ἑδωλίοισι παρ’ Ἡροδότῳ ὑποστρώμασι (here = καταστρώμασι) νηός· Σοφοκλῆς·
+ἄκροισιν ἤδη ναυτικοῖς ἑδωλίοις. It would appear, then, that he regarded Her. 1. 24 as the
+*locus classicus* for ἑδώλια as = ‘deck,’ and took that to be the meaning of the word in *Ai.*
+1277. In *Etym. Magn.* p. 455, 4 (cited by Dindorf on Steph. *Thes. l.c.*) ἑδώλιον is identified
+with τόπον τῆς νεὼς βάσιν ἔχοντα, *i.e.*, ‘a *raised* place in the ship’ (βάσις being the
+substructure on which the raised deck rests).
+
+The passage of the *Helena* (1571), where Helen sits, apart from the rowers, ἐν μέσοις
+ἑδωλίοις, perfectly suits this interpretation. In *Cycl.* 238 ἑδώλια denotes the place in the
+ship to which a prisoner is to be consigned (συνδήσαντες, ἐς θἀδώλια | τῆς νηὸς ἐμβαλόντες):
+and this might well be the raised deck at the stern, where he would be kept under guard, apart
+from the crew.
+
+There is, then, ample warrant for interpreting ἑδωλίοις here as the raised decks of the ships.
+
+2. The next question is whether **ἄκροισιν** should be taken (1) as denoting the position of the
+ἑδώλια *at the end*, stern, of each ship; or (2) as = *topmost*, denoting that the ἑδώλια was the
+highest part of the ship. In the commentary I have given reasons for preferring the first view:
+viz. (*a*) that Sophocles may have had in mind how the Trojans fired the first Greek ship *at
+the stern* (*Il.* 16. 124 ὣς τὴν μὲν πρύμνην πῦρ ἄμφεπεν): and (*b*) that, on the other hand,
+the height of the raised decks of the Homeric galleys above the ground was not great enough to
+make ἄκροισιν, in the sense of ‘topmost,’ appropriate,—as though the burning of some lofty
+structure were in question. If it be said that the word **ἤδη** rather favours the sense
+‘topmost,’ we may reply that ἤδη is equally forcible as marking the critical moment when the
+flames had just taken hold on the ships at their sterns.
+
+3. The epithet **ναυτικοῖς** remains to be considered. I have suggested in the commentary two
+considerations by which it may be defended,—viz., that, since ἑδώλια was a word of general
+meaning, a distinctive epithet, marking its technical sense here, is intelligible, though νεῶν
+has preceded; and that the iteration, νεῶν, ναυτικοῖς, ναυτικά, has some excuse in the emphasis
+which is here laid on the supreme peril to the *ships*, in which the ultimate safety of the
+Greek army was at stake. But I fully recognise that ναυτικοῖς is a difficulty. Could we join
+ἀμφὶ with νεῶν, and take ἄκροισιν...ναυτικοῖς ἑδωλίοις as a defining locative dative,—‘*about*
+the ships, *at* their quarter-decks’? The objection arises from the Sophoclean use of ἀμφί. In
+*Ph.* 554 ἀμφὶ σοῦ = ‘*regarding* thee.’ In fr. 410, ὦ ἀμφ’ ἐμοῦ στεῖλαι, the sense *may*,
+indeed, be locative, but it is uncertain. And those are the only well-attested examples in
+Sophocles of ἀμφί with a genitive; for in *Ph.* 1354 we should read, with L, ἀμφ’ ἐμοί.
+
+=== p-0323
+I would gladly adopt the simple remedy (proposed by Bothe and others) of reading ναυτικοῖς
+**θ’**, but for one consideration. The sense would then be, ‘when the flames were already
+wrapping *the extremities of the ships* and the seats of the ναῦται’ (the rowers’ benches). Now
+I doubt whether the phrase νεῶν ἄκρα, meaning ‘the extremities (here *the sterns*) of the
+ships,’ is a phrase which an Attic poet would have used. (νηῶν...ἄκρα κόρυμβα in *Il.* 9. 241 is
+quite another matter.) If Sophocles had meant that here, would he not have rather written
+πρυμναῖσιν? (Wecklein, who adopts the insertion of θ’, reads ναυτίλοις, comparing Aesch. *Ag.*
+1442 ναυτίλων...σελμάτων.)
+
+On the hypothesis that ναυτικοῖς arose from ναυτικά in 1278, Bergk conjectures πευκίνοις
+(adding, however, θ’, which would then be needless): G. Wolff, ποντίοις, or, which is less
+weak, παγκρατοῦς: but none of these has any probability.
+
+It may be noticed that, though Suidas and other grammarians give ‘rowers’ benches’ as one
+meaning of ἑδώλια, that particular sense of the word does not seem to occur in classical Greek
+literature. The ordinary term for rowers’ benches is ζυγά: in poetry we have κληῖδες
+(*Odyssey*), and σέλματα. This circumstance, which may be accidental, could not safely be urged
+as an objection to taking ἑδωλίοις here as = ‘rowers’ seats.’ At the same time it should be
+remembered that the well-attested sense of ἑδώλια as = ‘quarter-deck’ was derived from the
+primary sense of ‘seats’ for passengers and other *non*-rowers;—seats, presumably, of another
+and more comfortable kind than the rowers’ benches. The antithesis with ζυγά thus implied in
+that sense of ἑδώλια may help to explain why we do not, as a matter of fact, find ἑδώλια used
+to denote the benches of the oarsmen.
+
+One remark in conclusion. I formerly acquiesced in the view that (*without* inserting θ’ after
+ναυτικοῖς) we should explain ναυτικοῖς ἑδωλίοις as ‘the seats of the rowers.’ The decisive
+objection to that view, as I now think, is ἄκροισιν. It must then mean ‘topmost’: but the
+rowers’ seats could be so called only relatively to the planks lining the bottom and sides of
+the vessel. It is not conceivable that a poet so familiar with Homer should have imagined the
+Homeric ship as a trireme, and ἄκροισιν, therefore, could not possibly be explained as intended
+to denote the benches of the θρανῖται.
+
+## Line 1416 f.
+
+**κοὐδενί πω λῴονι θνητῶν. | [Αἴαντος, ὅτ’ ἦν, τότε φωνῶ.]**
+
+The attempts to expand v. 1416 from a paroemiac into an anapaestic dimeter have not been very
+felicitous. (I should prefer the insertion of δή before πω to any of them.)
+
+1. Brunck: κοὐδενί πω λῴονι τῶν θνητῶν.
+
+2. Erfurdt: κοὐδενὶ πώποτε λῴονι θνητῶν.
+
+3. Hermann (formerly): κοὐδενί γ’ ᾧτινι λῴονι θνητῶν. But he afterwards preferred to leave v.
+1416 untouched, and to delete v. 1417.

@@ -208,3 +208,52 @@ prove embarrassing.
 
 Montaigne, in referring to the maxim, draws a like distinction: ‘Ce précepte, qui est si
 abominable en ceste souveraine et maistresse amitié,
+=== p-0316
++ il est salubre en l’usage des amitiez ordinaires et coustumières’ (*Essais*, I. c. xxviii.).
+La Bruyère’s comments are curious (*Caractères*, c. 4, §§ 55, 56, vol. I. p. 208 in the edition
+of M. Servois, 1865):—‘Vivre avec ses ennemis comme s’ils devoient un jour être nos amis, et
+vivre avec nos amis comme s’ils pouvaient devenir nos ennemis, n’est ni selon la nature de la
+haine, ni selon les règles de l’amitié; ce n’est point une maxime morale, mais politique.’ He
+then gives his own rule:—‘On ne doit pas se faire des ennemis de ceux qui, mieux connus,
+pourroient avoir rang entre nos amis. On doit faire choix d’amis si sûrs et d’une si exacte
+probité, que venant à cesser de l’être, ils ne veuillent pas abuser de notre confiance, ni se
+faire craindre comme ennemis.’ But, as Spedding remarks (*Bacon’s Works*, vol. I. p. 788,
+n. 2), this might be paraphrased, ‘Treat no man as your enemy until you are *sure* that he can
+never deserve to be your friend, make no man your friend unless you are *sure* that he will
+never become your enemy’: and, since such certainty is unattainable beforehand, La Bruyère’s
+own precept comes to much the same thing as that which he is criticising.
+
+It may be observed that the version by Publilius Syrus (in Gellius, *Noct. Att.* 17. 14), *Ita
+amicum habeas, posse ut fieri hunc inimicum putes*, makes the maxim more definitely cynical than
+it is in its Greek form, φιλεῖν ὡς μισήσοντας.
+
+## Line 869
+
+**κοὐδεὶς ἐπίσταταί με συμμαθεῖν τόπος.**
+
+I. The following conjectures keep συμμαθεῖν (or merely modify it to συμμαθών).
+
+1. Campbell: κοὐδεὶς **ἐφίσταταί** με συμμαθεῖν τόπος. ‘And no spot arrests me that I may share
+its secret.’ (For this causal sense of the middle ἐφίσταμαι, see my note on *Tr.* 339.) So
+Meineke also, but with συμμαθών.
+
+2. Moritz Seyffert: κοὐδεὶς **ἐφίστα τοῦ** με συμμαθεῖν τόπος. ‘And no place invited me to
+pause, that I might learn its secret.’ (ἐφίστα imperf.: τοῦ...συμμαθεῖν, gen. expressing the
+aim or object.) Wecklein adopts this.
+
+3. Dindorf: κοὐδεὶς ἐπίσταταί **σφε** συμμαθὼν τόπος. (Meaning, apparently, ‘No place is
+conscious that it shares the secret concerning him.’)
+
+II. Conjectures which substitute some other verb for συμμαθεῖν.
+
+1. Hartung: κοὐδεὶς ἐπίσταταί με **συμβαλεῖν** τόπος (*sc.* τῷ Αἴαντι, ‘that I have met with
+him’).
+
+2. Linwood: κοὐδεὶς ἐπίσταταί **σφε συμβαλεῖν ὅπου**. (‘No one can conjecture where he is.’)
+
+3. Heimsoeth: κοὐδεὶς ἐπίσταταί με **νουθετεῖν** τόπος.
+
+4. Blaydes (*inter alia*): κοὐδεὶς ἐπίσταταί **σφε σημαίνειν** τόπος. Or κοὐ. ἐ. **σφέ μοι
+φράζειν** τόπος (G. Wolff suggests σφε ποῦ λάθει).
+
+5. Herwerden: κοὐδεὶς **ἐφίστασθαί** με **συμπείθει** τόπος.

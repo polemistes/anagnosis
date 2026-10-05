@@ -81,6 +81,12 @@ def sources_for(play: Play) -> dict[str, str]:
     }
 
 
+# Jebb's readings that neither the treebank nor the analyser knows: form -> (lemma, postag)
+FORM_FIXES = {
+    "ἀνστάσεις": ("ἀνίστημι", "v2sfia---"),  # El. 138, apocope for ἀναστήσεις
+}
+
+
 def read_agdt(path: Path) -> list[dict]:
     """An AGDT treebank: every word (artificial nodes and punctuation included, is_word False),
     with the line it cites (the last citation carried forward)."""
@@ -255,6 +261,7 @@ def apply_text_check(doc, anchors: list[tuple[str, str]], diffs: list, parts: se
                 doc.items.insert(at + j, Line(line.n + "z", part))
         last = (n, line)
     lines = doc.lines
+    orig = list(lines)
     explicit: dict[int, str] = {}
     current = {l.n: i for i, l in enumerate(lines)}
     for n, word in anchors:
@@ -285,7 +292,19 @@ def apply_text_check(doc, anchors: list[tuple[str, str]], diffs: list, parts: se
             warnings.append(f"printed {n} {word}: no line begins so near our {n}")
             continue
         explicit[min(found, key=lambda i: abs(i - guess))] = n
+    # A word Jebb divides between two lyric verses (εὐδαί- | μων) is written whole at the end of
+    # the first, so that it can be looked up and parsed; the verses and their numbers stay.
+    for i in range(len(lines) - 1):
+        m = re.search(r"(\S*[\u0370-\u03ff\u1f00-\u1fff])-$", lines[i].text)
+        nxt = lines[i + 1].text.split(maxsplit=1)
+        if m and nxt and re.match(r"[\u0370-\u03ff\u1f00-\u1fff]", nxt[0]):
+            lines[i].text = lines[i].text[:-1] + nxt[0]
+            lines[i + 1].text = nxt[1] if len(nxt) > 1 else ""
+    for line in [l for l in lines if not l.text.strip()]:
+        doc.items.remove(line)  # a verse that was only the end of a word
+    lines = doc.lines
     new_parts = {i for i, l in enumerate(lines) if id(l) in cont}
+    explicit = {lines.index(l): n for l, n in ((orig[i], n) for i, n in explicit.items()) if l in lines}
     return explicit, new_parts, warnings
 
 
@@ -435,6 +454,8 @@ def import_play(slug: str, sources: Path, texts: Path, build: Path, lexicon: Pat
         review.append({"line": r["line"], "form": r["form"], "lemma": r["lemma"], "postag": r["postag"], "reason": reason})
     for r in rows:
         r["lemma"] = LEMMA_FIXES.get(r["lemma"], r["lemma"])
+        if not r["lemma"] and r["form"] in FORM_FIXES:
+            r["lemma"], r["postag"] = FORM_FIXES[r["form"]]
     write_tokens(out / "tokens.tsv", rows)
     used = {(r["sentence"], w) for r in rows for w in r["word_id"].split("+") if r["sentence"]}
     write_syntax_nodes(out / "syntax-nodes.tsv", syntax_nodes(tb, used))

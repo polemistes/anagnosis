@@ -122,3 +122,52 @@ that of Enyalios. But those passages clearly indicate that, in the popular Athen
 had already become a distinct person from Ares, however closely akin to him in character and
 attributes. The War-god was worshipped at Athens under the name of Ἄρης (Paus. 1. 8. 64), and
 there were also yearly sacrifices
+=== p-0307
++ to Ἐνυάλιος (Pollux 8. 91). Although both names had originally denoted the same deity, the
+distinction of titles in the cult would inevitably lead to a popular distinction of the persons.
+
+## Line 245 f.
+
+**ὥρα τιν’ ἤδη τοι κρᾶτα καλύμμασι.**
+
+I. Brunck omitted **τοι** (which is wanting in Paris A and a few other MSS.), and wrote **κάρα**,
+with Triclinius, instead of κρᾶτα. This reading is adopted by Dindorf, Blaydes, Campbell, and
+J. H. Heinrich Schmidt. The scansion of the verse is then as follows:—
+
+> – ⏑ ⏗ – ⏑ – ⏑ – ⏑ –
+
+ωρ ⁝ α τιν | ηδ | η καρ | α καλ | υμμασ | ι ⋀
+
+= 221 f. οἵ ⁝ αν ἐ | δήλ | ωσας | ἀνδρὸς | αἴθον | ος ⋀
+
+II. Wunder, while omitting τοι, retains κρᾶτα, but in verse 221 changes ἐδήλωσας into
+**ἔδειξας**, and ἀνδρὸς to ἀνέρος. His text then stands thus:—221 f. οἵαν ἔδειξας ἀνέρος αἴθοπος
+ἀγγελίαν = 245 f. ὥρα τιν’ ἤδη κρᾶτα καλύμμασι κρυψάμενον. Paley follows Wunder. Hartung also
+does so, except that, instead of ἔδειξας, he gives **ἔφηνας** (an earlier conjecture of
+Wunder’s).
+
+## Line 257 f.
+
+**οὐκέτι· λαμπρᾶς γὰρ ἄτερ στεροπῆς | ᾄξας ὀξὺς νότος ὣς λήγει.**
+
+The words λαμπρᾶς ἄτερ στεροπῆς have been joined with ᾄξας, as if the sense were, ‘He ceases to
+rage, like a south wind that has rushed up, sharply, indeed, but without the glare of
+lightnings.’ (Hermann understood the passage thus, except that he took ὀξὺς adverbially with
+λήγει, as = ‘swiftly’: *cito furere desiit, ut Auster sine fulmine ortus.*) The notion then
+implied is that a southern gale, if *not* accompanied at the outset by thunder and lightning, is
+likely to cease the sooner. But (even supposing the assumed fact to be true) the fury of Ajax, so
+fierce while it lasted, would not be happily compared to a storm *not* accompanied by lightning.
+(Ibycus likens the passion of love which sways him to Boreas ὑπὸ στεροπᾶς φλέγων, fr. 1. 6 ff.)
+Further, if the lightning were noticed only as *absent*, the addition of the epithet λαμπρᾶς
+would be inappropriate.
+
+Much use has been made, in connection with these verses, of a passage in the fragment of
+Theophrastus περὶ σημείων ὑδάτων καὶ πνευμάτων καὶ χειμώνων καὶ εὐδιῶν, II. 32 (p. 394 ed.
+Wimmer):—θέρους ὅθεν ἂν αἱ ἀστραπαὶ καὶ βρονταὶ γίνωνται, ἐντεῦθεν πνεύματα γίνεται ἰσχυρά· ἐὰν
+μὲν σφόδρα καὶ ἰσχυρὸν ἀστράπτῃ, θᾶττον καὶ σφοδρότερον πνεύσουσιν, ἐὰν δ’ ἠρέμα καὶ μανῶς, κατ’
+ὀλίγον. τοῦ δὲ χειμῶνος καὶ φθινοπώρου τοὐναντίον· παύουσι γὰρ τὰ πνεύματα αἱ ἀστραπαί· καὶ ὅσῳ
+ἂν ἰσχυρότεραι γίνωνται ἀστραπαὶ καὶ βρονταί, τοσούτῳ μᾶλλον παύονται. There are two statements
+here. (1) *In summer*, frequent and vivid lightning is a prognostic of violent winds from the
+quarter in which it is seen. (2) *In autumn and winter*, on the contrary, lightning is followed by
+the *cessation* of winds; and the more violent the thunder-storm, the more quickly will the winds
+subside.

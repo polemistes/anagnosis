@@ -57,10 +57,10 @@ and taking her away to the ships (*Gr. Trag.* I. 158 ff.).
 ἑκάτερος οὖν παρ’ ἑκατέρου μαθόντες τὸ ἀγνοούμενον, ὁ χορὸς μὲν παρὰ Τεκμήσσης, ὅτι ὁ Αἴας ταῦτα
 ἔδρασε, Τέκμησσα δὲ παρὰ τοῦ χοροῦ, ὅτι
 
-+ 5 διαχειρίσασθαι T, and some other MSS.: διαχρήσασθαι vulg. 8 **ΜΑΣΤΙΓΟΦΟΡΟΣ**] ὁ
++notes 5 διαχειρίσασθαι T, and some other MSS.: διαχρήσασθαι vulg. 8 **ΜΑΣΤΙΓΟΦΟΡΟΣ**] ὁ
 μαστιγοφόρος Brunck's edition. 10 **ἀναγέγραπται**] *v.l.* γέγραπται, or ἐπιγέγραπται.
 
-+ mentioned elsewhere; but Heyne identifies it with the often-quoted Αἰθίοπες, and, as Memnon was
++comm mentioned elsewhere; but Heyne identifies it with the often-quoted Αἰθίοπες, and, as Memnon was
 king of that people, this seems very probable. The *Aethiopis* of Arctînus would have furnished
 the material.
 
@@ -103,7 +103,7 @@ Similar lists were drawn up by the poet Callimachus (260 B.C.), by Aristophanes 
 Αἴαντος δράσαντος. θεοῦ οὖν ἦν τὸ τοιοῦτον διασαφῆσαι, καὶ Ἀθηνᾶς προκηδομένης τοῦ Ὀδυσσέως,
 διό φησι· καὶ πάλαι φύλαξ ἔβην | τῇ σῇ πρόθυμος εἰς ὁδὸν κυνηγίᾳ.
 
-+ 5 **πρὸς Μενέλαον, οὐκ ἐῶντα**] πρὸς μενέλεων καὶ πρὸς ἀγαμέμνονα οὐκ ἐῶντας T,—a correction
++notes 5 **πρὸς Μενέλαον, οὐκ ἐῶντα**] πρὸς μενέλεων καὶ πρὸς ἀγαμέμνονα οὐκ ἐῶντας T,—a correction
 by Triclinius of the grammarian's oversight. 7 **φιλονεικίας**] λύπης ἄκρας T, and a few others.
 7, 8 **οἱ ἄνθρωποι ἥκοιεν**] ἐμπίπτουσιν οἱ ἄνθρωποι Ienensis (cod. B. 7).—In T the whole
 sentence down to ἑαυτὸν ἀνελεῖν has been thus rewritten by Triclinius:—οἱ ἄνθρωποι εἰς μανίαν
