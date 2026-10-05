@@ -1,0 +1,26 @@
+=== p-0301
+## Line 6 f.
+
+Λύκειος was a widely-diffused epithet of Apollo. At Athens the Λύκειον was sacred to him, and a seat in the Dionysiac theatre bore the inscription, ἱερέως Ἀπόλλωνος Λυκήου (*C.I.A.* III. 292). Other places, besides Argos, where he was worshipped under this name were Sicyon, Troezen, Thebes, and Delphi (cp. Preller, I. p. 202). The words of Alcman (fr. 68), πρόσθ’ Ἀπόλλωνος Λυκήω, probably refer to a shrine at Sparta. Hesychius explains Λυκιάδες κόραι as τὸν ἀριθμὸν τριάκοντα, αἱ τὸ ὕδωρ κομίζουσαι εἰς τὸ Λύκειον: where the number thirty, suggesting the days of the month, is a hint that the primary significance of Λύκειος, though lost in speech survived in symbolism. It is uncertain to what Λύκειον the notice refers.
+
+The root λυκ, *lux*, from which Λύκειος comes, furnished other titles also for Apollo, of which the original sense became similarly veiled. One is Λύκιος (Pind. *P.* 1. 39), popularly explained as ‘Lycian’: see on *Philoctetes* 1461. Another is the Homeric λυκηγενής (*Il.* 4. 101), usually interpreted either as ‘Lycia-born,’ or else as ‘wolf-born,’ because Leto, before giving birth to the god, had been changed into a wolf (Aelian *N.A.* 10. 26). To these may perhaps be added Λυκαῖος: for Hesychius *s.v.* gives Λυκαῖον as = τὸ Πύθιον, and refers to a temple of that name at Chrysè in the Troad. Λύκαιος was the name of a *month* in the calendar used at Lamia in S. Thessaly (Welcker, *Götterl.* I. p. 481).
+
+On the other hand, λυκ yields that group of words in which the root-sense is unconcealed; λευκός, λυκάβας (year), ἀμφιλύκη νύξ (the twilight of dawn, *Il.* 7. 433), with its equivalents λυκόφως (schol. *ad loc.*, and Aelian *N. A.* 10. 26), λυκαυγές (Lucian), and λυκοειδές (Hesych.). Latin affords parallels in *Lucetius*, an epithet applied by Naevius to Iuppiter (Gellius 5. 12), and *Lucina*, where the original meaning of the root remains clear.
+
+The sense which Sophocles here affixes to Λύκειος was undoubtedly that which had the widest acceptance in ancient Greece: the ‘wolf-god’ was the ‘wolf-slayer.’ Plutarch recognises λυκοκτόνος as an appellation of Apollo (*Mor.* 966 A), and the poet who addresses him in the
+=== p-0302
++ *Anthology* (13. 22) says, οὔ σοι φαρέτρη λύεται λυκοκτόνος. The invocation of the Λύκειος as a destroyer (*O. T.* 203 n.) points in the same direction.
+
+This, however, is not the only relation between Apollo and the wolf of which traces are found. According to Pausanias (1. 19. § 3), the Λύκειον at Athens was so named from the hero Λύκος, son of Pandion, who afterwards fled to Lycia (Her. 1. 173). A statue of this Lycus stood before one of the Athenian law-courts (Ar. *Vesp.* 389); he was the patron of litigants (cp. *ib.* 819). The wolf was often the type of a guilty fugitive, and Lycus symbolised the suppliant to whom Apollo φύξιος extends his grace, as the law affords its protection to the suitor and the accused.
+
+Again, the wolf is sometimes described as an animal *beloved* by Apollo (Aelian *N.A.* 10. 26). In the Argive legend (see note on vv. 6 f.), it was Apollo who made the wolf victorious over the bull, and thus moved the grateful Danaüs to found the Λύκειον. In other words, the wolf is there the symbol of a power allied, or even identified, with that of Apollo himself; and Argives might have objected that the Sophoclean paraphrase of Λύκειος by λυκοκτόνος, though suited to the general belief, was contrary to the spirit of their local legend. At Delphi a bronze wolf stood near the great altar (Paus. 10. 14. § 7, Plut. *Pericl.* 21); a fact which suggests some further association beyond that of the victim with the slayer. The wolf may indeed have been regarded as a symbol of the sun-god’s fierce and destructive power. It is noteworthy that the wolf is associated with other solar deities besides Apollo,—as with the Italic Mars and Soranus (see A. Furtwängler in Roscher’s Lexicon, p. 443). This fact certainly confirms the view of O. Müller (*Dorians*, I. 305) and Welcker (*Götterl.* I. 481), that there was some reason for such an association beyond the verbal resemblance of λύκος and λύκειος.
+
+## Line 21 f.
+
+**ὡς ἐνταῦθ’ †ἐμὲν | ἵν’ οὐκέτ’ ὀκνεῖν καιρός, ἀλλ’ ἔργων ἀκμή.**
+
+The form ἐμέν is quoted from the Alexandrian poet Callimachus (*c.* 260 B.C.) by the grammarian Herodian (*c.* 150 A.D., περὶ μονήρους λέξεως, p. 24 ed. Dind.), and by Eustathius p. 1457. 50, who explains the words of Callimachus, γρῆες ἐμέν, by γραῖαι ἐσμέν. There is no other trace of it. Callimachus formed it probably on the analogy of the infin. ἔμεναι. The scholiast on verse 21 remarks that ἐμὲν is ἀναλογώτερον than ἐσμέν, in which the σ is, he thinks, redundant; a fact which explains how ἐμὲν kept its place in the text here, and apparently escaped suspicion. Besides ἐσμέν, the only forms of the 1st pers. plur. which occur in writers of the classical age, are the epic and Ionic εἰμέν, and the Doric εἰμές.
+
+The emendations are of two general classes; I. those which leave ἵν’ in v. 22: II. those which place it in v. 21, or remove it altogether.
+
+I. (*a*) Retaining **ἐνταῦθ’**. 1. Dawes (*Misc. Crit.* p. 277), **ὡς ἐνταῦθ’** ἴμεν. On this, see commentary. 2. Hermann mentions a conjecture ὡς ἐνταῦθα δή. 3. Dindorf writes, ὡς ἐνταῦθ’ ἔβης. (*b*) Omitting
