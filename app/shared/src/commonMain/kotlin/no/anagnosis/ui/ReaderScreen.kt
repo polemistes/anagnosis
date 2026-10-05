@@ -118,15 +118,18 @@ sealed interface ReaderRow {
 
     data class Section(val section: Sections, override val nInt: Long) : ReaderRow
     data class Speaker(val name: String, override val nInt: Long) : ReaderRow
-    data class GreekLine(val line: Lines) : ReaderRow {
+    /** `after`: for the later part of a verse shared between speakers, the verse's earlier parts,
+     *  after whose width this part is set, as printed editions set it. */
+    data class GreekLine(val line: Lines, val after: String? = null) : ReaderRow {
         override val nInt get() = line.n_int
     }
 }
 
 /** A laid-out row: its rendering height and, for Greek lines, whether the line number fits on the right. */
-private class Measured(val row: ReaderRow, val height: Int, val numberFits: Boolean = false)
+private class Measured(val row: ReaderRow, val height: Int, val numberFits: Boolean = false, val indent: Int = 0)
 
-class Page(val rows: List<ReaderRow>, val numbers: Map<ReaderRow, String>, val forced: Set<ReaderRow>, val firstN: Long, val lastN: Long)
+class Page(val rows: List<ReaderRow>, val numbers: Map<ReaderRow, String>, val forced: Set<ReaderRow>, val firstN: Long, val lastN: Long,
+           val indents: Map<ReaderRow, Int> = emptyMap())
 
 private class Styles(
     val section: TextStyle,
@@ -547,12 +550,37 @@ fun ReaderScreen(
 
 private fun buildRows(data: WorkData): List<ReaderRow> {
     val rows = mutableListOf<ReaderRow>()
+    var previous: Lines? = null
+    var verseSoFar = ""
     for (line in data.lines) {
         data.sectionsByFirstLine[line.id]?.forEach { rows += ReaderRow.Section(it, line.n_int) }
         if (line.speech_start == 1L && line.speaker != null) rows += ReaderRow.Speaker(line.speaker, line.n_int)
-        rows += ReaderRow.GreekLine(line)
+        // a verse shared between speakers: its later parts carry a letter (591, 591a) and begin a speech
+        val continues = line.n_sub.isNotEmpty() && line.speech_start == 1L && previous?.n_int == line.n_int &&
+            data.sectionsByFirstLine[line.id] == null
+        val after = if (continues) verseSoFar else null
+        rows += ReaderRow.GreekLine(line, after)
+        verseSoFar = if (continues) "$verseSoFar ${line.text}" else line.text
+        previous = line
     }
     return rows
+}
+
+/** How far the later part of a shared verse is indented: the width of the verse's earlier parts,
+ *  less where the part would not fit after them on the line (it then ends at the right margin),
+ *  and a small indent where even that leaves too little room. */
+private fun verseIndent(measurer: TextMeasurer, after: String?, part: String, style: TextStyle, textWidth: Int, reserve: Int): Int {
+    if (after.isNullOrEmpty() || textWidth <= 0) return 0
+    val small = textWidth / 8
+    val before = measurer.measure(after + "\u2002", style, constraints = Constraints(maxWidth = textWidth))
+    val width = if (before.lineCount == 1) before.getLineRight(0).toInt() else small
+    val own = measurer.measure(part, style).size.width
+    val room = textWidth - reserve - own
+    return when {
+        width <= room -> width
+        room >= small -> room
+        else -> small
+    }
 }
 
 /** "line 12" or "lines 12–14": the lines a sentence's words stand on. */
@@ -643,10 +671,11 @@ private fun paginate(
             is ReaderRow.Speaker ->
                 Measured(row, measurer.measure(row.name, styles.speaker, constraints = constraints).size.height + SPEAKER_TOP.px() + ROW_GAP.px())
             is ReaderRow.GreekLine -> if (prose) Measured(row, proseHeights[row.line.id] ?: 0, false) else {
-                val layout = measurer.measure(row.line.text, styles.greek, constraints = constraints)
+                val indent = verseIndent(measurer, row.after, row.line.text, styles.greek, textWidth, if (numbering == LineNumberMode.ALL) 0 else numberWidth)
+                val layout = measurer.measure(row.line.text, styles.greek, constraints = Constraints(maxWidth = textWidth - indent))
                 // In the all-lines mode the caller has already reserved a column for the numbers.
-                val fits = numbering == LineNumberMode.ALL || textWidth - layout.getLineRight(0) >= numberWidth
-                Measured(row, layout.size.height, fits)
+                val fits = numbering == LineNumberMode.ALL || textWidth - indent - layout.getLineRight(0) >= numberWidth
+                Measured(row, layout.size.height, fits, indent)
             }
         }.also { cache?.put(row, it) }
         }
@@ -667,7 +696,9 @@ private fun paginate(
             LineNumberMode.NONE -> {}
             LineNumberMode.ALL -> if (measured[i].numberFits) numbers[row] = label(row.line)
             LineNumberMode.FIFTH -> {
-                val isTarget = row.line.n_int % 5 == 0L || row.line.n_sub.isNotEmpty()
+                // every fifth verse; a lettered line (an extra line, or the later part of a shared
+                // verse) has no number of its own in this mode
+                val isTarget = row.line.n_int % 5 == 0L && row.line.n_sub.isEmpty()
                 if (!isTarget) continue
                 when {
                     fitsAt(k) -> numbers[row] = label(row.line)
@@ -682,8 +713,9 @@ private fun paginate(
     for (i in greekIdx) {
         val row = measured[i].row
         if (row in forced) {
-            val layout = measurer.measure((row as ReaderRow.GreekLine).line.text, styles.greek, constraints = Constraints(maxWidth = textWidth - numberWidth))
-            measured[i] = Measured(row, layout.size.height, true)
+            val indent = measured[i].indent
+            val layout = measurer.measure((row as ReaderRow.GreekLine).line.text, styles.greek, constraints = Constraints(maxWidth = textWidth - numberWidth - indent))
+            measured[i] = Measured(row, layout.size.height, true, indent)
         }
     }
 
@@ -758,7 +790,8 @@ private fun paginate(
         }
         before + after
     }
-    return chunks.map { Page(it, numbers, forced, it.first().nInt, it.last().nInt) }
+    val indents = measured.filter { it.indent > 0 }.associate { it.row to it.indent }
+    return chunks.map { Page(it, numbers, forced, it.first().nInt, it.last().nInt, indents) }
 }
 
 /** "Prologue" when the section has a name; otherwise the kind and number, e.g. "Strophe 1". */
@@ -853,6 +886,7 @@ private fun PageContent(
             )
             is ReaderRow.GreekLine -> GreekLineRow(
                 line = row.line,
+                indentPx = page.indents[row] ?: 0,
                 number = page.numbers[row],
                 numberColumn = if (row in page.forced) forcedColumn else numberColumn,
                 data = data,
@@ -885,6 +919,7 @@ private fun SectionHeader(section: Sections, styles: Styles) {
 @Composable
 private fun GreekLineRow(
     line: Lines,
+    indentPx: Int,
     number: String?,
     numberColumn: Dp,
     data: WorkData,
@@ -901,8 +936,9 @@ private fun GreekLineRow(
     val haptic = LocalHapticFeedback.current
     Box(
         Modifier.fillMaxWidth().pointerInput(tokens) {
-            fun tokenAt(pos: Offset): Tokens? {
+            fun tokenAt(tap: Offset): Tokens? {
                 val result = layout ?: return null
+                val pos = tap - Offset(indentPx.toFloat(), 0f)  // the text of an indented part starts further in
                 val lineIndex = result.getLineForVerticalPosition(pos.y)
                 // a tap in the blank space to the right of the words is not a tap on a word
                 if (pos.x > result.getLineRight(lineIndex) + 4.dp.toPx()) return null
@@ -920,7 +956,8 @@ private fun GreekLineRow(
             )
         },
     ) {
-        Text(text = line.text, style = styles.greek, onTextLayout = { layout = it }, modifier = Modifier.fillMaxWidth().padding(end = numberColumn))
+        val indent = with(LocalDensity.current) { indentPx.toDp() }
+        Text(text = line.text, style = styles.greek, onTextLayout = { layout = it }, modifier = Modifier.fillMaxWidth().padding(start = indent, end = numberColumn))
         if (number != null) {
             Text(
                 number,
