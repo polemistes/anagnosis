@@ -1258,7 +1258,7 @@
 1251	With justice on my side, I do not tremble at the terrors you name.
 
 @ Odysseus
-1251a	
+1251a	…
 
 @ Neoptolemus
 1252	No, not even at the threat of your hand do I yield obedience.

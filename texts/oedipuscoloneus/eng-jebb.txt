@@ -225,16 +225,16 @@
 180a	Lead him onward, maiden, for you hear us and obey.
 
 @ Antigone
-181a	
+181a	…
 
 @ Oedipus
-181b	
+181b	…
 
 @ Antigone
 181c	Come, follow this way with your dark steps, father, as I lead you.
 
 @ Oedipus
-183	
+183	…
 
 @ Chorus
 184	Stranger in a foreign land,

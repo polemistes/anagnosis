@@ -721,7 +721,7 @@ Artemis was worshipped on the coasts near Malis (637 n.), but we have no proof t
 **ξυμφοραὶ** is much better than the *v.l.* **ξυμφορᾷ**, which would easily arise from a wish to have the same subject in both clauses. When a common word for fraud, such as κλέπτειν, is used in the figurative sense, ‘to produce an illusion,’ it is evidently fitter that the subject to the verb should *not* be a human being. Cp. *Ant.*681εἰ μὴ τῷ χρόνῳ κεκλέμμεθα: *ib.* 1218 θεοῖσι κλέπτομαι.
 
 ## 245
-**ἐξείλεθʼ**: the midd. here suits **αὑτῷ**: but in ref. to **θεοῖς** the act. ἐξεῖλεν would have been more usual, cp. *Ph.*1431 n.: [Eur. ] *Rhes.* 470 θεοῖσί τ' ἀκροθίνἰ ἐξέλῃς: Thuc.3. 50κλήρους ... τῆς γῆς ... τοῖς θεοῖς ἱεροὺς ἐξεῖλον.—*κριτόν*: so in Soph. *Ai.*1302Hesionè is the ἔκκριτον δώρημα given to Telamon as a prize of valour. Prisoners of war often became ἱερόδουλοι in temples (cp. Her.6. 134: Paus.3. 18. 3).
+**ἐξείλεθʼ**: the midd. here suits **αὑτῷ**: but in ref. to **θεοῖς** the act. ἐξεῖλεν would have been more usual, cp. *Ph.*1431 n.: [Eur. ] *Rhes.* 470 θεοῖσί τ' ἀκροθίνιʼ ἐξέλῃς: Thuc.3. 50κλήρους ... τῆς γῆς ... τοῖς θεοῖς ἱεροὺς ἐξεῖλον.—*κριτόν*: so in Soph. *Ai.*1302Hesionè is the ἔκκριτον δώρημα given to Telamon as a prize of valour. Prisoners of war often became ἱερόδουλοι in temples (cp. Her.6. 134: Paus.3. 18. 3).
 
 ## 246
 **ἦ κἀπὶ**: for ἦ καί in a question, cp. *O. T.*368.
@@ -1087,7 +1087,7 @@ Another explanation is: **τοῦ με ἐφίστασαι**, ‘why hast thou c
 Heracles had really killed Iphitus. The denial here refers only to the place which the murder held in the story told by Lichas. Heracles was instigated, not by the Lydian servitude which punished his crime, or by those affronts (262 ff.) which Lichas represented as having moved him to the crime, but, in reality, by the refusal of Eurytus to give him Iolè.
 
 ## 358
-**ὃν** refers, not to μόρος, but back to Ἔρως (354), verses 356 f. being parenthetical; just as in 997 ἣν refers to κρηπὶς in 992, and not to λώβαν in 996. The conjecture **ὃ** would enfeeble the passage. **ὃν … παρώσας** expresses that the divine agent, who should have been placed in the foreground of the story (cp. 862), has been thrust out of sight. Cp. Eur. *Andr.*29Ἑρμιόνην γαμεῖ, | τοὐμὸν παρώσας δεσπότης δοῦλον λέχος.—*ἔμπαλιν λέγει*, speaks in a contrary sense. Her.1. 207ἔχω γνώμηνʽ...τὰ ἔμπαλιν ἢ οὗτοι. *Il.*9. 56οὐδὲ πάλιν ἐρέει (‘gainsay’).
+**ὃν** refers, not to μόρος, but back to Ἔρως (354), verses 356 f. being parenthetical; just as in 997 ἣν refers to κρηπὶς in 992, and not to λώβαν in 996. The conjecture **ὃ** would enfeeble the passage. **ὃν … παρώσας** expresses that the divine agent, who should have been placed in the foreground of the story (cp. 862), has been thrust out of sight. Cp. Eur. *Andr.*29Ἑρμιόνην γαμεῖ, | τοὐμὸν παρώσας δεσπότης δοῦλον λέχος.—*ἔμπαλιν λέγει*, speaks in a contrary sense. Her.1. 207ἔχω γνώμην(...τὰ ἔμπαλιν ἢ οὗτοι. *Il.*9. 56οὐδὲ πάλιν ἐρέει (‘gainsay’).
 
 ## 359
 **ἀλλ' ἡνίκʼ**: here ἀλλά merely serves to resume the story, after the parenthesis: cp. δέ in 252, 281. Others make it strictly adversative: ‘(It was *not* on account of his enslavement); *rather* it was when he could not persuade,’ etc.— **οὐκ ἔπειθε**: the *imperf.* is regularly used with ref. to such failure (e.g., Thuc.3. 3ἐπειδὴ...οὐκ ἔπειθον: id. 4. 4 ὡς οὐκ ἔπειθεν).
@@ -1134,7 +1134,7 @@ For the change of tenses, cp. *Ant.*406 n.
 Join **ὡσαύτως ἐμοί**: cp. Her.2. 67ὣς δὲ αὕτως τῇσι κυσὶ οἱ ἰχνευταὶ θάπτονται.
 
 ## 374
-**τὸ δ' ὀρθὸν**: cp. the words of the messenger to Eurydicè in *Ant.*1194 f. τί γάρ σε μαλθάσσοιμ' ἂν ὦν ἐς ὕστερον | ψεῦσται φανούμεθʼ; ὀρθὸν ἁλήθεἰ ἀεί.
+**τὸ δ' ὀρθὸν**: cp. the words of the messenger to Eurydicè in *Ant.*1194 f. τί γάρ σε μαλθάσσοιμ' ἂν ὦν ἐς ὕστερον | ψεῦσται φανούμεθʼ; ὀρθὸν ἁλήθειʼ ἀεί.
 
 ## 375
 **ποῦ … πράγματος***;* Ai.102ποῦ σοι τύχης ἕστηκεν*: ib.* 314 ἐν τῷ πράγματος.
@@ -1184,7 +1184,7 @@ The comment is aimed at Lichas in the first instance; but its vague form seems p
 **ποεῖν**: for the spelling, cp. *Ph.*120 n., and *ib.* p. 234.
 
 ## 387
-**πεύθου**: Nauck writes **πυθοῦ**. But the change is as needless here as in *O. T.*604.Where the sense is, ‘*inquire*,’ the pres. is right: cp. *O. C.*993πότερα πυνθάνοἰ ἂν εἰ | πατήρ σ' ὁ καίνων: *ib.* 1155 ὡς μὴ εἰδότ' αὐτὸν μηδὲν ὧν σὺ πυνθάνει. On the other hand in *O. T.*332 f. τί ταῦτʼ | ἄλλως ἐλέγχεις*;* οὐ γὰρ ἂν πύθοιό μου, the aor. is required, as the sense is, ‘*learn.*’ Cp. above O. T., 66 O. T., 91; and below O. T., 458.
+**πεύθου**: Nauck writes **πυθοῦ**. But the change is as needless here as in *O. T.*604.Where the sense is, ‘*inquire*,’ the pres. is right: cp. *O. C.*993πότερα πυνθάνοιʼ ἂν εἰ | πατήρ σ' ὁ καίνων: *ib.* 1155 ὡς μὴ εἰδότ' αὐτὸν μηδὲν ὧν σὺ πυνθάνει. On the other hand in *O. T.*332 f. τί ταῦτʼ | ἄλλως ἐλέγχεις*;* οὐ γὰρ ἂν πύθοιό μου, the aor. is required, as the sense is, ‘*learn.*’ Cp. above O. T., 66 O. T., 91; and below O. T., 458.
 
 **σαφῆ**=ἀληθῆ: *El.*1223ἔκμαθ' εἰ σαφῆ λέγω.—*πρὸς βίαν*, i.e., with stringent questioning (such as the ἄγγελος himself applies El., 402 ff.). The phrase is rare, except where physical force is meant; cp., however, *O. C.*1185οὐ γάρ σε, θάρσει, πρὸς βίαν παρασπάσει | γνώμης.—*κρίνειν* =ἀνακρίνειν: 195 n.
 
@@ -2493,7 +2493,7 @@ It has long been the general belief that the words **νέσου** (or **νέσσ
 
 Here I may briefly state my own conclusions. (1) **μελαγχαίτα**, ‘the blackhaired one,’ could probably stand without a substantive, or proper name,—esp. as Κενταύρου has occurred not far back; though it would be somewhat harsh.
 
-(2) Comparing v. 830 with v. 840, we see that the words ἔχοι θανὼν λατρείαν in 830 correspond metrically with -α^ κέντρ' ἐπιζέσαντα. The words ἔτι ποτ' ἔτ' ἐπίπονον in 830 ought therefore to correspond with what stands between αἰκίζει in 839 and the α^ before κέντῤ in 840: viz., acc. to the MSS., νέσου (or νέσσου) θ' ὕπο φοίνια δολόμυθ-.
+(2) Comparing v. 830 with v. 840, we see that the words ἔχοι θανὼν λατρείαν in 830 correspond metrically with -α^ κέντρ' ἐπιζέσαντα. The words ἔτι ποτ' ἔτ' ἐπίπονον in 830 ought therefore to correspond with what stands between αἰκίζει in 839 and the α^ before κέντρʼ in 840: viz., acc. to the MSS., νέσου (or νέσσου) θ' ὕπο φοίνια δολόμυθ-.
 
 (3) Now, if **νέσου θ' ὕπο** were ejected, this correspondence would be obtained by reading **ὑπόφονα** (instead of φοίνια) **δολόμυθα**. The form ὑπόφονος, though not extant, is correct (cp. ἀπόφονος in Eur. *Or.*163Eur. Or., 192). The κέντρα would be ὑπόφονα as being ‘secretly fraught with death.’ The hiatus in αἰκίζει | ὑπόφονα is not unexampled, though it has not the usual excuse of a slight pause: cp. 833 f., 846 f.; *Ph.*832 n. Such a hiatus has been assumed here by Hermann and others. It might be avoided, however, by reading **φόνια δολιόμυθα**. The forms δολόμυθος and δολιόμυθος are equally correct: cp. δολόμητις and δολιόμητις, δολόφρων and δολιόφρων. In this case, the origin of **ὕπο** would remain obscure.
 
@@ -2511,7 +2511,7 @@ Here I may briefly state my own conclusions. (1) **μελαγχαίτα**, ‘th
 ## 844
 **τὰ μὲν αὐτὰ προσέβαλε**: the *remedial measures* were her own; their *results*, due to Nessus, were not foreseen by her. προσέβαλε=‘applied,’ as a remedy to a disease: cp. 580. Others explain, ‘brought upon herself’ (*sc.* ἑαυτῇ): but this would rèquire αὑτᾷ in place of αὐτά.
 
-The MS. reading, τὰ μὲν *οὔ τι* προσέβαλε, is explained to mean, ‘part she did not *comprehend*’ (schol. οὐκ ἔγνω, οὐ συνῆκεν): i.e., she had, indeed, a secret purpose, but she did not know the deadly nature of the unguent. To this there are two objections. (1) The supposed sense of προσέβαλε is unexampled: cp. 580 n. (2) The proper antithesis is lost; for τὰ ἀπ' ἀλλόθρου γνώμας μολόν<*>ʼ <\*>ought to be opposed to her own designs or acts; but those things which she ‘did not comprehend’ were just those which ‘came from the alien will.’
+The MS. reading, τὰ μὲν *οὔ τι* προσέβαλε, is explained to mean, ‘part she did not *comprehend*’ (schol. οὐκ ἔγνω, οὐ συνῆκεν): i.e., she had, indeed, a secret purpose, but she did not know the deadly nature of the unguent. To this there are two objections. (1) The supposed sense of προσέβαλε is unexampled: cp. 580 n. (2) The proper antithesis is lost; for τὰ ἀπ' ἀλλόθρου γνώμας μολόν<*>) <\*>ought to be opposed to her own designs or acts; but those things which she ‘did not comprehend’ were just those which ‘came from the alien will.’
 
 **ἀλλόθρου** here merely=ἀλλοτρίας: cp. *Ph.*540 n.
 
@@ -2549,7 +2549,7 @@ The MS. reading, τὰ μὲν *οὔ τι* προσέβαλε, is explained to 
 
 The doubt as to the reading here is confined to the words between **πόποι** and **ἐπέμολε**. The traditional text is, οἷον ἀναρσίων | οὔπω ἀγακλειτὸν Ἡρακλέους. The *v. l.* Ἡρακλέα, found in a few of the later MSS., was apparently prompted by ἀγακλειτόν. In the corresponding vv. of the strophe (841 ff.), the MS. text is, μεγάλαν προσορῶσα δόμοις βλάβαν | νέων ἀϊσσόντων γάμων, τὰ μὲν οὔ τι: where the only doubt affecting metre is between δόμοις and δόμοισι.
 
-It seems almost certain that **Ἡρακλέους** was a gloss, and that τὰ μὲν οὔ τι in the strophe answered metrically to ἀγακλειτόν here. The proposed emendations of this passage are classified in the Appendix. Those which eject Ἡρακλέους follow one of two methods. (1) To read **δόμοις**, not δόμοισι, in 842: to insert a long syllable, beginning with a vowel (as ἐξ), before ἀναρσίων: and to supply something, equal to ˘¯ (as ποτ' ἄνδῤ), between οὔπω and ἀγακλειτόν. (2) To read **δόμοισι** in 842: and to make such an addition to οὔπω as shall metrically balance ἀϊσσόντων γάμων. On this plan, I suggest **<ὕπʼ> οὔπω <τοῦδε σῶμʼ> ἀγακλειτόν**. The prep. goes with ἀναρσίων, which, without a prep., would here be somewhat harsh (as=‘from his foes’). Ἡρακλέους would have been a gloss on το<*>ε. Sophocles is fond of the periphrasis with σῶμα, which would be fitting here: cp. 1194, 1210: *O. C.*355: *El.*1233.
+It seems almost certain that **Ἡρακλέους** was a gloss, and that τὰ μὲν οὔ τι in the strophe answered metrically to ἀγακλειτόν here. The proposed emendations of this passage are classified in the Appendix. Those which eject Ἡρακλέους follow one of two methods. (1) To read **δόμοις**, not δόμοισι, in 842: to insert a long syllable, beginning with a vowel (as ἐξ), before ἀναρσίων: and to supply something, equal to ˘¯ (as ποτ' ἄνδρʼ), between οὔπω and ἀγακλειτόν. (2) To read **δόμοισι** in 842: and to make such an addition to οὔπω as shall metrically balance ἀϊσσόντων γάμων. On this plan, I suggest **<ὕπʼ> οὔπω <τοῦδε σῶμʼ> ἀγακλειτόν**. The prep. goes with ἀναρσίων, which, without a prep., would here be somewhat harsh (as=‘from his foes’). Ἡρακλέους would have been a gloss on το<*>ε. Sophocles is fond of the periphrasis with σῶμα, which would be fitting here: cp. 1194, 1210: *O. C.*355: *El.*1233.
 
 **οἰκτίσαι**, epexegetic, ‘for us to pity’ (rather than, ‘for him to lament’): cp. *O. C.*144οὐ πάνυ μοίρας εὐδαιμονίσαι πρώτης (*sc.* εἰμί).
 
@@ -2723,7 +2723,7 @@ I believe that ΑΠΑΙΔΑΣ arose from ΕΠΑΛΛΟΙΣ when the E had been ac
 **θάλαμον**, the nuptial chamber: *Ant.*804 n.
 
 ## 914
-**λαθραῖον ὄμμʼ**, acc. of respect: **ἐπεσκιασμένη**, ‘overshadowed,’ i.e., ‘shrouded from view.’ Thus the phrase means strictly, ‘shrouded as to (or in) my secret observation’: for ὄμμα here implies the act of observing. λαθραῖον expresses the result of ἐπεσκιασμένη. She may have watched from behind a curtain, or at a partly open door.—Not, ‘with eyes shaded by my hand’ ( *O. C.*1650ὀμμάτων ἐπίσκιον | χεῖῤ).
+**λαθραῖον ὄμμʼ**, acc. of respect: **ἐπεσκιασμένη**, ‘overshadowed,’ i.e., ‘shrouded from view.’ Thus the phrase means strictly, ‘shrouded as to (or in) my secret observation’: for ὄμμα here implies the act of observing. λαθραῖον expresses the result of ἐπεσκιασμένη. She may have watched from behind a curtain, or at a partly open door.—Not, ‘with eyes shaded by my hand’ ( *O. C.*1650ὀμμάτων ἐπίσκιον | χεῖρʼ).
 
 ## 916
 **βάλλουσαν** with dat., in the sense of ἐμ- or ἐπιβάλλουσαν ( *Ph.*67 n.).— **στρωτὰ** goes closely with the partic.,— spreading them as coverings, στώματα.— *φάρη*: the Homeric φᾶρος is not thus used; but cp. *Od.*4. 297 ff., where the bed (δέμνια) is spread with ῥήγεα (‘blankets’), τάπητες (‘rugs’), and woollen χλαῖναι as coverlets.
@@ -2761,7 +2761,7 @@ I believe that ΑΠΑΙΔΑΣ arose from ΕΠΑΛΛΟΙΣ when the E had been ac
 **ὑφ' ἧπαρ καὶ φρένας**, lit., ‘to the liver and midriff.’ But it was her left side that she bared (926), and the fatal blow must have been nearer to the heart than to the liver. The phrase should therefore be understood in a general sense, as a poetical way of saying, ‘home to the very centre of life.’ It may have been suggested by *Od.*9. 301 οὐτάμεναι πρὸς στῆθος, ὅθι φρένες ἧπαρ ἔχουσιν, ‘stab him in the breast, where the midriff holds the liver.’ Cp. *Ant.*1315παίσασ' ὑφ' ἧπαρ αὐτόχειρ αὑτήν.
 
 ## 933
-**τοὔργον … ὡς ἐφάψειεν**, that he had ‘fastened,’ ‘bound’ the deed ‘upon her,’ as a burden or doom. Cp. Pind. *O.*9. 64μὴ καθέλοι νιν α<*>ν πότμον ἐφάψαις|ὀρφανὸν γενεᾶς, ‘having laid on him the doom of childlessness.’ *Il.*2. 15Τρώεσσι δὲ κήδἐ ἐφῆπται, ‘have been imposed’ on them.
+**τοὔργον … ὡς ἐφάψειεν**, that he had ‘fastened,’ ‘bound’ the deed ‘upon her,’ as a burden or doom. Cp. Pind. *O.*9. 64μὴ καθέλοι νιν α<*>ν πότμον ἐφάψαις|ὀρφανὸν γενεᾶς, ‘having laid on him the doom of childlessness.’ *Il.*2. 15Τρώεσσι δὲ κήδεʼ ἐφῆπται, ‘have been imposed’ on them.
 
 Others explain: (1) ‘that he had *kindled* the deed.’ But ἐφάπτειν never has the sense of ὑφάπτειν. In Eur. *Bacch.*778 our only MS. for that part of the play has, indeed, ἤδη τόδ' ἐγγὺς ὥστε πῦρ ἐφάπτεται | ὕβρισμα: but the true ὑφάπτεται is attested by the *Christus Patiens* 2227. (2) ‘That *she* had *made fast* the deed,’—i.e. done the irrevocable deed. But **κατ' ὀργὴν** must refer to the anger of Hyllus (734 ff.).
 
@@ -2798,7 +2798,7 @@ One blow has fallen, and another is impending. Heracles, in his dying agonies, i
 ## 947
 **πότερα πρότερον**: these words, as Schneidewin remarks, are often found in juxtaposition; e.g., Ar. *Eccl.*1082ποτέρας προτέρας...ἀπαλλαγῶ*;* —*δύσκριτά* (ἐστι), πότεραπρότερον *ἐπιστένω* (delib. subjunct.), ποτέρα μέλεα περαιτέρω (ἐστί). For δύσκριτα, instead of δύσκριτον, cp. 64 n. This is better than to place a note of interrogation after ἐπιστένω, and another after περαιτέρω.
 
-**μέλεα**: the MS. **τέλεα** would mean, ‘which woe is the more complete’; but this is less fitting here, since the second calamity is still prospective (951): nor is τέλεἀ περαιτέρω a natural phrase. We cannot well take it adverbially (‘which woe I should mourn more completely’).
+**μέλεα**: the MS. **τέλεα** would mean, ‘which woe is the more complete’; but this is less fitting here, since the second calamity is still prospective (951): nor is τέλεαʼ περαιτέρω a natural phrase. We cannot well take it adverbially (‘which woe I should mourn more completely’).
 
 ## 951
 **τάδε** is governed by **μένομεν**: **ἐπ' ἐλπίσιν**=‘with forebodings’: cp. Xen. *Mem.*2. 1. 18ὁ μὲν ἑκουσίως ταλαιπ<*>ρῶν ἐπʼ ἀγαθῇ ἐλπίδι πονῶν εὐφραίνεται.—Hermann's **μελόμενʼ** (*sc.* ἐστί)= ‘are cares to us’: Soph. *El.*1436τἀνθάδ' ἂν μέλοιτ' ἐμοί.
@@ -2982,7 +2982,7 @@ The lyric structure is complex, but not obscure. The passage falls into two main
 
 **ἔγχος** =ξίφος: cp. 1032, *Ai.*95 etc.
 
-*1016 f.* The MS. reading, ἀπαράξαι κρᾶτα *βίου*, is explained as, ‘to sever the head from life,’—i.e., to destroy life by striking the head from the body. This extraordinary phrase is surely not Greek. It has been supported by a corrupt verse of Eur. , *Helen.* 302, σμικρὸν (σμικρὸς Badham) δ' ὁ καιρὸς ἄρτ' ἀπαλλάξαι βίου: where Keil reads ἄρθῤ, Nauck κρᾶτʼ, and Hermann σάρκʼ. But, whatever be read there, ἀπαλλάξαι βίου is widely different from ἀπαράξαι βίου. I hold, with Paley, that Wakefield's **βίᾳ** ought to be substituted for βίου, which might easily have arisen from **τοῦ στυγεροῦ**.—Cp. *Il.*14. 497ἀπήραξεν δὲ χαμᾶζε | αὐτῇ σὺν πήληκι κάρη.
+*1016 f.* The MS. reading, ἀπαράξαι κρᾶτα *βίου*, is explained as, ‘to sever the head from life,’—i.e., to destroy life by striking the head from the body. This extraordinary phrase is surely not Greek. It has been supported by a corrupt verse of Eur. , *Helen.* 302, σμικρὸν (σμικρὸς Badham) δ' ὁ καιρὸς ἄρτ' ἀπαλλάξαι βίου: where Keil reads ἄρθρʼ, Nauck κρᾶτʼ, and Hermann σάρκʼ. But, whatever be read there, ἀπαλλάξαι βίου is widely different from ἀπαράξαι βίου. I hold, with Paley, that Wakefield's **βίᾳ** ought to be substituted for βίου, which might easily have arisen from **τοῦ στυγεροῦ**.—Cp. *Il.*14. 497ἀπήραξεν δὲ χαμᾶζε | αὐτῇ σὺν πήληκι κάρη.
 
 ## 1018
 **τοὔργον τόδε**, the task of lifting the sufferer (who is lying προπετής, 976) into a position of greater ease (1025 πρόσλαβε κουφίσας).
@@ -3022,7 +3022,7 @@ In the Appendix are given the proposed explanations of the vulgate, and various 
 **Παλλάς**. Athena was always a guardian goddess to her half-brother, Heracles; of whom she says in *Il.*8. 363 ff., τειρόμενον σώεσκον ὑπ' Εὐρυσθῆος ἀέθλων· | ἦ τοι ὁ μὲν κλαίεσκε πρὸς οὐρανόν, αὐτὰρ ἐμὲ Ζεὺς | τῷ ἐπαλεξήσουσαν ἀπ' οὐρανόθεν προΐαλλεν. She was constantly represented in Greek art as present with Heracles during his labours, or as honouring and comforting him in seasons of repose. Sometimes she gives him a flower or a wreath; sometimes a refreshing draught. And, after the close of his mortal toils, it is Athena Nikè who escorts him to Olympus. (Cp. n. on *Ph.*728.) The art-literature of the subject will be found in Roscher, *Lex.*, p. 2215. Attic black-figure vases often illustrate this relationship,—one which was the more welcome to Athenians because Heracles was essentially a Dorian hero.
 
 ## 1032
-**φύτοῤ**, Dindorf's correction of φύσαντʼ, gives an incomparably better verse than Fröhlich's **τὸν φύσαντ' οἴκτιῤ**. It is very improbable that **οἴκτιῤ** would have been corrupted into the aor. partic.; but a rare word, such as **φύτοῤ**, would easily have become **φύσαντʼ**. Dindorf is clearly right in holding that the ν of φύτωρ would be short, though metrical convenience might sometimes cause it to be lengthened in such compounds as ἀμπελοφύτορα (*Anth.* 6. 44), which could not otherwise come into a hexameter. He might have added that the verse, ἀθάνατοι δὲ Πτέρωτα, διὰ πτεροφύτορ' ἀνάγκην, is prefaced by Plato with the remark that it is οὐ σφόδρα τι ἔμμετρον,— a comment which, as W. H. Thompson observes, may apply to the υ— no less than to the δε^ (*Phaedr.* p. 252 C). Hesychius has φύτορες· γεννήτορες. For the spelling οἰκτίρας, cp. 464 n.
+**φύτορʼ**, Dindorf's correction of φύσαντʼ, gives an incomparably better verse than Fröhlich's **τὸν φύσαντ' οἴκτιρʼ**. It is very improbable that **οἴκτιρʼ** would have been corrupted into the aor. partic.; but a rare word, such as **φύτορʼ**, would easily have become **φύσαντʼ**. Dindorf is clearly right in holding that the ν of φύτωρ would be short, though metrical convenience might sometimes cause it to be lengthened in such compounds as ἀμπελοφύτορα (*Anth.* 6. 44), which could not otherwise come into a hexameter. He might have added that the verse, ἀθάνατοι δὲ Πτέρωτα, διὰ πτεροφύτορ' ἀνάγκην, is prefaced by Plato with the remark that it is οὐ σφόδρα τι ἔμμετρον,— a comment which, as W. H. Thompson observes, may apply to the υ— no less than to the δε^ (*Phaedr.* p. 252 C). Hesychius has φύτορες· γεννήτορες. For the spelling οἰκτίρας, cp. 464 n.
 
 **ἀνεπίφθονον**: schol. ἀνεμέσητον, ἐφ ῳ οὐδείς σε μέμψεται ὡς πατροκτόνον.
 
@@ -3325,7 +3325,7 @@ With the conjecture **τοιοῦτον** (masc.), the sense would be, ‘not in
 **κατῆρξας**: cp. Plat. *Prot.* 351E κατάρχεις τοῦ λόγου. —ᾗ: cp. 553 f.
 
 ## 1136
-**ἅπαν τὸ χρῆμʼ**, ‘this is the sum of the matter.’ For this use of **τὸ χρῆμα**, as meaning ‘the state of the case,’ like τὸ πρᾶγμα in *Ph.*789, cp. *Vesp.* 799 ὅρα τὸ χρῆμα· τὰ λόγἰ ὡς περαίνεται. The phrase is best taken as a nom., with τόδε ἐστίν understood: cp. *O. T.*1234 f.: Eur. fr. 255 ἁπλοῦς ὁ μῦθος, μὴ λέγ' εὖ. Eur. Itmight, however, be an acc. in appos. with the sentence.
+**ἅπαν τὸ χρῆμʼ**, ‘this is the sum of the matter.’ For this use of **τὸ χρῆμα**, as meaning ‘the state of the case,’ like τὸ πρᾶγμα in *Ph.*789, cp. *Vesp.* 799 ὅρα τὸ χρῆμα· τὰ λόγιʼ ὡς περαίνεται. The phrase is best taken as a nom., with τόδε ἐστίν understood: cp. *O. T.*1234 f.: Eur. fr. 255 ἁπλοῦς ὁ μῦθος, μὴ λέγ' εὖ. Eur. Itmight, however, be an acc. in appos. with the sentence.
 
 **μωμένη**: cp. *O. C.*836 n.
 
@@ -3644,7 +3644,7 @@ Paley would get rid of the irregularity by making **ὡς** exclamatory (‘how!
 
 **νεμεῖν … μοῖραν**: μοῖρα is the share of respect due to a person: cp. Plat. *Crat.* 398C μεγάλην μοῖραν καὶ τιμὴν ἔχει: and Soph. *O. C.*277Append. For νεμεῖν, cp. 57 νέμοι...ὤραν.
 
-**θεῶν ἀρὰ** (like θεῶν Ἐρινυες, *Ant.*1075), —the vengeance sent by the gods, in answer to the father's imprecation (1202). In this objective sense, the Curse is itself the agent of retribution: cp. *O. T.*418δεινόπους ἀρά: Aesch. *Theb.*70Ἀρά τʼ, Ἐρινὺς πατρὸς ἡ μεγασθενής: and the Eumenides call themselves Ἀραί ( Aesch. *Eum.*417). Sometimes, again, the Ἀρά is distinguished from the power which it calls into action: Soph. *El.*111πότνἰ Ἀρά, | σεμναί τε θεῶν παῖδες Ἐρινύες. A transition from the latter idea to the former may be seen in Soph. *O. C.*1375 f., where Oed. summons his own imprecations to be his ξυμμάχους.
+**θεῶν ἀρὰ** (like θεῶν Ἐρινυες, *Ant.*1075), —the vengeance sent by the gods, in answer to the father's imprecation (1202). In this objective sense, the Curse is itself the agent of retribution: cp. *O. T.*418δεινόπους ἀρά: Aesch. *Theb.*70Ἀρά τʼ, Ἐρινὺς πατρὸς ἡ μεγασθενής: and the Eumenides call themselves Ἀραί ( Aesch. *Eum.*417). Sometimes, again, the Ἀρά is distinguished from the power which it calls into action: Soph. *El.*111πότνιʼ Ἀρά, | σεμναί τε θεῶν παῖδες Ἐρινύες. A transition from the latter idea to the former may be seen in Soph. *O. C.*1375 f., where Oed. summons his own imprecations to be his ξυμμάχους.
 
 ## 1241
 **ὡς ἔοικας** (instead of ὡς ἔοικεν), as in *El.*516: so *Helen.* 497 ὡς εἴξασιν.—*φράσεις*, wilt ‘show,’ ‘make it clear’ (by acts, or words, or both). After such words—Hyllus means—some violent outburst of madness may be expected. φράζειν, ‘to declare,’ does not necessarily imply speech: Her.4. 113φωνῆσαι μὲν οὐκ εἶχε, οὐ γὰρ συνίεσαν ἀλλήλων, τῇ δὲ χειρὶ ἔφραζε. Aesch. *Ag.*1061σὺ δ' ἀντὶ φωνῆς φράζε καρβάνῳ χερί. There is a shade of mournful irony in φράσεις (‘make it plain enough’), which is lost in the conjecture **φανεῖς**.—For the double -εις, cp. Soph. *Ant.*682ὧν λέγεις δοκεῖς πέρι.

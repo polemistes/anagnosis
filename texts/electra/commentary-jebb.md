@@ -343,7 +343,7 @@ Verses 86—102 form a σύστημα,=vv. 103—120 (ἀντισύστημα). 
 
 **γῆς ἰσόμοιρ' ἀήρ**, ‘air coextensive with earth,’—having a μοῖρα, a domain in space, equal to that of earth. Cp. Hamlet's phrase, ‘this goodly frame, the earth...this most excellent canopy, the air’ (2. 2. 311). Hes. *Th.* 126 Γαῖα δέ τοι πρῶτον μὲν ἐγείνατο ἶσον ἑαυτῇ | Οὐρανὸν ἀστερόενθʼ, ἵνα μιν περὶ πάντα καλύπτοι . A genitive after ἰσόμοιρος usu. denotes that *in which* persons share alike (as Isae. or. 6 § 25 ἰσομοίρους...τῶν πατρῴων). Here it denotes the partner. Cp. *De Mund.* 6. 18 (p. 399 *a* 8) ἥλιος...καὶ οἱ τούτου [not τούτῳ] ἰσόδρομοι, ὅ τε Φωσφόρος καὶ ὁ Ἑρμῆς. So adjectives of similarity or equivalence can take a gen. (as προσφερής Eur. *H. F.* 131, ἀντίπαλος Pind. *O.* 8. 71). Such genitives are analogous to those which follow words expressing community or participation, as κοινός, συγγενής, etc.—Others, taking ἀήρ as that which is intermediate between γῆ and αἰθήρ, explain, ‘air, which has the same share in earth (as it has in αἰθήρ),’ —comparing Ar. *Av.* 187ἐν μέσῳ δήπουθεν ἀήρ ἐστι γῆς (where καὶ οὐρανοῦ is to be supplied). This is very forced.
 
-**ἰσόμοιῤ** is a necessary correction of **ἰσόμοιρος** (cr. n.), which would require α^ in ἀήρ,—a quantity found only in pseudoPhocylides 108, and an epigram quoted by Eustathius p. 17. 46.
+**ἰσόμοιρʼ** is a necessary correction of **ἰσόμοιρος** (cr. n.), which would require α^ in ἀήρ,—a quantity found only in pseudoPhocylides 108, and an epigram quoted by Eustathius p. 17. 46.
 
 ## 88
 **πολλὰς μὲν … ᾔσθου**. Each of these two verses is an anapaestic dimeter lacking one long syllable (‘catalectic’), i.e., a ‘paroemiac.’ Two successive paroemiacs were admissible only in anapaests of this ‘free’ or lyric character (n. on 86—120). These paroemiacs are purely spondaic; as ‘free’ anapaests also admitted the converse license, of resolving the long syllables, except the last, of the paroemiac ( *I. T.* 130 πόδα παρθένιον ὅσιον ὁσίας). Synesius, the bishop of Ptolemais, composed his fifth hymn wholly in these spondaic paroemiacs, a weighty and solemn measure; Ὑμνώμεν κοῦρον κούρας, | νύμφας οὐ νυμφευθείσας, κ.τ.λ. See W. Christ, *Metrik* § 293 (2nd ed.).
@@ -404,7 +404,7 @@ Others read, ἔστ' ἂν λεύσσω παμφεγγεῖς | ῥιπάς, λ
 ## 107
 **μὴ οὐ**, after οὐ λήξω: *O. T.* 283 n.
 
-**τεκνολέτειῤ**, ‘*slayer* of her child’ (Itys, 148): as in *Suppl.* 60 ff. ‘the piteous bride of Tereus’ (Procne) sings of ‘her child's fate, and how he perished by her own hand.’ Cp. [Eur. ] *Rhes.* 550 παιδολέτωρ μελοποιὸς ἀηδονίς. Apollodorus follows this version, acc. to which Procne, the mother and slayer of Itys, becomes a nightingale, while her sister Philomela becomes a swallow (3. 14. 8). It may be doubted whether τεκνολέτειρα could mean merely, ‘having *lost* her child.’
+**τεκνολέτειρʼ**, ‘*slayer* of her child’ (Itys, 148): as in *Suppl.* 60 ff. ‘the piteous bride of Tereus’ (Procne) sings of ‘her child's fate, and how he perished by her own hand.’ Cp. [Eur. ] *Rhes.* 550 παιδολέτωρ μελοποιὸς ἀηδονίς. Apollodorus follows this version, acc. to which Procne, the mother and slayer of Itys, becomes a nightingale, while her sister Philomela becomes a swallow (3. 14. 8). It may be doubted whether τεκνολέτειρα could mean merely, ‘having *lost* her child.’
 
 ## 108
 **ἐπὶ κωκυτῷ**: the prep. is not merely=‘with,’ but implies, ‘with *continual* wailing’: see n. on *Ant.* 759ἐπὶ ψόγοισι.
@@ -418,7 +418,7 @@ Electra invokes, (1) the house of Hades and his bride Persephone, in which the s
 **Ἀΐδου** gives a finer rhythm than Αιδου here. In 137 Ἀΐδα has a similar recommendation; and in 833 Ἀΐδαν is required by metre, as Ἀΐδᾳ is in *Ph.* 861.
 
 ## 111
-**ὦ χθόνἰ Ἑρμῆ**: *Ai.* 832πομπαῖον Ἑρμῆν χθόνιον: cp. *O. C.* 1548Ἑ. ὁ πομπός (n.).
+**ὦ χθόνιʼ Ἑρμῆ**: *Ai.* 832πομπαῖον Ἑρμῆν χθόνιον: cp. *O. C.* 1548Ἑ. ὁ πομπός (n.).
 
 **Ἀρά**. So in *O. C.* 1375 f. Oedipus invokes those ἀραί which he had uttered, calling upon them to be his allies (ξυμμάχους) against his sons; and afterwards separately invokes the Erinyes (1391). Sometimes, however, the Curse is itself called an Erinys ( Aesch. *Th.* 70Ἀρά τʼ, Ἐρινὺς πατρὸς ἡ μεγασθενής): or Ἀραί is another title for the Erinyes collectively ( Aesch. *Eum.* 417).
 
@@ -763,7 +763,7 @@ The sense then is:—‘There was a voice of lamentation at the return from Troy
 
 **ἐξ οἵων**, ‘by what kind of conduct.’ (Not, ‘from what a position’ of possible comfort,—like that of her more prudent sisters.)
 
-**τὰ παρόντʼ**, ‘in respect to present circumstances,’—‘as matters stand’; i.e., already they are bad enough (217, 235). Cp. Thuc. 4. 17ἀεὶ γὰρ τοῦ πλέονος ἐλπίδι ὀρέγονται διὰ τὸ καὶ τὰ παρόντα ἀδοκήτως εὐτυχῆσαι: where, as here, τὰ παρόντα is acc. of respect, not subj. of the inf. Groundless objections to τὰ παρόν<*>ʼ have prompted conjectures (cr. n.).
+**τὰ παρόντʼ**, ‘in respect to present circumstances,’—‘as matters stand’; i.e., already they are bad enough (217, 235). Cp. Thuc. 4. 17ἀεὶ γὰρ τοῦ πλέονος ἐλπίδι ὀρέγονται διὰ τὸ καὶ τὰ παρόντα ἀδοκήτως εὐτυχῆσαι: where, as here, τὰ παρόντα is acc. of respect, not subj. of the inf. Groundless objections to τὰ παρόν<*>) have prompted conjectures (cr. n.).
 
 **οἰκείας**, ‘caused by thyself’: *Ai.* 260οἰκεῖα πάθη, | μηδενὸς ἄλλου παραπράξαντος.
 
@@ -1424,7 +1424,7 @@ Nauck reads **κοὔ**, the conjecture of Blaydes. But **καί** is right. She
 **ἀλλὰ νῦν**, ‘now at least,’—though not sooner. Cp. *O. C.* 1276πειράσατ' ἀλλ' ὑμεῖς γε (n.). She hails the dream as a sign from the nether world that vengeance is imminent, and invokes the gods of her house to co-operate with the χθόνιοι.
 
 ## 413
-**εἴποιμ' ἂν τότε**. When ἄν is the second syllable of the 5th foot, it is usually preceded by an elision; as in Eur. *Andr.* 935, Eur. Andr. 1184; Eur. *Phoen.* 1619, Eur. Phoen. 1626; Eur. *Heracl.* 456; Eur. fr. 362 κἀποσώσαἰ ἂν πατρός (Pors. *Suppl. Praefat.* p. xxxiv).
+**εἴποιμ' ἂν τότε**. When ἄν is the second syllable of the 5th foot, it is usually preceded by an elision; as in Eur. *Andr.* 935, Eur. Andr. 1184; Eur. *Phoen.* 1619, Eur. Phoen. 1626; Eur. *Heracl.* 456; Eur. fr. 362 κἀποσώσαιʼ ἂν πατρός (Pors. *Suppl. Praefat.* p. xxxiv).
 
 ## 414
 **ἐπὶ σμικρὸν**, lit. ‘to a small extent,’ like ἐπὶ πολύ, ἐπὶ μέγα, ἐπὶ μακρόν, etc. Cp. Plat. *Soph.* 254B κοινωνεῖν..τὰ μὲν ἐπ' ὀλίγον, τὰ δ' ἐπὶ πολλά. G. Wolff's reading, **ἐπὶ σμικρῶν**, could mean, ‘in a few words,’ but is less natural here.
@@ -1457,7 +1457,7 @@ In choosing the *sceptre* of Agamemnon as the stock from which the wondrous grow
 ## 424
 **του παρόντος** has better MS. authority than τοῦ παρόντος, and is preferred by most editors; but the choice is nicely balanced. (1) **τοῦ** gives the simplest construction for **παρόντος**, and the better rhythm. But it is also somewhat strange, as implying that the presence of one person, and no more, was to be expected on such an occasion. In 927, τοῦ πλησίον παρόντος ἡνίκ' ὤλλυτο, the reference is definitely to the paedagogus. (2) **του** is strongly recommended by Eur. *Med.* 67ἤκουσά του λέγοντος, οὐ δοκῶν κλύειν. The constr. then is τοιαῦτα ἐξηγουμένου ἔκλυόν του, παρόντος ἡνίκα ἡλίῳ δείκνυσι τὸ ὄναρ: and παρόντος is properly predicative,=‘inasmuch as he was present’ (and therefore able to tell). On the whole, I now prefer του. Hartung, to show the constr., points thus, τοιαῦτά του, παρόντος ἡνίχ' κ.τ.λ.: needlessly, I think.
 
-**Ἡλίῳ δείκνυσι τοὖναρ**. Cp. *I. T.* 42 ἃ καινὰ δ' ἥκει νὺξ φέρουσα φάσματα, | λέξω πρὸς αἰθέῤ, εἴ τι δὴ τόδ' ἔστ' ἄκος. Schol.: τοῖς γὰρ παλαιοῖς ἔθος ἦν ἀποτροπιαζομένους (by way of expiation) τῷ ἡλίῳ διηγεῖσθαι τὰ ὀνείρατα. The popular attributes ofἭλιος suggest more than one reason for such a custom. 1. He is the god of light and purity, ἁγνὸς θεός ( Pind. *O.* 7. 60), who dispels the terrors of darkness. 2. As the all-seeing god, πανόπτης, he is especially the detector of guilt ( Hom. *Od.* 8. 270), able to reveal the lurking danger which an evil dream might foreshadow. 3. And, generally, he is a saving power (σωτήρ, Paus. 8. 31. 7): cp. *Suppl.* 213 καλοῦμεν αὐγὰς Ἡλίου σωτηρίους.
+**Ἡλίῳ δείκνυσι τοὖναρ**. Cp. *I. T.* 42 ἃ καινὰ δ' ἥκει νὺξ φέρουσα φάσματα, | λέξω πρὸς αἰθέρʼ, εἴ τι δὴ τόδ' ἔστ' ἄκος. Schol.: τοῖς γὰρ παλαιοῖς ἔθος ἦν ἀποτροπιαζομένους (by way of expiation) τῷ ἡλίῳ διηγεῖσθαι τὰ ὀνείρατα. The popular attributes ofἭλιος suggest more than one reason for such a custom. 1. He is the god of light and purity, ἁγνὸς θεός ( Pind. *O.* 7. 60), who dispels the terrors of darkness. 2. As the all-seeing god, πανόπτης, he is especially the detector of guilt ( Hom. *Od.* 8. 270), able to reveal the lurking danger which an evil dream might foreshadow. 3. And, generally, he is a saving power (σωτήρ, Paus. 8. 31. 7): cp. *Suppl.* 213 καλοῦμεν αὐγὰς Ἡλίου σωτηρίους.
 
 ## 426
 **οὐ κάτοιδα, πλὴν** κ.τ.λ.: cp. 410 n.
@@ -1509,7 +1509,7 @@ The current ascription of the verses to Electra was doubtless prompted by verse 
 
 The conjecture **ἔστ' ἂν** for **ὅταν** is unnecessary, since **σῳζέσθω**=σῳζόμενα <*>.
 
-**κειμήλἰ**: cp. *Il.* 23. 618(of a cup), τῆ νῦν, καὶ σοὶ τοῦτο, γέρον, κειμήλιον ἔστω.
+**κειμήλιʼ**: cp. *Il.* 23. 618(of a cup), τῆ νῦν, καὶ σοὶ τοῦτο, γέρον, κειμήλιον ἔστω.
 
 ## 439
 **ἀρχὴν**, *omnino*, preceding the negative, as in *Ant.* 92(n.), *Ph.* 1239.— **τλημονεστάτη**: cp. 275.
@@ -2173,7 +2173,7 @@ The *v. l.* **παρεῖσα** (cr. n.), though doubtless a mere conjecture, wa
 
 Jacobs Fr.(ap. Wunder) understood, ‘*two* dreams,’—as if Clyt.'s vision consisted of two parts,—the return of Agamemnon, and the growth from the sceptre (417—423). This seems forced. Still less can we assume that there was some second dream which Clyt. did not relate even to the Sun-god (425).
 
-**Λύκεἰ ἄναξ**: Iocasta, too, appeals to Apollo in this quality (*O.T.* 919). Both as a god of light, and as a destroyer of foes, the Λύκειος is fitly invoked here: see above on 6.
+**Λύκειʼ ἄναξ**: Iocasta, too, appeals to Apollo in this quality (*O.T.* 919). Both as a god of light, and as a destroyer of foes, the Λύκειος is fitly invoked here: see above on 6.
 
 ## 646
 **ἐσθλά … ἐχθρά**. Since the sceptre which put forth the luxuriant growth was that which *Aegisthus* now carries (420 f.), Clytaemnestra might well regard the dream as so far susceptible of a good meaning. On the other hand, the apparition of Agamemnon (ὁ πανώλης, 544) must needs disquiet her. And so the import of the vision as a whole seemed doubtful.
@@ -2668,7 +2668,7 @@ Nemesis is the goddess who requires that each man should receive his due (Νέμ
 
 *800 f.* With **πράξειας** we supply ἂν from ἀποστείχοιμ' ἄν. G. Wolff compares *Lys.*p. 208 B εἰ βούλοιο λαβὼν τὴν μάστιγα τύπτειν, ἐῷεν ἄν . Πόθεν δ', ἦ δ' ὅς, ἐῷεν; Xen. *An.* 4. 6. 13 δοκοῦμεν δ' ἄν μοι...ἐρημοτέρῳ ἂν τῷ ὄρει χρῆσθαι· μένοιεν γὰρ αὐτοῦ μᾶλλον ἀθρόοι οἱ πολέμιοι (where the insertion of ἂν after γὰρ is needless). Cp. also Soph. *O. T.* 937 n.
 
-The emendations which aim at introducing ἄν seem, then, superfluous. The change of **καταξίως** into κατάξἰ ἂν, though specious, is not probable. Cp. *O. C.* 911δέδρακας οὔτ' ἐμοῦ καταξίως | οὔθ' ὧν πέφυκας. *O. T.* 133ἐπαξίως..ἀξίως. Again, **πράξειας** appears sound. In the 2nd and 3rd sing. and 3rd plur. of the sigmatic aorist, classical writers of this age prefer the forms in ει to those in αι. There are exceptions, such as *Vesp.* 726 οὐκ ἂν δικάσαις, Thuc. 2. 84ἐκπνεύσαι: and it would be unwarrantable to deny that Soph. could have written πράξαις ἄν. But the presumption is in favour of the vulgate. Still less likely is ἐπεί τἂν, or ἐμοῦ γ' ἂν ἀξίως (cr. n.). If ἄν were required, Bergk's οὔτ' ἂν in v. 801 would be best.
+The emendations which aim at introducing ἄν seem, then, superfluous. The change of **καταξίως** into κατάξιʼ ἂν, though specious, is not probable. Cp. *O. C.* 911δέδρακας οὔτ' ἐμοῦ καταξίως | οὔθ' ὧν πέφυκας. *O. T.* 133ἐπαξίως..ἀξίως. Again, **πράξειας** appears sound. In the 2nd and 3rd sing. and 3rd plur. of the sigmatic aorist, classical writers of this age prefer the forms in ει to those in αι. There are exceptions, such as *Vesp.* 726 οὐκ ἂν δικάσαις, Thuc. 2. 84ἐκπνεύσαι: and it would be unwarrantable to deny that Soph. could have written πράξαις ἄν. But the presumption is in favour of the vulgate. Still less likely is ἐπεί τἂν, or ἐμοῦ γ' ἂν ἀξίως (cr. n.). If ἄν were required, Bergk's οὔτ' ἂν in v. 801 would be best.
 
 **τοῦ πορεύς. ξένου**: Phanoteus (670).
 
@@ -3043,7 +3043,7 @@ If **ἐλάνθαν' ἄν** were incorrect (which has not been proved), I shou
 **θάλλοντ' ἔτʼ** is Reiske's certain correction of θάλλοντά τʼ. Hermann, retaining the latter, followed Triclinius in taking **βίῳ** as=ἐν βίῳ ὄντα, ‘alive,’ which is clearly untenable; as is also the conjecture βιοῦν.—Cp. *Tr.* 235καὶ ζῶντα καὶ θάλλοντα (n.).
 
 ## 953
-**πράκτοῤ**, one who exacts a penalty; an avenger: as the Erinyes are πράκτορες αἵματος ( Aesch. *Eum.* 319). At Athens the πράκτορες were officials who collected fines and penalties (ἐπιβολαί, τιμήματα) imposed by law. We have a similar figurative use of a technical term in Soph. *Ai.* 508μητέρα | πολλῶν ἐτῶν κληροῦχον: and in Aesch. *Eum.* 273 the word for an ‘auditor’ who examined the accounts of magistrates is applied to the king of the nether world; μέγας γὰρ Ἅιδης ἐστὶν εὔθυνος βροτῶν. There are Shakespearian parallels; e.g., Lear (act 3, sc. 2, 59) calls the raging elements ‘these dreadful summoners’ (officers who warned offenders to appear in court): Hamlet (act 5, sc. 2, Aesch. Eum. 347) speaks of ‘this fell sergeant, death’: and death is ‘that fell arrest without all bail’ (*Sonn.* 74, 1).
+**πράκτορʼ**, one who exacts a penalty; an avenger: as the Erinyes are πράκτορες αἵματος ( Aesch. *Eum.* 319). At Athens the πράκτορες were officials who collected fines and penalties (ἐπιβολαί, τιμήματα) imposed by law. We have a similar figurative use of a technical term in Soph. *Ai.* 508μητέρα | πολλῶν ἐτῶν κληροῦχον: and in Aesch. *Eum.* 273 the word for an ‘auditor’ who examined the accounts of magistrates is applied to the king of the nether world; μέγας γὰρ Ἅιδης ἐστὶν εὔθυνος βροτῶν. There are Shakespearian parallels; e.g., Lear (act 3, sc. 2, 59) calls the raging elements ‘these dreadful summoners’ (officers who warned offenders to appear in court): Hamlet (act 5, sc. 2, Aesch. Eum. 347) speaks of ‘this fell sergeant, death’: and death is ‘that fell arrest without all bail’ (*Sonn.* 74, 1).
 
 ## 954
 **εἰς σὲ δὴ βλέπω**: here δὴ, after ἡνίκ' οὐκέτ' ἔστιν, marks the next resource, just as in *Ant.* 173ἐγὼ κράτη δὴ..ἔχω follows ὅτ' ο<*>ν ἐκεῖνοι..ὤλοντο. Thus it is here rather an equivalent for ἤδη than merely a mode of emphasising σέ.
@@ -3699,7 +3699,7 @@ We have only to read the dialogue with attention to perceive that this hypothesi
 ## 1201
 **τοῖσι σοῖς** was the prevalent reading here, while **τοῖς ἴσοις** can claim to be the original reading of L: but, in a case where confusion was so easy, the authority of our MSS. is not great. In *O. T.* 648πάρεισί σοι has been made in L from πάρεισ' ἴσοι: and in *Vesp.* 747 τοῖς ἴσοις was a *v.l.* for the true τοῖσι σοῖς.
 
-The word **ξυγγενὴς** in 1202 is the point which inclines me to prefer **τοῖσι σοῖς**. If he had said **τοῖς ἴσοις**,—‘equal,’ or ‘equivalent,’ woes,—that would have explained, indeed, why he should feel sympathy; but it would not have warranted the surmise that he was a kinsman. The objection that, with τοῖσι σοῖς, v. 1201 merely repeats 1200, is un founded. He *pities* her woes, he says, because he *feels* them (ἀλγῶν). Cp. Aesch. *Cho.* 222(shortly before the ἀναγνώρισις): ΗΛ. ἀλλ' ἐν κακοῖσι τοῖς ἐμοῖς γελᾶν θέλεις; | ΟΡ. κἀν τοῖς ἐμοῖς ἄῤ, εἴπερ ἔν γε τοῖσι σοῖς. While preferring τοῖσι σοῖς, however, I recognise that τοῖς ἴσοις is also quite tenable.
+The word **ξυγγενὴς** in 1202 is the point which inclines me to prefer **τοῖσι σοῖς**. If he had said **τοῖς ἴσοις**,—‘equal,’ or ‘equivalent,’ woes,—that would have explained, indeed, why he should feel sympathy; but it would not have warranted the surmise that he was a kinsman. The objection that, with τοῖσι σοῖς, v. 1201 merely repeats 1200, is un founded. He *pities* her woes, he says, because he *feels* them (ἀλγῶν). Cp. Aesch. *Cho.* 222(shortly before the ἀναγνώρισις): ΗΛ. ἀλλ' ἐν κακοῖσι τοῖς ἐμοῖς γελᾶν θέλεις; | ΟΡ. κἀν τοῖς ἐμοῖς ἄρʼ, εἴπερ ἔν γε τοῖσι σοῖς. While preferring τοῖσι σοῖς, however, I recognise that τοῖς ἴσοις is also quite tenable.
 
 ## 1203
 **τὸ τῶνδε**=αἵδε. Cp. *Legg.* p. 657 Δ οἱ μὲν νέοι...τὸ δὲ τῶν πρεσβυτέρων.
@@ -3751,7 +3751,7 @@ The division of the trimeter (ἀντιλαβή) marks agitation, as again in 12
 ## 1230
 **συμφοραῖσι**. Eustathius p. 647. 37: καὶ ἡ συμφορὰ δὲ οὐ μόνον ἀποτρόπαιος ἀλλὰ καὶ ἀγαθή, ὡς δηλοῖ σὺν ἄλλοις καὶ ὁ εἰπὼν ἐπ' ἀγαθῷ τὸ ἐπὶ συμφοραῖς γεγηθὸς...ἄπο. Ar. *Eq.* 406(from Simonides) πῖνε πῖν' ἐπὶ συμφοραῖς.
 
-**γεγηθὸς … δάκρυον**: cp. *Ant.* 527φιλάδελφα κάτω δάκρὐ εἰβομένη.
+**γεγηθὸς … δάκρυον**: cp. *Ant.* 527φιλάδελφα κάτω δάκρυʼ εἰβομένη.
 
 ## 1232-1287
 A μέλος ἀπὸ σκηνῆς between Electra and Orestes. Strophe, 1232—1352,=antistr. 1253—1272 (a verse being lost after 1264). Epode, 1273— 1287. For metres see Metrical Analysis.
@@ -3866,7 +3866,7 @@ The punctuation given in the text seems best. The Aldine has only a comma after 
 ## 1281
 **ὦ φίλαι**. It seems fitting that, towards the close of these lyrics, Electra should address some words to the sympathetic Chorus,—as she did before, just after the discovery (1227); though at v. 1285 she again speaks to Orestes. The emendation **ὦ φίλʼ, ὅτʼ** (Wunder), like others designed to alter **φίλαι**, is hardly probable.
 
-**αὐδάν** is unquestionably the living voice of Orestes, which ‘she could never have hoped to hear,’ after the apparent proofs of his death. Cp. 1225 ὦ φθέγὐ, ἀφίκου: and with **οὐδ' ἂν ἤλπισʼ**, cp. 1263 ἀέλπτως: 832 f. εἰ τῶν φανερῶς οἰχομένων | εἰς Ἀΐδαν ἐλπίδ' ὑποίσεις: and 858 f. The first and best scholium on 1281 recognises that αὐδάν denotes a source of joy, not of grief, to her (καὶ γὰρ ἡ ἡδονὴ προετρέπετο αὐτὴν βοῆσαι), though wrongly explaining the word as φήμην περὶ τοῦ ἀδελφοῦ (news of his safety). If αὐδάν meant the report of his death, the words ἃν ἐγὼ οὐδ' ἂν ἤλπισʼ would lose all force.
+**αὐδάν** is unquestionably the living voice of Orestes, which ‘she could never have hoped to hear,’ after the apparent proofs of his death. Cp. 1225 ὦ φθέγυʼ, ἀφίκου: and with **οὐδ' ἂν ἤλπισʼ**, cp. 1263 ἀέλπτως: 832 f. εἰ τῶν φανερῶς οἰχομένων | εἰς Ἀΐδαν ἐλπίδ' ὑποίσεις: and 858 f. The first and best scholium on 1281 recognises that αὐδάν denotes a source of joy, not of grief, to her (καὶ γὰρ ἡ ἡδονὴ προετρέπετο αὐτὴν βοῆσαι), though wrongly explaining the word as φήμην περὶ τοῦ ἀδελφοῦ (news of his safety). If αὐδάν meant the report of his death, the words ἃν ἐγὼ οὐδ' ἂν ἤλπισʼ would lose all force.
 
 *1283 f.* There can be no doubt that something has been lost before **ἔσχον**. Arndt supplies **οὐδ' ἂν**, which might easily have been omitted, either through its likeness to αὐδάν just before it, or through the οὐδ' ἂν above it. **ὁρμὰν**, for the traditional ὀργὰν, is due to Blomfield (*Mus. Crit.* 1. 214).
 
@@ -4073,7 +4073,7 @@ It has been held that these verses, or at least 1340—1344, are spurious (cr. n
 **ἔργ' ἔχων**, ‘possessed of them,’ ‘knowing them’: ἔργα being ‘facts’ as opp. to λόγοι (59 f. ὅταν λόγῳ θανὼν | ἔργοισι σωθῶ). Cp. *Ant.* 9ἔχεις τι κεἰσήκουσας; —Others explain, ‘while engaged in a course of action’ (cp. *Ant.* 300πανουργίας...ἔχειν, n.).—For **ἐμοί**, after **με**, cp. *O. C.* 811μηδέ με | φύλασσ' ἐφορμῶν ἔνθα χρὴ ναίειν ἐμέ (n.).
 
 ## 1361
-**πατέρα**. This is the only tragic trimeter in which the third foot is formed by a single word of three short syllables. When the third foot is a tribrach there is usu. a caesura both in the third and in the fourth foot (as *O. T.* 248κακὸν κακῶς νιν ἄμορον ἐκτρῖψαι βίον: cp. Eur. *Tro.* 497): or at least in the third foot (as Soph. *Ant.* 31). But it should be observed that the pause after **χαῖῤ, ὦ πάτερ** makes a vital difference. The movement of the verse begins afresh at **πατέρα**, and the effect of that word to the ear is like that of a tribrach in the first, rather than in the third, place of a trimeter. Hence we may defend the text here, and yet concede that no tragic poet could have written such a verse without the pause (e.g. ἦλθ' ἄσμενος πατέρα ποτ' εἰσορᾶν δοκῶν).
+**πατέρα**. This is the only tragic trimeter in which the third foot is formed by a single word of three short syllables. When the third foot is a tribrach there is usu. a caesura both in the third and in the fourth foot (as *O. T.* 248κακὸν κακῶς νιν ἄμορον ἐκτρῖψαι βίον: cp. Eur. *Tro.* 497): or at least in the third foot (as Soph. *Ant.* 31). But it should be observed that the pause after **χαῖρʼ, ὦ πάτερ** makes a vital difference. The movement of the verse begins afresh at **πατέρα**, and the effect of that word to the ear is like that of a tribrach in the first, rather than in the third, place of a trimeter. Hence we may defend the text here, and yet concede that no tragic poet could have written such a verse without the pause (e.g. ἦλθ' ἄσμενος πατέρα ποτ' εἰσορᾶν δοκῶν).
 
 ## 1364
 **τοὺς … ἐν μέσῳ λόγους**, the story of the brother's and sister's experiences in the interval since Orestes left Mycenae. Cp. *O. C.* 583τὰ..ἐν μέσῳ (the needs of the interval, until death): Eur. *Med.* 819περισσοὶ πάντες οὑν μέσῳ λόγοι (between the present moment, and her deed): Eur. *Or.* 16τὰς γὰρ ἐν μέσῳ σιγῶ τύχας (the fortunes of the house in the interval).

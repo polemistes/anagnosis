@@ -22,9 +22,20 @@ from .linenum import N_PATTERN, complete
 from .tei_p4 import load as load_p4
 
 
+BETACODE = re.compile(r"[a-z*()/\\=|+' ]*[/\\=][a-z*()/\\=|+' ]*")
+
+
 def _md(el, grk: bool) -> str:
     tag = etree.QName(el).localname
-    grk = grk or el.get("lang") == "greek"
+    if el.get("lang"):
+        # a language stated on an element holds for it, also inside a Greek quotation (an
+        # English aside, a metrical scheme): only "greek" is betacode, or a text that is
+        # plainly betacode under another label (the OC's lemma tiqh/nais marked Latin)
+        own = ((el.text or "") + "".join(c.tail or "" for c in el)).strip()
+        grk = el.get("lang") == "greek" or (el.get("lang") in ("la", "en") and BETACODE.fullmatch(own) is not None
+                                             and re.search(r"[a-z][()]*[/\\=]", own) is not None)
+    if tag == "p":
+        _open[0] = 0
     inner = _md_children(el, grk)
     if tag == "lemma":
         return f"**{inner.strip()}**"
@@ -39,7 +50,8 @@ def _md(el, grk: bool) -> str:
     if tag == "note":
         if el.get("place") == "marg":
             return ""  # marginal titles are used as headings by the introduction importer
-        return f" ({inner.strip()}) "
+        s = inner.strip()
+        return f" {s} " if s.startswith("(") else f" ({s}) "
     if tag == "l":
         return inner.strip() + " | "
     if tag == "lg":
@@ -63,10 +75,96 @@ def _md_children(el, grk: bool) -> str:
 def _txt(s: str | None, grk: bool) -> str:
     if not s:
         return ""
-    if grk:
-        s = greek.betacode_to_unicode(s)
-    s = s.replace("*", "\\*").replace("_", "\\_") if not grk else s
+    if grk and not _plain_english(s):
+        s, _open[0] = _beta(s, _open[0])
+    else:
+        _open[0] = max(0, _open[0] + s.count("(") - s.count(")"))
+        s = s.replace("*", "\\*").replace("_", "\\_")
     return re.sub(r"\s+", " ", s)
+
+
+# Perseus writes ordinary parentheses inside Greek quotations, where betacode reads ( and ) as
+# breathings, and it writes an elision as ) too. A breathing stands before an accent, after *
+# (a capital), or after a word's first vowel or two, also behind one or two consonants in a
+# crasis (ka)gw/, tou)/noma, prou)/sthmen); a ) that ends a word is an elision (e)ntau=q),
+# xqo/ni)), and one that begins it a prodelision (h)\ )gw/); any other ( or ) is a
+# parenthesis. The parentheses and the elisions are kept apart from the conversion. A
+# quotation that ends in a vowel and ) while the paragraph has a parenthesis open closes it:
+# (e)stefanwme/noi) where the ( stands in the English before the quotation.
+OPEN, CLOSE, ELIDED = "\ue000", "\ue001", "\ue002"
+BREATHING_AFTER = re.compile(r"[bgdzqklmncprstfxyv]{0,2}[aeiouhwr]{1,2}")
+ENGLISH = {"the", "and", "of", "to", "in", "is", "with", "this", "that", "not", "do", "as", "by", "for",
+           "at", "on", "it", "be", "which", "from", "or", "an", "are", "was", "his", "her", "we", "they",
+           "after", "would", "could", "should", "but", "if", "when", "who", "what", "so", "than"}
+
+
+def _plain_english(s: str) -> bool:
+    """English left untagged inside a Greek element: no betacode accents, several English words."""
+    if re.search(r"[a-z*][/\\=|+]|[aeiouhwr][()][/\\=|]", s):
+        return False
+    return sum(w.lower() in ENGLISH for w in re.findall(r"[A-Za-z]+", s)) >= 2
+
+
+_open = [0]  # parentheses opened earlier in the paragraph and not yet closed
+
+
+def _beta(s: str, outer: int = 0) -> tuple[str, int]:
+    """Betacode to Unicode, parentheses and elisions as described above; with the count of
+    parentheses open before the text and after it."""
+    protected = _protect_parens(s, outer)
+    outer = max(0, outer + protected.count(OPEN) - protected.count(CLOSE))
+    out = greek.betacode_to_unicode(protected)
+    out = re.sub("σ(?=" + CLOSE + ")", "ς", out)  # a final sigma before the parenthesis
+    return out.replace(OPEN, "(").replace(CLOSE, ")").replace(ELIDED, "\u02bc"), outer
+
+
+def _protect_parens(s: str, outer: int = 0) -> str:
+    out = []
+    depth = 0  # parentheses opened in this text and not yet closed
+    tokens = re.split(r"(\s+)", s)
+    last = max((k for k, t in enumerate(tokens) if t.strip()), default=-1)
+    for k, token in enumerate(tokens):
+        token = re.sub(r"([()])\*(?=[a-z])", r"*\1", token)  # )*ismhnou= for *)ismhnou=
+        letters, breathed = "", False
+        chars = []
+        for i, c in enumerate(token):
+            if c not in "()":
+                if c.isalpha():
+                    letters += c.lower()
+                elif c not in "/\\=+|*^_":
+                    letters, breathed = "", False  # a new word after '...', a digit, an elision
+                chars.append(c)
+                continue
+            prev = token[i - 1] if i else ""
+            nxt = token[i + 1] if i + 1 < len(token) else ""
+            at_end = not re.search(r"[A-Za-z*]", token[i + 1:])
+            word_end = not (nxt.isalpha() or (nxt and nxt in "/\\=|+*"))
+            if nxt and nxt in "/\\=|":
+                kind = c  # an accent follows: a breathing
+            elif prev.isalpha() and nxt.isalpha():
+                kind = c  # inside a word (a missing space or accent in the source): as betacode reads it
+            elif prev == "*" or ((prev.isalpha() or prev in "^_") and prev and not breathed and BREATHING_AFTER.fullmatch(letters)):
+                kind = c
+            elif c == ")" and depth and at_end:
+                kind = CLOSE
+            elif c == ")" and not depth and outer and k == last and at_end and prev in "aeiouhw":
+                kind = CLOSE
+                outer -= 1
+            elif c == ")" and word_end and (prev.isalpha() or (prev and prev in "/\\=|+()")):
+                kind = ELIDED
+            elif c == ")" and not (prev.isalpha() or prev == "*") and nxt.isalpha():
+                kind = c  # prodelision: the converter writes it as an apostrophe
+            else:
+                kind = OPEN if c == "(" else CLOSE
+            if kind == OPEN:
+                depth += 1
+            elif kind == CLOSE:
+                depth = max(0, depth - 1)
+            elif kind in "()":
+                breathed = True
+            chars.append(kind)
+        out.append("".join(chars))
+    return "".join(out)
 
 
 def import_jebb_commentary(source: Path, out: Path, meta: dict[str, str]) -> int:

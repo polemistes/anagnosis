@@ -133,7 +133,7 @@ The character of Antigone is a separate question from the merit of the cause in 
 
  So long as her task lies before Antigone, she is sustained by the necessity for action. Nor does she falter for a moment, even after the deed has been done, so long as she is in the presence of Creon. For though she has no longer the stimulus of action, there is still another challenge to her fortitude; she, who is loyal to the divine law, cannot tremble before the man who is its embodied negation. It is otherwise when Creon is gone, and when there are only the Theban elders to see and hear her, as she is led to death. The strain on her mind is relaxed; the end is near; she now feels the longing for some word of pity as she passes to the grave,—for some token of human kindness. But, while she craves such sympathy, the Theban nobles merely console her with the thought of posthumous fame. She compares her doom to Niobe's; and they reply that it is a glory for her to be as Niobe, a daughter of the Tantalidae,—
 
-the seed of gods, | Men near to Zeus; for whom on Ida burns, | High in clear air, the altar of their Sire, | Nor hath their race yet lost the blood divine (From the *Niobe* of Aeschylus (fr. 157): οἱ θεῶν ἀγχίσποροι, | οἱ Ζηνὸς ἐγγύς· οἷς κατ' ʼΙδαῖον πάγον | Διὸς πατρῴου βωμός ἐστ' ἐν αἰθέρι, | κοὔπω νιν ἐξίτηλον αἶμα δαιμόνων.) . | Few things in tragedy are more pathetic than this yearning of hers, on the brink of death, for some human kindness of farewell, thus ‘mocked’ (v. 839.) , as she feels it to be, by a cold assurance of renown. She turns from men to invoke ‘the fount of Dircè and the holy ground of Thebes’; these, at least, will be her witnesses. In her last words, she is thinking of the dead, and of the gods; she feels sure of love in the world of the dead; but she cannot lift her face to the gods, and feel sure that they are with her. If they are so, why have they allowed her to perish for obeying them? Yet, again, they *may* be with her; she will know beyond the grave. If she has sinned, she will learn it there; but if she is innocent, the gods will vindicate when she is gone. How infinitely touching is this supreme trouble which clouds her soul at the last,—this doubt and perplexity concerning the gods! For it is not a misgiving as to the paramount obligation of the ‘unwritten laws’ which she has obeyed: it is only an anguish of wonder and uncertainty as to the mysterious ways of the powers which have laid this obligation on mortals,—a surmise that, as gods and men seem alike without pity for her, there has perhaps been something wrong in her way of doing the duty which was so clear and so binding.
+the seed of gods, | Men near to Zeus; for whom on Ida burns, | High in clear air, the altar of their Sire, | Nor hath their race yet lost the blood divine (From the *Niobe* of Aeschylus (fr. 157): οἱ θεῶν ἀγχίσποροι, | οἱ Ζηνὸς ἐγγύς· οἷς κατ' Ἰδαῖον πάγον | Διὸς πατρῴου βωμός ἐστ' ἐν αἰθέρι, | κοὔπω νιν ἐξίτηλον αἶμα δαιμόνων.) . | Few things in tragedy are more pathetic than this yearning of hers, on the brink of death, for some human kindness of farewell, thus ‘mocked’ (v. 839.) , as she feels it to be, by a cold assurance of renown. She turns from men to invoke ‘the fount of Dircè and the holy ground of Thebes’; these, at least, will be her witnesses. In her last words, she is thinking of the dead, and of the gods; she feels sure of love in the world of the dead; but she cannot lift her face to the gods, and feel sure that they are with her. If they are so, why have they allowed her to perish for obeying them? Yet, again, they *may* be with her; she will know beyond the grave. If she has sinned, she will learn it there; but if she is innocent, the gods will vindicate when she is gone. How infinitely touching is this supreme trouble which clouds her soul at the last,—this doubt and perplexity concerning the gods! For it is not a misgiving as to the paramount obligation of the ‘unwritten laws’ which she has obeyed: it is only an anguish of wonder and uncertainty as to the mysterious ways of the powers which have laid this obligation on mortals,—a surmise that, as gods and men seem alike without pity for her, there has perhaps been something wrong in her way of doing the duty which was so clear and so binding.
 
 ## 14. Distinctive merit of the portraiture
 
@@ -255,89 +255,89 @@ Besides the various complete editions of Sophocles (*Oed. Tyr.*, p. lxi), these 
 
 ## 1. I. The argument of Aristophanes of Byzantium
 
-ι. ΑΡΙΣΤΟΦΑΝΟΥΣ ΓΡΑΜΜΑΤΙΚΟΥ ΥΠΟΘΕΣΙΣ. Ἀντιγόνη παρὰ τὴν πρόσταξιν τῆς πόλεως θάψασα τὸν Πολυνείκην ἐφωράθη, καὶ εἰς μνημεῖον κατάγειον ἐντεθεῖσα παρὰ τοῦ Κρέοντος ἀνήρηται· ἐφ' ῆʽ καὶ Αἵμων δυσπαθήσας διὰ τὸν εἰς αὐτὴν ἔρωτα ξίφει ἑαυτὸν διεχειρίσατο. ἐπὶ δὲ τῷ τούτου θανάτῳ καὶ ἡ μήτηρ Εὐρυδίκη ἑαυτὴν ἀνεῖλε.
+I. ΑΡΙΣΤΟΦΑΝΟΥΣ ΓΡΑΜΜΑΤΙΚΟΥ ΥΠΟΘΕΣΙΣ. Ἀντιγόνη παρὰ τὴν πρόσταξιν τῆς πόλεως θάψασα τὸν Πολυνείκην ἐφωράθη, καὶ εἰς μνημεῖον κατάγειον ἐντεθεῖσα παρὰ τοῦ Κρέοντος ἀνήρηται· ἐφ' ῆ( καὶ Αἵμων δυσπαθήσας διὰ τὸν εἰς αὐτὴν ἔρωτα ξίφει ἑαυτὸν διεχειρίσατο. ἐπὶ δὲ τῷ τούτου θανάτῳ καὶ ἡ μήτηρ Εὐρυδίκη ἑαυτὴν ἀνεῖλε.
 
  κεῖται ἡ μυθοποιΐα καὶ παρὰ Εὐριπίδη ἐν Ἀντιγόνη· πλὴν ἐκεῖ φωραθεῖσα μετὰ τοῦ Αἵμονος δίδοται πρὸς γάμου κοινωνίαν καὶ τέκνον τίκτει τὸν Μαίονα.
 
  ἡ μὲν σκηνὴ τοῦ δράματος ὑπόκειται ἐν Θήβαις ταῖς Βοιωτικαῖς. ὁ δὲ χοπὸς συνέστηκεν ἐξ ἐπιχωρίων γερόντων. προλογίζει ἡ Ἀντιγόνη· ὑπόκειται δὲ τὰ πράγματα ἐπὶ τῶν Κρέοντος βασιλείων. τὸ δὲ κεφάλαιόν ἐστι τάφος Πολυνείκους, Ἀντιγόνης ἀναίρεσις, θάνατος Αἵμονος καὶ μόρος Εὐρυδίκης τῆς Αἵμονος μητρός. φασὶ δὲ τὸν Σοφοκλέα ἠξιῶσθαι τῆς ἐν Σάμῳ στρατηγίας εὐδοκιμήσαντα ἐν τῇ διδασκαλίᾳ τῆς Ἀντιγόνης. λέλεκται δὲ τὸ δρᾶμα τοῦτο τριακοστὸν δεύτερον.
 
- **ΑΡΙΣΤΟΦΑΝΟΥΣ ΓΡΑΜΜΑΤΙΚΟΥ** αριστοπηανες οφ βψζαντιυμ, λιβραριαν ατ αλεχανδρια ʽφλορ. 200 β.ξ.ʼ, το ωηομ τηε μετριξαλ αργυμεντ φορ τηε *οεδιπυς τψραννυς* ις αλσο ασξριβεδ ιν τηε μσς., βυτ ινξορρεξτλψ· σεε *οεδ. τψρ.* π. 4. τηουγη τηε γενυινενεσς οφ τηις προσε ὑποθέσις ηας νοτ συξη α πριμα φαξιε ξασε αγαινστ ιτ ας εχιστς αγαινστ τηατ οφ αλλ τηε μετριξαλ αργυμεντς ασξριβεδ το αριστοπηανες, ιτ μυστ ατ λεαστ βε ρεγαρδεδ ας vερψ δουβτφυλ. ιφ τηε περφεξτ ἀνῄρηται ιν λινε 2 ις σουνδ, ιτ ις αν ινδιξατιον οφ μυξη λατερ αγε, ας ηας βεεν σηοων ιν τηε ξριτιξαλ νοτε αβοvε. ανοτηερ συξη ινδιξατιον, ι τηινκ, ις τηε πηρασε εἰς μνημεῖον κατάγειον ἐντεθεῖσα παρὰ ʽινστεαδ οφ ὑπὸʼ τοῦ Κρέοντος ʽλ. 2ʼ,—α λατερ ʽανδ μοδερνʼ υσε οφ τηε πρεπ. ωηιξη δοες νοτ συρπρισε υς ιν σαλυστιυς ʽαργ. ιι. λ. 11 παρὰ τοῦ Κρέοντος κωλύεταιʼ, βυτ ωηιξη ωουλδ βε στρανγε ιν τηε αλεχανδριαν σξηολαρ οφ ξιρξ. 200 β.ξ. ιν τηε λαυρεντιαν μς. τηις αργυμεντ πρεξεδες, ωηιλε τηε οτηερ τωο φολλοω, τηε πλαψ.
+ **ΑΡΙΣΤΟΦΑΝΟΥΣ ΓΡΑΜΜΑΤΙΚΟΥ** Aristophanes of Byzantium, librarian at Alexandria (flor. 200 B.C.), to whom the metrical argument for the *Oedipus Tyrannus* is also ascribed in the MSS., but incorrectly: see *Oed. Tyr.* p. 4. Though the genuineness of this prose ὑποθέσις has not such a prima facie case against it as exists against that of all the metrical arguments ascribed to Aristophanes, it must at least be regarded as very doubtful. If the perfect ἀνῄρηται in line 2 is sound, it is an indication of much later age, as has been shown in the critical note above. Another such indication, I think, is the phrase εἰς μνημεῖον κατάγειον ἐντεθεῖσα παρὰ (instead of ὑπὸ) τοῦ Κρέοντος (l. 2),—a later (and modern) use of the prep. which does not surprise us in Salustius (Arg. II. l. 11 παρὰ τοῦ Κρέοντος κωλύεται), but which would be strange in the Alexandrian scholar of circ. 200 B.C. In the Laurentian MS. this Argument precedes, while the other two follow, the play.
 
- **ἐν Ἀντιγόνῃ** ονλψ σομε 21 σμαλλ φραγμεντς ρεμαιν ʽαβουτ 80 vερσες ιν αλλʼ, ανδ τηεσε τηροω νο λιγητ ον τηε δεταιλς οφ τηε πλοτ.
+ **ἐν Ἀντιγόνῃ** Only some 21 small fragments remain (about 80 verses in all), and these throw no light on the details of the plot.
 
- **τὸν Μαίονα**. τηις ρεαδινγ ις μαδε αλμοστ ξερταιν βψ τηε μεντιον οφ ‘μαιον, σον οφ ηαεμον’ ιν *ιλ.* 4.394, ξουπλεδ ωιτη τηε φαξτ τηατ λ ηας Μαίμονα ιν τηε μαργιν ʽσεε ξρ. ν.ʼ. βυτ τηε ρεαδινγ μετὰ τοῦ Αἵμονος ςυστ βεφορε ις δουβτφυλ. ιφ ιτ ις σουνδ, τηεν ωε μυστ υνδερστανδ· ‘ηαvινγ βεεν δισξοvερεδ ιν ξομπανψ ωιτη ηαεμον, σηε ωας γιvεν ιν μαρριαγε ʽτο ηιμʼ.’ βυτ ι αμ στρονγλψ ινξλινεδ το τηινκ τηατ τηε ξονςεξτυρε μετὰ τοῦτο τῷ Αἵμονι ʽωηιξη ωουλδ εχπλαιν τηε v.λ. τῷ Αἵμονιʼ ις ριγητ. δινδορφ διφφερς φρομ οτηερ ιντερπρετερς ιν συπποσινγ τηατ ιτ ωας νοτ ηαεμον, βυτ σομεονε ελσε—περηαπς α ναμελεσς αὐτουργός, ας ιν τηε ξασε οφ τηε ευριπιδεαν ελεξτρα—το ωηομ ευριπιδες μαρριεδ αντιγονε· ανδ ηε ρεαδς τίκτει τὸν Αἵμονα. ωε ηαvε τηεν το συπποσε τηατ αντιγονε μαρκεδ ηερ αφφεξτιον φορ ηερ λοστ λοvερ βψ γιvινγ ηις ναμε το ηερ σον βψ τηε αὐτουργός. ατ τηε ενδ οφ τηε σξηολια ιν λ ωε φινδ τηεσε ωορδς·—Ὅτι διαφέρει τῆς Εὐριπίδου Ἀντιγόνης αὕτη, ὅτι φωραθεῖσα ἐκείνη διὰ τὸν Αἵμονος ἔρωτα ἐξεδόθη πρὸς γάμον· ἐνταῦθα δὲ τοὐναντίον. τηε ξοντραστ μεαντ ις βετωεεν ηερ μαρριαγε ιν ευριπιδες ανδ ηερ δεατη ιν σοπηοξλες· βυτ τηε ωορδς οβvιουσλψ λεαvε ιτ δουβτφυλ ωηετηερ τηε περσον το ωηομ ευριπιδες μαρριεδ ηερ ωας ηαεμον ορ νοτ.
+ **τὸν Μαίονα**. This reading is made almost certain by the mention of ‘Maion, son of Haemon’ in *Il.* 4.394, coupled with the fact that L has Μαίμονα in the margin (see cr. n.). But the reading μετὰ τοῦ Αἵμονος just before is doubtful. If it is sound, then we must understand: ‘having been discovered in company with Haemon, she was given in marriage (to him).’ But I am strongly inclined to think that the conjecture μετὰ τοῦτο τῷ Αἵμονι (which would explain the v.l. τῷ Αἵμονι) is right. Dindorf differs from other interpreters in supposing that it was not Haemon, but someone else—perhaps a nameless αὐτουργός, as in the case of the Euripidean Electra—to whom Euripides married Antigone: and he reads τίκτει τὸν Αἵμονα. We have then to suppose that Antigone marked her affection for her lost lover by giving his name to her son by the αὐτουργός. At the end of the scholia in L we find these words:—Ὅτι διαφέρει τῆς Εὐριπίδου Ἀντιγόνης αὕτη, ὅτι φωραθεῖσα ἐκείνη διὰ τὸν Αἵμονος ἔρωτα ἐξεδόθη πρὸς γάμον· ἐνταῦθα δὲ τοὐναντίον. The contrast meant is between her marriage in Euripides and her death in Sophocles: but the words obviously leave it doubtful whether the person to whom Euripides married her was Haemon or not.
 
- **τῆς ἐν Σάμῳ στρατηγίας** τηε τραδιτιοναλ στρατηγία οφ σοπηοξλες, ανδ ιτς ρελατιον το τηε προδυξτιον οφ τηε *αντιγονε*, αρε δισξυσσεδ ιν τηε ιντροδυξτιον.
+ **τῆς ἐν Σάμῳ στρατηγίας** The traditional στρατηγία of Sophocles, and its relation to the production of the *Antigone*, are discussed in the Introduction.
 
- **τριακοστὸν δεύτερον** ωριττεν λ—β— ιν λ. τηε στατεμεντ σεεμς το ηαvε βεεν τακεν φρομ αλεχανδριαν διδασκαλίαι ωηιξη γαvε τηε πλαψς ιν ξηρονολογιξαλ ορδερ. σοπηοξλες ις σαιδ το ηαvε εχηιβιτεδ φορ τηε φιρστ τιμε ιν 468 β.ξ., αετ. 28. σεε ιντροδ.
+ **τριακοστὸν δεύτερον** Written λ—β— in L. The statement seems to have been taken from Alexandrian διδασκαλίαι which gave the plays in chronological order. Sophocles is said to have exhibited for the first time in 468 B.C., aet. 28. See Introd.
 
 ## 2. II. The argument of Salustius
 
 ΣΑΛΟΥΣΤΙΟΥ ΥΠΟΘΕΣΙΣ. Τὸ μὲν δρᾶμα τῶν καλλίστων Σοφοκλέους. στασιάζεται δὲ τὰ περὶ τὴν ἡρωΐδα ἱστορούμενα καὶ τὴν ἀδελφὴν αὐτῆς Ἰσμήνην· ὁ μὲν γὰρ Ἴων ἐν τοῖς διθυράμβοις καταπρησθῆναί φησιν ἀμφοτέρας ἐν τῷ ἱερῷ τῆς Ἥρας ὑπὸ Λαοδάμαντος τοῦ Ἐτεοκλέους· Μίμνερμος δέ φησι τὴν μὲν Ἰσμήνην προσομιλοῦσαν Θεοκλυμένῳ ὑπὸ Τυδέως κατὰ Ἀθηνᾶς ἐγκέλευσιν τελευτῆσαι. ταῦτα μὲν οὖν ἐστι τὰ ξένως περὶ τῶν ἡρωΐδων ἱστορούμενα. ἡ μέντοι κοινὴ δόξα σπουδαίας αὐτὰς ὑπείληφεν καὶ φιλαδέλφους δαιμονίως, ᾗ καὶ οἱ τῆς τραγῳδίας ποιηταὶ ἑπόμενοι τὰ περὶ αὐτὰς διατέθεινται. τὸ δὲ δρᾶμα τὴν ὀνομασίαν ἔσχεν ἀπὸ τῆς παρεχούσης τὴν ὑπόθεσιν Ἀντιγόνης. ὑπόκειται δὲ ἄταφον τὸ σῶμα Πολυνείκους, καὶ Ἀντιγόνη θάπτειν αὐτὸ πειρωμένη παρὰ τοῦ Κρέοντος κωλύεται. φωραθεῖσα δὲ αὐτὴ θάπτουσα ἀπόλλυται. Αἵμων τε ὁ Κρέοντος ἐρῶν αὐτῆς καὶ ἀφορήτως ἔχων ἐπὶ τῇ τοιαύτῃ συμφορᾷ αὑτὸν διαχειρίζεται· ἐφ' ᾧ καὶ ἡ μήτηρ Εὐρυδίκη τελευτᾷ τὸν βίον ἀγχόνῃ.
 
- **ΣΑΛΟΥΣΤΙΟΥ** α ρηετοριξιαν οφ τηε 5τη ξεντ. α.δ.· σεε ον *οεδ. ξολ.*, π. 6.— ιν τηε λαυρεντιαν μς., ωηιξη αλονε ρεξορδς ηιμ ας τηε ωριτερ, τηις αργυμεντ στανδς ατ τηε ενδ οφ τηε πλαψ, ιμμεδιατελψ αφτερ τηε ανονψμους αργυμεντ ʽουρ ιιι.ʼ.
+ **ΣΑΛΟΥΣΤΙΟΥ** A rhetorician of the 5th cent. A.D.: see on *Oed. Col.*, p. 6.— In the Laurentian MS., which alone records him as the writer, this Argument stands at the end of the play, immediately after the anonymous Argument (our III.).
 
- **στασιάζεται,** πασς., ‘αρε μαδε συβςεξτς οφ δισπυτε,’ ι.ε. αρε τολδ ιν ξονφλιξτινγ ωαψς, αρε ‘δισξρεπαντ’· α λατε υσε οφ τηε ωορδ, ωηιξη ξαννοτ βε δεδυξεδ φρομ τηε ολδερ, τηουγη ραρε, αξτιvε υσε οφ στασιάζω ʽτὴν πόλιν, ετξ.ʼ ας ‘το ινvολvε ιν παρτψ στριφε.’
+ **στασιάζεται,** pass., ‘are made subjects of dispute,’ i.e. are told in conflicting ways, are ‘discrepant’: a late use of the word, which cannot be deduced from the older, though rare, active use of στασιάζω (τὴν πόλιν, etc.) as ‘to involve in party strife.’
 
- **Ἴων** οφ ξηιος, τηε ποετ ανδ προσε-ωριτερ, φλορ. ξιρξ. 450 β.ξ. ηις διτηψραμβς αρε οξξασιοναλλψ μεντιονεδ ʽσξηολ. ον αριστοπη. *παχ* 835 ανδ ον απολλον. ρηοδ. 1. 1165ʼ· ιτ ις προβαβλψ φρομ τηεμ τηατ ατηεναευς θυοτες ʽ35 ἐ· βυτ ονλψ α φεω ωορδς ρεμαιν.
+ **Ἴων** Of Chios, the poet and prose-writer, flor. circ. 450 B.C. His dithyrambs are occasionally mentioned (schol. on Aristoph. *Pax* 835 and on Apollon. Rhod. 1. 1165): it is probably from them that Athenaeus quotes (35 E): but only a few words remain.
 
- **Μίμνερμος** οφ σμψρνα, τηε ελεγιαξ ποετ, φλορ. ξιρξ. 620 β.ξ.
+ **Μίμνερμος** Of Smyrna, the elegiac poet, flor. circ. 620 B.C.
 
- **Θεοκλυμένῳ** τηε ονλψ περσονς οφ τηις ναμε ιν γρεεκ μψτηολογψ σεεμ το βε τηε σοοτησαψερ ιν τηε *οδψσσεψ* ʽ*οδ.* 15.256 ετξ.ʼ, ανδ α σον οφ προτευς ʽευρ. *ηελεν* 9ʼ· ωεξκλειν συγγεστς Ἐτεόκλῳ, αν αργιvε ωηο ωας ονε οφ τηε σεvεν λεαδερς αγαινστ τηεβες ʽ*ο. ξ.* 1316 ν.ʼ.
+ **Θεοκλυμένῳ** The only persons of this name in Greek mythology seem to be the soothsayer in the *Odyssey* (*Od.* 15.256 etc.), and a son of Proteus (Eur. *Helen* 9): Wecklein suggests Ἐτεόκλῳ, an Argive who was one of the seven leaders against Thebes (*O. C.* 1316 n.).
 
- **ξένως** ι.ε. ιν α ωαψ φορειγν το τηε vερσιον φολλοωεδ βψ σοπηοξλες.
+ **ξένως** i.e. in a way foreign to the version followed by Sophocles.
 
- **ἀγχόνῃ** ευρψδιξε κιλλς ηερσελφ ωιτη α σωορδ ʽ1301ʼ. ποσσιβλψ ἀγχόνῃ σηουλδ φολλοω ἀπόλλυται ιν λ. 11 ʽξπ. αργ. ιιι. λ. 10 ἀπολομένῃ ἀγχόνῃʼ· βυτ μορε προβαβλψ ιτ ις δυε το α σλιπ οφ μεμορψ, ορ το α ξονφυσιον ωιτη τηε ξασε οφ ιοξαστα ιν τηε *οεδ. τψρ.*
+ **ἀγχόνῃ** Eurydice kills herself with a sword (1301). Possibly ἀγχόνῃ should follow ἀπόλλυται in l. 11 (cp. Arg. III. l. 10 ἀπολομένῃ ἀγχόνῃ): but more probably it is due to a slip of memory, or to a confusion with the case of Iocasta in the *Oed. Tyr.*
 
 ## 3. III. A third argument
 
 Ἀποθανόντα Πολυνείκη ἐν τῷ πρὸς τὸν ἀδελφὸν μονομαχίῳ Κρέων ὔταφον ἐκβαλὼν κηρύττει μηδένα αὐτὸν θάπτειν, θάνατον τὴν ζημίαν ἀπειλήσας. τοῦτον Ἀντιγόνη ἡ ἀδελφὴ θάπτειν πειρᾶται. καὶ δὴ λαθοῦσα τοὺς φύλακας ἐπιβάλλει χῶμα· οἷς ἐπαπειλεῖ θάνατον ὁ Κρέων, εἰ μὴ τὸν τοῦτο δράσαντα ἐξεύροιεν. οὗτοι τὴν κόνιν τὴν ἐπιβεβλημένην καθάραντες οὐδὲν ἧττον ἐφρούρουν. ἐπελθοῦσα δὲ ἡ Ἀντιγόνη καὶ γυμνὸν εὑροῦσα τὸν νεκρὸν ἀνοιμώξασα ἑαυτὴν εἰσαγγέλλει. ταύτην ὑπὸ τῶν φυλάκων παραδεδομένην Κρέων καταδικάζει καὶ ζῶσαν εἰς τύμβον καθεῖρξεν. ἐπὶ τούτοις Αἵμων, ὁ Κρέοντος υἱός, ὃς ἐμνᾶτο αὐτήν, ἀγανακτήσας ἑαυτὸν προσεπισφάζει τῇ κόρῃ ἀπολομένῃ ἀγχόνῃ, Τειρεσίου ταῦτα προθεσπίσαντος· ἐφ' ᾧ λυπηθεῖσα Εὐρυδίκη, ἡ τοῦ Κρέοντος γαμετή, ἑαυτὴν ἀποσφάζει. καὶ τέλος θρηνεῖ Κρέων τὸν τοῦ παιδὸς καὶ τῆς γαμετῆς θάνατον.
 
- **καθάραντες** vυλγ., καθαίροντες λ, ανδ σο μοστ ρεξεντ εδδ. βυτ τηε πρεσεντ παρτιξ. ξαννοτ στανδ ηερε; τηε ρεμοvαλ οφ τηε δυστ ωας νοτ α ξοντινυεδ ορ ρεπεατεδ αξτ ʽξπ. v. 409ʼ. τηε φορμ **ἐκάθαρα** ηας εαρλιερ επιγραπηιξ εvιδενξε ʽ347 β.ξ.ʼ τηαν ἐκάθηρα· σεε μειστερηανς, *γραμμ. αττ. ινσξηρ.* π. 86.
+ **καθάραντες** vulg., καθαίροντες L, and so most recent edd. But the present partic. cannot stand here; the removal of the dust was not a continued or repeated act (cp. v. 409). The form **ἐκάθαρα** has earlier epigraphic evidence (347 B.C.) than ἐκάθηρα· see Meisterhans, *Gramm. Att. Inschr.* p. 86.
 
- **προσεπισφάζει** λ· ἐπισφάζει vυλγ. ιι ἀποσφάζει λ· κατασφάζει vυλγ.
+ **προσεπισφάζει** L: ἐπισφάζει vulg. II ἀποσφάζει L: κατασφάζει vulg.
 
- **ἐπιβάλλει χῶμα,** βεξαυσε τηε στρεωινγ οφ δυστ ον τηε ξορπσε ωας α σψμβολιξαλ σεπυλτυρε· σεε v. 256, ανδ [ν. ον 10](#10). τηε πηρασε ις στρανγε, βυτ νο εμενδατιον σεεμς προβαβλε. 7 ἑαυτὴν εἰσαγγέλλει, ‘δενουνξες ηερσελφ’· σεε v. 435. 10 προθεσπίσαντος· αλλυδινγ το vv. 1064 φφ.
+ **ἐπιβάλλει χῶμα,** because the strewing of dust on the corpse was a symbolical sepulture: see v. 256, and [n. on 10](#10). The phrase is strange, but no emendation seems probable. 7 ἑαυτὴν εἰσαγγέλλει, ‘denounces herself’: see v. 435. 10 προθεσπίσαντος· alluding to vv. 1064 ff.
 
 ## 4. The persons of the drama
 
-ΑΝΤΙΓΟΝΗ ΑΙΜΩΝ ΙΣΜΗΝΗ ΤΕΙΡΕΣΙΑΣ ΧΟΡΟΣ ΘΗΒΑΙΩΝ ΓΕΡΟΝΤΩΝ ΑΓΓΕΛΟΣ ΚΡΕΩΝ ΕΥΡΥΔΙΚΗ ΦΥΛΑΞ ΕΞΑΓΓΕΛΟΣ τηε παρτς μαψ ηαvε βεεν ξαστ ας φολλοως·
+ΑΝΤΙΓΟΝΗ ΑΙΜΩΝ ΙΣΜΗΝΗ ΤΕΙΡΕΣΙΑΣ ΧΟΡΟΣ ΘΗΒΑΙΩΝ ΓΕΡΟΝΤΩΝ ΑΓΓΕΛΟΣ ΚΡΕΩΝ ΕΥΡΥΔΙΚΗ ΦΥΛΑΞ ΕΞΑΓΓΕΛΟΣ The parts may have been cast as follows:
 
- 1. προταγονιστ. αντιγονε. τειρεσιας. ευρψδιξε.
+ 1. Protagonist. Antigone. Teiresias. Eurydice.
 
- 2. δευτεραγονιστ. ισμενε. ωατξηερ. ηαεμον. μεσσενγερ. σεξονδ μεσσενγερ.
+ 2. Deuteragonist. Ismene. Watcher. Haemon. Messenger. Second Messenger.
 
- 3. τριταγονιστ. ξρεον.
+ 3. Tritagonist. Creon.
 
- σξηνειδεωιν γιvες ευρψδιξε το τηε σεξονδ αξτορ, ανδ τηε τωο μεσσενγερς το τηε φιρστ αξτορ. βυτ, ας τηε παρτ οφ ευρψδιξε ις μυξη λιγητερ τηαν τηε ξομβινεδ παρτς οφ τηε μεσσενγερς, ιτ ις μορε νατυραλλψ ασσιγνεδ το τηε φιρστ αξτορ, ωηο αλρεαδψ βεαρς τηε ηεαvιεστ βυρδεν. φρομ δεμοστηενες *δε φαλσα λεγατ.* § 247 ιτ ις κνοων τηατ τηε τηιρδ αξτορ πλαψεδ ξρεον.
+ Schneidewin gives Eurydice to the second actor, and the two Messengers to the first actor. But, as the part of Eurydice is much lighter than the combined parts of the Messengers, it is more naturally assigned to the first actor, who already bears the heaviest burden. From Demosthenes *De Falsa Legat.* § 247 it is known that the third actor played Creon.
 
- ιτ ις α γενεραλ ρυλε οφ γρεεκ τραγεδψ τηατ, ωηεν τηε προταγονιστ ρεπρεσεντς α ωομαν, τηε ξηορυς ρεπρεσεντ ωομεν. τηε δραματιξ μοτιvε φορ τηε εχξεπτιον ιν τηις πλαψ ις νοτιξεδ ιν τηε ιντροδυξτιον.
+ It is a general rule of Greek Tragedy that, when the protagonist represents a woman, the Chorus represent women. The dramatic motive for the exception in this play is noticed in the Introduction.
 
 ## 5. Structure of the play
 
-1. πρόλογος vερσες 1-99.
+1. πρόλογος verses 1-99.
 
  2. πάροδος 100-161.
 
  3. ἐπεισόδιον πρῶτον 162-331.
 
- 4. στάσιμον πρῶτον 332-375. αναπαεστς, 376-383.
+ 4. στάσιμον πρῶτον 332-375. Anapaests, 376-383.
 
  5. ἐπεισόδιον δεύτερον 384-581.
 
- 6. στάσιμον δεύτερον 582-625. αναπαεστς, 626-630.
+ 6. στάσιμον δεύτερον 582-625. Anapaests, 626-630.
 
  7. ἐπεισόδιον τρίτον 631-780.
 
- 8. στάσιμον τρίτον 781-800. αναπαεστς, 801-805.
+ 8. στάσιμον τρίτον 781-800. Anapaests, 801-805.
 
- 9. ἐπεισόδιον τέταρτον 806-943, βεγιννινγ ωιτη α κομμός, 806-882.
+ 9. ἐπεισόδιον τέταρτον 806-943, beginning with a κομμός, 806-882.
 
  10. στάσιμον τέταρτον 944-987.
 
  11. ἐπεισόδιον πέμπτον 988-1114.
 
- 12. ὑπόρχημα 1115-1154, τακινγ τηε πλαξε οφ α φιφτη στασιμον.
+ 12. ὑπόρχημα 1115-1154, taking the place of a fifth stasimon.
 
- 13. ἔξοδος 1155-1352, ινξλυδινγ α κομμός, 1261-1347.
+ 13. ἔξοδος 1155-1352, including a κομμός, 1261-1347.
 

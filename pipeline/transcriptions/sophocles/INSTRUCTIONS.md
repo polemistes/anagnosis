@@ -36,6 +36,9 @@ critical notes need no block, except that a left-hand page with Greek text alway
      `12: ours «πόλει» print «πόλις»`. Use our line number; for a line we lack, write the number
      of our line it should follow with `+`: `554+: ours «» print «τὸ μὴ φρονεῖν γὰρ …»`.
      Leave out differences of apostrophe shape (ʼ ’ ᾽) and of the spacing around punctuation.
+     Where Jebb divides a lyric passage into verses differently, report the moved words as
+     differences on both lines, and a line of ours that the print joins to the one before as
+     `N: ours «…» print «»`, so that the text can follow the print.
 
 ## Output format
 

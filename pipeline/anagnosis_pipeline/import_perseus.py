@@ -74,7 +74,10 @@ def tei_to_document(path: Path, meta: dict[str, str]) -> Document:
                 doc.items.append(Speaker(_inline_text(sp) if sp is not None else ""))
                 walk(child, depth)
             elif tag == "l":
-                doc.items.append(Line(child.get("n"), _inline_text(child)))
+                text = _inline_text(child)
+                if not text.strip() and child.find(f"{TEI}gap") is not None:
+                    text = "…"  # a verse lost in the Greek (<gap reason="lost"/>)
+                doc.items.append(Line(child.get("n"), text))
             elif tag == "stage":
                 doc.items.append(Stage(_inline_text(child)))
             elif tag in ("speaker", "milestone", "pb", "head"):

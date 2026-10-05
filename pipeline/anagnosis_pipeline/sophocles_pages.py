@@ -78,9 +78,9 @@ def prepare(sources: Path, out_dir: Path, slugs: list[str]) -> dict:
 
 # ---------------------------------------------------------------- batches
 
-def read_batches(directory: Path, prefix: str = "batch-") -> dict[str, dict]:
+def read_batches(directory: Path, prefix: str = "batch-", files: list[Path] | None = None) -> dict[str, dict]:
     pages: dict[str, dict] = {}
-    for path in sorted(directory.glob(f"{prefix}*.md")):
+    for path in files if files is not None else sorted(directory.glob(f"{prefix}*.md")):
         stem, section = None, None
         for raw in path.read_text(encoding="utf-8").splitlines():
             m = re.match(r"^=== (p-\d{4})\s*$", raw)
@@ -120,7 +120,7 @@ def _skel(s: str) -> str:
 
 def check_batch(path: Path, texts: Path, slug: str) -> list[str]:
     out: list[str] = []
-    pages = read_batches(path.parent, path.name.rsplit(".", 1)[0])
+    pages = read_batches(path.parent, files=[path])
     grc = _grc_lines(texts, slug)
     prev = 0
     for stem, block in pages.items():

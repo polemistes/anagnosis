@@ -8,7 +8,7 @@ from pathlib import Path
 from lxml import etree
 
 from . import greek
-from .commentary import _md_children
+from .commentary import _md, _md_children
 from .tei_p4 import load as load_p4
 
 
@@ -40,7 +40,7 @@ def import_introduction(source: Path, out: Path, meta: dict[str, str]) -> int:
     chapters = [
         ("introduction", "Introduction", False),
         ("texts", "Manuscripts, editions and commentaries", False),
-        ("hypotheses", "The ancient arguments", True),
+        ("hypotheses", "The ancient arguments", False),
     ]
     for part, chapter, grk_default in chapters:
         d1 = next((d for d in root.iter("div1") if d.get("n") == part), None)
@@ -54,7 +54,7 @@ def import_introduction(source: Path, out: Path, meta: dict[str, str]) -> int:
             if head is not None:
                 htxt = "".join(head.itertext()).strip()
                 title = HYPOTHESES_TITLES.get(i) if part == "hypotheses" else htxt
-                body = body.replace(_md_children(head, grk_default), "", 1)
+                body = body.replace(_md(head, grk_default), "", 1)
             body = re.sub(r"[ \t]+\n", "\n", body)
             body = re.sub(r"\n{3,}", "\n\n", body).strip()
             body = re.sub(r" +", " ", body)

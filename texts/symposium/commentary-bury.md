@@ -2991,7 +2991,7 @@ Observe the word-play ἔχ-ονται ἐχ-ίδνης.
 **ἀντὶ δόξης ἀλήθειαν κ.** “Real for sham beauties”: ἀλήθειαν καλῶν=ἀλήθινα καλά. Cp. *Phileb.* 36 C ff.; and for the antithesis, cp. [198 E](#198e1), [212 A](#212a1) *supra.*
 
 ## 219a1
-**χρύσεα χαλκείων**. A “familiar quotation” from *Il.* VI. 235—6 (Γλαῦκος) ὃς πρὸς Τυδείδην Διομήδεα τεύχἐ ἄμειβεν | χρύσεα χαλκείων, ἑκατόμβοἰ ἐννεαβοίων. Later reff. to the proverb are frequent, e.g. Plut. *adv. Stoic.* 1063 E; Clem. Alex. *Cohort. ad Gent.* 71 C. Cp. *Winter's Tale* I. 2 “take eggs for money.” In χρύσεα there is an obvious allusion to the ἀγάλματα χρυσᾶ of [216 E](#216e1).
+**χρύσεα χαλκείων**. A “familiar quotation” from *Il.* VI. 235—6 (Γλαῦκος) ὃς πρὸς Τυδείδην Διομήδεα τεύχεʼ ἄμειβεν | χρύσεα χαλκείων, ἑκατόμβοιʼ ἐννεαβοίων. Later reff. to the proverb are frequent, e.g. Plut. *adv. Stoic.* 1063 E; Clem. Alex. *Cohort. ad Gent.* 71 C. Cp. *Winter's Tale* I. 2 “take eggs for money.” In χρύσεα there is an obvious allusion to the ἀγάλματα χρυσᾶ of [216 E](#216e1).
 
 ## 219a2-219a3
 **ἥ τοι...ὄψις**. For this idea of the inverse development of vision, cp. *Laws* 715 D, *II. Alc.* 150 D. Rettig thinks that in this passage there may lie a ref. to *Phaedrus* 253 D ff., and an indication that the views there put forward are crude and the book itself “eine jugendliche Schrift.”
