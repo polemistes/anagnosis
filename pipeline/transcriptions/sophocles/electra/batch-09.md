@@ -197,3 +197,24 @@ Note 1013: L's αὐτῆ is printed without an iota subscript (enlarged).
 Note 1018: the lemma ᾔδη has the iota subscript; ἤδη (two MSS. of Thomas Magister) has none; L's ἠίδειν has a smooth breathing on η and the acute on ι; ἃ has a rough breathing and grave both times (enlarged and measured). "R" after "p. 143" is in small capitals.
 Note 1015: "l.c." after Suidas is printed without a space, "l. c." after Thomas Magister (1018) with one; kept.
 
+=== p-0237
+--- apparatus
++ μοι L, A, and Monacensis (cp. 950): αὐτοχειρί μοι most MSS. and Ald.: see below. Schol. in marg. of L, γρ. ἀλλ’ οὐδὲν ἧσσόν μοι.
+
+## 1022
+πᾶν γὰρ ἂν Dawes (*Misc. Crit.* p. 257): πάντα γὰρ ἂν L (the ἂν partly erased): πάντα γὰρ r, and Ald. Musgrave conj. πάντα γ’ ἂν: Arnold and Blaydes, πάντα τἂν.
+
+## 1023
+ἦ Elmsley: ἦν MSS.
+
+## 1024
+τοιαύτη νοῦν A, etc.: τοιαύτηι γοῦν L (an erasure at γ).
+
+## 1026
+εἰκὸς γὰρ] Wakefield conj. εἰκὸς κάκ’ (*Silv. Crit.* III. p. 85).—πράσσειν] πάσχειν
+--- notes
+The lemmas are in the ordinary (italic) Greek type, not bold.
+Notes 1022, 1023 and 1024 carry Jebb's numbers, which count φεῦ (our 1021) outside the verse (see p-0236): his 1022 πᾶν γὰρ ἂν is our 1023, his 1023 ἦ is our 1024, his 1024 τοιαύτη νοῦν is our 1024a. The headings are as printed.
+Note 1019 (run-on): αὐτοχειρί is printed with the acute on the last syllable (enlarged and measured).
+Notes 1019 and 1023: the breathings under the circumflex are very small; ἧσσόν (rough) looks different from ἦ and ἦν (smooth), which look alike (enlarged); written so.
+

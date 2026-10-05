@@ -262,9 +262,23 @@ def apply_text_check(doc, anchors: list[tuple[str, str]], diffs: list, parts: se
         if guess is None:
             warnings.append(f"printed {n} {word}: no line near it")
             continue
-        found = [i for i in range(max(0, guess - 8), min(len(lines), guess + 9))
-                 if lines[i].text.split() and _skel(lines[i].text.split()[0]) == _skel(word) and id(lines[i]) not in cont]
+        window = range(max(0, guess - 8), min(len(lines), guess + 9))
+        words = [_skel(w) for w in word.split()]
+        found = [i for i in window if id(lines[i]) not in cont
+                 and [_skel(w) for w in lines[i].text.split()[:len(words)]] == words]
         if not found:
+            # Jebb prints a number beside the wrapped end of a long lyric verse (ἄφρακτος |
+            # φίλων· 910): the verse ends there, so the next line takes the next number, and the
+            # verse is numbered by count from the lines before it
+            inside = [i for i in window if id(lines[i]) not in cont
+                      and words[0] in [_skel(w) for w in lines[i].text.split()[1:]]]
+            if inside:
+                i = min(inside, key=lambda i: abs(i - guess)) + 1
+                while i < len(lines) and id(lines[i]) in cont:
+                    i += 1
+                if i < len(lines):
+                    explicit.setdefault(i, str(num(n) + 1))
+                continue
             warnings.append(f"printed {n} {word}: no line begins so near our {n}")
             continue
         explicit[min(found, key=lambda i: abs(i - guess))] = n

@@ -35,7 +35,7 @@ The lemmas are in the ordinary Greek type, not bold.
 προὔστην] In L the scribe wrote πρόστην, but the ο has been altered (by himself?) to ȣ (=ου), with ″ over it.—Blaydes (1873) writes ’πέστην: so too, by independent conjecture, Wecklein (1877).
 --- notes
 The page has the translation at the top (no text check). The block begins with "omits γε), and Ald.: …", the end of the note on 1367 running on from p-0278.
-Note 1367: Hermann's ’γὼ is printed with a grave accent before the full stop (enlarged); kept as printed (so also in the commentary on p-0278).
+Note 1367: Hermann's ’γὼ is printed with a grave accent before the full stop (enlarged); kept as printed.
 Note 1372: L's ἧμιν has the rough breathing and the circumflex on η (enlarged). Fröhlich's ἐνδεὲς is printed with a grave before the closing parenthesis (enlarged); kept as printed.
 Note 1378: the lemma προὔστην has the coronis and acute on υ (enlarged). The ου ligature is printed as a sign like the figure 8, written ȣ; the mark over it is printed as a double stroke, written ″.
 The lemmas are in the ordinary Greek type, not bold.
@@ -135,4 +135,96 @@ Note 1396: L's ἑρμῆσ (medial σ at the end, as L writes) has the rough br
 Note 1398: the lemma ἅνδρες has the rough breathing and the reading of the MSS. ἄνδρες the smooth (enlarged; the difference is small in the small type, but this is the point of the note, and the text line has ἅνδρες).
 Note 1399: *i.e.* is in italics. Both ἔσω have the smooth breathing and acute; kept as printed.
 Note 1401: the note runs on to p-0283.
+The lemmas are in the ordinary Greek type, not bold.
+
+=== p-0283
+--- apparatus
++ altered to ώ, and a line drawn through ι.
+
+## 1403
+ἡμᾶς is omitted in the MSS. (though written above in the Ienensis), and Ald.: it was added by Reiske. Triclinius filled the gap by inserting αὐτὸς after Αἴγισθος.
+
+## 1404
+αἰαῖ Hermann: αἲ αἲ L.
+
+## 1405
+πλέαι] πλέᾳ Elmsley on Eur. *Med.* 259.
+
+## 1406
+τις] τίς Γ, L2.
+
+## 1407
+ἀνήκουστα] In L the υ has been added in a smaller character by a corrector. The two vv. in L are divided thus: ἤκουσ’ ἀνήκουστα δύ|στανοσ· ὥστε φρίξαι.—φρῖξαι Pal.,
+--- notes
+The page has the translation at the top (no text check). The block begins with "altered to ώ, …", the end of the note on 1401 running on from p-0282.
+Note 1401: the corrected letter is printed ώ with the acute (enlarged 6x); kept as printed.
+Note 1404: L's αἲ αἲ is printed with breathing and grave on each ι (enlarged 6x).
+Note 1405: Elmsley's πλέᾳ is printed with a mark under α that looks like an iota subscript (enlarged 6x); written as printed.
+Note 1407: the vertical bar in L's δύ|στανοσ marks L's division of the verses, as printed; L's στανοσ has the medial σ at the end, as L writes. L's φρίξαι has the acute, Pal.'s φρῖξαι the circumflex. The note runs on to p-0284.
+The lemmas are in the ordinary Greek type, not bold.
+
+=== p-0284
+--- numbers
+1410 ἰδοὺ
+1415 ὤμοι
+1420 παλίρρυτον
+--- differences
+1418a: ours «Αἰγίσθῳ θʼ ὁμοῦ.» print «Αἰγίσθῳ γ’ ὁμοῦ.»
+1420: ours «παλίρρυτον γὰρ αἷμʼ ὑπεξαιροῦσι τῶν» print «παλίρρυτον γὰρ αἷμ’ ὑπεξαιροῦσι τῶν κτανόντων»
+1421: ours «κτανόντων οἱ πάλαι θανόντες.» print «οἱ πάλαι θανόντες.»
+--- apparatus
++ and Hermann: φρίξαι most MSS., and Ald.
+
+## 1409
+ποῦ r, and Ald.: ποῖ L.
+
+## 1410
+ὦ τέκνον τέκνον T (Triclinius), Vindobonensis: ὦ τέκνον ὦ τέκνον L (in which these words form a separate v.), with most MSS., and Ald.
+
+## 1412
+οὐδ’ Vindobonensis, Dindorf: οὔθ’ L, with most MSS., and Ald.
+
+## 1413
+ὦ πόλις, ὦ γενεὰ] Gomperz conj. ὦ Πέλοπος γενεὰ, which Nauck and Wecklein adopt.—νῦν σοι is suggested by Hermann (who, however, kept σε), and independently by R. Whitelaw (*Sophocles translated into English Verse*, p. 437). νῦν σε MSS.: Bellermann writes νῦν σοῦ.
+
+## 1414
+καθαμερία Triclinius, and r: καθ’ ἡμερία L: καθημερία A, with most MSS., and
+--- notes
+The block begins with "and Hermann: …", the end of the note on 1407 running on from p-0283.
+1418a: the print has Αἰγίσθῳ γ’ ὁμοῦ (looked at twice, enlarged); ours θʼ.
+Line division 1420–1421: the print sets κτανόντων at the end of 1420 (παλίρρυτον … τῶν κτανόντων, with the margin number 1420), and 1421 is οἱ πάλαι θανόντες.; ours begins 1421 with κτανόντων. The words agree.
+Numbering: the print sets ἤκουσ’ ἀνήκουστα δύστανος, ὥστε φρῖξαι. (p-0282) as one line, but counts it as two (note 1407: "The two vv. in L are divided thus"), so οἴμοι τάλαιν’ is Jebb's 1409 (note 1409 ποῦ), ours 1408. Likewise ὤμοι μάλ’ αὖθις … Αἰγίσθῳ γ’ ὁμοῦ (ours 1418, 1418a) is Jebb's 1416 and τελοῦσ’ ἀραί … (ours 1419) his 1417 (notes 1416 and 1417 on p-0285); the printed line παλίρρυτον … κτανόντων carries both note 1419 and the margin number 1420 (ours 1420). No margin number stands on these lines, so the checker cannot see this.
+1413 and 1423: the print has an asterisk before σοι (νῦν *σοι) and before ψέγειν (*ψέγειν), Jebb's mark for an emendation; the words agree with ours, so not listed as differences.
+ἀντ. stands before καὶ μὴν πάρεισιν (1422).
+Note 1407: φρίξαι (most MSS.) has the acute (enlarged).
+Note 1413: Gomperz's γενεὰ, has the grave before the comma (enlarged); the title *Sophocles translated into English Verse* is in italics, divided at the line end (Sopho-|cles), written whole.
+Note 1414: L's καθ’ ἡμερία is printed as two words, ἡμερία with the rough breathing (enlarged). The note runs on to p-0285.
+The lemmas are in the ordinary Greek type, not bold.
+
+=== p-0285
+--- apparatus
++ Ald.—φθίνει· φθίνει L (the first ι of the second φθίνει made from ο). φθίνει φθίνει is also in Γ, L2, Pal., T: while A, with a few others, and the Aldine, have φθίνει only once. Hermann wrote φθίνειν, φθίνειν. Dindorf conj. φθίνειν ἔχει. Blaydes gives φθίνειν φθίσει (dat. of φθίσις).
+
+## 1416
+Αἰγίσθῳ γ’] γ’ Hermann: θ’ L, with most MSS., and Ald.: δ’ r.
+
+## 1417-1421
+L divides the vv. thus:—τελοῦσ’—| γᾶσ— | πολλύρυτον— | κτανόντων..θανόντεσ.
+
+## 1417
+τελοῦσ’ Triclinius: τελοῦσιν L, A, etc., and Ald.
+
+## 1419
+παλίρρυτον Bothe: πολύρρυτον MSS. (πολλύρυτον L). Fröhlich conj. νεόρρυτον.
+
+## 1422
+The MSS. and the Aldine give these two vv. to Electra. Hermann first restored them to the Chorus.
+
+## 1423
+L has the υ of
+--- notes
+The page has the translation at the top (no text check). The block begins with "Ald.—φθίνει· φθίνει L …", the end of the note on 1414 running on from p-0284.
+Notes 1416, 1417 and 1419 are on Jebb's numbering: his 1416 is ὤμοι μάλ’ αὖθις … Αἰγίσθῳ γ’ ὁμοῦ (ours 1418, 1418a), his 1417 τελοῦσ’ ἀραί … (ours 1419), his 1419 παλίρρυτον … (ours 1420, which has the margin number 1420 on p-0284).
+Note 1417-1421: the vertical bars mark L's division of the verses, as printed; L's γᾶσ and θανόντεσ have the medial σ at the end, as L writes; κτανόντων..θανόντεσ has two dots, as printed.
+Note 1423: the note runs on to the next page (p-0286).
 The lemmas are in the ordinary Greek type, not bold.

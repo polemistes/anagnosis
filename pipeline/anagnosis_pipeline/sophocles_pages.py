@@ -324,7 +324,8 @@ def text_check(directory: Path, prefix: str = "batch-") -> tuple[list[tuple[str,
     anchors, diffs = [], []
     for stem in sorted(pages):
         for raw in pages[stem]["numbers"]:
-            m = re.match(r"^(\d+[a-z]?)\s+(\S+)", raw)
+            # the first word, or more where the first is not enough to find the line: "908 ὤμοι ἐμᾶς"
+            m = re.match(r"^(\d+[a-z]?)\s+(\S+(?:\s+[\u0370-\u03ff\u1f00-\u1fff\u02bc\u2019]+)*)", raw)
             if m:
                 anchors.append((m.group(1), m.group(2)))
         for raw in pages[stem]["differences"]:

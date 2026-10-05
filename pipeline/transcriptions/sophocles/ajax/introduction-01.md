@@ -101,3 +101,51 @@ will be found in the Appendix on 966. Morstadt’s rearrangement of 1067—1070,
 
 *Interpolation.* The interpolation of whole verses has occurred in four places. (1) Verse 554 b
 (τὸ μὴ φρονεῖν γὰρ κάρτ’ ἀνώδυνον κακόν) may have
+=== p-0066
++ crept into the text from the margin, where it had been cited as a parallel passage. (2) Verse
+571, μέχρις οὗ μυχοὺς κίχωσι τοῦ κάτω θεοῦ, is clearly spurious. (3) The four verses, 839—842,
+are rejected by several critics. I hold rather with those who condemn only 841 and 842. (4)
+Verse 1417, Αἴαντος, ὅτ’ ἦν, τότε φωνῶ, may safely be rejected. Of smaller interpolations, the
+most noteworthy is that in 714, where, instead of the simple μαραίνει, all the MSS. have
+μαραίνει τε καὶ φλέγει. Heath was the first critic who pointed out the spurious words, and
+Brunck the first editor who omitted them. In v. 884 most MSS. (including L) have ἴδρις
+interpolated after ποταμῶν. The interpolation of ἠνεμόεσσαν after Τροίαν in 1190 is confined
+to a few of the later MSS. (see cr. n.).
+
+Besides the verses mentioned above, many others in this play have been condemned or suspected
+as spurious by various scholars. The following is a list of them (so far as known to me):—
+
+4—6 Nauck would substitute one verse for these three, viz. Αἴαντ’ ἰχνοσκοποῦντα,
+τεκμαρούμενον. 68—70 E. Reichard. 289—291 Nauck would reduce these three vv. to two (see cr.
+n.). 314 Nauck. 327 Nauck and Wecklein. 433 Morstadt and Nauck. 522 Dobree (‘An delendus
+versus?’). 546 Dindorf. 660 Geel. 674—676 Morstadt. 734 Wecklein (*Ars Soph. em.* p. 122). 812
+Dindorf and others. (Leeuwen would put v. 786 in the place of 812.) 835 f. Mekler would reduce
+these two vv. to one. 843 f. O. Jahn. 853 and 855 Geel. 855—865 Bergk. 856—858 O. Jahn. 865
+Geel and Herwerden. 918 f. Nauck. 966—970 Nauck. (Several other critics reject some part of
+vv. 966—973; see Appendix.) 1028—1039 Morstadt and Nauck, 1058 f. Nauck would reduce these two
+vv. to one. 1061 Nauck. 1069 f. Nauck. 1105 f. Schneidewin, Dindorf, Nauck, Wecklein. 1248 f.
+Nauck would reduce these two vv. to one. 1257—1263 E. Reichard. 1262 Nauck. 1290 Nauck.
+1291—1298 Nauck. (Mor. Schmidt rejects only 1293, 1294.) 1311 f. Lissner (mentioned by
+Wecklein, *Ars* p. 118) would reduce these two vv. to one. 1336—1339 Morstadt. 1337 Nauck.
+1396—1398 Nauck. (Schneidewin rejects only 1396, 1397.) 1402—1413 Nauck brackets the passage
+beginning with ἤδη and ending with μένος. 1418—1420 F. Ritter.
+
+In no one of these instances does the suspicion or rejection appear to me well-founded; in most
+of them it seems wholly gratuitous. But it is needless to repeat what I have said in former
+volumes on this tendency in textual criticism, against which, as we may be thankful to observe,
+a reaction seems at last to be setting in. It is the duty of an editor to acquaint his readers
+with the opinions advanced by scholars of repute, however much he may differ from them. The
+best way of vindicating an unduly impugned text is to provide students with the means of
+examining each point for themselves.
+=== p-0067
+## § 5 — Editions.
+
+The complete editions of Sophocles which have been consulted are enumerated in the Introduction
+to the *Oedipus Tyrannus* (3rd ed., p. lxi). I have used also C. A. Lobeck’s commentary on the
+*Ajax* (3rd ed., Berlin, 1866); the edition of the *Ajax*, with notes chiefly critical, by
+Moritz Seyffert (Berlin, 1866); the edition with commentary and critical notes by G. Wolff,
+revised by L. Bellermann (4th ed., Leipsic, 1887); and the commentary by F. A. Paley (London,
+1880). Mention is also due to an edition of the *Ajax*, with critical and explanatory notes, by
+C. E. Palmer (London, 1877), designed especially as a protest against conjectural emendation,
+and exhibiting the same characteristics which I have described in reference to his edition of
+the *Oedipus Coloneus* (Introd. to *Oed. Col.*, 2nd ed., p. lvi).

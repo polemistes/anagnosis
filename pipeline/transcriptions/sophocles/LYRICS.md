@@ -39,6 +39,13 @@ word, as in the first pass: `401a ἀλκίμα` (his 401 is ἀλλά μʼ ἁ 
 any other number you can establish for a line our numbering misplaces (`354 οἴμʼ`). The import
 then numbers the lines between the fixed points.
 
+A long verse that wraps onto an indented second line usually covers two or more of the
+traditional numbers, and Jebb prints the margin number beside the line where that number falls,
+often the wrapped end (`ἄφρακτος | φίλων· 910`). His note headings show which number each part
+of the verse has (908 ὤ μοι, 909 οἶος, 910 ἄφρακτος): give the verse's FIRST number as a fixed
+point with its first two words where one is not enough to find it (`908 ὤμοι ἐμᾶς`). Our line
+then carries the first number, and the numbers it covers are skipped, as in the print.
+
 ## Output
 
 One file per task, `transcriptions/sophocles/<play>/lines-NN.md` (the name is in your task),

@@ -30,7 +30,7 @@ The block begins with "conj. προσβλέπουσα.—μου] Morstadt conj. 
 1242: the print has ἀεί, not αἰεί (enlarged).
 1239: the print has an asterisk after μὰ (μὰ* τὴν, Jebb's mark for an emendation); the words agree with ours, so not listed as a difference.
 στρ. stands before ΗΛ. ἰὼ γοναί (1232); the small numbers 2–11 before the verses are the numbering within the strophe and are not listed.
-Note 1225: Blaydes' ὦδέλφ’ is printed with the smooth breathing and circumflex on ω and the acute on ε (enlarged 3x).
+Note 1225: Blaydes' ὦδέλφ’ is printed with the smooth breathing and circumflex on ω and the acute on ε (enlarged 3x). The iota subscript of the lemma πύθῃ is faint at this size (enlarged 3x); written as in the text line, where it is clear.
 Note 1226: L's ἔχοισ and ἔχεισ are printed with the medial σ at the end, as L writes; kept. Kvíčala as printed elsewhere (acute on i, háček on c).
 Note 1229: Bergk's μοὐμφανῶς has the coronis on υ (enlarged 3x). The note runs on to p-0263.
 The lemmas are in the ordinary Greek type, not bold.
@@ -59,9 +59,9 @@ L has ἰὼ γοναὶ σωμάτων ἐμοὶ φιλτάτων as a single 
 --- notes
 The block begins with "p. 60.)", the end of the note on 1229 running on from p-0262. The note on 1242 runs on to p-0264.
 Note 1230: L's reading is printed letter-spaced (ὁ ρ ῶ μεν); written ὁρῶ μεν.
-Note 1232: "1232 f." is the label; "See com-|ment." in 1239 is divided at the line end and joined.
+Note 1232: "1232 f." is the label.
 Note 1235: Heimsoeth's εἵλεθ’ read with the rough breathing (from αἱρέω); at this size (enlarged 5x) the breathing of εἵλεθ’ is hard to tell from the smooth one of εἴδεθ’ before it.
-Note 1239: L's ἄρτεμϊν is printed in small letters with a diaeresis on ι (enlarged 6x); kept as printed. οὔ (twice) has the smooth breathing and acute.
+Note 1239: L's ἄρτεμϊν is printed in small letters with a diaeresis on ι (enlarged 6x); kept as printed. οὔ (twice) has the smooth breathing and acute. "See com-|ment." is divided at the line end and joined.
 The lemmas are in the ordinary Greek type, not bold.
 
 === p-0264

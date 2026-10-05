@@ -41,6 +41,7 @@ The lemmas are in the ordinary (italic) Greek type, not bold.
 λόγῳ] λόγωι L (but with οισ written above by the 1st hand), Γ: λόγοις A, with most MSS., and Ald.
 --- notes
 Note 758 (continued): φλογιστὸν, σποδὸν, σποδοὺς and βαιὰν are printed with the grave before the comma or bracket; kept as printed. Kvíčala is printed with the acute on í and the háček on č (enlarged).
+Note 761: the letters οισ written above in L are printed with the medial σ at the end, as L writes; kept.
 The lemmas are in the ordinary (italic) Greek type, not bold.
 
 === p-0208
@@ -172,6 +173,7 @@ The lemmas are in the ordinary (italic) Greek type, not bold.
 --- differences
 800: ours «κατάξιʼ ἂν» print «καταξίως»
 807: ours «φροῦδος·» print «φροῦδος.»
+807: ours «ὦ» print «ὢ»
 807: ours «ἐγώ.» print «ἐγώ·»
 818: ours «ξύνοικος, εἴσειμʼ» print «ξύνοικος *εἴσειμʼ»
 --- apparatus
@@ -193,13 +195,40 @@ The lemmas are in the ordinary (italic) Greek type, not bold.
 κἀπικωσύσαι L.
 
 ## 807
-ὦ] The scribe of L meant (I think) to write ὦ, not
+ὢ] The scribe of L meant (I think) to write ὢ, not
 --- notes
 800: the print reads καταξίως (looked at twice, enlarged; Jebb's commentary: "The change of καταξίως into κατάξι’ ἂν, though specious, is not probable"); ours κατάξιʼ ἂν.
-807: the print has a full stop on the baseline after φροῦδος and a raised point after ἐγώ (looked at twice, enlarged); ours has the raised point after φροῦδος and a full stop after ἐγώ.
-818: the print has no comma after ξύνοικος and an asterisk before εἴσειμ’, Jebb's sign for an emendation (looked at twice, enlarged); ours has the comma and no asterisk.
 803: αὑτῆς has the rough breathing in the print (enlarged), as ours; not a difference.
-Note 800: Paley's ἐπει τἂν is printed with no accent on the ι of ἐπει (looked at twice, enlarged); τἂν has the coronis and grave. Bergk's ἂν (801) and Monk and Bothe's κατάξι’ ἂν have the grave; Henneberg and Schneidewin's ἄν the acute.
+807: the print has a full stop on the baseline after φροῦδος and a raised point after ἐγώ (looked at twice, enlarged); ours has the raised point after φροῦδος and a full stop after ἐγώ.
+807: the print has ὢ, with the star-shaped mark of smooth breathing and grave, unlike the arched circumflex of ὧδ’ in 806 (looked at twice, enlarged); ours ὦ. Jebb's note 807 (continued on p-0213) gives the reason: L meant ὢ, not ὦ.
+818: the print has no comma after ξύνοικος and an asterisk before εἴσειμ’, Jebb's sign for an emendation (Hermann's, see note 818); looked at twice, enlarged; ours has the comma and no asterisk.
+Note 800: Paley's ἐπει τἂν is printed with no accent on the ι of ἐπει (looked at twice, enlarged; the commentary on this page quotes it as ἐπεί τἂν); transcribed as printed. τἂν has the coronis and grave. Bergk's ἂν (801) and Monk and Bothe's κατάξι’ ἂν have the grave; Henneberg and Schneidewin's ἄν the acute.
 Note 805: L's κἀπι-κωσύσαι is divided at the line end in the print; joined. The print has κωσύσαι with σ (enlarged), not κωκύσαι.
-Note 807: the lemma ὦ has the smooth breathing and circumflex; the form after "to write" is small and blurred (enlarged): read as ὦ, perhaps ὤ.
+Note 807: the lemma ὢ and the form after "to write" (ὢ) have the small two-stroke mark of smooth breathing and grave, not the arched circumflex of ὦ at the top of p-0213 (enlarged, compared).
+The lemmas are in the ordinary (italic) Greek type, not bold.
+
+=== p-0213
+--- apparatus
++ ὦ, though the accent is little more than a dot (just as on υἱὸν in 806). When he intends ὦ, the curve of the circumflex is usually traceable, as, *e.g.*, in 766, 769.
+
+## 809
+The scribe of L wrote φρενὸσ οἴχηι. A later hand has erased this, and written οἴχη φρενόσ.
+
+## 811
+ἥξειν] In L the ν has been added by S.
+
+## 812
+μολεῖν] Schneidewin conj. μένειν: G. Wolff and Blaydes, βλέπειν.
+
+## 814
+πατρός. ἤδη δεῖ Brunck. πατρὸς ἤδη· δεῖ MSS. (πατρὸς ἤδη, δεῖ Ald.). Blaydes writes, ἤδη, καί με δουλεύειν πάλαι | δεῖ τοῖσιν κ.τ.λ.
+
+## 816
+This v. is rejected by Morstadt, Schöll and Todt.
+
+## 818
+ξύνοικος εἴσειμ’ Hermann: ξύνοικοσ ἔσσομ’ (made by a later hand from ἔσομ’) L, with most MSS., and Ald.: ξύνοικος ἔσομαι r. Dawes conj. ἔσομαι ξύνοικος: Erfurdt, ξύνοικος ἔσομαι τῇδέ γ’: Blaydes writes τόνδ’ οἶκον εἴσειμ’:
+--- notes
+The first line completes note 807 from p-0212: here ὦ (twice) has the arched circumflex (enlarged).
+Note 809: L's φρενὸσ, φρενόσ and, in 818, ξύνοικοσ are printed with the medial σ at the end, as L writes; kept. The later hand's οἴχη shows no iota subscript (enlarged), unlike the 1st hand's οἴχηι.
 The lemmas are in the ordinary (italic) Greek type, not bold.

@@ -32,5 +32,9 @@ Verse 4 is θεῶν δʼ αὖ πάνθυτα … σέβων, run over to με�
 === p-0224
 --- differences
 912: ours «ἄϊδρις, κατημέλησα.» print «ἄϊδρις, | κατημέλησα.»
+--- numbers
+906 αὐτὸς
+908 ὤμοι ἐμᾶς
+(fixed points from Jebb's note headings, added in review)
 --- notes
 The print sets ἐγὼ δʼ ὁ πάντα κωφός, ὁ πάντʼ ἄϊδρις, (colon 29) and κατημέλησα. πᾷ πᾷ (colon 30) as two verses, each with its colon number and at the verse margin; ours has them as one line, 912. Verse 28 (ὤμοι … ἄφρακτος, run over to φίλων·, the margin number 910 beside the run-over) is our 911, and verses 26, 27 and 31 are our 907, 910 and 913. Tecmessa's iambics 915–921 agree with ours line for line.

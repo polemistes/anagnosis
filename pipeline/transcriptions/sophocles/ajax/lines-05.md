@@ -6,6 +6,11 @@ No changes on p-0226 and p-0230: the verses of texts/ajax/grc.txt are the printe
 1186: ours «δορυσσοήτων» print «δορυσσοήτων μόχθων ἄταν ἐπάγων»
 1196: ours «Ἕλλασι κοινὸν Ἄρη.» print «»
 1195: ours «ὅπλων» print «ὅπλων Ἕλλασι κοινὸν Ἄρη.»
+--- numbers
+1187 τὰν
+1192 ὄφελε
+1194 κεῖνος
+(fixed points from Jebb's note headings, added in review)
 --- notes
 Strophe and antistrophe (στρ. α΄., ἀντ. α΄.) are printed in four verses each, colon numbers 2–4 before the second to fourth. Verse 2 of the strophe is τὰν ἄπαυστον … δορυσσοήτων μόχθων ἄταν, run over to ἐπάγων (our 1186 and 1187); verse 2 of the antistrophe is κεῖνος ἁνήρ … ὅπλων Ἕλλασι, run over to κοινὸν Ἄρη. (our 1195 and 1196). The run-over lines (ἀριθμός, ἐπάγων, Ἅιδαν, κοινὸν Ἄρη.) are indented deeper than the verses and have no colon number; our 1185 and 1192 already hold theirs.
 The margin 1185 stands beside the run-over ἀριθμός, (verse 1, our 1185) and 1196 beside the run-over κοινὸν Ἄρη., so after the join the printed 1196 falls inside our 1195; 1190 begins our 1190 (ἀν τὰν).
