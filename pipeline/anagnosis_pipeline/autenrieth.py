@@ -158,7 +158,12 @@ def check_all(directory: Path, pages_dir: Path) -> list[str]:
         if first.startswith("+ "):
             head = re.match(r"\+ ([^\W\d_]+)", first)
             tail = re.search(r"([^\W\d_]+)[^\w]*$", last)
-            if head and tail and len(head.group(1)) > 1 and tail.group(1) != head.group(1) \
+            divided = re.search(r"([^\W\d_]+)-$", last.rstrip())
+            if divided and head and head.group(1) != divided.group(1) and head.group(1).startswith(divided.group(1)):
+                out.append(f"{where}: '{divided.group(1)}-' and '{head.group(1)}' again on the next column: the word twice?")
+            elif head and tail and len(head.group(1)) > 3 and tail.group(1) == head.group(1):
+                out.append(f"{where}: '{head.group(1)}' at the foot of the column and again at the top of the next: written twice?")
+            elif head and tail and len(head.group(1)) > 1 and tail.group(1) != head.group(1) \
                     and tail.group(1).endswith(head.group(1)) and not last.rstrip().endswith("-"):
                 out.append(f"{where}: '{tail.group(1)}' is written whole and its end '{head.group(1)}' again on the next column?")
         elif last.rstrip().endswith("-") and re.search(r"[^\W\d_]-$", last.rstrip()):
