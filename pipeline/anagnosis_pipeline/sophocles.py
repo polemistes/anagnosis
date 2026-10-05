@@ -329,4 +329,9 @@ def import_play(slug: str, sources: Path, texts: Path, build: Path, lexicon: Pat
         print(f"wrote {out / 'commentary-jebb.md'}: {n} notes")
         n = import_introduction(sources / files["commentary"], out / "introduction.md", {
             "title": "Introduction", "author": "Richard C. Jebb", "source": source, "license": "CC BY-SA 3.0 US"})
-        print(f"wrote {out / 'introduction.md'}: {n} sections")
+        if n:
+            print(f"wrote {out / 'introduction.md'}: {n} sections")
+        else:
+            # Perseus lacks this play's introduction (the Oedipus Tyrannus): it is transcribed instead
+            (out / "introduction.md").unlink()
+            print(f"no introduction in {files['commentary']}")

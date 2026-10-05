@@ -85,8 +85,8 @@ line 503. Everything else is plain text.
 
 ## Sources and licences
 
-* Greek text: Perseus Digital Library, `urn:cts:greekLit:tlg0011.tlg002.perseus-grc2`
-  (Storr's Loeb text, 1912). CC BY-SA 4.0.
+* Greek text: R. C. Jebb's text (*The Antigone of Sophocles*, 1891), Perseus Digital Library,
+  `soph.ant_gk.xml`. CC BY-SA 3.0 US.
 * Lemmas and morphology: Ancient Greek Dependency Treebank 2.1 (Perseus). CC BY-SA 3.0 US.
 * Translation: R. C. Jebb (1891), Perseus `perseus-eng2`, modernized by Perseus. CC BY-SA 4.0.
 * Commentary: R. C. Jebb, *Sophocles: The Plays and Fragments, part III* (1900), Perseus. CC BY-SA 3.0 US.
@@ -153,6 +153,33 @@ Marks the OCR missed can be added by hand.
 Lemmas the dictionaries list under another headword, mostly Homeric forms:
 `lemma<TAB>headword`, e.g. `ἠέλιος	ἥλιος`. The word popup then shows the headword's entries and
 short definition. `check` counts aliased lemmas as covered.
+
+## Sophocles' other plays (`texts/ajax/`, `electra/`, `oedipustyrannus/`, `oedipuscoloneus/`, `philoctetes/`, `trachiniae/`)
+
+Like the Antigone, each play is R. C. Jebb's (*Sophocles: The Plays and Fragments*, Cambridge),
+made by `import-sophocles` from Perseus (`pipeline/anagnosis_pipeline/sophocles.py`, where
+`PLAYS` gives each play's volume and sources); edit the importer and the transcriptions, not the
+files here.
+
+* Greek text: Jebb's text from Perseus (`soph.<play>_gk.xml`), CC BY-SA 3.0 US, checked page by
+  page against the Internet Archive scans of Jebb's volumes (`SCANS` in `sophocles_pages.py`):
+  the transcription batches in `pipeline/transcriptions/sophocles/<play>/` record Jebb's printed
+  line numbers and every difference between the print and the Perseus text, and
+  `import-sophocles` applies them. For the Oedipus Tyrannus Perseus has the 1887 text, but the
+  only scan is of the third edition (1893); the text follows the scan. A verse that two or more
+  speakers share has its later parts lettered (591, 591a); the reader sets them staggered, as
+  printed.
+* Lemmas, morphology and syntax: the Ancient Greek Dependency Treebank (Ajax, Electra, Oedipus
+  Tyrannus, Trachiniae), CC BY-SA 3.0 US; GLAUx (Oedipus at Colonus, Philoctetes), automatic
+  and marked `# syntax: automatic`. Where Jebb's words differ from the treebank's, the lemma and
+  parse come from the analyser, listed in `pipeline/build/<play>-review.tsv` for checking.
+* Translation (`eng-jebb.txt`): Jebb's, Perseus `perseus-eng2` (Trachiniae `perseus-eng3`),
+  modernized by Perseus. CC BY-SA 4.0.
+* Commentary and introduction: Jebb's, from Perseus, CC BY-SA 3.0 US. Perseus lacks the
+  commentary on the Philoctetes and the introduction to the Oedipus Tyrannus.
+* Critical notes (`commentary-jebb-apparatus.md`): transcribed from the scans with the text
+  check, brief in `pipeline/transcriptions/sophocles/INSTRUCTIONS.md`, checked with
+  `check-sophocles-batch` and merged with `merge-sophocles-apparatus`.
 
 ## The Odyssey (`texts/odyssey/`)
 
