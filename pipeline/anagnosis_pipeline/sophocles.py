@@ -171,31 +171,68 @@ def _skel(s: str) -> str:
     return re.sub(r"[^α-ω]", "", greek.strip_diacritics(s).replace("ς", "σ"))
 
 
-def apply_text_check(doc, anchors: list[tuple[str, str]], diffs: list, parts: set[int]) -> tuple[dict[int, str], set[int], list[str]]:
-    """Jebb's printed text: the differences the transcribers found (keyed by our current line
-    numbers) applied, and the printed line numbers placed on our lines as fixed points.
-    Returns (fixed points by line index, the later parts of shared verses by index, warnings)."""
+def _printed(text: str) -> str:
+    """Jebb's printed words in the text's conventions: ʼ for the elision, ⟨ ⟩ for his additions,
+    and without the asterisk that marks his own emendations (his notes say so)."""
+    text = text.replace("\u2019", "\u02bc").replace("<", "\u27e8").replace(">", "\u27e9")
+    return re.sub(r"\*(?=[\u0370-\u03ff\u1f00-\u1fff])", "", text)
+
+
+def apply_text_check(doc, anchors: list[tuple[str, str]], diffs: list, parts: set[int],
+                     reference: dict[str, str] | None = None) -> tuple[dict[int, str], set[int], list[str]]:
+    """Jebb's printed text: the differences the transcribers found applied, and the printed line
+    numbers placed on our lines as fixed points.
+
+    A difference is keyed by the line number of the text the transcribers compared
+    (`reference`, number -> text: the play's reference-grc.txt), which may number a line
+    otherwise than this import does, and a transcriber may have used the printed number; so it
+    goes to the line near that number which holds the quoted words, the one whose words are the
+    reference line's first; an inserted line follows the line whose words are the reference
+    line's. Returns (fixed points by line index, the later parts of shared verses by index,
+    warnings)."""
     from .textfmt import Line
 
     warnings = []
+    reference = reference or {}
     cont = {id(l) for i, l in enumerate(doc.lines) if i in parts}
-    by_n = {l.n: l for l in doc.lines}
+
+    def num(n: str) -> int:
+        m = re.match(r"\d+", n)
+        return int(m.group()) if m else -1
+
+    def locate(n: str, ours: str | None) -> int | None:
+        lines = doc.lines
+        guess = next((i for i, l in enumerate(lines) if l.n == n), None)
+        if guess is None:
+            near = [i for i, l in enumerate(lines) if num(l.n) >= 0]
+            if not near:
+                return None
+            guess = min(near, key=lambda i: abs(num(lines[i].n) - num(n)))
+        window = sorted(range(max(0, guess - 8), min(len(lines), guess + 9)), key=lambda i: abs(i - guess))
+        ref = reference.get(n)
+        same = [i for i in window if ref is not None and _skel(lines[i].text) == _skel(ref)]
+        if ours is None:
+            return same[0] if same else guess
+        hits = [i for i in window if ours in lines[i].text]
+        return next((i for i in same if i in hits), hits[0] if hits else None)
+
     for n, insert, ours, printed in diffs:
-        line = by_n.get(n)
-        if line is None:
-            warnings.append(f"difference at {n}: no such line")
+        printed = _printed(printed)
+        if ours and not any(ours in l.text for l in doc.lines):
+            ours = ours.replace("\u2019", "\u02bc")
+        i = locate(n, None if insert or not ours else ours)
+        if i is None:
+            warnings.append(f"difference at {n}: «{ours}» not found near it")
             continue
+        line = doc.lines[i]
         if insert:
-            new = Line(n + "z", printed)
-            doc.items.insert(doc.items.index(line) + 1, new)
+            doc.items.insert(doc.items.index(line) + 1, Line(line.n + "z", printed))
         elif not printed and ours and ours.strip() == line.text.strip():
             doc.items.remove(line)
-        elif ours and line.text.count(ours) >= 1:
+        elif ours:
             line.text = line.text.replace(ours, printed, 1)
-        elif not ours and printed:
+        elif printed:
             line.text = (line.text + " " + printed).strip()
-        else:
-            warnings.append(f"difference at {n}: «{ours}» not in «{line.text}»")
     lines = doc.lines
     explicit: dict[int, str] = {}
     current = {l.n: i for i, l in enumerate(lines)}
@@ -215,6 +252,31 @@ def apply_text_check(doc, anchors: list[tuple[str, str]], diffs: list, parts: se
         explicit[min(found, key=lambda i: abs(i - guess))] = n
     new_parts = {i for i, l in enumerate(lines) if id(l) in cont}
     return explicit, new_parts, warnings
+
+
+def perseus_anchors(lines, stated: dict[int, str], printed: dict[int, str], reach: int = 10) -> dict[int, str]:
+    """The numbers the Perseus file states (`stated`: id of the line -> number) as fixed points
+    where no printed number is near (pages not yet checked), in order with the printed ones."""
+    import bisect
+
+    def num(n: str) -> int:
+        return int(re.match(r"\d+", n).group())
+
+    fixed = sorted(printed)
+    out: dict[int, str] = {}
+    for i, line in enumerate(lines):
+        n = stated.get(id(line))
+        if n is None:
+            continue
+        k = bisect.bisect_left(fixed, i)
+        before = fixed[k - 1] if k else None
+        after = fixed[k] if k < len(fixed) else None
+        if (before is not None and i - before <= reach) or (after is not None and after - i <= reach):
+            continue
+        if (before is not None and num(printed[before]) >= num(n)) or (after is not None and num(printed[after]) <= num(n)):
+            continue
+        out[i] = n
+    return out
 
 
 def label_parts(doc, play: Play) -> None:
@@ -266,10 +328,12 @@ def import_play(slug: str, sources: Path, texts: Path, build: Path, lexicon: Pat
     # Jebb's printed page, where the transcribers have checked it: his readings and his numbers
     checked = sources.parent / "transcriptions" / "sophocles" / slug
     if any(checked.glob("batch-*.md")):
-        from .sophocles_pages import text_check
+        from .sophocles_pages import read_reference, text_check
 
         anchors, diffs = text_check(checked)
-        explicit, parts, warnings = apply_text_check(grc, anchors, diffs, parts)
+        stated_ids = {id(grc.lines[i]): grc.lines[i].n for i in stated}
+        explicit, parts, warnings = apply_text_check(grc, anchors, diffs, parts, read_reference(checked))
+        explicit.update(perseus_anchors(grc.lines, stated_ids, explicit))
         for w in warnings:
             print("  text check: " + w, file=sys.stderr)
         for w in renumber_verses(grc, tb, parts, explicit):

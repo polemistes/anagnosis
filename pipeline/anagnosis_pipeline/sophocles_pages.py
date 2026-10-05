@@ -280,6 +280,20 @@ def text_check(directory: Path) -> tuple[list[tuple[str, str]], list[tuple[str, 
     return anchors, diffs
 
 
+def read_reference(directory: Path) -> dict[str, str]:
+    """The text the batches compared (reference-grc.txt: texts/<play>/grc.txt as it stood while
+    they were made), whose line numbers their differences use: number -> text."""
+    path = directory / "reference-grc.txt"
+    if not path.exists():
+        return {}
+    out = {}
+    for raw in path.read_text(encoding="utf-8").splitlines():
+        m = re.match(r"^(\d+[a-z]?)\t(.*)$", raw)
+        if m:
+            out[m.group(1)] = m.group(2)
+    return out
+
+
 def bold_lemmas(text: str) -> str:
     """Jebb's lemma before ']' in bold where the transcription has it plain (the later volumes
     print it in ordinary type): at the start of a note or after a dash."""
@@ -288,4 +302,4 @@ def bold_lemmas(text: str) -> str:
         if "**" in lemma or not re.search(r"[Ͱ-Ͽἀ-῿]", lemma) or re.search(r"[A-Za-z]{3,}", lemma):
             return m.group(0)
         return f"{m.group(1)}**{lemma.strip()}**]"
-    return re.sub(r"(^|—\s*|\.\s{1,2})([^\]\*—\n]{1,60}?)\](?=[\s,:;.])", repl, text, flags=re.M)
+    return re.sub(r"(^|—\s*|\.\s{1,2})((?:(?!\.\s)[^\]\*—\n]){1,60}?)\](?=[\s,:;.])", repl, text, flags=re.M)
