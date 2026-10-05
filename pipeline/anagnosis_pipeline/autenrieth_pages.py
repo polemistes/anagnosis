@@ -56,6 +56,26 @@ def _lines(frags: list) -> list[tuple]:
     return [(y0, y1, x0, x1, " ".join(p[4] for p in sorted(parts, key=lambda p: p[2]))) for y0, y1, x0, x1, parts in lines]
 
 
+def gutter(body: list, x0: float, x1: float) -> float:
+    """x of the gutter between the columns: in the middle of the text block, the middle of the
+    widest strip that the fewest words cover. (Not the middle of the text block: a line or a
+    woodcut that sticks out on one side moves that into a column and cuts off its letters.)"""
+    if not body:
+        return (x0 + x1) / 2
+    w = x1 - x0
+    xs = [x0 + w * 0.3 + i * 0.5 for i in range(int(w * 0.4 / 0.5))]
+    cover = [sum(1 for f in body if f[2] <= x <= f[3]) for x in xs]
+    least = min(cover)
+    best, start = (0, 0, 0), None
+    for i, c in enumerate(cover + [least + 1]):
+        if c == least and start is None:
+            start = i
+        elif c != least and start is not None:
+            best = max(best, (i - start, start, i - 1))
+            start = None
+    return (xs[best[1]] + xs[best[2]]) / 2
+
+
 def layout(page: dict) -> dict:
     """The running head, the column boundary and each column's lines."""
     frags = [f for f in page["frags"] if f[4].strip()]
@@ -67,11 +87,10 @@ def layout(page: dict) -> dict:
     body = [f for f in frags if f[0] >= top_y + 12]
     x0 = min(f[2] for f in body) if body else 0
     x1 = max(f[3] for f in body) if body else page["width"]
-    mid = (x0 + x1) / 2
+    mid = gutter(body, x0, x1)
     left = [f for f in body if (f[2] + f[3]) / 2 < mid]
     right = [f for f in body if (f[2] + f[3]) / 2 >= mid]
-    # the gutter: where the left column's lines end and the right column's begin (not the
-    # middle of the text block, which cut off the first letters of a right column set wider)
+    # where the left column's lines end and the right column's begin
     ends = sorted(f[3] for f in left)
     starts = sorted(f[2] for f in right)
     left_end = ends[int(len(ends) * 0.97)] if ends else mid
@@ -125,8 +144,8 @@ def prepare(sources: Path, out_dir: Path) -> list[dict]:
         stem = f"a-{pno:04d}"
         top, bottom = lay["top"] - 6, lay["bottom"] + 4
         boxes = []
-        for side, lines, x0, x1 in (("l", lay["left"], lay["x0"] - 6, max(lay["mid"], lay["left_end"]) + 6),
-                                    ("r", lay["right"], min(lay["mid"], lay["right_start"]) - 8, lay["x1"] + 6)):
+        for side, lines, x0, x1 in (("l", lay["left"], lay["x0"] - 6, max(lay["mid"] + 2, lay["left_end"] + 6)),
+                                    ("r", lay["right"], min(lay["mid"] - 2, lay["right_start"] - 8), lay["x1"] + 6)):
             cut = _split(lines, top, bottom)
             for part, (y0, y1) in (("1", (top, cut + 3)), ("2", (cut - 3, bottom))):
                 boxes.append((f"{stem}-{side}{part}", (x0, y0, x1, y1)))

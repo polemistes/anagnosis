@@ -124,6 +124,48 @@ def check_batch(path: Path, pages_dir: Path) -> list[str]:
     return out
 
 
+def check_all(directory: Path, pages_dir: Path) -> list[str]:
+    """Checks across the batches: every page transcribed once, the alphabetical order from page
+    to page, and the seams where an entry runs on into the next column."""
+    out: list[str] = []
+    index = [p["stem"] for p in json.loads((pages_dir / "pages.json").read_text(encoding="utf-8"))]
+    seen: dict[str, str] = {}
+    for path in sorted(directory.glob("batch-*.md")):
+        for raw in path.read_text(encoding="utf-8").splitlines():
+            m = re.match(r"^=== (a-\d{4})\s*$", raw)
+            if m:
+                if m.group(1) in seen:
+                    out.append(f"{m.group(1)}: in {seen[m.group(1)]} and in {path.name}")
+                seen[m.group(1)] = path.name
+    missing = [s for s in index if s not in seen]
+    if missing:
+        out.append(f"{len(missing)} pages not transcribed yet: {missing[0]} … {missing[-1]}")
+    pages = read_batches(directory)
+    columns = [(stem, side, pages[stem][side]) for stem in index if stem in pages for side in ("left", "right")]
+    prev_word = prev_where = None
+    for (stem, side, lines), nxt in zip(columns, columns[1:] + [None]):
+        for i, line in enumerate(lines):
+            hw = headword(line)
+            if hw is None:
+                continue
+            if prev_word and prev_where.split()[0] != stem and sort_key(hw) and sort_key(hw) < sort_key(prev_word):
+                out.append(f"{stem} {side} {i + 1}: {hw} comes after {prev_word} ({prev_where}): out of alphabetical order?")
+            prev_word, prev_where = hw, f"{stem} {side} {i + 1}"
+        if nxt is None or not lines or not nxt[2] or index.index(nxt[0]) - index.index(stem) > 1:
+            continue
+        last, first = lines[-1], nxt[2][0]
+        where = f"{stem} {side} → {nxt[0]} {nxt[1]}"
+        if first.startswith("+ "):
+            head = re.match(r"\+ ([^\W\d_]+)", first)
+            tail = re.search(r"([^\W\d_]+)[^\w]*$", last)
+            if head and tail and len(head.group(1)) > 1 and tail.group(1) != head.group(1) \
+                    and tail.group(1).endswith(head.group(1)) and not last.rstrip().endswith("-"):
+                out.append(f"{where}: '{tail.group(1)}' is written whole and its end '{head.group(1)}' again on the next column?")
+        elif last.rstrip().endswith("-") and re.search(r"[^\W\d_]-$", last.rstrip()):
+            out.append(f"{where}: the column ends in a divided word but the next does not go on with it (+)")
+    return out
+
+
 def _ocr_column(md: Path, side: str) -> str:
     if not md.exists():
         return ""
@@ -159,7 +201,12 @@ def entries_from(pages: dict[str, dict]) -> list[tuple[str, int, str]]:
             for line in pages[stem][side]:
                 if line.startswith("+ "):
                     if out:
-                        out[-1][2] += " " + line[2:].strip()
+                        rest = line[2:].strip()
+                        # a word divided between two columns, written as two parts ("build-", "+ ing …")
+                        if re.search(r"[^\W\d_]-$", out[-1][2]) and re.match(r"[^\W\d_]", rest) and rest[:1].islower():
+                            out[-1][2] = out[-1][2][:-1] + rest
+                        else:
+                            out[-1][2] += " " + rest
                     continue
                 m = ENTRY_START.match(line)
                 if not m:

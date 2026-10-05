@@ -33,6 +33,13 @@ class AutenriethTest(unittest.TestCase):
         self.assertEqual([(h, n) for h, n, _t in entries], [("ἁμαρτῇ", 0), ("ἀ-μέρδω", 1), ("ἀμείβω", 0)])
         self.assertTrue(entries[1][2].endswith("θ 64. *dreadful;* voc., ρ 219."))
 
+    def test_a_word_divided_between_columns_is_joined(self):
+        (self.dir / "batch-001.md").write_text(
+            "=== a-0038\n--- head\nἀμείβω | ἀμείβω\n--- left\n+ a wall, ἀμείβοντες, the rafters of a build-\n"
+            "--- right\n+ ing, Ψ 712.\n", encoding="utf-8")
+        entries = entries_from(read_batches(self.dir))
+        self.assertTrue(entries[-1][2].endswith("the rafters of a building, Ψ 712."))
+
     def test_render_marks_meanings_references_and_senses(self):
         html = render("**ἀμείβω**: I. act., *change;* —II. mid., *answer*, Α 604, 605.")
         self.assertIn('<b class="orth">ἀμείβω</b>', html)

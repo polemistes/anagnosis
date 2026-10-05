@@ -31,6 +31,7 @@ def main(argv: list[str] | None = None) -> int:
     sub.add_parser("prepare-autenrieth-pages", help="page images and OCR drafts for transcribing Autenrieth's Homeric Dictionary (pipeline/build/autenrieth-pages/)")
     cab = sub.add_parser("check-autenrieth-batch", help="check Autenrieth transcription batch files")
     cab.add_argument("files", nargs="+")
+    sub.add_parser("check-autenrieth", help="check the whole Autenrieth transcription: pages missing or twice, order and seams between batches")
     sub.add_parser("import-syntax", help="regenerate texts/antigone/syntax-nodes.tsv (treebank punctuation and elliptic nodes) without touching the other files")
     sub.add_parser("check", help="validate texts/ (line numbers, token alignment, lexicon coverage)")
     m = sub.add_parser("merge-apparatus", help="merge transcription batches into texts/antigone/commentary-jebb-apparatus.md")
@@ -111,6 +112,13 @@ def main(argv: list[str] | None = None) -> int:
                 print("  " + p)
             bad += len(problems)
         return 1 if bad else 0
+    elif args.cmd == "check-autenrieth":
+        from .autenrieth import check_all as check_autenrieth_all
+        problems = check_autenrieth_all(ROOT / "pipeline" / "transcriptions" / "autenrieth", ROOT / "pipeline" / "build" / "autenrieth-pages")
+        print(f"{len(problems)} remarks")
+        for p in problems:
+            print("  " + p)
+        return 1 if problems else 0
     elif args.cmd == "import-syntax":
         from .import_perseus import import_syntax_nodes
         import_syntax_nodes(SOURCES, TEXTS)
