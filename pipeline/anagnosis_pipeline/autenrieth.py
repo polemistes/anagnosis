@@ -184,7 +184,7 @@ def check_all(directory: Path, pages_dir: Path) -> list[str]:
 GREEK_WORD = re.compile(r"[\u0370-\u03ff\u1f00-\u1fff\u0300-\u036f]+")
 BREATHING = ("\u0313", "\u0314")  # smooth, rough
 # crasis, whose coronis looks like a breathing inside the word
-CRASIS = {"τοὔνεκα", "τοὔνομα", "προὔχοντι", "προὔχω", "προὔφαινε", "προὐφάνη", "τἆλλα", "ταὐτά", "ταὐτῷ", "τοὐπίσω", "ὦνερ"}
+CRASIS = {"τοὔνεκα", "τοὔνομα", "προὔχοντι", "προὔχω", "προὔφαινε", "προὐφάνη", "τἆλλα", "ταὐτά", "ταὐτῷ", "τοὐπίσω", "ὦνερ", "ωὑτός", "ὡὑτός", "καὐτός", "καὐτή", "καὐτόν", "καὐτοί"}
 DIAERESIS = "\u0308"
 
 
