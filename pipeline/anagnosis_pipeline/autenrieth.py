@@ -48,7 +48,7 @@ def read_batches(directory: Path) -> dict[str, dict]:
 
 def headword(line: str) -> str | None:
     m = ENTRY_START.match(line)
-    return m.group(2).strip(" ,:;.()") if m else None
+    return m.group(2).strip(" ,:;.") if m else None
 
 
 def sort_key(word: str) -> str:
@@ -57,9 +57,14 @@ def sort_key(word: str) -> str:
     return "".join(c for c in s if "α" <= c <= "ω")
 
 
-def lemma_of(word: str) -> str:
+def lemma_of(word: str, full: bool = False) -> str:
     """The headword as a lemma: without the hyphens of a compound (nor the breathing that the
-    part after a hyphen keeps: μετ-εἶπον is μετεῖπον) or a trailing mark."""
+    part after a hyphen keeps: μετ-εἶπον is μετεῖπον) or a trailing mark. Letters printed in
+    parentheses are left out (ἄνευθε(ν) is ἄνευθε), or with `full` kept (ἄνευθεν)."""
+    word = word.strip(" ,:;.†")
+    if word.startswith("(") and word.endswith(")") and word.count("(") == 1:
+        word = word[1:-1]  # (βράχω): a form not found
+    word = word.replace("(", "").replace(")", "") if full else re.sub(r"\([^)]*\)", "", word)
     first, *rest = word.strip(" ,:;.†()").split("-")
     rest = [unicodedata.normalize("NFC", "".join(c for c in unicodedata.normalize("NFD", r) if c not in "\u0313\u0314"))
             for r in rest]
@@ -270,7 +275,7 @@ def entries_from(pages: dict[str, dict]) -> list[tuple[str, int, str]]:
                 m = ENTRY_START.match(line)
                 if not m:
                     continue
-                hw = m.group(2).strip(" ,:;.()")
+                hw = m.group(2).strip(" ,:;.")
                 if side == "left" and len(out) > page_start and sort_key(hw)[:1] and sort_key(out[-1][0])[:1] \
                         and sort_key(hw)[:1] > sort_key(out[-1][0])[:1]:
                     before_break = len(out) - 1
@@ -305,15 +310,20 @@ def parse_autenrieth(transcriptions: Path):
 
 
 def second_headwords(transcriptions: Path, entries: list) -> list[tuple[str, object]]:
-    """(lemma key, entry) for the further bold headwords of an entry (**αἰ**, **αἴ**)."""
+    """(lemma key, entry) for the further bold headwords of an entry (**αἰ**, **αἴ**), and for
+    the full form of a headword with letters in parentheses (ἄνευθε(ν): ἄνευθεν)."""
     by_text = {e.html: e for e in entries}
     out = []
-    for _hw, _n, text in entries_from(read_batches(transcriptions)):
+    for hw, _n, text in entries_from(read_batches(transcriptions)):
         e = by_text.get(render(text))
-        for other in also_headwords(text):
-            key = greek.lemma_key(lemma_of(other))
-            if e is not None and key and key != greek.lemma_key(e.headword):
-                out.append((key, e))
+        if e is None:
+            continue
+        seen = {greek.lemma_key(e.headword)}
+        for other in [hw] + also_headwords(text):
+            for key in (greek.lemma_key(lemma_of(other)), greek.lemma_key(lemma_of(other, full=True))):
+                if key and key not in seen:
+                    seen.add(key)
+                    out.append((key, e))
     return out
 
 
@@ -348,7 +358,7 @@ def _loose(word: str) -> str:
     return greek.strip_diacritics(word.replace("-", "")).replace("ς", "σ")
 
 
-def extra_keys(texts: Path, entries: list, taken: set[str] = frozenset()) -> list[tuple[str, object]]:
+def extra_keys(texts: Path, entries: list, also: list = ()) -> list[tuple[str, object]]:
     """(lemma key, entry) for the lemmas of the texts that read Autenrieth (their grc.txt header
     `# dictionaries:` names it) that Autenrieth lists under another spelling: other accents or
     breathing, a movable nu, or the plural (Ἀχαιοί for Ἀχαιός). A lemma whose other spelling is
@@ -357,10 +367,13 @@ def extra_keys(texts: Path, entries: list, taken: set[str] = frozenset()) -> lis
 
     from .build import read_aliases
 
-    keys = {greek.lemma_key(e.headword) for e in entries} | set(taken)
+    keys = {greek.lemma_key(e.headword) for e in entries} | {k for k, _e in also}
     by_loose: dict[str, list] = {}
     for e in entries:
         by_loose.setdefault(_loose(e.headword), []).append(e)
+    for k, e in also:  # the second headwords
+        if e not in by_loose.setdefault(_loose(k), []):
+            by_loose[_loose(k)].append(e)
     lemmas: set[str] = set()
     capital: dict[str, bool] = {}  # a proper name, written with a capital in the texts
     aliases: dict[str, str] = {}

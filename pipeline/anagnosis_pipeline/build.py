@@ -272,7 +272,7 @@ def build_lexicon(sources: Path, out_dir: Path) -> None:
             from .autenrieth import extra_keys, second_headwords
 
             seconds = second_headwords(autenrieth_dir, entries)
-            others = extra_keys(sources.parent.parent / "texts", entries, {k for k, _e in seconds})
+            others = extra_keys(sources.parent.parent / "texts", entries, seconds)
             extra = seconds + others
             print(f"lexicon {slug}: {len(seconds)} entries also under their second headword, "
                   f"{len(others)} under the Odyssey's spelling of the lemma")
