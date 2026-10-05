@@ -156,14 +156,17 @@ def renumber_verses(doc, tb: list[dict], parts: set[int], explicit: dict[int, st
             explicit_groups.append(g)
     merged.meta["_explicit"] = ",".join(map(str, explicit_groups))
     warnings = renumber_from_treebank(merged, tb)
-    used = {l.n for l in merged.lines}
     for members, verse in zip(groups, merged.lines):
-        lines[members[0]].n = verse.n
-        base = re.match(r"^\d+", verse.n).group()
-        letters = iter(c for c in "abcdefghijklmnop" if base + c not in used)
-        for i in members[1:]:
-            lines[i].n = base + next(letters)
-            used.add(lines[i].n)
+        for i in members:
+            lines[i].n = re.match(r"^\d+", verse.n).group()
+    # the lines that share a number (the parts of a shared verse, the short lines Jebb counts as
+    # one) lettered in the order they stand: 591, 591a, 591b
+    seen: dict[str, int] = {}
+    for line in lines:
+        k = seen.get(line.n, 0)
+        seen[line.n] = k + 1
+        if k:
+            line.n += "abcdefghijklmnop"[k - 1]
     return warnings
 
 
