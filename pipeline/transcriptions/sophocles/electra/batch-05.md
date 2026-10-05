@@ -325,3 +325,39 @@ L has ἔτι in an erasure; but what the error had been seems uncertain.
 The lemmas are in the ordinary Greek type, not bold.
 The block begins with the rest of the note on 554 (p-0176), without a new number.
 Note 556: λόγουσ and λόγοισ are printed with the medial σ at the end, as L writes; λόγοις (A, Blaydes) with the final ς. "MSS." is in small capitals.
+
+=== p-0178
+--- numbers
+565 ἢ
+--- differences
+--- apparatus
+## 561
+οὐ made in L from οὖν.—δίκῃ γ’] Blaydes writes δίκῃ σφ’.—ἔσπασεν L, with most MSS., and Ald.: ἔσπασε T, E, Γ. Cp. cr. n. on *O. C.* 4.
+
+## 562
+πειθὼ] πιθὼ L.
+
+## 564
+ποινὰς] In L a later hand has altered ποινὰσ to ποινῆσ.—τὰ πολλὰ πνεύματ’] Fröhlich conj. (ann. 1815) τὰ πλοῖ’ ἀπνεύματ’: A. E. Housman (*Class. Rev.*, vol. 1. p. 240, 1887) τὰ πλοῖα πνεύματ’.—ἔσχ’ ἐν L, with most MSS., and Ald.: ἔσχεν r (as Campb. reads).—Αὐλίδι] L has αὐλίδι in an erasure,—as F. Dübner thinks, from αὐλίωι: but α and λ, no less than δ, seem
+--- notes
+The page has only nine lines of text (561–569); no differences from ours found (looked at twice, enlarged).
+The lemmas are in the ordinary Greek type, not bold.
+Note 561: in δίκῃ (lemma and Blaydes) the iota subscript is not clearly visible in the small print; written δίκῃ as in the text of 561, where it is printed.
+Note 564: ποινὰσ and ποινῆσ are printed with the medial σ at the end, as L writes. In "vol. 1." the figure is the old-style 1 (as in 1815, 1887), which could also be read as a small-capital I. "MSS." is in small capitals.
+
+=== p-0179
+--- apparatus
++ to have been altered.—Wolff conj. ἐπ’ Αὐλίδι.
+
+## 565-567
+Nauck, objecting to κείνης γὰρ οὐ θέμις μαθεῖν, to παίζων, and to ποδοῖν, would reduce these three verses to two, thus:—ἢ ἐγὼ φράσω. πατήρ ποθ’ οὑμός, ὡς ἐγὼ | κλύω, κατ’ ἄλσος ἐξεκίνησεν θεᾶς. Otto Jahn would merely delete v. 565.
+
+## 567
+ἐξεκίνησεν L, with most MSS., and Ald.: ἐξενίκησε E, ἐξενίκησεν Aug. b, and codex B of Suidas *s.v.* ἐξεκίνησεν.
+
+## 568
+κατὰ σφαγὰς] σφαγὰσ made in L from σφαγᾶσ. Γ has κατασφαγὰς, as Hermann read on conjecture.—Monk, taking σφαγὰς
+--- notes
+The lemmas are in the ordinary Greek type, not bold.
+Note 565-567: the label is printed "565—567". Nauck's verses are printed «ἢ ἐγὼ φράσω» (ἐγὼ in full, not ’γὼ as in the text of 565), looked at enlarged.
+Note 568: σφαγὰσ and σφαγᾶσ are printed with the medial σ at the end, as L writes; σφαγᾶσ is divided σφα-|γᾶσ at the line end of the print; joined. "MSS." is in small capitals.

@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse
 import sys
 import json
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent.parent  # repo root
@@ -32,8 +33,13 @@ def main(argv: list[str] | None = None) -> int:
     csp = sub.add_parser("check-sophocles-batch", help="check transcription batches of a Sophocles play")
     csp.add_argument("play")
     csp.add_argument("files", nargs="+")
+    clp = sub.add_parser("check-sophocles-lines", help="apply a lyric-pass file (lines-NN.md) to texts/<play>/grc.txt and show the verses it makes")
+    clp.add_argument("play")
+    clp.add_argument("file")
     msp = sub.add_parser("merge-sophocles-apparatus", help="texts/<play>/commentary-jebb-apparatus.md from the batches")
     msp.add_argument("plays", nargs="*")
+    map_ = sub.add_parser("merge-sophocles-appendix", help="texts/<play>/appendix.md from the appendix batches")
+    map_.add_argument("plays", nargs="*")
     isp = sub.add_parser("import-sophocles", help="texts/<play>/ for Sophocles' plays in Jebb's edition (sophocles.py): text, translation, tokens, syntax, commentary")
     isp.add_argument("plays", nargs="*", help="slugs (default: all): ajax electra oedipustyrannus oedipuscoloneus philoctetes trachiniae")
     sub.add_parser("fetch-nt", help="download the New Testament sources into pipeline/sources/nt/ (SBLGNT, MACULA, Dodson, BSB)")
@@ -127,6 +133,32 @@ def main(argv: list[str] | None = None) -> int:
         from .sophocles_pages import prepare as prepare_sophocles
         index = prepare_sophocles(SOURCES, ROOT / "pipeline" / "build" / "sophocles-pages", args.plays or list(PLAYS))
         print(json.dumps(index, indent=1))
+    elif args.cmd == "check-sophocles-lines":
+        from .sophocles import apply_text_check
+        from .sophocles_pages import DIFF, read_batches
+        from .textfmt import parse_file
+        doc = parse_file(TEXTS / args.play / "grc.txt")
+        path = Path(args.file)
+        pages = read_batches(path.parent, files=[path])
+        for stem, block in pages.items():
+            diffs = [(m.group(1), bool(m.group(2)), m.group(3), m.group(4)) for raw in block["differences"] if (m := DIFF.match(raw))]
+            bad = [raw for raw in block["differences"] if not DIFF.match(raw)]
+            for raw in bad:
+                print(f"{stem}: '{raw}' is not 'N: ours «…» print «…»'")
+            touched = {d[0] for d in diffs}
+            before = [l.n for l in doc.lines]
+            _, _, warnings = apply_text_check(doc, [], [], set(), None, diffs)
+            for w in warnings:
+                print(f"{stem}: {w}")
+            nums = [int(re.match(r"\d+", n).group()) for n in touched if re.match(r"\d+", n)]
+            if not nums:
+                continue
+            lo, hi = min(nums) - 2, max(nums) + 2
+            print(f"== {stem}: our lines {lo}-{hi} after the changes (z = a verse split off; the import numbers them)")
+            for l in doc.lines:
+                m = re.match(r"\d+", l.n)
+                if m and lo <= int(m.group()) <= hi:
+                    print(f"  {l.n}\t{l.text}")
     elif args.cmd == "check-sophocles-batch":
         from .sophocles_pages import check_batch as check_sophocles
         bad = 0
@@ -149,6 +181,20 @@ def main(argv: list[str] | None = None) -> int:
             d = ROOT / "pipeline" / "transcriptions" / "sophocles" / slug
             n, sigla = merge_sophocles(d, TEXTS / slug / "commentary-jebb-apparatus.md", header)
             print(f"{slug}: {n} notes" + (f"; sigla: {sigla[:80]}" if sigla else ""))
+    elif args.cmd == "merge-sophocles-appendix":
+        from .sophocles import PLAYS, PART_ROMAN
+        from .sophocles_pages import SCAN_EDITIONS, merge_appendix
+        for slug in args.plays or list(PLAYS):
+            play = PLAYS[slug]
+            d = ROOT / "pipeline" / "transcriptions" / "sophocles" / slug
+            if not any(d.glob("appendix-*.md")):
+                continue
+            header = (f"# title: Appendix\n# author: Richard C. Jebb\n"
+                      f"# source: Sophocles, The Plays and Fragments, {PART_ROMAN[play.part]}: The {play.title_en}, Cambridge University Press, "
+                      f"{SCAN_EDITIONS[slug]} (Appendix), transcribed page by page\n"
+                      f"# license: CC BY-SA 4.0 (transcription; the edition is in the public domain)\n")
+            n = merge_appendix(d, TEXTS / slug / "appendix.md", header)
+            print(f"{slug}: {n} notes")
     elif args.cmd == "import-sophocles":
         from .sophocles import PLAYS, import_play
         for slug in args.plays or list(PLAYS):

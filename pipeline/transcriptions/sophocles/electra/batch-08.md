@@ -114,3 +114,154 @@ The lemmas are in the ordinary (italic) Greek type, not bold.
 853: the print has an asterisk before ἁθρήνεις (Jebb's mark for an emendation); ours has none. Reported as a difference.
 858: the print sets our line 858 on two lines (8 πάρεισιν ἐλπίδων ἔτι | 9 κοινοτόκων), with no marginal number on either; the words are the same, so not reported as a difference.
 Note 850: lemma ἴστωρ with smooth breathing, L's ἵστωρ with rough breathing (enlarged).
+
+=== p-0219
+--- apparatus
++ was the general one, and is that of the Aldine. For conjectures, see Comment. and Appendix.
+
+## 853
+ἁθρήνεις Dindorf: ἃ θροεῖς MSS., for which Erfurdt, on Gernhard’s conjecture, gave ἃ θρηνεῖς. Blaydes suggests ᾇ θρηνεῖς.
+
+## 854
+με νῦν MSS.: μέ νυν Triclinius and Brunck, as the schol. also read (μηκέτι οὖν με, φησί, κ.τ.λ.).
+
+## 855
+L has παραγάγησ made from παράγης (the reading of Γ).
+
+## 856
+After τί φής, the words αὐδᾶς δὲ ποῖον (ποίαν Jen.) are added in the MSS.: they were deleted by Triclinius, but retained in the Aldine.—Bergk proposed to add αὖ after φής here, and φεῦ after παπαῖ in 867.
+
+## 857
+ἐλπίδων] Blaydes, followed by Nauck, writes ἐκ φίλων.
+
+## 859
+εὐπατριδᾶν] The MSS. add τ’, which Suidas (*s. v.* παραγάγῃς) omits. See comment.—ἀρωγαί Γ and schol.: ἀρωγοί the other MSS.
+--- notes
+The lemmas are in the ordinary (italic) Greek type, not bold.
+Note 853: ἁθρήνεις read with a rough breathing (enlarged, compared with the smooth breathing of ἀρωγαί in 859). In "gave ἃ θρηνεῖς" the sign over α is a single peaked mark (rough breathing and grave run together); read as ἃ, as in ἃ θροεῖς before it. Blaydes's ᾇ has rough breathing, circumflex and iota subscript (enlarged).
+Note 855: L's παραγάγησ is printed with the medial σ at the end, as L writes; kept. Γ's παράγης is printed without iota subscript (enlarged).
+Note 859: παραγάγῃς after *s. v.* appears to have an iota subscript (enlarged), unlike παράγης in 855.
+Note 859: "See comment." with a small c here, "see Comment." with a capital in the run-on of 851; both as printed.
+
+=== p-0220
+--- numbers
+865 πῶς
+870 οὔτε
+875 πόθεν
+880 σαυτῆς
+--- differences
+861: ours «χαλάργοις» print «χαλαργοῖς»
+862: ours «οὕτως,» print «οὕτως»
+862: ours «δυστάνῳ,» print «δυστάνῳ»
+868: ours «κέκευθεν, οὔτε του τάφου ἀντιάσας» print «κέκευθεν, οὔτε του τάφου»
+868+: ours «» print «ἀντιάσας»
+872: ours «μολεῖν·» print «μολεῖν.»
+874: ours «κακῶν» print «κακῶν.»
+--- apparatus
+## 861
+χαλάργοις Dindorf (cp. πόδαργος): χαλαργοῖς MSS.: χηλαργοῖς Suidas.
+
+## 863
+ἐγκῦρσαι Γ: ἐγκύρσαι most MSS. (L ἐν κύρσαι, made from ἐν κύσαι).
+
+## 864
+ἄσκοπος] Musgrave conj. ἄσπετος.
+
+## 868
+του made in L from τοῦ.
+
+## 871
+τοι] σοι Brunck.
+
+## 873
+ἡδονὰς] Heimsoeth conj. εὐδίαν: Nauck, ἔκλυσιν: Mekler, ἀμπνοάς.
+
+## 876
+ἴασιν L (corrected from ἴσασιν), with σ written over ν
+--- notes
+The lemmas are in the ordinary (italic) Greek type, not bold.
+861: the print has the MSS. reading χαλαργοῖς (see note 861: χαλάργοις is Dindorf's); ours has Dindorf's.
+862: the print has no comma after οὕτως and none after δυστάνῳ (looked at twice, enlarged).
+868: the print sets our 868 as two verses, 8 κέκευθεν, οὔτε του τάφου and 9 ἀντιάσας; with 870 printed at 10 οὔτε γόων, ἀντιάσας is Jebb's 869, which our text lacks as a separate line.
+866-867: the print sets 866 and Chorus's παπαῖ. (our 867) on one line (7 ἄτερ ἐμᾶν χερῶν ΧΟ. παπαῖ.); the count to 870 shows that Jebb numbers παπαῖ as 867, as we do, so not reported as a difference.
+872: the print ends the line with a full stop on the baseline (enlarged); ours has ·. 874: the print ends with a full stop; ours has no punctuation.
+864: ἁ in the text has a rough breathing and no accent (enlarged), as ours.
+
+=== p-0221
+--- apparatus
++ by an early hand: ἴασις r, and Suidas *s. v.*—οὐκ ἔνεστ’ ἰδεῖν] In L the 1st corrector (S) has written ἔτι above ἰδεῖν: and the Vindobonensis has οὐκ ἔνεστ’ ἔτι, with the marginal gloss ἰδεῖν δηλονότι. B. Thiersch conj. οὐκ ἔτ’ ἔστ’ ἰδεῖν: and so Blaydes reads.
+
+## 878
+ἐναργῶς] Wecklein writes ἐναργής, since Soph. does not elsewhere use the adv.
+
+## 881
+ὕβρει made in L from ὕβριν.
+
+## 882
+νῷν] νόει r: νῦν r.
+--- notes
+The lemmas are in the ordinary (italic) Greek type, not bold.
+Run-on of 876: in ἴασις r the breathing and accent on ι are run together in the small type (enlarged); read as ἴ, like ἴασιν in the text and in note 876.
+Note 882: νόει (with acute on ο) read enlarged; νῷν has the iota subscript.
+Run-on of 876: *s. v.* is printed in italics.
+
+=== p-0222
+--- numbers
+885 ἐγὼ
+890 τὸ
+895 πηγὰς
+900 τύμβου
+--- differences
+885: ours «ἄλλης,» print «ἄλλης»
+886: ours «ἰδοῦσα,» print «ἰδοῦσα»
+887: ours «ἔχουσα» print «ἰδοῦσα»
+887: ours «ἐς» print «εἰς»
+890: ours «μωρὰν» print «μώραν»
+895: ours «γάλακτος» print «γάλακτος,»
+896: ours «ἐστὶν» print «ἔστιν»
+--- apparatus
+## 885
+ἐμοῦ τε] ἐμοῦ γε Erfurdt.—ἄλλης] In L the 1st hand wrote ἄλλησ, which a late corrector has changed to ἄλλου: Γ has ἄλλης, with ου written above: A, with most MSS. and Ald., has ἄλλου.
+
+## 888
+L has βλέψασα, and not, as has been stated, κλέψασα, though the β resembles κ, as it does also (*e.g.*) in 959 (βλέψασ’).—ἀνηκέστῳ] Bergk, Nauck, and Wecklein (*Ars* p. 50) conj. ἀνηφαίστῳ: Meineke, ἀνελπίστῳ or ἀνεικάστῳ.
+
+## 889
+πρός νυν Triclinius: πρὸν νῦν most MSS. μαθοῦσά μου] Fröhlich conj. μαθοῦσ’ ἐμὲ: Wecklein writes μαθοῦσά με.
+
+## 890
+λοιπὸν ἢ]
+--- notes
+The lemmas are in the ordinary (italic) Greek type, not bold.
+885, 886: the print has no comma after ἄλλης and none after ἰδοῦσα (looked at twice, enlarged).
+887: the print has ἰδοῦσα (Jebb's commentary on 887 f. defends it against Nauck's ἔχουσα) and εἰς τί μοι.
+890: the print has μώραν with the acute on ω (enlarged); ours μωρὰν.
+896: the print has ἔστιν, accented on the first syllable (enlarged); ours ἐστὶν.
+Note 885: L's ἄλλησ is printed with the medial σ at the end, as L writes; kept.
+Note 889: the print has πρὸν νῦν (final ν, not ς; enlarged), and no dash between "most MSS." and μαθοῦσά μου]; both kept as printed. Fröhlich's ἐμὲ has a grave accent (enlarged).
+Note 890 runs on to the next page after the lemma λοιπὸν ἢ].
+
+=== p-0223
+--- apparatus
++ λοιπόν μ’ ἢ L (ό made from ὸ by a corrector).—μώραν] μωρὰν L, A, E: μῶραν Γ, L2.—λέγῃς Ald.: λέγης A, etc.: λέγοις L, with η written above by a late hand: λέγεις r.
+
+## 891
+τῷ λόγῳ] Reiske and Fröhlich conj. τῶν λόγων: Nauck, τοῦ λέγειν.
+
+## 894
+ὁρῶ] ὁρῶι L.
+
+## 896
+ἔστιν] ἐστιν L, with εισιν written above by S.
+
+## 898
+ἐγχρίμπτῃ] ἐγχρίπτηι L. The subjunctive was the prevalent reading, but Γ and a few more have ἐγχρίπτει. The omission of μ is general, E and L2, which give ἐγχρίμπτῃ, being exceptions. Even the Ald. has ἐγχρίπτῃ.—ἐγχρίπτοι, βροτός Vindobonensis.—ἐγχρίμπτει Nauck.
+
+## 900
+ἐσχάτης...πυρᾶς] Schaefer conj. ἐσχάτῃ..πυρᾷ.—νεώρη Ellendt and Dindorf: νεωρῆ MSS.
+--- notes
+The lemmas are in the ordinary (italic) Greek type, not bold.
+Run-on of 890: "(ό made from ὸ ...)": the first ο has an acute, the second a grave (enlarged). λέγῃς (Ald.) has the iota subscript, λέγης (A, etc.) has none (enlarged).
+Note 898: the lemma is divided at the line end (ἐγ-|χρίμπτῃ]); written as one word. Between ἐγχρίπτοι and βροτός the print has a small comma, set with space on both sides (enlarged); kept as a comma.
+Note 900: "900 f." is headed 900; ἐσχάτης...πυρᾶς with three dots, ἐσχάτῃ..πυρᾷ with two, as printed.
+Notes 894: ὁρῶ and L's ὁρῶι read with a rough breathing (small type, enlarged).

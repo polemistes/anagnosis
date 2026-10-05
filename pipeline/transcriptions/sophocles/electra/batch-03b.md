@@ -47,3 +47,33 @@ Note 317 (printed "317 f."): L's φηίσ is printed with ι after η carrying t
 Note 323: both ἐπεί have the acute (enlarged), as in the text line.
 The lemmas are in the ordinary Greek type, not bold.
 
+=== p-0147
+--- apparatus
++ ἔπειτ’ ἄν) L: in marg., ἐπεί τοι ἄν.—ἔζων ἐγώ] Meineke conj. ἔζων ἔτι.
+
+## 324
+μὴ νῦν MSS.: μή νυν Monk and Blaydes.
+
+## 325
+πατρὸς ταὐτοῦ] πατρός τ’ αὐτοῦ (made from πατρὸς ταὐτοῦ) L.—φύσιν] φῦσαν Γ, whence Fröhlich conj. φῦσαν ἐκ ταὐτοῦ πατρός. Mekler (in 6th Teubner ed. of Dind.) writes κάσιν.
+
+## 329
+ἐλθοῦσα] Nauck writes ἑστῶσα. Seebeck conj. ἀλγοῦσα: F. W. Schmidt, οἰχνοῦσα.
+
+## 330
+For μακρῷ Hartung conj. γε τόδε.
+
+## 331
+γρ. ψυχῆι ματαίαι L.
+
+## 334
+φρονῶ] ι has been erased after ῶ in L.
+--- notes
+The page begins with the end of the note on 323 (L's reading before the correction).
+The first line of the block is faintly printed: L's ἔπειτ’ ἄν has on α the breathing and the acute (two separate marks, as on ἔ; enlarged 5x); "conj." after Meineke is half-printed.
+Note 324: the lemma μὴ has the grave, as in the text line; Monk's μή has the acute before the enclitic νυν.
+Note 325: L's corrected reading πατρός has the acute before τ’; the reading it was made from, πατρὸς ταὐτοῦ, has the grave.
+Note 329: the lemma is divided ἐλ-|θοῦσα across two lines. In Nauck's ἑστῶσα the breathing is too small in the scan to tell rough from smooth (compared, enlarged, with breathings of known form in the same type); transcribed with the rough breathing that the word has.
+Note 331: L's ψυχῆι ματαίαι is printed with the iota adscript; kept.
+The lemmas are in the ordinary Greek type, not bold.
+

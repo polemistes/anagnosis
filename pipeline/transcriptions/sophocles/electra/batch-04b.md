@@ -131,3 +131,70 @@ The lemmas are in the ordinary Greek type, not bold (λουτροῖσιν looke
 443: the print marks δέξεσθαι with an asterisk (*δέξεσθαι), Jebb's sign for an emendation (Heath's, see note 443); the word agrees with ours, so not listed as a difference.
 444, 448, 451: looked at twice, enlarged: the print has no comma after ἄτιμος, and δυσμενὴς with a grave and no comma at the end of the line; οὐκ ἔστιν (ours οὐχ); and the obelus † before ἀλιπαρῆ (ἅχω has the rough breathing, as ours).
 Note 443: L's νέκυσ and δέξασ are printed with the medial σ at the end, as L writes; kept.
+
+=== p-0163
+--- apparatus
++ τῇ ἑαυτῶν κεφαλῇ...ἢ τῇ τοῦ φονευομένου), and by Eustathius p. 1857. 7 (παρὰ τῷ Σοφοκλεῖ, ἔνθα φαίνεται ταῖς τῶν πεφονευμένων κεφαλαῖς ἐναπομάττεσθαι τὸ ἐν τοῖς ξίφεσιν αἷμα κ.τ.λ.). κάρα MSS. (except that Campb. cites κάρᾳ from Vat. a, =cod. Vat. 40, 13th cent.), and Ald.; so, too, schol. on 445 (τὸ κάρα αὐτοῦ τὰς κηλῖδας...ἐξέμαξεν).
+
+## 446
+ἐξέμαξεν made in L from ἐξαίμαξεν.
+
+## 447
+αὐτῆι made in L from αὐτὴ.
+
+## 449
+φόβας] κόμας Γ. In L the 1st hand has written κ and μ above φόβασ.
+
+## 451
+Paley (*Journ. Phil.* vol. v. p. 89) thinks these two vv. interpolated.—τήνδ’ ἀλιπαρῆ MSS. The schol., too, read ἀλιπαρῆ: but adds, ἐν δὲ τῷ ὑπομνήματι λιπαρῆ. This ὑπόμνημα, cited also by the schol. on v. 488, was prob. a commentary on Sophocles by Didymus. (Cp. *Introd.*
+--- notes
+The lemmas are in the ordinary Greek type, not bold.
+Note 447: the form L had before the correction is αὐτὴ with a grave (looked at enlarged); the corrected αὐτῆι has the circumflex and ι adscript.
+Note 449: a speck in the print before the lemma φόβας is not a mark; L's φόβασ is printed with the medial σ at the end, as L writes; kept.
+Note 451 f.: ἀλιπαρῆ is divided ἀλι-|παρῆ at the line end of the print; joined. λιπαρῆ in the quotation from the scholiast seems slightly letter-spaced; written without spacing.
+
+=== p-0164
+--- numbers
+455 καὶ
+460 πέμψαι
+465 εἰ
+--- differences
+458: ours «χερσὶν στέφωμεν» print «χερσὶ στέφωμεν»
+462: ours «ἀρωγὰ τῷ» print «ἀρωγά, τῷ»
+466: ours «οὐχ ἔχει» print «οὐκ ἔχει»
+--- apparatus
++ *to the Facsimile of the Laur. MS. of Sophocles*, p. 21: Lond. 1885.)—Heath conj. τήνδε γ’ ἀλιπαρῆ: Fröhlich and Bergk, τήνδε τ’ ἀλιπαρῆ: Blaydes, τήνδ’ ἀνηλιφῆ: Campbell, τήνδε δυσπινῆ. Hartung writes τήνδε γ’ ἀλίπαρον.
+
+## 453
+προσπίτνουσα L2 (=Lb): προσπιτνοῦσα L (made from προσπίτνουσα by a later hand), with the other MSS., and Ald.—γῆθεν] Nauck conj. νέρθεν.
+
+## 454
+ἐχθροὺς] αὐτοὺς E.—Nauck conj. φάος.
+
+## 456
+αὐτοῦ] Blaydes conj. αὑτοῦ.—ἐπεμβῆναι made in L from ἐπιβῆναι.—ποδί] Wakefield conj. ποτε.
+
+## 457
+ἀφνεωτέραις] Nauck
+--- notes
+The lemmas are in the ordinary Greek type, not bold.
+458, 462, 466: looked at twice, enlarged: the print has χερσὶ without ν before στέφωμεν; ἀρωγά with an acute followed by a comma; and οὐκ ἔχει (ours οὐχ, as ours has οὐχ ἔστιν in 448).
+The note running on from p-0163: the whole title "Introd. to the Facsimile of the Laur. MS. of Sophocles" is in italics; the part on this page is marked separately.
+Note 453: the lemma is divided προσ-|πίτνουσα, and Blaydes' ἀνηλιφῆ (end of the note running on) ἀνη-|λιφῆ, at the line ends of the print; joined.
+Note 456: Blaydes' αὑτοῦ has the rough breathing, the lemma αὐτοῦ the smooth (compared, enlarged); the conjecture is printed in a heavier impression but in the same type, so not marked bold. Wakefield's ποτε has no accent.
+
+=== p-0165
+--- apparatus
++ conj. ἀφθονωτέραις.
+
+## 459
+οἶμαι μὲν οὖν, οἶμαι] Nauck conj. οἶμαι μὲν οὖν εἶναι. But he would prefer, οἶμαι μὲν οὖν καὶ θεοῖσι τἀκείνου μέλειν | πέμψασι μητρὶ κ.τ.λ. The conject. μέλειν for μέλον is also made by Blaydes.
+
+## 460
+πέμψαι] Wecklein (*Jahr. f. philol.*, suppl. IX. p. 169) conj. ἐλθεῖν: Blaydes, this, or μολεῖν, or ὦφθαι.—δυσπρόσοπτ’] δυσπρόσωπ’ Vindobonensis.
+
+## 466
+λόγον] Scaliger conj. λόγοιν.
+--- notes
+The lemmas are in the ordinary Greek type, not bold.
+Note 460: "IX." is printed in small capitals. On ὦφθαι the breathing is merged with the circumflex and too small to tell smooth from rough (looked at enlarged); written with the smooth breathing of the perfect infinitive ὦφθαι.

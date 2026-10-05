@@ -47,6 +47,16 @@ class TextCheck(unittest.TestCase):
         self.assertEqual(perseus_anchors(lines, stated, printed), {34: "35"})
 
 
+    def test_lyric_pass_splits_and_joins_verses(self):
+        doc = doc_of(("1", "ἰὼ πόροι ἁλίρροθοι πάραλά τʼ ἄντρα"), ("2", "καὶ νέμος"), ("3", "ἐπάκτιον,"))
+        lyrics = [("1", False, "ἁλίρροθοι πάραλά", "ἁλίρροθοι | πάραλά"),
+                  ("3", False, "ἐπάκτιον,", ""), ("2", False, "καὶ νέμος", "καὶ νέμος ἐπάκτιον,")]
+        _, _, warnings = apply_text_check(doc, [], [], set(), None, lyrics)
+        self.assertEqual(warnings, [])
+        self.assertEqual([l.text for l in doc.lines],
+                         ["ἰὼ πόροι ἁλίρροθοι", "πάραλά τʼ ἄντρα", "καὶ νέμος ἐπάκτιον,"])
+
+
 class Commentary(unittest.TestCase):
     def test_english_aside_inside_greek_quotation(self):
         x = '<p><quote lang="greek">e)/stai <note place="inline" lang="en">(we shall hear of him)</note> a)namixqh/setai</quote></p>'

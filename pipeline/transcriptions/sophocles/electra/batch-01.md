@@ -202,3 +202,24 @@ Note 57: φέρω-μεν is divided at the end of the line in print; written as 
 Note 61: L's ὡσ (rough breathing, no accent; enlarged) is printed with the medial σ at the end; kept.
 "1st", the verse numbers and the page numbers are printed with old-style numerals; "XXXV." and "XVIII." are in small capitals.
 The lemmas are in the ordinary (italic) Greek type, not bold.
+
+=== p-0112
+--- numbers
+65 ὡς
+70 δίκῃ
+75 νὼ
+--- differences
+63: ours «εἶθʼ,» print «εἶθ’»
+--- apparatus
++ of metre passed unnoticed.—σὺν κέρδει] made in L from συγκέρδει.
+
+## 63
+δόμους A, with most MSS. and Ald.: δόμοισ L, Γ.
+
+## 65
+ὡς] L has ὥσ, corrected, in somewhat paler ink, from ὡσ, either by the 1st hand or by S. The Aldine has ὡς, with a colon after πλέον in v. 64. (This is also L’s punctuation, but the point has almost vanished.) Brunck wrote ὧς, which Nauck, Hartung, and Blaydes prefer. Hermann, Dindorf, and most of the recent edd., give ὡς. Matthiae on Eur. *Hipp.* 1051 noted that, with
+--- notes
+63: the print has no comma after εἶθ’ (looked at twice, enlarged); ours εἶθʼ, with a comma.
+Note 63: L's δόμοισ is printed with the medial σ at the end, as L writes; kept.
+Note 65: L's ὥσ has the rough breathing and an acute, the ὡσ it was corrected from the rough breathing only, both with the medial σ at the end (kept); Brunck's ὧς has the rough breathing with the circumflex; the lemma ὡς, the Aldine's ὡς and that of the recent edd. have the rough breathing only (all enlarged). "1st" and "1051" are printed with old-style numerals.
+The lemmas are in the ordinary (italic) Greek type, not bold.

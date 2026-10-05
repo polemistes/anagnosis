@@ -177,3 +177,130 @@ The lemmas are in the ordinary Greek type, not bold.
 --- notes
 Note 641: the iota subscript of Blaydes's κακογλώσσῳ is faint (enlarged), but appears to be there, as in πολυγλώσσῳ and παλιγγλώσσῳ.
 The lemmas are in the ordinary Greek type, not bold.
+
+=== p-0190
+--- numbers
+650 ἀλλ’
+655 ταῦτ’
+660 ξέναι
+--- differences
+650: ours «αἰεὶ» print «ἀεὶ»
+--- apparatus
++ δύσνων: Michaelis, διπλῶν.
+
+## 646
+πέφηνεν] πέφυκεν Vindobon., and schol. on 645, who quotes vv. 646 f.: so Hartung reads.
+
+## 649
+βουλεύουσιν] Wecklein (*Ars* p. 38) conj. βουλεύοιεν.—ἐφῇς] L has ἐφῆσ (η in the form H), with η written above: it seems to have been originally ἐφεῖσ, as L2 (=Lb) has ἐφῆς made from ἐφεις.—ἐφῇς A, Γ, etc., and Ald.
+
+## 650
+ὧδέ μ’ L: ὧδέμ’ A (εμ in an erasure).—αἰεὶ L, with most MSS., and Ald.: ἀεὶ Γ.—ἀβλαβεῖ βίῳ] B. Arnold conj. ἀβλαβῆ βίον.
+--- notes
+650: the print has ἀεὶ (looked at twice, enlarged), the reading of Γ in note 650; ours αἰεὶ.
+Note 649: the print is faint here and the iota subscripts are hard to see in the small type (enlarged): the lemma and the reading of A, Γ are written ἐφῇς as in the text; L's ἐφῆσ and L2's ἐφῆς show no subscript. The letter "written above" is an η (same shape as in "η in the form H", its tail broken), not ι. The H of "the form H" is a small capital.
+Note 650: ἀεὶ (Γ) and the end of the line look heavier than the rest, but this seems to be inking, not the bold type.
+The lemmas are in the ordinary Greek type, not bold.
+
+=== p-0191
+--- apparatus
+## 651
+δόμους] Blaydes conj. θρόνους.—ἀμφέπειν made in L from ἄμφ’ ἔπειν.
+
+## 653
+εὐημεροῦσαν] In L an early hand has written over α what some regard as an acute accent, but what is rather (as Dübner saw) the letter ι, indicating εὐημεροῦσι(ν), a correction which Kvíčala too proposes. Erfurdt conj. εὐημεροῦσα.—τέκνων] Benedict conj. τέκνοις.—Nauck rejects this v. and the next.
+
+## 654
+πρόσεστιν made in L from πρόεστιν.
+
+## 659
+πάνθ’ made in L from πᾶνθ’: whence Wecklein (*Ars* p. 13) conj. πᾶν.—ὁρᾶν] ὁρᾶιν L.—Jahn rejects this v.
+
+## 662
+ᾔκασας
+--- notes
+Note 651: L's earlier ἄμφ’ ἔπειν has breathing and acute on both words (enlarged).
+Note 653: the lemma εὐ-ημεροῦσαν is divided at the line end in the print; joined. "Kvíčala" is printed with í and č.
+The lemmas are in the ordinary Greek type, not bold.
+
+=== p-0192
+--- numbers
+665 μάλιστα
+670 Φανοτεὺς
+675 τί
+680 κἀπεμπόμην
+--- differences
+669: ours «χρῄζω» print «χρῄζω,»
+681: ours «κλεινὸν» print «κοινὸν»
+--- apparatus
++ Brunck: εἴκασας MSS., and Ald.
+
+## 663
+τήνδ’ ἐπεικάζων] Reiske conj. τήνδ’ ἔτ’ εἰκάζων: Schäfer, τήνδε γ’ εἰκάζων.
+
+## 665
+ἥδε] ἤδέ L: ἥδέ A, etc., and Ald.
+
+## 667
+Αἰγίσθῳ θ’] Αἰγίσθῳ δ’ Γ.
+
+## 669
+ἀπέστειλεν L, but with ν partially erased; ἀπέστειλε A, Γ, etc., and Ald.
+
+## 670
+πρᾶγμα] Mekler conj. χάρμα.—
+--- notes
+669: the print has a comma after χρῄζω (looked at twice, enlarged); ours has none.
+681: the print has κοινὸν (looked at twice, enlarged); ours κλεινὸν.
+The margin numbers 665, 670 and 680 are faintly printed (partly broken), but stand at these lines.
+Note 665: the breathings are tiny (enlarged at pixel level): the lemma ἥδε and the reading of A have the rough breathing; the mark on L's form is smaller and differently shaped, read as smooth (ἤδέ). Both L's and A's forms have a second accent (acute) on the last syllable. Worth a second look.
+Note 663: Schäfer's τήνδε is printed in a heavier, bold-looking type than γ’ εἰκάζων, apparently a printing accident; not marked as bold.
+The lemmas are in the ordinary Greek type, not bold.
+
+=== p-0193
+--- apparatus
++ πορσύνων] Hense conj. πορθμεύων.
+
+## 674
+οἲ ’γὼ Ald.: οἲ ἐγὼ MSS.
+
+## 676
+πάλαι λέγω L (with γρ. τότ’ ἐννέπω superscr.), Γ, etc., and Eustath. p. 702. 4: πάλιν λέγω L2 (=Lb), Pal.: τότ’ ἐννέπω A, with a few others, and Ald.
+
+## 681
+κλεινὸν MSS., and Ald.: κοινὸν Thomas Magister p. 286 (*s.v.* πρόσχημα); which Bergk
+--- notes
+Note 674: οἲ has the smooth breathing with the grave in both places (enlarged).
+The lemmas are in the ordinary Greek type, not bold.
+
+=== p-0194
+--- numbers
+685 εἰσῆλθε
+690 ἓν
+--- differences
+688: ours «λέγω» print «λέγω,»
+689: ours «κράτη·» print «κράτη.»
+--- apparatus
++ and Campbell adopt.
+
+## 683
+ὀρθίων] P. Faber conj. ὀρθρίων (‘at daybreak’).—κηρυγμάτων] Herwerden conj. γηρυμάτων.
+
+## 684
+δρόμον προκηρύξαντος r, and Ald.: δρόμου προκηρύξαντοσ L, A, etc.
+
+## 686
+δρόμου δ’ L, with most MSS., and Ald.: δρόμον δ’ T: δρόμῳ δ’ Suidas (*s.v.* δρόμοις).—τἀφέσει Musgrave (who wrote τῇ ’φέσει) on Eur. *Phoen.* 1135: τῇ φύσει MSS. For the conjectures, see Append.—Nauck would place vv. 686, 687 after 695.
+
+## 688
+ἐν πολλοῖσι παῦρα] Bergk, Blaydes and Nauck conj. ἐν παύροισι πολλὰ.
+
+## 689
+τοιοῦδ’] τοιάδ’ r, and so
+--- notes
+686: the print marks τἀφέσει with an asterisk (*τἀφέσει), Jebb's sign for an emendation (Musgrave's, see note 686); the word agrees with ours, so not listed as a difference.
+688: the print has a comma after λέγω at the line end (looked at twice, enlarged); ours has none.
+689: the print ends the line with a full stop on the baseline (looked at twice, enlarged); ours has ·.
+Note 684: L's προκηρύξαντοσ is printed with medial σ at the end, as L writes; kept.
+Note 688: Nauck's πολλὰ is printed with a grave before the full stop (enlarged); kept as printed. The lemma παῦρα has no second accent.
+The lemmas are in the ordinary Greek type, not bold.

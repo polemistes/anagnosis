@@ -19,3 +19,120 @@ The lemmas are in the ordinary (italic) Greek type, not bold.
 965: the acute on γένος is barely visible in the print (only a faint trace, worn type); not reported as a difference.
 Note 956: L's κατοκνήσηισ is printed with the iota adscript and the medial σ at the end, as L writes; kept.
 
+=== p-0231
+--- apparatus
+## 961
+πάρεστι δ’ made in L from πάρεστιν.
+
+## 963
+μηκέτ’ made in L from μηκέτι.
+
+## 966
+αὑτῷ r: αὐτῶι L.
+
+## 967
+βουλεύμασιν] In L the ν has been erased.
+
+## 969
+θανόντος] Blaydes writes κεύθοντος, proposed also by Meineke
+--- notes
+The lemmas are in the ordinary (italic) Greek type, not bold.
+Note 966: αὑτῷ (r) with rough breathing, L's αὐτῶι with smooth breathing and iota adscript (enlarged).
+
+=== p-0232
+--- numbers
+975 τίς
+980 ψυχῆς
+985 ζώσαιν
+990 ἐν
+--- differences
+976: ours «δεξιώσεται·» print «δεξιώσεται,»
+981: ours «σέβειν,» print «σέβειν·»
+988: ours «γιγνώσκουσʼ ὅτι» print «γιγνώσκουσ’, ὅτι»
+--- apparatus
++ and Wecklein: Camper, Meineke and Blaydes also conj. ναίοντος.
+
+## 971
+τολοιπόν L, made from τὸ λοιπὸν.
+
+## 973
+λόγων Dobree and Bothe: λόγῳ MSS. (in L the ι of λόγωι has been added by a corrector).
+
+## 974
+πεισθεῖσ’ ἐμοὶ L, with most MSS., and Ald.: πεισθεῖσά μοι Vindobonensis.
+
+## 978
+τὸν πατρῶιον made in L from τῶν πατρωίων.
+
+## 980
+ἀφειδήσαντε] Wecklein conj. ἀκηδήσαντε.
+
+## 981
+τώδε made in L
+--- notes
+The lemmas are in the ordinary (italic) Greek type, not bold.
+976: the print ends the line with a comma (looked at twice, enlarged); ours has ·.
+981: the print ends the line with a raised point (looked at twice, enlarged); ours has a comma.
+988: the print has a comma after γιγνώσκουσ’ (looked at twice, enlarged); ours has none.
+Note 974: ἐμοὶ is printed with a grave accent, as far as the small type shows (enlarged).
+Note 978: "πα-|τρωίων" is divided at the line end; joined.
+
+=== p-0233
+--- apparatus
++ from τῶδε (and so also τώδ’ in 982).—χρὴ] χρῆν L, with ὴ written above by a later hand. After the word, some three letters have been erased.
+
+## 984
+πᾶστισ L, made from πᾶσι..σ.
+
+## 985
+μη’κλιπεῖν L (with γρ. μοι λιπεῖν in marg. from a later hand): μὴ λιπεῖν r.
+
+## 986
+’πίσθητι L.—συμπόνει] Nauck conj. συμμάχει.
+
+## 987
+ἀδελφῷ] ἀδελφῇ r.—παῦσον] Nauck would read λῦσον here and in 988.
+
+## 988
+γινώσκουσ’ L.
+
+## 989
+Quoted by Stobaeus *Flor.* 17. 1.
+
+## 990
+ἐν τοῖς] Blaydes conj. ἔν τοι.
+--- notes
+The lemmas are in the ordinary (italic) Greek type, not bold.
+Note 984: L's πᾶστισ and πᾶσι..σ are printed with the medial σ at the end, as L writes; kept.
+Note 985: L's μη’κλιπεῖν is printed without an accent on μη (enlarged); kept as printed.
+
+=== p-0234
+--- numbers
+995 ποῖ
+1000 ἡμῖν
+1005 λύει
+1010 ἡμᾶς
+--- differences
+999: ours «εὐτυχεῖ» print «εὐτυχὴς»
+1005: ours «ἡμῖν» print «ἡμᾶς»
+--- apparatus
+## 991
+καὶ κλύοντι] καὶ τῶι κλύοντι L, but a line has been drawn through τῶι.
+
+## 993
+ἐσώιζετ’ L, as 994 σώιζεται, and 1257 σώιζον (though in this last the ι has been inserted).—This verse, omitted at first in L, has been inserted in smaller writing, not by S, but by the 1st hand; as is shown by the form of two letters especially, η and ζ. A comparison with v. 1007 (supplied in the margin by S) will illustrate the difference of the handwritings.
+
+## 995
+ποτ’ ἐμβλέψασα L and most MSS.; ποτε βλέψασα r, and Blaydes.
+
+## 997
+οὐδ’] οὐκ Γ.
+
+## 998
+ἔλασσον Brunck:
+--- notes
+The lemmas are in the ordinary (italic) Greek type, not bold.
+999: the print has εὐτυχὴς (looked at twice, enlarged); ours εὐτυχεῖ.
+1005: the print has ἡμᾶς (looked at twice, enlarged); ours ἡμῖν.
+Note 995: ποτε (r) is printed without an accent; kept.
+

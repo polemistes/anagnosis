@@ -310,6 +310,7 @@ In Aug. c these three vv. are given to the Chorus.
 περιστελοῦντε] Wakefield conj. περιστελοῦντι.
 --- notes
 Numbering: the offset continues; the printed 1170, 1175, 1180 are our 1173, 1178, 1183 (printed 1168-1181 = our 1171-1184).
+Caution: the printed 1170 τάφον (περιστελοῦντε) is our 1173; our 1170 (τάφον εὐρώεντα καθέξει, the print's 1167 on p-0258) happens to begin with τάφον too, so the checker makes no remark on it, and a match by first word near our 1170 would pick the wrong line.
 1174 (printed 1171): the print has a comma after δεῦρο (looked at twice, enlarged); ours has none.
 1177 (printed 1174): the print reads τρίτου, as ours (enlarged).
 The lemmas are in the ordinary Greek type, not bold.
@@ -327,4 +328,76 @@ L has an erasure between εἰ and δέ.
 --- notes
 Note 1176: L's forms βίᾱ, θήβᾱ, ἐπιγλώσσᾱ have a straight bar (macron) over the final α, not a circumflex (enlarged); transcribed ᾱ.
 Note 1179: αὔτωσ read with smooth breathing and acute (enlarged; the sign is small), the final σ in the medial form.
+The lemmas are in the ordinary Greek type, not bold.
+
+=== p-0262
+--- numbers
+1185 ἀριθμός
+1190 ἀν
+1196 κοινὸν
+--- differences
+1186: ours «μολὼν» print «μόλω»
+1187: ours «μεληθῶ» print «μεληθεὶς»
+1188: ours «νέατος ἐς» print «νέατος, ἐς»
+1191: ours «ἄν τὰν» print «ἀν τὰν»
+1196: ours «Ἕλλασιν» print «Ἕλλασι»
+--- apparatus
+## 1182
+ὑμεῖς τε] ὑμεῖς δὲ Blaydes.
+
+## 1183
+μόλω...μεληθεὶς MSS. (μόλω made in L from μολὼν: μολῶ Γ). *Etym. Magn.* (s.v. ἔστε) μολὼν...μεληθῶ, which Dindorf and Nauck adopt. G. Wolff conj. μολὼν...μελήσω.
+
+## 1185-1191
+L divides the vv. thus:—τίσ— | πολυπλάγκτων— | τὰν ἄπαυστον— | δορυσσοήτων— | ἄταν— | ἀνὰ τὰν εὐρώδη— | δύστανον...ἑλλάνων.
+
+## 1185
+ἐς πότε] F. Kern conj. εἴ ποτε.
+
+## 1187
+ἄπαυστον] Nauck writes ἀπαύσταν (so that the last syll. = the last of ἀνὴρ in 1195).
+
+## 1188
+δορυσσοήτων L: δορυσσόντων A and the other MSS., with Suidas s.v., and Ald. For conjectures, see below.
+
+## 1190
+ἀνὰ τὰν εὐρώδη Τροίαν MSS. (τὴν for τὰν A), and Ald. After Τροίαν, three of the later MSS. (Δ,
+--- notes
+Numbering: the print's 1182-1184 (ὑμεῖς … ἐᾷ.) are our 1185-1187, so the offset of three continues to the end of the iambics. In the stasimon the print keeps the traditional numbers, set beside its turnover lines: 1185 beside ἀριθμός, (the turnover of its first verse τίς ἄρα … ἀριθμός, our 1188), 1190 beside ἀν τὰν εὐρώδεα Τρωΐαν (our 1191), 1196 beside κοινὸν Ἄρη. (the turnover of the second verse of the antistrophe, our 1195-1196). So the offset falls to one in the strophe and to none in the antistrophe (the print's 1196 is the verse that holds our 1196). The checker's remarks on 1185, 1190 and 1196 come from this; the print is so. The differences use our numbers.
+Colometry: the print sets strophe and antistrophe in four verses each (colon numbers 2-4 before them, not listed; στρ. α΄. and ἀντ. α΄. in the left margin). Its verse 2 of the strophe, τὰν ἄπαυστον … δορυσσοήτων μόχθων ἄταν | ἐπάγων, is our 1189 and 1190; its verse 2 of the antistrophe, κεῖνος ἁνήρ … ὅπλων Ἕλλασι | κοινὸν Ἄρη., is our 1195 and 1196 (the second printed line of each is a turnover). The words agree; this division is not reported as a difference.
+1186-1187 (printed 1183-1184): the print has μόλω … μεληθεὶς, the MSS. reading (see the note on 1183 f.); ours μολὼν … μεληθῶ, the reading of the Etym. Magn. that Dindorf and Nauck adopt. Looked at twice, enlarged.
+1188 (printed 1185): the print has a comma after νέατος (looked at twice, enlarged; Jebb's commentary on 1185 says νέατος should be followed by a comma); ours has none.
+1191 (printed 1190): ἀν has a smooth breathing and no accent (compare ἄπαυστον in the verse above, with breathing and acute); looked at twice, enlarged; ours ἄν.
+1195: ἁνήρ read with a rough breathing, as ours (enlarged; the sign is small).
+1196: the print has Ἕλλασι without ν at the end of its printed line (enlarged); ours Ἕλλασιν.
+Note 1185-1191: "thus :—" has a space before the colon in the print; written "thus:—". L's τίσ has the medial σ; ἑλλάνων read with a rough breathing (small sign).
+Note 1187: ἀνὴρ in "the last of ἀνὴρ in 1195" read with a smooth breathing (small sign, enlarged), although the text has ἁνήρ.
+His notes here are on our lines: 1182 on our 1185, 1183 f. on our 1186-1187, 1185—1191 on our 1188-1192, 1185 (ἐς πότε) on our 1188, 1187 (ἄπαυστον) and 1188 (δορυσσοήτων) on our 1189, 1190 (ἀν τὰν εὐρώδεα Τρωΐαν) on our 1191.
+The page ends in the middle of note 1190 (three of the later MSS. (Δ,); p-0263 continues it.
+The lemmas are in the ordinary Greek type, not bold.
+
+=== p-0263
+--- apparatus
++ Ien., Mosq. b) add in the text ἠνεμόεσσαν. For conjectures, see below.
+
+## 1192
+ὄφελε T: ὤφελε L, A, with most MSS., Suid. s.v., and Ald.—δῦναι made in L from δοῦναι.
+
+## 1194
+ἁνὴρ Bothe: ἀνὴρ MSS. and Ald.—ὃσ made in L from ὁ.—στυγερῶν] στυγερὸν Suid. (s.v. ὤφελε.)
+
+## 1195
+ἔδειξεν L, with most MSS., and Ald.: ἔδειξ’ T, and so Brunck.
+
+## 1196
+In L some four letters have been erased between ἕλλασιν and κοινὸν ἄρη.
+
+## 1197
+ἰὼ πόνοι πρόγονοι πόνων L, A, with most MSS., and Ald. For ἰὼ T has ὦ. Dindorf writes ἰὼ πόνοι πρόπονοι: Blaydes, ἰὼ μόχθοι πρόγονοι μόχθων (from ‘Liv. a’: see cr. n. on 405 ff.).
+--- notes
+The first line ends the note on 1190 begun on p-0262.
+His notes here are on our lines: 1192 (ὄφελε, δῦναι) on our 1193; 1194 (ἁνὴρ, ὃσ, στυγερῶν) and 1195 (ἔδειξεν) on our 1195; 1196 and 1197 on our 1196 and 1197.
+Note 1192: "T :" has a space before the colon in the print; written "T:".
+Note 1194: Bothe's ἁνὴρ has a rough breathing, the MSS.' ἀνὴρ a smooth one (small signs, enlarged), so the text's ἁνήρ (our 1195) is Bothe's. ὃσ (L's spelling, medial σ) and ὁ read with rough breathing; "(s.v. ὤφελε.)" has the full stop inside the bracket, as printed.
+Note 1196: ἕλλασιν and ἄρη are printed in lower case, as L writes.
 The lemmas are in the ordinary Greek type, not bold.

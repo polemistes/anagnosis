@@ -173,6 +173,8 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2383183	20	[1]			APOS	21	1
 2383183	21	[0]			ADV	5	1
 2383184	4	·	·	u--------	AuxK	0	
+2383185	2	δὲ	δέ	g--------	COORD	0	
+2383185	3	τοῦτ̓	οὗτος	a-s---na-	OBJ_AP	5	
 2383185	5	,	,	u--------	APOS	4	
 2383185	11	.	.	u--------	AuxK	0	
 2383185	12	[0]			SBJ	10	1
@@ -691,6 +693,8 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2383419	6	,	,	u--------	AuxX	5	
 2383419	12	,	,	u--------	AuxX	16	
 2383419	18	.	.	u--------	AuxK	0	
+2383420	8	τροφῆ	τροφεύς	n-s---ma-	ATV_CO	9	
+2383420	9	τ̓	τε	g--------	COORD	4	
 2383420	12	,	,	u--------	AuxX	13	
 2383420	17	,	,	u--------	AuxX	20	
 2383420	21	.	.	u--------	AuxK	0	
@@ -1542,6 +1546,8 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2383773	9	,	,	u--------	AuxX	8	
 2383773	22	,	,	u--------	AuxX	30	
 2383773	30	,	,	u--------	COORD	54	
+2383773	39	οὐ	οὐδέ	g--------	AuxZ	40	
+2383773	40	δὲ	δέ	g--------	COORD	34	
 2383773	46	,	,	u--------	AuxX	49	
 2383773	50	,	,	u--------	AuxX	49	
 2383773	53	.	.	u--------	AuxK	0	

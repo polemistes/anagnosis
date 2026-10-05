@@ -188,6 +188,40 @@ def merge(directory: Path, out: Path, header: str) -> tuple[int, str]:
     return len(order), "\n\n".join(preface)
 
 
+def merge_appendix(directory: Path, out: Path, header: str) -> int:
+    """Jebb's Appendix from the page batches (appendix-*.md, brief APPENDIX.md): the pages in
+    order, a paragraph that begins '+ ' joined to the one it continues (a footnote of the page
+    before stays after it). Returns the number of notes (## headings)."""
+    pages: dict[str, list[str]] = {}
+    for path in sorted(directory.glob("appendix-*.md")):
+        stem = None
+        for raw in path.read_text(encoding="utf-8").splitlines():
+            m = re.match(r"^=== (p-\d{4})\b", raw)
+            if m:
+                stem = m.group(1)
+                pages[stem] = []
+            elif stem is not None:
+                pages[stem].append(raw.rstrip())
+    paras: list[str] = []
+    for stem in sorted(pages):
+        for block in re.split(r"\n\s*\n", "\n".join(pages[stem])):
+            rows = [r.strip() for r in block.splitlines() if r.strip()]
+            while rows and rows[0].startswith("#"):
+                paras.append(rows.pop(0))  # a heading written without the blank line after it
+            if not rows:
+                continue
+            text = greek.nfc(" ".join(rows))
+            if text.startswith("+ ") and paras:
+                k = len(paras) - 1
+                while k > 0 and paras[k].startswith("[Note:"):
+                    k -= 1
+                paras[k] = paras[k] + " " + text[2:].strip()
+            else:
+                paras.append(text)
+    out.write_text(header.rstrip("\n") + "\n\n" + "\n\n".join(paras) + "\n", encoding="utf-8")
+    return sum(1 for p in paras if p.startswith("## "))
+
+
 # ---------------------------------------------------------------- the commentary (Philoctetes)
 
 def _rule_y(path: Path) -> float | None:
@@ -263,10 +297,12 @@ def prepare_commentary(sources: Path, pages_dir: Path, slug: str) -> int:
 DIFF = re.compile(r"^(\d+[a-z]?)(\+?): ours «(.*)» print «(.*)»\s*$")
 
 
-def text_check(directory: Path) -> tuple[list[tuple[str, str]], list[tuple[str, bool, str, str]]]:
+def text_check(directory: Path, prefix: str = "batch-") -> tuple[list[tuple[str, str]], list[tuple[str, bool, str, str]]]:
     """The printed line numbers (number, first word) and the differences
-    (our line, insert-after?, ours, print) the batches report, in page order."""
-    pages = read_batches(directory)
+    (our line, insert-after?, ours, print) the batches report, in page order. With prefix
+    "lines-": the second pass over the lyrics, whose differences re-divide the verses of the
+    text as imported with the first (keyed by its numbers)."""
+    pages = read_batches(directory, prefix)
     anchors, diffs = [], []
     for stem in sorted(pages):
         for raw in pages[stem]["numbers"]:

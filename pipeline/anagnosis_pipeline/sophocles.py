@@ -179,7 +179,8 @@ def _printed(text: str) -> str:
 
 
 def apply_text_check(doc, anchors: list[tuple[str, str]], diffs: list, parts: set[int],
-                     reference: dict[str, str] | None = None) -> tuple[dict[int, str], set[int], list[str]]:
+                     reference: dict[str, str] | None = None,
+                     lyrics: list | None = None) -> tuple[dict[int, str], set[int], list[str]]:
     """Jebb's printed text: the differences the transcribers found applied, and the printed line
     numbers placed on our lines as fixed points.
 
@@ -188,8 +189,10 @@ def apply_text_check(doc, anchors: list[tuple[str, str]], diffs: list, parts: se
     otherwise than this import does, and a transcriber may have used the printed number; so it
     goes to the line near that number which holds the quoted words, the one whose words are the
     reference line's first; an inserted line follows the line whose words are the reference
-    line's. Returns (fixed points by line index, the later parts of shared verses by index,
-    warnings)."""
+    line's. `lyrics`, the second pass over the lyric verses, are keyed by the numbers of the
+    text as imported with the first and applied after it, by their words alone; there ` | ` in
+    the printed words begins a new verse. Returns (fixed points by line index, the later parts
+    of shared verses by index, warnings)."""
     from .textfmt import Line
 
     warnings = []
@@ -216,23 +219,38 @@ def apply_text_check(doc, anchors: list[tuple[str, str]], diffs: list, parts: se
         hits = [i for i in window if ours in lines[i].text]
         return next((i for i in same if i in hits), hits[0] if hits else None)
 
-    for n, insert, ours, printed in diffs:
+    last: tuple[str, object] | None = None  # (number, line) of the difference applied last
+    for k, (n, insert, ours, printed) in enumerate(diffs + (lyrics or [])):
+        if k == len(diffs):
+            reference = {}  # the lyrics are keyed by the first pass's numbers
         printed = _printed(printed)
         if ours and not any(ours in l.text for l in doc.lines):
             ours = ours.replace("\u2019", "\u02bc")
-        i = locate(n, None if insert or not ours else ours)
+        if insert and last is not None and last[0] == n and last[1] in doc.lines:
+            i = doc.lines.index(last[1])  # a verse split off the line just changed
+        else:
+            i = locate(n, None if insert or not ours else ours)
         if i is None:
             warnings.append(f"difference at {n}: «{ours}» not found near it")
             continue
         line = doc.lines[i]
         if insert:
-            doc.items.insert(doc.items.index(line) + 1, Line(line.n + "z", printed))
+            new = Line(line.n + "z", printed)
+            doc.items.insert(doc.items.index(line) + 1, new)
+            line = new
         elif not printed and ours and ours.strip() == line.text.strip():
             doc.items.remove(line)
         elif ours:
             line.text = line.text.replace(ours, printed, 1)
         elif printed:
             line.text = (line.text + " " + printed).strip()
+        if " | " in line.text and line in doc.lines:
+            first, *rest = [part.strip() for part in line.text.split(" | ")]
+            line.text = first
+            at = doc.items.index(line)
+            for j, part in enumerate(rest, 1):
+                doc.items.insert(at + j, Line(line.n + "z", part))
+        last = (n, line)
     lines = doc.lines
     explicit: dict[int, str] = {}
     current = {l.n: i for i, l in enumerate(lines)}
@@ -331,8 +349,10 @@ def import_play(slug: str, sources: Path, texts: Path, build: Path, lexicon: Pat
         from .sophocles_pages import read_reference, text_check
 
         anchors, diffs = text_check(checked)
+        lyric_anchors, lyrics = text_check(checked, "lines-")
         stated_ids = {id(grc.lines[i]): grc.lines[i].n for i in stated}
-        explicit, parts, warnings = apply_text_check(grc, anchors, diffs, parts, read_reference(checked))
+        explicit, parts, warnings = apply_text_check(grc, anchors + lyric_anchors, diffs, parts,
+                                                     read_reference(checked), lyrics)
         explicit.update(perseus_anchors(grc.lines, stated_ids, explicit))
         for w in warnings:
             print("  text check: " + w, file=sys.stderr)

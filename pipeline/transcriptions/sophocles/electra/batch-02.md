@@ -224,3 +224,98 @@ Notes 156 οἷς and 157 οἵα are on our 157 and 158 (Jebb's numbering, see 
 Note 157: οἵα A with the acute; οἷα L with the circumflex; χρυσόθεμισ with the medial σ at the end, as L writes; kept.
 Note 159: Michaelis' ἀπὼν is printed with the grave (enlarged).
 The lemmas are in the ordinary Greek type, not bold.
+
+=== p-0126
+--- numbers
+165 τάλαιν’
+170 ἔρχεται
+175 Ζεύς
+--- differences
+165: ours «τάλαινʼ,» print «τάλαιν’»
+173: ours «τέκνον.» print «τέκνον· ἔτι μέγας οὐρανῷ»
+175: ours «ἔτι μέγας οὐρανῷ» print «»
+--- apparatus
+## 162
+εὐπατρίδαν, Διὸς εὔφρονι | βήματι] Keeping Διὸς, Burges would change βήματι to νεύματι (which Nauck approves): Mayhoff, to ῥήματι: Blaydes (who suggests both these) also proposes πνεύματι: Musgrave, σήματι: Meineke, λήματι. Keeping βήματι, Haupt would change Διὸς to ποδὸς: Paley, to this, or χθονὸς (‘a noble of the land’). Mekler, in the 6th Teubner ed. of Dindorf’s text, reads his own emendation, εὐπατριδᾶν ἔδος.
+
+## 164
+ὅν γ’ ἐγὼ Hermann: ὃν ἔγωγ’ MSS. [In L the accent and breathing on ε have been written so large, by a later hand, as to resemble a superscript γ. Cp. v. 234.]—L writes v. 164 as two vv., the first ending with ἀκάματα.—Heimsoeth conj. ποτιμένουσ’ for προσμένουσ’, and μέλεος for τάλαινα (*Krit. Stud.* p. 368). For οἰχνῶ, F. W. Schmidt conj. οἰκῶ: Morstadt, αὐχμῶ.
+
+## 167
+τὸν ἀνήνυτον] Reiske conj. πανανηνύτων.
+
+## 168
+ὁ δὲ λάθεται A. In L the 1st hand wrote ὧδ’ ἐλάθεται (and
+--- notes
+165: the print has no comma after τάλαιν’ (looked at twice, enlarged); ours τάλαινʼ, with a comma.
+173/175: the print sets θάρσει μοι, θάρσει, τέκνον· ἔτι μέγας οὐρανῷ as one verse (antistrophe β΄ line 1), with a raised point after τέκνον (looked at twice, enlarged); ours ends 173 with a full stop and has ἔτι μέγας οὐρανῷ as 175.
+Numbering: 165 and 170 agree with ours, but 175 stands against Ζεύς, ὃς ἐφορᾷ, our 176 (looked at twice): Jebb counts the joined verse θάρσει … οὐρανῷ as 173–174, as in the strophe (p-0124); a numbering difference to correct.
+Note 162 f.: a small speck stands between "emendation," and εὐπατριδᾶν; not a letter, ignored.
+Note 164 f.: ὅν γ’ ἐγὼ (Hermann) has the rough breathing with the acute, the MSS.' ὃν ἔγωγ’ the rough breathing with the grave (enlarged).
+Notes 167 and 168 are numbered so in the print, although τὸν ἀνήνυτον ends our (and the print's) 166 and ὁ δὲ λάθεται ends 167; transcribed as printed.
+The note on 168 runs on to p-0127.
+The small numbers 8–17 and 2 before the verses are the numbering within the strophe and antistrophe and are not listed.
+The lemmas are in the ordinary Greek type, not bold.
+
+=== p-0127
+--- apparatus
++ hence ο has been written over αι): a later hand has corrected this to ὁ δὲ λάθεται, adding a comma after δέ.—ὁ δ’ ἐλάθετο Γ.
+
+## 169
+ἔπαθ’] made from ἔπαθεν in L.—ἐδάη] Wecklein writes ἐδάην.—οὐκ ἐμοὶ] Herwerden conj. οὐχί μοι.
+
+## 170
+ἀγγελίας ἀπατώμενον] Nauck writes ἀγγελίαις (this with Reiske) ἀπατῶν μόνον. Herwerden and Schenkel conj. ἀγγελίαις ἀπατωμένη: Herwerden also ἀγγελίαις ἀπατῶν μ’ ἀεί.
+
+## 171
+ἀεὶ Brunck: αἰεὶ MSS.
+
+## 172
+οὐκ ἀξιοῖ] Bothe and Meineke conj. ἀπαξιοῖ.
+
+## 174
+ἔτι] The 1st hand in L wrote ἔτι, which a later hand has corrected to ἔστι. Over this there is what might seem a blot made in the attempt to correct ἔστι to ἐστί, but is rather (I think) σ, intended to explain the compendium for στ below it.—ἔστι was the common reading (A, Γ, etc., and Ald.): it is also cited by the schol. in L at v. 823.—μέγας οὐρανῷ] μέγας ἐν οὐρανῷ MSS.: Heath deleted ἐν: Hermann wrote μέγας ἔτ’ ἐν οὐρανῷ. [Acc. to Herm., ἐν was omitted in one of the MSS. (‘Liv. a. b.’)
+--- notes
+The block begins with the end of note 168 from p-0126 ("In L the 1st hand wrote ὧδ’ ἐλάθεται (and").
+Note 170: the lemma ἀγγε-λίας is divided at the line end in the print; joined. Herwerden's ἀεί at the end has the acute (enlarged).
+Note 171: ἀεὶ (Brunck) and αἰεὶ (MSS.) are printed with the grave, as in the text.
+Note 174: "to correct ἔστι to ἐστί": ἐστί with the smooth breathing and, as far as can be seen, the acute on ι (enlarged at 5x; the mark is small). Jebb's 174 is the second half of his joined verse 173–174, our 175 (ἔτι μέγας οὐρανῷ).
+Note 169 (ἔπαθ’, ἐδάη, οὐκ ἐμοὶ) bears Jebb's number although these words stand in our (and the print's) 168, ὧν τ’ ἔπαθ’ … ἐμοὶ (the commentary has 169 f. for ὧν τ’ ἔπαθ’); transcribed as printed. Note 170 agrees with our 170.
+The note on 174 runs on to p-0128.
+The lemmas are in the ordinary Greek type, not bold.
+
+=== p-0128
+--- numbers
+180 οὔτε
+185 ἀλλ’
+--- differences
+178: ours «ἐπιλάθου·» print «ἐπιλάθου.»
+182: ours «ἀπερίτροπος» print «ἀπερίτροπος,»
+187: ours «τεκέων» print «*τεκέων»
+--- apparatus
++ collated at Rome by Joannes Livineius in the 16th cent.]
+
+## 178
+The words ὑπεράχθεο μήτ’ ἐπιλάθου form a separate verse in L.
+
+## 179
+εὐμαρὴς] Blaydes conj. εὐμενὴς.
+
+## 180
+Κρῖσαν r: Κρίσαν L, with most MSS., and Ald.: Musgrave conj. Κρίσᾳ: Blaydes, Κρίσας, or (omitting τὰν) Κρισαίαν.
+
+## 181
+βούνομον 1st hand in L, corrected to βουνόμον: βουνόμον A, Γ, etc.: βουνόμαν T (Triclinius), Vindobonensis (cp. 87 cr. n.), and Ald.
+
+## 182
+Ἀγαμεμνονίδας r: ἀγαμεμνίδασ L. Wiedmann conj. παῖ, ’ς Ἀγαμεμνονίδας: Kramm, τοῖς Ἀγαμεμνονίδαις.—ἀπερίτροπος]
+--- notes
+The block begins with the end of note 174 from p-0127 ("(‘Liv. a. b.’)").
+178: the print ends the line with a full stop on the baseline, like θεός. in the next line (looked at twice, enlarged); ours has ·.
+182: the print has a comma after ἀπερίτροπος (looked at twice, enlarged); ours none.
+187: the print sets an asterisk before τεκέων (Jebb's mark for an emendation); ours has none (looked at twice, enlarged). The words agree.
+Note 179: Blaydes' εὐμενὴς is printed with the grave, like the lemma εὐμαρὴς (enlarged at 5x).
+Note 182: ἀγαμεμνίδασ is printed with the medial σ at the end, as L writes; kept. In Wiedmann's conjecture παῖ, ’ς the ’ς (prodelided ἐς) is in the Greek type. The note runs on to p-0129 after "—ἀπερίτροπος]".
+Note 181: "1st hand" as printed.
+The small numbers 3–12 before the verses are the numbering within the antistrophe and are not listed.
+The lemmas are in the ordinary Greek type, not bold.

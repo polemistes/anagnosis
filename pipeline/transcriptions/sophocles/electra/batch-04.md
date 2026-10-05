@@ -114,3 +114,28 @@ The first line ends note 374 of p-0152 («αὐτὴν] Tournier conj. ἡμᾶ�
 Note 376: a speck under the full stop of "conj." is not a comma. *ad O. C.* and *Edin. Rev.* are in italics; XIX. in small capitals.
 Note 379: L's λήξεισ, λήξηισ, λήξοισ are printed with the medial σ at the end; kept.
 The lemmas are in the ordinary (italic) Greek type, not bold.
+
+=== p-0154
+--- numbers
+385 ἦ
+390 ὅπως
+395 μή
+--- differences
+383: ours «φράζου» print «φράζου,»
+391: ours «προσωτάτω φύγω.» print «προσωτάτ’ ἐκφύγω.»
+--- apparatus
+## 382
+χθονὸς] Nauck writes πόλεως. For στέγῃ χθονὸς Wilamowitz conj. θόλῳ στέγης (*Hermes* XIV. p. 176).—ἐκτὸς] Schenkel conj. ἐντὸς.—κακά] Wecklein conj. τὰ σά (*Ars* p. 55).
+
+## 383
+καί με] Blaydes conj. κοὔ με.
+
+## 385
+ἦ ταῦτα δή με L, with most MSS., and Ald.: ἦ ταῦτα γάρ με Triclinius (T, with a few of the later MSS.),
+--- notes
+383: looked at twice, enlarged: the print has a comma after φράζου; ours none.
+391: looked at twice, enlarged: the print reads «ὡς προσωτάτ’ ἐκφύγω.», as Jebb's commentary on 382 on this page also quotes it; ours «ὡς προσωτάτω φύγω.».
+Note 382: ἐκτὸς and Schenkel's ἐντὸς both have a grave (enlarged). The iota subscript of στέγῃ in the note is faint; that of θόλῳ is clear. *Hermes* and *Ars* are in italics.
+Note 383: κοὔ has the coronis and an acute.
+Note 385: the note runs on to p-0155.
+The lemmas are in the ordinary (italic) Greek type, not bold.

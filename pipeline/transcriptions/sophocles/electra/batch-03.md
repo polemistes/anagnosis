@@ -263,3 +263,40 @@ Suidas *s.v.* ὑλακτεῖ quotes thus: τοιαῦθ’ ὑλακτεῖ· 
 Note 299—301: the label is divided at the line end ("299" / "—301"); heading 299-301. "s.v." is printed in italics, without a space.
 Note 300: ταὐτὰ has the coronis and a grave (enlarged); the ὁ, οὗτος and ἡ of Suidas' quotation have the rough breathing.
 The lemmas are in the ordinary Greek type, not bold.
+
+=== p-0144
+--- numbers
+305 μέλλων
+310 φέρ’
+315 τοὺς
+--- differences
+308: ours «πάρεστιν·» print «πάρεστιν,»
+311: ours «ἡμῖν» print «ἡμῖν,»
+--- apparatus
++ Ald.
+
+## 303
+Another reading was ἐγὼ δ’ Ὀρέστην προσμένουσ’ ἀεὶ ποτε (schol. in L). Accepting this, Wunder (*De Schol. Auctor.* p. 36) would alter ἐφήξειν in 304 to τούτων: Nauck, Ὀρέστην to τῶνδε.
+
+## 304
+ἐφήξειν] Blaydes conj. ἔθ’ ἥξειν.
+
+## 305
+ἀεὶ] ι has been inserted after α by a later hand in L.—μου L, with most MSS., and Ald. But one at least of the later MSS. (the Florentine Δ, cod. Abbat. 41) has μοι, as Porson conjectured; so too, Thomas Mag. p. 88 R, *s. v.* διέφθορεν.
+
+## 306
+διέφθορεν] διέφθορας Eustathius p. 191. 29.
+
+## 308
+εὐσεβεῖν] Morstadt conj. εὐστομεῖν, which Nauck and Wecklein receive.—ἔν τοι Hermann: ἐν τοῖς MSS.
+
+## 309
+πολλή ’στ’] πολλἥστ’ (not πολλἠστ’) L. Both breathing and accent are from a later hand: the first hand prob. meant πολλῆστ’.—πολλή τ’ A,
+--- notes
+308: the print has a comma after πάρεστιν (looked at twice, enlarged; Jebb's commentary on this page says "I place only a comma, not a colon"); ours has a raised point.
+311: the print has a comma after ἡμῖν (looked at twice, enlarged); ours has none.
+The margin number 310 is printed with a damaged 0.
+Note 303: ἀεὶ before ποτε is printed with a grave (enlarged); transcribed as printed.
+Note 305: "p. 88 R," has a comma after R followed by a small dot (perhaps a displaced full stop); transcribed "R,". "s. v." is in italics, with a space.
+Note 309: the three forms are hard to read in the small type (enlarged, compared with ἔθ’ and ἥξειν in note 304): L's reading has two marks over η, read as rough breathing and acute (πολλἥστ’), like ἥξειν; the form after "not" has a single comma-shaped mark, read as the smooth breathing (πολλἠστ’); the form the first hand prob. meant has the circumflex only (πολλῆστ’). Uncertain.
+The lemmas are in the ordinary Greek type, not bold.
