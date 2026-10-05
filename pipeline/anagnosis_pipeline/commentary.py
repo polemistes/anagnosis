@@ -76,7 +76,12 @@ def import_jebb_commentary(source: Path, out: Path, meta: dict[str, str]) -> int
         if d.get("type") == "commentary":
             comm = d
     if comm is None:
-        raise SystemExit("no <div1 type=commentary> found")
+        # the Oedipus Tyrannus file: <div1 type="section" n="1-150"> sections of
+        # <div2 type="commline" n="..."> notes, the first of a range (n="1-77") summarising it
+        sections = [d for d in root.iter("div1") if d.get("type") in ("section", "sect")]
+        if not sections:
+            raise SystemExit("no <div1 type=commentary> found")
+        return _import_sectioned(sections, out, meta)
     lines = [f"# {k}: {v}" for k, v in meta.items()]
     lines.append("")
     n_notes = 0
@@ -125,6 +130,40 @@ def import_jebb_commentary(source: Path, out: Path, meta: dict[str, str]) -> int
         emit_intro(d2)
         for d3 in d2.iter("div3"):
             emit_line_note(d3)
+    out.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    return n_notes
+
+
+def _import_sectioned(sections, out: Path, meta: dict[str, str]) -> int:
+    lines = [f"# {k}: {v}" for k, v in meta.items()]
+    lines.append("")
+    n_notes = 0
+
+    def clean(md: str) -> str:
+        md = re.sub(r"[ \t]+\n", "\n", md)
+        md = re.sub(r"\n{3,}", "\n\n", md).strip()
+        return re.sub(r" +", " ", md)
+
+    def emit(heading: str, body: str) -> None:
+        nonlocal n_notes
+        if not body:
+            return
+        lines.append(f"## {heading}")
+        lines.append(body)
+        lines.append("")
+        n_notes += 1
+
+    for d1 in sections:
+        rng = (d1.get("n") or "").strip()
+        intro = [p for p in d1 if isinstance(p.tag, str) and p.tag == "p"]
+        if intro and re.fullmatch(r"\d+-\d+", rng):
+            emit(rng, clean("\n\n".join(_md(p, False) for p in intro)))
+        for d2 in d1.iter("div2"):
+            n = (d2.get("n") or "").strip()
+            if not re.fullmatch(r"\d+[a-z]?(?:-\d+[a-z]?)?", n):
+                continue
+            paragraphs = [c for c in d2 if isinstance(c.tag, str) and c.tag != "head" and not c.tag.startswith("div")]
+            emit(n, clean("".join(_md(p, False) for p in paragraphs)))
     out.write_text("\n".join(lines) + "\n", encoding="utf-8")
     return n_notes
 

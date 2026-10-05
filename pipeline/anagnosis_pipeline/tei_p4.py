@@ -20,7 +20,7 @@ _EXTRA = {
     "ucaron": "ǔ", "rdot": "ṛ", "mnull": "m̥",  # Sanskrit and Indo-European notation
     "abreve": "ă", "ebreve": "ĕ", "ibreve": "ĭ", "obreve": "ŏ", "ubreve": "ŭ",  # quantities (Bury)
     # Perseus boilerplate entities (header only)
-    "responsibility": "", "fund.AnnCPB": "", "fund.NEH": "", "Perseus.publish": "",
+    "responsibility": "", "fund.AnnCPB": "", "fund.NEH": "", "fund.FIPSE": "", "Perseus.publish": "", "Perseus.DE": "",
 }
 
 

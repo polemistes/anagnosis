@@ -35,6 +35,16 @@ FILES = {
     "scans/homericdictiona00aute.pdf": "https://archive.org/download/homericdictiona00aute/homericdictiona00aute.pdf",
     # GLAUx (CC BY-SA 4.0): automatic lemmas, morphology and syntax of the Symposium
     "glaux/0059-011.xml": f"{RAW}/alekkeersmaekers/glaux/main/xml/0059-011.xml",
+    # ... and of the two Sophocles plays the treebank lacks (sophocles.py)
+    "glaux/0011-006.xml": f"{RAW}/alekkeersmaekers/glaux/main/xml/0011-006.xml",
+    "glaux/0011-007.xml": f"{RAW}/alekkeersmaekers/glaux/main/xml/0011-007.xml",
+    # Jebb's translations of the other Sophocles plays, modernized by Perseus (sophocles.py)
+    **{
+        f"{slug}.{eng}.xml": f"{RAW}/PerseusDL/canonical-greekLit/master/data/tlg0011/{tlg}/tlg0011.{tlg}.{eng}.xml"
+        for slug, tlg, eng in (("ajax", "tlg003", "perseus-eng2"), ("electra", "tlg005", "perseus-eng2"),
+                               ("oedipustyrannus", "tlg004", "perseus-eng2"), ("oedipuscoloneus", "tlg007", "perseus-eng2"),
+                               ("philoctetes", "tlg006", "perseus-eng2"), ("trachiniae", "tlg001", "perseus-eng3"))
+    },
     **{
         f"lsj/grc.lsj.perseus-eng{i}.xml": f"{RAW}/PerseusDL/lexica/master/CTS_XML_TEI/perseus/pdllex/grc/lsj/grc.lsj.perseus-eng{i}.xml"
         for i in range(1, 28)
@@ -48,6 +58,13 @@ HOPPER_FILES = {
     "Classics/Homer/opensource/hom.od_eng.xml": "odyssey.murray-eng.xml",
     "Classics/Homer/opensource/monro.hom.od_eng.xml": "odyssey-merry-monro-commentary.xml",
     "Classics/Plato/opensource/bury.symp.xml": "symposium-bury-commentary.xml",
+    # Jebb's Greek text of the other Sophocles plays, and his commentaries (none for the Philoctetes)
+    **{f"Classics/Sophocles/opensource/soph.{code}_gk.xml": f"{slug}.perseus-gk.xml"
+       for slug, code in (("ajax", "aj"), ("electra", "el"), ("oedipustyrannus", "ot"), ("oedipuscoloneus", "oc"),
+                          ("philoctetes", "phil"), ("trachiniae", "trach"))},
+    **{f"Classics/Sophocles/opensource/jebb.soph.{code}_eng.xml": f"jebb-{slug}-commentary.xml"
+       for slug, code in (("ajax", "aj"), ("electra", "el"), ("oedipustyrannus", "ot"), ("oedipuscoloneus", "oc"),
+                          ("trachiniae", "trach"))},
 }
 # Jowett's Symposium (The Dialogues of Plato, 3rd ed., 1892, vol. I), as proofread on Wikisource
 JOWETT = "https://en.wikisource.org/w/index.php?title=Page:The_Dialogues_of_Plato_v._1.djvu/{n}&action=raw"

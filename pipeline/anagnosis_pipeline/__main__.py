@@ -26,6 +26,8 @@ def main(argv: list[str] | None = None) -> int:
     sub.add_parser("merge-symposium", help="texts/symposium/ from the transcription (pipeline/transcriptions/symposium/), GLAUx, Jowett and Bury")
     csb = sub.add_parser("check-symposium-batch", help="check Symposium transcription batch files")
     csb.add_argument("files", nargs="+")
+    isp = sub.add_parser("import-sophocles", help="texts/<play>/ for Sophocles' plays in Jebb's edition (sophocles.py): text, translation, tokens, syntax, commentary")
+    isp.add_argument("plays", nargs="*", help="slugs (default: all): ajax electra oedipustyrannus oedipuscoloneus philoctetes trachiniae")
     sub.add_parser("fetch-nt", help="download the New Testament sources into pipeline/sources/nt/ (SBLGNT, MACULA, Dodson, BSB)")
     sub.add_parser("import-nt", help="texts/newtestament/ from the SBLGNT, MACULA, Dodson and the Berean Standard Bible")
     sub.add_parser("prepare-autenrieth-pages", help="page images and OCR drafts for transcribing Autenrieth's Homeric Dictionary (pipeline/build/autenrieth-pages/)")
@@ -112,6 +114,11 @@ def main(argv: list[str] | None = None) -> int:
                 print("  " + p)
             bad += len(problems)
         return 1 if bad else 0
+    elif args.cmd == "import-sophocles":
+        from .sophocles import PLAYS, import_play
+        for slug in args.plays or list(PLAYS):
+            print(f"== {slug}")
+            import_play(slug, SOURCES, TEXTS, ROOT / "pipeline" / "build", DATA / "lexicon.sqlite")
     elif args.cmd == "check-autenrieth":
         from .autenrieth import check_all as check_autenrieth_all
         problems = check_autenrieth_all(ROOT / "pipeline" / "transcriptions" / "autenrieth", ROOT / "pipeline" / "build" / "autenrieth-pages")

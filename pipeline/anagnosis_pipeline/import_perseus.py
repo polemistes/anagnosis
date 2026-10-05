@@ -419,8 +419,11 @@ def import_antigone(sources: Path, texts: Path) -> None:
 
 # ---------------------------------------------------------------- Perseus P4 Greek editions (betacode)
 
-def p4_text_to_document(path: Path, meta: dict[str, str]) -> Document:
-    """Older Perseus Greek editions: TEI P4, betacode, <l> mostly without n (only every fifth line)."""
+def p4_text_to_document(path: Path, meta: dict[str, str], split_verses: bool = False) -> Document:
+    """Older Perseus Greek editions: TEI P4, betacode, <l> mostly without n (only every fifth line).
+
+    With `split_verses`, the later parts of a verse shared between speakers (<l part="M|F">)
+    keep the verse's number, and their indices are listed in meta["_parts"]."""
     from .tei_p4 import load as load_p4
 
     root = load_p4(path)
@@ -428,6 +431,7 @@ def p4_text_to_document(path: Path, meta: dict[str, str]) -> Document:
     doc = Document(meta=dict(meta))
     counter = 0
     explicit: set[int] = set()  # indices (in doc.lines) of lines whose number the file states
+    continued: set[int] = set()  # indices of the later parts of a shared verse
 
     def text_of(el) -> str:
         parts = [el.text or ""]
@@ -452,7 +456,14 @@ def p4_text_to_document(path: Path, meta: dict[str, str]) -> Document:
                 walk(child, depth)
             elif tag == "l":
                 n = child.get("n")
-                if n:
+                if split_verses and child.get("part") in ("M", "F") and doc.lines:
+                    continued.add(len(doc.lines))
+                    label = str(counter)
+                    if n:  # the verse's number, written on its later part
+                        explicit.add(len(doc.lines))
+                        counter = int(re.match(r"^(\d+)", n).group(1))
+                        label = n
+                elif n:
                     m = re.match(r"^(\d+)([a-z]?)$", n)
                     counter = int(m.group(1))
                     label = n
@@ -477,6 +488,8 @@ def p4_text_to_document(path: Path, meta: dict[str, str]) -> Document:
 
     walk(body, 1)
     doc.meta["_explicit"] = ",".join(str(i) for i in sorted(explicit))
+    if split_verses:
+        doc.meta["_parts"] = ",".join(str(i) for i in sorted(continued))
     return doc
 
 

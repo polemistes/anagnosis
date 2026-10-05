@@ -63,5 +63,21 @@ def import_introduction(source: Path, out: Path, meta: dict[str, str]) -> int:
             lines.append(body)
             lines.append("")
             n += 1
+    # The later volumes' files: one <div1 type="introduction"> of numbered sections (§ 1, § 2 ...)
+    # whose headings Perseus left out
+    d1 = next((d for d in root.iter("div1") if d.get("type") == "introduction"), None)
+    if d1 is not None and n == 0:
+        lines.append("# Introduction")
+        lines.append("")
+        for d2 in d1.findall("div2"):
+            body, _title = _md_with_headings(d2, False)
+            body = re.sub(r"[ \t]+\n", "\n", body)
+            body = re.sub(r"\n{3,}", "\n\n", body).strip()
+            body = re.sub(r" +", " ", body)
+            lines.append(f"## § {d2.get('n') or n + 1}")
+            lines.append("")
+            lines.append(body)
+            lines.append("")
+            n += 1
     out.write_text("\n".join(lines) + "\n", encoding="utf-8")
     return n
