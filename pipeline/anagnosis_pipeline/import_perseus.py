@@ -162,6 +162,13 @@ LEMMA_FIXES = {
     "οἰ": "οἴ",
     "κάρον": "κάρα",
     "ῥαίδιον": "ῥᾴδιος",
+    # slips in the Electra treebank
+    "πυλάδης": "Πυλάδης",
+    "ἔενειμι": "ἔνειμι",
+    "ἐχθιστος": "ἔχθιστος",
+    "ὄι": "οἴ",
+    "ουδείς": "οὐδείς",
+    "Κλυταιμνήστρη": "Κλυταιμνήστρα",
 }
 
 # Hand annotations for words the treebank does not cover (Storr's text differs from the

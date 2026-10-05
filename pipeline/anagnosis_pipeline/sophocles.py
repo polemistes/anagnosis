@@ -84,7 +84,9 @@ def sources_for(play: Play) -> dict[str, str]:
 # Jebb's readings that neither the treebank nor the analyser knows: form -> (lemma, postag)
 FORM_FIXES = {
     "ἀνστάσεις": ("ἀνίστημι", "v2sfia---"),  # El. 138, apocope for ἀναστήσεις
+    "διαίτᾳ": ("δίαιτα", "n-s---fd-"),  # El. 1073, where the treebank has διά+δίαιτα, a preposition
 }
+WRONG_LEMMAS = {"διά+δίαιτα"}
 
 
 def read_agdt(path: Path) -> list[dict]:
@@ -459,7 +461,7 @@ def import_play(slug: str, sources: Path, texts: Path, build: Path, lexicon: Pat
         review.append({"line": r["line"], "form": r["form"], "lemma": r["lemma"], "postag": r["postag"], "reason": reason})
     for r in rows:
         r["lemma"] = LEMMA_FIXES.get(r["lemma"], r["lemma"])
-        if not r["lemma"] and r["form"] in FORM_FIXES:
+        if (not r["lemma"] or r["lemma"] in WRONG_LEMMAS) and r["form"] in FORM_FIXES:
             r["lemma"], r["postag"] = FORM_FIXES[r["form"]]
     write_tokens(out / "tokens.tsv", rows)
     used = {(r["sentence"], w) for r in rows for w in r["word_id"].split("+") if r["sentence"]}
