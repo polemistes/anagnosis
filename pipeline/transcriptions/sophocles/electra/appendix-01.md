@@ -80,3 +80,59 @@ Turning now to post-classical texts, let us take some *genuine* instances of τ�
 3. Athenaeus, p. 438 E, quotes a biographer of Antiochus Epiphanes (*ob.* 164 B.C.) as ascribing to him these words, τίνι ἡ Τύχη δίδωσι, λαβέτω. (Casaubon conjectured ᾧ τινι.)
 
 4. With regard to the Hellenistic usage as exemplified by the New Testament, it would be difficult to find a passage in which τίς replaces ὅστις where there is absolutely no suggestion of an indirect question; though, on the other hand, the usage passes, of course, beyond the limit which (if I am right) was observed in classical Greek. Thus in St Mark xiv. 36, οὐ τί ἐγὼ θέλω, ἀλλὰ τί σύ, A. Buttmann (*Gramm. of N. T. Greek*, p. 252, Eng. tr.) agrees with those who see an indirect question here (‘The question is, not what I will...’); and Winer takes a similar view (*Gramm. of N. T. Greek*, Eng. ed. by Dr W. F. Moulton, p. 210). I agree with them; though I should be disposed to add that, in such an example, the suggestion of the indirect question is so faint as to make τίς *virtually* equivalent to a purely relative ὅστις.
+=== p-0306
+## Line 363 f.
+
+**ἐμοὶ γὰρ ἔστω τοὐμὲ μὴ λυπεῖν μόνον | βόσκημα.**
+
+The conjectures here show a wide diversity of view as to the *sense* required. Each of the following ideas is represented by one or more of them:—(1) ‘to be firm in doing right’: (2) ‘to persevere in grief’: (3) ‘to honour my father’s memory’: (4) ‘to vex his enemies’; (5) ‘to be content with a bare subsistence.’ But the simplest way of classifying the emendations is under two heads, viz., I. those which involve some part of λυπεῖν or λύπη, and II. those which do not.
+
+I. (*a*) With λυπεῖν. 1. Erfurdt: τοὐμὲ μὴ λυποῦν etc. (*satis habebo non exagitari adulterorum inhumanitate*): *i.e.*, ‘let it be solace enough for me if I am not actually persecuted.’ Prof. Campbell adopts λυποῦν, but gives the words a different sense: ‘I would have such maintenance alone as will not cause me pain’: *i.e.*, ‘through compliance with my father’s enemies.’ 2. Brunck, τοῦ μέ νιν (*eos*) λυπεῖν. 3. Hermann suggested, τοὐν ἐμοὶ λυπεῖν, *i.e.*, ‘to vex (our enemies) as much as I can.’ But he finally adhered to the vulg., τοὐμὲ μὴ λυπεῖν. 4. Lindner: τοὔμ’ ἀεὶ λυπεῖν (in a like sense). 5. G. Wolff: τοῦτο δή, λυπεῖν (do.). 6. Mohr: τἀμὰ (= τοὺς ἐμοὺς) μὴ λυπεῖν. 7. Schuppe: τόνδε (*i.e.*, πατέρα) μὴ λυπεῖν. 8. Eggert: τοὺς σύ, μὴ λυπεῖν (*i.e.*, οὓς σὺ λυπεῖς, viz., her father). 9. Fuss: τοὐμὲ μὴ λυπεῖν ἐμούς. 10. Wecklein, in his edition, reads τοὐμὲ μὴ λυπεῖν φίλους.
+
+(*b*) With λύπῃ. 1. Burges: τοὐν ἐμῇ λύπῃ. 2. Arnold: τοὐν ἐμῇ λύπῃ μένειν. 3. W. Hoffmann: τοῦτο δή, λύπῃ. 4. Moritz Schmidt: τοὐμμένειν λύπῃ. 5. Renner: τούσδ’ ἐλᾶν λύπῃ.
+
+II. 1. Clem. Otto: τοὐμὲ μὴ λιπεῖν νόμον (and so Henneberg, but with γόον). 2. Lobeck: τοὐμὲ μὴ ’κλιπεῖν (Döderlein, ’λλιπεῖν). 3. Schneidewin: τοὐμὲ (Nauck, τῶνδε) μὴ λήγειν γόων. 4. F. W. Schmidt: τοὐμὲ μὴ ἀλιτεῖν. 5. Driessen: τοὐμὲ μηνίειν. 6. Bergk: τοὐμὲ μὴ γνυπτεῖν (= ἀσθενεῖν, Hesych.). 7. Fröhlich: πατέρ’ ἐμὸν κλαίειν. 8. Heimsoeth: τοὐμὸν οὐ λεῖπον. 9. Blaydes (in his text): τοὐμὲ μὴ ’κλεῖπον.
+
+## Line 442 f.
+
+**σκέψαι γὰρ εἴ σοι προσφιλῶς αὐτῇ δοκεῖ | γέρα τάδ’ οὑν τάφοισι \*δέξεσθαι νέκυς.**
+
+The actual usage of δοκῶ in Sophocles (see commentary) sufficiently justifies Heath’s correction of δέξασθαι to δέξεσθαι here. And that usage might be illustrated from the best Attic prose; *e.g.*, δοκῶ, referring to the future, takes (1) the future inf. in Thuc. 1. 44; 2. 20, 79; 5. 14, 59; 7. 41; 8. 54; Plat. *Phaedr.* 228 C, *Theaet.* 183 D: (2) the aor. inf. and ἄν in Thuc. 4. 104; 6. 37, 38; 7. 73: Plat. *Rep.* 336 D; 351 C.
+
+But *could* δοκεῖ δέξασθαι, without any further indication of future time, mean, ‘seems likely to receive,’ instead of, ‘seems to have received’? I should certainly think not; and for the simple reason that δοκῶ does not necessarily refer to the future. Goodwin (*Moods and Tenses*, new ed., § 136) states that ‘Verbs of *hoping*, *expecting*, *promising*, *swearing*,’ etc., when they ‘refer to a future object,’ ‘regularly take the
+=== p-0307
++ future infinitive in indirect discourse; but they also allow the aorist and even the present infinitive (not in indirect discourse), like verbs of *wishing*, etc.’ And the reason why they can thus allow the aorist infinitive is that they themselves, in such cases, exclude the supposition of a reference to past time. No ambiguity is possible: whereas δοκεῖ δέξασθαι, if intended to refer to the future, would be (to say the least) ambiguous: we may, indeed, go further, and say that those words would inevitably be understood as referring to the past, unless some other words in the context made it clear that the reference was to the future.
+
+The examples in prose of a simple aor. inf. referring to the future are often doubtful; either because a change of one letter would give the fut. inf. (as in Thuc. 4. 24 § 4 ἤλπιζον...χειρώσασθαι, Lys. or. 12 § 19 ᾤοντο κτήσασθαι); or because the loss of ἂν may be suspected, as in Lys. or. 33 § 2 ἡγήσατο γὰρ τὸν ἐνθάδε σύλλογον ἀρχὴν γενέσθαι τοῖς Ἕλλησι τῆς πρὸς ἀλλήλους φιλίας (not, ‘thought that it had become,’ but ‘expected that it would become’), where ἂν has surely dropped out after ἀρχήν. All the more valuable are the few examples which resist such treatment. Homeric Greek furnishes at least one such, *Od.* 4. 253 f. καὶ ὤμοσα καρτερὸν ὅρκον | μὴ μὲν πρὶν Ὀδυσῆα μετὰ Τρώεσσ’ ἀναφῆναι. Another occurs in Aesch. *Theb.* 427 ff., θεοῦ τε γὰρ θέλοντος ἐκπέρσειν πόλιν | καὶ μὴ θέλοντος φησίν, οὐδὲ τὴν Διὸς | Ἔριν πέδῳ σκήψασαν ἐκποδὼν σχεθεῖν, for, whatever doubt there may be as to some other words there, it does not affect σχεθεῖν. In Eur. *H. F.* 745 f. ἤλ-|πισε παθεῖν may probably be counted as another example; for those words, at least, appear sound.
+
+## Line 445
+
+**ἐμασχαλίσθη.** The ancient authorities for the custom are the following.
+
+1. The scholia on this verse. Three comments, by three different hands, are pieced together. (*a*) The first says that murderers were wont to wipe their swords on the heads of their victims, ὥσπερ ἀποτροπιαζόμενοι τὸ μύσος τὸ ἐν τῷ φόνῳ. (*b*) The second states that the murderers of a kinsman or clansman (οἱ δρῶντες ἐμφύλιον φόνον) were wont ἀκρωτηριάζειν τοὺς ἀναιρεθέντας,...ὥσπερ τὴν δύναμιν ἐκείνων ἀφαιρούμενοι. (*c*) The third scholium more closely explains the term μασχαλίζω, by τὰ ἄκρα ἔτεμνον καὶ περὶ τὴν μασχάλην αὐτοῦ ἐκρέμαζον, assigning the same motive; ἵνα, φασίν, ἀσθενὴς γένοιτο πρὸς τὸ ἀντιτίσασθαι τὸν φονέα. It ends by quoting Apoll. Rhod. 4. 477, ἐξάργματα τάμνε θανόντος. [Parts of these scholia are also in Suidas s. v. μασχαλισθῆναι and ἀποτροπιαζόμενοι, and *Etym. Magn.* s. v. μασχαλίζω.]
+
+2. Photius and Suidas s. v. μασχαλίσματα. It is here that Aristophanes of Byzantium (*c.* 200 B.C.) is cited as the authority:—Ἀριστοφάνης <φησὶ> παρὰ Σοφοκλεῖ ἐν Ἠλέκτρᾳ κεῖσθαι τὴν λέξιν, ἔθος σημαίνουσαν. οἱ γὰρ φονεύσαντες ἐξ ἐπιβουλῆς τινα ὑπὲρ τοῦ τὴν μῆνιν ἐκκλίνειν ἀκρωτηριάσαντες μόρια τούτου καὶ ὁρμαθίσαντες ἐξεκρέμασαν τοῦ τραχήλου διὰ τῶν μασχαλῶν διείροντες· ἀφ’ οὗ δὴ καὶ μασχαλίσματα προσηγόρευσαν αὐτά.
+=== p-0308
+3. Suidas s. v. ἐμασχαλίσθη, to a similar effect. The motive ascribed to the murderers is expressed by the words τὸ ἔργον ἀφοσιουμένοις. The *Troilus* of Sophocles is quoted for the phrase πλήρη μασχαλισμάτων.
+
+4. *Etym. Magn.* s.v. ἀπάργματα. Here also the motive is ἀφοσιῶσαι τὸν φόνον.
+
+5. The schol. on Apoll. Rhod. 4. 477 adds a new detail, viz., that the murderers, after mutilating their victim, ἔπειτα τοῦ αἵματος αὐτοῦ λαβόντες τρὶς εἰς τὸ στόμα ἀπέπτυον. The motive is ἐξιλάσασθαι τὴν δολοφονίαν.
+
+Thus the ancient authorities agree in referring the custom denoted by μασχαλίζειν to the murderer’s *fear*. But while some of them (1 *b* and *c*) conceive this fear as a dread of *vengeance from the dead man*—who must therefore be deprived of power to wreak it—others (1 *a*, 3, 4, 5) conceive it as a disquieting sense of the *pollution* incurred by the deed, and regard the custom as being in the nature of an expiation, *i.e.*, a propitiation of the gods (especially, of course, the χθόνιοι) by offering to them the severed parts. The latter view is expressed in the word ἐξάργματα as a synonym for μασχαλίσματα. It is noteworthy that in the explanation ascribed to Aristophanes (see paragraph 2) the phrase used is ὑπὲρ τοῦ τὴν μῆνιν ἐκκλίνειν: where the μῆνις intended may be that of the gods, or of the dead man’s spirit, or both; and if both, then here the two explanations converge: *i.e.*, the act which incapacitates the victim for vengeance at the same time bespeaks the clemency of the deities.
+
+## Line 466
+
+**τὸ γὰρ δίκαιον οὐκ ἔχει λόγον | δυοῖν ἐρίζειν.** Hartung, adopting Scaliger’s change of λόγον to λόγοιν, explains thus:—‘What is right (*i.e.* a clear duty) *does not admit of* (οὐκ ἔχει) people contending with opposed arguments’: or, as he expresses it in his verse translation, ‘Gerechtes eignet nicht dem Streit | Verschiedener Meinung.’ But οὐκ ἔχει ἐρίζειν could mean only, ‘is unable to contend.’
+
+## Lines 495–497
+
+**πρὸ τῶνδέ τοί μ’ ἔχει †μή ποτε μή ποθ’ ἡμῖν | ἀψεγὲς πελᾶν τέρας.**
+
+The corresponding verses in the strophe are 479—481, ὕπεστί μοι θράσος, ἁδυπνόων κλύουσαν | ἀρτίως ὀνειράτων.
+
+A. Conjectures which assume that in 479 we should read ὕπεστί μοι θράσος, and not ὕπεστί μοι θάρσος.
+
+These are of two classes, viz., I. such as alter the words πρὸ τῶνδέ τοί μ’ ἔχει: II. such as leave those words unaltered, but make some change in μή ποτε, μή ποθ’ ἡμῖν.
+
+I. In the words πρὸ τῶνδέ τοί μ’ ἔχει the following changes (among others) have been proposed. 1. Wunder: θράσος for μ’ ἔχει. 2. Erfurdt: πρὸ τῶν μ’ ἔχει θράσος. 3. Reiske: πρὸς ὧν δέος μ’ ἔχει. 4. Faehse and Bergk: πρὸ τῶνδέ τοι μένει. 5. Schneidewin: πρὸ τῶνδ’ ἕτοιμ’ ἔχει (Lachmann ἔχε), or ἐμοί. 6. Nauck (formerly): δοκῶ δέ τοί

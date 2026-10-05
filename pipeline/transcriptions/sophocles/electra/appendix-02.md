@@ -141,6 +141,8 @@ two-wheeled chariot, drawn by four horses harnessed abreast, and is turning roun
 + from right to left. In the diagram below A denotes the position of the post; the curve traced in
 the diagram is supposed to be such as might be described by a chariot passing close to the post.
 
+[Jebb's diagram is not reproduced here: it shows the post at A, the four horses B, C, D, E, and G, the centre of the chariot.]
+
 The effect of *tightening* the rein of the horse (B) on the driver’s extreme left, who is nearest
 to the post, would be to lessen the force with which that horse pulls, as compared with the force
 exerted by the other three horses (C, D, E); and this would not, under the circumstances supposed,
@@ -164,3 +166,148 @@ cause of the accident is left unexplained. But it seems manifest that the poet i
 denote the act which led to the accident. Orestes incurs disaster through forgetting the precept of
 Nestor to Antilochus (*Il.* 23. 336):— τὸν δεξιὸν ἵππον | κένσαι ὁμοκλήσας, εἶξαί τε οἱ ἡνία
 χερσίν· | ἐν νύσσῃ τέ τοι ἵππος ἀριστερὸς ἐγχριμφθήτω,
+=== p-0313
++ | ὡς ἄν τοι πλήμνη γε δοάσσεται ἄκρον ἱκέσθαι | κύκλου ποιητοῖο.
+
+## Line 780 f.
+
+**ὥστ’ οὔτε νυκτὸς ὕπνον οὔτ’ ἐξ ἡμέρας | ἐμὲ στεγάζειν ἡδύν.**
+
+Examples of ὥστε οὐ (instead of ὥστε μή) with the infinitive are collected by Shilleto in Appendix
+B to his ed. of Demosthenes *De Falsa Legatione* (or. 19), 2nd ed., Cambridge, 1853, p. 202.
+
+I. One class of such examples is where ὥστε οὐ with inf. occurs in *oratio obliqua* after a verb of
+*saying*, and represents what in direct discourse would (or might) be ὥστε οὐ with the indicative.
+Thus:—
+
+1. Dem. or. 19 § 308 (depending on ἐδημηγόρει in § 307) οὕτω δὲ ἀτόπους τινὰς...εἶναι, **ὥστε οὐκ
+αἰσχύνεσθαι**. In direct discourse, οὕτω δὲ ἄτοποί τινές εἰσιν, ὥστε οὐκ αἰσχύνονται.
+
+2. Aeschin. or. 1 § 174 (depending on κατεπαγγέλλεται in § 173) τοσούτους δὲ...ἐκκαλέσεσθαι παρὰ
+τῶν δικαστῶν θορύβους...**ὥστ’ οὐδὲ ἀπαντήσεσθαί** με ἐπὶ τὸ δικαστήριον. In direct discourse,
+ἐκκαλέσομαι...ὥστ’ οὐδὲ ἀπαντήσεται οὗτος.
+
+3. Arist. *Pol.* 2. 9 § 17 λέγουσι δὲ ὡς ἐπὶ μὲν τῶν πρότερον βασιλέων μετεδίδοσαν τῆς πολιτείας,
+**ὥστ’ οὐ γίνεσθαι** τότε ὀλιγανθρωπίαν κ.τ.λ. In direct discourse, ὥστ’ οὐκ
+ἐγίνετο...ὀλιγανθρωπία.
+
+So, too, when the principal verb is one of *thinking* or *hearing*.
+
+4. Dem. or. 19 § 152 (depending on ἡγούμην in § 151) ἢ μὴ ποιοῦντος ταῦτα ἀπαγγελεῖν ἡμᾶς δεῦρο,
+**ὥστ’** ἰδόντας ὑμᾶς...**οὐ προήσεσθαι**. In direct discourse, ἀπαγγελοῦμεν..., ὥστ’...οὐ
+προήσεσθε.
+
+5. Dem. or. 18 § 283 πότερ’ οὐχ ἡγεῖ γιγνώσκειν αὐτοὺς ὅστις εἶ; ἢ τοσοῦτον ὕπνον καὶ λήθην
+ἅπαντας ἔχειν, **ὥστ’ οὐ μεμνῆσθαι**; In direct discourse, ἅπαντες ἔχουσιν, ὥστ’ οὐ μέμνηνται.
+
+6. Plat. *Apol.* p. 26 D οὕτω καταφρονεῖς τῶνδε καὶ οἴει αὐτοὺς ἀπείρους γραμμάτων εἶναι **ὥστε
+οὐκ εἰδέναι**. In direct discourse, οὕτως ἄπειροί εἰσιν, ὥστε οὐκ ἴσασι.
+
+7. Thuc. 5. 40 § 2 ᾤοντο τοὺς...Ἀθηναίους εἰδέναι ταῦτα, **ὥστε** οὐδὲ πρὸς Ἀθηναίους ἔτι σφίσιν
+**εἶναι** ξυμμαχίαν ποιήσασθαι. In direct discourse, οἱ Ἀθηναῖοι ἴσασιν, ὥστε οὐδὲ...ἡμῖν ἔστι.
+
+8. Lys. or. 10 § 15 ὑμᾶς μὲν πάντας εἰδέναι ἡγοῦμαι ὅτι ἐγὼ μὲν ὀρθῶς λέγω, τοῦτον δὲ οὕτω σκαιὸν
+εἶναι **ὥστε οὐ δύνασθαι** μαθεῖν τὰ λεγόμενα. In direct discourse, οὕτω σκαιός ἐστιν ὥστε οὐ
+δύναται.
+
+II. A wholly different case of ὥστε οὐ with inf. is that in which οὐ does not negative the
+infinitive (*i.e.*, does not qualify the whole sentence), but merely negatives some other single
+word: *e.g.*, Her. 1. 189 ἐπηπείλησε οὕτω δή μιν (the river Tigris) ἀσθενέα ποιήσειν ὥστε τοῦ
+λοιποῦ καὶ γυναῖκάς μιν εὐπετέως τὸ γόνυ **οὐ βρεχούσας** διαβήσεσθαι: where οὐ negatives
+βρεχούσας only, not διαβήσεσθαι.
+
+III. A third class of examples is represented by *El.* 780, and by the two passages quoted in the
+commentary, [Dem.] or. 53 § 1 and Eur. *Ph.* 1357. In the two latter it might be suggested that the
+use of ὥστε οὐ,
+=== p-0314
++ instead of ὥστε μή, had been influenced by the *preceding* οὐ. Here, in *El.* 780, the only
+apparent reason is the prominence of the negative *fact* in the speaker’s mind. To this class we
+must also refer Dem. or. 9 § 48 (which Shilleto, inadvertently no doubt, brings under my class I.):
+ἀκούω Λακεδαιμονίους...ἀναχωρεῖν...οὕτω δ’ ἀρχαίως **εἶχον**, μᾶλλον δὲ πολιτικῶς, **ὥστε οὐδὲ**
+χρημάτων **ὠνεῖσθαι** παρ’ οὐδενὸς οὐδέν (where ὥστε οὐδὲ depends, of course, on εἶχον only, and is
+not affected by ἀκούω).
+
+## Line 851 f.
+
+**πανσύρτῳ παμμήνῳ πολλῶν | δεινῶν στυγνῶν τ’ ἀχέων (or ἀχαίων).**
+
+So the MSS. Besides the emendations noticed in the commentary, the following may be mentioned.
+
+1. Musgrave: πανσύρτῳ παμμήνῳ τ’ ὄχλων | δεινῶν στυγνῶν τ’ αἰκιῶν. He took πανσύρτῳ as a neuter
+subst., ‘a confused torrent.’ 2. In 852 Heath proposed δεινῶν τε στυγνῶν τ’ ἀχέων. 3. Hermann
+(*ap.* Erfurdt) once suggested δεινῶν τε στυγνῶν τ’ ἄχθει: which Campbell adopts, ascribing it to
+E. L. Lushington. 4. Nauck: πανδύρτῳ πανθρήνῳ (instead of πανσύρτῳ παμμήνῳ) πολλῶν | δεινῶν
+στυγνῶν τ’ αἰῶνι. So Blaydes too reads. 5. Bergk conjectures: πανδὺρτῳ πάμμηνος πολλῶν | δεινῶν
+στυγνῶν τ’ ἔλαχ’ αἰών. 6. Kvíčala: δεινῶν στυγνῶν ᾇ γ’ αἰών. 7. Fröhlich: παμφύρτῳ κυμήνασα σάλῳ |
+δεινῶν τε στυγνῶν τ’ ἀχέων.
+
+## Lines 861–863
+
+**ἦ καὶ χαλαργοῖς ἐν ἁμίλλαις | οὕτως ὡς κείνῳ δυστάνῳ | τμητοῖς ὁλκοῖς ἐγκῦρσαι;**
+
+Prof. Sonnenschein compares the words of Thekla in *Wallensteins Tod*, act 4, sc. 11 (referring to
+the death of Max Piccolomini in the cavalry charge):— ‘Ward ihm sanft | Gebettet unter den Hufen
+seiner Rosse?’
+
+And from scene 10:— ‘Sein Pferd, von einer Partisan’ durchstossen, bäumt | Sich wüthend, schleudert
+weit den Reiter ab, | Und hoch weg über ihn geht die Gewalt | Der Rosse, keinem Zügel mehr
+gehorchend.’
+
+## Line 1070
+
+The following are other attempts to supply the syllable which νοσεῖ leaves wanting. 1. Lachmann:
+νοσεῖ γᾶ. 2. Paley: ὅτι σφίσιν δὴ (so Erfurdt) τὰ μὲν ἐκ δόμων νοσεῖ· <νῦν> δὲ τὰ πρὸς τέκνων. This
+is very ingenious. 3. Dindorf: νοσεύει. [Hippocrates has the pass. part. νενοσευμένος as =
+‘diseased’: the active νοσεύω does not seem to occur.] 4. Erfurdt: νοσώδη. 5. Kayser: νοσοῦντα. 6.
+Wecklein: ὀνοστά, as = ψεκτά, φαῦλα.
+
+## Line 1087
+
+**τὸ μὴ καλὸν καθοπλίσασα.** The difficulty of supposing that καθοπλίσασα means, ‘having
+vanquished,’ is increased by the fact that the conquered foe, τὸ μὴ καλόν, is then the ignoble
+temptation. Even if
+=== p-0315
++ καθοπλίζειν could mean ‘to vanquish,’ it seems improbable that Sophocles would have used such a
+word in reference to a moral victory of this nature.
+
+This objection is, to my mind, rather more serious than that which arises from the normal usage of
+καθοπλίζω, as meaning ‘to arm’ or ‘equip.’ There are analogies which should make us hesitate to
+deny that such a compound might occasionally be used in a different sense. Thus Plutarch has in
+*Mor.* 2 E τοῖς...καταθλήσασι, meaning, ‘those who are *thoroughly* versed in contests,’ but in
+*Mor.* 47 F καταθλῆσαι τὴν ἀμαθίαν, ‘to wrestle *down* ignorance’—perhaps as near a parallel as
+could easily be found to καθοπλίσασα τὸ μὴ καλόν in the sense which we are discussing. Again,
+καταλιθόω usually meant, ‘to stone to death’ (as in Dem. or. 18 § 204); but the grammarians record
+another sense of it, viz., ‘to set with gems.’ καταργυρόω is properly ‘to plate with silver,’ but
+Sophocles has ventured upon κατηργυρωμένος (*Ant.* 1077) in the sense of ‘won by a bribe.’
+
+The other interpretation, which preserves the ordinary sense of καθοπλίζω—‘having armed, made
+ready, an unlovely deed’—is ably advocated by Whitelaw in a note to his Translation of Sophocles
+(p. 437). ‘The point of the expression,’ he says, ‘is that Electra has resolved to do a deed which,
+till it is done, looks to all eyes, as to those of Chrysothemis, unlovely and a crime; but, having
+done it, she knows that the universal voice will approve alike her wisdom and her piety.’ τὸ μὴ
+καλὸν is, then, Electra’s project of slaying Aegisthus. But is it probable that the Chorus would
+here refer to this in such terms as to imply that Electra deserved praise for it? They have just
+been dissuading her from it (1015).
+
+Hermann’s view was similar, but less subtle. Taking πάγκλαυτον αἰῶνα κοινὸν as = θάνατον, he
+understood: ‘thou hast chosen the joyless common fate’ (death) ‘by preparing a crime’ (*armans
+scelus*); explaining *scelus* by *provocare ad dimicationem*,—Electra’s resolve to enter on a
+struggle with her foes.
+
+## Line 1170
+
+**οὐχ ὁρῶ λυπουμένους,** ‘I see that they are not grieved.’ For a like collocation of the Latin
+*non*, Prof. Sonnenschein compares Plaut. *Most.* 197, where, in answer to the prediction, *te ille
+deseret*, etc., Philematium says, *non spero*, ‘I hope not.’ So *ib.* 798 *haud opinor*, ‘I think
+not’; 820 *non uideor uidisse*, ‘I think I never saw’; 978 *non aio*, ‘I say no’ (οὐ φημί); etc.
+
+## Line 1239
+
+**ἀλλ’ οὐ μὰ τὴν ἄδμητον αἰὲν Ἄρτεμιν.** Fröhlich, recognising an iambic trimeter here, proposed,
+ἀλλ’ οὐ μὰ τάν γ’ ἄδμητον αἰὲν Ἄρτεμιν: Hermann rightly preferred τὴν to τάν γ’. Blaydes (*inter
+alia*): ἀλλ’ οὐ μὰ τὰν ἄδμητον Ἄρτεμιν θεάν. Gleditsch: ἀλλ’ οὐ κόραν τὰν αἰὲν ἀδμήταν Διός. A
+Vatican MS., no. 1332 (14th cent.), has ἀλλ’ οὐ μὰ τὴν δέσποιναν Ἄρτεμιν θεάν (a conjecture
+prompted by v. 626).
+
+The form of the verse which appears in most MSS., ἀλλ’ οὐ τὰν Ἄρτεμιν τὰν αἰὲν ἀδμήταν, has given
+rise to various other theories.
