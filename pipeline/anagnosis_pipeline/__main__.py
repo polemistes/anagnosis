@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import argparse
 import sys
+import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent.parent  # repo root
@@ -26,6 +27,13 @@ def main(argv: list[str] | None = None) -> int:
     sub.add_parser("merge-symposium", help="texts/symposium/ from the transcription (pipeline/transcriptions/symposium/), GLAUx, Jowett and Bury")
     csb = sub.add_parser("check-symposium-batch", help="check Symposium transcription batch files")
     csb.add_argument("files", nargs="+")
+    psp = sub.add_parser("prepare-sophocles-pages", help="page images of Jebb's Sophocles scans for the critical notes and the text check (pipeline/build/sophocles-pages/)")
+    psp.add_argument("plays", nargs="*")
+    csp = sub.add_parser("check-sophocles-batch", help="check transcription batches of a Sophocles play")
+    csp.add_argument("play")
+    csp.add_argument("files", nargs="+")
+    msp = sub.add_parser("merge-sophocles-apparatus", help="texts/<play>/commentary-jebb-apparatus.md from the batches")
+    msp.add_argument("plays", nargs="*")
     isp = sub.add_parser("import-sophocles", help="texts/<play>/ for Sophocles' plays in Jebb's edition (sophocles.py): text, translation, tokens, syntax, commentary")
     isp.add_argument("plays", nargs="*", help="slugs (default: all): ajax electra oedipustyrannus oedipuscoloneus philoctetes trachiniae")
     sub.add_parser("fetch-nt", help="download the New Testament sources into pipeline/sources/nt/ (SBLGNT, MACULA, Dodson, BSB)")
@@ -114,6 +122,33 @@ def main(argv: list[str] | None = None) -> int:
                 print("  " + p)
             bad += len(problems)
         return 1 if bad else 0
+    elif args.cmd == "prepare-sophocles-pages":
+        from .sophocles import PLAYS
+        from .sophocles_pages import prepare as prepare_sophocles
+        index = prepare_sophocles(SOURCES, ROOT / "pipeline" / "build" / "sophocles-pages", args.plays or list(PLAYS))
+        print(json.dumps(index, indent=1))
+    elif args.cmd == "check-sophocles-batch":
+        from .sophocles_pages import check_batch as check_sophocles
+        bad = 0
+        for f in args.files:
+            problems = check_sophocles(Path(f), TEXTS, args.play)
+            print(f"{f}: {len(problems)} remarks")
+            for p in problems:
+                print("  " + p)
+            bad += len(problems)
+        return 1 if bad else 0
+    elif args.cmd == "merge-sophocles-apparatus":
+        from .sophocles import PLAYS, PART_ROMAN
+        from .sophocles_pages import SCAN_EDITIONS, merge as merge_sophocles
+        for slug in args.plays or list(PLAYS):
+            play = PLAYS[slug]
+            header = (f"# title: Critical notes\n# author: Richard C. Jebb\n# lang: eng\n"
+                      f"# source: Sophocles, The Plays and Fragments, {PART_ROMAN[play.part]}: The {play.title_en}, Cambridge University Press, "
+                      f"{SCAN_EDITIONS[slug]} (critical notes), transcribed page by page\n"
+                      f"# license: CC BY-SA 4.0 (transcription; the edition is in the public domain)\n")
+            d = ROOT / "pipeline" / "transcriptions" / "sophocles" / slug
+            n, sigla = merge_sophocles(d, TEXTS / slug / "commentary-jebb-apparatus.md", header)
+            print(f"{slug}: {n} notes" + (f"; sigla: {sigla[:80]}" if sigla else ""))
     elif args.cmd == "import-sophocles":
         from .sophocles import PLAYS, import_play
         for slug in args.plays or list(PLAYS):
