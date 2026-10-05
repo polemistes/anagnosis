@@ -24,3 +24,59 @@ The form ἐμέν is quoted from the Alexandrian poet Callimachus (*c.* 260 B.C
 The emendations are of two general classes; I. those which leave ἵν’ in v. 22: II. those which place it in v. 21, or remove it altogether.
 
 I. (*a*) Retaining **ἐνταῦθ’**. 1. Dawes (*Misc. Crit.* p. 277), **ὡς ἐνταῦθ’** ἴμεν. On this, see commentary. 2. Hermann mentions a conjecture ὡς ἐνταῦθα δή. 3. Dindorf writes, ὡς ἐνταῦθ’ ἔβης. (*b*) Omitting
+=== p-0303
++ **ἐνταῦθ’**. 1. Meineke (on *O. C.*, p. 248), ὡς ἐξήκομεν. 2. Kreussler (*Act. Sem. philol. Heidelb.*, p. 49), ὡς καθέσταμεν. 3. Michaelis (in the 3rd ed. of Jahn’s *Electra*), ὡς ἐπείγομεν. 4. Schneidewin, ὡς ἱκάνομεν, or ὡς βεβήκαμεν. 5. M. Schmidt, ὡς ἐλήλυθμεν. 6. Mekler, ὡς ἔσταλθέ μοι.
+
+II. 1. Hotchkis (*ap.* Gaisford *ad Hephaest.* II. 10 p. 218), ὡς ἐνταῦθ’ ἵνα | οὐκ ἔστιν ὀκνεῖν καιρός. 2. Hermann mentions this conjecture, only modified by ἔστ’ ἔτ’ instead of ἔστιν, and illustrates ἵνα | οὐκ by Aesch. *P. V.* 793 ἵνα | αἱ Φορκίδες. 3. Porson (*Tracts*, p. 221), ὡς ἐνταῦθ’ ἵνα | οὐκ ἔστ’ ἔτ’ ὀκνεῖν ἐσμέν. 4. Monk (*Mus. Crit.* I. p. 64), ὡς ἐνταῦθα μὲν | οὐκ ἔστ’ ἔτ’ ὀκνεῖν καιρός. 5. Blaydes writes, ὡς ἐσμέν γ’ ἵνα | οὐκ ἔστ’ ἔτ’ ὀκνεῖν καιρός. 6. Hartung (ed. 1850), ὡς, ἵν’ ἕσταμεν, | οὐκ ἔστ’ ἔτ’ ὀκνεῖν καιρός (a conjecture which had occurred to me also). 7. Thielemann (*Progr. Merseburg.*, 1849), had suggested the same, but with ἔνθ’ ἕσταμεν. (Naber, *Mnemos. Nov.* IX. p. 232, had also proposed ἔνθ’ ἕσταμεν. but without changing ἵν’ οὐκέτ’ κ.τ.λ., so that ἔνθ’ would mean ‘*there*’; a sense which Sophocles never gives to it.) 8. Wecklein writes, ὡς ἐνταῦθ’ ἔτι | οὐκ ἔστιν ὀκνεῖν καιρός.
+
+Other critics think that this passage bewrays the hand of an interpolator. Nauck brackets vv. 20, 21 (πρὶν οὖν...ἐμὲν), leaving v. 22 unchanged. Paley (1880) also thinks vv. 20, 21 spurious, and would change ἵν’ in v. 22 to ὥστ’. Schwerdt (*ap.* Michaelis in Jahn’s ed.) would reduce vv. 21 f. to one v., thus: ξυνάπτετον λόγοισιν, ὡς ἔργων ἀκμή.
+
+## Line 72
+
+**ἀρχέπλουτον.** When a verbal stem ending in a consonant is prefixed in composition to a noun beginning with a consonant, the linking vowel is normally either **ε**, as in δακέθυμος, or **ι**, as in λαθικηδής. After ἀρχ, the vowel is sometimes **ε**, as in ἀρχέλαος, but more often **ι**, as in ἀρχιθέωρος and other words denoting office. In ἀρχομηνία (‘beginning of a month’), ἀρχοειδής (‘in the nature of a principle’), the first part of the compound is not the verbal stem, ἀρχ, but the noun-stem ἀρχα, and **α** becomes **ο** by the ordinary rule, as in λυροποιός.
+
+## Line 139
+
+**οὔτε †γόοις οὔτε λιταῖσιν.** The metrical conflict with the corresponding words in the strophe (v. 123), ὧδ’ ἀκόρεστον οἰμωγάν, could be removed, as G. Wolff saw, by a simple transposition, οἰμωγὰν ὧδ’ ἀκόρεστον. At first sight this is an attractive remedy. But in ὧδ’ ἀκόρεστον οἰμωγάν there is a certain mournful cadence which recommends the traditional order of words; and that order is in itself far more natural. Gleditsch proposed to read ὧδ’ ἀκόρεστον στενάχουσα, which is still less probable.
+
+Nauck would re-write the whole passage thus: παῖ πατρὸς δυστανοτάτας | Ἠλέκτρα, τίν’ ἀεὶ κλαίεις | οἰμωγὰν ἀκόρεστον = ἀλλ’ οὔτοι τόν γ’ ἐκ λιμένος | παγκοίνου πατέρ’ ἀνστάσεις | θρήνοις οὐδὲ γόοισιν.
+
+## Line 144
+
+The form ἐφίει, as 2nd pers. pres. ind. midd., instead of ἐφίεσαι, is solitary, as has been pointed out by Prof. E. A. Sonnenschein (*Greek Gramm.*, Part I, § 261). He has suggested to me that it ought
+=== p-0304
++ possibly to be written ἐφιεῖ (as contracted from ἐφιέει). I should certainly suppose that Sophocles was led to it by the analogy of such active forms as μεθιεῖς (*Il.* 6. 523), etc.
+
+## Line 193 ff.
+
+**οἰκτρὰ μὲν νόστοις αὐδά, | οἰκτρὰ δ’ ἐν κοίταις πατρῴαις | ὅτε \*οἱ παγχάλκων ἀνταία | γενύων ὡρμάθη πλαγά.**
+
+Hartung finds here an imitation of Eur. *El.* 157 ff., where Electra says that she laments her father, λουτρὰ πανύσταθ’ ὑδρανάμενον χροί, κοίτᾳ ἐν οἰκτροτάτᾳ θανάτου. | ἰώ μοί μοι | πικρᾶς μὲν πελέκεως τομᾶς | σᾶς, πάτερ, πικρᾶς δ’ | ἐκ Τροΐας ὁδίου βουλᾶς. There, however, κοίτᾳ refers to the bath, as λουτρά shows; not, as κοίταις does here, to a banquet: and it is surely gratuitous to suppose that the repetition of οἰκτρὰ here was suggested by that of πικρᾶς in Euripides. Hartung’s interpretation, however, does not depend on the theory of imitation. He understands: ‘*thy father’s voice* was piteous at his return,—piteous as he reclined at the banquet’; *i.e.*, the *only* αὐδὰ meant is Agamemnon’s cry at the banquet; and οἰκτρὰ μὲν νόστοις, οἰκτρὰ δ’ ἐν κοίταις is merely (as he says) a sort of ἓν διὰ δυοῖν for οἰκτρὰ ἐν ταῖς μετὰ τοὺς νόστους κοίταις. Schneidewin takes the same view, save that he explains ἐν κοίταις πατρῴαις as = ‘in the banqueting-hall *of his fathers*,’ the Pelopidae. The objection to this interpretation is that the words οἰκτρὰ μὲν νόστοις ...οἰκτρὰ δ’ ἐν κοίταις would naturally denote two distinct occasions. Their distinctness is emphasised by the repetition of οἰκτρά.
+
+Prof. Campbell, retaining **σοι** in v. 195, renders:—‘Piteous were thy tones at the time of thy father’s return, and piteous was *thy crying* where thy father lay, when *thou hadst seen launched* the death-stroke of the solid brazen axe.’ Thus the αὐδὰ is in each case that of Electra; and σοι is an ethic dative. By ἐν κοίταις he understands the place where the king ‘lay *in death*’; and suggests that the poet may have modified the Homeric version by supposing that Agamemnon had been lured to his θάλαμος by Clytaemnestra *after* the feast, and there slain.
+
+## Line 316
+
+**ἱστόρει· τί σοι φίλον;**
+
+Some editors still write ἱστόρει τί σοι φίλον, and maintain that τί could stand for ὅ τι, although there is no indirect question. In my belief, this use of τίς is confined to post-classical Greek, and no genuine example of it can be found in writers of the classical age. The only satisfactory mode of testing the matter is to go carefully through the instances which have been adduced.
+
+1. Eur. *Ion* 324 τάλαινά σ’ ἡ τεκοῦσα, τίς ποτ’ ἦν ἄρα. Here there should be a colon after τεκοῦσα, and a note of interrogation after ἄρα. Other passages where punctuation affords the remedy are Soph. *El.* 1176, *O.T.* 1144, *Tr.* 339.
+
+2. Eur. fr. 773. 2 αἰτοῦ τί χρῄζεις ἕν· πέρα γὰρ οὐ θέμις | λαβεῖν σε. Here Rau (*ap.* Nauck, 2nd ed.) conjectures λέγ’ εἴ τι χρῄζεις. (ΛΕΓΕΙ might pass without much difficulty into ΑΙΤΟΥ.) Cp. *Tr.* 416 λέγ’,
+=== p-0305
++ εἴ τι χρῄζεις (and so also in Eur. *El.* 1049): λέγ’ εἴ τι βούλει *Med.* 1320, *Suppl.* 567, etc. It would also be possible to write αἰτοῦ· τί χρῄζεις; ἕν· κ.τ.λ.
+
+3. [Dem.] or. 56. κατὰ Διονυσοδώρου, § 24. (The speech, though not by Demosthenes, is probably the work of a contemporary; its date is not earlier than 322—321 B.C.) οὐ ταῦτ’ ἀπέστελλον πάντα δεῦρο, ἀλλ’ ἐκλεγόμενοι τίνων αἱ τιμαὶ ἐπετέταντο. Here ἐκλεγόμενοι obviously implies an indirect question; ‘they did not send all those things here, but only a selection, (made by inquiring) what articles had risen in price.’ Cp. Dem. or. 19 § 288 τί παρ’ ὑμῶν ἐψήφισται, τοῦτ’ ἐπετήρουν, *i.e.*, ‘they were watching (to see) what had been decreed on your part.’
+
+So far as I am aware, the above are the only examples which have been brought from writers of an earlier date than 300 B.C. We may add to these, however, the old oracle quoted in Diog. Laert. 1. § 28, and commonly printed thus, τίς σοφίῃ πάντων πρῶτος, τούτου τρίποδ’ αὐδῶ. Here we should write πρῶτος; [In the Didot ed., which gives Cobet’s recension, ὃς is substituted for τίς.]
+
+Turning now to post-classical texts, let us take some *genuine* instances of τίς used for ὅστις without an indirect question.
+
+1. Straton (2nd cent. A.D.) in *Anthol.* 12. 219 κἀμὲ φιλείτω, | μισθὸν καὶ παρ’ ἐμοῦ λαμβανέτω τί θέλει, ‘and let him take from me in recompense what he will.’ The place of καὶ significantly indicates the quality of the Greek.
+
+2. Kaibel *Epigr.* 376 *a* (a sepulchral inscription at Aizani in Cilicia). Οὐλπία Ἄπ[φ]η Εὐαρέτᾳ θυγατρὶ μνείας χάριν. | τίς ἂν δὲ χεῖρα προσαγάγῃ βαρύφθονον, | ταῖς αὐταῖς περιπέσοιτο συμφοραῖς. The middle aor. of περιπίπτω is worthy of the context. This formula τίς ἂν δὲ κ.τ.λ., followed by the imprecation on the disturber of the grave, seems to have been a common one; thus it recurs in *Epigr.* 376 *b*. And the usage of τίς is illustrated by the fact that, in another inscription, we have ὃς ἂν προσοίσει (*sic*) χεῖρα τὴν βαρύφθονον (376 *d*).
+
+3. Athenaeus, p. 438 E, quotes a biographer of Antiochus Epiphanes (*ob.* 164 B.C.) as ascribing to him these words, τίνι ἡ Τύχη δίδωσι, λαβέτω. (Casaubon conjectured ᾧ τινι.)
+
+4. With regard to the Hellenistic usage as exemplified by the New Testament, it would be difficult to find a passage in which τίς replaces ὅστις where there is absolutely no suggestion of an indirect question; though, on the other hand, the usage passes, of course, beyond the limit which (if I am right) was observed in classical Greek. Thus in St Mark xiv. 36, οὐ τί ἐγὼ θέλω, ἀλλὰ τί σύ, A. Buttmann (*Gramm. of N. T. Greek*, p. 252, Eng. tr.) agrees with those who see an indirect question here (‘The question is, not what I will...’); and Winer takes a similar view (*Gramm. of N. T. Greek*, Eng. ed. by Dr W. F. Moulton, p. 210). I agree with them; though I should be disposed to add that, in such an example, the suggestion of the indirect question is so faint as to make τίς *virtually* equivalent to a purely relative ὅστις.

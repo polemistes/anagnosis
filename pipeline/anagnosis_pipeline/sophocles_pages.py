@@ -236,10 +236,16 @@ def merge_pages(directory: Path, prefix: str) -> list[str]:
                 # "+ " continues the text, "+notes " the critical notes, "+comm " the commentary
                 stream = m.group(1) or "text"
                 rest = text[m.end():]
-                ours = [k for k in range(len(paras)) if _stream(paras[k]) == stream]
-                # the Greek of an argument goes on in the Greek paragraph, not in an English note
-                same = [k for k in ours if _greek(paras[k]) == _greek(rest)]
-                k = (same or ours or [len(paras) - 1])[-1]
+                if any(_stream(p) == "notes" for p in paras):
+                    # an argument, its critical notes and its commentary in parallel: each goes on
+                    # in its own, and the Greek of the argument not in an English note
+                    ours = [k for k in range(len(paras)) if _stream(paras[k]) == stream]
+                    same = [k for k in ours if _greek(paras[k]) == _greek(rest)]
+                    k = (same or ours or [len(paras) - 1])[-1]
+                else:
+                    k = len(paras) - 1  # the page's last paragraph, not a footnote after it
+                    while k > 0 and paras[k].startswith("[Note:"):
+                        k -= 1
                 paras[k] = join_run_on(paras[k], rest)
             else:
                 paras.append(text)
