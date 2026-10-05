@@ -14,6 +14,7 @@ free of charge: the code under the GPL (see LICENSE), the texts and data under C
     texts/       the texts, translations, commentaries and word annotations, as editable plain files
     pipeline/    Python pipeline: fetches upstream sources, imports them into texts/, builds the SQLite bundle
     pipeline/transcriptions/   page-by-page transcriptions of printed editions (Allen's Odyssey, Burnet's Symposium)
+                               and of Autenrieth's Homeric Dictionary
     data/        build output: the SQLite bundle shipped with the app (not committed)
     app/         the Android apps (Kotlin Multiplatform, Compose): the reader (androidApp) with Antigone,
                  and one small app per text sold separately (odysseyApp, symposiumApp, newTestamentApp), which hands its text to the reader
@@ -40,6 +41,12 @@ So has the Symposium:
     .venv/bin/python -m anagnosis_pipeline prepare-symposium-pages        # page images and drafts for transcribing Burnet's edition
     .venv/bin/python -m anagnosis_pipeline check-symposium-batch FILE...  # check transcription batches against the Perseus text
     .venv/bin/python -m anagnosis_pipeline merge-symposium                # texts/symposium/: Burnet's text and apparatus, GLAUx, Jowett, Bury
+
+Autenrieth's Homeric Dictionary, one of the reader's dictionaries, is transcribed from a scan as well
+(the brief is `pipeline/transcriptions/autenrieth/INSTRUCTIONS.md`; `build` reads the batches):
+
+    .venv/bin/python -m anagnosis_pipeline prepare-autenrieth-pages        # page images and OCR drafts for transcribing it
+    .venv/bin/python -m anagnosis_pipeline check-autenrieth-batch FILE...  # check transcription batches
 
 The New Testament is imported, not transcribed:
 
@@ -75,7 +82,8 @@ app in Play Console, choose to use the reader's app signing key.
   lemmas, morphology and syntax, both CC BY 4.0),
   Dodson's lexicon (CC0) and the Berean Standard Bible (public domain); Abbott-Smith's Manual
   Greek Lexicon of the New Testament from the public-domain TEI edition of
-  github.com/translatable-exegetical-tools/Abbott-Smith; see
+  github.com/translatable-exegetical-tools/Abbott-Smith; Autenrieth's Homeric Dictionary (1891)
+  from our transcription of the Internet Archive scan; see
   [texts/README.md](texts/README.md) for the individual sources.
 
 The Anagnosis name and app icon are trademarks of the author and are not covered by these

@@ -91,6 +91,17 @@ line 503. Everything else is plain text.
 * Translation: R. C. Jebb (1891), Perseus `perseus-eng2`, modernized by Perseus. CC BY-SA 4.0.
 * Commentary: R. C. Jebb, *Sophocles: The Plays and Fragments, part III* (1900), Perseus. CC BY-SA 3.0 US.
 * Lexica: LSJ (1940) and Middle Liddell (1889), Perseus. CC BY-SA 4.0 / 3.0 US.
+* The reader's other dictionaries, shared by all texts (data/lexicon.sqlite), each with a
+  switch in Options: Abbott-Smith's *Manual Greek Lexicon of the New Testament* (1922; see the
+  New Testament below), and G. Autenrieth's *Homeric Dictionary* (tr. R. P. Keep, rev. I. Flagg,
+  1891), transcribed page by page from the Internet Archive scan `homericdictiona00aute`
+  (public domain; the transcription CC BY-SA 4.0). The transcription and its brief are in
+  `pipeline/transcriptions/autenrieth/`; `build` reads it. Where a text that names Autenrieth in
+  its `# dictionaries:` header spells a lemma otherwise than Autenrieth (accents, breathing, a
+  movable nu, a people in the plural, Attic for Homeric spelling: θύρα θύρη, ξένος ξεῖνος), `build`
+  files the entry under the text's spelling too; a short list checked by hand (`BY_HAND` in
+  `autenrieth.py`) adds the rest (τις τὶς, Ποσειδῶν Ποσειδάων). 94.5% of the Odyssey's lemmas,
+  99.4% of its words, find an Autenrieth entry; the rest are words this printing of 1891 lacks.
 * Short definitions: Logeion (Helma Dik, University of Chicago), based on Perseus. Credit requested; no formal licence stated.
 
 ## `dictionary-<slug>.md` (optional)
@@ -157,6 +168,9 @@ Riddell (books 1–12) and Monro (books 13–24), also from Perseus.
 text (Murray's). Where Allen reads differently the word keeps its place in the treebank's
 sentence, and its lemma and parse come from the analyser; `merge-odyssey` lists those words in
 `pipeline/build/odyssey-review.tsv` for checking by hand. Lines are numbered book.line.
+
+The header line `# dictionaries: autenrieth ml lsj` of `grc.txt` puts Autenrieth's Homeric
+Dictionary first on the word sheet.
 
 ## The Symposium (`texts/symposium/`)
 

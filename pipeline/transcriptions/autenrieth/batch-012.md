@@ -3,7 +3,7 @@
 δέος | δέω
 --- left
 **δέος**, gen. δείους (root δϜι): *fear, dread.*
-**δέπας** (cf. δάπτω), dat. δέπαϊ and δέπαϊ, pl. δέπα, gen. δεπάων, dat. δεπάεσσι and δέπασσι: *drinking cup, beaker;* a remarkable one described, Λ 632 ff. (See cut.)
+**δέπας** (cf. δάπτω), dat. δέπαϊ and δέπαι, pl. δέπα, gen. δεπάων, dat. δεπάεσσι and δέπασσι: *drinking cup, beaker;* a remarkable one described, Λ 632 ff. (See cut.)
 **δέρκομαι**, ipf. iter. δερκέσκετο, aor. 2 ἔδρακον, perf. w. pres. signif. δέδορκα: *look, see*, strictly of the darting glance of the eye; πῦρ ὀφθαλμοῖσι δεδορκώς, τ 446; δεινὸν δερκομένη, ‘with dreadful glance,’ of the Gorgon, Λ 37; typically of life, ἐμεῦ ζῶντος καὶ ἐπὶ χθονὶ δερκομένοιο, while I live and ‘see the light of day,’ Α 88, π 439; with obj. accusative, Ν 86, Ξ 141.
 **δέρμα**, ατος (δέρω): *skin, hide, leather;* seldom of the living man, Π 341, ν 431.
 **δερμάτινος**: *leathern.*
@@ -33,6 +33,7 @@
 right 3: the breathing of ἅλμῃ (ε 53) is at the limit of the scan; read rough as in Homer.
 right 4: "ἐδεύεο" (Ρ 142) carries a synizesis curve under εο in the print; the curve is left out.
 right 9: the entry ends with "ἡμέτε-" divided at the foot of the page; the word (ἡμέτερον) ends at the top of a-0092.
+corrected in review: left 2: "dat. δέπαϊ and δέπαι" (the second form printed without diaeresis); it was written δέπαϊ twice.
 
 === a-0092
 --- head

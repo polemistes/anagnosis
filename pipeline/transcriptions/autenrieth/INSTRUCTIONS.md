@@ -19,6 +19,11 @@ The page images and drafts are made by `prepare-autenrieth-pages` in
 
 **The image is the authority.** The draft only helps you read it.
 
+A later printing from the American Book Company (Internet Archive `homericdictionar0000aute_y6h1`)
+has some entries this one lacks (κλαυθμός, ξεινίζω, κατάγνυμι, στροφαλίζω and others); a review
+of the pages against it found every entry of this printing transcribed. The transcription follows
+this printing only.
+
 ## Output format
 
 One file per batch, `batch-NNN.md`, with a block per page in page order:

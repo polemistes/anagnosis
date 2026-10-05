@@ -244,15 +244,16 @@ def _ocr_column(md: Path, side: str) -> str:
 # ---------------------------------------------------------------- the entries
 
 def also_headwords(line: str) -> list[str]:
-    """The further headwords printed in bold right after the first: '**ἁμαρτῇ**, **ἁμαρτῆ** (…)'."""
+    """The further headwords printed in bold before the colon that ends an entry's head:
+    '**ἁμαρτῇ**, **ἁμαρτῆ** (…)', '**ἐυ-πλοκάμις**, ιδος, and **ἐυ-πλόκαμος** (…):'."""
     m = ENTRY_START.match(line)
-    out, i = [], m.end() if m else 0
-    while m:
-        m = re.compile(r",? \*\*([^*]+)\*\*").match(line, i)
-        if m:
-            out.append(m.group(1).strip(" ,:;."))
-            i = m.end()
-    return out
+    if not m:
+        return []
+    head = line[m.end():]
+    colon = re.search(r":(?!\*)", re.sub(r"\([^)]*\)", lambda g: " " * len(g.group(0)), head))
+    head = head[: colon.start()] if colon else head[:80]
+    return [w.strip(" ,:;.") for w in re.findall(r"\*\*([^*]+)\*\*", head)
+            if re.search(r"[\u0370-\u03ff\u1f00-\u1fff]", w)]
 
 
 def entries_from(pages: dict[str, dict]) -> list[tuple[str, int, str]]:
@@ -355,8 +356,33 @@ def _variants(base: str) -> list[str]:
     return out
 
 
-# lemmas whose spelling without accents is a different word's in Autenrieth (ἐρῶ, 'I will say': ἔρῳ, 'love')
-NOT_THE_SAME = {"ἐρῶ"}
+# lemmas whose spelling without accents is a different word's in Autenrieth (ἐρῶ, 'I will say': ἔρῳ, 'love';
+# ἐάν: ἔα; εἴτε: εἶτε = εἴητε)
+NOT_THE_SAME = {"ἐρῶ", "ἐάν", "εἴτε", "οἴη"}
+
+# lemmas of the texts that Autenrieth lists under a headword no rule finds (checked by hand)
+BY_HAND = {
+    "τις": "τὶς", "πέπνυμαι": "πεπνυμένος", "ἐρῶ": "ἐρέω", "ποσειδῶν": "Ποσειδάων", "τλάω": "τλῆναι",
+    "αὖθις": "αὖτις", "πως": "πώς", "κήρ": "Κῆρ", "ἆρα": "ἄρα", "ᾅδης": "Ἀΐδης", "κάρα": "κάρη",
+    "ὥρα": "ὥρη", "κλείς": "κληΐς", "εὐπλόκαμος": "ἐυπλόκαμος", "φαγεῖν": "φάγον", "ῥᾴδιος": "ῥηίδιος",
+    "θεάομαι": "θηέομαι", "παρειά": "παρειαί", "δάω": "δαῆναι", "κατερύκω": "κατερυκάνω", "ποθι": "ποθί",
+    "ποθεν": "ποθέν", "βορέας": "βορέης", "κράς": "κάρη", "εὔξοος": "ἐύξοος", "ἐκεῖσε": "κεῖσε",
+    "πρυμνήσιος": "πρυμνήσια", "πονέω": "πονέομαι", "ἰθακήσιος": "Ἰθάκη", "πη": "πῄ", "πῆ": "πῇ",
+    "μηρία": "μηρίον", "ἱππότης": "ἱππότα", "ἤπειρόνδε": "ἤπειρος", "χαλκοῦς": "χάλκεος", "εἰκός": "ἔοικα",
+    "τρίπους": "τρίπος", "δολίος": "Δόλιος", "αἴθω": "αἰθόμενος", "οἴγω": "οἴγνυμι", "καθάπτω": "καθάπτομαι",
+    "ἀντιάζω": "ἀντιάω", "πνοή": "πνοιή", "ἐκεῖθεν": "κεῖθεν", "μαψίδιος": "μαψιδίως",
+    "ὑπισχνέομαι": "ὑπίσχομαι", "ἀετός": "αἰετός", "ἀμφικύπελλος": "ἀμφικύπελλον", "εὐνάω": "εὐνάζω",
+    "ῥινός": "ῥινόν", "προγενής": "προγενέστερος", "πλέως": "πλεῖος", "ἀδινός": "ἁδινός", "ἐπέοικε": "ἐπέοικα",
+    "ἄστυδε": "ἄστυ", "ἕωθεν": "ἠῶθεν", "ἐπάρχω": "ἐπάρχομαι", "συνάντομαι": "συναντάω", "ὀσμή": "ὀδμή",
+    "ἐπιφράζω": "ἐπιφράζομαι", "νευρά": "νευρή", "ἰθάκηνδε": "Ἰθάκη", "σκίδνημι": "σκίδναμαι",
+    "πρίαμαι": "πρίατο", "θᾶκος": "θῶκος", "οὐρά": "οὐρή", "οἴκοι": "οἴκοθι", "πόρω": "πορ",
+    "ἀυτή": "ἀϋτή", "ἄψορρος": "ἀψόρροος", "ἑστία": "ἱστίη", "ἀδελφός": "ἀδελφεός", "πόα": "ποίη",
+    "ἱερεῖον": "ἱερήϊον", "τριέτης": "τρίετες", "εἰναετής": "εἰνάετες", "λῃστήρ": "ληιστήρ",
+    "ὁπλότατος": "ὁπλότερος", "ἀλγίων": "ἄλγιον", "ἔμπεδα": "ἔμπεδος", "κεφαλλήν": "Κεφαλλῆνες",
+    "ἐναντίον": "ἐναντίος", "φαέθω": "φαέθων", "ἅρπυιαι": "Ἅρπυια", "ἐπιστέφω": "ἐπιστεφής",
+    "ἑδριάω": "ἑδριάομαι", "στόρνυμι": "στορέννυμι", "πρότονοι": "πρότονος", "περιφύομαι": "περιφύω",
+    "βοείη": "βόειος", "καταδέομαι": "καταδέω",
+}
 
 
 def _loose(word: str) -> str:
@@ -395,9 +421,19 @@ def extra_keys(texts: Path, entries: list, also: list = ()) -> list[tuple[str, o
                     lemmas.add(key)
                     capital[key] = capital.get(key, False) or r["lemma"].strip()[:1].isupper()
     lemma_loose = {_loose(k) for k in lemmas if k in keys}
+    by_key: dict[str, list] = {}
+    for e in entries:
+        by_key.setdefault(greek.lemma_key(e.headword), []).append(e)
+    for k, e in also:
+        by_key.setdefault(k, []).append(e)
     out = []
+    for lemma, headword in BY_HAND.items():
+        k, target = greek.lemma_key(lemma), greek.lemma_key(headword)
+        if k in lemmas and k not in keys and target in by_key:
+            out += [(k, e) for e in by_key[target]]
+    done = {k for k, _e in out}
     for k in sorted(lemmas):
-        if k in keys or aliases.get(k) in keys or k in NOT_THE_SAME:
+        if k in keys or aliases.get(k) in keys or k in NOT_THE_SAME or k in done:
             continue
 
         def same_kind(found: list) -> list:
@@ -421,7 +457,7 @@ def extra_keys(texts: Path, entries: list, also: list = ()) -> list[tuple[str, o
             if len({greek.lemma_key(e.headword) for e in found}) == 1:
                 out += [(k, e) for e in found]
             break
-        if found_any or len(base) < 4:
+        if found_any or len(base) < 3:
             continue
         # the Homeric spelling: one sound changed, and only one headword that way
         hits = {t: same_kind(by_loose[t]) for t in _variants(base) if t in by_loose and t not in lemma_loose}

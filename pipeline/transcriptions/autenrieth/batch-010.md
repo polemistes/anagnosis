@@ -252,7 +252,7 @@ left: the signature mark "5" at the foot of the column is left out.
 **γηθοσύνη** (γηθέω): *joy, gladness*, dat., Ν 29 and Φ 390.
 **γηθόσυνος**: *glad.*
 **γηράς**: see γηράσκω.
-**γῆρας**, αος, dat. γήραϊ and γήραϊ: *old age.*
+**γῆρας**, αος, dat. γήραϊ and γήραι: *old age.*
 **γηράσκω**, aor. 2 ἐγήρα, part. γηράς: *grow old;* of fruit, ‘ripen,’ η 120.
 **γῆρυς**: *speech*, Δ 437†.
 **Γίγαντες**: the *Giants*, a wild race related to the gods, η 59, 206, and κ 120.
