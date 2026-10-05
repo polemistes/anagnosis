@@ -179,7 +179,23 @@ files here.
   commentary on the Philoctetes and the introduction to the Oedipus Tyrannus.
 * Critical notes (`commentary-jebb-apparatus.md`): transcribed from the scans with the text
   check, brief in `pipeline/transcriptions/sophocles/INSTRUCTIONS.md`, checked with
-  `check-sophocles-batch` and merged with `merge-sophocles-apparatus`.
+  `check-sophocles-batch` and merged with `merge-sophocles-apparatus`. The differences are
+  keyed to the play's frozen `reference-grc.txt` and placed by the words they quote.
+* Lyric verses: a second pass (`LYRICS.md`, `lines-NN.md`, checked with
+  `check-sophocles-lines`) divides the lyric passages as Jebb prints them and gives fixed
+  points from his note headings, so that each verse carries Jebb's number; a long verse that
+  covers several of the traditional numbers carries the first, and the reader shows a fifth
+  number such a verse covers beside it, as Jebb does. A word Jebb divides between two verses
+  (εὐδαί- | μων) is written whole at the end of the first, so that it can be looked up.
+* Introduction chapters that Perseus lacks (Jebb's "Manuscripts, editions, etc." and the
+  ancient argument, the persons and the structure of the play) are transcribed
+  (`INTRODUCTION.md`, `introduction-NN.md`) and added after Perseus's chapters by
+  `import-sophocles`; the Appendix (`APPENDIX.md`, `appendix-NN.md`) is merged into
+  `appendix.md` by `merge-sophocles-appendix`.
+* `glossary.md` (names the dictionaries lack) and `shortdefs.tsv` are written by hand; `sigla.md`
+  gives Jebb's note on his symbols.
+* Done so far: Ajax and Electra. The Oedipus Tyrannus is checked as far as line 160; the other
+  three plays are imported from Perseus without the check.
 
 ## The Odyssey (`texts/odyssey/`)
 
