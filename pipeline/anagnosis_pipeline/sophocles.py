@@ -131,16 +131,16 @@ def read_glaux_lines(path: Path) -> list[dict]:
     return rows
 
 
-def renumber_verses(doc, tb: list[dict]) -> list[str]:
-    """Jebb's line numbers from the treebank's citations, a verse shared between speakers counted
-    once: its parts are joined for the numbering, then each later part takes the verse's number
-    with a letter (591, 591a, 591b), as the text format writes lines that share a number."""
+def renumber_verses(doc, tb: list[dict], parts: set[int], explicit: dict[int, str]) -> list[str]:
+    """Jebb's line numbers from the treebank's citations, between fixed points (`explicit`: line
+    index -> number), a verse shared between speakers counted once: its parts (`parts`, the
+    indices of the later parts) are joined for the numbering, then each later part takes the
+    verse's number with a letter (591, 591a, 591b), as the text format writes lines that share
+    a number."""
     from .import_perseus import renumber_from_treebank
     from .textfmt import Document, Line
 
     lines = doc.lines
-    parts = {int(i) for i in doc.meta.pop("_parts", "").split(",") if i}
-    explicit = {int(i) for i in doc.meta.pop("_explicit", "").split(",") if i}
     groups: list[list[int]] = []
     for i in range(len(lines)):
         if i in parts and groups:
@@ -150,7 +150,7 @@ def renumber_verses(doc, tb: list[dict]) -> list[str]:
     merged = Document(meta={})
     explicit_groups = []
     for g, members in enumerate(groups):
-        stated = [lines[i].n for i in members if i in explicit]
+        stated = [explicit[i] for i in members if i in explicit]
         merged.items.append(Line(stated[-1] if stated else lines[members[0]].n, " ".join(lines[i].text for i in members)))
         if stated:
             explicit_groups.append(g)
@@ -165,6 +165,56 @@ def renumber_verses(doc, tb: list[dict]) -> list[str]:
             lines[i].n = base + next(letters)
             used.add(lines[i].n)
     return warnings
+
+
+def _skel(s: str) -> str:
+    return re.sub(r"[^α-ω]", "", greek.strip_diacritics(s).replace("ς", "σ"))
+
+
+def apply_text_check(doc, anchors: list[tuple[str, str]], diffs: list, parts: set[int]) -> tuple[dict[int, str], set[int], list[str]]:
+    """Jebb's printed text: the differences the transcribers found (keyed by our current line
+    numbers) applied, and the printed line numbers placed on our lines as fixed points.
+    Returns (fixed points by line index, the later parts of shared verses by index, warnings)."""
+    from .textfmt import Line
+
+    warnings = []
+    cont = {id(l) for i, l in enumerate(doc.lines) if i in parts}
+    by_n = {l.n: l for l in doc.lines}
+    for n, insert, ours, printed in diffs:
+        line = by_n.get(n)
+        if line is None:
+            warnings.append(f"difference at {n}: no such line")
+            continue
+        if insert:
+            new = Line(n + "z", printed)
+            doc.items.insert(doc.items.index(line) + 1, new)
+        elif not printed and ours and ours.strip() == line.text.strip():
+            doc.items.remove(line)
+        elif ours and line.text.count(ours) >= 1:
+            line.text = line.text.replace(ours, printed, 1)
+        elif not ours and printed:
+            line.text = (line.text + " " + printed).strip()
+        else:
+            warnings.append(f"difference at {n}: «{ours}» not in «{line.text}»")
+    lines = doc.lines
+    explicit: dict[int, str] = {}
+    current = {l.n: i for i, l in enumerate(lines)}
+    for n, word in anchors:
+        guess = current.get(n)
+        if guess is None:
+            near = [i for i, l in enumerate(lines) if re.match(r"\d+", l.n) and abs(int(re.match(r"\d+", l.n).group()) - int(n)) <= 3]
+            guess = near[0] if near else None
+        if guess is None:
+            warnings.append(f"printed {n} {word}: no line near it")
+            continue
+        found = [i for i in range(max(0, guess - 8), min(len(lines), guess + 9))
+                 if lines[i].text.split() and _skel(lines[i].text.split()[0]) == _skel(word) and id(lines[i]) not in cont]
+        if not found:
+            warnings.append(f"printed {n} {word}: no line begins so near our {n}")
+            continue
+        explicit[min(found, key=lambda i: abs(i - guess))] = n
+    new_parts = {i for i, l in enumerate(lines) if id(l) in cont}
+    return explicit, new_parts, warnings
 
 
 def label_parts(doc, play: Play) -> None:
@@ -209,8 +259,22 @@ def import_play(slug: str, sources: Path, texts: Path, build: Path, lexicon: Pat
         "license": "CC BY-SA 3.0 US",
         **({"syntax": "automatic"} if play.glaux else {}),
     }, split_verses=True)
-    for w in renumber_verses(grc, tb):
+    parts = {int(i) for i in grc.meta.pop("_parts", "").split(",") if i}
+    stated = {int(i) for i in grc.meta.pop("_explicit", "").split(",") if i}
+    for w in renumber_verses(grc, tb, parts, {i: grc.lines[i].n for i in stated}):
         print("  numbering: " + w, file=sys.stderr)
+    # Jebb's printed page, where the transcribers have checked it: his readings and his numbers
+    checked = sources.parent / "transcriptions" / "sophocles" / slug
+    if any(checked.glob("batch-*.md")):
+        from .sophocles_pages import text_check
+
+        anchors, diffs = text_check(checked)
+        explicit, parts, warnings = apply_text_check(grc, anchors, diffs, parts)
+        for w in warnings:
+            print("  text check: " + w, file=sys.stderr)
+        for w in renumber_verses(grc, tb, parts, explicit):
+            print("  numbering (printed): " + w, file=sys.stderr)
+        print(f"  text check: {len(diffs)} differences applied, {len(explicit)} printed numbers placed")
     label_parts(grc, play)
     write_file(out / "grc.txt", grc)
     print(f"wrote {out / 'grc.txt'}: {len(grc.lines)} lines")

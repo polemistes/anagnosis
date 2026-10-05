@@ -1,5 +1,15 @@
 [
   {
+    "slug": "ajax",
+    "title": "Αἴας",
+    "author": "Σοφοκλῆς",
+    "title_en": "Ajax",
+    "author_en": "Sophocles",
+    "description": "The Greek text of Sir Richard Jebb's edition, with his translation, critical notes and commentary, and the Liddell–Scott dictionaries. Tap any word for its meaning and form.",
+    "edition": "Sophocles: The Plays and Fragments, Part VII: The Ajax, ed. R. C. Jebb, Cambridge University Press, 1896 (Perseus Digital Library)",
+    "app_id": "no.anagnosis.ajax"
+  },
+  {
     "slug": "antigone",
     "title": "Ἀντιγόνη",
     "author": "Σοφοκλῆς",
@@ -7,6 +17,16 @@
     "author_en": "Sophocles",
     "description": "The Greek text of Sir Richard Jebb's edition, with his translation, critical notes and commentary, and the Liddell–Scott dictionaries. Tap any word for its meaning and form.",
     "edition": "The Antigone of Sophocles, ed. R. C. Jebb, Cambridge University Press, 1891 (Perseus Digital Library)"
+  },
+  {
+    "slug": "electra",
+    "title": "Ἠλέκτρα",
+    "author": "Σοφοκλῆς",
+    "title_en": "Electra",
+    "author_en": "Sophocles",
+    "description": "The Greek text of Sir Richard Jebb's edition, with his translation, critical notes and commentary, and the Liddell–Scott dictionaries. Tap any word for its meaning and form.",
+    "edition": "Sophocles: The Plays and Fragments, Part VI: The Electra, ed. R. C. Jebb, Cambridge University Press, 1894 (Perseus Digital Library)",
+    "app_id": "no.anagnosis.electra"
   },
   {
     "slug": "newtestament",
@@ -29,6 +49,36 @@
     "app_id": "no.anagnosis.odyssey"
   },
   {
+    "slug": "oedipuscoloneus",
+    "title": "Οἰδίπους ἐπὶ Κολωνῷ",
+    "author": "Σοφοκλῆς",
+    "title_en": "Oedipus at Colonus",
+    "author_en": "Sophocles",
+    "description": "The Greek text of Sir Richard Jebb's edition, with his translation, critical notes and commentary, and the Liddell–Scott dictionaries. Tap any word for its meaning and form; the syntax is an automatic analysis (GLAUx).",
+    "edition": "Sophocles: The Plays and Fragments, Part II: The Oedipus at Colonus, ed. R. C. Jebb, Cambridge University Press, 1889 (Perseus Digital Library)",
+    "app_id": "no.anagnosis.oedipuscoloneus"
+  },
+  {
+    "slug": "oedipustyrannus",
+    "title": "Οἰδίπους Τύραννος",
+    "author": "Σοφοκλῆς",
+    "title_en": "Oedipus Tyrannus",
+    "author_en": "Sophocles",
+    "description": "The Greek text of Sir Richard Jebb's edition, with his translation, critical notes and commentary, and the Liddell–Scott dictionaries. Tap any word for its meaning and form.",
+    "edition": "Sophocles: The Plays and Fragments, Part I: The Oedipus Tyrannus, ed. R. C. Jebb, Cambridge University Press, 1893 (Perseus Digital Library)",
+    "app_id": "no.anagnosis.oedipustyrannus"
+  },
+  {
+    "slug": "philoctetes",
+    "title": "Φιλοκτήτης",
+    "author": "Σοφοκλῆς",
+    "title_en": "Philoctetes",
+    "author_en": "Sophocles",
+    "description": "The Greek text of Sir Richard Jebb's edition, with his translation, critical notes and commentary, and the Liddell–Scott dictionaries. Tap any word for its meaning and form; the syntax is an automatic analysis (GLAUx).",
+    "edition": "Sophocles: The Plays and Fragments, Part IV: The Philoctetes, ed. R. C. Jebb, Cambridge University Press, 1898 (Perseus Digital Library)",
+    "app_id": "no.anagnosis.philoctetes"
+  },
+  {
     "slug": "symposium",
     "title": "Συμπόσιον",
     "author": "Πλάτων",
@@ -37,5 +87,15 @@
     "description": "The Greek text of John Burnet's Oxford edition with its critical apparatus, Benjamin Jowett's translation, and R. G. Bury's commentary and introduction, with the Liddell–Scott dictionaries. Tap any word for its meaning and form. The analysis of each sentence's syntax is automatic (GLAUx) and has not been checked by hand.",
     "edition": "Platonis Opera II, ed. J. Burnet, Oxford 1901 (corrected printing 1910)",
     "app_id": "no.anagnosis.symposium"
+  },
+  {
+    "slug": "trachiniae",
+    "title": "Τραχίνιαι",
+    "author": "Σοφοκλῆς",
+    "title_en": "Trachiniae",
+    "author_en": "Sophocles",
+    "description": "The Greek text of Sir Richard Jebb's edition, with his translation, critical notes and commentary, and the Liddell–Scott dictionaries. Tap any word for its meaning and form.",
+    "edition": "Sophocles: The Plays and Fragments, Part V: The Trachiniae, ed. R. C. Jebb, Cambridge University Press, 1892 (Perseus Digital Library)",
+    "app_id": "no.anagnosis.trachiniae"
   }
 ]

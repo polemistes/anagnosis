@@ -182,6 +182,110 @@ def merge(directory: Path, out: Path, header: str) -> tuple[int, str]:
     for n in order:
         body = "\n".join(entries[n]).strip("\n")
         body = re.sub(r"\n{3,}", "\n\n", body)
+        body = bold_lemmas(body)
         lines.append(f"## {n}\n{body}\n")
     out.write_text("\n".join(lines), encoding="utf-8")
     return len(order), "\n\n".join(preface)
+
+
+# ---------------------------------------------------------------- the commentary (Philoctetes)
+
+def _rule_y(path: Path) -> float | None:
+    """Where the commentary begins: the thin rule under the critical notes, as a fraction of the
+    page's height (on the WIDTH-px page image)."""
+    from PIL import Image
+
+    im = Image.open(path).convert("L")
+    w, h = im.size
+    px = im.load()
+    rows = [sum(1 for x in range(0, w, 2) if px[x, y] < 140) for y in range(h)]
+    half = w / 2
+    for y in range(int(h * 0.12), int(h * 0.97) - 9):
+        band = max(rows[y], rows[y + 1], rows[y + 2])
+        if band > half * 0.45 and rows[y - 6] < half * 0.3 and rows[y + 9] < half * 0.3:
+            return (y + 4) / h
+    return None
+
+
+def _crop_commentary(args) -> None:
+    import tempfile
+
+    from PIL import Image
+
+    pdf, page, rule, out_dir, stem = args
+    if (out_dir / f"{stem}-r2.png").exists():
+        return
+    with tempfile.TemporaryDirectory() as tmp:
+        subprocess.run(["pdftoppm", "-f", str(page), "-l", str(page), "-singlefile", "-png", "-scale-to-x", "3000",
+                        "-scale-to-y", "-1", str(pdf), f"{tmp}/p"], check=True)
+        im = Image.open(f"{tmp}/p.png").convert("L")
+    w, h = im.size
+    top = int(rule * h) if rule is not None else int(h * 0.08)
+    region = im.crop((0, top, w, h))
+    px = region.load()
+    rw, rh = region.size
+    # the text block's edges and the gutter: columns with (almost) no ink
+    ink = [sum(1 for y in range(0, rh, 3) if px[x, y] < 140) for x in range(rw)]
+    inked = [x for x in range(rw) if ink[x] > 2]
+    left, right = (inked[0], inked[-1]) if inked else (0, rw)
+    mid_lo, mid_hi = left + (right - left) * 4 // 10, left + (right - left) * 6 // 10
+    gutter = min(range(mid_lo, mid_hi), key=lambda x: (ink[x], abs(x - (left + right) // 2)))
+    rows = [sum(1 for x in range(left, right, 3) if px[x, y] < 140) for y in range(rh)]
+    inked_rows = [y for y in range(rh) if rows[y] > 1]
+    bottom = (inked_rows[-1] + 10) if inked_rows else rh
+    for side, (x0, x1) in (("l", (max(0, left - 20), gutter + 12)), ("r", (gutter - 12, min(rw, right + 20)))):
+        # split the column in two at a gap between lines near its middle
+        mid = bottom // 2
+        gaps = [y for y in range(int(bottom * 0.4), int(bottom * 0.6)) if rows[y] == 0] or [mid]
+        cut = min(gaps, key=lambda y: abs(y - mid))
+        for part, (y0, y1) in (("1", (0, cut + 15)), ("2", (cut - 15, bottom))):
+            region.crop((x0, y0, x1, y1)).save(out_dir / f"{stem}-{side}{part}.png", optimize=True)
+
+
+def prepare_commentary(sources: Path, pages_dir: Path, slug: str) -> int:
+    from concurrent.futures import ProcessPoolExecutor
+
+    scan, text, _appendix = SCANS[slug]
+    pdf = sources / "scans" / f"{scan}.pdf"
+    out = pages_dir / f"{slug}-commentary"
+    out.mkdir(parents=True, exist_ok=True)
+    jobs = []
+    for p in range(text[0], text[1] + 1):
+        stem = f"p-{p:04d}"
+        jobs.append((pdf, p, _rule_y(pages_dir / slug / f"{stem}.png"), out, stem))
+    with ProcessPoolExecutor(max_workers=8) as pool:
+        list(pool.map(_crop_commentary, jobs))
+    return len(jobs)
+
+
+# ---------------------------------------------------------------- the text check, applied
+
+DIFF = re.compile(r"^(\d+[a-z]?)(\+?): ours «(.*)» print «(.*)»\s*$")
+
+
+def text_check(directory: Path) -> tuple[list[tuple[str, str]], list[tuple[str, bool, str, str]]]:
+    """The printed line numbers (number, first word) and the differences
+    (our line, insert-after?, ours, print) the batches report, in page order."""
+    pages = read_batches(directory)
+    anchors, diffs = [], []
+    for stem in sorted(pages):
+        for raw in pages[stem]["numbers"]:
+            m = re.match(r"^(\d+)\s+(\S+)", raw)
+            if m:
+                anchors.append((m.group(1), m.group(2)))
+        for raw in pages[stem]["differences"]:
+            m = DIFF.match(raw)
+            if m:
+                diffs.append((m.group(1), bool(m.group(2)), m.group(3), m.group(4)))
+    return anchors, diffs
+
+
+def bold_lemmas(text: str) -> str:
+    """Jebb's lemma before ']' in bold where the transcription has it plain (the later volumes
+    print it in ordinary type): at the start of a note or after a dash."""
+    def repl(m: re.Match) -> str:
+        lemma = m.group(2)
+        if "**" in lemma or not re.search(r"[Ͱ-Ͽἀ-῿]", lemma) or re.search(r"[A-Za-z]{3,}", lemma):
+            return m.group(0)
+        return f"{m.group(1)}**{lemma.strip()}**]"
+    return re.sub(r"(^|—\s*|\.\s{1,2})([^\]\*—\n]{1,60}?)\](?=[\s,:;.])", repl, text, flags=re.M)
