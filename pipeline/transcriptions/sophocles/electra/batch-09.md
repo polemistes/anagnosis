@@ -59,7 +59,7 @@ Note 966: αὑτῷ (r) with rough breathing, L's αὐτῶι with smooth brea
 λόγων Dobree and Bothe: λόγῳ MSS. (in L the ι of λόγωι has been added by a corrector).
 
 ## 974
-πεισθεῖσ’ ἐμοὶ L, with most MSS., and Ald.: πεισθεῖσά μοι Vindobonensis.
+πεισθεῖσ’ ἐμοί L, with most MSS., and Ald.: πεισθεῖσά μοι Vindobonensis.
 
 ## 978
 τὸν πατρῶιον made in L from τῶν πατρωίων.
@@ -74,7 +74,7 @@ The lemmas are in the ordinary (italic) Greek type, not bold.
 976: the print ends the line with a comma (looked at twice, enlarged); ours has ·.
 981: the print ends the line with a raised point (looked at twice, enlarged); ours has a comma.
 988: the print has a comma after γιγνώσκουσ’ (looked at twice, enlarged); ours has none.
-Note 974: ἐμοὶ is printed with a grave accent, as far as the small type shows (enlarged).
+Note 974: ἐμοί is printed with an acute, as in the text (enlarged; the stroke over ι leans from upper right to lower left).
 Note 978: "πα-|τρωίων" is divided at the line end; joined.
 
 === p-0233

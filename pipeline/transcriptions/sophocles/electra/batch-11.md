@@ -227,3 +227,21 @@ Numbering: the print sets ΗΛ. ξυναινεῖς; and ΟΡ. τί μὴν ο�
 Note 1278: L's κ’ὰ’ν is printed with an apostrophe before and after ὰ; the reading it was made from is printed κ’ἀν, with the smooth breathing on α (enlarged 6x).
 Note 1281: L's ἂν (twice) has the smooth breathing, the schol.'s ἃν the rough (enlarged 4–5x). L's punctuation (ἐγὼ·, αὐδάν·, τάλαινα·), οὐδε without accent and βοᾶι with the iota on the line are as printed. "1281—1284" is the label.
 The lemmas are in the ordinary Greek type, not bold.
+
+=== p-0269
+--- apparatus
++ the MSS., except that Γ and others have ἃν. The Aldine has a comma after φίλαι, and points after αὐδὰν· ἄναυδον· τάλαινα. For conjectures, see below.
+
+## 1287
+After ἐγὼ a space (=about two letters) is left in L.—λαθοίμαν] λάθοιμ’ ἂν r.
+
+## 1289-1292
+Arndt rejects these four vv.
+
+## 1291
+τὰ δ’] τάδ’ L, A, and Ald.
+--- notes
+The block begins with "the MSS., except that …", the end of the note on 1281—1284 running on from p-0268.
+Note 1281 (continued): Γ's ἃν is read with the rough breathing (the note sets it against the MSS.' ἂν; enlarged 5x, the breathing is hard to tell at this size). The Aldine's αὐδὰν· has the grave before the raised point (enlarged 4x); kept as printed.
+"1289—1292" is the label.
+The lemmas are in the ordinary Greek type, not bold.

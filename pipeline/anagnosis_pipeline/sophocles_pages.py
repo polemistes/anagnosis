@@ -324,7 +324,7 @@ def text_check(directory: Path, prefix: str = "batch-") -> tuple[list[tuple[str,
     anchors, diffs = [], []
     for stem in sorted(pages):
         for raw in pages[stem]["numbers"]:
-            m = re.match(r"^(\d+)\s+(\S+)", raw)
+            m = re.match(r"^(\d+[a-z]?)\s+(\S+)", raw)
             if m:
                 anchors.append((m.group(1), m.group(2)))
         for raw in pages[stem]["differences"]:

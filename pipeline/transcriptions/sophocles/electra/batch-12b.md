@@ -155,3 +155,20 @@ Note 1453: L's reading is printed ὀὔκ’· with a small mark like a smooth 
 The lemmas are in the ordinary (italic) Greek type, not bold.
 The block begins with the end of note 1457 (p-0290). "want-ing" is divided at the line end in the print; written wanting. "s. v." is in italics in the print (not a book title, left unmarked).
 Note 1458: Fröhlich δέμας is printed without a comma after the name (unlike "Fröhlich, καὶ διοιγνύναι" before it); kept as printed.
+
+=== p-0292
+--- numbers
+1470 αὐτὸς
+1476 τίνων
+--- differences
+--- apparatus
+## 1466
+ἄνευ φθόνου μὲν οὐ] In L the scribe wrote φόνου: but the first corrector (S) has inserted θ after φ. For φθόνου Gomperz conj. θεοῦ, which Nauck and Wecklein adopt.—For οὐ, Tyrwhitt conj. εὖ, which Blaydes reads.
+
+## 1467
+πεπτωκός] Nauck conj. πεφηνός.—εἰ δ’ ἔπεστι] In L the scribe first wrote εἰ δὲ εστιν, then corrected this to εἰ δ’ ἔπεστι, deleting the ν.—εἰ δ’ ἔστιν Γ, εἰ δέ τις ἐστὶ Vindobonensis.
+--- notes
+The lemmas are in the ordinary (italic) Greek type, not bold.
+Numbering: the margin number 1476 stands against ΑΙ. τίνων ποτ’ ἀνδρῶν ἐν μέσοις ἀρκυστάτοις (our 1477), looked at twice; the print really is so. Jebb counts οἴμοι, τί λεύσσω; … ἀγνοεῖς; as 1475 and τίνων … as 1476, where our text has no line 1476; a numbering difference to correct. The margin number 1470 agrees with ours.
+The text of this page agrees with ours (all lines looked at twice, enlarged).
+Note 1467: L's first reading is printed εἰ δὲ εστιν, with no breathing or accent on the ε of εστιν (enlarged); kept as printed.

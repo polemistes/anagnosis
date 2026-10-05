@@ -29,6 +29,16 @@ in the line:
 Change nothing but the division. If you notice a word, accent or stop that still differs from
 the print, say so in your reply; do not write it as a difference.
 
+## Numbers that two printed lines share
+
+Jebb sometimes gives one number to two short printed lines (a verse whose second part is
+indented, or two short cola counted as one), so that our lines, numbered one by one, run ahead
+of his. His note headings and the margin show where. Give such places as fixed points under
+`--- numbers` in your block, the number with a letter for the later line, followed by its first
+word, as in the first pass: `401a ἀλκίμα` (his 401 is ἀλλά μʼ ἁ Διὸς with ἀλκίμα θεὸς); and give
+any other number you can establish for a line our numbering misplaces (`354 οἴμʼ`). The import
+then numbers the lines between the fixed points.
+
 ## Output
 
 One file per task, `transcriptions/sophocles/<play>/lines-NN.md` (the name is in your task),

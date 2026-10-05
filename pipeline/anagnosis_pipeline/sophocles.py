@@ -257,7 +257,7 @@ def apply_text_check(doc, anchors: list[tuple[str, str]], diffs: list, parts: se
     for n, word in anchors:
         guess = current.get(n)
         if guess is None:
-            near = [i for i, l in enumerate(lines) if re.match(r"\d+", l.n) and abs(int(re.match(r"\d+", l.n).group()) - int(n)) <= 3]
+            near = [i for i, l in enumerate(lines) if re.match(r"\d+", l.n) and abs(num(l.n) - num(n)) <= 3]
             guess = near[0] if near else None
         if guess is None:
             warnings.append(f"printed {n} {word}: no line near it")

@@ -198,3 +198,21 @@ The lemmas are in the ordinary (italic) Greek type, not bold.
 1221: the breathing on ἁνήρ is rough (enlarged 6x, compared with the smooth breathing of οὐ in the notes), as ours; no difference.
 1220, 1221, 1222: each verse shared between Electra and Orestes is printed on one line (our 1220a, 1221a, 1222a); no difference.
 Note 1215: σοὶ and ἐμὸν are printed with the grave (enlarged).
+
+=== p-0261
+--- apparatus
++ by an early corrector.
+
+## 1220
+ὦ παῖ] Nauck conj. ὦ τᾶν.
+
+## 1221
+ἁνὴρ] ἀνὴρ L, etc., and the edd. before Brunck.
+
+## 1222
+προσβλέψασα L, with most MSS.: προσβλέψουσα r (which Dind. by an oversight ascribes to L). Meineke
+--- notes
+The block begins with the end of note 1217 (from p-0260).
+The lemmas are in the ordinary (italic) Greek type, not bold.
+Note 1221: both forms are printed with the grave on η (ἁνὴρ, ἀνὴρ), though the text line has ἁνήρ; the lemma has the rough breathing (crasis), L's reading the smooth (enlarged 7x, high contrast). Kept as printed.
+Note 1222: the note runs on to p-0262.
