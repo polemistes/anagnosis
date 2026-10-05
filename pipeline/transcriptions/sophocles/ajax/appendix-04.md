@@ -260,3 +260,17 @@ felicitous. (I should prefer the insertion of δή before πω to any of them.)
 
 3. Hermann (formerly): κοὐδενί γ’ ᾧτινι λῴονι θνητῶν. But he afterwards preferred to leave v.
 1416 untouched, and to delete v. 1417.
+
+=== p-0324
+4. Bothe: κἂν οὐδενί πω λῴονι θνητῶν. He meant the construction to be καὶ (πονήσας) ἄν. Lobeck
+suggested καὶ ἐπ’ οὐδενί κ.τ.λ.
+
+5. Schneider: κοὐδενί τῴ πω λῴονι θνητῶν.
+
+6. Musgrave: κἀπ’ οὐδενί πω λῴονι θνητῶν | Αἴαντος **ὀτλεῖν τόδε** φωνῶν. *I.e.*, ‘and saying
+(while he toils) that he never bore this toil for a better man than Ajax.’
+
+7. Moritz Seyffert: κοὐδενί πω λωΐονι θνητῶν. He takes Αἴαντος as depending on λωΐονι, and the
+words ὅτ’ ἦν, τότε φωνῶ, as a pathetic after-thought,—‘I speak of the time when he lived.’
+Almost alone among modern critics, Seyffert is strenuous in his vindication of v. 1417, which
+he designates as ‘unum ex pulcherrimis, ut nobis videtur, poetae ornamentis.’

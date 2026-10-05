@@ -171,3 +171,144 @@ here. (1) *In summer*, frequent and vivid lightning is a prognostic of violent w
 quarter in which it is seen. (2) *In autumn and winter*, on the contrary, lightning is followed by
 the *cessation* of winds; and the more violent the thunder-storm, the more quickly will the winds
 subside.
+=== p-0308
+The first statement could be adduced in support of the view just discussed,—that a southern gale
+*not* attended by thunder and lightning will be *less* violent. The second statement has
+suggested various emendations of the words of Sophocles, all having the same object,—viz., to
+obtain the following sense:—‘he ceases to rage, like a south wind which, after a sharp outburst,
+*is laid* by a thunder-storm’ (παύουσι γὰρ τὰ πνεύματα αἱ ἀστραπαί).
+
+1. One of the MSS. (Γ) having λαμπρᾶς γὰρ ἀστεροπᾶς (without ἄτερ), Lobeck conjectured, λαμπρᾶς
+γὰρ **ἀπ’** ἀστεροπᾶς (ἀπό = ‘after’).
+
+2. Mudge (*ap.* Wakefield, *Silva Critica* CXCIV): λαμπρᾶς γὰρ **ἅτ’ ἐκ** στεροπᾶς: and so
+(independently) Wecklein (*Ars Soph. emend.* p. 56). Blaydes adopts this reading.
+
+3. Bergk: λαμπρᾶς γὰρ **ἅπερ** στεροπᾶς | **ἄρξας**.
+
+4. Moritz Seyffert: οὔκ· **ἐπὶ** λαμπρᾶς γὰρ **ἅπερ** στεροπᾶς (taking ἐπί as = ‘accompanied by’).
+But οὐκέτι is evidently right.
+
+5. G. Wolff: λαμπραῖς γὰρ **ἄφαρ** στεροπαῖς | **εἴξας**.
+
+## Lines 405–409
+
+The traditional text is as follows:—
+
+εἰ τὰ μὲν φθίνει, φίλοι, | τοῖσδ’ ὁμοῦ πέλας, | μώραις δ’ ἄγραις προσκείμεθα, | πᾶς δὲ στρατὸς
+δίπαλτος ἄν με | χειρὶ φονεύοι.
+
+And in the corresponding verses of the antistrophe (423—427):—
+
+ἐξερέω μέγ’, οἷον | οὔ τινα | Τροία στρατοῦ | δέρχθη χθονὸς μολόντ’ ἀπὸ | Ἑλλανίδος· τανῦν δ’
+ἄτιμος | ὧδε πρόκειμαι.
+
+The above is the division of the antistrophic verses as given in L: but, for correspondence with
+the strophe, it should be
+
+ἐξερέω μέγ’, οἷον οὔ- | τινα Τροία στρατοῦ | δέρχθη, etc.
+
+G. Wolff retains the MS. text, without any change either in strophe or in antistrophe. He is thus
+compelled to assume that τοῖσδ’ ὁμοῦ πέλας answers metrically to τινα Τροία στρατοῦ: and,
+therefore, that the first syllable of Τροία is short, so that the syllables τῐνᾰ τρο̆ι correspond
+with the trochee το̄ισδ’ ο̆μ-. He compares the ο̆ι of Ποίαντος in *Ph.* 263 etc. But such a
+shortening of οι in Τροία is altogether improbable. It is, indeed, a fatal objection to his view.
+
+The emendations have been of two classes:—I. Those which require no change in the antistrophe.
+II. Those which require such
+=== p-0309
++ change. I. The first class may be subdivided into (*a*) those which keep the vocative φίλοι, and
+(*b*) those which alter it.
+
+(*a*) Keeping φίλοι.
+
+1. Hermann (formerly), εἰ τὰ μὲν φθίνει, φίλοι, **τοιοῖσδ’** ὁμοῦ πέλας. This, as it is the
+slightest, seems also the best emendation, and I have adopted it in my text. (As has been said in
+the commentary, I suspect that πέλας is unsound; it may have displaced a substantive, perhaps
+βοτοῖς.)
+
+2. Hermann afterwards struck out πέλας: inserted οἷ’ between τοῖσδ’ and ὁμοῦ: and assumed the loss
+of a word (such as μέγιστα) between τὰ and μὲν (or between μὲν and φθίνει). He also changed
+προκείμεθα to προκείμενα. His text then stood thus:—
+
+405 εἰ τὰ...μὲν φθίνει, φίλοι, | 406 f. τοῖσδ’, οἷ’ ὁμοῦ μώραις ἄγραις προκείμενα,
+
+corresponding metrically with
+
+423 ἐξερέω μέγ’, οἷον οὔτινα | 424 f. Τροία στρατοῦ δέρχθη χθονὸς μολόντ’ ἀπό.
+
+He explained his own reading in 405 ff. to this effect:—‘If my chief object [τὰ (μέγιστα), the
+scheme of vengeance on the chiefs] is lost through these creatures (τοῖσδ’, the slain cattle),
+such as are lying prostrate near me (ὁμοῦ προκείμενα, *sc.* ἐστί), victims of an insane
+onslaught’ (μώραις ἄγραις, instrumental dat.).
+
+3. Lobeck: εἰ τὰ μὲν φθίνει, φίλοι, **τίσις δ’** ὁμοῦ πέλας: *si honore et dignitate, qua olim
+florebam, privatus sum, ultio autem prope instat* (the vengeance of the Greeks).
+
+4. Dindorf gives the same emendation in his text of 1860, only with **πέλει** instead of πέλας.
+(Others suggest **πελᾷ**.) Schneidewin (formerly): **τίσις δ’** ὁμοῦ μ’ **ἐλᾷ**.
+
+5. Hartung changes **τοῖσδ’ ὁμοῦ** to **τοιαῖσδε δὲ**, dividing the verses thus:—
+
+εἰ τὰ μὲν φθίνει, φίλοι, τοιαῖσδε δὲ | πέλας μώραις ἄγραις προσκείμεθα.
+
+6. Elmsley: εἰ τὰ μὲν φθίνει, φίλοι, **τάδε δ’** ὁμοῦ πέλας (*i.e.* εἰ τὰ μὲν ἀγαθὰ φθίνει, τάδε δὲ
+κακὰ πάρεστι).
+
+7. Linwood (*ap.* Blaydes, p. 100): εἰ τὰ μὲν φθίνει, φίλοι, **τάδ’ ὡς ὁρᾶν** πέλει.
+
+(*b*) Changing φίλοι.
+
+1. Schmelzer (*ap.* G. Wolff, p. 164): εἰ τὰ μὲν φθίνει, **φίλοις δὲ** τοῖσδ’ ὁμοῦ τάλας.
+
+2. Mekler: εἰ τὰ μὲν φθίνει **φίλοισι** τοῖσδ’ | ἐμοῦ **σέβας**. So he prints the passage in the
+6th ed. of Dindorf’s text (Teubner), 1885.
+
+3. Seyffert: εἰ τὰ μὲν φθίνει **φίλων τοιοῖσδ’** ὁμοῦ πέλας, meaning, ‘If the help of friends
+(τὰ φίλων, ‘*ea quae in amicis sunt*’) is lost to me, through these creatures near me’ (the slain
+cattle).
+=== p-0310
+4. Wecklein: εἰ τὰ μὲν φθίνει **φθιτοῖσι** τοῖσδ’ | ὁμοῦ πέλας, *i.e.*, ‘If my former glory
+perishes along with these dead creatures near me.’
+
+II. The following emendations require some change in the antistrophe.
+
+1. Ahrens: **τοῖς δόμου πέλας**, instead of τοῖσδ’ ὁμοῦ πέλας.
+
+2. Thiersch: **τοῖς δ’ ὁμοῦ γέλως** (with μώραις γ’ instead of μώραις δ’).
+
+3. Nauck (leaving the traditional reading in his text) proposes to read in the strophe (omitting
+τὰ μὲν),
+
+εἰ φθίνει, φίλοι, **δόμου κλέος**, | μώραις δ’ ἄγραις προσκείμεθα,
+
+and in the antistrophe (omitting στρατοῦ and ἀπό),
+
+ἐξερῶ μέγ’, οἷον οὔτινα | Τροία χθονὸς δέρχθη μολόντ’.
+
+4. J. H. Heinrich Schmidt reads in the strophe,
+
+εἰ **τὸ** μὲν φθίνει, φίλοι, **δόμου** | **κλέος**, μώραις δ’ ἄγραις προσκείμεθα, | πᾶς στρατὸς δίπαλτος
+ἄν με | χειρὶ φονεύοι.
+
+(He omits the δὲ after πᾶς.) In the antistrophe he reads (omitting στρατοῦ, and changing
+Ἑλλανίδος, with Gleditsch, to Ἑλλάδος),
+
+ἐξερέω μέγ’, οἷον οὔτινα | Τροία δέρχθη χθονὸς μολόντ’ ἀπὸ | Ἑλλάδος· τὰ νῦν δ’ ἄτιμος | ὧδε
+πρόκειμαι.
+
+5. Campbell would read in the strophe (changing τὰ to τάδε, and τοῖσδ’ ὁμοῦ πέλας to πάλαι),
+
+εἰ τάδε μὲν φθίνει, φίλοι, πάλαι, | μώραις δ’ ἄγραις προσκείμεθα,
+
+and in the antistrophe (omitting στρατοῦ and ἀπό),
+
+ἐξερέω μέγ’, οἷον οὔτινα | Τροία χθονὸς δέρχθη μολόντ’.
+
+6. Paley inserts κεῖμαι δὲ before τοῖσδ’ in the strophe, reading thus:—
+
+εἰ τὰ μὲν φθίνει, φίλοι, | κεῖμαι δὲ τοῖσδ’ ὁμοῦ πέλας, | μώραις [δ’] ἄγραις προσκείμεθα.
+
+In the antistrophe, he changes οὔτινα to οὐδέπω τινά, reading
+
+ἐξερέω μέγ’, οἷον οὐ- | δέπω τινὰ Τροία στρατοῦ | δέρχθη χθονὸς μολόντ’ ἀπὸ (κ.τ.λ.).

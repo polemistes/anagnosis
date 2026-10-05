@@ -274,8 +274,13 @@ def apply_text_check(doc, anchors: list[tuple[str, str]], diffs: list, parts: se
             continue
         window = range(max(0, guess - 8), min(len(lines), guess + 9))
         words = [_skel(w) for w in word.split()]
-        found = [i for i in window if id(lines[i]) not in cont
-                 and [_skel(w) for w in lines[i].text.split()[:len(words)]] == words]
+        begins = [i for i in window if [_skel(w) for w in lines[i].text.split()[:len(words)]] == words]
+        found = [i for i in begins if id(lines[i]) not in cont]
+        if not found and begins:
+            # a number printed on the later part of what our text has as a shared verse: Jebb
+            # counts that part as a verse of its own (El. 1280 τί μὴν οὔ;)
+            found = begins
+            cont.discard(id(lines[min(found, key=lambda i: abs(i - guess))]))
         if not found:
             # Jebb prints a number beside the wrapped end of a long lyric verse (ἄφρακτος |
             # φίλων· 910): the verse ends there, so the next line takes the next number, and the

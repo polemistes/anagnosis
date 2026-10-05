@@ -257,3 +257,46 @@ him’).
 φράζειν** τόπος (G. Wolff suggests σφε ποῦ λάθει).
 
 5. Herwerden: κοὐδεὶς **ἐφίστασθαί** με **συμπείθει** τόπος.
+=== p-0317
+## Lines 966–973
+
+**966 ἐμοὶ πικρὸς τέθνηκεν ἢ κείνοις γλυκύς, | 967 αὑτῷ δὲ τερπνός· ὧν γὰρ ἠράσθη τυχεῖν |
+968 ἐκτήσαθ’ αὑτῷ, θάνατον ὅνπερ ἤθελεν. | 969 τί δῆτα τοῦδ’ ἐπεγγελῷεν ἂν κάτα; | 970 θεοῖς
+τέθνηκεν οὗτος, οὐ κείνοισιν, οὔ. | 971 πρὸς ταῦτ’ Ὀδυσσεὺς ἐν κενοῖς ὑβριζέτω. | 972 Αἴας γὰρ
+αὐτοῖς οὐκέτ’ ἐστίν, ἀλλ’ ἐμοὶ | 973 λιπὼν ἀνίας καὶ γόους διοίχεται.**
+
+(1) R. Enger (in *Rhein. Mus.* 14. 475 ff.) proposes to strike out verses 969, 970, 973, and to
+arrange the remaining five verses in the following order:— 971 πρὸς ταῦτ’ Ὀδυσσεὺς ἐν κενοῖς
+ὑβριζέτω. | 972 Αἴας γὰρ αὐτοῖς οὐκέτ’ ἐστίν· ἀλλ’ ἐμοὶ | 966 πικρὸς τέθνηκε <μᾶλλον> ἢ κεῖνοις
+γλυκύς, | 967 αὑτῷ δὲ τερπνός· ὧν γὰρ ἠράσθη τυχεῖν | 968 ἐκτήσαθ’ αὑτῷ, θάνατον ὅνπερ ἤθελεν.
+
+(2) A. Zippmann (*Atheteseon Sophocl. specimen*, p. 34, Bonn, 1864) would strike out *vv.* 966,
+969, 970, and arrange the rest as follows:— 971 πρὸς ταῦτ’ Ὀδυσσεὺς ἐν κενοῖς ὑβριζέτω. | 972
+Αἴας γὰρ αὐτοῖς οὐκέτ’ ἐστίν, ἀλλ’ ἐμοὶ | 973 λιπὼν ἀνίας καὶ γόους διοίχεται, | 967 αὑτῷ δὲ
+τερπνός· ὧν γὰρ ἠράσθη τυχεῖν | 968 ἐκτήσαθ’ αὑτῷ, θάνατον ὅνπερ ἤθελεν.
+
+Others would be content simply to strike out three verses, without changing the order of the
+five which remain. Thus:
+
+(3) Leutsch and Dindorf would omit vv. 966, 967, 968.
+
+(4) Schneidewin, 969, 972, 973.
+
+(5) A. Schöll, 971, 972, 973.
+
+All the above-mentioned critics, whether they change or do not change the order of the verses
+which they spare, have the same object in view, viz., to get rid of three verses here, so that
+Tecmessa’s speech of ten lines in vv. 915—924 may correspond in length with her speech in this
+place, which now consists of thirteen lines (961—973). For they regard vv. 879—924 as forming
+the strophe of the κομμός, to which vv. 925—973 form the antistrophe.
+
+Nauck’s view is peculiar. As he rejects two verses (918, 919) in Tecmessa’s former speech, thus
+reducing it to eight verses, so here he has to get rid, not of three, but of five verses. He
+accordingly brackets 966, 967, 968, 969, 970.
+
+The truer view seems to be that the strophe consists of vv. 879—914, to which vv. 925—960 form
+the antistrophe. There is no necessity, on this view, that Tecmessa’s speech of ten lines in
+915—924 should be balanced by one of the same length here.
+
+The diversity of opinion among the critics as to which verses should be deleted curiously
+illustrates the arbitrary character of such processes.
