@@ -30,6 +30,9 @@ FILES = {
         for ident in ("platonisopera02platuoft", "operarecognovitb02platuoft")
         for suffix in (".pdf", "_djvu.txt")
     },
+    # Autenrieth's Homeric Dictionary (tr. Keep, rev. Flagg, 1891), PIMS Toronto scan with a Greek
+    # OCR: the page images the reader's Autenrieth is transcribed from (autenrieth_pages.py)
+    "scans/homericdictiona00aute.pdf": "https://archive.org/download/homericdictiona00aute/homericdictiona00aute.pdf",
     # GLAUx (CC BY-SA 4.0): automatic lemmas, morphology and syntax of the Symposium
     "glaux/0059-011.xml": f"{RAW}/alekkeersmaekers/glaux/main/xml/0059-011.xml",
     **{

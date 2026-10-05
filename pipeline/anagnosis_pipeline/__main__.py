@@ -28,6 +28,9 @@ def main(argv: list[str] | None = None) -> int:
     csb.add_argument("files", nargs="+")
     sub.add_parser("fetch-nt", help="download the New Testament sources into pipeline/sources/nt/ (SBLGNT, MACULA, Dodson, BSB)")
     sub.add_parser("import-nt", help="texts/newtestament/ from the SBLGNT, MACULA, Dodson and the Berean Standard Bible")
+    sub.add_parser("prepare-autenrieth-pages", help="page images and OCR drafts for transcribing Autenrieth's Homeric Dictionary (pipeline/build/autenrieth-pages/)")
+    cab = sub.add_parser("check-autenrieth-batch", help="check Autenrieth transcription batch files")
+    cab.add_argument("files", nargs="+")
     sub.add_parser("import-syntax", help="regenerate texts/antigone/syntax-nodes.tsv (treebank punctuation and elliptic nodes) without touching the other files")
     sub.add_parser("check", help="validate texts/ (line numbers, token alignment, lexicon coverage)")
     m = sub.add_parser("merge-apparatus", help="merge transcription batches into texts/antigone/commentary-jebb-apparatus.md")
@@ -94,6 +97,20 @@ def main(argv: list[str] | None = None) -> int:
     elif args.cmd == "import-nt":
         from .nt import import_nt
         return 1 if import_nt(SOURCES, TEXTS, ROOT / "pipeline" / "build") else 0
+    elif args.cmd == "prepare-autenrieth-pages":
+        from .autenrieth_pages import prepare as prepare_autenrieth
+        index = prepare_autenrieth(SOURCES, ROOT / "pipeline" / "build" / "autenrieth-pages")
+        print(f"{len(index)} pages")
+    elif args.cmd == "check-autenrieth-batch":
+        from .autenrieth import check_batch as check_autenrieth
+        bad = 0
+        for f in args.files:
+            problems = check_autenrieth(Path(f), ROOT / "pipeline" / "build" / "autenrieth-pages")
+            print(f"{f}: {len(problems)} remarks")
+            for p in problems:
+                print("  " + p)
+            bad += len(problems)
+        return 1 if bad else 0
     elif args.cmd == "import-syntax":
         from .import_perseus import import_syntax_nodes
         import_syntax_nodes(SOURCES, TEXTS)

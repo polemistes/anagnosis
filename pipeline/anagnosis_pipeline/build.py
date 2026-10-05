@@ -139,6 +139,12 @@ LEXICONS = {
         "source": "Perseus Digital Library, hopper-texts-GreekRoman",
         "license": "CC BY-SA 3.0 US",
     },
+    "autenrieth": {
+        "title": "G. Autenrieth: A Homeric Dictionary (1891)",
+        "source": "A Homeric Dictionary for Schools and Colleges, tr. R. P. Keep, rev. I. Flagg (New York 1891); "
+                  "transcribed from the Internet Archive scan homericdictiona00aute",
+        "license": "CC BY-SA 4.0 (transcription; the book is in the public domain)",
+    },
     "abbott-smith": {
         "title": "G. Abbott-Smith: A Manual Greek Lexicon of the New Testament (1922)",
         "source": "TEI edition by Daniel Owens and others, github.com/translatable-exegetical-tools/Abbott-Smith",
@@ -229,6 +235,12 @@ def build_lexicon(sources: Path, out_dir: Path) -> None:
     db.executescript(LEXICON_SCHEMA)
     db.executemany("INSERT INTO meta VALUES (?, ?)", [("schema_version", str(SCHEMA_VERSION)), ("kind", "lexicon"), ("html_encoding", "zlib")])
     lexica = load_lexica(sources, sources.parent / "build")
+    # Autenrieth from our own transcription (not cached: it changes as the batches are checked)
+    autenrieth_dir = sources.parent / "transcriptions" / "autenrieth"
+    if any(autenrieth_dir.glob("batch-*.md")):
+        from .autenrieth import parse_autenrieth
+
+        lexica["autenrieth"] = parse_autenrieth(autenrieth_dir)
     import zlib
 
     def pack(html_text: str) -> bytes:
@@ -252,13 +264,22 @@ def build_lexicon(sources: Path, out_dir: Path) -> None:
             rows,
         )
         print(f"lexicon {slug}: {len(rows)} entries")
+        extra: list = []
         if slug == "abbott-smith":
             extra = abbott_smith_extra_keys(sources, entries)
-            db.executemany(
-                "INSERT INTO lexicon_entries (lexicon_id, key, headword, homograph, lemma_key, loose_key, sort_key, html) VALUES (?,?,?,?,?,?,?,?)",
-                [(lex_id, e.key, e.headword, e.homograph, key, greek.strip_diacritics(key), e.sort_key, pack(e.html)) for key, e in extra],
-            )
             print(f"lexicon {slug}: {len(extra)} entries also under the New Testament lemma they are listed for by Strong's number")
+        if slug == "autenrieth":
+            from .autenrieth import extra_keys, second_headwords
+
+            seconds = second_headwords(autenrieth_dir, entries)
+            others = extra_keys(sources.parent.parent / "texts", entries, {k for k, _e in seconds})
+            extra = seconds + others
+            print(f"lexicon {slug}: {len(seconds)} entries also under their second headword, "
+                  f"{len(others)} under the Odyssey's spelling of the lemma")
+        db.executemany(
+            "INSERT INTO lexicon_entries (lexicon_id, key, headword, homograph, lemma_key, loose_key, sort_key, html) VALUES (?,?,?,?,?,?,?,?)",
+            [(lex_id, e.key, e.headword, e.homograph, key, greek.strip_diacritics(key), e.sort_key, pack(e.html)) for key, e in extra],
+        )
     from .forms import build_forms
 
     build_forms(db, sources)

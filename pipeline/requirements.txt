@@ -1,2 +1,3 @@
 lxml>=5
 beta-code>=1.1
+pillow>=10

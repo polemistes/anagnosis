@@ -36,6 +36,8 @@ GREEK_META = {
     "homeriopera04home (with homerioperarecog03homeuoft, homerioperarecog04homeuoft)",
     "edition": "Homeri Opera III-IV, ed. T. W. Allen, 2nd ed., Oxford 1917-1919",
     "license": "CC BY-SA 4.0 (transcription; the edition is in the public domain)",
+    # the word sheet offers the Homeric dictionary first
+    "dictionaries": "autenrieth ml lsj",
 }
 
 DRAFT_META = {
