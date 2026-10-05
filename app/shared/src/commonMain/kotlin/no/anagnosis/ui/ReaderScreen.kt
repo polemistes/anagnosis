@@ -697,14 +697,25 @@ private fun paginate(
             LineNumberMode.ALL -> if (measured[i].numberFits) numbers[row] = label(row.line)
             LineNumberMode.FIFTH -> {
                 // every fifth verse; a lettered line (an extra line, or the later part of a shared
-                // verse) has no number of its own in this mode
-                val isTarget = row.line.n_int % 5 == 0L && row.line.n_sub.isEmpty()
-                if (!isTarget) continue
+                // verse) has no number of its own in this mode. A long lyric verse that runs over a
+                // fifth number no line carries (the verse 473 that covers 475) shows that number
+                // beside it, as Jebb prints it.
+                val n = row.line.n_int
+                val next = (k + 1 until greekIdx.size).asSequence().map { lineAt(it).line }
+                    .firstOrNull { it.n_sub.isEmpty() }?.n_int
+                val covered = (n / 5 + 1) * 5
+                val shown = when {
+                    row.line.n_sub.isNotEmpty() -> null
+                    n % 5 == 0L -> row.line
+                    next != null && covered < next -> row.line.copy(n = covered.toString(), n_int = covered)
+                    else -> null
+                } ?: continue
+                val own = shown === row.line
                 when {
-                    fitsAt(k) -> numbers[row] = label(row.line)
-                    k + 1 < greekIdx.size && fitsAt(k + 1) && lineAt(k + 1) !in numbers -> numbers[lineAt(k + 1)] = label(lineAt(k + 1).line)
-                    k > 0 && fitsAt(k - 1) && lineAt(k - 1) !in numbers -> numbers[lineAt(k - 1)] = label(lineAt(k - 1).line)
-                    else -> { numbers[row] = label(row.line); forced += row }
+                    fitsAt(k) -> numbers[row] = label(shown)
+                    own && k + 1 < greekIdx.size && fitsAt(k + 1) && lineAt(k + 1) !in numbers -> numbers[lineAt(k + 1)] = label(lineAt(k + 1).line)
+                    own && k > 0 && fitsAt(k - 1) && lineAt(k - 1) !in numbers -> numbers[lineAt(k - 1)] = label(lineAt(k - 1).line)
+                    else -> { numbers[row] = label(shown); forced += row }
                 }
             }
         }
