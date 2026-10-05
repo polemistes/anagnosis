@@ -185,7 +185,7 @@ right 7: the entry κατά runs on to the next page.
 **κατα-δέω**, ipf. κατέδει, aor. κατέδησε: *bind down, bind fast, confine.*
 **κατα-δημο-βορέω** (δημοβόρος): *devour* or *consume in common*, aor., Σ 301†.
 **καταδράθω**: see καταδαρθάνω.
-**κατα-δύω**, aor. 2 κατέδυν, inf. καταδῦναι, -δύμεναι, part. -δύς, nom. pl. fem. sync. καδδῦσαι, mid. fut. καταδυσόμεθα, aor. κατεδύσετο: *go down into, enter;* εἰς Ἀίδαο δόμους, κ 174; κατά, Τ 25, and often w. acc., δόμον, πόλιν, ὅμιλον,
+**κατα-δύω**, aor. 2 κατέδυν, inf. καταδῦναι, -δύμεναι, part. -δύς, nom. pl. fem. sync. καδδῦσαι, mid. fut. καταδυσόμεθα, aor. κατεδύσετο: *go down into, enter;* εἰς Ἀΐδαο δόμους, κ 174; κατά, Τ 25, and often w. acc., δόμον, πόλιν, ὅμιλον,
 --- right
 + etc.; of the sun, *set;* apparently trans., τεύχεα, *put on*, Ζ 504, μ 228.
 **καταειμένος**, **καταείνυσαν**: see καταέννυμι.

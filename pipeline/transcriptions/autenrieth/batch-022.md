@@ -272,7 +272,7 @@ right 21: "heavenly-" / "singing" is divided at the line end; kept with its hyph
 **θήιον**: see θέειον.
 **θήλεας**: see θῆλυς.
 **θηλέω** = θάλλω, w. gen. of fulness, ε 73†.
-**θῆλυς**, θήλεια, θῆλυ (also w. two endings): *female;* ἀυτή, i. e. of women’s voices, ζ 122; ἐέρση, with the thought of ‘nourishing,’ ε 467; comp., θηλύτερος, *weaker* (of the two sexes), *weak*, Θ 520, θ 324.
+**θῆλυς**, θήλεια, θῆλυ (also w. two endings): *female;* ἀϋτή, i. e. of women’s voices, ζ 122; ἐέρση, with the thought of ‘nourishing,’ ε 467; comp., θηλύτερος, *weaker* (of the two sexes), *weak*, Θ 520, θ 324.
 **θημών**, ωνος: *heap*, ε 368†.
 **θήν**: *doubtless, surely now*, enclitic particle, much like δή or δήπου in prose; combined, ἦ θην, οὔ θην (δή), οὐ μέν θην, ἐπεί θην, καὶ γάρ θην, γ 352, π 91, Φ 568.
 **θηοῖο**: see θηέομαι.

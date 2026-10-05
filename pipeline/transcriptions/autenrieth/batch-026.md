@@ -202,7 +202,7 @@ right 16: "ἔπτα" is printed so (ἔπεα is meant, cf. Δ 6 κερτομί
 **κευθμός**: *lair*, pl., Ν 28†.
 **κευθμών**, ῶνος: *hiding-place, cranny*, ν 367; of the sties of swine, κ 283.
 **κεῦθος**, εος, = κευθμός, κευθμών, only pl., ὑπὸ κεύθεσι γαίης, ‘in the depths of the earth beneath,’ of Hades, Χ 482, ω 204.
-**κεύθω**, fut. -σω, aor. 2 κύθε, subj. redupl. κεκύθω, perf. κέκευθα: *hold concealed, hide, cover;* esp. of death, κύθε γαῖα, γ 16; pass., Ἀιδὶ κεύθωμαι, Ψ 244; met., νόῳ, ἐνὶ φρεσίν, etc.; with two accusatives, γ 187, ψ 273.
+**κεύθω**, fut. -σω, aor. 2 κύθε, subj. redupl. κεκύθω, perf. κέκευθα: *hold concealed, hide, cover;* esp. of death, κύθε γαῖα, γ 16; pass., Ἀϊδὶ κεύθωμαι, Ψ 244; met., νόῳ, ἐνὶ φρεσίν, etc.; with two accusatives, γ 187, ψ 273.
 **κεφαλή**, κεφαλῆφι: *head;* typical of life, Δ 162, β 237, Ρ 242; several expressions have no equivalent in Eng., φίλη, ἠθείη κεφαλή (carum caput), terms of endearment; as the source of voice, Λ 462, Π 76.
 **Κεφαλλῆνες**: the *Cephallenians*, collective designation of the subjects of Odysseus on islands and mainland, Β 631, ξ 100, υ 187, ω 355, 378, 429.
 **κέχανδα**: see χανδάνω.

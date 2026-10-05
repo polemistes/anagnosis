@@ -153,7 +153,7 @@ left: the woodcut No. 109 (Agamemnon with his sceptre) at the head of the column
 **σπεῖρον** (cf. σπάρτον, σπείρω): any wrap, *garment, shroud, sail*, ε 318, ζ 269.
 **σπεῖσαι**, **σπείσατε**: see σπένδω.
 **Σπειώ**: a Nereid, Σ 40†.
-**σπένδω**, subj. 2 sing. σπένδῃσθα, ipf. iter. σπένδεσκον, aor. ἔσπεισα, σπεῖσαν, iter. σπείσασκε, imp. σπεῖσον: *pour* a drink-offering, οἶνον, ὕδατι, ‘with water,’ *make a libation*, Διί, θεοῖς. Unmixed wine was poured upon the ground or on the altar (μ 363) before drinking. δέπαι, ‘with (from) the goblet,’ Ψ 196, η 137.
+**σπένδω**, subj. 2 sing. σπένδῃσθα, ipf. iter. σπένδεσκον, aor. ἔσπεισα, σπεῖσαν, iter. σπείσασκε, imp. σπεῖσον: *pour* a drink-offering, οἶνον, ὕδατι, ‘with water,’ *make a libation*, Διί, θεοῖς. Unmixed wine was poured upon the ground or on the altar (μ 363) before drinking. δέπαϊ, ‘with (from) the goblet,’ Ψ 196, η 137.
 **σπέος**, **σπεῖος**, gen. σπείους, dat. σπῆι, pl. dat. σπέσσι and σπήεσσι: *cave, cavern, grotto;* pl., of one with many parts, π 232.
 **σπέρμα**, ατος (σπείρω): *seed, germ;* fig., πυρός, ε 490†.
 --- right

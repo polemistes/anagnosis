@@ -194,7 +194,7 @@ head, right 2, 6, 7, 10, 16: δᾱνός, γελάσᾱσα, ἐδάκρῡσα,
 --- right
 **δα-φοινός** and **δα-φοινεός**: (*blood*) *red*, Σ 538; of serpent, jackal, lion, Β 308, Κ 23, Λ 474.
 **δέ**: *but, and;* strictly neither adversative nor copulative, but used to *offset* statements or parts of statements; such offsetting or coördination (‘parataxis’) by means of δέ, when it appears in place of the to us more familiar subordination of ideas (‘hypotaxis’), gives rise to the translation ‘while,’ ‘though,’ ‘for,’ etc. Hence δέ appears even in the apodosis of conditional or temporal sentences, οἳ δʼ ἐπεὶ οὖν ἤγερθεν . . τοῖσι δʼ ἀνιστάμενος μετέφη, when they were all assembled, ‘then’ arose Achilles, Α 57, 137. The other extreme, of an apparently adversative force, is best seen in negative sentences where δέ is (rarely) used for ἀλλά, ι 145. With other particles, καὶ (‘also’) δέ, (δέ) τε, ἄρα, αὖ, δή. δέ is placed as second (or third) word in its clause, but a vocative is not counted, γ 247.
-**-δε**: inseparable enclitic suffix, appended to accusatives, denoting direction *towards;* e. g. οἰκόνδε, doubled in ὅνδε δόμονδε, with ellipsis of δόμον in Ἄιδόσδε.
+**-δε**: inseparable enclitic suffix, appended to accusatives, denoting direction *towards;* e. g. οἰκόνδε, doubled in ὅνδε δόμονδε, with ellipsis of δόμον in Ἄϊδόσδε.
 **δέατ(ο)**: defective ipf., *appeared, seemed*, ζ 242†. Cf. δοάσσατο.
 **δέγμενος**: see δέχομαι.
 **δέδαα**, **δεδάηκα**: see ΔΑ.

@@ -8,7 +8,7 @@
 **πυλ-άρτης**, αο: *gate-closer, door-keeper* of the nether world, w. κρατερός, epith. of Hades, Θ 367, λ 277.
 **Πυλάρτης**: the name of two Trojans, one overcome by Ajax, Λ 491; the other by Patroclus, Π 696.
 **πυλα-ωρός** (root Ϝορ, ὁράω): *gate-keeper*, pl. (Il.)
-**πύλη**: *gate, gates*, always pl., with reference to the two wings. Poetically Ἀίδαο (periphrasis for death), οὐρανοῦ, Ὀλύμπου, Ἠελίοιο, ὀνείρειαι, ὀνείρων, δ 809, τ 562, Ε 646, ξ 156.
+**πύλη**: *gate, gates*, always pl., with reference to the two wings. Poetically Ἀΐδαο (periphrasis for death), οὐρανοῦ, Ὀλύμπου, Ἠελίοιο, ὀνείρειαι, ὀνείρων, δ 809, τ 562, Ε 646, ξ 156.
 **Πυληγενής**: see Πυλοιγενής.
 **Πυλήνη**: a town in Aetolia, Β 639†.
 **Πύλιος**: *of Pylus;* Πύλιοι, the *Pylians*, Η 134, Λ 753, Ψ 633, ο 216.

@@ -41,7 +41,7 @@
 **Δόλοψ**, οπος: (1) pl., the *Dolopians*, Ι 484.—(2) *a.* A Trojan, the son of Lampus, Ο 525. *b.* A Greek, the son of Clytius, Λ 302.
 **Δόλων** (δόλος): *Dolon*, the spy, son of Eumēdes, Κ 314 ff., hence the name of the book, Δολώνεια. (See cut, No. 23).
 **δόμονδε**: adv., *into the house*, χ 479; *homeward, home*, Ω 717; ὅνδε δόμονδε, *to his house, to his home.*
-**δόμος** (δέμω): *house, home*, denoting a dwelling as a whole; usually sing. of temples, and when applied to the abodes of animals, but often pl. of dwellings of men; (Ἀθηναίης) ἱεροῖο δόμοιο, Ζ 89, Η 81; Ἄιδος δόμος, also Ἀίδαο δόμοι, (μήλων) πυκινὸν δόμον, Μ 301; οὐδʼ ἀπολείπουσιν κοῖλον δόμον (σφῆκες), Μ 169.
+**δόμος** (δέμω): *house, home*, denoting a dwelling as a whole; usually sing. of temples, and when applied to the abodes of animals, but often pl. of dwellings of men; (Ἀθηναίης) ἱεροῖο δόμοιο, Ζ 89, Η 81; Ἄϊδος δόμος, also Ἀΐδαο δόμοι, (μήλων) πυκινὸν δόμον, Μ 301; οὐδʼ ἀπολείπουσιν κοῖλον δόμον (σφῆκες), Μ 169.
 **δονακεύς** (δόναξ): *thicket of reeds*, Σ 576†.
 **δόναξ**, ακος: *reed; shaft* of an arrow, Λ 584.
 --- notes
@@ -81,7 +81,7 @@ right 17: the breathing and accent of Ἄιδος are blurred in the scan; read 
 **δουρι-κτητός** (κτάομαι): *acquired by the spear, captured in battle*, Ι 343†.
 **δοῦρα**, **δούρατος**: see δόρυ.
 **δουρο-δόκη** (δέχομαι): *spear-receiver, case* or *stand for spears*, perhaps a ring on a column in the vestibule, α 128†.
-**δόχμιος** and **δοχμός**: *oblique, sideways;* δόχμια as adv., Ψ 116; δοχμὼ ἀίσσοντε, Μ 148.
+**δόχμιος** and **δοχμός**: *oblique, sideways;* δόχμια as adv., Ψ 116; δοχμὼ ἀΐσσοντε, Μ 148.
 **δράγμα** (δράσσομαι): *handful* of grain cut by the sickle, Λ 69 and Σ 552.
 **δραγμεύω** (δράγμα): *gather handfuls* of grain, as they fall from the sickle, Σ 555†.
 **δραίνω** (δράω): *wish to act* or *do* anything, Κ 96†.
@@ -126,7 +126,7 @@ right 20: the headword "δρηστῆρ" is printed so, with a circumflex; the w
 **δύναμις**: *power, strength.*
 **δύνω** and **δύω**, fut. δύσω, ipf. δῦνε, iter. δύσκε, aor. 1 ἔδυσα, aor. 2 ἔδυν, δῦ,
 --- right
-+ subj. δύω, opt. δύη, inf. δῦναι, δύμεναι, part. δύντα, perf. δέδυκε, mid. δύομαι, fut. δύσομαι, aor. ἐδύσατο, δύσετο, opt. δυσαίατο: *go into* or *among, enter*, and (apparently trans.) *put on, don*, χιτῶνα, τεύχεα, θώρηκα, and with prepositions; with reference to place the verb is either abs. (ἠέλιος δʼ ἄρʼ ἔδυ, δύσετο δʼ ἠέλιος, *set*), or foll. by acc. of limit of motion, or by prepositions (εἰς, εἴσω, ἐν); freq. πόλεμον, μάχην, ὅμιλον, so χθόνα δύμεναι, δῦτε θαλάσσης εὐρέα κόλπον, Σ 140; δόμον Ἄιδος εἴσω, Γ 322; and of persons, δύσεο δὲ μνηστῆρας, ρ 276, etc.; met., of feelings, κάματος γυῖα δέδυκεν, Ε 811; Μελέαγρον ἔδυ χόλος, Ι 553; ἐν (adv.) δέ οἱ ἦτορ δῦνʼ ἄχος, Τ 367; fut. act. and aor. 1 act. are trans., ἀπὸ (adv.) μὲν φίλα εἵματα δύσω (σέ), Β 261; ἐκ μέν με εἵματʼ ἔδυσαν, ‘stripped’ me of, ξ 341.
++ subj. δύω, opt. δύη, inf. δῦναι, δύμεναι, part. δύντα, perf. δέδυκε, mid. δύομαι, fut. δύσομαι, aor. ἐδύσατο, δύσετο, opt. δυσαίατο: *go into* or *among, enter*, and (apparently trans.) *put on, don*, χιτῶνα, τεύχεα, θώρηκα, and with prepositions; with reference to place the verb is either abs. (ἠέλιος δʼ ἄρʼ ἔδυ, δύσετο δʼ ἠέλιος, *set*), or foll. by acc. of limit of motion, or by prepositions (εἰς, εἴσω, ἐν); freq. πόλεμον, μάχην, ὅμιλον, so χθόνα δύμεναι, δῦτε θαλάσσης εὐρέα κόλπον, Σ 140; δόμον Ἄϊδος εἴσω, Γ 322; and of persons, δύσεο δὲ μνηστῆρας, ρ 276, etc.; met., of feelings, κάματος γυῖα δέδυκεν, Ε 811; Μελέαγρον ἔδυ χόλος, Ι 553; ἐν (adv.) δέ οἱ ἦτορ δῦνʼ ἄχος, Τ 367; fut. act. and aor. 1 act. are trans., ἀπὸ (adv.) μὲν φίλα εἵματα δύσω (σέ), Β 261; ἐκ μέν με εἵματʼ ἔδυσαν, ‘stripped’ me of, ξ 341.
 **δύο**, **δύω**, indeclinable in Homer: *two;* proverb, σύν τε δύʼ ἐρχομένω· καί τε πρὸ ὃ τοῦ ἐνόησεν, ‘two together going, hasteneth the knowing’ (lit. one notes before the other), Κ 224.
 **δυοκαίδεκα**: *twelve.*
 **δυόωσι**: see δυάω.

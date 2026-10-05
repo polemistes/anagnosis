@@ -215,7 +215,7 @@ right 7: ‘rure’ and right 17 ‘cominus’ are printed in spaced roman type,
 **ἀ-δαήμων**: *unacquainted with*, τινός.
 **ἀ-δάκρυτος**: *tearless.*
 **Ἄδαμας**: a Trojan, son of Asius, Ν 759, 771.
-**ἀ-δάμαστος** (δαμάζω): *not to be prevailed over*, i. e. ‘inexorable,’ Ἀίδης, Ι 158†.
+**ἀ-δάμαστος** (δαμάζω): *not to be prevailed over*, i. e. ‘inexorable,’ Ἀΐδης, Ι 158†.
 **ἀδδεές**: see ἀδειής.
 **ἀδδηκώς**, **ἀδδήσειε**: see ἀδέω.
 **ἄδδην**: see ἄδην.

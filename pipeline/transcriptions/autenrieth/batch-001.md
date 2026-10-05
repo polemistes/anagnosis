@@ -69,7 +69,7 @@ left and right letter counts: the OCR draft ran the starts of the right column's
 **Αἰαῖος**, only fem. Αἰαίη: *Aeaean.*—(1) νῆσος, the home of Circe (see μ 3 f., 9), a fabulous isle, located by the Romans at Circeii, near Terracina.—(2) the goddess Circe herself, sister of Aeētes (see κ 137).
 **Αἰακίδης**: *descendant of Aeacus;* (1) his son, Peleus, Π 15.—(2) his grandson, Achilles, Β 860.
 **Αἰακός**: son of Zeus and Aegina, grandfather of Achilles, Φ 189.
-**Αἴας**: *Ajax.*—(1) Τελαμώνιος, Τελαμωνιάδης, μέγας, ‘the greater,’ son of Telamon from Salamis, half-brother of Teucer; second only to Achilles in prowess, λ 550 f.—(2) Ὀιλιάδης, Ὀιλῆος ταχὺς Αἴας, μείων, ‘the lesser,’ Oileus’ son, leader of Locrians, his death, δ 499.—The two heroes are often coupled in dual or pl., e. g. Αἴαντε δύω, θεράποντες Ἀρῆος, ‘the Ajaxes.’
+**Αἴας**: *Ajax.*—(1) Τελαμώνιος, Τελαμωνιάδης, μέγας, ‘the greater,’ son of Telamon from Salamis, half-brother of Teucer; second only to Achilles in prowess, λ 550 f.—(2) Ὀϊλιάδης, Ὀϊλῆος ταχὺς Αἴας, μείων, ‘the lesser,’ Oileus’ son, leader of Locrians, his death, δ 499.—The two heroes are often coupled in dual or pl., e. g. Αἴαντε δύω, θεράποντες Ἀρῆος, ‘the Ajaxes.’
 --- right
 **Αἰγαί** (cf. αἰγιαλός): a town in Achaea, seat of worship of Poseidon, Θ 203.
 **Αἰγαίων** (cf. αἰγίς): epithet of Briareus, Α 404†.
@@ -109,10 +109,10 @@ right 4: Αἰγεΐδης: only the acute shows on the ι; diaeresis supplied a
 **αἰδεῖο**: see αἰδέομαι.
 **αἰδέομαι**, **αἴδομαι** (αἰδώς), pr. imp. αἰδεῖο, ipf. αἴδετο, fut. αἰδέσ(σ)ομαι, aor. mid. ᾐδεσάμην and αἰδεσσάμην, pass. ᾐδέσθην, αἰδέσθην, 3 pl. αἴδεσθεν: *feel shame, regard*, or *mercy* (from moral or humane scruples, toward oneself or others, even toward inferiors); τινὰ, *respect, have regard for, stand abashed before*, Α 23, γ 96; w. inf., *scruple, be ashamed*, from modesty, or from motives of propriety, good-taste, etc., ξ 146, σ 184; αἰδομένων, ‘self-respecting’ (opp. φευγόντων), Ε 531.
 **ἀίδηλος**: *destructive, destroying;* ‘pestilent,’ Ε 880, χ 165.—adv. ἀιδήλως, Φ 220.
-**Ἀίδης**, **Ἀιδωνεύς** (root Ϝιδ, god of the *unseen* world), gen. Ἀίδαο, Ἀίδεω, Ἄιδος, dat. Ἄιδι, Ἀίδῃ, Ἀιδωνῆι, acc. Ἀίδην: *Hades;* ἐνέροισιν ἀνάσσων, Ζεὺς καταχθόνιος, κρατερὸς πυλάρτης, πελώριος, κλυτόπωλος, ἴφθιμος, στυγερός. Freq. Ἄιδος δόμον εἴσω, ἐν δόμοις, etc.; often only Ἄιδόσδε, εἰς or ἐν Ἄιδος (sc. δόμον, δόμῳ).
+**Ἀΐδης**, **Ἀϊδωνεύς** (root Ϝιδ, god of the *unseen* world), gen. Ἀΐδαο, Ἀΐδεω, Ἄϊδος, dat. Ἄϊδι, Ἀΐδῃ, Ἀϊδωνῆι, acc. Ἀΐδην: *Hades;* ἐνέροισιν ἀνάσσων, Ζεὺς καταχθόνιος, κρατερὸς πυλάρτης, πελώριος, κλυτόπωλος, ἴφθιμος, στυγερός. Freq. Ἄϊδος δόμον εἴσω, ἐν δόμοις, etc.; often only Ἄϊδόσδε, εἰς or ἐν Ἄϊδος (sc. δόμον, δόμῳ).
 **αἰδοῖος** (αἰδώς): (1) *modest, bashful*, ρ 578.—(2) *honored, respected*, of those who by their relationship, position, or circumstances have a claim to deference or merciful treatment, as the gods, kings, suppliants, mendicants, and the ‘housekeeper’ (ταμίη).—As subst. neut. pl. αἰδοῖα, ‘the parts of shame,’ ‘privy parts,’ Ν 568†.—Adv., αἰδοίως ἀπέπεμπον, ‘with due honor,’ ‘fitting escort,’ τ 243.
 **αἴδομαι**: see αἰδέομαι.
-**Ἄιδος**, **Ἄιδόσδε**: see Ἀίδης.
+**Ἄϊδος**, **Ἄϊδόσδε**: see Ἀΐδης.
 **ἀιδρείη**: *ignorance;* ἀιδρείῃσι νόοιο, i. e. ‘unwittingly,’ λ 262.
 **ἄ-ιδρις** (Ϝίδρις): *ignorant, unacquainted with* (τινός), *witless*, Γ 219.
 **αἰδώς**, οῦς: *shame* (restraint),
@@ -157,7 +157,7 @@ right 17: vol-/ume divided across the page; the whole word is written at the sta
 **αἴθων**: *shining, tawny;* of metal (Δ 485), and of horses, cattle, eagle, and lion.
 **Αἴθων**: (1) a name assumed by Odysseus, τ 183.—(2) name of a horse, Θ 185; see Αἴθη.
 **αἴκʼ**: see αἴ (κε).
-**ἀική** (ἀίσσω): *darting;* τόξων ἀικάς, ‘whizzing bow-shots,’ Ο 709†.
+**ἀική** (ἀΐσσω): *darting;* τόξων ἀικάς, ‘whizzing bow-shots,’ Ο 709†.
 **ἀικῶς** (= ἀεικῶς): *ignominiously*, Χ 336†.
 **αἷμα**: *blood, bloodshed, carnage;* of relationship, race (γενεὴ καὶ αἷμα), Ζ 211, Τ 105.
 **αἱμασιή**: *thorn-bush;* αἱμασιὰς λέγειν, ‘gather hedge-brush,’ σ 359 and ω 224.
@@ -184,7 +184,7 @@ right 17: vol-/ume divided across the page; the whole word is written at the sta
 **αἴνυμαι**, only pres., and ipf. αἴνυτο: *take;* met. πόθος αἴνυται, ‘I am seized with’ longing, ξ 144.
 **αἰνῶς**: see αἰνός.
 **αἴξ**, αἰγός, dat. pl. αἴγεσιν: *goat.*
-**ἀΐξασκον**: see ἀίσσω.
+**ἀΐξασκον**: see ἀΐσσω.
 **Αἰολίδης**: *son of Aeolus*, see Κρηθεύς, Σίσυφος.
 **Αἰολίη**, νῆσος: the *Aeolian* isle, residence of Aeolus, lord of winds, κ 1 ff.
 **αἰόλλω** (αἰόλος): *turn quickly;* ἔνθα καὶ ἔνθα, υ 27†.
@@ -215,14 +215,14 @@ left 23 / right 1: the reference Β 820 is divided across the columns.
 **αἱρέω**, fut. -ήσω, aor. εἷλον, ἕλον (Ϝέλον), iter. ἕλεσκον, mid. αἱρεύμενοι, αἱρήσομαι, εἱλόμην, ἑλόμην: I. act., *take*, ‘grasp,’ ‘seize’ (freq. w. part. gen.), ‘*capture*,’ ‘overtake’ in running; of receiving prizes (Ψ 779), embracing (λ 205), putting on (‘donning’) garments (ρ 58), ‘taking up’ a story at some point (θ 500); γαῖαν ὀδὰξ ἑλεῖν, ‘bite the dust;’ freq. of hitting in combat, and esp. euphemistic, ἕλεν, he ‘slew’; met. of feelings, χόλος αἱρεῖ με, ἵμερος, δέος, etc., so ὕπνος.—II. mid., *take* as one’s own, to or for oneself, *choose;* of taking food, robbing or stripping another, taking an oath from one (τινός, δ 746, τινί, Χ 119); also met., ἄλκιμον ἦτορ, φιλότητα ἑλέσθαι, Π 282.
 **Ἄ-ιρος** (Ϝῖρος): Ἶρος Ἄιρος, ‘Irus un-Irused,’ σ 73†, cf. 6 f.
 **αἴρω**: see ἀείρω.
-**Ἄις**: see Ἀίδης.
+**Ἄις**: see Ἀΐδης.
 **αἶσα**: allotted *share*, or *portion, lot, term of life, destiny;* prov. ἐν καρὸς αἴσῃ (cf. Att. ἐν οὐδενὸς μέρει); κατʼ αἶσαν, ‘as much as was my due,’ οὐδʼ ὑπὲρ αἶσαν, Ζ 333; ὑπὲρ Διὸς αἶσαν, Ρ 321; ὁμῇ πεπρωμένος αἴσῃ, Ο 209.
 **Αἴσηπος**: (1) son of Abarbarea and Bucolion, Ζ 21†.—(2) name of a river emptying into the Propontis, near Cyzicus.
 **ἀίσθω** (ἀϜίω, 2), only pres. and ipf. ἄισθε: *breathe out;* θυμόν, of giving up the ghost, Π 468 and Υ 403.
 --- right
 **αἴσιμος** (αἶσα): *destined, due, suitable, right;* αἴσιμον ἦεν, αἴσιμον ἦμαρ, day ‘of destiny,’ αἴσιμα εἰδέναι, ‘righteous thoughts;’ pers., φρένας αἰσίμη ἦσθα, ψ 14.
 **αἴσιος** (αἶσα): *auspicious, opportune*, Ω 376†.
-**ἀίσσω** (ᾱ except ὑπαίξει, Φ 126), aor. ἤιξα (ἀίξω, ἀίξαι, ἀίξας), ἀίξασκον, mid. aor. ἀίξασθαι, pass. ἠίχθην, ἀιχθήτην: *speed, dart, spring;* of persons, animals, birds flying, and of inanimate things (arrows, a beam of light, ‘fluttering’ mane of horses); of the shades of the dead ‘flitting’ to and fro; freq. the part. w. another verb of motion, βῆ ἀίξασα, ἀίξαντε πετέσθην, Ο 150, and conversely, ἤιξε πέτεσθαι, ‘darted away’ in flight, Φ 247; often of hostile movements, ἀντίος ἀίξας, φασγάνῳ, ‘with his sword,’ etc.; met., of the mind, νόος ἀνέρος, Ο 80 (cf. πτέρον ἠὲ νόημα, η 36).
+**ἀΐσσω** (ᾱ except ὑπαΐξει, Φ 126), aor. ἤιξα (ἀΐξω, ἀΐξαι, ἀΐξας), ἀΐξασκον, mid. aor. ἀΐξασθαι, pass. ἠίχθην, ἀιχθήτην: *speed, dart, spring;* of persons, animals, birds flying, and of inanimate things (arrows, a beam of light, ‘fluttering’ mane of horses); of the shades of the dead ‘flitting’ to and fro; freq. the part. w. another verb of motion, βῆ ἀΐξασα, ἀΐξαντε πετέσθην, Ο 150, and conversely, ἤιξε πέτεσθαι, ‘darted away’ in flight, Φ 247; often of hostile movements, ἀντίος ἀΐξας, φασγάνῳ, ‘with his sword,’ etc.; met., of the mind, νόος ἀνέρος, Ο 80 (cf. πτέρον ἠὲ νόημα, η 36).
 **ἄ-ιστος** (Ϝιδεῖν): *unseen;* οἴχετʼ ἄιστος, ἄπυστος, α 242; καί κέ μʼ ἄιστον ἔμβαλε πόντῳ, ‘to be seen no more.’
 **ἀιστόω** (ἄϜιστος): *put out of sight, annihilate;* ἀιστώθησαν, *vanished*, κ 259.
 **αἰσυητήρ**: see αἰσυμνητήρ.

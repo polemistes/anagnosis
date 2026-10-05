@@ -133,7 +133,7 @@ right 12–23: the quantity marks over υ (κυάνεος, κυανό-πεζα, 
 **κύμινδις**: *night-hawk*, called in the older language χαλκίς, Ξ 291.
 **Κυμο-δόκη** and **Κυμοθόη**: Nereids, Σ 39, 41†.
 **κυνά-μυια**: *dog-fly*, an abusive epithet applied by Ares to Athēna, Φ 394.
-**κυνέη**: properly ‘dog-skin,’ a soldier’s *cap*, generally of leather, ταυρείη, Κ 257; κτιδέη, Κ 335; also mounted with metal, χαλκήρης, χαλκοπάρῃος, and πάγχαλκος, *helmet*, σ 378; the κυνέη αἰγείη was a goat-skin cap for country wear (like that of the oarsmen in cut No. 38), ω 231; Ἄιδος, the cap of Hades, rendered the wearer invisible, Ε 845.
+**κυνέη**: properly ‘dog-skin,’ a soldier’s *cap*, generally of leather, ταυρείη, Κ 257; κτιδέη, Κ 335; also mounted with metal, χαλκήρης, χαλκοπάρῃος, and πάγχαλκος, *helmet*, σ 378; the κυνέη αἰγείη was a goat-skin cap for country wear (like that of the oarsmen in cut No. 38), ω 231; Ἄϊδος, the cap of Hades, rendered the wearer invisible, Ε 845.
 --- notes
 left 7: the accent on the first e of mêlée is not distinct; written mêlée.
 left 8: ι 673 printed; the passage (μέγα κῦδος Ἀχαιῶν, said to Odysseus) is Ι 673.
@@ -171,7 +171,7 @@ right 16: χαλκοπάρῃος: the iota subscript is not distinct; read as t
 **κυφός** (κύπτω): *bowed, bent*, β 16†.
 **Κύφος**: a town in Perrhaebia in Thessaly, Β 748†.
 **κύω**: see κυέω and κυνέω.
-**κύων**, κυνός, acc. κύνα, voc. κύον, pl. dat. κύνεσσι: *dog, bitch;* κύνες θηρευταί, τραπεζῆες, ‘hunting’ and ‘lap-dogs,’ Ἀίδαο, i. e. Cerberus, Θ 368, λ 623; ‘sea-dog,’ perhaps seal, μ 96; dog of Orīon, Sirius, Χ 29; as symbol of shamelessness, applied to women and others, Ν 623; λυσσητήρ, ‘raging hound,’ Θ 299.
+**κύων**, κυνός, acc. κύνα, voc. κύον, pl. dat. κύνεσσι: *dog, bitch;* κύνες θηρευταί, τραπεζῆες, ‘hunting’ and ‘lap-dogs,’ Ἀΐδαο, i. e. Cerberus, Θ 368, λ 623; ‘sea-dog,’ perhaps seal, μ 96; dog of Orīon, Sirius, Χ 29; as symbol of shamelessness, applied to women and others, Ν 623; λυσσητήρ, ‘raging hound,’ Θ 299.
 **κῶας**, pl. κώεα, dat. κώεσιν: *fleece*, serving for seat or bedding, π 47, Ι 661, γ 38.
 **κώδεια**: *poppy-head*, Ξ 499†.
 **κωκυτός** (κωκύω): *wailing.* As proper name **Κωκυτός**, *Cocȳtus*, river of the nether world, κ 514.

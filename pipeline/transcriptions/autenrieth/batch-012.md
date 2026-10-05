@@ -3,7 +3,7 @@
 δέος | δέω
 --- left
 **δέος**, gen. δείους (root δϜι): *fear, dread.*
-**δέπας** (cf. δάπτω), dat. δέπαϊ and δέπαι, pl. δέπα, gen. δεπάων, dat. δεπάεσσι and δέπασσι: *drinking cup, beaker;* a remarkable one described, Λ 632 ff. (See cut.)
+**δέπας** (cf. δάπτω), dat. δέπαϊ and δέπαϊ, pl. δέπα, gen. δεπάων, dat. δεπάεσσι and δέπασσι: *drinking cup, beaker;* a remarkable one described, Λ 632 ff. (See cut.)
 **δέρκομαι**, ipf. iter. δερκέσκετο, aor. 2 ἔδρακον, perf. w. pres. signif. δέδορκα: *look, see*, strictly of the darting glance of the eye; πῦρ ὀφθαλμοῖσι δεδορκώς, τ 446; δεινὸν δερκομένη, ‘with dreadful glance,’ of the Gorgon, Λ 37; typically of life, ἐμεῦ ζῶντος καὶ ἐπὶ χθονὶ δερκομένοιο, while I live and ‘see the light of day,’ Α 88, π 439; with obj. accusative, Ν 86, Ξ 141.
 **δέρμα**, ατος (δέρω): *skin, hide, leather;* seldom of the living man, Π 341, ν 431.
 **δερμάτινος**: *leathern.*
