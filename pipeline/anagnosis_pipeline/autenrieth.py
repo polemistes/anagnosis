@@ -215,6 +215,8 @@ def entries_from(pages: dict[str, dict]) -> list[tuple[str, int, str]]:
                         # a word divided between two columns, written as two parts ("build-", "+ ing …")
                         if re.search(r"[^\W\d_]-$", target[2]) and re.match(r"[^\W\d_]", rest) and rest[:1].islower():
                             target[2] = target[2][:-1] + rest
+                        elif rest[:1] in ",;:.)":
+                            target[2] += rest
                         else:
                             target[2] += " " + rest
                     continue
@@ -271,8 +273,28 @@ def second_headwords(transcriptions: Path, entries: list) -> list[tuple[str, obj
 # ---------------------------------------------------------------- the texts' lemmas
 
 # a lemma in the singular whose word Autenrieth lists in the plural (peoples, mostly)
-PLURALS = [("ος", "οι"), ("ης", "αι"), ("η", "αι"), ("α", "αι"), ("ψ", "πες"), ("ξ", "κες"), ("ξ", "γες"),
-           ("ευς", "ηες"), ("ων", "ωνες"), ("ων", "ονες"), ("ις", "ιδες")]
+# (in the keys without diacritics, where ς is σ)
+PLURALS = [("οσ", "οι"), ("ησ", "αι"), ("η", "αι"), ("α", "αι"), ("ψ", "πεσ"), ("ξ", "κεσ"), ("ξ", "γεσ"),
+           ("ευσ", "ηεσ"), ("ων", "ωνεσ"), ("ων", "ονεσ"), ("ισ", "ιδεσ")]
+# Attic spellings of the lemmas against Homer's (Autenrieth's): θύρα θύρη, ξένος ξεῖνος, κρατήρ
+# κρητήρ, ὀπίσω ὀπίσσω, εἴκοσι ἐείκοσι
+SOUNDS = [("α", "η"), ("ε", "ει"), ("ο", "ου"), ("σ", "σσ"), ("λ", "λλ"), ("π", "ππ"), ("τ", "ττ"), ("ν", "νν")]
+
+
+def _variants(base: str) -> list[str]:
+    out = []
+    for a, b in SOUNDS:
+        i = base.find(a)
+        while i >= 0:
+            out.append(base[:i] + b + base[i + len(a):])
+            i = base.find(a, i + 1)
+    if base[:1] in "αεηιουω":
+        out.append("ε" + base)  # ἐείκοσι, ἐΐσος
+    return out
+
+
+# lemmas whose spelling without accents is a different word's in Autenrieth (ἐρῶ, 'I will say': ἔρῳ, 'love')
+NOT_THE_SAME = {"ἐρῶ"}
 
 
 def _loose(word: str) -> str:
@@ -293,6 +315,7 @@ def extra_keys(texts: Path, entries: list, taken: set[str] = frozenset()) -> lis
     for e in entries:
         by_loose.setdefault(_loose(e.headword), []).append(e)
     lemmas: set[str] = set()
+    capital: dict[str, bool] = {}  # a proper name, written with a capital in the texts
     aliases: dict[str, str] = {}
     for work in sorted(p for p in texts.iterdir() if (p / "grc.txt").exists()):
         head = (work / "grc.txt").read_text(encoding="utf-8")[:4000]
@@ -303,25 +326,42 @@ def extra_keys(texts: Path, entries: list, taken: set[str] = frozenset()) -> lis
         with (work / "tokens.tsv").open(encoding="utf-8", newline="") as f:
             for r in csv.DictReader(f, delimiter="\t", quoting=csv.QUOTE_NONE):
                 if r.get("lemma"):
-                    lemmas.add(greek.lemma_key(r["lemma"]))
+                    key = greek.lemma_key(r["lemma"])
+                    lemmas.add(key)
+                    capital[key] = capital.get(key, False) or r["lemma"].strip()[:1].isupper()
     lemma_loose = {_loose(k) for k in lemmas if k in keys}
     out = []
     for k in sorted(lemmas):
-        if k in keys or aliases.get(k) in keys:
+        if k in keys or aliases.get(k) in keys or k in NOT_THE_SAME:
             continue
+
+        def same_kind(found: list) -> list:
+            # a proper name only for a proper name, a common word only for a common word
+            return [e for e in found or [] if e.headword[:1].isupper() == capital.get(k, False)]
+
         base = _loose(k)
         tries = [(base, False), (base[:-1] if base.endswith("ν") else base + "ν", False)]
         if len(base) > 3:
             tries += [(base[: -len(a)] + b, True) for a, b in PLURALS if base.endswith(a)]
+        found_any = False
         for t, plural in tries:
-            found = by_loose.get(t)
+            found = same_kind(by_loose.get(t))
             if plural and found:
                 found = [e for e in found if e.headword[:1].isupper()]
             if not found or (t != base and t in lemma_loose):
                 continue
+            found_any = True
             if t == base and t in lemma_loose:
                 break  # the texts have the other spelling as a word of its own
             if len({greek.lemma_key(e.headword) for e in found}) == 1:
                 out += [(k, e) for e in found]
             break
+        if found_any or len(base) < 4:
+            continue
+        # the Homeric spelling: one sound changed, and only one headword that way
+        hits = {t: same_kind(by_loose[t]) for t in _variants(base) if t in by_loose and t not in lemma_loose}
+        hits = {t: es for t, es in hits.items() if es}
+        heads = {greek.lemma_key(e.headword) for es in hits.values() for e in es}
+        if len(heads) == 1:
+            out += [(k, e) for es in hits.values() for e in es]
     return out
