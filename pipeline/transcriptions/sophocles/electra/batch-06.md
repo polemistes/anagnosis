@@ -321,3 +321,27 @@ These six vv. are rejected by Paley.
 Note 689 (continued): Schneidewin's τοῖα τἀνδρὸς is printed in a heavier, bold-looking type, as Schäfer's τήνδε on p-0192; not marked as bold.
 Note 690: L's βραβῆσ is printed with medial σ at the end; kept.
 The lemmas are in the ordinary Greek type, not bold.
+
+=== p-0196
+--- numbers
+695 Ἀγαμέμνονος
+700 εἰσῆλθε
+--- differences
+--- apparatus
++ Ald. For conjectures, see comment. and Appendix.
+
+## 692
+τούτων] Michaelis and Tournier conj. ἄθλων (rejecting v. 691).
+
+## 693
+ἀνακαλούμενος] ἀγκαλούμενος Dindorf.
+
+## 694
+κλεινὸν] Schneidewin conj. κοινὸν.
+
+## 695
+ἀγείραντοσ perhaps made in L from ἐγείραντοσ.—ποτε] Nauck conj. γόνος: Blaydes, τόκος, etc.
+--- notes
+Note 694: Schneidewin's κοινὸν is printed with a grave before the full stop (enlarged); kept as printed.
+Note 695: L's ἀγείραντοσ and ἐγείραντοσ are printed with medial σ at the end; kept. The lemma ποτε has no accent, as printed.
+The lemmas are in the ordinary Greek type, not bold.

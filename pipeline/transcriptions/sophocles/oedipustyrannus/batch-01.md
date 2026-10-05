@@ -98,3 +98,13 @@ Note 29: καδμεῖον and καδμείων are printed with small initial �
 43: the print reads οἶσθά που· (π, looked at twice, enlarged); ours οἶσθά του·.
 The + line "v. 35." ends note 29 from p-0115 ("Cp. v. 35.").
 Note 31: the lemma οὐκ ἰσούμενον is followed by a full stop, not ], and is in the ordinary Greek type; the last word is printed χί with an acute on the iota (looked at enlarged).
+
+=== p-0117
+--- apparatus
+## 40
+νῦν δ’ Blaydes.
+
+## 43
+του L, with που written over it by a late hand. που r.
+--- notes
+Note 43: του and που (twice) are printed without accents (looked at enlarged).

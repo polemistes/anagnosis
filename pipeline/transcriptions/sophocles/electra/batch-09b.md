@@ -168,3 +168,39 @@ Note 1077: "p 211" is printed without a full stop after p (enlarged at 1200 dpi 
 Note 1079: μὴ and μὴν both have the grave (enlarged).
 Note 1081: Γ's τἆρ’ has the coronis and circumflex on α (enlarged).
 The lemmas are in the ordinary Greek type, not bold.
+
+=== p-0244
+--- numbers
+1085 ὡς
+1090 ζῴης
+1095 βεβῶσαν
+--- differences
+1081: ours «γὰρ» print «<γὰρ>»
+1083: ours «παῖ.» print «παῖ·»
+1086: ours «καθοπλίσασα,» print «καθοπλίσασα»
+1093: ours «ἐφηύρηκα» print «ἐφεύρηκα»
+1095: ours «βεβῶσαν,» print «βεβῶσαν·»
+--- apparatus
+## 1082-1089
+L divides the vv. thus:—οὐδεὶσ— | εὔκλειαν— | νώνυμος— | ὡς καὶ—αἰ | ῶνα— | τὸ μὴ καλὸν— | δύο— | σοφά τ’—κεκλῆσθαι.
+
+## 1082
+These two vv. are quoted by Stobaeus *Flor.* 37. 4.—After τῶν ἀγαθῶν a syllable is wanting in the MSS. (answering to the last syll. of καθύπερθεν in 1090): Hermann supplies γὰρ: Lange, τοι: Schneidewin, ἂν (changing θέλει to θέλοι: so, too, Bergk and Blaydes).
+
+## 1084
+νώνυμοσ made in L from νωνυμνοσ.
+
+## 1085
+πάγκλαυτον L: πάγκλαυστον A, with most MSS., and Ald.—αἰῶνα κοινὸν the MSS., without variant. In L αἰ | ῶνα is thus divided between two vv., and so in Ald. For conjectures see Appendix.
+--- notes
+1081: the print has γὰρ in angle brackets (Hermann's supplement, note 1082 f.); ours plain γὰρ.
+1083: the print has a raised point after the second παῖ (looked at twice, enlarged); ours a full stop.
+1086: the print has no comma after καθοπλίσασα (looked at twice, enlarged).
+1093: the print reads ἐφεύρηκα (looked at twice, enlarged); ours ἐφηύρηκα. A small dot stands after ἐσθλᾷ, set off by a wide space; taken for a speck rather than punctuation (the sentence runs on to βεβῶσαν·), not reported.
+1095: the print has a raised point after βεβῶσαν (looked at twice, enlarged); ours a comma. The verse βεβῶσαν … τῶνδε φερο-|μέναν fills the line and runs over (μέναν); the margin number 1095 is set against the run-over line, so it is listed with the verse's first word (Jebb's commentary on 1087 calls βεβῶσαν, ἃ δὲ μέγιστ’ ἔβλαστε "the antistrophic verse (1095)"). The run-over is typographical, not a division of the verse; not reported.
+Margins 1085 ὡς and 1090 ζῴης agree with ours. Jebb's numbering of the second strophe (commentary on 1082, 1083 f., 1087; notes 1082 f., 1084) is οὐδεὶς 1082, ζῶν 1083, νώνυμος 1084, ὡς 1085, τὸ μὴ καλὸν 1087, σοφά 1089, where ours has 1081, 1082, 1083, 1085, 1086, 1087; no margin number stands on these lines but 1085, so the checker cannot see it.
+The small numbers 2–6 before the verses of the strophe and antistrophe are not listed.
+Note 1082-1089: οὐδεὶσ is printed with the medial σ at the end, as L writes; kept. Line 2 of the block begins with the dash ("—αἰ"), joined to ὡς καὶ without a space as the other entries. αἰ has the smooth breathing and ῶνα the circumflex without breathing, here and in note 1085 (enlarged at 1200 dpi from the scan); the breathing on ὡς is too small to resolve with certainty, written rough as in the text line.
+Note 1084: νώνυμοσ and νωνυμνοσ are printed with the medial σ at the end, as L writes; kept. νωνυμνοσ has no accent.
+"MSS." is in small capitals.
+The lemmas are in the ordinary Greek type, not bold.

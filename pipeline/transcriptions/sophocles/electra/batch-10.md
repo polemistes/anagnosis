@@ -115,3 +115,24 @@ The block begins with the end of note 1128 running on from p-0249 (ὅνπερ |
 1133: the print reads τοῖνδε (ο, not α; looked at twice, enlarged); ours ταῖνδε.
 Note 1131: the print has "a v l." with no full stop after v (a gap where it should be; enlarged); kept as printed. L's ὤφελεσ is printed with the medial σ at the end, as L writes; kept.
 Note 1135 runs on to p-0251 after the lemma εἰληχὼς].
+
+=== p-0251
+--- apparatus
++ εἰληφὼς E.
+
+## 1136
+κἀπὶ made in L from κἀπὸ.
+
+## 1139
+λουτροῖς σ’] L, with most MSS. and Ald., omits σ’: which Pal. and L2 preserve.—L has traces of erasure in the υρ of πυρὸσ.
+
+## 1140
+βάρος] Nauck and Autenrieth conj. δέμας.
+
+## 1141
+ξέναισι] ξένηισι L.
+--- notes
+The lemmas are in the ordinary (italic) Greek type, not bold.
+The block begins with the end of note 1135 running on from p-0250 (εἰληχὼς] | εἰληφὼς E.).
+Note 1139: L's πυρὸσ is printed with the medial σ at the end, as L writes; kept.
+Note 1141: L's ξένηισι is printed with the iota adscript after η (enlarged); kept.

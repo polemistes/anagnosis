@@ -137,3 +137,28 @@ Note 783: L's ἀπήλλάγμαι (*sic*) is printed with two accents, on η a
 Note 786: ἕκηλα, in the lemma and in the reading of L2, has the rough breathing and acute (enlarged).
 Note 792: the lemma νέμεσι is printed with a small ν (the text has Νέμεσι); it runs on to p-0211.
 The lemmas are in the ordinary (italic) Greek type, not bold.
+
+=== p-0211
+--- apparatus
++ made in L from νέμεσσι.—νέμεσις r.
+
+## 794
+εὐτυχοῦσα L (not εὖ τυχοῦσα).
+
+## 795
+οὔκουν L: οὐκοῦν A, Γ, etc., and Ald. The MSS., and Ald., have a full stop after τάδε. Benedict and Monk, τάδε;—παύσετον] παύσατον Aug. b (with ε superscr.).
+
+## 796
+ὅπωσ σε παύσομεν made in L from ὅπωσ ἐπαύσομεν.—σὲ, instead of σε, Blaydes.
+
+## 797
+ἂν ἥκοισ L, with most MSS., and Ald.: ἂν ἥκεις r (ἂν εἴης a corrector of E). Monk (*Mus. Crit.* I. p. 203, ann. 1814) conj. ἂν ἧκες: Morstadt, ἆρ’ ἥκεις.—τυχεῖν A, with most MSS., and Ald. In L τυχεῖν has been made from φιλεῖν (perh. by the first corrector, though others ascribe it to a later hand): φιλεῖν L2 (=Lb): φίλος Γ.—W. Hoffmann conj. φέρειν (which Wecklein receives). Michaelis, φίλων: Nauck (formerly), φίλοις. O. Hense, ἡμίν, ὦ ξέν’, ἄξιος.
+
+## 798
+ἔπαυσας MSS.: παύσαις Wunder.—πολυγλώσσου] Bergk conj. παλιγλώσσου: Meineke,
+--- notes
+The first line completes note 792 from p-0210 (νέμεσι made in L from νέμεσσι.—νέμεσις r.).
+Notes 796, 797: L's ὅπωσ (twice) and ἥκοισ are printed with the medial σ at the end, as L writes; kept.
+Note 797: Hense's ἡμίν has the acute on ι, not the circumflex (looked at twice, enlarged; cp. ὑμὶν in the text of 804). Monk's ἧκες has the circumflex, the other forms of ἥκω the acute.
+Note 798: the lemma ἔπ-αυσας is divided at the line end in the print; joined.
+The lemmas are in the ordinary (italic) Greek type, not bold.

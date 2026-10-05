@@ -109,3 +109,18 @@ Note 337: Wecklein's conjecture has two spaced dots (ἅμα . . βουλοίμ�
 Note 338: the reading L was made from, η ’γὼ, is printed with a bare η (no breathing, accent or iota subscript).
 The lemmas are in the ordinary Greek type, not bold.
 
+=== p-0149
+--- apparatus
+## 341
+δεινόν γέ σ’ οὖσαν] Blomfield and Monk conj. δεινὸν σέ γ’ οὖσαν: Nauck, δεινὸν σὲ φῦσαν.
+
+## 345-351
+A. Schöll regards these seven verses as interpolated. Otto Jahn proposed to delete vv. 345, 346. Leutsch (*Philol.* XXXVIII. p. 159) thinks that something has been lost before v. 345, and also after v. 346.
+
+## 345
+ἔπειθ’] ἐπεί θ’, made from ἔπειθ’, L.—θάτερ’, ἢ] θάτερον r, as Musgrave conj.—Blaydes conj. ἐπεὶ ’ξελοῦ γε θάτερον: Nauck, δυοῖν ἑλοῦ δὲ θάτερον.
+--- notes
+The note "345—351" is printed with a dash between the numbers (heading 345-351); the note on 345 follows it.
+Note 345: L's ἐπεί θ’ has the acute, Blaydes' ἐπεὶ ’ξελοῦ the grave (enlarged). In Nauck's ἑλοῦ the tail of the breathing turns to the right, unlike the smooth breathing on ἐπεὶ in the same line: rough (enlarged).
+"XXXVIII." after *Philol.* is in small capitals.
+The lemmas are in the ordinary Greek type, not bold.

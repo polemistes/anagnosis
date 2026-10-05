@@ -162,3 +162,38 @@ The lemmas are in the ordinary (italic) Greek type, not bold.
 Note 999: in the quotation from Hermann, ἐστι is printed letter-spaced (for emphasis); written without the spacing.
 Note 1008: the lemma χρῄζων has the iota subscript; χρήζ (L) and the first η of χρήζῃ (r) are printed without it (enlarged); kept as printed.
 
+=== p-0236
+--- numbers
+1015 πείθου
+1020 τοὔργον
+1025 ὡς
+--- differences
+1021: ours «φεῦ·» print «φεῦ.»
+--- apparatus
++ them.
+
+## 1013
+αὐτῆ L.
+
+## 1014
+εἰκαθεῖν Elmsley: εἰκάθειν MSS.
+
+## 1015
+πείθου L, A, and Ald.; also Suidas *s. v.* πρόνοια (where he quotes 1015 f.): πιθοῦ r.—ἀνθρώποις ἔφυ MSS., and Stobaeus *Flor.* 3. 2: ἔφυ βροτοῖς Suidas *l.c.*, where Herm. conj. ἐξέφυ.
+
+## 1017
+καλῶς δ’. L transfers δ’ to the beginning of v. 1018.
+
+## 1018
+ᾔδη Heath and Brunck (ἤδη two MSS. of Thomas Magister, p. 143 R). ἠίδειν L.—ἃ ’πηγγελλόμην L: ἃ ’πηγγειλάμην Thomas Magister *l. c.*
+
+## 1019
+αὐτόχειρί
+--- notes
+The lemmas are in the ordinary (italic) Greek type, not bold.
+1021: the print ends φεῦ with a full stop on the baseline (looked at twice, enlarged and measured); ours has ·.
+1021-1024a: the print sets φεῦ. (our 1021) on a line of its own, outside the count, so that Jebb's 1021 is εἴθ’ ὤφελες (our 1022; his commentary on this page has "1021 f. εἴθ’ ὤφελες"), and his 1022-1024 are our 1023, 1024 and 1024a; the printed 1025 (ὡς) agrees with ours. The words and the division of the lines are the same, so nothing is reported as a difference.
+Note 1013: L's αὐτῆ is printed without an iota subscript (enlarged).
+Note 1018: the lemma ᾔδη has the iota subscript; ἤδη (two MSS. of Thomas Magister) has none; L's ἠίδειν has a smooth breathing on η and the acute on ι; ἃ has a rough breathing and grave both times (enlarged and measured). "R" after "p. 143" is in small capitals.
+Note 1015: "l.c." after Suidas is printed without a space, "l. c." after Thomas Magister (1018) with one; kept.
+

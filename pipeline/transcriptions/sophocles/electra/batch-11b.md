@@ -146,3 +146,34 @@ Note 1329: the verse division «κακοῖς | τοῖσιν» is printed so; k
 Note 1332: ὑμῖν (L) and ἡμῖν (r) are printed with the circumflex, unlike the text's ὑμὶν (enlarged).
 Note 1336: no dash before «σὺν χαρᾶι», as printed; L's χαρᾶι and συγχαρᾶι with the iota adscript. The note runs on to p-0275 after «Purgold».
 
+=== p-0275
+--- apparatus
++ conj. σὺν βοῇ χαρᾶς, which Nauck and Blaydes adopt.
+
+## 1337
+μέλλειν] μέλειν L, Γ.
+
+## 1339-1345
+These seven vv. are rejected by A. Schöll: Ahrens rejects 1340—1344.
+
+## 1340
+σε]. Döderlein conj. με.
+
+## 1341
+ὡς ἔοικεν] Fröhlich conj. ὡς ἔοικέ, μ’: Wecklein (*Ars* p. 139), ὡς ἔοικ’, ἔμ’.
+
+## 1343
+χαίρουσιν οὖν A, with most MSS., and Ald.: χαίρουσιν ἐν L, Γ, Pal.
+
+## 1344
+ὡς δὲ νῦν] Deventer conj. ὡς τὰ νῦν, omitting v. 1345, and deleting the colon after ἄν. Blaydes reads ὡς τὰ νῦν, but makes no other change.
+
+## 1345
+L has τἀκείνων, made from τὰ κείνων, as in *O. C.* 392: cp. above 573.
+--- notes
+The block begins with the end of note 1336 («Purgold | conj. σὺν βοῇ χαρᾶς»), running on from p-0274. The lemmas are in the ordinary (italic) Greek type, not bold.
+Note 1339-1345: the label «1339—1345» and «1340—1344» are printed with a long dash; the heading uses a hyphen, the text keeps the dash.
+Note 1340: a point is printed after «σε]», slightly raised (enlarged 2.2x); kept as a full stop, perhaps a stray mark.
+Note 1341: Fröhlich's ἔοικέ has the acute on both syllables, followed by a comma and μ’; Wecklein's ἔμ’ has the smooth breathing and acute (enlarged 2.2x).
+Note 1345: τἀκείνων is printed with the coronis (enlarged).
+

@@ -125,3 +125,23 @@ Note 941: in ὅ γ’ and ὅδ’ the breathing and accent sit so close on the
 Note 943: before L's ἂν the print has a free-standing mark shaped like a rough breathing (‘); written ῾ (U+1FFE). L's ἂν read with smooth breathing and grave (a plain peak), the lemma ἃν and r's ἃ σ’ with rough breathing and grave (a hooked peak), r's ἅ γ’ with rough breathing and acute (enlarged at high magnification; the small type is close).
 Note 945: final σ printed in the medial form (πόνουσ), as L writes; kept.
 
+=== p-0229
+--- apparatus
++ MSS.—ποεῖν L (with γρ. τελεῖν from a later hand in marg.), Γ: τελεῖν A, with some other MSS., and Ald.
+
+## 948
+παρουσίαν L, with A and most MSS., and Ald.: παρουσία r.—καὶ σύ που] καὶ ποῦ (made from καί που) σοι L.—Nauck would reduce 947, 948 to one verse: ἄκουε δή νυν. οἶσθα κ.τ.λ.
+
+## 950
+λελείμμεθον] L has the letters λελει in an erasure. λελείμμεθον was the general reading: but one at least of the later MSS. (in the Munich Library, cod. Monac. 313) has λελείμμεθα, which Elmsley supports.
+
+## 951
+βίῳ] F. W. Schmidt conj. βιοῦν (keeping θάλλοντά τ’).
+
+## 952
+θάλλοντ’ ἔτ’ Reiske and Musgrave: θάλλοντά τ’ L, with most MSS., and Ald.:
+--- notes
+The lemmas are in the ordinary (italic) Greek type, not bold.
+The block begins with the end of note 947 from p-0228 ("with most | MSS.").
+Note 948: the earlier form in L is printed καί που, with the acute on καί before the enclitic; Nauck's verse has δή with the acute and a full stop after νυν (enlarged).
+Note 952 runs on to p-0230 after "and Ald.:".

@@ -96,3 +96,60 @@ Note 1496: ἀμόν and ἀμον both have the smooth breathing (enlarged); �
 Note 1498 (printed "1498 f."): the note runs on to p-0297.
 The lemmas are in the ordinary Greek type, not bold.
 
+=== p-0297
+--- apparatus
++ by the 1st hand, and not (as Dindorf thinks) by another early hand. The scribe had originally written, by an oversight, two verses which did not belong here, and then erased them. κακά (or at least κά) at the end of 1498, and the οσ of ἄκροσ at the end of 1499, are just beyond the limits of the erasure.—τὰ γοῦν] τά γ’ οὖν L. Meineke conj. σὰ γοῦν.
+
+## 1502
+ἕρφ’] made in L from ἕρπε (as it is written in Γ, L2, and some others).
+
+## 1505-1507
+Quoted by Nicephorus Vasilákes, Προγυμνάσματα c. 6 (Walz, *Rhet. Gr.* vol. 1. p. 461), thus: ἐχρῆν δ’ εὐθὺς εἶναι τήνδε τοῖς πᾶσιν δίκην, | ὅστις πέρα τι τῶν νόμων πράσσειν θέλει, | κτείνειν· τὸ γὰρ κακοῦργον οὐκ ἂν ἦν πολύ.—Dindorf rejects these three verses.
+
+## 1505
+χρῆν L, with most MSS., and Ald.: χρὴ Γ: ἐχρῆν r.—τήνδε added in L above the line,
+--- notes
+Right-hand page (translation); the apparatus continues note 1498 f. from p-0296.
+Note 1498: L's ἄκροσ and the letters οσ are printed with the medial σ, as L writes; kept. "1st hand" is printed with the old-style numeral.
+Note 1502: ἕρφ’ and ἕρπε have the rough breathing (enlarged), as the commentary on this page says ("an aspirated word").
+Note 1505-1507: the volume number is printed with the old-style numeral (vol. 1.), like the line numbers; Vasilákes has the acute on a, as printed. The note on 1505 runs on to p-0298.
+The lemmas are in the ordinary Greek type, not bold.
+
+=== p-0298
+--- numbers
+1510 τῇ
+--- differences
+1506: ours «τι» print «γε»
+1507: ours «κτείνειν·» print «κτείνειν.»
+--- apparatus
++ by S.—
+
+## 1506
+πέρα] πέραι L.—πράσσειν γε MSS.: πράσσειν τι Wunder.—τῶν νόμων] τῶν ἄλλων Γ.—θέλει] In L the 1st hand wrote θέλοι, which has been altered to θέλει. Of the later MSS., some (as Γ) have θέλοι: others (as A), θέλει, and so Ald.
+
+## 1507
+πανοῦργον MSS. In the citation by Nicephorus (n. on 1505—7), κακοῦργον was doubtless a mere slip of memory: κακοῦργος, κακουργία, κακουργεῖν occur repeatedly in his discourse upon this text, showing how the word was in his thoughts. The
+--- notes
+1506: the print reads πράσσειν γε (looked at twice, enlarged); ours πράσσειν τι, which note 1506 gives as Wunder's conjecture.
+1507: the print ends κτείνειν with a full stop on the baseline (κτείνειν. τὸ γὰρ), looked at twice, enlarged; ours has a raised point.
+The Greek text on this page ends the play (1506-1510); the anapaests of the Chorus (1508-1510) stand after a space.
+The apparatus begins with "by S.—", the end of note 1505 from p-0297; the dash stands in the print before the bold 1506 and is kept.
+Note 1507: the note runs on to p-0299.
+The lemmas are in the ordinary Greek type, not bold.
+
+=== p-0299
+--- apparatus
++ same may probably be said of his πέρα τι τῶν νόμων πράσσειν in 1506.
+
+## 1508-1510
+These three vv. are condemned as spurious by Fr. Ritter: cp. *O.C.* 1777 n.
+
+## 1508
+ὡς] ὧς L2 (=Lb).—παθὸν made in L2 from παθῶν. παθὼν A.
+
+## 1510
+Quoted by Eustathius p. 881. 34 καὶ τὸ τελεοῦν, ὡς τῇ νῦν ὁρμῇ τελεωθέν. Musgrave conj. στερεωθέν (‘firmly established’), or στελεχωθέν (‘matured’).
+--- notes
+Right-hand page (translation of the last lines); the apparatus ends note 1507 from p-0298. This is the last page of the play's critical notes.
+Note 1508: the lemma ὡς and L²'s ὧς both read with the rough breathing (enlarged; under the circumflex the breathing is tiny); L² written L2.
+The lemmas are in the ordinary Greek type, not bold.

@@ -264,7 +264,7 @@ The lemmas are in the ordinary (italic) Greek type, not bold.
 Run-on of 890: "(ό made from ὸ ...)": the first ο has an acute, the second a grave (enlarged). λέγῃς (Ald.) has the iota subscript, λέγης (A, etc.) has none (enlarged).
 Note 898: the lemma is divided at the line end (ἐγ-|χρίμπτῃ]); written as one word. Between ἐγχρίπτοι and βροτός the print has a small comma, set with space on both sides (enlarged); kept as a comma.
 Note 900: "900 f." is headed 900; ἐσχάτης...πυρᾶς with three dots, ἐσχάτῃ..πυρᾷ with two, as printed.
-Notes 894: ὁρῶ and L's ὁρῶι read with a rough breathing (small type, enlarged).
+Note 894: ὁρῶ and L's ὁρῶι read with a rough breathing (small type, enlarged).
 
 === p-0224
 --- numbers

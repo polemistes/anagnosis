@@ -90,3 +90,24 @@ The lemmas are in the ordinary (italic) Greek type, not bold.
 Note 1179: L's and A's ἆρα has the circumflex; ἄρα after "from" and ἄρα r. have the acute (enlarged). The scholiast's ἆρα (note 1180) has the circumflex.
 Note 1180: ·ου· is printed between two raised points, as here.
 Note 1184: ΔΗ is printed in small capitals (L's letters); written with Greek capitals. μοί has the acute in all three places.
+
+=== p-0257
+--- apparatus
+## 1185
+ᾔδη Heath and Brunck: ᾔδειν MSS.—τῶν ἐμῶν] Purgold conj. τῶνδε σῶν.—οὐδὲν] ἐγὼ L, partly erased: another early hand had written οὐδὲν above, but this in turn has been erased. Tournier conj. ὡς οὐδὲν (for οὐκ ἄρ’) ᾔδη τῶν ἐμῶν ἐγὼ κακῶν.
+
+## 1187
+σὲ] σε MSS.
+
+## 1189
+τῶνδ’ ἔτ’ r: τῶνδέ τ’ most MSS. (τῶνδέτ’ L) and Ald.
+
+## 1191
+ἐξεσήμηνας] L has the α in an erasure (from ε).
+
+## 1193
+The 1st hand in L wrote γὰρ (without σ’): an early corrector has changed this to γάρ σ’.—ἀνάγκῃ r, and Ald.: ἀνάγκη L, with A, and most MSS.—προτρέπει] Reiske conj. προστρέπει:
+--- notes
+The lemmas are in the ordinary (italic) Greek type, not bold.
+Note 1185: ᾔδη (Heath and Brunck) and ᾔδειν (MSS.) have the iota subscript under the first η (enlarged 6x, high contrast; the final η of ᾔδη has none); Tournier's ᾔδη is printed the same way.
+Note 1193: ἀνάγκῃ (r, Ald.) has the iota subscript, ἀνάγκη (L, A) has none (enlarged 6x); γὰρ has the grave, γάρ σ’ the acute. The note runs on to p-0258.

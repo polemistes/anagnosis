@@ -128,3 +128,42 @@ Note 1251: Wecklein's ἐγὼ is printed with the grave before the colon (enlar
 Note 1255: L's δικαι αχρόνοσ is printed without accent on δικαι, without breathing on α, and with the medial σ at the end (enlarged 4x); the marginal γρ. τάδε δίκα has no iota subscript; both kept as printed.
 Note 1257: L's σώιζου has the iota written on the line (adscript), as printed.
 The lemmas are in the ordinary Greek type, not bold.
+
+=== p-0266
+--- numbers
+1260 τίς
+1265 ἔφρασας
+1270 δαιμόνιον
+1275 μή
+--- differences
+1264a: ours «<>» print «⏑ –́ ⏑ – ⏑ –́ ⏑ – ⏑ –́ ⏑ –»
+1266: ours «τᾶς πάρος ἔτι χάριτος, εἴ σε θεὸς ἐπόρισεν» print «τᾶς πάρος ἔτι χάριτος,»
+1266+: ours «» print «εἴ σε θεὸς ἐπόρισεν»
+1267: ours «ἁμέτερα πρὸς μέλαθρα· δαιμόνιον» print «ἁμέτερα πρὸς μέλαθρα·»
+1270: ours «αὐτὸ τίθημʼ ἐγώ.» print «δαιμόνιον αὐτὸ τίθημ’ ἐγώ.»
+1273: ours «φιλτάταν ὁδὸν» print «φιλτάταν»
+1274: ours «ἐπαξιώσας ὧδέ μοι φανῆναι,» print «ὁδὸν ἐπαξιώσας ὧδέ μοι φανῆναι,»
+--- apparatus
+## 1260
+τίς οὖν ἂν ἀξίαν] τίσ οὖν ἀξίαν L, with ἂν added above the line by an early hand. ἂν is omitted by Γ also, but is given by A, with other MSS., and Ald. For conjectures see Appendix on 1239.
+
+## 1263
+ἀέλπτως τ’] A omits τ’.
+
+## 1264
+\*εὖτε] ὅτε MSS.—ἐπώτρυναν Reiske and Brunck: ὤτρυναν MSS., and Ald.—Heath and Brunck first indicated the loss of a trimeter after this v.
+
+## 1267
+ἐπόρισεν Dindorf and Fröhlich: ἐπόρσεν L, made from ἐπῶρσεν, the reading of A, as of most MSS., and Ald.—Hermann
+--- notes
+1264a: the print marks the trimeter lost after 1264 by the metrical signs ⏑ –́ ⏑ – ⏑ –́ ⏑ – ⏑ –́ ⏑ – (twelve signs; the second, sixth and tenth, long, carry an ictus accent, written as an en dash with a combining acute; enlarged 3x), without a number; ours has <>.
+Line division 1266–1270 (as in the strophe, 1246–1250): the print sets τᾶς πάρος ἔτι χάριτος, (1266), εἴ σε θεὸς ἐπόρισεν (1267), ἁμέτερα πρὸς μέλαθρα· (1268) and δαιμόνιον αὐτὸ τίθημ’ ἐγώ. (numbered 1270) as four verses, where ours has three (1266 τᾶς … ἐπόρισεν, 1267 ἁμέτερα … δαιμόνιον, 1270 αὐτὸ …); the differences move the words so that the text follows the print, with εἴ σε θεὸς ἐπόρισεν as a verse of its own after 1266. The words agree. The checker's remark on 1270 (the printed line begins δαιμόνιον, ours αὐτὸ) comes from this.
+1273–1274: the print ends the first verse of the epode at φιλτάταν and begins the second with ὁδὸν (looked at twice); ours has ὁδὸν at the end of 1273.
+1273: the print gives the epode's ἰὼ χρόνῳ … ὧδ’ ἰδὼν (1273–1275) to Electra (ΗΛ.); ours has no change of speaker after Orestes' 1271–1272. A speaker difference; the words agree.
+1264: the print has an asterisk before εὖτε (*εὖτε, Jebb's mark for an emendation; see note 1264); the word agrees with ours, so not listed as a difference.
+1259: the print has οὗ μή ’στι with the acute on μή, as ours (enlarged 3x).
+ἐπ. stands before ΗΛ. ἰὼ χρόνῳ (1273); the small numbers 6–20 before the verses of the antistrophe are not listed; the epode's verses have none.
+Note 1260: L's τίσ is printed with the medial σ at the end, as L writes; kept.
+Note 1264: the lemma is printed with Jebb's asterisk (*εὖτε); written \* so that it is not read as the start of italics (as in batch-02, note 139). The merge may not make this lemma bold because of the asterisk.
+Note 1267 runs on to p-0267.
+The lemmas are in the ordinary Greek type, not bold.

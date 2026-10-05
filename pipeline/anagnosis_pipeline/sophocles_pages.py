@@ -150,6 +150,15 @@ def check_batch(path: Path, texts: Path, slug: str) -> list[str]:
     return out
 
 
+def join_run_on(before: str, after: str) -> str:
+    """A paragraph or note continued on the next page; a word divided at the page's foot
+    (ἀν- | εστέναζες) is joined again."""
+    before, after = before.rstrip(), after.strip()
+    if re.search(r"[\u0370-\u03ff\u1f00-\u1fffA-Za-z]-$", before) and re.match(r"[\u0370-\u03ff\u1f00-\u1fffA-Za-z]", after):
+        return before[:-1] + after
+    return before + " " + after
+
+
 def merge(directory: Path, out: Path, header: str) -> tuple[int, str]:
     """The critical notes of all batches in page order, one entry per line number; a page's
     first paragraph beginning '+ ' continues the note from the page before. Returns the number
@@ -171,11 +180,13 @@ def merge(directory: Path, out: Path, header: str) -> tuple[int, str]:
                     entries[current].append("")
                 continue
             if current is None:
-                if raw.strip():
+                if raw.startswith("+ ") and preface:
+                    preface[-1] = join_run_on(preface[-1], raw[2:])
+                elif raw.strip():
                     preface.append(raw.strip())
                 continue
             if raw.startswith("+ ") and entries[current]:
-                entries[current][-1] = entries[current][-1].rstrip() + " " + raw[2:].strip()
+                entries[current][-1] = join_run_on(entries[current][-1], raw[2:])
             else:
                 entries[current].append(raw)
     lines = [header]
@@ -189,11 +200,19 @@ def merge(directory: Path, out: Path, header: str) -> tuple[int, str]:
 
 
 def merge_appendix(directory: Path, out: Path, header: str) -> int:
-    """Jebb's Appendix from the page batches (appendix-*.md, brief APPENDIX.md): the pages in
-    order, a paragraph that begins '+ ' joined to the one it continues (a footnote of the page
-    before stays after it). Returns the number of notes (## headings)."""
+    """Jebb's Appendix from the page batches (appendix-*.md, brief APPENDIX.md). Returns the
+    number of notes (## headings)."""
+    paras = merge_pages(directory, "appendix-")
+    out.write_text(header.rstrip("\n") + "\n\n" + "\n\n".join(paras) + "\n", encoding="utf-8")
+    return sum(1 for p in paras if p.startswith("## "))
+
+
+def merge_pages(directory: Path, prefix: str) -> list[str]:
+    """The paragraphs of prose pages transcribed in batches (<prefix>*.md: === p-NNNN blocks of
+    Markdown): the pages in order, a paragraph that begins '+ ' joined to the one it continues
+    (a footnote of the page before stays after it)."""
     pages: dict[str, list[str]] = {}
-    for path in sorted(directory.glob("appendix-*.md")):
+    for path in sorted(directory.glob(f"{prefix}*.md")):
         stem = None
         for raw in path.read_text(encoding="utf-8").splitlines():
             m = re.match(r"^=== (p-\d{4})\b", raw)
@@ -215,11 +234,10 @@ def merge_appendix(directory: Path, out: Path, header: str) -> int:
                 k = len(paras) - 1
                 while k > 0 and paras[k].startswith("[Note:"):
                     k -= 1
-                paras[k] = paras[k] + " " + text[2:].strip()
+                paras[k] = join_run_on(paras[k], text[2:])
             else:
                 paras.append(text)
-    out.write_text(header.rstrip("\n") + "\n\n" + "\n\n".join(paras) + "\n", encoding="utf-8")
-    return sum(1 for p in paras if p.startswith("## "))
+    return paras
 
 
 # ---------------------------------------------------------------- the commentary (Philoctetes)

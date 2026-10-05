@@ -122,7 +122,7 @@ The lemmas are in the ordinary (italic) Greek type, not bold.
 395 μή
 --- differences
 383: ours «φράζου» print «φράζου,»
-391: ours «προσωτάτω φύγω.» print «προσωτάτ’ ἐκφύγω.»
+391: ours «προσωτάτω φύγω.» print «προσώτατ’ ἐκφύγω.»
 --- apparatus
 ## 382
 χθονὸς] Nauck writes πόλεως. For στέγῃ χθονὸς Wilamowitz conj. θόλῳ στέγης (*Hermes* XIV. p. 176).—ἐκτὸς] Schenkel conj. ἐντὸς.—κακά] Wecklein conj. τὰ σά (*Ars* p. 55).
@@ -134,7 +134,7 @@ The lemmas are in the ordinary (italic) Greek type, not bold.
 ἦ ταῦτα δή με L, with most MSS., and Ald.: ἦ ταῦτα γάρ με Triclinius (T, with a few of the later MSS.),
 --- notes
 383: looked at twice, enlarged: the print has a comma after φράζου; ours none.
-391: looked at twice, enlarged: the print reads «ὡς προσωτάτ’ ἐκφύγω.», as Jebb's commentary on 382 on this page also quotes it; ours «ὡς προσωτάτω φύγω.».
+391: looked at twice, enlarged: the print reads «ὡς προσώτατ’ ἐκφύγω.» (the accent on ώ), as Jebb's commentary on 382 on this page also quotes it and his note on 391 (p-0155) has it as the lemma; ours «ὡς προσωτάτω φύγω.».
 Note 382: ἐκτὸς and Schenkel's ἐντὸς both have a grave (enlarged). The iota subscript of στέγῃ in the note is faint; that of θόλῳ is clear. *Hermes* and *Ars* are in italics.
 Note 383: κοὔ has the coronis and an acute.
 Note 385: the note runs on to p-0155.
@@ -193,4 +193,23 @@ Note 405: L's φέρεισ is printed with the medial σ at the end; kept.
 Note 407: the first ἦ has the circumflex; the reading of r is ἢ with the smooth breathing and a grave (enlarged).
 Note 408: the lemma ὃν has a grave, Monk's ὅν γ’ an acute (small; read enlarged).
 Note 409: the note runs on to p-0157.
+The lemmas are in the ordinary (italic) Greek type, not bold.
+
+=== p-0157
+--- apparatus
++ conj. πῶς.—τοῦτ’] Elmsley conj. τόδ’ or τάδ’.
+
+## 411
+συγγένεσθέ γ’] συγγένεσθ’ Vindobonensis and Pal., also Suidas (*s.v.* συγγένεσθε). συγγένεσθέ τε Priscian 17, 172.—Blaydes writes συγγένεσθ’ ἔτ’.
+
+## 413
+λέγοις Triclinius: λέγεισ L, with most MSS., and Ald.
+
+## 414
+ἐπὶ] Fröhlich conj. ἔπος.—σμικρὸν] L has the letters ὸν in an erasure. The 1st hand wrote either σμικροῦ or σμικρῶι: the former seems more probable. Above ὸν, the letters ων (from the 1st hand?) are
+--- notes
+The first line ends note 409 of p-0156 («τῷ] Herwerden conj. πῶς.»).
+Note 411: *s.v.* is in italics, printed without a space.
+Note 413: L's λέγεισ is printed with the medial σ at the end; kept.
+Note 414: "1st hand" is printed with an old-style figure (twice); the note runs on to p-0158.
 The lemmas are in the ordinary (italic) Greek type, not bold.

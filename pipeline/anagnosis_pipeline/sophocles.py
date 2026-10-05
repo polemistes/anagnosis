@@ -318,6 +318,33 @@ def label_parts(doc, play: Play) -> None:
         seen.add(name)
 
 
+def add_transcribed_introduction(path: Path, checked: Path, play: Play) -> None:
+    """The chapters of Jebb's Introduction that Perseus lacks (the manuscripts, the ancient
+    argument, the persons, the structure; for some plays the whole), transcribed page by page
+    (introduction-*.md, brief INTRODUCTION.md), after those from Perseus."""
+    from .sophocles_pages import SCAN_EDITIONS, merge_pages
+
+    paras = merge_pages(checked, "introduction-") if checked.exists() else []
+    if not paras:
+        return
+    slug = checked.name
+    transcribed = (f"Sophocles: The Plays and Fragments, {PART_ROMAN[play.part]}: The {play.title_en}, "
+                   f"Cambridge University Press, {SCAN_EDITIONS[slug]}, transcribed page by page")
+    if path.exists():
+        head, _, body = path.read_text(encoding="utf-8").partition("\n\n")
+        head = re.sub(r"^# source: (.*)$", lambda m: f"# source: {m.group(1)}; the chapters after § "
+                      f"{sum(1 for l in body.splitlines() if l.startswith('## '))} from {transcribed}", head, flags=re.M)
+        head = re.sub(r"^# license: .*$", "# license: CC BY-SA 3.0 US (Perseus); the transcribed chapters CC BY-SA 4.0",
+                      head, flags=re.M)
+        text = head + "\n\n" + body.rstrip("\n") + "\n\n" + "\n\n".join(paras) + "\n"
+    else:
+        text = (f"# title: Introduction\n# author: Richard C. Jebb\n# source: {transcribed}\n"
+                f"# license: CC BY-SA 4.0 (transcription; the edition is in the public domain)\n\n"
+                + "\n\n".join(paras) + "\n")
+    path.write_text(text, encoding="utf-8")
+    print(f"added to {path}: {sum(1 for p in paras if p.startswith('#'))} transcribed headings")
+
+
 def import_play(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path) -> None:
     from .import_perseus import (LEMMA_FIXES, p4_text_to_document, renumber_from_treebank, tei_to_document,
                                  write_syntax_nodes, write_tokens)
@@ -419,3 +446,4 @@ def import_play(slug: str, sources: Path, texts: Path, build: Path, lexicon: Pat
             # Perseus lacks this play's introduction (the Oedipus Tyrannus): it is transcribed instead
             (out / "introduction.md").unlink()
             print(f"no introduction in {files['commentary']}")
+    add_transcribed_introduction(out / "introduction.md", checked, play)

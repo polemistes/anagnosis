@@ -81,3 +81,21 @@ Note 1384: ὅπη is printed without iota subscript (enlarged 4x); kept.
 Note 1385: Michaelis' ὁ δυσέριστον is printed so (article with rough breathing, no accent); kept.
 Note 1389: in the scholium ἔσται and τελεσθήσεται are letterspaced; written without the spacing. The note runs on to p-0281.
 The lemmas are in the ordinary Greek type, not bold.
+
+=== p-0281
+--- apparatus
++ ἀμμένει L, with most MSS., and Ald.: ἐμμένει Γ: ἐμμένειν Δ.
+
+## 1390
+τοὐμῶν r.—αἰωρούμενον made in L from αἰωρουμένων.
+
+## 1393
+ἑδώλια L, with most MSS.: ἑδράσματα A, and Ald. In L the first corrector (S) has written γρ. ἑδράσματα above ἑδώλια.
+
+## 1394
+νεακόνητον αἷ μαχε ροῖν ἔχων L: where χεροῖν has been made from χειροῖν. Over αἷμα is written ἀντὶ ξίφος. There is no variation in the MSS., except χειρῶν in T. But the Aldine has νεοκόνητον (not νεακόνητον): and this stands also in the lemma of the scholium on 1394, in the edition printed at Rome in 1518 by Lascaris. He may have taken it from the Aldine, which appeared in 1502.
+--- notes
+The page has the translation at the top (no text check). The block begins with "ἀμμένει L, with most MSS., …", the end of the note on 1389 running on from p-0280.
+Note 1393: ἑδώλια and ἑδράσματα have the rough breathing (enlarged 8x and compared with the smooth breathing of ἐμμένει in the same block).
+Note 1394: L's reading is printed with the word division αἷ μαχε ροῖν, as L writes; kept. The note is on Jebb's 1394 (νεακόνητον αἷμα χειροῖν ἔχων·), which is the first part of our 1395.
+The lemmas are in the ordinary Greek type, not bold.

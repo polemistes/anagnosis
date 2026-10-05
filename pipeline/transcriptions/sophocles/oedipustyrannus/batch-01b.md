@@ -83,3 +83,47 @@ The speakers' names (IE., OI.) and the heading ΚΡΕΩΝ. are printed before th
 The `+ ` line ends the note on 67 begun on p-0120.
 Note 79: the dot before προσστείχοντα in the scan is a speck, not punctuation; *O. C.* is in italics.
 Note 87 runs on to p-0123.
+
+=== p-0123
+--- apparatus
++ schol., λέγω γὰρ πάντα ἂν εὐτυχεῖν τὴν πόλιν, εἰ καὶ τὰ δύσφημα τύχοι [ἂν] κατ’ ὀρθὸν ἐξελθόντα. But the schol. uses that word only to illustrate his own comment on ἐσθλήν: ἀπὸ γὰρ τῶν εὐφήμων ἄρξασθαι θέλει, and clearly read δύσφορ’, which is in the lemma of another schol.
+
+## 88
+ἐξελθόντα MSS. ἐξιόντα Suidas and Zonaras s. v.
+--- notes
+The `+ ` line continues the note on 87 begun on p-0122.
+Note 87: δύσφημα is printed letter-spaced (for emphasis); written plain. The ν of the first ἂν is damaged in the scan (looked at enlarged).
+Note 88: after MSS. the print has only the full stop of the abbreviation, no colon (looked at enlarged); kept.
+
+=== p-0124
+--- numbers
+90 οὔτ’
+95 λέγοιμ’
+100 ἀνδρηλατοῦντας
+--- differences
+93: ours «αὔδα·» print «αὔδα.»
+98: ours «ἐλαύνειν μηδʼ» print «ἐλαύνειν, μηδ’»
+100: ours «ἀνδρηλατοῦντας ἢ» print «ἀνδρηλατοῦντας, ἢ»
+--- apparatus
++ δύσφορα, probably by a mere error.
+
+## 99
+τρόπος] πόρος conj. F. W. Schmidt.
+
+## 101
+χειμάζον L, with ει written over ον. The ει may be from the 1st hand, as
+--- notes
+93: the print has a full stop on the baseline after αὔδα (looked at twice, enlarged); ours has ·.
+98: the print has a comma after ἐλαύνειν (looked at twice, enlarged); ours has none.
+100: the print has a comma after ἀνδρηλατοῦντας (looked at twice, enlarged); ours has none.
+The speakers' names (OI., KP.) are printed before the lines; not differences.
+The `+ ` line ends the note on 88 begun on p-0123 (Suidas and Zonaras s. v. δύσφορα).
+Note 99: the lemma τρόπος is printed in the ordinary Greek type, not bold.
+Note 101: "1st hand" is printed with an old-style numeral; the note runs on to p-0125.
+
+=== p-0125
+--- apparatus
++ Dübner thinks: but there is room for doubting whether it was not due to the διορθωτής or first corrector (S). A, and other of the later MSS., have χειμάζον: and χειμάζει,
+--- notes
+The `+ ` line continues the note on 101 begun on p-0124; the note runs on to p-0126.
+διορθω-τής is divided at the line end in the print, joined here. "other of the later MSS." is printed so (not "others"), looked at enlarged.

@@ -88,3 +88,24 @@ Note 1438: ·ον· is printed with a raised point on each side; "S in L" as pri
 Notes 1441 and 1442: L's ὀρούσηι (iota adscript) and φωκεῖσ (lower-case φ, medial σ at the end) kept as printed.
 Note 1443: L's ἧμιν has the circumflex on η over a tiny breathing, read as rough (enlarged twice; the breathing is very small).
 Note 1445: the heading 1445 stands at the foot of the page, after 1443 ἧμιν L.; its text is on p-0289.
+
+=== p-0289
+--- apparatus
++ ναὶ σὲ Reiske: καὶ σὲ MSS., and Ald.
+
+## 1446
+μάλιστα σοὶ Blaydes and Fritzsch: μάλιστά σοι L, Ald., and vulg.
+
+## 1449
+τῶν ἐμῶν τῆς φιλτάτης r, and Ald. (the prevalent reading). L has τῶν ἐμῶν τε φιλτάτων, with τῆσ (not ῆσ) written above τε, and τησ (not ησ) above the των of φιλτάτων. (It is probable that only ῆσ and ησ were written by the 1st hand, and that the τ in each case was added later.) Some of the later MSS., as L2 and Pal., have τῶν ἐμῶν τῶν φιλτάτων: or τῶν ἐμῶν γε φιλτάτων.—Vauvilliers conj. τῶν ἔμοιγε φιλτάτων: Hartung, τῆς ἐμῶν τῶν φιλτάτων: Lenting and G. Wolff, τῶν ἐμῶν τῆς φιλτάτων.
+
+## 1450
+δίδασκέ με] Schol. in L, γράφεται μήνυέ μοι. This may have come from the corrupt δίδασκέ μοι (Pal., and 1st hand in E).—ἂν εἶεν] Nauck conj. ἄρ’ εἰσίν, or (with δὴ for δῆτ’) τὰ νῦν εἴσ’.
+
+## 1451
+ἔνδον· φίλης γὰρ προξένου] Hartung writes ἔνδον φίλης ἐς προξένου: Blaydes, ἔνδον· φίλης δ’ ἐς προξένου, conjecturing also φίλης γὰρ ἐς ξένης
+--- notes
+The lemmas are in the ordinary (italic) Greek type, not bold.
+The block begins with the text of note 1445 (ναὶ σὲ Reiske …), whose heading stands at the foot of p-0288.
+Note 1449: L's τῆσ, ῆσ, τησ, ησ are printed with the medial σ at the end, as L writes; the first ῆσ has the circumflex, ησ none (enlarged). Lenting and G. Wolff's τῶν ἐμῶν τῆς φιλτάτων is printed so (enlarged), as is Hartung's τῆς ἐμῶν τῶν φιλτάτων; kept as printed. L² written L2.
+Note 1450: Nauck's ἄρ’ εἰσίν and εἴσ’ are printed with the smooth breathing and the acute (enlarged).
