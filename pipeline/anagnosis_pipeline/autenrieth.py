@@ -58,8 +58,12 @@ def sort_key(word: str) -> str:
 
 
 def lemma_of(word: str) -> str:
-    """The headword as a lemma: without the hyphens of a compound or a trailing mark."""
-    return greek.nfc(word.replace("-", "").strip(" ,:;.†()"))
+    """The headword as a lemma: without the hyphens of a compound (nor the breathing that the
+    part after a hyphen keeps: μετ-εἶπον is μετεῖπον) or a trailing mark."""
+    first, *rest = word.strip(" ,:;.†()").split("-")
+    rest = [unicodedata.normalize("NFC", "".join(c for c in unicodedata.normalize("NFD", r) if c not in "\u0313\u0314"))
+            for r in rest]
+    return greek.nfc(first + "".join(rest))
 
 
 def check_batch(path: Path, pages_dir: Path) -> list[str]:
@@ -168,6 +172,49 @@ def check_all(directory: Path, pages_dir: Path) -> list[str]:
                 out.append(f"{where}: '{tail.group(1)}' is written whole and its end '{head.group(1)}' again on the next column?")
         elif last.rstrip().endswith("-") and re.search(r"[^\W\d_]-$", last.rstrip()):
             out.append(f"{where}: the column ends in a divided word but the next does not go on with it (+)")
+    out += _spelling_remarks(pages)
+    return out
+
+
+GREEK_WORD = re.compile(r"[\u0370-\u03ff\u1f00-\u1fff\u0300-\u036f]+")
+BREATHING = ("\u0313", "\u0314")  # smooth, rough
+DIAERESIS = "\u0308"
+
+
+def _spelling_remarks(pages: dict[str, dict]) -> list[str]:
+    """Words written with a diaeresis in one place and without it in another, and breathings
+    inside a word (a breathing stands on the word's first vowel or diphthong, or on ῥ)."""
+    import unicodedata as ud
+
+    out: list[str] = []
+    forms: dict[str, set[str]] = {}
+    where: dict[str, str] = {}
+    for stem in sorted(pages):
+        for side in ("left", "right"):
+            for line in pages[stem][side]:
+                for w in GREEK_WORD.findall(line):
+                    w = greek.nfc(w)
+                    d = ud.normalize("NFD", w)
+                    plain = "".join(c for c in d if c != DIAERESIS)
+                    if DIAERESIS in d:
+                        forms.setdefault(ud.normalize("NFC", plain), set()).add(w)
+                    else:
+                        forms.setdefault(w, set()).add(w)
+                    where.setdefault(w, f"{stem} {side}")
+                    # breathing on a letter after the first syllable's vowels
+                    letters = [c for c in d if not ud.combining(c)]
+                    k = 0
+                    for c in d:
+                        if not ud.combining(c):
+                            k += 1
+                        elif c in BREATHING and k > 2 and letters[k - 1] not in "ρ" and letters[k - 2:k] != ["ρ", "ρ"]:
+                            out.append(f"{stem} {side}: '{w}' has a breathing inside the word")
+                            break
+    for plain, ws in sorted(forms.items()):
+        with_d = [w for w in ws if DIAERESIS in ud.normalize("NFD", w)]
+        without = [w for w in ws if w not in with_d]
+        if with_d and without:
+            out.append(f"written both ways: {', '.join(sorted(with_d))} ({where[with_d[0]]}) and {', '.join(sorted(without))} ({where[without[0]]})")
     return out
 
 
