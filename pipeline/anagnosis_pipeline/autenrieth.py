@@ -48,7 +48,7 @@ def read_batches(directory: Path) -> dict[str, dict]:
 
 def headword(line: str) -> str | None:
     m = ENTRY_START.match(line)
-    return m.group(2).strip(" ,:;.") if m else None
+    return m.group(2).strip(" ,:;.()") if m else None
 
 
 def sort_key(word: str) -> str:
@@ -59,7 +59,7 @@ def sort_key(word: str) -> str:
 
 def lemma_of(word: str) -> str:
     """The headword as a lemma: without the hyphens of a compound or a trailing mark."""
-    return greek.nfc(word.replace("-", "").strip(" ,:;.†"))
+    return greek.nfc(word.replace("-", "").strip(" ,:;.†()"))
 
 
 def check_batch(path: Path, pages_dir: Path) -> list[str]:
@@ -197,21 +197,30 @@ def entries_from(pages: dict[str, dict]) -> list[tuple[str, int, str]]:
     """(headword, homograph, text) of every entry in page order, continuations joined."""
     out: list[list] = []
     for stem in sorted(pages):
+        before_break = None  # where a new letter begins halfway down the left column
+        page_start = len(out)
         for side in ("left", "right"):
             for line in pages[stem][side]:
                 if line.startswith("+ "):
                     if out:
+                        # at the top of the right column, a page where a new letter begins halfway
+                        # down goes on with the entry before the letter's heading
+                        target = out[before_break] if side == "right" and before_break is not None else out[-1]
                         rest = line[2:].strip()
                         # a word divided between two columns, written as two parts ("build-", "+ ing …")
-                        if re.search(r"[^\W\d_]-$", out[-1][2]) and re.match(r"[^\W\d_]", rest) and rest[:1].islower():
-                            out[-1][2] = out[-1][2][:-1] + rest
+                        if re.search(r"[^\W\d_]-$", target[2]) and re.match(r"[^\W\d_]", rest) and rest[:1].islower():
+                            target[2] = target[2][:-1] + rest
                         else:
-                            out[-1][2] += " " + rest
+                            target[2] += " " + rest
                     continue
                 m = ENTRY_START.match(line)
                 if not m:
                     continue
-                out.append([m.group(2).strip(" ,:;."), int(m.group(1) or 0), line])
+                hw = m.group(2).strip(" ,:;.()")
+                if side == "left" and len(out) > page_start and sort_key(hw)[:1] and sort_key(out[-1][0])[:1] \
+                        and sort_key(hw)[:1] > sort_key(out[-1][0])[:1]:
+                    before_break = len(out) - 1
+                out.append([hw, int(m.group(1) or 0), line])
     return [(h, n, t) for h, n, t in out]
 
 

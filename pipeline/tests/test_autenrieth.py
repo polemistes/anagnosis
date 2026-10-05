@@ -40,6 +40,21 @@ class AutenriethTest(unittest.TestCase):
         entries = entries_from(read_batches(self.dir))
         self.assertTrue(entries[-1][2].endswith("the rafters of a building, Ψ 712."))
 
+    def test_after_a_new_letter_halfway_down_the_right_column_goes_on_with_the_old_letter(self):
+        (self.dir / "batch-001.md").write_text(
+            "=== a-0100\n--- head\nβρῶσις | γαμέω\n--- left\n**βρότος**: *gore*, Η 425\n**γαῖα**: *earth.*\n"
+            "--- right\n+ and Ξ 2.\n**βρῶσις**: *food*, α 191.\n**γαμέω**: *marry.*\n", encoding="utf-8")
+        entries = {h: t for h, _n, t in entries_from(read_batches(self.dir))}
+        self.assertTrue(entries["βρότος"].endswith("Η 425 and Ξ 2."))
+        self.assertEqual(entries["γαῖα"], "**γαῖα**: *earth.*")
+
+    def test_a_new_letter_at_the_top_of_a_page_changes_nothing(self):
+        (self.dir / "batch-001.md").write_text(
+            "=== a-0100\n--- head\nβ | βάζω\n--- left\n**β**: *beta.*\n**βάζω**: *speak*\n"
+            "--- right\n+ ἔπεα, δ 32.\n", encoding="utf-8")
+        entries = {h: t for h, _n, t in entries_from(read_batches(self.dir))}
+        self.assertTrue(entries["βάζω"].endswith("*speak* ἔπεα, δ 32."))
+
     def test_render_marks_meanings_references_and_senses(self):
         html = render("**ἀμείβω**: I. act., *change;* —II. mid., *answer*, Α 604, 605.")
         self.assertIn('<b class="orth">ἀμείβω</b>', html)

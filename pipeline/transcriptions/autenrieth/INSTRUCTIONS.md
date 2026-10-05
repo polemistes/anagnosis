@@ -51,6 +51,10 @@ One file per batch, `batch-NNN.md`, with a block per page in page order:
 * **The first line of a column** that continues an entry from the end of the previous column
   or page begins with `+ ` (a plus and a space). Only the first line of a column can be a
   continuation; every other line begins with a headword.
+* **A new letter beginning halfway down a page** (its heading across both columns, the old
+  letter above it in both columns): write each column top to bottom as usual, the old letter's
+  part and then the new letter's. The checker reports the first headword of the right column as
+  out of order; say under `--- notes` that the letter changes there.
 
 ## The text
 
