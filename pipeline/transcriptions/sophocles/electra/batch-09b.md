@@ -102,3 +102,69 @@ L divides the vv. thus:—τί— | οἰωνοὺσ— | τροφᾶσ— | τ�
 Note 1058-1069: οἰωνοὺσ and τροφᾶσ are printed with the medial σ at the end, as L writes; kept. βλα-|στῶσιν is divided at the end of a line in the print; joined. εὕρω has the rough breathing and acute (enlarged at the scan's native resolution).
 Note 1061: "MSS." is in small capitals here and in note 1063.
 The lemmas are in the ordinary Greek type, not bold.
+
+=== p-0242
+--- numbers
+1070 ὅτι
+1075 Ἠλέκτρα
+1080 μα
+--- differences
+1066: ours «φάμα, κατά μοι βόασον οἰκτρὰν» print «φά-»
+1066+: ours «» print «μα, κατά μοι βόασον οἰκ-»
+1067: ours «ὄπα τοῖς ἔνερθʼ Ἀτρείδαις, ἀχόρευτα φέρουσʼ» print «τρὰν ὄπα τοῖς ἔνερθ’ Ἀτρεί-»
+1068: ours «ὀνείδη·» print «δαις, ἀχόρευτα φέρουσ’ ὀνείδη·»
+1070: ours «σφὶν» print «σφιν»
+1070: ours «νοσεῖ δή, τὰ δὲ πρὸς τέκνων διπλῆ» print «νοσεῖ»
+1070+: ours «» print «<δή>, τὰ δὲ πρὸς τέκνων διπλῆ»
+1071: ours «ἐξισοῦται φιλοτασίῳ διαί-» print «ἐξισοῦ-»
+1071+: ours «» print «ται φιλοτασίῳ διαί-»
+1072: ours «τᾳ·» print «τᾳ.»
+1075: ours «τὸν» print «†τὸν»
+1078: ours «προμηθὴς τό τε μὴ βλέπειν ἑτοίμα,» print «προμη-»
+1078+: ours «» print «θής, τό τε μὴ βλέπειν ἑτοί-»
+1080: ours «διδύμαν ἑλοῦσʼ Ἐρινύν· τίς ἂν εὔπατρις ὧδε βλάστοι;» print «μα, διδύμαν ἑλοῦσ’ Ἐρι-»
+1080+: ours «» print «νύν. τίς ἂν εὔπατρις ὧδε βλάστοι;»
+--- apparatus
++ erasure (from σ?).
+
+## 1070
+σφιν ἤδη Schaefer: σφίσιν ἤδη L, with most MSS., and Ald. (σφίσι γ’ ἤδη r, σφίσ’ ἤδη Triclinius): σφίσιν δὴ Erfurdt.
+
+## 1071
+νοσεῖ δὴ Triclinius: νοσεῖ MSS., and Ald.: νοσεῖται a gloss in C, cod. Par. 2794. For
+--- notes
+The block begins with "erasure (from σ?).", the end of note 1064 from p-0241.
+The print divides the lyrics into shorter verses than ours (all looked at twice, enlarged). End of the strophe: ὦ χθονία βροτοῖσι φά- | μα, κατά μοι βόασον οἰκ- | τρὰν ὄπα τοῖς ἔνερθ’ Ἀτρεί- | δαις, ἀχόρευτα φέρουσ’ ὀνείδη· (Jebb's 1066–1069, four verses where ours has 1066–1068). Antistrophe: ὅτι σφιν ἤδη τὰ μὲν ἐκ δόμων νοσεῖ | <δή>, τὰ δὲ πρὸς τέκνων διπλῆ | φύλοπις οὐκέτ’ ἐξισοῦ- | ται φιλοτασίῳ διαί- | τᾳ. πρόδοτος … (Jebb's 1070–1074, five verses where ours has 1070–1072); οὔτε τι τοῦ θανεῖν προμη- | θής, τό τε μὴ βλέπειν ἑτοί- | μα, διδύμαν ἑλοῦσ’ Ἐρι- | νύν. τίς ἂν … βλάστοι; (Jebb's 1078–1081, four verses where ours has 1078 and 1080). Reported as differences on the lines the words leave and join, with the new verses inserted.
+Inside these re-divisions the print also differs in accent and punctuation: θής, has the acute and a comma (ours προμηθὴς, grave, no comma); Ἐρι-|νύν is followed by a full stop (ours Ἐρινύν·).
+1070: σφιν has no accent (as in note 1070); ours σφὶν. <δή> is printed in angle brackets (supplied by Triclinius, note 1071).
+1072: the print has a full stop after τᾳ; ours a raised point.
+1075: the print has the obelus before τὸν.
+Margin 1080 stands against μα, διδύμαν (the end of ἑτοί-|μα carried over), our 1080 beginning διδύμαν: the remark "numbering differs" is due to the division; after the differences above our 1080 begins with μα. Margins 1070 ὅτι and 1075 Ἠλέκτρα agree with ours.
+The small numbers 9–12 (strophe) and 1–12 (antistrophe) before the verses are not listed.
+The lemmas are in the ordinary Greek type, not bold.
+
+=== p-0243
+--- apparatus
++ other conjectures see comment. and Appendix.
+
+## 1075
+Ἠλέκτρα τὸν ἀεὶ πατρὸς MSS. (In L πατρὸς is written πρ̄σ.) For conjectures, see comment.
+
+## 1077
+πάνδυρτος Porson (*Advers.* p 211) and Erfurdt: πανόδυρτος MSS.
+
+## 1078
+οὔτε] οὐδέ Γ.—τοῦ θανεῖν] τοῦ μὴ θανεῖν C.
+
+## 1079
+μὴ made in L from μὴν.
+
+## 1081
+τίς ἂν Triclinius: τίς ἂν οὖν MSS. (τίς τἆρ’ οὖν Γ), and Ald.
+--- notes
+The block begins with "other conjectures see comment. and Appendix.", the end of note 1071 from p-0242 ("For").
+Note 1075: L's abbreviation πρ̄σ is printed with a short stroke over ρ, written with a combining macron (U+0304); enlarged.
+Note 1077: "p 211" is printed without a full stop after p (enlarged at 1200 dpi from the scan); kept as printed.
+Note 1079: μὴ and μὴν both have the grave (enlarged).
+Note 1081: Γ's τἆρ’ has the coronis and circumflex on α (enlarged).
+The lemmas are in the ordinary Greek type, not bold.

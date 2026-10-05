@@ -160,6 +160,8 @@ LEMMA_FIXES = {
     "ἀπαίσσω": "ἀπαΐσσω",
     "εἴσειδον": "εἰσεῖδον",
     "οἰ": "οἴ",
+    "κάρον": "κάρα",
+    "ῥαίδιον": "ῥᾴδιος",
 }
 
 # Hand annotations for words the treebank does not cover (Storr's text differs from the

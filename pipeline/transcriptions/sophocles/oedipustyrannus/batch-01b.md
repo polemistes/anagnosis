@@ -26,3 +26,60 @@ There are no lemmas with ] on this page; the readings are in the ordinary Greek 
 στάντες τ’] The 1st hand in L omitted τ’, which was added by the corrector.
 --- notes
 Note 50: the lemma στάντες τ’ is printed in the ordinary Greek type, not bold. "1st hand" is printed with an old-style numeral.
+
+=== p-0120
+--- numbers
+60 νοσεῖτε
+65 ὥστ’
+70 Κρέοντ’
+--- differences
+63: ours «αὑτὸν κοὐδένʼ ἄλλον,» print «αὑτόν, κοὐδέν’ ἄλλον·»
+67: ours «πλάνοις·» print «πλάνοις.»
+--- apparatus
++ στάντες γ’ Triclinius.
+
+## 67
+πλάνοισ L, but altered from πλάναισ: above is written,
+--- notes
+63: the print has καθ’ αὑτόν, with a comma (and so the acute) and ἄλλον· with a raised point (looked at twice, enlarged); ours αὑτὸν without the comma and ἄλλον, with a comma.
+67: the print ends the line with a full stop (looked at twice, enlarged); ours has ·.
+58: the speaker's name OI. is printed before the line; not a difference.
+The `+ ` line continues the note on 50 begun on p-0119.
+Note 67: πλάνοισ and πλάναισ are printed with the medial σ at the end, as L writes; kept. The note runs on to p-0121.
+
+=== p-0121
+--- apparatus
++ ἀντὶ τοῦ πλάναις θηλυκῶς. πλάναις r, but with exceptions: thus T has πλάνοις (with
+--- notes
+The `+ ` line continues the note on 67 begun on p-0120 (the gloss written above L's word); it runs on to p-0122.
+The siglum r is printed in heavy type, as elsewhere in this volume; written r.
+
+=== p-0122
+--- numbers
+75 ἄπεστι
+80 ὦναξ
+85 ἄναξ
+--- differences
+78: ours «εἶπας οἵδε» print «εἶπας, οἵδε»
+81: ours «ὄμματι» print «ὄμματι.»
+82: ours «ἡδύς·» print «ἡδύς.»
+--- apparatus
++ αις written above), a marginal schol. quoting τοὺς φυγαδικοὺς πλάνους.
+
+## 74
+πέραι L. Porson conj. περᾷ, proposing to omit v. 75: see note.
+
+## 79
+προστείχοντα MSS., meaning, however, doubtless, the compound with πρός, not with πρό: cp. on *O. C.* 986. προσστείχοντα Erfurdt.
+
+## 87
+τὰ δύσθρο’ is Heimsoeth’s conj. suggested by the
+--- notes
+78: the print has a comma after εἶπας (looked at twice, enlarged); ours has none.
+81: the print ends the line with a full stop (looked at twice, enlarged); ours has no punctuation.
+82: the print has a full stop on the baseline after ἡδύς (looked at twice, enlarged); ours has ·.
+The pen marks in the scan (at μ’ in 73, before πέρα in 74, at τῳ in 80, a cross in the margin at 88) are not print; the printed words are as ours.
+The speakers' names (IE., OI.) and the heading ΚΡΕΩΝ. are printed before the lines; not differences.
+The `+ ` line ends the note on 67 begun on p-0120.
+Note 79: the dot before προσστείχοντα in the scan is a speck, not punctuation; *O. C.* is in italics.
+Note 87 runs on to p-0123.

@@ -160,3 +160,37 @@ The first line ends note 385 of p-0154. *Med.* is in italics; "1st hand" is prin
 Note 387: οὕνεκ’ and εἵνεκ’ both have the rough breathing with the acute (enlarged).
 Note 395: the dots are printed spaced (φίλοις . . | κακήν, κακοῖς . . φίλην); written ".." as elsewhere.
 The lemmas are in the ordinary (italic) Greek type, not bold.
+
+=== p-0156
+--- numbers
+400 πατὴρ
+405 ποῖ
+410 ἐκ
+--- differences
+410: ours «ἐμοί;» print «ἐμοί.»
+--- apparatus
+## 399
+τιμωρούμεναι Γ.
+
+## 404
+χωρήσομαι] L has ο in an erasure (from ω).
+
+## 405
+ποῖ δ’] ποῦ δ’ r. L has the μ of ἐμπορεύηι in an erasure (from ν?).—ποῖ φέρεισ L, with most MSS., and Ald.: τῷ φέρεις r (including T). τῷ may have been due to Triclinius.—τάδ’ ἔμπυρα] Nauck and Blaydes conj. κτερίσματα.
+
+## 407
+ἦ made in L from εἰ. ἢ r.
+
+## 408
+ὃν ἔκταν’] ὅν γ’ ἔκταν’ Monk.
+
+## 409
+τῷ] Herwerden
+--- notes
+410: looked at twice, enlarged: the line ends with a full stop on the baseline after ἐμοί; ours a question mark.
+Note 404: the lemma χωρήσομαι] has no second accent (the text has χωρήσομαί τἄρ’).
+Note 405: L's φέρεισ is printed with the medial σ at the end; kept.
+Note 407: the first ἦ has the circumflex; the reading of r is ἢ with the smooth breathing and a grave (enlarged).
+Note 408: the lemma ὃν has a grave, Monk's ὅν γ’ an acute (small; read enlarged).
+Note 409: the note runs on to p-0157.
+The lemmas are in the ordinary (italic) Greek type, not bold.

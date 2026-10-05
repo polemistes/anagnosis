@@ -61,3 +61,38 @@ Note 1485: "Laurentian" is divided at the line end (Lau-|rentian), written whole
 Note 1487: L's πρόθεσ and πρόσθεσ are printed with the medial σ at the end, as L writes (enlarged); kept.
 The lemmas are in the ordinary Greek type, not bold.
 
+=== p-0296
+--- numbers
+1490 μόνον
+1495 μὴ
+1500 ἀλλ’
+1505 χρῆν
+--- differences
+1494: ours «δεῖ» print «δεῖ,»
+--- apparatus
+## 1490
+γένοιτο has been added in L by S.
+
+## 1492
+ἁγὼν Heath: ἀγὼν MSS., and Ald.
+
+## 1495
+ἔνθάπερ L.
+
+## 1496
+ἀμόν made in L from ἀμον.—ὡς ἂν ἐν] ἂν is omitted in L, A, and most MSS., as in Ald.: while L2, which has ἂν, omits ἐν. Triclinius wrote ὡς ἂν ἐν. Hermann (after suggesting ὡς ἐν αὐταύτῳ) wished to read ὡς ἄρ’ ἐν, or ὥς νυν ἐν.—ἐν ταὐτῷ] ἐνταυθοῖ Vindobonensis, but with γρ. ἐν ταυτῷ.
+
+## 1498
+In L these two verses stand in an erasure, but are written
+--- notes
+1494: the print has a comma after δεῖ (σκότου δεῖ, κοὐ πρόχειρος), looked at twice, enlarged; ours has none.
+1492: the text has ἁγών with the rough breathing, as ours; 1496 τὸν ἀμόν with the smooth breathing, as ours (enlarged).
+Some letters of the text are damaged in the scan: τ of τέχνην (1500), ὁδὸς (1501), μὴ μὲν (1503a), με τοῦτό (1504), τήνδε τοῖς (1505); what is visible agrees with ours, so nothing is listed.
+The verse ἀλλ’ ἕρφ’. ΑΙ. ὑφηγοῦ. ΟΡ. σοὶ βαδιστέον πάρος. is one printed line (our 1502, 1502a, 1502b), as is ἦ μὴ φύγω σε; ΟΡ. μὴ μὲν οὖν καθ’ ἡδονὴν (our 1503, 1503a).
+Note 1490: the S is slightly damaged in the scan, but legible.
+Note 1492: enlarged: the first ἁγὼν (Heath's) has the rough breathing, the second (MSS.) the smooth.
+Note 1495: L's ἔνθάπερ has the smooth breathing and acute on ε and a second acute on α, as printed.
+Note 1496: ἀμόν and ἀμον both have the smooth breathing (enlarged); ἀμον is printed without accent. The lemma ἐν ταὐτῷ has the coronis, but the γρ. reading is printed ἐν ταυτῷ without it (enlarged); kept as printed.
+Note 1498 (printed "1498 f."): the note runs on to p-0297.
+The lemmas are in the ordinary Greek type, not bold.
+

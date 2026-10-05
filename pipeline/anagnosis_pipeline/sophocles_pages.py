@@ -136,7 +136,7 @@ def check_batch(path: Path, texts: Path, slug: str) -> list[str]:
             elif _skel(ours.split()[0] if ours.split() else "") != _skel(word):
                 out.append(f"{stem}: printed line {n} begins «{word}», ours begins «{ours.split()[0]}»: numbering differs")
         for raw in block["differences"]:
-            if not re.match(r"^\d+[a-z]?: ours «.*» print «.*»", raw):
+            if not DIFF.match(raw):
                 out.append(f"{stem} differences: '{raw}' is not 'N: ours «…» print «…»'")
         for raw in block["apparatus"]:
             m = HEADING.match(raw)

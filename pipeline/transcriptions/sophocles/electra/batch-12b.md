@@ -41,3 +41,50 @@ The lemmas are in the ordinary (italic) Greek type, not bold.
 Numbering: the notes follow Jebb's numbers: his 1431 f. (τὸν ἄνδρ’; ΗΛ. ἐφ’ ἡμῖν οὗτος) is our 1432–1432a, his 1433 (κατ’ ἀντιθύρων) our 1434; the commentary on this page has 1432 for χωρεῖ γεγηθώς, our 1433.
 Note 1431: Martin's ἡμίν is printed with the acute (enlarged), against ἡμῖν elsewhere in the note; kept as printed. γεγηθὼς (grave) in "to γεγηθὼς inclusive" and in the two quotations, γεγηθώς (acute) at the end of the note, as printed.
 Note 1433: after Blaydes's ὡς the print has a raised point (ὡς· in his text), enlarged; kept as printed.
+
+=== p-0288
+--- numbers
+1435 θάρσει
+1440 πρὸς
+1445 σέ
+1450 ποῦ
+--- differences
+1440: ours «πρὸς ἄνδρα τόνδε συμφέροι, λαθραῖον ὡς» print «πρὸς ἄνδρα τόνδε συμφέροι, λαθραῖον ὡς ὀρούσῃ»
+1441: ours «ὀρούσῃ πρὸς δίκας ἀγῶνα.» print «πρὸς δίκας ἀγῶνα.»
+--- apparatus
++ Γ: see below.
+
+## 1434
+τάδ’ ὡς πάλιν MSS. For ὡς, Dindorf conj. αὖ: Gleditsch, εὖ: Fritsch, τάδ’ ὡς τελεῖν. Heimsoeth would read τάδ’ αὖ, omitting πάλιν: Hartung, πάλιν, omitting τάδ’ ὡς.
+
+## 1435
+The words ᾗ νοεῖς are given by the MSS. to Orestes; Erfurdt restored them to Electra.—νυν Turnebus: νῦν MSS.
+
+## 1437-1441
+δι’ ὠτὸς...ἀγῶνα. Triclinius restored these vv. to the Chorus; in L and other MSS., as in the Ald., they are given to Electra.—L divides the vv. thus:—δι’ ὠτὸσ— | ἠπίωσ— | πρὸσ— | ὀρούσῃ..ἀγῶνα.
+
+## 1438
+ἠπίως] γρ. νηπίωι (with ·ον· written above), S in L. ἤπιον Triclinius.
+
+## 1440
+L has the ν of λαθραῖον in an erasure.
+
+## 1441
+In L two or three letters have been erased after ὀρούσηι.
+
+## 1442
+φωκεῖσ L, with ῆ written above by the 1st hand.
+
+## 1443
+ἧμιν L.
+
+## 1445
+--- notes
+The lemmas are in the ordinary (italic) Greek type, not bold.
+Numbering: the margin number 1435 stands against ΟΡ. θάρσει· τελοῦμεν (our 1437), looked at twice; the print really is so. Jebb counts βᾶτε κατ’ ἀντιθύρων as 1433 and νῦν, τὰ πρὶν εὖ θέμενοι as 1434 (his note 1434 τάδ’ ὡς πάλιν), θάρσει … νυν as 1435 (note 1435 on ᾗ νοεῖς), καὶ δὴ βέβηκα … ἐμοί as 1436 (commentary), the verse δι’ ὠτὸς … ἐννέπειν as 1437–1438 (notes 1437—1441 and 1438 ἠπίως) and πρὸς ἄνδρα … ὀρούσῃ as 1439–1440; a numbering difference to correct. The margin numbers 1440, 1445 and 1450 agree with ours; Jebb's 1434 and 1435 are our 1435 and 1437, his 1438 is in our 1439a.
+1440–1441: the print ends the verse 1440 with ὀρούσῃ and sets πρὸς δίκας ἀγῶνα. as a verse by itself (1441); ours ends 1440 with ὡς and begins 1441 with ὀρούσῃ; reported as moved words on both lines (looked at twice, enlarged). The other lines agree with ours (enlarged).
+Note 1437-1441: L's division is printed with the medial σ at the ends (ὠτὸσ, ἠπίωσ, πρὸσ) and with the two-dot ellipsis (ὀρούσῃ..ἀγῶνα); kept as printed.
+Note 1438: ·ον· is printed with a raised point on each side; "S in L" as printed. Triclinius's ἤπιον has the smooth breathing (enlarged).
+Notes 1441 and 1442: L's ὀρούσηι (iota adscript) and φωκεῖσ (lower-case φ, medial σ at the end) kept as printed.
+Note 1443: L's ἧμιν has the circumflex on η over a tiny breathing, read as rough (enlarged twice; the breathing is very small).
+Note 1445: the heading 1445 stands at the foot of the page, after 1443 ἧμιν L.; its text is on p-0289.

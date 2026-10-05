@@ -83,3 +83,35 @@ In L the 1st hand wrote ἐπαιτεῖ τόδε: a later hand has added ται
 The lemmas are in the ordinary (italic) Greek type, not bold.
 Note 1124: com-|pendium is divided at the line end; joined.
 Note 1127: Ὀρέστου is printed with the breathing before the capital (’Ορέστου), as usual; Brunck's ὥς has rough breathing and acute, the MSS.' ὡς rough breathing without accent (enlarged).
+
+=== p-0250
+--- numbers
+1130 δόμων
+1135 τύμβου
+1140 ἀνειλόμην
+--- differences
+1129: ours «χεροῖν,» print «χεροῖν·»
+1133: ours «ταῖνδε» print «τοῖνδε»
+1137: ours «δίχα,» print «δίχα·»
+1140: ours «βάρος,» print «βάρος.»
+--- apparatus
++ Harl.: ὥσπερ r.—ἐξέπεμπον made in L from εἰσέπεμπον, ξ being in an erasure.
+
+## 1129
+Nauck rejects these two vv.—οὐδὲν ὄντα] οὐδέν σ’ ὄντα Δ (cod. Abbat. Flor. 2788), and so Blaydes.
+
+## 1131
+The scribe of L wrote ὤφελον: a late corrector has altered it to ὤφελεσ, a *v l.* found in the Vindobonensis, Harl., and a few more of the later MSS.
+
+## 1133
+A late corrector of L has written ν over κλέψασα and σα over κἀνασώσασθαι, wishing to read κλέψασαν...κἀνασώσασαν (!).
+
+## 1135
+εἰληχὼς]
+--- notes
+The lemmas are in the ordinary (italic) Greek type, not bold.
+The block begins with the end of note 1128 running on from p-0249 (ὅνπερ | Harl.: ὥσπερ r.).
+1129, 1137: the print ends the line with a raised point (χεροῖν·, δίχα·), and 1140 with a full stop (βάρος.); each looked at twice (enlarged); ours has commas.
+1133: the print reads τοῖνδε (ο, not α; looked at twice, enlarged); ours ταῖνδε.
+Note 1131: the print has "a v l." with no full stop after v (a gap where it should be; enlarged); kept as printed. L's ὤφελεσ is printed with the medial σ at the end, as L writes; kept.
+Note 1135 runs on to p-0251 after the lemma εἰληχὼς].
