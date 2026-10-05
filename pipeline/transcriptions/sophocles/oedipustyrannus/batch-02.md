@@ -96,3 +96,31 @@ The handwritten word in the margin at 141 is not print.
 ἐκεῖνον has been made from ἐκεῖνοσ in L. The false reading ἐκεῖνος occurs in some of the later MSS.
 --- notes
 Note 139: L's ἐκεῖνοσ is printed with the medial σ at the end, as L writes; kept. The later reading ἐκεῖνος has the final ς.
+
+=== p-0132
+--- numbers
+155 ἀμφὶ
+160 γαιάοχόν
+--- differences
+153: ours «ἐκτέταμαι φοβερὰν φρένα, δείματι» print «ἐκτέταμαι, φοβερὰν φρένα δείματι»
+160: ours «πρῶτα σὲ» print «πρῶτά σε»
+160: ours «Ἀθάνα» print «Ἀθάνα,»
+162: ours «εὐκλέα» print «εὐκλέα θάσσει,»
+163: ours «θάσσει,» print «»
+--- apparatus
+## 159
+κεκλόμενος L, with ω written over ος by a late hand. A few of the later MSS.
+--- notes
+The small numbers 3-7 before the verses of the strophe and 2-3 before those of the antistrophe (label ἀντ. α΄.) are Jebb's numbers of the verses within the stanza, not margin line numbers.
+Numbering: the print's margin 160 stands at γαιάοχόν τ’ ἀδελφεὰν, our 161. The print numbers the antistrophe from 159 (πρῶτά σε κεκλόμενος, our 160; the critical note 159 is on its κεκλόμενος), so our 160-162 are the print's 159-161, and our 163 (θάσσει,) is printed at the end of the print's 161. A real numbering difference.
+153: the print has a comma after ἐκτέταμαι and none after φρένα (looked at twice, enlarged); ours has the comma after φρένα.
+160: the print has πρῶτά σε, with the acute on πρῶτά before the unaccented σε, and a comma after Ἀθάνα (looked at twice, enlarged).
+162-163: the print sets Ἄρτεμιν, ἃ κυκλόεντ’ ἀγορᾶς θρόνον εὐκλέα θάσσει, as one verse, so θάσσει, moves to 162 and our 163 is joined to it.
+The angular mark in the left margin at 154-155 is not part of the text.
+Note 159: κεκλόμενος L is in the ordinary Greek type, not a lemma with ]; the note runs on to p-0133.
+
+=== p-0133
+--- apparatus
++ have κεκλομένῳ or κεκλομένω.—κέκλομαι, ὦ Blaydes.—ἄμβροτ’] ἄντομ’ Wecklein.
+--- notes
+The block continues note 159 from p-0132. The first κεκλομένῳ has the iota subscript, the second κεκλομένω none (looked at enlarged). The lemma ἄμβροτ’ is in the ordinary Greek type, not bold; ἄμβροτ’ and ἄντομ’ both have the smooth breathing.

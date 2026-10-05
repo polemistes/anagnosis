@@ -99,3 +99,40 @@ The page has the translation at the top (no text check). The block begins with "
 Note 1393: ἑδώλια and ἑδράσματα have the rough breathing (enlarged 8x and compared with the smooth breathing of ἐμμένει in the same block).
 Note 1394: L's reading is printed with the word division αἷ μαχε ροῖν, as L writes; kept. The note is on Jebb's 1394 (νεακόνητον αἷμα χειροῖν ἔχων·), which is the first part of our 1395.
 The lemmas are in the ordinary Greek type, not bold.
+
+=== p-0282
+--- numbers
+1395 ὁ
+1401 λέβητα
+1405 φίλων
+--- differences
+1395+: ours «» print «ὁ Μαίας δὲ παῖς»
+1397: ours «τέρμα» print «τέρμα,»
+1404: ours «αἰαῖ.» print «αἰαῖ·»
+--- apparatus
++ For conjectures, see below.
+
+## 1396
+L has ἑρμῆσ ἐ άγει, with an erasure after ἐ rather larger than the space for one letter. Nothing is legible in the erasure, except what seems to be the beginning of π. [Some discern ξ in the erasure, and σ written above it: I fail to do so.] ἐπάγει A, and Ald.: ἐπεισάγει E: σφ’ ἄγει Γ, L2 (=Lb), and Vindobonensis. For conjectures, see below.
+
+## 1398
+ἅνδρες] ἄνδρες MSS.
+
+## 1399
+τελοῦσι] In L ἔσω is written above (*i.e.* ἔσω, in the house).
+
+## 1401
+τὼ δ’] The scribe of L wrote τῶιδ’, but ῶ has been
+--- notes
+The block begins with "For conjectures, see below.", the end of the note on 1394 running on from p-0281.
+1395: the print sets ὁ Μαίας δὲ παῖς as a verse of its own (verse 5 of the antistrophe), with the margin number 1395; ours has these words at the end of 1395 νεακόνητον … (see p-0280). The checker's remark on 1395 (the printed line begins ὁ, ours νεακόνητον) comes from this.
+1397: the print has a comma after τέρμα (looked at twice, enlarged); ours has none.
+1404: the print has a raised point after αἰαῖ (looked at twice, enlarged); ours has a full stop.
+1398: the print has ἅνδρες with the rough breathing, as ours (enlarged).
+The margin number 1401 stands against λέβητα (the verse after the shared verse 1400), as listed.
+στρ. stands before ΗΛ. ὦ φίλταται (1398); the small numbers 5–7 before the verses are the numbering within the antistrophe and are not listed.
+Note 1396: L's ἑρμῆσ (medial σ at the end, as L writes) has the rough breathing, L's ἐ and ἐπάγει the smooth (looked at enlarged, the breathings compared in pixel detail; uncertain in the small type). L's άγει is printed with the acute and no breathing; kept.
+Note 1398: the lemma ἅνδρες has the rough breathing and the reading of the MSS. ἄνδρες the smooth (enlarged; the difference is small in the small type, but this is the point of the note, and the text line has ἅνδρες).
+Note 1399: *i.e.* is in italics. Both ἔσω have the smooth breathing and acute; kept as printed.
+Note 1401: the note runs on to p-0283.
+The lemmas are in the ordinary Greek type, not bold.

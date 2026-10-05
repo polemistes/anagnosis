@@ -345,3 +345,15 @@ The lemmas are in the ordinary Greek type, not bold.
 Note 694: Schneidewin's κοινὸν is printed with a grave before the full stop (enlarged); kept as printed.
 Note 695: L's ἀγείραντοσ and ἐγείραντοσ are printed with medial σ at the end; kept. The lemma ποτε has no accent, as printed.
 The lemmas are in the ordinary Greek type, not bold.
+
+=== p-0197
+--- apparatus
+## 697
+δύναιτ’] δύναι...τ’ L, with an erasure of two or three letters. Hartung writes δύναιτ’ ἄρ’: Meineke conj. δύναι’ ἂν: Stürenburg, δύναιτ’ οὐδ’ ἄν τις.—ἰσχύων] Heimsoeth conj. ὁ σθένων.
+
+## 698
+ἱππικῶν] Blaydes conj. ἱππικὸς.
+--- notes
+Note 697: L's δύναι...τ’ is printed with three dots; Heim-soeth is divided at the line end in the print; joined.
+Note 698: Blaydes's ἱππικὸς is printed with a grave before the full stop (enlarged); kept as printed.
+The lemmas are in the ordinary Greek type, not bold.

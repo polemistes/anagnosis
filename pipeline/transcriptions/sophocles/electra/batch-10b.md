@@ -111,3 +111,90 @@ The 1st hand in L wrote γὰρ (without σ’): an early corrector has changed 
 The lemmas are in the ordinary (italic) Greek type, not bold.
 Note 1185: ᾔδη (Heath and Brunck) and ᾔδειν (MSS.) have the iota subscript under the first η (enlarged 6x, high contrast; the final η of ᾔδη has none); Tournier's ᾔδη is printed the same way.
 Note 1193: ἀνάγκῃ (r, Ald.) has the iota subscript, ἀνάγκη (L, A) has none (enlarged 6x); γὰρ has the grave, γάρ σ’ the acute. The note runs on to p-0258.
+
+=== p-0258
+--- numbers
+1195 τί
+1200 μόνος
+1205 μέθες
+1210 Ὀρέστα
+--- differences
+1195: ours «χερσὶν» print «χερσίν,»
+1198: ours «δῆθʼ.» print «δῆθ’·»
+1201: ours «τοῖς ἴσοις» print «τοῖσι σοῖς»
+1205: ours «νῦν» print «νυν»
+1207: ours «πείθου» print «πιθοῦ»
+1209: ours «οὔ φημʼ» print «οὐ φήμ’»
+--- apparatus
++ Blaydes, προσβάλλει.
+
+## 1196
+πᾶσιν made in L from πᾶσι by a late hand.
+
+## 1197
+οὐδ’ ὁ r: οὔθ’ ὁ L.
+
+## 1198
+In L the σ of προὔθηκασ has been added by the first corrector, S.
+
+## 1200
+νυν T (Triclinius): νῦν the other MSS., and Ald.—ποτέ] ἐμέ D (cod. Par. 2820): με σύ Harl.: Blaydes writes σύ με.
+
+## 1201
+τοῖσι σοῖς A, with most MSS., and Ald. In L the 1st hand wrote τοῖσ ἴσοισ, and ἴ remains,
+--- notes
+The block begins with the end of note 1193 (Reiske's and Blaydes's conjectures on προτρέπει, from p-0257).
+The lemma ποτέ is in the ordinary (italic) Greek type, not bold.
+1195: the print has χερσίν with the acute and a comma after it (looked at twice, enlarged); ours χερσὶν without comma.
+1198: the print has a raised point after δῆθ’ (looked at twice, enlarged); ours a full stop.
+1201: the print reads τοῖσι σοῖς (Jebb's choice, defended in his note and commentary on 1201); ours τοῖς ἴσοις.
+1205, 1207, 1209: the print has the enclitic νυν without accent, πιθοῦ (aorist imperative) and οὐ φήμ’ (looked at twice, enlarged); ours νῦν, πείθου and οὔ φημʼ. The small mark before μάθῃς in 1205 is a speck.
+1209: the shared verse (our 1209 and 1209a) is printed on one line, as usual; no difference.
+Note 1197: L's οὔθ’ has smooth breathing and acute; both ὁ have the rough breathing (enlarged).
+Note 1198: προὔθηκασ is printed with the medial σ at the end, as L writes; kept.
+Note 1201: τοῖσ ἴσοισ is printed with the medial σ at the ends, as L writes (kept); ἴσοισ and the following ἴ have smooth breathing and acute (enlarged). The note runs on to p-0259.
+
+=== p-0259
+--- apparatus
++ but a corrector has placed a circumflex over the third ι, indicating τοῖσι σοῖσ.
+
+## 1205
+νυν Monk (*Mus. Crit.* I. p. 212): νῦν MSS.
+
+## 1207
+πιθοῦ r: πείθου L, with most MSS., and Ald.—ποτέ] Wecklein conj. τόδε.
+
+## 1208
+μὴ ’ξέλῃ MSS. (μὴ ’ξέλῃς cod. Mon. 313), Ald., and Eustathius p. 129. 15: μ’ ἐξέλῃ Elmsley.
+
+## 1210
+εἰ στερήσομαι] ὑστερήσομαι r.
+--- notes
+The block begins with the end of note 1201 (from p-0258).
+The lemmas (ποτέ, εἰ στερήσομαι) are in the ordinary (italic) Greek type, not bold.
+Note 1201: σοῖσ is printed with the medial σ at the end, as L writes; kept.
+Note 1207: L's πείθου has the acute on ι (enlarged).
+Note 1208: ’ξέλῃ, ’ξέλῃς and Elmsley's ἐξέλῃ have the iota subscript (enlarged 5x, high contrast).
+Note 1210: ὑστερήσομαι has the rough breathing (enlarged).
+
+=== p-0260
+--- numbers
+1215 ἄτιμος
+1220 πῶς
+--- differences
+1216: ours «τόδε;» print «τόδε.»
+--- apparatus
+## 1215
+τοῦτο δ’ οὐχὶ σόν.] In L there is an erasure over these words: a marginal gloss explains them by οὐ σοὶ προσήκει. The gloss ἀλλ’ ἐμὸν, written between this v. and 1216, also refers to them.
+
+## 1216
+βαστάζω made in L from βαστάσω.—τόδε.] Morstadt would write τόδε;
+
+## 1217
+οὐκ] In L the κ has been added (or made from γ?)
+--- notes
+The lemmas are in the ordinary (italic) Greek type, not bold.
+1216: the print ends the line with a full stop (looked at twice, enlarged; Jebb's note says Morstadt would write τόδε;); ours has a question mark.
+1221: the breathing on ἁνήρ is rough (enlarged 6x, compared with the smooth breathing of οὐ in the notes), as ours; no difference.
+1220, 1221, 1222: each verse shared between Electra and Orestes is printed on one line (our 1220a, 1221a, 1222a); no difference.
+Note 1215: σοὶ and ἐμὸν are printed with the grave (enlarged).

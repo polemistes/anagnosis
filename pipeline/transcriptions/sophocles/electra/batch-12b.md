@@ -109,3 +109,49 @@ The lemmas are in the ordinary (italic) Greek type, not bold.
 The block begins with the text of note 1445 (ναὶ σὲ Reiske …), whose heading stands at the foot of p-0288.
 Note 1449: L's τῆσ, ῆσ, τησ, ησ are printed with the medial σ at the end, as L writes; the first ῆσ has the circumflex, ησ none (enlarged). Lenting and G. Wolff's τῶν ἐμῶν τῆς φιλτάτων is printed so (enlarged), as is Hartung's τῆς ἐμῶν τῶν φιλτάτων; kept as printed. L² written L2.
 Note 1450: Nauck's ἄρ’ εἰσίν and εἴσ’ are printed with the smooth breathing and the acute (enlarged).
+
+=== p-0290
+--- numbers
+1455 πάρεστι
+1460 ὡς
+1465 νοῦν
+--- differences
+1457: ours «τυγχάνοι» print «τυγχάνει»
+1462: ours «τἀμὰ μηδὲ» print «τἀμά, μηδὲ»
+--- apparatus
++ (as Wunder, φίλης γὰρ πρὸς ξένου).—κατήνυσαν] καθήνυσαν Dobree on Arist. *Plut.* 607, in accord with Phrynichus (in Bekker’s *Anecd.* I. p. 14): ἁνύειν· δασύνουσιν οἱ Ἀττικοί. καὶ δῆλον ἐκ τῆς συναλοιφῆς· καθήνυσαν γάρ. Porson also wrote ἁνύτουσιν in Eur. *Ph.* 463 (=453 Dind.), ‘Moeridi, Herodiano et aliis obsecutus.’ Our MSS. of the tragic dramatists preserve no traces of an aspirate in ἀνύω or ἀνύτω. Ellendt explains this by supposing that Tragedy followed the epic usage, which (acc. to schol. on ἄνυσις in *Il.* 2. 347) did not employ the aspirated forms.
+
+## 1453
+οὔκ, ἀλλὰ] ὀὔκ’· ἀλλὰ L, but there has been an attempt to cancel the accent on ὔ. The Ald. gives οὔκ· ἀλλὰ.
+
+## 1456
+χαίρειν μ’] μ’ is wanting in A and E.
+
+## 1457
+χαρτὰ made in L from χαρὰ.—τυγχάνει A, with most MSS., and Ald.: τυγχάνοι L, and the
+--- notes
+The lemmas are in the ordinary (italic) Greek type, not bold.
+1457: the print has τυγχάνει (Jebb's reading, see his note 1457), looked at twice, enlarged; ours τυγχάνοι.
+1462: the print has τἀμά, with the acute and a comma before μηδὲ (looked at twice, enlarged); ours τἀμὰ without comma.
+Note 1451 (continued): ἁνύειν (Phrynichus) and ἁνύτουσιν (Porson) are printed with the rough breathing, the aspirated forms the note is about; ἀνύω, ἀνύτω and ἄνυσις with the smooth (enlarged, compared with the breathings of οἱ Ἀττικοί).
+Note 1453: L's reading is printed ὀὔκ’· with a small mark like a smooth breathing over the ο as well as the breathing and acute over υ (enlarged 10x; the Ald.'s οὔκ· in the same note has no mark over ο); transcribed as seen; if the mark over ο is a speck, read οὔκ’·.
+
+=== p-0291
+--- apparatus
++ inferior MSS. of Suidas (s. v. χαρτὰ): in the better MSS. of Suidas this v. is wanting.
+
+## 1458
+σιγᾶν] Wecklein writes οἴγειν: and so, independently, as it seems, Paley (ed. 1880).—κἀναδεικνύναι] Hartung writes κἀμπεταννύναι: Herwerden conj. κἀναπιτνάναι: Fröhlich, καὶ διοιγνύναι.—πύλας] πύλαις Monacensis: as Döderlein and Dobree wished to read. Reiske conj. πέλας: Fröhlich δέμας (as Blaydes reads): Purgold, τύχας: Tournier, στέγας.
+
+## 1459
+Μυκηναίοισιν] Wiesler conj. Μυκηναίοις νιν.—Nauck, with Herwerden, rejects this v.
+
+## 1460
+αὐτῶν] ἀστῶν Nauck, with Benedict and Herwerden.
+
+## 1465
+κρείσσοσιν L: κρείττοσιν r, and Ald.
+--- notes
+The lemmas are in the ordinary (italic) Greek type, not bold.
+The block begins with the end of note 1457 (p-0290). "want-ing" is divided at the line end in the print; written wanting. "s. v." is in italics in the print (not a book title, left unmarked).
+Note 1458: Fröhlich δέμας is printed without a comma after the name (unlike "Fröhlich, καὶ διοιγνύναι" before it); kept as printed.

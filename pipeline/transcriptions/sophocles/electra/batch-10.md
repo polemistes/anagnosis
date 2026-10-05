@@ -136,3 +136,65 @@ The lemmas are in the ordinary (italic) Greek type, not bold.
 The block begins with the end of note 1135 running on from p-0250 (εἰληχὼς] | εἰληφὼς E.).
 Note 1139: L's πυρὸσ is printed with the medial σ at the end, as L writes; kept.
 Note 1141: L's ξένηισι is printed with the iota adscript after η (enlarged); kept.
+
+=== p-0252
+--- numbers
+1145 πόνῳ
+1150 θανόντι
+1155 φήμας
+1160 οἴμοι
+--- differences
+1145: ours «παρέσχον·» print «παρέσχον.»
+1150: ours «σοί·» print «σοί.»
+1155: ours «προύπεμπες» print «προὔπεμπες»
+1158: ours «προύπεμψεν» print «προὔπεμψεν»
+1160: ours «οἴμοι μοι.» print «οἴμοι μοι·»
+1161: ours «οἰκτρόν.» print «οἰκτρόν,»
+--- apparatus
+## 1142
+μικρὸς...μικρῷ Suidas *s. v.* ὄγκος.
+
+## 1145
+παρέσχον] Nauck conj. παρεῖχον.
+
+## 1146
+Nauck would reduce these two vv. to one, thus: μητρὸς σύ γ’ εἷλκες μαστόν, ἀλλ’ ἐγὼ τροφός (changing οὔτε to οὐδὲ or οὔ τι in 1145).
+
+## 1148
+σοι L (with ὴ, indicating σὴ, written above by the 1st hand): σοὶ A: σὴ Γ, etc., and Ald.—προσηυδώμην L (made from προσηυδόμην), A, etc.: προσηυδόμην r and Ald.
+
+## 1150
+θανόντι] θανόντα Γ.
+
+## 1152
+τέθνηκ’ ἐγώ σοι MSS. and Ald.—Erfurdt
+--- notes
+The lemmas are in the ordinary (italic) Greek type, not bold.
+1145 and 1150: the print has a full stop on the baseline after παρέσχον and after σοί (compared with the raised point after πατήρ in 1151); ours has a raised point. 1160: the print has a raised point after οἴμοι μοι, ours a full stop; 1161: a comma after οἰκτρόν, ours a full stop. All looked at twice (enlarged).
+1155, 1158: the print has προὔπεμπες and προὔπεμψεν with the coronis and acute on υ (looked at twice, enlarged); ours προύπεμπες, προύπεμψεν.
+Note 1146: εἷλκες read with rough breathing and circumflex (small type, enlarged).
+Note 1148: the letter written above is printed ὴ (grave, no iota subscript), and the reading σὴ likewise, both times (enlarged).
+Note 1150: a tiny speck low after θανόντα (before Γ.) is much smaller than a comma; taken as a blemish and left out.
+Note 1152 runs on to p-0253.
+
+=== p-0253
+--- apparatus
++ wrote τέθνηκ’ ἐγώ· σὺ φροῦδος etc., which Hermann and others adopt. Musgrave conj. τέτηκ’ ἐγώ σοι (Fröhlich, τέτηκ’ ἐγώ· σὺ).
+
+## 1157
+In L a point (or letter?) has been erased after δαίμων, and there is also an erasure at the second σ of σόσ.—ἐξαφείλετο made in L by erasure from ἐξαφείλατο.
+
+## 1158
+φιλτάτης] φιλτάτου L, with ησ written above by the 1st hand.
+
+## 1159
+σποδόν] In L ν has been erased before δ.
+
+## 1160
+οἴμοι μοι] οἴ μοι μοί L, and so in 1162.
+--- notes
+The lemmas are in the ordinary (italic) Greek type, not bold.
+The block begins with the end of note 1152 running on from p-0252 (—Erfurdt | wrote τέθνηκ’ ἐγώ· σὺ φροῦδος etc.).
+Note 1152 (run-on): Fröhlich's σὺ before the closing parenthesis has a grave accent, as printed (enlarged).
+Note 1157: L's σόσ and the ησ of note 1158 are printed with the medial σ at the end, as L writes; kept.
+Note 1158: φιλ-|τάτου is divided at the line end; joined.

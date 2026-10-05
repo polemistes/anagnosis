@@ -19,9 +19,9 @@
 ἐπελθόντοιν A, and Ald.: ἐπελθόντων L (but with the ω partly erased, and οι written above by an early hand), Γ. Nauck conj. ἐσελθόντοιν: Blaydes, παρελθόντοιν.
 
 ## 1298
-τῇ μάτην] Reiske and Blaydes conj. μὴ μάτην.—**λελεγμένῃ** A, with most MSS., and Ald.: δεδεγμένηι L, with λλ written above by an early hand. This is correctly
+τῇ μάτην] Reiske and Blaydes conj. μὴ μάτην.—λελεγμένῃ A, with most MSS., and Ald.: δεδεγμένηι L, with λλ written above by an early hand. This is correctly
 --- notes
-The lemmas are in the ordinary (italic) Greek type, not bold, except λελεγμένῃ in note 1298, which is printed in the upright heavier (bold) type (enlarged); the λλ of the same note is in the same upright type but is not a lemma.
+The lemmas are in the ordinary (italic) Greek type, not bold. In note 1298 λελεγμένῃ looks heavier at first sight because the λ of this type is upright (like the λλ of the same note), but enlarged 3x the rest of the word is in the ordinary italic type; not marked bold.
 1301: the print has a comma after ἀλλ’ (ἀλλ’, ὦ κασίγνηθ’), looked at twice, enlarged; ours has none.
 1303: the print ends the line with a full stop (looked at twice, enlarged); ours has a comma.
 1310: the print ends the line with a high point (κάρα·), looked at twice, enlarged; ours has a full stop.
@@ -86,7 +86,7 @@ Note 1308: ὅθ’ οὕνεκ’ (rough breathing and acute on both, enlarged 
 σιγᾶν...
 --- notes
 The block begins with the end of note 1308, running on from p-0271. The lemmas are in the ordinary (italic) Greek type, not bold.
-1313: the print has a full stop after δακρυρροοῦσα (looked at twice); ours has a high point.
+1313: the print has a full stop after δακρυρροοῦσα (looked at twice, enlarged); ours has a high point.
 1321: the print has ἐμαυτήν with the acute followed by a comma (looked at twice, enlarged); ours ἐμαυτὴν without the comma.
 1322: the print has a high point after ἐπῄνεσ’ (ἐπῄνεσ’· ὡς), looked at twice, enlarged; the iota subscript is printed, as ours.
 1327: the print ends the line with a comma after ἔτι (looked at twice, enlarged); ours has none.
@@ -105,7 +105,7 @@ Note 1322: the block ends with σιγᾶν followed by three dots; the note runs
 ## 1328
 ὑμὶν] ὑμῖν MSS. (ἡμῖν E), and Ald.—ἐγγενὴς r (A, etc.), and Ald.: ἐκγενήσ L
 --- notes
-The block begins with the end of note 1322 (σιγᾶν...χωροῦντος), running on from p-0272. The lemmas are in the ordinary (italic) Greek type, not bold; Fröhlich's τινὸς looks slightly heavier, but is not a lemma.
+The block begins with the end of note 1322 (σιγᾶν...χωροῦντος), running on from p-0272. The lemmas are in the ordinary (italic) Greek type, not bold.
 Note 1325: L's ἡισθείη has the rough breathing on η and the acute on -εί- (enlarged).
 Note 1328: ἐγγενὴς (r, Ald.) is printed with the grave, L's ἐκγενήσ with the acute and the medial σ at the end (both enlarged 4x). The block ends with «ἐκγενήσ L» without a stop; the note runs on to p-0274.
 
@@ -176,4 +176,64 @@ Note 1339-1345: the label «1339—1345» and «1340—1344» are printed with a
 Note 1340: a point is printed after «σε]», slightly raised (enlarged 2.2x); kept as a full stop, perhaps a stray mark.
 Note 1341: Fröhlich's ἔοικέ has the acute on both syllables, followed by a comma and μ’; Wecklein's ἔμ’ has the smooth breathing and acute (enlarged 2.2x).
 Note 1345: τἀκείνων is printed with the coronis (enlarged).
+
+=== p-0276
+--- numbers
+1350 ὑπεξεπέμφθην
+1355 Ἀγαμέμνονος
+1360 λόγοις
+--- differences
+1347a: ours «ἐς» print «εἰς»
+1351: ours «οὗτος, ὅν» print «οὗτος ὅν»
+1364: ours «λόγους» print «λόγους,»
+--- apparatus
++ A too has τἀκείνων: but the Ald., τὰ κείνων.
+
+## 1347
+ξυνίης r: ξυνίεισ L, with most MSS., and Ald.
+
+## 1348
+χέρασ L: χεῖρας A, and Ald.
+
+## 1350
+προμηθίαι L, with ει written over ι by a corrector. προμηθείᾳ A, and Ald.: προθυμία Pal.
+
+## 1351
+ὅν ποτ’] Meineke conj. ὃν τότ’.
+
+## 1352
+προσηῦρον Dindorf: προσεῦρον MSS.
+
+## 1355
+In L ἦ has been made from ἢ: εἶ is in an erasure: and the σ of ὃσ
+--- notes
+The block begins with the end of note 1345 («A too has τἀκείνων …»), running on from p-0275. The lemmas are in the ordinary (italic) Greek type, not bold.
+1347a: the print has εἰς θυμὸν (looked at twice, enlarged; Jebb's commentary on 1347 also quotes εἰς θυμὸν φέρω); ours ἐς.
+1351: the print has no comma after οὗτος (looked at twice, enlarged); ours has one.
+1364: the print ends the line with a comma after λόγους (looked at twice, enlarged); ours has none.
+Notes 1347, 1348, 1355: L's ξυνίεισ, χέρασ and ὃσ are printed with the medial σ at the end, as L writes; kept.
+Note 1350: L's προμηθίαι has the iota adscript; προμηθείᾳ (A, Ald.) has the iota subscript, Pal.'s προθυμία is printed without one (enlarged 2x).
+Note 1351: the lemma ὅν has the acute, Meineke's ὃν the grave (enlarged 4x).
+Note 1355: ἦ (smooth breathing, circumflex) made from ἢ (smooth breathing, grave); ὃσ with the rough breathing and grave (enlarged 4x). The note runs on to p-0277.
+
+=== p-0277
+--- apparatus
++ has been added by a corrector.
+
+## 1357
+Bothe conj. ὦ φιλτάτας μὲν χεῖρας, which Blaydes adopts.—ἥδιστον δ’ ἔχων MSS., and Ald. For ἔχων, Schneidewin conj. ἐμοί: Emperius and Bergk, νῷν: Wieck, σῶν: F. W. Schmidt, ἐμῶν, and for ποδῶν, πόνων.
+
+## 1360
+ἥδιστ’ ἐμοὶ MSS., and Ald.: Erfurdt and others conj. ἥδιστά μοι.
+
+## 1361
+Nauck conj. χαῖρ’ ὦ πάτερ μοι· πατέρα γάρ σ’ ὁρᾶν δοκῶ.—δοκῶι L.
+
+## 1362
+ἴσθι δ’] In L the δ’ has been added by S.—μάλιστά σ’] σ’ made in L from τ.
+--- notes
+The block begins with the end of note 1355 («and the σ of ὃσ | has been added by a corrector»), running on from p-0276. The lemmas are in the ordinary (italic) Greek type, not bold.
+Note 1357: Emperius and Bergk's νῷν has the circumflex and the iota subscript (enlarged 3.5x).
+Note 1360: ἐμοὶ is printed with the grave (enlarged 3.5x), although the text line has ἐμοί; kept as printed.
+Note 1361: Nauck's ὁρᾶν has the rough breathing (enlarged 3.5x); δοκῶι (L) with the iota adscript.
 

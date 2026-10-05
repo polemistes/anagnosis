@@ -162,3 +162,44 @@ Notes 796, 797: L's ὅπωσ (twice) and ἥκοισ are printed with the media
 Note 797: Hense's ἡμίν has the acute on ι, not the circumflex (looked at twice, enlarged; cp. ὑμὶν in the text of 804). Monk's ἧκες has the circumflex, the other forms of ἥκω the acute.
 Note 798: the lemma ἔπ-αυσας is divided at the line end in the print; joined.
 The lemmas are in the ordinary (italic) Greek type, not bold.
+
+=== p-0212
+--- numbers
+800 ἥκιστ’
+805 δεινῶς
+810 αἵ
+815 ἐν
+--- differences
+800: ours «κατάξιʼ ἂν» print «καταξίως»
+807: ours «φροῦδος·» print «φροῦδος.»
+807: ours «ἐγώ.» print «ἐγώ·»
+818: ours «ξύνοικος, εἴσειμʼ» print «ξύνοικος *εἴσειμʼ»
+--- apparatus
++ περισπερχοῦς (from Hesych., περισπέρχου βοῆς).
+
+## 800
+ἐπείπερ] Paley reads ἐπει τἂν (as Blaydes and Michaelis had suggested).—καταξίως L, with most MSS., and Ald.: κατ’ ἀξίαν r: ἐπειδήπερ ἐμοῦ γ’ οὔτ’ ἀξίως Harl.: Monk and Bothe conj. κατάξι’ ἂν: B. Arnold, ἐμοῦ γ’ ἂν ἀξίως.
+
+## 801
+πράξειας] Henneberg and Schneidewin conj. πράξαις ἄν. Bergk, πράξειας, οὔτ’ ἂν.
+
+## 802
+τήν δέ δ’ L (not τήνδε δ’). δ’ has been made from τ’ by a later hand.—ἔκτοθεν L: ἔκτοσθεν r, and Ald.
+
+## 803
+τά θ’ made in L from ταῦθ’, the reading of Γ.
+
+## 805
+κἀπικωσύσαι L.
+
+## 807
+ὦ] The scribe of L meant (I think) to write ὦ, not
+--- notes
+800: the print reads καταξίως (looked at twice, enlarged; Jebb's commentary: "The change of καταξίως into κατάξι’ ἂν, though specious, is not probable"); ours κατάξιʼ ἂν.
+807: the print has a full stop on the baseline after φροῦδος and a raised point after ἐγώ (looked at twice, enlarged); ours has the raised point after φροῦδος and a full stop after ἐγώ.
+818: the print has no comma after ξύνοικος and an asterisk before εἴσειμ’, Jebb's sign for an emendation (looked at twice, enlarged); ours has the comma and no asterisk.
+803: αὑτῆς has the rough breathing in the print (enlarged), as ours; not a difference.
+Note 800: Paley's ἐπει τἂν is printed with no accent on the ι of ἐπει (looked at twice, enlarged); τἂν has the coronis and grave. Bergk's ἂν (801) and Monk and Bothe's κατάξι’ ἂν have the grave; Henneberg and Schneidewin's ἄν the acute.
+Note 805: L's κἀπι-κωσύσαι is divided at the line end in the print; joined. The print has κωσύσαι with σ (enlarged), not κωκύσαι.
+Note 807: the lemma ὦ has the smooth breathing and circumflex; the form after "to write" is small and blurred (enlarged): read as ὦ, perhaps ὤ.
+The lemmas are in the ordinary (italic) Greek type, not bold.

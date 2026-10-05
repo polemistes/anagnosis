@@ -204,3 +204,29 @@ Note 1082-1089: οὐδεὶσ is printed with the medial σ at the end, as L wr
 Note 1084: νώνυμοσ and νωνυμνοσ are printed with the medial σ at the end, as L writes; kept. νωνυμνοσ has no accent.
 "MSS." is in small capitals.
 The lemmas are in the ordinary Greek type, not bold.
+
+=== p-0245
+--- apparatus
+## 1087
+καθοπλίσασα MSS. (made in A from καθοπλίσασθαι). For conjectures see comment.
+
+## 1088
+φέρειν] Nauck writes φέρῃ δ’ (*i.e.* φέρει δ’).—ἐν ἑνὶ λόγῳ] ἑνὶ λόγῳ MSS. (except T), and Ald. The metre (cp. 1096) shows that a short syllable is wanting; hence ἑνί γε λόγῳ Triclinius (T). ἐν was added by Brunck. Hermann quotes a gloss from the Leipsic MSS. a and b, ἀποφέρεσθαι ἐν ἑνὶ λόγῳ.
+
+## 1091
+χειρὶ Eustathius p. 1083. 17: χερὶ MSS., and Ald.—τῶν ἐχθρῶν MSS.: for τῶν Hermann conj. τεῶν: L. Lange, τοσόνδ’ (received by Nauck and Wecklein).
+
+## 1092
+ὑπόχειρ Musgrave: ὑπὸ χεῖρα MSS. (ὑπὸ χέρα Erfurdt).
+
+## 1093
+ἐφηύρηκα Dindorf: ἐφεύρηκα MSS.
+
+## 1094
+ἐν ἐσθλᾷ] ἐν is omitted by L, but is present in A (and in Ald.): the later MSS. are divided; and some of them (as Vindobonensis, Pal., and L2) have ἐπ’.
+--- notes
+Note 1088: a small dot is printed at mid-height between φέρῃ and δ’ (enlarged at 1200 dpi from the scan); it is not in the gloss (i.e. φέρει δ’) and makes no sense as punctuation, so it is taken for a speck and left out. ἑνὶ in the lemma, in the reading of the MSS. and in the gloss has the rough breathing and grave; ἑνί γε has the acute (enlarged).
+Note 1093: confirms the text check on p-0244, where the print reads ἐφεύρηκα (the MSS.) and ours ἐφηύρηκα (Dindorf).
+Note 1094: L² is written L2. The word "is" after ἐν is smudged in the print but legible.
+"MSS." is in small capitals throughout the block.
+The lemmas are in the ordinary Greek type, not bold.
