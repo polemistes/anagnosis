@@ -77,3 +77,35 @@ Note 329: the lemma is divided ἐλ-|θοῦσα across two lines. In Nauck's �
 Note 331: L's ψυχῆι ματαίαι is printed with the iota adscript; kept.
 The lemmas are in the ordinary Greek type, not bold.
 
+=== p-0148
+--- numbers
+335 νῦν
+340 ζῆν
+345 ἔπειθ’
+--- differences
+336: ours «μή·» print «μή.»
+341: ours «ἔφυς,» print «ἔφυς»
+345: ours «κακῶς» print «κακῶς,»
+--- apparatus
+## 335
+Suidas *s. v.* ὑφειμένοι quotes these words, πλεῖν δ’ ἐν κακοῖς ὑφειμένῃ δοκεῖ.
+
+## 336
+Hartung writes, πημαίνειν δ’ ἐμέ.
+
+## 337
+ἄλλα Dindorf: ἀλλὰ MSS. and Ald.: Wecklein conj. τοιαῦτα δ’ ἂν ἅμα..βουλοίμην: Kayser, τοιαῦτα δῆτα: Hoffmann, τοιαῦτα μᾶλλον: Stürenburg, τοιαῦτ’, ἀδελφή, which Nauck receives.
+
+## 338
+ᾗ ’γὼ made in L from η ’γὼ.
+
+## 340
+ἀκοστέα L, as in *Tr.* 431 ἤκοσεν.
+--- notes
+All three differences were looked at twice, enlarged: 336 ends with a full stop on the baseline (ours a raised point); 341 has no punctuation after ἔφυς; 345 ends with a comma.
+338: between καίτοι and τὸ there is a faint speck at mid height, much lighter than the type; taken for a blemish, not a stop, and not reported.
+335 (text and note): ὑφειμένῃ has the iota subscript (enlarged).
+Note 337: Wecklein's conjecture has two spaced dots (ἅμα . . βουλοίμην), written ..; ἅμα read with the rough breathing that the word has (the mark is very small).
+Note 338: the reading L was made from, η ’γὼ, is printed with a bare η (no breathing, accent or iota subscript).
+The lemmas are in the ordinary Greek type, not bold.
+

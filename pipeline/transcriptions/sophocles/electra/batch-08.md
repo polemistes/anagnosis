@@ -265,3 +265,27 @@ Run-on of 890: "(ό made from ὸ ...)": the first ο has an acute, the second a
 Note 898: the lemma is divided at the line end (ἐγ-|χρίμπτῃ]); written as one word. Between ἐγχρίπτοι and βροτός the print has a small comma, set with space on both sides (enlarged); kept as a comma.
 Note 900: "900 f." is headed 900; ἐσχάτης...πυρᾶς with three dots, ἐσχάτῃ..πυρᾷ with two, as printed.
 Notes 894: ὁρῶ and L's ὁρῶι read with a rough breathing (small type, enlarged).
+
+=== p-0224
+--- numbers
+905 καὶ
+910 κἀγὼ
+--- differences
+908: ours «μολεῖν·» print «μολεῖν.»
+--- apparatus
+## 902
+μοι] μου L, with οι written above by a late hand.
+
+## 903
+ψυχῇ] made in L from ψυχῆσ.—ὄμμα] Nauck writes φάσμα, which Blaydes and F. W. Schmidt also proposed.
+
+## 905
+βαστάσασα] In L the final α has been added by S.
+
+## 912
+ἀκλαύστῳ]
+--- notes
+The lemmas are in the ordinary (italic) Greek type, not bold.
+908: the print ends the line with a full stop on the baseline (looked at twice, enlarged; compare the raised point after τεκμήριον in 904); ours has ·.
+Note 903: L's ψυχῆσ is printed with the medial σ at the end, as L writes; kept.
+Note 912 runs on to the next page after the lemma ἀκλαύστῳ].

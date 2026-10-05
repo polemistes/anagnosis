@@ -304,3 +304,20 @@ The lemmas are in the ordinary Greek type, not bold.
 Note 684: L's προκηρύξαντοσ is printed with medial σ at the end, as L writes; kept.
 Note 688: Nauck's πολλὰ is printed with a grave before the full stop (enlarged); kept as printed. The lemma παῦρα has no second accent.
 The lemmas are in the ordinary Greek type, not bold.
+
+=== p-0195
+--- apparatus
++ Brunck.—Schneidewin conj. τοῖα τἀνδρὸς, placing (with Vauvilliers) a colon after οἶδα.
+
+## 690-695
+These six vv. are rejected by Paley.
+
+## 690
+βραβῆσ L, with ει written above by a later hand. An ι subscript has also been added under ῆ. So too in 709, where εῖ is superscript.
+
+## 691
+δρόμων διαύλων πένταθλ’ ἃ νομίζεται L, with most MSS. Some MSS. of Suidas *s.v.* βραβεῖς have δρόμον, and ὅσον in 690. An attempt at correction was made by writing πεντάεθλ’: so T, A (as corrected), and
+--- notes
+Note 689 (continued): Schneidewin's τοῖα τἀνδρὸς is printed in a heavier, bold-looking type, as Schäfer's τήνδε on p-0192; not marked as bold.
+Note 690: L's βραβῆσ is printed with medial σ at the end; kept.
+The lemmas are in the ordinary Greek type, not bold.

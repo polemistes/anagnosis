@@ -84,3 +84,21 @@ The small numbers 1–8 before the verses of the strophe are the numbering withi
 Note 1052: L's οὖ has a circumflex over the smooth breathing (enlarged, also rendered from the scan at its native resolution); σοὶ has the grave in L's reading and in Nauck's οὐχὶ σοὶ and οὐ μὴν σοὶ, as printed. "VII." is in small capitals.
 Note 1053: the lemma ἢν and L's ἢν have the rough breathing and grave; "made from ἦν" has the smooth breathing and circumflex (enlarged at native resolution). τυγχάνῃς and L's τυγχανῃς both have the iota subscript; L's has no accent.
 The lemmas are in the ordinary Greek type, not bold.
+
+=== p-0241
+--- apparatus
+## 1058-1069
+L divides the vv. thus:—τί— | οἰωνοὺσ— | τροφᾶσ— | τε βλαστῶσιν—εὕρω | σι— | ἀλλ’ οὐ— | καὶ τὰν— | δαρὸν— | ὦ χθονία— | κατά— | ὄπα— | ἀχόρευτα—ὀνείδη.
+
+## 1061
+βλάστωσιν Schaefer: βλαστῶσιν MSS., and Ald.—ὄνασιν Brunck: ὄνησιν MSS., and Ald.: also Suidas *s. v.* ἄνωθεν.
+
+## 1063
+ἀλλ’ οὐ τὰν Turnebus: ἀλλ’ οὐ μὰ τὰν MSS., which Bergk and Wecklein retain (reading πότμον for τὸν in the antistr., v. 1075).
+
+## 1064
+οὐρανίαν] L has the second ν in an
+--- notes
+Note 1058-1069: οἰωνοὺσ and τροφᾶσ are printed with the medial σ at the end, as L writes; kept. βλα-|στῶσιν is divided at the end of a line in the print; joined. εὕρω has the rough breathing and acute (enlarged at the scan's native resolution).
+Note 1061: "MSS." is in small capitals here and in note 1063.
+The lemmas are in the ordinary Greek type, not bold.

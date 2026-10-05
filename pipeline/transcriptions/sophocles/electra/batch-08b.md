@@ -80,3 +80,48 @@ Note 922: "has altered c to έ": the letter is printed as an upright roman c (en
 Notes 922, 929: final σ printed in the medial form (ἔφυσ, δυσμενήσ), as L writes; kept.
 Note 933: L's προσθεῖναι τινα has no accent on the final ι or on τινα; Campbell's προσθεῖναί τινα has an acute on the final ι (enlarged).
 
+=== p-0228
+--- numbers
+940 ἦ
+945 ὅρα
+950 ἀπεστέρηκε
+955 ὅπως
+--- differences
+949: ours «ἔστιν,» print «ἐστιν,»
+--- apparatus
++ by the 1st hand.
+
+## 938
+δέ μοι] δ’ ἐμοὶ Brunck.—πίθῃ] πϊθῆι L.
+
+## 939-941
+These three vv. are rejected by Schenkel; the second and third of them, by Morstadt and A. Schöll. Nauck would omit 941, and place 940 before 939.
+
+## 940
+ἦ made in L from ἤ.—ποτέ] Wecklein writes πάλιν.
+
+## 941
+ἔσθ’ ὅ γ’ r: ἔσθ’ ὅδ’ L (with γ written above). Haupt conj. ἐς τόδ’ (a reading cited by Campb. from a Milan MS., Ambros. G. 56 sup.), which is adopted by Michaelis (3rd ed. of O. Jahn) and Mekler (6th Teubner ed. of Dindorf): Madvig, οἶσθ’ ὅ γ’.
+
+## 943
+ἃν] ῾ἂν L: ἅ γ’ or ἃ σ’ r.
+
+## 944
+ὠφέλειά γ’, οὐκ] To remove γ’, Hense conj. πῶς, and Nauck ὠφέλησις.
+
+## 945
+πόνου made in L from πόνουσ.
+
+## 947
+δή νυν Triclinius: δὴ νῦν L, with most
+--- notes
+The lemmas are in the ordinary (italic) Greek type, not bold.
+The block begins with the end of note 935 from p-0227 ("by the 1st hand.").
+949: the print has ἐστιν with the smooth breathing and no accent (looked at twice, enlarged); ours ἔστιν.
+943: the text has ἃν with rough breathing and grave (enlarged), as ours.
+Note 938: L's πϊθῆι is printed with a diaeresis on ι and a circumflex on η, the ι adscript; the lemma πίθῃ has the iota subscript.
+Note 940: L's earlier form read as ἤ, smooth breathing and acute (enlarged); in the small type smooth and rough are hard to tell apart here.
+Note 941: in ὅ γ’ and ὅδ’ the breathing and accent sit so close on the ο that it looks like δ; read as ὅ.
+Note 943: before L's ἂν the print has a free-standing mark shaped like a rough breathing (‘); written ῾ (U+1FFE). L's ἂν read with smooth breathing and grave (a plain peak), the lemma ἃν and r's ἃ σ’ with rough breathing and grave (a hooked peak), r's ἅ γ’ with rough breathing and acute (enlarged at high magnification; the small type is close).
+Note 945: final σ printed in the medial form (πόνουσ), as L writes; kept.
+

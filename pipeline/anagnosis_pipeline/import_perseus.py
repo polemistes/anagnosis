@@ -152,6 +152,14 @@ LEMMA_FIXES = {
     "πλήσιος": "πλησίος",
     "ἀμφικεῖμαι": "ἀμφίκειμαι",
     "σαυτοῦ": "σεαυτοῦ",
+    # slips in the Ajax treebank
+    "πρήν": "φρήν",
+    "τεῦκρος": "Τεῦκρος",
+    "Ατρείδης": "Ἀτρείδης",
+    "Ἐριβοία": "Ἐρίβοια",
+    "ἀπαίσσω": "ἀπαΐσσω",
+    "εἴσειδον": "εἰσεῖδον",
+    "οἰ": "οἴ",
 }
 
 # Hand annotations for words the treebank does not cover (Storr's text differs from the

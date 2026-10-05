@@ -109,3 +109,40 @@ The block begins with the end of note 1322 (σιγᾶν...χωροῦντος), 
 Note 1325: L's ἡισθείη has the rough breathing on η and the acute on -εί- (enlarged).
 Note 1328: ἐγγενὴς (r, Ald.) is printed with the grave, L's ἐκγενήσ with the acute and the medial σ at the end (both enlarged 4x). The block ends with «ἐκγενήσ L» without a stop; the note runs on to p-0274.
 
+=== p-0274
+--- numbers
+1330 τοῖσιν
+1335 καὶ
+1340 καλῶς
+1345 καλῶς
+--- differences
+1329: ours «αὐτοῖς, ἀλλʼ» print «αὐτοῖς ἀλλ’»
+1334: ours «προυθέμην» print «προὐθέμην»
+--- apparatus
++ with gl. in marg., ἐγγεγενημένος ἢ ἄξιος τοῦ γένους.
+
+## 1329
+παρ’ αὐτοῖς] Fritzsch conj. πρὸς αὐτοῖς: Wecklein (*Ars* p. 113) πέρα πως. Nauck would read ὅτ’ οὐ παρ’ αὐτοῖς ὄντες οὐ γιγνώσκετε (‘when ye do not recognise that ye are not at home’), deleting ἀλλ’ ἐν αὐτοῖσιν κακοῖς | τοῖσιν μεγίστοις.—γινώσκετε L, A, etc., and Ald.
+
+## 1331
+σταθμοῖσιν L.
+
+## 1332
+ὑμῖν L, with most MSS., and Ald.: ἡμῖν r.
+
+## 1333
+ὑμῶν MSS., and Ald.: Kvíčala conj. ἡμῶν: Nauck, οἶμαι.
+
+## 1334
+This v. is rejected by Ahrens and Morstadt.
+
+## 1336
+ἀπλήστου r, and Ald.: ἀπλείστου L and A. Meineke conj. ἀπαύστου. σὺν χαρᾶι made in L from συγχαρᾶι.—Purgold
+--- notes
+The block begins with the end of note 1328 («ἐκγενήσ L | with gl. in marg., …»), running on from p-0273. The lemmas are in the ordinary (italic) Greek type, not bold.
+1329: the print has no comma after αὐτοῖς (looked at twice, enlarged); ours has one.
+1334: the print has προὐθέμην with the coronis on υ (looked at twice, enlarged); ours προυθέμην.
+Note 1329: the verse division «κακοῖς | τοῖσιν» is printed so; kept.
+Note 1332: ὑμῖν (L) and ἡμῖν (r) are printed with the circumflex, unlike the text's ὑμὶν (enlarged).
+Note 1336: no dash before «σὺν χαρᾶι», as printed; L's χαρᾶι and συγχαρᾶι with the iota adscript. The note runs on to p-0275 after «Purgold».
+

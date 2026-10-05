@@ -361,3 +361,55 @@ Nauck, objecting to κείνης γὰρ οὐ θέμις μαθεῖν, to πα
 The lemmas are in the ordinary Greek type, not bold.
 Note 565-567: the label is printed "565—567". Nauck's verses are printed «ἢ ἐγὼ φράσω» (ἐγὼ in full, not ’γὼ as in the text of 565), looked at enlarged.
 Note 568: σφαγὰσ and σφαγᾶσ are printed with the medial σ at the end, as L writes; σφαγᾶσ is divided σφα-|γᾶσ at the line end of the print; joined. "MSS." is in small capitals.
+
+=== p-0180
+--- numbers
+570 κἀκ
+575 ἀνθ’
+580 ὅρα
+--- differences
+575: ours «ἀνθʼ ὧν, βιασθεὶς πολλὰ κἀντιβάς, μόλις» print «ἀνθ’ ὧν βιασθεὶς πολλὰ κἀντιβὰς μόλις»
+576: ours «Μενέλεω» print «Μενελεω»
+--- apparatus
++ as ‘throat,’ would change οὗ to ὃν (governed by βαλών).
+
+## 571
+ὡς] Fröhlich, and Wecklein (*Ars* p. 17), conj. ἕως.
+
+## 572
+αὑτοῦ r, and Ald.; αὐτοῦ L, with most MSS.
+
+## 573
+τὰ κείνης] τὰ κείνησ L.—οὐ γὰρ ἦν λύσις] Wunder conj. οὐ γὰρ ἤλυσις | ἄλλη στρατῷ πρὸς οἶκον ἦν, οὐδ’ Ἴλιον. For ἦν λύσις, Nauck conj. ἧξις ἦν.—εἰς Ἴλιον] ἐς Ἴλιον Nauck.—Mekler suspects these two verses.
+
+## 575
+βιασθεὶς]
+--- notes
+575: the print has no comma after ὧν or after κἀντιβὰς, and κἀντιβὰς has the grave (looked at twice, enlarged); ours «ὧν, … κἀντιβάς,».
+576: Μενελεω is printed without any accent (looked at twice, enlarged at 4x; perhaps the accent dropped out in printing); ours Μενέλεω.
+572: the print has αὑτοῦ with the rough breathing (looked at enlarged), as ours.
+The lemmas are in the ordinary Greek type, not bold.
+Note 572: the two forms are printed alike at this size; the first (r, Ald.) is read αὑτοῦ as in the printed text of 572, L's αὐτοῦ with the smooth breathing. The separator after "Ald." is a semicolon. "MSS." is in small capitals.
+Note 573: the label is "573 f.". κείνησ is printed with the medial σ at the end, as L writes.
+
+=== p-0181
+--- apparatus
++ Nauck conj. λιασθεὶς.—Walter (*Emend. in Soph. spec.*, p. 13) conj. πολλά τ’ ἀντιβὰς.
+
+## 579
+νόμῳ] Tournier conj. τρόπῳ: Nauck, λόγῳ.
+
+## 581
+τιθῇς] τίθηισ L: τιθῇς D (cod. Paris, 2820): τιθῆς T: τίθης A, with most MSS. The Ald. has τίθῃς (*sic*).
+
+## 583
+τυγχάνοις r: τυγχάνεισ L, with most MSS., and Ald.
+
+## 584-586
+These three verses, omitted in the text of L, have been added in the margin by the 1st hand.
+--- notes
+The lemmas are in the ordinary Greek type, not bold.
+Note 575 (continued): the end of ἀντιβὰς is faintly printed and its accent is not visible (looked at enlarged); written with the grave as in the text of 575.
+Note 581: looked at enlarged: the lemma and D's τιθῇς have the circumflex and iota subscript, T's τιθῆς the circumflex without subscript, A's τίθης the acute without subscript, and the Aldine's τίθῃς (*sic*) the acute with the subscript. τίθηισ is printed with the iota adscript and the medial σ, as L writes.
+Note 583: τυγχάνεισ is printed with the medial σ at the end, as L writes. "MSS." is in small capitals.
+Note 584-586: the label is printed "584—586".

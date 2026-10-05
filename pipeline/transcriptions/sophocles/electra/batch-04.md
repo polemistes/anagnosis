@@ -139,3 +139,24 @@ Note 382: ἐκτὸς and Schenkel's ἐντὸς both have a grave (enlarged).
 Note 383: κοὔ has the coronis and an acute.
 Note 385: the note runs on to p-0155.
 The lemmas are in the ordinary (italic) Greek type, not bold.
+
+=== p-0155
+--- apparatus
++ preferred by Elmsley (*Med.* 678), and adopted by Nauck and Blaydes.—με L, A, etc.: μοι r, and Ald.—βεβούλευνται] βεβούλευται 1st hand in Γ.—ποεῖν L. There is room for ι after ο, but no trace of it: cp. 319.
+
+## 387
+οὕνεκ’] εἵνεκ’ L2 (=Lb).
+
+## 391
+προσώτατ’ ἐκφύγω] Lud. Dindorf conj. προσωτάτω φύγω.
+
+## 395
+φίλοις..κακήν] C. Hartung conj. κακοῖς..φίλην.
+
+## 396
+εἰκαθεῖν Elms.: εἰκάθειν MSS.
+--- notes
+The first line ends note 385 of p-0154. *Med.* is in italics; "1st hand" is printed with an old-style figure.
+Note 387: οὕνεκ’ and εἵνεκ’ both have the rough breathing with the acute (enlarged).
+Note 395: the dots are printed spaced (φίλοις . . | κακήν, κακοῖς . . φίλην); written ".." as elsewhere.
+The lemmas are in the ordinary (italic) Greek type, not bold.

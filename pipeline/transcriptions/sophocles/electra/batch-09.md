@@ -136,3 +136,29 @@ The lemmas are in the ordinary (italic) Greek type, not bold.
 1005: the print has ἡμᾶς (looked at twice, enlarged); ours ἡμῖν.
 Note 995: ποτε (r) is printed without an accent; kept.
 
+=== p-0235
+--- apparatus
++ ἔλαττον MSS.
+
+## 999
+εὐτυχὴς A, Γ, Pal., and Ald.: εὐτυχεῖ L (but with ὴς written above by the 1st hand) and r,—a variant probably due to some gloss on εὐτυχὴς such as that which Hermann quotes, εὐτυχής ἐστι δηλονότι· ἤγουν εὐτυχεῖ.
+
+## 1001
+Morstadt suspects these two vv.
+
+## 1003
+πράσσοντε] πάσχοντε schol. *O. C.* 1676.
+
+## 1005
+ἡμᾶς] ἡμῖν Elmsley, which Blaydes and Hartung read.—These two vv. are rejected by Ahrens, A. Schöll, and B. Todt. Nauck would at least change δυσκλεῶς to δυσμόρως (as Blaydes suggests) or δυσπότμως.
+
+## 1007
+omitted from the text of L, and supplied in marg. by S.—οὐ γὰρ] Michaelis conj. οὐδ’ αὖ.
+
+## 1008
+χρῄζων] In L two letters (doubtless ηι) have been erased after χρήζ, and ων written above, by the 1st hand. χρήζῃ r.—ἔχῃ made in L from ἔχει.—Vv. 1007, 1008 are rejected by Nauck, Jahn, and Blaydes: Dindorf and Ahrens also suspect
+--- notes
+The lemmas are in the ordinary (italic) Greek type, not bold.
+Note 999: in the quotation from Hermann, ἐστι is printed letter-spaced (for emphasis); written without the spacing.
+Note 1008: the lemma χρῄζων has the iota subscript; χρήζ (L) and the first η of χρήζῃ (r) are printed without it (enlarged); kept as printed.
+

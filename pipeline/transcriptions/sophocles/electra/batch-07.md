@@ -175,3 +175,26 @@ The lemmas are in the ordinary (italic) Greek type, not bold.
 Note 736: the corrector's ὡσ δ’ is printed with the medial σ, as L writes, and ὡσ/ὡς with the breathing alone, no accent (enlarged); kept.
 Note 737: ἐνσίξας read with the acute on ι (enlarged).
 Note 738: "κἀξι-σώσαντε" is divided at the line end; joined.
+
+=== p-0205
+--- apparatus
++ (Reiske having proposed καὶ τοῦ μὲν ἄλλου παντὸς ἀσφαλὴς δρόμου).
+
+## 742
+ὠρθοῦθ’] In L the second θ has been made from τ. Nauck reads ὠχεῖθ’: Mekler (6th Teubner ed. of Dindorf), ὡρμᾶθ’.
+
+## 743
+ἔπειτα λύων] Fröhlich conj. ἔπειτα δ’ ἕλκων: Arndt, ἔπειτ’ ἀνέλκων: Hartung, ἔπειτα τείνων: Blaydes, ἔπειτ’ ἐπισχὼν: Töpfer, ἔπειτα τανύων: Wolff, ἔπειτ’ ἐρύκων.
+
+## 745
+ἄξονος] In L the second ο has been made from α.
+
+## 746
+ὤλισθε· σὺν δ’ ἑλίσσεται A, with most MSS.: ὤλισθεν· σὺν δ’ ἑλίσσεται L and L2 (=Lb). Nauck and Blaydes write ὤλισθεν· ἐν δ’ ἑλίσσεται.
+
+## 747
+πέδῳ] Dindorf conj. πέδοι.
+--- notes
+The lemmas are in the ordinary (italic) Greek type, not bold.
+Note 742: the lemma "ὠρ-θοῦθ’" is divided at the line end, joined; ὠρθοῦθ’ and Nauck's ὠχεῖθ’ have the smooth breathing, Mekler's ὡρμᾶθ’ the rough one (enlarged).
+Note 743: Fröhlich's ἕλκων has the rough breathing (enlarged); Blaydes's ἐπισχὼν is printed with the grave before the colon.
