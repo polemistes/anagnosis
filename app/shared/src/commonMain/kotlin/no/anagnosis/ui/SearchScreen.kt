@@ -179,5 +179,5 @@ fun SearchScreen(
             )
         }
     }
-    word?.let { WordSheet(it, onDismiss = { word = null }) }
+    word?.let { WordSheet(it, onDismiss = { word = null }, disabled = settings.disabledDictionaries) }
 }

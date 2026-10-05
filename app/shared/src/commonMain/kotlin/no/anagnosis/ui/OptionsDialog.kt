@@ -34,6 +34,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import no.anagnosis.data.Credit
+import no.anagnosis.data.Dictionaries
 import no.anagnosis.prefs.ColorTheme
 import no.anagnosis.prefs.FontChoice
 import no.anagnosis.prefs.LineNumberMode
@@ -46,6 +47,7 @@ fun OptionsDialog(
     onHelp: () -> Unit,
     onAbout: () -> Unit,
     onDismiss: () -> Unit,
+    dictionaries: List<Pair<String, String>> = emptyList(),
 ) {
     AlertDialog(
         onDismissRequest = onDismiss,
@@ -96,6 +98,23 @@ fun OptionsDialog(
                 Row(Modifier.fillMaxWidth().clickable { onChange(settings.copy(wordFunction = !settings.wordFunction)) }, verticalAlignment = Alignment.CenterVertically) {
                     Text("Name a word's function in its sentence when tapped", style = MaterialTheme.typography.bodyMedium, modifier = Modifier.weight(1f))
                     Switch(checked = settings.wordFunction, onCheckedChange = { onChange(settings.copy(wordFunction = it)) })
+                }
+                if (dictionaries.isNotEmpty()) {
+                    Spacer(Modifier.height(8.dp))
+                    Text("Dictionaries", style = MaterialTheme.typography.labelLarge)
+                    for ((slug, title) in dictionaries) {
+                        val on = slug !in settings.disabledDictionaries
+                        fun toggle(enable: Boolean) = onChange(settings.copy(
+                            disabledDictionaries = if (enable) settings.disabledDictionaries - slug else settings.disabledDictionaries + slug,
+                        ))
+                        Row(Modifier.fillMaxWidth().clickable { toggle(!on) }, verticalAlignment = Alignment.CenterVertically) {
+                            Column(Modifier.weight(1f).padding(vertical = 4.dp)) {
+                                Text(Dictionaries.label(slug, title), style = MaterialTheme.typography.bodyMedium)
+                                Text(title, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                            }
+                            Switch(checked = on, onCheckedChange = { toggle(it) })
+                        }
+                    }
                 }
                 Spacer(Modifier.height(8.dp))
                 Text("Colours", style = MaterialTheme.typography.labelLarge)
@@ -207,7 +226,7 @@ fun IntroDialog(onDismiss: () -> Unit) {
                     style = MaterialTheme.typography.bodyMedium,
                 )
                 Spacer(Modifier.height(12.dp))
-                HelpItem("Tap a word", "to see its dictionary form, its inflection and a short definition. The LSJ and Middle Liddell buttons open the full dictionary entries.")
+                HelpItem("Tap a word", "to see its dictionary form, its inflection and a short definition. The buttons below open the full entries of each dictionary that has the word: Middle Liddell and LSJ for every text, Abbott-Smith for New Testament words, Dodson with the New Testament, the text's own dictionary first. Dictionaries can be turned off in the options.")
                 HelpItem("Press and hold a word", "to see the syntax of its sentence on a page of its own. Simple shows the sentence as an outline, one phrase per line in the order of the text, with its role after it (main verb, subject, object · dat., adverbial ...) and the verb in bold. Each clause is named (main clause, ὅτι clause, relative clause, infinitive, participle ...) with a note on what it belongs to, and has a bar down its left; a clause inside a clause is indented one step where it occurs, and the outer clause goes on below it. Drag and pinch to move and zoom, double tap to reset. Diagram shows every word with a line to each word that depends on it; drag and pinch to move and zoom, double tap to reset. Tree lists the same under one another with the full forms; […] stands for a word that is understood. Tap a word for its dictionary entry. In Plato the syntax is a parser's and not checked by hand, so it can be wrong.")
                 HelpItem("Apparatus and Commentary", "at the bottom open the editor's critical notes or the commentary for all the lines on the page.")
                 HelpItem("Swipe left or right", "to turn the page.")

@@ -5,6 +5,7 @@
 # edition: The Greek New Testament: SBL Edition, ed. Michael W. Holmes, Society of Biblical Literature and Logos Bible Software 2010
 # license: CC BY 4.0: text and apparatus © 2010 Society of Biblical Literature and Logos Bible Software; MACULA Greek Linguistic Datasets © 2022-2024 Biblica, Inc.
 # layout: prose
+# dictionaries: abbott-smith dodson ml lsj
 
 == book Matthew · ΚΑΤΑ ΜΑΘΘΑΙΟΝ
 @ 

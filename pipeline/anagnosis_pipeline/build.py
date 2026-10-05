@@ -18,7 +18,7 @@ from pathlib import Path
 from . import greek
 from .commentary import parse_commentary_md
 from .import_perseus import read_syntax_nodes, read_tokens
-from .lexicon import Entry, parse_lsj, parse_middle_liddell
+from .lexicon import Entry, parse_abbott_smith, parse_lsj, parse_middle_liddell, strong_numbers
 from .linenum import STEPHANUS, VERSE
 from .textfmt import Line, Section, Speaker, Stage, parse_file
 
@@ -139,6 +139,11 @@ LEXICONS = {
         "source": "Perseus Digital Library, hopper-texts-GreekRoman",
         "license": "CC BY-SA 3.0 US",
     },
+    "abbott-smith": {
+        "title": "G. Abbott-Smith: A Manual Greek Lexicon of the New Testament (1922)",
+        "source": "TEI edition by Daniel Owens and others, github.com/translatable-exegetical-tools/Abbott-Smith",
+        "license": "Public domain",
+    },
 }
 
 
@@ -174,8 +179,11 @@ def md_to_html(md: str) -> str:
 def load_lexica(sources: Path, cache_dir: Path) -> dict[str, list[Entry]]:
     cache_dir.mkdir(parents=True, exist_ok=True)
     result = {}
-    for slug, fn in (("lsj", parse_lsj), ("ml", parse_middle_liddell)):
+    for slug, fn in (("lsj", parse_lsj), ("ml", parse_middle_liddell), ("abbott-smith", parse_abbott_smith)):
         cache = cache_dir / f"{slug}.jsonl"
+        if slug == "abbott-smith" and not (sources / "abbott-smith").exists():
+            print("warning: sources/abbott-smith missing, the lexicon is built without Abbott-Smith (run 'fetch')", file=sys.stderr)
+            continue
         if cache.exists():
             entries = [Entry(**json.loads(l)) for l in cache.open(encoding="utf-8")]
         else:
@@ -244,6 +252,13 @@ def build_lexicon(sources: Path, out_dir: Path) -> None:
             rows,
         )
         print(f"lexicon {slug}: {len(rows)} entries")
+        if slug == "abbott-smith":
+            extra = abbott_smith_extra_keys(sources, entries)
+            db.executemany(
+                "INSERT INTO lexicon_entries (lexicon_id, key, headword, homograph, lemma_key, loose_key, sort_key, html) VALUES (?,?,?,?,?,?,?,?)",
+                [(lex_id, e.key, e.headword, e.homograph, key, greek.strip_diacritics(key), e.sort_key, pack(e.html)) for key, e in extra],
+            )
+            print(f"lexicon {slug}: {len(extra)} entries also under the New Testament lemma they are listed for by Strong's number")
     from .forms import build_forms
 
     build_forms(db, sources)
@@ -254,6 +269,37 @@ def build_lexicon(sources: Path, out_dir: Path) -> None:
     db.executemany("INSERT OR IGNORE INTO short_definitions (lemma_key, source, definition) VALUES (?,?,?)", rows)
     print(f"short definitions in lexicon: {len(rows)}")
     _finish(db, lex_path)
+
+
+def abbott_smith_extra_keys(sources: Path, entries: list[Entry]) -> list[tuple[str, Entry]]:
+    """(lemma key, entry) for each New Testament lemma (MACULA's) that Abbott-Smith lists under
+    another spelling: found by the Strong's number both give the word."""
+    import collections
+    import csv
+
+    tsv = sources / "nt" / "macula" / "SBLGNT" / "tsv" / "macula-greek-SBLGNT.tsv"
+    if not tsv.exists():
+        return []
+    keys = {greek.lemma_key(e.headword) for e in entries}
+    by_strong: dict[int, list[Entry]] = collections.defaultdict(list)
+    for e in entries:
+        for g in strong_numbers(e):
+            by_strong[g].append(e)
+    strong: dict[str, collections.Counter] = collections.defaultdict(collections.Counter)
+    with tsv.open(encoding="utf-8", newline="") as f:
+        for r in csv.DictReader(f, delimiter="\t", quoting=csv.QUOTE_NONE):
+            if r["strong"].isdigit():
+                strong[greek.nfc(r["lemma"])][int(r["strong"])] += 1
+    out = []
+    for lemma, counts in strong.items():
+        key = greek.lemma_key(lemma)
+        if key in keys:
+            continue
+        for number, _n in counts.most_common():
+            if number in by_strong:
+                out += [(key, e) for e in by_strong[number]]
+                break
+    return out
 
 
 def build_texts(texts: Path, sources: Path, out_dir: Path, only: str | None = None) -> None:
@@ -392,7 +438,7 @@ def build_work(db: sqlite3.Connection, work_dir: Path) -> set[str]:
     elif line_ids and all(STEPHANUS.match(n) for n in line_ids):
         db.execute("INSERT OR REPLACE INTO meta VALUES ('line_numbers', 'stephanus')")
     # prose is shown as paragraphs; an automatic syntax is labelled as such
-    for key in ("layout", "syntax"):
+    for key in ("layout", "syntax", "dictionaries"):
         if m.get(key):
             db.execute("INSERT OR REPLACE INTO meta VALUES (?, ?)", (key, m[key]))
 
@@ -411,13 +457,16 @@ def build_work(db: sqlite3.Connection, work_dir: Path) -> set[str]:
 
     # free-standing documents: manuscripts and sigla, later perhaps introductions
     preferred = ["introduction", "preface", "appendix", "sigla"]
-    docs = [p for p in work_dir.glob("*.md") if not p.name.startswith("commentary-") and p.name not in ("glossary.md", "about.md")]
+    docs = [p for p in work_dir.glob("*.md") if not p.name.startswith(("commentary-", "dictionary-")) and p.name not in ("glossary.md", "about.md")]
     for path in sorted(docs, key=lambda p: (preferred.index(p.stem) if p.stem in preferred else len(preferred), p.stem)):
         build_document(db, work_id, path)
 
     # glossary (hand-written entries, e.g. proper names missing from the lexica)
     if (work_dir / "glossary.md").exists():
         build_glossary(db, slug, work_dir / "glossary.md")
+    # dictionaries that only this text carries (dictionary-dodson.md: lexicon "dodson")
+    for path in sorted(work_dir.glob("dictionary-*.md")):
+        build_glossary(db, slug, path, lexicon_slug=path.stem.removeprefix("dictionary-"))
 
     return lemma_keys, lemmas
 
@@ -518,7 +567,7 @@ def build_document(db: sqlite3.Connection, work_id: int, path: Path) -> None:
     print(f"document {path.stem}: {meta.get('title')}")
 
 
-def build_glossary(db: sqlite3.Connection, slug: str, path: Path) -> None:
+def build_glossary(db: sqlite3.Connection, slug: str, path: Path, lexicon_slug: str | None = None) -> None:
     meta: dict[str, str] = {}
     entries: list[tuple[str, list[str]]] = []
     for raw in path.read_text(encoding="utf-8").splitlines():
@@ -531,7 +580,7 @@ def build_glossary(db: sqlite3.Connection, slug: str, path: Path) -> None:
             entries[-1][1].append(raw)
     cur = db.execute(
         "INSERT INTO lexicons (slug, title, source, license) VALUES (?,?,?,?)",
-        (f"{slug}-glossary", meta.get("title", "Glossary"), None, meta.get("license")),
+        (lexicon_slug or f"{slug}-glossary", meta.get("title", "Glossary"), meta.get("source"), meta.get("license")),
     )
     lex_id = cur.lastrowid
     for headword, body in entries:

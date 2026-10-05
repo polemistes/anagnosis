@@ -28,6 +28,8 @@ data class ReaderSettings(
     val fitTranslation: Boolean = false,
     /** The word popup names the word's function in its sentence (subject of φέρει). */
     val wordFunction: Boolean = true,
+    /** Dictionaries (by slug: ml, lsj, abbott-smith, dodson ...) the reader has turned off. */
+    val disabledDictionaries: Set<String> = emptySet(),
     /** Latin-letter input scheme for the dictionary search. */
     val inputScheme: no.anagnosis.greek.InputScheme = no.anagnosis.greek.InputScheme.BETA,
     /** Word analysis matches the typed diacritics exactly instead of ignoring them. */

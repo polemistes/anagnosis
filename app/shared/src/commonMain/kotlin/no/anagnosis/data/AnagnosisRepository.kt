@@ -73,6 +73,7 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
             stephanus = numbering == "stephanus",
             prose = q.selectMeta("layout").executeAsOneOrNull() == "prose",
             automaticSyntax = q.selectMeta("syntax").executeAsOneOrNull() == "automatic",
+            dictionaryOrder = q.selectMeta("dictionaries").executeAsOneOrNull()?.split(' ')?.filter { it.isNotBlank() } ?: emptyList(),
         )
     }
 
@@ -80,18 +81,25 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
         val q = textDb(data.slug).anagnosisQueries
         val token = data.tokensByLine.values.asSequence().flatten().firstOrNull { it.id == tokenId } ?: return null
         val lq = lexicon.lexiconQueries
-        var rows = lq.selectEntriesByKey(token.lemma_key).executeAsList()
-            .map { Entry(it.lexicon_slug, it.lexicon_title, it.headword, it.homograph, inflate(it.html)) }
-        if (rows.isEmpty()) {
-            rows = lq.selectEntriesByLooseKey(looseKey(token.lemma)).executeAsList()
-                .map { Entry(it.lexicon_slug, it.lexicon_title, it.headword, it.homograph, inflate(it.html)) }
-        }
-        // a Homeric lemma the dictionaries list under another headword (ἠέλιος under ἥλιος)
+        // Each dictionary is looked up by itself: under the lemma, else under the headword it is
+        // listed under (a Homeric ἠέλιος under ἥλιος, the New Testament's ἀποκρίνομαι under
+        // ἀποκρίνω), so that one dictionary having the word does not hide another's entry.
+        // Only when none has it are the diacritics ignored.
         val alias = q.selectAliasTarget(token.lemma_key).executeAsOneOrNull()
-        if (rows.isEmpty() && alias != null) {
-            rows = lq.selectEntriesByKey(alias).executeAsList()
+        val bySlug = LinkedHashMap<String, List<Entry>>()
+        val tiers = listOfNotNull(token.lemma_key, alias)
+        for (key in tiers) {
+            val found = lq.selectEntriesByKey(key).executeAsList()
                 .map { Entry(it.lexicon_slug, it.lexicon_title, it.headword, it.homograph, inflate(it.html)) }
+            for ((slug, es) in found.groupBy { it.lexiconSlug }) if (slug !in bySlug) bySlug[slug] = es
         }
+        if (bySlug.isEmpty()) {
+            lq.selectEntriesByLooseKey(looseKey(token.lemma)).executeAsList()
+                .map { Entry(it.lexicon_slug, it.lexicon_title, it.headword, it.homograph, inflate(it.html)) }
+                .groupBy { it.lexiconSlug }.forEach { (slug, es) -> bySlug[slug] = es }
+        }
+        val rows = bySlug.values.flatten()
+        // the text's own glossary and dictionaries (Dodson in the New Testament)
         val glossary = q.selectGlossaryByKey(token.lemma_key).executeAsList()
             .map { Entry(it.lexicon_slug, it.lexicon_title, it.headword, it.homograph, it.html) }
         val short = q.selectShortDefinition(token.lemma_key).executeAsOneOrNull()?.definition
@@ -211,6 +219,21 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
         return all.filter { no.anagnosis.greek.Polytonic.exactKey(it.form) == typed }
     }
 
+    /**
+     * The dictionaries the reader can turn on and off, as (slug, title): the shared ones and
+     * those that come with an installed text (Dodson with the New Testament), not glossaries.
+     */
+    fun dictionaries(): List<Pair<String, String>> {
+        val out = LinkedHashMap<String, String>()
+        for (l in lexicon.lexiconQueries.selectLexicons().executeAsList()) out[l.slug] = l.title
+        for (slug in driverFactory.installedTexts()) {
+            for (l in textDb(slug).anagnosisQueries.selectLexicons().executeAsList()) {
+                if (!l.slug.endsWith("-glossary")) out.getOrPut(l.slug) { l.title }
+            }
+        }
+        return out.entries.sortedBy { Dictionaries.rank(it.key) }.map { it.key to it.value }
+    }
+
     /** Attribution for everything installed, for the About screen. */
     fun credits(): List<Credit> {
         val out = mutableListOf<Credit>()
@@ -226,7 +249,7 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
                 out += Credit("Commentary", listOfNotNull(c.author, c.title).joinToString(", "), c.source, c.license)
             }
             for (l in q.selectLexicons().executeAsList()) {
-                out += Credit("Glossary", l.title, l.source, l.license)
+                out += Credit(if (l.slug.endsWith("-glossary")) "Glossary" else "Dictionary", l.title, l.source, l.license)
             }
         }
         for (l in lexicon.lexiconQueries.selectLexicons().executeAsList()) {

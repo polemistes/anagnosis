@@ -514,6 +514,8 @@ fun ReaderScreen(
             onDismiss = { selectedTokenId = null },
             onSyntax = if (sentence == null) null else { { syntaxSentence = sentence; selectedTokenId = null } },
             showFunction = settings.wordFunction,
+            order = data.dictionaryOrder,
+            disabled = settings.disabledDictionaries,
         )
     }
     pageNotesKind?.let { kind ->
@@ -534,6 +536,7 @@ fun ReaderScreen(
             onHelp = { showOptions = false; onHelp() },
             onAbout = { showOptions = false; showAbout = true },
             onDismiss = { showOptions = false },
+            dictionaries = remember { repository.dictionaries() },
         )
     }
     if (showAbout) {

@@ -78,6 +78,12 @@ def fetch(sources: Path) -> None:
 
         subprocess.run(["git", "clone", "--depth", "1", "https://github.com/perseids-tools/morpheus.git", str(morpheus)], check=True)
         print("Morpheus cloned; build it: cd pipeline/sources/morpheus/src && CFLAGS='-std=gnu89 -fcommon' make && make install", file=sys.stderr)
+    # Abbott-Smith's New Testament lexicon (public domain TEI), for the shared dictionaries
+    if not (sources / "abbott-smith").exists():
+        import subprocess
+
+        subprocess.run(["git", "clone", "--depth", "1", "https://github.com/translatable-exegetical-tools/Abbott-Smith.git",
+                        str(sources / "abbott-smith")], check=True)
     import json
 
     tb_dir = sources / "treebanks"

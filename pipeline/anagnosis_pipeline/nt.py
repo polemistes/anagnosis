@@ -45,6 +45,8 @@ GREEK_META = {
     "edition": "The Greek New Testament: SBL Edition, ed. Michael W. Holmes, Society of Biblical Literature and Logos Bible Software 2010",
     "license": "CC BY 4.0: text and apparatus © 2010 Society of Biblical Literature and Logos Bible Software; MACULA Greek Linguistic Datasets © 2022-2024 Biblica, Inc.",
     "layout": "prose",
+    # the order of the dictionary buttons on the word sheet: the New Testament's own first
+    "dictionaries": "abbott-smith dodson ml lsj",
 }
 APPARATUS_META = {
     "title": "Apparatus (SBL Greek New Testament)",
@@ -61,8 +63,8 @@ BSB_META = {
     "edition": "The Holy Bible, Berean Standard Bible (2023)",
     "license": "Public domain (dedicated to the public domain on 30 April 2023)",
 }
-GLOSSARY_META = {
-    "title": "Glossary of names and words of the New Testament (Dodson)",
+DODSON_META = {
+    "title": "J. J. Dodson: A Lexicon of the Greek New Testament",
     "lang": "eng",
     "source": "John Jeffrey Dodson, A Lexicon of the Greek New Testament, as published by biblicalhumanities.org (github.com/biblicalhumanities/Dodson-Greek-Lexicon)",
     "license": "CC0 1.0 (public domain)",
@@ -349,7 +351,7 @@ The SBL Greek New Testament was edited by Michael W. Holmes. Its apparatus does 
 ABOUT = """# title_en: New Testament
 # app_id: no.anagnosis.newtestament
 
-The Greek New Testament in the SBL edition of Michael W. Holmes with its apparatus, the Berean Standard Bible, and the Liddell–Scott dictionaries with Dodson's lexicon of the New Testament for the names and words they lack. Tap any word for its meaning and form; the lemmas and morphology are those of the MACULA Greek project.
+The Greek New Testament in the SBL edition of Michael W. Holmes with its apparatus and the Berean Standard Bible. Tap any word for its meaning and form in Abbott-Smith's and Dodson's lexicons of the New Testament and the Liddell–Scott dictionaries, or hold it for the syntax of its sentence; the lemmas, morphology and syntax are those of the MACULA Greek project.
 """
 
 
@@ -442,7 +444,8 @@ def import_nt(sources: Path, texts: Path, build: Path, slug: str = "newtestament
 
     # --- the dictionaries: aliases for New Testament spellings, Dodson for what they lack
     lexica = load_lexica(sources, build)
-    headwords = {e.headword for entries in lexica.values() for e in entries}
+    # aliases lead to LSJ and Middle Liddell; Abbott-Smith has the New Testament's spellings already
+    headwords = {e.headword for slug, entries in lexica.items() if slug in ("lsj", "ml") for e in entries}
     counts = collections.Counter(r["lemma"] for r in rows)
     aliases, missing = resolve_lemmas(sorted(counts), headwords)
     strong: dict[str, collections.Counter] = collections.defaultdict(collections.Counter)
@@ -461,26 +464,24 @@ def import_nt(sources: Path, texts: Path, build: Path, slug: str = "newtestament
         f.write("# lemma\theadword under which LSJ / Middle Liddell list it (made by 'import-nt')\n")
         for lemma in sorted(aliases):
             f.write(f"{lemma}\t{aliases[lemma]}\n")
-    glossary = [f"# {k}: {v}" for k, v in GLOSSARY_META.items()] + [""]
+    # Dodson's whole lexicon, under the New Testament's lemmas: a dictionary of the text's own
+    dictionary = [f"# {k}: {v}" for k, v in DODSON_META.items()] + [""]
     no_entry = []
-    for lemma in sorted(missing, key=lambda l: (-counts[l], l)):
+    for lemma in sorted(counts, key=lambda l: (greek.strip_diacritics(l), l)):
         d = dodson_of(lemma)
         if d is not None:
-            body = f"**{d['orth']}** {d['full']}"
+            dictionary += [f"## {lemma}", f"**{d['orth']}** {d['full']}", ""]
         elif lemma in HAND_GLOSSES:
-            body = f"**{lemma}** {HAND_GLOSSES[lemma]}"
-        else:
-            no_entry.append(lemma)
-            continue
-        glossary += [f"## {lemma}", body, ""]
-    (out / "glossary.md").write_text("\n".join(glossary), encoding="utf-8")
+            dictionary += [f"## {lemma}", f"**{lemma}** {HAND_GLOSSES[lemma]}", ""]
+    (out / "dictionary-dodson.md").write_text("\n".join(dictionary), encoding="utf-8")
+    (out / "glossary.md").unlink(missing_ok=True)
+    # a short definition for every lemma: Logeion's, else Dodson's; for a lemma LSJ lacks
+    # (mostly names) always Dodson's, since Logeion might only match it loosely (Ἠλίας, ἡλιάς)
     exact, loose = load_logeion_shortdefs(sources)
-    shortdefs = ["# Short definitions for lemmas missing from Logeion's list, from Dodson's lexicon (made by 'import-nt'). lemma\tdefinition"]
+    shortdefs = ["# Short definitions from Dodson's lexicon where Logeion has none, or the word is not in LSJ (made by 'import-nt'). lemma\tdefinition"]
     missing_set = set(missing)
     for lemma in sorted(counts):
-        if lemma in missing_set:
-            continue  # its glossary entry is shown
-        if resolve_short_definition(lemma, exact, loose) is not None:
+        if lemma not in missing_set and resolve_short_definition(lemma, exact, loose) is not None:
             continue
         if lemma in aliases and resolve_short_definition(aliases[lemma], exact, loose) is not None:
             continue
@@ -492,7 +493,8 @@ def import_nt(sources: Path, texts: Path, build: Path, slug: str = "newtestament
             no_entry.append(lemma)
     (out / "shortdefs.tsv").write_text("\n".join(shortdefs) + "\n", encoding="utf-8")
     print(f"lemmas: {len(counts)}; {len(aliases)} found under another headword (aliases.tsv), "
-          f"{len(missing)} not in LSJ or Middle Liddell (glossary.md, {sum(counts[l] for l in missing)} words), "
+          f"{len(missing)} not in LSJ or Middle Liddell ({sum(counts[l] for l in missing)} words), "
+          f"{len(dictionary) // 3} entries of Dodson (dictionary-dodson.md), "
           f"{len(shortdefs) - 1} short definitions from Dodson (shortdefs.tsv), {len(no_entry)} with nothing: {no_entry[:20]}")
     problems += [f"no definition for {l}" for l in no_entry]
 

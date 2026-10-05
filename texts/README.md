@@ -93,6 +93,11 @@ line 503. Everything else is plain text.
 * Lexica: LSJ (1940) and Middle Liddell (1889), Perseus. CC BY-SA 4.0 / 3.0 US.
 * Short definitions: Logeion (Helma Dik, University of Chicago), based on Perseus. Credit requested; no formal licence stated.
 
+## `dictionary-<slug>.md` (optional)
+
+A dictionary only this text carries, in the format of `glossary.md`: each entry under its
+lemma, offered on the word sheet as a button of its own (the New Testament's Dodson).
+
 ## `glossary.md` (optional)
 
 Hand-written dictionary entries for words the lexica lack, typically proper names:
@@ -194,9 +199,12 @@ Every file here is made by `import-nt` from the sources `fetch-nt` downloads; ed
   "[0]" for an understood verb); the module's docstring states the rules. The sentence ids are
   MACULA's ids of each sentence's first word.
 * Dictionaries: `aliases.tsv` sends New Testament lemmas to the LSJ headword they stand under
-  (ἀποκρίνομαι to ἀποκρίνω, γινώσκω to γιγνώσκω); `glossary.md` holds J. J. Dodson's entries
-  (*A Lexicon of the Greek New Testament*, CC0, by Strong's number) for the names and words LSJ
-  and Middle Liddell lack, and `shortdefs.tsv` his short glosses where Logeion has none.
+  (ἀποκρίνομαι to ἀποκρίνω, γινώσκω to γιγνώσκω); `dictionary-dodson.md` is J. J. Dodson's
+  *A Lexicon of the Greek New Testament* (CC0) under the lemmas it is linked to by Strong's
+  number, a dictionary that only the New Testament carries; `shortdefs.tsv` has his short
+  glosses where Logeion has none or the word is not in LSJ. Abbott-Smith's *Manual Greek
+  Lexicon of the New Testament* is one of the reader's shared dictionaries (data/lexicon.sqlite).
+  The header line `# dictionaries:` of `grc.txt` gives the order of the word sheet's buttons.
 * Translation (`eng-bsb.txt`): the Berean Standard Bible (public domain since 2023), a paragraph
   wherever the Greek begins one. Its verse numbers are mapped to the SBL text's where they differ
   (Acts 19:41, 2 Corinthians 13:13-14); the doxology of Romans 16:25-27, which the SBL text

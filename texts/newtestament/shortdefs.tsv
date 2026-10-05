@@ -1,113 +1,814 @@
-# Short definitions for lemmas missing from Logeion's list, from Dodson's lexicon (made by 'import-nt'). lemma	definition
+# Short definitions from Dodson's lexicon where Logeion has none, or the word is not in LSJ (made by 'import-nt'). lemma	definition
+Αἰνέας	Aeneas
+Αἰνών	Aenon
+Βάαλ	Baal
+Βέροια	Berea
+Βαλάκ	Balak
+Βαλαάμ	Balaam
+Βαράκ	Barak
+Βαραββᾶς	Barabbas
+Βαραχίας	Barachiah
+Βαρθολομαῖος	Bartholomew
+Βαριησοῦς	Bar-Jesus
+Βαριωνᾶ	Bar-Jonas
+Βαρναβᾶς	Barnabas
+Βαρσαββᾶς	Barsabbas
+Βαρτιμαῖος	Bartimaeus
+Βεελζεβούλ	Beelzebul
+Βελιάρ	Beliar
+Βενιαμίν	Benjamin
+Βερνίκη	Bernice
+Βεροιαῖος	belonging to Berea, Berean
+Βηθανία	Bethany
+Βηθεσδά	Bethesda
+Βηθλέεμ	Bethlehem
+Βηθσαϊδά	Bethsaida
+Βηθσαϊδάν	Bethsaida
+Βηθφαγή	Bethphage
+Βιθυνία	Bithynia
+Βλάστος	Blastus
+Βοανηργές	Boanerges
+Βοσόρ	Bosor
+Βόες	Boaz
+Βόος	Boaz
+Γάδ	Gad
+Γαββαθα	Gabbatha
+Γαβριήλ	Gabriel
+Γαδαρηνός	Gadarene, belonging to Gadara
+Γαλάτης	a Galatian
+Γαλατία	Galatia
+Γαλατικός	belonging to the province Galatia
+Γαλιλαία	Galilee
+Γαλιλαῖος	a Galilean
+Γαλλίων	Gallio
+Γαμαλιήλ	Gamaliel
+Γεδεών	Gideon
+Γεθσημανί	Gethsemane
+Γεννησαρέτ	Gennesaret
+Γερασηνός	from Gerasene
+Γολγοθᾶ	Golgotha
+Γόμορρα	Gomorrah
+Γώγ	Gog
+Δάμαρις	Damaris
+Δέρβη	Derbe
+Δαλμανουθά	Dalmanutha
+Δαλματία	Dalmatia
+Δαμασκηνός	an inhabitant of Damascus
+Δαμασκός	Damascus
+Δανιήλ	Daniel
+Δαυίδ	David
+Δερβαῖος	belonging to Derbe
+Δημᾶς	Demas
+Διόσκουροι	the Dioscuri, Castor and Pollux
+Δρούσιλλα	Drusilla
+Εὐνίκη	Eunice
+Εὐφράτης	the Euphrates
+Εὔτυχος	Eutychus
+Εὕα	Eve
+Ζάρα	Zerah
+Ζαβουλών	Zebulon
+Ζακχαῖος	Zacchaeus
+Ζαχαρίας	Zechariah
+Ζεβεδαῖος	Zebedee
+Ζηνᾶς	Zenas
+Ζοροβαβέλ	Zerubbabel
+Θάρα	Terah
+Θαδδαῖος	Thaddaeus
+Θαμάρ	Tamar
+Θεσσαλονίκη	Thessalonica
+Θεσσαλονικεύς	Thessalonian
+Θευδᾶς	Theudas
+Θυάτειρα	Thyatira
+Θωμᾶς	Thomas
+Κάρπος	Carpus
+Κάϊν	Cain
+Καισάρεια	Caesarea
+Κανά	Cana
+Καναναῖος	a Canaanite
+Κανδάκη	Candace
+Καππαδοκία	Cappadocia
+Καφαρναούμ	Capernaum
+Καϊάφας	Caiaphas
+Καϊνάμ	Cainan
+Καῦδα	Cauda, Clauda
+Κεγχρεαί	Cenchreae
+Κεδρών	Kidron
+Κηφᾶς	Cephas
+Κλήμης	Clement
+Κλαυδία	Claudia
+Κλαύδιος	Claudius
+Κλεοπᾶς	Cleopas
+Κλωπᾶς	Clopas
+Κολοσσαί	Colossae
+Κορνήλιος	Cornelius
+Κούαρτος	Quartus
+Κρήσκης	Crescens
+Κρίσπος	Crispus
+Κυρήνιος	Quirinius
+Κυρηναῖος	belonging to Cyrene, a Cyrenaean
+Κωσάμ	Cosam
+Κόρε	Korah
+Λάζαρος	Lazarus, Eliezer
+Λάμεχ	Lamech
+Λαοδίκεια	Laodicea
+Λαοδικεύς	a Laodicean
+Λασαία	Lasea
+Λευί	Levi
+Λευίς	Levi
+Λευιτικός	Levitical
+Λουκᾶς	Lucas, Luke
+Λούκιος	Lucius
+Λυκαονιστί	in the Lycaonian language
+Λυσίας	Claudius Lysias
+Λωΐς	Lois
+Λύδδα	Lydda, Diospolis, Lod
+Λύστρα	Lystra
+Λώτ	Lot
+Μάαθ	Maath
+Μάλχος	Malchus
+Μάρθα	Martha
+Μαγαδάν	Magdala
+Μαγδαληνή	Magdalene
+Μαγώγ	Magog
+Μαδιάμ	Midian
+Μαθθάτ	Matthat
+Μαθθίας	Matthias
+Μαθθαῖος	Matthew
+Μαθουσαλά	Methuselah
+Μαλελεήλ	Mahalaleel, Maleleel
+Μαναήν	Manaen
+Μανασσῆς	Manasseh
+Μαρία	Mary, Miriam
+Μαριάμ	Mary, Miriam
+Ματθάν	Matthan
+Ματταθά	Mattatha
+Ματταθίας	Mattathias
+Μελίτη	Melita, Malta
+Μελεά	Melea
+Μελχί	Melchi
+Μελχισέδεκ	Melchizedek
+Μεννά	Menna, Mainan
+Μεσοποταμία	Mesopotamia
+Μεσσίας	Messiah
 Μιτυλήνη	Mitylene
+Μιχαήλ	Michael
+Μνάσων	Mnason
+Μολόχ	Moloch
 Μυσία	Mysia
+Μωϋσῆς	Moses
+Μύρα	Myra
+Μᾶρκος	Mark
+Νίγερ	Niger
+Ναΐν	Nain
+Ναασσών	Nahshon
+Ναγγαί	Naggai
+Ναζαρά	Nazareth
+Ναζαρέθ	Nazareth
+Ναζαρέτ	Nazareth
+Ναζαρηνός	of Nazareth
+Ναζωραῖος	Nazarene
+Ναθάμ	Nathan
+Ναθαναήλ	Nathanael
+Ναιμάν	Naaman
+Ναούμ	Nahum
+Ναχώρ	Nahor
+Νεφθαλίμ	Naphtali
+Νηρί	Neri
+Νικάνωρ	Nicanor
+Νικολαΐτης	a Nicolaitan
+Νικόδημος	Nicodemus
+Νικόπολις	Nicopolis
+Νινευίτης	a Ninevite
+Νύμφας	Nymphas
+Οὐρίας	Uriah
+Οὐρβανός	Urbanus
+Πάρθος	a Parthian
+Πάταρα	Patara
+Πάτμος	Patmos
+Πέργη	Perga
+Παρμενᾶς	Parmenas
+Πατροβᾶς	Patrobas
+Παῦλος	Paul
+Πιλᾶτος	Pilate
+Πισιδία	Pisidia
+Ποτίολοι	Puteoli
+Πούδης	Pudens
+Πρίσκα	Prisca, Priscilla
+Πρίσκιλλα	Prisca, Priscilla
+Πρόχορος	Prochorus
+Πόπλιος	Publius
+Πόρκιος	Porcius
+Πύρρος	red, fire-colored
+Σάπφιρα	Sapphira
+Σάρεπτα	Zarephath
+Σάρρα	Sarah
+Σέργιος	Sergius
+Σήθ	Seth
+Σήμ	Shem
+Σίλας	Silas
+Σαδδουκαῖος	a Sadducee
+Σαδώκ	Zadok
+Σαλά	Sala
+Σαλήμ	Salem
+Σαλαθιήλ	Salathiel
+Σαλείμ	Salim, a place near Aenon
+Σαλμών	Salmon
+Σαλμώνη	Salmone
+Σαμαρίτης	a Samaritan
+Σαμαρῖτις	a Samaritan woman
+Σαμουήλ	Samuel
+Σαμψών	Samson
+Σαούλ	Saul
+Σαρών	Sharon
+Σατανᾶς	an adversary, Satan
+Σεκοῦνδος	Secundus
+Σελεύκεια	Seleucia
+Σεμεΐν	Semein
+Σερούχ	Serug
+Σιδώνιος	Sidonian
+Σιλουανός	Silvanus
+Σιλωάμ	Siloam
+Σιλᾶς	Silas
+Σινᾶ	Sinai
+Σιών	Zion
+Σκευᾶς	Sceva
+Σολομών	Solomon
+Σολομῶν	Solomon
+Σουσάννα	Susannah
+Στεφανᾶς	Stephanas
 Στοϊκός	Stoic
+Συμεών	Simeon or Simon
+Συντύχη	Syntyche
+Συροφοινίκισσα	Syrophoenician
+Συχάρ	Sychar
+Συχέμ	Shechem
+Σωσίπατρος	Sosipater
+Σωσθένης	Sosthenes
+Σόδομα	Sodom
+Σώπατρος	Sopater
+Τέρτιος	Tertius
+Τέρτυλλος	Tertullus
+Τίμων	Timon
+Τίτιος	Justus
+Τίτος	Titus
+Ταβέρνη	taverns
+Ταβιθά	Tabitha, antelope
+Ταρσεύς	belonging to Tarsus
+Τιβέριος	Tiberius
+Τιβεριάς	Tiberias
+Τιμόθεος	Timothy
+Τραχωνῖτις	Trachonitis
+Τρυφῶσα	Tryphosa
+Τρύφαινα	Tryphaena
 Τρῳάς	Troas
+Φάλεκ	Peleg
+Φίλητος	Philetus
+Φίλιπποι	Philippi
+Φανουήλ	Phanuel
+Φαρές	Perez
+Φαραώ	Pharaoh
+Φιλιππήσιος	a Philippian
+Φλέγων	Phlegon
+Φορτουνᾶτος	Fortunatus
+Φύγελος	Phygelus
+Φῆλιξ	Felix
+Φῆστος	Festus
+Χανάαν	Canaan
+Χαρράν	Haran
+Χερούβ	Cherubim
+Χοραζίν	Chorazin
+Χουζᾶς	Chuza
+αββα	Father
+αἰσχροκερδῶς	greedily
+αἴτιον	the cause of, the originator of
+βέλτιον	better
+βαρέως	heavily, with difficulty
+βατταλογέω	I chatter, utter empty words
 βλητέος	that ought to be put
 βορρᾶς	the north wind, the North
+βραχύ	short, little
+βρύχω	I grind or gnash
 γίνομαι	I come into being, am born
 γαμίσκω	I give in marriage
+γενέσια	a birthday celebration
+γναφεύς	a fuller, cloth-dresser
+γνησίως	truly, genuinely, honorably, sincerely
+δίδραχμον	a double-drachma, two drachmae
+δανιστής	a lender, creditor
+δεινῶς	vehemently, terribly
+δεκαοκτώ	ten
+δεκαπέντε	fifteen
+δεσμόν	a bond, chain
 διαβεβαιόομαι	I assert emphatically
+διαγίνομαι	I pass, elapse time
+διατίθεμαι	I appoint, make
+δικαίως	justly, righteously
+διπλοῦς	double, two-fold
+δισμυριάς	twenty thousand
 διόπερ	wherefore
+δοκίμιον	a test, trial, what is genuine
+δούλη	a female slave, bonds-maid
+δυσκόλως	with difficulty, hardly
+δωδεκάφυλον	the Twelve Tribes of Israel
+δωρεάν	as a free gift, without payment, freely
 δότης	a giver
+δύνω	I sink, set
+εφφαθα	be opened up
 εἰδέα	form, outward appearance
 εἰδωλολατρία	worship or service of an image
+εἰδωλόθυτον	sacrificed to an image
+εἴωθα	I am accustomed, custom, what was customary
+εἵνεκεν	for the sake of, on account of, wherefore
+εὐαρέστως	acceptably
 εὐθέως	immediately, soon
+εὐθύμως	cheerful, having good courage
+εὐκαίρως	in season, conveniently
+εὐκοπώτερος	easier
+εὐπάρεδρον	devoted
+εὐσεβῶς	piously, religiously
+εὐσχημόνως	becomingly, decorously
+εὐτόνως	vehemently, powerfully
+ζευκτηρία	a band, fastening
 ζυγός	a yoke, heavy burden, pair of scales
+θά	our Lord cometh
 θέλω	I will, wish, desire
+θανάσιμον	deadly, mortal
+θαρρέω	I am courageous, of good cheer
+θεμέλιον	belonging to the foundation
+καίτοιγε	and yet, although
 καθάπερ	even as
+καθημερινός	daily
 καθώσπερ	even as
+κακοπαθία	suffering
 κακῶς	badly, evilly
 καμμύω	I close
 κατέναντι	opposite, in front of
 κατήγωρ	a prosecutor, accuser
 κατανύσσομαι	I am pierced, stung
 κατενώπιον	before the face of
+κατεφίστημι	I rush, assault
+κατωτέρω	down, below, lower, under, less
 καυστηριάζω	I cauterize, sear
 καυσόομαι	I burn up
 κεντυρίων	a centurion
+κενῶς	falsely, in vain
+κεφάλαιον	the chief matter, a sum of money
+κεφαλιόω	I wound in the head
+κλίβανος	an oven, furnace
 κλυδωνίζομαι	I am tossed by waves
 κολλούριον	eye-salve
+κομψότερον	in better health
+κορβανᾶς	a gift, offering
+κουμ	arise
+κράβαττος	a bed, mattress, mat
 κραταιόομαι	I strengthen, confirm, grow strong
+κρείττων	stronger, more excellent
+κύκλῳ	a circle
 κἀγώ	I also, I too
+κἀκεῖ	and there, and yonder
+κἀκεῖθεν	and thence, and from there
+κἀκεῖνος	and he, she, it, and that
 λάθρᾳ	secretly
+λαμπρῶς	magnificently, sumptuously
+λεγιών	a legion, very large number
+λεμά	why
+λυσιτελεῖ	it profits
 λῆμψις	a receiving
+μέγιστος	greatest, very great
 μέλει	it is a care, it concerns
+μήγε	not, lest
+μήτι	if not, unless
+μήτιγε	how much more (then), not to speak of
 μίγνυμι	I mix, mingle
+μακροθύμως	patiently
+μαράνα	our Lord cometh
+μείζων	greater, greatest
 μεγάλως	greatly
+μειζότερος	greater
 μεμβράνα	a parchment leaf
+μενοῦν	nay rather
+μενοῦνγε	nay rather
+μεσονύκτιον	midnight
+μετάλημψις	participation, sharing in
+μετρίως	moderately, greatly
 μητρολῴας	a matricide
+μιμνῄσκομαι	I remember, recollect
+μόνον	alone, but, only
+μύριοι	ten thousand, innumerable
 νίπτω	I wash
+νομίμως	lawfully
+νοσσίον	a nestling, the young of birds
+νοσσιά	a brood of young birds
+νοσσός	a young bird, young one
+νουνεχῶς	wisely, discreetly
 νοῦς	the mind, reasoning faculty
+νῶτος	the back of men or animals
 ξενοδοχέω	I entertain strangers
+ξυράομαι	I shave
 οἶμαι	I think, suppose
+οὐχί	by no means, not at all
 οὔ	no, not
+πανδοχεύς	an innkeeper
 πανδοχεῖον	an inn
+πανοικεί	with one's whole household or family
+παραγίνομαι	I appear, come, arrive at
+παρακαθέζομαι	I sit down beside
+παραπλήσιον	near to, nearly
+παραπλησίως	similarly, in like manner
+παρεισδύω	I enter secretly
 πατρολῴας	a murderer of his father
 πεζῇ	on foot
 πειθός	persuasive
+περαιτέρω	I walk, conduct my life
+περικρύβω	I conceal, hide
+περιρήγνυμι	I tear off
+περισσοτέρως	more abundantly, all the more, especially
+περισσότερον	more, all the more, the more abundantly
+περισσότερος	greater, more
 περισσῶς	greatly, exceedingly
+πετεινόν	a bird
+πετρῶδες	rocky, stony
 πιάζω	I lay hold of
+πικρῶς	bitterly
 πλήμμυρα	a flood
+πλησίον	near, nearby, a neighbor
+πλουσίως	richly, abundantly
 πλοῦς	a voyage
+πνευματικῶς	spiritually
+πολυμερῶς	in many parts
+πολυτρόπως	in many ways
+πορρώτερον	much, many, often
 πορφυροῦς	purple
+πορφυρόπωλις	a female seller of purple cloth
 ποτέ	at one time or other
 ποταπός	of what kind
 πού	somewhere
 πραΰτης	mildness, gentleness
+πραϋπάθια	mildness, gentleness
+πρεσβύτερος	elder
+προγίνομαι	I happen previously
 προεπαγγέλλομαι	I promise beforehand
+προθύμως	readily
 προσκληρόομαι	I assign by lot, allot
 προσορμίζομαι	I anchor at a place
+προσφάτως	recently
+προσωπολήμπτης	one who shows partiality
+προσωπολημπτέω	I show partiality
+προσωπολημψία	partiality, favoritism
+προτίθεμαι	I purpose, design beforehand
+πρόσλημψις	a receiving
 πρόϊμος	dawning, early
+πρώτως	first, before
+πρῶτον	first, before
+πτηνόν	winged
 πυκνά	frequent, often
 πόμα	drink
 πόρρω	far, far off
+πόρρωθεν	from afar, far off
+πότερον	which of two, whether
+πώς	somehow, in some way, perhaps
+ραββουνι	Rabbi, my master
+σάπφιρος	a sapphire
 σαλπιστής	a trumpeter
 σιδηροῦς	made of iron
 σιμικίνθιον	an apron
+σιρικός	silken
+σκῦλα	spoil taken from a foe
 σπλαγχνίζομαι	I have pity on
+σπουδαίως	diligently, earnestly
+στοιχεῖα	a heavenly body, an element
 στρώννυμι	I spread, make a bed
+συγκατατίθεμαι	I give a vote with, assent to
 συζάω	I live together with
+συμπαραγίνομαι	I come together with, help
 συναναμίγνυμι	I keep company with
+συναπόλλυμαι	I perish along with
 συναρμολογέομαι	I fit together
+συνεπιτίθεμαι	I make an agreement, agree
+συνιστάνω	I commend, prove, am composed of, cohere
+συντίθεμαι	I make an agreement, agree
+συντόμως	concisely, briefly
 συσταυρόομαι	I crucify together with
+σφοδρῶς	exceedingly
+σωματικῶς	bodily
+σωφρόνως	soberly, with moderation
+σύμφορον	I collect, am profitable to
+τάχιον	more swiftly
+ταλιθα	little girl
 ταμεῖον	a secret chamber
 ταχέως	soon, quickly, hastily
+ταχύ	quickly, speedily
+τελείως	perfectly
+τεσσερακονταετής	forty years of age
+τετραάρχης	a tetrarch
+τετρααρχέω	I rule over as a tetrarch
+τετραπλοῦς	four-fold
+τηλαυγῶς	clearly, distinctly
+τοιγαροῦν	consequently, therefore
+τολμηρότερον	more boldly
+τομώτερος	sharper, keener
+τοπάζιον	topaz
+τοὐναντίον	on the contrary
+τοὔνομα	by name
+τρίμηνον	lasting three months
+τρίστεγον	having three stories, the third story
+τρίτον	third
+τυπικῶς	a figure, model, type
 φαιλόνης	a mantle, cloak
+φανερῶς	clearly, openly
 φαντάζομαι	I cause to appear
+φιλανθρώπως	humanely, kindly
 φιλονεικία	love of dispute, contention
+φιλοφρόνως	kindly
 φιλόνεικος	strife-loving, contentious
+φρονίμως	wisely, sensibly, prudently
+φυσικῶς	by nature, naturally
 χαρίζομαι	I show favor to, forgive
+χείμαρρος	a winter torrent
+χειρόγραφον	a handwriting, bond
+χρήσιμον	useful, profitable
 χρεοφειλέτης	a debtor
 χρυσοῦς	golden
 ψεύδομαι	I lie
 ἀγαθουργέω	I perform good deeds
+ἀδήλως	out of sight, uncertainly
+ἀδίκως	unjustly
+ἀδιαλείπτως	unceasingly
+ἀθέμιτος	illegal, unlawful
+ἀκαίρως	unseasonably
+ἀκριβέστερον	more accurately, more exactly
 ἀκριβῶς	carefully, exactly, strictly
+ἀκωλύτως	freely, without hindrance
 ἀλάβαστρον	an alabaster phial or bottle
 ἀλάβαστρος	an alabaster phial or bottle
+ἀληθῶς	truly, really, certainly
+ἀλλοτριεπίσκοπος	a prier into other men's affairs
+ἀλυπότερος	free from pain, grief, trouble
+ἀμέμπτως	blamelessly
+ἀμφότεροι	both of two
 ἀνάγαιον	an upper room
+ἀνάλημψις	a taking up, lifting up
+ἀναγκαστῶς	by force, necessarily
+ἀναντιρρήτως	without contradiction
+ἀναξίως	unworthily, in an unworthy manner
+ἀνατίθεμαι	I lay a case before, impart, communicate, relate
+ἀνεξεραύνητος	that cannot be searched into, inscrutable
+ἀνεπίλημπτος	irreproachable
+ἀντίλημψις	help, ministration
 ἀντιδιατίθεμαι	I oppose
+ἀνόμως	without law
+ἀνώτερον	higher, to a more honorable place, previously, above
+ἀξίως	worthily, in a manner worthy of
+ἀπερισπάστως	without distraction, without being distracted
+ἀπογίνομαι	I go out of being, cease to be, die
 ἀπονίπτω	I wash dirt off
+ἀπορίπτω	I throw away from, throw overboard
+ἀποστάσιον	repudiation, divorce
+ἀποτόμως	sharply, severely
+ἀπροσωπολήμπτως	impartially
+ἀργυροῦς	made of silver
+ἀσμένως	joyfully, with delight
+ἀσφαλῶς	safely, securely, assuredly
+ἀσώτως	prodigally, with prodigal living
+ἀτάκτως	in a disorderly manner
 ἀτμίς	breath, steam, vapor
+ἀφόβως	fearlessly
+ἁλληλουϊά	Hallelujah, Praise the Lord
+ἁπλοῦς	single, simple, sound
+ἄραφος	not sewed, seamless
+ἄχρις	as far as, up to, until
+ἅλα	salt
 ἅλων	a threshing-floor
+Ἀαρών	Aaron
+Ἀβαδδών	Abaddon
+Ἀβιά	Abijah
+Ἀβιαθάρ	Abiathar
+Ἀβιληνή	Abilene
+Ἀβιούδ	Abiud
+Ἀβραάμ	Abraham
+Ἀγρίππας	Agrippa
+Ἀδάμ	Adam
+Ἀδδί	Addi
+Ἀδμίν	Ram
+Ἀδραμυττηνός	belonging to Adramyttium
+Ἀζώρ	Azor
+Ἀκύλας	Aquila
+Ἀλεξανδρεύς	an Alexandrian
+Ἀλεξανδρῖνος	Alexandrian
+Ἀμιναδάβ	Amminadab
+Ἀμπλιᾶτος	Ampliatus
+Ἀμώς	Amon
+Ἀνδρέας	Andrew
+Ἀνδρόνικος	Andronicus
+Ἀντιοχεύς	an Antiochian
+Ἀντιπᾶς	Antipas
+Ἀντιόχεια	Antioch
+Ἀπελλῆς	Apelles
+Ἀπολλωνία	Apollonia
+Ἀπολλύων	Apollyon, Destroyer
+Ἀπολλῶς	Apollos
+Ἀππίου	Appius
+Ἀπφία	Apphia
+Ἀράμ	Ram
+Ἀρνί	Arni, an ancestor of Jesus in Luke's genealogy
+Ἀρτεμᾶς	Artemas
+Ἀρφαξάδ	Arphaxad
+Ἀσάφ	Asa
+Ἀσήρ	Asher
+Ἀττάλεια	Attalia
+Ἀχάζ	Ahaz
+Ἀχίμ	Achim
+Ἀχαϊκός	Achaicus
+Ἁγάρ	Hagar
+Ἁκελδαμάχ	Akeldama
+Ἁλφαῖος	Alphaeus
+Ἁνανίας	Ananias
+Ἁρέτας	Aretas
+Ἁριμαθαία	Arimathea
+Ἁρμαγεδών	Armageddon
+Ἄρχιππος	Archippus
+Ἅβελ	Abel
+Ἅγαβος	Agabus
+Ἅννα	Anna
+Ἅννας	Annas
+Ἆσσος	Assos
 ἐάνπερ	if
+ἐγγύτερον	nearer
+ἐθελοθρησκία	arbitrary worship
+ἐθνικῶς	in the manner of Gentiles
 ἐκθαμβέομαι	I am greatly astonished
+ἐκτενέστερον	more earnestly
+ἐκτενῶς	earnestly, strenuously
 ἐλαττόω	I make less, make inferior
 ἐλεάω	I pity, have mercy on
+ἐλωΐ	Aramaic for my God
+ἐνάλιον	living in the sea
 ἐναντίον	before, in the presence of, in the eyes of
+ἐνδέχεται	I allow, it is possible
+ἐνδύνω	I clothe, enter, creep into
+ἐνώπιον	before the face of, in the presence of
 ἐξάπινα	suddenly
 ἐξεραυνάω	I search diligently, examine carefully
 ἐξουθενέω	I ignore, despise
 ἐπάν	after, when
+ἐπάναγκες	necessarily
 ἐπαναπαύομαι	I rest upon, rely on, trust in
 ἐπειδή	when, since
+ἐπειδήπερ	since
 ἐπενδύομαι	I put on over
+ἐπιγίνομαι	I arise, spring up
+ἐπιμελῶς	carefully, diligently
+ἐπιποθία	longing, eager desire
+ἐπιράπτω	I sew on
+ἐπιρίπτω	I throw upon, cast upon
+ἐραυνάω	I search diligently
+ἐσχάτως	to be at the extremity
+ἑκουσίως	willingly
+ἑτοίμως	readily
+ἔκγονον	descended, a descendant
+ἔννυχα	in the night
 ἔσοπτρον	a mirror
+ἕνεκεν	for the sake of, on account of, wherefore
+Ἐλαιῶν	Olive-grove, Olive-yard, the mount Olivet
+Ἐλαμίτης	an Elamite
+Ἐλεάζαρ	Eleazar
+Ἐλιέζερ	Eliezer
+Ἐλιακίμ	Eliakim
+Ἐλιούδ	Eliud
+Ἐλισάβετ	Elisabeth
+Ἐλισαῖος	Elisha
+Ἐλμαδάμ	Elmadam
+Ἐλύμας	Elymas
+Ἐμμανουήλ	Emmanuel
+Ἐμμαοῦς	Emmaus
+Ἐνώς	Enosh
+Ἐπαίνετος	Epaenetus
+Ἐπαφρᾶς	Epaphras
+Ἐφέσιος	Ephesian
+Ἐφραίμ	Ephraim
+Ἑβραΐς	the Hebrew language, Aramaic
+Ἑζεκίας	Hezekiah
+Ἑμμώρ	Hamor
+Ἑνώχ	Enoch
+Ἑρμογένης	Hermogenes
+Ἑρμᾶς	Hermas
+Ἑσλί	Esli
+Ἑσρώμ	Hezron
+Ἔβερ	Eber
+Ἔραστος	Erastus
+ἠλί	Eli
 ἡδέως	gladly, pleasantly
+ἡδύοσμον	mint, peppermint
+ἡττάομαι	I am defeated, made inferior
+ἥδιστα	most gladly, pleasantly
+Ἠλί	Heli
+Ἠλίας	Elijah
+Ἠσαΐας	Isaiah
+Ἠσαῦ	Esau
+Ἡρῳδίων	Herodion
+Ἡρῳδιάς	Herodias
+Ἡρῳδιανοί	the Herodians, the partisans of Herod Antipas
+Ἡρῴδης	Herod
+Ἤρ	Er
+ἰουδαΐζω	I live as a Jew
+ἱκετηρία	supplication, entreaty
+ἱλαστήριον	a sin offering, covering
+ἱνατί	why? for what reason?
+ἱππικόν	cavalry, horsemen
+ἵλεως	propitious, forgiving
+Ἰάκωβος	James
+Ἰάννης	Jannes
+Ἰάρετ	Jared
+Ἰάσων	Jason
+Ἰάϊρος	Jairus
+Ἰακώβ	Jacob
+Ἰαμβρῆς	Jambres
+Ἰανναί	Jannai
+Ἰδουμαία	Idumea, Edom
+Ἰεζάβελ	Jezebel
+Ἰερεμίας	Jeremiah
+Ἰεριχώ	Jericho
+Ἰερουσαλήμ	Jerusalem
+Ἰεσσαί	Jesse
+Ἰεφθάε	Jephthah
+Ἰεχονίας	Jechoniah
+Ἰκόνιον	Iconium
+Ἰλλυρικόν	Illyricum
+Ἰορδάνης	the Jordan
+Ἰουδαία	Judea
+Ἰουδαϊκῶς	in the manner of Jews
+Ἰουδαϊσμός	the Jewish religion, Judaism
+Ἰουλία	Julia
+Ἰουνία	Junia
+Ἰούδας	Judah, Judas, Jude
+Ἰούλιος	Julius
+Ἰοῦστος	Justus
+Ἰσαάκ	Isaac
+Ἰσκαριώθ	Iscariot, a man of Kerioth
+Ἰσκαριώτης	Iscariot, a man of Kerioth
+Ἰσραήλ	Israel
+Ἰσραηλίτης	an Israelite
+Ἰσσαχάρ	Issachar
+Ἰτουραῖος	Ituraean
+Ἰωάννα	Joanna
+Ἰωάννης	John
+Ἰωήλ	Joel
+Ἰωαθάμ	Jotham
+Ἰωανάν	Joanan
+Ἰωβήδ	Obed
+Ἰωβήλ	Obed
+Ἰωδά	Judah, Judas, Jude
+Ἰωνάμ	Jonam
 Ἰωνᾶς	Jonah
+Ἰωράμ	Joram, Jehoram
+Ἰωρίμ	Jorim
+Ἰωσήφ	Joseph
+Ἰωσήχ	Joseph
+Ἰωσίας	Josiah
+Ἰωσαφάτ	Jehoshaphat
+Ἰωσῆς	Joses
+Ἰόππη	Joppa
+Ἰώβ	Job
+Ἱεράπολις	Hierapolis
+Ἱεροσολυμίτης	an inhabitant of Jerusalem
+Ἱεροσόλυμα	Jerusalem
+ὀλίγως	small, brief, few, soon
+ὀλιγοπιστία	unbelief, unfaithfulness, distrust
+ὀμνύω	I swear, take an oath
 ὀπτάνομαι	I appear, am seen
+ὀρθῶς	rightly
+ὀφθαλμοδουλία	service rendered only while the master watches
 ὁμείρομαι	I long for, love fervently
+ὁμοίως	in like manner
+ὁσίως	piously
+ὄφελον	O that! I wish! Would that!
+ὅλως	wholly, altogether, not at all
+Ὀζίας	Uzziah
+Ὀλυμπᾶς	Olympas
+Ὀνησίφορος	Onesiphorus
+ὑπερεκχύννομαι	I pour out so that it overflows
 ὑποκρίνομαι	I act the part, pretend
+ὑποστρωννύω	I spread under
 ὠδίν	the pain of childbirth, severe agony
+Ὡσηέ	Hosea
+ᾄδω	I sing
 ῥακά	empty, foolish
+ῥεδή	a chariot
+ῥητῶς	in so many words
+ῥοιζηδόν	with a great noise
 ῥυπαρεύω	I am filthy
+ῥώννυμαι	I strengthen, farewell
+Ῥήγιον	Rhegium
+Ῥαάβ	Rahab
+Ῥαγαύ	Ragau, Reu
+Ῥαιφάν	Rephan, Saturn
+Ῥαμά	Rama
+Ῥαχάβ	Rahab
+Ῥαχήλ	Rachel
+Ῥεβέκκα	Rebecca
+Ῥησά	Rhesa
+Ῥοβοάμ	Rehoboam
+Ῥουβήν	Reuben
+Ῥούθ	Ruth
+Ῥοῦφος	Rufus
+Ῥόδη	Rhoda

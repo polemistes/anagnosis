@@ -96,8 +96,9 @@ def check_work(work_dir: Path, lexicon_keys: dict[str, set[str]] | None, sources
     if lexicon_keys is not None and not isinstance(lexicon_keys, dict):
         lexicon_keys = None
     if lexicon_keys is not None:
-        glossary = work_dir / "glossary.md"
-        if glossary.exists():
+        for glossary in [work_dir / "glossary.md", *sorted(work_dir.glob("dictionary-*.md"))]:
+            if not glossary.exists():
+                continue
             for raw in glossary.read_text(encoding="utf-8").splitlines():
                 if raw.startswith("## "):
                     hw = raw[3:].strip()

@@ -73,7 +73,9 @@ app in Play Console, choose to use the reader's app signing key.
   Dependency Treebank, GLAUx, Wikisource and Logeion, and from transcriptions of public-domain
   editions; the New Testament from the SBL Greek New Testament and MACULA Greek (text, apparatus,
   lemmas, morphology and syntax, both CC BY 4.0),
-  Dodson's lexicon (CC0) and the Berean Standard Bible (public domain); see
+  Dodson's lexicon (CC0) and the Berean Standard Bible (public domain); Abbott-Smith's Manual
+  Greek Lexicon of the New Testament from the public-domain TEI edition of
+  github.com/translatable-exegetical-tools/Abbott-Smith; see
   [texts/README.md](texts/README.md) for the individual sources.
 
 The Anagnosis name and app icon are trademarks of the author and are not covered by these

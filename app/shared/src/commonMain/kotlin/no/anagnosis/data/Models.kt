@@ -47,6 +47,8 @@ class WorkData(
     val prose: Boolean = false,
     /** The syntax was made by a parser and not checked by hand (shown on the syntax page). */
     val automaticSyntax: Boolean = false,
+    /** The dictionaries the word sheet offers first, most fitting first (abbott-smith dodson ml lsj). */
+    val dictionaryOrder: List<String> = emptyList(),
 ) {
     /** Whether the text is read one book at a time: an epic, the New Testament. */
     val byBook: Boolean get() = bookNumbered || verses

@@ -39,6 +39,7 @@ import no.anagnosis.data.Entry
 import no.anagnosis.data.NoteGroup
 import no.anagnosis.data.NoteKind
 import no.anagnosis.data.kind
+import no.anagnosis.data.Dictionaries
 import no.anagnosis.data.WordInfo
 import kotlinx.coroutines.launch
 import no.anagnosis.db.Documents
@@ -59,11 +60,22 @@ private fun sheetModifier(): Modifier = Modifier.statusBarsPadding()
  */
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalLayoutApi::class)
 @Composable
-fun WordSheet(info: WordInfo, onDismiss: () -> Unit, onSyntax: (() -> Unit)? = null, showFunction: Boolean = true) {
+fun WordSheet(
+    info: WordInfo,
+    onDismiss: () -> Unit,
+    onSyntax: (() -> Unit)? = null,
+    showFunction: Boolean = true,
+    order: List<String> = emptyList(),
+    disabled: Set<String> = emptySet(),
+) {
     val state = rememberModalBottomSheetState(skipPartiallyExpanded = true)
-    val glossary = info.entries.filter { it.lexiconSlug.endsWith("-glossary") }
-    val buttons = listOf("ml" to "Middle Liddell", "lsj" to "LSJ")
-        .filter { (slug, _) -> info.entries.any { it.lexiconSlug == slug } }
+    val glossary = info.entries.filter { Dictionaries.isGlossary(it.lexiconSlug) }
+    // a button for each dictionary that has the word and is turned on, the text's own first
+    val ranking = Dictionaries.order(order)
+    val buttons = info.entries.filter { !Dictionaries.isGlossary(it.lexiconSlug) && it.lexiconSlug !in disabled }
+        .distinctBy { it.lexiconSlug }
+        .sortedBy { e -> ranking.indexOf(e.lexiconSlug).let { if (it < 0) ranking.size else it } }
+        .map { it.lexiconSlug to Dictionaries.label(it.lexiconSlug, it.lexiconTitle) }
     // Without a gloss there is nothing to read on the sheet itself: open the only or the shorter dictionary at once.
     val initial = if (info.shortDefinition == null && glossary.isEmpty()) buttons.firstOrNull()?.first else null
     var open by remember { mutableStateOf(initial) }
