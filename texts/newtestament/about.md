@@ -1,5 +1,7 @@
 # title_en: New Testament
 # app_id: no.anagnosis.newtestament
+# ref_edition: M. W. Holmes, The Greek New Testament: SBL Edition, Society of Biblical Literature and Logos Bible Software 2010
+# ref_translation: The Holy Bible, Berean Standard Bible, 2023
 # editor: Michael W. Holmes (SBL edition, 2010)
 # apparatus: the SBL edition's, with the readings of other editions
 # translation: Berean Standard Bible

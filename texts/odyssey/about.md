@@ -1,6 +1,9 @@
 # title_en: Odyssey
 # author_en: Homer
 # app_id: no.anagnosis.odyssey
+# ref_edition: T. W. Allen, Homeri Opera III–IV, 2nd edition, Oxford 1917–1919
+# ref_translation: A. T. Murray, Homer: The Odyssey, Loeb Classical Library, 1919
+# ref_commentary: W. W. Merry and J. Riddell, Homer's Odyssey, Books I–XII, 2nd edition, Oxford 1886; D. B. Monro, Homer's Odyssey, Books XIII–XXIV, Oxford 1901
 # editor: T. W. Allen (Oxford, 2nd edition 1917–1919)
 # apparatus: Allen's
 # translation: A. T. Murray (1919)

@@ -1,6 +1,9 @@
 # title_en: Oedipus at Colonus
 # author_en: Sophocles
 # app_id: no.anagnosis.oedipuscoloneus
+# ref_edition: R. C. Jebb, Sophocles: The Plays and Fragments, Part II: The Oedipus Coloneus, Cambridge University Press 1889
+# ref_translation: R. C. Jebb, Sophocles: The Plays and Fragments, Part II: The Oedipus Coloneus, Cambridge University Press 1889
+# ref_commentary: R. C. Jebb, Sophocles: The Plays and Fragments, Part II: The Oedipus Coloneus, Cambridge University Press 1889
 # editor: R. C. Jebb (Cambridge 1889)
 # apparatus: Jebb's critical notes
 # translation: R. C. Jebb

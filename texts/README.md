@@ -269,12 +269,15 @@ Every file here is made by `import-nt` from the sources `fetch-nt` downloads; ed
 
 ## The text's entry in the catalog (`about.md`)
 
-`about.md` describes the text for the reader's catalog (`data/catalog.json`). Its body is the
-description on the text's own page; its `# key: value` headers give:
+`about.md` describes the text for the reader's catalog (`data/catalog.json`). Its body is a
+longer description (not shown in the app at present); its `# key: value` headers give:
 
 * `title_en`, `author_en`: the English title and author ("Antigone by Sophocles").
 * `app_id`: the Google Play id of the app that sells the text (`no.anagnosis.antigone`); its
   store page is `https://play.google.com/store/apps/details?id=<app_id>`.
+* `ref_edition`, `ref_translation`, `ref_commentary`: the books the edition, translation and
+  commentary come from, shown on the text's own page. Equal references share one line ("Edition,
+  translation and commentary: R. C. Jebb, ..."); an empty or missing one is left out.
 * `editor`, `apparatus`, `translation`, `commentary`, `syntax`, `dictionaries`: short phrases for
   the list of available texts (left out when the text has none, e.g. the New Testament's commentary).
   `syntax` says whether the syntax is annotated by hand or machine-made.

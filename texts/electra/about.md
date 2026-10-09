@@ -1,6 +1,9 @@
 # title_en: Electra
 # author_en: Sophocles
 # app_id: no.anagnosis.electra
+# ref_edition: R. C. Jebb, Sophocles: The Plays and Fragments, Part VI: The Electra, Cambridge University Press 1894
+# ref_translation: R. C. Jebb, Sophocles: The Plays and Fragments, Part VI: The Electra, Cambridge University Press 1894
+# ref_commentary: R. C. Jebb, Sophocles: The Plays and Fragments, Part VI: The Electra, Cambridge University Press 1894
 # editor: R. C. Jebb (Cambridge 1894)
 # apparatus: Jebb's critical notes
 # translation: R. C. Jebb

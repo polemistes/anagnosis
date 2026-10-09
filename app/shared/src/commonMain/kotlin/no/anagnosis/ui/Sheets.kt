@@ -229,7 +229,7 @@ fun DocumentSheet(document: Documents, onDismiss: () -> Unit) {
     }
 }
 
-/** The list of documents, opened from the title. */
+/** The list of the edition's documents (introduction, appendix ...), opened from the reader's toolbar. */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun DocumentsSheet(documents: List<Pair<String, String>>, onOpen: (String) -> Unit, onDismiss: () -> Unit) {

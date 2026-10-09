@@ -1,6 +1,9 @@
 # title_en: Ajax
 # author_en: Sophocles
 # app_id: no.anagnosis.ajax
+# ref_edition: R. C. Jebb, Sophocles: The Plays and Fragments, Part VII: The Ajax, Cambridge University Press 1896
+# ref_translation: R. C. Jebb, Sophocles: The Plays and Fragments, Part VII: The Ajax, Cambridge University Press 1896
+# ref_commentary: R. C. Jebb, Sophocles: The Plays and Fragments, Part VII: The Ajax, Cambridge University Press 1896
 # editor: R. C. Jebb (Cambridge 1896)
 # apparatus: Jebb's critical notes
 # translation: R. C. Jebb

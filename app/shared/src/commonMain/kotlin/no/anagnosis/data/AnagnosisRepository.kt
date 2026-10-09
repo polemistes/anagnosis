@@ -30,7 +30,8 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
 
     private fun CatalogEntry.copy(installed: Boolean) =
         CatalogEntry(slug, title, author, titleEn, authorEn, description, edition, installed, appId,
-            editor, apparatus, translation, commentary, syntax, dictionaries, price, onGooglePlay)
+            editor, apparatus, translation, commentary, syntax, dictionaries, price, onGooglePlay,
+            refEdition, refTranslation, refCommentary)
 
     private fun parseCatalog(json: String): List<CatalogEntry> {
         // the catalog is a flat JSON array of objects with string values; a small parser suffices
@@ -43,7 +44,8 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
             CatalogEntry(field(o, "slug"), field(o, "title"), field(o, "author"), field(o, "title_en"),
                 field(o, "author_en"), field(o, "description"), field(o, "edition"), false, field(o, "app_id"),
                 field(o, "editor"), field(o, "apparatus"), field(o, "translation"), field(o, "commentary"),
-                field(o, "syntax"), field(o, "dictionaries"), field(o, "price"), field(o, "google_play") == "yes")
+                field(o, "syntax"), field(o, "dictionaries"), field(o, "price"), field(o, "google_play") == "yes",
+                field(o, "ref_edition"), field(o, "ref_translation"), field(o, "ref_commentary"))
         }.filter { it.slug.isNotEmpty() }.toList()
     }
 

@@ -1,6 +1,9 @@
 # title_en: Trachiniae
 # author_en: Sophocles
 # app_id: no.anagnosis.trachiniae
+# ref_edition: R. C. Jebb, Sophocles: The Plays and Fragments, Part V: The Trachiniae, Cambridge University Press 1892
+# ref_translation: R. C. Jebb, Sophocles: The Plays and Fragments, Part V: The Trachiniae, Cambridge University Press 1892
+# ref_commentary: R. C. Jebb, Sophocles: The Plays and Fragments, Part V: The Trachiniae, Cambridge University Press 1892
 # editor: R. C. Jebb (Cambridge 1892)
 # apparatus: Jebb's critical notes
 # translation: R. C. Jebb

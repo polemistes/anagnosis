@@ -118,7 +118,6 @@ fun App(
                         appVersion = appVersion,
                         onRead = { screen = Screen.Reader(s.slug) },
                         onBack = { screen = Screen.Home },
-                        onSearch = { screen = Screen.Search(s) },
                     )
                     PlatformBackHandler { screen = Screen.Home }
                 }

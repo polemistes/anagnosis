@@ -1,6 +1,9 @@
 # title_en: Symposium
 # author_en: Plato
 # app_id: no.anagnosis.symposium
+# ref_edition: J. Burnet, Platonis Opera II, Oxford 1901 (corrected printing 1910)
+# ref_translation: B. Jowett, The Dialogues of Plato, 3rd edition, Oxford 1892
+# ref_commentary: R. G. Bury, The Symposium of Plato, Cambridge 1909
 # editor: John Burnet (Oxford 1901, corrected 1910)
 # apparatus: Burnet's
 # translation: Benjamin Jowett (1892)

@@ -27,6 +27,7 @@ import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.Home
+import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.CircularProgressIndicator
@@ -172,6 +173,8 @@ fun ReaderScreen(
     var chosenMode by remember { mutableStateOf<ViewMode?>(null) }
     var showOptions by remember { mutableStateOf(false) }
     var showDocuments by remember { mutableStateOf(false) }
+    // the edition's introduction, appendix, preface ...; the sigla are reached from the apparatus
+    val documents = remember(data) { repository.documents(data).filter { it.first != "sigla" } }
     var openDocument by remember { mutableStateOf<String?>(null) }
     var showAbout by remember { mutableStateOf(false) }
     var selectedTokenId by remember { mutableStateOf<Long?>(null) }
@@ -302,6 +305,11 @@ fun ReaderScreen(
                                     )
                                 }
                             }
+                        }
+                    }
+                    if (documents.isNotEmpty()) {
+                        IconButton(onClick = { showDocuments = true }) {
+                            Icon(Icons.Filled.Info, contentDescription = "Introduction and other parts of the edition")
                         }
                     }
                     IconButton(onClick = onSearch) {
@@ -526,8 +534,7 @@ fun ReaderScreen(
         PageNotesSheet(kind, pageNotes, sigla, onDismiss = { pageNotesKind = null })
     }
     if (showDocuments) {
-        val docs = remember { repository.documents(data) }
-        DocumentsSheet(docs, onOpen = { showDocuments = false; openDocument = it }, onDismiss = { showDocuments = false })
+        DocumentsSheet(documents, onOpen = { showDocuments = false; openDocument = it }, onDismiss = { showDocuments = false })
     }
     openDocument?.let { slug ->
         val doc = remember(slug) { repository.document(data, slug) }

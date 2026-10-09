@@ -34,6 +34,10 @@ class CatalogEntry(
     val price: String = "",
     /** Whether the text's app is on Google Play, so that the reader offers it. */
     val onGooglePlay: Boolean = false,
+    /** The books the text's edition, translation and commentary come from, for its own page; empty when it has none. */
+    val refEdition: String = "",
+    val refTranslation: String = "",
+    val refCommentary: String = "",
 ) {
     /** The page of the text's app on Google Play. */
     val storeUrl: String get() = "https://play.google.com/store/apps/details?id=$appId"
