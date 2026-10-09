@@ -10,7 +10,7 @@
 # commentary: W. W. Merry and J. Riddell (books 1–12), D. B. Monro (books 13–24)
 # syntax: annotated by hand (Ancient Greek Dependency Treebank)
 # dictionaries: Autenrieth's Homeric Dictionary
-# price:
+# price: €3
 # google_play: yes
 
 The Greek text of T. W. Allen's Oxford edition with its critical apparatus, A. T. Murray's translation, the commentary of Merry, Riddell and Monro, Autenrieth's Homeric Dictionary and the Liddell–Scott dictionaries. Tap any word for its meaning and form.

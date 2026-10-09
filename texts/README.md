@@ -281,7 +281,7 @@ longer description (not shown in the app at present); its `# key: value` headers
 * `editor`, `apparatus`, `translation`, `commentary`, `syntax`, `dictionaries`: short phrases for
   the list of available texts (left out when the text has none, e.g. the New Testament's commentary).
   `syntax` says whether the syntax is annotated by hand or machine-made.
-* `price`: the price as shown in the list, e.g. `NOK 49` (empty: no price shown).
+* `price`: the price as shown in the list, e.g. `€3` (empty: no price shown).
 * `google_play: yes`: the text's app is on Google Play, so the reader offers it in the list
   of available texts. Texts without it are not listed.
 

@@ -217,7 +217,7 @@ fun IntroDialog(onDismiss: () -> Unit) {
     AlertDialog(
         onDismissRequest = onDismiss,
         title = { Text("Welcome to Anagnosis") },
-        confirmButton = { TextButton(onClick = onDismiss) { Text("Start reading") } },
+        confirmButton = { TextButton(onClick = onDismiss) { Text("Close") } },
         text = {
             Column(Modifier.verticalScroll(rememberScrollState())) {
                 Text(
