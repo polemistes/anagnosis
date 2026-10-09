@@ -9,6 +9,7 @@
 # translation: R. C. Jebb
 # commentary: R. C. Jebb, with his introduction and appendix
 # syntax: machine-made (GLAUx), not checked by hand
-# price: €3
+# syntax_source: GLAUx (Alek Keersmaekers, KU Leuven): automatic annotation, not checked by hand
+# syntax_license: CC BY-SA 4.0
 
 The Greek text of Sir Richard Jebb's edition, with his translation, critical notes and commentary, and the Liddell–Scott dictionaries. Tap any word for its meaning and form; the syntax is an automatic analysis (GLAUx).

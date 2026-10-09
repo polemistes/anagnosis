@@ -92,7 +92,7 @@ fun OptionsDialog(
                     }
                 }
                 Row(Modifier.fillMaxWidth().clickable { onChange(settings.copy(fitTranslation = !settings.fitTranslation)) }, verticalAlignment = Alignment.CenterVertically) {
-                    Text("Shorten pages so the translation fits", style = MaterialTheme.typography.bodyMedium, modifier = Modifier.weight(1f))
+                    Text("Shorten Greek pages, so the translation fits on one page", style = MaterialTheme.typography.bodyMedium, modifier = Modifier.weight(1f))
                     Switch(checked = settings.fitTranslation, onCheckedChange = { onChange(settings.copy(fitTranslation = it)) })
                 }
                 Row(Modifier.fillMaxWidth().clickable { onChange(settings.copy(wordFunction = !settings.wordFunction)) }, verticalAlignment = Alignment.CenterVertically) {
@@ -144,6 +144,7 @@ fun OptionsDialog(
     )
 }
 
+/** About the app as a whole: its licence, the shared dictionaries and the analyser, fonts and software. */
 @Composable
 fun AboutDialog(appVersion: String, credits: List<Credit>, onDismiss: () -> Unit) {
     AlertDialog(
@@ -156,7 +157,8 @@ fun AboutDialog(appVersion: String, credits: List<Credit>, onDismiss: () -> Unit
                 Spacer(Modifier.height(8.dp))
                 Text(
                     "An app for reading ancient Greek texts, with dictionaries and morphological analysis, working offline. " +
-                        "The app is free; each text, with its translation and commentary, is bought as an app of its own.",
+                        "The app is free; each text, with its translation and commentary, is bought as an app of its own. " +
+                        "The credits for a text are on its own page.",
                     style = MaterialTheme.typography.bodyMedium,
                 )
                 Spacer(Modifier.height(12.dp))
@@ -169,27 +171,19 @@ fun AboutDialog(appVersion: String, credits: List<Credit>, onDismiss: () -> Unit
                     style = MaterialTheme.typography.bodySmall,
                 )
                 Spacer(Modifier.height(12.dp))
-                Text("Texts and data", style = MaterialTheme.typography.labelLarge)
+                Text("Dictionaries and data", style = MaterialTheme.typography.labelLarge)
                 Text(
-                    "The texts, translations, commentaries and dictionaries in this app are derived from open data and are " +
-                        "themselves published under the Creative Commons Attribution-ShareAlike 4.0 licence. They come from:",
+                    "The dictionaries in this app are derived from open data and are themselves published under the " +
+                        "Creative Commons Attribution-ShareAlike 4.0 licence. They come from:",
                     style = MaterialTheme.typography.bodySmall,
                 )
-                for (c in credits) {
-                    Spacer(Modifier.height(6.dp))
-                    Text(c.kind, style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.primary)
-                    Text(c.title, style = MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium)
-                    c.detail?.let { Text(it, style = MaterialTheme.typography.bodySmall) }
-                    c.license?.let { Text("Licence: $it", style = MaterialTheme.typography.bodySmall) }
-                }
+                CreditList(credits)
                 Spacer(Modifier.height(6.dp))
                 Text(
-                    "Lemmas, morphology and syntax come from the Ancient Greek Dependency Treebank (Perseus Digital Library, " +
-                        "CC BY-SA 3.0 US) and, for Plato's Symposium, from GLAUx " +
-                        "(Alek Keersmaekers, KU Leuven, CC BY-SA 4.0), whose annotation is automatic. The word analyser uses the Perseus treebanks and the Morpheus morphological " +
-                        "analyser (Perseus Digital Library, Mozilla Public License 2.0), run over the Perseus Greek corpus. Perseus Digital Library materials are copyright Tufts University and are used " +
-                        "under their Creative Commons Attribution-ShareAlike licences; the data has been reformatted and in " +
-                        "places corrected for this app.",
+                    "The word analyser uses the Perseus treebanks and the Morpheus morphological analyser (Perseus Digital " +
+                        "Library, Mozilla Public License 2.0), run over the Perseus Greek corpus. Perseus Digital Library " +
+                        "materials are copyright Tufts University and are used under their Creative Commons Attribution-ShareAlike " +
+                        "licences; the data has been reformatted and in places corrected for this app.",
                     style = MaterialTheme.typography.bodySmall,
                 )
                 Spacer(Modifier.height(12.dp))
@@ -203,12 +197,50 @@ fun AboutDialog(appVersion: String, credits: List<Credit>, onDismiss: () -> Unit
                 Text("Software", style = MaterialTheme.typography.labelLarge)
                 Text(
                     "Built with Kotlin Multiplatform, Jetpack Compose and Compose Multiplatform (JetBrains, Google) and " +
-                        "SQLDelight (Cash App), all under the Apache License 2.0.",
+                        "SQLDelight (Cash App), all under the Apache License 2.0. Icons from Material Icons (Google, Apache License 2.0).",
                     style = MaterialTheme.typography.bodySmall,
                 )
             }
         },
     )
+}
+
+/** About one text: where its edition, translation, commentary, dictionaries and syntax come from. */
+@Composable
+fun TextAboutDialog(title: String, credits: List<Credit>, onDismiss: () -> Unit) {
+    AlertDialog(
+        onDismissRequest = onDismiss,
+        title = { Text(title) },
+        confirmButton = { TextButton(onClick = onDismiss) { Text("Close") } },
+        text = {
+            Column(Modifier.verticalScroll(rememberScrollState())) {
+                Text(
+                    "The text, translation, commentary and annotation are derived from open data and are themselves " +
+                        "published under the Creative Commons Attribution-ShareAlike 4.0 licence; they have been reformatted " +
+                        "and in places corrected for this app. They come from:",
+                    style = MaterialTheme.typography.bodySmall,
+                )
+                CreditList(credits)
+                Spacer(Modifier.height(12.dp))
+                Text(
+                    "The app itself, its dictionaries and the word analyser are credited under About and credits on the front page.",
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+            }
+        },
+    )
+}
+
+@Composable
+private fun CreditList(credits: List<Credit>) {
+    for (c in credits) {
+        Spacer(Modifier.height(6.dp))
+        Text(c.kind, style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.primary)
+        Text(c.title, style = MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Medium)
+        c.detail?.let { Text(it, style = MaterialTheme.typography.bodySmall) }
+        c.license?.let { Text("Licence: $it", style = MaterialTheme.typography.bodySmall) }
+    }
 }
 
 /** Shown on the first launch and from Options > Help. */

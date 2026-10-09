@@ -28,7 +28,6 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Info
-import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.DropdownMenu
@@ -91,6 +90,7 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import no.anagnosis.data.AnagnosisRepository
 import no.anagnosis.data.Book
+import no.anagnosis.data.CatalogEntry
 import no.anagnosis.data.NoteGroup
 import no.anagnosis.data.NoteKind
 import no.anagnosis.data.kind
@@ -102,6 +102,9 @@ import no.anagnosis.db.Tokens
 import no.anagnosis.db.Translation_segments
 import no.anagnosis.prefs.LineNumberMode
 import no.anagnosis.prefs.ReaderSettings
+import no.anagnosis.resources.Res
+import no.anagnosis.resources.dictionary
+import org.jetbrains.compose.resources.painterResource
 
 /** What the page shows. `BOTH` (Greek and translation side by side) is offered on wide screens only. */
 enum class ViewMode(val label: String) { GREEK("Greek"), TRANSLATION("English"), BOTH("Both") }
@@ -167,7 +170,8 @@ fun ReaderScreen(
     onSearch: () -> Unit,
     startLine: Long,
     onPositionChange: (Long) -> Unit,
-    appVersion: String,
+    /** The text's catalog entry, for its credits. */
+    entry: CatalogEntry,
 ) {
     // The reader's choice of view, or null for the default: both columns on a wide screen, else the Greek.
     var chosenMode by remember { mutableStateOf<ViewMode?>(null) }
@@ -313,7 +317,7 @@ fun ReaderScreen(
                         }
                     }
                     IconButton(onClick = onSearch) {
-                        Icon(Icons.Filled.Search, contentDescription = "Dictionary")
+                        Icon(painterResource(Res.drawable.dictionary), contentDescription = "Dictionary")
                     }
                     IconButton(onClick = { showOptions = true }) {
                         Icon(Icons.Filled.Settings, contentDescription = "Options")
@@ -550,8 +554,8 @@ fun ReaderScreen(
         )
     }
     if (showAbout) {
-        val credits = remember { repository.credits() }
-        AboutDialog(appVersion, credits, onDismiss = { showAbout = false })
+        val credits = remember { repository.textCredits(entry) }
+        TextAboutDialog(entry.titleEn.ifEmpty { entry.title }, credits, onDismiss = { showAbout = false })
     }
 }
 

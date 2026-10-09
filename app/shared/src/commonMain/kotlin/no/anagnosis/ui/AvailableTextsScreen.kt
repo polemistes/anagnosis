@@ -30,13 +30,13 @@ import androidx.compose.ui.unit.dp
 import no.anagnosis.data.CatalogEntry
 
 /**
- * The texts on sale, each an app of its own on Google Play: what each comes with, its price and
+ * The texts on sale, each an app of its own on Google Play, by author: what each comes with and
  * the way to its page there. Only texts marked as on Google Play in the catalog are listed.
  */
 @Composable
 fun AvailableTextsScreen(catalog: List<CatalogEntry>, onOpen: (String) -> Unit, onBack: () -> Unit) {
     val uriHandler = LocalUriHandler.current
-    val offered = catalog.filter { it.onGooglePlay && it.appId.isNotEmpty() }.sortedBy { it.titleEn.ifEmpty { it.title } }
+    val offered = catalog.filter { it.onGooglePlay && it.appId.isNotEmpty() }
     Column(
         Modifier.fillMaxSize().safeDrawingPadding().verticalScroll(rememberScrollState()).padding(horizontal = 24.dp, vertical = 16.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
@@ -52,28 +52,37 @@ fun AvailableTextsScreen(catalog: List<CatalogEntry>, onOpen: (String) -> Unit, 
             color = MaterialTheme.colorScheme.onSurfaceVariant,
         )
         Spacer(Modifier.height(16.dp))
-        Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
-            for (entry in offered) {
-                Card(Modifier.fillMaxWidth()) {
-                    Column(Modifier.padding(16.dp)) {
-                        Text(titleByAuthor(entry), style = MaterialTheme.typography.titleLarge)
-                        Spacer(Modifier.height(8.dp))
-                        Detail("Editor", entry.editor)
-                        Detail("Critical apparatus", entry.apparatus)
-                        Detail("Translation", entry.translation)
-                        Detail("Commentary", entry.commentary)
-                        Detail("Syntax", entry.syntax)
-                        Detail("Extra dictionaries", entry.dictionaries)
-                        Spacer(Modifier.height(8.dp))
-                        Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
-                            if (entry.installed) {
-                                Text("Installed", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
-                                Spacer(Modifier.weight(1f))
-                                OutlinedButton(onClick = { onOpen(entry.slug) }) { Text("Open") }
-                            } else {
-                                Text(entry.price, style = MaterialTheme.typography.titleMedium)
-                                Spacer(Modifier.weight(1f))
-                                Button(onClick = { uriHandler.openUri(entry.storeUrl) }) { Text("Google Play") }
+        for ((author, texts) in byAuthor(offered)) {
+            if (author.isNotEmpty()) {
+                Text(
+                    author,
+                    style = MaterialTheme.typography.titleMedium,
+                    color = MaterialTheme.colorScheme.primary,
+                    modifier = Modifier.padding(top = 12.dp, bottom = 8.dp),
+                )
+            }
+            Column(Modifier.padding(top = if (author.isEmpty()) 8.dp else 0.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+                for (entry in texts) {
+                    Card(Modifier.fillMaxWidth()) {
+                        Column(Modifier.padding(16.dp)) {
+                            Text(entry.titleEn.ifEmpty { entry.title }, style = MaterialTheme.typography.titleLarge)
+                            Spacer(Modifier.height(8.dp))
+                            Detail("Editor", entry.editor)
+                            Detail("Critical apparatus", entry.apparatus)
+                            Detail("Translation", entry.translation)
+                            Detail("Commentary", entry.commentary)
+                            Detail("Syntax", entry.syntax)
+                            Detail("Extra dictionaries", entry.dictionaries)
+                            Spacer(Modifier.height(8.dp))
+                            Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+                                if (entry.installed) {
+                                    Text("Installed", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
+                                    Spacer(Modifier.weight(1f))
+                                    OutlinedButton(onClick = { onOpen(entry.slug) }) { Text("Open") }
+                                } else {
+                                    Spacer(Modifier.weight(1f))
+                                    Button(onClick = { uriHandler.openUri(entry.storeUrl) }) { Text("Google Play") }
+                                }
                             }
                         }
                     }

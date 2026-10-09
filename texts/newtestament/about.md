@@ -6,8 +6,9 @@
 # apparatus: the SBL edition's, with the readings of other editions
 # translation: Berean Standard Bible
 # syntax: annotated by hand (MACULA Greek)
+# syntax_source: MACULA Greek (Biblica, Inc.), converted to dependency trees for this app
+# syntax_license: CC BY 4.0
 # dictionaries: Abbott-Smith's and Dodson's lexicons of the New Testament
-# price: €3
 # google_play: yes
 
 The Greek New Testament in the SBL edition of Michael W. Holmes with its apparatus and the Berean Standard Bible. Tap any word for its meaning and form in Abbott-Smith's and Dodson's lexicons of the New Testament and the Liddell–Scott dictionaries, or hold it for the syntax of its sentence; the lemmas, morphology and syntax are those of the MACULA Greek project.

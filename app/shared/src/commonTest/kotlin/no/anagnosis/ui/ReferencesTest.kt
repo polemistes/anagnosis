@@ -18,4 +18,12 @@ class ReferencesTest {
     fun missingPartsAreLeftOut() {
         assertEquals(listOf("Edition" to "SBL", "Translation" to "BSB"), references(entry("SBL", "BSB", "")))
     }
+
+    @Test
+    fun textsAreGroupedByAuthorWithTheAuthorlessFirst() {
+        fun text(title: String, author: String) = CatalogEntry(title, "", "", title, author, "", "", true)
+        val groups = byAuthor(listOf(text("Electra", "Sophocles"), text("Odyssey", "Homer"), text("New Testament", ""), text("Ajax", "Sophocles")))
+        assertEquals(listOf("", "Homer", "Sophocles"), groups.map { it.first })
+        assertEquals(listOf("Ajax", "Electra"), groups.last().second.map { it.titleEn })
+    }
 }

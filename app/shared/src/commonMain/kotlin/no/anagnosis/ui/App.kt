@@ -115,7 +115,6 @@ fun App(
                     if (entry == null) Loading() else TextHomeScreen(
                         repository = repository,
                         entry = entry,
-                        appVersion = appVersion,
                         onRead = { screen = Screen.Reader(s.slug) },
                         onBack = { screen = Screen.Home },
                     )
@@ -135,7 +134,7 @@ fun App(
                             onSearch = { screen = Screen.Search(s) },
                             startLine = settingsStore.lastLine(s.slug) ?: 1L,
                             onPositionChange = { settingsStore.saveLastText(s.slug); settingsStore.saveLastLine(s.slug, it) },
-                            appVersion = appVersion,
+                            entry = list?.firstOrNull { it.slug == s.slug } ?: CatalogEntry(s.slug, data.work.title, data.work.author ?: "", "", "", "", "", true),
                         )
                         if (showIntro) {
                             IntroDialog(onDismiss = { showIntro = false; settingsStore.markIntroSeen() })

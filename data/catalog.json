@@ -16,7 +16,8 @@
     "translation": "R. C. Jebb",
     "commentary": "R. C. Jebb, with his introduction and appendix",
     "syntax": "annotated by hand (Ancient Greek Dependency Treebank)",
-    "price": "€3",
+    "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
+    "syntax_license": "CC BY-SA 3.0 US",
     "google_play": "yes"
   },
   {
@@ -36,7 +37,8 @@
     "translation": "R. C. Jebb",
     "commentary": "R. C. Jebb, with his introduction and appendix",
     "syntax": "annotated by hand (Ancient Greek Dependency Treebank)",
-    "price": "€3",
+    "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
+    "syntax_license": "CC BY-SA 3.0 US",
     "google_play": "yes"
   },
   {
@@ -56,7 +58,8 @@
     "translation": "R. C. Jebb",
     "commentary": "R. C. Jebb, with his introduction and appendix",
     "syntax": "annotated by hand (Ancient Greek Dependency Treebank)",
-    "price": "€3",
+    "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
+    "syntax_license": "CC BY-SA 3.0 US",
     "google_play": "yes"
   },
   {
@@ -74,8 +77,9 @@
     "apparatus": "the SBL edition's, with the readings of other editions",
     "translation": "Berean Standard Bible",
     "syntax": "annotated by hand (MACULA Greek)",
+    "syntax_source": "MACULA Greek (Biblica, Inc.), converted to dependency trees for this app",
+    "syntax_license": "CC BY 4.0",
     "dictionaries": "Abbott-Smith's and Dodson's lexicons of the New Testament",
-    "price": "€3",
     "google_play": "yes"
   },
   {
@@ -95,8 +99,9 @@
     "translation": "A. T. Murray (1919)",
     "commentary": "W. W. Merry and J. Riddell (books 1–12), D. B. Monro (books 13–24)",
     "syntax": "annotated by hand (Ancient Greek Dependency Treebank)",
+    "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
+    "syntax_license": "CC BY-SA 3.0 US",
     "dictionaries": "Autenrieth's Homeric Dictionary",
-    "price": "€3",
     "google_play": "yes"
   },
   {
@@ -116,7 +121,8 @@
     "translation": "R. C. Jebb",
     "commentary": "R. C. Jebb, with his introduction and appendix",
     "syntax": "machine-made (GLAUx), not checked by hand",
-    "price": "€3"
+    "syntax_source": "GLAUx (Alek Keersmaekers, KU Leuven): automatic annotation, not checked by hand",
+    "syntax_license": "CC BY-SA 4.0"
   },
   {
     "slug": "oedipustyrannus",
@@ -135,7 +141,8 @@
     "translation": "R. C. Jebb",
     "commentary": "R. C. Jebb, with his introduction and appendix",
     "syntax": "annotated by hand (Ancient Greek Dependency Treebank)",
-    "price": "€3"
+    "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
+    "syntax_license": "CC BY-SA 3.0 US"
   },
   {
     "slug": "philoctetes",
@@ -154,7 +161,8 @@
     "translation": "R. C. Jebb",
     "commentary": "R. C. Jebb, with his introduction and appendix",
     "syntax": "machine-made (GLAUx), not checked by hand",
-    "price": "€3"
+    "syntax_source": "GLAUx (Alek Keersmaekers, KU Leuven): automatic annotation, not checked by hand",
+    "syntax_license": "CC BY-SA 4.0"
   },
   {
     "slug": "symposium",
@@ -173,7 +181,8 @@
     "translation": "Benjamin Jowett (1892)",
     "commentary": "R. G. Bury (1909), with his introduction",
     "syntax": "machine-made (GLAUx), not checked by hand",
-    "price": "€3",
+    "syntax_source": "GLAUx (Alek Keersmaekers, KU Leuven): automatic annotation, not checked by hand",
+    "syntax_license": "CC BY-SA 4.0",
     "google_play": "yes"
   },
   {
@@ -193,6 +202,7 @@
     "translation": "R. C. Jebb",
     "commentary": "R. C. Jebb, with his introduction and appendix",
     "syntax": "annotated by hand (Ancient Greek Dependency Treebank)",
-    "price": "€3"
+    "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
+    "syntax_license": "CC BY-SA 3.0 US"
   }
 ]

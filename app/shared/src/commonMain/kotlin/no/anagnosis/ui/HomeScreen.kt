@@ -28,10 +28,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.focus.onFocusChanged
 import androidx.compose.ui.platform.LocalFocusManager
-import androidx.compose.ui.text.SpanStyle
-import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.style.TextAlign
-import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import no.anagnosis.data.AnagnosisRepository
 import no.anagnosis.data.CatalogEntry
@@ -60,7 +57,7 @@ fun HomeScreen(
     // the Greek keyboard shows only while the field is in use, so that it does not cover the page
     var fieldFocused by remember { mutableStateOf(false) }
     val focusManager = LocalFocusManager.current
-    val installed = catalog.filter { it.installed }.sortedBy { it.titleEn.ifEmpty { it.title } }
+    val installed = catalog.filter { it.installed }
     // on a tablet the page keeps a readable width in the middle of the screen
     val width = Modifier.widthIn(max = CONTENT_MAX_WIDTH).fillMaxWidth()
     Column(Modifier.fillMaxSize().safeDrawingPadding(), horizontalAlignment = Alignment.CenterHorizontally) {
@@ -80,15 +77,6 @@ fun HomeScreen(
                         textAlign = TextAlign.Center,
                     )
                     Spacer(Modifier.height(20.dp))
-                    Text(
-                        "Anagnosis is an app for reading ancient Greek texts. It provides dictionaries and a tool for " +
-                            "morphological analysis. The reading app itself is free, but it is possible to buy texts that " +
-                            "can be read in the app. While reading, you can look up words, see the syntax of sentences and " +
-                            "look at the critical apparatus, a commentary or an English translation of the current page.",
-                        style = MaterialTheme.typography.bodyMedium,
-                        textAlign = TextAlign.Center,
-                    )
-                    Spacer(Modifier.height(20.dp))
                 }
             }
             item {
@@ -97,18 +85,40 @@ fun HomeScreen(
                 }
             }
             searchResults(search, repository, width)
+            item {
+                Text(
+                    "Anagnosis is an app for reading ancient Greek texts. It provides dictionaries and a tool for " +
+                        "morphological analysis. The reading app itself is free, but it is possible to buy texts that " +
+                        "can be read in the app. While reading, you can look up words, see the syntax of sentences and " +
+                        "look at the critical apparatus, a commentary or an English translation of the current page.",
+                    style = MaterialTheme.typography.bodyMedium,
+                    modifier = width.padding(top = 20.dp),
+                )
+            }
             if (installed.isNotEmpty()) {
                 item {
                     Text(
                         "Your texts",
                         style = MaterialTheme.typography.labelLarge,
                         color = MaterialTheme.colorScheme.primary,
-                        modifier = width.padding(top = 24.dp, bottom = 8.dp),
+                        modifier = width.padding(top = 24.dp),
                     )
                 }
-                items(installed, key = { it.slug }) { entry ->
-                    Card(width.padding(bottom = 8.dp).clickable { onOpen(entry.slug) }) {
-                        Text(titleByAuthor(entry), style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(16.dp))
+                for ((author, texts) in byAuthor(installed)) {
+                    if (author.isNotEmpty()) {
+                        item(key = "author:$author") {
+                            Text(
+                                author,
+                                style = MaterialTheme.typography.titleSmall,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                                modifier = width.padding(top = 12.dp, bottom = 6.dp),
+                            )
+                        }
+                    }
+                    items(texts, key = { it.slug }) { entry ->
+                        Card(width.padding(top = if (author.isEmpty()) 8.dp else 0.dp, bottom = 8.dp).clickable { onOpen(entry.slug) }) {
+                            Text(entry.titleEn.ifEmpty { entry.title }, style = MaterialTheme.typography.titleMedium, modifier = Modifier.padding(16.dp))
+                        }
                     }
                 }
             }
@@ -133,17 +143,17 @@ fun HomeScreen(
     search.word?.let { WordSheet(it, onDismiss = { search.word = null }, disabled = settings.disabledDictionaries) }
     if (showHelp) IntroDialog(onDismiss = { showHelp = false })
     if (showAbout) {
-        val credits = remember { repository.credits() }
+        val credits = remember { repository.appCredits() }
         AboutDialog(appVersion, credits, onDismiss = { showAbout = false })
     }
 }
 
-/** "Antigone by Sophocles"; a text without an author (the New Testament) by its title alone. */
-@Composable
-fun titleByAuthor(entry: CatalogEntry) = buildAnnotatedString {
-    append(entry.titleEn.ifEmpty { entry.title })
-    val author = entry.authorEn.ifEmpty { entry.author }
-    if (author.isNotBlank()) {
-        withStyle(SpanStyle(color = MaterialTheme.colorScheme.onSurfaceVariant)) { append(" by $author") }
-    }
-}
+/**
+ * Texts grouped by author, the authors in alphabetical order and each one's texts by title; a text
+ * without an author (the New Testament) comes first, under no heading.
+ */
+internal fun byAuthor(entries: List<CatalogEntry>): List<Pair<String, List<CatalogEntry>>> =
+    entries.groupBy { it.authorEn.ifEmpty { it.author }.trim() }
+        .toList()
+        .sortedBy { it.first }
+        .map { (author, texts) -> author to texts.sortedBy { it.titleEn.ifEmpty { it.title } } }

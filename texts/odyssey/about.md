@@ -9,8 +9,9 @@
 # translation: A. T. Murray (1919)
 # commentary: W. W. Merry and J. Riddell (books 1–12), D. B. Monro (books 13–24)
 # syntax: annotated by hand (Ancient Greek Dependency Treebank)
+# syntax_source: Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition
+# syntax_license: CC BY-SA 3.0 US
 # dictionaries: Autenrieth's Homeric Dictionary
-# price: €3
 # google_play: yes
 
 The Greek text of T. W. Allen's Oxford edition with its critical apparatus, A. T. Murray's translation, the commentary of Merry, Riddell and Monro, Autenrieth's Homeric Dictionary and the Liddell–Scott dictionaries. Tap any word for its meaning and form.

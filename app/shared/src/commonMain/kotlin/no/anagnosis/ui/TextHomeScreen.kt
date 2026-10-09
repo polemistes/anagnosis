@@ -41,7 +41,6 @@ import no.anagnosis.data.CatalogEntry
 fun TextHomeScreen(
     repository: AnagnosisRepository,
     entry: CatalogEntry,
-    appVersion: String,
     onRead: () -> Unit,
     onBack: () -> Unit,
 ) {
@@ -55,32 +54,34 @@ fun TextHomeScreen(
         TextButton(onClick = onBack, modifier = Modifier.align(Alignment.Start)) { Text("‹ Home") }
         Spacer(Modifier.height(8.dp))
         Text(entry.titleEn.ifEmpty { entry.title }, style = MaterialTheme.typography.displaySmall, textAlign = TextAlign.Center)
-        // a text without an author (the New Testament) is named in Greek instead
+        // a text without an author (the New Testament) has its title alone
         val author = entry.authorEn.ifEmpty { entry.author }
-        Text(if (author.isNotBlank()) "by $author" else entry.title, style = MaterialTheme.typography.titleLarge, color = MaterialTheme.colorScheme.onSurfaceVariant, textAlign = TextAlign.Center)
-        Spacer(Modifier.height(28.dp))
-        Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
-            for ((label, reference) in references(entry)) {
-                Text(
-                    buildAnnotatedString {
-                        withStyle(SpanStyle(fontWeight = FontWeight.SemiBold)) { append("$label: ") }
-                        append(reference)
-                    },
-                    style = MaterialTheme.typography.bodyLarge,
-                    textAlign = TextAlign.Center,
-                    modifier = Modifier.fillMaxWidth(),
-                )
-            }
+        if (author.isNotBlank()) {
+            Text("by $author", style = MaterialTheme.typography.titleLarge, color = MaterialTheme.colorScheme.onSurfaceVariant, textAlign = TextAlign.Center)
         }
         Spacer(Modifier.height(28.dp))
-        for (hint in listOf("Tap a word to see its meaning and form.", "Long press a word to see the syntax of its sentence.")) {
-            Text(
-                hint,
-                style = MaterialTheme.typography.bodyMedium,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                textAlign = TextAlign.Center,
-                modifier = Modifier.padding(vertical = 2.dp),
-            )
+        // the references and the instructions are read, so they are set flush left
+        Column(Modifier.fillMaxWidth().padding(horizontal = 12.dp)) {
+            Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                for ((label, reference) in references(entry)) {
+                    Text(
+                        buildAnnotatedString {
+                            withStyle(SpanStyle(fontWeight = FontWeight.SemiBold)) { append("$label: ") }
+                            append(reference)
+                        },
+                        style = MaterialTheme.typography.bodyLarge,
+                    )
+                }
+            }
+            Spacer(Modifier.height(24.dp))
+            for (hint in listOf("Tap a word to see its meaning and form.", "Long press a word to see the syntax of its sentence.")) {
+                Text(
+                    hint,
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    modifier = Modifier.padding(vertical = 2.dp),
+                )
+            }
         }
         Spacer(Modifier.height(28.dp))
         Button(onClick = onRead, modifier = Modifier.fillMaxWidth().padding(horizontal = 24.dp)) {
@@ -95,8 +96,8 @@ fun TextHomeScreen(
     }
     if (showHelp) IntroDialog(onDismiss = { showHelp = false })
     if (showAbout) {
-        val credits = remember { repository.credits() }
-        AboutDialog(appVersion, credits, onDismiss = { showAbout = false })
+        val credits = remember { repository.textCredits(entry) }
+        TextAboutDialog(entry.titleEn.ifEmpty { entry.title }, credits, onDismiss = { showAbout = false })
     }
 }
 

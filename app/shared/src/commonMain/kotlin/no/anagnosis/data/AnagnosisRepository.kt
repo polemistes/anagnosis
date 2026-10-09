@@ -30,8 +30,8 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
 
     private fun CatalogEntry.copy(installed: Boolean) =
         CatalogEntry(slug, title, author, titleEn, authorEn, description, edition, installed, appId,
-            editor, apparatus, translation, commentary, syntax, dictionaries, price, onGooglePlay,
-            refEdition, refTranslation, refCommentary)
+            editor, apparatus, translation, commentary, syntax, dictionaries, onGooglePlay,
+            refEdition, refTranslation, refCommentary, syntaxSource, syntaxLicense)
 
     private fun parseCatalog(json: String): List<CatalogEntry> {
         // the catalog is a flat JSON array of objects with string values; a small parser suffices
@@ -44,8 +44,9 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
             CatalogEntry(field(o, "slug"), field(o, "title"), field(o, "author"), field(o, "title_en"),
                 field(o, "author_en"), field(o, "description"), field(o, "edition"), false, field(o, "app_id"),
                 field(o, "editor"), field(o, "apparatus"), field(o, "translation"), field(o, "commentary"),
-                field(o, "syntax"), field(o, "dictionaries"), field(o, "price"), field(o, "google_play") == "yes",
-                field(o, "ref_edition"), field(o, "ref_translation"), field(o, "ref_commentary"))
+                field(o, "syntax"), field(o, "dictionaries"), field(o, "google_play") == "yes",
+                field(o, "ref_edition"), field(o, "ref_translation"), field(o, "ref_commentary"),
+                field(o, "syntax_source"), field(o, "syntax_license"))
         }.filter { it.slug.isNotEmpty() }.toList()
     }
 
@@ -239,28 +240,44 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
         return out.entries.sortedBy { Dictionaries.rank(it.key) }.map { it.key to it.value }
     }
 
-    /** Attribution for everything installed, for the About screen. */
-    fun credits(): List<Credit> {
+    /** Attribution for the app itself (the shared dictionaries and short definitions), for the front page's About. */
+    fun appCredits(): List<Credit> {
         val out = mutableListOf<Credit>()
-        for (slug in driverFactory.installedTexts()) {
-            val q = textDb(slug).anagnosisQueries
-            for (w in q.selectWorks().executeAsList()) {
-                out += Credit("Text", "${w.author ?: ""}, ${w.title}".trim(' ', ','), w.edition ?: w.source, w.license)
-            }
-            for (t in q.selectAllTranslations().executeAsList()) {
-                out += Credit("Translation", listOfNotNull(t.translator, t.title).joinToString(", "), t.edition ?: t.source, t.license)
-            }
-            for (c in q.selectAllCommentaries().executeAsList()) {
-                out += Credit("Commentary", listOfNotNull(c.author, c.title).joinToString(", "), c.source, c.license)
-            }
-            for (l in q.selectLexicons().executeAsList()) {
-                out += Credit(if (l.slug.endsWith("-glossary")) "Glossary" else "Dictionary", l.title, l.source, l.license)
-            }
-        }
         for (l in lexicon.lexiconQueries.selectLexicons().executeAsList()) {
             out += Credit("Dictionary", l.title, l.source, l.license)
         }
         out += Credit("Short definitions", "Logeion (Helma Dik, University of Chicago), based on the Perseus short definitions", "https://github.com/helmadik/shortdefs", "Used with credit to Perseus and Logeion")
+        return out
+    }
+
+    /**
+     * Attribution for one text, for its own About: the edition, translation and commentaries, the
+     * dictionaries it brings or puts first (Dodson, Autenrieth ...), and its lemmas and syntax.
+     */
+    fun textCredits(entry: CatalogEntry): List<Credit> {
+        val out = mutableListOf<Credit>()
+        val q = textDb(entry.slug).anagnosisQueries
+        for (w in q.selectWorks().executeAsList()) {
+            out += Credit("Text", "${w.author ?: ""}, ${w.title}".trim(' ', ','), w.edition ?: w.source, w.license)
+        }
+        for (t in q.selectAllTranslations().executeAsList()) {
+            out += Credit("Translation", listOfNotNull(t.translator, t.title).joinToString(", "), t.edition ?: t.source, t.license)
+        }
+        for (c in q.selectAllCommentaries().executeAsList()) {
+            val kind = if (c.kind() == NoteKind.APPARATUS) "Critical apparatus" else "Commentary"
+            out += Credit(kind, listOfNotNull(c.author, c.title).joinToString(", "), c.source, c.license)
+        }
+        for (l in q.selectLexicons().executeAsList()) {
+            out += Credit(if (l.slug.endsWith("-glossary")) "Glossary" else "Dictionary", l.title, l.source, l.license)
+        }
+        // the shared dictionaries made for this text (not the Liddell-Scotts every text has)
+        val own = q.selectMeta("dictionaries").executeAsOneOrNull()?.split(' ').orEmpty() - setOf("ml", "lsj", "")
+        for (l in lexicon.lexiconQueries.selectLexicons().executeAsList()) {
+            if (l.slug in own) out += Credit("Dictionary", l.title, l.source, l.license)
+        }
+        if (entry.syntaxSource.isNotEmpty()) {
+            out += Credit("Lemmas, morphology and syntax", entry.syntaxSource, null, entry.syntaxLicense.ifEmpty { null })
+        }
         return out
     }
 
