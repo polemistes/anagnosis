@@ -1,11 +1,12 @@
 # Anagnosis
 
-Readers for ancient Greek texts on Android. The first text is Sophocles' *Antigone*.
+An ancient Greek reading app for Android. The app is free and works as a dictionary and
+morphological analyser; texts are bought as separate apps.
 
 Tap a word to see its dictionary entry and morphology, switch between the Greek and
 translations, and consult commentaries. Everything works offline.
 
-The app is sold on Google Play. Everything needed to build it yourself is in this repository,
+The reader is free on Google Play and the texts are sold there. Everything needed to build it yourself is in this repository,
 free of charge: the code under the GPL (see LICENSE), the texts and data under CC BY-SA 4.0
 (see DATA-LICENSE). The privacy policy is in PRIVACY.md.
 
@@ -16,8 +17,9 @@ free of charge: the code under the GPL (see LICENSE), the texts and data under C
     pipeline/transcriptions/   page-by-page transcriptions of printed editions (Allen's Odyssey, Burnet's Symposium)
                                and of Autenrieth's Homeric Dictionary
     data/        build output: the SQLite bundle shipped with the app (not committed)
-    app/         the Android apps (Kotlin Multiplatform, Compose): the reader (androidApp) with Antigone,
-                 and one small app per text sold separately (odysseyApp, symposiumApp, newTestamentApp), which hands its text to the reader
+    app/         the Android apps (Kotlin Multiplatform, Compose): the free reader (androidApp), which carries no text,
+                 and one small paid app per text (antigoneApp, odysseyApp, symposiumApp, newTestamentApp, ajaxApp ...),
+                 which hands its text to the reader
 
 ## Building the data bundle
 
@@ -62,9 +64,12 @@ See [texts/README.md](texts/README.md) for the file formats.
 
 ## Texts sold as separate apps
 
-The reader (`no.anagnosis.reader`) comes with Antigone. Every further text is a paid app of its
-own (the Odyssey: `no.anagnosis.odyssey`; the Symposium: `no.anagnosis.symposium`; the New Testament:
-`no.anagnosis.newtestament`) that carries the text's database. The reader looks for
+The reader (`no.anagnosis.reader`) is free and carries no text: without one it is a dictionary
+and word analyser. Every text is a paid app of its own (Antigone: `no.anagnosis.antigone`; the
+Odyssey: `no.anagnosis.odyssey`; the Symposium: `no.anagnosis.symposium`; the New Testament:
+`no.anagnosis.newtestament`; the other Sophocles plays likewise) that carries the text's database.
+The reader's list of available texts shows the texts marked `google_play: yes` in their
+`about.md`, with the price given there (see texts/README.md). The reader looks for
 apps that answer the action `no.anagnosis.action.TEXT` and are signed with its own key, copies
 their text in, and removes it again when the app is uninstalled. On Google Play the text apps
 must therefore be signed with the same app signing key as the reader: when creating such an

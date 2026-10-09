@@ -25,8 +25,8 @@ class MainActivity : Activity() {
         AlertDialog.Builder(this)
             .setTitle("Oedipus Tyrannus")
             .setMessage(
-                "This app adds Sophocles' Oedipus Tyrannus to Anagnosis, the ancient Greek reader. " +
-                    "Install Anagnosis from Google Play, and the Oedipus Tyrannus appears in its library.",
+                "This app adds Sophocles' Oedipus Tyrannus to Anagnosis, the free ancient Greek reading app. " +
+                    "Install Anagnosis from Google Play, and the Oedipus Tyrannus appears among its texts.",
             )
             .setPositiveButton("Get Anagnosis") { _, _ -> openStore(); finish() }
             .setNegativeButton("Close") { _, _ -> finish() }

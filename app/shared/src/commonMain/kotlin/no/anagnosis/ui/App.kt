@@ -31,9 +31,10 @@ import no.anagnosis.data.WorkData
 import no.anagnosis.prefs.ColorTheme
 import no.anagnosis.prefs.SettingsStore
 
-/** The app's screens: the library of texts, a text's own page, and the reader. */
+/** The app's screens: the front page, the texts on sale, a text's own page, and the reader. */
 sealed interface Screen {
-    data object Library : Screen
+    data object Home : Screen
+    data object Available : Screen
     data class TextHome(val slug: String) : Screen
     data class Reader(val slug: String) : Screen
     /** The dictionary and analyser; `from` is the screen to return to. */
@@ -55,7 +56,7 @@ fun App(
     val colors = remember(settings.theme, systemDark) { colorScheme(settings.theme, systemDark) }
 
     var catalog by remember { mutableStateOf<List<CatalogEntry>?>(null) }
-    var screen by remember { mutableStateOf<Screen>(Screen.Library) }
+    var screen by remember { mutableStateOf<Screen>(Screen.Home) }
     val loaded = remember { HashMap<String, WorkData>() }
     var current by remember { mutableStateOf<WorkData?>(null) }
 
@@ -92,13 +93,23 @@ fun App(
                     SearchScreen(repository, settings, onSettingsChange = { settings = it; settingsStore.save(it) }, onBack = { screen = s.from })
                     PlatformBackHandler { screen = s.from }
                 }
-                Screen.Library -> if (list == null) Loading() else LibraryScreen(
+                Screen.Home -> if (list == null) Loading() else HomeScreen(
                     catalog = list,
                     appVersion = appVersion,
                     repository = repository,
+                    settings = settings,
+                    onSettingsChange = { settings = it; settingsStore.save(it) },
                     onOpen = { screen = Screen.TextHome(it) },
-                    onSearch = { screen = Screen.Search(Screen.Library) },
+                    onAvailable = { screen = Screen.Available },
                 )
+                Screen.Available -> {
+                    if (list == null) Loading() else AvailableTextsScreen(
+                        catalog = list,
+                        onOpen = { screen = Screen.TextHome(it) },
+                        onBack = { screen = Screen.Home },
+                    )
+                    PlatformBackHandler { screen = Screen.Home }
+                }
                 is Screen.TextHome -> {
                     val entry = list?.firstOrNull { it.slug == s.slug }
                     if (entry == null) Loading() else TextHomeScreen(
@@ -106,10 +117,10 @@ fun App(
                         entry = entry,
                         appVersion = appVersion,
                         onRead = { screen = Screen.Reader(s.slug) },
-                        onBack = { screen = Screen.Library },
+                        onBack = { screen = Screen.Home },
                         onSearch = { screen = Screen.Search(s) },
                     )
-                    PlatformBackHandler { screen = Screen.Library }
+                    PlatformBackHandler { screen = Screen.Home }
                 }
                 is Screen.Reader -> {
                     val data = current
@@ -121,7 +132,7 @@ fun App(
                             onSettingsChange = { settings = it; settingsStore.save(it) },
                             onHelp = { showIntro = true },
                             onBack = { screen = Screen.TextHome(s.slug) },
-                            onHome = { screen = Screen.Library },
+                            onHome = { screen = Screen.Home },
                             onSearch = { screen = Screen.Search(s) },
                             startLine = settingsStore.lastLine(s.slug) ?: 1L,
                             onPositionChange = { settingsStore.saveLastText(s.slug); settingsStore.saveLastLine(s.slug, it) },

@@ -25,8 +25,8 @@ class MainActivity : Activity() {
         AlertDialog.Builder(this)
             .setTitle("Electra")
             .setMessage(
-                "This app adds Sophocles' Electra to Anagnosis, the ancient Greek reader. " +
-                    "Install Anagnosis from Google Play, and the Electra appears in its library.",
+                "This app adds Sophocles' Electra to Anagnosis, the free ancient Greek reading app. " +
+                    "Install Anagnosis from Google Play, and the Electra appears among its texts.",
             )
             .setPositiveButton("Get Anagnosis") { _, _ -> openStore(); finish() }
             .setNegativeButton("Close") { _, _ -> finish() }

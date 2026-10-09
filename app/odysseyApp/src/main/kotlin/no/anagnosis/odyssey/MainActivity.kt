@@ -25,8 +25,8 @@ class MainActivity : Activity() {
         AlertDialog.Builder(this)
             .setTitle("Odyssey")
             .setMessage(
-                "This app adds Homer's Odyssey to Anagnosis, the ancient Greek reader. " +
-                    "Install Anagnosis from Google Play, and the Odyssey appears in its library.",
+                "This app adds Homer's Odyssey to Anagnosis, the free ancient Greek reading app. " +
+                    "Install Anagnosis from Google Play, and the Odyssey appears among its texts.",
             )
             .setPositiveButton("Get Anagnosis") { _, _ -> openStore(); finish() }
             .setNegativeButton("Close") { _, _ -> finish() }

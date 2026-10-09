@@ -13,6 +13,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.safeDrawingPadding
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.LazyListScope
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material3.HorizontalDivider
@@ -57,52 +58,75 @@ enum class SearchMode(val label: String) { DICTIONARY("Dictionary"), ANALYSER("W
 /**
  * Dictionary lookup or morphological analysis. Type Greek, or Latin letters in the chosen
  * scheme; diacritics are ignored. In the dictionary, matching headwords appear as you type,
- * one per word; in the analyser, the typed form's analyses are listed.
+ * one per word; in the analyser, the typed form's analyses are listed. Shared by the search
+ * page and the front page.
  */
-@Composable
-fun SearchScreen(
-    repository: AnagnosisRepository,
-    settings: ReaderSettings,
-    onSettingsChange: (ReaderSettings) -> Unit,
-    onBack: () -> Unit,
-) {
-    var mode by remember { mutableStateOf(SearchMode.DICTIONARY) }
-    var query by remember { mutableStateOf(TextFieldValue("")) }
-    var hits by remember { mutableStateOf<List<HeadwordHit>>(emptyList()) }
-    var analyses by remember { mutableStateOf<List<FormAnalysis>>(emptyList()) }
-    var word by remember { mutableStateOf<WordInfo?>(null) }
-    val focus = remember { FocusRequester() }
+class SearchState {
+    var mode by mutableStateOf(SearchMode.DICTIONARY)
+    var query by mutableStateOf(TextFieldValue(""))
+    var hits by mutableStateOf<List<HeadwordHit>>(emptyList())
+    var analyses by mutableStateOf<List<FormAnalysis>>(emptyList())
+    var word by mutableStateOf<WordInfo?>(null)
 
-    val greekQuery = Transliteration.toGreek(query.text, settings.inputScheme)
-    val key = Transliteration.looseKey(greekQuery)
-    val exact = settings.exactDiacritics && mode == SearchMode.ANALYSER
+    /** Whether the results are those of something typed (and not of an empty field). */
+    var searched by mutableStateOf(false)
 
-    LaunchedEffect(key, mode, greekQuery, exact) {
-        if (key.isEmpty()) { hits = emptyList(); analyses = emptyList(); return@LaunchedEffect }
-        delay(60)
-        when (mode) {
-            SearchMode.DICTIONARY -> { hits = withContext(Dispatchers.Default) { repository.searchHeadwords(key) }; analyses = emptyList() }
-            SearchMode.ANALYSER -> { analyses = withContext(Dispatchers.Default) { repository.analyse(greekQuery, exact) }; hits = emptyList() }
-        }
-    }
-    LaunchedEffect(settings.greekKeyboard) { if (!settings.greekKeyboard) focus.requestFocus() }
-
+    /** A key of the on-screen Greek keyboard: a letter, or a mark applied to the last vowel. */
     fun typeGreek(s: String) {
         val text = query.text
         val newText = if (s.length == 1 && s[0].code in 0x300..0x345) Polytonic.apply(text, s[0]) else text + s
         query = TextFieldValue(newText, TextRange(newText.length))
     }
 
-    Column(Modifier.fillMaxSize().safeDrawingPadding(), horizontalAlignment = Alignment.CenterHorizontally) {
-    Column(Modifier.weight(1f).widthIn(max = CONTENT_MAX_WIDTH).fillMaxWidth().padding(horizontal = 16.dp)) {
+    fun backspace() {
+        val t = query.text
+        if (t.isNotEmpty()) query = TextFieldValue(t.dropLast(1), TextRange(t.length - 1))
+    }
+}
+
+/** A search whose results follow what is typed. */
+@Composable
+fun rememberSearchState(repository: AnagnosisRepository, settings: ReaderSettings): SearchState {
+    val state = remember { SearchState() }
+    val greekQuery = Transliteration.toGreek(state.query.text, settings.inputScheme)
+    val key = Transliteration.looseKey(greekQuery)
+    val exact = settings.exactDiacritics && state.mode == SearchMode.ANALYSER
+    LaunchedEffect(key, state.mode, greekQuery, exact) {
+        if (key.isEmpty()) { state.hits = emptyList(); state.analyses = emptyList(); state.searched = false; return@LaunchedEffect }
+        delay(60)
+        when (state.mode) {
+            SearchMode.DICTIONARY -> { state.hits = withContext(Dispatchers.Default) { repository.searchHeadwords(key) }; state.analyses = emptyList() }
+            SearchMode.ANALYSER -> { state.analyses = withContext(Dispatchers.Default) { repository.analyse(greekQuery, exact) }; state.hits = emptyList() }
+        }
+        state.searched = true
+    }
+    return state
+}
+
+/**
+ * The mode switch, the search field and its options. `navigation` is put before the mode
+ * switch (the search page's way back); `fieldModifier` lets the page follow the field's focus.
+ */
+@Composable
+fun SearchControls(
+    state: SearchState,
+    settings: ReaderSettings,
+    onSettingsChange: (ReaderSettings) -> Unit,
+    fieldModifier: Modifier = Modifier,
+    navigation: (@Composable () -> Unit)? = null,
+) {
+    val greekQuery = Transliteration.toGreek(state.query.text, settings.inputScheme)
+    Column(Modifier.fillMaxWidth()) {
         Row(Modifier.fillMaxWidth().padding(top = 4.dp), verticalAlignment = Alignment.CenterVertically) {
-            TextButton(onClick = onBack) { Text("‹ Back") }
-            Spacer(Modifier.weight(1f))
-            SingleChoiceSegmentedButtonRow {
+            if (navigation != null) {
+                navigation()
+                Spacer(Modifier.weight(1f))
+            }
+            SingleChoiceSegmentedButtonRow(if (navigation == null) Modifier.fillMaxWidth() else Modifier) {
                 SearchMode.entries.forEachIndexed { i, m ->
                     SegmentedButton(
-                        selected = mode == m,
-                        onClick = { mode = m },
+                        selected = state.mode == m,
+                        onClick = { state.mode = m },
                         shape = SegmentedButtonDefaults.itemShape(i, SearchMode.entries.size),
                         label = { Text(m.label, fontSize = 12.sp) },
                     )
@@ -110,14 +134,14 @@ fun SearchScreen(
             }
         }
         OutlinedTextField(
-            value = query,
-            onValueChange = { query = it },
-            modifier = Modifier.fillMaxWidth().padding(top = 4.dp).focusRequester(focus),
+            value = state.query,
+            onValueChange = { state.query = it },
+            modifier = fieldModifier.fillMaxWidth().padding(top = 4.dp),
             singleLine = true,
             readOnly = settings.greekKeyboard,
-            label = { Text(if (mode == SearchMode.DICTIONARY) "Headword" else "Inflected form") },
+            label = { Text(if (state.mode == SearchMode.DICTIONARY) "Headword" else "Inflected form") },
             supportingText = {
-                Text(if (greekQuery != query.text && greekQuery.isNotEmpty()) greekQuery else if (settings.greekKeyboard) "Type a vowel, then its breathing and accent" else settings.inputScheme.hint)
+                Text(if (greekQuery != state.query.text && greekQuery.isNotEmpty()) greekQuery else if (settings.greekKeyboard) "Type a vowel, then its breathing and accent" else settings.inputScheme.hint)
             },
             keyboardOptions = KeyboardOptions(capitalization = KeyboardCapitalization.None, autoCorrectEnabled = false, keyboardType = KeyboardType.Text),
         )
@@ -125,7 +149,7 @@ fun SearchScreen(
             TextButton(onClick = { onSettingsChange(settings.copy(greekKeyboard = !settings.greekKeyboard)) }) {
                 Text(if (settings.greekKeyboard) "Phone keyboard" else "Greek keyboard", fontSize = 12.sp)
             }
-            if (mode == SearchMode.ANALYSER) {
+            if (state.mode == SearchMode.ANALYSER) {
                 TextButton(onClick = { onSettingsChange(settings.copy(exactDiacritics = !settings.exactDiacritics)) }) {
                     Text(if (settings.exactDiacritics) "Accents: exact" else "Accents: ignored", fontSize = 12.sp)
                 }
@@ -144,40 +168,69 @@ fun SearchScreen(
                 }
             }
         }
-        LazyColumn(Modifier.weight(1f).fillMaxWidth(), contentPadding = PaddingValues(vertical = 4.dp)) {
-            items(analyses) { a ->
-                Column(
-                    Modifier.fillMaxWidth().clickable { word = repository.wordInfoForAnalysis(a) }.padding(vertical = 8.dp),
-                ) {
-                    Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                        Text(a.form, style = MaterialTheme.typography.titleMedium)
-                        Text("→ ${a.lemma}", style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.primary)
-                    }
-                    Text(Morphology.describe(a.postag), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+    }
+}
+
+/** The analyses or headwords found, each opening its word sheet; `itemModifier` sets their width. */
+fun LazyListScope.searchResults(state: SearchState, repository: AnagnosisRepository, itemModifier: Modifier = Modifier) {
+    items(state.analyses) { a ->
+        Column(itemModifier) {
+            Column(
+                Modifier.fillMaxWidth().clickable { state.word = repository.wordInfoForAnalysis(a) }.padding(vertical = 8.dp),
+            ) {
+                Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+                    Text(a.form, style = MaterialTheme.typography.titleMedium)
+                    Text("→ ${a.lemma}", style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.primary)
                 }
-                HorizontalDivider()
+                Text(Morphology.describe(a.postag), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
-            items(hits) { hit ->
-                Text(
-                    hit.headword,
-                    style = MaterialTheme.typography.titleMedium,
-                    modifier = Modifier.fillMaxWidth().clickable { word = repository.wordInfoForLemma(hit.lemmaKey, hit.headword) }.padding(vertical = 10.dp),
-                )
-                HorizontalDivider()
-            }
-            if (key.isNotEmpty() && hits.isEmpty() && analyses.isEmpty()) {
-                item { Text("No matches.", style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 16.dp)) }
-            }
+            HorizontalDivider()
+        }
+    }
+    items(state.hits) { hit ->
+        Column(itemModifier) {
+            Text(
+                hit.headword,
+                style = MaterialTheme.typography.titleMedium,
+                modifier = Modifier.fillMaxWidth().clickable { state.word = repository.wordInfoForLemma(hit.lemmaKey, hit.headword) }.padding(vertical = 10.dp),
+            )
+            HorizontalDivider()
+        }
+    }
+    if (state.searched && state.hits.isEmpty() && state.analyses.isEmpty()) {
+        item { Text("No matches.", style = MaterialTheme.typography.bodyMedium, modifier = itemModifier.padding(top = 16.dp)) }
+    }
+}
+
+/** The search as a page of its own, reached from a text. */
+@Composable
+fun SearchScreen(
+    repository: AnagnosisRepository,
+    settings: ReaderSettings,
+    onSettingsChange: (ReaderSettings) -> Unit,
+    onBack: () -> Unit,
+) {
+    val state = rememberSearchState(repository, settings)
+    val focus = remember { FocusRequester() }
+    LaunchedEffect(settings.greekKeyboard) { if (!settings.greekKeyboard) focus.requestFocus() }
+
+    Column(Modifier.fillMaxSize().safeDrawingPadding(), horizontalAlignment = Alignment.CenterHorizontally) {
+    Column(Modifier.weight(1f).widthIn(max = CONTENT_MAX_WIDTH).fillMaxWidth().padding(horizontal = 16.dp)) {
+        SearchControls(state, settings, onSettingsChange, fieldModifier = Modifier.focusRequester(focus)) {
+            TextButton(onClick = onBack) { Text("‹ Back") }
+        }
+        LazyColumn(Modifier.weight(1f).fillMaxWidth(), contentPadding = PaddingValues(vertical = 4.dp)) {
+            searchResults(state, repository)
             item { Spacer(Modifier.height(48.dp)) }
         }
     }
         if (settings.greekKeyboard) {
             GreekKeyboard(
-                onKey = { typeGreek(it) },
-                onBackspace = { val t = query.text; if (t.isNotEmpty()) query = TextFieldValue(t.dropLast(1), TextRange(t.length - 1)) },
+                onKey = { state.typeGreek(it) },
+                onBackspace = { state.backspace() },
                 onDone = { onSettingsChange(settings.copy(greekKeyboard = false)) },
             )
         }
     }
-    word?.let { WordSheet(it, onDismiss = { word = null }, disabled = settings.disabledDictionaries) }
+    state.word?.let { WordSheet(it, onDismiss = { state.word = null }, disabled = settings.disabledDictionaries) }
 }

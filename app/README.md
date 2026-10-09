@@ -13,7 +13,8 @@ Kotlin Multiplatform + Compose Multiplatform. Two modules:
   Installed: platform android-36, build-tools 36/37, platform-tools.
 * JDK 17 or newer to run Gradle. Android Studio's bundled runtime works:
   `export JAVA_HOME=/opt/android-studio/jbr`.
-* The data bundle: run the pipeline first so that `../data/antigone.sqlite` exists.
+* The data bundle: run the pipeline first so that `../data/lexicon.sqlite` and `../data/catalog.json`
+  exist (and `../data/<text>.sqlite` for the text apps).
 
 ## Build and run
 
@@ -33,5 +34,5 @@ Versions are pinned in `gradle/libs.versions.toml` (Gradle 9.6, AGP 9.1, Kotlin 
 Compose Multiplatform 1.11, SQLDelight 2.4). Compose artifacts come from the Compose plugin's
 `compose.*` accessors so they always match the plugin version.
 
-The application id is `no.anagnosis.antigone`; change it in `androidApp/build.gradle.kts`
-before the first Play upload, since it cannot be changed afterwards.
+The reader's application id is `no.anagnosis.reader`; each text app (`antigoneApp`, `odysseyApp` ...)
+has its own (`no.anagnosis.antigone` ...). Ids cannot be changed after the first Play upload.

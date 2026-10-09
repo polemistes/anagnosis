@@ -26,8 +26,8 @@ class MainActivity : Activity() {
         AlertDialog.Builder(this)
             .setTitle("New Testament")
             .setMessage(
-                "This app adds the Greek New Testament to Anagnosis, the ancient Greek reader. " +
-                    "Install Anagnosis from Google Play, and the New Testament appears in its library.",
+                "This app adds the Greek New Testament to Anagnosis, the free ancient Greek reading app. " +
+                    "Install Anagnosis from Google Play, and the New Testament appears among its texts.",
             )
             .setPositiveButton("Get Anagnosis") { _, _ -> openStore(); finish() }
             .setNegativeButton("Close") { _, _ -> finish() }

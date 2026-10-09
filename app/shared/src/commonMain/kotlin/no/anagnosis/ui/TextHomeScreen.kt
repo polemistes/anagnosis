@@ -48,7 +48,7 @@ fun TextHomeScreen(
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
     Column(Modifier.widthIn(max = CONTENT_MAX_WIDTH).fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
-        TextButton(onClick = onBack, modifier = Modifier.align(Alignment.Start)) { Text("‹ Library") }
+        TextButton(onClick = onBack, modifier = Modifier.align(Alignment.Start)) { Text("‹ Home") }
         Spacer(Modifier.height(8.dp))
         Text(entry.titleEn.ifEmpty { entry.title }, style = MaterialTheme.typography.displaySmall, textAlign = TextAlign.Center)
         // a text without an author (the New Testament) is named in Greek instead
@@ -58,7 +58,7 @@ fun TextHomeScreen(
         Text(entry.description, style = MaterialTheme.typography.bodyLarge, textAlign = TextAlign.Center)
         Spacer(Modifier.height(12.dp))
         Text(
-            "Provided by Anagnosis, an ancient Greek text reader for Android.",
+            "Provided by Anagnosis, an ancient Greek reading app for Android.",
             style = MaterialTheme.typography.bodyMedium,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
             textAlign = TextAlign.Center,

@@ -155,8 +155,8 @@ fun AboutDialog(appVersion: String, credits: List<Credit>, onDismiss: () -> Unit
                 Text("Version $appVersion", style = MaterialTheme.typography.bodyMedium)
                 Spacer(Modifier.height(8.dp))
                 Text(
-                    "A reader for ancient Greek texts, with translations, commentaries and dictionaries, working offline. " +
-                        "Sophocles' Antigone comes with the app; other texts are added by apps of their own.",
+                    "An app for reading ancient Greek texts, with dictionaries and morphological analysis, working offline. " +
+                        "The app is free; each text, with its translation and commentary, is bought as an app of its own.",
                     style = MaterialTheme.typography.bodyMedium,
                 )
                 Spacer(Modifier.height(12.dp))
@@ -221,8 +221,10 @@ fun IntroDialog(onDismiss: () -> Unit) {
         text = {
             Column(Modifier.verticalScroll(rememberScrollState())) {
                 Text(
-                    "Anagnosis is a reader for ancient Greek texts. Each text comes with an English translation, " +
-                        "commentary and critical notes, and two dictionaries, all available offline.",
+                    "Anagnosis is an app for reading ancient Greek texts. On its front page you can look up a headword " +
+                        "in the dictionaries, or type an inflected form to see what it can be. Each text is bought as an app " +
+                        "of its own and comes with an English translation, critical notes and, for most, a commentary, all " +
+                        "available offline.",
                     style = MaterialTheme.typography.bodyMedium,
                 )
                 Spacer(Modifier.height(12.dp))

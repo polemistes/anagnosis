@@ -20,9 +20,24 @@ class CatalogEntry(
     val description: String,
     val edition: String,
     val installed: Boolean,
-    /** The Google Play id of the separate app that adds this text, if it is sold that way. */
+    /** The Google Play id of the separate app that adds this text. */
     val appId: String = "",
-)
+    /** What the text comes with, for the list of texts on sale: each a short phrase, or empty. */
+    val editor: String = "",
+    val apparatus: String = "",
+    val translation: String = "",
+    val commentary: String = "",
+    val syntax: String = "",
+    /** Dictionaries the text adds to the reader's own. */
+    val dictionaries: String = "",
+    /** The price as shown on Google Play, when known. */
+    val price: String = "",
+    /** Whether the text's app is on Google Play, so that the reader offers it. */
+    val onGooglePlay: Boolean = false,
+) {
+    /** The page of the text's app on Google Play. */
+    val storeUrl: String get() = "https://play.google.com/store/apps/details?id=$appId"
+}
 
 /** Everything needed to display one work, loaded once. */
 class WorkData(

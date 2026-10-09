@@ -60,13 +60,11 @@ kotlin {
 }
 
 // The data bundles are built by the Python pipeline into ../data and copied into the APK assets:
-// lexicon.sqlite (shared dictionaries), catalog.json, and the texts that come with the app.
-// Other texts are sold as apps of their own (see odysseyApp).
-val bundledTexts = listOf("antigone")
+// lexicon.sqlite (shared dictionaries) and catalog.json. The reader is free and carries no text;
+// every text is sold as an app of its own (see antigoneApp).
 val copyBundle by tasks.registering(Sync::class) {
     from(rootProject.file("../data")) {
         include("lexicon.sqlite", "lexicon.sqlite.version", "catalog.json")
-        bundledTexts.forEach { include("$it.sqlite", "$it.sqlite.version") }
     }
     into(layout.projectDirectory.dir("src/main/assets/data"))
 }

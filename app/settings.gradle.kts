@@ -30,6 +30,7 @@ dependencyResolutionManagement {
 
 include(":shared")
 include(":androidApp")
+include(":antigoneApp")
 include(":odysseyApp")
 include(":symposiumApp")
 include(":newTestamentApp")
