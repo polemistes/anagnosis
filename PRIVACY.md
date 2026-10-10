@@ -15,4 +15,4 @@ app itself does not receive any personal information about the buyer.
 
 If you have questions, write to develop@robertemilberge.no.
 
-Last updated: 10 Oktober 2026.
+Last updated: 10 October 2026.
