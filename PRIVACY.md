@@ -13,6 +13,6 @@ information never leaves the device and is deleted when the app is uninstalled.
 Purchases are handled by Google Play under Google's own terms and privacy policy. The
 app itself does not receive any personal information about the buyer.
 
-If you have questions, write to post@robertemilberge.no.
+If you have questions, write to develop@robertemilberge.no.
 
-Last updated: 23 September 2026.
+Last updated: 10 Oktober 2026.
