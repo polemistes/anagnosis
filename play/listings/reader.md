@@ -10,9 +10,9 @@ Anagnosis Ancient Greek Reader
 
 Read ancient Greek: dictionaries, word analysis. Add texts with notes. Offline.
 
-## Full description (2515)
+## Full description (2551)
 
-Anagnosis is an app for reading ancient Greek texts. It provides dictionaries and a tool for morphological analysis, and it is free. Texts to read inside the app are bought separately, each as an app of its own. For most of the available texts, the app can display a critical apparatus, explanations of syntax, a commentary and a translation.
+Anagnosis is an app for reading ancient Greek texts. It provides dictionaries and a tool for morphological analysis, and it is free. Texts to read inside the app are bought separately, each as an app of its own. The app provides a critical apparatus, syntax of sentences, a translation and a commentary for each available text (The New Testament does not have a commentary yet).
 
 DICTIONARIES
 • Liddell, Scott and Jones, A Greek-English Lexicon (LSJ, 1940)
@@ -35,7 +35,7 @@ TEXTS AVAILABLE
 • The Greek New Testament in the SBL edition, with its apparatus and the Berean Standard Bible
 Each text is a separate app; once it is installed, it appears on the front page of Anagnosis.
 
-Everything works offline. The app has no ads, collects no data and needs no permissions. Its code is Free Software (GPL), and the texts and data are open (CC BY-SA), at github.com/polemistes/anagnosis. This is the first release of Anagnosis. Please report any bugs or suggestions for improvement in the GitHub page.
+Everything works offline. The app has no ads, collects no data and needs no permissions. Its code is Free Software (GPL), and the texts and data are open (CC BY-SA), at github.com/polemistes/anagnosis. This is the first release of Anagnosis. Please report any bugs or suggestions for improvement on the GitHub page.
 
 You are welcome to download the source files for the app and the texts and build them yourself without paying anything. If you prefer the convenience of installing the app and texts from Google Play, the payments for the text apps will encourage the inclusion of more texts and further development of the app.
 
