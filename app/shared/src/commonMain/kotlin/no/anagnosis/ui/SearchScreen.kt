@@ -3,6 +3,8 @@ package no.anagnosis.ui
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
+import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -107,6 +109,7 @@ fun rememberSearchState(repository: AnagnosisRepository, settings: ReaderSetting
  * The mode switch, the search field and its options. `navigation` is put before the mode
  * switch (the search page's way back); `fieldModifier` lets the page follow the field's focus.
  */
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
 fun SearchControls(
     state: SearchState,
@@ -145,24 +148,31 @@ fun SearchControls(
             },
             keyboardOptions = KeyboardOptions(capitalization = KeyboardCapitalization.None, autoCorrectEnabled = false, keyboardType = KeyboardType.Text),
         )
-        Row(Modifier.fillMaxWidth().padding(top = 2.dp, bottom = 4.dp), verticalAlignment = Alignment.CenterVertically) {
-            TextButton(onClick = { onSettingsChange(settings.copy(greekKeyboard = !settings.greekKeyboard)) }) {
-                Text(if (settings.greekKeyboard) "Phone keyboard" else "Greek keyboard", fontSize = 12.sp)
-            }
-            if (state.mode == SearchMode.ANALYSER) {
-                TextButton(onClick = { onSettingsChange(settings.copy(exactDiacritics = !settings.exactDiacritics)) }) {
-                    Text(if (settings.exactDiacritics) "Accents: exact" else "Accents: ignored", fontSize = 12.sp)
+        // the scheme switch moves to a line of its own when the row has no room for it (word analysis on a phone)
+        FlowRow(
+            Modifier.fillMaxWidth().padding(top = 2.dp, bottom = 4.dp),
+            horizontalArrangement = Arrangement.SpaceBetween,
+            itemVerticalAlignment = Alignment.CenterVertically,
+        ) {
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                TextButton(onClick = { onSettingsChange(settings.copy(greekKeyboard = !settings.greekKeyboard)) }) {
+                    Text(if (settings.greekKeyboard) "Phone keyboard" else "Greek keyboard", fontSize = 12.sp)
+                }
+                if (state.mode == SearchMode.ANALYSER) {
+                    TextButton(onClick = { onSettingsChange(settings.copy(exactDiacritics = !settings.exactDiacritics)) }) {
+                        Text(if (settings.exactDiacritics) "Accents: exact" else "Accents: ignored", fontSize = 12.sp)
+                    }
                 }
             }
-            Spacer(Modifier.weight(1f))
             if (!settings.greekKeyboard) {
-                SingleChoiceSegmentedButtonRow {
+                // wide enough for the labels beside the check mark
+                SingleChoiceSegmentedButtonRow(Modifier.widthIn(min = 240.dp)) {
                     InputScheme.entries.forEachIndexed { i, s ->
                         SegmentedButton(
                             selected = settings.inputScheme == s,
                             onClick = { onSettingsChange(settings.copy(inputScheme = s)) },
                             shape = SegmentedButtonDefaults.itemShape(i, InputScheme.entries.size),
-                            label = { Text(if (s == InputScheme.BETA) "q=θ w=ω" else "u=θ v=ω", fontSize = 12.sp) },
+                            label = { Text(if (s == InputScheme.BETA) "q=θ w=ω" else "u=θ v=ω", fontSize = 12.sp, maxLines = 1) },
                         )
                     }
                 }

@@ -104,22 +104,23 @@ fun SyntaxScreen(tree: SyntaxTree, label: String, family: FontFamily, onWord: (L
     var view by remember { mutableStateOf(SyntaxView.SIMPLE) }
     Scaffold(
         topBar = {
-            TopAppBar(
-                title = { Text(label.replaceFirstChar { it.uppercase() }, maxLines = 1, overflow = TextOverflow.Ellipsis) },
-                navigationIcon = { IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back to the text") } },
-                actions = {
-                    SingleChoiceSegmentedButtonRow(Modifier.padding(end = 8.dp)) {
-                        SyntaxView.entries.forEachIndexed { i, v ->
-                            SegmentedButton(
-                                selected = view == v,
-                                onClick = { view = v },
-                                shape = SegmentedButtonDefaults.itemShape(i, SyntaxView.entries.size),
-                                label = { Text(v.label, fontSize = 13.sp) },
-                            )
-                        }
+            // two rows, as in the reader, so that the title is not squeezed by the buttons on a phone
+            Column(Modifier.background(MaterialTheme.colorScheme.surface)) {
+                TopAppBar(
+                    title = { Text(label.replaceFirstChar { it.uppercase() }, maxLines = 1, overflow = TextOverflow.Ellipsis) },
+                    navigationIcon = { IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back to the text") } },
+                )
+                SingleChoiceSegmentedButtonRow(Modifier.padding(start = 12.dp, end = 12.dp, bottom = 4.dp)) {
+                    SyntaxView.entries.forEachIndexed { i, v ->
+                        SegmentedButton(
+                            selected = view == v,
+                            onClick = { view = v },
+                            shape = SegmentedButtonDefaults.itemShape(i, SyntaxView.entries.size),
+                            label = { Text(v.label, fontSize = 13.sp) },
+                        )
                     }
-                },
-            )
+                }
+            }
         },
     ) { padding ->
         Column(Modifier.padding(padding).fillMaxSize()) {
