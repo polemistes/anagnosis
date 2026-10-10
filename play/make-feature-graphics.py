@@ -1,6 +1,6 @@
 """Draw the 1024x500 Google Play feature graphics: the reader's banner and one per text app.
 
-White Noto Serif Medium on the app's colour, as in the reader's ΑνάΓνωσις banner. A text's
+White Noto Serif Medium on the app's colour, as in the reader's Ἀνάγνωσις banner. A text's
 banner has its Greek title, "by <author>" (the New Testament: "New Testament") and a smaller
 "for Anagnosis" line. Run from the repository root: python3 play/make-feature-graphics.py
 Needs Pillow and Noto Serif (on Arch: noto-fonts).
@@ -66,9 +66,9 @@ def launcher_colour(module: str) -> str:
 def main() -> None:
     # the reader: the title as in the original banner, the subtitle fitted to its width
     title = ImageFont.truetype(FONT, 164)
-    tw = title.getbbox("ΑνάΓνωσις")[2] - title.getbbox("ΑνάΓνωσις")[0]
+    tw = title.getbbox("Ἀνάγνωσις")[2] - title.getbbox("Ἀνάγνωσις")[0]
     draw_lines(READER_COLOUR, [
-        ("ΑνάΓνωσις", title, 255, 0),
+        ("Ἀνάγνωσις", title, 255, 0),
         ("An Ancient Greek Reading App", font_fitting("An Ancient Greek Reading App", 77, tw), 255, 40),
     ]).save(PLAY / "feature-graphic.png")
     for slug, (greek, second, module) in TEXTS.items():
