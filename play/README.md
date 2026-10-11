@@ -19,9 +19,13 @@ The text apps are priced at €3; the reader is free.
 1. Payments profile (needed before any app can be priced).
 2. Create the reader first. Let Google manage its app signing key (Play App Signing) and upload
    the reader's bundle.
-3. Create each text app and, under app signing, choose **use the same key as another app in this
-   account** and pick the reader. The reader accepts a text only from an app signed with its own
-   key; this cannot be changed after the first upload.
+3. Create each text app. Before any release of it rolls out in open testing or production, open
+   **Protected with Play › Play Store Protection › Manage Play App Signing**, click **Change the
+   app signing key**, choose **Use the same key as another app in this developer account** and pick
+   Anagnosis. Check that the SHA-256 of the app signing key is the reader's. The reader accepts a
+   text only from an app signed with its own key, and the key cannot be changed once a release has
+   rolled out in open testing or production. ("Upgrade key" is not the same: it applies only to
+   Android 17 and later.)
 4. For every app: privacy policy URL
    (https://github.com/polemistes/anagnosis/blob/main/PRIVACY.md), data safety ("no data
    collected or shared"), content rating questionnaire, target audience (not aimed at children),
