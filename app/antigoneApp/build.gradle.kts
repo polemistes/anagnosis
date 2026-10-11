@@ -16,7 +16,7 @@ android {
         applicationId = "no.anagnosis.antigone"
         minSdk = libs.versions.android.minSdk.get().toInt()
         targetSdk = libs.versions.android.targetSdk.get().toInt()
-        versionCode = 1
+        versionCode = 2
         versionName = "0.1.0"
     }
     // The same upload key as the reader (keystore/, not committed). In Play Console the app must
@@ -35,7 +35,11 @@ android {
     }
     buildTypes {
         getByName("release") {
-            isMinifyEnabled = false
+            // R8 shrinks and renames the code (Google Play asks for it); the activity, named in the
+            // manifest, is kept
+            isMinifyEnabled = true
+            isShrinkResources = true
+            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"))
             signingConfigs.findByName("upload")?.let { signingConfig = it }
         }
     }
