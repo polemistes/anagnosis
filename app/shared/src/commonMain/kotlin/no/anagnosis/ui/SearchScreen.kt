@@ -439,10 +439,14 @@ fun SearchControls(
     val greekKeys = state.greekKeys(settings)
     val fieldFocus = remember { FocusRequester() }
     var focused by remember { mutableStateOf(false) }
-    // switching keyboards makes the field anew (the phone's keyboard is let in or kept out when
-    // the field takes the focus); a field in use gets the focus back
+    // The options menu stays open while options are set; it is kept out here because switching
+    // keyboards makes the field anew (the phone's keyboard is let in or kept out when the field
+    // takes the focus). A field that was in use when the menu opened gets the focus back when it
+    // closes, which brings back its keyboard.
+    var menuOpen by remember { mutableStateOf(false) }
+    var focusedAtMenu by remember { mutableStateOf(false) }
     var refocus by remember { mutableStateOf(false) }
-    LaunchedEffect(greekKeys) {
+    LaunchedEffect(refocus, greekKeys) {
         if (refocus) { fieldFocus.requestFocus(); refocus = false }
     }
     val focusManager = LocalFocusManager.current
@@ -479,7 +483,11 @@ fun SearchControls(
                         .fillMaxWidth().padding(top = 4.dp),
                     singleLine = true,
                     leadingIcon = {
-                        SearchOptionsMenu(state, settings, onSettingsChange, textSlug, fieldFocused = focused) { wasFocused -> refocus = wasFocused }
+                        SearchOptionsMenu(
+                            state, settings, onSettingsChange, textSlug, open = menuOpen,
+                            onOpen = { focusedAtMenu = focused; menuOpen = true },
+                            onClose = { menuOpen = false; refocus = focusedAtMenu },
+                        )
                     },
                     label = {
                         Text(when (state.mode) {
@@ -548,8 +556,7 @@ fun SearchState.statusLine(settings: ReaderSettings, textSlug: String?): String 
  * The options of the mode in use, in a menu under the sliders at the left of the field: the
  * keyboard in every mode (but not while English words are typed); the dictionary's direction;
  * the analyser's diacritics; the text search's reading of Latin letters, its matching, and where
- * it looks. A choice closes the menu. [onKeyboard] is told, when the keyboard is switched,
- * whether the field was in use when the menu opened, so that it can get the focus back.
+ * it looks. The menu stays open while options are set, until a tap outside it or back.
  */
 @Composable
 private fun SearchOptionsMenu(
@@ -557,54 +564,52 @@ private fun SearchOptionsMenu(
     settings: ReaderSettings,
     onSettingsChange: (ReaderSettings) -> Unit,
     textSlug: String?,
-    fieldFocused: Boolean,
-    onKeyboard: (wasFocused: Boolean) -> Unit,
+    open: Boolean,
+    onOpen: () -> Unit,
+    onClose: () -> Unit,
 ) {
-    var open by remember { mutableStateOf(false) }
-    var wasFocused by remember { mutableStateOf(false) }
     val english = state.lookingUpEnglish(settings)
     Box {
-        IconButton(onClick = { wasFocused = fieldFocused; open = true }, modifier = Modifier.semantics { contentDescription = "Search options" }) {
+        IconButton(onClick = onOpen, modifier = Modifier.semantics { contentDescription = "Search options" }) {
             SlidersIcon(MaterialTheme.colorScheme.onSurfaceVariant)
         }
-        DropdownMenu(expanded = open, onDismissRequest = { open = false }) {
-            fun choose(action: () -> Unit) { open = false; action() }
+        DropdownMenu(expanded = open, onDismissRequest = onClose) {
             if (!english) {
                 CheckItem("Greek keyboard", settings.greekKeyboard) {
-                    choose { onKeyboard(wasFocused); onSettingsChange(settings.copy(greekKeyboard = !settings.greekKeyboard)) }
+                    onSettingsChange(settings.copy(greekKeyboard = !settings.greekKeyboard))
                 }
             }
             val scope: @Composable () -> Unit = {
                 if (textSlug != null) {
-                    RadioItem("This text", state.thisText) { choose { state.thisText = true } }
-                    RadioItem("All texts", !state.thisText) { choose { state.thisText = false } }
+                    RadioItem("This text", state.thisText) { state.thisText = true }
+                    RadioItem("All texts", !state.thisText) { state.thisText = false }
                 }
             }
             when (state.mode) {
                 SearchMode.DICTIONARY -> if (state.englishChoice(settings)) {
                     MenuHeading("Dictionary")
-                    RadioItem("Greek → English", !state.english) { choose { state.english = false } }
-                    RadioItem("English → Greek", state.english) { choose { state.english = true } }
+                    RadioItem("Greek → English", !state.english) { state.english = false }
+                    RadioItem("English → Greek", state.english) { state.english = true }
                 }
                 SearchMode.ANALYSER -> {
                     MenuHeading("Match")
-                    CheckItem("Diacritics", settings.exactDiacritics) { choose { onSettingsChange(settings.copy(exactDiacritics = !settings.exactDiacritics)) } }
+                    CheckItem("Diacritics", settings.exactDiacritics) { onSettingsChange(settings.copy(exactDiacritics = !settings.exactDiacritics)) }
                 }
                 SearchMode.TEXT -> {
                     MenuHeading("Latin letters")
-                    RadioItem("Type Greek", !state.searchEnglish) { choose { state.searchEnglish = false } }
-                    RadioItem("Search the English", state.searchEnglish) { choose { state.searchEnglish = true } }
+                    RadioItem("Type Greek", !state.searchEnglish) { state.searchEnglish = false }
+                    RadioItem("Search the English", state.searchEnglish) { state.searchEnglish = true }
                     MenuHeading("Match")
                     val o = state.options
-                    CheckItem("Diacritics", o.exactAccents) { choose { state.options = o.copy(exactAccents = !o.exactAccents) } }
-                    CheckItem("Case", o.exactCase) { choose { state.options = o.copy(exactCase = !o.exactCase) } }
-                    CheckItem("Whole words", o.wholeWords) { choose { state.options = o.copy(wholeWords = !o.wholeWords) } }
-                    CheckItem("Regex", o.regex) { choose { state.options = o.copy(regex = !o.regex) } }
+                    CheckItem("Diacritics", o.exactAccents) { state.options = o.copy(exactAccents = !o.exactAccents) }
+                    CheckItem("Case", o.exactCase) { state.options = o.copy(exactCase = !o.exactCase) }
+                    CheckItem("Whole words", o.wholeWords) { state.options = o.copy(wholeWords = !o.wholeWords) }
+                    CheckItem("Regex", o.regex) { state.options = o.copy(regex = !o.regex) }
                     MenuHeading("Search in")
                     scope()
                     for (src in SearchSource.entries) {
                         CheckItem(src.label, src in state.sources) {
-                            choose { state.sources = if (src in state.sources) state.sources - src else state.sources + src }
+                            state.sources = if (src in state.sources) state.sources - src else state.sources + src
                         }
                     }
                 }
