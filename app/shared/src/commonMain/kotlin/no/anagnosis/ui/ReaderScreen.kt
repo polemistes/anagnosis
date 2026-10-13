@@ -482,12 +482,13 @@ fun ReaderScreen(
             ProgressScrubber(
                 pages = pages,
                 currentPage = scrubPage ?: (pagerState.currentPage - offset).coerceIn(0, maxOf(0, pages.size - 1)),
+                // the book stands in the title, so the label gives the lines only
                 span = { first, last ->
-                    val prefix = currentBook?.let { "Book ${it.number}, " } ?: ""
                     if (data.verses) data.range(first, last)
-                    else if (first == last) "${prefix}line ${data.lineLabel(first)}".replaceFirstChar { it.uppercase() }
-                    else "${prefix}lines ${data.lineLabel(first)}–${data.lineLabel(last)}".replaceFirstChar { it.uppercase() }
+                    else if (first == last) "Line ${data.lineLabel(first)}"
+                    else "Lines ${data.lineLabel(first)}–${data.lineLabel(last)}"
                 },
+                short = short,
                 scrubbing = scrubPage != null,
                 notedPages = notedPages,
                 noteKinds = data.commentaries.map { it.kind() }.distinct(),
@@ -1302,6 +1303,8 @@ private fun ProgressScrubber(
     /** While a passage is being chosen for a note: what to do next, shown in place of the span and the buttons. */
     prompt: String?,
     onCancel: () -> Unit,
+    /** A short screen (a phone held sideways): thinner rows and no space below. */
+    short: Boolean,
     onScrub: (Int) -> Unit,
     onRelease: () -> Unit,
 ) {
@@ -1309,14 +1312,14 @@ private fun ProgressScrubber(
     val primary = MaterialTheme.colorScheme.primary
     val track = MaterialTheme.colorScheme.surfaceVariant
     Surface(color = MaterialTheme.colorScheme.surface) {
-        Column(Modifier.fillMaxWidth().navigationBarsPadding().padding(bottom = 8.dp)) {
+        Column(Modifier.fillMaxWidth().navigationBarsPadding().padding(bottom = if (short) 0.dp else 8.dp)) {
             Row(
-                Modifier.fillMaxWidth().height(40.dp).padding(horizontal = 16.dp),
+                Modifier.fillMaxWidth().height(if (short) 32.dp else 40.dp).padding(horizontal = 16.dp),
                 verticalAlignment = Alignment.CenterVertically,
             ) {
                 val page = pages.getOrNull(currentPage)
                 if (prompt != null) {
-                    Text(prompt, style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.onSurface, modifier = Modifier.weight(1f))
+                    Text(prompt, style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.onSurface, maxLines = 1, overflow = TextOverflow.Ellipsis, modifier = Modifier.weight(1f))
                     TextButton(onClick = onCancel) { Text("Cancel") }
                 } else if (page != null && count > 0) {
                     val span = span(page.firstN, page.lastN)
@@ -1324,6 +1327,8 @@ private fun ProgressScrubber(
                         span,
                         style = MaterialTheme.typography.labelMedium,
                         color = if (scrubbing) MaterialTheme.colorScheme.onSurface else MaterialTheme.colorScheme.outline,
+                        maxLines = 1,
+                        overflow = TextOverflow.Ellipsis,
                         modifier = Modifier.weight(1f),
                     )
                 } else {
@@ -1339,7 +1344,7 @@ private fun ProgressScrubber(
                 }
             }
             Canvas(
-                Modifier.fillMaxWidth().height(28.dp).padding(horizontal = 16.dp).pointerInput(count) {
+                Modifier.fillMaxWidth().height(if (short) 20.dp else 28.dp).padding(horizontal = 16.dp).pointerInput(count) {
                     if (count == 0) return@pointerInput
                     fun pageAt(x: Float) = ((x / size.width) * count).toInt().coerceIn(0, count - 1)
                     awaitEachGesture {

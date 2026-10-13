@@ -166,7 +166,7 @@ anything changed.
 ## Progress
 
 - [x] Step 1 top bar (with the breakpoints and WIDE = 800 dp)
-- [ ] Step 2 bottom bar, two-column limit, help
+- [x] Step 2 bottom bar, two-column limit, help
 - [ ] Step 3 on the phone
 
 ## Where things are now
