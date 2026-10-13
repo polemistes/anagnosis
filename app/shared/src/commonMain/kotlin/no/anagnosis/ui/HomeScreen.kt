@@ -107,7 +107,7 @@ fun HomeScreen(
             }
             item {
                 Column(width) {
-                    SearchControls(search, settings, onSettingsChange, fieldModifier = Modifier.onFocusChanged { fieldFocused = it.isFocused })
+                    SearchControls(search, settings, onSettingsChange, fieldModifier = Modifier.onFocusChanged { fieldFocused = it.isFocused }, onSubmit = { search.submit() })
                 }
             }
             searchResults(search, repository, installedTexts, onOpenHit, width)
@@ -173,7 +173,7 @@ fun HomeScreen(
             )
         }
     }
-    search.word?.let { WordSheet(it, onDismiss = { search.word = null }, disabled = settings.disabledDictionaries) }
+    SearchWordSheet(search, settings, installedTexts)
     if (showHelp) IntroDialog(onDismiss = { showHelp = false })
     if (showAbout) {
         val credits = remember { repository.appCredits() }

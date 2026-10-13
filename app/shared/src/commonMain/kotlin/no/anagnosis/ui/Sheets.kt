@@ -69,6 +69,8 @@ fun WordSheet(
     showFunction: Boolean = true,
     order: List<String> = emptyList(),
     disabled: Set<String> = emptySet(),
+    /** Lists every place the word's lemma occurs (the lemma search); null when there are no texts. */
+    onOccurrences: (() -> Unit)? = null,
 ) {
     val state = rememberModalBottomSheetState(skipPartiallyExpanded = true)
     val glossary = info.entries.filter { Dictionaries.isGlossary(it.lexiconSlug) }
@@ -100,7 +102,7 @@ fun WordSheet(
                 glossary.isNotEmpty() -> glossary.forEach { HtmlText(it.html) }
                 info.entries.isEmpty() -> Text("No dictionary entry found.", style = MaterialTheme.typography.bodyMedium)
             }
-            if (buttons.isNotEmpty() || onSyntax != null || notes.isNotEmpty()) {
+            if (buttons.isNotEmpty() || onSyntax != null || notes.isNotEmpty() || onOccurrences != null) {
                 Spacer(Modifier.height(16.dp))
                 FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                     for ((slug, label) in buttons) {
@@ -113,6 +115,9 @@ fun WordSheet(
                     }
                     if (onSyntax != null) {
                         OutlinedButton(onClick = onSyntax) { Text("Syntax") }
+                    }
+                    if (onOccurrences != null) {
+                        OutlinedButton(onClick = onOccurrences) { Text("Occurrences") }
                     }
                     for ((label, open) in notes) {
                         OutlinedButton(onClick = open) { Text(label) }

@@ -388,6 +388,6 @@ Commit: "Help and READMEs for the search".
 - [x] Step 1: folding and the engine
 - [x] Step 2: data layer
 - [x] Step 3: the search page in Text mode
-- [ ] Step 4: Lemma mode and Occurrences
+- [x] Step 4: Lemma mode and Occurrences
 - [ ] Step 5: the highlight
 - [ ] Step 6: help and documentation

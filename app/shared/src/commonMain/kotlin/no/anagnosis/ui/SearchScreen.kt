@@ -69,6 +69,8 @@ import kotlinx.coroutines.isActive
 import kotlinx.coroutines.withContext
 import no.anagnosis.data.AnagnosisRepository
 import no.anagnosis.data.CatalogEntry
+import no.anagnosis.data.LemmaIndex
+import no.anagnosis.data.LemmaRow
 import no.anagnosis.data.SearchHit
 import no.anagnosis.data.SearchOptions
 import no.anagnosis.data.SearchResult
@@ -125,6 +127,26 @@ class SearchState {
     /** While the texts are made ready for searching (the first search in each takes a moment). */
     var busy by mutableStateOf(false)
 
+    /** Lemma mode: the suggestions for what is typed, each with its gloss filled in. */
+    var lemmaRows by mutableStateOf<List<LemmaRow>>(emptyList())
+
+    /** Lemma mode: when no lemma begins with what is typed, the analyser's readings of it as a form. */
+    var analysedLemmas by mutableStateOf<List<FormAnalysis>>(emptyList())
+    var lemmaSearched by mutableStateOf(false)
+
+    /** Lemma mode: the lemma whose occurrences are listed, its row as found in the texts searched, and the list. */
+    var chosen by mutableStateOf<LemmaRow?>(null)
+    var chosenShown by mutableStateOf<LemmaRow?>(null)
+    var occurrenceRows by mutableStateOf<List<ResultRow>>(emptyList())
+    var occurrenceCount by mutableStateOf(0)
+    var occurrenceTexts by mutableStateOf(0)
+
+    /** A lemma to choose once the texts' lemmas are at hand: (lemma key, lemma). */
+    var pendingLemma by mutableStateOf<Pair<String, String>?>(null)
+
+    /** The lemma key of the word whose sheet is open from the dictionary or the analyser. */
+    var wordKey by mutableStateOf<String?>(null)
+
     /** The results list, kept so that coming back from a hit finds it scrolled where it was. */
     val listState = LazyListState()
 
@@ -133,8 +155,25 @@ class SearchState {
         if (textSlug != null && thisText) listOf(textSlug) else installed.map { it.slug }
 
     fun setText(value: TextFieldValue) {
-        if (value.text != query.text && value.text.isEmpty()) asGreek = false
+        if (value.text != query.text) {
+            if (value.text.isEmpty()) asGreek = false
+            chosen = null
+        }
         query = value
+    }
+
+    /** Lemma mode with the given lemma chosen: the occurrences of a word, asked for from its sheet. */
+    fun openLemma(lemmaKey: String, lemma: String) {
+        mode = SearchMode.LEMMA
+        word = null
+        query = TextFieldValue(lemma, TextRange(lemma.length))
+        chosen = null
+        pendingLemma = lemmaKey to lemma
+    }
+
+    /** The search key of the keyboard: in Lemma mode it takes the first suggestion. */
+    fun submit() {
+        if (mode == SearchMode.LEMMA && chosen == null) lemmaRows.firstOrNull()?.let { chosen = it }
     }
 
     /**
@@ -195,14 +234,14 @@ fun resultRows(
     work: (String) -> WorkData,
     titles: Map<String, String>,
     showTitles: Boolean,
-    counts: (List<SearchHit>) -> String,
+    counts: (List<SearchHit>, WorkData) -> String,
 ): List<ResultRow> {
     val out = mutableListOf<ResultRow>()
     val bySlug = hits.groupBy { it.slug }
     for (slug in slugs) {
         val textHits = bySlug[slug] ?: continue
         val w = work(slug)
-        out += ResultRow.TextHeader(if (showTitles) titles[slug] ?: slug else null, counts(textHits))
+        out += ResultRow.TextHeader(if (showTitles) titles[slug] ?: slug else null, counts(textHits, w))
         val sorted = textHits.sortedWith(compareBy({ it.nInt }, { it.nSub }, { it.source.ordinal }))
         var book: Int? = null
         for (h in sorted) {
@@ -220,7 +259,7 @@ fun resultRows(
 }
 
 /** "Greek 214 · Translation 12 · Apparatus 3": the hits of a text by source. */
-fun countsBySource(hits: List<SearchHit>): String =
+fun countsBySource(hits: List<SearchHit>, @Suppress("UNUSED_PARAMETER") work: WorkData): String =
     hits.groupBy { if (it.source == SearchSource.GREEK) SearchSource.GREEK.label else it.label }
         .entries.joinToString(" · ") { "${it.key} ${it.value.size}" }
 
@@ -268,6 +307,53 @@ fun SearchEffects(state: SearchState, repository: AnagnosisRepository, settings:
         } finally {
             state.busy = false
         }
+    }
+    LaunchedEffect(state.mode, greekQuery, slugs, state.chosen, state.pendingLemma) {
+        if (state.mode != SearchMode.LEMMA || slugs.isEmpty()) return@LaunchedEffect
+        val pending = state.pendingLemma
+        if (pending != null) {
+            // a word from a sheet: its row among the texts' lemmas, or a row of its own when none has it
+            val row = withContext(searchDispatcher) {
+                repository.lemmaRows(slugs).firstOrNull { it.contains(pending.first) } ?: LemmaIndex.lonely(pending.first, pending.second)
+            }
+            state.pendingLemma = null
+            state.chosen = row
+            return@LaunchedEffect
+        }
+        val chosen = state.chosen
+        if (chosen != null) {
+            state.busy = true
+            try {
+                val titles = installed.associate { it.slug to it.titleEn.ifEmpty { it.title } }
+                val (row, hits, rows) = withContext(searchDispatcher) {
+                    // the row as the texts now searched have it (the scope may have changed)
+                    val row = repository.lemmaRows(slugs).firstOrNull { r -> chosen.keys.any { r.contains(it) } } ?: chosen
+                    if (row.gloss == null) row.gloss = repository.glossFor(row)
+                    val hits = repository.occurrences(row, slugs)
+                    Triple(row, hits, resultRows(hits, slugs, { repository.corpus(it).work }, titles, slugs.size > 1 || textSlug == null) { h, w ->
+                        (if (h.size == 1) "1 occurrence" else "${h.size} occurrences") +
+                            (if (w.automaticSyntax) " · lemmas by a parser, not checked by hand" else "")
+                    })
+                }
+                state.chosenShown = row
+                state.occurrenceCount = hits.size
+                state.occurrenceTexts = hits.distinctBy { it.slug }.size
+                state.occurrenceRows = rows
+            } finally {
+                state.busy = false
+            }
+            return@LaunchedEffect
+        }
+        if (key.isEmpty()) { state.lemmaRows = emptyList(); state.analysedLemmas = emptyList(); state.lemmaSearched = false; return@LaunchedEffect }
+        delay(60)
+        val (rows, analysed) = withContext(searchDispatcher) {
+            val rows = LemmaIndex.suggest(repository.lemmaRows(slugs), greekQuery)
+            rows.forEach { if (it.gloss == null) it.gloss = repository.glossFor(it) }
+            rows to (if (rows.isEmpty()) repository.analyse(greekQuery).distinctBy { it.lemmaKey } else emptyList())
+        }
+        state.lemmaRows = rows
+        state.analysedLemmas = analysed
+        state.lemmaSearched = true
     }
 }
 
@@ -483,7 +569,7 @@ fun LazyListScope.searchResults(
 ) {
     when (state.mode) {
         SearchMode.TEXT -> textResults(state, installed, onOpen, itemModifier)
-        SearchMode.LEMMA -> {}
+        SearchMode.LEMMA -> lemmaResults(state, installed, onOpen, itemModifier)
         else -> dictionaryResults(state, repository, itemModifier)
     }
 }
@@ -492,7 +578,7 @@ private fun LazyListScope.dictionaryResults(state: SearchState, repository: Anag
     items(state.analyses) { a ->
         Column(itemModifier) {
             Column(
-                Modifier.fillMaxWidth().clickable { state.word = repository.wordInfoForAnalysis(a) }.padding(vertical = 8.dp),
+                Modifier.fillMaxWidth().clickable { state.word = repository.wordInfoForAnalysis(a); state.wordKey = a.lemmaKey }.padding(vertical = 8.dp),
             ) {
                 Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
                     Text(a.form, style = MaterialTheme.typography.titleMedium)
@@ -508,7 +594,7 @@ private fun LazyListScope.dictionaryResults(state: SearchState, repository: Anag
             Text(
                 hit.headword,
                 style = MaterialTheme.typography.titleMedium,
-                modifier = Modifier.fillMaxWidth().clickable { state.word = repository.wordInfoForLemma(hit.lemmaKey, hit.headword) }.padding(vertical = 10.dp),
+                modifier = Modifier.fillMaxWidth().clickable { state.word = repository.wordInfoForLemma(hit.lemmaKey, hit.headword); state.wordKey = hit.lemmaKey }.padding(vertical = 10.dp),
             )
             HorizontalDivider()
         }
@@ -541,6 +627,90 @@ private fun LazyListScope.textResults(state: SearchState, installed: List<Catalo
     if (result.hits.isEmpty()) {
         item { Text("No matches.", style = MaterialTheme.typography.bodyMedium, modifier = itemModifier.padding(top = 16.dp)) }
     }
+}
+
+private fun LazyListScope.lemmaResults(state: SearchState, installed: List<CatalogEntry>, onOpen: (SearchHit) -> Unit, itemModifier: Modifier) {
+    if (installed.isEmpty()) {
+        item { Text("No text is installed yet. The texts are bought as apps of their own.", style = MaterialTheme.typography.bodyMedium, modifier = itemModifier.padding(top = 16.dp)) }
+        return
+    }
+    if (state.chosen != null) {
+        val row = state.chosenShown ?: state.chosen ?: return
+        item {
+            Column(itemModifier.padding(top = 8.dp)) {
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Text(row.spellings.joinToString(" / "), style = MaterialTheme.typography.titleMedium, modifier = Modifier.weight(1f))
+                    TextButton(onClick = { state.chosen = null }) { Text("Suggestions") }
+                }
+                row.gloss?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant) }
+                if (state.occurrenceTexts > 1) {
+                    Text(
+                        "${state.occurrenceCount} occurrences in ${state.occurrenceTexts} texts",
+                        style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        modifier = Modifier.padding(top = 4.dp),
+                    )
+                }
+                if (!state.busy && state.occurrenceCount == 0) {
+                    Text("No occurrences in the texts searched.", style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 12.dp))
+                }
+                HorizontalDivider(Modifier.padding(top = 8.dp))
+            }
+        }
+        resultRowItems(state.occurrenceRows, onOpen, itemModifier)
+        return
+    }
+    items(state.lemmaRows) { row ->
+        Column(itemModifier) {
+            Row(
+                Modifier.fillMaxWidth().clickable { state.chosen = row }.padding(vertical = 8.dp),
+                verticalAlignment = Alignment.CenterVertically,
+            ) {
+                Column(Modifier.weight(1f)) {
+                    Text(row.spellings.joinToString(" / "), style = MaterialTheme.typography.titleMedium)
+                    row.gloss?.let {
+                        Text(it, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
+                    }
+                }
+                Text(row.total.toString(), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.padding(start = 12.dp))
+            }
+            HorizontalDivider()
+        }
+    }
+    if (state.lemmaRows.isEmpty() && state.analysedLemmas.isNotEmpty()) {
+        item {
+            Text("No lemma begins so; the form can be:", style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = itemModifier.padding(top = 12.dp, bottom = 4.dp))
+        }
+        items(state.analysedLemmas) { a ->
+            Column(itemModifier) {
+                Column(
+                    Modifier.fillMaxWidth().clickable { state.pendingLemma = a.lemmaKey.trimEnd { it.isDigit() } to a.lemma.trimEnd { it.isDigit() } }.padding(vertical = 8.dp),
+                ) {
+                    // one line per lemma: the form's several parses belong to the analyser
+                    Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+                        Text(a.form, style = MaterialTheme.typography.titleMedium)
+                        Text("→ ${a.lemma}", style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.primary)
+                    }
+                }
+                HorizontalDivider()
+            }
+        }
+    }
+    if (state.lemmaSearched && state.lemmaRows.isEmpty() && state.analysedLemmas.isEmpty()) {
+        item { Text("No lemma begins so.", style = MaterialTheme.typography.bodyMedium, modifier = itemModifier.padding(top = 16.dp)) }
+    }
+}
+
+/** The word sheet of a headword or an analysis, with Occurrences when there are texts to look in. */
+@Composable
+fun SearchWordSheet(state: SearchState, settings: ReaderSettings, installed: List<CatalogEntry>) {
+    val info = state.word ?: return
+    val key = state.wordKey
+    WordSheet(
+        info,
+        onDismiss = { state.word = null },
+        disabled = settings.disabledDictionaries,
+        onOccurrences = if (key == null || installed.isEmpty()) null else { { state.openLemma(key.trimEnd { it.isDigit() }, info.lemma.trimEnd { it.isDigit() }) } },
+    )
 }
 
 /** Headings and hits as list items; a hit shows its citation, its excerpt with the match in bold, and its source. */
@@ -607,6 +777,7 @@ fun SearchScreen(
             state, settings, onSettingsChange, textSlug,
             fieldModifier = Modifier.focusRequester(focus).onFocusChanged { fieldFocused = it.isFocused },
             chips = false,
+            onSubmit = { state.submit() },
         ) {
             TextButton(onClick = onBack) { Text("‹ Back") }
         }
@@ -625,5 +796,5 @@ fun SearchScreen(
             )
         }
     }
-    state.word?.let { WordSheet(it, onDismiss = { state.word = null }, disabled = settings.disabledDictionaries) }
+    SearchWordSheet(state, settings, installed)
 }

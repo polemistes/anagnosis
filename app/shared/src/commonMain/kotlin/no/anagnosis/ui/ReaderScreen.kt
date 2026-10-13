@@ -227,6 +227,8 @@ fun ReaderScreen(
     /** A hit of the search to show: its line is [startLine]; the reader keeps it and calls [onTargetShown]. */
     target: SearchTarget? = null,
     onTargetShown: () -> Unit = {},
+    /** Opens the lemma search with a word's lemma chosen: (lemma key, lemma). */
+    onSearchLemma: (String, String) -> Unit = { _, _ -> },
 ) {
     // the hit is taken once: the app forgets it at once, so that the text opens normally next time
     val hit = remember { target }
@@ -727,6 +729,7 @@ fun ReaderScreen(
             showFunction = settings.wordFunction,
             order = data.dictionaryOrder,
             disabled = settings.disabledDictionaries,
+            onOccurrences = selectedToken?.let { t -> { selectedTokenId = null; onSearchLemma(t.lemma_key, t.lemma) } },
         )
     }
     pageNotesKind?.let { kind ->

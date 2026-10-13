@@ -160,6 +160,11 @@ fun App(
                             startLine = target?.takeIf { it.slug == s.slug }?.nInt ?: settingsStore.lastLine(s.slug) ?: 1L,
                             target = target?.takeIf { it.slug == s.slug },
                             onTargetShown = { target = null },
+                            onSearchLemma = { key, lemma ->
+                                search.openLemma(key, lemma)
+                                search.thisText = true
+                                screen = Screen.Search(stripBack(s))
+                            },
                             onPositionChange = { settingsStore.saveLastText(s.slug); settingsStore.saveLastLine(s.slug, it) },
                             entry = list?.firstOrNull { it.slug == s.slug } ?: CatalogEntry(s.slug, data.work.title, data.work.author ?: "", "", "", "", "", true),
                         )
