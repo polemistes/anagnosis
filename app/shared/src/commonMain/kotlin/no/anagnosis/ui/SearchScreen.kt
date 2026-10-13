@@ -521,15 +521,15 @@ fun SearchControls(
     }
 }
 
-/** Text mode's options (accents, case, whole words, regex) and its sources, as two rows of chips. */
+/** Text mode's options and its sources, as two rows of chips. Diacritics and Case, when on, make the match exact in them. */
 @Composable
 fun TextChips(state: SearchState) {
     Column(Modifier.fillMaxWidth()) {
         val o = state.options
         ChipRow(
             listOf(
-                Triple("Exact accents", o.exactAccents) { state.options = o.copy(exactAccents = !o.exactAccents) },
-                Triple("Exact case", o.exactCase) { state.options = o.copy(exactCase = !o.exactCase) },
+                Triple("Diacritics", o.exactAccents) { state.options = o.copy(exactAccents = !o.exactAccents) },
+                Triple("Case", o.exactCase) { state.options = o.copy(exactCase = !o.exactCase) },
                 Triple("Whole words", o.wholeWords) { state.options = o.copy(wholeWords = !o.wholeWords) },
                 Triple("Regex", o.regex) { state.options = o.copy(regex = !o.regex) },
             ),
