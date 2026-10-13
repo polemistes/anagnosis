@@ -23,8 +23,11 @@ Decisions already taken (do not reopen them):
   on Google's data transport (`transport-backend-cct`), which adds `INTERNET` and sends the
   library's diagnostic logs to Google; Asset Delivery brings WorkManager (`WAKE_LOCK`,
   `ACCESS_NETWORK_STATE`, `RECEIVE_BOOT_COMPLETED`, `FOREGROUND_SERVICE_DATA_SYNC`). Found
-  2026-10-13 in the merged manifest; the author decides whether `INTERNET` is removed in the
-  reader's manifest (`tools:node="remove"`) or kept and named in the privacy policy.
+  2026-10-13 in the merged manifest. Decided by the author the same day: `INTERNET` is removed
+  in the reader's manifest (`tools:node="remove"`). Checked on the emulator with the release
+  build: the library's report job tries firebaselogging.googleapis.com, gets "Permission
+  denied", and finishes; the app runs on. Buying itself must be confirmed by a test purchase
+  on the author's phone from internal testing.
 * The platform's store sits behind a small interface in common code, so that StoreKit can take
   its place on iOS later without touching the shop's screens.
 

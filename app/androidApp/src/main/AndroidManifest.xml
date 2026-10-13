@@ -2,6 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <!-- The reader never connects to the internet: buying and downloading texts is done by the
+         Google Play app. Google's billing library would add this permission to send its own
+         diagnostic reports to Google; it is removed, so they never leave the phone (decided
+         2026-10-13). -->
+    <uses-permission android:name="android.permission.INTERNET" tools:node="remove" />
+
     <!-- Texts sold separately are apps of their own that answer this action (see DriverFactory). -->
     <queries>
         <intent>
