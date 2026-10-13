@@ -58,6 +58,8 @@ def main(argv: list[str] | None = None) -> int:
     b = sub.add_parser("build", help="build data/lexicon.sqlite and one data/<text>.sqlite per text")
     b.add_argument("--out", default=str(DATA))
     b.add_argument("--only", help="rebuild only this text's database (and the catalog), keeping the lexicon")
+    c = sub.add_parser("catalog", help="write data/catalog.json alone, from the about.md headers and the built databases")
+    c.add_argument("--out", default=str(DATA))
     args = ap.parse_args(argv)
 
     if args.cmd == "fetch":
@@ -233,6 +235,9 @@ def main(argv: list[str] | None = None) -> int:
     elif args.cmd == "build":
         from .build import build
         build(TEXTS, SOURCES, Path(args.out), only=args.only)
+    elif args.cmd == "catalog":
+        from .build import build_catalog
+        build_catalog(TEXTS, Path(args.out))
     return 0
 
 

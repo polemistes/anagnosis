@@ -22,6 +22,8 @@ android {
         versionCode = 5
         versionName = "0.3.0"
     }
+    // the texts sold in the app, delivered by Google Play once bought (see packs/antigone)
+    assetPacks += listOf("antigone", "ajax", "electra", "odyssey", "symposium", "newtestament").map { ":packs:$it" }
     packaging {
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
@@ -63,7 +65,8 @@ kotlin {
 
 // The data bundles are built by the Python pipeline into ../data and copied into the APK assets:
 // lexicon.sqlite (shared dictionaries) and catalog.json. The reader is free and carries no text;
-// every text is sold as an app of its own (see antigoneApp).
+// every text is bought in the app and arrives as an asset pack (packs/), or comes from a text app
+// of its own (see antigoneApp).
 val copyBundle by tasks.registering(Sync::class) {
     from(rootProject.file("../data")) {
         include("lexicon.sqlite", "lexicon.sqlite.version", "catalog.json")

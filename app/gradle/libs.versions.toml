@@ -17,6 +17,7 @@ sqldelight-android-driver = { module = "app.cash.sqldelight:android-driver", ver
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
+assetPack = { id = "com.android.asset-pack", version.ref = "agp" }
 androidMultiplatformLibrary = { id = "com.android.kotlin.multiplatform.library", version.ref = "agp" }
 composeCompiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 composeMultiplatform = { id = "org.jetbrains.compose", version.ref = "compose-multiplatform" }

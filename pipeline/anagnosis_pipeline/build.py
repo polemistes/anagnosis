@@ -357,6 +357,20 @@ def build_texts(texts: Path, sources: Path, out_dir: Path, only: str | None = No
         db.executemany("INSERT INTO lemma_aliases VALUES (?, ?)", sorted(aliases.items()))
         build_short_definitions(db, sources, lemmas, overrides, aliases)
         _finish(db, path)
+    write_catalog(catalog, out_dir)
+
+
+def build_catalog(texts: Path, out_dir: Path) -> None:
+    """Write the catalog alone, from the about.md headers and the databases already built."""
+    write_catalog([read_catalog_entry(d) for d in sorted(p for p in texts.iterdir() if p.is_dir() and (p / "grc.txt").exists())], out_dir)
+
+
+def write_catalog(catalog: list[dict], out_dir: Path) -> None:
+    # each built text's version, so that the reader knows when a downloaded text is out of date
+    for entry in catalog:
+        version = out_dir / f"{entry['slug']}.sqlite.version"
+        if version.exists():
+            entry["version"] = version.read_text(encoding="utf-8").strip()
     (out_dir / "catalog.json").write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     # each text's own entry, for the app that sells it to hand to the reader
     for entry in catalog:
