@@ -18,6 +18,8 @@ import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.pager.HorizontalPager
@@ -31,6 +33,7 @@ import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.MoreVert
 import androidx.compose.material.icons.filled.Settings
+import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.DropdownMenu
 import androidx.compose.material3.DropdownMenuItem
@@ -1286,6 +1289,16 @@ private fun TranslationPage(segments: List<Translation_segments>, styles: Styles
     }
 }
 
+/** A text button of the bottom bar; in the thin bar of a short screen it has no vertical padding, so that it fits the row. */
+@Composable
+private fun BarButton(label: String, short: Boolean, onClick: () -> Unit) {
+    if (short) {
+        TextButton(onClick = onClick, contentPadding = PaddingValues(horizontal = 12.dp, vertical = 0.dp), modifier = Modifier.heightIn(min = 32.dp)) { Text(label) }
+    } else {
+        TextButton(onClick = onClick, contentPadding = ButtonDefaults.TextButtonContentPadding) { Text(label) }
+    }
+}
+
 /** Bottom progress bar. Press or slide anywhere on it to go to that page; the reader follows the finger. */
 @Composable
 private fun ProgressScrubber(
@@ -1320,7 +1333,7 @@ private fun ProgressScrubber(
                 val page = pages.getOrNull(currentPage)
                 if (prompt != null) {
                     Text(prompt, style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.onSurface, maxLines = 1, overflow = TextOverflow.Ellipsis, modifier = Modifier.weight(1f))
-                    TextButton(onClick = onCancel) { Text("Cancel") }
+                    BarButton("Cancel", short, onCancel)
                 } else if (page != null && count > 0) {
                     val span = span(page.firstN, page.lastN)
                     Text(
@@ -1336,10 +1349,10 @@ private fun ProgressScrubber(
                 }
                 if (prompt == null) {
                     for (kind in noteKinds) {
-                        TextButton(onClick = { onNotes(kind) }) { Text(kind.label) }
+                        BarButton(kind.label, short) { onNotes(kind) }
                     }
                     if (hasMyNotes) {
-                        TextButton(onClick = onMyNotes) { Text("Notes") }
+                        BarButton("Notes", short, onMyNotes)
                     }
                 }
             }

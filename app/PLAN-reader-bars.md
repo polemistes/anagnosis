@@ -167,7 +167,7 @@ anything changed.
 
 - [x] Step 1 top bar (with the breakpoints and WIDE = 800 dp)
 - [x] Step 2 bottom bar, two-column limit, help
-- [ ] Step 3 on the phone
+- [x] Step 3 on the phone (thin-bar buttons fixed; a tap on them in landscape not yet tried on the phone)
 
 ## Where things are now
 
