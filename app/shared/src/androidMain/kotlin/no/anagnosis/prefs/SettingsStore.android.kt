@@ -17,6 +17,8 @@ actual class SettingsStore(context: Context) {
         inputScheme = prefs.getString("input_scheme", null)?.let { name -> InputScheme.entries.firstOrNull { it.name == name } } ?: InputScheme.BETA,
         exactDiacritics = prefs.getBoolean("exact_diacritics", false),
         greekKeyboard = prefs.getBoolean("greek_keyboard", false),
+        noteMarks = prefs.getBoolean("note_marks", true),
+        noteTicks = prefs.getBoolean("note_ticks", true),
     )
 
     actual fun introSeen(): Boolean = prefs.getBoolean("intro_seen", false)
@@ -49,6 +51,8 @@ actual class SettingsStore(context: Context) {
             .putString("input_scheme", settings.inputScheme.name)
             .putBoolean("exact_diacritics", settings.exactDiacritics)
             .putBoolean("greek_keyboard", settings.greekKeyboard)
+            .putBoolean("note_marks", settings.noteMarks)
+            .putBoolean("note_ticks", settings.noteTicks)
             .apply()
     }
 }

@@ -58,6 +58,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.pointer.pointerInput
+import androidx.compose.ui.draw.drawBehind
+import androidx.compose.ui.graphics.drawscope.DrawScope
 import androidx.compose.ui.hapticfeedback.HapticFeedbackType
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.platform.LocalHapticFeedback
@@ -92,6 +94,9 @@ import no.anagnosis.data.Book
 import no.anagnosis.data.CatalogEntry
 import no.anagnosis.data.NoteGroup
 import no.anagnosis.data.NoteKind
+import no.anagnosis.data.NoteSpan
+import no.anagnosis.data.Notes
+import no.anagnosis.data.PlacedNote
 import no.anagnosis.data.kind
 import no.anagnosis.data.WordInfo
 import no.anagnosis.data.WorkData
@@ -155,6 +160,33 @@ private val SEGMENT_GAP = 6.dp
 private val NUMBER_GAP = 12.dp
 /** The space above a paragraph of prose. */
 private val PARAGRAPH_GAP = 6.dp
+/** The underline under a passage that carries one of the reader's notes: its opacity, thickness and distance below the baseline. */
+private const val NOTE_MARK_ALPHA = 0.45f
+private val NOTE_MARK_WIDTH = 1.5.dp
+private val NOTE_MARK_GAP = 3.dp
+
+/**
+ * Underlines the text from offset [start] to [end] in a laid-out text, one stroke per visual
+ * line it touches, from the first word's left edge to the last word's right edge on each.
+ */
+private fun DrawScope.drawNoteMark(layout: TextLayoutResult, start: Int, end: Int, color: Color, width: Float) {
+    val length = layout.layoutInput.text.length
+    if (length == 0) return
+    val from = start.coerceIn(0, length - 1)
+    val to = (end - 1).coerceIn(from, length - 1)
+    val gap = NOTE_MARK_GAP.toPx()
+    for (i in layout.getLineForOffset(from)..layout.getLineForOffset(to)) {
+        val lineStart = layout.getLineStart(i)
+        val lineEnd = layout.getLineEnd(i, visibleEnd = true)
+        val a = maxOf(from, lineStart)
+        val b = minOf(to, lineEnd - 1)
+        if (b < a) continue
+        val left = minOf(layout.getBoundingBox(a).left, layout.getBoundingBox(b).left)
+        val right = maxOf(layout.getBoundingBox(a).right, layout.getBoundingBox(b).right)
+        val y = layout.getLineBaseline(i) + gap
+        drawLine(color, Offset(left, y), Offset(right, y), strokeWidth = width)
+    }
+}
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -183,6 +215,15 @@ fun ReaderScreen(
     var wordInfo by remember { mutableStateOf<WordInfo?>(null) }
     var pageNotesKind by remember { mutableStateOf<NoteKind?>(null) }
     var pageNotes by remember { mutableStateOf<List<NoteGroup>>(emptyList()) }
+    // The reader's own notes on this text, placed in it; read again after every change.
+    var notes by remember(data) { mutableStateOf<List<PlacedNote>>(emptyList()) }
+    var notesVersion by remember { mutableStateOf(0) }
+    fun reloadNotes() { notesVersion++ }
+    LaunchedEffect(data, notesVersion) {
+        notes = withContext(Dispatchers.Default) { Notes.place(repository.notes(data.slug), data) }
+    }
+    val noteSpans = remember(notes, data) { Notes.spansByLine(notes, data) }
+    val markSpans = if (settings.noteMarks) noteSpans else emptyMap()
 
     val translation = data.translations.firstOrNull()
     val allRows = remember(data) { buildRows(data) }
@@ -260,6 +301,11 @@ fun ReaderScreen(
         }
     }
 
+    val notedPages = remember(pages, noteSpans, settings.noteTicks) {
+        if (!settings.noteTicks || noteSpans.isEmpty()) emptySet()
+        else pages.indices.filter { i -> pages[i].rows.any { it is ReaderRow.GreekLine && it.line.id in noteSpans } }.toSet()
+    }
+
     BoxWithConstraints(Modifier.fillMaxSize()) {
     val wide = translation != null && maxWidth >= WIDE
     val modes = if (wide) ViewMode.entries else ViewMode.entries.filter { it != ViewMode.BOTH }
@@ -331,6 +377,7 @@ fun ReaderScreen(
                     else "${prefix}lines ${data.lineLabel(first)}–${data.lineLabel(last)}".replaceFirstChar { it.uppercase() }
                 },
                 scrubbing = scrubPage != null,
+                notedPages = notedPages,
                 noteKinds = data.commentaries.map { it.kind() }.distinct(),
                 onNotes = { pageNotesKind = it },
                 onScrub = { page ->
@@ -480,6 +527,7 @@ fun ReaderScreen(
                             greek = {
                                 PageContent(
                                     page, styles, data, numberColumn, forcedColumn,
+                                    spans = markSpans,
                                     onWord = { selectedTokenId = it },
                                     onSentence = { token -> syntaxSentence = token.sentence },
                                     showMarks = settings.lineNumbers != LineNumberMode.NONE,
@@ -496,7 +544,7 @@ fun ReaderScreen(
                         segmentsByPage(listOf(previewPage), bookSegments, bookLines).first()
                     } else emptyList()
                     PageFrame(
-                        greek = { PageContent(previewPage, previewStyles, data, numberColumn, forcedColumn, onWord = {}, onSentence = {}, showMarks = settings.lineNumbers != LineNumberMode.NONE) },
+                        greek = { PageContent(previewPage, previewStyles, data, numberColumn, forcedColumn, spans = markSpans, onWord = {}, onSentence = {}, showMarks = settings.lineNumbers != LineNumberMode.NONE) },
                         english = if (translation == null) null else {
                             { TranslationPage(previewSegments, previewStyles, showAnchors, Modifier.fillMaxSize(), anchorLabel(data)) }
                         },
@@ -884,12 +932,13 @@ private fun PageContent(
     data: WorkData,
     numberColumn: Dp,
     forcedColumn: Dp,
+    spans: Map<Long, List<NoteSpan>>,
     onWord: (Long) -> Unit,
     onSentence: (Tokens) -> Unit,
     showMarks: Boolean = true,
 ) {
     if (data.prose) {
-        ProsePage(page, styles, data, numberColumn, showMarks, onWord, onSentence)
+        ProsePage(page, styles, data, numberColumn, showMarks, spans, onWord, onSentence)
         return
     }
     for (row in page.rows) {
@@ -908,6 +957,7 @@ private fun PageContent(
                 numberColumn = if (row in page.forced) forcedColumn else numberColumn,
                 data = data,
                 styles = styles,
+                spans = spans[row.line.id].orEmpty(),
                 onWord = onWord,
                 onSentence = onSentence,
             )
@@ -941,6 +991,7 @@ private fun GreekLineRow(
     numberColumn: Dp,
     data: WorkData,
     styles: Styles,
+    spans: List<NoteSpan>,
     onWord: (Long) -> Unit,
     onSentence: (Tokens) -> Unit,
 ) {
@@ -974,7 +1025,14 @@ private fun GreekLineRow(
         },
     ) {
         val indent = with(LocalDensity.current) { indentPx.toDp() }
-        Text(text = line.text, style = styles.greek, onTextLayout = { layout = it }, modifier = Modifier.fillMaxWidth().padding(start = indent, end = numberColumn))
+        val markColor = MaterialTheme.colorScheme.primary.copy(alpha = NOTE_MARK_ALPHA)
+        Text(
+            text = line.text, style = styles.greek, onTextLayout = { layout = it },
+            modifier = Modifier.fillMaxWidth().padding(start = indent, end = numberColumn).drawBehind {
+                val result = layout
+                if (result != null) for (span in spans) drawNoteMark(result, span.start, span.end, markColor, NOTE_MARK_WIDTH.toPx())
+            },
+        )
         if (number != null) {
             Text(
                 number,
@@ -1036,6 +1094,8 @@ private fun ProgressScrubber(
     currentPage: Int,
     span: (Long, Long) -> String,
     scrubbing: Boolean,
+    /** Pages carrying one of the reader's notes, marked with a tick on the track. */
+    notedPages: Set<Int>,
     noteKinds: List<NoteKind>,
     onNotes: (NoteKind) -> Unit,
     onScrub: (Int) -> Unit,
@@ -1087,6 +1147,11 @@ private fun ProgressScrubber(
                 if (count > 0) {
                     val x = size.width * (currentPage + 1) / count
                     drawLine(primary, Offset(0f, y), Offset(x, y), strokeWidth = stroke)
+                    val half = 6.dp.toPx()
+                    for (i in notedPages) {
+                        val tx = size.width * (i + 0.5f) / count
+                        drawLine(primary.copy(alpha = 0.5f), Offset(tx, y - half), Offset(tx, y + half), strokeWidth = 2.dp.toPx())
+                    }
                     drawCircle(primary, radius = if (scrubbing) 9.dp.toPx() else 6.dp.toPx(), center = Offset(x, y))
                 }
             }
@@ -1232,6 +1297,7 @@ private fun ProsePage(
     data: WorkData,
     margin: Dp,
     showMarks: Boolean,
+    spans: Map<Long, List<NoteSpan>>,
     onWord: (Long) -> Unit,
     onSentence: (Tokens) -> Unit,
 ) {
@@ -1251,7 +1317,7 @@ private fun ProsePage(
         when (block) {
             is ReaderRow.Section -> SectionHeader(block.section, styles)
             is ReaderRow.Speaker -> Text(block.name, style = styles.speaker, color = MaterialTheme.colorScheme.primary, modifier = Modifier.padding(top = SPEAKER_TOP, bottom = ROW_GAP))
-            is List<*> -> @Suppress("UNCHECKED_CAST") ProseParagraph(block as List<Lines>, styles, data, margin, showMarks, onWord, onSentence)
+            is List<*> -> @Suppress("UNCHECKED_CAST") ProseParagraph(block as List<Lines>, styles, data, margin, showMarks, spans, onWord, onSentence)
         }
     }
 }
@@ -1263,6 +1329,7 @@ private fun ProseParagraph(
     data: WorkData,
     margin: Dp,
     showMarks: Boolean,
+    spans: Map<Long, List<NoteSpan>>,
     onWord: (Long) -> Unit,
     onSentence: (Tokens) -> Unit,
 ) {
@@ -1278,6 +1345,15 @@ private fun ProseParagraph(
             (data.tokensByLine[line.id] ?: emptyList()).map { Triple(base + it.start.toInt(), base + it.end.toInt(), it) }
         }
     }
+    // the notes' spans moved from their lines' offsets to the paragraph's, one stretch per note,
+    // so that the underline runs on over the space where two lines are joined
+    val paragraphSpans = remember(lines, prose, spans) {
+        lines.flatMap { line ->
+            val base = prose.start[line.id] ?: 0
+            spans[line.id].orEmpty().map { NoteSpan(base + it.start, base + it.end, it.noteId) }
+        }.groupBy { it.noteId }.map { (id, parts) -> NoteSpan(parts.minOf { it.start }, parts.maxOf { it.end }, id) }
+    }
+    val noteColor = MaterialTheme.colorScheme.primary.copy(alpha = NOTE_MARK_ALPHA)
     val opens = lines.first().speech_start == 1L
     var layout by remember { mutableStateOf<TextLayoutResult?>(null) }
     val currentOnWord = rememberUpdatedState(onWord)
@@ -1309,7 +1385,10 @@ private fun ProseParagraph(
             style = if (opens) styles.prose else styles.proseContinued,
             color = MaterialTheme.colorScheme.onBackground,
             onTextLayout = { layout = it },
-            modifier = Modifier.fillMaxWidth().padding(end = margin),
+            modifier = Modifier.fillMaxWidth().padding(end = margin).drawBehind {
+                val result = layout
+                if (result != null) for (span in paragraphSpans) drawNoteMark(result, span.start, span.end, noteColor, NOTE_MARK_WIDTH.toPx())
+            },
         )
         val result = layout
         if (showMarks && data.stephanus && result != null) {

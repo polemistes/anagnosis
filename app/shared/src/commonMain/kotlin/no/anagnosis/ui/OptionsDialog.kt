@@ -99,6 +99,16 @@ fun OptionsDialog(
                     Text("Name a word's function in its sentence when tapped", style = MaterialTheme.typography.bodyMedium, modifier = Modifier.weight(1f))
                     Switch(checked = settings.wordFunction, onCheckedChange = { onChange(settings.copy(wordFunction = it)) })
                 }
+                Spacer(Modifier.height(8.dp))
+                Text("Notes", style = MaterialTheme.typography.labelLarge)
+                Row(Modifier.fillMaxWidth().clickable { onChange(settings.copy(noteMarks = !settings.noteMarks)) }, verticalAlignment = Alignment.CenterVertically) {
+                    Text("Underline passages that have a note", style = MaterialTheme.typography.bodyMedium, modifier = Modifier.weight(1f))
+                    Switch(checked = settings.noteMarks, onCheckedChange = { onChange(settings.copy(noteMarks = it)) })
+                }
+                Row(Modifier.fillMaxWidth().clickable { onChange(settings.copy(noteTicks = !settings.noteTicks)) }, verticalAlignment = Alignment.CenterVertically) {
+                    Text("Mark pages with notes on the progress bar", style = MaterialTheme.typography.bodyMedium, modifier = Modifier.weight(1f))
+                    Switch(checked = settings.noteTicks, onCheckedChange = { onChange(settings.copy(noteTicks = it)) })
+                }
                 if (dictionaries.isNotEmpty()) {
                     Spacer(Modifier.height(8.dp))
                     Text("Dictionaries", style = MaterialTheme.typography.labelLarge)

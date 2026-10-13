@@ -36,6 +36,10 @@ data class ReaderSettings(
     val exactDiacritics: Boolean = false,
     /** Show the app's own Greek keyboard in the search screen. */
     val greekKeyboard: Boolean = false,
+    /** Underline the passages that carry one of the reader's notes. */
+    val noteMarks: Boolean = true,
+    /** Mark the pages that carry a note on the progress bar. */
+    val noteTicks: Boolean = true,
 ) {
     companion object {
         const val MIN_SIZE = 13

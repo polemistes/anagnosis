@@ -327,7 +327,7 @@ Commit: "Reader 0.3.0: personal notes on passages; help, privacy policy and READ
 ## Progress
 
 - [x] Step 1 data layer
-- [ ] Step 2 settings, marks and ticks
+- [x] Step 2 settings, marks and ticks
 - [ ] Step 4 editor, sheets, go-to
 - [ ] Step 5 export and backup rules
 - [ ] Step 3 selection (Fable 5.1)
