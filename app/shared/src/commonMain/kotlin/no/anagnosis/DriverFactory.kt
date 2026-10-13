@@ -11,8 +11,11 @@ expect class DriverFactory {
     /** Opens the database called `name` (e.g. "lexicon", "antigone"), installing it first if needed. */
     fun createDriver(name: String): SqlDriver
 
-    /** Slugs of the texts whose database is available (bundled or downloaded). */
-    fun installedTexts(): List<String>
+    /**
+     * Slugs of the texts the reader shows: bundled, brought by a text app, or downloaded from
+     * the store and still among the texts bought in the app ([owned]).
+     */
+    fun installedTexts(owned: Set<String>): List<String>
 
     /** The catalog of texts as JSON text, or null when absent. */
     fun readCatalog(): String?

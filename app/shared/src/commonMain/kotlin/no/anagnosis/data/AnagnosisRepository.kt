@@ -18,9 +18,15 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
     private fun textDb(slug: String): AnagnosisDatabase =
         textDbs.getOrPut(slug) { AnagnosisDatabase(driverFactory.createDriver(slug)) }
 
+    /**
+     * The texts bought in the reader, as the store last said; set by the app before it reads the
+     * catalog. A text downloaded from the store is shown only while it is among them.
+     */
+    var ownedTexts: Set<String> = emptySet()
+
     /** The texts this app knows about, installed ones marked. */
     fun catalog(): List<CatalogEntry> {
-        val installed = driverFactory.installedTexts().toSet()
+        val installed = driverFactory.installedTexts(ownedTexts).toSet()
         val json = driverFactory.readCatalog()
         val entries = if (json != null) parseCatalog(json) else emptyList()
         val listed = entries.map { it.slug }.toSet()
@@ -35,7 +41,7 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
     private fun CatalogEntry.copy(installed: Boolean) =
         CatalogEntry(slug, title, author, titleEn, authorEn, description, edition, installed, appId,
             editor, apparatus, translation, commentary, syntax, dictionaries, onGooglePlay,
-            refEdition, refTranslation, refCommentary, syntaxSource, syntaxLicense)
+            refEdition, refTranslation, refCommentary, syntaxSource, syntaxLicense, version)
 
     private fun parseCatalog(json: String): List<CatalogEntry> {
         // the catalog is a flat JSON array of objects with string values; a small parser suffices
@@ -50,7 +56,7 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
                 field(o, "editor"), field(o, "apparatus"), field(o, "translation"), field(o, "commentary"),
                 field(o, "syntax"), field(o, "dictionaries"), field(o, "google_play") == "yes",
                 field(o, "ref_edition"), field(o, "ref_translation"), field(o, "ref_commentary"),
-                field(o, "syntax_source"), field(o, "syntax_license"))
+                field(o, "syntax_source"), field(o, "syntax_license"), field(o, "version"))
         }.filter { it.slug.isNotEmpty() }.toList()
     }
 
@@ -295,7 +301,7 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
     fun dictionaries(): List<Pair<String, String>> {
         val out = LinkedHashMap<String, String>()
         for (l in lexicon.lexiconQueries.selectLexicons().executeAsList()) out[l.slug] = l.title
-        for (slug in driverFactory.installedTexts()) {
+        for (slug in driverFactory.installedTexts(ownedTexts)) {
             for (l in textDb(slug).anagnosisQueries.selectLexicons().executeAsList()) {
                 if (!l.slug.endsWith("-glossary")) out.getOrPut(l.slug) { l.title }
             }

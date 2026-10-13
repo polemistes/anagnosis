@@ -15,6 +15,7 @@ import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -28,10 +29,12 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import no.anagnosis.data.AnagnosisRepository
 import no.anagnosis.data.CatalogEntry
+import no.anagnosis.data.NoTextShop
 import no.anagnosis.data.NoteKind
 import no.anagnosis.data.SearchHit
 import no.anagnosis.data.SearchSource
 import no.anagnosis.data.SearchTarget
+import no.anagnosis.data.TextShop
 import no.anagnosis.data.WorkData
 import no.anagnosis.prefs.ColorTheme
 import no.anagnosis.prefs.SettingsStore
@@ -54,7 +57,9 @@ fun App(
     resumeCount: Int = 0,
     openText: String? = null,
     onOpenTextHandled: () -> Unit = {},
+    shop: TextShop = NoTextShop,
 ) {
+    val shopState by shop.state.collectAsState()
     var settings by remember { mutableStateOf(settingsStore.load()) }
     var showIntro by remember { mutableStateOf(false) }
     val systemDark = isSystemInDarkTheme()
@@ -84,9 +89,11 @@ fun App(
         screen = Screen.Reader(hit.slug, backTo = back)
     }
 
-    // Read the catalog whenever the app comes to the front: a text bought as an app of its own
-    // is copied in then.
-    LaunchedEffect(resumeCount) {
+    // Read the catalog whenever the app comes to the front, when a text bought in the app has
+    // arrived and when what is owned changes: a text bought as an app of its own is copied in
+    // when the app comes to the front.
+    LaunchedEffect(resumeCount, shopState.revision) {
+        repository.ownedTexts = shop.state.value.owned
         val list = withContext(Dispatchers.Default) { repository.catalog() }
         catalog = list
         // A fresh start opens on the front page; the reading position is kept per text, so

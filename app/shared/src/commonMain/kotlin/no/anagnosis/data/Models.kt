@@ -20,7 +20,7 @@ class CatalogEntry(
     val description: String,
     val edition: String,
     val installed: Boolean,
-    /** The Google Play id of the separate app that adds this text. */
+    /** The Google Play id of the text's own app, for a text also sold as an app of its own. */
     val appId: String = "",
     /** What the text comes with, for the list of texts on sale: each a short phrase, or empty. */
     val editor: String = "",
@@ -30,7 +30,7 @@ class CatalogEntry(
     val syntax: String = "",
     /** Dictionaries the text adds to the reader's own. */
     val dictionaries: String = "",
-    /** Whether the text's app is on Google Play, so that the reader offers it. */
+    /** Whether the text is on sale in the reader, so that the shop offers it. */
     val onGooglePlay: Boolean = false,
     /** The books the text's edition, translation and commentary come from, for its own page; empty when it has none. */
     val refEdition: String = "",
@@ -39,6 +39,8 @@ class CatalogEntry(
     /** Where the lemmas, morphology and syntax come from, and their licence, for the text's credits. */
     val syntaxSource: String = "",
     val syntaxLicense: String = "",
+    /** The version of the text's database in this build, for knowing when a download is out of date. */
+    val version: String = "",
 ) {
     /** The page of the text's app on Google Play. */
     val storeUrl: String get() = "https://play.google.com/store/apps/details?id=$appId"

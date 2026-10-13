@@ -5,6 +5,7 @@ import android.content.Intent
 import android.content.pm.PackageManager
 import app.cash.sqldelight.db.SqlDriver
 import app.cash.sqldelight.driver.android.AndroidSqliteDriver
+import no.anagnosis.data.TextOwnership
 import no.anagnosis.db.AnagnosisDatabase
 import no.anagnosis.lexdb.LexiconDatabase
 import no.anagnosis.notesdb.NotesDatabase
@@ -13,12 +14,16 @@ import java.util.zip.Inflater
 
 private const val ASSET_DIR = "data"
 private const val PREFS = "anagnosis"
+/** Preference key prefix: the version of a text copied in from its asset pack. */
+private const val PACK_TEXT = "pack_text_"
 
 /**
- * A text sold separately is a small app of its own (e.g. no.anagnosis.odyssey) whose assets hold
- * data/<slug>.sqlite, its .version and data/<slug>.catalog.json, and whose launcher activity
- * also answers this action. The reader copies the text in from every such app signed with its
- * own key, and drops it again when the app is uninstalled: the text belongs to the purchase.
+ * A text comes onto the device in one of two ways. Bought in the reader, it arrives as an asset
+ * pack from the store, which [DriverFactory.installPackText] copies in. Or it is a small app of
+ * its own (e.g. no.anagnosis.odyssey) whose assets hold data/<slug>.sqlite, its .version and
+ * data/<slug>.catalog.json, and whose launcher activity also answers this action: the reader
+ * copies the text in from every such app signed with its own key, and drops it again when the
+ * app is uninstalled (unless it was also bought in the reader): the text belongs to the purchase.
  */
 const val TEXT_APP_ACTION = "no.anagnosis.action.TEXT"
 
@@ -32,13 +37,47 @@ actual class DriverFactory(private val context: Context) {
 
     actual fun createNotesDriver(): SqlDriver = AndroidSqliteDriver(NotesDatabase.Schema, context, NOTES_DB)
 
-    actual fun installedTexts(): List<String> {
+    actual fun installedTexts(owned: Set<String>): List<String> {
         importTextApps()
+        val prefs = context.getSharedPreferences(PREFS, Context.MODE_PRIVATE)
         val bundled = (context.assets.list(ASSET_DIR) ?: emptyArray())
             .filter { it.endsWith(".sqlite") }.map { it.removeSuffix(".sqlite") }
         val downloaded = (downloadDir().listFiles() ?: emptyArray())
             .filter { it.name.endsWith(".sqlite") }.map { it.name.removeSuffix(".sqlite") }
-        return (bundled + downloaded).filter { it != "lexicon" }.distinct().sorted()
+        val fromApps = downloaded.filter { prefs.contains("app_text_pkg_$it") }
+        val fromStore = downloaded.filter { prefs.contains("$PACK_TEXT$it") }
+        // a downloaded text of neither kind (none so far) is shown as it is
+        val other = downloaded - fromApps.toSet() - fromStore.toSet()
+        return TextOwnership.installed(bundled + other, fromApps, fromStore, owned)
+    }
+
+    /** Texts on the device that came from a text app, which the store need not fetch. */
+    fun textsFromApps(): List<String> {
+        val prefs = context.getSharedPreferences(PREFS, Context.MODE_PRIVATE)
+        return prefs.all.keys.filter { it.startsWith("app_text_pkg_") }.map { it.removePrefix("app_text_pkg_") }
+            .filter { File(downloadDir(), "$it.sqlite").exists() }
+    }
+
+    /** The version of a text downloaded from the store, or null when it is not on the device. */
+    fun packTextVersion(slug: String): String? {
+        if (!File(downloadDir(), "$slug.sqlite").exists()) return null
+        return context.getSharedPreferences(PREFS, Context.MODE_PRIVATE).getString("$PACK_TEXT$slug", null)
+    }
+
+    /**
+     * Copies a text bought in the reader in from its asset pack, whose assets are at [assetsPath]
+     * (data/<slug>.sqlite and its .version); the store's copy can then be removed. A text being
+     * read keeps its open copy until the reader next opens it.
+     */
+    fun installPackText(slug: String, assetsPath: String) {
+        val version = File(assetsPath, "$ASSET_DIR/$slug.sqlite.version").readText().trim()
+        val tmp = File(downloadDir(), "$slug.sqlite.part")
+        File(assetsPath, "$ASSET_DIR/$slug.sqlite").inputStream().use { input -> tmp.outputStream().use { input.copyTo(it) } }
+        if (!tmp.renameTo(File(downloadDir(), "$slug.sqlite"))) {
+            tmp.delete()
+            throw java.io.IOException("could not install $slug")
+        }
+        context.getSharedPreferences(PREFS, Context.MODE_PRIVATE).edit().putString("$PACK_TEXT$slug", version).apply()
     }
 
     actual fun readCatalog(): String? {
@@ -93,13 +132,16 @@ actual class DriverFactory(private val context: Context) {
                 prefs.edit().putString("app_text_$slug", version).putString("app_text_pkg_$slug", pkg).apply()
             }
         }
-        // a text that came from an app which is no longer installed goes with it
+        // a text that came from an app which is no longer installed goes with it, unless it was
+        // also bought in the reader
         for (key in prefs.all.keys.filter { it.startsWith("app_text_pkg_") }) {
             val slug = key.removePrefix("app_text_pkg_")
             if (slug in present) continue
-            File(downloadDir(), "$slug.sqlite").delete()
-            File(downloadDir(), "$slug.catalog.json").delete()
-            context.getDatabasePath("$slug.sqlite").delete()
+            if (!prefs.contains("$PACK_TEXT$slug")) {
+                File(downloadDir(), "$slug.sqlite").delete()
+                File(downloadDir(), "$slug.catalog.json").delete()
+                context.getDatabasePath("$slug.sqlite").delete()
+            }
             prefs.edit().remove(key).remove("app_text_$slug").apply()
         }
     }
