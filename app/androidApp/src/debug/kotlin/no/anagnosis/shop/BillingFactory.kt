@@ -2,21 +2,15 @@ package no.anagnosis.shop
 
 import android.app.Activity
 import android.content.Context
-import android.content.pm.PackageManager
+import android.os.Build
 
 /**
- * Google Play Billing where the Play Store is installed; on an emulator without it, a fake that
- * sells every text at once for nothing, so the shop can be tried out. Debug builds only.
+ * Google Play Billing on a phone; on the emulator, whose images without the Play Store still
+ * carry a stub of it, a fake that sells every text at once for nothing, so the shop can be tried
+ * out. Debug builds only.
  */
 fun createBilling(context: Context, onUpdate: (List<Bought>?) -> Unit): Billing =
-    if (hasPlayStore(context)) PlayBilling(context, onUpdate) else FakeBilling(context, onUpdate)
-
-private fun hasPlayStore(context: Context): Boolean = try {
-    context.packageManager.getPackageInfo("com.android.vending", 0)
-    true
-} catch (e: PackageManager.NameNotFoundException) {
-    false
-}
+    if (Build.HARDWARE in setOf("ranchu", "goldfish")) FakeBilling(context, onUpdate) else PlayBilling(context, onUpdate)
 
 /**
  * Keeps its purchases in the preferences file fake_billing. To take a purchase back:

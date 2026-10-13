@@ -53,6 +53,7 @@ actual class DriverFactory(private val context: Context) {
 
     /** Texts on the device that came from a text app, which the store need not fetch. */
     fun textsFromApps(): List<String> {
+        importTextApps()  // so that the text of an app just uninstalled is not counted
         val prefs = context.getSharedPreferences(PREFS, Context.MODE_PRIVATE)
         return prefs.all.keys.filter { it.startsWith("app_text_pkg_") }.map { it.removePrefix("app_text_pkg_") }
             .filter { File(downloadDir(), "$it.sqlite").exists() }
@@ -94,6 +95,7 @@ actual class DriverFactory(private val context: Context) {
     }
 
     /** Copy in the texts of installed text apps; remove those whose app has gone. */
+    @Synchronized
     private fun importTextApps() {
         val pm = context.packageManager
         val prefs = context.getSharedPreferences(PREFS, Context.MODE_PRIVATE)

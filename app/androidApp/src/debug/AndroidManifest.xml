@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- the debug build looks for the Play Store to choose real or fake billing (BillingFactory) -->
-    <queries>
-        <package android:name="com.android.vending" />
-    </queries>
-</manifest>

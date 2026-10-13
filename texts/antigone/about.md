@@ -11,6 +11,6 @@
 # syntax: annotated by hand (Ancient Greek Dependency Treebank)
 # syntax_source: Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition
 # syntax_license: CC BY-SA 3.0 US
-# google_play: no
+# google_play: yes
 
 The Greek text of Sir Richard Jebb's edition, with his translation, critical notes and commentary, and the Liddell–Scott dictionaries. Tap any word for its meaning and form.
