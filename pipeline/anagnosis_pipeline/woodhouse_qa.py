@@ -148,7 +148,7 @@ def lemma_key(lemma: str) -> str:
 def main(sources: Path) -> None:
     from .morpheus_forms import run_morpheus
 
-    lines = woodhouse.apply_corrections(woodhouse.read_lines(sources), woodhouse.read_corrections())
+    lines = woodhouse.corrected_lines(sources)
     entries = woodhouse.entries(lines)
     print("vocabularies ...", file=sys.stderr)
     loose, accented = greek_vocabulary(sources)

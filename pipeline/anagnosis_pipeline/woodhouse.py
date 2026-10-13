@@ -15,6 +15,11 @@ pipeline/transcriptions/woodhouse/corrections-*.tsv, one per line:
 exactly once and is replaced by <new> (in both, \\t stands for a tab and \\n for a line break,
 which splits a line in two). <page> is the PDF page of
 the 1910 scan that shows the reading (woodhouse_pages.py). Lines starting with # are comments.
+Fixes that hold for the whole text (a misreading the OCR makes throughout, a misprint the book
+repeats) are rules in global.tsv, applied after the corrections, one per line:
+
+    <regular expression>\t<replacement>\t<note>
+
 Words that were flagged (woodhouse_qa.py) and found right in the scan are listed in
 checked-*.tsv as <line>\t<word>, so that a rerun of the flagger leaves them out.
 
@@ -95,6 +100,30 @@ def read_checked(directory: Path = TRANSCRIPTIONS) -> set[tuple[int, str]]:
     return out
 
 
+def read_rules(directory: Path = TRANSCRIPTIONS) -> list[tuple[re.Pattern, str, str]]:
+    """(pattern, replacement, note) of each rule in global.tsv."""
+    path = directory / "global.tsv"
+    if not path.exists():
+        return []
+    out = []
+    for raw in path.read_text(encoding="utf-8").split("\n"):
+        if raw.strip() and not raw.startswith("#"):
+            parts = raw.split("\t") + [""]
+            out.append((re.compile(_nfc(parts[0])), _nfc(parts[1]), parts[2]))
+    return out
+
+
+def apply_rules(lines: list[str], rules) -> list[str]:
+    for pattern, replacement, _note in rules:
+        lines = [pattern.sub(replacement, line) for line in lines]
+    return lines
+
+
+def corrected_lines(sources: Path) -> list[str]:
+    """The DSL's lines with every correction and global rule applied."""
+    return apply_rules(apply_corrections(read_lines(sources), read_corrections()), read_rules())
+
+
 def entries(lines: list[str]) -> list[Entry]:
     """The dictionary's entries in order, from Abandon on (the front matter is left out).
 
@@ -144,7 +173,7 @@ def main(sources: Path, only: str | None = None) -> None:
     """Applies the corrections (all, or those of one file) and reports those that fail; then
     counts the entries."""
     corrections = [c for c in read_corrections() if only is None or c[5].split(":")[0] == only]
-    lines = apply_corrections(read_lines(sources), corrections)
+    lines = apply_rules(apply_corrections(read_lines(sources), corrections), read_rules())
     es = entries(lines)
     print(f"{len(corrections)} corrections apply; {len(es)} entries; {sum(1 for e in es for _, t in e.lines if open_tags(t))} lines with open tags")
 
@@ -256,7 +285,7 @@ def parse_woodhouse(sources: Path):
 
     from .lexicon import Entry as LexEntry
 
-    es = entries(apply_corrections(read_lines(sources), read_corrections()))
+    es = entries(corrected_lines(sources))
     counts = Counter(english_key(e.headword) for e in es)
     seen: Counter[str] = Counter()
     out = []

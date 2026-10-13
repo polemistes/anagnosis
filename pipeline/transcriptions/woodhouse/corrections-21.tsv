@@ -1,0 +1,9 @@
+# Final pass (after batches 01-20): errors the checkers missed or left inconsistent
+3247	presenee	presence	33	
+35978	δ[c blue]υ[/c]ν[c blue]α[/c]τος	δ[c blue]ύ[/c]ν[c blue]α[/c]τος	319	print: ἀδῠνᾰτός; corrected to ἀδύνατος (batch 15 had dropped the accent)
+115005	Archadian	Arcadian	1006	print: Archadian
+115440	A Britain	A Briton	1008	print: A Britain
+115609	Mouth of the Carnea	Month of the Carnea	1009	print: Mouth
+115974	Of Cnidius	Of Cnidus	1011	print: Cnidius
+116147	Aprodite	Aphrodite	1013	print: Aprodite
+116239	Of Cyzius	Of Cyzicus	1014	print: Cyzius

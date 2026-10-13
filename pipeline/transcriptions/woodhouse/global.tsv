@@ -1,0 +1,13 @@
+# Rules for the whole text, applied after the corrections (woodhouse.py): <regular expression>	<replacement>	<note>
+(\[c darkviolet\]V\. intrans\.\[/c\] )([A-Z][^\[\]]*?:)\[/i\]	\1[i]\2[/i]	OCR: the gloss after V. intrans. lost its opening [i]
+\[i\]\s*\[/i\]		OCR: empty italics
+\[i\]P,\[/i\]	[c brown]P.[/c]	OCR: the mark P. read as italic P,
+ӕ	æ	OCR: a Cyrillic ӕ for æ
+Ӕ	Æ	OCR: a Cyrillic Ӕ for Æ
+\s+P,\[/i\]	[/i] [c brown]P.[/c]	OCR: the mark P. read into the italics before it
+(\[/c\] )\[i\]and\[/i\]( \[c brown\])	\1and\2	OCR: "and" between two marks of usage is roman in the print
+οὐδένος(?=\s+[^\s(\[.,;:·])	οὐδενὸς	print: οὐδένος throughout the book; grave before a word
+οὐδένι(?=\s+[^\s(\[.,;:·])	οὐδενὶ	print: οὐδένι throughout the book; grave before a word
+οὐδένος	οὐδενός	print: οὐδένος throughout the book
+οὐδένι	οὐδενί	print: οὐδένι throughout the book
+\[c blue\]ἄ\[/c\]ριθμος	[c blue]ἀ[/c]ριθμός	print: ἄριθμος (the breve and breathing read as an acute); as corrected in batches 07, 13, 15
