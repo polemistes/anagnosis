@@ -273,8 +273,8 @@ Every file here is made by `import-nt` from the sources `fetch-nt` downloads; ed
 longer description (not shown in the app at present); its `# key: value` headers give:
 
 * `title_en`, `author_en`: the English title and author ("Antigone by Sophocles").
-* `app_id`: the Google Play id of the app that sells the text (`no.anagnosis.antigone`); its
-  store page is `https://play.google.com/store/apps/details?id=<app_id>`.
+* `app_id`: the Google Play id of the text's own app (`no.anagnosis.antigone`), for a text
+  also sold as an app of its own.
 * `ref_edition`, `ref_translation`, `ref_commentary`: the books the edition, translation and
   commentary come from, shown on the text's own page. Equal references share one line ("Edition,
   translation and commentary: R. C. Jebb, ..."); an empty or missing one is left out.
@@ -283,11 +283,14 @@ longer description (not shown in the app at present); its `# key: value` headers
   `syntax` says whether the syntax is annotated by hand or machine-made.
 * `syntax_source`, `syntax_license`: where the lemmas, morphology and syntax come from, for the
   text's About and credits.
-* `google_play: yes`: the text's app is on Google Play, so the reader offers it in the list
-  of available texts. Texts without it are not listed.
+* `google_play: yes`: the text is on sale in the reader: it has an asset pack (`app/packs/<slug>`,
+  listed in app/settings.gradle.kts and the reader's `assetPacks`) and the shop offers it as the
+  in-app product `text_<slug>`, once that product is active in Play Console. Texts without it
+  are not listed.
 
 The catalog is bundled with the reader, so a change here reaches users with the reader's next
-update. `build --only none` rewrites the catalog without rebuilding any database.
+update. `catalog` rewrites the catalog without rebuilding any database; it also writes each
+built text's `version`, by which the reader knows that a downloaded text is out of date.
 
 ## Other documents (`sigla.md`, `introduction.md`, `appendix.md`)
 

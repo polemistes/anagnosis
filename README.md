@@ -1,7 +1,7 @@
 # Anagnosis
 
 An ancient Greek reading app for Android. The app is free and works as a dictionary and
-morphological analyser; texts are bought as separate apps.
+morphological analyser; texts are bought inside it.
 
 Tap a word to see its dictionary entry and morphology, switch between the Greek and
 translations, consult commentaries, and write your own notes on passages. Search the Greek, the
@@ -20,9 +20,10 @@ free of charge: the code under the GPL (see LICENSE), the texts and data under C
                                and of Autenrieth's Homeric Dictionary; corrections to the OCR of Woodhouse's
                                English-Greek Dictionary
     data/        build output: the SQLite bundle shipped with the app (not committed)
-    app/         the Android apps (Kotlin Multiplatform, Compose): the free reader (androidApp), which carries no text,
-                 and one small paid app per text (antigoneApp, odysseyApp, symposiumApp, newTestamentApp, ajaxApp ...),
-                 which hands its text to the reader
+    app/         the Android apps (Kotlin Multiplatform, Compose): the free reader (androidApp), which carries no text;
+                 one asset pack per text sold inside it (packs/); and one small app per text (antigoneApp, odysseyApp,
+                 symposiumApp, newTestamentApp, ajaxApp ...), which hands its text to the reader, for a text that may
+                 also be sold as an app of its own
 
 ## Building the data bundle
 
@@ -34,6 +35,7 @@ free of charge: the code under the GPL (see LICENSE), the texts and data under C
     .venv/bin/python -m anagnosis_pipeline check    # validate texts/
     .venv/bin/python -m anagnosis_pipeline build    # write data/lexicon.sqlite (shared dictionaries) and data/<text>.sqlite
     .venv/bin/python -m anagnosis_pipeline build --only odyssey   # rebuild one text, keeping the lexicon
+    .venv/bin/python -m anagnosis_pipeline catalog  # rewrite data/catalog.json alone (after editing an about.md)
 
 The Odyssey has commands of its own:
 
@@ -73,18 +75,33 @@ The word analyser's forms come from running Morpheus over the open Perseus corpu
 
 See [texts/README.md](texts/README.md) for the file formats.
 
-## Texts sold as separate apps
+## Texts bought in the reader
 
 The reader (`no.anagnosis.reader`) is free and carries no text: without one it is a dictionary
-and word analyser. Every text is a paid app of its own (Antigone: `no.anagnosis.antigone`; the
-Odyssey: `no.anagnosis.odyssey`; the Symposium: `no.anagnosis.symposium`; the New Testament:
-`no.anagnosis.newtestament`; the other Sophocles plays likewise) that carries the text's database.
-The reader's list of available texts shows the texts marked `google_play: yes` in their
-`about.md`, with the price given there (see texts/README.md). The reader looks for
-apps that answer the action `no.anagnosis.action.TEXT` and are signed with its own key, copies
-their text in, and removes it again when the app is uninstalled. On Google Play the text apps
-must therefore be signed with the same app signing key as the reader: when creating such an
-app in Play Console, choose to use the reader's app signing key.
+and word analyser. Every text is sold inside it as a one-time in-app product through Google Play
+Billing, with the product id `text_<slug>` (`text_antigone`, `text_newtestament`). The text itself
+travels with the reader's bundle as an on-demand asset pack (`app/packs/<slug>`), which Google
+Play hosts and downloads once the text is bought; the reader copies it in and removes the pack.
+The reader's shop (Available texts) lists the texts marked `google_play: yes` in their
+`about.md` (see texts/README.md) whose product Google Play offers, with Play's price in the
+buyer's currency. What the account owns is asked of Google Play whenever the app comes to the
+front, so a new device or a reinstall gets the texts back, and a refunded text is hidden again.
+The plan and its reasons are in [app/PLAN-in-app-purchases.md](app/PLAN-in-app-purchases.md).
+
+The reader has no internet permission: payments and downloads are done by the Google Play app.
+Google's billing library brings the permission along to send its own diagnostic reports; the
+reader's manifest removes it.
+
+A text can also be sold as an app of its own (Antigone: `no.anagnosis.antigone`; the other texts
+likewise), which carries the text's database. The reader looks for apps that answer the action
+`no.anagnosis.action.TEXT` and are signed with its own key, copies their text in, and removes it
+again when the app is uninstalled (unless the text was also bought in the reader). On Google Play
+such an app must therefore be signed with the same app signing key as the reader: when creating
+it in Play Console, choose to use the reader's app signing key.
+
+To try the shop on the emulator, which has no Play Store, install a debug bundle with
+bundletool's local testing (`build-apks --local-testing`, then `install-apks`): debug builds on
+an emulator buy with a fake billing that charges nothing, and the packs are served locally.
 
 ## Licences
 
