@@ -7,6 +7,7 @@ import app.cash.sqldelight.db.SqlDriver
 import app.cash.sqldelight.driver.android.AndroidSqliteDriver
 import no.anagnosis.db.AnagnosisDatabase
 import no.anagnosis.lexdb.LexiconDatabase
+import no.anagnosis.notesdb.NotesDatabase
 import java.io.File
 import java.util.zip.Inflater
 
@@ -28,6 +29,8 @@ actual class DriverFactory(private val context: Context) {
         val schema = if (name == "lexicon") LexiconDatabase.Schema else AnagnosisDatabase.Schema
         return AndroidSqliteDriver(schema, context, "$name.sqlite")
     }
+
+    actual fun createNotesDriver(): SqlDriver = AndroidSqliteDriver(NotesDatabase.Schema, context, NOTES_DB)
 
     actual fun installedTexts(): List<String> {
         importTextApps()
@@ -129,6 +132,11 @@ actual class DriverFactory(private val context: Context) {
         prefs.edit().putString(key, available).apply()
     }
 }
+
+/** The reader's notes; no text is ever called "notes", and nothing that installs or removes texts touches it. */
+private const val NOTES_DB = "notes.sqlite"
+
+actual fun nowMillis(): Long = System.currentTimeMillis()
 
 actual fun inflate(data: ByteArray): String {
     val inflater = Inflater()

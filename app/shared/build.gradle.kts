@@ -64,5 +64,10 @@ sqldelight {
             packageName.set("no.anagnosis.lexdb")
             srcDirs("src/commonMain/sqldelight-lexicon")
         }
+        // the reader's own notes: created on the device, not shipped (see Notes.sq)
+        create("NotesDatabase") {
+            packageName.set("no.anagnosis.notesdb")
+            srcDirs("src/commonMain/sqldelight-notes")
+        }
     }
 }

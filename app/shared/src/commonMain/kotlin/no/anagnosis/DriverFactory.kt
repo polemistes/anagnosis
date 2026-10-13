@@ -16,7 +16,16 @@ expect class DriverFactory {
 
     /** The catalog of texts as JSON text, or null when absent. */
     fun readCatalog(): String?
+
+    /**
+     * Opens the reader's own notes (notes.sqlite), creating it on first use. Unlike the texts it
+     * is never shipped, replaced or removed: the notes are the reader's writing.
+     */
+    fun createNotesDriver(): SqlDriver
 }
+
+/** The current time in epoch milliseconds. */
+expect fun nowMillis(): Long
 
 /** Decompresses zlib data to a UTF-8 string (the shared lexicon stores entries this way). */
 expect fun inflate(data: ByteArray): String

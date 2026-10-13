@@ -123,7 +123,7 @@ on the first line from the first token's start, on the last line to the last tok
 the lines between from their first token's start to their last token's end; a line without
 tokens gets no span. Offsets are into `Lines.text` (`Tokens.start`/`end`, Long to Int).
 
-**Export** (`Notes.markdown(title, edition, placed)`), file `anagnosis-notes-<slug>.md`,
+**Export** (`Notes.markdown(data, title, author, edition, placed)`), file `anagnosis-notes-<slug>.md`,
 MIME `text/markdown`:
 
     # Notes on Antigone
@@ -326,7 +326,7 @@ Commit: "Reader 0.3.0: personal notes on passages; help, privacy policy and READ
 
 ## Progress
 
-- [ ] Step 1 data layer
+- [x] Step 1 data layer
 - [ ] Step 2 settings, marks and ticks
 - [ ] Step 4 editor, sheets, go-to
 - [ ] Step 5 export and backup rules

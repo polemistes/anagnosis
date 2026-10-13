@@ -1,0 +1,33 @@
+-- The reader's own notes on passages of the Greek, kept in notes.sqlite in the reader's data.
+-- A passage is anchored by citation (line n_int and n_sub, and the word's 0-based place in the
+-- line), never by database id, because the ids of a text change whenever it is rebuilt.
+-- quote is the Greek of the passage when the note was made, to notice a renumbered edition.
+-- created and modified are epoch milliseconds.
+
+CREATE TABLE notes (
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    text_slug TEXT NOT NULL,
+    from_n_int INTEGER NOT NULL, from_n_sub TEXT NOT NULL, from_word INTEGER NOT NULL,
+    to_n_int INTEGER NOT NULL, to_n_sub TEXT NOT NULL, to_word INTEGER NOT NULL,
+    quote TEXT NOT NULL,
+    body TEXT NOT NULL,
+    created INTEGER NOT NULL, modified INTEGER NOT NULL
+);
+
+CREATE INDEX notes_text ON notes(text_slug, from_n_int, from_n_sub, from_word);
+
+selectForText:
+SELECT * FROM notes WHERE text_slug = ? ORDER BY from_n_int, from_n_sub, from_word, id;
+
+insert:
+INSERT INTO notes (text_slug, from_n_int, from_n_sub, from_word, to_n_int, to_n_sub, to_word, quote, body, created, modified)
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+
+lastInsertId:
+SELECT last_insert_rowid();
+
+updateBody:
+UPDATE notes SET body = :body, modified = :modified WHERE id = :id;
+
+delete:
+DELETE FROM notes WHERE id = ?;

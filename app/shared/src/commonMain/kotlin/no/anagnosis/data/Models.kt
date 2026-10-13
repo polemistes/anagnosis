@@ -70,6 +70,16 @@ class WorkData(
     /** The dictionaries the word sheet offers first, most fitting first (abbott-smith dodson ml lsj). */
     val dictionaryOrder: List<String> = emptyList(),
 ) {
+    /** The lines by their citation (n_int, n_sub), for placing the reader's notes. */
+    val linesByCitation: Map<Pair<Long, String>, Lines> by lazy { lines.associateBy { it.n_int to it.n_sub } }
+
+    /** A line's place in [lines], by line id. */
+    val lineIndex: Map<Long, Int> by lazy { lines.withIndex().associate { (i, l) -> l.id to i } }
+
+    val lineById: Map<Long, Lines> by lazy { lines.associateBy { it.id } }
+
+    val tokenById: Map<Long, Tokens> by lazy { tokensByLine.values.flatten().associateBy { it.id } }
+
     /** Whether the text is read one book at a time: an epic, the New Testament. */
     val byBook: Boolean get() = bookNumbered || verses
 

@@ -6,10 +6,13 @@ import no.anagnosis.db.Documents
 import no.anagnosis.db.Tokens
 import no.anagnosis.inflate
 import no.anagnosis.lexdb.LexiconDatabase
+import no.anagnosis.notesdb.NotesDatabase
+import no.anagnosis.nowMillis
 
 class AnagnosisRepository(private val driverFactory: DriverFactory) {
     private val lexicon by lazy { LexiconDatabase(driverFactory.createDriver("lexicon")) }
     private val textDbs = HashMap<String, AnagnosisDatabase>()
+    private val notesDb by lazy { NotesDatabase(driverFactory.createNotesDriver()) }
 
     private fun textDb(slug: String): AnagnosisDatabase =
         textDbs.getOrPut(slug) { AnagnosisDatabase(driverFactory.createDriver(slug)) }
@@ -146,6 +149,27 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
         }
         return groups
     }
+
+    /** The reader's notes on a text, in text order. */
+    fun notes(textSlug: String): List<Note> =
+        notesDb.notesQueries.selectForText(textSlug).executeAsList().map {
+            Note(it.id, it.text_slug, WordAnchor(it.from_n_int, it.from_n_sub, it.from_word),
+                WordAnchor(it.to_n_int, it.to_n_sub, it.to_word), it.quote, it.body, it.created, it.modified)
+        }
+
+    /** Saves a new note and returns its id. */
+    fun addNote(textSlug: String, from: WordAnchor, to: WordAnchor, quote: String, body: String): Long {
+        val q = notesDb.notesQueries
+        val now = nowMillis()
+        return q.transactionWithResult {
+            q.insert(textSlug, from.nInt, from.nSub, from.word, to.nInt, to.nSub, to.word, quote, body, now, now)
+            q.lastInsertId().executeAsOne()
+        }
+    }
+
+    fun updateNote(id: Long, body: String) = notesDb.notesQueries.updateBody(body, nowMillis(), id)
+
+    fun deleteNote(id: Long) = notesDb.notesQueries.delete(id)
 
     /** Titles of the work's free-standing documents (introduction, appendix, sigla ...). */
     fun documents(data: WorkData): List<Pair<String, String>> =
