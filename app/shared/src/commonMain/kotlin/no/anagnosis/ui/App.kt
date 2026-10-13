@@ -5,6 +5,7 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ColorScheme
 import androidx.compose.material3.MaterialTheme
@@ -27,6 +28,10 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import no.anagnosis.data.AnagnosisRepository
 import no.anagnosis.data.CatalogEntry
+import no.anagnosis.data.NoteKind
+import no.anagnosis.data.SearchHit
+import no.anagnosis.data.SearchSource
+import no.anagnosis.data.SearchTarget
 import no.anagnosis.data.WorkData
 import no.anagnosis.prefs.ColorTheme
 import no.anagnosis.prefs.SettingsStore
@@ -35,7 +40,8 @@ import no.anagnosis.prefs.SettingsStore
 sealed interface Screen {
     data object Home : Screen
     data object Available : Screen
-    data class Reader(val slug: String) : Screen
+    /** A text being read; `backTo` is where the back arrow leads (the search, when a hit was opened). */
+    data class Reader(val slug: String, val backTo: Screen = Home) : Screen
     /** The dictionary and analyser; `from` is the screen to return to. */
     data class Search(val from: Screen) : Screen
 }
@@ -60,6 +66,23 @@ fun App(
     var expanded by remember { mutableStateOf<String?>(null) }
     val loaded = remember { HashMap<String, WorkData>() }
     var current by remember { mutableStateOf<WorkData?>(null) }
+    // The search lives for the session, so that coming back from a hit finds it as it was.
+    val search = remember { SearchState() }
+    val homeList = remember { LazyListState() }
+    // Where a hit of the search opens the reader; the reader takes it once and gives it back.
+    var target by remember { mutableStateOf<SearchTarget?>(null) }
+    /** Opens a hit in the reader; back from there returns to the screen it was found on. */
+    fun openHit(hit: SearchHit, from: Screen) {
+        target = SearchTarget(
+            hit.slug, hit.source, hit.nInt, hit.nSub, hit.start, hit.end,
+            noteKind = if (hit.source == SearchSource.COMMENTARY) NoteKind.entries.firstOrNull { it.label == hit.label } else null,
+            noteId = if (hit.source == SearchSource.NOTES) hit.extra else null,
+        )
+        expanded = hit.slug
+        // a reader reached from a hit goes back to the search, which goes back to the text (not further)
+        val back = if (from is Screen.Search) Screen.Search(stripBack(from.from)) else from
+        screen = Screen.Reader(hit.slug, backTo = back)
+    }
 
     // Read the catalog whenever the app comes to the front: a text bought as an app of its own
     // is copied in then.
@@ -91,7 +114,14 @@ fun App(
             val list = catalog
             when (val s = screen) {
                 is Screen.Search -> {
-                    SearchScreen(repository, settings, onSettingsChange = { settings = it; settingsStore.save(it) }, onBack = { screen = s.from })
+                    SearchScreen(
+                        repository, search, settings,
+                        onSettingsChange = { settings = it; settingsStore.save(it) },
+                        textSlug = (s.from as? Screen.Reader)?.slug,
+                        installed = list.orEmpty().filter { it.installed },
+                        onOpen = { openHit(it, s) },
+                        onBack = { screen = s.from },
+                    )
                     PlatformBackHandler { screen = s.from }
                 }
                 Screen.Home -> if (list == null) Loading() else HomeScreen(
@@ -104,6 +134,9 @@ fun App(
                     onExpand = { expanded = it },
                     onRead = { screen = Screen.Reader(it) },
                     onAvailable = { screen = Screen.Available },
+                    search = search,
+                    onOpenHit = { openHit(it, Screen.Home) },
+                    listState = homeList,
                 )
                 Screen.Available -> {
                     if (list == null) Loading() else AvailableTextsScreen(
@@ -122,22 +155,27 @@ fun App(
                             settings = settings,
                             onSettingsChange = { settings = it; settingsStore.save(it) },
                             onHelp = { showIntro = true },
-                            onBack = { screen = Screen.Home },
-                            onSearch = { screen = Screen.Search(s) },
-                            startLine = settingsStore.lastLine(s.slug) ?: 1L,
+                            onBack = { screen = s.backTo },
+                            onSearch = { screen = Screen.Search(stripBack(s)) },
+                            startLine = target?.takeIf { it.slug == s.slug }?.nInt ?: settingsStore.lastLine(s.slug) ?: 1L,
+                            target = target?.takeIf { it.slug == s.slug },
+                            onTargetShown = { target = null },
                             onPositionChange = { settingsStore.saveLastText(s.slug); settingsStore.saveLastLine(s.slug, it) },
                             entry = list?.firstOrNull { it.slug == s.slug } ?: CatalogEntry(s.slug, data.work.title, data.work.author ?: "", "", "", "", "", true),
                         )
                         if (showIntro) {
                             IntroDialog(onDismiss = { showIntro = false; settingsStore.markIntroSeen() })
                         }
-                        PlatformBackHandler { screen = Screen.Home }
+                        PlatformBackHandler { screen = s.backTo }
                     }
                 }
             }
         }
     }
 }
+
+/** A reader screen whose back arrow leads to the front page: the chain of screens never grows. */
+private fun stripBack(screen: Screen): Screen = if (screen is Screen.Reader) Screen.Reader(screen.slug) else screen
 
 /** A spinner, with a line saying what is being waited for when that takes a moment. */
 @Composable

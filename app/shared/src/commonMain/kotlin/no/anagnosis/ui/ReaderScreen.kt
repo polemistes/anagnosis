@@ -32,6 +32,7 @@ import androidx.compose.material.icons.filled.ArrowDropDown
 import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.MoreVert
+import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.CircularProgressIndicator
@@ -107,6 +108,8 @@ import no.anagnosis.data.NoteSpan
 import no.anagnosis.data.Notes
 import no.anagnosis.data.PlacedNote
 import no.anagnosis.data.Placement
+import no.anagnosis.data.SearchSource
+import no.anagnosis.data.SearchTarget
 import no.anagnosis.data.kind
 import no.anagnosis.data.WordInfo
 import no.anagnosis.data.WorkData
@@ -116,9 +119,6 @@ import no.anagnosis.db.Tokens
 import no.anagnosis.db.Translation_segments
 import no.anagnosis.prefs.LineNumberMode
 import no.anagnosis.prefs.ReaderSettings
-import no.anagnosis.resources.Res
-import no.anagnosis.resources.dictionary
-import org.jetbrains.compose.resources.painterResource
 
 /** What the page shows. `BOTH` (Greek and translation side by side) is offered on wide screens only. */
 enum class ViewMode(val label: String) { GREEK("Greek"), TRANSLATION("English"), BOTH("Both") }
@@ -224,7 +224,13 @@ fun ReaderScreen(
     onPositionChange: (Long) -> Unit,
     /** The text's catalog entry, for its credits. */
     entry: CatalogEntry,
+    /** A hit of the search to show: its line is [startLine]; the reader keeps it and calls [onTargetShown]. */
+    target: SearchTarget? = null,
+    onTargetShown: () -> Unit = {},
 ) {
+    // the hit is taken once: the app forgets it at once, so that the text opens normally next time
+    val hit = remember { target }
+    LaunchedEffect(Unit) { if (target != null) onTargetShown() }
     // The reader's choice of view, or null for the default: both columns on a wide screen, else the Greek.
     var chosenMode by remember { mutableStateOf<ViewMode?>(null) }
     var showOptions by remember { mutableStateOf(false) }
@@ -374,6 +380,17 @@ fun ReaderScreen(
         }
     }
 
+    // a hit in a commentary opens its sheet on the hit's page; a hit in a note of the reader's, the note
+    var hitOpened by remember { mutableStateOf(false) }
+    LaunchedEffect(positioned, notes) {
+        if (hitOpened || hit == null || !positioned) return@LaunchedEffect
+        when {
+            hit.noteKind != null -> { pageNotesKind = hit.noteKind; hitOpened = true }
+            hit.noteId != null -> notes.firstOrNull { it.note.id == hit.noteId }?.let { editing = it; hitOpened = true }
+            else -> hitOpened = true
+        }
+    }
+
     val notedPages = remember(pages, noteSpans, settings.noteTicks) {
         if (!settings.noteTicks || noteSpans.isEmpty()) emptySet()
         else pages.indices.filter { i -> pages[i].rows.any { it is ReaderRow.GreekLine && it.line.id in noteSpans } }.toSet()
@@ -384,7 +401,9 @@ fun ReaderScreen(
     val compact = maxWidth < COMPACT
     val short = maxHeight < SHORT
     val modes = if (wide) ViewMode.entries else ViewMode.entries.filter { it != ViewMode.BOTH }
-    val mode = chosenMode?.takeIf { it in modes } ?: if (wide) ViewMode.BOTH else ViewMode.GREEK
+    // a hit in the translation opens the English (unless both stand side by side)
+    val mode = chosenMode?.takeIf { it in modes } ?: if (wide) ViewMode.BOTH
+        else if (hit?.source == SearchSource.TRANSLATION) ViewMode.TRANSLATION else ViewMode.GREEK
     Scaffold(
         topBar = {
             // One row: the way back, the title (which chooses the book of an epic or the New
@@ -456,7 +475,7 @@ fun ReaderScreen(
                         Box {
                             IconButton(onClick = { showMenu = true }) { Icon(Icons.Filled.MoreVert, contentDescription = "More") }
                             DropdownMenu(expanded = showMenu, onDismissRequest = { showMenu = false }) {
-                                DropdownMenuItem(text = { Text("Dictionary") }, onClick = { showMenu = false; onSearch() })
+                                DropdownMenuItem(text = { Text("Search") }, onClick = { showMenu = false; onSearch() })
                                 if (documents.isNotEmpty()) {
                                     DropdownMenuItem(text = { Text("About this edition") }, onClick = { showMenu = false; showDocuments = true })
                                 }
@@ -470,7 +489,7 @@ fun ReaderScreen(
                             }
                         }
                         IconButton(onClick = onSearch) {
-                            Icon(painterResource(Res.drawable.dictionary), contentDescription = "Dictionary")
+                            Icon(Icons.Filled.Search, contentDescription = "Search")
                         }
                         IconButton(onClick = { showOptions = true }) {
                             Icon(Icons.Filled.Settings, contentDescription = "Options")

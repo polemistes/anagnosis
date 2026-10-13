@@ -212,6 +212,10 @@ sources, scope, `chosen`, the scheme). `delay(60)`, then on `Dispatchers.Default
   With `chosen`: `occurrences(chosen, slugs)`.
 * The two old modes as now. A change of the field's text clears `chosen`.
 
+Changed while building step 3: on the search page the two rows of chips are the first item of
+the results list, so that they scroll away and leave the results room under the keyboard (the
+fixed controls took half the phone's height). On the front page everything scrolls anyway.
+
 **Controls (`SearchControls`).** The back button, when there is one, goes in a row of its own
 above the mode switch, which is then full width in every case (four segments and the back
 button do not share 411 dp). Under the field:
@@ -383,7 +387,7 @@ Commit: "Help and READMEs for the search".
 
 - [x] Step 1: folding and the engine
 - [x] Step 2: data layer
-- [ ] Step 3: the search page in Text mode
+- [x] Step 3: the search page in Text mode
 - [ ] Step 4: Lemma mode and Occurrences
 - [ ] Step 5: the highlight
 - [ ] Step 6: help and documentation

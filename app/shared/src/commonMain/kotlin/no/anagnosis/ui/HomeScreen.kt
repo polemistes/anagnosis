@@ -14,6 +14,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.safeDrawingPadding
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.KeyboardArrowDown
@@ -42,6 +43,7 @@ import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import no.anagnosis.data.AnagnosisRepository
 import no.anagnosis.data.CatalogEntry
+import no.anagnosis.data.SearchHit
 import no.anagnosis.prefs.ReaderSettings
 
 /** The widest the front page or the search is laid out; wider screens centre it. */
@@ -63,11 +65,18 @@ fun HomeScreen(
     onExpand: (String?) -> Unit,
     onRead: (String) -> Unit,
     onAvailable: () -> Unit,
+    /** The search, kept by the app for the session. */
+    search: SearchState,
+    /** A hit of a search in the texts, to be opened in the reader. */
+    onOpenHit: (SearchHit) -> Unit,
+    /** The page's scroll position, kept by the app, so that coming back from a hit finds the results. */
+    listState: LazyListState,
 ) {
     var aboutText by remember { mutableStateOf<CatalogEntry?>(null) }
     var showHelp by remember { mutableStateOf(false) }
     var showAbout by remember { mutableStateOf(false) }
-    val search = rememberSearchState(repository, settings)
+    val installedTexts = catalog.filter { it.installed }
+    SearchEffects(search, repository, settings, textSlug = null, installed = installedTexts)
     // the Greek keyboard shows only while the field is in use, so that it does not cover the page
     var fieldFocused by remember { mutableStateOf(false) }
     val focusManager = LocalFocusManager.current
@@ -79,6 +88,7 @@ fun HomeScreen(
     Column(Modifier.fillMaxSize().safeDrawingPadding(), horizontalAlignment = Alignment.CenterHorizontally) {
         LazyColumn(
             Modifier.weight(1f).fillMaxWidth(),
+            state = listState,
             contentPadding = PaddingValues(horizontal = 24.dp, vertical = 32.dp),
             horizontalAlignment = Alignment.CenterHorizontally,
         ) {
@@ -100,7 +110,7 @@ fun HomeScreen(
                     SearchControls(search, settings, onSettingsChange, fieldModifier = Modifier.onFocusChanged { fieldFocused = it.isFocused })
                 }
             }
-            searchResults(search, repository, width)
+            searchResults(search, repository, installedTexts, onOpenHit, width)
             item {
                 Text(
                     "Anagnosis is an app for reading ancient Greek texts. It provides dictionaries and a tool for " +
