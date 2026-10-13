@@ -26,8 +26,8 @@ Kotlin Multiplatform + Compose Multiplatform. Two modules:
 
     shared/src/commonMain/sqldelight/                 schema + queries (SQLDelight generates typed Kotlin)
     shared/src/commonMain/sqldelight-notes/           the reader's own notes (notes.sqlite, made on the device, never shipped)
-    shared/src/commonMain/kotlin/no/anagnosis/data/   repository, models, morphology decoder
-    shared/src/commonMain/kotlin/no/anagnosis/ui/     reader screen, word and note sheets, HTML renderer
+    shared/src/commonMain/kotlin/no/anagnosis/data/   repository, models, morphology decoder, text search and lemma index
+    shared/src/commonMain/kotlin/no/anagnosis/ui/     reader screen, search page, word and note sheets, HTML renderer
     shared/src/androidMain/                           Android SQLite driver, copies the bundle out of the assets
     androidApp/src/main/                              MainActivity, manifest
 

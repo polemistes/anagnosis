@@ -10,7 +10,7 @@ Anagnosis Ancient Greek Reader
 
 Read ancient Greek: dictionaries, word analysis. Add texts with notes. Offline.
 
-## Full description (2551)
+## Full description (2860)
 
 Anagnosis is an app for reading ancient Greek texts. It provides dictionaries and a tool for morphological analysis, and it is free. Texts to read inside the app are bought separately, each as an app of its own. The app provides a critical apparatus, syntax of sentences, a translation and a commentary for each available text (the New Testament does not have a commentary yet).
 
@@ -27,6 +27,9 @@ When looking up Greek words, you can type Latin letters, or you can type Greek l
 
 READING
 With a text installed, tap any word to see its dictionary form, its inflection, its function in the sentence and a short definition; long press it to see the syntax of the whole sentence. Switch between the Greek and an English translation, and open the critical apparatus or the commentary for the page you are reading. On a tablet the Greek and the translation stand side by side.
+
+SEARCH
+Search the Greek, the translations, the commentaries and your own notes, in one text or in all your texts, with accents and case ignored or exact, by whole words or with regular expressions. Or type a lemma and list every place where any of its forms occurs; every word you tap has a button for this.
 
 TEXTS AVAILABLE
 • Sophocles: Antigone, Ajax and Electra, in R. C. Jebb's editions with his translations, critical notes and commentaries

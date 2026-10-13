@@ -4,7 +4,9 @@ An ancient Greek reading app for Android. The app is free and works as a diction
 morphological analyser; texts are bought as separate apps.
 
 Tap a word to see its dictionary entry and morphology, switch between the Greek and
-translations, consult commentaries, and write your own notes on passages. Everything works offline.
+translations, consult commentaries, and write your own notes on passages. Search the Greek, the
+translations, the commentaries and your notes, in one text or all of them, or list every
+occurrence of a lemma. Everything works offline.
 
 The reader is free on Google Play and the texts are sold there. Everything needed to build it yourself is in this repository,
 free of charge: the code under the GPL (see LICENSE), the texts and data under CC BY-SA 4.0
