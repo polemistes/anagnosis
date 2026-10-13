@@ -476,19 +476,36 @@ fun SearchControls(
                     modifier = fieldModifier.focusRequester(fieldFocus).onFocusChanged { focused = it.isFocused }
                         .fillMaxWidth().padding(top = 4.dp),
                     singleLine = true,
-                    // the keyboard in use, which a tap changes: the app's Greek one or the phone's
-                    leadingIcon = if (english) null else {
-                        {
-                            val label = if (settings.greekKeyboard) "The app's Greek keyboard; tap for the phone's" else "The phone's keyboard; tap for the app's Greek keyboard"
-                            IconButton(
-                                onClick = { refocus = focused; onSettingsChange(settings.copy(greekKeyboard = !settings.greekKeyboard)) },
-                                modifier = Modifier.semantics { contentDescription = label },
-                            ) {
-                                Text(
-                                    if (settings.greekKeyboard) "αβγ" else "abc",
-                                    fontSize = 14.sp,
-                                    color = if (settings.greekKeyboard) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurfaceVariant,
-                                )
+                    // the keyboard in use, which a tap changes (the app's Greek one or the phone's), and in
+                    // the dictionary EN, which looks up English words in Woodhouse while it is lit
+                    leadingIcon = {
+                        Row(verticalAlignment = Alignment.CenterVertically) {
+                            if (!english) {
+                                val label = if (settings.greekKeyboard) "The app's Greek keyboard; tap for the phone's" else "The phone's keyboard; tap for the app's Greek keyboard"
+                                IconButton(
+                                    onClick = { refocus = focused; onSettingsChange(settings.copy(greekKeyboard = !settings.greekKeyboard)) },
+                                    modifier = Modifier.semantics { contentDescription = label },
+                                ) {
+                                    Text(
+                                        if (settings.greekKeyboard) "αβγ" else "abc",
+                                        fontSize = 14.sp,
+                                        color = if (settings.greekKeyboard) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurfaceVariant,
+                                    )
+                                }
+                            }
+                            if (state.mode == SearchMode.DICTIONARY && state.englishChoice(settings)) {
+                                val label = if (english) "English to Greek; tap for Greek to English" else "Greek to English; tap for English to Greek"
+                                IconButton(
+                                    onClick = { refocus = focused; state.english = !state.english },
+                                    modifier = Modifier.semantics { contentDescription = label },
+                                ) {
+                                    Text(
+                                        "EN",
+                                        fontSize = 14.sp,
+                                        fontWeight = if (english) FontWeight.Bold else null,
+                                        color = if (english) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurfaceVariant,
+                                    )
+                                }
                             }
                         }
                     },
@@ -539,31 +556,16 @@ fun SearchControls(
                 )
             }
         }
-        // the mode's own options under the field: the dictionary's direction, the analyser's
-        // diacritics, the texts' scope (Text mode's chips follow); nothing for a mode without any
-        val direction = state.mode == SearchMode.DICTIONARY && state.englishChoice(settings)
+        // the mode's own options under the field: the analyser's diacritics, the texts' scope
+        // (Text mode's chips follow); nothing for a mode without any
         val diacritics = state.mode == SearchMode.ANALYSER
         val scope = inTexts && textSlug != null
-        if (direction || diacritics || scope) {
+        if (diacritics || scope) {
             FlowRow(
                 Modifier.fillMaxWidth().padding(bottom = 4.dp),
                 horizontalArrangement = Arrangement.spacedBy(8.dp),
                 itemVerticalAlignment = Alignment.CenterVertically,
             ) {
-                if (direction) {
-                    // the whole width: the two labels are long for a phone
-                    SingleChoiceSegmentedButtonRow(Modifier.fillMaxWidth()) {
-                        listOf(false to "Greek → English", true to "English → Greek").forEachIndexed { i, (toGreek, label) ->
-                            SegmentedButton(
-                                selected = state.english == toGreek,
-                                onClick = { if (state.english != toGreek) { refocus = focused; state.english = toGreek } },
-                                shape = SegmentedButtonDefaults.itemShape(i, 2),
-                                icon = {},
-                                label = { Text(label, fontSize = 12.sp, maxLines = 1, softWrap = false) },
-                            )
-                        }
-                    }
-                }
                 if (diacritics) {
                     FilterChip(
                         selected = settings.exactDiacritics,
