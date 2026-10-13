@@ -388,8 +388,6 @@ fun SearchControls(
     }
     val focusManager = LocalFocusManager.current
     val inTexts = state.mode == SearchMode.TEXT || state.mode == SearchMode.LEMMA
-    // in Text mode Latin letters are English until the reader asks for the Greek
-    val latinIsEnglish = state.mode == SearchMode.TEXT && !state.asGreek
     Column(Modifier.fillMaxWidth()) {
         if (navigation != null) {
             Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) { navigation() }
@@ -464,7 +462,7 @@ fun SearchControls(
                 )
             }
         }
-        // the scheme switch moves to a line of its own when the row has no room for it
+        // the scope switch moves to a line of its own when the row has no room for it
         FlowRow(
             Modifier.fillMaxWidth().padding(top = 2.dp, bottom = 4.dp),
             horizontalArrangement = Arrangement.SpaceBetween,
@@ -490,19 +488,6 @@ fun SearchControls(
                                 label = { Text(label, fontSize = 12.sp, maxLines = 1, softWrap = false) },
                             )
                         }
-                    }
-                }
-            }
-            if (!settings.greekKeyboard && !latinIsEnglish) {
-                // wide enough for the labels beside the check mark
-                SingleChoiceSegmentedButtonRow(Modifier.widthIn(min = 240.dp)) {
-                    InputScheme.entries.forEachIndexed { i, sch ->
-                        SegmentedButton(
-                            selected = settings.inputScheme == sch,
-                            onClick = { onSettingsChange(settings.copy(inputScheme = sch)) },
-                            shape = SegmentedButtonDefaults.itemShape(i, InputScheme.entries.size),
-                            label = { Text(if (sch == InputScheme.BETA) "q=θ w=ω" else "u=θ v=ω", fontSize = 12.sp, maxLines = 1) },
-                        )
                     }
                 }
             }

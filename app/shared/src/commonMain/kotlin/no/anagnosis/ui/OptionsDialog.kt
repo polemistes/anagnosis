@@ -35,6 +35,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import no.anagnosis.data.Credit
 import no.anagnosis.data.Dictionaries
+import no.anagnosis.greek.InputScheme
 import no.anagnosis.prefs.ColorTheme
 import no.anagnosis.prefs.FontChoice
 import no.anagnosis.prefs.LineNumberMode
@@ -108,6 +109,20 @@ fun OptionsDialog(
                 Row(Modifier.fillMaxWidth().clickable { onChange(settings.copy(noteTicks = !settings.noteTicks)) }, verticalAlignment = Alignment.CenterVertically) {
                     Text("Mark pages with notes on the progress bar", style = MaterialTheme.typography.bodyMedium, modifier = Modifier.weight(1f))
                     Switch(checked = settings.noteTicks, onCheckedChange = { onChange(settings.copy(noteTicks = it)) })
+                }
+                Spacer(Modifier.height(8.dp))
+                Text("Typing Greek with Latin letters", style = MaterialTheme.typography.labelLarge)
+                for (scheme in InputScheme.entries) {
+                    Row(
+                        Modifier.fillMaxWidth().clickable { onChange(settings.copy(inputScheme = scheme)) },
+                        verticalAlignment = Alignment.CenterVertically,
+                    ) {
+                        RadioButton(selected = settings.inputScheme == scheme, onClick = { onChange(settings.copy(inputScheme = scheme)) })
+                        Column(Modifier.padding(vertical = 4.dp)) {
+                            Text(scheme.label, style = MaterialTheme.typography.bodyMedium)
+                            Text(scheme.hint, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                        }
+                    }
                 }
                 if (dictionaries.isNotEmpty()) {
                     Spacer(Modifier.height(8.dp))
@@ -281,7 +296,7 @@ fun IntroDialog(onDismiss: () -> Unit) {
                 HelpItem("The title", "of an epic such as the Odyssey, or of the New Testament, shows the book being read; tap it to choose another book. Swiping past the last page of a book goes on to the next. In the New Testament the chapter's number stands in bold before its first verse and the verse numbers are raised; Line numbers None hides them.")
                 HelpItem("Plato", "is cited by the pages of Stephanus's edition (1578) and their sections a–e, which the margin shows (172, b, c ...). Line numbers count the editor's lines within each section: 172a1 is the first line of 172a.")
                 HelpItem("About this edition", "opens the edition's introduction, appendix or preface, where the text has them: on a phone under the three-dot menu at the top right, on a wider screen the i button. The manuscripts and sigla are under Manuscripts in the Apparatus view.")
-                HelpItem("Options", "font, text size, line numbers, colours and notes: on a phone under the three-dot menu, on a wider screen the gear. You can reopen this help there.")
+                HelpItem("Options", "font, text size, line numbers, notes, the Latin letters that type Greek in the search (q = θ or u = θ), dictionaries and colours: on the front page, and in a text on a phone under the three-dot menu, on a wider screen the gear. You can reopen this help there.")
             }
         },
     )

@@ -75,6 +75,7 @@ fun HomeScreen(
     var aboutText by remember { mutableStateOf<CatalogEntry?>(null) }
     var showHelp by remember { mutableStateOf(false) }
     var showAbout by remember { mutableStateOf(false) }
+    var showOptions by remember { mutableStateOf(false) }
     val installedTexts = catalog.filter { it.installed }
     SearchEffects(search, repository, settings, textSlug = null, installed = installedTexts)
     // the Greek keyboard shows only while the field is in use, so that it does not cover the page
@@ -161,6 +162,7 @@ fun HomeScreen(
             item {
                 Row(Modifier.padding(top = 20.dp), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                     TextButton(onClick = { showHelp = true }) { Text("How to use") }
+                    TextButton(onClick = { showOptions = true }) { Text("Options") }
                     TextButton(onClick = { showAbout = true }) { Text("About and credits") }
                 }
             }
@@ -175,6 +177,15 @@ fun HomeScreen(
     }
     SearchWordSheet(search, settings, installedTexts)
     if (showHelp) IntroDialog(onDismiss = { showHelp = false })
+    if (showOptions) {
+        OptionsDialog(
+            settings, onSettingsChange,
+            onHelp = { showOptions = false; showHelp = true },
+            onAbout = { showOptions = false; showAbout = true },
+            onDismiss = { showOptions = false },
+            dictionaries = remember { repository.dictionaries() },
+        )
+    }
     if (showAbout) {
         val credits = remember { repository.appCredits() }
         AboutDialog(appVersion, credits, onDismiss = { showAbout = false })
