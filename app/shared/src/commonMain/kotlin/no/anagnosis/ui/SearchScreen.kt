@@ -53,6 +53,8 @@ import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.focus.onFocusChanged
 import androidx.compose.ui.platform.InterceptPlatformTextInput
 import androidx.compose.ui.platform.LocalFocusManager
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.TextRange
 import androidx.compose.ui.text.buildAnnotatedString
@@ -70,6 +72,7 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.withContext
 import no.anagnosis.data.AnagnosisRepository
+import no.anagnosis.data.Dictionaries
 import no.anagnosis.data.CatalogEntry
 import no.anagnosis.data.LemmaIndex
 import no.anagnosis.data.LemmaRow
@@ -111,6 +114,18 @@ class SearchState {
     var mode by mutableStateOf(SearchMode.DICTIONARY)
     var query by mutableStateOf(TextFieldValue(""))
     var hits by mutableStateOf<List<HeadwordHit>>(emptyList())
+
+    /** Whether [hits] are Woodhouse's English headwords (and not Greek ones). */
+    var hitsEnglish by mutableStateOf(false)
+
+    /** Dictionary mode: English to Greek (Woodhouse) instead of Greek to English. */
+    var english by mutableStateOf(false)
+
+    /** Whether the lexicon has Woodhouse, so that English to Greek can be offered (set by [SearchEffects]). */
+    var englishOffered by mutableStateOf(false)
+
+    /** Greek words tapped in a dictionary entry, each looked up on a sheet of its own; the last is shown. */
+    var lookedUp by mutableStateOf<List<WordInfo>>(emptyList())
     var analyses by mutableStateOf<List<FormAnalysis>>(emptyList())
     var word by mutableStateOf<WordInfo?>(null)
 
@@ -205,6 +220,17 @@ class SearchState {
     }
 }
 
+/** Whether English to Greek can be chosen: Woodhouse is there and turned on. */
+fun SearchState.englishChoice(settings: ReaderSettings): Boolean =
+    englishOffered && Dictionaries.WOODHOUSE !in settings.disabledDictionaries
+
+/** Whether the dictionary looks up English now. */
+fun SearchState.lookingUpEnglish(settings: ReaderSettings): Boolean =
+    mode == SearchMode.DICTIONARY && english && englishChoice(settings)
+
+/** Whether the app's Greek keyboard is in use: chosen, and not while English is typed. */
+fun SearchState.greekKeys(settings: ReaderSettings): Boolean = settings.greekKeyboard && !lookingUpEnglish(settings)
+
 /** Whether the text holds a Latin letter, and whether it holds a Greek one. */
 private fun hasLatin(s: String) = s.any { it in 'a'..'z' || it in 'A'..'Z' }
 private fun hasGreek(s: String) = s.any { it in '\u0370'..'\u03FF' || it in '\u1F00'..'\u1FFF' }
@@ -290,16 +316,22 @@ fun SearchEffects(state: SearchState, repository: AnagnosisRepository, settings:
     // app's) stays hidden when its sheet is closed, until the field is tapped again.
     val focusManager = LocalFocusManager.current
     LaunchedEffect(state.word) { if (state.word != null) focusManager.clearFocus() }
+    LaunchedEffect(Unit) { state.englishOffered = withContext(Dispatchers.Default) { repository.hasLexicon(Dictionaries.WOODHOUSE) } }
+    val english = state.lookingUpEnglish(settings)
     val greekQuery = Transliteration.toGreek(state.query.text, settings.inputScheme)
-    val key = Transliteration.looseKey(greekQuery)
+    val key = if (english) Dictionaries.englishKey(state.query.text) else Transliteration.looseKey(greekQuery)
     val exact = settings.exactDiacritics && state.mode == SearchMode.ANALYSER
-    LaunchedEffect(key, state.mode, greekQuery, exact) {
+    LaunchedEffect(key, state.mode, greekQuery, exact, english) {
         if (key.isEmpty() || state.mode == SearchMode.TEXT || state.mode == SearchMode.LEMMA) {
             state.hits = emptyList(); state.analyses = emptyList(); state.searched = false; return@LaunchedEffect
         }
         delay(60)
         when (state.mode) {
-            SearchMode.DICTIONARY -> { state.hits = withContext(Dispatchers.Default) { repository.searchHeadwords(key) }; state.analyses = emptyList() }
+            SearchMode.DICTIONARY -> {
+                state.hits = withContext(Dispatchers.Default) { if (english) repository.searchEnglish(key) else repository.searchHeadwords(key) }
+                state.hitsEnglish = english
+                state.analyses = emptyList()
+            }
             SearchMode.ANALYSER -> { state.analyses = withContext(Dispatchers.Default) { repository.analyse(greekQuery, exact) }; state.hits = emptyList() }
             else -> {}
         }
@@ -399,12 +431,14 @@ fun SearchControls(
     navigation: (@Composable () -> Unit)? = null,
 ) {
     val greekQuery = Transliteration.toGreek(state.query.text, settings.inputScheme)
+    val english = state.lookingUpEnglish(settings)
+    val greekKeys = state.greekKeys(settings)
     val fieldFocus = remember { FocusRequester() }
     var focused by remember { mutableStateOf(false) }
     // switching keyboards makes the field anew (the phone's keyboard is let in or kept out when
     // the field takes the focus); a field in use gets the focus back
     var refocus by remember { mutableStateOf(false) }
-    LaunchedEffect(settings.greekKeyboard) {
+    LaunchedEffect(greekKeys) {
         if (refocus) { fieldFocus.requestFocus(); refocus = false }
     }
     val focusManager = LocalFocusManager.current
@@ -428,10 +462,10 @@ fun SearchControls(
                 )
             }
         }
-        key(settings.greekKeyboard) {
+        key(greekKeys) {
             InterceptPlatformTextInput(
                 interceptor = { request, nextHandler ->
-                    if (settings.greekKeyboard) awaitCancellation() else nextHandler.startInputMethod(request)
+                    if (greekKeys) awaitCancellation() else nextHandler.startInputMethod(request)
                 },
             ) {
                 OutlinedTextField(
@@ -440,9 +474,25 @@ fun SearchControls(
                     modifier = fieldModifier.focusRequester(fieldFocus).onFocusChanged { focused = it.isFocused }
                         .fillMaxWidth().padding(top = 4.dp),
                     singleLine = true,
+                    // the keyboard in use, which a tap changes: the app's Greek one or the phone's
+                    leadingIcon = if (english) null else {
+                        {
+                            val label = if (settings.greekKeyboard) "The app's Greek keyboard; tap for the phone's" else "The phone's keyboard; tap for the app's Greek keyboard"
+                            IconButton(
+                                onClick = { refocus = focused; onSettingsChange(settings.copy(greekKeyboard = !settings.greekKeyboard)) },
+                                modifier = Modifier.semantics { contentDescription = label },
+                            ) {
+                                Text(
+                                    if (settings.greekKeyboard) "αβγ" else "abc",
+                                    fontSize = 14.sp,
+                                    color = if (settings.greekKeyboard) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurfaceVariant,
+                                )
+                            }
+                        }
+                    },
                     label = {
                         Text(when (state.mode) {
-                            SearchMode.DICTIONARY -> "Headword"
+                            SearchMode.DICTIONARY -> if (english) "English word" else "Headword"
                             SearchMode.ANALYSER -> "Inflected form"
                             SearchMode.TEXT -> "Word or phrase"
                             SearchMode.LEMMA -> "Lemma"
@@ -470,6 +520,7 @@ fun SearchControls(
                                 if (settings.greekKeyboard) "Type a vowel, then its breathing and accent" else "Greek searches the Greek; Latin letters the English",
                                 maxLines = 1, overflow = TextOverflow.Ellipsis,
                             )
+                            english -> Text("Woodhouse, English-Greek Dictionary", maxLines = 1, overflow = TextOverflow.Ellipsis)
                             greekQuery != text && greekQuery.isNotEmpty() -> Text(greekQuery)
                             settings.greekKeyboard -> Text("Type a vowel, then its breathing and accent")
                             else -> Text(settings.inputScheme.hint)
@@ -486,22 +537,39 @@ fun SearchControls(
                 )
             }
         }
-        // the scope switch moves to a line of its own when the row has no room for it
-        FlowRow(
-            Modifier.fillMaxWidth().padding(top = 2.dp, bottom = 4.dp),
-            horizontalArrangement = Arrangement.SpaceBetween,
-            itemVerticalAlignment = Alignment.CenterVertically,
-        ) {
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                TextButton(onClick = { refocus = focused; onSettingsChange(settings.copy(greekKeyboard = !settings.greekKeyboard)) }) {
-                    Text(if (settings.greekKeyboard) "Phone keyboard" else "Greek keyboard", fontSize = 12.sp)
-                }
-                if (state.mode == SearchMode.ANALYSER) {
-                    TextButton(onClick = { onSettingsChange(settings.copy(exactDiacritics = !settings.exactDiacritics)) }) {
-                        Text(if (settings.exactDiacritics) "Accents: exact" else "Accents: ignored", fontSize = 12.sp)
+        // the mode's own options under the field: the dictionary's direction, the analyser's
+        // diacritics, the texts' scope (Text mode's chips follow); nothing for a mode without any
+        val direction = state.mode == SearchMode.DICTIONARY && state.englishChoice(settings)
+        val diacritics = state.mode == SearchMode.ANALYSER
+        val scope = inTexts && textSlug != null
+        if (direction || diacritics || scope) {
+            FlowRow(
+                Modifier.fillMaxWidth().padding(bottom = 4.dp),
+                horizontalArrangement = Arrangement.spacedBy(8.dp),
+                itemVerticalAlignment = Alignment.CenterVertically,
+            ) {
+                if (direction) {
+                    // the whole width: the two labels are long for a phone
+                    SingleChoiceSegmentedButtonRow(Modifier.fillMaxWidth()) {
+                        listOf(false to "Greek → English", true to "English → Greek").forEachIndexed { i, (toGreek, label) ->
+                            SegmentedButton(
+                                selected = state.english == toGreek,
+                                onClick = { if (state.english != toGreek) { refocus = focused; state.english = toGreek } },
+                                shape = SegmentedButtonDefaults.itemShape(i, 2),
+                                icon = {},
+                                label = { Text(label, fontSize = 12.sp, maxLines = 1, softWrap = false) },
+                            )
+                        }
                     }
                 }
-                if (inTexts && textSlug != null) {
+                if (diacritics) {
+                    FilterChip(
+                        selected = settings.exactDiacritics,
+                        onClick = { onSettingsChange(settings.copy(exactDiacritics = !settings.exactDiacritics)) },
+                        label = { Text("Diacritics", fontSize = 12.sp) },
+                    )
+                }
+                if (scope) {
                     SingleChoiceSegmentedButtonRow {
                         listOf(true to "This text", false to "All texts").forEachIndexed { i, (mine, label) ->
                             SegmentedButton(
@@ -603,7 +671,13 @@ private fun LazyListScope.dictionaryResults(state: SearchState, repository: Anag
             Text(
                 hit.headword,
                 style = MaterialTheme.typography.titleMedium,
-                modifier = Modifier.fillMaxWidth().clickable { state.word = repository.wordInfoForLemma(hit.lemmaKey, hit.headword); state.wordKey = hit.lemmaKey }.padding(vertical = 10.dp),
+                modifier = Modifier.fillMaxWidth().clickable {
+                    if (state.hitsEnglish) {
+                        state.word = repository.wordInfoForEnglish(hit.lemmaKey, hit.headword); state.wordKey = null
+                    } else {
+                        state.word = repository.wordInfoForLemma(hit.lemmaKey, hit.headword); state.wordKey = hit.lemmaKey
+                    }
+                }.padding(vertical = 10.dp),
             )
             HorizontalDivider()
         }
@@ -709,9 +783,17 @@ private fun LazyListScope.lemmaResults(state: SearchState, installed: List<Catal
     }
 }
 
-/** The word sheet of a headword or an analysis, with Occurrences when there are texts to look in. */
+/**
+ * The word sheet of a headword or an analysis, with Occurrences when there are texts to look in.
+ * A Greek word tapped in an entry opens a sheet of its own; closing it goes back to the one before.
+ */
 @Composable
-fun SearchWordSheet(state: SearchState, settings: ReaderSettings, installed: List<CatalogEntry>) {
+fun SearchWordSheet(state: SearchState, settings: ReaderSettings, installed: List<CatalogEntry>, repository: AnagnosisRepository) {
+    val lookUp: (String) -> Unit = { w -> state.lookedUp = state.lookedUp + repository.wordInfoForForm(w) }
+    state.lookedUp.lastOrNull()?.let { looked ->
+        WordSheet(looked, onDismiss = { state.lookedUp = state.lookedUp.dropLast(1) }, disabled = settings.disabledDictionaries, onGreekWord = lookUp)
+        return
+    }
     val info = state.word ?: return
     val key = state.wordKey
     WordSheet(
@@ -719,6 +801,7 @@ fun SearchWordSheet(state: SearchState, settings: ReaderSettings, installed: Lis
         onDismiss = { state.word = null },
         disabled = settings.disabledDictionaries,
         onOccurrences = if (key == null || installed.isEmpty()) null else { { state.openLemma(key.trimEnd { it.isDigit() }, info.lemma.trimEnd { it.isDigit() }) } },
+        onGreekWord = lookUp,
     )
 }
 
@@ -838,7 +921,7 @@ fun SearchScreen(
             item { Spacer(Modifier.height(48.dp)) }
         }
     }
-        if (settings.greekKeyboard && fieldFocused) {
+        if (state.greekKeys(settings) && fieldFocused) {
             GreekKeyboard(
                 onKey = { state.typeGreek(it) },
                 onBackspace = { state.backspace() },
@@ -846,5 +929,5 @@ fun SearchScreen(
             )
         }
     }
-    SearchWordSheet(state, settings, installed)
+    SearchWordSheet(state, settings, installed, repository)
 }

@@ -17,7 +17,8 @@ free of charge: the code under the GPL (see LICENSE), the texts and data under C
     texts/       the texts, translations, commentaries and word annotations, as editable plain files
     pipeline/    Python pipeline: fetches upstream sources, imports them into texts/, builds the SQLite bundle
     pipeline/transcriptions/   page-by-page transcriptions of printed editions (Allen's Odyssey, Burnet's Symposium)
-                               and of Autenrieth's Homeric Dictionary
+                               and of Autenrieth's Homeric Dictionary; corrections to the OCR of Woodhouse's
+                               English-Greek Dictionary
     data/        build output: the SQLite bundle shipped with the app (not committed)
     app/         the Android apps (Kotlin Multiplatform, Compose): the free reader (androidApp), which carries no text,
                  and one small paid app per text (antigoneApp, odysseyApp, symposiumApp, newTestamentApp, ajaxApp ...),
@@ -51,6 +52,14 @@ Autenrieth's Homeric Dictionary, one of the reader's dictionaries, is transcribe
 
     .venv/bin/python -m anagnosis_pipeline prepare-autenrieth-pages        # page images and OCR drafts for transcribing it
     .venv/bin/python -m anagnosis_pipeline check-autenrieth-batch FILE...  # check transcription batches
+
+Woodhouse's English-Greek Dictionary, the reader's English → Greek dictionary, is the OCR by Akemdwr
+(Internet Archive), kept as downloaded, with our corrections against the 1910 scan in
+`pipeline/transcriptions/woodhouse/` (the brief is its README.md; `build` applies them):
+
+    .venv/bin/python -m anagnosis_pipeline.woodhouse_qa             # flag suspect words (pipeline/build/woodhouse-flags.tsv)
+    .venv/bin/python -m anagnosis_pipeline.woodhouse_pages batches  # the flags in batches, with page images of the scan
+    .venv/bin/python -m anagnosis_pipeline.woodhouse                # check that every correction applies
 
 The New Testament is imported, not transcribed:
 
@@ -90,7 +99,8 @@ app in Play Console, choose to use the reader's app signing key.
   Dodson's lexicon (CC0) and the Berean Standard Bible (public domain); Abbott-Smith's Manual
   Greek Lexicon of the New Testament from the public-domain TEI edition of
   github.com/translatable-exegetical-tools/Abbott-Smith; Autenrieth's Homeric Dictionary (1891)
-  from our transcription of the Internet Archive scan; see
+  from our transcription of the Internet Archive scan; Woodhouse's English-Greek Dictionary (1910)
+  from the OCR by Akemdwr (Internet Archive), corrected by us against the 1910 scan; see
   [texts/README.md](texts/README.md) for the individual sources.
 
 The Anagnosis name and app icon are trademarks of the author and are not covered by these

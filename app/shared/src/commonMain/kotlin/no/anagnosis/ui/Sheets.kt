@@ -74,6 +74,8 @@ fun WordSheet(
     disabled: Set<String> = emptySet(),
     /** Lists every place the word's lemma occurs (the lemma search); null when there are no texts. */
     onOccurrences: (() -> Unit)? = null,
+    /** Looks up a Greek word tapped in an entry; null leaves the words as plain text. */
+    onGreekWord: ((String) -> Unit)? = null,
 ) {
     val state = rememberModalBottomSheetState(skipPartiallyExpanded = true)
     val glossary = info.entries.filter { Dictionaries.isGlossary(it.lexiconSlug) }
@@ -85,7 +87,8 @@ fun WordSheet(
         .map { it.lexiconSlug to Dictionaries.label(it.lexiconSlug, it.lexiconTitle) }
     // Without a gloss there is nothing to read on the sheet itself: open the only or the shorter dictionary at once.
     val initial = if (info.shortDefinition == null && glossary.isEmpty()) buttons.firstOrNull()?.first else null
-    var open by remember { mutableStateOf(initial) }
+    // a word looked up from the sheet takes its place: its dictionary opens anew
+    var open by remember(info) { mutableStateOf(initial) }
     ModalBottomSheet(onDismissRequest = onDismiss, sheetState = state, modifier = sheetModifier()) {
         Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 20.dp, vertical = 8.dp)) {
             Text(info.form, style = MaterialTheme.typography.headlineSmall)
@@ -102,7 +105,7 @@ fun WordSheet(
             Spacer(Modifier.height(12.dp))
             when {
                 info.shortDefinition != null -> Text(info.shortDefinition, style = MaterialTheme.typography.bodyLarge)
-                glossary.isNotEmpty() -> glossary.forEach { HtmlText(it.html) }
+                glossary.isNotEmpty() -> glossary.forEach { HtmlText(it.html, onGreekWord = onGreekWord) }
                 info.entries.isEmpty() -> Text("No dictionary entry found.", style = MaterialTheme.typography.bodyMedium)
             }
             if (buttons.isNotEmpty() || onSyntax != null || notes.isNotEmpty() || onOccurrences != null) {
@@ -132,7 +135,7 @@ fun WordSheet(
                 Spacer(Modifier.height(8.dp))
                 info.entries.filter { it.lexiconSlug == shown }.forEachIndexed { i, e ->
                     if (i > 0) HorizontalDivider(Modifier.padding(vertical = 10.dp))
-                    HtmlText(e.html)
+                    HtmlText(e.html, onGreekWord = onGreekWord)
                 }
             }
             Spacer(Modifier.height(32.dp))

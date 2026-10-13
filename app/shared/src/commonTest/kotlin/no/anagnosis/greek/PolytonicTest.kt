@@ -38,4 +38,14 @@ class PolytonicTest {
         assert(Polytonic.exactKey("ἀγαθὸν") != Polytonic.exactKey("ἀγαθόν"))
         assertEquals(GreekNormalizer.looseKey("ἀγαθὸν"), GreekNormalizer.looseKey("ἀγαθόν"))
     }
+
+    @Test
+    fun lengthMarksAreTakenOut() {
+        // Woodhouse's breve on a letter that also has a breathing, as combining marks
+        assertEquals("ἀπολείπειν", Polytonic.withoutLength("ᾰ\u0313πολείπειν"))
+        assertEquals("καταλείπειν", Polytonic.withoutLength("κᾰτᾰλείπειν"))
+        assertEquals("ἐκλιμπάνειν", Polytonic.withoutLength("ἐκλιμπᾰ\u0301νειν"))
+        assertEquals("μεθίεσθαι", Polytonic.withoutLength("μεθῑ\u0301εσθαι"))
+        assertEquals("μεθιέναι", Polytonic.withoutLength("μεθι\u0304έναι"))
+    }
 }

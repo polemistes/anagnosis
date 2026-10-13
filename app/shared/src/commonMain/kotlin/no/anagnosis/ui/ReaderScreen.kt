@@ -34,12 +34,12 @@ import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.MoreVert
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.Settings
+import androidx.compose.material3.AssistChip
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.DropdownMenu
 import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.ExperimentalMaterial3Api
-import androidx.compose.material3.FilterChip
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.LocalContentColor
@@ -470,10 +470,11 @@ fun ReaderScreen(
                 actions = {
                     if (translation != null) {
                         if (compact) {
-                            FilterChip(
-                                selected = mode == ViewMode.TRANSLATION,
-                                onClick = { chosenMode = if (mode == ViewMode.TRANSLATION) ViewMode.GREEK else ViewMode.TRANSLATION },
-                                label = { Text(ViewMode.TRANSLATION.label) },
+                            // the chip names the view a tap gives: the English from the Greek, the Greek from the English
+                            val other = if (mode == ViewMode.TRANSLATION) ViewMode.GREEK else ViewMode.TRANSLATION
+                            AssistChip(
+                                onClick = { chosenMode = other },
+                                label = { Text(other.label) },
                                 modifier = Modifier.padding(end = 4.dp),
                             )
                         } else {
@@ -746,7 +747,20 @@ fun ReaderScreen(
     }
     }
 
-    wordInfo?.let { info ->
+    // Greek words tapped in a dictionary entry, each looked up on a sheet of its own; closing one
+    // goes back to the one before, the last back to the word of the text
+    var lookedUp by remember { mutableStateOf<List<WordInfo>>(emptyList()) }
+    LaunchedEffect(selectedTokenId) { lookedUp = emptyList() }
+    val lookUp: (String) -> Unit = { w -> lookedUp = lookedUp + repository.wordInfoForForm(w) }
+    lookedUp.lastOrNull()?.let { info ->
+        WordSheet(
+            info,
+            onDismiss = { lookedUp = lookedUp.dropLast(1) },
+            order = data.dictionaryOrder,
+            disabled = settings.disabledDictionaries,
+            onGreekWord = lookUp,
+        )
+    } ?: wordInfo?.let { info ->
         val sentence = selectedToken?.sentence
         // the reader's notes whose passage takes in this word, each with a button to open it
         val wordNotes = remember(selectedToken, noteSpans, notes) {
@@ -766,6 +780,7 @@ fun ReaderScreen(
             order = data.dictionaryOrder,
             disabled = settings.disabledDictionaries,
             onOccurrences = selectedToken?.let { t -> { selectedTokenId = null; onSearchLemma(t.lemma_key, t.lemma) } },
+            onGreekWord = lookUp,
         )
     }
     pageNotesKind?.let { kind ->

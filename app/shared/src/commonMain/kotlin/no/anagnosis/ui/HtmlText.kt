@@ -11,6 +11,7 @@ import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.TextLinkStyles
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontStyle
+import androidx.compose.ui.text.withLink
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.em
@@ -18,14 +19,20 @@ import androidx.compose.ui.unit.sp
 
 /**
  * Renders the small HTML subset produced by the pipeline: p, br, b, i, span, a.
- * Links of the form href="note:123" call [onNoteLink] with the line number.
+ * Links of the form href="note:123" call [onNoteLink] with the line number. With [onGreekWord]
+ * every Greek word can be tapped, and the tap calls it with the word.
  */
 @Composable
-fun HtmlText(html: String, modifier: Modifier = Modifier, onNoteLink: ((String) -> Unit)? = null) {
+fun HtmlText(
+    html: String,
+    modifier: Modifier = Modifier,
+    onNoteLink: ((String) -> Unit)? = null,
+    onGreekWord: ((String) -> Unit)? = null,
+) {
     val linkColor = MaterialTheme.colorScheme.primary
     val muted = MaterialTheme.colorScheme.outline
     Text(
-        text = htmlToAnnotated(html, linkColor = linkColor, onNoteLink = onNoteLink, mutedColor = muted),
+        text = htmlToAnnotated(html, linkColor = linkColor, onNoteLink = onNoteLink, mutedColor = muted, onGreekWord = onGreekWord),
         modifier = modifier,
         style = MaterialTheme.typography.bodyMedium,
     )
@@ -35,11 +42,18 @@ private val TAG = Regex("<(/?)([a-zA-Z0-9]+)([^>]*)>")
 private val HREF = Regex("href=\"([^\"]*)\"")
 private val CLASS = Regex("class=\"([^\"]*)\"")
 
+/** A Greek word: Greek letters with their combining marks, and an elision mark at its end. */
+private val GREEK_WORD = Regex("[\u0370-\u03FF\u1F00-\u1FFF][\u0370-\u03FF\u1F00-\u1FFF\u0300-\u036F]*[ʼ’]?")
+
+/** The tapped words keep the look of the text around them. */
+private val PLAIN_LINK = TextLinkStyles(SpanStyle())
+
 fun htmlToAnnotated(
     html: String,
     linkColor: Color,
     onNoteLink: ((String) -> Unit)?,
     mutedColor: Color = linkColor.copy(alpha = 0.55f),
+    onGreekWord: ((String) -> Unit)? = null,
 ): AnnotatedString = buildAnnotatedString {
     var pos = 0
     var paragraphs = 0
@@ -52,7 +66,18 @@ fun htmlToAnnotated(
             append("\n\n")
             pendingParagraphBreak = false
         }
-        append(unescape(raw))
+        val text = unescape(raw)
+        if (onGreekWord == null) {
+            append(text)
+            return
+        }
+        var at = 0
+        for (w in GREEK_WORD.findAll(text)) {
+            append(text.substring(at, w.range.first))
+            withLink(LinkAnnotation.Clickable(tag = "greek", styles = PLAIN_LINK) { onGreekWord(w.value) }) { append(w.value) }
+            at = w.range.last + 1
+        }
+        append(text.substring(at))
     }
 
     for (m in TAG.findAll(html)) {

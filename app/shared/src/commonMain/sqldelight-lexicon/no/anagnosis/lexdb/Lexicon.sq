@@ -33,6 +33,19 @@ FROM lexicon_entries
 WHERE loose_key >= :prefix AND loose_key < :prefixEnd
 GROUP BY lemma_key ORDER BY sort_key, lemma_key LIMIT :limit;
 
+-- Headwords of one dictionary only (Woodhouse's English ones), by prefix of their loose key.
+searchLexiconHeadwords:
+SELECT lemma_key, MIN(headword) AS headword, MIN(sort_key) AS sort_key
+FROM lexicon_entries JOIN lexicons ON lexicons.id = lexicon_entries.lexicon_id
+WHERE lexicons.slug = :slug AND loose_key >= :prefix AND loose_key < :prefixEnd
+GROUP BY lemma_key ORDER BY sort_key, lemma_key LIMIT :limit;
+
+selectEntriesByKeyIn:
+SELECT lexicon_entries.id, lexicon_entries.headword, lexicon_entries.homograph, lexicon_entries.html,
+       lexicons.slug AS lexicon_slug, lexicons.title AS lexicon_title
+FROM lexicon_entries JOIN lexicons ON lexicons.id = lexicon_entries.lexicon_id
+WHERE lexicons.slug = ? AND lemma_key = ? ORDER BY homograph;
+
 CREATE TABLE short_definitions (
     lemma_key TEXT NOT NULL PRIMARY KEY, source TEXT NOT NULL, definition TEXT NOT NULL
 );

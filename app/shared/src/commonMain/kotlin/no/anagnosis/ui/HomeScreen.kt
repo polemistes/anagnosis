@@ -167,7 +167,7 @@ fun HomeScreen(
                 }
             }
         }
-        if (settings.greekKeyboard && fieldFocused) {
+        if (search.greekKeys(settings) && fieldFocused) {
             GreekKeyboard(
                 onKey = { search.typeGreek(it) },
                 onBackspace = { search.backspace() },
@@ -175,7 +175,7 @@ fun HomeScreen(
             )
         }
     }
-    SearchWordSheet(search, settings, installedTexts)
+    SearchWordSheet(search, settings, installedTexts, repository)
     if (showHelp) IntroDialog(onDismiss = { showHelp = false })
     if (showOptions) {
         OptionsDialog(

@@ -88,6 +88,30 @@ object Polytonic {
         return dec to comp
     }
 
+    /**
+     * The word without marks of vowel length (Woodhouse's ᾰ, ῑ, and a combining macron or breve),
+     * its other combining marks composed again with their letter: ᾰ̓πολείπειν gives ἀπολείπειν.
+     */
+    fun withoutLength(s: String): String {
+        val sb = StringBuilder(s.length)
+        for (c in s) {
+            when {
+                c == '\u0304' || c == '\u0306' -> {}
+                c in LENGTH_LETTERS -> sb.append(LENGTH_LETTERS.getValue(c))
+                c in COMBINING && sb.isNotEmpty() -> {
+                    val (base, marks) = decompose(sb.last())
+                    val composed = compose(base, marks + c)
+                    if (composed != null) sb.setCharAt(sb.length - 1, composed) else sb.append(c)
+                }
+                else -> sb.append(c)
+            }
+        }
+        return sb.toString()
+    }
+
+    private val LENGTH_LETTERS = mapOf('ᾰ' to 'α', 'ᾱ' to 'α', 'ῐ' to 'ι', 'ῑ' to 'ι', 'ῠ' to 'υ', 'ῡ' to 'υ', 'Ᾰ' to 'Α', 'Ᾱ' to 'Α', 'Ῐ' to 'Ι', 'Ῑ' to 'Ι', 'Ῠ' to 'Υ', 'Ῡ' to 'Υ')
+    private val COMBINING = setOf(SMOOTH, ROUGH, ACUTE, GRAVE, CIRCUMFLEX, SUBSCRIPT, DIAERESIS)
+
     /** Exact search key: NFC lower case with diacritics kept, final sigma normalised to ς. */
     fun exactKey(s: String): String {
         val t = s.trim().lowercase().replace('σ', 'σ')

@@ -214,6 +214,39 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
             .map { HeadwordHit(it.lemma_key, it.headword ?: it.lemma_key) }
     }
 
+    /** Whether the shared lexicon holds the dictionary (Woodhouse comes with lexicons built since 2026-10). */
+    fun hasLexicon(slug: String): Boolean = lexicon.lexiconQueries.selectLexicons().executeAsList().any { it.slug == slug }
+
+    /** Woodhouse's English headwords starting with the given key (Dictionaries.englishKey). */
+    fun searchEnglish(key: String, limit: Long = 80): List<HeadwordHit> {
+        if (key.isEmpty()) return emptyList()
+        return lexicon.lexiconQueries.searchLexiconHeadwords(Dictionaries.WOODHOUSE, key, key + "\uFFFF", limit).executeAsList()
+            .map { HeadwordHit(it.lemma_key, it.headword ?: it.lemma_key) }
+    }
+
+    /** The sheet of an English headword: Woodhouse's entries for it (Late, adj., and Late, adv.). */
+    fun wordInfoForEnglish(key: String, headword: String): WordInfo {
+        val entries = lexicon.lexiconQueries.selectEntriesByKeyIn(Dictionaries.WOODHOUSE, key).executeAsList()
+            .map { Entry(it.lexicon_slug, it.lexicon_title, it.headword, it.homograph, inflate(it.html)) }
+        return WordInfo(headword, headword, "", null, entries)
+    }
+
+    /**
+     * The sheet of a Greek word tapped in a dictionary entry: the word as a headword, or else as an
+     * inflected form, its lemma's (with the marks typed, when they narrow it). Woodhouse's marks
+     * of vowel length are left out.
+     */
+    fun wordInfoForForm(word: String): WordInfo {
+        val form = no.anagnosis.greek.Polytonic.withoutLength(word.trimEnd('ʼ', '’'))
+        val lq = lexicon.lexiconQueries
+        if (lq.selectEntriesByKey(form.lowercase()).executeAsList().isNotEmpty()) {
+            return wordInfoForLemma(form.lowercase(), form)
+        }
+        val analyses = analyse(form, exact = true).ifEmpty { analyse(form) }
+        val a = analyses.firstOrNull { entriesForLemma(it.lemma).isNotEmpty() } ?: analyses.firstOrNull()
+        return if (a != null) wordInfoForAnalysis(a) else WordInfo(form, form, "", null, entriesForLemma(form))
+    }
+
     /** The word sheet for a dictionary headword: gloss (when the lexicon has one) and full entries. */
     fun wordInfoForLemma(lemmaKey: String, headword: String): WordInfo {
         val lq = lexicon.lexiconQueries
