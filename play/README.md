@@ -34,8 +34,16 @@ The text apps are priced at €3; the reader is free.
    graphic and the screenshots.
 6. Price the text apps at €3 (Play converts to local prices) and choose the countries.
 
-Release the reader before (or together with) the text apps: a text app opened without the reader
-installed sends the user to the reader's page on Google Play.
+Release in this order, because review checks every link against the live store, and a link
+to a page that is not public yet counts as broken (Antigone was rejected for this, 2026-10-13):
+
+1. The reader, with no text marked `google_play: yes` (its "Available texts" button then reads
+   "Texts will be available soon" and is disabled). Since reader 0.2.0 (versionCode 4).
+2. The text apps, once the reader is live. A text app opened without the reader sends the user to
+   the reader's page on Google Play, so it cannot pass review before then. In the review notes,
+   say that the app adds its text to the free reader and give the reader's Play link.
+3. Each text app once it is live: mark it `google_play: yes` in its about.md and release a reader
+   update, which then lists it with a link to its page.
 
 ## Making the graphics again
 

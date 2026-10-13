@@ -18,7 +18,7 @@
     "syntax": "annotated by hand (Ancient Greek Dependency Treebank)",
     "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
     "syntax_license": "CC BY-SA 3.0 US",
-    "google_play": "yes"
+    "google_play": "no"
   },
   {
     "slug": "antigone",
@@ -39,7 +39,7 @@
     "syntax": "annotated by hand (Ancient Greek Dependency Treebank)",
     "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
     "syntax_license": "CC BY-SA 3.0 US",
-    "google_play": "yes"
+    "google_play": "no"
   },
   {
     "slug": "electra",
@@ -60,7 +60,7 @@
     "syntax": "annotated by hand (Ancient Greek Dependency Treebank)",
     "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
     "syntax_license": "CC BY-SA 3.0 US",
-    "google_play": "yes"
+    "google_play": "no"
   },
   {
     "slug": "newtestament",
@@ -80,7 +80,7 @@
     "syntax_source": "MACULA Greek (Biblica, Inc.), converted to dependency trees for this app",
     "syntax_license": "CC BY 4.0",
     "dictionaries": "Abbott-Smith's and Dodson's lexicons of the New Testament",
-    "google_play": "yes"
+    "google_play": "no"
   },
   {
     "slug": "odyssey",
@@ -102,7 +102,7 @@
     "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
     "syntax_license": "CC BY-SA 3.0 US",
     "dictionaries": "Autenrieth's Homeric Dictionary",
-    "google_play": "yes"
+    "google_play": "no"
   },
   {
     "slug": "oedipuscoloneus",
@@ -183,7 +183,7 @@
     "syntax": "machine-made (GLAUx), not checked by hand",
     "syntax_source": "GLAUx (Alek Keersmaekers, KU Leuven): automatic annotation, not checked by hand",
     "syntax_license": "CC BY-SA 4.0",
-    "google_play": "yes"
+    "google_play": "no"
   },
   {
     "slug": "trachiniae",

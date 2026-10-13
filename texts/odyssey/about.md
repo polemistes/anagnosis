@@ -12,6 +12,6 @@
 # syntax_source: Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition
 # syntax_license: CC BY-SA 3.0 US
 # dictionaries: Autenrieth's Homeric Dictionary
-# google_play: yes
+# google_play: no
 
 The Greek text of T. W. Allen's Oxford edition with its critical apparatus, A. T. Murray's translation, the commentary of Merry, Riddell and Monro, Autenrieth's Homeric Dictionary and the Liddell–Scott dictionaries. Tap any word for its meaning and form.
