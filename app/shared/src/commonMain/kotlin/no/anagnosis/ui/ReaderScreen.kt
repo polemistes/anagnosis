@@ -26,13 +26,16 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.filled.ArrowDropDown
 import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material.icons.filled.Info
+import androidx.compose.material.icons.filled.MoreVert
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.DropdownMenu
 import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.FilterChip
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.LocalContentColor
@@ -121,8 +124,12 @@ enum class ViewMode(val label: String) { GREEK("Greek"), TRANSLATION("English"),
 private val MAX_COLUMN = 580.dp
 /** The space between the Greek and the translation when they are shown side by side. */
 private val COLUMN_GAP = 40.dp
-/** Windows at least this wide can show the two columns next to each other. */
-private val WIDE = 840.dp
+/** Windows at least this wide can show the two columns next to each other (a phone held sideways is). */
+private val WIDE = 800.dp
+/** Below this width the reader's rarer actions go into a menu and the view switch is a single chip. */
+private val COMPACT = 600.dp
+/** Below this height (a phone held sideways) the bars are thinner. */
+private val SHORT = 480.dp
 
 /** One row of the reader. `nInt` is the Greek line number the row belongs to, for the progress bar. */
 sealed interface ReaderRow {
@@ -288,6 +295,8 @@ fun ReaderScreen(
     val prevBook = currentBook?.let { b -> data.books.lastOrNull { it.number < b.number } }
     val nextBook = currentBook?.let { b -> data.books.firstOrNull { it.number > b.number } }
     var showBooks by remember { mutableStateOf(false) }
+    // the three-dot menu of a phone: dictionary, about this edition, options
+    var showMenu by remember { mutableStateOf(false) }
     // The sentence whose syntax sheet is open, by treebank sentence id.
     var syntaxSentence by remember { mutableStateOf<String?>(null) }
     val selectedToken = remember(selectedTokenId, data) {
@@ -369,56 +378,27 @@ fun ReaderScreen(
 
     BoxWithConstraints(Modifier.fillMaxSize()) {
     val wide = translation != null && maxWidth >= WIDE
+    val compact = maxWidth < COMPACT
+    val short = maxHeight < SHORT
     val modes = if (wide) ViewMode.entries else ViewMode.entries.filter { it != ViewMode.BOTH }
     val mode = chosenMode?.takeIf { it in modes } ?: if (wide) ViewMode.BOTH else ViewMode.GREEK
     Scaffold(
         topBar = {
-            // Two rows: the title with the way back to the front page, then the controls, so that
-            // the title is never squeezed by the buttons on a narrow screen.
-            Column(Modifier.background(MaterialTheme.colorScheme.surface)) {
-                TopAppBar(
-                    title = { Text(data.work.title, maxLines = 1, overflow = TextOverflow.Ellipsis, modifier = Modifier.clickable { onBack() }) },
-                    navigationIcon = {
-                        IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Front page") }
-                    },
-                    actions = {
-                        // the pencil starts a note on a passage; while a passage is being chosen it gives the choice up
-                        IconButton(onClick = {
-                            if (selecting) cancelSelection() else {
-                                selecting = true
-                                selectionStart = null
-                                if (mode == ViewMode.TRANSLATION) chosenMode = ViewMode.GREEK
-                            }
-                        }) {
-                            Icon(
-                                Icons.Filled.Edit,
-                                contentDescription = if (selecting) "Give up the note" else "Add a note",
-                                tint = if (selecting) MaterialTheme.colorScheme.primary else LocalContentColor.current,
-                            )
-                        }
-                    },
-                    windowInsets = TopAppBarDefaults.windowInsets,
-                )
-                Row(
-                    Modifier.fillMaxWidth().padding(start = 12.dp, end = 4.dp, bottom = 4.dp),
-                    verticalAlignment = Alignment.CenterVertically,
-                ) {
-                    if (translation != null) {
-                        SingleChoiceSegmentedButtonRow {
-                            modes.forEachIndexed { i, m ->
-                                SegmentedButton(
-                                    selected = mode == m,
-                                    onClick = { chosenMode = m },
-                                    shape = SegmentedButtonDefaults.itemShape(i, modes.size),
-                                    label = { Text(m.label, fontSize = 13.sp) },
-                                )
-                            }
-                        }
-                    }
-                    Spacer(Modifier.weight(1f))
-                    if (currentBook != null) {
+            // One row: the way back, the title (which chooses the book of an epic or the New
+            // Testament), the view, the pencil, then the rarer actions, in a menu on a phone.
+            TopAppBar(
+                title = {
+                    val titleStyle = if (compact) MaterialTheme.typography.titleMedium else MaterialTheme.typography.titleLarge
+                    if (currentBook == null) {
+                        Text(data.work.title, style = titleStyle, maxLines = 1, overflow = TextOverflow.Ellipsis)
+                    } else {
                         Box {
-                            TextButton(onClick = { showBooks = true }) { Text(if (currentBook.named) currentBook.name else currentBook.title) }
+                            Row(Modifier.clickable { showBooks = true }, verticalAlignment = Alignment.CenterVertically) {
+                                // the work's title gives way first; the book always shows
+                                Text(data.work.title, style = titleStyle, maxLines = 1, overflow = TextOverflow.Ellipsis, modifier = Modifier.weight(1f, fill = false))
+                                Text(" · ${currentBook.name}", style = titleStyle, maxLines = 1, softWrap = false)
+                                Icon(Icons.Filled.ArrowDropDown, contentDescription = "Choose the book")
+                            }
                             DropdownMenu(expanded = showBooks, onDismissRequest = { showBooks = false }) {
                                 for (b in data.books) {
                                     DropdownMenuItem(
@@ -429,19 +409,74 @@ fun ReaderScreen(
                             }
                         }
                     }
-                    if (documents.isNotEmpty()) {
-                        IconButton(onClick = { showDocuments = true }) {
-                            Icon(Icons.Filled.Info, contentDescription = "Introduction and other parts of the edition")
+                },
+                navigationIcon = {
+                    IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Front page") }
+                },
+                actions = {
+                    if (translation != null) {
+                        if (compact) {
+                            FilterChip(
+                                selected = mode == ViewMode.TRANSLATION,
+                                onClick = { chosenMode = if (mode == ViewMode.TRANSLATION) ViewMode.GREEK else ViewMode.TRANSLATION },
+                                label = { Text(ViewMode.TRANSLATION.label) },
+                                modifier = Modifier.padding(end = 4.dp),
+                            )
+                        } else {
+                            SingleChoiceSegmentedButtonRow(Modifier.padding(end = 4.dp)) {
+                                modes.forEachIndexed { i, m ->
+                                    SegmentedButton(
+                                        selected = mode == m,
+                                        onClick = { chosenMode = m },
+                                        shape = SegmentedButtonDefaults.itemShape(i, modes.size),
+                                        label = { Text(m.label, fontSize = 13.sp) },
+                                    )
+                                }
+                            }
                         }
                     }
-                    IconButton(onClick = onSearch) {
-                        Icon(painterResource(Res.drawable.dictionary), contentDescription = "Dictionary")
+                    // the pencil starts a note on a passage; while a passage is being chosen it gives the choice up
+                    IconButton(onClick = {
+                        if (selecting) cancelSelection() else {
+                            selecting = true
+                            selectionStart = null
+                            if (mode == ViewMode.TRANSLATION) chosenMode = ViewMode.GREEK
+                        }
+                    }) {
+                        Icon(
+                            Icons.Filled.Edit,
+                            contentDescription = if (selecting) "Give up the note" else "Add a note",
+                            tint = if (selecting) MaterialTheme.colorScheme.primary else LocalContentColor.current,
+                        )
                     }
-                    IconButton(onClick = { showOptions = true }) {
-                        Icon(Icons.Filled.Settings, contentDescription = "Options")
+                    if (compact) {
+                        Box {
+                            IconButton(onClick = { showMenu = true }) { Icon(Icons.Filled.MoreVert, contentDescription = "More") }
+                            DropdownMenu(expanded = showMenu, onDismissRequest = { showMenu = false }) {
+                                DropdownMenuItem(text = { Text("Dictionary") }, onClick = { showMenu = false; onSearch() })
+                                if (documents.isNotEmpty()) {
+                                    DropdownMenuItem(text = { Text("About this edition") }, onClick = { showMenu = false; showDocuments = true })
+                                }
+                                DropdownMenuItem(text = { Text("Options") }, onClick = { showMenu = false; showOptions = true })
+                            }
+                        }
+                    } else {
+                        if (documents.isNotEmpty()) {
+                            IconButton(onClick = { showDocuments = true }) {
+                                Icon(Icons.Filled.Info, contentDescription = "Introduction and other parts of the edition")
+                            }
+                        }
+                        IconButton(onClick = onSearch) {
+                            Icon(painterResource(Res.drawable.dictionary), contentDescription = "Dictionary")
+                        }
+                        IconButton(onClick = { showOptions = true }) {
+                            Icon(Icons.Filled.Settings, contentDescription = "Options")
+                        }
                     }
-                }
-            }
+                },
+                expandedHeight = if (short) 48.dp else TopAppBarDefaults.TopAppBarExpandedHeight,
+                windowInsets = TopAppBarDefaults.windowInsets,
+            )
         },
         bottomBar = {
             ProgressScrubber(
