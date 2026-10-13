@@ -24,6 +24,12 @@ downloaded. The files here correct it against the 1910 scan; `woodhouse.py` appl
   `<line>	<word>` (the word exactly as the flag gives it), and an optional third column for a note.
   A rerun of the flagger leaves them out.
 
+- `global.tsv`: rules for the whole text, applied after the corrections:
+  `<regular expression>	<replacement>	<note>` (a misreading the OCR makes throughout, a misprint
+  the book repeats, such as οὐδένος for οὐδενός).
+- `lsj-forms.tsv`: where Woodhouse accents a word otherwise than LSJ (λαβρός, βλαβή, ἀλάζων), LSJ's
+  form is used throughout: `<printed>	<LSJ>	<occurrences>`, applied last.
+
 ## Reading the scan
 
 Page images are in `pipeline/build/woodhouse-pages/`: `p0421-l1.png`, `-l2`, `-l3` (left
