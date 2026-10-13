@@ -18,10 +18,13 @@ Decisions already taken (do not reopen them):
 * The shop shows Play's price in the buyer's own currency on the Buy button.
 * A text is owned when Play says the account bought it, or when its text app is installed
   (signed with the reader's key, as now). The shop marks such a text Owned and offers no Buy.
-* No server. The reader asks Play (through the Play Store app) for purchases and downloads; it
-  gets no internet permission of its own. Checked 2026-10-13: Billing 9.1.0 adds only
-  `com.android.vending.BILLING`, Asset Delivery 2.3.0 adds `FOREGROUND_SERVICE` and
-  `FOREGROUND_SERVICE_DATA_SYNC`; neither adds `INTERNET`.
+* No server. The reader asks Play (through the Play Store app) for purchases and downloads; its
+  own code never connects. But the Billing Library (every version from 7.1.1 to 9.1.0) depends
+  on Google's data transport (`transport-backend-cct`), which adds `INTERNET` and sends the
+  library's diagnostic logs to Google; Asset Delivery brings WorkManager (`WAKE_LOCK`,
+  `ACCESS_NETWORK_STATE`, `RECEIVE_BOOT_COMPLETED`, `FOREGROUND_SERVICE_DATA_SYNC`). Found
+  2026-10-13 in the merged manifest; the author decides whether `INTERNET` is removed in the
+  reader's manifest (`tools:node="remove"`) or kept and named in the privacy policy.
 * The platform's store sits behind a small interface in common code, so that StoreKit can take
   its place on iOS later without touching the shop's screens.
 
@@ -173,7 +176,7 @@ at €3 and activate them; add yourself as a licence tester and buy each text on
 
 - [x] 1. Packs and catalog (2026-10-13: the bundle holds six on-demand packs; the base is unchanged)
 - [x] 2. Ownership in the reader (2026-10-13)
-- [ ] 3. Google Play
+- [x] 3. Google Play (2026-10-13; builds, tested in step 5)
 - [ ] 4. The shop page
 - [ ] 5. Test on the emulator
 - [ ] 6. Documents

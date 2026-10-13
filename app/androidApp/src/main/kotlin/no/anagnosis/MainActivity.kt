@@ -9,11 +9,15 @@ import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import no.anagnosis.data.AnagnosisRepository
 import no.anagnosis.prefs.SettingsStore
+import no.anagnosis.shop.PlayTextShop
 import no.anagnosis.ui.App
 
 class MainActivity : ComponentActivity() {
     /** Counts the times the app comes to the front, so that newly installed texts are found. */
     private val resumes = mutableIntStateOf(0)
+
+    /** The texts bought in the app, through Google Play. */
+    private lateinit var shop: PlayTextShop
 
     /** A text to open, asked for by the app that sells it (extra "open_text"). */
     private val openText = mutableStateOf<String?>(null)
@@ -21,7 +25,9 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         enableEdgeToEdge()
         super.onCreate(savedInstanceState)
-        val repository = AnagnosisRepository(DriverFactory(applicationContext))
+        val driverFactory = DriverFactory(applicationContext)
+        val repository = AnagnosisRepository(driverFactory)
+        shop = PlayTextShop(this, driverFactory, repository.textsOnSale())
         val settingsStore = SettingsStore(applicationContext)
         val version = packageManager.getPackageInfo(packageName, 0).versionName ?: "?"
         if (savedInstanceState == null) openText.value = intent?.getStringExtra(EXTRA_OPEN_TEXT)
@@ -31,6 +37,7 @@ class MainActivity : ComponentActivity() {
                 resumeCount = resumes.intValue,
                 openText = openText.value,
                 onOpenTextHandled = { openText.value = null },
+                shop = shop,
             )
         }
     }
@@ -43,6 +50,13 @@ class MainActivity : ComponentActivity() {
     override fun onResume() {
         super.onResume()
         resumes.intValue++
+        // a purchase may have been made or refunded elsewhere, or a pending one completed
+        shop.refresh()
+    }
+
+    override fun onDestroy() {
+        shop.close()
+        super.onDestroy()
     }
 
     companion object {

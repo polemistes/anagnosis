@@ -38,6 +38,11 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
         return entries.map { it.copy(installed = it.slug in installed) }.distinctBy { it.slug } + extra
     }
 
+    /** The texts on sale in the reader, with the version of each in this build, by slug. */
+    fun textsOnSale(): Map<String, String> =
+        driverFactory.readCatalog()?.let(::parseCatalog).orEmpty().distinctBy { it.slug }
+            .filter { it.onGooglePlay && it.version.isNotEmpty() }.associate { it.slug to it.version }
+
     private fun CatalogEntry.copy(installed: Boolean) =
         CatalogEntry(slug, title, author, titleEn, authorEn, description, edition, installed, appId,
             editor, apparatus, translation, commentary, syntax, dictionaries, onGooglePlay,

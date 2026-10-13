@@ -5,6 +5,8 @@ compose-multiplatform = "1.11.1"
 sqldelight = "2.4.0"
 androidx-activity = "1.13.0"
 kotlinx-coroutines = "1.11.0"
+play-billing = "9.1.0"
+play-asset-delivery = "2.3.0"
 android-compileSdk = "36"
 android-minSdk = "26"
 android-targetSdk = "36"
@@ -12,6 +14,8 @@ android-targetSdk = "36"
 [libraries]
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activity" }
 kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinx-coroutines" }
+play-billing = { module = "com.android.billingclient:billing", version.ref = "play-billing" }
+play-asset-delivery = { module = "com.google.android.play:asset-delivery", version.ref = "play-asset-delivery" }
 sqldelight-runtime = { module = "app.cash.sqldelight:runtime", version.ref = "sqldelight" }
 sqldelight-android-driver = { module = "app.cash.sqldelight:android-driver", version.ref = "sqldelight" }
 

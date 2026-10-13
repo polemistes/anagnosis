@@ -9,6 +9,10 @@ plugins {
 dependencies {
     implementation(projects.shared)
     implementation(libs.androidx.activity.compose)
+    implementation(libs.kotlinx.coroutines.core)
+    // texts bought in the app (Google Play Billing) and delivered as asset packs (Play Asset Delivery)
+    implementation(libs.play.billing)
+    implementation(libs.play.asset.delivery)
 }
 
 android {
