@@ -20,6 +20,9 @@ repeats) are rules in global.tsv, applied after the corrections, one per line:
 
     <regular expression>\t<replacement>\t<note>
 
+Where Woodhouse accents a word otherwise than LSJ (λαβρός, βλαβή, ἀλάζων), the word is given in
+LSJ's form throughout: lsj-forms.tsv lists <printed>\t<LSJ>, applied last.
+
 Words that were flagged (woodhouse_qa.py) and found right in the scan are listed in
 checked-*.tsv as <line>\t<word>, so that a rerun of the flagger leaves them out.
 
@@ -119,9 +122,62 @@ def apply_rules(lines: list[str], rules) -> list[str]:
     return lines
 
 
+def read_lsj_forms(directory: Path = TRANSCRIPTIONS) -> dict[str, str]:
+    """{printed form: LSJ's form} from lsj-forms.tsv."""
+    path = directory / "lsj-forms.tsv"
+    if not path.exists():
+        return {}
+    out = {}
+    for raw in path.read_text(encoding="utf-8").split("\n"):
+        if raw.strip() and not raw.startswith("#"):
+            printed, lsj = raw.split("\t")[:2]
+            out[_nfc(printed)] = _nfc(lsj)
+    return out
+
+
+_GREEK_CHAR = re.compile(r"[\u0370-\u03ff\u1f00-\u1fff\u0300-\u036fʼ]")
+_ACUTE_TO_GRAVE = {"ά": "ὰ", "έ": "ὲ", "ή": "ὴ", "ί": "ὶ", "ό": "ὸ", "ύ": "ὺ", "ώ": "ὼ",
+                   "ἄ": "ἂ", "ἅ": "ἃ", "ἔ": "ἒ", "ἕ": "ἓ", "ἤ": "ἢ", "ἥ": "ἣ", "ἴ": "ἲ", "ἵ": "ἳ",
+                   "ὄ": "ὂ", "ὅ": "ὃ", "ὔ": "ὒ", "ὕ": "ὓ", "ὤ": "ὢ", "ὥ": "ὣ", "ῄ": "ῂ", "ᾴ": "ᾲ", "ῴ": "ῲ"}
+
+
+def apply_lsj_forms(lines: list[str], forms: dict[str, str]) -> list[str]:
+    """Each printed form, wherever it stands as a whole word (also with colour tags between its
+    letters), in LSJ's form; an acute on the last vowel becomes grave before another word."""
+    import unicodedata
+
+    if not forms:
+        return lines
+    out = []
+    for line in lines:
+        # the line's text without its tags, and where each of its characters stands in the line
+        chars, pos = [], []
+        at = 0
+        for m in TAG.finditer(line):
+            chars += line[at:m.start()]; pos += range(at, m.start())
+            at = m.end()
+        chars += line[at:]; pos += range(at, len(line))
+        text = "".join(chars)
+        new = list(line)
+        for m in re.finditer(r"[\u0370-\u03ff\u1f00-\u1fff][\u0370-\u03ff\u1f00-\u1fff\u0300-\u036f]*", text):
+            lsj = forms.get(m.group(0))
+            if lsj is None or len(lsj) != len(m.group(0)):
+                continue
+            if text[m.end():].lstrip(" \u00a0")[:1].isalpha():
+                vowels = [k for k, c in enumerate(lsj) if unicodedata.normalize("NFD", c.lower())[0] in "αεηιουω"]
+                if vowels and lsj[vowels[-1]] in _ACUTE_TO_GRAVE:
+                    k = vowels[-1]
+                    lsj = lsj[:k] + _ACUTE_TO_GRAVE[lsj[k]] + lsj[k + 1:]
+            for k, c in enumerate(lsj):
+                new[pos[m.start() + k]] = c
+        out.append("".join(new))
+    return out
+
+
 def corrected_lines(sources: Path) -> list[str]:
-    """The DSL's lines with every correction and global rule applied."""
-    return apply_rules(apply_corrections(read_lines(sources), read_corrections()), read_rules())
+    """The DSL's lines with every correction, global rule and LSJ form applied."""
+    lines = apply_rules(apply_corrections(read_lines(sources), read_corrections()), read_rules())
+    return apply_lsj_forms(lines, read_lsj_forms())
 
 
 def entries(lines: list[str]) -> list[Entry]:

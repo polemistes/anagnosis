@@ -3,7 +3,7 @@ import unittest
 from pathlib import Path
 
 from anagnosis_pipeline.woodhouse import (
-    apply_corrections, apply_rules, english_key, entries, read_corrections, read_rules, render_entry, render_line,
+    apply_corrections, apply_lsj_forms, apply_rules, english_key, entries, read_corrections, read_rules, render_entry, render_line,
 )
 
 DSL = """Abandon
@@ -55,6 +55,11 @@ class WoodhouseTest(unittest.TestCase):
             (d / "corrections-01.tsv").write_text("11\tnot there\tx\t500\t\n", encoding="utf-8")
             with self.assertRaises(ValueError):
                 apply_corrections(DSL, read_corrections(d))
+
+    def test_lsj_forms(self):
+        forms = {"βλαβή": "βλάβη", "ὁδάξ": "ὀδάξ", "ἀλάζων": "ἀλαζών"}
+        lines = ["\tP. βλ[c blue]α[/c]βή, ἡ.", "\tὁδάξ ἐσθίειν, ἀλάζων.", "\tἀβλαβή"]
+        self.assertEqual(apply_lsj_forms(lines, forms), ["\tP. βλ[c blue]ά[/c]βη, ἡ.", "\tὀδὰξ ἐσθίειν, ἀλαζών.", "\tἀβλαβή"])
 
     def test_english_key(self):
         self.assertEqual(english_key("Advised, Be"), "advised be")
