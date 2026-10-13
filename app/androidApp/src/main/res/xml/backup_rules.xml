@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 8-11. Only the reader's notes and preferences are backed up: the dictionaries and
+     texts are copied in again from the app and the text apps, and would far exceed the limit. -->
+<full-backup-content>
+    <include domain="database" path="notes.sqlite" />
+    <include domain="sharedpref" path="anagnosis_settings.xml" />
+</full-backup-content>

@@ -620,12 +620,16 @@ fun ReaderScreen(
             onDismiss = { showMyPageNotes = false },
         )
     }
+    val saveFile = rememberFileSaver("text/markdown")
     if (showAllNotes) {
         AllNotesSheet(
             entry.titleEn.ifEmpty { entry.title }, notes, noteLabel,
             onGo = { showAllNotes = false; goToLine(it.placement?.firstLine?.n_int ?: it.note.from.nInt) },
             onOpen = { showAllNotes = false; editing = it },
-            onExport = null,
+            onExport = {
+                val title = entry.titleEn.ifEmpty { entry.title }
+                saveFile("anagnosis-notes-${data.slug}.md", Notes.markdown(data, title, entry.authorEn.ifEmpty { entry.author }, entry.refEdition, notes))
+            },
             onDismiss = { showAllNotes = false },
         )
     }
