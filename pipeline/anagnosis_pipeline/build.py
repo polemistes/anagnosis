@@ -150,6 +150,12 @@ LEXICONS = {
         "source": "TEI edition by Daniel Owens and others, github.com/translatable-exegetical-tools/Abbott-Smith",
         "license": "Public domain",
     },
+    "woodhouse": {
+        "title": "S. C. Woodhouse: English-Greek Dictionary (1910)",
+        "source": "English-Greek Dictionary: A Vocabulary of the Attic Language (London: Routledge, 1910); "
+                  "OCR by Akemdwr (Internet Archive, Woodhouse), corrected against the 1910 scan",
+        "license": "Public domain (the book); our corrections CC BY-SA 4.0",
+    },
 }
 
 
@@ -241,6 +247,13 @@ def build_lexicon(sources: Path, out_dir: Path) -> None:
         from .autenrieth import parse_autenrieth
 
         lexica["autenrieth"] = parse_autenrieth(autenrieth_dir)
+    # Woodhouse, English to Greek, keyed by the English headword (woodhouse.english_key)
+    from . import woodhouse
+
+    if (sources / woodhouse.SOURCE).exists():
+        lexica["woodhouse"] = woodhouse.parse_woodhouse(sources)
+    else:
+        print("warning: sources/woodhouse missing, the lexicon is built without Woodhouse (run 'fetch')", file=sys.stderr)
     import zlib
 
     def pack(html_text: str) -> bytes:
@@ -257,6 +270,8 @@ def build_lexicon(sources: Path, out_dir: Path) -> None:
         lex_id = cur.lastrowid
         rows = [
             (lex_id, e.key, e.headword, e.homograph, greek.lemma_key(e.headword), greek.strip_diacritics(e.headword), e.sort_key, pack(e.html))
+            if slug != "woodhouse" else
+            (lex_id, e.key, e.headword, e.homograph, e.sort_key, e.sort_key, e.sort_key, pack(e.html))
             for e in entries
         ]
         db.executemany(
@@ -285,7 +300,7 @@ def build_lexicon(sources: Path, out_dir: Path) -> None:
     build_forms(db, sources)
     # Logeion's short definitions for every headword that has one, for the dictionary search
     exact, _loose = load_logeion_shortdefs(sources)
-    headword_keys = {greek.lemma_key(e.headword) for entries in lexica.values() for e in entries}
+    headword_keys = {greek.lemma_key(e.headword) for slug, entries in lexica.items() if slug != "woodhouse" for e in entries}
     rows = [(k, "logeion", d) for k, d in exact.items() if k in headword_keys]
     db.executemany("INSERT OR IGNORE INTO short_definitions (lemma_key, source, definition) VALUES (?,?,?)", rows)
     print(f"short definitions in lexicon: {len(rows)}")

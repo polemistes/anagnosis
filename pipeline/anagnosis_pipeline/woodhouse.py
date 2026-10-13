@@ -12,7 +12,8 @@ pipeline/transcriptions/woodhouse/corrections-*.tsv, one per line:
     <line>\t<old>\t<new>\t<page>\t<note>
 
 <line> is the line of Woodhouse.dsl (1-based, as downloaded); <old> must occur in that line
-exactly once and is replaced by <new> (in both, \\t stands for a tab). <page> is the PDF page of
+exactly once and is replaced by <new> (in both, \\t stands for a tab and \\n for a line break,
+which splits a line in two). <page> is the PDF page of
 the 1910 scan that shows the reading (woodhouse_pages.py). Lines starting with # are comments.
 Words that were flagged (woodhouse_qa.py) and found right in the scan are listed in
 checked-*.tsv as <line>\t<word>, so that a rerun of the flagger leaves them out.
@@ -56,7 +57,7 @@ def read_corrections(directory: Path = TRANSCRIPTIONS) -> list[tuple[int, str, s
             if len(parts) < 3:
                 raise ValueError(f"{path.name}:{i}: expected line, old, new")
             parts += [""] * (5 - len(parts))
-            old, new = (x.replace("\\t", "\t") for x in parts[1:3])
+            old, new = (x.replace("\\t", "\t").replace("\\n", "\n") for x in parts[1:3])
             out.append((int(parts[0]), old, new, parts[3], parts[4], f"{path.name}:{i}"))
     return out
 
@@ -95,7 +96,9 @@ def entries(lines: list[str]) -> list[Entry]:
     are left open is joined to the next, with a space, under the first line's number."""
     out: list[Entry] = []
     started = False
-    for n, text in enumerate(lines, 1):
+    # a line split by a correction keeps its number for each of its parts
+    split = [(n, part) for n, line in enumerate(lines, 1) for part in line.split("\n")]
+    for n, text in split:
         if not text or text.startswith("#"):
             continue
         if not text[0].isspace():
@@ -131,14 +134,131 @@ def plain(text: str) -> str:
     return TAG.sub("", text)
 
 
-def main(sources: Path) -> None:
-    """Applies every correction and reports those that fail; then counts the entries."""
-    lines = apply_corrections(read_lines(sources), read_corrections())
+def main(sources: Path, only: str | None = None) -> None:
+    """Applies the corrections (all, or those of one file) and reports those that fail; then
+    counts the entries."""
+    corrections = [c for c in read_corrections() if only is None or c[5].split(":")[0] == only]
+    lines = apply_corrections(read_lines(sources), corrections)
     es = entries(lines)
-    print(f"{len(read_corrections())} corrections apply; {len(es)} entries; {sum(1 for e in es for _, t in e.lines if open_tags(t))} lines with open tags")
+    print(f"{len(corrections)} corrections apply; {len(es)} entries; {sum(1 for e in es for _, t in e.lines if open_tags(t))} lines with open tags")
 
 
 if __name__ == "__main__":
     import sys
 
-    main(Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).resolve().parent.parent / "sources")
+    main(Path(__file__).resolve().parent.parent / "sources", sys.argv[1] if len(sys.argv) > 1 else None)
+
+
+# ------------------------------------------------------------------ the entries as the app shows them
+
+MACRON, BREVE = "̄", "̆"
+LENGTH = {"red": MACRON, "blue": BREVE, "purple": MACRON + BREVE}
+GREEK_WORD = re.compile(r"[Ͱ-Ͽἀ-῿][Ͱ-Ͽἀ-῿̀-ͯʼ]*")
+ARTICLES = {"ὁ", "ἡ", "τό", "οἱ", "αἱ", "τά", "τὸ", "τὰ"}
+
+
+def english_key(s: str) -> str:
+    """The search key of an English headword: lower case, letters and single spaces only
+    ("Advised, Be" gives "advised be", "Ædile" "aedile"). The app makes the same key of what is typed."""
+    import unicodedata
+
+    s = s.lower().replace("æ", "ae").replace("œ", "oe")
+    s = "".join(c for c in unicodedata.normalize("NFD", s) if not unicodedata.combining(c))
+    return " ".join(re.sub(r"[^a-z]+", " ", s).split())
+
+
+def _length_marks(text: str) -> str:
+    """Woodhouse's colours made marks again: the macron or breve goes on the first letter, before
+    its breathing and accent, so that they stand above it (ᾰ́)."""
+    import unicodedata
+
+    def mark(m: re.Match) -> str:
+        inner = unicodedata.normalize("NFD", m.group(2))
+        if not inner:
+            return ""
+        return unicodedata.normalize("NFC", inner[0] + LENGTH[m.group(1)] + inner[1:])
+
+    return re.sub(r"\[c (red|blue|purple)\]([^\[]*)\[/c\]", mark, text)
+
+
+def _renderings(text: str) -> str:
+    """The Greek renderings stand out: each run of up to three Greek words between punctuation,
+    outside brackets, and not a bare article, is wrapped in <span class="tr">. Longer runs are
+    quotations and stay plain. The text is HTML already; tags are passed over."""
+    out = []
+    depth = 0
+    pos = 0
+    # split into tags and text; work on the text pieces only
+    for m in re.finditer(r"<[^>]+>|[^<]+", text):
+        piece = m.group(0)
+        if piece.startswith("<"):
+            out.append(piece)
+            continue
+        # runs of Greek words separated only by spaces
+        segs = re.split(r"([(),;:.\[\]]|\s+and\s+|\s+or\s+)", piece)
+        for seg in segs:
+            if seg in ("(", "["):
+                depth += 1
+            elif seg in (")", "]"):
+                depth = max(0, depth - 1)
+            words = GREEK_WORD.findall(seg)
+            stripped = seg.strip()
+            if (depth == 0 and words and 1 <= len(words) <= 3 and stripped == " ".join(words)
+                    and not (len(words) == 1 and words[0] in ARTICLES)):
+                lead = seg[: len(seg) - len(seg.lstrip())]
+                trail = seg[len(seg.rstrip()):]
+                out.append(f'{lead}<span class="tr">{stripped}</span>{trail}')
+            else:
+                out.append(seg)
+        pos = m.end()
+    return "".join(out)
+
+
+def render_line(text: str) -> str:
+    """One line of an entry as HTML."""
+    import html as htmlmod
+
+    s = _length_marks(text)
+    s = htmlmod.escape(s, quote=False)
+    s = re.sub(r"\[sup\]([^\[]*)\[/sup\]", r"\1", s)
+    s = re.sub(r"\[s\][^\[]*\[/s\]", "", s)
+    s = s.replace("[c brown]", '<span class="usg">').replace("[c darkviolet]", '<span class="gram">')
+    s = re.sub(r"\[c [a-z]+\]", "<span>", s).replace("[/c]", "</span>")
+    s = s.replace("[b]", "<b>").replace("[/b]", "</b>").replace("[i]", "<i>").replace("[/i]", "</i>")
+    s = re.sub(r"\s+", " ", s).strip()
+    return _renderings(s)
+
+
+def render_entry(e: Entry) -> str:
+    """The entry as HTML: the headword with its part of speech, then a paragraph per line."""
+    import html as htmlmod
+
+    lines = [t for _, t in e.lines if t.strip()]
+    head = f'<b class="orth">{htmlmod.escape(e.headword, quote=False)}</b>'
+    if lines and re.fullmatch(r"\[b\][^\[]*\[/b\]", lines[0].strip()):
+        head += f', <span class="gram">{htmlmod.escape(lines[0].strip()[3:-4], quote=False)}</span>'
+        lines = lines[1:]
+    out = [f'<p class="head">{head}</p>']
+    out += [f'<p class="sense">{render_line(t)}</p>' for t in lines if not re.fullmatch(r"\[i\]_+\[/i\]", t.strip())]
+    return "".join(out)
+
+
+def parse_woodhouse(sources: Path):
+    """The dictionary's entries (lexicon.Entry), corrected; one headword printed twice (Late, adj.
+    and adv.) gives homographs 1 and 2."""
+    from collections import Counter
+
+    from .lexicon import Entry as LexEntry
+
+    es = entries(apply_corrections(read_lines(sources), read_corrections()))
+    counts = Counter(english_key(e.headword) for e in es)
+    seen: Counter[str] = Counter()
+    out = []
+    for e in es:
+        key = english_key(e.headword)
+        if not key:
+            continue
+        seen[key] += 1
+        homograph = seen[key] if counts[key] > 1 else 0
+        out.append(LexEntry("woodhouse", e.headword, e.headword, homograph, render_entry(e), key))
+    return out
