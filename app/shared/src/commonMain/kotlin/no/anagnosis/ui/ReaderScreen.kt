@@ -94,6 +94,7 @@ import no.anagnosis.data.Book
 import no.anagnosis.data.CatalogEntry
 import no.anagnosis.data.NoteGroup
 import no.anagnosis.data.NoteKind
+import no.anagnosis.data.NoteDraft
 import no.anagnosis.data.NoteSpan
 import no.anagnosis.data.Notes
 import no.anagnosis.data.PlacedNote
@@ -224,6 +225,11 @@ fun ReaderScreen(
     }
     val noteSpans = remember(notes, data) { Notes.spansByLine(notes, data) }
     val markSpans = if (settings.noteMarks) noteSpans else emptyMap()
+    // A passage chosen for a new note, or a saved note, open in the editor.
+    var draft by remember { mutableStateOf<NoteDraft?>(null) }
+    var editing by remember { mutableStateOf<PlacedNote?>(null) }
+    var showMyPageNotes by remember { mutableStateOf(false) }
+    var showAllNotes by remember { mutableStateOf(false) }
 
     val translation = data.translations.firstOrNull()
     val allRows = remember(data) { buildRows(data) }
@@ -279,6 +285,19 @@ fun ReaderScreen(
         book = target.number
     }
     val scope = rememberCoroutineScope()
+    /** Goes to the page holding line [nInt], opening its book first when it is in another one. */
+    fun goToLine(nInt: Long) {
+        val target = if (data.byBook) data.books.firstOrNull { it.number == data.bookOf(nInt) } else null
+        if (target != null && target.number != book) {
+            positioned = false
+            pages = emptyList()
+            anchorN = nInt
+            book = target.number
+        } else if (pages.isNotEmpty()) {
+            val i = pages.indexOfLast { it.firstN <= nInt }.coerceAtLeast(0)
+            scope.launch { pagerState.scrollToPage(i + offset) }
+        }
+    }
 
     // The page being previewed while a finger slides on the progress bar, or null.
     var scrubPage by remember { mutableStateOf<Int?>(null) }
@@ -380,6 +399,8 @@ fun ReaderScreen(
                 notedPages = notedPages,
                 noteKinds = data.commentaries.map { it.kind() }.distinct(),
                 onNotes = { pageNotesKind = it },
+                hasMyNotes = notes.isNotEmpty(),
+                onMyNotes = { showMyPageNotes = true },
                 onScrub = { page ->
                     scrubPage = page
                     scope.launch { pagerState.scrollToPage(page + offset) }
@@ -579,6 +600,69 @@ fun ReaderScreen(
     pageNotesKind?.let { kind ->
         val sigla = remember(kind) { if (kind == NoteKind.APPARATUS) repository.document(data, "sigla") else null }
         PageNotesSheet(kind, pageNotes, sigla, onDismiss = { pageNotesKind = null })
+    }
+    val noteLabel: (no.anagnosis.data.Note) -> String = { Notes.rangeLabel(data, it.from, it.to) }
+    if (showMyPageNotes) {
+        val page = pageAt(pagerState.currentPage)
+        val onPage = remember(page, notes) {
+            val ids = page?.rows?.mapNotNull { (it as? ReaderRow.GreekLine)?.line?.id }?.toSet().orEmpty()
+            notes.filter { pn ->
+                val p = pn.placement ?: return@filter false
+                val first = data.lineIndex[p.firstLine.id] ?: return@filter false
+                val last = data.lineIndex[p.lastLine.id] ?: return@filter false
+                (first..last).any { data.lines[it].id in ids }
+            }
+        }
+        PageNotesListSheet(
+            onPage, noteLabel,
+            onOpen = { showMyPageNotes = false; editing = it },
+            onAll = { showMyPageNotes = false; showAllNotes = true },
+            onDismiss = { showMyPageNotes = false },
+        )
+    }
+    if (showAllNotes) {
+        AllNotesSheet(
+            entry.titleEn.ifEmpty { entry.title }, notes, noteLabel,
+            onGo = { showAllNotes = false; goToLine(it.placement?.firstLine?.n_int ?: it.note.from.nInt) },
+            onOpen = { showAllNotes = false; editing = it },
+            onExport = null,
+            onDismiss = { showAllNotes = false },
+        )
+    }
+    draft?.let { d ->
+        NoteEditorSheet(
+            d.heading, d.quote, initialBody = "", isNew = true,
+            onSave = { body ->
+                draft = null
+                scope.launch {
+                    withContext(Dispatchers.Default) { repository.addNote(data.slug, d.from, d.to, d.quote, body.trim()) }
+                    reloadNotes()
+                }
+            },
+            onDelete = null,
+            onDismiss = { draft = null },
+        )
+    }
+    editing?.let { pn ->
+        val n = pn.note
+        NoteEditorSheet(
+            noteLabel(n), n.quote, initialBody = n.body, isNew = false,
+            onSave = { body ->
+                editing = null
+                scope.launch {
+                    withContext(Dispatchers.Default) { repository.updateNote(n.id, body.trim()) }
+                    reloadNotes()
+                }
+            },
+            onDelete = {
+                editing = null
+                scope.launch {
+                    withContext(Dispatchers.Default) { repository.deleteNote(n.id) }
+                    reloadNotes()
+                }
+            },
+            onDismiss = { editing = null },
+        )
     }
     if (showDocuments) {
         DocumentsSheet(documents, onOpen = { showDocuments = false; openDocument = it }, onDismiss = { showDocuments = false })
@@ -1098,6 +1182,9 @@ private fun ProgressScrubber(
     notedPages: Set<Int>,
     noteKinds: List<NoteKind>,
     onNotes: (NoteKind) -> Unit,
+    /** Whether the text has any of the reader's own notes, which then get a button of their own. */
+    hasMyNotes: Boolean,
+    onMyNotes: () -> Unit,
     onScrub: (Int) -> Unit,
     onRelease: () -> Unit,
 ) {
@@ -1124,6 +1211,9 @@ private fun ProgressScrubber(
                 }
                 for (kind in noteKinds) {
                     TextButton(onClick = { onNotes(kind) }) { Text(kind.label) }
+                }
+                if (hasMyNotes) {
+                    TextButton(onClick = onMyNotes) { Text("Notes") }
                 }
             }
             Canvas(

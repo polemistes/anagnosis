@@ -51,7 +51,7 @@ import no.anagnosis.db.Documents
  * sheet altogether its height no longer depends on its position.
  */
 @Composable
-private fun sheetModifier(): Modifier = Modifier.statusBarsPadding()
+internal fun sheetModifier(): Modifier = Modifier.statusBarsPadding()
 
 /**
  * The word popup. In the reader [onSyntax] opens the syntax of the word's sentence; the search
