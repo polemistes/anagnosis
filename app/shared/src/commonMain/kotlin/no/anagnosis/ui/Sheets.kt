@@ -56,7 +56,8 @@ internal fun sheetModifier(): Modifier = Modifier.statusBarsPadding()
 /**
  * The word popup. In the reader [onSyntax] opens the syntax of the word's sentence; the search
  * screen has no sentence and leaves it null. [showFunction] names the word's function in its
- * sentence under its form, which a reader may prefer to work out alone.
+ * sentence under its form, which a reader may prefer to work out alone. [notes] are the reader's
+ * own notes on passages the word belongs to, as (button label, open the note).
  */
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalLayoutApi::class)
 @Composable
@@ -64,6 +65,7 @@ fun WordSheet(
     info: WordInfo,
     onDismiss: () -> Unit,
     onSyntax: (() -> Unit)? = null,
+    notes: List<Pair<String, () -> Unit>> = emptyList(),
     showFunction: Boolean = true,
     order: List<String> = emptyList(),
     disabled: Set<String> = emptySet(),
@@ -98,7 +100,7 @@ fun WordSheet(
                 glossary.isNotEmpty() -> glossary.forEach { HtmlText(it.html) }
                 info.entries.isEmpty() -> Text("No dictionary entry found.", style = MaterialTheme.typography.bodyMedium)
             }
-            if (buttons.isNotEmpty() || onSyntax != null) {
+            if (buttons.isNotEmpty() || onSyntax != null || notes.isNotEmpty()) {
                 Spacer(Modifier.height(16.dp))
                 FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                     for ((slug, label) in buttons) {
@@ -111,6 +113,9 @@ fun WordSheet(
                     }
                     if (onSyntax != null) {
                         OutlinedButton(onClick = onSyntax) { Text("Syntax") }
+                    }
+                    for ((label, open) in notes) {
+                        OutlinedButton(onClick = open) { Text(label) }
                     }
                 }
             }

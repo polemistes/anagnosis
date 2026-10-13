@@ -17,8 +17,10 @@ Decisions already taken (do not reopen them):
 * Notes go on the Greek text only, never on the translation.
 * The mark is a thin underline under the passage's words; nothing is added to the line, so
   pages are cut exactly as before.
-* The note-making starts from a pencil icon in the title row of the top bar. The word sheet
-  (dictionary popup) is not touched by this feature at all.
+* The note-making starts from a pencil icon in the title row of the top bar.
+* Changed on 2026-10-13 after trying it: a word that lies in a noted passage gets a "Note"
+  button in the word sheet, after Syntax, which opens the note in the editor. Where several
+  notes take in the word, each has a button named by its passage ("Note, lines 1–2").
 * Existing notes are read from a "Notes" button in the bottom bar, next to Apparatus and
   Commentary; from there, the list of all notes in the text, and export.
 * Two switches in the options: hide the underlines; hide the tick marks on the progress bar.

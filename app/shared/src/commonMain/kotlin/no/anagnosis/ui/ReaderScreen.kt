@@ -652,10 +652,20 @@ fun ReaderScreen(
 
     wordInfo?.let { info ->
         val sentence = selectedToken?.sentence
+        // the reader's notes whose passage takes in this word, each with a button to open it
+        val wordNotes = remember(selectedToken, noteSpans, notes) {
+            val t = selectedToken ?: return@remember emptyList()
+            noteSpans[t.line_id].orEmpty().filter { it.start <= t.start && t.end <= it.end }
+                .mapNotNull { span -> notes.firstOrNull { it.note.id == span.noteId } }.distinctBy { it.note.id }
+        }
         WordSheet(
             info,
             onDismiss = { selectedTokenId = null },
             onSyntax = if (sentence == null) null else { { syntaxSentence = sentence; selectedTokenId = null } },
+            notes = wordNotes.map { pn ->
+                val label = if (wordNotes.size == 1) "Note" else "Note, ${Notes.rangeLabel(data, pn.note.from, pn.note.to).replaceFirstChar { it.lowercase() }}"
+                label to { selectedTokenId = null; editing = pn }
+            },
             showFunction = settings.wordFunction,
             order = data.dictionaryOrder,
             disabled = settings.disabledDictionaries,
