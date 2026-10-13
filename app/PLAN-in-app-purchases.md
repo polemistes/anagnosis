@@ -186,4 +186,4 @@ at €3 and activate them; add yourself as a licence tester and buy each text on
 - [x] 4. The shop page (2026-10-13)
 - [x] 5. Test on the emulator (2026-10-13: buy, download, read, refund hides, rebuy without download, lost and outdated texts fetched again, text app beside the shop both ways; release build starts and says Play cannot be reached. Fixed: fake billing chosen on the emulator by hardware, since its image has a stub Play Store; a text app just uninstalled no longer stops the fetch; R8 keep rule for WorkManager's database. A real purchase can only be tested from Play's internal testing track.)
 - [x] 6. Documents (2026-10-13: PRIVACY.md, README.md, texts/README.md, play/README.md, play/listings/reader.md, the Available texts screenshot; release AAB rebuilt)
-- [ ] 7. Purchase signature
+- [x] 7. Purchase signature (2026-10-14: PurchaseSignature in shared androidMain with the reader's licence key; PlayBilling counts a purchase with a wrong signature for nothing; reader 0.3.0 as version code 7)

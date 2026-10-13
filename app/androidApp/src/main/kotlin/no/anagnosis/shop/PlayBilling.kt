@@ -100,11 +100,13 @@ class PlayBilling(context: Context, private val onUpdate: (List<Bought>?) -> Uni
 
     override fun end() = client.endConnection()
 
+    /** A purchase whose signature is not Google Play's counts for nothing. */
     private fun bought(p: Purchase) = Bought(
         productIds = p.products,
-        state = when (p.purchaseState) {
-            Purchase.PurchaseState.PURCHASED -> BoughtState.PURCHASED
-            Purchase.PurchaseState.PENDING -> BoughtState.PENDING
+        state = when {
+            !PurchaseSignature.isValid(p.originalJson, p.signature) -> BoughtState.OTHER
+            p.purchaseState == Purchase.PurchaseState.PURCHASED -> BoughtState.PURCHASED
+            p.purchaseState == Purchase.PurchaseState.PENDING -> BoughtState.PENDING
             else -> BoughtState.OTHER
         },
         acknowledged = p.isAcknowledged,
