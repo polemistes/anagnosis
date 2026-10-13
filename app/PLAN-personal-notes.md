@@ -334,7 +334,7 @@ Commit: "Reader 0.3.0: personal notes on passages; help, privacy policy and READ
 - [x] Step 4 editor, sheets, go-to
 - [x] Step 5 export and backup rules
 - [x] Step 3 selection (Fable 5.1)
-- [ ] Step 6 words and version
+- [x] Step 6 words and version
 
 ## Where things are now (for orientation)
 

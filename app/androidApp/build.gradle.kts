@@ -19,8 +19,8 @@ android {
         applicationId = "no.anagnosis.reader"
         minSdk = libs.versions.android.minSdk.get().toInt()
         targetSdk = libs.versions.android.targetSdk.get().toInt()
-        versionCode = 4
-        versionName = "0.2.0"
+        versionCode = 5
+        versionName = "0.3.0"
     }
     packaging {
         resources {
