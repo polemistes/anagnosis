@@ -33,6 +33,11 @@ FILES = {
     # Autenrieth's Homeric Dictionary (tr. Keep, rev. Flagg, 1891), PIMS Toronto scan with a Greek
     # OCR: the page images the reader's Autenrieth is transcribed from (autenrieth_pages.py)
     "scans/homericdictiona00aute.pdf": "https://archive.org/download/homericdictiona00aute/homericdictiona00aute.pdf",
+    # Woodhouse's English-Greek Dictionary (1910): the OCR by Akemdwr (woodhouse.py), and the
+    # 1910 scan (from Google, 600 ppi) its corrections are checked against (woodhouse_pages.py)
+    "woodhouse/Woodhouse.dsl": "https://archive.org/download/Woodhouse/Woodhouse.dsl",
+    "scans/woodhouse-1910-english-attic-greek-dictionary.pdf":
+        "https://archive.org/download/woodhouse-1910-english-attic-greek-dictionary/Woodhouse_1910_English_Attic-Greek_Dictionary.pdf",
     # GLAUx (CC BY-SA 4.0): automatic lemmas, morphology and syntax of the Symposium
     "glaux/0059-011.xml": f"{RAW}/alekkeersmaekers/glaux/main/xml/0059-011.xml",
     # ... and of the two Sophocles plays the treebank lacks (sophocles.py)
