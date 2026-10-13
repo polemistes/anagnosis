@@ -65,6 +65,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.draw.drawBehind
@@ -210,6 +211,26 @@ private fun DrawScope.drawNoteMark(layout: TextLayoutResult, start: Int, end: In
     }
 }
 
+/** A search match: a tinted box behind the text from [start] to [end], one per visual line it touches. */
+private fun DrawScope.drawHighlight(layout: TextLayoutResult, start: Int, end: Int, color: Color) {
+    val length = layout.layoutInput.text.length
+    if (length == 0 || end <= start) return
+    val from = start.coerceIn(0, length - 1)
+    val to = (end - 1).coerceIn(from, length - 1)
+    for (i in layout.getLineForOffset(from)..layout.getLineForOffset(to)) {
+        val a = maxOf(from, layout.getLineStart(i))
+        val b = minOf(to, layout.getLineEnd(i, visibleEnd = true) - 1)
+        if (b < a) continue
+        val left = minOf(layout.getBoundingBox(a).left, layout.getBoundingBox(b).left)
+        val right = maxOf(layout.getBoundingBox(a).right, layout.getBoundingBox(b).right)
+        val top = layout.getLineTop(i)
+        drawRect(color, Offset(left, top), Size(right - left, layout.getLineBottom(i) - top))
+    }
+}
+
+/** How strongly a search match is tinted. */
+private const val HIGHLIGHT_ALPHA = 0.22f
+
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun ReaderScreen(
@@ -233,6 +254,8 @@ fun ReaderScreen(
     // the hit is taken once: the app forgets it at once, so that the text opens normally next time
     val hit = remember { target }
     LaunchedEffect(Unit) { if (target != null) onTargetShown() }
+    // the match stays marked until the page is turned
+    var highlight by remember { mutableStateOf(hit) }
     // The reader's choice of view, or null for the default: both columns on a wide screen, else the Greek.
     var chosenMode by remember { mutableStateOf<ViewMode?>(null) }
     var showOptions by remember { mutableStateOf(false) }
@@ -371,6 +394,7 @@ fun ReaderScreen(
     LaunchedEffect(pagerState.settledPage, pages, positioned) {
         if (pages.isEmpty() || !positioned) return@LaunchedEffect
         val i = pagerState.settledPage
+        highlight?.let { h -> pageAt(i).let { p -> if (p == null || h.nInt < p.firstN || h.nInt > p.lastN) highlight = null } }
         if (i < offset) prevBook?.let { goToBook(it, atEnd = true) }
         else if (i >= offset + pages.size) nextBook?.let { goToBook(it) }
     }
@@ -390,6 +414,12 @@ fun ReaderScreen(
             hit.noteKind != null -> { pageNotesKind = hit.noteKind; hitOpened = true }
             hit.noteId != null -> notes.firstOrNull { it.note.id == hit.noteId }?.let { editing = it; hitOpened = true }
             else -> hitOpened = true
+        }
+    }
+
+    val greekHighlight = remember(highlight, data) {
+        highlight?.takeIf { it.source == SearchSource.GREEK }?.let { h ->
+            data.linesByCitation[h.nInt to h.nSub]?.let { line -> line.id to (h.start until h.end) }
         }
     }
 
@@ -676,10 +706,16 @@ fun ReaderScreen(
                                     onWord = { if (selecting) pickWord(it) else selectedTokenId = it },
                                     onSentence = { token -> if (!selecting) syntaxSentence = token.sentence },
                                     showMarks = settings.lineNumbers != LineNumberMode.NONE,
+                                    highlight = greekHighlight,
                                 )
                             },
                             english = if (translation == null) null else {
-                                { TranslationPage(pageSegments.getOrNull(index - offset) ?: emptyList(), styles, showAnchors, Modifier.fillMaxSize(), anchorLabel(data)) }
+                                {
+                                    TranslationPage(
+                                        pageSegments.getOrNull(index - offset) ?: emptyList(), styles, showAnchors, Modifier.fillMaxSize(), anchorLabel(data),
+                                        highlight = highlight?.takeIf { it.source == SearchSource.TRANSLATION },
+                                    )
+                                }
                             },
                         )
                     }
@@ -734,7 +770,7 @@ fun ReaderScreen(
     }
     pageNotesKind?.let { kind ->
         val sigla = remember(kind) { if (kind == NoteKind.APPARATUS) repository.document(data, "sigla") else null }
-        PageNotesSheet(kind, pageNotes, sigla, onDismiss = { pageNotesKind = null })
+        PageNotesSheet(kind, pageNotes, sigla, onDismiss = { pageNotesKind = null }, focusN = highlight?.takeIf { it.noteKind == kind }?.nInt)
     }
     val noteLabel: (no.anagnosis.data.Note) -> String = { Notes.rangeLabel(data, it.from, it.to) }
     if (showMyPageNotes) {
@@ -1159,9 +1195,11 @@ private fun PageContent(
     onWord: (Long) -> Unit,
     onSentence: (Tokens) -> Unit,
     showMarks: Boolean = true,
+    /** A match of the search to mark: the line's id and the offsets in its text. */
+    highlight: Pair<Long, IntRange>? = null,
 ) {
     if (data.prose) {
-        ProsePage(page, styles, data, numberColumn, showMarks, spans, onWord, onSentence)
+        ProsePage(page, styles, data, numberColumn, showMarks, spans, onWord, onSentence, highlight)
         return
     }
     for (row in page.rows) {
@@ -1183,6 +1221,7 @@ private fun PageContent(
                 spans = spans[row.line.id].orEmpty(),
                 onWord = onWord,
                 onSentence = onSentence,
+                highlight = highlight?.takeIf { it.first == row.line.id }?.second,
             )
         }
     }
@@ -1217,6 +1256,7 @@ private fun GreekLineRow(
     spans: List<NoteSpan>,
     onWord: (Long) -> Unit,
     onSentence: (Tokens) -> Unit,
+    highlight: IntRange? = null,
 ) {
     val tokens = data.tokensByLine[line.id] ?: emptyList()
     // One tap handler per line, which finds the word from the tap position, is far cheaper than
@@ -1250,11 +1290,15 @@ private fun GreekLineRow(
         val indent = with(LocalDensity.current) { indentPx.toDp() }
         val markColor = MaterialTheme.colorScheme.primary.copy(alpha = NOTE_MARK_ALPHA)
         val pendingColor = MaterialTheme.colorScheme.primary
+        val highlightColor = MaterialTheme.colorScheme.primary.copy(alpha = HIGHLIGHT_ALPHA)
         Text(
             text = line.text, style = styles.greek, onTextLayout = { layout = it },
             modifier = Modifier.fillMaxWidth().padding(start = indent, end = numberColumn).drawBehind {
                 val result = layout
-                if (result != null) for (span in spans) drawNoteMark(result, span, markColor, pendingColor)
+                if (result != null) {
+                    if (highlight != null) drawHighlight(result, highlight.first, highlight.last + 1, highlightColor)
+                    for (span in spans) drawNoteMark(result, span, markColor, pendingColor)
+                }
             },
         )
         if (number != null) {
@@ -1273,7 +1317,16 @@ private fun GreekLineRow(
  * one paragraph; each segment's anchor line number is shown as a small raised figure.
  */
 @Composable
-private fun TranslationPage(segments: List<Translation_segments>, styles: Styles, showAnchors: Boolean, modifier: Modifier, anchorLabel: (Long) -> String = { it.toString() }) {
+private fun TranslationPage(
+    segments: List<Translation_segments>,
+    styles: Styles,
+    showAnchors: Boolean,
+    modifier: Modifier,
+    anchorLabel: (Long) -> String = { it.toString() },
+    /** A match of the search in one of the segments (by its first line), to be tinted. */
+    highlight: SearchTarget? = null,
+) {
+    val highlightStyle = SpanStyle(background = MaterialTheme.colorScheme.primary.copy(alpha = HIGHLIGHT_ALPHA))
     val anchorStyle = SpanStyle(
         fontSize = 10.sp,
         color = MaterialTheme.colorScheme.outline,
@@ -1302,7 +1355,13 @@ private fun TranslationPage(segments: List<Translation_segments>, styles: Styles
                         withStyle(anchorStyle) { append(anchorLabel(g.from_n_int)) }
                         append("\u2009")
                     }
+                    val base = length
                     append(g.text)
+                    if (highlight != null && g.from_n_int == highlight.nInt && g.from_n_sub == highlight.nSub) {
+                        val a = highlight.start.coerceIn(0, g.text.length)
+                        val b = highlight.end.coerceIn(a, g.text.length)
+                        if (b > a) addStyle(highlightStyle, base + a, base + b)
+                    }
                 }
             }
             Text(paragraph, style = styles.translation, color = MaterialTheme.colorScheme.onBackground, modifier = Modifier.padding(bottom = SEGMENT_GAP))
@@ -1552,6 +1611,7 @@ private fun ProsePage(
     spans: Map<Long, List<NoteSpan>>,
     onWord: (Long) -> Unit,
     onSentence: (Tokens) -> Unit,
+    highlight: Pair<Long, IntRange>? = null,
 ) {
     // headings in their place, and the lines between them as paragraphs
     val blocks = remember(page) {
@@ -1569,7 +1629,7 @@ private fun ProsePage(
         when (block) {
             is ReaderRow.Section -> SectionHeader(block.section, styles)
             is ReaderRow.Speaker -> Text(block.name, style = styles.speaker, color = MaterialTheme.colorScheme.primary, modifier = Modifier.padding(top = SPEAKER_TOP, bottom = ROW_GAP))
-            is List<*> -> @Suppress("UNCHECKED_CAST") ProseParagraph(block as List<Lines>, styles, data, margin, showMarks, spans, onWord, onSentence)
+            is List<*> -> @Suppress("UNCHECKED_CAST") ProseParagraph(block as List<Lines>, styles, data, margin, showMarks, spans, onWord, onSentence, highlight)
         }
     }
 }
@@ -1584,6 +1644,7 @@ private fun ProseParagraph(
     spans: Map<Long, List<NoteSpan>>,
     onWord: (Long) -> Unit,
     onSentence: (Tokens) -> Unit,
+    highlight: Pair<Long, IntRange>? = null,
 ) {
     val labelColor = MaterialTheme.colorScheme.primary
     val markColor = MaterialTheme.colorScheme.outline
@@ -1607,6 +1668,9 @@ private fun ProseParagraph(
     }
     val noteColor = MaterialTheme.colorScheme.primary.copy(alpha = NOTE_MARK_ALPHA)
     val pendingColor = MaterialTheme.colorScheme.primary
+    val highlightColor = MaterialTheme.colorScheme.primary.copy(alpha = HIGHLIGHT_ALPHA)
+    // the match moved from its line's offsets to the paragraph's
+    val paragraphHighlight = highlight?.let { (lineId, range) -> prose.start[lineId]?.let { base -> (base + range.first) until (base + range.last + 1) } }
     val opens = lines.first().speech_start == 1L
     var layout by remember { mutableStateOf<TextLayoutResult?>(null) }
     val currentOnWord = rememberUpdatedState(onWord)
@@ -1640,7 +1704,10 @@ private fun ProseParagraph(
             onTextLayout = { layout = it },
             modifier = Modifier.fillMaxWidth().padding(end = margin).drawBehind {
                 val result = layout
-                if (result != null) for (span in paragraphSpans) drawNoteMark(result, span, noteColor, pendingColor)
+                if (result != null) {
+                    if (paragraphHighlight != null) drawHighlight(result, paragraphHighlight.first, paragraphHighlight.last + 1, highlightColor)
+                    for (span in paragraphSpans) drawNoteMark(result, span, noteColor, pendingColor)
+                }
             },
         )
         val result = layout

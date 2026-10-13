@@ -34,6 +34,9 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.ui.layout.positionInParent
+import androidx.compose.ui.layout.onGloballyPositioned
 import androidx.compose.ui.unit.dp
 import no.anagnosis.data.Entry
 import no.anagnosis.data.NoteGroup
@@ -140,11 +143,21 @@ fun WordSheet(
 /** Apparatus or commentary for all the lines of the current page. */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun PageNotesSheet(kind: NoteKind, entries: List<NoteGroup>, sigla: Documents?, onDismiss: () -> Unit) {
+fun PageNotesSheet(
+    kind: NoteKind,
+    entries: List<NoteGroup>,
+    sigla: Documents?,
+    onDismiss: () -> Unit,
+    /** The line whose note the sheet scrolls to when it opens (a hit of the search), or null. */
+    focusN: Long? = null,
+) {
     val state = rememberModalBottomSheetState(skipPartiallyExpanded = true)
     var showSigla by remember { mutableStateOf(false) }
+    val scroll = rememberScrollState()
+    var focusY by remember { mutableStateOf<Int?>(null) }
+    LaunchedEffect(focusY) { focusY?.let { scroll.animateScrollTo(it) } }
     ModalBottomSheet(onDismissRequest = onDismiss, sheetState = state, modifier = sheetModifier()) {
-        Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 20.dp, vertical = 8.dp)) {
+        Column(Modifier.fillMaxWidth().verticalScroll(scroll).padding(horizontal = 20.dp, vertical = 8.dp)) {
             Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
                 Text(kind.label, style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary, modifier = Modifier.weight(1f))
                 if (sigla != null) {
@@ -158,11 +171,14 @@ fun PageNotesSheet(kind: NoteKind, entries: List<NoteGroup>, sigla: Documents?, 
             }
             entries.forEachIndexed { i, entry ->
                 if (i > 0) HorizontalDivider(Modifier.padding(vertical = 14.dp)) else Spacer(Modifier.height(12.dp))
-                Text(entry.heading, style = MaterialTheme.typography.titleMedium)
-                entry.lineText?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant) }
-                for (note in entry.notes) {
-                    Spacer(Modifier.height(6.dp))
-                    HtmlText(note.html)
+                val focused = focusN != null && entry.notes.any { it.from_n_int == focusN }
+                Column(if (focused) Modifier.onGloballyPositioned { focusY = it.positionInParent().y.toInt() } else Modifier) {
+                    Text(entry.heading, style = MaterialTheme.typography.titleMedium)
+                    entry.lineText?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant) }
+                    for (note in entry.notes) {
+                        Spacer(Modifier.height(6.dp))
+                        HtmlText(note.html)
+                    }
                 }
             }
             Spacer(Modifier.height(32.dp))

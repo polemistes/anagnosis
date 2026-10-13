@@ -288,7 +288,9 @@ on wide screens, in place of the dictionary drawable).
   `highlight: SearchTarget?` and, while building the paragraph, wraps the matched range of the
   segment whose `from_n_int`/`from_n_sub` are the target's in
   `SpanStyle(background = primary.copy(alpha = 0.2f))`.
-* Commentary: once `positioned`, `pageNotesKind = hit.noteKind`. Notes: once `notes` are
+* Commentary: once `positioned`, `pageNotesKind = hit.noteKind`; the sheet (`PageNotesSheet`,
+  parameter `focusN`) scrolls to the group holding the hit's note (added while building step 5:
+  the note can stand far down a long page's sheet). Notes: once `notes` are
   loaded, `editing = notes.firstOrNull { it.note.id == hit.noteId }`; each once only.
 * The word sheet gets `onOccurrences: (() -> Unit)?`, a button "Occurrences" after Syntax;
   in the reader it calls `onSearchLemma(token.lemma_key, token.lemma)` and closes the sheet.
@@ -389,5 +391,5 @@ Commit: "Help and READMEs for the search".
 - [x] Step 2: data layer
 - [x] Step 3: the search page in Text mode
 - [x] Step 4: Lemma mode and Occurrences
-- [ ] Step 5: the highlight
+- [x] Step 5: the highlight
 - [ ] Step 6: help and documentation
