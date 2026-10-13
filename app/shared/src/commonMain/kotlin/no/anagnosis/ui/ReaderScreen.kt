@@ -26,6 +26,7 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.CircularProgressIndicator
@@ -34,6 +35,7 @@ import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
+import androidx.compose.material3.LocalContentColor
 import androidx.compose.material3.LocalTextStyle
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
@@ -98,6 +100,7 @@ import no.anagnosis.data.NoteDraft
 import no.anagnosis.data.NoteSpan
 import no.anagnosis.data.Notes
 import no.anagnosis.data.PlacedNote
+import no.anagnosis.data.Placement
 import no.anagnosis.data.kind
 import no.anagnosis.data.WordInfo
 import no.anagnosis.data.WorkData
@@ -164,12 +167,20 @@ private val PARAGRAPH_GAP = 6.dp
 /** The underline under a passage that carries one of the reader's notes: its opacity, thickness and distance below the baseline. */
 private const val NOTE_MARK_ALPHA = 0.45f
 private val NOTE_MARK_WIDTH = 1.5.dp
+/** The first word of a passage being chosen for a note is underlined at full strength, a little thicker. */
+private const val PENDING_NOTE_ID = -1L
+private val PENDING_MARK_WIDTH = 2.dp
 private val NOTE_MARK_GAP = 3.dp
 
 /**
  * Underlines the text from offset [start] to [end] in a laid-out text, one stroke per visual
  * line it touches, from the first word's left edge to the last word's right edge on each.
  */
+private fun DrawScope.drawNoteMark(layout: TextLayoutResult, span: NoteSpan, color: Color, pendingColor: Color) {
+    val pending = span.noteId == PENDING_NOTE_ID
+    drawNoteMark(layout, span.start, span.end, if (pending) pendingColor else color, (if (pending) PENDING_MARK_WIDTH else NOTE_MARK_WIDTH).toPx())
+}
+
 private fun DrawScope.drawNoteMark(layout: TextLayoutResult, start: Int, end: Int, color: Color, width: Float) {
     val length = layout.layoutInput.text.length
     if (length == 0) return
@@ -230,6 +241,37 @@ fun ReaderScreen(
     var editing by remember { mutableStateOf<PlacedNote?>(null) }
     var showMyPageNotes by remember { mutableStateOf(false) }
     var showAllNotes by remember { mutableStateOf(false) }
+    // Choosing the passage of a new note: on from the pencil until the second word is tapped
+    // or the choice is given up; the first word is kept until the second comes.
+    var selecting by remember { mutableStateOf(false) }
+    var selectionStart by remember { mutableStateOf<Tokens?>(null) }
+    val haptic = LocalHapticFeedback.current
+    // the spans drawn: the notes' underlines, and the first word of a passage being chosen
+    val shownSpans = remember(markSpans, selectionStart) {
+        val t = selectionStart
+        if (t == null) markSpans
+        else markSpans + (t.line_id to (markSpans[t.line_id].orEmpty() + NoteSpan(t.start.toInt(), t.end.toInt(), PENDING_NOTE_ID)))
+    }
+    fun cancelSelection() { selecting = false; selectionStart = null }
+    /** A tap on a word while choosing: the first word, or the last, which opens the editor for the passage. */
+    fun pickWord(id: Long) {
+        val token = data.tokenById[id] ?: return
+        val start = selectionStart
+        if (start == null) {
+            selectionStart = token
+            haptic.performHapticFeedback(HapticFeedbackType.LongPress)
+            return
+        }
+        val a = Notes.anchorOf(data, start)
+        val b = Notes.anchorOf(data, token)
+        val backwards = Notes.isBefore(data, b, a)
+        val (from, to) = if (backwards) b to a else a to b
+        val (first, last) = if (backwards) token to start else start to token
+        val placement = Placement(data.lineById.getValue(first.line_id), first, data.lineById.getValue(last.line_id), last)
+        draft = NoteDraft(from, to, Notes.quote(data, placement), Notes.rangeLabel(data, from, to))
+        cancelSelection()
+    }
+    if (selecting) PlatformBackHandler { cancelSelection() }
 
     val translation = data.translations.firstOrNull()
     val allRows = remember(data) { buildRows(data) }
@@ -339,6 +381,22 @@ fun ReaderScreen(
                     navigationIcon = {
                         IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Front page") }
                     },
+                    actions = {
+                        // the pencil starts a note on a passage; while a passage is being chosen it gives the choice up
+                        IconButton(onClick = {
+                            if (selecting) cancelSelection() else {
+                                selecting = true
+                                selectionStart = null
+                                if (mode == ViewMode.TRANSLATION) chosenMode = ViewMode.GREEK
+                            }
+                        }) {
+                            Icon(
+                                Icons.Filled.Edit,
+                                contentDescription = if (selecting) "Give up the note" else "Add a note",
+                                tint = if (selecting) MaterialTheme.colorScheme.primary else LocalContentColor.current,
+                            )
+                        }
+                    },
                     windowInsets = TopAppBarDefaults.windowInsets,
                 )
                 Row(
@@ -401,6 +459,12 @@ fun ReaderScreen(
                 onNotes = { pageNotesKind = it },
                 hasMyNotes = notes.isNotEmpty(),
                 onMyNotes = { showMyPageNotes = true },
+                prompt = when {
+                    !selecting -> null
+                    selectionStart == null -> "Tap the first word of the passage"
+                    else -> "Tap the last word of the passage"
+                },
+                onCancel = { cancelSelection() },
                 onScrub = { page ->
                     scrubPage = page
                     scope.launch { pagerState.scrollToPage(page + offset) }
@@ -548,9 +612,9 @@ fun ReaderScreen(
                             greek = {
                                 PageContent(
                                     page, styles, data, numberColumn, forcedColumn,
-                                    spans = markSpans,
-                                    onWord = { selectedTokenId = it },
-                                    onSentence = { token -> syntaxSentence = token.sentence },
+                                    spans = shownSpans,
+                                    onWord = { if (selecting) pickWord(it) else selectedTokenId = it },
+                                    onSentence = { token -> if (!selecting) syntaxSentence = token.sentence },
                                     showMarks = settings.lineNumbers != LineNumberMode.NONE,
                                 )
                             },
@@ -565,7 +629,7 @@ fun ReaderScreen(
                         segmentsByPage(listOf(previewPage), bookSegments, bookLines).first()
                     } else emptyList()
                     PageFrame(
-                        greek = { PageContent(previewPage, previewStyles, data, numberColumn, forcedColumn, spans = markSpans, onWord = {}, onSentence = {}, showMarks = settings.lineNumbers != LineNumberMode.NONE) },
+                        greek = { PageContent(previewPage, previewStyles, data, numberColumn, forcedColumn, spans = shownSpans, onWord = {}, onSentence = {}, showMarks = settings.lineNumbers != LineNumberMode.NONE) },
                         english = if (translation == null) null else {
                             { TranslationPage(previewSegments, previewStyles, showAnchors, Modifier.fillMaxSize(), anchorLabel(data)) }
                         },
@@ -1114,11 +1178,12 @@ private fun GreekLineRow(
     ) {
         val indent = with(LocalDensity.current) { indentPx.toDp() }
         val markColor = MaterialTheme.colorScheme.primary.copy(alpha = NOTE_MARK_ALPHA)
+        val pendingColor = MaterialTheme.colorScheme.primary
         Text(
             text = line.text, style = styles.greek, onTextLayout = { layout = it },
             modifier = Modifier.fillMaxWidth().padding(start = indent, end = numberColumn).drawBehind {
                 val result = layout
-                if (result != null) for (span in spans) drawNoteMark(result, span.start, span.end, markColor, NOTE_MARK_WIDTH.toPx())
+                if (result != null) for (span in spans) drawNoteMark(result, span, markColor, pendingColor)
             },
         )
         if (number != null) {
@@ -1189,6 +1254,9 @@ private fun ProgressScrubber(
     /** Whether the text has any of the reader's own notes, which then get a button of their own. */
     hasMyNotes: Boolean,
     onMyNotes: () -> Unit,
+    /** While a passage is being chosen for a note: what to do next, shown in place of the span and the buttons. */
+    prompt: String?,
+    onCancel: () -> Unit,
     onScrub: (Int) -> Unit,
     onRelease: () -> Unit,
 ) {
@@ -1202,7 +1270,10 @@ private fun ProgressScrubber(
                 verticalAlignment = Alignment.CenterVertically,
             ) {
                 val page = pages.getOrNull(currentPage)
-                if (page != null && count > 0) {
+                if (prompt != null) {
+                    Text(prompt, style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.onSurface, modifier = Modifier.weight(1f))
+                    TextButton(onClick = onCancel) { Text("Cancel") }
+                } else if (page != null && count > 0) {
                     val span = span(page.firstN, page.lastN)
                     Text(
                         span,
@@ -1213,11 +1284,13 @@ private fun ProgressScrubber(
                 } else {
                     Spacer(Modifier.weight(1f))
                 }
-                for (kind in noteKinds) {
-                    TextButton(onClick = { onNotes(kind) }) { Text(kind.label) }
-                }
-                if (hasMyNotes) {
-                    TextButton(onClick = onMyNotes) { Text("Notes") }
+                if (prompt == null) {
+                    for (kind in noteKinds) {
+                        TextButton(onClick = { onNotes(kind) }) { Text(kind.label) }
+                    }
+                    if (hasMyNotes) {
+                        TextButton(onClick = onMyNotes) { Text("Notes") }
+                    }
                 }
             }
             Canvas(
@@ -1448,6 +1521,7 @@ private fun ProseParagraph(
         }.groupBy { it.noteId }.map { (id, parts) -> NoteSpan(parts.minOf { it.start }, parts.maxOf { it.end }, id) }
     }
     val noteColor = MaterialTheme.colorScheme.primary.copy(alpha = NOTE_MARK_ALPHA)
+    val pendingColor = MaterialTheme.colorScheme.primary
     val opens = lines.first().speech_start == 1L
     var layout by remember { mutableStateOf<TextLayoutResult?>(null) }
     val currentOnWord = rememberUpdatedState(onWord)
@@ -1481,7 +1555,7 @@ private fun ProseParagraph(
             onTextLayout = { layout = it },
             modifier = Modifier.fillMaxWidth().padding(end = margin).drawBehind {
                 val result = layout
-                if (result != null) for (span in paragraphSpans) drawNoteMark(result, span.start, span.end, noteColor, NOTE_MARK_WIDTH.toPx())
+                if (result != null) for (span in paragraphSpans) drawNoteMark(result, span, noteColor, pendingColor)
             },
         )
         val result = layout

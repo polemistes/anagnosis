@@ -70,7 +70,8 @@ fun NoteEditorSheet(
         Column(Modifier.fillMaxWidth().imePadding().verticalScroll(rememberScrollState()).padding(horizontal = 20.dp, vertical = 8.dp)) {
             Text(heading, style = MaterialTheme.typography.titleMedium)
             if (quote.isNotEmpty()) {
-                Text(quote, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                // a reminder of the passage, not the passage: a long one is cut short
+                Text(quote, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, maxLines = 4, overflow = TextOverflow.Ellipsis)
             }
             Spacer(Modifier.height(12.dp))
             OutlinedTextField(

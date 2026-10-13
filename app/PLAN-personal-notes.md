@@ -44,7 +44,8 @@ is showing the translation only, the pencil switches the view to the Greek first
 "Lines 12–14", "Lines 591–591a", "Matthew 5:3–7", "Lines 172a1–172b3"), the Greek passage
 quoted in grey under it, a multi-line text field, then Delete (existing notes only, with a
 confirmation), Cancel and Save. Save is enabled when the field is not blank. The field has
-focus when a new note opens, and the keyboard must not cover it. Swiping the sheet away, a
+focus when a new note opens, and the keyboard must not cover it. The quote is a reminder of
+the passage, not the passage: it is cut short after four lines. Swiping the sheet away, a
 tap beside it or back keeps what was written (a blank new note is dropped); only Cancel
 throws a change away.
 
@@ -332,7 +333,7 @@ Commit: "Reader 0.3.0: personal notes on passages; help, privacy policy and READ
 - [x] Step 2 settings, marks and ticks
 - [x] Step 4 editor, sheets, go-to
 - [x] Step 5 export and backup rules
-- [ ] Step 3 selection (Fable 5.1)
+- [x] Step 3 selection (Fable 5.1)
 - [ ] Step 6 words and version
 
 ## Where things are now (for orientation)
