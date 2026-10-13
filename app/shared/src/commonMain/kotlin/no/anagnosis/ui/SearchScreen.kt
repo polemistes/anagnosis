@@ -107,7 +107,7 @@ sealed interface ResultRow {
  * The search: dictionary lookup, morphological analysis, free text in the texts, and lemmas.
  * Type Greek, or Latin letters in the chosen scheme. In the dictionary, matching headwords appear
  * as you type, one per word; in the analyser, the typed form's analyses are listed; in the texts,
- * Latin letters search the English until the reader asks for the Greek. Made once for the
+ * Latin letters search the Greek until the reader asks for the English. Made once for the
  * session (in [App]), so that leaving the search for a hit and coming back finds it as it was.
  */
 class SearchState {
@@ -135,10 +135,12 @@ class SearchState {
     /** The scope of a search opened from a text: that text only, or every installed text. */
     var thisText by mutableStateOf(true)
 
-    /** Text mode: Latin letters are made Greek (by the scheme) instead of searching the English. */
-    var asGreek by mutableStateOf(false)
+    /** Text mode: Latin letters search the English as typed instead of being made Greek (by the scheme). */
+    var searchEnglish by mutableStateOf(false)
     var options by mutableStateOf(SearchOptions())
-    var sources by mutableStateOf(SearchSource.entries.toSet())
+
+    /** The commentaries and the reader's own notes are searched only when asked for. */
+    var sources by mutableStateOf(setOf(SearchSource.GREEK, SearchSource.TRANSLATION))
     var textResult by mutableStateOf<SearchResult?>(null)
     var textRows by mutableStateOf<List<ResultRow>>(emptyList())
 
@@ -178,7 +180,7 @@ class SearchState {
 
     fun setText(value: TextFieldValue) {
         if (value.text != query.text) {
-            if (value.text.isEmpty()) asGreek = false
+            if (value.text.isEmpty()) searchEnglish = false
             chosen = null
         }
         query = value
@@ -247,9 +249,9 @@ private fun toGreekPattern(s: String, scheme: InputScheme): String {
     return sb.toString()
 }
 
-/** What Text mode searches for: the field as typed, or made Greek when the reader asked for that. */
+/** What Text mode searches for: the field made Greek, or as typed when the reader asked for the English. */
 fun SearchState.textQuery(scheme: InputScheme): String = when {
-    !asGreek -> query.text
+    searchEnglish -> query.text
     options.regex -> toGreekPattern(query.text, scheme)
     else -> Transliteration.toGreek(query.text, scheme)
 }
@@ -504,20 +506,20 @@ fun SearchControls(
                     supportingText = {
                         val text = state.query.text
                         when {
-                            state.mode == SearchMode.TEXT && !state.asGreek && hasLatin(text) && !hasGreek(text) -> Text(
-                                "English · Search the Greek for ${withFinalSigma(state.textQueryAsGreek(settings.inputScheme))}",
+                            state.mode == SearchMode.TEXT && !state.searchEnglish && hasLatin(text) && !hasGreek(text) -> Text(
+                                "Greek: ${withFinalSigma(state.textQueryAsGreek(settings.inputScheme))} · Search the English",
                                 color = MaterialTheme.colorScheme.primary,
-                                modifier = Modifier.clickable { state.asGreek = true },
+                                modifier = Modifier.clickable { state.searchEnglish = true },
                                 maxLines = 1, overflow = TextOverflow.Ellipsis,
                             )
-                            state.mode == SearchMode.TEXT && state.asGreek -> Text(
-                                "Greek: ${withFinalSigma(state.textQuery(settings.inputScheme))} · Search the English",
+                            state.mode == SearchMode.TEXT && state.searchEnglish -> Text(
+                                "English · Search the Greek for ${withFinalSigma(state.textQueryAsGreek(settings.inputScheme))}",
                                 color = MaterialTheme.colorScheme.primary,
-                                modifier = Modifier.clickable { state.asGreek = false },
+                                modifier = Modifier.clickable { state.searchEnglish = false },
                                 maxLines = 1, overflow = TextOverflow.Ellipsis,
                             )
                             state.mode == SearchMode.TEXT -> Text(
-                                if (settings.greekKeyboard) "Type a vowel, then its breathing and accent" else "Greek searches the Greek; Latin letters the English",
+                                if (settings.greekKeyboard) "Type a vowel, then its breathing and accent" else "Latin letters type Greek; you can search the English instead",
                                 maxLines = 1, overflow = TextOverflow.Ellipsis,
                             )
                             english -> Text("Woodhouse, English-Greek Dictionary", maxLines = 1, overflow = TextOverflow.Ellipsis)
