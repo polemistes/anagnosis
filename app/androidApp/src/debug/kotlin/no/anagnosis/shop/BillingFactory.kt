@@ -21,7 +21,7 @@ private class FakeBilling(context: Context, private val onUpdate: (List<Bought>?
 
     private fun bought(id: String) = Bought(listOf(id), BoughtState.PURCHASED, acknowledged = true, token = "fake-$id")
 
-    override fun prices(ids: List<String>, done: (Map<String, String>?) -> Unit) = done(ids.associateWith { "€3.00" })
+    override fun prices(ids: List<String>, done: (Prices?) -> Unit) = done(Prices(ids.associateWith { "€3.00" }))
 
     override fun purchases(done: (List<Bought>?) -> Unit) =
         done(prefs.getStringSet("bought", null).orEmpty().map(::bought))

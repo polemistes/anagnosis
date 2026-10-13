@@ -8,8 +8,8 @@ import android.app.Activity
  * any thread.
  */
 interface Billing {
-    /** The products' prices in the buyer's currency, by product id; null when the store cannot be reached. */
-    fun prices(ids: List<String>, done: (Map<String, String>?) -> Unit)
+    /** The products' prices in the buyer's currency; null when the store cannot be reached. */
+    fun prices(ids: List<String>, done: (Prices?) -> Unit)
 
     /** Every one-time purchase of the account; null when the store cannot be reached. */
     fun purchases(done: (List<Bought>?) -> Unit)
@@ -22,6 +22,12 @@ interface Billing {
 
     fun end()
 }
+
+/**
+ * The store's answer about the products: the price of each it offers, by product id, and the
+ * reason for each it does not offer ("product not found"), so the shop can say why.
+ */
+class Prices(val byId: Map<String, String>, val missing: Map<String, String> = emptyMap())
 
 /** One purchase: its products, whether it is paid or still pending, and its token. */
 class Bought(

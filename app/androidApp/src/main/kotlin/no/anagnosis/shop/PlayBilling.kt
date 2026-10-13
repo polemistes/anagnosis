@@ -14,6 +14,7 @@ import com.android.billingclient.api.ProductDetails
 import com.android.billingclient.api.Purchase
 import com.android.billingclient.api.QueryProductDetailsParams
 import com.android.billingclient.api.QueryPurchasesParams
+import com.android.billingclient.api.UnfetchedProduct
 
 /**
  * Google Play Billing. [onUpdate] receives the purchases made through [buy] (and pending ones
@@ -61,20 +62,33 @@ class PlayBilling(context: Context, private val onUpdate: (List<Bought>?) -> Uni
         })
     }
 
-    override fun prices(ids: List<String>, done: (Map<String, String>?) -> Unit) = whenReady { ok ->
-        if (!ok || ids.isEmpty()) return@whenReady done(if (ok) emptyMap() else null)
+    override fun prices(ids: List<String>, done: (Prices?) -> Unit) = whenReady { ok ->
+        if (!ok || ids.isEmpty()) return@whenReady done(if (ok) Prices(emptyMap()) else null)
         val params = QueryProductDetailsParams.newBuilder().setProductList(
             ids.map { QueryProductDetailsParams.Product.newBuilder().setProductId(it).setProductType(ProductType.INAPP).build() },
         ).build()
         client.queryProductDetailsAsync(params) { result, found ->
             if (result.responseCode != BillingResponseCode.OK) return@queryProductDetailsAsync done(null)
             val prices = HashMap<String, String>()
+            val missing = HashMap<String, String>()
             for (d in found.productDetailsList) {
-                val price = offer(d)?.formattedPrice ?: continue
+                val price = offer(d)?.formattedPrice
+                if (price == null) {
+                    missing[d.productId] = "no purchase option"
+                    continue
+                }
                 synchronized(details) { details[d.productId] = d }
                 prices[d.productId] = price
             }
-            done(prices)
+            for (u in found.unfetchedProductList) {
+                missing[u.productId] = when (u.statusCode) {
+                    UnfetchedProduct.StatusCode.PRODUCT_NOT_FOUND -> "product not found"
+                    UnfetchedProduct.StatusCode.NO_ELIGIBLE_OFFER -> "no purchase option for this account or country"
+                    UnfetchedProduct.StatusCode.INVALID_PRODUCT_ID_FORMAT -> "product id not accepted"
+                    else -> "reason not given"
+                }
+            }
+            done(Prices(prices, missing))
         }
     }
 

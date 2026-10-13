@@ -26,6 +26,8 @@ data class ShopState(
     val reachable: Boolean = false,
     /** Each text's price in the buyer's currency, as the store formats it, by slug. */
     val prices: Map<String, String> = emptyMap(),
+    /** Why the store does not offer a text on sale here ("product not found"), by slug. */
+    val missing: Map<String, String> = emptyMap(),
     /** The texts bought in the app, by slug. */
     val owned: Set<String> = emptySet(),
     /** Texts whose payment has been started but not completed (cash, bank transfer). */

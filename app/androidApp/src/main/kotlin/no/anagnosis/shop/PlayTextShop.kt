@@ -62,7 +62,11 @@ class PlayTextShop(
         billing.prices(productOf.values.toList()) { prices ->
             _state.update { s ->
                 if (prices == null) s.copy(reachable = false)
-                else s.copy(reachable = true, prices = prices.mapNotNull { (id, price) -> slugOf[id]?.let { it to price } }.toMap())
+                else s.copy(
+                    reachable = true,
+                    prices = prices.byId.mapNotNull { (id, price) -> slugOf[id]?.let { it to price } }.toMap(),
+                    missing = prices.missing.mapNotNull { (id, why) -> slugOf[id]?.let { it to why } }.toMap(),
+                )
             }
         }
         billing.purchases { bought -> if (bought != null) takePurchases(bought, complete = true) }

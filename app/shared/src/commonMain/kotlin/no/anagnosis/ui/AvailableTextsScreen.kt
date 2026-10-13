@@ -103,6 +103,17 @@ fun AvailableTextsScreen(
                 }
             }
         }
+        // texts on sale here that the store does not offer just now, and the store's reason
+        val missing = catalog.filter { it.onGooglePlay && it.slug in shop.missing && it !in offered }
+        if (shop.reachable && missing.isNotEmpty()) {
+            Spacer(Modifier.height(16.dp))
+            Text(
+                "Not offered by Google Play just now: " +
+                    missing.joinToString("; ") { "${it.titleEn.ifEmpty { it.title }} (${shop.missing.getValue(it.slug)})" } + ".",
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+        }
         Spacer(Modifier.height(24.dp))
     }
     }
