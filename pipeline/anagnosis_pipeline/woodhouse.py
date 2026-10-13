@@ -40,10 +40,16 @@ class Entry:
     lines: list[tuple[int, str]] = field(default_factory=list)  # (line number, text without its tab)
 
 
+def _nfc(s: str) -> str:
+    import unicodedata
+
+    return unicodedata.normalize("NFC", s)
+
+
 def read_lines(sources: Path) -> list[str]:
-    """The DSL file's lines; lines[0] is line 1."""
+    """The DSL file's lines, in NFC (the file mixes the tonos and the oxia, ά and ά); lines[0] is line 1."""
     text = (sources / SOURCE).read_text(encoding="utf-8-sig")
-    return text.replace("\r\n", "\n").split("\n")
+    return _nfc(text.replace("\r\n", "\n")).split("\n")
 
 
 def read_corrections(directory: Path = TRANSCRIPTIONS) -> list[tuple[int, str, str, str, str, str]]:
@@ -57,7 +63,7 @@ def read_corrections(directory: Path = TRANSCRIPTIONS) -> list[tuple[int, str, s
             if len(parts) < 3:
                 raise ValueError(f"{path.name}:{i}: expected line, old, new")
             parts += [""] * (5 - len(parts))
-            old, new = (x.replace("\\t", "\t").replace("\\n", "\n") for x in parts[1:3])
+            old, new = (_nfc(x.replace("\\t", "\t").replace("\\n", "\n")) for x in parts[1:3])
             out.append((int(parts[0]), old, new, parts[3], parts[4], f"{path.name}:{i}"))
     return out
 
@@ -85,7 +91,7 @@ def read_checked(directory: Path = TRANSCRIPTIONS) -> set[tuple[int, str]]:
         for raw in path.read_text(encoding="utf-8").split("\n"):
             if raw.strip() and not raw.startswith("#"):
                 n, word = raw.split("\t")[:2]
-                out.add((int(n), word))
+                out.add((int(n), _nfc(word)))
     return out
 
 
