@@ -70,7 +70,7 @@ class PlayBilling(context: Context, private val onUpdate: (List<Bought>?) -> Uni
             if (result.responseCode != BillingResponseCode.OK) return@queryProductDetailsAsync done(null)
             val prices = HashMap<String, String>()
             for (d in found.productDetailsList) {
-                val price = d.oneTimePurchaseOfferDetails?.formattedPrice ?: continue
+                val price = offer(d)?.formattedPrice ?: continue
                 synchronized(details) { details[d.productId] = d }
                 prices[d.productId] = price
             }
@@ -89,7 +89,7 @@ class PlayBilling(context: Context, private val onUpdate: (List<Bought>?) -> Uni
         val d = synchronized(details) { details[id] } ?: return@whenReady
         if (!ok) return@whenReady
         val product = BillingFlowParams.ProductDetailsParams.newBuilder().setProductDetails(d)
-        d.oneTimePurchaseOfferDetails?.offerToken?.let { product.setOfferToken(it) }
+        offer(d)?.offerToken?.let { product.setOfferToken(it) }
         val params = BillingFlowParams.newBuilder().setProductDetailsParamsList(listOf(product.build())).build()
         activity.runOnUiThread { client.launchBillingFlow(activity, params) }
     }
@@ -99,6 +99,14 @@ class PlayBilling(context: Context, private val onUpdate: (List<Bought>?) -> Uni
     }
 
     override fun end() = client.endConnection()
+
+    /**
+     * The purchase option a text is sold with. A product may have several, and
+     * oneTimePurchaseOfferDetails gives only the one marked backwards compatible in Play Console,
+     * so the list is asked first.
+     */
+    private fun offer(d: ProductDetails): ProductDetails.OneTimePurchaseOfferDetails? =
+        d.oneTimePurchaseOfferDetailsList?.firstOrNull() ?: d.oneTimePurchaseOfferDetails
 
     /** A purchase whose signature is not Google Play's counts for nothing. */
     private fun bought(p: Purchase) = Bought(
