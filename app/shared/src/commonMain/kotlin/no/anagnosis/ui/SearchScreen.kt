@@ -18,6 +18,10 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyListScope
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Clear
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedTextField
@@ -29,13 +33,18 @@ import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.key
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
+import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
+import androidx.compose.ui.focus.onFocusChanged
+import androidx.compose.ui.platform.InterceptPlatformTextInput
+import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.ui.text.TextRange
 import androidx.compose.ui.text.input.KeyboardCapitalization
 import androidx.compose.ui.text.input.TextFieldValue
@@ -43,6 +52,7 @@ import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.awaitCancellation
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.withContext
 import no.anagnosis.data.AnagnosisRepository
@@ -73,16 +83,25 @@ class SearchState {
     /** Whether the results are those of something typed (and not of an empty field). */
     var searched by mutableStateOf(false)
 
-    /** A key of the on-screen Greek keyboard: a letter, or a mark applied to the last vowel. */
+    /**
+     * A key of the on-screen Greek keyboard, typed at the cursor: a letter, or a mark applied to
+     * the last vowel before it. A selection is replaced.
+     */
     fun typeGreek(s: String) {
         val text = query.text
-        val newText = if (s.length == 1 && s[0].code in 0x300..0x345) Polytonic.apply(text, s[0]) else text + s
-        query = TextFieldValue(newText, TextRange(newText.length))
+        val before = text.substring(0, query.selection.min)
+        val after = text.substring(query.selection.max)
+        val newBefore = if (s.length == 1 && s[0].code in 0x300..0x345) Polytonic.apply(before, s[0]) else before + s
+        query = TextFieldValue(newBefore + after, TextRange(newBefore.length))
     }
 
+    /** Deletes the selection, or the character before the cursor. */
     fun backspace() {
-        val t = query.text
-        if (t.isNotEmpty()) query = TextFieldValue(t.dropLast(1), TextRange(t.length - 1))
+        val text = query.text
+        val sel = query.selection
+        val start = if (sel.collapsed) maxOf(sel.min - 1, 0) else sel.min
+        if (start == sel.max) return
+        query = TextFieldValue(text.substring(0, start) + text.substring(sel.max), TextRange(start))
     }
 }
 
@@ -90,6 +109,10 @@ class SearchState {
 @Composable
 fun rememberSearchState(repository: AnagnosisRepository, settings: ReaderSettings): SearchState {
     val state = remember { SearchState() }
+    // A word looked up takes the focus from the field, so that the keyboard (the phone's or the
+    // app's) stays hidden when its sheet is closed, until the field is tapped again.
+    val focusManager = LocalFocusManager.current
+    LaunchedEffect(state.word) { if (state.word != null) focusManager.clearFocus() }
     val greekQuery = Transliteration.toGreek(state.query.text, settings.inputScheme)
     val key = Transliteration.looseKey(greekQuery)
     val exact = settings.exactDiacritics && state.mode == SearchMode.ANALYSER
@@ -108,8 +131,10 @@ fun rememberSearchState(repository: AnagnosisRepository, settings: ReaderSetting
 /**
  * The mode switch, the search field and its options. `navigation` is put before the mode
  * switch (the search page's way back); `fieldModifier` lets the page follow the field's focus.
+ * With the app's Greek keyboard the field stays editable, so that it shows its cursor, but the
+ * phone's keyboard is kept from opening.
  */
-@OptIn(ExperimentalLayoutApi::class)
+@OptIn(ExperimentalLayoutApi::class, ExperimentalComposeUiApi::class)
 @Composable
 fun SearchControls(
     state: SearchState,
@@ -119,6 +144,14 @@ fun SearchControls(
     navigation: (@Composable () -> Unit)? = null,
 ) {
     val greekQuery = Transliteration.toGreek(state.query.text, settings.inputScheme)
+    val fieldFocus = remember { FocusRequester() }
+    var focused by remember { mutableStateOf(false) }
+    // switching keyboards makes the field anew (the phone's keyboard is let in or kept out when
+    // the field takes the focus); a field in use gets the focus back
+    var refocus by remember { mutableStateOf(false) }
+    LaunchedEffect(settings.greekKeyboard) {
+        if (refocus) { fieldFocus.requestFocus(); refocus = false }
+    }
     Column(Modifier.fillMaxWidth()) {
         Row(Modifier.fillMaxWidth().padding(top = 4.dp), verticalAlignment = Alignment.CenterVertically) {
             if (navigation != null) {
@@ -136,18 +169,29 @@ fun SearchControls(
                 }
             }
         }
-        OutlinedTextField(
-            value = state.query,
-            onValueChange = { state.query = it },
-            modifier = fieldModifier.fillMaxWidth().padding(top = 4.dp),
-            singleLine = true,
-            readOnly = settings.greekKeyboard,
-            label = { Text(if (state.mode == SearchMode.DICTIONARY) "Headword" else "Inflected form") },
-            supportingText = {
-                Text(if (greekQuery != state.query.text && greekQuery.isNotEmpty()) greekQuery else if (settings.greekKeyboard) "Type a vowel, then its breathing and accent" else settings.inputScheme.hint)
-            },
-            keyboardOptions = KeyboardOptions(capitalization = KeyboardCapitalization.None, autoCorrectEnabled = false, keyboardType = KeyboardType.Text),
-        )
+        key(settings.greekKeyboard) {
+            InterceptPlatformTextInput(
+                interceptor = { request, nextHandler ->
+                    if (settings.greekKeyboard) awaitCancellation() else nextHandler.startInputMethod(request)
+                },
+            ) {
+                OutlinedTextField(
+                    value = state.query,
+                    onValueChange = { state.query = it },
+                    modifier = fieldModifier.focusRequester(fieldFocus).onFocusChanged { focused = it.isFocused }
+                        .fillMaxWidth().padding(top = 4.dp),
+                    singleLine = true,
+                    label = { Text(if (state.mode == SearchMode.DICTIONARY) "Headword" else "Inflected form") },
+                    trailingIcon = if (state.query.text.isEmpty()) null else {
+                        { IconButton(onClick = { state.query = TextFieldValue("") }) { Icon(Icons.Filled.Clear, contentDescription = "Clear") } }
+                    },
+                    supportingText = {
+                        Text(if (greekQuery != state.query.text && greekQuery.isNotEmpty()) greekQuery else if (settings.greekKeyboard) "Type a vowel, then its breathing and accent" else settings.inputScheme.hint)
+                    },
+                    keyboardOptions = KeyboardOptions(capitalization = KeyboardCapitalization.None, autoCorrectEnabled = false, keyboardType = KeyboardType.Text),
+                )
+            }
+        }
         // the scheme switch moves to a line of its own when the row has no room for it (word analysis on a phone)
         FlowRow(
             Modifier.fillMaxWidth().padding(top = 2.dp, bottom = 4.dp),
@@ -155,7 +199,7 @@ fun SearchControls(
             itemVerticalAlignment = Alignment.CenterVertically,
         ) {
             Row(verticalAlignment = Alignment.CenterVertically) {
-                TextButton(onClick = { onSettingsChange(settings.copy(greekKeyboard = !settings.greekKeyboard)) }) {
+                TextButton(onClick = { refocus = focused; onSettingsChange(settings.copy(greekKeyboard = !settings.greekKeyboard)) }) {
                     Text(if (settings.greekKeyboard) "Phone keyboard" else "Greek keyboard", fontSize = 12.sp)
                 }
                 if (state.mode == SearchMode.ANALYSER) {
@@ -222,11 +266,14 @@ fun SearchScreen(
 ) {
     val state = rememberSearchState(repository, settings)
     val focus = remember { FocusRequester() }
-    LaunchedEffect(settings.greekKeyboard) { if (!settings.greekKeyboard) focus.requestFocus() }
+    // the field is ready for typing when the page opens; the Greek keyboard shows while it is in use
+    var fieldFocused by remember { mutableStateOf(false) }
+    val focusManager = LocalFocusManager.current
+    LaunchedEffect(Unit) { focus.requestFocus() }
 
     Column(Modifier.fillMaxSize().safeDrawingPadding(), horizontalAlignment = Alignment.CenterHorizontally) {
     Column(Modifier.weight(1f).widthIn(max = CONTENT_MAX_WIDTH).fillMaxWidth().padding(horizontal = 16.dp)) {
-        SearchControls(state, settings, onSettingsChange, fieldModifier = Modifier.focusRequester(focus)) {
+        SearchControls(state, settings, onSettingsChange, fieldModifier = Modifier.focusRequester(focus).onFocusChanged { fieldFocused = it.isFocused }) {
             TextButton(onClick = onBack) { Text("‹ Back") }
         }
         LazyColumn(Modifier.weight(1f).fillMaxWidth(), contentPadding = PaddingValues(vertical = 4.dp)) {
@@ -234,11 +281,11 @@ fun SearchScreen(
             item { Spacer(Modifier.height(48.dp)) }
         }
     }
-        if (settings.greekKeyboard) {
+        if (settings.greekKeyboard && fieldFocused) {
             GreekKeyboard(
                 onKey = { state.typeGreek(it) },
                 onBackspace = { state.backspace() },
-                onDone = { onSettingsChange(settings.copy(greekKeyboard = false)) },
+                onDone = { focusManager.clearFocus() },
             )
         }
     }

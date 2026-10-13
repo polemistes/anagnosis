@@ -31,11 +31,10 @@ import no.anagnosis.data.WorkData
 import no.anagnosis.prefs.ColorTheme
 import no.anagnosis.prefs.SettingsStore
 
-/** The app's screens: the front page, the texts on sale, a text's own page, and the reader. */
+/** The app's screens: the front page, the texts on sale, and the reader. */
 sealed interface Screen {
     data object Home : Screen
     data object Available : Screen
-    data class TextHome(val slug: String) : Screen
     data class Reader(val slug: String) : Screen
     /** The dictionary and analyser; `from` is the screen to return to. */
     data class Search(val from: Screen) : Screen
@@ -57,6 +56,8 @@ fun App(
 
     var catalog by remember { mutableStateOf<List<CatalogEntry>?>(null) }
     var screen by remember { mutableStateOf<Screen>(Screen.Home) }
+    // the text opened out on the front page, which stays so when the reader goes back there
+    var expanded by remember { mutableStateOf<String?>(null) }
     val loaded = remember { HashMap<String, WorkData>() }
     var current by remember { mutableStateOf<WorkData?>(null) }
 
@@ -66,19 +67,19 @@ fun App(
         val list = withContext(Dispatchers.Default) { repository.catalog() }
         catalog = list
         // A fresh start opens on the front page; the reading position is kept per text, so
-        // "Read the text" continues where the reader left off.
+        // "Read this text" continues where the reader left off.
     }
     // the app that sells a text asked for it to be opened
     LaunchedEffect(openText, catalog) {
         val slug = openText ?: return@LaunchedEffect
         val list = catalog ?: return@LaunchedEffect
-        if (list.any { it.slug == slug && it.installed }) screen = Screen.TextHome(slug)
+        if (list.any { it.slug == slug && it.installed }) { expanded = slug; screen = Screen.Reader(slug) }
         onOpenTextHandled()
     }
-    // The text is loaded in the background from its title page on, so that it is ready, or
-    // nearly, when the reader asks for it; the long ones take a few seconds.
+    // The text is loaded in the background once its title is opened out on the front page, so
+    // that it is ready, or nearly, when the reader asks for it; the long ones take a few seconds.
     val wantedSlug = ((screen as? Screen.Search)?.from as? Screen.Reader)?.slug ?: (screen as? Screen.Reader)?.slug
-        ?: (screen as? Screen.TextHome)?.slug
+        ?: expanded.takeIf { screen == Screen.Home }
     LaunchedEffect(wantedSlug) {
         if (wantedSlug != null) {
             current = loaded[wantedSlug] ?: withContext(Dispatchers.Default) { repository.loadWork(wantedSlug) }.also { loaded[wantedSlug] = it }
@@ -99,23 +100,15 @@ fun App(
                     repository = repository,
                     settings = settings,
                     onSettingsChange = { settings = it; settingsStore.save(it) },
-                    onOpen = { screen = Screen.TextHome(it) },
+                    expanded = expanded,
+                    onExpand = { expanded = it },
+                    onRead = { screen = Screen.Reader(it) },
                     onAvailable = { screen = Screen.Available },
                 )
                 Screen.Available -> {
                     if (list == null) Loading() else AvailableTextsScreen(
                         catalog = list,
-                        onOpen = { screen = Screen.TextHome(it) },
-                        onBack = { screen = Screen.Home },
-                    )
-                    PlatformBackHandler { screen = Screen.Home }
-                }
-                is Screen.TextHome -> {
-                    val entry = list?.firstOrNull { it.slug == s.slug }
-                    if (entry == null) Loading() else TextHomeScreen(
-                        repository = repository,
-                        entry = entry,
-                        onRead = { screen = Screen.Reader(s.slug) },
+                        onOpen = { expanded = it; screen = Screen.Reader(it) },
                         onBack = { screen = Screen.Home },
                     )
                     PlatformBackHandler { screen = Screen.Home }
@@ -129,8 +122,7 @@ fun App(
                             settings = settings,
                             onSettingsChange = { settings = it; settingsStore.save(it) },
                             onHelp = { showIntro = true },
-                            onBack = { screen = Screen.TextHome(s.slug) },
-                            onHome = { screen = Screen.Home },
+                            onBack = { screen = Screen.Home },
                             onSearch = { screen = Screen.Search(s) },
                             startLine = settingsStore.lastLine(s.slug) ?: 1L,
                             onPositionChange = { settingsStore.saveLastText(s.slug); settingsStore.saveLastLine(s.slug, it) },
@@ -139,7 +131,7 @@ fun App(
                         if (showIntro) {
                             IntroDialog(onDismiss = { showIntro = false; settingsStore.markIntroSeen() })
                         }
-                        PlatformBackHandler { screen = Screen.TextHome(s.slug) }
+                        PlatformBackHandler { screen = Screen.Home }
                     }
                 }
             }

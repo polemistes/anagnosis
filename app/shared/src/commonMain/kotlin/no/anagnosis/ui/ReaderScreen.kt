@@ -26,7 +26,6 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.CircularProgressIndicator
@@ -166,7 +165,6 @@ fun ReaderScreen(
     onSettingsChange: (ReaderSettings) -> Unit,
     onHelp: () -> Unit,
     onBack: () -> Unit,
-    onHome: () -> Unit,
     onSearch: () -> Unit,
     startLine: Long,
     onPositionChange: (Long) -> Unit,
@@ -268,16 +266,13 @@ fun ReaderScreen(
     val mode = chosenMode?.takeIf { it in modes } ?: if (wide) ViewMode.BOTH else ViewMode.GREEK
     Scaffold(
         topBar = {
-            // Two rows: the title with the way back and the way home, then the controls, so that
+            // Two rows: the title with the way back to the front page, then the controls, so that
             // the title is never squeezed by the buttons on a narrow screen.
             Column(Modifier.background(MaterialTheme.colorScheme.surface)) {
                 TopAppBar(
                     title = { Text(data.work.title, maxLines = 1, overflow = TextOverflow.Ellipsis, modifier = Modifier.clickable { onBack() }) },
                     navigationIcon = {
-                        IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back to the text's page") }
-                    },
-                    actions = {
-                        IconButton(onClick = onHome) { Icon(Icons.Filled.Home, contentDescription = "Front page") }
+                        IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Front page") }
                     },
                     windowInsets = TopAppBarDefaults.windowInsets,
                 )
