@@ -108,7 +108,7 @@ fun HomeScreen(
             }
             item {
                 Column(width) {
-                    SearchControls(search, settings, onSettingsChange, fieldModifier = Modifier.onFocusChanged { fieldFocused = it.isFocused }, onSubmit = { search.submit() })
+                    SearchControls(search, settings, onSettingsChange, fieldModifier = Modifier.onFocusChanged { fieldFocused = it.isFocused }, onSubmit = { search.submit() }, textsAvailable = installedTexts.isNotEmpty())
                 }
             }
             searchResults(search, repository, installedTexts, onOpenHit, width)

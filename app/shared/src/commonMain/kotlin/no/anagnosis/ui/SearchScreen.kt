@@ -394,6 +394,8 @@ fun SearchControls(
     onSubmit: () -> Unit = {},
     /** Whether Text mode's chips stand here; the search page puts them at the top of its list instead. */
     chips: Boolean = true,
+    /** Whether any text is installed: without one there is nothing for Text and Lemma to search, and they are not offered. */
+    textsAvailable: Boolean = true,
     navigation: (@Composable () -> Unit)? = null,
 ) {
     val greekQuery = Transliteration.toGreek(state.query.text, settings.inputScheme)
@@ -407,16 +409,19 @@ fun SearchControls(
     }
     val focusManager = LocalFocusManager.current
     val inTexts = state.mode == SearchMode.TEXT || state.mode == SearchMode.LEMMA
+    val modes = if (textsAvailable) SearchMode.entries else listOf(SearchMode.DICTIONARY, SearchMode.ANALYSER)
+    // the last text gone while Text or Lemma was chosen: back to the dictionary
+    LaunchedEffect(textsAvailable) { if (!textsAvailable && inTexts) state.mode = SearchMode.DICTIONARY }
     Column(Modifier.fillMaxWidth()) {
         if (navigation != null) {
             Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) { navigation() }
         }
         SingleChoiceSegmentedButtonRow(Modifier.fillMaxWidth().padding(top = 4.dp)) {
-            SearchMode.entries.forEachIndexed { i, m ->
+            modes.forEachIndexed { i, m ->
                 SegmentedButton(
                     selected = state.mode == m,
                     onClick = { state.mode = m },
-                    shape = SegmentedButtonDefaults.itemShape(i, SearchMode.entries.size),
+                    shape = SegmentedButtonDefaults.itemShape(i, modes.size),
                     // no check mark: four labels share a phone's width
                     icon = {},
                     label = { Text(m.label, fontSize = 12.sp, maxLines = 1, softWrap = false) },
@@ -822,6 +827,7 @@ fun SearchScreen(
             fieldModifier = Modifier.focusRequester(focus).onFocusChanged { fieldFocused = it.isFocused },
             chips = false,
             onSubmit = { state.submit() },
+            textsAvailable = installed.isNotEmpty(),
         ) {
             TextButton(onClick = onBack) { Text("‹ Back") }
         }
