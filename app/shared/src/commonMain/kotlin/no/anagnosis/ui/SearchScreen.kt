@@ -26,6 +26,8 @@ import androidx.compose.material3.FilterChip
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Clear
+import androidx.compose.material.icons.filled.KeyboardArrowDown
+import androidx.compose.ui.draw.rotate
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.HorizontalDivider
@@ -92,8 +94,9 @@ enum class SearchMode(val label: String) {
 
 /** A line of the results of a search in the texts: a text's heading, a book's, or a hit with its citation. */
 sealed interface ResultRow {
-    class TextHeader(val title: String?, val counts: String) : ResultRow
-    class BookHeader(val title: String) : ResultRow
+    /** A text's heading; with a [title] (a search of several texts) it folds the text's hits away. */
+    class TextHeader(val slug: String, val title: String?, val counts: String) : ResultRow
+    class BookHeader(val slug: String, val title: String) : ResultRow
     class Hit(val hit: SearchHit, val cite: String) : ResultRow
 }
 
@@ -123,6 +126,10 @@ class SearchState {
     var sources by mutableStateOf(SearchSource.entries.toSet())
     var textResult by mutableStateOf<SearchResult?>(null)
     var textRows by mutableStateOf<List<ResultRow>>(emptyList())
+
+    /** The texts opened out in the results of a search of several texts (all folded at first, unless only one has hits). */
+    var openTexts by mutableStateOf<Set<String>>(emptySet())
+    var openOccurrenceTexts by mutableStateOf<Set<String>>(emptySet())
 
     /** While the texts are made ready for searching (the first search in each takes a moment). */
     var busy by mutableStateOf(false)
@@ -241,7 +248,7 @@ fun resultRows(
     for (slug in slugs) {
         val textHits = bySlug[slug] ?: continue
         val w = work(slug)
-        out += ResultRow.TextHeader(if (showTitles) titles[slug] ?: slug else null, counts(textHits, w))
+        out += ResultRow.TextHeader(slug, if (showTitles) titles[slug] ?: slug else null, counts(textHits, w))
         val sorted = textHits.sortedWith(compareBy({ it.nInt }, { it.nSub }, { it.source.ordinal }))
         var book: Int? = null
         for (h in sorted) {
@@ -249,13 +256,23 @@ fun resultRows(
                 val b = w.bookOf(h.nInt)
                 if (b != book) {
                     book = b
-                    w.books.firstOrNull { it.number == b }?.let { out += ResultRow.BookHeader(it.title) }
+                    w.books.firstOrNull { it.number == b }?.let { out += ResultRow.BookHeader(slug, it.title) }
                 }
             }
             out += ResultRow.Hit(h, if (w.byBook) w.lineLabel(h.nInt, h.nSub) else w.citation(h.nInt, h.nSub))
         }
     }
     return out
+}
+
+/** The text to open out at once: the only one with hits, when there is only one. */
+private fun soleText(rows: List<ResultRow>): Set<String> =
+    rows.filterIsInstance<ResultRow.TextHeader>().singleOrNull()?.let { setOf(it.slug) } ?: emptySet()
+
+/** "214 matches in 3 texts": the total of a search, above its texts. */
+private fun totalLine(count: Int, texts: Int, one: String, many: String, truncated: Boolean = false): String {
+    val n = if (truncated) "More than $count $many; the first $count are listed" else if (count == 1) "1 $one" else "$count $many"
+    return if (texts > 1) "$n, in $texts texts" else n
 }
 
 /** "Greek 214 · Translation 12 · Apparatus 3": the hits of a text by source. */
@@ -304,6 +321,7 @@ fun SearchEffects(state: SearchState, repository: AnagnosisRepository, settings:
             }
             state.textResult = result
             state.textRows = rows
+            state.openTexts = soleText(rows)
         } finally {
             state.busy = false
         }
@@ -339,6 +357,7 @@ fun SearchEffects(state: SearchState, repository: AnagnosisRepository, settings:
                 state.occurrenceCount = hits.size
                 state.occurrenceTexts = hits.distinctBy { it.slug }.size
                 state.occurrenceRows = rows
+                state.openOccurrenceTexts = soleText(rows)
             } finally {
                 state.busy = false
             }
@@ -599,16 +618,16 @@ private fun LazyListScope.textResults(state: SearchState, installed: List<Catalo
         item { Text(err, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.error, modifier = itemModifier.padding(top = 16.dp)) }
         return
     }
-    resultRowItems(state.textRows, onOpen, itemModifier)
-    if (result.truncated) {
+    if (result.hits.isNotEmpty()) {
         item {
             Text(
-                "More than ${TextSearch.MAX_HITS} matches; showing the first ${TextSearch.MAX_HITS}.",
-                style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant,
-                modifier = itemModifier.padding(top = 12.dp),
+                totalLine(result.hits.size, result.hits.distinctBy { it.slug }.size, "match", "matches", result.truncated),
+                style = MaterialTheme.typography.titleSmall,
+                modifier = itemModifier.padding(top = 8.dp),
             )
         }
     }
+    resultRowItems(state.textRows, state.openTexts, { slug -> state.openTexts = state.openTexts.toggle(slug) }, onOpen, itemModifier)
     if (result.hits.isEmpty()) {
         item { Text("No matches.", style = MaterialTheme.typography.bodyMedium, modifier = itemModifier.padding(top = 16.dp)) }
     }
@@ -628,10 +647,10 @@ private fun LazyListScope.lemmaResults(state: SearchState, installed: List<Catal
                     TextButton(onClick = { state.chosen = null }) { Text("Suggestions") }
                 }
                 row.gloss?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant) }
-                if (state.occurrenceTexts > 1) {
+                if (state.occurrenceCount > 0) {
                     Text(
-                        "${state.occurrenceCount} occurrences in ${state.occurrenceTexts} texts",
-                        style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        totalLine(state.occurrenceCount, state.occurrenceTexts, "occurrence", "occurrences"),
+                        style = MaterialTheme.typography.titleSmall,
                         modifier = Modifier.padding(top = 4.dp),
                     )
                 }
@@ -641,7 +660,7 @@ private fun LazyListScope.lemmaResults(state: SearchState, installed: List<Catal
                 HorizontalDivider(Modifier.padding(top = 8.dp))
             }
         }
-        resultRowItems(state.occurrenceRows, onOpen, itemModifier)
+        resultRowItems(state.occurrenceRows, state.openOccurrenceTexts, { slug -> state.openOccurrenceTexts = state.openOccurrenceTexts.toggle(slug) }, onOpen, itemModifier)
         return
     }
     items(state.lemmaRows) { row ->
@@ -698,13 +717,53 @@ fun SearchWordSheet(state: SearchState, settings: ReaderSettings, installed: Lis
     )
 }
 
-/** Headings and hits as list items; a hit shows its citation, its excerpt with the match in bold, and its source. */
-fun LazyListScope.resultRowItems(rows: List<ResultRow>, onOpen: (SearchHit) -> Unit, itemModifier: Modifier) {
-    items(rows) { row ->
+private fun Set<String>.toggle(slug: String): Set<String> = if (slug in this) this - slug else this + slug
+
+/**
+ * Headings and hits as list items; a hit shows its citation, its excerpt with the match in bold,
+ * and its source. In a search of several texts each text's heading folds its hits: only the texts
+ * in [open] show them, and a tap on a heading calls [onToggle].
+ */
+fun LazyListScope.resultRowItems(
+    rows: List<ResultRow>,
+    open: Set<String>,
+    onToggle: (String) -> Unit,
+    onOpen: (SearchHit) -> Unit,
+    itemModifier: Modifier,
+) {
+    val folding = rows.any { it is ResultRow.TextHeader && it.title != null }
+    val shown = if (!folding) rows else rows.filter {
+        when (it) {
+            is ResultRow.TextHeader -> true
+            is ResultRow.BookHeader -> it.slug in open
+            is ResultRow.Hit -> it.hit.slug in open
+        }
+    }
+    items(shown) { row ->
         when (row) {
-            is ResultRow.TextHeader -> Column(itemModifier.padding(top = 14.dp, bottom = 4.dp)) {
-                if (row.title != null) Text(row.title, style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
-                Text(row.counts, style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            is ResultRow.TextHeader -> if (row.title == null) {
+                Column(itemModifier.padding(top = 14.dp, bottom = 4.dp)) {
+                    Text(row.counts, style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                }
+            } else {
+                val isOpen = row.slug in open
+                Column(itemModifier.padding(top = 6.dp)) {
+                    Row(
+                        Modifier.fillMaxWidth().clickable { onToggle(row.slug) }.padding(vertical = 8.dp),
+                        verticalAlignment = Alignment.CenterVertically,
+                    ) {
+                        Column(Modifier.weight(1f)) {
+                            Text(row.title, style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.primary)
+                            Text(row.counts, style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                        }
+                        Icon(
+                            Icons.Filled.KeyboardArrowDown,
+                            contentDescription = if (isOpen) "Fold" else "Show the matches",
+                            modifier = Modifier.rotate(if (isOpen) 180f else 0f),
+                        )
+                    }
+                    if (!isOpen) HorizontalDivider()
+                }
             }
             is ResultRow.BookHeader -> Text(
                 row.title, style = MaterialTheme.typography.titleSmall, color = MaterialTheme.colorScheme.onSurfaceVariant,
