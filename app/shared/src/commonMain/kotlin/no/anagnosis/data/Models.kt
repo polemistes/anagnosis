@@ -41,10 +41,7 @@ class CatalogEntry(
     val syntaxLicense: String = "",
     /** The version of the text's database in this build, for knowing when a download is out of date. */
     val version: String = "",
-) {
-    /** The page of the text's app on Google Play. */
-    val storeUrl: String get() = "https://play.google.com/store/apps/details?id=$appId"
-}
+)
 
 /** Everything needed to display one work, loaded once. */
 class WorkData(

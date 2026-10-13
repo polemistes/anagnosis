@@ -14,6 +14,7 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
+import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
@@ -21,22 +22,34 @@ import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.platform.LocalUriHandler
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import no.anagnosis.data.CatalogEntry
+import no.anagnosis.data.DownloadStatus
+import no.anagnosis.data.ShopState
 
 /**
- * The texts on sale, each an app of its own on Google Play, by author: what each comes with and
- * the way to its page there. Only texts marked as on Google Play in the catalog are listed.
+ * The shop: the texts on sale in the reader, by author, with what each comes with, and the way
+ * to buy it through the platform's store. A text the store does not offer (not yet on sale
+ * there) is left out while the store can be reached; without the store, the texts are listed
+ * with nothing to press.
  */
 @Composable
-fun AvailableTextsScreen(catalog: List<CatalogEntry>, onOpen: (String) -> Unit, onBack: () -> Unit) {
-    val uriHandler = LocalUriHandler.current
-    val offered = catalog.filter { it.onGooglePlay && it.appId.isNotEmpty() }
+fun AvailableTextsScreen(
+    catalog: List<CatalogEntry>,
+    shop: ShopState,
+    onBuy: (String) -> Unit,
+    onDownload: (String) -> Unit,
+    onOpen: (String) -> Unit,
+    onBack: () -> Unit,
+) {
+    val offered = catalog.filter { e ->
+        e.onGooglePlay && (!shop.reachable || e.slug in shop.prices || e.slug in shop.owned || e.installed)
+    }
     Column(
         Modifier.fillMaxSize().safeDrawingPadding().verticalScroll(rememberScrollState()).padding(horizontal = 24.dp, vertical = 16.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
@@ -47,10 +60,20 @@ fun AvailableTextsScreen(catalog: List<CatalogEntry>, onOpen: (String) -> Unit, 
         Text("Available texts", style = MaterialTheme.typography.headlineMedium)
         Spacer(Modifier.height(8.dp))
         Text(
-            "Each text is an app of its own on Google Play. Once it is installed, the text appears on the front page of Anagnosis.",
+            "Each text is bought once, here in Anagnosis, through Google Play. It is then downloaded and appears " +
+                "on the front page, and it comes back on a new phone with the same Google account.",
             style = MaterialTheme.typography.bodyMedium,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
         )
+        if (!shop.reachable) {
+            Spacer(Modifier.height(8.dp))
+            Text(
+                "Google Play cannot be reached just now. Buying a text needs Google Play and an internet connection; " +
+                    "the texts you have are not affected.",
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.error,
+            )
+        }
         Spacer(Modifier.height(16.dp))
         for ((author, texts) in byAuthor(offered)) {
             if (author.isNotEmpty()) {
@@ -74,16 +97,7 @@ fun AvailableTextsScreen(catalog: List<CatalogEntry>, onOpen: (String) -> Unit, 
                             Detail("Syntax", entry.syntax)
                             Detail("Extra dictionaries", entry.dictionaries)
                             Spacer(Modifier.height(8.dp))
-                            Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
-                                if (entry.installed) {
-                                    Text("Installed", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
-                                    Spacer(Modifier.weight(1f))
-                                    OutlinedButton(onClick = { onOpen(entry.slug) }) { Text("Open") }
-                                } else {
-                                    Spacer(Modifier.weight(1f))
-                                    Button(onClick = { uriHandler.openUri(entry.storeUrl) }) { Text("Google Play") }
-                                }
-                            }
+                            Purchase(entry, shop, onBuy, onDownload, onOpen)
                         }
                     }
                 }
@@ -91,6 +105,56 @@ fun AvailableTextsScreen(catalog: List<CatalogEntry>, onOpen: (String) -> Unit, 
         }
         Spacer(Modifier.height(24.dp))
     }
+    }
+}
+
+/** A card's last row: where the text stands with the buyer, and what can be done about it. */
+@Composable
+private fun Purchase(entry: CatalogEntry, shop: ShopState, onBuy: (String) -> Unit, onDownload: (String) -> Unit, onOpen: (String) -> Unit) {
+    val slug = entry.slug
+    val download = shop.downloads[slug]
+    @Composable
+    fun Status(text: String, color: Color = MaterialTheme.colorScheme.onSurfaceVariant) =
+        Text(text, style = MaterialTheme.typography.labelLarge, color = color)
+    Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+        when {
+            entry.installed -> {
+                Status("Owned", MaterialTheme.colorScheme.primary)
+                Spacer(Modifier.weight(1f))
+                OutlinedButton(onClick = { onOpen(slug) }) { Text("Open") }
+            }
+            download?.status == DownloadStatus.WAITING || download?.status == DownloadStatus.DOWNLOADING -> {
+                Column(Modifier.fillMaxWidth()) {
+                    Status(if (download.status == DownloadStatus.DOWNLOADING && download.percent > 0) "Downloading · ${download.percent} %" else "Downloading")
+                    Spacer(Modifier.height(8.dp))
+                    if (download.status == DownloadStatus.DOWNLOADING) {
+                        LinearProgressIndicator(progress = { download.percent / 100f }, modifier = Modifier.fillMaxWidth())
+                    } else {
+                        LinearProgressIndicator(Modifier.fillMaxWidth())
+                    }
+                }
+            }
+            download?.status == DownloadStatus.NEEDS_CONFIRMATION -> {
+                Status("Waiting for Wi-Fi")
+                Spacer(Modifier.weight(1f))
+                Button(onClick = { onDownload(slug) }) { Text("Download now") }
+            }
+            download?.status == DownloadStatus.FAILED -> {
+                Status("Download failed", MaterialTheme.colorScheme.error)
+                Spacer(Modifier.weight(1f))
+                Button(onClick = { onDownload(slug) }) { Text("Try again") }
+            }
+            slug in shop.owned -> {
+                Status("Owned", MaterialTheme.colorScheme.primary)
+                Spacer(Modifier.weight(1f))
+                Button(onClick = { onDownload(slug) }) { Text("Download") }
+            }
+            slug in shop.pending -> Status("Payment pending")
+            shop.reachable && slug in shop.prices -> {
+                Spacer(Modifier.weight(1f))
+                Button(onClick = { onBuy(slug) }) { Text("Buy · ${shop.prices.getValue(slug)}") }
+            }
+        }
     }
 }
 

@@ -39,7 +39,7 @@ import no.anagnosis.data.WorkData
 import no.anagnosis.prefs.ColorTheme
 import no.anagnosis.prefs.SettingsStore
 
-/** The app's screens: the front page, the texts on sale, and the reader. */
+/** The app's screens: the front page, the shop, and the reader. */
 sealed interface Screen {
     data object Home : Screen
     data object Available : Screen
@@ -148,6 +148,9 @@ fun App(
                 Screen.Available -> {
                     if (list == null) Loading() else AvailableTextsScreen(
                         catalog = list,
+                        shop = shopState,
+                        onBuy = { shop.buy(it) },
+                        onDownload = { shop.download(it) },
                         onOpen = { expanded = it; screen = Screen.Reader(it) },
                         onBack = { screen = Screen.Home },
                     )

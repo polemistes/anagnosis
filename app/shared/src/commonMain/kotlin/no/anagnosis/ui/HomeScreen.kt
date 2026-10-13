@@ -82,8 +82,8 @@ fun HomeScreen(
     var fieldFocused by remember { mutableStateOf(false) }
     val focusManager = LocalFocusManager.current
     val installed = catalog.filter { it.installed }
-    // only texts whose app is on Google Play are offered; until there are some, the button says so
-    val anyOffered = catalog.any { it.onGooglePlay && it.appId.isNotEmpty() }
+    // only texts marked as on sale are offered; until there are some, the button says so
+    val anyOffered = catalog.any { it.onGooglePlay }
     // on a tablet the page keeps a readable width in the middle of the screen
     val width = Modifier.widthIn(max = CONTENT_MAX_WIDTH).fillMaxWidth()
     Column(Modifier.fillMaxSize().safeDrawingPadding(), horizontalAlignment = Alignment.CenterHorizontally) {

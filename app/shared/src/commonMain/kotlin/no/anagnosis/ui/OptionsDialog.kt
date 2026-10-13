@@ -182,7 +182,7 @@ fun AboutDialog(appVersion: String, credits: List<Credit>, onDismiss: () -> Unit
                 Spacer(Modifier.height(8.dp))
                 Text(
                     "An app for reading ancient Greek texts, with dictionaries and morphological analysis, working offline. " +
-                        "The app is free; each text, with its translation and commentary, is bought as an app of its own. " +
+                        "The app is free; each text, with its translation and commentary, is bought in the app. " +
                         "The credits for a text are on its own page.",
                     style = MaterialTheme.typography.bodyMedium,
                 )
@@ -279,9 +279,9 @@ fun IntroDialog(onDismiss: () -> Unit) {
             Column(Modifier.verticalScroll(rememberScrollState())) {
                 Text(
                     "Anagnosis is an app for reading ancient Greek texts. On its front page you can look up a headword " +
-                        "in the dictionaries, or type an inflected form to see what it can be. Each text is bought as an app " +
-                        "of its own and comes with an English translation, critical notes and, for most, a commentary, all " +
-                        "available offline.",
+                        "in the dictionaries, or type an inflected form to see what it can be. Each text is bought in the app, " +
+                        "under Available texts, and comes with an English translation, critical notes and, for most, a " +
+                        "commentary, all available offline.",
                     style = MaterialTheme.typography.bodyMedium,
                 )
                 Spacer(Modifier.height(12.dp))

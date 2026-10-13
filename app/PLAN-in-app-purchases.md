@@ -177,7 +177,7 @@ at €3 and activate them; add yourself as a licence tester and buy each text on
 - [x] 1. Packs and catalog (2026-10-13: the bundle holds six on-demand packs; the base is unchanged)
 - [x] 2. Ownership in the reader (2026-10-13)
 - [x] 3. Google Play (2026-10-13; builds, tested in step 5)
-- [ ] 4. The shop page
+- [x] 4. The shop page (2026-10-13)
 - [ ] 5. Test on the emulator
 - [ ] 6. Documents
 - [ ] 7. Purchase signature

@@ -716,7 +716,7 @@ private fun LazyListScope.dictionaryResults(state: SearchState, repository: Anag
 
 private fun LazyListScope.textResults(state: SearchState, installed: List<CatalogEntry>, onOpen: (SearchHit) -> Unit, itemModifier: Modifier) {
     if (installed.isEmpty()) {
-        item { Text("No text is installed yet. The texts are bought as apps of their own.", style = MaterialTheme.typography.bodyMedium, modifier = itemModifier.padding(top = 16.dp)) }
+        item { Text("No text is installed yet. The texts are bought under Available texts on the front page.", style = MaterialTheme.typography.bodyMedium, modifier = itemModifier.padding(top = 16.dp)) }
         return
     }
     val result = state.textResult ?: return
@@ -741,7 +741,7 @@ private fun LazyListScope.textResults(state: SearchState, installed: List<Catalo
 
 private fun LazyListScope.lemmaResults(state: SearchState, installed: List<CatalogEntry>, onOpen: (SearchHit) -> Unit, itemModifier: Modifier) {
     if (installed.isEmpty()) {
-        item { Text("No text is installed yet. The texts are bought as apps of their own.", style = MaterialTheme.typography.bodyMedium, modifier = itemModifier.padding(top = 16.dp)) }
+        item { Text("No text is installed yet. The texts are bought under Available texts on the front page.", style = MaterialTheme.typography.bodyMedium, modifier = itemModifier.padding(top = 16.dp)) }
         return
     }
     if (state.chosen != null) {
