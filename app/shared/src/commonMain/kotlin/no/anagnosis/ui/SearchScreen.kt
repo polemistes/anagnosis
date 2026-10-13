@@ -1,10 +1,11 @@
 package no.anagnosis.ui
 
+import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.ExperimentalLayoutApi
-import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -14,25 +15,26 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.safeDrawingPadding
 import androidx.compose.foundation.layout.widthIn
-import androidx.compose.foundation.horizontalScroll
-import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyListScope
 import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
-import androidx.compose.material3.FilterChip
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Clear
 import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.ui.draw.rotate
+import androidx.compose.material3.Checkbox
+import androidx.compose.material3.DropdownMenu
+import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.RadioButton
 import androidx.compose.material3.SegmentedButton
 import androidx.compose.material3.SegmentedButtonDefaults
 import androidx.compose.material3.SingleChoiceSegmentedButtonRow
@@ -51,6 +53,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.focus.onFocusChanged
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.platform.InterceptPlatformTextInput
 import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.ui.semantics.contentDescription
@@ -139,8 +144,7 @@ class SearchState {
     var searchEnglish by mutableStateOf(false)
     var options by mutableStateOf(SearchOptions())
 
-    /** The commentaries and the reader's own notes are searched only when asked for. */
-    var sources by mutableStateOf(setOf(SearchSource.GREEK, SearchSource.TRANSLATION))
+    var sources by mutableStateOf(DEFAULT_SOURCES)
     var textResult by mutableStateOf<SearchResult?>(null)
     var textRows by mutableStateOf<List<ResultRow>>(emptyList())
 
@@ -222,6 +226,9 @@ class SearchState {
     }
 }
 
+/** The sources a text search starts with; the commentaries and the reader's own notes are searched only when asked for. */
+val DEFAULT_SOURCES: Set<SearchSource> = setOf(SearchSource.GREEK, SearchSource.TRANSLATION)
+
 /** Whether English to Greek can be chosen: Woodhouse is there and turned on. */
 fun SearchState.englishChoice(settings: ReaderSettings): Boolean =
     englishOffered && Dictionaries.WOODHOUSE !in settings.disabledDictionaries
@@ -232,10 +239,6 @@ fun SearchState.lookingUpEnglish(settings: ReaderSettings): Boolean =
 
 /** Whether the app's Greek keyboard is in use: chosen, and not while English is typed. */
 fun SearchState.greekKeys(settings: ReaderSettings): Boolean = settings.greekKeyboard && !lookingUpEnglish(settings)
-
-/** Whether the text holds a Latin letter, and whether it holds a Greek one. */
-private fun hasLatin(s: String) = s.any { it in 'a'..'z' || it in 'A'..'Z' }
-private fun hasGreek(s: String) = s.any { it in '\u0370'..'\u03FF' || it in '\u1F00'..'\u1FFF' }
 
 /** A pattern made Greek by the scheme, leaving what follows a backslash (\b, \s) as typed. */
 private fun toGreekPattern(s: String, scheme: InputScheme): String {
@@ -411,13 +414,15 @@ fun SearchEffects(state: SearchState, repository: AnagnosisRepository, settings:
 }
 
 /**
- * The mode switch, the search field and its options. `navigation` stands in a row of its own
- * above the mode switch (the search page's way back); `fieldModifier` lets the page follow the
- * field's focus; `textSlug` is the text the search was opened from, which offers the choice
- * between that text and all texts. With the app's Greek keyboard the field stays editable, so
- * that it shows its cursor, but the phone's keyboard is kept from opening.
+ * The mode switch, the search field, and under it a line that tells what the search will do.
+ * The options of the mode in use are in a menu under the sliders at the left of the field.
+ * `navigation` stands in a row of its own above the mode switch (the search page's way back);
+ * `fieldModifier` lets the page follow the field's focus; `textSlug` is the text the search was
+ * opened from, which offers the choice between that text and all texts. With the app's Greek
+ * keyboard the field stays editable, so that it shows its cursor, but the phone's keyboard is
+ * kept from opening.
  */
-@OptIn(ExperimentalLayoutApi::class, ExperimentalComposeUiApi::class)
+@OptIn(ExperimentalComposeUiApi::class)
 @Composable
 fun SearchControls(
     state: SearchState,
@@ -426,13 +431,10 @@ fun SearchControls(
     textSlug: String? = null,
     fieldModifier: Modifier = Modifier,
     onSubmit: () -> Unit = {},
-    /** Whether Text mode's chips stand here; the search page puts them at the top of its list instead. */
-    chips: Boolean = true,
     /** Whether any text is installed: without one there is nothing for Text and Lemma to search, and they are not offered. */
     textsAvailable: Boolean = true,
     navigation: (@Composable () -> Unit)? = null,
 ) {
-    val greekQuery = Transliteration.toGreek(state.query.text, settings.inputScheme)
     val english = state.lookingUpEnglish(settings)
     val greekKeys = state.greekKeys(settings)
     val fieldFocus = remember { FocusRequester() }
@@ -476,38 +478,8 @@ fun SearchControls(
                     modifier = fieldModifier.focusRequester(fieldFocus).onFocusChanged { focused = it.isFocused }
                         .fillMaxWidth().padding(top = 4.dp),
                     singleLine = true,
-                    // the keyboard in use, which a tap changes (the app's Greek one or the phone's), and in
-                    // the dictionary EN, which looks up English words in Woodhouse while it is lit
                     leadingIcon = {
-                        Row(verticalAlignment = Alignment.CenterVertically) {
-                            if (!english) {
-                                val label = if (settings.greekKeyboard) "The app's Greek keyboard; tap for the phone's" else "The phone's keyboard; tap for the app's Greek keyboard"
-                                IconButton(
-                                    onClick = { refocus = focused; onSettingsChange(settings.copy(greekKeyboard = !settings.greekKeyboard)) },
-                                    modifier = Modifier.semantics { contentDescription = label },
-                                ) {
-                                    Text(
-                                        if (settings.greekKeyboard) "αβγ" else "abc",
-                                        fontSize = 14.sp,
-                                        color = if (settings.greekKeyboard) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurfaceVariant,
-                                    )
-                                }
-                            }
-                            if (state.mode == SearchMode.DICTIONARY && state.englishChoice(settings)) {
-                                val label = if (english) "English to Greek; tap for Greek to English" else "Greek to English; tap for English to Greek"
-                                IconButton(
-                                    onClick = { refocus = focused; state.english = !state.english },
-                                    modifier = Modifier.semantics { contentDescription = label },
-                                ) {
-                                    Text(
-                                        "EN",
-                                        fontSize = 14.sp,
-                                        fontWeight = if (english) FontWeight.Bold else null,
-                                        color = if (english) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurfaceVariant,
-                                    )
-                                }
-                            }
-                        }
+                        SearchOptionsMenu(state, settings, onSettingsChange, textSlug, fieldFocused = focused) { wasFocused -> refocus = wasFocused }
                     },
                     label = {
                         Text(when (state.mode) {
@@ -520,31 +492,7 @@ fun SearchControls(
                     trailingIcon = if (state.query.text.isEmpty()) null else {
                         { IconButton(onClick = { state.setText(TextFieldValue("")) }) { Icon(Icons.Filled.Clear, contentDescription = "Clear") } }
                     },
-                    supportingText = {
-                        val text = state.query.text
-                        when {
-                            state.mode == SearchMode.TEXT && !state.searchEnglish && hasLatin(text) && !hasGreek(text) -> Text(
-                                "Greek: ${withFinalSigma(state.textQueryAsGreek(settings.inputScheme))} · Search the English",
-                                color = MaterialTheme.colorScheme.primary,
-                                modifier = Modifier.clickable { state.searchEnglish = true },
-                                maxLines = 1, overflow = TextOverflow.Ellipsis,
-                            )
-                            state.mode == SearchMode.TEXT && state.searchEnglish -> Text(
-                                "English · Search the Greek for ${withFinalSigma(state.textQueryAsGreek(settings.inputScheme))}",
-                                color = MaterialTheme.colorScheme.primary,
-                                modifier = Modifier.clickable { state.searchEnglish = false },
-                                maxLines = 1, overflow = TextOverflow.Ellipsis,
-                            )
-                            state.mode == SearchMode.TEXT -> Text(
-                                if (settings.greekKeyboard) "Type a vowel, then its breathing and accent" else "Latin letters type Greek; you can search the English instead",
-                                maxLines = 1, overflow = TextOverflow.Ellipsis,
-                            )
-                            english -> Text("Woodhouse, English-Greek Dictionary", maxLines = 1, overflow = TextOverflow.Ellipsis)
-                            greekQuery != text && greekQuery.isNotEmpty() -> Text(greekQuery)
-                            settings.greekKeyboard -> Text("Type a vowel, then its breathing and accent")
-                            else -> Text(settings.inputScheme.hint)
-                        }
-                    },
+                    supportingText = { Text(state.statusLine(settings, textSlug), maxLines = 1, overflow = TextOverflow.Ellipsis) },
                     keyboardOptions = KeyboardOptions(
                         capitalization = KeyboardCapitalization.None, autoCorrectEnabled = false, keyboardType = KeyboardType.Text,
                         imeAction = if (state.mode == SearchMode.LEMMA) ImeAction.Search else ImeAction.Done,
@@ -556,63 +504,146 @@ fun SearchControls(
                 )
             }
         }
-        // the mode's own options under the field: the analyser's diacritics, the texts' scope
-        // (Text mode's chips follow); nothing for a mode without any
-        val diacritics = state.mode == SearchMode.ANALYSER
-        val scope = inTexts && textSlug != null
-        if (diacritics || scope) {
-            FlowRow(
-                Modifier.fillMaxWidth().padding(bottom = 4.dp),
-                horizontalArrangement = Arrangement.spacedBy(8.dp),
-                itemVerticalAlignment = Alignment.CenterVertically,
-            ) {
-                if (diacritics) {
-                    FilterChip(
-                        selected = settings.exactDiacritics,
-                        onClick = { onSettingsChange(settings.copy(exactDiacritics = !settings.exactDiacritics)) },
-                        label = { Text("Diacritics", fontSize = 12.sp) },
-                    )
-                }
-                if (scope) {
-                    SingleChoiceSegmentedButtonRow {
-                        listOf(true to "This text", false to "All texts").forEachIndexed { i, (mine, label) ->
-                            SegmentedButton(
-                                selected = state.thisText == mine,
-                                onClick = { state.thisText = mine },
-                                shape = SegmentedButtonDefaults.itemShape(i, 2),
-                                icon = {},
-                                label = { Text(label, fontSize = 12.sp, maxLines = 1, softWrap = false) },
-                            )
-                        }
-                    }
-                }
-            }
-        }
-        if (chips && state.mode == SearchMode.TEXT) TextChips(state)
         if (state.busy) LinearProgressIndicator(Modifier.fillMaxWidth().padding(vertical = 2.dp))
     }
 }
 
-/** Text mode's options and its sources, as two rows of chips. Diacritics and Case, when on, make the match exact in them. */
+/**
+ * The line under the field: what the search will look for (the Greek that Latin letters make,
+ * or English), then the choices in the options menu that nothing else shows; in Text mode always
+ * the sources searched ("All sources" for all four). Empty when there is nothing to say, and in
+ * Text mode when no source is chosen.
+ */
+fun SearchState.statusLine(settings: ReaderSettings, textSlug: String?): String {
+    if (mode == SearchMode.TEXT && sources.isEmpty()) return ""
+    val parts = mutableListOf<String>()
+    val text = query.text
+    when {
+        lookingUpEnglish(settings) -> parts += "Woodhouse"
+        mode == SearchMode.TEXT && searchEnglish -> parts += "English"
+        else -> {
+            val greek = if (mode == SearchMode.TEXT) textQueryAsGreek(settings.inputScheme) else Transliteration.toGreek(text, settings.inputScheme)
+            if (greek != text && greek.isNotEmpty()) parts += withFinalSigma(greek)
+        }
+    }
+    when (mode) {
+        SearchMode.DICTIONARY -> {}
+        SearchMode.ANALYSER -> if (settings.exactDiacritics) parts += "Diacritics"
+        SearchMode.TEXT -> {
+            val o = options
+            if (o.exactAccents) parts += "Diacritics"
+            if (o.exactCase) parts += "Case"
+            if (o.wholeWords) parts += "Whole words"
+            if (o.regex) parts += "Regex"
+            if (textSlug != null && !thisText) parts += "All texts"
+            parts += if (sources.size == SearchSource.entries.size) "All sources"
+            else SearchSource.entries.filter { it in sources }.joinToString(", ") { it.label }
+        }
+        SearchMode.LEMMA -> if (textSlug != null && !thisText) parts += "All texts"
+    }
+    return parts.joinToString(" · ")
+}
+
+/**
+ * The options of the mode in use, in a menu under the sliders at the left of the field: the
+ * keyboard in every mode (but not while English words are typed); the dictionary's direction;
+ * the analyser's diacritics; the text search's reading of Latin letters, its matching, and where
+ * it looks. A choice closes the menu. [onKeyboard] is told, when the keyboard is switched,
+ * whether the field was in use when the menu opened, so that it can get the focus back.
+ */
 @Composable
-fun TextChips(state: SearchState) {
-    Column(Modifier.fillMaxWidth()) {
-        val o = state.options
-        ChipRow(
-            listOf(
-                Triple("Diacritics", o.exactAccents) { state.options = o.copy(exactAccents = !o.exactAccents) },
-                Triple("Case", o.exactCase) { state.options = o.copy(exactCase = !o.exactCase) },
-                Triple("Whole words", o.wholeWords) { state.options = o.copy(wholeWords = !o.wholeWords) },
-                Triple("Regex", o.regex) { state.options = o.copy(regex = !o.regex) },
-            ),
-        )
-        ChipRow(
-            SearchSource.entries.map { src ->
-                Triple(src.label, src in state.sources) {
-                    state.sources = if (src in state.sources) state.sources - src else state.sources + src
+private fun SearchOptionsMenu(
+    state: SearchState,
+    settings: ReaderSettings,
+    onSettingsChange: (ReaderSettings) -> Unit,
+    textSlug: String?,
+    fieldFocused: Boolean,
+    onKeyboard: (wasFocused: Boolean) -> Unit,
+) {
+    var open by remember { mutableStateOf(false) }
+    var wasFocused by remember { mutableStateOf(false) }
+    val english = state.lookingUpEnglish(settings)
+    Box {
+        IconButton(onClick = { wasFocused = fieldFocused; open = true }, modifier = Modifier.semantics { contentDescription = "Search options" }) {
+            SlidersIcon(MaterialTheme.colorScheme.onSurfaceVariant)
+        }
+        DropdownMenu(expanded = open, onDismissRequest = { open = false }) {
+            fun choose(action: () -> Unit) { open = false; action() }
+            if (!english) {
+                CheckItem("Greek keyboard", settings.greekKeyboard) {
+                    choose { onKeyboard(wasFocused); onSettingsChange(settings.copy(greekKeyboard = !settings.greekKeyboard)) }
                 }
-            },
-        )
+            }
+            val scope: @Composable () -> Unit = {
+                if (textSlug != null) {
+                    RadioItem("This text", state.thisText) { choose { state.thisText = true } }
+                    RadioItem("All texts", !state.thisText) { choose { state.thisText = false } }
+                }
+            }
+            when (state.mode) {
+                SearchMode.DICTIONARY -> if (state.englishChoice(settings)) {
+                    MenuHeading("Dictionary")
+                    RadioItem("Greek → English", !state.english) { choose { state.english = false } }
+                    RadioItem("English → Greek", state.english) { choose { state.english = true } }
+                }
+                SearchMode.ANALYSER -> {
+                    MenuHeading("Match")
+                    CheckItem("Diacritics", settings.exactDiacritics) { choose { onSettingsChange(settings.copy(exactDiacritics = !settings.exactDiacritics)) } }
+                }
+                SearchMode.TEXT -> {
+                    MenuHeading("Latin letters")
+                    RadioItem("Type Greek", !state.searchEnglish) { choose { state.searchEnglish = false } }
+                    RadioItem("Search the English", state.searchEnglish) { choose { state.searchEnglish = true } }
+                    MenuHeading("Match")
+                    val o = state.options
+                    CheckItem("Diacritics", o.exactAccents) { choose { state.options = o.copy(exactAccents = !o.exactAccents) } }
+                    CheckItem("Case", o.exactCase) { choose { state.options = o.copy(exactCase = !o.exactCase) } }
+                    CheckItem("Whole words", o.wholeWords) { choose { state.options = o.copy(wholeWords = !o.wholeWords) } }
+                    CheckItem("Regex", o.regex) { choose { state.options = o.copy(regex = !o.regex) } }
+                    MenuHeading("Search in")
+                    scope()
+                    for (src in SearchSource.entries) {
+                        CheckItem(src.label, src in state.sources) {
+                            choose { state.sources = if (src in state.sources) state.sources - src else state.sources + src }
+                        }
+                    }
+                }
+                SearchMode.LEMMA -> if (textSlug != null) {
+                    MenuHeading("Search in")
+                    scope()
+                }
+            }
+        }
+    }
+}
+
+/** A heading of a section of the options menu, with a rule above it. */
+@Composable
+private fun MenuHeading(title: String) {
+    HorizontalDivider(Modifier.padding(vertical = 4.dp))
+    Text(title, style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.primary, modifier = Modifier.padding(horizontal = 16.dp, vertical = 4.dp))
+}
+
+@Composable
+private fun CheckItem(label: String, on: Boolean, onClick: () -> Unit) {
+    DropdownMenuItem(text = { Text(label) }, onClick = onClick, leadingIcon = { Checkbox(checked = on, onCheckedChange = null) })
+}
+
+@Composable
+private fun RadioItem(label: String, on: Boolean, onClick: () -> Unit) {
+    DropdownMenuItem(text = { Text(label) }, onClick = onClick, leadingIcon = { RadioButton(selected = on, onClick = null) })
+}
+
+/** Three sliders, the usual sign of options to adjust. */
+@Composable
+private fun SlidersIcon(color: Color) {
+    Canvas(Modifier.size(20.dp)) {
+        val stroke = 2.dp.toPx()
+        val knob = 2.6.dp.toPx()
+        for ((y, k) in listOf(0.2f to 0.68f, 0.5f to 0.32f, 0.8f to 0.56f)) {
+            drawLine(color, Offset(0f, size.height * y), Offset(size.width, size.height * y), strokeWidth = stroke, cap = StrokeCap.Round)
+            drawCircle(color, radius = knob, center = Offset(size.width * k, size.height * y))
+        }
     }
 }
 
@@ -623,19 +654,6 @@ private fun SearchState.textQueryAsGreek(scheme: InputScheme): String =
 /** Greek as shown to the reader: a sigma at the end of a word written ς. */
 private fun withFinalSigma(s: String): String = FINAL_SIGMA.replace(s, "ς")
 private val FINAL_SIGMA = Regex("σ(?![\\p{L}])")
-
-/** A row of filter chips that scrolls sideways when the screen is too narrow for it. */
-@Composable
-private fun ChipRow(chips: List<Triple<String, Boolean, () -> Unit>>) {
-    Row(
-        Modifier.fillMaxWidth().horizontalScroll(rememberScrollState()),
-        horizontalArrangement = Arrangement.spacedBy(6.dp),
-    ) {
-        for ((label, on, toggle) in chips) {
-            FilterChip(selected = on, onClick = toggle, label = { Text(label, fontSize = 12.sp) })
-        }
-    }
-}
 
 /**
  * The results: the analyses or headwords found, each opening its word sheet, or the hits in the
@@ -912,15 +930,12 @@ fun SearchScreen(
         SearchControls(
             state, settings, onSettingsChange, textSlug,
             fieldModifier = Modifier.focusRequester(focus).onFocusChanged { fieldFocused = it.isFocused },
-            chips = false,
             onSubmit = { state.submit() },
             textsAvailable = installed.isNotEmpty(),
         ) {
             TextButton(onClick = onBack) { Text("‹ Back") }
         }
         LazyColumn(Modifier.weight(1f).fillMaxWidth(), state = state.listState, contentPadding = PaddingValues(vertical = 4.dp)) {
-            // the chips scroll away with the results, which leaves them room under the keyboard
-            if (state.mode == SearchMode.TEXT) item { TextChips(state) }
             searchResults(state, repository, installed, onOpen)
             item { Spacer(Modifier.height(48.dp)) }
         }
