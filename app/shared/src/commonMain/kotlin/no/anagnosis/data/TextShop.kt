@@ -40,11 +40,11 @@ class Download(val status: DownloadStatus, val percent: Int = 0)
 
 enum class DownloadStatus { WAITING, DOWNLOADING, NEEDS_CONFIRMATION, FAILED }
 
-/** The store's product id of a text. */
-fun productId(slug: String): String = "text_$slug"
-
-/** The text a product id stands for, or null when it is not a text. */
-fun slugOfProduct(productId: String): String? = productId.removePrefix("text_").takeIf { it != productId }
+/**
+ * A text on sale in the reader: its slug (also the name of its asset pack), its product id in
+ * the store (author, work and edition: sophocles_electra_jebb), and its version in this build.
+ */
+class OnSale(val slug: String, val productId: String, val version: String)
 
 /** A shop that is never reachable: for a platform without a store. */
 object NoTextShop : TextShop {

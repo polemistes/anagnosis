@@ -2,7 +2,6 @@ package no.anagnosis.data
 
 import kotlin.test.Test
 import kotlin.test.assertEquals
-import kotlin.test.assertNull
 
 class TextOwnershipTest {
     @Test
@@ -34,12 +33,5 @@ class TextOwnershipTest {
         // Antigone is up to date, Electra came with its app, and a product without a text in
         // the catalog is not fetched
         assertEquals(listOf("ajax", "odyssey"), fetch)
-    }
-
-    @Test
-    fun productIds() {
-        assertEquals("text_newtestament", productId("newtestament"))
-        assertEquals("newtestament", slugOfProduct("text_newtestament"))
-        assertNull(slugOfProduct("bundle_sophocles"))
     }
 }

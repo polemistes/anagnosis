@@ -13,8 +13,11 @@ The shop goes into reader 0.3.0 (version code 5), which has not been uploaded ye
 
 Decisions already taken (do not reopen them):
 
-* One product per text, a one-time ("non-consumable") product with the id `text_<slug>`
-  (`text_antigone`, `text_newtestament`). The author sets the price (€3) in Play Console.
+* One product per text, a one-time ("non-consumable") product. Its id is author, work and
+  edition (`sophocles_electra_jebb`, `homer_odyssey_allen`, `newtestament_sbl`), given as
+  `product_id` in the text's about.md, since a product id can never change and a slug such as
+  `electra` would not tell Sophocles' Electra from Euripides' (author's decision 2026-10-14;
+  first planned as `text_<slug>`). The author sets the price (€3) in Play Console.
 * The shop shows Play's price in the buyer's own currency on the Buy button.
 * A text is owned when Play says the account bought it, or when its text app is installed
   (signed with the reader's key, as now). The shop marks such a text Owned and offers no Buy.
@@ -96,7 +99,7 @@ when the app comes to the front.
   `enablePendingPurchases(PendingPurchasesParams.newBuilder().enableOneTimeProducts().build())`
   and `enableAutoServiceReconnection()`, started in `MainActivity`.
 * On connect and on every `refresh()` (the app coming to the front):
-  `queryProductDetailsAsync` for the `text_<slug>` of every text marked on sale (prices from
+  `queryProductDetailsAsync` for the product id of every text marked on sale (prices from
   `oneTimePurchaseOfferDetails.formattedPrice`), and `queryPurchasesAsync(INAPP)`.
 * A purchase in state PURCHASED: owned; acknowledged (`acknowledgePurchase`) if it is not yet.
   PENDING: shown as "Payment pending", not owned. The owned set is saved in the preferences
@@ -171,7 +174,7 @@ texts are bought under Available texts on the front page.
 ## Left to the author in Play Console
 
 Payments profile; upload the 0.3.0 bundle to internal testing (products can only be created
-once a bundle with the Billing permission is uploaded); create the six products `text_<slug>`
+once a bundle with the Billing permission is uploaded); create the six products (ids in play/README.md)
 at €3 and activate them; add yourself as a licence tester and buy each text on your own phone
 (licence testers are not charged); Data safety form looked at again; then production.
 

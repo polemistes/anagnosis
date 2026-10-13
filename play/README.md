@@ -12,17 +12,17 @@ than the app people download (about 100 MB uploaded; the texts are fetched only 
 
 ## In Play Console
 
-The reader is free; each text is a one-time in-app product at €3, with the product id
-`text_<slug>`:
+The reader is free; each text is a one-time in-app product at €3. The product id is author,
+work and edition, as given in the text's `about.md` (`product_id`); it can never be changed:
 
 | Text | Product id |
 |---|---|
-| Antigone | text_antigone |
-| Ajax | text_ajax |
-| Electra | text_electra |
-| Odyssey | text_odyssey |
-| Symposium | text_symposium |
-| New Testament | text_newtestament |
+| Antigone | sophocles_antigone_jebb |
+| Ajax | sophocles_ajax_jebb |
+| Electra | sophocles_electra_jebb |
+| Odyssey | homer_odyssey_allen |
+| Symposium | plato_symposium_burnet |
+| New Testament | newtestament_sbl |
 
 1. Payments profile (needed before anything can be sold).
 2. The reader exists already (no.anagnosis.reader, with Play App Signing). Upload the 0.3.0
@@ -51,7 +51,7 @@ The reader is free; each text is a one-time in-app product at €3, with the pro
    products stay as they are.
 
 A new text later: build it, add its pack (app/packs/<slug>, app/settings.gradle.kts and the
-reader's `assetPacks`), mark it `google_play: yes`, release a reader update, then create and
+reader's `assetPacks`), mark it `google_play: yes` with its `product_id`, release a reader update, then create and
 activate its product.
 
 ## Text apps (optional)

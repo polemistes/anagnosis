@@ -13,5 +13,6 @@
 # syntax_license: CC BY-SA 3.0 US
 # dictionaries: Autenrieth's Homeric Dictionary
 # google_play: yes
+# product_id: homer_odyssey_allen
 
 The Greek text of T. W. Allen's Oxford edition with its critical apparatus, A. T. Murray's translation, the commentary of Merry, Riddell and Monro, Autenrieth's Homeric Dictionary and the Liddell–Scott dictionaries. Tap any word for its meaning and form.

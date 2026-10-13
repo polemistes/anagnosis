@@ -13,25 +13,28 @@ import kotlinx.coroutines.flow.update
 import no.anagnosis.DriverFactory
 import no.anagnosis.data.Download
 import no.anagnosis.data.DownloadStatus
+import no.anagnosis.data.OnSale
 import no.anagnosis.data.ShopState
 import no.anagnosis.data.TextOwnership
 import no.anagnosis.data.TextShop
-import no.anagnosis.data.productId
-import no.anagnosis.data.slugOfProduct
 import java.util.concurrent.Executors
 
 /**
  * The texts bought in the reader through Google Play: the payments go through [Billing], and a
  * bought text arrives as the on-demand asset pack of the same name (app/packs/<slug>), which
  * is copied in and then removed. What is owned is saved after every answer from the store, so
- * the texts stay readable offline. [onSale] holds the slugs and versions of the texts the
- * catalog marks as on sale.
+ * the texts stay readable offline. [onSale] holds the texts the catalog marks as on sale.
  */
 class PlayTextShop(
     private val activity: Activity,
     private val driverFactory: DriverFactory,
-    private val onSale: Map<String, String>,
+    onSale: List<OnSale>,
 ) : TextShop {
+    /** The version of each text on sale in this build, by slug. */
+    private val versions = onSale.associate { it.slug to it.version }
+    private val productOf = onSale.associate { it.slug to it.productId }
+    private val slugOf = onSale.associate { it.productId to it.slug }
+
     private val prefs = activity.getSharedPreferences(PREFS, Context.MODE_PRIVATE)
     private val _state = MutableStateFlow(ShopState(owned = prefs.getStringSet(OWNED, null).orEmpty().toSet()))
     override val state: StateFlow<ShopState> = _state.asStateFlow()
@@ -56,16 +59,18 @@ class PlayTextShop(
     }
 
     override fun refresh() {
-        billing.prices(onSale.keys.map(::productId)) { prices ->
+        billing.prices(productOf.values.toList()) { prices ->
             _state.update { s ->
                 if (prices == null) s.copy(reachable = false)
-                else s.copy(reachable = true, prices = prices.mapNotNull { (id, price) -> slugOfProduct(id)?.let { it to price } }.toMap())
+                else s.copy(reachable = true, prices = prices.mapNotNull { (id, price) -> slugOf[id]?.let { it to price } }.toMap())
             }
         }
         billing.purchases { bought -> if (bought != null) takePurchases(bought, complete = true) }
     }
 
-    override fun buy(slug: String) = billing.buy(activity, productId(slug))
+    override fun buy(slug: String) {
+        productOf[slug]?.let { billing.buy(activity, it) }
+    }
 
     override fun download(slug: String) {
         if (_state.value.downloads[slug]?.status == DownloadStatus.NEEDS_CONFIRMATION) {
@@ -81,7 +86,7 @@ class PlayTextShop(
      * so a refunded text is no longer shown; a list of new purchases adds to it.
      */
     private fun takePurchases(bought: List<Bought>, complete: Boolean) {
-        fun slugs(state: BoughtState) = bought.filter { it.state == state }.flatMap { it.productIds }.mapNotNull(::slugOfProduct).toSet()
+        fun slugs(state: BoughtState) = bought.filter { it.state == state }.flatMap { it.productIds }.mapNotNull { slugOf[it] }.toSet()
         val paid = slugs(BoughtState.PURCHASED)
         val pending = slugs(BoughtState.PENDING)
         for (b in bought) if (b.state == BoughtState.PURCHASED && !b.acknowledged) billing.acknowledge(b.token)
@@ -102,8 +107,8 @@ class PlayTextShop(
         val s = _state.value
         val missing = TextOwnership.toFetch(
             owned = s.owned,
-            storeVersions = onSale.keys.associateWith { driverFactory.packTextVersion(it) },
-            catalogVersions = onSale,
+            storeVersions = versions.keys.associateWith { driverFactory.packTextVersion(it) },
+            catalogVersions = versions,
             fromApps = driverFactory.textsFromApps(),
         ).filter { s.downloads[it] == null || s.downloads[it]?.status == DownloadStatus.FAILED }
         if (missing.isNotEmpty()) fetch(missing)
@@ -118,7 +123,7 @@ class PlayTextShop(
 
     private fun onPackState(st: AssetPackState) {
         val slug = st.name()
-        if (slug !in onSale) return
+        if (slug !in versions) return
         when (st.status()) {
             AssetPackStatus.PENDING -> setDownload(listOf(slug), Download(DownloadStatus.WAITING))
             AssetPackStatus.DOWNLOADING -> {
@@ -139,7 +144,7 @@ class PlayTextShop(
         synchronized(installing) { if (!installing.add(slug)) return }
         installer.execute {
             try {
-                if (driverFactory.packTextVersion(slug) != onSale[slug]) {
+                if (driverFactory.packTextVersion(slug) != versions[slug]) {
                     val location = packs.getPackLocation(slug)?.assetsPath() ?: error("$slug is not on the device")
                     driverFactory.installPackText(slug, location)
                     packs.removePack(slug)

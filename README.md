@@ -79,7 +79,8 @@ See [texts/README.md](texts/README.md) for the file formats.
 
 The reader (`no.anagnosis.reader`) is free and carries no text: without one it is a dictionary
 and word analyser. Every text is sold inside it as a one-time in-app product through Google Play
-Billing, with the product id `text_<slug>` (`text_antigone`, `text_newtestament`). The text itself
+Billing, with the product id given in its `about.md` (author, work and edition:
+`sophocles_electra_jebb`, `newtestament_sbl`; a product id can never change). The text itself
 travels with the reader's bundle as an on-demand asset pack (`app/packs/<slug>`), which Google
 Play hosts and downloads once the text is bought; the reader copies it in and removes the pack.
 The reader's shop (Available texts) lists the texts marked `google_play: yes` in their

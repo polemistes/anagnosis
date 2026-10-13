@@ -285,8 +285,11 @@ longer description (not shown in the app at present); its `# key: value` headers
   text's About and credits.
 * `google_play: yes`: the text is on sale in the reader: it has an asset pack (`app/packs/<slug>`,
   listed in app/settings.gradle.kts and the reader's `assetPacks`) and the shop offers it as the
-  in-app product `text_<slug>`, once that product is active in Play Console. Texts without it
-  are not listed.
+  in-app product named by `product_id`, once that product is active in Play Console. Texts
+  without it are not listed.
+* `product_id`: the text's product id in Google Play: author, work and edition, in lower case
+  with underscores (`sophocles_electra_jebb`, `homer_odyssey_allen`, `newtestament_sbl`). It can
+  never be changed or reused once the product is created.
 
 The catalog is bundled with the reader, so a change here reaches users with the reader's next
 update. `catalog` rewrites the catalog without rebuilding any database; it also writes each

@@ -19,6 +19,7 @@
     "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
     "syntax_license": "CC BY-SA 3.0 US",
     "google_play": "yes",
+    "product_id": "sophocles_ajax_jebb",
     "version": "a93c38f7c879ce5e"
   },
   {
@@ -41,6 +42,7 @@
     "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
     "syntax_license": "CC BY-SA 3.0 US",
     "google_play": "yes",
+    "product_id": "sophocles_antigone_jebb",
     "version": "cb88454d5807aaa4"
   },
   {
@@ -63,6 +65,7 @@
     "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
     "syntax_license": "CC BY-SA 3.0 US",
     "google_play": "yes",
+    "product_id": "sophocles_electra_jebb",
     "version": "ce21304b288f6be9"
   },
   {
@@ -84,6 +87,7 @@
     "syntax_license": "CC BY 4.0",
     "dictionaries": "Abbott-Smith's and Dodson's lexicons of the New Testament",
     "google_play": "yes",
+    "product_id": "newtestament_sbl",
     "version": "8921626926ca79a5"
   },
   {
@@ -107,6 +111,7 @@
     "syntax_license": "CC BY-SA 3.0 US",
     "dictionaries": "Autenrieth's Homeric Dictionary",
     "google_play": "yes",
+    "product_id": "homer_odyssey_allen",
     "version": "6efede46bde26168"
   },
   {
@@ -189,6 +194,7 @@
     "syntax_source": "GLAUx (Alek Keersmaekers, KU Leuven): automatic annotation, not checked by hand",
     "syntax_license": "CC BY-SA 4.0",
     "google_play": "yes",
+    "product_id": "plato_symposium_burnet",
     "version": "c8caf995258b8759"
   },
   {

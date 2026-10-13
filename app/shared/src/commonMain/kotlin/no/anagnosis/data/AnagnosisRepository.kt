@@ -38,14 +38,15 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
         return entries.map { it.copy(installed = it.slug in installed) }.distinctBy { it.slug } + extra
     }
 
-    /** The texts on sale in the reader, with the version of each in this build, by slug. */
-    fun textsOnSale(): Map<String, String> =
+    /** The texts on sale in the reader: those marked so, with a product id and a built database. */
+    fun textsOnSale(): List<OnSale> =
         driverFactory.readCatalog()?.let(::parseCatalog).orEmpty().distinctBy { it.slug }
-            .filter { it.onGooglePlay && it.version.isNotEmpty() }.associate { it.slug to it.version }
+            .filter { it.onGooglePlay && it.productId.isNotEmpty() && it.version.isNotEmpty() }
+            .map { OnSale(it.slug, it.productId, it.version) }
 
     private fun CatalogEntry.copy(installed: Boolean) =
         CatalogEntry(slug, title, author, titleEn, authorEn, description, edition, installed, appId,
-            editor, apparatus, translation, commentary, syntax, dictionaries, onGooglePlay,
+            editor, apparatus, translation, commentary, syntax, dictionaries, onGooglePlay, productId,
             refEdition, refTranslation, refCommentary, syntaxSource, syntaxLicense, version)
 
     private fun parseCatalog(json: String): List<CatalogEntry> {
@@ -59,7 +60,7 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
             CatalogEntry(field(o, "slug"), field(o, "title"), field(o, "author"), field(o, "title_en"),
                 field(o, "author_en"), field(o, "description"), field(o, "edition"), false, field(o, "app_id"),
                 field(o, "editor"), field(o, "apparatus"), field(o, "translation"), field(o, "commentary"),
-                field(o, "syntax"), field(o, "dictionaries"), field(o, "google_play") == "yes",
+                field(o, "syntax"), field(o, "dictionaries"), field(o, "google_play") == "yes", field(o, "product_id"),
                 field(o, "ref_edition"), field(o, "ref_translation"), field(o, "ref_commentary"),
                 field(o, "syntax_source"), field(o, "syntax_license"), field(o, "version"))
         }.filter { it.slug.isNotEmpty() }.toList()

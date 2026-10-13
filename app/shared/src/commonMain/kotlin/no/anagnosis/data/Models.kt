@@ -32,6 +32,8 @@ class CatalogEntry(
     val dictionaries: String = "",
     /** Whether the text is on sale in the reader, so that the shop offers it. */
     val onGooglePlay: Boolean = false,
+    /** The text's product id in the store (sophocles_electra_jebb); it can never change. */
+    val productId: String = "",
     /** The books the text's edition, translation and commentary come from, for its own page; empty when it has none. */
     val refEdition: String = "",
     val refTranslation: String = "",
