@@ -147,3 +147,18 @@ SELECT * FROM documents WHERE work_id = ? AND slug = ?;
 
 selectDocuments:
 SELECT id, work_id, slug, title, source, license FROM documents WHERE work_id = ? ORDER BY id;
+
+-- For the search: a commentary's notes whole, the lemmas with their counts, the aliases, and
+-- where the words of a lemma stand.
+selectAllNotes:
+SELECT id, n, from_n_int, to_n_int, html FROM commentary_notes WHERE commentary_id = ? ORDER BY ord;
+
+selectLemmaCounts:
+SELECT lemma_key, MIN(lemma) AS lemma, COUNT(*) AS n FROM tokens GROUP BY lemma_key;
+
+selectAliases:
+SELECT * FROM lemma_aliases;
+
+selectOccurrences:
+SELECT tokens.start, tokens.end, lines.n_int, lines.n_sub, lines.text, lines.ord AS line_ord, tokens.ord AS token_ord
+FROM tokens JOIN lines ON lines.id = tokens.line_id WHERE tokens.lemma_key = ? ORDER BY lines.ord, tokens.ord;

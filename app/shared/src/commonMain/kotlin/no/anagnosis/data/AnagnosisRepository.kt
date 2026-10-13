@@ -7,6 +7,7 @@ import no.anagnosis.db.Tokens
 import no.anagnosis.inflate
 import no.anagnosis.lexdb.LexiconDatabase
 import no.anagnosis.notesdb.NotesDatabase
+import no.anagnosis.ui.plainText
 import no.anagnosis.nowMillis
 
 class AnagnosisRepository(private val driverFactory: DriverFactory) {
@@ -53,20 +54,25 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
         }.filter { it.slug.isNotEmpty() }.toList()
     }
 
-    fun loadWork(slug: String): WorkData {
+    /**
+     * Everything needed to read a text. A [light] work has its lines and sections only (no words,
+     * translations or commentaries): enough for the search to cite and group its hits, without
+     * the seconds the words of a long text take.
+     */
+    fun loadWork(slug: String, light: Boolean = false): WorkData {
         val q = textDb(slug).anagnosisQueries
         val work = q.selectWorkBySlug(slug).executeAsOne()
         val lines = q.selectLines(work.id).executeAsList()
-        val tokens = q.selectTokensForWork(work.id).executeAsList().groupBy { it.line_id }
-        val nodes = q.selectNodesForWork(work.id).executeAsList().groupBy { it.sentence }
+        val tokens = if (light) emptyMap() else q.selectTokensForWork(work.id).executeAsList().groupBy { it.line_id }
+        val nodes = if (light) emptyMap() else q.selectNodesForWork(work.id).executeAsList().groupBy { it.sentence }
         val sections = q.selectSections(work.id).executeAsList()
             .filter { it.first_line_id != null }
             .groupBy { it.first_line_id!! }
-        val translations = q.selectTranslations(work.id).executeAsList().map {
+        val translations = if (light) emptyList() else q.selectTranslations(work.id).executeAsList().map {
             TranslationData(it, q.selectSegments(it.id).executeAsList())
         }
-        val commentaries = q.selectCommentaries(work.id).executeAsList()
-        val starts = q.selectNoteStarts().executeAsList()
+        val commentaries = if (light) emptyList() else q.selectCommentaries(work.id).executeAsList()
+        val starts = if (light) emptyList() else q.selectNoteStarts().executeAsList()
         val withNotes = HashSet<Long>()
         var i = 0
         for (line in lines) {
@@ -301,6 +307,89 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
         }
         if (entry.syntaxSource.isNotEmpty()) {
             out += Credit("Lemmas, morphology and syntax", entry.syntaxSource, null, entry.syntaxLicense.ifEmpty { null })
+        }
+        return out
+    }
+
+    // --- search ---------------------------------------------------------------------------
+
+    private val corpora = HashMap<String, TextCorpus>()
+    private val lemmaEntryCache = HashMap<String, Pair<List<LemmaEntry>, Map<String, String>>>()
+    private var lemmaRowCache: Pair<List<String>, List<LemmaRow>>? = null
+
+    /**
+     * A text made ready for the free-text search: its light work (for citations and books) and
+     * one document for the Greek, one per translation and one per commentary. Built once.
+     */
+    fun corpus(slug: String): TextCorpus = corpora.getOrPut(slug) {
+        val work = loadWork(slug, light = true)
+        val q = textDb(slug).anagnosisQueries
+        val docs = mutableListOf<SearchDoc>()
+        docs += SearchDoc(slug, SearchSource.GREEK, "", work.lines.map { SearchUnit(it.n_int, it.n_sub, it.text) })
+        for (t in q.selectTranslations(work.work.id).executeAsList()) {
+            val units = q.selectSegments(t.id).executeAsList().map { SearchUnit(it.from_n_int, it.from_n_sub, it.text) }
+            docs += SearchDoc(slug, SearchSource.TRANSLATION, SearchSource.TRANSLATION.label, units)
+        }
+        for (c in q.selectCommentaries(work.work.id).executeAsList()) {
+            val units = q.selectAllNotes(c.id).executeAsList().map { SearchUnit(it.from_n_int, "", plainText(it.html), extra = c.id) }
+            docs += SearchDoc(slug, SearchSource.COMMENTARY, c.kind().label, units)
+        }
+        TextCorpus(slug, work, docs)
+    }
+
+    /** The reader's notes on a text as a search document; made anew at every search, since notes change. */
+    fun notesDoc(slug: String): SearchDoc =
+        SearchDoc(slug, SearchSource.NOTES, "Note", notes(slug).map { SearchUnit(it.from.nInt, it.from.nSub, it.body, extra = it.id) })
+
+    /** Searches the given sources of the given texts, in the order of [slugs]. */
+    fun searchTexts(slugs: List<String>, query: String, options: SearchOptions, sources: Set<SearchSource>, isActive: () -> Boolean = { true }): SearchResult {
+        val docs = mutableListOf<SearchDoc>()
+        for (slug in slugs) {
+            if (!isActive()) throw kotlin.coroutines.cancellation.CancellationException("search cancelled")
+            docs += corpus(slug).docs.filter { it.source in sources }
+            if (SearchSource.NOTES in sources) docs += notesDoc(slug)
+        }
+        return TextSearch.search(docs, query, options, isActive)
+    }
+
+    /** A text's lemmas with their counts, and its aliases (lemma key to the key the dictionaries use). */
+    private fun lemmaEntries(slug: String): Pair<List<LemmaEntry>, Map<String, String>> = lemmaEntryCache.getOrPut(slug) {
+        val q = textDb(slug).anagnosisQueries
+        val entries = q.selectLemmaCounts().executeAsList().map { LemmaEntry(slug, it.lemma_key, it.lemma ?: it.lemma_key, it.n.toInt()) }
+        val aliases = q.selectAliases().executeAsList().associate { it.lemma_key to it.target_key }
+        entries to aliases
+    }
+
+    /** The lemmas of the given texts, joined across them (see [LemmaIndex.merge]). */
+    fun lemmaRows(slugs: List<String>): List<LemmaRow> {
+        lemmaRowCache?.let { if (it.first == slugs) return it.second }
+        val parts = slugs.associateWith { lemmaEntries(it) }
+        val rows = LemmaIndex.merge(parts.values.flatMap { it.first }, parts.mapValues { it.value.second })
+        lemmaRowCache = slugs to rows
+        return rows
+    }
+
+    /** The first short definition found for a row: in a text's own definitions, then the shared ones. */
+    fun glossFor(row: LemmaRow): String? {
+        for (key in row.keys) {
+            for ((slug, keys) in row.keysBySlug) {
+                if (key !in keys) continue
+                textDb(slug).anagnosisQueries.selectShortDefinition(key).executeAsOneOrNull()?.let { return it.definition }
+            }
+            lexicon.lexiconQueries.selectShortDefinition(key).executeAsOneOrNull()?.let { return it }
+        }
+        return null
+    }
+
+    /** Every word of a row's lemma in the given texts, as Greek hits, in the order of [slugs] and then of each text. */
+    fun occurrences(row: LemmaRow, slugs: List<String>): List<SearchHit> {
+        val out = mutableListOf<SearchHit>()
+        for (slug in slugs) {
+            val keys = row.keysBySlug[slug] ?: continue
+            val q = textDb(slug).anagnosisQueries
+            out += keys.flatMap { q.selectOccurrences(it).executeAsList() }
+                .sortedWith(compareBy({ it.line_ord }, { it.token_ord }))
+                .map { SearchHit(slug, SearchSource.GREEK, "", it.n_int, it.n_sub, it.text, it.start.toInt(), it.end.toInt()) }
         }
         return out
     }

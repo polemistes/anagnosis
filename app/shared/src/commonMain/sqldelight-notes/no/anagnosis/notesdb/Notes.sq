@@ -31,3 +31,6 @@ UPDATE notes SET body = :body, modified = :modified WHERE id = :id;
 
 delete:
 DELETE FROM notes WHERE id = ?;
+
+selectAll:
+SELECT * FROM notes ORDER BY text_slug, from_n_int, from_n_sub, from_word, id;

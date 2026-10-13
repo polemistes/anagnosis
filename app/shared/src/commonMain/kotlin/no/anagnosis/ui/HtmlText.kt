@@ -116,6 +116,16 @@ fun htmlToAnnotated(
     appendText(html.substring(pos))
 }
 
+/**
+ * The text of a commentary note without its markup, for the search: tags removed (a paragraph or
+ * line break becomes a space), entities unescaped, whitespace collapsed.
+ */
+fun plainText(html: String): String =
+    unescape(BREAK.replace(html, " ").let { TAG.replace(it, "") }).replace(SPACES, " ").trim()
+
+private val BREAK = Regex("</p>|<br\\s*/?>|</li>", RegexOption.IGNORE_CASE)
+private val SPACES = Regex("\\s+")
+
 private fun unescape(s: String): String = s
     .replace("&lt;", "<").replace("&gt;", ">").replace("&quot;", "\"")
     .replace("&#39;", "'").replace("&apos;", "'").replace("&nbsp;", " ")

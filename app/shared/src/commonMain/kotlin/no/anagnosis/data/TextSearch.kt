@@ -70,6 +70,9 @@ class SearchHit(
     val extra: Long = 0,
 )
 
+/** A text made ready for the search: its light work (citations, books) and its documents. */
+class TextCorpus(val slug: String, val work: WorkData, val docs: List<SearchDoc>)
+
 /** What a search found; [error] is set when the pattern is not a valid regular expression. */
 class SearchResult(val hits: List<SearchHit>, val truncated: Boolean = false, val error: String? = null) {
     companion object {
