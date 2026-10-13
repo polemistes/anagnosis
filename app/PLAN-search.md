@@ -92,9 +92,9 @@ Pure Kotlin, no database, no Compose, fully unit-tested.
         fun excerpt(hit: SearchHit, whole: Boolean): Excerpt   // Excerpt(text, start, end): the match's place in the excerpt
     }
 
-`label` names the source on a hit: "" for the Greek, the translator's surname (the word after
-the last space of `translations.translator`, or "Translation"), "Apparatus" or "Commentary"
-(`NoteKind.label`), "Note".
+`label` names the source on a hit: "" for the Greek, "Translation" (every text has one
+translation; a surname would give "Committee" for the New Testament), "Apparatus" or
+"Commentary" (`NoteKind.label`), "Note".
 
 **Scanning.** The needle is `TextFold.fold(query, …)`, trimmed; empty gives no hits. Plain
 mode: `indexOf` in a loop, advancing past each match. Regex mode: `Regex(foldPattern(query))`,
@@ -381,7 +381,7 @@ Commit: "Help and READMEs for the search".
 
 ## Progress
 
-- [ ] Step 1: folding and the engine
+- [x] Step 1: folding and the engine
 - [ ] Step 2: data layer
 - [ ] Step 3: the search page in Text mode
 - [ ] Step 4: Lemma mode and Occurrences

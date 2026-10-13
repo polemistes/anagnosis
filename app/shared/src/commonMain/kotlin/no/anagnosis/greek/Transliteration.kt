@@ -67,6 +67,12 @@ object GreekNormalizer {
         return sb.toString()
     }
 
+    /**
+     * The lower-case base letter of a Greek letter that carries diacritics (Ἄ and ᾤ give α and ω,
+     * ῥ gives ρ), or null for any other character, plain Greek letters included.
+     */
+    fun baseLetter(c: Char): Char? = strip[c]
+
     /** The key with a medial sigma at the end, for prefix searches where the word goes on. */
     fun prefixKey(s: String): String {
         val k = looseKey(s)
