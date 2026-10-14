@@ -294,6 +294,12 @@ fun ReaderScreen(
         else markSpans + (t.line_id to (markSpans[t.line_id].orEmpty() + NoteSpan(t.start.toInt(), t.end.toInt(), PENDING_NOTE_ID)))
     }
     fun cancelSelection() { selecting = false; selectionStart = null }
+    /** While a passage is being chosen for a note: what to tap next, shown in the top bar. */
+    val selectionPrompt = when {
+        !selecting -> null
+        selectionStart == null -> "Tap the first word of the passage"
+        else -> "Tap the last word of the passage"
+    }
     /** A tap on a word while choosing: the first word, or the last, which opens the editor for the passage. */
     fun pickWord(id: Long) {
         val token = data.tokenById[id] ?: return
@@ -443,7 +449,16 @@ fun ReaderScreen(
             TopAppBar(
                 title = {
                     val titleStyle = if (compact) MaterialTheme.typography.titleMedium else MaterialTheme.typography.titleLarge
-                    if (currentBook == null) {
+                    if (selectionPrompt != null) {
+                        // next to the pencil that started it, where it is seen
+                        Text(
+                            selectionPrompt,
+                            style = MaterialTheme.typography.titleSmall,
+                            color = MaterialTheme.colorScheme.primary,
+                            maxLines = 2,
+                            overflow = TextOverflow.Ellipsis,
+                        )
+                    } else if (currentBook == null) {
                         Text(data.work.title, style = titleStyle, maxLines = 1, overflow = TextOverflow.Ellipsis)
                     } else {
                         Box {
@@ -468,6 +483,11 @@ fun ReaderScreen(
                     IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Front page") }
                 },
                 actions = {
+                    // while a passage is being chosen, the bar offers only the way out
+                    if (selecting) {
+                        TextButton(onClick = { cancelSelection() }) { Text("Cancel") }
+                        return@TopAppBar
+                    }
                     if (translation != null) {
                         if (compact) {
                             // the chip names the view a tap gives: the English from the Greek, the Greek from the English
@@ -550,12 +570,6 @@ fun ReaderScreen(
                 onNotes = { pageNotesKind = it },
                 hasMyNotes = notes.isNotEmpty(),
                 onMyNotes = { showMyPageNotes = true },
-                prompt = when {
-                    !selecting -> null
-                    selectionStart == null -> "Tap the first word of the passage"
-                    else -> "Tap the last word of the passage"
-                },
-                onCancel = { cancelSelection() },
                 onScrub = { page ->
                     scrubPage = page
                     scope.launch { pagerState.scrollToPage(page + offset) }
@@ -1409,9 +1423,6 @@ private fun ProgressScrubber(
     /** Whether the text has any of the reader's own notes, which then get a button of their own. */
     hasMyNotes: Boolean,
     onMyNotes: () -> Unit,
-    /** While a passage is being chosen for a note: what to do next, shown in place of the span and the buttons. */
-    prompt: String?,
-    onCancel: () -> Unit,
     /** A short screen (a phone held sideways): thinner rows and no space below. */
     short: Boolean,
     onScrub: (Int) -> Unit,
@@ -1427,10 +1438,7 @@ private fun ProgressScrubber(
                 verticalAlignment = Alignment.CenterVertically,
             ) {
                 val page = pages.getOrNull(currentPage)
-                if (prompt != null) {
-                    Text(prompt, style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.onSurface, maxLines = 1, overflow = TextOverflow.Ellipsis, modifier = Modifier.weight(1f))
-                    BarButton("Cancel", short, onCancel)
-                } else if (page != null && count > 0) {
+                if (page != null && count > 0) {
                     val span = span(page.firstN, page.lastN)
                     Text(
                         span,
@@ -1443,13 +1451,11 @@ private fun ProgressScrubber(
                 } else {
                     Spacer(Modifier.weight(1f))
                 }
-                if (prompt == null) {
-                    for (kind in noteKinds) {
-                        BarButton(kind.label, short) { onNotes(kind) }
-                    }
-                    if (hasMyNotes) {
-                        BarButton("Notes", short, onMyNotes)
-                    }
+                for (kind in noteKinds) {
+                    BarButton(kind.label, short) { onNotes(kind) }
+                }
+                if (hasMyNotes) {
+                    BarButton("Notes", short, onMyNotes)
                 }
             }
             Canvas(
