@@ -96,7 +96,8 @@ fun HomeScreen(
     val anyOffered = catalog.any { it.onGooglePlay }
     // on a tablet the page keeps a readable width in the middle of the screen
     val width = Modifier.widthIn(max = CONTENT_MAX_WIDTH).fillMaxWidth()
-    // something typed in the search field: the page holds the search alone
+    // something typed in the search field: the page holds the search alone. Every item has a key, so
+    // that the field keeps its place, and the keyboard, when the description above it goes away.
     val searching = search.query.text.isNotEmpty()
     // while searching, back does what Close does
     if (searching) PlatformBackHandler { search.setText(TextFieldValue("")); focusManager.clearFocus() }
@@ -107,7 +108,7 @@ fun HomeScreen(
             contentPadding = PaddingValues(horizontal = 24.dp, vertical = 32.dp),
             horizontalAlignment = Alignment.CenterHorizontally,
         ) {
-            item {
+            item(key = "title") {
                 Column(width, horizontalAlignment = Alignment.CenterHorizontally) {
                     Spacer(Modifier.height(16.dp))
                     Text("Anagnosis", style = MaterialTheme.typography.displaySmall, textAlign = TextAlign.Center)
@@ -121,16 +122,16 @@ fun HomeScreen(
                 }
             }
             if (!searching && settings.showDescription && !descriptionDismissed) {
-                item { Description(onDismiss = onDismissDescription, modifier = width.padding(bottom = 20.dp)) }
+                item(key = "description") { Description(onDismiss = onDismissDescription, modifier = width.padding(bottom = 20.dp)) }
             }
-            item {
+            item(key = "search") {
                 Column(width) {
                     SearchControls(search, settings, onSettingsChange, fieldModifier = Modifier.onFocusChanged { fieldFocused = it.isFocused }, onSubmit = { search.submit() }, textsAvailable = installedTexts.isNotEmpty())
                 }
             }
             searchResults(search, repository, installedTexts, onOpenHit, width)
             if (searching) {
-                item {
+                item(key = "close") {
                     OutlinedButton(
                         onClick = { search.setText(TextFieldValue("")); focusManager.clearFocus() },
                         modifier = width.padding(top = 24.dp),
@@ -138,7 +139,7 @@ fun HomeScreen(
                 }
             } else {
                 if (installed.isNotEmpty()) {
-                    item {
+                    item(key = "your-texts") {
                         Text(
                             "Your texts",
                             style = MaterialTheme.typography.labelLarge,
@@ -158,12 +159,12 @@ fun HomeScreen(
                         )
                     }
                 }
-                item {
+                item(key = "available") {
                     OutlinedButton(onClick = onAvailable, enabled = anyOffered, modifier = width.padding(top = 24.dp)) {
                         Text(if (anyOffered) "Available texts" else "Texts will be available soon")
                     }
                 }
-                item {
+                item(key = "links") {
                     Row(Modifier.padding(top = 20.dp), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                         TextButton(onClick = { showHelp = true }) { Text("How to use") }
                         TextButton(onClick = { showOptions = true }) { Text("Options") }

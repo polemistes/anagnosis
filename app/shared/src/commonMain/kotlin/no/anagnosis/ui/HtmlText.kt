@@ -1,17 +1,25 @@
 package no.anagnosis.ui
 
+import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberUpdatedState
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.LinkAnnotation
 import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.TextLayoutResult
 import androidx.compose.ui.text.TextLinkStyles
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontStyle
-import androidx.compose.ui.text.withLink
+import androidx.compose.ui.text.withAnnotation
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.em
@@ -21,6 +29,11 @@ import androidx.compose.ui.unit.sp
  * Renders the small HTML subset produced by the pipeline: p, br, b, i, span, a.
  * Links of the form href="note:123" call [onNoteLink] with the line number. With [onGreekWord]
  * every Greek word can be tapped, and the tap calls it with the word.
+ *
+ * The Greek words are not links: a link is a node of its own, with a shape laid out and placed on
+ * every frame, and the λόγος of LSJ has hundreds of Greek words, which held the app up for seconds
+ * ("not responding"). Each word carries a plain annotation instead, and one tap handler on the
+ * whole text finds the word under the finger.
  */
 @Composable
 fun HtmlText(
@@ -31,12 +44,31 @@ fun HtmlText(
 ) {
     val linkColor = MaterialTheme.colorScheme.primary
     val muted = MaterialTheme.colorScheme.outline
+    val greekWords = onGreekWord != null
+    val text = remember(html, linkColor, muted, greekWords, onNoteLink != null) {
+        htmlToAnnotated(html, linkColor = linkColor, onNoteLink = onNoteLink, mutedColor = muted, greekWords = greekWords)
+    }
+    var layout by remember { mutableStateOf<TextLayoutResult?>(null) }
+    val currentOnGreekWord by rememberUpdatedState(onGreekWord)
+    val taps = if (!greekWords) Modifier else Modifier.pointerInput(text) {
+        detectTapGestures { position ->
+            val l = layout ?: return@detectTapGestures
+            val offset = l.getOffsetForPosition(position)
+            val word = text.getStringAnnotations(GREEK_TAG, offset, offset).firstOrNull() ?: return@detectTapGestures
+            // the nearest letter to a tap in the margin is no hit
+            if (l.getBoundingBox(offset).inflate(8f).contains(position)) currentOnGreekWord?.invoke(word.item)
+        }
+    }
     Text(
-        text = htmlToAnnotated(html, linkColor = linkColor, onNoteLink = onNoteLink, mutedColor = muted, onGreekWord = onGreekWord),
-        modifier = modifier,
+        text = text,
+        modifier = modifier.then(taps),
         style = MaterialTheme.typography.bodyMedium,
+        onTextLayout = { layout = it },
     )
 }
+
+/** The annotation that marks a Greek word in an entry, with the word as its item. */
+private const val GREEK_TAG = "greek"
 
 private val TAG = Regex("<(/?)([a-zA-Z0-9]+)([^>]*)>")
 private val HREF = Regex("href=\"([^\"]*)\"")
@@ -45,15 +77,13 @@ private val CLASS = Regex("class=\"([^\"]*)\"")
 /** A Greek word: Greek letters with their combining marks, and an elision mark at its end. */
 private val GREEK_WORD = Regex("[\u0370-\u03FF\u1F00-\u1FFF][\u0370-\u03FF\u1F00-\u1FFF\u0300-\u036F]*[ʼ’]?")
 
-/** The tapped words keep the look of the text around them. */
-private val PLAIN_LINK = TextLinkStyles(SpanStyle())
-
 fun htmlToAnnotated(
     html: String,
     linkColor: Color,
     onNoteLink: ((String) -> Unit)?,
     mutedColor: Color = linkColor.copy(alpha = 0.55f),
-    onGreekWord: ((String) -> Unit)? = null,
+    /** Mark every Greek word with an annotation (GREEK_TAG), for [HtmlText]'s tap handler. */
+    greekWords: Boolean = false,
 ): AnnotatedString = buildAnnotatedString {
     var pos = 0
     var paragraphs = 0
@@ -67,14 +97,14 @@ fun htmlToAnnotated(
             pendingParagraphBreak = false
         }
         val text = unescape(raw)
-        if (onGreekWord == null) {
+        if (!greekWords) {
             append(text)
             return
         }
         var at = 0
         for (w in GREEK_WORD.findAll(text)) {
             append(text.substring(at, w.range.first))
-            withLink(LinkAnnotation.Clickable(tag = "greek", styles = PLAIN_LINK) { onGreekWord(w.value) }) { append(w.value) }
+            withAnnotation(GREEK_TAG, w.value) { append(w.value) }
             at = w.range.last + 1
         }
         append(text.substring(at))
