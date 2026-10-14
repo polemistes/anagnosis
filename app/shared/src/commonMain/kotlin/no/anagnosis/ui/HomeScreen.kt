@@ -98,6 +98,8 @@ fun HomeScreen(
     val width = Modifier.widthIn(max = CONTENT_MAX_WIDTH).fillMaxWidth()
     // something typed in the search field: the page holds the search alone
     val searching = search.query.text.isNotEmpty()
+    // while searching, back does what Close does
+    if (searching) PlatformBackHandler { search.setText(TextFieldValue("")); focusManager.clearFocus() }
     Column(Modifier.fillMaxSize().safeDrawingPadding(), horizontalAlignment = Alignment.CenterHorizontally) {
         LazyColumn(
             Modifier.weight(1f).fillMaxWidth(),

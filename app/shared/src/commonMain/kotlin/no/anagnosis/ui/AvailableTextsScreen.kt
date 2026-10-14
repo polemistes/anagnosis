@@ -33,10 +33,10 @@ import no.anagnosis.data.DownloadStatus
 import no.anagnosis.data.ShopState
 
 /**
- * The shop: the texts on sale in the reader, by author, with what each comes with, and the way
- * to buy it through the platform's store. A text the store does not offer (not yet on sale
- * there) is left out while the store can be reached; without the store, the texts are listed
- * with nothing to press.
+ * The shop: the texts on sale in the reader, in the order of their authors, with what each
+ * comes with, and the way to buy it through the platform's store. A text the store does not
+ * offer (not yet on sale there) is left out while the store can be reached; without the store,
+ * the texts are listed with nothing to press.
  */
 @Composable
 fun AvailableTextsScreen(
@@ -60,8 +60,9 @@ fun AvailableTextsScreen(
         Text("Available texts", style = MaterialTheme.typography.headlineMedium)
         Spacer(Modifier.height(8.dp))
         Text(
-            "Each text is bought once, here in Anagnosis, through Google Play. It is then downloaded and appears " +
-                "on the front page, and it comes back on a new phone with the same Google account.",
+            "Each text is bought once, here in Anagnosis, through Google Play, and it comes back on a new phone with " +
+                "the same Google account. After you buy a text, it is downloaded and appears in your list of texts on " +
+                "the front page; this can take some minutes.",
             style = MaterialTheme.typography.bodyMedium,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
         )
@@ -75,30 +76,21 @@ fun AvailableTextsScreen(
             )
         }
         Spacer(Modifier.height(16.dp))
-        for ((author, texts) in byAuthor(offered)) {
-            if (author.isNotEmpty()) {
-                Text(
-                    author,
-                    style = MaterialTheme.typography.titleMedium,
-                    color = MaterialTheme.colorScheme.primary,
-                    modifier = Modifier.padding(top = 12.dp, bottom = 8.dp),
-                )
-            }
-            Column(Modifier.padding(top = if (author.isEmpty()) 8.dp else 0.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-                for (entry in texts) {
-                    Card(Modifier.fillMaxWidth()) {
-                        Column(Modifier.padding(16.dp)) {
-                            Text(entry.titleEn.ifEmpty { entry.title }, style = MaterialTheme.typography.titleLarge)
-                            Spacer(Modifier.height(8.dp))
-                            Detail("Editor", entry.editor)
-                            Detail("Critical apparatus", entry.apparatus)
-                            Detail("Translation", entry.translation)
-                            Detail("Commentary", entry.commentary)
-                            Detail("Syntax", entry.syntax)
-                            Detail("Extra dictionaries", entry.dictionaries)
-                            Spacer(Modifier.height(8.dp))
-                            Purchase(entry, shop, onBuy, onDownload, onOpen)
-                        }
+        // in the order of their authors, each named in its title ("Antigone by Sophocles")
+        Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
+            for (entry in byAuthor(offered).flatMap { it.second }) {
+                Card(Modifier.fillMaxWidth()) {
+                    Column(Modifier.padding(16.dp)) {
+                        Text(fullTitle(entry), style = MaterialTheme.typography.titleLarge)
+                        Spacer(Modifier.height(8.dp))
+                        Detail("Editor", entry.editor)
+                        Detail("Critical apparatus", entry.apparatus)
+                        Detail("Translation", entry.translation)
+                        Detail("Commentary", entry.commentary)
+                        Detail("Syntax", entry.syntax)
+                        Detail("Extra dictionaries", entry.dictionaries)
+                        Spacer(Modifier.height(8.dp))
+                        Purchase(entry, shop, onBuy, onDownload, onOpen)
                     }
                 }
             }
