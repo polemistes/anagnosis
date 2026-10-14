@@ -11,7 +11,6 @@
 # syntax: annotated by hand (Ancient Greek Dependency Treebank)
 # syntax_source: Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition
 # syntax_license: CC BY-SA 3.0 US
-# dictionaries: Autenrieth's Homeric Dictionary
 # google_play: yes
 # product_id: homer_odyssey_allen
 

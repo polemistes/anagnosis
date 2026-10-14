@@ -8,7 +8,7 @@
 # syntax: annotated by hand (MACULA Greek)
 # syntax_source: MACULA Greek (Biblica, Inc.), converted to dependency trees for this app
 # syntax_license: CC BY 4.0
-# dictionaries: Abbott-Smith's and Dodson's lexicons of the New Testament
+# dictionaries: Dodson's lexicon of the New Testament
 # google_play: yes
 # product_id: newtestament_sbl
 
