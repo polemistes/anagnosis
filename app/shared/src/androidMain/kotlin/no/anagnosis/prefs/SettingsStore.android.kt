@@ -19,6 +19,7 @@ actual class SettingsStore(context: Context) {
         greekKeyboard = prefs.getBoolean("greek_keyboard", false),
         noteMarks = prefs.getBoolean("note_marks", true),
         noteTicks = prefs.getBoolean("note_ticks", true),
+        showDescription = prefs.getBoolean("show_description", true),
     )
 
     actual fun introSeen(): Boolean = prefs.getBoolean("intro_seen", false)
@@ -53,6 +54,7 @@ actual class SettingsStore(context: Context) {
             .putBoolean("greek_keyboard", settings.greekKeyboard)
             .putBoolean("note_marks", settings.noteMarks)
             .putBoolean("note_ticks", settings.noteTicks)
+            .putBoolean("show_description", settings.showDescription)
             .apply()
     }
 }

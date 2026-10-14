@@ -40,6 +40,8 @@ data class ReaderSettings(
     val noteMarks: Boolean = true,
     /** Mark the pages that carry a note on the progress bar. */
     val noteTicks: Boolean = true,
+    /** Show the description of the app at the top of the front page. */
+    val showDescription: Boolean = true,
 ) {
     companion object {
         const val MIN_SIZE = 13

@@ -111,6 +111,12 @@ fun OptionsDialog(
                     Switch(checked = settings.noteTicks, onCheckedChange = { onChange(settings.copy(noteTicks = it)) })
                 }
                 Spacer(Modifier.height(8.dp))
+                Text("Front page", style = MaterialTheme.typography.labelLarge)
+                Row(Modifier.fillMaxWidth().clickable { onChange(settings.copy(showDescription = !settings.showDescription)) }, verticalAlignment = Alignment.CenterVertically) {
+                    Text("Show the description of the app", style = MaterialTheme.typography.bodyMedium, modifier = Modifier.weight(1f))
+                    Switch(checked = settings.showDescription, onCheckedChange = { onChange(settings.copy(showDescription = it)) })
+                }
+                Spacer(Modifier.height(8.dp))
                 Text("Typing Greek with Latin letters", style = MaterialTheme.typography.labelLarge)
                 for (scheme in InputScheme.entries) {
                     Row(

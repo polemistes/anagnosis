@@ -1,4 +1,4 @@
-# title_en: Odyssey
+# title_en: The Odyssey
 # author_en: Homer
 # app_id: no.anagnosis.odyssey
 # ref_edition: T. W. Allen, Homeri Opera III–IV, 2nd edition, Oxford 1917–1919

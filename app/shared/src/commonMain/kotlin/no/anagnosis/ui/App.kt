@@ -74,6 +74,8 @@ fun App(
     // The search lives for the session, so that coming back from a hit finds it as it was.
     val search = remember { SearchState() }
     val homeList = remember { LazyListState() }
+    // the front page's description, put away for this session (for good, it is turned off in the settings)
+    var descriptionDismissed by remember { mutableStateOf(false) }
     // Where a hit of the search opens the reader; the reader takes it once and gives it back.
     var target by remember { mutableStateOf<SearchTarget?>(null) }
     /** Opens a hit in the reader; back from there returns to the screen it was found on. */
@@ -144,6 +146,11 @@ fun App(
                     search = search,
                     onOpenHit = { openHit(it, Screen.Home) },
                     listState = homeList,
+                    descriptionDismissed = descriptionDismissed,
+                    onDismissDescription = { forGood ->
+                        descriptionDismissed = true
+                        if (forGood) settings.copy(showDescription = false).also { settings = it; settingsStore.save(it) }
+                    },
                 )
                 Screen.Available -> {
                     if (list == null) Loading() else AvailableTextsScreen(
