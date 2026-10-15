@@ -10,7 +10,7 @@ Anagnosis Ancient Greek Reader
 
 Read ancient Greek: dictionaries, word analysis. Add texts with notes. Offline.
 
-## Full description (2927)
+## Full description (3014)
 
 Anagnosis is an app for reading ancient Greek texts. It provides dictionaries and a tool for morphological analysis, and it is free. Texts to read inside the app are bought separately, inside the app. The app provides a critical apparatus, syntax of sentences, a translation and a commentary for each available text (the New Testament does not have a commentary yet).
 
@@ -19,6 +19,7 @@ DICTIONARIES
 • Liddell and Scott, An Intermediate Greek-English Lexicon (1889)
 • Autenrieth, A Homeric Dictionary (1891)
 • Abbott-Smith, A Manual Greek Lexicon of the New Testament (1922)
+• Woodhouse, English-Greek Dictionary (1910), to look up the Greek for an English word
 
 WORD ANALYSIS
 Type any inflected Greek word, and see its dictionary form and inflection.
