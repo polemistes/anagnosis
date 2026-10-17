@@ -10,7 +10,7 @@ Anagnosis Ancient Greek Reader
 
 Free ancient Greek dictionaries (LSJ) and parser. Buy Greek texts in the app.
 
-## Full description (3366)
+## Full description (3356)
 
 Anagnosis is an app for reading ancient Greek texts. It provides ancient Greek dictionaries, among them LSJ and the Middle Liddell, and a parser for morphological analysis, all free. Ancient Greek texts can be bought and read inside the app. The dictionaries cover Homeric Greek, Attic Greek and Koine Greek, which includes Biblical Greek and New Testament Greek. The texts come with a critical apparatus, syntax of sentences, a translation and a commentary for each available text (the Greek New Testament does not have a commentary yet).
 
@@ -27,8 +27,8 @@ TEXTS AVAILABLE (Buy in app)
 • The Greek New Testament (GNT), in the SBL edition, with its apparatus and the Berean Standard Bible translation
 • The Odyssey by Homer, T. W. Allen's Oxford edition and apparatus, A. T. Murray's translation and the commentary of Merry, Riddell and Monro
 • Symposium by Plato, John Burnet's Oxford Greek text and apparatus, Benjamin Jowett's translation and R. G. Bury's commentary
-• Antigone by Sophocles, R. C. Jebb's Greek text with his translation, critical apparatus and commentary
-• Ajax by Sophocles, R. C. Jebb's Greek text with his translation, critical notes and commentary
+• Antigone by Sophocles, R. C. Jebb's edition with his translation, critical notes and commentary
+• Ajax by Sophocles, R. C. Jebb's edition with his translation, critical notes and commentary
 • Electra by Sophocles, R. C. Jebb's edition with his translation, critical notes and commentary
 
 Each text is bought inside the app; it is then downloaded and appears on the front page of Anagnosis.
