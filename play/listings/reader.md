@@ -6,40 +6,48 @@
 
 Anagnosis Ancient Greek Reader
 
-## Short description (79)
+## Short description (77)
 
-Read ancient Greek: dictionaries, word analysis. Add texts with notes. Offline.
+Free ancient Greek dictionaries (LSJ) and parser. Buy Greek texts in the app.
 
-## Full description (3014)
+## Full description (3366)
 
-Anagnosis is an app for reading ancient Greek texts. It provides dictionaries and a tool for morphological analysis, and it is free. Texts to read inside the app are bought separately, inside the app. The app provides a critical apparatus, syntax of sentences, a translation and a commentary for each available text (the New Testament does not have a commentary yet).
+Anagnosis is an app for reading ancient Greek texts. It provides ancient Greek dictionaries, among them LSJ and the Middle Liddell, and a parser for morphological analysis, all free. Ancient Greek texts can be bought and read inside the app. The dictionaries cover Homeric Greek, Attic Greek and Koine Greek, which includes Biblical Greek and New Testament Greek. The texts come with a critical apparatus, syntax of sentences, a translation and a commentary for each available text (the Greek New Testament does not have a commentary yet).
 
-DICTIONARIES
+DICTIONARIES (Free)
+
 • Liddell, Scott and Jones, A Greek-English Lexicon (LSJ, 1940)
-• Liddell and Scott, An Intermediate Greek-English Lexicon (1889)
+• Liddell and Scott, An Intermediate Greek-English Lexicon (Middle Liddell, 1889)
 • Autenrieth, A Homeric Dictionary (1891)
 • Abbott-Smith, A Manual Greek Lexicon of the New Testament (1922)
-• Woodhouse, English-Greek Dictionary (1910), to look up the Greek for an English word
+• Woodhouse, English-Greek Dictionary (1910)
 
-WORD ANALYSIS
-Type any inflected Greek word, and see its dictionary form and inflection.
+TEXTS AVAILABLE (Buy in app)
 
-When looking up Greek words, you can type Latin letters, or you can type Greek letters with your device's keyboard or the app's built-in polytonic Greek keyboard.
+• The Greek New Testament (GNT), in the SBL edition, with its apparatus and the Berean Standard Bible translation
+• The Odyssey by Homer, T. W. Allen's Oxford edition and apparatus, A. T. Murray's translation and the commentary of Merry, Riddell and Monro
+• Symposium by Plato, John Burnet's Oxford Greek text and apparatus, Benjamin Jowett's translation and R. G. Bury's commentary
+• Antigone by Sophocles, R. C. Jebb's Greek text with his translation, critical apparatus and commentary
+• Ajax by Sophocles, R. C. Jebb's Greek text with his translation, critical notes and commentary
+• Electra by Sophocles, R. C. Jebb's edition with his translation, critical notes and commentary
+
+Each text is bought inside the app; it is then downloaded and appears on the front page of Anagnosis.
 
 READING
+
 With a text installed, tap any word to see its dictionary form, its inflection, its function in the sentence and a short definition; long press it to see the syntax of the whole sentence. Switch between the Greek and an English translation, and open the critical apparatus or the commentary for the page you are reading. On a tablet the Greek and the translation stand side by side.
 
 SEARCH
+
 Search the Greek, the translations, the commentaries and your own notes, in one text or in all your texts, with accents and case ignored or exact, by whole words or with regular expressions. Or type a lemma and list every place where any of its forms occurs; every word you tap has a button for this.
 
-TEXTS AVAILABLE
-• Sophocles: Antigone, Ajax and Electra, in R. C. Jebb's editions with his translations, critical notes and commentaries
-• Homer: Odyssey, T. W. Allen's Oxford text and apparatus, A. T. Murray's translation and the commentary of Merry, Riddell and Monro
-• Plato: Symposium, John Burnet's Oxford text and apparatus, Benjamin Jowett's translation and R. G. Bury's commentary
-• The Greek New Testament in the SBL edition, with its apparatus and the Berean Standard Bible
-Each text is bought inside the app; it is then downloaded and appears on the front page of Anagnosis.
+WORD ANALYSIS
 
-Everything works offline. The app has no ads, collects no data and does not connect to the internet; buying and downloading a text is done by the Google Play app. Its code is Free Software (GPL), and the texts and data are open (CC BY-SA), at github.com/polemistes/anagnosis. This is the first release of Anagnosis. Please report any bugs or suggestions for improvement on the GitHub page.
+Type any inflected Greek word, and see its dictionary form and inflection.
+
+When looking up Greek words, the parser accepts Latin letters, or you can type Greek letters with your device's keyboard or the app's built-in polytonic Greek keyboard.
+
+Everything works offline. The app has no ads, collects no data and does not connect to the internet; buying and downloading a text is done by the Google Play app. Its code is Free Software (GPL), and the texts and data are open (CC BY-SA), at github.com/polemistes/anagnosis. Please report any bugs or suggestions for improvement on the GitHub page.
 
 You are welcome to download the source files for the app and the texts and build them yourself without paying anything. If you prefer the convenience of installing the app and texts from Google Play, the payments for the texts will encourage the inclusion of more texts and further development of the app.
 
