@@ -17,3 +17,6 @@ app/.idea/
 app/.kotlin/
 *.iml
 data/*.catalog.json
+
+# Tesseract models (tessdata_best; see pipeline/tessdata/README.md)
+pipeline/tessdata/*.traineddata
