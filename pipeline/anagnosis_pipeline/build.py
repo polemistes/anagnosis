@@ -487,8 +487,9 @@ def build_work(db: sqlite3.Connection, work_dir: Path) -> set[str]:
     # prose is cited by Stephanus page, section and line (172a1)
     elif line_ids and all(STEPHANUS.match(n) for n in line_ids):
         db.execute("INSERT OR REPLACE INTO meta VALUES ('line_numbers', 'stephanus')")
-    # prose is shown as paragraphs; an automatic syntax is labelled as such
-    for key in ("layout", "syntax", "dictionaries"):
+    # prose is shown as paragraphs; an automatic syntax is labelled as such; the reading voice
+    # uses the pronunciation named (homeric, attic, koine; the app defaults to Attic)
+    for key in ("layout", "syntax", "dictionaries", "pronunciation"):
         if m.get(key):
             db.execute("INSERT OR REPLACE INTO meta VALUES (?, ?)", (key, m[key]))
 

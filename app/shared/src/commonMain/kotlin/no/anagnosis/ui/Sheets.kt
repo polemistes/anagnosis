@@ -46,6 +46,8 @@ import no.anagnosis.data.Dictionaries
 import no.anagnosis.data.WordInfo
 import kotlinx.coroutines.launch
 import no.anagnosis.db.Documents
+import no.anagnosis.greek.Phonology
+import no.anagnosis.greek.Pronunciation
 
 /**
  * Keeps a sheet below the status bar. Material's sheet pads its content for the status bar by
@@ -76,6 +78,8 @@ fun WordSheet(
     onOccurrences: (() -> Unit)? = null,
     /** Looks up a Greek word tapped in an entry; null leaves the words as plain text. */
     onGreekWord: ((String) -> Unit)? = null,
+    /** The pronunciation the word is shown in (IPA under the form); null shows none. */
+    pronunciation: Pronunciation? = null,
 ) {
     val state = rememberModalBottomSheetState(skipPartiallyExpanded = true)
     val glossary = info.entries.filter { Dictionaries.isGlossary(it.lexiconSlug) }
@@ -101,6 +105,12 @@ fun WordSheet(
             }
             info.syntax?.takeIf { showFunction }?.let {
                 Text(it.replaceFirstChar { c -> c.uppercase() }, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            }
+            pronunciation?.let { p ->
+                val ipa = remember(info, p) { Phonology.ipa(info.form, info.marked, p) }
+                if (ipa.isNotEmpty()) {
+                    Text("/$ipa/  ·  ${p.label}", style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                }
             }
             Spacer(Modifier.height(12.dp))
             when {

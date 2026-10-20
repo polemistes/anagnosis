@@ -70,6 +70,8 @@ class WorkData(
     val automaticSyntax: Boolean = false,
     /** The dictionaries the word sheet offers first, most fitting first (abbott-smith dodson ml lsj). */
     val dictionaryOrder: List<String> = emptyList(),
+    /** The pronunciation the text is read in unless the reader chooses another. */
+    val pronunciation: no.anagnosis.greek.Pronunciation = no.anagnosis.greek.Pronunciation.ATTIC,
 ) {
     /** The lines by their citation (n_int, n_sub), for placing the reader's notes. */
     val linesByCitation: Map<Pair<Long, String>, Lines> by lazy { lines.associateBy { it.n_int to it.n_sub } }
@@ -174,6 +176,8 @@ class WordInfo(
     val shortDefinition: String?,
     val entries: List<Entry>,
     val syntax: String? = null,
+    /** The form with the long vowels its spelling does not show marked (a macron), for the voice; null when none is known. */
+    val marked: String? = null,
 )
 
 
@@ -192,4 +196,8 @@ class Credit(val kind: String, val title: String, val detail: String?, val licen
 class HeadwordHit(val lemmaKey: String, val headword: String)
 
 /** One analysis of an inflected form. */
-class FormAnalysis(val form: String, val lemma: String, val lemmaKey: String, val postag: String, val source: String)
+class FormAnalysis(
+    val form: String, val lemma: String, val lemmaKey: String, val postag: String, val source: String,
+    /** The form with its hidden long vowels marked, from Morpheus (see [VowelLength]); null when it has none. */
+    val marked: String? = null,
+)

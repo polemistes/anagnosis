@@ -6,6 +6,7 @@
 # license: CC BY 4.0: text and apparatus © 2010 Society of Biblical Literature and Logos Bible Software; MACULA Greek Linguistic Datasets © 2022-2024 Biblica, Inc.
 # layout: prose
 # dictionaries: abbott-smith dodson ml lsj
+# pronunciation: koine
 
 == book Matthew · ΚΑΤΑ ΜΑΘΘΑΙΟΝ
 @ 

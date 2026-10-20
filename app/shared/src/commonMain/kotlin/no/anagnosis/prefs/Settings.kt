@@ -42,10 +42,18 @@ data class ReaderSettings(
     val noteTicks: Boolean = true,
     /** Show the description of the app at the top of the front page. */
     val showDescription: Boolean = true,
+    /** The pronunciation of the reading voice for every text; null reads each text in its own. */
+    val pronunciation: no.anagnosis.greek.Pronunciation? = null,
+    /** The speed of the reading voice in words per minute. */
+    val speechRate: Int = 150,
+    /** With a screen reader: whole lines with look-up actions (for braille) instead of words one by one. */
+    val screenReaderLines: Boolean = false,
 ) {
     companion object {
         const val MIN_SIZE = 13
         const val MAX_SIZE = 26
+        const val MIN_RATE = 100
+        const val MAX_RATE = 220
     }
 }
 

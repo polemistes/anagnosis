@@ -5,6 +5,7 @@
 # edition: Homeri Opera III-IV, ed. T. W. Allen, 2nd ed., Oxford 1917-1919
 # license: CC BY-SA 4.0 (transcription; the edition is in the public domain)
 # dictionaries: autenrieth ml lsj
+# pronunciation: homeric
 
 == book 1 · Α
 1.1	Ἄνδρα μοι ἔννεπε, Μοῦσα, πολύτροπον, ὃς μάλα πολλὰ

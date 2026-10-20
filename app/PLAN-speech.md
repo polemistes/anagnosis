@@ -582,11 +582,24 @@ the brief says to ask, the decision taken is recorded here instead, for review.
 * Where a word has two accents (an enclitic's accent thrown back, ἄνθρωπός τις), Attic and
   Homeric give both a tone; Koine stresses only the first.
 * A rough breathing on a vowel inside a word (a koronis in crasis) is not pronounced.
+* Step 2: the marked form is a fifth field of the analyses already packed per form key in
+  `lexicon.sqlite`, not a table of its own: no new index, and older readers, which read four
+  fields, are not affected. Where a treebank analysis and a Morpheus one coincide (same form key,
+  lemma and parse), the treebank line carries Morpheus's marked form. The lexicon's version
+  changes by itself (it is a hash of the file).
+* Step 2: Morpheus was run again over the current corpus, which now takes in the texts added
+  since 2 October: the forms table grew from 333 349 to 406 757 form keys. About 150 000
+  analyses carry a marked form. A sample of 3000 words per text gave a marked long vowel for
+  9–11 % of the words that have an α ι υ (θῡμόν, ἡμέρᾱς, the Doric τᾱ́ν of the choral odes).
+* Step 2: the per-text pronunciation is a header of `grc.txt` (`# pronunciation: homeric`), where
+  the other bundle keys (`layout`, `dictionaries`) live, not of `about.md`.
+* Step 2: the search page's word sheet shows the IPA in the reader's chosen pronunciation, or
+  Attic when the choice is "the text's own" (a dictionary word belongs to no text).
 
 ## Progress
 
 - [x] Step 1: phonology
-- [ ] Step 2: vowel length
+- [x] Step 2: vowel length
 - [ ] Step 3: the engine
 - [ ] Step 4: reading in the reader
 - [ ] Step 5: screen readers

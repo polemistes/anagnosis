@@ -20,6 +20,9 @@ actual class SettingsStore(context: Context) {
         noteMarks = prefs.getBoolean("note_marks", true),
         noteTicks = prefs.getBoolean("note_ticks", true),
         showDescription = prefs.getBoolean("show_description", true),
+        pronunciation = no.anagnosis.greek.Pronunciation.fromKey(prefs.getString("pronunciation", null)),
+        speechRate = prefs.getInt("speech_rate", 150).coerceIn(ReaderSettings.MIN_RATE, ReaderSettings.MAX_RATE),
+        screenReaderLines = prefs.getBoolean("screen_reader_lines", false),
     )
 
     actual fun introSeen(): Boolean = prefs.getBoolean("intro_seen", false)
@@ -55,6 +58,9 @@ actual class SettingsStore(context: Context) {
             .putBoolean("note_marks", settings.noteMarks)
             .putBoolean("note_ticks", settings.noteTicks)
             .putBoolean("show_description", settings.showDescription)
+            .putString("pronunciation", settings.pronunciation?.key)
+            .putInt("speech_rate", settings.speechRate)
+            .putBoolean("screen_reader_lines", settings.screenReaderLines)
             .apply()
     }
 }

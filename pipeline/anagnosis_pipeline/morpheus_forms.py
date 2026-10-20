@@ -4,7 +4,8 @@ Morpheus (github.com/perseids-tools/morpheus, Mozilla Public License 2.0) is bui
 pipeline/sources/morpheus (see fetch.py) and run over every distinct word form of open texts:
 the Perseus canonical Greek corpus (CC BY-SA 4.0), the Perseus treebanks and the texts in
 texts/. Its analyses are converted to the nine-position Perseus treebank tags and written to
-pipeline/build/morpheus-analyses.tsv.gz ("form<TAB>lemma<TAB>postag<TAB>dialects" lines), which
+pipeline/build/morpheus-analyses.tsv.gz ("form<TAB>lemma<TAB>postag<TAB>dialects<TAB>marked" lines,
+marked being the form with its long vowels marked, or empty), which
 forms.py puts into data/lexicon.sqlite.
 
 (The analyser earlier used a Morpheus dump from a repository licensed CC BY-NC, which a paid
@@ -52,6 +53,39 @@ def _to_unicode(beta: str) -> str:
     beta = re.sub(r"#\d+$", "", beta)
     beta = re.sub(r"\d+$", "", beta)
     return greek.nfc(beta_code.beta_code_to_greek(beta))
+
+
+_BETA_LETTERS = set("abgdezhqiklmncoprstufxywv")
+
+
+def _marked_form(beta: str) -> str:
+    """The form Morpheus gives with vowel length, as Unicode with a combining macron (U+0304)
+    after each long vowel: 'nea_ni/a_s' gives νεᾱνίᾱς (NFC). '^' (short) is dropped. The beta_code
+    library mangles '_', so the macrons are put back after the conversion, by letter count."""
+    beta = re.sub(r"#\d+$", "", beta)
+    beta = re.sub(r"\d+$", "", beta)
+    long_letters = set()
+    count = 0
+    plain = []
+    for ch in beta:
+        if ch == "_":
+            long_letters.add(count - 1)
+            continue
+        if ch == "^":
+            continue
+        if ch.lower() in _BETA_LETTERS:
+            count += 1
+        plain.append(ch)
+    g = unicodedata.normalize("NFD", beta_code.beta_code_to_greek("".join(plain)))
+    out = []
+    k = -1
+    for c in g:
+        if not unicodedata.combining(c):
+            k += 1
+        out.append(c)
+        if k in long_letters and not unicodedata.combining(c):
+            out.append("\u0304")
+    return greek.nfc("".join(out))
 
 
 def _to_beta(form: str) -> str:
@@ -108,9 +142,10 @@ def tags(letter: str, features: list[str], stemtypes: list[str], flags: list[str
     return out
 
 
-def parse_nl(nl: str) -> list[tuple[str, str, str]]:
-    """(lemma, tag, dialects) from one '<NL>...</NL>' analysis; dialects is Morpheus's
-    space-separated list ('attic epic ionic', 'doric aeolic'), empty for all dialects."""
+def parse_nl(nl: str) -> list[tuple[str, str, str, str]]:
+    """(lemma, tag, dialects, marked) from one '<NL>...</NL>' analysis; dialects is Morpheus's
+    space-separated list ('attic epic ionic', 'doric aeolic'), empty for all dialects; marked is
+    the form with its long vowels marked (see _marked_form) when Morpheus gives one, else ''."""
     fields = nl.split("\t")
     head = fields[0]
     m = re.match(r"^([A-Z])\s+(\S+)\s*(.*)$", head)
@@ -124,16 +159,24 @@ def parse_nl(nl: str) -> list[tuple[str, str, str]]:
         dialects = " ".join(fields[1].split())
     elif len(fields) >= 2:
         stemtypes = [s for s in fields[-1].split(",") if s]
-    lemma = lemma.split(",")[-1]
+    parts = lemma.split(",")
+    lemma = parts[-1]
     lemma = re.sub(r"-pl$", "", lemma)
     try:
         lem = _to_unicode(lemma)
     except Exception:
         return []
-    return [(lem, t, dialects) for t in tags(letter, feats, stemtypes, flags)]
+    marked = ""
+    # 'polla_/,polu/s': the form with its vowel length, then the lemma
+    if len(parts) >= 2 and "_" in parts[0]:
+        try:
+            marked = _marked_form(parts[0])
+        except Exception:
+            marked = ""
+    return [(lem, t, dialects, marked) for t in tags(letter, feats, stemtypes, flags)]
 
 
-def _crunch(part: list[str], morpheus: Path) -> dict[str, list[tuple[str, str, str]]]:
+def _crunch(part: list[str], morpheus: Path) -> dict[str, list[tuple[str, str, str, str]]]:
     env = dict(os.environ, MORPHLIB=str(morpheus / "stemlib"))
     betas = [_to_beta(f) for f in part]
     res = subprocess.run([str(morpheus / "bin" / "cruncher"), "-S"], input="\n".join(betas) + "\n",
@@ -145,12 +188,12 @@ def _crunch(part: list[str], morpheus: Path) -> dict[str, list[tuple[str, str, s
     for k, line in enumerate(lines):
         if k + 1 < len(lines) and not line.startswith("<NL>") and lines[k + 1].startswith("<NL>"):
             found[line.strip()] = lines[k + 1]
-    out: dict[str, list[tuple[str, str, str]]] = {}
+    out: dict[str, list[tuple[str, str, str, str]]] = {}
     for form, beta in zip(part, betas):
         nl_line = found.get(beta.strip())
         if not nl_line:
             continue
-        analyses: list[tuple[str, str, str]] = []
+        analyses: list[tuple[str, str, str, str]] = []
         for nl in re.findall(r"<NL>(.*?)</NL>", nl_line):
             analyses.extend(parse_nl(nl))
         if analyses:
@@ -158,11 +201,11 @@ def _crunch(part: list[str], morpheus: Path) -> dict[str, list[tuple[str, str, s
     return out
 
 
-def run_morpheus(forms: list[str], morpheus: Path, chunk: int = 4000, workers: int = 12) -> dict[str, list[tuple[str, str, str]]]:
+def run_morpheus(forms: list[str], morpheus: Path, chunk: int = 4000, workers: int = 8) -> dict[str, list[tuple[str, str, str, str]]]:
     """Analyses of each form, by running cruncher over the forms in chunks, several at a time."""
     from concurrent.futures import ThreadPoolExecutor
 
-    out: dict[str, list[tuple[str, str, str]]] = {}
+    out: dict[str, list[tuple[str, str, str, str]]] = {}
     parts = [forms[i : i + chunk] for i in range(0, len(forms), chunk)]
     with ThreadPoolExecutor(max_workers=workers) as pool:
         for k, res in enumerate(pool.map(lambda part: _crunch(part, morpheus), parts)):
@@ -221,7 +264,7 @@ def build(sources: Path, texts: Path, out: Path) -> int:
     out.parent.mkdir(parents=True, exist_ok=True)
     with gzip.open(out, "wt", encoding="utf-8") as f:
         for form in forms:
-            for lemma, tag, dialects in analyses.get(form, []):
-                f.write(f"{form}\t{lemma}\t{tag}\t{dialects}\n")
+            for lemma, tag, dialects, marked in analyses.get(form, []):
+                f.write(f"{form}\t{lemma}\t{tag}\t{dialects}\t{marked}\n")
     print(f"wrote {out}: {len(analyses)} of {len(forms)} forms analysed")
     return len(analyses)

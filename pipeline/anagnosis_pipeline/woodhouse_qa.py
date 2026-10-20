@@ -186,7 +186,7 @@ def main(sources: Path) -> None:
 
     def good(w: str) -> bool:
         return any(lemma_key(lem) in headwords and (not dial or re.search(r"attic|epic|ionic", dial))
-                   for lem, _tag, dial in analysed.get(w, []))
+                   for lem, _tag, dial, *_ in analysed.get(w, []))
 
     flags = []
     counts: Counter[str] = Counter()

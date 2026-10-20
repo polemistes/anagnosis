@@ -3,7 +3,9 @@
 Sources: Morpheus (MPL-2.0), run by morpheus_forms.py over the forms of the open Perseus
 corpus (pipeline/build/morpheus-analyses.tsv.gz), and the Perseus treebanks (hand-verified
 analyses). Stored compactly: one row per diacritic-less form key, with all analyses packed as
-"form\\tlemma\\tpostag\\tsource" lines.
+"form\\tlemma\\tpostag\\tsource" lines, and a fifth field "marked" where Morpheus gives the form
+with its long vowels marked (a combining macron after a long α ι υ the spelling does not show):
+the reader's voice reads vowel length from it. Older readers ignore the fifth field.
 """
 from __future__ import annotations
 
@@ -33,7 +35,7 @@ MAIN_DIALECTS = {"attic", "epic", "ionic", "homeric"}
 
 
 def morpheus_analyses(path: Path):
-    """Yield (form, lemma, postag) from morpheus-analyses.tsv.gz (see morpheus_forms.py). Where a
+    """Yield (form, lemma, postag, marked) from morpheus-analyses.tsv.gz (see morpheus_forms.py). Where a
     form has an analysis valid in Attic, Epic or Ionic (or in every dialect), its analyses valid only
     in other dialects (a Doric or Aeolic contraction that happens to look the same) are left out."""
     import gzip
@@ -43,13 +45,14 @@ def morpheus_analyses(path: Path):
         with gzip.open(path, "rt", encoding="utf-8") as f:
             for raw in f:
                 form, lemma, postag, *rest = raw.rstrip("\n").split("\t")
-                yield form, lemma, postag, set((rest[0] if rest else "").split())
+                marked = rest[1] if len(rest) > 1 else ""
+                yield form, lemma, postag, set((rest[0] if rest else "").split()), marked
 
     for form, group in itertools.groupby(rows(), key=lambda r: r[0]):
         group = list(group)
         main = [r for r in group if not r[3] or r[3] & MAIN_DIALECTS]
-        for _f, lemma, postag, _d in (main or group):
-            yield greek.nfc(_strip_length_marks(form)), greek.nfc(lemma), postag
+        for _f, lemma, postag, _d, marked in (main or group):
+            yield greek.nfc(_strip_length_marks(form)), greek.nfc(lemma), postag, marked
 
 
 def treebank_analyses(tb_dir: Path):
@@ -71,10 +74,14 @@ def build_forms(db: sqlite3.Connection, sources: Path) -> None:
     morpheus_path = sources.parent / "build" / "morpheus-analyses.tsv.gz"
     if not morpheus_path.exists():
         raise SystemExit(f"{morpheus_path} is missing: run 'build-morpheus-forms' first")
+    # (form key, lemma key, postag) -> the form with its long vowels marked, from Morpheus
+    marks: dict[tuple[str, str, str], str] = {}
     if morpheus_path.exists():
-        for form, lemma, postag in morpheus_analyses(morpheus_path):
+        for form, lemma, postag, marked in morpheus_analyses(morpheus_path):
             key = greek.strip_diacritics(form)
             table[key].setdefault((greek.lemma_key(lemma), postag, "morpheus"), f"{form}\t{lemma}")
+            if marked:
+                marks.setdefault((key, greek.lemma_key(lemma), postag), greek.nfc(marked))
             n += 1
         print(f"forms: {n} Morpheus analyses", file=sys.stderr)
     tb_dir = sources / "treebanks"
@@ -94,7 +101,8 @@ def build_forms(db: sqlite3.Connection, sources: Path) -> None:
             if (lemma_key, postag) in seen:
                 continue
             seen.add((lemma_key, postag))
-            lines.append(f"{fl}\t{postag}\t{source}")
+            marked = marks.get((key, lemma_key, postag))
+            lines.append(f"{fl}\t{postag}\t{source}" + (f"\t{marked}" if marked else ""))
         rows.append((key, zlib.compress("\n".join(lines).encode("utf-8"), 9)))
     db.executemany("INSERT INTO forms VALUES (?, ?)", rows)
-    print(f"forms: {len(rows)} form keys, {sum(len(v) for v in table.values())} analyses")
+    print(f"forms: {len(rows)} form keys, {sum(len(v) for v in table.values())} analyses, {len(marks)} with vowel length")

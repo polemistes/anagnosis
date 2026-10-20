@@ -773,6 +773,7 @@ fun ReaderScreen(
             order = data.dictionaryOrder,
             disabled = settings.disabledDictionaries,
             onGreekWord = lookUp,
+            pronunciation = settings.pronunciation ?: data.pronunciation,
         )
     } ?: wordInfo?.let { info ->
         val sentence = selectedToken?.sentence
@@ -795,6 +796,7 @@ fun ReaderScreen(
             disabled = settings.disabledDictionaries,
             onOccurrences = selectedToken?.let { t -> { selectedTokenId = null; onSearchLemma(t.lemma_key, t.lemma) } },
             onGreekWord = lookUp,
+            pronunciation = settings.pronunciation ?: data.pronunciation,
         )
     }
     pageNotesKind?.let { kind ->

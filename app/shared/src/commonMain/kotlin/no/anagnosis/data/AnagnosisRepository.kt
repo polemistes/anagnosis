@@ -101,6 +101,7 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
             prose = q.selectMeta("layout").executeAsOneOrNull() == "prose",
             automaticSyntax = q.selectMeta("syntax").executeAsOneOrNull() == "automatic",
             dictionaryOrder = q.selectMeta("dictionaries").executeAsOneOrNull()?.split(' ')?.filter { it.isNotBlank() } ?: emptyList(),
+            pronunciation = defaultPronunciation(slug, work.author, q.selectMeta("pronunciation").executeAsOneOrNull()),
         )
     }
 
@@ -132,7 +133,13 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
         val short = q.selectShortDefinition(token.lemma_key).executeAsOneOrNull()?.definition
         val syntax = token.sentence?.let { Syntax.roleOf(sentenceTree(data, it), token) }
             ?.let { if (data.automaticSyntax) "$it (automatic)" else it }
-        return WordInfo(token.form, token.lemma, Morphology.describe(token.postag), short, glossary + rows, syntax)
+        return WordInfo(token.form, token.lemma, Morphology.describe(token.postag), short, glossary + rows, syntax, markedForm(token))
+    }
+
+    /** The token's form with the long vowels its spelling does not show marked, or null (see [VowelLength]). */
+    fun markedForm(token: Tokens): String? {
+        val analyses = analyse(token.form, exact = true).ifEmpty { analyse(token.form) }
+        return VowelLength.choose(token.form, token.lemma_key, token.postag, analyses)
     }
 
     /** The tokens of a sentence in text order; a sentence can run over several lines and share a line with another. */
@@ -281,7 +288,8 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
     /** The word sheet for an analysed form: the lemma's gloss and entries plus the parse. */
     fun wordInfoForAnalysis(a: FormAnalysis): WordInfo {
         val short = lexicon.lexiconQueries.selectShortDefinition(a.lemmaKey).executeAsOneOrNull()
-        return WordInfo(a.form, a.lemma, Morphology.describe(a.postag), short, entriesForLemma(a.lemma))
+        return WordInfo(a.form, a.lemma, Morphology.describe(a.postag), short, entriesForLemma(a.lemma),
+            marked = a.marked?.let { no.anagnosis.greek.Phonology.transferLength(a.form, it) })
     }
 
     /**
@@ -292,7 +300,7 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
         val packed = lexicon.lexiconQueries.selectForms(looseKey(form)).executeAsOneOrNull() ?: return emptyList()
         val all = inflate(packed).lineSequence().mapNotNull { line ->
             val f = line.split('\t')
-            if (f.size >= 4) FormAnalysis(f[0], f[1], f[1].lowercase(), f[2], f[3]) else null
+            if (f.size >= 4) FormAnalysis(f[0], f[1], f[1].lowercase(), f[2], f[3], f.getOrNull(4)?.takeIf { it.isNotEmpty() }) else null
         }.toList()
         if (!exact) return all
         val typed = no.anagnosis.greek.Polytonic.exactKey(form)

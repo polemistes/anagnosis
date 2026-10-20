@@ -818,7 +818,8 @@ private fun LazyListScope.lemmaResults(state: SearchState, installed: List<Catal
 fun SearchWordSheet(state: SearchState, settings: ReaderSettings, installed: List<CatalogEntry>, repository: AnagnosisRepository) {
     val lookUp: (String) -> Unit = { w -> state.lookedUp = state.lookedUp + repository.wordInfoForForm(w) }
     state.lookedUp.lastOrNull()?.let { looked ->
-        WordSheet(looked, onDismiss = { state.lookedUp = state.lookedUp.dropLast(1) }, disabled = settings.disabledDictionaries, onGreekWord = lookUp)
+        WordSheet(looked, onDismiss = { state.lookedUp = state.lookedUp.dropLast(1) }, disabled = settings.disabledDictionaries, onGreekWord = lookUp,
+            pronunciation = settings.pronunciation ?: no.anagnosis.greek.Pronunciation.ATTIC)
         return
     }
     val info = state.word ?: return
@@ -829,6 +830,8 @@ fun SearchWordSheet(state: SearchState, settings: ReaderSettings, installed: Lis
         disabled = settings.disabledDictionaries,
         onOccurrences = if (key == null || installed.isEmpty()) null else { { state.openLemma(key.trimEnd { it.isDigit() }, info.lemma.trimEnd { it.isDigit() }) } },
         onGreekWord = lookUp,
+        // outside a text, the reader's chosen pronunciation, else Attic
+        pronunciation = settings.pronunciation ?: no.anagnosis.greek.Pronunciation.ATTIC,
     )
 }
 
