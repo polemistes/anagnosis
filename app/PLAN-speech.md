@@ -616,6 +616,18 @@ the brief says to ask, the decision taken is recorded here instead, for review.
 * Step 3: listening samples: `speech-samples prepare`, the host test `SpeechSampleDump`, then
   `speech-samples render` write WAVs of the opening lines of five texts (the Odyssey in all three
   pronunciations) to `pipeline/build/speech-samples/`. See `app/espeak/README.md`.
+* Step 4: the reading state (`speech/ReadAloud.kt`) lives in `App`, not in the reader screen,
+  which the search page replaces: leaving the text pauses the reading and coming back finds the
+  bar paused where it was. Opening another text or book starts afresh.
+* Step 4: play on the bar resumes where the reading was paused; the top bar's "Read aloud" (a
+  play icon on wide screens, a menu item on phones) always starts on the page shown.
+* Step 4: the word sheet's speaker button is shown in the reader (for the text's words and for
+  words looked up in an entry), not on the search page, which has no reading state.
+* Step 4: tested on the emulator with the release build signed with the upload key (the
+  emulator's reader was that build, version 10; installed over it, nothing uninstalled): the
+  Odyssey (Homeric) and the New Testament (Koine, prose) read with the word highlighted, the
+  pages turn with the reading, skip, pause, the speaker button and "Read from here" work. The
+  emulator ran without sound, so the playback position was checked, not the sound.
 * Step 2: the search page's word sheet shows the IPA in the reader's chosen pronunciation, or
   Attic when the choice is "the text's own" (a dictionary word belongs to no text).
 
@@ -624,6 +636,6 @@ the brief says to ask, the decision taken is recorded here instead, for review.
 - [x] Step 1: phonology
 - [x] Step 2: vowel length
 - [x] Step 3: the engine
-- [ ] Step 4: reading in the reader
+- [x] Step 4: reading in the reader
 - [ ] Step 5: screen readers
 - [ ] Step 6: words

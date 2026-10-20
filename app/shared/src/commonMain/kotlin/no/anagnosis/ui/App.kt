@@ -15,6 +15,11 @@ import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.DisposableEffect
+import androidx.compose.runtime.rememberCoroutineScope
+import no.anagnosis.speech.ReadAloud
+import no.anagnosis.speech.rememberPcmPlayer
+import no.anagnosis.speech.rememberSpeechEngine
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -61,6 +66,15 @@ fun App(
 ) {
     val shopState by shop.state.collectAsState()
     var settings by remember { mutableStateOf(settingsStore.load()) }
+    // Reading aloud lives as long as the app, so that leaving the text pauses it rather than ending it.
+    val appScope = rememberCoroutineScope()
+    val speechEngine = rememberSpeechEngine()
+    val pcmPlayer = rememberPcmPlayer()
+    val readAloud = remember { ReadAloud(appScope) }
+    readAloud.engine = speechEngine
+    readAloud.player = pcmPlayer
+    readAloud.rate = settings.speechRate
+    DisposableEffect(Unit) { onDispose { readAloud.close(); pcmPlayer?.release() } }
     var showIntro by remember { mutableStateOf(false) }
     val systemDark = isSystemInDarkTheme()
     val colors = remember(settings.theme, systemDark) { colorScheme(settings.theme, systemDark) }
@@ -183,6 +197,7 @@ fun App(
                                 screen = Screen.Search(stripBack(s))
                             },
                             onPositionChange = { settingsStore.saveLastText(s.slug); settingsStore.saveLastLine(s.slug, it) },
+                            readAloud = readAloud,
                             entry = list?.firstOrNull { it.slug == s.slug } ?: CatalogEntry(s.slug, data.work.title, data.work.author ?: "", "", "", "", "", true),
                         )
                         if (showIntro) {

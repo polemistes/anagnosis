@@ -12,6 +12,7 @@ android {
 
     defaultConfig {
         minSdk = libs.versions.android.minSdk.get().toInt()
+        consumerProguardFiles("consumer-rules.pro")
         ndk {
             // phones and tablets (arm), and the emulator (x86_64)
             abiFilters += listOf("arm64-v8a", "armeabi-v7a", "x86_64")

@@ -47,6 +47,9 @@ import no.anagnosis.data.WordInfo
 import kotlinx.coroutines.launch
 import no.anagnosis.db.Documents
 import no.anagnosis.greek.Phonology
+import androidx.compose.material3.IconButton
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
 import no.anagnosis.greek.Pronunciation
 
 /**
@@ -80,6 +83,10 @@ fun WordSheet(
     onGreekWord: ((String) -> Unit)? = null,
     /** The pronunciation the word is shown in (IPA under the form); null shows none. */
     pronunciation: Pronunciation? = null,
+    /** Speaks the word; null shows no speaker button. */
+    onSpeak: (() -> Unit)? = null,
+    /** Starts reading the text aloud at this word; null shows no button. */
+    onReadFromHere: (() -> Unit)? = null,
 ) {
     val state = rememberModalBottomSheetState(skipPartiallyExpanded = true)
     val glossary = info.entries.filter { Dictionaries.isGlossary(it.lexiconSlug) }
@@ -95,7 +102,14 @@ fun WordSheet(
     var open by remember(info) { mutableStateOf(initial) }
     ModalBottomSheet(onDismissRequest = onDismiss, sheetState = state, modifier = sheetModifier()) {
         Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 20.dp, vertical = 8.dp)) {
-            Text(info.form, style = MaterialTheme.typography.headlineSmall)
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Text(info.form, style = MaterialTheme.typography.headlineSmall)
+                if (onSpeak != null) {
+                    IconButton(onClick = onSpeak, modifier = Modifier.semantics { contentDescription = "Say the word" }) {
+                        SpeakerIcon(MaterialTheme.colorScheme.primary)
+                    }
+                }
+            }
             val subtitle = buildString {
                 if (info.lemma != info.form) append(info.lemma)
                 if (info.morphology.isNotEmpty()) { if (isNotEmpty()) append("  ·  "); append(info.morphology) }
@@ -118,7 +132,7 @@ fun WordSheet(
                 glossary.isNotEmpty() -> glossary.forEach { HtmlText(it.html, onGreekWord = onGreekWord) }
                 info.entries.isEmpty() -> Text("No dictionary entry found.", style = MaterialTheme.typography.bodyMedium)
             }
-            if (buttons.isNotEmpty() || onSyntax != null || notes.isNotEmpty() || onOccurrences != null) {
+            if (buttons.isNotEmpty() || onSyntax != null || notes.isNotEmpty() || onOccurrences != null || onReadFromHere != null) {
                 Spacer(Modifier.height(16.dp))
                 FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                     for ((slug, label) in buttons) {
@@ -134,6 +148,9 @@ fun WordSheet(
                     }
                     if (onOccurrences != null) {
                         OutlinedButton(onClick = onOccurrences) { Text("Occurrences") }
+                    }
+                    if (onReadFromHere != null) {
+                        OutlinedButton(onClick = onReadFromHere) { Text("Read from here") }
                     }
                     for ((label, open) in notes) {
                         OutlinedButton(onClick = open) { Text(label) }

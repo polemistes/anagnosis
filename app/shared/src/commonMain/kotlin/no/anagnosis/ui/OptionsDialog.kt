@@ -36,6 +36,10 @@ import androidx.compose.ui.unit.sp
 import no.anagnosis.data.Credit
 import no.anagnosis.data.Dictionaries
 import no.anagnosis.greek.InputScheme
+import no.anagnosis.greek.Pronunciation
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
+import kotlin.math.roundToInt
 import no.anagnosis.prefs.ColorTheme
 import no.anagnosis.prefs.FontChoice
 import no.anagnosis.prefs.LineNumberMode
@@ -109,6 +113,38 @@ fun OptionsDialog(
                 Row(Modifier.fillMaxWidth().clickable { onChange(settings.copy(noteTicks = !settings.noteTicks)) }, verticalAlignment = Alignment.CenterVertically) {
                     Text("Mark pages with notes on the progress bar", style = MaterialTheme.typography.bodyMedium, modifier = Modifier.weight(1f))
                     Switch(checked = settings.noteTicks, onCheckedChange = { onChange(settings.copy(noteTicks = it)) })
+                }
+                Spacer(Modifier.height(8.dp))
+                Text("Reading aloud", style = MaterialTheme.typography.labelLarge)
+                // the text's own pronunciation (null) or one for every text
+                val choices = listOf<Pronunciation?>(null) + Pronunciation.entries
+                for (p in choices) {
+                    Row(
+                        Modifier.fillMaxWidth().clickable { onChange(settings.copy(pronunciation = p)) },
+                        verticalAlignment = Alignment.CenterVertically,
+                    ) {
+                        RadioButton(selected = settings.pronunciation == p, onClick = { onChange(settings.copy(pronunciation = p)) })
+                        Column(Modifier.padding(vertical = 4.dp)) {
+                            Text(p?.label ?: "The text's own", style = MaterialTheme.typography.bodyMedium)
+                            Text(
+                                p?.description ?: "Homeric for Homer, Koine for the New Testament, Attic for the rest",
+                                style = MaterialTheme.typography.bodySmall,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                            )
+                        }
+                    }
+                }
+                Text("Speed", style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 8.dp))
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Text("Slower", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    Slider(
+                        value = settings.speechRate.toFloat(),
+                        onValueChange = { onChange(settings.copy(speechRate = (it / 10).roundToInt() * 10)) },
+                        valueRange = ReaderSettings.MIN_RATE.toFloat()..ReaderSettings.MAX_RATE.toFloat(),
+                        steps = (ReaderSettings.MAX_RATE - ReaderSettings.MIN_RATE) / 10 - 1,
+                        modifier = Modifier.weight(1f).padding(horizontal = 8.dp).semantics { contentDescription = "Reading speed" },
+                    )
+                    Text("Faster", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
                 }
                 Spacer(Modifier.height(8.dp))
                 Text("Front page", style = MaterialTheme.typography.labelLarge)
