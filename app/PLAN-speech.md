@@ -572,9 +572,20 @@ same one as before (see `app/README.md`), and close it afterwards.
   at all without a Greek voice installed); the proper reading is one action away.
 * (Fill in during step 3: tones or stress for Attic/Homeric; word events or per-word synthesis.)
 
+## Decisions made during the work
+
+The author asked (2026-10-20) for the whole plan to be done overnight without questions. Where
+the brief says to ask, the decision taken is recorded here instead, for review.
+
+* Koine ευ and ηυ are read [ev]/[ef] (the plan's table), not [ɛv]: the seed tests agree.
+* A Koine word without an accent (ὁ, ἐν, enclitics) is marked unstressed (`%`) for eSpeak.
+* Where a word has two accents (an enclitic's accent thrown back, ἄνθρωπός τις), Attic and
+  Homeric give both a tone; Koine stresses only the first.
+* A rough breathing on a vowel inside a word (a koronis in crasis) is not pronounced.
+
 ## Progress
 
-- [ ] Step 1: phonology
+- [x] Step 1: phonology
 - [ ] Step 2: vowel length
 - [ ] Step 3: the engine
 - [ ] Step 4: reading in the reader
