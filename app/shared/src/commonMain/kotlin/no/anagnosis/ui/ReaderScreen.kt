@@ -628,7 +628,8 @@ fun ReaderScreen(
                             IconButton(onClick = { showMenu = true }) { Icon(Icons.Filled.MoreVert, contentDescription = "More") }
                             DropdownMenu(expanded = showMenu, onDismissRequest = { showMenu = false }) {
                                 DropdownMenuItem(text = { Text("Search") }, onClick = { showMenu = false; onSearch() })
-                                if (readAloud?.available == true) {
+                                // the voice reads the Greek: not offered while only the English is shown
+                                if (readAloud?.available == true && mode != ViewMode.TRANSLATION) {
                                     DropdownMenuItem(text = { Text("Read aloud") }, onClick = { showMenu = false; readPage() })
                                 }
                                 if (documents.isNotEmpty()) {
@@ -643,7 +644,7 @@ fun ReaderScreen(
                                 Icon(Icons.Filled.Info, contentDescription = "Introduction and other parts of the edition")
                             }
                         }
-                        if (readAloud?.available == true) {
+                        if (readAloud?.available == true && mode != ViewMode.TRANSLATION) {
                             IconButton(onClick = { readPage() }) {
                                 Icon(Icons.Filled.PlayArrow, contentDescription = "Read aloud")
                             }

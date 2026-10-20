@@ -91,7 +91,7 @@ graphics and listings are kept here:
 
 ## Reading aloud and screen readers (reader 0.4.0)
 
-Reader 0.4.0 (version code 11) reads the Greek aloud in a reconstructed pronunciation (Homeric,
+Reader 0.4.0 (version code 12) reads the Greek aloud in a reconstructed pronunciation (Homeric,
 Attic or Koine), with the spoken word marked, and works with TalkBack and braille displays (see
 app/PLAN-speech.md). The listing (listings/reader.md) says so, and has the release notes. Upload
 the bundle to internal testing first and try it on a phone: the voice and TalkBack have only

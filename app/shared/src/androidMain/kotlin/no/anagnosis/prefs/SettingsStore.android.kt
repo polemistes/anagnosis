@@ -21,7 +21,8 @@ actual class SettingsStore(context: Context) {
         noteTicks = prefs.getBoolean("note_ticks", true),
         showDescription = prefs.getBoolean("show_description", true),
         pronunciation = no.anagnosis.greek.Pronunciation.fromKey(prefs.getString("pronunciation", null)),
-        speechRate = prefs.getInt("speech_rate", 150).coerceIn(ReaderSettings.MIN_RATE, ReaderSettings.MAX_RATE),
+        speechSpeed = prefs.getInt("speech_speed", 100).coerceIn(ReaderSettings.MIN_SPEED, ReaderSettings.MAX_SPEED),
+        femaleVoice = prefs.getBoolean("female_voice", false),
         screenReaderLines = prefs.getBoolean("screen_reader_lines", false),
     )
 
@@ -59,7 +60,9 @@ actual class SettingsStore(context: Context) {
             .putBoolean("note_ticks", settings.noteTicks)
             .putBoolean("show_description", settings.showDescription)
             .putString("pronunciation", settings.pronunciation?.key)
-            .putInt("speech_rate", settings.speechRate)
+            .putInt("speech_speed", settings.speechSpeed)
+            .putBoolean("female_voice", settings.femaleVoice)
+            .remove("speech_rate")
             .putBoolean("screen_reader_lines", settings.screenReaderLines)
             .apply()
     }

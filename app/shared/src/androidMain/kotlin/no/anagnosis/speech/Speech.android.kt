@@ -6,6 +6,7 @@ import android.media.AudioFocusRequest
 import android.media.AudioFormat
 import android.media.AudioManager
 import android.media.AudioTrack
+import android.media.PlaybackParams
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.platform.LocalContext
@@ -14,9 +15,10 @@ import no.anagnosis.greek.Utterance
 
 /** eSpeak NG with the Ancient Greek data of Anagnosis (module :espeak). */
 class AndroidSpeechEngine(private val espeak: ESpeak) : SpeechEngine {
-    override fun synthesize(utterance: Utterance, rate: Int): Speech {
-        val s = espeak.synthesize(utterance.text, voiceOf(utterance.variant), rate)
-        return Speech(s.pcm, s.sampleRate, wordStarts(utterance, s.words))
+    override fun synthesize(utterance: Utterance, speed: Int, female: Boolean): Speech {
+        val (wpm, playback) = engineRate(speed)
+        val s = espeak.synthesize(utterance.text, voiceOf(utterance.variant, female), wpm)
+        return Speech(s.pcm, s.sampleRate, wordStarts(utterance, s.words), playback)
     }
 
     override fun abort() = espeak.abort()
@@ -57,6 +59,10 @@ class AudioTrackPlayer(context: Context) : PcmPlayer {
             .setBufferSizeInBytes(maxOf(minBuffer * 2, 8192))
             .setTransferMode(AudioTrack.MODE_STREAM)
             .build()
+        // slower than the engine can speak: stretched in time, the pitch kept
+        if (speech.playbackSpeed != 1f) {
+            t.playbackParams = PlaybackParams().setSpeed(speech.playbackSpeed).setPitch(1f)
+        }
         track = t
         total = speech.pcm.size
         stopped = false

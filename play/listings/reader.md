@@ -61,6 +61,6 @@ You are welcome to download the source files for the app and the texts and build
 
 This app has been created with the help of large language models.
 
-## Release notes, 0.4.0 (318; limit 500)
+## Release notes, 0.4.0 (371; limit 500)
 
-Version 0.4.0: the Greek is read aloud in a reconstructed ancient pronunciation (Homeric, Attic or Koine), with the spoken word marked and the pages turning by themselves. Every word can be heard alone and is shown in phonetic letters. The app now works with screen readers such as TalkBack, and with braille displays.
+Version 0.4.0: the Greek is read aloud in a reconstructed ancient pronunciation (Homeric, Attic or Koine), with the spoken word marked and the pages turning by themselves. Every word can be heard alone and is shown in phonetic letters. A man's or a woman's voice, at the speed you choose. The app now works with screen readers such as TalkBack, and with braille displays.

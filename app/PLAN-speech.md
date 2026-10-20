@@ -647,6 +647,17 @@ the brief says to ask, the decision taken is recorded here instead, for review.
   The custom actions and TalkBack's speech itself were not checked; the author should try a page
   with TalkBack on a phone. The emulator's TalkBack was given notification permission (it
   asked each time it started) and switched off again afterwards.
+* After the author's first try (2026-10-20): the standard speed is 100 words a minute, and the
+  setting is a percentage of it, 50–200 %. eSpeak speaks no slower than 80 words a minute, so
+  slower speech is made at 80 and stretched by the player (Android's PlaybackParams, same
+  pitch); the playback position stays in the original samples, so the highlight keeps step
+  (checked on the emulator at 50 %).
+* A woman's voice: `grc-f` and `grc-koine-f`, with the formants of eSpeak's female2 variant and
+  a pitch range of the same width as the man's, so the accent still rises a fifth (165 to 250 Hz
+  measured). Chosen under Voice in Options.
+* The r is a trill (eSpeak's base `R`) in all three pronunciations, not the base `r`, which is
+  the English approximant.
+* Read aloud is not offered while only the English is shown.
 * Step 2: the search page's word sheet shows the IPA in the reader's chosen pronunciation, or
   Attic when the choice is "the text's own" (a dictionary word belongs to no text).
 

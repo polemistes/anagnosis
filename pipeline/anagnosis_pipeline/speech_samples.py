@@ -101,6 +101,8 @@ def render(root: Path) -> None:
         # file lines: voice <TAB> phonemes
         voice = lines[0][0]
         phon = " ".join(l[1] for l in lines)
-        wav = txt.with_suffix(".wav")
-        subprocess.run([str(exe), "-v", voice, "-s", "140", "-w", str(wav), phon], env=env, check=True)
-        print(f"wrote {wav}")
+        # at the standard speed, in the man's voice and the woman's
+        for v, suffix in ((voice, ""), (voice + "-f", "-woman")):
+            wav = txt.with_name(txt.stem + suffix + ".wav")
+            subprocess.run([str(exe), "-v", v, "-s", "100", "-w", str(wav), phon], env=env, check=True)
+            print(f"wrote {wav}")

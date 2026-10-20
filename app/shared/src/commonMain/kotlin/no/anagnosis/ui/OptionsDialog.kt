@@ -136,14 +136,31 @@ fun OptionsDialog(
                         }
                     }
                 }
-                Text("Speed", style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 8.dp))
+                Text("Voice", style = MaterialTheme.typography.bodyMedium, modifier = Modifier.padding(top = 8.dp))
+                SingleChoiceSegmentedButtonRow(Modifier.fillMaxWidth().padding(top = 6.dp, bottom = 4.dp)) {
+                    listOf(false to "Man", true to "Woman").forEachIndexed { i, (female, label) ->
+                        SegmentedButton(
+                            selected = settings.femaleVoice == female,
+                            onClick = { onChange(settings.copy(femaleVoice = female)) },
+                            shape = SegmentedButtonDefaults.itemShape(i, 2),
+                            label = { Text(label, fontSize = 13.sp) },
+                        )
+                    }
+                }
+                val speedLabel = if (settings.speechSpeed == 100) "standard" else "${settings.speechSpeed} % of standard"
+                Row(Modifier.fillMaxWidth().padding(top = 8.dp), verticalAlignment = Alignment.CenterVertically) {
+                    Text("Speed  ·  $speedLabel", style = MaterialTheme.typography.bodyMedium, modifier = Modifier.weight(1f))
+                    if (settings.speechSpeed != 100) {
+                        TextButton(onClick = { onChange(settings.copy(speechSpeed = 100)) }) { Text("Standard") }
+                    }
+                }
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     Text("Slower", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
                     Slider(
-                        value = settings.speechRate.toFloat(),
-                        onValueChange = { onChange(settings.copy(speechRate = (it / 10).roundToInt() * 10)) },
-                        valueRange = ReaderSettings.MIN_RATE.toFloat()..ReaderSettings.MAX_RATE.toFloat(),
-                        steps = (ReaderSettings.MAX_RATE - ReaderSettings.MIN_RATE) / 10 - 1,
+                        value = settings.speechSpeed.toFloat(),
+                        onValueChange = { onChange(settings.copy(speechSpeed = (it / 10).roundToInt() * 10)) },
+                        valueRange = ReaderSettings.MIN_SPEED.toFloat()..ReaderSettings.MAX_SPEED.toFloat(),
+                        steps = (ReaderSettings.MAX_SPEED - ReaderSettings.MIN_SPEED) / 10 - 1,
                         modifier = Modifier.weight(1f).padding(horizontal = 8.dp).semantics { contentDescription = "Reading speed" },
                     )
                     Text("Faster", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
@@ -360,7 +377,7 @@ fun IntroDialog(onDismiss: () -> Unit) {
                 HelpItem("The sliders", "at the left of the field open the options of the search, which differ by mode. Dictionary: Greek → English, or English → Greek, which finds English words in Woodhouse's English-Greek Dictionary (P. marks a word used in prose, V. in verse, Ar. in Aristophanes; Woodhouse can be turned off under Dictionaries in Options). Analysis: Diacritics makes it heed the accents and breathings typed. Text: Latin letters type Greek, or search the English for what you type; Diacritics and Case make the search heed accents, breathings and capitals, which it otherwise ignores; Whole words matches only whole words; Regex takes a regular expression; Search in chooses the Greek, the translation, the commentaries and your own notes, and, when the search is opened from a text, that text or all your texts. The line under the field shows the Greek that Latin letters make and the choices that are on; in Text mode it always names what is searched (All sources when all four are).")
                 HelpItem("Press and hold a word", "to see the syntax of its sentence on a page of its own. Simple shows the sentence as an outline, one phrase per line in the order of the text, with its role after it (main verb, subject, object · dat., adverbial ...) and the verb in bold. Each clause is named (main clause, ὅτι clause, relative clause, infinitive, participle ...) with a note on what it belongs to, and has a bar down its left; a clause inside a clause is indented one step where it occurs, and the outer clause goes on below it. Drag and pinch to move and zoom, double tap to reset. Diagram shows every word with a line to each word that depends on it; drag and pinch to move and zoom, double tap to reset. Tree lists the same under one another with the full forms; […] stands for a word that is understood. Tap a word for its dictionary entry. In Plato the syntax is a parser's and not checked by hand, so it can be wrong.")
                 HelpItem("Read aloud", "reads the Greek from the page shown: on a phone under the three-dot menu at the top right, on a wider screen the play button. The word being spoken is marked and the pages turn by themselves. The bar above the bottom one goes back or on a sentence, pauses and closes. The word sheet's loudspeaker says the word alone, and Read from here starts reading at it; the sheet also shows the word in phonetic letters. The voice is a synthetic one and sounds mechanical, but every sound is distinct.")
-                HelpItem("Three pronunciations", "can be chosen in the options, or each text read in its own: Homeric for Homer, the Ionic Greek of the epics as it is usually reconstructed; Attic for the rest, the Greek of Athens about 400 BC, with long and short vowels and a musical pitch accent (the voice rises on an acute, falls on a circumflex); Koine, the Hellenistic Greek of the New Testament about AD 100, with a stress accent and the vowels and fricatives that had changed by then. Vowel length of α, ι and υ, which the spelling does not show, comes from the Morpheus analyser where it knows the form; elsewhere they are read short. The speed is in the options too.")
+                HelpItem("Three pronunciations", "can be chosen in the options, or each text read in its own: Homeric for Homer, the Ionic Greek of the epics as it is usually reconstructed; Attic for the rest, the Greek of Athens about 400 BC, with long and short vowels and a musical pitch accent (the voice rises on an acute, falls on a circumflex); Koine, the Hellenistic Greek of the New Testament about AD 100, with a stress accent and the vowels and fricatives that had changed by then. Vowel length of α, ι and υ, which the spelling does not show, comes from the Morpheus analyser where it knows the form; elsewhere they are read short. In the options you can also choose a man's or a woman's voice and the speed: standard, or slower or faster than it.")
                 HelpItem("With a screen reader", "such as TalkBack, every word of the text is a button: double tap to look it up, and the actions menu reads the sentence aloud, reads on from the word, shows the syntax or adds a note. For a braille display, choose Whole lines under Screen reader in the options: each line is then read whole, with an action to look up each of its words. The syntax page opens on the Tree view, which is text. The Greek is marked as Greek, so a screen reader with a Greek voice uses it; for the ancient pronunciation, use Read aloud.")
                 HelpItem("Apparatus and Commentary", "at the bottom open the editor's critical notes or the commentary for all the lines on the page.")
                 HelpItem("The pencil", "at the top starts a note of your own: tap the first and the last word of the passage, then write the note. The passage is underlined, and the page gets a mark on the bar at the bottom. Tapping a word of the passage shows a Note button beside the dictionaries, which opens the note. Notes at the bottom opens the notes on the page and the list of all your notes in the text, from which you can go to a note or export them all to a file. The underline and the marks can be hidden in the options.")

@@ -41,5 +41,15 @@ class SpeechTest {
         assertEquals("grc", voiceOf(Pronunciation.ATTIC))
         assertEquals("grc", voiceOf(Pronunciation.HOMERIC))
         assertEquals("grc-koine", voiceOf(Pronunciation.KOINE))
+        assertEquals("grc-f", voiceOf(Pronunciation.ATTIC, female = true))
+        assertEquals("grc-koine-f", voiceOf(Pronunciation.KOINE, female = true))
+    }
+
+    @Test
+    fun slowSpeedsAreStretchedInPlayback() {
+        assertEquals(100 to 1f, engineRate(100))
+        assertEquals(200 to 1f, engineRate(200))
+        assertEquals(80 to 1f, engineRate(80))
+        assertEquals(80 to 0.625f, engineRate(50))
     }
 }

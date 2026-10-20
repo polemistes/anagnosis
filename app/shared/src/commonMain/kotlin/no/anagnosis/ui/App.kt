@@ -73,7 +73,8 @@ fun App(
     val readAloud = remember { ReadAloud(appScope) }
     readAloud.engine = speechEngine
     readAloud.player = pcmPlayer
-    readAloud.rate = settings.speechRate
+    readAloud.speed = settings.speechSpeed
+    readAloud.female = settings.femaleVoice
     DisposableEffect(Unit) { onDispose { readAloud.close(); pcmPlayer?.release() } }
     var showIntro by remember { mutableStateOf(false) }
     val systemDark = isSystemInDarkTheme()

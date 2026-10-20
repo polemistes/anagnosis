@@ -237,3 +237,10 @@ endphoneme
 phoneme kH
   import_phoneme consonants/kh
 endphoneme
+
+
+// ---- r: a trill (rolled r), not eSpeak's base r, which is the English approximant -----------
+
+phoneme r
+  import_phoneme base1/R
+endphoneme

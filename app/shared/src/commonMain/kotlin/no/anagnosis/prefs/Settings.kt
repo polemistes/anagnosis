@@ -44,16 +44,18 @@ data class ReaderSettings(
     val showDescription: Boolean = true,
     /** The pronunciation of the reading voice for every text; null reads each text in its own. */
     val pronunciation: no.anagnosis.greek.Pronunciation? = null,
-    /** The speed of the reading voice in words per minute. */
-    val speechRate: Int = 150,
+    /** The speed of the reading voice, in per cent of the standard speed (100 words a minute). */
+    val speechSpeed: Int = 100,
+    /** The reading voice is a woman's rather than a man's. */
+    val femaleVoice: Boolean = false,
     /** With a screen reader: whole lines with look-up actions (for braille) instead of words one by one. */
     val screenReaderLines: Boolean = false,
 ) {
     companion object {
         const val MIN_SIZE = 13
         const val MAX_SIZE = 26
-        const val MIN_RATE = 100
-        const val MAX_RATE = 220
+        const val MIN_SPEED = 50
+        const val MAX_SPEED = 200
     }
 }
 

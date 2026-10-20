@@ -47,8 +47,9 @@ fun sentencesOf(lines: List<Lines>, tokensByLine: Map<Long, List<Tokens>>): List
 class ReadAloud(private val scope: CoroutineScope) {
     var engine: SpeechEngine? = null
     var player: PcmPlayer? = null
-    /** Words per minute; read when a sentence is synthesised. */
-    var rate: Int = 150
+    /** Per cent of the standard speed, and a woman's voice or a man's; read when a sentence is synthesised. */
+    var speed: Int = 100
+    var female: Boolean = false
 
     /** The text and book being read ("slug/book"), or null. */
     var key by mutableStateOf<String?>(null)
@@ -124,7 +125,7 @@ class ReadAloud(private val scope: CoroutineScope) {
         val player = player ?: return
         stopPlayback()
         job = scope.launch {
-            val speech = withContext(Dispatchers.Default) { engine.synthesize(utterance, rate) }
+            val speech = withContext(Dispatchers.Default) { engine.synthesize(utterance, speed, female) }
             player.focus(true)
             player.start(speech)
             while (!player.done) delay(50)
@@ -148,7 +149,7 @@ class ReadAloud(private val scope: CoroutineScope) {
         val prep = prepare ?: return@coroutineScope
         fun synth(i: Int, tok: Long?): Deferred<Pair<Utterance, Speech?>?> = async(Dispatchers.Default) {
             val u = prep(i, tok) ?: return@async null
-            u to (if (u.words.isEmpty()) null else engine.synthesize(u, rate))
+            u to (if (u.words.isEmpty()) null else engine.synthesize(u, speed, female))
         }
         player.focus(true)
         try {
