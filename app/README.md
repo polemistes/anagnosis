@@ -6,6 +6,10 @@ Kotlin Multiplatform + Compose Multiplatform. Two modules:
   Android database driver (`androidMain`). iOS targets are added here later.
 * `androidApp/` — thin Android application: `MainActivity`, manifest, and the data bundle
   copied into its assets at build time.
+* `espeak/` — the reading voice: eSpeak NG built with the NDK, and its compiled Ancient Greek
+  data. Needs `espeak/fetch-espeak.sh` run once and the NDK and CMake installed; see
+  [espeak/README.md](espeak/README.md). The pronunciation rules are in
+  `shared/.../greek/Phonology.kt`; the plan and the decisions behind them in `PLAN-speech.md`.
 
 ## Requirements
 
@@ -13,6 +17,8 @@ Kotlin Multiplatform + Compose Multiplatform. Two modules:
   Installed: platform android-36, build-tools 36/37, platform-tools.
 * JDK 17 or newer to run Gradle. Android Studio's bundled runtime works:
   `export JAVA_HOME=/opt/android-studio/jbr`.
+* For the reading voice (module `espeak`): `espeak/fetch-espeak.sh`, and the NDK 29.0.14206865
+  and CMake 3.31.6 from the SDK manager (`sdkmanager "ndk;29.0.14206865" "cmake;3.31.6"`).
 * The data bundle: run the pipeline first so that `../data/lexicon.sqlite` and `../data/catalog.json`
   exist (and `../data/<text>.sqlite` for the text apps).
 

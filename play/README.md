@@ -88,3 +88,12 @@ graphics and listings are kept here:
 * Feature graphics: `python3 play/make-feature-graphics.py` from the repository root (Noto Serif Medium).
 * Screenshots: phone at 1080x1920 (`adb shell wm size 1080x1920`; Play rejects screens longer than
   twice their width), tablets at 2560x1600 and 1600x2560, with the status bar in demo mode.
+
+## Reading aloud and screen readers (reader 0.4.0)
+
+The reader now reads the Greek aloud in a reconstructed pronunciation (Homeric, Attic or Koine),
+with the spoken word marked, and works with TalkBack and braille displays (see
+app/PLAN-speech.md). The store listing should say so; the wording is the author's. New
+screenshots of the play bar and of the word sheet with its phonetic line would show it. The
+version is not yet raised for this.
+

@@ -657,4 +657,4 @@ the brief says to ask, the decision taken is recorded here instead, for review.
 - [x] Step 3: the engine
 - [x] Step 4: reading in the reader
 - [x] Step 5: screen readers
-- [ ] Step 6: words
+- [x] Step 6: words

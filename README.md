@@ -108,6 +108,8 @@ an emulator buy with a fake billing that charges nothing, and the packs are serv
 
 * Code (`pipeline/`, `app/`): GNU General Public License v3.0 or later, see [LICENSE](LICENSE).
 * Bundled fonts (Gentium Plus, Cardo, GFS Didot, GFS Neohellenic): SIL Open Font License 1.1, see [app/fonts-licenses/](app/fonts-licenses/).
+* The reading voice: eSpeak NG (github.com/espeak-ng/espeak-ng), GPL-3.0-or-later, built into
+  the app with our Ancient Greek phoneme table and voices, see [app/espeak/README.md](app/espeak/README.md).
   Copyright (C) 2026 Robert Emil Berge.
 * Data (`texts/`, `data/`): Creative Commons Attribution-ShareAlike 4.0, see [DATA-LICENSE](DATA-LICENSE).
   The data is derived from the Perseus Digital Library (Tufts University), the Ancient Greek
