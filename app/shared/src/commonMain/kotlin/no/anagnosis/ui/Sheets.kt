@@ -103,7 +103,7 @@ fun WordSheet(
     ModalBottomSheet(onDismissRequest = onDismiss, sheetState = state, modifier = sheetModifier()) {
         Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 20.dp, vertical = 8.dp)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
-                Text(info.form, style = MaterialTheme.typography.headlineSmall)
+                Text(greekText(info.form), style = MaterialTheme.typography.headlineSmall)
                 if (onSpeak != null) {
                     IconButton(onClick = onSpeak, modifier = Modifier.semantics { contentDescription = "Say the word" }) {
                         SpeakerIcon(MaterialTheme.colorScheme.primary)

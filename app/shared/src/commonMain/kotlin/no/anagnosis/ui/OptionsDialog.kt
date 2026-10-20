@@ -53,6 +53,8 @@ fun OptionsDialog(
     onAbout: () -> Unit,
     onDismiss: () -> Unit,
     dictionaries: List<Pair<String, String>> = emptyList(),
+    /** A screen reader runs: offer the two ways the text is given to it. */
+    screenReader: Boolean = false,
 ) {
     AlertDialog(
         onDismissRequest = onDismiss,
@@ -145,6 +147,25 @@ fun OptionsDialog(
                         modifier = Modifier.weight(1f).padding(horizontal = 8.dp).semantics { contentDescription = "Reading speed" },
                     )
                     Text("Faster", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                }
+                if (screenReader) {
+                    Spacer(Modifier.height(8.dp))
+                    Text("Screen reader", style = MaterialTheme.typography.labelLarge)
+                    for ((lines, label, hint) in listOf(
+                        Triple(false, "Word by word", "Each word of the text is a button that looks it up"),
+                        Triple(true, "Whole lines", "Each line is read whole, with an action to look up each word; for braille displays"),
+                    )) {
+                        Row(
+                            Modifier.fillMaxWidth().clickable { onChange(settings.copy(screenReaderLines = lines)) },
+                            verticalAlignment = Alignment.CenterVertically,
+                        ) {
+                            RadioButton(selected = settings.screenReaderLines == lines, onClick = { onChange(settings.copy(screenReaderLines = lines)) })
+                            Column(Modifier.padding(vertical = 4.dp)) {
+                                Text(label, style = MaterialTheme.typography.bodyMedium)
+                                Text(hint, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                            }
+                        }
+                    }
                 }
                 Spacer(Modifier.height(8.dp))
                 Text("Front page", style = MaterialTheme.typography.labelLarge)

@@ -628,6 +628,25 @@ the brief says to ask, the decision taken is recorded here instead, for review.
   Odyssey (Homeric) and the New Testament (Koine, prose) read with the word highlighted, the
   pages turn with the reading, skip, pause, the speaker button and "Read from here" work. The
   emulator ran without sound, so the playback position was checked, not the sound.
+* Step 5: the language mark `el` is put on the Greek as a span (`greekText`), and only while a
+  screen reader runs, rather than on the text styles: Compose passes span languages to TalkBack,
+  and the sighted path is left exactly as it was. The word sheet's form is always marked. The
+  search results' Greek is not marked (not done in this plan).
+* Step 5: the screen-reader state reaches the lines through a composition local (`LocalWordAccess`)
+  instead of new parameters through every page function.
+* Step 5: the word nodes are kept at the size of their word: Compose stretches clickable nodes to
+  the 48 dp minimum touch target, which made the nodes of a line overlap the line below.
+* Step 5: "Add a note" on a word opens the note editor for that one word.
+* Step 5: the syntax page opens on the Tree view (text) when a screen reader runs; the drawn
+  views are described as a drawing.
+* Step 5: tested on the emulator. TalkBack runs and the reader notices it (the "Screen reader"
+  options appear), but `uiautomator`, the only way to read the node tree from a shell, suppresses
+  TalkBack while it runs, and adb's taps bypass explore-by-touch. The node tree was therefore
+  checked with a throwaway build that always assumes a screen reader: every word is a button
+  with its exact bounds, line numbers read "Line 5", and "Whole lines" gives one node per line.
+  The custom actions and TalkBack's speech itself were not checked; the author should try a page
+  with TalkBack on a phone. The emulator's TalkBack was given notification permission (it
+  asked each time it started) and switched off again afterwards.
 * Step 2: the search page's word sheet shows the IPA in the reader's chosen pronunciation, or
   Attic when the choice is "the text's own" (a dictionary word belongs to no text).
 
@@ -637,5 +656,5 @@ the brief says to ask, the decision taken is recorded here instead, for review.
 - [x] Step 2: vowel length
 - [x] Step 3: the engine
 - [x] Step 4: reading in the reader
-- [ ] Step 5: screen readers
+- [x] Step 5: screen readers
 - [ ] Step 6: words

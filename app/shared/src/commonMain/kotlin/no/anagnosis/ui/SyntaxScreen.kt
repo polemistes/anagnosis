@@ -1,5 +1,7 @@
 package no.anagnosis.ui
 
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -101,7 +103,9 @@ private enum class SyntaxView(val label: String) { SIMPLE("Simple"), DIAGRAM("Di
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun SyntaxScreen(tree: SyntaxTree, label: String, family: FontFamily, onWord: (Long) -> Unit, onBack: () -> Unit, automatic: Boolean = false) {
-    var view by remember { mutableStateOf(SyntaxView.SIMPLE) }
+    // the Simple and Diagram views are drawn; with a screen reader the page opens on the Tree, which is text
+    val screenReader = rememberScreenReaderActive()
+    var view by remember { mutableStateOf(if (screenReader) SyntaxView.TREE else SyntaxView.SIMPLE) }
     Scaffold(
         topBar = {
             // two rows, as in the reader, so that the title is not squeezed by the buttons on a phone
@@ -225,6 +229,7 @@ private fun PanZoomCanvas(modifier: Modifier, key: Any?, content: (viewW: Float,
         var offset by remember(c) { mutableStateOf(clampOffset(c.initialOffset, startZoom)) }
         Canvas(
             Modifier.fillMaxSize()
+                .semantics { contentDescription = "Drawing of the sentence; the Tree view gives the same in words" }
                 // keyed on the content: after a rotation the handlers would otherwise keep the old size and state
                 .pointerInput(c) {
                     detectTransformGestures { centroid, pan, gestureZoom, _ ->

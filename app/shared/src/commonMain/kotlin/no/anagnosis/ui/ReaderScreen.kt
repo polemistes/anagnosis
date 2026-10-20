@@ -1,5 +1,11 @@
 package no.anagnosis.ui
 
+import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.ui.semantics.isTraversalGroup
+import androidx.compose.ui.semantics.traversalIndex
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.semantics.clearAndSetSemantics
 import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.runtime.DisposableEffect
 import no.anagnosis.greek.SpeechWord
@@ -378,6 +384,31 @@ fun ReaderScreen(
     val selectedToken = remember(selectedTokenId, data) {
         selectedTokenId?.let { id -> data.tokensByLine.values.asSequence().flatten().firstOrNull { it.id == id } }
     }
+    // With a screen reader the words of the page become nodes of their own (or each line one node
+    // with an action per word, by the reader's choice), with actions for what a long press and
+    // the pencil do for sighted readers.
+    val screenReader = rememberScreenReaderActive()
+    val wordAccess = if (!screenReader) null else WordAccess(
+        lines = settings.screenReaderLines,
+        actions = buildList {
+            if (readAloud?.available == true) { add(WordAction.READ_SENTENCE); add(WordAction.READ_FROM_HERE) }
+            add(WordAction.SYNTAX)
+            add(WordAction.NOTE)
+        },
+        onWord = { selectedTokenId = it },
+        onAction = { t, action ->
+            when (action) {
+                WordAction.READ_SENTENCE -> sentenceOfToken[t.id]?.let { readAloud?.start(it) }
+                WordAction.READ_FROM_HERE -> readFrom(t)
+                WordAction.SYNTAX -> syntaxSentence = t.sentence
+                WordAction.NOTE -> {
+                    val a = Notes.anchorOf(data, t)
+                    val line = data.lineById.getValue(t.line_id)
+                    draft = NoteDraft(a, a, Notes.quote(data, Placement(line, t, line, t)), Notes.rangeLabel(data, a, a))
+                }
+            }
+        },
+    )
 
     LaunchedEffect(selectedTokenId) {
         val id = selectedTokenId
@@ -796,14 +827,16 @@ fun ReaderScreen(
                         val page = pages.getOrNull(index - offset) ?: return@HorizontalPager
                         PageFrame(
                             greek = {
-                                PageContent(
-                                    page, styles, data, numberColumn, forcedColumn,
-                                    spans = shownSpans,
-                                    onWord = { if (selecting) pickWord(it) else selectedTokenId = it },
-                                    onSentence = { token -> if (!selecting) syntaxSentence = token.sentence },
-                                    showMarks = settings.lineNumbers != LineNumberMode.NONE,
-                                    highlight = greekHighlight,
-                                )
+                                CompositionLocalProvider(LocalWordAccess provides wordAccess) {
+                                    PageContent(
+                                        page, styles, data, numberColumn, forcedColumn,
+                                        spans = shownSpans,
+                                        onWord = { if (selecting) pickWord(it) else selectedTokenId = it },
+                                        onSentence = { token -> if (!selecting) syntaxSentence = token.sentence },
+                                        showMarks = settings.lineNumbers != LineNumberMode.NONE,
+                                        highlight = greekHighlight,
+                                    )
+                                }
                             },
                             english = if (translation == null) null else {
                                 {
@@ -976,6 +1009,7 @@ fun ReaderScreen(
             onAbout = { showOptions = false; showAbout = true },
             onDismiss = { showOptions = false },
             dictionaries = remember { repository.dictionaries() },
+            screenReader = screenReader,
         )
     }
     if (showAbout) {
@@ -1389,7 +1423,7 @@ private fun GreekLineRow(
     val currentOnSentence = rememberUpdatedState(onSentence)
     val haptic = LocalHapticFeedback.current
     Box(
-        Modifier.fillMaxWidth().pointerInput(tokens) {
+        Modifier.fillMaxWidth().semantics { isTraversalGroup = true }.pointerInput(tokens) {
             fun tokenAt(tap: Offset): Tokens? {
                 val result = layout ?: return null
                 val pos = tap - Offset(indentPx.toFloat(), 0f)  // the text of an indented part starts further in
@@ -1414,9 +1448,18 @@ private fun GreekLineRow(
         val markColor = MaterialTheme.colorScheme.primary.copy(alpha = NOTE_MARK_ALPHA)
         val pendingColor = MaterialTheme.colorScheme.primary
         val highlightColor = MaterialTheme.colorScheme.primary.copy(alpha = HIGHLIGHT_ALPHA)
+        // for a screen reader: the line marked as Greek, and either a node per word or the line
+        // with an action per word; nothing of this while no screen reader runs
+        val access = LocalWordAccess.current
+        val shown = remember(line.text, access != null) { if (access != null) greekText(line.text) else AnnotatedString(line.text) }
+        val semantic = when {
+            access == null -> Modifier
+            access.lines -> Modifier.lineActions(tokens, access)
+            else -> Modifier.clearAndSetSemantics { }
+        }
         Text(
-            text = line.text, style = styles.greek, onTextLayout = { layout = it },
-            modifier = Modifier.fillMaxWidth().padding(start = indent, end = numberColumn).drawBehind {
+            text = shown, style = styles.greek, onTextLayout = { layout = it },
+            modifier = Modifier.fillMaxWidth().padding(start = indent, end = numberColumn).then(semantic).drawBehind {
                 val result = layout
                 if (result != null) {
                     if (highlight != null) drawHighlight(result, highlight.first, highlight.last + 1, highlightColor)
@@ -1424,12 +1467,17 @@ private fun GreekLineRow(
                 }
             },
         )
+        if (access != null && !access.lines) {
+            WordNodes(layout, remember(tokens) { tokens.map { Triple(it.start.toInt(), it.end.toInt(), it) } }, access,
+                Modifier.matchParentSize().padding(start = indent))
+        }
         if (number != null) {
             Text(
                 number,
                 style = styles.number,
                 color = MaterialTheme.colorScheme.outline,
-                modifier = Modifier.align(Alignment.TopEnd).padding(top = 5.dp),
+                modifier = Modifier.align(Alignment.TopEnd).padding(top = 5.dp)
+                    .semantics { contentDescription = "Line $number"; traversalIndex = -1f },
             )
         }
     }
@@ -1812,12 +1860,19 @@ private fun ProseParagraph(
             )
         },
     ) {
+        val access = LocalWordAccess.current
+        val shown = remember(prose, access != null) { if (access != null) greekText(prose.text) else prose.text }
+        val semantic = when {
+            access == null -> Modifier
+            access.lines -> Modifier.lineActions(words.map { it.third }, access)
+            else -> Modifier.clearAndSetSemantics { }
+        }
         Text(
-            prose.text,
+            shown,
             style = if (opens) styles.prose else styles.proseContinued,
             color = MaterialTheme.colorScheme.onBackground,
             onTextLayout = { layout = it },
-            modifier = Modifier.fillMaxWidth().padding(end = margin).drawBehind {
+            modifier = Modifier.fillMaxWidth().padding(end = margin).then(semantic).drawBehind {
                 val result = layout
                 if (result != null) {
                     if (paragraphHighlight != null) drawHighlight(result, paragraphHighlight.first, paragraphHighlight.last + 1, highlightColor)
@@ -1825,6 +1880,7 @@ private fun ProseParagraph(
                 }
             },
         )
+        if (access != null && !access.lines) WordNodes(layout, words, access, Modifier.matchParentSize())
         val result = layout
         if (showMarks && data.stephanus && result != null) {
             // Burnet's margin: the Stephanus page where it begins, the section letters b-e
