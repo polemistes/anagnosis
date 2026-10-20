@@ -570,7 +570,10 @@ same one as before (see `app/README.md`), and close it afterwards.
   fricatives) were still in motion then, and the choices above are one defensible point.
 * TalkBack's own voice, while moving about the page, speaks the Greek as Modern Greek (or not
   at all without a Greek voice installed); the proper reading is one action away.
-* (Fill in during step 3: tones or stress for Attic/Homeric; word events or per-word synthesis.)
+* Homeric and Attic are read with tones (the pitch accent); Koine with stress. A whole sentence
+  is synthesised at once and eSpeak's word events place the highlight.
+* Every syllable of Homeric and Attic carries a tone, so a long sentence has no falling
+  intonation at its end: eSpeak's tone mode keeps the pitch level apart from the accents.
 
 ## Decisions made during the work
 
@@ -593,6 +596,26 @@ the brief says to ask, the decision taken is recorded here instead, for review.
   9–11 % of the words that have an α ι υ (θῡμόν, ἡμέρᾱς, the Doric τᾱ́ν of the choral odes).
 * Step 2: the per-text pronunciation is a header of `grc.txt` (`# pronunciation: homeric`), where
   the other bundle keys (`layout`, `dictionaries`) live, not of `about.md`.
+* Step 3: `ph_grc` inherits from `base2` (as eSpeak's own Ancient Greek table did), not `base1`:
+  it then has eSpeak's ready vowels and stops to fall back on. Our table defines every vowel,
+  diphthong and stop the app sends; the fricatives, nasals and liquids come from the base table.
+* Step 3: Koine is a second voice file, `grc-koine`, that uses eSpeak's Modern Greek translator
+  (a stress language, with clause intonation) with our phoneme table and dictionary; the tone
+  patch makes only `grc` (Homeric and Attic) tonal.
+* Step 3: tones were tuned by measuring pitch on the desktop (no listening was possible during
+  the night): the voice's range is widened (`pitch 78 150`); an acute on a short vowel rises from
+  about 80 to 127 Hz, about a fifth, as the ancient grammarians describe it; a long acute glides
+  from low to high across the vowel; a circumflex falls from high. Vowel lengths were raised
+  (short 140, long 260) after short vowels measured only 40 ms at 150 words a minute; long
+  vowels now last about twice as long as short ones.
+* Step 3: word events do arrive for phoneme input, with the sample where each word starts, so a
+  whole sentence is synthesised at once (no per-word synthesis, no flattened Koine tune).
+* Step 3: the native build compiles eSpeak's library sources directly in our own CMake file
+  rather than through eSpeak's CMake project, which would also try to run its data compiler
+  during a cross-compilation. NDK 29.0.14206865 and CMake 3.31.6 were installed.
+* Step 3: listening samples: `speech-samples prepare`, the host test `SpeechSampleDump`, then
+  `speech-samples render` write WAVs of the opening lines of five texts (the Odyssey in all three
+  pronunciations) to `pipeline/build/speech-samples/`. See `app/espeak/README.md`.
 * Step 2: the search page's word sheet shows the IPA in the reader's chosen pronunciation, or
   Attic when the choice is "the text's own" (a dictionary word belongs to no text).
 
@@ -600,7 +623,7 @@ the brief says to ask, the decision taken is recorded here instead, for review.
 
 - [x] Step 1: phonology
 - [x] Step 2: vowel length
-- [ ] Step 3: the engine
+- [x] Step 3: the engine
 - [ ] Step 4: reading in the reader
 - [ ] Step 5: screen readers
 - [ ] Step 6: words

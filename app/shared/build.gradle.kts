@@ -44,6 +44,7 @@ kotlin {
             implementation(kotlin("test"))
         }
         androidMain.dependencies {
+            implementation(project(":espeak"))
             implementation(libs.sqldelight.android.driver)
             implementation(libs.androidx.activity.compose)
         }

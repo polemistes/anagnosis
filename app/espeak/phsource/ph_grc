@@ -1,0 +1,239 @@
+
+//====================================================
+//  Ancient Greek for Anagnosis - based on base2
+//
+//  Replaces eSpeak's own ph_greek_ancient (see app/espeak/README.md). The app always sends
+//  phonemes (see greek/Phonology.kt), so every sound it can send is defined here or inherited:
+//  short and long vowels, the diphthongs, unaspirated and aspirated stops, and four tones for the
+//  pitch accent of Homeric and Attic Greek (Koine uses the stress mark instead).
+//====================================================
+
+
+// ---- tones: one after every vowel of Homeric and Attic Greek --------------------------------
+// Pitch values 0-100 within the voice's range, as Vietnamese and Chinese define theirs.
+
+phoneme 0   // no accent: low
+  stress
+  Tone(14, 12, envelope/p_level, NULL)
+endphoneme
+
+phoneme 1   // acute on a short vowel: high
+  stress
+  Tone(56, 66, envelope/p_rise, NULL)
+endphoneme
+
+phoneme 2   // acute on a long vowel or diphthong: rising
+  stress
+  Tone(14, 72, envelope/p_level, NULL)
+endphoneme
+
+phoneme 3   // circumflex: falling from high
+  stress
+  Tone(72, 10, envelope/p_fall, NULL)
+endphoneme
+
+
+// ---- short vowels -------------------------------------------------------------------------
+
+phoneme a
+  vwl starttype #a endtype #a
+  length 140
+  FMT(vowel/a_2)
+endphoneme
+
+phoneme e
+  vwl starttype #e endtype #e
+  length 140
+  FMT(vowel/e)
+endphoneme
+
+phoneme E
+  vwl starttype #e endtype #e
+  length 140
+  FMT(vowel/ee_1)
+endphoneme
+
+phoneme i
+  vwl starttype #i endtype #i
+  length 130
+  FMT(vowel/i)
+endphoneme
+
+phoneme o
+  vwl starttype #o endtype #o
+  length 140
+  FMT(vowel/o)
+endphoneme
+
+phoneme u
+  vwl starttype #u endtype #u
+  length 140
+  FMT(vowel/u_bck)
+endphoneme
+
+phoneme y
+  vwl starttype #i endtype #i
+  length 140
+  FMT(vowel/y)
+endphoneme
+
+
+// ---- long vowels --------------------------------------------------------------------------
+
+phoneme a:
+  vwl starttype #a endtype #a
+  length 260
+  FMT(vowel/a_2)
+endphoneme
+
+phoneme e:
+  vwl starttype #e endtype #e
+  length 260
+  FMT(vowel/e)
+endphoneme
+
+phoneme E:
+  vwl starttype #e endtype #e
+  length 260
+  FMT(vowel/ee_1)
+endphoneme
+
+phoneme i:
+  vwl starttype #i endtype #i
+  length 260
+  FMT(vowel/i)
+endphoneme
+
+phoneme o:
+  vwl starttype #o endtype #o
+  length 260
+  FMT(vowel/o)
+endphoneme
+
+phoneme O:
+  vwl starttype #o endtype #o
+  length 270
+  FMT(vowel/oo_4)
+endphoneme
+
+phoneme u:
+  vwl starttype #u endtype #u
+  length 260
+  FMT(vowel/u_bck)
+endphoneme
+
+phoneme y:
+  vwl starttype #i endtype #i
+  length 260
+  FMT(vowel/y)
+endphoneme
+
+
+// ---- diphthongs ---------------------------------------------------------------------------
+
+phoneme aI
+  vwl starttype #a endtype #i
+  length 270
+  FMT(vdiph/ai)
+endphoneme
+
+phoneme aU
+  vwl starttype #a endtype #u
+  length 270
+  FMT(vdiph/au)
+endphoneme
+
+phoneme oI
+  vwl starttype #o endtype #i
+  length 270
+  FMT(vdiph/oi)
+endphoneme
+
+phoneme oU
+  vwl starttype #o endtype #u
+  length 270
+  FMT(vdiph/ou)
+endphoneme
+
+phoneme yI
+  vwl starttype #i endtype #i
+  length 270
+  FMT(vdiph/yi)
+endphoneme
+
+phoneme uI
+  vwl starttype #u endtype #i
+  length 270
+  FMT(vdiph/ui)
+endphoneme
+
+phoneme eU
+  vwl starttype #e endtype #u
+  length 270
+  FMT(vdiph/eu)
+endphoneme
+
+phoneme EU   // ηυ: a long first element
+  vwl starttype #e endtype #u
+  length 300
+  FMT(vdiph/eeu)
+endphoneme
+
+phoneme OU   // ωυ
+  vwl starttype #o endtype #u
+  length 300
+  FMT(vdiph/oou)
+endphoneme
+
+phoneme aaI  // ᾳ
+  vwl starttype #a endtype #i
+  length 300
+  FMT(vdiph/aai)
+endphoneme
+
+phoneme EEI  // ῃ
+  vwl starttype #e endtype #i
+  length 300
+  FMT(vdiph/eei)
+endphoneme
+
+phoneme OOI  // ῳ
+  vwl starttype #o endtype #i
+  length 300
+  FMT(vdiph/ooi)
+endphoneme
+
+
+// ---- stops: π τ κ unaspirated, φ θ χ aspirated ----------------------------------------------
+
+phoneme p
+  import_phoneme consonants/p-
+endphoneme
+
+phoneme t
+  import_phoneme consonants/t-
+endphoneme
+
+phoneme k
+  import_phoneme consonants/k-
+endphoneme
+
+phoneme pH
+  import_phoneme consonants/ph
+endphoneme
+
+phoneme tH
+  vls alv stp
+  lengthmod 2
+  voicingswitch d
+  Vowelin f1=0  f2=1700 -300 300  f3=-100 80
+  Vowelout f1=0 f2=1700 -300 250  f3=-100 80  rms=20
+  IF nextPh(isPause2) THEN
+    WAV(ustop/t_)
+  ENDIF
+  WAV(ustop/t)
+endphoneme
+
+phoneme kH
+  import_phoneme consonants/kh
+endphoneme

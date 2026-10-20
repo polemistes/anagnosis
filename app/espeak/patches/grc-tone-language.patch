@@ -1,0 +1,14 @@
+diff --git a/src/libespeak-ng/tr_languages.c b/src/libespeak-ng/tr_languages.c
+index 333f1a7..7bfc08b 100644
+--- a/src/libespeak-ng/tr_languages.c
++++ b/src/libespeak-ng/tr_languages.c
+@@ -720,6 +720,9 @@ Translator *SelectTranslator(const char *name)
+ 		if (name2 == L3('g', 'r', 'c')) {
+ 			// ancient greek
+ 			tr->langopts.param[LOPT_UNPRONOUNCABLE] = 1;
++			// Anagnosis: the pitch accent of Homeric and Attic Greek is spoken with tone
++			// phonemes (phsource/ph_grc), as Vietnamese and Chinese are
++			tr->langopts.tone_language = 1;
+ 		}
+ 	}
+ 		break;

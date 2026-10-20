@@ -1,0 +1,8 @@
+name Koine Greek
+// the Modern Greek translator: stress and the intonation of a stress language, with the
+// Ancient Greek phonemes and (empty) dictionary of Anagnosis
+language el
+phonemes grc
+dictionary grc
+pitch 82 130
+words 1

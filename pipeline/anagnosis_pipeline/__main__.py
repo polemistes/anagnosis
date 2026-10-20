@@ -55,6 +55,9 @@ def main(argv: list[str] | None = None) -> int:
     v = sub.add_parser("verify-apparatus", help="check apparatus lemmas against the Greek text")
     ma = sub.add_parser("merge-appendix", help="merge appendix transcription batches into texts/antigone/appendix.md")
     ma.add_argument("--batches", default=str(ROOT / "pipeline" / "build" / "apparatus"))
+    sub.add_parser("build-speech-data", help="compile the reading voice's eSpeak NG data into app/espeak/src/main/assets (see app/PLAN-speech.md)")
+    ss = sub.add_parser("speech-samples", help="listening samples of the reading voice (see speech_samples.py)")
+    ss.add_argument("step", choices=["prepare", "render"])
     b = sub.add_parser("build", help="build data/lexicon.sqlite and one data/<text>.sqlite per text")
     b.add_argument("--out", default=str(DATA))
     b.add_argument("--only", help="rebuild only this text's database (and the catalog), keeping the lexicon")
@@ -232,6 +235,12 @@ def main(argv: list[str] | None = None) -> int:
     elif args.cmd == "verify-apparatus":
         from .apparatus import verify
         return 1 if verify(TEXTS / "antigone" / "commentary-jebb-apparatus.md", TEXTS / "antigone" / "grc.txt") else 0
+    elif args.cmd == "build-speech-data":
+        from .speech_data import build as build_speech
+        build_speech(ROOT)
+    elif args.cmd == "speech-samples":
+        from . import speech_samples
+        (speech_samples.prepare if args.step == "prepare" else speech_samples.render)(ROOT)
     elif args.cmd == "build":
         from .build import build
         build(TEXTS, SOURCES, Path(args.out), only=args.only)

@@ -29,6 +29,7 @@ dependencyResolutionManagement {
 }
 
 include(":shared")
+include(":espeak")
 include(":androidApp")
 include(":antigoneApp")
 include(":odysseyApp")

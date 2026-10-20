@@ -1,0 +1,5 @@
+name Ancient Greek
+language grc
+// a wider pitch range than the default (82 118), for the pitch accent
+pitch 78 150
+words 1

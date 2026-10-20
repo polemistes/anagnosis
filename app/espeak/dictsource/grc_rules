@@ -1,0 +1,4 @@
+// Ancient Greek for Anagnosis. The app always sends phonemes (greek/Phonology.kt), so the
+// voice needs no spelling rules; eSpeak only requires the dictionary to exist.
+
+.group
