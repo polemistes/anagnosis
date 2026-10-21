@@ -5,7 +5,7 @@
 # ref_translation: R. C. Jebb, Sophocles: The Plays and Fragments, Part III: The Antigone, 2nd edition, Cambridge University Press 1891
 # ref_commentary: R. C. Jebb, Sophocles: The Plays and Fragments, Part III: The Antigone, 3rd edition, Cambridge University Press 1900 (the commentary and introduction; the appendix from the 2nd edition, 1891)
 # editor: R. C. Jebb (Cambridge 1891)
-# apparatus: Jebb's critical notes
+# apparatus: Jebb's critical apparatus
 # translation: R. C. Jebb
 # commentary: R. C. Jebb (3rd edition, 1900), with his introduction, and the appendix of the 2nd edition (1891)
 # syntax: annotated by hand (Ancient Greek Dependency Treebank)
@@ -14,4 +14,4 @@
 # google_play: yes
 # product_id: sophocles_antigone_jebb
 
-The Greek text of Sir Richard Jebb's edition, with his translation, critical notes and commentary, and the Liddell–Scott dictionaries. Tap any word for its meaning and form.
+The Greek text of Sir Richard Jebb's edition, with his translation, critical apparatus and commentary, and the Liddell–Scott dictionaries. Tap any word for its meaning and form.

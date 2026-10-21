@@ -209,9 +209,9 @@ def main(argv: list[str] | None = None) -> int:
         from .sophocles_pages import SCAN_EDITIONS, merge as merge_sophocles
         for slug in args.plays or list(PLAYS):
             play = PLAYS[slug]
-            header = (f"# title: Critical notes\n# author: Richard C. Jebb\n# lang: eng\n"
+            header = (f"# title: Critical apparatus\n# author: Richard C. Jebb\n# lang: eng\n"
                       f"# source: Sophocles, The Plays and Fragments, {PART_ROMAN[play.part]}: The {play.title_en}, Cambridge University Press, "
-                      f"{SCAN_EDITIONS[slug]} (critical notes), transcribed page by page\n"
+                      f"{SCAN_EDITIONS[slug]} (critical apparatus), transcribed page by page\n"
                       f"# license: CC BY-SA 4.0 (transcription; the edition is in the public domain)\n")
             d = ROOT / "pipeline" / "transcriptions" / "sophocles" / slug
             n, sigla = merge_sophocles(d, TEXTS / slug / "commentary-jebb-apparatus.md", header)

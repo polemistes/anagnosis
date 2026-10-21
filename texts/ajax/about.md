@@ -5,7 +5,7 @@
 # ref_translation: R. C. Jebb, Sophocles: The Plays and Fragments, Part VII: The Ajax, Cambridge University Press 1896
 # ref_commentary: R. C. Jebb, Sophocles: The Plays and Fragments, Part VII: The Ajax, Cambridge University Press 1896
 # editor: R. C. Jebb (Cambridge 1896)
-# apparatus: Jebb's critical notes
+# apparatus: Jebb's critical apparatus
 # translation: R. C. Jebb
 # commentary: R. C. Jebb, with his introduction and appendix
 # syntax: annotated by hand (Ancient Greek Dependency Treebank)
@@ -14,4 +14,4 @@
 # google_play: yes
 # product_id: sophocles_ajax_jebb
 
-The Greek text of Sir Richard Jebb's edition, with his translation, critical notes and commentary, and the Liddell–Scott dictionaries. Tap any word for its meaning and form.
+The Greek text of Sir Richard Jebb's edition, with his translation, critical apparatus and commentary, and the Liddell–Scott dictionaries. Tap any word for its meaning and form.

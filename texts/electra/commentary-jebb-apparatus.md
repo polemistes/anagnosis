@@ -1,7 +1,7 @@
-# title: Critical notes
+# title: Critical apparatus
 # author: Richard C. Jebb
 # lang: eng
-# source: Sophocles, The Plays and Fragments, Part VI: The Electra, Cambridge University Press, first edition 1894, reprinted 1907; Internet Archive sophoclesplaysfr06soph (University of Florida) (critical notes), transcribed page by page
+# source: Sophocles, The Plays and Fragments, Part VI: The Electra, Cambridge University Press, first edition 1894, reprinted 1907; Internet Archive sophoclesplaysfr06soph (University of Florida) (critical apparatus), transcribed page by page
 # license: CC BY-SA 4.0 (transcription; the edition is in the public domain)
 
 ## 1

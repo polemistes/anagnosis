@@ -1,7 +1,7 @@
-# title: Critical notes
+# title: Critical apparatus
 # author: Richard C. Jebb
 # lang: eng
-# source: Sophocles, The Plays and Fragments, Part VII: The Ajax, Cambridge University Press, first edition 1896, reprinted 1914; Internet Archive playsfragmentswi07sophuoft (University of Toronto) (critical notes), transcribed page by page
+# source: Sophocles, The Plays and Fragments, Part VII: The Ajax, Cambridge University Press, first edition 1896, reprinted 1914; Internet Archive playsfragmentswi07sophuoft (University of Toronto) (critical apparatus), transcribed page by page
 # license: CC BY-SA 4.0 (transcription; the edition is in the public domain)
 
 ## 1

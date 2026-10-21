@@ -1,7 +1,7 @@
-# title: Critical notes
+# title: Critical apparatus
 # author: Richard C. Jebb
 # lang: eng
-# source: Sophocles, The Plays and Fragments, Part III: The Antigone, 2nd ed., Cambridge University Press 1891 (critical notes), transcribed from the Internet Archive scan sophocles03soph
+# source: Sophocles, The Plays and Fragments, Part III: The Antigone, 2nd ed., Cambridge University Press 1891 (critical apparatus), transcribed from the Internet Archive scan sophocles03soph
 # license: CC BY-SA 4.0 (transcription; the 1891 edition is in the public domain)
 
 ## 1
