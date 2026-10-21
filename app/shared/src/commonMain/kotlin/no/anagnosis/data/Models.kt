@@ -187,7 +187,8 @@ class WordInfo(
 class NoteGroup(val heading: String, val lineText: String?, val notes: List<Commentary_notes>)
 
 /** Which kind of notes a commentary holds; decided from its slug. */
-enum class NoteKind(val label: String) { APPARATUS("Apparatus"), COMMENTARY("Commentary") }
+/** [short] is the label of the bottom bar's button when four buttons share it. */
+enum class NoteKind(val label: String, val short: String) { APPARATUS("Apparatus", "App."), COMMENTARY("Commentary", "Comm.") }
 
 fun Commentaries.kind(): NoteKind = if ("apparatus" in slug) NoteKind.APPARATUS else NoteKind.COMMENTARY
 

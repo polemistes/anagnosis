@@ -66,10 +66,18 @@ other sheets' headings. Then every placed bookmark in text order, as a row: cita
 them the quote in grey, one line, ellipsis. A row whose sentence starts on the present page
 has the `primaryContainer` background with rounded corners (`MaterialTheme.shapes.small`) and
 a little padding, the rest no background. A tap on a row goes to the bookmark's page
-(`goToLine` of its first line) and closes the sheet. Bookmarks whose sentence is not found in
+(`goToLine` of its first line) and closes the sheet. A pencil icon at the end of each row
+opens the bookmark in the editor, to rename or delete it (added 2026-10-21 while building:
+otherwise the only way to an existing bookmark is to find its sentence again). Bookmarks whose sentence is not found in
 the current text come last under a heading "Not found in the current text" (in the style of
 the all-notes sheet's heading for lost notes), each with its quote; a tap on one opens it in
 the editor, which is where it can be deleted. Nothing else is written in the sheet.
+
+**Four buttons in the bottom bar.** On a narrow screen (`compact`, a phone held upright) with
+four buttons (Apparatus, Commentary, Notes, Bookmarks) the buttons show abbreviated names:
+"App.", "Comm.", "Notes", "Bookm." (`NoteKind.short`), so that the span keeps its full
+"Lines 252–269". A screen reader still reads the full names. Decided with the author on
+2026-10-21 after seeing the span cut to "Lin…" on the emulator.
 
 **The ticks.** `ProgressScrubber` gets `bookmarkedPages: Set<Int>`. A note's tick is a short
 vertical line through the track in the primary colour at half strength; a bookmark's tick is
@@ -172,6 +180,6 @@ Commit: "Bookmarks in the notes export".
 ## Progress
 
 - [x] Step 1
-- [ ] Step 2
+- [x] Step 2
 - [ ] Step 3
 - [ ] Step 4

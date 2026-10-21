@@ -39,6 +39,7 @@ enum class WordAction(val label: String) {
     READ_FROM_HERE("Read aloud from here"),
     SYNTAX("Syntax of the sentence"),
     NOTE("Add a note on this word"),
+    BOOKMARK("Bookmark this sentence"),
 }
 
 /**

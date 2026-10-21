@@ -42,6 +42,8 @@ import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.ArrowDropDown
+import androidx.compose.material.icons.filled.Bookmark
+import androidx.compose.material.icons.outlined.BookmarkBorder
 import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.MoreVert
@@ -114,6 +116,9 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import no.anagnosis.data.AnagnosisRepository
 import no.anagnosis.data.Book
+import no.anagnosis.data.Bookmark
+import no.anagnosis.data.Bookmarks
+import no.anagnosis.data.PlacedBookmark
 import no.anagnosis.data.CatalogEntry
 import no.anagnosis.data.NoteGroup
 import no.anagnosis.data.NoteKind
@@ -309,8 +314,21 @@ fun ReaderScreen(
         else markSpans + (t.line_id to (markSpans[t.line_id].orEmpty() + NoteSpan(t.start.toInt(), t.end.toInt(), PENDING_NOTE_ID)))
     }
     fun cancelSelection() { selecting = false; selectionStart = null }
+    // The reader's bookmarks in this text, placed in it; read again after every change.
+    var bookmarks by remember(data) { mutableStateOf<List<PlacedBookmark>>(emptyList()) }
+    var bookmarksVersion by remember { mutableStateOf(0) }
+    fun reloadBookmarks() { bookmarksVersion++ }
+    LaunchedEffect(data, bookmarksVersion) {
+        bookmarks = withContext(Dispatchers.Default) { Bookmarks.place(repository.bookmarks(data.slug), data) }
+    }
+    // Choosing the sentence of a new bookmark: on from the bookmark icon until a word is tapped.
+    var bookmarking by remember { mutableStateOf(false) }
+    // A bookmark open in the editor; a new one has id 0 until it is saved.
+    var bookmarkEditing by remember { mutableStateOf<Bookmark?>(null) }
+    var showBookmarks by remember { mutableStateOf(false) }
     /** While a passage is being chosen for a note: what to tap next, shown in the top bar. */
     val selectionPrompt = when {
+        bookmarking -> "Tap a word of the sentence to bookmark"
         !selecting -> null
         selectionStart == null -> "Tap the first word of the passage"
         else -> "Tap the last word of the passage"
@@ -334,6 +352,7 @@ fun ReaderScreen(
         cancelSelection()
     }
     if (selecting) PlatformBackHandler { cancelSelection() }
+    if (bookmarking) PlatformBackHandler { bookmarking = false }
 
     val translation = data.translations.firstOrNull()
     val allRows = remember(data) { buildRows(data) }
@@ -355,6 +374,15 @@ fun ReaderScreen(
     val sentences = remember(data, book) { sentencesOf(bookLines, data.tokensByLine) }
     val sentenceOfToken = remember(sentences) {
         HashMap<Long, Int>().also { m -> sentences.forEachIndexed { i, s -> for (t in s) m[t.id] = i } }
+    }
+    /** A tap on a word while bookmarking: its sentence's bookmark opens in the editor, a new one if there is none. */
+    fun pickSentence(id: Long) {
+        bookmarking = false
+        val token = data.tokenById[id] ?: return
+        val first = sentenceOfToken[id]?.let { sentences[it].firstOrNull() } ?: token
+        val existing = bookmarks.firstOrNull { it.token?.id == first.id }
+        bookmarkEditing = existing?.bookmark
+            ?: Bookmark(0, data.slug, Notes.anchorOf(data, first), "", Bookmarks.quote(data, first), 0)
     }
     val readKey = "${data.slug}/${book ?: 0}"
     LaunchedEffect(readAloud, readKey, sentences) {
@@ -394,6 +422,7 @@ fun ReaderScreen(
             if (readAloud?.available == true) { add(WordAction.READ_SENTENCE); add(WordAction.READ_FROM_HERE) }
             add(WordAction.SYNTAX)
             add(WordAction.NOTE)
+            add(WordAction.BOOKMARK)
         },
         onWord = { selectedTokenId = it },
         onAction = { t, action ->
@@ -406,6 +435,7 @@ fun ReaderScreen(
                     val line = data.lineById.getValue(t.line_id)
                     draft = NoteDraft(a, a, Notes.quote(data, Placement(line, t, line, t)), Notes.rangeLabel(data, a, a))
                 }
+                WordAction.BOOKMARK -> pickSentence(t.id)
             }
         },
     )
@@ -509,6 +539,13 @@ fun ReaderScreen(
         }
     }
 
+    // the bookmarks whose sentence starts on the page shown, by bookmark id
+    val shownPage = pageAt(pagerState.currentPage)
+    val pageBookmarks = remember(shownPage, bookmarks) {
+        val ids = shownPage?.rows?.mapNotNull { (it as? ReaderRow.GreekLine)?.line?.id }?.toSet().orEmpty()
+        bookmarks.filter { it.line?.id in ids }.map { it.bookmark.id }.toSet()
+    }
+
     val notedPages = remember(pages, noteSpans, settings.noteTicks) {
         if (!settings.noteTicks || noteSpans.isEmpty()) emptySet()
         else pages.indices.filter { i -> pages[i].rows.any { it is ReaderRow.GreekLine && it.line.id in noteSpans } }.toSet()
@@ -583,8 +620,8 @@ fun ReaderScreen(
                 },
                 actions = {
                     // while a passage is being chosen, the bar offers only the way out
-                    if (selecting) {
-                        TextButton(onClick = { cancelSelection() }) { Text("Cancel") }
+                    if (selecting || bookmarking) {
+                        TextButton(onClick = { cancelSelection(); bookmarking = false }) { Text("Cancel") }
                         return@TopAppBar
                     }
                     if (translation != null) {
@@ -607,6 +644,17 @@ fun ReaderScreen(
                                     )
                                 }
                             }
+                        }
+                    }
+                    // the bookmark icon starts choosing a sentence to bookmark; filled when a bookmark starts on the page
+                    IconButton(onClick = {
+                        bookmarking = true
+                        if (mode == ViewMode.TRANSLATION) chosenMode = ViewMode.GREEK
+                    }) {
+                        if (pageBookmarks.isNotEmpty()) {
+                            Icon(Icons.Filled.Bookmark, contentDescription = "Add a bookmark", tint = MaterialTheme.colorScheme.primary)
+                        } else {
+                            Icon(Icons.Outlined.BookmarkBorder, contentDescription = "Add a bookmark")
                         }
                     }
                     // the pencil starts a note on a passage; while a passage is being chosen it gives the choice up
@@ -676,12 +724,15 @@ fun ReaderScreen(
                     else "Lines ${data.lineLabel(first)}–${data.lineLabel(last)}"
                 },
                 short = short,
+                compact = compact,
                 scrubbing = scrubPage != null,
                 notedPages = notedPages,
                 noteKinds = data.commentaries.map { it.kind() }.distinct(),
                 onNotes = { pageNotesKind = it },
                 hasMyNotes = notes.isNotEmpty(),
                 onMyNotes = { showMyPageNotes = true },
+                hasBookmarks = bookmarks.isNotEmpty(),
+                onBookmarks = { showBookmarks = true },
                 onScrub = { page ->
                     scrubPage = page
                     scope.launch { pagerState.scrollToPage(page + offset) }
@@ -832,8 +883,8 @@ fun ReaderScreen(
                                     PageContent(
                                         page, styles, data, numberColumn, forcedColumn,
                                         spans = shownSpans,
-                                        onWord = { if (selecting) pickWord(it) else selectedTokenId = it },
-                                        onSentence = { token -> if (!selecting) syntaxSentence = token.sentence },
+                                        onWord = { if (selecting) pickWord(it) else if (bookmarking) pickSentence(it) else selectedTokenId = it },
+                                        onSentence = { token -> if (!selecting && !bookmarking) syntaxSentence = token.sentence },
                                         showMarks = settings.lineNumbers != LineNumberMode.NONE,
                                         highlight = greekHighlight,
                                     )
@@ -994,6 +1045,37 @@ fun ReaderScreen(
                 }
             },
             onDismiss = { editing = null },
+        )
+    }
+    if (showBookmarks) {
+        BookmarksSheet(
+            bookmarks, { Bookmarks.label(data, it.at) }, pageBookmarks,
+            onGo = { pb -> showBookmarks = false; goToLine(pb.line?.n_int ?: pb.bookmark.at.nInt) },
+            onOpen = { pb -> showBookmarks = false; bookmarkEditing = pb.bookmark },
+            onDismiss = { showBookmarks = false },
+        )
+    }
+    bookmarkEditing?.let { b ->
+        val isNew = b.id == 0L
+        BookmarkEditorSheet(
+            Bookmarks.label(data, b.at), b.quote, initialName = b.name, isNew = isNew,
+            onSave = { name ->
+                bookmarkEditing = null
+                scope.launch {
+                    withContext(Dispatchers.Default) {
+                        if (isNew) repository.addBookmark(data.slug, b.at, name, b.quote) else repository.renameBookmark(b.id, name)
+                    }
+                    reloadBookmarks()
+                }
+            },
+            onDelete = if (isNew) null else { {
+                bookmarkEditing = null
+                scope.launch {
+                    withContext(Dispatchers.Default) { repository.deleteBookmark(b.id) }
+                    reloadBookmarks()
+                }
+            } },
+            onDismiss = { bookmarkEditing = null },
         )
     }
     if (showDocuments) {
@@ -1545,11 +1627,16 @@ private fun TranslationPage(
 
 /** A text button of the bottom bar; in the thin bar of a short screen it has no vertical padding, so that it fits the row. */
 @Composable
-private fun BarButton(label: String, short: Boolean, onClick: () -> Unit) {
+private fun BarButton(label: String, short: Boolean, tight: Boolean, shortLabel: String = label, onClick: () -> Unit) {
+    // tight: four buttons share a narrow bar, and the abbreviated name leaves the span its room;
+    // a screen reader still reads the full name
+    val text: @Composable () -> Unit = {
+        if (tight && shortLabel != label) Text(shortLabel, Modifier.semantics { contentDescription = label }) else Text(label)
+    }
     if (short) {
-        TextButton(onClick = onClick, contentPadding = PaddingValues(horizontal = 12.dp, vertical = 0.dp), modifier = Modifier.heightIn(min = 32.dp)) { Text(label) }
+        TextButton(onClick = onClick, contentPadding = PaddingValues(horizontal = 12.dp, vertical = 0.dp), modifier = Modifier.heightIn(min = 32.dp)) { text() }
     } else {
-        TextButton(onClick = onClick, contentPadding = ButtonDefaults.TextButtonContentPadding) { Text(label) }
+        TextButton(onClick = onClick, contentPadding = ButtonDefaults.TextButtonContentPadding) { text() }
     }
 }
 
@@ -1567,8 +1654,13 @@ private fun ProgressScrubber(
     /** Whether the text has any of the reader's own notes, which then get a button of their own. */
     hasMyNotes: Boolean,
     onMyNotes: () -> Unit,
+    /** Whether the text has any of the reader's bookmarks, which then get a button of their own. */
+    hasBookmarks: Boolean,
+    onBookmarks: () -> Unit,
     /** A short screen (a phone held sideways): thinner rows and no space below. */
     short: Boolean,
+    /** A narrow screen (a phone held upright): four buttons get abbreviated names. */
+    compact: Boolean,
     onScrub: (Int) -> Unit,
     onRelease: () -> Unit,
 ) {
@@ -1581,6 +1673,8 @@ private fun ProgressScrubber(
                 Modifier.fillMaxWidth().height(if (short) 32.dp else 40.dp).padding(horizontal = 16.dp),
                 verticalAlignment = Alignment.CenterVertically,
             ) {
+                // four buttons on a narrow screen: abbreviated names (see BarButton)
+                val tight = compact && noteKinds.size + (if (hasMyNotes) 1 else 0) + (if (hasBookmarks) 1 else 0) >= 4
                 val page = pages.getOrNull(currentPage)
                 if (page != null && count > 0) {
                     val span = span(page.firstN, page.lastN)
@@ -1596,10 +1690,13 @@ private fun ProgressScrubber(
                     Spacer(Modifier.weight(1f))
                 }
                 for (kind in noteKinds) {
-                    BarButton(kind.label, short) { onNotes(kind) }
+                    BarButton(kind.label, short, tight, kind.short) { onNotes(kind) }
                 }
                 if (hasMyNotes) {
-                    BarButton("Notes", short, onMyNotes)
+                    BarButton("Notes", short, tight, onClick = onMyNotes)
+                }
+                if (hasBookmarks) {
+                    BarButton("Bookmarks", short, tight, "Bookm.", onBookmarks)
                 }
             }
             Canvas(
