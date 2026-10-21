@@ -249,6 +249,51 @@ def _speech_places(paras: list[str], sources: Path) -> dict[int, tuple[int, floa
 
 # ---------------------------------------------------------------- Lodge
 
+def _word_sim(a: str, b: str) -> float:
+    if a == b:
+        return 1.0
+    if a and b and (a.startswith(b) or b.startswith(a)) and min(len(a), len(b)) >= 1 and abs(len(a) - len(b)) <= 2:
+        return 0.9  # elision: γʼ for γε, δʼ for δέ
+    r = difflib.SequenceMatcher(None, a, b).ratio()
+    return r if r >= 0.75 else 0.0
+
+
+def _find(seq: list[str], skels: list[str], frm: int, hint: int) -> tuple[float, int] | None:
+    """The best place for a run of words: (score per word, index), preferring places after the hint."""
+    best = None
+    for i in range(frm, len(skels) - len(seq) + 1):
+        sc = sum(_word_sim(a, skels[i + k]) for k, a in enumerate(seq)) / len(seq)
+        key = (sc, i >= hint, -abs(i - hint))
+        if best is None or key > best[0]:
+            best = (key, i)
+    if best is None or best[0][0] < (0.8 if len(seq) == 1 else 0.6):
+        return None
+    return best[0][0], best[1]
+
+
+def _locate_fuzzy(lemma: str, words: list[tuple[str, str]], hint: int) -> tuple[str, str, int] | None:
+    """(first line, last line, index) of a lemma ("καὶ μάλα γʼ ἀστείας", "ἐὰν ... λέγῃς") among the
+    words of a passage, by the best match of its words, allowing for elision and misprints."""
+    parts = [p for p in re.split(r"\s*(?:\.\s*\.\s*\.|…|κτλ\.?)\s*", lemma) if p.strip()]
+    if not parts:
+        return None
+    first = [_skel(w) for w, _s, _e in greek.words(parts[0])]
+    last = [_skel(w) for w, _s, _e in greek.words(parts[-1])] if len(parts) > 1 else []
+    if not first:
+        return None
+    skels = [w for w, _n in words]
+    found = _find(first, skels, 0, hint)
+    if found is None:
+        return None
+    i = found[1]
+    end = i + len(first) - 1
+    if last:
+        f2 = _find(last, skels, i + len(first), i + len(first))
+        if f2 is not None and f2[1] - i < 120:
+            end = f2[1] + len(last) - 1
+    return words[i][1], words[min(end, len(words) - 1)][1], i
+
+
 def import_lodge(source: Path, lines: list[tuple[str, str]], out: Path) -> tuple[int, int]:
     """Lodge's commentary, each note under the line its lemma is on (the first line of its section
     where the lemma is not found). Returns (notes, notes not located)."""
@@ -291,20 +336,24 @@ def import_lodge(source: Path, lines: list[tuple[str, str]], out: Path) -> tuple
                     bibl.text = f"⟦{target}|{text}⟧"
             lemma_el = p.find("lemma")
             starts_with_lemma = lemma_el is not None and not (p.text or "").strip()
+            if starts_with_lemma and re.fullmatch(r"\s*\d+\s*", "".join(lemma_el.itertext())) \
+                    and re.fullmatch(r"\s*f+\.?\s*", "".join(p.itertext())[len("".join(lemma_el.itertext())):]):
+                continue  # "8 f.": a reference to the lines of Lodge's own text
             md = _bury_md(p)
             md = re.sub(r"⟦(\d{3}[a-e]1)\|([^⟧]*)⟧", r"[\2](#\1)", md)
             if not md or re.fullmatch(r"[IVXLC]+\.", md.strip()):
                 continue  # Lodge's chapter numbers ("I.")
+            md = re.sub(r"(?<=[\u0370-\u03ff\u1f00-\u1fff])'", "ʼ", md)  # elision in the Greek
             if starts_with_lemma:
                 lemma = re.sub(r"[*\\]", "", _md(lemma_el, True)).strip()
-                found = _locate(lemma, words, hint)
+                found = _locate_fuzzy(lemma, words, hint)
                 if found is None:
                     lost += 1
-                    heading = first_line[sec]
+                    # where the note before was, or the section's first line
+                    heading = notes[-1][0].split("-")[0] if notes and section_of(notes[-1][0].split("-")[0]) == sec else first_line[sec]
                 else:
-                    a, b = found
+                    a, b, hint = found
                     heading = a if a == b else f"{a}-{b}"
-                    hint = next((i for i, (_w, n) in enumerate(words) if n == a), hint)
                 notes.append([heading, [md]])
             elif notes and section_of(notes[-1][0].split("-")[0]) == sec:
                 notes[-1][1].append(md)

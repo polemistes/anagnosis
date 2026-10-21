@@ -72,7 +72,7 @@
 ¶
 502a4	{ΣΩ.} Τί δὲ ὁ πατὴρ αὐτοῦ Μέλης; ἦ πρὸς τὸ βέλτιστον
 502a5	βλέπων ἐδόκει σοι κιθαρῳδεῖν; ἢ ἐκεῖνος μὲν οὐδὲ πρὸς τὸ
-502a6	ἥδιστον; ἠνία γὰρ ᾁδων τοὺς θεατάς. ἀλλὰ δὴ σκόπει·
+502a6	ἥδιστον; ἠνία γὰρ ᾄδων τοὺς θεατάς. ἀλλὰ δὴ σκόπει·
 502a7	οὐχὶ ἥ τε κιθαρῳδικὴ δοκεῖ σοι πᾶσα καὶ ἡ τῶν διθυράμβων
 502a8	ποίησις ἡδονῆς χάριν ηὑρῆσθαι;
 ¶
@@ -84,7 +84,7 @@
 502b4	θεαταῖς μόνον, ἢ καὶ διαμάχεσθαι, ἐάν τι αὐτοῖς ἡδὺ μὲν ᾖ
 502b5	καὶ κεχαρισμένον, πονηρὸν δέ, ὅπως τοῦτο μὲν μὴ ἐρεῖ, εἰ
 502b6	δέ τι τυγχάνει ἀηδὲς καὶ ὠφέλιμον, τοῦτο δὲ καὶ λέξει
-502b7	καὶ ᾁσεται, ἐάντε χαίρωσιν ἐάντε μή; ποτέρως σοι δοκεῖ
+502b7	καὶ ᾄσεται, ἐάντε χαίρωσιν ἐάντε μή; ποτέρως σοι δοκεῖ
 502b8	παρεσκευάσθαι ἡ τῶν τραγῳδιῶν ποίησις;
 --- apparatus
 501d9	μή P et supra versum T f: om. B F
@@ -99,6 +99,8 @@
 502b3	ὡς σοὶ T W F: ὥς σοι B: ὥς μοι Schanz
 502b6	ὠφέλιμον ⟨ὄν⟩ Hirschig
 --- notes
+502b7	ᾄσεται with a smooth breathing, as ᾄδων at 502a6 on the page; Perseus has ᾁσεται: changed (final check)
+502a6	the page prints ᾄδων (smooth breathing); Perseus has ᾁδων: changed (final check)
 501e8	flag checked: διθυράμβων is printed (δι-/θυράμβων across the line end)
 502b4	flags checked: μὲν and ᾖ are printed on this line
 501e10	apparatus: ἐρεῖ τι is printed at e 10 though the words stand in 501e10; the sigla read "B W F t.:" with a stray dot, left out

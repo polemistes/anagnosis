@@ -16,7 +16,7 @@ free of charge: the code under the GPL (see LICENSE), the texts and data under C
 
     texts/       the texts, translations, commentaries and word annotations, as editable plain files
     pipeline/    Python pipeline: fetches upstream sources, imports them into texts/, builds the SQLite bundle
-    pipeline/transcriptions/   page-by-page transcriptions of printed editions (Allen's Odyssey, Burnet's Symposium)
+    pipeline/transcriptions/   page-by-page transcriptions of printed editions (Allen's Odyssey, Burnet's Symposium and Gorgias)
                                and of Autenrieth's Homeric Dictionary; corrections to the OCR of Woodhouse's
                                English-Greek Dictionary
     data/        build output: the SQLite bundle shipped with the app (not committed)
@@ -48,6 +48,15 @@ So has the Symposium:
     .venv/bin/python -m anagnosis_pipeline prepare-symposium-pages        # page images and drafts for transcribing Burnet's edition
     .venv/bin/python -m anagnosis_pipeline check-symposium-batch FILE...  # check transcription batches against the Perseus text
     .venv/bin/python -m anagnosis_pipeline merge-symposium                # texts/symposium/: Burnet's text and apparatus, GLAUx, Jowett, Bury
+
+The Gorgias is read by OCR instead of typed: Tesseract's lines are matched to the Perseus text, which
+gives Burnet's line breaks, and only the places where the two disagree are checked against the scan
+(the brief is `pipeline/transcriptions/gorgias/INSTRUCTIONS.md`):
+
+    .venv/bin/python -m anagnosis_pipeline gorgias-pages fetch|ocr|draft  # the scan, Tesseract, the draft batches and check sheets
+    .venv/bin/python -m anagnosis_pipeline check-gorgias-batch FILE...    # check a batch (every difference from Perseus)
+    .venv/bin/python -m anagnosis_pipeline lodge-intro                    # Lodge's introduction by OCR, for checking
+    .venv/bin/python -m anagnosis_pipeline merge-gorgias                  # texts/gorgias/: Burnet's text and apparatus, GLAUx, Jowett, Lodge
 
 Autenrieth's Homeric Dictionary, one of the reader's dictionaries, is transcribed from a scan as well
 (the brief is `pipeline/transcriptions/autenrieth/INSTRUCTIONS.md`; `build` reads the batches):

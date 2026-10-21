@@ -36,9 +36,22 @@ APPARATUS_META = {
 }
 GLAUX = "glaux/0059-023.xml"
 # GLAUx lemmas that are wrong or spelled otherwise than the dictionaries' headwords
-LEMMA_FIXES: dict[str, str] = {}
+LEMMA_FIXES = {
+    "ἁσθιͅω": "ᾄδω", "κατέρδω": "καθείργνυμι", "διαβιάω": "διαβιόω", "διαπορρήγνυμι": "διαπράσσω",
+    "προσαπολόω": "προσαπόλλυμι", "ἐπιτηδευτέος": "ἐπιτηδευτέον", "ἐγχειρίδιον": "ἐγχειρίδιος",
+    "ἀμφιαμφισβητέω": "ἀμφισβητέω", "οπροῗδα": "πρόοιδα", "ἐπανεράομαι": "ἐπανέρομαι", "κατοράω": "καθοράω",
+    "ὀψοποιϊκός": "ὀψοποιικός", "μιμνῄσκω": "μιμνήσκω", "ἀναμιμνῄσκω": "ἀναμιμνήσκω", "ὅπῃ": "ὅπη",
+    "ἀνδριαντοποιία": "ἀνδριαντοποιΐα", "νυν": "νύν", "Ἀλκέτας": "Ἀλκέτης", "Κλεοπάτρη": "Κλεοπάτρα",
+    "Σκέλλιος": "Σκελλίας", "Κλείνιος": "Κλεινίας", "Μέλητος": "Μέλης", "ᾁδω": "ᾄδω", "ᾁσμα": "ᾆσμα",
+    "ὑπομιμνῄσκω": "ὑπομιμνήσκω", "κατάσσω": "κατάγνυμι", "παντοδαπής": "παντοδαπός", "αἰνίζω": "αἰνίσσομαι",
+    "διανοέω": "διανοέομαι", "Σήραμβος": "Σάραμβος", "ἀιδής": "ἀϊδής", "Ἡρακλέης": "Ἡρακλῆς",
+    "φιλονεικέω": "φιλονικέω", "Αἰγίνη": "Αἴγινα",
+}
 # words GLAUx misreads, by "line form": (lemma, tag)
-HAND_ANALYSES: dict[str, tuple[str, str]] = {}
+HAND_ANALYSES = {
+    "522e8 πέρανον": ("περαίνω", "v2sama---"),  # "finish!", taken for an indicative of a verb περιάνω
+    "479a7 διαπράξαιτο": ("διαπράσσω", "v3saom---"),
+}
 
 
 def _skel(s: str) -> str:
@@ -231,6 +244,11 @@ def merge(transcriptions: Path, pages_dir: Path, texts: Path, sources: Path, lex
     print(f"wrote {out / 'eng-jowett.txt'}: {len(segs)} segments")
     n_notes, lost = import_lodge(sources / "gorgias-lodge-commentary.xml", lines, out / "commentary-lodge.md")
     print(f"wrote {out / 'commentary-lodge.md'}: {n_notes} notes ({lost} lemmas not found in Burnet's text: filed under their section)")
+
+    from .lodge_intro import assemble as lodge_introduction
+
+    n_pages = lodge_introduction(transcriptions.parent / "gorgias-lodge-intro", out / "introduction.md")
+    print(f"wrote {out / 'introduction.md'}: Lodge's preface and introduction from {n_pages} pages")
 
     log = build / "gorgias-merge.log"
     log.write_text("\n".join(problems) + "\n", encoding="utf-8")

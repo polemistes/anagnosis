@@ -3,7 +3,7 @@
 Gonzalez Lodge, Plato, Gorgias (Boston: Ginn, 1890; College Series of Greek Authors), preface
 and introduction (pp. iii-iv, 1-32). Perseus has Lodge's commentary but not his introduction,
 which the notes cite ("See Introd. § 4"). Read from the Internet Archive scan gorgiasss00platuoft
-(the 1896 printing, Robarts Library, Toronto, 400 ppi), leaves 8-9 (preface) and 10-41.
+(the 1896 printing, Robarts Library, Toronto, 400 ppi), leaves 9-10 (preface) and 11-42.
 
     python -m anagnosis_pipeline lodge-intro        the leaves, Tesseract (eng+grc), a draft and the
                                                     suspect words of each page
@@ -29,7 +29,7 @@ ROOT = Path(__file__).resolve().parent.parent.parent
 PIPELINE = ROOT / "pipeline"
 TESSDATA = PIPELINE / "tessdata"
 SCAN = "gorgiasss00platuoft"
-LEAVES = range(8, 42)
+LEAVES = range(8, 43)
 SRC = PIPELINE / "sources" / "scans" / SCAN
 BUILD = PIPELINE / "build" / "lodge-intro"
 
