@@ -108,29 +108,41 @@ META = {
 
 
 def assemble(transcriptions: Path, out: Path) -> int:
-    """introduction.md from the checked pages: their text joined (a paragraph that runs over a
-    page is joined), the footnotes of each page after the paragraph they belong to."""
+    """introduction.md from the checked pages: a paragraph that runs over a page is joined (a page
+    that begins with "…" continues the paragraph before), and each footnote is put in brackets
+    where its number stands: "(Note 33: Apol. 32 b.)", as the other introductions have them."""
     pages = sorted(transcriptions.glob("page-*.md"))
-    body: list[str] = []
-    notes: list[str] = []
+    body = ""
+    notes: dict[str, str] = {}
+    last_note = None
     for p in pages:
         text = p.read_text(encoding="utf-8")
-        main, _, foot = text.partition("\n--- footnotes\n")
+        main, _, foot = text.partition("--- footnotes")
         main = main.strip()
         if main.startswith("…"):
-            # continues the paragraph of the page before
-            if body:
-                body[-1] = body[-1].rstrip() + " " + main[1:].lstrip().split("\n\n", 1)[0]
-                rest = main[1:].lstrip().split("\n\n", 1)
-                main = rest[1] if len(rest) > 1 else ""
-            else:
-                main = main[1:].lstrip()
-        if main:
-            body.extend(x.strip() for x in main.split("\n\n") if x.strip())
-        notes.extend(x.strip() for x in foot.strip().split("\n") if x.strip())
-    md = [f"# {k}: {v}" for k, v in META.items()] + [""]
-    md += ["\n\n".join(body), ""]
-    if notes:
-        md += ["## Notes", ""] + [f"{n}\n" for n in notes]
+            body = body.rstrip() + " " + main[1:].lstrip()
+        elif main:
+            body = (body.rstrip() + "\n\n" + main) if body else main
+        for line in foot.strip().splitlines():
+            line = line.strip()
+            m = re.match(r"^\[\^(\d+)\]:\s*(.*)$", line)
+            if m:
+                last_note = m.group(1)
+                notes[last_note] = m.group(2)
+            elif line.startswith("+ ") and last_note:
+                notes[last_note] += " " + line[2:]
+    missing = []
+
+    def note(m: re.Match) -> str:
+        n = m.group(1)
+        if n not in notes:
+            missing.append(n)
+            return ""
+        return f" (Note {n}: {notes[n].strip()})"
+
+    body = re.sub(r"\s*\[\^(\d+)\]", note, body)
+    if missing:
+        print(f"Lodge's introduction: no text for notes {missing}")
+    md = [f"# {k}: {v}" for k, v in META.items()] + ["", body.strip()]
     out.write_text("\n".join(md).rstrip() + "\n", encoding="utf-8")
     return len(pages)

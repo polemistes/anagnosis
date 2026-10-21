@@ -33,7 +33,17 @@
 472b7	αὐτὸν ἕνα ὄντα μάρτυρα παράσχωμαι ὁμολογοῦντα περὶ ὧν
 472b8	λέγω, οὐδὲν οἶμαι ἄξιον λόγου μοι πεπεράνθαι περὶ ὧν ἂν
 --- apparatus
+471d3	τῶν λόγων, ὦ Πῶλε B T P: ὦ Πῶλε, τῶν λόγων F Olympiodorus
+471d3	σε B T P f: om. F
+471d4	ἐπῄνεσα addubitant Cobet Schanz
+471d4	δοκεῖς] fort. ἐδόκεις Thompson
+471d5	τοῦ δὲ B T F: οὐδὲ P
+471d7	οἴει B T P: οἴει εἶναι F
+471e4	ἐκεῖ οἱ B T F: ἐκεῖνοι P
+472b1	πυθίου F (cf. Thuc. vi. 54. 7, C. I. A. i. 189): πυθοῖ B T W f
+472b3	ἐνθάδε B T F: ἄλλων P
 --- notes
+471e6	ἢ is printed at the end of this line (OCR read it as “1)”).
 
 === g-0298
 --- text
@@ -74,7 +84,19 @@
 473a2	{ΣΩ.} Πειράσομαι δέ γε καὶ σὲ ποιῆσαι, ὦ ἑταῖρε, ταὐτὰ
 473a3	ἐμοὶ λέγειν· φίλον γάρ σε ἡγοῦμαι. νῦν μὲν οὖν ἃ διαφερόμεθα
 --- apparatus
+472c3	τις B T P: τίς ὁ F
+472c4	ἐγὼ αὖ B T P: αὖ ἐγὼ F
+472c4	παραβαλόντες F: παραλαβόντες B T W
+472c6	καὶ γὰρ καὶ F: καὶ γὰρ B T P
+472d4	ἄλλο τι F: ἀλλʼ ὅτι B T P: ἀλλʼ ὅτι ἢ rec. b
+472d4	διανοώμεθα B T P: διανοούμεθα F
+472e4	γε B T P: om. F
+472e5	πάντως F Stobaeus: ἁπάντων B T P
+472e5	μέντοι F Stobaeus: μὲν τοίνυν B T P
+472e7	τε καὶ B T P: καὶ F
+472e7	ἀνθρώπων B T P: ὑπʼ ἀνθρώπων F Stobaeus
 --- notes
+472c1	the apparent indent is the margin letter c; first line of the page, no new paragraph.
 
 === g-0299
 --- text
@@ -121,7 +143,16 @@
 473d1	πολιτῶν καὶ τῶν ἄλλων ξένων; ταῦτα λέγεις ἀδύνατον εἶναι
 473d2	ἐξελέγχειν;
 --- apparatus
+473a10	ἐξηλέγχθην ὑπὸ σοῦ B T P: ἐξηλέγθης F (suprascr. αν ὑπὸ σοῦ f): ἐξηλέγχθησαν ὑπὸ σοῦ t
+473b1	γε F: om. B T P
+473b3	ἴσως revera Socrati tribuit B (sed add. quoque :): Polo vulgo continuant
+473b3	αὖ τοὺς T P: αὐτοὺς B (sed accentum super αὐ add. rec. b) F
+473b6	δέ γε F: δὲ B T P
+473b12	ἀδικῶν secl. Dobree
+473c4	γυναῖκα B T P: γυναῖκας F
+473c5	εὐδαιμονέστερος F: εὐδαιμονέστατος B T P
 --- notes
+473b3	“quoque :” is printed so: the colon is the dicolon (change of speaker) that B adds, quoted by Burnet, not punctuation; the space before it is kept.
 
 === g-0300
 --- text
@@ -160,6 +191,20 @@
 474b6	{ΠΩΛ.} Ἐγὼ δέ γε οὔτʼ ἐμὲ οὔτʼ ἄλλον ἀνθρώπων οὐδένα.
 474b7	ἐπεὶ σὺ δέξαιʼ ἂν μᾶλλον ἀδικεῖσθαι ἢ ἀδικεῖν;
 --- apparatus
+473d9	διδοὺς δίκην F: διδοὺς B T P: δίκην δούς H. Schmidt
+473e1	διαφεύγων B T W F: διαφυγὼν Vind. 21
+473e1	τυραννήσας F
+473e2	τοῦτο αὖ ἄλλο F
+473e2	εἶδος τοῦτο P
+473e6	βασιλεύειν P
+474a1	ἠπιστάμην ἐπιψηφίζειν] ἠδυνάμην ἐπιψηφίσαι Athenaeus
+474a1	post ἐπιψηφίζειν add. τοὺς παρόντας F
+474a3	ἔχεις P F: ἔχῃς B T
+474a3	ἔλεγον ἐγώ P
+474a5	δεῖν B T P f: om. F
+474a5	μὲν] μόνον Cobet
+474a6	αὐτὸν] αὐτὸν τὸν Cobet
+474b6	ἄλλον B P: ἄλλων T F
 --- notes
 
 === g-0301
@@ -200,7 +245,19 @@
 474e7	ἐστίν, τὰ καλά, τοῦ ἢ ὠφέλιμα εἶναι ἢ ἡδέα ἢ ἀμφότερα.—
 475a1	{ΠΩΛ.} Οὐκ ἔμοιγε δοκεῖ.—{ΣΩ.} Οὐκοῦν καὶ τὸ τῶν μαθημάτων
 --- apparatus
+474d1	καὶ κακὸν B W F: κακὸν T
+474d4	καὶ σχήματα B T P: om. F
+474d6	τὰ καλὰ B T P f: καλὰ F
+474d8	ἐν B T P: om. F
+474d8	θεωρεῖσθαι B (sed ras. ante θ et post ω: aliquid suprascr. rec. b)
+474e2	καὶ χρώματα καὶ σχήματα F
+474e5	πάντα B T P: ἅπαντα F
+474e5	γε B T P: τε F
+474e7	τὰ καλὰ re vera B T P F
+474e7	τοῦ ἢ ὠφέλιμα W F: ἢ ὠφέλιμα B: τοῦ ὠφέλιμα T
+475a1	μαθημάτων T W F: μαθητῶν B
 --- notes
+474c8	ἀποκρίνου. and ΠΩΛ. are printed on this line (checked on the image); the line is not indented.
 
 === g-0302
 --- text
@@ -227,7 +284,7 @@
 475c5	μὴ λύπῃ, ἀμφοτέροις μὲν οὐκ ἂν ἔτι ὑπερβάλλοι.—{ΠΩΛ.} Οὐ
 475c6	φαίνεται.—{ΣΩ.} Οὐκοῦν τῷ ἑτέρῳ λείπεται.—{ΠΩΛ.} Ναί.—
 475c7	{ΣΩ.} Τῷ κακῷ.—{ΠΩΛ.} Ἔοικεν.—{ΣΩ.} Οὐκοῦν κακῷ ὑπερβάλλον
-475c8	τὸ ἀδικεῖν κάκιον ἂν εἴη τοῦ ἀδικεῖσθαι.
+475c8	τὸ ἀδικεῖν κάκιον ἂν εἴη τοῦ ἀδικεῖσθαι.—{ΠΩΛ.}
 475c9	Δῆλον δὴ ὅτι.
 ¶
 475d1	{ΣΩ.} Ἄλλο τι οὖν ὑπὸ μὲν τῶν πολλῶν ἀνθρώπων καὶ
@@ -236,4 +293,19 @@
 475d4	δέ γε κάκιον ἐφάνη.—{ΠΩΛ.} Ἔοικε.—{ΣΩ.} Δέξαιο ἂν οὖν
 475d5	σὺ μᾶλλον τὸ κάκιον καὶ τὸ αἴσχιον ἀντὶ τοῦ ἧττον; μὴ
 --- apparatus
+475a6	τούτοιν B T P: αὐτοῖν F
+475a7	ἢ prius B T P: ἢ καὶ F
+475a8	δὲ δὴ B T P f: δὴ F
+475b1	post κακῷ add. ἢ ἀμφοτέροις Hirschig
+475b3	ἐλέγετο P F: ἐλέγετο τὸ B T W
+475b4	κάκιον B P F t: κακὸν T
+475c2	ἀργοῦσι P
+475c4	γε in ras. B
+475d2	ἔμπροσθεν B T F: πρόσθεν P
+475d2	χρόνῳ] λόγῳ Findeisen: secl. ci. Cron
+475d5	σὺ supra versum P
+475d5	αἴσχιον F: αἰσχρὸν B T W
+475d5	τοῦ P: τοῦ τὸ B T f: τοῦτο F
 --- notes
+475c8	speaker's name added: the page prints “—ΠΩΛ.” at the end of this line, before Δῆλον δὴ ὅτι. on 475c9 (checked on the whole page).
+475c9	not indented on the page; no paragraph mark.

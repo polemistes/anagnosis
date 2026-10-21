@@ -29,7 +29,23 @@
 464c4	δὴ τούτων οὐσῶν, καὶ ἀεὶ πρὸς τὸ βέλτιστον θεραπευουσῶν
 464c5	τῶν μὲν τὸ σῶμα, τῶν δὲ τὴν ψυχήν, ἡ κολακευτικὴ αἰσθομένη
 --- apparatus
+463e6	ἡ T P F Aristides: om. B
+463e6	τυγχάνει T P Aristides: τυγχάνῃ B F
+464a6	ἀλλʼ ἢ Aristides: ἄλλος ἢ B T P F
+464a6	ἰατρός B T P Aristides: ὁ ἰατρός F
+464a8	ὃ F Aristides: ὅτι B T P
+464b2	ἐπιδείξω B T P Aristides: ἐπιδείξαι F
+464b3	ὄντοιν τοῖν πραγμάτοιν B T P: ὄντοιν πραγμάτοιν F: ὄντων τῶν πραγμάτων Aristides
+464b3	τὴν μὲν B T P: καὶ τὴν μὲν F: τὴν μὲν οὖν Aristides
+464b4	τῇ ψυχῇ B T² P F Aristides: τὴν ψυχὴν T
+464b4	σώματι B T P: τῷ σώματι F Aristides
+464b7	ἀντὶ μὲν τῆς γυμναστικῆς B T P F: ἀντίστροφον μὲν τῇ γυμναστικῇ Aristides
+464b8	δικαιοσύνην B T P Aristides Olympiodorus: δικαστικὴν F et Proll. ad Aristidem
+464c2	δικαιοσύνη B T P Aristides: δικαστικὴ F
+464c4	δὴ B T P F: δὲ Aristides Olympiodorus
+464c5	αἰσθομένη F Aristides: αἰσθανομένη B T P
 --- notes
+464b2	apparatus: ἐπιδείξαι F is printed with the acute on ει; copied so
 
 === g-0286
 --- text
@@ -41,9 +57,9 @@
 464d4	ὀψοποιικὴ ὑποδέδυκεν, καὶ προσποιεῖται τὰ βέλτιστα σιτία
 464d5	τῷ σώματι εἰδέναι, ὥστʼ εἰ δέοι ἐν παισὶ διαγωνίζεσθαι
 464d6	ὀψοποιόν τε καὶ ἰατρόν, ἢ ἐν ἀνδράσιν οὕτως ἀνοήτοις ὥσπερ
-464e1	οἱ παῖδες, πότερος ἐπαΐει περὶ τῶν χρηστῶν σιτίων καὶ πονηρῶν, ὁ
-464e2	ἰατρὸς ἢ ὁ ὀψοποιός, λιμῷ ἂν ἀποθανεῖν τὸν
-464e3	ἰατρόν. κολακείαν μὲν οὖν αὐτὸ καλῶ, καὶ αἰσχρόν φημι
+464d7	οἱ παῖδες, πότερος ἐπαΐει περὶ τῶν χρηστῶν σιτίων καὶ
+464e1	πονηρῶν, ὁ ἰατρὸς ἢ ὁ ὀψοποιός, λιμῷ ἂν ἀποθανεῖν τὸν
+464e2	ἰατρόν. κολακείαν μὲν οὖν αὐτὸ καλῶ, καὶ αἰσχρόν φημι
 465a1	εἶναι τὸ τοιοῦτον, ὦ Πῶλε—τοῦτο γὰρ πρὸς σὲ λέγω—ὅτι
 465a2	τοῦ ἡδέος στοχάζεται ἄνευ τοῦ βελτίστου· τέχνην δὲ αὐτὴν
 465a3	οὔ φημι εἶναι ἀλλʼ ἐμπειρίαν, ὅτι οὐκ ἔχει λόγον οὐδένα
@@ -60,7 +76,23 @@
 465b6	οἰκείου τοῦ διὰ τῆς γυμναστικῆς ἀμελεῖν. ἵνʼ οὖν μὴ
 465b7	μακρολογῶ, ἐθέλω σοι εἰπεῖν ὥσπερ οἱ γεωμέτραι—ἤδη γὰρ
 --- apparatus
+464d1	ὅπερ P Aristides et suprascr. rec. b: ὅπου B T F: ὑπὸ ὃ Schanz (ὅπερ ὑπέδυ om. Sauppe)
+464d2	ἀεὶ B T P F: om. Aristides
+464d2	θηρεύεται B T P F: θηρεύει Aristides
+464d3	δοκεῖ B T P (sed ν add. B²): δοκεῖν F Aristides (qui mox ἀξίαν)
+465a1	εἶναι post Πῶλε transp. F
+465a2	αὐτὴν B T P f Aristides Olympiodorus: αὐτοῦ F
+465a4	ᾧ προσφέρει ἃ προσφέρει B T P F Philodemus: ᾧ προσφέρει Aristides: ὧν προσφέρει Cornarius
+465b1	ὀψοποιικὴ B T P: ὀψοποιητικὴ F
+465b2	τοῦτον T P F: τούτων B: om. Aristides
+465b3	τε B T P F Aristides Olympiodorus (sed οὖσα in marg. add. f)
+465b4	λειότητι B T P F Aristides: λειότησι scr. recc.
+465b4	ἐσθῆσι F (ν add. f): ἐσθῆτι Aristides: αἰσθήσει B T P: ἐσθήσει Coraes
+465b5	ἐφελκομένους B T P F: ἐφελκομένη Aristides
+465b5	τοῦ . . . γυμναστικῆς secl. Cobet (habet Aristides)
 --- notes
+464d7	the line break is at καὶ / πονηρῶν, and the margin letter e stands at πονηρῶν (checked on the page): renumbered 464e1-e3 to 464d7, 464e1-e2, πονηρῶν, ὁ moved to 464e1
+464e2	no speaker's name printed at κολακείαν (Perseus's {ΣΩ.} left out), and no indent
 
 === g-0287
 --- text
@@ -93,7 +125,23 @@
 ¶
 466a6	{ΣΩ.} Κολακείας μὲν οὖν ἔγωγε εἶπον μόριον. ἀλλʼ
 --- apparatus
+465c1	ὅτι κ.τ.λ. ita F Aristides: ante haec verba add. ὅτι ὃ κομμωτικὴ πρὸς γυμναστικήν, τοῦτο ὀψοποιϊκὴ πρὸς ἰατρικήν· μᾶλλον δὲ ὧδε B T P (secluserat Thompson: ego delevi)
+465c3	δικαιοσύνην B T P Aristides: δικαστικήν F
+465c4	διέστηκε μὲν F: διέστηκεν B T P
+465c6	χρήσονται B P F: χρήσωνται T
+465d2	ὀψοποιητικὴ F
+465d5	ἐφύρετο F: ἐφέρετο B T W
+465d5	ἐν τῷ αὐτῷ secl. Hirschig
+465d6	ὑγιεινῶν καὶ secl. Dobree
+465d6	ὀψοποιητικῶν F
+465e1	ψυχῇ B T P: τῇ ψυχῇ F
+465e3	λόγον B T P f: om. F
+465e4	ἐμοὶ B T P f: μοι F
+466a1	ἀποκρινομένου B T P: ἀπολογουμένου F
+466a1	χρήσωμαι B T P: χρήσομαι F t
+466a3	χρῆσθαι B T P: χρήσασθαι F
 --- notes
+465e6	no speaker's name printed at ἐὰν μὲν οὖν (Perseus's {ΣΩ.} left out)
 
 === g-0288
 --- text
@@ -141,6 +189,12 @@
 ¶
 466d4	{ΠΩΛ.} Ἔγωγε.
 --- apparatus
+466a8	ad δράσεις adscripsit in B manus saec. xvi non antiquior λείπει (sic) πρεσβύτης γενόμενος, quod ortum est ex interpretatione verborum τηλικοῦτος et τάχα quae in W ita legitur νέος ὢν πρεσβύτης γενόμενος
+466b6	γε B T P: om. F
+466b8	μὴν scripsi: μὴν δὴ B T P F: μὲν δὴ Heindorf
+466c7	εἶεν T P F b: εἰ ἓν B
+466c7	ἔπειτα T P F: ἐπεὶ τὰ B
+466c9	Ἦ οὐχὶ scripsi: εἰ οὐχὶ F: εἰ ὅτι B T W: ὅτι P
 --- notes
 
 === g-0289
@@ -177,13 +231,38 @@
 467a4	κεκτήσονται, ἡ δὲ δύναμίς ἐστιν, ὡς σὺ φῄς, ἀγαθόν, τὸ
 467a5	δὲ ποιεῖν ἄνευ νοῦ ἃ δοκεῖ καὶ σὺ ὁμολογεῖς κακὸν εἶναι·
 467a6	ἢ οὔ;
+¶
+467a7	{ΠΩΛ.} Ἔγωγε.
+¶
+467a8	{ΣΩ.} Πῶς ἂν οὖν οἱ ῥήτορες μέγα δύναιντο ἢ οἱ τύραννοι
+467a9	ἐν ταῖς πόλεσιν, ἐὰν μὴ Σωκράτης ἐξελεγχθῇ ὑπὸ Πώλου ὅτι
+467a10	ποιοῦσιν ἃ βούλονται;
 --- apparatus
+466d5	τὰ B T W F Stobaeus: om. al.
+466e2	βέλτιστον εἶναι secl. Cobet
+466e4	πῶλος B T P F: ὁ πῶλος Stobaeus
+466e6	μὰ τὸν B T P F: μὰ τὸν κύνα Stobaeus
+466e6	ἔφης B T P F Stobaeus: φῂς Baiter
+466e9	ἃ ἂν B T² P F Stobaeus: ἃ T
+466e10	βέλτιστα εἶναι secl. Cobet
+466e10	εἶναι om. P
+466e11	σὺ F Stobaeus: om. B T P
+466e13-467a1	ἀποδείξεις . . . ἐξελέγξας B T F Stobaeus: ἀποδείξεις . . . ἐλέγξας P: ἀποδείξας . . . ἐξελέγξεις Hirschig
+467a1	τὴν ῥητορικὴν secl. Cobet (habet Stobaeus)
+467a3	τοῦτο B T P F Stobaeus: τούτω fecit rec. b
+467a4	ἡ δὲ B T P F: εἰ δὲ Stobaeus: εἰ δὴ Heindorf
 --- notes
+467a7	checker: “27 lines, the draft had 23” is these four lines moved from g-0290 (the draft had run them into g-0290’s 467b1, which now holds only Οὗτος ἀνήρ—)
+467a7	the draft had 467a7-a10 on the next page, run into 467b1; the page prints them here (margin 10 at ποιοῦσιν ἃ βούλονται;): moved to this page as 467a7-a10
+467a8	the page prints ΣΩ. before Πῶς ἂν οὖν (Perseus gives the words to Polus): {ΣΩ.} added, ¶ before it, and Πῶς capitalised as printed
+466e6	apparatus: Baiter's φῂς is printed with a grave and iota subscript; copied so
+466e13-467a1	apparatus prints “e 13 ἀποδείξεις . . . a 1 ἐξελέγξας”: given as the range 466e13-467a1
+467a3	apparatus: τούτω is printed without iota subscript; copied so
 
 === g-0290
 --- text
 ¶
-467b1	{ΠΩΛ.} Ἔγωγε. πῶς ἂν οὖν οἱ ῥήτορες μέγα δύναιντο ἢ οἱ τύραννοι ἐν ταῖς πόλεσιν, ἐὰν μὴ Σωκράτης ἐξελεγχθῇ ὑπὸ Πώλου ὅτι ποιοῦσιν ἃ βούλονται; Οὗτος ἀνήρ—
+467b1	{ΠΩΛ.} Οὗτος ἀνήρ—
 ¶
 467b2	{ΣΩ.} Οὔ φημι ποιεῖν αὐτοὺς ἃ βούλονται· ἀλλά μʼ ἔλεγχε.
 ¶
@@ -222,4 +301,18 @@
 467d5	πλέουσιν, πλουτεῖν· πλούτου γὰρ ἕνεκα πλέουσιν.—{ΠΩΛ.}
 467d6	Πάνυ γε.—{ΣΩ.} Ἄλλο τι οὖν οὕτω καὶ περὶ πάντων; ἐάν τίς
 --- apparatus
+467b3	βέλτιστα εἶναι secl. Cobet (habet Stobaeus)
+467b4	τούτου πρόσθεν secl. Schleiermacher (habet Stobaeus)
+467b8	ποιοῦντες F Stobaeus: ποιοῦντες δὲ B T P: ποιοῦντές γε ci. H. Richards
+467b10	σχέτλια B T P f: ἔχεται ἃ F
+467b10	γε Olympiodorus Stobaeus: om. B T P F
+467b11	κακηγόρει Naber: κατηγόρει libri
+467c10-467d1	δῆλον . . . ὑγιαίνειν B W: om. T F sed add. in marg. T f
+467d1	οὗ ἕνεκα πίνουσιν post ὑγιαίνειν quoque add. W et in marg. T: om. B F Stobaeus
+467d3	τε καὶ B T P: καὶ F Stobaeus
+467d5	πλούτου . . . πλέουσιν secl. Cobet (habet Stobaeus)
+467d6	πάντων B T P: ἁπάντων F Stobaeus
 --- notes
+467b1	the page begins with ΠΩΛ. Οὗτος ἀνήρ— at the margin letter b; the words before it (467a7-a10) are on the previous page and were moved there
+467b10	pencilled English glosses between the lines (hard-hearted, marvellous, speak ill, most agreeable, address) are a reader's, not Burnet's: the two “unmatched lines” are these; nothing added
+467c10-467d1	apparatus prints “c 10 δῆλον . . . ὑγιαίνειν” (the item runs into d 1): given as the range 467c10-467d1

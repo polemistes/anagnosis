@@ -33,7 +33,18 @@
 480d4	τῶν ἄλλων οἰκείων καὶ ἐπὶ τοῦτο χρώμενον Τῇ ῥητορικῇ,
 480d5	ὅπως ἂν καταδήλων τῶν ἀδικημάτων γιγνομένων ἀπαλλάττωνται
 --- apparatus
+480a4	ἀδικήσει F: ἀδικήσῃ B T P
+480a4	ἱκανὸν secl. Cobet
+480a4	κακὸν secl. v. Kleist
+480b2	ποιήσει scr. recc.: ποιήσῃ B T W F
+480b2	λέγομεν W F: λέγωμεν B T
+480c1	ἐπὶ B T P f: ἐπεὶ F: secl. Deuschle
+480c5	τε F (καὶ add. f): δὲ καὶ B T P
+480c6	εὖ καὶ F: καὶ B T P
+480d4	καὶ B T P: καὶ μὴ φειδόμενον ἀλλʼ F
+480d5	ἀπαλλάττωνται B P t (sed ω in ras. B): ἀπαλλάττονται T F
 --- notes
+480c7	ὑπολογιζόμενον checked: divided ὑπολογι-/ζόμενον on the page, written whole here
 
 === g-0310
 --- text
@@ -74,7 +85,18 @@
 481c1	πότερόν σε θῶμεν νυνὶ σπουδάζοντα ἢ παίζοντα; εἰ
 481c2	μὲν γὰρ σπουδάζεις τε καὶ τυγχάνει ταῦτα ἀληθῆ ὄντα ἃ
 --- apparatus
+480d6	μεγίστου B T P: μεγάλου F
+480d6	ἀδικίας B T F: om. P
+480e3	κἀκεῖνα B T P F: ʼκεῖνα Hirschig
+481a3	δῷ F t: δώιη B: δώηι P T
+481a3	ᾖ add. Schanz (post ἡρπακὼς Par. 1811)
+481a4	ἀναλίσκῃ L. Dindorf: ἀναλίσκητε P (sed τε puncto del.): ἀναλίσκηται B T F
+481a5	αὖ F: om. B T P
+481c1	θῶμεν Madvig: φῶμεν B T P F: om. nonnulli teste Olympiodoro
+481c1	νυνὶ B T P: νῦν F
 --- notes
+480e7	ἐὰν checked: printed at the end of this line
+481a2	διαφύγῃ checked: printed at the end of this line
 
 === g-0311
 --- text
@@ -108,7 +130,19 @@
 482a7	οὗτος ἄλλοτε ἄλλων ἐστὶ λόγων, ἡ δὲ φιλοσοφία ἀεὶ
 482b1	τῶν αὐτῶν, λέγει δὲ ἃ σὺ νῦν θαυμάζεις, παρῆσθα δὲ καὶ
 --- apparatus
+481c3	ἢ B T P f: om. F
+481c6	ἢ T P F: ἡ B: om. Aldina
+481d4	δυοῖν B T P F: om. Vind. 21
+481d6	ὅτι ἂν φῇ F: ὅτι ὅπως ἂν φῇ B: ὅτι ὅπως ἂν ἀντιφῇ T P
+481e2	ὁ δῆμος ὁ T P F: ὁ δῆμος B
+481e5	βουλεύμασι(ν) B T P F: βουλήμασι vulg.
+482a5	ἃ re vera B F: ἀεὶ ἃ T (?) P f
+482a6	ἑτέρων B F: ἑταίρων T P
+482a6	ἔμπληκτος B T P F: γρ. ἔκβλητος B² quam lectionem novit Olympiodorus
+482a7	ἀεὶ corr. Coisl: εἶ F: om. B T P
 --- notes
+481e5	no speaker's name printed here (Socrates' speech runs on): left out
+482a7	apparatus: “corr. Coisl” printed without a full stop after Coisl; copied so
 
 === g-0312
 --- text
@@ -143,7 +177,16 @@
 482e5	οὐκ ἔστιν καλά, νόμῳ δέ. ὡς τὰ πολλὰ δὲ ταῦτα ἐναντίʼ
 482e6	ἀλλήλοις ἐστίν, ἥ τε φύσις καὶ ὁ νόμος· ἐὰν οὖν τις αἰσχύνηται
 --- apparatus
+482b5	τὸν αἰγυπτίων B: τὸν αἰγύπτιον F Olympiodorus: τῶν αἰγυπτίων T P (sed τὸν supra τῶν T)
+482b5	καλλικλῆς T W F: καλλικλεῖ B
+482b8	ἀναρμοστεῖν Heusde
+482c1	πλείστους B T P: πολλοὺς F
+482c4	δοκεῖς B T P: δοκεῖς μοι F
+482d3	εἰ μή τις φαίη P (sed add. signis transpositionis)
+482d5	καταγελᾶν B T P F: κατεγέλα f Vind. 21
+482e6	ἐὰν οὖν τις B T P: καὶ ἐάν τις οἶμαι F
 --- notes
+482e5	no speaker's name printed here (Callicles' speech runs on): left out
 
 === g-0313
 --- text
@@ -175,7 +218,19 @@
 483d3	ταῦτα πολλαχοῦ ὅτι οὕτως ἔχει, καὶ ἐν τοῖς ἄλλοις ζῴοις
 483d4	καὶ τῶν ἀνθρώπων ἐν ὅλαις ταῖς πόλεσι καὶ τοῖς γένεσιν,
 --- apparatus
+483a3	κατὰ (bis) B T P: τὰ κατὰ (bis) F
+483a6	αἴσχιον (αἰσχρὸν F) . . . νόμον T F: om. B W
+483a6	λόγον Riemann: νόμον B T P F
+483a7	ἐδιώκαθες κατὰ φύσιν B W (τὸ ante κατὰ add. P): ἐδιώκαθες T: (ἐδίωκες F et in marg. T et γρ. W)
+483a8	ante τὸ ἀδικεῖσθαι lacunam statuit Stephanus
+483a8	τὸ ἀδικεῖσθαι . . . ἀδικεῖν secl. Dobree
+483b2	ἐστι(ν) τεθνάναι B P F: τεθνάναι ἐστὶν T (compendio)
+483b4	οὗ B P F: ᾧ T
+483b5	οἱ ante ἀσθενεῖς om. P
+483c3	λέγουσιν secl. Hermann
+483d1	αὐτό B T P F: αὖ Par. 2110
 --- notes
+483c4	ἐστιν checked: the page prints ἐστιν after τοῦτό, as Perseus; line begins with -εκτεῖν, the end of πλεονεκτεῖν (written whole on 483c3)
 
 === g-0314
 --- text
@@ -207,4 +262,15 @@
 484b11	οὔτε πριάμενος οὔτε δόντος τοῦ Γηρυόνου ἠλάσατο τὰς βοῦς,
 484c1	ὡς τούτου ὄντος τοῦ δικαίου φύσει, καὶ βοῦς καὶ τἆλλα κτήματα
 --- apparatus
+483e2	τὴν τοῦ δικαίου secl. Schleiermacher
+483e3	τῆς re vera B T (?) P F: om. Schanz (errore typothetarum ut videtur)
+483e4	τιθέμεθα secl. Hermann
+484a1	λέγοντες secl. Cobet
+484a3	ἀνὴρ B P F: ὁ ἀνὴρ T
+484a4	διαφυγών secl. Naber
+484a4	γράμματα] περιάμματα Valckenaer: πλάσματα Cobet
+484b7	δικαιῶν τὸ βιαιότατον Aristides (cf. Legg. 714 e ἄγειν δικαιοῦντα τὸ βιαιότατον): βιαίων τὸ δικαιότατον B T P F
+484b8	χειρί B F: χερί T P
 --- notes
+483e4	no speaker's name printed here (Callicles' speech runs on): left out
+484b10	πως— and ᾆσμα checked: printed on this line, as in the draft

@@ -29,6 +29,17 @@
 455c5	πυνθάνεσθαι. καὶ ἐμὲ νῦν νόμισον καὶ τὸ σὸν σπεύδειν·
 455c6	ἴσως γὰρ καὶ τυγχάνει τις τῶν ἔνδον ὄντων μαθητής σου
 --- apparatus
+454e7	ἐξ ἧς (bis) T P F: ἑξῆς (bis) B (spiritus corr. rec. b)
+454e7	πιστεύειν B T P F: τὸ πιστεύειν vulg.
+454e8	ἐξ ἧς T P F: ἑξῆς B (non correctum)
+455a4	πιστικὸς μόνον B T sed suprascr. ει T: πειστικὸς μόνον P: πιστικοῦ μόνου F
+455b1	μὲν B T P F: om. Olympiodorus
+455b1	τοι B T P F Olympiodorus: om. al.
+455b4	ἄλλο τι ἢ τότε P F: ἀλλʼ ὅτι ἢ τότε B: ἄλλό τι τότε T (ἢ suprascr. rec. t)
+455b6	περὶ B P F: πέρι T
+455b8	αἱρέσεως πέρι B T P: πέρι αἱρέσεως F
+455c3	τε T P F: γε B
+455c4	ῥητορικούς secl. Cobet
 --- notes
 
 === g-0274
@@ -67,7 +78,20 @@
 456b3	τινα τῶν καμνόντων οὐχὶ ἐθέλοντα ἢ φάρμακον πιεῖν ἢ
 456b4	τεμεῖν ἢ καῦσαι παρασχεῖν τῷ ἰατρῷ, οὐ δυναμένου τοῦ
 --- apparatus
+455d1	καὶ B T P: δὴ καὶ F
+455d2	περὶ B T P: ἢ περὶ F
+455d4	νῦν δὴ B T P f: δὴ F
+455e1	τὰ Ἀθηναίων secl. Cobet
+455e3	τῶν] τῆς τῶν Schaefer: τῆς Buttmann
+455e6	τοῦ B P F t: τὸν T
+456a1	νυνδὴ scripsi: νῦν αὖ F: δὴ B T P f
+456a4	πάλαι B T P F: πάλιν Olympiodorus
+456a4	τίς F: ἥτις B T P
+456a5	ἡ δύναμίς ἐστιν B T P: ἐστιν ἡ δύναμις F
+456a7	Εἰ] Τί εἰ Madvig: Τί δʼ εἰ H. Richards
+456b4	ἢ καῦσαι] καὶ καῦσαι Blomfield
 --- notes
+455d2	flag "indented": not indented on the page; only the opening quotation mark stands before the line; left without ¶
 
 === g-0275
 --- text
@@ -101,7 +125,18 @@
 457a4	οἶμαι ὀρθῶς. ὁ αὐτὸς δὴ λόγος καὶ περὶ τῆς ῥητορικῆς.
 457a5	δυνατὸς μὲν γὰρ πρὸς ἅπαντάς ἐστιν ὁ ῥήτωρ καὶ περὶ
 --- apparatus
+456b6	ὅπῃ B T P F: ὅποι scr. recc.
+456b6	ἐλθόντε Dobree
+456c7-8	τῇ . . . ὥσπερ B T P (in lacuna textus suppl. f τῇ ῥητορικῇ χρῆσθαι ὥσπερ καὶ)
+456d1	τούτου ἕνεκα secl. Findeisen
+456d1	ἕνεκα δεῖ B T F: δεῖ ἕνεκα P
+456d6	πυκτικὸς] ποιητικὸς P
+456e3	τῷ B T P: τὸ F
+457a2	οὔκουν T P F b: οὐκοῦν B
 --- notes
+456b6	apparatus prints “ἐλθόντε Dobree” without a lemma (for ἐλθόντα); copied so
+456c7-8	apparatus prints “c 7 τῇ . . . ὥσπερ”: the lemma runs from τῇ (c7) to ὥσπερ (c8), so given as the range 456c7-8
+457a2	no speaker's name printed here (Gorgias' speech runs on): none added
 
 === g-0276
 --- text
@@ -132,13 +167,29 @@
 457e1	ἀκροαταὶ γενέσθαι. τοῦ δὴ ἕνεκα λέγω ταῦτα; ὅτι νῦν
 457e2	ἐμοὶ δοκεῖς σὺ οὐ πάνυ ἀκόλουθα λέγειν οὐδὲ σύμφωνα οἷς
 457e3	τὸ πρῶτον ἔλεγες περὶ τῆς ῥητορικῆς· φοβοῦμαι οὖν διελέγχειν
-457e4	σε, μή με ὑπολάβῃς οὐ πρὸς τὸ πρᾶγμα
+457e4	σε, μή με ὑπολάβῃς οὐ πρὸς τὸ πρᾶγμα φιλονικοῦντα
 --- apparatus
+457b1	ἔμβραχυ B T P: ἐν βραχεῖ F et rec. t
+457b3	δύναιτο F et in ras. T: δύναιντο re vera B P et pr. T
+457b4-5	ὥσπερ . . . ἀγωνίᾳ secl. ci. Sauppe
+457b5	κᾆτα scr. recc.: κατὰ B T P F
+457c1	δικαίου B T P F: δικαίᾳ scr. recc.
+457c3	διδάξαντα B T P: διδάσκοντα F
+457c5	λόγων] λογίων Madvig: ἀνθρώπων Cobet: φιλολόγων Schanz
+457d1	του B T P: τούτου F
+457d1	ἀμφισβητήσωσιν B T P f: ἀμφισβητῶσι F
+457d6	λοιδορηθέντες τε καὶ secl. Hirschig
+457d7	περὶ σφῶν αὐτῶν secl. ci. Sauppe
+457d8	ὑπὲρ σφῶν αὐτῶν secl. Cobet
+457d8	ὅτι τοιούτων] οἵων Cobet
+457e4	φιλονικοῦντα secl. W. Headlam
 --- notes
+457e4	φιλονικοῦντα moved here from the start of 457e5: the page divides φιλονι-|κοῦντα at the end of 457e4 (and the apparatus cites it as e 4)
+457b4-5	apparatus prints “b 4 ὥσπερ . . . ἀγωνίᾳ”: the lemma runs into b5, so given as the range 457b4-5
 
 === g-0277
 --- text
-457e5	φιλονικοῦντα λέγειν τοῦ καταφανὲς γενέσθαι, ἀλλὰ πρὸς σέ.
+457e5	λέγειν τοῦ καταφανὲς γενέσθαι, ἀλλὰ πρὸς σέ.
 458a1	ἐγὼ οὖν, εἰ μὲν καὶ σὺ εἶ τῶν ἀνθρώπων ὧνπερ καὶ ἐγώ,
 458a2	ἡδέως ἄν σε διερωτῴην· εἰ δὲ μή, ἐῴην ἄν. ἐγὼ δὲ τίνων
 458a3	εἰμί; τῶν ἡδέως μὲν ἂν ἐλεγχθέντων εἴ τι μὴ ἀληθὲς
@@ -169,7 +220,25 @@
 458d3	οὕτως ὥσπερ νυνί· ὥστʼ ἔμοιγε, κἂν τὴν ἡμέραν ὅλην
 458d4	ἐθέλητε διαλέγεσθαι, χαριεῖσθε.
 --- apparatus
+458b4	φημὶ B T P: φῆς F
+458b5	χρῆν B T P F (in marg. ἔδει b t): χρὴ al. Olympiodorus
+458b6	ὑμᾶς B T P F (sed ὑ ex emend. T)
+458b7	πολλὰ B T P f: πολὺ F
+458b7	ἀποτενοῦμεν B T P f: ἀποστεροῦμεν F
+458c1	ἢν T P F: μὴν B (sed μ puncto notatum)
+458c2	κατέχομεν B P t: κατέχωμεν T F
+458c5	δʼ οὖν B T P F: γοῦν Olympiodorus
+458c6	προὐργιαίτερον] προτιμότερον suprascr. P
+458c7	γενέσθαι B T P: γίνεσθαι F
+458d3	οὕτως B T P f: om. F
+458d3	νυνί B T P f: νῦν F
+458d3	ὅλην B T P: om. F
+458d4	ἐθέλητε F: ἐθέλοιτε B T P
+458d4	χαριεῖσθε T P F: χαριεῖσθαι B
 --- notes
+457e5	φιλονικοῦντα moved to 457e4 (see there); the line begins with κοῦντα on the page
+458a1	no speaker's name printed here (Socrates' speech runs on): none added
+458b4	apparatus: F's reading is printed φῆς (no iota subscript visible, unlike φῂς in the text); copied so
 
 === g-0278
 --- text
@@ -198,14 +267,25 @@
 459b2	δὲ μὴ ἰατρός γε δήπου ἀνεπιστήμων ὧν ὁ ἰατρὸς ἐπιστήμων.—
 459b3	{ΓΟΡ.} Δῆλον ὅτι.—{ΣΩ.} Ὁ οὐκ εἰδὼς ἄρα τοῦ εἰδότος
 459b4	ἐν οὐκ εἰδόσι πιθανώτερος ἔσται, ὅταν ὁ ῥήτωρ τοῦ ἰατροῦ
-459b5	πιθανώτερος ᾖ. τοῦτο συμβαίνει ἢ ἄλλο
-459b6	τι; τοῦτο
-459b7	ἐνταῦθά γε συμβαίνει.—{ΣΩ.} Οὐκοῦν καὶ περὶ τὰς ἄλλας
-459b8	ἁπάσας τέχνας ὡσαύτως ἔχει ὁ ῥήτωρ καὶ ἡ ῥητορική· αὐτὰ
-459b9	μὲν τὰ πράγματα οὐδὲν δεῖ αὐτὴν εἰδέναι ὅπως ἔχει, μηχανὴν
+459b5	πιθανώτερος ᾖ. τοῦτο συμβαίνει ἢ ἄλλο τι;—{ΓΟΡ.} Τοῦτο
+459b6	ἐνταῦθά γε συμβαίνει.—{ΣΩ.} Οὐκοῦν καὶ περὶ τὰς ἄλλας
+459b7	ἁπάσας τέχνας ὡσαύτως ἔχει ὁ ῥήτωρ καὶ ἡ ῥητορική· αὐτὰ
+459b8	μὲν τὰ πράγματα οὐδὲν δεῖ αὐτὴν εἰδέναι ὅπως ἔχει, μηχανὴν
 459c1	δέ τινα πειθοῦς ηὑρηκέναι ὥστε φαίνεσθαι τοῖς οὐκ εἰδόσι
 459c2	μᾶλλον εἰδέναι τῶν εἰδότων.
 ¶
 459c3	{ΓΟΡ.} Οὐκοῦν πολλὴ ῥᾳστώνη, ὦ Σώκρατες, γίγνεται,
 --- apparatus
+458d8	ad ἐθέλειν adscripsit καὶ ταῦτα f
+458d8	ἐρωτᾶν . . . βούλεται secl. Badham
+458e1	τουτοισί scr. recc.: τούτοισι P: τούτοισιν B T: τούτοις F
+458e7	πάντων B T P f: παντὸς f
+459a1	τοι νυνδὴ B² P: τοίνυν δὴ B (ut videtur) T: τοίνυν νῦν δὴ F
+459a2	περὶ τοῦ ὑγιεινοῦ secl. Cobet
+459a5	ἔσται B T P f: ἔστιν F
+459b2	ὁ B T F: om. P
+459b7	καὶ ἡ ῥητορική secl. Cobet
+459b8	αὐτὴν] αὐτὸν Beck, Cobet
 --- notes
+459b5	the draft had split this printed line in two (459b5 “… ἢ ἄλλο” and 459b6 “τι; τοῦτο”); joined as on the page (margin 5 here; the c stands at δέ τινα, 8 lines in b), with the speaker's name {ΓΟΡ.} added before Τοῦτο as printed; the following lines renumbered 459b6-8 (were b7-9); the apparatus (b 7 καὶ ἡ ῥητορική, b 8 αὐτὴν) confirms the numbering
+458e7	apparatus prints “πάντων B T P f: παντὸς f” (both small f, presumably a misprint for F in one place); copied so

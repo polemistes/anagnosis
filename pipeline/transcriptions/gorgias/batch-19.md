@@ -33,7 +33,22 @@
 ¶
 522a8	{ΚΑΛ.} Ἴσως· οἴεσθαί γε χρή.
 --- apparatus
+521d1	ὃ B T P F: ὧν scr. recc.
+521d3	εἰσαγάγοι B T P: εἰσάγοι F
+521d8	νῦν B T P: νυνὶ F
+521e5	τούτοις B T P: τοιούτοις F
+521e7	ἀνὴρ] ἁνὴρ Bekker
+521e7	καὶ αὐτούς . . . διαφθείρει secl. Cobet
+521e8	γρ. καὶ ἴσχων καὶ πνίγων Olympiodorus
+522a1	ἀπορεῖν ποιεῖ secl. Madvig
+522a1	πώματα Bekker: πόματα B T P F
+522a4	εἰ F (sed punctis del. f): om. B T P
+522a6	πόσον F: ὁπόσον B T P
+522a6	τι οἴει K. Fuhr: ποιεῖ B (sed π puncto notatum et acc. corr.): οἴει T P F
+522a8	οἴεσθαί γε χρή post οὐ μέγα transp. et Socrati tribuit Forman
 --- notes
+521e5	no speaker's name printed at the start of this line: left out
+521e7	Bekker's reading taken as ἁνὴρ (crasis); the breathing is small on the scan
 
 === g-0370
 --- text
@@ -73,7 +88,16 @@
 522e3	δὲ ἀδικεῖν φοβεῖται· πολλῶν γὰρ ἀδικημάτων γέμοντα τὴν
 522e4	ψυχὴν εἰς Ἅιδου ἀφικέσθαι πάντων ἔσχατον κακῶν ἐστιν.
 --- apparatus
+522b4	ἡδονὰς ἃς T P F: ἡδονὰς B
+522b8	κατηγορεῖν F
+522c7	ἓν F (coniecerat Coraes): ἐν B T P
+522c7	ὃ σὺ B P F t: ὃς σὺ T
+522d2	τῆς βοηθείας F: τις βοήθεια B T P: ἡ βοήθεια Cobet
+522d6	καὶ εἰ διὰ F b t: καὶ ἰδίᾳ B T: ἰδία P
+522e4	κακῶν B T P: κακόν F
 --- notes
+522b5	νομί-/ζουσιν divided on the page: written whole on b5, as in the draft
+522d8	not indented on the page (begins level with c8): no ¶
 
 === g-0371
 --- text
@@ -106,7 +130,21 @@
 523c6	καὶ γένη καὶ πλούτους, καί, ἐπειδὰν ἡ κρίσις ᾖ, ἔρχονται
 523c7	αὐτοῖς πολλοὶ μάρτυρες, μαρτυρήσοντες ὡς δικαίως βεβιώκασιν·
 --- apparatus
+522e6	λέξαι] δέξαι F
+523a1	φασί B T P F: φησί Stobaeus Plutarchus
+523a2	ἐγὼ οἶμαι B T: ἐγῷμαι P F Stobaeus Eusebius Theodoretus
+523a5	ὅδε B T P f: ὧδε F
+523a6	ἔτι om. P
+523b4	ἐπὶ κρόνου T W Stobaeus Plutarchus et in lac. textus f: ἐπὶ χρόνου B
+523b6	τῇ F Stobaeus Plutarchus: om. B T P
+523b7	οἱ ἐπιμεληταὶ οἱ Plutarchus: οἱ ἐπιμεληταὶ B T P F Stobaeus
+523c1	σφιν T P: σφὶν B F: σφισιν Stobaeus Plutarchus
+523c4	ζῶντες γὰρ κρίνονται B T F Plutarchus: om. P Stobaeus
+523c4	οὖν B T P F Stobaeus: μὲν οὖν Plutarchus
+523c7	μάρτυρες B T P F Stobaeus: om. Plutarchus
 --- notes
+523c5	the margin prints 5 here (not read by the OCR); the line is not indented, only the opening quotation mark stands out into the margin: no ¶
+523b4	κρόνου printed with a small κ in the apparatus: kept
 
 === g-0372
 --- text
@@ -122,7 +160,7 @@
 523e3	κριτὴν δεῖ γυμνὸν εἶναι, τεθνεῶτα, αὐτῇ τῇ ψυχῇ αὐτὴν τὴν
 523e4	ψυχὴν θεωροῦντα ἐξαίφνης ἀποθανόντος ἑκάστου, ἔρημον
 523e5	πάντων τῶν συγγενῶν καὶ καταλιπόντα ἐπὶ τῆς γῆς πάντα
-523e6	ἐκεῖνον τὸν κόσμον, ἵνα δικαία ἡ κρίσις ᾖ.” “ἐγὼ μὲν οὖν
+523e6	ἐκεῖνον τὸν κόσμον, ἵνα δικαία ἡ κρίσις ᾖ. ἐγὼ μὲν οὖν
 523e7	ταῦτα ἐγνωκὼς πρότερος ἢ ὑμεῖς ἐποιησάμην δικαστὰς ὑεῖς
 523e8	ἐμαυτοῦ, δύο μὲν ἐκ τῆς Ἀσίας, Μίνω τε καὶ Ῥαδάμανθυν,
 524a1	ἕνα δὲ ἐκ τῆς Εὐρώπης, Αἰακόν· οὗτοι οὖν ἐπειδὰν τελευτήσωσι,
@@ -136,7 +174,23 @@
 524a8	Ταῦτʼ ἔστιν, ὦ Καλλίκλεις, ἃ ἐγὼ ἀκηκοὼς πιστεύω
 524b1	ἀληθῆ εἶναι· καὶ ἐκ τούτων τῶν λόγων τοιόνδε τι λογίζομαι
 --- apparatus
+523d3	τὸ B T P f: om. F
+523d4	δὴ B T P F Plutarchus: δὲ Stobaeus
+523d4	ἐπίπροσθεν B T P F: ἔμπροσθεν Stobaeus: ἐπιπρόσθησις Plutarchus
+523d7	γὰρ B T P F Stobaeus: μὲν γὰρ f Plutarchus
+523d7	μὲν οὖν καὶ δὴ B T P F Plutarchus: μὲν δὴ καὶ Stobaeus
+523e1	αὐτῶν B T F Stobaeus: αὐτόν P: αὐτό Plutarchus
+523e5	καὶ om. F
+523e5	τῆς γῆς B T P F Stobaeus Plutarchus: γῆς Eusebius Theodoretus
+523e6	δικαία ἡ κρίσις B T P F Stobaeus: ἡ κρίσις δικαία Plutarchus
+523e6	μὲν οὖν ταῦτα B T P F: μὲν οὖν Stobaeus: οὖν ταῦτʼ Plutarchus
+523e7	πρότερος B T P F Stobaeus: πρότερον Plutarchus
+524a2	τῇ B T P F Plutarchus: om. Stobaeus
+524a6	ἀπορῆτόν τι τὼ ἑτέρω Findeisen e codice Meermanniano: ἀπόρρητόν τι τὼ ἑτέρω B P: ἀπόρρητον τι τῶ ἑτέρω T F: ἀπόρρητόν τι ᾖ τῷ ἑτέρῳ Stobaeus Plutarchus
+524a6	ἡ κρίσις ᾖ B T P F: ᾖ κρίσις Stobaeus: κρίσις ᾖ Plutarchus
 --- notes
+523e6	no speaker's name printed (Zeus's speech goes on within Socrates' story): left out
+523e6	the page prints no quotation marks between ᾖ. and ἐγὼ (Zeus's words run on to 524a7): Perseus's ” “ removed
 
 === g-0373
 --- text
@@ -170,7 +224,19 @@
 525a1	ἐπιορκιῶν καὶ ἀδικίας, ἃ ἑκάστη ἡ πρᾶξις αὐτοῦ ἐξωμόρξατο
 525a2	εἰς τὴν ψυχήν, καὶ πάντα σκολιὰ ὑπὸ ψεύδους καὶ ἀλαζονείας
 --- apparatus
+524b7	τὴν om. P
+524c3	παχύς, παχὺς] παχύ, παχὺς Hirschig
+524c6	οὐλὰς secl. Heindorf
+524c7	ἢ κατεαγότα Eusebius: κατεαγότα B T P F: κατεαγότα τε Par. 2110: καὶ κατεαγότα Schanz: κατεαγότʼ αὖ Forman
+524d1	ταὐτὰ ταῦτα F: ταῦτα B T P
+524d3	ἢ πάντα Findeisen: ἦν πάντα B T P F
+524d5	πάντα B T P: ταῦτα πάντα F
 --- notes
+524c6	οὐλὰς printed (the OCR lost the ς): no change
+525a1	no speaker's name printed at the new Stephanus page: left out
+525a2	ἀλα-/ζονείας divided on the page: written whole on a2, as in the draft
+524c7	Burnet's "c 7" for ἢ κατεαγότα: ἢ ends c7, κατεαγότα begins c8; kept as printed
+524d1	the coronis of ταὐτὰ is not clear on the scan; written as in the text
 
 === g-0374
 --- text
@@ -202,4 +268,13 @@
 525d5	πραξάντων γεγονότας· οὗτοι γὰρ διὰ τὴν ἐξουσίαν μέγιστα καὶ
 525d6	ἀνοσιώτατα ἁμαρτήματα ἁμαρτάνουσι. μαρτυρεῖ δὲ τούτοις
 --- apparatus
+525a3	τεθράφθαι B P: τετράφθαι T F
+525a4	ἀκρατίας B W F t: ἀκρασίας T: ἀκρατείας Eusebius
+525a6	εἶδεν T P F: ἴδεν B
+525b2	παραδείγματι scr. recc.: παράδειγμά τι B T P: παραδείγματα F: παράδειγμα Eusebius Theodoretus
+525b3	τοῖς B T P: om. F Gellius Theodoretus Suidas
+525b4	ἃ πάσχει F
+525c1	posterius τὰ F Eusebius Theodoretus Suidas: om. B T P
+525c7	ἐν ᾅδου B T P: ἐδίδου pr. F
+525d3	τούτων τῶν παραδειγμάτων F Eusebius: τοὺς τούτων τῶν παραδειγμάτων B: τοὺς τῶν παραδειγμάτων T W: τούτων ci. Heindorf
 --- notes

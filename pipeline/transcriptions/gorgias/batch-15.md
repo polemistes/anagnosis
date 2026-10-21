@@ -43,6 +43,15 @@
 ¶
 505b10	{ΚΑΛ.} Ναί.
 --- apparatus
+504e6	ὄφελος T P f: ὤφελος B F
+504e8	ὀνήσει F: ὀνήσῃ B T W
+504e8	αὐτὸ T P f: αὐτὸν B (sed ν punctis notatum) F
+504e8	ἔσθʼ ὅτι] ἔσθʼ ὅτε Cornarius
+504e9	κατά γε] ἢ κατά γε Cornarius: κατὰ δὲ Schleiermacher
+505a1	ἔστω] ἔστιν P
+505a3	μοχθηρῶς P F Iamblichus: καὶ μοχθηρῶς B (sed καὶ punctis notatum) T
+505a6	οὐκοῦν καὶ F Iamblichus: οὐκοῦν B P: οὔκουν T
+505b4	ἀφʼ ὧν B T P: ἃ ποιῶν F: ἃ ἂν ποιῶν Iamblichus
 --- notes
 
 === g-0346
@@ -85,7 +94,29 @@
 505e4	οἶμαι ἔγωγε χρῆναι πάντας ἡμᾶς φιλονίκως ἔχειν πρὸς τὸ
 505e5	εἰδέναι τὸ ἀληθὲς τί ἐστιν περὶ ὧν λέγομεν καὶ τί ψεῦδος·
 --- apparatus
+505b11	ἡ om. F Iamblichus
+505c1	οἶδα τί λέγεις F
+505c3	αὐτὸς B T P F: αὐτὸ corr. Coisl.
+505c4	πάσχειν P
+505c5	σὺ om. F
+505c7	ποιήσομεν B T W: ποιήσωμεν F
+505c8	καταλύομεν B T P: καταλύσομεν in lacuna f
+505d1	καταλείπειν B T f: καταλιπεῖν P F
+505d2	περιίῃ T f: περιείηι B: περιήει P F
+505d2	ἡμῖν post d 3 κεφαλὴν transp. P
+505d4	δὲ om. F
+505d5	καὶ om. F
+505d6	ἐθέλει B T P F: ἐθελήσει f
+505d6	ἀτελῆ] ἅτε δὴ F
+505d7	καταλίπωμεν W: καταλιπὼν μὲν F: καταλείπωμεν B T f
+505d9	σαυτῷ] αὐτῷ P
+505e1	ἵνα B T W F: μὰ δίʼ in marg. add. F
+505e2	ἄνδρες B T P F (sed σ puncto notatum in B)
+505e3	οὕτως· εἰ B T P: οὑτωσὶ F
+505e3	ποιήσομεν W: ποιήσωμεν B T F
+505e4	πάντας F: πάντα B T W
 --- notes
+505b11	κολάζεσθαι checked: printed so
 
 === g-0347
 --- text
@@ -122,10 +153,20 @@
 506d1	παραγενομένου ἡδόμεθα, ἀγαθὸν δὲ οὗ παρόντος ἀγαθοί
 506d2	ἐσμεν;—Πάνυ γε.—Ἀλλὰ μὴν ἀγαθοί γέ ἐσμεν καὶ ἡμεῖς
 506d3	καὶ τἆλλα πάντα ὅσʼ ἀγαθά ἐστιν, ἀρετῆς τινος παραγενομένης;—
-506d4	Ἔμοιγε δοκεῖ ἀναγκαῖον εἶναι, ὦ Καλλίκλεις.—ἀλλὰ
-506d5	μὲν δὴ ἥ γε ἀρετὴ ἑκάστου, καὶ σκεύους καὶ σώματος
+506d4	Ἔμοιγε δοκεῖ ἀναγκαῖον εἶναι, ὦ Καλλίκλεις.—
+506d5	Ἀλλὰ μὲν δὴ ἥ γε ἀρετὴ ἑκάστου, καὶ σκεύους καὶ σώματος
 --- apparatus
+506a3	λέγω ἃ λέγω B T P: πάνυ τί λέγω. ἀλλʼ ἐγὼ F
+506a5	ἐγὼ B T P: ἔγωγε F
+506a6	διαπερανθῆναι B T P f: διαπερᾶναι F
+506a7	ἤδη F: δὴ B T P f
+506b5	ἀμφίονος W F: ἀμφίωνος B T P
+506b6	τῆς om. F
 --- notes
+505e6	no speaker's name printed (Socrates' speech runs on): left out
+506b6	ῥῆσιν checked: printed on this line (Ἀμφίονος is divided at the end of b5, written whole there)
+506d4	ἀλλὰ moved to the start of 506d5, where the page prints it (capital Ἀλλὰ); d4 ends with the dash
+506d5	not indented on the page (begins level with d4): no ¶
 
 === g-0348
 --- text
@@ -135,9 +176,9 @@
 506e1	Τάξει ἆρα τεταγμένον καὶ κεκοσμημένον ἐστὶν ἡ ἀρετὴ
 506e2	ἑκάστου;—Φαίην ἂν ἔγωγε.—Κόσμος τις ἄρα ἐγγενόμενος
 506e3	ἐν ἑκάστῳ ὁ ἑκάστου οἰκεῖος ἀγαθὸν παρέχει ἕκαστον τῶν
-506e4	ὄντων;—ἔμοιγε δοκεῖ.—Καὶ ψυχὴ ἄρα κόσμον ἔχουσα
-506e5	τὸν ἑαυτῆς ἀμείνων τῆς ἀκοσμήτου;—ἀνάγκη.—Ἀλλὰ μὴν
-506e6	ἥ γε κόσμον ἔχουσα κοσμία;—Πῶς γὰρ οὐ μέλλει;— Ἡ δέ
+506e4	ὄντων;—Ἔμοιγε δοκεῖ.—Καὶ ψυχὴ ἄρα κόσμον ἔχουσα
+506e5	τὸν ἑαυτῆς ἀμείνων τῆς ἀκοσμήτου;—Ἀνάγκη.—Ἀλλὰ μὴν
+506e6	ἥ γε κόσμον ἔχουσα κοσμία;—Πῶς γὰρ οὐ μέλλει;—Ἡ δέ
 507a1	γε κοσμία σώφρων;—Πολλὴ ἀνάγκη.—Ἡ ἄρα σώφρων
 507a2	ψυχὴ ἀγαθή. ἐγὼ μὲν οὐκ ἔχω παρὰ ταῦτα ἄλλα φάναι,
 507a3	ὦ φίλε Καλλίκλεις· σὺ δʼ εἰ ἔχεις, δίδασκε.
@@ -152,7 +193,7 @@
 507b1	Ἀνάγκη ταῦτʼ εἶναι οὕτω.—Καὶ μὴν περὶ μὲν ἀνθρώπους
 507b2	τὰ προσήκοντα πράττων δίκαιʼ ἂν πράττοι, περὶ δὲ
 507b3	θεοὺς ὅσια· τὸν δὲ τὰ δίκαια καὶ ὅσια πράττοντα ἀνάγκη
-507b4	δίκαιον καὶ ὅσιον εἶναι.—ἔστι ταῦτα.—Καὶ μὲν δὴ καὶ
+507b4	δίκαιον καὶ ὅσιον εἶναι.—Ἔστι ταῦτα.—Καὶ μὲν δὴ καὶ
 507b5	ἀνδρεῖόν γε ἀνάγκη· οὐ γὰρ δὴ σώφρονος ἀνδρός ἐστιν οὔτε
 507b6	διώκειν οὔτε φεύγειν ἃ μὴ προσήκει, ἀλλʼ ἃ δεῖ καὶ πράγματα
 507b7	καὶ ἀνθρώπους καὶ ἡδονὰς καὶ λύπας φεύγειν καὶ
@@ -161,7 +202,23 @@
 507c2	δίκαιον ὄντα καὶ ἀνδρεῖον καὶ ὅσιον ἀγαθὸν ἄνδρα εἶναι
 507c3	τελέως, τὸν δὲ ἀγαθὸν εὖ τε καὶ καλῶς πράττειν ἃ ἂν
 --- apparatus
+506d6	οὐ τῷ B T Iamblichus: οὐ τω P: οὔτοι al. Sauppe: οὐχ οὕτω F
+506d6	κάλλιστα secl. Coraes
+506d8	γάρ B P F: γὰρ δή T
+506e1	τεταγμένον B T P F: τεταγμένον τι Iamblichus
+506e3	ἑκάστου B P F Iamblichus: ἑκαστον T: ἑκάστων t
+507a6	σωφροσύνη P
+507a8	περὶ ἀνθρώπους B T P F: ἀνθρώπους Iamblichus
+507b6	ἀλλʼ ἃ δεῖ Heindorf: ἀλλὰ δεῖ B T f Iamblichus: ἀλλὰ δὴ P F
+507c3	τε B T P: γε F
 --- notes
+506e1	the page begins this line with the dash (—Τάξει); written at the end of 506d8 as the instructions ask
+506e4	capital Ἔμοιγε as printed (draft had ἔμοιγε)
+506e5	margin 5 checked: printed, numbering right; capital Ἀνάγκη as printed (draft had ἀνάγκη)
+506e6	no speaker's name printed before Ἡ δέ: left out; stray space after the dash removed
+507a6	ἡ checked: printed at the end of this line
+507b4	ταῦτα.— checked: printed on this line; capital Ἔστι as printed (draft had ἔστι)
+506e3	apparatus: ἑκαστον T is printed without accent; copied so
 
 === g-0349
 --- text
@@ -194,7 +251,20 @@
 508a6	σε ὅτι ἡ ἰσότης ἡ γεωμετρικὴ καὶ ἐν θεοῖς καὶ ἐν ἀνθρώποις
 508a7	μέγα δύναται, σὺ δὲ πλεονεξίαν οἴει δεῖν ἀσκεῖν· γεωμετρίας
 --- apparatus
+507c5	πονηρῶς P
+507c8	οὖν om. Oxy.
+507c8	ταῦτα ἀληθῆ B P F Oxy. Stobaeus: ἀληθῆ ταῦτα T
+507c9	εἰ δὲ ἔστιν ἀληθῆ om. F (add. in marg. f)
+507c9	δὲ B T P et in marg. f: δὴ Iamblichus Stobaeus
+507d3	παρασκευαστέον B T P f Oxy. Iamblichus: ποᾶς σκευαστέον ut videtur F: παρασκευαστέον ἑαυτὸν Stobaeus
+507d4	ἢ prius B T P F Oxy. Stobaeus: om. Iamblichus
+507e1	οὕτω B² T P F: οὐ τῷ B
+507e2	ταύτας T W F Stobaeus: ταῦτα B Iamblichus (in Oxy. lacuna)
+507e4	ἂν εἴη B T P: εἴη F Oxy. Stobaeus
+507e5	δὲ B T P f: γὰρ Oxy. Iamblichus Stobaeus: om. F
+508a7	οἴει πλεονεξίαν P
 --- notes
+507e6	no speaker's name printed (Socrates' speech runs on): left out
 
 === g-0350
 --- text
@@ -227,4 +297,21 @@
 508e2	τύπτειν καὶ ἐμὲ καὶ τὰ ἐμὰ ἀδίκως καὶ τέμνειν καὶ αἴσχιον
 508e3	καὶ κάκιον, καὶ κλέπτειν γε ἅμα καὶ ἀνδραποδίζεσθαι καὶ
 --- apparatus
+508b2	ἄθλιοι post δὲ add. Bekker: post ἄθλιοι Heindorf (semel habet Oxy.)
+508b3	τί B T P F: τίνα vulg. (et mox c 4)
+508b7	τούτω P
+508b8	τοῦ ἀδικεῖν τὸ ἀδικεῖσθαι P
+508c2	δεῖ F (sed ν add. f)
+508c7	οὐδὲ σῶσαι F Oxy.
+508c8	ἐπὶ τῷ βουλομένῳ B T P: ἐπὶ τῷ βουλευομένῳ F: secl. Morstadt (sed πι τω ˋβο[ . . . . . . iam Oxy.)
+508c8	τοῦ ἐθέλοντος secl. Hirschig
+508d1	τοῦτο τὸ F: τοῦτο B T P
+508d2	ἐκβάλλειν B T P F: εκβαλειν Oxy.
+508d3	ἀποκτεῖναι] ἀποκτιννύναι Badham
+508d4	ἐστιν om. F
+508e1	prius οὔτε B T P: οὐδὲ F
+508e1	βαλλάντιον B T P: βαλάντιον F
 --- notes
+508d4	ἐστιν, checked: printed so
+508c8	apparatus: a grave-like mark is printed before βο[ in the papyrus reading (πι τω ˋβο[); written as ˋ (U+02CB); six dots as printed
+508d2	apparatus: εκβαλειν Oxy. is printed without breathing or accent; copied so

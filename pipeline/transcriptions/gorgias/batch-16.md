@@ -32,7 +32,18 @@
 509d1	ὥστε ἀμφοτέρας τὰς ὠφελίας ταύτας ἔχειν, τήν τε ἀπὸ τοῦ
 509d2	μὴ ἀδικεῖν καὶ τὴν ἀπὸ τοῦ μὴ ἀδικεῖσθαι; πότερα δύναμιν
 --- apparatus
+508e6	πρόσθεν T P F: πρόσθε B
+508e7	καὶ εἰ B T F: εἰ καὶ P
+509a2	λύσεις T² f: λύσῃς B W F
+509b3	τὸ corr. Par. 1811: τὸν B T P F
+509b3	ἂν] δὴ Hirschig
+509b5	ἀποστρέψει F
+509b7	βοήθειαν obelo notavit Schanz: ἀδυναμίαν ci. H. Richards
+509c1	καὶ ante τρίτην om. F
+509c3	τοῦ μή F rec. b: ἑτοίμη B T P
+509c7	μέν om. F
 --- notes
+508e6	no speaker's name printed here (the speech runs on from the page before): left out
 
 === g-0352
 --- text
@@ -44,8 +55,8 @@
 ¶
 509d7	{ΣΩ.} Τί δὲ δὴ τοῦ ἀδικεῖν; πότερον ἐὰν μὴ βούληται
 509d8	ἀδικεῖν, ἱκανὸν τοῦτʼ ἐστίν—οὐ γὰρ ἀδικήσει—ἢ καὶ ἐπὶ
-509e1	τοῦτο δεῖ δύναμίν τινα καὶ τέχνην παρασκευάσασθαι, ὡς, ἐὰν
-509e2	μὴ μάθῃ αὐτὰ καὶ ἀσκήσῃ, ἀδικήσει; τί οὐκ αὐτό γέ
+509e1	τοῦτο δεῖ δύναμίν τινα καὶ τέχνην παρασκευάσασθαι, ὡς,
+509e2	ἐὰν μὴ μάθῃ αὐτὰ καὶ ἀσκήσῃ, ἀδικήσει; τί οὐκ αὐτό γέ
 509e3	μοι τοῦτο ἀπεκρίνω, ὦ Καλλίκλεις, πότερόν σοι δοκοῦμεν
 509e4	ὀρθῶς ἀναγκασθῆναι ὁμολογεῖν ἐν τοῖς ἔμπροσθεν λόγοις
 509e5	ἐγώ τε καὶ Πῶλος ἢ οὔ, ἡνίκα ὡμολογήσαμεν μηδένα
@@ -74,7 +85,20 @@
 510b4	οἱ παλαιοί τε καὶ σοφοὶ λέγουσιν, ὁ ὅμοιος τῷ ὁμοίῳ. οὐ
 510b5	καὶ σοί;
 --- apparatus
+509e2	καὶ B T P: καὶ μὴ F
+509e2	γέ μοι F: γε ἐμοὶ B T P
+509e3	ἀπεκρίνω scr. recc.: ἀπεκρίνου B T P F
+510a1	οὕτως B T F: ἴσως P
+510a1	διαπεράνῃς T P F: διαπερανῇ B
+510a4	ἀδικήσομεν Heindorf
+510a7	ἥπερ T P f: ᾗπερ B: καὶ εἴπερ F
+510a8	ἥδε P F: ᾗδε B T (τῇδε Buttmann et supra ᾗπερ cum B)
+510a8	δεῖν ἄρχειν P
+510a10	ἑταῖρον F: ἕτερον B T P et in marg. f
 --- notes
+509e1	ἐὰν is printed at the start of 509e2, not at the end of 509e1: moved
+509e2	the line is not indented on the page (checked on the whole page): no ¶
+510b4	the line is not indented on the page (checked on the whole page): no ¶
 
 === g-0353
 --- text
@@ -121,7 +145,19 @@
 510e5	ὅμοιος ἔσται τῷ ἄρχοντι ὄντι ἀδίκῳ καὶ παρὰ τούτῳ μέγα
 510e6	δυνήσεται; ἀλλʼ οἶμαι ἔγωγε, πᾶν τοὐναντίον οὑτωσὶ ἡ
 --- apparatus
+510b7	ἄρχων P
+510c3	οὗτος B T P F: οὕτως Schanz
+510d1	τῇ P F b: om. B T
+510d4	εἰ ἄρα τις B T P: ἆρʼ οὖν εἴ τις F
+510d4	ταύτῃ F: αὐτῇ B T W: fort. ἐν αὐτῇ ταύτῃ Stallbaum
+510d6	αὕτη F: ἡ αὐτὴ B T P
+510d6	ὁδός B T P: ἡ ὁδός F
+510e6	οὑτωσὶ B T P: οὕτως F
 --- notes
+510c9	ἐθέλῃ is printed as in Perseus; the line is not indented on the page (checked on the whole page): no ¶
+510d5	the line is not indented on the page (the opening quotation mark stands out in the margin): no ¶
+510e2	διαπεπρά-|ξεται is divided on the page; written whole on 510e2, since 510e2 has no other word
+510e4	ἆρʼ is printed at the start of this line, after ΣΩ.
 
 === g-0354
 --- text
@@ -165,7 +201,15 @@
 511d1	μείζω ταύτης ἐρῶ, τὴν κυβερνητικήν, ἣ οὐ μόνον τὰς ψυχὰς
 511d2	σῴζει ἀλλὰ καὶ τὰ σώματα καὶ τὰ χρήματα ἐκ τῶν ἐσχάτων
 --- apparatus
+510e8	ἀδικοῦντα B T P: ἀδικοῦντι F
+511a4	ὅπῃ F: ὅποι B T W
+511b2	ἄρτι B T P: ἄρα F
+511c3	συμβουλεύων F (κελεύων in marg. f): συμβουλεύω B T P
+511c4	ἦ καὶ ἡ τοῦ F: ἠ καὶ ἡ τοῦ B: ἡ καὶ τοῦ T P
+511c8	τι τοιοῦτον F: τοιοῦτον B T P
+511d1	μείζω F: μείζονα B T P
 --- notes
+511d1	ψυχὰς is printed as in Perseus
 
 === g-0355
 --- text
@@ -199,7 +243,20 @@
 512b6	οὐδενὸς ἐλάττω ἐνίοτε δύναται σῴζειν· πόλεις γὰρ ἔστιν
 512b7	ὅτε ὅλας σῴζει. μή σοι δοκεῖ κατὰ τὸν δικανικὸν εἶναι;
 --- apparatus
+511d5	διαπραξαμένη F Olympiodorus: διαπραττομένη B T P f
+511d6	δεῦρο B T P: ὧδε F
+511e2	γυναῖκας] γυναῖκα Naber
+511e3	ἀπ[οβιβάσασα] F (sed inclusa in lac. suppl. f): ἀποβιβάσας B T W
+512a1	οἷοι F t: οἳ B T P
+512a5	ὑπʼ B T P f: ἀπʼ F
+512a7	βιωτὸν ἔσται Hirschig
+512a7	ὀνήσει Deuschle: ὀνήσειεν B T P F
+512b4	θαυμάσιε B T P: θαυμασιώτατε F
+512b6	πόλεις T P F: πόλις B
 --- notes
+511e6	ἄδηλόν is printed as in Perseus
+512a2	no speaker's name printed here (the line begins with the end of σώ-|ματα, written whole on 512a1): left out
+512b4	σῴζοντα is printed as in Perseus; μηχανο-|ποιόν is divided on the page and written whole on 512b4
 
 === g-0356
 --- text
@@ -219,8 +276,8 @@
 512d5	ψόγος γίγνεται καὶ μηχανοποιοῦ καὶ ἰατροῦ καὶ τῶν ἄλλων
 512d6	τεχνῶν ὅσαι τοῦ σῴζειν ἕνεκα πεποίηνται. ἀλλʼ, ὦ
 512d7	μακάριε, ὅρα μὴ ἄλλο τι τὸ γενναῖον καὶ τὸ ἀγαθὸν ᾖ ἢ τὸ
-512d8	σῴζειν τε καὶ σῴζεσθαι. μὴ γὰρ τοῦτο μέν, τὸ ζῆν
-512e1	ὁποσονδὴ χρόνον, τόν γε ὡς ἀληθῶς ἄνδρα ἐατέον ἐστὶν καὶ
+512d8	σῴζειν τε καὶ σῴζεσθαι. μὴ γὰρ τοῦτο μέν, τὸ ζῆν ὁποσονδὴ
+512e1	χρόνον, τόν γε ὡς ἀληθῶς ἄνδρα ἐατέον ἐστὶν καὶ
 512e2	οὐ φιλοψυχητέον, ἀλλὰ ἐπιτρέψαντα περὶ τούτων τῷ θεῷ
 512e3	καὶ πιστεύσαντα ταῖς γυναιξὶν ὅτι τὴν εἱμαρμένην οὐδʼ ἂν
 512e4	εἷς ἐκφύγοι, τὸ ἐπὶ τούτῳ σκεπτέον τίνʼ ἂν τρόπον τοῦτον
@@ -232,4 +289,19 @@
 513a5	δαιμόνιε, πεισόμεθα ὅπερ φασὶ τὰς τὴν σελήνην καθαιρούσας,
 513a6	τὰς Θετταλίδας· σὺν τοῖς φιλτάτοις ἡ αἵρεσις ἡμῖν
 --- apparatus
+512c6	οὔτʼ ἂν ante τῷ transp. Cobet
+512c7	αὐτὸς B T F: αὐτὸν P: αὖ Schanz: αὐτὸς τῷ σαυτοῦ al.
+512d1	οἶδʼ T P F: οἵ δʼ B
+512d7	ᾖ ἢ τὸ Heindorf: ἠ τὸ B: ᾖ τὸ T P F: τοῦ Coisl.
+512d8	μὴ γὰρ] ἦ γὰρ Schanz
+512d8	ὁπόσον δὴ W f Antoninus: ὁπόσον δὲ B: ὁπόσον δεῖ T P F
+512e1	γε B T F: τε W
+512e5	μέλλοι B T P F: μέλλει Antoninus
+512e5	βιῴη B T P F
+513a2	τῷ ἀθηναίων T P: τῶν ἀθηναίων B F
+513a6	θετταλίδας B F: θετταλικὰς T P
 --- notes
+512d8	ὁποσονδὴ is divided on the page (ὁπο-|σονδὴ) and begins on 512d8: moved there from 512e1, so 512e1 begins with χρόνον, as the margin letter e shows
+512e5	no speaker's name printed here (Socrates' speech runs on): left out
+512d8	apparatus: ὁπόσον δὴ … follows the d 8 item without a new line number; Burnet's divided ὁποσονδὴ begins on d 8
+512e5	apparatus: βιῴη B T P F is printed as a separate item after μέλλει Antoninus (the text's βιοίη is presumably Antoninus' reading)

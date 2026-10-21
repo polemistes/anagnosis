@@ -32,7 +32,14 @@
 485a7	καταγέλαστον, ὦ Σώκρατες, τὸ χρῆμα γίγνεται, καὶ ἔγωγε
 485b1	ὁμοιότατον πάσχω πρὸς τοὺς φιλοσοφοῦντας ὥσπερ πρὸς
 --- apparatus
+484d2	εὐδόκιμον T W F Gellius: εὐδαίμονʼ B
+484d3	τὴν B T P: om. F
+484e4	καὶ ἐπὶ B T P F: κἀπὶ vulg.
+484e7	τυγχάνει T: τυγχάνῃ B (cf. Alc. ii. 146 a 6): τυγχάνη P F
+484e7	βέλτιστος] κράτιστος Alc. ii. l. c.
 --- notes
+484e3	no speaker's name printed here (Callicles' speech runs on); none added
+484e6-7	verse (Euripides, Antiope) printed on lines of its own: marked with |
 
 === g-0316
 --- text
@@ -65,7 +72,20 @@
 485e7	δεῖ σε ἐπιμελεῖσθαι, καὶ φύσιν ψυχῆς ὧδε γενναίαν μειρακιώδει
 486a1	τινὶ διατρέπεις μορφώματι, καὶ οὔτʼ ἂν δίκης βουλαῖσι
 --- apparatus
+485b2	καὶ παίζοντας secl. Morstadt (et mox b 4 καὶ παῖζον, c 1 ἢ παίζοντα ὁρᾷ)
+485b3	ψελλιζόμενον καὶ παῖζον secl. Cobet
+485c3	τοῦτο πάσχω B T P: πάσχω τοῦτο F
+485c3	παρὰ Stephanus: περὶ B² T P F: πέρι B post hanc vocem distinguens
+485c6	καὶ B T P: τινα εἶναι καὶ F
+485d2	μοι B T P: ἐμοὶ F
+485e1	ἱκανὸν] καλὸν Coraes: νεανικὸν ci. Heindorf
+485e2	πάνυ supra ἐπιεικῶς P
+485e7	γενναίαν] γενναίαν ἔχων Ruhnken (ἔχων add. Nauck post ψυχῆς, λαχὼν Cron)
+486a1	διατρέπεις F (coniecerat Grotius): διαπρέπεις B T P: διαστρέφεις Valckenaer
+486a1	ἂν] ἐν Coraes
 --- notes
+485e1	ψιθυρίζοντα checked: printed so
+485e5	no speaker's name printed here (Callicles' speech runs on); none added
 
 === g-0317
 --- text
@@ -82,8 +102,8 @@
 486b3	φαύλου καὶ μοχθηροῦ, ἀποθάνοις ἄν, εἰ βούλοιτο θανάτου
 486b4	σοι τιμᾶσθαι. καίτοι πῶς σοφὸν τοῦτό ἐστιν, ὦ Σώκρατες,
 486b5	ἥτις εὐφυῆ λαβοῦσα τέχνη φῶτα ἔθηκε χείρονα,
-486b6	μήτε αὐτὸν αὑτῷ δυνάμενον βοηθεῖν μηδʼ ἐκσῶσαι ἐκ τῶν μεγίστων
-486b7	κινδύνων μήτε ἑαυτὸν μήτε ἄλλον μηδένα, ὑπὸ δὲ
+486b6	μήτε αὐτὸν αὑτῷ δυνάμενον βοηθεῖν μηδʼ ἐκσῶσαι ἐκ τῶν
+486b7	μεγίστων κινδύνων μήτε ἑαυτὸν μήτε ἄλλον μηδένα, ὑπὸ δὲ
 486c1	τῶν ἐχθρῶν περισυλᾶσθαι πᾶσαν τὴν οὐσίαν, ἀτεχνῶς δὲ
 486c2	ἄτιμον ζῆν ἐν τῇ πόλει; τὸν δὲ τοιοῦτον, εἴ τι καὶ ἀγροικότερον
 486c3	εἰρῆσθαι, ἔξεστιν ἐπὶ κόρρης τύπτοντα μὴ διδόναι δίκην.
@@ -98,7 +118,25 @@
 486d3	οὐκ ἂν οἴει με ἅσμενον εὑρεῖν τούτων τινὰ τῶν λίθων
 486d4	ᾗ βασανίζουσιν τὸν χρυσόν, τὴν ἀρίστην, πρὸς ἥντινα ἔμελλον
 --- apparatus
+486a3	ἂν λάβοις B T P f: ἀναλάβοις F: λάβοις recc.: λάκοις Bonitz
+486a5	εἶναι B T P: om. F
+486a7	νῦν B T P: νυνὶ F
+486a8	ἀπάγοι B T P F Philodemus: ἀπαγάγοι Par. 2110
+486a9	μηδὲν] οὐθὲν Philodemus
+486b1	ἰλιγγιῴης F b t: εἰλιγγιῴης B T P
+486b5	ἥτις B Philodemus: ἥ τις F: εἴ τις T P
+486b5	εὐφυῆ B T P: εὐφυεῖ F: εὐφυᾶ vulg.
+486c2	τὸν δὲ T P F: τόνδε B: τὸν δὴ ci. Heindorf
+486c2	εἴ τι καὶ T P F: εἴ τι B
+486c4	πείθου B T P F: πιθοῦ Cobet
+486c4	ἐλέγχων B T F: ματαιάζων P: ἐν ἄλλῳ πρόσκειται παῦσαι ματαιάζων in marg. T
+486d4	ᾗ B T P: ἧ F: αἷς ci. Stallbaum: αἳ Par. 1812
 --- notes
+486a5	ἔχειν checked: printed so (also 486a6)
+486b5	the Euripides line ἥτις … χείρονα is printed letter-spaced within the prose, not set off as verse (no indent); not marked with |; so too the quotations at 486a1-3 and 486c4-8
+486b6	μεγίστων moved to 486b7: the page prints it at the start of b7
+486b7	not indented on the page; no ¶ added
+486c3	“τερον” is the end of ἀγροικότερον, written whole on 486c2
 
 === g-0318
 --- text
@@ -134,7 +172,22 @@
 487c3	τε καὶ Τείσανδρον τὸν Ἀφιδναῖον καὶ Ἄνδρωνα τὸν Ἀνδροτίωνος
 487c4	καὶ Ναυσικύδην τὸν Χολαργέα· καί ποτε ὑμῶν ἐγὼ
 --- apparatus
+486d6	εὖ B T P: ἤδη εὖ F
+486d7	με B T W F: μοι scr. recc.
+486d7	δεῖ B T P: ἔτι δεῖ F
+486e1	δὴ B T P: δὲ F
+486e5	ἅν ci. Bekker (ἃ ἄν Par. 1811): ἄν B T P F
+487a2	τρία ἄρα B T P F Stobaeus: τρίʼ ἄττα ci. Thompson
+487a2	ἃ σὺ πάντ(α) B T P F: ἅτινα σὺ πάντως Stobaeus
+487a3	εὔνοιαν corr. Ven. 189 et legisse videtur Clemens: δόξαν B T P F Stobaeus
+487b1	αἰσχυντηροτέρω B T P: αἰσχυντηλοτέρω F
+487b5	ταῦτα πάντα B T P: πάντα ταῦτα F
+487b7	⟨οἱ⟩ πολλοὶ ci. Sauppe
+487c3	τείσανδρον F: τίσανδρον B T P f
+487c4	ὑμῶν ἐγὼ B T P: ἐγὼ ὑμῶν F
 --- notes
+487a5	the margin prints 5 here; numbering right (also at 487b5)
+487b4	αὑτῷ checked: printed with rough breathing
 
 === g-0319
 --- text
@@ -146,8 +199,8 @@
 487d3	ταὐτὰ ἐμοὶ συμβουλεύοντος ἅπερ τοῖς σεαυτοῦ ἑταιροτάτοις,
 487d4	ἱκανόν μοι τεκμήριόν ἐστιν ὅτι ὡς ἀληθῶς μοι εὔνους εἶ.
 487d5	καὶ μὴν ὅτι γε οἷος παρρησιάζεσθαι καὶ μὴ αἰσχύνεσθαι,
-487d6	αὐτός τε φῂς καὶ ὁ λόγος ὃν ὀλίγον πρότερον ἔλεγες
-487d7	ὁμολογεῖ σοι. ἔχει δὴ οὑτωσὶ δῆλον ὅτι τούτων πέρι νυνί·
+487d6	αὐτός τε φῂς καὶ ὁ λόγος ὃν ὀλίγον πρότερον ἔλεγες ὁμολογεῖ
+487d7	σοι. ἔχει δὴ οὑτωσὶ δῆλον ὅτι τούτων πέρι νυνί·
 487e1	ἐάν τι σὺ ἐν τοῖς λόγοις ὁμολογήσῃς μοι, βεβασανισμένον
 487e2	τοῦτʼ ἤδη ἔσται ἱκανῶς ὑπʼ ἐμοῦ τε καὶ σοῦ, καὶ οὐκέτι αὐτὸ
 487e3	δεήσει ἐπʼ ἄλλην βάσανον ἀναφέρειν. οὐ γὰρ ἄν ποτε
@@ -168,7 +221,22 @@
 488b1	μηκέτι ποτέ με νουθετήσῃς ὕστερον, ὡς μηδενὸς ἄξιον ὄντα.
 488b2	ἐξ ἀρχῆς δέ μοι ἐπανάλαβε πῶς φῂς τὸ δίκαιον ἔχειν καὶ
 --- apparatus
+487c5	ἐπήκουσα B T P: ὑπήκουσα F
+487d3	ταὐτὰ Ficinus (idem te mihi consilium dantem): ταῦτα B T P: ταυτα ταῦτʼ F
+487d6	ὀλίγον B T f: ὀλίγω P: om. F
+487d7	νυνί B T F: νῦν P
+487e4	συνεχώρησά F
+487e4	σὺ B T: σοι F: om. P
+487e5	περιουσίᾳ F: παρουσίᾳ B T P
+487e6	ἡ σὴ B T P F: σὴ vulg.
+487e9	τινα B T P: τινα ποτὲ F
+488a6	ἐάν με F: ἐὰν μὲν B T: ἐὰν P: ἐάν γε f
+488b2	καὶ σὺ B T P: σύ τε F
 --- notes
+487d6	ὁμολογεῖ moved from 487d7: the page divides it ὁμο-/λογεῖ, so it is written whole on d6
+487e7	no speaker's name printed here (Socrates' speech runs on); none added
+487e4	apparatus: printed as “συνεχώρησά F” with no lemma, then “σὺ B T: σοι F: om. P”; copied so as two items
+488b2	apparatus: “καὶ σὺ” runs over to 488b3 (σὺ begins the next page); Burnet's b 2 kept
 
 === g-0320
 --- text
@@ -213,4 +281,14 @@
 488e4	{ΣΩ.} Οὐκοῦν τὰ τούτων νόμιμα κατὰ φύσιν καλά, κρειττόνων
 488e5	γε ὄντων;
 --- apparatus
+488b4	πλέον] πλεῖον B T P: πλείω F
+488b7	ἔλεγον secl. Schanz
+488c1	τʼ ἦ F (τʼ εἶ f): τʼ ἦι B T: τʼ ἦν P
+488c1	λέγοις F: λέγεις B T P
+488c3	δοκεῖς] ἐδόκεις Coraes
+488c6	καὶ τὸ F: καὶ B T P
+488c7	ἢ T P F: ᾗ B
+488e2	πολὺ B T P F: που Hermann
 --- notes
+488b5	ἔχειν checked: printed so
+488e4	κρειττόνων checked: printed κρειτ-/τόνων, written whole here

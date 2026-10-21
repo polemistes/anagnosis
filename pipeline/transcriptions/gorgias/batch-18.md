@@ -32,7 +32,15 @@
 517d6	εἰκόνων λέγω, ἵνα ῥᾷον καταμάθῃς. τούτων γὰρ ποριστικὸν
 517d7	εἶναι ἢ κάπηλον ὄντα ἢ ἔμπορον ἢ δημιουργόν του αὐτῶν
 --- apparatus
+517a4	εἰ οὗτοι] εἰ τοιοῦτοι Aristides
+517a7	μή] οὐ μὴ Madvig et in editione Schanz (nunc μὴ tuetur v. Rh. Mus. xli. 152): καὶ οὐ μή Cobet (et mox ἐργάσεται)
+517a8	ὅστις F: ὃς B T P
+517c5	ὃν B T F: ᾧ P
+517c7	γοῦν Ven. 189: τε οὖν F: οὖν B T P
+517c8	τις αὕτη F
+517d4	ἀλλὰ ὧν rec. p: ἄλλων ὧν B T P F
 --- notes
+517d4	apparatus: the page prints “ἀλλὰ ὧν rec. p” (not ἀλλʼ); the text has ἄλλʼ ὧν from Perseus, left as it is
 
 === g-0364
 --- text
@@ -65,7 +73,22 @@
 518c4	παρασκευαστὰς ἀνθρώπους, οὐκ ἐπαΐοντας καλὸν κἀγαθὸν
 518c5	οὐδὲν περὶ αὐτῶν, οἵ, ἂν οὕτω τύχωσιν, ἐμπλήσαντες καὶ
 --- apparatus
+517e5	ἣ P F: ᾗ B T
+517e5	γε F: om. B T P
+517e7	τούτων B W f et γρ. T: τούτω F: τοιούτοις T
+517e7	ὅτι recc.: ὅτι τὶ F: ὅτι τὸ B T P
+518a1	ταύτας] ταῦτα Coraes
+518a3	περὶ σώματος πραγματείαν] περὶ σῶμα πραγματείας Cobet
+518a5	οὖν B T F: γοῦν P
+518a5-6	τοτὲ . . . ὅτι] τότε . . . ὅτι B T P F: τότε . . . ὅτε Madvig
+518b5	⟨ὅτι⟩ Θεαρίων Cobet (secl. mox b 7 ὅτι . . . θεραπευταί)
+518b6	ἀρτοκόπος B T P: ἀρτοποιὸς F
+518c5	οὐδὲν F t: οὐδὲ re vera B T P
+518c5	οὕτω B T P f: om. F
 --- notes
+517e5	margin 5 is printed; numbering right (also 518a5, 518c5)
+518a1	no speaker's name printed (518 in the margin, the speech runs on): left out
+518a5-6	apparatus prints “τοτὲ . . . a 6 ὅτι]”: the “a 6” is given as the range 518a5-6
 
 === g-0365
 --- text
@@ -84,7 +107,7 @@
 518e4	πόλιν πεποιηκέναι αὐτούς· ὅτι δὲ οἰδεῖ καὶ ὕπουλός ἐστιν
 519a1	διʼ ἐκείνους τοὺς παλαιούς, οὐκ αἰσθάνονται. ἄνευ γὰρ
 519a2	σωφροσύνης καὶ δικαιοσύνης λιμένων καὶ νεωρίων καὶ
-519a3	τειχῶν καὶ φόρων καὶ τοιούτων φλυαριῶν ἐμπεπλήκασι Τὴν
+519a3	τειχῶν καὶ φόρων καὶ τοιούτων φλυαριῶν ἐμπεπλήκασι τὴν
 519a4	πόλιν· ὅταν οὖν ἔλθῃ ἡ καταβολὴ αὕτη τῆς ἀσθενείας, τοὺς
 519a5	τότε παρόντας αἰτιάσονται συμβούλους, Θεμιστοκλέα δὲ
 519a6	καὶ Κίμωνα καὶ Περικλέα ἐγκωμιάσουσιν, τοὺς αἰτίους
@@ -100,7 +123,17 @@
 519b8	λόγος. τὸ δὲ ὅλον ψεῦδός ἐστιν· προστάτης γὰρ πόλεως
 519c1	οὐδʼ ἂν εἷς ποτε ἀδίκως ἀπόλοιτο ὑπʼ αὐτῆς τῆς πόλεως ἧς
 --- apparatus
+518c7	προσαπολοῦσιν B: προσαπόλλουσιν F: προσαπολλύουσι(ν) T W
+518d4	δὴ F: δὲ B T P f
+519b3	ἀκούω B T P: οὐκ ἀκούω F
+519b3-4	πέρι. αἰσθάνομαι b t: περιαισθάνομαι B T P: **** ὑπεραισθάνομαι F (πέρι in lac. suppl. et ὕπερ punctis del. f)
+519c1	αὐτῆς B T P: αὐτῆς ταύτης F
 --- notes
+518e2	εἱστιά-κασιν divided on the page; written whole on 518e2 as it stands
+518e3	no speaker's name printed (the line begins with “κασιν”): left out
+519b5	σχετλια-ζόντων divided on the page; the OCR's “σχετλιαζύντων” is wrong
+519a3	the OCR's capital “Τὴν” corrected to τὴν, as the page prints it (checked on the whole page)
+519b3-4	apparatus: Burnet gives this item (lemma πέρι. αἰσθάνομαι) without a new number after b 3; it runs over the line break, hence 519b3-4
 
 === g-0366
 --- text
@@ -141,7 +174,18 @@
 520a6	οἴει τι διαφέρειν τούτους ἐκείνων; ταὐτόν, ὦ
 520a7	μακάριʼ, ἐστὶν σοφιστὴς καὶ ῥήτωρ, ἢ ἐγγύς τι καὶ παραπλήσιον,
 --- apparatus
+519c6	αὑτούς (sic B) secl. Bekker
+519d1	καὶ] καίτοι Heindorf
+519d4	σχόντας B T: ἔχοντας P F
+519d4	ᾧ f: ὃ B T P: ἀλλʼ F
+519d5	τοῦτο om. F
+519d6	με T P F b: μὲν B
+519e1	γοῦν B F: γʼ οὖν T: δὲ in marg. t: δʼ οὖν P
+519e4	τινὰ om. F
+519e4	ὑπʼ αὐτῶν F
 --- notes
+519c6	apparatus: the breathing on αὑτούς is small and hard to tell; read as rough, as in the text
+519e4	apparatus: “ὑπʼ αὐτῶν F” is printed without a lemma (F's reading for ὑφʼ ἑαυτοῦ)
 
 === g-0367
 --- text
@@ -184,7 +228,17 @@
 520e2	{ΣΩ.} Περὶ δέ γε ταύτης τῆς πράξεως, ὅντινʼ ἄν τις τρόπον
 520e3	ὡς βέλτιστος εἴη καὶ ἄριστα τὴν αὑτοῦ οἰκίαν διοικοῖ
 --- apparatus
+520b1	μὲν B T P: μέν γε F
+520c7	αὐτῷ om. F
+520d1	γὰρ δὴ F: γὰρ B T P
+520d5	ἀλλὰ F: ἀλλʼ ὃ B T P
+520d9	τὰς B T P: δὴ τὰς F
+520e3	βέλτιστος F: βέλτιστον B T P
+520e3-4	διοικοῖ ἢ T P F b: διοικοίη B
 --- notes
+520d1	λαμ-βάνοι divided on the page, written whole on 520d1; the margin letter d stands at this line, so the numbering is right
+520d9	apparatus: the colon after “B T P” is faint (only its lower dot is clear)
+520e3-4	apparatus: given by Burnet under e 3; the lemma runs into 520e4 (ἢ, next page)
 
 === g-0368
 --- text
@@ -224,8 +278,20 @@
 521c2	αἰσχρῶς, κακῶς.
 ¶
 521c3	{ΚΑΛ.} Ὥς μοι δοκεῖς, ὦ Σώκρατες, πιστεύειν μηδʼ ἂν
-521c4	ἓν τούτων παθεῖν, ὡς οἰκῶν Ἐκποδὼν Καὶ Οὐκ ἂν εἰσαχθεὶς
+521c4	ἓν τούτων παθεῖν, ὡς οἰκῶν ἐκποδὼν καὶ οὐκ ἂν εἰσαχθεὶς
 521c5	εἰς δικαστήριον ὑπὸ πάνυ ἴσως μοχθηροῦ ἀνθρώπου καὶ
 521c6	φαύλου.
 --- apparatus
+520e7	τοῦτο B T P: αὐτὸ F
+521a5	ὦ F: om. B T P
+521a6	πρός με F
+521a8	ὡς om. F
+521b3	γε B T P: τε F
+521b4	ὃ T P F: ὅτι B
+521b7	χρήσεται] χρήσηται Schanz
+521c2	κακῶς B T P: καὶ κακῶς F
+521c3	δοκεῖς ὦ σωκράτης F: δοκεῖ σώκρατες B T P: δοκεῖ Σωκράτης Schanz
 --- notes
+521c4	ἂν is printed on this line; the OCR's capitals “Ἐκποδὼν Καὶ Οὐκ” corrected to ἐκποδὼν καὶ οὐκ as the page prints them
+521c6	the page prints φαύλου.; the OCR's “αὐλου.” is wrong
+521a6	apparatus: “πρός με F” is printed without a lemma (F's reading for πρὸς ἐμέ)

@@ -22,7 +22,32 @@
 493c2	τὴν τῶν ἀνοήτων ὡς τετρημένην, ἅτε οὐ δυναμένην στέγειν
 493c3	διʼ ἀπιστίαν τε καὶ λήθην. ταῦτʼ ἐπιεικῶς μέν ἐστιν ὑπό
 --- apparatus
+492e8	τοι F Stobaeus: τι B T P Iamblichus
+492e10	δʼ B T P f: om. F
+493a1	ἤδη γάρ F Iamblichus Stobaeus: ἤδη B T P: ὅπερ ἤδη vulg.
+493a3	αἱ ἐπιθυμίαι F
+493a4	⟨ὅτι⟩ τυγχάνει ci. H. Richards
+493a5	ἄνω κάτω B P F Iamblichus Stobaeus: ἄνω καὶ κάτω T
+493a6	σικελός B T P: σικελικός F Iamblichus Olympiodorus Stobaeus
+493a6	ἰταλικός B T P F Stobaeus: ἰταλικός τις Iamblichus
+493a7	πειστικὸν F: πιστικὸν B T P Stobaeus Iamblichus
+493b1	δʼ vel δὲ B T P F Iamblichus Stobaeus: secl. Madvig
+493b1	ἀνοήτων F Iamblichus Stobaeus: ἀμυήτων B T P
+493b1	αἱ B T P F Iamblichus: om. Stobaeus
+493b2	⟨διὰ⟩ τὸ ἀκόλαστον ci. Heindorf
+493b2	αὐτοῦ om. Sauppe
+493b2	τὸ . . . στεγανόν secl. Hirschig
+493b4	ἀιδὲς F (cf. Phaed. 79, a4 et passim): ἀειδὲς B T P f Stobaeus: ἀηδὲς Iamblichus
+493b5	ἂν εἶεν B T P f: εἶεν Stobaeus: εἰσὶν F Iamblichus
+493b6	ὕδωρ] οἶνον Stobaeus
+493b6	τετρημένῳ secl. Hirschig
+493c2	τὴν . . . τετρημένην secl. Cobet
+493c3	διʼ . . . λήθην secl. Cobet
+493c3	ἀπιστίαν] ἀπληστίαν ci. Schleiermacher
+493c3	ἐπιεικῶς secl. Cobet
 --- notes
+492e11	Perseus marks a gap after ζῆν; Burnet prints nothing there (no asterisks or mark): the verse line ends with ζῆν; on the page. Nothing added.
+493b4	Ἅιδου— checked: printed on this line.
 
 === g-0328
 --- text
@@ -57,7 +82,20 @@
 494a6	{ΚΑΛ.} Οὐ πείθεις, ὦ Σώκρατες. τῷ μὲν γὰρ πληρωσαμένῳ
 494a7	ἐκείνῳ οὐκέτʼ ἔστιν ἡδονὴ οὐδεμία, ἀλλὰ τοῦτʼ
 --- apparatus
+493c4	δηλοῖ μὴν T f Iamblichus: δηλοίμην F: δηλοῖ μὲν B (δὲ suprascr. b) P
+493d1	μετατίθεσθαι B T P f: μεταθέσθαι F: μετατίθεσαι scr. recc.
+493d2	οὐδʼ ἂν ἄλλα Sauppe: οὐδὲν ἀλλὰ B T: οὐδὲν ἀλλʼ ἂν P: οὐδὲ ἀλλὰ F: οὐδὲν ἀλλὰ κἂν t
+493d4	ἀληθέστερον B T P: ἀληθέστατον F Olympiodorus
+493e2	καὶ χαλεπὰ secl. Morstadt
+493e7	ἐκείνῳ B T P f: ἐκει F
+493e8	δʼ ἀεὶ F Iamblichus: ἀ(ι)εὶ B T P (καὶ ante ἀναγκάζοιτο add. vulg.)
+494a2	ἑκατέρου B T P F: om. Iamblichus: ἑκατέρῳ scr. recc.
+494a7	οὐκέτʼ P: οὐκ ἔτι F: οὐκ ἔτʼ B: οὐκ T
 --- notes
+493e4	No speaker's name printed (Socrates' speech runs on); none added.
+493e5	The margin prints 5 here; numbering is right.
+493e7	The apparatus prints ἐκει without accent; copied as printed.
+494a7	τοῦτʼ checked on the page.
 
 === g-0329
 --- text
@@ -103,7 +141,22 @@
 494e1	{ΣΩ.} Πότερον εἰ τὴν κεφαλὴν μόνον κνησιῷ—ἢ ἔτι τί
 494e2	σε ἐρωτῶ; ὅρα, ὦ Καλλίκλεις, τί ἀποκρινῇ, ἐάν τίς σε
 --- apparatus
+494b1	πληρώσῃ B T P F: πληρώσηται vulg.: πληρωθῇ ci. Stallbaum
+494b3	γʼ ἂν B T P: ἐὰν F
+494c2	ἁπάσας om. P
+494c3	πληροῦντα B T P F: πληροῦν Stephanus
+494c6	ψωρῶντα B T P: ψωριῶντα F rec. t
+494c7	κνησιῶντα T P F: κνηστιῶντα B
+494d1	ἀτεχνῶς T P: ἀτέχνως B: ἄτεχνος F
+494d3	καὶ ante ἐξέπληξα om. F
+494d4	οὐδʼ οὐ μὴ F
+494e1	κνησιῷ Bekker: κνησιοῖ B T P: κνησθῆ F
+494e2	ἀποκρινεῖ B: ἀποκρίνει T: ἀποκρίνη P F
 --- notes
+494d4	ἀποκρίνου checked: ἀπο-/κρίνου divided, written whole on this line.
+494d4	Apparatus: printed without lemma, "d 4 οὐδʼ οὐ μὴ F" (F's reading for οὐδὲ μὴ); copied as printed.
+494e1	κνησιῷ— checked: printed on this line.
+494e1	Apparatus: κνησθῆ and ἀποκρίνη (e2) are printed without iota subscript; copied as printed.
 
 === g-0330
 --- text
@@ -147,7 +200,18 @@
 ¶
 495c2	{ΚΑΛ.} Πάνυ γε σφόδρα.
 --- apparatus
+494e3	ἐχόμενα] ἑπόμενα ci. Bekker: secl. Schanz
+494e3	⟨τὸ⟩ τούτων Buttmann
+494e4	κεφάλαιον F b: κεφαλαίων B T P: κεφαλαιότατον fort. Antiatticista Bekkeri
+494e6	ἄφθονα F
+494e7	τοὺς λόγους secl. Cobet
+494e10	ἀνέδην B T f: ἀναίδην P F
+495a2	ἀγαθαὶ καὶ P F: αἱ ἀγαθαὶ καὶ B T: αἱ ἀγαθαὶ καὶ αἱ W
+495a5	μὴ ἀνομολογούμενος B T P: μὴ ὁμολογούμενος F: γρ. καὶ ἀνομολογούμενος καὶ μὴ ὁμολογούμενος Olympiodorus
+495b5	πολλὰ secl. ci. Sauppe
 --- notes
+494e3	ἐρωτᾷ checked on the page (ᾷ printed).
+494e10	φῇ checked on the page.
 
 === g-0331
 --- text
@@ -189,7 +253,16 @@
 496a5	ἀπαλλάττεται τῶν ὀφθαλμῶν καὶ τελευτῶν ἅμα ἀμφοτέρων
 496a6	ἀπήλλακται;—{ΚΑΛ.} Ἥκιστά γε.—{ΣΩ.} Θαυμάσιον γὰρ
 --- apparatus
+495c5	εἶναι supra versum T
+495c6	ἕτερον ⟨ὂν⟩ Heindorf
+495d2	ἕτερον P
+495d5	ἀγαθοῦ] ἡδέος H. Schmidt
+495d6	δέ γε B T f: δὲ P F
+495e11	ὅτου B T P: τοῦ ὅτου F (ὅλου suprascr. f)
+495e11	ἀπολαβὼν B T P f: ἀναλαβὼν F
+496a1	ἄνθρωπος] ἅνθρωπος Bekker
 --- notes
+496a6	Ἥκιστά checked on the page.
 
 === g-0332
 --- text
@@ -218,9 +291,21 @@
 496d7	τούτου οὗ λέγεις τὸ μὲν διψῶντα λυπούμενον δήπου ἐστίν;—
 496e1	{ΚΑΛ.} Ναί.—{ΣΩ.} Τὸ δὲ πίνειν πλήρωσίς τε τῆς ἐνδείας
 496e2	καὶ ἡδονή;—{ΚΑΛ.} Ναί.—{ΣΩ.} Οὐκοῦν κατὰ τὸ πίνειν χαίρειν
-496e3	λέγεις;—{ΚΑΛ.} Μάλιστα. Διψῶντά γε.—{ΚΑΛ.}
+496e3	λέγεις;—{ΚΑΛ.} Μάλιστα.—{ΣΩ.} Διψῶντά γε.—{ΚΑΛ.}
 496e4	Φημί.—{ΣΩ.} Λυπούμενον;—{ΚΑΛ.} Ναί.—{ΣΩ.} Αἰσθάνῃ οὖν
 496e5	τὸ συμβαῖνον, ὅτι λυπούμενον χαίρειν λέγεις ἅμα, ὅταν
 496e6	διψῶντα πίνειν λέγῃς; ἢ οὐχ ἅμα τοῦτο γίγνεται κατὰ
 --- apparatus
+496b1	γίγνεται] ἐγίγνετʼ ἂν Sauppe
+496b1	ἦ B T P f: οὐ F
+496b2	ἀπολλύει B T P: ἀπολύει F: ἀπόλλυσι Hirschig
+496c2	ἄνθρωπος] ἅνθρωπος Bekker
+496c2	γε om. P
+496c4	ὑπερφυῶς ὡς B W F: ὑπερφυῶς T
+496d1	λέγω Stallbaum: καλῶ ci. Badham: καὶ ἐγὼ B T P F (Socrati tribuentes): ἐγὼ al.: secl. Ast
+496d5	δὲ δὴ] δὴ F
+496d6	ἢ om. Sauppe
+496e1	πλήρωσις F: πλήρης B T P: πλήρη W
 --- notes
+496e1	πίνειν checked on the page.
+496e3	The page prints "Μάλιστα.—ΣΩ. Διψῶντά": speaker's name {ΣΩ.} added with its dash.

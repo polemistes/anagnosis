@@ -30,11 +30,20 @@
 460a6	σύ τινα ποιήσῃς, ἀνάγκη αὐτὸν εἰδέναι τὰ δίκαια καὶ τὰ
 460a7	ἄδικα ἤτοι πρότερόν γε ἢ ὕστερον μαθόντα παρὰ σοῦ.—
 460b1	{ΓΟΡ.} Πάνυ γε.—{ΣΩ.} Τί οὖν; ὁ τὰ τεκτονικὰ μεμαθηκὼς
-460b2	τεκτονικός, ἢ οὔ;—{ΓΟΡ.} Ναί.—{ΣΩ.} Οὐκοῦν καὶ ὁ τὰ μουσικὰ μουσικός;
-¶
-460b3	{ΓΟΡ.} Ναί.—{ΣΩ.} Καὶ ὁ τὰ ἰατρικὰ ἰατρικός;
+460b2	τεκτονικός, ἢ οὔ;—{ΓΟΡ.} Ναί.—{ΣΩ.} Οὐκοῦν καὶ ὁ τὰ μουσικὰ
+460b3	μουσικός;—{ΓΟΡ.} Ναί.—{ΣΩ.} Καὶ ὁ τὰ ἰατρικὰ ἰατρικός;
 --- apparatus
+459c8	πρὸς λόγου B T P: πρὸ λόγου Olympiodorus: πρὸς λόγον F
+459d1	περὶ supra versum T: καὶ περὶ Olympiodorus
+459d3	ὡς περὶ B T P: ὥσπερ F
+459d4	αὐτὰ B T F: αὐτὸς P
+459e3	εἰ δὲ μὴ σὺ T P F et in marg. γρ. b: εἰ δὲ σὺ B
+459e7	αὐτὸν διδάξαι re vera B T F: διδάξαι αὐτὸν P
+460a4	μαθήσεται B T P f: μαθήσεσθαι F
+460a6	εἰδέναι B T P: ἔσται εἰδέναι F
+460a7	ἤτοι B T P f: ἢ F
 --- notes
+460b2	μουσικός; stands at the start of the next printed line (460b3), not at the end of 460b2: moved; 460b3 is not indented on the page: ¶ removed
 
 === g-0280
 --- text
@@ -68,7 +77,19 @@
 461a1	τῇ ῥητορικῇ κἂν ἀδίκως χρῷτο, οὕτω θαυμάσας καὶ ἡγησάμενος
 461a2	οὐ συνᾴδειν τὰ λεγόμενα ἐκείνους εἶπον τοὺς λόγους,
 --- apparatus
+460b8	Ὁ δὲ . . . Ναί. secl. Deuschle (et mox c 4 Τὸν δὲ . . . c 5 Ναί)
+460c1-2	Οὐκοῦν . . . Φαίνεταί γε secl. Schanz (sed legit Quintilianus)
+460c1	ῥητορικὸν . . . δὲ secl. Hirschig
+460c2	ἀεὶ ante βούλεσθαι add. Hirschig, post βούλεσθαι add. Thompson
+460c3-6	οὐδέποτε . . . φαίνεταί γε fort. non legit Quintilianus (ii. 15. 27)
+460c4	τοῦ B T P: τοῦ σοῦ F
+460d2	supra πυκτικῇ add. καλῶς rec. f
+460d2	καὶ ἀδίκως χρῆται F: om. B T P
+460e1	ὁ ῥητορικός secl. Cobet
+460e6	ἡ ῥητορικὴ B T P: ῥητορικὴ F
+460e7	ὅ γʼ B T P: εἴ γʼ F
 --- notes
+460c1-2	apparatus prints “c 1 Οὐκοῦν . . . c 2 Φαίνεταί γε”: given as the range 460c1-2; likewise “c 3 οὐδέποτε . . . c 6 φαίνεταί γε” as 460c3-6; the line references inside the parenthesis at 460b8 are kept as printed
 
 === g-0281
 --- text
@@ -88,7 +109,7 @@
 461b8	ἐκ ταύτης ἴσως τῆς ὁμολογίας ἐναντίον τι συνέβη ἐν τοῖς
 461c1	λόγοις—τοῦτο ⟨ὃ⟩ δὴ ἀγαπᾷς, αὐτὸς ἀγαγὼν ἐπὶ τοιαῦτα
 461c2	ἐρωτήματα—ἐπεὶ τίνα οἴει ἀπαρνήσεσθαι μὴ οὐχὶ καὶ αὐτὸν
-461c3	ἐπίστασθαι τὰ δίκαια καὶ ἄλλους διδάξειν; —ἀλλʼ εἰς τὰ
+461c3	ἐπίστασθαι τὰ δίκαια καὶ ἄλλους διδάξειν;—ἀλλʼ εἰς τὰ
 461c4	τοιαῦτα ἄγειν πολλὴ ἀγροικία ἐστὶν τοὺς λόγους.
 ¶
 461c5	{ΣΩ.} Ὦ κάλλιστε Πῶλε, ἀλλά τοι ἐξεπίτηδες κτώμεθα
@@ -105,7 +126,21 @@
 461d6	{ΣΩ.} Τὴν μακρολογίαν, ὦ Πῶλε, ἢν καθέρξῃς, ᾗ τὸ πρῶτον
 461d7	ἐπεχείρησας χρῆσθαι.
 --- apparatus
+461a5	αὖ B T P: πάλιν αὖ F
+461b4	ἢ F: ἦ B T: καὶ W
+461c1	ὃ add. f: om. B T P F
+461c2	ἀπαρνήσεσθαι B T: ἀπαρνήσασθαι P F
+461c3	εἰς τὰ B T P: εἴ γε F (σ supra εἴ f)
+461c4	τοὺς λόγους secl. Cobet
+461c6	ἑταίρους καὶ υἱεῖς F t: ἑτέρους υἱεῖς B T W: ἑταίρους Schanz
+461c6	γενόμενοι F: γιγνόμενοι B T P
+461c7	ἐπανορθῶτε F: ἐπανορθοῖτε B T P
+461d2	ἐγὼ B T et re vera W: ἐγώ σοι F
+461d2	εἰ . . . ὡμολογῆσθαι secl. Cobet
+461d6	καθέρξῃς B T P Olympiodorus: καθέξῃς F
 --- notes
+461c3	the page prints διδάξειν;—ἀλλʼ without a space before the dash: space removed
+461c6	the apparatus prints υἱεῖς where the text has ὑεῖς: copied as printed
 
 === g-0282
 --- text
@@ -157,7 +192,13 @@
 ¶
 462c4	{ΠΩΛ.} Ἐμπειρία ἄρα σοι δοκεῖ ἡ ῥητορικὴ εἶναι;
 --- apparatus
+462a4	τε post ἔλεγχε om. P
+462b6	εἶναι om. P
+462b8	γε B T f: om. F
+462b9	εἰρῆσθαι B T P f: δοκεῖ εἰρῆσθαι F
+462b11	σὺ φῂς P
 --- notes
+462a1	the "indent" is the margin number 462 beside the line; the line itself is not indented: no ¶
 
 === g-0283
 --- text
@@ -187,7 +228,7 @@
 ¶
 462d9	{ΠΩΛ.} Ἐρωτῶ δή, τίς τέχνη ὀψοποιία;—{ΣΩ.} Οὐδεμία,
 462d10	ὦ Πῶλε.—{ΠΩΛ.} Ἀλλὰ τί; φάθι.—{ΣΩ.} Φημὶ δή, ἐμπειρία
-462d11	τις.—{ΠΩΛ.} Τίς; φάθι. Φημὶ δή, χάριτος καὶ ἡδονῆς
+462d11	τις.—{ΠΩΛ.} Τίς; φάθι.—{ΣΩ.} Φημὶ δή, χάριτος καὶ ἡδονῆς
 462e1	ἀπεργασίας, ὦ Πῶλε.
 ¶
 462e2	{ΠΩΛ.} Ταὐτὸν ἄρʼ ἐστὶν ὀψοποιία καὶ ῥητορική;
@@ -207,7 +248,18 @@
 ¶
 463a5	{ΓΟΡ.} Τίνος, ὦ Σώκρατες; εἰπέ· μηδὲν ἐμὲ αἰσχυνθῇς.
 --- apparatus
+462c10	δέ B T P: δή F
+462d1	εἰ P F et suprascr. B²: ἢ B: ἦ T
+462d8	ἥτις F: εἴ τις B T W
+462d8	τέχνη εἶναι B T P: εἶναι τέχνη F
+462d11	τίς B T P F: τίνος in marg. f
+462e2	ἆρʼ F: ἄρα Olympiodorus: δʼ B T P
+462e6	γὰρ W: om. B T F
+463a5	αἰσχυνθῇς B (sed supra ῃ ead. m. ει): αἰσχυνθῆς T P F: αἰσχυνθείς scr. recc.
 --- notes
+462d11	the page prints φάθι.—ΣΩ. Φημὶ δή: the dash and the speaker's name {ΣΩ.} added
+462e2	the apparatus lemma is ἆρʼ (circumflex) while the text line reads ἄρʼ; both kept as printed
+463a5	apparatus: the T P F reading appears without iota subscript (αἰσχυνθῆς), unlike the B lemma; copied so, but the print is small
 
 === g-0284
 --- text
@@ -246,4 +298,15 @@
 463e1	{ΣΩ.} Εἰκότως γε, ὦ Γοργία· οὐδὲν γάρ πω σαφὲς λέγω,
 463e2	Πῶλος δὲ ὅδε νέος ἐστὶ καὶ ὀξύς.
 --- apparatus
+463a6	τι B T P F: om. Aristides (sed habent Proll. in Aristidem)
+463a8	αὐτοῦ ἐγὼ B T P Aristides: ἐγὼ αὐτοῦ F
+463b2	ἡ B T P F: om. Aristides
+463c2	οὔπω F Aristides et suprascr. b: οὕτω B T P
+463c4	εἴτε καλὸν εἴτε αἰσχρὸν B T P: εἴτε αἰσχρὸν εἴτε καλὸν F Aristides
+463c5	ὅτι ἐστίν B T P F: ὅ ἐστιν Aristides
+463c6	πυθέσθαι B T P F: πυνθάνεσθαι Aristides
+463c8	καὶ . . . μόριον secl. Cobet (legit Aristides)
+463c8	μοι post ἀπόκριναί add. Aristides
+463d5	ἐγὼ B T P F: om. Aristides
+463d6	ἐγὼ B T P F: ἔγωγε Aristides
 --- notes

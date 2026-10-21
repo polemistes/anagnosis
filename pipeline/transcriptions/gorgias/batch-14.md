@@ -35,7 +35,17 @@
 501d7	{ΣΩ.} Ἔχεις οὖν εἰπεῖν αἵτινές εἰσιν αἱ ἐπιτηδεύσεις αἱ
 501d8	τοῦτο ποιοῦσαι; μᾶλλον δέ, εἰ βούλει, ἐμοῦ ἐρωτῶντος, ἣ
 --- apparatus
+501a4	ἀτέχνως B² P: ἀτεχνῶς B T F
+501a6	ἀλόγως] ἄλογός Findeisen
+501a7	τριβῇ . . . ἐμπειρίᾳ μνήμην B T P F: τριβὴ . . . ἐμπειρία μνήμη vulg.
+501b3	ἄλλαι τοιαῦται F
+501b6	αὐτῇ B P F: αὐτὴ T: αὕτη Heindorf
+501c5	τοῦ χείρονος B T P: χείρονος F
+501c6	τὴν αὐτὴν δόξαν secl. Thompson
+501d3	καὶ B T P f: om. F
+501d4	μηδὲν F: μηδὲ B T P
 --- notes
+501d6	flags checked: Οἶμαι ἔγωγε. stands on this line; the other OCR words are from 501d7
 
 === g-0340
 --- text
@@ -77,7 +87,21 @@
 502b7	καὶ ᾁσεται, ἐάντε χαίρωσιν ἐάντε μή; ποτέρως σοι δοκεῖ
 502b8	παρεσκευάσθαι ἡ τῶν τραγῳδιῶν ποίησις;
 --- apparatus
+501d9	μή P et supra versum T f: om. B F
+501e1	σκεψόμεθα P
+501e5	ἅπασαι B T P: πᾶσαι F
+501e10	φροντίζειν κινησίαν τὸν B P F t: κινησίαν φροντίζειν τὸν T
+501e10	ἐρεῖ τι B W F t: ἐρεῖται T
+502a2	γε πέρι B T P: τε πέρι F
+502a5	βλέπων om. Coisl.
+502b2	ἐφʼ ᾧ ἐσπούδακεν secl. Cobet
+502b2	αὐτῆς . . . σπουδή secl. Hermann
+502b3	ὡς σοὶ T W F: ὥς σοι B: ὥς μοι Schanz
+502b6	ὠφέλιμον ⟨ὄν⟩ Hirschig
 --- notes
+501e8	flag checked: διθυράμβων is printed (δι-/θυράμβων across the line end)
+502b4	flags checked: μὲν and ᾖ are printed on this line
+501e10	apparatus: ἐρεῖ τι is printed at e 10 though the words stand in 501e10; the sigla read "B W F t.:" with a stray dot, left out
 
 === g-0341
 --- text
@@ -126,7 +150,16 @@
 502e6	ὡρμημένοι, καὶ ἕνεκα τοῦ ἰδίου τοῦ αὑτῶν ὀλιγωροῦντες τοῦ
 502e7	κοινοῦ, ὥσπερ παισὶ προσομιλοῦσι τοῖς δήμοις, χαρίζεσθαι
 --- apparatus
+502b9	δὴ B T P f: om. F
+502c5	περιέλοι F Aristides et schol. B: περιέλοιτο B T P f
+502d2	ῥητορικὴ scr. recc.: ἡ ῥητορικὴ B T P F
+502d8	φαμεν] φῶμεν P
+502e2	ἡμῖν F: ἡμῶν B T P
+502e7	τοῖς B T P: τε τοῖς F
 --- notes
+502e4	flag checked: στοχαζόμενοι is printed
+502e6	flag checked: τοῦ is printed
+502d8	apparatus: the lemma φαμεν is printed without accent; copied so
 
 === g-0342
 --- text
@@ -165,7 +198,22 @@
 503c8	ἐπιθυμιῶν πληρούμεναι βελτίω ποιοῦσι τὸν ἄνθρωπον,
 503d1	ταύτας μὲν ἀποτελεῖν, αἳ δὲ χείρω, μή, τοῦτο δὲ τέχνη τις
 --- apparatus
+503a2	ἔτι B T Aristides: ἐστι P F
+503a2	τοῦτο Aristides: τοῦτο ὃ B T P F
+503a2	οἳ T F: οἱ B
+503a8	καὶ B P F t Aristides: καὶ ἀεὶ T
+503a9	ἔσται B T P F: ἐστὶ Aristides
+503b1	σὺ πώποτε F
+503b2	οὐχὶ B T P F: οὐ Aristides
+503b3	τίς B T P F: ὅστις Aristides
+503b4	μὰ B T P F: μὰ τὸν Aristides
+503b4	ἔγωγε B T P: om. F Aristides
+503b4	γε B T P F: om. Aristides
+503b9	μὲν om. P
+503d1	τέχνη τις εἴη scripsi (εἴη ἄν ci. Heindorf): τέχνη τις εἶναι B T P F: τέχνης εἶναι Ast: τέχνης τινὸς δεῖται Liebhold
 --- notes
+503b1	page has no flags
+503d1	apparatus: εἴη of the lemma stands at the start of 503d2; Burnet's d 1 kept
 
 === g-0343
 --- text
@@ -202,7 +250,23 @@
 ¶
 504b1	{ΚΑΛ.} Ναί.
 --- apparatus
+503d2	εἴη] εἶναι tuetur et post hanc vocem lacunam indicat Schanz (ὡμολόγηται· πῶς ἄν τις ἔχοι εἰπεῖν supplet K. Fuhr)
+503d2	γεγονέναι seclusi: post γεγονέναι add. ἔχειν εἰπεῖν in marg. f
+503d2	οὐκ ἔχω . . . εἴπω cum W Socrati tribui et mox Ἀλλʼ . . . εὑρήσεις Callicli: οὐκ ἔχω . . . εἴπω Callicli et Ἀλλʼ . . . εὑρήσεις Socrati tribuit B et ut videtur T
+503d7	ἄλλο τι οὐκ F (sed ἢ suprascr. f)
+503e2	βλέποντες om. Sauppe
+503e3	προσφέρει B T P F: προσφέρει ἃ προσφέρει Vind. 21
+503e3	πρὸς τὸ ἔργον τὸ αὑτῶν om. Sauppe
+503e3	αὑτῶν B: αὐτῶν T P F: αὑτοῦ vulg.
+503e4	εἶδός T W F: εἰδώς B
+503e4	αὐτῷ B T P: αὐτὸ F
+504a1	τε B T P: τί F
+504a2	δημιουργοὶ post ἐλέγομεν transp. F
 --- notes
+503d6	flag checked: γέγονεν· is printed
+503e4	flag checked: no speaker's name printed (mid-speech); none added
+503e5	flag checked: ζωγράφους is printed
+503e3	apparatus: the breathings of αὑτῶν B and αὑτοῦ vulg. are hard to tell from smooth at this size; read as rough (the lemma is αὑτῶν, against αὐτῶν T P F)
 
 === g-0344
 --- text
@@ -249,4 +313,13 @@
 504e1	δικαιοσύνη μὲν ἐν ταῖς ψυχαῖς γίγνηται, ἀδικία δὲ ἀπαλλάττηται,
 504e2	καὶ σωφροσύνη μὲν ἐγγίγνηται, ἀκολασία δὲ
 --- apparatus
+504b6	πρόσθεν T P F: πρόσθε B
+504c3	ἐκεῖ scripsi: ἐκεῖνο B T P F: ἐκείνῳ Heindorf
+504c7	ἐμοὶ γὰρ F: ἔμοιγε T W f: ἔμοιγε γὰρ B (sed γὰρ punctis notavit et γὰρ ad γε in marg. adscripsit B²)
+504d1	δέ γε F: δὲ B T P
+504d1	καὶ B T F: τε καὶ P
+504d5	ταῦτα ἃ pr. F
+504d9	αὐτοῦ T P F: αὑτοῦ B: αὐτῷ Deuschle: διʼ αὐτοῦ fuisse susp. Schanz
 --- notes
+504b2	flag checked: Καὶ is printed
+504b5	flags checked: τινός; is printed; πρόσθεν belongs to 504b6

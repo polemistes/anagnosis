@@ -37,12 +37,24 @@
 497c6	ἕκαστος ἡμῶν καὶ ἡδόμενος.—{ΚΑΛ.} Φημί.—{ΣΩ.} Οὐκοῦν
 497c7	καὶ πεινῶν καὶ τῶν ἄλλων ἐπιθυμιῶν καὶ ἡδονῶν ἅμα
 --- apparatus
+496e7	χρόνον B T P f: τρόπον F
+496e8	γὰρ οἶμαι B T P f: γάρ μοι F
+497a1	φῂς Baiter: ἔφης B T P F
+497a7	πρόιθι] προι οί F
+497a8	τοὔμπροσθεν F
+497a8	ὅτι ἔχων ληρεῖς secl. Thompson: τί ἔχων ληρεῖς scripsit et Callicli tribuit Badham: post b 3 λέγεις transp. Hermann: post b 1 νουθετεῖς Lamberton
+497a8	ἰδῇς F
+497b3	ὅτι B T P: τί F
+497b8	οὐ σὴ αὕτη ἡ T W F: οὔση αὐτὴ ἡ B
+497c1	τε B T P: om. F
+497c2	οὕτως Socrati tribuunt B P
+497c5	ἀπέλιπες B T P: ἀπέλειπες F
 --- notes
 
 === g-0334
 --- text
 497c8	παύεται;—{ΚΑΛ.} Ἔστι ταῦτα.—{ΣΩ.} Οὐκοῦν καὶ τῶν λυπῶν
-497d1	καὶ τῶν ἡδονῶν ἅμα παύεται;—{ΚΑΛ.} Ναί. Ἀλλὰ
+497d1	καὶ τῶν ἡδονῶν ἅμα παύεται;—{ΚΑΛ.} Ναί.—{ΣΩ.} Ἀλλὰ
 497d2	μὴν τῶν ἀγαθῶν γε καὶ κακῶν οὐχ ἅμα παύεται, ὡς σὺ
 497d3	ὡμολόγεις· νῦν δὲ οὐχ ὁμολογεῖς;—{ΚΑΛ.} Ἔγωγε· τί
 497d4	οὖν δή;
@@ -70,7 +82,22 @@
 498a8	οἱ δειλοὶ ἢ οἱ ἀνδρεῖοι;—{ΚΑΛ.} Ἀμφότεροι ἔμοιγε
 498b1	[μᾶλλον]· εἰ δὲ μή, παραπλησίως γε.—{ΣΩ.} Οὐδὲν διαφέρει.
 --- apparatus
+497d2	γε F: om. B T P
+497d5	ὅτι B T P: om. F
+497d5	οὐ τὰ αὐτὰ P F: οὐ ταῦτα T: οὐ ταὐτὰ t: αὐτὰ B
+497d6	ad οὐδὲ add. ὅτι in marg. t
+497d7	ὡς ἑτέρων ὄντων secl. Deuschle
+497d9	τῇδε T F et ex τί δέ P: τήνδε B
+497e1	δέ B F: δή T P f
+497e4	ἄφρονας B T W F: τοὺς ἄφρονας f
+497e5	ἔλεγες T W F: ὃ ἔλεγες B
+497e7	εἶδες B T P f: ἴδες F t (et mox)
+497e7	οὔπω B P F t: οὐδέπω T
+498a3	πότεροι F: πότερον B T W
+498b1	μᾶλλον B T P F: om. al.: ὁμοίως Sauppe: post μᾶλλον intercidisse putavit δʼ ἴσως οἱ δειλοί Hermann
 --- notes
+497d1	speaker's name {ΣΩ.} added before Ἀλλὰ: the page prints “Ναί.—ΣΩ. Ἀλλὰ”
+498b1	margin flag: the margin prints b (the OCR read it as d); numbering right
 
 === g-0335
 --- text
@@ -107,7 +134,17 @@
 498e5	παραπλησίως παραπλησίως;—{ΚΑΛ.} Ναί.—{ΣΩ.} Οὐκοῦν
 498e6	φῂς παραπλησίως χαίρειν καὶ λυπεῖσθαι τοὺς φρονίμους
 --- apparatus
+498b4	μόνον B T P f: μόνοι F
+498c7	καὶ οἱ B T F: καὶ W
+498c7	οἱ ἀγαθοὶ secl. Routh
+498c7	οἱ ἀγαθοὶ καὶ οἱ κακοί B: οἱ ἀγαθοὶ καὶ κακοί T W f: καὶ οἱ ἀγαθοὶ καὶ κακοί F: secl. H. Schmidt (εἰσιν quoque secl. Schanz)
+498d3	καὶ κακοὺς F: κακοὺς B T P: τοὺς κακοὺς f
+498d8	αἱ B T P: καὶ αἱ F
+498e4	οἳ (ter) F: οἱ (ter) B T P
+498e4	ἧττον ἧττον T W F: ἧττον ἧττον ἡτ|τον B
 --- notes
+498e2	flags checked: φῄς and the speaker's name ΚΑΛ. are printed on this line; no change
+498e4	the third ἡτ|τον in B's reading is printed with a vertical stroke and rough breathing only, as copied
 
 === g-0336
 --- text
@@ -146,7 +183,16 @@
 499c7	ὅτι ἡδοναί τινές εἰσιν αἱ μὲν ἀγαθαί, αἱ δὲ κακαί· ἦ γάρ;—
 499d1	{ΚΑΛ.} Ναί.—{ΣΩ.} Ἆρʼ οὖν ἀγαθαὶ μὲν αἱ ὠφέλιμοι, κακαὶ
 --- apparatus
+498e11	ὡμολογουμένων F
+499a1	τὰ T P F: τὸ B
+499a4	δὲ B T P: τε F
+499b4	τοί σου B T P: του σοῦ F
+499c1	τὰ αὐτὰ F: αὖ B T P
+499c4	φίλου] φαύλου F
+499c6	δὲ δή B T P F: δέ Stobaeus
+499c7	τινές εἰσιν B T P F: εἰσί τινες Stobaeus
 --- notes
+499c7	flag checked: ἀγαθαί, is printed on this line; no change
 
 === g-0337
 --- text
@@ -179,7 +225,19 @@
 500b3	δὲ γιγνώσκουσαι ὅτι τε ἀγαθὸν καὶ ὅτι κακόν· καὶ ἐτίθην
 500b4	τῶν μὲν περὶ τὰς ἡδονὰς τὴν μαγειρικὴν ἐμπειρίαν ἀλλὰ οὐ
 --- apparatus
+499d2	δέ γε B T P: δὲ F Stobaeus
+499d5	νῦν δὴ B T P F: δὴ νῦν Stobaeus
+499d5	ἦ ἄρα Sauppe: εἰ ἄρα B T P F Stobaeus: ἆρα Heindorf (qui mox ποιοῦσιν)
+499d6	ποιοῦσαι B T P F Stobaeus: ποιοῦσιν al.
+499e9	ἕνεκα F Iamblichus Stobaeus: ἕνεκεν B T W
+500a2	τρίτων] τούτων F
+500a5	ὁποῖα B T P F: ποῖα Stobaeus
+500a8	ἔλεγον γὰρ αὖ F: ἔλεγε γὰρ αὐτὸς Stobaeus: ἔλεγον γὰρ B T P
+500b1	μόνον B T P F: om. Stobaeus
+500b3	ἐτίθην B T P: ἐτίθειν P: ἔτι θεῖν F: ἐτίθουν p f Stobaeus
+500b4	μαγειρικὴν B F Stobaeus: μαγειρικὴν κατὰ τὸ σῶμα T W: in marg. περὶ τὸ σῶμα f
 --- notes
+500b3	apparatus: the page prints P twice (“ἐτίθην B T P: ἐτίθειν P”); copied as printed, probably a misprint for another siglum
 
 === g-0338
 --- text
@@ -217,4 +275,16 @@
 501a2	φύσιν ἔσκεπται καὶ τὴν αἰτίαν ὧν πράττει, καὶ λόγον ἔχει
 501a3	τούτων ἑκάστου δοῦναι, ἡ ἰατρική· ἡ δʼ ἑτέρα τῆς ἡδονῆς,
 --- apparatus
+500b7	μήτʼ αὖ τὰ B T P: μὴ ταῦτα F
+500c2	ἡμῖν εἰσιν B T F: εἰσιν ἡμῖν P
+500c7	ἐπὶ secl. Findeisen
+500d2	ἔστιν] ἐστὸν Hirschig
+500d3	τε B T P f: om. F
+500d4	πότερον F
+500d10	δέ μοι B T P f: δὴ ἐμοὶ F
+500e1	μή. συμφῆς; F: μὴ συμφῇς B T f
+500e3	ἐγὼ om. P
+500e5	ὀψοποιικὴ B T P: ὀψοποιητικὴ F
+501a3	ante τῆς add. ἡ f
 --- notes
+501a1	flag checked: the page prints τὴν; no change

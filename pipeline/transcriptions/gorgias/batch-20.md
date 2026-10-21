@@ -5,7 +5,7 @@
 525e2	Σίσυφον καὶ Τιτυόν· Θερσίτην δέ, καὶ εἴ τις ἄλλος πονηρὸς
 525e3	ἦν ἰδιώτης, οὐδεὶς πεποίηκεν μεγάλαις τιμωρίαις συνεχόμενον
 525e4	ὡς ἀνίατον—οὐ γὰρ οἶμαι ἐξῆν αὐτῷ· διὸ καὶ εὐδαιμονέστερος
-525e5	ἦν ἢ οἷς ἐξῆν— ἀλλὰ γάρ, ὦ Καλλίκλεις, ἐκ τῶν
+525e5	ἦν ἢ οἷς ἐξῆν—ἀλλὰ γάρ, ὦ Καλλίκλεις, ἐκ τῶν
 526a1	δυναμένων εἰσὶ καὶ οἱ σφόδρα πονηροὶ γιγνόμενοι ἄνθρωποι·
 526a2	οὐδὲν μὴν κωλύει καὶ ἐν τούτοις ἀγαθοὺς ἄνδρας ἐγγίγνεσθαι,
 526a3	καὶ σφόδρα γε ἄξιον ἄγασθαι τῶν γιγνομένων· χαλεπὸν γάρ,
@@ -26,12 +26,21 @@
 526c3	μάλιστα μέν, ἔγωγέ φημι, ὦ Καλλίκλεις, φιλοσόφου τὰ
 526c4	αὑτοῦ πράξαντος καὶ οὐ πολυπραγμονήσαντος ἐν τῷ βίῳ,
 526c5	ἠγάσθη τε καὶ ἐς μακάρων νήσους ἀπέπεμψε. ταὐτὰ δὲ
-526c6	ταῦτα καὶ ὁ Αἰακός—ἑκάτερος τούτων ῥάβδον ἔχων δικάζει—ὁ
-526c7	δὲ Μίνως ἐπισκοπῶν κάθηται, μόνος ἔχων χρυσοῦν
+526c6	ταῦτα καὶ ὁ Αἰακός—ἑκάτερος τούτων ῥάβδον ἔχων δικάζει—
+526c7	ὁ δὲ Μίνως ἐπισκοπῶν κάθηται, μόνος ἔχων χρυσοῦν
 526d1	σκῆπτρον, ὥς φησιν Ὀδυσσεὺς ὁ Ὁμήρου ἰδεῖν αὐτὸν—
 526d2	| χρύσεον σκῆπτρον ἔχοντα, θεμιστεύοντα νέκυσσιν.
 --- apparatus
+525e4-5	οὐ γὰρ . . . ἐξῆν secl. Morstadt
+526a1	δυναμένων B T P F: αὐτῶν Aristides
+526a7	posterius τὴν F: om. B T W Aristides
+526b1	ἃ ἄν B T P F: ἄν (i. e. ἅν) Aristides
+526b2	ἀριστείδης T P F: ἀριστίδης B
+526c5	ἐς re vera B T P F
 --- notes
+525e5	no speaker's name printed (Perseus's {ΣΩ.} left out); the page prints ἐξῆν—ἀλλὰ with no space, so the space left by the name is removed
+526c6-7	the page divides δι-|κάζει—ὁ δὲ: δικάζει— written whole on c6, ὁ moved to c7; c7 is not indented (it begins with κάζει), so no ¶
+526b1	apparatus: breathings on the small ἄν (i. e. ἅν) hard to tell apart on the scan; read as the sense requires (Aristides' ἄν = crasis of ἃ ἄν)
 
 === g-0376
 --- text
@@ -66,7 +75,19 @@
 527b8	δεύτερον ἀγαθὸν μετὰ τὸ εἶναι δίκαιον, τὸ γίγνεσθαι καὶ
 527c1	κολαζόμενον διδόναι δίκην· καὶ πᾶσαν κολακείαν καὶ τὴν
 --- apparatus
+526d3	τε F: om. B T P
+526d4	σκοπῶ B T P F: γρ. ἀσκῶ T
+526d5	τὴν T W F Eusebius: om. B P
+526d6	ἀσκῶν F Eusebius: σκοπῶν B T P
+527a1	τὸν B T P: ἐκεῖνον τὸν F
+527a1	ἄγῃ B T P: ἐκεῖνος ἄγῃ F
+527a2	ἰλιγγιάσεις T P: εἰλιγγιάσεις B F
+527a3	καὶ ante ἐπὶ et ἀτίμως secl. Cobet: ἐπὶ κόρρης secl. Heindorf
+527a5	γραὸς B T P: ὑπὸ γραὸς F Eusebius Theodoretus
+527a9	νῦν om. P
 --- notes
+526e6	no speaker's name printed (Perseus's {ΣΩ.} left out)
+527a5	the page prints γραὸς (as Perseus; the OCR's γραὺς is wrong)
 
 === g-0377
 --- text
@@ -92,4 +113,14 @@
 527e6	μὴ ἐκείνῳ, ᾧ σὺ πιστεύων ἐμὲ παρακαλεῖς· ἔστι γὰρ
 527e7	οὐδενὸς ἄξιος ὦ Καλλίκλεις.
 --- apparatus
+527c4	πάσῃ πράξει B T P: πράξει πάσῃ F
+527c6	ὁ λόγος F: ὁ σὸς λόγος B T P
+527c8	τὴν ἄτιμον ταύτην B T P: ταύτην τὴν ἄτιμον F
+527d7	ταὐτὰ δοκεῖ B T P: δοκεῖ ταυτὰ F
+527e2	χρησώμεθα B T: χρησόμεθα P F
+527e5	ἑπόμεθα P
+527e5	παρακαλοῦμεν P
 --- notes
+527c8	apparatus: the lemma τὴν ἄτιμον ταύτην runs from c8 to d1; Burnet gives c 8, kept
+527d7	apparatus: F's ταυτὰ is printed without breathing or coronis; copied so
+527e7	the dialogue ends here; nothing else is printed on the page below it but the apparatus
