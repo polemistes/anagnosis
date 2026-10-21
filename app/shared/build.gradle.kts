@@ -37,6 +37,10 @@ kotlin {
             implementation(compose.ui)
             implementation(compose.components.resources)
             implementation("org.jetbrains.compose.material:material-icons-core:1.7.3")
+            // the full set, for icons the core set lacks (bookmark); release builds keep only the icons used
+            implementation("org.jetbrains.compose.material:material-icons-extended:1.7.3")
+            // the full set, for icons the core set lacks (bookmark); release builds keep only the icons used
+            implementation("org.jetbrains.compose.material:material-icons-extended:1.7.3")
             implementation(libs.kotlinx.coroutines.core)
             implementation(libs.sqldelight.runtime)
         }

@@ -197,6 +197,25 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
 
     fun deleteNote(id: Long) = notesDb.notesQueries.delete(id)
 
+    /** The reader's bookmarks in a text, in text order. */
+    fun bookmarks(textSlug: String): List<Bookmark> =
+        notesDb.bookmarksQueries.selectForText(textSlug).executeAsList().map {
+            Bookmark(it.id, it.text_slug, WordAnchor(it.n_int, it.n_sub, it.word), it.name, it.quote, it.created)
+        }
+
+    /** Saves a new bookmark and returns its id. */
+    fun addBookmark(textSlug: String, at: WordAnchor, name: String, quote: String): Long {
+        val q = notesDb.bookmarksQueries
+        return q.transactionWithResult {
+            q.insert(textSlug, at.nInt, at.nSub, at.word, name, quote, nowMillis())
+            q.lastInsertId().executeAsOne()
+        }
+    }
+
+    fun renameBookmark(id: Long, name: String) = notesDb.bookmarksQueries.rename(name, id)
+
+    fun deleteBookmark(id: Long) = notesDb.bookmarksQueries.delete(id)
+
     /** Titles of the work's free-standing documents (introduction, appendix, sigla ...). */
     fun documents(data: WorkData): List<Pair<String, String>> =
         textDb(data.slug).anagnosisQueries.selectDocuments(data.work.id).executeAsList().map { it.slug to it.title }

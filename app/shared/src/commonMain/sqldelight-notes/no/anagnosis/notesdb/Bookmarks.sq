@@ -1,0 +1,32 @@
+-- The reader's bookmarks: sentences to come back to, kept with the notes in notes.sqlite. A
+-- bookmark is anchored by its sentence's first word (the line's citation n_int and n_sub, and
+-- the word's 0-based place in the line), never by sentence or database id, which change
+-- whenever a text is rebuilt. quote is the text's first words from there when the bookmark was
+-- set, to notice a renumbered edition and to show in the list. name may be empty. created is
+-- epoch milliseconds.
+
+CREATE TABLE bookmarks (
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    text_slug TEXT NOT NULL,
+    n_int INTEGER NOT NULL, n_sub TEXT NOT NULL, word INTEGER NOT NULL,
+    name TEXT NOT NULL,
+    quote TEXT NOT NULL,
+    created INTEGER NOT NULL
+);
+
+CREATE INDEX bookmarks_text ON bookmarks(text_slug, n_int, n_sub, word);
+
+selectForText:
+SELECT * FROM bookmarks WHERE text_slug = ? ORDER BY n_int, n_sub, word, id;
+
+insert:
+INSERT INTO bookmarks (text_slug, n_int, n_sub, word, name, quote, created) VALUES (?, ?, ?, ?, ?, ?, ?);
+
+lastInsertId:
+SELECT last_insert_rowid();
+
+rename:
+UPDATE bookmarks SET name = :name WHERE id = :id;
+
+delete:
+DELETE FROM bookmarks WHERE id = ?;

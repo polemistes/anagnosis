@@ -1,0 +1,11 @@
+-- Schema version 1 to 2: the reader's bookmarks join the notes (see Bookmarks.sq).
+CREATE TABLE bookmarks (
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    text_slug TEXT NOT NULL,
+    n_int INTEGER NOT NULL, n_sub TEXT NOT NULL, word INTEGER NOT NULL,
+    name TEXT NOT NULL,
+    quote TEXT NOT NULL,
+    created INTEGER NOT NULL
+);
+
+CREATE INDEX bookmarks_text ON bookmarks(text_slug, n_int, n_sub, word);
