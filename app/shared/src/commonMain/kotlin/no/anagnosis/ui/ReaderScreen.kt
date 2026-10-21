@@ -731,7 +731,6 @@ fun ReaderScreen(
                     else "Lines ${data.lineLabel(first)}–${data.lineLabel(last)}"
                 },
                 short = short,
-                compact = compact,
                 scrubbing = scrubPage != null,
                 notedPages = notedPages,
                 bookmarkedPages = bookmarkedPages,
@@ -1636,8 +1635,8 @@ private fun TranslationPage(
 /** A text button of the bottom bar; in the thin bar of a short screen it has no vertical padding, so that it fits the row. */
 @Composable
 private fun BarButton(label: String, short: Boolean, tight: Boolean, shortLabel: String = label, onClick: () -> Unit) {
-    // tight: four buttons share a narrow bar, and the abbreviated name leaves the span its room;
-    // a screen reader still reads the full name
+    // tight: the whole span would not fit beside the full names, and the abbreviated name
+    // makes room for it; a screen reader still reads the full name
     val text: @Composable () -> Unit = {
         if (tight && shortLabel != label) Text(shortLabel, Modifier.semantics { contentDescription = label }) else Text(label)
     }
@@ -1669,8 +1668,6 @@ private fun ProgressScrubber(
     onBookmarks: () -> Unit,
     /** A short screen (a phone held sideways): thinner rows and no space below. */
     short: Boolean,
-    /** A narrow screen (a phone held upright): four buttons get abbreviated names. */
-    compact: Boolean,
     onScrub: (Int) -> Unit,
     onRelease: () -> Unit,
 ) {
@@ -1679,18 +1676,31 @@ private fun ProgressScrubber(
     val track = MaterialTheme.colorScheme.surfaceVariant
     Surface(color = MaterialTheme.colorScheme.surface) {
         Column(Modifier.fillMaxWidth().navigationBarsPadding().padding(bottom = if (short) 0.dp else 8.dp)) {
+            BoxWithConstraints(Modifier.fillMaxWidth()) {
+            // The buttons take abbreviated names (App., Comm., Bookm.) only when the whole span of
+            // the page shown would not fit beside their full names.
+            val measurer = rememberTextMeasurer()
+            val density = LocalDensity.current
+            val spanStyle = MaterialTheme.typography.labelMedium
+            val buttonStyle = MaterialTheme.typography.labelLarge
+            val page = pages.getOrNull(currentPage)
+            val span = if (page != null && count > 0) span(page.firstN, page.lastN) else null
+            val labels = noteKinds.map { it.label } + listOfNotNull("Notes".takeIf { hasMyNotes }, "Bookmarks".takeIf { hasBookmarks })
+            val buttonsWidth = remember(labels, buttonStyle, density) {
+                with(density) { labels.sumOf { maxOf(measurer.measure(it, buttonStyle).size.width + 24.dp.roundToPx(), ButtonDefaults.MinWidth.roundToPx()) } }
+            }
+            val tight = remember(span, buttonsWidth, constraints.maxWidth, spanStyle, density) {
+                val spanWidth = span?.let { measurer.measure(it, spanStyle).size.width } ?: 0
+                spanWidth + with(density) { 8.dp.roundToPx() } + buttonsWidth > constraints.maxWidth - with(density) { 32.dp.roundToPx() }
+            }
             Row(
                 Modifier.fillMaxWidth().height(if (short) 32.dp else 40.dp).padding(horizontal = 16.dp),
                 verticalAlignment = Alignment.CenterVertically,
             ) {
-                // four buttons on a narrow screen: abbreviated names (see BarButton)
-                val tight = compact && noteKinds.size + (if (hasMyNotes) 1 else 0) + (if (hasBookmarks) 1 else 0) >= 4
-                val page = pages.getOrNull(currentPage)
-                if (page != null && count > 0) {
-                    val span = span(page.firstN, page.lastN)
+                if (span != null) {
                     Text(
                         span,
-                        style = MaterialTheme.typography.labelMedium,
+                        style = spanStyle,
                         color = if (scrubbing) MaterialTheme.colorScheme.onSurface else MaterialTheme.colorScheme.outline,
                         maxLines = 1,
                         overflow = TextOverflow.Ellipsis,
@@ -1708,6 +1718,7 @@ private fun ProgressScrubber(
                 if (hasBookmarks) {
                     BarButton("Bookmarks", short, tight, "Bookm.", onBookmarks)
                 }
+            }
             }
             Canvas(
                 Modifier.fillMaxWidth().height(if (short) 20.dp else 28.dp).padding(horizontal = 16.dp).pointerInput(count) {

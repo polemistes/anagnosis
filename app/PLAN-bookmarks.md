@@ -73,11 +73,12 @@ the current text come last under a heading "Not found in the current text" (in t
 the all-notes sheet's heading for lost notes), each with its quote; a tap on one opens it in
 the editor, which is where it can be deleted. Nothing else is written in the sheet.
 
-**Four buttons in the bottom bar.** On a narrow screen (`compact`, a phone held upright) with
-four buttons (Apparatus, Commentary, Notes, Bookmarks) the buttons show abbreviated names:
-"App.", "Comm.", "Notes", "Bookm." (`NoteKind.short`), so that the span keeps its full
-"Lines 252–269". A screen reader still reads the full names. Decided with the author on
-2026-10-21 after seeing the span cut to "Lin…" on the emulator.
+**Abbreviated button names.** Only when the whole span of the page shown would not fit beside
+the full button names do the buttons show abbreviated names: "App.", "Comm.", "Notes",
+"Bookm." (`NoteKind.short`), so that the span is never cut short ("Lines 252–269"); on other
+pages they keep their full names. A screen reader still reads the full names. Decided with the
+author on 2026-10-21 after seeing the span cut to "Lin…"; on 2026-10-22 the author asked for
+it with any number of buttons, decided by the page shown.
 
 **The ticks.** `ProgressScrubber` gets `bookmarkedPages: Set<Int>`. A note's tick is a short
 vertical line through the track in the primary colour at half strength; a bookmark's tick is
