@@ -728,7 +728,7 @@ fun ReaderScreen(
                     val enHeights = if (settings.fitTranslation && translation != null) {
                         translationHeights(bookSegments, bookLines, backgroundMeasurer, styles, widthPx, density, data::lineLabel)
                     } else emptyMap()
-                    paginate(rows, backgroundMeasurer, styles, widthPx - numberColumnPx, heightPx, density, settings.lineNumbers, enHeights, anchorIndex, cache, { data.lineLabel(it.n_int, it.n_sub) }, data.prose, verseMarks(data, settings.lineNumbers != LineNumberMode.NONE)) { ensureActive() }
+                    paginate(rows, backgroundMeasurer, styles, widthPx - numberColumnPx, heightPx, density, settings.lineNumbers, enHeights, anchorIndex, cache, { data.lineLabel(it.n_int, it.n_sub) }, data.prose, data.closedDashes, verseMarks(data, settings.lineNumbers != LineNumberMode.NONE)) { ensureActive() }
                 }
                 measureCache.putAll(cache)
                 pages = computed
@@ -753,7 +753,7 @@ fun ReaderScreen(
                     } else emptyMap()
                     // only as many rows as could possibly fit on one page, so the preview stays cheap
                     val endIdx = minOf(rows.size, startIdx + 120)
-                    paginate(rows.subList(startIdx, endIdx), measurer, previewStyles, widthPx - numberColumnPx, heightPx, density, settings.lineNumbers, enHeights, label = { data.lineLabel(it.n_int, it.n_sub) }, prose = data.prose, marks = verseMarks(data, settings.lineNumbers != LineNumberMode.NONE)).firstOrNull()
+                    paginate(rows.subList(startIdx, endIdx), measurer, previewStyles, widthPx - numberColumnPx, heightPx, density, settings.lineNumbers, enHeights, label = { data.lineLabel(it.n_int, it.n_sub) }, prose = data.prose, closedDashes = data.closedDashes, marks = verseMarks(data, settings.lineNumbers != LineNumberMode.NONE)).firstOrNull()
                 } else null
             } else null
             // Two-finger pinch changes the text size; one finger is left to the pager. The page
@@ -1117,6 +1117,7 @@ private fun paginate(
     cache: MutableMap<ReaderRow, Measured>? = null,
     label: (Lines) -> String = { it.n },
     prose: Boolean = false,
+    closedDashes: Boolean = false,
     marks: ((Lines) -> VerseMark?)? = null,
     checkActive: () -> Unit = {},
 ): List<Page> {
@@ -1127,7 +1128,7 @@ private fun paginate(
     val numberWidth = measurer.measure("0000", styles.number).size.width + NUMBER_GAP.px()
     // Prose: each line's height is its share of its paragraph, measured as a whole. A page that
     // ends inside a paragraph starts the rest on a new line, so a line's height is kept in reserve.
-    val proseHeights = if (prose) proseLineHeights(rows, measurer, styles, textWidth, PARAGRAPH_GAP.px(), marks) else emptyMap()
+    val proseHeights = if (prose) proseLineHeights(rows, measurer, styles, textWidth, PARAGRAPH_GAP.px(), marks, closedDashes) else emptyMap()
     val pageHeight = if (prose) heightPx - measurer.measure("Α", styles.prose).size.height else heightPx
 
     val measured: MutableList<Measured> = rows.map { row ->
@@ -1645,12 +1646,13 @@ private const val HIDDEN = '\u2060'
 
 /**
  * Burnet's lines joined into running text. Lines are joined by a space (a word divided at a line
- * end is printed whole on its first line). A verse line ("| " at its start) is a paragraph of its
+ * end is printed whole on its first line), except after a dash that ends a line where the text's
+ * dashes are closed up (meta dashes = closed: Burnet's "Ναί.—ΣΩ."). A verse line ("| " at its start) is a paragraph of its
  * own with a hanging indent, and the prose after it goes on without an indent. A speaker's name
  * in braces ({ΑΠΟΛ.}) is set as a label. Offsets stay those of the lines' own text: marks that
  * are not shown are replaced by invisible characters, never removed.
  */
-private fun proseText(lines: List<Lines>, label: SpanStyle, marks: ((Lines) -> VerseMark?)? = null, markColor: Color = Color.Unspecified, chapterColor: Color = Color.Unspecified): ProseText {
+private fun proseText(lines: List<Lines>, label: SpanStyle, marks: ((Lines) -> VerseMark?)? = null, markColor: Color = Color.Unspecified, chapterColor: Color = Color.Unspecified, closedDashes: Boolean = false): ProseText {
     val start = HashMap<Long, Int>()
     val end = HashMap<Long, Int>()
     var previousVerse = false
@@ -1664,7 +1666,7 @@ private fun proseText(lines: List<Lines>, label: SpanStyle, marks: ((Lines) -> V
             } else if (previousVerse) {
                 pushStyle(AFTER_VERSE)
                 continued = true
-            } else if (i > 0) append(" ")
+            } else if (i > 0 && !(closedDashes && lines[i - 1].text.endsWith("—"))) append(" ")
             marks?.invoke(line)?.let { mark ->
                 withStyle(if (mark.chapter) chapterMarkStyle(chapterColor) else verseMarkStyle(markColor)) { append(mark.text) }
                 append(VERSE_GAP)
@@ -1743,11 +1745,11 @@ private fun paragraphsOf(rows: List<ReaderRow>): List<List<Lines>> {
  * is on, less that of the line before it; the first line of a paragraph also takes the space
  * above the paragraph.
  */
-private fun proseLineHeights(rows: List<ReaderRow>, measurer: TextMeasurer, styles: Styles, widthPx: Int, gapPx: Int, marks: ((Lines) -> VerseMark?)? = null): Map<Long, Int> {
+private fun proseLineHeights(rows: List<ReaderRow>, measurer: TextMeasurer, styles: Styles, widthPx: Int, gapPx: Int, marks: ((Lines) -> VerseMark?)? = null, closedDashes: Boolean = false): Map<Long, Int> {
     val out = HashMap<Long, Int>()
     val constraints = Constraints(maxWidth = widthPx)
     for (para in paragraphsOf(rows)) {
-        val prose = proseText(para, speakerLabelStyle(Color.Unspecified), marks)
+        val prose = proseText(para, speakerLabelStyle(Color.Unspecified), marks, closedDashes = closedDashes)
         val layout = measurer.measure(prose.text, styles.prose, constraints = constraints)
         var previous = 0f
         para.forEachIndexed { i, line ->
@@ -1813,7 +1815,7 @@ private fun ProseParagraph(
     val labelColor = MaterialTheme.colorScheme.primary
     val markColor = MaterialTheme.colorScheme.outline
     val prose = remember(lines, labelColor, markColor, showMarks) {
-        proseText(lines, speakerLabelStyle(labelColor), verseMarks(data, showMarks), markColor, labelColor)
+        proseText(lines, speakerLabelStyle(labelColor), verseMarks(data, showMarks), markColor, labelColor, data.closedDashes)
     }
     // the words with their offsets in the paragraph
     val words = remember(lines, prose) {

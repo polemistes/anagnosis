@@ -6,6 +6,7 @@
 # license: CC BY-SA 4.0 (transcription; the edition is in the public domain)
 # layout: prose
 # syntax: automatic
+# dashes: closed
 
 @ 
 447a1	{ΚΑΛ.} Πολέμου καὶ μάχης φασὶ χρῆναι, ὦ Σώκρατες,

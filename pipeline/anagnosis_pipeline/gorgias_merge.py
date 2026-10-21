@@ -26,6 +26,7 @@ GREEK_META = {
     "license": "CC BY-SA 4.0 (transcription; the edition is in the public domain)",
     "layout": "prose",
     "syntax": "automatic",
+    "dashes": "closed",
 }
 APPARATUS_META = {
     "title": "Critical apparatus (J. Burnet)",

@@ -99,6 +99,7 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
             verses = numbering == "verse",
             stephanus = numbering == "stephanus",
             prose = q.selectMeta("layout").executeAsOneOrNull() == "prose",
+            closedDashes = q.selectMeta("dashes").executeAsOneOrNull() == "closed",
             automaticSyntax = q.selectMeta("syntax").executeAsOneOrNull() == "automatic",
             dictionaryOrder = q.selectMeta("dictionaries").executeAsOneOrNull()?.split(' ')?.filter { it.isNotBlank() } ?: emptyList(),
             pronunciation = defaultPronunciation(slug, work.author, q.selectMeta("pronunciation").executeAsOneOrNull()),

@@ -66,6 +66,8 @@ class WorkData(
     val verses: Boolean = false,
     /** Prose: the lines are shown as flowing paragraphs, not one under the other. */
     val prose: Boolean = false,
+    /** Dashes are closed up (Burnet's "Ναί.—ΣΩ."): a line ending in a dash joins the next without a space. */
+    val closedDashes: Boolean = false,
     /** The syntax was made by a parser and not checked by hand (shown on the syntax page). */
     val automaticSyntax: Boolean = false,
     /** The dictionaries the word sheet offers first, most fitting first (abbott-smith dodson ml lsj). */
