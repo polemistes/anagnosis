@@ -1,5 +1,10 @@
 Copyright (c) 2002-2011, David J. Perry (hospes02@scholarsfonts.net)
 
+Modified for Anagnosis (2026): in Cardo Regular 1.0451, the breathing marks of the three
+glyphs ῤ (U+1FE4), ῥ (U+1FE5) and Ῥ (U+1FEC) were placed to the left of the letter; they were
+moved to where the Bold weight places them. Nothing else was changed. The script that makes
+the change is app/tools/fix-cardo-rho.py in the Anagnosis repository.
+
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
 http://scripts.sil.org/OFL

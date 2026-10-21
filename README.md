@@ -117,6 +117,7 @@ an emulator buy with a fake billing that charges nothing, and the packs are serv
 
 * Code (`pipeline/`, `app/`): GNU General Public License v3.0 or later, see [LICENSE](LICENSE).
 * Bundled fonts (Gentium Plus, Cardo, GFS Didot, GFS Neohellenic): SIL Open Font License 1.1, see [app/fonts-licenses/](app/fonts-licenses/).
+  Cardo Regular carries one correction of ours (the breathings on ῤ, ῥ and Ῥ, made by `app/tools/fix-cardo-rho.py`), noted in its licence file.
 * The reading voice: eSpeak NG (github.com/espeak-ng/espeak-ng), GPL-3.0-or-later, built into
   the app with our Ancient Greek phoneme table and voices, see [app/espeak/README.md](app/espeak/README.md).
   Copyright (C) 2026 Robert Emil Berge.
