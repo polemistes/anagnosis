@@ -44,9 +44,14 @@ You are welcome to download the source files for the app and the texts and build
 
 This app has been created with the help of large language models.
 
-## Release notes, 0.5.0 (247; limit 500)
+## Release notes, 0.5.0 (263; limit 500)
+Version 0.5.0:
 
-Version 0.5.0: Plato's Gorgias can now be bought in the app, with John Burnet's Greek text and apparatus, Benjamin Jowett's translation, and Gonzalez Lodge's commentary and introduction. Tapping the last letter of a word now always opens the word.
+New feature: Bookmarks.
+
+New text: Plato's Gorgias, with John Burnet's Greek text and apparatus, Benjamin Jowett's translation, and Gonzalez Lodge's commentary and introduction.
+
+Bugfix: Tapping the last letter of a word now always opens the word.
 
 ## Release notes, 0.4.0 (371; limit 500)
 
