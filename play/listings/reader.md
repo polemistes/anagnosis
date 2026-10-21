@@ -10,9 +10,9 @@ Anagnosis Ancient Greek Reader
 
 Free ancient Greek dictionaries (LSJ) and parser. Buy Greek texts in the app.
 
-## Full description (3984)
+## Full description (2905)
 
-Anagnosis is an app for reading ancient Greek texts. It provides ancient Greek dictionaries, among them LSJ and the Middle Liddell, and a parser for morphological analysis, all free. Ancient Greek texts can be bought and read inside the app. The dictionaries cover Homeric Greek, Attic Greek and Koine Greek, which includes Biblical Greek and New Testament Greek. The texts come with a critical apparatus, syntax of sentences, a translation and a commentary for each available text (the Greek New Testament does not have a commentary yet), and can be read aloud in ancient pronunciation.
+Anagnosis is an app for reading ancient Greek texts. It provides ancient Greek dictionaries, among them LSJ and the Middle Liddell, and a parser for morphological analysis, all free. Ancient Greek texts can be bought and read inside the app. The dictionaries cover Homeric Greek, Attic Greek and Koine Greek, which includes Biblical Greek and New Testament Greek. The texts come with a critical apparatus, syntax of sentences, a translation and a commentary for each available text (the Greek New Testament does not have a commentary yet). The app has a powerful search engine, and texts can be read aloud in ancient pronunciation.
 
 DICTIONARIES (Free)
 
@@ -24,36 +24,19 @@ DICTIONARIES (Free)
 
 TEXTS AVAILABLE (Buy in app)
 
-• The Greek New Testament (GNT), in the SBL edition, with its apparatus and the Berean Standard Bible translation
-• The Odyssey by Homer, T. W. Allen's Oxford edition and apparatus, A. T. Murray's translation and the commentary of Merry, Riddell and Monro
-• Symposium and Gorgias by Plato, John Burnet's Oxford Greek text and apparatus, Benjamin Jowett's translation, and the commentaries of R. G. Bury (Symposium) and Gonzalez Lodge (Gorgias)
-• Antigone by Sophocles, R. C. Jebb's edition with his translation, critical notes and commentary
-• Ajax by Sophocles, R. C. Jebb's edition with his translation, critical notes and commentary
-• Electra by Sophocles, R. C. Jebb's edition with his translation, critical notes and commentary
+• The Greek New Testament (GNT), in the SBL edition (2010), with its apparatus and the Berean Standard Bible translation (2023)
+• The Odyssey by Homer, T. W. Allen's Oxford edition and apparatus (1917–1919), A. T. Murray's translation (1919) and the commentary of Merry and Riddell (1886) and Monro (1901)
+• Symposium by Plato, John Burnet's Oxford Greek text and apparatus (1901), Benjamin Jowett's translation (1892) and R. G. Bury's commentary (1909)
+• Gorgias by Plato, John Burnet's Oxford Greek text and apparatus (1903), Benjamin Jowett's translation (1892) and Gonzalez Lodge's commentary (1890)
+• Antigone by Sophocles, R. C. Jebb's edition with his translation and critical apparatus (1891) and his commentary (1900)
+• Ajax by Sophocles, R. C. Jebb's edition with his translation, critical apparatus and commentary (1896)
+• Electra by Sophocles, R. C. Jebb's edition with his translation, critical apparatus and commentary (1894)
 
 Each text is bought inside the app; it is then downloaded and appears on the front page of Anagnosis.
 
-READING
-
-With a text installed, tap any word to see its dictionary form, its inflection, its function in the sentence and a short definition; long press it to see the syntax of the whole sentence. Switch between the Greek and an English translation, and open the critical apparatus or the commentary for the page you are reading. On a tablet the Greek and the translation stand side by side.
-
-READING ALOUD
-
-The Greek is read aloud in a reconstructed ancient pronunciation, not a modern one: Homeric, Attic (Athens, about 400 BC) or Koine (the New Testament). Homeric and Attic are spoken with long and short vowels and the musical pitch accent. The spoken word is marked and the pages turn by themselves; any word can be heard alone and seen in phonetic letters. The voice is synthetic: mechanical, but every sound is distinct.
-
 ACCESSIBILITY
 
-Works with screen readers such as TalkBack: every word can be looked up, and for braille displays each line can be read whole.
-
-SEARCH
-
-Search the Greek, the translations, the commentaries and your own notes, in one text or in all your texts, with accents and case ignored or exact, by whole words or with regular expressions. Or type a lemma and list every place where any of its forms occurs; every word you tap has a button for this.
-
-WORD ANALYSIS
-
-Type any inflected Greek word, and see its dictionary form and inflection.
-
-When looking up Greek words, the parser accepts Latin letters, or you can type Greek letters with your device's keyboard or the app's built-in polytonic Greek keyboard.
+Anagnosis works with screen readers such as TalkBack: every word can be looked up, and for braille displays each line can be read whole.
 
 Everything works offline. The app has no ads, collects no data and does not connect to the internet; buying and downloading a text is done by the Google Play app. Its code is Free Software (GPL), and the texts and data are open (CC BY-SA), at github.com/polemistes/anagnosis. Please report any bugs or suggestions for improvement on the GitHub page.
 
