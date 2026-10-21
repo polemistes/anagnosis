@@ -20,3 +20,4 @@ trachiniaeApp/src/main/assets/data/
 packs/*/src/main/assets/
 espeak/espeak-ng/
 espeak/.cxx/
+/tools/*.jar

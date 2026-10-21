@@ -28,6 +28,16 @@ Kotlin Multiplatform + Compose Multiplatform. Two modules:
     ./gradlew :androidApp:assembleDebug
     ./gradlew :androidApp:installDebug     # to a connected device or running emulator
 
+To try the shop and the texts' download packs as Play delivers them, build the bundle and install
+it with bundletool's local testing. `tools/bundletool-1.18.1.jar` is Google's release
+(github.com/google/bundletool, Apache 2.0), kept here but not in git; fetch it again with
+`curl -L -o tools/bundletool-1.18.1.jar https://github.com/google/bundletool/releases/download/1.18.1/bundletool-all-1.18.1.jar`.
+
+    ./gradlew :androidApp:bundleDebug
+    java -jar tools/bundletool-1.18.1.jar build-apks --local-testing \
+        --bundle=androidApp/build/outputs/bundle/debug/androidApp-debug.aab --output=/tmp/reader.apks
+    java -jar tools/bundletool-1.18.1.jar install-apks --apks=/tmp/reader.apks
+
 ## Structure
 
     shared/src/commonMain/sqldelight/                 schema + queries (SQLDelight generates typed Kotlin)
