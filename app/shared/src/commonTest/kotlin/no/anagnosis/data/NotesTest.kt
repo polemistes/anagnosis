@@ -178,4 +178,32 @@ class NotesTest {
             md,
         )
     }
+
+    @Test
+    fun markdownEndsWithTheBookmarks() {
+        val notes = Notes.place(listOf(note(a(1, 0), a(1, 1), "ὦ κοινὸν", body = "Vocative.")), antigone)
+        val marks = Bookmarks.place(listOf(
+            Bookmark(1, "test", a(2, 0), "Zeus", "ἆρ᾽ οἶσθ᾽ ὅ τι", 0),
+            Bookmark(2, "test", a(1, 1), "", "κοινὸν αὐτάδελφον", 0),
+            Bookmark(3, "test", a(9, 0), "", "οὐ γάρ", 0),
+        ), antigone)
+        val md = Notes.markdown(antigone, "Antigone", "Sophocles", "", notes, marks)
+        assertTrue(md.endsWith(
+            """
+            Vocative.
+
+            ## Bookmarks
+
+            - **Line 2** Zeus: ἆρ᾽ οἶσθ᾽ ὅ τι
+            - **Line 1**: κοινὸν αὐτάδελφον
+
+            ### Not found in the current text
+
+            - **Line 9**: οὐ γάρ
+
+            """.trimIndent()
+        ), md)
+        // no bookmarks, no section
+        assertFalse("Bookmarks" in Notes.markdown(antigone, "Antigone", "Sophocles", "", notes))
+    }
 }

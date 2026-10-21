@@ -174,6 +174,8 @@ Commit: "Bookmarks: ticks on the progress bar, with a switch".
 ### Step 4: export
 
 `Notes.markdown` with the bookmarks section and a test; the call in `ReaderScreen` passes them.
+The help ("How to use") gets an entry "The bookmark" after the pencil's, and mentions
+bookmarks in the screen-reader, bottom-bar and options entries.
 
 Commit: "Bookmarks in the notes export".
 
@@ -182,4 +184,4 @@ Commit: "Bookmarks in the notes export".
 - [x] Step 1
 - [x] Step 2
 - [x] Step 3
-- [ ] Step 4
+- [x] Step 4

@@ -1015,7 +1015,7 @@ fun ReaderScreen(
             onOpen = { showAllNotes = false; editing = it },
             onExport = {
                 val title = entry.titleEn.ifEmpty { entry.title }
-                saveFile("anagnosis-notes-${data.slug}.md", Notes.markdown(data, title, entry.authorEn.ifEmpty { entry.author }, entry.refEdition, notes))
+                saveFile("anagnosis-notes-${data.slug}.md", Notes.markdown(data, title, entry.authorEn.ifEmpty { entry.author }, entry.refEdition, notes, bookmarks))
             },
             onDismiss = { showAllNotes = false },
         )

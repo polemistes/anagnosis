@@ -122,8 +122,14 @@ object Notes {
         return out
     }
 
-    /** The notes of a text as a Markdown file: placed ones in text order, then those whose passage is not found. */
-    fun markdown(data: WorkData, title: String, author: String, edition: String, placed: List<PlacedNote>): String = buildString {
+    /**
+     * The notes of a text as a Markdown file: placed ones in text order, then those whose passage
+     * is not found; then the bookmarks, when there are any, as a list in the same order.
+     */
+    fun markdown(
+        data: WorkData, title: String, author: String, edition: String, placed: List<PlacedNote>,
+        bookmarks: List<PlacedBookmark> = emptyList(),
+    ): String = buildString {
         append("# Notes on ").append(title).append("\n\n")
         append(listOf(author, title).filter { it.isNotBlank() }.joinToString(", ")).append('.')
         if (edition.isNotBlank()) append(" Edition: ").append(edition.trim().trimEnd('.')).append('.')
@@ -138,6 +144,20 @@ object Notes {
         if (lost.isNotEmpty()) {
             append("\n## Passages not found in the current text\n")
             lost.forEach { entry(it.note, "###") }
+        }
+        fun mark(b: Bookmark) {
+            append("- **").append(Bookmarks.label(data, b.at)).append("**")
+            if (b.name.isNotBlank()) append(' ').append(b.name.trim())
+            append(": ").append(b.quote).append('\n')
+        }
+        if (bookmarks.isNotEmpty()) {
+            append("\n## Bookmarks\n\n")
+            bookmarks.filter { it.token != null }.forEach { mark(it.bookmark) }
+            val lostMarks = bookmarks.filter { it.token == null }
+            if (lostMarks.isNotEmpty()) {
+                append("\n### Not found in the current text\n\n")
+                lostMarks.forEach { mark(it.bookmark) }
+            }
         }
     }
 
