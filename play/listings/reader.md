@@ -26,7 +26,7 @@ TEXTS AVAILABLE (Buy in app)
 
 • The Greek New Testament (GNT), in the SBL edition, with its apparatus and the Berean Standard Bible translation
 • The Odyssey by Homer, T. W. Allen's Oxford edition and apparatus, A. T. Murray's translation and the commentary of Merry, Riddell and Monro
-• Symposium by Plato, John Burnet's Oxford Greek text and apparatus, Benjamin Jowett's translation and R. G. Bury's commentary
+• Symposium and Gorgias by Plato, John Burnet's Oxford Greek text and apparatus, Benjamin Jowett's translation, and the commentaries of R. G. Bury (Symposium) and Gonzalez Lodge (Gorgias)
 • Antigone by Sophocles, R. C. Jebb's edition with his translation, critical notes and commentary
 • Ajax by Sophocles, R. C. Jebb's edition with his translation, critical notes and commentary
 • Electra by Sophocles, R. C. Jebb's edition with his translation, critical notes and commentary
@@ -60,6 +60,10 @@ Everything works offline. The app has no ads, collects no data and does not conn
 You are welcome to download the source files for the app and the texts and build them yourself without paying anything. If you prefer the convenience of installing the app and texts from Google Play, the payments for the texts will encourage the inclusion of more texts and further development of the app.
 
 This app has been created with the help of large language models.
+
+## Release notes, 0.5.0 (247; limit 500)
+
+Version 0.5.0: Plato's Gorgias can now be bought in the app, with John Burnet's Greek text and apparatus, Benjamin Jowett's translation, and Gonzalez Lodge's commentary and introduction. Tapping the last letter of a word now always opens the word.
 
 ## Release notes, 0.4.0 (371; limit 500)
 

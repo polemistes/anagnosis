@@ -23,8 +23,8 @@ android {
         applicationId = "no.anagnosis.reader"
         minSdk = libs.versions.android.minSdk.get().toInt()
         targetSdk = libs.versions.android.targetSdk.get().toInt()
-        versionCode = 12
-        versionName = "0.4.0"
+        versionCode = 13
+        versionName = "0.5.0"
     }
     // the texts sold in the app, delivered by Google Play once bought (see packs/antigone)
     assetPacks += listOf("antigone", "ajax", "electra", "odyssey", "symposium", "gorgias", "newtestament").map { ":packs:$it" }

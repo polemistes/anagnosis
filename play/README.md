@@ -22,6 +22,7 @@ work and edition, as given in the text's `about.md` (`product_id`); it can never
 | Electra | sophocles_electra_jebb |
 | Odyssey | homer_odyssey_allen |
 | Symposium | plato_symposium_burnet |
+| Gorgias | plato_gorgias_burnet |
 | New Testament | newtestament_sbl |
 
 1. Payments profile (needed before anything can be sold).
@@ -97,3 +98,12 @@ app/PLAN-speech.md). The listing (listings/reader.md) says so, and has the relea
 the bundle to internal testing first and try it on a phone: the voice and TalkBack have only
 been tested on the emulator, without sound. New screenshots of the play bar and of the word
 sheet with its phonetic line would show the feature; the old ones are still correct.
+
+## Gorgias and bookmarks (reader 0.5.0)
+
+Reader 0.5.0 (version code 13) puts Plato's Gorgias on sale (product plato_gorgias_burnet, pack
+gorgias) and adds bookmarks (app/PLAN-bookmarks.md), which the listing does not mention. The
+listing's text list names the Gorgias with the Symposium, and the release notes for 0.5.0 are in
+listings/reader.md. The product must be active before the update reaches people, or the shop
+shows the Gorgias as not offered. The screenshots of the reading page lack the new bookmark icon
+in the top bar; they are otherwise correct.

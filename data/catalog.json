@@ -86,7 +86,7 @@
     "syntax": "machine-made (GLAUx), not checked by hand",
     "syntax_source": "GLAUx (Alek Keersmaekers, KU Leuven): automatic annotation, not checked by hand",
     "syntax_license": "CC BY-SA 4.0",
-    "google_play": "no",
+    "google_play": "yes",
     "product_id": "plato_gorgias_burnet",
     "version": "b89f9a54f41e39dc"
   },
