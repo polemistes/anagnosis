@@ -24,7 +24,7 @@ def read_batches(directory: Path) -> dict[str, dict]:
     for path in sorted(directory.glob("batch-*.md")):
         stem, section = None, None
         for raw in path.read_text(encoding="utf-8").splitlines():
-            m = re.match(r"^=== (s-\d{4})\s*$", raw)
+            m = re.match(r"^=== ([a-z]-\d{4})\s*$", raw)
             if m:
                 stem = m.group(1)
                 pages[stem] = {"text": [], "apparatus": [], "notes": [], "batch": path.name}

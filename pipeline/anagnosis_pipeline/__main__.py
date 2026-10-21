@@ -28,6 +28,11 @@ def main(argv: list[str] | None = None) -> int:
     sub.add_parser("merge-symposium", help="texts/symposium/ from the transcription (pipeline/transcriptions/symposium/), GLAUx, Jowett and Bury")
     csb = sub.add_parser("check-symposium-batch", help="check Symposium transcription batch files")
     csb.add_argument("files", nargs="+")
+    gp = sub.add_parser("gorgias-pages", help="Burnet's Gorgias by OCR: fetch | ocr | draft (pipeline/build/gorgias-pages/, pipeline/transcriptions/gorgias/)")
+    gp.add_argument("step", choices=["fetch", "ocr", "draft"])
+    cgb = sub.add_parser("check-gorgias-batch", help="check Gorgias transcription batch files")
+    cgb.add_argument("files", nargs="+")
+    sub.add_parser("merge-gorgias", help="texts/gorgias/ from the transcription (pipeline/transcriptions/gorgias/), GLAUx, Jowett and Lodge")
     psp = sub.add_parser("prepare-sophocles-pages", help="page images of Jebb's Sophocles scans for the critical notes and the text check (pipeline/build/sophocles-pages/)")
     psp.add_argument("plays", nargs="*")
     csp = sub.add_parser("check-sophocles-batch", help="check transcription batches of a Sophocles play")
@@ -106,6 +111,27 @@ def main(argv: list[str] | None = None) -> int:
                 print("  " + p)
             bad += len(problems)
         return 1 if bad else 0
+    elif args.cmd == "gorgias-pages":
+        from . import gorgias_pages
+        if args.step == "draft":
+            index = gorgias_pages.write_draft(SOURCES, ROOT / "pipeline" / "transcriptions" / "gorgias")
+            print(f"{len(index)} pages, {sum(p['lines'] for p in index)} lines, {sum(p['flagged'] for p in index)} flagged")
+        else:
+            gorgias_pages.run(args.step)
+    elif args.cmd == "check-gorgias-batch":
+        from .gorgias_merge import check_batch as check_gorgias
+        bad = 0
+        for f in args.files:
+            problems = check_gorgias(Path(f), ROOT / "pipeline" / "build" / "gorgias-pages", SOURCES)
+            print(f"{f}: {len(problems)} remarks")
+            for p in problems:
+                print("  " + p)
+            bad += len(problems)
+        return 1 if bad else 0
+    elif args.cmd == "merge-gorgias":
+        from .gorgias_merge import merge as merge_gorgias
+        return 1 if merge_gorgias(ROOT / "pipeline" / "transcriptions" / "gorgias", ROOT / "pipeline" / "build" / "gorgias-pages",
+                                  TEXTS, SOURCES, DATA / "lexicon.sqlite", ROOT / "pipeline" / "build") else 0
     elif args.cmd == "build-morpheus-forms":
         from .morpheus_forms import build as build_morpheus
         build_morpheus(SOURCES, TEXTS, ROOT / "pipeline" / "build" / "morpheus-analyses.tsv.gz")

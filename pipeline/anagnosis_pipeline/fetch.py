@@ -23,6 +23,7 @@ FILES = {
         for ident in ("homeriopera03home", "homeriopera04home", "homerioperarecog03homeuoft", "homerioperarecog04homeuoft")
         for ext, suffix in (("pdf", ".pdf"), ("txt", "_djvu.txt"))
     },
+    # Burnet's Oxford Plato, vol. III (the Gorgias) is fetched leaf by leaf by gorgias_pages.py
     # Burnet's Oxford Plato, vol. II (the Symposium): a reprint of about 1935 with a good Greek
     # OCR, and the 1910 printing the Perseus text follows, whose OCR reads the Latin
     **{
@@ -40,6 +41,12 @@ FILES = {
         "https://archive.org/download/woodhouse-1910-english-attic-greek-dictionary/Woodhouse_1910_English_Attic-Greek_Dictionary.pdf",
     # GLAUx (CC BY-SA 4.0): automatic lemmas, morphology and syntax of the Symposium
     "glaux/0059-011.xml": f"{RAW}/alekkeersmaekers/glaux/main/xml/0059-011.xml",
+    # ... and of the Gorgias (gorgias_merge.py)
+    "glaux/0059-023.xml": f"{RAW}/alekkeersmaekers/glaux/main/xml/0059-023.xml",
+    # Jowett's Gorgias: the Wikisource text, and the OCR of the 1892 printing whose margin gives
+    # the Stephanus pages that text lacks (gorgias.py)
+    "jowett/gorgias.wiki": "https://en.wikisource.org/w/index.php?title=Gorgias_(Jowett)&action=raw",
+    "jowett/gorgias-1892-scan.txt": "https://archive.org/download/b24750189_0002/b24750189_0002_djvu.txt",
     # ... and of the two Sophocles plays the treebank lacks (sophocles.py)
     "glaux/0011-006.xml": f"{RAW}/alekkeersmaekers/glaux/main/xml/0011-006.xml",
     "glaux/0011-007.xml": f"{RAW}/alekkeersmaekers/glaux/main/xml/0011-007.xml",
@@ -63,6 +70,7 @@ HOPPER_FILES = {
     "Classics/Homer/opensource/hom.od_eng.xml": "odyssey.murray-eng.xml",
     "Classics/Homer/opensource/monro.hom.od_eng.xml": "odyssey-merry-monro-commentary.xml",
     "Classics/Plato/opensource/bury.symp.xml": "symposium-bury-commentary.xml",
+    "Classics/Plato/opensource/lodge.plat.gorg_eng.xml": "gorgias-lodge-commentary.xml",
     # Jebb's Greek text of the other Sophocles plays, and his commentaries (none for the Philoctetes)
     **{f"Classics/Sophocles/opensource/soph.{code}_gk.xml": f"{slug}.perseus-gk.xml"
        for slug, code in (("ajax", "aj"), ("electra", "el"), ("oedipustyrannus", "ot"), ("oedipuscoloneus", "oc"),
