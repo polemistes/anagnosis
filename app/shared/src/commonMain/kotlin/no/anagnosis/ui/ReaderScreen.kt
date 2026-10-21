@@ -1514,7 +1514,7 @@ private fun GreekLineRow(
                 val lineIndex = result.getLineForVerticalPosition(pos.y)
                 // a tap in the blank space to the right of the words is not a tap on a word
                 if (pos.x > result.getLineRight(lineIndex) + 4.dp.toPx()) return null
-                val offset = result.getOffsetForPosition(pos)
+                val offset = result.charAt(pos)
                 return tokens.firstOrNull { offset >= it.start && offset < it.end }
             }
             detectTapGestures(
@@ -1946,7 +1946,7 @@ private fun ProseParagraph(
                 val result = layout ?: return null
                 val lineIndex = result.getLineForVerticalPosition(pos.y)
                 if (pos.x > result.getLineRight(lineIndex) + 4.dp.toPx()) return null
-                val offset = result.getOffsetForPosition(pos)
+                val offset = result.charAt(pos)
                 return words.firstOrNull { offset >= it.first && offset < it.second }?.third
             }
             detectTapGestures(

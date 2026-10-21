@@ -53,7 +53,7 @@ fun HtmlText(
     val taps = if (!greekWords) Modifier else Modifier.pointerInput(text) {
         detectTapGestures { position ->
             val l = layout ?: return@detectTapGestures
-            val offset = l.getOffsetForPosition(position)
+            val offset = l.charAt(position)
             val word = text.getStringAnnotations(GREEK_TAG, offset, offset).firstOrNull() ?: return@detectTapGestures
             // the nearest letter to a tap in the margin is no hit
             if (l.getBoundingBox(offset).inflate(8f).contains(position)) currentOnGreekWord?.invoke(word.item)
