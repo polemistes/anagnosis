@@ -119,8 +119,9 @@ The flags, and what to do:
 * Copy each item as printed: lemma, readings, sigla (B T W P F f and others, as printed; small
   letters for later hands, as printed: `b`, `t`, `f`; superscripts as Unicode superscripts:
   `B²`, `T²`), authorities, Latin. Greek with full accents. Ignore italics.
-* Letters printed small above a word (a variant spelling in a manuscript) are written in
-  parentheses with ss. after the word, as Burnet's Latin: `(suprascr. ὧν f)` stays as printed.
+* Where Burnet says it in words, copy his words: `(suprascr. ὧν f)` stays as printed. Where he
+  prints letters small above a word without words (a variant spelling in a manuscript), write
+  them in parentheses with ss. after the word: `τοτὲ (π ss.) T`.
 * A further item on the same line begins with its lemma alone; it belongs to the line of the
   item before it: give it that line's number.
 * A colon or semicolon is written without a space before it (`B T P: πρόδικος F`).
@@ -132,12 +133,13 @@ The flags, and what to do:
 
 Run, from `pipeline/`:
 
-    .venv/bin/python -m anagnosis_pipeline check-gorgias-batch ../pipeline/transcriptions/gorgias/batch-NN.md
+    .venv/bin/python -m anagnosis_pipeline check-gorgias-batch transcriptions/gorgias/batch-NN.md
 
 It reports numbering that does not run on, apparatus numbers that name a line not on the page,
 pages without an apparatus, elision written with ’ or ᾽, divided words, and every place where
-the words now differ from Perseus (that is, every change you made: each must be one the image
-shows, and noted). Fix what it reports, or explain under `--- notes`.
+the words now differ from Perseus (that is, every change of wording you made: each must be one
+the image shows, and noted). It does not see a word moved to another line or a speaker's name
+added or removed: note those under `--- notes` yourself. Fix what it reports, or explain under `--- notes`.
 
 ## Before you finish
 

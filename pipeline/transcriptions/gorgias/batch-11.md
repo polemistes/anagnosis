@@ -40,7 +40,14 @@
 489d2	τοιοῦτόν τί σε λέγειν τὸ κρεῖττον, καὶ ἀνερωτῶ γλιχόμενος
 489d3	σαφῶς εἰδέναι ὅτι λέγεις. οὐ γὰρ δήπου σύ γε τοὺς δύο
 --- apparatus
+489a2	αὖ F: om. B T P
+489a5	βεβαιώσωμαι T F: βεβαιώσομαι re vera B P
+489b6	νόμον F: τὸν νόμον B T P
+489c4	συλλεγῇ B² T P f: συλλέγῃ B: σὺ λέγη F
+489c6	αὐτὰ] ἄττα ci. Heindorf
 --- notes
+489b8	the unmatched "next printed line" is the top of 489c1 cut into the strip; nothing lost
+489c4	συρφετὸς is printed on this line
 
 === g-0322
 --- text
@@ -82,7 +89,18 @@
 490b6	τῶν δὲ ἀσθενέστερος, ἄλλο τι ἢ οὗτος, φρονιμώτερος ἡμῶν
 490b7	ὤν, βελτίων καὶ κρείττων ἔσται εἰς ταῦτα;
 --- apparatus
+489d6	τί B T P: ὅτι F: τίνας Routh (quos Ficinus)
+489d6	βελτίους W F: βελτίστους B T f
+489e2	μὰ B T P F: οὐ μὰ Hermogenes
+490a5	ῥήματι B T P F: ῥήματα vulg.: ῥημάτια Badham
+490a7	τὸ] τὸν Madvig
+490b2	ἁθρόοι scripsi: ἀνθρόοι F (ἄνθρωποι ὄντες ut videtur f): ἁθρόοι ἄνθρωποι B T: ἄνθρωποι ἁθρόοι P
+490b4	φρονιμώτερος B T P f: φρόνιμος F
+490b6	φρονιμώτατος F
 --- notes
+490a5	θηρεύω— is printed on this line
+490b2	πολλοὶ is printed (OCR lost the first letters)
+490b2	apparatus: the final ι of ἁθρόοι and ἄνθρωποι (B T reading) is worn to a small mark; read as ι
 
 === g-0323
 --- text
@@ -127,6 +145,16 @@
 490e7	τοῦτον δὴ ἴσως δεῖ πλεονεκτεῖν τῶν σπερμάτων καὶ ὡς
 490e8	πλείστῳ σπέρματι χρῆσθαι εἰς τὴν αὑτοῦ γῆν.
 --- apparatus
+490c3	τῷ δὲ B T P F: δὲ τῷ scr. recc.
+490c4	μέλλει T² P: μέλλῃ B T F
+490c7	ὠγαθέ Callicli tribuit Hirschig
+490c8	περὶ B T P F: τί δὲ Vind. 21 et suprascr. b
+490d2	οὐ B F: οὖν T P t
+490d5	δεῖν B F: δεῖ T (sed suprascr. ν): γε δεῖν P
+490d6	οὐ] ἀλλʼ οὐ Cobet
+490d7	καὶ B T P f: om. F
+490e1	φρονιμώτατον F: φρονιμώτερον B T P
+490e4	ἔχων B T P f: λέγων F
 --- notes
 
 === g-0324
@@ -168,7 +196,21 @@
 491d2	ἐστίν, πλέον ἔχειν τούτους τῶν ἄλλων, τοὺς ἄρχοντας τῶν
 491d3	ἀρχομένων.
 --- apparatus
+491a1	ἀτεχνῶς T P F: ἀτέχνως B
+491a2	κναφέας B T P (sed κ ex γ T): γναφέας F (sed κν supra γν f)
+491a2	ὡς] ὥσπερ Baiter
+491a3	ὄντα re vera B P F t: τα T
+491a4	περὶ secl. Hirschig
+491a5	ἢ T P F: om. B (sed suprascr. B²)
+491b5	οὐ ταὐτὰ T P: οὐτʼ αὐτὰ B: οὐ τὰ αὐτὰ F
+491b8	τότε B P F: τοτὲ (π ss.) T
+491c1	βελτίστους P
+491c7	τούτους B T P f: τούτοις F
 --- notes
+491a5	the unmatched "next printed line" is noise between the lines; 491a6 is matched and nothing is lost
+491b7	τοὐναντίον, is printed on this line
+491d1	τοῦτʼ is printed as in Perseus
+491b8	apparatus: T's τοτὲ has a small π printed above its first τ (i.e. πότε); written as "τοτὲ (π ss.) T"
 
 === g-0325
 --- text
@@ -209,7 +251,23 @@
 492b2	ὅσοις ἐξ ἀρχῆς ὑπῆρξεν ἢ βασιλέων ὑέσιν εἶναι ἢ αὐτοὺς τῇ
 492b3	φύσει ἱκανοὺς ἐκπορίσασθαι ἀρχήν τινα ἢ τυραννίδα ἢ δυναστείαν,
 --- apparatus
+491d4	αὑτῶν B T: αὐτῶν W F
+491d4	τί; ἦ τι] τί ἠ τί B: τί ᾒ τί T W F: ὁτιὴ Olympiodorus (Callicli tribuens)
+491d4-5	ἄρχοντας ἢ ἀρχομένους T W F: ἀρχομένους B (ἢ τοὺς ἄρχοντας καὶ ἀρχομένους in marg. rec. b)
+491e3	οὔ secl. Routh
+491e3	ὅστις ἀγνοοίη Alexander
+491e3	οὐ τοῦτο P F Alexander: οὐ τοῦτο ** (sed τοῦ ex emend.) T: ουτω B
+492a2	ἡ] ἐν P
+492a6	πρόσθεν B P F: ἔμπροσθεν T
+492b2	ὅσοις F: θεοῖς B T P: δὲ οἷς W: γε οἷς f et rec. b: τοῖς t
+492b3	ἐκπορίσασθαι B T P: πορίσασθαι F
 --- notes
+491e6	τοῦτʼ is printed as in Perseus
+492a1	διʼ is printed as in Perseus (the OCR misread it)
+492b2	ὅσοις stands at the start of this line; the line is not indented on the page (checked on the whole page): no ¶
+491d4	apparatus: Burnet gives only "d 4" for the item ἄρχοντας ἢ ἀρχομένους, which runs onto 491d5; numbered 491d4-5
+491d4	apparatus: T W F's η is printed with smooth breathing, grave and a mark below (iota subscript): written ᾒ; B's η has a smooth breathing only
+491e3	apparatus: B's ουτω is printed without accents
 
 === g-0326
 --- text
@@ -246,4 +304,20 @@
 ¶
 492e7	{ΣΩ.} Ἀλλὰ μὲν δὴ καὶ ὥς γε σὺ λέγεις δεινὸς ὁ βίος.
 --- apparatus
+492b4	τί ἂν Woolsey: om. B T P F (add. τί in marg. rec. b)
+492b5	καὶ δικαιοσύνης F: om. B T P
+492b6	αὐτοὶ F: αὐτοῖς B T P (sed σ erasum in B)
+492b7	ἑαυτοῖς om. P
+492b7	ἐπάγοιντο P
+492b8	καὶ λόγον secl. ci. Schanz
+492c1	εἴησαν B T P F
+492c1	τοῦ τῆς σωφροσύνης καὶ δικαιοσύνης F
+492c6	ἐστὶν] ἄρα Schanz
+492d7	ἀμόθεν (sic) F: ἄμοθεν f: ἄλλοθέν B T P
+492e2	ἐγώ B T P: λέγω F
+492e5-6	ἂν . . . εἶεν F: ἂν . . . εἰσιν B T P: δὴ . . . εἰσιν Schanz
+492e7	ὡς B T P F Stobaeus: ὧν Badham
+492e7	σὺ B T P: σύ γε F
 --- notes
+492d3	λέγειν is printed as in Perseus
+492e5	Οἱ is printed as in Perseus; εὐδαι-|μονέστατοι is divided on the page and written whole on 492e5

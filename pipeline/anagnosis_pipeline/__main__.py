@@ -32,6 +32,7 @@ def main(argv: list[str] | None = None) -> int:
     gp.add_argument("step", choices=["fetch", "ocr", "draft"])
     cgb = sub.add_parser("check-gorgias-batch", help="check Gorgias transcription batch files")
     cgb.add_argument("files", nargs="+")
+    sub.add_parser("lodge-intro", help="Lodge's introduction to the Gorgias by OCR, with check sheets (pipeline/build/lodge-intro/)")
     sub.add_parser("merge-gorgias", help="texts/gorgias/ from the transcription (pipeline/transcriptions/gorgias/), GLAUx, Jowett and Lodge")
     psp = sub.add_parser("prepare-sophocles-pages", help="page images of Jebb's Sophocles scans for the critical notes and the text check (pipeline/build/sophocles-pages/)")
     psp.add_argument("plays", nargs="*")
@@ -128,6 +129,9 @@ def main(argv: list[str] | None = None) -> int:
                 print("  " + p)
             bad += len(problems)
         return 1 if bad else 0
+    elif args.cmd == "lodge-intro":
+        from .lodge_intro import run as lodge_intro
+        lodge_intro()
     elif args.cmd == "merge-gorgias":
         from .gorgias_merge import merge as merge_gorgias
         return 1 if merge_gorgias(ROOT / "pipeline" / "transcriptions" / "gorgias", ROOT / "pipeline" / "build" / "gorgias-pages",
