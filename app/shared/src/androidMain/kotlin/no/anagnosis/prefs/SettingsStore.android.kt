@@ -19,6 +19,7 @@ actual class SettingsStore(context: Context) {
         greekKeyboard = prefs.getBoolean("greek_keyboard", false),
         noteMarks = prefs.getBoolean("note_marks", true),
         noteTicks = prefs.getBoolean("note_ticks", true),
+        bookmarkTicks = prefs.getBoolean("bookmark_ticks", true),
         showDescription = prefs.getBoolean("show_description", true),
         pronunciation = no.anagnosis.greek.Pronunciation.fromKey(prefs.getString("pronunciation", null)),
         speechSpeed = prefs.getInt("speech_speed", 100).coerceIn(ReaderSettings.MIN_SPEED, ReaderSettings.MAX_SPEED),
@@ -58,6 +59,7 @@ actual class SettingsStore(context: Context) {
             .putBoolean("greek_keyboard", settings.greekKeyboard)
             .putBoolean("note_marks", settings.noteMarks)
             .putBoolean("note_ticks", settings.noteTicks)
+            .putBoolean("bookmark_ticks", settings.bookmarkTicks)
             .putBoolean("show_description", settings.showDescription)
             .putString("pronunciation", settings.pronunciation?.key)
             .putInt("speech_speed", settings.speechSpeed)

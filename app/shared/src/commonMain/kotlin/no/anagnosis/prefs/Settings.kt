@@ -40,6 +40,8 @@ data class ReaderSettings(
     val noteMarks: Boolean = true,
     /** Mark the pages that carry a note on the progress bar. */
     val noteTicks: Boolean = true,
+    /** Mark the pages where a bookmarked sentence starts on the progress bar. */
+    val bookmarkTicks: Boolean = true,
     /** Show the description of the app at the top of the front page. */
     val showDescription: Boolean = true,
     /** The pronunciation of the reading voice for every text; null reads each text in its own. */

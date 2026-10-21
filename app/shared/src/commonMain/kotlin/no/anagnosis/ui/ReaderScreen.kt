@@ -82,6 +82,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.Path
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.draw.drawBehind
 import androidx.compose.ui.graphics.drawscope.DrawScope
@@ -546,6 +547,12 @@ fun ReaderScreen(
         bookmarks.filter { it.line?.id in ids }.map { it.bookmark.id }.toSet()
     }
 
+    // the pages where a bookmarked sentence starts, for the progress bar
+    val bookmarkedPages = remember(pages, bookmarks, settings.bookmarkTicks) {
+        val lineIds = bookmarks.mapNotNull { it.line?.id }.toSet()
+        if (!settings.bookmarkTicks || lineIds.isEmpty()) emptySet()
+        else pages.indices.filter { i -> pages[i].rows.any { it is ReaderRow.GreekLine && it.line.id in lineIds } }.toSet()
+    }
     val notedPages = remember(pages, noteSpans, settings.noteTicks) {
         if (!settings.noteTicks || noteSpans.isEmpty()) emptySet()
         else pages.indices.filter { i -> pages[i].rows.any { it is ReaderRow.GreekLine && it.line.id in noteSpans } }.toSet()
@@ -727,6 +734,7 @@ fun ReaderScreen(
                 compact = compact,
                 scrubbing = scrubPage != null,
                 notedPages = notedPages,
+                bookmarkedPages = bookmarkedPages,
                 noteKinds = data.commentaries.map { it.kind() }.distinct(),
                 onNotes = { pageNotesKind = it },
                 hasMyNotes = notes.isNotEmpty(),
@@ -1649,6 +1657,8 @@ private fun ProgressScrubber(
     scrubbing: Boolean,
     /** Pages carrying one of the reader's notes, marked with a tick on the track. */
     notedPages: Set<Int>,
+    /** Pages where a bookmarked sentence starts, marked with a small triangle above the track. */
+    bookmarkedPages: Set<Int>,
     noteKinds: List<NoteKind>,
     onNotes: (NoteKind) -> Unit,
     /** Whether the text has any of the reader's own notes, which then get a button of their own. */
@@ -1724,6 +1734,14 @@ private fun ProgressScrubber(
                     for (i in notedPages) {
                         val tx = size.width * (i + 0.5f) / count
                         drawLine(primary.copy(alpha = 0.5f), Offset(tx, y - half), Offset(tx, y + half), strokeWidth = 2.dp.toPx())
+                    }
+                    // a bookmark: a small triangle above the track, its point on the track
+                    val w = 4.dp.toPx()
+                    val h = 6.dp.toPx()
+                    for (i in bookmarkedPages) {
+                        val tx = size.width * (i + 0.5f) / count
+                        val top = y - stroke / 2
+                        drawPath(Path().apply { moveTo(tx - w, top - h); lineTo(tx + w, top - h); lineTo(tx, top); close() }, primary)
                     }
                     drawCircle(primary, radius = if (scrubbing) 9.dp.toPx() else 6.dp.toPx(), center = Offset(x, y))
                 }
