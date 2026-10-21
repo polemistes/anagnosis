@@ -23,9 +23,10 @@ class Speech(val pcm: ShortArray, val sampleRate: Int, val wordStarts: IntArray,
 interface SpeechEngine {
     /**
      * Speaks [utterance] into memory at [speed] per cent of the standard speed, in a man's voice
-     * or a woman's ([female]). Blocks: call it off the main thread.
+     * or a woman's ([female]), at [pitch] ([STANDARD_PITCH] is the voice's own; [SPEAKER_PITCH]
+     * the deeper one that names a speaker). Blocks: call it off the main thread.
      */
-    fun synthesize(utterance: Utterance, speed: Int, female: Boolean): Speech
+    fun synthesize(utterance: Utterance, speed: Int, female: Boolean, pitch: Int = STANDARD_PITCH): Speech
     /** Cuts short a synthesis under way on another thread. */
     fun abort()
 }
@@ -55,6 +56,12 @@ const val STANDARD_WPM = 100
 
 /** eSpeak speaks no slower than this; slower speech is stretched in playback. */
 const val MIN_ENGINE_WPM = 80
+
+/** eSpeak's pitch setting for the voice as its file defines it (0 to 99). */
+const val STANDARD_PITCH = 50
+
+/** The pitch a speaker's name is said at before a speech: the same voice, markedly deeper. */
+const val SPEAKER_PITCH = 20
 
 /**
  * How speech at [speed] per cent is made: the engine's words per minute, and the playback speed

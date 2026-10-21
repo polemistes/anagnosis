@@ -22,6 +22,9 @@ object VowelLength {
         return null
     }
 
+    /** A word without a lemma or parse of its own (a speaker's name): marked when all its analyses agree. */
+    fun ofForm(form: String, analyses: List<FormAnalysis>): String? = decide(form, analyses)?.ifEmpty { null }
+
     /** The one marked form the analyses agree on ("" for none), or null when they disagree or are empty. */
     private fun decide(form: String, analyses: List<FormAnalysis>): String? {
         if (analyses.isEmpty()) return null

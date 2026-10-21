@@ -143,6 +143,9 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
         return VowelLength.choose(token.form, token.lemma_key, token.postag, analyses)
     }
 
+    /** A word outside the text (a speaker's name) with its long vowels marked when the analyses agree, or null. */
+    fun markedWord(form: String): String? = VowelLength.ofForm(form, analyse(form, exact = true).ifEmpty { analyse(form) })
+
     /** The tokens of a sentence in text order; a sentence can run over several lines and share a line with another. */
     fun sentenceTokens(data: WorkData, sentence: String): List<Tokens> =
         data.lines.asSequence().flatMap { data.tokensByLine[it.id] ?: emptyList() }.filter { it.sentence == sentence }.toList()

@@ -8,7 +8,7 @@ internal object ESpeakNative {
     init { System.loadLibrary("anagnosisspeech") }
     @JvmStatic external fun init(dataPath: String): Int
     @JvmStatic external fun setVoice(name: String): Boolean
-    @JvmStatic external fun synth(text: String, wpm: Int): ShortArray
+    @JvmStatic external fun synth(text: String, wpm: Int, pitch: Int): ShortArray
     @JvmStatic external fun wordEvents(): IntArray
     @JvmStatic external fun abort()
 }
@@ -56,16 +56,16 @@ class ESpeak private constructor(private val context: Context) {
 
     /**
      * Speaks [text] (eSpeak input; the app sends phonemes in [[ ]]) with [voiceName] ("grc" for
-     * Homeric and Attic, "grc-koine" for Koine) at [wpm] words per minute. Blocks; call it off the
-     * main thread.
+     * Homeric and Attic, "grc-koine" for Koine) at [wpm] words per minute and [pitch] (0 to 99; 50
+     * is the voice's own, lower is deeper). Blocks; call it off the main thread.
      */
-    fun synthesize(text: String, voiceName: String, wpm: Int): Synthesized = synchronized(lock) {
+    fun synthesize(text: String, voiceName: String, wpm: Int, pitch: Int = 50): Synthesized = synchronized(lock) {
         ensureReady()
         if (voice != voiceName) {
             check(ESpeakNative.setVoice(voiceName)) { "eSpeak NG has no voice $voiceName" }
             voice = voiceName
         }
-        val pcm = ESpeakNative.synth(text, wpm)
+        val pcm = ESpeakNative.synth(text, wpm, pitch)
         val ev = ESpeakNative.wordEvents()
         val words = (0 until ev.size / 2).map { ev[2 * it] to ev[2 * it + 1] }
         Synthesized(pcm, sampleRate, words)

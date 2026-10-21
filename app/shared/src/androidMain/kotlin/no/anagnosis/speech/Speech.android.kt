@@ -15,9 +15,9 @@ import no.anagnosis.greek.Utterance
 
 /** eSpeak NG with the Ancient Greek data of Anagnosis (module :espeak). */
 class AndroidSpeechEngine(private val espeak: ESpeak) : SpeechEngine {
-    override fun synthesize(utterance: Utterance, speed: Int, female: Boolean): Speech {
+    override fun synthesize(utterance: Utterance, speed: Int, female: Boolean, pitch: Int): Speech {
         val (wpm, playback) = engineRate(speed)
-        val s = espeak.synthesize(utterance.text, voiceOf(utterance.variant, female), wpm)
+        val s = espeak.synthesize(utterance.text, voiceOf(utterance.variant, female), wpm, pitch)
         return Speech(s.pcm, s.sampleRate, wordStarts(utterance, s.words), playback)
     }
 
@@ -25,8 +25,10 @@ class AndroidSpeechEngine(private val espeak: ESpeak) : SpeechEngine {
 }
 
 /**
- * Plays speech through an AudioTrack in streaming mode: a thread writes the samples, which blocks
- * while the track is paused; the position is the track's playback head.
+ * Plays speech through an AudioTrack in streaming mode: a thread writes the samples, and waits
+ * while the track is paused (a paused track takes nothing, and a write that returns short must
+ * not end the thread, or the rest of the sentence is never heard); the position is the track's
+ * playback head.
  */
 class AudioTrackPlayer(context: Context) : PcmPlayer {
     private val audio = context.getSystemService(Context.AUDIO_SERVICE) as AudioManager
@@ -39,10 +41,17 @@ class AudioTrackPlayer(context: Context) : PcmPlayer {
         .build()
     private var focused = false
 
+    private val lock = Object()
     @Volatile private var track: AudioTrack? = null
     @Volatile private var total = 0
     @Volatile private var stopped = true
+    @Volatile private var paused = false
+    /** The writer has handed the track every sample. */
+    @Volatile private var written = false
     private var writer: Thread? = null
+    // for telling the end on a device whose head stops short of the last sample
+    private var lastHead = -1
+    private var lastHeadAt = 0L
 
     override fun start(speech: Speech) {
         stop()
@@ -66,24 +75,42 @@ class AudioTrackPlayer(context: Context) : PcmPlayer {
         track = t
         total = speech.pcm.size
         stopped = false
+        paused = false
+        written = false
+        lastHead = -1
         t.play()
         writer = Thread {
             var off = 0
             val pcm = speech.pcm
             while (!stopped && off < pcm.size) {
+                if (paused) {
+                    synchronized(lock) { while (paused && !stopped) lock.wait(200) }
+                    continue
+                }
                 val n = t.write(pcm, off, minOf(2048, pcm.size - off))
-                if (n <= 0) break
+                if (n < 0) break  // an error; a short or empty write (the track was paused) is retried
                 off += n
             }
+            written = off >= pcm.size
         }.apply { name = "speech-writer"; start() }
     }
 
-    override fun pause() { track?.pause() }
+    override fun pause() {
+        paused = true
+        track?.pause()
+    }
 
-    override fun resume() { track?.play() }
+    override fun resume() {
+        synchronized(lock) {
+            paused = false
+            lock.notifyAll()
+        }
+        track?.play()
+    }
 
     override fun stop() {
         stopped = true
+        synchronized(lock) { paused = false; lock.notifyAll() }
         val t = track ?: return
         track = null
         runCatching { t.pause(); t.flush(); t.stop() }
@@ -98,7 +125,13 @@ class AudioTrackPlayer(context: Context) : PcmPlayer {
     override val done: Boolean
         get() {
             val t = track ?: return true
-            return t.playbackHeadPosition >= total
+            val head = t.playbackHeadPosition
+            if (head >= total) return true
+            // everything written, nothing paused, and the head has not moved for a while: the end
+            if (!written || paused) { lastHead = -1; return false }
+            val now = System.currentTimeMillis()
+            if (head != lastHead) { lastHead = head; lastHeadAt = now; return false }
+            return now - lastHeadAt > 400
         }
 
     override fun focus(on: Boolean) {

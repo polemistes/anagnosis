@@ -661,6 +661,27 @@ the brief says to ask, the decision taken is recorded here instead, for review.
 * Step 2: the search page's word sheet shows the IPA in the reader's chosen pronunciation, or
   Attic when the choice is "the text's own" (a dictionary word belongs to no text).
 
+* After the author's second try (2026-10-22):
+  * In a play or a dialogue the speaker's full name is said before each speech, in the same voice
+    at eSpeak pitch 20 instead of 50 (about a fifth lower, measured), and the text is not marked
+    while it is said. A play gives the name on the line that begins a speech ("Ἡμιχόριον 1" is
+    said "Ἡμιχόριον πρῶτον"); Plato's abbreviations in braces ({ΚΑΛ.}) are expanded by a table
+    in `speech/Speakers.kt`, which needs a line for each new speaker of a new dialogue.
+  * Read aloud no longer starts at the page shown, which began mid-page whenever a sentence ran
+    over from the page before. It asks "Tap the word to read from" in the top bar, like notes and
+    bookmarks, and reads from the word tapped. Play on the bar goes on with a paused reading, or
+    asks again when there is none. The "Read from here" button left the word sheet; the
+    screen-reader actions stay.
+  * The pause bug: a paused AudioTrack takes no samples, the writer thread took the short write
+    for the end and stopped, and the rest of the sentence was never heard, so the reading hung
+    after play. The writer now waits while paused, and the reading waits for play before it
+    starts the next sentence.
+  * A change of voice, speed or pronunciation in the options is heard at once: the reading is
+    made again from the word being spoken (300 ms after the last change, for the slider).
+  * Checked on the tablet emulator (no sound): the prompt, reading across a change of speaker,
+    three rounds of pause and play, and a change of voice while reading. The sound of the name
+    was not heard.
+
 ## Progress
 
 - [x] Step 1: phonology

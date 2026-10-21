@@ -85,8 +85,6 @@ fun WordSheet(
     pronunciation: Pronunciation? = null,
     /** Speaks the word; null shows no speaker button. */
     onSpeak: (() -> Unit)? = null,
-    /** Starts reading the text aloud at this word; null shows no button. */
-    onReadFromHere: (() -> Unit)? = null,
 ) {
     val state = rememberModalBottomSheetState(skipPartiallyExpanded = true)
     val glossary = info.entries.filter { Dictionaries.isGlossary(it.lexiconSlug) }
@@ -132,7 +130,7 @@ fun WordSheet(
                 glossary.isNotEmpty() -> glossary.forEach { HtmlText(it.html, onGreekWord = onGreekWord) }
                 info.entries.isEmpty() -> Text("No dictionary entry found.", style = MaterialTheme.typography.bodyMedium)
             }
-            if (buttons.isNotEmpty() || onSyntax != null || notes.isNotEmpty() || onOccurrences != null || onReadFromHere != null) {
+            if (buttons.isNotEmpty() || onSyntax != null || notes.isNotEmpty() || onOccurrences != null) {
                 Spacer(Modifier.height(16.dp))
                 FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                     for ((slug, label) in buttons) {
@@ -148,9 +146,6 @@ fun WordSheet(
                     }
                     if (onOccurrences != null) {
                         OutlinedButton(onClick = onOccurrences) { Text("Occurrences") }
-                    }
-                    if (onReadFromHere != null) {
-                        OutlinedButton(onClick = onReadFromHere) { Text("Read from here") }
                     }
                     for ((label, open) in notes) {
                         OutlinedButton(onClick = open) { Text(label) }

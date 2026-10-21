@@ -63,12 +63,13 @@ Java_no_anagnosis_espeak_ESpeakNative_setVoice(JNIEnv *env, jclass cls, jstring 
 }
 
 JNIEXPORT jshortArray JNICALL
-Java_no_anagnosis_espeak_ESpeakNative_synth(JNIEnv *env, jclass cls, jstring text, jint wpm) {
+Java_no_anagnosis_espeak_ESpeakNative_synth(JNIEnv *env, jclass cls, jstring text, jint wpm, jint pitch) {
     const char *t = (*env)->GetStringUTFChars(env, text, NULL);
     n_samples = 0;
     n_events = 0;
     aborting = 0;
     espeak_SetParameter(espeakRATE, wpm, 0);
+    espeak_SetParameter(espeakPITCH, pitch, 0);  /* 0..99, 50 the voice's own */
     espeak_Synth(t, strlen(t) + 1, 0, POS_CHARACTER, 0, espeakCHARS_UTF8 | espeakPHONEMES, NULL, NULL);
     espeak_Synchronize();
     (*env)->ReleaseStringUTFChars(env, text, t);

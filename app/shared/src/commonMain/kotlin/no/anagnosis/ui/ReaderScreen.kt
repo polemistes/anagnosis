@@ -12,6 +12,8 @@ import no.anagnosis.greek.SpeechWord
 import no.anagnosis.greek.Utterance
 import no.anagnosis.greek.Utterances
 import no.anagnosis.speech.ReadAloud
+import no.anagnosis.speech.Speakers
+import no.anagnosis.speech.SpokenPart
 import no.anagnosis.speech.sentencesOf
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
@@ -327,8 +329,11 @@ fun ReaderScreen(
     // A bookmark open in the editor; a new one has id 0 until it is saved.
     var bookmarkEditing by remember { mutableStateOf<Bookmark?>(null) }
     var showBookmarks by remember { mutableStateOf(false) }
+    // Choosing where reading aloud begins: on from Read aloud (or play) until a word is tapped.
+    var choosingRead by remember { mutableStateOf(false) }
     /** While a passage is being chosen for a note: what to tap next, shown in the top bar. */
     val selectionPrompt = when {
+        choosingRead -> "Tap the word to read from"
         bookmarking -> "Tap a word of the sentence to bookmark"
         !selecting -> null
         selectionStart == null -> "Tap the first word of the passage"
@@ -354,6 +359,7 @@ fun ReaderScreen(
     }
     if (selecting) PlatformBackHandler { cancelSelection() }
     if (bookmarking) PlatformBackHandler { bookmarking = false }
+    if (choosingRead) PlatformBackHandler { choosingRead = false }
 
     val translation = data.translations.firstOrNull()
     val allRows = remember(data) { buildRows(data) }
@@ -367,11 +373,14 @@ fun ReaderScreen(
         val segs = translation?.segments ?: emptyList()
         if (currentBook == null) segs else segs.filter { it.from_n_int in currentBook.firstN..currentBook.lastN }
     }
-    // Reading aloud: the book's sentences, each turned into an utterance when its turn comes, in
-    // the reader's pronunciation (or the text's own); a change of pronunciation takes effect at
-    // the next sentence.
+    // Reading aloud: the book's sentences, each turned into its spoken parts when its turn comes,
+    // in the reader's pronunciation (or the text's own); a change of pronunciation is heard at
+    // once. In a dialogue the speaker's name is said, in a deeper voice, before each speech.
     val voice = settings.pronunciation ?: data.pronunciation
     val currentVoice by rememberUpdatedState(voice)
+    var heardVoice by remember { mutableStateOf(voice) }
+    LaunchedEffect(voice) { if (voice != heardVoice) { heardVoice = voice; readAloud?.voiceChanged() } }
+    val speakerCues = remember(data) { Speakers.cues(data.lines, data.tokensByLine) }
     val sentences = remember(data, book) { sentencesOf(bookLines, data.tokensByLine) }
     val sentenceOfToken = remember(sentences) {
         HashMap<Long, Int>().also { m -> sentences.forEachIndexed { i, s -> for (t in s) m[t.id] = i } }
@@ -390,8 +399,24 @@ fun ReaderScreen(
         readAloud?.bind(readKey, sentences.size) { i, fromToken ->
             val tokens = sentences.getOrNull(i) ?: return@bind null
             val from = if (fromToken == null) tokens else tokens.dropWhile { it.id != fromToken }
-            val words = from.map { t -> SpeechWord(t.id, t.line_id, t.form, t.start.toInt(), t.end.toInt(), repository.markedForm(t)) }
-            Utterances.build(words, { data.lineById[it]?.text ?: "" }, currentVoice, verse = !data.prose)
+            val variant = currentVoice
+            val lineText: (Long) -> String = { data.lineById[it]?.text ?: "" }
+            val parts = ArrayList<SpokenPart>()
+            var run = ArrayList<SpeechWord>()
+            fun flush() {
+                if (run.isNotEmpty()) parts += SpokenPart(Utterances.build(run, lineText, variant, verse = !data.prose))
+                run = ArrayList()
+            }
+            for (t in from) {
+                speakerCues[t.id]?.let { name ->
+                    flush()
+                    val words = Speakers.words(name) { repository.markedWord(it) }
+                    parts += SpokenPart(Utterances.build(words, { name }, variant, verse = false), speaker = true)
+                }
+                run += SpeechWord(t.id, t.line_id, t.form, t.start.toInt(), t.end.toInt(), repository.markedForm(t))
+            }
+            flush()
+            parts
         }
     }
     // leaving the text pauses the reading; coming back finds it paused where it was
@@ -402,6 +427,11 @@ fun ReaderScreen(
     fun readFrom(token: Tokens) {
         val i = sentenceOfToken[token.id] ?: return
         readAloud?.start(i, if (sentences[i].first().id == token.id) null else token.id)
+    }
+    /** A tap on a word while choosing where to read from: reading begins at it. */
+    fun pickReadStart(id: Long) {
+        choosingRead = false
+        data.tokenById[id]?.let { readFrom(it) }
     }
     val prevBook = currentBook?.let { b -> data.books.lastOrNull { it.number < b.number } }
     val nextBook = currentBook?.let { b -> data.books.firstOrNull { it.number > b.number } }
@@ -425,7 +455,7 @@ fun ReaderScreen(
             add(WordAction.NOTE)
             add(WordAction.BOOKMARK)
         },
-        onWord = { selectedTokenId = it },
+        onWord = { if (choosingRead) pickReadStart(it) else selectedTokenId = it },
         onAction = { t, action ->
             when (action) {
                 WordAction.READ_SENTENCE -> sentenceOfToken[t.id]?.let { readAloud?.start(it) }
@@ -566,24 +596,22 @@ fun ReaderScreen(
     // a hit in the translation opens the English (unless both stand side by side)
     val mode = chosenMode?.takeIf { it in modes } ?: if (wide) ViewMode.BOTH
         else if (hit?.source == SearchSource.TRANSLATION) ViewMode.TRANSLATION else ViewMode.GREEK
-    /**
-     * Reads aloud from the page shown: from the first sentence that begins on it, or from its first
-     * word when a sentence runs over from the page before. The Greek is shown, for the highlight.
-     */
-    fun readPage() {
-        val ra = readAloud ?: return
+    /** Read aloud: asks for the word to begin at; the Greek is shown, for the tap and the highlight. */
+    fun askReadStart() {
+        if (readAloud == null) return
+        selecting = false
+        selectionStart = null
+        bookmarking = false
+        choosingRead = true
         if (mode == ViewMode.TRANSLATION) chosenMode = ViewMode.GREEK
-        val page = pageAt(pagerState.currentPage) ?: return
-        val first = bookLines.firstOrNull { it.n_int >= page.firstN && !data.tokensByLine[it.id].isNullOrEmpty() } ?: return
-        readFrom(data.tokensByLine.getValue(first.id).first())
     }
-    /** Play on the bar: go on where the reading was paused, or start on the page shown. */
+    /** Play on the bar: go on where the reading was paused, or ask where to begin. */
     fun play() {
         val ra = readAloud ?: return
-        if (ra.key == readKey && ra.open) {
+        if (ra.key == readKey && ra.open && ra.canResume) {
             if (mode == ViewMode.TRANSLATION) chosenMode = ViewMode.GREEK
             ra.resume()
-        } else readPage()
+        } else askReadStart()
     }
     Scaffold(
         topBar = {
@@ -627,8 +655,8 @@ fun ReaderScreen(
                 },
                 actions = {
                     // while a passage is being chosen, the bar offers only the way out
-                    if (selecting || bookmarking) {
-                        TextButton(onClick = { cancelSelection(); bookmarking = false }) { Text("Cancel") }
+                    if (selecting || bookmarking || choosingRead) {
+                        TextButton(onClick = { cancelSelection(); bookmarking = false; choosingRead = false }) { Text("Cancel") }
                         return@TopAppBar
                     }
                     if (translation != null) {
@@ -685,7 +713,7 @@ fun ReaderScreen(
                                 DropdownMenuItem(text = { Text("Search") }, onClick = { showMenu = false; onSearch() })
                                 // the voice reads the Greek: not offered while only the English is shown
                                 if (readAloud?.available == true && mode != ViewMode.TRANSLATION) {
-                                    DropdownMenuItem(text = { Text("Read aloud") }, onClick = { showMenu = false; readPage() })
+                                    DropdownMenuItem(text = { Text("Read aloud") }, onClick = { showMenu = false; askReadStart() })
                                 }
                                 if (documents.isNotEmpty()) {
                                     DropdownMenuItem(text = { Text("About this edition") }, onClick = { showMenu = false; showDocuments = true })
@@ -700,7 +728,7 @@ fun ReaderScreen(
                             }
                         }
                         if (readAloud?.available == true && mode != ViewMode.TRANSLATION) {
-                            IconButton(onClick = { readPage() }) {
+                            IconButton(onClick = { askReadStart() }) {
                                 Icon(Icons.Filled.PlayArrow, contentDescription = "Read aloud")
                             }
                         }
@@ -890,8 +918,8 @@ fun ReaderScreen(
                                     PageContent(
                                         page, styles, data, numberColumn, forcedColumn,
                                         spans = shownSpans,
-                                        onWord = { if (selecting) pickWord(it) else if (bookmarking) pickSentence(it) else selectedTokenId = it },
-                                        onSentence = { token -> if (!selecting && !bookmarking) syntaxSentence = token.sentence },
+                                        onWord = { if (choosingRead) pickReadStart(it) else if (selecting) pickWord(it) else if (bookmarking) pickSentence(it) else selectedTokenId = it },
+                                        onSentence = { token -> if (!selecting && !bookmarking && !choosingRead) syntaxSentence = token.sentence },
                                         showMarks = settings.lineNumbers != LineNumberMode.NONE,
                                         highlight = greekHighlight,
                                     )
@@ -978,9 +1006,6 @@ fun ReaderScreen(
             onGreekWord = lookUp,
             pronunciation = voice,
             onSpeak = speakable(info)?.let { u -> { readAloud?.speakOnce(u) } },
-            onReadFromHere = if (readAloud?.available != true) null else selectedToken?.let { t ->
-                { selectedTokenId = null; if (chosenMode == ViewMode.TRANSLATION) chosenMode = ViewMode.GREEK; readFrom(t) }
-            },
         )
     }
     pageNotesKind?.let { kind ->
