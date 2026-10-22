@@ -107,3 +107,10 @@ listing's text list names the Gorgias with the Symposium, and the release notes 
 listings/reader.md. The product must be active before the update reaches people, or the shop
 shows the Gorgias as not offered. The screenshots of the reading page lack the new bookmark icon
 in the top bar; they are otherwise correct.
+
+Version code 14 (still 0.5.0, 2026-10-22) adds to reading aloud: the speaker's name said before
+each speech, Read aloud asking for the word to begin at, the pause fix, option changes heard at
+once, and two new options, Sentence melody and Klatt voice (see app/PLAN-speech.md). The release
+notes in listings/reader.md are those of 0.5.0 and do not mention these. The bundle was checked
+on the tablet emulator, installed from the bundle with bundletool's local testing: a text opens
+from its pack and is read aloud from a tapped word.
