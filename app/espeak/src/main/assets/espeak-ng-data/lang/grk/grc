@@ -3,6 +3,3 @@ language grc
 // a wider pitch range than the default (82 118), for the pitch accent
 pitch 78 150
 words 1
-// eSpeak's Klatt synthesiser with its fourth voice source, chosen by ear (2026-10-22) as the
-// most pleasant; it needs patches/klatt-frame-loudness.patch for the trill and the stops
-klatt 4

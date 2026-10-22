@@ -18,7 +18,7 @@ from pathlib import Path
 
 # the compiled files the app needs (all languages' phonemes are in phondata; it is small)
 DATA_FILES = ["phontab", "phonindex", "phondata", "intonations", "grc_dict"]
-VOICES = {"grc": "lang/grk/grc", "grc-koine": "lang/grk/grc-koine", "grc-f": "lang/grk/grc-f", "grc-koine-f": "lang/grk/grc-koine-f"}
+VOICES = {name: f"lang/grk/{name}" for name in ("grc", "grc-koine", "grc-f", "grc-koine-f", "grc-klatt", "grc-koine-klatt", "grc-f-klatt", "grc-koine-f-klatt")}
 
 
 def _host_espeak(clone: Path) -> Path:

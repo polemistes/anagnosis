@@ -15,9 +15,9 @@ import no.anagnosis.greek.Utterance
 
 /** eSpeak NG with the Ancient Greek data of Anagnosis (module :espeak). */
 class AndroidSpeechEngine(private val espeak: ESpeak) : SpeechEngine {
-    override fun synthesize(utterance: Utterance, speed: Int, female: Boolean, pitch: Int): Speech {
+    override fun synthesize(utterance: Utterance, speed: Int, female: Boolean, klatt: Boolean, pitch: Int): Speech {
         val (wpm, playback) = engineRate(speed)
-        val s = espeak.synthesize(utterance.text, voiceOf(utterance.variant, female), wpm, pitch)
+        val s = espeak.synthesize(utterance.text, voiceOf(utterance.variant, female, klatt), wpm, pitch)
         return Speech(s.pcm, s.sampleRate, wordStarts(utterance, s.words), playback)
     }
 

@@ -59,6 +59,9 @@ class ReadAloud(private val scope: CoroutineScope) {
     /** A woman's voice or a man's; a change is heard at once. */
     var female: Boolean = false
         set(v) { if (field != v) { field = v; voiceChanged() } }
+    /** eSpeak's Klatt synthesiser instead of the formant one; a change is heard at once. */
+    var klatt: Boolean = false
+        set(v) { if (field != v) { field = v; voiceChanged() } }
 
     /** The text and book being read ("slug/book"), or null. */
     var key by mutableStateOf<String?>(null)
@@ -167,7 +170,7 @@ class ReadAloud(private val scope: CoroutineScope) {
         stopPlayback()
         jobReads = false
         job = scope.launch {
-            val speech = withContext(Dispatchers.Default) { engine.synthesize(utterance, speed, female) }
+            val speech = withContext(Dispatchers.Default) { engine.synthesize(utterance, speed, female, klatt) }
             player.focus(true)
             player.start(speech)
             while (!player.done) delay(50)
@@ -196,7 +199,7 @@ class ReadAloud(private val scope: CoroutineScope) {
             val parts = prep(i, tok) ?: return@async null
             parts.map { p ->
                 val pitch = if (p.speaker) SPEAKER_PITCH else STANDARD_PITCH
-                p to (if (p.utterance.words.isEmpty()) null else engine.synthesize(p.utterance, speed, female, pitch))
+                p to (if (p.utterance.words.isEmpty()) null else engine.synthesize(p.utterance, speed, female, klatt, pitch))
             }
         }
         player.focus(true)

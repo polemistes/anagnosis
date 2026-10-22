@@ -23,10 +23,11 @@ class Speech(val pcm: ShortArray, val sampleRate: Int, val wordStarts: IntArray,
 interface SpeechEngine {
     /**
      * Speaks [utterance] into memory at [speed] per cent of the standard speed, in a man's voice
-     * or a woman's ([female]), at [pitch] ([STANDARD_PITCH] is the voice's own; [SPEAKER_PITCH]
-     * the deeper one that names a speaker). Blocks: call it off the main thread.
+     * or a woman's ([female]), by the formant synthesiser or the Klatt one ([klatt]), at [pitch]
+     * ([STANDARD_PITCH] is the voice's own; [SPEAKER_PITCH] the deeper one that names a
+     * speaker). Blocks: call it off the main thread.
      */
-    fun synthesize(utterance: Utterance, speed: Int, female: Boolean, pitch: Int = STANDARD_PITCH): Speech
+    fun synthesize(utterance: Utterance, speed: Int, female: Boolean, klatt: Boolean = false, pitch: Int = STANDARD_PITCH): Speech
     /** Cuts short a synthesis under way on another thread. */
     fun abort()
 }
@@ -47,9 +48,12 @@ interface PcmPlayer {
     fun release()
 }
 
-/** The engine's voice for a pronunciation: Homeric and Attic share the tonal voice. */
-fun voiceOf(p: Pronunciation, female: Boolean = false): String =
-    (if (p == Pronunciation.KOINE) "grc-koine" else "grc") + (if (female) "-f" else "")
+/**
+ * The engine's voice for a pronunciation: Homeric and Attic share the tonal voice; a woman's
+ * ends in -f, and one spoken by eSpeak's Klatt synthesiser in -klatt (app/espeak/voices).
+ */
+fun voiceOf(p: Pronunciation, female: Boolean = false, klatt: Boolean = false): String =
+    (if (p == Pronunciation.KOINE) "grc-koine" else "grc") + (if (female) "-f" else "") + (if (klatt) "-klatt" else "")
 
 /** The standard speed, 100 per cent: words per minute. */
 const val STANDARD_WPM = 100

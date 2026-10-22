@@ -1,0 +1,19 @@
+name Koine Greek (woman, Klatt)
+// as grc-koine-f with Klatt, four semitones lower, as grc-f-klatt
+// as grc-koine, a woman's voice (see grc-f)
+language el
+phonemes grc
+dictionary grc
+pitch 128 203
+roughness 3
+formant 0 105  80 150
+formant 1 110  80 160
+formant 2 110  70 150
+formant 3 110  70 150
+formant 4 115  80 150
+formant 5 115  80 150
+formant 6 110  70 150
+formant 7 110  70 150
+formant 8 110  70 150
+words 1
+klatt 4

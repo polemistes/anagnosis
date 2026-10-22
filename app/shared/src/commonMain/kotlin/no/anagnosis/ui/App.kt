@@ -75,6 +75,7 @@ fun App(
     readAloud.player = pcmPlayer
     readAloud.speed = settings.speechSpeed
     readAloud.female = settings.femaleVoice
+    readAloud.klatt = settings.klattVoice
     DisposableEffect(Unit) { onDispose { readAloud.close(); pcmPlayer?.release() } }
     var showIntro by remember { mutableStateOf(false) }
     val systemDark = isSystemInDarkTheme()

@@ -1,0 +1,19 @@
+name Ancient Greek (woman, Klatt)
+// as grc-f with Klatt, set four semitones lower: at grc-f's pitch the Klatt voice was too high
+// to take the rise of the accent (the author, 2026-10-22)
+language grc
+// as grc, a woman's voice: the formants of eSpeak's female2 variant, and a pitch range of the
+// same width as the man's (78 150), for the pitch accent
+pitch 120 230
+roughness 3
+formant 0 105  80 150
+formant 1 110  80 160
+formant 2 110  70 150
+formant 3 110  70 150
+formant 4 115  80 150
+formant 5 115  80 150
+formant 6 110  70 150
+formant 7 110  70 150
+formant 8 110  70 150
+words 1
+klatt 4

@@ -43,6 +43,9 @@ class SpeechTest {
         assertEquals("grc-koine", voiceOf(Pronunciation.KOINE))
         assertEquals("grc-f", voiceOf(Pronunciation.ATTIC, female = true))
         assertEquals("grc-koine-f", voiceOf(Pronunciation.KOINE, female = true))
+        assertEquals("grc-klatt", voiceOf(Pronunciation.HOMERIC, klatt = true))
+        assertEquals("grc-f-klatt", voiceOf(Pronunciation.ATTIC, female = true, klatt = true))
+        assertEquals("grc-koine-f-klatt", voiceOf(Pronunciation.KOINE, female = true, klatt = true))
     }
 
     @Test

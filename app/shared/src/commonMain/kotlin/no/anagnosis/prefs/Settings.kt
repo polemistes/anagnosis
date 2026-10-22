@@ -50,6 +50,8 @@ data class ReaderSettings(
     val speechSpeed: Int = 100,
     /** The reading voice is a woman's rather than a man's. */
     val femaleVoice: Boolean = false,
+    /** The reading voice is made by eSpeak's Klatt synthesiser (darker, softer) rather than the formant one. */
+    val klattVoice: Boolean = false,
     /** Homeric and Attic: the pitch steps down over each sentence, falls at its end and rises before a question mark (see Melody). */
     val sentenceMelody: Boolean = false,
     /** With a screen reader: whole lines with look-up actions (for braille) instead of words one by one. */

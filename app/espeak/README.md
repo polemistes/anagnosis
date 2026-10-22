@@ -20,10 +20,12 @@ What is here:
   (0 low, 1 high, 2 rising, 3 falling), with the same four at three more levels (10-13, 20-23,
   30-33) and two sentence ends (40 a final fall, 41 a final rise) for the reader's sentence
   melody option (`greek/Melody.kt`).
-* `voices/grc` (Homeric and Attic: tonal, spoken by eSpeak's Klatt synthesiser with its fourth
-  voice source, `klatt 4`, chosen by ear) and `voices/grc-koine` (Koine: the Modern Greek
-  translator, so stress and stress intonation, with our phonemes, and the formant synthesiser,
-  which the author preferred for this voice).
+* `voices/grc` (Homeric and Attic: tonal) and `voices/grc-koine` (Koine: the Modern Greek
+  translator, so stress and stress intonation, with our phonemes), each with a woman's voice
+  (`-f`) and a Klatt variant (`-klatt`, `-f-klatt`): eSpeak's Klatt synthesiser with its fourth
+  voice source, which the reader's option "Klatt voice" chooses (darker and softer; the author
+  likes it for the man's Homeric and Attic voice). The Klatt women are set four semitones lower,
+  since at the formant voices' pitch Klatt was too high to take the rise of the accent.
 * `dictsource/`: an empty Ancient Greek dictionary; eSpeak needs one to exist.
 * `src/main/cpp`: the native build (the library only, no audio output) and a small JNI layer
   that synthesises one utterance into memory with its word events.

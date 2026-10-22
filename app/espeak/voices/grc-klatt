@@ -1,0 +1,8 @@
+name Ancient Greek (Klatt)
+// as grc, spoken by eSpeak's Klatt synthesiser with its fourth voice source (the reader's
+// option "Klatt voice"); it needs patches/klatt-frame-loudness.patch for the trill and the stops
+language grc
+// a wider pitch range than the default (82 118), for the pitch accent
+pitch 78 150
+words 1
+klatt 4
