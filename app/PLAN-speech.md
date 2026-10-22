@@ -682,6 +682,37 @@ the brief says to ask, the decision taken is recorded here instead, for review.
     three rounds of pause and play, and a change of voice while reading. The sound of the name
     was not heard.
 
+* The voice's sound (2026-10-22, from listening samples the author judged; the samples and
+  their making are described in pipeline/build/speech-samples/variants/README.txt, not kept in git):
+  * Homeric and Attic are spoken by eSpeak's Klatt synthesiser with its fourth voice source
+    (`klatt 4` in voices/grc and grc-f), which the author found the most pleasant of eSpeak's
+    sounds. Klatt was not compiled into the app before; it is now (klatt.c in the native build,
+    USE_KLATT 1 in config.h, and -DUSE_KLATT=ON for the host build the pipeline compiles the
+    data with). eSpeak's other tweaks (equaliser, breath, flutter, echo, softer consonants)
+    were offered as samples and not chosen.
+  * Klatt spoke the rolled r as one tap: eSpeak's Klatt path ignores the loudness of each
+    frame of a sound, which the formant path speaks through the formant heights, so the quiet
+    formant hum of the trill (whose taps are a recorded burst mixed in) played at full voice
+    and covered the taps, and the burst was played once rather than looped for the sound's
+    length. patches/klatt-frame-loudness.patch makes Klatt follow the frames' loudness (as a
+    change in dB against the loudest vowel frames, rms 82), loop the burst, and mix it at the
+    formant path's level. Nasals, l and the closures of b d g are quieter than vowels with it,
+    as in the formant voice. The current trill (base1/R) was preferred to the Russian one.
+  * Koine keeps the formant synthesiser: with Klatt (any source, with or without the patch)
+    the author found the New Testament full of artifacts and "demonic"; its voiced fricatives
+    v ð ɣ z, which Attic hardly has, and the Modern Greek stress melody are the likely reasons.
+  * Sentence melody, an option (off by default): the pitch steps down over each stretch
+    between pauses in four levels (+18, +9, 0, -9 on eSpeak's 0-100 scale, about four
+    semitones over a sentence), a stretch after a comma or a verse end starting one level
+    lower; an unaccented last syllable falls to the bottom before a full stop and rises before
+    a question mark; the accents keep their shapes. ph_grc gives the four tones at the three
+    more levels (10-13, 20-23, 30-33) and the two ends (40, 41); greek/Melody.kt moves the
+    tone digits; Utterances.build applies it for Homeric and Attic when the setting is on.
+    eSpeak itself applies no declination to a tone language, which is why every sentence had
+    the same tune. A gentler descent (two and a half semitones) was offered and not chosen.
+  * The woman's voice got the same Klatt setting; its sound was not judged by the author
+    before shipping (final-woman-*.wav in the samples folder).
+
 ## Progress
 
 - [x] Step 1: phonology

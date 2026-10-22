@@ -33,6 +33,83 @@ phoneme 3   // circumflex: falling from high
 endphoneme
 
 
+// ---- the sentence melody (an option in the reader, see greek/Melody.kt) ---------------------
+// The four tones above at three more levels, so that the pitch can step down over a sentence:
+// level 1 (the highest, where a sentence begins) is +18, level 2 is +9, the tones above are
+// level 3, and level 4 (the lowest) is -9. Then a final fall before a full stop and a final
+// rise before a question mark, for an unaccented last syllable.
+
+phoneme 10   // no accent, level 1
+  stress
+  Tone(32, 30, envelope/p_level, NULL)
+endphoneme
+
+phoneme 11   // acute on a short vowel, level 1
+  stress
+  Tone(74, 84, envelope/p_rise, NULL)
+endphoneme
+
+phoneme 12   // acute on a long vowel or diphthong, level 1
+  stress
+  Tone(32, 90, envelope/p_level, NULL)
+endphoneme
+
+phoneme 13   // circumflex, level 1
+  stress
+  Tone(90, 28, envelope/p_fall, NULL)
+endphoneme
+
+phoneme 20   // no accent, level 2
+  stress
+  Tone(23, 21, envelope/p_level, NULL)
+endphoneme
+
+phoneme 21   // acute on a short vowel, level 2
+  stress
+  Tone(65, 75, envelope/p_rise, NULL)
+endphoneme
+
+phoneme 22   // acute on a long vowel or diphthong, level 2
+  stress
+  Tone(23, 81, envelope/p_level, NULL)
+endphoneme
+
+phoneme 23   // circumflex, level 2
+  stress
+  Tone(81, 19, envelope/p_fall, NULL)
+endphoneme
+
+phoneme 30   // no accent, level 4
+  stress
+  Tone(5, 3, envelope/p_level, NULL)
+endphoneme
+
+phoneme 31   // acute on a short vowel, level 4
+  stress
+  Tone(47, 57, envelope/p_rise, NULL)
+endphoneme
+
+phoneme 32   // acute on a long vowel or diphthong, level 4
+  stress
+  Tone(5, 63, envelope/p_level, NULL)
+endphoneme
+
+phoneme 33   // circumflex, level 4
+  stress
+  Tone(63, 1, envelope/p_fall, NULL)
+endphoneme
+
+phoneme 40   // the last syllable before a full stop, unaccented: falls to the bottom
+  stress
+  Tone(8, 0, envelope/p_fall, NULL)
+endphoneme
+
+phoneme 41   // the last syllable before a question mark, unaccented: rises
+  stress
+  Tone(10, 44, envelope/p_rise, NULL)
+endphoneme
+
+
 // ---- short vowels -------------------------------------------------------------------------
 
 phoneme a

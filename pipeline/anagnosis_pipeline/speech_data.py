@@ -27,7 +27,7 @@ def _host_espeak(clone: Path) -> Path:
         return exe
     print("building eSpeak NG for this computer (build-host)", file=sys.stderr)
     subprocess.run(["cmake", "-B", "build-host", "-DUSE_MBROLA=OFF", "-DUSE_LIBSONIC=OFF", "-DUSE_LIBPCAUDIO=OFF",
-                    "-DUSE_KLATT=OFF", "-DUSE_SPEECHPLAYER=OFF", "-DUSE_ASYNC=OFF", "-DESPEAK_BUILD_MANPAGES=OFF",
+                    "-DUSE_KLATT=ON", "-DUSE_SPEECHPLAYER=OFF", "-DUSE_ASYNC=OFF", "-DESPEAK_BUILD_MANPAGES=OFF",
                     "-DBUILD_TESTING=OFF", "-DEXTRA_ru=OFF", "-DEXTRA_cmn=OFF", "-DEXTRA_yue=OFF"], cwd=clone, check=True)
     subprocess.run(["cmake", "--build", "build-host", "--target", "espeak-ng-bin", "-j8"], cwd=clone, check=True)
     return exe

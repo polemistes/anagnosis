@@ -378,8 +378,12 @@ fun ReaderScreen(
     // once. In a dialogue the speaker's name is said, in a deeper voice, before each speech.
     val voice = settings.pronunciation ?: data.pronunciation
     val currentVoice by rememberUpdatedState(voice)
-    var heardVoice by remember { mutableStateOf(voice) }
-    LaunchedEffect(voice) { if (voice != heardVoice) { heardVoice = voice; readAloud?.voiceChanged() } }
+    val currentMelody by rememberUpdatedState(settings.sentenceMelody)
+    var heardVoice by remember { mutableStateOf(voice to settings.sentenceMelody) }
+    LaunchedEffect(voice, settings.sentenceMelody) {
+        val now = voice to settings.sentenceMelody
+        if (now != heardVoice) { heardVoice = now; readAloud?.voiceChanged() }
+    }
     val speakerCues = remember(data) { Speakers.cues(data.lines, data.tokensByLine) }
     val sentences = remember(data, book) { sentencesOf(bookLines, data.tokensByLine) }
     val sentenceOfToken = remember(sentences) {
@@ -404,7 +408,7 @@ fun ReaderScreen(
             val parts = ArrayList<SpokenPart>()
             var run = ArrayList<SpeechWord>()
             fun flush() {
-                if (run.isNotEmpty()) parts += SpokenPart(Utterances.build(run, lineText, variant, verse = !data.prose))
+                if (run.isNotEmpty()) parts += SpokenPart(Utterances.build(run, lineText, variant, verse = !data.prose, melody = currentMelody))
                 run = ArrayList()
             }
             for (t in from) {

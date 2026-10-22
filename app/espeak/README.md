@@ -9,13 +9,21 @@ sound.
 What is here:
 
 * `fetch-espeak.sh` clones eSpeak NG 1.52.0 into `espeak-ng/` (ignored by git) and applies
-  `patches/`. One patch: `grc-tone-language.patch` makes Ancient Greek a tone language, so that
-  the pitch accent of Homeric and Attic Greek is spoken with tone phonemes, as Vietnamese is.
+  `patches/`. Two patches: `grc-tone-language.patch` makes Ancient Greek a tone language, so that
+  the pitch accent of Homeric and Attic Greek is spoken with tone phonemes, as Vietnamese is;
+  `klatt-frame-loudness.patch` makes eSpeak's Klatt synthesiser follow the loudness of the
+  sound frames (as the formant synthesiser does through the formant heights), loop a mixed-in
+  recording for the length of its sound, and mix it at the formant synthesiser's level. Without
+  it the rolled r was one tap and the closures of b d g were spoken at full voice.
 * `phsource/ph_grc`: the Ancient Greek phoneme table (replaces eSpeak's own
   `ph_greek_ancient`): short and long vowels, diphthongs, aspirated stops, and four tones
-  (0 low, 1 high, 2 rising, 3 falling).
-* `voices/grc` (Homeric and Attic: tonal) and `voices/grc-koine` (Koine: the Modern Greek
-  translator, so stress and stress intonation, with our phonemes).
+  (0 low, 1 high, 2 rising, 3 falling), with the same four at three more levels (10-13, 20-23,
+  30-33) and two sentence ends (40 a final fall, 41 a final rise) for the reader's sentence
+  melody option (`greek/Melody.kt`).
+* `voices/grc` (Homeric and Attic: tonal, spoken by eSpeak's Klatt synthesiser with its fourth
+  voice source, `klatt 4`, chosen by ear) and `voices/grc-koine` (Koine: the Modern Greek
+  translator, so stress and stress intonation, with our phonemes, and the formant synthesiser,
+  which the author preferred for this voice).
 * `dictsource/`: an empty Ancient Greek dictionary; eSpeak needs one to exist.
 * `src/main/cpp`: the native build (the library only, no audio output) and a small JNI layer
   that synthesises one utterance into memory with its word events.

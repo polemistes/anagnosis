@@ -1,7 +1,8 @@
 # eSpeak NG (GPL-3.0-or-later) for the reader's voice, built from the checkout made by
 # app/espeak/fetch-espeak.sh. Only the library is compiled (no command-line tool, no data: the
-# data is compiled by the pipeline, see build-speech-data), with Klatt, speechPlayer, MBROLA,
-# libsonic, audio output and the asynchronous API left out: the app synthesises into memory.
+# data is compiled by the pipeline, see build-speech-data), with speechPlayer, MBROLA, libsonic,
+# audio output and the asynchronous API left out: the app synthesises into memory. The Klatt
+# synthesiser is in: the Homeric and Attic voices use it (voices/grc, "klatt 4").
 cmake_minimum_required(VERSION 3.22)
 project(anagnosisspeech C)
 
@@ -29,7 +30,7 @@ add_library(espeak-ng STATIC
   ${LIB}/phoneme.c ${LIB}/phonemelist.c ${LIB}/readclause.c ${LIB}/setlengths.c ${LIB}/soundicon.c
   ${LIB}/spect.c ${LIB}/ssml.c ${LIB}/synthdata.c ${LIB}/synthesize.c ${LIB}/tr_languages.c
   ${LIB}/translate.c ${LIB}/translateword.c ${LIB}/voices.c ${LIB}/wavegen.c ${LIB}/speech.c
-  ${LIB}/espeak_api.c
+  ${LIB}/espeak_api.c ${LIB}/klatt.c
 )
 set_property(TARGET espeak-ng PROPERTY POSITION_INDEPENDENT_CODE ON)
 # config.h as eSpeak's configure step writes it for these options

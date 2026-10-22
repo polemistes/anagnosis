@@ -63,14 +63,18 @@ class Utterance(val words: List<UtteranceWord>, val variant: Pronunciation) {
 object Utterances {
     private val LONG_STOPS = setOf('.', '·', '·', ';', ';', '!', ':', '?')
     private val SHORT_STOPS = setOf(',', '—', '–')
+    /** The Greek question mark and the semicolon that stands for it. */
+    private val QUESTION_MARKS = setOf(';', ';')
 
     /**
      * The utterance of [words] (in reading order), with pauses from the punctuation that follows
      * each word in its line. [lineText] gives a line's text by id; with [verse] the end of a line
-     * is a short pause.
+     * is a short pause. With [melody] the sentence melody of [Melody] is laid over the tones
+     * (Homeric and Attic; Koine has eSpeak's stress melody already).
      */
-    fun build(words: List<SpeechWord>, lineText: (Long) -> String, variant: Pronunciation, verse: Boolean): Utterance {
+    fun build(words: List<SpeechWord>, lineText: (Long) -> String, variant: Pronunciation, verse: Boolean, melody: Boolean = false): Utterance {
         val out = ArrayList<UtteranceWord>()
+        val questions = ArrayList<Boolean>()
         for ((i, w) in words.withIndex()) {
             val segs = Phonology.segments(w.form, w.marked, variant)
             if (segs.isEmpty()) continue
@@ -88,6 +92,11 @@ object Utterances {
             if (pause == Pause.NONE && Phonology.isElided(w.form) && next != null) pause = Pause.JOIN
             if (next == null && pause == Pause.NONE) pause = Pause.SHORT
             out += UtteranceWord(w.tokenId, w.lineId, w.start, w.end, Phonology.espeak(segs, variant), pause)
+            questions += after.any { it in QUESTION_MARKS }
+        }
+        if (melody && variant != Pronunciation.KOINE) {
+            val moved = Melody.apply(out.map { it.phonemes }, out.map { it.pause }, questions)
+            return Utterance(out.mapIndexed { i, w -> UtteranceWord(w.tokenId, w.lineId, w.start, w.end, moved[i], w.pause) }, variant)
         }
         return Utterance(out, variant)
     }
