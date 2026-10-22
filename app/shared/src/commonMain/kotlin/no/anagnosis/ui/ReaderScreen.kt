@@ -379,9 +379,10 @@ fun ReaderScreen(
     val voice = settings.pronunciation ?: data.pronunciation
     val currentVoice by rememberUpdatedState(voice)
     val currentMelody by rememberUpdatedState(settings.sentenceMelody)
-    var heardVoice by remember { mutableStateOf(voice to settings.sentenceMelody) }
-    LaunchedEffect(voice, settings.sentenceMelody) {
-        val now = voice to settings.sentenceMelody
+    val currentSpeakers by rememberUpdatedState(settings.speakSpeakers)
+    var heardVoice by remember { mutableStateOf(Triple(voice, settings.sentenceMelody, settings.speakSpeakers)) }
+    LaunchedEffect(voice, settings.sentenceMelody, settings.speakSpeakers) {
+        val now = Triple(voice, settings.sentenceMelody, settings.speakSpeakers)
         if (now != heardVoice) { heardVoice = now; readAloud?.voiceChanged() }
     }
     val speakerCues = remember(data) { Speakers.cues(data.lines, data.tokensByLine) }
@@ -412,7 +413,7 @@ fun ReaderScreen(
                 run = ArrayList()
             }
             for (t in from) {
-                speakerCues[t.id]?.let { name ->
+                if (currentSpeakers) speakerCues[t.id]?.let { name ->
                     flush()
                     val words = Speakers.words(name) { repository.markedWord(it) }
                     parts += SpokenPart(Utterances.build(words, { name }, variant, verse = false), speaker = true)

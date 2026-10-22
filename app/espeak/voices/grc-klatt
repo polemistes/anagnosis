@@ -3,6 +3,7 @@ name Ancient Greek (Klatt)
 // option "Klatt voice"); it needs patches/klatt-frame-loudness.patch for the trill and the stops
 language grc
 // a wider pitch range than the default (82 118), for the pitch accent
-pitch 78 150
+// two semitones above grc (78 150): the Klatt man was found a bit too low (2026-10-22)
+pitch 88 168
 words 1
 klatt 4

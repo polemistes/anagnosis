@@ -50,6 +50,8 @@ data class ReaderSettings(
     val speechSpeed: Int = 100,
     /** The reading voice is a woman's rather than a man's. */
     val femaleVoice: Boolean = false,
+    /** In a play or a dialogue, reading aloud says the speaker's name before each speech. */
+    val speakSpeakers: Boolean = true,
     /** The reading voice is made by eSpeak's Klatt synthesiser (darker, softer) rather than the formant one. */
     val klattVoice: Boolean = false,
     /** Homeric and Attic: the pitch steps down over each sentence, falls at its end and rises before a question mark (see Melody). */

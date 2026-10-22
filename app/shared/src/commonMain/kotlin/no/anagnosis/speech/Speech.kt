@@ -24,7 +24,7 @@ interface SpeechEngine {
     /**
      * Speaks [utterance] into memory at [speed] per cent of the standard speed, in a man's voice
      * or a woman's ([female]), by the formant synthesiser or the Klatt one ([klatt]), at [pitch]
-     * ([STANDARD_PITCH] is the voice's own; [SPEAKER_PITCH] the deeper one that names a
+     * ([STANDARD_PITCH] is the voice's own; [speakerPitch] the one that names a
      * speaker). Blocks: call it off the main thread.
      */
     fun synthesize(utterance: Utterance, speed: Int, female: Boolean, klatt: Boolean = false, pitch: Int = STANDARD_PITCH): Speech
@@ -64,8 +64,12 @@ const val MIN_ENGINE_WPM = 80
 /** eSpeak's pitch setting for the voice as its file defines it (0 to 99). */
 const val STANDARD_PITCH = 50
 
-/** The pitch a speaker's name is said at before a speech: the same voice, markedly deeper. */
-const val SPEAKER_PITCH = 20
+/**
+ * The pitch a speaker's name is said at before a speech, set apart from the voice: a man's
+ * names about 2.5 semitones higher (deeper ones were too low to hear well), a woman's about
+ * 3.5 semitones lower.
+ */
+fun speakerPitch(female: Boolean): Int = if (female) 20 else 70
 
 /**
  * How speech at [speed] per cent is made: the engine's words per minute, and the playback speed

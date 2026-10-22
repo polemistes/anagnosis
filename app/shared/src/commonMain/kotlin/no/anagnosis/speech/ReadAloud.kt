@@ -198,7 +198,7 @@ class ReadAloud(private val scope: CoroutineScope) {
         fun synth(i: Int, tok: Long?): Deferred<List<Pair<SpokenPart, Speech?>>?> = async(Dispatchers.Default) {
             val parts = prep(i, tok) ?: return@async null
             parts.map { p ->
-                val pitch = if (p.speaker) SPEAKER_PITCH else STANDARD_PITCH
+                val pitch = if (p.speaker) speakerPitch(female) else STANDARD_PITCH
                 p to (if (p.utterance.words.isEmpty()) null else engine.synthesize(p.utterance, speed, female, klatt, pitch))
             }
         }

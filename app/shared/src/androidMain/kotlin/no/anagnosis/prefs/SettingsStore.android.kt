@@ -25,6 +25,7 @@ actual class SettingsStore(context: Context) {
         speechSpeed = prefs.getInt("speech_speed", 100).coerceIn(ReaderSettings.MIN_SPEED, ReaderSettings.MAX_SPEED),
         femaleVoice = prefs.getBoolean("female_voice", false),
         klattVoice = prefs.getBoolean("klatt_voice", false),
+        speakSpeakers = prefs.getBoolean("speak_speakers", true),
         sentenceMelody = prefs.getBoolean("sentence_melody", false),
         screenReaderLines = prefs.getBoolean("screen_reader_lines", false),
     )
@@ -67,6 +68,7 @@ actual class SettingsStore(context: Context) {
             .putInt("speech_speed", settings.speechSpeed)
             .putBoolean("female_voice", settings.femaleVoice)
             .putBoolean("klatt_voice", settings.klattVoice)
+            .putBoolean("speak_speakers", settings.speakSpeakers)
             .putBoolean("sentence_melody", settings.sentenceMelody)
             .remove("speech_rate")
             .putBoolean("screen_reader_lines", settings.screenReaderLines)

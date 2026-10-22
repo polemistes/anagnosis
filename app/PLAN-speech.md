@@ -714,6 +714,13 @@ the brief says to ask, the decision taken is recorded here instead, for review.
     tone digits; Utterances.build applies it for Homeric and Attic when the setting is on.
     eSpeak itself applies no declination to a tone language, which is why every sentence had
     the same tune. A gentler descent (two and a half semitones) was offered and not chosen.
+  * After version code 14 (2026-10-22): the Klatt man was a bit too low and is two semitones
+    higher (grc-klatt pitch 88 168, grc-koine-klatt 92 146, by analogy). The speakers' names
+    were too low in the man's voice, with or without Klatt: they are now about 2.5 semitones
+    above his voice (eSpeak pitch setting 70) and stay about 3.5 below the woman's (20); see
+    `speakerPitch`. Saying the names is an option, "Say the speakers' names", on by default.
+    Samples of one to three semitones for the voice and of +1.5, +2.5 and +4 semitones for the
+    names are in the samples folder (man-klatt-u*, names-man-*).
   * The woman's Klatt voice: at the formant woman's pitch (accent top 290 Hz, an octave above
     the man's 146) the author found it too high to take the rise; of three lower settings,
     pitch 120 230 (top 230 Hz) was chosen.
