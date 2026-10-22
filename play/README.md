@@ -111,6 +111,6 @@ in the top bar; they are otherwise correct.
 Version code 14 (still 0.5.0, 2026-10-22) adds to reading aloud: the speaker's name said before
 each speech, Read aloud asking for the word to begin at, the pause fix, option changes heard at
 once, and two new options, Sentence melody and Klatt voice (see app/PLAN-speech.md). The release
-notes in listings/reader.md are those of 0.5.0 and do not mention these. The bundle was checked
+notes for 0.5.0 in listings/reader.md now name them too. The bundle was checked
 on the tablet emulator, installed from the bundle with bundletool's local testing: a text opens
 from its pack and is read aloud from a tapped word.

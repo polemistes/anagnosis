@@ -44,14 +44,18 @@ You are welcome to download the source files for the app and the texts and build
 
 This app has been created with the help of large language models.
 
-## Release notes, 0.5.0 (263; limit 500)
+## Release notes, 0.5.0 (468; limit 500)
 Version 0.5.0:
 
 New feature: Bookmarks.
 
 New text: Plato's Gorgias, with John Burnet's Greek text and apparatus, Benjamin Jowett's translation, and Gonzalez Lodge's commentary and introduction.
 
+New in reading aloud: The speaker's name is said before each speech. You choose the word to start from. Two new options: sentence melody and Klatt voice.
+
 Bugfix: Tapping the last letter of a word now always opens the word.
+
+Bugfix: Reading aloud now goes on after a pause.
 
 ## Release notes, 0.4.0 (371; limit 500)
 
