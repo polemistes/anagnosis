@@ -66,10 +66,10 @@ const val STANDARD_PITCH = 50
 
 /**
  * The pitch a speaker's name is said at before a speech, set apart from the voice: a man's
- * names about 2.5 semitones higher (deeper ones were too low to hear well), a woman's about
- * 3.5 semitones lower.
+ * names about 1.5 semitones higher (deeper ones were too low to hear well; the author chose
+ * this from samples), a woman's about 3.5 semitones lower.
  */
-fun speakerPitch(female: Boolean): Int = if (female) 20 else 70
+fun speakerPitch(female: Boolean): Int = if (female) 20 else 60
 
 /**
  * How speech at [speed] per cent is made: the engine's words per minute, and the playback speed
