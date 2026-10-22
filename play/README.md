@@ -114,3 +114,7 @@ once, and two new options, Sentence melody and Klatt voice (see app/PLAN-speech.
 notes for 0.5.0 in listings/reader.md now name them too. The bundle was checked
 on the tablet emulator, installed from the bundle with bundletool's local testing: a text opens
 from its pack and is read aloud from a tapped word.
+
+Version code 15 (still 0.5.0, 2026-10-22): the Klatt man two semitones higher, the speakers'
+names in the man's voice raised above it rather than below, and a switch for saying the names
+(on by default). The release notes say the names can be turned off.
