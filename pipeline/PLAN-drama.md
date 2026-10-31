@@ -339,7 +339,7 @@ purchase, promote. Then go on with the next play.
 
 - [x] Step 0: set-up (2026-11-01)
 - [x] Step 1: modules, tests, CLI (2026-11-01; tried on Agamemnon leaves 31-36, notes 150-151, introduction 11-12)
-- [ ] Agamemnon: 2 ✓ leaves · 3 ✓ draft · 4 text batches · 5 merge · 6 notes · 7 introduction · 8 translation, sigla, glossary, about · 9 build and pack
+- [ ] Agamemnon: 2 ✓ leaves · 3 ✓ draft · 4 ✓ text batches (two passes) · 5 merge (text ✓, review list running) · 6 notes · 7 introduction · 8 translation, sigla, glossary, about · 9 build and pack
 - [ ] Choephoroi: 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9
 - [ ] Eumenides: 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9 · 10 group check
 - [ ] R1: reader 0.6.0
@@ -444,6 +444,32 @@ session sees where it stopped.
   Draft: 59 pages, 1607 verses, 417 flagged (26 %), ten batches. Page 22 (leaf 52) prints no
   apparatus. The agents' brief has a section for Sidgwick's pages (margin labels, handwriting,
   apparatus format).
+* **2026-11-01, Agamemnon step 4: a second pass.** The first pass showed that Sidgwick differs
+  from Smyth far more than Burnet's Gorgias from its Perseus text, and in ways the flags do not
+  see: punctuation (not compared at all), daggers and brackets, and words Tesseract read rightly
+  but with confidence under 80. `drama-residuals <play>` (drama_residuals.py) compares every
+  checked verse with the OCR of its printed line, word by word with its punctuation, and lists
+  each difference Tesseract read with some confidence (477 on 59 pages: punctuation 214, words
+  only the OCR has 120, accents 91, words 44, brackets 8), with a crop per page; a second round
+  of agents (brief RESIDUALS.md, two batches each) settles them against the print and makes the
+  numbering follow the print's margin numbers, which the first round had left open in several
+  places. Rules given in RESIDUALS.md: a lettered verse the print counts as its own takes the
+  print's number; a stretch counted otherwise is renumbered between margin numbers (where two
+  cannot both be met, the later wins); transposed verses keep each its own number in the print's
+  order (Agamemnon 1204 before 1203, 1304 before 1303), which `check` reports as a warning only;
+  a diaeresis is written as printed (Ἀχαιϊκοῦ, ἀΐστοις). This pass is part of the route for every
+  play from now on: step 4 = flags, then residuals.
+* **2026-11-01, Agamemnon step 4, agents' scratch files.** Two agents' helper scripts of the
+  same name in the shared scratchpad overwrote each other (one agent noticed and redid its
+  edits); every "res:" note naming a mark was then checked against the text (89, all present).
+  The briefs now require each agent to keep its files in a folder of its own.
+* **2026-11-01, Agamemnon step 5.** The merge files an apparatus item that Sidgwick numbers by a
+  verse our numbering lacks under the nearest earlier line, with his number in brackets in front
+  (`[135] οἴκῳ MSS. corr. Scal.` under 133); a word the treebank has as two halves (Smyth divides
+  it between verses) takes the second half's lemma where it continues the first's letters. The
+  review's corrections go in drama_fixes.py (one table per play), not in drama.py. Ten random
+  verses of grc.txt compared with the page by eye: all ten as printed (89, 104, 128, 201, 258,
+  487, 855, 1388, 1478, 1565).
 
 ## Sizes, for planning
 
