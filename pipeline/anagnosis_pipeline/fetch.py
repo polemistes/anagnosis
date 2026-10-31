@@ -1,6 +1,7 @@
 """Download the upstream sources into pipeline/sources/."""
 from __future__ import annotations
 
+import re
 import sys
 import tarfile
 import urllib.request
@@ -61,7 +62,29 @@ FILES = {
         f"lsj/grc.lsj.perseus-eng{i}.xml": f"{RAW}/PerseusDL/lexica/master/CTS_XML_TEI/perseus/pdllex/grc/lsj/grc.lsj.perseus-eng{i}.xml"
         for i in range(1, 28)
     },
+    # The nine plays (pipeline/PLAN-drama.md, drama.py): the Perseus Greek texts the OCR of each
+    # edition is checked against (never shipped), and the Perseus translations used
+    **{
+        f"drama/{urn}.xml": f"{RAW}/PerseusDL/canonical-greekLit/master/data/{urn.split('.')[0]}/{urn.split('.')[1]}/{urn}.xml"
+        for urn in (
+            "tlg0085.tlg005.perseus-grc2", "tlg0085.tlg006.perseus-grc2", "tlg0085.tlg007.perseus-grc2",
+            "tlg0019.tlg004.perseus-grc2", "tlg0019.tlg007.perseus-grc2", "tlg0019.tlg009.perseus-grc2",
+            "tlg0006.tlg002.perseus-grc2", "tlg0006.tlg003.perseus-grc2", "tlg0006.tlg017.perseus-grc2",
+            # Smyth's Aeschylus (Loeb 1926), Coleridge's Alcestis and Medea, Buckley's Bacchae (fallback)
+            "tlg0085.tlg005.perseus-eng3", "tlg0085.tlg006.perseus-eng2", "tlg0085.tlg007.perseus-eng2",
+            "tlg0006.tlg002.perseus-eng2", "tlg0006.tlg003.perseus-eng2", "tlg0006.tlg017.perseus-eng2",
+        )
+    },
+    # GLAUx for the six plays the AGDT lacks (the Aeschylus treebanks are in treebanks/)
+    **{f"glaux/{n}.xml": f"{RAW}/alekkeersmaekers/glaux/main/xml/{n}.xml"
+       for n in ("0019-004", "0019-007", "0019-009", "0006-002", "0006-003", "0006-017")},
+    # The Athenian Society's Aristophanes (1912): Lysistrata, Frogs
+    **{f"gutenberg/pg{n}.txt": f"https://www.gutenberg.org/cache/epub/{n}/pg{n}.txt" for n in (8688, 8689)},
 }
+GUTENBERG_MIRROR = "https://gutenberg.pglaf.org/{a}/{b}/{c}/{n}/{n}.txt"
+# Coleridge's Bacchantes (The Plays of Euripides, vol. 2, 1913), proofread on Wikisource
+COLERIDGE = "https://en.wikisource.org/w/index.php?title=Page:The_Plays_of_Euripides_Vol._2-_Edward_P._Coleridge_(1913).djvu/{n}&action=raw"
+COLERIDGE_PAGES = range(99, 142)
 HOPPER = "https://www.perseus.tufts.edu/hopper/opensource/downloads/texts/hopper-texts-GreekRoman.tar.gz"
 HOPPER_FILES = {
     "Classics/LSJ/opensource/ml.xml": "middle-liddell.xml",
@@ -103,7 +126,16 @@ TREEBANKS_API = "https://api.github.com/repos/PerseusDL/treebank_data/contents/v
 
 def fetch(sources: Path) -> None:
     for name, url in FILES.items():
-        _download(url, sources / name)
+        try:
+            _download(url, sources / name)
+        except OSError:
+            if not name.startswith("gutenberg/"):
+                raise
+            n = re.search(r"\d+", name).group()
+            print(f"Gutenberg refused {url}; trying the mirror", file=sys.stderr)
+            _download(GUTENBERG_MIRROR.format(a=n[0], b=n[1], c=n[2], n=n), sources / name)
+    for n in COLERIDGE_PAGES:
+        _download(COLERIDGE.format(n=n), sources / "coleridge" / f"bacchantes-{n}.wiki")
     # Morpheus (MPL-2.0), built here and run by build-morpheus-forms
     morpheus = sources / "morpheus"
     if not morpheus.exists():

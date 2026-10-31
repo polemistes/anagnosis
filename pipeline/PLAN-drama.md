@@ -337,7 +337,7 @@ purchase, promote. Then go on with the next play.
 
 ## Progress
 
-- [ ] Step 0: set-up
+- [x] Step 0: set-up (2026-11-01)
 - [ ] Step 1: modules, tests, CLI
 - [ ] Agamemnon: 2 leaves · 3 draft · 4 text batches · 5 merge · 6 notes · 7 introduction · 8 translation, sigla, glossary, about · 9 build and pack
 - [ ] Choephoroi: 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9
@@ -358,6 +358,21 @@ session sees where it stopped.
 ## Decisions
 
 (append dated entries: what was open, what was chosen, why, which pages were looked at)
+
+* **2026-11-01, step 0, tests.** pytest is not installed in pipeline/.venv; the tests are
+  `unittest` tests and run, as the repository README says, with
+  `cd pipeline && .venv/bin/python -m unittest discover -s tests` (44 passed). Use that command
+  wherever this brief says pytest.
+* **2026-11-01, step 0, where the sources are.** The Perseus Greek texts and translations are
+  fetched to `pipeline/sources/drama/<urn>.xml` under their Perseus names
+  (`tlg0085.tlg005.perseus-grc2.xml`, `tlg0085.tlg005.perseus-eng3.xml` …), the GLAUx files to
+  `pipeline/sources/glaux/`, the Athenian Society to `pipeline/sources/gutenberg/pg8688.txt` (vol. 1:
+  Knights, Acharnians, Peace, **Lysistrata**, Clouds) and `pg8689.txt` (vol. 2: Wasps, Birds,
+  **Frogs**, Thesmophoriazusae, Ecclesiazusae, Plutus; each play is cut out of its volume by
+  drama.py), Coleridge's Bacchantes to `pipeline/sources/coleridge/bacchantes-99.wiki` …
+  `-141.wiki` (99 is the title page, 141 ends with the chorus's last lines). The AGDT files were
+  already in `pipeline/sources/treebanks/`. Translators checked in the files: Smyth (Agamemnon
+  eng3, Choephoroi and Eumenides eng2), Coleridge (Alcestis, Medea eng2), Buckley (Bacchae eng2).
 
 ## Sizes, for planning
 
