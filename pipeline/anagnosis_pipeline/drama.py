@@ -845,7 +845,21 @@ def notes_from_paragraphs(paras: list[str]) -> list[tuple[str, list[str]]]:
     return notes
 
 
-def place_notes(notes: list[tuple[str, list[str]]], numbers: list[str]) -> tuple[list[tuple[str, list[str]]], list[str]]:
+def _lemma_line(body: list[str], n: int, lines: dict[str, str]) -> str | None:
+    """The line near n (n-4 … n+3) that holds the first word of the note's bold lemma."""
+    m = re.match(r"^(?:\[\d+[a-z]?\]\s*)?\*\*([^*]+)\*\*", body[0]) if body else None
+    if not m:
+        return None
+    words = [skel(w) for w, _s, _e in greek.words(m.group(1))]
+    if not words or not words[0]:
+        return None
+    near = [(abs(base(k) - n), k) for k in lines if n - 4 <= base(k) <= n + 3
+            and words[0] in [skel(w) for w, _s, _e in greek.words(lines[k])]]
+    return min(near)[1] if near else None
+
+
+def place_notes(notes: list[tuple[str, list[str]]], numbers: list[str],
+                texts: dict[str, str] | None = None) -> tuple[list[tuple[str, list[str]]], list[str]]:
     """Notes under our line numbers: a heading names a line we have (1234 or 1234a) or a range; a
     note on a line our numbering skips goes to the nearest earlier line. Returns the notes (those
     on the same heading merged) and problems."""
@@ -858,6 +872,10 @@ def place_notes(notes: list[tuple[str, list[str]]], numbers: list[str]) -> tuple
             problems.append(f"notes: a note without a line number before the first note: {(body[0] if body else '')[:60]}")
             continue
         a, _, b = heading.partition("-")
+        found = _lemma_line(body, base(a), texts) if a not in have and texts else None
+        if found:
+            problems.append(f"notes: line {a} is not in our numbering; the note goes to {found}, which holds its lemma")
+            a = found
         if a not in have:
             earlier = [x for x in bases if x <= base(a)]
             if not earlier:
@@ -1005,7 +1023,7 @@ def merge_play(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path
     # an item numbered as the edition numbers a verse our text lacks goes to the nearest earlier
     # line, its printed number kept in front of it
     placed, probs = place_notes([(h, [b if APP_N.match(h) and h.split("-")[0] in have else f"[{h}] {b}" for b in body])
-                                 for h, body in notes], [n for n, _t in lines])
+                                 for h, body in notes], [n for n, _t in lines], dict(lines))
     problems += [p.replace("notes:", "apparatus:") for p in probs]
     notes = placed
     md = _meta_lines({
@@ -1035,7 +1053,7 @@ def merge_play(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path
     paras = merge_kind(transcriptions, "notes")
     if paras:
         raw = notes_from_paragraphs(paras)
-        placed, probs = place_notes(raw, [n for n, _t in lines])
+        placed, probs = place_notes(raw, [n for n, _t in lines], dict(lines))
         problems += probs
         md = _meta_lines({
             "title": f"Commentary ({play.notes_editor_name})",
