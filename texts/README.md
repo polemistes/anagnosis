@@ -197,6 +197,43 @@ files here.
 * Done so far: Ajax and Electra. The Oedipus Tyrannus is checked as far as line 160; the other
   three plays are imported from Perseus without the check.
 
+## Aeschylus' Oresteia (`texts/agamemnon/`, `choephoroi/`, `eumenides/`)
+
+Each play is Arthur Sidgwick's edition (*Aeschylus*, with introduction and notes, Oxford,
+Clarendon Press: Agamemnon, third edition, revised, 1887; Choephoroi 1884; Eumenides 1887), read
+from the Internet Archive scans of students' copies (`drama.PLAYS` gives each scan and its
+leaves) and made by `merge-drama <play>` from the checked transcription in
+`pipeline/transcriptions/drama/<play>/` (brief `pipeline/PLAN-drama.md`; the agents' briefs
+`INSTRUCTIONS-text.md`, `RESIDUALS.md`, `INSTRUCTIONS-prose.md` in `pipeline/transcriptions/drama/`).
+Edit the transcription and rerun the merge, not the files here. The editions are in the public
+domain; the transcription is published under CC BY-SA 4.0.
+
+* Greek text and critical apparatus (`grc.txt`, `commentary-sidgwick-apparatus.md`): Sidgwick's,
+  read by OCR (Tesseract) and matched word by word to the Perseus text of H. W. Smyth (Loeb 1926),
+  which is the check text only and does not ship; every line where the two disagreed, and then
+  every word, stop and accent where Sidgwick's print and the checked text still differed, was
+  settled against the page image. One file line per printed verse, as Sidgwick divides the lyrics;
+  a verse takes the number of the Perseus line its first word stands in (a second verse in the same
+  line a letter: 1426a), and the numbers printed in Sidgwick's margin win where they differ.
+  Transposed verses keep their own numbers in the print's order (Agamemnon 1204 before 1203,
+  1304 before 1303). Sidgwick's asterisk before a conjecture is left out (`sigla.md` explains it);
+  his daggers stand. An apparatus item Sidgwick numbers by a verse our numbering lacks stands at
+  the nearest earlier line with his number in brackets.
+* Sections (episode, choral, strophe …) and speakers' names: from the Perseus TEI, placed by the
+  words; the speakers are checked against the abbreviations Sidgwick prints.
+* Lemmas, morphology and syntax (`tokens.tsv`, `syntax-nodes.tsv`): the Ancient Greek Dependency
+  Treebank 2.1 (hand-made), CC BY-SA 3.0 US, aligned to Sidgwick's words; where he reads otherwise,
+  the analyser, listed in `pipeline/build/<play>-review.tsv` and corrected by hand in
+  `pipeline/anagnosis_pipeline/drama_fixes.py`.
+* Translation (`eng-smyth.txt`): H. W. Smyth, Perseus `perseus-eng2`/`eng3`, modernized by
+  Perseus, CC BY-SA 4.0, its line numbers mapped to Sidgwick's verses by the words of the Greek.
+* Commentary (`commentary-sidgwick.md`) and introduction (`introduction.md`): Sidgwick's, read by
+  OCR (English and Greek) and checked against the page images; a note Sidgwick numbers inside one
+  of our longer lyric verses stands at the verse that holds its lemma. His lists of editions and
+  translations and his appendices are left out.
+* `sigla.md` (his manuscripts, signs and the editors he cites), `glossary.md` and `shortdefs.tsv`
+  are written by hand.
+
 ## The Odyssey (`texts/odyssey/`)
 
 The Greek text is T. W. Allen's Oxford edition (*Homeri Opera* III–IV, 2nd ed., 1917 and 1919),

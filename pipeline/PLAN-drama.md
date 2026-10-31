@@ -339,7 +339,7 @@ purchase, promote. Then go on with the next play.
 
 - [x] Step 0: set-up (2026-11-01)
 - [x] Step 1: modules, tests, CLI (2026-11-01; tried on Agamemnon leaves 31-36, notes 150-151, introduction 11-12)
-- [ ] Agamemnon: 2 ✓ leaves · 3 ✓ draft · 4 ✓ text batches (two passes) · 5 ✓ merge · 6 notes · 7 introduction · 8 translation, sigla, glossary, about · 9 build and pack
+- [ ] Agamemnon: 2 ✓ leaves · 3 ✓ draft · 4 ✓ text batches (two passes) · 5 ✓ merge · 6 ✓ notes · 7 ✓ introduction · 8 ✓ translation, sigla, glossary, about · 9 build and pack
 - [ ] Choephoroi: 2 ✓ · 3 · 4 · 5 · 6 · 7 · 8 · 9
 - [ ] Eumenides: 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9 · 10 group check
 - [ ] R1: reader 0.6.0
@@ -480,6 +480,18 @@ session sees where it stopped.
   leaves 11-33 and the persons on leaf 36; sigla (manuscripts, scholia, editions, text of this
   edition) leaves 26-33. Appendices (from p. 122) left out as for the Agamemnon. Layout as the
   Agamemnon's.
+* **2026-11-01, Agamemnon steps 6-8.** The English OCR of this pencil-marked copy is weaker than
+  its flags show (quotation marks, "l." read as "1.", Greek read as Latin letters, lines garbled
+  under underlining): the agents read each page's column through against the image, not only the
+  flags; the prose brief's run-on rule stands (a page that begins with a new paragraph of the note
+  before is left without `+ `, and the merge files it under that note). Sidgwick's bracketed scene
+  summaries ("[Prologue. … (ll. 1-39.) …]") are notes headed by the range they name, kept in
+  plain type and in their brackets; a note Sidgwick numbers inside one of our longer lyric verses
+  goes to the verse near it that holds its lemma (11 of 21), else to the nearest earlier line. The
+  merge writes elision ʼ for the OCR's ᾽ in the notes. 786 notes; introduction with Sidgwick's
+  chapters, the list of persons, the lists of editions and translations left out. sigla.md
+  written from pp. xix-xxii; glossary.md (19 names and rare words), shortdefs.tsv (72 glosses):
+  every lemma finds a dictionary entry and a gloss.
 
 ## Sizes, for planning
 
