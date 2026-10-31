@@ -521,7 +521,8 @@ def _paragraphs(md_lines: list[str]) -> list[str]:
         while rows and rows[0].startswith("#"):
             out.append(rows.pop(0))
         if rows:
-            out.append(greek.nfc(" ".join(rows)))
+            # elision as in the texts (ʼ); the OCR's ᾽ is never a quotation mark
+            out.append(greek.nfc(" ".join(rows)).replace("᾽", "ʼ"))
     return out
 
 
