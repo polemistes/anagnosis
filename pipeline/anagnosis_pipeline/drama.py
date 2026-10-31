@@ -955,14 +955,18 @@ def merge_play(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path
                 problems.append(f"{p['stem']}: bad apparatus number {n!r}")
                 continue
             heading = n
-            if m.group(1) + m.group(2) not in have:
-                problems.append(f"{p['stem']}: apparatus {n} names a line not in the text")
             if notes and notes[-1][0] == heading:
                 notes[-1][1].append(item)
             else:
                 notes.append((heading, [item]))
     from .sophocles_pages import bold_lemmas
 
+    # an item numbered as the edition numbers a verse our text lacks goes to the nearest earlier
+    # line, its printed number kept in front of it
+    placed, probs = place_notes([(h, [b if APP_N.match(h) and h.split("-")[0] in have else f"[{h}] {b}" for b in body])
+                                 for h, body in notes], [n for n, _t in lines])
+    problems += [p.replace("notes:", "apparatus:") for p in probs]
+    notes = placed
     md = _meta_lines({
         "title": f"Critical apparatus ({play.app_editor_name})",
         "author": play.app_editor_name,
@@ -1044,12 +1048,25 @@ def _tokens(play: Play, doc, sources: Path, out: Path, lexicon: Path, build: Pat
         if chosen is not None:
             r["lemma"], r["postag"] = fix_lemma(chosen[0]), chosen[1]
         review.append({"line": r["line"], "form": r["form"], "lemma": r["lemma"], "postag": r["postag"], "reason": reason})
+    # a word Perseus (and so the treebank) divides between two verses is whole in ours: the
+    # treebank's two halves give "+κνεφάζω", "θυτήρ+θυτήρ", "τρία+τριακτήρ"; the second half's
+    # lemma is the word's where it continues the first's letters
     for r in rows:
-        hand = play.hand_analyses.get(f"{r['line']} {r['form']}")
+        if "+" in r["lemma"] and "+" in r["word_id"]:
+            parts = r["lemma"].split("+")
+            first, last = parts[0], parts[-1]
+            if len(parts) == 2 and (not first or greek.strip_diacritics(last).lower().startswith(greek.strip_diacritics(first).lower()[:3])):
+                r["lemma"] = last
+    from .drama_fixes import HAND_ANALYSES, LEMMA_FIXES as PLAY_LEMMA_FIXES
+
+    hands = {**play.hand_analyses, **HAND_ANALYSES.get(play.slug, {})}
+    fixes = {**play.lemma_fixes, **PLAY_LEMMA_FIXES.get(play.slug, {})}
+    for r in rows:
+        hand = hands.get(f"{r['line']} {r['form']}")
         if hand:
             r["lemma"], r["postag"] = hand
         r["lemma"] = LEMMA_FIXES.get(r["lemma"], r["lemma"])
-        r["lemma"] = play.lemma_fixes.get(r["lemma"], r["lemma"])
+        r["lemma"] = fixes.get(r["lemma"], r["lemma"])
     write_tokens(out / "tokens.tsv", rows)
     used = {(r["sentence"], w) for r in rows for w in r["word_id"].split("+") if r["sentence"]}
     write_syntax_nodes(out / "syntax-nodes.tsv", syntax_nodes(tb, used))

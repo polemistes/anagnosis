@@ -90,6 +90,11 @@ paragraphs, one row each).
 * Check the speaker of every speech and the line numbers of the segments against the facing
   page (its draft is in `pipeline/build/drama-pages/<play>/p-NNNN.md`).
 
+**Your own files.** Scripts, enlarged crops and other helpers go only in a folder of your own,
+named after your batch file, under the session's scratchpad folder (e.g.
+`<scratchpad>/agamemnon-notes-03/`); other agents work beside you at the same time and use the
+same scratchpad, so never write a file directly in the scratchpad or in another agent's folder.
+
 ## Checking
 
 From `pipeline/`:

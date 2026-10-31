@@ -89,6 +89,9 @@ def _region(play: Play, kind: str, leaf: int, lines: list[dict], size: tuple[int
 
     W, H = size
     body = [l for l in lines if l["bbox"][3] > 0.065 * H]
+    # the running head (NOTES. LINES 412-450. / AGAMEMNON. / INTRODUCTION.) a little lower down
+    body = [l for l in body if not (l["bbox"][1] < 0.1 * H and len(l["words"]) <= 5
+                                    and _capitals(" ".join(w["text"] for w in l["words"])))]
     # a page number or signature alone at the foot
     body = [l for l in body if not (l["bbox"][1] > 0.88 * H and len(l["words"]) <= 2
                                     and len(" ".join(w["text"] for w in l["words"])) <= 7

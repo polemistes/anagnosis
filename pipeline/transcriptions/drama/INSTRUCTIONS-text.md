@@ -146,6 +146,11 @@ the text (it stays in the apparatus if printed there). Where Perseus has an empt
 lacuna Smyth marks), the draft has nothing; if Sidgwick prints a verse there, add it with the
 number of the empty Perseus verse (the check sheet's flags say where).
 
+**Your own files.** Scripts, enlarged crops and other helpers go only in a folder of your own,
+named after your batch file, under the session's scratchpad folder (e.g.
+`<scratchpad>/agamemnon-notes-03/`); other agents work beside you at the same time and use the
+same scratchpad, so never write a file directly in the scratchpad or in another agent's folder.
+
 ## Checking
 
 Run, from `pipeline/`:
