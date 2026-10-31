@@ -881,8 +881,11 @@ def apparatus_images(play: Play, leaf: int, layout: dict, out_dir: Path, stem: s
     with Image.open(sbuild / "pages" / f"leaf_{leaf:04d}.png") as im:
         g = im.convert("L")
         w = g.size[0]
-        x0 = max(0, layout["left"] - int(1.5 * layout["line_h"]))
-        x1 = min(w, layout["right"] + int(1.5 * layout["line_h"]))
+        # the apparatus is set to the full measure, wider than the verse: the page's ink, not the column
+        cols = list(g.crop((0, y0, w, y1)).point(lambda v: 255 if v < 140 else 0).resize((w, 1), Image.BOX).tobytes())
+        ink = [x for x, v in enumerate(cols) if v > 3]
+        x0 = max(0, (ink[0] if ink else 0) - 25)
+        x1 = min(w, (ink[-1] if ink else w) + 25)
         crop = g.crop((x0, y0, x1, y1))
         cw = crop.size[0]
         half = cw // 2
