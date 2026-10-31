@@ -1,4 +1,4 @@
-# Nine plays: Aeschylus' Oresteia, Aristophanes' Clouds, Frogs and Lysistrata, Euripides' Medea, Bacchae and Hippolytus
+# Nine plays: Aeschylus' Oresteia, Aristophanes' Clouds, Frogs and Lysistrata, Euripides' Medea, Bacchae and Alcestis
 
 Decided with the author on 2026-11-01. This file is the brief: follow it step by step in the
 order given, tick the steps off under **Progress**, write every choice the brief does not settle
@@ -15,8 +15,9 @@ one in-app product per play. What the author must do in Play Console is collecte
 
 ## How to work from this brief
 
-* **Order**: Agamemnon, Choephoroi, Eumenides, Clouds, Medea, Frogs, Bacchae, Hippolytus,
-  Lysistrata. Finish a play's steps before the next play's, except that the long OCR jobs
+* **Order**: Agamemnon, Choephoroi, Eumenides, Clouds, Medea, Frogs, Bacchae, Alcestis,
+  Lysistrata. (Alcestis took the Hippolytus's place on 2026-11-01, the author's decision: no
+  scan of Hadley's Hippolytus exists, and the alternative needed two scans.) Finish a play's steps before the next play's, except that the long OCR jobs
   (fetch, ocr) of the next play may run in the background meanwhile.
 * **Resuming after an interruption**: `git status`, `git log -5`, read Progress and Decisions
   here, run the checker on the batch files that were being written (they are appended page by
@@ -64,14 +65,14 @@ one in-app product per play. What the author must do in Play Console is collecte
 | medea | Μήδεια, Medea | M. L. Earle, The Medea of Euripides, New York, American Book Co. 1904 — if his volume prints a critical apparatus (see the Medea rule below); otherwise Prinz-Wecklein, Euripidis Fabulae I (Teubner), Medea | cu31924079583609 (316 leaves, jp2); Teubner: euripidisfabula01euriuoft | Earle, same volume | E. P. Coleridge (1891), Perseus tlg0006.tlg003.perseus-eng2 | GLAUx 0006-003.xml | euripides_medea_earle (euripides_medea_wecklein if the Teubner text is used) |
 | frogs | Βάτραχοι, Frogs | T. G. Tucker, The Frogs of Aristophanes, London, Macmillan 1906 | frogsofaristopha00arisrich (354 leaves, jp2) | Tucker, same volume | The Athenian Society (1912, anonymous), Gutenberg #8689 | GLAUx 0019-009.xml | aristophanes_frogs_tucker |
 | bacchae | Βάκχαι, Bacchae | J. E. Sandys, The Bacchae of Euripides, Cambridge, 3rd ed. 1892 | BacchaeOfEuripides_680 (jp2 `BacchaeEurip_jp2.zip`); spare: bacchaeeuripide01eurigoog (2nd ed. 1885) | Sandys, same volume | Coleridge, "The Bacchantes", Wikisource (The Plays of Euripides (Coleridge)/The Bacchantes); fallback T. A. Buckley (1850), Perseus tlg0006.tlg017.perseus-eng2 | GLAUx 0006-017.xml | euripides_bacchae_sandys |
-| hippolytus | Ἱππόλυτος, Hippolytus | U. von Wilamowitz-Moellendorff, Euripides Hippolytos, griechisch und deutsch, Berlin, Weidmann 1891 (Greek pages and their apparatus only) | hippolytos00euriuoft (jp2) | J. P. Mahaffy and J. B. Bury, The Hippolytus of Euripides, Macmillan (Dublin printing, 1889 scan), notes and introduction | Coleridge, Perseus tlg0006.tlg005.perseus-eng2 | GLAUx 0006-005.xml | euripides_hippolytus_wilamowitz |
+| alcestis | Ἄλκηστις, Alcestis | H. W. Hayley, The Alcestis of Euripides, edited with an introduction and critical and exegetical notes, Boston, Ginn 1898 | alcestisofeuripi00euriuoft (284 leaves, jp2, clean); spare: earlealcestis00euri (M. L. Earle, Macmillan 1894, jp2) | Hayley, same volume | Coleridge, Perseus tlg0006.tlg002.perseus-eng2 | GLAUx 0006-002.xml | euripides_alcestis_hayley |
 | lysistrata | Λυσιστράτη, Lysistrata | F. W. Hall and W. M. Geldart, Aristophanis Comoediae II, Oxford 1907 (the Perseus text is this edition) | aristophaniscomo02arisuoft (jp2) | B. B. Rogers, The Lysistrata of Aristophanes, London 1911: notes and introduction | The Athenian Society (1912), Gutenberg #8688 | GLAUx 0019-007.xml | aristophanes_lysistrata_hall_geldart |
 
-Scans without a jp2 zip (the Mahaffy-Bury volume, hippolytuseurip00eurigoog, has only a PDF)
-are fetched page by page from `https://archive.org/download/<id>/page/n<N>_w2000.jpg` (the
-Archive renders the page; `n<N>` is the leaf number from 0; try a larger width first and keep the
-largest the server gives). The same address at `_w700` is the quick way to look at any leaf of
-any scan when finding page ranges.
+Every chosen scan has a jp2 zip. A scan without one (some spares have only a PDF) can be
+fetched page by page from `https://archive.org/download/<id>/page/n<N>_w2000.jpg` (the Archive
+renders the page; `n<N>` is the leaf number from 0; try a larger width first and keep the largest
+the server gives). The same address at `_w700` is the quick way to look at any leaf of any scan
+when finding page ranges.
 
 ### Rules for every play
 
@@ -85,7 +86,7 @@ any scan when finding page ranges.
 * **Not usable, ever**: Murray's Greek text and his verse translations; Jack Lindsay's
   Lysistrata (Perseus's English Lysistrata and Gutenberg #7700 are his); the Perseus English
   Aristophanes of 1938 (O'Neill); Headlam-Thomson, Fraenkel, Denniston-Page (Agamemnon); Dodds
-  (Bacchae); Barrett (Hippolytus); Page (Medea); Coulon; Stanford (Frogs); Dover; Sommerstein;
+  (Bacchae); Dale (Alcestis); Page (Medea); Coulon; Stanford (Frogs); Dover; Sommerstein;
   Henderson; C. E. S. Headlam's Medea (death year unknown). Every other source in the table
   above is checked: editors dead before 1956, texts published before 1931.
 * **Text**: one file line per printed verse, exactly as the edition divides the lyrics; the
@@ -101,14 +102,14 @@ any scan when finding page ranges.
   taken as confirmed, where it differs the agent decides from the crop. Elision is ʼ (U+02BC);
   the raised stop ·; editorial brackets as printed (`[ ]` deletions, `⟨ ⟩` additions; an
   obelus † stays). Sidgwick's asterisks before conjectural readings are left out of the text and
-  explained in sigla.md. An edition that prints the iota adscript (Wilamowitz: τῶι, χώραι)
+  explained in sigla.md. An edition that prints the iota adscript (τῶι, χώραι)
   ships with the subscript (τῷ, χώρᾳ): a word that differs from Perseus only so takes Perseus's
   spelling and is not flagged; sigla.md says so.
 * **Sections** (`== episode`, `== choral`, `=== strophe 1`, the Aristophanic Prologue, Parodos,
   Agon, Parabasis) come from the Perseus TEI, re-attached by line number after the re-division;
   the edition's own headings (ΧΟΡΟΣ., Starkie's AGON II) are not sections.
 * **Critical apparatus**: every item under its line number, copied as printed (sigla, Latin,
-  English, Wilamowitz's German), in `commentary-<editor>-apparatus.md` with `## N` headings, as
+  English), in `commentary-<editor>-apparatus.md` with `## N` headings, as
   the Gorgias. Tesseract's two readings are a help, not a draft.
 * **Commentary**: the editor's notes, OCR'd with the English and Greek models, split into notes
   by the line number that begins each note (`## 779`, `## 214-218`; "215 f." becomes `## 215`),
@@ -118,8 +119,7 @@ any scan when finding page ranges.
 * **Introduction**: the editor's, in full, by the same route, as `introduction.md` with the
   heading rules of `pipeline/transcriptions/sophocles/INTRODUCTION.md`; lists of editions and
   bibliographies are left out; chapters on the manuscripts, the metres, the play and the
-  legend are kept. Wilamowitz's German introduction is not transcribed; Mahaffy and Bury's
-  English one is.
+  legend are kept.
 * **Translation**: by Greek line where the source has line numbers (Smyth, Coleridge on
   Perseus: `tei_to_document`, as Jebb's); by speeches where it has none (the Athenian Society,
   Coleridge's Bacchantes): each speech keyed to the Greek line where it begins, matched to the
@@ -180,11 +180,12 @@ any scan when finding page ranges.
   words and speeches as everywhere else; that stretch is simply checked by hand in the merge log.
   Sandys's 3rd edition (1892) is the text; his introduction is long (over a hundred pages) and is
   transcribed in full except the lists of editions.
-* **Hippolytus**: Wilamowitz's Greek is on the left-hand pages with the apparatus under it, his
-  German verse translation on the right-hand pages (not used). The commentary is Mahaffy and
-  Bury's, from the PDF-only scan through the page-image service; their short introduction too.
-  Hadley's Pitt Press edition would have been better but no scan of it was found; do not spend
-  time looking for one.
+* **Alcestis**: Hayley prints the text with the speakers' abbreviations in the margin, the
+  numbers every fifth line at the right and the critical apparatus at the foot of each page
+  (English, with the sigla of his introduction); the "critical and exegetical notes" at the back,
+  each under a bold line number and lemma; an introduction of about ninety pages. One volume for
+  everything, as Tucker's Frogs; the scan is clean. Earle's Alcestis (1894) is the spare only
+  if pages of Hayley's scan prove unusable, and then the Decisions log says which.
 * **Lysistrata**: the text and apparatus are Hall-Geldart's Oxford text (vol. II of the scan;
   the Perseus text is the same edition, so the check is light, as for the Gorgias). The notes
   are Rogers's, printed at the foot of his pages under the text and his verse translation
@@ -198,7 +199,7 @@ any scan when finding page ranges.
 
 Three reader releases, each after a group of plays is built and checked: **0.6.0 (version
 code 16)** with the Oresteia; **0.7.0 (17)** with Clouds, Medea and Frogs; **0.8.0 (18)** with
-Bacchae, Hippolytus and Lysistrata. If the author has not uploaded a release when the next
+Bacchae, Alcestis and Lysistrata. If the author has not uploaded a release when the next
 group is ready, the next release carries everything (version codes only go up). Each release
 step bumps `versionCode`/`versionName` in app/androidApp/build.gradle.kts, writes the release
 notes in play/listings/reader.md (a bullet per new text in the description, a "What's new"
@@ -216,9 +217,9 @@ then `./gradlew --stop`), and lists what the author must do.
    tessdata_best if not, see pipeline/tessdata/README.md); `opj_decompress`, `magick`, `pdftoppm`
    exist; Morpheus is built (`pipeline/sources/morpheus/bin/cruncher`).
 3. Add to `fetch.py` and run `fetch`: the nine Perseus Greek files (canonical-greekLit
-   perseus-grc2 of tlg0085.tlg005/006/007, tlg0019.tlg004/007/009, tlg0006.tlg003/005/017), the
+   perseus-grc2 of tlg0085.tlg005/006/007, tlg0019.tlg004/007/009, tlg0006.tlg002/003/017), the
    Perseus translations (tlg0085.tlg005.perseus-eng3, tlg006 and tlg007 perseus-eng2;
-   tlg0006.tlg003 and tlg005 perseus-eng2; tlg0006.tlg017.perseus-eng2 as the Bacchae fallback),
+   tlg0006.tlg002 and tlg003 perseus-eng2; tlg0006.tlg017.perseus-eng2 as the Bacchae fallback),
    the three AGDT files (treebank_data v2.1 Greek texts, names in the table), the six GLAUx
    files (alekkeersmaekers/glaux main/xml), Gutenberg #8688 and #8689 as plain text
    (`https://www.gutenberg.org/cache/epub/<n>/pg<n>.txt`; if Gutenberg refuses, the mirror
@@ -347,7 +348,7 @@ purchase, promote. Then go on with the next play.
 - [ ] Frogs: 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9 · 10 group check
 - [ ] R2: reader 0.7.0
 - [ ] Bacchae: 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9
-- [ ] Hippolytus: 2 · 3 · 4 · 5 · 6 (Mahaffy-Bury) · 7 · 8 · 9
+- [ ] Alcestis: 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9
 - [ ] Lysistrata: 2 (two scans) · 3 · 4 · 5 · 6 (Rogers) · 7 · 8 · 9 · 10 group check
 - [ ] R3: reader 0.8.0
 
@@ -369,7 +370,7 @@ session sees where it stopped.
 | Medea | 1419 | 150 (text and notes share the page) | — | long |
 | Frogs | 1533 | 110 | 170 | medium |
 | Bacchae | 1392 | 90 | 150 | very long |
-| Hippolytus | 1466 | 75 (left-hand pages) | 100 (Mahaffy-Bury) | short |
+| Alcestis | 1163 | 55 | 115 | long (about 90 pages) |
 | Lysistrata | 1321 | 45 (Hall-Geldart) | 110 (Rogers, foot of page) | medium |
 
 The Gorgias cost about 90k tokens per six text pages checked; prose pages, where only flagged

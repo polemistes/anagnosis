@@ -3,7 +3,7 @@
 This folder holds the page-by-page work on the printed editions of nine plays (see
 pipeline/PLAN-drama.md for which edition each play uses). Each play has a folder
 (`agamemnon/`, `choephoroi/`, `eumenides/`, `clouds/`, `medea/`, `frogs/`, `bacchae/`,
-`hippolytus/`, `lysistrata/`) with batch files. The editions are in the public domain; the
+`alcestis/`, `lysistrata/`) with batch files. The editions are in the public domain; the
 transcription is published under CC BY-SA 4.0. `merge-drama <play>` turns the batch files into
 `texts/<play>/grc.txt` and `texts/<play>/commentary-<editor>-apparatus.md`.
 
@@ -72,7 +72,7 @@ and **save after each page**, so that nothing is lost if you are interrupted.
 * The words, accents and punctuation of a confirmed line are the print's as Perseus spells them;
   capitals from the OCR. Elision is ʼ (U+02BC), never ’ or ᾽; the raised stop is ·; brackets as
   printed (`[ ]`, `⟨ ⟩`, †). An asterisk before a word (Sidgwick's mark of a conjecture) is left
-  out. An iota adscript (τῶι, χώραι: Wilamowitz) is written as the subscript (τῷ, χώρᾳ).
+  out. An iota adscript (τῶι, χώραι) is written as the subscript (τῷ, χώρᾳ).
 * A word divided at the end of a verse and finished on the next (lyrics: εὐδαί- | μων) is
   written whole at the end of the first verse and left out of the second.
 
@@ -112,13 +112,13 @@ The flags, and what to do:
 
 * One output line per item: the line number it refers to, a TAB, the item. The editions
   print the number at the start of each item (Sidgwick "103. ὅρα δὲ MSS. corr. Pal.", Tucker
-  "970 Κῷος Aristarchus in schol.", Sandys "252. οὐκ ἔχον P", Wilamowitz "12 Τροιζηνίας codd."):
+  "970 Κῷος Aristarchus in schol.", Sandys "252. οὐκ ἔχον P", Hayley "546 τῷδε d] τῶδε a τῶνδε r."):
   that number, even where it does not match our numbering exactly (say so under notes). An
   item for several lines: `104-105`. A further item on the same line, printed without a number,
   gets the number of the item before it.
-* Copy each item as printed: lemma, readings, sigla as printed (M, G, V, Fl., Fa., R, V, P, C,
+* Copy each item as printed: lemma, readings, sigla as printed (M, G, V, Fl., Fa., R, V, P, C, L, B, a, d, r,
   codd., MSS.; later hands and superscripts as Unicode superscripts: M², P¹), scholars' names
-  and abbreviations (Pal., Turn., Herm., Dindf., Wil), Latin, English and German words. Greek
+  and abbreviations (Pal., Turn., Herm., Dindf., Herwerden), Latin and English words. Greek
   with full accents. Italics are ignored; bold lemmas are written plain (the merge marks them).
   A square bracket after the lemma stays: `κύριος] κύριον`.
 * Where the editor says it in words, copy his words. A colon or semicolon is written without a
