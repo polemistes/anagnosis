@@ -143,7 +143,7 @@
 622	πῶς δῆτʼ ἂν εἰπὼν κεδνὰ τἀληθῆ τύχοις;
 623	σχισθέντα δʼ οὐκ εὔκρυπτα γίγνεται τάδε.
 @ Κῆρυξ
-624	ἁνὴρ ἄφαντος ἐξ Ἀχαιικοῦ στρατοῦ,
+624	ἁνὴρ ἄφαντος ἐξ Ἀχαιϊκοῦ στρατοῦ,
 625	αὐτός τε καὶ τὸ πλοῖον. οὐ ψευδῆ λέγω.
 @ Χορός
 626	πότερον ἀναχθεὶς ἐμφανῶς ἐξ Ἰλίου,
@@ -167,7 +167,8 @@
 618	the print reads γε (Perseus τε): written as printed.
 619	the print reads ἥξει ξὺν (Perseus ἥκει σὺν): written as printed.
 622	τύχοις printed with an asterisk: asterisk left out.
-624	ΚΗ. printed in the margin, as Perseus; ἁνὴρ with rough breathing as printed. The print has a diaeresis in Ἀχαιϊκοῦ; Perseus's spelling Ἀχαιικοῦ kept.
+624	ΚΗ. printed in the margin, as Perseus; ἁνὴρ with rough breathing as printed.
+624	res: Ἀχαιϊκοῦ with diaeresis, as printed
 624	apparatus: "corr. H." on the second printed line runs on from "624. ἀνήρ MSS." at the end of the first.
 
 === p-0054
@@ -250,7 +251,7 @@
 681	τίς ποτʼ ὠνόμαζεν ὧδʼ
 682	ἐς τὸ πᾶν ἐτητύμως—
 683	μή τις ὅντινʼ οὐχ ὁρῶμεν
-683a	προνοίαισι τοῦ πεπρωμένου
+684	προνοίαισι τοῦ πεπρωμένου
 685	γλῶσσαν ἐν τύχᾳ νέμων;—
 686	τὰν δορίγαμβρον ἀμφινεικῆ θʼ Ἑλέναν;
 687	ἐπεὶ πρεπόντως
@@ -262,7 +263,8 @@
 676	the print reads εἰ δʼ οὖν (Perseus εἰ γοῦν): written as printed.
 678	οὔπω with smooth breathing in the print, as Perseus: kept.
 681	ΧΟ. printed in the margin, as Perseus; στρ. α΄. in the right margin left out.
-683	the print divides ὁρῶ- | μεν: the word stands whole in 683, as the draft has it; 683a begins προνοίαισι; the margin number 685 stands at γλῶσσαν, as the draft numbers it.
+683	the print divides ὁρῶ- | μεν: the word stands whole in 683, as the draft has it; the next printed verse begins προνοίαισι.
+684	res: renumbered to the print: the draft's 683a (μεν προνοίαισι τοῦ πεπρωμένου) is a printed verse of its own between the margins 680 (τοσαῦτʼ) and 685 (γλῶσσαν), so it is 684.
 686	Ἑλέναν; is printed on this line.
 687	the unmatched "printed line" after 687 is the apparatus (660, 673), written below; nothing added to the text.
 
@@ -273,30 +275,30 @@
 691	προκαλυμμάτων ἔπλευσε
 692	ζεφύρου γίγαντος αὔρᾳ,
 693	πολύανδροί τε φεράσπιδες
-693a	κυναγοὶ κατʼ ἴχνος
+694	κυναγοὶ κατʼ ἴχνος
 695	πλατᾶν ἄφαντον
 696	κέλσαντες Σιμόεντος
-696a	ἀκτὰς ἐπʼ ἀεξιφύλλους
+697	ἀκτὰς ἐπʼ ἀεξιφύλλους
 698	διʼ ἔριν αἱματόεσσαν.
 699	Ἰλίῳ δὲ κῆδος ὀρθώνυμον
 700	τελεσσίφρων
 701	μῆνις ἤλασεν, τραπέζας
-701a	ἀτίμωσιν ὑστέρῳ χρόνῳ
-703	καὶ ξυνεστίου Διὸς
-704	πρασσομένα τὸ νυμφότιμον μέλος ἐκφάτως
+703	ἀτίμωσιν ὑστέρῳ χρόνῳ
+704	καὶ ξυνεστίου Διὸς
+705	πρασσομένα τὸ νυμφότιμον μέλος ἐκφάτως
 706	τίοντας,
 707	ὑμέναιον, ὃς τότʼ ἐπέρρεπεν
 708	γαμβροῖσιν ἀείδειν.
 709	μεταμανθάνουσα δʼ ὕμνον
 710	Πριάμου πόλις γεραιὰ
 711	πολύθρηνον μέγα που στένει,
-711a	κικλήσκουσα Πάριν
-712	τὸν αἰνόλεκτρον,
-713	παμπορθῆ πολύθρηνον
-714	αἰῶνα διαὶ πολιτᾶν
-715	μέλεον αἷμʼ ἀνατλᾶσα·
-716	ἔθρεψεν δὲ λέοντος ἶνιν
-717	δόμοις ἀγάλακτον οὕτως
+712	κικλήσκουσα Πάριν
+713	τὸν αἰνόλεκτρον,
+714	παμπορθῆ πολύθρηνον
+715	αἰῶνα διαὶ πολιτᾶν
+716	μέλεον αἷμʼ ἀνατλᾶσα·
+717	ἔθρεψεν δὲ λέοντος ἶνιν
+718	δόμοις ἀγάλακτον οὕτως
 --- apparatus
 695	πλάταν MSS. corr. Heath.
 697	ἐπʼ ἀξιφ. Fl. εἰς ἀεξιφ. Fa.
@@ -307,12 +309,13 @@
 --- notes
 695	πλατᾶν printed with an asterisk: asterisk left out.
 696	the print reads κέλσαντες (Perseus κελσάντων): written as printed.
-696	apparatus 697 (ἐπʼ ἀξιφ.) is Sidgwick's number for ἀκτὰς ἐπʼ ἀεξιφύλλους, our 696a; ἐπʼ printed with an asterisk, left out.
-701	the print divides τραπέ- | ζας and ἀτίμωσιν carries an asterisk (left out); apparatus 703 (ἀτίμως) is Sidgwick's number for the ἀτίμωσιν verse, our 701a.
-704	the print divides ἐκ- | φάτως: ἐκφάτως moved to the end of 704 (whole), 706 begins τίοντας.
+697	ἐπʼ printed with an asterisk, left out.
+701	the print divides τραπέ- | ζας and ἀτίμωσιν carries an asterisk (left out).
+705	the print divides ἐκ- | φάτως: ἐκφάτως moved to the end of 705 (whole), 706 begins τίοντας.
 708	the verse ends with a full stop in the print: written as printed.
-711	the print has a comma after στένει: added. 711a: no square brackets in the print (the OCR's "Τ]" is the Π of Πάριν); kept.
-713	παμπορθῆ and διαὶ (714) printed with asterisks: left out.
-714	Sidgwick's margin 715 stands beside αἰῶνα διαὶ πολιτᾶν, which by the Perseus-line rule is 714 (Perseus joins κικλήσκουσα Πάριν to 711-712, Sidgwick counts it as a line); numbering kept on the Perseus rule. His apparatus follows his count: 714 παμπρόσθη is our 713 (παμπορθῆ), 715 ἀμφὶ πολίταν is our 714 (διαὶ πολιτᾶν). His 705 likewise stands beside our 704.
-715	the print ends the verse with a raised stop: written as printed.
-716	the print divides ἶ- | νιν and οὔ- | τως: ἶνιν moved whole to the end of 716 (λέοντος printed with an asterisk, left out); the next verse begins δόμοις, which stands in Perseus 717, so it is numbered 717 (was 716a); οὕτως stays whole at its end (τως begins the next page). Apparatus 717 (λέοντα σίνιν) refers to λέοντος ἶνιν across 716-717.
+711	the print has a comma after στένει: added. 712: no square brackets in the print (the OCR's "Τ]" is the Π of Πάριν); kept.
+714	παμπορθῆ and διαὶ (715) printed with asterisks: left out.
+716	the print ends the verse with a raised stop: written as printed.
+717	the print divides ἶ- | νιν and οὔ- | τως: ἶνιν moved whole to the end of 717 (λέοντος printed with an asterisk, left out); οὕτως stays whole at the end of 718 (τως begins the next page). Apparatus 717 (λέοντα σίνιν) refers to λέοντος ἶνιν in 717.
+688	res: numbering, second pass: renumbered to the print. Margins 690 (ἐκ τῶν), 695 (πλατᾶν), 700 (τελεσσίφρων), 705 (πρασσομένα), 710 (Πριάμου), 715 (αἰῶνα διαὶ πολιτᾶν); apparatus 697, 703, 714, 715, 717. Sidgwick counts κικλήσκουσα Πάριν as a verse of its own. Changes: κυναγοὶ 693a→694; ἀκτὰς ἐπʼ ἀεξιφύλλους 696a→697 (apparatus 697); ἀτίμωσιν 701a→703 (apparatus 703; 702 is skipped, since the apparatus gives 703 to this verse and the margin 705 falls two verses later); καὶ ξυνεστίου 703→704; πρασσομένα ... ἐκφάτως 704→705 (margin 705); κικλήσκουσα Πάριν 711a→712; τὸν αἰνόλεκτρον 712→713; παμπορθῆ 713→714 (apparatus 714); αἰῶνα διαὶ πολιτᾶν 714→715 (margin and apparatus 715); μέλεον 715→716; ἔθρεψεν ... ἶνιν 716→717 (apparatus 717); δόμοις ... οὕτως 717→718.
+718	res: p-0057 (batch 05) follows only if its first verse, τως ἀνὴρ φιλόμαστον (numbered 718 there), becomes 719: the print's margin 720 stands two verses later at ἐν βιότου, so the count runs 715 αἰῶνα, 716, 717, 718 δόμοις, 719 ἀνὴρ φιλόμαστον, 720. Batch 05 is not changed here.

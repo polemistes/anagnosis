@@ -10,7 +10,7 @@
 360	μέγα δουλείας
 361	γάγγαμον, ἄτης παναλώτου.
 362	Δία τοι ξένιον μέγαν αἰδοῦμαι
-363	τὸν τάδε πράξαντʼ ἐπʼ Ἀλεξάνδρῳ
+363	τὸν τάδε πράξαντʼ, ἐπʼ Ἀλεξάνδρῳ
 364	τείνοντα πάλαι τόξον, ὅπως ἂν
 365	μήτε πρὸ καιροῦ μήθʼ ὑπὲρ ἄστρων
 366	βέλος ἠλίθιον σκήψειεν.
@@ -42,6 +42,7 @@
 374	the apparatus item is numbered 374 as printed; our numbering has no 374 (Perseus skips it), the item belongs to verses 373/375.
 378	the flagged square bracket is a pencil mark over the stop; the print has none. ἔστω is printed on this verse; ἀπή-|μαντον is written whole on 378 as in the draft.
 381	the print reads οὐ γάρ ἐστιν (enclitic), Perseus οὐ γὰρ ἔστιν; written as printed though not flagged (clear in the image and in the OCR).
+363	res: comma after πράξαντʼ, as printed (not in the residual list; clear in the image)
 
 === p-0044
 --- text
@@ -65,8 +66,8 @@
 401	ᾔσχυνε ξενίαν τράπεζαν κλοπαῖσι γυναικός.
 403	λιποῦσα δʼ ἀστοῖσιν ἀσπίστοράς
 404	τε καὶ κλόνους λογχίμους ναυβάτας θʼ ὁπλισμούς,
-406	ἄγουσά τʼ ἀντίφερνον Ἰλίῳ φθορὰν
-407	βέβακεν ῥίμφα διὰ πυλᾶν
+406	ἄγουσά τʼ ἀντίφερνον Ἰλίῳ φθοράν,
+407	βέβακεν ῥίμφα διὰ πυλᾶν,
 408	ἄτλητα τλᾶσα· πολλὰ δʼ ἔστενον
 409	τόδʼ ἐννέποντες δόμων προφῆται·
 410	ἰὼ ἰὼ δῶμα δῶμα καὶ πρόμοι,
@@ -87,6 +88,8 @@
 412	the print sets 412-413 between daggers (†πάρεστι ... ἰδεῖν.†); the daggers added, 412 otherwise as the draft.
 413	the print reads *αἴσχιστʼ ἀφειμένων (Perseus ἄλγιστʼ ἀφημένων); written as printed, in line with the apparatus "412. ... ἄδιστος ἀφεμένων MSS. corr. H.".
 412	in the apparatus the breathing on ἄδιστος looks the same as on ἄτιμος (smooth); copied as printed.
+406	res: φθοράν, with acute and comma, as printed
+407	res: comma after πυλᾶν, as printed
 
 === p-0045
 --- text
@@ -110,8 +113,8 @@
 433	οὓς μὲν γάρ τις ἔπεμψεν
 434	οἶδεν· ἀντὶ δὲ φωτῶν
 435	τεύχη καὶ σποδὸς εἰς ἑκάστου δόμους ἀφικνεῖται.
-437	ὁ χρυσαμοιβὸς δʼ Ἄρης σωμάτων
-438	καὶ ταλαντοῦχος ἐν μάχῃ δορὸς
+436	ὁ χρυσαμοιβὸς δʼ Ἄρης σωμάτων
+437	καὶ ταλαντοῦχος ἐν μάχῃ δορὸς
 440	πυρωθὲν ἐξ Ἰλίου
 441	φίλοισι πέμπει βαρὺ
 442	ψῆγμα δυσδάκρυτον ἀντήνορος
@@ -134,16 +137,17 @@
 430	the print reads πένθεια τλησικάρδιος (Perseus πένθειʼ ἀτλησικάρδιος); written as printed.
 433	the print reads *τις without angle brackets (Perseus ⟨τις⟩); brackets removed, the apparatus has "433. τις om. MSS. corr. Pors.".
 434	the print has a raised stop after οἶδεν (Perseus comma); written as printed though not flagged.
-437	the print begins verse 438 with καὶ (καὶ ταλαντοῦχος ἐν μάχῃ δορὸς); καὶ moved from the end of 437. The margin number 436 stands beside ὁ χρυσαμοιβὸς (our 437, the verse after the one that covers Perseus 435-436), and 440 beside πυρωθὲν as in our numbering; numbering kept.
+436	the print begins the next verse with καὶ (καὶ ταλαντοῦχος ἐν μάχῃ δορὸς); καὶ moved from the end of the verse before.
+436	res: renumbered to the print: the margin 436 stands beside ὁ χρυσαμοιβὸς (the draft's 437), 440 beside πυρωθὲν; ὁ χρυσαμοιβὸς ... σωμάτων is now 436 and καὶ ταλαντοῦχος ... δορὸς runs on as 437 (the draft's 438); 440 unchanged, 438-439 not used.
 
 === p-0046
 --- text
 446	μάχης ἴδρις· τὸν δʼ ἐν φοναῖς καλῶς πεσόντʼ
-448	ἀλλοτρίας διαὶ γυναικός· τὰ δὲ σῖγά τις βαΰζει·
-450	φθονερὸν δʼ ὑπʼ ἄλγος ἕρπει προδίκοις Ἀτρείδαις.
-452	οἱ δʼ αὐτοῦ περὶ τεῖχος
-453	θήκας Ἰλιάδος γᾶς
-454	εὔμορφοι κατέχουσιν· ἐχθρὰ δʼ ἔχοντας ἔκρυψεν.
+447	ἀλλοτρίας διαὶ γυναικός· τὰ δὲ σῖγά τις βαΰζει·
+448	φθονερὸν δʼ ὑπʼ ἄλγος ἕρπει προδίκοις Ἀτρείδαις.
+450	οἱ δʼ αὐτοῦ περὶ τεῖχος
+451	θήκας Ἰλιάδος γᾶς
+452	εὔμορφοι κατέχουσιν· ἐχθρὰ δʼ ἔχοντας ἔκρυψεν.
 456	βαρεῖα δʼ ἀστῶν φάτις ξὺν κότῳ·
 457	δημοκράντου δʼ ἀρᾶς τίνει χρέος.
 458	μένει δʼ ἀκοῦσαί τί μου
@@ -152,9 +156,9 @@
 462	ἄσκοποι θεοί· κελαιναὶ
 463	δʼ Ἐρινύες χρόνῳ
 464	τυχηρὸν ὄντʼ ἄνευ δίκας παλιντυχεῖ
-465	τριβᾷ βίου τιθεῖσʼ ἀμαυρόν, ἐν δʼ ἀίστοις
+465	τριβᾷ βίου τιθεῖσʼ ἀμαυρόν, ἐν δʼ ἀΐστοις
 467	τελέθοντος οὔτις ἀλκά· τὸ δʼ ὑπερκόπως κλύειν
-469	εὖ βαρύ· βάλλεται γὰρ ὄσσοις διόθεν κεραυνός.
+470	εὖ βαρύ· βάλλεται γὰρ ὄσσοις διόθεν κεραυνός.
 471	κρίνω δʼ ἄφθονον ὄλβον.
 472	μήτʼ εἴην πτολιπόρθης
 473	μήτʼ οὖν αὐτὸς ἁλοὺς ὑπʼ ἄλλων βίον κατίδοιμι.
@@ -172,19 +176,22 @@
 478	τοι . . . μὴ MSS. corr. Ahr.
 482	λόγους Fl. text Fa.
 --- notes
-447	the apparatus item is numbered 447 as printed; it refers to διαὶ and τὰ δὲ in our verse 448 (Perseus 448-449), there being no verse 447 in our numbering (446 covers Perseus 446-447).
+447	the apparatus item 447 refers to διαὶ and τὰ δὲ in verse 447 (renumbered to the print, see below).
 446	δʼ is printed on this verse. The print has ἴδρις· (raised stop, Perseus comma) and no dash after πεσόντʼ; written as printed.
-448	the print reads *διαὶ γυναικός· *τὰ δὲ σῖγά τις βαΰ-|ζει· (Perseus τάδε, comma after βαΰζει); τὰ δὲ written as printed, confirmed by the apparatus "447. διὰ MSS. τάδε MSS. corr. H." (numbered 447 as printed; the verse is our 448), βαΰζει written whole here by the rule for divided words, raised stop as printed.
-452	the margin 450 stands beside οἱ δʼ αὐτοῦ περὶ τεῖχος because the verse before it (ζει· φθονερὸν ... Ἀτρείδαις., our 450) fills the line; 456 beside βαρεῖα and 460 beside μέριμνα agree with our numbering, so 452 is kept. A speck after τεῖχος may be a raised stop or a blot; nothing added.
+447	the print reads *διαὶ γυναικός· *τὰ δὲ σῖγά τις βαΰ-|ζει· (Perseus τάδε, comma after βαΰζει); τὰ δὲ written as printed, confirmed by the apparatus "447. διὰ MSS. τάδε MSS. corr. H.", βαΰζει written whole here by the rule for divided words, raised stop as printed.
+450	res: renumbered to the print: the margin 450 stands beside οἱ δʼ αὐτοῦ περὶ τεῖχος (the draft's 452), 445 beside στένουσι (p-0045), 456 beside βαρεῖα; the verses between run on: ἀλλοτρίας ... βαΰζει 447 (was 448, and the apparatus numbers it 447), φθονερὸν ... Ἀτρείδαις 448 (was 450), οἱ δʼ αὐτοῦ 450 (was 452), θήκας 451 (was 453), εὔμορφοι ... ἔκρυψεν 452 (was 454); 456 unchanged.
+450	A speck after τεῖχος may be a raised stop or a blot; nothing added.
 461	the print divides 461-463 as τῶν πολυκτόνων γὰρ οὐκ | ἄσκοποι θεοί· κελαι-|ναὶ δʼ Ἐρινύες χρόνῳ; the draft's 461 and 462 redivided accordingly (462 ἄσκοποι θεοί· κελαιναὶ with κελαιναὶ written whole by the rule for divided words, 463 δʼ Ἐρινύες χρόνῳ). The print has a raised stop after θεοί (Perseus full stop).
 464	δίκας is printed on this verse (pencil brackets round παλιντυχεῖ τριβᾷ βίου are handwriting); unchanged.
-467	the print sets κλύειν indented on a line of its own under τὸ δʼ *ὑπερκόπως, as a turnover of this long verse; joined to 467 (the draft had it as 468). ὑπερκόπως in lower case as printed.
-469	the print reads διόθεν κεραυνός. (Perseus Διόθεν κάρανα.); written as printed (κάρανα beside it is pencil). The apparatus of the page has no item on it. Margin 470 beside this verse, which covers Perseus 469-470.
+467	the print sets κλύειν indented on a line of its own under τὸ δʼ *ὑπερκόπως, as a turnover of this long verse; joined to 467 (the draft had it as 468). Kept as 467: the apparatus item 467 ὑπερκότως names this verse. ὑπερκόπως in lower case as printed.
+470	the print reads διόθεν κεραυνός. (Perseus Διόθεν κάρανα.); written as printed (κάρανα beside it is pencil). The apparatus of the page has no item on it.
+470	res: renumbered to the print: the margin 470 stands beside εὖ βαρύ ... κεραυνός. (the draft's 469); 471 κρίνω and 475 πυρὸς follow unchanged.
 471	the print ends ὄλβον. with a full stop (Perseus ·); written as printed.
 477	the print reads ἐτητύμως (Perseus ἐτήτυμος); written as printed.
 478	the print has no dash after ψύθος. (Perseus .—); dash removed. *τι and *πῃ, asterisks left out.
 481	the print has a comma after καρδίαν; added.
 482	the print has no dash after καμεῖν; (Perseus ;—); dash removed.
+465	res: ἀΐστοις with diaeresis, as printed (ἀΐ-|στοις)
 
 === p-0049
 --- text
@@ -195,11 +202,11 @@
 487	γυναικογήρυτον ὄλλυται κλέος.
 488	τάχʼ εἰσόμεσθα λαμπάδων φαεσφόρων
 490	φρυκτωριῶν τε καὶ πυρὸς παραλλαγάς,
-491	εἴτʼ οὖν ἀληθεῖς εἶτʼ ὀνειράτων δίκην
+491	εἴτʼ οὖν ἀληθεῖς εἴτʼ ὀνειράτων δίκην
 492	τερπνὸν τόδʼ ἐλθὸν φῶς ἐφήλωσεν φρένας.
 493	κήρυκʼ ἀπʼ ἀκτῆς τόνδʼ ὁρῶ κατάσκιον
 494	κλάδοις ἐλαίας· μαρτυρεῖ δέ μοι κάσις
-495	πηλοῦ ξύνουρος διψία κόνις τάδε,
+495	πῆλου ξύνουρος διψία κόνις τάδε,
 496	ὡς οὔτʼ ἄναυδος οὔτε σοι δαίων φλόγα
 497	ὕλης ὀρείας σημανεῖ καπνῷ πυρός,
 498	ἀλλʼ ἢ τὸ χαίρειν μᾶλλον ἐκβάξει λέγων·
@@ -223,6 +230,8 @@
 484	the print has no dashes after ξυναινέσαι. (484), κλέος. (487) and πέλοι. (500), and λέγων· with a raised stop at 498 (Perseus λέγων—); written as printed.
 488	the print has no speaker mark here (Perseus begins a new Chorus speech); none added. Margin 490 beside φρυκτωριῶν agrees with our numbering.
 504	the print reads δεκάτῳ (Perseus δεκάτου); written as printed.
+491	res: the second εἴτʼ with acute, as printed
+495	res: πῆλου (circumflex on η, none on ου), as printed; clear in the enlarged image, probably a misprint for πηλοῦ
 
 === p-0050
 --- text
@@ -239,10 +248,10 @@
 521	δέξασθε κόσμῳ βασιλέα πολλῷ χρόνῳ.
 522	ἥκει γὰρ ὑμῖν φῶς ἐν εὐφρόνῃ φέρων
 523	καὶ τοῖσδʼ ἅπασι κοινὸν Ἀγαμέμνων ἄναξ.
-524	ἀλλʼ εὖ νιν ἀσπάσασθε, καὶ γὰρ οὖν πρέπει
+524	ἀλλʼ εὖ νιν ἀσπάσασθε, καὶ γὰρ οὖν πρέπει,
 525	Τροίαν κατασκάψαντα τοῦ δικηφόρου
 526	Διὸς μακέλλῃ, τῇ κατείργασται πέδον.
-527	βωμοὶ δʼ ἄιστοι καὶ θεῶν ἱδρύματα,
+527	βωμοὶ δʼ ἄϊστοι καὶ θεῶν ἱδρύματα,
 528	καὶ σπέρμα πάσης ἐξαπόλλυται χθονός.
 529	τοιόνδε Τροίᾳ περιβαλὼν ζευκτήριον
 530	ἄναξ Ἀτρείδης πρέσβυς εὐδαίμων ἀνὴρ
@@ -267,3 +276,5 @@
 532	πόλις is printed on this verse (under ink writing); unchanged.
 537	the print reads ἔτισαν (Perseus ἔτεισαν); written as printed.
 539	the print reads χαίρω *γε· without angle brackets (Perseus ⟨γε⟩) and οὐκ ἔτʼ as two words (Perseus οὐκέτʼ); written as printed, asterisk left out.
+527	res: ἄϊστοι with diaeresis, as printed
+524	res: comma after πρέπει, as printed (not in the residual list; clear in the image)
