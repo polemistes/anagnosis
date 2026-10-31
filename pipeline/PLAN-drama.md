@@ -339,7 +339,7 @@ purchase, promote. Then go on with the next play.
 
 - [x] Step 0: set-up (2026-11-01)
 - [x] Step 1: modules, tests, CLI (2026-11-01; tried on Agamemnon leaves 31-36, notes 150-151, introduction 11-12)
-- [ ] Agamemnon: 2 ✓ leaves · 3 draft · 4 text batches · 5 merge · 6 notes · 7 introduction · 8 translation, sigla, glossary, about · 9 build and pack
+- [ ] Agamemnon: 2 ✓ leaves · 3 ✓ draft · 4 text batches · 5 merge · 6 notes · 7 introduction · 8 translation, sigla, glossary, about · 9 build and pack
 - [ ] Choephoroi: 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9
 - [ ] Eumenides: 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9 · 10 group check
 - [ ] R1: reader 0.6.0
@@ -436,6 +436,14 @@ session sees where it stopped.
   the right; metrical labels (στρ. α΄., ἀντ. β΄., μεσῳδ.) in the right margin; the apparatus at
   the foot of the page, full measure, items "850. … MSS. corr. Pors."; the copy has a student's
   pencil notes in English between and beside the lines on many pages, and underlinings.
+* **2026-11-01, Agamemnon step 3.** Leaves 47-48 are the title page of Part II (Notes) and its
+  verso, bound in after p. 16: left out of the text leaves. The refrain 1489-1496 = 1513-1520
+  made difflib pair the print's first copy with Perseus's second and leave 1489-1512 unmatched;
+  drama_pages.realign now aligns again, by a full monotone alignment, the neighbourhood of every
+  stretch of 15 or more unmatched Perseus words, and takes it where it pairs clearly more words.
+  Draft: 59 pages, 1607 verses, 417 flagged (26 %), ten batches. Page 22 (leaf 52) prints no
+  apparatus. The agents' brief has a section for Sidgwick's pages (margin labels, handwriting,
+  apparatus format).
 
 ## Sizes, for planning
 

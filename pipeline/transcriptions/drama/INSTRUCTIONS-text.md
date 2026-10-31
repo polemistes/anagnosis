@@ -128,6 +128,24 @@ The flags, and what to do:
 * Where the text page has no apparatus (an edition that prints critical notes elsewhere), the
   section stays empty, and the first page's notes say "no apparatus on the text pages".
 
+## Each edition's page
+
+**Sidgwick's Aeschylus (Agamemnon, Choephoroi, Eumenides).** The speakers' abbreviations
+(ΚΛ., ΧΟ., ΑΓ., ΚΑ., ΚΗ., ΑΙ.) stand in the left margin; a new character's name is printed in
+capitals centred above the first speech (ΦΥΛΑΞ.); the margin numbers every fifth verse are at the
+right. The labels Sidgwick prints in the right margin of the lyrics (στρ. α΄., ἀντ. β΄., μεσῳδ.,
+ἐπῳδ.) are not part of the text: leave them out (the sections come from elsewhere). The scans
+are of students' copies: pencil notes in English between and beside the lines, underlinings,
+and in the Eumenides writing over the text. Ignore all handwriting; where it hides a word, look
+at the whole page, and if the print is still unreadable keep the draft's word and say so under
+notes. The apparatus is at the foot of the page, its items begin with the line number and a
+stop ("850. πήματος τρέψαι νόσον MSS. corr. Pors."): write `850<TAB>πήματος τρέψαι νόσον MSS.
+corr. Pors.`. Items in English ("7. Probably spurious.") are copied as printed. Sidgwick marks
+his own and others' conjectures in the text with an asterisk (*καλῶς): leave the asterisk out of
+the text (it stays in the apparatus if printed there). Where Perseus has an empty verse (a
+lacuna Smyth marks), the draft has nothing; if Sidgwick prints a verse there, add it with the
+number of the empty Perseus verse (the check sheet's flags say where).
+
 ## Checking
 
 Run, from `pipeline/`:

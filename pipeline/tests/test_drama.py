@@ -165,3 +165,25 @@ class AbbreviationTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class RealignTest(unittest.TestCase):
+    def test_refrain(self):
+        from anagnosis_pipeline.drama_pages import realign
+        from anagnosis_pipeline.gorgias_pages import align
+
+        def w(s):
+            return {"skel": s, "t": s}
+        refrain = [f"r{k}" for k in range(10)]
+        a = [f"a{k}" for k in range(20)]
+        b = [f"b{k}" for k in range(20)]
+        c = [f"c{k}" for k in range(40)]
+        pers = [w(x) for x in refrain + a + b + refrain + c]
+        # the print: the OCR garbled every second word of a and b, so the second refrain and c
+        # make the longest block
+        ocr = [w(x) for x in refrain + [x if k % 2 else x + "q" for k, x in enumerate(a + b)] + refrain + c]
+        match = align(ocr, pers)
+        realign(ocr, pers, match, run=10, reach=60)
+        self.assertEqual(match[0], 0)          # the first refrain to the first
+        self.assertEqual(match[50], 50)        # the second to the second
+        self.assertEqual(match[21], 21)

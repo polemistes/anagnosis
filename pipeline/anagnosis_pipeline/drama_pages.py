@@ -588,6 +588,90 @@ def _accent_letters(s: str) -> str:
     return re.sub(r"[^\w]", "", unicodedata.normalize("NFC", s.lower().replace(APOS, "")))
 
 
+def _dp_pairs(O: list[dict], P: list[dict]) -> list[tuple[int, int, float]]:
+    """The best monotone pairing of two word lists (as gorgias_pages._pair_gap, without its size
+    limit): a pair scores its similarity less 0.3, words may stay unpaired."""
+    n, m = len(O), len(P)
+    if not n or not m:
+        return []
+
+    def sim(a: str, b: str) -> float:
+        if a == b:
+            return 1.0
+        if not a or not b or abs(len(a) - len(b)) > 3 or (a[:2] != b[:2] and a[-2:] != b[-2:]):
+            return 0.0
+        return difflib.SequenceMatcher(None, a, b, autojunk=False).ratio()
+
+    prev = [0.0] * (m + 1)
+    back: list[bytearray] = []
+    os_ = [o["skel"] for o in O]
+    ps_ = [p["skel"] for p in P]
+    for i in range(1, n + 1):
+        cur = [0.0] * (m + 1)
+        bk = bytearray(m + 1)
+        a = os_[i - 1]
+        for j in range(1, m + 1):
+            best, how = prev[j], 1
+            if cur[j - 1] > best:
+                best, how = cur[j - 1], 2
+            s = sim(a, ps_[j - 1])
+            if s >= 0.45 and prev[j - 1] + s - 0.3 > best:
+                best, how = prev[j - 1] + s - 0.3, 3
+            cur[j] = best
+            bk[j] = how
+        back.append(bk)
+        prev = cur
+    pairs = []
+    i, j = n, m
+    while i > 0 and j > 0:
+        how = back[i - 1][j]
+        if how == 3:
+            pairs.append((i - 1, j - 1, sim(os_[i - 1], ps_[j - 1])))
+            i, j = i - 1, j - 1
+        elif how == 1:
+            i -= 1
+        else:
+            j -= 1
+    return pairs[::-1]
+
+
+def realign(ocr: list[dict], toks: list[dict], match: list[int | None], run: int = 15, reach: int = 250) -> int:
+    """Mend the global alignment where it has skipped a stretch: difflib joins blocks greedily, so
+    where a passage is repeated (a refrain) it may pair the print's first copy with Perseus's
+    second and leave everything between unmatched. Around every run of `run` or more unmatched
+    Perseus words the neighbourhood is aligned again by _dp_pairs, and taken if it pairs clearly
+    more words. Returns the number of stretches mended."""
+    mended = 0
+    j = 0
+    n = len(toks)
+    while j < n:
+        if match[j] is not None:
+            j += 1
+            continue
+        k = j
+        while k < n and match[k] is None:
+            k += 1
+        if k - j < run:
+            j = k
+            continue
+        lo, hi = max(0, j - reach), min(n, k + reach)
+        o_lo = next((match[x] + 1 for x in range(lo - 1, -1, -1) if match[x] is not None), 0)
+        o_hi = next((match[x] for x in range(hi, n) if match[x] is not None), len(ocr))
+        before = sum(1 for x in range(lo, hi) if match[x] is not None and toks[x].get("sim", 0) >= 1.0)
+        pairs = _dp_pairs(ocr[o_lo:o_hi], toks[lo:hi])
+        exact = sum(1 for _a, _b, s in pairs if s >= 1.0)
+        if exact > before + 5:
+            for x in range(lo, hi):
+                match[x] = None
+                toks[x]["sim"] = 0.0
+            for a, b, s in pairs:
+                match[lo + b] = o_lo + a
+                toks[lo + b]["sim"] = s
+            mended += 1
+        j = max(k, hi)
+    return mended
+
+
 def build_draft(play: Play, sources: Path) -> tuple[list[dict], dict[int, dict], list[dict], dict]:
     """The automatic text: verses {'n', 'leaf', 'text', 'speaker' (a new speaker's name, or
     None), 'flags', 'y0', 'y1', 'ocr', 'stages' (directions before the verse)}, the layouts, the
@@ -608,6 +692,9 @@ def build_draft(play: Play, sources: Path) -> tuple[list[dict], dict[int, dict],
         t["newsec"] = t["first"]
         t["para"] = t["newsp"]
     match = align_words(ocr, toks)
+    mended = realign(ocr, toks, match)
+    if mended:
+        print(f"{play.slug}: {mended} stretches aligned again (a repeated passage or a lost stretch)", file=sys.stderr)
     # the stretch of Perseus the pages hold (all of it once every text page is read): words far
     # before the first word found or after the last are not on these pages
     found = [j for j, o in enumerate(match) if o is not None]

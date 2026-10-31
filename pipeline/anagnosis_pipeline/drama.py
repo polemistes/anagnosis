@@ -112,9 +112,9 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          "Aeschylus: Agamemnon, with introduction and notes by A. Sidgwick, third edition, revised, Oxford, Clarendon Press, 1887",
          "agamemnonwithint00aescuoft", "sidgwick", "A. Sidgwick", "aeschylus_agamemnon_sidgwick",
          treebank="tlg0085.tlg005.perseus-grc1.tb.xml",
-         # text pp. 1-61; notes pp. 3-79 (Part II); introduction pp. vii-xxiii and the persons;
+         # text pp. 1-61 (leaves 47-48, the title of Part II, are bound in after p. 16); notes pp. 3-79 (Part II); introduction pp. vii-xxiii and the persons;
          # the manuscripts, the editors' abbreviations and the signs of the text: pp. xix-xxii
-         text_leaves=[(31, 91)], notes_leaves=[(93, 169)], intro_leaves=[(11, 27), (30, 30)], sigla_leaves=[23, 24, 25, 26],
+         text_leaves=[(31, 46), (49, 91)], notes_leaves=[(93, 169)], intro_leaves=[(11, 27), (30, 30)], sigla_leaves=[23, 24, 25, 26],
          trans_file="drama/tlg0085.tlg005.perseus-eng3.xml", translator="Herbert Weir Smyth", trans_key="smyth",
          trans_edition="Aeschylus, with an English translation by Herbert Weir Smyth, vol. II, Loeb Classical Library, 1926",
          trans_license="CC BY-SA 4.0 (Perseus Digital Library, modernized by Perseus)",
@@ -295,7 +295,8 @@ def perseus_play(path: Path) -> dict:
         _flatten(el, parts, [])
         words = _words_of("".join(parts))
         li = len(lines)
-        line = {"n": n, "base": base(n), "words": [], "gap": "\x00" in "".join(parts) and not words}
+        # a lost verse: Perseus marks a <gap>, or prints only metrical signs or nothing (Eum. 353-359)
+        line = {"n": n, "base": base(n), "words": [], "gap": not words and ("\x00" in "".join(parts) or not skel("".join(parts)))}
         lines.append(line)
         if line["gap"] and tokens:
             tokens[-1]["gap"] = True
