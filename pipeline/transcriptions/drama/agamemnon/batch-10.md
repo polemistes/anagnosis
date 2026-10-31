@@ -5,7 +5,7 @@
 1561	δύσμαχα δʼ ἐστὶ κρῖναι.
 1562	φέρει φέροντʼ, ἐκτίνει δʼ ὁ καίνων.
 1563	μίμνει δὲ μίμνοντος ἐν θρόνῳ Διὸς
-1564	παθεῖν τὸν ἔρξαντα· θέσμιον γάρ.
+1564	παθεῖν τὸν ἔρξαντα. θέσμιον γάρ·
 1565	τίς ἂν γονὰν ἀραῖον ἐκβάλοι δόμων;
 1566	κεκόλληται γένος πρὸς ἄτᾳ.
 @ Κλυταιμήστρα
@@ -13,7 +13,7 @@
 1568	χρησμός. ἐγὼ δʼ οὖν
 1569	ἐθέλω δαίμονι τῷ Πλεισθενιδῶν
 1570	ὅρκους θεμένη τάδε μὲν στέργειν,
-1571	δύστλητά περ ὄνθʼ· ὃ δὲ λοιπόν, ἰόντʼ
+1571	δύστλητά περ ὄνθʼ. ὃ δὲ λοιπόν, ἰόντʼ
 1572	ἐκ τῶνδε δόμων ἄλλην γενεὰν
 1573	τρίβειν θανάτοις αὐθένταισι.
 1574	κτεάνων τε μέρος
@@ -24,7 +24,7 @@
 1577	ὦ φέγγος εὖφρον ἡμέρας δικηφόρου.
 1578	φαίην ἂν ἤδη νῦν βροτῶν τιμαόρους
 1579	θεοὺς ἄνωθεν γῆς ἐποπτεύειν ἄχη,
-1580	ἰδὼν ὑφαντοῖς ἐν πέπλοις, Ἐρινύων
+1580	ἰδὼν ὑφαντοῖς ἐν πέπλοις Ἐρινύων
 1581	τὸν ἄνδρα τόνδε κείμενον φίλως ἐμοί,
 1582	χερὸς πατρῴας ἐκτίνοντα μηχανάς.
 1583	Ἀτρεὺς γὰρ ἄρχων τῆσδε γῆς, τούτου πατήρ,
@@ -38,12 +38,15 @@
 --- notes
 1560	margin number 1560 printed beside this verse; 1565, 1570, 1575, 1580 also stand where the draft has them.
 1561	the print has ἐστὶ (Perseus ἔστι): written as printed.
+1564	res: full stop after ἔρξαντα and raised stop after γάρ (the text had them the other way round), as printed.
 1567	ξὺν is printed on this verse (pencil over the end of ἐνέβης); ΚΛ. in the margin, so the speaker change stands.
 1568	the print has *χρησμός (Perseus χρησμόν), confirmed by the apparatus "1568. χρησμόν MSS.": written χρησμός; the line was not flagged.
 1569	no square brackets in the print (Tesseract read the capital Π as [Π); left as it is.
+1571	res: full stop after ὄνθʼ (not a raised stop), as printed.
 1575	the mark after πᾶν is a pencil stroke, not a printed comma; left without.
-1575a	μανίας μελάθρων is a separate printed verse, as in the draft.
+1575a	μανίας μελάθρων is a separate printed verse, as in the draft. The print's margin 1580 stands at ἰδὼν, so the print counts one verse fewer between 1575 and 1580: the letter stays.
 1578	the print has τιμαόρους, as Perseus.
+1580	res: no comma after πέπλοις, as printed.
 
 === p-0088
 --- text
@@ -52,7 +55,7 @@
 1586	ἠνδρηλάτησεν ἐκ πόλεώς τε καὶ δόμων.
 1587	καὶ προστρόπαιος ἑστίας μολὼν πάλιν
 1588	τλήμων Θυέστης μοῖραν εὕρετʼ ἀσφαλῆ,
-1589	τὸ μὴ θανὼν πατρῷον αἱμάξαι πέδον,
+1589	τὸ μὴ θανὼν πατρῷον αἱμάξαι πέδον.
 1590	[αὐτοῦ.] ξένια δὲ τοῦδε δύσθεος πατὴρ
 1591	[Ἀτρεύς, προθύμως μᾶλλον ἢ φίλως,] πατρὶ
 1592	τὠμῷ, κρεουργὸν ἦμαρ εὐθύμως ἄγειν
@@ -61,8 +64,8 @@
 1595	† ἔθρυπτʼ ἄνωθεν ἀνδρακὰς καθήμενος
 1596	ἄσημʼ· ὁ δʼ αὐτῶν αὐτίκʼ ἀγνοίᾳ λαβὼν †
 1597	ἔσθει βορὰν ἄσωτον, ὡς ὁρᾷς, γένει.
-1598	κἄπειτʼ ἐπιγνοὺς ἔργον οὐ καταίσιον
-1599	ᾤμωξεν, ἀμπίπτει δʼ † ἀπὸ σφαγὴν ἐρῶν, †
+1598	κἄπειτʼ ἐπιγνοὺς ἔργον οὐ καταίσιον,
+1599	ὤμωξεν, ἀμπίπτει δʼ † ἀπὸ σφαγὴν ἐρῶν, †
 1600	μόρον δʼ ἄφερτον Πελοπίδαις ἐπεύχεται,
 1601	λάκτισμα δείπνου ξυνδίκως τιθεὶς ἀρᾷ,
 1602	οὕτως ὀλέσθαι πᾶν τὸ Πλεισθένους γένος.
@@ -85,10 +88,13 @@
 --- notes
 1585	the print has τʼ (Perseus δʼ): written τʼ. αὑτοῦ has the rough breathing in the print, as in the draft.
 1588	the print has εὕρετʼ (Perseus ηὕρετʼ): written as printed.
+1589	res: full stop after πέδον (not a comma), as printed.
 1590	the print has [αὐτοῦ.] in square brackets (Perseus αὐτός·): written as printed.
 1591	the print brackets [Ἀτρεύς, προθύμως μᾶλλον ἢ φίλως,]: brackets added. The apparatus item is printed "1590-1." and written 1590-1591.
 1595	the print has a dagger before ἔθρυπτʼ, no comma after it and no stop at the end; it prints no gap after ἄνωθεν and no lost verse before 1595, so nothing added.
 1596	the print has *ἄσημʼ· ὁ δʼ (Perseus ἄσημα δʼ), confirmed by the apparatus "1596. ἄσημα δʼ MSS. text H. D.", and a dagger after λαβὼν: written as printed (the line was not flagged).
+1598	res: comma after καταίσιον, as printed.
+1599	res: ὤμωξεν with smooth breathing and acute and no iota subscript, as printed (Perseus ᾤμωξεν).
 1599	the print has daggers before ἀπὸ and after ἐρῶν, (the apparatus discusses ἀπὸ, σφαγὴν and ἐρῶν): added (the line was not flagged).
 1599	apparatus "ἄν. πίπτει MSS.": the first word is printed ἄν. with a full stop (an abbreviation of ἀμπίπτει's prefix); copied as printed.
 1600	the OCR's “τόοο” is the margin number 1600; nothing to change.
@@ -125,7 +131,7 @@
 @ Χορός
 1633	ὡς δὴ σύ μοι τύραννος Ἀργείων ἔσει,
 1634	ὃς οὐκ, ἐπειδὴ τῷδʼ ἐβούλευσας μόρον,
-1635	δρᾶσαι τόδʼ ἔργον οὐκ ἔτλης αὐτοκτόνως.
+1635	δρᾶσαι τόδʼ ἔργον οὐκ ἔτλης αὐτοκτόνως;
 @ Αἴγισθος
 1636	τὸ γὰρ δολῶσαι πρὸς γυναικὸς ἦν σαφῶς·
 1637	ἐγὼ δʼ ὕποπτος ἐχθρὸς ἦ παλαιγενής.
@@ -146,6 +152,7 @@
 1626	the print has *αἰσχύνας (Perseus αἰσχύνων), with the apparatus "1626. αἰσχύνουσʼ MSS. corr. Wieseler": written as printed.
 1632	the print has ἄξει· and φανεῖ. (Perseus ἄξῃ, φανῇ): both written as printed (only φανῇ was flagged; ἄξει is plain in the crop).
 1633	the print has ἔσει (Perseus ἔσῃ): written as printed. ΧΟ. in the margin: the speaker change stands.
+1635	res: question mark after αὐτοκτόνως (not a full stop), as printed.
 
 === p-0090
 --- text
@@ -201,6 +208,7 @@
 1646	the print has ἔκτειν'. with a full stop and a space before Ὀρέστης: corrected.
 1649	the print has γνώσει τάχα. (Perseus γνώσῃ, no stop): written as printed; ΑΙ. in the margin.
 1650	after 1649 the print has a line ΧΟ. followed by five asterisks (a lost verse of the chorus), with the margin number 1650 beside it: added as @ Χορός and a ! line, then @ Αἴγισθος (ΑΙ.) for εἶα δὴ φίλοι. The margin 1653 stands at δεχομένοις, the traditional 1653, so the asterisk line is not counted and 1650-1653 keep their numbers.
+1650	numbering checked again (second pass): the print sets its margin 1650 beside the asterisk line and 1653 beside δεχομένοις; the four verses between cannot meet both without letters, so the numbers that meet the later margin number (1653) are kept: εἶα δὴ φίλοι 1650, εἶα δή, ξίφος 1651, ἀλλὰ μὴν 1652, δεχομένοις 1653; the asterisk line stays an unnumbered ! line. Sidgwick's apparatus numbers 1653-1659 agree with this.
 1650	the print has εἶα δὴ φίλοι (no comma) and οὐκ (Perseus οὐχ): written as printed; τοὔργον is printed on this verse.
 1652	the print has ἀλλὰ μὴν κἀγὼ (Perseus ἀλλὰ κἀγὼ μὴν): word order as printed.
 1653	the verse runs over: αἱ-|ρούμεθα. on the next line (the unmatched “ρούμεθα. τόρ5” is that runover and the margin 1653); written whole, nothing added.
@@ -215,7 +223,7 @@
 --- text
 1661	ὧδʼ ἔχει λόγος γυναικός, εἴ τις ἀξιοῖ μαθεῖν.
 @ Αἴγισθος
-1662	ἀλλὰ τούσδʼ ἐμοὶ ματαίαν γλῶσσαν ὧδʼ ἀπανθίσαι
+1662	ἀλλὰ τούσδʼ ἐμοὶ ματαίαν γλῶσσαν ὧδʼ ἀπανθίσαι,
 1663	κἀκβαλεῖν ἔπη τοιαῦτα δαίμονος πειρωμένους,
 1664	σώφρονος γνώμης δʼ ἁμαρτεῖν, τὸν κρατοῦντά θʼ ὑβρίσαι.
 @ Χορός
@@ -223,7 +231,7 @@
 @ Αἴγισθος
 1666	ἀλλʼ ἐγώ σʼ ἐν ὑστέραισιν ἡμέραις μέτειμʼ ἔτι.
 @ Χορός
-1667	οὔκ, ἐὰν δαίμων, Ὀρέστην δεῦρʼ ἀπευθύνῃ μολεῖν.
+1667	οὔκ, ἐὰν δαίμων Ὀρέστην δεῦρʼ ἀπευθύνῃ μολεῖν.
 @ Αἴγισθος
 1668	οἶδʼ ἐγὼ φεύγοντας ἄνδρας ἐλπίδας σιτουμένους.
 @ Χορός
@@ -241,8 +249,10 @@
 1673	καλῶς Aur. Wanting in MSS.
 --- notes
 1661	margin numbers on this page: 1664 beside the runover ὑβρίσαι., 1670 beside ἴσθι μοι: the numbering agrees.
+1662	res: comma after ἀπανθίσαι, as printed.
 1664	the print has δʼ ἁμαρτεῖν, (Perseus θʼ, no comma) and *θʼ ὑβρίσαι without angle brackets (Sidgwick's asterisk, left out; the apparatus names Blomf.): written as printed. ὑβρίσαι. is the runover of this verse, printed indented on the next line: 1664a removed and joined to 1664.
 1666	ΑΙ. stands in the margin: the speaker change stands.
+1667	res: no comma after δαίμων, as printed.
 1670	the OCR's “τόγο” is the margin number 1670; nothing to change.
 1672	ΚΛ. in the margin (Tesseract read ΚΔ.): Κλυταιμήστρα stands. *ἐγὼ printed with an asterisk, no angle brackets: brackets removed.
 1673	*καλῶς printed with an asterisk, no angle brackets: brackets removed.

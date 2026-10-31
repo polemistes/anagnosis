@@ -61,6 +61,9 @@ def main(argv: list[str] | None = None) -> int:
     cdp = sub.add_parser("check-drama-prose", help="check prose batch files of a play (notes-NN.md, intro-NN.md, trans-NN.md)")
     cdp.add_argument("play")
     cdp.add_argument("files", nargs="+")
+    drs = sub.add_parser("drama-residuals", help="what the checked text and the OCR still disagree on, per page, for a second pass (drama_residuals.py)")
+    drs.add_argument("play")
+    drs.add_argument("files", nargs="*")
     mdr = sub.add_parser("merge-drama", help="texts/<play>/ from the checked batches of a play (drama.py), the treebank and the translation")
     mdr.add_argument("play")
     sub.add_parser("fetch-nt", help="download the New Testament sources into pipeline/sources/nt/ (SBLGNT, MACULA, Dodson, BSB)")
@@ -189,6 +192,11 @@ def main(argv: list[str] | None = None) -> int:
                 print("  " + p)
             bad += len(problems)
         return 1 if bad else 0
+    elif args.cmd == "drama-residuals":
+        from collections import Counter
+        from .drama_residuals import residuals
+        r = residuals(args.play, [Path(f) for f in args.files] or None)
+        print(f"{len(r)} residuals: " + ", ".join(f"{k} {v}" for k, v in Counter(x["kind"] for x in r).most_common()))
     elif args.cmd == "merge-drama":
         from .drama import merge_play
         return 1 if merge_play(args.play, SOURCES, TEXTS, ROOT / "pipeline" / "build", DATA / "lexicon.sqlite") else 0
