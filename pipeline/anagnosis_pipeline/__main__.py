@@ -48,6 +48,21 @@ def main(argv: list[str] | None = None) -> int:
     map_.add_argument("plays", nargs="*")
     isp = sub.add_parser("import-sophocles", help="texts/<play>/ for Sophocles' plays in Jebb's edition (sophocles.py): text, translation, tokens, syntax, commentary")
     isp.add_argument("plays", nargs="*", help="slugs (default: all): ajax electra oedipustyrannus oedipuscoloneus philoctetes trachiniae")
+    dp = sub.add_parser("drama-pages", help="a play's Greek text and apparatus by OCR (drama_pages.py): fetch | ocr | draft (pipeline/build/drama-pages/<play>/, pipeline/transcriptions/drama/<play>/)")
+    dp.add_argument("play")
+    dp.add_argument("step", choices=["fetch", "ocr", "draft"])
+    cdb = sub.add_parser("check-drama-batch", help="check text batch files of a play (pipeline/transcriptions/drama/<play>/batch-NN.md)")
+    cdb.add_argument("play")
+    cdb.add_argument("files", nargs="+")
+    dpr = sub.add_parser("drama-prose", help="a play's notes, introduction or translation by OCR (drama_prose.py): notes|intro|trans fetch|ocr|draft")
+    dpr.add_argument("play")
+    dpr.add_argument("kind", choices=["notes", "intro", "trans"])
+    dpr.add_argument("step", choices=["fetch", "ocr", "draft"])
+    cdp = sub.add_parser("check-drama-prose", help="check prose batch files of a play (notes-NN.md, intro-NN.md, trans-NN.md)")
+    cdp.add_argument("play")
+    cdp.add_argument("files", nargs="+")
+    mdr = sub.add_parser("merge-drama", help="texts/<play>/ from the checked batches of a play (drama.py), the treebank and the translation")
+    mdr.add_argument("play")
     sub.add_parser("fetch-nt", help="download the New Testament sources into pipeline/sources/nt/ (SBLGNT, MACULA, Dodson, BSB)")
     sub.add_parser("import-nt", help="texts/newtestament/ from the SBLGNT, MACULA, Dodson and the Berean Standard Bible")
     sub.add_parser("prepare-autenrieth-pages", help="page images and OCR drafts for transcribing Autenrieth's Homeric Dictionary (pipeline/build/autenrieth-pages/)")
@@ -143,6 +158,40 @@ def main(argv: list[str] | None = None) -> int:
         from .symposium_pages import prepare as prepare_symposium
         index = prepare_symposium(SOURCES, ROOT / "pipeline" / "build" / "symposium-pages")
         print(f"{len(index)} pages")
+    elif args.cmd == "drama-pages":
+        from . import drama_pages
+        drama_pages.main([args.play, args.step])
+    elif args.cmd == "check-drama-batch":
+        from .drama_pages import check_batch as check_drama
+        bad = 0
+        for f in args.files:
+            problems = check_drama(args.play, Path(f), SOURCES)
+            print(f"{f}: {len(problems)} remarks")
+            for p in problems:
+                print("  " + p)
+            bad += len(problems)
+        return 1 if bad else 0
+    elif args.cmd == "drama-prose":
+        from . import drama_prose
+        drama_prose.run(args.play, args.kind, args.step)
+    elif args.cmd == "check-drama-prose":
+        from .drama_prose import check_prose
+        bad = 0
+        for f in args.files:
+            kind = re.match(r"(notes|intro|trans)-", Path(f).name)
+            if not kind:
+                print(f"{f}: not a notes-, intro- or trans- file")
+                bad += 1
+                continue
+            problems = check_prose(args.play, kind.group(1), Path(f), TEXTS)
+            print(f"{f}: {len(problems)} remarks")
+            for p in problems:
+                print("  " + p)
+            bad += len(problems)
+        return 1 if bad else 0
+    elif args.cmd == "merge-drama":
+        from .drama import merge_play
+        return 1 if merge_play(args.play, SOURCES, TEXTS, ROOT / "pipeline" / "build", DATA / "lexicon.sqlite") else 0
     elif args.cmd == "fetch-nt":
         from .nt import fetch_nt
         fetch_nt(SOURCES)

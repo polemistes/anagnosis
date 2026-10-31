@@ -395,8 +395,27 @@ def analyse_leaf(leaf: int, voc, names: set[str], scan: str = SCAN) -> dict:
     lines = read_hocr(ocr_leaf(leaf, scan))
     mid = layout(lines)
     img = Image.open(build / "pages" / f"leaf_{leaf:04d}.png")
-    _, accented, english = voc
     order = column_order(lines)
+    flags = check_words(lines, order, img, voc, names, leaf)
+    page = {"leaf": leaf, "scan": scan, "mid": mid, "size": list(img.size), "lines": lines}
+    (build / "lines" / f"leaf_{leaf:04d}.json").write_text(json.dumps(page, ensure_ascii=False), encoding="utf-8")
+    text = []
+    for side in ("left", "right"):
+        text.append(f"## {side}")
+        for li, l in enumerate(lines):
+            if l["region"] == side:
+                text.append(f"{li:03d}\t" + " ".join(w["text"] for w in l["words"]))
+    (build / "text" / f"leaf_{leaf:04d}.txt").write_text("\n".join(text) + "\n", encoding="utf-8")
+    return {"leaf": leaf, "flags": flags, "repaired": sum(1 for l in lines for w in l["words"] if w.get("repaired")),
+            "words": sum(len(l["words"]) for l in lines if l["region"] in ("left", "right")),
+            "lines": sum(1 for l in lines if l["region"] in ("left", "right"))}
+
+
+def check_words(lines: list[dict], order: list[int], img, voc, names: set[str], leaf: int) -> list[dict]:
+    """The words of the lines `order` (in reading order) checked: suspect words read again with
+    the Greek model (a known Greek form replaces the OCR's word: w['repaired'], w['alt']), and
+    each word's problems (w['flags']). Returns the flags, one per suspect token."""
+    _, accented, english = voc
     for li in order:
         for w in lines[li]["words"]:
             w["ocr"] = w["text"]
@@ -492,18 +511,7 @@ def analyse_leaf(leaf: int, voc, names: set[str], scan: str = SCAN) -> dict:
             for k, tok in probs:
                 flags.append({"leaf": leaf, "line": li, "word": wi, "kind": k, "token": tok, "text": w["text"],
                               "alt": w.get("alt", ""), "conf": w["conf"]})
-    page = {"leaf": leaf, "scan": scan, "mid": mid, "size": list(img.size), "lines": lines}
-    (build / "lines" / f"leaf_{leaf:04d}.json").write_text(json.dumps(page, ensure_ascii=False), encoding="utf-8")
-    text = []
-    for side in ("left", "right"):
-        text.append(f"## {side}")
-        for li, l in enumerate(lines):
-            if l["region"] == side:
-                text.append(f"{li:03d}\t" + " ".join(w["text"] for w in l["words"]))
-    (build / "text" / f"leaf_{leaf:04d}.txt").write_text("\n".join(text) + "\n", encoding="utf-8")
-    return {"leaf": leaf, "flags": flags, "repaired": sum(1 for l in lines for w in l["words"] if w.get("repaired")),
-            "words": sum(len(l["words"]) for l in lines if l["region"] in ("left", "right")),
-            "lines": sum(1 for l in lines if l["region"] in ("left", "right"))}
+    return flags
 
 
 def proper_names(leaf_list: list[int], voc, scan: str = SCAN) -> set[str]:

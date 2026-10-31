@@ -338,7 +338,7 @@ purchase, promote. Then go on with the next play.
 ## Progress
 
 - [x] Step 0: set-up (2026-11-01)
-- [ ] Step 1: modules, tests, CLI
+- [x] Step 1: modules, tests, CLI (2026-11-01; tried on Agamemnon leaves 31-36, notes 150-151, introduction 11-12)
 - [ ] Agamemnon: 2 leaves · 3 draft · 4 text batches · 5 merge · 6 notes · 7 introduction · 8 translation, sigla, glossary, about · 9 build and pack
 - [ ] Choephoroi: 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9
 - [ ] Eumenides: 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9 · 10 group check
@@ -373,6 +373,52 @@ session sees where it stopped.
   `-141.wiki` (99 is the title page, 141 ends with the chorus's last lines). The AGDT files were
   already in `pipeline/sources/treebanks/`. Translators checked in the files: Smyth (Agamemnon
   eng3, Choephoroi and Eumenides eng2), Coleridge (Alcestis, Medea eng2), Buckley (Bacchae eng2).
+* **2026-11-01, step 1, leaves.** A leaf is the number of the scan's JPEG 2000 file
+  (`<scan>_0042.jp2`), as in gorgias_pages.py. The Archive's page images (`/page/n<N>_w700.jpg`)
+  count only the pages shown: for agamemnonwithint00aescuoft n = leaf − 1. The scan's
+  `<scan>_page_numbers.json` (archive.org/download/<scan>/) maps leaves to printed page numbers
+  and is the quickest way to find the text, notes and introduction at step 2.
+* **2026-11-01, step 1, page images.** Grey PNGs and hOCR are kept per scan in
+  `pipeline/build/drama-scans/<scan>/` (pages/, hocr/: `.grc.hocr` for the text route,
+  `.eng.hocr` for the prose route), shared by the text and prose routes; each route's folder
+  (`pipeline/build/drama-pages/<play>/`, `drama-prose/<play>/`) has `pages` as a link to them, so
+  the agents' paths `pages/leaf_0042.png` hold.
+* **2026-11-01, step 1, how the text route reads a Sidgwick page** (tried on Agamemnon leaves
+  31-36, whose copy has a student's pencil notes between and beside the lines). The apparatus is
+  found from the foot of the page upwards by its smaller type (Tesseract's `x_size`, verse about
+  50, apparatus about 42) and its item numbers ("103.": two or more digits read with confidence
+  70 or more), passing over handwriting (lines with no word read with confidence 75); a blank
+  band above it is not required, as the pencil notes often fill it. Lines without a confident
+  word are dropped as handwriting before the lines are put together; two OCR lines whose heights
+  overlap but whose words differ are kept as two verses; a line Tesseract skipped is read again
+  from the strip between its neighbours. The margin numbers are read per verse from the ink right
+  of its last confident word (English model, digits only) and only multiples of 5 within 8 of
+  the verse's number count. Perseus's `<q>` gets no quotation marks (the editions print none in
+  the verse); its `<del>`/`<add>` give [ ] and ⟨ ⟩, which the agents check against the print (a
+  flag says where the OCR shows brackets and the draft has none, or the reverse). Words Smyth
+  divides between verses (νε- | ῶν) are joined on the first verse in the check text as in ours.
+  Result on the six pages: 158 verses, 37 flagged (23 %), the apparatus found on every page.
+* **2026-11-01, step 1, numbering.** A verse whose first word stands in an earlier Perseus line
+  than the verse before keeps the numbers increasing (it takes the verse before's number with a
+  letter) and is flagged; Perseus's own lettered parts (15b) count as their line (15), so the
+  parts of a shared verse are numbered 15, 15a, 15b as for Sophocles. Where the print numbers a
+  verse otherwise (Agamemnon 49a, which Sidgwick prints as 50 because he divides 49-50 otherwise
+  than Smyth), the margin flag shows it and the agent renumbers to the print.
+* **2026-11-01, step 1, translations.** Perseus translations (Smyth, Coleridge): a stage
+  direction between verses becomes a `!` line, one inside a verse stays in parentheses; a
+  Perseus line number our text lacks goes with the nearest earlier line, and segments that fall
+  on the same line of ours are joined. The Athenian Society (Gutenberg) and Coleridge's Bacchantes
+  (Wikisource) are matched to the Greek speeches by speaker and length (drama.speech_segments)
+  and long speeches are cut about every ten Greek lines at sentence ends; their names are mapped
+  by `Play.speakers` (to be filled at the play's step 8).
+* **2026-11-01, step 1, the prose route** (tried on notes leaves 150-151 and introduction 11-12).
+  Tesseract's English model reads Sidgwick's "l. 1178." as "1. 1178.": the note pattern accepts
+  l, 1, I or |. Headings set in capitals become `# Title` in ordinary capitals and small letters
+  ("The Story and the Plot of the Agamemnon"); footnotes are found by their smaller type or by a
+  wider gap and a note's mark at the foot, and written `[Note: …]`; a line Tesseract lost (the
+  pencil underlining stretched its neighbour's box) is read again from the strip. The EGT word
+  checks were moved into `egt_ocr.check_words` (no change to the EGT's output: compared on leaf
+  150) so that the prose route uses them.
 
 ## Sizes, for planning
 
