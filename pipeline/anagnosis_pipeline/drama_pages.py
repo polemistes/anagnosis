@@ -1131,7 +1131,8 @@ def check_batch(slug: str, path: Path, sources: Path) -> list[str]:
         hi = max(base(w[2]) for w in words)
         # a few Perseus lines more on each side: a verse at the batch's edge may hold words of its
         # neighbour (what Perseus has beyond our first and last words is not reported)
-        pw = [(t["skel"], t["t"]) for t in pers["tokens"] if lo - 6 <= t["base"] <= hi + 6]
+        pw = [(skel(piece), piece) for t in pers["tokens"] if lo - 6 <= t["base"] <= hi + 6
+              for piece in re.split(r"[—–]+", t["t"]) if skel(piece)]
         import difflib
 
         ours = [w[0] for w in words]
@@ -1146,6 +1147,7 @@ def check_batch(slug: str, path: Path, sources: Path) -> list[str]:
                 theirs_cut = pw[b1 - (a1 - a0):b1] if a0 == 0 else pw[b0:b0 + (a1 - a0)]
                 if [p[0] for p in theirs_cut] == ours[a0:a1]:
                     continue
+                b0, b1 = (b1 - (a1 - a0), b1) if a0 == 0 else (b0, b0 + (a1 - a0))  # the neighbours' words are not ours
             where = words[a0][2] if a0 < len(words) else words[-1][2]
             mine = " ".join(w[1] for w in words[a0:a1]) or "(nothing)"
             theirs = " ".join(p[1] for p in pw[b0:b1]) or "(nothing)"
