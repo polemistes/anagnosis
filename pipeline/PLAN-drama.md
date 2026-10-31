@@ -339,7 +339,7 @@ purchase, promote. Then go on with the next play.
 
 - [x] Step 0: set-up (2026-11-01)
 - [x] Step 1: modules, tests, CLI (2026-11-01; tried on Agamemnon leaves 31-36, notes 150-151, introduction 11-12)
-- [ ] Agamemnon: 2 leaves · 3 draft · 4 text batches · 5 merge · 6 notes · 7 introduction · 8 translation, sigla, glossary, about · 9 build and pack
+- [ ] Agamemnon: 2 ✓ leaves · 3 draft · 4 text batches · 5 merge · 6 notes · 7 introduction · 8 translation, sigla, glossary, about · 9 build and pack
 - [ ] Choephoroi: 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9
 - [ ] Eumenides: 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9 · 10 group check
 - [ ] R1: reader 0.6.0
@@ -419,6 +419,23 @@ session sees where it stopped.
   pencil underlining stretched its neighbour's box) is read again from the strip. The EGT word
   checks were moved into `egt_ocr.check_words` (no change to the EGT's output: compared on leaf
   150) so that the prose route uses them.
+* **2026-11-01, Agamemnon step 2.** Scan agamemnonwithint00aescuoft is the third edition,
+  revised (Oxford 1887), Part I (introduction and text) and Part II (notes) in one scan; leaf = n + 1.
+  Text pp. 1-61 = leaves 31-91 (line 1 on leaf 31, 1664-1673 on leaf 91); notes pp. 3-79 = leaves
+  93-169 (Part II begins at p. 3; leaf 92 blank); introduction pp. vii-xxiii = leaves 11-27, and
+  the list of persons (ΤΑ ΤΟΥ ΔΡΑΜΑΤΟΣ ΠΡΟΣΩΠΑ) on leaf 30, which goes into introduction.md as
+  "## The persons of the drama" (the Sophocles rule); leaves 28 blank, 29 half-title. The
+  chapters "The Editions" (with the abbreviations of the editors the apparatus cites) and
+  "Translations" are lists: left out of introduction.md as the brief says, but the abbreviations
+  go into sigla.md with the manuscripts (pp. xix-xx) and the signs of the text (p. xxii: * before
+  a conjecture, † where no reading satisfies): sigla leaves 23-26. The Appendices (pp. 80-85,
+  leaves 170-175: "The remote deliberative", Verrall on τόπος/τοπάζω) are neither notes on lines
+  nor the introduction: left out. Layout seen on leaves 31-36, 60-61, 90-91: running head with
+  the page number; the speakers' abbreviations (ΚΛ., ΧΟ., ΑΙ.) in the left margin, a new
+  speaker's name centred above the first speech (ΦΥΛΑΞ.); the margin numbers every fifth line at
+  the right; metrical labels (στρ. α΄., ἀντ. β΄., μεσῳδ.) in the right margin; the apparatus at
+  the foot of the page, full measure, items "850. … MSS. corr. Pors."; the copy has a student's
+  pencil notes in English between and beside the lines on many pages, and underlinings.
 
 ## Sizes, for planning
 
