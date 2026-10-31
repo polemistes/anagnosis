@@ -4,16 +4,16 @@
 1232	ἔστιν.—τί νιν καλοῦσα δυσφιλὲς δάκος
 1233	τύχοιμʼ ἄν; ἀμφίσβαιναν, ἢ Σκύλλαν τινὰ
 1234	οἰκοῦσαν ἐν πέτραισι, ναυτίλων βλάβην,
-1235	θύουσαν Ἅιδου μητέρʼ ἄσπονδόν τʼ Ἄρη
+1235	θύουσαν Ἅιδου μητέρʼ, ἄσπονδόν τʼ Ἄρη
 1236	φίλοις πνέουσαν; ὡς δʼ ἐπωλολύξατο
-1237	ἡ παντότολμος, ὥσπερ ἐν μάχης τροπῇ,
+1237	ἡ παντότολμος, ὥσπερ ἐν μάχης τροπῇ.
 1238	δοκεῖ δὲ χαίρειν νοστίμῳ σωτηρίᾳ.
 1239	καὶ τῶνδʼ ὅμοιον εἴ τι μὴ πείθω· τί γάρ;
 1240	τὸ μέλλον ἥξει. καὶ σύ μʼ ἐν τάχει παρὼν
 1241	ἄγαν ἀληθόμαντιν οἰκτείρας ἐρεῖς.
 @ Χορός
 1242	τὴν μὲν Θυέστου δαῖτα παιδείων κρεῶν
-1243	ξυνῆκα καὶ πέφρικα, καὶ φόβος μʼ ἔχει
+1243	ξυνῆκα καὶ πέφρικα· καὶ φόβος μʼ ἔχει
 1244	κλύοντʼ ἀληθῶς οὐδὲν ἐξῃκασμένα.
 1245	τὰ δʼ ἄλλʼ ἀκούσας ἐκ δρόμου πεσὼν τρέχω.
 @ Κασάνδρα
@@ -50,8 +50,11 @@
 --- notes
 1231	the print has τοιᾷδε τόλμῃ (iota subscripts, no stop after τόλμῃ), Perseus τοιάδε τόλμα·.
 1232	the print has ἔστιν.—τί (stop and dash).
+1235	res: comma after μητέρʼ, as printed.
+1237	res: full stop after τροπῇ, as printed.
 1241	the print has no γʼ and spells οἰκτείρας.
 1242	the speaker flags on 1242-1256 are wrong: the print has ΧΟ. and ΚΑ. in the margin at each change, as in the draft; speakers kept.
+1243	res: raised stop after πέφρικα, as printed.
 1250	the print has κατεύχει.
 1251	the print has ἄχος; πορσύνεται; stands on this line.
 1252	the print has lower-case τἄρʼ (the capital was the OCR's) and a full stop after ἐμῶν.
@@ -61,7 +64,7 @@
 1259	λύκῳ, λέοντος εὐγενοῦς ἀπουσίᾳ,
 1260	κτενεῖ με τὴν τάλαιναν· ὡς δὲ φάρμακον
 1261	τεύχουσα κἀμοῦ μισθὸν ἐνθήσειν κότῳ
-1262	ἐπεύχεται, θήγουσα φωτὶ φάσγανον
+1262	ἐπεύχεται, θήγουσα φωτὶ φάσγανον,
 1263	ἐμῆς ἀγωγῆς ἀντιτίσασθαι φόνον.
 1264	τί δῆτʼ ἐμαυτῆς καταγέλωτʼ ἔχω τάδε,
 1265	καὶ σκῆπτρα καὶ μαντεῖα περὶ δέρῃ στέφη;
@@ -83,7 +86,7 @@
 1281	μητροκτόνον φίτυμα, ποινάτωρ πατρός·
 1282	φυγὰς δʼ ἀλήτης τῆσδε γῆς ἀπόξενος
 1283	κάτεισιν, ἄτας τάσδε θριγκώσων φίλοις·
-1284	ὀμώμοται γὰρ ὅρκος ἐκ θεῶν μέγας,
+1284	ὀμώμοται γὰρ ὅρκος ἐκ θεῶν μέγας
 1285	† ἄξειν νιν ὑπτίασμα κειμένου πατρός.
 1286	τί δῆτʼ ἐγὼ κάτοικτος ὧδʼ ἀναστένω;
 --- apparatus
@@ -94,20 +97,22 @@
 1284	MSS. read this after 1290. corr. H.
 1286	κάτοικος MSS. corr. Scal.
 --- notes
+1262	res: comma after φάσγανον, as printed.
 1263	the print has ἀντιτίσασθαι.
 1267	the print sets 1267 and 1268 as two verses (margin 1270 at χρηστηρίαν confirms); split. The print reads πεσόντα θʼ (asterisk before θʼ, left out) and ἀμείψομαι· where Perseus has γʼ and ἀμείβομαι.
 1267	apparatus: ἀγαθῶ printed with circumflex; no iota subscript visible (a pencil underline runs under the word).
 1272	the print has no comma after διχορρόπως (seen on the whole page while checking 1271-1273).
 1273	καλουμένη δὲ printed on this line as in the draft; the marks after δὲ and ἀγύρτρια are pencil.
+1284	res: no comma after μέγας, as printed.
 1285	the print has the dagger, † ἄξειν; the draft's capital Ἄξειν came from the OCR reading the dagger as a letter.
 
 === p-0077
 --- text
 1287	ἐπεὶ τὸ πρῶτον εἶδον Ἰλίου πόλιν
-1288	πράξασαν ὡς ἔπραξεν, οἳ δʼ εἷλον πόλιν
+1288	πράξασαν ὡς ἔπραξεν, οἳ δʼ εἷλον πόλιν,
 1289	οὕτως ἀπαλλάσσουσιν ἐν θεῶν κρίσει,
 1290	ἰοῦσα πράξω· τλήσομαι τὸ κατθανεῖν.
-1291	Ἅιδου πύλας δὲ τάσδʼ ἐγὼ προσεννέπω·
+1291	Ἅιδου πύλας δὲ τάσδʼ ἐγὼ προσεννέπω.
 1292	ἐπεύχομαι δὲ καιρίας πληγῆς τυχεῖν,
 1293	ὡς ἀσφάδαστος, αἱμάτων εὐθνησίμων
 1294	ἀπορρυέντων, ὄμμα συμβάλω τόδε.
@@ -119,7 +124,7 @@
 @ Κασάνδρα
 1299	οὐκ ἔστʼ ἄλυξις, οὔ, ξένοι, χρόνον πλέω.
 @ Χορός
-1300	ὁ δʼ ὕστατός γε τοῦ χρόνου πρεσβεύεται,
+1300	ὁ δʼ ὕστατός γε τοῦ χρόνου πρεσβεύεται.
 @ Κασάνδρα
 1301	ἥκει τόδʼ ἦμαρ· σμικρὰ κερδανῶ φυγῇ.
 @ Χορός
@@ -131,19 +136,19 @@
 @ Κασάνδρα
 1305	ἰὼ πάτερ, σοῦ τῶν τε γενναίων τέκνων.
 @ Χορός
-1306	τί δʼ ἐστὶ χρῆμα; τίς σʼ ἀποστρέφει φόβος;
+1306	τί δʼ ἐστὶ χρῆμα, τίς σʼ ἀποστρέφει φόβος;
 @ Κασάνδρα
 1307	φεῦ φεῦ.
 @ Χορός
 1308	τί τοῦτʼ ἔφευξας; εἴ τι μὴ φρενῶν στύγος.
 @ Κασάνδρα
-1309	φόνον δόμοι πνέουσιν αἱματοσταγῆ,
+1309	φόνον δόμοι πνέουσιν αἱματοσταγῆ.
 @ Χορός
-1310	καί πῶς; τόδʼ ὄζει θυμάτων ἐφεστίων.
+1310	καὶ πῶς; τόδʼ ὄζει θυμάτων ἐφεστίων.
 @ Κασάνδρα
-1311	ὅμοιος ἀτμὸς ὥσπερ ἐκ τάφου πρέπει,
+1311	ὅμοιος ἀτμὸς ὥσπερ ἐκ τάφου πρέπει.
 @ Χορός
-1312	οὐ Σύριον ἀγλάισμα δώμασιν λέγεις.
+1312	οὐ Σύριον ἀγλάϊσμα δώμασιν λέγεις.
 @ Κασάνδρα
 1313	ἀλλʼ εἶμι κἀν δόμοισι κωκύσουσʼ ἐμὴν
 1314	Ἀγαμέμνονός τε μοῖραν. ἀρκείτω βίος.
@@ -153,10 +158,18 @@
 1299	χρόνῳ MSS.
 1309	φόβον MSS., but Fa. has ν over the β.
 --- notes
+1288	res: comma after πόλιν, as printed.
+1291	res: full stop after προσεννέπω, as printed.
+1300	res: full stop after πρεσβεύεται, as printed.
 1300	the speaker flags on 1300, 1302 and 1304 are wrong: the print has ΧΟ./ΚΑ. in the margin at every change.
 1303	the print sets 1304 before 1303 and gives the speakers otherwise than Perseus: ΧΟ. ἀλλʼ ἴσθι (1302), ΚΑ. ἀλλʼ εὐκλεῶς τοι κατθανεῖν χάρις βροτῷ (1304), ΧΟ. οὐδεὶς ἀκούει ταῦτα τῶν εὐδαιμόνων (1303), then ΚΑ. ἰὼ (1305, margin 1305). Written in the print's order with the traditional numbers, so 1304 stands before 1303 (the checker's numbering remark here is expected). A student's pencil swaps the two speaker marks back; the printed ΚΑ. and ΧΟ. are clear under it. The apparatus says nothing of it.
 1304	printed before 1303 (see the note on 1303); the checker's word comparison for 1303/1304 follows from the order only, the words of both verses are Perseus's.
 1305	the print has σοῦ τῶν (Perseus σῶν) and a comma after πάτερ; the comma after ἰὼ is pencil, left out.
+1306	res: comma after χρῆμα (not a question mark), as printed.
+1309	res: full stop after αἱματοσταγῆ, as printed (seen on the whole page).
+1310	res: καὶ with the grave, as printed.
+1311	res: full stop after πρέπει, as printed.
+1312	res: ἀγλάϊσμα with the diaeresis, as printed (seen on the whole page); the stroke after λέγεις is pencil, the printed full stop kept.
 
 === p-0078
 --- text
@@ -184,8 +197,8 @@
 1333	οὔτις ἀπειπὼν εἴργει μελάθρων,
 1334	μηκέτʼ ἐσέλθῃς, τάδε φωνῶν.
 1335	καὶ τῷδε πόλιν μὲν ἑλεῖν ἔδοσαν
-1336	μάκαρες Πριάμου·
-1337	θεοτίμητος δʼ οἴκαδʼ ἱκάνει.
+1336	μάκαρες Πριάμου,
+1337	θεοτίμητος δʼ οἴκαδʼ ἱκάνει·
 1338	νῦν δʼ εἰ προτέρων αἷμʼ ἀποτίσει,
 1339	καὶ τοῖσι θανοῦσι θανὼν ἄλλων
 1340	ποινὰς θανάτων ἐπικραίνει,
@@ -207,6 +220,8 @@
 1328	the print has σκιᾷ (asterisk left out) and πρέψειεν, as the apparatus says (σκιᾷ Con., πρέψειεν H.).
 1330	the print has οἰκτείρω.
 1331	the speaker flag is wrong: ΧΟ. is printed in the margin.
+1336	res: comma after Πριάμου, as printed.
+1337	res: raised stop after ἱκάνει, as printed.
 1338	the print has ἀποτίσει, with a comma.
 1340	the print has ἐπικραίνει (asterisk left out).
 1341	the print has εὔξαιτο βροτὸς ὢν (asterisk before βροτὸς left out), no angle brackets; the apparatus gives βροτῶν MSS. corr. Bothe.
@@ -289,8 +304,8 @@
 1377	ἐμοὶ δʼ ἀγὼν ὅδʼ οὐκ ἀφρόντιστος πάλαι
 1378	νείκης παλαιᾶς ἦλθε, σὺν χρόνῳ γε μήν·
 1379	ἕστηκα δʼ ἔνθʼ ἔπαισʼ ἐπʼ ἐξειργασμένοις.
-1380	οὕτω δʼ ἔπραξα, καὶ τάδʼ οὐκ ἀρνήσομαι·
-1381	ὡς μήτε φεύγειν μήτʼ ἀμύνασθαι μόρον,
+1380	οὕτω δʼ ἔπραξα, καὶ τάδʼ οὐκ ἀρνήσομαι
+1381	ὡς μήτε φεύγειν μήτʼ ἀμύνασθαι μόρον.
 1382	ἄπειρον ἀμφίβληστρον, ὥσπερ ἰχθύων,
 1383	περιστιχίζω, πλοῦτον εἵματος κακόν.
 1384	παίω δέ νιν δίς· κἀν δυοῖν οἰμώγμασι
@@ -316,6 +331,8 @@
 1368	ΗΜ. printed in the margin at 1368 and 1370 (the half-chorus speeches continue from the page before): written as @ Χορός; Perseus's dashes are not printed and are removed. The print has πέρι. with a full stop; asterisk before θυμοῦσθαι left out.
 1375	ἀρκύστατʼ ἂν printed on this line (asterisk before πημονῆς left out).
 1376	the print has no comma after φράξειεν (seen while checking 1375).
+1380	res: no stop after ἀρνήσομαι, as printed (seen while checking 1381).
+1381	res: full stop after μόρον, as printed.
 1381	the print has ἀμύνασθαι (the MSS. reading; the apparatus names ἀμύνεσθαι as Victorius's).
 1384	the print has οἰμώγμασι (Perseus οἰμωγμάτοιν).
 1385	the print has αὐτοῦ with the smooth breathing (at 1388 it prints αὑτοῦ, as the draft has).

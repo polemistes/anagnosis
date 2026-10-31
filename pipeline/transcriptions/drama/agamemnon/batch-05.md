@@ -1,30 +1,30 @@
 === p-0057
 --- text
-718	ἀνὴρ φιλόμαστον,
+719	ἀνὴρ φιλόμαστον,
 720	ἐν βιότου προτελείοις
-721	ἅμερον, εὐφιλόπαιδα
+721	ἅμερον, εὐφιλόπαιδα,
 722	καὶ γεραροῖς ἐπίχαρτον.
 723	πολέα δʼ ἔσκʼ ἐν ἀγκάλαις,
 724	νεοτρόφου τέκνου δίκαν,
-725	φαιδρωπὸς ποτὶ χεῖρα σαίνων
+725	φαιδρωπὸς ποτὶ χεῖρα, σαίνων
 726	τε γαστρὸς ἀνάγκαις.
 727	χρονισθεὶς δʼ ἀπέδειξεν ἦθος
 728	τὸ πρὸς τοκέων· χάριν
-729	γὰρ τροφεῦσιν ἀμείβων
+729	γὰρ τροφεῦσιν ἀμείβων,
 730	μηλοφόνοισι σὺν ἄταις
 731	δαῖτʼ ἀκέλευστος ἔτευξεν·
-732	αἵματι δʼ οἶκος ἐφύρθη,
+732	αἵματι δʼ οἶκος ἐφύρθη·
 733	ἄμαχον ἄλγος οἰκέταις,
-734	μέγα σίνος πολυκτόνον.
+734	μέγα σίνος πολυκτόνον·
 735	ἐκ θεοῦ δʼ ἱερεύς τις ἄτας
 736	δόμοις προσεθρέφθη.
 737	παρʼ αὐτὰ δʼ ἐλθεῖν ἐς Ἰλίου πόλιν
 738	λέγοιμʼ ἂν φρόνημα μὲν
-739	νηνέμου γαλάνας,
-740	ἀκασκαῖον δʼ ἄγαλμα πλούτου,
-741	μαλθακὸν ὀμμάτων βέλος,
-742	δηξίθυμον ἔρωτος ἄνθος.
-743	παρακλίνασʼ ἐπέκρανεν
+740	νηνέμου γαλάνας,
+741	ἀκασκαῖον δʼ ἄγαλμα πλούτου,
+742	μαλθακὸν ὀμμάτων βέλος,
+743	δηξίθυμον ἔρωτος ἄνθος.
+744	παρακλίνασʼ ἐπέκρανεν
 745	δὲ γάμου πικρὰς τελευτάς,
 746	δύσεδρος καὶ δυσόμιλος
 --- apparatus
@@ -43,10 +43,17 @@
 733	the print has οἰκέταις with a comma; written as printed (the OCR's οἰκέται was a misreading).
 736	the draft's capital Π (from the OCR) is lower case in the print: προσεθρέφθη.
 737	the print reads παρʼ αὐτὰ as two words (Perseus πάραυτα), confirmed by the apparatus "737. πάραυτα MSS."; written as printed. πόλιν is printed (the OCR's πόλν a misreading).
-739	Sidgwick's margin prints 740 beside νηνέμου γαλάνας (our 739) and 745 beside δηξίθυμον (our 742); his apparatus numbers ἀκασκαῖον 741 and παρακλίνασʼ 745, and on p-0058 his 750 stands at παλαίφατος as in Perseus. His count here follows another colometry and is not self-consistent; his printed verses match Perseus's lines one for one, and renumbering to his margin would need lettered numbers before 750, so the Perseus numbers 737-749 are kept.
-740	the print reads ἀκασκαῖον *δʼ without angle brackets; written without them.
-741	apparatus "741. MSS. om. δʼ." is Sidgwick's number; it refers to ἀκασκαῖον δʼ, our 740.
-745	apparatus "745. παρακλίνουσʼ Fa." is Sidgwick's number; it refers to παρακλίνασʼ, our 743.
+721	res: comma after εὐφιλόπαιδα, as printed
+725	res: comma after χεῖρα, as printed
+729	res: comma after ἀμείβων, as printed
+732	res: raised stop after ἐφύρθη (was a comma), as printed
+734	res: raised stop after πολυκτόνον (was a full stop), as printed; the dot stands at mid-height where a pen stroke begins, nothing at the foot of the line
+719	res: τως at the head of the page is the end of οὕτως, written whole at the end of the last verse of p-0056 (718); nothing added.
+719	res: numbering: the second pass on batch-04 renumbered p-0056 to the print, which ends at 718 (δόμοις ἀγάλακτον οὕτως); ἀνὴρ φιλόμαστον is therefore 719 (was 718), and Sidgwick's margin 720 stands on the next verse, ἐν βιότου, as numbered. Nothing after it moves.
+740	numbering, second pass: Sidgwick's margin prints 737 at παρʼ αὐτὰ, 740 at νηνέμου γαλάνας, 745 at δηξίθυμον, and on p-0058 750 at παλαίφατος. 745 at δηξίθυμον and 750 at παλαίφατος cannot both be met without letters (six verses between them for four numbers), so by the rule the later one (750) is kept and 745 is given up; 737 and 740 can both be met. Renumbered by the print: νηνέμου 739→740, ἀκασκαῖον 740→741, μαλθακὸν 741→742, δηξίθυμον 742→743, παρακλίνασʼ 743→744 (739 is now skipped); δὲ γάμου 745 onwards unchanged. His apparatus 741 (ἀκασκαῖον δʼ) now agrees.
+741	the print reads ἀκασκαῖον *δʼ without angle brackets; written without them.
+741	apparatus "741. MSS. om. δʼ." refers to ἀκασκαῖον δʼ, our 741.
+745	apparatus "745. παρακλίνουσʼ Fa." is Sidgwick's number (his count, which puts 745 at δηξίθυμον in the margin, is not self-consistent here); it refers to παρακλίνασʼ, our 744.
 
 === p-0058
 --- text
@@ -70,12 +77,12 @@
 765	ἐν κακοῖς βροτῶν
 766	ὕβριν τότʼ ἢ τόθʼ, ὅτε τὸ κύριον μόλῃ
 767	φάος τόκου,
-768	δαίμονά τε τὰν ἄμαχον ἀπόλεμον,
-769	ἀνίερον θράσος, μελαίνας μελάθροισιν ἄτας,
+768	δαίμονά τε τὰν ἄμαχον, ἀπόλεμον,
+770	ἀνίερον θράσος, μελαίνας μελάθροισιν ἄτας,
 771	εἰδομένας τοκεῦσιν.
 772	δίκα δὲ λάμπει μὲν ἐν
 773	δυσκάπνοις δώμασιν,
-775	τὸν δʼ ἐναίσιμον τίει [βίον].
+775	τὸν δʼ ἐναίσιμον τίει [βίον]·
 776	τὰ χρυσόπαστα δʼ ἔδεθλα σὺν πίνῳ χερῶν
 777	παλιντρόποις
 --- apparatus
@@ -87,22 +94,27 @@
 775	βίον MSS. prob. corrupt.
 776	ἐσθλὰ MSS. corr. Aurat.
 --- notes
-747	no margin number was read by the OCR: the print has 750 at παλαίφατος, 755 at ἐκ δʼ ἀγαθᾶς, 760 at σφετέρᾳ, 765 at ζουσαν ἐν κακοῖς, 770 at ἀνίερον θράσος (our 769, which covers Perseus 769-770), 775 at τὸν δʼ ἐναίσιμον: the numbering agrees.
+747	no margin number was read by the OCR: the print has 750 at παλαίφατος, 755 at ἐκ δʼ ἀγαθᾶς, 760 at σφετέρᾳ, 765 at ζουσαν ἐν κακοῖς, 770 at ἀνίερον θράσος, 775 at τὸν δʼ ἐναίσιμον.
 751	the draft's capital Τ (from the OCR) is lower case in the print: τέτυκται.
 753	the print reads θνήσκειν (acute, no iota subscript; Perseus θνῄσκειν); written as printed.
 755	apparatus "755. γὰρ δυσσεβές MSS." is Sidgwick's number; it refers to τὸ δυσσεβὲς γὰρ ἔργον, our 758.
 757	the print divides εἰ-|μί. between 757 and 758, with a full stop after it (Perseus ·); written whole at the end of 757 with the print's stop.
 762	the print reads ἀεί (Perseus αἰεί); written as printed.
 763	the print has ὕβρις in lower case (Perseus Ὕβρις); written as printed.
-769	the print has θράσος and ἄτας in lower case (Perseus Θράσος, Ἄτας); written as printed.
+770	the print has θράσος and ἄτας in lower case (Perseus Θράσος, Ἄτας); written as printed.
 769	apparatus "769. τὸν MSS. ἄμαχον om. Fa." is Sidgwick's number; it refers to τὰν ἄμαχον, our 768.
 772	the print has δίκα in lower case (Perseus Δίκα); written as printed.
+768	res: comma after ἄμαχον, as printed
+770	numbering, second pass: Sidgwick's margin prints 770 beside ἀνίερον θράσος (the draft's 769, covering Perseus 769-770); the margin number wins, so the verse is renumbered 769→770 and 769 is skipped (765 ζουσαν, 766, 767, 768 δαίμονα run on from 765). His apparatus numbers δαίμονα 769 ("769. τὸν MSS."), our 768; kept as printed.
+775	res: raised stop after [βίον] (was a full stop), as printed; not in the residual list, seen on the page.
+751	res: ἀντ. γ΄. and (773) ἀντ. δ΄. in the right margin are Sidgwick's labels: left out.
+757	res: εἰμμί is the OCR's misreading of εἰ-|μί.: unchanged.
 776	the print sets παλιντρόποις on a line of its own after χερῶν; split, the second verse numbered 777 (Perseus line of its first word).
 
 === p-0059
 --- text
 778	ὄμμασι λιποῦσʼ ὅσια προσέμολε
-779	δύναμιν οὐ σέβουσα πλούτου παράσημον αἴνῳ·
+780	δύναμιν οὐ σέβουσα πλούτου παράσημον αἴνῳ·
 781	πᾶν δʼ ἐπὶ τέρμα νωμᾷ.
 782	ἄγε δή, βασιλεῦ, Τροίας πτολίπορθʼ,
 783	Ἀτρέως γένεθλον,
@@ -136,8 +148,10 @@
 803	ἑκούσιον MSS. text Franz.
 806	πόνος MSS. πνόος Weil.
 --- notes
-778	the print has no comma after λιποῦσʼ and none at the end of the verse; written as printed. The margin numbers read on the page (780 at δύναμιν, our 779 covering Perseus 779-780; 785, 790, 795, 800, 805) agree with ours.
-779	αἴνῳ· is printed at the end of this verse.
+778	the print has no comma after λιποῦσʼ and none at the end of the verse; written as printed. The margin numbers read on the page (780 at δύναμιν, 785, 790, 795, 800, 805) agree with ours after the renumbering of 780 below.
+780	αἴνῳ· is printed at the end of this verse.
+780	numbering, second pass: Sidgwick's margin prints 780 beside δύναμιν οὐ σέβουσα (the draft's 779, covering Perseus 779-780); the margin number wins, so the verse is renumbered 779→780 and 779 is skipped. His apparatus "779. προσέβα του" refers to προσέμολε, our 778; kept as printed.
+805	res: the mark after ἀφίλως is grey and blurred, unlike the print's stops: a pencil smudge, unchanged.
 779	apparatus: του is printed with no accent visible (a pencil stroke crosses the τ, the space above ου is clean); copied as printed.
 796	the print reads φωτὸς with a grave and no comma (Perseus φωτός,); written as printed.
 800	the print reads *σʼ without angle brackets (Perseus ⟨σʼ⟩); written without them.
@@ -155,7 +169,7 @@
 810	πρῶτον μὲν Ἄργος καὶ θεοὺς ἐγχωρίους
 811	δίκη προσειπεῖν, τοὺς ἐμοὶ μεταιτίους
 812	νόστου δικαίων θʼ ὧν ἐπραξάμην πόλιν
-813	Πριάμου· δίκας γὰρ οὐκ ἀπὸ γλώσσης θεοὶ
+813	Πριάμου. δίκας γὰρ οὐκ ἀπὸ γλώσσης θεοὶ
 814	κλύοντες ἀνδροκμῆτας Ἰλίου φθορὰς
 815	εἰς αἱματηρὸν τεῦχος οὐ διχορρόπως
 816	ψήφους ἔθεντο· τῷ δʼ ἐναντίῳ κύτει
@@ -165,7 +179,7 @@
 820	σποδὸς προπέμπει πίονας πλούτου πνοάς.
 821	τούτων θεοῖσι χρὴ πολύμνηστον χάριν
 822	τίνειν, ἐπείπερ καὶ πάγας ὑπερκότους
-823	ἐφραξάμεσθα καὶ γυναικὸς οὕνεκα
+823	ἐφραξάμεσθα, καὶ γυναικὸς οὕνεκα
 824	πόλιν διημάθυνεν Ἀργεῖον δάκος,
 825	ἵππου νεοσσός, ἀσπιδοστρόφος λεώς,
 826	πήδημʼ ὀρούσας ἀμφὶ Πλειάδων δύσιν·
@@ -186,6 +200,9 @@
 814	the print reads ἀνδροκμῆτας (Perseus ἀνδροθνῆτας); written as printed.
 815	the print reads εἰς (Perseus ἐς); written as printed.
 819	the print reads συνθνήσκουσα (acute, no iota subscript; Perseus συνθνῄσκουσα), seen on the image though not flagged; written as printed, as at 753 and 804.
+813	res: full stop after Πριάμου (was a raised stop), as printed
+817	res: the print has προσῄει with acute and iota subscript, as the text: unchanged.
+823	res: comma after ἐφραξάμεσθα, as printed
 822	καὶ is printed on this verse (the OCR missed it under a pencil underlining).
 825	the print reads ἀσπιδοστρόφος (Perseus ἀσπιδηφόρος; the OCR read ἀσπιδοστρόφως), seen on the image though not flagged; written as printed.
 
@@ -193,9 +210,9 @@
 --- text
 835	ἄχθος διπλοίζει τῷ πεπαμένῳ νόσον,
 836	τοῖς τʼ αὐτὸς αὑτοῦ πήμασιν βαρύνεται
-837	καὶ τὸν θυραῖον ὄλβον εἰσορῶν στένει.
-838	εἰδὼς λέγοιμʼ ἄν, εὖ γὰρ ἐξεπίσταμαι
-839	ὁμιλίας κάτοπτρον, εἴδωλον σκιᾶς
+837	καὶ τὸν θυραῖον ὄλβον εἰσορῶν στένει·
+838	εἰδὼς λέγοιμʼ ἄν, εὖ γὰρ ἐξεπίσταμαι,
+839	ὁμιλίας κάτοπτρον, εἴδωλον σκιᾶς,
 840	δοκοῦντας εἶναι κάρτα πρευμενεῖς ἐμοί.
 841	μόνος δʼ Ὀδυσσεύς, ὅσπερ οὐχ ἑκὼν ἔπλει,
 842	ζευχθεὶς ἕτοιμος ἦν ἐμοὶ σειραφόρος·
@@ -216,7 +233,7 @@
 856	οὐκ αἰσχυνοῦμαι τοὺς φιλάνορας τρόπους
 857	λέξαι πρὸς ὑμᾶς· ἐν χρόνῳ δʼ ἀποφθίνει
 858	τὸ τάρβος ἀνθρώποισιν. οὐκ ἄλλων πάρα
-859	μαθοῦσʼ, ἐμαυτῆς δύσφορον λέξω βίον
+859	μαθοῦσʼ, ἐμαυτῆς δύσφορον λέξω βίον,
 860	τοσόνδʼ ὅσονπερ οὗτος ἦν ὑπʼ Ἰλίῳ.
 861	τὸ μὲν γυναῖκα πρῶτον ἄρσενος δίχα
 862	ἧσθαι δόμοις ἔρημον ἔκπαγλον κακόν,
@@ -226,6 +243,11 @@
 863	ἡδονὰς MSS. corr. Aur.
 --- notes
 838	no square brackets in the print: what the OCR took for a bracket is a pencil line in the left margin beside 838-840. Unchanged.
+837	res: raised stop after στένει (was a full stop), as printed; not in the residual list, seen on the page.
+838	res: comma after ἐξεπίσταμαι, as printed (the comma stands at the foot of the line, partly under a pencil smudge).
+839	res: comma after σκιᾶς, as printed
+842	res: the print has ἦν (smooth breathing, circumflex), as the text; likewise 860: unchanged.
+859	res: comma after βίον, as printed
 844	Sidgwick begins a verse with λέγω (Perseus ends 843 with it) and his margin has 845 two verses later at κοινοὺς, so his λέγω. τὰ δʼ ἄλλα is 844: renumbered by the print (the draft had 843a), as Agamemnon 50.
 854	δʼ is printed after νίκη (the OCR read it as ὃ). Unchanged.
 855	ΚΛ. in the left margin: @ Κλυταιμήστρα as in the draft. Margin numbers 835, 840, 845, 850, 855, 860 agree.
@@ -240,7 +262,7 @@
 868	φάτις, τέτρηται δικτύου πλέον λέγειν.
 869	εἰ δʼ ἦν τεθνηκώς, ὡς ἐπλήθυον λόγοι,
 870	τρισώματός τἂν Γηρυὼν ὁ δεύτερος
-871	[πολλὴν ἄνωθεν, τὴν κάτω γὰρ οὐ λέγω,]
+871	[πολλὴν ἄνωθεν, τὴν κάτω γὰρ οὐ λέγω]
 872	χθονὸς τρίμοιρον χλαῖναν ἐξηύχει λαβεῖν,
 873	ἅπαξ ἑκάστῳ κατθανὼν μορφώματι.
 874	τοιῶνδʼ ἕκατι κληδόνων παλιγκότων
@@ -269,6 +291,9 @@
 878	πιστευμάτων MSS. corr. H.
 --- notes
 864	δʼ is printed after τὸν (the OCR missed it). Unchanged. Margin numbers 865, 870, 875, 880, 885, 890 agree.
+869	res: the print has ἦν (smooth breathing, circumflex), as the text: unchanged.
+870	res: the print has τἂν (coronis, grave), as the text: unchanged.
+871	res: no comma after λέγω inside the bracket (λέγω]), as printed
 867	the draft's capital Ο (from the OCR) is lower case in the print: οἶκον.
 878	apparatus: πιστευ-|μάτων is divided at the end of a line of the apparatus; written whole.
 889	the print reads ὄμμασι (Perseus ὄμμασιν) and has a comma after ἔχω; written as printed.

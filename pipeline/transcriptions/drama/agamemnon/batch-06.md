@@ -4,16 +4,16 @@
 893	ῥιπαῖσι θωύσσοντος, ἀμφί σοι πάθη
 894	ὁρῶσα πλείω τοῦ ξυνεύδοντος χρόνου.
 895	νῦν ταῦτα πάντα τλᾶσʼ ἀπενθήτῳ φρενὶ
-896	λέγοιμʼ ἂν ἄνδρα τόνδε τῶν σταθμῶν κύνα,
+896	λέγοιμʼ ἂν ἄνδρα τόνδε, τῶν σταθμῶν κύνα,
 897	σωτῆρα ναὸς πρότονον, ὑψηλῆς στέγης
 898	στῦλον ποδήρη, μονογενὲς τέκνον πατρί,
 899	καὶ γῆν φανεῖσαν ναυτίλοις παρʼ ἐλπίδα,
 900	κάλλιστον ἦμαρ εἰσιδεῖν ἐκ χείματος,
-901	ὁδοιπόρῳ διψῶντι πηγαῖον ῥέος·
+901	ὁδοιπόρῳ διψῶντι πηγαῖον ῥέος.
 902	τερπνὸν δὲ τἀναγκαῖον ἐκφυγεῖν ἅπαν.
 903	τοιοῖσδέ τοί νιν ἀξιῶ προσφθέγμασιν.
 904	φθόνος δʼ ἀπέστω· πολλὰ γὰρ τὰ πρὶν κακὰ
-905	ἠνειχόμεσθα. νῦν δέ μοι, φίλον κάρα,
+905	ἠνειχόμεσθα· νῦν δέ μοι, φίλον κάρα,
 906	ἔκβαινʼ ἀπήνης τῆσδε, μὴ χαμαὶ τιθεὶς
 907	τὸν σὸν πόδʼ, ὦναξ, Ἰλίου πορθήτορα.
 908	δμωαί, τί μέλλεθʼ, αἷς ἐπέσταλται τέλος
@@ -28,12 +28,17 @@
 916	μακρὰν γὰρ ἐξέτεινας· ἀλλʼ ἐναισίμως
 917	αἰνεῖν, παρʼ ἄλλων χρὴ τόδʼ ἔρχεσθαι γέρας·
 918	καὶ τἄλλα μὴ γυναικὸς ἐν τρόποις ἐμὲ
-919	ἅβρυνε, μηδὲ βαρβάρου φωτὸς δίκην
+919	ἅβρυνε μηδὲ βαρβάρου φωτὸς δίκην
 920	χαμαιπετὲς βόαμα προσχάνῃς ἐμοί,
 921	μηδʼ εἵμασι στρώσασʼ ἐπίφθονον πόρον
 --- apparatus
 903	τοίνυν MSS. corr. Schütz.
 --- notes
+896	res: comma after τόνδε, as printed
+901	res: full stop after ῥέος (was a raised stop), as printed
+905	res: raised stop after ἠνειχόμεσθα (was a full stop), as printed; not in the residual list, seen on the page.
+908	res: δμωαί as printed (the OCR's ὃμωαί a misreading): unchanged.
+919	res: no comma after ἅβρυνε, as printed (the round bracket round βαρβάρου ... δίκην is pencil)
 899	καὶ is printed at the start of the line (the OCR missed it under a pencil mark).
 908	The print reads δμωαί (no circumflex, no iota subscript) where Perseus has δμῳαί; written as printed.
 909	πετάσμασιν; is printed at the end of this line.
@@ -102,7 +107,7 @@
 954	αὕτη δὲ πολλῶν χρημάτων ἐξαίρετον
 955	ἄνθος, στρατοῦ δώρημʼ, ἐμοὶ ξυνέσπετο.
 956	ἐπεὶ δʼ ἀκούειν σοῦ κατέστραμμαι τάδε,
-957	εἶμʼ ἐς δόμων μέλαθρα πορφύρας πατῶν.
+957	εἶμʼ ἐς δόμων μέλαθρα, πορφύρας πατῶν.
 @ Κλυταιμήστρα
 958	ἔστιν θάλασσα, τίς δέ νιν κατασβέσει;
 959	τρέφουσα πολλῆς πορφύρας ἰσάργυρον
@@ -119,13 +124,13 @@
 970	ὅταν δὲ τεύχῃ Ζεὺς ἀπʼ ὄμφακος πικρᾶς
 971	οἶνον, τότʼ ἤδη ψῦχος ἐν δόμοις πέλει,
 972	ἀνδρὸς τελείου δῶμʼ ἐπιστρωφωμένου.
-973	Ζεῦ, Ζεῦ τέλειε, τὰς ἐμὰς εὐχὰς τέλει·
+973	Ζεῦ Ζεῦ τέλειε, τὰς ἐμὰς εὐχὰς τέλει·
 974	μέλοι δέ τοι σοὶ τῶνπερ ἂν μέλλῃς τελεῖν.
 @ Χορός
 975	τίπτε μοι τόδʼ ἐμπέδως
 976	δεῖμα προστατήριον
 977	καρδίας τερασκόπου ποτᾶται,
-978	μαντιπολεῖ δʼ ἀκέλευστος ἄμισθος ἀοιδά,
+978	μαντιπολεῖ δʼ ἀκέλευστος ἄμισθος ἀοιδά·
 --- apparatus
 959	εἰς ἄργυρον MSS.
 965	μηχανωμένης MSS. corr. H.
@@ -138,6 +143,10 @@
 963	πολλῶν is printed at the start of this line (a pencil cross beside it).
 965	The print reads κόμιστρα, as in the draft.
 967	σκιὰν is printed at the start of this line.
+957	res: comma after μέλαθρα, as printed
+973	res: no comma after the first Ζεῦ (Ζεῦ Ζεῦ τέλειε), as printed; the print has no stop after the second Ζεῦ either, and τέλει· with a raised stop, as the text.
+978	res: raised stop after ἀοιδά (was a comma), as printed; not in the residual list, seen on the page.
+975	res: στρ. α΄. in the right margin is Sidgwick's label: left out. The margin 975 stands at τίπτε, as numbered.
 974	The print has τῶνπερ as one word; written as printed.
 
 === p-0066
@@ -160,11 +169,11 @@
 996	πρὸς ἐνδίκοις φρεσὶν τελεσφόροις
 997	δίναις κυκλούμενον κέαρ.
 998	εὔχομαι δʼ ἀπʼ ἐμᾶς τοιαῦτʼ
-999	ἐλπίδος ψύθη πεσεῖν
+999	ἐλπίδος ψύθη πεσεῖν,
 1000	ἐς τὸ μὴ τελεσφόρον.
 1001	μάλα γέ τοι τὸ μεγάλας ὑγιείας
 1002	ἀκόρεστον τέρμα. νόσος γὰρ ἀεὶ
-1003	γείτων ὁμότοιχος ἐρείδει.
+1003	γείτων ὁμότοιχος ἐρείδει,
 1005	καὶ πότμος εὐθυπορῶν
 !	* * * * *
 1007	ἀνδρὸς ἔπαισεν ἄφαντον ἕρμα.
@@ -190,6 +199,9 @@
 997	The print reads κυκλούμενον; written as printed.
 998	The print reads εὔχομαι δʼ ἀπʼ ἐμᾶς *τοιαῦτʼ (τοιαῦτʼ circled in pencil, but printed); written as printed, asterisk left out.
 1002	The print adds *ἀεὶ at the end of the verse and has a full stop after τέρμα; written as printed (line not flagged, checked on the page; see the apparatus "om. ἀεὶ MSS.").
+999	res: comma after πεσεῖν, as printed
+1003	res: comma after ἐρείδει (was a full stop), as printed
+984	res: the OCR's υμνησίων and μβ are pieces of πρυμνησίων *ξυνεμβολαῖς, and (985) παρή- βησεν, the divided παρήβησεν, written whole on 985: nothing added.
 1005	The print has a row of five asterisks after 1005 for the lost verse 1006; written as a ! line.
 1006	The apparatus item 1006 ("line omitted probably.") refers to the lost verse, which the text marks with the ! line of asterisks after 1005; the checker's remark that 1006 is not on the page is expected.
 1008	The print reads καὶ τὸ μὲν πρὸ χρημάτων (the pencil note beside it gives the other reading); written as printed.
@@ -197,7 +209,7 @@
 === p-0067
 --- text
 1009	κτησίων ὄκνος βαλών,
-1010	σφενδόνας ἀπʼ εὐμέτρου,
+1010	σφενδόνας ἀπʼ εὐμέτρου,—
 1011	οὐκ ἔδυ πρόπας δόμος
 1012	πημονᾶς γέμων ἄγαν,
 1013	οὐδʼ ἐπόντισε σκάφος.
@@ -217,15 +229,15 @@
 1029	γλῶσσαν ἂν τάδʼ ἐξέχει.
 1030	νῦν δʼ ὑπὸ σκότῳ βρέμει
 1031	θυμαλγής τε καὶ οὐδὲν ἐπελπομένα ποτὲ καίριον
-1032	ἐκτολυπεύσειν
+1032	ἐκτολυπεύσειν,
 1033	ζωπυρουμένας φρενός.
 @ Κλυταιμήστρα
 1035	εἴσω κομίζου καὶ σύ, Κασσάνδραν λέγω,
 1036	ἐπεί σʼ ἔθηκε Ζεὺς ἀμηνίτως δόμοις
 1037	κοινωνὸν εἶναι χερνίβων, πολλῶν μετὰ
-1038	δούλων σταθεῖσαν κτησίου βωμοῦ πέλας·
+1038	δούλων, σταθεῖσαν κτησίου βωμοῦ πέλας.
 1039	ἔκβαινʼ ἀπήνης τῆσδε, μηδʼ ὑπερφρόνει.
-1040	καὶ παῖδα γάρ τοί φασιν Ἀλκμήνης ποτὲ
+1040	καὶ παῖδα γάρ τοι φασὶν Ἀλκμήνης ποτὲ
 --- apparatus
 1019	πεσόνθʼ ἅπαξ MSS.
 1024	αὖτʼ ἔπαυσεν MSS. text Hartung. ἐπʼ ἀβλαβείᾳ γε Fa. text Fl.
@@ -233,6 +245,12 @@
 1009	The print reads βαλών, (acute, comma); written as printed.
 1014	ἐξ is printed at the end of this verse; ἀλόκων ἐπετειᾶν is set as a separate indented verse (1015).
 1019	The apparatus item 1019 (πεσόνθʼ ἅπαξ) refers to πεσὸν ἅπαξ in our verse 1017 (Sidgwick numbers this verse 1019 in the apparatus; his margin has 1020 on the next verse).
+1010	res: the print ends the verse εὐμέτρου,— (comma and dash); dash added as printed; not in the residual list, seen on the page.
+1032	res: comma after ἐκτολυπεύσειν, as printed
+1038	res: comma after δούλων, and a full stop after πέλας (was a raised stop), as printed
+1040	res: the print reads γάρ τοι φασὶν (τοι unaccented, grave on φασὶν; the text had τοί φασιν); written as printed.
+1017	numbering, second pass: Sidgwick's margin prints 1015 at ἀλόκων ἐπετειᾶν and 1020 at προπάροιθʼ; the verses between run on from 1015 (νῆστιν 1016, τὸ δʼ ἐπὶ γᾶν 1017), so the verse stays 1017 and the apparatus keeps Sidgwick's printed 1019. The other margin numbers (1010, 1025, 1030, 1035, 1040) agree.
+1020	res: ἀντ. β΄. in the right margin is Sidgwick's label: left out.
 1020	The print reads προπάροιθʼ where the draft had Perseus's πρόπαρ (not flagged, but the OCR and the page agree); written as printed.
 1023	ἀνάγειν is printed at the end of this line.
 1024	The draft's capital Ἀ came from the OCR; the print has *ἀπέπαυσεν (asterisk left out) and a dagger after the question mark; written as printed.
@@ -283,6 +301,7 @@
 1055	θυραίαν τήνδʼ MSS.
 --- notes
 1041	The print reads καὶ ζυγῶν θιγεῖν βίᾳ. where Perseus has δουλίας μάζης τυχεῖν (the pencil box round the words and the pencil note above are handwriting); written as printed.
+1041	res: the stop after βίᾳ is under the end of a pencil box; a mark stands at the foot of the line and the sentence ends here, so the full stop is kept (OCR read none). Margin numbers 1045, 1050, 1055, 1060, 1065 agree.
 1045	The draft's capital Τ came from the OCR; the print has τε.
 1046	The print has οἷάπερ as one word; written as printed.
 1048	The print reads ἐντὸς δʼ *ἁλοῦσα ... ἀγρευμάτων, (asterisk left out); written as printed.
