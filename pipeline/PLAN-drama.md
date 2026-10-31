@@ -1,0 +1,376 @@
+# Nine plays: Aeschylus' Oresteia, Aristophanes' Clouds, Frogs and Lysistrata, Euripides' Medea, Bacchae and Hippolytus
+
+Decided with the author on 2026-11-01. This file is the brief: follow it step by step in the
+order given, tick the steps off under **Progress**, write every choice the brief does not settle
+under **Decisions**, and commit after each step (this file with it). All steps are done on
+Opus 5.5; no step needs another model. The author is travelling and will not answer questions
+while the work runs: **never stop to ask**. Where the brief leaves something open, take the
+choice that keeps the data closest to the printed page, write it under Decisions, and go on.
+The work may be cut off at any moment (connection, battery): every step below saves its result
+to disk as it goes and can be run again from where it stopped.
+
+The texts are sold inside the reader as before (app/PLAN-in-app-purchases.md): one asset pack and
+one in-app product per play. What the author must do in Play Console is collected under
+**For the author** at the end of each release step; it never blocks the next play.
+
+## How to work from this brief
+
+* **Order**: Agamemnon, Choephoroi, Eumenides, Clouds, Medea, Frogs, Bacchae, Hippolytus,
+  Lysistrata. Finish a play's steps before the next play's, except that the long OCR jobs
+  (fetch, ocr) of the next play may run in the background meanwhile.
+* **Resuming after an interruption**: `git status`, `git log -5`, read Progress and Decisions
+  here, run the checker on the batch files that were being written (they are appended page by
+  page, so a file may end in the middle of a batch: continue from the first missing page, which
+  `grep '^=== p-' file` shows), then continue with the first unticked step. The fetch, OCR and
+  draft commands skip what is already on disk. Never re-run a play's `merge-drama` while agents
+  are still writing its batches.
+* **Commits**: after every step, and after every three or four batch files come back checked:
+  `git add -A pipeline/transcriptions/drama texts pipeline/anagnosis_pipeline pipeline/PLAN-drama.md`
+  and commit with a message that names the play and the step. Never leave more than an hour of
+  agent work uncommitted. Do not push unless the author asks.
+* **Agents** (general-purpose, Opus 5.5): at most 6 pages each for text batches, 8 for prose
+  batches, at most 10 running at once. Every agent appends to its batch file after each page
+  ("save after each page" stands in the briefs). Give each agent only its page range, the brief
+  to read, the files to look at and the checker to run; nothing else. Run the checker yourself
+  when an agent reports, and send a page back to a fresh agent when a remark is not explained.
+* **Long commands** (fetch, ocr, draft, build-morpheus-forms, Gradle) run in the background with
+  their output in `pipeline/build/logs/<play>-<step>.log`, one at a time per play. They are
+  idempotent: run again after a crash.
+* **Housekeeping**: stop Gradle daemons and close the emulator after every use (the author's RAM
+  is shared with other work); never search outside the repository and the scratchpad; keep
+  downloads under `pipeline/sources/scans/<scan>/` and `pipeline/sources/`, nothing in the
+  repository root. In every text written for the app say "critical apparatus", not "critical
+  notes". Keep requests to the model light: line crops, not whole pages, wherever a crop does.
+* **Tools already in the repository**: the Gorgias route (`gorgias_pages.py`: Tesseract +
+  matching to the Perseus text, flags, crops, check sheets; `gorgias_merge.py`: GLAUx alignment,
+  analyser fallback, review list), the Sophocles route (`sophocles.py`: AGDT alignment,
+  `apply_text_check`, verse numbering; `sophocles_pages.py`: Jebb-layout crops), the prose OCR
+  routes (`egt_ocr.py`: eng+grc hOCR, columns, word flags, proof pages; `lodge_intro.py`: Greek
+  words re-read with the Greek model, § headings), the translation aligners (`gorgias.py`:
+  speeches matched to the Greek by speaker and length, `symposium.py: jowett_segments`), and the
+  briefs in `pipeline/transcriptions/{gorgias,sophocles,gorgias-lodge-intro}/`. Read them before
+  step 1; reuse their functions rather than writing new ones.
+
+## Decisions already taken (do not reopen)
+
+### The nine texts
+
+| slug | play | Greek text and critical apparatus (one edition) | scan (Internet Archive) | commentary | translation | syntax | product_id |
+|---|---|---|---|---|---|---|---|
+| agamemnon | Ἀγαμέμνων, Agamemnon | A. Sidgwick, Aeschylus: Agamemnon, Oxford, Clarendon Press (the printing of the scan; the title page gives the edition) | agamemnonwithint00aescuoft (1887 printing, 204 leaves, jp2); spare: aeschylusagamemn00aescrich (1881) | Sidgwick's notes and introduction, same volume | H. W. Smyth (Loeb 1926), Perseus tlg0085.tlg005.perseus-eng3 | AGDT tlg0085.tlg005.perseus-grc1.tb.xml (hand-made) | aeschylus_agamemnon_sidgwick |
+| choephoroi | Χοηφόροι, Choephoroi | A. Sidgwick, Aeschylus: Choephoroi, Oxford 1884 | choephoroiwithin00aescuoft (180 leaves, jp2); spare: choephoroiwitned00aescuoft (1900 printing) | Sidgwick, same volume | Smyth, perseus-eng2 (tlg006) | AGDT tlg0085.tlg006.perseus-grc2.tb.xml | aeschylus_choephoroi_sidgwick |
+| eumenides | Εὐμενίδες, Eumenides | A. Sidgwick, Aeschylus: Eumenides, Oxford 1887 | eumenideswithint01aescuoft (102 leaves, jp2) — a student has written notes on the text pages; see below | Sidgwick, same volume | Smyth, perseus-eng2 (tlg007) | AGDT tlg0085.tlg007.perseus-grc1.tb.xml | aeschylus_eumenides_sidgwick |
+| clouds | Νεφέλαι, Clouds | W. J. M. Starkie, The Clouds of Aristophanes, London, Macmillan 1911 | cloudsofaristoph00aris_0 (474 leaves, jp2) | Starkie, same volume | Starkie's prose translation, same volume (facing pages) | GLAUx 0019-004.xml (automatic) | aristophanes_clouds_starkie |
+| medea | Μήδεια, Medea | M. L. Earle, The Medea of Euripides, New York, American Book Co. 1904 — if his volume prints a critical apparatus (see the Medea rule below); otherwise Prinz-Wecklein, Euripidis Fabulae I (Teubner), Medea | cu31924079583609 (316 leaves, jp2); Teubner: euripidisfabula01euriuoft | Earle, same volume | E. P. Coleridge (1891), Perseus tlg0006.tlg003.perseus-eng2 | GLAUx 0006-003.xml | euripides_medea_earle (euripides_medea_wecklein if the Teubner text is used) |
+| frogs | Βάτραχοι, Frogs | T. G. Tucker, The Frogs of Aristophanes, London, Macmillan 1906 | frogsofaristopha00arisrich (354 leaves, jp2) | Tucker, same volume | The Athenian Society (1912, anonymous), Gutenberg #8689 | GLAUx 0019-009.xml | aristophanes_frogs_tucker |
+| bacchae | Βάκχαι, Bacchae | J. E. Sandys, The Bacchae of Euripides, Cambridge, 3rd ed. 1892 | BacchaeOfEuripides_680 (jp2 `BacchaeEurip_jp2.zip`); spare: bacchaeeuripide01eurigoog (2nd ed. 1885) | Sandys, same volume | Coleridge, "The Bacchantes", Wikisource (The Plays of Euripides (Coleridge)/The Bacchantes); fallback T. A. Buckley (1850), Perseus tlg0006.tlg017.perseus-eng2 | GLAUx 0006-017.xml | euripides_bacchae_sandys |
+| hippolytus | Ἱππόλυτος, Hippolytus | U. von Wilamowitz-Moellendorff, Euripides Hippolytos, griechisch und deutsch, Berlin, Weidmann 1891 (Greek pages and their apparatus only) | hippolytos00euriuoft (jp2) | J. P. Mahaffy and J. B. Bury, The Hippolytus of Euripides, Macmillan (Dublin printing, 1889 scan), notes and introduction | Coleridge, Perseus tlg0006.tlg005.perseus-eng2 | GLAUx 0006-005.xml | euripides_hippolytus_wilamowitz |
+| lysistrata | Λυσιστράτη, Lysistrata | F. W. Hall and W. M. Geldart, Aristophanis Comoediae II, Oxford 1907 (the Perseus text is this edition) | aristophaniscomo02arisuoft (jp2) | B. B. Rogers, The Lysistrata of Aristophanes, London 1911: notes and introduction | The Athenian Society (1912), Gutenberg #8688 | GLAUx 0019-007.xml | aristophanes_lysistrata_hall_geldart |
+
+Scans without a jp2 zip (the Mahaffy-Bury volume, hippolytuseurip00eurigoog, has only a PDF)
+are fetched page by page from `https://archive.org/download/<id>/page/n<N>_w2000.jpg` (the
+Archive renders the page; `n<N>` is the leaf number from 0; try a larger width first and keep the
+largest the server gives). The same address at `_w700` is the quick way to look at any leaf of
+any scan when finding page ranges.
+
+### Rules for every play
+
+* **Same edition for text and apparatus.** The Greek text that ships is the edition's text,
+  transcribed from the scan, with its critical apparatus. The Perseus text (Smyth for Aeschylus,
+  Hall-Geldart for Aristophanes, Murray for Euripides) is the **check text** that the OCR is
+  matched against, as Perseus was for the Gorgias; it never ships. Murray's Euripides is
+  protected in Norway until 2028 and must not appear in texts/ in any form; the Smyth and
+  Hall-Geldart texts may differ from the edition and so do not ship either, except that for the
+  Lysistrata the edition *is* Hall-Geldart's.
+* **Not usable, ever**: Murray's Greek text and his verse translations; Jack Lindsay's
+  Lysistrata (Perseus's English Lysistrata and Gutenberg #7700 are his); the Perseus English
+  Aristophanes of 1938 (O'Neill); Headlam-Thomson, Fraenkel, Denniston-Page (Agamemnon); Dodds
+  (Bacchae); Barrett (Hippolytus); Page (Medea); Coulon; Stanford (Frogs); Dover; Sommerstein;
+  Henderson; C. E. S. Headlam's Medea (death year unknown). Every other source in the table
+  above is checked: editors dead before 1956, texts published before 1931.
+* **Text**: one file line per printed verse, exactly as the edition divides the lyrics; the
+  Perseus check text is re-divided to the print (the first word of a printed verse gives its
+  line number; a second printed verse that begins in the same Perseus line gets a letter, 401a;
+  a printed verse that covers two or more Perseus lines carries the first number, and the
+  numbers it covers are skipped, as Jebb's Sophocles). The margin numbers of the print are
+  checked against this and flagged where they disagree; a disagreement is decided by the agent
+  from the page, printed numbers winning. Speakers are the Perseus names in full (`@ Χορός`), put
+  where the print changes speaker; the print's abbreviations (ΚΛ., ΧΟ.) are the check. A stage
+  direction the edition prints in the text ((Μυγμός.), (ὠγμός.)) is a `!` line. Words, accents
+  and punctuation come from the print; where the OCR agrees with Perseus the Perseus spelling is
+  taken as confirmed, where it differs the agent decides from the crop. Elision is ʼ (U+02BC);
+  the raised stop ·; editorial brackets as printed (`[ ]` deletions, `⟨ ⟩` additions; an
+  obelus † stays). Sidgwick's asterisks before conjectural readings are left out of the text and
+  explained in sigla.md. An edition that prints the iota adscript (Wilamowitz: τῶι, χώραι)
+  ships with the subscript (τῷ, χώρᾳ): a word that differs from Perseus only so takes Perseus's
+  spelling and is not flagged; sigla.md says so.
+* **Sections** (`== episode`, `== choral`, `=== strophe 1`, the Aristophanic Prologue, Parodos,
+  Agon, Parabasis) come from the Perseus TEI, re-attached by line number after the re-division;
+  the edition's own headings (ΧΟΡΟΣ., Starkie's AGON II) are not sections.
+* **Critical apparatus**: every item under its line number, copied as printed (sigla, Latin,
+  English, Wilamowitz's German), in `commentary-<editor>-apparatus.md` with `## N` headings, as
+  the Gorgias. Tesseract's two readings are a help, not a draft.
+* **Commentary**: the editor's notes, OCR'd with the English and Greek models, split into notes
+  by the line number that begins each note (`## 779`, `## 214-218`; "215 f." becomes `## 215`),
+  the lemma in bold, checked by agents against crops of the flagged words only (the
+  Expositor's-Greek-Testament route). Notes on lines our numbering skips go to the nearest
+  earlier line.
+* **Introduction**: the editor's, in full, by the same route, as `introduction.md` with the
+  heading rules of `pipeline/transcriptions/sophocles/INTRODUCTION.md`; lists of editions and
+  bibliographies are left out; chapters on the manuscripts, the metres, the play and the
+  legend are kept. Wilamowitz's German introduction is not transcribed; Mahaffy and Bury's
+  English one is.
+* **Translation**: by Greek line where the source has line numbers (Smyth, Coleridge on
+  Perseus: `tei_to_document`, as Jebb's); by speeches where it has none (the Athenian Society,
+  Coleridge's Bacchantes): each speech keyed to the Greek line where it begins, matched to the
+  Greek speeches by speaker and length (`gorgias.py: _speech_places`), long speeches cut at
+  sentence ends in proportion to the Greek about every ten lines (`jowett_segments`). Starkie's
+  translation faces his text page by page: its speeches are keyed from the facing page.
+* **Sigla**: `sigla.md` from the editor's list of manuscripts and signs (introduction or the
+  first apparatus page), written by hand from the page, short, as `texts/ajax/sigla.md`.
+* **Lemmas and syntax**: AGDT or GLAUx aligned to the edition's words (`align`), the analyser
+  for the words the treebank lacks or reads otherwise, the review list
+  `pipeline/build/<slug>-review.tsv` as for the Gorgias; an agent goes through the review list
+  once and fixes the entries whose lemma is empty or plainly wrong by `HAND_ANALYSES` /
+  `LEMMA_FIXES` tables in drama.py (per play); nothing more. `glossary.md` for names the
+  dictionaries lack, `shortdefs.tsv` for lemmas `check` reports without a gloss, `aliases.tsv`
+  where a lemma stands under another headword — as for Ajax and the Gorgias.
+* **about.md** as `texts/gorgias/about.md`, with `ref_edition`, `ref_translation`,
+  `ref_commentary`, `editor`, `apparatus` ("Sidgwick's critical apparatus"), `translation`,
+  `commentary`, `syntax` ("annotated by hand (Ancient Greek Dependency Treebank)" for Aeschylus,
+  "machine-made (GLAUx), not checked by hand" for the rest), `syntax_source`, `syntax_license`
+  (CC BY-SA 3.0 US for AGDT, CC BY-SA 4.0 for GLAUx), `google_play: yes`, `product_id` from the
+  table. Licence lines in the files: the editions and translations are in the public domain; the
+  transcriptions CC BY-SA 4.0; Perseus translations CC BY-SA 4.0 (modernized by Perseus) — copy
+  the wording of texts/ajax and texts/gorgias.
+* **texts/README.md** gets a section per author like "Sophocles' other plays", naming the
+  edition, the scan, the sources and licences, and `play/README.md`'s product table a row per
+  play.
+
+### Play-specific decisions
+
+* **Eumenides**: the only scan of Sidgwick's edition has a reader's handwriting between and
+  beside the lines. Tesseract reads the print under it mostly; the Perseus matching flags the
+  rest; the agents read the crops. Where a line crop is unreadable because of the writing, the
+  agent looks at the whole page and, if still unreadable, keeps the Perseus words and says so
+  under notes. Do not look for another edition.
+* **Choephoroi**: the most corrupt text of the nine; Sidgwick's apparatus is long (some 400
+  items). Expect many flags; they are real differences, not OCR noise.
+* **Clouds**: Starkie prints the Greek on the left-hand page with the apparatus under it, his
+  translation on the right-hand page with the apparatus continued and the commentary in two
+  columns under a rule, as Jebb (`sophocles_pages.py` has the crops for this layout). His
+  translation is the one that ships (`eng-starkie.txt`); Hickie's (Perseus, hopper
+  aristoph.cl.hickie_eng.xml) is the fallback only if Starkie's pages prove unusable, and then
+  the Decisions log says why.
+* **Medea**: Earle's volume sets the text at the top of each page with his commentary under it
+  in two columns (Jebb's layout without the translation). Before the draft, look at six text
+  pages and at the end matter: if Earle prints a critical apparatus (under the text, or as
+  critical notes in an appendix), text and apparatus are his; if he prints none, the text and
+  apparatus are Prinz-Wecklein's Teubner Medea (scan euripidisfabula01euriuoft; find the Medea's
+  leaves by its title page), Earle's notes go on top, the product id becomes
+  euripides_medea_wecklein, and the Decisions log records the choice with the pages looked at.
+* **Frogs**: Tucker prints the text with the apparatus at the foot and the notes at the back
+  (running heads give the line range). The Athenian Society translation is the one that
+  ships; Rogers's and Tucker's are not used.
+* **Bacchae**: Sandys prints the apparatus under the text, Latin with English remarks. After
+  line 1329 the manuscripts have a gap and the end is partly restored from the Christus
+  Patiens: the text follows what Sandys prints in his text, line for line; restored lines he
+  prints get the numbers he gives them, or letters after 1329 where he gives none; what he
+  keeps in the notes stays in the notes. The translation and the GLAUx tokens are aligned by
+  words and speeches as everywhere else; that stretch is simply checked by hand in the merge log.
+  Sandys's 3rd edition (1892) is the text; his introduction is long (over a hundred pages) and is
+  transcribed in full except the lists of editions.
+* **Hippolytus**: Wilamowitz's Greek is on the left-hand pages with the apparatus under it, his
+  German verse translation on the right-hand pages (not used). The commentary is Mahaffy and
+  Bury's, from the PDF-only scan through the page-image service; their short introduction too.
+  Hadley's Pitt Press edition would have been better but no scan of it was found; do not spend
+  time looking for one.
+* **Lysistrata**: the text and apparatus are Hall-Geldart's Oxford text (vol. II of the scan;
+  the Perseus text is the same edition, so the check is light, as for the Gorgias). The notes
+  are Rogers's, printed at the foot of his pages under the text and his verse translation
+  (scan aristophaniscomo04aris, the Lysistrata and Thesmophoriazusae volume): crop the
+  full-width small-type block at the foot of each page; his introduction too. His verse
+  translation is not used (softened); the Athenian Society's prose is. Laconian forms the
+  analyser cannot parse stay without lemma and are listed in the review file; the glossary gets
+  the commonest (σιώ, ναί, τώ, ποττάν, ὑμές …) with their Attic equivalents.
+
+### Releases
+
+Three reader releases, each after a group of plays is built and checked: **0.6.0 (version
+code 16)** with the Oresteia; **0.7.0 (17)** with Clouds, Medea and Frogs; **0.8.0 (18)** with
+Bacchae, Hippolytus and Lysistrata. If the author has not uploaded a release when the next
+group is ready, the next release carries everything (version codes only go up). Each release
+step bumps `versionCode`/`versionName` in app/androidApp/build.gradle.kts, writes the release
+notes in play/listings/reader.md (a bullet per new text in the description, a "What's new"
+paragraph under 500 characters), builds the bundle (`cd app && ./gradlew :androidApp:bundleRelease`,
+then `./gradlew --stop`), and lists what the author must do.
+
+## Step 0: set-up (once)
+
+1. Read: texts/README.md; the briefs under pipeline/transcriptions/{gorgias,sophocles,gorgias-lodge-intro};
+   gorgias_pages.py, gorgias_merge.py, gorgias.py, sophocles.py, sophocles_pages.py, egt_ocr.py,
+   lodge_intro.py, odyssey.py (`align`, `syntax_nodes`), odyssey_merge.py (`Analyser`,
+   `choose_analysis`), import_perseus.py (`tei_to_document`, `write_tokens`), textfmt.py.
+2. Check the tools: `pipeline/.venv/bin/python -m pytest pipeline/tests` passes; `tesseract
+   --list-langs --tessdata-dir pipeline/tessdata` lists eng, grc, lat (fetch the models from
+   tessdata_best if not, see pipeline/tessdata/README.md); `opj_decompress`, `magick`, `pdftoppm`
+   exist; Morpheus is built (`pipeline/sources/morpheus/bin/cruncher`).
+3. Add to `fetch.py` and run `fetch`: the nine Perseus Greek files (canonical-greekLit
+   perseus-grc2 of tlg0085.tlg005/006/007, tlg0019.tlg004/007/009, tlg0006.tlg003/005/017), the
+   Perseus translations (tlg0085.tlg005.perseus-eng3, tlg006 and tlg007 perseus-eng2;
+   tlg0006.tlg003 and tlg005 perseus-eng2; tlg0006.tlg017.perseus-eng2 as the Bacchae fallback),
+   the three AGDT files (treebank_data v2.1 Greek texts, names in the table), the six GLAUx
+   files (alekkeersmaekers/glaux main/xml), Gutenberg #8688 and #8689 as plain text
+   (`https://www.gutenberg.org/cache/epub/<n>/pg<n>.txt`; if Gutenberg refuses, the mirror
+   `https://gutenberg.pglaf.org/8/6/8/<n>/<n>.txt`), and Coleridge's Bacchantes: the Wikisource
+   page transcludes pages 99-141 of the index "The Plays of Euripides Vol. 2- Edward P.
+   Coleridge (1913).djvu", so fetch each `Page:` wikitext
+   (`https://en.wikisource.org/w/index.php?title=Page:The_Plays_of_Euripides_Vol._2-_Edward_P._Coleridge_(1913).djvu/<n>&action=raw`,
+   n = 99 … 141) into `pipeline/sources/coleridge/bacchantes-<n>.wiki`. Scans are fetched leaf
+   by leaf by the page tools, not here.
+4. Create `pipeline/transcriptions/drama/<slug>/` for the nine plays (empty), and
+   `pipeline/build/logs/`.
+
+## Step 1: the pipeline modules
+
+Write, with tests in pipeline/tests (numbering rule, note splitting, speech alignment on
+small made-up inputs), and register in `__main__.py`:
+
+* **`drama.py`**: `PLAYS`, a table of `Play` records with everything from the tables above
+  (slug, Greek and English titles and authors, tlg, Perseus files, treebank or GLAUx file,
+  translation source and kind, scans with their leaf ranges — text pages, apparatus pages if
+  separate, notes pages, introduction pages, translation pages — filled in at step 2 of each
+  play, edition and licence strings, product id, per-play `HAND_ANALYSES`, `LEMMA_FIXES`,
+  `SPEAKERS` map from the translation's names to the Greek ones). `merge_play(slug)` writes
+  texts/<slug>/ from the batches: grc.txt, commentary-<editor>-apparatus.md, tokens.tsv and
+  syntax-nodes.tsv (AGDT or GLAUx through `align`, then the analyser, review list in
+  pipeline/build/<slug>-review.tsv), eng-<name>.txt, commentary-<editor>.md, introduction.md,
+  and a merge log pipeline/build/<slug>-merge.log of every line it could not place. It must be
+  safe to run again at any time.
+* **`drama_pages.py`**: the Gorgias route for verse, parameterised by play: `fetch` (leaves as
+  grey PNG; jp2 from the zip, or the page-image service for PDF-only scans), `ocr` (Tesseract
+  grc, hOCR; the apparatus block read twice more, Greek-first and Latin-first, enlarged), `draft`
+  (the text block of each page found by type size and position, the apparatus block under it,
+  the margin numbers; the OCR lines matched word by word to the Perseus text; the numbering and
+  speaker rules above; flags; the crops `p-NNNN-lines.png`, `p-NNNN-app-l.png`, `-app-r.png`; a
+  check sheet `p-NNNN.md`; the batch files `batch-NN.md` of six pages each, pre-filled with
+  the draft text and empty apparatus and notes sections; `pages.json` and `draft.json`).
+  Outputs under pipeline/build/drama-pages/<slug>/. For Jebb-layout volumes (Starkie, Earle)
+  the text block is the top of the left-hand page and the apparatus may continue on the facing
+  page under the translation: both halves go into the same page's apparatus crops, in order.
+  The flags and their wording are the Gorgias ones plus: "the margin reads N at a line numbered
+  M", "this printed line matched no Perseus words", "a speaker change in the print that Perseus
+  does not have here" (and the reverse), "a bracketed line: a stage direction?", "lettered: a
+  second verse in Perseus line N".
+* **`drama_prose.py`**: the prose route for notes, introductions and Starkie's translation:
+  `fetch`, `ocr` (eng+grc hOCR; Greek words re-read with grc as lodge_intro does), `draft` per
+  page: columns found (two-column pages split as egt_ocr; a full-width block under a rule as
+  sophocles_pages `_crop_commentary`; Rogers's foot block by its small type), the running head
+  dropped, paragraphs joined, a note begun at every paragraph that starts with a line number
+  (bold digits, optionally a range or "f."/"ff."/"sqq."), its lemma (the bold Greek up to the
+  colon, bracket or stop) wrapped in `**…**`; flagged words as egt_ocr's FLAG_KINDS, each with
+  a numbered crop in `p-NNNN-flags.png`; the draft written into the batch file
+  (`notes-NN.md`, `intro-NN.md`, `trans-NN.md`: eight pages each) as `=== p-NNNN` blocks with
+  the markdown and a `--- flags` list the agent ticks off. For an introduction the draft keeps
+  the printed headings as `# ` / `## § n`. For Starkie's translation the draft writes each speech
+  as `@ Speaker` and `N<TAB>text`, N from the facing Greek page's draft.
+* **Checkers**: `check-drama-batch <slug> files…` (as check-gorgias-batch: numbering runs on,
+  apparatus numbers name lines on the page, elision, every wording change against Perseus
+  listed, pages missing from a batch) and `check-drama-prose <slug> files…` (block order and
+  completeness, headings well formed and increasing, run-on markers, every flag answered,
+  Greek in precomposed Unicode with breathings on initial vowels).
+* **`merge-drama <slug>`** calls `merge_play`; `drama-pages <slug> fetch|ocr|draft`;
+  `drama-prose <slug> notes|intro|trans fetch|ocr|draft`.
+
+Commit the modules with their tests before any play's step 2.
+
+## Steps for each play (in the order of the table)
+
+2. **Leaves.** Find in the scan the leaves of: the Greek text (first and last), the notes, the
+   introduction, the sigla or manuscripts page, the translation pages (Starkie), using the page
+   images at `_w700` (binary search by leaf number; the scan's `_djvu.txt` helps to find a
+   chapter). Write them into `PLAYS` in drama.py and commit. Look at six text pages: note the
+   layout (apparatus at the foot? speaker abbreviations in the margin? margin numbers every
+   fifth line, left or right?) under Decisions, and apply the Medea rule. For a Jebb-layout
+   volume record which pages are text and which translation.
+3. **Text OCR and draft.** `drama-pages <slug> fetch`, `ocr`, `draft` in the background; read
+   the summary (pages, lines, flagged). If more than 70 % of the lines are flagged on a scan
+   with clean print, the matching or the layout detection is wrong: fix the module, do not
+   send it to agents.
+4. **Text and apparatus batches.** Agents on `batch-NN.md` with
+   `pipeline/transcriptions/drama/INSTRUCTIONS-text.md`, six pages each. Checker on every
+   returned file; unresolved remarks back to a fresh agent. Commit every few batches.
+5. **Merge the text.** `merge-drama <slug>`; read the merge log and the review list; have one
+   agent check the review list (lemma empty or wrong → HAND_ANALYSES / LEMMA_FIXES); run
+   `check`; look at ten random lines of grc.txt against the page images yourself. Commit.
+6. **Notes.** `drama-prose <slug> notes fetch|ocr|draft`; agents on `notes-NN.md` with
+   `INSTRUCTIONS-prose.md`, eight pages each; checker; commit every few batches;
+   `merge-drama <slug>` again and read the merge log (notes it could not place).
+7. **Introduction** (and the translation pages for the Clouds): the same with `intro` (`trans`).
+8. **Translation, sigla, glossary, short definitions, about.md, README.** `merge-drama` writes
+   the translation; read its log (speeches it could not match: fix the SPEAKERS map, or the
+   Greek speech list where the translation merges two speeches). Write sigla.md from the
+   editor's page, glossary.md (names; Laconian for the Lysistrata), shortdefs.tsv for what
+   `check` lists, about.md, the texts/README.md section and the play/README.md row. Commit.
+9. **Build.** `build --only <slug>`; `check`; the pack: copy app/packs/gorgias/build.gradle.kts
+   to app/packs/<slug>/ with the slug changed, add the slug to the list in app/settings.gradle.kts
+   and to `assetPacks` in app/androidApp/build.gradle.kts; `catalog`. Commit. Do not start the
+   emulator here.
+10. **Group check** (after Eumenides, Frogs, Lysistrata only): `build-morpheus-forms` (long;
+    background), full `build`, `check`; install the debug reader on the emulator, buy each new
+    text in the debug shop, open it, read a lyric passage, open the apparatus, a note, the
+    introduction, the syntax of one sentence, play one line aloud; fix what is wrong; close the
+    emulator, `./gradlew --stop`. Then the release step.
+
+## Release steps
+
+**R1** after Eumenides (0.6.0, code 16), **R2** after Frogs (0.7.0, 17), **R3** after Lysistrata
+(0.8.0, 18): version bump, listing and release notes, bundle, commit; then write under
+**For the author** below what is left: upload the bundle to internal testing, create and
+activate the one-time products with the ids above (name = the English title, €3), test one
+purchase, promote. Then go on with the next play.
+
+## For the author
+
+(filled in by the release steps)
+
+## Progress
+
+- [ ] Step 0: set-up
+- [ ] Step 1: modules, tests, CLI
+- [ ] Agamemnon: 2 leaves · 3 draft · 4 text batches · 5 merge · 6 notes · 7 introduction · 8 translation, sigla, glossary, about · 9 build and pack
+- [ ] Choephoroi: 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9
+- [ ] Eumenides: 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9 · 10 group check
+- [ ] R1: reader 0.6.0
+- [ ] Clouds: 2 · 3 · 4 · 5 · 6 · 7 (intro and trans) · 8 · 9
+- [ ] Medea: 2 (apparatus rule) · 3 · 4 · 5 · 6 · 7 · 8 · 9
+- [ ] Frogs: 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9 · 10 group check
+- [ ] R2: reader 0.7.0
+- [ ] Bacchae: 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9
+- [ ] Hippolytus: 2 · 3 · 4 · 5 · 6 (Mahaffy-Bury) · 7 · 8 · 9
+- [ ] Lysistrata: 2 (two scans) · 3 · 4 · 5 · 6 (Rogers) · 7 · 8 · 9 · 10 group check
+- [ ] R3: reader 0.8.0
+
+Tick a play's sub-steps in place (e.g. "2 ✓ 3 ✓ 4 (batches 1-7 of 12)") so that a resumed
+session sees where it stopped.
+
+## Decisions
+
+(append dated entries: what was open, what was chosen, why, which pages were looked at)
+
+## Sizes, for planning
+
+| play | lines | text leaves (about) | notes leaves (about) | introduction |
+|---|---|---|---|---|
+| Agamemnon | 1673 | 75 | 90 | short |
+| Choephoroi | 1076 | 50 | 80 | short |
+| Eumenides | 1047 | 45 | 30 | short |
+| Clouds | 1510 | 110 text + 110 facing translation/commentary | in the facing pages | long |
+| Medea | 1419 | 150 (text and notes share the page) | — | long |
+| Frogs | 1533 | 110 | 170 | medium |
+| Bacchae | 1392 | 90 | 150 | very long |
+| Hippolytus | 1466 | 75 (left-hand pages) | 100 (Mahaffy-Bury) | short |
+| Lysistrata | 1321 | 45 (Hall-Geldart) | 110 (Rogers, foot of page) | medium |
+
+The Gorgias cost about 90k tokens per six text pages checked; prose pages, where only flagged
+words are looked at, cost less than half of that. Expect 1-2 million tokens per play.
