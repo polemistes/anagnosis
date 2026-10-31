@@ -59,7 +59,7 @@ def ocr_leaf(scan: str, leaf: int) -> Path:
 
 def run(slug: str, kind: str, step: str, workers: int = 4) -> None:
     play = PLAYS[slug]
-    leaves = play.leaves(kind)
+    leaves = play.visible(kind)
     if not leaves:
         raise SystemExit(f"{slug}: no {kind} leaves in drama.PLAYS yet (step 2)")
     scan = play.scan_for(kind)
@@ -393,7 +393,7 @@ def write_draft(slug: str, kind: str) -> list[dict]:
     play = PLAYS[slug]
     scan = play.scan_for(kind)
     out_dir = route_dir("drama-prose", slug, scan)
-    leaves = play.leaves(kind)
+    leaves = play.visible(kind)
     voc = vocabularies()
     names = _names(scan, leaves, voc)
     with ThreadPoolExecutor(int(os.environ.get("DRAMA_WORKERS", "4"))) as ex:

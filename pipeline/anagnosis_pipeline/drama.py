@@ -101,8 +101,45 @@ class Play:
             out = [l for l in out if (l - self.text_leaves[0][0]) % 2 == 0]
         return out
 
+    def visible(self, kind: str) -> list[int]:
+        """The kind's leaves without those the scan hides (scandata.xml: a leaf the Archive left
+        out of its page images, a duplicate or an interleaved sheet)."""
+        hidden = hidden_leaves(self.scan_for(kind))
+        return [l for l in self.leaves(kind) if l not in hidden]
+
     def scan_for(self, kind: str) -> str:
         return self.scan if kind == "text" else (self.notes_scan or self.scan)
+
+
+def hidden_leaves(scan: str) -> set[int]:
+    """The leaves a scan's scandata.xml marks as not shown (addToAccessFormats false), cached in
+    pipeline/sources/scans/<scan>/scandata.xml. The page images /page/n<N> count only the leaves
+    shown: leaf = n + the hidden leaves before it."""
+    import subprocess
+
+    path = PIPELINE / "sources" / "scans" / scan / "scandata.xml"
+    if not path.exists():
+        path.parent.mkdir(parents=True, exist_ok=True)
+        tmp = path.with_suffix(".part")
+        r = subprocess.run(["curl", "-sfL", "--retry", "3", "-o", str(tmp), f"https://archive.org/download/{scan}/{scan}_scandata.xml"])
+        if r.returncode != 0:
+            return set()
+        tmp.rename(path)
+    t = path.read_text(encoding="utf-8", errors="replace")
+    return {int(n) for n, body in re.findall(r'<page leafNum="(\d+)">(.*?)</page>', t, re.S)
+            if re.search(r"<addToAccessFormats>\s*false", body)}
+
+
+def leaf_of(scan: str, n: int) -> int:
+    """The leaf (jp2 number) of the Archive's page image n<N>."""
+    hidden = hidden_leaves(scan)
+    leaf, seen = 0, -1
+    while True:
+        if leaf not in hidden:
+            seen += 1
+            if seen == n:
+                return leaf
+        leaf += 1
 
 
 SIDGWICK_NOTE = r"^[lI1|]{1,2}\.\s*(\d{1,4})(?:\s*[-–—]\s*(\d{1,4}))?(?:\s*f{1,2}\.|\s*sqq?\.)?[.,:]?(?=\s|$)"
@@ -120,9 +157,13 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          trans_license="CC BY-SA 4.0 (Perseus Digital Library, modernized by Perseus)",
          notes_editor="sidgwick", notes_editor_name="Arthur Sidgwick", note_start=SIDGWICK_NOTE),
     Play("choephoroi", "Χοηφόροι", "Choephoroi", "Αἰσχύλος", "Aeschylus", "tlg0085.tlg006",
-         "Aeschylus: Choephoroi, with introduction and notes by Arthur Sidgwick, Oxford, Clarendon Press, 1884",
+         "Aeschylus: Choephoroi, with introduction and notes by A. Sidgwick, Oxford, Clarendon Press, 1884",
          "choephoroiwithin00aescuoft", "sidgwick", "A. Sidgwick", "aeschylus_choephoroi_sidgwick",
          treebank="tlg0085.tlg006.perseus-grc2.tb.xml",
+         # text pp. 3-43, notes pp. 45-121, introduction pp. vii-xxvii and the persons; the leaves
+         # the scan hides (28-29, 52-53, 62-63, 70-71, 92-93) are skipped (Play.visible)
+         text_leaves=[(37, 83)], notes_leaves=[(85, 163)], intro_leaves=[(11, 33), (36, 36)],
+         sigla_leaves=[26, 27, 30, 31, 32, 33],
          trans_file="drama/tlg0085.tlg006.perseus-eng2.xml", translator="Herbert Weir Smyth", trans_key="smyth",
          trans_edition="Aeschylus, with an English translation by Herbert Weir Smyth, vol. II, Loeb Classical Library, 1926",
          trans_license="CC BY-SA 4.0 (Perseus Digital Library, modernized by Perseus)",

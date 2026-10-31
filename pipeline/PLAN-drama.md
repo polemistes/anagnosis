@@ -340,7 +340,7 @@ purchase, promote. Then go on with the next play.
 - [x] Step 0: set-up (2026-11-01)
 - [x] Step 1: modules, tests, CLI (2026-11-01; tried on Agamemnon leaves 31-36, notes 150-151, introduction 11-12)
 - [ ] Agamemnon: 2 ✓ leaves · 3 ✓ draft · 4 ✓ text batches (two passes) · 5 merge (text ✓, review list running) · 6 notes · 7 introduction · 8 translation, sigla, glossary, about · 9 build and pack
-- [ ] Choephoroi: 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9
+- [ ] Choephoroi: 2 ✓ · 3 · 4 · 5 · 6 · 7 · 8 · 9
 - [ ] Eumenides: 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9 · 10 group check
 - [ ] R1: reader 0.6.0
 - [ ] Clouds: 2 · 3 · 4 · 5 · 6 · 7 (intro and trans) · 8 · 9
@@ -470,6 +470,16 @@ session sees where it stopped.
   review's corrections go in drama_fixes.py (one table per play), not in drama.py. Ten random
   verses of grc.txt compared with the page by eye: all ten as printed (89, 104, 128, 201, 258,
   487, 855, 1388, 1478, 1565).
+* **2026-11-01, Choephoroi step 2 (done early, during the Agamemnon's step 6, so that its OCR
+  can run meanwhile).** Scan choephoroiwithin00aescuoft, first edition (Oxford 1884); the copy has
+  a student's notes in pencil and ink. The scan hides 15 leaves (scandata.xml: 28-29, 52-53,
+  62-63, 70-71, 92-93 and the end), so the Archive's page images are not leaf − 1 here and its
+  page-number file is wrong after the first gap; drama.py now reads each scan's scandata.xml
+  (`hidden_leaves`, `leaf_of(scan, n)`) and `Play.visible()` skips hidden leaves. Text pp. 3-43
+  = leaves 37-83 (41 pages); notes pp. 45-121 = leaves 85-163; introduction pp. vii-xxvii =
+  leaves 11-33 and the persons on leaf 36; sigla (manuscripts, scholia, editions, text of this
+  edition) leaves 26-33. Appendices (from p. 122) left out as for the Agamemnon. Layout as the
+  Agamemnon's.
 
 ## Sizes, for planning
 

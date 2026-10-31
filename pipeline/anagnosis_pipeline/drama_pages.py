@@ -123,7 +123,7 @@ def ocr_leaf(scan: str, leaf: int) -> Path:
 
 def run(slug: str, step: str, workers: int = 4) -> None:
     play = PLAYS[slug]
-    leaves = play.leaves("text")
+    leaves = play.visible("text")
     if not leaves:
         raise SystemExit(f"{slug}: no text leaves in drama.PLAYS yet (step 2)")
     route_dir("drama-pages", slug, play.scan)
@@ -676,7 +676,7 @@ def build_draft(play: Play, sources: Path) -> tuple[list[dict], dict[int, dict],
     """The automatic text: verses {'n', 'leaf', 'text', 'speaker' (a new speaker's name, or
     None), 'flags', 'y0', 'y1', 'ocr', 'stages' (directions before the verse)}, the layouts, the
     printed lines and the Perseus text."""
-    leaves = play.leaves("text")
+    leaves = play.visible("text")
     workers = int(os.environ.get("DRAMA_WORKERS", "4"))
     with ThreadPoolExecutor(workers) as ex:
         layouts = dict(zip(leaves, ex.map(lambda l: page_layout(play, l), leaves)))
@@ -959,7 +959,7 @@ def write_draft(slug: str, sources: Path, transcriptions: Path) -> list[dict]:
         by_leaf.setdefault(v["leaf"], []).append(v)
     names = pers["speakers"]
     index = []
-    leaves = play.leaves("text")
+    leaves = play.visible("text")
     for b, leaf in enumerate(leaves):
         vs = by_leaf.get(leaf, [])
         stem = f"p-{leaf:04d}"
