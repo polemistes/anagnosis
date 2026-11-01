@@ -1,0 +1,1093 @@
+# title: Clouds
+# translator: W. J. M. Starkie
+# lang: eng
+# source: The Clouds of Aristophanes, with introduction, English prose translation, critical notes and commentary by W. J. M. Starkie, London, Macmillan, 1911, the translation; transcribed from the Internet Archive scan cloudsofaristoph00aris_0
+# license: CC BY-SA 4.0 (transcription; the edition is in the public domain)
+
+@ Strepsiades
+1	(The Orchestra represents a street in Athens. At the back there are two houses painted on the proscenium, that of STREPSIADES on the left, and that of SOCRATES on the right. In the vestibule of the former are lying two figures, the one (PHIDIPPIDES) covered with rugs and fast asleep, if one may judge from his snoring: the other (STREPSIADES) tossing restlessly, groaning and muttering to himself. Finally, he sits up, stretches himself, and, yawning, begins the Prologue.) Heigh-ho, heigh-ho! Lord Zeus, how plaguy long the nights are—endless! will’t never dawn? And yet I heard the cock—an hour ago. But my serving-men are snoring still. Time was when they would not have dared to snore. (Tragically) Woe worth thee, War, for all my many worries! Why, nowadays, I may not so much as drub my slaves. (Pointing to PHIDIPPIDES) See, my young hopeful yonder can’t keep awake o’ nights, but lies fizzling there, enswathed and bandaged in a half-dozen of rugs. (Flinging himself down, and drawing up the blankets) Well, an you will have it so, let’s pull up the blankets and set to snoring.
+12	(He lies silently for a few moments: then sits up again, and continues) Pox on it, I can’t sleep—I’m so nettled and stung by these pismires of waste, and stable-bills, and debts—thanks to this son of mine. But he, curled darling, jaunts up and down, and drives his four-in-hand, and dreams of horse-flesh. Meanwhile on me ruin speeds apace, as I watch the moon bring on the day of doom: for cent-per-cent mounts up. (He jumps up, and addresses a slave who is lying on the ground, hard by) What ho, boy! light the lamp, and fetch out my table-book, that I may read the rubrics of my debts, and make the audit of the interest up.
+21	(The boy returns with the ledger, which STREPSIADES studies for a moment, by the light of a spluttering lamp in the hands of the slave) Let me see how much I really owe. ‘To Pasias fifty pounds.’ Why fifty pounds to Pasias? What did I spend it on? ’Twas for the stone-horse—a murrain on it! I wish a stone-bow had knocked out my eye ere I had seen him.
+@ Phidippides
+25	(Talking in his sleep) Philon, you’re cheating: keep to your own track.
+@ Strepsiades
+26	Ah, this is the cause that has ruined me: he dreams of the turf, e’en in the watches of the night.
+@ Phidippides
+28	(Still talking in his sleep) How many courses shall the war-cars run?
+@ Strepsiades
+29	(Bitterly) ‘Courses!’ A pretty course you make me, your father, run. (Turning to his ledger, and in tragic phrase) But, after Pasias, ‘within whose danger do I stand’? ‘Twelve pounds to Amynias’—for a pelting car and a brace of wheels.
+@ Phidippides
+32	(Still dreaming) To the stable with my gelding, after a good roll in the tan.
+@ Strepsiades
+33	‘Gelding’! Faith, you’ve gelded me of all I’ve got, for I’m cast in damages, and am threatened withal with distraint for interest due.
+@ Phidippides
+35a	(Impatiently) Really, father, why are you so cross, and why do you roll and toss about the livelong night?
+@ Strepsiades
+37	I’m clawed by a back-friend, who houses in the blankets here.
+@ Phidippides
+38	(Settling himself down to sleep again, and in a pettish tone) Let me sleep awhile, good father.
+@ Strepsiades
+39	(Impatiently) Well, then, sleep on! but be assured that, some day, all these debts will be huddled upon your head.
+41	(PHIDIPPIDES turns his back upon STREPSIADES and falls asleep again.) Oh, that that love-broker, who put me on to marry your mother—beshrew her—had perished first! For a rustic lot was mine—a most delightful life—full of slovenry, unaffrighted by bugs, ‘carelessly diffused’—a life full-fraught with honey-bees, and droves, and olive-cakes: and then I must ally me to the niece of Megacles—the son of Megacles—a rural fellow to a city-bred madam, a proud and mincing peat, a very Coesyra incardinate: wedded and bedded her, I with the reek about me of must, of fig-cakes, of wool, in a word of affluence, while she was all myrrh, and fragrance, and slavering kisses, spendthrift ways, gourmandize, epicurism, and lust. One way, I grant, she was not idle: she wound a goodly clew, and I—to drive the moral home—holding up my tattered cloak, was wont to say, ‘Madam, you unclew me quite. (The slave examines the lamp, which 1s growing very dim.)
+@ Slave
+56	We've got no oil in the lamp.
+@ Streps
+57	Zounds! Why have you been lighting that cormorant lamp ? (Politely) Come here, and I'll teach you to bellow. SLAVE (Impudently) And why should I be taught to bellow ?
+@ Streps
+58a	Because you've been putting one of those broad and thirsty wicks into the lamp. (Continuing) Later on, what time this son of ours was born—to me and my worthy mistress—we forthwith ‘at brain-buffets fell’ about his name: she wanted some horsey tag—something with ‘hippus’ in it—Xanthippus or Charippus or Callippides; while I was for naming him after his thrifty grandfather, Phidonides. So, for a while, we kept at jars: but, at length, we compromised upon ‘Phidippides.’ Now she was for ever making a wanton of this son of ours: ‘’twill be a brave day,’ quoth she, ‘when, a man full grown, you shall drive your car to the citadel, in a guarded robe, like Megacles’: ‘nay rather, said I, ‘ when you shall drive your goats from the scaur, in a greasy fell, like your father” But she never listened to my words, but poured into the heart of my substance ‘a marvellous infection’ to the maneége. (Z'ragically) So now, after a whole night’s ‘cark and care’ to find a high-road, I've hit upon a single track— (with a gesture) a monstrous little track : 'twill be my salvation if I can overpersuade him to follow it. (Turning towards Phidippides) But first he must be awakened. I wonder how he likes being awakened best. (Insinuatingly) Phidippides, Phidippides, my collop !
+@ Phip
+80a	What is it, father ?
+@ Streps
+82	Buss me, and give me your right hand.
+@ Phid
+82b	(Still half-asleep, reluctantly holding out his hand) There, then : what is it ?
+@ Strreps
+83	Say, do you love me 7
+@ Phid
+84	Yes, by great Posidon, the Lord of Steeds.
+@ Streps
+87a	(With a gesture of abhorrence) Nay, swear by any Posidon rather than by him: for the ‘Lord of Steeds’ is the head and front of all my troubles. But if in your heart’s core my child, you veritably love me, be toward.
+@ Prid
+88	(With a suspicious expression) Wherein shall I be ‘toward ’ ?
+@ Streps
+90	With your speediest, set a new nap upon your ways, and be schooled in the lesson which I want to teach you.
+@ Phid
+90b	(Abruptly) Say what's your will
+@ Streps
+90c	And will you listen ?
+@ Phid
+91a	Aye, by (after a slight hesitation) Dionysus. (STREPSIADES and PHIDIPPIDES get up from the ground, and, leaving the vestibule, come forward into the Orchestra.) ?	(Pointing to the ‘ low-roofed house’ on the right of the proscenium) Turn your eyes yonder: do you see the wicket, and the lowly tenement ?
+@ Phid
+93	Surely, father: and what do you make it out to be ?
+@ Streps
+94	(In an awestruck whisper) 'Tis the Reflectory of Wisdom’s sprites ;—therein dwell men who, with the spirit of persuasion, teach that the cope of heaven is a muffle round about us, and we the charcoal beneath it. These wise heads—if one fee them—instruct a man in such arguments as will carry it away, whether his cause be true or false.
+@ Phd
+100	And who be they ?
+@ Streps
+100a	(With an affectation of vndifference) I don’t know their name precisely—Minute Philosophers you may call them, the nonpareil of men.
+@ Phid
+103	(With a gesture of disgust) Faugh, the lewd fellows! I know them: doubtless you mean the knaves and canters—the green-sickness carrions—the barefooted charlatans, of whom are the gallows Socrates and Chaerephon.
+@ Streps
+105a	(Sguealing) Hist, hist! Speak not like a puling child. (In an wmploring attitude and in tragic phrase) But if thou reckest aught of thy father’s dollars, put thyself in their file, and cut the turf.
+@ Pup
+108	’Fore Dionysus, not I, though you bribed me with the pheasants that Leogoras breeds.
+@ Streps
+110	(Striking an attitude) O alderliefest, I charge thy duty ;—vouchsafe to become a student.
+@ Phd
+111a	(Coolly) And what would you have me learn ?
+@ Streps
+112	(Mysteriously) ’Tis said that with them lodge the Reasons twain —the Better, whate’er it is, and the Worser: and of these twain, ’tis said, the Worser can wrest the false cause the true way. Argal, if for my sake you learn this Unjust Reason, of all the debts you've huddled on my back I shall not need to pay a doit to any man.
+@ Phid
+119	(After a moment's consideration, in tragic phrase) I'll not consent: for never should I be so hardy as to look upon my cavaleiro friends ‘ with an ap-paled cheer.’
+@ Streps
+121	(Completely losing has self-control) Then, by Demeter, you shall not batten at my cost—mneither you nor your wheeler, nor your branded blood-mare. Out of my house I'll send you packing to the devil.
+@ Phd
+124	(With aplomb) Uncle Megacles will never see me beggared of horse-flesh. But I'll go in: and, as for you, a fico for your threats. (He leaves the Orchestra by the door on the left.)
+@ Streps
+126	(Striking an attitude) Though thrown, I'll not lie prostrate in the dust: but, after due orisons to the Gods, I'll seek the Reflectory, and become a disciple myself. (He walks towards the right of the Orchestra, and pauses lost in thought) Yet how can I, a greybeard, so scant of memory and dull, acquire the quiddities and quillets of the fence of words? Yet go I must. (He hesitates, lost in thought) But why do I stand dawdling here, and shrink from knocking at the door? (In a sudden access of spirit he makes a violent assault upon SOCRATES’ door.) What ho, goodman boy !
+@ Disciple
+133	(Opening the door slightly, and sticking out his head) A pox on you! who is this that has pounded at the door ?
+@ Streps
+134	(Standing at attention, and in a formal tone) The son of Phidon, Strepsiades of Cicynna.
+@ Disc
+135	Marry, youre no philosopher to have yerked the door in this unspeculative way. You've caused us to miscarry of a problem prefigured by thought.
+@ Streps
+138	(Striking am attitude) 1 cry you mercy, sir: for I dwell ‘far from the common trade.’ But tell me, prythee, the gear that has miscarried.
+@ Disc
+140	(With hauteur, in tragic phrase) Save to disciples, ‘twere sacrilege to tell it.
+@ Streps
+141	(Not in the least vmpressed) As to that, you may speak with an easy mind. (Zapping his breast) For 1, present here, have come as a would-be scholar to your Reflectory.
+@ Disc
+143	(Dropping his grand manner, and pouring out confidences wn a monotone) Then I'll speak—Dbut you must think these things are mysteries. A while ago Socrates asked Chaerephon how many of its own feet a flea had leaped: for having bitten Chaerephon’s eyebrow it lighted on Socrates’ head.
+@ Streps
+148	And how did he measure the lists ?
+@ Disc
+148a	With infinite dexterity. Having melted some wax, he seized the flea and dipped its feet in it: when it was cold, lo! round its feet was moulded a perfect pair of buskins, unlacing which Socrates was in the act of measuring the traversed space
+@ Streps
+153	(Interrupting) Lord Zeus, what subtlety !
+@ Disc
+154	(Indifferently) What would you say if you heard another of Socrates’ profundities ?
+@ Streps
+155a	What is it? I charge you to tell me.
+@ Disc
+156	The fiery Sphettian, Chaerephon, asked Socrates which way his judgment lay—whether the hum of a gnat proceeded by way of its mouth, or of its vent.
+@ Streps
+159	And what said Socrates about the gnat ?
+@ Disc
+160	(With a professorial air) He answered that the inward of the gnat was a strait tube, and that, through this narrow passage, the contained air makes perforce for the vent: and that the fundament, being attached, like a mouthpiece, to this strait tube, rings shrilly from the stress of the air.
+@ Streps
+165	Then the gnat’s vent is a trumpet. (Zestatically) Thrice-happy man for his bottom-less conceit! Right easily would that defendant triumph whose insight has anatomized a gnat’s inside.
+@ Disc
+169	Only the other day he was robbed of a brilliant idea by a lizard.
+@ Streps
+170a	How so ? Possess me.
+@ Disc
+171	While he was scanning the paths and orbit of the moon, with head thrown back and mouth agape, there dropped from the ceiling, in the dark, a lizard’s sir-reverence.
+@ Streps
+174	O brave! I like the notion of that lizard’s feat.
+@ Disc
+175	Then too, last evening, we found we had no supper.
+@ Streps
+176	(In a mock-tragic manner) What sleight of hand did he devise to achieve the barley-meal ?
+@ Disc
+177	(With an air of mystery) On the board he lightly sprinkled ashes: then, taking a skewer, he bent it, and used it as a pair of compasses, and (waving his hands after the manner of a magician)—handy-dandy—he filched—the mantle—from the wrestling-school.
+@ Streps
+180	(Throwing up his hands ecstatically) Why revere old Thales now ? (Raising his voice) Quick, quick, open the Reflectory, and produce your Socrates instanter. For the scholar’s fever 15 on me. Come, dup the door. (The Eccyclema 1s revolved, revealing the interior of the Reflectory. The narrow platform is crowded with pale and emaciated figures, in extraordinary attitudes.) God-a-mercy ! Of what clime are these— beasts ?
+@ Disc
+185	Why do you stare ? What semblance do they carry ?
+@ Streps
+186	Of the captives from Pylus—the whoreson Laconians. (Pointing to some strange shapes) But why in the world is their gaze fixed on the earth ?
+@ Disc
+188	(Striking an attitude) Their quest is for things ¢ hid within the centre.’
+@ Strreps
+188a	No doubt—for truffles. (Eagerly addressing the prostrate figures) Don’t fash yourselves about such as that: for I know where they grow fine and large. (Pownting to other figures) But what are these doing, who hang their heads so low ?
+@ Disc
+192	They're rifling the bowels of Tartar-Limbo.
+@ Streps
+193	And why is their stern staring at the skies ?
+@ Disc
+194	In lonely state ’tis practising—astronomy. (Zo the disciples) But in with you, that ‘the master’ may not find you here.
+@ Streps
+196	(FHagerly) Not yet, not yet: let them bide a while, that I may share with them a small matter of my own.
+@ Disc
+198	But ’tis against the rules for them to remain in the open air all this time. (The disciples assume erect attitudes, and depart through a door at the back of the Eccyclema. Their disappearance allows the walls of the Reflectory to be seen. On these are hanging astronomical and geometrical instruments, as well as a large chart of the world.)
+@ Streps
+200	(Pointing to some instruments) In the name of all the Gods, what have you there ?
+@ Disc
+201	(Indifferently) That's astronomy.
+@ Streps
+201a	(Pointing to other instruments) And this?
+@ Disc
+202	Geometry.
+@ Streps
+202a	And what's its use?
+@ Disc
+203	To make a survey of the earth.
+@ Streps
+203a	You mean the allotment land ?
+@ Disc
+204	No, but the whole earth.
+@ Streps
+204a	A charming idea that—both democratic and serviceable.
+@ Disc
+206	(Pointing to the map) And this is a chart of the world —do you observe 7 Here's Athens.
+@ Streps
+207a	(Putting his eyes closely to the map) Nonsense! you're hoaxing me: (aggravating his language) for 1 descry no justicers in session.
+@ Disc
+209	Make no mistake, this spot is Attica.
+@ Streps
+210	(Running his finger over the map) Then where are my fellow-townsmen of Cicynna ?
+@ Disc
+211	(Povnting to a vacant spot on the map) There they are: and here, as you see, is Euboea, extending its long line of coast.
+@ Streps
+213	(Winking) 1 ken it well: twas well extended by us and Pericles. But where’s Lacedaemon ?
+@ Disc
+214a	Where 1s 1t? (Placing has finger on the map) Why here, on this spot.
+@ Streps
+215	(Recoiling) How parlous close it 15! Let this be your sole study—to shift it leagues away from us.
+@ Disc
+217	(With a superior smile) Marry, that’s beyond the wit of man.
+@ Streps
+217a	(Zhreateningly shaking his stick at ham) Faith, if you don’t, you'll howl for it. (The Eccyclema vs revolved, removing the Reflectory from sight. Meanwhile the figure of SOCRATES becomes visible outside, suspended in a kind of swing.) Hallo! who's this fellow on the perch ?
+@ Disc
+219	(In an awestruck whisper) Himself.
+@ Streps
+219a	Who's ¢ himself’ ?
+@ Disc
+219b	Socrates.
+@ Streps
+219c	(Shouting) O Socrates ! (SOCRATES takes mo notice, and STREPSIADES turns to the disciple) Sirrah! Come here—Ilift up your voice and hail him.
+@ Disc
+220a	(In a nervous tone, while he re-enters the house) Shout yourself, for I've no leisure.
+@ Streps
+221	(Raising his voice) O Socrates, Ὁ Socrates, my bawcock ! SOCRATES (In a far-away, solemn tone) Why callest me, O creature of a day ?
+@ Streps
+223	(In a voice of vmpertinent curiosity) Imprimis, tell me, I implore you, what make you up there ?
+@ Socr
+224	(7ragically) 1 tread the air, and look down on the Sun.
+@ Streps
+226	Must it be from a perch, then, and not from the earth, that you ‘look down on’ the Gods, if such must be your trade ?
+@ Socr
+227a	(In a majestic, professorial manner) Aye, for otherwise I could not probe ‘by the card’ the heavenly matter of theology. I must suspend my conception aloft, and mingle my thought inchmeal with its kindred air. I should never have solved the 63 riddle, if I gazed upon the sky from the nether earth: for, soothly, perforce the earth draws the moist element in thought. (Conversationally) Such too is the law with water-cresses.
+@ Streps
+235	(With a puzzled expression) What! does ‘thought’ ‘draw ’ ‘the moist element’ into ‘the water-cresses’? (Lcstatically) Vouchsafe to descend, O Socrates, my chuck, and teach me the things I've come to learn. (The rope suspending SOCRATES 1s slowly lowered.)
+@ Socr
+239	What brings you here ?
+@ Streps
+239a	A longing to acquire the gift οὐ the gab. For, thanks to usury and usurers most curst, I'm spoiled and undone, and my property is distrained.
+@ Sock
+242	And how ‘unsight unseen’ did you fall into this state of debt ?
+@ Streps
+243	(In a mysterious whisper) I'm ruined by a devouring horse -cancer. But teach me the latter of your Reasons—I mean that which turns a deaf ear to paying: and whatever fee you ask I vow to the Gods shall be forthcoming.
+@ Socr
+247	(With a gesture of disgust) ¢ Gods,” in good hour! The first thing I'd have you learn is that “ Gods’ are not current coin with us.
+@ Streps
+248a	How then do you swear ? Are iron shekels your currency, as at Byzantium ?
+@ Socr
+250	Do you wish to know soothly the veritable essence of religion ?
+@ Streps
+251a	Aye, by Zeus, if that may be.
+@ Socr
+252	And to have a parle with the Clouds, who are our deities?
+@ Streps
+253a	Certainly, I do.
+@ Socr
+254	(Pointing to a dilapidated couch which a stage © super’ has placed in the Orchestra) Then seat yourself upon the mystic pallet-bed.
+@ Streps
+255	(Sitting down) There! I'm seated.
+@ Socr
+255a	(Attempting to put a chaplet on his head) Then, take this chaplet.
+@ Streps
+256a	(Shrinking back) But what do I want with the chaplet ? (Throwing hvmself on his knees) O Socrates, ‘ware lest you sacrifice me like Athamas !
+@ Socr
+258	No fear of that: all these rites are observed at initiations.
+@ Streps
+259a	But what's the gain ?
+@ Socr
+260	(Exzpansively) You'll be born anew to be a cunning Jack, a tinkling cymbal, the fine flower of speakers. (He dances round STREPSIADES, rubbing together two pumice stones over his head, while STREPSIADES shrinks from the shower of dust) Don’t stir.
+@ Streps
+261a	Gogswouns, you'll not belie me. Thanks to your dredger, I'll soon be fine flour cap-a-pe.
+@ Socr
+263	Greybeard, in reverent silence list to our invocation. (He raises his hands, with upturned palms) O imperial monarch, unmeasurable Air, that on high dost underprop the balanced earth, and thou, Resplendent Ether, and ye august divinities, the Clouds, fraught with heaven’s artillery, arise, appear, my Liege Ladies, on high to your true ‘ Thinker.’
+@ Streps
+267	(Covering his head with his cloak) Wait, wait, till I wrap this round me, to escape a soaking. A pox on me, the wretch, for leaving home, without so much as a cap for my head. ;
+@ Socr
+269	(Continuing) Come then, ye Clouds, whom we delight to honour, and reveal yourselves to this mortal—come whether ye are seated upon the sacred snow-lashed heights of Olympus, or ye are weaving the holy dances for the Nymphs, in Father Ocean’s bowers, or perchance are pouring the dew from your golden pitchers over the dunes of Nile: or ye haunt awhile the Maeotic lake, or the ‘snowy watch-tower of Mimas.” Manifest your pleasure in our rites, accept our sacrifice, and list to our orisons. (Voices are heard from afar, seemingly in the entrance of the Orchestra, to the left of the spectators.) SEMICHORUS I. O ever-floating Clouds, let us raise to view our dewy, radiant shapes: let us soar from the deep-sounding bosom of Father Ocean to the leaf-tressed peaks of the lofty hills. There, from some specular height, we shall have full prospect of the teeming foison and the sacred watered earth : there we shall hear the rushing voices of the streams divine and the deep-booming sea. The unresting eye of day flashes forth in crystal rays.—But come, let us doff the misty veil of our immortal guise, and with far-glancing eye gaze upon the world.
+@ Socr
+291	(Zestatically) O Clouds august, in visible shape ye have hearkened to my invocation. (Zo STREPSIADES) Do you hear the voice, and withal the deep-mouthed awful thunder’s note ?
+@ Streps
+293	(With a wulgar gesture) Aye, and I adore ye, dread beings, and long to peal in rivalry. I'm in such a tirnt, such an agony of fear: and, if it be no sacrilege—aye, and even if it be—in this same hour I've a disposition to ease myself.
+@ Socr
+296	A truce to your japes and fleers! Do not ape these harlotry clowns, but set a seal upon your lips, for a great aerie of goddesses is stirring in answer to my incantations.
+@ Semichorus Ii
+298	Maidens, ye that bring refreshing showers, let us hie to the white and glistering land of Pallas: let us look upon the dear soil of Cecrops, the home of heroes, where are celebrated the holy mysteries that hush the lips in awe: where the Holy of Holies throws open its portals during the sacred rites : where the heavenly Gods have their gifts, and high-roofed shrines, and sculptured glories, and holy processions that acclaim the Blest, and garlanded sacrifices, and rich offerings throughout the varying seasons: and, as Spring draws nigh, Bromius has his joy, and there is the stirring of dance and song, and the deep-sounding drone of the pipe.
+@ Streps
+314	(Lurning from right to left, with his hand to his eyes) Good now, O Socrates, 1 implore you, who on earth are they who have sung this solemn chanson ? Can they be certain heromaids of old ?
+@ Socr
+316	Nay, they are heavenly clouds, great goddesses of the ‘men of leisure.’ These are they who fit us out with judgment and logical insight, with discourse of reason, cant and humbug, with circumstance, chicanery, and the binding spell of speech.
+@ Streps
+319	That’s why, as I hear the voice, my soul is all a-flutter : and now yearns to use quiddities and quillets, to balk logic about smoke: and, pricking maxim with maxim, to foil with the counter-thrust: so that I long to see the maidens face to face—if at all you can manage it.
+@ Socr
+323	(Z'wrning STREPSIADES round, so that he faces the wall of the Acropolis) Then fix your eyes on Parnes. For 1 see them settling down—ever so gently.
+@ Streps
+324a	(Turning his head this way and that) Where, where ? Let me see them.
+@ Socr
+324b	There they troop, in numbers numberless, sidling through vales and shaggy woods—there to the left.
+@ Streps
+325a	(Still looking towards the Acropolis) What's amiss ? I can’t see them.
+@ Socr
+326a	(Turning him towards the left entrance of the Orchestra) There : just by the entrance.
+@ Streps
+326b	(With an air of relief, as he sees the head of tie procession defiling into the Orchestra) Ah now, I can just—only just—descry them. (The first Semachorus takes ts place in the Orchestra.)
+@ Socr
+327	(Pointing to the Semichorus) Now surely you see them plainly, unless you're  high-gravel blind.
+@ Streps
+328	Gogswouns, I do, majestic ones! For they've occupied every inch of space. .
+@ Sock
+329	But knew you not—believed you not—that they were goddesses ?
+@ Streps
+330	Marry, not 1. I thought them merely crudy vapours—dew and smoke.
+@ Socr
+331	Aye, for you are unaware that these goddesses have at livery a crowd of pedascules—Thurian seers, empiricutical artists, agate-ring clipped-nails sluggardized curled fops; weavers of warped lays for the cyclic choruses—all astrological quacks in grain: such ‘ne’er-do-wells’ as these live idly in their livery, because the theme of their lays is the Clouds.
+@ Streps
+335	That's why they sang of ‘the dread onset of the milch Clouds, flashing with crisped fire,” ¢ the boisterous locks of lither rack, oft taloned birds, sailing through the fields of air,” of the hundred-hegded Typhon,” ‘ the bollen tornadoes,” of ¢ the aery, ‘the rain-burst from the weeping clouds’: in lieu of which yesty stuff they ravined down collops of prime turbot, and the luscious {lesh of ortolans.
+@ Sock
+340	And had they not earned them well—for their praise of these ?
+@ Streps
+340a	But tell me, if, in good sooth they are clouds, what makes them take the guise of womanhood ? (Pointing to the sky) For those yonder are not semblable.
+@ Socr
+342a	Why, what sort of beings are they ?
+@ Streps
+343	I don’t clearly know: I should liken them to flocks of wool outstretched : but not to women—not a whit, God wot : for women (pointing to the Chorus, who are dressed as women with Jloating draperies, and who have masks with burd-like beaks) have noses.
+@ Socr
+345	(With a pedagogic air) Answer me now any question I shall put.
+@ Streps
+345a	Ask what you will, and quickly.
+@ Socr
+346	Have you ever seen a cloud like a centaur, or a pard, or wolf, or bull ?
+@ Streps
+347a	Marry, I have. But what οὐ that?
+@ Socr
+348	Learn that the Clouds assume whatever guise likes them best. Therefore, if they chance to see a long-haired fop —one of those hirsute ‘slips of wilderness,’ such as the son of Xenophantus, in mockery of his lunes, they translate themselves into Centaurs.
+@ Streps
+351	But, what if they descry a Simon, that harpy of the public chest—what do they do?
+@ Sock
+352	They publish his nature by becoming wolves.
+@ Streps
+353	(Zagerly) That's the reason, that’s the very reason, why yesterday, on seeing Cleonymus, the discarder of shields, and recognizing him as the arch-caitiff he is, they forthwith made themselves stags.
+@ Socr
+355	And just now, catching sight of Clisthenes (pointing to a member of the audience)—do you observe ?—they took the guise of women.
+@ Streps
+356	(Hestatically prostrating himself before the Chorus) All hail to ye, then, Liege Ladies! And now, on my behalf, if e’er before for mortal man, volley forth a cry against the welkin, O ye queens of heaven.
+@ First Leader
+358	Our greeting to thee, Ὁ greybeard, ancient of days, who huntest upon the trail of the Muses’ lore: and (turning to SOCRATES) thou, high-priest of air-drawn trifles, tell us all thy desire. For not to any other of the transcendental philosophers, save alone to thee and Prodicus, would we lend our ear: to him because of his wisdom and judgment, to thee that in the streets thou jettest like a pajock, and gazest askance, and hast ‘an anchor’s cheer,” with unsandalled feet; and, being patroned by us, art so majestical.
+@ Streps
+364	O mother earth, how august and solemn and portentous that voice !
+@ Sock
+365	Aye, for they alone are goddesses, and all the rest but trash.
+@ Streps
+366	(With a shocked expression) But Zeus—tell me in the name of the Universe—Olympian Zeus—is not he a god ?
+@ Socr
+367	Zeus, in good hour! Tut, don’t drivel. There’s no such being as Zeus.
+@ Streps
+367a	What! Who is it sends the rain, then ? Resolve that doubt before aught else.
+@ Socr
+369	Marry, these ladies. And the truth of this I'll prove by weighty tokens. For, say, have you seen it raining, save when clouds were about? Yet, if Zeus sent rain, it ought to have been in a cloudless sky, while these were engaged elsewhere.
+@ Streps
+372	Marry, your answer is well ‘engraffed’ into the point in question. Hitherto I've always fancied that Zeus t disponged ᾿ his pickle through a sieve—But tell me, who is it that thunders ?—that’s what puts me in these tirrits.
+@ Socr
+375	(Pointing to the Chorus) These, as they roll around— tis these that thunder.
+@ Streps
+375a	How so, O man that nothing daunts ?
+@ Sock
+376	When they're swollen with much moisture, and are driven to sweep along, they flag from their watery burden; and then by natural law o'er weighted they to and fro conflict, and are rent with a bang.
+@ Streps
+379	( With a puzzled expression) But who wields the force, so that they sweep along ? Is’t not Zeus ?
+@ Sock
+380	Not a bit: ’tis atmospheric whirligig.
+@ Streps
+380a	Whirligig ὁ I never thought οὐ that—that Zeus is 101 gone, and that, in his stead, Son Whirligig is now enthroned.— But so far, you've taught me nothing about the crash and the thunder-peal.
+@ Socr
+383	(Impatiently) Didn’t you hear me saying that when the clouds full of moisture to and fro conflict, their density is rent with a bang ?
+@ Streps
+385	What proof compels belief ?
+@ Socr
+385a	Yourself shall be my illustration. ‘When at Athena’s festival you have gorged yourself with broth, and your belly is ill at ease, do you not find that a dreadful pudder hurtles through its caverns ?
+@ Streps
+388	Marry, that’s so: and my belly speedily proclaims its distress. ‘ Rumble,” quoth your whoreson soup, like thunder, and it parlously croaks: gently at first ‘bounce’: then with increasing volume ‘bounce, bounce’: but, when I'm easing myself, it peals and thunders ‘ bounce-bounce-bounce —just like the clouds.
+@ Socr
+392	If, then—pray observe—from a pelting belly like yours such a peal issues, is’t not probal that this infinite canopy of the air should mightily thunder ?
+@ Streps
+394	(Laughing) That's just the reason why the name of both is ‘crack.’ But whence speeds the levin-flame—possess me οὐ that—making a carbonado of those of us whom it strikes, while those that it leaves alive are singed ? Past doubt, Zeus hurls these bolts at perjured men.
+@ Sock
+398	How is it then, you jolthead, reeking of the dust of creeds outworn, you moon-struck batch of antiquity—how is it that, if the lightning strikes the perjurer, it hasn't burnt to 105 cinders Simon and Cleonymus, and Theorus— perjurers in grain —Dbut instead hurls itself upon Zeus’ own temple, and “ Sunium’s lofty steep, and the mighty oaks? What makes it act like that ? Surely, the oak is not addicted to perjury ?
+@ Streps
+403	I don’t know. But there seems to be much in what you say. But what, then, is the nature of the lightning ?
+@ Socr
+404	I will tell YP Whenever a parched wind, soaring on high, is pounded up/within their womb, it distends the clouds like a bladder, and then, by natural law, it rends them, and bursts forth with violence, ‘owing to the density of the pressure; and, through stress of the rush and swing of its own motion, sets itself ablaze.
+@ Streps
+408	Marry, that’s just what happened to me one day 107 at the Diasia. I was roasting a haggis for my kinsman, and carelessly forgot to slit the bag. The thing then swelled and swelled, until, with a sudden bang, it flung the offal full in my eyes, setting my brows in flame.
+@ First Leader
+412	(70 STREPSIADES, grandiloguently) O mortal wight, whose heart is set upon wit and pregnancy from our store, blest among the Athenians and all the Greeks wilt thou become, if thou art of memory keen, and a thinker, and thy heart is filled with endurance, ἐμὰ if thou knowest no weariness, whether 109 standing still or walking :/hor complainest when shivering, nor hungerest for thy midday meal ; but refrainest from wine, and wrestling-schools, and suchlike fopperies, wotting, as should a man of wit, that the crown of bliss is to snatch the prize in the tug and scamble of the courts, and in the council-chamber’s wordy war.
+@ Streps
+420	(Lzpansively) Well, so far as a heart of oak goes, together with a speculative brain, on an uneasy pallet lying, and a belly sparing and niggard of comfort, that reckons savory a dainty dish, be not anxious : gladly, so far as these serve, I will yield myself to be hammered on your anvil. 111
+@ Socr
+423	Will you, then, disavow every deity other than those that we believe in—this triad, to wit (waving his hands about) this vastidity of Air, and the Clouds, and the Tongue ?
+@ Streps
+425	(Complarsantly) 1 wouldn't so much as pass the time of day to the rest—even if I met them face to face: nor sacrifice to them, nor pour libation, nor burn frankincense.
+@ First Leader
+427	Then be bold to tell what you would have us do for you:/for we will not fail you, if you honour and worship us, and seek to become a knowing file.
+@ Streps
+429	My Liege Ladies, this small boon I crave of you— that of all the Greeks I may become the cleverest speaker by one hundred stades.
+@ First Leader
+431	We guarantee you that: from this day forth in the Public Assembly no man shall éutvie you in passing motions. .- desire for such things,/but merely to wrest the course of law to , STREPS. Don’t eg to me of public ‘motions’: I've no my own profit, and to slip from the clutches of my oe ol First LEADER. You shall achieve the object of your dream, for you do not ask for much. Come, be of good heart, and commit yourself to our beadsmen.
+@ Streps
+433	I put my trust in you, and will obey. For force perforce constrains me, along of the branded blood-steeds, and the marriage that proved my ruin. Let them take me, and do what they will. This body of mine 115 I bequeath to them, to be hungry and thirsty, to be beaten with rods, to be foul, to be frozen, to be flayed into a pell, if I can but shuffle off my debts,fand appear to the world a thrasonical, plausible patch, a go-ahead knave, sheer bounce, a whoreson wretch, a mint of lies, a coiner of phrases, a Court hack, a walking code-book, a clapper, a fox, a gimlet, a cheveril glove, a rogue in grain, smooth as oil, a bragging Jack, a halter-sack, a 117 scroyle, a boggler, a hard nut, a miching mallecho. If they give me these additions, when they meet me, let them do their very worst,—aye, by Demeter, if they list, let them make of me a dish of chitterlings to set before the Minute Philosophers.
+@ Second Leader
+457	(710 SOCRATES) He is of undaunted metal, ready and apt. (Zo STrREPSIADES) Learn this task, and, be assured, 119 you shall win of me fame among mortals that will strike the welkin.
+@ Streps
+461	What shall be my lot ?
+@ Second Leader
+462	In company with me, all the days of your life will be supremely blessed.
+@ Streps
+465	(Festatically, throwing himself wpon his knees) Shall 1 really see this with these eyes ?
+@ Second Leader
+467a	Aye, so that a crowd shall ever sit at your gates, wishing to make you partner in their converse, and to hold counsel with you as to appellations and declarations involving many talents,—matters meet for an intelligence like yours. 121
+@ First Leader
+478	(70 SOCRATES) But to your task; begin the greybeard’s education ; stir the depths of his mind, and essay and taste his judgment.
+@ Socr
+481	Come then, reveal to me your temperament, that, knowing it, I may go on to apply novel engines to you.
+@ Streps
+482	(Shrinking back) What the good-year ! Do you plot to batter me down with your assaults?
+@ Socr
+483a	Not a bit: I only wish to put to you a few questions. Is your memory good ?
+@ Streps
+486	Marry, it acts in two ways: if a debt is due to me, my memory 15 very keen; but if I owe anything, alas! poor wretch, 'tis blind and dark oblivion. (SOCRATES laughs, and turns to a fresh point.) ?	Have you the native ‘gift οὐ the gab’? 123
+@ Streps
+487	O’ the gab, no; but to grab I'm very apt.
+@ Sock
+488	How, then, will you be in a state to learn ?
+@ Streps
+488a	(Shrugging his shoulders) Oh, readily enough.
+@ Socr
+489	(Shaking his head, and changing the subject) Well, as often as I fling you a morsel of astronomical lore, let me see you snap it up in a trice.
+@ Streps
+491	(Striking an attitude) What, am 1 to gobble up the food of wisdom like a dog ?
+@ Socr
+492	(Z'ragically) The man’s ‘an unlettered, small-knowing soul.’ Greybeard, methinks you need the lash. Tell me, what do you, if one take you a blow ? 125
+@ Streps
+494a	I take the blow, and then after a pause I call the passers-by to witness, and then, in a twink, I go to law.
+@ Socr
+497	(With a gratified expression) Come now, discard your cloak.
+@ Streps
+497a	(Shrinking back) What, have I sinned in aught ?
+@ Socr
+498	No, but it is the custom for novices to enter in querpo.
+@ Streps
+499	But I'm not going in on an office of discovery.
+@ Socr
+500	Untruss, I say: don’t fool.
+@ Streps
+500a	(Taking off his cloak) Then tell me this: if I prove attentive, and an eager scholar, to which of your disciples shall I grow most like ?
+@ Socr
+500b	(Striking an attitude) Youll be the counterfeit presentment of Chaerephon.
+@ Streps
+501	Ods pittykins ! I shall become a skeleton. 127
+@ Sock
+505	Don’t talk bedlam, but follow me hither with no laggard steps.
+@ Streps
+506a	(Striking an attitude) First place a honey-cake in my two hands, for the descent into your ‘cave of Trophonius’ fills my soul with awe.
+@ Sock
+509	Forward. Why keep you boggling about the threshold ? (They enter the Reflectory, STREPSIADES being pushed by SOCRATES. The members of the Chorus go through elaborate evolutions, changing thewr positions so as to face the audience.)
+@ First Leader
+510	(70 STREPSIADES) Well, go your ways, and God’s benison be with you for your stout heart. (Zo the audience) May prosperity be his page, seeing that, though declined into the 129 vale of years, he new-dyes his nature, and seeks to practise wisdom. Gentles, you shall hear the truth in all plainness, so help me Dionysus, who has fathered my muse. / May Victory desert me, and the repute of wit, if it be not that in assurance of your critical refinement, and in the consciousness that this is my ‘most excellent conceited play,’ a play that of all has cost me deepest travail—I determined that you should be the first to taste its 131 quality ; and yet, though I merited a different fate, I retired routed by a gang of clowns. This is the crow I have to pluck with you, ye criticasters, in whose behoof I have laboured at these lines. Yet, even so, I never will of my own motion desert those of you who smack of wit. For, since the day when, on this spot, my Discretion and Wanton was crowned by men, whom it was a joy e’en to address,—and I, for I was a maid, 133 not ripe for motherhood, exposed my bairn, who was mothered by another’s care, and gently nurtured and schooled by you,— ever since that day I have had in my heart sure pledges of your judg ment. So now, like Electra in the play, my comedy has come forth to see, if perchance she can find an audience as instinet with wit. For if, by hap, she see her brother’s curl, she will recognize it straightway. Pray mark her native decency. First, she is not decorated with the stitched and leathern cod- 135 piece, so broad and rubious, designed to make the children laugh ; then, there is no baiting of ‘peeled crowns,’ no heeling of the lavolt ; nor does the chief actor seek to cloak his scurril jests by belabouring those about him with his staff: nor does she bound 137 upon the scene with blazing torches, nor scream °alack, alack’; but she comes on in calm confidence of herself and her lines. Now I, though a poet of this quirk, give myself no airs, nor seek to fool you with vain repetitions, but I show my art in devising fire-new jests,—ever fresh and ever witty. I yerked Cleon in the paunch, when at the zenith of his power, though I had not the 139 heart to foot him when down. But my rivals, if once Hyperbolus has given them a hold, never cease pulling the rim out of the poor wretch,—him and his mother too. Eupolis first and foremost, having damnably mauled my Knights, dragged upon 141 the boards his Maricas, having foisted into it an old beldam for the sake of the back-trick,—her whom Phrynichus had staged long years ago, her whom the monster had for supper. Then Hermippus made a butt of Hyperbolus, and all the rest of the crew had their fling at Hyperbolus, stealing the imagery of my Με ῖ8. Whoever, therefore, can find mirth in trash like this, I warn not to welcome my plays: but, if your hearts are gladdened by me, and my inventions, your repute for discernment will wax from age to age. SEMICHORUS I. First, then, I invoke to our dance Great Zeus, throned and set high above the Gods; mext the puissant wielder of the trident, turbulent upheaver of the earth and briny ocean, ytogether with the mighty name of our Sire, the life-giving Ether august; and the charioteer who pervades the plain of earth with his resplendent beams, a divinity of sway immense among gods and mortal men alike. Gentles, peerless in wit, lend me your ears; for, greatly wronged, we tax you to your faces,—we who, above all the Gods, 145 befriend you, yet alone among, divine powers we receive no sacrificial offerings, no libations, protect you as we may.” If some rash expedition is afoot, then’ we thunder or drizzle: again, when you were bent on choosing the villainous tanner, that Burgullion Cleon, as your General, we contracted our brows, and ‘made a dreadful pudder overhead: and thunder mixed with lightning ‘rent the region. The Moon was fain to desert her track, and the Sun withdrew his wick into his orb, and swore he’d shine no more if Cleon were to be your General; and yet he had the election, Now, though folly is the infirmity of our State, men say that Heaven turns your lunes, how great soever they 147 be, to a happy issue. And we can readily show you how even this error is a blessing in disguise. If you convict the cormorant Cleon of bribery and peculation, and shackle his neck with the collar of little ease, again, as of yore, your backslidings will turn out to the welfare of the State. SEMICHORUS 11. O Phoebus, lord of Delos, enthroned upon the rampired Cynthian rock, again let thy presence be about me: and thou, blessed one, who dwellest in Ephesus’ golden 149 house, wherein the Lydian maidens pay unstinted orisons; and thou, our patron deity, that wieldest the aegis, Athena, guardian of our citadel; and thou who, from thy haunt upon Parnassus’ bluff, flashest forth with the torches of the Delphic bacchanals, conspicuous in their throng, Dionysus, leader of the revel rout! What time we made ready to come hither, the Moon fell in with us, and bade us bring this message to you: first, to the Athenians and their allies, health and fair time of day; then she said she was wroth with you, for she had been treated scurvily, —she who had showered blessings on you all, not in words but by clear and open deeds: first, by saving you not less than a drachma a month, in the matter of links; so much so that each, when going abroad at sunset, has said to his slave, ‘boy, don’t buy a link, since the light of Lady moon is bright” Other boons she claims as of her gift, while you do not count the days aright, but turn all topsy-turvy: so that, she says, the Gods are threatening her, whenever they are swindled out of their suppers, and have to return home, scanted of the joyance that their calendar ordains. Further, when you ought to be sacrificing, ~you ply the rack and sit in judgment; and sundry times when we, the Gods, have lenten entertainment, and bewail the death of Memnon or Sarpedon, you quaff toasts with loud guffaws. In vengeance whereof, when this year Hyperbolus was elected Remembrancer, we Goddesses deprived him of his fillet of office. For such a mishap will teach him that he should reckon thedays of his life in accordance with the phases of the moon. 153
+@ Socr
+627	By Respiration, by Void, by Air, I never saw such a homely clown, so shiftless and left-handed, such a sieve. No sooner does he learn some sophisticated scraps, than he forgets them,—even before he has learnt them. However, I'll call him out of doors into the bright sun. What ho, Strepsiades! Come out, not forgetting your pallet-bed.
+@ Streps
+634	But the bugs won’t let me take it out. (STREPSIADES appears, carrying the pallet-bed in his arms.)
+@ Socr
+635	Quick, set it down : and mark, perpend.
+@ Streps
+635a	(Throwing down the bed, with an air of disgust) There! 155
+@ Socr
+636	Come, tell me, what would you like to learn first,— something you were never discipled in before ? Is’t measures, or rhythms, or the proper use of words ?
+@ Streps
+639	(Kagerly) Measures for me! For some days ago 1 was choused by a corn-seller,—with his quart measure.
+@ Socr
+641	(Pettishly) That was not my question: but what poetic measure think you most excellent—the triple or quadruple measure ?
+@ Streps
+643	To me, the gallon measure surpasses all.
+@ Socr
+644	Sirrah, you talk bedlam. 157
+@ Strreps
+644a	Will you wager, then, that the quadruple measure is not a gallon ?
+@ Socr
+646	A pox on you, what a clod and peasant slave you are! yow’d make an apt student of the science of rhythm !
+@ Streps
+648	But how will rhythms stead me in the matter of corn ?
+@ Socr
+649	First, they will teach you, in society, to be a man of refinement, one who can distinguish between a war-march, and a song of the dactylic mood.
+@ Streps
+652	(FLagerly) Dactylic ? Marry, I know all about it.
+@ Sock
+652a	Then say: (Playfully, holding wp his forefinger) What else than this dactyl finger of mine ?
+@ Streps
+653	(Holding out his muddle finger, with a wink) Of old, indeed, when 1 was but a crack, this other one.
+@ Sock
+655	You clown! you brute ! STREPS, (Impatiently) Well but, poor fool, I've no wish to learn any of these things.
+@ Sock
+655a	Then, what do you want?
+@ Streps
+656a	(Striking an attitude, and excitedly) Why, that, and naught but that,—the all-unjust sophistic logic.
+@ Sock
+658	But there are other things you must first learn,— for instance, the four-footed animals that are veritably of the masculine gender.
+@ Streps
+660	(Contemptuously) I know well enough which are of the masculine gender,—else call me daft: such are the ram, the he-goat, the bull, the dog, the rooster.
+@ Sock
+662	Do you see what you've done? You use the same name for the cock and the hen alike.
+@ Streps
+664	( With a puzzled expression) How so,—tell me, how ?
+@ Socr
+664a	You've called both rooster.
+@ Streps
+665	(Smiling) Marry, so I have. But how should 1 call them now ?
+@ Socr
+666	You should differentiate them as ‘rooster’ and ‘ roostress.’ 161
+@ Streps
+667	(Clapping his hands) © Roostress’ ? By Air, I thank you for that word. (Striking a posture) In reguerdon of this lore alone, I'll crown the roundure of your kneading-jack with barley-meal.
+@ Socr
+670	There you are again with a fresh blunder. You make the vessel masculine, though it is feminine of gender.
+@ Streps
+671a	How so? Do I call the vessel masculine ?
+@ Socr
+672a	Certainly; just as you would if naming Cleonymus.
+@ Streps
+673a	How 80 2 say.
+@ Sock
+674	To you the vessel and Cleonymus alike are ‘jack.’
+@ Streps
+675	(Compassionately) Nay, my good sir, Cleonymus never had a kneading-jack, but he did his work in a round mortar. But how must I call the thing in future ? 163 Socr. How ? Why, ‘ kneading-gill,’ just as you call Sostrata ‘a gill’ STREPS. A gill ? A wench’s name ?
+@ Socr
+677a	Yes, you have it right now.
+@ Streps
+679	Argal, the proper style and addition for both is gill’ /S0CR. You must learn further which names are masculine, and which are feminine.
+@ Streps
+679a	Ah, but I know those which are feminine.
+@ Sock
+680	For example ?
+@ Streps
+681	Lysilla, Philinna, Clitagora, Demetria.
+@ Sock
+683	And masculine ?
+@ Streps
+683a	Oh, heaps,—Philoxenus, Melesias, Amynias.
+@ Socr
+684	Nay, but, poor fool, these are not masculine.
+@ Streps
+685	(Annoyed) ¢ Not masculine, quotha.
+@ Socr
+685a	Surely not: for example, how would you address Amynias, if you met him ?
+@ Streps
+687	How ? Why, of course, ‘come here, come here, Amynia.’
+@ Socr
+688	(Slyly) Do you observe ? You give Amynias a woman’s [Note: name.] 165
+@ Streps
+692	And am I not right, since he never shoulders the pike ? (Impatiently) But why do I learn things that we all know ?
+@ Socr
+694	(Shrugging his shoulders) Nay, ’tis no matter. (Dropping the subject, and pointing to the bed) Come, lie down here, and
+@ Streps
+694a	(Starting back) What am I to do?
+@ Socr
+695	Cudgel your brains about some trifle of your own affairs.
+@ Streps
+696	Anywhere but here, I implore you; but if the ‘cudgelling’ must be done, allow me to do it lying on the ground.
+@ Socr
+698	There is no way but this.
+@ Streps
+698a	(Striking an attitude) Alas, poor perdu, what a penalty I'll pay these bugs to-day ! SEMICHORUS I. Perpend, and ponder: and let your mind grow to a point, and whirl it round and round like a potter's 167 wheel, and whenever you find yourself gravelled, forthwith skip to another problem : and let the honey-heavy dew of slumber not peize your eyelids down. . . . (STREPSIADES lies down upon his couch, and, like Hecuba in the play, covers his head with a sheepAfter a few moments he commences to toss violently.)
+@ Streps
+707	(Screaming) Ah! Ow! Ah! Ow! FIRST LEADER, (Tragically) What make you? What throes you?
+@ Streps
+708	(Zragically) I'm sped, I'm sped! I'm galled and pinched by the creepers o’ the blankets, these Bedouins. (Breathlessly, as he tosses in an ecstasy of agony) They're mincing my ribs, they're swilling my life-blood, like wash, they're tearing 169 out my bauble, they're channelling my stern: theyll soon make an end of me.
+@ First Leader
+716	(7T'ragically) Be not so passionate.
+@ Streps
+717	What remedy ? My chinks have vanished, vanished my healthy hue, my life-blood, and e’en my shoes: and withal, to crown my sorrows, as I ‘keep quarter, singing the while, I myself am quartered, and well-nigh vanishing. (SOCRATES, who has been in a brown study, is recalled to himself by the screams of STREPSIADES. He returns and contemplates has dasciple who still tosses about wildly on the bed.)
+@ Socr
+723	Hallo, what are you at ? Are you not pondering ?
+@ Streps
+723a	1? Certes, I am.
+@ Socr
+724a	And what is the fruit of your meditations ?
+@ Streps
+725	I'm pondering—whether the bugs will leave a square inch of me.
+@ Socr
+726	(Turning his back upon him and moving away) Youll come to no good. 171
+@ Streps
+726a	Don’t say ¢ will, my good Sir: I've come to no good already.
+@ First Leader
+727	(Coming to the side of the couch, and watching STREPSIADES’ contortions) Tush, play the man, and gird up your coverlet about you. (Grandiloguently) Tis your part to invent a pass of practice, a cautelous device.
+@ Streps
+729a	(Still tossing) Ah, would that out of these downy rugs some one would invest me with a downy scheme to secure me quittance of my debts. (STREPSIADES again covers his head with the mantle, and after some convulsive motions, settles down into the repose of exhaustion. A silence ensues for a short period : then SOCRATES returns to visit the couch.)
+@ Socr
+731	Come, I must first see what this clown is doing. (Zo Strepsiades) Hallo, are you asleep ? STREPS, (Popping out his head from under the clothes) Slight, not a wink.
+@ Socr
+733	Have you caught anything ?
+@ Streps
+733a	Marry, not 1.
+@ Sock
+733b	Not a jot 7
+@ Streps
+734	Not a jot, but my bauble in my right hand.
+@ Socr
+735	(Angrily) Cover your head I say, once more, and set your mind quickly to work.
+@ Streps
+736	At what ? Tell me that, Socrates.
+@ Sock
+737	Nay, you must first discover what you want, and tell me.
+@ Streps
+738	(Impatiently) You've heard ten thousand times what I want—to wit, about the interest—a device whereby I may not repay a soul.
+@ Sock
+740	Come then, veil your head, and, paring your intellect to a tickle point, survey your affairs, by items,—with strict logical division and analysis.
+@ Streps
+742a	(Beginning to toss about again) Ah! Ow! Ah! Ow!
+@ Socr
+743	Be still: and if you're gravelled by any problem, drop it and try another tack: and then, after a while, bestir your wit again, and set it in the balance.
+@ Streps
+746	(4 long pause ensues) O Socrates, my bawcock !
+@ Socr
+746a	What is it, trot 3
+@ Streps
+747	I've trapped a device, whereby I'll shuffle off the interest.
+@ Socr
+748	Reveal it.
+@ Streps
+748a	Then tell me this
+@ Socr
+748b	(Interrupting) What ?
+@ Streps
+749	How would it be, if I should fee a wise woman from Thessaly, and should draw down the moon by night, and then shut her up, in ἃ plume-case, like a mirror, and keep her there ?
+@ Sock
+753	I’ the name of thrift, what's the good of that ?
+@ Streps
+753a	What? If a moon should nowhere wax again, there would be an end to the paying of interest. 177
+@ Socr
+755a	How so ?
+@ Streps
+756	Because money is lent from moon to moon.
+@ Socr
+757	(Laughing) O brave —But I'll propound you another riddle. Given on the records a suit against you; involving five talents :—tell me how you would make away with it.
+@ Streps
+761	(Beating his forehead) How, how ? That mates me; but I must think.
+@ Socr
+762	(Striking an attitude) Keep not your mind revolving about yourself, but let it soar into the empyrean, like a cockchafer tied by the leg.
+@ Streps
+765	(Clapping his hands) 1 have it now,—a device to make away with the suit, a device of infinite dexterity: Του admit as much yourself.
+@ Socr
+766a	What's the trick of it, pray ?
+@ Streps
+767	You've often seen, have you not, in the ’pothecaries’ shops that fine, transparent pebble, which they use to kindle fire ?
+@ Sock
+769a	You mean the burning-glass ?
+@ Streeps
+770	That's it. Say, how would it serve if, when the suit is being listed by the clerk, I should take the burning-glass, and standing aloof—just so—with the sun behind me, were to melt the letters on the summons ?
+@ Socr
+773	Grace go with you! Tis a clever device.
+@ Streps
+773a	(Clapping his hands) I'm rapt, that I've blotted out the summons.
+@ Sock
+775	Come now, let me see you quickly snap up this point.
+@ Streps
+775a	What 15 1t ?
+@ Sock
+776	How, in default of witnesses, would you rebut an indictment, if you were on the point of being cast in a suit ?
+@ Streps
+778	Quite readily, with perfect ease.
+@ Socr
+778a	Tell me.
+@ Streps
+778b	(Zriumphantly) Behold ! If there remained one suit 181 pending—before my own was called on—1I should run off, and hang myself.
+@ Sock
+781	Nonsense.
+@ Streps
+781a	Marry, I'm right; for, when I'm dead, no one can bring an action against me.
+@ Soocr
+783	(Losing has patience) You drivel: be off: you shall receive no more schooling from me.
+@ Streps
+784	Why so? In the name of all the Gods at once, Socrates ! (He throws himself on his knees.)
+@ Sock
+785	Nay, you'll forget in a trice every jot you've learnt, —else, tell me, what was the first lesson you were taught just now ?
+@ Streps
+787	(Striking his forehead) Let me see,—what the vengeance was the first, what was the very first? What was the gear in which we knead the barley-meal ? A pox on it, what was it ?
+@ Socr
+789a	A murrain on you, you most forgetful and lubberly old trot. (SOCRATES turns his back upon him, and walks away.)
+@ Streps
+791	(Beating his breast and in tragic phrase) Woe worth the day! This 1s the What is to be my fate, poor wretch ? 183 day of doom, if I learn not to turn my tongue to every twist. (Turning to the Chorus) O Clouds, I appeal to you for some good counsel.
+@ First Leader
+794	Greybeard, our counsel is that, if you've got a son of ripe age, you send him here to school, in your stead.
+@ Streps
+797	(Zagerly) Nay, I've a son, the nonpareil of men: but what can I do withal, since he refuses to be schooled ?
+@ First Leader
+799	And do you submit ?
+@ Streps
+799a	(In tragic phrase) Nay, he’s a man of thews, in his flush youth—a scion of the ¢ high-pitched ’ maidens of Coesyra. But I'll fetch him ; and, if he refuse, by yea and nay, I'll thrust him out of house and home. But (fo SOCRATES) go in, and wait a moment for me. (STREPSIADES hurriedly enters his house. SOCRATES remains for a few moments in order to listen to the song of the Chorus.)
+@ Semichorus Ii
+804	(710 SocrATES) Dost see that a rich store of blessings will come to thee soon from us, and from none else of the heavenly powers? For this clown is ready to do thy bidding, whate’er it be. But now that it is clear that the man is mazed, and a-tiptoe with exaltation, grasp thou the happy chance, and gobble up whatever is to hand. Waste not a moment: for (sotto woce) such things, I know not how, are wont to belie our hopes. (SOCRATES leaves the Orchestra.) (STREPSIADES re-enters, wn the company of his son.)
+@ Streps
+814	By holy mist, you shall bide here no longer, but be off, and break your teeth upon the pillars of your uncle Megacles’ halls. 187 ῬΗΙΡ. My good sir, what ails you, father mine ? By Zeus, by heavenly Zeus, you're not in your right mind.
+@ Streps
+816	(With a sarcastic laugh) < Heavenly Zeus, in good hour! What folly! A man of your age to believe in Zeus!
+@ Phid
+818	(With a look of blank amazement) What can be the cause of this your mirth ?
+@ Streps
+820	I laugh to think that, though you're but a lad, your thoughts are wrinkled. However, come here, and I'll improve your education : for T'll tell you something that will make a man of you. (Whispering) But mind you never breathe it to a soul.
+@ Phid
+820a	(Placing his ear near his father’s mouth) There! What 15 1t ?
+@ Streps
+825	You swore by Zeus just now.
+@ Phid
+825a	So I did.
+@ Streps
+826	Observe what a fine thing learning is. (In a thrilling whasper) Phidippides, there’s no such being as Zeus.
+@ Phd
+827a	Then who is there ?
+@ Streps
+828	Son Whirligig is king, having hoised Zeus from his seat.
+@ Pup
+829	Pish! What nonsense is this?
+@ Streps
+829a	I assure you, ’tis the fact.
+@ Puip
+830	Who says so?
+@ Streps
+830a	The Melian Socrates, and Chaerephon, who can track the flight of fleas.
+@ Phid
+832	(Striking an attitude) And are you so ‘blasted with ecstasy ’ as to give credit to brainsick men ?
+@ Streps
+833a	Peace, good words: and scandal not men of light and leading : of whom, for thrift, no one has ever cut his hair, or used bear’s grease, or gone to the baths, for a wash: while you, as though to lay me out, are washing clean away my fortunes. But come, pack off to school in my place.
+@ Phd
+840	But what worth knowing could one acquire from fellows like these ?
+@ Streps
+841	Indeed ? Why, every kind of wisdom that man can conceive ; and you will learn that you are untaught, of wits dull and fat. (Hurrying into the house) But walt for me here a moment until I return.
+@ Phid
+844	(Soliloguizing) What the good-year am I to do, now that my father is stark mad ? Am 1 to bring him into court, and ‘beg him for a fool’? or shall I advertise the undertakers of his lunes ?
+@ Streps
+847	(Returning, with a cock and hen in either hand) Let me see: (holding out the cock) tell me what name you give to this ?
+@ Phid
+848	Rooster.
+@ Streps
+848a	Good : (holding out the hen) and this ?
+@ Phid
+849	Rooster also.
+@ Streps
+849a	What, both the same ? Dotard! You must change all that in future: and call this roostress, this rooster. 193
+@ Phid
+852	“ Roostress’? Is this the lore you've learnt in your late pilgrimage to the den of the Titan brood ?
+@ Streps
+854	Aye, and heaps more: but, time and again, from my ‘plurisy of years’ I straightway forgot everything that was taught me.
+@ Phid
+856	Then, that’s the reason you've lost your cloak ?
+@ Streps
+857	I've not lost it, but I've thought it away.
+@ Phid
+858	And your shoes, you jolthead,—what turn have you done them ?
+@ Streps
+859	(Striking an attitude) Like Pericles, on ἡ the service’ I have—squandered them. (Lagerly) But sharp’s the word: let us step out: and hereafter, if you yield to your father’s wish, you may go to the devil your own gait. When you were a six-year-old, as I remember, I also once yielded to your lisping 195 prayer, and spent the very first obol I earned for court-service on a go-cart for you at the fair.
+@ Pam
+865	I warn you, the hour approaches when you will rue this day.
+@ Streps
+866	For your compliance much thanks. (They walk across the Orchestra to the house of SOCRATES.) What ho! O Socrates: show yourself: for I bring this boy of mine, tho’ sore against his will. (SOCRATES reappears from his house.)
+@ Socr
+868a	Aye, for he is still but a puling boy, and not profited in the craft of the swinging perches here. 197
+@ Phid
+870	(Jeeringly) Your own old pell would be profited, if hoisted on the whipping-block.
+@ Streps
+871	A pox on you! do you curse the Professor ?
+@ Sock
+872	Hark to his ‘hoist,’ in accent of an idiot, with lips agape. How can you expect an ass like him to master “ acquittal ’ or ‘citation, or ‘ humbugging mystification ’? ΕΝ σαν 9. os : Re τ τ And yet the clown Hyperbolus acquired this art for a mere talent.
+@ Streps
+877	Never mind, instruct him. For he has a pregnant native wit. Even when he was a little scrubbed boy—so high— (with a gesture) he was wont to build houses at home, to cut out boats, to fashion go-carts of medlar wood, and from pomegranate rind to shape frogs with wondrous skill. (Zagerly) But see that he masters the two Reasons, the Better, whatsoe'er it is, and the Worser [that wrests the true cause the false way]; or if both be impossible, by all manner of means equip him with the one that scorns fair play. 201
+@ Sock
+886	He will learn from the lips of the two Reasons. But Τ shall not be here.
+@ Streps
+887a	Remember this,—he must be able to confute just pleas of every kind. (SOCRATES leaves the Orchestra in order to assume the mask of UNJUST REASON : STREPSIADES squats on the ground in a corner, and remains as a spectator of the following scene. The Chorus sings an ode, which is not now forthcoming. Then the two REASONS are brought into the Orchestra wn cages. They are dressed as fighting cocks, and when the cages are opened they fly at each other ; then after a struggle they separate, and recite the Proagon.)
+@ Just Reason
+889	Come your ways, and show yourself to the audience, you brazen-faced quack.
+@ Unjust Reason
+891	(Quoting from the © Telephus’) ¢ Go where thou list.’ All the more I'll defeat you in this presence. 203 J. R. You defeat me ? Who are you, faith ? U. R. Reason. J. R. Aye, the worser one. U. R . Yet your master, though you boast yourself my better. J. R. By what wise shift ? U. R. By coining untraded maxims. J. R. Aye, this art flourishes, thanks to these witlings here (pointing to the audience). U. R. Say rather ¢ wits.’ J. R. (Almost speechless) I'll maul you damnably. U. R. (Politely) How so? Pray tell me. J. R. By speaking what 15 just. U. R. But I'll mate your ‘justice’ by counterchecks: for I maintain that no such thing as justice exists. J. R. ‘No such thing as justice’! U. R. Come, tell me, where 15 1t stored ? J. R. In Heaven. τ R. And if justice exists, how is it that Zeus escaped death, when he had clapped his own father into chains ? J. R. Faugh! This passes. Hand me a basin. U. R. You loggerhead! You walking discord ! J. R. You bardash! You saucy merchant! U. R. You ‘strew on me roses, roses.’ J. R. And an eater of broken meats.— U. R. You wreathe me with lilies. J. R. And a kindless villain. U. R. (Coolly) You do not see that ‘you plate sin with gold. J. R. "Twas not so of yore: then ’twas plating it with lead. 207 U. R. But, nowadays, such things are a garland to me. J. R. (Almost speechless) You're an impudent companion. U. R. But you,—your date is out. J. R. "Tis you who have filled the town with miching schoolboys ; but Athens will soon see unmasked the lore you teach these idiots (pointing to the audience). τ. R. (Holding his nose) Faugh ! You've an ancient smell. J. R. (Sarcastically) Aye, but you are in good case. And yet, time was when you begged from door to door, playing the part of the Mysian Telephus, and from your wallet nibbling the broken meats of sophistical maxims. U. R. and J. R. (Unisono) Oh miracle of wit—Oh miracle of folly— 209 U. R. The wit your words recall. J. R. Your folly, and that of the city which gives you bread, the traitorous corrupter of our youth. U. R. Old dotard, you shan’t have the teaching of this boy (pointing to PHIDIPPIDES). J. R. I shall, unless he’s fated to be damned, and to make prating his sole study. U. R. (Zo ῬΗΙΡΙΡΡΙΡΕΒ) Come your ways, and leave this fellow to his lunes. J. R. Youll howl, if you lay a finger-tip upon him.
+@ First Leader
+926	Leave your bickerings and billingsgate; and do you (fo JusT REASON) give us an exhibition of the lore you taught our fathers; and you (0 UNJUST REASON) of the ‘new learning ’: thus, having heard the arguments on both sides, he will decide whose pupil he shall be. 211 J. R. I agree. U. R. And so do 1.
+@ First Leader
+939	Tell me, who is to have first word ? U. R. (With suspicious readiness) 1 yield to him; and then, out of his own mouth, I'll riddle him through and through with the shafts of untraded phrases and thoughts; and if, at the close, he should open his lips but a grize, his face and both his eyes shall be stung by my wasp-tongued wit. SEMICHORUS I. Ye champions, who put your trust in the cunning fence of words, and ideas, and maxims, fire-new from 213 the mint, now is the hour to show which of you twain in wordy war stands forth the nonpareil. The parlous trial of wit is slipped, and must be put to the issue here. A great Debate awaits our friends.
+@ First Leader
+961	(Τὸ Just REASON) But first, do you, who have set the fair flower of a noble life upon the men of old, ‘volley forth the voice’ that is your pride, and give us a taste of your quality. J. R. Well then, I will limn for you the good old system. When I and just speech flourished, and modesty was the only wear, 215 first, no boy’s voice was heard so much as whispering; next, those of the same ward marched through the streets in orderly procession, without their cloaks, to the music-master’s house, though it snowed as thick as meal. Then, step by step, the master taught his pupils to sit in a seemly posture, and to chant, ‘ Pallas, awful goddess, razer of cities, or the far-flung note,” they the while having o’erwrested the key their fathers handed down. 217 But if one of them clowned it, or attempted any of these curst and crooked trills and roulades of Phrynis’ school, he was swinged soundly for dimming the lustre of the Muses. Next, in the trainer's school, they were taught to avoid ungraceful motions, which might shock the spectators; and, when rising, to smooth the sandy” so as to leave no impressions of their youthful ὌΡΗ Then, in those days, no boy anointed himself below the navel, so that a tender quince-like down clad their limbs. Nor did he temper his voice to softness, and strut along, giving the leer of invitation with his eyes. At meals, a boy was taught not to snatch the head of the radish, nor to grab before his elders dill or parsley, nor to gobble up titbits, nor to ti-he, nor to sit with crossed legs. 221 U. R. What musty saws, reeking of ‘ hobby-horses’ and oldtime rites, of forgotten bards, and sacrifices out-worn ! J. R. Yet such the training that reared up the heroes of Marathon. But you teach the lads of to-day to coddle their limbs with wraps. Oh, I choke with rage, when they are called 228 to dance at Athena’s festival, and each holds his shield in front of his codpiece, and recks not of the ‘Triton-born. Therefore, young sir (fo PHIDIPPIDES) take heart, and choose me, the Better Reason, as your guide. Thus will you learn to hate the marketplace, and to keep away from hot-houses, and to blush at things that are shameful, and to blaze up, if any mock you : further, to give up your seats to your elders as they approach: never to be a rudesby to your parents, nor to do aught base that would slubber the image of Purity in your heart: nor to force your way into the den of a dancing-girl, lest, while agape on such pleasures, the callet pelt you with quinces, and wreck your fair fame: you will learn too, not to bandy words with your father, nor spitefully to call the old fellow Methuselah, who spent his prime in breeding you from a March chick. 227 U. R. Marry, young sir, if you give heed to him in this, youll grow like to Hippocrates’ litter of sons, and men will call you ‘mammy-suck.’ J. R. Nay, you will pass the time in the wrestling-schools, sleek of look, and ruddy-cheeked, not babbling in the marketplace light bavin wit, like the youth of to-day, nor being haled into court about some straw-splitting, loud-lunged, contradictious, desperate suit; but, descending to the Academy, you will run your laps beneath the olive-trees, having garlanded your 229 brow with the light reed, in company with some quiet sober comrade, redolent of the fragrant iris, of careless joyance, and of the poplar that loves to shed its catkins upon you, rejoicing in the springtide’s prime, what time the plane-tree whispers softly to the linden. If you obey these my hests, yea, and perdy, give them your ears, you will ever have an ivory bust, a clear skin, broad 231 shoulders, a tiny tongue, a brawn-buttock, an exiguous codpiece. But if your mode of life is up-to-date, mprimis you will have a shallow bust, a colour sickly-pale, narrow shoulders, an immense tongue, a pin-buttock, a grandiose codpiece, and a colossal decree to your credit. Moreover, this preceptor will persuade you to hold what is base as truly noble, and what is noble as base; yea, and perdy, he will leave upon you the tokens of the bawdiness of Antimachus.
+@ Semichorus Ii
+1024	O thou, whose cult is Wisdom’s towered height of fairest fame, how precious is the sweet flower of purity that blossoms in thy words! Blessed indeed were they who lived aforetimes. (Zo UNJUST REeAsoON) Therefore, Ὁ wielder of new-fangled conceits, thou must advance some modern instances, for the man has acquitted himself well.
+@ Second Leader
+1036	Clever, methinks, must be your devices against him, if you hope to outpeer the man, and not to be made a flouting-stock. U. R. Long have I almost choked with spleen In my yearning to confound his array of arguments with countercheck, For I won the title of ‘ Worser Reason’ among the Minute Philosophers, just because I was the true and original deviser of the idea of confuting law and justice. And this is worth more than ten thousand silver shekels, to choose the worser arguments, and then to win the day. (Zo PHiDIPPIDES) Now see how I shall tear the mask from the education in which he puts his trust. First, he says he will embargo hot baths. (Zo JusT REASON) And yet, good sir, what is your reason for disparaging them ? J. R. My reason is that they make a man vile, and a debile wretch. U. R. Stop, stop. For, at once, I have you upon the hip, in an unslipping knot. Tell me which of the sons of Zeus you think the bravest, whom the hero of the most numerous toils, —possess me of that. J. R. 1 deem no one to be a better man than Heracles. U. R. (Zriumphantly) Where, then, have you ever seen cold baths of Heracles? And yet who more manly than he ? J. R. Ah, these are the instances— just these— which the younkers chatter from morning till night, and which fill the bath and empty the wrestling-schools. U. R. Again, you cavil at the public haunts, while 1 commend them; for, if they had been vicious, Homer would never have represented Nestor and the whole quire of wise men as public speakers. Hence, I will pass to the question of the ‘unruly member,” which this fellow says that youths should not exercise, while I say that they should. Again, he asserts that 237 they ought to be modest—two fatal prejudices. For, tell me, have you ever seen anyone get any good from modesty ? Speak, and confute me, if you can. J. R. Scores. For instance, ’twas modesty that won his sword for Peleus. U. R. A sword! "Twas a pretty boon for the luckless fellow to win. But Hyperbolus—he of the lamp-market—has netted ever so many talents through his rascality, and not a poor thing like a sword,—not he, by Zeus. J. R. Aye, and thanks to his modesty, Peleus wedded Thetis. U. R. Aye, and she then left him, and decamped; for he was not ruttish, nor pleasant to spend a gaudy night with ’twixt the sheets. Now a woman loves to be lewdly handled, mark that, you old hobby-horse. (Zo ῬΗΙΡΙΡΡΙΡΕΒ) For consider, my lad, all that modesty involves, and what pleasure you will deny yourself, if you practise it—Dboys, girls, the cottabus, titbits, wine and laughter. Now, how is life worth living without them ? Very good! I will pass from these to the straits which flesh is heir to. Some scape, may be, has chanced, some love affair: you've done lecher, and been oertaken. You're ruined, for youre no speaker. But consort with me, and you may obey your blood, ramp and hoit, and deem nothing base. For if you are convicted of adultery, you may answer the cuckold, that you've done no wrong; and then, referring to Zeus, point out that even he was the thrall of love and women ; and how could you, a mere mortal, ‘ exceed the list of heaven’? 241 J. R. But what if, by hearkening to you, he endure the penalty of the radish, and have to repent in ashes? By means of what plea will he avoid being a ‘loose companion’? U. R. But, if he be a loose companion, how will he be the worse for that ? J. R. What greater misfortune could he suffer? (Theres a lengthy pause, during which UNJUST REASON furns towards the audience and studies their faces. Then, with an avr of triumph, he confronts JUST REASON.) U. R. (In a mock-heroic manner) What wilt thou say, if victory be denied thee ? J. R. Nothing. Merely this. U. R. Come tell me, from what class come the advocates ? J. R. The lechers, U. R. I believe you. Again, from what class come the tragedians ? J. R. The lechers. U. R. Good. From what class come the orators? J. R. The lechers. U. R. (Zriwmphantly) Don’t you perceive that you're championing a lost cause ? = (Zurning towards the spectators) Now study the audience, and tell me who are in the majority. J. R. I'm looking. (There δὰ long pause, during which JUST REASON faces the audience.) U. R. What do you see ? J. R. Marry, the lechers o'ertop all. At any rate, I'm certain about him (pointing fo a spectator) and him, and yonder ‘ρα ἃ darling.’ U. R. (With quiet confidence) Have you anything to say ? J. R. (To the audience, with an αἷν of great decision) Ye whoremongers, I'm worsted. (Zurning to the Reflectory, and its inmates) In heaven’s name, take my mantle, for I throw in my lot among you. (He tears off has cloak, and rushes madly into the Refectory. UNJUST REASON 15 left alone with STREPSIADES and Fy at —εχ) U. R. (Zo STREPSIADES, with a quiet smile) What now ? Would you be off, son and all, or shall I teach him for you how to speak ?
+@ Streps
+1105	Teach him, and whack him, and be sure ‘to cley his beak,’ on the one side to be apt for petty suits, and on the other for matters of greater moment. U. BR. Don’t fret. You'll receive him back a finished sophist.
+@ Streps
+1107	(Aside, with a satirical smile) A wretched tallowface, rather. (PHIDIPPIDES and UNJUST REASON move towards the Reflectory, STREPSIADES enters his own house.)
+@ First Leader
+1113	(710 the departing actors) Go then. (70 STREPSIADES, but not heard by him) But I fancy you will soon rue this day. SEMICHORUS I. We fain would tell what boons await the judges, if they show due meed of favour to this Chorus. For, first, if you would ear your lands, at the right season, we will rain upon you first, before all the others: then, we will keep watch and guard over your bladed corn and vines, so that drought shall not grate upon them, nor drenching downpour. But if any mortal shall scant the sizes to us, the only Goddesses, let him mark what ills await him: he shall receive from his farms neither wine, nor any fruit.#”For when his olives and grapes burgeon forth, they shall be cut down with the flail of the pelleted storm. And if we see one of you making bricks, we will pour down our cataracts, and with our gun-stones of ice beat flat his unbaked house-tiles. And if he himself or one of his kinsmen or friends is taking a wife, we will not spare our hurricane through the livelong night, so that, peradventure, he will een wish to be in Egypt, rather than show himself an unjust judge.
+@ Streps
+1131	(Counting on his fingers) The fifth, the fourth, the third, the second day from the month’s end, and then the one that makes my flesh creep with agued fear. For every man jack of my creditors deposits his fee, and swears an oath that he will annoy me and destroy me. And though I make a reasonable and fair plea, ‘my good sir, let a portion of the debt: be now withheld, let a portion await a while, and of another portion give me quittance altogether, they refuse to accept my terms, and abuse me as a rogue, and threaten to have the law of me. Well, let them have the law—I snap my fingers at them, if only Phidippides has learnt his task well. But I'll soon know the truth, by knocking at the Reflectory. (Knocking vigorously) What ho! goodman boy, what ho!
+@ Socr
+1145a	(Opening the door himself) My services to Strepsiades!
+@ Streps
+1146	The same to you! (Handing him a sock of meal) But first accept this douceur: for one must offer a ‘ condolement’ to the professor. But tell me if he has learnt the logic,—I mean my son who was lately admitted.
+@ Socr
+1150	He has learnt it
+@ Streps
+1150a	(Interrupting) Well done, O sovereign mistress Cajolery !
+@ Sock
+1151	So that you will readily win a verdict in any action you please.
+@ Streps
+1152	What, even if there were witness present, when I borrowed the money ?
+@ Socr
+1153	All the more, though there may be a thousand of them.
+@ Streps
+1154	(Zestatically, in mock-heroic style) Then will 1 vent the far-flung hurrah. Howl, ye usurers, with your principal and interest, and your ‘use upon use’; for never again will ye do me a scurvy trick: such a son is being reared up for me within these halls,—a son whose tongue is a two-edged flashing sword, my shield, the saviour of my house, the stone-of-stumbling to my foes, the champion who bursts the fetters of his father’s coil. (70 SocrATES) Haste, and warn him forth to me. (SOCRATES re-enters his house, while STREPSIADES addresses lis absent son) ¢ My child, my boy, come forth, to thy father lend thy ear.’
+@ Socr
+1165	(Returning with PHIDIPPIDES) Behold the man I spake of.
+@ Streps
+1168	(Embracing PHIDIPPIDES) O dainty one, O dear!
+@ Sock
+1169	Take your son and go your way. (SOCRATES re-enters his house.)
+@ Streps
+1170	(Still in mock - heroic style) Ho, ho, my child! hurrah, hurrah! First, let me say how it gladdens me to see your hue. Now, first and foremost, your face speaks plain bounce, and contradiction: now unmistakably there is blazoned on your brow the native imprese that asks, ¢ What's that you say, sir?’ That semblable of injured innocence, that air of a benefactor when you play the knave, Your complexion is perfect Attic. See that you be my saviour as you were once my ruin.
+@ Puip
+1178	(Coolly) And what is there to fear 7
+@ Streps
+1178a	The day that is old and new.
+@ Phid
+1179	And is there a day that is ‘old and new’ ?
+@ Streps
+1180	Aye, the day on which they threaten to deposit their fees against me.
+@ Phid
+1181	Then will they lose these fees; for one and the same day can ne'er be twain.
+@ Streps
+1183	Not twain ?
+@ Phid
+1183a	No more than that the same woman could be both old and young.
+@ Streps
+1185	And yet such is the practice.
+@ Phd
+1185a	Then, I fancy, they don’t know rightly what the law means.
+@ Streps
+1186a	What, then, does it mean ?
+@ Phid
+1187	(Striking an attitude, after the manner of a pleader) Solon, the old hero, was at heart a lover of the people
+@ Streps
+1188	(Interrupting) That’s naught to do with ‘the old and the new.’
+@ Phd
+1189	(Continuing) Consequently, he appointed two days for the summons, the old and the new day, so that the deposits should be made with the new moon.
+@ Streps
+1192	Why, then, did he add ‘the old day’?
+@ Phd
+1192a	(With an air of great profundity) In order, my dear sir, that the defendants, putting in an appearance one day in advance, might extricate themselves by consent ; or, failing that, might not be harassed until the morning of the new moon. 261
+@ Streps
+1196	(With a puzzled expression) Why, then, do the authorities not receive the deposits at the new moon, instead of on ‘the old-and-new’?
+@ Phd
+1198	It seems to be with them very much as with ‘the foretasters’ : in order to grab the fees as early as possible, they ‘ foretaste ’ them by one day.
+@ Streps
+1201	(Zestatically) O brave '—(Ἐπ the audience) Ye caitiffs, why do you sit there like hoddy-doddies, ye who are a godsend to us philosophers, ye stocks and stones, mere cyphers, naught but cattle, stacks of empty pitchers ? Now must I sing a paean in honour of the good fortune of myself and my son here: (singing) Happy, Strepsiades, happy in thy wisdom, and in having reared such a son!’ So will my friends and neighbours greet me, when by your eloquence (0 PHIDIPPIDES) you shall win the day at law. But, first of all, I must take you home, and feast you. (STREPSIADES and PHIDIPPIDES enter their house.) (Enter PASIAS, who has been mentioned earlier as having sold the blood-horse to STREPSIADES for twelve minae. He 18 accompanied by a summons-witness.)
+@ Pasias
+1214	What, should a man then throw any of his money away ? Never, never; better would it have been in those days to have said ‘nay,’ without a blush, than now to be plagued by having to hale you with me to give evidence about my very own, and, besides, to make an enemy of a neighbour. (Striking an attitude) Never, while life lasts, will I disgrace my native land, but (ὧν a loud voice) 1 cite Strepsiades
+@ Streps
+1221a	(Reappearing) Who's this 7
+@ Pas
+1222	(Continuing) before the court, for ‘the old-and-new.’
+@ Streps
+1222a	I protest: his citation is for two different days. (70 Pasias) What's your claim ?
+@ Pas
+1224	For that fifty pounds you borrowed for the purchase of ~ the steel-grey steed
+@ Streps
+1225a	(70 the audience) ‘Steed,’ do you hear? Why, you all know that I detest the very name of ‘steed.’
+@ Pas
+1227	(Continuing) Aye, and marry, you took it upon your salvation that you would repay me.
+@ Streps
+1228	(Laughing) Perhaps I did: for God wots, at that time, my son had not yet learnt the logic that cannot be overborne.
+@ Pas
+1230	And now that he has, do you mean to renege the debt?
+@ Streps
+1231	What profit else should I reap from his education ?
+@ Pas
+1232	And will you call the Gods to witness this refusal, on any hallowed spot that I shall mention ?
+@ Streps
+1233a	What Gods do you mean ?
+@ Pas
+1234	Zeus, Hermes, Posidon.
+@ Streps
+1234a	(Eagerly) By Zeus, I shouldn’t mind lodging an additional three obol-piece, to be allowed to swear.
+@ Pas
+1236	(Throwing wp hus hands in horror) Ruin seize you for your blasphemy.
+@ Streps
+1237	(Paying πὸ attention, but putting his hand upon ῬΑΒΙΑΒ᾽ stomach) This wine-sack would be all the better for a dressing of brine-pickle
+@ Pas
+1238	A pox on your flouts and jeers.
+@ Streps
+1238a	(Continuing) ’twill hold six pottle-pots.
+@ Pas
+1239	By Zeus, the mighty, and all the Gods, you shall not daff me aside for nothing.
+@ Streps
+1240a	(Laughing) I'm vastly amused by that word °Gods, and swearing ‘by Zeus’ is a good jest to those who know.
+@ Pas
+1242	(Solemnly) The hour, be sure, approaches when you shall pay scot and lot for this. (Zurning to go away) But answer whether you will restore the chinks or not, and let me go.
+@ Streps
+1244a	Bide a wee. For in a moment I'll answer plainly enough. (He hurries off into his house.)
+@ Pas
+1246	(70 the summons-witness) What, think you, is his intent 7 Think you that he will pay me ?
+@ Streps
+1246a	(Returning with a kneading-trough in his arms and striking an attitude) Where's he who of my money makes demand ? Speak : what is this?
+@ Pas
+1247	That? why, a kneading-jack.
+@ Streps
+1248a	(Still posturing) A witless oaf, dost thou my chinks demand ? I wouldn't pay so much as a denier to one who calls a kneading-gill a jack.
+@ Pas
+1252	Then, you won’t pay up ?
+@ Streps
+1252a	Not if I know it. So you'd better go sneck up, as fast as your pins can carry you, away from the door.
+@ Pas
+1254a	1 will go; but death of my soul if I don’t take the peace on you.
+@ Streps
+1256	Then you'll be throwing good money after bad; and yet I should be sorry if you were mulcted, merely for being so silly as to call this ‘ the kneading-jack.” (PASIAS and the summonswitness depart.) (Enter AMYNIAS, beating his breast, and parodying a threnody of Euripides.)
+@ Amynias
+1259	Oh me, oh me!
+@ Streps
+1260	(Imitating his manner) Ah! who's this wight that plains so piteously ? Can it be one of Carcinus’ ‘demigods’ who shouted thus ?
+@ Amyn
+1262	Eh? A man Do you wish to learn who I am? of sorrows.
+@ Streps
+1263a	Then keep them to yourself.
+@ Amyn
+1264	Discomfortable fate! O dire mishap, that’s smashed my chariot-rail. O Pallas dear, how hast thou quite undone thy votarist !
+@ Streps
+1266	What evil has Tlepolemus then wrought you ?
+@ Amyn
+1267	(Moderating his style) My friend, don’t jeer at me, but bid your son repay the sums he had of me, especially now that I am wrecked.
+@ Streps
+1270	( With an affectation of surprise) What sums are those you speak of ?
+@ Amyn
+1270a	Those that he borrowed.
+@ Streps
+1271	(Striking an attitude) Methinks then, you are veritably sped.
+@ Amyn
+1272	Marry, ‘twas through driving steeds that I got wrecked.
+@ Streps
+1273	Why then do you talk bedlam, as if you owed it to an ass ? AwmyN, Is it ‘bedlam’ to ask repayment of a debt ? Out of doubt your own wits are touched.
+@ Streps
+1274	(With an affectation of professional concern) In my opinion your pia mater has received a shock.
+@ Amyn
+1275	But in my opinion, by heavens, you are as good as attached, unless you repay the debt.
+@ Streps
+1275a	Tell me now, do you suppose that it’s new water that Zeus sends each time, or that the sun draws up the same from below again ?
+@ Amyn
+1276	I don’t know, and—what’s more,—1I don’t care.
+@ Streps
+1277	How, then, can you justly claim payment of a debt, when you are so incapable of the mysteries of the ᾿ skies ?
+@ Amyn
+1285	(Not marking) Well, if you are hard pressed for money, at least pay me that which the metal breeds.
+@ Streps
+1286a	What sort of cattle is this breed ?
+@ Amyn
+1287	What but the money which, month by month, and day by day, grows more and more, as the stream of time flows on ?
+@ Streps
+1289a	You say well. Look here, do you suppose that the sea 1s fuller now than it was of old? |
+@ Amyn
+1291a	No, its bulk is unchanged : since it is not the law of nature that it should grow bigger.
+@ Streps
+1292a	How then, poor fool, though the sea wax not, as all the rivers flow into it, can you seek to make your money wax ? Shog off, I say, from the house. (Looking round for his slave) Hand me the lash. (He strikes
+@ Amyyn
+1297a	I protest.
+@ Streps
+1298	Sneck up! quick, quick; gallop, O high-bred steed !
+@ Amyn
+1299	(Screaming) Is not this flat outrage ?
+@ Streps
+1299a	Sessa! Trace-horse, I'll firk your buttock with this my goad, and prick it full of holes. (AMYNIAS decamps) I thought I should bestir you, with your wheels and teams and all. SEMICHORUS I. What a coil is toward, when a man becomes enamoured of vain things! For this greybeard, being so bitten, is minded to ’scape payment of the money that he has borrowed. Out of doubt, many of you to-day shall see this chop-logic bring down some sudden bale upon his head, in punishment of his jack-dog tricks.
+@ Semichorus Ii
+1321	For anon, .I ween, hell realize what for so long he has been seeking, his wish that his son should become apt to match just pleas with counter-pleas, and to carry it off against all with whom he shall dispute, though his words be shame-proof. And then, belike, he will prefer that that son should be no better than stark dumb. (STREPSIADES rushes screaming into the Orchestra, closely Jollowed by hus son.) ?	Oh, oh! Neighbours and kinsmen and fellowtownsmen ! to my rescue, with your speediest, for I'm pounded. (PHIDIPPIDES strikes him again) Oh my head and cheeks: I'm ruined. (Zo PHIDIPPIDES) Out, scab! do you beat your father ?
+@ Prid
+1325a	(Coolly) 1 admit it.
+@ Streps
+1326	Mark him confess that he beats me!
+@ Phid
+1326a	And with a will too.
+@ Streps
+1327	O whoreson wretch, O kindless, cut-throat dog!
+@ Phd
+1328	More, more, I prithee, of these terms. Are you unaware that I dote on plenteous abuse ?
+@ Streps
+1330	You barathrum of lust!
+@ Phid
+1330a	‘Strew on me roses, roses.’ ) i STREPS. Do you beat your sire ?
+@ Phid
+1331	Aye, and by heavens, I'll prove that it was right for me to do so.
+@ Streps
+1331a	You dunghill cur, how could it be just to beat one’s sire ?
+@ Pup
+1332a	I will demonstrate it, and my words shall prove me victor.
+@ Streps
+1334	Victor in that ?
+@ Phid
+1335	Aye, conclusively, and with ease. But choose whichever of the Reasons you would have me use
+@ Streps
+1335a	‘Reasons,’ in good hour!
+@ Phid
+1337	(Continuing) The better or the worser ? ~~ STrEPS. Marry, sirrah, I've had you schooled with a wanion —to meet just pleas with counter pleas,—if you can prove this, that it is a just and virtuous act for a father to be drubbed by his son.
+@ Pump
+1338	Nay, I fancy that I shall be able to convince you— aye, so that when you hear you will have no word in answer.
+@ Streps
+1342	Indeed, I'm anxious to hear what you can say. SEMICHORUS I. Greybeard, ’tis your task to devise a way to defeat him; for the man has some assured trust, else he would not have been so outrageous. His audacity is firmly based and grounded. At any rate, the fellow’s temper is plain enough.
+@ First Leader
+1344	Narrate to the Chorus now how you first came to cuffs; and this no doubt you will freely do.
+@ Strreps
+1353	Assuredly, I will tell you how the mutual abuse arose. When, as you know, we sat at meat, I first bade him take the lyre, and sing a lay of Simonides, ¢ The Shearing of the Ram. 3 Then he roundly declared that it was a stale and musty custom, at a carouse, to play the lyre and sing, like a woman grinding shelled barley.
+@ Phid
+1359	Well, was it not high time that you should be drubbed and kicked, when, as if a lot of cicalas were your guests, you bade me sing 7
+@ Streps
+1361	(Britterly) Listen to him: that’s quite the way he talked just now. What's more, he declared that Simonides was a wretched poet. And I, at first, though with difficulty, bore with him. But, after a while, I bade him at least take in his hands a spray of myrtle, and recite for me something from Aeschylus. Forthwith he roundly said that Aeschylus was a braggart, full of unmeaning noise, a chaos rude and indigest, a farced mouth, spitting forth mountains and rocks. At this, bethink you, how my heart was chafed; for to me Aeschylus is the very first of poets. Yet, I bit my tongue, though furious, and said to him, ‘At any rate, rehearse me something of your younger bards,—some of those harlotry wise saws.’ On this, he clapped into some canzon of Euripides, in which, God save the mark, a brother sought to tup his uterine sister. Then, indeed, my patience failed me; and I incontinently bethumped him with a very tempest of exclamation. Thereupon, as you may imagine, there was old buffeting of angry words; and then he leaped upon me, and then he swinged me, and dusted me, and throttled me, and clapper-clawed me.
+@ Pap
+1377	And well I might, since you cavil at Euripides, the wisest of all poets.
+@ Streps
+1379	‘The wisest’ —he? O you—what am I to call you ? But again, again you'll beat me.
+@ Phid
+1379b	And justly too, by heaven.
+@ Streps
+1380	How justly? I who reared you, face of brass, 1 who understood your every childish lisp. When your lips made the sound °bryn, did I not take your meaning, and give you to drink ? or at ‘mamma, did I not haste to you with pap ? And no sooner had you said ‘ caccan’ than I took you out of doors, and held you out; but you now grip my gullet, and though I spend my mouth and scream, you disdain to take me 295 out, you lousy wretch, but I bave to do my ‘caccan’ on the spot and be stifled for my pains.
+@ Semmichorus Ii
+1391	I fancy the hearts of the younkers must leap to hear what answer he will return. For if his eloquence shall persuade us that such deeds are right, we would not buy the pells of the greybeards—no, not for so much as a chickpea.
+@ Second Leader
+1399	But now, O architect and ‘engineer’ of untraded phrases, now must your quest be for some spirit of persuasion, if you would appear to have justice on your side. ?	What a joy 1ὖ is to hold converse with things novel and ingenious, and to be able to disdain established conventions ! For when my every thought was bent on horse-flesh, I could not 297 say three words without a slip: while now that my father has insisted on my unlearning my old habits, and my only companions are subtle maxims, and discourses, and meditations, I fancy I can teach you that there is no injustice in chastising one’s father.
+@ Streps
+1406	For God’s sake, drive your teams; ’tis better for me to maintain a four-in-hand than to be bobbed and drybeaten.
+@ Phid
+1408	(Politely) I will take up the discussion at the point where you broke its tenour; and, first, I will ask you this question : usen’t you to beat me when I was a child ?
+@ Streps
+1410	Aye, out of good-will and care for you.
+@ Phid
+1410a	Tell me, then, is it not right that 1, too, should show my good-will to you, by beating you, since, according to you, blows and good-will are identical ? For why should your skin escape blows and mine not? I, too, am free as well as you. (Striking an attitude.) ‘The children howl: dost thou suppose it just That fathers howl not too 2° Peradventure you will say that this is the due of childhood ; but I would retort that the old are in their second childhood. And it is more proper that the old should howl rather than the younger sort, since they have less excuse for sinning.
+@ Streps
+1420	But in no country is it the wear that a father should be treated so.
+@ Phd
+1421	Well, was not the lawgiver a man like you and me, who first laid it down, and won the assent of the men of old time ? And, if so, why may not I likewise lay down a new regulation for times to come, that sons should beat their fathers in retaliation ? As for all the stripes that were to our account ere the law was enacted, we waive our rights thereto, and make it a free present to them that they punned us into shivers. Consider, too, the case of barn-door fowl, and your other animals of this kind, how they punish their sires. Now, how do they differ from us, save that they don’t draw up decrees ?
+@ Streps
+1430	Why, then, if you ape the barn-door fowl in all things, don’t you palate dung, and sleep upon a perch ?
+@ Phid
+1432	(Somewhat taken aback) My dear sir, there is no analogy between the cases, nor—(kesitating) would Socrates think so.
+@ Streps
+1433	Then, don’t drub me: otherwise youll blame yourself some day.
+@ Pap
+1434	How so?
+@ Streps
+1434a	Because, if I have the right to chastise you, you in your turn will have the same right when a son is born to you.
+@ Prin
+1435a	But should no son be born, my howls will have been in vain, and you will make a lip at me before you die.
+@ Streps
+1437	(Twrning to the audience) To me, my coevals, it seems that he speaks justly; and to me it seems right that we should make some due allowance to these younger folk. For it is only fair that we should howl, if we act unjustly.
+@ Pap
+1440	Consider yet another verity.
+@ Streps
+1440a	(Grvmly) 1 must, or. I shall perish. ῬΗΙΡ. And, peradventure, you will not regret what you have suffered.
+@ Streps
+1441	How so? Tell me how you will stead me, after what has passed.
+@ Pump
+1442	I'll beat my mother, as I've beaten you.
+@ Streps
+1443	What, what is this you say? This second evil passes.
+@ Phid
+1443a	(Coolly) But what, if, by help of the Worser Reason, 1 prove that it is right to beat my mother ?
+@ Streps
+1444a	(Violently wnterrupting him) What else but that, if you do this, you'll have free scope—to fling yourself into the Chasm, along with Socrates, and the Worser Reason. (Zo the Chorus) Such, O Clouds, have been my sufferings along of you, because to you I committed all my interests.
+@ First Leader
+1454	Rather, are you yourself too wilful-blame, by turning your way of life to evil courses.
+@ Streps
+1456	Why, then, did you not speak in this strain before, instead of tarring on a poor old carlot ?
+@ First Leader
+1458	Such is ever our treatment of any that we find to have his heart set upon crooked ways, until we hurl him down into disaster. Thus shall he learn to have the Gods In awe.
+@ Streps
+1462	(Tragically) Alas! O Clouds, sad is my plight, but just withal. For shameful ’twas to repudiate my debt. (70 PHIDIPPIDES) So now, dear heart, come with me, and wreak vengeance on the dunghill Chaerephon, and Socrates, who have rankly abused both you and me.
+@ Phidp
+1467	But I'd never be so hardy as to injure my professors.
+@ Streps
+1468	(Striking a posture) Yes, yes, in awe of Zeus, the God of fathers.
+@ Phid
+1469	¢ Zeus, the god of fathers,” in good hour! You're date 15. out. Does such a being as Zeus exist ?
+@ Streps
+1470a	He does exist.
+@ Phid
+1470b	Not he, not he; for Whirl is king, and has ousted Zeus.
+@ Streps
+1472	He has not: twas only a delusion of mine, thanks to that whoreson Whirl. Out upon me, that I imagined thee, a whorl-born thing, to be a God !
+@ Phid
+1475	(Going away) Stay here, and rave and gibber to yourself: I leave you.
+@ Streps
+1476	(Beating his breast) A pox on my idiocy: what a bedlamite I was to try to sowl Zeus by the ears, along of Socrates! (Zurning to the statue of Hermes) But, Hermes dear, be not in snuff with me, nor ruin me, but grant thy pardon to one whose mind was mated by vain babblement. And do thou counsel me, whether I should have the law of them,—or some other way that seems good to thee. (Putting huis ear to the statue) Thy advice is good, forbidding me to vamp up suits; but, rather, with dearest speed, to put the torch to the house of the babblers. (Shouting) Hither, hither, Xanthias, bring out a ladder and mattock, and scale the Reflectory, and dig up the roof, an you love your master, till you topple it down upon their heads. And let some one fetch me a lighting torch; and I'll see that many an one of them shall pay their debt to me to-day,—for all that they are knaves and canters. (XANTHIAS ascends the roof, and applies his mattock to the tiles and rafters. STREPSIADES ascends after hvm, and applies his torch to the fragments of the rafters. Some flame, and much smoke ensue.) DiscipLE 1. (Rushing out of the house) Ah me, ah me!
+@ Streps
+1493	(From above in tragic style) My torch, ’tis thine to vent a mighty flame.
+@ Disc
+1494	I. (10 STrREPSIADES) Sirrah, what make you there 2
+@ Streps
+1495	What ? Merely this: I'm talking logic with the rafters of the house.
+@ Disc
+1497	11. (Rushing out) Alas! who ravages our house with flame?
+@ Streps
+1498	He whose cloak you filched.
+@ Disc
+1499	11. (Gasping) You'll be our death, you will.
+@ Streps
+1499a	That's just what I want to be, unless (striking an attitude) my mattock prove a traitor to my hopes; or I, ere that, topple over and crack my neck.’
+@ Socr
+1502	(Rushing out) Hallo! you there upon the roof, what are you at ?
+@ Streps
+1503	(Striking an attitude) “1 tread the air and look down on the sun.
+@ Socr
+1504	(Gasping) Alas, alas! poor wretch, I shall be stifled.
+@ Disc
+1505	II. And I, hapless wight, shall be a carbonado.
+@ Streps
+1506	(70 the retreating philosophers) What led you to insult and flout the Gods, and spy out the moon’s whereabouts ?
+@ First Leader
+1508	(70 STREPSIADES) Pursue, smite, pound them —for many reasons, and, above all, because you know that they wronged the Gods. (Zo the first division of the Chorus) Lead forth ; for to-day we have performed our role in seemly fashion. 16. ὀνειροπολεῖ : schol. V (inf.) κἀν τοῖς ὀνείροις ἵππους περινοεῖ [R: -εἷς V]* τουτέστιν, οὕτω (προστέτηκε) τῷ πράγματι (καὶ οὕτω περὶ ἵππους) ἐσπούδακεν, ὥστε καὶ καθεύδων [R: -οντα V] ὀνείρατα περὶ ἵππων [τους R] ὁρᾶν. ὀνειροπολεῖν δὲ καὶ ὀνειρώττειν ταύτῃ διενήνοχεν [ἄλλο δέ ἐστι τὸ ὀν., καὶ ἄλλο τὸ ov. Β]1, (ὅτ) τὸ μὲν ὀνειροπολεῖν ἐπὶ τῶν ἐνύπνιον ὁρώντων, τὸ δὲ ὀνειρώττειν ἐπὶ τῶν διὰ νυκτὸς αὐτομάτως ἀφιέντων γόνον [γόνην Su.] I omit a sentence which the curious may find in Diibner). For the sense cp. 27, Eq. 809, Dem. iv. § 49 (of Philip’s building of castles in Spain) kat πολλὰ τοιαῦτ᾽ ὀνειροπολεῖ ἐν τῇ γνώμῃ. 408] (Der echte wu. d. Xen. Sokr. ii. 2 p. 823) sees a ‘Cynic’ allusion here; cp. Xen. Mem. 1. 6 ὃ 14, Oec. 11 §§ 4 sq., Antisth. fr. 80 Mullach. The Cynics were wont to illustrate their παιδεία by means of the analogy of horses; their trainer of youth was compared with the ἱππικός (Xen. Mem. iv. 4 ὃ 5). This trait, as Joél holds, may have suggested to Aristophanes the characteristics of Phidippides. The allusion seems to me very fanciful. 23. κοππατίαν : schol. V (χθ.) κοππατίας ἵππους ἐκάλουν, οἷς ἐγκεχάρακται [R, Su.: -χθαι V] τὸ Καὶ στοιχεῖον, ὡς «καὶ R> σαμφόρας [R: ὡς ἀμφ. V] τοὺς ἐγκεχαραγμένους [ἔχοντας R] τὸ δ’ (τὸ yap T καὶ τὸ Καὶ χαρασσόμενον σὰν ἔλεγον «καὶ κόππα Dind.: Su. is corrupt here>: ai δὲ χαράξεις αὗται καὶ μέχρι Tov νῦν [ἔτι καὶ νῦν Su.] σώζονται ἐπὶ τοῖς ἵπποις. συζευγνυμένου γὰρ τοῦ Κὶ καὶ T τὸ σχῆμα τοῦ ἐνενήκοντα ἀριθμοῦ δύναται νοεῖσθαι [κατανοεῖσθαι δίδωσιν Su.; in some codd. δ. being omitted], οὗ προηγεῖται τὸ Καὶ [κόππα ϑυ. ἴῃ cod. Α7' παρὰ γὰρ τοῖς γραμματισταῖς οὕτω διδάσκεται, καὶ καλεῖται κόππα [τὸ κόππα τὸ ἡ Su. in cod. A] τὸ ἐνενήκοντα. τινὲς δὲ κοππατίαν ἐξηγήσαντο τὸν κόπτοντα καὶ κοιλαίνοντα [κολάζοντα MS.: om. Su] ταῖς ὁπλαῖς τὸ ἔδαφος, οὐ δεόντως ὑποτιθέμενοι. οὐδὲ γὰρ βουκεφάλους [-ας MS., Su] καλοῦμεν διὰ τὸ μορφὴν τοιαύτην ἔχειν, ἀλλὰ διὰ τὸ οὕτω κεχαράχθαι, οἷος, οἶμαι, καὶ ὁ τοῦ ᾿Αλεξάνδρου τοῦ Μακεδόνος ἵππος ἦν ᾧ τελευτήσαντι τὴν Βουκεφάλαιαν ᾿Αλέξανδρος [Βουκέφαλον ᾿Αλεξάνδρειαν MS. Su.] ἔκτισεν, ἐντάφιον αὐτῷ τῆς ἀρετῆς χαριζόμενος πόλιν) ; see Su. sv. a good specimen of “the lore chewed by blind scholiasts o’er and o'er.” The learned pedagogue seems to have fancied that M (the symbol for 90, cp. Kiihner-Blass, Gram. ὃ 183) was produced by a combination of T and ᾧ ; for other explanations see Diibner’s note, and especially A. M. Jannaris, Clas. Quart. i. pp. 37 sqq. Such marks (ἐγκαύματα, πύρινα χαράγματα, cp. Amnacreontea, 26 B.A ἐν ἰσχίοις μὲν ἵπποι | πυρὸς χάραγμ᾽ ἔχουσιν) on horses
