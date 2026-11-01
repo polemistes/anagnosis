@@ -3,9 +3,9 @@
 963	πρῶτον μὲν ἔδει παιδὸς φωνὴν γρύζοντος μηδένʼ ἀκοῦσαι·
 964	εἶτα βαδίζειν ἐν ταῖσιν ὁδοῖς εὐτάκτως εἰς κιθαριστοῦ
 965	τοὺς κωμήτας γυμνοὺς ἁθρόους, κεἰ κριμνώδη κατανείφοι,
-966	εἶτʼ αὖ προμαθεῖν ᾆσμʼ ἐδίδασκεν τὼ μηρὼ μὴ ξυνέχοντας,
-967	ἢ Παλλάδα περσέπολιν δεινὰν ἢ τηλέπορόν τι βόαμα,
-968	ἐντειναμένους τὴν ἁρμονίαν, ἣν οἱ πατέρες παρέδωκαν.
+966	εἶτʼ αὖ προμαθεῖν ᾆσμʼ ἐδίδασκεν, τὼ μηρὼ μὴ ξυνέχοντας,
+967	ἢ Παλλάδα περσέπολιν δεινάν, ἢ τηλέπορόν τι βόαμα,
+968	ἐντειναμένους τὴν ἁρμονίαν, ἣν οἱ πατέρες παρέδωκαν·
 --- apparatus
 963	γρύξαντος codd.: O. Schneider γρύζοντος
 963	μηδένʼ Ald.: μηδὲν RV etc.
@@ -28,13 +28,16 @@
 966	εἶτʼ is printed at the start of this verse; ξυν- | έχοντας, divided and set in below: joined as the draft has it. Unflagged: the print has a comma after ἐδίδασκεν; left as the draft has it.
 967	βόαμα, is set in below as the turnover of this verse: confirmed. Unflagged: the print has a comma after δεινάν; left as the draft has it.
 968	unflagged: the print ends this verse with a raised stop (παρέδωκαν·); left as the draft has it.
+966	res: comma after ἐδίδασκεν, as printed
+967	res: δεινάν, with acute and comma, as printed
+968	res: raised stop after παρέδωκαν, as printed
 966	apparatus: the pointed brackets ⟨ ⟩ of the apparatus (here and at 964, 965, 968) are printed < >.
 
 === p-0316
 --- text
 970	εἰ δέ τις αὐτῶν βωμολοχεύσαιτʼ ἢ κάμψειέν τινα καμπήν,
 971	οἵας οἱ νῦν τὰς κατὰ Φρῦνιν ταύτας τὰς δυσκολοκάμπτους,
-972	ἐπετρίβετο τυπτόμενος πολλὰς ὡς τὰς Μούσας ἀφανίζων.
+972	ἐπετρίβετο τυπτόμενος πολλὰς ὡς τὰς Μούσας ἀφανίζων·
 973	ἐν παιδοτρίβου δὲ καθίζοντας τὸν μηρὸν ἔδει προβαλέσθαι
 974	τοὺς παῖδας, ὅπως τοῖς ἔξωθεν μηδὲν δείξειαν ἀπηνές·
 --- apparatus
@@ -55,6 +58,8 @@
 970	numbering: Starkie numbers the verses of this page 970-974 (margin 971 at οἵας οἱ νῦν, the apparatus 970-974, commentary lemma 970 βωμολοχεύσαιτο), one more than Perseus's 969-973: he leaves 969 free (cp. the apparatus at 968 on Brunck's added verse), Perseus leaves 974 free; from 975 the two agree again (margin 975 on p-0318).
 970	rev: renumbered the draft's 969-973 to 970-974 (the first agent had kept the Perseus numbers): the printed numbering wins (instructions; as done for 703-704 and 759-768 in batch-14), so margin 971 now stands on οἵας οἱ νῦν and the apparatus numbers 970-974 name the right verses. There is no verse 969 (968 on p-0314 is followed by 970).
 972	unflagged: the print ends this verse with a raised stop (ἀφανίζων·); left as the draft has it.
+972	res: raised stop after ἀφανίζων, as printed
+970	res: numbering checked on the whole page: margin 971 stands at οἵας οἱ νῦν and the apparatus names 970-974, so the renumbered 970-974 stand. merge-drama only requires the numbers to increase (it remarks a number that does not follow the one before, not a gap), so the jump from 968 (p-0314) to 970 is accepted; sections and the translation are attached by words, not by number.
 
 === p-0318
 --- text
@@ -66,7 +71,7 @@
 980	αὐτὸς ἑαυτὸν προαγωγεύων τοῖς ὀφθαλμοῖς ἐβάδιζεν,
 981	οὐδʼ ἀνελέσθαι δειπνοῦντʼ ἐξῆν κεφάλαιον τῆς ῥαφανῖδος,
 982	οὐδʼ ἄννηθον τῶν πρεσβυτέρων ἁρπάζειν οὐδὲ σέλινον,
-983	οὐδʼ ὀψοφαγεῖν οὐδὲ κιχλίζειν οὐδʼ ἴσχειν τὼ πόδʼ ἐναλλάξ.
+983	οὐδʼ ὀψοφαγεῖν, οὐδὲ κιχλίζειν, οὐδʼ ἴσχειν τὼ πόδʼ ἐναλλάξ.
 --- apparatus
 975	πάλιν] Bücheler (N. Jahrb. lxxxiii. p. 687) κόνιν (but it is doubtful whether -ιν is short)
 975	ἀνισταμένους Ald., frag. (ib.), Su. (s.v. συμψῆσαι)
@@ -88,6 +93,7 @@
 977	ἄν, ὥστε is set in below as the turnover of this verse: confirmed. 979 ἐραστὴν likewise: confirmed.
 981	the print reads ἐξῆν κεφάλαιον τῆς ῥαφανῖδος (Perseus ἐξῆν καὶ κεφάλαιον ῥαφανῖδος), clear on the crop: καὶ removed, τῆς added, as printed.
 983	ἐναλλάξ. is set in below as the turnover of this verse: confirmed. Unflagged: the print has commas after ὀψοφαγεῖν and κιχλίζειν; left as the draft has it.
+983	res: commas after ὀψοφαγεῖν and κιχλίζειν, as printed
 981	apparatus: the paragraph on this page ends with || after the first item 981; the apparatus continues between two rules at the head of the facing translation page (leaf 0319, p. 219), which has no crop of its own: the second item 981 (κεφάλαιον τῆς ῥαφανῖδος …) and the item 982 are read from the whole page there and written here. B.⁴ is printed with a superscript 4.
 
 === p-0320
@@ -110,6 +116,7 @@
 984	unflagged, but the print clearly reads Διπολιώδη (Perseus Διιπολιώδη; Starkie's commentary lemma is also Διπολιώδη, the apparatus gives Διϊπολίωδὴ as the reading of RV): written as printed. Speaker ΑΔΙ. in the margin, as the draft has it.
 985	unflagged, but the print clearly reads Κηδείδου (Perseus Κηκείδου; Starkie's apparatus: "The true name was probably Κηδείδης"): written as printed. καὶ Κηδείδου καὶ Βουφονίων. is printed as a verse of its own at the left margin, not as a turnover.
 985a	ΔΙΚ. in the margin; ἀλλʼ οὖν ταῦτʼ ἐστὶν ἐκεῖνα, is set at the right as the second part of 985 (margin 985 beside it): lettered numbering kept (Perseus 985b).
+985a	res: checked on the whole page: ἀλλʼ οὖν ταῦτʼ ἐστὶν ἐκεῖνα, is stepped to the right after ΔΙΚ., the second speaker's part of the verse that begins καὶ Κηδείδου; margin 985 beside it is the verse's number. 985a kept (Perseus numbers it 985b).
 986	the print reads Μαραθωνομάχους (the reading of R etc., Ald. in the apparatus; Perseus Μαραθωνομάχας), clear on the crop: written as printed.
 987	the print reads ἐν ἱματίοις προδιδάσκεις (Hermann's and Cobet's reading in the apparatus; Perseus ἱματίοισι διδάσκεις), clear on the crop: written as printed. ἐντετυ- | λίχθαι· divided and set in below: joined as the draft has it.
 988	the print reads ἀπάγχεσθαι, unelided (Perseus ἀπάγχεσθʼ,), clear on the crop: written as printed. αὐτούς, (acute, with a comma) is set in below as the turnover of this verse: confirmed and written as printed (Perseus αὐτοὺς without stop).
@@ -118,9 +125,9 @@
 === p-0322
 --- text
 989	τὴν ἀσπίδα τῆς κωλῆς προέχων ἀμελῇ τῆς Τριτογενείης.
-990	πρὸς ταῦτʼ ὦ μειράκιον θαρρῶν ἐμὲ τὸν κρείττω λόγον αἱροῦ·
-991	κἀπιστήσῃ μισεῖν ἀγορὰν καὶ βαλανείων ἀπέχεσθαι,
-992	καὶ τοῖς αἰσχροῖς αἰσχύνεσθαι, κἂν σκώπτῃ τίς σε φλέγεσθαι·
+990	πρὸς ταῦτʼ, ὦ μειράκιον, θαρρῶν ἐμὲ τὸν κρείττω λόγον αἱροῦ·
+991	κἀπιστήσῃ μισεῖν ἀγορὰν καὶ βαλανείων ἀπέχεσθαι
+992	καὶ τοῖς αἰσχροῖς αἰσχύνεσθαι, κἂν σκώπτῃ τίς σε, φλέγεσθαι·
 993	καὶ τῶν θάκων τοῖς πρεσβυτέροις ὑπανίστασθαι προσιοῦσιν,
 994	καὶ μὴ περὶ τοὺς σαυτοῦ γονέας σκαιουργεῖν, ἄλλο τε μηδὲν
 --- apparatus
@@ -137,14 +144,17 @@
 992	φλέγεσθαι· is set in below as the turnover of this verse: confirmed. Unflagged: the print has a comma after σε; left as the draft has it.
 993	προσ- | ιοῦσιν, divided and set in below: joined as the draft has it.
 994	μηδὲν is set in below as the turnover of this verse: confirmed.
+990	res: commas after ταῦτʼ and μειράκιον, as printed
+991	res: no comma after ἀπέχεσθαι, as printed
+992	res: comma after σε, as printed
 
 === p-0324
 --- text
 995	αἰσχρὸν ποιεῖν ὅ τι τῆς Αἰδοῦς μέλλει τἄγαλμʼ ἀναπλήσειν·
 996	μηδʼ εἰς ὀρχηστρίδος εἰσᾴττειν, ἵνα μὴ πρὸς ταῦτα κεχηνώς,
-997	μήλῳ βληθεὶς ὑπὸ πορνιδίου τῆς εὐκλείας ἀποθραυσθῇς·
+997	μήλῳ βληθεὶς ὑπὸ πορνιδίου, τῆς εὐκλείας ἀποθραυσθῇς·
 998	μηδʼ ἀντειπεῖν τῷ πατρὶ μηδέν, μηδʼ Ἰαπετὸν καλέσαντα
-999	μνησικακῆσαι τὴν ἡλικίαν ἐξ ἧς ἐνεοττοτροφήθης.
+999	μνησικακῆσαι τὴν ἡλικίαν, ἐξ ἧς ἐνεοττοτροφήθης.
 --- apparatus
 995	ὅ τι RV (sic): Blaydes οὗ which, in Spic. Ar. p. 132, he retracts, rightly thinking the gen. can be supplied from the context
 995	μέλλεις τἄγαλμʼ ἀναπλήσειν R (sic): μ. ἄγαλμʼ ἀ. V: Blaydes ὅ τι τῆς Αἰ. μέλλω τί σʼ ἄγ. ἀναπλάττειν. ἀναπλήσειν may have been a gloss on ἀναπλάττειν, which is said to be read by many inferior MSS. and which may represent παλάττειν (‘to stain,’ a word recovered by H. Diels, Hermes, xl. pp. 307 sqq., cp. Plato, Phaedo, 82 D σώματι παλάττοντες, MSS. πλάττοντες) (cp. V. Coulon, Qu. crit. p. 36). Be that as it may, a simple text has been corrupted on account of the false information as to the reading of R, which has been given by editor after editor; see comm.
@@ -160,6 +170,8 @@
 997	unflagged: the print has a comma after πορνιδίου; left as the draft has it.
 998	καλέ- | σαντα divided and set in below: joined as the draft has it.
 999	unflagged: the print has a comma after ἡλικίαν; left as the draft has it.
+997	res: comma after πορνιδίου, as printed
+999	res: comma after ἡλικίαν, as printed
 996	apparatus: the paragraph on this page ends with "996 εἰσάττειν R(?)"; the apparatus continues between two rules at the head of the facing translation page (leaf 0325, p. 225), which has no crop of its own: the rest of item 996 (Su. … εἰσιέναι Ald.) and the items 997-999 are read from the whole page there and written here.
 998	apparatus: "1459 d 34" is printed so (perhaps a misprint for 1459 b 34); copied as printed. Blaydes's καλέσʼ αὐτὸν | μνησικακήσας has the verse-division stroke as printed.
 998	rev: apparatus 998 "23 = 1459" corrected to "23=1459", printed without spaces (leaf 0325).

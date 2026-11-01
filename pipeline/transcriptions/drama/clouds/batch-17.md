@@ -7,7 +7,7 @@
 @ Δίκαιος Λόγος
 893b	ἥττων γʼ ὤν.
 @ Ἄδικος Λόγος
-894	ἀλλά σε νικῶ τὸν ἐμοῦ κρείττω
+894	ἀλλά σε νικῶ, τὸν ἐμοῦ κρείττω
 895	φάσκοντʼ εἶναι.
 @ Δίκαιος Λόγος
 895a	τί σοφὸν ποιῶν;
@@ -53,12 +53,13 @@
 903a	the print reads ποῦ ἔστιν (not ʼστιν): changed.
 899a	ἀπολῶ confirmed on the image (OCR ἀπολῷ).
 903-904	apparatus printed "903 sq."; written as 903-904.
+894	res: comma after νικῶ, as printed
 893	rev: checked on the page: apparatus (8 items) as printed; stepped parts 893a/893b, 895a, 899a, 900a, 903a, the speakers and the margins 895, 900, 905 agree (904/904a with margin 905 at οὐκ ἀπόλωλεν fits); 901 ἐγὼ and 903a ἔστιν confirmed. No change.
 
 === p-0304
 --- text
 @ Δίκαιος Λόγος
-906a	αἰβοῖ τουτὶ καὶ δὴ
+906a	αἰβοῖ, τουτὶ καὶ δὴ
 907	χωρεῖ τὸ κακόν· δότε μοι λεκάνην.
 @ Ἄδικος Λόγος
 908	τυφογέρων εἶ κἀνάρμοστος.
@@ -86,6 +87,7 @@
 912	γιγνώσκεις confirmed on the image (OCR γυγνώσκεις).
 908-909	apparatus printed "908 sq."; written as 908-909.
 913	apparatus: the print has "R etc.. :" (a doubled stop); written "R etc.:".
+906a	res: comma after αἰβοῖ, as printed
 906a	rev: checked on the page: apparatus (4 items) as printed; 906a, 910a, 911a and margin 910 agree; γιγνώσκεις confirmed. No change.
 
 === p-0306
@@ -217,6 +219,7 @@
 949	the print's speaker is ΗΜΙ. Α. (first semichorus): @ Χορός kept, the Perseus name for the chorus (as in earlier batches). τοῖς περιδεξίοισι is not a turnover: it is a lyric colon set in for its metre, and Starkie's margin 950 stands beside it; split off as its own verse.
 950	renumbered to Starkie's numbering: Perseus numbers νῦν δείξετον … περιδεξίοισι 949 and λόγοισι … μερίμναις 950; Starkie counts each printed colon: 949 νῦν δείξετον τὼ πισύνω, 950 τοῖς περιδεξίοισι (margin 950; apparatus "950 λόγοισιν ends the line in V"), 951 λόγοισι καὶ φροντίσι καὶ, 952 γνωμοτύποις μερίμναις, (apparatus 952 γνωμοτύποισι RV). The printed numbering wins.
 952	the draft's ὁπότερος αὐτοῖν (end of its 950a) is not printed: Starkie prints Bergk's order λέγων ἀμείνων πότερος φανήσεται on p-0312 (apparatus 953). The page ends with γνωμοτύποις μερίμναις,: the words removed here.
+949	res: numbering checked on the whole page: each printed colon is a verse (outdented and indented alike), margin 950 at τοῖς περιδεξίοισι; 949-952 kept.
 949	rev: checked on the page: apparatus (14 items) as printed; Starkie's numbering 949-952 confirmed by margin 950 at τοῖς περιδεξίοισι and the apparatus 950 and 952; margins 940, 945 and ἀναγρύξῃ confirmed. No change.
 
 === p-0312
@@ -251,4 +254,5 @@
 961	the print has a comma after παιδείαν and ends ὡς διέκειτο·— (raised stop and dash; the apparatus 961-962 discusses this punctuation): written as printed.
 962	ὅτʼ is printed at the start (checked). The print reads σωφροσύνη ἐνε- | νόμιστο, (Starkie's ἐνενόμιστο, apparatus "962 νενόμιστο codd."), not ʼνενόμιστο.: written ἐνενόμιστο with the comma as printed; the turnover νόμιστο, is part of this verse.
 961-962	apparatus printed "961 sq."; written as 961-962.
+953	res: numbering checked on the whole page: counting each printed colon from 953 puts 955 at ἐνθάδε (margin 955) and 960 at ῥῆξον (margin 960 at its turnover εἰπέ.); 953-958 kept. The divided word ἀνεῖ-|ται stays whole on 955 by the divided-word rule; Starkie's commentary lemma '956 ἀνεῖται' names the line where the word ends, so it will attach to 956.
 953	rev: checked on the page: apparatus (6 items) as printed; 953-958 as printed lines (margins 955, 960 agree; Starkie's commentary has 953 λέγων and 956 ἀνεῖται), 959 and 960 turnovers joined, 961-962 punctuation and ἐνενόμιστο confirmed. The ΚΟΡ. at 959 follows the semichorus ΗΜΙ. Α. (949), both Χορός: no speaker line added, as the draft writes no repeated speaker. No change.
