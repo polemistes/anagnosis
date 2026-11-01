@@ -1,7 +1,7 @@
 === p-0276
 --- text
 @ Στρεψιάδης
-769	ἔγωγε. φέρε τί δῆτʼ ἄν, εἰ ταύτην λαβών,
+769	ἔγωγε. φέρε, τί δῆτʼ ἄν, εἰ ταύτην λαβών,
 770	ὁπότʼ ἐγγράφοιτο τὴν δίκην ὁ γραμματεύς,
 771	ἀπωτέρω στὰς ὧδε πρὸς τὸν ἥλιον
 772	τὰ γράμματʼ ἐκτήξαιμι τῆς ἐμῆς δίκης;
@@ -15,8 +15,8 @@
 @ Στρεψιάδης
 775a	τὸ τι;
 @ Σωκράτης
-776	ὅπως ἀποστρέψαιʼ ἂν ἀντιδικῶν δίκην
-777	μέλλων ὀφλήσειν μὴ παρόντων μαρτύρων.
+776	ὅπως ἀποστρέψαιʼ ἂν ἀντιδικῶν δίκην,
+777	μέλλων ὀφλήσειν, μὴ παρόντων μαρτύρων.
 @ Στρεψιάδης
 778	φαυλότατα καὶ ῥᾷστα.
 @ Σωκράτης
@@ -39,6 +39,9 @@
 775a	the print has τὸ τι; (no accent on τι, clear on the crop), Perseus τὸ τί;: changed.
 778	the print has ῥᾷστα. (unelided, clear on the crop), Perseus ῥᾷστʼ.: changed.
 778a	checked: the half-verses 773a, 775a, 778a, 778b are set to the right on their verses with speakers as the draft has them; kept.
+769	res: comma after φέρε, as printed
+776	res: comma after δίκην, as printed
+777	res: comma after ὀφλήσειν, as printed
 
 === p-0278
 --- text
@@ -51,19 +54,19 @@
 @ Σωκράτης
 783	ὑθλεῖς· ἄπερρʼ, οὐκ ἂν διδάξαιμʼ ἄν σʼ ἔτι.
 @ Στρεψιάδης
-784	ὁτιὴ τί; ναὶ πρὸς τῶν θεῶν ὦ Σώκρατες.
+784	ὁτιὴ τί; ναὶ πρὸς τῶν θεῶν, ὦ Σώκρατες.
 @ Σωκράτης
 785	ἀλλʼ εὐθὺς ἐπιλήσῃ σύ γʼ ἅττʼ ἂν καὶ μάθῃς·
 786	ἐπεὶ τί νυνὶ πρῶτον ἐδιδάχθης; λέγε.
 @ Στρεψιάδης
-787	φέρʼ ἴδω τί μέντοι πρῶτον ἦν; τί πρῶτον ἦν;
+787	φέρʼ ἴδω, τί μέντοι πρῶτον ἦν; τί πρῶτον ἦν;
 788	τίς ἦν ἐν ᾗ ματτόμεθα μέντοι τἄλφιτα;
-789	οἴμοι τίς ἦν;
+789	οἴμοι, τίς ἦν;
 @ Σωκράτης
 789a	οὐκ ἐς κόρακας ἀποφθερῇ,
 790	ἐπιλησμότατον καὶ σκαιότατον γερόντιον;
 @ Στρεψιάδης
-791	οἴμοι τί οὖν δῆθʼ ὁ κακοδαίμων πείσομαι;
+791	οἴμοι, τί οὖν δῆθʼ ὁ κακοδαίμων πείσομαι;
 --- apparatus
 780	καλεῖσθαι om. R
 780	ἀπαγξαίμεν R
@@ -82,18 +85,22 @@
 785	the print has ἐπιλήσῃ (v. Herwerden's reading, see the apparatus; iota subscript clear), Perseus ἐπιλήθει: changed. μάθῃς: iota subscript clear on the enlarged page; left.
 788	the print has ἐν ᾗ ματτόμεθα with no prodelision mark (enlarged on the page; the apparatus lemma is ματτόμεθα too), Perseus ʼματτόμεθα: changed (not flagged; seen on the image).
 789a	the print has ἀποφθερῇ, (iota subscript and circumflex clear on the crop), Perseus ἀποφθερεῖ: changed.
+784	res: comma after θεῶν, as printed
+787	res: comma after ἴδω, as printed
+789	res: comma after οἴμοι, as printed
+791	res: comma after οἴμοι, as printed
 
 === p-0280
 --- text
 792	ἀπὸ γὰρ ὀλοῦμαι μὴ μαθὼν γλωττοστροφεῖν.
-793	ἀλλʼ ὦ Νεφέλαι χρηστόν τι συμβουλεύσατε.
+793	ἀλλʼ, ὦ Νεφέλαι, χρηστόν τι συμβουλεύσατε.
 @ Χορός
-794	ἡμεῖς μὲν ὦ πρεσβῦτα συμβουλεύομεν,
+794	ἡμεῖς μέν, ὦ πρεσβῦτα, συμβουλεύομεν,
 795	εἴ σοί τις ὑός ἐστιν ἐκτεθραμμένος,
 796	πέμπειν ἐκεῖνον ἀντὶ σαυτοῦ μανθάνειν.
 @ Στρεψιάδης
 797	ἀλλʼ ἔστʼ ἔμοιγʼ ὑὸς καλός τε κἀγαθός·
-798	ἀλλʼ οὐκ ἐθέλει γὰρ μανθάνειν. τί ἐγὼ πάθω;
+798	ἀλλʼ οὐκ ἐθέλει γὰρ μανθάνειν, τί ἐγὼ πάθω;
 @ Χορός
 799	σὺ δʼ ἐπιτρέπεις;
 @ Στρεψιάδης
@@ -121,6 +128,9 @@
 803	the mark ">>" after χρόνον. at the right edge looks like a hand-drawn mark, not text; ignored.
 804	the print's speaker is ΗΜΙ. Β. (second semichorus), under the centred heading ἀντῳδή (not transcribed); kept @ Χορός. The print has αἰσθάνῃ (clear on the crop), Perseus αἰσθάνει: changed. The line ends with ἡ- divided; written whole (ἡμᾶς) here; μᾶς on p-0282 is left out there.
 804	apparatus: "804 sqq." written as 804 with "sqq." at the start of the item, as in the earlier batches.
+793	res: commas after ἀλλʼ and Νεφέλαι, as printed
+794	res: μέν with acute and a comma after it, and a comma after πρεσβῦτα, as printed
+798	res: comma (not full stop) after μανθάνειν, as printed
 
 === p-0282
 --- text
@@ -156,11 +166,11 @@
 === p-0284
 --- text
 @ Φειδιππίδης
-816	ὦ δαιμόνιε, τί χρῆμα πάσχεις ὦ πάτερ;
+816	ὦ δαιμόνιε, τί χρῆμα πάσχεις, ὦ πάτερ;
 817	οὐκ εὖ φρονεῖς μὰ τὸν Δία τὸν Ὀλύμπιον.
 @ Στρεψιάδης
 818	ἰδού γʼ ἰδοὺ Δίʼ Ὀλύμπιον· τῆς μωρίας·
-819	τὸ Δία νομίζειν ὄντα τηλικουτονί.
+819	τὸ Δία νομίζειν, ὄντα τηλικουτονί.
 @ Φειδιππίδης
 820	τί δὲ τοῦτʼ ἐγέλασας ἐτεόν;
 @ Στρεψιάδης
@@ -177,7 +187,7 @@
 826	ἔγωγε.
 @ Στρεψιάδης
 826a	ὁρᾷς οὖν ὡς ἀγαθὸν τὸ μανθάνειν;
-827	οὐκ ἔστιν ὦ Φειδιππίδη Ζεύς.
+827	οὐκ ἔστιν, ὦ Φειδιππίδη, Ζεύς.
 --- apparatus
 816	ὦ πάτερ] om. ὦ V
 817	Meineke οὐ, τὸν Ὀλύμπιον: Hermann μὲν μὰ τὸν Ὀ. Δία: Bachmann οἶμαί σε μὰ Δίʼ Ὀλύμπιον (see v. Bamberg, De Rav. p. 30 n., Bachmann, Zur Krit. p. 253)
@@ -200,15 +210,18 @@
 826	the print has ἔγωγε. (unelided, clear on the crop), Perseus ἔγωγʼ.: changed. 826a (ΣΤΡ., set to the right) checked; kept.
 821	apparatus: the print has "cp:" before Vesp. 40 n. (apparently a damaged stop); written "cp.".
 824	apparatus: διδάξης is printed without iota subscript (crop); copied as printed.
+816	res: comma after πάσχεις, as printed
+819	res: comma after νομίζειν, as printed
+827	res: commas after ἔστιν and Φειδιππίδη, as printed
 
 === p-0286
 --- text
 @ Φειδιππίδης
 827a	ἀλλὰ τίς;
 @ Στρεψιάδης
-828	Δῖνος βασιλεύει τὸν Δίʼ ἐξεληλακώς.
+828	Δῖνος βασιλεύει, τὸν Δίʼ ἐξεληλακώς.
 @ Φειδιππίδης
-829	αἰβοῖ τί ληρεῖς;
+829	αἰβοῖ, τί ληρεῖς;
 @ Στρεψιάδης
 829a	ἴσθι τοῦθʼ οὕτως ἔχον.
 @ Φειδιππίδης
@@ -223,7 +236,7 @@
 833a	εὐστόμει,
 834	καὶ μηδὲν εἴπῃς φλαῦρον ἄνδρας δεξιοὺς
 835	καὶ νοῦν ἔχοντας· ὧν ὑπὸ τῆς φειδωλίας
-836	ἀπεκείρατʼ οὐδεὶς πώποτʼ οὐδʼ ἠλείψατο,
+836	ἀπεκείρατʼ οὐδεὶς πώποτʼ οὐδʼ ἠλείψατο
 837	οὐδʼ εἰς βαλανεῖον ἦλθε λουσόμενος· σὺ δὲ
 838	ὥσπερ τεθνεῶτος μου καταλούεις τὸν βίον.
 839	ἀλλʼ ὡς τάχιστʼ ἐλθὼν ὑπὲρ ἐμοῦ μάνθανε.
@@ -243,3 +256,6 @@
 838	the print has μου καταλούεις (v. Herwerden's reading, see the apparatus; clear on the crop), Perseus καταλόει μου: changed, word order as printed.
 838	apparatus: the macrons over ο and ε (the connecting vowels) written ο̄ and ε̄; B.⁴ with a superscript 4.
 838	rev: apparatus item 838: ō (Latin o with macron) changed to ο̄ (Greek omicron with combining macron), to match the Greek ε̄ beside it; the print sets both vowels in Greek type.
+828	res: comma after βασιλεύει, as printed
+829	res: comma after αἰβοῖ, as printed
+836	res: no comma after ἠλείψατο in the print: removed
