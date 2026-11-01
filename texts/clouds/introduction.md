@@ -69,7 +69,7 @@ A Proagon, such as that which is here introduced, is unexampled in Aristophanes,
 
 **961-1008** *Epirrheme*: The ‘Just Reason’ gives a charming,² but conventional, picture of what he believes ancient Athenian education to have been. It has been pointed out that it is rather Spartan than Athenian; but, in fact, it contains little more than what lovers of ‘auld lang syne’ have always attributed to the days of their youth.³ As contrasted with the present, it has been held, since the world began, that the children of olden days were respectful to their parents, quiet and orderly in their demeanour; and that their studies made them manly and law-abiding. Aristophanes composes an idyll on these familiar lines, more successfully than most, but the general effect is the same. At any rate, the ‘Unjust Reason’ does not take the arguments of his opponent seriously; but, in a genuinely sophistic fashion, and in a metre that reflects the spirit of his remarks, he replies to them by a series of *argumenta ad hominem*. He is not in the least troubled by the fact that the life he recommends is flagrantly in opposition to Socratic and probably to Sophistic teaching.¹ He aims at conquest, and he is aware that asceticism has no charms for the Young Knight whom he wishes to attract. The ‘Just Reason’s’ hero is Heracles, yet ‘hot baths,’ which are the pet aversion of the old-fashioned, were invented in the interest of Heracles. Public speaking is said to be an evil, yet it was the glory of Homer’s heroes, whom the Just Reason admires. ‘Silence’ and ‘Modesty’ are said to be virtues, yet no one was ever profited by them. Even Peleus, the moral paragon of heroic days, was not rewarded as well for his virtue, as Hyperbolus, of the lamp-market, for his blackguardism. Everyone must admit that what makes life worth living is ‘Wein, Weib, und Gesang’; and thus it follows that the end of education should be the cultivation of the power of speech, since, without this, the convicted adulterer is helpless in the face of his enemies. The arguments are a triumph of cynicism, but they are sufficient to silence the Just Reason, who, it must be confessed, has recommended virtue solely on the ground that it is the best policy. If this is shown not to be so, so far as this world is concerned—and nothing is said of the next—there is no refuge but silence. But the Unjust Reason is not satisfied with this victory. He actually makes the Just Reason a convert to his views, by showing that, in his admiration of ‘virtue,’ he is in an insignificant minority. The advocates, tragedians, politicians, spectators are ‘lechers’ to a man. In the weakness of his ethical principle, which is based on expediency and general consent, the Just Reason fails; and, flinging his mantle aside, he rushes into the school of Socrates. The Unjust Reason turns to Strepsiades and confidently asks him whether he is still minded to entrust his son to his care. The answer cannot be doubtful in view of what has happened.
 
-[Note: ² It has rightly been called by A. de Musset ‘la plus grave, et la plus noble scène que jamais théâtre ait entendue.’]
+[Note: ² It has rightly been called by A. de Musset ‘la plus grave, et la plus noble scène que jamais theâtre ait entendue.’]
 
 [Note: ³ Thus Isocrates (in 350-40 B.C.) boasts (in *Antid.* §§ 159 sq.) that the standard of morality was very high in his youth, viz. at the very time when Aristophanes laments the increased corruption.]
 
@@ -301,7 +301,7 @@ For a proof of this characteristic of the Athenian public, who thought the divin
 
 # V. The Sophists
 
-EVEN at the moment when the comic spirit became articulate at Athens by receiving State recognition,¹ causes were at work which doomed it to a short though brilliant life. The victories of Marathon and Salamis made Athens self-conscious. She awoke to find herself mistress of the Greek world by means of her fleet. The city and the Piraeus rapidly grew in importance, and the products of the world, not only in commerce, but in art, poetry, and rhetoric, were brought to the doors of Athens. Thus, the city which, before the Persian wars, was a small provincial burgh, soon became ‘the Prytaneum of the learning of Greece,’² the Hellas of Hellas.³ The consequent *Aufklärung* was at first confined to the city and the Piraeus, and the country-folk, of whom early comedy was the spokesman, were untouched by the new spirit; but the catastrophe of the Peloponnesian war, in ruining the landowners, practically abolished this class, and with it the simple old ideas on religion, morality, and education.
+Even at the moment when the comic spirit became articulate at Athens by receiving State recognition,¹ causes were at work which doomed it to a short though brilliant life. The victories of Marathon and Salamis made Athens self-conscious. She awoke to find herself mistress of the Greek world by means of her fleet. The city and the Piraeus rapidly grew in importance, and the products of the world, not only in commerce, but in art, poetry, and rhetoric, were brought to the doors of Athens. Thus, the city which, before the Persian wars, was a small provincial burgh, soon became ‘the Prytaneum of the learning of Greece,’² the Hellas of Hellas.³ The consequent *Aufklärung* was at first confined to the city and the Piraeus, and the country-folk, of whom early comedy was the spokesman, were untouched by the new spirit; but the catastrophe of the Peloponnesian war, in ruining the landowners, practically abolished this class, and with it the simple old ideas on religion, morality, and education.
 
 [Note: ¹ In 487–6 B.C. (cp. Capps, *Am. J. of Phil.* xxviii. p. 195).]
 
@@ -489,7 +489,9 @@ It is impossible to know whether the defence of Socrates represents, as Grote th
 
 As is stated in Hypothesis VII., the present edition⁸ of the play is identical (perhaps only in subject and treatment) with the first edition, but it has undergone a partial remodelling. The author of the ‘remodelling’ was probably the poet himself, and not his son, Araros (as Kock, Teuffel, and Naber think), or some ignorant Byzantine (according to Brentano’s improbable hypothesis). It is, in my opinion, impossible now to detect traces of the διασκευή except under the guidance of Hypothesis VII. The poet was probably sufficiently deft to conceal his handiwork. But the hunt for discrepancies and contradictions is a fascinating one, especially for the German commentators,¹ whose opinion of the merits of the play is strangely at variance with that of ancient times. Indeed, it would seem that since Schlegel discovered its demerits, it is a point of honour with certain scholars to rob it of every excellence. Thus, to M. Rapp,² the play is ‘inconceivably pitiable,’ since ‘we have in it not the original work, but the torn rags of two editions, strung together by a compilator.’ To Brentano,³ it is ‘an utterly senseless and unactable piece,’ ‘a thoroughly bad and stupid play,’ so utterly devoid of unity in respect of its construction and characters that, in its present form, it cannot have been written by Aristophanes, but must have been ‘put together,’ in the most degraded period of the Byzantine Empire, ‘by some scoundrel, who with a devilish hand (*mit kalter Teufelsfaust*) destroyed the deathless work of the Greek poet, in order to provide materials for his contemptible masterpiece.’⁴
 
-[Note: ⁸ ‘The present edition’ may be called the third, since the second edition, which was presented to the Archon, and rejected by him, in 422 B.C., never saw the light; cp. Naber, *Mnem.* xi. pp. 305 sqq.]
+[Note: ⁸ ‘The present edition’ may be called the third, since the second edition, which]
+
+[Note: was presented to the Archon, and rejected by him, in 422 B.C., never saw the light; cp. Naber, *Mnem.* xi. pp. 305 sqq.]
 
 [Note: ¹ See notes on 110-20, 195-9, 411-22, 476 sq., 492, 509, 538, 575 sqq., 636, 700-22, 882 sq., 1105-12, 1115 sqq., etc.]
 
@@ -685,245 +687,195 @@ Heliodorus’ name is chiefly associated with the σημεῖα, which are often
 
 [Note: ⁴ cp. ib. p. 37.]
 
-# X
+# X. Metrical Analysis
 
-# Metrical Analysis
+**1-262** πρόλογος: iambic trimeters acatal. (except **1** which is an iambic monometer).
 
-1-262 πρόλογος : iambic trimeters acatal. (except 1 which is
+## ΠΑΡΟΔΟΣ
 
-an iambic monometer).
+**263-74** ἐπίρρημα = **291-8** ἀντεπίρρημα: anapaestic tetrameters catal.
 
-# Παροδος
+**275-90** ᾠδή = **299-314** ἀντῳδή.¹
 
-268-14 ἐπίρρημα = 391-38 ἀντεπίρρημα : anapaestic tetrameters
+[Note: ¹ cp. Christ, *Metrik*, pp. 234 sq., Rossbach-Westphal, *Metrik*, p. 113, for an analysis of this ode.]
 
-catal.
+1: – ⏑ ⏑ –  ⏑ ⏑ –⁀– H² (enopliac dimeter).
 
-275-90 ὠδή = 299-314 ἀντῳδή.'
+[Note: ² cp. Schroeder, *Aristophanis cantica*, pp. 44, 96. Also called a dact. penth. or dactylic tripody εἰς συλλαβήν, cp. Christ, ib. p. 206.]
 
-1: yr Nl AS. == wv VV SW
+2: – – – ⏑ ⏑  – ⏑ ⏑ – ⏑ ⏑
 
-(enopliac dimeter).
+3: – – – –
 
-2: ππ που που =v) dactylic trimeter?
+2-3: dactylic trimeter³ (‘aeolenoplion’).
 
-ος τες SAS τς (‘aeolenoplion’).
+[Note: ³ Treating the elements as dipodies, as in the case of anapaestic verse. Such is Schroeder’s method, which departs from that of Heliodorus, cp. O. Hense, ib. p. 111.]
 
-4: —Vu—uUuu —uUuU—uUwv
+4: – ⏑ ⏑ – ⏑ ⏑  – ⏑ ⏑ – ⏑ ⏑
 
-hb: —m oS —u wv — Nl Na Ng NS dactylic
+5: – ⏔ – ⏑ ⏑  – ⏑ ⏑ – ⏑ ⏑
 
-pentameter.
+6: – ⏑ ⏑ – ⏑ ⏑
 
-6: — A SNP mee ENN)
+4-6: dactylic pentameter.
 
-7: πυωπο —uvu=—uwv
+7: – ⏑ ⏑ – ⏑ ⏑  – ⏑ ⏑ – ⏑ ⏑
 
-[sil πο Σ
+8: – ⏔ – ⏑ ⏑  – ⏔ – ⏑ ⏑
 
-| nary — i SNS Cn} ND
+9: – ⏔ – ⏑ ⏑  – ⏑ ⏑ – ⏑ ⏑
 
-10: - So —vu —uvu—uu?
+10: – ⏔ – ⏑ ⏑  – ⏑ ⏑ – ⏑ ⏑⁴
 
-# τ οὐσιπι σι σὴν trimeter
+[Note: ⁴ cp. Christ, ib. p. 205.]
 
-12: Vuv—- Ξ κατʼ ἐνόπλιον.
+11: – ⏑ ⏑ –  ⏑ ⏑ – ⏑ ⏑ –
 
-19 : Wh Nd} LN “- ῳ-ῳ Ὁ CC —
+12: ⏑ ⏑ –  ⏓  v
 
-14: υυ πω —uUuu—uuwu dactylic
+11-12: trimeter κατʼ ἐνόπλιον.⁵
 
-rs. f— Rf A NS Br tetrameter.
+[Note: ⁵ cp. Schroeder, ib. p. 93.]
 
-16: — cl Ng —— AJ IN —6 1 cp. Christ, Metrik, pp. 234 sq., asin the case of anapaestic verse. Such Rossbach- Westphal, Metrik, p. 113, for is Schroeder's method, which departs an analysis of this ode. from that of Heliodorus, cp. O. Hense, 2. cp. Schroeder, Aristophanis cantica, ib. p. 111.
+13: – ⏑ ⏑ –  ⏑ ⏑ – –
 
-pp. 44, 96. Also called a dact. penth. 4 cp. Christ, ib. p. 205.
+14: – ⏑ ⏑ – ⏑ ⏑  – ⏑ ⏑ – ⏑ ⏑
 
-or dactylic tripody els συλλαβήν, cp. 5 ep. Schroeder, ib. p. 93.
+15: – ⏑ ⏑ – ⏑ ⏑  – ⏑ ⏑ – ⏑ ⏑
 
-Christ, ib. p. 206, 6 Enopliac ¢ Vierheber,” cp. Schroeder, Treating the elements as dipodies, ib. p. 44; usually called paroemiaec.
+14-15: dactylic tetrameter.
 
-# Ixxii
+16: – – ⏑ ⏑ –  ⏑ ⏑ –  –⁶
 
-314-438 : anapaestic tetrameters catal.
+[Note: ⁶ Enopliac ‘Vierheber,’ cp. Schroeder, ib. p. 44; usually called paroemiac.]
 
-439-56 πνῖγος : anapaestic dimeters, with two anapaestic mono-
+**314-438**: anapaestic tetrameters catal.
 
-meters, and a paroemiac.
+**439-56** πνῖγος: anapaestic dimeters, with two anapaestic monometers, and a paroemiac.
 
-457-75 ἀμοιβαῖον κατʼ ἐνόπλιον ᾿ éTepoaTpodov.”
+**457-75** ἀμοιβαῖον κατʼ ἐνόπλιον¹ ἑτερόστροφον.²
+
+[Note: ¹ cp. Rossbach-Westphal, ib. p. 489.]
+
+[Note: ² cp. O. Hense, ib. p. 160.]
 
 1: trochaic dimeter acatal.
 
 2: trochaic trimeter catal.
 
-# Al RGR trimeter
+3: – ⏑ ⏑ –  ⏑ ⏑ – ⏑ ⏑ –
 
-# shy yt it κατ᾽ ἐνόπλιον
+4: ⏑ ⏑ –  –
 
-# As. Ley
+3-4: trimeter κατʼ ἐνόπλιον.³
 
-(ithyphallic.) 5
+[Note: ³ Or dactylic pentameter brachycatalectic; called by Heliodorus (see schol.) a dactylic penth. + anapaestic penth.]
 
-# 6: v—uv— ——πὶ Ξ —uwu-—?
+5: –́ ⏑ –̀ ⏑ –́ –̀ (ithyphallic.)⁴
 
-# 7: — vu —vu— -π-πυ- -
+[Note: ⁴ Curiously called by Heliodorus Φερεκράτειον ἀτελές, cp. Thiemann, ib. p. 114.]
 
-# (hypercatalectic. ) ©
+6: ⏑ – ⏑ –  – – ⏑ ⏑  – ⏑ ⏑ –⁵
 
-A eh A τυ δα
+[Note: ⁵ Analyzed by Heliodorus as ‘an iambic base’ + ἀναπαιστικὴ προσοδιακὴ περίοδος δωδεκάσημος, which is a description rather than a name, cp. F. Blass, *Hermathena*, No. xxx. p. 168.]
 
-[9 τῳ. “Ὁ- νυ--ϑ
+7: – – ⏑ ⏑  – ⏑ ⏑ –  – – ⏑ –  – (hypercatalectic.)⁶
 
-# 10: υυ -π vu—— πυ--π-π
+[Note: ⁶ cp. J. W. White, *Enoplic Metre in Greek Comedy*, p. 432. Analyzed by Heliodorus as an ἀναπ. προσοδ. περίοδ. δωδεκ. + iambic penth., cp. Thiemann, *Colom.* p. 112.]
 
-11: πουπ νυ -- -ϑ
+8: – ⏑ ⏑ –  ⏑ ⏑ – ⏑ A⁷
 
-ise Rin
+[Note: ⁷ According to Heliodorus, a dactylic trimeter εἰς τροχαῖον (viz. εἰς δισύλλαβον).]
 
-# ET i REC eg rR SE ENE:
+9: – ⏑ ⏑ –  ⏑ ⏑ – –⁸
 
-11: Ξ-ξυ ὑπ συ τὸ τ-Ξ
+[Note: ⁸ 9-10: according to Heliodorus, a cretic (ὄψομαι) + choriambic + ἀναπ. προσοδ. δωδεκάσ. + iambic penth.]
 
-ἘΣ ον
+10: – ⏑ ⏑ –  ⏑ ⏑ – –  – ⏑ – –
 
-476-7 : anapaestic tetrameters catal.
+11: – ⏑ ⏑ –  ⏑ ⏑ – –⁹
 
-# Eiieisoaion a
+[Note: ⁹ 11-12: according to Heliodorus, a dact. hephth. + anap. penth.]
 
-478-509 : iambic trimeters acatal.
+12: – ⏑ ⏑ –  ⏑ ⏑ – –
 
-1 cp. Rossbach-Westphal, ib. p. 489.
+13: – ⏑ ⏑ –  ⏑ ⏑ – –  – ⏑ – –¹⁰
 
-Greek Comedy, p. 432. Analyzed by 2 cp. O. Hense, ib. p. 160.
+[Note: ¹⁰ According to Heliodorus, a dact. penth. + iambic penth.]
 
-Heliodorus as an ἀναπ. προσοδ. περίοδ. 3 Or dactylic pentameter brachy-
+14: – ⏑ ⏑ –  ⏑ ⏑ – –
 
-δωδεκ. + iambic penth., cp. Thiemann, catalectic ; called by Heliodorus (see
+15: – ⏑ ⏑ –  ⏑ ⏑ –⁀–¹¹
 
-Colom. p. 112.
+[Note: ¹¹ 14-15: according to Heliodorus, a dact. penth. + anap. prosod.]
 
-7 According to Heliodorus, a dactylic schol.) a dactylic penth. + anapaestic penth.
+**476-7**: anapaestic tetrameters catal.
 
-trimeter εἰς τροχαῖον (viz. els δισύλλαβον). 4. Curiously called by Heliodorus
+## ΕΠΕΙΣΟΔΙΟΝ Α
 
-8 9-10: according to Heliodorus, a Φερεκράτειον ἀτελές, cp. Thiemann, ib.
+**478-509**: iambic trimeters acatal.
 
-cretic (ὄψομαι) + choriambic + dram.
+## ΠΑΡΑΒΑΣΙΣ ΧΟΡΟΥ Α
 
-προσοδ. δωδεκάσ. +iambic penth.
+**510-17** κομμάτιον: a choriambo-glyconic system introduced by 1: an anapaestic dimeter acatal., and 2: an anapaestic monometer acatal.¹
 
-p- 114.
+[Note: ¹ cp. Schroeder, ib. p. 96, J. W. White, *Logaoedic Metre in Greek Comedy*, p. 3, Muff, *Chorpart.* p. 78.]
 
-> Analyzed by Heliodorus as ‘an
+3: choriambus + iambic syzygy² (‘mixed’ choriambic dimeter acatal.³).
 
-® 11-12: according to Heliodorus, a iambic base’  ἀναπαιστικὴ προσοδιακὴ
+[Note: ² Always called by Heliodorus ‘an iambic base’ when in combination with feet of a different character, cp. Thiemann, ib. p. 113, O. Hense, *Heliod. Unters.* p. 111.]
 
-dact. hephth. +anap. penth.
+[Note: ³ Often called 1st Glyconic.]
 
-περίοδος δωδεκάσημος, which is a de-
+4: choriambus + bacchius (‘mixed’ choriambic dimeter catal.⁴).
 
-10 According to Heliodorus, a dact. scription rather than a name, cp. F.
+[Note: ⁴ Often called 1st Pherecratean.]
 
-penth. +iambic penth.
+5: choriambus + choriambus (‘pure’ choriambic dimeter acatal.).
 
-Blass, Hermathena, No. xxx. p. 168.
+6: iambic syzygy + choriambus.
 
-11 14-15: according to Heliodorus, a 6 cp. J. W. White, Enoplic Metre in
+7: iambic dimeter acatal.
 
-dact. penth. +anap. prosod.
+8: choriambus + bacchius.
 
-# Παραβασις Xopot a
+**518-62** ἁπλοῦν: ⏓ ⏒ – ⏒ | – ⏑ ⏑ – | ⏓ ⏒ – ⏒ | – ⏑ ⏓. Eupolidean tetrameters catal.⁵
 
-510-17 κομμάτιον : a choriambo-glyconic system introduced
+[Note: ⁵ cp. J. W. White, ib. p. 26. The metre has been analyzed by Hephaestion as a combination of the ‘polyschematist’ dimeter (viz. antispast + choriambus) in an acatal. and catal. form.]
 
-by 1: an anapaestic dimeter acatal.,, and 2: an ana-
+## ΕΠΙΡΡΗΜΑΤΙΚΗ ΣΥΖΥΓΙΑ
 
-paestic monometer acatal.!
-
-3: choriambus + iambic syzygy 2
-
-# ! (‘mixed ᾿ choriambic dimeter acatal.?)
-
-I : choriambus + bacchius
-
-# (‘mixed ’ choriambic dimeter catal.4)
-
-5: choriambus + choriambus
-
-# (‘pure’ choriambic dimeter acatal.)
-
-6 : iambic syzygy + choriambus.
-
-Lr - iambic dimeter acatal.
-
-~ 8: choriambus + bacchius.
-
-518-62 ἁπλοῦν: ¥o --σ|- υυπ|Ξξυπτπο oz
-
-o|— «= Eupolidean
-
-tetrameters catal.’
-
-# Eiiitpphmatikh Συζύγια
-
-563-74 ὠδή = 595-606 ἀντῳδή (choriambo-glyconic).
+**563-74** ᾠδή = **595-606** ἀντῳδή (choriambo-glyconic).
 
 1: choriambus + iambic syzygy.
 
-2: choriambus+ iambic syzygy.
+2: choriambus + iambic syzygy.
 
-Jo : choriambus + bacchius.
+3: choriambus + bacchius.
 
 4: choriambus + iambic syzygy +
 
-5: choriambus
+5: choriambus (viz. choriambic trimeter acatal.).
 
-(viz. choriambic trimeter acatal.).
+6: choriambus + iambic syzygy.
 
-(6: choriambus + iambic syzygy.
+7: choriambus + bacchius.
 
-7 : choriambus + bacchius.
+8: – ⏑ ⏑ –  ⏑ ⏑ – ⏑ ⏑ –
 
-8: — ν Ὁ —
+9: ⏑ ⏑ – ⏑ ⏑ –  ⏑ ⏑ – ⏑ ⏑ –
 
-θιωω-πιωυυ - - pentameter ©
+10: ⏑ ⏑ –  –
 
-VER sl Bl
+8-10: pentameter⁶ κατʼ ἐνόπλιον.
 
-ah a κατʼ ἐνόπλιον.
+[Note: ⁶ Called by Christ (ib. p. 204) a dactylic pentameter brachycatal.]
 
-10: Na pl im “- iambic syzygy + choriambus.
+11: iambic syzygy + choriambus.
 
-11
+12: ⏒ – – – (antispast⁷) + choriambus (according to Hephaestion, a ‘polyschematist’ glyconic).
 
-din: Ὁ — — — (antispast 7) + choriambus
-
-(according te Hephaestion, a ‘polyschematist’ glyconic). ----οοοοθ-.Ο.----.------- -ο----ʼ- .----,.----- -Ὁ - --- -------ς-ς-ςς.----ςςςς-.-ς-----..-ἘἘ  ----- ----.-.-- -ς.-᾿Ἔ -- --- --------9ἝἝ9 Ξ ----.-----ς-..-.-..-ς-ς-ς-.- 1 ¢p. Schroeder, ib. p. 96, J. W. 5 ¢p. J... W. White, ib. .p. 26." The
-
-metre has been analyzed by Hephaestion White, Logaoedic Metre in Greek Comedy,
-
-as a combination of the “ polyschematist’ p. 3, Muff, Chorpart. p. 78.
-
-2 Always called by Heliodorus ‘an
-
-dimeter (viz. antispast + choriambus) in
-
-an acatal. and catal. form.
-
-iambic base’ when in combination with
-
-6 Called by Christ (ib. p. 204) a dactylic feet of a different character, cp. Thie-
-
-pentameter brachycatal.
-
-mann, ib. p. 113, O. Hense, Heliod.
-
-7 ep. J. W. White, ib. p. 28, It is Unters. p. 111.
-
-a convenient name for the indeterminate 3 Often called 1st Glyconic.
-
-beginning of an Aeolic octosyllable. 4 Often called 1st Pherecratean.
+[Note: ⁷ cp. J. W. White, ib. p. 23. It is a convenient name for the indeterminate beginning of an Aeolic octosyllable.]
 
 13: antispast + iambic syzygy (antispastic dimeter acatal.; also called Glyconic).
 
@@ -945,11 +897,11 @@ beginning of an Aeolic octosyllable. 4 Often called 1st Pherecratean.
 
 2: choriambus + bacchius.
 
-3: ⏑ – ⏑ –  – (trinarius prosod.).³
+3: ⏑–⏑– – (trinarius prosod.).³
 
 [Note: ³ Called by Heliodorus an iambic penth., cp. Schroeder, ib. p. 95.]
 
-4: ⏒ – ⏑ ⏑ –  ⏑ ⏑ – ⏑ – (quatern.).⁴
+4: ⏒–⏑⏑– ⏑⏑–⏑– (quatern.).⁴
 
 [Note: ⁴ Dimeter enopliac, cp. Schroeder, p. 92. Analyzed by Heliodorus as ἀπὸ χοριάμβου βάσεως εἰς χορίαμβον (implying a difference of reading).]
 
@@ -1011,7 +963,7 @@ beginning of an Aeolic octosyllable. 4 Often called 1st Pherecratean.
 
 6: iambic syzygy + choriambus.
 
-7: ⏒ ⏓ ⏑ –³ + choriambus +
+7: ⏒⏓⏑–³ + choriambus +
 
 [Note: ³ For the substitution of an iambic syzygy for a choriambus cp. J. W. White, ib. p. 5.]
 
@@ -1051,13 +1003,13 @@ beginning of an Aeolic octosyllable. 4 Often called 1st Pherecratean.
 
 1156-7: iambic trimeters acatal.
 
-1158-9: – ⏑ ⏑ –  ⏑ ⏑ –⁀– (enopliac dimeters catal.).³
+1158-9: –⏑⏑– ⏑⏑–͡– (enopliac dimeters catal.).³
 
 [Note: ³ Called by schol. Ald. a dact. penth.]
 
-1160: – –  –  – – – –⁴ (enopliac iambic trimeter, with violent syncopations).
+1160: –– – ––––⁴ (enopliac iambic trimeter, with violent syncopations).
 
-[Note: ⁴ Called by schol. Ald. a dact. penth. (hephth.?), cp. Schroeder, ib. p. 99; and for similar syncopations *Ach.* 1212 (⏑ – ⏑ – – – – –), and Christ, ib. p. 83.]
+[Note: ⁴ Called by schol. Ald. a dact. penth. (hephth.?), cp. Schroeder, ib. p. 99; and for similar syncopations *Ach.* 1212 (⏑–⏑–––––), and Christ, ib. p. 83.]
 
 1161: iambic trimeter acatal.⁵
 
@@ -1079,197 +1031,147 @@ beginning of an Aeolic octosyllable. 4 Often called 1st Pherecratean.
 
 1206-13.
 
-1: ∧ ∨ ⏑ –  – ⏑ ⏑ ⏑⁸ (iambic dimeter, acephalous and syncopated).
+1: ∧∨⏑– –⏑⏑⏑⁸ (iambic dimeter, acephalous and syncopated).
 
 [Note: ⁸ cp. Schroeder, ib. p. 98. Analyzed by schol. Ald. as an Ionic a minore dimeter catal. I have provisionally accepted Schroeder’s analysis, but I confess that this line, which doubtless was accompanied by lively steps and gesticulations, has very little of an iambic quality. As Mr. Beare remarks to me, “acephalous is the man who says it has.”]
 
-2: – – ⏑ –  – ⏑ – (syncopated iambic dimeter).
+2: ––⏑– –⏑– (syncopated iambic dimeter).
 
-3: – – ⏑ –  – ⏑ – (syncopated iambic dimeter).
+3: ––⏑– –⏑– (syncopated iambic dimeter).
 
-# 4: A Ns) Nf
+4: ––⏑– –⏑– (syncopated iambic dimeter).
 
-(syncopated iambic dimeter).
+5: ––⏑–
 
-# 5: — =o —
+6: ––⏑– ⏑–⏑–
 
-# 6: === v= —
+7: –⏑– –⏑– (syncopated iambic dimeter).
 
-# Er Rv -v -
+8: ––⏑– ⏑–⏑–
 
-(syncopated iambic dimeter).
+9: ithyphallic.
 
-# 8: — — ou — WV —J --
+## ΣΥΖΥΓΙΑ Γ
 
-# 9 : ithyphallic
+[The ᾠδή and ἀντῳδή do not appear in the present edition of the play.]
 
-# Συζυγιαὺτ'
+1214-58 ἐπίρρημα = 1260-1302 ἀντεπίρρημα: iambic trimeters acatal.
 
-[The ὡδή and ἀντῳδή do not appear in the present edition of the play.] 1214-58 ἐπίρρημα = 1260-1302 ἀντεπίρρημα : iambic trimeters
+1259: antispastic monometer acatal.
 
-acatal.
+1260ᵃ: according to schol. Ald., an iambic monometer brachycat.!
 
-1259 : antispastic monometer acatal. 1260* : according to schol. Ald, an iambic monometer
-
-brachycat. !
-
-# Stasimon
+## ΣΤΑΣΙΜΟΝ
 
 1303-11 στροφή = 1312-20 ἀντιστροφή.
 
-# { 1: iambic trimeter acatal
+1: iambic trimeter acatal.
 
-# 2: No (se Ean Sn
+2: ⏑–⏑⏑–– (trinarius prosod.¹ or Pherecrateus acephalus).
 
-(trinarius prosod.! or Pherecrateus acephalus).
+[Note: ¹ cp. Schroeder, ib. p. 95. Called by Heliodorus Ἰωνικὸν ἡμιόλιον, cp. Thiemann, ib. p. 16.]
 
-# : iambic dimeter acatal
+3: iambic dimeter acatal.
 
-συ OU WB» WwW
+4: iambic dimeter acatal.
 
-# : lambic dimeter acatal
+5: iambic dimeter acatal.
 
-# : iambic dimeter acatal
+6: cretic + iambic syzygy (syncopated iambic dimeter).
 
-# : cretic+iambic syzygy
+7: cretic + iambic syzygy + cretic (syncopated iambic trimeter)
 
-(syncopated iambic dimeter).
+8: iambic dimeter acatal.
 
--
+9: iambic dimeter catal.
 
-: cretic + iambic syzygy + cretic
+## ΕΠΕΙΣΟΔΙΟΝ Γ
 
-(syncopated iambic trimeter)
+1321: iambic monometer acatal.
 
-# 8: iambic dimeter acatal
+1322-44: iambic trimeters acatal.
 
-# 9: iambic dimeter catal
+## ΑΓΩΝ Β
 
-# Einieizoaion T
+1345-50 ᾠδή = 1391-96 ἀντῳδή.
 
-1321 : iambic monometer acatal.
+1: iambic trimeter acatal.
 
-1322-44 : iambic trimeters acatal.
+2: ⏓–⏑⏑–⏓ (trinarius).¹
 
-[Note: 1 cp. Schroeder, ib. p. 95. Called by Heliodorus ᾿Ιωνικὸν ἡμιόλιον, cp. Thiemann, ib. p. 16.]
+[Note: ¹ According to Heliodorus, an Ἰωνικὸν ἡμιόλιον, cp. Christ, ib. p. 347.]
 
-# Aton B
+3: iambic trimeter acatal.
 
-1345-50 ὠδή = 1391-96 ἀντῳδή.
+4: trinarius.
 
-# : iambic trimeter acatal
+5: iambic trimeter acatal.
 
-nN =~
+6: trinarius.
 
-ov A J
+1351-2 κατακελευσμός = 1397-8 ἀντικατακελευσμός: iambic tetrameters catal.
 
-# «te Nss —
+1353-85 ἐπίρρημα = 1399-1444-5² ἀντεπίρρημα: iambic tetrameters catal.
 
-(trinarius).!
+[Note: ² In the metrical schol. in Ald., 1444 sq. are assigned to the Antipnigus, cp. Thiemann, ib. p. 49.]
 
-# : iambic trimeter acatal
+1386-90 πνῖγος = 1446-51 ἀντίπνιγος: iambic dimeters acatal. (with the exception of 1451ᵃ which is an iambic monometer acatal., and 1390, 1451ᵇ which are iambic dimeters catal.).
 
-στ Ov = WW
+## ΕΞΟΔΟΣ
 
-: trinarius.
+1452-1509: iambic trimeters acatal. (with the exception of 1493 which is an iambic monometer acatal.).
 
-# : iambic trimeter acatal
+1510-1: anapaestic tetrameter catal.
 
-: trinarius.
+# XI. The Enopliac Rhythm
 
-1351-2 κατακελευσμός = 1397-8 ἀντικατακελευσμός : iambic
+The earliest mention of the rhythm called κατʼ ἐνόπλιον is in the *Clouds* 650, where it is contrasted with the rhythm called κατὰ δάκτυλον. The earliest description of its character is in Plato, who (in the *Republic* 400 B) represents ‘Socrates’ as discussing the principles of rhythm out of which metrical systems are framed. In his ironical way he disclaims exact knowledge, but takes Damon into his counsels, and says that he has an indistinct recollection of his mentioning a ‘complex¹ enopliac rhythm, also “a dactyl,” and heroic rhythm, which he arranged somehow in such a way that the rise and fall of the foot were equal and unequal, so as to become short and long.’
 
-tetrameters catal.
+[Note: ¹ viz. ‘composed of various and different parts’ (–⏑⏑– | ⏑⏑––), cp. F. Blass, *Hermathena*, no. xxx. p. 167.]
 
-1353-85 ἐπίρρημα = 1399-1444-5° ἀντεπίρρημα : iambic tetra-
+Taken by itself this passage tells us little of τὸ κατʼ ἐνόπλιον εἶδος, except that it is akin to the dactylic and heroic. For a more complete description of the rhythm we must turn to Hephaestion (chap. xv.). Having analyzed the episynthetic rhythm of Archilochus Ἐρασμονίδη Χαρίλαε, χρῆμά τοι γελοῖον,² as consisting of an anapaestic hepthemimer and a trochaic sesquimeter, ‘the ithyphallic of current speech,’ and having stated that Archilochus always maintains the hephthemimeral caesura, and sometimes admits spondees in the first portion of the line,³ he goes on to describe how the comic poets altered its character by neglecting the caesura,⁴ and by disallowing the spondees, ‘since they considered the rhythm to be prosodiac¹ rather than anapaestic, being composed of an ionic and choriamb, the ionic admitting a short syllable in its first place.’² To the same effect is the metrical scholium on *Clouds* 651: ‘the dactylic rhythm is that in which the rise and fall are equal: the “enopliac,” which is called by some “prosodiac,” is made up of a spondee, a pyrrhic, a trochee, and an iambus. It coincides with an anapaestic tripody, or two “bases,” an Ionic and Choriambic.’ In this passage, as often elsewhere, τὸ κατʼ ἐνόπλιον εἶδος is confined to the enopliac rhythm in ascending movement (viz. ––⏑⏑–⏑⏑–), but there is plenty of precedent for disregarding this limitation, as may be seen from the scholiast on Hephaestion, p. 167 Westphal. In appearance the dimeter κατʼ ἐνόπλιον in ascending time is identical with the anapaestic tripody (with an iambic or spondee in the first foot), or the tetrapody (when there is hypercatalexis); similarly in descending movement it is identical with the dactylic tripody εἰς δισύλλαβον; and there are historical reasons for the identification.³ But according to the practice of the classical poets, it may be distinguished from anapaestic and dactylic verses, sometimes by the divisions, since those that suit τὸ κατʼ ἐνόπλιον εἶδος are not always in place in a dactylic or anapaestic rhythm; sometimes owing to the fact that variations of form occur in anapaestic or dactylic verse which are not admissible in τὸ κατʼ ἐνόπλιον εἶδος.⁴ Thus, fortuitously, it is often possible to divide the Homeric hexameter so as to become two dimeters κατʼ ἐνόπλιον⁵; or *Nub.* 285 sq. may be read so as to be a dactylic pentapody; or, conversely, ἀστῶν δʼ οἱ μὲν κατόπισθεν may be scanned κατʼ ἐνόπλιον, by treating the third long syllable as equivalent to the third and fourth syllables of the Ionic a maiore.⁶
 
-meters catal.
+[Note: ² cp. *PLG.* ii. p. 406 B.⁴]
 
-1386-90 πνῖγος = 1446-51 ἀντίπνιυγος : iambic dimeters acatal.
+[Note: ³ e.g. ἀστῶν δʼ οἱ μὲν κατόπισθεν ἦσαν, οἱ δὲ πολλοί (*PLG.* ib.).]
 
-(with the exception of 1451* which is an iambic
+[Note: ⁴ e.g. Cratin. i. p. 107 K. (ii. p. 192 M.) χαῖρʼ, ὦ μέγʼ ἀχρειόγελως, ὅμιλε ταῖς ἐπίβδαις, | τῆς ἡμετέρας σοφίας κριτὴς ἄριστε πάντων.]
 
-monometer acatal., and 1390, 1451° which are iambic
+[Note: ¹ Restricted by F. Blass (*Hermathena*, no. xxx. p. 169) to the form ––⏑⏑–⏑–.]
 
-dimeters catal.).
+[Note: ² e.g. *Vesp.* 1518 ἄγʼ, ὦ μεγαλώνυμα τέ|κνα τοῦ θαλασσίοιο κτλ.]
 
-# Eeoaoz
+[Note: ³ cp. O. Schroeder, *Vorarbeiten zu gr. Versgesch.* pp. 85 sqq.]
 
-1452-1509 : iambic trimeters acatal. (with the exception of 1493
+[Note: ⁴ cp. J. W. White, *Enoplic Metre, etc.* p. 439.]
 
-which is an iambic monometer acatal.).
+[Note: ⁵ e.g. *Il.* i. 357 ὣς φάτο δακρυχέων, τοῦδʼ | ἔκλυε πότνια μήτηρ, which exactly corresponds to the ‘enopliac’ Pind. *N.* ix. 1 κωμάσομεν παρʼ Ἀπόλλωνος Σεκυωνόθε Μοῖσαι. Indeed the metricians call the epic verse ἔπος κατʼ ἐνόπλιον.]
 
-1510-1 : anapaestic tetrameter catal.
+[Note: ⁶ But this is a rare licence, at least in Comedy, cp. *Eccl.* 577, where there is an instance but the text is corrupt.]
 
-[Note: 1 According to Heliodorus, an Ἰωνικὸν ἡμιόλιον, cp. Christ, ib. p. 347.]
+The two forms of the dimeter enopliac rhythm (viz. ascending and descending) may be combined in the *schema* (⏓)–⏑⏑–⏑⏑–(⏓). A further variation may be introduced by ‘retardation’ so as to substitute diambics and ditrochees for the Ionics.¹
 
-[Note: 5 In the metrical schol. in Ald., 1444 sq. are assigned to the Antipnigus, cp. Thiemann, ib. p. 49.]
+[Note: ¹ Historically, however, the iambics and trochees may have been earlier than the Ionics, as Schroeder holds.]
 
-# ΧΙ
+Since it requires some acuteness to discriminate verses κατʼ ἐνόπλιον from verses κατὰ δάκτυλον, Socrates has good reason for subjecting Strepsiades’ intellect to a metrical test of its capacity.
 
-# The Enopliac Rhythm
+Aristophanes provides good illustrations of the rhythm κατʼ ἐνόπλιον in the first words of the song Παλλάδα περσέπολιν δεινάν κτλ.,² and of the rhythm κατὰ δάκτυλον in τηλέπορόν τι βόαμα ⟨λύρας⟩; and he himself has written an *amoebaeum* κατʼ ἐνόπλιον in 457 sqq., which has the appearance of being a parody of some well-known paean, possibly by Simonides. As the metre is well adapted for choral odes on a large scale (such as hymns, paeans, encomia, dithyrambs), especially for those of an epic character,³ there is great humour in clothing in such a solemn dress the paltry blessings which Strepsiades has claimed from the Clouds. Stesichorus is generally credited with the invention of the strophe κατʼ ἐνόπλιον, but he probably borrowed it from ‘Nomic’ poetry.⁴ Its chief exponents, however, are Pindar and Bacchylides. In tragedy it is rare,⁵ except in Euripides who often employs it in paeans. In Aristophanic comedy it is found only in parodies, viz. *Eq.* 1264-73 (from Pindar), *Nub.* 457-75, *Vesp.* 273-80, *Pax* 775-96, *Eccl.* 571-80.
 
-THE earliest mention of the rhythm called κατʼ ἐνόπλιον is in the Clouds 650, where it 1s contrasted with the rhythm called κατὰ δάκτυλον. The earliest description of its character is in Plato, who (in the Republic 400 B) represents Socrates’ as discussing the principles of rhythm out of which metrical systems are framed. In his ironical way he disclaims exact knowledge, but takes Damon into his counsels, and says that he has an indistinct recollection of his mentioning a ‘complex’ enopliac rhythm, also “a dactyl,” and heroic rhythm, which he arranged somehow in such a way that the rise and fall of the foot were equal and unequal, so as to become short and long.’
+[Note: ² *Nub.* 967.]
 
-Taken by itself this passage tells us little of τὸ κατʼ ἐνόπλιον εἶδος, except that it is akin to the dactylic and heroic. For a more complete description of the rhythm we must turn to Hephaestion (chap. xv.). Having analyzed the episynthetic rhythm of Archilochus ’Epacuovidn Χαρίλαε, χρῆμά τοι γελοῖον,” as consisting of an anapaestic hepthemimer and a trochaic sesquimeter, ‘the ithyphallic of current speech,’ and having stated that Archilochus always maintains the hephthemimeral caesura, and sometimes admits spondees in the first portion of the line,’ he goes on to describe how the comic poets altered its character by neglecting the caesura,® and by disallowing the spondees,
+[Note: ³ e.g. Pind. *P.* i. and iv.]
 
-[Note: 1 viz. ‘composed of various and differ- of δὲ πολλοί (ῥα@. ib.). ent parts’ (vv —| vv—-), cp 1 e,g, Cratin. 1. p. 107 ὁ δ. (ii..p. 192 I. Blass, Hermathena, no. xxx. p. 167. M.) χαῖρʼ, ὦ μέγʼ ἀχρειόγελως, ὅμιλε Tals]
+[Note: ⁴ cp. Gleditsch, *Metrik d. Gr. u. Römer* (Iw. Müller’s *Handb.* B. ii. p. 554).]
 
-[Note: 2 ep. ΡΙΟ, ii. p. 406 B.4 ἐπίβδαις, | τῆς ἡμετέρας σοφίας κριτὴς ὅρον, ἀστῶν δʼ οἱ μὲν κατόπισθεν ἦσαν, ἄριστε πάντων. ΙΧΧΧ]
+[Note: ⁵ Aesch. *PV.* 526-35; Soph. *Aj.* 172-82; *Trach.* 94-102; *OR.* 1086-96; Eur. *Med.* 410-20, 627-34, 824-34, 976-82; *Andr.* 766-77; *El.* 859-65; *Tro.* 794-806; *Rhes.* 224-32.]
 
-Ixxxi ‘since they considered the rhythm to be prosodiac' rather than anapaestic, being composed of an ionic and choriamb, the ionic admitting a short syllable in its first place’ To the same effect is the metrical scholinm on Clouds 651: ‘the dactylic rhythm is that in which the rise and fall are equal: the © enopliac,” which is called by some “prosodiac,” is made up of a spondee, a pyrrhic, a trochee, and an iambus. It coincides with an anapaestic tripody, or two “ bases,” an Ionic and Choriambic.” In this passage, as often elsewhere, τὸ κατʼ ἐνόπλιον εἶδος is confined to the enopliac rhythm in ascending movement (viz. - — vv — v © —), but there is plenty of precedent for disregarding this limitation, as may be seen from the scholiast on Hephaestion, p. 167 Westphal. In appearance the dimeter κατʼ ἐνόπλιον in ascending time 15 identical with the anapaestic tripody (with an iambic or spondee in the first foot), or the tetrapody (when there 18 hypercatalexis); similarly in descending movement it is identical with the dactylic tripody eis δισύλλαβον ; and there are historical reasons for the identification.’ But according to the practice of the classical poets, it may be distinguished from anapaestic and dactylic verses, sometimes by the divisions, since those that suit τὸ κατʼ ἐνόπλιον εἶδος are not always in place in a dactylic or anapaestic rhythm ; sometimes owing to the fact that variations of form occur in anapaestic or dactylic verse which are not admissible in τὸ κατʼ ἐνόπλιον εἶδος" Thus, fortuitously, it is often possible to divide the Homeric hexameter so as to become two dimeters κατʼ ἐνόπλιον" ; or Nub. 285 sq. may be read so as to be a dactylic pentapody; or, conversely, ἀστῶν δʼ οἱ μὲν κατόπισθεν may be scanned κατʼ ἐνόπλιον, by treating the third long syllable as equivalent to the third and fourth syllables of the Tonic a maiore.’
+So much for the constitution of the strophe κατʼ ἐνόπλιον, which has generally been called ‘dactylo-epitritic,’⁶ although there is no ancient authority for this title. According to the theory which has recently been popularized by Schroeder,⁷ the metre (whether dactylo-epitritic or Iono-choriambic) is not original, but the result of a long development out of simpler elements. The original Ionic or enopliac rhythm (as distinguished from the syllabic Aeolic metre)⁸ was accentual, and, provided the accented syllables were long, the rest might take care of themselves. There were normally four beats, ‘Hebungen,’ and the unaccented syllables might be long or short, single or double, and sometimes might be omitted (as in ‘catalexis,’ and where there is syncopation). Hence originated iambics, spondees, anapaests, bacchii, Ionics a minore, etc.; and (by a shift of accent) trochees, dactyls, cretics, choriambi (orig. an Aeolic foot), Ionics a maiore, etc. Further, the Ionic ‘Vierheber’ or ‘Dreiheber’ (to use convenient German words) might be combined with an ‘Aeolic base,’¹ and in this fashion originated the heroic hexameter,² the ‘Alcaic,’³ and the ‘Sapphic’⁴ hendecasyllable. The strophes κατʼ ἐνόπλιον are very strictly composed, and contain few departures from the Iono-choriambic scheme (and its retardations), but, outside of these, in the lines described by Schroeder as *enoplia*, there are plenty of instances of the apparent substitution of –⏑⏑ for –⏑ and ⏑⏑– for ⏑–.⁵
 
-The two forms of the dimeter enopliac rhythm (viz ascending and descending) may be combined in the schema (Ξ-πυυπυυ- (Ὁ A further variation may be introduced by Ixxxii ‘retardation’ so as to substitute diambics and ditrochees for the Tonics.!
+[Note: ⁶ cp. Jebb’s *Bacchylides*, p. 92.]
 
-[Note: 1 Restricted by F. Blass (Hermathena,]
+[Note: ⁷ In his *Vorarbeiten zur gr. Versgeschichte*, esp. pp. 160-4. For a criticism of his theories see P. Shorey’s interesting review in *Class. Philol.* v. pp. 515 sqq.]
 
-[Note: 5 e.g. Il. i. 357 ὡς φάτο δακρυχέων, τοῦδʼ | ἔκλυε πότνια μήτηρ, which exactly no. xxx. p. 169) to the form — — v © corresponds to the ‘enopliac’ Pind. MN. “Ὁ -ς]
-
-[Note: 2 e.g. Vesp. 1518 ἄγʼ, ὦ μεγαλώνυμα ix. 1 κωμάσομεν παρʼ ᾿Απόλλωνος Σεκυωνόθε τέκνα τοῦ θαλασσίοιο κτλ. οῖσαι. Indeed the metricians call the]
-
-[Note: 3 cp. O. Schroeder, Vorarbeiten zu epic verse ἔπος κατʼ ἐνόπλιον. gr. Versgesch. pp. 85 sqq.]
-
-[Note: 6 But this is a rare licence, at least in]
-
-[Note: * ep. J. W. White, Enoplic Metre, etc. Comedy, cp. Eccl. 577, where there is an instance but the text is corrupt.]
-
-Since 1t requires some acuteness to discriminate verses κατʼ ἐνόπλιον from verses κατὰ δάκτυλον, Socrates has good reason for subjecting Strepsiades’ intellect to a metrical test of its capacity.
-
-Aristophanes provides good illustrations of the rhythm κατʼ ἐνόπλιον in the first words of the song Παλλάδα περσέπολιν δεινάν κτλ.’ and of the rhythm κατὰ δάκτυλον in τηλέπορόν τι βόαμα «λύρας» ; and he himself has written an amocbaeum κατʼ ἐνόπλιον in 457 sqq., which has the appearance of being a parody of some well-known paean, possibly by Simonides. As the metre is well adapted for choral odes on a large scale (such as hymns, paeans, encomia, dithyrambs), especially for those of an epic character,’ there is great humour in clothing in such a solemn dress the paltry blessings which Strepsiades has claimed from the Clouds. Stesichorus is generally credited with the invention of the strophe κατʼ ἐνόπλιον, but he probably borrowed it from ¢Nomic’ poetry.* Its chief exponents, however, are Pindar and Bacchylides. In tragedy it is rare” except in Euripides who often employs it in paeans. In Aristophanic comedy it is found only in parodies, viz. Eg. 1264-73 (from Pindar), Nub. 457-75, Vesp. 273-80, Paz '775-96, Eee. 571-80.
-
-So much for the constitution of the strophe κατʼ ἐνόπλιον, which has generally been called dactylo-epitritic,’® although there is no ancient authority for this title. According to the theory which has recently been popularized by Schroeder,” the metre (whether dactylo-epitritic or Iono-choriambic) 1s not original, but the result of a long development out of simpler elements. The original Ionic or enopliac rhythm (as distinguished from the syllabic Aeolic metre)® was accentual, and, provided the accented syllables were long, the rest might take care of
-
-Andr. 766-77; El. 859-65; Tro. 794-
-
-1 Historically, however, the iambics
-
-806 ; Rhes. 224-32.
-
-and trochees may have been earlier than
-
-6 cp. Jebb’s Bacchylides, p. 92. the Ionics, as Schroeder holds.
-
-" In his Vorarbeiten zur gr. Vers-
-
-2 Nub. 967.
-
-geschichte, esp. pp. 160-4. For a criti-
-
-3 e.g. Pind. P. i. and iv.
-
-cism of his theories see P. Shorey’s
-
-4 cp. Gleditsch, Metrik d. Gr. w. Romer
-
-interesting review in Class. Philol. v. (Iw. Miiller’s Handb. B. ii. p. 554).
-
-pp- 515 sqq.
-
-5 Aesch. PV. 526-35 ; Soph. 4j. 172-
-
-8 ¢p. J. W. White, ‘Origin and Form 82; Trach. 94-102; OR. 1086-96; Eur.
-
-of Aeolic Verge’ (Class. Quart. iii. p. 292) Med. 410-20, 627-34, 824-34, 976-82; themselves. There were normally four beats, ‘Hebungen,’ and the unaccented syllables might be long or short, single or double, and sometimes might be omitted (as in ‘catalexis,’ and where there is syncopation). Hence originated iambics, spondees, anapaests, bacchii, Ionics a minore, etc.; and (by a shift of accent) trochees, dactyls, cretics, choriambi (orig. an Aeolic foot), Ionics a maiore, etc. Further, the Ionic ‘Vierheber’ or ‘Dreiheber’ (to use convenient German words) might be combined with an ‘Aeolic base,’¹ and in this fashion originated the heroic hexameter,² the ‘Alcaic,’³ and the ‘Sapphic’⁴ hendecasyllable. The strophes κατʼ ἐνόπλιον are very strictly composed, and contain few departures from the Iono-choriambic scheme (and its retardations), but, outside of these, in the lines described by Schroeder as *enoplia*, there are plenty of instances of the apparent substitution of –⏑⏑ for –⏑ and ⏑⏑– for ⏑–.⁵
+[Note: ⁸ cp. J. W. White, ‘Origin and Form of Aeolic Verse’ (*Class. Quart.* iii. p. 292)]
 
 [Note: ¹ viz. four syllables of an indeterminate quantity, which, when long, might have their ‘arsis’ (in the Greek sense) resolved, so as to become two dactyls.]
 
@@ -1277,7 +1179,7 @@ of Aeolic Verge’ (Class. Quart. iii. p. 292) Med. 410-20, 627-34, 824-34, 976-
 
 [Note: ³ e.g. ἀσυνέτη—μι τῶν ἀνέμων στάσιν.]
 
-[Note: ⁴ e.g. ποικιλόθρονʼ—ἀθάνατʼ ᾿Αφρόδιτα.]
+[Note: ⁴ e.g. ποικιλόθρονʼ—ἀθάνατʼ Ἀφρόδιτα.]
 
 [Note: ⁵ e.g. *Nub.* 285, 459 sq., 703, 1304.]
 
@@ -1309,151 +1211,57 @@ In addition to the works mentioned in my commentaries on the *Vespae* (pp. lxxxv
 
 [list of editions omitted]
 
-# Ὑποθεσεῖς
+# Hypothesis I
 
-᾿Αριστοφάνην γράψαι τὰς Νεφέλας ἀναγκασθέντα ὑπὸ
+φασὶ τὸν Ἀριστοφάνην γράψαι τὰς Νεφέλας ἀναγκασθέντα ὑπὸ Ἀνύτου καὶ Μελήτου, ἵνα προδιασκέψαιντο ποῖοί τινες εἶεν Ἀθηναῖοι κατὰ Σωκράτους ἀκούοντες. ηὐλαβοῦντο γάρ, ὅτι πολλοὺς εἶχεν ἐραστάς, καὶ μάλιστα τοὺς περὶ Ἀλκιβιάδην, οἳ καὶ ἐπὶ τοῦ δράματος τούτου μηδὲ νικῆσαι ἐποίησαν τὸν ποιητήν. ὁ δὲ πρόλογός ἐστι τῶν Νεφελῶν ἁρμοδιώτατα καὶ δεξιώτατα συγκείμενος. πρεσβύτης γάρ ἐστιν ἄγροικος ἀχθόμενος παιδὶ ἀστικοῦ φρονήματος γέμοντι καὶ τῆς εὐγενείας εἰς πολυτέλειαν ἀπολελαυκότι. ἡ γὰρ τῶν Ἀλκμαιωνιδῶν οἰκία, ὅθεν ἦν τὸ πρὸς μητρὸς γένος ὁ μειρακίσκος, ἐξ ἀρχῆς, ὥς φησιν Ἡρόδοτος, τεθριπποτρόφος ἦν, καὶ πολλὰς ἀνῃρημένη νίκας, τὰς μὲν Ὀλυμπίασι, τὰς δὲ Πυθοῖ, ἐνίας δὲ Ἰσθμοῖ καὶ Νεμέᾳ καὶ ἐν ἄλλοις πολλοῖς ἀγῶσιν. εὐδοκιμοῦσαν οὖν ὁρῶν ὁ νεανίσκος ἀπέκλινε πρὸς τὸ ἦθος τῶν πρὸς μητρὸς προγόνων.
 
-φασὶ τὸν
+[Note: Ἀριστοφᵅ Νεφέλαι. Ὑπόθεσις Νεφελῶν Ἀριστοφᵅ prefixed in V **2** Μελίτου V etc. || προδιασκέψωνται Ald. **4** οἳ καὶ] καὶ om. Ald. **7** ἀχθόμενος V² interlin.]
 
-Ν
+[Note: The Hypotheses are printed here as given in V.]
 
-Μελήτου, ἵνα προδιασκέψαιντο ποῖοί τινες εἶεν ᾿Αθηναῖοι
+[Note: **1 sq.** This ridiculous statement, which is repeated in schol. V 627, and refuted on chronological grounds (Zeller, *Socrates and the Socratic Schools*, p. 204 ET.), is elaborated in Aelian, *VH.* ii. 13. It betrays a complete ignorance both of the character of Aristophanes and of the aim of ancient Attic comedy, which existed γέλωτος ἕνεκα. Socrates himself understood it better when he said ὡς ἐν συμποσίῳ μεγάλῳ τῷ θεάτρῳ σκώπτομαι (Plut. *De educ. puer.* § 14).]
 
-h .
+[Note: **5. μηδὲ νικῆσαι**: Alcibiades is said to have provoked his friends, the young Knights, to make a scene during the performance of the *Clouds*, and thereby to have caused the ill success of the play, cp. Denis, *La Comédie grecque*, ii. p. 47. The statement is probably a fiction invented by some scholiast who, like Süvern (*Über Aristoph. Wolken*, pp. 36 sqq.), saw in Phidippides a representation of Alcibiades.]
 
-᾿Ανύτου καὶ
+# Hypothesis II
 
-Του»; P 7
+πατὴρ τὸν υἱὸν σωκρατίζειν βούλεται· | καὶ τῆς περὶ αὐτὸν ψυχρολογίας διατριβὴ | ἱκανή, λόγων ἀπόνοια πρὸς τοὐναντίον. | χορὸς δὲ Νεφελῶν ὡς ἐπωφελῆ λέγων, | καὶ τὴν ἀσέβειαν Σωκράτους διεξιών· | ἄλλαι θʼ ὑπʼ ἀνδρὸς . . κατηγορίαι πικραί, | καὶ τῶν μαθητῶν εἷς πατραλοίας ἐκτόπως. | εἶτʼ ἐμπυρισμὸς τῆς σχολῆς τοῦ Σωκράτους. | τὸ δὲ δρᾶμα ⟨τοῦτο⟩ τῆς ὅλης ποιήσεως | κάλλιστον εἶναί φησι καὶ τεχνικώτατον.
 
-\ 4 5 ΄, » ~ 4 [4 \ μεν 5 κατὰ Σωκράτους ἀκούοντες. ηὐλαβοῦντο γάρ, ὅτι πολλοὺς εἶχεν ἐρα-
+[Note: ἄλλη prefixed in V **1** βούλεται] προτρέπεται Ald. **3** λόγων τʼ V **4** ἐπωφελῆ λέγων] ἐπιλέγων V **6** ὑπὲρ ἀνδρὸς V: ὑπʼ ἀνδρὸς ἔτι Hermann: ὑπʼ ἀ. αὖ Dübner **9-10** These lines are treated by Dindorf as prose, and placed at the end of Hypothesis IV., but they are probably senarii, τοῦτο being supplied (with Ald.) after δρᾶμα. Dindorf gives φασι as the reading of V, but φησι is clear, the reference being to 522 (cp. Meineke, *FCG.* i. p. 48). In expression, the aesthetical judgment resembles those of Aristophanes of Byzantium, which are often embodied in the surviving Hypotheses, cp. III. line 25, and my edition of the *Acharnēs*, p. 4, lines 31 sq.]
 
-/ \ / \ \ » δ. o \ 3X ~ ’ στάς, καὶ μάλιστα τοὺς περὶ ᾿Αλκιβιάδην, οὗ καὶ ἐπὶ τοῦ δράματος τούτου μηδὲ νικῆσαι ἐποίησαν τὸν ποιητήν. ὁ δὲ πρόλογός ἐστι τῶν ὅ Νεφελῶν ἁρμοδιώτατα καὶ δεξιώτατα συγκείμενος. πρεσβύτης γάρ ἐστιν ἄγροικος ἀχθόμενος παιδὲ ἀστικοῦ φρονήματος γέμοντι καὶ τῆς εὐγενείας
+# Hypothesis III
 
-ἡ γὰρ τῶν ᾿Αλκμαιωνιδῶν οἰκία, ὅθεν εἰς πολυτέλειαν ἀπολελαυκότι.
+πρεσβύτης τις Στρεψιάδης ὑπὸ δανείων καταπονούμενος διὰ τὴν ἱπποτροφίαν τοῦ παιδός, δεῖται τούτου, φοιτήσαντα ὡς τὸν Σωκράτην μαθεῖν τὸν ἥττονα λόγον, εἴ πως δύναιτο τὰ ἄδικα λέγων ἐν τῷ δικαστηρίῳ τοὺς χρήστας νικᾶν καὶ μηδενὶ τῶν δανειστῶν μηδὲν ἀποδοῦναι. οὐ βουλομένου δὲ τοῦ μειρακίσκου, διαγνοὺς αὐτὸς ἐλθὼν μανθάνειν, μαθητὴν τοῦ Σωκράτους ἐκκαλέσας τινὰ διαλέγεται. ἐκκυκληθείσης δὲ τῆς διατριβῆς, οἵ τε μαθηταὶ κύκλῳ καθήμενοι πιναροὶ συνορῶνται καὶ αὐτὸς ὁ Σωκράτης ἐπὶ τῆς κρεμάθρας αἰωρούμενος καὶ ἀποσκοπῶν τὰ μετέωρα θεωρεῖται. μετὰ ταῦτα τελεῖ παραλαβὼν τὸν πρεσβύτην, καὶ τοὺς νομιζομένους παρʼ αὐτῷ θεούς, Ἀέρα, προσέτι δὲ Αἰθέρα καὶ Νεφέλας κατακαλεῖται. πρὸς δὲ τὴν εὐχὴν εἰσέρχονται Νεφέλαι ἐν σχήματι χοροῦ καὶ φυσιολογήσαντος οὐκ ἀπιθάνως τοῦ Σωκράτους ἀποκαταστᾶσαι πρὸς τοὺς θεατὰς περὶ πλειόνων διαλέγονται. μετὰ δὲ ταῦτα ὁ μὲν πρεσβύτης διδασκόμενος ἐν τῷ φανερῷ τινὰ τῶν μαθημάτων γελωτοποιεῖ· καὶ ἐπειδὴ διὰ τὴν ἀμαθίαν ἐκ τοῦ φροντιστηρίου ἐκβάλλεται, ἄγων πρὸς βίαν τὸν υἱὸν συνίστησι τῷ Σωκράτει. τούτου δὲ ἐξαγαγόντος αὐτῷ ἐν τῷ θεάτρῳ τὸν ἄδικον καὶ τὸν δίκαιον λόγον, [καὶ] διαγωνισθεὶς ὁ ἄδικος πρὸς τὸν δίκαιον λόγον ⟨νικᾷ⟩, καὶ παραλαβὼν αὐτὸν ὁ ἄδικος λόγος διδάσκει. κομισάμενος δὲ αὐτὸν ὁ πατὴρ ἐκπεπονημένον ἐπηρεάζει τοῖς χρήσταις, καὶ ὡς κατωρθωκώς, εὐωχεῖ παραλαβών. γενομένης δὲ περὶ τὴν εὐωχίαν ἀντιλογίας, πληγὰς λαβὼν ὑπὸ τοῦ παιδὸς βοὴν ἵστησι, καὶ προσκα⟨ταλα⟩λούμενος ὑπὸ τοῦ παιδός, ὅτι δίκαιον τοὺς πατέρας ἀπὸ τῶν υἱῶν ἀντιτύπτεσθαι, ὑπεραλγῶν διὰ τὴν πρὸς τὸν υἱὸν σύγκρουσιν ὁ γέρων, κατασκάπτει καὶ ἐμπίπρησι τὸ φροντιστήριον τῶν Σωκρατικῶν. τὸ δὲ δρᾶμα τῶν πάνυ δυνατῶς πεποιημένων.
 
-“5 \ \ \ ΄ Cc / 5 5 ~ M4 «ε ΄ ἣν τὸ πρὸς μητρὸς γένος ὁ μειρακίσκος, ἐξ ἀρχῆς, ὥς φησιν Ἡρόδοτος,
+[Note: ἑτέρως ἡ ὑποᶿ Νεφελῶν is prefixed in V **1** τις om. Ald. **2** φοιτήσοντος V: -αντος Ald. : corr. Brunck **3 sqq.** εἴ πως . . ἀποδοῦναι om. Ald. **5** μὴ πειθομένου δὲ τοῦ μειρακίου Ald. || διαγνοὺς om. Ald. **6** τοῦ om. Ald. || ἐκλυθείσης codd. : ἐκκυκληθείσης Bergk, cp. 184 n. **8** τῆς om. Ald. **9** τελεῖ Ald. : τελεῖν V **11** ἀνακαλεῖται Mut. 1 **13** ἀποστᾶσαι V **14** μαθητῶν V]
 
-θ / > \ λλὰ 5 Ζ ’, \ \ OX 7, τεθριπποτρόφος ἦν, καὶ πολλὰς ἀνῃρημένη νίκας, τὰς μὲν υμπίασι, 10 τὰς δὲ Πυθοῖ, ἐνίας δὲ Ἰσθμοῖ καὶ Νεμέᾳ καὶ ἐν ἄλλοις πολλοῖς ἀγῶσιν. 3 ~ “3 ε ~ ς ʼὔ 5 7 \ “ 3 ~ ~ εὐδοκιμοῦσαν οὖν ὁρῶν ὁ νεανίσκος ἀπέκλινε πρὸς τὸ ἦθος τῶν πρὸς μητρὸς προγόνων.
-
-"A pigrod” Νεφέλαι. Ὑπόθεσις Νεφελῶν ᾿Αριστοφν prefixed in V
-
-2 Μελίτου V ete. || προδιασκέψωνται Ald.
-
-4 οἱ kal] καὶ om. Ald.
-
-7 ἀχθόμενος V2 Ἰη του.
-
-The Hypotheses are printed here as
-
-ἐν συμποσίῳ μεγάλῳ τῷ θεάτρῳ σκώπτομαι
-
-(Plut. De educ. puer. § 14).
-
-given in V.
-
-5. μηδὲ νικῆσαι: Alcibiades is said
-
-1 sq. This ridiculous statement, which
-
-to have provoked his friends, the young is repeated in schol. V 627, and refuted
-
-Knights, to make a scene during the on chronological grounds (Zeller, Socrates
-
-performance of the Clouds, and thereby and the Socratic Schools, p. 204 ET.), is
-
-to have caused the ill success of the elaborated in Aelian, ΚΑ. ii. 13. It
-
-play, cp. Denis, La Comédie grecque, betrays a complete ignorance both of
-
-11. p. 47. The statement is probably a the character of Aristophanes and of
-
-fiction invented by some scholiast who, the aim of ancient Attic comedy, which
-
-like Siivern (Uber Aristoph. Wolken, pp. existed γέλωτος ἕνεκα. Socrates himself
-
-36 sqq.), saw in Phidippides a repreunderstood it better when he said ὡς
-
-sentation of Alcibiades.
-
-# ΤΙ
-
-# πατὴρ τὸν υἱὸν σωκρατίζειν βούλεται"
-
-# \ \ [AN / 7
-
-# \ ~ \ » ΕΥ ͵7ὔ Ἢ
-
-# καὶ τῆς περὶ αὐτὸν ψυχρολογίας διατριβὴ
-
-# ἱκανή, λόγων ἀπόνοια πρὸς τοὐναντίον
-
-# χορὸς δὲ Νεφελῶν ὡς ἐπωφελῆ λέγων,
-
-# \ \ 3 ’ὔ . / /4
-
-# καὶ τὴν ἀσέβειαν Σωκράτους διεξιών"
-
-# Εσ Ρὶ « 9 3 7 Α
-
-# ἄλλαι θ᾽ ὑπ’ ἀνδρὸς. . κατηγορίαι πικραὶ,
-
-# καὶ τῶν μαθητῶν εἷς πατραλοίας ἐκτόπως
-
-# εἶτ᾽ ἐμπυρισμὸς τῆς σχολῆς τοῦ Σωκράτους
-
-# τὸ δὲ δρᾶμα «τοῦτο» τῆς ὅλης ποιήσεως
-
-# a \ ~ ~ ~ “ ΄Ζ
-
-# / 5 / \ /
-
-# κάλλιστον εἶναί φησι καὶ τεχνικώτατον
-
-10
-
-ἄλλη prefixed in V 1 βούλεται] προτρέπεται Ald. 3 λόγων © V 4 ἐπωφελῆ λέγων] ἐπιλέγων V 6 ὑπὲρ ἀνδρὸς V : ὑπʼ ἀνδρὸς ἔτι Hermann : ὑπʼ ἀ.
-
-kA a? Diibner 9-10 These lines are treated by Dindorf as prose, and placed at the end of Hypothesis IV., but they are probably senarii, τοῦτο being supplied (with Ald.) after δρᾶμα. Dindorf gives φασι as the reading of V, but φησι is clear, the reference being to 522 (cp. Meineke, Τοσ. i. p. 48). In expression, the aesthetical judgment resembles those of Aristophanes of Byzantium, which are often embodied in the surviving Hypotheses, cp. 111. line 25, and my edition of the Acharnes, p. 4, lines 31 sq.
-
-# IIT
-
-’ 7 ε \ ’ / Ν Ν
-
-πρεσβύτης τις Στρεψιάδης ὑπὸ δανείων καταπονούμενος διὰ τὴν ἱπποτροφίαν τοῦ παιδός, δεῖται τούτου, φοιτήσαντα ὡς τὸν Σωκράτην
-
-a) ¢/ / Ed / \ of 4 3 ~ μαθεῖν τὸν ἥττονα λόγον, εἴ πως δύναιτο Ta ἄδικα λέγων ἐν τῷ δικαστηρίῳ τοὺς χρήστας νικᾶν καὶ μηδενὶ τῶν δανειστῶν μηδὲν ἀποδοῦναι. 3 / 4 \ ~ /d x > A} 3 \ 4 οὐ βουλομένου δὲ Tov μειρακίσκου, διαγνοὺς αὐτὸς ἐλθὼν μανθάνειν, σι μαθητὴν τοῦ Σωκράτους ἐκκαλέσας τινὰ διαλέγεται. ἐκκυκληθείσης δὲ τῆς διατριβῆς, οἵ τε μαθηταὶ κύκλῳ καθήμενοι πιναροὶ συνορῶνται καὶ αὐτὸς ὁ Σωκράτης ἐπὶ τῆς κρεμάθρας αἰωρούμενος καὶ ἀποσκοπῶν τὰ μετέωρα θεωρεῖται. μετὰ ταῦτα τελεῖ παραλαβὼν τὸν πρεσβύτην, καὶ
-
-\ ’ > » ~ ΄ » » Υ͂ δὲ Αἰθέ Ν τοὺς νομιζομένους παρ αὐτῷ θεούς, ᾿Αέρα, προσέτι δὲ Αἰθέρα καὶ 1 Θ Νεφέλας κατακαλεῖται. πρὸς δὲ τὴν εὐχὴν εἰσέρχονται Νεφέλαι ἐν σχήματι χοροῦ καὶ φυσιολογήσαντος οὐκ ἀπιθάνως τοῦ Σωκράτους ἀποκαταστᾶσαι πρὸς τοὺς θεατὰς περὶ πλειόνων διαλέγονται. μετὰ δὲ ταῦτα ὁ μὲν πρεσβύτης διδασκόμενος ἐν τῷ φανερῷ τινὰ τῶν μαθημάτων
-
-ἑτέρως ἡ ὑπο N εφελῶν is prefixed in V 1 τις om. Ald. 2 φοιτήσοντος V: -avros Ald.: corr. Brunck 3 sqq. εἴ πως. . ἀποδοῦναι om. Ald. 5 μὴ πειθομένου δὲ τοῦ μειρακίου Ald. | διαγνοὺς om. Ald. 6 τοῦ om. Ald. | ἐκλυθείσης codd. : ἐκκυκληθείσης Bergk, cp. 184 n. 8 τῆς om. Ald. 9 τελεῖ Ald. : τελεῖν V 11 ἀνακαλεῖται Mut. 1 13 ἀποστᾶσαι V 14 μαθητῶν V γελωτοποιεῖ· καὶ ἐπειδὴ διὰ τὴν ἀμαθίαν ἐκ τοῦ φροντιστηρίου ἐκβάλλεται, ἄγων πρὸς βίαν τὸν υἱὸν συνίστησι τῷ Σωκράτει. τούτου δὲ ἐξαγαγόντος αὐτῷ ἐν τῷ θεάτρῳ τὸν ἄδικον καὶ τὸν δίκαιον λόγον, [καὶ] διαγωνισθεὶς ὁ ἄδικος πρὸς τὸν δίκαιον λόγον ⟨νικᾷ⟩, καὶ παραλαβὼν αὐτὸν ὁ ἄδικος λόγος διδάσκει. κομισάμενος δὲ αὐτὸν ὁ πατὴρ ἐκπεπονημένον ἐπηρεάζει τοῖς χρήσταις, καὶ ὡς κατωρθωκώς, εὐωχεῖ παραλαβών. γενομένης δὲ περὶ τὴν εὐωχίαν ἀντιλογίας, πληγὰς λαβὼν ὑπὸ τοῦ παιδὸς βοὴν ἵστησι, καὶ προσκα⟨ταλα⟩λούμενος ὑπὸ τοῦ παιδός, ὅτι δίκαιον τοὺς πατέρας ἀπὸ τῶν υἱῶν ἀντιτύπτεσθαι, ὑπεραλγῶν διὰ τὴν πρὸς τὸν υἱὸν σύγκρουσιν ὁ γέρων, κατασκάπτει καὶ ἐμπίπρησι τὸ φροντιστήριον τῶν Σωκρατικῶν. τὸ δὲ δρᾶμα τῶν πάνυ δυνατῶς πεποιημένων.
-
-[Note: *Critical notes.* 16 διάγων V, Ald.: corr. Brunck || πρὸς Ald.: κατὰ V 17 ἐξάγοντος Ald. 18 νικᾷ add. O. Ulrich || περιλαβὼν Ald. 19 ἐκδιδάσκει Ald. 20 κατορθωκώς V : κατωρθωκότα Ald. 24 σύγκρισιν Ald.]
+[Note: **16** διάγων V, Ald.: corr. Brunck || πρὸς Ald.: κατὰ V **17** ἐξάγοντος Ald. **18** νικᾷ add. O. Ulrich || περιλαβὼν Ald. **19** ἐκδιδάσκει Ald. **20** κατορθωκώς V: κατωρθωκότα Ald. **24** σύγκρισιν Ald.]
 
 # Hypothesis IV
 
 τὴν μὲν κωμῳδίαν καθῆκεν κατὰ Σωκράτους, ὡς τοιαῦτα νομίζοντος, καὶ Νεφέλας καὶ Ἀέρα καὶ τί γὰρ ἀλλʼ ἢ ξένους εἰσάγοντος δαίμονας. χορῷ δὲ ἐχρήσατο Νεφελῶν πρὸς τὴν τοῦ ἀνδρὸς κατηγορίαν. διὰ τοῦτο οὕτως ἐπεγράφη τὸ δρᾶμα. διτταὶ δὲ φέρονται Νεφέλαι. οἱ δὲ κατηγορήσαντες Σωκράτους Ἄνυτος καὶ Μέλητος.
 
-[Note: *Critical notes.* 1 μὲν om. V 2 εἰσάγοντα V 4 τὸ δρᾶμα Ald. 5 Μέλιτος V]
+[Note: **1** μὲν om. V **2** εἰσάγοντα V **4** τὸ δρᾶμα Ald. **5** Μέλιτος V]
 
-[Note: 4. **φέρονται**: if this means ‘are circulated,’ the statement is probably inaccurate in regard of the time when this Hypothesis was written. Probably both editions were seen by Eratosthenes (schol. Ald. 553), but as Callistratus was ignorant of the purport of edition 1, it cannot have been in general circulation, and probably soon disappeared.]
+[Note: **4. φέρονται**: if this means ‘are circulated,’ the statement is probably inaccurate in regard of the time when this Hypothesis was written. Probably both editions were seen by Eratosthenes (schol. Ald. 553), but as Callistratus was ignorant of the purport of edition 1, it cannot have been in general circulation, and probably soon disappeared.]
 
 # Hypothesis V
 
 αἱ πρῶται Νεφέλαι ἐν ἄστει ἐδιδάχθησαν ἐπὶ ἄρχοντος Ἰσάρχου, ὅτε Κρατῖνος μὲν ἐνίκα Πυτίνῃ, Ἀμειψίας δὲ Κόννῳ. διόπερ Ἀριστοφάνης ἀπορριφθεὶς παραλόγως ᾠήθη δεῖν ἀναδιδάξαι τὰς Νεφέλας τὰς δευτέρας ⟨καὶ⟩ ἀπομέμφεσθαι τὸ θέατρον. ἀτυχῶν δὲ πολὺ μᾶλλον καὶ ἐν τοῖς ἔπειτα οὐκέτι τὴν διασκευὴν εἰσήγαγεν. αἱ δὲ δεύτεραι Νεφέλαι ἐπὶ Ἀμεινίου ἄρχοντος.
 
-[Note: *Critical notes.* 1 Ἰσάρχου] Briel (*De Philon. et Call.* p. 48) adds ⟨διὰ Φιλωνίδου⟩, cp. *Vesp.* 1018 n. 2 μέν γʼ V ; so edd., but what is written is γ̄. Does this mean ‘for the third time’? cp. Flickinger, *Class. Phil.* v. pp. 1 sqq.]
+[Note: **1** Ἰσάρχου] Briel (*De Philon. et Call.* p. 48) adds ⟨διὰ Φιλωνίδου⟩, cp. *Vesp.* 1018 n. **2** μέν γʼ V; so edd., but what is written is γ̄. Does this mean ‘for the third time’? cp. Flickinger, *Class. Phil.* v. pp. 1 sqq.]
 
-[Note: 1. **Ἰσάρχου**: viz. in the month of March, 423 B.C. Lines 1 and 2 are certainly a quotation from the Διδασκαλίαι of Aristotle, cp. *Ach.* p. 4. The rest of the Hypothesis has been held to be of a late date. According to Gröbl (*Die ält. Hypoth. zu Ar.*), lines 3-5 are by the author of VII., who may have been Eratosthenes ; but it seems to me more probable that the whole is by Callimachus, cp. 549 n. and Introd. p. lii.]
+[Note: **1. Ἰσάρχου**: viz. in the month of March, 423 B.C. Lines 1 and 2 are certainly a quotation from the Διδασκαλίαι of Aristotle, cp. *Ach.* p. 4. The rest of the Hypothesis has been held to be of a late date. According to Gröbl (*Die ält. Hypoth. zu Ar.*), lines 3-5 are by the author of VII., who may have been Eratosthenes; but it seems to me more probable that the whole is by Callimachus, cp. 549 n. and Introd. p. lii.]
 
-[Note: *Critical notes.* 3 ἀναδιδάξας Ald. || τὰς Νεφέλας om. Ald. 4 καὶ add. Dindorf || καταμέμφεσθαι Ald.]
+[Note: **3** ἀναδιδάξας Ald. || τὰς Νεφέλας om. Ald. **4** καὶ add. Dindorf || καταμέμφεσθαι Ald.]
 
-[Note: 3. **τὰς δευτέρας**: these words are surplusage after ἀναδιδάξαι, and may be a gloss, as πρῶται in line 1.]
+[Note: **3. τὰς δευτέρας**: these words are surplusage after ἀναδιδάξαι, and may be a gloss, as πρῶται in line 1.]
 
-[Note: 4. **ἀτυχῶν** κτλ.: not an allusion to a second performance (as Landsberg argues, *Philol.* viii. pp. 94-103, and Denis, ib. p. 48 n. 1), but to a failure before the Archon, who, if this writer is to be believed, seems to have refused a chorus. If Aristophanes was last in the competition in 423 B.C., a greater failure than this must have been the non-production of the play (Gröbl, *Die ält. Hypoth. zu Ar.* p. 29, Enger, *Über d. Par. d. Wolken*, Ostrowo, 1853, p. 10, Teuffel, *Rh. Mus.* x. p. 225). If this is so, the διασκευή mentioned here was the Νεφέλ. ἃς ᾤετο δεῖν ἀναδιδάξαι (viz. the second edition), and its subsequent modifications (viz. the third edition).]
+[Note: **4. ἀτυχῶν** κτλ.: not an allusion to a second performance (as Landsberg argues, *Philol.* viii. pp. 94-103, and Denis, ib. p. 48 n. 1), but to a failure before the Archon, who, if this writer is to be believed, seems to have refused a chorus. If Aristophanes was last in the competition in 423 B.C., a greater failure than this must have been the non-production of the play (Gröbl, *Die ält. Hypoth. zu Ar.* p. 29, Enger, *Über d. Par. d. Wolken*, Ostrowo, 1853, p. 10, Teuffel, *Rh. Mus.* x. p. 225). If this is so, the διασκευή mentioned here was the Νεφέλ. ἃς ᾤετο δεῖν ἀναδιδάξαι (viz. the second edition), and its subsequent modifications (viz. the third edition).]
 
-[Note: 5. **καὶ ἐν τοῖς ἔπειτα**: literally ‘since he met with even a greater rebuff at the moment, in later times he did not, as before, attempt to produce the play’; a very classical use of οὐκέτι, cp. VII. line 2, *Vesp.* 454 n.]
+[Note: **5. καὶ ἐν τοῖς ἔπειτα**: literally ‘since he met with even a greater rebuff at the moment, in later times he did not, as before, attempt to produce the play’; a very classical use of οὐκέτι, cp. VII. line 2, *Vesp.* 454 n.]
 
-[Note: **αἱ δὲ δεύτεραι** κτλ.: this statement has been held to be suspicious, as it has not the appearance of a quotation from a διδασκαλία, the name of the feast being omitted, and also the competitors. But it may be genuine, as it does not state that the second edition was ever actually produced, but merely gives its date. It is impossible to prove that Aristophanes did not try to obtain a chorus in 422 B.C. If he did, it must have been at the Greater Dionysia, since the *Proagon* and *Vespae* were produced at the Lenaea of that year. Enger thinks the production of 422 B.C. was in the theatre in the Piraeus. It is impossible either to prove or refute this hypothesis. If the second edition was written for 422 B.C., the Eupolidean part of the Parabasis, or some lines in it, must have been inserted in the third edition. διασκευή has the article, as referring to ‘the re-writing’ implied in ἀναδιδάξαι, since a second production always involved a διασκευή, even of a very slight kind, as was probably the case with the second edition ; see Introd. p. liii.]
+[Note: **αἱ δὲ δεύτεραι** κτλ.: this statement has been held to be suspicious, as it has not the appearance of a quotation from a διδασκαλία, the name of the feast being omitted, and also the competitors. But it may be genuine, as it does not state that the second edition was ever actually produced, but merely gives its date. It is impossible to prove that Aristophanes did not try to obtain a chorus in 422 B.C. If he did, it must have been at the Greater Dionysia, since the *Proagon* and *Vespae* were produced at the Lenaea of that year. Enger thinks the production of 422 B.C. was in the theatre in the Piraeus. It is impossible either to prove or refute this hypothesis. If the second edition was written for 422 B.C., the Eupolidean part of the Parabasis, or some lines in it, must have been inserted in the third edition. διασκευή has the article, as referring to ‘the rewriting’ implied in ἀναδιδάξαι, since a second production always involved a διασκευή, even of a very slight kind, as was probably the case with the second edition; see Introd. p. liii.]
 
 # Hypothesis VI
 
@@ -1461,196 +1269,50 @@ a) ¢/ / Ed / \ of 4 3 ~ μαθεῖν τὸν ἥττονα λόγον, εἴ �
 
 εἰ μέν τις ἀνὴρ τῶν ἀρχαίων κωμῳδοδιδάσκαλος ἡμᾶς | ἠνάγκαζεν λέξοντας ἔπη πρὸς τὸ θέατρον παραβῆναι.
 
-[Note: *Critical notes.* 2 εἰς V : πρὸς Ald. 3 ἑώρα V : ἀφεώρα Ald. || καὶ τοὺς V 4 καὶ τὰ πρὸς V 5 ἀποδόντες] ἄδοντες V 10 κατὰ V]
+[Note: **2** εἰς V: πρὸς Ald. **3** ἑώρα V: ἀφεώρα Ald. || καὶ τοὺς V **4** καὶ τὰ πρὸς V **5** ἀποδόντες] ἄδοντες V **10** κατὰ V]
 
-τὸ δρᾶμα κατὰ Σωκράτους γέγραπται TOU φιλοσόφου ἐπίτηδες ὡς
+τὸ δρᾶμα κατὰ Σωκράτους γέγραπται τοῦ φιλοσόφου ἐπίτηδες ὡς κακοδιδασκαλοῦντος τοὺς νέους Ἀθήνησι, τῶν κωμικῶν πρὸς τοὺς φιλοσόφους ἐχόντων τινὰ ἀντιλογίαν· οὐχ, ὥς τινες, διʼ Ἀρχέλαον τὸν Μακεδόνων βασιλέα, ὅτι προὔκρινεν αὐτὸν Ἀριστοφάνους.
 
-~ \ ʼ΄ ΕῚ ἐς ~ ~ \ \ κακοδιδασκαλοῦντος τοὺς νέους ᾿Αθήνησι, TOV κωμικῶν πρὸς τοὺς φιλο-
+[Note: **11** τὸ δρᾶμα τὸ τῶν Νεφελῶν Ald. **14** αὐτὸν om. V]
 
-΄ 3.47 \ > ’ > “ δʼ 12 ΄ - σόφους ἐχόντων τινὰ ἀντιλογίαν: οὐχ, ὥς τινες, δέ ᾿Αρχέλαον τὸν Μακεδόνων βασιλέα, ὅτι προὔκρινεν αὐτὸν ᾿Αριστοφάνους.
+[Note: **13. Ἀρχέλαον**: cp. Aristot. *Rhet.* ii. 23=1398 a 24, Diog. L. ii. § 25.]
 
-11 τὸ δρᾶμα τὸ τῶν Νεφελῶν Ald. 14 αὐτὸν om. V
+# Hypothesis VII
 
-13. ᾿Αρχέλαον : cp. Aristot. Rhef. ii. 23=1398 a 24, Diog. L. ii. § 25.
+τοῦτο ταὐτόν ἐστι τῷ προτέρῳ. διεσκεύασται δὲ ἐπὶ μέρους ὡς ἂν δὴ ἀναδιδάξαι μὲν αὐτὸ τοῦ ποιητοῦ προθυμηθέντος, οὐκέτι δὲ τοῦτο διʼ ἥν ποτε αἰτίαν ποιήσαντος. καθόλου μὲν οὖν σχεδὸν παρὰ πᾶν μέρος γεγενημένη διόρθωσις. τὰ μὲν γὰρ περιῄρηται, τὰ δὲ παραπέπλεκται, καὶ ἐν τῇ τάξει καὶ ἐν τῇ τῶν προσώπων διαλλαγῇ μετεσχημάτισται· ἃ δὲ ὁλοσχεροῦς τῆς διασκευῆς [τοιαῦτα ὄντα] τετύχηκεν· αὐτίκα μάλα ἡ παράβασις τοῦ χοροῦ ἤμειπται, καὶ ὅπου ὁ δίκαιος λόγος πρὸς τὸν ἄδικον λαλεῖ, καὶ ⟨τὸ⟩ τελευταῖον ὅπου καίεται ἡ διατριβὴ Σωκράτους.
 
-# VIL
+[Note: **1** τοῦτο δὲ ταὐτό Ald. **2** αὐτῷ V **3** καθόλου to end rejected by Beer, *Zahl d. Schausp.* p. 121: καθόλου to διόρθωσις rejected by Brentano, *Untersuch. über d. gr. Dramen*, p. 47 || Gröbl inserts ἔλεξα or εἴρηται after ποιήσαντος, thinking that the reference is to Hypothesis V. fin. ; but ἥντινα would be required. Possibly we should read ἥντινα δήποτε. If the words are right, they imply that the writer was unaware of the statement in Hypothesis V., or disregarded it, cp. Denis, *La Comédie grecque*, ii. p. 47 n. 3]
 
-~ » ,’ hb ~ ὔ 4 \ bd \ ’ ε A
+[Note: The style of this Hypothesis indicates that its writer belonged to the best age of scholiasts. Probably he was Eratosthenes, who may have discussed the question of the two editions in his work Περὶ τῆς ἀρχαίας κωμῳδίας, cp. 553 n., Bücheler, *Neues Jahrb.* lxxxiii. p. 685.]
 
-τοῦτο ταὐτόν ἐστι τῷ προτέρῳ. διεσκεύασται δὲ ἐπὶ μέρους ὡς ἂν AU ΄ \ Yow ~ ~ 7 v.07 \ κ᾿ > δὴ ἀναδιδάξαι μὲν αὐτὸ TOU ποιητοῦ προθυμηθέντος, οὐκέτι δὲ τοῦτο δι “ 3 or », ΄ \ “φ INDY \ ~ ’ ἥν ποτε αἰτίαν ποιήσαντος. καθόλου μὲν οὖν σχεδὸν παρὰ πᾶν μέρος
+[Note: **1. τοῦτο** κτλ.: a statement of cardinal importance, which is borne out by Aristophanes’ own words in 522 (where see comm.). The abruptness of the commencement of this Hypothesis indicates that the compiler (possibly Didymus) is quoting from some more ancient authority, in which a comparison had been instituted between the two editions of the play.]
 
-1 τοῦτο δὲ ταὐτό Ald. 2 αὐτῷ 8 καθόλου to end rejected by Beer, Zahl d. Schausp. p. 121: καθόλου to διόρθωσις rejected by Brentano, Untersuch. uber d. gr. Dramen, p. 47 || Grobl inserts ἔλεξα or εἴρηται after ποιήσαντος, thinking that the reference is to Hypothesis V. fin.; but ἥντινα would be required. Possibly we should read ἥντινα δήποτε. If the words are right, they imply that the writer was unaware of the statement in Hypothesis V., or disregarded it, cp. Denis, La Comédie grecque, ii. p. 47 n. 3
+[Note: **διεσκεύασται** κτλ.: this statement is so dogmatic that it is inconceivable to me that its author had not before him the two editions of the play, or at any rate an authoritative tradition as to the contents of the first edition (cp. Denis, *Com. gr.* ii. p. 48, Gröbl, *Die ält. Hypoth. zu Ar.* p. 33, Brentano, *Untersuch. über d. gr. Dramen*, p. 41, Teuffel, *Philol.* vii. p. 343, *Rh. Mus.* x. pp. 224 sqq.). The statements of the scholiast have been rejected by G. Hermann, ed. *Nub.* praef. p. 8, Fritzsche, *De fab. ab Aristoph. retract.* ii. p. 5, Ritter, *Philol.* xxxiv. pp. 447.]
 
-The style of this Hypothesis indicates
+[Note: **ὡς ἂν δή** κτλ.: notice the caution, so characteristic of the best scholiasts, with which a mere conjecture is stated.]
 
-retract. ii. p. 5, Ritter, Philol. xxxiv. that its writer belonged to the best age
+[Note: **3. καθόλου μὲν οὖν** κτλ.: v. Leeuwen (ed. *Nubes*, Introd.) rejects the Hypothesis from καθόλου ad fin. as the work of a late writer who wished to correct the statements in 1-3. He translates μὲν οὖν as ‘nay rather.’ But this use of μὲν οὖν is probably peculiar to the classical writers, and, so far as prose is concerned, to a conversational style (Kühner-Gerth, *Gram.* § 507. 2 c). It is here “explicative” (*saepe usurpatur ubi notio modo pronunciata amplius explicatur*, Bonitz, *Ind. Aristot.* p. 540 b 42). In this paragraph the writer wishes to explain the meaning of διεσκεύασται ἐπὶ μέρους, viz. ‘in a “partial rewriting” I include casual amendments (διορθώσεις) which may be observed in every part of the play, as well as total remodelling, which is confined to certain scenes.’]
 
-pp. 447.
+[Note: **παρὰ πᾶν μέρος** is not inconsistent with ἐπὶ μέρους, since a rewriting may extend to every part and still not be complete; furthermore, a διόρθωσις (‘revision’) differs from ⟨ὁλοσχερὴς⟩ διασκευή (‘remodelling’). For such διασκευαί cp. Athen. 110 B, 358 B, Galen xv. 424 Kühn ‘the second edition of an earlier work is said to have been remodelled (ἐπιδιεσκευάσθαι) when, the subject being the same (cp. 1 ταὐτόν ἐστι τῷ προτέρῳ), and most of the speakers unaltered, certain portions of the earlier work have been removed, others altered. If, for the sake of clearness, you wish to have an example of this, you have the second *Autolycus*, which is a revision of the first.’ From this passage it would appear that what Galen calls a διασκευή, the author of our Hypothesis calls a διόρθωσις. But the line between the two is not sharply marked, since ‘a revision’ may be carried so far as to be equivalent to ‘a complete remodelling.’]
 
-ὡς ἂν δή κτλ. : notice the caution, so of scholiasts. Probably he was Erato-
+[Note: **4** γινώσκεται γεγενημένη Ritter: γεγένηται ἡ δ. Blaydes; but the participle is equivalent to a finite verb, in accordance with a late idiom (cp. *Ran.* Hypoth. I. Διόνυσός ἐστι . . εἰς Ἅιδου κατιών). Bücheler also adds the article with διόρθωσις, but the sense is ‘an amendment.’ The article is required with διασκευῆς since this word refers to διεσκεύασται in 1 (cp. Gröbl, *Die ält. Hypoth. zu Aristoph.* p. 37) || πέπλεκται Ald. **6** ἃ δὲ ὁλοσχερῆς [-ῆ Ald.] τῆς διασκευῆς τοιαῦτα ὄντα τετύχηκεν. τὰ δὲ ὁλοσχερῶς τῆς διασκευῆς τετυχηκότα τοιαῦτα Bücheler: ἃ δὲ ὁλοσχερῶς διεσκεύασται, τοιαῦτα ὄντα τετύχηκεν Fritzsche: ἃ δὲ ὁλοσχεροῦς τῆς διασκευῆς τετύχηκε, τοιαῦτα ὄντα τυγχάνει Köchly: τοιαῦτα ὄντα are deleted by Bergk; they seem to be a gloss on αὐτίκα || αὐτίκα μάλα V: αὐτίκα Ald. : αὐτίκα μὲν Bergk: αὐτίκα ἡ μὲν Teuffel **8** τελευταῖον V: τὸ τ. Fritzsche || καίεται Ald. : καὶ ἔτι V]
 
-characteristic of the best scholiasts, with sthenes, who may have discussed the question of the two editions in his
+[Note: **5. τάξει, διαλλαγῇ**: Teuffel (*Philol.* vii. p. 343, *Rh. Mus.* x. p. 228) instances 112 sqq., 882-8, 1148 sq., where see comm. A possible instance of διαλλαγή is 412 sqq., where see comm.]
 
-which a mere conjecture is stated.
+[Note: **6. αὐτίκα**: this word (= ‘for example’) implies that the ‘remodelling’ was not confined to the parts mentioned. This may have been so, but the commentators have not, in my opinion, been very successful in detecting the novel portions; see notes on 110-20, 218, 291-7, 364, 382, 412-7, 441-3, 476 sq., 490, 492-509, 500, 694-9, 706-30, 740-5, 804-13. Denis (*Com. gr.* ii. p. 59) has some judicious remarks on this subject.]
 
-3. καθόλου μὲν οὖν κτλ. : v. Leeuwen work Περὶ τῆς ἀρχαίας κωμῳδίας, cp.
+[Note: **8. λαλεῖ**: v. Leeuwen thinks this a late use of the word for λέγει, but it may refer only to the Proagon, in which the dispute is mere λαλιά. The rest of the scene of the Λόγοι may, as Heidhüs suggests, have been in the first edition. However, the later Sophistic use of λαλιά may suffice to justify the word here, cp. 931 n. ; it is common enough in NT. Greek, for λέγειν.]
 
-(ed. Nubes, Introd.) rejects the Hypo- 553 n., Biicheler, Neues Jahrb. 1xxxiii.
+[Note: **ὅπου καίεται** κτλ.: possibly *fr.* i. p. 490 K. ; ii. p. 1104 M. (κείσεσθον ὥσπερ πηνίω κινουμένω) is from the corresponding scene in the first edition. Bücheler (*N. Jahrb.* lxxxiii. p. 678) has suggested that Socrates and Chaerephon were flogged out of the theatre by Strepsiades and Xanthias.]
 
-thesis from καθόλου ad fin. as the work Ρ. 685.
+# The persons of the drama
 
-1. τοῦτο κτλ. : a statement of cardinal
+ΣΤΡΕΨΙΑΔΗΣ · ΦΕΙΔΙΠΠΙΔΗΣ · ΘΕΡΑΠΩΝ Στρεψιάδου · ΜΑΘΗΤΗΣ Σωκράτους · ΣΩΚΡΑΤΗΣ · ΧΟΡΟΣ ΝΕΦΕΛΩΝ · ΔΙΚΑΙΟΣ ΛΟΓΟΣ · ΑΔΙΚΟΣ ΛΟΓΟΣ · ΠΑΣΙΑΣ, δανειστής · ΜΑΡΤΥΣ Πασίου · ΕΤΕΡΟΣ ΔΑΝΕΙΣΤΗΣ · [ΕΡΜΗΣ] · ΜΑΘΗΤΗΣ εἷς τῶν φιλοσόφων · ΞΑΝΘΙΑΣ οἰκέτης [Ἑρμοῦ] · ΕΤΕΡΟΣ ΦΙΛΟΣΟΦΟΣ
 
-of a late writer who wished to correct importance, which is borne out by
+The parts may be distributed as follows :—
 
-the statements in 1-3. He translates Aristophanes’ own words in 522 (where
+Protagonist, Strepsiades; deuteragonist, Socrates, the Unjust Reason, Pasias; tritagonist, Phidippides, first disciple of Socrates, Amynias; tetragonist, the Just Reason, second disciple of Socrates.
 
-μὲν οὖν as ‘nay rather.” But this use see comm.). The abruptness of the
+For the employment of a fourth actor see Kelley Rees, *The so-called Rule of Three Actors in the Classical Greek Drama*, Chicago, 1908.
 
-of μὲν οὖν is probably peculiar to the commencement of this Hypothesis in-
-
-classical writers, and, so far as prose is dicates that the compiler (possibly
-
-concerned, to a conversational style Didymus) is quoting from some more
-
-(Kiithner-Gerth, Gram. ὃ 507. 2 ¢). Itis ancient authority, in which a comparison
-
-here ‘“explicative”’ (saepe usurpatur ubi had been instituted between the two
-
-notio modo pronunciata amplius exrplicoeditions of the play.
-
-tur, Bonitz, Ind. Aristot. p. 540 Ὁ 42).
-
-διεσκεύασται κτλ, : this statement is
-
-In this paragraph the writer wishes to so dogmatic that it is inconceivable to
-
-explain the meaning of διεσκεύασται ἐπὶ me that its author had not before him
-
-μέρους, viz. ‘in a ‘‘ partial rewriting” 1 the two editions of the play, or at any
-
-include casual amendments (διορθώσει)
-
-which may be observed in every part of rate an authoritative tradition as to the
-
-the play, as well as total remodelling, contents of the first edition (cp. Denis,
-
-which is confined to certain scenes.’ Com. gr. ii. p. 48, Grobl, Die alt. Hypoth.
-
-παρὰ πᾶν μέρος is not inconsistent with zu Ar. p. 33, Brentano, Untersuch. iiber
-
-ἐπὶ μέρους, since a rewriting may extend d. gr. Dramen, p. 41, Teuffel, Philol. vii.
-
-to every part and still not be complete ; p- 343, Rh. Mus. x. pp. 224 sqq.). The
-
-furthermore, ἃ διόρθωσις (‘revision’) statements of the scholiast have been rejected by G. Hermann, ed. Nub. praef.
-
-differs from ὁλοσχερὴς» διασκευή (‘rep- 8, Fritzsche, De fob. αὖ Aristoph.
-
-modelling’). For such διασκευαί cp.
-
-Ζ hy \ \ / \ κ / γεγενημένη διόρθωσις. τὰ μὲν yap περιήρηται, τὰ δὲ παραπέπλεκται, ὕ καὶ ἐν τῇ τάξει καὶ ἐν τῇ τῶν προσώπων διαλλαγῇ μετεσχημάτισται' ἃ δὲ ὁλοσχεροῦς τῆς διασκευῆς [τοιαῦτα ὄντα] τετύχηκενʼ αὐτίκα μάλα ἡ παράβασις τοῦ χοροῦ ἤμειπται, καὶ ὅπου ὁ δίκαιος λόγος πρὸς τὸν LA ~ \ \ ~ o 4 «ς \ / ἄδικον λαλεῖ, καὶ «τὸ; τελευταῖον ὅπου καίεται ἡ διατριβὴ Σωκράτους.
-
-4 γινώσκεται γεγενημένη Ritter: γεγένηται ἡ ὃ. Blaydes ; but the participle is equivalent to a finite verb, in accordance with a late idiom (cp. Ron. Hypoth. I. Διόνυσός ἐστι. . εἰς "Adov κατιών). Biicheler also adds the article with διόρθωσις, but the sense is ‘an amendment.” The article is required with διασκευῆς since this word refers to διεσκεύασται in 1 (cp. Grobl, Die alt. Hypoth. zu Aristoph. p. 37) [| πέπλεκται Ald. 6 ἃ δὲ ὁλοσχερῆς [-ἢ Ald.] τῆς διασκευῆς τοιαῦτα ὄντα TETUχῆκεν. τὰ δὲ ὁλοσχερῶς τῆς διασκευῆς τετυχηκότα τοιαῦτα Biicheler: ἃ δὲ ὁλοσχερῶς διεσκεύασται, τοιαῦτα ὄντα τετύχηκεν Fritzsche: ἃ δὲ ὁλοσχεροῦς τῆς διασκευῆς τετύχηκε, τοιαῦτα ὄντα τυγχάνει Kochly : τοιαῦτα ὄντα are deleted by Bergk ; they seem to be a gloss on αὐτίκα || αὐτίκα μάλα V: αὐτίκα Ald.: αὐτίκα μὲν ῬΕΙΡΈ : αὐτίκα ἡ μὲν Teuffel
-
-8 τελευταῖον V : τὸ 7. Fritzsche || καίεται Ald. :
-
-καὶ ἔτι V Athen. 110 B, 358 B, Galen xv. 424
-
-may have been so, but the commentators Κύμη ‘the second edition of an earlier
-
-have not, in my opinion, been very work is said to have been remodelled
-
-successful in detecting the novel por- (ἐπιδιεσκευάσθαι) when, the subject being
-
-tions ; see notes on 110-20, 218, 291-7, the same (cp. 1 ταὐτόν ἐστι τῷ προτέρῳ),
-
-364, 382, 412-7, 441-3, 476 sq., 490, and most of the speakers unaltered,
-
-492-509, 500, 694-9, 706-30, 740-5, certain portions of the earlier work have
-
-804-13. Denis (Com. gr. ii. p. 59) has
-
-some judicious remarks on this subject. been removed, others altered. If, for the
-
-8. λαλεῖ: v. Leeuwen thinks this a sake of clearness, you wish to have an
-
-late use of the word for λέγει, but it example of this, you have the second
-
-may refer only to the Proagon, in which Awtolycus, which is a revision of the first.’
-
-From this passage it would appear that
-
-the dispute is mere λαλιά. The rest of
-
-the scene of the Λόγοι may, as Heidhiis what Galen calls a διασκευή, the author
-
-suggests, have been in the first edition. of our Hypothesis calls a διόρθωσις. But
-
-However, the later Sophistic use of the line between the two is not sharply marked, since ‘a revision’ may be
-
-λαλιά may suffice to justify the word
-
-here, cp. 931 n.; it is common enough carried so far as to be equivalent to
-
-in NT. Greek, for λέγειν.
-
-‘a complete remodelling.’
-
-ὅπου καίεται k7A.: possibly fr. i. p.
-
-5. τάξει, διαλλαγῇ: Teuffel (Philol.
-
-490 K. ; ii. p. 1104 M. (κείσεσθον ὥσπερ vil. p. 343, Rh. Mus. x. p. 228) instances
-
-πηνίω κινουμένω) is from the correspond- 112 sqq., 882-8, 1148 sq., where see
-
-ing scene in the first edition. Biicheler comm. A possible instance of διαλλαγή
-
-(Δ. Jahrb. 1xxxiii. p. 678) has suggested is 412 sqq., where see comm.
-
-that Socrates and Chaerephon were
-
-6. αὐτίκα : this word (= ‘ for example’)
-
-flogged out of the theatre by Strepsiades implies that the ‘remodelling’ was not confined to the parts mentioned. This
-
-and Xanthias.
-
-# Ta Tot Δράματος Iipoziqiia
-
-# Στρεψιαδης
-
-# Φειδιππιδὴς
-
-ΘΕΡΑΠΩΝ Στρεψιάδου
-
-ΜΑΘΗΤΗΣ Σωκράτους
-
-# Σωκρατὴς
-
-# Χορος Nepeaon
-
-# Δικαιος Aotoz
-
-# Αδικος Λογὸς
-
-ITAZIAZ, δανειστής
-
-ΜΑΡΤΎΣ Πασίου
-
-# Etepoz Δανειστης
-
-# [ερνης]
-
-# ΜΑΘΗΤῊΣ εἷς τῶν φιλοσόφων
-
-# ΞΑΝΘΙΑΣ οἰκέτης [Ἑρμοῦ]
-
-# Ετερος Φιλοσοφος
-
-The parts may be distributed as follows :— Protagonist, Strepsiades; deuteragonist, Socrates, the Unjust Reason, Pasias ; tritagonist, Phidippides, first disciple of Socrates, Amynias; tetragonist, the Just Reason, second disciple of Socrates.
-
-For the employment of a fourth actor see Kelley Rees, The so-called Rule of Three Actors in the Classical Greek Drama, Chicago, 1908.
-
-The dramatis personae are printed here as given in V. For the strange entry ‘Xanthias, the serving-man of Hermes’ see 1508 n. For Hermes see ib. n.
+The *dramatis personae* are printed here as given in V. For the strange entry ‘Xanthias, the serving-man of Hermes’ see 1508 n. For Hermes see ib. n.
