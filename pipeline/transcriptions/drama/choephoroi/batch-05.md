@@ -56,6 +56,7 @@
 645	apparatus: ἀθεμίστως is printed twice with the same accent ("ἀθεμίστως MSS. (ἀθεμίστως M., ..."); copied as printed.
 650	the print reads αἱμάτων παλαιτέρων· *τίνει μύσος (the draft had τίνειν with no stop after παλαιτέρων); line not flagged, seen on the image; written as printed. The apparatus "650. τείνει MSS. corr. Turn." confirms τίνει.
 649	apparatus "649. διμασεδωμάτων ..." is Sidgwick's number: it refers to δόμοισιν at the end of our 648 and αἱμάτων at the start of our 650 (Perseus has no verse 649 here).
+641	res: numbering checked against the margin (630, 635, 640, 645, 650, 655 all stand on the verses that bear them); the verses between 640 and 645 run on from 640 (641, 642), as the rules ask, so λὰξ stays 642 although Sidgwick's apparatus calls it 644; likewise 648 and 651 ff. The apparatus numbers 643-645, 644, 649 copied as printed.
 
 === p-0066
 --- text
@@ -86,7 +87,7 @@
 676	εἰς Ἄργος, ὥσπερ δεῦρʼ ἀπεζύγην πόδας,
 677	ἀγνὼς πρὸς ἀγνῶτʼ εἶπε συμβαλὼν ἀνὴρ
 678	ἐξιστορήσας καὶ σαφηνίσας ὁδόν,
-679	Στρόφιος ὁ Φωκεύς· πεύθομαι γὰρ ἐν λόγῳ
+679	Στρόφιος ὁ Φωκεύς· πεύθομαι γὰρ ἐν λόγῳ·
 680	ἐπείπερ ἄλλως, ὦ ξένʼ, εἰς Ἄργος κίεις,
 681	πρὸς τοὺς τεκόντας πανδίκως μεμνημένος
 682	τεθνεῶτʼ Ὀρέστην εἰπέ, μηδαμῶς λάθῃ.
@@ -111,6 +112,7 @@
 677	the print reads ἀνὴρ with a grave and no comma (Perseus ἀνήρ,); written as printed.
 679	the print reads Στρόφιος (the draft's Στροφίος); line not flagged, seen on the image; written as printed.
 684	the print reads ἐς (Perseus εἰς); written as printed.
+679	res: raised stop after λόγῳ, as printed
 
 === p-0067
 --- text
@@ -123,8 +125,8 @@
 @ Κλυταιμνήστρα
 691	οἲ ʼγώ, κατʼ ἄκρας εἶπας ὡς πορθούμεθα.
 692	ὦ δυσπάλαιστε τῶνδε δωμάτων ἀρά,
-693	ὡς πόλλʼ ἐπωπᾷς, κἀκποδὼν εὖ κείμενα
-694	τόξοις πρόσωθεν εὐσκόποις χειρουμένη,
+693	ὡς πόλλʼ ἐπωπᾷς κἀκποδὼν εὖ κείμενα,
+694	τόξοις πρόσωθεν εὐσκόποις χειρουμένη·
 695	φίλων ἀποψιλοῖς με τὴν παναθλίαν.
 696	καὶ νῦν Ὀρέστης—ἦν γὰρ εὐβούλως ἔχων,
 697	ἔξω κομίζων ὀλεθρίου πηλοῦ πόδα—
@@ -162,6 +164,8 @@
 704	the print reads *δʼ without angle brackets (Perseus ⟨δʼ⟩), and φρεσὶν with a grave and no comma (Perseus φρεσίν,); written as printed. The apparatus "704. δʼ omit. MSS. corr. Pauw." gives the source.
 707	the print reads μείον (acute; Perseus μεῖον) *ἀξίων (Perseus ἀξίως, confirmed by the apparatus "707. ἀξίως MSS. corr. Pauw."); written as printed. μείον was not flagged; seen clearly on the crop.
 710	ἀλλʼ is printed at the start of this verse; unchanged.
+693	res: no comma after ἐπωπᾷς, comma after κείμενα, as printed
+694	res: raised stop after χειρουμένη, as printed
 711	the draft's ἄγʼ at the end of 711 is printed at the start of the first verse of p-0068 (ἄγʼ αὐτὸν εἰς ἀνδρῶνας); moved there (712).
 
 === p-0068
@@ -225,7 +229,7 @@
 743	εὖτʼ ἂν πύθηται μῦθον. ὦ τάλαινʼ ἐγώ·
 744	ὥς μοι τὰ μὲν παλαιὰ συγκεκραμένα
 745	ἄλγη δύσοιστα τοῖσδʼ ἐν Ἀτρέως δόμοις
-746	τυχόντʼ ἐμὴν ἤλγυνεν ἐν στέρνοις φρένα.
+746	τυχόντʼ, ἐμὴν ἤλγυνεν ἔν στέρνοις φρένα.
 747	ἀλλʼ οὔτι πω τοιόνδε πῆμʼ ἀνεσχόμην·
 748	τὰ μὲν γὰρ ἄλλα τλημόνως ἤντλουν κακά·
 749	φίλον δʼ Ὀρέστην, τῆς ἐμῆς ψυχῆς τριβήν,
@@ -242,7 +246,7 @@
 759	ψευσθεῖσα παιδὸς σπαργάνων φαιδρύντρια,
 760	κναφεὺς τροφεύς τε ταὐτὸν εἰχέτην τέλος.
 761	ἐγὼ διπλᾶς δὲ τάσδε χειρωναξίας
-762	ἔχουσʼ Ὀρέστην ἐξεδεξάμην πατρί·
+762	ἔχουσʼ Ὀρέστην ἐξεδεξάμην πατρί.
 763	τεθνηκότος δὲ νῦν τάλαινα πεύθομαι.
 764	στείχω δʼ ἐπʼ ἄνδρα τῶνδε λυμαντήριον
 765	οἴκων, θέλων δὲ τόνδε πεύσεται λόγον.
@@ -259,6 +263,7 @@
 740	margin numbers 740 at κείνῃ, 745 at ἄλγη, 750 at ὃν ἐξέθρεψα, 755 at οὐ γάρ τι, 760 at κναφεὺς, 765 at οἴκων agree with ours. No speaker change on the page (the nurse speaks throughout).
 741	ἧς is printed on this line; unchanged.
 742	*ἐκεῖνος printed, asterisk left out.
+746	res: ἔν with acute, as printed; comma after τυχόντʼ, as printed (not in the residuals, seen on the enlarged line)
 750	ὃν is printed; the print has no dash after δεδεγμένη, (Perseus δεδεγμένη,—); written as printed.
 751	the print reads καὶ νυκτιπλάγκτων ὀρθίων κελευσμάτων * * * (Perseus κἀκʼ ... κελευμάτων); written as printed. The print sets three asterisks after κελευσμάτων on the same line, Sidgwick's mark of a gap (apparatus "751. probably something omitted."); copied as a `!` line (* * *) after the verse, as the instructions ask for printed gap marks.
 753	the print has τλάσῃ· τὸ μὴ φρονοῦν with no dash (Perseus τλάσῃ·—τὸ); line not flagged, seen on the image; written as printed.
@@ -266,6 +271,7 @@
 756	the print reads ἢ λιμός (Perseus εἰ λιμός); written as printed.
 757	the print has ἔχει, with a comma (Perseus ἔχει·); line not flagged, seen on the image; written as printed.
 760	the print reads κναφεὺς *τροφεύς (Perseus γναφεὺς); written as printed, asterisk left out.
+762	res: full stop after πατρί, as printed
 765	*τόνδε and *λόγον printed, asterisks left out.
 
 === p-0072
@@ -275,7 +281,7 @@
 @ Τροφός
 767	ἦ πῶς; λέγʼ αὖθις, ὡς μάθω σαφέστερον.
 @ Χορός
-768	εἰ ξὺν λοχίταις εἴτε καὶ μονοστιβῆ.
+768	εἰ ξὺν λοχίταις, εἴτε καὶ μονοστιβῆ.
 @ Τροφός
 769	ἄγειν κελεύει δορυφόρους ὀπάονας.
 @ Χορός
@@ -322,6 +328,7 @@
 --- notes
 766	this page is leaf 72 (leaves 70 and 71 are duplicates, not part of the batch). Margin numbers 770 at μή νυν, 775 at ἀλλʼ εἰ τροπαίαν, 780 at μέλει, 785 at δὸς τύχας, 790 at τὸν ἔσωθεν agree with ours. Speakers (ΧΟ., ΤΡ. alternating) as in the draft. στρ. α΄. and στρ. β΄. in the right margin left out.
 768	*εἰ printed, asterisk left out.
+768	res: comma after λοχίταις, as printed
 772	γηθούσῃ is printed (the OCR lost part of it); *γηθούσῃ asterisk left out.
 773	the print reads κρυπτὸς *ὀρθοῦται (Perseus κυπτὸς); written as printed, asterisk left out.
 774	εὖ is printed on this line; unchanged.

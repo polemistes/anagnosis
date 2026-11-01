@@ -6,7 +6,7 @@
 794	ἴσχε δʼ ἀνδρὸς φίλου πῶλον εὖνιν
 795	ζυγέντʼ ἐν ἅρμασιν
 796	πημάτων, ἐν δρόμῳ προστιθεὶς
-797	μέτρον. τίς ἂν σῳζόμενον ῥυθμὸν
+797	μέτρον. τίς ἂν σωζόμενον ῥυθμὸν
 798	τοῦτʼ ἴδοι διὰ πέδον
 799	ἀνομένων βημάτων ὄρεγμα;
 800	οἵ τʼ ἔσω δωμάτων
@@ -18,7 +18,7 @@
 805	γέρων φόνος μηκέτʼ ἐν δόμοις τέκοι.
 806	τὸ δὲ καλῶς κτίμενον ὦ μέγα ναίων
 807	στόμιον εὖ δὸς ἀνιδεῖν δόμον ἀνδρός,
-809	καί νιν ἐλευθερίας
+808	καί νιν ἐλευθερίας
 810	λαμπρὸν ἰδεῖν φιλίοις
 811	ὄμμασιν ἐκ δνοφερᾶς καλύπτρας.
 812	ξυλλάβοι δʼ ἐνδίκως
@@ -43,15 +43,18 @@
 794	the print reads ἴσχε (asterisk, Pauw's correction; apparatus "ἴσθι MSS."), and divides εὖ-|νιν over two verses: written whole at the end of 794.
 795	renumbered to the print (was 794a): the margin 795 stands beside ζυγέντʼ ἐν ἅρμασιν, which is a verse of its own once εὖνιν is joined to 794.
 796	the print has no ⟨σὺ δʼ⟩ and a comma after πημάτων: written as printed.
-797	the print reads μέτρον. τίς ἂν where Perseus has μέτρον κτίσον: written as printed; σῳζόμενον kept in Perseus's spelling (the print has no iota subscript).
+797	the print reads μέτρον. τίς ἂν where Perseus has μέτρον κτίσον: written as printed.
+797	res: σωζόμενον without iota subscript, as printed (the first pass had kept Perseus's σῳζόμενον)
 798	the print reads ἴδοι (asterisk) for Perseus ἰδεῖν: written as printed (apparatus 798).
 801	the print reads ἐνίζετε (asterisk, apparatus "νομίζετε MSS. corr. H."), no comma: written as printed.
 802	the print ends the verse with a full stop.
 803	the print reads ἄγετε, τῶν πάλαι [πεπραγμένων], brackets round πεπραγμένων, not ἄγετε: written as printed.
 804	the print has a row of five asterisks after 804 (Hermann's lost line, apparatus 803-804), not counted in the numbering (margin 805 at γέρων): added as a ! line.
 807	the print has no comma after στόμιον: written as printed.
-809	renumbered to the print (was 808): the margin 810 stands beside λαμπρὸν, and the apparatus numbers κτίμενον 806, ἐλευθερίας λαμπρὸν 809-810 and ὄμμασιν 811. Sidgwick's count therefore has one number more between 806 and 809 than the page has verses; στόμιον is kept at 807 and 808 is skipped. The print has no ⟨φῶς⟩: written as printed.
-810	renumbered to the print (was 809; margin 810).
+808	the print has no ⟨φῶς⟩: written as printed.
+808	res: numbering: the margin has 805 at γέρων and 810 at λαμπρὸν, with four printed verses (806-810) for five numbers. By the rules the verses between two margin numbers run on from the first: τὸ δὲ 806, στόμιον 807, καί νιν 808 (the draft's and Perseus's number; the first pass had made it 809), λαμπρὸν 810 on its margin number, 809 skipped. Sidgwick's apparatus "809-810. ἐλευθερίως λαμπρῶς" counts καί νιν as 809 (his count has στόμιον over 807-808); copied as printed, it refers to our 808 and 810.
+809	apparatus "809-810. ἐλευθερίως λαμπρῶς MSS. corr. Bamb." is Sidgwick's number: it refers to καί νιν ἐλευθερίας (our 808) and λαμπρὸν (810); copied as printed.
+810	renumbered to the print (was 809; margin 810). The checker's ⟨φῶς⟩ remark at 810 is the omission noted at 808.
 811	renumbered to the print (was 810; apparatus 811). The print reads ἐκ without angle brackets (asterisk, apparatus "ἐκ H."). Apparatus: a faint mark between MSS. and ἐκ is a blemish, not a stop.
 812	renumbered (was 811).
 813	renumbered (was 812). The print reads παῖς ὁ Μαίας ἐπιφορώτατος (one word, no comma) where Perseus has ἐπεὶ φορώτατος: written as printed.
@@ -131,7 +134,7 @@
 843	τῷ πρόσθεν ἑλκαίνουσι καὶ δεδηγμένοις.
 844	πῶς ταῦτʼ ἀληθῆ καὶ βλέποντα δοξάσω;
 845	ἢ πρὸς γυναικῶν δειματούμενοι λόγοι
-846	πεδάρσιοι θρῴσκουσι, θνῄσκοντες μάτην;
+846	πεδάρσιοι θρώσκουσι, θνήσκοντες μάτην;
 847	τί τῶνδʼ ἂν εἴποις ὥστε δηλῶσαι φρενί;
 @ Χορός
 848	ἠκούσαμεν μέν, πυνθάνου δὲ τῶν ξένων
@@ -139,11 +142,11 @@
 850	ὡς αὐτὸν αὐτῶν ἄνδρα πεύθεσθαι πάρα.
 @ Αἴγισθος
 851	ἰδεῖν ἐλέγξαι τʼ αὖ θέλω τὸν ἄγγελον,
-852	εἴτʼ αὐτὸς ἦν θνῄσκοντος ἐγγύθεν παρὼν
+852	εἴτʼ αὐτὸς ἦν θνήσκοντος ἐγγύθεν παρὼν
 853	εἴτʼ ἐξ ἀμαυρᾶς κληδόνος λέγει μαθών.
 854	οὔτοι φρένʼ ἂν κλέψειεν ὠμματωμένην.
 @ Χορός
-855	Ζεῦ Ζεῦ, τί λέγω, πόθεν ἄρξωμαι
+855	Ζεῦ Ζεῦ, τί λέγω, πόθεν ἄρξωμαι,
 856	τάδʼ ἐπευχομένη κἀπιθεάζουσʼ,
 857	ὑπὸ δʼ εὐνοίας
 858	πῶς ἴσον εἰποῦσʼ ἀνύσωμαι;
@@ -171,6 +174,9 @@
 --- notes
 849	the print reads εἴσω (Perseus ἔσω), a raised stop after παρελθών and a comma at the end: written as printed.
 852	the print has no comma after παρὼν (grave accent, the verse runs on): written as printed. ἦν has an asterisk (apparatus 852), left out.
+846	res: θρώσκουσι and θνήσκοντες without iota subscript, as printed
+852	res: θνήσκοντος without iota subscript, as printed
+855	res: comma after ἄρξωμαι, as printed
 865	the print reads πατέρων θʼ without angle brackets (asterisk on πατέρων, Weil's order; apparatus 865): written as printed.
 869	ΑΙ. in the margin; the print reads ἐέ, ὀτοτοτοῖ. (one word ἐέ, smooth breathing, acute on the second ε) where Perseus has ἒ ἔ,: written as printed.
 848	ΧΟ., ΑΙ., ΧΟ. in the margin at 848, 851, 855, as in the draft. Pencil notes in both margins (glosses, "die and come to nought", "to invoke the gods against..." etc.) are handwriting, ignored. Margins 845, 850, 855, 860, 865 agree.
@@ -270,7 +276,7 @@
 @ Ὀρέστης
 915	διχῶς ἐπράθην, ὢν ἐλευθέρου πατρός.
 @ Κλυταιμνήστρα
-916	ποῦ δῆθʼ ὁ τῖμος, ὅντινʼ ἀντεδεξάμην;
+916	ποῦ δῆθʼ ὁ τῖμος ὅντινʼ ἀντεδεξάμην;
 @ Ὀρέστης
 917	αἰσχύνομαί σοι τοῦτʼ ὀνειδίσαι σαφῶς.
 @ Κλυταιμνήστρα
@@ -307,6 +313,7 @@
 914	the print reads ἐς (Perseus εἰς) and has ΚΛ. in the margin, as the draft (the speaker flag is the OCR's missing it).
 915	the print reads διχῶς ἐπράθην, (Perseus αἰκῶς, no comma): written as printed.
 916	ἀντεδεξάμην; stands on this verse, as the draft.
+916	res: no comma after τῖμος, as printed
 917	σοι has an asterisk (apparatus 917), left out.
 918	the print reads ἀλλʼ εἴφʼ (asterisk; apparatus "μὴ ἀλλʼ MSS. corr. H."), without μὴ: written as printed.
 927	σοὐρίζει has an asterisk (apparatus 927), left out. The handwritten note under the apparatus ("914. οὐκ ἔστιν ἀπορρῖψαι ... schol.") is pencil, ignored.
