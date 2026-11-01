@@ -6,8 +6,8 @@
 1208	χοἶον τὸν ὑὸν τρέφεις,
 1209	φήσουσι δή μʼ οἱ φίλοι
 1210	χοἰ δημόται
-1212	ζηλοῦντες, ἡνίκʼ ἂν σὺ νικᾷς
-1212a	λέγων τὰς δίκας.
+1211	ζηλοῦντες, ἡνίκʼ ἂν σὺ νικᾷς
+1212	λέγων τὰς δίκας.
 1213	ἀλλʼ εἰσάγων σε βούλομαι
 1213a	πρῶτον ἑστιᾶσαι.
 @ Πασίας
@@ -32,7 +32,7 @@
 1206	the print sets 1206-1208 in quotation marks (“μάκαρ … τρέφεις,”); quotation marks not copied, as in batch-21 (1138).
 1207	not flagged, but the print reads σοφός, (acute, comma; Perseus σοφὸς without stop), clear on the page: written as printed.
 1208	the print reads ὑὸν (Perseus υἱὸν), clear on the crop: written as printed.
-1212	the print has ζηλοῦντες, ἡνίκʼ ἂν σὺ νι- | κᾷς λέγων τὰς δίκας. as two printed lines, κᾷς set in only slightly (the lyric layout, not a turnover); νικᾷς written whole on the first, as the rule for divided words says. Comma after ζηλοῦντες (not flagged) as printed: added.
+1211	the print has ζηλοῦντες, ἡνίκʼ ἂν σὺ νι- | κᾷς λέγων τὰς δίκας. as two printed lines, κᾷς set in only slightly (the lyric layout, not a turnover); νικᾷς written whole on the first, as the rule for divided words says. Comma after ζηλοῦντες (not flagged) as printed: added.
 1212	numbering question: Starkie's apparatus numbers the ζηλοῦντες line 1211 ("1211 ζηλοῦντες written in 1210 in RV") and his commentary has "1211. νικᾷς", the traditional numbering (Perseus has no 1211 and numbers ζηλοῦντες … δίκας 1212). But his commentary then has "1212. εἰσάγων" while the apparatus has "1213 εἰσάγων", so his own numbers of 1211-1213 disagree; no margin number between 1210 and 1215. The draft's numbering (1212, 1212a, 1213, 1213a) is kept; the apparatus item is written with its printed number 1211.
 1211	apparatus "1211 ζηλοῦντες written in 1210 in RV": written with its printed number, which names Starkie's number of the verse our numbering (Perseus's) calls 1212; see the note on 1212.
 1213a	πρῶτον ἑστιᾶσαι. is set in a little under ἀλλʼ εἰσάγων σε βούλομαι, like κᾷς under 1212 (lyric layout; the whole verse would fit on one line): kept as 1213a, not joined. The unmatched line after it ("ἐπτίρρηλλὰ") is the centred heading ἐπίρρημα, under ΣΥΖΥΓΙΑ Γ and ⟨ᾠδή⟩: the edition's own headings, left out. The centred name ΠΑΣΙΑΣ is the @ Πασίας line.
@@ -41,6 +41,8 @@
 1205	margin numbers 1205, 1210 and 1215 stand at these verses: numbering agrees.
 1214	rev: apparatus item printed "1214 sqq.": "sqq." restored at the start of the item, as the earlier batches write it (412, 804).
 1206-1207	rev: apparatus printed "1206 sq." and "1208 sq.": written as 1206-1207 and 1208-1209, as in the earlier batches; all 13 items checked on the page and on leaf 363.
+1211	res: renumbered to the print: the draft's 1212 ζηλοῦντες … νικᾷς is now 1211 and 1212a λέγων τὰς δίκας. is now 1212; 1213 and 1213a unchanged. Margin 1210 stands at χοἰ δημόται and 1215 at οὐδέποτε; running on from 1210 the ζηλοῦντες line is 1211, as Starkie's apparatus numbers it ("1211 ζηλοῦντες", and "1213 εἰσάγων" for ἀλλʼ εἰσάγων) and as his commentary has "1211. νικᾷς". The print sets νι- | κᾷς λέγων τὰς δίκας. and ἀλλʼ εἰσάγων σε βούλομαι | πρῶτον ἑστιᾶσαι. alike, the second line set in; following the apparatus, κᾷς λέγων τὰς δίκας. is counted as 1212 and πρῶτον ἑστιᾶσαι. stays 1213a (one verse 1213 with ἀλλʼ εἰσάγων in Perseus). Only the commentary's "1212. εἰσάγων" (leaf 363, seen) counts otherwise (ζηλοῦντες … δίκας as one verse 1211). This settles the numbering question in the notes above (1212 numbering question, 1211 apparatus), whose "draft kept" no longer holds: the apparatus item 1211 now names its own verse.
+1260	res: checked on the whole page: ἔα· stands alone after ΣΤΡ., the margin 1260 beside τίς οὑτοσί …; Starkie's commentary has "1260. ἔα", so ἔα belongs to his 1260 (outside the metre). 1260 ἔα· and 1260a τίς … kept, as at 1225a, 1240a, where the margin number stands beside the second part.
 
 === p-0364
 --- text

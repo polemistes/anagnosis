@@ -5,7 +5,7 @@
 1135	πᾶς γάρ τις ὀμνὺς οἷς ὀφείλων τυγχάνω,
 1136	θείς μοι πρυτανεῖʼ ἀπολεῖν μέ φησι κἀξολεῖν,
 1137	κἀμοῦ μέτριʼ ἄττα καὶ δίκαιʼ αἰτουμένου,
-1138	ὦ δαιμόνιε τὸ μέν τι νυνὶ μὴ λάβῃς,
+1138	ὦ δαιμόνιε, τὸ μέν τι νυνὶ μὴ λάβῃς,
 1139	τὸ δʼ ἀναβαλοῦ μοι, τὸ δʼ ἄφες, οὔ φασίν ποτε
 1140	οὕτως ἀπολήψεσθαι, ἀλλὰ λοιδοροῦσί με
 1141	ὡς ἄδικός εἰμι, καὶ δικάσεσθαί φασί μοι.
@@ -34,16 +34,17 @@
 1140	the print reads ἀπολήψεσθαι, unelided (Perseus ἀπολήψεσθʼ), clear on the crop: written as printed. Margin 1140 stands at this verse: numbering agrees.
 1145a	Στρεψιάδην ἀσπάζομαι. is printed stepped after ΣΩΚ., second part of 1145; the margin 1145 stands beside it: lettering kept.
 1146	apparatus: the pointed brackets of ⟨γʼ⟩ are printed < >, written ⟨ ⟩.
+1138	res: comma after δαιμόνιε, as printed
 
 === p-0352
 --- text
 1147	χρὴ γὰρ ἐπιθαυμάζειν τι τὸν διδάσκαλον.
 1148	καί μοι τὸν ὑόν, εἰ μεμάθηκε τὸν λόγον
-1149	ἐκεῖνον εἴφʼ ὃν ἀρτίως εἰσήγαγες.
+1149	ἐκεῖνον, εἴφʼ, ὃν ἀρτίως εἰσήγαγες.
 @ Σωκράτης
 1150	μεμάθηκεν.
 @ Στρεψιάδης
-1150a	εὖ γʼ ὦ παμβασίλειʼ Ἀπαιόλη.
+1150a	εὖ γʼ, ὦ παμβασίλειʼ Ἀπαιόλη.
 @ Σωκράτης
 1151	ὥστʼ ἀποφύγοις ἂν ἥντινʼ ἂν βούλῃ δίκην.
 @ Στρεψιάδης
@@ -77,26 +78,28 @@
 1155	the print reads ἰώ, κλάετʼ ὦβολοστάται, (crasis ὦβολοστάται as one word, Perseus ὦ ʼβολοστάται; comma after ἰώ), clear on the enlarged crop: written as printed. Margin 1155 at this verse: numbering agrees.
 1155-1156	apparatus printed "1155 sq."; written as 1155-1156.
 1154	apparatus: "om. comma schol. R" copied as printed.
+1149	res: comma after ἐκεῖνον and after εἴφʼ, as printed (the dash after εἴφʼ, is not copied)
+1150a	res: comma after γʼ, as printed
 
 === p-0354
 --- text
-1157	οὐδὲν γὰρ ἄν με φλαῦρον ἐργάσαισθʼ ἔτι,
+1157	οὐδὲν γὰρ ἄν με φλαῦρον ἐργάσαισθʼ ἔτι.
 1158	οἷος ἐμοὶ τρέφεται
 1159	τοῖσδʼ ἐνὶ δώμασι παῖς,
 1160	ἀμφήκει γλώττῃ λάμπων,
 1161	πρόβολος ἐμός, σωτὴρ δόμοις, ἐχθροῖς βλάβη,
 1162	λυσανίας πατρῴων μεγάλων κακῶν·
 1163	ὃν κάλεσον τρέχων ἔνδοθεν ὡς ἐμέ.
-1165	ὦ τέκνον ὦ παῖ ἔξελθʼ οἴκων,
+1165	ὦ τέκνον, ὦ παῖ, ἔξελθʼ οἴκων,
 1166	ἄιε σοῦ πατρός.
 @ Σωκράτης
 1167	ὅδʼ ἐκεῖνος ἀνήρ.
 @ Στρεψιάδης
-1168	ὦ φίλος ὦ φίλος.
+1168	ὦ φίλος, ὦ φίλος.
 @ Σωκράτης
 1169	ἄπιθι λαβὼν τὸν ὑόν.
 @ Στρεψιάδης
-1170	ἰὼ ἰὼ τέκνον, ἰὼ ἰοῦ ἰοῦ.
+1170	ἰὼ ἰώ, τέκνον· ἰὼ ἰοῦ ἰοῦ.
 1171	ὡς ἥδομαί σου πρῶτα τὴν χροιὰν ἰδών.
 --- apparatus
 1157	ἄν om. Su. (l.c., in codd. ABV)
@@ -125,6 +128,11 @@
 1169	apparatus: the 1169 item ends at the foot of this page with a colon and runs on to the facing page (leaf 355), where the apparatus continues between two rules above the commentary: "the unnecessary pron. σου should be deleted ...", followed by the items 1170 and 1171. Read from the whole page leaf_0355.png (crops in my scratch folder); all written here.
 1158	apparatus: printed "1158 sqq." and "1160 sqq."; written under 1158 and 1160 with "sqq." at the start of the item, as in earlier batches.
 1171	apparatus: Ἀττικοί is printed ʼΑττικοί (breathing before the capital).
+1157	res: full stop after ἔτι (draft comma), as printed
+1165	res: commas after τέκνον and παῖ, as printed
+1168	res: comma after the first φίλος, as printed
+1170	res: ἰὼ ἰώ, τέκνον· (acute on the second ἰώ, comma after it, raised stop after τέκνον), as printed; replaces the earlier note that left the punctuation
+1163	res: numbering checked on the whole page: margin 1160 at ἀμφήκει and 1165 at ὦ τέκνον, three printed verses between; run on from 1160 they are 1161, 1162, 1163, and Starkie's commentary on leaf 355 has "1162. λυσανίας" and "1163. τρέχων" (seen on the page). 1163 kept, 1164 skipped; only the apparatus item has 1164.
 
 === p-0356
 --- text
@@ -195,7 +203,7 @@
 @ Στρεψιάδης
 1192	ἵνα δὴ τί τὴν ἕνην προσέθηκε;
 @ Φειδιππίδης
-1192a	ἵνʼ ὦ μέλε
+1192a	ἵνʼ, ὦ μέλε,
 1193	παρόντες οἱ φεύγοντες ἡμέρᾳ μιᾷ
 1194	πρότερον ἀπαλλάττοινθʼ ἑκόντες, εἰ δὲ μή,
 1195	ἕωθεν ὑπανιῷντο τῇ νουμηνίᾳ.
@@ -220,6 +228,7 @@
 1195	the print has νουμηνίᾳ with iota subscript (clear on the crop): changed. Margin 1195 here: numbering agrees.
 1195	apparatus: the bars over ομ and το are printed (written with combining overlines); ν̄ is printed with a bar over ν (combining macron); the sign before "superscr." is a small arc like an inverted breve, written ⌒.
 1192	apparatus: "O 7" (a capital O and a 7) as printed, cf. "Cobet (from O7)" at 125.
+1192a	res: commas after ἵνʼ and after μέλε, as printed
 
 === p-0360
 --- text
@@ -231,7 +240,7 @@
 1199	ὅπως τάχιστα τὰ πρυτανεῖʼ ὑφελοίατο,
 1200	διὰ τοῦτο προὐτένθευσαν ἡμέρᾳ μιᾷ.
 @ Στρεψιάδης
-1201	εὖ γʼ· ὦ κακοδαίμονες, τί κάθησθʼ ἀβέλτεροι,
+1201	εὖ γʼ. ὦ κακοδαίμονες, τί κάθησθʼ ἀβέλτεροι,
 1202	ἡμέτερα κέρδη τῶν σοφῶν ὄντες, λίθοι,
 1203	ἀριθμός, πρόβατʼ ἄλλως, ἀμφορῆς νενησμένοι;
 1204	ὥστʼ εἰς ἐμαυτὸν καὶ τὸν ὑὸν τουτονὶ
@@ -261,3 +270,4 @@
 1204	the print reads ὑὸν (Starkie's spelling, as at 1148, 1169; Perseus υἱὸν), clear on the crop: written as printed. The verse runs on to the next page.
 1197	apparatus: "171 C" is printed with a small capital C.
 1201	apparatus: printed "1201 sqq."; written under 1201 with "sqq." at the start of the item.
+1201	res: full stop after εὖ γʼ (draft raised stop), as printed (εὖ γʼ.—ὦ; the dash is not copied)
