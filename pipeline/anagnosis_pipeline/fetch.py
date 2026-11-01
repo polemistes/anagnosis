@@ -68,7 +68,7 @@ FILES = {
         f"drama/{urn}.xml": f"{RAW}/PerseusDL/canonical-greekLit/master/data/{urn.split('.')[0]}/{urn.split('.')[1]}/{urn}.xml"
         for urn in (
             "tlg0085.tlg005.perseus-grc2", "tlg0085.tlg006.perseus-grc2", "tlg0085.tlg007.perseus-grc2",
-            "tlg0019.tlg004.perseus-grc2", "tlg0019.tlg007.perseus-grc2", "tlg0019.tlg009.perseus-grc2",
+            "tlg0019.tlg003.perseus-grc2", "tlg0019.tlg007.perseus-grc2", "tlg0019.tlg009.perseus-grc2",
             "tlg0006.tlg002.perseus-grc2", "tlg0006.tlg003.perseus-grc2", "tlg0006.tlg017.perseus-grc2",
             # Smyth's Aeschylus (Loeb 1926), Coleridge's Alcestis and Medea, Buckley's Bacchae (fallback)
             "tlg0085.tlg005.perseus-eng3", "tlg0085.tlg006.perseus-eng2", "tlg0085.tlg007.perseus-eng2",
@@ -77,7 +77,7 @@ FILES = {
     },
     # GLAUx for the six plays the AGDT lacks (the Aeschylus treebanks are in treebanks/)
     **{f"glaux/{n}.xml": f"{RAW}/alekkeersmaekers/glaux/main/xml/{n}.xml"
-       for n in ("0019-004", "0019-007", "0019-009", "0006-002", "0006-003", "0006-017")},
+       for n in ("0019-003", "0019-007", "0019-009", "0006-002", "0006-003", "0006-017")},
     # The Athenian Society's Aristophanes (1912): Lysistrata, Frogs
     **{f"gutenberg/pg{n}.txt": f"https://www.gutenberg.org/cache/epub/{n}/pg{n}.txt" for n in (8688, 8689)},
 }
