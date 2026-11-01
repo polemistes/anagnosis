@@ -98,12 +98,14 @@ def _region(play: Play, kind: str, leaf: int, lines: list[dict], size: tuple[int
                                     and re.search(r"\d", " ".join(w["text"] for w in l["words"])))]
     top = 0
     if play.layout == "jebb" and kind in ("notes", "trans"):
+        from .drama_pages import rules as _rules
+
         png = scan_dirs(play.scan_for(kind))[1] / "pages" / f"leaf_{leaf:04d}.png"
-        rule = _rule_below(png, int(0.1 * H))
+        found = _rules(png, int(0.1 * H))
         if kind == "notes":
-            top = (rule + 5) if rule else 0
+            top = (found[-1] + 5) if found else 0  # the commentary: under the last rule
         else:
-            body = [l for l in body if rule is None or l["bbox"][3] < rule]
+            body = [l for l in body if not found or l["bbox"][3] < found[0]]  # the translation: above the first
     body = [l for l in body if l["bbox"][1] >= top]
     if not body:
         return [], 0

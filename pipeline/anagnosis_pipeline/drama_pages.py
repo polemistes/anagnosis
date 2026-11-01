@@ -128,7 +128,7 @@ def run(slug: str, step: str, workers: int = 4) -> None:
         raise SystemExit(f"{slug}: no text leaves in drama.PLAYS yet (step 2)")
     route_dir("drama-pages", slug, play.scan)
     if play.layout == "jebb":
-        leaves = sorted(set(leaves) | {l + 1 for l in leaves})
+        leaves = sorted(set(leaves) | {play.facing(l) for l in leaves})
     if step == "fetch":
         with ThreadPoolExecutor(workers) as ex:
             list(ex.map(lambda l: fetch_leaf(play.scan, l), leaves))
@@ -217,6 +217,18 @@ def _rule_below(path: Path, y_from: int) -> int | None:
     return None
 
 
+def rules(path: Path, y_from: int = 0) -> list[int]:
+    """Every printed rule (a thin dark line across much of the page) below y_from, top to bottom."""
+    out: list[int] = []
+    y = y_from
+    while True:
+        r = _rule_below(path, y)
+        if r is None:
+            return out
+        out.append(r)
+        y = r + 12
+
+
 APP_NUMBER = re.compile(r"^[\[(]?\d{1,4}[a-z]?[.,:][)\]]?$")
 _LINE_X = re.compile(r"<span class='ocr_(?:line|caption|header|textfloat)' id='\w+' title=\"bbox (\d+) (\d+) (\d+) (\d+)([^\"]*)\">(.*?)</span>\s*(?=<span class='ocr_|</p>)", re.S)
 _WORD_X = re.compile(r"<span class='ocrx_word' id='\w+' title='bbox (\d+) (\d+) (\d+) (\d+); x_wconf (\d+)'[^>]*>(.*?)</span>", re.S)
@@ -301,6 +313,12 @@ def page_layout(play: Play, leaf: int) -> dict:
     XS = sizes[len(sizes) // 2]
     rule = _rule_below(png, int(0.2 * Hpage)) if play.layout == "jebb" else None
     limit = rule if rule else Hpage
+    between = None
+    if rule is not None:
+        # Starkie: the text, a rule, the apparatus, a second rule, the commentary
+        nxt = _rule_below(png, rule + 12)
+        if nxt is not None and nxt - rule > 0.5 * H:
+            between = (rule, nxt)
     # the apparatus, from the foot up
     block: list[dict] = []
     for l in sorted((l for l in body if l["bbox"][3] <= limit + 5), key=lambda l: -l["bbox"][1]):
@@ -310,7 +328,9 @@ def page_layout(play: Play, leaf: int) -> dict:
         if l["x_size"] <= 0.9 * XS or has_num:
             block.append(l)
     app_y = app_end = None
-    if block and any(_item_number(w) for l in block for w in l["words"]):
+    if between is not None:
+        app_y, app_end = between[0] + 4, between[1] - 4
+    elif block and any(_item_number(w) for l in block for w in l["words"]):
         app_y = max(0, min(l["bbox"][1] for l in block) - int(0.25 * H))
         app_end = min(limit, max(l["bbox"][3] for l in block) + int(0.4 * H))
     text_lines = [l for l in body if (app_y is None or (l["bbox"][1] + l["bbox"][3]) / 2 < app_y)
@@ -966,7 +986,7 @@ def write_draft(slug: str, sources: Path, transcriptions: Path) -> list[dict]:
         for old in out_dir.glob(f"{stem}-*.png"):
             old.unlink()
         app = apparatus_images(play, leaf, layouts[leaf], out_dir, stem)
-        app2 = facing_apparatus(play, leaf + 1, out_dir, stem) if play.layout == "jebb" else {}
+        app2 = facing_apparatus(play, play.facing(leaf), out_dir, stem) if play.layout == "jebb" else {}
         flagged = [v for v in vs if v["flags"]]
         has_lines = lines_image(play, leaf, flagged, out_dir / f"{stem}-lines.png")
         md = [f"# Page {stem} (leaf {leaf}): verses {vs[0]['n']}–{vs[-1]['n']}" if vs else f"# Page {stem} (leaf {leaf})", ""]
@@ -976,7 +996,7 @@ def write_draft(slug: str, sources: Path, transcriptions: Path) -> list[dict]:
         if app:
             imgs.append(f"{stem}-app-l.png and {stem}-app-r.png (the apparatus, left and right half, enlarged)")
         if app2:
-            imgs.append(f"{stem}-app2-l.png and {stem}-app2-r.png (the apparatus continued on the facing page, leaf {leaf + 1})")
+            imgs.append(f"{stem}-app2-l.png and {stem}-app2-r.png (the apparatus continued on the facing page, leaf {play.facing(leaf)})")
         md.append("Images: " + "; ".join(imgs))
         md.append("")
         md.append("Perseus's speakers in this play (write `@ Name` with one of these): " + ", ".join(names))

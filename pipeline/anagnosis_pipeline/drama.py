@@ -103,9 +103,22 @@ class Play:
 
     def visible(self, kind: str) -> list[int]:
         """The kind's leaves without those the scan hides (scandata.xml: a leaf the Archive left
-        out of its page images, a duplicate or an interleaved sheet)."""
+        out of its page images, a duplicate or an interleaved sheet). For a Jebb-layout volume the
+        text is on every other shown leaf from the first, the translation on the leaves facing it."""
         hidden = hidden_leaves(self.scan_for(kind))
+        if self.layout == "jebb" and kind in ("text", "trans"):
+            shown = [l for a, b in (self.text_leaves if kind == "text" else self.trans_leaves)
+                     for l in range(a, b + 1) if l not in hidden]
+            return shown[0::2]
         return [l for l in self.leaves(kind) if l not in hidden]
+
+    def facing(self, leaf: int) -> int:
+        """The shown leaf after `leaf` (the right-hand page of its spread)."""
+        hidden = hidden_leaves(self.scan)
+        nxt = leaf + 1
+        while nxt in hidden:
+            nxt += 1
+        return nxt
 
     def scan_for(self, kind: str) -> str:
         return self.scan if kind == "text" else (self.notes_scan or self.scan)
@@ -193,7 +206,9 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          "The Clouds of Aristophanes, with introduction, English prose translation, critical notes and commentary by W. J. M. Starkie, London, Macmillan, 1911",
          "cloudsofaristoph00aris_0", "starkie", "W. J. M. Starkie", "aristophanes_clouds_starkie",
          glaux="0019-004.xml", translation="starkie", translator="W. J. M. Starkie", trans_key="starkie",
-         notes_editor="starkie", notes_editor_name="W. J. M. Starkie", layout="jebb"),
+         notes_editor="starkie", notes_editor_name="W. J. M. Starkie", layout="jebb",
+         text_leaves=[(108, 414)], trans_leaves=[(109, 415)], notes_leaves=[(108, 415)],
+         intro_leaves=[(19, 98), (101, 107)], sigla_leaves=[67, 68, 69, 70]),
     Play("medea", "Μήδεια", "Medea", "Εὐριπίδης", "Euripides", "tlg0006.tlg003",
          "The Medea of Euripides, with introduction and notes by Mortimer Lamson Earle, New York, American Book Company, 1904",
          "cu31924079583609", "earle", "M. L. Earle", "euripides_medea_earle",

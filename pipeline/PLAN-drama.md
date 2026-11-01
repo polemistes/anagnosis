@@ -510,6 +510,20 @@ session sees where it stopped.
   verse's own number), the printed numbers here are the new ones, and his notes and apparatus cite
   them: the text follows the print. Translation, sections and treebank are fitted by the words, not
   the numbers, so they are not affected.
+* **2026-11-01, Clouds step 2: leaves and layout.** Scan cloudsofaristoph00aris_0 (jp2 from
+  _0000; hidden leaves 0, 42-43 and 298-299, so leaf = page image n + 3 from n 42 on). Each
+  spread: the left-hand (even) page has the Greek with the speakers abbreviated in the left
+  margin and the margin numbers on the right every fifth line, then a rule, the apparatus
+  (numbered items, full measure), a second rule and Starkie's commentary in two columns; the
+  right-hand (odd) page has his translation at the top and the commentary continued in two
+  columns under a rule. Text pp. 10-314 = leaves 108-414, every other shown leaf (153 pages; the
+  hidden pair 298-299 keeps the alternation), translation on the facing leaves 109-415,
+  commentary on all of them (under the last rule on a text page, under the first on a
+  translation page); the facing page is the next shown leaf, not leaf + 1 (Play.facing).
+  Introduction leaves 19-98 (pp. vii-xc), the Greek hypotheses 101-106 and the persons 107;
+  sigla: the chapter "The Manuscripts", pp. lvii-lx = leaves 67-70. The apparatus sits between
+  the two rules (drama_pages.page_layout takes it from there when a second rule is found).
+  Starkie's translation is used (not Hickie's): the pages are clean print.
 * **2026-11-02, Choephoroi steps 5-9.** The AGDT Choephoroi ends at line 945: the last 687
   words (946-1076) have the analyser's lemma and form, corrected in the review (116 corrections,
   most of them there), and no syntax tree. GLAUx could fill the trees automatically, but a text
