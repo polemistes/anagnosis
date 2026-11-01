@@ -1,7 +1,7 @@
 === p-0410
 --- text
 @ Μαθητὴς Β
-1497	οἴμοι τίς ἡμῶν πυρπολεῖ τὴν οἰκίαν;
+1497	οἴμοι, τίς ἡμῶν πυρπολεῖ τὴν οἰκίαν;
 @ Στρεψιάδης
 1498	ἐκεῖνος οὗπερ θοἰμάτιον εἰλήφατε.
 @ Μαθητὴς Β
@@ -15,7 +15,7 @@
 @ Στρεψιάδης
 1503	ἀεροβατῶ καὶ περιφρονῶ τὸν ἥλιον.
 @ Σωκράτης
-1504	οἴμοι τάλας δείλαιος ἀποπνιγήσομαι.
+1504	οἴμοι τάλας, δείλαιος ἀποπνιγήσομαι.
 @ Μαθητὴς Β
 1505	ἐγὼ δὲ κακοδαίμων γε κατακαυθήσομαι.
 @ Στρεψιάδης
@@ -55,6 +55,9 @@
 1507	apparatus: AΘ and ΔM are the sigla as printed (A, M Latin; Θ, Δ Greek).
 1500	rev: "Su. s.v. ἥν" corrected to "Su. s.v. ἤν" in the items on 1499a and 1500: the breathing is smooth (the comma shape, against the rough one of ὑμῶν in the 1497 item), with acute; the earlier note that called it rough removed.
 1504	rev: apparatus on 1504-1507 checked item by item against the facing page (leaf 411): as printed.
+1497	res: comma after οἴμοι, as printed
+1504	res: comma after τάλας, as printed
+1499	res (numbering): margins 1500 (ἢν ἡ σμινύη) and 1505 (ἐγὼ δὲ κακοδαίμων) checked on the whole page: as the batch has them; the 1499ᵃ/1499ᵇ placement checked and kept.
 
 === p-0412
 --- text
@@ -78,6 +81,7 @@
 1511	apparatus: Starkie's items on 1511 (γε om. RV; ἡμῖν] Moeris …) are on the second half of our 1510 (τό γε τήμερον ἡμῖν): written with his number 1511 as printed.
 1508	apparatus: R/V's speaker mark is printed ἑρμ with a superscript ς carrying a grave; written ἑρμς. "1508 sq." written 1508-1509.
 1509	apparatus: the 1509 item runs on to the facing page (leaf 413, page 313, between the translation and the commentary, under a rule) from "lxxxiii. p. 689. 7)"; the items on 1510 and 1511 are printed there too: all written here. "Cratyl. 396 D": the D is a small capital, written as a capital.
+1510	res (numbering): margin "1510—11" checked on the whole page; kept as one verse 1510 (the residual items on 1510 other than ἔξω· are the apparatus lines; ἔξω· has the raised stop as printed).
 1508	rev: text (ΚΟΡ. before 1508, δίωκε, παῖε, βάλλε, ὡς, the turnover of 1510, margin 1510—11) and the apparatus on 1508-1511 (leaf 412 and the run-on on leaf 413) checked against the images: as printed, no change.
 
 === p-0414

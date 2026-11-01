@@ -2,13 +2,13 @@
 --- text
 1415	κλάουσι παῖδες, πατέρα δʼ οὐ κλάειν δοκεῖς;
 1416	φήσεις νομίζεσθαι σὺ παιδὸς τοῦτο τοὔργον εἶναι·
-1417	ἐγὼ δέ γʼ ἀντείποιμʼ ἂν ὡς δὶς παῖδες οἱ γέροντες·
+1417	ἐγὼ δέ γʼ ἀντείποιμʼ ἂν ὡς δὶς παῖδες οἱ γέροντες.
 1418	εἰκὸς δὲ μᾶλλον τοὺς γέροντας ἢ νέους τι κλάειν,
 1419	ὅσῳπερ ἐξαμαρτάνειν ἧττον δίκαιον αὐτούς.
 @ Στρεψιάδης
 1420	ἀλλʼ οὐδαμοῦ νομίζεται τὸν πατέρα ταῦτα πάσχειν.
 @ Φειδιππίδης
-1421	οὔκουν ἀνὴρ ὁ τὸν νόμον θεὶς τοῦτον ἦν τὸ πρῶτον
+1421	οὔκουν ἀνὴρ ὁ τὸν νόμον θεὶς τοῦτον ἦν τὸ πρῶτον,
 1422	ὥσπερ σὺ κἀγώ, καὶ λέγων ἔπεισε τοὺς παλαιούς;
 1423	ἧττον τί δῆτʼ ἔξεστι κἀμοὶ καινὸν αὖ τὸ λοιπὸν
 1424	θεῖναι νόμον τοῖς ὑέσιν, τοὺς πατέρας ἀντιτύπτειν;
@@ -46,6 +46,8 @@
 1418-1419	apparatus printed "1418 sq."; written as 1418-1419.
 1418	apparatus: the item runs on from the foot of this page into the apparatus of the facing page 299 (leaf 0399), between its two rules, from "εἰκὸς δέ τοι γέροντας" to "1426 … lxxix. 5)"; all of it (to 1426) is written here, as the next text page p-0400 begins with 1427. Richards' pointed brackets < > written ⟨ ⟩.
 1423	apparatus: "|| αὐτὸ V" follows the 1423 item without a new number (it refers to αὖ τὸ in 1423): kept under 1423.
+1417	res: full stop after γέροντες (not a raised stop), as printed
+1421	res: comma after πρῶτον, as printed
 
 === p-0400
 --- text
@@ -90,7 +92,7 @@
 === p-0402
 --- text
 @ Στρεψιάδης
-1437	ἐμοὶ μὲν ὦνδρες ἥλικες δοκεῖ λέγειν δίκαια·
+1437	ἐμοὶ μέν, ὦνδρες ἥλικες, δοκεῖ λέγειν δίκαια·
 1438	κἄμοιγε συγχωρεῖν δοκεῖ τούτοισι τἀπιεικῆ.
 1439	κλάειν γὰρ ἡμᾶς εἰκός ἐστʼ, ἢν μὴ δίκαια δρῶμεν.
 @ Φειδιππίδης
@@ -154,6 +156,8 @@
 1448	apparatus: "ἢ O 8" copied as printed (a capital O and an 8, checked enlarged).
 1445-1446	apparatus printed "1445 sq."; written as 1445-1446. "1449 sq." written as 1449-1450.
 1445	apparatus: the item runs on from the foot of this page ("Fritzsche τί δῆτʼ ἂν") into the apparatus of the facing page 303 (leaf 0403), between its two rules; that part (to "1450 … the ictus on the first syllable") is written here, as the next text page p-0404 begins with 1452.
+1437	res: μέν with acute and a comma after it, and a comma after ἥλικες (ἐμοὶ μέν, ὦνδρες ἥλικες,), as printed
+1445	res (numbering): checked on the whole page: margin 1440 at ἀπὸ γὰρ ὀλοῦμαι, "1444-5" at τί δʼ ἢν ἔχων τὸν ἥττω, 1450 at τὸν ἐμβαλεῖν (σεαυ-|τὸν), and καὶ τὸν λόγον τὸν ἥττω. set in under μετὰ Σωκράτους; with margin 1455 at στρέψας on p-0404 only the first pass's numbering meets every margin number: kept. merge-drama aligns Perseus (treebank) to our lines by words, not numbers, and the translation is Starkie's own, so nothing is misaligned.
 
 === p-0404
 --- text
@@ -171,9 +175,9 @@
 1460	ἕως ἂν αὐτὸν ἐμβάλωμεν εἰς κακόν,
 1461	ὅπως ἂν εἰδῇ τοὺς θεοὺς δεδοικέναι.
 @ Στρεψιάδης
-1462	ὤμοι πονηρά γʼ ὦ Νεφέλαι, δίκαια δέ.
+1462	ὤμοι, πονηρά γʼ, ὦ Νεφέλαι, δίκαια δέ.
 1463	οὐ γάρ μʼ ἐχρῆν τὰ χρήμαθʼ ἁδανεισάμην
-1464	ἀποστερεῖν. νῦν οὖν ὅπως ὦ φίλτατε
+1464	ἀποστερεῖν· νῦν οὖν ὅπως, ὦ φίλτατε,
 1465	τὸν Χαιρεφῶντα τὸν μιαρὸν καὶ Σωκράτη
 1466	ἀπολεῖς μετʼ ἐμοῦ ἐλθών, οἳ σὲ κἄμʼ ἐξηπάτων.
 @ Φειδιππίδης
@@ -207,6 +211,8 @@
 1467	ΦΕΙ. stands in the margin: speaker kept; the flag "the print shows none" is the OCR missing the abbreviation.
 1458	apparatus: the item runs on from the foot of this page ("Pax 31,") into the apparatus of the facing page 305 (leaf 0405), between its two rules; that part (from "Aves 956" to "1466 … ἐξηπάτουν RV") is written here, as the next text page p-0406 begins with 1469.
 1466	apparatus: "κἀμέγ V" so printed (V's reading κἀμέ γ(ε) written together).
+1462	res: commas after ὤμοι and after γʼ, as printed
+1464	res: raised stop after ἀποστερεῖν (not a full stop), commas after ὅπως and φίλτατε, as printed
 
 === p-0406
 --- text
@@ -217,19 +223,19 @@
 1470a	ἔστιν.
 @ Φειδιππίδης
 1470b	οὐκ ἔστʼ, οὔκ, ἐπεὶ
-1471	Δῖνος βασιλεύει τὸν Δίʼ ἐξεληλακώς.
+1471	Δῖνος βασιλεύει, τὸν Δίʼ ἐξεληλακώς.
 @ Στρεψιάδης
 1472	οὐκ ἐξελήλακʼ, ἀλλʼ ἐγὼ τοῦτʼ ᾠόμην
-1473	διὰ τουτονὶ τὸν δῖνον. οἴμοι δείλαιος
+1473	διὰ τουτονὶ τὸν δῖνον. οἴμοι δείλαιος,
 1474	ὅτε καὶ σὲ χυτρεοῦν ὄντα θεὸν ἡγησάμην.
 @ Φειδιππίδης
 1475	ἐνταῦθα σαυτῷ παραφρόνει καὶ φληνάφα.
 @ Στρεψιάδης
 1476	οἴμοι παρανοίας· ὡς ἐμαινόμην ἄρα,
 1477	ὅτʼ ἐξέβαλλον τοὺς θεοὺς διὰ Σωκράτη.
-1478	ἀλλʼ ὦ φίλʼ Ἑρμῆ μηδαμῶς θύμαινέ μοι
+1478	ἀλλʼ, ὦ φίλʼ Ἑρμῆ, μηδαμῶς θύμαινέ μοι,
 1479	μηδέ μʼ ἐπιτρίψῃς, ἀλλὰ συγγνώμην ἔχε
-1480	ἐμοῦ παρανοήσαντος ἀδολεσχίᾳ·
+1480	ἐμοῦ παρανοήσαντος ἀδολεσχίᾳ.
 --- apparatus
 1470	τίς A: τί RV
 1470	οὐκ ἐστὶν οὐκ RV: οὐκ ἔνεστ(ιν) Ald.: Porson οὐκέτʼ ἐστʼ
@@ -251,30 +257,34 @@
 1470b	οὐκ ἔστʼ, οὔκ, ἐπεὶ is printed stepped after ΦΕΙ. as the third part of 1470; margin 1470 stands beside it (as at 1145a): lettering kept. Margins 1475 and 1480 stand at those verses: numbering agrees.
 1473	apparatus: Meineke's τουτουῒ is printed with a diaeresis and grave on the final ι: written so.
 1480	apparatus: the apparatus ends on this page (the facing page 307 has none running on).
+1471	res: comma after βασιλεύει, as printed
+1473	res: comma after δείλαιος, as printed
+1478	res: commas after ἀλλʼ, Ἑρμῆ and μοι, as printed
+1480	res: full stop after ἀδολεσχίᾳ (not a raised stop), as printed
 
 === p-0408
 --- text
 1481	καί μοι γενοῦ ξύμβουλος, εἴτʼ αὐτοὺς γραφὴν
-1482	διωκάθω γραψάμενος εἴθʼ ὅ τι σοι δοκεῖ.
+1482	διωκάθω γραψάμενος, εἴθʼ ὅ τι σοι δοκεῖ.
 1483	ὀρθῶς παραινεῖς οὐκ ἐῶν δικορραφεῖν,
 1484	ἀλλʼ ὡς τάχιστʼ ἐμπιμπράναι τὴν οἰκίαν
-1485	τῶν ἀδολεσχῶν. δεῦρο δεῦρʼ ὦ Ξανθία,
+1485	τῶν ἀδολεσχῶν. δεῦρο δεῦρʼ, ὦ Ξανθία,
 1486	κλίμακα λαβὼν ἔξελθε καὶ σμινύην φέρων,
 1487	κἄπειτʼ ἐπαναβὰς ἐπὶ τὸ φροντιστήριον
 1488	τὸ τέγος κατάσκαπτʼ, εἰ φιλεῖς τὸν δεσπότην,
 1489	ἕως ἂν αὐτοῖς ἐμβάλῃς τὴν οἰκίαν·
-1490	ἐμοὶ δὲ δᾷδʼ ἐνεγκάτω τις ἡμμένην,
+1490	ἐμοὶ δὲ δᾷδʼ ἐνεγκάτω τις ἡμμένην
 1491	κἀγώ τινʼ αὐτῶν τήμερον δοῦναι δίκην
 1492	ἐμοὶ ποήσω, κεἰ σφόδρʼ εἴσʼ ἀλαζόνες.
 @ Μαθητὴς Α
 1493	ἰοὺ ἰού.
 @ Στρεψιάδης
-1494	σὸν ἔργον ὦ δᾲς ἱέναι πολλὴν φλόγα.
+1494	σὸν ἔργον, ὦ δᾴς, ἱέναι πολλὴν φλόγα.
 @ Μαθητὴς Α
 1495	ἄνθρωπε, τί ποεῖς;
 @ Στρεψιάδης
 1495a	ὅ τι ποιῶ; τί δʼ ἄλλο γʼ ἢ
-1496	διαλεπτολογοῦμαι ταῖς δοκοῖς τῆς οἰκίας;
+1496	διαλεπτολογοῦμαι ταῖς δοκοῖς τῆς οἰκίας.
 --- apparatus
 1481	μοι R²V etc., Ald.: μου R¹
 1482	V has ερᵐ before εἴθʼ: in R it is in the margin; a very curious insertion
@@ -304,3 +314,8 @@
 1493	apparatus: V's speaker marks are printed with abbreviation signs: μαθη with a small τ set above the η (written μαθηᵗ), τ with a circumflex above it (written τ͂, for τῶν), εἷς with rough breathing and circumflex.
 1482	apparatus: ερ with a small μ set above (V's speaker mark ερμ(ῆς)); Unicode has no superscript μ, written ερᵐ.
 1494	apparatus: στρ with a small ε above, written στρᵋ (as at 1415). 1495a: οι with a small accented ε above, written οιᵋ; ξαν with a small θ above, written ξανᶿ.
+1482	res: comma after γραψάμενος, as printed
+1485	res: comma after δεῦρʼ, as printed (Ξανθία confirmed again)
+1490	res: no comma after ἡμμένην, as printed (the verse runs on into 1491)
+1494	res: commas after ἔργον and after δᾴς, and δᾴς with acute and iota subscript (the draft had δᾲς), as printed (enlarged crop)
+1496	res: full stop after οἰκίας (not a question mark), as printed
