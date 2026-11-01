@@ -1,7 +1,7 @@
 === p-0103
 + γελωτοποιεῖ· καὶ ἐπειδὴ διὰ τὴν ἀμαθίαν ἐκ τοῦ φροντιστηρίου ἐκβάλλεται, ἄγων πρὸς βίαν τὸν υἱὸν συνίστησι τῷ Σωκράτει. τούτου δὲ ἐξαγαγόντος αὐτῷ ἐν τῷ θεάτρῳ τὸν ἄδικον καὶ τὸν δίκαιον λόγον, [καὶ] διαγωνισθεὶς ὁ ἄδικος πρὸς τὸν δίκαιον λόγον ⟨νικᾷ⟩, καὶ παραλαβὼν αὐτὸν ὁ ἄδικος λόγος διδάσκει. κομισάμενος δὲ αὐτὸν ὁ πατὴρ ἐκπεπονημένον ἐπηρεάζει τοῖς χρήσταις, καὶ ὡς κατωρθωκώς, εὐωχεῖ παραλαβών. γενομένης δὲ περὶ τὴν εὐωχίαν ἀντιλογίας, πληγὰς λαβὼν ὑπὸ τοῦ παιδὸς βοὴν ἵστησι, καὶ προσκα⟨ταλα⟩λούμενος ὑπὸ τοῦ παιδός, ὅτι δίκαιον τοὺς πατέρας ἀπὸ τῶν υἱῶν ἀντιτύπτεσθαι, ὑπεραλγῶν διὰ τὴν πρὸς τὸν υἱὸν σύγκρουσιν ὁ γέρων, κατασκάπτει καὶ ἐμπίπρησι τὸ φροντιστήριον τῶν Σωκρατικῶν. τὸ δὲ δρᾶμα τῶν πάνυ δυνατῶς πεποιημένων.
 
-[Note: **16** διάγων V, Ald.: corr. Brunck || πρὸς Ald.: κατὰ V **17** ἐξάγοντος Ald. **18** νικᾷ add. O. Ulrich || περιλαβὼν Ald. **19** ἐκδιδάσκει Ald. **20** κατορθωκώς V : κατωρθωκότα Ald. **24** σύγκρισιν Ald.]
+[Note: **16** διάγων V, Ald.: corr. Brunck || πρὸς Ald.: κατὰ V **17** ἐξάγοντος Ald. **18** νικᾷ add. O. Ulrich || περιλαβὼν Ald. **19** ἐκδιδάσκει Ald. **20** κατορθωκώς V: κατωρθωκότα Ald. **24** σύγκρισιν Ald.]
 
 # Hypothesis IV
 
@@ -15,9 +15,9 @@
 
 αἱ πρῶται Νεφέλαι ἐν ἄστει ἐδιδάχθησαν ἐπὶ ἄρχοντος Ἰσάρχου, ὅτε Κρατῖνος μὲν ἐνίκα Πυτίνῃ, Ἀμειψίας δὲ Κόννῳ. διόπερ Ἀριστοφάνης
 
-[Note: **1** Ἰσάρχου] Briel (*De Philon. et Call.* p. 48) adds ⟨διὰ Φιλωνίδου⟩, cp. *Vesp.* 1018 n. **2** μέν γ᾽ V ; so edd., but what is written is γ̄. Does this mean ‘for the third time’? cp. Flickinger, *Class. Phil.* v. pp. 1 sqq.]
+[Note: **1** Ἰσάρχου] Briel (*De Philon. et Call.* p. 48) adds ⟨διὰ Φιλωνίδου⟩, cp. *Vesp.* 1018 n. **2** μέν γ᾽ V; so edd., but what is written is γ̄. Does this mean ‘for the third time’? cp. Flickinger, *Class. Phil.* v. pp. 1 sqq.]
 
-[Note: **1. Ἰσάρχου**: viz. in the month of March, 423 B.C. Lines 1 and 2 are certainly a quotation from the Διδασκαλίαι of Aristotle, cp. *Ach.* p. 4. The rest of the Hypothesis has been held to be of a late date. According to Gröbl (*Die ält. Hypoth. zu Ar.*), lines 3-5 are by the author of VII., who may have been Eratosthenes ; but it seems to me more probable that the whole is by Callimachus, cp. 549 n. and Introd. p. lii.]
+[Note: **1. Ἰσάρχου**: viz. in the month of March, 423 B.C. Lines 1 and 2 are certainly a quotation from the Διδασκαλίαι of Aristotle, cp. *Ach.* p. 4. The rest of the Hypothesis has been held to be of a late date. According to Gröbl (*Die ält. Hypoth. zu Ar.*), lines 3-5 are by the author of VII., who may have been Eratosthenes; but it seems to me more probable that the whole is by Callimachus, cp. 549 n. and Introd. p. lii.]
 --- flags
 1 γελωτοποιεῖ [greek] (Greek model: ᾿γελωτοποιεῖ-.) → γελωτοποιεῖ·
 2 φροντιστηρίου [greek] → ok
@@ -91,7 +91,7 @@ rev: commentary notes: the line number set in bold with the lemma ('**4. φέρ�
 
 [Note: **5. καὶ ἐν τοῖς ἔπειτα**: literally ‘since he met with even a greater rebuff at the moment, in later times he did not, as before, attempt to produce the play’; a very classical use of οὐκέτι, cp. VII. line 2, *Vesp.* 454 n.]
 
-[Note: **αἱ δὲ δεύτεραι** κτλ.: this statement has been held to be suspicious, as it has not the appearance of a quotation from a διδασκαλία, the name of the feast being omitted, and also the competitors. But it may be genuine, as it does not state that the second edition was ever actually produced, but merely gives its date. It is impossible to prove that Aristophanes did not try to obtain a chorus in 422 B.C. If he did, it must have been at the Greater Dionysia, since the *Proagon* and *Vespae* were produced at the Lenaea of that year. Enger thinks the production of 422 B.C. was in the theatre in the Piraeus. It is impossible either to prove or refute this hypothesis. If the second edition was written for 422 B.C., the Eupolidean part of the Parabasis, or some lines in it, must have been inserted in the third edition. διασκευή has the article, as referring to ‘the rewriting’ implied in ἀναδιδάξαι, since a second production always involved a διασκευή, even of a very slight kind, as was probably the case with the second edition ; see Introd. p. liii.]
+[Note: **αἱ δὲ δεύτεραι** κτλ.: this statement has been held to be suspicious, as it has not the appearance of a quotation from a διδασκαλία, the name of the feast being omitted, and also the competitors. But it may be genuine, as it does not state that the second edition was ever actually produced, but merely gives its date. It is impossible to prove that Aristophanes did not try to obtain a chorus in 422 B.C. If he did, it must have been at the Greater Dionysia, since the *Proagon* and *Vespae* were produced at the Lenaea of that year. Enger thinks the production of 422 B.C. was in the theatre in the Piraeus. It is impossible either to prove or refute this hypothesis. If the second edition was written for 422 B.C., the Eupolidean part of the Parabasis, or some lines in it, must have been inserted in the third edition. διασκευή has the article, as referring to ‘the rewriting’ implied in ἀναδιδάξαι, since a second production always involved a διασκευή, even of a very slight kind, as was probably the case with the second edition; see Introd. p. liii.]
 
 # Hypothesis VI
 
@@ -99,7 +99,7 @@ rev: commentary notes: the line number set in bold with the lemma ('**4. φέρ�
 
 εἰ μέν τις ἀνὴρ τῶν ἀρχαίων κωμῳδοδιδάσκαλος ἡμᾶς | ἠνάγκαζεν λέξοντας ἔπη πρὸς τὸ θέατρον παραβῆναι.
 
-[Note: **2** εἰς V : πρὸς Ald. **3** ἑώρα V : ἀφεώρα Ald. || καὶ τοὺς V **4** καὶ τὰ πρὸς V **5** ἀποδόντες] ἄδοντες V **10** κατὰ V]
+[Note: **2** εἰς V: πρὸς Ald. **3** ἑώρα V: ἀφεώρα Ald. || καὶ τοὺς V **4** καὶ τὰ πρὸς V **5** ἀποδόντες] ἄδοντες V **10** κατὰ V]
 --- flags
 1 ἀπορριφθεὶς [greek] → ok
 2 φήθη [greek] → ᾠήθη
@@ -273,7 +273,7 @@ rev: 'the re-writing' (divided at the line end as re-|writing) written 'the rewr
 
 τοῦτο ταὐτόν ἐστι τῷ προτέρῳ. διεσκεύασται δὲ ἐπὶ μέρους ὡς ἂν δὴ ἀναδιδάξαι μὲν αὐτὸ τοῦ ποιητοῦ προθυμηθέντος, οὐκέτι δὲ τοῦτο δι᾽ ἥν ποτε αἰτίαν ποιήσαντος. καθόλου μὲν οὖν σχεδὸν παρὰ πᾶν μέρος
 
-[Note: **1** τοῦτο δὲ ταὐτό Ald. **2** αὐτῷ V **3** καθόλου to end rejected by Beer, *Zahl d. Schausp.* p. 121 : καθόλου to διόρθωσις rejected by Brentano, *Untersuch. über d. gr. Dramen*, p. 47 || Gröbl inserts ἔλεξα or εἴρηται after ποιήσαντος, thinking that the reference is to Hypothesis V. fin. ; but ἥντινα would be required. Possibly we should read ἥντινα δήποτε. If the words are right, they imply that the writer was unaware of the statement in Hypothesis V., or disregarded it, cp. Denis, *La Comédie grecque*, ii. p. 47 n. 3]
+[Note: **1** τοῦτο δὲ ταὐτό Ald. **2** αὐτῷ V **3** καθόλου to end rejected by Beer, *Zahl d. Schausp.* p. 121: καθόλου to διόρθωσις rejected by Brentano, *Untersuch. über d. gr. Dramen*, p. 47 || Gröbl inserts ἔλεξα or εἴρηται after ποιήσαντος, thinking that the reference is to Hypothesis V. fin. ; but ἥντινα would be required. Possibly we should read ἥντινα δήποτε. If the words are right, they imply that the writer was unaware of the statement in Hypothesis V., or disregarded it, cp. Denis, *La Comédie grecque*, ii. p. 47 n. 3]
 
 [Note: The style of this Hypothesis indicates that its writer belonged to the best age of scholiasts. Probably he was Eratosthenes, who may have discussed the question of the two editions in his work Περὶ τῆς ἀρχαίας κωμῳδίας, cp. 553 n., Bücheler, *Neues Jahrb.* lxxxiii. p. 685.]
 
@@ -285,7 +285,7 @@ rev: 'the re-writing' (divided at the line end as re-|writing) written 'the rewr
 
 [Note: **3. καθόλου μὲν οὖν** κτλ.: v. Leeuwen (ed. *Nubes*, Introd.) rejects the Hypothesis from καθόλου ad fin. as the work of a late writer who wished to correct the statements in 1-3. He translates μὲν οὖν as ‘nay rather.’ But this use of μὲν οὖν is probably peculiar to the classical writers, and, so far as prose is concerned, to a conversational style (Kühner-Gerth, *Gram.* § 507. 2 c). It is here “explicative” (*saepe usurpatur ubi notio modo pronunciata amplius explicatur*, Bonitz, *Ind. Aristot.* p. 540 b 42). In this paragraph the writer wishes to explain the meaning of διεσκεύασται ἐπὶ μέρους, viz. ‘in a “partial rewriting” I include casual amendments (διορθώσεις) which may be observed in every part of the play, as well as total remodelling, which is confined to certain scenes.’]
 
-[Note: **παρὰ πᾶν μέρος** is not inconsistent with ἐπὶ μέρους, since a rewriting may extend to every part and still not be complete ; furthermore, a διόρθωσις (‘revision’) differs from ⟨ὁλοσχερὴς⟩ διασκευή (‘remodelling’). For such διασκευαί cp. Athen. 110 B, 358 B, Galen xv. 424 Kühn ‘the second edition of an earlier work is said to have been remodelled (ἐπιδιεσκευάσθαι) when, the subject being the same (cp. 1 ταὐτόν ἐστι τῷ προτέρῳ), and most of the speakers unaltered, certain portions of the earlier work have been removed, others altered. If, for the sake of clearness, you wish to have an example of this, you have the second *Autolycus*, which is a revision of the first.’ From this passage it would appear that what Galen calls a διασκευή, the author of our Hypothesis calls a διόρθωσις. But the line between the two is not sharply marked, since ‘a revision’ may be carried so far as to be equivalent to ‘a complete remodelling.’]
+[Note: **παρὰ πᾶν μέρος** is not inconsistent with ἐπὶ μέρους, since a rewriting may extend to every part and still not be complete; furthermore, a διόρθωσις (‘revision’) differs from ⟨ὁλοσχερὴς⟩ διασκευή (‘remodelling’). For such διασκευαί cp. Athen. 110 B, 358 B, Galen xv. 424 Kühn ‘the second edition of an earlier work is said to have been remodelled (ἐπιδιεσκευάσθαι) when, the subject being the same (cp. 1 ταὐτόν ἐστι τῷ προτέρῳ), and most of the speakers unaltered, certain portions of the earlier work have been removed, others altered. If, for the sake of clearness, you wish to have an example of this, you have the second *Autolycus*, which is a revision of the first.’ From this passage it would appear that what Galen calls a διασκευή, the author of our Hypothesis calls a διόρθωσις. But the line between the two is not sharply marked, since ‘a revision’ may be carried so far as to be equivalent to ‘a complete remodelling.’]
 --- flags
 1 ᾽΄ [conf] → deleted (noise)
 2 κακοδιδασκαλοῦντος [greek] → ok
@@ -342,11 +342,11 @@ rev: commentary notes: the line number set in bold with the lemma ('**4. φέρ�
 === p-0106
 + γεγενημένη διόρθωσις. τὰ μὲν γὰρ περιῄρηται, τὰ δὲ παραπέπλεκται, καὶ ἐν τῇ τάξει καὶ ἐν τῇ τῶν προσώπων διαλλαγῇ μετεσχημάτισται· ἃ δὲ ὁλοσχεροῦς τῆς διασκευῆς [τοιαῦτα ὄντα] τετύχηκεν· αὐτίκα μάλα ἡ παράβασις τοῦ χοροῦ ἤμειπται, καὶ ὅπου ὁ δίκαιος λόγος πρὸς τὸν ἄδικον λαλεῖ, καὶ ⟨τὸ⟩ τελευταῖον ὅπου καίεται ἡ διατριβὴ Σωκράτους.
 
-[Note: **4** γινώσκεται γεγενημένη Ritter : γεγένηται ἡ δ. Blaydes ; but the participle is equivalent to a finite verb, in accordance with a late idiom (cp. *Ran.* Hypoth. I. Διόνυσός ἐστι . . εἰς Ἅιδου κατιών). Bücheler also adds the article with διόρθωσις, but the sense is ‘an amendment.’ The article is required with διασκευῆς since this word refers to διεσκεύασται in 1 (cp. Gröbl, *Die ält. Hypoth. zu Aristoph.* p. 37) || πέπλεκται Ald. **6** ἃ δὲ ὁλοσχερῆς [-ῆ Ald.] τῆς διασκευῆς τοιαῦτα ὄντα τετύχηκεν. τὰ δὲ ὁλοσχερῶς τῆς διασκευῆς τετυχηκότα τοιαῦτα Bücheler : ἃ δὲ ὁλοσχερῶς διεσκεύασται, τοιαῦτα ὄντα τετύχηκεν Fritzsche : ἃ δὲ ὁλοσχεροῦς τῆς διασκευῆς τετύχηκε, τοιαῦτα ὄντα τυγχάνει Köchly : τοιαῦτα ὄντα are deleted by Bergk ; they seem to be a gloss on αὐτίκα || αὐτίκα μάλα V : αὐτίκα Ald. : αὐτίκα μὲν Bergk : αὐτίκα ἡ μὲν Teuffel **8** τελευταῖον V : τὸ τ. Fritzsche || καίεται Ald. : καὶ ἔτι V]
+[Note: **4** γινώσκεται γεγενημένη Ritter: γεγένηται ἡ δ. Blaydes; but the participle is equivalent to a finite verb, in accordance with a late idiom (cp. *Ran.* Hypoth. I. Διόνυσός ἐστι . . εἰς Ἅιδου κατιών). Bücheler also adds the article with διόρθωσις, but the sense is ‘an amendment.’ The article is required with διασκευῆς since this word refers to διεσκεύασται in 1 (cp. Gröbl, *Die ält. Hypoth. zu Aristoph.* p. 37) || πέπλεκται Ald. **6** ἃ δὲ ὁλοσχερῆς [-ῆ Ald.] τῆς διασκευῆς τοιαῦτα ὄντα τετύχηκεν. τὰ δὲ ὁλοσχερῶς τῆς διασκευῆς τετυχηκότα τοιαῦτα Bücheler: ἃ δὲ ὁλοσχερῶς διεσκεύασται, τοιαῦτα ὄντα τετύχηκεν Fritzsche: ἃ δὲ ὁλοσχεροῦς τῆς διασκευῆς τετύχηκε, τοιαῦτα ὄντα τυγχάνει Köchly: τοιαῦτα ὄντα are deleted by Bergk; they seem to be a gloss on αὐτίκα || αὐτίκα μάλα V: αὐτίκα Ald. : αὐτίκα μὲν Bergk: αὐτίκα ἡ μὲν Teuffel **8** τελευταῖον V: τὸ τ. Fritzsche || καίεται Ald. : καὶ ἔτι V]
 
 [Note: **5. τάξει, διαλλαγῇ**: Teuffel (*Philol.* vii. p. 343, *Rh. Mus.* x. p. 228) instances 112 sqq., 882-8, 1148 sq., where see comm. A possible instance of διαλλαγή is 412 sqq., where see comm.]
 
-[Note: **6. αὐτίκα**: this word (= ‘for example’) implies that the ‘remodelling’ was not confined to the parts mentioned. This may have been so, but the commentators have not, in my opinion, been very successful in detecting the novel portions ; see notes on 110-20, 218, 291-7, 364, 382, 412-7, 441-3, 476 sq., 490, 492-509, 500, 694-9, 706-30, 740-5, 804-13. Denis (*Com. gr.* ii. p. 59) has some judicious remarks on this subject.]
+[Note: **6. αὐτίκα**: this word (= ‘for example’) implies that the ‘remodelling’ was not confined to the parts mentioned. This may have been so, but the commentators have not, in my opinion, been very successful in detecting the novel portions; see notes on 110-20, 218, 291-7, 364, 382, 412-7, 441-3, 476 sq., 490, 492-509, 500, 694-9, 706-30, 740-5, 804-13. Denis (*Com. gr.* ii. p. 59) has some judicious remarks on this subject.]
 
 [Note: **8. λαλεῖ**: v. Leeuwen thinks this a late use of the word for λέγει, but it may refer only to the Proagon, in which the dispute is mere λαλιά. The rest of the scene of the Λόγοι may, as Heidhüs suggests, have been in the first edition. However, the later Sophistic use of λαλιά may suffice to justify the word here, cp. 931 n. ; it is common enough in NT. Greek, for λέγειν.]
 
@@ -400,7 +400,7 @@ rev: commentary notes: the line number set in bold with the lemma ('**4. φέρ�
 
 The parts may be distributed as follows :—
 
-Protagonist, Strepsiades ; deuteragonist, Socrates, the Unjust Reason, Pasias ; tritagonist, Phidippides, first disciple of Socrates, Amynias ; tetragonist, the Just Reason, second disciple of Socrates.
+Protagonist, Strepsiades; deuteragonist, Socrates, the Unjust Reason, Pasias; tritagonist, Phidippides, first disciple of Socrates, Amynias; tetragonist, the Just Reason, second disciple of Socrates.
 
 For the employment of a fourth actor see Kelley Rees, *The so-called Rule of Three Actors in the Classical Greek Drama*, Chicago, 1908.
 

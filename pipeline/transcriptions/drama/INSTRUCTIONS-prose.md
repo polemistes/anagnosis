@@ -23,6 +23,7 @@ For each page `p-0250`, in `pipeline/build/drama-prose/<play>/`:
 * `p-0250-col-l.png`, `p-0250-col-r.png`: the columns (or the whole block) enlarged, for a
   structure question or a flag whose line crop is not enough.
 * `pages/leaf_0250.png`: the whole page.
+* For a translation batch (`trans-NN.md`) the crops are named `trans-p-0251-flags.png` and so on.
 
 The batch file (`notes-NN.md`, `intro-NN.md` or `trans-NN.md`, eight pages each) has a block
 per page:

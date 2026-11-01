@@ -3,25 +3,25 @@
 219	(In an awestruck whisper) Himself.
 
 @ Strepsiades
-219a	Who’s ‘himself’ ?
+219a	Who’s ‘himself’?
 
 @ Disciple
 219b	Socrates.
 
 @ Strepsiades
-219c	(Shouting) O Socrates ! (SOCRATES takes no notice, and STREPSIADES turns to the disciple) Sirrah ! Come here—lift up your voice and hail him.
+219c	(Shouting) O Socrates! (SOCRATES takes no notice, and STREPSIADES turns to the disciple) Sirrah! Come here—lift up your voice and hail him.
 
 @ Disciple
 221	(In a nervous tone, while he re-enters the house) Shout yourself, for I’ve no leisure.
 
 @ Strepsiades
-222	(Raising his voice) O Socrates, O Socrates, my bawcock !
+222	(Raising his voice) O Socrates, O Socrates, my bawcock!
 
 @ Socrates
-223	(In a far-away, solemn tone) Why callest me, O creature of a day ?
+223	(In a far-away, solemn tone) Why callest me, O creature of a day?
 
 @ Strepsiades
-224	(In a voice of impertinent curiosity) Imprimis, tell me, I implore you, what make you up there ?
+224	(In a voice of impertinent curiosity) Imprimis, tell me, I implore you, what make you up there?
 
 @ Socrates
 225	(Tragically) I tread the air, and look down on the Sun.
@@ -42,7 +42,7 @@ Speaker names in full. Speech numbers from the checked Greek text (facing page p
 
 === p-0159
 @ Strepsiades
-226	Must it be from a perch, then, and not from the earth, that you ‘look down on’ the Gods, if such must be your trade ?
+226	Must it be from a perch, then, and not from the earth, that you ‘look down on’ the Gods, if such must be your trade?
 
 @ Socrates
 227a	(In a majestic, professorial manner) Aye, for otherwise I could not probe ‘by the card’ the heavenly matter of theology. I must suspend my conception aloft, and mingle my thought inchmeal with its kindred air. I should never have solved the
@@ -55,10 +55,10 @@ Speaker names in full. Speech numbers as the checked Greek text (facing page p-0
 + riddle, if I gazed upon the sky from the nether earth: for, soothly, perforce the earth draws the moist element in thought. (Conversationally) Such too is the law with water-cresses.
 
 @ Strepsiades
-235	(With a puzzled expression) What ! does ‘thought’ ‘draw’ ‘the moist element’ into ‘the water-cresses’? (Ecstatically) Vouchsafe to descend, O Socrates, my chuck, and teach me the things I’ve come to learn. (The rope suspending SOCRATES is slowly lowered.)
+235	(With a puzzled expression) What! does ‘thought’ ‘draw’ ‘the moist element’ into ‘the water-cresses’? (Ecstatically) Vouchsafe to descend, O Socrates, my chuck, and teach me the things I’ve come to learn. (The rope suspending SOCRATES is slowly lowered.)
 
 @ Socrates
-239	What brings you here ?
+239	What brings you here?
 
 @ Strepsiades
 239a	A longing to acquire the gift o’ the gab. For,
@@ -78,16 +78,16 @@ rev: "What! does" → "What ! does" (the print has the same thin space before ! 
 + thanks to usury and usurers most curst, I’m spoiled and undone, and my property is distrained.
 
 @ Socrates
-242	And how ‘unsight unseen’ did you fall into this state of debt ?
+242	And how ‘unsight unseen’ did you fall into this state of debt?
 
 @ Strepsiades
 243	(In a mysterious whisper) I’m ruined by a devouring horse-cancer. But teach me the latter of your Reasons—I mean that which turns a deaf ear to paying: and whatever fee you ask I vow to the Gods shall be forthcoming.
 
 @ Socrates
-247	(With a gesture of disgust) ‘Gods,’ in good hour ! The first thing I’d have you learn is that ‘Gods’ are not current coin with us.
+247	(With a gesture of disgust) ‘Gods,’ in good hour! The first thing I’d have you learn is that ‘Gods’ are not current coin with us.
 
 @ Strepsiades
-248a	How then do you swear ? Are iron shekels your currency, as at Byzantium ?
+248a	How then do you swear? Are iron shekels your currency, as at Byzantium?
 --- flags
 1 Sock. [conf] → Socr.
 2 unsight [rare] → ok
@@ -100,7 +100,7 @@ Speaker names in full. Speech numbers as the checked Greek text (facing page p-0
 
 === p-0165
 @ Socrates
-250	Do you wish to know soothly the veritable essence of religion ?
+250	Do you wish to know soothly the veritable essence of religion?
 
 @ Strepsiades
 251a	Aye, by Zeus, if that may be.
@@ -115,13 +115,13 @@ Speaker names in full. Speech numbers as the checked Greek text (facing page p-0
 254	(Pointing to a dilapidated couch which a stage ‘super’ has placed in the Orchestra) Then seat yourself upon the mystic pallet-bed.
 
 @ Strepsiades
-255	(Sitting down) There ! I’m seated.
+255	(Sitting down) There! I’m seated.
 
 @ Socrates
 255a	(Attempting to put a chaplet on his head) Then, take this chaplet.
 
 @ Strepsiades
-256a	(Shrinking back) But what do I want with the chaplet ? (Throwing himself on his knees) O Socrates, ’ware lest you sacrifice me like Athamas !
+256a	(Shrinking back) But what do I want with the chaplet? (Throwing himself on his knees) O Socrates, ’ware lest you sacrifice me like Athamas!
 
 @ Socrates
 258	No fear of that: all these rites are observed at initiations.
@@ -139,7 +139,7 @@ Speaker names in full. Speech numbers as the checked Greek text (facing page p-0
 
 === p-0167
 @ Strepsiades
-259a	But what’s the gain ?
+259a	But what’s the gain?
 
 @ Socrates
 260	(Expansively) You’ll be born anew to be a cunning Jack, a tinkling cymbal, the fine flower of speakers. (He dances round STREPSIADES, rubbing together two pumice stones over his head, while STREPSIADES shrinks from the shower of dust) Don’t stir.

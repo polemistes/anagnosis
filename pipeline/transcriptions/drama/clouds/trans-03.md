@@ -31,7 +31,7 @@ Speaker names written in full (Strepsiades, Disciple). Also corrected unflagged:
 143	(Dropping his grand manner, and pouring out confidences in a monotone) Then I’ll speak—but you must think these things are mysteries. A while ago Socrates asked Chaerephon how many of its own feet a flea had leaped: for having bitten Chaerephon’s eyebrow it lighted on Socrates’ head.
 
 @ Strepsiades
-148	And how did he measure the lists ?
+148	And how did he measure the lists?
 
 @ Disciple
 148a	With infinite dexterity. Having melted some wax, he seized the flea and dipped its feet in it: when it was cold, lo! round its feet was moulded a perfect pair of buskins, unlacing which Socrates was in the act of measuring the traversed space——
@@ -44,10 +44,10 @@ Speaker names in full. The speech ends "space——" (broken off by Strepsiades)
 
 === p-0145
 @ Strepsiades
-153	(Interrupting) Lord Zeus, what subtlety !
+153	(Interrupting) Lord Zeus, what subtlety!
 
 @ Disciple
-154	(Indifferently) What would you say if you heard another of Socrates’ profundities ?
+154	(Indifferently) What would you say if you heard another of Socrates’ profundities?
 
 @ Strepsiades
 155a	What is it? I charge you to tell me.
@@ -56,7 +56,7 @@ Speaker names in full. The speech ends "space——" (broken off by Strepsiades)
 156	The fiery Sphettian, Chaerephon, asked Socrates which way his judgment lay—whether the hum of a gnat proceeded by way of its mouth, or of its vent.
 
 @ Strepsiades
-159	And what said Socrates about the gnat ?
+159	And what said Socrates about the gnat?
 
 @ Disciple
 160	(With a professorial air) He answered that the inward of the gnat was a strait tube, and that, through this narrow passage, the contained air makes perforce for the vent: and that the fundament, being attached, like a mouthpiece, to this strait tube, rings shrilly from the stress of the air.
@@ -74,7 +74,7 @@ Speaker names in full. "bottom-less" is printed with its hyphen mid-line.
 
 === p-0147
 @ Strepsiades
-170a	How so ? Possess me.
+170a	How so? Possess me.
 
 @ Disciple
 171	While he was scanning the paths and orbit of the moon, with head thrown back and mouth agape, there dropped from the ceiling, in the dark, a lizard’s sir-reverence.
@@ -86,7 +86,7 @@ Speaker names in full. "bottom-less" is printed with its hyphen mid-line.
 175	Then too, last evening, we found we had no supper.
 
 @ Strepsiades
-176	(In a mock-tragic manner) What sleight of hand did he devise to achieve the barley-meal ?
+176	(In a mock-tragic manner) What sleight of hand did he devise to achieve the barley-meal?
 
 @ Disciple
 177	(With an air of mystery) On the board he lightly sprinkled ashes: then, taking a skewer, he bent it, and used it as a pair of compasses, and (waving his hands after the manner of a magician)—handy-dandy—he filched—the mantle—from the wrestling-school.
@@ -98,13 +98,13 @@ Speaker names in full; text read through, no other change.
 
 === p-0149
 @ Strepsiades
-180	(Throwing up his hands ecstatically) Why revere old Thales now ? (Raising his voice) Quick, quick, open the Reflectory, and produce your Socrates instanter. For the scholar’s fever is on me. Come, dup the door. (The Eccyclema is revolved, revealing the interior of the Reflectory. The narrow platform is crowded with pale and emaciated figures, in extraordinary attitudes.) God-a-mercy ! Of what clime are these—beasts ?
+180	(Throwing up his hands ecstatically) Why revere old Thales now? (Raising his voice) Quick, quick, open the Reflectory, and produce your Socrates instanter. For the scholar’s fever is on me. Come, dup the door. (The Eccyclema is revolved, revealing the interior of the Reflectory. The narrow platform is crowded with pale and emaciated figures, in extraordinary attitudes.) God-a-mercy! Of what clime are these—beasts?
 
 @ Disciple
-185	Why do you stare ? What semblance do they carry ?
+185	Why do you stare? What semblance do they carry?
 
 @ Strepsiades
-186	Of the captives from Pylus—the whoreson Laconians. (Pointing to some strange shapes) But why in the world is their gaze fixed on the earth ?
+186	Of the captives from Pylus—the whoreson Laconians. (Pointing to some strange shapes) But why in the world is their gaze fixed on the earth?
 
 @ Disciple
 188	(Striking an attitude) Their quest is for things ‘hid within the centre.’
@@ -127,13 +127,13 @@ Speaker names in full; text read through, no other change.
 Speaker names in full ("Strreps" was STREPS.). Also corrected unflagged: "fever 15 on me" → "fever is on me"; "these— beasts" → "these—beasts" (dash at the line end, one word on). The last speech runs on to p-0151.
 
 === p-0151
-+ prostrate figures) Don’t fash yourselves about such as that: for I know where they grow fine and large. (Pointing to other figures) But what are these doing, who hang their heads so low ?
++ prostrate figures) Don’t fash yourselves about such as that: for I know where they grow fine and large. (Pointing to other figures) But what are these doing, who hang their heads so low?
 
 @ Disciple
 192	They’re rifling the bowels of Tartar-Limbo.
 
 @ Strepsiades
-193	And why is their stern staring at the skies ?
+193	And why is their stern staring at the skies?
 
 @ Disciple
 194	In lonely state ’tis practising—astronomy. (To the disciples) But in with you, that ‘the master’ may not find you here.
@@ -156,7 +156,7 @@ Speaker names in full. Also corrected unflagged: "(Zo the disciples)" → "(To t
 + depart through a door at the back of the Eccyclema. Their disappearance allows the walls of the Reflectory to be seen. On these are hanging astronomical and geometrical instruments, as well as a large chart of the world.)
 
 @ Strepsiades
-200	(Pointing to some instruments) In the name of all the Gods, what have you there ?
+200	(Pointing to some instruments) In the name of all the Gods, what have you there?
 
 @ Disciple
 201	(Indifferently) That’s astronomy.
@@ -174,7 +174,7 @@ Speaker names in full. Also corrected unflagged: "(Zo the disciples)" → "(To t
 203	To make a survey of the earth.
 
 @ Strepsiades
-203a	You mean the allotment land ?
+203a	You mean the allotment land?
 
 @ Disciple
 204	No, but the whole earth.
@@ -183,7 +183,7 @@ Speaker names in full. Also corrected unflagged: "(Zo the disciples)" → "(To t
 204a	A charming idea that—both democratic and serviceable.
 
 @ Disciple
-206	(Pointing to the map) And this is a chart of the world—do you observe ? Here’s Athens.
+206	(Pointing to the map) And this is a chart of the world—do you observe? Here’s Athens.
 
 @ Strepsiades
 207a	(Putting his eyes closely to the map) Nonsense! you’re hoaxing me: (aggravating his language) for I descry no justicers in session.
@@ -200,13 +200,13 @@ Speaker names in full. Also corrected unflagged: "observe 7" → "observe ?"; "w
 
 === p-0155
 @ Strepsiades
-210	(Running his finger over the map) Then where are my fellow-townsmen of Cicynna ?
+210	(Running his finger over the map) Then where are my fellow-townsmen of Cicynna?
 
 @ Disciple
 211	(Pointing to a vacant spot on the map) There they are: and here, as you see, is Euboea, extending its long line of coast.
 
 @ Strepsiades
-213	(Winking) I ken it well: ’twas well extended by us and Pericles. But where’s Lacedaemon ?
+213	(Winking) I ken it well: ’twas well extended by us and Pericles. But where’s Lacedaemon?
 
 @ Disciple
 214a	Where is it? (Placing his finger on the map) Why here, on this spot.
@@ -218,7 +218,7 @@ Speaker names in full. Also corrected unflagged: "observe 7" → "observe ?"; "w
 217	(With a superior smile) Marry, that’s beyond the wit of man.
 
 @ Strepsiades
-217a	(Threateningly shaking his stick at him) Faith, if you don’t, you’ll howl for it. (The Eccyclema is revolved, removing the Reflectory from sight. Meanwhile the figure of SOCRATES becomes visible outside, suspended in a kind of swing.) Hallo! who’s this fellow on the perch ?
+217a	(Threateningly shaking his stick at him) Faith, if you don’t, you’ll howl for it. (The Eccyclema is revolved, removing the Reflectory from sight. Meanwhile the figure of SOCRATES becomes visible outside, suspended in a kind of swing.) Hallo! who’s this fellow on the perch?
 --- flags
 1 Povnting [latin] (Greek model: (Ροϊνμίηρ,) → Pointing
 2 1 [digit] → I

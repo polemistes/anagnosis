@@ -11,10 +11,10 @@
 The translation crops (p-0205-flags.png, col-l/col-r) are the commentary's (the notes run used the same page names): all flags answered against the whole page (leaf 205). The block begins with the run-on of Strepsiades’ speech from p-0203 (the draft had the page number 107 in place of `+`). Speaker as printed (FIRST LEADER., the Coryphaeus; Greek ΚΟΡ., Χορός); speech number from the checked Greek text (facing page p-0204): 412. Also corrected unflagged: "ἐμὰ if" → "and if" (the OCR read a pencil stroke before "and"; the stroke is ignored). The speech runs on to p-0207.
 
 === p-0207
-+ standing still or walking ; nor complainest when shivering, nor hungerest for thy midday meal ; but refrainest from wine, and wrestling-schools, and suchlike fopperies, wotting, as should a man of wit, that the crown of bliss is to snatch the prize in the tug and scamble of the courts, and in the council-chamber’s wordy war.
++ standing still or walking; nor complainest when shivering, nor hungerest for thy midday meal; but refrainest from wine, and wrestling-schools, and suchlike fopperies, wotting, as should a man of wit, that the crown of bliss is to snatch the prize in the tug and scamble of the courts, and in the council-chamber’s wordy war.
 
 @ Strepsiades
-420	(Expansively) Well, so far as a heart of oak goes, together with a speculative brain, on an uneasy pallet lying, and a belly sparing and niggard of comfort, that reckons savory a dainty dish, be not anxious : gladly, so far as these serve, I will yield myself to be hammered on your anvil.
+420	(Expansively) Well, so far as a heart of oak goes, together with a speculative brain, on an uneasy pallet lying, and a belly sparing and niggard of comfort, that reckons savory a dainty dish, be not anxious: gladly, so far as these serve, I will yield myself to be hammered on your anvil.
 --- flags
 1 :/hor [conf] → ; nor
 2 complainest [rare] → ok
@@ -28,13 +28,13 @@ Flags answered against the whole page (leaf 207; the crops under this page name 
 
 === p-0209
 @ Socrates
-423	Will you, then, disavow every deity other than those that we believe in—this triad, to wit (waving his hands about) this vastidity of Air, and the Clouds, and the Tongue ?
+423	Will you, then, disavow every deity other than those that we believe in—this triad, to wit (waving his hands about) this vastidity of Air, and the Clouds, and the Tongue?
 
 @ Strepsiades
-425	(Complaisantly) I wouldn’t so much as pass the time of day to the rest—even if I met them face to face : nor sacrifice to them, nor pour libation, nor burn frankincense.
+425	(Complaisantly) I wouldn’t so much as pass the time of day to the rest—even if I met them face to face: nor sacrifice to them, nor pour libation, nor burn frankincense.
 
 @ First Leader
-427	Then be bold to tell what you would have us do for you : for we will not fail you, if you honour and worship us, and seek to become a knowing file.
+427	Then be bold to tell what you would have us do for you: for we will not fail you, if you honour and worship us, and seek to become a knowing file.
 
 @ Strepsiades
 429	My Liege Ladies, this small boon I crave of you—that of all the Greeks I may become the cleverest speaker by one hundred stades.
@@ -51,10 +51,10 @@ Flags answered against the whole page (leaf 209; the crops under this page name 
 
 === p-0211
 @ First Leader
-431	We guarantee you that : from this day forth in the Public Assembly no man shall outvie you in passing motions.
+431	We guarantee you that: from this day forth in the Public Assembly no man shall outvie you in passing motions.
 
 @ Strepsiades
-433	Don’t speak to me of public ‘motions’ : I’ve no desire for such things, but merely to wrest the course of law to my own profit, and to slip from the clutches of my creditors.
+433	Don’t speak to me of public ‘motions’: I’ve no desire for such things, but merely to wrest the course of law to my own profit, and to slip from the clutches of my creditors.
 
 @ First Leader
 435	You shall achieve the object of your dream, for you do not ask for much. Come, be of good heart, and commit yourself to our beadsmen.
@@ -103,13 +103,13 @@ Flags answered against the whole page (leaf 215; the crops under this page name 
 + you shall win of me fame among mortals that will strike the welkin.
 
 @ Strepsiades
-462	What shall be my lot ?
+462	What shall be my lot?
 
 @ Second Leader
 463	In company with me, all the days of your life will be supremely blessed.
 
 @ Strepsiades
-466	(Ecstatically, throwing himself upon his knees) Shall I really see this with these eyes ?
+466	(Ecstatically, throwing himself upon his knees) Shall I really see this with these eyes?
 
 @ Second Leader
 468	Aye, so that a crowd shall ever sit at your gates, wishing to make you partner in their converse, and to hold counsel with you as to appellations and declarations involving many talents,—matters meet for an intelligence like yours.
@@ -121,22 +121,22 @@ Flags answered against the whole page (leaf 217; the crops under this page name 
 
 === p-0219
 @ First Leader
-476	(To SOCRATES) But to your task ; begin the greybeard’s education ; stir the depths of his mind, and essay and taste his judgment.
+476	(To SOCRATES) But to your task; begin the greybeard’s education; stir the depths of his mind, and essay and taste his judgment.
 
 @ Socrates
 478	Come then, reveal to me your temperament, that, knowing it, I may go on to apply novel engines to you.
 
 @ Strepsiades
-481	(Shrinking back) What the good-year ! Do you plot to batter me down with your assaults ?
+481	(Shrinking back) What the good-year! Do you plot to batter me down with your assaults?
 
 @ Socrates
-482	Not a bit : I only wish to put to you a few questions. Is your memory good ?
+482	Not a bit: I only wish to put to you a few questions. Is your memory good?
 
 @ Strepsiades
-483a	Marry, it acts in two ways : if a debt is due to me, my memory is very keen ; but if I owe anything, alas ! poor wretch, ’tis blind and dark oblivion. (SOCRATES laughs, and turns to a fresh point.)
+483a	Marry, it acts in two ways: if a debt is due to me, my memory is very keen; but if I owe anything, alas! poor wretch, ’tis blind and dark oblivion. (SOCRATES laughs, and turns to a fresh point.)
 
 @ Socrates
-486	Have you the native ‘gift o’ the gab’ ?
+486	Have you the native ‘gift o’ the gab’?
 --- flags
 1 FirsT [conf] → First
 2 Erisopium [latin] (Greek model: ἘΡΙΒοριῦμ.) → Episodium

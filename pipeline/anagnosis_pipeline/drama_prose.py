@@ -422,7 +422,8 @@ def write_draft(slug: str, kind: str) -> list[dict]:
     trans_starts = _greek_speech_starts(slug) if kind == "trans" else {}
     for b, page in enumerate(pages):
         stem = f"p-{page['leaf']:04d}"
-        _crops(play, kind, page, out_dir, stem)
+        # the translation's pages are also the commentary's (Starkie): its crops get their own names
+        _crops(play, kind, page, out_dir, f"trans-{stem}" if kind == "trans" else stem)
         if kind == "trans":
             page["md"] = _number_speeches(page["md"], trans_starts.get(page["leaf"] - 1, []), play)
         index.append({"stem": stem, "leaf": page["leaf"], "batch": b // PAGES_PER_BATCH + 1, "flags": len(page["flags"])})
