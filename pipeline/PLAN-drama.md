@@ -349,14 +349,55 @@ manuscripts page, introduction, commentary (Agamemnon, Choephoroi), syntax and r
 
 ## Progress
 
+**Paused by the author on 2026-11-02 (Clouds nearly done, Medea at step 3). Resume here.** Every
+result so far is committed; nothing depends on the session that did it.
+
+*Clouds, to finish (about half an hour):*
+1. Review the four commentary batches whose review the usage limit stopped: one agent each,
+   given `pipeline/transcriptions/drama/REVIEW.md` (the prose part), the batch file and its
+   pages: notes-14 (p-0212 to p-0219), notes-25 (p-0302 to p-0309), notes-33 (p-0366 to
+   p-0373), notes-35 (p-0382 to p-0389). Commit each. The checker's remaining remarks on the
+   Clouds notes batches are explained ones: no breathing on a word ending in Starkie's brackets
+   ([-ων R], ⟨ει⟩), a page beginning with a further lemma of the note before, and "note 1366
+   comes after 1368" (Starkie's transposition, as in the text).
+2. `merge-drama clouds`; read `pipeline/build/clouds-merge.log`. Expected: "line 1366 follows
+   1368" (Starkie's order), apparatus items 569, 1164, 1511 placed on the verse before. A notes
+   problem there (a heading with an impossible line number) is a fault in a batch: fix it there.
+3. `check` (the clouds section must stay clean: 0 lemmas not found, every short definition);
+   `build --only clouds`; `catalog`; commit; tick the Clouds line below.
+The Clouds was done with an extra review agent per batch (REVIEW.md) because the author had
+turned "ultracode" (workflows) on; for the later plays use it if the author asks for the
+Clouds-level checking, otherwise the brief's route (one agent per batch, checker, residual pass).
+
+*Medea, step 3 onwards:* step 2 is done (see Decisions, "Medea step 2"); the OCR of the text,
+introduction and notes leaves is on disk (`pipeline/build/drama-scans/cu31924079583609/`). Step 3
+needs module work for Earle's layout before the draft (tests with each change):
+* `drama_pages.page_layout`, layout "earle": no rule; the verses are the lines above the start of
+  the block in smaller type (his commentary); no apparatus on the text pages (`app_y` None, no
+  apparatus crops in `write_draft`; the first page's notes say "no apparatus on the text pages").
+* `drama_prose._region`, kind notes, layout "earle": the commentary begins where that small-type
+  block begins (take it from `page_layout`), two columns.
+* Earle's notes run on inside paragraphs: a new note begins after a dash with its number and bold
+  lemma ("— 20. **ἡ δύστηνος**: …", "— 21 f. …"). Either the draft splits paragraphs there into
+  `## 20` notes, or INSTRUCTIONS-prose.md gets an Earle section telling the agents to; look at
+  two drafted pages before choosing.
+* A new prose kind `app` for `play.app_leaves` (his "Notes on the text of this edition",
+  pp. 267-294 = leaves 274-301, fetch and OCR not yet run): `KINDS` in drama_prose.py, the
+  `drama-prose` choices in `__main__.py`, headings `## 107` as in the notes; `merge_play` takes
+  the apparatus from the `app-NN.md` batches when `app_leaves` is set (one item per note, the
+  note's text as the item).
+* INSTRUCTIONS-text.md and INSTRUCTIONS-prose.md: an Earle section each (the page, the run-on
+  notes, the critical notes).
+Then the usual steps 3-9; the translation is Coleridge's from Perseus (merge only).
+
+
 - [x] Step 0: set-up (2026-11-01)
 - [x] Step 1: modules, tests, CLI (2026-11-01; tried on Agamemnon leaves 31-36, notes 150-151, introduction 11-12)
 - [x] Agamemnon: 2 ✓ leaves · 3 ✓ draft · 4 ✓ text batches (two passes) · 5 ✓ merge · 6 ✓ notes · 7 ✓ introduction · 8 ✓ translation, sigla, glossary, about · 9 ✓ build and pack
 - [x] Choephoroi: 2 ✓ · 3 ✓ · 4 ✓ (two passes) · 5 ✓ · 6 ✓ · 7 ✓ · 8 ✓ · 9 ✓
 - [x] Eumenides: 2 ✓ · 3 ✓ · 4 ✓ (two passes) · 5 ✓ · 6 skipped (no notes) · 7 ✓ · 8 ✓ · 9 ✓ · 10 ✓ group check (2026-11-01)
 - [x] R1: reader 0.6.0 (bundle built 2026-11-01; upload and products: see For the author)
-- [ ] Clouds: 2 ✓ · 3 ✓ · 4 ✓ (transcribed, reviewed, residuals, facing-page apparatus) · 5 ✓ · 6 (35 of 39 notes batches reviewed; notes-14, -25, -33, -35 transcribed but not reviewed: the usage limit stopped the workflow on 2026-11-02) · 7 ✓ · 8 ✓ · 9 (about, sigla, READMEs, pack done; still: final merge-drama, build --only clouds, check, catalog)
-  Next session: resume the commentary workflow (Workflow with scriptPath …/clouds-commentary-wf_66031c3f-18e.js and resumeFromRunId wf_66031c3f-18e: the finished agents replay from cache, only the four reviews and commits run), then merge-drama clouds, read build/clouds-merge.log, build --only clouds, check, catalog, commit, tick Clouds. Medea: step 2 done, the OCR of text, introduction and notes pages done (build/drama-scans/cu31924079583609); step 3 needs the "earle" layout code (see Decisions).
+- [ ] Clouds: 2 ✓ · 3 ✓ · 4 ✓ (transcribed, reviewed, residuals, facing-page apparatus) · 5 ✓ · 6 (35 of 39 notes batches reviewed; see "Resume here") · 7 ✓ · 8 ✓ · 9 (about, sigla, READMEs, pack done; final merge, build, catalog still to do)
 - [ ] Medea: 2 ✓ (apparatus rule: Earle's appendix) · 3 · 4 · 5 · 6 · 7 · 8 · 9
 - [ ] Frogs: 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9 · 10 group check
 - [ ] R2: reader 0.7.0

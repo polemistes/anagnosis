@@ -1,5 +1,5 @@
 === p-0140
-+ man is more courteous in *Ach.* 395 sqq. That the door is opened by a scholar, and not by a θυρωρός, shows the poverty of Socrates’ dwelling compared with that of Euripides, or of Callias (Plato, *Prot. l.c.*), cp. Aristot. *Oec.* i. 6=1345 a 34. The doors of Greek houses of humble rank were generally left open, and the knocker was not for the purpose of calling an attendant, but of warning the inmates that a visitor was about to enter, ἵνα μὴ τὴν οἰκοδέσποιναν ἐν μέσῳ καταλάβῃ ὁ ἀλλότριος ἢ τὴν παρθένον, ἢ κολαζόμενον οἰκέτην ἢ κεκραγυίας τὰς θεραπαινίδας (Plut. *De curios.* 3).
++ is more courteous in *Ach.* 395 sqq. That the door is opened by a scholar, and not by a θυρωρός, shows the poverty of Socrates’ dwelling compared with that of Euripides, or of Callias (Plato, *Prot. l.c.*), cp. Aristot. *Oec.* i. 6=1345 a 34. The doors of Greek houses of humble rank were generally left open, and the knocker was not for the purpose of calling an attendant, but of warning the inmates that a visitor was about to enter, ἵνα μὴ τὴν οἰκοδέσποιναν ἐν μέσῳ καταλάβῃ ὁ ἀλλότριος ἢ τὴν παρθένον, ἢ κολαζόμενον οἰκέτην ἢ κεκραγυίας τὰς θεραπαινίδας (Plut. *De curios.* 3).
 
 ## 134
 In this comically formal announcement Strepsiades strives to impress the disrespectful student with his dignity; so Justice Shallow in Shak. *Wives* I. i. 3 sqq. Such an elaborate description was usual only in the case of lawsuits, e.g. Dem. xviii. § 54.
@@ -59,6 +59,7 @@ In this comically formal announcement Strepsiades strives to impress the disresp
 41 cism,’ [conf] → Cynicism,’
 42 Maeeutic [rare] → ok
 --- notes
+rev: "man" removed from the head of the page: "serving-|man", divided between p-0139 and p-0140, is written whole at the foot of p-0139 (notes-04)
 False headings 3, 230, 425 (line-start numbers inside 134's note) put back into the text; 134 note's lemmas Φείδωνος and Κικυννόθεν made bold under 134; ἀ-|σκόπως joined across the columns. Starkie prints "Maeeutic".
 Checker: "-ων" and "-ίδης" are endings printed after a hyphen, rightly without breathing.
 
