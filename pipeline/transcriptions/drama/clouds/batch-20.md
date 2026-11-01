@@ -131,6 +131,7 @@
 1096-1097	apparatus: printed "1096 sq." and "1103 sq."; written as 1096-1097 and 1103-1104.
 1103	apparatus: the item breaks off at "thinking" at the foot of this page and runs on at the foot of the facing page (leaf 343, between the rules under the translation): "that the succeeding lines are addressed to different persons", followed there by the item on 1104. Both written here, read from pages/leaf_0343.png.
 1102	res: renumbered to Starkie's count: his apparatus has "1102 Om. V" (only τί δῆτʼ ἐρεῖς; can be meant), "1103 κινούμενοι]" and "1103 sq. Written as one line in V", and his commentary "1102. τί δῆτʼ ἐρεῖς;", "1103. ἡττήμεθα" (p-0342) and "1104. δέξασθε" (leaf 343). Between the margins 1100 (γοῦν) and 1105 (next page) the printed lines run on from 1100: the draft's 1101a, 1102, 1103, 1103a, 1104 (Perseus's numbers) are now 1102, 1103, 1104, 1104a, 1104b. The apparatus numbers are now as printed (1102, 1103, 1103-1104, 1104); the earlier moves of these items to Perseus's numbers are undone.
+1104	app2: the facing block on leaf 343 (crops p-0342-app2-l/-r) checked word for word: end of 1103 ("that the succeeding lines are addressed to different persons") and the item on 1104 (printed number 1104 at the right of the first line) agree with the batch; no change.
 
 === p-0344
 --- text
