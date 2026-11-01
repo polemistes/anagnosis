@@ -355,7 +355,8 @@ manuscripts page, introduction, commentary (Agamemnon, Choephoroi), syntax and r
 - [x] Choephoroi: 2 ✓ · 3 ✓ · 4 ✓ (two passes) · 5 ✓ · 6 ✓ · 7 ✓ · 8 ✓ · 9 ✓
 - [x] Eumenides: 2 ✓ · 3 ✓ · 4 ✓ (two passes) · 5 ✓ · 6 skipped (no notes) · 7 ✓ · 8 ✓ · 9 ✓ · 10 ✓ group check (2026-11-01)
 - [x] R1: reader 0.6.0 (bundle built 2026-11-01; upload and products: see For the author)
-- [ ] Clouds: 2 ✓ · 3 ✓ · 4 · 5 · 6 · 7 (intro and trans) · 8 · 9
+- [ ] Clouds: 2 ✓ · 3 ✓ · 4 ✓ (transcribed, reviewed, residuals, facing-page apparatus) · 5 ✓ · 6 (35 of 39 notes batches reviewed; notes-14, -25, -33, -35 transcribed but not reviewed: the usage limit stopped the workflow on 2026-11-02) · 7 ✓ · 8 ✓ · 9 (about, sigla, READMEs, pack done; still: final merge-drama, build --only clouds, check, catalog)
+  Next session: resume the commentary workflow (Workflow with scriptPath …/clouds-commentary-wf_66031c3f-18e.js and resumeFromRunId wf_66031c3f-18e: the finished agents replay from cache, only the four reviews and commits run), then merge-drama clouds, read build/clouds-merge.log, build --only clouds, check, catalog, commit, tick Clouds. Medea: step 2 done, the OCR of text, introduction and notes pages done (build/drama-scans/cu31924079583609); step 3 needs the "earle" layout code (see Decisions).
 - [ ] Medea: 2 ✓ (apparatus rule: Earle's appendix) · 3 · 4 · 5 · 6 · 7 · 8 · 9
 - [ ] Frogs: 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9 · 10 group check
 - [ ] R2: reader 0.7.0
