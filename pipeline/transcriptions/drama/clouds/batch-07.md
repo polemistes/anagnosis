@@ -5,7 +5,7 @@
 319	ταῦτʼ ἄρʼ ἀκούσασʼ αὐτῶν τὸ φθέγμʼ ἡ ψυχή μου πεπότηται,
 320	καὶ λεπτολογεῖν ἤδη ζητεῖ καὶ περὶ καπνοῦ στενολεσχεῖν,
 321	καὶ γνωμιδίῳ γνώμην νύξασʼ ἑτέρῳ λόγῳ ἀντιλογῆσαι·
-322	ὥστʼ εἴ πως ἔστιν ἰδεῖν αὐτὰς ἤδη φανερῶς ἐπιθυμῶ.
+322	ὥστʼ, εἴ πως ἔστιν, ἰδεῖν αὐτὰς ἤδη φανερῶς ἐπιθυμῶ.
 --- apparatus
 320	Blaydes λεπτολογεῖσθʼ
 320	ζητεῖ] χρήζει v. Herwerden: ζητῶ Su.
@@ -16,6 +16,7 @@
 --- notes
 319	πεπότηται is printed divided (πε- | πότηται,) with its turnover; the καὶ that Perseus puts at the end of 319 begins the printed verse 320 (margin number 320 beside it): moved to 320.
 320	στενο- | λεσχεῖν, 320: the unmatched line is the turnover of 320 (the margin number 320 stands beside it); no separate verse.
+322	res: commas after ὥστʼ and after ἔστιν, as printed
 
 === p-0182
 --- text
@@ -156,7 +157,7 @@
 
 === p-0190
 --- text
-349	ἄγριόν τινα τῶν λασίων τούτων, οἷόνπερ τὸν Ξενοφάντου,
+349	ἄγριόν τινα τῶν λασίων τούτων οἷόνπερ τὸν Ξενοφάντου,
 350	σκώπτουσαι τὴν μανίαν αὐτοῦ Κενταύροις ᾔκασαν αὑτάς.
 @ Στρεψιάδης
 351	τί γάρ, ἢν ἅρπαγα τῶν δημοσίων κατίδωσι Σίμωνα,—τί δρῶσιν;
@@ -168,7 +169,7 @@
 @ Σωκράτης
 355	καὶ νῦν γʼ ὅτι Κλεισθένη εἶδον, ὁρᾷς, διὰ τοῦτʼ ἐγένοντο γυναῖκες.
 @ Στρεψιάδης
-356	χαίρετε τοίνυν ὦ δέσποιναι· καὶ νῦν, εἴπερ τινὶ κἄλλῳ,
+356	χαίρετε τοίνυν, ὦ δέσποιναι· καὶ νῦν, εἴπερ τινὶ κἄλλῳ,
 357	οὐρανομήκη ῥήξατε κἀμοὶ φωνήν, ὦ παμβασίλειαι.
 --- apparatus
 349	ξενοφῶντα V
@@ -190,5 +191,8 @@
 353	ταῦτʼ ἄρα, ταῦτα: comma after ἄρα as printed; turnover ἰδοῦσαι, confirmed.
 354	Not flagged, checked on the image: printed ἔλαφοι—διὰ τοῦτʼ—ἐγέ- | νοντο. with two dashes and a turnover; dashes added, the turnover was already joined.
 355	Turnover γυναῖκες. confirmed (margin 355 beside it).
-349	Unflagged lines left as drafted, though the print differs in punctuation: 349 has no comma after τούτων, 356 has a comma after τοίνυν (also 322 on p-0180: ὥστʼ, εἴ πως ἔστιν, with commas).
+349	Unflagged lines left as drafted, though the print differs in punctuation: 349 has no comma after τούτων, 356 has a comma after τοίνυν (also 322 on p-0180: ὥστʼ, εἴ πως ἔστιν, with commas). (All three corrected in the residual pass, see the res notes.)
 351	rev: margin number checked enlarged: it reads 351 (not 350), beside the turnover of 351; counted from 355 (γυναῖκες.) back over 354, 353, 352 it is our 351, so the numbering is right and nothing is open. Apparatus 349-357 checked item by item: correct; leaf 191 has no apparatus.
+349	res: no comma after τούτων, as printed (comma removed)
+356	res: comma after τοίνυν, as printed
+351	res: margin 351 checked on the whole page: it stands beside τί δρῶσιν;, the turnover of our 351, and 355 stands on our 355; the apparatus's item 351 (τί δʼ ἄρʼ) names words of the same verse. The numbering follows the print; nothing renumbered.

@@ -88,7 +88,7 @@
 @ Σωκράτης
 380	ἥκιστʼ, ἀλλʼ αἰθέριος δῖνος.
 @ Στρεψιάδης
-380a	Δῖνος; τουτί μʼ ἐλελήθειν,
+380a	Δῖνος; τοῦτί μʼ ἐλελήθειν,
 --- apparatus
 374	τοῦτό με R etc., Ald.: τοῦθʼ ὅ με V etc.
 374	τετραμμαίνειν V (cp. 294)
@@ -109,6 +109,8 @@
 377	apparatus: the lemma is printed with a circumflex-like mark over its first alpha ("κᾶτακρημνάμεναι"), apparently a stray mark; written κατακρημνάμεναι. "κἀτά κριμνάμεναι" (coronis and acute) as printed.
 377	rev: apparatus: on the enlarged page the mark over the lemma's first alpha is a clear, well-formed circumflex, the same sort as elsewhere on the page; the lemma is written as printed, κᾶτακρημνάμεναι (sic).
 374	rev: margin 374 confirmed on the enlarged page (not 375); it stands beside τετρεμαίνειν, the turnover of verse 374: the numbering agrees, nothing to renumber.
+380a	res: τοῦτί with circumflex on ου and acute on ί (before the enclitic μʼ), as printed (checked enlarged; Perseus τουτί)
+374	res: margin numbers checked on the whole page: 374 beside τετρεμαίνειν (turnover of 374), 380 beside Δῖνος; τοῦτί μʼ ἐλελήθειν, (380a); counting from 374 over 375, 375a, 376-379, 380 the next number falls on 380 as printed, so 374 is the print's own irregular number at the right verse (a misprint for 375 would put 380 one verse early). Nothing renumbered.
 
 === p-0198
 --- text
