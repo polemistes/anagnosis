@@ -68,7 +68,7 @@
 976	φίλοι τε καὶ νῦν, ὡς ἐπεικάσαι πάθη
 977	πάρεστιν, ὅρκος τʼ ἐμμένει πιστώμασι.
 978	ξυνώμοσαν μὲν θάνατον ἀθλίῳ πατρὶ
-979	καὶ ξυνθανεῖσθαι· καὶ τάδʼ εὐόρκως ἔχει.
+979	καὶ ξυνθανεῖσθαι. καὶ τάδʼ εὐόρκως ἔχει.
 980	ἴδεσθε δʼ αὖτε, τῶνδʼ ἐπήκοοι κακῶν,
 981	τὸ μηχάνημα, δεσμὸν ἀθλίῳ πατρί,
 982	πέδας τε χειροῖν καὶ ποδοῖν ξυνωρίδα.
@@ -105,6 +105,7 @@
 988	ξένων ἀπαιόλημα, with a comma, as printed.
 990	φρενί as printed (Perseus φρένα). The square brackets round 983-990 on the scan are pencil, not print.
 973	Perseus's repeated refrain ⟨μέγα τʼ ἀφῃρέθην ... ἀεί.⟩ (draft line 972) is not printed by Sidgwick: removed (see 972).
+979	res: full stop after ξυνθανεῖσθαι, as printed
 997	the page has 27 verses against the draft's 19 because the eight verses Perseus numbers 997-1004 are printed here (983-990), see 983.
 === p-0081
 --- text
@@ -127,7 +128,7 @@
 1012	φόνου δὲ κηκὶς ξὺν χρόνῳ ξυμβάλλεται,
 1013	πολλὰς βαφὰς φθείρουσα τοῦ ποικίλματος.
 1014	νῦν αὐτὸν αἰνῶ, νῦν ἀποιμώζω παρών,
-1015	πατροκτόνον θʼ ὕφασμα προσφωνῶν τόδε.
+1015	πατροκτόνον θʼ ὕφασμα προσφωνῶν τόδε
 1016	ἀλγῶ μὲν ἔργα καὶ πάθος γένος τε πᾶν,
 1017	ἄζηλα νίκης τῆσδʼ ἔχων μιάσματα.
 @ Χορός
@@ -166,14 +167,15 @@
 1018	the print has ΧΟ. in the margin here (the speaker kept); ἀσινῆ as printed (Perseus ἀσινὴς).
 1019	διὰ παντὸς †ἄτιμος ἀμείψει as printed, dagger before ἄτιμος, no stop (Perseus ἀπήμονʼ ... ἀμείψει.).
 1020	ἐέ, as printed (Perseus ἒ ἔ).
+1015	res: no stop after τόδε, as printed
 1021	τελεῖ· with a raised stop, as printed; ἀλλʼ, is on this verse.
 === p-0082
 --- text
 1024	φρένες δύσαρκτοι· πρὸς δὲ καρδίᾳ φόβος
-1025	ᾄδειν ἕτοιμος ἠδʼ ὑπορχεῖσθαι κότῳ.
-1026	ἕως δʼ ἔτʼ ἔμφρων εἰμί, κηρύσσω φίλοις
+1025	ᾄδειν ἕτοιμος ἠδʼ ὑπορχεῖσθαι κότῳ·
+1026	ἕως δʼ ἔτʼ ἔμφρων εἰμί, κηρύσσω φίλοις,
 1027	κτανεῖν τέ φημι μητέρʼ οὐκ ἄνευ δίκης,
-1028	πατροκτόνον μίασμα καὶ θεῶν στύγος.
+1028	πατροκτόνον μίασμα καὶ θεῶν στύγος,
 1029	καὶ φίλτρα τόλμης τῆσδε πλειστηρίζομαι
 1030	τὸν πυθόμαντιν Λοξίαν, χρήσαντʼ ἐμοὶ
 1031	πράξαντι μὲν ταῦτʼ ἐκτὸς αἰτίας κακῆς
@@ -188,7 +190,7 @@
 1040	καὶ μαρτυρεῖν μὲν ὡς ἐπορσύνθη κακὰ
 1041	τάδʼ ἐν χρόνῳ μοι πάντας Ἀργείους λέγω.
 1042	φεύγω δʼ ἀλήτης τῆσδε γῆς ἀπόξενος,
-1043	ζῶν καὶ τεθνηκὼς τάσδε κληδόνας λιπών.
+1043	ζῶν καὶ τεθνηκὼς τάσδε κληδόνας λιπών—
 @ Χορός
 1044	ἀλλʼ εὖ γʼ ἔπραξας, μηδʼ ἐπιζευχθῇς στόμα
 1045	φήμαις πονηραῖς μηδʼ ἐπιγλωσσῶ κακά,
@@ -210,6 +212,10 @@
 1044	ἐπιζεύχθη MSS. corr. Heath.
 1045	φήμαι πονηραὶ MSS. corr. Aurat.
 --- notes
+1025	res: raised stop after κότῳ, as printed
+1026	res: comma after φίλοις, as printed
+1028	res: comma after στύγος, as printed
+1043	res: dash after λιπών (λιπών—), as printed; the Chorus breaks in (not among the residuals; the page shows it clearly)
 1033	προσίξεται as printed (Perseus ἐφίξεται).
 1040	renumbered to the print: margin 1040 at καὶ μαρτυρεῖν, so it is 1040 and τάδʼ ἐν χρόνῳ 1041 (draft 1041, 1041a); Sidgwick's apparatus has 1040 and 1041 for them (Blomfield's order). λέγω. with a full stop, as printed.
 1042	φεύγω as printed (Weil; Perseus ἐγὼ).
@@ -222,7 +228,7 @@
 --- text
 1050	πυκνοῖς δράκουσιν· οὐκέτʼ ἂν μείναιμʼ ἐγώ.
 @ Χορός
-1051	τίνες σε δόξαι, φίλτατʼ ἀνθρώπων πατρί,
+1051	τίνες σὲ δόξαι, φίλτατʼ ἀνθρώπων πατρί,
 1052	στροβοῦσιν; ἴσχε, μὴ φόβου νικῶ πολύ.
 @ Ὀρέστης
 1053	οὐκ εἰσὶ δόξαι τῶνδε πημάτων ἐμοί·
@@ -245,10 +251,10 @@
 1065	ὅδε τοι μελάθροις τοῖς βασιλείοις
 1066	τρίτος αὖ χειμὼν
 1067	πνεύσας γονίας ἐτελέσθη.
-1068	παιδοβόροι μὲν πρῶτον ὑπῆρξαν
+1068	παιδόβοροι μὲν πρῶτον ὑπῆρξαν
 1069	μόχθοι τάλανές [τε Θυέστου·]
 1070	δεύτερον ἀνδρὸς βασίλεια πάθη·
-1071	λουτροδάικτος δʼ ὤλετʼ Ἀχαιῶν
+1071	λουτροδάϊκτος δʼ ὤλετʼ Ἀχαιῶν
 1072	πολέμαρχος ἀνήρ·
 1073	νῦν δʼ αὖ τρίτος ἦλθέ ποθεν σωτήρ,
 1074	ἢ μόρον εἴπω;
@@ -265,8 +271,11 @@
 1068	παιδόμοροι MSS., corr. Aurat.
 1069	τε Θυέστου MSS. prob. a gloss.
 --- notes
+1051	res: σὲ with the grave, as printed
 1052	checked: στροβοῦσιν; is on this verse and the print has φόβου (the comma-like mark after it is pencil); unchanged.
 1053	checked: δόξαι as Perseus; unchanged.
 1062	ἐγώ. with the acute, as printed (draft ἐγὼ.).
+1068	res: παιδόβοροι, accent on the second syllable, as printed
 1069	the print sets the raised stop inside the bracket: [τε Θυέστου·].
+1071	res: λουτροδάϊκτος with the diaeresis, as printed
 1076	the play ends on this page; nothing follows the apparatus.
