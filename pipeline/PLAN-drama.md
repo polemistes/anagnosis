@@ -340,7 +340,7 @@ purchase, promote. Then go on with the next play.
 - [x] Step 0: set-up (2026-11-01)
 - [x] Step 1: modules, tests, CLI (2026-11-01; tried on Agamemnon leaves 31-36, notes 150-151, introduction 11-12)
 - [x] Agamemnon: 2 ✓ leaves · 3 ✓ draft · 4 ✓ text batches (two passes) · 5 ✓ merge · 6 ✓ notes · 7 ✓ introduction · 8 ✓ translation, sigla, glossary, about · 9 ✓ build and pack
-- [ ] Choephoroi: 2 ✓ · 3 ✓ · 4 · 5 · 6 · 7 · 8 · 9
+- [x] Choephoroi: 2 ✓ · 3 ✓ · 4 ✓ (two passes) · 5 ✓ · 6 ✓ · 7 ✓ · 8 ✓ · 9 ✓
 - [ ] Eumenides: 2 ✓ · 3 ✓ · 4 · 5 · 6 · 7 · 8 · 9 · 10 group check
 - [ ] R1: reader 0.6.0
 - [ ] Clouds: 2 · 3 · 4 · 5 · 6 · 7 (intro and trans) · 8 · 9
@@ -510,6 +510,13 @@ session sees where it stopped.
   verse's own number), the printed numbers here are the new ones, and his notes and apparatus cite
   them: the text follows the print. Translation, sections and treebank are fitted by the words, not
   the numbers, so they are not affected.
+* **2026-11-02, Choephoroi steps 5-9.** The AGDT Choephoroi ends at line 945: the last 687
+  words (946-1076) have the analyser's lemma and form, corrected in the review (116 corrections,
+  most of them there), and no syntax tree. GLAUx could fill the trees automatically, but a text
+  has one syntax label (hand or machine) for all its lines; left without, and said in about.md
+  and texts/README.md. Ten random verses checked by eye against the page (93, 136, 252, 330, 422,
+  786, 844, 864, 972, 1071): all as printed. 1062 verses, 350 apparatus notes, 616 commentary
+  notes; every lemma found and glossed.
 
 ## Sizes, for planning
 

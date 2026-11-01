@@ -224,7 +224,8 @@ domain; the transcription is published under CC BY-SA 4.0.
 * Lemmas, morphology and syntax (`tokens.tsv`, `syntax-nodes.tsv`): the Ancient Greek Dependency
   Treebank 2.1 (hand-made), CC BY-SA 3.0 US, aligned to Sidgwick's words; where he reads otherwise,
   the analyser, listed in `pipeline/build/<play>-review.tsv` and corrected by hand in
-  `pipeline/anagnosis_pipeline/drama_fixes.py`.
+  `pipeline/anagnosis_pipeline/drama_fixes.py`. The treebank's Choephoroi stops at line 945: the
+  last scene's words have the analyser's lemma and form and no syntax.
 * Translation (`eng-smyth.txt`): H. W. Smyth, Perseus `perseus-eng2`/`eng3`, modernized by
   Perseus, CC BY-SA 4.0, its line numbers mapped to Sidgwick's verses by the words of the Greek.
 * Commentary (`commentary-sidgwick.md`) and introduction (`introduction.md`): Sidgwick's, read by

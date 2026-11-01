@@ -43,6 +43,6 @@ include(":philoctetesApp")
 include(":trachiniaeApp")
 
 // The texts sold inside the reader, one on-demand asset pack each (see packs/antigone)
-for (slug in listOf("antigone", "ajax", "electra", "odyssey", "symposium", "gorgias", "agamemnon", "newtestament")) {
+for (slug in listOf("antigone", "ajax", "electra", "odyssey", "symposium", "gorgias", "agamemnon", "choephoroi", "newtestament")) {
     include(":packs:$slug")
 }
