@@ -4,7 +4,7 @@
 313	πληγὴν τινέτω. δράσαντι παθεῖν,
 314	τριγέρων μῦθος τάδε φωνεῖ.
 @ Ὀρέστης
-315	ὦ πάτερ αἰνόπατερ, τί σοι
+315	ὦ πάτερ αἰνοπαθές, τί σοι
 316	φάμενος ἢ τί ῥέξας
 317	τύχοιμʼ ἂν ἕκαθεν οὐρίσας,
 318	ἔνθα σʼ ἔχουσιν εὐναί,
@@ -14,22 +14,45 @@
 322	προσθοδόμοις Ἀτρείδαις.
 @ Χορός
 323	τέκνον, φρόνημα τοῦ θανόντος οὐ δαμάζει
-325	πυρὸς [ἡ] μαλερὰ γνάθος,
+325	πυρὸς μαλερὰ γνάθος,
 326	φαίνει δʼ ὕστερον ὀργάς·
-327	ὀτοτύζεται δʼ ὁ θνῄσκων,
+327	ὀτοτύζεται δʼ ὁ θνήσκων,
 328	ἀναφαίνεται δʼ ὁ βλάπτων.
 329	πατέρων τε καὶ τεκόντων
-330	γόος ἔνδικος ματεύει τὸ πᾶν ἀμφιλαφής ταραχθείς.
+330	γόος ἔνδικος ματεύει
+331	τἄποινʼ ἀμφιλαφὴς ταραχθείς.
 @ Ἠλέκτρα
-332	κλῦθὶ
-332a	νυν, ὦ πάτερ, ἐν μέρει
+332	κλῦθί νυν, ὦ πάτερ, ἐν μέρει
 333	πολυδάκρυτα πένθη.
 334	δίπαις τοί σʼ ἐπιτύμβιος
 335	θρῆνος ἀναστενάζει.
 336	τάφος δʼ ἱκέτας δέδεκται
-337	φυγάδας θʼ ὁμοίως. τί τῶνδʼ εὖ, τί δʼ ἄτερ κακῶν;
+337	φυγάδας θʼ ὁμοίως.
+338	τί τῶνδʼ εὖ, τί δʼ ἄτερ κακῶν;
 --- apparatus
+315	αἰνόπατερ MSS. corr. Hart. from schol.
+317	ἆν καθεν M., ἕ superscript.
+319	ἰσοτίμοιρον MSS. corr. H.
+321	κέκληται G.
+325	ἡ μαλερὰ MSS. corr. Pors.
+331	τὸ πᾶν M., τὸ πὰν G., ῥοπὰν H., ποινὰν Schütz, τἄποινʼ Bothe, τάφον A. W. Verrall.
+334	Before this line MSS. mark new speaker (Orestes). τοῖς ἐπιτυμβιδίοις MSS. τοί σʼ Schütz, ἐπιτύμβιος H₁, δέ σʼ ὅδʼ ἐπιτύμβιος H₂.
+338	ἄ . . altered to ἄτερ M. ἄτʼ ἐν G.
 --- notes
+312	margin numbers 315, 320, 330, 335 read on the whole page; the numbering runs with them.
+315	the print reads *αἰνοπαθές (Hartung's correction, see the apparatus; Perseus αἰνόπατερ), seen on the image though not flagged; written as printed, asterisk left out.
+319	ἀντίμοιρ- | ον; divided over 319-320 in the print, written whole on 319; asterisk left out.
+322	the end of the verse is blurred by pencil marks; the draft's full stop kept.
+325	the print has no ἡ (deleted by Porson, see the apparatus): [ἡ] removed.
+327	the print reads θνήσκων (acute, no iota subscript; Perseus θνῄσκων); written as printed.
+330	the print sets γόος ἔνδικος ματεύει alone as verse 330 (margin 330) and *τἄποινʼ ἀμφιλαφὴς ταραχθείς as the next verse: split, 331 its Perseus line.
+331	the print reads τἄποινʼ (Bothe, see the apparatus; Perseus τὸ πᾶν) and ἀμφιλαφὴς with grave (Perseus ἀμφιλαφής); written as printed, asterisk left out.
+332	the print has ΗΛ. before κλῦθί νυν, ὦ πάτερ, ἐν μέρει, one verse: the draft's 332 and 332a joined; κλῦθί with acute as printed (Perseus κλῦθὶ).
+334	τοί printed with an asterisk, left out.
+336	δέδεκ- | ται divided over two printed verses, written whole on 336.
+337	the print sets τί τῶνδʼ εὖ, τί δʼ ἄτερ κακῶν; as a verse of its own (Perseus 338; the apparatus names it 338): split off and numbered 338.
+317	apparatus: ἆν printed with smooth breathing and circumflex, ἕ (the superscript letter) as printed.
+334	apparatus: ἐπιτυμβιδίοις has a broken iota in the print; H₁, H₂ printed with subscript figures.
 
 === p-0050
 --- text

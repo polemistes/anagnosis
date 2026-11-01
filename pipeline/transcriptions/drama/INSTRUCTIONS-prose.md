@@ -90,6 +90,22 @@ paragraphs, one row each).
 * Check the speaker of every speech and the line numbers of the segments against the facing
   page (its draft is in `pipeline/build/drama-pages/<play>/p-NNNN.md`).
 
+## Each edition's pages
+
+**Sidgwick's Aeschylus (notes and introduction).** The English OCR of these students' copies is
+weaker than its flags show (quotation marks read as ¢ “ © *, "l." read as "1." or "11.", Greek
+read as Latin letters, lines garbled under pencil underlining): read each page's column image
+through once and correct what the print shows, not only the flagged words; ignore all
+handwriting. Each note begins "l. 1." / "ll. 1345-51." (heading `## 1`, `## 1345-1351`); bold
+(or spaced) Greek is `**…**` wherever Sidgwick prints it, at the head of a note or inside it;
+quotation marks are his single ‘ ’ (double “ ” only where he prints them inside). His bracketed
+summary that opens a scene or song ("[Prologue. … (ll. 1-39.) …]") is a note of its own headed by
+the range it names (`## 1-39`), kept where it is printed, in its brackets, in plain type. A
+page that begins with a new indented paragraph of the note before gets no `+ ` (the merge files
+it under that note); `+ ` only where a paragraph runs on. Where Sidgwick numbers a note by a
+line our text (texts/<play>/grc.txt) numbers otherwise, keep his number and say under notes
+which of our lines it is.
+
 **Your own files.** Scripts, enlarged crops and other helpers go only in a folder of your own,
 named after your batch file, under the session's scratchpad folder (e.g.
 `<scratchpad>/agamemnon-notes-03/`); other agents work beside you at the same time and use the

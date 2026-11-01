@@ -1,25 +1,61 @@
 === p-0079
 --- text
-950a	βροτοὶ τυχόντες καλῶς—
-951	ὀλέθριον πνέουσʼ ἐν ἐχθροῖς κότον.
-951a	⟨ἐπολολύξατʼ ὦ δεσποσύνων δόμων⟩ ⟨ἀναφυγᾶς κακῶν καὶ κτεάνων τριβᾶς⟩ ⟨ὑπαὶ δυοῖν μιαστόροιν,⟩ ⟨δυσοίμου τύχας.⟩ τά περ ὁ Λοξίας ὁ Παρνασσίας
-954	μέγαν ἔχων μυχὸν χθονὸς ἐπωρθίαξεν
-955	ἀδόλως δόλοις
-956	βλάβαν ἐγχρονισθεῖσαν ἐποίχεται.
-957	κρατεῖταί πως τὸ θεῖον παρὰ τὸ μὴ
+951	βροτοὶ τυχόντες καλῶς—
+952	ὀλέθριον πνέουσʼ ἐν ἐχθροῖς κότον·
+953	†τάνπερ ὁ Λοξίας ὁ Παρνασίας,
+954	μέγαν ἔχων μυχὸν χθονὸς ἐπορθιάζων
+955	ἀδόλοις δόλοις
+956	βλαπτομέναν χρονισθεῖσαν ἐποίχεται.
+957	κρατεῖται δέ πως τὸ θεῖον τὸ μὴ
 958	ὑπουργεῖν κακοῖς.
 960	ἄξια δʼ οὐρανοῦχον ἀρχὰν σέβειν.
-961	πάρα τε φῶς ἰδεῖν
-962	μέγα τʼ ἀφῃρέθην ψάλιον οἰκέων.
-963	ἄναγε μὰν δόμοι· πολὺν ἄγαν χρόνον
-964	χαμαιπετεῖς ἔκεισθʼ ἀεί.
+961	πάρα τὸ φῶς ἰδεῖν.
+962	μέγα τʼ ἀφῃρέθην ψάλιον οἰκέων·
+963	ἄνα γε μάν, δόμοι· πολὺν ἄγαν χρόνον
+964	χαμαιπετεῖς ἔκεισθʼ ἀεί, ⏑ –́ – ⏑ –
 965	τάχα δὲ παντελὴς χρόνος ἀμείψεται
-966	πρόθυρα δωμάτων, ὅταν ἀφʼ ἑστίας πᾶν ἐλαθῇ
-967	μύσος
+966	πρόθυρα δωμάτων, ὅταν ἀφʼ ἑστίας
+967	μύσος πᾶν κλύσῃ
 968	καθαρμοῖσιν ἀτᾶν ἐλατηρίοις.
-969	τύχαι δʼ εὐπροσωποκοῖται τὸ πᾶν ἰδεῖν [ἀκοῦσαι] πρευμενεῖς
+969	τύχαι δʼ εὐπροσωποκοῖται τὸ πᾶν
+970	ἰδεῖν [ἀκοῦσαι] πρευμενεῖς
 --- apparatus
+953	τάπερ MSS. corr. H.
+953	Παρνάσιος MSS. corr. Pal.
+954	ἐπʼ ὄχθει ἄξεν MSS. corr. Pal.
+955	ἀδόλως δολίας MSS. corr. Weil.
+956	ἐν χρόνοις θεῖσαν MSS. corr. H.
+958	δὲ H. omit MSS.
+958	παρὰ τὸ μὴ MSS., om. παρὰ H.
+960	ἄξιον δʼ MSS. corr. H.
+962	μέγαν τʼ MSS. corr. Pors.
+962	οἴκων MSS. I suggest οἰκέων. Most edd. οἰκετῶν.
+963	ἀναγεμὰν δόμοις MSS. δόμοι H. ἄνα γε μὰν Blom.
+964	χαμαιπετεῖσε κεῖσθʼ αἰεί MSS. c. Blom.
+966	ἀμφʼ M., ἀφʼ G.
+967	πᾶν ἐλάσει, ῃ superscr. M., ἐλάσῃ G. Perhaps κλύσῃ.
+968	καθαρμοῖς ἅπαν ἐλατήριον MSS., ἀτᾶν ἐλατηρίοις Schütz. καθαρμοῖσιν H.
+969	τύχα δʼ εὐπροσώπῳ κοίτᾳ MSS. (κοίτα G.), τύχᾳ δʼ εὐπροσωποκοίτᾳ H., text Franz.
+970	ἀκοῦσαι MSS. omit H.
+970	θρεομένοις MSS., text Pal.
 --- notes
+951	renumbered to the print: the margin of p-0078 has 945 at δυσοίμου τύχας and this page 955 at ζων ἀδόλοις δόλοις, so βροτοὶ τυχόντες is 951, ὀλέθριον 952, τάνπερ 953 (Sidgwick's apparatus also has 953 τάπερ, 954 ἐπʼ ὄχθει); the draft had 950a, 951, 951a.
+952	κότον· with a raised stop, as printed (draft: period).
+953	the print leaves a blank space after 952 and does not print the repeated ephymnion (Perseus's ⟨ἐπολολύξατʼ ... τύχας.⟩): removed. The verse as printed: †τάνπερ ὁ Λοξίας ὁ Παρνασίας, (dagger before, single σ; asterisks left out); Perseus τά περ ... Παρνασσίας.
+954	ἐπορθιάζων (divided ἐπορθιά-|ζων, written whole here) for Perseus ἐπωρθίαξεν.
+955	ἀδόλοις δόλοις as printed (Perseus ἀδόλως).
+956	βλαπτομέναν χρονισθεῖσαν as printed (Perseus βλάβαν ἐγχρονισθεῖσαν).
+957	the print has κρατεῖται δέ πως τὸ θεῖον τὸ μὴ (δέ added, παρὰ omitted, as the apparatus says); Sidgwick's apparatus numbers this item 958, copied as printed.
+961	τὸ as printed (Perseus τε).
+962	οἰκέων· with a raised stop, as printed (draft: period).
+963	ἄνα γε μάν, δόμοι· as printed (Perseus ἄναγε μὰν δόμοι·).
+964	the print ends the verse with a comma and the metrical signs ⏑ –́ – ⏑ – (a gap Sidgwick marks); copied into the verse.
+966	πᾶν ἐλαθῇ is not on this verse; the print has πᾶν on 967.
+967	μύσος πᾶν κλύσῃ as printed (Perseus ἐλαθῇ, on 966).
+969	the print divides the verse after τὸ πᾶν; ἰδεῖν [ἀκοῦσαι] πρευμενεῖς is its own verse with margin 970.
+969	apparatus: a pale streak over the page hides most of δʼ and the ε of εὐπροσωποκοίτᾳ in Hermann's reading; read as τύχᾳ δʼ εὐπροσωποκοίτᾳ from what shows.
+970	apparatus: the streak also covers the stop after "omit H"; written H.
+958	apparatus: after "παρὰ τὸ μὴ MSS." the print has a stop and a faint mark, read as a comma.
 
 === p-0080
 --- text

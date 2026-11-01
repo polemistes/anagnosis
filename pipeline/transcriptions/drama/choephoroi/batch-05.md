@@ -2,33 +2,59 @@
 --- text
 626	γυναικοβούλους τε μήτιδας φρενῶν
 627	ἐπʼ ἀνδρὶ τευχεσφόρῳ,
-628	ἐπʼ ἀνδρὶ δᾴοις ἐπεικότως σέβαι.
+628	ἐπʼ ἀνδρὶ δᾴοις ἐπικότῳ σέβας,†
 629	τίω δʼ ἀθέρμαντον ἑστίαν δόμων
-630	γυναικείαν ⟨τʼ⟩ ἄτολμον αἰχμάν.
+630	γυναικείαν ἄτολμον αἰχμάν.
 631	κακῶν δὲ πρεσβεύεται τὸ Λήμνιον
-632	λόγῳ· γοᾶται δὲ δὴ πάθος κατάπτυστον·
+632	λόγῳ· γοᾶται δὲ δὴ πάθος κατάπτυστον.
 633	ᾔκασεν δέ τις
 634	τὸ δεινὸν αὖ Λημνίοισι πήμασιν.
-635	θεοστυγήτῳ δʼ ἄχει
+635	θεοστυγήτῳ δʼ ἄγει
 636	βροτῶν ἀτιμωθὲν οἴχεται γένος.
 637	σέβει γὰρ οὔτις τὸ δυσφιλὲς θεοῖς.
 638	τί τῶνδʼ οὐκ ἐνδίκως ἀγείρω;
-639	τὸ δʼ ἄγχι πλευμόνων ξίφος
+639	τὸ δʼ ἄγχι πνευμόνων ξίφος
 640	διανταίαν ὀξυπευκὲς οὐτᾷ
-641	διαὶ Δίκας. τὸ μὴ θέμις γὰρ οὖν
-642	Λὰξ πέδοι πατούμενον, τὸ πᾶν Διὸς
-645	σέβας παρεκβάντος οὐ θεμιστῶς.
+641	διαὶ Δίκας. †τὸ μὴ θέμις γὰρ [οὐ]
+642	λὰξ πέδοι πατούμενον, τὸ πᾶν Διὸς
+645	σέβας παρεκβάντες οὐ θεμιστῶς.†
 646	Δίκας δʼ ἐρείδεται πυθμήν·
 647	προχαλκεύει δʼ Αἶσα φασγανουργός·
 648	τέκνον δʼ ἐπεισφέρει δόμοισιν
-650	αἱμάτων παλαιτέρων τίνειν μύσος
+650	αἱμάτων παλαιτέρων· τίνει μύσος
 651	χρόνῳ κλυτὰ βυσσόφρων Ἐρινύς.
 @ Ὀρέστης
 653	παῖ παῖ, θύρας ἄκουσον ἑρκείας κτύπον.
 654	τίς ἔνδον, ὦ παῖ, παῖ, μάλʼ αὖθις, ἐν δόμοις;
 655	τρίτον τόδʼ ἐκπέραμα δωμάτων καλῶ,
 --- apparatus
+627	This line is omitted but added afterwards in MSS.
+628	corrupt: see Notes.
+629	τίων MSS. corr. Stanl.
+632	ποθεὶ MSS., text H.
+635	ἄχει MSS. corr. Aurat.
+639	πλευμόνων MSS. corr. Rob.
+640	σοῦται MSS. corr. H.
+643-645	corrupt: see Notes and Appendix V.
+644	πέδον MSS. corr. H.
+645	ἀθεμίστως MSS. (ἀθεμίστως M., acc. Merkel: οὐθεμίστως acc. Herm.) corr. H.
+649	διμασεδωμάτων MSS. δόμοισιν from schol. corr. Weil. αἱμάτων Canter.
+650	τείνει MSS. corr. Turn.
 --- notes
+626	margin numbers read on the page: 630 at γυναικείαν, 635 at θεοστυγήτῳ, 640 at διανταίαν, 645 at σέβας, 650 at αἱμάτων, 655 at τρίτον; all agree with ours. ἀντ. γ΄., στρ. δ΄., ἀντ. δ΄. in the right margin left out; pencil notes ignored.
+628	the print reads ἐπʼ ἀνδρὶ δᾴοις *ἐπικότῳ σέβας,† (Perseus ἐπεικότως σέβαι., no dagger); written as printed, asterisk left out. ἐπʼ is printed (the OCR's "[" is a pencil line in the margin). Apparatus "628. corrupt: see Notes."
+630	the print has no τʼ (Perseus ⟨τʼ⟩): γυναικείαν ἄτολμον αἰχμάν.; removed.
+632	the print divides κατά-|πτυστον. between 632 and 633, with a full stop (Perseus ·); written whole at the end of 632 with the print's stop. *πάθος printed, asterisk left out.
+633	the print reads ᾔκασεν (iota subscript visible); unchanged.
+635	the print reads *ἄγει (Perseus ἄχει), confirmed by the apparatus "635. ἄχει MSS. corr. Aurat."; written as printed.
+639	the print reads πνευμόνων (Perseus πλευμόνων), confirmed by the apparatus "639. πλευμόνων MSS. corr. Rob."; written as printed.
+641	the print reads † τὸ μὴ θέμις γὰρ [οὐ] (Perseus οὖν, no dagger or brackets); written as printed.
+642	the print has λὰξ in lower case (the draft's Λὰξ came from the OCR); *πέδοι asterisk left out.
+643	apparatus "643-645. corrupt" and "644. πέδον" are Sidgwick's numbers (he divides the verses τὸ μὴ θέμις ... παρεκβάντος otherwise); they refer to our 641-645 and to πέδοι in our 642. Kept as printed.
+645	the print reads παρεκβάντες *οὐ θεμιστῶς.† (Perseus παρεκβάντος, no dagger); written as printed.
+645	apparatus: ἀθεμίστως is printed twice with the same accent ("ἀθεμίστως MSS. (ἀθεμίστως M., ..."); copied as printed.
+650	the print reads αἱμάτων παλαιτέρων· *τίνει μύσος (the draft had τίνειν with no stop after παλαιτέρων); line not flagged, seen on the image; written as printed. The apparatus "650. τείνει MSS. corr. Turn." confirms τίνει.
+649	apparatus "649. διμασεδωμάτων ..." is Sidgwick's number: it refers to δόμοισιν at the end of our 648 and αἱμάτων at the start of our 650 (Perseus has no verse 649 here).
 
 === p-0066
 --- text

@@ -3,8 +3,8 @@
 471	δώμασιν ἔμμοτον
 472	τῶνδʼ ἄκος, οὐδʼ ἀπʼ ἄλλων
 473	ἔκτοθεν, ἀλλʼ ἀπʼ αὐτῶν,
-474	διʼ ὠμὰν ἔριν αἱματηράν.
-475	θεῶν ⟨τῶν⟩ κατὰ γᾶς ὅδʼ ὕμνος.
+474	διώκειν ἔριν αἱματηράν.
+475	θεῶν τῶν κατὰ γᾶς ὅδʼ ὕμνος.
 476	ἀλλὰ κλύοντες, μάκαρες χθόνιοι,
 477	τῆσδε κατευχῆς πέμπετʼ ἀρωγὴν
 478	παισὶν προφρόνως ἐπὶ νίκῃ.
@@ -13,10 +13,10 @@
 480	αἰτουμένῳ μοι δὸς κράτος τῶν σῶν δόμων.
 @ Ἠλέκτρα
 481	κἀγώ, πάτερ, τοιάνδε σου χρείαν ἔχω,
-482	φυγεῖν μέγαν προσθεῖσαν Αἰγίσθῳ ⟨φθόρον⟩.
+482	φυγεῖν μέγαν προσθεῖσαν Αἰγίσθῳ φθόρον.
 @ Ὀρέστης
 483	οὕτω γὰρ ἄν σοι δαῖτες ἔννομοι βροτῶν
-484	κτιζοίατʼ· εἰ δὲ μή, παρʼ εὐδείπνοις ἔσῃ
+484	κτιζοίατʼ· εἰ δὲ μή, παρʼ εὐδείπνοις ἔσει
 485	ἄτιμος ἐμπύροισι κνισωτοῖς χθονός.
 @ Ἠλέκτρα
 486	κἀγὼ χοάς σοι τῆς ἐμῆς παγκληρίας
@@ -25,23 +25,41 @@
 @ Ὀρέστης
 489	ὦ Γαῖʼ, ἄνες μοι πατέρʼ ἐποπτεῦσαι μάχην.
 @ Ἠλέκτρα
-490	ὦ Περσέφασσα, δὸς δʼ ἔτʼ εὔμορφον κράτος.
+490	ὦ Περσέφασσα, δὸς δέ γʼ εὔμορφον κράτος.
 @ Ὀρέστης
 491	μέμνησο λουτρῶν οἷς ἐνοσφίσθης, πάτερ.
 @ Ἠλέκτρα
-492	μέμνησο δʼ ἀμφίβληστρον ὡς ἐκαίνισαν.
+492	μέμνησο δʼ ἀμφίβληστρον ᾧ σʼ ἐκαίνισαν.
 @ Ὀρέστης
 493	πέδαις δʼ ἀχαλκεύτοις ἐθηρεύθης, πάτερ.
 @ Ἠλέκτρα
 494	αἰσχρῶς τε βουλευτοῖσιν ἐν καλύμμασιν.
 @ Ὀρέστης
-495	ἆρʼ ἐξεγείρῃ τοῖσδʼ ὀνείδεσιν, πάτερ;
+495	ἆρʼ ἐξεγείρει τοῖσδʼ ὀνείδεσιν, πάτερ;
 @ Ἠλέκτρα
 496	ἆρʼ ὀρθὸν αἴρεις φίλτατον τὸ σὸν κάρα;
 @ Ὀρέστης
 497	ἤτοι δίκην ἴαλλε σύμμαχον φίλοις,
 --- apparatus
+472	ἔκας MSS. corr. Schütz.
+474	αἰωμαναιρειν MSS. (-εῖν G.) corr. H.
+475	τῶν om. MSS., ins. H.
+478	νίκην MSS. corr. Port.
+480	αἰτούμενός μοι corr. Turn.
+481	τοιάδε M. τοῖά δὲ G. corr. Turn.
+482	⏑ – om. MSS. φθόρον H., μόρον Turn.
+485	ἐν πυροῖσι MSS. corr. Aurat.
+490	τʼ MSS. corr. H.
 --- notes
+474	the print reads *διώκειν ἔριν αἱματηράν. (Perseus διʼ ὠμὰν ἔριν); written as printed, asterisk left out; the apparatus gives the MSS. αἰωμαναιρειν.
+475	the print reads θεῶν *τῶν without angle brackets (Perseus ⟨τῶν⟩); brackets removed, asterisk left out.
+478	προφρόνως and *νίκῃ as Perseus (asterisk left out); the OCR's ροφρόνως is a misreading.
+479	ΟΡ., ΗΛ. (481, 486) stand in the margin as Perseus has the speakers; no change.
+482	the print reads Αἰγίσθῳ *φθόρον. without angle brackets; brackets removed, asterisk left out. The apparatus's metrical sign (short, long) is written ⏑ –.
+484	the print reads ἔσει (Perseus ἔσῃ); written as printed.
+490	the print reads δὸς δέ *γʼ εὔμορφον (Perseus δʼ ἔτʼ); written as printed, asterisk left out (apparatus: τʼ MSS. corr. H.).
+492	the print reads ᾧ σʼ ἐκαίνισαν (Perseus ὡς ἐκαίνισαν); written as printed.
+495	the print reads ἐξεγείρει (Perseus ἐξεγείρῃ); written as printed.
 
 === p-0058
 --- text
@@ -50,16 +68,16 @@
 @ Ἠλέκτρα
 500	καὶ τῆσδʼ ἄκουσον λοισθίου βοῆς, πάτερ,
 501	ἰδὼν νεοσσοὺς τούσδʼ ἐφημένους τάφῳ·
-502	οἴκτιρε θῆλυν ἄρσενός θʼ ὁμοῦ γόνον,
+502	οἴκτειρε θῆλυν ἄρσενός θʼ ὁμοῦ γόον·
 503	καὶ μὴ ʼξαλείψῃς σπέρμα Πελοπιδῶν τόδε
-504	οὕτω γὰρ οὐ τέθνηκας οὐδὲ περ θανών·
+504	οὕτω γὰρ οὐ τέθνηκας οὐδέ περ θανών·
 505	παῖδες γὰρ ἀνδρὶ κληδόνες σωτήριοι
 506	θανόντι· φελλοὶ δʼ ὣς ἄγουσι δίκτυον,
 507	τὸν ἐκ βυθοῦ κλωστῆρα σῴζοντες λίνου.
 508	ἄκουʼ, ὑπὲρ σοῦ τοιάδʼ ἔστʼ ὀδύρματα.
-509	αὐτὸς δὲ σῴζῃ τόνδε τιμήσας λόγον.
+509	αὐτὸς δὲ σώζει τόνδε τιμήσας λόγον.
 @ Χορός
-510	καὶ μὴν ἀμεμφῆ τόνδʼ ἐτείνατον λόγον,
+510	καὶ μὴν ἀμεμφῆ τόνδʼ ἐτεινάτην λόγον,
 511	τίμημα τύμβου τῆς ἀνοιμώκτου τύχης.
 512	τὰ δʼ ἄλλʼ, ἐπειδὴ δρᾶν κατώρθωσαι φρενί,
 513	ἔρδοις ἂν ἤδη δαίμονος πειρώμενος.
@@ -77,7 +95,23 @@
 523	οἶδʼ, ὦ τέκνον, παρῆ γάρ· ἔκ τʼ ὀνειράτων
 524	καὶ νυκτιπλάγκτων δειμάτων πεπαλμένη
 --- apparatus
+498	βλάβας MSS. corr. Cant.
+502	γόνον MSS. corr. Bamb.
+507	λίνον MSS. (M¹ has λίνου acc. H. λίνον acc. Merkel). corr. Rob.
+510	ἀμόμφητον δέ τινα τὸν M. corr. H.
+516	μεθʼ ὕστερον MSS. corr. Vict.
+518	τάδε G.
+519	μέσω MSS. corr. Turn.
+522	οἶσθεμοι, α written over ε, MSS.
+523	πάρει MSS. corr. Pors. (M. has been altered).
 --- notes
+502	the print reads οἴκτειρε (Perseus οἴκτιρε) and ὁμοῦ *γόον· (Perseus γόνον,); written as printed, asterisk left out (apparatus: γόνον MSS. corr. Bamb.).
+504	the print reads οὐδέ περ with an acute (Perseus οὐδὲ περ); written as printed.
+506	δʼ is printed on this line (φελλοὶ δʼ ὣς); no change.
+509	the print reads σώζει (Perseus σῴζῃ); written as printed.
+510	the print reads ἐτεινάτην (Perseus ἐτείνατον); written as printed.
+520	the "bracket" the OCR saw is a pencil stroke and quotation mark in the margin (handwriting); no change.
+523	the mark over πάρει in the apparatus is a pencil caret, as before *παρῆ in the text; ignored.
 
 === p-0059
 --- text
@@ -101,10 +135,10 @@
 @ Ὀρέστης
 534	οὔτοι μάταιον· ἀνδρὸς ὄψανον πέλει.
 @ Χορός
-535	ἡ δʼ ἐξ ὕπνου κέκλαγγεν ἐπτοημένη.
+535	ἡ δʼ ἐξ ὕπνου κέκραγεν ἐπτοημένη.
 536	πολλοὶ δʼ ἀνῇθον, ἐκτυφλωθέντες σκότῳ,
 537	λαμπτῆρες ἐν δόμοισι δεσποίνης χάριν·
-538	πέμπει τʼ ἔπειτα τάσδε κηδείους χοάς,
+538	πέμπει τʼ ἔπειτα τάσδε κηδείους χοὰς
 539	ἄκος τομαῖον ἐλπίσασα πημάτων.
 @ Ὀρέστης
 540	ἀλλʼ εὔχομαι γῇ τῇδε καὶ πατρὸς τάφῳ
@@ -113,18 +147,34 @@
 543	εἰ γὰρ τὸν αὐτὸν χῶρον ἐκλιπὼν ἐμοὶ
 544	οὕφις ἐμοῖσι σπαργάνοις ὡπλίζετο,
 545	καὶ μαστὸν ἀμφέχασκʼ ἐμὸν θρεπτήριον,
-546	θρόμβῳ δʼ ἔμειξεν αἵματος φίλον γάλα,
+546	θρόμβῳ δʼ ἔμιξεν αἵματος φίλον γάλα,
 547	ἡ δʼ ἀμφὶ τάρβει τῷδʼ ἐπῴμωξεν πάθει,
 548	δεῖ τοί νιν, ὡς ἔθρεψεν ἔκπαγλον τέρας,
 --- apparatus
+530	νεορενὲς MSS. corr. Turn.
+532	οὐ χάριν MSS. corr. Pauw.
+532	στύγος MSS. corr. Schütz from schol.
+535	κέκλαγεν MSS. corr. Rob.
+536	ἀνῆλθον MSS. corr. Valck. (on Hdt. 4. 145).
+542	συσκόλως (second λ superscr.) M. δυσκόλλως (συσ superscr.) G. corr. Vict.
+543	ἐκλείπων MSS. corr. Blomf.
+544	οὔφεισεπασασπαργανηπλείζετο MSS. ὄφις τε πᾶσιν σπαργάνοις ὁπλίζετο Turn. So Vict. restoring ὡπλίζετο. οὔφις ἐπʼ ἀμὰ σπάργανʼ ἠδʼ ὅπλʼ ἵζετο Kl. ἐπʼ ἀμὰ σπ. ἡρπαλίζετο Franz. οὔφις τε παῖς ὣς σπαργάνοις ὡπλ. Butl., text Pors.
+545	μασθὸν MSS. corr. Blomf.
+547	ἀμφιταρβιτωδʼ MSS. corr. Pors.
 --- notes
+532	ΟΡ. in the margin (the OCR's ΟΒ.): Ὀρέστης stands. The apparatus prints the στύγος item after 532 without a number of its own; numbered 532.
+535	the print reads *κέκραγεν (Perseus κέκλαγγεν); written as printed, asterisk left out (apparatus: κέκλαγεν MSS. corr. Rob.). ἡ is printed at the start of the line.
+538	the print reads χοὰς with a grave and no comma (Perseus χοάς,); written as printed.
+544	the apparatus word οὔφεισεπα-|σασπαργανηπλείζετο is divided at the end of a printed line; written whole. A dot under λ in Turnebus's ὁπλίζετο is left out.
+546	the print reads ἔμιξεν (Perseus ἔμειξεν); written as printed.
+547	the apparatus word ἀμφι-|ταρβιτωδʼ is divided at the end of a printed line; written whole.
 
 === p-0060
 --- text
 549	θανεῖν βιαίως· ἐκδρακοντωθεὶς δʼ ἐγὼ
 550	κτείνω νιν, ὡς τοὔνειρον ἐννέπει τόδε.
+551	τερασκόπον δὲ τῶνδέ σʼ αἱροῦμαι πέρι.
 @ Χορός
-551	τερασκόπον δὴ τῶνδέ σʼ αἱροῦμαι πέρι.
 552	γένοιτο δʼ οὕτως. τἄλλα δʼ ἐξηγοῦ φίλοις,
 553	τοὺς μέν τι ποιεῖν, τοὺς δὲ μή τι δρᾶν λέγων.
 @ Ὀρέστης
@@ -149,7 +199,22 @@
 572	κἀκεῖνον ἐν θρόνοισιν εὑρήσω πατρός,
 573	ἢ καὶ μολὼν ἔπειτά μοι κατὰ στόμα
 --- apparatus
+553	τοὺς δʼ ἕν τι ποιεῖν M. ἐντιποιεῖν G. corr. Stanl.
+554	στίχειν MSS. corr. Pors.
+556	κτείναντας MSS. corr. Rob.
+557	δόλῳ τε καὶ MSS. δόλῳ γε Pauw, text Hart.
+561	ἐφερκίους MSS. corr. Turn.
+563	οἴσομεν MSS. corr. Turn.
+566	λέξαιτʼ MSS. corr. Turn.
+566	δαίμον ἀϊδόμος M. δαίμοναϊ δόμος G. corr. Turn.
+567	ὡς ἂν ἐπ- G.
+568	δόμοις MSS. corr. H., Boissonade.
+569	ἀπείργετε (altered to -αι) G., text M.
 --- notes
+551	the print has no speaker at 551 (Orestes' speech runs on) and ΧΟ. in the margin at 552: @ Χορός moved from before 551 to before 552. The print reads δὲ (Perseus δὴ); written as printed.
+554	the apparatus word στί-|χειν is divided at the end of a printed line; written whole.
+566	the apparatus prints the δαίμον ἀϊδόμος item after the λέξαιτʼ item without a number of its own; numbered 566.
+567	the item is printed "ὡς ἂν ἐπ- G." (an abbreviated reading, not a divided word); copied as printed.
 
 === p-0061
 --- text
