@@ -46,6 +46,7 @@
 466	apparatus: "466 sqq." written as 466 with "sqq." at the start of the item, as batch-09 does for 412 sqq.
 464-465	apparatus printed "464–5", written 464-465.
 459	rev: text, speakers, margins 460, 464-5, 470, 475 and apparatus (11 items) checked against the page; the facing commentary (leaf 217) has 471 εἰς λόγον, 472 πράγματα, 474 ἄξια, 475 μετά, confirming the renumbering; no change.
+472	res: numbering re-checked on the page and on the facing commentary (leaf 217: notes 466, 468, 469, 470, 471, 472 πράγματα, 474 ἄξια, 475 μετά): between margins 470 and 475 Starkie prints five lines, so one counts double; his notes put it at πράγματα … ταλάντων (472, covering 472-473). 464 covers the printed 464-5. Starkie's numbering here differs from Perseus's (Perseus 459 = Starkie 459-460, Perseus 470 = Starkie 470-471, and so on): merge and alignment must go by words, not numbers. No change.
 
 === p-0218
 --- text
@@ -172,7 +173,7 @@
 --- text
 @ Σωκράτης
 505	οὐ μὴ λαλήσεις, ἀλλʼ ἀκολουθήσεις ἐμοὶ
-506	ἀνύσας τι δευρὶ θᾶττον;
+506	ἁνύσας τι δευρὶ θᾶττον;
 @ Στρεψιάδης
 506a	εἰς τὼ χεῖρέ νυν
 507	δός μοι μελιτοῦτταν πρότερον· ὡς δέδοικʼ ἐγὼ
@@ -209,6 +210,7 @@
 510	apparatus: the print has a stray acute over the σ of τῆσδʼ (τῆσ́δʼ); written τῆσδʼ.
 512	apparatus: "512 sqq." written as 512 with "sqq." at the start of the item.
 505	rev: text, speakers, the verse division of 512/513 (margins 505, 510, 515 count right only with θρώπῳ, ὅτι προήκων as a verse of its own), αὑτοῦ (rough breathing, as on ἡλικίας above) and the apparatus (11 items) checked against the page; no change.
+506	res: ἁνύσας with rough breathing, as printed (the same sign as on ὡς in 507, compared enlarged; Perseus ἀνύσας).
 
 === p-0226
 --- text
