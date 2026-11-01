@@ -341,8 +341,7 @@ purchase, promote. Then go on with the next play.
 - [x] Step 1: modules, tests, CLI (2026-11-01; tried on Agamemnon leaves 31-36, notes 150-151, introduction 11-12)
 - [x] Agamemnon: 2 ✓ leaves · 3 ✓ draft · 4 ✓ text batches (two passes) · 5 ✓ merge · 6 ✓ notes · 7 ✓ introduction · 8 ✓ translation, sigla, glossary, about · 9 ✓ build and pack
 - [x] Choephoroi: 2 ✓ · 3 ✓ · 4 ✓ (two passes) · 5 ✓ · 6 ✓ · 7 ✓ · 8 ✓ · 9 ✓
-- [ ] Eumenides: 2 ✓ · 3 ✓ · 4 ✓ (two passes) · 5 (merged; next: review agent on build/eumenides-review.tsv → "eumenides" in drama_fixes.py, then ten lines by eye) · 6 skipped (no notes) · 7 ✓ (merged) · 8 (sigla.md ✓; glossary, shortdefs, about, READMEs) · 9 · 10 group check
-  (paused 2026-11-01 for a shutdown: Clouds fetch/OCR stopped part-way; rerun `drama-pages clouds fetch`, `ocr`, then `drama-prose clouds intro|trans|notes fetch|ocr` — existing pages are kept)
+- [ ] Eumenides: 2 ✓ · 3 ✓ · 4 ✓ (two passes) · 5 ✓ · 6 skipped (no notes) · 7 ✓ · 8 ✓ · 9 ✓ · 10 group check
 - [ ] R1: reader 0.6.0
 - [ ] Clouds: 2 · 3 · 4 · 5 · 6 · 7 (intro and trans) · 8 · 9
 - [ ] Medea: 2 (apparatus rule) · 3 · 4 · 5 · 6 · 7 · 8 · 9
@@ -541,6 +540,15 @@ session sees where it stopped.
   and texts/README.md. Ten random verses checked by eye against the page (93, 136, 252, 330, 422,
   786, 844, 864, 972, 1071): all as printed. 1062 verses, 350 apparatus notes, 616 commentary
   notes; every lemma found and glossed.
+
+* **2026-11-01, Eumenides steps 5-9.** 1019 verses, 318 apparatus notes (three numbered by
+  Sidgwick for verses our numbering lacks: [347], [879], [944], placed on the verse before);
+  introduction in 17 sections, persons included. The AGDT covers the play; 62 words where
+  Sidgwick reads otherwise have no node. Review list 176 words: 45 hand analyses, 13 lemma fixes
+  (spellings to the dictionaries' headwords: συνοικήτωρ, σύμβουλος, ὑπισχνέομαι …). Ten random
+  verses checked by eye against the page (480, 481, 494, 539, 593, 820, 899, 901, 910, 973): all
+  as printed. sigla.md from pp. 25-30 (manuscripts in two groups, editors' table, emendators).
+  No commentary (vol. II has no scan), said in about.md and texts/README.md.
 
 ## Sizes, for planning
 
