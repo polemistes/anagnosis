@@ -25,6 +25,7 @@ work and edition, as given in the text's `about.md` (`product_id`); it can never
 | Gorgias | plato_gorgias_burnet |
 | Agamemnon | aeschylus_agamemnon_sidgwick |
 | Choephoroi | aeschylus_choephoroi_sidgwick |
+| Eumenides | aeschylus_eumenides_sidgwick |
 | New Testament | newtestament_sbl |
 
 1. Payments profile (needed before anything can be sold).

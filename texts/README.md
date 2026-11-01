@@ -225,13 +225,15 @@ domain; the transcription is published under CC BY-SA 4.0.
   Treebank 2.1 (hand-made), CC BY-SA 3.0 US, aligned to Sidgwick's words; where he reads otherwise,
   the analyser, listed in `pipeline/build/<play>-review.tsv` and corrected by hand in
   `pipeline/anagnosis_pipeline/drama_fixes.py`. The treebank's Choephoroi stops at line 945: the
-  last scene's words have the analyser's lemma and form and no syntax.
+  last scene's words have the analyser's lemma and form and no syntax. In the Eumenides, Sidgwick's colometry
+  and readings leave about 60 words without a treebank node (no syntax for those words).
 * Translation (`eng-smyth.txt`): H. W. Smyth, Perseus `perseus-eng2`/`eng3`, modernized by
   Perseus, CC BY-SA 4.0, its line numbers mapped to Sidgwick's verses by the words of the Greek.
 * Commentary (`commentary-sidgwick.md`) and introduction (`introduction.md`): Sidgwick's, read by
   OCR (English and Greek) and checked against the page images; a note Sidgwick numbers inside one
   of our longer lyric verses stands at the verse that holds its lemma. His lists of editions and
-  translations and his appendices are left out.
+  translations and his appendices are left out. The Eumenides has no commentary: Sidgwick's notes are in a second
+  volume (1887) of which the Internet Archive holds no scan; its introduction is volume I's.
 * `sigla.md` (his manuscripts, signs and the editors he cites), `glossary.md` and `shortdefs.tsv`
   are written by hand.
 
