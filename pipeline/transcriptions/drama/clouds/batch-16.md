@@ -177,6 +177,7 @@
 883-888	apparatus: the paragraph ends on this page with "882 ἐκείνῳ τῷ λόγῳ RV" and runs on at the foot of the facing translation page (leaf 297, p. 199, between the two rules) with the items "883–8" and "884"; read from pages/leaf_0297.png and written here. "883–8" written 883-888; 886-888 stand on p-0300.
 877	rev: comma after ἀμέλει added, clear on the whole page.
 883-888	rev: the facing-page apparatus (leaf 297, between the rules) checked item by item: 883-888 and 884 as written; no change.
+883-888	app2: facing block on leaf 297 read on the crops p-0296-app2-l/-r: it begins with a new item (883–8), nothing runs on from the text page; items 883-888 and 884 match the print word for word; no change.
 
 === p-0300
 --- text
