@@ -566,9 +566,10 @@ session sees where it stopped.
   Clouds is tlg0019.tlg003, not tlg004 (the Wasps), so the first draft matched the Wasps; Perseus
   text and GLAUx file corrected (the other eight plays' ids checked by their Perseus titles);
   (2) the leaf 130 OCR was of the wrong page (a test before the refetch), redone; (3) Starkie's
-  facing page holds the translation and commentary, never the apparatus (the brief's "apparatus
-  continued" does not hold for these pages), so no facing-page apparatus crops are made where
-  the play has translation leaves. Starkie prints the end of a verse too long for the line
+  facing page holds the translation and the commentary, and on 30 of the 153 spreads the
+  apparatus run on between two rules under the translation; the draft first made no facing crops
+  for Starkie (wrong), now it makes them where the facing page has a second rule; the 30 blocks
+  were checked against the batches afterwards by a workflow (fix, independent verify, commit). Starkie prints the end of a verse too long for the line
   indented on the next line (a turnover); the draft now joins such a line to the verse above
   when the line above reaches the right edge, the line is indented by 1.5 x-heights or more and
   its first word is in the same Perseus line (63 joins, each flagged for the agents); a verse

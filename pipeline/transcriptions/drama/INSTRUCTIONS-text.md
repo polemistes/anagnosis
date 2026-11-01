@@ -151,6 +151,8 @@ translation with his commentary on the right-hand page; only the left-hand pages
 translation and the commentary are done separately). On a text page: the verses, then a rule,
 the critical apparatus, a second rule, and the commentary in two columns. The apparatus is only
 what stands **between the two rules**; everything under the second rule is commentary: leave it.
+On some spreads the apparatus runs on to the facing page, between two rules under the
+translation (crops `-app2-l.png`, `-app2-r.png`): write it with the text page.
 The speakers' abbreviations (ΣΤΡ., ΦΕΙ., ΣΩΚ., ΜΑ., ΧΟ., ΔΙ. Λ., ΑΔ. Λ.) stand in the left
 margin; the margin numbers every fifth verse are at the right.
 * **Turnovers.** Many verses (the anapaests, the long tetrameters of the agon) are longer than

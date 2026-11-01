@@ -1016,8 +1016,13 @@ def write_draft(slug: str, sources: Path, transcriptions: Path) -> list[dict]:
         for old in out_dir.glob(f"{stem}-*.png"):
             old.unlink()
         app = apparatus_images(play, leaf, layouts[leaf], out_dir, stem)
-        # the apparatus runs on to the facing page only where that page is not the translation (Starkie's is)
-        app2 = facing_apparatus(play, play.facing(leaf), out_dir, stem) if play.layout == "jebb" and not play.trans_leaves else {}
+        # the apparatus run on to the facing page; where that page is the translation (Starkie), only
+        # when the page has a second rule: the run-on stands between the two, above the commentary
+        app2 = {}
+        if play.layout == "jebb":
+            f = play.facing(leaf)
+            if not play.trans_leaves or len(rules(scan_dirs(play.scan)[1] / "pages" / f"leaf_{f:04d}.png", 300)) >= 2:
+                app2 = facing_apparatus(play, f, out_dir, stem)
         flagged = [v for v in vs if v["flags"]]
         has_lines = lines_image(play, leaf, flagged, out_dir / f"{stem}-lines.png")
         md = [f"# Page {stem} (leaf {leaf}): verses {vs[0]['n']}–{vs[-1]['n']}" if vs else f"# Page {stem} (leaf {leaf})", ""]
