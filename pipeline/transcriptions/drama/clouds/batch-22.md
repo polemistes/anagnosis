@@ -43,6 +43,7 @@
 1206-1207	rev: apparatus printed "1206 sq." and "1208 sq.": written as 1206-1207 and 1208-1209, as in the earlier batches; all 13 items checked on the page and on leaf 363.
 1211	res: renumbered to the print: the draft's 1212 ζηλοῦντες … νικᾷς is now 1211 and 1212a λέγων τὰς δίκας. is now 1212; 1213 and 1213a unchanged. Margin 1210 stands at χοἰ δημόται and 1215 at οὐδέποτε; running on from 1210 the ζηλοῦντες line is 1211, as Starkie's apparatus numbers it ("1211 ζηλοῦντες", and "1213 εἰσάγων" for ἀλλʼ εἰσάγων) and as his commentary has "1211. νικᾷς". The print sets νι- | κᾷς λέγων τὰς δίκας. and ἀλλʼ εἰσάγων σε βούλομαι | πρῶτον ἑστιᾶσαι. alike, the second line set in; following the apparatus, κᾷς λέγων τὰς δίκας. is counted as 1212 and πρῶτον ἑστιᾶσαι. stays 1213a (one verse 1213 with ἀλλʼ εἰσάγων in Perseus). Only the commentary's "1212. εἰσάγων" (leaf 363, seen) counts otherwise (ζηλοῦντες … δίκας as one verse 1211). This settles the numbering question in the notes above (1212 numbering question, 1211 apparatus), whose "draft kept" no longer holds: the apparatus item 1211 now names its own verse.
 1260	res: checked on the whole page: ἔα· stands alone after ΣΤΡ., the margin 1260 beside τίς οὑτοσί …; Starkie's commentary has "1260. ἔα", so ἔα belongs to his 1260 (outside the metre). 1260 ἔα· and 1260a τίς … kept, as at 1225a, 1240a, where the margin number stands beside the second part.
+1214	app2: facing block on leaf 363 (crops app2-l/-r) read word by word: end of 1214 sqq. ("and on 1246), Πασίας in most other MSS.; … (Hermes, viii. p. 447)"), 1214 τί RV, a constant error || Reiske χρῆν, 1215 Quoted so in Su. (s.v. ἀπερυθριᾶσαι): κρεῖττον ἦ τότʼ εὐθὺς ἀπ. ἢ χρήσαντά με σχεῖν πράγματα || εὐθὺς ἦν RV dett. al.: ἦν εὐθὺς Ald.: all already in the apparatus as printed; no change.
 
 === p-0364
 --- text
@@ -239,6 +240,7 @@
 1260	rev: correction to the note above: Perseus has ἔα. τίς … οὔτι που as one line 1260 (no 1260a); the split into 1260 ἔα· and 1260a τίς … is the number rule for two printed verses in one Perseus line. Starkie's commentary on leaf 371 has "1260. ἔα" and the margin 1260 stands beside the second part, as at 1240a, 1225a, 1270a: numbering kept.
 1259	rev: on an enlarged crop the print has ἰω with the smooth breathing and no accent on ω (a dropped accent); the commentary lemma is "1259. ἰώ μοί μοι": the draft's ἰώ kept.
 1257	rev: all 11 apparatus items checked on this page and on leaf 371 (σε] στε R; 1259 sq.; 1260): no change.
+1257	app2: facing block on leaf 371 (crops app2-l/-r) read word by word: end of 1257 (σε] στε R), 1259 sq. Written as one line in RV. … in Ald. ἕτερος δανειστής, 1260 τίς οὑτοσί ποτʼ ἔσθʼ ὁ θρηνῶν Ald.: τίς ἔσθʼ ὁ θρηνῶν οὗτος; οὔτι που RV (possibly making ἔα a part of the verse): all already in the apparatus as printed; no change.
 
 === p-0372
 --- text
