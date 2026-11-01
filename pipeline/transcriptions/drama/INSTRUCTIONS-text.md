@@ -31,7 +31,7 @@ For each page `p-0042` (leaf 42 of the scan), in `pipeline/build/drama-pages/<pl
   with its line number. Look here first.
 * `p-0042-app-l.png`, `p-0042-app-r.png`: the apparatus block, left and right halves, enlarged
   (they overlap a little). Read the apparatus from these. Where an edition continues the
-  apparatus on the facing page (Starkie), that part follows as `-app2-l.png`, `-app2-r.png`.
+  apparatus on the facing page, that part follows as `-app2-l.png`, `-app2-r.png`.
 * `pages/leaf_0042.png`: the whole page, when you need more (the margin numbers, a line that is
   not in the flagged strip, a speaker abbreviation).
 
@@ -145,6 +145,29 @@ his own and others' conjectures in the text with an asterisk (*καλῶς): lea
 the text (it stays in the apparatus if printed there). Where Perseus has an empty verse (a
 lacuna Smyth marks), the draft has nothing; if Sidgwick prints a verse there, add it with the
 number of the empty Perseus verse (the check sheet's flags say where).
+
+**Starkie's Clouds.** Each spread has the Greek on the left-hand (even) page and Starkie's
+translation with his commentary on the right-hand page; only the left-hand pages are yours (the
+translation and the commentary are done separately). On a text page: the verses, then a rule,
+the critical apparatus, a second rule, and the commentary in two columns. The apparatus is only
+what stands **between the two rules**; everything under the second rule is commentary: leave it.
+The speakers' abbreviations (ΣΤΡ., ΦΕΙ., ΣΩΚ., ΜΑ., ΧΟ., ΔΙ. Λ., ΑΔ. Λ.) stand in the left
+margin; the margin numbers every fifth verse are at the right.
+* **Turnovers.** Many verses (the anapaests, the long tetrameters of the agon) are longer than
+  the printed line: Starkie prints the end of the verse on the next line, set in further, often
+  after a divided word ("ἔλθετε δῆτʼ … εἰς ἐπί- | δειξιν·", "… τὸν κακοδαίμονʼ | ἔχοντα."). That
+  indented end is part of the verse above, not a verse of its own. The draft joins such lines and
+  flags each join ("the indented line … was joined to this verse as its turnover"): confirm it
+  on the image, or, where the print really begins a new verse there (a short lyric verse set in
+  for its metre, not for lack of room), split it off with the number rule above and note it. A
+  lettered verse in the draft (`271a Νύμφαις,`) that is such a turnover is joined to the verse
+  above, even when it is not flagged; note it.
+* **The apparatus.** Each item begins with the line number in bold ("92 θυρίδιον RV etc., a
+  common error (Ach. 777 crit. n.)"); several items on one line are divided by `||`: write each
+  as its own output line with that line's number. The items run on in the paragraph, so a new
+  number inside the paragraph begins a new item. Copy the sigla as printed (R, V, U, A, M, Θ,
+  codd., al., Ald., Su., schol. R, dett.) and Starkie's words, references and Greek as printed.
+* Ignore pencil and ink notes on the pages.
 
 **Your own files.** Scripts, enlarged crops and other helpers go only in a folder of your own,
 named after your batch file, under the session's scratchpad folder (e.g.

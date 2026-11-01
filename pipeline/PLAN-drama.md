@@ -355,7 +355,7 @@ manuscripts page, introduction, commentary (Agamemnon, Choephoroi), syntax and r
 - [x] Choephoroi: 2 ✓ · 3 ✓ · 4 ✓ (two passes) · 5 ✓ · 6 ✓ · 7 ✓ · 8 ✓ · 9 ✓
 - [x] Eumenides: 2 ✓ · 3 ✓ · 4 ✓ (two passes) · 5 ✓ · 6 skipped (no notes) · 7 ✓ · 8 ✓ · 9 ✓ · 10 ✓ group check (2026-11-01)
 - [x] R1: reader 0.6.0 (bundle built 2026-11-01; upload and products: see For the author)
-- [ ] Clouds: 2 · 3 · 4 · 5 · 6 · 7 (intro and trans) · 8 · 9
+- [ ] Clouds: 2 ✓ · 3 ✓ · 4 · 5 · 6 · 7 (intro and trans) · 8 · 9
 - [ ] Medea: 2 (apparatus rule) · 3 · 4 · 5 · 6 · 7 · 8 · 9
 - [ ] Frogs: 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9 · 10 group check
 - [ ] R2: reader 0.7.0
@@ -561,6 +561,23 @@ session sees where it stopped.
   verses checked by eye against the page (480, 481, 494, 539, 593, 820, 899, 901, 910, 973): all
   as printed. sigla.md from pp. 25-30 (manuscripts in two groups, editors' table, emendators).
   No commentary (vol. II has no scan), said in about.md and texts/README.md.
+
+* **2026-11-01, Clouds step 3: draft.** Three faults found before any agent saw a page: (1) the
+  Clouds is tlg0019.tlg003, not tlg004 (the Wasps), so the first draft matched the Wasps; Perseus
+  text and GLAUx file corrected (the other eight plays' ids checked by their Perseus titles);
+  (2) the leaf 130 OCR was of the wrong page (a test before the refetch), redone; (3) Starkie's
+  facing page holds the translation and commentary, never the apparatus (the brief's "apparatus
+  continued" does not hold for these pages), so no facing-page apparatus crops are made where
+  the play has translation leaves. Starkie prints the end of a verse too long for the line
+  indented on the next line (a turnover); the draft now joins such a line to the verse above
+  when the line above reaches the right edge, the line is indented by 1.5 x-heights or more and
+  its first word is in the same Perseus line (63 joins, each flagged for the agents); a verse
+  divided between speakers that Starkie prints on two stepped lines keeps its letter (35a).
+  Result: 153 pages, 1697 verses, 722 flagged (43 %). INSTRUCTIONS-text.md has a Starkie section.
+  From here the bulk agent stages run as workflows (the author turned ultracode on): per batch a
+  transcription agent, then an independent review agent (checker, apparatus completeness against
+  the crops, every turnover and lettered verse against the page), each batch committed when
+  reviewed; then the residual pass. The brief's limits hold (at most 10 agents at once).
 
 ## Sizes, for planning
 

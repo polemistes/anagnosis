@@ -571,8 +571,11 @@ def ocr_stream(layouts: list[dict], adscript: bool) -> tuple[list[dict], list[di
                 abbr = pending_heading
             pending_heading = None
             li = len(lines)
+            # where the line's words end (not a margin number), for turnovers (build_draft)
+            tx1 = max((w["bbox"][2] for w in ws if sum(c.isalpha() for c in w["text"]) >= 2), default=p["x0"])
             lines.append({"leaf": lay["leaf"], "y0": p["y0"], "y1": p["y1"], "x0": p["x0"], "ocr": text,
-                          "abbr": abbr, "heading": None, "noise": bool(p.get("noise")), "margin": p["right_m"] + p["left_m"]})
+                          "abbr": abbr, "heading": None, "noise": bool(p.get("noise")), "margin": p["right_m"] + p["left_m"],
+                          "tx1": tx1, "right": lay.get("right"), "xs": lay.get("x_size") or 50})
             if p.get("noise"):
                 continue
             # a reader's scribble after a word divided at the verse's end is not the line's end
@@ -750,6 +753,22 @@ def build_draft(play: Play, sources: Path) -> tuple[list[dict], dict[int, dict],
                 cur = []
             cur.append(j)
         verses.append({"line": li, "words": cur, "split": bool(verses) and verses[-1]["line"] == li})
+    # a turnover: the end of a verse too long for the measure, set indented on the next printed
+    # line (Starkie's anapaests: "… τὸν κακοδαίμονʼ | ἔχοντα."), is part of the verse above
+    merged: list[dict] = []
+    for v in verses:
+        prev = merged[-1] if merged else None
+        if prev is not None and not v["split"] and v["line"] == prev["line"] + 1:
+            a, b = lines[prev["line"]], lines[v["line"]]
+            first, last = toks[v["words"][0]], toks[prev["words"][-1]]
+            if (a["leaf"] == b["leaf"] and a.get("right") and not first["newsp"] and first["n"] == last["n"]
+                    and a["tx1"] >= a["right"] - 3 * a["xs"] and b["x0"] >= a["x0"] + 1.5 * a["xs"]
+                    and not b.get("abbr")):
+                prev["words"] = prev["words"] + v["words"]
+                prev.setdefault("turnover", []).append(v["line"])
+                continue
+        merged.append(v)
+    verses = merged
     numbers = number_verses([v["words"] for v in verses], toks)
     stages_after: dict[int, list[str]] = {}
     for after, text in pers["stages"]:
@@ -764,6 +783,9 @@ def build_draft(play: Play, sources: Path) -> tuple[list[dict], dict[int, dict],
     for k, (v, (n, nflags)) in enumerate(zip(verses, numbers)):
         pl = lines[v["line"]]
         flags = list(nflags)
+        for tl in v.get("turnover", []):
+            flags.append(f"the indented line “{lines[tl]['ocr']}” below was joined to this verse as its turnover "
+                         "(the end of a verse too long for the line); check the print sets it so")
         words: list[str] = []
         first_tok = toks[v["words"][0]]
         speaker = first_tok["speaker"] if first_tok["newsp"] else None
@@ -835,7 +857,7 @@ def build_draft(play: Play, sources: Path) -> tuple[list[dict], dict[int, dict],
         for s in stages:
             flags.append(f"Perseus has the stage direction “{s}” before this verse: keep it as the edition prints it, or remove it")
         out.append({"n": n, "leaf": pl["leaf"], "text": " ".join(words), "speaker": speaker, "flags": flags,
-                    "y0": pl["y0"], "y1": pl["y1"], "ocr": pl["ocr"], "stages": [f"({s})" if not s.startswith("(") else s for s in stages],
+                    "y0": pl["y0"], "y1": max([pl["y1"]] + [lines[tl]["y1"] for tl in v.get("turnover", [])]), "ocr": " | ".join([pl["ocr"]] + [lines[tl]["ocr"] for tl in v.get("turnover", [])]), "stages": [f"({s})" if not s.startswith("(") else s for s in stages],
                     "line": v["line"], "perseus": first_tok["n"]})
     # stage directions after the last word
     last = hi - 1
@@ -994,7 +1016,8 @@ def write_draft(slug: str, sources: Path, transcriptions: Path) -> list[dict]:
         for old in out_dir.glob(f"{stem}-*.png"):
             old.unlink()
         app = apparatus_images(play, leaf, layouts[leaf], out_dir, stem)
-        app2 = facing_apparatus(play, play.facing(leaf), out_dir, stem) if play.layout == "jebb" else {}
+        # the apparatus runs on to the facing page only where that page is not the translation (Starkie's is)
+        app2 = facing_apparatus(play, play.facing(leaf), out_dir, stem) if play.layout == "jebb" and not play.trans_leaves else {}
         flagged = [v for v in vs if v["flags"]]
         has_lines = lines_image(play, leaf, flagged, out_dir / f"{stem}-lines.png")
         md = [f"# Page {stem} (leaf {leaf}): verses {vs[0]['n']}–{vs[-1]['n']}" if vs else f"# Page {stem} (leaf {leaf})", ""]
