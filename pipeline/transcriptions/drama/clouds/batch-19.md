@@ -1,11 +1,11 @@
 === p-0326
 --- text
 @ Ἄδικος Λόγος
-1000	εἰ ταῦτʼ ὦ μειράκιον πείσῃ τούτῳ, νὴ τὸν Διόνυσον
-1001	τοῖς Ἱπποκράτους ὑέσιν εἴξεις καὶ σε καλοῦσι βλιτομάμμαν.
+1000	εἰ ταῦτʼ, ὦ μειράκιον, πείσῃ τούτῳ, νὴ τὸν Διόνυσον
+1001	τοῖς Ἱπποκράτους ὑέσιν εἴξεις, καί σε καλοῦσι βλιτομάμμαν.
 @ Δίκαιος Λόγος
 1002	ἀλλʼ οὖν λιπαρός γε καὶ εὐανθὴς ἐν γυμνασίοις διατρίψεις,
-1003	οὐ στωμύλλων κατὰ τὴν ἀγορὰν τριβολεκτράπελʼ οἷάπερ οἱ νῦν,
+1003	οὐ στωμύλλων κατὰ τὴν ἀγορὰν τριβολεκτράπελʼ, οἷάπερ οἱ νῦν,
 1004	οὐδʼ ἑλκόμενος περὶ πραγματίου γλισχραντιλογεξεπιτρίπτου·
 1005	ἀλλʼ εἰς Ἀκαδήμειαν κατιὼν ὑπὸ ταῖς μορίαις καταθρέξῃ
 --- apparatus
@@ -24,6 +24,9 @@
 1002	the printed line "τρίψεις," is the turnover of δια-|τρίψεις: confirmed. Likewise 1004 γλισχραντιλογεξεπι-|τρίπτου·.
 1003	οἱ νῦν, is printed set in below as the turnover of this verse: joined, confirmed.
 1005	the print reads κατα-|θρέξῃ (Perseus ἀποθρέξει), divided at the line end, clear on the enlarged crop; Starkie's apparatus discusses καταθρέξεις V Ald. and ἀποθρέξει R Su. and the middle future: written as printed. Margin 1005 beside the turnover.
+1000	res: commas after ταῦτʼ and μειράκιον, as printed.
+1001	res: comma after εἴξεις and καί (acute before the enclitic σε), as printed.
+1003	res: comma after τριβολεκτράπελʼ, as printed.
 
 === p-0328
 --- text
@@ -62,7 +65,7 @@
 1017	χροιὰν ὠχράν, ὠμοὺς μικρούς,
 1018	γλῶτταν μεγάλην, πυγὴν μικράν,
 1019	κωλῆν μεγάλην,—ψήφισμα μακρόν,
-1020	καὶ σʼ ἀναπείσει
+1020	καί σʼ ἀναπείσει
 1020a	τὸ μὲν αἰσχρὸν ἅπαν καλὸν ἡγεῖσθαι,
 1021	τὸ καλὸν δʼ αἰσχρόν·
 1022	καὶ πρὸς τούτοις τῆς Ἀντιμάχου
@@ -100,6 +103,7 @@
 1030	the print reads πρὸς οὖν τάδʼ, ὦ κομψοπρεπῆ (Perseus πρὸς τάδε σʼ ὦ), clear on the crop; Starkie's apparatus "1030 πρὸς οὖν τάδʼ RV etc., Ald.": written as printed (οὖν added, τάδʼ elided, σʼ is not printed).
 1016-1017	apparatus printed "1016 sqq."; written as 1016-1017 (the two verses whose words Meineke and Bücheler rearrange).
 1028	apparatus: the item on οἱ ζῶντες τότʼ ἐπὶ runs on after || without a number, so it keeps 1028, although ζῶντες … ἐπὶ now stand in 1029.
+1020	res: καί (acute before the enclitic σʼ), as printed.
 
 === p-0332
 --- text
@@ -109,14 +113,14 @@
 1034	δεινῶν δέ σοι βουλευμάτων ἔοικε δεῖν πρὸς αὐτόν,
 1035	εἴπερ τὸν ἄνδρʼ ὑπερβαλῇ καὶ μὴ γέλωτʼ ὀφλήσεις.
 @ Ἄδικος Λόγος
-1036	καὶ μὴν πάλαι γʼ ἐπνιγόμην τὰ σπλάγχνα κἀπεθύμουν
+1036	καὶ μὴν πάλαι γʼ ἐπνιγόμην τὰ σπλάγχνα, κἀπεθύμουν
 1037	ἅπαντα ταῦτʼ ἐναντίαις γνώμαισι συνταράξαι.
 1038	ἐγὼ γὰρ ἥττων μὲν λόγος διʼ αὐτὸ τοῦτʼ ἐκλήθην
 1039	ἐν τοῖσι φροντισταῖσιν, ὅτι πρώτιστος ἐπενόησα
 1040	τοῖσιν νόμοις καὶ τῇ δίκῃ τἀναντίʼ ἀντιλέξαι.
 1041	καὶ τοῦτο πλεῖν ἢ μυρίων ἔστʼ ἄξιον στατήρων,
 1042	αἱρούμενον τοὺς ἥττονας λόγους ἔπειτα νικᾶν.
-1043	σκέψαι δὲ τὴν παίδευσιν ᾗ πέποιθεν ὡς ἐλέγξω,
+1043	σκέψαι δὲ τὴν παίδευσιν ᾗ πέποιθεν ὡς ἐλέγξω·
 1044	ὅστις σε θερμῷ φησι λοῦσθαι πρῶτον οὐκ ἐάσειν.
 1045	καίτοι τίνα γνώμην ἔχων ψέγεις τὰ θερμὰ λουτρά;
 --- apparatus
@@ -139,6 +143,8 @@
 1045	unflagged: the print has ψέγεις with a small ψ (the draft's capital Ψ came from the OCR): corrected.
 1044	rev: the margin prints 1044 (not a multiple of five) beside ὅστις σε θερμῷ … ἐάσειν., and 1036 beside the turnover θύμουν; both agree with our numbering (1032/1033 as renumbered, 1034-1035 ΚΟΡ., 1036 on), so nothing renumbered. Apparatus and flags checked against the image: no change.
 1044	apparatus: ειν̄ is printed with a bar over ιν (the abbreviation), and εἶν with a small hook (ʒ) under ν, an abbreviation mark; written ειν̄ and εἶνʒ. ἐᾶις (iota adscript) as printed.
+1036	res: comma after σπλάγχνα, as printed (the earlier note named it, the text lacked it).
+1043	res: raised stop after ἐλέγξω (the draft's comma), as printed (seen on the whole page, not a listed item).
 
 === p-0334
 --- text
@@ -147,7 +153,7 @@
 @ Ἄδικος Λόγος
 1047	ἐπίσχες· εὐθὺς γάρ σε μέσον ἔχω λαβὴν ἄφυκτον.
 1048	καί μοι φράσον, τῶν τοῦ Διὸς παίδων τίνʼ ἄνδρʼ ἄριστον
-1049	ψυχὴν νομίζεις, εἰπέ, καὶ πλείστους πόνους πονῆσαι.
+1049	ψυχὴν νομίζεις, εἰπέ, καὶ πλείστους πόνους πονῆσαι;
 @ Δίκαιος Λόγος
 1050	ἐγὼ μὲν οὐδένʼ Ἡρακλέους βελτίονʼ ἄνδρα κρίνω.
 @ Ἄδικος Λόγος
@@ -183,6 +189,7 @@
 1059	the print reads ἐγὼ δὲ φημί. (Perseus δέ φημι), clear on the crop: written as printed.
 1046	apparatus: the lemma is printed ὅτιὴ (rough breathing and acute on ο, grave on η) and R's ὅτιη, as written; ἐστι unaccented as printed.
 1048	apparatus: after "παίδων om. RV" there is a small blot or broken mark before ||, not a letter: left out.
+1049	res: question mark after πονῆσαι (the draft's full stop), as printed.
 
 === p-0336
 --- text
@@ -201,7 +208,7 @@
 1068	κᾆτʼ ἀπολιποῦσά γʼ αὐτὸν ᾤχετʼ· οὐ γὰρ ἦν ὑβριστὴς
 1069	οὐδʼ ἡδὺς ἐν τοῖς στρώμασιν τὴν νύκτα παννυχίζειν·
 1070	γυνὴ δὲ σιναμωρουμένη χαίρει· σὺ δʼ εἶ κρόνιππος.
-1071	σκέψαι γὰρ ὦ μειράκιον ἐν τῷ σωφρονεῖν ἅπαντα
+1071	σκέψαι γάρ, ὦ μειράκιον, ἐν τῷ σωφρονεῖν ἅπαντα
 --- apparatus
 1060	δύω RV etc.
 1062	εἰπών] Meineke εὑρών (cp. Eccl. 607): O. Schneider εἴ πως
@@ -223,3 +230,4 @@
 1071	the page ends with ἅπαντα (the speech runs on to p-0338).
 1065	apparatus: v. Leeuwen's numeral is printed as a capital Η with a bar over it (the Attic sign for 100); written Η̄.
 1063	apparatus: "read-|ing" is divided at a line end in the print; written whole. Porson's reading is printed αὐτὸ. with a grave before the full stop.
+1071	res: γάρ with acute and commas after γάρ and μειράκιον, as printed.

@@ -1,11 +1,11 @@
 === p-0338
 --- text
 1072	ἅνεστιν, ἡδονῶν θʼ ὅσων μέλλεις ἀποστερεῖσθαι,
-1073	παίδων γυναικῶν κοττάβων ὄψων πότων κιχλισμῶν.
+1073	παίδων, γυναικῶν, κοττάβων, ὄψων, πότων, κιχλισμῶν.
 1074	καίτοι τί σοι ζῆν ἄξιον, τούτων ἐὰν στερηθῇς;
 1075	εἶἑν. πάρειμʼ ἐντεῦθεν εἰς τὰς τῆς φύσεος ἀνάγκας.
 1076	ἥμαρτες, ἠράσθης, ἐμοίχευσάς τι, κᾆτʼ ἐλήφθης·
-1077	ἀπόλωλας· ἀδύνατος γὰρ εἶ λέγειν. ἐμοὶ δʼ ὁμιλῶν
+1077	ἀπόλωλας· ἀδύνατος γὰρ εἶ λέγειν. ἐμοὶ δʼ ὁμιλῶν,
 1078	χρῶ τῇ φύσει, σκίρτα, γέλα, νόμιζε μηδὲν αἰσχρόν.
 1079	μοιχὸς γὰρ ἢν τύχῃς ἁλούς, τάδʼ ἀντερεῖς πρὸς αὐτόν,
 1080	ὡς οὐδὲν ἠδίκηκας· εἶτʼ εἰς τὸν Δίʼ ἐπανενεγκεῖν,
@@ -30,12 +30,14 @@
 1075	the print reads εἶἑν (so also in the apparatus), εἰς (Perseus ἐς) and φύσεος (Bentley's form, see apparatus; Perseus φύσεως), clear on the crop: written as printed.
 1080	the print reads εἰς τὸν Δίʼ (Perseus ἐς), clear on the crop: written as printed.
 1075	rev: εἶἕν corrected to εἶἑν (text and apparatus): the second ε bears only a rough breathing, no accent (enlarged crop of text and apparatus).
+1073	res: commas after παίδων, γυναικῶν, κοττάβων, ὄψων, πότων, as printed.
+1077	res: comma after ὁμιλῶν, as printed.
 
 === p-0340
 --- text
 @ Δίκαιος Λόγος
-1083	τί δʼ ἢν ῥαφανιδωθῇ πιθόμενός σοι τέφρᾳ τε τιλθῇ,
-1084	ἕξει τινὰ γνώμην λέγειν τὸ μὴ εὐρύπρωκτος εἶναι;
+1083	τί δʼ ἢν ῥαφανιδωθῇ πιθόμενός σοι τέφρᾳ τε τιλθῇ;
+1084	ἕξει τινὰ γνώμην λέγειν, τὸ μὴ εὐρύπρωκτος εἶναι;
 @ Ἄδικος Λόγος
 1085	ἢν δʼ εὐρύπρωκτος ᾖ, τί πείσεται κακόν;
 @ Δίκαιος Λόγος
@@ -75,6 +77,8 @@
 1089	apparatus: printed "1089 sqq."; written under 1089 with "sqq." at the start of the item.
 1090-1093	apparatus: printed "1090–3 Om. V"; the range runs on to 1092-1093 on the next page.
 1091	apparatus: the p-0340-app crops show only the last lines; the apparatus was read from the whole page (crops in my scratch folder).
+1083	res: question mark after τιλθῇ (the draft's comma), as printed.
+1084	res: comma after λέγειν, as printed.
 
 === p-0342
 --- text
@@ -100,34 +104,33 @@
 1100	γοῦν οἶδʼ ἐγὼ κἀκεινονὶ
 1101	καὶ τὸν κομήτην τουτονί.
 @ Ἄδικος Λόγος
-1101a	τί δῆτʼ ἐρεῖς;
+1102	τί δῆτʼ ἐρεῖς;
 @ Δίκαιος Λόγος
-1102	ἡττήμεθʼ, ὦ κινούμενοι.
-1103	πρὸς τῶν θεῶν δέξασθέ μου
-1103a	θοἰμάτιον, ὡς
-1104	ἐξαυτομολῶ πρὸς ὑμᾶς.
+1103	ἡττήμεθʼ, ὦ κινούμενοι.
+1104	πρὸς τῶν θεῶν δέξασθέ μου
+1104a	θοἰμάτιον, ὡς
+1104b	ἐξαυτομολῶ πρὸς ὑμᾶς.
 --- apparatus
 1093	δημηγοροῦσι δʼ RV: καὶ δημ. Ald.
 1094	δῆτʼ] in R there is a space of an inch between η̄ and τ̄
 1096-1097	So divided in V: καὶ τῶν θ. . . σκόπει | καὶ δὴ . . ὁρᾷς;
 1097	Fritzsche πλέονες, a form which does not occur, even in tragedy; cp. Vesp. 662 n.
 1100	Om. RV
-1101a	Om. V
-1102-1103	Written as one line in V
-1102	κινούμενοι] cp. 1371 crit. n., Lys. 838 sq., Ran. 429 (where Ἱπποκίνου is the correct reading): v. Leeuwen places a full stop after κιν., thinking that the succeeding lines are addressed to different persons
+1102	Om. V
+1103-1104	Written as one line in V
+1103	κινούμενοι] cp. 1371 crit. n., Lys. 838 sq., Ran. 429 (where Ἱπποκίνου is the correct reading): v. Leeuwen places a full stop after κιν., thinking that the succeeding lines are addressed to different persons
 1104	After this line Bergk inserts ΧΟΡΟΥ. If the play had been completely revised, it is possible that a choral ode would have stood here, but it is not necessary if Ἄδικος Λόγος is substituted for Socrates in the following scene
 --- notes
 1092a	εὖ λέγεις., 1094a ἆρα δῆτʼ, 1097a καὶ δὴ σκοπῶ. are printed stepped after ΑΔΙ./ΔΙΚ. as second parts of 1092, 1094, 1097: lettering kept. 1094a ἆρα (circumflex) confirmed on the crop.
 1097a	the print has ΔΙΚ. before καὶ δὴ σκοπῶ.: the speaker line @ Δίκαιος Λόγος kept as the draft has it.
 1098a	the print reads πολὺ πλείονας, νὴ τοὺς θεούς, (commas, θεούς with acute before the comma): written as printed. Set on its own line after ΔΙΚ., not stepped; lettering kept as the draft has it (Perseus line 1098 holds both τί δῆθʼ ὁρᾷς; and this verse). Margin 1095 (at ἔγνωκας) and 1100 (at γοῦν) agree.
-1101a	τί δῆτʼ ἐρεῖς; printed on its own line after ΑΔΙ.: lettering kept.
-1102	the print reads ἡττήμεθʼ, ὦ κινούμενοι. (comma after ἡττήμεθʼ, full stop after κινούμενοι; cp. the apparatus on 1103, v. Leeuwen's full stop): unflagged, but checked on the whole page and written as printed.
-1103a	θοἰμάτιον, ὡς printed as its own short line: lettering kept.
+1102	τί δῆτʼ ἐρεῖς; printed on its own line after ΑΔΙ. (Starkie's 1102, see below).
+1103	the print reads ἡττήμεθʼ, ὦ κινούμενοι. (comma after ἡττήμεθʼ, full stop after κινούμενοι; cp. the apparatus on 1103, v. Leeuwen's full stop): unflagged, but checked on the whole page and written as printed.
+1104a	θοἰμάτιον, ὡς printed as its own short line, the second printed line of Starkie's 1104: lettered 1104a (and ἐξαυτομολῶ πρὸς ὑμᾶς. 1104b).
 1094	apparatus: η̄ and τ̄ are printed with a bar over the letter (R's abbreviation marks); written with a combining macron.
 1096-1097	apparatus: printed "1096 sq." and "1103 sq."; written as 1096-1097 and 1103-1104.
 1103	apparatus: the item breaks off at "thinking" at the foot of this page and runs on at the foot of the facing page (leaf 343, between the rules under the translation): "that the succeeding lines are addressed to different persons", followed there by the item on 1104. Both written here, read from pages/leaf_0343.png.
-1101a	rev: Starkie numbers this page's last verses one above Perseus: his commentary has "1102. τί δῆτʼ ἐρεῖς;" and "1103. ἡττήμεθα" (p-0342) and "1104. δέξασθε" (leaf 343); the margin numbers 1100 (γοῦν) and 1105 (next page) agree with both counts, so the verse numbers stay Perseus's. His apparatus items are written under our verses, as in batches 25-26: printed "1102 Om. V" (τί δῆτʼ ἐρεῖς) moved from 1102 to 1101a.
-1102	rev: printed "1103 κινούμενοι]" moved from 1103 to 1102 (κινούμενοι stands in our 1102), and printed "1103 sq. Written as one line in V" (his 1103-1104: ἡττήμεθʼ … and πρὸς τῶν θεῶν …) moved from 1103-1104 to 1102-1103. "1104 After this line" (the end of the scene) stays on 1104.
+1102	res: renumbered to Starkie's count: his apparatus has "1102 Om. V" (only τί δῆτʼ ἐρεῖς; can be meant), "1103 κινούμενοι]" and "1103 sq. Written as one line in V", and his commentary "1102. τί δῆτʼ ἐρεῖς;", "1103. ἡττήμεθα" (p-0342) and "1104. δέξασθε" (leaf 343). Between the margins 1100 (γοῦν) and 1105 (next page) the printed lines run on from 1100: the draft's 1101a, 1102, 1103, 1103a, 1104 (Perseus's numbers) are now 1102, 1103, 1104, 1104a, 1104b. The apparatus numbers are now as printed (1102, 1103, 1103-1104, 1104); the earlier moves of these items to Perseus's numbers are undone.
 
 === p-0344
 --- text
