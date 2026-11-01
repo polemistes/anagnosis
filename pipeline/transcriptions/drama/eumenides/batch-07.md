@@ -50,6 +50,7 @@
 977	τᾷδʼ is printed at the start of the next verse (as Perseus 978), not at the end of this one: moved to 978.
 978	the print ends with a raised stop (βρέμειν·; Perseus full stop): written as printed.
 981	the draft had 981-985 joined in one line; the print sets five verses (margin 985 at κοινοφιλεῖ): split, each its Perseus number. All the flagged words are printed on these verses as Perseus has them.
+968a	res: numbering checked on the page: margins 960, 965, 970 (ὅτι), 975 (ἔρις), 980, 985 all met; the print has one verse more than the count between 965 and 970 and one fewer between 970 and 975, so 968a (apparatus 969 γάνυμαι, 970 ἐπωπᾷ) and 974 skipped stay. 963 δαίμονες is printed with an acute (the OCR's diaeresis is a speck); left.
 
 === p-0074
 --- text
@@ -186,3 +187,4 @@
 1045	the print reads ἀστοῖς Ζεὺς *ὁ πανόπτας (no stop after ἀστοῖς; no angle brackets, ὁ with an asterisk): written as printed, asterisk left out. Margin 1045 here.
 1035	Perseus repeats the speaker Προπομποί before 1035, 1040 and 1044; the print shows no speaker in the margin on this page (the heading ΠΡΟΠΟΜΠΟΙ. on p-0075 covers all): no @ lines added.
 1037	the apparatus is printed as one item for 1037 (several readings, the bracketed sigla [τύχας τε G. τύχα τε V.] as printed); "F. F." is as printed (probably Fl. Fa.).
+1034	res: numbering checked on the page: margins 1035, 1040, 1045 met, and the apparatus numbers 1034, 1035, 1037, 1041, 1042, 1044, 1045 fall on the verses so numbered; 1033 and 1039 stay skipped. The dagger before σπονδαὶ (1044) is printed; left.
