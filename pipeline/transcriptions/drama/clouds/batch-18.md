@@ -95,6 +95,7 @@
 983	ἐναλλάξ. is set in below as the turnover of this verse: confirmed. Unflagged: the print has commas after ὀψοφαγεῖν and κιχλίζειν; left as the draft has it.
 983	res: commas after ὀψοφαγεῖν and κιχλίζειν, as printed
 981	apparatus: the paragraph on this page ends with || after the first item 981; the apparatus continues between two rules at the head of the facing translation page (leaf 0319, p. 219), which has no crop of its own: the second item 981 (κεφάλαιον τῆς ῥαφανῖδος …) and the item 982 are read from the whole page there and written here. B.⁴ is printed with a superscript 4.
+981	app2: the facing block on leaf 0319 checked word by word on the crops: the second item 981 (κεφάλαιον τῆς ῥαφανῖδος … but see comm.) and the item 982 (… Bekk. An. 403. 3) are complete and as printed; no change.
 
 === p-0320
 --- text
@@ -175,3 +176,4 @@
 996	apparatus: the paragraph on this page ends with "996 εἰσάττειν R(?)"; the apparatus continues between two rules at the head of the facing translation page (leaf 0325, p. 225), which has no crop of its own: the rest of item 996 (Su. … εἰσιέναι Ald.) and the items 997-999 are read from the whole page there and written here.
 998	apparatus: "1459 d 34" is printed so (perhaps a misprint for 1459 b 34); copied as printed. Blaydes's καλέσʼ αὐτὸν | μνησικακήσας has the verse-division stroke as printed.
 998	rev: apparatus 998 "23 = 1459" corrected to "23=1459", printed without spaces (leaf 0325).
+996	app2: the facing block on leaf 0325 checked word by word on the crops: the end of item 996 (Su. (s.vv. ἀποθραυσθῇς, ἄχρηστα, μήλῳ βληθῆναι): ἄττειν V: εἰσιέναι Ald.) and the items 997, 998 (two), 999 (two) are complete and as printed; no change.
