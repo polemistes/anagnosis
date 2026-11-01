@@ -68,6 +68,7 @@
 542	the print has a comma after παρόντʼ: written as printed
 542	the three unmatched OCR lines after 542 are the apparatus (not found by the draft): written from the image
 541	apparatus: the second item is printed "541 sq."; written as 541-542
+541	res: Starkie prints margin 541 (not 540) beside 541 (οὐδὲ πρεσβύτης); it agrees with our numbering (it probably marks his "541 sq." in the apparatus); nothing changed
 
 === p-0234
 --- text

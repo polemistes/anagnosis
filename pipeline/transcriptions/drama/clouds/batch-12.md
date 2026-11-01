@@ -12,7 +12,7 @@
 570	Αἰθέρα σεμνότατον, βιοθρέμμονα πάντων·
 571	τόν θʼ ἱππονώμαν, ὃς ὑπερλάμπροις
 572	ἀκτῖσιν κατέχει
-573	γῆς πέδον μέγας ἐν θεοῖς
+573	γῆς πέδον, μέγας ἐν θεοῖς
 574	ἐν θνητοῖσί τε δαίμων.
 575	ὦ σοφώτατοι θεαταί, δεῦρο τὸν νοῦν προσέχετε.
 576	ἠδικημέναι γὰρ ὑμῖν μεμφόμεσθʼ ἐναντίον·
@@ -33,6 +33,9 @@
 571	ὑπερλάμπροις is printed ὑπερ- | λάμπροις (the next colon, 572, begins with λάμπροις ἀκτῖσιν): written whole on 571, as the draft has it.
 574	the unmatched printed line after 574 is the centred heading ἐπίρρημα (not transcribed). The short rule beside 574 at the right is a mark, not text.
 575	ὦ is printed at the start of this verse; the print has θεαταί, (acute and comma): written as printed.
+573	res: comma after πέδον, as printed
+566	res: numbering checked on the page: margin 565 at πρῶτα (565), 570 beside πάντων· (the turnover of 570). Starkie counts τόν τε … ταμίαν, as one verse (566) and γῆς … μοχλευτήν· as one (567), as Perseus does; the set-in lines νης ταμίαν, and σης ἄγριον μοχλευτήν· are short metrical cola (the lines above them are short, not full), so they stay 566a and 567a by the rule for a short lyric verse set in for its metre, answering 598a and 600a in the antistrophe. Joining them to 566 and 567 as turnovers would also fit the margins; nothing renumbered.
+568	res: καὶ μεγαλώνυμον ἡμέτερον πατέρʼ, is one printed line, but Starkie counts it as the two old lines 568-569 (his margin 570 falls on Αἰθέρα … πάντων·); our 568 (Perseus 568, which skips 569) covers both. The apparatus 569 ἡμέτερον keeps Starkie's number (see the notes on 567 and 569).
 
 === p-0242
 --- text
@@ -43,12 +46,12 @@
 581	εἶτα τὸν θεοῖσιν ἐχθρὸν βυρσοδέψην Παφλαγόνα
 582	ἡνίχʼ ᾑρεῖσθε στρατηγόν, τὰς ὀφρῦς συνήγομεν
 583	κἀποιοῦμεν δεινά, βροντὴ δʼ ἐρράγη διʼ ἀστραπῆς·
-584	ἡ σελήνη δʼ ἐξέλειπε τὰς ὁδούς, ὁ δʼ ἥλιος
+584	ἡ σελήνη δʼ ἐξέλειπε τὰς ὁδούς· ὁ δʼ ἥλιος
 585	τὴν θρυαλλίδʼ εἰς ἑαυτὸν εὐθέως ξυνελκύσας
 586	οὐ φανεῖν ἔφασκεν ὑμῖν, εἰ στρατηγήσει Κλέων.
 587	ἀλλʼ ὅμως εἵλεσθε τοῦτον. φασὶ γὰρ δυσβουλίαν
 588	τῇδε τῇ πόλει προσεῖναι, ταῦτα μέντοι τοὺς θεοὺς
-589	ἅττʼ ἂν ὑμεῖς ἐξαμάρτητʼ ἐπὶ τὸ βέλτιον τρέπειν.
+589	ἅττʼ ἂν ὑμεῖς ἐξαμάρτητʼ, ἐπὶ τὸ βέλτιον τρέπειν.
 --- apparatus
 577	ὠφελούσαις] ὠφελοῦσαι R (which is possible, cp. Ach. 1165 n., 1182 n., Soph. OR. 60)
 578	Cobet δαιμόνων θʼ
@@ -62,18 +65,20 @@
 589	ἐξαμαρτάνητε (altered from ἐξαμαρτάνειν) R
 --- notes
 577	numbering checked on the whole page: margin 580 stands at μηδενὶ ξὺν νῷ (580) and 585 at τὴν θρυαλλίδʼ (585); the numbering agrees (the margin numbers were not read by the OCR).
+584	res: raised stop after ὁδούς (not a comma), as printed
+589	res: comma after ἐξαμάρτητʼ, as printed
 
 === p-0244
 --- text
-590	ὡς δὲ καὶ τοῦτο ξυνοίσει ῥᾳδίως διδάξομεν·
-591	ἢν Κλέωνα τὸν λάρον δώρων ἑλόντες καὶ κλοπῆς
+590	ὡς δὲ καὶ τοῦτο ξυνοίσει ῥᾳδίως διδάξομεν.
+591	ἢν Κλέωνα τὸν λάρον δώρων ἑλόντες καὶ κλοπῆς,
 592	εἶτα φιμώσητε τούτου τῷ ξύλῳ τὸν αὐχένα,
 593	αὖθις εἰς τἀρχαῖον ὑμῖν, εἴ τι κἀξημάρτετε,
 594	ἐπὶ τὸ βέλτιον τὸ πρᾶγμα τῇ πόλει ξυνοίσεται.
 @ Χορός
 595	ἀμφί μοι αὖτε, Φοῖβʼ ἄναξ
-596	Δήλιε Κυνθίαν ἔχων
-597	ὑψικέρατα πέτραν,
+596	Δήλιε, Κυνθίαν ἔχων
+597	ὑψικέρατα πέτραν·
 598	ἥ τʼ Ἐφέσου μάκαιρα πάγχρυσον
 598a	ἔχεις
 --- apparatus
@@ -93,13 +98,18 @@
 598a	rev: the first agent's 599 for χρυσον ἔχεις reverted to the draft's 598a: Perseus has ἥ τʼ Ἐφέσου … ἔχεις in one line, 598 (no 599), and Starkie does not number by printed lines (in the strophe seven printed lines run from his margin 565 to his margin 570); his commentary (p-0245) gives the note on μάκαιρα under “599.”, which neither numbering matches (the old line numbering, in which 599 began inside this verse). Margins 595 (ἀμφί) and 600 (οἶκον) agree. Its strophic partner ταμίαν is 566a (see p-0240).
 592	apparatus: Blaydes's τούτου ʼς is printed with an apostrophe and a final s (for ἐς after τούτου); written with Greek ʼς.
 595	apparatus: H. Weber's ᾆττε is printed with an iota subscript under the α; copied as printed. The apparatus is printed “595 sqq. Badly divided in V”: written under 595 with “sqq.” at the start of the item.
+590	res: full stop after διδάξομεν (not a raised stop), as printed
+591	res: comma after κλοπῆς, as printed
+596	res: comma after Δήλιε, as printed
+597	res: not listed, seen on the page beside 596: raised stop after πέτραν (not a comma), as printed
+598	res: numbering checked on the page: margin 595 at ἀμφί, 600 at οἶκον (p-0246); πάγ- | χρυσον ἔχεις is a short metrical colon answering 566a, kept as 598a; nothing renumbered.
 
 === p-0246
 --- text
 600	οἶκον, ἐν ᾧ κόραι σε Λυδῶν
 600a	μεγάλως σέβουσιν·
 601	ἥ τʼ ἐπιχώριος ἡμετέρα θεός,
-602	αἰγίδος ἡνίοχος πολιοῦχος Ἀθάνα,
+602	αἰγίδος ἡνίοχος, πολιοῦχος Ἀθάνα·
 603	Παρνασσίαν θʼ ὃς κατέχων
 604	πέτραν σὺν πεύκαις σελαγῇ
 605	Βάκχαις Δελφίσιν ἐμπρέπων,
@@ -120,18 +130,19 @@
 605	margins 600 (οἶκον) and 605 (Βάκχαις) agree with the numbering. The rule beside 606 at the right ends the antode, and the centred heading ἀντεπίρρημα above 607 is not transcribed; no speaker is printed at 607 (the chorus speaks on).
 607	ἡνίχʼ is printed at the start of the verse; no change.
 608	ἡ is printed at the start of the verse; Σελήνη with a capital as printed (Perseus σελήνη); no change.
+602	res: comma after ἡνίοχος, and a raised stop after Ἀθάνα (on the turnover θάνα·, not a comma), as printed
 
 === p-0248
 --- text
-610	εἶτα θυμαίνειν ἔφασκε· δεινὰ γὰρ πεπονθέναι
-611	ὠφελοῦσʼ ὑμᾶς ἅπαντας οὐ λόγοις ἀλλʼ ἐμφανῶς.
+610	εἶτα θυμαίνειν ἔφασκε· δεινὰ γὰρ πεπονθέναι,
+611	ὠφελοῦσʼ ὑμᾶς ἅπαντας, οὐ λόγοις, ἀλλʼ ἐμφανῶς.
 612	πρῶτα μὲν τοῦ μηνὸς εἰς δᾷδʼ οὐκ ἔλαττον ἢ δραχμήν,
 613	ὥστε καὶ λέγειν ἅπαντας ἐξιόντας ἑσπέρας,
 614	“μὴ πρίῃ, παῖ, δᾷδʼ, ἐπειδὴ φῶς Σεληναίης καλόν.”
 615	ἄλλα τʼ εὖ δρᾶν φησιν, ὑμᾶς δʼ οὐκ ἄγειν τὰς ἡμέρας
 616	οὐδὲν ὀρθῶς, ἀλλʼ ἄνω τε καὶ κάτω κυδοιδοπᾶν·
 617	ὥστʼ ἀπειλεῖν φησιν αὐτῇ τοὺς θεοὺς ἑκάστοτε
-618	ἡνίκʼ ἂν ψευσθῶσι δείπνου κἀπίωσιν οἴκαδε,
+618	ἡνίκʼ ἂν ψευσθῶσι δείπνου, κἀπίωσιν οἴκαδε,
 619	τῆς ἑορτῆς μὴ τυχόντες κατὰ λόγον τῶν ἡμερῶν.
 620	κᾆθʼ ὅταν θύειν δέῃ, στρεβλοῦτε καὶ δικάζετε·
 621	πολλάκις δʼ ἡμῶν ἀγόντων τῶν θεῶν ἀπαστίαν,
@@ -162,21 +173,24 @@
 626	the sign > and a wavy hook printed at the right of 626 are a marginal mark (as > on p-0172), not text: not transcribed.
 620	apparatus: “620 Placed by Piccolomini after 616 || κᾶτʼ V”: the second item concerns 620 (κᾆθʼ), printed without a new number; κᾶτʼ copied as printed (circumflex, no coronis).
 622	apparatus: “622 om. R” (the verse omitted in R) and the two further items printed without a new number are written under 622.
+610	res: comma after πεπονθέναι, as printed
+611	res: commas after ἅπαντας and λόγοις, as printed
+618	res: comma after δείπνου, as printed
 
 === p-0250
 --- text
 @ Σωκράτης
-627	μὰ τὴν Ἀναπνοὴν μὰ τὸ Χάος μὰ τὸν Ἀέρα
+627	μὰ τὴν Ἀναπνοήν, μὰ τὸ Χάος, μὰ τὸν Ἀέρα,
 628	οὐκ εἶδον οὕτως ἄνδρʼ ἄγροικον οὐδένα
 629	οὐδʼ ἄπορον οὐδὲ σκαιὸν οὐδʼ ἐπιλήσμονα·
-630	ὅστις σκαλαθυρμάτιʼ ἄττα μικρὰ μανθάνων
+630	ὅστις σκαλαθυρμάτιʼ ἄττα μικρὰ μανθάνων,
 631	ταῦτʼ ἐπιλέλησται πρὶν μαθεῖν· ὅμως γε μὴν
 632	αὐτὸν καλῶ θύραζε δευρὶ πρὸς τὸ φῶς.
 633	ποῦ Στρεψιάδης; ἔξει τὸν ἀσκάντην λαβών.
 @ Στρεψιάδης
 634	ἀλλʼ οὐκ ἐῶσί μʼ ἐξενεγκεῖν οἱ κόρεις.
 @ Σωκράτης
-635	ἀνύσας τι κατάθου καὶ πρόσεχε τὸν νοῦν.
+635	ἀνύσας τι κατάθου, καὶ πρόσεχε τὸν νοῦν.
 @ Στρεψιάδης
 635a	ἰδού.
 --- apparatus
@@ -191,3 +205,6 @@
 633	not flagged, seen on the image: the print ends the verse λαβών. with a full stop (Perseus λαβών;), as Starkie's apparatus implies (Dobree places a note of interrogation at the end of the line): written as printed.
 635a	ἰδού. (Strepsiades, ΣΤΡ. in the margin) is the second half of 635, set to the right on its own line with margin 635 beside it; kept as 635a (Perseus 635b).
 631	apparatus: “Dobree αὔτʼ : v. Herwerden” is printed with a space before the colon; written without it.
+627	res: Ἀναπνοήν with acute and a comma, commas after Χάος and Ἀέρα, as printed
+630	res: comma after μανθάνων, as printed
+635	res: comma after κατάθου, as printed
