@@ -159,11 +159,11 @@
 526	ἀνάρχετον is printed on this verse (pencil over it, the print readable). στρ. γ΄. left out.
 529	numbering: the print sets παντὶ ... ὤπασεν as one verse (Perseus 529-530) with the margin 530 beside it; Sidgwick's apparatus names it 529 (ἅπαντι) and the next verse, ἄλλʼ ἄλλᾳ δʼ ἐφορεύει, 531 (ἄλλα ἄλλα). Kept 529, the next verse renumbered 530→531, 530 skipped. The print ends the verse with a raised stop (Perseus comma): written as printed.
 535	ὑγιεί- | ας divided over 535-536 in the print, written whole on 535 (as the draft).
-536	the margin 535 stands beside ας φρενῶν ὁ *πάμφιλος, the draft's 536; the margin numbers 530 and 540 and Sidgwick's apparatus (533 δυσσεβείας, 536 πᾶσι φίλος) agree with the draft's count, so the 535 is taken as set a line low and nothing is renumbered. πάμφιλος printed with an asterisk, left out.
+536	the margin 535 stands beside ας φρενῶν ὁ *πάμφιλος, the draft's 536; the margin numbers 530 and 540 and Sidgwick's apparatus (533 δυσσεβείας, 536 πᾶσι φίλος) agree with the draft's count, so the 535 is taken as set a line low and nothing is renumbered. πάμφιλος printed with an asterisk, left out. Second pass: checked again. The print divides the verses here as Perseus does (535 ἐκ δʼ ὑγιεί-, 536 ας φρενῶν ὁ πάμφιλος); meeting the 535 would mean 530 ἄλλʼ ... 534 ἐκ δʼ and a gap at 539, against the margin 530 (on παντὶ ... ὤπασεν, which covers Perseus 529-530) and the apparatus 531, 533 and 536, which all fall on the draft's lines. The draft's numbers kept; the 535 is read as misplaced.
 538	ἀντ. γ΄. left out.
 539	the print reads δίκας with a small δ (Perseus Δίκας; not flagged, seen on the image): written as printed.
 541	ἀτί- | σῃς divided over two printed lines, written whole on 541 (as the draft).
-542	numbering: Sidgwick's margin prints 545 beside σέβας εὖ προτίων (the draft's 546) and his apparatus numbers δόμων 547 and ἑκὼν 549 (the draft's 548 and 550); counting from 540 he gives the line σῃς· ποινὰ γὰρ ἐπέσται· its own number. Renumbered by the print: ποινὰ 543→542, κύριον 544→543, πρὸς τάδε 545→544, σέβας 546→545, καὶ ξενοτίμους 547→546, δόμων 548→547, αἰδόμενός 549→548, ἑκὼν 550→549. His margin 550 at the top of p-0058 (οὐκ ἄνολβος) runs on from this. The print ends the verse with a raised stop (Perseus full stop): written as printed.
+542	numbering: Sidgwick's margin prints 545 beside σέβας εὖ προτίων (the draft's 546) and his apparatus numbers δόμων 547 and ἑκὼν 549 (the draft's 548 and 550); counting from 540 he gives the line σῃς· ποινὰ γὰρ ἐπέσται· its own number. Renumbered by the print: ποινὰ 543→542, κύριον 544→543, πρὸς τάδε 545→544, σέβας 546→545, καὶ ξενοτίμους 547→546, δόμων 548→547, αἰδόμενός 549→548, ἑκὼν 550→549. His margin 550 at the top of p-0058 (οὐκ ἄνολβος) runs on from this. Second pass: checked again; from the margin 540 (μηδέ νιν) Sidgwick counts the printed lines κέρδος, σῃς· ποινὰ, κύριον, πρὸς τάδε, σέβας as 541-545, and the apparatus 547 and 549 agree. The print ends the verse with a raised stop (Perseus full stop): written as printed.
 545	the print ends the verse with a comma (not flagged; seen on the image): written as printed.
 546	ξενοτί- | μους divided over 546-547 in the print, written whole on 546 (as the draft).
 547	δόμων printed with an asterisk, left out.
@@ -212,7 +212,7 @@
 576	Here Cod. Aug. begins.
 576	δήμων corrected to δόμων M. δόμων the rest: text Erf. Burg.
 --- notes
-550	numbering: Sidgwick's margin prints 550 beside οὐκ ἄνολβος (the draft's 551), running on from his 545 on p-0057, and 555 beside βιαίως (as the draft); his apparatus numbers τὸν ἀντίτολμον 553 and τὰ πολλὰ 554 (as the draft). Renumbered by the print: οὐκ ἄνολβος 551→550, πανώλεθρος 552→551; 552 skipped (his count rejoins the traditional numbers here). Margin numbers 560, 565, 570, 575 agree with the draft.
+550	numbering: Sidgwick's margin prints 550 beside οὐκ ἄνολβος (the draft's 551), running on from his 545 on p-0057, and 555 beside βιαίως (as the draft); his apparatus numbers τὸν ἀντίτολμον 553 and τὰ πολλὰ 554 (as the draft). Renumbered by the print: οὐκ ἄνολβος 551→550, πανώλεθρος 552→551; 552 skipped (his count rejoins the traditional numbers here). Second pass: checked again; between the margins 550 and 555 there are three printed verses for four numbers, and the apparatus 553 (παραιβάταν) and 554 (παντόφυρτον) fix the gap at 552, not 554. Margin numbers 560, 565, 570, 575 agree with the draft.
 551	the print reads δʼ without angle brackets (Perseus ⟨δʼ⟩) and ends the verse with a raised stop (Perseus full stop): written as printed.
 553	the print reads δὲ φαμὶ *καὶ παραιβάταν (Perseus δέ φαμι παρβάταν; H.'s correction, see the apparatus): written as printed, asterisk left out.
 554	the print reads τὰ πολλὰ (Perseus ἄγοντα πολλὰ): written as printed.
@@ -306,6 +306,7 @@
 600	δυοῖν and προσβολὰς are printed on this verse (pencil over the line, the print readable).
 602	the elision mark after πατέρ is under a pencil stroke; the draft's πατέρʼ kept.
 603	the print reads ἥ δʼ (rough breathing with acute, clear when enlarged; Perseus ἡ δʼ) and *φόνῳ (Schütz, see the apparatus): written as printed, asterisk left out.
+603	res: ζῇς is printed without its circumflex (ζῃς, clear when enlarged), a printing fault: ζῇς kept.
 
 === p-0060
 --- text

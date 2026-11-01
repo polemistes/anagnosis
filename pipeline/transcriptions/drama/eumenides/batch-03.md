@@ -79,7 +79,7 @@
 --- notes
 335	margin numbers 335, 340, 345, 350, 355, 360 read on the whole page; the numbering runs with them (Sidgwick, like Perseus, counts no verse 347-348 or 353). The print begins 335 with a small μοῖρʼ (Perseus Μοῖρʼ): written as printed. Asterisks before θνατῶν and αὐτουργίαι (336) left out.
 345	ἀφόρ- | μικτος divided over 345-346, written whole on 345.
-347	apparatus: Sidgwick numbers the item on ἁμὶν (our 349) 347; his number kept.
+347	apparatus: Sidgwick numbers the item on ἁμὶν (our 349) 347; his number kept. Second pass: the margin numbers 345 (δέσμιος) and 350 (ἀθανάτων) both agree with Perseus, which has no 347-348, so γεινομέναισι stays 349; the apparatus 347 follows another count of these lines and is copied as printed.
 349	the print reads γεινομέναισι (Perseus γιγνομέναισι): written as printed. στρ. β΄. left out.
 350	the print reads ἐστὶ (grave; Perseus ἐστί): written as printed (seen on the image, not flagged).
 351	the print reads ξυνδαίτωρ (Perseus συνδαίτωρ) and a full stop after μετάκοινος (Perseus ·): written as printed.
@@ -128,7 +128,7 @@
 377	οἶδε V. Fl.
 378	τοῖον γὰρ MSS. corr. Heath. μῖσος G.
 --- notes
-361	margin numbers 366, 370, 375, 380, 385 read on the whole page; the numbering follows the print (and the apparatus), which differs from Perseus here (see below). Asterisk before ἐμαῖς left out; the print has no comma after ἐπικραίνειν.
+361	margin numbers 366, 370, 375, 380, 385 read on the whole page; the numbering follows the print (and the apparatus), which differs from Perseus here (see below). Second pass: checked again; the print numbers the moved refrain itself (margin 370 at σφαλερὰ, apparatus 367, 368, 370, "367-371 in MSS. after 376"), so its numbers are kept, not Perseus's; in the strophe 372-376 the margin 375 falls on ἁμετέραις, so there is no 374. Asterisk before ἐμαῖς left out; the print has no comma after ἐπικραίνειν.
 362	the print reads ἐλθεῖν,— (Perseus ἐλθεῖν·): written as printed.
 365	the print sets the verse between cruces and reads γὰρ αἱματοσταγὲς (Perseus δʼ αἱμοσταγὲς); λέσχας† is printed on this line: written as printed.
 366	the print numbers ἇς ἀπηξιώσατο,— 366 (margin; Perseus 367) and ends it with ,— (Perseus .): renumbered and written as printed.
