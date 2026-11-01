@@ -74,7 +74,7 @@
 840	πνέω τοι μένος ἅπαντά τε κότον.
 841	οἰοῖ, δᾶ, φεῦ.
 842	τίς μʼ ὑποδύεται τίς ὀδύνα πλευράς;
-843	θυμὸν ἄιε, μᾶτερ
+843	θυμὸν ἄϊε, μᾶτερ
 844	Νύξ· ἀπὸ γάρ με τιμᾶν
 845	δαναιᾶν θεῶν.
 846	δυσπάλαμοι παρʼ οὐδὲν ἦραν δόλοι.
@@ -107,10 +107,11 @@
 844	renumbered by the print: the print divides τι- | μᾶν (written whole on the first verse); the margin prints 845 beside μᾶν δαναιᾶν θεῶν, so Νύξ ... τιμᾶν is 844 (draft 845) and δαναιᾶν θεῶν. is 845 (draft 846, the print ends it with a full stop). *δαναιᾶν printed with an asterisk, left out.
 846	renumbered by the print: between the margins 845 and 850 the print has four verses, so they run on from 845: δυσπάλαμοι 846 (draft 847), ὀργὰς 847 (draft 848), καὶ τῷ 848 (draft 849); φρονεῖν stays 850 at the margin 850, and 849 is skipped. Sidgwick's apparatus confirms 846 (δόλοι) and 848 (τῷ μὲν εἶ).
 848	the print has no angle brackets round εἶ and ends with a comma (σοφωτέρα,); *τῷ printed with an asterisk, left out; written as printed.
+843	res: diaeresis on ἄϊε, as printed (not a residual item; seen on the image while settling 876)
 
 === p-0069
 --- text
-852	γῆς τῆσδʼ ἐρασθήσεσθε· προυννέπω τάδε.
+852	γῆς τῆσδʼ ἐρασθήσεσθε· προὐννέπω τάδε.
 853	οὑπιρρέων γὰρ τιμιώτερος χρόνος
 854	ἔσται πολίταις τοῖσδε· καὶ σὺ τιμίαν
 855	ἕδραν ἔχουσα πρὸς δόμοις Ἐρεχθέως
@@ -135,7 +136,7 @@
 873	πνέω τοι μένος ἅπαντά τε κότον.
 874	οἰοῖ, δᾶ, φεῦ.
 875	τίς μʼ ὑποδύεται τίς ὀδύνα πλευράς;
-876	θυμὸν ἄιε, μᾶτερ
+876	θυμὸν ἄϊε, μᾶτερ
 877	Νύξ· ἀπὸ γάρ με τιμᾶν
 878	δαναιᾶν θεῶν
 --- apparatus
@@ -163,6 +164,8 @@
 874	the print reads οἰοῖ, δᾶ, φεῦ. (Perseus οἶ οἶ δᾶ); written as printed, as at 841.
 875	the print has no comma after ὑποδύεται and *τίς with an asterisk (as at 842); comma removed, asterisk left out; line not flagged, seen on the image.
 877	the print divides τι- | μᾶν; written whole on 877 as in the draft. *δαναιᾶν (878) printed with an asterisk, left out.
+852	res: προὐννέπω with the breathing (coronis) on υ, as printed; the speck after τῆσδʼ is not a stop
+876	res: diaeresis on ἄϊε, as printed
 879	apparatus: Sidgwick numbers the δαμίαν item 879; the verse (μᾶν δαναιᾶν θεῶν) is 878 by the margins (875 at τίς μʼ, 880 at δυσπάλαμοι on p-0070). Kept as printed.
 
 === p-0070
@@ -203,7 +206,7 @@
 @ Χορός
 902	τί οὖν μʼ ἄνωγας τῇδʼ ἐφυμνῆσαι χθονί;
 @ Ἀθηνᾶ
-903	ὁποῖα νίκης μὴ κακῆς ἐπίσκοπα,
+903	ὁποῖα νίκης μὴ κακῆς ἐπίσκοπα·
 904	καὶ ταῦτα γῆθεν, ἔκ τε ποντίας δρόσου,
 905	ἐξ οὐρανοῦ τε· κἀνέμων ἀήματα
 906	εὐηλίως πνέοντʼ ἐπιστείχειν χθόνα·
@@ -229,6 +232,7 @@
 899	τελῶ. is printed on this line; unchanged.
 900	μʼ ἔοικας and μεθίσταμαι are printed on this line. A mark after ἔοικας may be a comma but is tangled in a pencil scribble; the draft (no comma) kept.
 901	the print reads ἐπικτήσει (Perseus ἐπικτήσῃ); written as printed. φίλους. ends this verse.
+903	res: raised stop after ἐπίσκοπα (not a comma), as printed; the faint mark under it is pencil
 904	the print has commas after γῆθεν and δρόσου; line not flagged, seen on the image; written as printed.
 906	the print sets εὐηλίως πνέοντʼ ἐπιστείχειν χθόνα· as its own verse after 905 (the margin 905 is at ἐξ οὐρανοῦ): the draft's 905 split, the second verse numbered 906 (running on from 905; p-0071 begins at 907).
 
@@ -297,7 +301,7 @@
 939	τὰν ἐμὰν χάριν λέγω,
 940	†φλογμός τʼ ὀμματοστερὴς
 941	φυτῶν τὸ μὴ περᾶν ὅρον τόπων,†
-942	μηδʼ ἄκαρπος αἰανὴς ἐφερπέτω νόσος,
+942	μηδʼ ἄκαρπος αἰανὴς ἐφερπέτω νόσος·
 943	μῆλά τʼ εὐθενοῦντα Πᾶν
 945	ξὺν διπλοῖσιν ἐμβρύοις
 946	τρέφοι χρόνῳ τεταγμένῳ· γόνος δʼ ἀεὶ
@@ -331,6 +335,7 @@
 939	the print ends with a comma (λέγω,); line not flagged, seen on the image; written as printed.
 940	the print encloses 940-941 in daggers: †φλογμός ... τόπων,†; written as printed, φλογμός in lower case as printed (the draft's capital came from the OCR).
 941	renumbered 940a→941: it runs on from the margin 940. The print has no comma after φυτῶν; written as printed.
+942	res: raised stop after νόσος (not a comma), as printed
 943	the print reads *Πᾶν (Perseus γᾶ; apparatus: Πᾶν Meineke, γᾶ Dobree); written as printed, asterisk left out.
 944	apparatus: Sidgwick numbers the εὐθενοῦντʼ ἄγαν item 944; the verse (μῆλά τʼ εὐθενοῦντα Πᾶν) is 943 by the margins (940 at φλογμός, 945 at ξὺν), as in the draft. Kept as printed.
 946	the print reads γόνος *δʼ ἀεὶ with no angle brackets (δʼ ἀεὶ added by Musgr., apparatus 946); written as printed, ἀεὶ added, asterisk left out.

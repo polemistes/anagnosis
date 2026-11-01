@@ -82,7 +82,7 @@
 674	ἤδη κελεύω τούσδʼ ἀπὸ γνώμης φέρειν
 675	ψῆφον δικαίαν, ὡς ἅλις λελεγμένων;
 @ Χορός
-676	ἡμῖν μὲν ἤδη πᾶν τετόξευται βέλος.
+676	ἡμῖν μὲν ἤδη πᾶν τετόξευται βέλος·
 677	μένω δʼ ἀκοῦσαι, πῶς ἀγὼν κριθήσεται.
 @ Ἀθηνᾶ
 678	τί γάρ; πρὸς ὑμῶν πῶς τιθεῖσʼ ἄμομφος ὦ;
@@ -124,6 +124,7 @@
 681	the print has ΑΘ. in the margin here; @ Ἀθηνᾶ kept (the flag came from the OCR missing the abbreviation).
 684	the print reads ἀεὶ *δικαστῶν (Perseus αἰεὶ); written as printed, asterisk left out.
 686	φθόνον is printed at the end of this line; unchanged.
+676	res: raised stop after βέλος (βέλος·), as printed
 
 === p-0063
 --- text
@@ -141,7 +142,7 @@
 699	τίς γάρ, δεδοικὼς μηδέν, ἔνδικος βροτῶν;
 700	τοιόνδε τοι ταρβοῦντες ἐνδίκως σέβας,
 701	ἔρυμά τε χώρας καὶ πόλεως σωτήριον
-702	ἔχοιτʼ ἄν, οἷον οὔτις ἀνθρώπων ἔχει,
+702	ἔχοιτʼ ἄν, οἷον οὔτις ἀνθρώπων ἔχει
 703	οὔτʼ ἐν Σκύθαισιν οὔτε Πέλοπος ἐν τόποις.
 704	κερδῶν ἄθικτον τοῦτο βουλευτήριον,
 705	αἰδοῖον, ὀξύθυμον, εὑδόντων ὕπερ
@@ -180,6 +181,7 @@
 709	the print has commas after αἴρειν and δίκην; line not flagged, seen on the image; added.
 712	the print reads εἰμι (no accent on the ending, as Perseus); unchanged.
 714	the print has a comma after κελεύω; line not flagged, seen on the image; added.
+702	res: no comma after ἔχει at the end of the line, as printed
 
 === p-0064
 --- text
