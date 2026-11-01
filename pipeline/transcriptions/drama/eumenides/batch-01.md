@@ -49,9 +49,9 @@
 29	ἔπειτα μάντις εἰς θρόνους καθιζάνω.
 30	καὶ νῦν τυχεῖν με τῶν πρὶν εἰσόδων μακρῷ
 31	ἄριστα δοῖεν· κεἰ παρʼ Ἑλλήνων τινές,
-32	Ἴτων πάλῳ λαχόντες, ὡς νομίζεται.
+32	Ἴτων πάλῳ λαχόντες, ὡς νομίζεται·
 33	μαντεύομαι γὰρ ὡς ἂν ἡγῆται θεός.
-34	ἦ δεινὰ λέξαι, δεινὰ δʼ ὀφθαλμοῖς δρακεῖν,
+34	ἦ δεινὰ λέξαι, δεινὰ δʼ ὀφθαλμοῖς δρακεῖν
 35	πάλιν μʼ ἔπεμψεν ἐκ δόμων τῶν Λοξίου,
 36	ὡς μήτε σωκεῖν μήτε μʼ ἀκταίνειν βάσιν·
 37	τρέχω δὲ χερσίν, οὐ ποδωκίᾳ σκελῶν·
@@ -59,8 +59,8 @@
 39	ἐγὼ μὲν ἕρπω πρὸς πολυστεφῆ μυχόν·
 40	ὁρῶ δʼ ἐπʼ ὀμφαλῷ μὲν ἄνδρα θεομυσῆ
 41	ἕδραν ἔχοντα προστρόπαιον, αἵματι
-42	στάζοντα χεῖρας καὶ νεοσπαδὲς ξίφος
-43	ἔχοντʼ ἐλαίας θʼ ὑψιγέννητον κλάδον
+42	στάζοντα χεῖρας, καὶ νεοσπαδὲς ξίφος
+43	ἔχοντʼ, ἐλαίας θʼ ὑψιγέννητον κλάδον
 44	λήνει μεγίστῳ σωφρόνως ἐστεμμένον,
 45	ἀργῆτι μαλλῷ. τῇδε γὰρ τρανῶς ἐρῶ.
 46	πρόσθεν δὲ τἀνδρὸς τοῦδε θαυμαστὸς λόχος
@@ -88,18 +88,22 @@
 43	θʼ is printed on this verse; the print has no comma after κλάδον; removed.
 45	seen on the image while checking 43: the print has a full stop after μαλλῷ (draft raised stop); written as printed.
 48	seen on the image: the print ends λέγω· (raised stop, draft comma); written as printed.
+32	res: seen on the whole page while checking the margins: raised stop after νομίζεται (draft full stop), as printed
+34	res: no comma after δρακεῖν, as printed
+42	res: comma after χεῖρας, as printed
+43	res: comma after ἔχοντʼ, as printed
 
 === p-0039
 --- text
-49	οὐδʼ αὖτε Γοργείοισιν εἰκάσω τύποις.
+49	οὐδʼ αὖτε Γοργείοισιν εἰκάσω τύποις·
 50	εἶδόν ποτʼ ἤδη Φινέως γεγραμμένας
 51	δεῖπνον φερούσας· ἄπτεροί γε μὴν ἰδεῖν
 52	αὗται, μέλαιναι δʼ ἐς τὸ πᾶν βδελύκτροποι·
 53	ῥέγκουσι δʼ οὐ πλατοῖσι φυσιάμασιν·
 54	ἐκ δʼ ὀμμάτων λείβουσι δυσφιλῆ λίβα·
 55	καὶ κόσμος οὔτε πρὸς θεῶν ἀγάλματα
-56	φέρειν δίκαιος οὔτʼ ἐς ἀνθρώπων στέγας.
-57	τὸ φῦλον οὐκ ὄπωπα τῆσδʼ ὁμιλίας
+56	φέρειν δίκαιος, οὔτʼ ἐς ἀνθρώπων στέγας.
+57	τὸ φῦλον οὐκ ὄπωπα τῆσδʼ ὁμιλίας,
 58	οὐδʼ ἥτις αἶα τοῦτʼ ἐπεύχεται γένος
 59	τρέφουσʼ ἀνατὶ μὴ μεταστένειν πόνον.
 60	τἀντεῦθεν ἤδη τῶνδε δεσπότῃ δόμων
@@ -127,8 +131,11 @@
 71	ἐπὶ G.
 73	μίσημά τʼ G.
 --- notes
+49	res: raised stop after τύποις (draft full stop), as printed
 53	the print has *πλατοῖσι and in 54 *λίβα (asterisks left out).
 55	seen on the whole page: the print has κόσμος in lower case (draft Κόσμος); written as printed.
+56	res: comma after δίκαιος, as printed
+57	res: comma after ὁμιλίας, as printed
 59	the print reads ἀνατὶ (Perseus ἀνατεὶ); written as printed.
 62	ἰατρόμαντις is printed on this verse (handwriting above it); the print has a comma after τερασκόπος; added. The margin "70" read beside it is pencil: the printed margins 50, 55, 60, 65, 70, 75 stand at verses 50, 55, 60, 65, 70, 75, so the numbering agrees.
 63	ἄλλοις and δωμάτων are printed on this verse. The "line" the OCR read after it is a pencil note (πόσῳ μᾶλλον τῶν ἰδίων; Schol.), not print: nothing added.
@@ -140,7 +147,7 @@
 
 === p-0040
 --- text
-76	βιβῶντʼ ἀνʼ ἀεὶ τὴν πλανοστιβῆ χθόνα
+76	βιβῶντʼ ἀνʼ ἀεὶ τὴν πλανοστιβῆ χθόνα,
 77	ὑπέρ τε πόντον καὶ περιρρύτας πόλεις.
 78	καὶ μὴ πρόκαμνε τόνδε βουκολούμενος
 79	πόνον· μολὼν δὲ Παλλάδος ποτὶ πτόλιν
@@ -174,6 +181,7 @@
 96	ὡς MSS. ὧν Tyrwhitt from Schol.
 --- notes
 76	the print reads *βιβῶντʼ ἀνʼ ἀεὶ (Perseus αἰεὶ; asterisk left out); ἀεὶ written as printed. Margins 80, 85, 90, 95 stand at verses 80, 85, 90, 95 (80 half hidden by handwriting): the numbering agrees.
+76	res: comma after χθόνα, as printed
 77	the print has *πόντον (asterisk left out); the extra OCR word was handwriting.
 80	seen on the image: the print has βρέτας· (raised stop; draft full stop); written as printed.
 82	the print sets this as two verses, μύθους ... εὑρήσομεν, and ὥστʼ ... πόνων. (full stop; the draft joined them with a raised stop at the end); split, the second numbered 83 (the Perseus number skipped by the join). All the flagged words are printed on these two verses.
@@ -202,9 +210,9 @@
 110	καὶ πάντα ταῦτα λὰξ ὁρῶ πατούμενα·
 111	ὁ δʼ ἐξαλύξας οἴχεται νεβροῦ δίκην,
 112	καὶ ταῦτα κούφως ἐκ μέσων ἀρκυστάτων
-113	ὤρουσεν ὑμῖν ἐγκατιλλώψας μέγα.
+113	ὤρουσεν, ὑμῖν ἐγκατιλλώψας μέγα.
 114	ἀκούσαθʼ ὡς ἔλεξα τῆς ἐμῆς πέρι
-115	ψυχῆς, φρονήσατʼ, ὦ κατὰ χθονὸς θεαί.
+115	ψυχῆς· φρονήσατʼ, ὦ κατὰ χθονὸς θεαί.
 116	ὄναρ γὰρ ὑμᾶς νῦν Κλυταιμνήστρα καλῶ.
 @ Χορός
 !	(Μυγμός.)
@@ -239,11 +247,14 @@
 109	ὥραν is printed (underlined in pencil); unchanged.
 110	the print has πατούμενα· (raised stop) and ὁ begins verse 111 (the draft had ὁ at the end of 110); moved and written as printed.
 112	*ἀρκυστάτων (asterisk left out).
+113	res: seen on the whole page: comma after ὤρουσεν, as printed
 114	the print reads πέρι (anastrophe; Perseus περὶ); written as printed.
+115	res: seen on the whole page: raised stop after ψυχῆς (draft comma), as printed
 116	the print reads Κλυταιμνήστρα (Perseus Κλυταιμήστρα); written as printed.
 117	the print has the centred heading ΧΟΡΟΣ. and then (Μυγμός.) as a stage direction; written as a ! line under @ Χορός (draft: verse 117, garbled). The checker's remark that μυγμός is missing is expected: the words are in the ! line. The checker reports the five stage directions of 117-129 at the verse after each (118, 121, 124, 127, 130).
 118	ΚΛ. in the margin (the OCR's "Δ."); @ Κλυταιμήστρας Εἴδωλον kept. ἁνὴρ as Perseus: the breathing is not clear on the scan. The apparatus item numbered 118 (φίλοις . . . προσίκτορες) refers to the words of our 119 (*φίλοι ... *προσεικότες, asterisks left out); kept with the printed number.
 119	the print has a comma after εἰσιν; added.
+117	res numbering: the print counts the stage directions as verses: margin 115 stands at 115, margin 120 beside the second (Μυγμός.), so the directions hold Perseus's 117, 120, 123, 126, 129 (margins 125 and 130 on p-0042 stand at 125 and λαβέ ... 130). By the rule (every margin number on the verse that bears it) the numbers around them stand: the directions stay ! lines, the numbers 117, 120, 123, 126, 129 are skipped in the verse lines, and 118-119, 121-122, 124-125, 127-128, 130 keep their numbers. Nothing renumbered.
 120	ΧΟ. in the margin (the OCR's "ΔΛ.") and (Μυγμός.) as a stage direction (margin 120 beside it); written as a ! line under @ Χορός (draft: verse 120). The checker's remark that μυγμός is missing is expected.
 121	ΚΛ. in the margin; @ Κλυταιμήστρας Εἴδωλον kept. The print has a comma after ὑπνώσσεις and a full stop after πάθος (draft raised stop); written as printed.
 123	ΧΟ. in the margin and ('Ωγμός.) as a stage direction; written as a ! line (Ὠγμός., draft: verse 123, garbled). The checker's remark that ὠγμός is missing is expected.
