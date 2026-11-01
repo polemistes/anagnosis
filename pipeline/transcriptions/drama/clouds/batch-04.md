@@ -3,14 +3,14 @@
 @ Στρεψιάδης
 153	ὦ Ζεῦ βασιλεῦ τῆς λεπτότητος τῶν φρενῶν.
 @ Μαθητής
-154	τί δῆτʼ ἂν ἕτερον εἰ πύθοιο Σωκράτους
+154	τί δῆτʼ ἄν, ἕτερον εἰ πύθοιο Σωκράτους
 155	φρόντισμα;
 @ Στρεψιάδης
-155a	ποῖον; ἀντιβολῶ κάτειπέ μοι.
+155a	ποῖον; ἀντιβολῶ, κάτειπέ μοι.
 @ Μαθητής
 156	ἀνήρετʼ αὐτὸν Χαιρεφῶν ὁ Σφήττιος
 157	ὁπότερα τὴν γνώμην ἔχοι, τὰς ἐμπίδας
-158	κατὰ τὸ στόμʼ ᾄδειν ἢ κατὰ τοὐρροπύγιον.
+158	κατὰ τὸ στόμʼ ᾄδειν, ἢ κατὰ τοὐρροπύγιον.
 @ Στρεψιάδης
 159	τί δῆτʼ ἐκεῖνος εἶπε περὶ τῆς ἐμπίδος;
 @ Μαθητής
@@ -39,6 +39,10 @@
 162	βίᾳ confirmed on the image (OCR misread).
 158	Apparatus item printed as 158 but says "(recte 162)": the reading τοὐροπύγιον belongs to 162; kept under the printed number.
 169-179	Printed "169–79"; written as 169-179.
+154	res: ἄν, with acute and comma (for ἂν), as printed
+155a	res: comma after ἀντιβολῶ, as printed
+158	res: comma after ᾄδειν, as printed
+155	res: numbering checked: φρόντισμα; and ποῖον; are the two halves of 155, margin 155 beside the second (as at 100a); kept.
 
 === p-0146
 --- text
@@ -55,8 +59,8 @@
 @ Στρεψιάδης
 176	εἶεν· τί οὖν πρὸς τἄλφιτʼ ἐπαλαμήσατο;
 @ Μαθητής
-177	κατὰ τῆς τραπέζης καταπάσας λεπτὴν τέφραν
-178	κάμψας ὀβελίσκον εἶτα διαβήτην λαβὼν
+177	κατὰ τῆς τραπέζης καταπάσας λεπτὴν τέφραν,
+178	κάμψας ὀβελίσκον, εἶτα διαβήτην λαβών—
 179	ἐκ τῆς παλαίστρας θοἰμάτιον ὑφείλετο.
 --- apparatus
 170	μοι om. V (the surface of cod. is rubbed)
@@ -69,19 +73,21 @@
 --- notes
 170a	τίνα τρόπον; (Strepsiades) is the second half of 170, set on its own line; margin 170 stands beside it (the only margin number besides 175, which is at 175 as numbered). Kept as 170a.
 172	the print reads περιφοράς, (acute and comma; Perseus περιφορὰς without comma): written as printed.
+177	res: comma after τέφραν, as printed
+178	res: comma after ὀβελίσκον, as printed; and λαβών— with acute and a dash at the end (not listed, clear on the crop), as printed
 
 === p-0148
 --- text
 @ Στρεψιάδης
 180	τί δῆτʼ ἐκεῖνον τὸν Θαλῆν θαυμάζομεν;
-181	ἄνοιγʼ ἄνοιγʼ ἀνύσας τὸ φροντιστήριον,
+181	ἄνοιγʼ ἄνοιγʼ ἁνύσας τὸ φροντιστήριον,
 182	καὶ δεῖξον ὡς τάχιστά μοι τὸν Σωκράτη.
-183	μαθητιῶ γάρ· ἀλλʼ ἄνοιγε τὴν θύραν.
+183	μαθητιῶ γάρ· ἀλλʼ ἄνοιγε τὴν θύραν.—
 184	ὦ Ἡράκλεις, ταυτὶ ποδαπὰ τὰ θηρία;
 @ Μαθητής
 185	τί ἐθαύμασας; τῷ σοι δοκοῦσιν εἰκέναι;
 @ Στρεψιάδης
-186	τοῖς ἐκ Πύλου ληφθεῖσι τοῖς Λακωνικοῖς.
+186	τοῖς ἐκ Πύλου ληφθεῖσι, τοῖς Λακωνικοῖς.
 187	ἀτὰρ τί ποτʼ εἰς τὴν γῆν βλέπουσιν οὑτοιί;
 @ Μαθητής
 188	ζητοῦσιν οὗτοι τὰ κατὰ γῆς.
@@ -99,11 +105,14 @@
 188	ΜΑΘ. in the margin: @ Μαθητής is right.
 188a	βολβοὺς ἄρα (Strepsiades, ΣΤΡ. in the margin) is the second half of 188, set on its own line at the foot of the page; the sentence runs on into 189 (ζητοῦσι, p-0150). Kept as 188a.
 188-189	Printed "188 sq."; written as 188-189 (ζητοῦσι stands in 189, on p-0150).
+181	res: ἁνύσας with rough breathing (for ἀνύσας), as printed (enlarged, the mark is the same as the rough breathing of Ἡράκλεις in 184; the commentary lemma is ἁνύσας too)
+183	res: dash after θύραν. (θύραν.—), as printed (not listed, clear on the crop)
+186	res: comma after ληφθεῖσι, as printed
 
 === p-0150
 --- text
 189	ζητοῦσι. μή νυν τουτογὶ φροντίζετε·
-190	ἐγὼ γὰρ οἶδʼ ἵνʼ εἰσὶ μεγάλοι καὶ καλοί.
+190	ἐγὼ γὰρ οἶδʼ ἵνʼ εἰσὶ μεγάλοι καὶ καλοί.—
 191	τί γὰρ οἵδε δρῶσιν οἱ σφόδρʼ ἐγκεκυφότες;
 @ Μαθητής
 192	οὗτοι δʼ ἐρεβοδιφῶσιν ὑπὸ τὸν Τάρταρον.
@@ -113,11 +122,11 @@
 194	αὐτὸς καθʼ αὑτὸν ἀστρονομεῖν διδάσκεται.
 195	ἀλλʼ εἴσιθʼ, ἵνα μὴ ἐκεῖνος ὑμῖν ἐπιτύχῃ.
 @ Στρεψιάδης
-196	μήπω γε μήπω γʼ· ἀλλʼ ἐπιμεινάντων, ἵνα
+196	μήπω γε, μήπω γʼ· ἀλλʼ ἐπιμεινάντων, ἵνα
 197	αὐτοῖσι κοινώσω τι πραγμάτιον ἐμόν.
 @ Μαθητής
 198	ἀλλʼ οὐχ οἷόν τʼ αὐτοῖσι πρὸς τὸν ἀέρα
-199	ἔξω διατρίβειν πολὺν ἄγαν ἐστὶν χρόνον.
+199	ἔξω διατρίβειν πολὺν ἄγαν ἐστὶν χρόνον.—
 --- apparatus
 189	τουτογὶ Δ: τοῦτο γε R etc., Ald.: τοῦτʼ ἔτι V etc.: Reisig τοῦτό γʼ ἔτι: Bergk τοῦτό γʼ ἐκφρ.
 192	δʼ R etc., Ald.: γʼ V etc.
@@ -129,11 +138,14 @@
 191	ἐγκεκυφότες; is printed on this line.
 193	the print reads εἰς (Perseus ἐς): written as printed.
 195	the print reads ἐκεῖνος, full form (Perseus ʼκεῖνος); the apparatus confirms it (κεῖνος RV Su.): written as printed.
+196	res: comma after the first γε, as printed
+199	res: dash after χρόνον. (χρόνον.—), as printed
+190	res: dash after καλοί. (καλοί.—), as printed (not listed, clear on the page)
 
 === p-0152
 --- text
 @ Στρεψιάδης
-200	πρὸς τῶν θεῶν τί γὰρ τάδʼ ἐστίν; εἰπέ μοι.
+200	πρὸς τῶν θεῶν, τί γὰρ τάδʼ ἐστίν; εἰπέ μοι.
 @ Μαθητής
 201	ἀστρονομία μὲν αὑτηί.
 @ Στρεψιάδης
@@ -174,6 +186,7 @@
 202a	ΣΤΡ. in the margin: @ Στρεψιάδης is right (the OCR missed it). Second half of 202, kept as 202a; likewise 203a and 204a (ΣΤΡ. in the margin) and 207a.
 203	the print reads ἀναμετρεῖσθαι (Perseus ἀναμετρῆσαι); the apparatus confirms it (203 Cobet ἀναμετρῆσαι) and so does the commentary lemma: written as printed.
 203a	κληρουχικήν; is printed on this line.
+200	res: comma after θεῶν, as printed
 209	Dobree's Ἀττικὴ, is printed with a grave before the comma; copied as printed.
 
 === p-0154

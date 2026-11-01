@@ -4,8 +4,8 @@
 100a	οὐκ οἶδʼ ἀκριβῶς τοὔνομα·
 101	μεριμνοφροντισταὶ καλοί τε κἀγαθοί.
 @ Φειδιππίδης
-102	αἰβοῖ πονηροί γʼ, οἶδα. τοὺς ἀλαζόνας
-103	τοὺς ὠχριῶντας τοὺς ἀνυποδήτους λέγεις,
+102	αἰβοῖ, πονηροί γʼ, οἶδα. τοὺς ἀλαζόνας,
+103	τοὺς ὠχριῶντας, τοὺς ἀνυποδήτους λέγεις·
 104	ὧν ὁ κακοδαίμων Σωκράτης καὶ Χαιρεφῶν.
 --- apparatus
 101	Nauck (Bull. de l'Acad. de St-Pétersb. vi. p. 54) μετεωροφροντισταὶ
@@ -15,14 +15,16 @@
 --- notes
 100a	checked: the second half of verse 100 (εἰσὶν δὲ τίνες; is on p-0130), margin 100 beside it; kept as 100a.
 101	renumbered 102-105 to 101-104: Perseus has no line 101 (it numbers μεριμνοφροντισταὶ 102 and ὧν ὁ κακοδαίμων 105), Starkie numbers them 101-104 (margin 100 on this page, margin 105 at ἢ ἢ σιώπα on p-0134, apparatus 101-104 as printed), which is the traditional numbering; the printed numbering wins.
-102	the print punctuates αἰβοῖ, πονηροί γʼ, οἶδα. τοὺς ἀλαζόνας, (and λέγεις· in 103); unflagged, left as Perseus has it.
+102	res: commas after αἰβοῖ and ἀλαζόνας, as printed
+103	res: comma after ὠχριῶντας and raised stop after λέγεις (for the comma), as printed
+100a	res: the print has τοὔνομα· with a raised stop (OCR ʼ); left. Numbering checked: margin 100 on this verse (second half of Perseus 100), 101-104 run on to margin 105 on p-0134.
 
 === p-0134
 --- text
 @ Στρεψιάδης
 105	ἢ ἤ, σιώπα· μηδὲν εἴπῃς νήπιον.
 106	ἀλλʼ εἴ τι κήδῃ τῶν πατρῴων ἀλφίτων,
-107	τούτων γενοῦ μοι σχασάμενος τὴν ἱππικήν.
+107	τούτων γενοῦ μοι, σχασάμενος τὴν ἱππικήν.
 @ Φειδιππίδης
 108	οὐκ ἂν μὰ τὸν Διόνυσον, εἰ δοίης γέ μοι
 109	τοὺς φασιανοὺς οὓς τρέφει Λεωγόρας.
@@ -42,6 +44,7 @@
 106	κήδει: the print has κήδῃ (iota subscript clear on the crop; the commentary lemma is εἴ τι κήδῃ too): changed.
 110	ἐμοὶ: the print has ἴθʼ, ἀντιβολῶ σʼ, ὦ φίλτατʼ ἀνθρώπων ἐμοί, (commas, acute before the comma): written as printed.
 111a	checked: the second half of verse 111 (Φειδιππίδης), set to the right on the same verse; kept as 111a.
+107	res: comma after μοι, as printed
 
 === p-0136
 --- text
@@ -80,13 +83,13 @@
 === p-0138
 --- text
 @ Στρεψιάδης
-126	ἀλλʼ οὐδʼ ἐγὼ μέντοι πεσών γε κείσομαι,
+126	ἀλλʼ οὐδʼ ἐγὼ μέντοι πεσών γε κείσομαι·
 127	ἀλλʼ εὐξάμενος τοῖσιν θεοῖς διδάξομαι
 128	αὐτὸς βαδίζων εἰς τὸ φροντιστήριον.
 129	πῶς οὖν γέρων ὢν κἀπιλήσμων καὶ βραδὺς
 130	λόγων ἀκριβῶν σχινδαλάμους μαθήσομαι;
 131	ἰτητέον. τί ταῦτʼ ἔχων στραγγεύομαι,
-132	ἀλλʼ οὐχὶ κόπτω τὴν θύραν; παῖ παιδίον.
+132	ἀλλʼ οὐχὶ κόπτω τὴν θύραν; παῖ, παιδίον.
 @ Μαθητής
 133	βάλλʼ ἐς κόρακας· τίς ἐσθʼ ὁ κόψας τὴν θύραν;
 --- apparatus
@@ -97,13 +100,15 @@
 133	βάλʼ V
 --- notes
 128	ἐς: the print has εἰς (clear on the crop): changed.
+132	res: comma after παῖ, as printed
+126	res: raised stop after κείσομαι (for the comma), as printed (not listed, seen on the whole page, clear enlarged)
 
 === p-0140
 --- text
 @ Στρεψιάδης
 134	Φείδωνος ὑὸς Στρεψιάδης Κικυννόθεν.
 @ Μαθητής
-135	ἀμαθής γε νὴ Δίʼ ὅστις οὑτωσὶ σφόδρα
+135	ἀμαθής γε νὴ Δίʼ, ὅστις οὑτωσὶ σφόδρα
 136	ἀπεριμερίμνως τὴν θύραν λελάκτικας
 137	καὶ φροντίδʼ ἐξήμβλωκας ἐξηυρημένην.
 @ Στρεψιάδης
@@ -122,6 +127,7 @@
 --- notes
 134	υἱὸς: the print has ὑὸς (rough breathing, no iota; clear on the crop): changed.
 142	ἐς: the print has εἰς (clear on the crop): changed.
+135	res: comma after Δίʼ, as printed (not listed, seen on the whole page, clear enlarged)
 
 === p-0142
 --- text
