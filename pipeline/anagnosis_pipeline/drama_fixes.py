@@ -9,6 +9,7 @@ plainly wrong wherever it stands.
 from __future__ import annotations
 
 HAND_ANALYSES: dict[str, dict[str, tuple[str, str]]] = {
+    "choephoroi": {},
     "agamemnon": {
         "87 πευθοῖ": ("πευθώ", "n-s---fd-"),
         "105 καταπνείει": ("καταπνέω", "v3spia---"),
@@ -71,6 +72,7 @@ HAND_ANALYSES: dict[str, dict[str, tuple[str, str]]] = {
 }
 
 LEMMA_FIXES: dict[str, dict[str, str]] = {
+    "choephoroi": {},
     "agamemnon": {
         "Βάκτρος": "βάκτρον",
         "περιόργως": "περιοργής",
