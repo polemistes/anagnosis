@@ -3,9 +3,9 @@
 151	παιᾶνα τοῦ θανόντος ἐξαυδωμένας.]
 @ Χορός
 152	ἵετε δάκρυ καναχὲς ὀλόμενον
-153	ὀλομένῳ δεσπότᾳ
-155	πρὸς ἔρυμα τόδε κακῶν, κεδνῶν τʼ
-156	ἀπότροπον ἄγος ἀπεύχετον
+153	ὀλομένῳ δεσπότᾳ,
+155	πρὸς ἔρυμα τόδε κακῶν κεδνῶν τʼ
+156	ἀπότροπον ἄγος ἀπεύχετον,
 157	κεχυμένων χοᾶν. κλύε δέ μοι, κλύε,
 158	σέβας, ὦ δέσποτʼ, ἐξ ἀμαυρᾶς φρενός.
 159	ὀτοτοτοῖ, ἴτω
@@ -14,8 +14,8 @@
 162	ἐν ἔργῳ βέλη ʼπιπάλλων Ἄρης,
 164	σχέδιά τʼ αὐτόκωπα νωμῶν ξίφη.
 @ Ἠλέκτρα
-165	ἔχει μὲν ἤδη γαπότους χοὰς πατήρ·
-166	νέου δὲ μύθου τοῦδε κοινωνήσατε·
+165	ἔχει μὲν ἤδη γαπότους χοὰς πατήρ,
+166	νέου δὲ μύθου τοῦδε κοινωνήσατε.
 @ Χορός
 167	λέγοις ἄν· ὀρχεῖται δὲ καρδία φόβῳ.
 @ Ἠλέκτρα
@@ -25,7 +25,7 @@
 @ Ἠλέκτρα
 170	εὐξύμβολον τόδʼ ἐστὶ παντὶ δοξάσαι.
 @ Χορός
-171	πῶς οὖν; παλαιὰ παρὰ νεωτέρας μάθω.
+171	πῶς οὖν παλαιὰ παρὰ νεωτέρας μάθω;
 @ Ἠλέκτρα
 172	οὐκ ἔστιν ὅστις πλὴν ἐμοῦ κείραιτό νιν.
 @ Χορός
@@ -53,7 +53,7 @@
 --- notes
 151	the closing bracket is printed after ἐξαυδωμένας. (Sidgwick brackets 150-151, the bracket opening on p-0042 before ὑμᾶς); 151 agrees with his count from the margin 145 on p-0042.
 152	numbering: Sidgwick's numbers run one ahead of Perseus's on this page until 169. His margin has 155 at πρὸς ἔρυμα (Perseus 154), 160 at δορυσθενὴς (Perseus 160, the draft's 159), 165 at ἔχει (Perseus 164), 170 at εὐξύμβολον, 175 at ποίαις; his apparatus has 156 ἄλγος (ἀπότροπον ἄγος), 158 σεβάσω (σέβας), 161 Σκυθιτάτʼ, 164 βέλη (σχέδιά ... ξίφη, MSS. βέλη for ξίφη), 165 ἀπότου (γαπότους), 167 ἀνορχεῖται (λέγοις ἄν· ὀρχεῖται), 172, 177. Renumbered to the print: ἵετε 152, ὀλομένῳ 153, πρὸς ἔρυμα 155 (was 154; 154 skipped), ἀπότροπον 156 (was 155), κεχυμένων 157 (156), σέβας 158 (156a), ὀτοτοτοῖ 159 (158), δορυσθενὴς 160 (159), Σκυθικά 161, ἐν ἔργῳ 162, σχέδιά 164 (was 163; 163 skipped, as his apparatus 164 names this verse), ἔχει 165 (164), νέου 166 (165), λέγοις 167 (166), ὁρῶ 168 (167), τίνος 169 (168); from εὐξύμβολον 170 the draft's numbers agree.
-155	no comma after κακῶν in the print; the line was not flagged and is left as Perseus has it.
+155	res: no comma after κακῶν, as printed
 158	the print has a comma after σέβας (σέβας, ὦ δέσποτʼ,): written as printed.
 159	the print reads ὀτοτοτοῖ, ἴτω and nothing more on this verse (Perseus ὀτοτοτοτοτοτοτοῖ, ἴτω τις): τις is not printed; the words "ἰώ, τίς Con." after ἴτω are a pencil note, not print. Written as printed. The verse is in Sidgwick's count 159 (margin 160 on the next verse).
 160	ἀναλυτὴρ is printed on this verse; the checker's "Perseus has τις" here is the τις the print does not have (see 159).
@@ -62,6 +62,11 @@
 168	ΗΛ. in the margin is Ἠλέκτρα; the speakers ΧΟ./ΗΛ. alternate in the print as in Perseus for 168-178 (ΧΟ. is printed at τίνος, ἐχθροὶ; ΗΛ. at καὶ μὴν, μάλιστʼ): speakers kept.
 172	πλὴν is printed (the OCR was disturbed by pencil marks around πλὴν ἐμοῦ).
 174	the print ends the verse with a full stop (ὁμόπτερος.), Perseus with a dash: written as printed.
+153	res: comma after δεσπότᾳ, as printed
+156	res: comma after ἀπεύχετον, as printed
+165	res: comma after πατήρ (Perseus raised stop), as printed
+166	res: full stop after κοινωνήσατε, as printed
+171	res: no stop after οὖν, question mark after μάθω, as printed
 177	apparatus: the first η has a circumflex and a breathing (ἦ), the second also an iota subscript (ᾖ); the breathings are small and read as smooth.
 
 === p-0044
@@ -84,7 +89,7 @@
 190	ἐμὴ δὲ μήτηρ, οὐδαμῶς ἐπώνυμον
 191	φρόνημα παισὶ δύσθεον πεπαμένη.
 192	ἐγὼ δʼ ὅπως μὲν ἄντικρυς τάδʼ αἰνέσω,
-193	εἶναι τόδʼ ἀγλάισμά μοι τοῦ φιλτάτου
+193	εἶναι τόδʼ ἀγλάϊσμά μοι τοῦ φιλτάτου
 194	βροτῶν Ὀρέστου—σαίνομαι δʼ ὑπʼ ἐλπίδος.
 195	φεῦ. εἴθʼ εἶχε φωνὴν εὔφρονʼ ἀγγέλου δίκην,
 196	ὅπως δίφροντις οὖσα μὴ ʼκινυσσόμην,
@@ -112,11 +117,12 @@
 195	the round brackets around φεῦ. and the square bracket beside 201-204 are pencil, not print.
 196	ʼκινυσσόμην is printed on this verse.
 199	the print has ἐμοί, (acute, comma): written as printed.
+193	res: ἀγλάϊσμά with a diaeresis, as printed
 
 === p-0045
 --- text
 205	καὶ μὴν στίβοι γε, δεύτερον τεκμήριον,
-206	ποδῶν ὅμοιοι τοῖς τʼ ἐμοῖσιν ἐμφερεῖς—
+206	ποδῶν ὅμοιοι τοῖς τʼ ἐμοῖσιν ἐμφερεῖς.
 207	καὶ γὰρ δύʼ ἐστὸν τώδε περιγραφὰ ποδοῖν,
 208	αὐτοῦ τʼ ἐκείνου καὶ συνεμπόρου τινός.
 209	πτέρναι τενόντων θʼ ὑπογραφαὶ μετρούμεναι
@@ -144,7 +150,7 @@
 @ Ἠλέκτρα
 222	ἀλλʼ ἐν κακοῖσι τοῖς ἐμοῖς γελᾶν θέλεις.
 @ Ὀρέστης
-223	κἀν τοῖς ἐμοῖς ἄρʼ, εἴπερ ἔν γε τοῖσι σοῖς
+223	κἀν τοῖς ἐμοῖς ἄρʼ, εἴπερ ἔν γε τοῖσι σοῖς.
 @ Ἠλέκτρα
 224	ὡς ὄντʼ Ὀρέστην σʼ ὧδʼ ἐγὼ προσεννέπω;
 @ Ὀρέστης
@@ -174,6 +180,8 @@
 228	the print ends the verse with a raised stop (ἐμέ·), Perseus with a full stop: written as printed.
 229	the print reads *σκέψαι κόμῃ (Hartung, apparatus 229: "text Hart."; asterisk left out) where Perseus has τομῇ: written as printed.
 230	the print reads σαυτῆς ἀδελφοῦ, *ξύμμετρον τῷ σῷ κάρᾳ, (comma after ἀδελφοῦ, τῷ σῷ for Perseus's τὠμῷ, a comma at the end; asterisk left out; a pencil mark over the ν of ξύμμετρον and "=σοί" after κάρᾳ are handwriting): written as printed.
+206	res: full stop after ἐμφερεῖς (Perseus dash), as printed
+223	res: full stop after σοῖς, as printed
 225	apparatus: the item "Lines in MSS. come thus 226, 228, 227, 230, 229, 231 corr. H." is printed without a number of its own after the 225 items, so it carries 225; it concerns 226-231.
 
 === p-0046
@@ -187,7 +195,7 @@
 236	δακρυτὸς ἐλπὶς σπέρματος σωτηρίου,
 237	ἀλκῇ πεποιθὼς δῶμʼ ἀνακτήσει πατρός.
 238	ὦ τερπνὸν ὄμμα τέσσαρας μοίρας ἔχον
-239	ἐμοί· προσαυδᾶν δʼ ἐστʼ ἀναγκαίως ἔχον
+239	ἐμοί· προσαυδᾶν δʼ ἔστʼ ἀναγκαίως ἔχον
 240	πατέρα τε, καὶ τὸ μητρὸς ἐς σέ μοι ῥέπει
 241	στέργηθρον—ἡ δὲ πανδίκως ἐχθαίρεται—
 242	καὶ τῆς τυθείσης νηλεῶς ὁμοσπόρου·
@@ -199,13 +207,13 @@
 247	ἰδοῦ δὲ γένναν εὖνιν ἀετοῦ πατρός,
 248	θανόντος ἐν πλεκταῖσι καὶ σπειράμασι
 249	δεινῆς ἐχίδνης. τοὺς δʼ ἀπωρφανισμένους
-250	νῆστις πιέζει λιμός· οὐ γὰρ ἐντελεῖς
+250	νῆστις πιέζει λιμός. οὐ γὰρ ἐντελεῖς
 251	θήραν πατρῴαν προσφέρειν σκηνήμασιν.
 252	οὕτω δὲ κἀμὲ τήνδε τʼ, Ἠλέκτραν λέγω,
 253	ἰδεῖν πάρεστί σοι, πατροστερῆ γόνον,
 254	ἄμφω φυγὴν ἔχοντε τὴν αὐτὴν δόμων.
 255	καὶ τοῦ θυτῆρος καί σε τιμῶντος μέγα
-256	πατρὸς νεοσσοὺς τούσδʼ ἀποφθείρας πόθεν
+256	πατρὸς νεοσσοὺς τούσδʼ ἀποφθείρας, πόθεν
 257	ἕξεις ὁμοίας χειρὸς εὔθοινον γέρας;
 --- apparatus
 232	εἰς δὲ MSS. corr. Turn.
@@ -231,11 +239,14 @@
 249	ἀπωρφανισμένους is printed on this verse.
 255	the “ΗΛ.” in the margin is pencil (with pencil brackets and “P.” beneath, a student's note that Paley gives the lines to Electra), not print: no speaker change; Ὀρέστης continues.
 257	γέρας; is printed.
+239	res: ἔστʼ with breathing and acute, as printed
+250	res: full stop after λιμός, as printed
+256	res: comma after ἀποφθείρας, as printed (seen on the page while checking 257)
 
 === p-0047
 --- text
 258	οὔτʼ ἀετοῦ γένεθλʼ ἀποφθείρας πάλιν
-259	πέμπειν ἔχοις ἂν σήματʼ εὐπιθῆ βροτοῖς·
+259	πέμπειν ἔχοις ἂν σήματʼ εὐπιθῆ βροτοῖς,
 260	οὔτʼ ἀρχικός σοι πᾶς ὅδʼ αὐανθεὶς πυθμὴν
 261	βωμοῖς ἀρήξει βουθύτοις ἐν ἤμασι,
 262	κόμιζʼ, ἀπὸ σμικροῦ δʼ ἂν ἄρειας μέγαν
@@ -262,7 +273,7 @@
 281	λειχῆνας ἐξέσθοντας ἀρχαίαν φύσιν·
 282	λευκὰς δὲ κόρσας τῇδʼ ἐπαντέλλειν νόσῳ·
 283	ἄλλας τʼ ἐφώνει προσβολὰς Ἐρινύων
-284	ἐκ τῶν πατρῴων αἱμάτων τελουμένας·
+284	ἐκ τῶν πατρῴων αἱμάτων τελουμένας,
 --- apparatus
 261	ἐνήμασιν MSS.
 262	δαναρίας MSS. corr. Turn.
@@ -280,25 +291,27 @@
 277	the print reads τίσειν (Perseus τείσειν): written as printed.
 282	νόσῳ· is printed on this verse.
 283	the print has προσβολὰς with a grave (Perseus προσβολάς), seen while checking the page: written as printed. *τʼ ἐφώνει: asterisk left out; "τε φωνεῖ C." in the left margin is pencil.
+259	res: comma after βροτοῖς (Perseus raised stop), as printed
+284	res: comma after τελουμένας (Perseus raised stop), as printed
 
 === p-0048
 --- text
 285	τὸ γὰρ σκοτεινὸν τῶν ἐνερτέρων βέλος
 286	ἐκ προστροπαίων ἐν γένει πεπτωκότων,
-287	καὶ λύσσα καὶ μάταιος ἐκ νυκτῶν φόβος
-288	ὁρῶντα λαμπρὸν ἐν σκότῳ νωμῶντʼ ὀφρὺν
+287	καὶ λύσσα, καὶ μάταιος ἐκ νυκτῶν φόβος
+288	(ὁρῶντα λαμπρὸν ἐν σκότῳ νωμῶντʼ ὀφρὺν)
 289	κινεῖ, ταράσσει, καὶ διώκεσθαι πόλεως
 290	χαλκηλάτῳ πλάστιγγι λυμανθὲν δέμας.
 291	καὶ τοῖς τοιούτοις οὔτε κρατῆρος μέρος
 292	εἶναι μετασχεῖν, οὐ φιλοσπόνδου λιβός,
 293	βωμῶν τʼ ἀπείργειν οὐχ ὁρωμένην πατρὸς
 294	μῆνιν, δέχεσθαι δʼ οὔτε συλλύειν τινά,
-295	πάντων δʼ ἄτιμον κἄφιλον θνῄσκειν χρόνῳ
+295	πάντων δʼ ἄτιμον κἄφιλον θνῄσκειν χρόνῳ,
 296	κακῶς ταριχευθέντα παμφθάρτῳ μόρῳ.
 297	τοιοῖσδε χρησμοῖς ἆρα χρὴ πεποιθέναι;
 298	κεἰ μὴ πέποιθα, τοὔργον ἔστʼ ἐργαστέον.
 299	πολλοὶ γὰρ εἰς ἓν συμπίτνουσιν ἵμεροι,
-300	θεοῦ τʼ ἐφετμαὶ καὶ πατρὸς πένθος μέγα,
+300	θεοῦ τʼ ἐφετμαί, καὶ πατρὸς πένθος μέγα,
 301	καὶ πρὸς πιέζει χρημάτων ἀχηνία,
 302	τὸ μὴ πολίτας εὐκλεεστάτους βροτῶν,
 303	Τροίας ἀναστατῆρας εὐδόξῳ φρενί,
@@ -321,7 +334,11 @@
 306	μοῖρε M., αι superscr.
 311	δίκην μέγαυτι. M. (acc. Merkel: H. reads it δίκηαμέγαυτῖ, α after δίκη erased). οἶμαι μέγʼ ἀϋτεῖ on margin of M. δίκης μέγʼ ἀϋτεῖ G.
 --- notes
-285	the square brackets at 285 and after ταράσσει (289) and the round brackets around ὁρῶντα ... ὀφρὺν (288) are pencil, not print: no brackets written. The margin numbers 285, 290, 295, 300, 305, 310 agree with the draft's numbering.
+285	the square brackets at 285 and after ταράσσει (289) are pencil, not print: not written. (The round brackets around 288: see 288.) The margin numbers 285, 290, 295, 300, 305, 310 agree with the draft's numbering.
 294	the print has no angle brackets: μῆνιν, δέχεσθαι *δʼ οὔτε συλλύειν τινά, (Schütz's δʼ marked with an asterisk, left out; apparatus 294; comma after μῆνιν and at the end): written as printed.
 308	the print begins the verse with ᾗ (ᾗ τὸ δίκαιον μεταβαίνει.), which Perseus lacks; seen while checking the page (the OCR has it too): written as printed.
+287	res: comma after λύσσα, as printed
+288	res: round brackets round the verse, as printed: on a second look both are type (as dark as the printed [ at 150, upright and shaded; the student's pencil brackets, as at 75, are much fainter), the closing one touched by the pencil gloss beside it
+295	res: comma after χρόνῳ, as printed
+300	res: ἐφετμαί, with an acute and a comma, as printed
 311	the print reads πράσσουσα *δίκη μέγʼ ἀϋτεῖ· (lower-case δίκη, diaeresis on ἀϋτεῖ; asterisk left out): written as printed.

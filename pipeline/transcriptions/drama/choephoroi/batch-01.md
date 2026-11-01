@@ -218,7 +218,7 @@
 104	καὶ τὸν πρὸς ἄλλης δεσποτούμενον χερός.
 105	λέγοις ἄν, εἴ τι τῶνδʼ ἔχοις ὑπέρτερον.
 @ Χορός
-106	αἰδουμένη σοι βωμὸν ὡς τύμβον πατρὸς
+106	αἰδουμένη σοὶ βωμὸν ὡς τύμβον πατρὸς
 107	λέξω, κελεύεις γάρ, τὸν ἐκ φρενὸς λόγον.
 @ Ἠλέκτρα
 108	λέγοις ἄν, ὥσπερ ᾐδέσω τάφον πατρός.
@@ -229,7 +229,7 @@
 @ Χορός
 111	πρῶτον μὲν αὑτήν, χὤστις Αἴγισθον στυγεῖ.
 @ Ἠλέκτρα
-112	ἐμοί τε καὶ σοί τἄρʼ ἐπεύξομαι τάδε.
+112	ἐμοί τε καὶ σοὶ τἄρʼ ἐπεύξομαι τάδε.
 @ Χορός
 113	αὐτὴ σὺ ταῦτα μανθάνουσʼ ἤδη φράσαι.
 @ Ἠλέκτρα
@@ -271,6 +271,8 @@
 119	seen on the image: the print has no dash after τινα; removed.
 121	seen on the image: the print has ἁπλῶς (rough breathing only; the acute on the α in the draft is a Perseus slip, and the mark above it on the page is a pencil note); corrected.
 123	κῆρυξ μέγιστε … renumbered 123a: the print gives it no number (margin 120 at πότερα, so πῶς δʼ οὐ is 123), and the apparatus numbers the next verse, ἄρηξον, 124 (margin 125 at τοὺς γῆς). The apparatus items on this verse are printed under 123 and written so.
+106	res: σοὶ with a grave, as printed
+112	res: σοὶ with a grave, as printed
 
 === p-0042
 --- text
