@@ -81,6 +81,7 @@
 1286	res: full stop after ἀπόδοτε, as printed (not a raised stop; clear on the enlarged crop)
 1288	res: comma after γίγνεται, as printed
 1293	res: commas after μέν and κακόδαιμον, and μέν with acute before the comma, as printed
+1296	app2: facing block on leaf 377 checked on the crops p-0376-app2-l/-r: both 1296 items (ἀποδιώξεις codd. … is inclined to accept || ἀπὸ Δ dett. al. … Ach. Introd. p. lxxx. 13) are in the apparatus complete and as printed; no change.
 
 === p-0378
 --- text
@@ -130,6 +131,7 @@
 1298	apparatus: μαρτ is printed μαρ with a superscript τ (V's speaker mark for the witness); Unicode has no superscript τ, so written μαρτ (as ΣΤρ in batch 20).
 1304-1305	apparatus: printed "1304 sq."; written as 1304-1305.
 1307	apparatus: "1307 sqq." written as 1307 with "sqq." at the head of the item, as in the earlier batches. The paragraph breaks off at "(3) . ." at the foot of this page and runs on at the foot of the facing translation page (leaf 379, between the two rules) through the 1307 and 1309 items; read from pages/leaf_0379.png and written here. The pointed brackets of the 1309 item are printed ⟨ ⟩.
+1307	app2: facing block on leaf 379 checked on the crops p-0378-app2-l/-r: the end of the 1307 sqq. item ((4) . . λαβεῖν … (9) . . βουλήσεται), the 1307 item (λήψεται RV etc. … κτλ.)) and the 1309 item (σοφιστὴν ὧν codd. … Schroeder ⟨κακῶς ἀνθʼ⟩) are complete and as printed (οἱ, ἕψεται, πρᾶγμ without apostrophe confirmed on enlarged crops); no change.
 
 === p-0380
 --- text
@@ -259,3 +261,4 @@
 1350	apparatus: "τἀν|θρώπου" printed with the bar (Hermann's verse division): kept.
 1352	apparatus: the paragraph ends on this page with "Hermann δ." and runs on at the foot of the facing translation page (leaf 385, between the two rules) with the end of 1350 and the whole 1352 item; read from pages/leaf_0385.png and written here. The facing pages 375, 381 and 383 have no apparatus block.
 1350	rev: apparatus item 1350 (δῆλον … τὸ λῆμα) is printed with Starkie's number 1350 and kept so; its lemma δῆλον stands on our verse 1349 (ἀλλʼ ἔσθʼ … δῆλόν γε τἀνθρώπου), since the print divides τἀν-|θρώπου ἔστι τὸ λῆμα. as verse 1350.
+1352	app2: facing block on leaf 385 checked on the crops p-0384-app2-l/-r: the end of the 1350 item (γε τἀν|θρώπου ʼστὶ τὸ λῆμα) and the whole 1352 item (ἤδη λέγειν χρὴ πρὸς χορόν codd. … occurs in a lyric) are complete and as printed; no change.
