@@ -133,6 +133,7 @@
 1168	res: comma after the first φίλος, as printed
 1170	res: ἰὼ ἰώ, τέκνον· (acute on the second ἰώ, comma after it, raised stop after τέκνον), as printed; replaces the earlier note that left the punctuation
 1163	res: numbering checked on the whole page: margin 1160 at ἀμφήκει and 1165 at ὦ τέκνον, three printed verses between; run on from 1160 they are 1161, 1162, 1163, and Starkie's commentary on leaf 355 has "1162. λυσανίας" and "1163. τρέχων" (seen on the page). 1163 kept, 1164 skipped; only the apparatus item has 1164.
+1169	app2: facing block on leaf 355 checked on the crops p-0354-app2-l/-r: the end of 1169 ("the unnecessary pron. σου should be deleted (Ach. Introd. p. lxxx. 12 (a))") and the items 1170 (two) and 1171 (three) are all present, words, sigla and accents as printed; no change.
 
 === p-0356
 --- text
