@@ -106,6 +106,31 @@ it under that note); `+ ` only where a paragraph runs on. Where Sidgwick numbers
 line our text (texts/<play>/grc.txt) numbers otherwise, keep his number and say under notes
 which of our lines it is.
 
+**Starkie's Clouds (commentary, introduction, translation).** Clean print, no handwriting.
+* *Commentary* (`notes-NN.md`): on every page of the play, in two columns under a rule: on the
+  Greek (even) pages under the second rule (above it are the verses and the apparatus, not
+  yours), on the translation (odd) pages under the rule below the translation (where a page has
+  two rules there, the band between them is the apparatus run on, not yours). A note begins with
+  the line number and a stop in bold, then the lemma in bold Greek and a colon ("5. **οἰκέται**:
+  schol. V (int.) …"): heading `## 5`, the lemma `**οἰκέται**:`. A further lemma without a
+  number ("**οὐκ ἄν**: schol. V …") is a new paragraph under the same heading. Ranges ("1345-1451.
+  Agon II.", "119 sq.") become `## 1345-1451`, `## 119`. He quotes the scholia at length in
+  Greek, with his signs: keep `[ ]`, `⟨ ⟩` (printed < >), `R`, `V`, `(int.)`, `(ext.)`,
+  `Su.`, `cp.`, as printed; references (Ach. 412 n., Kühner-Gerth, Gram. § 398. 4) exactly.
+* *Introduction* (`intro-NN.md`): numbered chapters ("I. THE DATE OF THE CLOUDS" → `# I. The
+  Date of the Clouds`), sections and footnotes by the introduction rules above; Greek
+  quotations of several verses on their own lines with ` | `. The Greek hypotheses (leaves
+  101-106) are Greek prose and verse: each hypothesis `# Hypothesis I` and so on, the Greek
+  exactly as printed, Starkie's footnotes as `[Note: …]`. The list of persons (leaf 107) as one
+  paragraph of names separated by ` · `.
+* *Translation* (`trans-NN.md`): one column above the rule on each odd page. Speakers are
+  printed in small capitals with a stop at the start of a speech (STREPS., PHID., SOCR., DISC.,
+  CHOR., STUD.); the stage directions are in italics in parentheses inside the speeches: keep
+  them in parentheses in the text, without the italics marks. The line number of each speech is
+  the Greek verse where the speech begins on the facing page (its draft:
+  `pipeline/build/drama-pages/clouds/p-NNNN.md`, the page number one less than the translation
+  page's); the margin numbers of the facing page fix it.
+
 **Your own files.** Scripts, enlarged crops and other helpers go only in a folder of your own,
 named after your batch file, under the session's scratchpad folder (e.g.
 `<scratchpad>/agamemnon-notes-03/`); other agents work beside you at the same time and use the

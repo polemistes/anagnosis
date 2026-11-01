@@ -116,6 +116,24 @@ def _region(play: Play, kind: str, leaf: int, lines: list[dict], size: tuple[int
     cover = [(sum(1 for l in body if l["bbox"][0] < x < l["bbox"][2]), abs(x - (x0 + x1) / 2), x) for x in xs]
     best = min(cover) if cover else (len(body), 0, 0)
     two = best[0] <= max(1, len(body) // 12) and len(body) >= 8
+    if kind == "trans" and play.layout == "jebb":
+        # Starkie's translation is one column; Tesseract splits a justified line at a wide space
+        # into pieces that look like two columns: put the pieces of one printed line together
+        two = False
+        body.sort(key=lambda l: (l["bbox"][1] + l["bbox"][3]) / 2)
+        merged: list[dict] = []
+        for l in body:
+            m = merged[-1] if merged else None
+            if m is not None:
+                ov = min(m["bbox"][3], l["bbox"][3]) - max(m["bbox"][1], l["bbox"][1])
+                if ov > 0.5 * min(m["bbox"][3] - m["bbox"][1], l["bbox"][3] - l["bbox"][1]):
+                    a, b = (m, l) if m["bbox"][0] <= l["bbox"][0] else (l, m)
+                    m["words"] = a["words"] + b["words"]
+                    m["bbox"] = [min(a["bbox"][0], b["bbox"][0]), min(a["bbox"][1], b["bbox"][1]),
+                                 max(a["bbox"][2], b["bbox"][2]), max(a["bbox"][3], b["bbox"][3])]
+                    continue
+            merged.append(l)
+        body = merged
     mid = best[2] if two else 0
     for l in body:
         l["region"] = ("left" if (l["bbox"][0] + l["bbox"][2]) / 2 < mid else "right") if two else "one"
