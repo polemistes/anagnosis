@@ -1,766 +1,636 @@
 === p-0085
-13 : antispast + iambic syzygy
+13: antispast + iambic syzygy (antispastic dimeter acatal.; also called Glyconic).
 
-(antispastic dimeter acatal. ; also called Glyconic).
+14: antispast + bacchius (antispastic dimeter catal.; also called Pherecratean).¹
 
-[1 : antispast + bacchius
+[Note: ¹ cp. J. W. White, ib. p. 15.]
 
-(antispastic dimeter catal. ; also called Pherecratean).! 575-94 ἐπίρρημα = 607-26 ἀντεπίρρημα : iambic tetrameters
+575-94 ἐπίρρημα = 607-26 ἀντεπίρρημα: iambic tetrameters acatal.
 
-acatal.
+## ΣΥΖΥΓΙΑ Α
 
-# Stzttia a
+627-99 ἐπίρρημα = 723-803 ἀντεπίρρημα: iambic trimeters acatal.
 
-627-99 ἐπίρρημα -- 128-803 ἀντεπίρρημα : iambic trimeters
+700-6 ᾠδή = 804-13 ἀντῳδή (choriambo-glyconic).²
 
-acatal.
+[Note: ² cp. J. W. White, ib. p. 4, v. Wilamowitz, *Isyllos v. Epidauros*, p. 136, Muff, ib. pp. 75, 141.]
 
-700-6 ὠδή = 804-13 ἀντῳδή (choriambo-glyconic).?
+1: iambic syzygy + choriambus.
 
-# 1: iambic syzygy + choriambus
+2: choriambus + bacchius.
 
-4s : choriambus + bacchius.
+3: ⏑–⏑– – (trinarius prosod.).³
 
-3:v—v— -
+[Note: ³ Called by Heliodorus an iambic penth., cp. Schroeder, ib. p. 95.]
 
-# (trinarius prosod.).?
+4: ⏒–⏑⏑– ⏑⏑–⏑– (quatern.).⁴
 
-4: o—~vwv-—
+[Note: ⁴ Dimeter enopliac, cp. Schroeder, p. 92. Analyzed by Heliodorus as ἀπὸ χοριάμβου βάσεως εἰς χορίαμβον (implying a difference of reading).]
 
-# Nt Nh | πὶ, -
+5: trinarius.⁵
 
-(quatern.).
+[Note: ⁵ According to Heliodorus, who takes πέσῃς in this line, an iambic dimeter catal.]
 
-5: trinarius.’
+6: iambic dimeter acatal.
 
-6 : iambic dimeter acatal.
+7: choriambus + iambic syzygy.
 
-A : choriambus + iambic syzygy.
+8: ⟨choriambus⟩ + choriambus (‘pure’ choriambic dimeter).
 
-17: choriambus + iambic Syzygy.
+9: choriambus + choriambus.
 
-# 8 : <choriambus) + choriambus
+10: iambic dimeter acatal.⁶
 
-# (‘ pure’ choriambic dimeter)
+[Note: ⁶ Enopliac dimeter, cp. Schroeder, ib. p. 92.]
 
-9 : choriambus + choriambus.
+11: choriambus + bacchius (*cola* 8-11 seem to have been lost in the Ode).
 
-10 : iambic dimeter acatal.®
+707: cretic + cretic.
 
-11: choriambus + bacchius
+708: bacchius + bacchius⁷ (perhaps a syncopated iambic dimeter).
 
-(cola 8-11 seem to have been lost in the Ode). 707 : cretic + cretic.
+[Note: ⁷ cp. Muff, ib. p. 80, Christ, ib. p. 415.]
 
-708 : bacchius + bacchius” (perhaps a syncopated iambic
+709-10: iambic trimeters acatal.
 
-dimeter).
+711-22: threnodic anapaestic dimeters⁸ (with the exception of 715, 717, 721 which are anapaestic monometers acatal., and 722 which is a paroemiac).
 
-709-10 : iambic trimeters acatal.
-
-711-22: threnodic anapaestic dimeters® (with the exception
-
-of 715, 717, 721 which are anapaestic monometers
-
-acatal., and 722 which is a paroemiac).
-
-1 cp. J. W. White, ib. p. 15.
-
-ing a difference of reading). 2icp-i 7. Μ- White, ib. p. 4, ν.
-
-> According to Heliodorus, who takes
-
-πέσῃς in this line, an iambic dimeter Wilamowitz, Isyllos v. Epidauros, p.
-
-catal.
-
-136, Muff, ib. pp. 75, 141.
-
-3 Called by Heliodorus an iambic
-
-6 Enopliac dimeter, cp. Schroeder, ib. penth., cp. Schroeder, ib. p. 95.
-
-Ῥ- 92.
-
-4 Dimeter enopliac, cp. Schroeder, p.
-
-7 cp. Muff, ib. p. 80, Christ, ib. p. 415.
-
-8 cp. Christ, ib. p. 263, Rossbach- 92. Analyzed by Heliodorus as ἀπὸ χοριάμβου βάσεώς εἰς χορίαμβον (imply-
-
-Westphal, ib. p. 154.
+[Note: ⁸ cp. Christ, ib. p. 263, Rossbach-Westphal, ib. p. 154.]
 --- flags
-1 13 [conf] →
-2 + [conf] →
-3 iambic [conf] →
-4 acatal [rare] →
-5 Pherecratean [rare] →
-6 = [conf] →
-7 607-26 [conf] →
-8 ἀντεπίρρημα [conf] →
-9 : [conf] →
-10 acatal [rare] →
-11 STZTTIA [latin] (Greek model: ΣΥΖΥΎΓΙΑ.) →
-12 acatal [rare] →
-13 choriambo [latin] (Greek model: (οβουίαμο-]γοοπίολ") →
-14 1: [digit] →
-15 4s [digit] →
-16 3:v—v— [conf] (Greek model: ϑιωπῳωυἝ-) →
-17 trinarius [rare] →
-18 prosod [latin] (Greek model: Ῥτοϑοά.).5) →
-19 vwv [latin] (Greek model: , - ὦ -) →
-20 Nt [conf] →
-21 Nh [conf] →
-22 | [conf] →
-23 πὶ, [conf] →
-24 quatern [latin] (Greek model: (υαΐοτῃ.).") →
-25 trinarius [latin] (Greek model: ἐτϊπατίαβ.ὅ) →
-26 acatal [rare] →
-27 A [conf] →
-28 + [conf] →
-29 iambic [conf] →
-30 17: [conf] →
-31 iambic [conf] →
-32 (‘ [conf] →
-33 pure’ [conf] →
-34 acatal [rare] (Greek model: δοαίδ].5) →
-35 bacchius” [conf] →
-36 acatal [rare] →
-37 threnodic [rare] →
-38 715, [conf] →
-39 monometers [rare] →
-40 acatal [latin] (Greek model: δοαύα!.,) →
-41 1 [digit] →
-42 2icp-i [digit] (Greek model: 2 Ὁ}.) →
-43 Μ- [conf] →
-44 4, [conf] →
-45 Isyllos [rare] →
-46 Epidauros [latin] (Greek model: Ἐρίάαιιγος,) →
-47 6 [conf] →
-48 Enopliac [rare] →
-49 Ῥ- [conf] →
-50 enopliac [rare] →
-51 cp. [conf] →
-52 χοριάμβου [greek] (Greek model: χοριάμβου.) →
-53 χορίαμβον [greek] (Greek model: 'χορίαμβον) →
-54 (imply- [conf] →
+1 13 [conf] → ok
+2 + [conf] → ok
+3 iambic [conf] → ok
+4 acatal [rare] → ok (acatal.)
+5 Pherecratean [rare] → Pherecratean).¹
+6 = [conf] → ok
+7 607-26 [conf] → ok
+8 ἀντεπίρρημα [conf] → ok
+9 : [conf] → ok
+10 acatal [rare] → ok (acatal.)
+11 STZTTIA [latin] (Greek model: ΣΥΖΥΎΓΙΑ.) → ΣΥΖΥΓΙΑ (heading ## ΣΥΖΥΓΙΑ Α)
+12 acatal [rare] → ok (acatal.)
+13 choriambo [latin] (Greek model: (οβουίαμο-]γοοπίολ") → ok (choriambo-glyconic).²
+14 1: [digit] → 1:
+15 4s [digit] → 2:
+16 3:v—v— [conf] (Greek model: ϑιωπῳωυἝ-) → 3: ⏑–⏑– – (metrical scheme)
+17 trinarius [rare] → ok (trinarius prosod.).³
+18 prosod [latin] (Greek model: Ῥτοϑοά.).5) → ok
+19 vwv [latin] (Greek model: , - ὦ -) → ⏒–⏑⏑– ⏑⏑–⏑– (metrical scheme of colon 4)
+20 Nt [conf] → part of the scheme of colon 4 (written ⏑⏑–⏑–)
+21 Nh [conf] → part of the scheme of colon 4
+22 | [conf] → part of the scheme of colon 4
+23 πὶ, [conf] → part of the scheme of colon 4
+24 quatern [latin] (Greek model: (υαΐοτῃ.).") → ok (quatern.).⁴
+25 trinarius [latin] (Greek model: ἐτϊπατίαβ.ὅ) → trinarius.⁵
+26 acatal [rare] → ok (acatal.)
+27 A [conf] → 7:
+28 + [conf] → ok
+29 iambic [conf] → ok
+30 17: [conf] → 7: (the colon number, not 17)
+31 iambic [conf] → ok
+32 (‘ [conf] → (‘pure’
+33 pure’ [conf] → ok
+34 acatal [rare] (Greek model: δοαίδ].5) → ok (acatal.⁶)
+35 bacchius” [conf] → bacchius⁷
+36 acatal [rare] → ok (acatal.)
+37 threnodic [rare] → ok
+38 715, [conf] → ok
+39 monometers [rare] → ok
+40 acatal [latin] (Greek model: δοαύα!.,) → ok (acatal.)
+41 1 [digit] → ¹ (footnote mark)
+42 2icp-i [digit] (Greek model: 2 Ὁ}.) → ² cp.
+43 Μ- [conf] → W.
+44 4, [conf] → ok
+45 Isyllos [rare] → *Isyllos*
+46 Epidauros [latin] (Greek model: Ἐρίάαιιγος,) → *Epidauros*
+47 6 [conf] → ⁶ (footnote mark)
+48 Enopliac [rare] → ok
+49 Ῥ- [conf] → p.
+50 enopliac [rare] → ok
+51 cp. [conf] → ok
+52 χοριάμβου [greek] (Greek model: χοριάμβου.) → ok
+53 χορίαμβον [greek] (Greek model: 'χορίαμβον) → ok
+54 (imply- [conf] → ok (implying, word joined)
 --- notes
+Page head (METRICAL ANALYSIS lxxv) left out. Cola 13-14 continue the list of the ode begun on the page before: new paragraphs, no '+ '. Each colon or line-range entry is a paragraph, its continuation line joined; the braces that pair cola are not written. Metrical signs: – long, ⏑ short, ⏒ long over short; each printed group of signs written without spaces, groups separated by one space (as in intro-10). Heading ΣΥΖΥΓΙΑ Α as ## (Greek capitals, as printed); the draft's stray headings ("# 1: …", "# (trinarius prosod.)", "# Nt Nh …", "# 8 : …") made paragraphs. ὠδή read ᾠδή (iota subscript printed). Footnotes 1-8 rewritten from the image (the two columns were jumbled) and placed after the entry holding each mark; marks as superscripts. Spaces before colons and semicolons dropped, as in the other batches.
 
 === p-0086
-# 2tzttia B
+## ΣΥΖΥΓΙΑ Β
 
-814-65 ἐπίρρημα = 866-88 ἀντεπίρρημα. (There is no edn or
+814-65 ἐπίρρημα = 866-88 ἀντεπίρρημα. (There is no ᾠδή or ἀντῳδή in this edition of the play.)
 
-# ἀντῳδή in this edition of the play.)
+## ΠΡΟΑΓΩΝ
 
-# Itpoatqon
+889-948: anapaestic dimeters acatal. (with the exception of 934, 941 which are anapaestic monometers acatal., and 948 which is a paroemiac).
 
-889-948 : anapaestic dimeters acatal. (with the exception of
+## ΑΓΩΝ Α
 
-934, 941 which are anapaestic monometers acatal.,
+949-58 ᾠδή = 1024-33 ἀντῳδή (choriambo-glyconic).¹
 
-and 948 which is a paroemiac).
+[Note: ¹ cp. Schroeder, ib. p. 96, J. W. White, ib. p. 5.]
 
-# Aton a
+1: iambic syzygy + choriambus.
 
-949-58 ὠδή = 1024-33 ἀντῳδή (choriambo-glyconic).!
+2: choriambus + bacchius.
 
-# 1: iambic syzygy + choriambus
+3: iambic syzygy + choriambus.
 
-# :: : choriambus + bacchius
+4: choriambus + bacchius.
 
-# 3 : iambic syzygy + choriambus
+5: iambic syzygy + choriambus.²
 
-# Ὁ : choriambus +bacchius
+[Note: ² cp. n. ad loc. The text of the Ode is corrupt here.]
 
-# 5: iambic syzygy + choriambus.?
+6: iambic syzygy + choriambus.
 
-# 6 : iambic syzygy + choriambus
+7: ⏒⏓⏑–³ + choriambus +
 
-ἐξα --9
+[Note: ³ For the substitution of an iambic syzygy for a choriambus cp. J. W. White, ib. p. 5.]
 
-# fr : ~~~ +choriambus +
+8: choriambus.
 
-8 : choriambus.
+9: choriambus + iambic syzygy.
 
-# { 9 : choriambus + iambic syzygy
+10: choriambus + bacchius.
 
-# 10 : choriambus + bacchius
+959-60 κατακελευσμός: anapaestic tetrameters catal. = 1034-5 ἀντικατακελευσμός: iambic tetrameters catal.
 
-959-60 κατακελευσμός : anapaestic tetrameters catal. = 1034-5
+961-1008 ἐπίρρημα: anapaestic tetrameters catal. = 1036-88 ἀντεπίρρημα: iambic tetrameters catal. (1085-88 of the ἀντεπίρρημα are iambic trimeters acatal.).
 
-ἀντικατακελευσμός : iambic tetrameters catal. 961-1008 ἐπίρρημα: anapaestic tetrameters catal. = 1036-88
+1009-23 πνῖγος = 1089-1104 ἀντίπνιγος. 1009-23: anapaestic dimeters acatal. 1023: paroemiac.
 
-ἀντεπίρρημα : iambic tetrameters catal. (1085-88 of
-
-the ἀντεπίρρημα are iambic trimeters acatal.). 1009-23 πνῖγος —1089-1104 avtimyiyos. 1009-23: anapaestic
-
-# dimeters acatal. 1023: paroemiac
-
-1089-1104 : iambic dimeters acatal. (with the exception of
-
-1097, 1102 which are iambic monometers acatal., and
-
-1104 which is an iambic dimeter catal.).
+1089-1104: iambic dimeters acatal. (with the exception of 1097, 1102 which are iambic monometers acatal., and 1104 which is an iambic dimeter catal.).
 
 1105-12: iambic trimeters acatal.
-
-[Note: 1 cp. Schroeder, ib. p. 96, J. W. 3 For the substitution of an iambic White, ib. p. 5. syzygy for a choriambus cp. J. W.]
-
-[Note: 2 cp. n. ad loc. The text of the Ode White, ib. p. 5. is corrupt here.]
 --- flags
-1 2TZTTIA [digit] (Greek model: ΣΥΖΥΓΙ͂Α.) →
-2 TZTTIA [latin] (Greek model: ΣΥΖΥΓΙ͂Α.) →
-3 edn [latin] (Greek model: φδή) →
-4 ITPOATQON [latin] (Greek model: ΠΡΟΑΓΩΝ) →
-5 acatal [rare] →
-6 monometers [rare] →
-7 acatal [rare] →
-8 choriambo [latin] (Greek model: (Ομοιίδιηθο-οἸγοοπίο)") →
-9 1: [digit] →
-10 :: [conf] →
-11 Ὁ [conf] →
-12 choriambus.? [conf] →
-13 ἐξα [conf] →
-14 --9 [conf] →
-15 fr [conf] →
-16 +choriambus [conf] →
-17 + [conf] →
-18 iambic [conf] →
-19 = [conf] →
-20 1034-5 [conf] →
-21 ἀντικατακελευσμός [greek] →
-22 iambic [conf] →
-23 acatal [rare] →
-24 πνῖγος [conf] →
-25 avtimyiyos [latin] (Greek model: ἀντίπνιγος.) →
-26 acatal [rare] →
-27 acatal [rare] →
-28 monometers [rare] →
-29 acatal [rare] →
-30 acatal [rare] →
-31 1 [digit] →
-32 W. [conf] →
+1 2TZTTIA [digit] (Greek model: ΣΥΖΥΓΙ͂Α.) → ΣΥΖΥΓΙΑ (heading ## ΣΥΖΥΓΙΑ Β)
+2 TZTTIA [latin] (Greek model: ΣΥΖΥΓΙ͂Α.) → ΣΥΖΥΓΙΑ
+3 edn [latin] (Greek model: φδή) → ᾠδή
+4 ITPOATQON [latin] (Greek model: ΠΡΟΑΓΩΝ) → ΠΡΟΑΓΩΝ (heading ## ΠΡΟΑΓΩΝ)
+5 acatal [rare] → ok (acatal.)
+6 monometers [rare] → ok
+7 acatal [rare] → ok (acatal.)
+8 choriambo [latin] (Greek model: (Ομοιίδιηθο-οἸγοοπίο)") → ok (choriambo-glyconic).¹
+9 1: [digit] → 1:
+10 :: [conf] → 2:
+11 Ὁ [conf] → 4:
+12 choriambus.? [conf] → choriambus.²
+13 ἐξα [conf] → 7: (the draft's garbled colon 7: ⏒⏓⏑–³, a choriamb printed over an iambic syzygy)
+14 --9 [conf] → part of the scheme of colon 7
+15 fr [conf] → 7:
+16 +choriambus [conf] → ok (+ choriambus)
+17 + [conf] → ok
+18 iambic [conf] → ok
+19 = [conf] → ok
+20 1034-5 [conf] → ok
+21 ἀντικατακελευσμός [greek] → ok
+22 iambic [conf] → ok
+23 acatal [rare] → ok (acatal.)
+24 πνῖγος [conf] → ok
+25 avtimyiyos [latin] (Greek model: ἀντίπνιγος.) → ἀντίπνιγος
+26 acatal [rare] → ok (acatal.)
+27 acatal [rare] → ok (acatal.)
+28 monometers [rare] → ok
+29 acatal [rare] → ok (acatal.)
+30 acatal [rare] → ok (acatal.)
+31 1 [digit] → ¹ (footnote mark)
+32 W. [conf] → ok
 --- notes
+Page head (lxxvi THE CLOUDS OF ARISTOPHANES) left out. Headings ΣΥΖΥΓΙΑ Β, ΠΡΟΑΓΩΝ, ΑΓΩΝ Α as ## (Greek capitals as printed); the draft’s stray headings made paragraphs. The cola 1-10 rewritten from the image (the draft had garbled 2, 4 and 7). Colon 7: the print stacks –⏑⏑– over ⏑–⏑–; written position by position as ⏒⏓⏑–. Metrical signs: groups without spaces, separated by one space. Footnotes 1-3 rewritten (the columns were jumbled) and placed after the entries holding their marks. Braces not written; spaces before colons dropped.
 
 === p-0087
-METRICAL ANALYSIS Ixxvii
+## ΠΑΡΑΒΑΣΙΣ ΧΟΡΟΥ Β
 
-# Παραβασις Χοροῦ B
-
-1113 κομμάτιον : iambic tetrameter catal.
+1113 κομμάτιον: iambic tetrameter catal.
 
 1114-30 ἐπίρρημα: trochaic tetrameters catal.
 
-# Eiteizoaion B
+## ΕΠΕΙΣΟΔΙΟΝ Β
 
-1131-53 : iambic trimeters acatal.
+1131-53: iambic trimeters acatal.
 
-1154: iambic syzygy + ‘lecythion’' (syncopated iambic
+1154: iambic syzygy + ‘lecythion’¹ (syncopated iambic trimeter).
 
-trimeter).
+[Note: ¹ Called by schol. Ald. (who reads ἄρα) an iambic base + trochaeus penth. For an analysis of these verses cp. Rossbach-Westphal, ib. p. 305.]
 
-1155: 1lambic syzygy + ‘lecythion’ (syncopated iambic
+1155: iambic syzygy + ‘lecythion’ (syncopated iambic trimeter).²
 
-trimeter).?
+[Note: ² Called by schol. Ald. an iambic base + trochaeus hephth., cp. Schroeder, ib. p. 94.]
 
-1156-7 : iambic trimeters acatal.
+1156-7: iambic trimeters acatal.
 
-1158-9: — vv — ov <= (enopliac dimeters catal.).?
+1158-9: –⏑⏑– ⏑⏑–͡– (enopliac dimeters catal.).³
 
-1160: — — — — — — —* (enopliac iambic trimeter, with violent
+[Note: ³ Called by schol. Ald. a dact. penth.]
 
-syncopations).
+1160: –– – ––––⁴ (enopliac iambic trimeter, with violent syncopations).
 
-1161 : iambic trimeter acatal.’
+[Note: ⁴ Called by schol. Ald. a dact. penth. (hephth.?), cp. Schroeder, ib. p. 99; and for similar syncopations *Ach.* 1212 (⏑–⏑–––––), and Christ, ib. p. 83.]
 
-1162-3 : dochmiac dimeters acatal.
+1161: iambic trimeter acatal.⁵
+
+[Note: ⁵ A curiously formed enopliac (iambic) trimeter, which is probably a parody of an Euripidean extravagance.]
+
+1162-3: dochmiac dimeters acatal.
 
 1165-7: anapaestic dimeters acatal.
 
-1168-9 anapaestic monometer + (iambic syzygy ° + bacchius) 7
+1168-9 anapaestic monometer + (iambic syzygy⁶ + bacchius)⁷ (= syncopated iambic dimeter).
 
-( = syncopated iambic dimeter).
+[Note: ⁶ Enopliac dimeter, cp. Schroeder, ib. p. 92.]
 
-1170 : dochmiac dimeter acatal.
+[Note: ⁷ cp. Schroeder, ib. p. 92.]
 
-1171-1205 : iambic trimeters acatal.
+1170: dochmiac dimeter acatal.
+
+1171-1205: iambic trimeters acatal.
 
 1206-13.
 
-# 8
+1: ∧∨⏑– –⏑⏑⏑⁸ (iambic dimeter, acephalous and syncopated).
 
-# Τί Λιν
+[Note: ⁸ cp. Schroeder, ib. p. 98. Analyzed by schol. Ald. as an Ionic a minore dimeter catal. I have provisionally accepted Schroeder’s analysis, but I confess that this line, which doubtless was accompanied by lively steps and gesticulations, has very little of an iambic quality. As Mr. Beare remarks to me, “acephalous is the man who says it has.”]
 
-# =a Ns Ns
+2: ––⏑– –⏑– (syncopated iambic dimeter).
 
-wv —
-
-(iambic dimeter, acephalous and syncopated).
-
-2: — — uv — A
-
-# (syncopated iambic dimeter),
-
-Bi—i— i=
-
-# -- ., -
-
-# (syncopated iambic dimeter)
-
-! Called by schol. Ald. (who reads
-
-trimeter, which is probably a parody dpa) an iambic base + trochaeus penth.
-
-of an Euripidean extravagance.
-
-For an analysis of these verses cp.
-
-6 Enopliac dimeter, cp. Schroeder, ib. Rossbach-Westphal, ib. p. 305.
-
-# “92,
-
-Bey cp. Schroeder, ib. p. 92.
-
-2 Called by schol. Ald. an iambic base
-
-8 cp. Schroeder, ib. p. 98. Analyzed + trochaeus hephth., cp. Schroeder, ib.
-
-by schol. Ald. as an Ionic a minore p- 94.
-
-dimeter catal. I have provisionally 9. Called by schol. Ald. a dact. penth.
-
-accepted Schroeder’s analysis, but I con- 4. Called by schol. Ald. a dact. penth.
-
-fess that this line, which doubtless (hephth. ?), cp. Schroeder, ib. p. 99;
-
-was accompanied by lively steps and and for similar syncopations Ack. 1212
-
-gesticulations, has very little of an ωπωππ-π-- ), and Christ, ib. p.
-
-iambic quality. As Mr. Beare remarks
-
-to me, ‘‘ acephalous is the man who says ® A curiously formed enopliac (iambic)
-
-# it has,”
+3: ––⏑– –⏑– (syncopated iambic dimeter).
 --- flags
-1 Ixxvii [latin] →
-2 ΠΑΡΑΒΑΣΙΣ [conf] →
-3 ΧΟΡΟΥ [accent] →
-4 EITEIZOAION [latin] (Greek model: ἘΠΕΙΣΟΔΙΟΝ.) →
-5 acatal [rare] →
-6 lecythion’ [latin] (Greek model: “Ἰοογυίοπ ἡ) →
-7 1lambic [digit] (Greek model: Ἰδτηθῖο.) →
-8 lambic [latin] (Greek model: Ἰδτηθῖο.) →
-9 lecythion’ [latin] (Greek model: οἸθογυ βίοι ἡ) →
-10 trimeter).? [conf] →
-11 acatal [rare] →
-12 vv [conf] →
-13 ov [conf] (Greek model: χ᾽.) →
-14 enopliac [rare] →
-15 enopliac [rare] →
-16 acatal [rare] →
-17 acatal [latin] (Greek model: δοαίδ].) →
-18 acatal [rare] →
-19 bacchius) [conf] →
-20 syncopated [conf] →
-21 acatal [rare] →
-22 acatal [rare] →
-23 ΤΊ [conf] →
-24 ΛΙΝ [conf] →
-25 =A [conf] →
-26 NS [conf] →
-27 NS [conf] →
-28 wv [conf] →
-29 (iambic [conf] →
-30 uv [conf] (Greek model: Ψ;) →
-31 A [conf] →
-32 dimeter), [conf] →
-33 Bi—i— [conf] →
-34 i= [conf] →
-35 ., [conf] →
-36 dpa [rare] →
-37 base [conf] →
-38 + [conf] →
-39 trochaeus [latin] →
-40 Enopliac [rare] →
-41 “92, [conf] →
-42 Bey [conf] →
-43 trochaeus [latin] (Greek model: γοοῆδθιβ.) →
-44 hephth [rare] →
-45 p- [conf] →
-46 9. [conf] →
-47 hephth [rare] →
-48 Ack. [conf] →
-49 ωπωππ [greek] (Greek model: ὡπυ--Ἠ - -ἰ -Ὁ) →
-50 enopliac [rare] →
+1 Ixxvii [latin] → page number lxxvii, left out
+2 ΠΑΡΑΒΑΣΙΣ [conf] → ΠΑΡΑΒΑΣΙΣ (heading ## ΠΑΡΑΒΑΣΙΣ ΧΟΡΟΥ Β)
+3 ΧΟΡΟΥ [accent] → ΧΟΡΟΥ (capitals, no accent, as printed)
+4 EITEIZOAION [latin] (Greek model: ἘΠΕΙΣΟΔΙΟΝ.) → ΕΠΕΙΣΟΔΙΟΝ (heading ## ΕΠΕΙΣΟΔΙΟΝ Β)
+5 acatal [rare] → ok (acatal.)
+6 lecythion’ [latin] (Greek model: “Ἰοογυίοπ ἡ) → ‘lecythion’¹
+7 1lambic [digit] (Greek model: Ἰδτηθῖο.) → iambic
+8 lambic [latin] (Greek model: Ἰδτηθῖο.) → iambic
+9 lecythion’ [latin] (Greek model: οἸθογυ βίοι ἡ) → ‘lecythion’
+10 trimeter).? [conf] → trimeter).²
+11 acatal [rare] → ok (acatal.)
+12 vv [conf] → –⏑⏑– ⏑⏑–͡– (metrical scheme of 1158-9, tie over the last two longs)
+13 ov [conf] (Greek model: χ᾽.) → part of the scheme of 1158-9
+14 enopliac [rare] → ok
+15 enopliac [rare] → ok
+16 acatal [rare] → ok (acatal.)
+17 acatal [latin] (Greek model: δοαίδ].) → ok (acatal.⁵)
+18 acatal [rare] → ok (acatal.)
+19 bacchius) [conf] → bacchius)⁷
+20 syncopated [conf] → ok
+21 acatal [rare] → ok (acatal.)
+22 acatal [rare] → ok (acatal.)
+23 ΤΊ [conf] → 1: (colon 1 of 1206-13: ∧∨⏑– –⏑⏑⏑⁸)
+24 ΛΙΝ [conf] → part of the scheme of colon 1
+25 =A [conf] → part of the scheme of colon 1
+26 NS [conf] → part of the scheme of colon 1
+27 NS [conf] → part of the scheme of colon 1
+28 wv [conf] → part of the scheme of colon 1
+29 (iambic [conf] → ok
+30 uv [conf] (Greek model: Ψ;) → 2: ––⏑– –⏑–
+31 A [conf] → part of the scheme of colon 2
+32 dimeter), [conf] → dimeter).
+33 Bi—i— [conf] → 3: ––⏑– –⏑–
+34 i= [conf] → part of the scheme of colon 3
+35 ., [conf] → part of the scheme of colon 3
+36 dpa [rare] → ἄρα
+37 base [conf] → ok
+38 + [conf] → ok
+39 trochaeus [latin] → ok
+40 Enopliac [rare] → ok
+41 “92, [conf] → p. 92. (end of footnote 6)
+42 Bey [conf] → ⁷ cp. (footnote mark)
+43 trochaeus [latin] (Greek model: γοοῆδθιβ.) → ok
+44 hephth [rare] → ok (hephth.)
+45 p- [conf] → p.
+46 9. [conf] → ³ (footnote mark: Called by schol. Ald. a dact. penth.)
+47 hephth [rare] → ok (hephth.?)
+48 Ack. [conf] → *Ach.*
+49 ωπωππ [greek] (Greek model: ὡπυ--Ἠ - -ἰ -Ὁ) → ⏑–⏑––––– (scheme in footnote 4)
+50 enopliac [rare] → ok
 --- notes
+Page head (METRICAL ANALYSIS lxxvii) left out. Headings ΠΑΡΑΒΑΣΙΣ ΧΟΡΟΥ Β and ΕΠΕΙΣΟΔΙΟΝ Β as ## (Greek capitals as printed); the draft's stray headings made paragraphs. Metrical schemes rewritten from the image: – long, ⏑ short, the tie printed over the last two longs of 1158-9 as –͡– (combining double inverted breve, as in intro-10), ∧ ∨ as printed at the head of 1206-13 colon 1 (∧ the acephalous mark); each printed group without spaces, groups separated by one space. "1206-13." kept as its own paragraph, as printed, before its cola. Footnotes 1-8 rewritten from the image (the draft had the two columns jumbled) and placed after the entries holding their marks. Mark 5 stands after 1161 in the print, though the footnote speaks of an enopliac trimeter (1160?); kept where printed. Braces not written; spaces before colons dropped.
 
 === p-0088
-# 4: A Ns) Nf
+4: ––⏑– –⏑– (syncopated iambic dimeter).
 
-(syncopated iambic dimeter).
+5: ––⏑–
 
-# 5: — =o —
+6: ––⏑– ⏑–⏑–
 
-# 6: === v= —
+7: –⏑– –⏑– (syncopated iambic dimeter).
 
-# Er Rv -v -
+8: ––⏑– ⏑–⏑–
 
-(syncopated iambic dimeter).
+9: ithyphallic.
 
-# 8: — — ou — WV —J --
+## ΣΥΖΥΓΙΑ Γ
 
-# 9 : ithyphallic
+[The ᾠδή and ἀντῳδή do not appear in the present edition of the play.]
 
-# Συζυγιαὺτ'
+1214-58 ἐπίρρημα = 1260-1302 ἀντεπίρρημα: iambic trimeters acatal.
 
-[The ὡδή and ἀντῳδή do not appear in the present edition of the play.] 1214-58 ἐπίρρημα = 1260-1302 ἀντεπίρρημα : iambic trimeters
+1259: antispastic monometer acatal.
 
-acatal.
+1260ᵃ: according to schol. Ald., an iambic monometer brachycat.!
 
-1259 : antispastic monometer acatal. 1260* : according to schol. Ald, an iambic monometer
-
-brachycat. !
-
-# Stasimon
+## ΣΤΑΣΙΜΟΝ
 
 1303-11 στροφή = 1312-20 ἀντιστροφή.
 
-# { 1: iambic trimeter acatal
+1: iambic trimeter acatal.
 
-# 2: No (se Ean Sn
+2: ⏑–⏑⏑–– (trinarius prosod.¹ or Pherecrateus acephalus).
 
-(trinarius prosod.! or Pherecrateus acephalus).
+[Note: ¹ cp. Schroeder, ib. p. 95. Called by Heliodorus Ἰωνικὸν ἡμιόλιον, cp. Thiemann, ib. p. 16.]
 
-# : iambic dimeter acatal
+3: iambic dimeter acatal.
 
-συ OU WB» WwW
+4: iambic dimeter acatal.
 
-# : lambic dimeter acatal
+5: iambic dimeter acatal.
 
-# : iambic dimeter acatal
+6: cretic + iambic syzygy (syncopated iambic dimeter).
 
-# : cretic+iambic syzygy
+7: cretic + iambic syzygy + cretic (syncopated iambic trimeter)
 
-(syncopated iambic dimeter).
+8: iambic dimeter acatal.
 
--
+9: iambic dimeter catal.
 
-: cretic + iambic syzygy + cretic
+## ΕΠΕΙΣΟΔΙΟΝ Γ
 
-(syncopated iambic trimeter)
+1321: iambic monometer acatal.
 
-# 8: iambic dimeter acatal
-
-# 9: iambic dimeter catal
-
-# Einieizoaion T
-
-1321 : iambic monometer acatal.
-
-1322-44 : iambic trimeters acatal.
-
-[Note: 1 cp. Schroeder, ib. p. 95. Called by Heliodorus ᾿Ιωνικὸν ἡμιόλιον, cp. Thiemann, ib. p. 16.]
+1322-44: iambic trimeters acatal.
 --- flags
-1 A [conf] →
-2 Ns) [conf] →
-3 Nf [conf] →
-4 5: [conf] →
-5 =o [conf] (Greek model: - ἐὺ) →
-6 6: [conf] →
-7 v= [conf] →
-8 — [conf] →
-9 ER [conf] →
-10 RV [conf] →
-11 -v [conf] →
-12 ou [conf] (Greek model: ω) →
-13 WV [conf] (Greek model: ν) →
-14 —J [conf] (Greek model: --) →
-15 -- [conf] →
-16 ΣΥΖΥΓΙΑῪΤ' [greek] (Greek model: ΦΥΖΥΓΙΆΥΤΓ') →
-17 ὡδή [accent] (Greek model: φδή.) →
-18 = [conf] →
-19 1260-1302 [conf] →
-20 ἀντεπίρρημα [conf] →
-21 acatal [rare] →
-22 acatal [rare] →
-23 brachycat [latin] (Greek model: Ῥιβδομγοαῦ. ᾿) →
-24 1: [digit] →
-25 acatal [rare] →
-26 No [conf] →
-27 (SE [conf] →
-28 EAN [conf] →
-29 SN [conf] →
-30 trinarius [rare] →
-31 prosod [latin] →
-32 Pherecrateus [rare] →
-33 acephalus [rare] →
-34 acatal [rare] →
-35 συ [conf] →
-36 OU [conf] (Greek model: δ:) →
-37 WB [latin] (Greek model: 4:) →
-38 WwW [conf] →
-39 lambic [latin] →
-40 acatal [rare] →
-41 acatal [rare] →
-42 cretic+iambic [conf] →
-43 + [conf] →
-44 iambic [conf] →
-45 8: [conf] →
-46 acatal [rare] →
-47 9: [conf] →
-48 EINIEIZOAION [latin] (Greek model: ἘΠΕΙΣΟΔΙΟΝ.) →
-49 acatal [rare] →
-50 acatal [rare] →
-51 1 [digit] →
-52 cp. [conf] →
-53 Ιωνικὸν [accent] →
+1 A [conf] → 4: ––⏑– –⏑– (colon 4 of 1206-13)
+2 Ns) [conf] → part of the scheme of colon 4
+3 Nf [conf] → part of the scheme of colon 4
+4 5: [conf] → ok (5: ––⏑–)
+5 =o [conf] (Greek model: - ἐὺ) → part of the scheme of colon 5
+6 6: [conf] → ok (6: ––⏑– ⏑–⏑–)
+7 v= [conf] → part of the scheme of colon 6
+8 — [conf] → part of the scheme of colon 6
+9 ER [conf] → 7: –⏑– –⏑–
+10 RV [conf] → part of the scheme of colon 7
+11 -v [conf] → part of the scheme of colon 7
+12 ou [conf] (Greek model: ω) → 8: ––⏑– ⏑–⏑–
+13 WV [conf] (Greek model: ν) → part of the scheme of colon 8
+14 —J [conf] (Greek model: --) → part of the scheme of colon 8
+15 -- [conf] → part of the scheme of colon 8
+16 ΣΥΖΥΓΙΑῪΤ' [greek] (Greek model: ΦΥΖΥΓΙΆΥΤΓ') → ΣΥΖΥΓΙΑ Γ (heading)
+17 ὡδή [accent] (Greek model: φδή.) → ᾠδή
+18 = [conf] → ok
+19 1260-1302 [conf] → ok
+20 ἀντεπίρρημα [conf] → ok
+21 acatal [rare] → ok (acatal.)
+22 acatal [rare] → ok (acatal.)
+23 brachycat [latin] (Greek model: Ῥιβδομγοαῦ. ᾿) → ok (brachycat.!, the exclamation mark printed, not a footnote mark)
+24 1: [digit] → 1:
+25 acatal [rare] → ok (acatal.)
+26 No [conf] → 2: ⏑–⏑⏑–– (scheme of colon 2)
+27 (SE [conf] → part of the scheme of colon 2
+28 EAN [conf] → part of the scheme of colon 2
+29 SN [conf] → part of the scheme of colon 2
+30 trinarius [rare] → ok
+31 prosod [latin] → ok (prosod.¹)
+32 Pherecrateus [rare] → ok
+33 acephalus [rare] → ok
+34 acatal [rare] → ok (acatal.)
+35 συ [conf] → 3: (the line of colon 3 to 5 numbers garbled)
+36 OU [conf] (Greek model: δ:) → 4:
+37 WB [latin] (Greek model: 4:) → 5:
+38 WwW [conf] → part of the line numbers garbled
+39 lambic [latin] → iambic
+40 acatal [rare] → ok (acatal.)
+41 acatal [rare] → ok (acatal.)
+42 cretic+iambic [conf] → cretic + iambic
+43 + [conf] → ok
+44 iambic [conf] → ok
+45 8: [conf] → ok
+46 acatal [rare] → ok (acatal.)
+47 9: [conf] → ok
+48 EINIEIZOAION [latin] (Greek model: ἘΠΕΙΣΟΔΙΟΝ.) → ΕΠΕΙΣΟΔΙΟΝ Γ (heading)
+49 acatal [rare] → ok (acatal.)
+50 acatal [rare] → ok (acatal.)
+51 1 [digit] → ¹ (footnote mark)
+52 cp. [conf] → ok
+53 Ιωνικὸν [accent] → Ἰωνικὸν
 --- notes
+Page head (lxxviii THE CLOUDS OF ARISTOPHANES) left out. Cola 4-9 continue 1206-13 from the page before: new paragraphs, no '+ '. Headings ΣΥΖΥΓΙΑ Γ, ΣΤΑΣΙΜΟΝ, ΕΠΕΙΣΟΔΙΟΝ Γ as ## (Greek capitals as printed); the draft's stray headings made paragraphs and the cola rewritten from the image (the draft had lost the numbers of cola 3-7). 1260ᵃ: the superscript a written ᵃ; "brachycat.!" has a printed exclamation mark (Starkie's), not a footnote mark. Footnote 1 placed after colon 2 of the stasimon, where its mark stands. Braces not written; spaces before colons dropped.
 
 === p-0089
-# Aton B
+## ΑΓΩΝ Β
 
-1345-50 ὠδή = 1391-96 ἀντῳδή.
+1345-50 ᾠδή = 1391-96 ἀντῳδή.
 
-# : iambic trimeter acatal
+1: iambic trimeter acatal.
 
-nN =~
+2: ⏓–⏑⏑–⏓ (trinarius).¹
 
-ov A J
+[Note: ¹ According to Heliodorus, an Ἰωνικὸν ἡμιόλιον, cp. Christ, ib. p. 347.]
 
-# «te Nss —
+3: iambic trimeter acatal.
 
-(trinarius).!
+4: trinarius.
 
-# : iambic trimeter acatal
+5: iambic trimeter acatal.
 
-στ Ov = WW
+6: trinarius.
 
-: trinarius.
+1351-2 κατακελευσμός = 1397-8 ἀντικατακελευσμός: iambic tetrameters catal.
 
-# : iambic trimeter acatal
+1353-85 ἐπίρρημα = 1399-1444-5² ἀντεπίρρημα: iambic tetrameters catal.
 
-: trinarius.
+[Note: ² In the metrical schol. in Ald., 1444 sq. are assigned to the Antipnigus, cp. Thiemann, ib. p. 49.]
 
-1351-2 κατακελευσμός = 1397-8 ἀντικατακελευσμός : iambic
+1386-90 πνῖγος = 1446-51 ἀντίπνιγος: iambic dimeters acatal. (with the exception of 1451ᵃ which is an iambic monometer acatal., and 1390, 1451ᵇ which are iambic dimeters catal.).
 
-tetrameters catal.
+## ΕΞΟΔΟΣ
 
-1353-85 ἐπίρρημα = 1399-1444-5° ἀντεπίρρημα : iambic tetra-
+1452-1509: iambic trimeters acatal. (with the exception of 1493 which is an iambic monometer acatal.).
 
-meters catal.
-
-1386-90 πνῖγος = 1446-51 ἀντίπνιυγος : iambic dimeters acatal.
-
-(with the exception of 1451* which is an iambic
-
-monometer acatal., and 1390, 1451° which are iambic
-
-dimeters catal.).
-
-# Eeoaoz
-
-1452-1509 : iambic trimeters acatal. (with the exception of 1493
-
-which is an iambic monometer acatal.).
-
-1510-1 : anapaestic tetrameter catal.
-
-[Note: 1 According to Heliodorus, an Ἰωνικὸν ἡμιόλιον, cp. Christ, ib. p. 347.]
-
-[Note: 5 In the metrical schol. in Ald., 1444 sq. are assigned to the Antipnigus, cp. Thiemann, ib. p. 49.]
+1510-1: anapaestic tetrameter catal.
 --- flags
-1 iambic [conf] →
-2 acatal [rare] →
-3 nN [conf] →
-4 ov [conf] →
-5 J [conf] →
-6 «TE [conf] →
-7 NSS [latin] (Greek model: ““,͵ᾳὩ΄0Ὄ΄ω,-) →
-8 — [conf] →
-9 trinarius [latin] (Greek model: (ἀυἰπανῖαβ).1) →
-10 acatal [rare] →
-11 στ [conf] →
-12 = [conf] →
-13 WW [latin] (Greek model: 8:) →
-14 trinarius [rare] →
-15 acatal [rare] →
-16 trinarius [rare] →
-17 ἀντικατακελευσμός [greek] (Greek model: ἀντικατακελευσμός :) →
-18 ἀντεπίρρημα [conf] →
-19 ἀντίπνιυγος [greek] (Greek model: ἀντίπνιγος :) →
-20 acatal [latin] →
-21 acatal [latin] →
-22 EEOAOZ [latin] (Greek model: ἜΞΟΔΟΣ) →
-23 acatal [rare] →
-24 acatal [rare] →
-25 Antipnigus [rare] →
+1 iambic [conf] → ok
+2 acatal [rare] → ok (acatal.)
+3 nN [conf] → 2: ⏓–⏑⏑–⏓ (colon 2; ⏓ short over long)
+4 ov [conf] → part of the scheme of colon 2
+5 J [conf] → part of the scheme of colon 2
+6 «TE [conf] → part of the scheme of colon 2
+7 NSS [latin] (Greek model: ““,͵ᾳὩ΄0Ὄ΄ω,-) → part of the scheme of colon 2
+8 — [conf] → part of the scheme of colon 2
+9 trinarius [latin] (Greek model: (ἀυἰπανῖαβ).1) → (trinarius).¹
+10 acatal [rare] → ok (acatal.)
+11 στ [conf] → 4: (garbled colon number; colon 4: trinarius.)
+12 = [conf] → part of the garbled line
+13 WW [latin] (Greek model: 8:) → part of the garbled line
+14 trinarius [rare] → ok
+15 acatal [rare] → ok (acatal.)
+16 trinarius [rare] → ok
+17 ἀντικατακελευσμός [greek] (Greek model: ἀντικατακελευσμός :) → ok
+18 ἀντεπίρρημα [conf] → ok
+19 ἀντίπνιυγος [greek] (Greek model: ἀντίπνιγος :) → ἀντίπνιγος
+20 acatal [latin] → ok (acatal.)
+21 acatal [latin] → ok (acatal.)
+22 EEOAOZ [latin] (Greek model: ἜΞΟΔΟΣ) → ΕΞΟΔΟΣ (heading)
+23 acatal [rare] → ok (acatal.)
+24 acatal [rare] → ok (acatal.)
+25 Antipnigus [rare] → ok
 --- notes
+Page head (METRICAL ANALYSIS lxxix) left out. Headings ΑΓΩΝ Β and ΕΞΟΔΟΣ as ## (Greek capitals as printed). Cola 1-6 rewritten from the image (the draft had lost the numbers and made three of them headings); ⏓ is the printed short-over-long sign. 1399-1444-5²: the superscript 2 is footnote 2 (the draft read it °); 1451ᵃ, 1451ᵇ superscript letters as printed. "tetra-meters" joined. Footnotes placed after the entries holding their marks; Ἰωνικὸν given its breathing. Spaces before colons dropped.
 
 === p-0090
-# ΧΙ
+# XI. The Enopliac Rhythm
 
-# The Enopliac Rhythm
+The earliest mention of the rhythm called κατ᾽ ἐνόπλιον is in the *Clouds* 650, where it is contrasted with the rhythm called κατὰ δάκτυλον. The earliest description of its character is in Plato, who (in the *Republic* 400 B) represents ‘Socrates’ as discussing the principles of rhythm out of which metrical systems are framed. In his ironical way he disclaims exact knowledge, but takes Damon into his counsels, and says that he has an indistinct recollection of his mentioning a ‘complex¹ enopliac rhythm, also “a dactyl,” and heroic rhythm, which he arranged somehow in such a way that the rise and fall of the foot were equal and unequal, so as to become short and long.’
 
-THE earliest mention of the rhythm called κατ᾽ ἐνόπλιον is in the Clouds 650, where it 1s contrasted with the rhythm called κατὰ δάκτυλον. The earliest description of its character is in Plato, who (in the Republic 400 B) represents Socrates’ as discussing the principles of rhythm out of which metrical systems are framed. In his ironical way he disclaims exact knowledge, but takes Damon into his counsels, and says that he has an indistinct recollection of his mentioning a ‘complex’ enopliac rhythm, also “a dactyl,” and heroic rhythm, which he arranged somehow in such a way that the rise and fall of the foot were equal and unequal, so as to become short and long.’
+[Note: ¹ viz. ‘composed of various and different parts’ (–⏑⏑– | ⏑⏑––), cp. F. Blass, *Hermathena*, no. xxx. p. 167.]
 
-Taken by itself this passage tells us little of τὸ κατ᾽ ἐνόπλιον εἶδος, except that it is akin to the dactylic and heroic. For a more complete description of the rhythm we must turn to Hephaestion (chap. xv.). Having analyzed the episynthetic rhythm of Archilochus ’Epacuovidn Χαρίλαε, χρῆμά τοι γελοῖον,” as consisting of an anapaestic hepthemimer and a trochaic sesquimeter, ‘the ithyphallic of current speech,’ and having stated that Archilochus always maintains the hephthemimeral caesura, and sometimes admits spondees in the first portion of the line,’ he goes on to describe how the comic poets altered its character by neglecting the caesura,® and by disallowing the spondees,
+Taken by itself this passage tells us little of τὸ κατ᾽ ἐνόπλιον εἶδος, except that it is akin to the dactylic and heroic. For a more complete description of the rhythm we must turn to Hephaestion (chap. xv.). Having analyzed the episynthetic rhythm of Archilochus Ἐρασμονίδη Χαρίλαε, χρῆμά τοι γελοῖον,² as consisting of an anapaestic hepthemimer and a trochaic sesquimeter, ‘the ithyphallic of current speech,’ and having stated that Archilochus always maintains the hephthemimeral caesura, and sometimes admits spondees in the first portion of the line,³ he goes on to describe how the comic poets altered its character by neglecting the caesura,⁴ and by disallowing the spondees,
 
-[Note: 1 viz. ‘composed of various and differ- of δὲ πολλοί (ῥα@. ib.). ent parts’ (vv —| vv—-), cp 1 e,g, Cratin. 1. p. 107 ὁ δ. (ii..p. 192 I. Blass, Hermathena, no. xxx. p. 167. M.) χαῖρ᾽, ὦ μέγ᾽ ἀχρειόγελως, ὅμιλε Tals]
+[Note: ² cp. *PLG.* ii. p. 406 B.⁴]
 
-[Note: 2 ep. ΡΙΟ, ii. p. 406 B.4 ἐπίβδαις, | τῆς ἡμετέρας σοφίας κριτὴς ὅρον, ἀστῶν δ᾽ οἱ μὲν κατόπισθεν ἦσαν, ἄριστε πάντων. ΙΧΧΧ]
+[Note: ³ e.g. ἀστῶν δ᾽ οἱ μὲν κατόπισθεν ἦσαν, οἱ δὲ πολλοί (*PLG.* ib.).]
+
+[Note: ⁴ e.g. Cratin. i. p. 107 K. (ii. p. 192 M.) χαῖρ᾽, ὦ μέγ᾽ ἀχρειόγελως, ὅμιλε ταῖς ἐπίβδαις, | τῆς ἡμετέρας σοφίας κριτὴς ἄριστε πάντων.]
 --- flags
-1 THE [conf] →
-2 ENOPLIAC [latin] (Greek model: ἜΝΟΡΙΙΑΟ) →
-3 1s [digit] →
-4 Socrates’ [conf] →
-5 enopliac [rare] →
-6 episynthetic [rare] →
-7 Epacuovidn [latin] (Greek model: ᾿Ἐρασμονίδη) →
-8 Χαρίλαε [greek] →
-9 hepthemimer [rare] →
-10 sesquimeter [rare] →
-11 sesquimeter [rare] →
-12 hephthemimeral [rare] →
-13 caesura,® [conf] →
-14 1 [digit] →
-15 of [conf] →
-16 (vv [conf] →
-17 —| [conf] →
-18 vv—-), [conf] →
-19 1 [digit] →
-20 e,g, [conf] →
-21 1. [digit] →
-22 I. [conf] →
-23 ὅμιλε [greek] →
-24 Tals [rare] →
-25 ep. [conf] (Greek model: ΟΡ.) →
-26 ΡΙΟ, [conf] →
-27 ὅρον, [conf] →
-28 ΙΧΧΧ [greek] (Greek model: ἸΧχχ) →
+1 THE [conf] → ok (small capitals: The)
+2 ENOPLIAC [latin] (Greek model: ἜΝΟΡΙΙΑΟ) → ok (heading # XI. The Enopliac Rhythm)
+3 1s [digit] → is
+4 Socrates’ [conf] → ‘Socrates’
+5 enopliac [rare] → ok
+6 episynthetic [rare] → ok
+7 Epacuovidn [latin] (Greek model: ᾿Ἐρασμονίδη) → Ἐρασμονίδη
+8 Χαρίλαε [greek] → ok
+9 hepthemimer [rare] → ok
+10 sesquimeter [rare] → ok
+11 sesquimeter [rare] → ok (sesqui-meter joined)
+12 hephthemimeral [rare] → ok
+13 caesura,® [conf] → caesura,⁴
+14 1 [digit] → ¹ (footnote mark)
+15 of [conf] → οἱ (footnote 3, οἱ δὲ πολλοί)
+16 (vv [conf] → (–⏑⏑– (metrical scheme in footnote 1)
+17 —| [conf] → | (part of the scheme)
+18 vv—-), [conf] → ⏑⏑––), (part of the scheme)
+19 1 [digit] → ⁴ (footnote mark)
+20 e,g, [conf] → e.g.
+21 1. [digit] → i.
+22 I. [conf] → K.
+23 ὅμιλε [greek] → ok
+24 Tals [rare] → ταῖς
+25 ep. [conf] (Greek model: ΟΡ.) → cp.
+26 ΡΙΟ, [conf] → *PLG.*
+27 ὅρον, [conf] → ἄριστε (the draft's "ὅρον": κριτὴς ἄριστε πάντων)
+28 ΙΧΧΧ [greek] (Greek model: ἸΧχχ) → page number lxxx, left out
 --- notes
+Chapter heading "XI" and "The Enopliac Rhythm" (small capitals) joined into # XI. The Enopliac Rhythm. Page number (lxxx, at the foot) left out. Italics added: Clouds, Republic, Hermathena, PLG.; "400 B" (small capital). Footnotes 1-4 rewritten from the image (the columns were jumbled): 1 after its paragraph; 2-4 at the foot, their paragraph running on to the next page. ‘complex¹ opens the quotation that closes at ‘…short and long.’; kept so. Greek elision written ᾽ as elsewhere in the batch.
 
 === p-0091
-Ixxxi ‘since they considered the rhythm to be prosodiac' rather than anapaestic, being composed of an ionic and choriamb, the ionic admitting a short syllable in its first place’ To the same effect is the metrical scholinm on Clouds 651: ‘the dactylic rhythm is that in which the rise and fall are equal: the © enopliac,” which is called by some “prosodiac,” is made up of a spondee, a pyrrhic, a trochee, and an iambus. It coincides with an anapaestic tripody, or two “ bases,” an Ionic and Choriambic.” In this passage, as often elsewhere, τὸ κατ᾽ ἐνόπλιον εἶδος is confined to the enopliac rhythm in ascending movement (viz. - — vv — v © —), but there is plenty of precedent for disregarding this limitation, as may be seen from the scholiast on Hephaestion, p. 167 Westphal. In appearance the dimeter κατ᾽ ἐνόπλιον in ascending time 15 identical with the anapaestic tripody (with an iambic or spondee in the first foot), or the tetrapody (when there 18 hypercatalexis); similarly in descending movement it is identical with the dactylic tripody eis δισύλλαβον ; and there are historical reasons for the identification.’ But according to the practice of the classical poets, it may be distinguished from anapaestic and dactylic verses, sometimes by the divisions, since those that suit τὸ κατ᾽ ἐνόπλιον εἶδος are not always in place in a dactylic or anapaestic rhythm ; sometimes owing to the fact that variations of form occur in anapaestic or dactylic verse which are not admissible in τὸ κατ᾽ ἐνόπλιον εἶδος" Thus, fortuitously, it is often possible to divide the Homeric hexameter so as to become two dimeters κατ᾽ ἐνόπλιον" ; or Nub. 285 sq. may be read so as to be a dactylic pentapody; or, conversely, ἀστῶν δ᾽ οἱ μὲν κατόπισθεν may be scanned κατ᾽ ἐνόπλιον, by treating the third long syllable as equivalent to the third and fourth syllables of the Tonic a maiore.’
++ ‘since they considered the rhythm to be prosodiac¹ rather than anapaestic, being composed of an ionic and choriamb, the ionic admitting a short syllable in its first place.’² To the same effect is the metrical scholium on *Clouds* 651: ‘the dactylic rhythm is that in which the rise and fall are equal: the “enopliac,” which is called by some “prosodiac,” is made up of a spondee, a pyrrhic, a trochee, and an iambus. It coincides with an anapaestic tripody, or two “bases,” an Ionic and Choriambic.’ In this passage, as often elsewhere, τὸ κατ᾽ ἐνόπλιον εἶδος is confined to the enopliac rhythm in ascending movement (viz. ––⏑⏑–⏑⏑–), but there is plenty of precedent for disregarding this limitation, as may be seen from the scholiast on Hephaestion, p. 167 Westphal. In appearance the dimeter κατ᾽ ἐνόπλιον in ascending time is identical with the anapaestic tripody (with an iambic or spondee in the first foot), or the tetrapody (when there is hypercatalexis); similarly in descending movement it is identical with the dactylic tripody εἰς δισύλλαβον; and there are historical reasons for the identification.³ But according to the practice of the classical poets, it may be distinguished from anapaestic and dactylic verses, sometimes by the divisions, since those that suit τὸ κατ᾽ ἐνόπλιον εἶδος are not always in place in a dactylic or anapaestic rhythm; sometimes owing to the fact that variations of form occur in anapaestic or dactylic verse which are not admissible in τὸ κατ᾽ ἐνόπλιον εἶδος.⁴ Thus, fortuitously, it is often possible to divide the Homeric hexameter so as to become two dimeters κατ᾽ ἐνόπλιον⁵; or *Nub.* 285 sq. may be read so as to be a dactylic pentapody; or, conversely, ἀστῶν δ᾽ οἱ μὲν κατόπισθεν may be scanned κατ᾽ ἐνόπλιον, by treating the third long syllable as equivalent to the third and fourth syllables of the Ionic a maiore.⁶
 
-The two forms of the dimeter enopliac rhythm (viz ascending and descending) may be combined in the schema (Ξ-πυυπυυ- (Ὁ A further variation may be introduced by
+[Note: ¹ Restricted by F. Blass (*Hermathena*, no. xxx. p. 169) to the form ––⏑⏑–⏑–.]
 
-[Note: 1 Restricted by F. Blass (Hermathena,]
+[Note: ² e.g. *Vesp.* 1518 ἄγ᾽, ὦ μεγαλώνυμα τέ|κνα τοῦ θαλασσίοιο κτλ.]
 
-[Note: 5 e.g. Il. i. 357 ὡς φάτο δακρυχέων, τοῦδ᾽ | ἔκλυε πότνια μήτηρ, which exactly no. xxx. p. 169) to the form — — v © corresponds to the ‘enopliac’ Pind. MN. “Ὁ -ς]
+[Note: ³ cp. O. Schroeder, *Vorarbeiten zu gr. Versgesch.* pp. 85 sqq.]
 
-[Note: 2 e.g. Vesp. 1518 ἄγ᾽, ὦ μεγαλώνυμα ix. 1 κωμάσομεν παρ᾽ ᾿Απόλλωνος Σεκυωνόθε τέκνα τοῦ θαλασσίοιο κτλ. οῖσαι. Indeed the metricians call the]
+[Note: ⁴ cp. J. W. White, *Enoplic Metre, etc.* p. 439.]
 
-[Note: 3 cp. O. Schroeder, Vorarbeiten zu epic verse ἔπος κατ᾽ ἐνόπλιον. gr. Versgesch. pp. 85 sqq.]
+[Note: ⁵ e.g. *Il.* i. 357 ὣς φάτο δακρυχέων, τοῦδ᾽ | ἔκλυε πότνια μήτηρ, which exactly corresponds to the ‘enopliac’ Pind. *N.* ix. 1 κωμάσομεν παρ᾽ Ἀπόλλωνος Σεκυωνόθε Μοῖσαι. Indeed the metricians call the epic verse ἔπος κατ᾽ ἐνόπλιον.]
 
-[Note: 6 But this is a rare licence, at least in]
+[Note: ⁶ But this is a rare licence, at least in Comedy, cp. *Eccl.* 577, where there is an instance but the text is corrupt.]
 
-[Note: * ep. J. W. White, Enoplic Metre, etc. Comedy, cp. Eccl. 577, where there is an instance but the text is corrupt.]
+The two forms of the dimeter enopliac rhythm (viz. ascending and descending) may be combined in the *schema* (⏓)–⏑⏑–⏑⏑–(⏓). A further variation may be introduced by
 --- flags
-1 Ixxxi [latin] (Greek model: Ἰχχχὶ) →
-2 prosodiac' [latin] (Greek model: Ῥιοβοάίαου) →
-3 place’ [conf] →
-4 scholinm [latin] →
-5 © [conf] →
-6 enopliac [latin] (Greek model: Θμορ]ἶδο,;) →
-7 prosodiac [latin] (Greek model: “Ῥχοβοάίδο,") →
-8 enopliac [rare] →
-9 vv [conf] →
-10 v [conf] (Greek model: ῳ) →
-11 © [conf] →
-12 —), [conf] →
-13 iambic [conf] →
-14 tetrapody [rare] →
-15 hypercatalexis [latin] →
-16 rhythm [conf] →
-17 εἶδος" [conf] →
-18 maiore [latin] (Greek model: τηαίοτοδ) →
-19 enopliac [rare] →
-20 πυυπυυ [greek] (Greek model: Θπτνυυ-του-) →
-21 (Ὁ [conf] →
-22 μήτηρ, [conf] →
-23 form [conf] →
-24 v [conf] (Greek model: ΨΙῚ) →
-25 enopliac’ [latin] (Greek model: ΩΝ) →
-26 MN. [conf] →
-27 “Ὁ [conf] →
-28 -ς [conf] →
-29 1 [digit] →
-30 παρ᾽ [conf] →
-31 Απόλλωνος [accent] →
-32 Σεκυωνόθε [greek] →
-33 θαλασσίοιο [greek] →
-34 metricians [rare] →
-35 Vorarbeiten [rare] →
-36 Versgesch [rare] →
-37 Enoplic [rare] →
-38 Eccl. [conf] →
+1 Ixxxi [latin] (Greek model: Ἰχχχὶ) → page number lxxxi, left out
+2 prosodiac' [latin] (Greek model: Ῥιοβοάίαου) → prosodiac¹
+3 place’ [conf] → place.’²
+4 scholinm [latin] → scholium
+5 © [conf] → “enopliac,”
+6 enopliac [latin] (Greek model: Θμορ]ἶδο,;) → ok
+7 prosodiac [latin] (Greek model: “Ῥχοβοάίδο,") → ok
+8 enopliac [rare] → ok
+9 vv [conf] → ⏑⏑ (the scheme ––⏑⏑–⏑⏑–)
+10 v [conf] (Greek model: ῳ) → ⏑ (part of the scheme)
+11 © [conf] → ⏑ (part of the scheme)
+12 —), [conf] → –),
+13 iambic [conf] → ok
+14 tetrapody [rare] → ok
+15 hypercatalexis [latin] → ok
+16 rhythm [conf] → ok (rhythm;)
+17 εἶδος" [conf] → εἶδος.⁴
+18 maiore [latin] (Greek model: τηαίοτοδ) → ok
+19 enopliac [rare] → ok
+20 πυυπυυ [greek] (Greek model: Θπτνυυ-του-) → (⏓)–⏑⏑–⏑⏑–(⏓) (the schema)
+21 (Ὁ [conf] → part of the schema
+22 μήτηρ, [conf] → μήτηρ, (footnote 5)
+23 form [conf] → ok (footnote 1)
+24 v [conf] (Greek model: ΨΙῚ) → ⏑ (scheme in footnote 1: ––⏑⏑–⏑–)
+25 enopliac’ [latin] (Greek model: ΩΝ) → ‘enopliac’
+26 MN. [conf] → *N.*
+27 “Ὁ [conf] → part of the scheme in footnote 1 (–⏑–.)
+28 -ς [conf] → part of the scheme in footnote 1
+29 1 [digit] → ¹ (footnote mark)
+30 παρ᾽ [conf] → παρ᾽
+31 Απόλλωνος [accent] → Ἀπόλλωνος
+32 Σεκυωνόθε [greek] → ok (Σεκυωνόθε, as printed; misprint for Σικυωνόθε)
+33 θαλασσίοιο [greek] → ok
+34 metricians [rare] → ok
+35 Vorarbeiten [rare] → *Vorarbeiten*
+36 Versgesch [rare] → *Versgesch.*
+37 Enoplic [rare] → *Enoplic*
+38 Eccl. [conf] → *Eccl.*
 --- notes
+Page head (THE ENOPLIAC RHYTHM lxxxi) left out. The first paragraph runs on from p-0090 ('+ '); the last runs on to p-0092. Footnotes 1-6 rewritten from the image (the columns were jumbled; the draft had lost 4's "p. 439" and run 5 into 2) and placed after the paragraph holding their marks. Corrected in the text: 1s → is, 18 → is, eis → εἰς, Tonic → Ionic, scholinm → scholium, the metrical schemes. Footnote 5 prints Σεκυωνόθε (for Σικυωνόθε); kept as printed. Footnote 2 keeps Starkie's division mark τέ|κνα. Italics added: Clouds, Nub., schema, Hermathena, Vesp., Vorarbeiten zu gr. Versgesch., Enoplic Metre, etc., Il., N., Eccl.
 
 === p-0092
-+ Ixxxii ‘retardation’ so as to substitute diambics and ditrochees for the Tonics.!
++ ‘retardation’ so as to substitute diambics and ditrochees for the Ionics.¹
 
-Since 1t requires some acuteness to discriminate verses κατ᾽ ἐνόπλιον from verses κατὰ δάκτυλον, Socrates has good reason for subjecting Strepsiades’ intellect to a metrical test of its capacity.
+[Note: ¹ Historically, however, the iambics and trochees may have been earlier than the Ionics, as Schroeder holds.]
 
-Aristophanes provides good illustrations of the rhythm κατ᾽ ἐνόπλιον in the first words of the song Παλλάδα περσέπολιν δεινάν κτλ.’ and of the rhythm κατὰ δάκτυλον in τηλέπορόν τι βόαμα «λύρας» ; and he himself has written an amocbaeum κατ᾽ ἐνόπλιον in 457 sqq., which has the appearance of being a parody of some well-known paean, possibly by Simonides. As the metre is well adapted for choral odes on a large scale (such as hymns, paeans, encomia, dithyrambs), especially for those of an epic character,’ there is great humour in clothing in such a solemn dress the paltry blessings which Strepsiades has claimed from the Clouds. Stesichorus is generally credited with the invention of the strophe κατ᾽ ἐνόπλιον, but he probably borrowed it from ¢Nomic’ poetry.* Its chief exponents, however, are Pindar and Bacchylides. In tragedy it is rare” except in Euripides who often employs it in paeans. In Aristophanic comedy it is found only in parodies, viz. Eg. 1264-73 (from Pindar), Nub. 457-75, Vesp. 273-80, Paz '775-96, Eee. 571-80.
+Since it requires some acuteness to discriminate verses κατ᾽ ἐνόπλιον from verses κατὰ δάκτυλον, Socrates has good reason for subjecting Strepsiades’ intellect to a metrical test of its capacity.
 
-So much for the constitution of the strophe κατ᾽ ἐνόπλιον, which has generally been called dactylo-epitritic,’® although there is no ancient authority for this title. According to the theory which has recently been popularized by Schroeder,” the metre (whether dactylo-epitritic or Iono-choriambic) 1s not original, but the result of a long development out of simpler elements. The original Ionic or enopliac rhythm (as distinguished from the syllabic Aeolic metre)® was accentual, and, provided the accented syllables were long, the rest might take care of
+Aristophanes provides good illustrations of the rhythm κατ᾽ ἐνόπλιον in the first words of the song Παλλάδα περσέπολιν δεινάν κτλ.,² and of the rhythm κατὰ δάκτυλον in τηλέπορόν τι βόαμα ⟨λύρας⟩; and he himself has written an *amoebaeum* κατ᾽ ἐνόπλιον in 457 sqq., which has the appearance of being a parody of some well-known paean, possibly by Simonides. As the metre is well adapted for choral odes on a large scale (such as hymns, paeans, encomia, dithyrambs), especially for those of an epic character,³ there is great humour in clothing in such a solemn dress the paltry blessings which Strepsiades has claimed from the Clouds. Stesichorus is generally credited with the invention of the strophe κατ᾽ ἐνόπλιον, but he probably borrowed it from ‘Nomic’ poetry.⁴ Its chief exponents, however, are Pindar and Bacchylides. In tragedy it is rare,⁵ except in Euripides who often employs it in paeans. In Aristophanic comedy it is found only in parodies, viz. *Eq.* 1264-73 (from Pindar), *Nub.* 457-75, *Vesp.* 273-80, *Pax* 775-96, *Eccl.* 571-80.
 
-Andr. 766-77; El. 859-65; Tro. 794-
+[Note: ² *Nub.* 967.]
 
-1 Historically, however, the iambics
+[Note: ³ e.g. Pind. *P.* i. and iv.]
 
-806 ; Rhes. 224-32.
+[Note: ⁴ cp. Gleditsch, *Metrik d. Gr. u. Römer* (Iw. Müller’s *Handb.* B. ii. p. 554).]
 
-and trochees may have been earlier than
+[Note: ⁵ Aesch. *PV.* 526-35; Soph. *Aj.* 172-82; *Trach.* 94-102; *OR.* 1086-96; Eur. *Med.* 410-20, 627-34, 824-34, 976-82; *Andr.* 766-77; *El.* 859-65; *Tro.* 794-806; *Rhes.* 224-32.]
 
-6 cp. Jebb’s Bacchylides, p. 92. the Ionics, as Schroeder holds.
+So much for the constitution of the strophe κατ᾽ ἐνόπλιον, which has generally been called ‘dactylo-epitritic,’⁶ although there is no ancient authority for this title. According to the theory which has recently been popularized by Schroeder,⁷ the metre (whether dactylo-epitritic or Iono-choriambic) is not original, but the result of a long development out of simpler elements. The original Ionic or enopliac rhythm (as distinguished from the syllabic Aeolic metre)⁸ was accentual, and, provided the accented syllables were long, the rest might take care of
 
-" In his Vorarbeiten zur gr. Vers-
+[Note: ⁶ cp. Jebb’s *Bacchylides*, p. 92.]
 
-2 Nub. 967.
+[Note: ⁷ In his *Vorarbeiten zur gr. Versgeschichte*, esp. pp. 160-4. For a criticism of his theories see P. Shorey’s interesting review in *Class. Philol.* v. pp. 515 sqq.]
 
-geschichte, esp. pp. 160-4. For a criti-
-
-3 e.g. Pind. P. i. and iv.
-
-cism of his theories see P. Shorey’s
-
-4 cp. Gleditsch, Metrik d. Gr. w. Romer
-
-interesting review in Class. Philol. v. (Iw. Miiller’s Handb. B. ii. p. 554).
-
-pp- 515 sqq.
-
-5 Aesch. PV. 526-35 ; Soph. 4j. 172-
-
-8 ¢p. J. W. White, ‘Origin and Form 82; Trach. 94-102; OR. 1086-96; Eur.
-
-of Aeolic Verge’ (Class. Quart. iii. p. 292) Med. 410-20, 627-34, 824-34, 976-82;
+[Note: ⁸ cp. J. W. White, ‘Origin and Form of Aeolic Verse’ (*Class. Quart.* iii. p. 292)]
 --- flags
-1 Ixxxii [latin] →
-2 diambics [rare] →
-3 ditrochees [rare] →
-4 Tonics.! [conf] →
-5 1t [digit] →
-6 amocbaeum [latin] (Greek model: ᾿απιοοφαφιίην.) →
-7 Nomic’ [latin] (Greek model: «Νοιηϊο᾽) →
-8 poetry.* [conf] →
-9 Eg. [conf] →
-10 Eee [latin] (Greek model: ροϊ.) →
-11 dactylo [latin] (Greek model: ε ἀουγ]ο-ορίἐττεῖο, ὃ) →
-12 epitritic [latin] (Greek model: ε ἀουγ]ο-ορίἐττεῖο, ὃ) →
-13 dactylo [rare] →
-14 epitritic [rare] →
-15 Iono [rare] →
-16 1s [digit] →
-17 Ionic [conf] →
-18 enopliac [rare] →
-19 Vorarbeiten [latin] (Greek model: ογαγϑοϊέογν.) →
-20 cism [rare] →
-21 Shorey’s [rare] →
-22 Miiller’s [latin] (Greek model: Μά]]οτ 8.) →
-23 Handb [rare] →
-24 4j. [digit] →
-25 172- [conf] →
+1 Ixxxii [latin] → page number lxxxii, left out
+2 diambics [rare] → ok
+3 ditrochees [rare] → ok
+4 Tonics.! [conf] → Ionics.¹
+5 1t [digit] → it
+6 amocbaeum [latin] (Greek model: ᾿απιοοφαφιίην.) → *amoebaeum*
+7 Nomic’ [latin] (Greek model: «Νοιηϊο᾽) → ‘Nomic’
+8 poetry.* [conf] → poetry.⁴
+9 Eg. [conf] → *Eq.*
+10 Eee [latin] (Greek model: ροϊ.) → *Eccl.*
+11 dactylo [latin] (Greek model: ε ἀουγ]ο-ορίἐττεῖο, ὃ) → ok (‘dactylo-epitritic,’⁶)
+12 epitritic [latin] (Greek model: ε ἀουγ]ο-ορίἐττεῖο, ὃ) → ok
+13 dactylo [rare] → ok
+14 epitritic [rare] → ok
+15 Iono [rare] → ok
+16 1s [digit] → is
+17 Ionic [conf] → ok
+18 enopliac [rare] → ok
+19 Vorarbeiten [latin] (Greek model: ογαγϑοϊέογν.) → *Vorarbeiten*
+20 cism [rare] → ok (criticism, joined)
+21 Shorey’s [rare] → ok
+22 Miiller’s [latin] (Greek model: Μά]]οτ 8.) → Müller’s
+23 Handb [rare] → *Handb.*
+24 4j. [digit] → *Aj.*
+25 172- [conf] → 172-82 (joined across the line)
 --- notes
+Page head (lxxxii THE CLOUDS OF ARISTOPHANES) left out. The first paragraph runs on from p-0091 ('+ '); the last runs on to p-0093. Footnotes 1-8 rewritten from the image (the draft had the two columns interleaved line by line) and placed after the paragraph holding each mark; 6-8 at the foot, their paragraph running on. Footnote 8 ends without a stop in the print (checked: it does not continue on p-0093); kept so. Corrected in the text: 1t, 1s → it, is; amocbaeum → amoebaeum; Paz '775-96 → Pax 775-96; Eee. → Eccl.; «λύρας» → ⟨λύρας⟩ (printed < >); ¢Nomic’ → ‘Nomic’; footnote marks. Italics added: amoebaeum, Eq., Nub., Vesp., Pax, Eccl. and the titles in the footnotes.
