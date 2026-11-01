@@ -50,7 +50,7 @@
 326	ἔσοδον three inferior MSS. The objection to εἴσοδον is that it resolves the final long syllable of the first κῶλον (see Vesp. Introd. p. xlv. (1)); for similar licences cp. Vesp. 350 (corrected by Porson), ib. 397 (where see my crit. n.); on the other hand, ἔσοδον is not admitted by comedy except in parody (Vesp. 16 crit. app.)
 326	ἤδη νῦν μόλις οῡτως (not corrected to ὄντως, as v. Velsen states; perhaps originally οῡ was an abbreviation of οὕτως) R: ἤδη νυνὶ μόλις ὁρῶ VΘΔM with some inferior MSS.: ἤδη νῦν καὶ μόλις ἀθρῶ A etc. The correct reading is doubtful, but it seems safer to follow R, substituting νυνὶ for νῦν (which may be a gloss). ἤδη νυνὶ (or νῦν) seems not to occur elsewhere (Reisig, Conj. p. 158), but special circumstances may justify it here; possibly νυνὶ is an emphatic repetition of ἤδη, after which there should be a dash. The phrase should not be confounded with νῦν ἤδη, which is common
 327	νῦν γέ τοι om. R
-329	ἤδεις RV etc., cp. Kühner-Blass, Gram. § 320
+329	ᾔδεις RV etc., cp. Kühner-Blass, Gram. § 320
 330	καπνὸν V, with some inferior MSS.: σκιὰν R etc., Ald. (a gloss, cp. Schnee, De Ar. codd. p. 28, Ijzeren, De uit. princ. codd. p. 22)
 --- notes
 323	Printed κατ- | ιούσας: the unmatched “ιούσας” is the turnover of 323, already joined; no square brackets on the line (OCR noise). Margin numbers on the page: 325 beside τί τὸ χρῆμα; (the end of verse 325) and 330 beside the turnover of 330; the numbering fits.
@@ -63,6 +63,8 @@
 330	μὰ Δίʼ, ἀλλʼ: comma as printed. Turnover καπνὸν εἶναι. confirmed (margin 330 beside it).
 326	The apparatus item on 326 runs on to the foot of the facing page (leaf 183, page 85, between the translation and the commentary, under a rule), which also prints the items on 327, 329 and 330: all written here, on the page where they begin or whose lines they name. οῡ: R's abbreviation is printed as ου with a bar over the υ; written ῡ. A faint dot between ἤδη and νυνὶ near the end taken as a speck.
 324	rev: text ἡσυχῇ → ἡσυχῆ: the print has no iota subscript (checked enlarged; the earlier note "iota subscript visible" is wrong); apparatus item 324 likewise prints Elmsley ἡσυχῆ: corrected.
+326	app2: facing block on leaf 183 checked on the crops (end of 326 from “(Reisig, Conj. p. 158)”, items 327, 329, 330): every item and word already in the apparatus as printed; no change.
+329	app2: lemma ἤδεις → ᾔδεις: the print on the facing block (leaf 183, crop enlarged) has the iota subscript.
 
 === p-0184
 --- text
@@ -154,6 +156,7 @@
 346	The print has ΣΩΚ. here (as Perseus); speaker kept. No comma after ὁμοίαν in the print: removed.
 348	Printed κομή- | την, with a comma: comma added (turnover already joined).
 344	The apparatus runs on to the facing page (leaf 189, page 91, between the translation and the commentary, under a rule): the end of the item on 344 (from “Com. i. p. 637 K.”) and the items on 345, 346, 347 and 348 are printed there; all written here, with the lines they name.
+344	app2: facing block on leaf 189 checked on the crops (end of 344 from “Com. i. p. 637 K.”, items 345, 346, 347 with || Blaydes τουτί, 348 with || ἢν] εἰ V): every item and word already in the apparatus as printed; no change.
 
 === p-0190
 --- text
