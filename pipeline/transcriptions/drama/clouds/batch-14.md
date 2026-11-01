@@ -200,7 +200,13 @@
 744	πάλαι RV: v. Herwerden (Mnem. xxiv. p. 299) ἀφ. ἐπʼ ὀλίγον, κᾳτα τῇ γνώμῃ πάλιν | κίν. αὖ. ταὐτό τε ζ.
 745	αὐτὸ codd.: Kuster αὖ σὺ, which is probable
 747	ΣΤΡ. om. R
-748	R prefixes ΣΤΡᵋ to ἐπίδειξον, ΣΩ. to εἰπὲ, ΣΤΡᵋ
+748	R prefixes ΣΤΡᵋ to ἐπίδειξον, ΣΩ. to εἰπὲ, ΣΤΡᵋ to τὸ τί
+748	τοδὶ C dett. al., which is not improbable (cp. 500 crit. n., Fritzsche ad Thesm. 773)
+749-752	Quoted by Su. (s.v. Θετταλὴ γυνή), who omits φαρμακίδʼ εἰ, δὴ αὐτὴν, εἰς λοφεῖον στρογγύλον
+749	Fritzsche (l.c.) τί γυναῖκα, dividing the anap. wrongly
+750	δὴ] Hermann δὲ
+754	ἀνατέλλει RV
+755	οὐκ ἄν γʼ Ald.
 --- notes
 744	the print has ἀφεὶς ἄπελθε· κᾆτα τὴν γνώμην πάλιν (Perseus ἀφεὶς ἄπελθε, [καὶ] κατὰ …): no καὶ and no brackets, raised stop after ἄπελθε, κᾆτα with circumflex and iota subscript; clear in the crop and confirmed by the apparatus (κᾆτα codd. dett., Ald.: Bergk καὶ κατὰ); changed.
 745	the print has αὖ σὺ (Perseus αὐτὸ), Kuster's conjecture (apparatus "αὐτὸ codd.: Kuster αὖ σὺ, which is probable"); changed.
@@ -214,6 +220,13 @@
 752	res: comma before the dash after ἔχων (ἔχων,—), as printed (seen on the page, not in the residual list)
 745	res: margins 745 (κίνησον) and 750 (καθέλοιμι) checked: they fit
 748	rev: apparatus ΣΤΡε → ΣΤΡᵋ (twice): the superscript ε written with the modifier letter ᵋ, as in batch-15 (769) and batch-25 (1415, 1494). Checked the facing page (leaf 0273): no apparatus continues there; the item ends as printed.
+748	app2: the apparatus runs on to the facing page (leaf 0273), between the two rules under the translation; the earlier note that nothing continues there was wrong. The 748 item ends there with "to τὸ τί": completed (R prefixes ΣΤΡᵋ to ἐπίδειξον, ΣΩ. to εἰπὲ, ΣΤΡᵋ to τὸ τί).
+748	app2: added from the facing page the item after ||, printed without a number, so 748: τοδὶ C dett. al., which is not improbable (cp. 500 crit. n., Fritzsche ad Thesm. 773).
+749-752	app2: added from the facing page: Quoted by Su. (s.v. Θετταλὴ γυνή), who omits φαρμακίδʼ εἰ, δὴ αὐτὴν, εἰς λοφεῖον στρογγύλον. Printed "749-52": written as 749-752.
+749	app2: added from the facing page: Fritzsche (l.c.) τί γυναῖκα, dividing the anap. wrongly.
+750	app2: added from the facing page: δὴ] Hermann δὲ.
+754	app2: added from the facing page: ἀνατέλλει RV.
+755	app2: added from the facing page: οὐκ ἄν γʼ Ald. (ἄν with acute before the enclitic, as printed). p-0274's apparatus continues with a further 755 item (ὅτιη τί δή).
 
 === p-0274
 --- text
