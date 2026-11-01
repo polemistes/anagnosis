@@ -6,7 +6,7 @@
 794	ἴσχε δʼ ἀνδρὸς φίλου πῶλον εὖνιν
 795	ζυγέντʼ ἐν ἅρμασιν
 796	πημάτων, ἐν δρόμῳ προστιθεὶς
-797	μέτρον. τίς ἂν σωζόμενον ῥυθμὸν
+797	μέτρον. τίς ἂν σῳζόμενον ῥυθμὸν
 798	τοῦτʼ ἴδοι διὰ πέδον
 799	ἀνομένων βημάτων ὄρεγμα;
 800	οἵ τʼ ἔσω δωμάτων
@@ -43,14 +43,14 @@
 794	the print reads ἴσχε (asterisk, Pauw's correction; apparatus "ἴσθι MSS."), and divides εὖ-|νιν over two verses: written whole at the end of 794.
 795	renumbered to the print (was 794a): the margin 795 stands beside ζυγέντʼ ἐν ἅρμασιν, which is a verse of its own once εὖνιν is joined to 794.
 796	the print has no ⟨σὺ δʼ⟩ and a comma after πημάτων: written as printed.
-797	the print reads μέτρον. τίς ἂν σωζόμενον (no iota subscript) where Perseus has μέτρον κτίσον σῳζόμενον: written as printed.
+797	the print reads μέτρον. τίς ἂν where Perseus has μέτρον κτίσον: written as printed; σῳζόμενον kept in Perseus's spelling (the print has no iota subscript).
 798	the print reads ἴδοι (asterisk) for Perseus ἰδεῖν: written as printed (apparatus 798).
 801	the print reads ἐνίζετε (asterisk, apparatus "νομίζετε MSS. corr. H."), no comma: written as printed.
 802	the print ends the verse with a full stop.
 803	the print reads ἄγετε, τῶν πάλαι [πεπραγμένων], brackets round πεπραγμένων, not ἄγετε: written as printed.
 804	the print has a row of five asterisks after 804 (Hermann's lost line, apparatus 803-804), not counted in the numbering (margin 805 at γέρων): added as a ! line.
 807	the print has no comma after στόμιον: written as printed.
-809	renumbered to the print (was 808): the margin 810 stands beside λαμπρὸν, and the apparatus numbers ἐλευθερίας λαμπρὸν 809-810 and ὄμμασιν 811, 806 κτίμενον. Sidgwick's count therefore has one number more between 806 and 809 than the page has verses; στόμιον is kept at 807 and 808 is skipped. The print has no ⟨φῶς⟩: written as printed.
+809	renumbered to the print (was 808): the margin 810 stands beside λαμπρὸν, and the apparatus numbers κτίμενον 806, ἐλευθερίας λαμπρὸν 809-810 and ὄμμασιν 811. Sidgwick's count therefore has one number more between 806 and 809 than the page has verses; στόμιον is kept at 807 and 808 is skipped. The print has no ⟨φῶς⟩: written as printed.
 810	renumbered to the print (was 809; margin 810).
 811	renumbered to the print (was 810; apparatus 811). The print reads ἐκ without angle brackets (asterisk, apparatus "ἐκ H."). Apparatus: a faint mark between MSS. and ἐκ is a blemish, not a stop.
 812	renumbered (was 811).
@@ -135,11 +135,11 @@
 847	τί τῶνδʼ ἂν εἴποις ὥστε δηλῶσαι φρενί;
 @ Χορός
 848	ἠκούσαμεν μέν, πυνθάνου δὲ τῶν ξένων
-849	ἔσω παρελθών. οὐδὲν ἀγγέλων σθένος
+849	εἴσω παρελθών· οὐδὲν ἀγγέλων σθένος,
 850	ὡς αὐτὸν αὐτῶν ἄνδρα πεύθεσθαι πάρα.
 @ Αἴγισθος
 851	ἰδεῖν ἐλέγξαι τʼ αὖ θέλω τὸν ἄγγελον,
-852	εἴτʼ αὐτὸς ἦν θνῄσκοντος ἐγγύθεν παρών,
+852	εἴτʼ αὐτὸς ἦν θνῄσκοντος ἐγγύθεν παρὼν
 853	εἴτʼ ἐξ ἀμαυρᾶς κληδόνος λέγει μαθών.
 854	οὔτοι φρένʼ ἂν κλέψειεν ὠμματωμένην.
 @ Χορός
@@ -153,14 +153,27 @@
 862	οἴκων ὄλεθρον διὰ παντός,
 863	ἢ πῦρ καὶ φῶς ἐπʼ ἐλευθερίᾳ
 864	δαίων ἀρχάς τε πολισσονόμους
-865	πατέρων ⟨θʼ⟩ ἕξει μέγαν ὄλβον.
+865	πατέρων θʼ ἕξει μέγαν ὄλβον.
 866	τοιάνδε πάλην μόνος ὢν ἔφεδρος
 867	δισσοῖς μέλλει θεῖος Ὀρέστης
 868	ἅψειν. εἴη δʼ ἐπὶ νίκῃ.
 @ Αἴγισθος
-869	ἒ ἔ, ὀτοτοτοῖ.
+869	ἐέ, ὀτοτοτοῖ.
 --- apparatus
+843	ἑλκαίνοντι . . δεδηγμένῳ MSS. corr. Bamb., Weil.
+850	αὐτὸς αὐτὸν MSS. corr. Schütz, Pors.
+850	πέρι MSS. corr. H.
+852	ἦε, ν superscr. M., ἦεν G. corr. Turn.
+854	φρένα MSS. ἂν ins. Elmsl.
+856	κἀπιθοάζουσʼ MSS. corr. Schütz, Blom.
+865	ἕξει πατέρων MSS., text Weil.
+867	θείοις MSS. corr. Turn.
 --- notes
+849	the print reads εἴσω (Perseus ἔσω), a raised stop after παρελθών and a comma at the end: written as printed.
+852	the print has no comma after παρὼν (grave accent, the verse runs on): written as printed. ἦν has an asterisk (apparatus 852), left out.
+865	the print reads πατέρων θʼ without angle brackets (asterisk on πατέρων, Weil's order; apparatus 865): written as printed.
+869	ΑΙ. in the margin; the print reads ἐέ, ὀτοτοτοῖ. (one word ἐέ, smooth breathing, acute on the second ε) where Perseus has ἒ ἔ,: written as printed.
+848	ΧΟ., ΑΙ., ΧΟ. in the margin at 848, 851, 855, as in the draft. Pencil notes in both margins (glosses, "die and come to nought", "to invoke the gods against..." etc.) are handwriting, ignored. Margins 845, 850, 855, 860, 865 agree.
 
 === p-0076
 --- text
@@ -171,16 +184,16 @@
 873	ὅπως δοκῶμεν τῶνδʼ ἀναίτιαι κακῶν
 874	εἶναι· μάχης γὰρ δὴ κεκύρωται τέλος.
 @ Οἰκέτης
-875	οἴμοι, πανοίμοι δεσπότου πεπληγμένου·
+875	οἴμοι πανοίμοι δεσπότου πεπληγμένου·
 876	οἴμοι μάλʼ αὖθις ἐν τρίτοις προσφθέγμασιν.
-877	Αἴγισθος οὐκέτʼ ἔστιν. ἀλλʼ ἀνοίξατε
+877	Αἴγισθος οὐκ ἔτʼ ἐστίν. ἀλλʼ ἀνοίξατε
 878	ὅπως τάχιστα, καὶ γυναικείους πύλας
 879	μοχλοῖς χαλᾶτε· καὶ μάλʼ ἡβῶντος δὲ δεῖ,
-880	οὐχ ὡς δʼ ἀρῆξαι διαπεπραγμένῳ· τί γάρ;
+880	οὐχ ὥστʼ ἀρῆξαι διαπεπραγμένῳ· τί γάρ;
 881	ἰοὺ ἰού. κωφοῖς ἀυτῶ καὶ καθεύδουσιν μάτην
-883	ἄκραντα βάζω; ποῖ Κλυταιμήστρα; τί δρᾷ;
-884	ἔοικε νῦν αὐτῆς ἐπὶ ξυροῦ πέλας
-884a	αὐχὴν πεσεῖσθαι πρὸς δίκην πεπληγμένος.
+882	ἄκραντα βάζω. ποῖ Κλυταιμνήστρα; τί δρᾷ;
+883	ἔοικε νῦν αὖ τῆσδʼ ἐπιξήνου πέλας
+884	αὐχὴν πεσεῖσθαι πρὸς δίκην πεπληγμένος.
 @ Κλυταιμνήστρα
 885	τί δʼ ἐστὶ χρῆμα; τίνα βοὴν ἵστης δόμοις;
 @ Οἰκέτης
@@ -189,7 +202,7 @@
 887	οἲ ʼγώ. ξυνῆκα τοὔπος ἐξ αἰνιγμάτων.
 888	δόλοις ὀλούμεθʼ, ὥσπερ οὖν ἐκτείναμεν.
 889	δοίη τις ἀνδροκμῆτα πέλεκυν ὡς τάχος·
-890	εἰδῶμεν εἰ νικῶμεν, ἢ νικώμεθα·
+890	εἰδῶμεν ἢ νικῶμεν, ἢ νικώμεθα.
 891	ἐνταῦθα γὰρ δὴ τοῦδʼ ἀφικόμην κακοῦ.
 @ Ὀρέστης
 892	σὲ καὶ ματεύω· τῷδε δʼ ἀρκούντως ἔχει.
@@ -197,18 +210,39 @@
 893	οἲ ʼγώ. τέθνηκας, φίλτατʼ Αἰγίσθου βία.
 @ Ὀρέστης
 894	φιλεῖς τὸν ἄνδρα; τοιγὰρ ἐν ταὐτῷ τάφῳ
-895	κείσῃ· θανόντα δʼ οὔτι μὴ προδῷς ποτε.
+895	κείσει. θανόντα δʼ οὔτι μὴ προδῷς ποτέ.
 @ Κλυταιμνήστρα
 896	ἐπίσχες, ὦ παῖ, τόνδε δʼ αἴδεσαι, τέκνον,
 897	μαστόν, πρὸς ᾧ σὺ πολλὰ δὴ βρίζων ἅμα
 --- apparatus
+872	ἄπο σταθῶμεν M., ἀποσταθῶ μὲν G. corr. Rob.
+875	τελουμένου MSS. corr. Schütz.
+880	ὡς δʼ MSS. corr. Pors.
+880	διαπεπραγμένων MSS. corr. Turn. from schol.
+883	αὐτῆς MSS. corr. Martin.
+883	ἐπὶ ξυροῦ MSS. corr. Abresch.
+884	πρὸς δίκη M., text G.
+896	δήσεται MSS. corr. Sophianus, Rob.
+897	ὠκὺ MSS. corr. Rob.
 --- notes
+870	ΧΟ. in the margin, as the draft; margins 870, 875, 880, 885, 890, 895 checked.
+875	ΟΙ. in the margin, as the draft. The print has no comma after the first οἴμοι: written as printed; πεπληγμένου· stands on this verse (asterisk, apparatus 875).
+877	the print reads οὐκ ἔτʼ ἐστίν. (two words, ἐστίν accented) where Perseus has οὐκέτʼ ἔστιν.: written as printed.
+880	the print reads οὐχ ὥστʼ (asterisk; apparatus "ὡς δʼ MSS. corr. Pors.") where Perseus has οὐχ ὡς δʼ: written as printed; διαπεπραγμένῳ also has an asterisk.
+882	renumbered to the print (was 883): the apparatus numbers the next verse (ἔοικε) 883 and the one after (αὐχὴν) 884, and the margin 885 stands at τί δʼ ἐστὶ; Sidgwick counts ἰοὺ ἰού ... μάτην as one verse, 881, as the draft does. The print reads βάζω. (full stop) and Κλυταιμνήστρα with ν (Perseus Κλυταιμήστρα): written as printed.
+883	renumbered to the print (was 884; apparatus 883): the print reads αὖ τῆσδʼ ἐπιξήνου (asterisks on αὖ and ἐπιξήνου; apparatus 883) where Perseus has αὐτῆς ἐπὶ ξυροῦ: written as printed. Pencil "an executioner's block" is handwriting, ignored.
+884	renumbered to the print (was 884a; apparatus 884).
+885	ΚΛ., ΟΙ., ΚΛ. in the margin at 885, 886, 887, as the draft.
+890	the print reads εἰδῶμεν ἢ νικῶμεν, ἢ νικώμεθα. (ἢ for Perseus εἰ, full stop at the end): written as printed.
+892	ΟΡ., ΚΛ., ΟΡ., ΚΛ. in the margin at 892, 893, 894, 896, as the draft.
+895	the print reads κείσει. and ποτέ. (Perseus κείσῃ· ... ποτε.): written as printed.
+896	τόνδε δʼ and ᾧ (897) have asterisks in the print (apparatus 896, 897), left out. Pencil "sleep" under βρίζων is handwriting.
 
 === p-0077
 --- text
 898	οὔλοισιν ἐξήμελξας εὐτραφὲς γάλα.
 @ Ὀρέστης
-899	Πυλάδη τί δράσω; μητέρʼ αἰδεσθῶ κτανεῖν;
+899	Πυλάδη, τί δράσω; μητέρʼ αἰδεσθῶ κτανεῖν;
 @ Πυλάδης
 900	ποῦ δὴ τὰ λοιπὰ Λοξίου μαντεύματα
 901	τὰ πυθόχρηστα, πιστὰ δʼ εὐορκώματα;
@@ -217,7 +251,7 @@
 903	κρίνω σὲ νικᾶν, καὶ παραινεῖς μοι καλῶς.
 904	ἕπου, πρὸς αὐτὸν τόνδε σὲ σφάξαι θέλω.
 905	καὶ ζῶντα γάρ νιν κρείσσονʼ ἡγήσω πατρός·
-906	τούτῳ θανοῦσα ξυγκάθευδʼ, ἐπεὶ φιλεῖς
+906	τούτῳ θανοῦσα ξυγκάθευδʼ· ἐπεὶ φιλεῖς
 907	τὸν ἄνδρα τοῦτον, ὃν δʼ ἐχρῆν φιλεῖν στυγεῖς.
 @ Κλυταιμνήστρα
 908	ἐγώ σʼ ἔθρεψα, σὺν δὲ γηράναι θέλω.
@@ -228,19 +262,19 @@
 @ Ὀρέστης
 911	καὶ τόνδε τοίνυν Μοῖρʼ ἐπόρσυνεν μόρον.
 @ Κλυταιμνήστρα
-912	οὐδὲν σεβίζῃ γενεθλίους ἀράς, τέκνον;
+912	οὐδὲν σεβίζει γενεθλίους ἀράς, τέκνον;
 @ Ὀρέστης
 913	τεκοῦσα γάρ μʼ ἔρριψας ἐς τὸ δυστυχές.
 @ Κλυταιμνήστρα
-914	οὔτοι σʼ ἀπέρριψʼ εἰς δόμους δορυξένους.
+914	οὔτοι σʼ ἀπέρριψʼ ἐς δόμους δορυξένους.
 @ Ὀρέστης
-915	αἰκῶς ἐπράθην ὢν ἐλευθέρου πατρός.
+915	διχῶς ἐπράθην, ὢν ἐλευθέρου πατρός.
 @ Κλυταιμνήστρα
 916	ποῦ δῆθʼ ὁ τῖμος, ὅντινʼ ἀντεδεξάμην;
 @ Ὀρέστης
 917	αἰσχύνομαί σοι τοῦτʼ ὀνειδίσαι σαφῶς.
 @ Κλυταιμνήστρα
-918	μὴ Ἀλλʼ εἴφʼ ὁμοίως καὶ πατρὸς τοῦ σοῦ μάτας.
+918	ἀλλʼ εἴφʼ ὁμοίως καὶ πατρὸς τοῦ σοῦ μάτας.
 @ Ὀρέστης
 919	μὴ ʼλεγχε τὸν πονοῦντʼ ἔσω καθημένη.
 @ Κλυταιμνήστρα
@@ -260,7 +294,22 @@
 @ Ὀρέστης
 927	πατρὸς γὰρ αἶσα τόνδε σοὐρίζει μόρον.
 --- apparatus
+908	νῦν MSS. corr. Auratus.
+917	σου MSS. corr. Cant.
+918	μὴ ἀλλʼ MSS. corr. H.
+927	σʼ ὁρίζει MSS. corr. Elmsl.
 --- notes
+899	the print has a comma after Πυλάδη: written as printed. ΟΡ., ΠΥ., ΟΡ. in the margin at 899, 900, 903, as the draft; margins 900, 905, 910, 915, 920, 925 agree.
+906	the print has a raised stop after ξυγκάθευδʼ (Perseus a comma): written as printed.
+908	σὺν has an asterisk (apparatus 908), left out. Pencil above and beside the lines (glosses) is handwriting, ignored.
+910	the print has ΚΛ. in the margin at 910, as the draft: the speaker flag is the OCR's missing the margin.
+912	the print reads σεβίζει (Perseus σεβίζῃ): written as printed.
+914	the print reads ἐς (Perseus εἰς) and has ΚΛ. in the margin, as the draft (the speaker flag is the OCR's missing it).
+915	the print reads διχῶς ἐπράθην, (Perseus αἰκῶς, no comma): written as printed.
+916	ἀντεδεξάμην; stands on this verse, as the draft.
+917	σοι has an asterisk (apparatus 917), left out.
+918	the print reads ἀλλʼ εἴφʼ (asterisk; apparatus "μὴ ἀλλʼ MSS. corr. H."), without μὴ: written as printed.
+927	σοὐρίζει has an asterisk (apparatus 927), left out. The handwritten note under the apparatus ("914. οὐκ ἔστιν ἀπορρῖψαι ... schol.") is pencil, ignored.
 
 === p-0078
 --- text
@@ -268,7 +317,7 @@
 928	οἲ ʼγὼ τεκοῦσα τόνδʼ ὄφιν ἐθρεψάμην.
 @ Ὀρέστης
 929	ἦ κάρτα μάντις οὑξ ὀνειράτων φόβος.
-930	ἔκανες ὃν οὐ χρῆν, καὶ τὸ μὴ χρεὼν πάθε.
+930	ἔκανες ὃν οὐ χρῆν, καὶ τὸ μὴ χρεὼν παθέ.
 @ Χορός
 931	στένω μὲν οὖν καὶ τῶνδε συμφορὰν διπλῆν.
 932	ἐπεὶ δὲ πολλῶν αἱμάτων ἐπήκρισε
@@ -277,17 +326,40 @@
 935	ἔμολε μὲν δίκα Πριαμίδαις χρόνῳ,
 936	βαρύδικος ποινά·
 937	ἔμολε δʼ ἐς δόμον τὸν Ἀγαμέμνονος
-938	διπλοῦς λέων, διπλοῦς Ἄρης. ἔλασε δʼ ἐς τὸ πᾶν
+938	διπλοῦς λέων, διπλοῦς Ἄρης.
+939	ἔλασε δʼ ἐς τὸ πᾶν
 940	ὁ πυθόχρηστος φυγὰς
 941	θεόθεν εὖ φραδαῖσιν ὡρμημένος.
 942	ἐπολολύξατʼ ὦ δεσποσύνων δόμων
-943	ἀναφυγᾶς κακῶν καὶ κτεάνων τριβᾶς
-944	ὑπαὶ δυοῖν μιαστόροιν,
+943	ἀναφυγὰς κακῶν καὶ κτεάνων τριβᾶς
+944	ὑπαὶ δυοῖν μιαστόροιν
 945	δυσοίμου τύχας.
 946	ἔμολε δʼ ᾧ μέλει κρυπταδίου μάχας
-947	δολιόφρων ποινά·
+947	δολιόφρων ποινά.
 948	ἔθιγε δʼ ἐν μάχᾳ χερὸς ἐτήτυμος
 949	Διὸς κόρα—Δίκαν δέ νιν
 950	προσαγορεύομεν
 --- apparatus
+930	κάνες γʼ M., κἄνὲς γʼ G., ἔκανες H.
+939	ἔλακε MSS. ἔλαχε Schütz, text schol.
+940	πυθοχρήσταις M. η written over -αι-, πυθοχρήστας G. corr. Butl.
+941	εὐφραδαῖσιν M. (acc. H.), ἐν φραδαῖσιν M. (acc. Merkel), εὐφραδαῖσιν G. corr. H.
+942	ἐπολολυξάτω MSS. corr. Seidler.
+943	τριβὰς MSS. corr. Stanl.
+944	δοιοῖν M.
+944	ὑπὸ MSS. corr. H.
+948	δὲ μάχαι M., δὲ μάχα G. corr. Pauw.
 --- notes
+929	the print has ΟΡ. in the margin at 929, as the draft (@ Ὀρέστης): the speaker flag is the OCR's missing the margin. ΚΛ. at 928 and ΧΟ. at 931, as the draft. Margins 930, 935, 940, 945, 950 agree.
+930	the print reads παθέ. (acute on the last syllable; Perseus πάθε.): written as printed. ἔκανες has an asterisk (apparatus 930), left out.
+938	the print sets ἔλασε δʼ ἐς τὸ πᾶν as a verse of its own (asterisk on ἔλασε; apparatus 939): split, 938 διπλοῦς λέων, διπλοῦς Ἄρης. and 939 ἔλασε δʼ ἐς τὸ πᾶν (Perseus 939 is empty in the draft's numbering; the margin 940 at ὁ πυθόχρηστος confirms). Pencil glosses beside 938-944 are handwriting, ignored.
+940	ὁ stands on this verse; πυθόχρηστος has an asterisk (apparatus 940), left out.
+941	εὖ has an asterisk (apparatus 941), left out.
+942	ἐπολολύξατʼ has an asterisk (apparatus 942), left out. The labels στρ. α΄., στρ. β΄., ἀντ. α΄. are left out.
+943	the print reads ἀναφυγὰς (grave; Perseus ἀναφυγᾶς): written as printed.
+944	the print has no comma after μιαστόροιν: written as printed; ὑπαὶ has an asterisk (apparatus 944), left out.
+946	ἔμολε is printed on this verse.
+947	the verse ends with a full stop in the print.
+948	δʼ has an asterisk (apparatus 948), left out.
+949	the print reads Διὸς κόρα—Δίκαν δέ νιν, as the draft.
+940	apparatus: πυθο-|χρήστας divided over two lines in the print, written whole.
