@@ -15,9 +15,9 @@
 222	ὦ Σώκρατες,
 222a	ὦ Σωκρατίδιον.
 @ Σωκράτης
-223	τί με καλεῖς ὦφήμερε;
+223	τί με καλεῖς, ὦφήμερε;
 @ Στρεψιάδης
-224	πρῶτον μὲν ὅ τι δρᾷς ἀντιβολῶ κάτειπέ μοι.
+224	πρῶτον μὲν ὅ τι δρᾷς, ἀντιβολῶ, κάτειπέ μοι.
 @ Σωκράτης
 225	ἀεροβατῶ καὶ περιφρονῶ τὸν ἥλιον.
 --- apparatus
@@ -29,6 +29,9 @@
 219	the print sets verse 219 as four staggered half-lines (ΜΑΘ. αὐτός. / ΣΤΡ. τίς αὐτός; / ΜΑΘ. Σωκράτης. / ΣΤΡ. ὦ Σώκρατες.—): kept as 219, 219a, 219b, 219c (one per speaker). 219c ends with a dash in the print (ὦ Σώκρατες.—): added as printed.
 221	numbering: Perseus numbers αὐτὸς μὲν οὖν σὺ κάλεσον 220a and ὦ Σώκρατες, / ὦ Σωκρατίδιον. 221 and 222. The print has margin 220 at ἴθʼ οὗτος and 225 at ἀεροβατῶ with five printed lines between, and the apparatus names αὐτὸς μὲν οὖν σὺ κάλεσον 221 (σὺ om. V) and ὦ Σώκρατες 222 (After Σώκρατες V has ...): renumbered 220a→221, and ὦ Σώκρατες, / ὦ Σωκρατίδιον. (printed on two lines, one verse for Starkie) 222 and 222a. The print ends 221 with a dash (σχολή.—): added as printed.
 223	Starkie prints the centred heading ΣΩΚΡΑΤΗΣ above 223 (no margin abbreviation): the speaker line @ Σωκράτης stands as the draft has it.
+223	res: comma after καλεῖς, as printed
+224	res: commas after δρᾷς and ἀντιβολῶ, as printed
+222	res: numbering confirmed on the page: margin 220 at ἴθʼ οὗτος and 225 at ἀεροβατῶ with six printed lines between, so ὦ Σώκρατες, / ὦ Σωκρατίδιον. (two lines at the same indent, not a turnover) is one verse, 222, as the apparatus "222 After Σώκρατες" confirms. Kept as 222 + 222a, one file line per printed line as with 219–219c above; merge-drama reads lettered numbers (LINE_N) and maps Perseus lines by word alignment, so 222a needs nothing special.
 
 === p-0158
 --- text
@@ -57,7 +60,7 @@
 @ Στρεψιάδης
 235	τί φῄς;
 236	ἡ φροντὶς ἕλκει τὴν ἰκμάδʼ εἰς τὰ κάρδαμα;—
-237	ἴθι νυν κατάβηθʼ ὦ Σωκρατίδιον ὡς ἐμέ,
+237	ἴθι νυν, κατάβηθʼ, ὦ Σωκρατίδιον, ὡς ἐμέ,
 238	ἵνα με διδάξῃς ὧνπερ ἕνεκʼ ἐλήλυθα.
 @ Σωκράτης
 239	ἦλθες δὲ κατὰ τί;
@@ -75,6 +78,7 @@
 234	the print reads ταὐτὸν (Wecklein; see the apparatus; Perseus ταὐτὸ): written as printed. In the apparatus the lemma ταυτὸ is printed without breathing: copied so.
 236	the print reads εἰς (Perseus ἐς) and ends the verse ;— (question mark and dash): written as printed. In the apparatus πω̣ς φ̣[ηις] is printed with dots under ω and φ: written with combining dots below.
 238	the print reads ἕνεκʼ (Bentley; see the apparatus; Perseus οὕνεκʼ): written as printed.
+237	res: commas after νυν, κατάβηθʼ and Σωκρατίδιον, as printed
 238	rev: apparatus item 238: the lemma is printed με διδάξης without iota subscript (the verse and ἐκδιδάξῃς in the same item have it): written as printed.
 
 === p-0162
@@ -83,7 +87,7 @@
 @ Σωκράτης
 242	πόθεν δʼ ὑπόχρεως σαυτὸν ἔλαθες γενόμενος;
 @ Στρεψιάδης
-243	νόσος μʼ ἐπέτριψεν ἱππικὴ δεινὴ φαγεῖν.
+243	νόσος μʼ ἐπέτριψεν ἱππική, δεινὴ φαγεῖν.
 244	ἀλλά με δίδαξον τὸν ἕτερον τοῖν σοῖν λόγοιν,
 245	τὸν μηδὲν ἀποδιδόντα. μισθὸν δʼ ὅντινʼ ἂν
 246	πράττῃ μʼ ὀμοῦμαί σοι καταθήσειν τοὺς θεούς.
@@ -96,13 +100,14 @@
 243	ἐπέτριψεν A Ald., schol. recc. (V. Coulon, Qu. crit. p. 171): ἔτριψεν RV etc., schol. V on 242
 248	ὄμνυτε R, with most MSS.: ὤμνυτε V: in RV etc. ἢ commences the next line: recte Ald.: Bergk ἢ νομίζετε (from Su. s.v. νόμισμα): Kayser τῷ δὲ νομίζετ; ἢ: Goettling τῷ νομίζετʼ; ἢ: v. Leeuwen τῷ δʼ ἀγοράζετʼ; ἦ. There is little doubt that γάρ should not be altered; and, if it is kept, it seems impossible to substitute a more suitable word for ὄμνυτε; certainly O. Schneider's τῷ γὰρ τοὔνομʼ; ἢ is not attractive. Piccolomini argues that the word was interpolated from ὀμῇ
 --- notes
+243	res: ἱππική, with acute and a comma after it, as printed
 247	the print reads ὀμῇ (Perseus ὀμεῖ): written as printed.
 248	248a: ΣΤΡ. τῷ γὰρ ὄμνυτʼ; ἢ is printed set in on its own line as the second half of 248, with ἢ at its end (the apparatus: "in RV etc. ἢ commences the next line: recte Ald."): kept as the draft has it.
 248	apparatus: the item ends at the foot of the page with "interpolated from ὀμῇ" and no stop; it does not continue on the next text page (p-0164 begins with 251) nor above the commentary of the facing page 163: copied as printed. Kayser's νομίζετ is printed without an elision mark and v. Leeuwen's conjecture ends ἦ (circumflex): both copied as printed.
 
 === p-0164
 --- text
-249	σιδαρέοισιν ὥσπερ ἐν Βυζαντίῳ;
+249	σιδαρέοισιν, ὥσπερ ἐν Βυζαντίῳ;
 @ Σωκράτης
 250	βούλῃ τὰ θεῖα πράγματʼ εἰδέναι σαφῶς
 251	ἅττʼ ἐστὶν ὀρθῶς;
@@ -135,6 +140,7 @@
 258	ταῦτα πάντα RV etc.: πάντα ταῦτα Ald.; Aristophanes generally prefers the former (Bachmann, Zur Krit. p. 239), but here Reiske's em. πάντας ταῦτα may be right
 259	ποοῦμεν RV etc.
 --- notes
+249	res: comma after σιδαρέοισιν, as printed
 250	the print reads βούλῃ (Perseus βούλει): written as printed.
 251	251a: the print has a comma after νὴ Δίʼ (Perseus none): written as printed. Margin 250 at βούλῃ and 255 beside τουτονὶ τοίνυν λαβὲ (the second half of 255): numbering runs on.
 252	the print reads εἰς (Perseus ἐς): written as printed.

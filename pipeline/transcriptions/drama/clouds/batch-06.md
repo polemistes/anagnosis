@@ -1,10 +1,10 @@
 === p-0168
 --- text
-264	ὦ δέσποτʼ ἄναξ ἀμέτρητʼ Ἀήρ, ὃς ἔχεις τὴν γῆν μετέωρον,
-265	λαμπρός τʼ Αἰθὴρ σεμναί τε θεαὶ Νεφέλαι βροντησικέραυνοι,
-266	ἄρθητε φάνητʼ ὦ δέσποιναι τῷ φροντιστῇ μετέωροι.
+264	ὦ δέσποτʼ ἄναξ, ἀμέτρητʼ Ἀήρ, ὃς ἔχεις τὴν γῆν μετέωρον,
+265	λαμπρός τʼ Αἰθήρ, σεμναί τε θεαὶ Νεφέλαι βροντησικέραυνοι,
+266	ἄρθητε, φάνητʼ, ὦ δέσποιναι, τῷ φροντιστῇ μετέωροι.
 @ Στρεψιάδης
-267	μήπω μήπω γε πρὶν ἂν τουτὶ πτύξωμαι, μὴ καταβρεχθῶ.
+267	μήπω μήπω γε, πρὶν ἂν τουτὶ πτύξωμαι, μὴ καταβρεχθῶ.
 --- apparatus
 267	μήπω μήπω γε Ald.: μήπω γε μήπω γε R etc.: μήπω γε μήπω V. In an ellipse with μή (Aves 585 μὴ πρίν γʼ ἂν ἐγώ), and οὐ δῆτα (Ran. 845 οὐ δῆτα πρίν γʼ ἄν κτλ.) ‘elliptical γε’ (Vesp. 79 n.) is placed after πρίν; in Ach. 176 μήπω γε πρίν γʼ ἂν στῶ, the repetition of the particle is due to excitement
 267	πτύξομαι RV
@@ -12,13 +12,17 @@
 --- notes
 264	turnover “μετέωρον,” confirmed on the image (indented end of 264).
 265	βροντησικέραυνοι as printed (βροντησι- | κέραυνοι, turnover); the unmatched line “κέραυνου, 2θῦ” is that turnover with the margin number 265: nothing to add.
+264	res: comma after ἄναξ, as printed
+265	res: Αἰθήρ, with acute and a comma after it, as printed
+266	res: commas after ἄρθητε, φάνητʼ and δέσποιναι, as printed
+267	res: comma after γε, as printed
 267	καταβρεχθῶ printed κατα- | βρεχθῶ (turnover); the unmatched “βρεχθῶ.” is that turnover: nothing to add.
 
 === p-0170
 --- text
 268	τὸ δὲ μηδὲ κυνῆν οἴκοθεν ἐλθεῖν ἐμὲ τὸν κακοδαίμονʼ ἔχοντα.
 @ Σωκράτης
-269	ἔλθετε δῆτʼ ὦ πολυτίμητοι Νεφέλαι τῷδʼ εἰς ἐπίδειξιν·
+269	ἔλθετε δῆτʼ, ὦ πολυτίμητοι Νεφέλαι, τῷδʼ εἰς ἐπίδειξιν·
 270	εἴτʼ ἐπʼ Ὀλύμπου κορυφαῖς ἱεραῖς χιονοβλήτοισι κάθησθε,
 271	εἴτʼ Ὠκεανοῦ πατρὸς ἐν κήποις ἱερὸν χορὸν ἵστατε Νύμφαις,
 272	εἴτʼ ἄρα Νείλου προχοαῖς ὑδάτων χρυσέαις ἀρύτεσθε πρόχοισιν,
@@ -38,6 +42,7 @@
 --- notes
 268	turnover “ἔχοντα.” confirmed on the image.
 269	ἐπίδειξιν printed ἐπί- | δειξιν· (turnover); the unmatched “δειξιν"” is that turnover: nothing to add.
+269	res: comma after Νεφέλαι, as printed; and a comma after δῆτʼ, which the crop shows clearly (not in the residual list)
 270	κάθησθε printed κάθ- | ησθε, (turnover); margin 270 stands at that turnover: numbering right.
 271	turnover “Νύμφαις,” confirmed; Ὠκεανοῦ is printed (the OCR dropped the capital): no change.
 272	turnover “πρόχοισιν,” confirmed.
@@ -50,15 +55,15 @@
 === p-0172
 --- text
 @ Χορός
-275	ἀέναοι Νεφέλαι
+275	ἀέναοι Νεφέλαι,
 276	ἀρθῶμεν φανεραὶ δροσερὰν φύσιν
 277	εὐάγητον,
 278	πατρὸς ἀπʼ Ὠκεανοῦ βαρυαχέος
 279	ὑψηλῶν ὀρέων κορυφὰς ἔπι
 280	δενδροκόμους, ἵνα
 281	τηλεφανοῦς σκοπιᾶς ἀφορώμεθα
-282	καρπούς τʼ ἀρδομέναν θʼ ἱερὰν χθόνα,
-283	καὶ ποταμῶν ζαθέων κελαδήματα,
+282	καρπούς τʼ ἀρδομέναν θʼ ἱερὰν χθόνα
+283	καὶ ποταμῶν ζαθέων κελαδήματα
 --- apparatus
 275	sqq. In V mostly written as prose
 275	ἀένναοι V etc.
@@ -78,6 +83,9 @@
 281	apparatus: τεληφανοῦς (sic, for τηλεφανοῦς) as printed.
 275	apparatus: the first item is printed “275 sqq.”; written under 275 with “sqq.” at the start of the item.
 281	rev: the comma at the end of 281 removed: the print has no stop after ἀφορώμεθα (281 is a flagged line whose words were corrected; 282 and 283, unflagged, keep the draft's punctuation, as the note above says).
+275	res: comma after Νεφέλαι, as printed
+282	res: no stop after χθόνα, as printed (comma removed)
+283	res: no stop after κελαδήματα, as printed (comma removed)
 
 === p-0174
 --- text
@@ -86,13 +94,13 @@
 286	σελαγεῖται
 287	μαρμαρέαισιν ἐν αὐγαῖς.
 288	ἀλλʼ ἀποσεισάμεναι νέφος ὄμβριον
-289	ἀθανάτας ἰδέας ἐπιδώμεθα
+289	ἀθανάτας ἰδέας, ἐπιδώμεθα
 290	τηλεσκόπῳ ὄμματι γαῖαν.
 @ Σωκράτης
-291	ὦ μέγα σεμναὶ Νεφέλαι φανερῶς ἠκούσατέ μου καλέσαντος.
+291	ὦ μέγα σεμναὶ Νεφέλαι, φανερῶς ἠκούσατέ μου καλέσαντος.
 292	ᾔσθου φωνῆς ἅμα καὶ βροντῆς μυκησαμένης θεοσέπτου;
 @ Στρεψιάδης
-293	καὶ σέβομαί γʼ ὦ πολυτίμητοι καὶ βούλομαι ἀνταποπαρδεῖν
+293	καὶ σέβομαί γʼ, ὦ πολυτίμητοι, καὶ βούλομαι ἀνταποπαρδεῖν
 294	πρὸς τὰς βροντάς· οὕτως αὐτὰς τετρεμαίνω καὶ πεφόβημαι·
 --- apparatus
 284	κελάδοντα codd.: om. Su. (s.v. βαρύβρομος); the word, which is epic (Il. xviii. 576), seems impossible after κελαδήματα: Blaydes στενάχοντα. κελαδεῖν is found elsewhere in Aristoph. (Pax 802, Thesm. 44, Ran. 682, 1527)
@@ -110,16 +118,20 @@
 293	καὶ is printed on this line; ΣΤΡ. is printed here: @ Στρεψιάδης kept. ἀνταποπαρδεῖν printed ἀνταπο- | παρδεῖν (turnover); the unmatched “παρδεῖν” is that turnover.
 294	πρὸς is printed on this line; πεφόβημαι printed πε- | φόβημαι· (turnover); the margin number 294 printed beside it (the last verse of the page) agrees with our numbering.
 290	a printed “>” stands before the margin number 290 (a mark, not text): not transcribed.
+289	res: comma after ἰδέας, as printed
+291	res: comma after Νεφέλαι, as printed
+293	res: commas after γʼ and πολυτίμητοι, as printed
+292	res: ᾔσθου left: the enlarged crop shows the iota subscript under η (the OCR dropped it)
 
 === p-0176
 --- text
-295	κεἰ θέμις ἐστίν, νυνί γʼ ἤδη, κεἰ μὴ θέμις ἐστί, χεσείω.
+295	κεἰ θέμις ἐστίν, νυνί γʼ ἤδη,—κεἰ μὴ θέμις ἐστί, χεσείω.
 @ Σωκράτης
 296	οὐ μὴ σκώψῃ μηδὲ ποήσεις ἅπερ οἱ τρυγοδαίμονες οὗτοι,
 297	ἀλλʼ εὐφήμει· μέγα γάρ τι θεῶν κινεῖται σμῆνος ἀοιδαῖς.
 @ Χορός
-298	παρθένοι ὀμβροφόροι
-300	ἔλθωμεν λιπαρὰν χθόνα Παλλάδος,
+298	παρθένοι ὀμβροφόροι,
+300	ἔλθωμεν λιπαρὰν χθόνα Παλλάδος
 300a	εὔανδρον γᾶν
 301	Κέκροπος ὀψόμεναι πολυήρατον·
 302	οὗ σέβας ἀρρήτων ἱερῶν, ἵνα
@@ -145,6 +157,10 @@
 296	apparatus: “σκώψης ⟨-ῃς⟩” as printed (σκώψης without, -ῃς with iota subscript; angle brackets in the print); ποιήσης V printed without subscript; σκώψῃς (twice, later in the item) with it.
 295	apparatus: ἐστὶν, with grave before the comma as printed.
 300	rev: numbering checked and settled, no change: Perseus itself has no line 299 (its 298 is παρθένοι ὀμβροφόροι, its 300 ἔλθωμεν … Παλλάδος, εὔανδρον γᾶν), so by the number rule ἔλθωμεν is 300 and εὔανδρον γᾶν, printed on a line of its own, set in like εὐάγητον in the strophe (277) while the line above is far from full, is 300a; this agrees with the margins 300 (ἔλθωμεν) and 305 (οὐρανίοις, p-0178) and with the apparatus (300 χθόνα, Παλλάδος εὔανδρον γᾶν). The commentary on leaf 177 (299 sqq., 301 εὔανδρον, 302 Κέκροπος, 304 μυστοδόκος) counts otherwise; the printed margin numbers win.
+295	res: (no residual list for this page; its verses compared with the page by eye) a dash after ἤδη, (ἤδη,—κεἰ), as printed
+298	res: comma after ὀμβροφόροι, as printed
+300	res: no comma after Παλλάδος, as printed (comma removed)
+300	res: numbering question settled: from 294 (margin, p-0174) 295–297 run on to παρθένοι 298; the margin 300 stands at ἔλθωμεν, so no verse is 299 (Perseus has no 299 either); from 300 to 305 (οὐρανίοις, p-0178) there are five printed lines, Κέκροπος 301, οὗ … ἵνα 302, μυστοδόκος 303, ἐν τελεταῖς 304 (apparatus 304 ἀναπιτνάται), so εὔανδρον γᾶν is not counted and stays 300a (apparatus "300 … Παλλάδος εὔανδρον γᾶν om. R"). Strophe and antistrophe are numbered differently in the print (εὐάγητον 277 counted, εὔανδρον γᾶν not): we follow the print on each page.
 
 === p-0178
 --- text
@@ -155,13 +171,13 @@
 309	θαλίαι τε,
 310	παντοδαπαῖσιν ἐν ὥραις,
 311	ἦρί τʼ ἐπερχομένῳ Βρομία χάρις,
-312	εὐκελάδων τε χορῶν ἐρεθίσματα,
+312	εὐκελάδων τε χορῶν ἐρεθίσματα
 313	καὶ Μοῦσα βαρύβρομος αὐλῶν.
 @ Στρεψιάδης
-314	πρὸς τοῦ Διὸς ἀντιβολῶ σε φράσον, τίνες εἴσʼ ὦ Σώκρατες αὗται
-315	αἱ φθεγξάμεναι τοῦτο τὸ σεμνόν; μῶν ἡρῷναί τινές εἰσιν;
+314	πρὸς τοῦ Διὸς ἀντιβολῶ σε, φράσον, τίνες εἴσʼ, ὦ Σώκρατες, αὗται
+315	αἱ φθεγξάμεναι τοῦτο τὸ σεμνόν; μῶν ἡρῷναι τινές εἰσιν;
 @ Σωκράτης
-316	ἥκιστʼ ἀλλʼ οὐράνιαι Νεφέλαι μεγάλαι θεαὶ ἀνδράσιν ἀργοῖς·
+316	ἥκιστʼ, ἀλλʼ οὐράνιαι Νεφέλαι, μεγάλαι θεαὶ ἀνδράσιν ἀργοῖς
 317	αἵπερ γνώμην καὶ διάλεξιν καὶ νοῦν ἡμῖν παρέχουσι
 --- apparatus
 306	ὑψηρεφεῖς RV: ὑψιρεφεῖς Ald.
@@ -177,3 +193,7 @@
 316	turnover “ἀργοῖς” confirmed; ΣΩΚ. printed: @ Σωκράτης kept.
 317	παρέχουσι (no ν) as printed; Perseus παρέχουσιν.
 313	a printed “>” stands at the right after 313 (a mark, not text): not transcribed.
+312	res: no stop after ἐρεθίσματα, as printed (comma removed)
+314	res: commas after σε, εἴσʼ and Σώκρατες, as printed (the comma after εἴσʼ is clear on the crop though not in the residual list)
+315	res: ἡρῷναι without the enclitic accent before τινές, as printed (seen on the page, not in the residual list)
+316	res: commas after ἥκιστʼ and Νεφέλαι, and no stop after ἀργοῖς (the turnover), as printed
