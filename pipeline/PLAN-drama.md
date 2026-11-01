@@ -341,7 +341,8 @@ purchase, promote. Then go on with the next play.
 - [x] Step 1: modules, tests, CLI (2026-11-01; tried on Agamemnon leaves 31-36, notes 150-151, introduction 11-12)
 - [x] Agamemnon: 2 ✓ leaves · 3 ✓ draft · 4 ✓ text batches (two passes) · 5 ✓ merge · 6 ✓ notes · 7 ✓ introduction · 8 ✓ translation, sigla, glossary, about · 9 ✓ build and pack
 - [x] Choephoroi: 2 ✓ · 3 ✓ · 4 ✓ (two passes) · 5 ✓ · 6 ✓ · 7 ✓ · 8 ✓ · 9 ✓
-- [ ] Eumenides: 2 ✓ · 3 ✓ · 4 · 5 · 6 · 7 · 8 · 9 · 10 group check
+- [ ] Eumenides: 2 ✓ · 3 ✓ · 4 ✓ (two passes) · 5 (merged; next: review agent on build/eumenides-review.tsv → "eumenides" in drama_fixes.py, then ten lines by eye) · 6 skipped (no notes) · 7 ✓ (merged) · 8 (sigla.md ✓; glossary, shortdefs, about, READMEs) · 9 · 10 group check
+  (paused 2026-11-01 for a shutdown: Clouds fetch/OCR stopped part-way; rerun `drama-pages clouds fetch`, `ocr`, then `drama-prose clouds intro|trans|notes fetch|ocr` — existing pages are kept)
 - [ ] R1: reader 0.6.0
 - [ ] Clouds: 2 · 3 · 4 · 5 · 6 · 7 (intro and trans) · 8 · 9
 - [ ] Medea: 2 (apparatus rule) · 3 · 4 · 5 · 6 · 7 · 8 · 9
@@ -523,7 +524,16 @@ session sees where it stopped.
   Introduction leaves 19-98 (pp. vii-xc), the Greek hypotheses 101-106 and the persons 107;
   sigla: the chapter "The Manuscripts", pp. lvii-lx = leaves 67-70. The apparatus sits between
   the two rules (drama_pages.page_layout takes it from there when a second rule is found).
-  Starkie's translation is used (not Hickie's): the pages are clean print.
+  Starkie's translation is used (not Hickie's): the pages are clean print. The jp2 download
+  failed for 25 leaves, and the page-image fallback took page image n = leaf, which is the wrong
+  page in a scan with hidden leaves; fixed (n counted over the shown leaves), the 25 refetched.
+* **2026-11-01, Eumenides step 4, numbering.** Sidgwick's apparatus numbers sometimes count one
+  above his margins (788, 796, 798, 879, 944) or one below (347, 507, 521-522); they are copied as
+  printed and the merge places them on the nearest earlier verse with the [N] prefix. Two margin
+  numbers stand one verse low against both the neighbouring margins and the apparatus (270 on
+  p. 45, 535 on p. 55): there the apparatus and the other margins were followed, not the brief's
+  "later margin wins" tie-break. The stage cries (Μυγμός., Ὠγμός., 117-129) are `!` lines; the
+  print counts them as verses, so their numbers are skipped.
 * **2026-11-02, Choephoroi steps 5-9.** The AGDT Choephoroi ends at line 945: the last 687
   words (946-1076) have the analyser's lemma and form, corrected in the review (116 corrections,
   most of them there), and no syntax tree. GLAUx could fill the trees automatically, but a text
