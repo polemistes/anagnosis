@@ -26,6 +26,7 @@
 1359	the print reads σʼ ἀράττεσθαί (Meineke's conjecture, which Starkie follows, see the apparatus; Perseus σʼ ἄρα τύπτεσθαί), clear on the crop: written as printed; ἄρα is not printed.
 1358	res: comma after πίνονθʼ, as printed. The margin number at ᾆσαι (1356) is printed 1356, not 1355, and stands on our 1356: numbering agrees.
 1359	apparatus: the 1359 item breaks off at "indicates that" at the foot of this page and runs on at the foot of the facing translation page (leaf 387, p. 287, between the two rules) through "25 crit. n."; read there and written here. The paragraph ends there.
+1359	app2: block on leaf 387 checked against the crops p-0386-app2-l/-r ("τύπτεσθαι may have been a gloss … Ach. 25 crit. n.", end of the 1359 item, no further items): every word already present as printed; no change.
 
 === p-0388
 --- text
@@ -148,6 +149,7 @@
 1379a	rev: the first agent's note on νὴ τὸν Δίʼ ἐν δίκῃ γε. relabelled from 1379b to 1379a with the renumbering.
 1388-1389	apparatus printed "1388 sq."; written as 1388-1389 (1389 is on p-0394).
 1383	apparatus: [-Λ̣ΑΝ] has a dot under the Λ (an uncertain letter of the papyrus): written with a combining dot below.
+1384	app2: block on leaf 393 checked against the crops p-0392-app2-l/-r (end of the 1384 item from "i. 33 § 3", then 1385, 1386 sq. (two items), 1388 sq. (two items)): every item and word already present as printed; no change.
 
 === p-0394
 --- text
@@ -240,3 +242,4 @@
 1407	apparatus: ἵππων̣ has a dot under the final ν (an uncertain letter of the papyrus): written with a combining dot below; Herwerden's supplement is printed in pointed brackets < >, written ⟨ ⟩. AΘM: Latin A, Greek Θ, Latin M, as printed.
 1411	rev: apparatus οὐκ ἄν μέ σοι V corrected to οὐκ ἂν μέ σοι V: the print has the grave on ἂν (leaf 397, enlarged crop).
 1412	rev: apparatus τοῦτʼ ἔστʼ R dett. al. corrected to τοῦτʼ ἐστʼ R dett. al.: the print has only the breathing on this ἐστʼ, no accent, unlike γε τοῦτʼ ἔστʼ Δ in the same item (leaf 397, enlarged crop).
+1409	app2: block on leaf 397 checked against the crops p-0396-app2-l/-r (1409 τουτί· παῖδα … ἐτύπτησας RV, 1410, 1411 (two items), 1412 (three items) through "τόδʼ ἐστὶν"): every item and word already present as printed; no change.
