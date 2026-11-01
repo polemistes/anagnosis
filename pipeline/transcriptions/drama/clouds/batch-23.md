@@ -41,12 +41,12 @@
 1284	εἰ μηδὲν οἶσθα τῶν μετεώρων πραγμάτων;
 @ Αμυνίας
 1285	ἀλλʼ εἰ σπανίζετʼ ἀργυρίου, τὸν γοῦν τόκον
-1286	ἀπόδοτε·
+1286	ἀπόδοτε.
 @ Στρεψιάδης
 1286a	τοῦτο δʼ ἔσθʼ ὁ τόκος τί θηρίον;
 @ Αμυνίας
 1287	τί δʼ ἄλλο γʼ ἢ κατὰ μῆνα καὶ καθʼ ἡμέραν
-1288	πλέον πλέον τἀργύριον ἀεὶ γίγνεται
+1288	πλέον πλέον τἀργύριον ἀεὶ γίγνεται,
 1289	ὑπορρέοντος τοῦ χρόνου;
 @ Στρεψιάδης
 1289a	καλῶς λέγεις.
@@ -57,7 +57,7 @@
 1292	οὐ γὰρ δίκαιον πλείονʼ εἶναι.
 @ Στρεψιάδης
 1292a	κᾆτα πῶς
-1293	αὕτη μὲν ὦ κακόδαιμον οὐδὲν γίγνεται
+1293	αὕτη μέν, ὦ κακόδαιμον, οὐδὲν γίγνεται
 1294	ἐπιρρεόντων τῶν ποταμῶν πλείων, σὺ δὲ
 1295	ζητεῖς ποῆσαι τἀργύριον πλεῖον τὸ σόν;
 1296	οὐκ ἀποδιώξῃ σαυτὸν ἀπὸ τῆς οἰκίας;
@@ -78,6 +78,9 @@
 1296	the print reads ἀποδιώξῃ (Perseus ἀποδιώξει), clear on the crop: written as printed.
 1296	apparatus: the paragraph ends on this page with the bare number "1296" and runs on at the foot of the facing translation page (leaf 377, between the two rules) with the 1296 items (ἀποδιώξεις codd. … || ἀπὸ Δ …); read from pages/leaf_0377.png and written here. "p. lxxx. 13" is the end of the reference, not a line number.
 1291a	rev: the print has a comma after Δίʼ (μὰ Δίʼ, ἀλλʼ ἴσην.), clear on the crop; Perseus none: comma added.
+1286	res: full stop after ἀπόδοτε, as printed (not a raised stop; clear on the enlarged crop)
+1288	res: comma after γίγνεται, as printed
+1293	res: commas after μέν and κακόδαιμον, and μέν with acute before the comma, as printed
 
 === p-0378
 --- text
@@ -85,7 +88,7 @@
 @ Αμυνίας
 1297a	ταῦτʼ ἐγὼ μαρτύρομαι.
 @ Στρεψιάδης
-1298	ὕπαγε. τί μέλλεις; οὐκ ἐλᾷς ὦ σαμφόρα;
+1298	ὕπαγε, τί μέλλεις; οὐκ ἐλᾷς, ὦ σαμφόρα;
 @ Αμυνίας
 1299	ταῦτʼ οὐχ ὕβρις δῆτʼ ἐστίν;
 @ Στρεψιάδης
@@ -122,6 +125,8 @@
 1307	the print reads κοὐκ ἔσθʼ ὅπως οὐκ *ὄψεται (Starkie's own conjecture, see the apparatus "I suggest ὄψεται . . τις"; Perseus κοὐκ ἔσθʼ ὅπως οὐ τήμερον), clear on the crop: written as printed, the asterisk (Starkie's mark of a conjecture) left out. τήμερον is not on this verse: it begins the next.
 1308	renumbered 1307a to 1308: the print divides τήμερόν *τις πρᾶγμʼ, ὃ τοῦ- as its own verse; Perseus divides κοὐκ … τήμερον (1307) | λήψεταί τι πρᾶγμʼ, ὃ τοῦτον (1308), so the draft gave τήμερον's verse the number 1307a. Starkie numbers it 1308 (his commentary on this page's facing leaf has "1308. τήμερον", "1309. σοφιστήν"; margin 1305 at ἀποστερῆσαι and 1310 on the next page), and the printed numbering wins. The print reads τήμερόν *τις πρᾶγμʼ (Starkie's τις, see the apparatus; Perseus λήψεταί τι), with no λήψεται: written as printed, asterisk left out. τοῦ-|τον is divided at the line end: written whole here, and τον left out of 1309.
 1309	the print reads τον ποήσει τὸν σοφιστὴν <κακῶς>, (Schroeder's ⟨κακῶς⟩ in pointed brackets, see the apparatus; Perseus ποιήσει … [ἴσως,]); no square brackets, no ἴσως: written as printed, ποήσει as at 1295, the pointed brackets as ⟨ ⟩, τον (the end of τοῦτον) left out.
+1298	res: comma (not a full stop) after ὕπαγε, and comma after ἐλᾷς, as printed (clear on the enlarged crop)
+1308	res: the renumbering 1307a → 1308 confirmed: between margin 1305 (ἀποστερῆσαι) and margin 1310 (⟨ἀνθʼ⟩ ὧν, next page) the print sets τὰ χρήμαθʼ, κοὐκ ἔσθʼ, τήμερόν, τον ποήσει as four verses, so τήμερόν must count as 1308 for margin 1310 to stand on its verse; the printed numbering wins over the Perseus-word rule (which would give 1307a). The merge must accept 1308 with τήμερον, not Perseus's λήψεται line.
 1298	apparatus: μαρτ is printed μαρ with a superscript τ (V's speaker mark for the witness); Unicode has no superscript τ, so written μαρτ (as ΣΤρ in batch 20).
 1304-1305	apparatus: printed "1304 sq."; written as 1304-1305.
 1307	apparatus: "1307 sqq." written as 1307 with "sqq." at the head of the item, as in the earlier batches. The paragraph breaks off at "(3) . ." at the foot of this page and runs on at the foot of the facing translation page (leaf 379, between the two rules) through the 1307 and 1309 items; read from pages/leaf_0379.png and written here. The pointed brackets of the 1309 item are printed ⟨ ⟩.
@@ -159,6 +164,7 @@
 1313	the print reads πάλαι ποτʼ ἐδίζητʼ, (Blaydes's conjecture, see the apparatus; Perseus †ἐπεζήτει†), clear on the crop: written as printed.
 1314	the print reads ὑὸν (Perseus υἱὸν), clear on the crop: written as printed.
 1316	the print divides νι-|κᾶν at the line end: written whole (νικᾶν) here and κᾶν left out of 1317 (the OCR's "κἂν" at the head of that line).
+1310	res: the renumbering 1310-1320 confirmed on the whole page: margins 1310 (⟨ἀνθʼ⟩ ὧν … ἐξ-), 1315 (γνώμας) and 1320 (κἄφωνον) all stand on their verses only if λαβεῖν κακόν τι. counts as 1311 and the antistrophe runs 1312-1320; the printed numbering wins over Perseus's (1310 as one line, no 1318, 1319). The merge must accept Starkie's numbers here.
 1325	ὦ is printed at 1322 and 1325; the print reads ὦ μιαρέ, with a comma (Perseus ὦ μιαρὲ τύπτεις): written as printed. The heading ΕΠΕΙΣΟΔΙΟΝ Γ before 1321 is not transcribed; ΣΤΡ. in the margin at 1321, as the draft has it.
 
 === p-0382
@@ -187,7 +193,7 @@
 1332a	ὦ μιαρώτατε,
 1333	καὶ πῶς γένοιτʼ ἂν πατέρα τύπτειν ἐν δίκῃ;
 @ Φειδιππίδης
-1334	ἔγωγʼ ἀποδείξω καί σε νικήσω λέγων.
+1334	ἔγωγʼ ἀποδείξω, καί σε νικήσω λέγων.
 @ Στρεψιάδης
 1335	τουτὶ σὺ νικήσεις;
 @ Φειδιππίδης
@@ -207,12 +213,13 @@
 --- notes
 1325a	ΦΕΙ. in the margin, φήμʼ, ὦ πάτερ. set in, with margin 1325 beside it: speaker and lettered verse as in the draft. The print has a comma after φήμʼ: written as printed. Likewise confirmed on the crop, with the speaker in the margin as the draft has it: 1326a (ΦΕΙ.), 1330a (ΦΕΙ., margin 1330), 1331a (ΦΕΙ.), 1332a (ΣΤΡ.), 1335a (ΦΕΙ., margin 1335), 1337a (ΦΕΙ.); the "Perseus changes speaker here, the print shows none" flags are wrong (the margin abbreviations stand there).
 1336	the print reads βούλῃ (Perseus βούλει), clear on the crop: written as printed.
+1334	res: comma after ἀποδείξω, as printed
 1337a	the print reads τὸν κρείττονʼ, ἢ τὸν ἥττονα; (comma and question mark; Perseus no comma, full stop): written as printed.
 
 === p-0384
 --- text
 @ Στρεψιάδης
-1338	ἐδιδαξάμην μέντοι σε νὴ Δίʼ ὦ μέλε
+1338	ἐδιδαξάμην μέντοι σε νὴ Δίʼ, ὦ μέλε,
 1339	τοῖσιν δικαίοις ἀντιλέγειν, εἰ ταῦτά γε
 1340	μέλλεις ἀναπείσειν, ὡς δίκαιον καὶ καλὸν
 1341	τὸν πατέρα τύπτεσθαί ἐστιν ὑπὸ τῶν ὑέων.
@@ -223,12 +230,12 @@
 1344	καὶ μὴν ὅ τι καὶ λέξεις ἀκοῦσαι βούλομαι.
 @ Χορός
 1345	σὸν ἔργον, ὦ πρεσβῦτα, φροντίζειν, ὅπη
-1346	τὸν ἄνδρα κρατήσεις,
+1346	τὸν ἄνδρα κρατήσεις·
 1347	ὡς οὗτος, εἰ μή τῳ ἐπεποίθειν, οὐκ ἂν ἦν
 1348	οὕτως ἀκόλαστος.
 1349	ἀλλʼ ἔσθʼ ὅτῳ θρασύνεται· δῆλόν γε τἀνθρώπου
 1350	ἔστι τὸ λῆμα.
-1351	ἀλλʼ ἐξ ὅτου τὸ πρῶτον ἤρξαθʼ ἡ μάχη γενέσθαι,
+1351	ἀλλʼ ἐξ ὅτου τὸ πρῶτον ἤρξαθʼ ἡ μάχη γενέσθαι
 1352	ἤδη λέγειν πρὸς τὸν χορόν· πάντως δὲ τοῦτο δράσεις.
 --- apparatus
 1338	v. Herwerden ὦ μέλʼ, εὖ
@@ -239,6 +246,9 @@
 1350	δῆλον [δ. γε Ald.] τὸ λῆμʼ (λῆμμʼ R) ἐστὶ τἀνθρώπου codd.: Bentley ἐστὶ τὸ τἀνδρός: Hermann δ. γε τἀν|θρώπου ʼστὶ τὸ λῆμα
 1352	ἤδη λέγειν χρὴ πρὸς χορόν codd.: Lenting (Obs. crit. p. 74) ἤδη λέγειν (=imperat., cp. 850) πρὸς τὸν χ., a likely suggestion: Meineke χρὴ δὴ λ. πρὸς τὸν χ., or ἡμῖν λ. χρὴ πρὸς χάριν: Dobree ἐχρῆν λ. πρὸς τὸν χ. (ἤδη having come from a supposed gloss ἔδει): v. Herwerden (Mnem. xix. p. 51) πρὸς χάριν πάντως δὲ; the article could not, as I think, be omitted with χ. in this metre, though εἰς χορόν (above, 564) occurs in a lyric
 --- notes
+1338	res: commas after Δίʼ and μέλε, as printed
+1346	res: raised stop (not a comma) after κρατήσεις, as printed (clear on the enlarged crop)
+1351	res: no comma after γενέσθαι, as printed (the verse ends bare; the sentence runs on into 1352)
 1341	the print reads τύπτεσθαί ἐστιν (unelided; Perseus τύπτεσθʼ ἐστὶν) and ὑέων (Perseus υἱέων), clear on the crop: written as printed. Margin 1340 at μέλλεις: numbering agrees.
 1342	ΦΕΙ. stands in the margin here, as the draft has it (the flag is wrong). The print has a dash after ἀναπείσειν, (ἀναπείσειν,—ὥστε γε): written as printed.
 1345	the print's speaker is ΗΜΙ. Α. (first semichorus), under the centred headings ΑΓΩΝ Β and ᾠδή (not transcribed): @ Χορός kept, the Perseus name for the chorus, as in the earlier batches. The print reads σὸν ἔργον, ὦ πρεσβῦτα, φροντίζειν, ὅπη, with commas and ὅπη without iota subscript (clear on the crop, and so in Starkie's commentary lemma ὅπη δʼ [ἂν] on the facing page; Perseus ὅπῃ): written as printed. Margin 1345 here: numbering agrees.
