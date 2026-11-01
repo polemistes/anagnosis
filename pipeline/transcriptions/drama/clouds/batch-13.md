@@ -88,6 +88,7 @@
 655	apparatus: printed "655 sqq."; written under 655 with "sqq." at the start of the item
 654	apparatus: "De uit." is printed so (u, not v)
 644a	rev: apparatus items 644-657 checked against this page and the run-on on leaf 255; speakers (none at 653, ΣΤΡ. at 654) and margins 645, 650, 655 confirmed; no change.
+654	app2: the run-on block on leaf 255 (from "τοῦ V etc., Ald." of 654 through 657) read on the crops: every item and word already as printed; no change
 
 === p-0256
 --- text
@@ -131,6 +132,7 @@
 663	apparatus: "κατὰ ταυτὸ R" is printed without coronis (later "καὶ ταὐτὸ", "κατὰ ταὐτὸ" with it): written as printed; the abbreviations in "(τα superscr. κα)" carry a bar above, written with combining overlines
 663	rev: the print sets κατὰ ταὐτὸ between dashes (ἀλεκτρυόνα—κατὰ ταὐτὸ—καὶ τὸν ἄρρενα., Starkie's parenthesis, see the apparatus): dashes added; words as Perseus
 661	rev: the asterisk line written with single spaces (* * * * * *), as in the other batches; merge-drama passes a ! line through as it stands, so it needs no gap in Perseus
+663	app2: the run-on block on leaf 257 (from "parenthesis" of 663 through 666) read on the crops: every item and word already as printed; no change
 
 === p-0258
 --- text
@@ -232,6 +234,7 @@
 686	res: commas after Φιλόξενος and Μελησίας, as printed
 690	res: comma after δεῦρʼ, as printed
 677a	rev: apparatus items 677-690 checked against this page and the run-on on leaf 261; text, speakers and margins 680, 685, 690 checked; no change.
+686	app2: the run-on block on leaf 261 (from "uniformity" of 686 through 690) read on the crops: every item and word already as printed; no change
 
 === p-0262
 --- text
