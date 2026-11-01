@@ -13,8 +13,8 @@
 @ Στρεψιάδης
 709	ἀπόλλυμαι δείλαιος· ἐκ τοῦ σκίμποδος
 710	δάκνουσί μʼ ἐξέρποντες οἱ Κορίνθιοι,
-711	καὶ τὰς πλευρὰς δαρδάπτουσιν
-712	καὶ τὴν ψυχὴν ἐκπίνουσιν
+711	καὶ τὰς πλευρὰς δαρδάπτουσιν,
+712	καὶ τὴν ψυχὴν ἐκπίνουσιν,
 --- apparatus
 703	ἐμπέσῃς Su. (s.vv. μεταπήδα, ταχύς)
 704	ἐπʼ RV etc.: εἰς Ald.
@@ -28,11 +28,14 @@
 706	renumbered 705a to 706: "στω γλυκύθυμος ὀμμάτων." is set in under 705 after the divided ἀπέ- | στω, but Starkie counts it as a verse of its own (apparatus "706 After this line …", commentary "706. γλυκύθυμος"); Perseus prints it inside its 705 and has a gap as 706. ἀπέστω written whole on 705.
 706	after this verse the print has two rows of four asterisks (the lacuna Perseus marks as 706); copied as two ! lines.
 712-713	apparatus printed "712 sq."; written as 712-713 (713 is on p-0266).
+711	res: comma after δαρδάπτουσιν, as printed
+712	res: comma after ἐκπίνουσιν, as printed
+703	res: numbering checked against batch-13, which now ends with 701 πάντα τρόπον τε σαυτὸν and 702 στρόβει πυκνώσας, so this page runs on from it; margins 705 (νόημα) and 710 (δάκνουσί) fit
 708	speaker printed ΚΟΡ. (the coryphaeus): written as Χορός.
 
 === p-0266
 --- text
-713	καὶ τοὺς ὄρχεις ἐξέλκουσιν
+713	καὶ τοὺς ὄρχεις ἐξέλκουσιν,
 714	καὶ τὸν πρωκτὸν διορύττουσιν,
 715	καί μʼ ἀπολοῦσιν.
 @ Χορός
@@ -45,7 +48,7 @@
 721	φρουρὰς ᾄδων
 722	ὀλίγου φροῦδος γεγένημαι.
 @ Σωκράτης
-723	οὗτος τί ποιεῖς; οὐχὶ φροντίζεις;
+723	οὗτος, τί ποιεῖς; οὐχὶ φροντίζεις;
 @ Στρεψιάδης
 723a	ἐγώ;
 724	νὴ τὸν Ποσειδῶ.
@@ -72,23 +75,26 @@
 721-722	apparatus printed "721 sq."; written as 721-722.
 722	the heading ἀντεπίρρημα printed between 722 and 723 is a section label, left out.
 716	speaker printed ΚΟΡ.: written as Χορός.
+713	res: comma after ἐξέλκουσιν, as printed
+723	res: comma after οὗτος, as printed
+715	res: margins 715 (καί μʼ ἀπολοῦσιν), 720 and 725 (ὑπὸ τῶν κόρεων) checked: they fit
 
 === p-0268
 --- text
 @ Στρεψιάδης
-726a	ἀλλʼ ὦγάθʼ ἀπόλωλʼ ἀρτίως.
+726a	ἀλλʼ, ὦγάθʼ, ἀπόλωλʼ ἀρτίως.
 @ Χορός
-727	οὐ μαλθακιστέʼ ἀλλὰ περικαλυπτέα.
+727	οὐ μαλθακιστέʼ, ἀλλὰ περικαλυπτέα.
 728	ἐξευρετέος γὰρ νοῦς ἀποστερητικὸς
 729	κἀπαιόλημα.
 @ Στρεψιάδης
-729a	οἴμοι τίς ἂν δῆτʼ ἐπιβάλοι
-730	ἐξ ἀρνακίδων γνώμην ἀποστερητρίδα;
+729a	οἴμοι, τίς ἂν δῆτʼ ἐπιβάλοι
+730	ἐξ ἀρνακίδων γνώμην ἀποστερητρίδα;—
 @ Σωκράτης
-731	φέρε νυν ἀθρήσω πρῶτον ὅ τι δρᾷ τουτονί.
-732	οὗτος καθεύδεις;
+731	φέρε νυν, ἀθρήσω πρῶτον, ὅ τι δρᾷ, τουτονί.
+732	οὗτος, καθεύδεις;
 @ Στρεψιάδης
-732a	μὰ τὸν Ἀπόλλω ἐγὼ μὲν οὔ.
+732a	μὰ τὸν Ἀπόλλω, ἐγὼ μὲν οὔ.
 --- apparatus
 727-729	Assigned by Willems (Bull. de l’Acad. roy. de Belg., 1906, p. 665) to the Coryphaeus whose function it is to encourage Strepsiades (cp. 700 sqq.): codd. σωᵏ
 728	ἐξευρετέος Su. (s.v. παιόλημα, codd. RV): ἐξευρητέος RV etc.: εὑρητέος Ald., Oxford edd.
@@ -105,6 +111,13 @@
 727-729	apparatus printed "727-9": written as 727-729. Its last word is the siglum σω with a superscript κ (the codices' speaker mark σωκ), written σωκ.
 731-739	apparatus printed "731-9": written as 731-739 (733-739 are on p-0270, p-0272).
 729	apparatus οἴμοι] belongs to 729a (οἴμοι τίς ἂν…), printed after "||" without a new number, so it takes 729.
+726a	res: commas after ἀλλʼ and ὦγάθʼ, as printed
+727	res: comma after μαλθακιστέʼ, as printed
+729a	res: comma after οἴμοι, as printed
+730	res: a dash after ἀποστερητρίδα; as printed (;—); margin 730 fits
+731	res: commas after νυν, πρῶτον and δρᾷ, as printed
+732	res: comma after οὗτος, as printed
+732a	res: comma after Ἀπόλλω, as printed
 727-729	rev: apparatus codd. σωκ → σωᵏ: the κ is printed as a superscript; written with the modifier letter ᵏ, as in batch-17 (925-926) and batch-20 (1105-1106).
 
 === p-0270
@@ -120,14 +133,14 @@
 @ Σωκράτης
 735	οὐκ ἐγκαλυψάμενος ταχέως τι φροντιεῖς;
 @ Στρεψιάδης
-736	περὶ τοῦ; σὺ γάρ μοι τοῦτο φράσον ὦ Σώκρατες.
+736	περὶ τοῦ; σὺ γάρ μοι τοῦτο φράσον, ὦ Σώκρατες.
 @ Σωκράτης
 737	αὐτὸς ὅ τι βούλῃ πρῶτος ἐξευρὼν λέγε.
 @ Στρεψιάδης
 738	ἀκήκοας μυριάκις ἁγὼ βούλομαι,
-739	περὶ τῶν τόκων, ὅπως ἂν ἀποδῶ μηδενί.
+739	περὶ τῶν τόκων,—ὅπως ἂν ἀποδῶ μηδενί.
 @ Σωκράτης
-740	ἴθι νυν καλύπτου καὶ σχάσας τὴν φροντίδα
+740	ἴθι νυν, καλύπτου καὶ σχάσας τὴν φροντίδα
 741	λεπτὴν κατὰ μικρὸν περιφρόνει τὰ πράγματα,
 742	ὀρθῶς διαιρῶν καὶ σκοπῶν.
 @ Στρεψιάδης
@@ -146,6 +159,9 @@
 737	the print has βούλῃ (Perseus βούλει), clear in the crop; changed.
 740	not flagged, but the print has ἴθι νυν, (enclitic, Perseus νῦν), confirmed by the apparatus lemma "ἴθι νυν, καλύπτου]"; changed.
 742a	οἴμοι τάλας. set at the right as the second part of 742, ΣΤΡ. in the margin: kept.
+736	res: comma after φράσον, as printed
+739	res: comma and dash after τόκων (τόκων,—ὅπως), as printed (seen on the page, not in the residual list; Starkie's apparatus on 739 speaks of the dash)
+740	res: comma after νυν, as printed (the apparatus lemma ἴθι νυν, καλύπτου has it too)
 733	rev: apparatus "οὐδέν γε πλὴν ἤ" → "πλὴν ἢ": on an enlarged crop the η carries a smooth breathing and a grave, as in the text of 734.
 
 === p-0272
@@ -157,7 +173,7 @@
 @ Στρεψιάδης
 746	ὦ Σωκρατίδιον φίλτατον.
 @ Σωκράτης
-746a	τί ὦ γέρον;
+746a	τί, ὦ γέρον;
 @ Στρεψιάδης
 747	ἔχω τόκου γνώμην ἀποστερητικήν.
 @ Σωκράτης
@@ -167,10 +183,10 @@
 @ Σωκράτης
 748b	τὸ τί;
 @ Στρεψιάδης
-749	γυναῖκα φαρμακίδʼ εἰ πριάμενος Θετταλὴν
+749	γυναῖκα φαρμακίδʼ εἰ πριάμενος Θετταλήν,
 750	καθέλοιμι νύκτωρ τὴν σελήνην, εἶτα δὴ
 751	αὐτὴν καθείρξαιμʼ εἰς λοφεῖον στρογγύλον,
-752	ὥσπερ κάτοπτρον, κᾆτα τηροίην ἔχων—
+752	ὥσπερ κάτοπτρον, κᾆτα τηροίην ἔχων,—
 @ Σωκράτης
 753	τί δῆτα τοῦτʼ ἂν ὠφελήσειέν σε;
 @ Στρεψιάδης
@@ -193,6 +209,10 @@
 753a	the print shows ΣΤΡ. before ὅ τι; (set at the right as the second part of 753): @ Στρεψιάδης kept, lettered number kept. 746a, 748a, 748b likewise set at the right as parts of 746 and 748: kept.
 744	in the apparatus, κάτᾰ V is printed with a short mark over the final α (written ᾰ), and v. Herwerden's κᾳτα with iota subscript and no circumflex: both as printed.
 748	the apparatus "ΣΤΡ" twice carries a superscript ε (R's speaker mark ΣΤΡε); written ΣΤΡε. The item ends at the foot of this page (p-0274's apparatus begins with 755).
+746a	res: comma after τί, as printed
+749	res: Θετταλήν with acute and a comma after it, as printed
+752	res: comma before the dash after ἔχων (ἔχων,—), as printed (seen on the page, not in the residual list)
+745	res: margins 745 (κίνησον) and 750 (καθέλοιμι) checked: they fit
 748	rev: apparatus ΣΤΡε → ΣΤΡᵋ (twice): the superscript ε written with the modifier letter ᵋ, as in batch-15 (769) and batch-25 (1415, 1494). Checked the facing page (leaf 0273): no apparatus continues there; the item ends as printed.
 
 === p-0274
@@ -202,7 +222,7 @@
 @ Στρεψιάδης
 756	ὁτιὴ κατὰ μῆνα τἀργύριον δανείζεται.
 @ Σωκράτης
-757	εὖ γʼ· ἀλλʼ ἕτερον αὖ σοι προβαλῶ τι δεξιόν.
+757	εὖ γʼ· ἀλλʼ ἕτερον αὖ σοι προβαλῶ τι δεξιόν,
 758	εἴ σοι γράφοιτο πεντετάλαντός τις δίκη,
 759	ὅπως ἂν αὐτὴν ἀφανίσεας εἰπέ μοι.
 @ Στρεψιάδης
@@ -218,7 +238,7 @@
 765a	ποίαν τινά;
 @ Στρεψιάδης
 766	ἤδη παρὰ τοῖσι φαρμακοπώλαις τὴν λίθον
-767	ταύτην ἑόρακας τὴν καλήν, τὴν διαφανῆ,
+767	ταύτην ἑόρακας, τὴν καλήν, τὴν διαφανῆ,
 768	ἀφʼ ἧς τὸ πῦρ ἅπτουσι;
 @ Σωκράτης
 768a	τὴν ὕαλον λέγεις;
@@ -242,4 +262,7 @@
 762	the print has εἰς (Perseus ἐς) and a comma after ἀέρα, clear in the crop; changed.
 765a	ποίαν τινά; set at the right as the second part of 765 (margin 765 beside it), ΣΩΚ. in the margin: kept as lettered.
 768a	τὴν ὕαλον λέγεις; set at the right as the second part of 768: kept as lettered.
+757	res: comma after δεξιόν (not a full stop), as printed
+767	res: comma after ἑόρακας, as printed
+759	res: margins 755 (ὁτιὴ τί δή;), 760 (ὅπως; ὅπως;) and 765 (ποίαν τινά;) checked on the page: the renumbering from 759 on stands, and batch-15 begins at 769
 756	apparatus "Kock" carries a superscript 4 (the 4th edition): written Kock⁴.

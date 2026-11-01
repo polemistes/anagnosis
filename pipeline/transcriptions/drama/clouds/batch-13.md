@@ -13,7 +13,7 @@
 @ Στρεψιάδης
 643	ἐγὼ μὲν οὐδὲν πρότερον ἡμιεκτέου.
 @ Σωκράτης
-644	οὐδὲν λέγεις ὦνθρωπε.
+644	οὐδὲν λέγεις, ὦνθρωπε.
 --- apparatus
 637	ὧν] Naber ὡς
 637	πώποτʼ] v. Leeuwen πρότερον
@@ -28,6 +28,7 @@
 639	the print has ΣΤΡ. in the margin here: speaker kept
 639	the checker's remark here ("Perseus has ἢ ῥυθμῶν;") is the word order of 638 (ἢ ῥυθμῶν ἢ περὶ ἐπῶν as printed), not a change to 639
 642	the print reads ἡγῇ· πότερον (Perseus ἡγεῖ· πότερα): written as printed
+644	res: comma after λέγεις, as printed
 644	rev: apparatus items 637-641 checked item by item against the page; text, speakers and margin 640 checked; no change.
 
 === p-0254
@@ -138,8 +139,8 @@
 668	ὥστʼ ἀντὶ τούτου τοῦ διδάγματος μόνου
 669	διαλφιτώσω σου κύκλῳ τὴν κάρδοπον.
 @ Σωκράτης
-670	ἰδοὺ μάλʼ αὖθις τοῦθʼ ἕτερον· τὴν κάρδοπον
-671	ἄρρενα καλεῖς θήλειαν οὖσαν.
+670	ἰδοὺ μάλʼ αὖθις τοῦθʼ ἕτερον. τὴν κάρδοπον
+671	ἄρρενα καλεῖς, θήλειαν οὖσαν.
 @ Στρεψιάδης
 671a	τῷ τρόπῳ;
 672	ἄρρενα καλῶ ἐγὼ κάρδοπον;
@@ -151,7 +152,7 @@
 @ Σωκράτης
 674	ταὐτὸν δύναταί σοι κάρδοπος Κλεωνύμῳ.
 @ Στρεψιάδης
-675	ἀλλʼ ὦγάθʼ οὐδʼ ἦν κάρδοπος Κλεωνύμῳ,
+675	ἀλλʼ, ὦγάθʼ, οὐδʼ ἦν κάρδοπος Κλεωνύμῳ.
 676	ἀλλʼ ἐν θυείᾳ στρογγύλῃ ἐνεμάττετο.
 677	ἀτὰρ τὸ λοιπὸν πῶς με χρὴ καλεῖν;
 --- apparatus
@@ -167,6 +168,9 @@
 672	the print reads ἐγὼ in full (Perseus ʼγὼ; the apparatus lemma has ʼγὼ): written as printed
 676	the print reads στρογγύλῃ ἐνεμάττετο. (Dobree's ⟨ἐ⟩νεμάττετο, see the apparatus; Perseus γʼ ἂν ἐμάττετο): written as printed; γʼ and ἂν are not on the page
 669	no apparatus on the facing page (leaf 259): the paragraph ends on this page
+670	res: full stop after ἕτερον (not a raised stop), as printed
+671	res: comma after καλεῖς, as printed
+675	res: commas after ἀλλʼ and ὦγάθʼ, and a full stop after Κλεωνύμῳ (not a comma), as printed
 669	rev: apparatus items 669-676 checked against the page; text, speakers and margins 670, 675 checked; no change.
 
 === p-0260
@@ -188,12 +192,12 @@
 @ Σωκράτης
 683a	εἰπὲ δή.
 @ Στρεψιάδης
-684	Λύσιλλα Φίλιννα Κλειταγόρα Δημητρία.
+684	Λύσιλλα, Φίλιννα, Κλειταγόρα, Δημητρία.
 @ Σωκράτης
 685	ἄρρενα δὲ ποῖα τῶν ὀνομάτων;
 @ Στρεψιάδης
 685a	μυρία.
-686	Φιλόξενος Μελησίας Ἀμυνίας.
+686	Φιλόξενος, Μελησίας, Ἀμυνίας.
 @ Σωκράτης
 687	ἀλλʼ, ὦ πονηρέ, ταῦτά γʼ οὐκ ἔστʼ ἄρρενα.
 @ Στρεψιάδης
@@ -202,7 +206,7 @@
 688a	οὐδαμῶς γʼ, ἐπεὶ
 689	πῶς ἂν καλέσειας ἐντυχὼν Ἀμυνίᾳ;
 @ Στρεψιάδης
-690	ὅπως ἄν; ὡδί, δεῦρο δεῦρʼ Ἀμυνία.
+690	ὅπως ἄν; ὡδί, δεῦρο δεῦρʼ, Ἀμυνία.
 @ Σωκράτης
 691	ὁρᾷς; γυναῖκα τὴν Ἀμυνίαν καλεῖς.
 --- apparatus
@@ -224,6 +228,9 @@
 687	the print reads ἀλλʼ, ὦ πονηρέ, ταῦτά γʼ οὐκ ἔστʼ ἄρρενα. (Cobet's order, see the apparatus; Perseus ἀλλʼ ὦ πόνηρε ταῦτά γʼ ἐστʼ οὐκ ἄρρενα): written as printed
 685a	the margin number 685 stands beside μυρία. (the second half of 685): fits
 686	apparatus: the paragraph breaks off at "In order to preserve" at the foot of this page and runs on at the foot of the facing page (leaf 261, between the rules under the translation) through 690; all of it written here
+684	res: commas after Λύσιλλα, Φίλιννα and Κλειταγόρα, as printed (not in the residual list; clear on the page)
+686	res: commas after Φιλόξενος and Μελησίας, as printed
+690	res: comma after δεῦρʼ, as printed
 677a	rev: apparatus items 677-690 checked against this page and the run-on on leaf 261; text, speakers and margins 680, 685, 690 checked; no change.
 
 === p-0262
@@ -232,7 +239,7 @@
 692	οὔκουν δικαίως ἥτις οὐ στρατεύεται;
 693	ἀτὰρ τί ταῦθʼ ἃ πάντες ἴσμεν μανθάνω;
 @ Σωκράτης
-694	οὐδὲν μὰ Δίʼ ἀλλὰ κατακλινεὶς δευρὶ—
+694	οὐδὲν μὰ Δίʼ, ἀλλὰ κατακλινεὶς δευρὶ
 @ Στρεψιάδης
 694a	τί δρῶ;
 @ Σωκράτης
@@ -247,8 +254,8 @@
 699	οἵαν δίκην τοῖς κόρεσι δώσω τήμερον.
 @ Χορός
 700	φρόντιζε δὴ καὶ διάθρει,
-700a	πάντα τρόπον τε σαυτὸν
-701	στρόβει πυκνώσας.
+701	πάντα τρόπον τε σαυτὸν
+702	στρόβει πυκνώσας.
 --- apparatus
 692	ἥτις RV (sic): ὅστις codd. cett., Ald.
 693	ἅπαντες (sic) V
@@ -263,8 +270,9 @@
 696	the print reads μὴ δῆθʼ, ἱκετεύω, ἐνταῦθά γʼ· ἀλλʼ εἴπερ γε χρή, (Dobree's ἐνταῦθά γʼ and the Aldine's εἴπερ, see the apparatus; Perseus ἱκετεύω σʼ ἐνγεταῦθʼ· ἀλλʼ εἴ γε): written as printed; σʼ is not on the page
 700	the print has "ΗΜΙ. Α." (first semichorus) in the margin; Perseus's list has no semichorus, so @ Χορός is kept (Starkie's apparatus: 700-6 given to Socrates in codd. Ald., corr. Hermann)
 700	the print has a comma after διάθρει: added; the margin number 700 stands beside this verse and fits
-700a	πάντα τρόπον τε σαυτὸν is printed as a lyric verse of its own, set in for its metre: kept as 700a
+701	πάντα τρόπον τε σαυτὸν is printed as a lyric verse of its own, set in for its metre; Starkie counts it as his 701 (apparatus and commentary 703 ταχὺς, 704 ἐπʼ ἄλλο; margin 705 at νόημα on p-0264): renumbered 700a to 701 and στρόβει πυκνώσας 701 to 702, so that the page runs on into batch-14 (which begins at 703); Perseus's 701-702 are counted otherwise
 696	apparatus: "696 σ ἐνταῦθʼ RV" shows no elision mark after σ in the print: written as printed
 700-706	apparatus: printed "700–6"; written as 700-706
 692	no apparatus on the facing page (leaf 263): the paragraph ends on this page
+694	res: comma after Δίʼ, as printed; the dash after δευρὶ removed, the print has none
 700	rev: the centred heading ᾠδή above 700 is the edition's own heading, not transcribed (as in the earlier batches); apparatus items 692-700 checked against the page; margins 695 and 700 confirmed. The sign > at the right of 699 is a hand mark, ignored.
