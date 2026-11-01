@@ -5,7 +5,7 @@
 # editor: Arthur Sidgwick (Oxford 1887)
 # apparatus: Sidgwick's critical apparatus
 # translation: H. W. Smyth (1926)
-# introduction: Arthur Sidgwick (1887)
+# commentary: none (Sidgwick's notes are in a volume of which no scan exists); his introduction is included
 # syntax: annotated by hand (Ancient Greek Dependency Treebank)
 # syntax_source: Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition
 # syntax_license: CC BY-SA 3.0 US

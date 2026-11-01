@@ -42,7 +42,7 @@
     "syntax_license": "CC BY-SA 3.0 US",
     "google_play": "yes",
     "product_id": "sophocles_ajax_jebb",
-    "version": "a93c38f7c879ce5e"
+    "version": "991bb789404c731c"
   },
   {
     "slug": "antigone",
@@ -65,7 +65,7 @@
     "syntax_license": "CC BY-SA 3.0 US",
     "google_play": "yes",
     "product_id": "sophocles_antigone_jebb",
-    "version": "cb88454d5807aaa4"
+    "version": "b15c2765857e436a"
   },
   {
     "slug": "choephoroi",
@@ -110,7 +110,7 @@
     "syntax_license": "CC BY-SA 3.0 US",
     "google_play": "yes",
     "product_id": "sophocles_electra_jebb",
-    "version": "ce21304b288f6be9"
+    "version": "e87f98ba89bae37b"
   },
   {
     "slug": "eumenides",
@@ -125,7 +125,7 @@
     "editor": "Arthur Sidgwick (Oxford 1887)",
     "apparatus": "Sidgwick's critical apparatus",
     "translation": "H. W. Smyth (1926)",
-    "introduction": "Arthur Sidgwick (1887)",
+    "commentary": "none (Sidgwick's notes are in a volume of which no scan exists); his introduction is included",
     "syntax": "annotated by hand (Ancient Greek Dependency Treebank)",
     "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
     "syntax_license": "CC BY-SA 3.0 US",
@@ -175,7 +175,7 @@
     "dictionaries": "Dodson's lexicon of the New Testament",
     "google_play": "yes",
     "product_id": "newtestament_sbl",
-    "version": "8921626926ca79a5"
+    "version": "1cd05d6c20b3d0a0"
   },
   {
     "slug": "odyssey",
@@ -198,7 +198,7 @@
     "syntax_license": "CC BY-SA 3.0 US",
     "google_play": "yes",
     "product_id": "homer_odyssey_allen",
-    "version": "6efede46bde26168"
+    "version": "11dfee5229355ab0"
   },
   {
     "slug": "oedipuscoloneus",
@@ -218,7 +218,8 @@
     "commentary": "R. C. Jebb, with his introduction and appendix",
     "syntax": "machine-made (GLAUx), not checked by hand",
     "syntax_source": "GLAUx (Alek Keersmaekers, KU Leuven): automatic annotation, not checked by hand",
-    "syntax_license": "CC BY-SA 4.0"
+    "syntax_license": "CC BY-SA 4.0",
+    "version": "f89cc9508ab94329"
   },
   {
     "slug": "oedipustyrannus",
@@ -238,7 +239,8 @@
     "commentary": "R. C. Jebb, with his introduction and appendix",
     "syntax": "annotated by hand (Ancient Greek Dependency Treebank)",
     "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
-    "syntax_license": "CC BY-SA 3.0 US"
+    "syntax_license": "CC BY-SA 3.0 US",
+    "version": "068997b5161aa7ea"
   },
   {
     "slug": "philoctetes",
@@ -258,7 +260,8 @@
     "commentary": "R. C. Jebb, with his introduction and appendix",
     "syntax": "machine-made (GLAUx), not checked by hand",
     "syntax_source": "GLAUx (Alek Keersmaekers, KU Leuven): automatic annotation, not checked by hand",
-    "syntax_license": "CC BY-SA 4.0"
+    "syntax_license": "CC BY-SA 4.0",
+    "version": "dc29231639ab6ae4"
   },
   {
     "slug": "symposium",
@@ -301,6 +304,7 @@
     "commentary": "R. C. Jebb, with his introduction and appendix",
     "syntax": "annotated by hand (Ancient Greek Dependency Treebank)",
     "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
-    "syntax_license": "CC BY-SA 3.0 US"
+    "syntax_license": "CC BY-SA 3.0 US",
+    "version": "38cdf46d5565c03d"
   }
 ]

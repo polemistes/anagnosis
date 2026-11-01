@@ -335,14 +335,26 @@ purchase, promote. Then go on with the next play.
 
 (filled in by the release steps)
 
+**R1, reader 0.6.0 (version code 16), built 2026-11-01:**
+`app/androidApp/build/outputs/bundle/release/androidApp-release.aab` (rebuild with
+`./gradlew :androidApp:bundleRelease` if it is gone). Release notes in
+`play/listings/reader.md` ("Release notes, 0.6.0"), and the Oresteia line in the full description.
+1. Upload the bundle to internal testing.
+2. Create and activate three one-time products, €3 each: `aeschylus_agamemnon_sidgwick`
+   (name "Agamemnon"), `aeschylus_choephoroi_sidgwick` ("Choephoroi"),
+   `aeschylus_eumenides_sidgwick` ("Eumenides").
+3. Test one purchase on your phone; then promote the release.
+Tested on the emulator (debug shop): all three bought, downloaded and opened; apparatus,
+manuscripts page, introduction, commentary (Agamemnon, Choephoroi), syntax and reading aloud work.
+
 ## Progress
 
 - [x] Step 0: set-up (2026-11-01)
 - [x] Step 1: modules, tests, CLI (2026-11-01; tried on Agamemnon leaves 31-36, notes 150-151, introduction 11-12)
 - [x] Agamemnon: 2 ✓ leaves · 3 ✓ draft · 4 ✓ text batches (two passes) · 5 ✓ merge · 6 ✓ notes · 7 ✓ introduction · 8 ✓ translation, sigla, glossary, about · 9 ✓ build and pack
 - [x] Choephoroi: 2 ✓ · 3 ✓ · 4 ✓ (two passes) · 5 ✓ · 6 ✓ · 7 ✓ · 8 ✓ · 9 ✓
-- [ ] Eumenides: 2 ✓ · 3 ✓ · 4 ✓ (two passes) · 5 ✓ · 6 skipped (no notes) · 7 ✓ · 8 ✓ · 9 ✓ · 10 group check
-- [ ] R1: reader 0.6.0
+- [x] Eumenides: 2 ✓ · 3 ✓ · 4 ✓ (two passes) · 5 ✓ · 6 skipped (no notes) · 7 ✓ · 8 ✓ · 9 ✓ · 10 ✓ group check (2026-11-01)
+- [x] R1: reader 0.6.0 (bundle built 2026-11-01; upload and products: see For the author)
 - [ ] Clouds: 2 · 3 · 4 · 5 · 6 · 7 (intro and trans) · 8 · 9
 - [ ] Medea: 2 (apparatus rule) · 3 · 4 · 5 · 6 · 7 · 8 · 9
 - [ ] Frogs: 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9 · 10 group check
