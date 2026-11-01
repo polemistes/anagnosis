@@ -501,6 +501,13 @@ session sees where it stopped.
   = leaves 36-75; introduction pp. 7-31 = leaves 8-32, the persons on 35; sigla (manuscripts,
   scholia, editions, the text) leaves 26-31. The text pages carry a student's ink notes, as the
   brief warns.
+* **2026-11-01, Choephoroi step 4, a renumbered transposition.** Sidgwick moves Perseus 997-1004
+  (τί νιν προσείπω … θερμαίνοι φρενί) to follow 982, with Hermann, and numbers the verses in his
+  new order (983-990 for the moved verses, 991-1004 for Perseus 983-996), giving the traditional
+  numbers only in brackets. Unlike the Agamemnon's transpositions (where his margin keeps each
+  verse's own number), the printed numbers here are the new ones, and his notes and apparatus cite
+  them: the text follows the print. Translation, sections and treebank are fitted by the words, not
+  the numbers, so they are not affected.
 
 ## Sizes, for planning
 

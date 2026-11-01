@@ -219,7 +219,7 @@
 === p-0061
 --- text
 574	ἀρεῖ, σάφʼ ἴσθι, καὶ κατʼ ὀφθαλμοὺς βαλεῖ,
-575	πρὶν αὐτὸν εἰπεῖν ποδαπὸς ὁ ξένος; νεκρὸν
+575	πρὶν αὐτὸν εἰπεῖν, ποδαπὸς ὁ ξένος; νεκρὸν
 576	θήσω, ποδώκει περιβαλὼν χαλκεύματι.
 577	φόνου δʼ Ἐρινὺς οὐχ ὑπεσπανισμένη
 578	ἄκρατον αἷμα πίεται τρίτην πόσιν.
@@ -231,45 +231,93 @@
 584	ξιφηφόρους ἀγῶνας ὀρθώσαντί μοι.
 @ Χορός
 585	πολλὰ μὲν γᾶ τρέφει
-586	δεινὰ [καὶ] δειμάτων ἄχη,
+586	δεινὰ δειμάτων ἄχη,
 587	πόντιαί τʼ ἀγκάλαι κνωδάλων
 588	ἀνταίων βρύουσι·
-589	πλάθουσι [βλαστοῦσι] καὶ πεδαίχμιοι
+589	πλάθουσι καὶ πεδαίχμιοι
 590	λαμπάδες πεδάοροι,
-591	πτανά τε καὶ πεδοβάμονα κἀνεμοέντʼ ἂν
+591	πτανά τε καὶ πεδοβάμονʼ ἂν ἀνεμοέντων
 593	αἰγίδων φράσαι κότον.
 594	ἀλλʼ ὑπέρτολμον ἀνδρὸς
 595	φρόνημα τίς λέγοι
-596	καὶ γυναικῶν φρεσὶν τλαμόνων [καὶ]
+596	καὶ γυναικῶν φρεσὶν τλημόνων
 597	παντόλμους ἔρωτας
 598	ἄταισι συννόμους βροτῶν;
 599	ξυζύγους δʼ ὁμαυλίας
 --- apparatus
+574	ἐρεῖ MSS. corr. Bamberg.
+574	βαλεῖν MSS. corr. Rob., Turn.
+579	σὺν οὖν M. σὺ οὖν G. corr. Blom.
+585	γὰρ MSS. corr. Schütz, Pors.
+588-589	ἀνταίων βροτοῖσι πλάθουσι βλαστοῦσι MSS., text H., the reading of MSS. accepted by Kl., Dav., Peile, Con.
+590	πεδάμαροι MSS. corr. Stanl.
+591	πεδοβάμονα κἀνεμ. MSS. corr. Franz. Perhaps πεδοβάμονα κʼ ἀνεμ. Paley, is right.
+596	φρεσσὶν MSS.
+597	καὶ before παντόλμους MSS. del. H.
+597	παντόλμοις G.
 --- notes
+574	the apparatus prints the βαλεῖν item after the ἐρεῖ item without a number of its own; numbered 574. "Turn." is damaged in the print (the u is blotted); read as Turn.
+575	the print has a comma after εἰπεῖν (Perseus none), seen on the whole page; added as printed.
+581	δʼ is printed on this line; φέρειν, as Perseus (a pencil mark over the ν).
+586	the print reads δεινὰ δειμάτων ἄχη, without [καὶ] (Perseus δεινὰ [καὶ]); bracketed word removed as printed.
+588	ἀνταίων *βρύουσι· as Perseus (asterisk left out; the OCR's ἰ is a pencil bracket in the margin). The pencil βροτοῖσι beside it is handwriting.
+589	the print reads πλάθουσι καὶ πεδαίχμιοι without [βλαστοῦσι] (Perseus has it bracketed); the βλαστοῦσι above the line is pencil handwriting; removed as printed (apparatus 588-589: text H.).
+590	λαμπάδες *πεδάοροι, as Perseus (asterisk left out); the OCR's ἰ is a pencil bracket.
+591	the print reads πεδοβάμονʼ *ἂν ἀνεμοέντων (Perseus πεδοβάμονα κἀνεμοέντʼ ἂν); written as printed, asterisk left out (apparatus: πεδοβάμονα κἀνεμ. MSS. corr. Franz.).
+594	the print divides ἀν-|δρὸς over 594-595; written whole at the end of 594 as in the draft.
+596	the print reads τλημόνων (Perseus τλαμόνων) and has no [καὶ] at the end (Perseus τλαμόνων [καὶ]); written as printed (apparatus 597: καὶ before παντόλμους MSS. del. H.).
+597	the apparatus prints παντόλμοις G. after the 597 item without a number of its own; numbered 597.
 
 === p-0064
 --- text
-599a	θηλυκρατὴς ἀπέρωτος ἔρως παρανικᾷ
+600	θηλυκρατὴς ἀπέρωτος ἔρως παρανικᾷ
 601	κνωδάλων τε καὶ βροτῶν.
-602	ἴστω δʼ, ὅστις οὐχ ὑπόπτερος
-603	φροντίσιν, δαεὶς
-604	τὰν ἁ παιδολυμὰς
+602	ἴστω δʼ ὅστις οὐχ ὑπόπτερος
+603	φροντίσιν †δαείς,
+604	τὰν †ἁ παιδολυμὰς
 605	τάλαινα Θεστιὰς μήσατο
 606	πυρδαῆτιν πρόνοιαν,
 607	καταίθουσα παιδὸς δαφοινὸν
 608	δαλὸν ἥλικʼ, ἐπεὶ μολὼν
 609	ματρόθεν κελάδησε,
 610	ξύμμετρόν τε διαὶ βίου
-611	μοιρόκραντον ἐς ἆμαρ.
+611	μοιρόκραντον ἐς ἦμαρ.
 612	ἄλλαν δεῖ τινʼ ἐν λόγοις στυγεῖν
-613	φοινίαν κόραν,
-615	ἅτʼ ἐχθρῶν ὑπαὶ φῶτʼ
+613	φοινίαν Σκύλλαν,
+615	ἅτʼ ἐχθρῶν ὕπαι φῶτʼ
 616	ἀπώλεσεν φίλον Κρητικοῖς
 617	χρυσοκμήτοισιν ὅρμοις
 618	πιθήσασα δώροισι Μίνω,
 619	Νῖσον ἀθανάτας τριχὸς
 620	νοσφίσασʼ ἀπροβούλως
-621	πνέονθʼ ἁ κυνόφρων ὕπνῳ.
-622	κιγχάνει δέ μιν Ἑρμῆς. ἐπεὶ δʼ ἐπεμνασάμαν ἀμειλίχων πόνων, ὁ καιρὸς δὲ δυσφιλὲς γαμήλευμʼ ἀπεύχετον δόμοις
+621	πνείονθʼ ἁ κυνόφρων ὕπνῳ.
+622	κιγχάνει δέ μιν Ἑρμῆς.
+623	ἐπεὶ δʼ ἐπεμνησάμην ἀμειλίχων
+624	πόνων, †ἀκαίρως δὲ δυσφιλὲς γαμήλευμʼ
+625	ἀπεύχετον δόμοις
 --- apparatus
+603	δαεὶς, τὰν ἁ MSS. τὰν δαεῖσʼ ἁ H. τὰν δαεὶς ἂν Pal.
+606	πυρδαῆ τινα MSS. corr. H.
+607	κʼ αἴθουσα M. καΐθουσα G. corr. Cant.
+610	διὰ MSS. corr. Cant.
+612	μοιροκραντοςδʼ (ν over σ) M. μοιρόκραντοεδʼ G. corr. Cant.
+613	ἀλλὰ δή τινʼ MSS. ἄλλαν Cant. δεῖ Turn., text H.
+617	χρυσεοδμήτοισιν MSS. corr. H.
+618	πειθήσασα MSS. corr. Abresch.
+618	μείνω MSS. corr. Rob.
+621	πνέονθʼ MSS. corr. Heath.
+623	ἐπεμνήσαμεν MSS. corr. Heath.
 --- notes
+600	the margin prints 600 beside θηλυκρατὴς … παρανικᾷ (the draft's 599a, Perseus 599b): renumbered 600 as printed; 599 (ξυζύγους, p-0061) and 601 run on.
+602	the print has no comma after δʼ (Perseus δʼ, ὅστις); removed as printed (not flagged, seen on the page).
+603	the print reads φροντίσιν †δαείς, (Perseus φροντίσιν, δαεὶς); written as printed with the dagger (not flagged, seen on the page).
+604	the print sets a dagger before ἁ (τὰν †ἁ παιδολυμὰς); added (not flagged, seen on the page).
+606	*πυρδαῆτιν, 607 *καταίθουσα, 610 *διαὶ, 612 *ἄλλαν, 617 *χρυσοκμήτοισιν: asterisks left out, words as Perseus.
+611	the print reads ἐς ἦμαρ. (Perseus ἆμαρ); written as printed (not flagged, seen on the page).
+612	the apparatus numbers the μοιρόκραντον item 612 and the ἄλλαν δεῖ item 613; in our (Perseus) numbering these verses are 611 and 612. Kept as printed. The margin numbers 610 and 615 agree with our numbering, so the verses are not renumbered. In the 612 item the print writes final ς inside μοιροκραντοςδʼ (the MS. form); copied so.
+613	the print reads φοινίαν Σκύλλαν, (Perseus κόραν); written as printed. The apparatus item 613 belongs to our 612 (see 612).
+615	the print reads ὕπαι (Perseus ὑπαὶ); written as printed (not flagged, seen on the page).
+621	the print reads *πνείονθʼ (Perseus πνέονθʼ); written as printed, asterisk left out (apparatus: πνέονθʼ MSS. corr. Heath.).
+622	the draft joined 622-625 in one line; split into the print's verses 622 κιγχάνει … Ἑρμῆς., 623 ἐπεὶ δʼ … ἀμειλίχων, 624 πόνων … γαμή-|λευμʼ (divided word written whole at the end of 624), 625 ἀπεύχετον δόμοις (margin 625 stands here).
+623	the print reads *ἐπεμνησάμην (Perseus ἐπεμνασάμαν); written as printed, asterisk left out (apparatus: ἐπεμνήσαμεν MSS. corr. Heath.).
+624	the print reads †ἀκαίρως (Perseus ὁ καιρὸς); written as printed with the dagger. The pencil "ἄκαιρον. P." in the margin is handwriting.
