@@ -2,7 +2,7 @@
 --- text
 471	δώμασιν ἔμμοτον
 472	τῶνδʼ ἄκος, οὐδʼ ἀπʼ ἄλλων
-473	ἔκτοθεν, ἀλλʼ ἀπʼ αὐτῶν,
+473	ἔκτοθεν, ἀλλʼ ἀπʼ αὐτῶν
 474	διώκειν ἔριν αἱματηράν.
 475	θεῶν τῶν κατὰ γᾶς ὅδʼ ὕμνος.
 476	ἀλλὰ κλύοντες, μάκαρες χθόνιοι,
@@ -23,7 +23,7 @@
 487	οἴσω πατρῴων ἐκ δόμων γαμηλίους·
 488	πάντων δὲ πρῶτον τόνδε πρεσβεύσω τάφον.
 @ Ὀρέστης
-489	ὦ Γαῖʼ, ἄνες μοι πατέρʼ ἐποπτεῦσαι μάχην.
+489	ὦ γαῖʼ, ἄνες μοι πατέρʼ ἐποπτεῦσαι μάχην.
 @ Ἠλέκτρα
 490	ὦ Περσέφασσα, δὸς δέ γʼ εὔμορφον κράτος.
 @ Ὀρέστης
@@ -60,6 +60,8 @@
 490	the print reads δὸς δέ *γʼ εὔμορφον (Perseus δʼ ἔτʼ); written as printed, asterisk left out (apparatus: τʼ MSS. corr. H.).
 492	the print reads ᾧ σʼ ἐκαίνισαν (Perseus ὡς ἐκαίνισαν); written as printed.
 495	the print reads ἐξεγείρει (Perseus ἐξεγείρῃ); written as printed.
+473	res: no comma after αὐτῶν, as printed.
+489	res: γαῖʼ with a small gamma, as printed (seen on the page; not a listed item).
 
 === p-0058
 --- text
@@ -69,24 +71,24 @@
 500	καὶ τῆσδʼ ἄκουσον λοισθίου βοῆς, πάτερ,
 501	ἰδὼν νεοσσοὺς τούσδʼ ἐφημένους τάφῳ·
 502	οἴκτειρε θῆλυν ἄρσενός θʼ ὁμοῦ γόον·
-503	καὶ μὴ ʼξαλείψῃς σπέρμα Πελοπιδῶν τόδε
+503	καὶ μὴ ʼξαλείψῃς σπέρμα Πελοπιδῶν τόδε.
 504	οὕτω γὰρ οὐ τέθνηκας οὐδέ περ θανών·
 505	παῖδες γὰρ ἀνδρὶ κληδόνες σωτήριοι
 506	θανόντι· φελλοὶ δʼ ὣς ἄγουσι δίκτυον,
-507	τὸν ἐκ βυθοῦ κλωστῆρα σῴζοντες λίνου.
+507	τὸν ἐκ βυθοῦ κλωστῆρα σώζοντες λίνου.
 508	ἄκουʼ, ὑπὲρ σοῦ τοιάδʼ ἔστʼ ὀδύρματα.
 509	αὐτὸς δὲ σώζει τόνδε τιμήσας λόγον.
 @ Χορός
 510	καὶ μὴν ἀμεμφῆ τόνδʼ ἐτεινάτην λόγον,
 511	τίμημα τύμβου τῆς ἀνοιμώκτου τύχης.
 512	τὰ δʼ ἄλλʼ, ἐπειδὴ δρᾶν κατώρθωσαι φρενί,
-513	ἔρδοις ἂν ἤδη δαίμονος πειρώμενος.
+513	ἔρδοις ἂν ἤδη, δαίμονος πειρώμενος.
 @ Ὀρέστης
 514	ἔσται· πυθέσθαι δʼ οὐδέν ἐστʼ ἔξω δρόμου,
 515	πόθεν χοὰς ἔπεμψεν, ἐκ τίνος λόγου
 516	μεθύστερον τιμῶσʼ ἀνήκεστον πάθος;
 517	θανόντι δʼ οὐ φρονοῦντι δειλαία χάρις
-518	ἐπέμπετʼ· οὐκ ἔχοιμʼ ἂν εἰκάσαι τόδε.
+518	ἐπέμπετʼ· οὐκ ἔχοιμʼ ἂν εἰκάσαι τόδε·
 519	τὰ δῶρα μείω δʼ ἐστὶ τῆς ἁμαρτίας.
 520	τὰ πάντα γάρ τις ἐκχέας ἀνθʼ αἵματος
 521	ἑνός, μάτην ὁ μόχθος· ὧδʼ ἔχει λόγος.
@@ -112,6 +114,10 @@
 510	the print reads ἐτεινάτην (Perseus ἐτείνατον); written as printed.
 520	the "bracket" the OCR saw is a pencil stroke and quotation mark in the margin (handwriting); no change.
 523	the mark over πάρει in the apparatus is a pencil caret, as before *παρῆ in the text; ignored.
+503	res: full stop after τόδε, as printed.
+507	res: σώζοντες without iota subscript, as printed (seen on the page; not a listed item; cf. 509 σώζει).
+513	res: comma after ἤδη, as printed.
+518	res: raised stop after τόδε (not a full stop), as printed.
 
 === p-0059
 --- text
@@ -133,7 +139,7 @@
 @ Χορός
 533	ὥστʼ ἐν γάλακτι θρόμβον αἵματος σπάσαι.
 @ Ὀρέστης
-534	οὔτοι μάταιον· ἀνδρὸς ὄψανον πέλει.
+534	οὔτοι μάταιον ἀνδρὸς ὄψανον πέλει.
 @ Χορός
 535	ἡ δʼ ἐξ ὕπνου κέκραγεν ἐπτοημένη.
 536	πολλοὶ δʼ ἀνῇθον, ἐκτυφλωθέντες σκότῳ,
@@ -145,7 +151,7 @@
 541	τοὔνειρον εἶναι τοῦτʼ ἐμοὶ τελεσφόρον.
 542	κρίνω δέ τοί νιν ὥστε συγκόλλως ἔχειν.
 543	εἰ γὰρ τὸν αὐτὸν χῶρον ἐκλιπὼν ἐμοὶ
-544	οὕφις ἐμοῖσι σπαργάνοις ὡπλίζετο,
+544	οὕφις ἐμοῖσι σπαργάνοις ὡπλίζετο
 545	καὶ μαστὸν ἀμφέχασκʼ ἐμὸν θρεπτήριον,
 546	θρόμβῳ δʼ ἔμιξεν αἵματος φίλον γάλα,
 547	ἡ δʼ ἀμφὶ τάρβει τῷδʼ ἐπῴμωξεν πάθει,
@@ -168,6 +174,8 @@
 544	the apparatus word οὔφεισεπα-|σασπαργανηπλείζετο is divided at the end of a printed line; written whole. A dot under λ in Turnebus's ὁπλίζετο is left out.
 546	the print reads ἔμιξεν (Perseus ἔμειξεν); written as printed.
 547	the apparatus word ἀμφι-|ταρβιτωδʼ is divided at the end of a printed line; written whole.
+534	res: no raised stop after μάταιον, as printed.
+544	res: no comma after ὡπλίζετο, as printed (the print has an asterisk there, closing Porson's text; left out).
 
 === p-0060
 --- text
@@ -182,15 +190,15 @@
 555	αἰνῶ δὲ κρύπτειν τάσδε συνθήκας ἐμάς,
 556	ὡς ἂν δόλῳ κτείναντες ἄνδρα τίμιον
 557	δόλοισι καὶ ληφθῶσιν ἐν ταὐτῷ βρόχῳ
-558	θανόντες, καὶ Λοξίας ἐφήμισεν,
+558	θανόντες, ᾗ καὶ Λοξίας ἐφήμισεν,
 559	ἄναξ Ἀπόλλων, μάντις ἀψευδὴς τὸ πρίν.
-560	ξένῳ γὰρ εἰκώς, παντελῆ σαγὴν ἔχων,
+560	ξένῳ γὰρ εἰκώς, παντελῆ σάγην ἔχων,
 561	ἥξω σὺν ἀνδρὶ τῷδʼ ἐφʼ ἑρκείους πύλας
 562	Πυλάδῃ, ξένος τε καὶ δορύξενος δόμων.
 563	ἄμφω δὲ φωνὴν ἥσομεν Παρνησσίδα,
-564	γλώσσης ἀυτὴν Φωκίδος μιμουμένω.
+564	γλώσσης ἀϋτὴν Φωκίδος μιμουμένω.
 565	καὶ δὴ θυρωρῶν οὔτις ἂν φαιδρᾷ φρενὶ
-566	δέξαιτʼ, ἐπειδὴ δαιμονᾷ δόμος κακοῖς·
+566	δέξαιτʼ, ἐπειδὴ δαιμονᾷ δόμος κακοῖς.
 567	μενοῦμεν οὕτως ὥστʼ ἐπεικάζειν τινὰ
 568	δόμους παραστείχοντα καὶ τάδʼ ἐννέπειν·
 569	τί δὴ πύλαισι τὸν ἱκέτην ἀπείργεται
@@ -215,6 +223,11 @@
 554	the apparatus word στί-|χειν is divided at the end of a printed line; written whole.
 566	the apparatus prints the δαίμον ἀϊδόμος item after the λέξαιτʼ item without a number of its own; numbered 566.
 567	the item is printed "ὡς ἂν ἐπ- G." (an abbreviated reading, not a divided word); copied as printed.
+558	res: ᾗ added before καὶ Λοξίας: it is printed on the line (as Perseus) and the draft had dropped it (seen on the page; not a listed item).
+560	res: σάγην with the acute on the first syllable, as printed.
+564	res: ἀϋτὴν with diaeresis, as printed (seen on the page; not a listed item).
+566	res: full stop after κακοῖς (not a raised stop), as printed.
+569	res: the print sets 569-570 in quotation marks (‘τί δὴ … παρών;’); not written, as elsewhere in the batch files.
 
 === p-0061
 --- text
@@ -223,7 +236,7 @@
 576	θήσω, ποδώκει περιβαλὼν χαλκεύματι.
 577	φόνου δʼ Ἐρινὺς οὐχ ὑπεσπανισμένη
 578	ἄκρατον αἷμα πίεται τρίτην πόσιν.
-579	νῦν οὖν σὺ μὲν φύλασσε τἀν οἴκῳ καλῶς,
+579	νῦν οὖν σὺ μὲν φύλασσε τἂν οἴκῳ καλῶς,
 580	ὅπως ἂν ἀρτίκολλα συμβαίνῃ τάδε·
 581	ὑμῖν δʼ ἐπαινῶ γλῶσσαν εὔφημον φέρειν,
 582	σιγᾶν θʼ ὅπου δεῖ καὶ λέγειν τὰ καίρια.
@@ -267,6 +280,7 @@
 594	the print divides ἀν-|δρὸς over 594-595; written whole at the end of 594 as in the draft.
 596	the print reads τλημόνων (Perseus τλαμόνων) and has no [καὶ] at the end (Perseus τλαμόνων [καὶ]); written as printed (apparatus 597: καὶ before παντόλμους MSS. del. H.).
 597	the apparatus prints παντόλμοις G. after the 597 item without a number of its own; numbered 597.
+579	res: τἂν with coronis and grave, as printed (Perseus τἀν).
 
 === p-0064
 --- text
@@ -321,3 +335,4 @@
 622	the draft joined 622-625 in one line; split into the print's verses 622 κιγχάνει … Ἑρμῆς., 623 ἐπεὶ δʼ … ἀμειλίχων, 624 πόνων … γαμή-|λευμʼ (divided word written whole at the end of 624), 625 ἀπεύχετον δόμοις (margin 625 stands here).
 623	the print reads *ἐπεμνησάμην (Perseus ἐπεμνασάμαν); written as printed, asterisk left out (apparatus: ἐπεμνήσαμεν MSS. corr. Heath.).
 624	the print reads †ἀκαίρως (Perseus ὁ καιρὸς); written as printed with the dagger. The pencil "ἄκαιρον. P." in the margin is handwriting.
+611	res: numbering checked on the second pass: the margins stand at 600 (θηλυκρατὴς), 605 (τάλαινα), 610 (ξύμμετρον), 615 (ἅτʼ), 620 (νοσφίσασʼ), 625 (λευμʼ ἀπεύχετον), all met by our numbers. Between 610 and 615 the print has five verses, so one number is skipped; running on from 610 by the rule gives μοιρόκραντον 611, ἄλλαν 612, φοινίαν 613 (614 skipped, as Perseus). Sidgwick's apparatus 612 (μοιρόκραντον) and 613 (ἄλλαν) count as if the skip were 611; they are kept as printed, and the verses are not renumbered, since both margins are met without it.

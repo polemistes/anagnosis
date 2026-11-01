@@ -82,7 +82,7 @@
 360	μόριμον λάχος πιπλάντων
 361	χειροῖν πεισιβρότον τε βάκτρον.
 @ Ἠλέκτρα
-363	μηδʼ ὑπὸ Τρωίας
+363	μηδʼ ὑπὸ Τρωΐας
 364	τείχεσι φθίμενος, πάτερ,
 365	μετʼ ἄλλων δουρικμῆτι λαῷ
 366	παρὰ Σκαμάνδρου πόρον τεθάφθαι,
@@ -110,6 +110,7 @@
 365	the print reads ἄλλων (Perseus ἄλλῳ): written as printed.
 366	the print ends the verse with a comma (Perseus full stop): written as printed.
 367	the verse πάρος δʼ οἱ κτανόντες νιν οὕτως δαμῆναι is printed at the foot of this page (the draft had it on p-0051, joined to the next verses): moved here, one verse covering Perseus 367-368.
+363	res: Τρωΐας with diaeresis and acute, as printed.
 
 === p-0051
 --- text
@@ -168,6 +169,7 @@
 385	renumbered by the print: ἐφυμνῆσαι 386→385, ὀλολυγμὸν 387→386, θεινομένου 388→387, ὀλλυμένας 389→388, φρενὸς οἷον ἔμπας 389a→389; ποτᾶται is 390 at the margin 390, as before. The print divides πυκά- | εντʼ and κεύ- | θω: written whole on the first verse. πυκάεντʼ, οἷον and κραδίας printed with an asterisk, left out. ΧΟ. in the margin, as Perseus; στρ. ε΄. left out.
 392	the print reads θυμός, with acute and a comma (Perseus θυμὸς): written as printed.
 394	the print gives 394-399 to Orestes (ΟΡ. in the margin; Perseus Electra): @ Ὀρέστης written. The print reads καὶ with grave (Perseus καί): written as printed. ἀντ. δ΄. left out.
+384a	res: numbering checked on the second pass: the margins stand at 370 (πρόσω), 375 (ἀλλὰ), 380 (τοῦτο), 385 (ἐφυμνῆσαι), 390 (ποτᾶται), 395 (Ζεὺς); six printed verses stand between 380 and 385, so both cannot be met without a letter. By the rule the numbers that meet the later margin (385, and the apparatus 385, 387, 389) are kept; the verses after 380 run on from it (381-384) and χειρί keeps 384a.
 
 === p-0054
 --- text
