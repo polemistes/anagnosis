@@ -145,6 +145,7 @@
 438	after 438 the print has the centred heading ΠΝΙΓΟΣ (the unmatched line "πνῖγος"): a section label, not a verse or a direction; left out.
 439	the print reads νῦν οὖν χρήσθων ὅ τι βούλονται.— (Perseus νῦν οὖν ἀτεχνῶς ὅ τι βούλονται): Starkie deletes ἀτεχνῶς and keeps χρήσθων (see his apparatus); written as printed.
 431	rev: apparatus checked against the page and against its continuation at the foot of leaf 211 (436 προσπόλοισι ... 440 Cobet τοὐμὸν, read on an enlarged crop): all 14 items as printed; ΚΟΡ./ΣΤΡ., margins 435, 440, χρήσθων without ἀτεχνῶς in 439 confirmed; no change.
+436	app2: the facing block on leaf 211 (crops p-0210-app2-l/-r) read word by word: 436 (end) προσπόλοισι lemma schol. R, 437, 439 and 440 all as in the batch, with readings, sigla and accents as printed (the print's < > written ⟨ ⟩); no change.
 
 === p-0212
 --- text
