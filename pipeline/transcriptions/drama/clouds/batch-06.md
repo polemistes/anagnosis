@@ -51,6 +51,7 @@
 272	the apparatus runs on from this page onto the facing translation page (leaf 171, p. 73), between its two rules: “should mean ‘near,’ … see comm. || ἀρύτεσθε … || πρόχοισιν … 274 … xlviii. p. 282)”. Read there and written here, where the items begin; the 274 items stand only on leaf 171.
 268	Ijzeren as printed (= IJzeren).
 274	ουπακούσατε R: printed without breathing or accent on the first syllable; copied so.
+272	app2: facing block on leaf 171 (“should mean ‘near,’ … xlviii. p. 282)”) checked on the crops: the end of the 272 προχοὰς item, 272 ἀρύτεσθε, 272 πρόχοισιν and the three 274 items are all present and as printed; no change.
 
 === p-0172
 --- text
@@ -161,6 +162,7 @@
 298	res: comma after ὀμβροφόροι, as printed
 300	res: no comma after Παλλάδος, as printed (comma removed)
 300	res: numbering question settled: from 294 (margin, p-0174) 295–297 run on to παρθένοι 298; the margin 300 stands at ἔλθωμεν, so no verse is 299 (Perseus has no 299 either); from 300 to 305 (οὐρανίοις, p-0178) there are five printed lines, Κέκροπος 301, οὗ … ἵνα 302, μυστοδόκος 303, ἐν τελεταῖς 304 (apparatus 304 ἀναπιτνάται), so εὔανδρον γᾶν is not counted and stays 300a (apparatus "300 … Παλλάδος εὔανδρον γᾶν om. R"). Strophe and antistrophe are numbered differently in the print (εὐάγητον 277 counted, εὔανδρον γᾶν not): we follow the print on each page.
+296	app2: facing block on leaf 177 (“thinks it rash … 304 v. Leeuwen ἀναπιτνάται”) checked on the crops: the end of the 296 ποήσεις item, 296 μηδὲ, 297 (two items), 300 (two items) and 304 are all present and as printed; no change.
 
 === p-0178
 --- text
