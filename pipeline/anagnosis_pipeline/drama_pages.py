@@ -76,7 +76,8 @@ def route_dir(route: str, slug: str, scan: str) -> Path:
 
 def fetch_leaf(scan: str, leaf: int) -> Path:
     """Leaf `leaf` of the scan as a grey PNG: from the jp2 zip, or, for a scan that has none, the
-    Archive's page image (/page/n<leaf>_w<width>.jpg, the largest width the server gives)."""
+    Archive's page image (/page/n<N>_w<width>.jpg, N counted over the shown leaves, the largest
+    width the server gives)."""
     src, build = scan_dirs(scan)
     png = build / "pages" / f"leaf_{leaf:04d}.png"
     if png.exists():
@@ -91,8 +92,15 @@ def fetch_leaf(scan: str, leaf: int) -> Path:
         else:
             tmp.unlink(missing_ok=True)
             jpg = src / "jp2" / f"{scan}_{leaf:04d}.jpg"
+            from .drama import _scandata
+
+            # the page images are numbered over the shown leaves only (n0 = the first shown leaf)
+            shown = [l for l, ok in _scandata(scan) if ok]
+            if leaf not in shown:
+                raise SystemExit(f"{scan}: leaf {leaf} is hidden in the scan and has no page image")
+            n = shown.index(leaf)
             for width in (3000, 2500, 2000, 1500):
-                url = f"https://archive.org/download/{scan}/page/n{leaf}_w{width}.jpg"
+                url = f"https://archive.org/download/{scan}/page/n{n}_w{width}.jpg"
                 r = subprocess.run(["curl", "-sfL", "--retry", "3", "-o", str(tmp), url])
                 if r.returncode == 0 and tmp.exists() and tmp.stat().st_size > 1000:
                     tmp.rename(jpg)
