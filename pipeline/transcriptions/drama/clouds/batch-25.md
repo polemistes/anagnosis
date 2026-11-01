@@ -48,6 +48,7 @@
 1423	apparatus: "|| αὐτὸ V" follows the 1423 item without a new number (it refers to αὖ τὸ in 1423): kept under 1423.
 1417	res: full stop after γέροντες (not a raised stop), as printed
 1421	res: comma after πρῶτον, as printed
+1418	app2: facing block on leaf 0399 (crops app2-l/-r) read item by item, from "εἰκὸς δέ τοι γέροντας ἢ νεωτέρους: Kayser" to "1426 … lxxix. 5)": every item and word already in the apparatus as printed; no change.
 
 === p-0400
 --- text
@@ -88,6 +89,7 @@
 1435	not flagged, but the print reads τὸν ὑόν (Starkie's spelling, as at 1148 and 1424; Perseus υἱόν), clear on the enlarged crop: written as printed.
 1435a	ΦΕΙ. stands in the margin (the apparatus "1435 ΦΕΙ. om. V" confirms), verse printed stepped as the second part of 1435; margin 1435 stands beside it, as at 1145a: speaker and lettering kept.
 1429	apparatus: the item runs on from the foot of this page ("πλὴν") into the apparatus of the facing page 301 (leaf 0401), between its two rules; that part (from "Ald.; γε is required" to "1436 … crit. app.") is written here, as the next text page p-0402 begins with 1437.
+1429	app2: facing block on leaf 0401 (crops app2-l/-r) read item by item, from "Ald.; γε is required" to "1436 … crit. app.": every item and word already in the apparatus as printed; no change.
 
 === p-0402
 --- text
@@ -158,6 +160,7 @@
 1445	apparatus: the item runs on from the foot of this page ("Fritzsche τί δῆτʼ ἂν") into the apparatus of the facing page 303 (leaf 0403), between its two rules; that part (to "1450 … the ictus on the first syllable") is written here, as the next text page p-0404 begins with 1452.
 1437	res: μέν with acute and a comma after it, and a comma after ἥλικες (ἐμοὶ μέν, ὦνδρες ἥλικες,), as printed
 1445	res (numbering): checked on the whole page: margin 1440 at ἀπὸ γὰρ ὀλοῦμαι, "1444-5" at τί δʼ ἢν ἔχων τὸν ἥττω, 1450 at τὸν ἐμβαλεῖν (σεαυ-|τὸν), and καὶ τὸν λόγον τὸν ἥττω. set in under μετὰ Σωκράτους; with margin 1455 at στρέψας on p-0404 only the first pass's numbering meets every margin number: kept. merge-drama aligns Perseus (treebank) to our lines by words, not numbers, and the translation is Starkie's own, so nothing is misaligned.
+1445	app2: facing block on leaf 0403 (crops app2-l/-r) read item by item, from "ἢν τὸν ἥ. | ἔχων: Hermann" to "1450 … ictus on the first syllable": every item and word already in the apparatus as printed; no change.
 
 === p-0404
 --- text
@@ -213,6 +216,7 @@
 1466	apparatus: "κἀμέγ V" so printed (V's reading κἀμέ γ(ε) written together).
 1462	res: commas after ὤμοι and after γʼ, as printed
 1464	res: raised stop after ἀποστερεῖν (not a full stop), commas after ὅπως and φίλτατε, as printed
+1458	app2: facing block on leaf 0405 (crops app2-l/-r) read item by item, from "Aves 956" to "1466 … ἐξηπάτουν RV": every item and word already in the apparatus as printed; no change.
 
 === p-0406
 --- text
@@ -319,3 +323,4 @@
 1490	res: no comma after ἡμμένην, as printed (the verse runs on into 1491)
 1494	res: commas after ἔργον and after δᾴς, and δᾴς with acute and iota subscript (the draft had δᾲς), as printed (enlarged crop)
 1496	res: full stop after οἰκίας (not a question mark), as printed
+1493	app2: facing block on leaf 0409 (crops app2-l/-r) read item by item, from "Bücheler (N. Jahrb." to "1496 οἰκίας] αἰτίας V (on margin γρ. οἰκίας)": every item and word already in the apparatus as printed (εἷς with rough breathing and circumflex, μαθη with τ above, checked enlarged); no change.
