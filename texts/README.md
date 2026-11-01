@@ -237,6 +237,31 @@ domain; the transcription is published under CC BY-SA 4.0.
 * `sigla.md` (his manuscripts, signs and the editors he cites), `glossary.md` and `shortdefs.tsv`
   are written by hand.
 
+## Aristophanes' Clouds (`texts/clouds/`)
+
+W. J. M. Starkie's edition (*The Clouds of Aristophanes*, London, Macmillan, 1911), read from the
+Internet Archive scan cloudsofaristoph00aris_0 and made by `merge-drama clouds` from the checked
+transcription in `pipeline/transcriptions/drama/clouds/` (brief `pipeline/PLAN-drama.md`). The
+edition is in the public domain; the transcription is published under CC BY-SA 4.0.
+
+* Greek text and critical apparatus (`grc.txt`, `commentary-starkie-apparatus.md`): Starkie's,
+  from the left-hand pages, read by OCR and matched word by word to the Perseus text (Hall and
+  Geldart's Oxford text, the check text only); every disagreement, then every word, stop and
+  accent where print and text still differed, settled against the page image, and each batch
+  reviewed by a second agent. Starkie's numbering is followed where his margin numbers depart
+  from the traditional ones; a verse too long for his line (a turnover) is one verse; a verse
+  divided between speakers on two stepped lines has a letter for its second part (35a). His
+  apparatus runs on to the facing page on 30 spreads; those items stand with their text page.
+* Translation (`eng-starkie.txt`): Starkie's prose translation, from the right-hand pages,
+  each speech placed at the Greek verse where it begins.
+* Commentary (`commentary-starkie.md`) and introduction (`introduction.md`, with the Greek
+  hypotheses): Starkie's, read by OCR and checked against the page images.
+* Lemmas, morphology and syntax (`tokens.tsv`, `syntax-nodes.tsv`): GLAUx (automatic, CC BY-SA
+  4.0) aligned to Starkie's words; where he reads otherwise, the analyser, listed in
+  `pipeline/build/clouds-review.tsv` and corrected by hand in `drama_fixes.py`.
+* `sigla.md`, `glossary.md` (names and comic words), `shortdefs.tsv` and `aliases.tsv` are
+  written by hand.
+
 ## The Odyssey (`texts/odyssey/`)
 
 The Greek text is T. W. Allen's Oxford edition (*Homeri Opera* III–IV, 2nd ed., 1917 and 1919),
