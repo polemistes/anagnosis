@@ -2,7 +2,7 @@
 --- text
 @ Στρεψιάδης
 1	Ἰοὺ ἰού·
-2	ὦ Ζεῦ βασιλεῦ τὸ χρῆμα τῶν νυκτῶν ὅσον·
+2	ὦ Ζεῦ βασιλεῦ, τὸ χρῆμα τῶν νυκτῶν ὅσον·
 3	ἀπέραντον. οὐδέποθʼ ἡμέρα γενήσεται;
 --- apparatus
 2	ὅσον· ἀπέραντον V etc.: ὅσον ἀ. R Su. (s.v. χρῆμα), Ald., which may be an exclamation (Plut. An sen. ger. resp. 11 § 2 τὸ γράφειν μόνον ἐπιστολὰς τοσαύτας καὶ ἀναγιγνώσκειν ὅσον [al. ὡς] ἐργῶδές ἐστιν), or the constr. may be τοσοῦτον ὅσον ἀ. ἐστι (Kühner-Gerth, Gram. § 349 b (7), e); but, in this sense, the natural order would be ἀ. ὅσον (Herod. iv. 194 οἱ δέ σφι ἄφθονοι ὅσοι ἐν τοῖς ὄρεσι γίνονται). See comm.
@@ -10,17 +10,18 @@
 --- notes
 1	no flags on this page; apparatus read from the crops (ἀ-|πέρατον in item 3 written whole).
 2	rev: apparatus items 2 and 3 checked item by item against the page; text and heading checked; no change.
+2	res: comma after βασιλεῦ, as printed
 
 === p-0110
 --- text
 4	καὶ μὴν πάλαι γʼ ἀλεκτρυόνος ἤκουσʼ ἐγώ·
 5	οἱ δʼ οἰκέται ῥέγκουσιν· ἀλλʼ οὐκ ἂν πρὸ τοῦ.
-6	ἀπόλοιο δῆτʼ ὦ πόλεμε πολλῶν οὕνεκα,
+6	ἀπόλοιο δῆτʼ, ὦ πόλεμε, πολλῶν οὕνεκα,—
 7	ὅτʼ οὐδὲ κολάσαι ἔξεστί μοι τοὺς οἰκέτας.
 8	ἀλλʼ οὐδʼ ὁ χρηστὸς οὑτοσὶ νεανίας
 9	ἐγείρεται τῆς νυκτός, ἀλλὰ πέρδεται
 10	ἐν πέντε σισύραις ἐγκεκορδυλημένος.
-11	ἀλλʼ εἰ δοκεῖ ῥέγκωμεν ἐγκεκαλυμμένοι.
+11	ἀλλʼ εἰ δοκεῖ, ῥέγκωμεν ἐγκεκαλυμμένοι.—
 --- apparatus
 7	ὅτʼ οὐδὲ] O. Schneider (N. Jahrb. cxxii. pp. 322 sqq.) ἔτʼ οὐδὲ: O. Kaehler (ed. Nub. p. 195) πολλῶν θʼ οὕνεκα | χὤτʼ οὐδὲ, but see comm.
 7	κολάσαι ἔξεστι RV: κολάσʼ ἔξεστι or κολάσαι ʼξεστι al., Ald.; cp. Kühner-Blass, Gram. § 53 E
@@ -28,11 +29,13 @@
 4	γʼ is printed on this verse; unchanged. Margins 5 and 10 stand at verses 5 and 10: the numbering agrees.
 7	not flagged; seen on the whole page: the print reads κολάσαι ἔξεστί (Perseus κολάσʼ; Starkie keeps the reading of RV, see the apparatus): written as printed.
 4	rev: apparatus (two items on 7, divided by ||) checked against the page; κολάσαι ἔξεστί on 7 and margins 5, 10 confirmed; no change.
+6	res: commas after δῆτʼ and πόλεμε, as printed; the dash after οὕνεκα, as printed (seen on the page, not in the residual list)
+11	res: comma after δοκεῖ, as printed; the dash after ἐγκεκαλυμμένοι. as printed (seen on the page)
 
 === p-0112
 --- text
 12	ἀλλʼ οὐ δύναμαι δείλαιος εὕδειν δακνόμενος
-13	ὑπὸ τῆς δαπάνης καὶ τῆς φάτνης καὶ τῶν χρεῶν
+13	ὑπὸ τῆς δαπάνης καὶ τῆς φάτνης καὶ τῶν χρεῶν,
 14	διὰ τουτονὶ τὸν ὑόν. ὁ δὲ κόμην ἔχων
 15	ἱππάζεταί τε καὶ ξυνωρικεύεται
 --- apparatus
@@ -42,20 +45,21 @@
 14	the print reads ὑόν (Perseus υἱόν): written as printed.
 15	the four "matched no Perseus words" lines after this verse are the apparatus (read by Tesseract as text), not verses: nothing added. The apparatus crops for this page show only one line; the apparatus was read from crops of the whole page. Margin 15 stands at verse 15.
 13	rev: apparatus items 13 and 15 checked against the page; ὑόν on 14 and margin 15 confirmed; no change.
+13	res: comma after χρεῶν, as printed
 
 === p-0114
 --- text
-16	ὀνειροπολεῖ θʼ ἵππους· ἐγὼ δʼ ἀπόλλυμαι
+16	ὀνειροπολεῖ θʼ ἵππους· ἐγὼ δʼ ἀπόλλυμαι,
 17	ὁρῶν ἄγουσαν τὴν σελήνην εἰκάδας·
-18	οἱ γὰρ τόκοι χωροῦσιν. ἅπτε παῖ λύχνον,
+18	οἱ γὰρ τόκοι χωροῦσιν,—ἅπτε, παῖ, λύχνον,
 19	κἄκφερε τὸ γραμματεῖον, ἵνʼ ἀναγνῶ λαβὼν
-20	ὁπόσοις ὀφείλω καὶ λογίσωμαι τοὺς τόκους.
-21	φέρʼ ἴδω τί ὀφείλω; δώδεκα μνᾶς Πασίᾳ.
+20	ὁπόσοις ὀφείλω καὶ λογίσωμαι τοὺς τόκους.—
+21	φέρʼ ἴδω, τί ὀφείλω; δώδεκα μνᾶς Πασίᾳ.
 22	τοῦ δώδεκα μνᾶς Πασίᾳ; τί ἐχρησάμην;
-23	ὅτʼ ἐπριάμην τὸν κοππατίαν. οἴμοι τάλας,
+23	ὅτʼ ἐπριάμην τὸν κοππατίαν. οἴμοι τάλας.
 24	εἴθʼ ἐξεκόπην πρότερον τὸν ὀφθαλμὸν λίθῳ.
 @ Φειδιππίδης
-25	Φίλων ἀδικεῖς· ἔλαυνε τὸν σαυτοῦ δρόμον.
+25	Φίλων, ἀδικεῖς· ἔλαυνε τὸν σαυτοῦ δρόμον.
 --- apparatus
 21	εἴδω R
 22	Πασία V, a common error (31 crit. n., Ach. 2 crit. n.)
@@ -65,6 +69,12 @@
 16	margins 20 (ὁπόσοις) and 25 (Φίλων) stand at verses 20 and 25: the numbering agrees. ΦΕΙΔΙΠΠΙΔΗΣ is printed centred above 25, as the draft has it.
 22	the print reads Πασίᾳ (with iota subscript), as Perseus; unchanged.
 21	rev: apparatus items 21-24 checked against the page; margins 20, 25 and the heading ΦΕΙΔΙΠΠΙΔΗΣ confirmed; no change.
+16	res: comma after ἀπόλλυμαι, as printed
+18	res: comma and dash after χωροῦσιν (,—, in place of the full stop) and commas after ἅπτε and παῖ, as printed
+20	res: the dash after τόκους. as printed (seen on the page, not in the residual list)
+21	res: comma after ἴδω, as printed
+23	res: full stop after τάλας (in place of the comma), as printed
+25	res: comma after Φίλων, as printed
 
 === p-0116
 --- text
@@ -80,7 +90,7 @@
 @ Φειδιππίδης
 32	ἄπαγε τὸν ἵππον ἐξαλίσας οἴκαδε.
 @ Στρεψιάδης
-33	ἀλλʼ ὦ μέλʼ ἐξήλικας ἐμέ γʼ ἐκ τῶν ἐμῶν,
+33	ἀλλʼ, ὦ μέλʼ, ἐξήλικας ἐμέ γʼ ἐκ τῶν ἐμῶν,
 34	ὅτε καὶ δίκας ὤφληκα χἄτεροι τόκου
 35	ἐνεχυράσεσθαί φασιν.
 --- apparatus
@@ -99,6 +109,7 @@
 34	apparatus: in ὄφλημα V the letters μα are printed small and raised above the line (V's abbreviation); written on the line.
 35	apparatus: "V 3" is printed so, the 3 on the line (not raised); copied as printed.
 26	rev: apparatus (nine items, || divisions on 34 and 35) checked against the page; speakers and margin 30 confirmed; no change.
+33	res: commas after ἀλλʼ and after μέλʼ, as printed (the second seen on the crop, not in the residual list)
 
 === p-0118
 --- text
@@ -106,12 +117,12 @@
 35a	ἐτεόν, ὦ πάτερ,
 36	τί δυσκολαίνεις καὶ στρέφῃ τὴν νύχθʼ ὅλην;
 @ Στρεψιάδης
-37	δάκνει με δήμαρχός τις ἐκ τῶν στρωμάτων.
+37	δάκνει με δήμαρχός τις—ἐκ τῶν στρωμάτων.
 @ Φειδιππίδης
-38	ἔασον ὦ δαιμόνιε καταδαρθεῖν τί με.
+38	ἔασον, ὦ δαιμόνιε, καταδαρθεῖν τί με.
 @ Στρεψιάδης
 39	σὺ δʼ οὖν κάθευδε· τὰ δὲ χρέα ταῦτʼ ἴσθʼ ὅτι
-40	εἰς τὴν κεφαλὴν ἅπαντα τὴν σὴν τρέψεται.
+40	εἰς τὴν κεφαλὴν ἅπαντα τὴν σὴν τρέψεται.—
 41	φεῦ.
 41a	εἴθʼ ὤφελʼ ἡ προμνήστριʼ ἀπολέσθαι κακῶς,
 42	ἥτις με γῆμαι ἐπῆρε τὴν σὴν μητέρα·
@@ -130,3 +141,6 @@
 41a	φεῦ. is printed alone on its own line (extra metrum), and εἴθʼ ὤφελʼ … begins the next printed line: two printed lines in Perseus line 41, so 41 and 41a stay. ὤφελʼ is printed with a smooth breathing and acute, as the draft.
 42	the print reads γῆμαι (Perseus γῆμʼ): written as printed.
 35a	rev: apparatus items 36-41 checked against the page; 35a (second half of 35, stepped, margin 35), στρέφῃ, με, εἰς, φεῦ. alone on its line (41/41a), γῆμαι and the speakers confirmed on the page; no change.
+37	res: the dash after τις (τις—ἐκ) as printed (seen on the page, not in the residual list)
+38	res: commas after ἔασον and δαιμόνιε, as printed
+40	res: the dash after τρέψεται. as printed (seen on the page, not in the residual list)

@@ -1,36 +1,41 @@
 === p-0120
 --- text
-43	ἐμοὶ γὰρ ἦν ἄγροικος ἥδιστος βίος
+43	ἐμοὶ γὰρ ἦν ἄγροικος—ἥδιστος βίος
 44	εὐρωτιῶν, ἀκόρητος, εἰκῆ κείμενος,
 45	βρύων μελίτταις καὶ προβάτοις καὶ στεμφύλοις.
 46	ἔπειτʼ ἔγημα Μεγακλέους τοῦ Μεγακλέους
 47	ἀδελφιδῆν ἄγροικος ὢν ἐξ ἄστεως,
-48	σεμνὴν τρυφῶσαν ἐγκεκοισυρωμένην.
+48	σεμνήν, τρυφῶσαν, ἐγκεκοισυρωμένην.
 49	ταύτην ὅτʼ ἐγάμουν, συγκατεκλινόμην ἐγὼ
-50	ὄζων τρυγὸς τρασιᾶς ἐρίων περιουσίας,
-51	ἡ δʼ αὖ μύρου κρόκου καταγλωττισμάτων,
+50	ὄζων τρυγός, τρασιᾶς, ἐρίων,—περιουσίας,
+51	ἡ δʼ αὖ μύρου, κρόκου, καταγλωττισμάτων,
 --- apparatus
 43	ἥδιστος] Naber (Mnem. xi. p. 364) ἥσυχος
 47	ἄστεος codd.
 50	ἐρίων περιουσίας codd.: corr. Reiske: Naber (ib.) σίρων, ἐριουργίας: A. Palmer τρυγός, τράγων, ἐρίφων, ἀλουσίας
 --- notes
 44	εἰκῆ: the page prints εἰκῆ without iota subscript (clear on the enlarged crop; so too in the commentary); Perseus εἰκῇ.
+43	res: the dash after ἄγροικος (ἄγροικος—ἥδιστος) as printed (seen on the page, not in the residual list). Margins 45 (βρύων) and 50 (ὄζων) stand at 45 and 50: the numbering agrees, and confirms that φεῦ. (41 on p-0118) is not counted as a verse of its own, so 41/41a stand.
+48	res: σεμνήν with acute and commas after σεμνήν and τρυφῶσαν, as printed
+50	res: τρυγός with acute and commas after τρυγός and τρασιᾶς, and comma and dash after ἐρίων (ἐρίων,—περιουσίας), as printed
+51	res: commas after μύρου and κρόκου, as printed
+47	res: ὢν (smooth breathing, grave) is printed, as the text; the OCR's ὧν left
 
 === p-0122
 --- text
-52	δαπάνης λαφυγμοῦ Κωλιάδος Γενετυλλίδος.
+52	δαπάνης, λαφυγμοῦ, Κωλιάδος, Γενετυλλίδος.
 53	οὐ μὴν ἐρῶ γʼ ὡς ἀργὸς ἦν, ἀλλʼ ἐσπάθα.
 54	ἐγὼ δʼ ἂν αὐτῇ θοἰμάτιον δεικνὺς τοδὶ
-55	πρόφασιν ἔφασκον, ὦ γύναι λίαν σπαθᾷς.
+55	πρόφασιν ἔφασκον, ὦ γύναι, λίαν σπαθᾷς.
 @ Θεράπων
 56	ἔλαιον ἡμῖν οὐκ ἔνεστʼ ἐν τῷ λύχνῳ.
 @ Στρεψιάδης
 57	οἴμοι· τί γάρ μοι τὸν πότην ἧπτες λύχνον;
-58	δεῦρʼ ἔλθʼ ἵνα κλάῃς.
+58	δεῦρʼ ἔλθʼ, ἵνα κλάῃς.
 @ Θεράπων
 58a	διὰ τί δῆτα κλαύσομαι;
 @ Στρεψιάδης
-59	ὅτι τῶν παχειῶν ἐνετίθεις θρυαλλίδων.
+59	ὅτι τῶν παχειῶν ἐνετίθεις θρυαλλίδων.—
 --- apparatus
 56-59	Placed by Zieliński after 20, but nothing is gained by the change; and in their present place the lines serve to break the sameness of the long monologue
 57	μοι om. R
@@ -44,6 +49,10 @@
 54	δʼ is printed on this verse (ἐγὼ δʼ ἂν); no change.
 58a	the print sets διὰ τί δῆτα κλαύσομαι; (ΘΕΡ.) as the second half of verse 58, indented on its own line; kept as 58a.
 58	apparatus: the print numbers 56–9 (written 56-59); the item τί δὴ codd. dett. … stands under 58 without a new number and concerns the second half of the verse (our 58a).
+52	res: commas after δαπάνης and λαφυγμοῦ, as printed, and after Κωλιάδος (seen on the crop, not in the residual list)
+55	res: comma after γύναι, as printed
+58	res: comma after ἔλθʼ, as printed
+59	res: the dash after θρυαλλίδων. as printed (seen on the crop, not in the residual list)
 
 === p-0124
 --- text
@@ -79,14 +88,14 @@
 72	ὥσπερ ὁ πατήρ σου, διφθέραν ἐνημμένος.
 73	ἀλλʼ οὐκ ἐπίθετο τοῖς ἐμοῖς οὐδὲν λόγοις,
 74	ἀλλʼ ἵππερόν μου κατέχεεν τῶν χρημάτων.
-75	νῦν οὖν ὅλην τὴν νύκτα φροντίζων ὁδοῦ
+75	νῦν οὖν ὅλην τὴν νύκτα φροντίζων ὁδοῦ,
 76	μίαν ηὗρον ἀτραπὸν δαιμονίως ὑπερφυᾶ,
-77	ἣν ἢν ἀναπείσω τουτονί, σωθήσομαι.
+77	ἣν ἢν ἀναπείσω τουτονί, σωθήσομαι.—
 78	ἀλλʼ ἐξεγεῖραι πρῶτον αὐτὸν βούλομαι.
 79	πῶς δῆτʼ ἂν ἥδιστʼ αὐτὸν ἐπεγείραιμι; πῶς;
-80	Φειδιππίδη Φειδιππίδιον.
+80	Φειδιππίδη, Φειδιππίδιον.
 @ Φειδιππίδης
-80a	τί ὦ πάτερ;
+80a	τί, ὦ πάτερ;
 --- apparatus
 71	φυλλέως R
 73	ἐπείθετο RV etc., Ald.
@@ -102,6 +111,10 @@
 77	rev: ἣν ἣν changed back to ἣν ἢν (as Perseus): enlarged beside ὁ (rough) in 72 and ἀλλʼ (smooth) in 73, the first breathing opens to the right (rough), the second is comma-shaped (smooth); the OCR's ἣν ἣν is its usual breathing confusion.
 80a	ΦΕΙ. τί, ὦ πάτερ; is printed as the second half of verse 80, indented on its own line; kept as 80a.
 81	the page ends with ΦΕΙ. τί, ὦ πάτερ;: κύσον με and the speaker change to Στρεψιάδης are not on this page; moved to the head of p-0128, where they begin verse 81.
+75	res: comma after ὁδοῦ, as printed
+77	res: the dash after σωθήσομαι. as printed (seen on the page, not in the residual list)
+80	res: comma after Φειδιππίδη, as printed
+80a	res: comma after τί, as printed
 
 === p-0128
 --- text
@@ -112,12 +125,12 @@
 @ Στρεψιάδης
 82a	εἰπέ μοι, φιλεῖς ἐμέ;
 @ Φειδιππίδης
-83	νὴ τὸν Ποσειδῶ τουτονὶ τὸν ἵππιον.
+83	νὴ τὸν Ποσειδῶ τουτονὶ τὸν ἵππιον·
 @ Στρεψιάδης
 84	μὴ ἐμοί γε τοῦτον μηδαμῶς τὸν ἵππιον·
 85	οὗτος γὰρ ὁ θεὸς αἴτιός μοι τῶν κακῶν.
 86	ἀλλʼ εἴπερ ἐκ τῆς καρδίας μʼ ὄντως φιλεῖς,
-87	ὦ παῖ πιθοῦ.
+87	ὦ παῖ, πιθοῦ.
 @ Φειδιππίδης
 87a	τί οὖν πίθωμαι δῆτά σοι;
 @ Στρεψιάδης
@@ -128,7 +141,7 @@
 @ Στρεψιάδης
 90a	καί τι πείσῃ;
 @ Φειδιππίδης
-90b	πείσομαι
+90b	πείσομαι,
 91	νὴ τὸν Διόνυσον.
 @ Στρεψιάδης
 91a	δεῦρό νυν ἀπόβλεπε.
@@ -151,6 +164,9 @@
 87	apparatus: πε̈ίθου is printed with two dots over the ε (the deletion the note explains), written as ε with a combining diaeresis.
 90	apparatus: καὶ λεγε V is printed without an accent on λεγε; copied as printed. The item καί τι] … concerns our 90a (no new number in the print).
 81	rev: note above corrected: Perseus has whole verses here (82/82b, 87/87b, 90/90b/90c, 91/91b for the speaker parts); the wrong breaks were the draft's. Checked on the image: the 16 lines, speakers, margin 85 and 90, the lettering (Perseus 82b, 87b, 90b, 90c, 91b = our 82a, 87a, 90a, 90b, 91a, as 58a and 80a), and all apparatus items; no other change.
+83	res: raised stop after ἵππιον (in place of the full stop), as printed (seen on the page, not in the residual list)
+87	res: comma after παῖ, as printed (seen on the page, not in the residual list)
+90b	res: comma after πείσομαι, as printed. Margins 85 (οὗτος γὰρ) and 90 (πείσομαι, the third part of verse 90) checked again: the numbering agrees; the lettering 82a, 87a, 90a, 90b, 91a (Perseus 82b, 87b, 90b, 90c, 91b) is kept, as 58a, 80a and 219a-c in batch-05; whether merge-drama should use Perseus's letters is for the lead.
 
 === p-0130
 --- text
@@ -159,8 +175,8 @@
 93	ὁρῶ. τί οὖν τοῦτʼ ἐστὶν ἐτεόν, ὦ πάτερ;
 @ Στρεψιάδης
 94	ψυχῶν σοφῶν τοῦτʼ ἐστὶ φροντιστήριον.
-95	ἐνταῦθʼ ἐνοικοῦσʼ ἄνδρες, οἳ τὸν οὐρανὸν
-96	λέγοντες ἀναπείθουσιν ὡς ἔστιν πνιγεύς,
+95	ἐνταῦθʼ ἐνοικοῦσʼ ἄνδρες οἳ τὸν οὐρανὸν
+96	λέγοντες ἀναπείθουσιν ὡς ἔστιν πνιγεὺς
 97	κἄστιν περὶ ἡμᾶς οὗτος, ἡμεῖς δʼ ἅνθρακες.
 98	οὗτοι διδάσκουσʼ, ἀργύριον ἤν τις διδῷ,
 99	λέγοντα νικᾶν καὶ δίκαια κἄδικα.
@@ -176,3 +192,5 @@
 93	the page prints ἐτεόν, (acute, followed by a comma: ἐτεόν, ὦ πάτερ;); Perseus ἐτεὸν without the comma.
 97	the page prints ἅνθρακες with rough breathing (crasis, Meineke's reading; the apparatus gives ἄνθρακες codd.: Mein. etc. ἅνθρακες, and the breathing on the enlarged crop has the shape of the rough breathing on ἡμεῖς in the same verse; the OCR read ἅνθρακες too). The line was not flagged; Perseus ἄνθρακες.
 92	apparatus: τὀκίδιον is printed with a smooth breathing on the ο (crasis mark), copied as printed.
+95	res: no comma after ἄνδρες (removed), as printed; οἳ (rough breathing, grave) is printed, as the text. Margin 95 stands at this verse: the numbering agrees.
+96	res: πνιγεὺς with grave and no comma after it, as printed
