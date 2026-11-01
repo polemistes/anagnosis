@@ -117,6 +117,11 @@ which of our lines it is.
   Agon II.", "119 sq.") become `## 1345-1451`, `## 119`. He quotes the scholia at length in
   Greek, with his signs: keep `[ ]`, `⟨ ⟩` (printed < >), `R`, `V`, `(int.)`, `(ext.)`,
   `Su.`, `cp.`, as printed; references (Ach. 412 n., Kühner-Gerth, Gram. § 398. 4) exactly.
+  The draft's structure needs checking on every page: a bold line number misread at a note's
+  start ("δ. οἰκέται" for "5. **οἰκέται**") is a missed heading; a number at the start of a
+  printed line inside running text ("1265" continuing "cp. 12, 720, | 1265, 1407") made into a
+  heading is false: put it back in the text; a sentence that runs from the foot of the left
+  column to the top of the right one is one paragraph: join it.
 * *Introduction* (`intro-NN.md`): numbered chapters ("I. THE DATE OF THE CLOUDS" → `# I. The
   Date of the Clouds`), sections and footnotes by the introduction rules above; Greek
   quotations of several verses on their own lines with ` | `. The Greek hypotheses (leaves
