@@ -111,35 +111,45 @@ class Play:
         return self.scan if kind == "text" else (self.notes_scan or self.scan)
 
 
-def hidden_leaves(scan: str) -> set[int]:
-    """The leaves a scan's scandata.xml marks as not shown (addToAccessFormats false), cached in
-    pipeline/sources/scans/<scan>/scandata.xml. The page images /page/n<N> count only the leaves
-    shown: leaf = n + the hidden leaves before it."""
+def _scandata(scan: str) -> list[tuple[int, bool]]:
+    """(leaf number, shown) for every leaf of a scan, from its scandata.xml, cached in
+    pipeline/sources/scans/<scan>/scandata.xml. The jp2 files are numbered by these leaf numbers
+    (from 0 or from 1, as the scan has it); the page images /page/n<N> count only the leaves shown."""
     import subprocess
 
     path = PIPELINE / "sources" / "scans" / scan / "scandata.xml"
     if not path.exists():
         path.parent.mkdir(parents=True, exist_ok=True)
         tmp = path.with_suffix(".part")
-        r = subprocess.run(["curl", "-sfL", "--retry", "3", "-o", str(tmp), f"https://archive.org/download/{scan}/{scan}_scandata.xml"])
-        if r.returncode != 0:
-            return set()
+        r = subprocess.run(["curl", "-sfL", "--retry", "5", "--max-time", "120", "-o", str(tmp),
+                            f"https://archive.org/download/{scan}/{scan}_scandata.xml"])
+        if r.returncode != 0 or not tmp.exists() or tmp.stat().st_size < 1000:
+            # older scans keep it in scandata.zip
+            import zipfile
+
+            z = path.with_name("scandata.zip")
+            r = subprocess.run(["curl", "-sfL", "--retry", "5", "--max-time", "120", "-o", str(z),
+                                f"https://archive.org/download/{scan}/scandata.zip"])
+            if r.returncode != 0 or not z.exists():
+                raise SystemExit(f"{scan}: neither {scan}_scandata.xml nor scandata.zip could be fetched; try again")
+            with zipfile.ZipFile(z) as zf:
+                name = next(n for n in zf.namelist() if n.endswith("scandata.xml"))
+                tmp.write_bytes(zf.read(name))
         tmp.rename(path)
     t = path.read_text(encoding="utf-8", errors="replace")
-    return {int(n) for n, body in re.findall(r'<page leafNum="(\d+)">(.*?)</page>', t, re.S)
-            if re.search(r"<addToAccessFormats>\s*false", body)}
+    return [(int(n), not re.search(r"<addToAccessFormats>\s*false", body))
+            for n, body in re.findall(r'<page leafNum="(\d+)">(.*?)</page>', t, re.S)]
+
+
+def hidden_leaves(scan: str) -> set[int]:
+    """The leaves a scan's scandata.xml marks as not shown (a duplicate, an interleaved sheet)."""
+    return {n for n, shown in _scandata(scan) if not shown}
 
 
 def leaf_of(scan: str, n: int) -> int:
     """The leaf (jp2 number) of the Archive's page image n<N>."""
-    hidden = hidden_leaves(scan)
-    leaf, seen = 0, -1
-    while True:
-        if leaf not in hidden:
-            seen += 1
-            if seen == n:
-                return leaf
-        leaf += 1
+    shown = [leaf for leaf, ok in _scandata(scan) if ok]
+    return shown[n]
 
 
 SIDGWICK_NOTE = r"^[lI1|]{1,2}\.\s*(\d{1,4})(?:\s*[-–—]\s*(\d{1,4}))?(?:\s*f{1,2}\.|\s*sqq?\.)?[.,:]?(?=\s|$)"
@@ -174,7 +184,7 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          treebank="tlg0085.tlg007.perseus-grc1.tb.xml",
          # Vol. I only (introduction and text): the notes volume was never scanned (PLAN-drama.md,
          # Decisions); text pp. 35-74, introduction pp. 7-31 and the persons, sigla pp. 25-30
-         text_leaves=[(36, 75)], intro_leaves=[(8, 32), (35, 35)], sigla_leaves=[26, 27, 28, 29, 30, 31],
+         text_leaves=[(37, 76)], intro_leaves=[(9, 33), (36, 36)], sigla_leaves=[27, 28, 29, 30, 31, 32],
          trans_file="drama/tlg0085.tlg007.perseus-eng2.xml", translator="Herbert Weir Smyth", trans_key="smyth",
          trans_edition="Aeschylus, with an English translation by Herbert Weir Smyth, vol. II, Loeb Classical Library, 1926",
          trans_license="CC BY-SA 4.0 (Perseus Digital Library, modernized by Perseus)",

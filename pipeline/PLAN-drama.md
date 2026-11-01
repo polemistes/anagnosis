@@ -497,9 +497,11 @@ session sees where it stopped.
   no scan of vol. II (the notes) under any identifier (searched by title and author; the brief
   says not to look for another edition). The Eumenides therefore ships with Sidgwick's text,
   apparatus and introduction, Smyth's translation and the treebank, and without a commentary;
-  step 6 is skipped and about.md says so. Leaves (= page image n, nothing hidden): text pp. 35-74
-  = leaves 36-75; introduction pp. 7-31 = leaves 8-32, the persons on 35; sigla (manuscripts,
-  scholia, editions, the text) leaves 26-31. The text pages carry a student's ink notes, as the
+  step 6 is skipped and about.md says so. Leaves (this scan's jp2 files begin at _0001, so
+  leaf = page image n + 1; its scandata is in scandata.zip, which drama._scandata now reads):
+  text pp. 35-74 = leaves 37-76; introduction pp. 7-31 = leaves 9-33, the persons on 36; sigla
+  (manuscripts, scholia, editions, the text) leaves 27-32. A first draft on leaves 36-75 (one
+  leaf early) was thrown away before any agent saw it. The text pages carry a student's ink notes, as the
   brief warns.
 * **2026-11-01, Choephoroi step 4, a renumbered transposition.** Sidgwick moves Perseus 997-1004
   (τί νιν προσείπω … θερμαίνοι φρενί) to follow 982, with Hermann, and numbers the verses in his
