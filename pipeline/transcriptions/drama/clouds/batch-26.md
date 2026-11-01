@@ -58,6 +58,7 @@
 1497	res: comma after οἴμοι, as printed
 1504	res: comma after τάλας, as printed
 1499	res (numbering): margins 1500 (ἢν ἡ σμινύη) and 1505 (ἐγὼ δὲ κακοδαίμων) checked on the whole page: as the batch has them; the 1499ᵃ/1499ᵇ placement checked and kept.
+1504	app2: the facing block on leaf 411 (crops p-0410-app2-l/r) read word by word: the end of the 1504 item ("In RV Ald. σωκ is prefixed: assigned to MA. by Reisig") and the items on 1505 (two), 1506 and 1507 (two, divided by ||) are all in the apparatus as printed; no change.
 
 === p-0412
 --- text
@@ -83,6 +84,7 @@
 1509	apparatus: the 1509 item runs on to the facing page (leaf 413, page 313, between the translation and the commentary, under a rule) from "lxxxiii. p. 689. 7)"; the items on 1510 and 1511 are printed there too: all written here. "Cratyl. 396 D": the D is a small capital, written as a capital.
 1510	res (numbering): margin "1510—11" checked on the whole page; kept as one verse 1510 (the residual items on 1510 other than ἔξω· are the apparatus lines; ἔξω· has the raised stop as printed).
 1508	rev: text (ΚΟΡ. before 1508, δίωκε, παῖε, βάλλε, ὡς, the turnover of 1510, margin 1510—11) and the apparatus on 1508-1511 (leaf 412 and the run-on on leaf 413) checked against the images: as printed, no change.
+1509	app2: the facing block on leaf 413 (crops p-0412-app2-l/r) read word by word: the end of the 1509 item ("lxxxiii. p. 689. 7)"), the item on 1510 and the two on 1511 (γε om. RV || ἡμῖν] Moeris …) are all in the apparatus as printed; no change.
 
 === p-0414
 --- text
