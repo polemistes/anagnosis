@@ -71,6 +71,7 @@
 373	οὐρεῖν. is the turnover of this verse; joined.
 367	apparatus: ληρήσης printed without iota subscript; the overlines in "η̄ for ε̄ῑ" are the print's (written with combining macrons).
 371	apparatus: the item runs on to the facing page (leaf 195), which here prints an apparatus block between two rules: the end of 371 ("De uit. prin. codd. ... keeping οὔσης") and the items 372 and 373 stand there. Written here, read from pages/leaf_0195.png. "Ijzeren" and "uit." as printed.
+371	app2: facing block on leaf 195 checked against the crops p-0194-app2-l/-r: the end of 371 and the items 372, 373 agree with the print word for word; no change.
 
 === p-0196
 --- text
