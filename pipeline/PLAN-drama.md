@@ -356,7 +356,7 @@ manuscripts page, introduction, commentary (Agamemnon, Choephoroi), syntax and r
 - [x] Eumenides: 2 ✓ · 3 ✓ · 4 ✓ (two passes) · 5 ✓ · 6 skipped (no notes) · 7 ✓ · 8 ✓ · 9 ✓ · 10 ✓ group check (2026-11-01)
 - [x] R1: reader 0.6.0 (bundle built 2026-11-01; upload and products: see For the author)
 - [ ] Clouds: 2 ✓ · 3 ✓ · 4 · 5 · 6 · 7 (intro and trans) · 8 · 9
-- [ ] Medea: 2 (apparatus rule) · 3 · 4 · 5 · 6 · 7 · 8 · 9
+- [ ] Medea: 2 ✓ (apparatus rule: Earle's appendix) · 3 · 4 · 5 · 6 · 7 · 8 · 9
 - [ ] Frogs: 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9 · 10 group check
 - [ ] R2: reader 0.7.0
 - [ ] Bacchae: 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9
@@ -579,6 +579,21 @@ session sees where it stopped.
   transcription agent, then an independent review agent (checker, apparatus completeness against
   the crops, every turnover and lettered verse against the page), each batch committed when
   reviewed; then the residual pass. The brief's limits hold (at most 10 agents at once).
+
+* **2026-11-01, Medea step 2: leaves, layout, the Medea rule.** Scan cu31924079583609 (316
+  leaves, jp2 from _0000, no hidden leaves; leaf = page + 7 throughout). Earle prints a critical
+  apparatus as an appendix, "c. Notes on the text of this edition" (pp. 267-294 = leaves
+  274-301, a note per line he discusses, "107. οἰμωγαῖς Plüss …: … "), after his account of the
+  codices and their sigla (pp. 255-259, the table pp. 257-259 = leaves 264-266, after
+  Prinz-Wecklein): so by the Medea rule text and apparatus are Earle's, and the product id stays
+  euripides_medea_earle. The layout is new ("earle"): the Greek at the top of every page
+  (pp. 73-247 = leaves 80-254; no facing translation, so no alternation), the margin numbers at
+  the right every fifth verse, the commentary under it in two columns in smaller type, with no
+  rule between; the notes run on inside paragraphs, a new line number and its lemma in bold after
+  a dash ("— 20. **ἡ δύστηνος**: …"). Introduction pp. 7-64, the Greek hypothesis and the persons
+  pp. 65-72 (leaves 14-79). The critical notes go through the prose route as their own kind
+  (app_leaves) and are merged as the apparatus file. Module work for this layout (verses above
+  the small-type block, the commentary's region, the app kind) is part of Medea step 3.
 
 ## Sizes, for planning
 

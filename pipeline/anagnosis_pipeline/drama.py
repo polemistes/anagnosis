@@ -70,8 +70,12 @@ class Play:
     intro_leaves: list[tuple[int, int]] = field(default_factory=list)
     trans_leaves: list[tuple[int, int]] = field(default_factory=list)
     sigla_leaves: list[int] = field(default_factory=list)
+    # critical notes printed apart from the text pages (Earle's "Notes on the text", an appendix)
+    app_leaves: list[tuple[int, int]] = field(default_factory=list)
     # the page: "foot" = text, then the apparatus at the foot of the page; "jebb" = the text at the
-    # top of the left-hand page with the apparatus under it, continued on the facing page
+    # top of the left-hand page with the apparatus under it, continued on the facing page;
+    # "earle" = the text at the top of every page, the commentary under it in two columns in
+    # smaller type, no rule, no apparatus (the critical notes are in app_leaves)
     layout: str = "foot"
     margin_numbers: str = "right"
     adscript: bool = False       # the edition prints the iota adscript (τῶι): shipped as subscript
@@ -216,7 +220,12 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          trans_file="drama/tlg0006.tlg003.perseus-eng2.xml", translator="E. P. Coleridge", trans_key="coleridge",
          trans_edition="The Plays of Euripides, translated by E. P. Coleridge, London, George Bell and Sons, 1891",
          trans_license="CC BY-SA 4.0 (Perseus Digital Library)",
-         notes_editor="earle", notes_editor_name="Mortimer Lamson Earle", layout="jebb"),
+         notes_editor="earle", notes_editor_name="Mortimer Lamson Earle", layout="earle",
+         # p = leaf - 7 throughout (no hidden leaves): text pp. 73-247, the commentary under it to
+         # p. 247; introduction pp. 7-64, the Greek hypothesis and the persons pp. 65-72; the
+         # codices' sigla pp. 257-259; "Notes on the text of this edition" pp. 267-294
+         text_leaves=[(80, 254)], notes_leaves=[(80, 254)], intro_leaves=[(14, 79)],
+         sigla_leaves=[264, 265, 266], app_leaves=[(274, 301)]),
     Play("frogs", "Βάτραχοι", "Frogs", "Ἀριστοφάνης", "Aristophanes", "tlg0019.tlg009",
          "The Frogs of Aristophanes, with introduction and commentary by T. G. Tucker, London, Macmillan, 1906",
          "frogsofaristopha00arisrich", "tucker", "T. G. Tucker", "aristophanes_frogs_tucker",
