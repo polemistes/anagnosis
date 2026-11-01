@@ -169,9 +169,12 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          trans_license="CC BY-SA 4.0 (Perseus Digital Library, modernized by Perseus)",
          notes_editor="sidgwick", notes_editor_name="Arthur Sidgwick", note_start=SIDGWICK_NOTE),
     Play("eumenides", "Εὐμενίδες", "Eumenides", "Αἰσχύλος", "Aeschylus", "tlg0085.tlg007",
-         "Aeschylus: Eumenides, with introduction and notes by Arthur Sidgwick, Oxford, Clarendon Press, 1887",
+         "Aeschylus: Eumenides, with introduction and notes by A. Sidgwick, vol. I, introduction and text, Oxford, Clarendon Press, 1887",
          "eumenideswithint01aescuoft", "sidgwick", "A. Sidgwick", "aeschylus_eumenides_sidgwick",
          treebank="tlg0085.tlg007.perseus-grc1.tb.xml",
+         # Vol. I only (introduction and text): the notes volume was never scanned (PLAN-drama.md,
+         # Decisions); text pp. 35-74, introduction pp. 7-31 and the persons, sigla pp. 25-30
+         text_leaves=[(36, 75)], intro_leaves=[(8, 32), (35, 35)], sigla_leaves=[26, 27, 28, 29, 30, 31],
          trans_file="drama/tlg0085.tlg007.perseus-eng2.xml", translator="Herbert Weir Smyth", trans_key="smyth",
          trans_edition="Aeschylus, with an English translation by Herbert Weir Smyth, vol. II, Loeb Classical Library, 1926",
          trans_license="CC BY-SA 4.0 (Perseus Digital Library, modernized by Perseus)",

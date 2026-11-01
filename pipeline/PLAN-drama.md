@@ -341,7 +341,7 @@ purchase, promote. Then go on with the next play.
 - [x] Step 1: modules, tests, CLI (2026-11-01; tried on Agamemnon leaves 31-36, notes 150-151, introduction 11-12)
 - [x] Agamemnon: 2 ✓ leaves · 3 ✓ draft · 4 ✓ text batches (two passes) · 5 ✓ merge · 6 ✓ notes · 7 ✓ introduction · 8 ✓ translation, sigla, glossary, about · 9 ✓ build and pack
 - [ ] Choephoroi: 2 ✓ · 3 ✓ · 4 · 5 · 6 · 7 · 8 · 9
-- [ ] Eumenides: 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9 · 10 group check
+- [ ] Eumenides: 2 ✓ · 3 · 4 · 5 · 6 · 7 · 8 · 9 · 10 group check
 - [ ] R1: reader 0.6.0
 - [ ] Clouds: 2 · 3 · 4 · 5 · 6 · 7 (intro and trans) · 8 · 9
 - [ ] Medea: 2 (apparatus rule) · 3 · 4 · 5 · 6 · 7 · 8 · 9
@@ -492,6 +492,15 @@ session sees where it stopped.
   chapters, the list of persons, the lists of editions and translations left out. sigla.md
   written from pp. xix-xxii; glossary.md (19 names and rare words), shortdefs.tsv (72 glosses):
   every lemma finds a dictionary entry and a gloss.
+* **2026-11-01, Eumenides step 2: no notes.** The only scan of Sidgwick's Eumenides,
+  eumenideswithint01aescuoft, is "Vol. I.—Introduction and Text" (Oxford 1887); the Archive has
+  no scan of vol. II (the notes) under any identifier (searched by title and author; the brief
+  says not to look for another edition). The Eumenides therefore ships with Sidgwick's text,
+  apparatus and introduction, Smyth's translation and the treebank, and without a commentary;
+  step 6 is skipped and about.md says so. Leaves (= page image n, nothing hidden): text pp. 35-74
+  = leaves 36-75; introduction pp. 7-31 = leaves 8-32, the persons on 35; sigla (manuscripts,
+  scholia, editions, the text) leaves 26-31. The text pages carry a student's ink notes, as the
+  brief warns.
 
 ## Sizes, for planning
 
