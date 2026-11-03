@@ -10,12 +10,12 @@
 **μαθήματος**: schol. V (intramarg. int.) (τῆς μαθήσεως· διὰ τοῦτο γὰρ ἔμαθον).
 
 ## 1232
-**ἀπομόσαι**, ‘to take it upon your salvation,’ ‘to take the sacrament’ (Shak. *Rich. III* v. iv. 31). Generally, as here, ‘to swear “nay”’ (*Eq.* 424, Plato, *Legg.* 936 E, Dem. xxi. § 120, xxix. § 52, Thuc. v. 50 § 1 [where ἐπομόσαι should be read, with Stahl]) ; elsewhere ‘to take an oath’ not to do something (*Aves* 705, *Lys.* 903). ἀ. refers back to 1227, since the δανειστής pays no attention to Strepsiades’ words touching his son, about whom he knows nothing.
+**ἀπομόσαι**, ‘to take it upon your salvation,’ ‘to take the sacrament’ (Shak. *Rich. III* V. iv. 31). Generally, as here, ‘to swear “nay”’ (*Eq.* 424, Plato, *Legg.* 936 E, Dem. xxi. § 120, xxix. § 52, Thuc. v. 50 § 1 [where ἐπομόσαι should be read, with Stahl]) ; elsewhere ‘to take an oath’ not to do something (*Aves* 705, *Lys.* 903). ἀ. refers back to 1227, since the δανειστής pays no attention to Strepsiades’ words touching his son, about whom he knows nothing.
 
-G. Schwandke (*De Nub. prior.* p. 163) thinks 1228-31 were inserted in the second edition.
+G. Schwandke (*De Nub. prior.* p. 163) thinks 1228–31 were inserted in the second edition.
 
 ## 1233
-**ἵν᾽ ἄν κτλ.**: schol. V (intramarg. int.) (ἀντὶ τοῦ ὅπου ἄν σε κελεύσω ἐγώ). As v. Leeuwen rightly points out, ἵνα is used in its old sense ‘where,’ in a legal formula (found in inscriptions only when the verb is omitted, cp. Meisterh. *Gram. d. Inschr.*¹ p. 209 § 9). For such survivals cp. *Vesp.* 186 n.
+**ἵν᾽ ἄν** κτλ.: schol. V (intramarg. int.) (ἀντὶ τοῦ ὅπου ἄν σε κελεύσω ἐγώ). As v. Leeuwen rightly points out, ἵνα is used in its old sense ‘where,’ in a legal formula (found in inscriptions only when the verb is omitted, cp. Meisterh. *Gram. d. Inschr.*¹ p. 209 § 9). For such survivals cp. *Vesp.* 186 n.
 
 The place where such oaths were taken was the altar of Zeus, in the market-place (ὁ λίθος ὁ ἐν τῇ ἀγορᾷ [Aristot.] *Ath. Pol.* 55 § 5, Dem. liv. § 26, Plut. *Sol.* 25 § 2, Poll. viii. § 86) ; but all oaths were not taken here (see Cuq in Daremberg et Saglio, *Dict.* iii. p. 751 a n. 12), and for this reason Pasias reserves to himself a choice as to where the oath should be taken, as in Lysias xxxii. § 13 περὶ τούτων ἐγὼ ἐθέλω . . ὀμόσαι ὅπου ἂν αὐτὸς λέγῃς (Willems, *Bull. de l’Acad. roy. de Belg.*, 1906, p. 681).
 
@@ -24,7 +24,7 @@ For the custom of swearing while standing on a sacred λίθος cp. Paus. i. 3 
 **τοὺς ποίους θεούς**; cp. *Ach.* 418 n. The article marks the lively interest which Strepsiades takes in the answer.
 
 ## 1234
-**τὸν Δία κτλ.**: the custom of swearing by three gods was epic (*Il.* iii. 276 by Zeus, Ge ⟨and rivers⟩, Helios). In Athens it was required by an ordinance of Solon (Poll. viii. § 142), but the deities invoked were altered: Apollo took the place of Helios, and Athena or
+**τὸν Δία** κτλ.: the custom of swearing by three gods was epic (*Il.* iii. 276 by Zeus, Ge ⟨and rivers⟩, Helios). In Athens it was required by an ordinance of Solon (Poll. viii. § 142), but the deities invoked were altered: Apollo took the place of Helios, and Athena or
 --- flags
 1 Eccl. [conf] → ok
 2 4nf. [digit] → Ant.
@@ -46,6 +46,9 @@ For the custom of swearing while standing on a sacred λίθος cp. Paus. i. 3 
 18 Acad. [conf] → ok
 19 λιθωμόται [greek] (Greek model: 'λιθωμόται,) → ok
 --- notes
+1232	rev: Rich. III V. iv. 31 (act in small capitals, was v.).
+1232	rev: 1228–31: en dash as printed (was a hyphen).
+1233	rev: κτλ. is printed in light italic, not bold: taken out of the bold lemma (1233 ἵν᾽ ἄν, 1234 τὸν Δία).
 
 === p-0367
 + Demeter of Ge (Wilam. *Aus Kydath.* p. 95). Here Hermes is named, as money is involved (*Ach.* 742 n., 779, 816) ; Posidon, possibly since the loan was employed in the purchase of horses. See further Plato, *Legg.* 936 E, Dem. xxi. § 198.
@@ -67,7 +70,7 @@ The humour of this scene lies in its being an instance of γέλως ἐκ το�
 
 Schol. in Su. ⟨ἐπὶ τῶν παραπαιόντων μεταφορικῶς ἀπὸ τῶν κεράμων καὶ τοῦ οἴνου ὅσοις ἅλες ἐμβάλλονται [Kuster : ὅσοι ἅ. β. MS.] ὑπὲρ τοῦ μὴ ἐξίστασθαι, μηδὲ ὀξίζειν εὐχερῶς· ἐπειδὴ τοὺς ὑπὸ μέθης ὥσπερ παραφρονοῦντας ὑποβρέχειν εἰώθαμεν ἐλαίῳ ἁλσὶ μεμιγμένῳ. ὡς οὖν τοῦ Στρεψιάδου μὴ καθεστηκότος ἀλλὰ καὶ παραφρονοῦντος, ὃς ἐπὶ ὡμολογημένοις ἔξαρνός ἐστιν, οὕτω τῇ μεταφορᾷ ἐχρήσατο· φησὶν οὖν οὐ τὰ τυχόντα οὗτος ⟨ἂν⟩ ὠφεληθείη διαβρεχθεὶς ἁλσίν⟩. Schol. V (int.) proceeds: ὡς ἐπὶ κεράμου [R : -ῳ V : om. Su.] ἢ ἀσκοῦ [R : -ῷ V] τὸν λόγον ποιεῖται οἵτινες σμηχόμενοι ἁλσὶ βελτίονες γίνονται· ἅμα δὲ ὅτι τοὺς παραφρονοῦντας διαβρέχομεν ἁλσὶ καὶ ἐλαίῳ [perhaps ‘treat with clysters’ Ruth.], καὶ ὠφελοῦνται. || (ἄλλως. ὡς παχύδερμον αὐτὸν χλευάζει· τὰ γὰρ παχέα ὑπὸ πιμελῆς τῶν δερμάτων ἁλσὶ μαλαττόμενα [Su. : ματτόμενα MS.] εὐρύτερα γίνονται· ὄναιτο οὖν, φησίν, ἀποκαθαρθεὶς τὴν παχύτητα [also Su.]· ταῦτα δὲ λέγει ἤτοι ὅτι ἀσκὸν ἢ ἀγγεῖον χαλκοῦν βαστάζων.) Few would care to jest if it were their fate to be treated like this. This irrelevancy is as old as Homer (*Od.* xvii. 225 καί κεν ὀρὸν πίνων μεγάλην ἐπιγουνίδα θεῖτο), and is repeated in *Plut.* 1062.
 
-**ἁλσίν κτλ.**: the salt was used for tanning, cp. Alex. ii. p. 367 K. (iii. p. 471 M.). There may be an insinuation that Pasias was void of ‘the spice and salt that season a man’ (Shak. *Troil.* I. ii. 276) if he expected to get back his money. For a similar expression, but a different sense, cp. *Ant.* II. v. 65 ‘Thou shalt be whipp’d with wire, and
+**ἁλσίν** κτλ.: the salt was used for tanning, cp. Alex. ii. p. 367 K. (iii. p. 471 M.). There may be an insinuation that Pasias was void of ‘the spice and salt that season a man’ (Shak. *Troil.* I. ii. 276) if he expected to get back his money. For a similar expression, but a different sense, cp. *Ant.* II. v. 65 ‘Thou shalt be whipp’d with wire, and
 --- flags
 1 (Wilam. [conf] → ok
 2 dus [conf] → Aus
@@ -108,6 +111,7 @@ Schol. in Su. ⟨ἐπὶ τῶν παραπαιόντων μεταφορικῶ
 “impossiby” (1236) is Starkie’s misprint, kept as printed.
 Starkie prints “1237 sqq.” and then “1237.”: both notes under one heading `## 1237`, the second as a new paragraph.
 Checker: “-ῆναι”, “-ῳ”, “-ῷ” are endings after a hyphen in Starkie’s brackets (no breathing in the print).
+1237	rev: κτλ. out of the bold lemma (ἁλσίν κτλ.), as printed; otherwise checked word by word, no change.
 
 === p-0368
 + stew’d in brine, Smarting in lingering pickle.’
@@ -154,11 +158,12 @@ Checker: “-ῆναι”, “-ῳ”, “-ῷ” are endings after a hyphen in 
 26 1v. [digit] → IV.
 --- notes
 Checker: “α΄” is the numeral in Γυ. α΄ (first woman), no breathing.
+1238	rev: checked word by word against the image, no change.
 
 === p-0369
 + (Hom. *Od.* xvii. 352), Lobeck ad Phryn. p. 169, Kühner-Blass, *Gram.* ii. p. 527.
 
-**θαυμασίως κτλ.**: schol. V (ext.) παρεπιγραφή ἔστι, γελῶν γὰρ τοῦτό φησιν· ἐκκαγχάζει [-καχάζ. R] γὰρ τῆς προσηγορίας ⟨ἀκούσας R⟩ [καὶ] τοῦ Διός, γέλωτα τὸν ἐκείνου τιθέμενος ὅρκον· ταῦτα δέ φησιν, ἐπεὶ δεδίδακται μήτε τὸν Δία μήτε τοὺς ἄλλους ἡγεῖσθαι θεοὺς ἢ τὰς Νεφέλας καὶ τὸν Δῖνον, ὡς ἔφησεν ὁ Σωκράτης.
+**θαυμασίως** κτλ.: schol. V (ext.) παρεπιγραφή ἔστι, γελῶν γὰρ τοῦτό φησιν· ἐκκαγχάζει [-καχάζ. R] γὰρ τῆς προσηγορίας ⟨ἀκούσας R⟩ [καὶ] τοῦ Διός, γέλωτα τὸν ἐκείνου τιθέμενος ὅρκον· ταῦτα δέ φησιν, ἐπεὶ δεδίδακται μήτε τὸν Δία μήτε τοὺς ἄλλους ἡγεῖσθαι θεοὺς ἢ τὰς Νεφέλας καὶ τὸν Δῖνον, ὡς ἔφησεν ὁ Σωκράτης.
 
 **ἥσθην**: cp. *Ach.* 266 n.
 
@@ -170,17 +175,17 @@ Checker: “α΄” is the numeral in Γυ. α΄ (first woman), no breathing.
 **εἰδόσιν**: schol. V (interlin.) ⟨ἀντὶ τοῦ R⟩ ἐμοὶ τῷ εἰδότι ; a stock phrase of the schools, cp. [Eur.] *Rhes.* 973, *IT.* 575, Plato, *Symp.* 199 A. Strepsiades speaks in the manner of his master, who treated his teaching as ‘mysteries’ φωνᾶντα συνετοῖσι (140 n., 143 n.).
 
 ## 1242
-**ἦ μήν**, ‘I swear you shall pay me scot and lot for that’ (Shak. *1 Hen. IV* v. iv. 115) ; cp. 865 n., *Vesp.* 258 n., 1332. Pasias means that, though the vengeance of Heaven is often long delayed (ὀψὲ θεῶν ἀλέουσι μύλοι, ἀλέουσι δὲ λεπτά), he has seen καὶ ἑτέρους ἠσεβηκότας χρόνῳ δεδωκότας δίκην (Lysias vi. § 20) ; but with that he is not immediately concerned. His business is to recover his money.
+**ἦ μήν**, ‘I swear you shall pay me scot and lot for that’ (Shak. *1 Hen. IV* V. iv. 115) ; cp. 865 n., *Vesp.* 258 n., 1332. Pasias means that, though the vengeance of Heaven is often long delayed (ὀψὲ θεῶν ἀλέουσι μύλοι, ἀλέουσι δὲ λεπτά), he has seen καὶ ἑτέρους ἠσεβηκότας χρόνῳ δεδωκότας δίκην (Lysias vi. § 20) ; but with that he is not immediately concerned. His business is to recover his money.
 
 **τούτων**: schol. V (ext.) (ἀντὶ τοῦ ὑπὲρ ὧν ἐβλασφήμησεν).
 
 ## 1246
-**τί σοι κτλ.**: schol. V (ext.) εἰπὲ μόνον τὸ δοκοῦν σοι : id. (ext.) ὁ μαρτύς φησι τῷ Πασίᾳ [R has τῷ μάρτυρί φησιν ὁ δανειστής] εἰσελθόντος τοῦ Στρεψιάδου, (ὅτι τί σοι δοκεῖ δράσειν ὁ Στρεψιάδης· εἰσέρχεται δὲ ἐκφέρειν [Dind. : ἐκβαλεῖν MS.] κάρδοπον, ἵνα αὐτῷ διαλεχθῇ,) καθὼς ἐδιδάχθη ὑπὸ Σωκράτους [R has ἐξ ὧν ἔμαθε παρὰ Σωκράτους] ; see crit. n.
+**τί σοι** κτλ.: schol. V (ext.) εἰπὲ μόνον τὸ δοκοῦν σοι : id. (ext.) ὁ μαρτύς φησι τῷ Πασίᾳ [R has τῷ μάρτυρί φησιν ὁ δανειστής] εἰσελθόντος τοῦ Στρεψιάδου, (ὅτι τί σοι δοκεῖ δράσειν ὁ Στρεψιάδης· εἰσέρχεται δὲ ἐκφέρειν [Dind. : ἐκβαλεῖν MS.] κάρδοπον, ἵνα αὐτῷ διαλεχθῇ,) καθὼς ἐδιδάχθη ὑπὸ Σωκράτους [R has ἐξ ὧν ἔμαθε παρὰ Σωκράτους] ; see crit. n.
 
 ## 1247
 Schol. V (ext.) (εἰσελθὼν ὁ Στρεψιάδης προῆλθε πάλιν τῆς οἰκίας σκαφίδιον [σφραγίδιον MS.] ἢ μαγίδιον ἐξαγαγών· ἀνερωτᾷ οὖν αὐτὸν καὶ πυνθάνεται, ὅ τι ποτὲ αὐτὸ [-ὼ MS.] προσαγορεύοι· ὁ δὲ συνήθως φησὶν ἀρσενικῶς κάρδοπος· οὗτος δὲ ἀπὸ τοῦ Σωκράτους καρδόπην αὐτὸ δεδίδακται λέγειν· ἵνα οὖν ἀμαθῆ καὶ ἀπαίδευτον ἀπὸ τοῦ πρώτου ἀποδείξῃ τὸν δανειστήν, τοῦτό φησιν).
 
-**οὗτος κτλ.**, ‘produce the man who asks his money back.’
+**οὗτος** κτλ., ‘produce the man who asks his money back.’
 
 ## 1248
 **ὅ τι**: cp. 214.
@@ -212,6 +217,8 @@ Schol. V (ext.) (εἰσελθὼν ὁ Στρεψιάδης προῆλθε π�
 --- notes
 “ὁ μαρτύς” (1246) is accented so in the print (for μάρτυς), kept as printed.
 Checker: “-ὼ” is an ending after a hyphen in Starkie’s bracket.
+1240	rev: κτλ. out of the bold lemma as printed (θαυμασίως, 1246 τί σοι, 1247 οὗτος).
+1242	rev: 1 Hen. IV V. iv. 115 (act in small capitals, was v.).
 
 === p-0370
 ## 1250
@@ -264,6 +271,7 @@ Checker: “-ὼ” is an ending after a hyphen in Starkie’s bracket.
 1250: Starkie’s note is only “1250=118.” (the line repeats 118): written `## 1250` and “= 118.”
 1253: the bold lemma has a rough breathing in the print (ἁνύσας), kept as printed.
 Checker: “-ειας” is an ending after a hyphen in Starkie’s bracket.
+1253	rev: checked word by word against the image, no change.
 
 === p-0371
 + τὰ σκιρτήματα [also Su.]. Probably an importation from vulgar speech, cp. *Pax* 562 λιταργιοῦμεν, *Aves* 1467 οὐκ ἀπολιβάξεις ;
@@ -319,6 +327,7 @@ For Amynias cp. 31, 686 sq.
 --- notes
 1259: Starkie prints “1259 sqq.” and then “1259.”: both notes under one heading `## 1259`, the second as a new paragraph.
 Checker: “ιβ̄” is the numeral 12, no breathing.
+1255	rev: checked word by word against the image, no change.
 
 === p-0372
 ## 1261
@@ -326,7 +335,7 @@ Schol. V (ext.) ἐπεὶ τραγικῶς ἀνεφώνησε τὸ ἰώ μ�
 
 **Καρκίνου**: cp. *Vesp.* 1502 n., *Pax* 781 sq.
 
-**δαιμόνων κτλ.**: viz., the sons of Carcinus, nicknamed ὁ θαλάττιος ; a parody of such an expression as that in Plato, *Euthyd.* 291 A ἀλλ᾽, ὦ δαιμόνιε Κρίτων, μή τις τῶν κρειττόνων παρὼν αὐτὰ ἐφθέγξατο ; (‘some divinity’ and not Euthydemus or Dionysodorus). The allusion here is unknown ; possibly *Eq.* 605 sqq. (where Theorus, the jester, of *Vesp.* 1220 sq., narrates that the Corinthian ‘crab’ complained that he could not escape from the Knights on land or in the depths of the sea), may refer to the incident which is parodied here, viz. a discomfiture in the theatre of Xenocles (nicknamed Datis, *Pax* 289) who had recently (in 424 B.C., according to v. Leeuwen) produced a tragedy, *Licymnius* (P. Girard, *Éduc. athén.* p. 285). For the subject of this play cp. Hom. *Il.* ii. 661 sq., Pind. *O.* 7. 27). Tlepolemus, the son of Heracles, slew his uncle Licymnius, the brother of Alcmena, and fled to Rhodes, of which he became king, and where he founded the three great cities in the island (Strabo xiv. 2 § 8). Hence he went to Troy, and was slain by Sarpedon (*Il.* v. 628 sqq.). According to Fritzsche, δαιμόνων meant, in the original, ‘sons of Posidon.’
+**δαιμόνων** κτλ.: viz., the sons of Carcinus, nicknamed ὁ θαλάττιος ; a parody of such an expression as that in Plato, *Euthyd.* 291 A ἀλλ᾽, ὦ δαιμόνιε Κρίτων, μή τις τῶν κρειττόνων παρὼν αὐτὰ ἐφθέγξατο ; (‘some divinity’ and not Euthydemus or Dionysodorus). The allusion here is unknown ; possibly *Eq.* 605 sqq. (where Theorus, the jester, of *Vesp.* 1220 sq., narrates that the Corinthian ‘crab’ complained that he could not escape from the Knights on land or in the depths of the sea), may refer to the incident which is parodied here, viz. a discomfiture in the theatre of Xenocles (nicknamed Datis, *Pax* 289) who had recently (in 424 B.C., according to v. Leeuwen) produced a tragedy, *Licymnius* (P. Girard, *Éduc. athén.* p. 285). For the subject of this play cp. Hom. *Il.* ii. 661 sq., Pind. *O.* 7. 27). Tlepolemus, the son of Heracles, slew his uncle Licymnius, the brother of Alcmena, and fled to Rhodes, of which he became king, and where he founded the three great cities in the island (Strabo xiv. 2 § 8). Hence he went to Troy, and was slain by Sarpedon (*Il.* v. 628 sqq.). According to Fritzsche, δαιμόνων meant, in the original, ‘sons of Posidon.’
 
 ## 1262
 **τοῦτο**: for the epanalepsis cp. *Vesp.* 653 n., Soph. *OR.* 406 sq. The line (except for the violation of the pause) is tragic, cp. Aesch. *Prom.* 765 sq., Soph. *OR.* 1054 sq. νοεῖς ἐκεῖνον ὅντιν᾽ . . οὗτος λέγει ; ΙΟ. τί δ᾽ ὅντιν᾽ εἶπε ;
@@ -368,6 +377,7 @@ Schol. V (int.) ταῦτα Ξενοκλέους ἐστὶν ἐκ τοῦ Λι
 --- notes
 The paragraph “Tlepolemus, the son of Heracles …” at the top of the right column is not indented in the print: joined to the paragraph before (under δαιμόνων κτλ.). The false headings 781, 605 and 2 (numbers at line starts) are put back in the text.
 Checker: “-είδης”, “-ου”, “-ότος” are endings after a hyphen in Starkie’s brackets.
+1261	rev: κτλ. out of the bold lemma as printed (δαιμόνων κτλ.); the join of the unindented Tlepolemus paragraph confirmed; otherwise checked word by word, no change.
 
 === p-0373
 + τὸ χρυσάμπυκες ⟨καὶ Ruth.⟩ παραπεποιῆσθαι τοῦτο· [ἐπεὶ ἐμνήσθη αὐτοῦ ἀπὸ τοῦ πατρός : this is unintelligible]. Homer and Pindar narrate that Licymnius was slain with a stick ; if the scholiast is to be believed, Xenocles described him as owing his death to an accidental fall from Tlepolemus’ car ; possibly Tlepolemus was represented as frightening the horses (A. T. Murray, *On Parody* etc. p. 19).
@@ -442,3 +452,4 @@ Schol. V (ext.) διὰ τὸ ἄνω εἰρηκέναι “ἀνὴρ κακο
 27 {τῶν [conf] → ⟨τῶν
 --- notes
 The signature letter “T” at the foot of the right column is left out. The false headings 0 and 8 (from “θ.” and “§ 10” at line starts) are put back in the text.
+1265	rev: checked word by word against the image, no change.
