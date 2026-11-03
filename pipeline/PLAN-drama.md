@@ -349,22 +349,14 @@ manuscripts page, introduction, commentary (Agamemnon, Choephoroi), syntax and r
 
 ## Progress
 
-**Paused by the author on 2026-11-02 (Clouds nearly done, Medea at step 3). Resume here.** Every
+**Paused by the author on 2026-11-02 (Clouds nearly done, Medea at step 3). Resume here.** (Clouds finished on 2026-11-04; Medea step 3 is next.) Every
 result so far is committed; nothing depends on the session that did it.
 
-*Clouds, to finish (about half an hour):*
-1. Review the four commentary batches whose review the usage limit stopped: one agent each,
-   given `pipeline/transcriptions/drama/REVIEW.md` (the prose part), the batch file and its
-   pages: notes-14 (p-0212 to p-0219), notes-25 (p-0302 to p-0309), notes-33 (p-0366 to
-   p-0373), notes-35 (p-0382 to p-0389). Commit each. The checker's remaining remarks on the
-   Clouds notes batches are explained ones: no breathing on a word ending in Starkie's brackets
-   ([-ων R], ⟨ει⟩), a page beginning with a further lemma of the note before, and "note 1366
-   comes after 1368" (Starkie's transposition, as in the text).
-2. `merge-drama clouds`; read `pipeline/build/clouds-merge.log`. Expected: "line 1366 follows
-   1368" (Starkie's order), apparatus items 569, 1164, 1511 placed on the verse before. A notes
-   problem there (a heading with an impossible line number) is a fault in a batch: fix it there.
-3. `check` (the clouds section must stay clean: 0 lemmas not found, every short definition);
-   `build --only clouds`; `catalog`; commit; tick the Clouds line below.
+*Clouds: finished 2026-11-04.* The last four reviews (notes-14 no change, notes-25 two
+breathings, notes-33 twelve formatting fixes, notes-35 done before the pause); merge log as
+expected, plus notes 299 and 599 placed on 298 and 598: Starkie's commentary counts the lyric
+cola there otherwise than his margins (batch-06 and batch-12 notes), not a batch fault; `check`
+clean for the Clouds; built (version 16b84a98193f2d42) and in the catalogue.
 The Clouds was done with an extra review agent per batch (REVIEW.md) because the author had
 turned "ultracode" (workflows) on; for the later plays use it if the author asks for the
 Clouds-level checking, otherwise the brief's route (one agent per batch, checker, residual pass).
@@ -397,7 +389,7 @@ Then the usual steps 3-9; the translation is Coleridge's from Perseus (merge onl
 - [x] Choephoroi: 2 ✓ · 3 ✓ · 4 ✓ (two passes) · 5 ✓ · 6 ✓ · 7 ✓ · 8 ✓ · 9 ✓
 - [x] Eumenides: 2 ✓ · 3 ✓ · 4 ✓ (two passes) · 5 ✓ · 6 skipped (no notes) · 7 ✓ · 8 ✓ · 9 ✓ · 10 ✓ group check (2026-11-01)
 - [x] R1: reader 0.6.0 (bundle built 2026-11-01; upload and products: see For the author)
-- [ ] Clouds: 2 ✓ · 3 ✓ · 4 ✓ (transcribed, reviewed, residuals, facing-page apparatus) · 5 ✓ · 6 (35 of 39 notes batches reviewed; see "Resume here") · 7 ✓ · 8 ✓ · 9 (about, sigla, READMEs, pack done; final merge, build, catalog still to do)
+- [x] Clouds: 2 ✓ · 3 ✓ · 4 ✓ (transcribed, reviewed, residuals, facing-page apparatus) · 5 ✓ · 6 ✓ (39 notes batches, each checked and reviewed) · 7 ✓ · 8 ✓ · 9 ✓ (2026-11-04)
 - [ ] Medea: 2 ✓ (apparatus rule: Earle's appendix) · 3 · 4 · 5 · 6 · 7 · 8 · 9
 - [ ] Frogs: 2 · 3 · 4 · 5 · 6 · 7 · 8 · 9 · 10 group check
 - [ ] R2: reader 0.7.0
