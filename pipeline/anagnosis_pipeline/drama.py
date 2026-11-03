@@ -80,6 +80,12 @@ class Play:
     margin_numbers: str = "right"
     adscript: bool = False       # the edition prints the iota adscript (τῶι): shipped as subscript
     app_langs: tuple[str, str] = ("grc+lat", "lat+grc")
+    # the apparatus items' numbers stand without a stop (Rzach: "215 ἧς scripsi")
+    app_bare_numbers: bool = False
+    # the commentary's region on a page of the notes scan: "" = as the layout says; "paley" = the
+    # two columns under the text and Paley's bands (everything below the last line that crosses
+    # the page's middle)
+    notes_layout: str = ""
     # how a note begins in the commentary: the line number (group 1), a range end (group 2)
     note_start: str = r"^(?:l{1,2}\.\s*)?(\d{1,4})(?:\s*[-–—]\s*(\d{1,4}))?(?:\s*f{1,2}\.|\s*sqq?\.)?[.,:]?(?=\s|$)"
     speakers: dict[str, str] = field(default_factory=dict)   # the translation's names -> Greek (Perseus) names
@@ -260,6 +266,23 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          notes_editor="rogers", notes_editor_name="Benjamin Bickley Rogers",
          notes_edition="The Lysistrata of Aristophanes, with a translation into corresponding metres, introduction and commentary by Benjamin Bickley Rogers, London, George Bell and Sons, 1911",
          notes_scan="aristophaniscomo04aris"),
+    # Hesiod's Theogony (pipeline/PLAN-theogony.md): Rzach's Teubner text and apparatus, Paley's
+    # commentary (his own text and critical notes on the same pages are not used)
+    Play("theogony", "Θεογονία", "Theogony", "Ἡσίοδος", "Hesiod", "tlg0020.tlg001",
+         "Hesiodi carmina, recensuit Aloisius Rzach, Leipzig, B. G. Teubner, 1908",
+         "hesiodicarminare00hesi", "rzach", "A. Rzach", "hesiod_theogony_rzach",
+         treebank="tlg0020.tlg001.perseus-grc1.tb.xml",
+         trans_file="drama/tlg0020.tlg001.perseus-eng2.xml", translator="Hugh G. Evelyn-White", trans_key="evelyn-white",
+         trans_edition="Hesiod, the Homeric Hymns and Homerica, with an English translation by Hugh G. Evelyn-White, Loeb Classical Library, London, Heinemann, 1914",
+         trans_license="CC BY-SA 4.0 (Perseus Digital Library)",
+         notes_editor="paley", notes_editor_name="F. A. Paley",
+         notes_edition="The Epics of Hesiod, with an English commentary by F. A. Paley, second edition, revised, London, Whittaker, 1883",
+         notes_scan="epicsofhesiodwit00hesiuoft", notes_layout="paley", app_bare_numbers=True,
+         # Rzach: p = leaf - 10; the half-title p. 1 (leaf 11), the sigla ("Notae librorum") p. 2,
+         # text pp. 3-50. Paley (notes scan, hidden leaves 118-119 and 272-273): the Theogony with
+         # his commentary pp. 171-276 = leaves 223-328; the preface pp. iii-xliv and the "Epitome
+         # of the Theogony" pp. 167-170 = leaves 219-222 (step 7 settles the preface's leaves)
+         text_leaves=[(13, 60)], sigla_leaves=[12], notes_leaves=[(223, 328)], intro_leaves=[(219, 222)]),
 ]}
 
 
@@ -596,7 +619,9 @@ def perseus_translation(path: Path) -> list[tuple[str, str, str]]:
                 if tag == "stage":
                     parts.append(" (" + re.sub(r"\s+", " ", "".join(child.itertext())).strip() + ") ")
                 elif tag == "note":
-                    pass
+                    # a footnote between two words (quick-glancing<note/>Aphrodite) leaves a space
+                    if re.match(r"\w", child.tail or "") and not parts[-1][-1:].isspace():
+                        parts.append(" ")
                 elif tag == "del":
                     parts.append("[" + text_of(child) + "]")
                 else:

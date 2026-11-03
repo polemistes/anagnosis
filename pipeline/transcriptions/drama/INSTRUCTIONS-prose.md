@@ -137,6 +137,30 @@ which of our lines it is.
   `pipeline/build/drama-pages/clouds/p-NNNN.md`, the page number one less than the translation
   page's); the margin numbers of the facing page fix it.
 
+**Paley's Hesiod (notes on the Theogony, the Epitome).** Clean print, no handwriting. Each
+page of the Theogony has, from the top: Paley's Greek text (a few verses), a short rule, a
+centred band of his digamma readings ("40. ϝίσασιν"), a band of manuscript readings in small type
+("36. δίκῃσιν A. 37. ἐδασσάμεθα K, …"), another short rule, and then his commentary in two
+columns. **Only the two columns are yours**; the draft cuts the page under the bands. Where a
+line of the bands slipped into the draft (a short centred digamma line, the last line of the
+readings), delete it and say so under notes; where the draft lost the first lines of the
+columns, add them from the column image.
+* A note begins with the line number and a stop: "37. ἤδη μὲν κ.τ.λ. ‘For we had …’" →
+  `## 37` and `**ἤδη μὲν κ.τ.λ.**` (Paley prints the lemma in ordinary Greek type; the Greek
+  that opens the note, up to its stop, is the lemma all the same, κ.τ.λ. included).
+  "40—1." and "40, 41." → `## 40-41`; "116—132." → `## 116-132`. A note with no lemma ("3. The
+  combinations …") has none. "Ibid." opening a paragraph begins a further note on the same line:
+  a new paragraph under the same heading, "Ibid." kept.
+* His references (inf. v. 356, sup. 221, Cf. Il. xi. 270, Opp. 286, Schol., Gaisf., Goettl.,
+  Van Lennep, Schoem.) are copied as printed; "Opp." and "Opp." with a line number mean his
+  Works and Days. Quotation marks are his ‘ ’, “ ”.
+* Where Paley's lemma reads otherwise than Rzach's text (he prints a digamma, ϝ, or another
+  reading), copy Paley's Greek as printed; the merge files the note under the line he numbers.
+* The *Epitome* (`intro-NN.md`, pp. 167-170): one paragraph per printed paragraph; the ranges
+  ("1—115. Introduction. 1—35. The Muses …") stay in the running text with plain hyphens
+  (1-115); the essay that follows is ordinary paragraphs; footnotes as `[Note: ¹ …]`. Heading:
+  `# Epitome of the Theogony`.
+
 **Your own files.** Scripts, enlarged crops and other helpers go only in a folder of your own,
 named after your batch file, under the session's scratchpad folder (e.g.
 `<scratchpad>/agamemnon-notes-03/`); other agents work beside you at the same time and use the

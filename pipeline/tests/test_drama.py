@@ -187,3 +187,17 @@ class RealignTest(unittest.TestCase):
         self.assertEqual(match[0], 0)          # the first refrain to the first
         self.assertEqual(match[50], 50)        # the second to the second
         self.assertEqual(match[21], 21)
+
+
+class ItemNumberTest(unittest.TestCase):
+    def test_bare_numbers(self):
+        from anagnosis_pipeline.drama_pages import _item_number
+
+        def w(text, x=100, conf=90):
+            return {"text": text, "bbox": [x, 0, x + 40, 20], "conf": conf}
+
+        self.assertTrue(_item_number(w("103.")))
+        self.assertFalse(_item_number(w("215")))
+        self.assertTrue(_item_number(w("215"), bare=True, right=1700))
+        self.assertFalse(_item_number(w("215", x=1800), bare=True, right=1700))  # a margin number
+        self.assertFalse(_item_number(w("5", conf=80), bare=True, right=1700))

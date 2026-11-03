@@ -274,9 +274,16 @@ def _noise(l: dict) -> bool:
         and not abbreviation(" ".join(w["text"] for w in l["words"]))
 
 
-def _item_number(w: dict) -> bool:
-    """An apparatus item's number as Tesseract reads it ("103.", "17."), not a smudge."""
+APP_BARE = re.compile(r"^\d{1,4}[a-z]?$")
+
+
+def _item_number(w: dict, bare: bool = False, right: float | None = None) -> bool:
+    """An apparatus item's number as Tesseract reads it ("103.", "17."), not a smudge. With
+    `bare` (Rzach's "215 ἧς scripsi") a number without a stop counts too, unless it stands right
+    of `right` (a verse's margin number)."""
     t = w["text"].strip()
+    if bare and APP_BARE.match(t) and (right is None or w["bbox"][0] < right):
+        return w["conf"] >= 70 and (len(t) >= 2 or w["conf"] >= 85)
     return bool(APP_NUMBER.match(t)) and w["conf"] >= 70 and (len(re.sub(r"\D", "", t)) >= 2 or w["conf"] >= 85)
 
 
@@ -330,7 +337,7 @@ def page_layout(play: Play, leaf: int) -> dict:
     # the apparatus, from the foot up
     block: list[dict] = []
     for l in sorted((l for l in body if l["bbox"][3] <= limit + 5), key=lambda l: -l["bbox"][1]):
-        has_num = any(_item_number(w) for w in l["words"])
+        has_num = any(_item_number(w, play.app_bare_numbers, 0.85 * W) for w in l["words"])
         if l["x_size"] > 0.92 * XS and _good(l) >= 3 and not has_num:
             break  # a verse
         if l["x_size"] <= 0.9 * XS or has_num:
@@ -338,7 +345,7 @@ def page_layout(play: Play, leaf: int) -> dict:
     app_y = app_end = None
     if between is not None:
         app_y, app_end = between[0] + 4, between[1] - 4
-    elif block and any(_item_number(w) for l in block for w in l["words"]):
+    elif block and any(_item_number(w, play.app_bare_numbers, 0.85 * W) for l in block for w in l["words"]):
         app_y = max(0, min(l["bbox"][1] for l in block) - int(0.25 * H))
         app_end = min(limit, max(l["bbox"][3] for l in block) + int(0.4 * H))
     text_lines = [l for l in body if (app_y is None or (l["bbox"][1] + l["bbox"][3]) / 2 < app_y)

@@ -73,6 +73,8 @@ FILES = {
             # Smyth's Aeschylus (Loeb 1926), Coleridge's Alcestis and Medea, Buckley's Bacchae (fallback)
             "tlg0085.tlg005.perseus-eng3", "tlg0085.tlg006.perseus-eng2", "tlg0085.tlg007.perseus-eng2",
             "tlg0006.tlg002.perseus-eng2", "tlg0006.tlg003.perseus-eng2", "tlg0006.tlg017.perseus-eng2",
+            # Hesiod's Theogony (pipeline/PLAN-theogony.md): Evelyn-White's Loeb text and translation
+            "tlg0020.tlg001.perseus-grc2", "tlg0020.tlg001.perseus-eng2",
         )
     },
     # GLAUx for the six plays the AGDT lacks (the Aeschylus treebanks are in treebanks/)

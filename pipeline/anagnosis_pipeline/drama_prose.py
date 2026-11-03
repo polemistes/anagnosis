@@ -106,6 +106,19 @@ def _region(play: Play, kind: str, leaf: int, lines: list[dict], size: tuple[int
             top = (found[-1] + 5) if found else 0  # the commentary: under the last rule
         else:
             body = [l for l in body if not found or l["bbox"][3] < found[0]]  # the translation: above the first
+    if play.notes_layout == "paley" and kind == "notes" and body:
+        # Paley: his text and his bands (digamma, MSS readings) run across the page; the
+        # commentary's two columns under them never cross the middle
+        mid0 = W / 2
+        def crosses(l: dict) -> bool:
+            return l["bbox"][0] < mid0 - 0.04 * W and l["bbox"][2] > mid0 + 0.04 * W
+
+        seq = sorted(body, key=lambda l: l["bbox"][1])
+        start = next((i for i in range(len(seq)) if not any(crosses(l) for l in seq[i:i + 4])
+                      and len(seq[i:i + 4]) == 4), None)
+        limit = seq[start]["bbox"][1] if start is not None else H
+        cross = [l for l in seq if crosses(l) and l["bbox"][1] < limit]
+        top = (max(l["bbox"][3] for l in cross) + 2) if cross else 0
     body = [l for l in body if l["bbox"][1] >= top]
     if not body:
         return [], 0

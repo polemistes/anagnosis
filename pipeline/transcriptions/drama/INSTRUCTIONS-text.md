@@ -1,7 +1,7 @@
 # The plays: checking the Greek text and writing the critical apparatus
 
-This folder holds the page-by-page work on the printed editions of nine plays (see
-pipeline/PLAN-drama.md for which edition each play uses). Each play has a folder
+This folder holds the page-by-page work on the printed editions of nine plays and of Hesiod's
+Theogony (see pipeline/PLAN-drama.md and pipeline/PLAN-theogony.md for which edition each uses). Each play has a folder
 (`agamemnon/`, `choephoroi/`, `eumenides/`, `clouds/`, `medea/`, `frogs/`, `bacchae/`,
 `alcestis/`, `lysistrata/`) with batch files. The editions are in the public domain; the
 transcription is published under CC BY-SA 4.0. `merge-drama <play>` turns the batch files into
@@ -170,6 +170,32 @@ margin; the margin numbers every fifth verse are at the right.
   number inside the paragraph begins a new item. Copy the sigla as printed (R, V, U, A, M, Θ,
   codd., al., Ald., Su., schol. R, dett.) and Starkie's words, references and Greek as printed.
 * Ignore pencil and ink notes on the pages.
+
+**Rzach's Theogony (Teubner 1908).** One poem, no speakers: the check sheet names none, and the
+file has no `@` lines. The margin numbers every fifth verse are at the right. Rzach sets the
+verses in paragraphs divided by a blank line; the blank lines are not recorded. The Teubner type
+prints θ as ϑ, ρ often as ϱ and β inside a word as ϐ: write θ, ρ, β (the check sheet's Perseus
+spelling already does); his elision mark is ʼ, his raised stop ·. Lines he holds to be
+interpolated stand in square brackets, which may open on one verse and close several verses
+later ([ἔνθα σφιν … ἱεῖσαι.] 63-67): keep the brackets exactly where printed. Asterisks
+(* * * * *) between verses mark a gap he assumes: a `!` line `* * * * *`. Where Perseus has
+verses Rzach does not print in his text (the Metis fragment after 929, which Perseus numbers
+929a-929t), the draft cannot match them: follow the page, and note what Rzach prints there.
+* **The apparatus** is under a short rule at the foot of the page, in Latin, with no stop after
+  the line numbers: "215 ἧς scripsi, αἷς libri   post 216 olim nomina … censuit Muetzell" —
+  each item begins with the number of its line (a range "215—217 et 220—222", "18 sq.", or a
+  "post 26" that names the line it follows: write `26` and keep "post 26" in the item). Items run
+  on in the paragraph, separated by wider spaces: a new number begins a new item. A note on two
+  lines ("218 sq. neglexit Stobaeus") is filed under the first, with "sq." kept in the item.
+* Copy the sigla exactly: the papyri A B R, the codices C D E F G H I K L, the classes and
+  families Ω Ψ Φ, Ωa Ωb Ωc Ωbc (write Ωbc as printed, letters on the line), m¹ m² (first and
+  second hand: superscript digits), m. rec., γρ. (a variant noted in a manuscript), superscr.,
+  in marg., in ras., e corr., ///  (erased letters: three slashes as printed), codd., libri,
+  schol., Tzetzes, the scholars' names (Goettling, Hermann, Guyet, Peppmüller, Paley …). Where
+  Rzach prints a papyrus's letters in capitals with restored letters in brackets
+  (ΑΜΦΙΛΛ⟨Ο⟩ΓΙΑC B), copy the capitals as printed, lunate sigma C included, and his brackets.
+* Greek words in the apparatus have full accents as printed; references (Hom. Β 305, Priscianus
+  Inst. XIV 34, Aristides XXVIII 20, Mor. 747 f) are copied as printed.
 
 **Your own files.** Scripts, enlarged crops and other helpers go only in a folder of your own,
 named after your batch file, under the session's scratchpad folder (e.g.
