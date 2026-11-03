@@ -104,6 +104,7 @@ Schol. V (ext.) ἐρωτηματικῶς, ὅτι παιδοκτόνος ἦν
 25 Joél [latin] (Greek model: ΖοδΙ.) → Joël
 --- notes
 Structure: false headings 918 ("918 sq.") and 151 ("fr. 151 N.²") back in the text; the draft's "## 908" over φέρε γάρ is 903; the left column's foot ("Soph. OC.") joined to the right column's head ("1381), …"); sub-lemmas made bold; the page ends inside the note on 906 ("Joël (Der" | "echte Sokr.").
+905	rev: lemma αὐτοῦ corrected to αὑτοῦ (the print has the rough breathing; line 905 reads αὑτοῦ)
 
 === p-0304
 + *echte Sokr.* etc. ii. p. 817), is more particular; he suggests that the passage is a parody of Antisthenes’ argument that everything must be sacrificed to Justice, even one’s filial feelings, e.g. if Justice demands, one must imprison one’s father (ib. p. 588).
@@ -120,7 +121,7 @@ Structure: false headings 918 ("918 sq.") and 151 ("fr. 151 N.²") back in the t
 ## 908
 Schol. V (ext.) ἐσχατόγηρως ἢ ὑπερήφανος· (τὸ δὲ ἀνάρμοστος ἀνακόλουθος,) μηδενὶ ἁρμοζόμενος.
 
-**τυφογέρων**, ‘you are a stupid, impracticable old hunks’ (W. H. Thompson); cp. *Lys.* 335, *Vesp.* 1364 τυφεδανός, ib. 1370 n. Similar words are τυμβογέρων, ᾀδοφοίτης (*fr.* i. p. 428 K.; ii. p. 1005 M.), τῷ θανάτῳ μέλημα (*Eccl.* 905), *Silicernium*, *capuli decus*, *Acherunticus* (Plaut. *Mil.* 627), *morticinus* (id. *Persa* 283); for the form cp. ὠμογέρων (Hom. *Il.* xxiii. 791).
+**τυφογέρων**, ‘you are a stupid, impracticable old hunks’ (W. H. Thompson); cp. *Lys.* 335, *Vesp.* 1364 τυφεδανός, ib. 1370 n. Similar words are τυμβογέρων, ᾁδοφοίτης (*fr.* i. p. 428 K.; ii. p. 1005 M.), τῷ θανάτῳ μέλημα (*Eccl.* 905), *Silicernium*, *capuli decus*, *Acherunticus* (Plaut. *Mil.* 627), *morticinus* (id. *Persa* 283); for the form cp. ὠμογέρων (Hom. *Il.* xxiii. 791).
 
 **ἀνάρμοστος**, (1) ‘not suitable,’ )( εὔρρυθμος, of articles of dress, e.g. a thorax (Xen. *Mem.* iii. 10 § 13); then (2) ‘difficult to deal with,’ ‘deficient in *communis sensus*,’ of a tyrant (Herod. iii. 80) who is dissatisfied if you don’t court him, and, if you do, considers you a flatterer, [Dem.] lxi. § 19 τῇ τῶν τρόπων εὐαρμοστίᾳ, Lucian, *Icarom.* § 17; so in Hor. *S.* i. 3. 50 *concinnus* is the opposite of *ineptus*, which might serve as a translation of ἀ. (=a man devoid of taste and tact).
 
@@ -145,7 +146,7 @@ Schol. V (ext.) (ἐμοὶ) τὰ παρά σου εἰρημένα ῥόδα �
 16 reip [rare] → ok
 17 Αγύρριον [accent] (Greek model: ᾿Αγύρριον:) → Ἀγύρριον:
 18 ὑπερήφανος" [conf] → ὑπερήφανος·
-19 ἀδοφοίτης [accent] (Greek model: ἀδοφοίτης.) → ᾀδοφοίτης
+19 ἀδοφοίτης [accent] (Greek model: ἀδοφοίτης.) → ᾁδοφοίτης
 20 Silicernium, [conf] → ok
 21 Acherunticus [rare] → ok
 22 morticinus [rare] → ok
@@ -164,6 +165,7 @@ Schol. V (ext.) (ἐμοὶ) τὰ παρά σου εἰρημένα ῥόδα �
 35 βωμολόχος] [conf] → ok
 --- notes
 Structure: false headings 310 ("Wives I. i. | 310"), 509 ("ib. | 509"), 584 ("Ach. | 584 n."), 1005 ("ii. p. | 1005 M.") back in the text; αἰβοῖ and τουτὶ καὶ δή stay under 906 (where the print has them, before 907); the left column's foot (λαβοῦ λαβοῦ) joined to the right column's head; "910 sqq." made ## 910 (the next page has a second note headed 910, "ῥόδα μ᾽ εἴρηκας"). Plato Com. "i. p. 652 K." (draft 6562).
+908	rev: ᾀδοφοίτης corrected to ᾁδοφοίτης (the print has the rough breathing, as on ὑπερήφανος above)
 
 === p-0305
 + is Plaut. *Pseud.* 360 sqq. where Ballio replies to Calidorus’ reproaches with a smiling and gratified assent; *itast*, *dicis uera*, *quippini*, *certo*, *factum optume*, *sunt mea istaec*, *perge tu*, *fateor*, *uetera uaticinamini*, *ualide*, *acerrume*, *babae*, *bombax*, *planissume*, so that, in the end, Poenulus grows weary, and says: *in pertussum ingerimus dicta dolium, operam ludimus.*
