@@ -42,7 +42,7 @@ from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 from . import greek
-from .drama import APOS, PLAYS, Play, base, number_verses, perseus_play, skel
+from .drama import APOS, PLAYS, Play, base, number_verses, load_perseus, perseus_play, skel
 from .gorgias_pages import _pair_gap, _sim, read_hocr, tesseract  # noqa: F401  (_pair_gap, _sim used via align)
 from .gorgias_pages import align as align_words
 from .gorgias_pages import assign_lines
@@ -543,6 +543,23 @@ def ocr_norm(s: str) -> str:
     return re.sub(r"(?<=[^\W\d_])[᾽’'](?=\s|$|[,.;·:])", APOS, s)
 
 
+def fold_ocr(play: Play, lines: list[dict], ocr: list[dict]) -> tuple[list[dict], list[dict]]:
+    """The OCR's letters as the edition's typeface means them (Play.ocr_fold: Rzach's ϑ is θ),
+    and its skeletons folded as the check text's (Play.skel_fold)."""
+    if play.ocr_fold:
+        tr = str.maketrans(play.ocr_fold)
+        for t in ocr:
+            t["t"] = t["t"].translate(tr)
+            t["skel"] = skel(t["t"], play.adscript)
+        for pl in lines:
+            pl["ocr"] = pl["ocr"].translate(tr)
+    if play.skel_fold:
+        tr = str.maketrans(play.skel_fold[0::2], play.skel_fold[1::2])
+        for t in ocr:
+            t["skel"] = t["skel"].translate(tr)
+    return lines, ocr
+
+
 def ocr_stream(layouts: list[dict], adscript: bool) -> tuple[list[dict], list[dict]]:
     """The printed lines of the text in order ({'leaf', 'y0', 'y1', 'x0', 'ocr', 'abbr', 'heading',
     'noise', 'margin'}) and the OCR's words ({'t', 'skel', 'line', 'conf'}). A speaker's
@@ -719,8 +736,8 @@ def build_draft(play: Play, sources: Path) -> tuple[list[dict], dict[int, dict],
     with ThreadPoolExecutor(workers) as ex:
         layouts = dict(zip(leaves, ex.map(lambda l: page_layout(play, l), leaves)))
         list(ex.map(lambda l: margin_numbers(play, layouts[l]), leaves))
-    lines, ocr = ocr_stream([layouts[l] for l in leaves], play.adscript)
-    pers = perseus_play(sources / play.perseus)
+    lines, ocr = fold_ocr(play, *ocr_stream([layouts[l] for l in leaves], play.adscript))
+    pers = load_perseus(play, sources)
     toks = pers["tokens"]
     if play.adscript:
         for t in toks:
@@ -1127,7 +1144,7 @@ def check_batch(slug: str, path: Path, sources: Path) -> list[str]:
     for stem in pages:
         if stem not in expected:
             remarks.append(f"{stem}: not a page of this batch")
-    pers = perseus_play(sources / play.perseus)
+    pers = load_perseus(play, sources)
     names = set(pers["speakers"])
     by_stem = {p["stem"]: p for p in index}
     prev: tuple[int, str] | None = None

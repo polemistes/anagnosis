@@ -55,9 +55,9 @@ def _letters(core: str) -> str:
 
 
 def page_residuals(play, layout: dict, items: list[tuple[str, str]]) -> list[dict]:
-    from .drama_pages import ocr_stream
+    from .drama_pages import fold_ocr, ocr_stream
 
-    lines, ocr = ocr_stream([layout], play.adscript)
+    lines, ocr = fold_ocr(play, *ocr_stream([layout], play.adscript))
     # the OCR's words with their punctuation, by printed line
     words: list[tuple[str, str, int]] = []  # (n, word as checked, index)
     for n, text in items:
@@ -67,7 +67,11 @@ def page_residuals(play, layout: dict, items: list[tuple[str, str]]) -> list[dic
             elif words and w.strip() and w.strip() not in "*†":
                 words[-1] = (words[-1][0], words[-1][1] + w, words[-1][2])
     a = [skel(w) for _n, w, _i in words]
+    if play.skel_fold:
+        tr = str.maketrans(play.skel_fold[0::2], play.skel_fold[1::2])
+        a = [x.translate(tr) for x in a]
     b = [t["skel"] for t in ocr]
+    ltr = str.maketrans(play.skel_fold[0::2], play.skel_fold[1::2]) if play.skel_fold else {}
     out: list[dict] = []
     sm = difflib.SequenceMatcher(None, a, b, autojunk=False)
 
@@ -90,7 +94,7 @@ def page_residuals(play, layout: dict, items: list[tuple[str, str]]) -> list[dic
                         continue
                     if sim < 0.9:
                         continue
-                if t["conf"] >= 90 and _letters(ca) != _letters(cb):
+                if t["conf"] >= 90 and _letters(ca).translate(ltr) != _letters(cb).translate(ltr):
                     add(n, "accent", mine, t["t"], o)
                 if t["conf"] >= 80 and _trail(sa) != _ocr_trail(sb):
                     add(n, "punctuation", mine, t["t"], o)

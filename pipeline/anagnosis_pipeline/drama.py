@@ -86,6 +86,17 @@ class Play:
     # two columns under the text and Paley's bands (everything below the last line that crosses
     # the page's middle)
     notes_layout: str = ""
+    # letters the edition's typeface makes Tesseract read otherwise (Rzach's Teubner: ϑ for θ),
+    # put right in the OCR before it is matched; letters counted as one in the matching (Tesseract
+    # reads the Teubner κ as χ): pairs "χκ" = χ counts as κ
+    ocr_fold: dict[str, str] = field(default_factory=dict)
+    skel_fold: str = ""
+    # "numeric": the check text's verses put in the order of their numbers (Evelyn-White moves
+    # Theogony 214 before 213 and 434 before 430; Rzach prints them in their order)
+    perseus_order: str = ""
+    # check-text verses the edition does not print in its text (the Metis fragment, Theogony
+    # 929a-929t, which Rzach keeps among the fragments): left out of the check text
+    perseus_drop: tuple[str, ...] = ()
     # how a note begins in the commentary: the line number (group 1), a range end (group 2)
     note_start: str = r"^(?:l{1,2}\.\s*)?(\d{1,4})(?:\s*[-–—]\s*(\d{1,4}))?(?:\s*f{1,2}\.|\s*sqq?\.)?[.,:]?(?=\s|$)"
     speakers: dict[str, str] = field(default_factory=dict)   # the translation's names -> Greek (Perseus) names
@@ -278,6 +289,8 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          notes_editor="paley", notes_editor_name="F. A. Paley",
          notes_edition="The Epics of Hesiod, with an English commentary by F. A. Paley, second edition, revised, London, Whittaker, 1883",
          notes_scan="epicsofhesiodwit00hesiuoft", notes_layout="paley", app_bare_numbers=True,
+         ocr_fold={"ϑ": "θ", "ϱ": "ρ", "ϐ": "β", "ϰ": "κ"}, skel_fold="χκ", perseus_order="numeric",
+         perseus_drop=tuple(f"929{c}" for c in "abcdefghijklmnopqrst"),
          # Rzach: p = leaf - 10; the half-title p. 1 (leaf 11), the sigla ("Notae librorum") p. 2,
          # text pp. 3-50. Paley (notes scan, hidden leaves 118-119 and 272-273): the Theogony with
          # his commentary pp. 171-276 = leaves 223-328; the preface pp. iii-xliv and the "Epitome
@@ -455,6 +468,45 @@ def perseus_play(path: Path) -> dict:
     walk(body, 1)
     # sections that hold no verse of their own (a heading div around others) begin with the next
     return {"tokens": tokens, "lines": lines, "sections": sections, "stages": stages, "speakers": speakers}
+
+
+def load_perseus(play: "Play", sources: Path) -> dict:
+    """The play's check text (perseus_play), its verses in the order of their numbers where the
+    play asks for it (Play.perseus_order), and its skeletons folded (Play.skel_fold)."""
+    pers = perseus_play(sources / play.perseus)
+    if play.perseus_order == "numeric" or play.perseus_drop:
+        pers = numeric_order(pers, set(play.perseus_drop), play.perseus_order == "numeric")
+    if play.skel_fold:
+        tr = str.maketrans(play.skel_fold[0::2], play.skel_fold[1::2])
+        for t in pers["tokens"]:
+            t["skel"] = t["skel"].translate(tr)
+    return pers
+
+
+def numeric_order(pers: dict, drop: set[str] = frozenset(), sort: bool = True) -> dict:
+    """The check text with its verses sorted by number (929, 929a … 929t, 930) and the verses in
+    `drop` left out, the tokens with them; for a text without speakers, sections or stage
+    directions."""
+    lines = pers["lines"]
+    order = list(range(len(lines)))
+    if sort:
+        order.sort(key=lambda i: (lines[i]["base"], re.sub(r"\d", "", lines[i]["n"]), i))
+    order = [i for i in order if lines[i]["n"] not in drop]
+    if order == list(range(len(lines))):
+        return pers
+    tokens: list[dict] = []
+    new_lines: list[dict] = []
+    for li in order:
+        line = dict(lines[li])
+        idx = []
+        for j in line["words"]:
+            t = dict(pers["tokens"][j])
+            t["li"] = len(new_lines)
+            idx.append(len(tokens))
+            tokens.append(t)
+        line["words"] = idx
+        new_lines.append(line)
+    return {**pers, "tokens": tokens, "lines": new_lines, "stages": [], "sections": []}
 
 
 # ---------------------------------------------------------------- numbering the printed verses
@@ -982,7 +1034,7 @@ def merge_play(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path
         return 0
     index = json.loads(index_path.read_text(encoding="utf-8"))
     pages = read_text_batches(transcriptions)
-    pers = perseus_play(sources / play.perseus)
+    pers = load_perseus(play, sources)
     speakers = set(pers["speakers"])
 
     # the text, page by page

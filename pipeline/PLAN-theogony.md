@@ -54,7 +54,8 @@ As PLAN-drama.md "Steps for each play", with the play's slug `theogony`:
 ## Progress
 
 - [x] Step 2: leaves (2026-11-04)
-- [ ] 3 · 4 · 5 · 6 · 7 · 8 · 9
+- [x] Step 3: draft (2026-11-04): 48 pages, 1014 verses, 190 flagged (19 %), eight batches
+- [ ] 4 · 5 · 6 · 7 · 8 · 9
 
 ## Decisions
 
@@ -66,3 +67,15 @@ As PLAN-drama.md "Steps for each play", with the play's slug `theogony`:
   is what stands under the last line that crosses the page's middle above the first run of
   column lines (his rules are too short for the rule finder). The Perseus translation's footnotes
   left two words glued (quick-glancing<note/>Aphrodite): `perseus_translation` now keeps a space.
+* **2026-11-04, step 3: draft.** The first draft flagged 56 % of the verses: Tesseract reads
+  Rzach's Teubner θ as ϑ and κ as χ throughout, and Evelyn-White's transpositions in the check
+  text (214 before 213, 427 before 426, 434 before 430-433) pulled words onto wrong verses.
+  New Play fields: `ocr_fold` (ϑ ϱ ϐ ϰ put right in the OCR), `skel_fold` ("χκ": χ and κ count
+  as one letter in the matching, the draft, and the residuals; a real κ/χ difference between
+  Rzach and Perseus would go unflagged, a risk accepted), `perseus_order="numeric"` (the check
+  text in the order of its numbers, which is Rzach's), `perseus_drop` (Perseus 929a-929t, the
+  Metis fragment from Galen: Rzach's p. 46 (leaf 56) goes from 929 straight to 930, so it is
+  left out of the check text, and of the text). Result: 1014 verses, 190 flagged (19 %), the
+  apparatus found on all 48 pages. Eight verses are missing from the draft (37, 38, 407, 426,
+  434, 553, 631, 745): Tesseract read only their accents (Rzach's accents stand high), so their
+  words hang on the verse above, flagged "not found … guess"; the agents split them off.
