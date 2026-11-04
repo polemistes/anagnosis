@@ -20,7 +20,7 @@
 500	σῆμʼ ἔμεν ἐξοπίσω, θαῦμα θνητοῖσι βροτοῖσιν.
 501	[λῦσε δὲ πατροκασιγνήτους ὀλοῶν ὑπὸ δεσμῶν
 502	Οὐρανίδας, οὓς δῆσε πατὴρ ἀεσιφροσύνῃσιν·
-503	οἳ οἱ ἀπεμνήσαντο χάριν ἐυεργεσιάων,
+503	οἵ οἱ ἀπεμνήσαντο χάριν ἐυεργεσιάων,
 --- apparatus
 484	αἰγείῳ Salmasius (Αἰγείῳ Wilamowitz)
 487	εεῖν C
@@ -43,6 +43,7 @@
 485	the print clearly has τᾷ (alpha with circumflex and iota subscript), not Perseus's τῷ; written as printed (no apparatus note; possibly a misprint)
 497	the print reads ἐξείμεσσε λίθον, πύματον καταπίνων· (no ὃν); Perseus's ἐξέμεσεν … ὃν … κατέπινεν is Peppmüller's, cited in the apparatus
 501	the print opens a square bracket before λῦσε (501—506 resecuit Wolf); it closes on p-0038
+503	res: οἵ with acute (before the enclitic οἱ), as printed
 
 === p-0038
 --- text
@@ -53,14 +54,14 @@
 508	ἠγάγετο Κλυμένην καὶ ὁμὸν λέχος εἰσανέβαινεν.
 509	ἣ δέ οἱ Ἄτλαντα κρατερόφρονα γείνατο παῖδα·
 510	τίκτε δʼ ὑπερκύδαντα Μενοίτιον ἠδὲ Προμηθέα
-511	ποικίλον αἰολόμητιν, ἁμαρτίνοόν τʼ Ἐπιμηθέα
+511	ποικίλον αἰολόμητιν, ἁμαρτίνοόν τʼ Ἐπιμηθέα,
 512	ὃς κακὸν ἐξ ἀρχῆς γένετʼ ἀνδράσιν ἀλφηστῇσιν·
 513	πρῶτος γάρ ῥα Διὸς πλαστὴν ὑπέδεκτο γυναῖκα
 514	παρθένον. ὑβριστὴν δὲ Μενοίτιον εὐρύοπα Ζεὺς
 515	εἰς Ἔρεβος κατέπεμψε βαλὼν ψολόεντι κεραυνῷ
 516	εἵνεκʼ ἀτασθαλίης τε καὶ ἠνορέης ὑπερόπλου.
 517	Ἄτλας δʼ οὐρανὸν εὐρὺν ἔχει κρατερῆς ὑπʼ ἀνάγκης
-518	πείρασιν ἐν γαίης, πρόπαρ Εσπερίδων λιγυφώνων,
+518	πείρασιν ἐν γαίης, πρόπαρ Ἑσπερίδων λιγυφώνων,
 519	ἑστηὼς κεφαλῇ τε καὶ ἀκαμάτῃσι χέρεσσιν·
 520	ταύτην γάρ οἱ μοῖραν ἐδάσσατο μητίετα Ζεύς.
 521	δῆσε δʼ ἀλυκτοπέδῃσι Προμηθέα ποικιλόβουλον
@@ -79,6 +80,8 @@
 --- notes
 506	the print reads ἀθανάτοισι (no ν) and closes the square bracket opened at 501 after ἀνάσσει.
 525	the print has a comma after νυκτός
+511	res: comma after Ἐπιμηθέα, as printed
+518	res: Ἑσπερίδων with rough breathing, as printed (the draft's Εσπερίδων had none)
 
 === p-0039
 --- text
@@ -102,7 +105,7 @@
 547	ἦκʼ ἐπιμειδήσας, δολίης δʼ οὐ λήθετο τέχνης·
 548	Ζεῦ κύδιστε μέγιστε θεῶν αἰειγενετάων,
 549	τῶν δʼ ἕλεʼ, ὁπποτέρην σε ἐνὶ φρεσὶ θυμὸς ἀνώγει.
-550	Φῆ ῥα δολοφρονέων· Ζεὺς δʼ ἄφθιτα μήδεα εἰδὼς
+550	φῆ ῥα δολοφρονέων· Ζεὺς δʼ ἄφθιτα μήδεα εἰδὼς
 551	γνῶ ῥʼ οὐδʼ ἠγνοίησε δόλον· κακὰ δʼ ὄσσετο θυμῷ
 552	θνητοῖς ἀνθρώποισι, τὰ καὶ τελέεσθαι ἔμελλεν.
 553	χερσὶ δʼ ὅ γʼ ἀμφοτέρῃσιν ἀνείλετο λευκὸν ἄλειφαρ.
@@ -128,6 +131,7 @@
 --- notes
 532	the print reads ταῦτά γʼ ἄρʼ (Rzach's conjecture, apparatus: scripsi), not Perseus's ταῦτʼ ἄρα
 553	the draft had this verse joined to 552 (OCR missed it); split off as printed, the last verse of the page
+550	res: φῆ in lower case, as printed (the verse begins an indented paragraph, but no capital)
 
 === p-0040
 --- text
@@ -174,8 +178,8 @@
 
 === p-0041
 --- text
-576	[ἀμφὶ δέ οἱ στεφάνους, νεοθηλέος ἄνθεα ποίης,]
-577	[ἱμερτοὺς περίθηκε καρήατι Παλλὰς Ἀθήνη.]
+576	[ἀμφὶ δέ οἱ στεφάνους, νεοθηλέος ἄνθεα ποίης,
+577	ἱμερτοὺς περίθηκε καρήατι Παλλὰς Ἀθήνη.]
 578	ἀμφὶ δέ οἱ στεφάνην χρυσέην κεφαλῆφιν ἔθηκε,
 579	τὴν αὐτὸς ποίησε περικλυτὸς Ἀμφιγυήεις
 580	ἀσκήσας παλάμῃσι, χαριζόμενος Διὶ πατρί.
@@ -212,7 +216,7 @@
 595	ξυνήνορας (γρ. ξυνήνερας in marg. E) Ωb
 597	ἠμάτιον Ωb
 --- notes
-576	the print brackets 576-577 as the draft has them (576 sq. uncis saepsit Wolf)
+576	res: the print brackets 576-577 as one pair, opening before ἀμφὶ (576) and closing after Ἀθήνη. (577); the draft's ] at the end of 576 and [ at the start of 577 removed (576 sq. uncis saepsit Wolf)
 580	no square brackets on this line in the print (the OCR's bracket was noise); line unchanged
 582	the print ends the verse with a raised stop (θάλασσα·), not Perseus's comma
 583	checked: χάρις stands on this line, between the printed dashes; wording unchanged
@@ -225,7 +229,7 @@
 === p-0042
 --- text
 598	οἳ δʼ ἔντοσθε μένοντες ἐπηρεφέας κατὰ σίμβλους
-599	ἀλλότριον κάματον σφετέρην ἐς γαστέρʼ ἀμῶνται—
+599	ἀλλότριον κάματον σφετέρην ἐς γαστέρʼ ἀμῶνται·
 600	ὣς δʼ αὔτως ἄνδρεσσι κακὸν θνητοῖσι γυναῖκας
 601	Ζεὺς ὑψιβρεμέτης θῆκεν, ξυνήονας ἔργων
 602	ἀργαλέων· ἕτερον δὲ πόρεν κακὸν ἀντʼ ἀγαθοῖο·
@@ -270,3 +274,4 @@
 617	apparatus: the 617 item runs on to p-0043 (from "τῶ (in ras. m. alia)" to "Townl. Α 403"); written here, where it begins. τῶ is printed without iota subscript
 608	apparatus: a raised stop is printed after "Stobaeus" (608 ἔσχετʼ Stobaeus·); copied as printed
 612	apparatus: "recensio x" with a Latin x as printed
+599	res: the print ends the verse with a raised stop (ἀμῶνται·), not Perseus's dash

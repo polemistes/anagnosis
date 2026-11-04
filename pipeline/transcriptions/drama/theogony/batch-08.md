@@ -136,7 +136,7 @@
 === p-0058
 --- text
 959	κούρην Ὠκεανοῖο τελήεντος ποταμοῖο
-960	γῆμε θεῶν βουλῇσιν Ἰδυῖαν καλλιπάρῃον.
+960	γῆμε θεῶν βουλῇσι, Ἰδυῖαν καλλιπάρῃον.
 961	ἣ δή οἱ Μήδειαν ἐύσφυρον ἐν φιλότητι
 962	γείναθʼ ὑποδμηθεῖσα διὰ χρυσέην Ἀφροδίτην.
 963	Ὑμεῖς μὲν νῦν χαίρετʼ, Ὀλύμπια δώματʼ ἔχοντες,
@@ -181,6 +181,7 @@
 980	the page prints μειχθεῖσʼ, not Perseus's μιχθεῖσʼ: changed.
 961	apparatus: the lemma δη is printed without an accent (the text has δή); copied as printed.
 964	apparatus: "Quint . Smyrn." is printed with a space before the stop; written "Quint. Smyrn.".
+960	res: βουλῇσι, (no ν, comma after it), as printed (seen on the whole page)
 
 === p-0059
 --- text
@@ -198,7 +199,7 @@
 993	Αἰσονίδης βουλῇσι θεῶν αἰειγενετάων
 994	ἦγε παρʼ Αἰήτεω, τελέσας στονόεντας ἀέθλους,
 995	τοὺς πολλοὺς ἐπέτελλε μέγας βασιλεὺς ὑπερήνωρ,
-996	ὑβριστὴς Πελίης καὶ ἀτάσθαλος, ὀβριμοεργός.
+996	ὑβριστὴς Πελίης καὶ ἀτάσθαλος ὀβριμοεργός.
 997	τοὺς τελέσας Ἰαωλκὸν ἀφίκετο, πολλὰ μογήσας,
 998	ὠκείης ἐπὶ νηὸς ἄγων ἑλικώπιδα κούρην
 999	Αἰσονίδης, καί μιν θαλερὴν ποιήσατʼ ἄκοιτιν.
@@ -224,6 +225,7 @@
 1003	the draft had a stray raised stop after κοῦραι, ("κοῦραι,·"); the page prints only the comma (seen on the whole page, not flagged): removed.
 1001	apparatus: "d. gr." is printed with broken type ("d. gı"); read as gr. (Kretschmer, Die griechischen Vaseninschriften).
 991	apparatus: "EH ;" printed with a space before the semicolon; written without it, as the brief says.
+996	res: no comma after ἀτάσθαλος, as printed
 
 === p-0060
 --- text

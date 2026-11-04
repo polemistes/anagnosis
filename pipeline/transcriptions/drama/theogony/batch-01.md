@@ -86,7 +86,7 @@
 46	οἵ τʼ ἐκ τῶν ἐγένοντο θεοί, δωτῆρες ἐάων.
 47	δεύτερον αὖτε Ζῆνα, θεῶν πατέρʼ ἠδὲ καὶ ἀνδρῶν,
 48	ἀρχόμεναί θʼ ὑμνεῦσι θεαὶ † λήγουσαί τʼ ἀοιδῆς,
-49	ὅσσον φέρτατός ἐστι θεῶν κράτεί τε μέγιστος.
+49	ὅσσον φέρτατός ἐστι θεῶν κράτεϊ τε μέγιστος.
 50	αὖτις δʼ ἀνθρώπων τε γένος κρατερῶν τε Γιγάντων
 51	ὑμνεῦσαι τέρπουσι Διὸς νόον ἐντὸς Ὀλύμπου
 52	Μοῦσαι Ὀλυμπιάδες, κοῦραι Διὸς αἰγιόχοιο.
@@ -118,6 +118,7 @@
 48	the print reads θεαὶ † λήγουσαί τʼ ἀοιδῆς (crux as printed) for Perseus's καὶ ἐκλήγουσαι ἀοιδῆς (Ludwich's reading, cited in the apparatus)
 56	the print reads νύκτας for Perseus's νυκτὸς
 39	δʼ is printed on this verse: checked
+49	res: κράτεϊ with a diaeresis on the iota and no acute, as printed (was κράτεί)
 
 === p-0016
 --- text
@@ -131,7 +132,7 @@
 70	ὑμνεύσαις, ἐρατὸς δὲ ποδῶν ὕπο δοῦπος ὀρώρει
 71	νισομένων πατέρα ὅν· ὃ δʼ οὐρανῷ ἐμβασιλεύει,
 72	αὐτὸς ἔχων βροντὴν ἠδʼ αἰθαλόεντα κεραυνόν,
-73	κάρτει νικήσας πατέρα Κρόνον· εὖ δὲ ἕκαστα
+73	κάρτεϊ νικήσας πατέρα Κρόνον· εὖ δὲ ἕκαστα
 74	ἀθανάτοις διέταξεν ὁμῶς καὶ ἐπέφραδε τιμάς.
 75	ταῦτʼ ἄρα Μοῦσαι ἄειδον, Ὀλύμπια δώματʼ ἔχουσαι,
 76	ἐννέα θυγατέρες μεγάλου Διὸς ἐκγεγαυῖαι,
@@ -162,6 +163,7 @@
 76	no brackets in the print: the OCR's brackets were noise
 79	θʼ· is printed on this verse: checked
 78	apparatus: the papyrus letters are printed with a round (lunate) epsilon, ΤЄΡΨΙΧΟΡΗ; written with Ε, as in batch-07 and the Choephoroi notes
+73	res: κάρτεϊ with a diaeresis on the iota, as printed (was κάρτει)
 
 === p-0017
 --- text
@@ -175,7 +177,7 @@
 89	βλαπτομένοις ἀγορῆφι μετάτροπα ἔργα τελεῦσι
 90	ῥηιδίως, μαλακοῖσι παραιφάμενοι ἐπέεσσιν.
 91	ἐρχόμενον δʼ ἀνʼ ἀγῶνα θεὸν ὣς ἱλάσκονται
-92	αἰδοῖ μειλιχίῃ, μετὰ δὲ πρέπει ἀγρομένοισιν·
+92	αἰδόι μειλιχίῃ, μετὰ δὲ πρέπει ἀγρομένοισιν·
 93	τοίη Μουσάων ἱερὴ δόσις ἀνθρώποισιν.
 94	ἐκ γάρ τοι Μουσέων καὶ ἑκηβόλου Ἀπόλλωνος
 95	ἄνδρες ἀοιδοὶ ἔασιν ἐπὶ χθόνα καὶ κιθαρισταί,
@@ -203,6 +205,7 @@
 84	ῥεῖ as printed: the OCR's δεῖ was a misreading; no change
 82	apparatus: the papyrus letters are printed with a round (lunate) epsilon and an uncial omega (82 ΤЄ⟨σ?⟩ЄΙΔωCΙ, 84 ЄΠЄΚ, 87 ΚЄ, 91 ЄΙCΟΡ, 93 ΔωCΙC); written with Ε and Ω, as in batch-07
 91	apparatus: "ΕΙCΟΡ⟨οω⟩C⟨ιν" is printed with no closing bracket after ιν: copied as printed
+92	res: αἰδόι (uncontracted, acute on the omicron, no diaeresis) as printed, for Perseus's αἰδοῖ
 
 === p-0018
 --- text

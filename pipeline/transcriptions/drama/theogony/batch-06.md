@@ -247,7 +247,7 @@
 738	ἑξείης πάντων πηγαὶ καὶ πείρατʼ ἔασιν
 739	ἀργαλέʼ εὐρώεντα, τά τε στυγέουσι θεοί περ,
 740	χάσμα μέγʼ, οὐδέ κε πάντα τελεσφόρον εἰς ἐνιαυτὸν
-741	οὖδας ἵκοιτʼ, εἰ πρῶτα πυλέων ἔντοσθε γένοιτο,
+741	οὖδας ἵκοιτʼ, εἰ πρῶτα πυλέων ἔντοσθε γένοιτο.
 742	[ἀλλά κεν ἔνθα καὶ ἔνθα φέροι πρὸ θύελλα θυέλλῃ
 743	ἀργαλέη· δεινὸν δὲ καὶ ἀθανάτοισι θεοῖσι
 744	τοῦτο τέρας· Νυκτὸς δʼ ἐρεβεννῆς οἰκία δεινὰ
@@ -277,3 +277,4 @@
 742	The brackets of 742-745 (seclusit A. Meyer) open before ἀλλά in 742 and close after κυανέῃσιν. in 745; added.
 744	The draft had 745 hung on 744 (its words not in the OCR); the print sets ἕστηκεν … κυανέῃσιν.] as its own verse with the margin number 745: split. 744 has a raised stop after τέρας, not Perseus's full stop; changed.
 739	Rzach's angle bracket in ζμερ⟨δαλέʼ is printed without a closing one; copied as printed.
+741	res: full stop after γένοιτο, as printed (before the bracketed 742-745)

@@ -53,7 +53,7 @@
 256	Γλαυκονόμη τε φιλομμειδὴς καὶ Ποντοπόρεια
 257	Ληαγόρη τε καὶ Εὐαγόρη καὶ Λαομέδεια
 258	Πουλυνόη τε καὶ Αὐτονόη καὶ Λυσιάνασσα
-259	Εὐάρνη τε φυήν τʼ ἐρατὴ καὶ εἶδος ἄμωμος
+259	— Εὐάρνη τε φυήν τʼ ἐρατὴ καὶ εἶδος ἄμωμος —
 260	καὶ Ψαμάθη χαρίεσσα δέμας δίη τε Μενίππη
 261	Νησώ τʼ Εὐπόμπη τε Θεμιστώ τε Προνόη τε
 262	Νημερτής θʼ, ἣ πατρὸς ἔχει νόον ἀθανάτοιο.
@@ -82,6 +82,7 @@
 252	ἠεροειδέι, 253 ζαέων, 254 πρηΰνει, 257 Ληαγόρη: the page prints Perseus's spelling; no change. 255, 262 θʼ is printed on the line.
 267	apparatus: the papyrus letters are printed in papyrus-style capitals (cursive-shaped omega, rho with a small bowl): ΩΚΥΡΟΗ, then ⟨ and an italic ν; no closing bracket is printed.
 264	apparatus: Lennep's ϝιδυῖαι is printed with a digamma, written ϝ.
+259	res: the print sets the verse between dashes (— Εὐάρνη … ἄμωμος —, a parenthesis; cf. 465 on p-0036): written as printed.
 
 === p-0027
 --- text
@@ -92,7 +93,7 @@
 272	ἀθάνατοί τε θεοὶ χαμαὶ ἐρχόμενοί τʼ ἄνθρωποι,
 273	Πεμφρηδώ τʼ ἐύπεπλον Ἐνυώ τε κροκόπεπλον,
 274	Γοργούς θʼ, αἳ ναίουσι πέρην κλυτοῦ Ὠκεανοῖο
-275	ἐσχατιῇ πρὸς Νυκτός, ἵνʼ Ἑσπερίδες λιγύφωνοι,
+275	ἐσχατιῇ πρὸς νυκτός, ἵνʼ Ἑσπερίδες λιγύφωνοι,
 276	Σθεννώ τʼ Εὐρυάλη τε Μέδουσά τε λυγρὰ παθοῦσα.
 277	ἣ μὲν ἔην θνητή, αἳ δʼ ἀθάνατοι καὶ ἀγήρῳ,
 278	αἱ δύο· τῇ δὲ μιῇ παρελέξατο Κυανοχαίτης
@@ -131,13 +132,14 @@
 286	no square brackets are printed on this line (the OCR's "]" is a garbled Δ of Διὶ); no change.
 287	the page prints τρικεφαλον with no visible accent (a type defect, it seems); Perseus's τρικέφαλον kept.
 288	Rzach prints μειχθεὶς, Perseus μιχθεὶς: written as printed.
+275	res: the print has νυκτός with a small ν (Perseus Νυκτός): written as printed.
 273	apparatus: the vase inscription ΠΕΜΦΡΗΔΩΝ is printed in epigraphic capitals (lunate epsilon); written with ordinary Greek capitals. "Arg. Δ 1515" is printed without spaces.
 
 === p-0028
 --- text
 289	τὸν μὲν ἄρʼ ἐξενάριξε βίη Ἡρακληείη
 290	βουσὶ παρʼ εἰλιπόδεσσι περιρρύτῳ εἰν Ἐρυθείῃ
-291	ἤματι τῷ ὅτε περ βοῦς ἤλασεν εὐρυμετώπους
+291	ἤματι τῷ, ὅτε περ βοῦς ἤλασεν εὐρυμετώπους
 292	Τίρυνθʼ εἰς ἱερὴν διαβὰς πόρον Ὠκεανοῖο
 293	Ὄρθον τε κτείνας καὶ βουκόλον Εὐρυτίωνα
 294	σταθμῷ ἐν ἠερόεντι πέρην κλυτοῦ Ὠκεανοῖο.
@@ -180,6 +182,7 @@
 300	ζαθέης is printed; no change.
 301	Rzach prints κοΐλῃ (M. Schmidt, see the apparatus), Perseus κοίλῃ: written as printed (unflagged; checked on the page because the apparatus names it).
 304	Rzach prints χθόνα, Perseus χθονὶ: written as printed.
+291	res: comma after τῷ, as printed.
 293	apparatus: "293 sq. om. G, m. eadem additi H" is filed under 293 with "293 sq." kept in the item.
 
 === p-0029
@@ -200,7 +203,7 @@
 324	δεινὸν ἀποπνείουσα πυρὸς μένος αἰθομένοιο.]
 325	τὴν μὲν Πήγασος εἷλε καὶ ἐσθλὸς Βελλεροφόντης.
 326	ἣ δʼ ἄρα Φῖκʼ ὀλοὴν τέκε Καδμείοισιν ὄλεθρον
-327	Ὅρθῳ ὑποδμηθεῖσα Νεμειαῖόν τε λέοντα,
+327	Ὄρθῳ ὑποδμηθεῖσα Νεμειαῖόν τε λέοντα,
 328	τόν ῥʼ Ἥρη θρέψασα Διὸς κυδρὴ παράκοιτις
 329	γουνοῖσιν κατένασσε Νεμείης, πῆμʼ ἀνθρώποις.
 330	ἔνθʼ ἄρʼ ὃ οἰκείων ἐλεφαίρετο φῦλʼ ἀνθρώπων,
@@ -228,6 +231,7 @@
 318	the draft had Ηρακλέης without breathing (Perseus's spelling); the page prints Ἡρακλέης: written as printed.
 320	the page ends the verse with a full stop (τε.), Perseus with a raised stop: written as printed. The flagged τε is printed τε.
 323	Rzach's bracket opens before πρόσθε (323) and closes after αἰθομένοιο. (324): one bracket over both verses, not one per verse as the draft had it; brackets moved to where they are printed.
+327	res: Ὄρθῳ with smooth breathing, as printed (as Ὄρθον at 293 and 309).
 323	apparatus: "323 sq. = Hom. Ζ 181 sq.; eiecit Wolf" filed under 323 with "323 sq." kept in the item.
 313	apparatus: Lennep's ϝιδυῖαν is printed with a digamma, written ϝ.
 
@@ -258,7 +262,7 @@
 --- apparatus
 335	σπείρῃσιν μεγάλαις Wilamowitz, πείρασιν ἐν μεγάλοις libri
 336	καὶ D, τε καὶ ἐκ Ψ, κἀκ Ωb, τε καὶ Ωc
-336	φόρκυνος Ωc
+336	φόρκυος Ωc
 339	339 sq. om. HI
 340	Ἀχελώιόν τʼ Triclinius, ἀχελώιον codd.
 341	τε Ῥοδίον] cf. Herodianus ad Hom. Μ 20, τε ῥόδιον codd., alterum ρ superscr. D
@@ -278,4 +282,5 @@
 341	both θʼ are printed on this line; no change. 348 Διὸς and 350 Πρυμνώ printed as Perseus has them.
 354	Rzach prints Θόη, Perseus Φόη: written as printed.
 342	apparatus: in Muetzell's Σιμόεντα the print sets a ligature arc over μόε (synizesis); the arc is not reproduced.
+336	apparatus (second pass): the print reads φόρ-κυος Ωc (no ν), not φόρκυνος: corrected.
 339	apparatus: "339 sq. om. HI" filed under 339 with "339 sq." kept in the item.

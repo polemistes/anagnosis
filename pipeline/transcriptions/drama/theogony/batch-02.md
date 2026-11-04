@@ -99,7 +99,7 @@
 147	ἄλλοι δʼ αὖ Γαίης τε καὶ Οὐρανοῦ ἐξεγένοντο
 148	τρεῖς παῖδες μεγάλοι τε καὶ ὄβριμοι, οὐκ ὀνομαστοί,
 149	Κόττος τε Βριάρεώς τε Γύης θʼ, ὑπερήφανα τέκνα.
-150	τῶν ἑκατὸν μὲν χεῖρες ἀπʼ ὤμων ἀίσσοντο,
+150	τῶν ἑκατὸν μὲν χεῖρες ἀπʼ ὤμων ἀίσσοντο
 151	ἄπλαστοι, κεφαλαὶ δὲ ἑκάστῳ πεντήκοντα
 152	ἐξ ὤμων ἐπέφυκον ἐπὶ στιβαροῖσι μέλεσσιν·
 153	ἰσχὺς δʼ ἄπλητος κρατερὴ μεγάλῳ ἐπὶ εἴδει.
@@ -142,6 +142,7 @@
 --- notes
 165	the page prints τεισαίμεθα, not Perseus's τισαίμεθα: text changed
 159	not flagged, but seen on the image while writing the apparatus: the page prints στεναχίζετο (apparatus: στεναχίζετο Ωbc, στοναχίζετο DΨ), not Perseus's στοναχίζετο: text changed
+150	res: no comma after ἀίσσοντο, as printed
 
 === p-0022
 --- text
@@ -206,7 +207,7 @@
 209	φάσκε δὲ τιταίνοντας ἀτασθαλίῃ μέγα ῥέξαι
 210	ἔργον, τοῖο δʼ ἔπειτα τίσιν μετόπισθεν ἔσεσθαι.
 211	Νὺξ δʼ ἔτεκεν στυγερόν τε Μόρον καὶ Κῆρα μέλαιναν
-212	καὶ Θάνατον, τέκε δʼ Ὕπνον, ἔτικτε δὲ φῦλον Ὀνείρων·
+212	καὶ Θάνατον, τέκε δʼ Ὕπνον, ἔτικτε δὲ φῦλον Ὀνείρων,
 213	— οὔ τινι κοιμηθεῖσα θεὰ τέκε Νὺξ ἐρεβεννή, —
 --- apparatus
 195	ῥαδινοῖσιν] alterum ρ m¹ superscr. D
@@ -230,6 +231,7 @@
 199	the page brackets 199-200 together ([Κυπρογενέα … ἐξεφαάνθη.]): bracket opened on 199 and closed on 200
 200	bracket closed after ἐξεφαάνθη. as printed
 213	not flagged, seen on the image: Rzach sets the verse between dashes (— οὔ τινι … ἐρεβεννή, —): dashes added
+212	res: comma after Ὀνείρων, as printed (was a raised stop)
 210	apparatus: in ΜΕΘΟΠΙCΘΕΓΕ⟨νεσθαι a capital Τ is printed above the third letter (Θ), the correction "Τ m. al."; it cannot be set above the letter here and is given only by "(Τ m. al.)"; the angle bracket opens and is not closed, as printed; the epsilons (here and in ΘΕΑ̣, 213) are printed lunate, written Ε
 213	apparatus: θεὰ] ...Ι B: the papyrus trace after the dots is printed as a short upright stroke, written Ι; the dot under the last letter of ΘΕΑ̣ is printed (combining dot below)
 

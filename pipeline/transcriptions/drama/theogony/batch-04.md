@@ -1,7 +1,7 @@
 === p-0031
 --- text
 357	Πετραίη τʼ ἐρόεσσα Μενεσθώ τʼ Εὐρώπη τε
-358	Μῆτίς τʼ Εὐρυνόμη τε Τελεστώ τε Κροκοπεπλος
+358	Μῆτίς τʼ Εὐρυνόμη τε Τελεστώ τε κροκόπεπλος
 359	Χρυσηίς τʼ Ἀσίη τε καὶ ἱμερόεσσα Καλυψὼ
 360	Εὐδώρη τε Τύχη τε καὶ Ἀμφιρὼ Ὠκυρόη τε
 361	καὶ Στύξ, ἣ δή σφεων προφερεστάτη ἐστὶν ἁπασέων.
@@ -37,6 +37,7 @@
 373	θεοῖσι D, θεοῖς libri cett.
 375	Κρίῳ GH, κρείῳ (ει ex ι) I, κριῶ D, κρείῳ ΩbΨ schol. Ioannes Galen. Exeg.
 --- notes
+358	res: κροκόπεπλος, a small κ and the accent on ό, as printed (Perseus Κροκοπεπλος).
 370	The print reads οἳ ἂν περιναιετάωσιν where Perseus has ὅσοι περιναιετάωσιν (Rzach's apparatus gives ὅσοι … Ωc as the variant): written as printed. οἳ δὲ at the start confirmed.
 372	θʼ, is printed on this verse (Ἠῶ θʼ, ἣ …): no change.
 359	apparatus: in the reading of E Rzach prints a small η above the υ of κρυσίη; written "κρυσίη (η superscr. υ) E". "schol Exeg." is printed without a stop after schol.
@@ -61,7 +62,7 @@
 391	ἀθανάτους ἐκάλεσσε θεοὺς ἐς μακρὸν Ὄλυμπον,
 392	εἶπε δʼ, ὃς ἂν μετὰ εἷο θεῶν Τιτῆσι μάχοιτο,
 393	μή τινʼ ἀπορραίσειν γεράων, τιμὴν δὲ ἕκαστον
-394	ἑξέμεν, ἣν τὸ πάρος γε μετʼ ἀθανάτοισι θεοῖσιν
+394	ἑξέμεν, ἣν τὸ πάρος γε μετʼ ἀθανάτοισι θεοῖσιν.
 395	τὸν δʼ ἔφαθʼ, ὅς τις ἄτιμος ὑπὸ Κρόνου ἠδʼ ἀγέραστος,
 396	τιμῆς καὶ γεράων ἐπιβησέμεν, ἧ θέμις ἐστίν.
 397	ἦλθε δʼ ἄρα πρώτη Στὺξ ἄφθιτος Οὔλυμπόνδε
@@ -82,6 +83,7 @@
 377	The print reads μετέπρεπε ἰδμοσύνῃσιν (no movable ν): written as printed.
 381	The print reads τίκτʼ Ἠοσφόρον where Perseus has τίκτεν Ἑωσφόρον (Rzach's apparatus: "τίκτʼ Ἠοσφόρον restitui"): written as printed.
 395	The print reads ὅς τις as two words: written as printed.
+394	res: full stop after θεοῖσιν, as printed.
 377	apparatus: Rzach prints the question marks of 377 and 393 with a space before them ("an πάντεσσι ?", "an μιν ?"); written without the space.
 
 === p-0033
@@ -98,7 +100,7 @@
 407	ἤπιον ἀνθρώποισι καὶ ἀθανάτοισι θεοῖσιν.
 409	γείνατο δʼ Ἀστερίην ἐυώνυμον, ἥν ποτε Πέρσης
 410	ἠγάγετʼ ἐς μέγα δῶμα φίλην κεκλῆσθαι ἄκοιτιν.
-411	ἢ δʼ ὑποκυσαμένη Ἑκάτην τέκε, τὴν περὶ πάντων
+411	ἣ δʼ ὑποκυσαμένη Ἑκάτην τέκε, τὴν περὶ πάντων
 412	Ζεὺς Κρονίδης τίμησε· πόρεν δέ οἱ ἀγλαὰ δῶρα,
 413	μοῖραν ἔχειν γαίης τε καὶ ἀτρυγέτοιο θαλάσσης.
 414	ἣ δὲ καὶ ἀστερόεντος ἀπʼ οὐρανοῦ ἔμμορε τιμῆς
@@ -124,6 +126,7 @@
 407	Verse 407 (ἤπιον … θεοῖσιν.) stands after 408 as Rzach prints it; the checker's "407 follows 408" and its word remarks at 407/408 come from that transposition (Perseus has the verses in numeric order), not from a change of wording.
 408	The print ends 408 with a comma (Ὀλύμπου,) and 407 with a full stop (θεοῖσιν.), as the transposition requires: written as printed.
 418	The print has a raised stop after Ἑκάτην (Ἑκάτην· πολλή), not a full stop; seen on the page, written as printed.
+411	res: ἣ with rough breathing (the pronoun), as printed; the draft had ἢ.
 399	apparatus: the digamma in "δῶρά ϝʼ (= ϝοι)" is printed as Teubner's F-shaped italic digamma; written ϝ (U+03DD).
 411	apparatus: the item "411—415 et 450—452 …" is filed under 411-415, the rest of its words kept.
 
