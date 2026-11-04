@@ -57,7 +57,16 @@ As PLAN-drama.md "Steps for each play", with the play's slug `theogony`:
 - [x] Step 3: draft (2026-11-04): 48 pages, 1014 verses, 190 flagged (19 %), eight batches
 - [x] Step 4: text and apparatus (2026-11-04): eight batches, then the residual pass
 - [x] Step 5: merge (2026-11-04): 1022 verses, 642 apparatus items under 468 lines, 6922 words, all with lemmas
-- [ ] 6 · 7 · 8 · 9
+- [x] Step 6: Paley's notes (2026-11-04): 13 batches checked, 500 notes, all placed
+- [x] Step 7: introduction (2026-11-04): Paley's preface and Epitome, six batches checked
+- [x] Step 8: translation, sigla, glossary (120), short definitions, aliases, about.md, READMEs (2026-11-04)
+- [x] Step 9 (build): `build --only theogony` (data/theogony.sqlite 1.9 MB, version ff75082c99c755c0), catalog (16 texts), asset pack app/packs/theogony registered; `bundleDebug` builds (2026-11-04)
+- [ ] Step 9 (emulator check): **resume here.** Interrupted on 2026-11-04 because the author shut the
+  computer down; nothing else is open. Do: emulator `anagnosis` headless, `./gradlew
+  :androidApp:bundleDebug`, bundletool `build-apks --local-testing` and `install-apks` (app/README.md),
+  buy the Theogony in the debug shop, open it, read a page, open the apparatus, a Paley note, the
+  introduction, the sigla, one sentence's syntax, play a line aloud; fix what is wrong; then
+  `adb emu kill` and `./gradlew --stop`. A reader release with the Theogony is the author's call.
 
 ## Decisions
 
