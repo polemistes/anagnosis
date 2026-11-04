@@ -262,6 +262,35 @@ edition is in the public domain; the transcription is published under CC BY-SA 4
 * `sigla.md`, `glossary.md` (names and comic words), `shortdefs.tsv` and `aliases.tsv` are
   written by hand.
 
+## Hesiod's Theogony (`texts/theogony/`)
+
+Alois Rzach's edition (*Hesiodi carmina*, Leipzig, Teubner, 1908), read from the Internet
+Archive scan hesiodicarminare00hesi and made by `merge-drama theogony` from the checked
+transcription in `pipeline/transcriptions/drama/theogony/` (brief `pipeline/PLAN-theogony.md`).
+The editions are in the public domain; the transcription is published under CC BY-SA 4.0.
+
+* Greek text and critical apparatus (`grc.txt`, `commentary-rzach-apparatus.md`): Rzach's, read
+  by OCR and matched word by word to the Perseus text (Evelyn-White's Loeb text of 1914, the
+  check text only); every disagreement, then every word, stop and accent where print and text
+  still differed, settled against the page image. Rzach's own order is kept where he transposes
+  verses (427 before 426, 434 before 430, 408 before 407, 631 before 630); the lines he brackets
+  as interpolated keep their brackets. The Metis fragment that Perseus prints after 929
+  (929a-929t, from Galen) is not in Rzach's text and is left out, with its translation.
+* Translation (`eng-evelyn-white.txt`): H. G. Evelyn-White's (Loeb 1914, Perseus Digital
+  Library, CC BY-SA 4.0), by line; his footnotes are left out.
+* Commentary (`commentary-paley.md`) and introduction (`introduction.md`): F. A. Paley's (*The
+  Epics of Hesiod*, 2nd ed., London, Whittaker, 1883; scan epicsofhesiodwit00hesiuoft): his
+  notes on the Theogony, his preface to the volume and his "Epitome of the Theogony", read by
+  OCR and checked against the page images. His own Greek text, his digamma readings and his
+  manuscript readings printed above the notes are not used; his lemmas follow his text and may
+  differ from Rzach's.
+* Lemmas, morphology and syntax (`tokens.tsv`, `syntax-nodes.tsv`): the Ancient Greek Dependency
+  Treebank 2.1 (annotated by hand, CC BY-SA 3.0 US) aligned to Rzach's words; where he reads
+  otherwise, the analyser, listed in `pipeline/build/theogony-review.tsv` and corrected by hand
+  in `drama_fixes.py`.
+* `sigla.md`, `glossary.md` (the names of the catalogues), `shortdefs.tsv` and `aliases.tsv` are
+  written by hand.
+
 ## The Odyssey (`texts/odyssey/`)
 
 The Greek text is T. W. Allen's Oxford edition (*Homeri Opera* III–IV, 2nd ed., 1917 and 1919),

@@ -27,6 +27,7 @@ work and edition, as given in the text's `about.md` (`product_id`); it can never
 | Choephoroi | aeschylus_choephoroi_sidgwick |
 | Eumenides | aeschylus_eumenides_sidgwick |
 | Clouds | aristophanes_clouds_starkie |
+| Theogony | hesiod_theogony_rzach |
 | New Testament | newtestament_sbl |
 
 1. Payments profile (needed before anything can be sold).
