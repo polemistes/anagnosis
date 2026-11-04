@@ -102,3 +102,11 @@ As PLAN-drama.md "Steps for each play", with the play's slug `theogony`:
   hand analyses and 2 lemma fixes (Βριάρεως capitalised, Χείρων), plus two treebank errors the
   reviewer saw outside the list (116 γένετʼ was γενέτης, 282 ὅτʼ was ὅτι). Ten random verses
   compared with the page by eye: 109, 262, 273, 309, 328, 340, 854, 965, 976, 1000, all as printed.
+* **2026-11-04, step 8: no sections.** The Perseus TEI has only unlabelled "card" milestones, and
+  Paley's Epitome gives ranges with long descriptions ("1-35. The Muses after dancing on Mount
+  Helicon come by night to Hesiod and confer on him the gift of poetry …"), not titles: section
+  labels would be our own words. The Theogony ships without sections; the Epitome, in the
+  introduction, is its outline. Glossary: 120 names; 19 treebank lemmas that are misspelt or
+  garbled (Ι{ππώ, Ἀφροδ́ιτη, Καλλιπόη …) corrected in LEMMA_FIXES rather than aliased, so that the
+  reader finds their glossary entries; 426 οὐδʼ (οὐ+??) and 976 Ἀγαυὴν (Agave, not ἀγαυός) by hand.
+  `check`: every lemma found, every lemma glossed.

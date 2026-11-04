@@ -27,7 +27,7 @@ android {
         versionName = "0.6.0"
     }
     // the texts sold in the app, delivered by Google Play once bought (see packs/antigone)
-    assetPacks += listOf("antigone", "ajax", "electra", "odyssey", "symposium", "gorgias", "agamemnon", "choephoroi", "eumenides", "clouds", "newtestament").map { ":packs:$it" }
+    assetPacks += listOf("antigone", "ajax", "electra", "odyssey", "symposium", "gorgias", "agamemnon", "choephoroi", "eumenides", "clouds", "theogony", "newtestament").map { ":packs:$it" }
     packaging {
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
