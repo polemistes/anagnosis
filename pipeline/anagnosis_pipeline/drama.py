@@ -100,6 +100,9 @@ class Play:
     # check-text verses the edition does not print in its text (the Metis fragment, Theogony
     # 929a-929t, which Rzach keeps among the fragments): left out of the check text
     perseus_drop: tuple[str, ...] = ()
+    # the reading voice's pronunciation (grc.txt's "pronunciation" key: homeric, attic, koine);
+    # "" = the reader's default (Attic for every author but Homer)
+    pronunciation: str = ""
     # how a note begins in the commentary: the line number (group 1), a range end (group 2)
     note_start: str = r"^(?:l{1,2}\.\s*)?(\d{1,4})(?:\s*[-–—]\s*(\d{1,4}))?(?:\s*f{1,2}\.|\s*sqq?\.)?[.,:]?(?=\s|$)"
     speakers: dict[str, str] = field(default_factory=dict)   # the translation's names -> Greek (Perseus) names
@@ -294,6 +297,7 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          notes_scan="epicsofhesiodwit00hesiuoft", notes_layout="paley", app_bare_numbers=True, app_to_foot=True,
          ocr_fold={"ϑ": "θ", "ϱ": "ρ", "ϐ": "β", "ϰ": "κ"}, skel_fold="χκ", perseus_order="numeric",
          perseus_drop=tuple(f"929{c}" for c in "abcdefghijklmnopqrst"),
+         pronunciation="homeric",  # Hesiod's epic Ionic, as the Odyssey
          # Rzach: p = leaf - 10; the half-title p. 1 (leaf 11), the sigla ("Notae librorum") p. 2,
          # text pp. 3-50. Paley (notes scan, hidden leaves 118-119 and 272-273): the Theogony with
          # his commentary pp. 171-276 = leaves 223-328; the preface pp. v-xliv = leaves 11-50 and
@@ -1104,6 +1108,8 @@ def merge_play(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path
     }
     if play.syntax_automatic:
         meta["syntax"] = "automatic"
+    if play.pronunciation:
+        meta["pronunciation"] = play.pronunciation
     doc = Document(meta=meta)
     for i, (kind, a, b) in enumerate(items):
         for s in before.get(i, []):

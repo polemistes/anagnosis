@@ -4,6 +4,7 @@
 # source: Hesiodi carmina, recensuit Aloisius Rzach, Leipzig, B. G. Teubner, 1908; read from the Internet Archive scan hesiodicarminare00hesi by OCR, matched word by word to the Perseus Digital Library text (tlg0020.tlg001.perseus-grc2), and checked against the scan where the two disagreed
 # edition: Hesiodi carmina, recensuit Aloisius Rzach, Leipzig, B. G. Teubner, 1908
 # license: CC BY-SA 4.0 (transcription; the edition is in the public domain)
+# pronunciation: homeric
 
 1	Μουσάων Ἑλικωνιάδων ἀρχώμεθʼ ἀείδειν,
 2	αἵθʼ Ἑλικῶνος ἔχουσιν ὄρος μέγα τε ζάθεόν τε
