@@ -113,12 +113,15 @@ def _region(play: Play, kind: str, leaf: int, lines: list[dict], size: tuple[int
         def crosses(l: dict) -> bool:
             return l["bbox"][0] < mid0 - 0.04 * W and l["bbox"][2] > mid0 + 0.04 * W
 
+        found = short_rules(scan_dirs(play.scan_for(kind))[1] / "pages" / f"leaf_{leaf:04d}.png")
         seq = sorted(body, key=lambda l: l["bbox"][1])
         start = next((i for i in range(len(seq)) if not any(crosses(l) for l in seq[i:i + 4])
                       and len(seq[i:i + 4]) == 4), None)
         limit = seq[start]["bbox"][1] if start is not None else H
         cross = [l for l in seq if crosses(l) and l["bbox"][1] < limit]
         top = (max(l["bbox"][3] for l in cross) + 2) if cross else 0
+        if found:
+            top = max(top, found[-1] + 5)  # under Paley's last short rule, and under his bands
     body = [l for l in body if l["bbox"][1] >= top]
     if not body:
         return [], 0
@@ -152,6 +155,29 @@ def _region(play: Play, kind: str, leaf: int, lines: list[dict], size: tuple[int
         l["region"] = ("left" if (l["bbox"][0] + l["bbox"][2]) / 2 < mid else "right") if two else "one"
     order = sorted(body, key=lambda l: ({"left": 0, "one": 0, "right": 1}[l["region"]], l["bbox"][1]))
     return order, mid
+
+
+def short_rules(png: Path, upto: float = 0.8) -> list[int]:
+    """The short rules centred on the page (Paley's, under his text and under his bands), as the
+    y of each: a row whose ink is one dense run between 5 % and 30 % of the page's width, its
+    middle within a tenth of the page's middle, in the upper part of the page."""
+    from PIL import Image
+
+    with Image.open(png) as im:
+        g = im.convert("L")
+        W, H = g.size
+        px = g.load()
+        out: list[int] = []
+        for y in range(int(0.05 * H), int(upto * H)):
+            xs = [x for x in range(0, W, 2) if px[x, y] < 170]
+            if not xs:
+                continue
+            span = xs[-1] - xs[0]
+            if 0.05 * W < span < 0.3 * W and len(xs) * 2 > 0.8 * span \
+                    and abs((xs[0] + xs[-1]) / 2 - W / 2) < 0.1 * W:
+                if not out or y - out[-1] > 8:
+                    out.append(y)
+        return out
 
 
 def _join_lines(texts: list[str]) -> str:

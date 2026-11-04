@@ -156,6 +156,19 @@ columns, add them from the column image.
   Works and Days. Quotation marks are his ‘ ’, “ ”.
 * Where Paley's lemma reads otherwise than Rzach's text (he prints a digamma, ϝ, or another
   reading), copy Paley's Greek as printed; the merge files the note under the line he numbers.
+* **Check the structure on every page against the column images**: the draft makes a false
+  heading wherever a printed line inside running text begins with a number ("… or with v. |
+  74 …" became `## 22-74`, "… tertia usque ad v. | 115 …" became `## 115`): put the number back
+  into the text, joined to the paragraph it belongs to. A real note begins a paragraph with the
+  number and a stop at the left edge of the column. Check too that the paragraphs stand in the
+  print's order (left column top to bottom, then right column) and that a paragraph running
+  from the foot of the left column to the top of the right is one paragraph.
+* Paley's Greek in small type is often read as Latin letters by Tesseract (kal for καὶ, 6 for ὁ,
+  k.T.A. for κ.τ.λ.): correct every such word from the image even if it is not flagged.
+* The *Preface* (`intro-NN.md`, pp. v-xliv): heading `# Preface`; Paley's own section headings,
+  if any, as `## …`; footnotes `[Note: ¹ …]`; his quotations of Greek verse on their own lines
+  with ` | `. Keep his digamma signs as printed (ϝ, written with the Greek digamma, or F where
+  he prints a Latin F).
 * The *Epitome* (`intro-NN.md`, pp. 167-170): one paragraph per printed paragraph; the ranges
   ("1—115. Introduction. 1—35. The Muses …") stay in the running text with plain hyphens
   (1-115); the essay that follows is ordinary paragraphs; footnotes as `[Note: ¹ …]`. Heading:

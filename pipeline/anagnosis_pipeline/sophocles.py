@@ -89,9 +89,10 @@ FORM_FIXES = {
 WRONG_LEMMAS = {"διά+δίαιτα"}
 
 
-def read_agdt(path: Path) -> list[dict]:
+def read_agdt(path: Path, book_cites: bool = False) -> list[dict]:
     """An AGDT treebank: every word (artificial nodes and punctuation included, is_word False),
-    with the line it cites (the last citation carried forward)."""
+    with the line it cites (the last citation carried forward). A citation "15.2" is part 2 of
+    line 15 (Sophocles); with `book_cites` it is line 2 of book 15 (Hesiod's "1.120": line 120)."""
     from lxml import etree
 
     out = []
@@ -104,7 +105,7 @@ def read_agdt(path: Path) -> list[dict]:
                 current = cite.rsplit(":", 1)[-1]
                 m = re.match(r"^(\d+)\.(\d+)$", current)
                 if m:
-                    current = m.group(1) + "abcdefgh"[int(m.group(2))]
+                    current = m.group(2) if book_cites else m.group(1) + "abcdefgh"[int(m.group(2))]
             form = greek.nfc(w.get("form", ""))
             out.append({
                 "sentence": sent.get("id"), "word_id": w.get("id"), "form": form,

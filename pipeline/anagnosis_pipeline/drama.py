@@ -1206,7 +1206,7 @@ def _tokens(play: Play, doc, sources: Path, out: Path, lexicon: Path, build: Pat
     from .odyssey_merge import Analyser, Frequencies, choose_analysis
     from .sophocles import read_agdt, read_glaux_lines
 
-    tb = read_agdt(sources / "treebanks" / play.treebank) if play.treebank else read_glaux_lines(sources / "glaux" / play.glaux)
+    tb = read_agdt(sources / "treebanks" / play.treebank, play.treebank.startswith("tlg0020.")) if play.treebank else read_glaux_lines(sources / "glaux" / play.glaux)
     rows, _warnings = align(doc, tb, keep_tb_form=True)
     analyse = Analyser(lexicon)
     freq = Frequencies(sources / "treebanks")
@@ -1262,7 +1262,8 @@ def _translation(play: Play, sources: Path, out: Path, lines: list[tuple[str, st
             "source": play.trans_edition, "license": play.trans_license}
     eng: list[str] = []
     if play.translation == "perseus":
-        rows = perseus_translation(sources / play.trans_file)
+        # verses the edition does not print (Play.perseus_drop) have no translation either
+        rows = [r for r in perseus_translation(sources / play.trans_file) if r[0] not in play.perseus_drop]
         nmap = perseus_number_map(lines, pers)
         order = {n: i for i, (n, _t) in enumerate(lines)}
         meta["source"] = f"Perseus Digital Library, {Path(play.trans_file).stem}: {play.trans_edition}; its line numbers mapped to the edition's"
