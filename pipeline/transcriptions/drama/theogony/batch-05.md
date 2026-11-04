@@ -2,7 +2,7 @@
 --- text
 483	ἄντρῳ ἐν ἠλιβάτῳ, ζαθέης ὑπὸ κεύθεσι γαίης,
 484	Αἰγαίῳ ἐν ὄρει πεπυκασμένῳ ὑλήεντι.
-485	τῷ δὲ σπαργανίσασα μέγαν λίθον ἐγγυάλιξεν
+485	τᾷ δὲ σπαργανίσασα μέγαν λίθον ἐγγυάλιξεν
 486	Οὐρανίδῃ μέγʼ ἄνακτι, θεῶν προτέρῳ βασιλῆι.
 487	τὸν τόθʼ ἑλὼν χείρεσσιν ἑὴν ἐσκάτθετο νηδὺν
 488	σχέτλιος· οὐδʼ ἐνόησε μετὰ φρεσίν, ὥς οἱ ὀπίσσω
@@ -14,21 +14,41 @@
 494	Γαίης ἐννεσίῃσι πολυφραδέεσσι δολωθεὶς
 495	ὃν γόνον ἄψ ἀνέηκε μέγας Κρόνος ἀγκυλομήτης
 496	[νικηθεὶς τέχνῃσι βίηφί τε παιδὸς ἑοῖο.]
-497	πρῶτον δʼ ἐξέμεσεν λίθον, ὃν πύματον κατέπινεν·
+497	πρῶτον δʼ ἐξείμεσσε λίθον, πύματον καταπίνων·
 498	τὸν μὲν Ζεὺς στήριξε κατὰ χθονὸς εὐρυοδείης
 499	Πυθοῖ ἐν ἠγαθέῃ γυάλοις ὕπο Παρνησοῖο
 500	σῆμʼ ἔμεν ἐξοπίσω, θαῦμα θνητοῖσι βροτοῖσιν.
-501	λῦσε δὲ πατροκασιγνήτους ὀλοῶν ὑπὸ δεσμῶν
+501	[λῦσε δὲ πατροκασιγνήτους ὀλοῶν ὑπὸ δεσμῶν
 502	Οὐρανίδας, οὓς δῆσε πατὴρ ἀεσιφροσύνῃσιν·
 503	οἳ οἱ ἀπεμνήσαντο χάριν ἐυεργεσιάων,
 --- apparatus
+484	αἰγείῳ Salmasius (Αἰγείῳ Wilamowitz)
+487	εεῖν C
+487	ἐσκάτθετο Ωa, ἐς κάτθεο (τ m. rec. superscr. L) Ψ, ἐγκάτθετο (ἐγκατέθετο HI) Ωbc
+489	λίθοιʼ v. Leeuwen
+491	ἐξελάειν D, ἐξελάαν Ωbc (superscr. σαι m. al. HI) Ψ, εξαλάαν C
+491	ἰδʼ ἐν? idem suasit Peppmüller
+491	ἀέξειν ΩbK, in ἀνάξειν mut. L
+493	ἐπιπλομένου δʼ ἐνιαυτοῦ CΩb schol.
+494	χολωθεὶς Ψ
+495	ἀγκυλόμητις F
+496	reiecit Heyne
+497	ἐξέμεσεν λίθον, ὃν πύματον κατέπινεν Peppmüller
+497	ἐξείμεσσε (ἐξεϝέμεσσε) Fick, ἐξήμεσσε Hermann, ἐξήμεσε cod. Laur. LXXXXI sup. 10, superscr. η Casanat. 356; ἐξήμησε ΩΨ
+497	καταπιών Goettling et Fick
+499	παρνησσοῖο ΩbG Apoll. Lex. v. γύαλον
+501-506	resecuit Wolf
+501	ὑπὸ Ωbc, ἀπὸ DΨ
 --- notes
+485	the print clearly has τᾷ (alpha with circumflex and iota subscript), not Perseus's τῷ; written as printed (no apparatus note; possibly a misprint)
+497	the print reads ἐξείμεσσε λίθον, πύματον καταπίνων· (no ὃν); Perseus's ἐξέμεσεν … ὃν … κατέπινεν is Peppmüller's, cited in the apparatus
+501	the print opens a square bracket before λῦσε (501—506 resecuit Wolf); it closes on p-0038
 
 === p-0038
 --- text
 504	δῶκαν δὲ βροντὴν ἠδʼ αἰθαλόεντα κεραυνὸν
 505	καὶ στεροπήν· τὸ πρὶν δὲ πελώρη Γαῖα κεκεύθει·
-506	τοῖς πίσυνος θνητοῖσι καὶ ἀθανάτοισιν ἀνάσσει.
+506	τοῖς πίσυνος θνητοῖσι καὶ ἀθανάτοισι ἀνάσσει.]
 507	Κούρην δʼ Ἰαπετὸς καλλίσφυρον Ὠκεανίνην
 508	ἠγάγετο Κλυμένην καὶ ὁμὸν λέχος εἰσανέβαινεν.
 509	ἣ δέ οἱ Ἄτλαντα κρατερόφρονα γείνατο παῖδα·
@@ -47,19 +67,24 @@
 522	δεσμοῖς ἀργαλέοισι μέσον διὰ κίονʼ ἐλάσσας·
 523	καί οἱ ἐπʼ αἰετὸν ὦρσε τανύπτερον· αὐτὰρ ὅ γʼ ἧπαρ
 524	ἤσθιεν ἀθάνατον, τὸ δʼ ἀέξετο ἶσον ἁπάντη
-525	νυκτός ὅσον πρόπαν ἦμαρ ἔδοι τανυσίπτερος ὄρνις.
+525	νυκτός, ὅσον πρόπαν ἦμαρ ἔδοι τανυσίπτερος ὄρνις.
 526	τὸν μὲν ἄρʼ Ἀλκμήνης καλλισφύρου ἄλκιμος υἱὸς
 527	Ἡρακλέης ἔκτεινε, κακὴν δʼ ἀπὸ νοῦσον ἄλαλκεν
 528	Ἰαπετιονίδῃ καὶ ἐλύσατο δυσφροσυνάων
 529	οὐκ ἀέκητι Ζηνὸς Ὀλυμπίου ὑψιμέδοντος,
 --- apparatus
+521	δήσας Herodianus περὶ διχρ. II 7, 24 L. Choeroboscus schol. Theod. I 123, 12 H.; unde aliquid ante 521 intercidisse censuit Muetzell al.; Ζεὺς | δήσας — ἀργαλέοισι, μέσον κτλ. Hermann, δήσας . . . ἔλασσεν Ludwich Herodianum legisse arbitrati sunt
+525	ἔδει ΩbΨ
+526-534	removebat Francken
 --- notes
+506	the print reads ἀθανάτοισι (no ν) and closes the square bracket opened at 501 after ἀνάσσει.
+525	the print has a comma after νυκτός
 
 === p-0039
 --- text
 530	ὄφρʼ Ἡρακλῆος Θηβαγενέος κλέος εἴη
 531	πλεῖον ἔτʼ ἢ τὸ πάροιθεν ἐπὶ χθόνα πουλυβότειραν.
-532	ταῦτʼ ἄρα ἁζόμενος τίμα ἀριδείκετον υἱόν·
+532	ταῦτά γʼ ἄρʼ ἁζόμενος τίμα ἀριδείκετον υἱόν·
 533	καί περ χωόμενος παύθη χόλου, ὃν πρὶν ἔχεσκεν,
 534	οὕνεκʼ ἐρίζετο βουλὰς ὑπερμενέι Κρονίωνι.
 535	καὶ γὰρ ὅτʼ ἐκρίνοντο θεοὶ θνητοί τʼ ἄνθρωποι
@@ -79,9 +104,30 @@
 549	τῶν δʼ ἕλεʼ, ὁπποτέρην σε ἐνὶ φρεσὶ θυμὸς ἀνώγει.
 550	Φῆ ῥα δολοφρονέων· Ζεὺς δʼ ἄφθιτα μήδεα εἰδὼς
 551	γνῶ ῥʼ οὐδʼ ἠγνοίησε δόλον· κακὰ δʼ ὄσσετο θυμῷ
-552	θνητοῖς ἀνθρώποισι, τὰ καὶ τελέεσθαι ἔμελλεν. χερσὶ δʼ ὅ γʼ ἀμφοτέρῃσιν ἀνείλετο λευκὸν ἄλειφαρ.
+552	θνητοῖς ἀνθρώποισι, τὰ καὶ τελέεσθαι ἔμελλεν.
+553	χερσὶ δʼ ὅ γʼ ἀμφοτέρῃσιν ἀνείλετο λευκὸν ἄλειφαρ.
 --- apparatus
+530	Θηβαιγενέος Valckenaer
+532	ταῦτά γʼ ἄρʼ scripsi, ταῦτʼ ἄρʼ DΩbGΨ, ταῦτʼ ἄρα HI, ταῦτʼ ἄρʼ ὅ γʼ Hermann
+533	χόλον Ωc
+537	προέθηκε scripsi, προύθηκε libri
+537	Διὸς in ras. L, ζηνὸς ΩK
+538	τοῖς Schoemann, τῷ codd., τῇ Guyet, τοῖ Menrad
+538	πίονα Schoemann, πίονι codd.
+540	τῇ Guyet, τοῖ Menrad
+543	removet Lisco
+543	περιδείκετʼ Ψ
+546	ἀγκυλόμητις F
+548	Ζεὺς I
+549	δʼ om. L
+549	ἕλεʼ Nauck, ἕλεν codd.
+549	γε ἐνὶ D
+550-552	reiecerunt Gruppe alii
+552	ἔμελλον Aristarchus? (cf. schol. Hom. Β 36)
+553	ἄλειφα H m¹ (ρ m. al. add.) I Et. gen. s. v.
 --- notes
+532	the print reads ταῦτά γʼ ἄρʼ (Rzach's conjecture, apparatus: scripsi), not Perseus's ταῦτʼ ἄρα
+553	the draft had this verse joined to 552 (OCR missed it); split off as printed, the last verse of the page
 
 === p-0040
 --- text
@@ -94,10 +140,10 @@
 560	ὦ πέπον, οὐκ ἄρα πω δολίης ἐπιλήθεο τέχνης.
 561	ὣς φάτο χωόμενος Ζεὺς ἄφθιτα μήδεα εἰδώς·
 562	ἐκ τούτου δὴ ἔπειτα δόλου μεμνημένος αἰεὶ
-563	οὐκ ἐδίδου Μελίῃσι πυρὸς μένος ἀκαμάτοιο
+563	οὐκ ἐδίδου μελίῃσι πυρὸς μένος ἀκαμάτοιο
 564	θνητοῖς ἀνθρώποις, οἳ ἐπὶ χθονὶ ναιετάουσιν.
 565	ἀλλά μιν ἐξαπάτησεν ἐὺς πάις Ἰαπετοῖο
-566	κλέψας ἀκαμάτοιο πυρὸς τηλέσκοπον. αὐγὴν
+566	κλέψας ἀκαμάτοιο πυρὸς τηλέσκοπον αὐγὴν
 567	ἐν κοΐλῳ νάρθηκι· δάκεν δέ ἑ νειόθι θυμόν,
 568	Ζῆνʼ ὑψιβρεμέτην, ἐχόλωσε δέ μιν φίλον ἦτορ,
 569	ὡς ἴδʼ ἐν ἀνθρώποισι πυρὸς τηλέσκοπον αὐγήν.
@@ -108,7 +154,23 @@
 574	ἀργυφέη ἐσθῆτι· κατὰ κρῆθεν δὲ καλύπτρην
 575	δαιδαλέην χείρεσσι κατέσχεθε, θαῦμα ἰδέσθαι·
 --- apparatus
+554	φρένας, ἀμφὶ δέ μιν (δέ μιν m² superscr. E) DΩb
+554	θυμῷ DΩbΨ
+555	βοὸς δολίῃ ἐνὶ τέχνῃ HI, θυηέντων ἐπὶ βωμῶν G, quod etiam D exhibet posthac deletum, m¹ in marg. addito βοὸς δολίῃ ἐπὶ τέχνῃ
+559	removet Lisco
+560	ἐπελήθεο ΩbHI
+563	μελίῃσι DEΩc, cf. quae dixi ZfdöG. 1898 p. 26; μελίοισι FΨ, μελίηφι Bergk, qui antea Μελίῃσι e schol. coniecit; μελέοισι H. Stephanus
+567	δέ ἑ νειόθι] ἑ ex οἱ rest. D, δεοινειόθι G, δέ οἱ νειόθει (νειόθε I) HI, δʼ ἄρα νειόθι ΩbΨ
+569	ἴδʼ ἐν D, ἴδʼ Ωb, ἴδεν ΩcΨ
+569	τηλεσκόπον Ψ
+570-612	interpolatos esse aliquot versibus post 569 omissis censet Lisco
+573-584	proscripsit Seleucus
+575	κατέσχε FHI
 --- notes
+563	the print has lower-case μελίῃσι (Rzach's reading, apparatus 563), not Perseus's Μελίῃσι
+566	the print has no stop after τηλέσκοπον (checked on the page; the draft's full stop came from Perseus)
+567	ἑ checked: printed on this line, rough breathing
+567	apparatus: in "δέ οἱ νειόθει (νειόθε I) HI" the print sets the ι above the final ε of νειόθε (a superscript letter); written on the line after it, as in the earlier batches. The "(δέ μιν" of 554 has a stray mark under μ, read as plain μιν
 
 === p-0041
 --- text
@@ -118,24 +180,47 @@
 579	τὴν αὐτὸς ποίησε περικλυτὸς Ἀμφιγυήεις
 580	ἀσκήσας παλάμῃσι, χαριζόμενος Διὶ πατρί.
 581	τῇ δʼ ἐνὶ δαίδαλα πολλὰ τετεύχατο, θαῦμα ἰδέσθαι,
-582	κνώδαλʼ, ὅσʼ ἤπειρος πολλὰ τρέφει ἠδὲ θάλασσα,
+582	κνώδαλʼ, ὅσʼ ἤπειρος πολλὰ τρέφει ἠδὲ θάλασσα·
 583	τῶν ὅ γε πόλλʼ ἐνέθηκε,—χάρις δʼ ἀπελάμπετο πολλή,—
-584	θαυμάσια, ζῴοισιν ἐοικότα φωνήεσσιν.
-585	αὐτὰρ ἐπεὶ δὴ τεῦξε καλὸν κακὸν ἀντʼ ἀγαθοῖο.
+584	θαυμάσια, ζῴοισι ἐοικότα φωνήεσσιν.
+585	αὐτὰρ ἐπεὶ δὴ τεῦξε καλὸν κακὸν ἀντʼ ἀγαθοῖο,
 586	ἐξάγαγʼ, ἔνθα περ ἄλλοι ἔσαν θεοὶ ἠδʼ ἄνθρωποι,
 587	κόσμῳ ἀγαλλομένην γλαυκώπιδος ὀβριμοπάτρης.
 588	θαῦμα δʼ ἔχʼ ἀθανάτους τε θεοὺς θνητούς τʼ ἀνθρώπους,
 589	ὡς εἶδον δόλον αἰπύν, ἀμήχανον ἀνθρώποισιν.
-590	ἐκ τῆς γὰρ γένος ἐστὶ γυναικῶν θηλυτεράων,
-591	[τῆς γὰρ ὀλώιόν ἐστι γένος καὶ φῦλα γυναικῶν,]
+590	[ἐκ τῆς γὰρ γένος ἐστὶ γυναικῶν θηλυτεράων,]
+591	τῆς γὰρ ὀλώιόν ἐστι γένος καὶ φῦλα γυναικῶν,
 592	πῆμα μέγʼ αἳ θνητοῖσι μετʼ ἀνδράσι ναιετάουσιν
 593	οὐλομένης πενίης οὐ σύμφοροι, ἀλλὰ κόροιο.
 594	ὡς δʼ ὁπότʼ ἐν σμήνεσσι κατηρεφέεσσι μέλισσαι
-595	κηφῆνας βόσκωσι, κακῶν ξυνήονας ἔργων—
+595	κηφῆνας βόσκωσι, κακῶν ξυνήονας ἔργων·
 596	αἳ μέν τε πρόπαν ἦμαρ ἐς ἠέλιον καταδύντα
 597	ἠμάτιαι σπεύδουσι τιθεῖσί τε κηρία λευκά,
 --- apparatus
+576	sq. uncis saepsit Wolf
+576	νεοθηλέος m¹ (alterum ο postea in α mut.) D, νεοθηλέας ΩbGHΨ, νεοθηλήας superscr. ει I
+576	ἄνθεσι m. rec. superscr. α H, ἄνθεσι libri cett.
+577	περίθηκε Hermann, παρέθηκε libri
+585	ἐπεὶ τεῦξεν καλὸν Hermann
+590	sqq. cf. ad Op. 90 sqq.
+590	sq. variae recensionis esse putavit Hermann, 590 eiecit Goettling, 591 Schoemann
+592	πῆμα μέγʼ αἳ Hermann (qui postea αἳ θνητοῖς μέγα πῆμα coniecit), πῆμα μέγα libri Stobaeus LXXIII 47 M.
+592	σὺν ἀνδράσι Stobaeus
+593	ἀλλʼ ἀκόρεστον superscr. οι m. rec. marg. H, ἀλλʼ ἀκόρεστοι Ωb, γρ. ἀλλὰ κόροιο m² marg. E
+594	ὁπότε Ωb, ὅταν ἐν schol. Theocrit. I 107
+595	βόσκωσι Ωb, βόσκουσι DΩcΨ
+595	ξυνήνορας (γρ. ξυνήνερας in marg. E) Ωb
+597	ἠμάτιον Ωb
 --- notes
+576	the print brackets 576-577 as the draft has them (576 sq. uncis saepsit Wolf)
+580	no square brackets on this line in the print (the OCR's bracket was noise); line unchanged
+582	the print ends the verse with a raised stop (θάλασσα·), not Perseus's comma
+583	checked: χάρις stands on this line, between the printed dashes; wording unchanged
+584	the print reads ζῴοισι (no ν)
+585	the print ends the verse with a comma (ἀγαθοῖο,), not a full stop
+590	the print sets 590 in square brackets, not 591 (apparatus: 590 eiecit Goettling, 591 Schoemann; Rzach brackets 590)
+591	no square brackets on this line in the print: removed
+595	the print ends the verse with a raised stop (ἔργων·), not a dash
 
 === p-0042
 --- text
@@ -158,6 +243,30 @@
 614	οὐδὲ γὰρ Ἰαπετιονίδης ἀκάκητα Προμηθεὺς
 615	τοῖό γʼ ὑπεξήλυξε βαρὺν χόλον, ἀλλʼ ὑπʼ ἀνάγκης
 616	καὶ πολύιδριν ἐόντα μέγας κατὰ δεσμὸς ἐρύκει.
-617	Βριάρεῳ δʼ ὡς πρῶτα πατὴρ ὠδύσσατο θυμῷ
+617	Ὀβριάρεῳ δʼ ὡς πρῶτα πατὴρ ὠδύσσατο θυμῷ
 --- apparatus
+600	ὣς δʼ αὔτως Stobaeus, ex ὡσαύτως rest. D, ὣς δʼ αὔτως Ψ, ὡσαύτως Ωbc
+600	γυναῖκα cod. Casanat. 356 Laur. LXXXXI sup. 10
+601	ξυνήονας m. rec. superscr. ρασ H, addito γρ. ξυνήνορας E, ξυνήορας F, ξυνήνορα cod. Casanat. 356 Laur. LXXXXI sup. 10
+602	λευγαλέων Stobaeus
+602	δʼ ἔπορεν DG, δʼ ἔπορε H
+603	κε μέγα superscr. γάμον E, καὶ γάμον Stobaei codd.
+604	εἰς Stobaeus
+604	ἵκοιτο Stobaeus (δὲ ἀποδοτικόν est), ἵκηται ΩΨ
+605	χήτεϊ Hermann, χήτει libri
+605	βιότου δʼ DΩcΨ, δʼ expulit Aldus, τʼ F, βιότοιʼ? Peppmüller
+606	ζώῃ G Stobaeus
+606	διὰ ζωὴν Stobaeus
+608	ἔσχετʼ Stobaeus·
+609	διʼ αἰῶνος Schoemann
+610	ἐμμενές Wopkens, ἔμμεναι libri
+612	ἔσται recensio x
+616	ἐρύκοι D
+617-719	a Titanomachiae compositore illatos esse censuit A. Meyer
+617	Ὀβριάρεῳ L. Dindorf, ὀβριάρεω, ut videtur m¹ D, ὁβριάρεω K, τῶ (in ras. m. alia) βριάρεω L, βριάρεω Ωbc, γρ. ὀμβριάρεω (postea del.) marg. E, ὃν βριάρεω schol. Hom. Townl. Α 403
 --- notes
+606	ζώει checked: ζ as printed (Tesseract's ξ); 611 likewise; 612 ἐστιν as printed, no accent
+617	the print reads Ὀβριάρεῳ (L. Dindorf's form, apparatus 617), not Perseus's Βριάρεῳ; the verse begins a new paragraph
+617	apparatus: the 617 item runs on to p-0043 (from "τῶ (in ras. m. alia)" to "Townl. Α 403"); written here, where it begins. τῶ is printed without iota subscript
+608	apparatus: a raised stop is printed after "Stobaeus" (608 ἔσχετʼ Stobaeus·); copied as printed
+612	apparatus: "recensio x" with a Latin x as printed

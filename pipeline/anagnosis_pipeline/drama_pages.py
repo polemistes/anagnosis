@@ -348,6 +348,9 @@ def page_layout(play: Play, leaf: int) -> dict:
     elif block and any(_item_number(w, play.app_bare_numbers, 0.85 * W) for l in block for w in l["words"]):
         app_y = max(0, min(l["bbox"][1] for l in block) - int(0.25 * H))
         app_end = min(limit, max(l["bbox"][3] for l in block) + int(0.4 * H))
+        if play.app_to_foot:
+            app_end = max([app_end] + [l["bbox"][3] + int(0.3 * H) for l in lines
+                                       if l["bbox"][1] > app_y and l["bbox"][3] <= limit])
     text_lines = [l for l in body if (app_y is None or (l["bbox"][1] + l["bbox"][3]) / 2 < app_y)
                   and (rule is None or l["bbox"][3] < rule)]
     # split boxes that hold two printed lines; drop accents read as lines of their own

@@ -82,6 +82,9 @@ class Play:
     app_langs: tuple[str, str] = ("grc+lat", "lat+grc")
     # the apparatus items' numbers stand without a stop (Rzach: "215 ἧς scripsi")
     app_bare_numbers: bool = False
+    # the apparatus crop runs to the foot of the page (Rzach: a last line Tesseract reads too badly
+    # to count as print would otherwise fall outside it)
+    app_to_foot: bool = False
     # the commentary's region on a page of the notes scan: "" = as the layout says; "paley" = the
     # two columns under the text and Paley's bands (everything below the last line that crosses
     # the page's middle)
@@ -288,14 +291,14 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          trans_license="CC BY-SA 4.0 (Perseus Digital Library)",
          notes_editor="paley", notes_editor_name="F. A. Paley",
          notes_edition="The Epics of Hesiod, with an English commentary by F. A. Paley, second edition, revised, London, Whittaker, 1883",
-         notes_scan="epicsofhesiodwit00hesiuoft", notes_layout="paley", app_bare_numbers=True,
+         notes_scan="epicsofhesiodwit00hesiuoft", notes_layout="paley", app_bare_numbers=True, app_to_foot=True,
          ocr_fold={"ϑ": "θ", "ϱ": "ρ", "ϐ": "β", "ϰ": "κ"}, skel_fold="χκ", perseus_order="numeric",
          perseus_drop=tuple(f"929{c}" for c in "abcdefghijklmnopqrst"),
          # Rzach: p = leaf - 10; the half-title p. 1 (leaf 11), the sigla ("Notae librorum") p. 2,
          # text pp. 3-50. Paley (notes scan, hidden leaves 118-119 and 272-273): the Theogony with
-         # his commentary pp. 171-276 = leaves 223-328; the preface pp. iii-xliv and the "Epitome
-         # of the Theogony" pp. 167-170 = leaves 219-222 (step 7 settles the preface's leaves)
-         text_leaves=[(13, 60)], sigla_leaves=[12], notes_leaves=[(223, 328)], intro_leaves=[(219, 222)]),
+         # his commentary pp. 171-276 = leaves 223-328; the preface pp. v-xliv = leaves 11-50 and
+         # the "Epitome of the Theogony" pp. 167-170 = leaves 219-222
+         text_leaves=[(13, 60)], sigla_leaves=[12], notes_leaves=[(223, 328)], intro_leaves=[(11, 50), (219, 222)]),
 ]}
 
 

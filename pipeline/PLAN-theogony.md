@@ -17,7 +17,7 @@ step saves to disk as it goes and can be run again.
 | syntax | AGDT tlg0020.tlg001.perseus-grc1.tb.xml, hand-made and fully second-annotated (8,234 words), aligned to Rzach's words |
 | translation | H. G. Evelyn-White (Loeb 1914), Perseus tlg0020.tlg001.perseus-eng2, by line; his footnotes are left out as for every Perseus translation |
 | commentary | F. A. Paley, The Epics of Hesiod, 2nd ed., London, Whittaker, 1883 (d. 1888). Scan epicsofhesiodwit00hesiuoft (Toronto, 400 ppi, jp2; hidden leaves 118-119 and 272-273): the Theogony pp. 171-276 = leaves 223-328, each page Paley's text, a digamma band, his critical notes, then his commentary in two columns. Only the commentary is used |
-| introduction | Paley's "Epitome of the Theogony" (pp. 167-170 = leaves 219-222: a summary by line ranges and a page on the poem's date and growth); whether his general preface (pp. iii-xliv, mostly on the Works and Days and the digamma) is added is settled at step 7 |
+| introduction | Paley's preface in full (pp. v-xliv = leaves 11-50: Hesiod and Homer, the authenticity of the poems, his manuscripts, the digamma) and his "Epitome of the Theogony" (pp. 167-170 = leaves 219-222: a summary by line ranges and a page on the poem's date and growth) |
 | slug, product | `theogony`, Θεογονία, product id `hesiod_theogony_rzach`, €3, google_play: yes |
 
 * **Same edition for text and apparatus**: Rzach's text and Latin apparatus ship. Paley's own
@@ -79,3 +79,8 @@ As PLAN-drama.md "Steps for each play", with the play's slug `theogony`:
   apparatus found on all 48 pages. Eight verses are missing from the draft (37, 38, 407, 426,
   434, 553, 631, 745): Tesseract read only their accents (Rzach's accents stand high), so their
   words hang on the verse above, flagged "not found … guess"; the agents split them off.
+* **2026-11-04, the introduction.** Paley's preface (pp. v-xliv) is the edition's introduction to
+  all three poems; the brief's rule is the editor's introduction in full, so it goes in whole
+  (about Hesiod and Homer, the Theogony's authenticity, Paley's fourteen manuscripts, a long
+  essay on the digamma), followed by the Epitome of the Theogony. Seen on page images n10 (p. v,
+  leaf 11) and n49 (p. xliv, leaf 50); leaf 51 is the half-title of the Works and Days.
