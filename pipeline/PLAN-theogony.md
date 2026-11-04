@@ -55,7 +55,9 @@ As PLAN-drama.md "Steps for each play", with the play's slug `theogony`:
 
 - [x] Step 2: leaves (2026-11-04)
 - [x] Step 3: draft (2026-11-04): 48 pages, 1014 verses, 190 flagged (19 %), eight batches
-- [ ] 4 · 5 · 6 · 7 · 8 · 9
+- [x] Step 4: text and apparatus (2026-11-04): eight batches, then the residual pass
+- [x] Step 5: merge (2026-11-04): 1022 verses, 642 apparatus items under 468 lines, 6922 words, all with lemmas
+- [ ] 6 · 7 · 8 · 9
 
 ## Decisions
 
@@ -84,3 +86,19 @@ As PLAN-drama.md "Steps for each play", with the play's slug `theogony`:
   (about Hesiod and Homer, the Theogony's authenticity, Paley's fourteen manuscripts, a long
   essay on the digamma), followed by the Epitome of the Theogony. Seen on page images n10 (p. v,
   leaf 11) and n49 (p. xliv, leaf 50); leaf 51 is the half-title of the Works and Days.
+* **2026-11-04, step 4.** Rzach himself transposes four verses, with his margin numbers beside
+  them: 408 before 407, 427 before 426, 434 before 430-433 (Evelyn-White follows him there), 631
+  before 630; the text keeps his order and `check` warns of it. The check text's numeric order
+  (step 3) was therefore right except at those places, where the agents followed the page. Crates'
+  variant verse 142b, which Rzach prints apart below 146 between rules, is a `!` line after 146.
+  On twelve pages the apparatus crop stopped a line short of the page foot (a last line Tesseract
+  read too badly to count as print): `Play.app_to_foot` makes the crop run to the foot; the
+  residual agents compared every page's apparatus end with the print and found nothing missing
+  (the first round had read those lines from the whole page). Papyrus capitals: the lunate
+  epsilon written Ε, the lunate sigma C, as the brief says.
+* **2026-11-04, step 5.** The Hesiod treebank cites its lines as book.line ("1.120"):
+  `read_agdt(…, book_cites=True)` for tlg0020. Evelyn-White's translation of the Metis fragment
+  (Perseus 929a-929t) is left out with the verses (`perseus_drop`). Review list 128 words: 16
+  hand analyses and 2 lemma fixes (Βριάρεως capitalised, Χείρων), plus two treebank errors the
+  reviewer saw outside the list (116 γένετʼ was γενέτης, 282 ὅτʼ was ὅτι). Ten random verses
+  compared with the page by eye: 109, 262, 273, 309, 328, 340, 854, 965, 976, 1000, all as printed.
