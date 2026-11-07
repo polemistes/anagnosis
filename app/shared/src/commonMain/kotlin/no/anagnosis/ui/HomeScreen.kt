@@ -24,6 +24,7 @@ import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.Checkbox
 import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.OutlinedCard
@@ -56,9 +57,10 @@ val CONTENT_MAX_WIDTH = 640.dp
 /**
  * The front page: what the app is (a box that can be put away), the dictionary and word
  * analysis, the texts installed, and the way to the texts on sale. Without a text the app is a
- * dictionary and analyser. A text's title opens out to the books it comes from and the way into
- * it (`expanded` is its slug). While something is typed in the search field, the page holds the
- * search and its results alone, with a Close button that empties the field.
+ * dictionary and analyser. A text's title opens the text; the arrow beside it opens the card out
+ * to the books the text comes from and its credits (`expanded` is its slug). While something is
+ * typed in the search field, the page holds the search and its results alone, with a Close button
+ * that empties the field.
  */
 @Composable
 fun HomeScreen(
@@ -239,7 +241,10 @@ internal fun fullTitle(entry: CatalogEntry): String {
     return if (author.isEmpty()) title else "$title by $author"
 }
 
-/** An installed text: its title, which opens out to the books it comes from and the way into it. */
+/**
+ * An installed text: its title, which opens the text where it was left, and an arrow at the right,
+ * which opens the card out to the books the text comes from, Read this text and its credits.
+ */
 @Composable
 private fun TextCard(
     entry: CatalogEntry,
@@ -250,13 +255,16 @@ private fun TextCard(
     modifier: Modifier = Modifier,
 ) {
     Card(modifier.animateContentSize()) {
-        Row(Modifier.fillMaxWidth().clickable(onClick = onToggle).padding(16.dp), verticalAlignment = Alignment.CenterVertically) {
-            Text(fullTitle(entry), style = MaterialTheme.typography.titleMedium, modifier = Modifier.weight(1f))
-            Icon(
-                if (open) Icons.Filled.KeyboardArrowUp else Icons.Filled.KeyboardArrowDown,
-                contentDescription = if (open) "Less" else "More",
-                tint = MaterialTheme.colorScheme.onSurfaceVariant,
-            )
+        // the arrow is a button of its own, so a tap on it does not also open the text
+        Row(Modifier.fillMaxWidth().clickable(onClick = onRead).padding(start = 16.dp, end = 4.dp, top = 4.dp, bottom = 4.dp), verticalAlignment = Alignment.CenterVertically) {
+            Text(fullTitle(entry), style = MaterialTheme.typography.titleMedium, modifier = Modifier.weight(1f).padding(vertical = 12.dp))
+            IconButton(onClick = onToggle) {
+                Icon(
+                    if (open) Icons.Filled.KeyboardArrowUp else Icons.Filled.KeyboardArrowDown,
+                    contentDescription = if (open) "Less about this text" else "More about this text",
+                    tint = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+            }
         }
         if (open) {
             Column(Modifier.fillMaxWidth().padding(start = 16.dp, end = 16.dp, bottom = 12.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {

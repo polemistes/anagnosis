@@ -22,6 +22,8 @@ enum class LineNumberMode(val label: String) { ALL("All"), FIFTH("Every 5th"), N
 data class ReaderSettings(
     val font: FontChoice = FontChoice.SYSTEM,
     val fontSize: Int = 17,
+    /** The widest a column of text is set, in characters of Greek at the chosen size (so it grows with the text). */
+    val lineLength: Int = 65,
     val theme: ColorTheme = ColorTheme.SYSTEM,
     val lineNumbers: LineNumberMode = LineNumberMode.FIFTH,
     /** End a Greek page early when its translation would not fit on one screen. */
@@ -62,6 +64,10 @@ data class ReaderSettings(
     companion object {
         const val MIN_SIZE = 13
         const val MAX_SIZE = 26
+        const val MIN_LINE_LENGTH = 40
+        const val MAX_LINE_LENGTH = 100
+        /** The slider moves the line length in steps of this many characters. */
+        const val LINE_LENGTH_STEP = 5
         const val MIN_SPEED = 50
         const val MAX_SPEED = 200
     }

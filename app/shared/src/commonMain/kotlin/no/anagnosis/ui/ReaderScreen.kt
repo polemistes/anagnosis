@@ -145,8 +145,12 @@ import no.anagnosis.prefs.ReaderSettings
 /** What the page shows. `BOTH` (Greek and translation side by side) is offered on wide screens only. */
 enum class ViewMode(val label: String) { GREEK("Greek"), TRANSLATION("English"), BOTH("Both") }
 
-/** A text column is never wider than this: about 80 characters of prose, or the longest verse at the largest size. */
-private val MAX_COLUMN = 580.dp
+/**
+ * A column of text is never wider than the reader's line length (`ReaderSettings.lineLength`) in
+ * characters of Greek at the current size, so that it grows and shrinks with the text instead of
+ * holding a width in pixels. The average character is measured on this run of prose.
+ */
+private const val LINE_SAMPLE = "δοκῶ μοι περὶ ὧν πυνθάνεσθε οὐκ ἀμελέτητος εἶναι. καὶ γὰρ ἐτύγχανον πρῴην εἰς ἄστυ οἴκοθεν ἀνιὼν Φαληρόθεν, τῶν οὖν γνωρίμων τις ὄπισθεν κατιδών με πόρρωθεν ἐκάλεσε."
 /** The space between the Greek and the translation when they are shown side by side. */
 private val COLUMN_GAP = 40.dp
 /** Windows at least this wide can show the two columns next to each other (a phone held sideways is). */
@@ -788,9 +792,15 @@ fun ReaderScreen(
             val horizontal = 20.dp
             val vertical = 12.dp
             // The text sits in a column of readable width, centred; side by side, each column gets half.
+            // The width is held to the chosen line length, counted in characters of Greek at the size in use.
             val available = maxWidth - horizontal * 2
             val sideBySide = mode == ViewMode.BOTH
-            val columnWidth = (if (sideBySide) (available - COLUMN_GAP) / 2 else available).coerceAtMost(MAX_COLUMN)
+            fun columnFor(s: Styles): Dp {
+                val sample = measurer.measure(LINE_SAMPLE, s.greek).size.width.toFloat() / LINE_SAMPLE.length
+                val limit = with(density) { (sample * settings.lineLength).toDp() }
+                return (if (sideBySide) (available - COLUMN_GAP) / 2 else available).coerceAtMost(limit)
+            }
+            val columnWidth = columnFor(styles)
             val widthPx = with(density) { columnWidth.roundToPx() }
             val heightPx = with(density) { (maxHeight - vertical * 2).roundToPx() }
             // With numbers on every line, reserve a column for them so the text wraps around it.
@@ -834,17 +844,20 @@ fun ReaderScreen(
             }
             // Live preview during a pinch: only the current page, re-laid out at the previewed size.
             val previewStyles = pinchSize?.let { size -> stylesFor(typography, base, family, (size + 0.5f).toInt()) }
+            // the column widens or narrows with the previewed size, as it will when the size is committed
+            val previewColumn = previewStyles?.let { columnFor(it) } ?: columnWidth
+            val previewWidthPx = with(density) { previewColumn.roundToPx() }
             val previewPage = if (previewStyles != null && pages.isNotEmpty()) {
                 val page = pageAt(pagerState.currentPage)
                 val first = page?.rows?.firstOrNull()
                 val startIdx = if (first != null) rows.indexOfFirst { it === first } else -1
                 if (startIdx >= 0) {
                     val enHeights = if (settings.fitTranslation && translation != null) {
-                        translationHeights(bookSegments, bookLines, measurer, previewStyles, widthPx, density, data::lineLabel)
+                        translationHeights(bookSegments, bookLines, measurer, previewStyles, previewWidthPx, density, data::lineLabel)
                     } else emptyMap()
                     // only as many rows as could possibly fit on one page, so the preview stays cheap
                     val endIdx = minOf(rows.size, startIdx + 120)
-                    paginate(rows.subList(startIdx, endIdx), measurer, previewStyles, widthPx - numberColumnPx, heightPx, density, settings.lineNumbers, enHeights, label = { data.lineLabel(it.n_int, it.n_sub) }, prose = data.prose, closedDashes = data.closedDashes, marks = verseMarks(data, settings.lineNumbers != LineNumberMode.NONE)).firstOrNull()
+                    paginate(rows.subList(startIdx, endIdx), measurer, previewStyles, previewWidthPx - numberColumnPx, heightPx, density, settings.lineNumbers, enHeights, label = { data.lineLabel(it.n_int, it.n_sub) }, prose = data.prose, closedDashes = data.closedDashes, marks = verseMarks(data, settings.lineNumbers != LineNumberMode.NONE)).firstOrNull()
                 } else null
             } else null
             // Two-finger pinch changes the text size; one finger is left to the pager. The page
@@ -891,16 +904,16 @@ fun ReaderScreen(
             val showAnchors = settings.lineNumbers != LineNumberMode.NONE
             /** The page area: one centred column, or the Greek and the translation next to each other. */
             @Composable
-            fun PageFrame(greek: @Composable () -> Unit, english: (@Composable () -> Unit)?, modifier: Modifier = Modifier) {
+            fun PageFrame(greek: @Composable () -> Unit, english: (@Composable () -> Unit)?, modifier: Modifier = Modifier, column: Dp = columnWidth) {
                 Box(modifier.fillMaxSize().padding(horizontal = horizontal, vertical = vertical), contentAlignment = Alignment.TopCenter) {
                     if (sideBySide && english != null) {
                         Row(Modifier.fillMaxHeight()) {
-                            Column(Modifier.width(columnWidth).fillMaxHeight()) { greek() }
+                            Column(Modifier.width(column).fillMaxHeight()) { greek() }
                             Spacer(Modifier.width(COLUMN_GAP))
-                            Column(Modifier.width(columnWidth).fillMaxHeight()) { english() }
+                            Column(Modifier.width(column).fillMaxHeight()) { english() }
                         }
                     } else {
-                        Column(Modifier.width(columnWidth).fillMaxHeight()) { if (english != null && mode == ViewMode.TRANSLATION) english() else greek() }
+                        Column(Modifier.width(column).fillMaxHeight()) { if (english != null && mode == ViewMode.TRANSLATION) english() else greek() }
                     }
                 }
             }
@@ -951,6 +964,7 @@ fun ReaderScreen(
                             { TranslationPage(previewSegments, previewStyles, showAnchors, Modifier.fillMaxSize(), anchorLabel(data)) }
                         },
                         modifier = Modifier.background(MaterialTheme.colorScheme.background),
+                        column = previewColumn,
                     )
                 }
             }

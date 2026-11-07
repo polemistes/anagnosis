@@ -87,6 +87,19 @@ fun OptionsDialog(
                     steps = ReaderSettings.MAX_SIZE - ReaderSettings.MIN_SIZE - 1,
                 )
                 Spacer(Modifier.height(8.dp))
+                Text("Line length  ·  ${settings.lineLength} characters", style = MaterialTheme.typography.labelLarge)
+                Text(
+                    "The widest the text is set, in characters of Greek at the chosen size; a phone's screen is mostly narrower. Lines of 50 to 75 characters read well, 60 to 66 best.",
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+                Slider(
+                    value = settings.lineLength.toFloat(),
+                    onValueChange = { onChange(settings.copy(lineLength = (it / ReaderSettings.LINE_LENGTH_STEP).roundToInt() * ReaderSettings.LINE_LENGTH_STEP)) },
+                    valueRange = ReaderSettings.MIN_LINE_LENGTH.toFloat()..ReaderSettings.MAX_LINE_LENGTH.toFloat(),
+                    steps = (ReaderSettings.MAX_LINE_LENGTH - ReaderSettings.MIN_LINE_LENGTH) / ReaderSettings.LINE_LENGTH_STEP - 1,
+                )
+                Spacer(Modifier.height(8.dp))
                 Text("Line numbers", style = MaterialTheme.typography.labelLarge)
                 SingleChoiceSegmentedButtonRow(Modifier.fillMaxWidth().padding(top = 6.dp, bottom = 12.dp)) {
                     LineNumberMode.entries.forEachIndexed { i, m ->
@@ -425,7 +438,7 @@ fun IntroDialog(onDismiss: () -> Unit) {
                 HelpItem("The title", "of an epic such as the Odyssey, or of the New Testament, shows the book being read; tap it to choose another book. Swiping past the last page of a book goes on to the next. In the New Testament the chapter's number stands in bold before its first verse and the verse numbers are raised; Line numbers None hides them.")
                 HelpItem("Plato", "is cited by the pages of Stephanus's edition (1578) and their sections a–e, which the margin shows (172, b, c ...). Line numbers count the editor's lines within each section: 172a1 is the first line of 172a.")
                 HelpItem("About this edition", "opens the edition's introduction, appendix or preface, where the text has them: on a phone under the three-dot menu at the top right, on a wider screen the i button. The manuscripts and sigla are under Manuscripts in the Apparatus view.")
-                HelpItem("Options", "font, text size, line numbers, notes and bookmarks, reading aloud, the Latin letters that type Greek in the search (q = θ or u = θ), dictionaries and colours: on the front page, and in a text on a phone under the three-dot menu, on a wider screen the gear. You can reopen this help there.")
+                HelpItem("Options", "font, text size, line length (the widest the text is set, in characters, on a tablet), line numbers, notes and bookmarks, reading aloud, the Latin letters that type Greek in the search (q = θ or u = θ), dictionaries and colours: on the front page, and in a text on a phone under the three-dot menu, on a wider screen the gear. You can reopen this help there.")
             }
         },
     )

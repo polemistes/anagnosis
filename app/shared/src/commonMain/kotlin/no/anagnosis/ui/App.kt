@@ -124,8 +124,9 @@ fun App(
         if (list.any { it.slug == slug && it.installed }) { expanded = slug; screen = Screen.Reader(slug) }
         onOpenTextHandled()
     }
-    // The text is loaded in the background once its title is opened out on the front page, so
+    // The text is loaded in the background once its card is opened out on the front page, so
     // that it is ready, or nearly, when the reader asks for it; the long ones take a few seconds.
+    // Opened straight from its title, it loads behind the Opening screen.
     val wantedSlug = ((screen as? Screen.Search)?.from as? Screen.Reader)?.slug ?: (screen as? Screen.Reader)?.slug
         ?: expanded.takeIf { screen == Screen.Home }
     LaunchedEffect(wantedSlug) {
