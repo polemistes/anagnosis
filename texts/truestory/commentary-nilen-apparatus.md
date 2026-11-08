@@ -614,6 +614,10 @@ post κολοσσοῦ add. τὸ μέγεθος N
 
 οὐκ ἔγραψα Ω
 
+σκοπῶν: Nilén prints σκοκῶν, a misprint; corrected in this edition.
+
+μέγεθος: Nilén prints μεγέθος, a misprint; corrected in this edition.
+
 αὐτῶν ΓΩS corr. Pˣ αὐτοῦ ZPNF οῦ spscr. Γᵃ
 
 ἀπιέναι ΩS
@@ -633,6 +637,8 @@ post κολοσσοῦ add. τὸ μέγεθος N
 αἰξώγρησαν Z¹ corr. Z²
 
 ἵστατο ΓΩS ἵσταντο ZPNF
+
+ἐζώγρησαν: Nilén prints ἐξώγρησαν, a misprint; corrected in this edition.
 
 ## 1.19
 γρ ἀναστρέψαντες mg. Ω vel Ωᵃ ἀναστάντες Ω in vsu

@@ -304,8 +304,9 @@ the public domain; the transcription is published under CC BY-SA 4.0.
   word, stop and accent where print and text still differed, settled against the page image.
   Prose, one line per section (`1.7`: book and section, Nilén's chapter numbers); a paragraph
   that Nilén begins inside a section continues the section on a lettered line (`2.47b`).
-  Nilén's misprints are kept as printed (σκοκῶν and μεγέθος at 1.18), his lacuna `***` (1.2),
-  his brackets ⟨ ⟩ and [ ].
+  Three misprints in Nilén's text are corrected (σκοκῶν, μεγέθος, ἐξώγρησαν at 1.18: `MISPRINTS`
+  in `lucian_merge.py`; the batches keep the print), each with a note in the apparatus; his lacuna
+  `***` (1.2) and his brackets ⟨ ⟩ and [ ] are kept. Read aloud in the Attic pronunciation.
 * Critical apparatus (`commentary-nilen-apparatus.md`): Nilén's, in Latin, each item under the
   section that holds its lemma; the printed page-line number in front of each item is left out
   (it refers to Nilén's page). Checked: every positive item's lemma found in its section, and

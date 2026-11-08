@@ -155,20 +155,14 @@ Nilén's apparatus, but an altered one, which will make you the editor".
 
 ## For the author
 
-* **Pronunciation**: set to koine; say if you want attic.
-* **Harrington's hand-made trees for book 1**: usable later if their 133 relation labels are
-  mapped to the treebank's; the text would then have hand trees for book 1 and GLAUx for book 2.
-* **The DCC introduction**: left out; say if you want it after Jerram's.
+* **Pronunciation**: decided 2026-11-08: Attic (see Decisions).
+* **Harrington's hand-made trees for book 1**: left out for now (the author, 2026-11-08); usable
+  later if their 133 relation labels are mapped to the treebank's.
+* **The DCC introduction**: left out for now (the author, 2026-11-08).
 * **Nilén's fasc. 2 (1923)** holds five more works with his apparatus but has no scan on the
   Archive; the Symposium and the Judgement of the Vowels among them have Pedalion hand trees.
-* **Misprints in Nilén's text**: 144.3 σκοκῶν (for σκοπῶν, 1.18), 144.7 μεγέθος (for μέγεθος) and
-  probably 144.21 ἐξώγρησαν (for ἐζώγρησαν)
-  are kept as printed, with the right analysis on the word sheet; say if you want them corrected
-  in the text (with a note in the apparatus).
-* **Short definitions folded by case (all texts)**: `build.load_logeion_shortdefs` keeps the first
-  of a capitalised and a lower-case Logeion entry, so ὕλη shows "Hyle, a town in Boeotia" and
-  Ὅμηρος "hostage"; the True Story overrides its cases in shortdefs.tsv. Fixing the loader would
-  mend every text; say if you want it done.
+* **Misprints in Nilén's text**: decided 2026-11-08: corrected, with a note (see Decisions).
+* **Short definitions folded by case (all texts)**: fixed 2026-11-08 (see Decisions).
 * **Release**: the text is built and in the catalogue after step 10; a reader release with it is
   yours to decide (play/README.md: build the bundle, upload, create and activate the product
   `lucian_truestory_nilen`, name "A True Story", €3).
@@ -421,6 +415,18 @@ Nilén's apparatus, but an altered one, which will make you the editor".
   * Memory: a second emulator of another project and the Gradle daemons filled the RAM and the OOM
     killer closed the editor during this step; afterwards one emulator at a time, Gradle stopped
     after each build, the emulator closed at the end.
+* **2026-11-08, after step 10: the author's answers.** (1) The misprints: "mark the misprints as
+  misprints somehow, and provide the correct reading". The batches keep the print; the merge
+  (`lucian_merge.MISPRINTS`, keyed by Nilén's page.line) puts the right reading in the text and
+  adds an apparatus note on the section, worded as this edition's: "σκοπῶν: Nilén prints σκοκῶν,
+  a misprint; corrected in this edition." (144.3 σκοκῶν → σκοπῶν, 144.7 μεγέθος → μέγεθος, 144.21
+  ἐξώγρησαν → ἐζώγρησαν; all 1.18). (2) Pronunciation: "Lucian would have strived for a learned
+  sound … let us be generous and give his text Attic": `Play.pronunciation = "attic"`. (3) The
+  short definitions: `build.load_logeion_shortdefs` keeps a name's definition under its
+  capitalised form and lets the lower-case key take the common word's (Ὅμηρος Homer, ὅμηρος
+  hostage; Ὕλη Hyle, ὕλη wood); `resolve_short_definition` tries a capitalised lemma's own form
+  first. Every text and the lexicon rebuilt. (4) Harrington's trees and the DCC introduction stay
+  out for now.
 
 ## Sizes, for planning
 

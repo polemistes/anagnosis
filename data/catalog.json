@@ -19,7 +19,7 @@
     "syntax_license": "CC BY-SA 3.0 US",
     "google_play": "yes",
     "product_id": "aeschylus_agamemnon_sidgwick",
-    "version": "ea312d75a81a7548"
+    "version": "513ecb782120d5bd"
   },
   {
     "slug": "ajax",
@@ -42,7 +42,7 @@
     "syntax_license": "CC BY-SA 3.0 US",
     "google_play": "yes",
     "product_id": "sophocles_ajax_jebb",
-    "version": "991bb789404c731c"
+    "version": "46848e361d93ac2c"
   },
   {
     "slug": "antigone",
@@ -65,7 +65,7 @@
     "syntax_license": "CC BY-SA 3.0 US",
     "google_play": "yes",
     "product_id": "sophocles_antigone_jebb",
-    "version": "b15c2765857e436a"
+    "version": "541b305de292830e"
   },
   {
     "slug": "choephoroi",
@@ -87,7 +87,7 @@
     "syntax_license": "CC BY-SA 3.0 US",
     "google_play": "yes",
     "product_id": "aeschylus_choephoroi_sidgwick",
-    "version": "9727508b090a6488"
+    "version": "4456a25c078218cd"
   },
   {
     "slug": "clouds",
@@ -109,7 +109,7 @@
     "syntax_license": "CC BY-SA 4.0",
     "google_play": "yes",
     "product_id": "aristophanes_clouds_starkie",
-    "version": "16b84a98193f2d42"
+    "version": "b031785273dc7a98"
   },
   {
     "slug": "electra",
@@ -132,7 +132,7 @@
     "syntax_license": "CC BY-SA 3.0 US",
     "google_play": "yes",
     "product_id": "sophocles_electra_jebb",
-    "version": "e87f98ba89bae37b"
+    "version": "99d4d70a0aede853"
   },
   {
     "slug": "eumenides",
@@ -153,7 +153,7 @@
     "syntax_license": "CC BY-SA 3.0 US",
     "google_play": "yes",
     "product_id": "aeschylus_eumenides_sidgwick",
-    "version": "6c58e051127b1fc3"
+    "version": "67a826c6848e8e08"
   },
   {
     "slug": "gorgias",
@@ -175,7 +175,7 @@
     "syntax_license": "CC BY-SA 4.0",
     "google_play": "yes",
     "product_id": "plato_gorgias_burnet",
-    "version": "b89f9a54f41e39dc"
+    "version": "8b4d25f512664128"
   },
   {
     "slug": "newtestament",
@@ -197,7 +197,7 @@
     "dictionaries": "Dodson's lexicon of the New Testament",
     "google_play": "yes",
     "product_id": "newtestament_sbl",
-    "version": "1cd05d6c20b3d0a0"
+    "version": "f0ad9da34c7f6108"
   },
   {
     "slug": "odyssey",
@@ -220,7 +220,7 @@
     "syntax_license": "CC BY-SA 3.0 US",
     "google_play": "yes",
     "product_id": "homer_odyssey_allen",
-    "version": "11dfee5229355ab0"
+    "version": "3b64c949e90c3079"
   },
   {
     "slug": "oedipuscoloneus",
@@ -241,7 +241,7 @@
     "syntax": "machine-made (GLAUx), not checked by hand",
     "syntax_source": "GLAUx (Alek Keersmaekers, KU Leuven): automatic annotation, not checked by hand",
     "syntax_license": "CC BY-SA 4.0",
-    "version": "f89cc9508ab94329"
+    "version": "a65899833d43e047"
   },
   {
     "slug": "oedipustyrannus",
@@ -262,7 +262,7 @@
     "syntax": "annotated by hand (Ancient Greek Dependency Treebank)",
     "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
     "syntax_license": "CC BY-SA 3.0 US",
-    "version": "068997b5161aa7ea"
+    "version": "d7666507a96e48c3"
   },
   {
     "slug": "philoctetes",
@@ -283,7 +283,7 @@
     "syntax": "machine-made (GLAUx), not checked by hand",
     "syntax_source": "GLAUx (Alek Keersmaekers, KU Leuven): automatic annotation, not checked by hand",
     "syntax_license": "CC BY-SA 4.0",
-    "version": "dc29231639ab6ae4"
+    "version": "73a1315fc1a9dda7"
   },
   {
     "slug": "symposium",
@@ -306,7 +306,7 @@
     "syntax_license": "CC BY-SA 4.0",
     "google_play": "yes",
     "product_id": "plato_symposium_burnet",
-    "version": "be5e1719c7a9288d"
+    "version": "37cde08934b6a3f4"
   },
   {
     "slug": "theogony",
@@ -328,7 +328,7 @@
     "syntax_license": "CC BY-SA 3.0 US",
     "google_play": "yes",
     "product_id": "hesiod_theogony_rzach",
-    "version": "69cd6aa2966bd0ee"
+    "version": "218c455512e0a736"
   },
   {
     "slug": "trachiniae",
@@ -349,7 +349,7 @@
     "syntax": "annotated by hand (Ancient Greek Dependency Treebank)",
     "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
     "syntax_license": "CC BY-SA 3.0 US",
-    "version": "38cdf46d5565c03d"
+    "version": "6a9bd903c7927be3"
   },
   {
     "slug": "truestory",
@@ -371,6 +371,6 @@
     "syntax_license": "CC BY-SA 4.0",
     "google_play": "yes",
     "product_id": "lucian_truestory_nilen",
-    "version": "54632d6996716cd6"
+    "version": "8be2469ac38cea23"
   }
 ]

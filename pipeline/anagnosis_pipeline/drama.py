@@ -325,7 +325,7 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          notes_edition="Luciani Vera Historia, edited with introduction and notes for the use of middle forms in schools by C. S. Jerram, Oxford, Clarendon Press, 1879",
          notes_scan="lucianiverahisto00luci", app_bare_numbers=True, app_rule="short",
          ocr_fold={"ϑ": "θ", "ϱ": "ρ", "ϐ": "β", "ϰ": "κ"}, skel_fold="χκξζ",  # Nilén's ζ is read as ξ
-         pronunciation="koine",  # second century AD; the author may switch it to attic
+         pronunciation="attic",  # the author (2026-11-08): Lucian strove for a learned, Attic sound
          page_offset=67,
          # Jerram: "Line 4. μέρος γοῦν", "l. 17.", "ll. 26, 27." (his own lines, per book); the OCR
          # reads l. as 1. or I.

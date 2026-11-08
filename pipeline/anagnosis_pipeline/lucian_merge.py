@@ -31,6 +31,15 @@ from .lucian_pages import (APP_KEY, KEY, SECTION_MARK, out_dir, perseus_prose, r
 ROOT = Path(__file__).resolve().parent.parent.parent
 PIPELINE = ROOT / "pipeline"
 LETTERS = "bcdefghijk"
+# Misprints in the edition's text: the batches keep what is printed; the text shows the right
+# reading and the apparatus says so (the author's decision, 2026-11-08). Key: Nilén's page.line.
+MISPRINTS: dict[str, dict[str, tuple[str, str]]] = {
+    "truestory": {
+        "144.3": ("σκοκῶν", "σκοπῶν"),        # 1.18
+        "144.7": ("μεγέθος", "μέγεθος"),      # 1.18
+        "144.21": ("ἐξώγρησαν", "ἐζώγρησαν"),  # 1.18 (ζωγρέω; the printed ξ is a wrong sort)
+    },
+}
 
 
 # --- the text --------------------------------------------------------------------------------
@@ -173,6 +182,26 @@ class _LowerGreek:
 
 
 _LOWER_GREEK = _LowerGreek()
+
+
+def correct_misprints(slug: str, text: dict, problems: list[str]) -> list[tuple[int, str]]:
+    """The right reading in the text where the edition misprints a word (MISPRINTS), and for each
+    an apparatus note on its section, marked as this edition's: [(unit index, note)]."""
+    notes: list[tuple[int, str]] = []
+    for key, (printed, right) in MISPRINTS.get(slug, {}).items():
+        done = False
+        for k, (u, wi, w) in enumerate(text["lines"].get(key, [])):
+            if printed in w:
+                new = w.replace(printed, right)
+                text["lines"][key][k] = (u, wi, new)
+                word, wkey = text["units"][u]["words"][wi]
+                text["units"][u]["words"][wi] = (word.replace(printed, right), wkey)
+                notes.append((u, f"{right}: Nilén prints {printed}, a misprint; corrected in this edition."))
+                done = True
+                break
+        if not done:
+            problems.append(f"misprint {key}: “{printed}” not found on the line")
+    return notes
 
 
 def lemma_of(item: str) -> tuple[list[str], list[str]]:
@@ -445,6 +474,7 @@ def merge(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path) -> 
     text = assemble(pages, index)
     problems = list(text["problems"])
     units = text["units"]
+    misprint_notes = correct_misprints(slug, text, problems)
     out = texts / slug
     out.mkdir(parents=True, exist_ok=True)
 
@@ -487,6 +517,7 @@ def merge(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path) -> 
     # the apparatus
     placed, misses, probs = place_apparatus(pages, index, text)
     problems += probs
+    placed += misprint_notes
     md = _meta_lines({
         "title": f"Critical apparatus ({play.app_editor_name})",
         "author": play.app_editor_name, "lang": "lat",

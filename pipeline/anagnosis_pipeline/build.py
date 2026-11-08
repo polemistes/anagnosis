@@ -538,27 +538,49 @@ def read_shortdef_overrides(path: Path) -> dict[str, str]:
 
 
 def load_logeion_shortdefs(sources: Path) -> tuple[dict[str, str], dict[str, list[str]]]:
-    """Logeion short definitions: exact key -> definition, and loose key -> [exact keys]."""
+    """Logeion short definitions: exact key -> definition, and loose key -> [exact keys].
+
+    Logeion lists a name and a common word that differ only in case as two entries (Ὅμηρος
+    "Homer", ὅμηρος "hostage"; Ὕλη "Hyle, a town in Boeotia", ὕλη "wood"). The lower-case key
+    takes the lower-case word's definition, whichever comes first in the list; a name's own
+    definition is kept under its capitalised form (a key no lower-case key can equal), which
+    resolve_short_definition tries first for a capitalised lemma."""
     exact: dict[str, str] = {}
     loose: dict[str, list[str]] = {}
     path = sources / "logeion-shortdefs.txt"
     if not path.exists():
         print(f"warning: {path} missing, no short definitions (run 'fetch')", file=sys.stderr)
         return exact, loose
+    from_lower: set[str] = set()
     for raw in path.read_text(encoding="utf-8").splitlines():
         lemma, _, definition = raw.partition("\t")
         lemma, definition = lemma.strip(), definition.strip()
         if not lemma or not definition or definition.isdigit():
             continue
         key = greek.lemma_key(lemma)
-        if key in exact:
+        cased = _cased_key(lemma)
+        if cased != key and cased not in exact:
+            exact[cased] = definition
+        if key in exact and (key in from_lower or cased != key):
             continue
         exact[key] = definition
-        loose.setdefault(greek.strip_diacritics(lemma), []).append(key)
+        if cased == key:
+            from_lower.add(key)
+        keys = loose.setdefault(greek.strip_diacritics(lemma), [])
+        if key not in keys:
+            keys.append(key)
     return exact, loose
 
 
+def _cased_key(lemma: str) -> str:
+    """A lemma's key with its case kept (NFC, no homograph digits): Ὅμηρος, ὕλη."""
+    return re.sub(r"\d+$", "", greek.nfc(lemma).strip())
+
+
 def resolve_short_definition(lemma: str, exact: dict[str, str], loose: dict[str, list[str]]) -> str | None:
+    cased = _cased_key(lemma)
+    if cased != greek.lemma_key(lemma) and cased in exact:
+        return exact[cased]  # a name: Ὅμηρος is Homer, not ὅμηρος, a hostage
     key = greek.lemma_key(lemma)
     if key in exact:
         return exact[key]
