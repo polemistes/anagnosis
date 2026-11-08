@@ -174,7 +174,7 @@ reference, `verse<TAB>reference`, keyed by the verse beside whose line it stands
 holds the end of one verse and the start of the next, the verse whose words stand nearest the
 reference; if unclear, the verse that begins on the line). Check each against `p-NNNN-margin.png`:
 the reference copied as printed (Lake writes "Ps. 2, 4; 123, 1;" with a comma between chapter and
-verse, "cf." in small letters, "etc."), the verse key right; add any the page prints that the
+verse, "cf." in small letters, "etc.", a range with an en dash: "I Cor. 7, 38–40"), the verse key right; add any the page prints that the
 draft lacks, delete any it does not print. A reference that runs over two printed lines is one
 line of the batch.
 
