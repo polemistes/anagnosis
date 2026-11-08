@@ -109,8 +109,10 @@ The key and the text are separated by a single TAB. Edit the file in place, page
   on either side (`ἀνέσεως — μέρος`). His signs are kept as printed: three asterisks for a
   lacuna (`ἔμελλον *** Κτησίας`), an asterisk inside a word (`προ*ελθεῖν`), angle brackets
   ⟨ ⟩ for words he adds, square brackets [ ] for words he deletes, †. Capitals as printed:
-  Nilén capitalises proper names and the first word of a paragraph, not the first word after a
-  full stop, and not the inscription at 1.7 ("ἄχρι τούτων").
+  Nilén capitalises proper names and the first word of each book, not the first word after a
+  full stop, and not the inscription at 1.7 ("ἄχρι τούτων"); he begins some paragraphs with a
+  capital (Ὁρμηθεὶς 1.5, Ταῦτα 2.47) and many with a small letter. The draft gave every
+  paragraph a capital: check the first word of every `¶` line against the print.
 
 The flags, and what to do:
 

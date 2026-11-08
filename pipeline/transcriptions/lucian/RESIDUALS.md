@@ -28,8 +28,10 @@ For each page `p-0200` that has residuals, in `pipeline/build/lucian-pages/trues
 * **"the OCR reads … here, the text has nothing"**: a word on the printed line that the text
   lacks (add it where printed), a margin number, a chapter number, or noise (leave it).
 * **Capitals**: the residuals do not compare case. While you look at each crop, make the first
-  letters of the words you see follow the print (Nilén capitalises proper names and the first
-  word of a paragraph only).
+  letters of the words you see follow the print. Nilén capitalises proper names and the first word
+  of each book; he begins some paragraphs with a capital and many with a small letter, and the
+  draft gave every paragraph a capital: **check the first word of every `¶` line of your batches
+  against the whole page**, whether or not it has a residual.
 * Write one line under `--- notes` for each change: `133.4 res: raised stop after ἦν, as
   printed`. Items you leave need no note.
 
