@@ -167,7 +167,7 @@ Nilén's apparatus, but an altered one, which will make you the editor".
 
 ## Progress
 
-- [ ] Step 1: modules, tests, CLI
+- [x] Step 1: modules, tests, CLI (2026-11-08): `lucian_pages.py`, `lucian_merge.py`, `tests/test_lucian.py`, CLI `lucian-pages`, `check-lucian-batch`, `merge-lucian`; `transcriptions/lucian/INSTRUCTIONS.md`
 - [ ] Step 2: leaves
 - [ ] Step 3: draft
 - [ ] Step 4: text and apparatus batches, residuals
@@ -181,6 +181,45 @@ Nilén's apparatus, but an altered one, which will make you the editor".
 ## Decisions
 
 (append dated entries: what was open, what was chosen, why, which pages were looked at)
+
+* **2026-11-08, step 1: modules.** Looked at leaves 196-202, 233, 234, 275 (pp. 129-135, 166,
+  167, 208).
+  * `drama.Play` gained `page_offset` (printed page = leaf − 67) and `app_rule = "short"`;
+    `drama_pages.page_layout` takes an optional `app_y` (default unchanged for the plays). The
+    apparatus is everything under Nilén's short rule (`lucian_pages.short_rule`: a band ≤ 10 px
+    high, 8-40 % of the page wide, ≥ 30 % inked, blank 28 rows above and below; the rule is
+    faint and broken on many pages, so two thresholds). Found on all nine pages tried.
+  * Margins: on an odd page the line numbers and the Vulgate pages are left and the chapter
+    numbers right, on an even page the reverse (p. 130: chapter 3 left, line numbers right).
+    Each margin is cut beyond the column (the median end of the lines' last words) and read
+    four ways (psm 7, 8, 10, 13), the commonest reading kept. Tesseract reads Nilén's hooked 5 as
+    3 and his chapter 2 as 9: a line mark at a fifth line confirms it whatever it reads, a
+    chapter mark at a line where a section begins confirms the place whatever it reads; only a
+    plausible misnumbering is flagged.
+  * A book's title counts as line 1 of its page (p. 129: the 5 stands at the fifth line counting
+    the title); its spaced capitals are read with low confidence and dropped as noise by the
+    drama layout, so `page_layout` puts it back. Batch line `129.1	[title] ΑΛΗΘΩΝ ΔΙΗΓΗΜΑΤΩΝ Α`.
+  * Batch conventions (not settled by the brief): `§1.7 ` before the word where a section
+    begins (also mid-line), `¶` before an indented line, `| ` for verse, apparatus numbers as
+    printed (`5`, `1/2`) with the page known from the block, `-` for a note on no line ("Libri:
+    …" at the head of each book's apparatus, the subscriptions at the end of each book; filed
+    under the section of the page's first line, or of the item before).
+  * A paragraph Nilén begins inside a section (p. 208: "Ταῦτα μὲν οὖν", 2.47) continues the
+    section on a line of its own lettered `2.47b` after `@ `, as the New Testament does with a
+    verse a paragraph divides.
+  * Verse inside a section (the epigram, 2.28) is joined into the section's line: one line per
+    section leaves no room for verse lines.
+  * `skel_fold` "χκξζ": Tesseract reads the Teubner ζ as ξ throughout (ζόφος, ζάλης,
+    ἐχειμαζόμεθα on p. 133); ξ counts as ζ in the matching, as χ counts as κ (the Theogony's
+    rule). A real ξ/ζ difference between Nilén and Harmon would go unflagged: a risk accepted.
+  * Case: the draft takes the case of a word's first letter from the OCR both ways where the
+    OCR is sure (Perseus capitalises "Ἄχρι" in the inscription at 1.7, Nilén does not).
+  * Harmon's check text has 26 footnotes, as the brief says; `perseus_prose` returns them with
+    their section and the word they follow (the note on the title goes to 1.1).
+  * A trial draft of pp. 129-135 flagged 22 of 129 lines (17 %): `αὐτοὺς` (1.2, Harmon's
+    supplement, absent in Nilén), `ἔμελλον` (Perseus's gap, Nilén's `***`), and OCR errors.
+  * The Jerram section of `INSTRUCTIONS-prose.md` is written at step 6, when his notes' keying
+    is known (step 2 finds it).
 
 ## Sizes, for planning
 

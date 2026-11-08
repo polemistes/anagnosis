@@ -299,7 +299,7 @@ def _different(a: list[dict], b: list[dict]) -> bool:
     return len(sims) >= 2 and sum(sims) / len(sims) < 0.5
 
 
-def page_layout(play: Play, leaf: int) -> dict:
+def page_layout(play: Play, leaf: int, app_y: int | None = None) -> dict:
     """The page's printed lines (top to bottom, each with its words and the words beside it in the
     margins), where the apparatus begins and ends, the column's edges, the line height.
 
@@ -307,7 +307,9 @@ def page_layout(play: Play, leaf: int) -> dict:
     x_size well under the verse's) are taken until the first verse line in full-size type with
     words read with confidence; a reader's handwriting (no word read with confidence) is passed
     over; the block counts as the apparatus if it holds an item number ("103."). On a page where
-    a printed rule follows (commentary under the apparatus), only what stands above the rule."""
+    a printed rule follows (commentary under the apparatus), only what stands above the rule.
+    With `app_y` (the short rule above Nilén's apparatus, lucian_pages.short_rule) the apparatus
+    is everything below it."""
     from PIL import Image
 
     from .gorgias_pages import _edge
@@ -342,8 +344,11 @@ def page_layout(play: Play, leaf: int) -> dict:
             break  # a verse
         if l["x_size"] <= 0.9 * XS or has_num:
             block.append(l)
+    given_app_y = app_y
     app_y = app_end = None
-    if between is not None:
+    if given_app_y is not None:
+        app_y, app_end = given_app_y + 4, Hpage - 10
+    elif between is not None:
         app_y, app_end = between[0] + 4, between[1] - 4
     elif block and any(_item_number(w, play.app_bare_numbers, 0.85 * W) for l in block for w in l["words"]):
         app_y = max(0, min(l["bbox"][1] for l in block) - int(0.25 * H))

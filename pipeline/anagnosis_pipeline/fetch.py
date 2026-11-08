@@ -75,11 +75,16 @@ FILES = {
             "tlg0006.tlg002.perseus-eng2", "tlg0006.tlg003.perseus-eng2", "tlg0006.tlg017.perseus-eng2",
             # Hesiod's Theogony (pipeline/PLAN-theogony.md): Evelyn-White's Loeb text and translation
             "tlg0020.tlg001.perseus-grc2", "tlg0020.tlg001.perseus-eng2",
+            # Lucian's A True Story (pipeline/PLAN-true-story.md): Harmon's Loeb text (the check
+            # text, never shipped) and his translation
+            "tlg0062.tlg012.perseus-grc2", "tlg0062.tlg012.perseus-eng2",
         )
     },
     # GLAUx for the six plays the AGDT lacks (the Aeschylus treebanks are in treebanks/)
     **{f"glaux/{n}.xml": f"{RAW}/alekkeersmaekers/glaux/main/xml/{n}.xml"
        for n in ("0019-003", "0019-007", "0019-009", "0006-002", "0006-003", "0006-017")},
+    # GLAUx for Lucian's A True Story (automatic syntax, aligned to Nilén's words)
+    "glaux/0062-012.xml": f"{RAW}/alekkeersmaekers/glaux/main/xml/0062-012.xml",
     # The Athenian Society's Aristophanes (1912): Lysistrata, Frogs
     **{f"gutenberg/pg{n}.txt": f"https://www.gutenberg.org/cache/epub/{n}/pg{n}.txt" for n in (8688, 8689)},
 }

@@ -108,6 +108,11 @@ class Play:
     speakers: dict[str, str] = field(default_factory=dict)   # the translation's names -> Greek (Perseus) names
     hand_analyses: dict[str, tuple[str, str]] = field(default_factory=dict)  # "line form" -> (lemma, postag)
     lemma_fixes: dict[str, str] = field(default_factory=dict)
+    # a prose text read by lucian_pages.py (pipeline/PLAN-true-story.md): the printed page is
+    # leaf - page_offset (Nilén's Lucian: p. 133 = leaf 200); the apparatus is what stands under
+    # the short rule below the text ("short") rather than the small type found from the foot up
+    page_offset: int = 0
+    app_rule: str = ""
 
     @property
     def perseus(self) -> str:
@@ -303,6 +308,22 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          # his commentary pp. 171-276 = leaves 223-328; the preface pp. v-xliv = leaves 11-50 and
          # the "Epitome of the Theogony" pp. 167-170 = leaves 219-222
          text_leaves=[(13, 60)], sigla_leaves=[12], notes_leaves=[(223, 328)], intro_leaves=[(11, 50), (219, 222)]),
+    # Lucian's A True Story (pipeline/PLAN-true-story.md): Nilén's Teubner text and apparatus, read
+    # by lucian_pages.py (prose, by printed line; the unit of grc.txt is the book.section), GLAUx,
+    # Harmon's translation, Jerram's commentary and introduction
+    Play("truestory", "Ἀληθῶν διηγημάτων", "A True Story", "Λουκιανός", "Lucian", "tlg0062.tlg012",
+         "Luciani Samosatensis libelli, edidit Nils Nilén, vol. I fasc. 1, Leipzig, B. G. Teubner, 1906",
+         "bub_gb_RYepnZKT1OwC", "nilen", "N. Nilén", "lucian_truestory_nilen",
+         glaux="0062-012.xml",
+         trans_file="drama/tlg0062.tlg012.perseus-eng2.xml", translator="A. M. Harmon", trans_key="harmon",
+         trans_edition="Lucian, with an English translation by A. M. Harmon, vol. I, Loeb Classical Library, London, Heinemann, 1913",
+         trans_license="CC BY-SA 4.0 (Perseus Digital Library)",
+         notes_editor="jerram", notes_editor_name="C. S. Jerram",
+         notes_edition="Luciani Vera Historia, with introduction and notes by C. S. Jerram, Oxford, Clarendon Press, 1879",
+         notes_scan="lucianiverahisto00luci", app_bare_numbers=True, app_rule="short",
+         ocr_fold={"ϑ": "θ", "ϱ": "ρ", "ϐ": "β", "ϰ": "κ"}, skel_fold="χκξζ",  # Nilén's ζ is read as ξ
+         pronunciation="koine",  # second century AD; the author may switch it to attic
+         page_offset=67),
 ]}
 
 

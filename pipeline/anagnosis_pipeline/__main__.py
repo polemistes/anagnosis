@@ -66,6 +66,14 @@ def main(argv: list[str] | None = None) -> int:
     drs.add_argument("files", nargs="*")
     mdr = sub.add_parser("merge-drama", help="texts/<play>/ from the checked batches of a play (drama.py), the treebank and the translation")
     mdr.add_argument("play")
+    lp = sub.add_parser("lucian-pages", help="Lucian's text and apparatus by OCR (lucian_pages.py): fetch | ocr | draft (pipeline/build/lucian-pages/<slug>/, pipeline/transcriptions/lucian/<slug>/)")
+    lp.add_argument("slug")
+    lp.add_argument("step", choices=["fetch", "ocr", "draft"])
+    clb = sub.add_parser("check-lucian-batch", help="check text batch files of a Lucian text (pipeline/transcriptions/lucian/<slug>/batch-NN.md)")
+    clb.add_argument("files", nargs="+")
+    clb.add_argument("--slug", default="truestory")
+    mlu = sub.add_parser("merge-lucian", help="texts/<slug>/ from the checked batches of a Lucian text (lucian_merge.py), GLAUx and Harmon")
+    mlu.add_argument("slug", nargs="?", default="truestory")
     sub.add_parser("fetch-nt", help="download the New Testament sources into pipeline/sources/nt/ (SBLGNT, MACULA, Dodson, BSB)")
     sub.add_parser("import-nt", help="texts/newtestament/ from the SBLGNT, MACULA, Dodson and the Berean Standard Bible")
     sub.add_parser("prepare-autenrieth-pages", help="page images and OCR drafts for transcribing Autenrieth's Homeric Dictionary (pipeline/build/autenrieth-pages/)")
@@ -200,6 +208,22 @@ def main(argv: list[str] | None = None) -> int:
     elif args.cmd == "merge-drama":
         from .drama import merge_play
         return 1 if merge_play(args.play, SOURCES, TEXTS, ROOT / "pipeline" / "build", DATA / "lexicon.sqlite") else 0
+    elif args.cmd == "lucian-pages":
+        from . import lucian_pages
+        lucian_pages.main([args.slug, args.step])
+    elif args.cmd == "check-lucian-batch":
+        from .lucian_pages import check_batch as check_lucian
+        bad = 0
+        for f in args.files:
+            problems = check_lucian(args.slug, Path(f), SOURCES)
+            print(f"{f}: {len(problems)} remarks")
+            for p in problems:
+                print("  " + p)
+            bad += len(problems)
+        return 1 if bad else 0
+    elif args.cmd == "merge-lucian":
+        from .lucian_merge import merge as merge_lucian
+        return 1 if merge_lucian(args.slug, SOURCES, TEXTS, ROOT / "pipeline" / "build", DATA / "lexicon.sqlite") else 0
     elif args.cmd == "fetch-nt":
         from .nt import fetch_nt
         fetch_nt(SOURCES)
