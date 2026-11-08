@@ -34,7 +34,7 @@
 9	ἄκρων ΩS ἄκρῳ Γ ἄκρου ZPNFv ου spscr. Γᵃ
 11	ε καὶ ξ καὶ τ N
 11	ἄλλαι] αὗται ἄλλαι Ω
-12/13	φ — ξ — η N
+12/13	φ — ζ — η N
 14	πεποίηνται ZPF ν spscr. Γᵃ πεποίηται ΓΩSN
 15	ἡλυσίῳ Ω*ˣ εἴλυσίῳ aut ἰλυσίῳ Ω¹
 15	καλουμένῳ om. ΩS
@@ -46,6 +46,7 @@
 177.3	apparatus 3/6: printed "3—6" (a dash between the line numbers); written 3/6, the range form the checker and merge accept
 177.1	the page opens with "τοι", the end of a word divided from p. 176 (written whole there)
 177.3	rev: φυτοῖς moved here from 177.4: printed φυ-|τοῖς, divided at the end of line 3, so written whole on the line where it begins
+177.12	step5: apparatus 12/13 read "φ — ξ — η N"; the page prints ζ (N's numeral for ἑπτά, plain zeta without the bars of the ξ in apparatus 11 "ε καὶ ξ καὶ τ N", where ξ = ἑξήκοντα is right): corrected to φ — ζ — η
 
 === p-0245
 --- text

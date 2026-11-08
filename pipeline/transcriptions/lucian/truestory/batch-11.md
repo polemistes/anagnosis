@@ -167,6 +167,7 @@ app 7	"ταύτῃ. προσεύχεσθαι ZPN": the low stop after ταύτ�
 191.13	§2.30 checked: chapter 30 in the right margin beside 191.13, before ταῖς; the line is not indented
 app 14	"171, 18. sq." printed with a stop after 18 (copied as printed); the accents in "ᾗ δὲ ΩS ἥ δὲ aut ἧ δὲ Γ" as read on an enlarged crop (circumflex with subscript, acute, circumflex)
 app 15	the last siglum read F (slightly damaged in the scan: "ΓF")
+191.11	step5: κατέσταζεν checked enlarged: the letter is Nilén's ζ (the same shape as in εἰκάζειν at 143.16), not ξ (compare ἐξ at 191.12, with its stacked top strokes); agrees with the apparatus lemma κατέσταζεν ΓΩSPN; text unchanged
 
 === p-0259
 --- text

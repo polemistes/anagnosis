@@ -161,7 +161,8 @@ Nilén's apparatus, but an altered one, which will make you the editor".
 * **The DCC introduction**: left out; say if you want it after Jerram's.
 * **Nilén's fasc. 2 (1923)** holds five more works with his apparatus but has no scan on the
   Archive; the Symposium and the Judgement of the Vowels among them have Pedalion hand trees.
-* **Misprints in Nilén's text**: 144.3 σκοκῶν (for σκοπῶν, 1.17) and 144.7 μεγέθος (for μέγεθος)
+* **Misprints in Nilén's text**: 144.3 σκοκῶν (for σκοπῶν, 1.18), 144.7 μεγέθος (for μέγεθος) and
+  probably 144.21 ἐξώγρησαν (for ἐζώγρησαν)
   are kept as printed, with the right analysis on the word sheet; say if you want them corrected
   in the text (with a note in the apparatus).
 * **Release**: the text is built and in the catalogue after step 10; a reader release with it is
@@ -174,7 +175,7 @@ Nilén's apparatus, but an altered one, which will make you the editor".
 - [x] Step 2: leaves (2026-11-08): Nilén text leaves 196-275, sigla 10, 11, 13, 16, title 4; Jerram notes 81-100, introduction 15-29, his text 31-79
 - [x] Step 3: draft (2026-11-08): 80 pages, 1480 lines, 220 flagged (14 %), all 89 sections placed, apparatus and short rule found on all 80 pages; 14 batches
 - [x] Step 4: text and apparatus batches, residuals (2026-11-08): 14 batches checked and independently reviewed (workflows, 7 at a time), residual pass (433 items, 7 agents); every checker remark explained
-- [ ] Step 5: merge, lemma check, Harmon checklist, review
+- [x] Step 5: merge, lemma check, Harmon checklist, review (2026-11-08): 104 lines (89 sections), 1660 apparatus items, 11176 words; 26 Harmon notes and 96 lemma misses settled, ten sections by eye; one slip fixed (144.21)
 - [ ] Step 6: Jerram's notes
 - [ ] Step 7: introduction
 - [ ] Step 8: DCC notes
@@ -307,6 +308,34 @@ Nilén's apparatus, but an altered one, which will make you the editor".
   * Misprints in Nilén's Greek text are kept as printed (the brief's rule: closest to the page),
     each noted in its batch: 144.3 σκοκῶν (for σκοπῶν), 144.7 μεγέθος (for μέγεθος). In the apparatus
     likewise (ἀλκίνουυ p. 131, ΓFSN p. 185). Listed for the author.
+* **2026-11-08, step 5: merge and the two checks.** `merge-lucian truestory`: grc.txt 104 lines
+  (89 sections, 15 continued after a paragraph inside a section, 2.47b and the like), 46
+  paragraphs; 1660 apparatus items under 103 lines (the brief guessed 1,500); tokens 11,176 words,
+  all with a lemma; 0 problems (every Perseus section once, in order). `check`: 0 errors.
+  * The lemma check was sharpened before it was used: fuzzy matching would have accepted a slip
+    (θαλάττης for θαλάσσης), so a lemma counts as found only when it is in the text exactly; and a
+    **slip** is told by its shape: Nilén's first reading missing from the text while a later reading
+    of the same item stands there, or an explicit `lemma]` not found ("SERIOUS", 22). Variants that
+    match nothing (Nilén's negative items: additions, omissions, word order, manuscripts' spellings)
+    and items without a Greek lemma are listed apart ("WEAK", 74). A merge guard: Jerram's notes and
+    introduction are merged only once every flag in their batches is answered.
+  * Three agents (a workflow): (1) the 22 serious misses and Harmon's 26 footnotes
+    (`build/truestory-harmon-notes.md`): every one already Nilén's reading: the 22 are manuscripts'
+    readings and corrections (Γ*ᵃ, spscr., γρ mg.) or conjectures (Lehmann's Ἀεροσκόρδακες), and
+    Nilén writes Schwartz's numerals ϛ (2.2) and ⟨ε⟩ (2.11) only in the apparatus, printing ἐς ἓξ
+    and ⟨πέντε⟩ in the text; at the 26 Harmon places the text has Nilén's reading (αὐτοὺς absent
+    1.2, συγγεγραφότας, *** 1.2, οὐδὲ ὀλίγον 1.16, [καὶ οὗτοι] 1.16, no με 1.21, ἔντερον δὲ οὐδὲ ἧπαρ
+    and ῥῖγος ᾖ 1.24, κατετέθημεν 1.29, ⟨μεγάλοι καὶ⟩ 1.31, ἀπενενέκρωτο 2.1, ⟨πέντε⟩ 2.11, [λέγων]
+    2.20, Κάρανος 2.22, ἐπεσκόπουν 2.42, …). (2) the 74 weak misses: **one slip**, 144.21 (1.18):
+    the text kept Harmon's ἐζώγρησαν where Nilén prints ἐξώγρησαν (a ξ, compared with δεξάμενον and
+    πεζομαχίας on the same pages): the ξ/ζ fold of step 1 hid it from the flags, the risk accepted
+    then; and one apparatus letter (177.12/13 ζ for ξ). (3) ten sections chosen at random (1.2, 1.11,
+    1.29, 1.39, 1.42, 2.8, 2.13, 2.16, 2.29, 2.44), text and apparatus against the page: all agree.
+  * The review list (23 words): three analyses set by hand in `drama_fixes.HAND_ANALYSES["truestory"]`
+    (κατετέθημεν from κατατίθημι, ἀπενενέκρωτο pluperfect, Ἐκβαλοῦσα the island's name); the
+    others were right (σκοκῶν and μεγέθος, Nilén's misprints, have σκοπός and μέγεθος).
+  * Nilén's black blocks in "ἔμελλ■ ambig. Z" (p. 130) are two small blocks stacked in one letter's
+    width; written as one ■.
 
 ## Sizes, for planning
 

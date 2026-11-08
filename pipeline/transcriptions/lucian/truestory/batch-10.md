@@ -153,6 +153,7 @@
 185.12	οἱ checked; no comma after ἥρωες in the print (draft "ἥρωες, Ἀχιλλέως"): comma removed
 185.6	apparatus 6/9: printed "6—9" (a dash between the line numbers); written 6/9, the range form the checker and merge accept
 185.14	apparatus 14/15: "δήλῳ ΓFSN" as printed (F also stands in the first group; perhaps a misprint for Ω), and "ἰόντων ZPNΩ" in 15 as printed
+185.2	step5: apparatus "2 δʼ N" is printed with the number 2, though the δὲ it names (τὰ δὲ) stands at the end of line 1 (the next item, "2 εἰσὶν pro ἦν Z", is on line 2); number kept as printed, text right
 
 === p-0253
 --- text

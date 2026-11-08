@@ -468,12 +468,18 @@ def merge(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path) -> 
     # Jerram's notes and introduction, once transcribed (steps 6-7)
     from .drama_prose import merge_kind
 
-    paras = merge_kind(tdir, "notes")
+    def checked(kind: str) -> bool:
+        """Whether the kind's batches exist and every flag in them is answered (the drafts are
+        not merged before the agents have checked them)."""
+        files = sorted(tdir.glob(f"{kind}-*.md"))
+        return bool(files) and not any(re.search(r"(?m)^\d+ .*→\s*$", f.read_text(encoding="utf-8")) for f in files)
+
+    paras = merge_kind(tdir, "notes") if checked("notes") else []
     if paras:
         n_notes, probs = jerram_notes(play, paras, units, out, sources, build)
         problems += probs
         print(f"wrote commentary-{play.notes_editor}.md: {n_notes} notes")
-    paras = merge_kind(tdir, "intro")
+    paras = merge_kind(tdir, "intro") if checked("intro") else []
     if paras:
         md = _meta_lines({
             "title": "Introduction", "author": play.notes_editor_name,

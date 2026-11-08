@@ -170,7 +170,7 @@
 144.18	πόλιν καὶ τὰ πλεῖστα τῶν ὀρνέων αὐτοῦ κτείνουσιν·
 144.19	ἀνέσπασαν δὲ καὶ τὰ τρόπαια καὶ κατέδραμον ἅπαν τὸ
 144.20	ὑπὸ τῶν ἀραχνῶν πεδίον ὑφασμένον, ἐμὲ δὲ καὶ δύο
-144.21	τινὰς τῶν ἑταίρων ἐζώγρησαν. ἤδη δὲ παρῆν καὶ ὁ
+144.21	τινὰς τῶν ἑταίρων ἐξώγρησαν. ἤδη δὲ παρῆν καὶ ὁ
 144.22	Φαέθων καὶ αὖθις ἄλλα τρόπαια ὑπʼ ἐκείνων ἵστατο.
 --- apparatus
 3	γινομένων ΓΩS γρ spscr. Pˣ γιγνομένων ZPNFv
@@ -195,6 +195,7 @@
 144.3	the page clearly prints "σκοκῶν" (Harmon σκοπῶν), an evident misprint for σκοπῶν: written as printed; the editor should decide whether to correct it
 144.7	res: μέγεθος -> μεγέθος: the page clearly prints the acute on the second ε (a misprint), written as printed
 144.10	margin flag: the Vulgate number 85 stands at line 10 and Nilén prints "11" beside line 11 instead of 10; 22 lines counted on the page, 5/15/20 where they should be: keys right, nothing changed
+144.21	step5: the page prints ἐξώγρησαν with ξ (same letter as in δεξάμενον 143.5, unlike the ζ of πεζομαχίας 144.1); his apparatus 21 "αἰξώγρησαν Z¹" reports only Z's αι: ἐζώγρησαν (Harmon) changed to ἐξώγρησαν as printed
 
 === p-0212
 --- text

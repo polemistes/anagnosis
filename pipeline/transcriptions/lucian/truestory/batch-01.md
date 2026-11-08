@@ -77,6 +77,7 @@
 -	apparatus 12 (ἔμελλ■ ambig. Z): after ἔμελλ the print has a special sort (a black block, apparently a compendium sign for the ending) that cannot be reproduced; written [illegible]
 -	apparatus 12: "ἔμελλον ." printed with a space before the stop; written without it
 130.8	rev: apparatus item 8 ᾔνικται (twice) corrected to ἤνικται: the apparatus prints no iota subscript in either place (the text line has ᾔνικται with it)
+-	step5: apparatus 12 ἔμελλ■: enlarged, the sort after ἔμελλ is two small black blocks set one above the other in a single letter's width (a faint mark between them), not one block; left as one ■ (one letter place) for the lead to decide whether to write ■■; the older note above saying "written [illegible]" is out of date (the item has ■)
 
 === p-0198
 --- text

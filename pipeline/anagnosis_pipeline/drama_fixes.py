@@ -324,6 +324,12 @@ HAND_ANALYSES: dict[str, dict[str, tuple[str, str]]] = {
         "786 ὅ": ("ὅς", "p-s---nn-"),
         "904 ἧς": ("ὅς", "p-p---fd-"),
     },
+    "truestory": {
+        # the review list of step 5 (pipeline/PLAN-true-story.md)
+        "1.29b κατετέθημεν": ("κατατίθημι", "v1paip---"),  # Nilén's reading (Harmon καθείθημεν); not καθίημι
+        "2.1 ἀπενενέκρωτο": ("ἀπονεκρόω", "v3slip---"),  # pluperfect passive, not imperfect
+        "2.46 Ἐκβαλοῦσα": ("Ἐκβαλοῦσα", "n-s---fn-"),  # the island's name (Harmon's Cabalusa), not the participle
+    },
 }
 
 LEMMA_FIXES: dict[str, dict[str, str]] = {

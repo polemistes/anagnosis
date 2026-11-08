@@ -150,6 +150,7 @@
 203.1	ῥᾳδίως as printed (iota subscript clear)
 203.11	the paragraph is indented but Nilén prints lower-case ἐντεῦθεν: capital removed
 203.15	προῄειμεν checked enlarged: the iota subscript is printed (in the apparatus lemma too); no subscript visible in the variant προσήειμεν ZP
+203.11	step5: ἡμᾶς kept, though the print shows no circumflex on the α (checked enlarged and with contrast raised: the rough breathing on η is printed, nothing above the α); an unaccented ἡμας is no reading, so the accent is taken as failed in printing, as with the broken letter noted in batch-12 (εἰσιόντι); text unchanged
 
 === p-0271
 --- text
