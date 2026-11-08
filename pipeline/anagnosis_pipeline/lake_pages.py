@@ -944,8 +944,10 @@ def residuals(slug: str, files: list[Path] | None = None) -> list[dict]:
         font = ImageFont.load_default()
 
     def stream(layout):
+        from .drama_pages import fold_ocr
+
         lines, ocr, _nums = ocr_stream([layout])
-        return lines, ocr
+        return fold_ocr(play, lines, ocr)  # ξ and ζ folded on both sides, as in the draft
 
     everything = []
     for stem, block in sorted(pages.items()):
