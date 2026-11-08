@@ -1,127 +1,91 @@
 === p-20113
-+ are dry and without strength, and their words only live but their works are dead.* They who are such neither live nor are dead. They are like therefore unto the doubleminded ; for the doubleminded are neither green nor dry, they neither live nor are dead. 3. Even as their plants when they saw the sun withered, so also the doubleminded, when they hear tidings of affliction, by reason of their fearfulness turn idolators and are ashamed of the name of their Lord. 4. Such men neither live nor are dead. Yet these too if they repent quickly may live; but if they repent not, they are already given over to the women who rob them of their life.
-
-CHAPTER 22
-
-τα, THE believers from the fifth mountain, which had green herbs and was rough; are of this kind; they are faithful but slow to learn, presumptuous and pleasers of their own selves ; would be knowers of all things when they know
-
-[Note: * Cp. Heb. vi. 1; John vi. 63. Doubters became idolaters in time of persecution’(21. 3), offering sacrifice as an alternative to martyrdom.]
+## Similitude 9.21.2
+**their works are dead**: Cp. Heb. vi. 1; John vi. 63. Doubters became idolaters in time of persecution (21. 3), offering sacrifice as an alternative to martyrdom.
 --- flags
-1 doubleminded [latin] (Greek model: ἀουδ!εηιίπαοά ;) →
-2 doubleminded [rare] →
-3 doubleminded [rare] →
-4 τα, [conf] →
-5 persecution’(21. [conf] →
+1 doubleminded [latin] (Greek model: ἀουδ!εηιίπαοά ;) → ok (translation, left out)
+2 doubleminded [rare] → ok (translation, left out)
+3 doubleminded [rare] → ok (translation, left out)
+4 τα, [conf] → 1. (verse number of the translation, left out)
+5 persecution’(21. [conf] → persecution (21.
 --- notes
+Translation left out (end of Similitude 9.21.2, verses 3-4, CHAPTER 22, verse 1; the draft's '+ ' run-on was translation, so nothing runs on). One footnote, its mark after "their works are dead." in 9.21.2 (the verse number 2 is on p-20112). The space the print sets before ";" is not kept.
 
 === p-20114
-+ nothing at all. 2. Because of this their presumptuousness prudence hath forsaken them, and senseless folly hath entered into them. They commend themselves * as having wisdom, and choose to be professing teachers when they are without understanding. 3. Because of this highmindedness many were made vain who exalted themselves; for a great demon is selfconceit and vain confidence. Many of these therefore were cast away; but some repented and believed and submitted themselves to those who had understanding, having come to know their own folly. 4. And to the residue also of this sort repentance is offered ; for they were not wicked, but rather foolish and without understanding. These if they repent shall live unto God; but if they repent not, they shall dwell with the women who devise evil against them.
-
-[Note: * Cp. Clem. Cor. xxx. 6 self-praisers. The would-be knowers are Gnostics. Some take the word for slow-tolearn (22. 1) passively, in the sense that such persons’ doctrines are hard to be understood (Funk). But see Ab. Ζα. 3s.]
+## Similitude 9.22.2
+**They commend themselves**: Cp. Clem. *Cor.* xxx. 6 *self-praisers*. The would-be knowers are Gnostics. Some take the word for slow-to-learn (22. 1) passively, in the sense that such persons’ doctrines are hard to be understood (Funk). But see *Keb. Tab.* 35.
 --- flags
-1 1) [digit] →
-2 Ab. [conf] →
-3 3s. [digit] →
+1 1) [digit] → ok (22. 1)
+2 Ab. [conf] → Keb. (*Keb. Tab.*, italic)
+3 3s. [digit] → 35.
 --- notes
+Translation left out (end of Similitude 9.22.1, verses 2-4; the draft's '+ ' run-on was translation, so nothing runs on). One footnote, its mark after "They commend themselves" in 9.22.2. Unflagged: "Ζα." is *Tab.*; "slow-tolearn" is "slow-to-learn" (the compound divided after its own hyphen at the line end); italics added for *Cor.* and *self-praisers*. "Keb." (Cebes) as printed.
 
 === p-20115
-CHAPTER 23
-
-## 1
-THE believers from the sixth mountain, which had clefts great and small and blighted herbs in the clefts, are of these kinds. 2. Those with the small clefts are such as have quarrels “with one another, and from their own evil speakings were blighted in the faith; yet many of these repented. And the rest shall repent when they hear my commandments, for their evil speakings are of small account and they will quickly repent. 3. But they with the great clefts aie men who persevere in their slanders, and grow resentful in their ragings against one another. These were flung away from the tower and disallowed for the building thereof. Hardly therefore shall such like live.
-
-## 4
-If God and our Lord, who hath the mastery of all things and beareth rule over all His creation, remembereth not evil against those who confess their sins, but is forgiving; shall man who is perishable and full of sins remember evil against a man as though he could destroy or save him? 5. I, the Angel of Repentance,
 --- flags
-1 “with [conf] →
-2 aie [rare] →
-3 ragings [rare] →
+1 “with [conf] → with (translation, left out)
+2 aie [rare] → are (translation, left out)
+3 ragings [rare] → ok (translation, left out)
 --- notes
+No text to keep: the page has no footnotes. Translation left out (CHAPTER 23, Similitude 9.23.1-5; the draft's headings "## 1" and "## 4" were verse numbers of the translation, deleted).
 
 === p-20116
-+ say unto you, as many as are of this persuasion,* put it away and repent, and the Lord shall heal your former sins if ye purge yourselves from this devil ; else ye shall be delivered unto him for death.
-
-CHAPTER 24
-
-I. THE believers from the seventh mountain, on which were green pleasant herbs, and the whole mount was well liking, and every kind of cattle and the fowls of heaven were feeding upon the herbs of that mountain, and the herbs they fed upon grew the more thriving, are such as these. 2. They were always simple and guileless and happy, having nothing against one another but always rejoicing over the servants of God ; they were endued with the Holy Spirit of these virgins, and continually had compassion upon every man, and out of
-
-* Gr. hatiresis, heresy ; lit. (1) a taking as of a city, (2) a taking for omeself or choice, as 1 Macc. viii. 30 R. V., “at their pleasure” Hence its use for a sectarian creed or the school professing it, as 2 Pet. ii. 1 A. V. damnable heresies, R. V. marg. sects of perdition. See Thayer's N. Ζ. Lex.; and the Oxford New English Dictionary and Greek Ὁ. 7. Concordance,
+## Similitude 9.23.5
+**as many as are of this persuasion**: Gr. *hairesis*, heresy; lit. (1) *a taking* as of a city, (2) *a taking for oneself* or choice, as 1 Macc. viii. 30 R. V., “at their *pleasure*.” Hence its use for a sectarian creed or the school professing it, as 2 Pet. ii. 1 A. V. *damnable heresies*, R. V. marg. *sects of perdition*. See Thayer’s *N. T. Lex.*, and the Oxford *New English Dictionary* and *Greek O. T. Concordance*.
 --- flags
-1 which [conf] →
-2 mountain, [conf] →
-3 hatiresis [latin] (Greek model: “λαϊγεσῖς,) →
-4 (1) [digit] →
-5 omeself [latin] (Greek model: φριθσοῖγ) →
-6 V., [conf] →
-7 7. [conf] →
+1 which [conf] → ok (translation, left out)
+2 mountain, [conf] → ok (translation, left out)
+3 hatiresis [latin] (Greek model: “λαϊγεσῖς,) → hairesis (*hairesis*, italic)
+4 (1) [digit] → ok
+5 omeself [latin] (Greek model: φριθσοῖγ) → oneself (*a taking for oneself*, italic)
+6 V., [conf] → ok
+7 7. [conf] → T. (*Greek O. T. Concordance*, italic)
 --- notes
+The draft's '+ ' run-on (end of Similitude 9.23.5) was translation: left out, so nothing runs on. Translation left out also for CHAPTER 24, verses 1-2. One footnote, its mark after "as many as are of this persuasion," in 9.23.5 (the verse number 5 is on p-20115); the draft had it without the [Note:] wrapper as a plain paragraph, now the footnote under its heading. Unflagged: "Thayer's N. Ζ. Lex." is "Thayer’s *N. T. Lex.*"; "Greek Ὁ. 7." is *Greek O. T.*; "pleasure” Hence" is "*pleasure*.” Hence"; italics added for *a taking*, *pleasure*, *damnable heresies*, *sects of perdition*, *New English Dictionary*. Taylor's printing slip: the footnote ends with a comma in the print ("*Concordance*,"); written with a full stop. The spaces the print sets before ";" and inside the quotation marks are not kept.
+rev: enlarged, the stop after "*Concordance*" is clearly a comma and the note ends there (p-20117 begins a new footnote with its own mark); the full stop is kept, as "designated." on p-20062.
 
 === p-20117
-+ their labours they furnished every man without upbraiding or doubting. 3. The Lord therefore, seeing their singleness and perfect childliness, gave them increase in the labours of-their hands and favoured them in all their doing. 4. I, the Angel of Repentance, say unto you who are such like, Remain such, and your seed shall never be blotted out. For the Lord hath proved you and written you in our number, and all your seed shall dwell with the Son of God ; for ye have received of His Spirit.
-
-CHAPTER 25
-
-I. THE believers from the eighth mountain, where were the many springs, and the whole creation of the Lord was watered from the springs, are such as these. 2. Apostles and teachers who preached to the whole world,* and taught the word of the Lord reverently and purely, and kept not back anything for evil desire, but always walked in righteousness and truth, even as they had received the Holy Ghost. The passing of such as these is with the angels.
-
-* They preached, taught and baptized as directed by Matt. xxviii. το f.-and Mark xvi. 15 f., making “ believers” from all the nations of the world (17. 2, 19—29).
-
-H
+## Similitude 9.25.2
+**teachers who preached to the whole world**: They preached, taught and baptized as directed by Matt. xxviii. 19 f. and Mark xvi. 15 f., making “believers” from all the nations of the world (17. 2, 19—29).
 --- flags
-1 childliness [rare] →
-2 f.-and [conf] →
+1 childliness [rare] → ok (translation, left out)
+2 f.-and [conf] → f. and
 --- notes
+The draft's '+ ' run-on (end of Similitude 9.24.2) was translation: left out, so nothing runs on. Translation left out also for verses 3-4 and CHAPTER 25, verses 1-2. One footnote, its mark after "preached to the whole world," in 9.25.2; the draft had it without the [Note:] wrapper as a plain paragraph, now the footnote under its heading. Unflagged: "xxviii. το f." is "xxviii. 19 f.". The signature letter H at the foot of the page is left out. The spaces the print sets inside the quotation marks are not kept.
 
 === p-20118
-CHAPTER 26
+## Similitude 9.26.2
+**which they had received to administer**: Gr. *therion* (26. 1, 7) is rendered “*venomous* beast” in Acts xxviii. 4 A. V. 2 Pet. ii. 13, if Hermas knew the Epistle, would account for his choice of stones with *spots* (6. 4, 8. 7) to represent ministers tainted with avarice.
 
-## 1
-THE believers from the ninth mountain, which was desert and had in it the creeping things and beasts hurtful to men, are of this kind. 2. They with the spots are deacons who ministered amiss, and plundered the living of widows and orphans, and gat gain for themselves from the ‘ministry which they had received to administer.* If therefore they continue in the same covetousness, they are dead and have no hope of life; but if they convert and discharge their ministry incorruptly, they shall be able to live. 3. The scabbed ones are those who denied and turned not again unto their Lord ; but being grown barren and desert, not cleaving to the servants of God but keeping alone, they destroy their own souls.t 4. For as a vine left alone within a fence and treated with neglect is spoiled and wasted by the weeds, and in time groweth wild
-
-[Note: * Gr. therion (26. 1, 7) is rendered * venomous beast” in Acts xxviii. 4 A.V. 2 Pet. ii. 13, if Hermas knew the Epistle, would account for his choice of stones with “2025 (6. 4, 8. 7) to represent ministers tainted with avarice. Τ᾽ Cp. in the Way of Death in the Didac/ke, “ not cleaving to the saints” ; and for Gr. monazein, to keep alone, see also Barn. iv. 10.]
+## Similitude 9.26.3
+**they destroy their own souls**: Cp. in the Way of Death in the *Didache*, “not cleaving to the saints”; and for Gr. *monazein*, to keep alone, see also Barn. iv. 10.
 --- flags
-1 gat [rare] →
-2 ‘ministry [conf] →
-3 incorruptly [rare] →
-4 souls.t [conf] →
-5 venomous [conf] →
-6 “2025 [conf] →
-7 Τ᾽ [conf] →
-8 Didac/ke, [conf] →
-9 monazein [rare] →
+1 gat [rare] → ok (translation, left out)
+2 ‘ministry [conf] → ministry (translation, left out)
+3 incorruptly [rare] → ok (translation, left out)
+4 souls.t [conf] → souls.† (the footnote's mark, left out)
+5 venomous [conf] → ok (*venomous*, italic)
+6 “2025 [conf] → spots (*spots*, italic)
+7 Τ᾽ [conf] → † (the second footnote's mark, left out)
+8 Didac/ke, [conf] → Didache, (*Didache*, italic)
+9 monazein [rare] → ok (*monazein*, italic)
 --- notes
+Translation left out (CHAPTER 26, Similitude 9.26.1-4; the draft's heading "## 1" was a verse number of the translation, deleted). Two footnotes: * after "received to administer." in 9.26.2, † after "their own souls." in 9.26.3; the draft had run them into one [Note:], now split under their headings. Unflagged: "* venomous beast”" is "“*venomous* beast”"; "A.V." is "A. V." as printed; "cleav-ing" written whole; italics added for *therion*. The spaces the print sets before ";" and inside the quotation marks are not kept.
 
 === p-20119
-+ and is no longer meet for its master’s use; so such men despair of themselves, and having grown wild become unprofitable to their Lord.
-
-## 5
-For these however there is repentance, unless they be found to have denied from the heart; but if one be found to have denied from his heart I know not if he can live. 6. This I say not for these days, that a man after denying should be allowed repentance, for it is impossible that one who is now going to deny his Lord should be saved ; but for those who denied long ago there seemeth yet to be opportunity of repentance. If then any one is about to repent, let him be quick before the tower is finished off; else he shall be wasted by the women unto death. 7. The stunted ones, these are wily men and slanderers; and the beasts which thou sawest on the mountain are these also. For as the beasts poison and destroy a man by their venom, even so do the words of such persons corrupt and destroy a man. 8. These therefore are maimed in their faith by reason of the customs which they practise; but some repented and were saved. And the rest who are such may be saved if they repent ; but if they repent not, they shall die by the hand of those women, of whose power they are possessed.
 --- flags
 --- notes
+No text to keep: the page has no footnotes. Translation left out (end of Similitude 9.26.4, verses 5-8; the draft's '+ ' run-on and heading "## 5" were translation, deleted).
 
 === p-20120
-CHAPTER 27
-
-## 1
-THE believers from the tenth mountain, on which were trees sheltering sheep, are such as these. 2. Bishops given to hospitality, who always gladly received the servants of God into their houseswithout hypocrisy ; and they always* sheltered the destitute and widows by their ministry without ceasing, and they behaved themselves incorruptly at all times. 3. These therefore shall all be sheltered by the Lord continually. They who did such things are glorious in the sight of God, and their place is already with the angels if they persevere to the end serving the Lord.
-
-CHAPTER 28
-
-## 1
-THE believers from the eleventh mountain, whereon were very fruitful trees decked with different kinds of fruits, are such as these. 2.
-
-* On hospitality see the N. T. and Clem. Cor. i. x—χῆ. The Athos MS. reads, “ Bishops and men given to hospitality . . . and the bishops always. . . .” With “their place ” (27. 3) compare John xiv. 2 7 go to prepare a place for you.
-
-MENA
-
-a ai
-
-νυ:
+## Similitude 9.27.2
+**and they always**: On hospitality see the N. T. and Clem. *Cor.* i. x—xii. The Athos MS. reads, “Bishops *and* men given to hospitality . . . and the bishops always. . . .” With “their place” (27. 3) compare John xiv. 2 *I go to prepare a place for you*.
 --- flags
-1 houseswithout [rare] →
-2 incorruptly [rare] →
-3 and [conf] →
-4 MENA [conf] →
-5 a [conf] →
-6 ai [conf] →
-7 νυ: [conf] →
+1 houseswithout [rare] → houses without (translation, left out)
+2 incorruptly [rare] → ok (translation, left out)
+3 and [conf] → ok (*and*, italic)
+4 MENA [conf] → (noise at the page edge, deleted)
+5 a [conf] → (noise at the page edge, deleted)
+6 ai [conf] → (noise at the page edge, deleted)
+7 νυ: [conf] → (noise at the page edge, deleted)
 --- notes
+Translation left out (CHAPTER 27, Similitude 9.27.1-3, CHAPTER 28, verse 1; the draft's headings "## 1" were verse numbers of the translation, deleted). One footnote, its mark after "and they always" in 9.27.2; the draft had it without the [Note:] wrapper as a plain paragraph, now the footnote under its heading. Unflagged: "i. x—χῆ." is "i. x—xii."; "John xiv. 2 7 go" is "John xiv. 2 *I go*"; "hos-pitality" written whole; italics added for *Cor.* and *I go to prepare a place for you*. The lines "MENA", "a ai", "νυ:" in the draft were OCR noise at the page edge: deleted. The spaces the print sets inside the quotation marks are not kept.

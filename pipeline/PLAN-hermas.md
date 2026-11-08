@@ -262,7 +262,7 @@ converter and came out as Greek letters.)
 - [x] Step 3: draft (Greek and Latin) (2026-11-08): 143 Greek pages, 815 verse blocks, 24 batches; 25 % of the verses flagged before the footnote-mark flags (44 % with them); all 207 First1K notes placed; Latin 8 pages, 40 verse blocks, 25 % (`batch-latin.md`)
 - [x] Step 4: text and apparatus batches, residuals (2026-11-08): 24 Greek batches and `batch-latin.md` checked and independently reviewed (five workflows of ten agents), the residual pass (628 items, one change); 207 apparatus items (209 marks), 111 margin references, as First1K; 25 checker remarks, all Lake's misprints noted
 - [x] Step 5: merge, Tauber and First1K checks, misprints, review (2026-11-08): `texts/hermas/` written (693 verses, 207 apparatus items + 29 notes of corrected misprints, 27,138 tokens, none without a lemma); the First1K differences and Tauber's comparison notes settled on the page; 28 misprints and one title corrected (`MISPRINTS`, `TITLE_MISPRINTS`); `check` 0 errors; ten verses compared with the page
-- [ ] Step 6: Lake's and Taylor's notes
+- [x] Step 6: Lake's and Taylor's notes (2026-11-08): Lake's from Perseus (234 verses: side-headings, footnotes, the margin references), one Greek slip of the Perseus file corrected as printed; Taylor's 231 pages in 29 batches checked and reviewed (six workflows), 174 notes under 173 verses and 6 on the Latin end (in the appendix)
 - [ ] Step 7: introductions
 - [ ] Step 8: appendix (the Latin end)
 - [ ] Step 9: translation, sigla, glossary, aliases, short definitions, homographs, about, READMEs
@@ -470,6 +470,28 @@ converter and came out as Greek letters.)
   * **Ten verses compared with the page by eye** (1.1.4, 2.3.4, 6.1.2, 9.2.1, 16.1.8, 20.1.2,
     22.1.1, 25.6.4, 26.11.2, 26.16.5): all as printed, the corrected misprints apart; the comma
     after Διατί οὖν (20.1.2) looked at again: a comma with a speck above, kept.
+
+* **2026-11-08, step 6: the notes.**
+  * **Lake's notes** (`commentary-lake.md`, written by the merge from the Perseus translation):
+    234 verses with his side-headings (italic), his 58 footnotes and the margin references of the
+    Greek pages. The Greek in his notes looked over for impossible accents: one slip of the Perseus
+    file, ἀνεγνωρισἀμην, read on his p. 7 (leaf 19) as ἀνεγνωρισάμην and corrected
+    (`PERSEUS_FIXES`).
+  * **Taylor's notes**: `drama-prose hermas notes` drafted 231 pages (Taylor I leaves 61-168,
+    Taylor II 13-135) into 29 batches of eight; each checked by one agent (INSTRUCTIONS-prose.md,
+    the Taylor section) and reviewed by a second (drama REVIEW.md, the prose section), five batches
+    to a workflow; the prose checker run on every file (0 remarks on all 29); committed after each
+    workflow. The merge (`taylor_notes_and_introduction`, tried first on batches 1-5) placed every
+    note: `commentary-taylor.md`, 174 notes under 173 verses; the 6 on the Latin end (after
+    26.30.2) go to the appendix with the Latin.
+  * **Rules settled on the way** (in the Taylor section of INSTRUCTIONS-prose.md): Taylor's
+    printing slips, a wrong or dropped letter that makes no word ("Gosbels", "he Gospel", *Mana.*)
+    or a footnote ending in a printed comma with nothing after it (worn type), are corrected with a
+    line under notes; anything that could be his own spelling or wording stays as printed (the
+    reference "Gen. xxviii. 1" for verse 11, "vi. i. 4", "conj", "*Mand*" without its stop). Where
+    Taylor prints no verse number before a mark, the heading is the traditional verse the mark
+    stands in (Mandate 10.1.2). Both forms of a heading for a book of one chapter (`Mandate 7.1.4`,
+    `Mandate 7.4`) are read alike by the merge.
 
 ## Sizes, for planning
 

@@ -184,3 +184,17 @@ Lake's note: “recte facere” can hardly be translated otherwise: but from the
 **Similitude 10.4.5** Postquam vero locutus est mecum, surrexit de lecto et apprehenso pastore et virginibus abiit, dicens autem mihi, remissurum se pastorem illum et virgines in domum meam.
 
 *Now after he had spoken this he rose from the couch, and took the shepherd and the maidens and departed, but said to me that he would send back the shepherd and the maidens to my house.*
+
+# Taylor's notes on the Latin end
+
+**Similitude 9.30.4** **all equity and virtue of truth**: So the Latin. But see Mand. iii. 1 *all truth*; i. 2, *Sim.* vi. i. 4 *every virtue of righteousness* (x. 1. 2 *aequitatis*).
+
+**Similitude 9.31.2** **be meet for the kingdom of God**: Compare the Oxyrhynchus Saying quoted in *Sim.* v. 3. 3 n., *Except ye fast from the world, etc.*
+
+**Similitude 9.31.6** **a shepherd should be harmed by sheep**: As if, in accordance with a saying of the *Didache*, the sheep had been *turned to wolves*.
+
+**Similitude 9.32.5** **to trample His mercy under foot**: Lat. *calcare nolite*, cp. Heb. x. 29.
+
+**Similitude 10.3.1** **these commandments should be kept**: To be without these virgins is to be without the Holy Spirit, in whose power men walk in righteousness and truth, cp. *Sim.* ix. 13. 2 n, 25. 2.
+
+**Similitude 10.4.5** **the virgins and departed**: The Angel here, representing the Son of God (Harn., Funk), having said that he has already sent the virgins to dwell with Hermas (3. 1), is somewhat strangely made to take them away again, with a promise to send them back. This suggests an allusion to John xvi. 7 *if I go not away, the Paraclete will not come unto you; but if I depart, I will send him unto you.*

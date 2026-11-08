@@ -230,7 +230,8 @@ II (`p-30139`). The crops are in a folder per scan, `pipeline/build/drama-prose/
   a heading). Two footnotes on the same verse: the same heading twice is fine, or one heading
   and two paragraphs.
 * *Taylor's printing slips*: a wrong or dropped letter that makes no word ("Gosbels", "he Gospel",
-  *Mana.* for *Mand.*) is corrected, with a line under `--- notes` saying what is printed; anything
+  *Mana.* for *Mand.*), and a footnote that ends with a printed comma where nothing follows (worn
+  type), are corrected, with a line under `--- notes` saying what is printed; anything
   that could be his own spelling or wording stays as printed.
 * A footnote that runs over to the next page: its rest is the first paragraph of the next page's
   block, marked `+ ` (and nothing else on that page is so marked).
