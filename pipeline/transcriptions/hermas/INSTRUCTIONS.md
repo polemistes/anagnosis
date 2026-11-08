@@ -44,6 +44,10 @@ For each page `p-0020` (leaf 20 of the scan = Lake's p. 8; the page is the leaf 
 * `pages/leaf_0020.png`: the whole page (about 1780 pixels wide). You will need it for the
   footnote marks, which are small: open it for every page that has marks.
 
+**Where the scan cuts off the right edge or blurs the foot** of a page, read it on Google's scan of
+the same printing plates, `https://archive.org/download/TheApostolicFathersV2/page/n<PAGE+14>_w1500.jpg`
+(Lake's p. 198 → n212), saved in your own folder, and say so in notes.
+
 **Keep image requests light**: the lines image, the apparatus halves, the margin crop, and the
 whole page once per page.
 
@@ -162,7 +166,8 @@ The flags, and what to do:
 * **The sigla** (Lake's introduction, pp. 3-5): ℵ (Codex Sinaiticus; U+2135), with its hands ℵ*
   (the first hand), ℵᶜ, ℵᵃ (correctors: raised small letters ᶜ ᵃ); A (Codex Athous); H (the Hamburg
   fragment); the papyri Pᵃᵐ (Amherst), Pᵒˣʸ (Oxyrhynchus: Lake prints "Poxy" with oxy raised; earlier
-  lists said Pᵒˣ, which is wrong), Pᵇᵉʳ (Berlin), written with raised small letters as printed; the versions L₁ (Vulgate), L₂ (Palatine) with subscript digits
+  lists said Pᵒˣ, which is wrong), Pᴮᵉʳˡ (Berlin: Lake prints P with "Berl" raised, a capital B), written with raised
+  letters as printed; the versions L₁ (Vulgate), L₂ (Palatine) with subscript digits
   (U+2081 ₁, U+2082 ₂), L (both), E (Ethiopic), C (Coptic); the Fathers Clem., Athan., Ant. (as
   printed). Sigla run together as printed (`ℵᶜAL₂(E)`, `AL₁`), a space where Lake leaves one.
   Parentheses around a siglum (`A(L)`, `(E)`) as printed: they mean the witness supports the

@@ -17,7 +17,7 @@ right until you have seen it on the image. For each page:
 
 1. **The apparatus**, item by item against the print: every item present (each raised numeral at
    the foot begins one), its number as printed, the lemma, readings, sigla with their raised and
-   lowered letters (ℵ* ℵᶜ ℵᵃ L₁ L₂ Pᵃᵐ Pᵒˣʸ), Lake's Latin and English as printed, the Greek accents
+   lowered letters (ℵ* ℵᶜ ℵᵃ L₁ L₂ Pᵃᵐ Pᵒˣʸ Pᴮᵉʳˡ), Lake's Latin and English as printed, the Greek accents
    and breathings right; an item that runs on to the facing English page (INSTRUCTIONS) read
    there to its end. Add what is missing, correct what is wrong. This is where most errors are.
 2. **The footnote marks**: every raised numeral in the Greek text of the page found and written
