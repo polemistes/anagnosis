@@ -263,9 +263,9 @@ converter and came out as Greek letters.)
 - [x] Step 4: text and apparatus batches, residuals (2026-11-08): 24 Greek batches and `batch-latin.md` checked and independently reviewed (five workflows of ten agents), the residual pass (628 items, one change); 207 apparatus items (209 marks), 111 margin references, as First1K; 25 checker remarks, all Lake's misprints noted
 - [x] Step 5: merge, Tauber and First1K checks, misprints, review (2026-11-08): `texts/hermas/` written (693 verses, 207 apparatus items + 29 notes of corrected misprints, 27,138 tokens, none without a lemma); the First1K differences and Tauber's comparison notes settled on the page; 28 misprints and one title corrected (`MISPRINTS`, `TITLE_MISPRINTS`); `check` 0 errors; ten verses compared with the page
 - [x] Step 6: Lake's and Taylor's notes (2026-11-08): Lake's from Perseus (234 verses: side-headings, footnotes, the margin references), one Greek slip of the Perseus file corrected as printed; Taylor's 231 pages in 29 batches checked and reviewed (six workflows), 174 notes under 173 verses and 6 on the Latin end (in the appendix)
-- [ ] Step 7: introductions
+- [x] Step 7: introductions (2026-11-08): 7 batches checked and reviewed (Lake 4 pages, Taylor I 46, Taylor II 5); `introduction.md`: Lake's introduction (1913), Taylor's introduction (1903) in five chapters with his lettered parts, Taylor: Hermas and the Gospels (1906), signed
 - [x] Step 8: appendix (the Latin end) (2026-11-08): `appendix.md` from `batch-latin.md` (checked and reviewed at step 4), 34 sections 9.30.3-10.4.5 in order with Lake's translation and his 5 apparatus items, Taylor's 6 notes on the Latin end at its foot; one slip of the Perseus translation corrected; p. 304 read against the file
-- [ ] Step 9: translation, sigla, glossary, aliases, short definitions, homographs, about, READMEs
+- [x] Step 9: translation, sigla, glossary, aliases, short definitions, homographs, about, READMEs (2026-11-08): 47 lemma corrections, 5 tokens by hand, one more misprint (26.23.5); glossary 43 names and shortdefs.tsv 72 entries (written and reviewed by agents, the rest by hand): every lemma has a short definition; 24 aliases; 2 homograph groups; sigla.md, about.md, texts/README.md, play/README.md
 - [ ] Step 10: build, pack, catalogue, emulator check
 
 ## Decisions
@@ -503,6 +503,48 @@ converter and came out as Greek letters.)
   God’;": corrected (`PERSEUS_FIXES`, now applied to the translation as well as the notes; no
   other stray character in the Perseus text). Sim. 10.4.3-5 compared with p. 304 by eye: word for
   word.
+
+* **2026-11-08, step 7: the introductions.** `intro-01.md` (Lake, pp. 2-5) ran with the last notes
+  batches; `intro-02` to `intro-06` (Taylor I, pp. 9-52) in one workflow; `intro-07` (the end of
+  Taylor's introduction and his appendix, Taylor II pp. 135-139) alone; each checked and reviewed,
+  the prose checker 0 remarks on all. Settled on the way: Taylor's chapters `##`, his lettered parts
+  `###` in every batch; verse he quotes (Shakespeare) kept in its paragraph with ` | ` between the
+  lines, the source last; a line the draft lost under a library stamp (p. 53) restored from the
+  page; his slips as in step 6 ("he may chose" stays: a real word). The merge writes
+  `introduction.md`: "Lake's introduction (1913)", "Taylor's introduction (1903)" (1. Authorship
+  and Date … 5. The Doctrine of Hermas, with A.-C. parts), "Taylor: Hermas and the Gospels
+  (1906)" ending with his signature.
+* **2026-11-08, step 9: the reference files.**
+  * **Lemmas.** The merge log listed 73 lemmas no dictionary has. Most were GLAUx's garbled
+    lemmas (γιρρήσγω for ἀπερρηγὼς, πίλσκω for ἔλθη, λογίσανταμαι, πηρωτωᾴ …) or names given to the
+    wrong word (Ἑρμῆς the god for Ἑρμᾶ, Κώμη for Κώμας, Γραπτεύς, Κάλος for Κάλει): corrected in
+    `LEMMA_FIXES["hermas"]` (46), with ἰάζω → ἰάομαι (ἰάσεται), ἀείρω → αἴρω (ἦραν, ἆρον: the Koine
+    headword), πυρίνη → πύρινος. Five tokens by hand (`HAND_ANALYSES["hermas"]`): κʹ at Sim. 9.5.4
+    (GLAUx: ἄν), the names Γραπτὴ and Ἁπλότης (Sim. 9.15.2, a maiden's name), and two tags
+    (συμφυρμοὺς, διχοστάταις are nouns). Found on the way: Lake prints "μετα-|νήσατε" at Sim. 9.23.5,
+    the ο lost at the line's end (looked at on p. 276): a 29th misprint, in `MISPRINTS` (Tauber
+    keeps it).
+  * **Glossary and short definitions**: `glossary.md`, 43 names (persons, places, angels, and the
+    virtues and vices the text uses as names: the seven women of Vis. 3.8, the maidens and the women
+    in black of Sim. 9.15), and `shortdefs.tsv`, the 31 words no dictionary has (διψυχέω, ὀξυχολία,
+    συμψέλιον, πολυσπλαγχνία …) and the numerals: each written by one agent from the words' use in
+    the text, Lake's English and Taylor's and Lake's notes (no copyrighted lexicon), and reviewed by
+    a second, who corrected seven glossary entries and four definitions. Then by hand the 35 lemmas
+    that Logeion's list lacks (διατί, διψυχία, ἱστάνω, ποτέ …, and short glosses of the names):
+    `check` now finds a short definition for every lemma (1792/1792).
+  * **Aliases** (`aliases.tsv`, 24): the other spellings found by `resolve_lemmas`, and the Koine
+    headwords of Abbott-Smith (`KOINE` extended: σῴζω → σώζω, θλῖψις → θλίψις, ἀμφότερος →
+    ἀμφότεροι, ἐλαχύς → ἐλάχιστος). Abbott-Smith lacks some common words (ἄν, δεύτερος, ἁπλότης
+    as transcribed): LSJ and Middle Liddell have them.
+  * **Homographs**: the text's lemmas in Logeion's homograph groups not yet classified were three:
+    ἀκακία (both nouns: n, n; the word sheet lists both, marks none, as ὥρα), εὐθαλής (a; "[Dor.]"
+    -), and ἰάζω, which was GLAUx's wrong lemma for ἰάσεται (now ἰάομαι). Two groups added to
+    `homographs.tsv`.
+  * **Perseus**: "Hennas the temperate" (Vis. 1.2.4) corrected to "Hermas" (`PERSEUS_FIXES`).
+  * `sigla.md` from Lake's list of witnesses (pp. 3-5, `intro-01`) and what his apparatus uses
+    (the hands of ℵ, Pᵃᵐ/Pᴬᵐʰ, Pᵒˣʸ/Pᵒˣ, Pᴮᵉʳˡ, E₁ and the unexplained F, the Fathers, the signs),
+    each place it cites looked up; `about.md` (product hermas_shepherd_lake, google_play yes);
+    the section in texts/README.md and the row in play/README.md.
 
 ## Sizes, for planning
 

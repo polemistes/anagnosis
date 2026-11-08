@@ -666,6 +666,9 @@ Retranslated from LE, om. A.
 ## 26.22.4
 μωροὶ καὶ . . . ἐάν retranslated from LE. A is illegible, but seems to read πονηρ(ότατοι ?) instead of μωροί.
 
+## 26.23.5
+μετανοήσατε: Lake prints μετανήσατε, a misprint; corrected in this edition.
+
 ## 26.28.5
 τοῦτο L₂, τούτου A, αὐτοῦ L₁E.
 

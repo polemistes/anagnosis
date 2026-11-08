@@ -69,6 +69,7 @@ MISPRINTS: dict[str, dict[str, list[tuple[str, str]]]] = {
         "26.11.7": [("παρθένον", "παρθένων")],
         "26.12.5": [("τῆν", "τὴν")],
         "26.16.5": [("σφαγῖδα", "σφραγῖδα")],
+        "26.23.5": [("μετανήσατε", "μετανοήσατε")],  # "μετα-|νήσατε", the ο lost at the line's end
         "26.29.1": [("κακια", "κακία")],
     },
 }
@@ -76,6 +77,7 @@ MISPRINTS: dict[str, dict[str, list[tuple[str, str]]]] = {
 PERSEUS_FIXES: dict[str, str] = {
     "ἀνεγνωρισἀμην": "ἀνεγνωρισάμην",  # p. 7, note 1
     "needs must€ enter": "needs must ‘enter",  # Sim. 9.31.2, p. 293
+    "Hennas the temperate": "Hermas the temperate",  # Vis. 1.2.4: rn read for m
 }
 
 
@@ -96,6 +98,7 @@ TITLE_MISPRINTS: dict[str, dict[int, tuple[str, str]]] = {
 KOINE: dict[str, str] = {
     "γίγνομαι": "γίνομαι", "γιγνώσκω": "γινώσκω", "ἐθέλω": "θέλω", "πορεύω": "πορεύομαι", "ἀποκρίνω": "ἀποκρίνομαι",
     "οὕτως": "οὕτω", "φοβέω": "φοβέομαι",
+    "σῴζω": "σώζω", "θλῖψις": "θλίψις", "ἀμφότερος": "ἀμφότεροι", "ἐλαχύς": "ἐλάχιστος",
 }
 
 

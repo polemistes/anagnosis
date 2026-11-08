@@ -339,6 +339,44 @@ the public domain; the transcription is published under CC BY-SA 4.0.
 * `sigla.md` (from Nilén's praefatio), `glossary.md` (the names and Lucian's invented words),
   `shortdefs.tsv` and `aliases.tsv` are written by hand.
 
+## The Shepherd of Hermas (`texts/hermas/`)
+
+Kirsopp Lake's Loeb edition (*The Apostolic Fathers*, vol. II, London, Heinemann, 1913, the 1917
+reprint), read from the Internet Archive scan apostolicfathers02lakeuoft and made by
+`merge-hermas` from the checked transcription in `pipeline/transcriptions/hermas/` (brief
+`pipeline/PLAN-hermas.md`, modules `hermas_text.py`, `lake_pages.py`, `lake_merge.py`). The
+editions are in the public domain; the transcription is published under CC BY-SA 4.0.
+
+* Greek text (`grc.txt`): Lake's, read by OCR and matched word by word to J. Tauber and S.
+  Macdonald's digital text of this edition (the check text only); the flags, then every word,
+  stop and accent where print and text still differed, settled against the page image and
+  reviewed. Prose, one line per verse in the traditional numbering of 27 books (`9.1.2`; the app
+  cites it "Mandate 4.1.2": `# citation: dotted`), each chapter headed by its number and the
+  continuous chapter number (1-114); Lake's titles of the books as printed. 29 misprints in his
+  text and one in a title are corrected (`MISPRINTS`, `TITLE_MISPRINTS` in `lake_merge.py`; the
+  batches keep the print), each with a note in the apparatus. The Greek ends at Similitude 9.30.2,
+  where manuscript A breaks off. Read aloud in the Koine pronunciation.
+* Critical apparatus (`commentary-lake-apparatus.md`): Lake's 207 items, each under the verse of
+  its footnote mark (the marks are numbered by the page in the print and left out of the text);
+  compared item by item with First1KGreek's digital apparatus of the same edition.
+* Translation (`eng-lake.txt`): Lake's (Perseus Digital Library, CC BY-SA 4.0), by verse.
+* Commentary (`commentary-lake.md`): Lake's side-headings and footnotes from the Perseus
+  translation, and the Bible references in the margin of his Greek pages (transcribed).
+* Commentary and introduction (`commentary-taylor.md`, `introduction.md`): Charles Taylor's notes
+  to his translation (*The Shepherd of Hermas*, Early Church Classics, SPCK, vol. I 1903, vol. II
+  1906; scans shepherdofhermas0000herm, shepherdofhermas02hermuoft), read by OCR and checked
+  against the page images: only his footnotes, each under the verse of its mark; his introduction
+  (vol. I) and his appendix "Hermas and the Gospels" (vol. II, 1906), after Lake's introduction.
+* Appendix (`appendix.md`): the end of the book (Similitude 9.30.3-10.4.5) in the Latin version
+  with the Greek of the papyri, as Lake prints it, with his translation, his apparatus and
+  Taylor's notes on it.
+* Lemmas, morphology and syntax (`tokens.tsv`, `syntax-nodes.tsv`): GLAUx 1419-001 (automatic,
+  CC BY-SA 4.0) aligned to Lake's words; garbled lemmas corrected in `drama_fixes.py`
+  (`LEMMA_FIXES["hermas"]`). The numerals keep their keraia (μʹ). Koine spellings lead to
+  Abbott-Smith through `aliases.tsv`.
+* `sigla.md` (from Lake's introduction and his apparatus), `glossary.md` (the names) and
+  `shortdefs.tsv` (the words no dictionary has) are written by hand.
+
 ## The Odyssey (`texts/odyssey/`)
 
 The Greek text is T. W. Allen's Oxford edition (*Homeri Opera* III–IV, 2nd ed., 1917 and 1919),
