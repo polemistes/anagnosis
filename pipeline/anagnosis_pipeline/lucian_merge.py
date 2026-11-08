@@ -534,9 +534,14 @@ def jerram_line_map(play: Play, sources: Path, build: Path | None = None) -> dic
                 continue  # the running head: BOOK I. 5
             ws = sorted(l["words"], key=lambda w: w["bbox"][0])
             num = None
+            # his line numbers stand in the outer margin: at the right of a right-hand page, at the
+            # left of a left-hand one
             if ws and re.fullmatch(r"\d{1,3}", ws[-1]["text"].strip("._,")) and ws[-1]["bbox"][0] > 0.8 * W:
                 num = int(ws[-1]["text"].strip("._,"))
                 ws = ws[:-1]
+            elif ws and re.fullmatch(r"\d{1,3}", ws[0]["text"].strip("._,")) and ws[0]["bbox"][2] < 0.2 * W:
+                num = int(ws[0]["text"].strip("._,"))
+                ws = ws[1:]
             li = len(plines)
             plines.append({"leaf": leaf, "num": num, "text": " ".join(w["text"] for w in ws)})
             for w in ws:
@@ -550,7 +555,13 @@ def jerram_line_map(play: Play, sources: Path, build: Path | None = None) -> dic
         if o is not None:
             by_line.setdefault(ocr[o]["line"], []).append(j)
     count = {li: sum(1 for t in ocr if t["line"] == li) for li in range(len(plines))}
-    greek_lines = [li for li in range(len(plines)) if count[li] and len(by_line.get(li, [])) >= max(1, count[li] / 3)]
+    # a Greek line: half its words matched, two of them of three letters or more (a line of loose
+    # accents read on its own matches a letter or two by chance; an English summary nothing)
+    def is_greek(li: int) -> bool:
+        hits = by_line.get(li, [])
+        return bool(count[li]) and len(hits) >= count[li] / 2 and sum(1 for j in hits if len(toks[j]["skel"]) >= 3) >= 2
+
+    greek_lines = [li for li in range(len(plines)) if is_greek(li)]
     out: dict[str, list[tuple[str, str]]] = {}
     book, n = None, 0
     by_leaf: dict[int, list[int]] = {}
@@ -560,20 +571,26 @@ def jerram_line_map(play: Play, sources: Path, build: Path | None = None) -> dic
         gl = by_leaf.get(leaf, [])
         if not gl:
             continue
-        # the book of each line from the sections of its words; a new book starts at 1
-        offsets = []
+        # the book of each line from the sections of its words; a new book starts at 1. The
+        # page's printed numbers (multiples of 5, near where the count has got to; the OCR
+        # misreads some: 338 for 340) fix the numbering of its lines; a page without one runs on
+        b0 = toks[by_line[gl[0]][0]]["sec"].split(".")[0]
+        start = 0 if b0 != book else n
+        anchors: list[tuple[int, int]] = []  # (index on the page, printed number)
         for i, li in enumerate(gl):
             num = plines[li]["num"]
-            if num and num % 5 == 0:
-                offsets.append(num - i)
+            if num and num % 5 == 0 and abs(num - (start + i + 1)) <= 8 and (not anchors or num > anchors[-1][1]):
+                anchors.append((i, num))
         for i, li in enumerate(gl):
             b = toks[by_line[li][0]]["sec"].split(".")[0]
             if b != book:
                 book, n = b, 0
-                offsets = [o for o in offsets if o + i > 0 and o + i <= 10] or []
-            if offsets:
-                off = max(set(offsets), key=offsets.count)
-                n = i + off if i + off > n else n + 1
+            # from the nearest anchor before the line (after it, for the lines above the first)
+            before = [a for a in anchors if a[0] <= i]
+            if before:
+                n = before[-1][1] + (i - before[-1][0])
+            elif anchors:
+                n = max(n + 1, anchors[0][1] - (anchors[0][0] - i))
             else:
                 n += 1
             out[f"{book}.{n}"] = [(t["skel"], t["sec"]) for t in (toks[j] for j in by_line[li])]
@@ -619,7 +636,7 @@ def jerram_notes(play: Play, paras: list[str], units: list[dict], out: Path, sou
             ls = [skel(w) for w in re.findall(r"[Ͱ-Ͽἀ-῿ʼ]+", lemma.group(1)) if skel(w)]
             found = False
             # the lemma on his line; else on a line near it (his number misprinted or misread)
-            for d in (0, -1, 1, -2, 2, -3, 3):
+            for d in (0, -1, 1, -2, 2, -3, 3) + tuple(x for k in range(4, 13) for x in (-k, k)):
                 ws = jmap.get(f"{bk}.{int(line) + d}", [])
                 hit = next((s for sk, s in ws if ls and sk == ls[0]), None)
                 if hit:
@@ -628,7 +645,7 @@ def jerram_notes(play: Play, paras: list[str], units: list[dict], out: Path, sou
                         problems.append(f"jerram: the lemma of his note {bk}.{line} stands on his line {bk}.{int(line) + d}")
                     break
             if ls and not found:
-                problems.append(f"jerram: the lemma of his note {bk}.{line} ({lemma.group(1)}) is not on his lines {int(line) - 3}-{int(line) + 3}; "
+                problems.append(f"jerram: the lemma of his note {bk}.{line} ({lemma.group(1)}) is not on his lines {int(line) - 12}-{int(line) + 12}; "
                                 f"filed under {sec}")
         if sec not in have:
             problems.append(f"jerram: note on his {bk}.{line} goes to section {sec}, which we do not have")
@@ -679,13 +696,26 @@ def dcc_notes(page: str) -> list[str]:
         t = htmlmod.unescape(t).replace("\xa0", " ")
         t = " ".join(t.split())
         t = re.sub(r"\*\s*\*", "", t).strip()
-        if not t or t == "*":
-            continue
+        if not t or t == "*" or t == "VERB LIST":
+            continue  # a link to the site's list of verbs, not a note
         t = greek.nfc(t)
         if not t.startswith("*"):
             mm = re.match(r"^([^:*]{1,90}?):\s", t)
             if mm and re.search(r"[Ͱ-Ͽἀ-῿]", mm.group(1)):
                 t = f"**{mm.group(1).strip()}**: {t[mm.end():]}"
+            else:
+                # no colon ("γινομένης = γιγνομένης", "ἔρρει impf. of ῥέω"): the Greek words that
+                # open the note are its lemma
+                words = t.split(" ")
+                k = 0
+                while k < len(words) and (re.search(r"[Ͱ-Ͽἀ-῿]", words[k]) and not re.search(r"[A-Za-z]", words[k])
+                                          or words[k] in ("...", "…")):
+                    k += 1
+                while k > 0 and words[k - 1] in ("...", "…"):
+                    k -= 1
+                if k:
+                    lemma = " ".join(words[:k]).rstrip(";,")
+                    t = f"**{lemma}**" + t[len(" ".join(words[:k])):]
         out.append(t)
     return out
 

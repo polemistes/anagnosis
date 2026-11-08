@@ -176,9 +176,9 @@ Nilén's apparatus, but an altered one, which will make you the editor".
 - [x] Step 3: draft (2026-11-08): 80 pages, 1480 lines, 220 flagged (14 %), all 89 sections placed, apparatus and short rule found on all 80 pages; 14 batches
 - [x] Step 4: text and apparatus batches, residuals (2026-11-08): 14 batches checked and independently reviewed (workflows, 7 at a time), residual pass (433 items, 7 agents); every checker remark explained
 - [x] Step 5: merge, lemma check, Harmon checklist, review (2026-11-08): 104 lines (89 sections), 1660 apparatus items, 11176 words; 26 Harmon notes and 96 lemma misses settled, ten sections by eye; one slip fixed (144.21)
-- [ ] Step 6: Jerram's notes
-- [ ] Step 7: introduction
-- [ ] Step 8: DCC notes
+- [x] Step 6: Jerram's notes (2026-11-08): 20 pages in 3 batches checked and reviewed; 261 notes under 78 sections, placed by his own line numbers mapped to ours
+- [x] Step 7: introduction (2026-11-08): Jerram's introduction (pp. ix-xxiii), 2 batches checked and reviewed
+- [x] Step 8: DCC notes (2026-11-08): 86 pages (89 sections; 2.7-2.10 one page), 1798 paragraphs; twenty notes compared with the site, all agree
 - [ ] Step 9: translation, sigla, glossary, about, READMEs
 - [ ] Step 10: build, pack, catalogue, emulator check
 
@@ -336,6 +336,34 @@ Nilén's apparatus, but an altered one, which will make you the editor".
     others were right (σκοκῶν and μεγέθος, Nilén's misprints, have σκοπός and μέγεθος).
   * Nilén's black blocks in "ἔμελλ■ ambig. Z" (p. 130) are two small blocks stacked in one letter's
     width; written as one ■.
+* **2026-11-08, steps 6-7: Jerram.** `drama-prose truestory notes|intro fetch|ocr|draft` (the
+  batches now go to `transcriptions/lucian/truestory/`, `drama_prose.transcriptions_for`); 571 and
+  132 flags. `Play.note_start` for Jerram: "Line 4.", "l. 17.", "ll. 26, 27." and the OCR's 1./I./|
+  for l.; headings `## N` under `# Book I` / `# Book II` (the prose checker resets the order at a
+  Book heading and does not compare his numbers with ours). Five batches, each checked and
+  independently reviewed (a workflow of 10 agents), every checker remark explained. The section
+  of each note: `lucian_merge.jerram_line_map` reads his Greek text pages (leaves 31-79) and matches
+  them to the Perseus words, numbering his lines from the numbers printed every fifth line (in the
+  outer margin: right on right-hand pages, left on left-hand pages, where Tesseract reads them as
+  the line's first word); a page's lines are numbered from the nearest number above them; a line
+  counts only if half its words and two of three letters or more are matched (lines of loose
+  accents and his italic English summaries do not). Built in three rounds: the first read the
+  right margin only and drifted 2-6 lines by book I line 150; the last leaves 17 notes whose lemma
+  stands a line away (a word divided at the line end, or Jerram's misprint: "l. 247" for 237, "607"
+  for 617, both found by the lemma), and the note goes under the section of the word its lemma
+  names, searched up to 12 lines either way. Lemmas that follow Weise's Tauchnitz text where it
+  differs from the Perseus words (αὑτοὺς 1.72, Ἀεροκόρακες, Κοττυφίων, ἀπενενέκρωτο …: 13 notes) are
+  filed by the line. Result: 261 notes (paragraphs) under 78 sections. Jerram's line numbers are
+  not kept in the notes (they refer to his text); the bold lemma identifies the word.
+* **2026-11-08, step 8: DCC.** The site's pages are `https://dcc.dickinson.edu/lucian-true/book-1/1-7`
+  (the brief's base URL redirects to the front page); 2.7-2.10 is one page (`2-7-2-10`), filed
+  under 2.7; the introduction page saved too (not used). Saved in `pipeline/sources/dcc/lucian-true/`
+  (ignored by git, as all sources). `lucian_merge.write_dcc`: the notes field of each page (the
+  vocabulary tab and the "VERB LIST" link left out), the italic summary as *…*, the lemma (the
+  words before the first colon, or the Greek that opens a note without one) in bold, the grammar
+  links kept as text ("(S. 1328, 1356; G. 511c)"). Licence (terms-use page): "Creative Commons
+  Attribution-ShareAlike License". Twenty notes chosen at random were compared with the pages'
+  text programmatically, word for word: all twenty agree.
 
 ## Sizes, for planning
 
