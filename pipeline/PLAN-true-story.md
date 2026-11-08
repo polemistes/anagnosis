@@ -165,6 +165,10 @@ Nilén's apparatus, but an altered one, which will make you the editor".
   probably 144.21 ἐξώγρησαν (for ἐζώγρησαν)
   are kept as printed, with the right analysis on the word sheet; say if you want them corrected
   in the text (with a note in the apparatus).
+* **Short definitions folded by case (all texts)**: `build.load_logeion_shortdefs` keeps the first
+  of a capitalised and a lower-case Logeion entry, so ὕλη shows "Hyle, a town in Boeotia" and
+  Ὅμηρος "hostage"; the True Story overrides its cases in shortdefs.tsv. Fixing the loader would
+  mend every text; say if you want it done.
 * **Release**: the text is built and in the catalogue after step 10; a reader release with it is
   yours to decide (play/README.md: build the bundle, upload, create and activate the product
   `lucian_truestory_nilen`, name "A True Story", €3).
@@ -179,7 +183,7 @@ Nilén's apparatus, but an altered one, which will make you the editor".
 - [x] Step 6: Jerram's notes (2026-11-08): 20 pages in 3 batches checked and reviewed; 261 notes under 78 sections, placed by his own line numbers mapped to ours
 - [x] Step 7: introduction (2026-11-08): Jerram's introduction (pp. ix-xxiii), 2 batches checked and reviewed
 - [x] Step 8: DCC notes (2026-11-08): 86 pages (89 sections; 2.7-2.10 one page), 1798 paragraphs; twenty notes compared with the site, all agree
-- [ ] Step 9: translation, sigla, glossary, about, READMEs
+- [x] Step 9: translation, sigla, glossary, about, READMEs (2026-11-08): eng-harmon.txt 89 sections (no problems); sigla.md from the praefatio; glossary 79, short definitions 106, aliases 26, 16 lemma fixes and 12 hand analyses; lexicon coverage complete
 - [ ] Step 10: build, pack, catalogue, emulator check
 
 ## Decisions
@@ -364,6 +368,25 @@ Nilén's apparatus, but an altered one, which will make you the editor".
   links kept as text ("(S. 1328, 1356; G. 511c)"). Licence (terms-use page): "Creative Commons
   Attribution-ShareAlike License". Twenty notes chosen at random were compared with the pages'
   text programmatically, word for word: all twenty agree.
+* **2026-11-08, step 9.** The translation: `eng-harmon.txt`, one segment per section, the merge
+  log reports none missing. Two agents (a workflow): (1) `sigla.md` from Nilén's praefatio (pp. III-
+  XVI): the seven witnesses of libelli 13-14 (Γ Ω S Z P N F) with their date classes (p. VII),
+  the occasional ones (I, i, A, O, ε, v), Nilén's own key to the correctors' marks (p. XI: ¹, *,
+  ², ³, ˢ/ᵃ, ᵛ/ˣ …), the editors named in the apparatus, and the signs and abbreviations (Nilén
+  gives no key for these: the page says they are read as usual in a Teubner apparatus). Two
+  scholars' particulars the agent gave from memory (Belin de Ballu's date, Schmieder's place) were
+  cut to their names. (2) `glossary.md` (79 names and coinages, glossed from Harmon's English and
+  the parts of the compounds), `shortdefs.tsv` (106), `aliases.tsv` (26), and lemma fixes applied
+  in `drama_fixes.py` (`LEMMA_FIXES["truestory"]` 16: GLAUx's garbled πηρεληλύθειμνυμι for
+  παρεληλύθειμεν, ἀπoβρέχω with a Latin o, Λουκιάν, Ὕλη for Hylas, Ἶρις for the rainbow …;
+  `HAND_ANALYSES` 9 more: cases and genders of names). `check`: every lemma found in a dictionary,
+  the glossary or the short definitions.
+  * The glossary agent found that `build.load_logeion_shortdefs` folds capitals, so a common word
+    can get a name's definition and a name a common word's (ὕλη "Hyle, a town in Boeotia", Ὅμηρος
+    "hostage", Πλάτων "ladle"); `shortdefs.tsv` overrides the cases in this text (41 lines). Other
+    texts are likely affected: recorded for the author, not changed here (shared code).
+  * `about.md` as the Gorgias's (GLAUx, machine-made syntax); "A Lucian" section in texts/README.md;
+    the row in play/README.md.
 
 ## Sizes, for planning
 

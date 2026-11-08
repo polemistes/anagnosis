@@ -291,6 +291,42 @@ The editions are in the public domain; the transcription is published under CC B
 * `sigla.md`, `glossary.md` (the names of the catalogues), `shortdefs.tsv` and `aliases.tsv` are
   written by hand.
 
+## Lucian's A True Story (`texts/truestory/`)
+
+Nils Nilén's edition (*Lucianus*, vol. I fasc. I, libelli I–XIV, Leipzig, Teubner, 1906), read
+from the Internet Archive scan bub_gb_RYepnZKT1OwC and made by `merge-lucian truestory` from the
+checked transcription in `pipeline/transcriptions/lucian/truestory/` (brief
+`pipeline/PLAN-true-story.md`, modules `lucian_pages.py`, `lucian_merge.py`). The editions are in
+the public domain; the transcription is published under CC BY-SA 4.0.
+
+* Greek text (`grc.txt`): Nilén's, read by OCR and matched word by word to the Perseus text
+  (Harmon's Loeb of 1913, the check text only, never shipped); every disagreement, then every
+  word, stop and accent where print and text still differed, settled against the page image.
+  Prose, one line per section (`1.7`: book and section, Nilén's chapter numbers); a paragraph
+  that Nilén begins inside a section continues the section on a lettered line (`2.47b`).
+  Nilén's misprints are kept as printed (σκοκῶν and μεγέθος at 1.18), his lacuna `***` (1.2),
+  his brackets ⟨ ⟩ and [ ].
+* Critical apparatus (`commentary-nilen-apparatus.md`): Nilén's, in Latin, each item under the
+  section that holds its lemma; the printed page-line number in front of each item is left out
+  (it refers to Nilén's page). Checked: every positive item's lemma found in its section, and
+  Harmon's 26 footnotes looked up on Nilén's page.
+* Translation (`eng-harmon.txt`): A. M. Harmon's (Loeb 1913, Perseus Digital Library, CC BY-SA
+  4.0), by section; his footnotes are left out.
+* Commentary and introduction (`commentary-jerram.md`, `introduction.md`): C. S. Jerram's
+  (*Luciani Vera Historia*, Oxford, Clarendon Press, 1879; scan lucianiverahisto00luci), read by
+  OCR and checked against the page images. Jerram keys his notes by the lines of his own text
+  (Weise's Tauchnitz text); his text pages were read and matched to the Greek to give each line
+  its section, and each note goes under the section of the word its lemma names.
+* Commentary (`commentary-dcc.md`): the notes of the Dickinson College Commentaries (Eric Casey,
+  Evan Hayes, Stephen Nimis, 2023, CC BY-SA), from the site's pages (saved in
+  `pipeline/sources/dcc/lucian-true/`); their vocabulary lists are left out. Their text is
+  Harmon's.
+* Lemmas, morphology and syntax (`tokens.tsv`, `syntax-nodes.tsv`): GLAUx 0062-012 (automatic,
+  CC BY-SA 4.0) aligned to Nilén's words; where he reads otherwise, the analyser, listed in
+  `pipeline/build/truestory-review.tsv` and corrected by hand in `drama_fixes.py`.
+* `sigla.md` (from Nilén's praefatio), `glossary.md` (the names and Lucian's invented words),
+  `shortdefs.tsv` and `aliases.tsv` are written by hand.
+
 ## The Odyssey (`texts/odyssey/`)
 
 The Greek text is T. W. Allen's Oxford edition (*Homeri Opera* III–IV, 2nd ed., 1917 and 1919),
