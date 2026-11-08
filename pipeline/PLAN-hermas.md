@@ -518,7 +518,7 @@ converter and came out as Greek letters.)
   * **Lemmas.** The merge log listed 73 lemmas no dictionary has. Most were GLAUx's garbled
     lemmas (γιρρήσγω for ἀπερρηγὼς, πίλσκω for ἔλθη, λογίσανταμαι, πηρωτωᾴ …) or names given to the
     wrong word (Ἑρμῆς the god for Ἑρμᾶ, Κώμη for Κώμας, Γραπτεύς, Κάλος for Κάλει): corrected in
-    `LEMMA_FIXES["hermas"]` (46), with ἰάζω → ἰάομαι (ἰάσεται), ἀείρω → αἴρω (ἦραν, ἆρον: the Koine
+    `LEMMA_FIXES["hermas"]`, 47 entries with ἰάζω → ἰάομαι (ἰάσεται), ἀείρω → αἴρω (ἦραν, ἆρον: the Koine
     headword), πυρίνη → πύρινος. Five tokens by hand (`HAND_ANALYSES["hermas"]`): κʹ at Sim. 9.5.4
     (GLAUx: ἄν), the names Γραπτὴ and Ἁπλότης (Sim. 9.15.2, a maiden's name), and two tags
     (συμφυρμοὺς, διχοστάταις are nouns). Found on the way: Lake prints "μετα-|νήσατε" at Sim. 9.23.5,
