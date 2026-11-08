@@ -325,20 +325,21 @@ HAND_ANALYSES: dict[str, dict[str, tuple[str, str]]] = {
         "904 ἧς": ("ὅς", "p-p---fd-"),
     },
     "truestory": {
-        # the review list of step 5 (pipeline/PLAN-true-story.md)
-        "1.29b κατετέθημεν": ("κατατίθημι", "v1paip---"),  # Nilén's reading (Harmon καθείθημεν); not καθίημι
+        # the review list of step 5 (pipeline/PLAN-true-story.md); keyed by section and form (the
+        # merge finds the section's line, 1.29 or 1.29b, that holds the form)
+        "1.29 κατετέθημεν": ("κατατίθημι", "v1paip---"),  # Nilén's reading (Harmon καθείθημεν); not καθίημι
         "2.1 ἀπενενέκρωτο": ("ἀπονεκρόω", "v3slip---"),  # pluperfect passive, not imperfect
         "2.46 Ἐκβαλοῦσα": ("Ἐκβαλοῦσα", "n-s---fn-"),  # the island's name (Harmon's Cabalusa), not the participle
         # step 9 (the glossary agent): wrong lemmas, cases and genders of names
         "1.1 γυμνασίων": ("γυμνάσιον", "n-p---ng-"),
-        "1.29b Κοττυφίωνος": ("Κοττυφίων", "n-s---mg-"),
+        "1.29 Κοττυφίωνος": ("Κοττυφίων", "n-s---mg-"),
         "2.17 Ἀνάχαρσιν": ("Ἀνάχαρσις", "n-s---ma-"),
         "2.17 Ὕλας": ("Ὕλας", "n-s---mn-"),
         "2.22 Ἐπειοῦ": ("Ἐπειός", "n-s---mg-"),
         "2.23 Βούσιριν": ("Βούσιρις", "n-s---ma-"),
         "2.23 Νεκρακαδημίαν": ("Νεκρακαδημία", "n-s---fa-"),
         "2.25 Κινύρας": ("Κινύρας", "n-s---mn-"),
-        "2.28b Λουκιανὸς": ("Λουκιανός", "n-s---mn-"),
+        "2.28 Λουκιανὸς": ("Λουκιανός", "n-s---mn-"),
     },
 }
 

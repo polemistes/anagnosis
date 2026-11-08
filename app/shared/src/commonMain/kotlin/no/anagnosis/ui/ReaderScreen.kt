@@ -764,6 +764,7 @@ fun ReaderScreen(
                 // the book stands in the title, so the label gives the lines only
                 span = { first, last ->
                     if (data.verses) data.range(first, last)
+                    else if (data.sectioned) (if (first == last) "§ ${data.lineLabel(first)}" else "§§ ${data.lineLabel(first)}–${data.lineLabel(last)}")
                     else if (first == last) "Line ${data.lineLabel(first)}"
                     else "Lines ${data.lineLabel(first)}–${data.lineLabel(last)}"
                 },
@@ -806,7 +807,7 @@ fun ReaderScreen(
             // With numbers on every line, reserve a column for them so the text wraps around it.
             // Prose keeps a narrower column for its section marks (172, b, c ...) unless they are hidden.
             val numberColumnPx = if (data.prose) {
-                if (settings.lineNumbers != LineNumberMode.NONE && !data.verses) measurer.measure("000", styles.number).size.width + with(density) { NUMBER_GAP.roundToPx() } else 0
+                if (settings.lineNumbers != LineNumberMode.NONE && !data.verses && !data.sectioned) measurer.measure("000", styles.number).size.width + with(density) { NUMBER_GAP.roundToPx() } else 0
             } else if (settings.lineNumbers == LineNumberMode.ALL) {
                 measurer.measure("0000", styles.number).size.width + with(density) { NUMBER_GAP.roundToPx() }
             } else 0
@@ -1194,6 +1195,7 @@ private fun sentenceLabel(tree: no.anagnosis.data.SyntaxTree, data: WorkData): S
     val first = lines.minByOrNull { it.ord } ?: return ""
     val last = lines.maxBy { it.ord }
     if (data.verses) return data.range(first.n_int, last.n_int)
+    if (data.sectioned) return if (first.n_int == last.n_int) "§ ${data.citation(first.n_int)}" else "§§ ${data.citation(first.n_int)}–${data.citation(last.n_int)}"
     return if (first.id == last.id) "line ${first.n}" else "lines ${first.n}–${last.n}"
 }
 
@@ -1879,7 +1881,10 @@ private const val VERSE_GAP = "\u202F"
  * paragraph divides (1.1.6b).
  */
 private fun verseMarks(data: WorkData, shown: Boolean): ((Lines) -> VerseMark?)? =
-    if (!data.verses || !shown) null else { line ->
+    if (data.sectioned && shown) { line ->
+        // the section's number where it begins; its later parts (1.7b) carry none
+        if (line.n_sub.isNotEmpty()) null else VerseMark(data.verseOf(line.n_int).toString(), chapter = false)
+    } else if (!data.verses || !shown) null else { line ->
         when {
             line.n_sub.isNotEmpty() -> null
             data.verseOf(line.n_int) == 1L -> VerseMark(data.chapterOf(line.n_int).toString(), chapter = true)

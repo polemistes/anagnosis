@@ -85,6 +85,10 @@ class WorkData(
 
     val tokenById: Map<Long, Tokens> by lazy { tokensByLine.values.flatten().associateBy { it.id } }
 
+    /** Prose cited by book and section (Lucian's A True Story, 1.7): a line is a section, or a part
+     * of one (1.7b); the section numbers stand in the text like the New Testament's verse numbers. */
+    val sectioned: Boolean get() = prose && bookNumbered
+
     /** Whether the text is read one book at a time: an epic, the New Testament. */
     val byBook: Boolean get() = bookNumbered || verses
 
@@ -117,6 +121,8 @@ class WorkData(
         verses && to <= from -> citation(from)
         verses && chapterOf(to) == chapterOf(from) -> "${citation(from)}–${verseOf(to)}"
         verses -> "${citation(from)}–${lineLabel(to)}"
+        sectioned && to <= from -> "§ ${citation(from)}"
+        sectioned -> "§§ ${citation(from)}–${citation(to)}"
         to <= from -> "Line ${citation(from)}"
         else -> "Lines ${citation(from)}–${citation(to)}"
     }

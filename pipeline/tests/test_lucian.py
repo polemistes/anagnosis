@@ -87,6 +87,19 @@ class Merge(unittest.TestCase):
         self.assertEqual([u for u, _i, _w in text["lines"]["129.3"]], [0, 1, 1, 1])
         self.assertEqual(text["problems"], [])
 
+    def test_split_long(self):
+        from anagnosis_pipeline.lucian_merge import split_long
+        sentence = ("λόγος " * 30).strip() + "."  # 6 * 30 = 180 characters
+        words = [(w, "200.1") for w in " ".join([sentence] * 5).split()]
+        units = [{"n": "1.7", "para": True, "words": words}, {"n": "1.7b", "para": True, "words": [("ἔπειτα", "200.9")]}]
+        lines = {"200.1": [(0, k, w) for k, (w, _key) in enumerate(words)], "200.9": [(1, 0, "ἔπειτα")]}
+        out, new = split_long(units, lines)
+        self.assertEqual([u["n"] for u in out], ["1.7", "1.7b", "1.7c"])  # 3 + 2 sentences, then the paragraph
+        self.assertTrue(all(sum(len(w) + 1 for w, _k in u["words"]) <= 560 for u in out))
+        self.assertEqual([u["para"] for u in out], [True, False, True])
+        self.assertEqual(new["200.9"], [(2, 0, "ἔπειτα")])
+        self.assertEqual(sum(len(u["words"]) for u in out), len(words) + 1)
+
     def test_lemma(self):
         self.assertEqual(lemma_of("πνέοντι ΓΩS πνεύματι ZNFI"), (["πνέοντι"], []))
         self.assertEqual(lemma_of("ἄν — διπλασιάσαντος] multiplex"), (["ἄν"], ["διπλασιάσαντος"]))

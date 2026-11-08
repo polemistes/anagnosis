@@ -112,7 +112,54 @@ def assemble(pages: dict[str, dict], index: list[dict]) -> dict:
             if pending_para:
                 problems.append(f"{p['stem']} {key}: ¶ before a line without words")
                 pending_para = False
+    units, lines = split_long(units, lines)
     return {"units": units, "lines": lines, "titles": titles, "title_keys": title_keys, "problems": problems}
+
+
+SPLIT_LIMIT = 550   # characters: a section longer than this is divided at sentence ends
+SPLIT_MIN = 200     # no part shorter than this
+
+
+def split_long(units: list[dict], lines: dict[str, list[tuple[int, int, str]]]) -> tuple[list[dict], dict]:
+    """Long sections divided at sentence ends into lines of their own (1.7, 1.7b, 1.7c), so that
+    no line is taller than the reader's page (the app pages by whole lines; 22 sections are longer
+    than a phone's page). The parts of a section are lettered in order, a paragraph's continuation
+    (2.47b) among them; only the first carries the section's number in the app."""
+    out: list[dict] = []
+    remap: dict[tuple[int, int], tuple[int, int]] = {}
+    for ui, u in enumerate(units):
+        words = u["words"]
+        parts: list[list[int]] = [[]]
+        length = 0
+        for wi, (w, _k) in enumerate(words):
+            parts[-1].append(wi)
+            length += len(w) + 1
+            ends = re.search(r"[.·;:]['’”»)]*$", w) is not None
+            rest = sum(len(x) + 1 for x, _k2 in words[wi + 1:])
+            if ends and rest >= SPLIT_MIN and length >= SPLIT_MIN:
+                # cut here if the next sentence would carry the part past the limit
+                nxt = 0
+                for x, _k2 in words[wi + 1:]:
+                    nxt += len(x) + 1
+                    if re.search(r"[.·;:]['’”»)]*$", x):
+                        break
+                if length + nxt > SPLIT_LIMIT:
+                    parts.append([])
+                    length = 0
+        for k, part in enumerate(p for p in parts if p):
+            nu = {"n": u["n"], "para": u["para"] and k == 0, "words": [words[wi] for wi in part]}
+            for j, wi in enumerate(part):
+                remap[(ui, wi)] = (len(out), j)
+            out.append(nu)
+    # letters in order within each section
+    count: dict[str, int] = {}
+    for u in out:
+        base = re.sub(r"[a-z]$", "", u["n"])
+        k = count.get(base, 0)
+        u["n"] = base if k == 0 else f"{base}{LETTERS[k - 1]}"
+        count[base] = k + 1
+    new_lines = {key: [(*remap[(a, b)], w) for a, b, w in entries] for key, entries in lines.items()}
+    return out, new_lines
 
 
 # --- the apparatus ---------------------------------------------------------------------------
@@ -365,9 +412,20 @@ def harmon_checklist(sources: Path, play: Play, text: dict, placed: list[tuple[i
 # --- tokens ---------------------------------------------------------------------------------
 
 def _tokens(play: Play, doc, sources: Path, out: Path, lexicon: Path, build: Path) -> int:
-    from .drama import _tokens as drama_tokens
+    """drama._tokens, with the hand analyses (keyed by section and form: "1.29 κατετέθημεν") put on
+    whichever line of the section holds the form (1.29 or 1.29b: the parts depend on the split)."""
+    import dataclasses
 
-    return drama_tokens(play, doc, sources, out, lexicon, build)
+    from .drama import _tokens as drama_tokens
+    from .drama_fixes import HAND_ANALYSES
+
+    expanded: dict[str, tuple[str, str]] = {}
+    for key, value in HAND_ANALYSES.get(play.slug, {}).items():
+        sec, _, form = key.partition(" ")
+        for line in doc.lines:
+            if re.sub(r"[a-z]$", "", line.n) == sec and form in [w for w, _s, _e in greek.words(line.text)]:
+                expanded[f"{line.n} {form}"] = value
+    return drama_tokens(dataclasses.replace(play, hand_analyses={**play.hand_analyses, **expanded}), doc, sources, out, lexicon, build)
 
 
 # --- merge -----------------------------------------------------------------------------------
