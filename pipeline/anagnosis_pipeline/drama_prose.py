@@ -59,24 +59,45 @@ def ocr_leaf(scan: str, leaf: int) -> Path:
 
 def run(slug: str, kind: str, step: str, workers: int = 4) -> None:
     play = PLAYS[slug]
-    leaves = play.visible(kind)
-    if not leaves:
+    sources = play.sources_for(kind)
+    if not any(leaves for _scan, leaves in sources):
         raise SystemExit(f"{slug}: no {kind} leaves in drama.PLAYS yet (step 2)")
-    scan = play.scan_for(kind)
-    route_dir("drama-prose", slug, scan)
-    if step == "fetch":
-        with ThreadPoolExecutor(workers) as ex:
-            list(ex.map(lambda l: fetch_leaf(scan, l), leaves))
-    elif step == "ocr":
-        with ThreadPoolExecutor(workers) as ex:
-            list(ex.map(lambda l: ocr_leaf(scan, l), leaves))
-    elif step == "draft":
+    if step == "draft":
         index = write_draft(slug, kind)
         print(f"{slug} {kind}: {len(index)} pages, {sum(p['flags'] for p in index)} flags")
         return
-    else:
-        raise SystemExit(f"unknown step {step!r}")
-    print(f"{slug} {kind}: {step} done for {len(leaves)} leaves")
+    for k, (scan, leaves) in enumerate(sources, 1):
+        prose_dir(play, kind, scan)
+        if step == "fetch":
+            with ThreadPoolExecutor(workers) as ex:
+                list(ex.map(lambda l: fetch_leaf(scan, l), leaves))
+        elif step == "ocr":
+            with ThreadPoolExecutor(workers) as ex:
+                list(ex.map(lambda l: ocr_leaf(scan, l), leaves))
+        else:
+            raise SystemExit(f"unknown step {step!r}")
+        print(f"{slug} {kind}: {step} done for {len(leaves)} leaves of {scan}")
+
+
+def prose_dir(play: Play, kind: str, scan: str) -> Path:
+    """Where a kind's crops go: build/drama-prose/<slug>/ (with `pages` linked to the scan's
+    images), or, for a kind read from several scans (Play.notes_sources), a folder per scan under it."""
+    if kind not in play.notes_sources:
+        return route_dir("drama-prose", play.slug, scan)
+    d = PIPELINE / "build" / "drama-prose" / play.slug / scan
+    d.mkdir(parents=True, exist_ok=True)
+    link = d / "pages"
+    if not link.exists() and not link.is_symlink():
+        link.symlink_to(Path("..") / ".." / ".." / "drama-scans" / scan / "pages")
+    return d
+
+
+def page_stem(play: Play, kind: str, scan: str, leaf: int) -> str:
+    """p-0250; p-10250 / p-20250 for a kind read from several scans (the scan's place in the list)."""
+    if kind not in play.notes_sources:
+        return f"p-{leaf:04d}"
+    k = [s for s, _r in play.notes_sources[kind]].index(scan) + 1
+    return f"p-{k}{leaf:04d}"
 
 
 # --- the page --------------------------------------------------------------------------------
@@ -245,14 +266,14 @@ def _reread_strip(scan: str, leaf: int, box: tuple[int, int, int, int]) -> list[
     return out
 
 
-def analyse_page(play: Play, kind: str, leaf: int, voc, names: set[str]) -> dict:
+def analyse_page(play: Play, kind: str, leaf: int, voc, names: set[str], scan: str | None = None) -> dict:
     """The page's text in Markdown with the flagged words, and the data for its crops."""
     from PIL import Image
 
     from .drama_pages import read_lines
     from .egt_ocr import check_words
 
-    scan = play.scan_for(kind)
+    scan = scan or play.scan_for(kind)
     _, sbuild = scan_dirs(scan)
     img = Image.open(sbuild / "pages" / f"leaf_{leaf:04d}.png").convert("L")
     lines = read_lines(ocr_leaf(scan, leaf))
@@ -392,14 +413,14 @@ def analyse_page(play: Play, kind: str, leaf: int, voc, names: set[str]) -> dict
         md.append(text)
         md.append("")
     return {"leaf": leaf, "md": "\n".join(md).strip(), "flags": flags, "lines": lines, "mid": mid,
-            "order": idx, "size": list(img.size)}
+            "order": idx, "size": list(img.size), "scan": scan}
 
 
 def _crops(play: Play, kind: str, page: dict, out_dir: Path, stem: str) -> None:
     """p-NNNN-flags.png: each line with a flagged word, numbered, the word boxed; the columns."""
     from PIL import Image, ImageDraw, ImageFont
 
-    _, sbuild = scan_dirs(play.scan_for(kind))
+    _, sbuild = scan_dirs(page.get("scan") or play.scan_for(kind))
     img = Image.open(sbuild / "pages" / f"leaf_{page['leaf']:04d}.png").convert("L")
     lines = page["lines"]
     try:
@@ -449,6 +470,8 @@ def _crops(play: Play, kind: str, page: dict, out_dir: Path, stem: str) -> None:
 def transcriptions_for(play: Play) -> Path:
     """Where a text's batch files are: transcriptions/drama/<slug>, or transcriptions/lucian/<slug>
     for a text read by lucian_pages.py (Play.page_offset set)."""
+    if play.route == "lake":
+        return PIPELINE / "transcriptions" / play.slug
     return PIPELINE / "transcriptions" / ("lucian" if play.page_offset else "drama") / play.slug
 
 
@@ -456,23 +479,27 @@ def write_draft(slug: str, kind: str) -> list[dict]:
     from .egt_ocr import FLAG_KINDS, vocabularies
 
     play = PLAYS[slug]
-    scan = play.scan_for(kind)
-    out_dir = route_dir("drama-prose", slug, scan)
-    leaves = play.visible(kind)
     voc = vocabularies()
-    names = _names(scan, leaves, voc)
-    with ThreadPoolExecutor(int(os.environ.get("DRAMA_WORKERS", "4"))) as ex:
-        pages = list(ex.map(lambda l: analyse_page(play, kind, l, voc, names), leaves))
+    pages: list[dict] = []
+    for scan, leaves in play.sources_for(kind):
+        names = _names(scan, leaves, voc)
+        with ThreadPoolExecutor(int(os.environ.get("DRAMA_WORKERS", "4"))) as ex:
+            pages += list(ex.map(lambda l: analyse_page(play, kind, l, voc, names, scan), leaves))
+    top = route_dir("drama-prose", slug, play.scan_for(kind)) if kind not in play.notes_sources else prose_dir(play, kind, play.scan_for(kind)).parent
     index = []
     trans_starts = _greek_speech_starts(slug) if kind == "trans" else {}
     for b, page in enumerate(pages):
-        stem = f"p-{page['leaf']:04d}"
+        stem = page_stem(play, kind, page["scan"], page["leaf"])
+        page["stem"] = stem
+        out_dir = prose_dir(play, kind, page["scan"])
         # the translation's pages are also the commentary's (Starkie): its crops get their own names
         _crops(play, kind, page, out_dir, f"trans-{stem}" if kind == "trans" else stem)
         if kind == "trans":
             page["md"] = _number_speeches(page["md"], trans_starts.get(page["leaf"] - 1, []), play)
-        index.append({"stem": stem, "leaf": page["leaf"], "batch": b // PAGES_PER_BATCH + 1, "flags": len(page["flags"])})
-    (out_dir / f"{kind}.json").write_text(json.dumps(index, indent=1), encoding="utf-8")
+        index.append({"stem": stem, "leaf": page["leaf"], "batch": b // PAGES_PER_BATCH + 1, "flags": len(page["flags"]),
+                      "scan": page["scan"], "dir": str(out_dir.relative_to(PIPELINE))})
+    (top / f"{kind}.json").write_text(json.dumps(index, indent=1), encoding="utf-8")
+    out_dir = top
     tdir = transcriptions_for(play)
     tdir.mkdir(parents=True, exist_ok=True)
     for b in range(0, len(pages), PAGES_PER_BATCH):
@@ -481,7 +508,7 @@ def write_draft(slug: str, kind: str) -> list[dict]:
             continue
         out = []
         for page in pages[b : b + PAGES_PER_BATCH]:
-            out.append(f"=== p-{page['leaf']:04d}")
+            out.append(f"=== {page['stem']}")
             out.append(page["md"])
             out.append("--- flags")
             for k, f in enumerate(page["flags"], 1):
@@ -565,7 +592,7 @@ def read_prose_batches(directory: Path, kind: str, files: list[Path] | None = No
     for path in files if files is not None else sorted(directory.glob(f"{kind}-*.md")):
         stem, section = None, None
         for raw in path.read_text(encoding="utf-8").splitlines():
-            m = re.match(r"^=== (p-\d{4})\s*$", raw)
+            m = re.match(r"^=== (p-\d{4,5})\s*$", raw)
             if m:
                 stem = m.group(1)
                 pages[stem] = {"md": [], "flags": [], "notes": [], "batch": path.name}
@@ -669,11 +696,12 @@ def check_prose(slug: str, kind: str, path: Path, texts: Path) -> list[str]:
     grc = texts / slug / "grc.txt"
     if grc.exists():
         for raw in grc.read_text(encoding="utf-8").splitlines():
-            mm = re.match(r"^(\d+[a-z]?)\t", raw)
+            mm = re.match(r"^(\d+[a-z]?|\d+\.\d+\.\d+[a-z]?)\t", raw)
             if mm:
                 numbers.add(mm.group(1))
     prev_note = -1
     prev_sec = 0
+    prev_ref: str | None = None
     for stem, block in pages.items():
         noted = " ".join(block["notes"])
         md = [l for l in block["md"] if l.strip()]
@@ -690,6 +718,21 @@ def check_prose(slug: str, kind: str, path: Path, texts: Path) -> list[str]:
             if raw.startswith("#"):
                 if kind == "notes" and re.match(r"^# Book [IVX]+$", raw):
                     prev_note = -1  # Jerram counts his lines afresh in each book
+                    continue
+                if kind == "notes" and PLAYS[slug].route == "lake":
+                    # Taylor: ## Vision 1.1.2, ## Mandate 1.3 (a book of one chapter), ## Similitude 9.30.2
+                    from .hermas_text import LAST_GREEK, sec_key
+                    from .lake_merge import taylor_ref
+
+                    ref = taylor_ref(raw)
+                    if ref is None:
+                        remarks.append(f"{stem}: heading “{raw}” is not '## Vision|Mandate|Similitude N.chapter.verse'")
+                        continue
+                    if prev_ref is not None and sec_key(ref) < sec_key(prev_ref):
+                        remarks.append(f"{stem}: note {raw[3:]} comes after {prev_ref}")
+                    prev_ref = ref
+                    if numbers and ref not in numbers and sec_key(ref) <= sec_key(LAST_GREEK) and raw[3:] not in noted:
+                        remarks.append(f"{stem}: note {raw[3:]}: no verse {ref} in texts/{slug}/grc.txt (say why under notes)")
                     continue
                 if kind == "notes":
                     mm = re.match(r"^## (\d+)([a-z]?)(?:-(\d+)([a-z]?))?$", raw)

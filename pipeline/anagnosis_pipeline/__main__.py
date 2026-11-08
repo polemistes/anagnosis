@@ -77,6 +77,17 @@ def main(argv: list[str] | None = None) -> int:
     lrs.add_argument("--slug", default="truestory")
     mlu = sub.add_parser("merge-lucian", help="texts/<slug>/ from the checked batches of a Lucian text (lucian_merge.py), GLAUx and Harmon")
     mlu.add_argument("slug", nargs="?", default="truestory")
+    lkp = sub.add_parser("lake-pages", help="the Shepherd of Hermas from Lake's Loeb by OCR (lake_pages.py): fetch | ocr | draft, latin-fetch | latin-ocr | latin-draft (pipeline/build/lake-pages/<slug>/, pipeline/transcriptions/<slug>/)")
+    lkp.add_argument("slug")
+    lkp.add_argument("step", choices=["fetch", "ocr", "draft", "latin-fetch", "latin-ocr", "latin-draft"])
+    chb = sub.add_parser("check-hermas-batch", help="check text batch files of the Shepherd (pipeline/transcriptions/hermas/batch-NN.md, batch-latin.md)")
+    chb.add_argument("files", nargs="+")
+    chb.add_argument("--slug", default="hermas")
+    hrs = sub.add_parser("hermas-residuals", help="what the checked text of the Shepherd and the OCR still disagree on, per page, for the residual pass")
+    hrs.add_argument("files", nargs="*")
+    hrs.add_argument("--slug", default="hermas")
+    mhe = sub.add_parser("merge-hermas", help="texts/hermas/ from the checked batches (lake_merge.py), GLAUx, Lake's translation and notes, Taylor")
+    mhe.add_argument("slug", nargs="?", default="hermas")
     sub.add_parser("fetch-nt", help="download the New Testament sources into pipeline/sources/nt/ (SBLGNT, MACULA, Dodson, BSB)")
     sub.add_parser("import-nt", help="texts/newtestament/ from the SBLGNT, MACULA, Dodson and the Berean Standard Bible")
     sub.add_parser("prepare-autenrieth-pages", help="page images and OCR drafts for transcribing Autenrieth's Homeric Dictionary (pipeline/build/autenrieth-pages/)")
@@ -232,6 +243,27 @@ def main(argv: list[str] | None = None) -> int:
     elif args.cmd == "merge-lucian":
         from .lucian_merge import merge as merge_lucian
         return 1 if merge_lucian(args.slug, SOURCES, TEXTS, ROOT / "pipeline" / "build", DATA / "lexicon.sqlite") else 0
+    elif args.cmd == "lake-pages":
+        from . import lake_pages
+        lake_pages.main([args.slug, args.step])
+    elif args.cmd == "check-hermas-batch":
+        from .lake_pages import check_batch as check_hermas
+        bad = 0
+        for f in args.files:
+            problems = check_hermas(args.slug, Path(f))
+            print(f"{f}: {len(problems)} remarks")
+            for p in problems:
+                print("  " + p)
+            bad += len(problems)
+        return 1 if bad else 0
+    elif args.cmd == "hermas-residuals":
+        from collections import Counter
+        from .lake_pages import residuals as hermas_residuals
+        r = hermas_residuals(args.slug, [Path(f) for f in args.files] or None)
+        print(f"{len(r)} residuals: " + ", ".join(f"{k} {v}" for k, v in Counter(x["kind"] for x in r).most_common()))
+    elif args.cmd == "merge-hermas":
+        from .lake_merge import merge as merge_hermas
+        return 1 if merge_hermas(args.slug, SOURCES, TEXTS, ROOT / "pipeline" / "build", DATA / "lexicon.sqlite") else 0
     elif args.cmd == "fetch-nt":
         from .nt import fetch_nt
         fetch_nt(SOURCES)

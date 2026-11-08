@@ -257,7 +257,7 @@ converter and came out as Greek letters.)
 
 ## Progress
 
-- [ ] Step 1: modules, tests, CLI, app's dotted citation, INSTRUCTIONS
+- [x] Step 1: modules, tests, CLI, app's dotted citation, INSTRUCTIONS (2026-11-08): `hermas_text.py`, `lake_pages.py`, `lake_merge.py`, `tests/test_hermas.py`; `drama_prose` reads a kind from several scans; CLI `lake-pages`, `check-hermas-batch`, `hermas-residuals`, `merge-hermas`; the app's `citation: dotted` (tested); `transcriptions/hermas/INSTRUCTIONS.md`, `REVIEW.md`, `RESIDUALS.md` (the Taylor section of INSTRUCTIONS-prose.md at step 2, when his pages are seen)
 - [ ] Step 2: leaves
 - [ ] Step 3: draft (Greek and Latin)
 - [ ] Step 4: text and apparatus batches, residuals
@@ -271,6 +271,64 @@ converter and came out as Greek letters.)
 ## Decisions
 
 (append dated entries: what was open, what was chosen, why, which pages were looked at)
+
+* **2026-11-08, step 1: what the pages showed, against the brief.** Looked at leaves 11-23
+  (page images n8-n20), 15, 17, 18, 20, 22, 298-316 (every other), and the OCR of leaves 18-40
+  (even), 100, 200, 302, 304. The brief's account of Lake's page was written without the images
+  and is wrong in four places, all corrected here:
+  * **The Greek is on the even (left-hand) pages**, leaves 18-302 = pp. 6-290 (143 pages); the
+    English faces it on the odd pages. Leaf = page + 12 holds; the scan hides leaves 0-2, so the
+    Archive's page image n = leaf − 3 (not n = leaf). p. 1 (leaf 13) is the half-title, Lake's
+    introduction is pp. 2-5 (leaves 14-17, four pages: the Shepherd, the manuscripts and versions,
+    the papyri); p. 6 (leaf 18) opens the text with ΠΟΙΜΗΝ and the numeral I, **without** the
+    heading Ὅρασις αʹ that Tauber gives (Vision 2 has Ὅρασις βʹ, Vision 3 Ὅρασις γʹ, centred).
+    Manuscript A ends inside p. 290 (leaf 302) after Sim. 9.30.2; **the Latin end is pp. 290-304,
+    leaves 302-316** (8 pages, the English facing on 303-317); the Martyrdom of Polycarp begins on
+    p. 307. PLAYS["hermas"]: `text_leaves=[(18, 302)]`, `latin_leaves=[(302, 316)]`, `leaf_step=2`.
+  * **The apparatus is keyed by footnote marks, not by verse numbers**: a raised numeral after a
+    word in the Greek, numbered afresh on each page (1, 2, 3), answered by the item at the foot that
+    begins with the same numeral ("¹ τόπῳ ℵ* L₁, τρόπῳ ℵᶜAL₂(E). ² θυγατέρα A, dominam E.", running
+    on). First1K's `<note n>` is that footnote number (two notes at Vis. 1.1.7 are n=1 and n=2), and
+    its notes stand where Lake's marks stand. Of First1K's 326 notes, 111 are the margin's Bible
+    references (`<bibl>`), 207 the apparatus to 26.30.2, and 7 more in the Latin part (garbled); so
+    the apparatus has about 214 items, not 326.
+  * The verse numbers are printed in the text ("2."), each chapter as a centred Roman numeral; the
+    Bible references stand in the left margin of the even pages.
+  * Lake's notes to the translation (Perseus) are **58 footnotes and 133 side-headings**
+    (`type="marginal"`: "Hermas and Rhoda"), not 171 footnotes.
+* **2026-11-08, step 1: how the route answers it.**
+  * Batches (`transcriptions/hermas/batch-NN.md`) are per page and **keyed by verse** (`1.1.4`),
+    a verse divided by a page break continuing as `1.1.3+` on the next page (so that each footnote
+    mark stays on its page and is numbered there); `[title]` and `[chapter]` lines as printed; `¶`
+    before an indented verse; marks as raised digits after the word (`τόπῳ¹`); the apparatus by
+    footnote number; a `--- margin` section of `verse<TAB>reference`.
+  * The draft places each mark where First1K has its note (aligned to Tauber's words verse by
+    verse) and numbers them by page; every mark is flagged for the agent to confirm on the page.
+    The apparatus items themselves are written by the agents from the image (Tesseract's
+    grc+eng and eng+grc readings as help), so that the step-5 comparison with First1K's notes is a
+    real second check.
+  * **The margin references are kept** (the brief dropped them): they are Lake's, cost the agents
+    little (pre-filled from First1K, checked against a crop of the margin), and go into
+    `commentary-lake.md` under their verse with Lake's footnotes and side-headings.
+  * The draft checks the verse number read before each verse's first word, a number read where
+    Tauber begins no verse, and a chapter numeral above each chapter's first verse. Tesseract's
+    Greek model reads II as "ἐδ", III as "ΠῚ": numerals and titles are found by their shape (a short
+    centred line between the text lines; drama_pages drops them as specks), the numeral written from
+    the chapter that begins below it and flagged when the OCR disagrees; a title that resembles
+    Tauber's heading is written as Tauber has it, else as read, flagged either way.
+  * `skel_fold="ξζ"` (Tesseract reads Lake's ζ as ξ throughout: ὀργίξεταί, δοξάξειν), the risk of
+    a real ξ/ζ difference passing unflagged accepted as for the True Story. The apparatus crops are
+    read with grc+eng / eng+grc (Lake's remarks are English).
+  * Trial draft of leaves 18-40: 72 entries (verses, titles, numerals), 45 flagged, 29 without
+    counting the mark checks; the misprint μενανοίας (2.2.5) is flagged ("the OCR reads").
+  * Taylor's notes are headed by the traditional reference as he prints it (`## Mandate 4.1.2`,
+    `## Mandate 1.3` for a book of one chapter); the merge converts it (`lake_merge.taylor_ref`).
+    His notes on the Latin end go into the appendix. A prose kind may now come from several scans
+    (`Play.notes_sources`); the page stems carry the scan's place in the list (`p-10057`,
+    `p-20057`), the crops go to `build/drama-prose/hermas/<scan>/`. The introduction kind will draw
+    on three scans: Lake (leaves 14-17), Taylor I, Taylor II (the appendix).
+  * `Play.route = "lake"`: the prose batches go to `transcriptions/hermas/`, and the prose checker
+    reads Taylor's headings.
 
 ## Sizes, for planning
 

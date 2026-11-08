@@ -127,6 +127,10 @@ class Play:
     # notes_leaves / intro_leaves for that kind. Each page's stem carries its volume (p-1NNNN for
     # the first scan, p-2NNNN for the second) so that leaves of two scans never meet
     notes_sources: dict[str, list[tuple[str, list[tuple[int, int]]]]] = field(default_factory=dict)
+    # the module that reads the text pages: "" (drama_pages, or lucian_pages when page_offset is set),
+    # "lake" (lake_pages: the batches in transcriptions/<slug>/, notes headed by the traditional
+    # reference, ## Mandate 4.1.2)
+    route: str = ""
 
     @property
     def perseus(self) -> str:
@@ -376,7 +380,7 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          notes_edition="The Shepherd of Hermas, translated into English with an introduction and notes by Charles Taylor, "
                        "Early Church Classics, London, SPCK, vol. I 1903, vol. II 1906",
          notes_scan="shepherdofhermas0000herm", app_bare_numbers=True, pronunciation="koine",
-         page_offset=12, leaf_step=2, skel_fold="ξζ",  # Tesseract reads Lake's ζ as ξ
+         page_offset=12, leaf_step=2, skel_fold="ξζ", route="lake",  # Tesseract reads Lake's ζ as ξ
          app_langs=("grc+eng", "eng+grc"),  # the apparatus is Greek with Latin readings and English remarks
          # Lake (leaf = page + 12; the scan hides leaves 0-2, so page image n = leaf - 3): half-title
          # p. 1 = leaf 13, his introduction pp. 2-5 = leaves 14-17, the Greek on the even pages

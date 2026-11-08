@@ -169,7 +169,8 @@ def compare_form(item: str, beta: bool = False) -> str:
     letters without accents, sigla as First1K writes them, lower case, letters and digits only."""
     s = item
     if beta:
-        s = re.sub(r"[/\\=()|+*%]", "", s)
+        s = re.sub(r"%\d*", "", s)  # %2 is Beta code's asterisk (ℵ* = N%2)
+        s = re.sub(r"[/\\=()|+*]", "", s)
     else:
         s = unicodedata.normalize("NFD", s.lower())
         s = "".join(c for c in s if not unicodedata.combining(c))
@@ -323,12 +324,13 @@ def lake_notes(path: Path = PERSEUS_ENG) -> list[dict]:
     for bk in root.find(f".//{TEI}body").iter(f"{TEI}div"):
         if bk.get("subtype") != "book":
             continue
-        h = bk.find(f"{TEI}head")
-        if h is not None:
-            for n in h.iter(f"{TEI}note"):
-                first = next((s for s, _sc, b in _perseus_eng(path) if b is bk), None)
-                out.append({"sec": f"{bk.get('n')}.1.1" if first is None else first, "kind": n.get("type", "footnote"),
-                            "text": _flat(n, keep_notes=True), "after": "(the heading)"})
+        # a note in the book's heading, or between it and the first verse
+        first = next((s for s, _sc, b in _perseus_eng(path) if b is bk), f"{bk.get('n')}.1.1")
+        for n in bk.iter(f"{TEI}note"):
+            if any(a.get("subtype") == "section" for a in n.iterancestors(f"{TEI}div")):
+                continue
+            out.append({"sec": first, "kind": n.get("type", "footnote"), "text": _flat(n, keep_notes=True),
+                        "after": "(the heading)"})
     for sec, sc, _bk in _perseus_eng(path):
         for n in sc.iter(f"{TEI}note"):
             # the words just before the note
