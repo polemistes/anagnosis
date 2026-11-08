@@ -425,7 +425,7 @@ converter and came out as Greek letters.)
   * **The residual pass** (`hermas-residuals`; the ξ/ζ fold had to be applied to the OCR side as
     well, which took the items from 1084 to 628): every item but one agreed with the print
     (raised stops read as ":" or "ʼ", specks, divided words, accents misread); the change is the
-    acute καί at Sim. 1.5.4 (22.5.4), noted as a misprint.
+    acute καί at Sim. 5.5.4 (22.5.4), noted as a misprint.
   * **For step 5** (noted on the pages, not decided): the misprints above and the notes of the
     other words printed without an accent (δυναται, δε, ἀπο, ἡμερα, ἁμαρτιας, κυκλῳ, αὐτων …),
     which may be worn type rather than misprints; "AFL₁" (p. 288) and "L₂F" (p. 24) where Lake's
