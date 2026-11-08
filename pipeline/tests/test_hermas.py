@@ -2,6 +2,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
+from anagnosis_pipeline import greek
 from anagnosis_pipeline.drama import PLAYS
 from anagnosis_pipeline.hermas_text import (beta_item, chapters_in, cite, compare_form, continuous_chapter, first1k_marks,
                                             lake_notes, lake_translation, tauber_text)
@@ -140,6 +141,23 @@ class Page(unittest.TestCase):
         self.assertEqual([v["para"] for v in text["verses"]], [True, False, True])
         self.assertEqual(text["titles"], {1: ["ΠΟΙΜΗΝ"]})
         self.assertEqual(text["problems"], [])
+
+    def test_numerals_keep_their_keraia(self):
+        self.assertEqual([w for w, _s, _e in greek.words("οἱ μʹ λίθοι, λεʹ καὶ διʼ αὐτοῦ")],
+                         ["οἱ", "μʹ", "λίθοι", "λεʹ", "καὶ", "διʼ", "αὐτοῦ"])
+
+    def test_misprints(self):
+        from anagnosis_pipeline import lake_merge
+        text = {"verses": [{"sec": "22.1.1", "words": ["ὄρος", "τι", "κα", "εὐχαριστῶν"]},
+                           {"sec": "24.1.4", "words": ["τὰς", "ἁμαρτιας", "ἐν", "θίψεσι¹"]},
+                           {"sec": "8.1.1", "words": ["Πνεῦμα"]}],
+                "titles": {8: ["Εντολὴ γʹ."]}}
+        problems: list = []
+        notes = lake_merge.correct_misprints("hermas", text, problems)
+        self.assertEqual(text["verses"][0]["words"][2], "καὶ")
+        self.assertEqual(text["verses"][1]["words"][1:], ["ἁμαρτίας", "ἐν", "θλίψεσι¹"])
+        self.assertEqual(text["titles"][8], ["Ἐντολὴ γʹ."])
+        self.assertIn(("8.1.1", "Ἐντολὴ (the title): Lake prints Εντολὴ, without the breathing; corrected in this edition."), notes)
 
     def test_titles(self):
         self.assertEqual(title_label("Ὅρασις βʹ."), "Ὅρασις βʹ")

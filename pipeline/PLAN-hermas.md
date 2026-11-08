@@ -261,7 +261,7 @@ converter and came out as Greek letters.)
 - [x] Step 2: leaves (2026-11-08): Lake Greek 18-302 even, Latin 302-316 even, introduction 14-17, sigla 15-17; Taylor I introduction 13-58, notes 61-168; Taylor II notes 13-135, appendix 139-143
 - [x] Step 3: draft (Greek and Latin) (2026-11-08): 143 Greek pages, 815 verse blocks, 24 batches; 25 % of the verses flagged before the footnote-mark flags (44 % with them); all 207 First1K notes placed; Latin 8 pages, 40 verse blocks, 25 % (`batch-latin.md`)
 - [x] Step 4: text and apparatus batches, residuals (2026-11-08): 24 Greek batches and `batch-latin.md` checked and independently reviewed (five workflows of ten agents), the residual pass (628 items, one change); 207 apparatus items (209 marks), 111 margin references, as First1K; 25 checker remarks, all Lake's misprints noted
-- [ ] Step 5: merge, Tauber and First1K checks, misprints, review
+- [x] Step 5: merge, Tauber and First1K checks, misprints, review (2026-11-08): `texts/hermas/` written (693 verses, 207 apparatus items + 29 notes of corrected misprints, 27,138 tokens, none without a lemma); the First1K differences and Tauber's comparison notes settled on the page; 28 misprints and one title corrected (`MISPRINTS`, `TITLE_MISPRINTS`); `check` 0 errors; ten verses compared with the page
 - [ ] Step 6: Lake's and Taylor's notes
 - [ ] Step 7: introductions
 - [ ] Step 8: appendix (the Latin end)
@@ -432,6 +432,44 @@ converter and came out as Greek letters.)
     list of sigla has no F; "Acts 2, 1" on p. 304 (Acts 2, 11 on p. 300 for the same words);
     Εντολὴ γʹ. without a breathing (p. 74); παῆναι 1.3.3, ἀκοκριθεῖσαι 26.11.2, τῆν 26.12.5,
     παρθένον 26.11.7 printed so and in Tauber; the stop after Διατί οὖν 20.1.2 (comma or ;?).
+
+* **2026-11-08, step 5: the merge and the checks.** `merge-hermas` wrote `texts/hermas/` (grc.txt
+  693 verses 1.1.1-26.30.2 in order, 107 paragraphs; commentary-lake-apparatus.md; tokens.tsv;
+  aliases.tsv; eng-lake.txt; commentary-lake.md; appendix.md, read at step 8). Its import of the
+  lexica had the wrong module (`build.load_lexica`, not `nt`): mended.
+  * **(a) Against Tauber**: every verse once and in order; four verses still differ in wording,
+    all misprints that Tauber keeps as printed and this edition corrects (ἀσύμποφα 11.2.6,
+    μενανοήσωσι 25.6.3, ἀκοκριθεῖσαι 26.11.2, παρθένον 26.11.7).
+  * **(b) The apparatus against First1K's**: 19 differences before the misprint notes, each settled
+    (I read the doubtful ones on the page myself rather than sending them to an agent; they were
+    few): First1K's own slips ("nos" for Lake's "now" at Mand. 11.1.18, read on p. 124; "sith",
+    "#3" for q, a truncated item at Mand. 12.4.1, sigla written flat, PBerl, Poxy, PAmh); First1K
+    repeats a note at Lake's doubled marks (Vis. 3.2.5, Mand. 5.2.1); the notes on titles, which
+    First1K's text lacks (Vis. 5, the Similitudes' heading); Lake's misprinted mark ² for ¹ at
+    Sim. 5.6.1, which First1K followed and the agents placed by content; Funk's "καὶ [παθεῖν οὐ]
+    φοβοῦνται" at Sim. 8.10.4, brackets printed (p. 214, the last line, left half). Lake prints
+    the Amherst papyrus "Pam" (p. 12) and "PAmh" (p. 220): both kept as printed.
+  * **(c) Tauber's comparison notes**: 2.2.5, 3.7.6 corrected as misprints; 3.6.1 πονηρίας, 3.8.5
+    εἰσίν., 9.3.7 αὐτῷ· (Google's scan), 25.3.2-3, 26.11.9 ὅλως (Google's scan), 26.29.4 τὸ were
+    settled on the page at step 4; 27.3.5 Lake's dots as printed. The titles of Mandate 6,
+    Similitudes 6 and 9 (11.0.0, 23.0.0, 26.0.0), where Tauber's scan shows a stop: neither our
+    scan nor Google's of the same plates prints one (looked at enlarged): written without.
+  * **Misprints** (`MISPRINTS`, whole words, several per verse; `TITLE_MISPRINTS`): the 28 the
+    agents found and noted on the page are corrected in grc.txt with a note in the apparatus ("καὶ:
+    Lake prints κα, a misprint; corrected in this edition."), and the title Εντολὴ γʹ. (Mand. 3)
+    has its breathing back (note on 8.1.1). Lake's misprints inside his own apparatus notes
+    (μετανοήσοὐσιν, θεῖαν, πρυφητικοῦ, ἐθελυδιδάσκαλοι, ἀμαρτίας with a smooth breathing, the
+    siglum F in "AFL₁" and "L₂F") stay as printed: they are his commentary. παῆναι 1.3.3 is the
+    late aorist of παύω, not a misprint.
+  * **(d) The review list**: the numerals with a keraia (ρʹ, λʹ, κεʹ, λεʹ, μʹ: 27 in the text) were
+    split by the tokenizer into a letter (μ analysed as ἐγώ) and a lone ʹ. `greek._TOKEN` now
+    keeps U+02B9 at the end of a word (no other text has one), so they align with GLAUx, which
+    has them whole: 0 tokens without a lemma (14 before). The list is left with the four corrected
+    misprints, whose analyses fit the corrected words (παρθένων n-p---fg-).
+  * `check`: 0 errors; for hermas 77 lemmas no dictionary has (134 tokens): step 9.
+  * **Ten verses compared with the page by eye** (1.1.4, 2.3.4, 6.1.2, 9.2.1, 16.1.8, 20.1.2,
+    22.1.1, 25.6.4, 26.11.2, 26.16.5): all as printed, the corrected misprints apart; the comma
+    after Διατί οὖν (20.1.2) looked at again: a comma with a speck above, kept.
 
 ## Sizes, for planning
 

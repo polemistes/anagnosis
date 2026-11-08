@@ -12,7 +12,8 @@ APOSTROPHE_LIKE = "ʼ’'̓᾿᾽"  # ʼ ’ ' ̓ ᾿ ᾽
 # Word characters: Greek letters plus the elision apostrophe. Everything else splits.
 # A speaker's name printed in a prose text is written in braces, {ΑΠΟΛ.}: one token, not a word.
 # a word may hold an editor's addition: Ἀγάθων⟨ος⟩
-_TOKEN = re.compile(r"\{[^}]*\}|[ʼ᾽᾿]?[Ͱ-Ͽἀ-῿̀-ͯ]+(?:⟨[Ͱ-Ͽἀ-῿̀-ͯ]+⟩[Ͱ-Ͽἀ-῿̀-ͯ]*)*[ʼ᾽᾿]?|[^\s]")
+# a numeral keeps its keraia (ρʹ, λεʹ: U+0374, which NFC makes U+02B9)
+_TOKEN = re.compile(r"\{[^}]*\}|[ʼ᾽᾿]?[Ͱ-Ͽἀ-῿̀-ͯ]+(?:⟨[Ͱ-Ͽἀ-῿̀-ͯ]+⟩[Ͱ-Ͽἀ-῿̀-ͯ]*)*(?:\u02b9|[ʼ᾽᾿])?|[^\s]")
 
 
 def nfc(s: str) -> str:

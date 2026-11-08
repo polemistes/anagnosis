@@ -38,8 +38,43 @@ ROOT = Path(__file__).resolve().parent.parent.parent
 PIPELINE = ROOT / "pipeline"
 # Misprints in Lake's Greek: the batches keep what is printed; the text shows the right reading and
 # the apparatus says so (the author's rule, 2026-11-08). Key: the verse.
-MISPRINTS: dict[str, dict[str, tuple[str, str]]] = {
-    "hermas": {},
+# Lake's misprints in the Greek text, each checked on the page (the batch notes; PLAN-hermas.md,
+# step 5): verse -> [(as printed, the right reading)], whole words. Misprints inside Lake's own
+# apparatus notes stay as printed.
+MISPRINTS: dict[str, dict[str, list[tuple[str, str]]]] = {
+    "hermas": {
+        "1.2.2": [("κάρδίᾳ", "καρδίᾳ")],
+        "2.2.5": [("μενανοίας", "μετανοίας")],
+        "3.7.6": [("βασανισθωσιν", "βασανισθῶσιν")],
+        "3.12.2": [("αλλὰ", "ἀλλὰ")],
+        "11.2.6": [("ἀσύμποφα", "ἀσύμφορα")],
+        "13.1.10": [("φυχῇ", "ψυχῇ")],
+        "14.1.10": [("αὐτῇς", "αὐτῆς")],
+        "16.1.8": [("και", "καὶ")],
+        "21.1.7": [("δυναται", "δύναται")],
+        "22.1.1": [("κα", "καὶ")],
+        "22.2.2": [("δε", "δὲ")],
+        "22.5.4": [("καί", "καὶ")],
+        "23.2.6": [("ἀπο", "ἀπὸ")],
+        "23.4.4": [("ἡμερα", "ἡμέρα")],
+        "24.1.4": [("ἁμαρτιας", "ἁμαρτίας"), ("θίψεσι", "θλίψεσι")],
+        "25.2.2": [("ῥάβδοὺς", "ῥάβδους")],
+        "25.6.3": [("μενανοήσωσι", "μετανοήσωσι")],
+        "25.6.4": [("ἐπαισχυνθεντες", "ἐπαισχυνθέντες")],
+        "25.9.3": [("πράξέις", "πράξεις")],
+        "26.1.10": [("το", "τὸ")],
+        "26.4.1": [("κυκλῳ", "κύκλῳ")],
+        "26.9.1": [("αὐτων", "αὐτῶν")],
+        "26.11.2": [("ἀκοκριθεῖσαι", "ἀποκριθεῖσαι")],
+        "26.11.7": [("παρθένον", "παρθένων")],
+        "26.12.5": [("τῆν", "τὴν")],
+        "26.16.5": [("σφαγῖδα", "σφραγῖδα")],
+        "26.29.1": [("κακια", "κακία")],
+    },
+}
+# misprints in a book's printed title: book -> (as printed, right)
+TITLE_MISPRINTS: dict[str, dict[int, tuple[str, str]]] = {
+    "hermas": {8: ("Εντολὴ", "Ἐντολὴ")},
 }
 # Attic headwords (GLAUx's lemmas, LSJ's) -> the Koine headword under which Abbott-Smith lists the
 # word; extended from the merge log's list of lemmas Abbott-Smith lacks
@@ -120,18 +155,33 @@ def assemble(pages: dict[str, dict], index: list[dict]) -> dict:
 
 
 def correct_misprints(slug: str, text: dict, problems: list[str]) -> list[tuple[str, str]]:
-    """The right reading where Lake misprints a word (MISPRINTS), and for each an apparatus note on
-    its verse, marked as this edition's: [(verse, note)]."""
+    """The right reading where Lake misprints a word (MISPRINTS, TITLE_MISPRINTS), and for each an
+    apparatus note on its verse (a title's on the book's first verse), marked as this edition's:
+    [(verse, note)]."""
     notes = []
     by_sec = {v["sec"]: v for v in text["verses"]}
-    for sec, (printed, right) in MISPRINTS.get(slug, {}).items():
+
+    def letters(w: str) -> str:
+        return "".join(c for c in SUP_RE.sub("", w) if c.isalpha())
+
+    for sec, fixes in MISPRINTS.get(slug, {}).items():
         v = by_sec.get(sec)
-        k = next((i for i, w in enumerate(v["words"]) if printed in SUP_RE.sub("", w)), None) if v else None
-        if k is None:
-            problems.append(f"misprint {sec}: “{printed}” not found in the verse")
+        for printed, right in fixes:
+            hits = [i for i, w in enumerate(v["words"]) if letters(w) == printed] if v else []
+            if len(hits) != 1:
+                problems.append(f"misprint {sec}: “{printed}” found {len(hits)} times in the verse")
+                continue
+            k = hits[0]
+            v["words"][k] = v["words"][k].replace(printed, right)
+            notes.append((sec, f"{right}: Lake prints {printed}, a misprint; corrected in this edition."))
+    for book, (printed, right) in TITLE_MISPRINTS.get(slug, {}).items():
+        titles = text["titles"].get(book, [])
+        if not any(printed in t for t in titles):
+            problems.append(f"title misprint, book {book}: “{printed}” not in {titles}")
             continue
-        v["words"][k] = v["words"][k].replace(printed, right)
-        notes.append((sec, f"{right}: Lake prints {printed}, a misprint; corrected in this edition."))
+        text["titles"][book] = [t.replace(printed, right) for t in titles]
+        first = next((v["sec"] for v in text["verses"] if v["sec"].startswith(f"{book}.")), None)
+        notes.append((first, f"{right} (the title): Lake prints {printed}, without the breathing; corrected in this edition."))
     return notes
 
 
@@ -192,7 +242,8 @@ def write_aliases(out: Path, sources: Path, build: Path, problems: list[str]) ->
     import collections
     import csv
 
-    from .nt import load_lexica, resolve_lemmas
+    from .build import load_lexica
+    from .nt import resolve_lemmas
 
     rows = list(csv.DictReader((out / "tokens.tsv").open(encoding="utf-8"), delimiter="\t"))
     counts = collections.Counter(r["lemma"] for r in rows if r["lemma"])
