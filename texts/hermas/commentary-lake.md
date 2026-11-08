@@ -7,7 +7,7 @@
 ## 1.1.1
 *Hermas and Rhoda*
 
-**…her as a sister.**: As it stands this is hardly intelligible: presumably the meaning is that Hermas was born a slave, and that his owner sold him to Rhoda. It is implied that he then passed out of her possession, and later on made her acquaintance again. The alternative is that ἀνεγνωρισἀμην merely means “came to know her properly.”
+**…her as a sister.**: As it stands this is hardly intelligible: presumably the meaning is that Hermas was born a slave, and that his owner sold him to Rhoda. It is implied that he then passed out of her possession, and later on made her acquaintance again. The alternative is that ἀνεγνωρισάμην merely means “came to know her properly.”
 
 ## 1.1.3
 *Hermas goes to Cumae*

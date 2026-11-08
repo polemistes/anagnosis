@@ -72,6 +72,10 @@ MISPRINTS: dict[str, dict[str, list[tuple[str, str]]]] = {
         "26.29.1": [("κακια", "κακία")],
     },
 }
+# slips of the Perseus file in Lake's notes, checked on his page: wrong -> as printed
+PERSEUS_FIXES: dict[str, str] = {
+    "ἀνεγνωρισἀμην": "ἀνεγνωρισάμην",  # p. 7, note 1
+}
 # misprints in a book's printed title: book -> (as printed, right)
 TITLE_MISPRINTS: dict[str, dict[int, tuple[str, str]]] = {
     "hermas": {8: ("Εντολὴ", "Ἐντολὴ")},
@@ -406,6 +410,9 @@ def merge(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path) -> 
         for sec, ref in pages.get(p["stem"], {}).get("margin", []):
             margin.setdefault(sec, []).append(ref)
     notes = lake_notes(sources / play.trans_file)
+    for nt in notes:
+        for wrong, right in PERSEUS_FIXES.items():
+            nt["text"] = nt["text"].replace(wrong, right)
     by_sec: dict[str, list[str]] = {}
     for nt in notes:
         if sec_key(nt["sec"]) > sec_key(LAST_GREEK):
