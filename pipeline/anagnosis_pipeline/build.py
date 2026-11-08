@@ -300,8 +300,9 @@ def build_lexicon(sources: Path, out_dir: Path) -> None:
     build_forms(db, sources)
     # Logeion's short definitions for every headword that has one, for the dictionary search
     exact, _loose = load_logeion_shortdefs(sources)
+    homographs = Homographs.load(sources)
     headword_keys = {greek.lemma_key(e.headword) for slug, entries in lexica.items() if slug != "woodhouse" for e in entries}
-    rows = [(k, "logeion", d) for k, d in exact.items() if k in headword_keys]
+    rows = [(k, "logeion", homographs.definition(k) or d) for k, d in exact.items() if k in headword_keys]
     db.executemany("INSERT OR IGNORE INTO short_definitions (lemma_key, source, definition) VALUES (?,?,?)", rows)
     print(f"short definitions in lexicon: {len(rows)}")
     _finish(db, lex_path)
@@ -341,6 +342,7 @@ def abbott_smith_extra_keys(sources: Path, entries: list[Entry]) -> list[tuple[s
 def build_texts(texts: Path, sources: Path, out_dir: Path, only: str | None = None) -> None:
     # one database per text, and a catalog of them for the app's library
     catalog = []
+    homographs = Homographs.load(sources)
     for work_dir in sorted(p for p in texts.iterdir() if p.is_dir() and (p / "grc.txt").exists()):
         catalog.append(read_catalog_entry(work_dir))
         if only is not None and work_dir.name != only:
@@ -351,11 +353,11 @@ def build_texts(texts: Path, sources: Path, out_dir: Path, only: str | None = No
         db = sqlite3.connect(path)
         db.executescript(TEXT_SCHEMA)
         db.executemany("INSERT INTO meta VALUES (?, ?)", [("schema_version", str(SCHEMA_VERSION)), ("kind", "text")])
-        keys, lemmas = build_work(db, work_dir)
+        keys, lemmas = build_work(db, work_dir, homographs)
         overrides = read_shortdef_overrides(work_dir / "shortdefs.tsv")
         aliases = read_aliases(work_dir / "aliases.tsv")
         db.executemany("INSERT INTO lemma_aliases VALUES (?, ?)", sorted(aliases.items()))
-        build_short_definitions(db, sources, lemmas, overrides, aliases)
+        build_short_definitions(db, sources, lemmas, overrides, aliases, homographs)
         _finish(db, path)
     write_catalog(catalog, out_dir)
 
@@ -398,7 +400,7 @@ def read_catalog_entry(work_dir: Path) -> dict:
     return entry
 
 
-def build_work(db: sqlite3.Connection, work_dir: Path) -> set[str]:
+def build_work(db: sqlite3.Connection, work_dir: Path, homographs: "Homographs | None" = None) -> set[str]:
     slug = work_dir.name
     doc = parse_file(work_dir / "grc.txt")
     m = doc.meta
@@ -461,10 +463,13 @@ def build_work(db: sqlite3.Connection, work_dir: Path) -> set[str]:
         if len(words) != len(rows):
             raise SystemExit(f"{slug}: line {n}: {len(words)} words in text but {len(rows)} in tokens.tsv (run 'check')")
         for row, (form, start, end) in zip(rows, words):
-            lemma = row["lemma"]
-            key = greek.lemma_key(lemma)
+            base = re.sub(r"\d+$", "", row["lemma"])
+            key = greek.lemma_key(base)
             lemma_keys.add(key)
-            lemmas[key] = lemma
+            lemmas[key] = base
+            # a homograph the annotation identifies keeps its number on the lemma (μήν2), counted
+            # as the word sheet lists the homographs; the app shows the lemma without it
+            lemma = homographs.mark(row["lemma"], row["postag"]) if homographs else base
             db.execute(
                 "INSERT INTO tokens (line_id, ord, start, end, form, lemma, lemma_key, postag, relation, head, sentence, word_id) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)",
                 (line_ids[n], int(row["ord"]), start, end, form, lemma, key, row["postag"], row["relation"] or None,
@@ -604,8 +609,77 @@ def read_aliases(path: Path) -> dict[str, str]:
     return out
 
 
+HOMOGRAPH_CLASSES = Path(__file__).resolve().parent.parent / "homographs.tsv"
+
+
+class Homographs:
+    """Words Logeion's short definitions list more than once under one spelling (μήν "now verily",
+    μήν2 "month"). The word sheet lists them all, numbered 1, 2 … in Logeion's order (its
+    placeholders "[lexical cite]" left out); a token whose annotation tells which it is gets that
+    number on its lemma (μήν2), and the app marks it. What tells: a Logeion homograph number already
+    on the lemma (the New Testament's, from MACULA's Strong's numbers: import-nt), or the token's
+    part-of-speech tag where it fits exactly one homograph (pipeline/homographs.tsv: each homograph's
+    tag letters and Strong's numbers)."""
+
+    def __init__(self, groups: dict[str, list[tuple[int, str]]], classes: dict[str, dict[int, tuple[set[str], set[int]]]]):
+        self.groups = groups      # cased key -> [(Logeion number, definition)], two or more
+        self.classes = classes    # cased key -> Logeion number -> (tag letters, Strong's numbers)
+
+    @classmethod
+    def load(cls, sources: Path) -> "Homographs":
+        raw: dict[str, list[tuple[int, str]]] = {}
+        path = sources / "logeion-shortdefs.txt"
+        if path.exists():
+            for line in path.read_text(encoding="utf-8").splitlines():
+                lemma, _, definition = line.partition("\t")
+                lemma, definition = lemma.strip(), definition.strip()
+                if not lemma or not definition or definition.isdigit() or definition == "[lexical cite]":
+                    continue
+                m = re.match(r"^(.*?)(\d*)$", greek.nfc(lemma))
+                raw.setdefault(m.group(1), []).append((int(m.group(2) or 1), definition))
+        groups = {k: sorted(v) for k, v in raw.items() if len(v) > 1}
+        classes: dict[str, dict[int, tuple[set[str], set[int]]]] = {}
+        if HOMOGRAPH_CLASSES.exists():
+            for line in HOMOGRAPH_CLASSES.read_text(encoding="utf-8").splitlines()[1:]:
+                parts = line.split("\t")
+                if len(parts) < 3 or not parts[1].strip().isdigit():
+                    continue
+                key, n, pos = greek.nfc(parts[0].strip()), int(parts[1]), set(parts[2].split()) - {"-"}
+                strongs = {int(x) for x in (parts[3].split() if len(parts) > 3 else []) if x.isdigit()}
+                classes.setdefault(key, {})[n] = (pos, strongs)
+        return cls(groups, classes)
+
+    def definition(self, lemma: str) -> str | None:
+        """The numbered list of a homograph group's definitions ("1. …\n2. …"), or None."""
+        group = self.groups.get(_cased_key(lemma))
+        if not group:
+            return None
+        return "\n".join(f"{i}. {d}" for i, (_n, d) in enumerate(group, 1))
+
+    def mark(self, lemma: str, postag: str, strong: int | None = None) -> str:
+        """The lemma, with the number of its homograph in the list (1-based) when known."""
+        m = re.match(r"^(.*?)(\d*)$", greek.nfc(lemma))
+        base, given = m.group(1), m.group(2)
+        group = self.groups.get(base)
+        if not group:
+            return base
+        numbers = [n for n, _d in group]
+        if given and int(given) in numbers:
+            return f"{base}{numbers.index(int(given)) + 1}"
+        classes = self.classes.get(base, {})
+        if strong is not None:
+            hits = [n for n in numbers if strong in classes.get(n, (set(), set()))[1]]
+            if len(hits) == 1:
+                return f"{base}{numbers.index(hits[0]) + 1}"
+        tag = (postag or "-")[:1]
+        hits = [n for n in numbers if tag in classes.get(n, (set(), set()))[0]]
+        if len(hits) == 1:
+            return f"{base}{numbers.index(hits[0]) + 1}"
+        return base
+
+
 def build_short_definitions(db: sqlite3.Connection, sources: Path, lemmas: dict[str, str], overrides: dict[str, str],
-                            aliases: dict[str, str] | None = None) -> None:
+                            aliases: dict[str, str] | None = None, homographs: Homographs | None = None) -> None:
     exact, loose = load_logeion_shortdefs(sources)
     aliases = aliases or {}
     rows = []
@@ -613,6 +687,10 @@ def build_short_definitions(db: sqlite3.Connection, sources: Path, lemmas: dict[
     for key, lemma in sorted(lemmas.items()):
         if key in overrides:
             rows.append((key, "override", overrides[key]))
+            continue
+        listed = homographs.definition(lemma) if homographs else None
+        if listed:
+            rows.append((key, "logeion", listed))
             continue
         definition = resolve_short_definition(lemma, exact, loose)
         if definition is None and key in aliases:

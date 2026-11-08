@@ -134,7 +134,8 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
         val short = q.selectShortDefinition(token.lemma_key).executeAsOneOrNull()?.definition
         val syntax = token.sentence?.let { Syntax.roleOf(sentenceTree(data, it), token) }
             ?.let { if (data.automaticSyntax) "$it (automatic)" else it }
-        return WordInfo(token.form, token.lemma, Morphology.describe(token.postag), short, glossary + rows, syntax, markedForm(token))
+        val (lemma, homograph) = splitHomograph(token.lemma)
+        return WordInfo(token.form, lemma, Morphology.describe(token.postag), short, glossary + rows, syntax, markedForm(token), homograph)
     }
 
     /** The token's form with the long vowels its spelling does not show marked, or null (see [VowelLength]). */
@@ -463,9 +464,9 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
         for (key in row.keys) {
             for ((slug, keys) in row.keysBySlug) {
                 if (key !in keys) continue
-                textDb(slug).anagnosisQueries.selectShortDefinition(key).executeAsOneOrNull()?.let { return it.definition }
+                textDb(slug).anagnosisQueries.selectShortDefinition(key).executeAsOneOrNull()?.let { return it.definition.replace("\n", "  ") }
             }
-            lexicon.lexiconQueries.selectShortDefinition(key).executeAsOneOrNull()?.let { return it }
+            lexicon.lexiconQueries.selectShortDefinition(key).executeAsOneOrNull()?.let { return it.replace("\n", "  ") }
         }
         return null
     }

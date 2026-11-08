@@ -161,7 +161,7 @@ object SimpleSyntax {
             }
         }
 
-        fun lemma(n: SyntaxNode): String = n.token?.lemma ?: ""
+        fun lemma(n: SyntaxNode): String = n.token?.lemma?.trimEnd { it.isDigit() } ?: ""
         fun mood(n: SyntaxNode): Char = n.postag.getOrElse(4) { '-' }
         fun pos(n: SyntaxNode): Char = n.postag.getOrElse(0) { '-' }
         fun case(n: SyntaxNode): Char = n.postag.getOrElse(7) { '-' }

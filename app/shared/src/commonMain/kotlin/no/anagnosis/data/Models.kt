@@ -186,7 +186,23 @@ class WordInfo(
     val syntax: String? = null,
     /** The form with the long vowels its spelling does not show marked (a macron), for the voice; null when none is known. */
     val marked: String? = null,
+    /** Which of the homographs listed in [shortDefinition] ("1. …\n2. …") this word is, when the
+     * text's annotation tells (1-based); null when it does not. */
+    val homograph: Int? = null,
 )
+
+/** A lemma as the tokens store it may end in its homograph's number (μήν2): the lemma without it, and the number. */
+fun splitHomograph(lemma: String): Pair<String, Int?> {
+    val base = lemma.trimEnd { it.isDigit() }
+    return base to lemma.substring(base.length).toIntOrNull()
+}
+
+/** A short definition that lists homographs ("1. now verily\n2. month") as its numbered parts; one part otherwise. */
+fun homographSenses(definition: String): List<Pair<Int, String>> {
+    val lines = definition.lines().filter { it.isNotBlank() }
+    val parsed = lines.mapNotNull { Regex("^(\\d+)\\. (.*)$").find(it)?.let { m -> m.groupValues[1].toInt() to m.groupValues[2] } }
+    return if (lines.size > 1 && parsed.size == lines.size) parsed else listOf(0 to definition)
+}
 
 
 /** One heading of the page-wide Apparatus / Commentary views: a line or range with its notes. */

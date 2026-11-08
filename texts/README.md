@@ -126,6 +126,17 @@ https://github.com/helmadik/shortdefs); this file adds glosses for lemmas Logeio
 overrides Logeion's. Format: `lemma<TAB>definition`, `#` starts a comment. `check` lists the
 lemmas still without a gloss.
 
+**Homographs.** Where Logeion lists words spelled alike (μήν "now verily", μήν2 "month"; its
+placeholders "[lexical cite]" left out), the word sheet shows all of them, numbered, and marks
+the one a word is when the annotation tells: the build gives such a token's lemma the homograph's
+number in that list (μήν2; the app shows the lemma without it). What tells: a Logeion number on
+the lemma in `tokens.tsv` (the New Testament's, set by `import-nt` from MACULA's Strong's numbers),
+or the word's part-of-speech tag where it fits exactly one homograph. Each homograph's tag letters
+and Strong's numbers are in `pipeline/homographs.tsv` (the 296 groups that occur in the texts;
+written and reviewed 2026-11-08); where two homographs share a part of speech, nothing is marked.
+A capitalised name keeps its own definition apart from the common word (Ὅμηρος "Homer", ὅμηρος
+"hostage").
+
 ## `commentary-jebb-apparatus.md`
 
 Jebb's critical notes (textual apparatus), transcribed from the Internet Archive scan of the

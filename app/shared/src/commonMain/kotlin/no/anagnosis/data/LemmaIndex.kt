@@ -56,7 +56,7 @@ object LemmaIndex {
             val byKey = group.groupBy { it.key }
             val keyOrder = byKey.entries.sortedByDescending { e -> e.value.sumOf { it.count } }
             // a key's spelling: the lemma of the text that has it most
-            val spellings = keyOrder.map { e -> e.value.maxBy { it.count }.lemma }.distinct()
+            val spellings = keyOrder.map { e -> e.value.maxBy { it.count }.lemma.trimEnd { it.isDigit() } }.distinct()
             LemmaRow(
                 spellings = spellings,
                 keys = keyOrder.map { it.key },

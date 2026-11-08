@@ -434,7 +434,24 @@ def import_nt(sources: Path, texts: Path, build: Path, slug: str = "newtestament
     for r, m in zip(rows, macula):
         sentence, word_id, relation, head = by_word[m["xml:id"]]
         r["sentence"], r["word_id"], r["relation"], r["head"] = sentence, str(word_id), relation, str(head)
-    write_tokens(out / "tokens.tsv", rows)
+    # a homograph that MACULA's Strong's number identifies gets Logeion's homograph number on its
+    # lemma (μήν2, the month), which the build turns into the word sheet's mark (build.Homographs)
+    from .build import Homographs
+
+    homographs = Homographs.load(sources)
+    written = []
+    marked = 0
+    for r, m in zip(rows, macula):
+        r2 = dict(r)
+        classes = homographs.classes.get(r["lemma"])
+        if classes and m["strong"].isdigit():
+            hits = [n for n, (_pos, strongs) in classes.items() if int(m["strong"]) in strongs]
+            if len(hits) == 1:
+                r2["lemma"] = f"{r['lemma']}{hits[0]}"
+                marked += 1
+        written.append(r2)
+    write_tokens(out / "tokens.tsv", written)
+    print(f"homographs identified by Strong's number: {marked} words")
     write_syntax_nodes(out / "syntax-nodes.tsv", nodes)
     print(f"wrote {out / 'tokens.tsv'}: {len(rows)} words, {len({r['lemma'] for r in rows})} lemmas")
     print(f"wrote {out / 'syntax-nodes.tsv'}: {len(nodes)} nodes; " + ", ".join(f"{k} {v}" for k, v in sorted(stats.items())))

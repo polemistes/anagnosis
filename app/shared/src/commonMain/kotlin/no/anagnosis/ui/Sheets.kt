@@ -126,7 +126,7 @@ fun WordSheet(
             }
             Spacer(Modifier.height(12.dp))
             when {
-                info.shortDefinition != null -> Text(info.shortDefinition, style = MaterialTheme.typography.bodyLarge)
+                info.shortDefinition != null -> ShortDefinition(info.shortDefinition, info.homograph)
                 glossary.isNotEmpty() -> glossary.forEach { HtmlText(it.html, onGreekWord = onGreekWord) }
                 info.entries.isEmpty() -> Text("No dictionary entry found.", style = MaterialTheme.typography.bodyMedium)
             }
@@ -216,6 +216,43 @@ fun PageNotesSheet(
 
 /** A section of a document: the text between two <h1>/<h2> headings. */
 private class DocSection(val level: Int, val title: String?, val html: String)
+
+/**
+ * A word's short definition. Where it lists homographs ("1. now verily\n2. month"), every one is
+ * shown, numbered, and the one this word is, when the text's annotation tells, is marked: bold,
+ * with a check and "here".
+ */
+@Composable
+private fun ShortDefinition(definition: String, homograph: Int?) {
+    val senses = remember(definition) { no.anagnosis.data.homographSenses(definition) }
+    if (senses.size == 1) {
+        Text(definition, style = MaterialTheme.typography.bodyLarge)
+        return
+    }
+    Column {
+        for ((n, text) in senses) {
+            val marked = n == homograph
+            Text(
+                androidx.compose.ui.text.buildAnnotatedString {
+                    if (marked) {
+                        pushStyle(androidx.compose.ui.text.SpanStyle(fontWeight = androidx.compose.ui.text.font.FontWeight.SemiBold, color = MaterialTheme.colorScheme.primary))
+                        append("✓ $n. $text")
+                        pop()
+                        pushStyle(androidx.compose.ui.text.SpanStyle(color = MaterialTheme.colorScheme.primary))
+                        append("  · here")
+                        pop()
+                    } else {
+                        append("$n. $text")
+                    }
+                },
+                style = MaterialTheme.typography.bodyLarge,
+                color = if (homograph != null && !marked) MaterialTheme.colorScheme.onSurfaceVariant else MaterialTheme.colorScheme.onSurface,
+                modifier = Modifier.padding(bottom = 2.dp),
+            )
+        }
+    }
+}
+
 
 private fun splitSections(html: String): List<DocSection> {
     val out = mutableListOf<DocSection>()
