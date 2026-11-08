@@ -19,10 +19,13 @@
 22.5.4	λέγω αὐτῷ· Κύριε, μεγάλως καὶ θαυμαστῶς πάντα ἐστὶ καὶ ἐνδόξως πάντα ἔχει. μὴ οὖν, φημί, ἐγὼ ἠδυνάμην ταῦτα νοῆσαι; οὐδὲ ἕτερος τῶν ἀνθρώπων, κἂν λίαν συνετὸς ᾖ τις, οὐ δύναται νοῆσαι αὐτά. ἔτι, φημί, κύριε, δήλωσόν μοι, ὃ μέλλω σε ἐπερωτᾶν.
 22.5.5	Λέγε, φησίν, εἴ τι βούλει. Διατί, φημί, κύριε, ὁ υἱὸς τοῦ θεοῦ εἰς δούλου τρόπον κεῖται ἐν τῇ παραβολῇ;
 --- apparatus
+1	L₁ adds filius autem spiritus sanctus est. Cf. Sim. ix. 1. 1, ‘ἐκεῖνο γὰρ τὸ πνεῦμα ὁ υἱὸς τοῦ θεοῦ ἐστιν.’
 --- margin
 22.5.2	Mt. 13, 38
-22.5.2	Eph. 3, 9 Cf. Ps. 68, 28
+22.5.2	Eph. 3, 9
+22.5.2	Cf. Ps. 68, 28
 --- notes
+22.5.2	the margin prints "Eph. 3, 9" and "Cf. Ps. 68, 28" (capital C) as two references on two lines, both beside the line τὰ πάντα καὶ ἀπαρτίσας αὐτὰ καὶ δυναμώσας·¹
 
 === p-0178
 --- text
@@ -35,15 +38,19 @@
 22.6.5	τὸ πνεῦμα τὸ ἅγιον τὸ προόν, τὸ κτίσαν πᾶσαν τὴν κτίσιν, κατῴκισεν ὁ θεὸς εἰς σάρκα, ἣν ἠβούλετο· αὕτη οὖν ἡ σάρξ, ἐν ᾗ κατῴκησε τὸ πνεῦμα τὸ ἅγιον, ἐδούλευσε τῷ πνεύματι καλῶς ἐν σεμνότητι καὶ ἁγνείᾳ πορευθεῖσα, μηδὲν ὅλως μιάνασα τὸ πνεῦμα.
 22.6.6	πολιτευσαμένην οὖν αὐτὴν καλῶς καὶ ἁγνῶς καὶ συγκοπιάσασαν τῷ πνεύματι καὶ συνεργήσασαν ἐν παντὶ πράγματι, ἰσχυρῶς καὶ ἀνδρείως ἀναστραφεῖσαν, μετὰ τοῦ πνεύματος τοῦ ἁγίου εἵλατο κοινωνόν· ἤρεσε γὰρ³ ἡ
 --- apparatus
+1	οὐ LE, om. A.
+2	L adds vides inquit dominum eum esse populi accepta a patre suo omni potestate, which the Editors are inclined to accept.
+3	ἤρεσε A, ἤρεσε τῷ θεῷ (or τῷ Κυρίῳ) L₁L₂.
 --- margin
 22.6.3	Ps. 15, 11; Prov. 16, 17
-22.6.3	Joh. 10, 18 ; 12, 49. 50 ; 14, 31 15, 10
+22.6.3	Joh. 10, 18; 12, 49. 50; 14, 31 15, 10
 --- notes
+22.6.1	the mark after οὐ is printed ² (οὐ² κεῖται), a misprint of Lake's: the item it answers ("οὐ LE, om. A.") is ¹ and item ² belongs to the mark after αὐτοῦ.² in 22.6.3; written ¹ so that the marks run 1, 2, 3 and answer their items
+22.6.3	the margin reference "Joh. 10, 18; 12, 49. 50; 14, 31 15, 10" runs over four printed lines beside νόμον … 4. ὅτι δὲ … κληρονομίας; no semicolon is printed between "14, 31" and "15, 10"
 
 === p-0180
 --- text
 22.6.6+	πορεία τῆς σαρκὸς ταύτης, ὅτι οὐκ ἐμιάνθη ἐπὶ τῆς γῆς ἔχουσα τὸ πνεῦμα τὸ ἅγιον.
-¶
 22.6.7	σύμβουλον οὖν ἔλαβε τὸν υἱὸν καὶ τοὺς ἀγγέλους τοὺς ἐνδόξους, ἵνα καὶ ἡ σὰρξ αὕτη, δουλεύσασα τῷ πνεύματι ἀμέμπτως, σχῇ τόπον τινὰ κατασκηνώσεως καὶ μὴ δόξῃ τὸν μισθὸν τῆς δουλείας αὐτῆς ἀπολωλεκέναι· πᾶσα γὰρ σὰρξ ἀπολήψεται μισθὸν¹ ἡ εὑρεθεῖσα ἀμίαντος καὶ ἄσπιλος, ἐν ᾗ τὸ πνεῦμα τὸ ἅγιον κατῴκησεν.
 22.6.8	ἔχεις καὶ ταύτης τῆς παραβολῆς τὴν ἐπίλυσιν.
 [chapter]	VII
@@ -52,9 +59,12 @@
 22.7.2	βλέπε, μήποτε ἀναβῇ ἐπὶ τὴν καρδίαν σου τὴν σάρκα σου ταύτην φθαρτὴν εἶναι καὶ παραχρήσῃ αὐτῇ ἐν μιασμῷ τινί. ἐὰν μιάνῃς τὴν σάρκα σου, μιανεῖς καὶ τὸ πνεῦμα τὸ ἅγιον· ἐὰν δὲ μιάνῃς τὴν σάρκα,² οὐ ζήσῃ.
 22.7.3	Εἰ δέ τις, φημί, κύριε, γέγονεν ἄγνοια προτέρα, πρὶν ἀκουσθῶσι τὰ ῥήματα ταῦτα, πῶς σωθῇ ὁ ἄνθρωπος ὁ μιάνας τὴν σάρκα αὐτοῦ; Περὶ τῶν προτέρων, φησίν, ἀγνοημάτων τῷ θεῷ μόνῳ δυνατὸν ἴασιν δοῦναι, αὐτοῦ
 --- apparatus
+1	τῆς δουλείας . . . μισθόν om. A. The text is reconstructed from L.
+2	σάρκα ALE, but the editors usually emend to τὸ πνεῦμα in the supposed interests of the sense.
 --- margin
-22.7.3	Mt. 28, 18
 --- notes
+22.6.7	the verse begins at the line's start without an indent (7. σύμβουλον, flush with the lines around it): the draft's ¶ deleted
+22.7.3	the page prints no margin reference; "Mt. 28, 18" stands on the next page (p-0182, beside αὐτοῦ γάρ ἐστι πᾶσα ἐξουσία)
 
 === p-0182
 --- text
@@ -68,10 +78,16 @@
 23.1.3	αὗται αἱ ἐντολαὶ σύμφοροί εἰσι τοῖς μέλλουσι μετανοεῖν· ἐὰν γὰρ μὴ πορευθῶσιν ἐν αὐταῖς, εἰς μάτην ἐστὶν ἡ μετάνοια αὐτῶν.
 23.1.4	οἱ οὖν μετανοοῦντες ἀποβάλλετε τὰς πονηρίας τοῦ αἰῶνος τούτου τὰς ἐκτριβούσας ὑμᾶς· ἐνδυσάμενοι δὲ πᾶσαν ἀρετὴν
 --- apparatus
+1	L(A) add (with some variations) sed nunc custodi te, et cum sit dominus omnipotens misericors, prioribus admissis remedium dabit. The editors (probably rightly) usually accept this addition.
 --- margin
+22.7.3	Mt. 28, 18
 23.1.1	Jam. 1, 21
-23.1.1	Ps. 1, 1-2 ; 119, 1
+23.1.1	Ps. 1, 1–2; 119, 1
 --- notes
+22.7.3	the margin reference "Mt. 28, 18" stands beside the page's first line (γάρ ἐστι πᾶσα ἐξουσία,¹ 4. ἐὰν …): keyed to 22.7.3, whose words stand nearest it (moved here from p-0180, where it is not printed)
+[title]	printed letter-spaced "Παραβολὴ ϛʹ" (grave on the η) with no full stop after the numeral (checked enlarged); the chapter numeral I printed below it
+23.1.1	the margin prints "Ps. 1, 1–2;" over "119, 1" (one reference on two lines, beside ἀνθρώπου, ἔλεγον …), the range with an en dash
+22.7.3	apparatus item 1: the siglum is printed "L" followed by a faint broken mark (top right and middle, not at the foot where a subscript digit would stand) and then "(A)": no legible character, written "L(A)"; the reviewer may wish to check the scan
 
 === p-0184
 --- text
@@ -84,5 +100,6 @@
 23.2.2	ἐπιλανθάνονται γὰρ τῶν ἐντολῶν τοῦ θεοῦ τοῦ ζῶντος καὶ πορεύονται ἀπάταις καὶ τρυφαῖς ματαίαις καὶ ἀπόλλυνται ὑπὸ τοῦ ἀγγέλου τούτου, τινὰ μὲν εἰς θάνατον, τινὰ δὲ εἰς καταφθοράν.
 23.2.3	λέγω αὐτῷ·
 --- apparatus
+1	L adds nihil ergo adicientes plurimum ex prioribus recidetis.
 --- margin
 --- notes

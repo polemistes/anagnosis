@@ -151,13 +151,18 @@ The flags, and what to do:
   where the Greek ends and the Latin begins) the page is shared by two blocks, `p-0302` in the last
   Greek batch and `l-0302` in `batch-latin.md`: each item goes in the block whose text holds its
   mark.
+* **An item may run on to the foot of the facing English page** (the next leaf, odd-numbered:
+  p. 130's item 2 ends at the foot of p. 131, leaf 143). When the last item on the page ends
+  without its stop, look there: the image is
+  `https://archive.org/download/apostolicfathers02lakeuoft/page/n<LEAF−3>_w1500.jpg` (leaf 143 →
+  n140); save it in your own folder. Write the item whole, on the Greek page, and say so in notes.
 * **Copy each item exactly as printed**: the lemma, the readings, the sigla, Lake's Latin and
   English. Greek with full accents and breathings as printed; Latin and English as printed
   (italics ignored).
 * **The sigla** (Lake's introduction, pp. 3-5): ℵ (Codex Sinaiticus; U+2135), with its hands ℵ*
   (the first hand), ℵᶜ, ℵᵃ (correctors: raised small letters ᶜ ᵃ); A (Codex Athous); H (the Hamburg
-  fragment); the papyri Pᵃᵐ (Amherst), Pᵒˣ (Oxyrhynchus), Pᵇᵉʳ (Berlin), written with raised
-  small letters as printed; the versions L₁ (Vulgate), L₂ (Palatine) with subscript digits
+  fragment); the papyri Pᵃᵐ (Amherst), Pᵒˣʸ (Oxyrhynchus: Lake prints "Poxy" with oxy raised; earlier
+  lists said Pᵒˣ, which is wrong), Pᵇᵉʳ (Berlin), written with raised small letters as printed; the versions L₁ (Vulgate), L₂ (Palatine) with subscript digits
   (U+2081 ₁, U+2082 ₂), L (both), E (Ethiopic), C (Coptic); the Fathers Clem., Athan., Ant. (as
   printed). Sigla run together as printed (`ℵᶜAL₂(E)`, `AL₁`), a space where Lake leaves one.
   Parentheses around a siglum (`A(L)`, `(E)`) as printed: they mean the witness supports the
