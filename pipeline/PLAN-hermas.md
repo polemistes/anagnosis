@@ -264,7 +264,7 @@ converter and came out as Greek letters.)
 - [x] Step 5: merge, Tauber and First1K checks, misprints, review (2026-11-08): `texts/hermas/` written (693 verses, 207 apparatus items + 29 notes of corrected misprints, 27,138 tokens, none without a lemma); the First1K differences and Tauber's comparison notes settled on the page; 28 misprints and one title corrected (`MISPRINTS`, `TITLE_MISPRINTS`); `check` 0 errors; ten verses compared with the page
 - [x] Step 6: Lake's and Taylor's notes (2026-11-08): Lake's from Perseus (234 verses: side-headings, footnotes, the margin references), one Greek slip of the Perseus file corrected as printed; Taylor's 231 pages in 29 batches checked and reviewed (six workflows), 174 notes under 173 verses and 6 on the Latin end (in the appendix)
 - [ ] Step 7: introductions
-- [ ] Step 8: appendix (the Latin end)
+- [x] Step 8: appendix (the Latin end) (2026-11-08): `appendix.md` from `batch-latin.md` (checked and reviewed at step 4), 34 sections 9.30.3-10.4.5 in order with Lake's translation and his 5 apparatus items, Taylor's 6 notes on the Latin end at its foot; one slip of the Perseus translation corrected; p. 304 read against the file
 - [ ] Step 9: translation, sigla, glossary, aliases, short definitions, homographs, about, READMEs
 - [ ] Step 10: build, pack, catalogue, emulator check
 
@@ -492,6 +492,17 @@ converter and came out as Greek letters.)
     Taylor prints no verse number before a mark, the heading is the traditional verse the mark
     stands in (Mandate 10.1.2). Both forms of a heading for a book of one chapter (`Mandate 7.1.4`,
     `Mandate 7.4`) are read alike by the merge.
+
+* **2026-11-08, step 8: the appendix.** The merge writes `appendix.md` from `batch-latin.md` (the
+  Latin pages, checked and reviewed with the Greek at step 4): a short preface (A breaks off after
+  Sim. 9.30.2; Lake's L₁ with the Greek of the papyri), then Similitude 9.30.3 to 10.4.5, 34
+  sections in order, each with Lake's translation beneath it (Perseus), Lake's five apparatus items
+  ("Apparatus: …") where their marks stand, and at the foot "Taylor's notes on the Latin end" (6,
+  from step 6). Read through: the Perseus translation has a garbled quotation mark at Sim. 9.31.2
+  ("needs must€ enter"); his p. 293 (leaf 305) prints "needs must ‘enter into the kingdom of
+  God’;": corrected (`PERSEUS_FIXES`, now applied to the translation as well as the notes; no
+  other stray character in the Perseus text). Sim. 10.4.3-5 compared with p. 304 by eye: word for
+  word.
 
 ## Sizes, for planning
 

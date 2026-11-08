@@ -35,7 +35,7 @@ not annotated word by word.
 
 **Similitude 9.31.2** Oportet autem circumcidi hoc saeculum ab illis et vanitates opum suarum, et tunc convenient in dei regnum. Necesse est enim eos intrare in dei regnum; hoc enim genus innocuum benedixit dominus. Ex hoc ergo genere non intercidet quisquam. Etenim licet quis eorum temptatus a nequissimo diabolo aliquid deliquerit, cito recurret ad dominum suum.
 
-*“But this world and the vanities of their riches must be cut away from them, and then they will be meet for the kingdom of God. For they needs must€ enter into the kingdom of God’; for the Lord blessed this innocent kind. Therefore not one of this kind shall perish, for though one of them be tempted by the most wicked devil, and do some wrong, he will quickly return to his Lord.”*
+*“But this world and the vanities of their riches must be cut away from them, and then they will be meet for the kingdom of God. For they needs must ‘enter into the kingdom of God’; for the Lord blessed this innocent kind. Therefore not one of this kind shall perish, for though one of them be tempted by the most wicked devil, and do some wrong, he will quickly return to his Lord.”*
 
 **Similitude 9.31.3** Felices vos iudico omnes, ego nuntius paenitentiae, quicumque estis innocentes sicut infantes, quoniam pars vestra bona est et honorata apud deum.
 

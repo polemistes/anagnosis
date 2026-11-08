@@ -75,7 +75,18 @@ MISPRINTS: dict[str, dict[str, list[tuple[str, str]]]] = {
 # slips of the Perseus file in Lake's notes, checked on his page: wrong -> as printed
 PERSEUS_FIXES: dict[str, str] = {
     "ἀνεγνωρισἀμην": "ἀνεγνωρισάμην",  # p. 7, note 1
+    "needs must€ enter": "needs must ‘enter",  # Sim. 9.31.2, p. 293
 }
+
+
+def _perseus_fixed(rows: list[tuple[str, str]]) -> list[tuple[str, str]]:
+    """Lake's translation from Perseus with PERSEUS_FIXES applied."""
+    out = []
+    for sec, text in rows:
+        for wrong, right in PERSEUS_FIXES.items():
+            text = text.replace(wrong, right)
+        out.append((sec, text))
+    return out
 # misprints in a book's printed title: book -> (as printed, right)
 TITLE_MISPRINTS: dict[str, dict[int, tuple[str, str]]] = {
     "hermas": {8: ("Εντολὴ", "Ἐντολὴ")},
@@ -389,7 +400,7 @@ def merge(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path) -> 
     print(f"wrote aliases.tsv: {n_alias}")
 
     # Lake's translation by verse, to 26.30.2
-    rows = lake_translation(sources / play.trans_file)
+    rows = _perseus_fixed(lake_translation(sources / play.trans_file))
     have_n = {v["sec"] for v in verses}
     eng = []
     for n, t in rows:
@@ -464,7 +475,7 @@ def write_appendix(play, sources: Path, tdir: Path, od: Path, out: Path, problem
     pages = read_batches(tdir, latin=True)
     text = assemble(pages, index)
     problems += [f"latin: {p}" for p in text["problems"]]
-    eng = dict(lake_translation(sources / play.trans_file))
+    eng = dict(_perseus_fixed(lake_translation(sources / play.trans_file)))
     items: dict[str, list[str]] = {}
     for p in index:
         block = pages.get(p["stem"])
