@@ -190,7 +190,7 @@ class WordInfo(
 
 
 /** One heading of the page-wide Apparatus / Commentary views: a line or range with its notes. */
-class NoteGroup(val heading: String, val lineText: String?, val notes: List<Commentary_notes>)
+class NoteGroup(val heading: String, val lineText: String?, val notes: List<Commentary_notes>, val key: String = heading)
 
 /** Which kind of notes a commentary holds; decided from its slug. */
 /** [short] is the label of the bottom bar's button when four buttons share it. */

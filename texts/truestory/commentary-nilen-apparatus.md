@@ -32,7 +32,6 @@ Libri: ΓΩSZPNF periit in P libelli initium usque ad c. 14 med. notae Fv una po
 
 ⟨οὐκ ὀλίγους⟩· οὐ conieci
 
-## 1.2b
 χαρίεν Γ χάριεν rell.
 
 ποικίλλα F¹ corr. Fˣ
@@ -78,7 +77,6 @@ Libri: ΓΩSZPNF periit in P libelli initium usque ad c. 14 med. notae Fv una po
 
 καὶ βίων καινότητας ΓΩSFv om. ZN
 
-## 1.3b
 βωμολογίας F
 
 ἀλκίνουυ ΓΩ ἀλκίνοουν (sic) S ἀλκίνοον ZNFv ον spscr. Γᵃ
@@ -108,7 +106,6 @@ Libri: ΓΩSZPNF periit in P libelli initium usque ad c. 14 med. notae Fv una po
 
 ἀληθεύσω λέγων ΓΩS ν inter ω et λ inser. Sˣ ἀληθεύσω λόγων I ἀληθεύων λέγω ZNFv corr. supra vs. adumbr. Γᵃ
 
-## 1.4b
 μήτʼ ἔπαθον N
 
 δὲ μήτε — μήτε ΓΩS δὲ μὴδὲ — μὴδὲ ZNF δʼ vel δ` post ή utrumque spscr. Γᵃ
@@ -124,7 +121,6 @@ Libri: ΓΩSZPNF periit in P libelli initium usque ad c. 14 med. notae Fv una po
 
 ἐστὶν Γ ἐστὶ ΩSZNFv
 
-## 1.5b
 μὲν ΓΩSF om. ZN
 
 ἐνεβαλλόμην S
@@ -162,7 +158,6 @@ pro οὐ spat. vel ras. 2 litterarum in Z
 
 κατεπέπαυτο Ibtz ex A probant Dind Bekk Sbdt
 
-## 1.6b
 προσσχόντες S ut coniec. Schmieder προσχόντες rell.
 
 χρόνον ἐπὶ γῆς ΓΩIS ἐπὶ τῆς γῆς χρόνον ZFv ἐπὶ γῆς χρόνον N
@@ -202,7 +197,6 @@ pro οὐ spat. vel ras. 2 litterarum in Z
 
 ὁ χῖός Ω*ˣI ὁχεὶος Ω
 
-## 1.7b
 τὸ ΓΩS om. ZNFv
 
 ἐνιαχοῦ Ω in ἐν ἀλλαχοῦ corr. Ωˣ
@@ -223,7 +217,6 @@ pro οὐ spat. vel ras. 2 litterarum in Z
 
 χρόαν ΓΩ χροιὰν SZNFv
 
-## 1.7c
 τινας αὐτῶν N
 
 τοὺς ἄλλους — ὕδατος] qui pisces? quae aqua?
@@ -253,7 +246,6 @@ pro οὐ spat. vel ras. 2 litterarum in Z
 
 ἐκόμων ex ἐκώμων corr. Sˣ vel Sʳ
 
-## 1.8b
 προσελθόντας] ZN προσελθοῦσαι ΓΩSF
 
 τε καὶ] ΓΩS καὶ ZNFv
@@ -291,7 +283,6 @@ pro οὐ spat. vel ras. 2 litterarum in Z
 
 ἕωθεν] ΩSFv ἔωθεν Γ τῆ ἑτέρα Z ἕτερα N
 
-## 1.9b
 φερομένης N
 
 περιδεινήσας Γ¹ corr. Γ*²
@@ -323,7 +314,6 @@ pro οὐ spat. vel ras. 2 litterarum in Z
 
 ὑπέβημεν F
 
-## 1.10b
 αὐτόθεν]θεν spscr. F αὐτόθι F
 
 καθεωρῶμεν ZNFv καθ spscr. Γᵃ |θεωρῶμεν extr. mg. Γ ἑωρῶμεν ΓΩS
@@ -353,7 +343,6 @@ pro οὐ spat. vel ras. 2 litterarum in Z
 
 συλλαβόντες ἀνάγουσιν ΓΩS ξυλλαβόντες ἄγουσιν ZNFv
 
-## 1.11b
 ἡμῶν καὶ supra δὲ. πῶς scr. Ωˣ i. e. ni f. δὲ ἡμῶν. καὶ πῶς et sic fere I evan.
 
 οὖν] ZNFv spscr. Γᵃ om. ΓΩIS
@@ -387,7 +376,6 @@ pro οὐ spat. vel ras. 2 litterarum in Z
 
 δʼ ἐξ Z
 
-## 1.12b
 ἐκώλυσε ΓZNFv ἐκώλυε ΩS et fort. Γ¹
 
 ἀποστεῖλαι ΓΩSF παραγγεῖλαι ZN spscr. Γᵃ
@@ -427,7 +415,6 @@ pro οὐ spat. vel ras. 2 litterarum in Z
 
 καὶ οἱ] SZNFv οἱ spscr. Γᵃ καὶ ΓΩI
 
-## 1.13b
 ἦλθεν Ω¹ corr. Ω*ˣ
 
 αὐτῷ] om. N τῶι litteras del. Γˣ spscr. –
@@ -456,7 +443,6 @@ pro οὐ spat. vel ras. 2 litterarum in Z
 
 φέρονται] φαίνονται Ω(I)
 
-## 1.13c
 δὲ οἱ N
 
 τὴν] Ω*ˣ τῆς aut τῆι Ω¹
@@ -528,7 +514,6 @@ pro οὐ spat. vel ras. 2 litterarum in Z
 
 Ἀεροσκόρδακες recte fort. Lehm lacunam ante ψιλοὶ statuit Gesn
 
-## 1.16b
 ἐσφενδόνουν Z
 
 οὐδʼ N
@@ -551,7 +536,6 @@ pro οὐ spat. vel ras. 2 litterarum in Z
 
 ἀσπαράγων ΓΩSZP ἀσπαράγγων NF γγων spscr. Pˣ
 
-## 1.16c
 δὲ ΓΩSFv δʼ ZPN
 
 σείριον Z σίριον Γ ι spscr. Zˣ
@@ -599,7 +583,6 @@ pro οὐ spat. vel ras. 2 litterarum in Z
 
 σφῶν] Γ*ᵃZPNFv σαφῶν S σαφῶς ΓΩ γρ spscr. Pˣ
 
-## 1.17b
 γεγενημένης ΓΩSF γενομενομένης Z γενομένης PN
 
 καὶ post δὲ om. N
@@ -631,7 +614,6 @@ post κολοσσοῦ add. τὸ μέγεθος N
 
 οὐκ ἔγραψα Ω
 
-## 1.18b
 αὐτῶν ΓΩS corr. Pˣ αὐτοῦ ZPNF οῦ spscr. Γᵃ
 
 ἀπιέναι ΩS
@@ -690,7 +672,6 @@ post κολοσσοῦ add. τὸ μέγεθος N
 
 ἐπίῃ] ι et η spscr. F ἐπήει in vsu F
 
-## 1.20b
 σεληνιτῶν ΓΩSNFv σεληνητῶν ZP
 
 καὶ — μυρίους om. N
@@ -753,7 +734,6 @@ post κολοσσοῦ add. τὸ μέγεθος N
 
 ζωοποιοῦσιν Γ ζωοποιοῦσι ΩSZPNFv
 
-## 1.22b
 καὶ ΓΩSNFv mg. Pˣ om. ZP
 
 ἐς ΓΩS εἰς ZPNF
@@ -801,7 +781,6 @@ post κολοσσοῦ add. τὸ μέγεθος N
 
 εἰς ΓΩS ἐς ZPNF
 
-## 1.23b
 ἀπουροῦσίν Γ ἀπουροῦσί ΩSZPFv ου post π spscr. N ἀποροῦσί N
 
 καὶ] ΓΩ οὐ (sic) S οὐδὲ ZPF om. N
@@ -962,7 +941,6 @@ post κολοσσοῦ add. τὸ μέγεθος N
 
 ὥσπερ] ΓΩ ὥσπερ εἰπεῖν SZPNFv i. e. ὡσπερεὶ[πεῖν] nescio quid spscr. Γˣ evan.
 
-## 1.29b
 δέ ΓΩS δʼ ZPNFv
 
 ἰδίαι (ί et αι diphth.) ΓZ
@@ -977,7 +955,6 @@ post κολοσσοῦ add. τὸ μέγεθος N
 
 ὑπακούσῃ SZPNFv ἐπακούσῃ ΓΩ ἐ spscr. Pˣ
 
-## 1.29c
 δὲ ἡμεῖς ΓΩSN καὶ del. Pˣ δὲ καὶ ἡμεῖς ZPFv καὶ inser. Γᵃ
 
 ἐβραδύνομεν P¹ corr. P*ˣ
@@ -990,7 +967,6 @@ post κολοσσοῦ add. τὸ μέγεθος N
 
 ἐκεῖνα ΓΩ om. SZPNFv
 
-## 1.29d
 αὐτοῦ] ἐκεῖ Ω
 
 τῇ δὲ ἐπιούσῃ ΓΩS τῇ ἐπιούσῃ δὲ ZPNFv
@@ -1028,7 +1004,6 @@ post κολοσσοῦ add. τὸ μέγεθος N
 
 ἀποβάντες ΓΩSF γρ spscr. Pˣ ἀπορρίψαντες ZPN γρ mg. ΓᵃS
 
-## 1.30b
 γίνεσθαι ΓΩ γίγνεσθαι SZPNFv
 
 ἐν εὐδίᾳ Ω γρ mg. F ἐνευδίᾳ Γ ἐνευδία S ἐν ὕδατι ZPNFv γρ mg. S
@@ -1047,7 +1022,6 @@ post κολοσσοῦ add. τὸ μέγεθος N
 
 ὑψηλοτέρυς Γ ου spscr. corr. Γ*ᵃ
 
-## 1.30c
 περιβαλόντες ΓΩPF περιβαλλόντες (sic) S παραβαλόντες Z περιλαβόντες N
 
 συναράξαι ΓZP συναρράξαι ΩSNFv
@@ -1102,7 +1076,6 @@ post κολοσσοῦ add. τὸ μέγεθος N
 
 θαλάττης ΓΩSN θαλάσσης ZPF
 
-## 1.32b
 ἐπεὶ δὲ ΓΩSF ἐπειδὴ δὲ ZPN
 
 ἤδη ΓΩSNF om. ZP
@@ -1142,7 +1115,6 @@ post κολοσσοῦ add. τὸ μέγεθος N
 
 ὃ ZPNF ἃ ΓΩS
 
-## 1.33b
 ταῦτʼ N
 
 μέν, ὦ πάτερ] Bekk ἐσμὲν ὦ πάτερ ΓΩS ὦ πάτερ ἐσμὲν ZPNFv
@@ -1157,7 +1129,6 @@ post κολοσσοῦ add. τὸ μέγεθος N
 
 σαυτοῦ ΓΩS σεαυτοῦ ZPNFv
 
-## 1.33c
 στιβάδας ΓΩSZP γρ mg. F στιβάδες N στιβὰς F
 
 ἐνωκοδόμηντο N
@@ -1207,7 +1178,6 @@ post κολοσσοῦ add. τὸ μέγεθος N
 
 ἐσώθημεν P δι ante ἐ spscr. Pˣ
 
-## 1.34b
 ἡδύτατος ΓΩS ἥδιστος ZPNFv
 
 γεννᾶται ΓΩS γίνεται ZPNF ν in γν corr. Pˣ
@@ -1218,7 +1188,6 @@ post κολοσσοῦ add. τὸ μέγεθος N
 
 ἔνθα — λουόμεθα om. N
 
-## 1.34c
 οὐ πόρρω ἐστὶν] ΓS οὐ πόρρω ἐστὶ ΩS* οὐ πόρρω ἐστὶν ἁλμυρὰ prob. Schw ZPNF (ἀ pro ἁ F) β et α transp. notas spscr. Pˣ ἐστὶν οὐ πόρρω ἁλμυρὰ in vsu P¹
 
 εἴκοσι mg. N κ in vsu N
@@ -1242,7 +1211,6 @@ post κολοσσοῦ add. τὸ μέγεθος N
 
 εἰσὶν Γ εἰσι ΩSZPNFv
 
-## 1.35b
 θυννοκέφαλοι ΓPNF ν spscr. Ωˣ θυνοκέφαλοι ΩSZ
 
 ἑαυτοὺς ΓΩNFv αὐτοὺς SZP
@@ -1298,7 +1266,6 @@ post κολοσσοῦ add. τὸ μέγεθος N
 
 τὸν λοιπὸν βίον ΓΩ τὸ λοιπὸν (om. βίον) SZPNFv
 
-## 1.36b
 ἀπαιτοῦντες τὸν δασμὸν ΓΩS τὸν δασμὸν ἀπαιτοῦντες ZPNFv transp. not. β et α spscr. S vel Sˣ
 
 ἀποκρινάμενος ΓΩSNF ἀποκρινόμενος ZP. supra ά scr. S vel Sˣ
@@ -1384,12 +1351,10 @@ post κολοσσοῦ add. τὸ μέγεθος N
 
 θάλατταν ΓZPN θάλασσαν ΩSF
 
-## 1.39b
 συγκομιζόμενοι τὸν καρπὸν N
 
 τὸν ἐκ τῶν] ΓΩSPFv τῶν ἐκ τῶν Z ἐκ τῶν (om. τὸν) N
 
-## 1.39c
 διήγομεν ZPNFv διηγάγομεν ΓΩS
 
 ## 1.40
@@ -1419,7 +1384,6 @@ post κολοσσοῦ add. τὸ μέγεθος N
 
 τριήρων ΓΩF τριηρῶν SZPN supra ω litura est in Γ rasura in Ω
 
-## 1.40b
 οὖν ΓΩS suppl. mg. Pˣ om. ZPNFv
 
 δʼ N
@@ -1448,7 +1412,6 @@ post κολοσσοῦ add. τὸ μέγεθος N
 
 πεντασταδιαῖον ΓΩSZF πεντὰ σταδιαῖον P πεντεσταδιαῖον Cob et ε sps. F σταδιαὶον N
 
-## 1.40c
 τεσσαράκοντα N
 
 ἐκάετο ΓΩS ἐκαίετο ZPNFv
@@ -1495,7 +1458,6 @@ post κολοσσοῦ add. τὸ μέγεθος N
 
 πρύμναν κρουσάμεναι] I ex προῐμναν*κρουσάμεναι (ἀ an τί?) corr. Ωˣ
 
-## 1.42b
 καὶ γὰρ] καὶ γὰρ καὶ N
 
 ἐλάττους ΓΩSNFv ἐλάσσους ZP
@@ -1539,7 +1501,6 @@ Libri: ΓΩSZPNF notae Fv una positae idem significant atque in superiore libell
 
 ἔξοδος] ἐξέλευσις P
 
-## 2.1b
 οὖν] δὲ N
 
 οὐραίων SZPNFv ex *υρ*ῶν corr. Γ*ᵃ ex θυραιῶν Ωᵛ ex θυραίων I*ˣ
@@ -1609,7 +1570,6 @@ Libri: ΓΩSZPNF notae Fv una positae idem significant atque in superiore libell
 
 προσεκέλλομεν S
 
-## 2.2b
 βορέου] έ spscr. Zˣ βόρου Z¹
 
 ὑπʼ ΓΩSN ὑ spscr. Pˣ ἀπʼ ZPF
@@ -1636,7 +1596,6 @@ Libri: ΓΩSZPNF notae Fv una positae idem significant atque in superiore libell
 
 αὐτοὺς om. N
 
-## 2.2c
 ἐπειδὴ δὲ ἤδη ΓΩSN ἐπεὶ δὲ ἤδη ZPF
 
 ἐπέλειπε ΓZ ambiguus P ἐπέλιπε ΩSNF
@@ -1678,7 +1637,6 @@ supra ἐπὶ est ras. vel litura in Γ
 
 τὸ περίμετρον ΓΩS γρ mg Pˣ περί spscr. I² τὸ μέτρον I¹ τὸ μέγεθος prob. Schw ZPNF γρ mg. S
 
-## 2.3b
 δʼ N
 
 ἀποθλίβοντες ἐπίνομεν ΓΩSF ἀπεθλίβομεν (om. ἐπίνομεν) ZPN
@@ -1722,7 +1680,6 @@ supra ἐπὶ est ras. vel litura in Γ
 
 ἀλλὰ ΓΩS ἀλλʼ ZPNFv
 
-## 2.4b
 δὲ καὶ εἰς Γ δὲ εἰς ΩS τε εἰς ZPNFv
 
 αὑτῶν ΓSP ἑαυτῶν ΩN αὐτῶν ZFv
@@ -1731,7 +1688,6 @@ supra ἐπὶ est ras. vel litura in Γ
 
 συνοδοιπόρουν S
 
-## 2.4c
 καὶ στρογγύλου ΓNFv suppl. mg. Pˣ om. ΩSZP
 
 φελοῦ F λ spscr. corr. Fˣ
@@ -1761,7 +1717,6 @@ supra ἐπὶ est ras. vel litura in Γ
 
 ἐγινόμεθα ΓF ἐγενόμεθα ΩSN γινόμεθα ZP
 
-## 2.5b
 περὶ πᾶσαν] παντάπασιν probabiliter Schw
 
 διαυγεῖς ΓΩZPNF διαυτῆς (sic) S γρ διʼ αὐτῆς spscr. F
@@ -1938,7 +1893,6 @@ supra ἐπὶ est ras. vel litura in Γ
 
 ἀμεθύσινοι N
 
-## 2.11b
 τοῦ ΓΩSNFv om. ZP del. Sᵛ
 
 ἑκατὸν βασιλικῶν ΓSZP ρ βασιλικῶν ΩF βασιλικῶν ἑκατόν N
@@ -1990,7 +1944,6 @@ supra ἐπὶ est ras. vel litura in Γ
 
 γίγνεται N
 
-## 2.12b
 καθάπερ δὲ] ΓΩS ἀλλὰ καθάπερ ZPNF
 
 τοιοῦτο ΓΩSF τοιοῦτον ZPN
@@ -2045,7 +1998,6 @@ supra ἐπὶ est ras. vel litura in Γ
 
 καὶ καρπός] ΓΩS ὁ καρπὸς δέ ZNF ὁ καρπός δʼ P
 
-## 2.14b
 ἐπειδὰν οὖν] καὶ ἐπειδὰν N
 
 παρίῃ Fv sine accentu S παρίη ΩN ambig. P παρείη ΓZ
@@ -2135,7 +2087,6 @@ supra ἐπὶ est ras. vel litura in Γ
 
 παλαμήδου N
 
-## 2.17b
 θεσπέσιος N
 
 ἄρκισσος Ω¹ ν spscr. corr. Ω*ˣ
@@ -2183,7 +2134,6 @@ supra ἐπὶ est ras. vel litura in Γ
 
 ἐλλεβορίση ΓPF ἐλλεβορίσει ΩN ἔ pro ἐ S ει spscr. F et ut vid. Γˣ evan. ambig. comp. Z ἐλλεβορίσειε Sbdt
 
-## 2.18b
 ἀκαδημαϊκοὺς ΩSZPNFv schol. (pr. man.) mg. ΓΩS ἀκαδημιακοὺς Γ ια spscr. Pˣ
 
 ἔλεγον Ω* ἔλεγεν ΩI
@@ -2260,7 +2210,6 @@ et alia temptaveram et [λέγων]· quod occupavit Schw λέγων· ΓΩS ,λ
 
 εἶεν γεγραμμένοι Cob εἰσὶν ἐγγεγραμμένοι Γ Ibtz Dind. Bekk Sbdt εἰσὶ γεγραμμένοι ΩSZPNFv εἰσὶν γεγραμμένοι Schw
 
-## 2.20b
 ἔφασκεν F
 
 πάντας SZPNFv σ spscr. Γᵃ πάντα ΓΩ
@@ -2285,7 +2234,6 @@ et alia temptaveram et [λέγων]· quod occupavit Schw λέγων· ΓΩS ,λ
 
 οὐδὲν Cob
 
-## 2.20c
 δὲ om. S
 
 ἐποιούμην N
@@ -2375,7 +2323,6 @@ et alia temptaveram et [λέγων]· quod occupavit Schw λέγων· ΓΩS ,λ
 
 ἀχιλεὺς N
 
-## 2.23b
 πολὺ μᾶλλον om. N
 
 δηλίῳ Γ*ᵃZPFv mg. Γᵃ δήλῳ ΓFSN
@@ -2460,7 +2407,6 @@ et alia temptaveram et [λέγων]· quod occupavit Schw λέγων· ΓΩS ,λ
 
 τυρόεσσαν Γ*ᵃZPNFv cfr. 188, 9 τυρώ ΓΩS cfr. 170, 14
 
-## 2.25b
 πάλαι ΓΩSPNFv om. Z puncto not. S π■ (ως compend.?) spscr. Sᵛ evan.
 
 προσειλήφεσαν Γ*ᵃZPNFv πρὸς εἰλήφεσαν S συνειλήφεσαν ΓΩ
@@ -2508,7 +2454,6 @@ et alia temptaveram et [λέγων]· quod occupavit Schw λέγων· ΓΩS ,λ
 
 διαδράναι P ἀπο spscr. Pˣ
 
-## 2.26b
 ἀναδυσάμενοι N
 
 ἁλύσει Ω*ˣZPN sed η supra ει scr. N ἁλίσει F ἀλύσει ΓΩ¹S supra σ punctum scr. ΓᵃPˣ
@@ -2544,7 +2489,6 @@ et alia temptaveram et [λέγων]· quod occupavit Schw λέγων· ΓΩS ,λ
 
 ἀναμείναντας ΩS
 
-## 2.27b
 ἐνταῦθα ΓΩS ἔνθα ZPNFv γρ mg. S
 
 ἐποτνιώμην in vs. Γ ἠνιώμην ΩSZPNFv mg. Γ
@@ -2567,7 +2511,6 @@ et alia temptaveram et [λέγων]· quod occupavit Schw λέγων· ΓΩS ,λ
 
 προσθῆναι Ω¹ ῆ in ει corr. Ωˣ
 
-## 2.27c
 ἄλλη δὲ] ΓΩ καὶ ἄλλη SZPNFv
 
 ἔφασκεν Γ ἔφασκε Fv rell.
@@ -2619,7 +2562,6 @@ et alia temptaveram et [λέγων]· quod occupavit Schw λέγων· ΓΩS ,λ
 
 ἐλπίδα N
 
-## 2.28b
 παρεσκευασάμην ΓΩ παρεσκευαζόμην SZPNFv
 
 δὲ ἐπιούσῃ Γ δʼ pro δὲ ΩS ἐπιούση δὲ ZPF δʼ pro δὲ N
@@ -2657,7 +2599,6 @@ et alia temptaveram et [λέγων]· quod occupavit Schw λέγων· ΓΩS ,λ
 
 καταπλέοντας ΓΩSF παραπλέοντας ZP πλέοντας N
 
-## 2.29b
 προϊόντες] πλέοντες N
 
 ὀσμή ΓΩS ὀδμή ZPNFv δ et spscr. et mg. Γᵃ
@@ -2709,7 +2650,6 @@ et alia temptaveram et [λέγων]· quod occupavit Schw λέγων· ΓΩS ,λ
 
 ἐχούσης] ΓΩSNF διελθόντες (ante ·ἐλθόντες) ZP
 
-## 2.30b
 ὁ δὲ δεύτερος] ΓΩS ὁ δὲ sps. Pˣ (non del. altero δὲ) δεύτερος δὲ ZP ὁ δεύτερος δὲ NFv
 
 ἀπέρατος SZPNFv γρ mg. Γᵃ ἄμετρος FΩ
@@ -2766,7 +2706,6 @@ et alia temptaveram et [λέγων]· quod occupavit Schw λέγων· ΓΩS ,λ
 
 ἀπέπλευσα ΓΩSNF γρ mg. Pˣ ἀπέπεμψα ZP εμψα spscr. Γᵃ
 
-## 2.32b
 εἶχε ΓΩ γρ spscr. Pˣ ἔπασχε Γ*SZPNFv ‘habet insula illa vices personae’ Sbdt
 
 αὐτὴ SZPNFv et ut vid. Γ*ˣ αὕτη Ω et ut vid. Γ¹
@@ -2830,7 +2769,6 @@ et alia temptaveram et [λέγων]· quod occupavit Schw λέγων· ΓΩS ,λ
 
 χρόαν ΓΩF χροιὰν SZPN
 
-## 2.33b
 εἰσὶν N
 
 τέσσαρες ΓΩS τέτταρες ZPNFv
@@ -2859,7 +2797,6 @@ et alia temptaveram et [λέγων]· quod occupavit Schw λέγων· ΓΩS ,λ
 
 ἐκείνῳ ΓSZPFv ἐκείνο (sic) Ω ἐκεῖνο N
 
-## 2.33c
 ἐπάρχους N
 
 ματαιογένους ΓΩSPFv ματαογένους Z ματαιωγένους N
@@ -2891,7 +2828,6 @@ et alia temptaveram et [λέγων]· quod occupavit Schw λέγων· ΓΩS ,λ
 
 κεκοσμημένοι ΓΩS spscr. Pˣ διεσκευασμένοι ZPF
 
-## 2.34b
 δὲ καὶ εἰς θεούς ΩS
 
 δὲ ΓΩSNFv δʼ ZP
@@ -2923,7 +2859,6 @@ prius καὶ om. N
 
 ἐπισιτισόμενοι S
 
-## 2.35b
 δʼ ΓΩSN δὲ ZPF
 
 προσσχόντες emendavit Lehm προσχόντες libri
@@ -2952,7 +2887,6 @@ prius καὶ om. N
 
 δʼ N
 
-## 2.35c
 ἅπαντας] ΓΩSN ὅμως ἅπαντας ZPF et ὅμως spscr. Γᵃ
 
 ὑπὸ τηλεγόνου ὕστερον ΓΩS ὕστερον ὑπὸ τηλεγόνου ZPNFv
@@ -2994,7 +2928,6 @@ prius καὶ om. N
 
 ἀπεκρινάμεθα ΓΩSF ά spscr. Pˣ ἀπεκρινόμεθα ZPN
 
-## 2.36b
 ἐπὶ τὴν ναῦν A cfr. 193, 9
 
 τῆς om. N
@@ -3026,7 +2959,6 @@ prius καὶ om. N
 
 κολοκύντης F θ supra τ scr.
 
-## 2.37b
 ἀντὶ λίθων SZPNFv spscr. Γᵃ om. ΓΩ
 
 κολοκυνθῶν F τ supra θ scr.
@@ -3064,7 +2996,6 @@ prius καὶ om. N
 
 ὀργυιαὶ ΓPNFv ὀργυῖαι SZ ὀργύαι Ω ύ in ῦ corr. Ωˣ
 
-## 2.38b
 δʼ N
 
 τοὺς] ΓΩF τε τοὺς SZPN
@@ -3191,7 +3122,6 @@ prius καὶ om. N
 
 ἐδόκει ῥάδιον ΓΩ άι pro ά S ῥάδιον ἐδόκει ZPNFv
 
-## 2.42b
 δʼ N
 
 ἐπεσκόπουν Γ ἐ spscr. Pˣ ἐσκόπουν ΩS ἀπεσκόπουν prob. Schw ZPNFv γρ mg. S
@@ -3251,7 +3181,6 @@ prius καὶ om. N
 
 ἱστήκει Γ
 
-## 2.43b
 ὁρῶμεν κατὰ δεξιὰ ΓΩS καὶ τὰ δεξιὰ, ἑωρῶμεν Z ni f. P¹ κατὰ τὰ δεξιὰ ὁρῶμεν NPˣ aut κατὰ δεξιὰ ὁρῶμεν FPˣ
 
 οὐ πάνυ ΓΩSF om. ZPN grandi puncto not. Sᵛ
@@ -3289,7 +3218,6 @@ prius καὶ om. N
 
 τοῖς om. P
 
-## 2.44b
 ἑταίρων ex ἑτ*ρων corr. Ω*² vel Ω*ˣ
 
 κατεφεύγομεν ΓΩSNFv καταφεύγομεν ZP
@@ -3306,7 +3234,6 @@ prius καὶ om. N
 
 ἀναστρέφομεν ZPN α spscr. F ἀνεστρέφομεν F ἀνεστρέψαμεν ΓΩS
 
-## 2.44c
 εἰλημμένους ΓΩSN παρειλλημένους Z παρειλημένους P παρειλημμένους F
 
 ἀπαιτοῦντες ZPNFv αἰτοῦντες ΓΩS
@@ -3391,7 +3318,6 @@ prius καὶ om. N
 
 κείμενα ΓΩSFv om. ZPN
 
-## 2.46b
 ἑτέρους συνκαλεῖν S αι comp. sub έ adumbr. Sᵛ
 
 προχειρισάμενος Ω*SZPNFv προχειρησάμενος ΓΩ
@@ -3420,7 +3346,6 @@ prius καὶ om. N
 
 γρ θαλαττίους mg. S θαλαττίας S
 
-## 2.46c
 συνευνηθεῖσαι ΓΩ γρ mg. S συνευνασθεῖσαι SZPNF ασθεῖσαι spscr. Γᵃ
 
 κατέλιπον αὐτοῦ Fv
@@ -3470,7 +3395,6 @@ prius καὶ om. N
 
 ἀρπασάμενοι ΩSPˣ fort. Γ¹ ἀρπασάμενος ZP¹NFΓ aut Γᵃ
 
-## 2.47b
 μετὰ ταῦτα SZPNF ex μετ**** corr. Γ*ᵃ μετʼ αὐτὰ Ω
 
 κήτει ex κείτη cor. S² vel Sˣ

@@ -162,19 +162,32 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
         val q = textDb(data.slug).anagnosisQueries
         val firstIdx = data.lines.indexOfFirst { it.n_int >= firstN }
         val prevN = if (firstIdx > 0) data.lines[firstIdx - 1].n_int else 0L
-        val notes = data.commentaries.filter { it.kind() == kind }
+        val commentaries = data.commentaries.filter { it.kind() == kind }
+        val order = commentaries.withIndex().associate { (i, c) -> c.id to i }
+        val notes = commentaries
             .flatMap { q.selectNotesForPage(it.id, prevN, lastN, firstN, OVERLAP_MAX_SPAN).executeAsList() }
-            .sortedWith(compareBy({ it.from_n_int }, { -it.to_n_int }, { it.ord }))
+            .sortedWith(compareBy({ it.from_n_int }, { -it.to_n_int }, { order[it.commentary_id] ?: 0 }, { it.ord }))
+        // where a page has notes from two commentaries on the same lines (Jerram's and the
+        // Dickinson College Commentaries' on Lucian), each group names its commentator
+        val mixed = notes.map { it.commentary_id }.distinct().size > 1
+        val names = commentaries.associate { c ->
+            c.id to (c.title?.let { Regex("\\(([^)]+)\\)").find(it)?.groupValues?.get(1) } ?: c.author ?: c.slug)
+        }
         val groups = mutableListOf<NoteGroup>()
-        for ((key, group) in notes.groupBy { it.n }) {
+        for ((key, group) in notes.groupBy { it.n to (if (mixed) it.commentary_id else 0L) }) {
             val first = group.first()
+            val byWhom = if (mixed) " · ${names[first.commentary_id]}" else ""
             val heading = when {
                 data.verses -> data.range(first.from_n_int, first.to_n_int)
-                first.to_n_int > first.from_n_int -> "Lines ${key.replace("-", "–")}"
-                else -> "Line $key"
-            }
-            val lineText = data.lines.firstOrNull { it.n_int >= first.from_n_int }?.text?.let(::displayText)
-            groups += NoteGroup(heading, lineText, group)
+                data.sectioned && first.to_n_int > first.from_n_int -> "§§ ${key.first.replace("-", "–")}"
+                data.sectioned -> "§ ${key.first}"
+                first.to_n_int > first.from_n_int -> "Lines ${key.first.replace("-", "–")}"
+                else -> "Line ${key.first}"
+            } + byWhom
+            // the line's text once, above the first commentator's notes on it
+            val lineText = if (mixed && groups.isNotEmpty() && groups.last().key == key.first) null
+                else data.lines.firstOrNull { it.n_int >= first.from_n_int }?.text?.let(::displayText)
+            groups += NoteGroup(heading, lineText, group, key.first)
         }
         return groups
     }

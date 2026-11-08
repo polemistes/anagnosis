@@ -493,12 +493,14 @@ def merge(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path) -> 
         "source": f"{play.edition}; transcribed from the Internet Archive scan {play.scan}",
         "license": TRANSCRIPTION_LICENSE,
     }) + [""]
-    grouped: dict[int, list[str]] = {}
-    for u, item in placed:
-        grouped.setdefault(u, []).append(item)
-    for u in sorted(grouped):
-        md.append(f"## {units[u]['n']}")
-        md.append("\n\n".join(grouped[u]))
+    # under the section (1.2), not its parts (1.2b): the parts are the reader's page lines, the
+    # section is the unit the notes speak to (and the app looks a note's line up by its number)
+    grouped: dict[str, list[str]] = {}
+    for u, item in sorted(placed, key=lambda x: x[0]):
+        grouped.setdefault(re.sub(r"[a-z]$", "", units[u]["n"]), []).append(item)
+    for sec, items in grouped.items():
+        md.append(f"## {sec}")
+        md.append("\n\n".join(items))
         md.append("")
     (out / f"commentary-{play.app_editor}-apparatus.md").write_text("\n".join(md) + "\n", encoding="utf-8")
     print(f"wrote commentary-{play.app_editor}-apparatus.md: {len(grouped)} sections, {len(placed)} items; "
@@ -538,6 +540,8 @@ def merge(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path) -> 
         problems += probs
         print(f"wrote commentary-{play.notes_editor}.md: {n_notes} notes")
     paras = merge_kind(tdir, "intro") if checked("intro") else []
+    if paras and paras[0].strip() == "# Introduction":
+        paras = paras[1:]  # the app's sheet is already headed "Introduction"
     if paras:
         md = _meta_lines({
             "title": "Introduction", "author": play.notes_editor_name,

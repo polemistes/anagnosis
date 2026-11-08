@@ -99,6 +99,8 @@ object Notes {
     /** "Line 12", "Lines 12–14", "Lines 591–591a", "Lines 1.12–1.15", "Lines 172a1–172b3", "Matthew 5:3–7". */
     fun rangeLabel(data: WorkData, from: WordAnchor, to: WordAnchor): String = when {
         data.verses -> data.range(from.nInt, to.nInt)
+        data.sectioned && from.nInt == to.nInt -> "§ ${data.citation(from.nInt)}"
+        data.sectioned -> "§§ ${data.citation(from.nInt)}–${data.citation(to.nInt)}"
         from.nInt == to.nInt && from.nSub == to.nSub -> "Line ${data.citation(from.nInt, from.nSub)}"
         else -> "Lines ${data.citation(from.nInt, from.nSub)}–${data.citation(to.nInt, to.nSub)}"
     }
