@@ -66,6 +66,7 @@
 --- notes
 9.3.6	φησί¹·: Lake prints the mark before the raised stop
 9.3.7	rev: no change: no raised stop is visible after αὐτῷ at the line's end, but the type there is worn (τῷ at the end of the line above is half lost); αὐτῷ· kept
+9.3.7	res: no change: Google's scan of the same plates (n98) shows the raised stop after αὐτῷ and τῷ whole at the end of the line above; the text stands as printed
 
 === p-0098
 --- text

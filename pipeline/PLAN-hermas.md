@@ -260,7 +260,7 @@ converter and came out as Greek letters.)
 - [x] Step 1: modules, tests, CLI, app's dotted citation, INSTRUCTIONS (2026-11-08): `hermas_text.py`, `lake_pages.py`, `lake_merge.py`, `tests/test_hermas.py`; `drama_prose` reads a kind from several scans; CLI `lake-pages`, `check-hermas-batch`, `hermas-residuals`, `merge-hermas`; the app's `citation: dotted` (tested); `transcriptions/hermas/INSTRUCTIONS.md`, `REVIEW.md`, `RESIDUALS.md` (the Taylor section of INSTRUCTIONS-prose.md at step 2, when his pages are seen)
 - [x] Step 2: leaves (2026-11-08): Lake Greek 18-302 even, Latin 302-316 even, introduction 14-17, sigla 15-17; Taylor I introduction 13-58, notes 61-168; Taylor II notes 13-135, appendix 139-143
 - [x] Step 3: draft (Greek and Latin) (2026-11-08): 143 Greek pages, 815 verse blocks, 24 batches; 25 % of the verses flagged before the footnote-mark flags (44 % with them); all 207 First1K notes placed; Latin 8 pages, 40 verse blocks, 25 % (`batch-latin.md`)
-- [ ] Step 4: text and apparatus batches, residuals
+- [x] Step 4: text and apparatus batches, residuals (2026-11-08): 24 Greek batches and `batch-latin.md` checked and independently reviewed (five workflows of ten agents), the residual pass (628 items, one change); 207 apparatus items (209 marks), 111 margin references, as First1K; 25 checker remarks, all Lake's misprints noted
 - [ ] Step 5: merge, Tauber and First1K checks, misprints, review
 - [ ] Step 6: Lake's and Taylor's notes
 - [ ] Step 7: introductions
@@ -393,6 +393,45 @@ converter and came out as Greek letters.)
     pre-filled by verse (Ps. 2, 4; 123, 1 on p. 8). The apparatus sections are empty by design: the
     agents write them from the enlarged halves (INSTRUCTIONS step 3), and step 5 compares them with
     First1K's.
+
+* **2026-11-08, step 4: the batches.** Each batch was checked by one agent (INSTRUCTIONS.md) and
+  reviewed by a second that had not seen its reasoning (REVIEW.md), in five workflows of five
+  batches; the checker was run on every file after each workflow and the work committed. Then the
+  residual pass (RESIDUALS.md, eight agents over three batch files each).
+  * **Totals**: 143 Greek pages with 207 apparatus items and 209 footnote marks (Lake prints ²
+    twice on p. 30, at both ἓξ of Vis. 3.2.5, and ¹ twice on p. 90, Mand. 5.2.1: one item answers
+    each pair), 111 margin references; the Latin pages 5 items, 3 references. The same counts as
+    First1K's notes (207) and `<bibl>` references (111).
+  * **Rules settled on the way** (written into INSTRUCTIONS.md for the later batches, and the
+    earlier batches brought into line):
+    * A title is written as printed, with Lake's full stop, the numeral sign as ʹ (never ΄ or ');
+      the merge's section label drops the stop (`title_label`). A footnote mark on a title (p. 68
+      Ἀποκάλυψις εʹ.¹; p. 138 ΠΑΡΑΒΟΛΑΙ¹ ΑΣ ΕΛΑΛΗΣΕ ΜΕΤʼ ΕΜΟΥ, the general heading of the
+      Similitudes) is counted by the checker and belongs to the book's first verse at the merge.
+    * Margin ranges with an en dash ("I Cor. 7, 38–40"); references as printed ("Philipp 2, 2").
+    * Sigla as printed: Pᵒˣʸ (Lake's "Poxy"; the Latin end once prints Pᵒˣ, kept), Pᴮᵉʳˡ ("Berl",
+      capital B), numerals with a stroke over them with U+0305 (ε̅).
+    * An apparatus item can run on to the foot of the facing English page (p. 130 → p. 131): read
+      there, written whole on the Greek page. Two candidates in batches 1-10 looked at: complete.
+    * Where the scan cuts off the right edge or blurs the foot, Google's scan of the same plates
+      (`TheApostolicFathersV2`, n = page + 14) was used and cited in notes (pp. 194-198, 248, 254).
+  * **The checker** now also reports accent differences from Tauber (`_accented`): Lake's
+    accent misprints are visible as remarks, "(noted)". It compares a verse divided between two
+    files only in part, the Latin word by word, leaves the keraia of numerals and Lake's dots of
+    omission alone. 25 remarks remain over the 25 files, every one a misprint of Lake's noted on
+    the page (μενανοίας 2.2.5, βασανισθωσιν 3.7.6, αλλὰ 3.12.2, φυχῇ 13.1.10, και 16.1.8, θίψεσι
+    24.1.4, ῥάβδοὺς 25.2.2, πράξέις 25.9.3, σφαγῖδα 26.16.5, κακια 26.29.1, καί 22.5.4 …) or the
+    doubled marks of p. 30.
+  * **The residual pass** (`hermas-residuals`; the ξ/ζ fold had to be applied to the OCR side as
+    well, which took the items from 1084 to 628): every item but one agreed with the print
+    (raised stops read as ":" or "ʼ", specks, divided words, accents misread); the change is the
+    acute καί at Sim. 1.5.4 (22.5.4), noted as a misprint.
+  * **For step 5** (noted on the pages, not decided): the misprints above and the notes of the
+    other words printed without an accent (δυναται, δε, ἀπο, ἡμερα, ἁμαρτιας, κυκλῳ, αὐτων …),
+    which may be worn type rather than misprints; "AFL₁" (p. 288) and "L₂F" (p. 24) where Lake's
+    list of sigla has no F; "Acts 2, 1" on p. 304 (Acts 2, 11 on p. 300 for the same words);
+    Εντολὴ γʹ. without a breathing (p. 74); παῆναι 1.3.3, ἀκοκριθεῖσαι 26.11.2, τῆν 26.12.5,
+    παρθένον 26.11.7 printed so and in Tauber; the stop after Διατί οὖν 20.1.2 (comma or ;?).
 
 ## Sizes, for planning
 
