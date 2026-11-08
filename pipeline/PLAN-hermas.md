@@ -53,7 +53,7 @@ converter and came out as Greek letters.)
 | translation | Lake's own (1913), Perseus `canonical-greekLit/data/tlg1419/tlg001/tlg1419.tlg001.perseus-eng1.xml` (repository licence CC BY-SA 4.0): the same 27-book scheme, `div subtype="book"/"chapter"/"section"`, complete to Sim. 10.4.5, with Lake's 171 footnotes as `<note>` |
 | notes 1 | Lake's 171 footnotes to the translation (the same file): a commentary of their own, `commentary-lake.md`, by verse. The brief's usual rule (a Perseus translation's footnotes are left out) is set aside here: they are the editor's explanatory notes, and the only English notes on Hermas that are already digital |
 | notes 2 and introduction 2 | Charles Taylor (d. 1908), *The Shepherd of Hermas*, Early Church Classics, SPCK, 2 vols: I (1903: introduction, the Visions and Mandates in translation with footnotes), II (1906: the Similitudes, with an appendix on Hermas and the Gospels). Scans **shepherdofhermas0000herm** (vol. I, 360 ppi, jp2, 192 leaves, 2 hidden; leaf ≈ page + 4 for the arabic pages: introduction from about p. 9, the translation "FIRST VISION" from about p. 57, the Fourth Mandate about p. 118; find the leaves at step 2) and **shepherdofhermas02hermuoft** (vol. II, Toronto, 500 ppi, jp2, 168 leaves; leaf = page + 4: Similitude 1 about p. 10, the Tenth Similitude about p. 127, the Appendix from p. 137). Spares: shepherdhermas00taylgoog, shepherdhermas01taylgoog (Google, 600 ppi) for vol. I. Taylor's text is his own eclectic one; his notes are keyed to his translation by the printed verse numbers, so each note gets the chapter and verse where its mark stands (step 6) |
-| introduction 1 | Lake's (leaves 11–14), first in `introduction.md`; Taylor's after it (two `#` parts). Taylor's appendix on the Gospels is left out (For the author) |
+| introduction 1 | Lake's (leaves 11–14), first in `introduction.md`; Taylor's after it; then **Taylor's appendix "Hermas and the Gospels"** (vol. II pp. 137 ff.: the author asked for it on 2026-11-08), three `#` parts |
 | syntax | **GLAUx `xml/1419-001.xml`** (text id 1479; automatic, CC BY-SA 4.0; 2,102 sentences, all `analysis="auto"`; its text is Tauber's, so it aligns word for word; the Latin sections have no tokens). No hand-made treebank of Hermas exists (AGDT, Pedalion, Gorman, Harrington, PTNK checked); PROIEL has none and is NC. `# syntax: automatic` |
 | sigla | `sigla.md` written by hand from Lake's introduction (leaves 13–14: ℵ Sinaiticus, A Athous, the papyri P.Amh. 190, P.Oxy. 404, P.Berl. 6789, the Latin versions L1 (Vulgata) and L2 (Palatina), E Ethiopic, C Coptic, the quotations in Clement, Athanasius, Antiochus) and from the sigla as the apparatus uses them (Pam, Pox, Pber, L, Clem., Athan., Ant.) |
 | slug, titles, product | `hermas`; Greek title Ποιμήν (Lake's running title ΠΟΙΜΗΝ), English "The Shepherd"; author Ἑρμᾶς / Hermas; product id `hermas_shepherd_lake`, €3, `google_play: yes` |
@@ -219,9 +219,10 @@ converter and came out as Greek letters.)
    `drama-prose hermas notes fetch|ocr|draft` over both volumes, batches of eight pages
    (`notes-NN.md`): the agents keep only the footnotes (headed by chapter and verse as above) and
    leave the translation; checker; merge again; read the log (notes it could not place).
-7. **Introductions.** Lake's (leaves 11–14, `intro-01.md`) and Taylor's (vol. I), the same
-   route with `intro`; `introduction.md` with two `#` headings ("Lake's introduction (1913)",
-   "Taylor's introduction (1903)").
+7. **Introductions.** Lake's (leaves 11–14, `intro-01.md`), Taylor's (vol. I) and Taylor's
+   appendix on Hermas and the Gospels (vol. II, from p. 137 to its end), the same route with
+   `intro`; `introduction.md` with three `#` headings ("Lake's introduction (1913)", "Taylor's
+   introduction (1903)", "Taylor: Hermas and the Gospels (1906)").
 8. **The appendix.** `appendix.md` from `batch-latin.md` and the Perseus English, as described;
    read it against the pages by eye (the Greek islands, the sigla of the apparatus items there).
 9. **Translation, sigla, glossary, aliases, short definitions, homographs, about.md, README.**
@@ -246,8 +247,8 @@ converter and came out as Greek letters.)
 
 ## For the author
 
-* **Taylor's appendix** (vol. II pp. 137 ff., Hermas and the Gospels): left out; say if you want it
-  after the introductions.
+* **Taylor's appendix** (vol. II pp. 137 ff., Hermas and the Gospels): decided 2026-11-08, the
+  author asked for it: it follows the introductions in `introduction.md` (step 7).
 * **The Michigan papyrus** (Bonner 1934, Sim. 2–9): not in Lake; public domain in Norway since
   2025, US status unchecked; a later note in sigla.md at most.
 * **Release**: the text is built and in the catalogue after step 10; a reader release with it is

@@ -299,7 +299,7 @@ def _different(a: list[dict], b: list[dict]) -> bool:
     return len(sims) >= 2 and sum(sims) / len(sims) < 0.5
 
 
-def page_layout(play: Play, leaf: int, app_y: int | None = None) -> dict:
+def page_layout(play: Play, leaf: int, app_y: int | None = None, hocr: Path | None = None) -> dict:
     """The page's printed lines (top to bottom, each with its words and the words beside it in the
     margins), where the apparatus begins and ends, the column's edges, the line height.
 
@@ -309,14 +309,15 @@ def page_layout(play: Play, leaf: int, app_y: int | None = None) -> dict:
     over; the block counts as the apparatus if it holds an item number ("103."). On a page where
     a printed rule follows (commentary under the apparatus), only what stands above the rule.
     With `app_y` (the short rule above Nilén's apparatus, lucian_pages.short_rule) the apparatus
-    is everything below it."""
+    is everything below it. `hocr`: another reading of the page than the Greek model's (the Latin
+    pages of the Shepherd, read with lat+grc)."""
     from PIL import Image
 
     from .gorgias_pages import _edge
 
     _, sbuild = scan_dirs(play.scan)
     png = sbuild / "pages" / f"leaf_{leaf:04d}.png"
-    lines = read_lines(ocr_leaf(play.scan, leaf))
+    lines = read_lines(hocr or ocr_leaf(play.scan, leaf))
     with Image.open(png) as im:
         W, Hpage = im.size
     head = [l for l in lines if l["bbox"][3] < 0.075 * Hpage]

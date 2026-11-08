@@ -494,8 +494,9 @@ def build_work(db: sqlite3.Connection, work_dir: Path, homographs: "Homographs |
         db.execute("INSERT OR REPLACE INTO meta VALUES ('line_numbers', 'stephanus')")
     # prose is shown as paragraphs; an automatic syntax is labelled as such; the reading voice
     # uses the pronunciation named (homeric, attic, koine; the app defaults to Attic); "dashes:
-    # closed" joins a line ending in a dash to the next without a space (Burnet)
-    for key in ("layout", "syntax", "dictionaries", "pronunciation", "dashes"):
+    # closed" joins a line ending in a dash to the next without a space (Burnet); "citation:
+    # dotted" cites verses as Vision 1.1.5, not Matthew 5:3 (the Shepherd of Hermas)
+    for key in ("layout", "syntax", "dictionaries", "pronunciation", "dashes", "citation"):
         if m.get(key):
             db.execute("INSERT OR REPLACE INTO meta VALUES (?, ?)", (key, m[key]))
 

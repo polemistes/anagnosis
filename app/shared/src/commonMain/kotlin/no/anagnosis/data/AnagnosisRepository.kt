@@ -97,6 +97,7 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
             slug, work, lines, tokens, nodes, sections, translations, commentaries, withNotes,
             bookNumbered = numbering == "book.line",
             verses = numbering == "verse",
+            dottedCitation = q.selectMeta("citation").executeAsOneOrNull() == "dotted",
             stephanus = numbering == "stephanus",
             prose = q.selectMeta("layout").executeAsOneOrNull() == "prose",
             closedDashes = q.selectMeta("dashes").executeAsOneOrNull() == "closed",

@@ -78,8 +78,16 @@ FILES = {
             # Lucian's A True Story (pipeline/PLAN-true-story.md): Harmon's Loeb text (the check
             # text, never shipped) and his translation
             "tlg0062.tlg012.perseus-grc2", "tlg0062.tlg012.perseus-eng2",
+            # The Shepherd of Hermas (pipeline/PLAN-hermas.md): Lake's translation and his notes
+            "tlg1419.tlg001.perseus-eng1",
         )
     },
+    # The Shepherd of Hermas: Tauber and Macdonald's text of Lake (the check text, never shipped),
+    # First1KGreek's edition of Lake (its apparatus notes are the check of ours), GLAUx
+    "hermas/013-shepherd.txt": f"{RAW}/jtauber/apostolic-fathers/master/texts/013-shepherd.txt",
+    "hermas/013-shepherd_COMPARE_JT3vsSM2_notes.txt": f"{RAW}/jtauber/apostolic-fathers/master/comparison/013-shepherd_COMPARE_JT3vsSM2_notes.txt",
+    "hermas/tlg1419.tlg001.1st1K-grc1.xml": f"{RAW}/OpenGreekAndLatin/First1KGreek/master/data/tlg1419/tlg001/tlg1419.tlg001.1st1K-grc1.xml",
+    "glaux/1419-001.xml": f"{RAW}/alekkeersmaekers/glaux/main/xml/1419-001.xml",
     # GLAUx for the six plays the AGDT lacks (the Aeschylus treebanks are in treebanks/)
     **{f"glaux/{n}.xml": f"{RAW}/alekkeersmaekers/glaux/main/xml/{n}.xml"
        for n in ("0019-003", "0019-007", "0019-009", "0006-002", "0006-003", "0006-017")},

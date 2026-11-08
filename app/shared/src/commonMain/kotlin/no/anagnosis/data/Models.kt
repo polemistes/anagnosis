@@ -64,6 +64,8 @@ class WorkData(
     val stephanus: Boolean = false,
     /** The New Testament, cited by book, chapter and verse (1.5.3): n_int is book * 1000000 + chapter * 1000 + verse. */
     val verses: Boolean = false,
+    /** Verses cited with dots (meta citation = dotted: the Shepherd of Hermas, "Vision 1.1.5"), not "Matthew 5:3". */
+    val dottedCitation: Boolean = false,
     /** Prose: the lines are shown as flowing paragraphs, not one under the other. */
     val prose: Boolean = false,
     /** Dashes are closed up (Burnet's "Ναί.—ΣΩ."): a line ending in a dash joins the next without a space. */
@@ -100,23 +102,24 @@ class WorkData(
         }
     }
 
-    /** The number of a line as printed in the margin: within its book for an epic; chapter and verse (5:3) in the New Testament. */
+    /** The number of a line as printed in the margin: within its book for an epic; chapter and verse (5:3) in the New Testament, 1.5 when cited with dots. */
     fun lineLabel(nInt: Long, sub: String = ""): String = when {
+        verses && dottedCitation -> "${chapterOf(nInt)}.${verseOf(nInt)}"
         verses -> "${chapterOf(nInt)}:${verseOf(nInt)}"
         bookNumbered -> "${nInt % BOOK}$sub"
         stephanus -> stephanusLabel(nInt)
         else -> "$nInt$sub"
     }
 
-    /** The full reference of a line: 1.12 for an epic, 12 for a play, 172a1 for Plato, Matthew 5:3 in the New Testament. */
+    /** The full reference of a line: 1.12 for an epic, 12 for a play, 172a1 for Plato, Matthew 5:3 in the New Testament, Vision 1.1.5 when cited with dots. */
     fun citation(nInt: Long, sub: String = ""): String = when {
-        verses -> "${books.firstOrNull { it.number == bookOf(nInt) }?.name ?: bookOf(nInt)} ${lineLabel(nInt)}"
+        verses -> "${books.firstOrNull { it.number == bookOf(nInt) }?.name ?: bookOf(nInt)}${if (dottedCitation) "." else " "}${lineLabel(nInt)}"
         bookNumbered -> "${nInt / BOOK}.${nInt % BOOK}$sub"
         stephanus -> stephanusLabel(nInt)
         else -> "$nInt$sub"
     }
 
-    /** A range of lines as a reader writes it: Matthew 5:3–7, Matthew 5:3–6:2, lines 12–14. */
+    /** A range of lines as a reader writes it: Matthew 5:3–7, Matthew 5:3–6:2, Vision 1.1.5–2.1, lines 12–14. */
     fun range(from: Long, to: Long): String = when {
         verses && to <= from -> citation(from)
         verses && chapterOf(to) == chapterOf(from) -> "${citation(from)}–${verseOf(to)}"

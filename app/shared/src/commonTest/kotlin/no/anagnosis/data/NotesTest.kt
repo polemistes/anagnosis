@@ -18,6 +18,7 @@ class NotesTest {
     private fun text(
         rows: List<Triple<Long, String, String>>,
         verses: Boolean = false,
+        dottedCitation: Boolean = false,
         stephanus: Boolean = false,
         bookNumbered: Boolean = false,
         sections: List<Sections> = emptyList(),
@@ -34,7 +35,7 @@ class NotesTest {
         return WorkData(
             "test", Works(1, "test", "Test", "Author", "grc", null, null, null), lines, tokens, emptyMap(),
             sections.groupBy { it.first_line_id!! }, emptyList(), emptyList(), emptySet(),
-            bookNumbered = bookNumbered, stephanus = stephanus, verses = verses,
+            bookNumbered = bookNumbered, stephanus = stephanus, verses = verses, dottedCitation = dottedCitation,
         )
     }
 
@@ -144,6 +145,22 @@ class NotesTest {
         )
         assertEquals("Matthew 5:3–7", Notes.rangeLabel(matthew, a(1005003, 0), a(1005007, 2)))
         assertEquals("Matthew 5:3", Notes.rangeLabel(matthew, a(1005003, 0), a(1005003, 2)))
+    }
+
+    @Test
+    fun theShepherdIsCitedWithDots() {
+        // meta citation = dotted: Vision 1.1.5, not "Vision 1 1:5"
+        val hermas = text(
+            listOf(Triple(1001005L, "", "καὶ ἰδοὺ"), Triple(1001007L, "", "ἀποκριθεὶς αὐτῇ"), Triple(1002001L, "", "μετὰ τὸ λαλῆσαι")),
+            verses = true, dottedCitation = true,
+            sections = listOf(Sections(1, 1, 0, 1, "book", "Vision 1 · Ὅρασις αʹ", 1)),
+        )
+        assertEquals("1.5", hermas.lineLabel(1001005L))
+        assertEquals("Vision 1.1.5", hermas.citation(1001005L))
+        assertEquals("Vision 1.1.5", Notes.rangeLabel(hermas, a(1001005, 0), a(1001005, 1)))
+        assertEquals("Vision 1.1.5–7", Notes.rangeLabel(hermas, a(1001005, 0), a(1001007, 1)))
+        assertEquals("Vision 1.1.5–2.1", Notes.rangeLabel(hermas, a(1001005, 0), a(1002001, 1)))
+        assertEquals(listOf("Vision 1"), hermas.books.map { it.name })
     }
 
     @Test

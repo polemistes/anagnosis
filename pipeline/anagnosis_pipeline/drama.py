@@ -116,6 +116,17 @@ class Play:
     # the commentary's own text (Jerram's Greek, whose line numbers his notes cite), read only to
     # map those line numbers to ours
     notes_text_leaves: list[tuple[int, int]] = field(default_factory=list)
+    # the text on every other leaf of its ranges, from the first (Lake's Loeb: the Greek on the
+    # left-hand pages, his translation facing it)
+    leaf_step: int = 1
+    # pages of the text read apart from the rest (the Latin end of the Shepherd: Lake prints the
+    # Latin version where manuscript A breaks off), as leaf ranges with the same step
+    latin_leaves: list[tuple[int, int]] = field(default_factory=list)
+    # the commentary and introduction from more than one scan (Taylor's Shepherd of Hermas, two
+    # volumes): [(scan, [(first leaf, last leaf)])] per kind; when set it replaces notes_scan and
+    # notes_leaves / intro_leaves for that kind. Each page's stem carries its volume (p-1NNNN for
+    # the first scan, p-2NNNN for the second) so that leaves of two scans never meet
+    notes_sources: dict[str, list[tuple[str, list[tuple[int, int]]]]] = field(default_factory=dict)
 
     @property
     def perseus(self) -> str:
@@ -127,10 +138,10 @@ class Play:
 
     def leaves(self, kind: str) -> list[int]:
         ranges = {"text": self.text_leaves, "notes": self.notes_leaves, "intro": self.intro_leaves,
-                  "trans": self.trans_leaves}[kind]
+                  "trans": self.trans_leaves, "latin": self.latin_leaves}[kind]
         out: list[int] = []
         for a, b in ranges:
-            out += list(range(a, b + 1))
+            out += list(range(a, b + 1, self.leaf_step if kind in ("text", "latin") else 1))
         if kind == "text" and self.layout == "jebb":
             # the Greek on the left-hand pages only, the translation or commentary facing it
             out = [l for l in out if (l - self.text_leaves[0][0]) % 2 == 0]
@@ -156,7 +167,20 @@ class Play:
         return nxt
 
     def scan_for(self, kind: str) -> str:
-        return self.scan if kind == "text" else (self.notes_scan or self.scan)
+        if kind in self.notes_sources:
+            return self.notes_sources[kind][0][0]
+        return self.scan if kind in ("text", "latin") else (self.notes_scan or self.scan)
+
+    def sources_for(self, kind: str) -> list[tuple[str, list[int]]]:
+        """The scans and shown leaves of a prose kind: [(scan, leaves)], one entry unless the kind
+        has notes_sources."""
+        if kind in self.notes_sources:
+            out = []
+            for scan, ranges in self.notes_sources[kind]:
+                hidden = hidden_leaves(scan)
+                out.append((scan, [l for a, b in ranges for l in range(a, b + 1) if l not in hidden]))
+            return out
+        return [(self.scan_for(kind), self.visible(kind))]
 
 
 def _scandata(scan: str) -> list[tuple[int, bool]]:
@@ -337,6 +361,28 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          # his text pp. 1-49 = leaves 31-79, notes pp. 51-70 = leaves 81-100, index pp. 71-73
          text_leaves=[(196, 275)], sigla_leaves=[10, 11, 13, 16], notes_leaves=[(81, 100)],
          intro_leaves=[(15, 29)], notes_text_leaves=[(31, 79)]),
+    # The Shepherd of Hermas (pipeline/PLAN-hermas.md): Lake's Loeb text, apparatus, translation and
+    # notes; read by lake_pages.py (prose, by verse: book.chapter.verse of the 27 digital books),
+    # Tauber's text as the check text, GLAUx, Taylor's notes and introduction from two volumes
+    Play("hermas", "Ποιμήν", "The Shepherd", "Ἑρμᾶς", "Hermas", "tlg1419.tlg001",
+         "The Apostolic Fathers, with an English translation by Kirsopp Lake, vol. II, Loeb Classical Library, "
+         "London, William Heinemann, and New York, The Macmillan Co., 1913 (reprinted 1917)",
+         "apostolicfathers02lakeuoft", "lake", "K. Lake", "hermas_shepherd_lake",
+         glaux="1419-001.xml",
+         trans_file="drama/tlg1419.tlg001.perseus-eng1.xml", translator="Kirsopp Lake", trans_key="lake",
+         trans_edition="The Apostolic Fathers, with an English translation by Kirsopp Lake, vol. II, Loeb Classical Library, London, Heinemann, 1913",
+         trans_license="CC BY-SA 4.0 (Perseus Digital Library)",
+         notes_editor="taylor", notes_editor_name="Charles Taylor",
+         notes_edition="The Shepherd of Hermas, translated into English with an introduction and notes by Charles Taylor, "
+                       "Early Church Classics, London, SPCK, vol. I 1903, vol. II 1906",
+         notes_scan="shepherdofhermas0000herm", app_bare_numbers=True, pronunciation="koine",
+         page_offset=12, leaf_step=2, skel_fold="ξζ",  # Tesseract reads Lake's ζ as ξ
+         app_langs=("grc+eng", "eng+grc"),  # the apparatus is Greek with Latin readings and English remarks
+         # Lake (leaf = page + 12; the scan hides leaves 0-2, so page image n = leaf - 3): half-title
+         # p. 1 = leaf 13, his introduction pp. 2-5 = leaves 14-17, the Greek on the even pages
+         # 6-290 = leaves 18-302 (his translation on the odd pages facing it); A ends on p. 290 after
+         # Sim. 9.30.2, and the Latin end runs from there to p. 304 = leaf 316
+         text_leaves=[(18, 302)], latin_leaves=[(302, 316)], sigla_leaves=[16, 17]),
 ]}
 
 
