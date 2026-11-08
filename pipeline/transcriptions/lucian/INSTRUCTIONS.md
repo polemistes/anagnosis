@@ -146,6 +146,11 @@ The flags, and what to do:
   ("5 πνέοντι ΓΩS πνεύματι ZNFI ex corr. Ωˣ   5 αὐτοὺς F   5 τῇ τύχῃ, post ἑαυτοὺς add. Z"):
   each number begins a new item, even where the number repeats. The number refers to the line
   of this page; keep it as printed even where it seems off, and say so under notes.
+* A number with more than a line, as printed: `18 sq.` (line 18 and the next), `8 et 9`; the
+  "sq." belongs to the number, before the TAB (`18 sq.<TAB>τοὺς ἄλλους — ὕδατος] …`).
+* **Black blocks**: where Nilén prints black blocks (a special sort for letters lost or
+  unreadable in a manuscript: "ἔμελλ■ ambig. Z"), write ■ (U+25A0), one per block, as printed. Keep
+  `[illegible]` for what the scan does not let you read.
 * A note that names no line (the paragraph "Libri: ΓΩSZPNF … textus natura." at the head of each
   book's apparatus, the subscriptions "διώρθωσα … subscr. Γᵃ in mg." at the end of a book) gets
   `-` as its number.

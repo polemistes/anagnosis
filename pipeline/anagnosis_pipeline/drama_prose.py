@@ -446,6 +446,12 @@ def _crops(play: Play, kind: str, page: dict, out_dir: Path, stem: str) -> None:
         c.save(out_dir / f"{stem}-col-{'r' if region == 'right' else 'l'}.png", optimize=True)
 
 
+def transcriptions_for(play: Play) -> Path:
+    """Where a text's batch files are: transcriptions/drama/<slug>, or transcriptions/lucian/<slug>
+    for a text read by lucian_pages.py (Play.page_offset set)."""
+    return PIPELINE / "transcriptions" / ("lucian" if play.page_offset else "drama") / play.slug
+
+
 def write_draft(slug: str, kind: str) -> list[dict]:
     from .egt_ocr import FLAG_KINDS, vocabularies
 
@@ -467,7 +473,7 @@ def write_draft(slug: str, kind: str) -> list[dict]:
             page["md"] = _number_speeches(page["md"], trans_starts.get(page["leaf"] - 1, []), play)
         index.append({"stem": stem, "leaf": page["leaf"], "batch": b // PAGES_PER_BATCH + 1, "flags": len(page["flags"])})
     (out_dir / f"{kind}.json").write_text(json.dumps(index, indent=1), encoding="utf-8")
-    tdir = PIPELINE / "transcriptions" / "drama" / slug
+    tdir = transcriptions_for(play)
     tdir.mkdir(parents=True, exist_ok=True)
     for b in range(0, len(pages), PAGES_PER_BATCH):
         path = tdir / f"{kind}-{b // PAGES_PER_BATCH + 1:02d}.md"
@@ -682,6 +688,9 @@ def check_prose(slug: str, kind: str, path: Path, texts: Path) -> list[str]:
             if raw.startswith("+ ") and k > 0:
                 remarks.append(f"{stem}: '+ ' inside the page (only the page's first paragraph may run on)")
             if raw.startswith("#"):
+                if kind == "notes" and re.match(r"^# Book [IVX]+$", raw):
+                    prev_note = -1  # Jerram counts his lines afresh in each book
+                    continue
                 if kind == "notes":
                     mm = re.match(r"^## (\d+)([a-z]?)(?:-(\d+)([a-z]?))?$", raw)
                     if not mm:
@@ -691,6 +700,8 @@ def check_prose(slug: str, kind: str, path: Path, texts: Path) -> list[str]:
                     if n < prev_note:
                         remarks.append(f"{stem}: note {raw[3:]} comes after {prev_note}")
                     prev_note = n
+                    if PLAYS[slug].notes_text_leaves:
+                        continue  # keyed by the commentary's own lines (Jerram), mapped to ours at the merge
                     if numbers and mm.group(1) + mm.group(2) not in numbers and raw[3:] not in noted and mm.group(1) not in noted:
                         remarks.append(f"{stem}: note {raw[3:]}: no line {mm.group(1)}{mm.group(2)} in texts/{slug}/grc.txt (say why under notes)")
                 elif kind == "intro":

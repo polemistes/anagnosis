@@ -327,6 +327,9 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          ocr_fold={"ϑ": "θ", "ϱ": "ρ", "ϐ": "β", "ϰ": "κ"}, skel_fold="χκξζ",  # Nilén's ζ is read as ξ
          pronunciation="koine",  # second century AD; the author may switch it to attic
          page_offset=67,
+         # Jerram: "Line 4. μέρος γοῦν", "l. 17.", "ll. 26, 27." (his own lines, per book); the OCR
+         # reads l. as 1. or I.
+         note_start=r"^(?:Line\s+|L\.\s*|[lI1|]{1,2}\.\s*)(\d{1,4})(?:\s*[-–—,]\s*(\d{1,4}))?(?:\s*f{1,2}\.|\s*sqq?\.)?[.,:]?(?=\s|$)",
          # Nilén (scan leaf n = page image n): title page leaf 4, praefatio pp. III-XVI = leaves 6-19,
          # the witnesses (pp. VII, VIII, X, XIII) leaves 10, 11, 13, 16; text pp. 129-208 = leaves
          # 196-275 (book I 196-233, book II 234-275). Jerram (leaf 0 hidden, leaf = image n + 1):

@@ -213,7 +213,9 @@ def place_apparatus(pages: dict[str, dict], index: list[dict], text: dict) -> tu
                 if last_unit is not None:
                     placed.append((last_unit, item))
                 continue
-            a, b = int(m.group(1)), int(m.group(2) or m.group(1))
+            a, b = int(m.group(1)), int(m.group(2) or m.group(3) or m.group(1))
+            if "sq" in n:
+                b = a + 1
             ka, kb = f"{page}.{a}", f"{page}.{b}"
             if ka not in lines:
                 problems.append(f"{p['stem']}: apparatus {n} names line {ka}, which the text does not have")
@@ -423,7 +425,7 @@ def merge(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path) -> 
 
     paras = merge_kind(tdir, "notes")
     if paras:
-        n_notes, probs = jerram_notes(play, paras, units, out)
+        n_notes, probs = jerram_notes(play, paras, units, out, sources, build)
         problems += probs
         print(f"wrote commentary-{play.notes_editor}.md: {n_notes} notes")
     paras = merge_kind(tdir, "intro")
@@ -436,30 +438,150 @@ def merge(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path) -> 
         (out / "introduction.md").write_text("\n".join(md).rstrip() + "\n", encoding="utf-8")
         print(f"wrote introduction.md: {sum(1 for p in paras if p.startswith('#'))} headings")
 
+    # the Dickinson College Commentaries' notes (step 8), from the saved pages
+    dcc = sources / "dcc" / "lucian-true"
+    if dcc.exists() and any(dcc.glob("*-*.html")):
+        n_dcc, probs = write_dcc(dcc, units, out / "commentary-dcc.md")
+        problems += probs
+        print(f"wrote commentary-dcc.md: {n_dcc} paragraphs")
+
     log = build / f"{slug}-merge.log"
     log.write_text("\n".join(problems + ["", f"# lemmas not found ({len(misses)})"] + misses) + "\n", encoding="utf-8")
     print(f"{len(problems)} problems, {len(misses)} lemma misses ({log})")
     return len(problems)
 
 
-def jerram_notes(play: Play, paras: list[str], units: list[dict], out: Path) -> tuple[int, list[str]]:
-    """Jerram's notes under our sections: each note's heading is its book.section (1.7), given
-    by the transcriber from Jerram's chapter heads (see INSTRUCTIONS-prose.md, Jerram)."""
-    from .drama import notes_from_paragraphs
+def jerram_line_map(play: Play, sources: Path, build: Path | None = None) -> dict[str, list[tuple[str, str]]]:
+    """Jerram's own lines ('1.4': book I, line 4), each with the words on it as (skeleton,
+    section): his text pages (Play.notes_text_leaves) read by Tesseract, the Greek lines matched
+    word by word to the Perseus text (a line counts as Greek if a third of its words are matched;
+    his English summaries and running heads are not), and numbered by the numbers printed every
+    fifth line in the right margin (between them, by counting; a page without one runs on from
+    the page before; each book starts again at 1). Cached in build/<slug>-jerram-lines.json."""
+    from PIL import Image
 
+    from .drama_pages import DASHES, ocr_leaf, ocr_norm, read_lines, scan_dirs
+    from .gorgias_pages import align
+
+    cache = (build or PIPELINE / "build") / f"{play.slug}-jerram-lines.json"
+    if cache.exists():
+        return {k: [tuple(x) for x in v] for k, v in json.loads(cache.read_text(encoding="utf-8")).items()}
+    scan = play.notes_scan
+    _, sbuild = scan_dirs(scan)
+    leaves = [l for a, b in play.notes_text_leaves for l in range(a, b + 1)]
+    plines: list[dict] = []
+    ocr: list[dict] = []
+    for leaf in leaves:
+        with Image.open(sbuild / "pages" / f"leaf_{leaf:04d}.png") as im:
+            W, H = im.size
+        for l in read_lines(ocr_leaf(scan, leaf)):
+            if l["bbox"][3] < 0.07 * H:
+                continue  # the running head: BOOK I. 5
+            ws = sorted(l["words"], key=lambda w: w["bbox"][0])
+            num = None
+            if ws and re.fullmatch(r"\d{1,3}", ws[-1]["text"].strip("._,")) and ws[-1]["bbox"][0] > 0.8 * W:
+                num = int(ws[-1]["text"].strip("._,"))
+                ws = ws[:-1]
+            li = len(plines)
+            plines.append({"leaf": leaf, "num": num, "text": " ".join(w["text"] for w in ws)})
+            for w in ws:
+                for piece in DASHES.split(ocr_norm(w["text"])):
+                    if skel(piece):
+                        ocr.append({"t": piece, "skel": skel(piece), "line": li, "conf": w["conf"]})
+    toks, _notes = perseus_prose(sources / play.perseus)
+    match = align(ocr, toks)
+    by_line: dict[int, list[int]] = {}
+    for j, o in enumerate(match):
+        if o is not None:
+            by_line.setdefault(ocr[o]["line"], []).append(j)
+    count = {li: sum(1 for t in ocr if t["line"] == li) for li in range(len(plines))}
+    greek_lines = [li for li in range(len(plines)) if count[li] and len(by_line.get(li, [])) >= max(1, count[li] / 3)]
+    out: dict[str, list[tuple[str, str]]] = {}
+    book, n = None, 0
+    by_leaf: dict[int, list[int]] = {}
+    for li in greek_lines:
+        by_leaf.setdefault(plines[li]["leaf"], []).append(li)
+    for leaf in leaves:
+        gl = by_leaf.get(leaf, [])
+        if not gl:
+            continue
+        # the book of each line from the sections of its words; a new book starts at 1
+        offsets = []
+        for i, li in enumerate(gl):
+            num = plines[li]["num"]
+            if num and num % 5 == 0:
+                offsets.append(num - i)
+        for i, li in enumerate(gl):
+            b = toks[by_line[li][0]]["sec"].split(".")[0]
+            if b != book:
+                book, n = b, 0
+                offsets = [o for o in offsets if o + i > 0 and o + i <= 10] or []
+            if offsets:
+                off = max(set(offsets), key=offsets.count)
+                n = i + off if i + off > n else n + 1
+            else:
+                n += 1
+            out[f"{book}.{n}"] = [(t["skel"], t["sec"]) for t in (toks[j] for j in by_line[li])]
+    cache.write_text(json.dumps(out, ensure_ascii=False), encoding="utf-8")
+    return out
+
+
+def jerram_notes(play: Play, paras: list[str], units: list[dict], out: Path, sources: Path | None = None,
+                 build: Path | None = None) -> tuple[int, list[str]]:
+    """Jerram's notes under our sections. The batches head each note with his line number
+    (`## 4`) under `# Book I` / `# Book II`; the section is that of the word on his line that
+    the note's lemma names (else of the line's first word), from jerram_line_map."""
     problems: list[str] = []
-    raw = notes_from_paragraphs(paras)
+    jmap = jerram_line_map(play, sources or PIPELINE / "sources", build)
     have = {u["n"] for u in units}
     placed: list[tuple[str, list[str]]] = []
-    for heading, body in raw:
-        h = heading.split("-")[0]
-        if h not in have:
-            problems.append(f"jerram: note under {heading!r}, which is not a section of ours")
+    book = "1"
+    cur: tuple[str, list[str]] | None = None
+    notes: list[tuple[str, str, list[str]]] = []  # (book, his line, paragraphs)
+    for p in paras:
+        mb = re.match(r"^# Book ([IVX]+)$", p)
+        if mb:
+            book = {"I": "1", "II": "2"}.get(mb.group(1), mb.group(1))
             continue
-        if placed and placed[-1][0] == h:
+        mh = re.match(r"^##\s+(\d+)(?:-(\d+))?\s*$", p)
+        if mh:
+            notes.append((book, mh.group(1), []))
+        elif notes:
+            notes[-1][2].append(p)
+        else:
+            problems.append(f"jerram: a paragraph before the first note: {p[:60]}")
+    for bk, line, body in notes:
+        words = jmap.get(f"{bk}.{line}")
+        if not words:
+            near = [int(k.split(".")[1]) for k in jmap if k.startswith(bk + ".") and int(k.split(".")[1]) <= int(line)]
+            words = jmap.get(f"{bk}.{max(near)}") if near else None
+            problems.append(f"jerram: his line {bk}.{line} not found in his text; filed by line {bk}.{max(near) if near else '?'}")
+        if not words:
+            continue
+        sec = words[0][1]
+        lemma = re.match(r"^\*\*(.+?)\*\*", body[0]) if body else None
+        if lemma:
+            ls = [skel(w) for w in re.findall(r"[Ͱ-Ͽἀ-῿ʼ]+", lemma.group(1)) if skel(w)]
+            found = False
+            # the lemma on his line; else on a line near it (his number misprinted or misread)
+            for d in (0, -1, 1, -2, 2, -3, 3):
+                ws = jmap.get(f"{bk}.{int(line) + d}", [])
+                hit = next((s for sk, s in ws if ls and sk == ls[0]), None)
+                if hit:
+                    sec, found = hit, True
+                    if d:
+                        problems.append(f"jerram: the lemma of his note {bk}.{line} stands on his line {bk}.{int(line) + d}")
+                    break
+            if ls and not found:
+                problems.append(f"jerram: the lemma of his note {bk}.{line} ({lemma.group(1)}) is not on his lines {int(line) - 3}-{int(line) + 3}; "
+                                f"filed under {sec}")
+        if sec not in have:
+            problems.append(f"jerram: note on his {bk}.{line} goes to section {sec}, which we do not have")
+            continue
+        if placed and placed[-1][0] == sec:
             placed[-1][1].extend(body)
         else:
-            placed.append((h, list(body)))
+            placed.append((sec, list(body)))
     md = _meta_lines({
         "title": f"Commentary ({play.notes_editor_name})",
         "author": play.notes_editor_name, "lang": "eng",
@@ -472,6 +594,71 @@ def jerram_notes(play: Play, paras: list[str], units: list[dict], out: Path) -> 
         md.append("")
     (out / f"commentary-{play.notes_editor}.md").write_text("\n".join(md) + "\n", encoding="utf-8")
     return sum(len(b) for _h, b in placed), problems
+
+
+DCC_META = {
+    "title": "Commentary (Dickinson College Commentaries)",
+    "author": "Eric Casey, Evan Hayes, Stephen Nimis",
+    "lang": "eng",
+    "source": "Lucian, True History, notes by Eric Casey, Evan Hayes, and Stephen Nimis, Dickinson College "
+              "Commentaries (2023), https://dcc.dickinson.edu/lucian-true/ ; the notes only (their vocabulary "
+              "lists are left out); their text is Harmon's, so a lemma may differ from Nilén's words",
+    "license": "CC BY-SA (Dickinson College Commentaries)",
+}
+
+
+def dcc_notes(page: str) -> list[str]:
+    """The notes of one DCC page (the field 'field-notes'), as Markdown paragraphs: the italic
+    summary as *…*, each note's lemma (the text before the first colon) in bold."""
+    import html as htmlmod
+
+    m = re.search(r'field--name-field-notes[^>]*>(.*?)</details>', page, re.S)
+    if not m:
+        return []
+    out: list[str] = []
+    for p in re.findall(r"<p[^>]*>(.*?)</p>", m.group(1), re.S):
+        t = re.sub(r"<br\s*/?>", " ", p)
+        t = re.sub(r"</?(?:em|i)>", "*", t)
+        t = re.sub(r"</?(?:strong|b)>", "**", t)
+        t = re.sub(r"<[^>]+>", "", t)
+        t = htmlmod.unescape(t).replace("\xa0", " ")
+        t = " ".join(t.split())
+        t = re.sub(r"\*\s*\*", "", t).strip()
+        if not t or t == "*":
+            continue
+        t = greek.nfc(t)
+        if not t.startswith("*"):
+            mm = re.match(r"^([^:*]{1,90}?):\s", t)
+            if mm and re.search(r"[Ͱ-Ͽἀ-῿]", mm.group(1)):
+                t = f"**{mm.group(1).strip()}**: {t[mm.end():]}"
+        out.append(t)
+    return out
+
+
+def write_dcc(src: Path, units: list[dict], out_path: Path) -> tuple[int, list[str]]:
+    """commentary-dcc.md from the saved pages (pipeline/sources/dcc/lucian-true/<b>-<s>.html)."""
+    have = {u["n"] for u in units}
+    problems: list[str] = []
+    md = _meta_lines(DCC_META) + [""]
+    n = 0
+    # one page per section (1-7.html), or per range (2-7-2-10.html: filed under its first section)
+    files = sorted((p for p in src.glob("*-*.html") if re.fullmatch(r"\d+-\d+(?:-\d+-\d+)?", p.stem)),
+                   key=lambda p: tuple(int(x) for x in p.stem.split("-")))
+    for f in files:
+        sec = ".".join(f.stem.split("-")[:2])
+        notes = dcc_notes(f.read_text(encoding="utf-8"))
+        if not notes:
+            problems.append(f"dcc: no notes on {f.name}")
+            continue
+        if sec not in have:
+            problems.append(f"dcc: section {sec} not in our text")
+            continue
+        md.append(f"## {sec}")
+        md.append("\n\n".join(notes))
+        md.append("")
+        n += len(notes)
+    out_path.write_text("\n".join(md) + "\n", encoding="utf-8")
+    return n, problems
 
 
 def main(slug: str) -> int:

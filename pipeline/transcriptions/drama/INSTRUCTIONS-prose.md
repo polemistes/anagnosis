@@ -174,6 +174,32 @@ columns, add them from the column image.
   (1-115); the essay that follows is ordinary paragraphs; footnotes as `[Note: ¹ …]`. Heading:
   `# Epitome of the Theogony`.
 
+**Jerram's Lucian, A True Story (notes and introduction).** C. S. Jerram, *Luciani Vera
+Historia*, Oxford 1879, scan `lucianiverahisto00luci`; the batches are in
+`pipeline/transcriptions/lucian/truestory/` (`notes-NN.md`, `intro-NN.md`), the crops in
+`pipeline/build/drama-prose/truestory/`. Clean print, one column, no handwriting.
+* *Notes* (pp. 51-70, leaves 81-100): the page title NOTES is left out; the headings BOOK I. and
+  BOOK II. become `# Book I` and `# Book II` (a paragraph of their own). Each note begins with
+  the line number of **Jerram's own text** (not ours: the merge maps his lines to our sections),
+  printed "Line 4.", "l. 17.", "ll. 26, 27.": heading `## 4`, `## 17`, `## 26-27`; he counts his
+  lines afresh in each book. Tesseract reads "l." as 1, I, | or _ and then misses the heading ("1 7.
+  σπουδαιοτέρων" is `## 7`, "| 1. 25. Nothing …" is `## 25`): mend every such note from the image,
+  and take the number from the print, not from the draft. A further note on the same line without
+  a number is a new paragraph under the same heading.
+* The lemma: the Greek that opens a note, up to the comma or stop after it, printed in ordinary
+  Greek type, is the lemma: `**μέρος γοῦν**, etc., a parenthesis …`, `**ψιλὴν**, etc., …` (the
+  "etc." outside the bold). A note that opens in English has none. Where the draft has lost the
+  lemma ("## 159 / etc. Lucian has been …"), restore it from the image.
+* His references to his own text ("cp. ll. 13, 19, 28", "i. 32", "ii. 87, 438", "l. 170
+  onwards") and to other works (Virg. Ecl. vii. 17, Od. vii. 114, Thuc. i. 1, Phaedo, ch. 29) are
+  copied as printed; Latin and English quotations set on their own lines are paragraphs of their
+  own. Quotation marks are his ‘ ’ (“ ” where he prints them). Greek in Unicode polytonic with
+  every accent and breathing (Tesseract misreads ξ as ἐ, χ as x, ι with its accent as 1).
+* *Introduction* (pp. ix-xxiii, leaves 15-29): heading `# Introduction`; no numbered sections;
+  footnotes `[Note: ¹ …]` after the paragraph where the mark stands; run-ons `+ `; titles of books
+  in italics `*…*`. Keep everything, the paragraph on translations and editions included (it is
+  prose, not a list).
+
 **Your own files.** Scripts, enlarged crops and other helpers go only in a folder of your own,
 named after your batch file, under the session's scratchpad folder (e.g.
 `<scratchpad>/agamemnon-notes-03/`); other agents work beside you at the same time and use the

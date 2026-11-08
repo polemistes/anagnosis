@@ -5,8 +5,7 @@
 159.3	καὶ μὴν καὶ λίμνη οὐ πόρρω ἐστὶν σταδίων
 159.4	εἴκοσι τὴν περίμετρον, ἰχθῦς ἔχουσα παντοδαπούς,
 159.5	ἐν ᾗ καὶ νηχόμεθα καὶ πλέομεν ἐπὶ σκάφους μικροῦ,
-¶
-159.6	Ὃ ἐγὼ ναυπηγησάμην. ἔτη δέ ἐστιν ἡμῖν τῆς καταπόσεως
+159.6	ὃ ἐγὼ ναυπηγησάμην. ἔτη δέ ἐστιν ἡμῖν τῆς καταπόσεως
 159.7	ταῦτα ἑπτὰ καὶ εἴκοσι. §1.35 καὶ τὰ μὲν ἄλλα ἴσως
 159.8	φέρειν δυνάμεθα, οἱ δὲ γείτονες ἡμῶν καὶ πάροικοι
 159.9	σφόδρα χαλεποὶ καὶ βαρεῖς εἰσιν, ἄμικτοί τε ὄντες καὶ
@@ -21,7 +20,26 @@
 159.18	ἄλλων· τὰ λαιὰ δὲ Καρκινόχειρες καὶ Θυννοκέφαλοι
 159.19	συμμαχίαν τε καὶ φιλίαν πρὸς ἑαυτοὺς πεποιημένοι·
 --- apparatus
+1	ἰχθῦς] ZPNFv ἰχθύας Γ spscr. Pˣ δὲ ἰχθῦας ΩS ῦ in ύ corr. Ω*
+2	ἔνθα — λουόμεθα om. N
+3	οὐ πόρρω ἐστὶν] ΓS οὐ πόρρω ἐστὶ ΩS* οὐ πόρρω ἐστὶν ἁλμυρὰ prob. Schw ZPNF (ἀ pro ἁ F) β et α transp. notas spscr. Pˣ ἐστὶν οὐ πόρρω ἁλμυρὰ in vsu P¹
+4	εἴκοσι mg. N κ in vsu N
+6	ναυπηγησάμην ΓΩ¹ ἐναυπηγησάμην SZPNFv ἐ inser. Γᵃ ν in ἐν corr. Ω*ˣ
+6	δὲ spscr. N
+6	ἐστιν (ἔστιν Γ) ἡμῖν ΓΩS ἡμῖν ἐστι ZPNFv
+8	δὲ] δέ γε ΩS
+8	ἡμῶν ΓΩS ῶν spscr. Pˣ ἡμῖν ZPNF
+11	οὖν om. F
+12/13	τῆς ὕλης καὶ οὐραῖα] ΓN τῆς ὕλης (om. καὶ οὐραῖα) Ω καὶ οὐραῖα τῆς ὕλης SZPFv
+16	μὲν ΓΩSFv om. ZPN
+17	εἰσὶν Γ εἰσι ΩSZPNFv
+18	θυννοκέφαλοι ΓPNF ν spscr. Ωˣ θυνοκέφαλοι ΩSZ
+19	ἑαυτοὺς ΓΩNFv αὐτοὺς SZP
 --- notes
+159.3	σταδίων: flag checked, printed στα-δίων across lines 3/4; draft right.
+159.6	no indentation in the print at line 6 and ὃ lowercase: the draft's ¶ (from Perseus) removed and Ὃ written ὃ.
+159.7	chapter 35 stands in the right margin at line 7: §1.35 where the draft has it.
+159.19	the apparatus of this page ends with three items Nilén keys "160, 1 μεσόγαιον N", "1 παγουρίδαι …", "1/2 ψηττόποδες … ψιτ-" (running over to p. 160): they name lines of p. 160, so they are written at the head of p-0227's apparatus as 1, 1, 1/2 (see the note there).
 
 === p-0227
 --- text
@@ -32,44 +50,111 @@
 160.5	φόρον τοῖς Ψηττόποσιν ὑποτελῶν ἑκάστου ἔτους ὄστρεια
 160.6	πεντακόσια. §1.36 τοιαύτη μὲν ἡ χώρα ἐστίν· ὑμᾶς δὲ χρὴ
 160.7	ὁρᾶν ὅπως δυνησόμεθα τοσούτοις ἔθνεσι μάχεσθαι καὶ
-160.8	ὅπως βιοτεύσομεν. Πόσοι δέ, ἔφην ἐγώ, πάντες οὖτοί
+160.8	ὅπως βιοτεύσομεν. Πόσοι δέ, ἔφην ἐγώ, πάντες οὗτοί
 160.9	εἰσιν; Πλείους, ἔφη, τῶν χιλίων. Ὅπλα δὲ τίνα ἐστὶν
 160.10	αὐτοῖς; Οὐδέν, ἔφη, πλὴν τὰ ὀστᾶ τῶν ἰχθύων. Οὐκοῦν,
 160.11	ἔφην ἐγώ, ἄριστα ἂν ἔχοι διὰ μάχης ἐλθεῖν
-160.12	αὐτοῖς, ἅτε οὖσιν ἀνόπλοις αὐτούς γε ὡπλισμένους· εἰ
+160.12	αὐτοῖς, ἅτε οὖσιν ἀνόπλοις αὐτοὺς ὡπλισμένους· εἰ
 160.13	γὰρ κρατήσομεν αὐτῶν, ἀδεῶς τὸν λοιπὸν βίον
 160.14	οἰκήσομεν.
 ¶
-160.15	Ἔδοξε ταῦτα, καὶ ἀπελθόντες ἐπὶ ναῦν παρεσκευαζόμεθα.
+160.15	ἔδοξε ταῦτα, καὶ ἀπελθόντες ἐπὶ ναῦν παρεσκευαζόμεθα.
 160.16	αἰτία δὲ τοῦ πολέμου ἔμελλεν ἔσεσθαι τοῦ
 160.17	φόρου ἡ οὐκ ἀπόδοσις, ἤδη τῆς προθεσμίας ἐνεστώσης.
 160.18	καὶ δὴ οἱ μὲν ἔπεμπον ἀπαιτοῦντες τὸν δασμόν·
 --- apparatus
+1	μεσόγαιον N
+1	παγουρίδαι ΓΩS ex corr. Pˣ παγουράδαι ZPF παγουριάδαι N
+1/2	ψηττόποδες SZPF ex corr. Ωˣ ψιττόποδες ΓΩN
+2	μάχιμον SZPNFv μαχικὸν ΓΩ
+2	ἑῷα Ω*S ἐῶα Γ ἐῷα Ω ἑῶα Fv ex corr. P ἕω ZPN
+3	τῶ πρὸς F
+4	ἐγὼ ταῦτα ΓΩS ταῦτα ἐγὼ ZPNF
+5	τοῖς] Γ*ΩSF spscr. Pˣ om. ZPN τοῖς ὑ orsus Γ¹
+5	ψηττόποσιν SZPF ex corr. Ωˣ ψιττόποσιν ΓΩ¹N
+5	ὄστρεα N
+6	ἡμᾶς N
+7	δυνησώμεθα Γ
+7/8	καὶ ὅπως ⟨ἀδεῶς⟩ Schw
+8	βιοτεύσομεν Ω*ZPN γρ σομεν spscr. F βιοτεύσωμεν ΓΩF βιοτεύομεν S
+8	δὲ ΓΩSF δʼ ZPN
+8	πάντες οὗτοι ΓΩS (ι ex ί corr. Γ*) οὗτοι πάντες ZPNFv
+9	εἰσὶ*(ν) Γ* εἰσί ΩS εἰσι ZPNFv
+9	ἔστιν Γ ἐστιν ΩS εἰσὶν ZPNFv
+10	τὰ om. N
+11	ἄριστα ἂν ἔχοι] ΓΩS ἄριστʼ ἂν ἔχοι ZPN γρ spscr. F καλόν ἐστι F
+12	αὐτοῖς ex αὐτοὺς corr. N
+12	αὐτοὺς] ΓΩ αὑτούς γε SN αὐτούς γε ZP αὐτοί (ί in lit.) γε F
+12	ὡπλισμένοι (ι finale in lit.) F
+13	κρατήσ■μεν (αι ni f.) P
+13	τὸν λοιπὸν βίον ΓΩ τὸ λοιπὸν (om. βίον) SZPNFv
+18	ἀπαιτοῦντες τὸν δασμὸν ΓΩS τὸν δασμὸν ἀπαιτοῦντες ZPNFv transp. not. β et α spscr. S vel Sˣ
 --- notes
+-	black blocks in the apparatus written ■ (U+25A0), as printed (lead, 2026-11-08)
+160.1	the first three apparatus items (1 μεσόγαιον, 1 παγουρίδαι, 1/2 ψηττόποδες) are printed at the foot of p. 159, keyed "160, 1"; the last runs over to the head of this page ("…ψιτ-|τόποδες ΓΩN"). Written here because they name lines of this page.
+160.6	chapter 36 in the left margin at line 6: §1.36 where the draft has it.
+160.8	οὗτοί: the print has a rough breathing (Perseus οὖτοί); written as printed. Same in the apparatus item 8.
+160.12	αὐτοὺς ὡπλισμένους as printed: Nilén has no γε (Harmon αὐτούς γε); γε deleted, accent grave as printed. His apparatus reports γε from SNZPF.
+160.14	οἰκή-|σομεν divided: the whole word stands on line 14, which would otherwise have no word of its own.
+160.15	line 15 is indented (¶ kept) and begins with lowercase ἔδοξε as printed (the draft had Ἔδοξε).
+160.13	apparatus 13 κρατήσ[illegible]μεν: one or two letters are covered by a black blot (an inked spacer, perhaps marking a gap in P); the letters are not readable.
+160.3	apparatus 3: printed τῶ without iota subscript; copied as printed.
 
 === p-0228
 --- text
-¶
-161.1	Ὁ δὲ ὑπεροπτικῶς ἀποκρινάμενος ἀπεδίωξε τοὺς ἀγγέλους.
+161.1	ὁ δὲ ὑπεροπτικῶς ἀποκρινάμενος ἀπεδίωξε τοὺς ἀγγέλους.
 161.2	πρῶτοι οὖν οἱ Ψηττόποδες καὶ οἱ Παγουρίδαι
 161.3	χαλεπαίνοντες τῷ Σκινθάρῳ — τοῦτο γὰρ ἐκαλεῖτο —
 161.4	μετὰ πολλοῦ θορύβου ἐπῄεσαν. §1.37 ἡμεῖς δὲ τὴν ἔφοδον
 161.5	ὑποπτεύοντες ἐξοπλισάμενοι ἀνεμένομεν, λόχον τινὰ
-161.6	προτάξαντες ἀνδρῶν πέντε καὶ εἴκοσι. προείρητο δὲ
+161.6	προτάξαντες ἀνδρῶν πέντε καὶ εἴκοσι· προείρητο δὲ
 161.7	τοῖς ἐν τῇ ἐνέδρᾳ, ἐπειδὰν ἴδωσι παρεληλυθότας τοὺς
 161.8	πολεμίους, ἐπανίστασθαι· καὶ οὕτως ἐποίησαν. ἐπαναστάντες
 161.9	γὰρ κατόπιν ἔκοπτον αὐτούς, καὶ ἡμεῖς δὲ
 161.10	αὐτοὶ πέντε καὶ εἴκοσι τὸν ἀριθμὸν ὄντες — καὶ γὰρ
-¶
-161.11	Ὁ Σκίνθαρος καὶ ὁ παῖς αὐτοῦ συνεστρατεύοντο —
+161.11	ὁ Σκίνθαρος καὶ ὁ παῖς αὐτοῦ συνεστρατεύοντο —
 161.12	ὑπηντιάζομεν, καὶ συμμίξαντες θυμῷ καὶ ῥώμῃ διεκινδυνεύομεν.
 161.13	τέλος δὲ τροπὴν αὐτῶν ποιησάμενοι κατεδιώξαμεν
 161.14	ἄχρι πρὸς τοὺς φωλεούς. ἀπέθανον δὲ τῶν
-161.15	μὲν πολεμίων ἑβδομήκοντα καὶ ἑκατόν, ἡμῶν δὲ εἷς,
-161.16	ὁ κυβερνήτης, τρίγλης πλευρᾷ διαπαρεὶς τὸ μετάφρενον.
+161.15	μὲν πολεμίων ἑβδομήκοντα καὶ ἑκατόν, ἡμῶν δὲ εἷς
+161.16	[καὶ] ὁ κυβερνήτης, τρίγλης πλευρᾷ διαπαρεὶς τὸ μετάφρενον.
 161.17	§1.38 ἐκείνην μὲν οὖν τὴν ἡμέραν καὶ τὴν νύκτα
 --- apparatus
+1	ἀποκρινάμενος ΓΩSNF ἀποκρινόμενος ZP. supra ά scr. S vel Sˣ
+2	πρῶτον N
+2	ψηττόποδες SZPF ex corr. Ωˣ ψιττόποδες ΓΩ¹N ι spscr. Pˣ
+2	παγουρίδαι ΓΩS ex corr. Pˣ παγουράδαι ZPF παγουριάδαι N
+4	ἐπήεσαν ΓΩSNF ἐπήεισαν Z *πείεσαν in ἀπείεσαν ni f. corr. P*ˣ
+5	ὑποπτεύοντες ΓZPFv ex corr. N² ἐποπτεύοντες ΩSN¹
+5	ἐξοπλισάμενοι ΓΩSN γρ spscr. Pˣ ἐξαυλισάμενοι ZPF spscr. Γᵃ
+5	λόχον ex λόγον corr. Ω
+6	ἀνδρῶν ΓΩSNFv om. ZP
+6	ε N
+6	εἴκοσι ΓΩS εἴκοσιν ZPFv in lac. rel. scr. Nˣ
+6	προείρητο ΓΩSF προ spscr. Pˣ εἴρητο ZPN
+7	τοῖς] αὐτοῖς N
+7	εἴδωσι ex ἴδωσι corr. S*²
+9	γὰρ κατόπιν ἔκοπτον αὐτοὺς] ΓΩSN γρ spscr. Pˣ om. ZPF
+9/10	καὶ ἡμεῖς δὲ αὐτοὶ] ΓΩSN ex corr. Pˣ τε ἡμεῖς καὶ αὐτοὶ ZPF ἡμεῖς δέ, καὶ αὐτοὶ malim
+10	καὶ γὰρ Ω¹ZPF καὶ γὰρ καὶ ΓSN καὶ inser. Ω² vel Ωᵃ
+12	ὑπηντιάζομεν ΓΩSF ὑπ spscr. Pˣ ἠντιάζομεν ZPN
+14	φωλεούς ΓΩZPFv λεοὺς spscr. corr. Nˣ φολεούς S φωμοὺς N
+15	ο καὶ ρ N
+15	ἡμῖν F
+16	καὶ eiecit Schmieder defendit Lehm
 --- notes
+161.1	line 1 is not indented and begins with lowercase ὁ (mid-paragraph, after δασμόν· on p. 160): the draft's ¶ removed, Ὁ written ὁ.
+161.2	οἱ (twice): flag checked, printed οἱ; draft right.
+161.4	chapter 37 in the right margin at line 4: §1.37 where the draft has it. ἐπῄεσαν: the iota subscript is printed in the text (the apparatus lemma prints ἐπήεσαν without it; both copied as printed).
+161.11	line 11 is not indented and begins with lowercase ὁ (inside the parenthesis — καὶ γὰρ ὁ Σκίνθαρος … —): the draft's ¶ removed, Ὁ written ὁ.
+161.15	εἷς without the comma: Nilén prints no stop after εἷς (he brackets καὶ at the head of line 16); comma removed.
+161.16	[καὶ] ὁ κυβερνήτης as printed: Nilén prints καὶ in square brackets (Harmon omits it); see apparatus 16. μετά-φρενον written whole on line 16.
+161.17	chapter 38 in the right margin at line 17: §1.38 where the draft has it.
+161.1	apparatus 1: a heavy dot stands after ZP before "supra ά scr."; written as a full stop.
+161.6	apparatus 6 εἴρητο: the ρ is filled in with ink in the scan, but its tail is clear.
+161.7	apparatus 7 S*²: the raised mark after the asterisk is read as ²; small and slightly blurred.
+161.16	apparatus 16 ends "defendit Lehm" at the foot of the page; p. 162's apparatus begins with a new item, so "Lehm" is Nilén's abbreviation, copied as printed.
+161.6	rev: εἴκοσι. changed to εἴκοσι· (the print has a raised stop after εἴκοσι)
 
 === p-0229
 --- text
@@ -82,7 +167,7 @@
 162.7	ἦγον οὐδετέροις συμμαχεῖν προαιρούμενοι. ἡμεῖς δὲ
 162.8	προαπαντήσαντες αὐτοῖς παρὰ τὸ Ποσειδώνιον συνεμίξαμεν
 162.9	πολλῇ βοῇ χρώμενοι, ἀντήχει δὲ τὸ κύτος
-162.10	ὥσπερ τὰ σπήλαια. τρεψάμενοι δὲ αὐτούς, ἅτε γυμνῆτας
+162.10	ὥσπερ τὰ σπήλαια. τρεψάμενοι δὲ αὐτοὺς, ἅτε γυμνῆτας
 162.11	ὄντας, καὶ καταδιώξαντες ἐς τὴν ὕλην τὸ λοιπὸν
 162.12	ἐπεκρατοῦμεν τῆς γῆς. §1.39 καὶ μετʼ οὐ πολὺ κήρυκας ἀποστείλαντες
 162.13	νεκρούς τε ἀνῃροῦντο καὶ περὶ φιλίας διελέγοντο·
@@ -94,7 +179,31 @@
 162.19	ἔρημον ἤδη οὖσαν τῶν πολεμίων τὸ λοιπὸν ἀδεῶς
 162.20	κατῳκοῦμεν, τὰ πολλὰ γυμνασίοις τε καὶ κυνηγεσίοις
 --- apparatus
+1	ἐπηυλισάμεθα] Γ ι in η corr. Γᵃ vel Γˣ
+2	ὑστεραίᾳ ex ὑστερ*ᾳ corr. Ωˣ
+5	τὸ δὲ ΓΩSF τὸ δʼ ZPN
+5	θυννοκέφαλοι ΩNF ν spscr. Pˣ θυνοκέφαλοι ΓSZP
+7	οὐδετέροις Γ*P οὐδὲ ἑτέροις ΓΩS οὐδʼ ἑτέροις ZNF
+8	προϋπαντήσαντες F
+8	περὶ P γρ παρὰ mg. Pˣ
+8	ποσειδώνιον ZPNFv ω in ο corr. evan. Sᵛ ωνεῖ in ώνεῖ corr. Γᵃ ποσειδωνεῖον ΓΩ γρ mg. Pˣ πωσειδώνιον S
+8/9	συνεμίξαμεν ΓΩSF συνε spscr. Pˣ προσεμίξαμεν ZPN
+9	κύτος Wesseling κῆτος Fv libri
+10/11	γυμνῆτας ΓΩP γυμνήτας SZNF
+11	ὄντας ΓΩSNF om. ZP
+16	δὲ] spscr. Pˣ γὰρ P
+17	γινόμενα ΓΩS γιγνόμενα ZPNFv
+17	διαδράντες ΓΩS διαδραμόντες ZPNFv
+17	αὑτοὺς ΓΩ*ˣPF ambiguus Z αὐτοὺς ΩSN
+18	εἰς ΓΩSZP ἐς NF
+18	θάλατταν ΓZPN θάλασσαν ΩSF
 --- notes
+162.5	δὲ: flag checked, printed δὲ; draft right.
+162.10	αὐτοὺς, with a grave accent before the comma, as printed (Harmon αὐτούς,); γυμνῆ-τας written whole on line 10, as the draft has it.
+162.12	chapter 39 in the left margin at line 12: §1.39 where the draft has it.
+162.15	ἐπʼ: flag checked, printed on this line (χωρήσαντες ἐπʼ αὐτοὺς); draft right.
+162.1	no line on this page is indented: no ¶.
+162.8	apparatus 8 "ωνεῖ in ώνεῖ corr. Γᵃ": both forms print the circumflex; copied as printed.
 
 === p-0230
 --- text
@@ -102,7 +211,7 @@
 163.2	τὸν ἐκ τῶν δένδρων, καὶ ὅλως ἐῴκειμεν τοῖς ἐν
 163.3	δεσμωτηρίῳ μεγάλῳ καὶ ἀφύκτῳ τρυφῶσι καὶ λελυμένοις.
 ¶
-163.4	Ἐνιαυτὸν μὲν οὖν καὶ μῆνας ὀκτὼ τοῦτον διήγομεν
+163.4	ἐνιαυτὸν μὲν οὖν καὶ μῆνας ὀκτὼ τοῦτον διήγομεν
 163.5	τὸν τρόπον. §1.40 τῷ δʼ ἐνάτῳ μηνὶ πέμπτῃ ἱσταμένου,
 163.6	περὶ τὴν δευτέραν τοῦ στόματος ἄνοιξιν — ἅπαξ γὰρ
 163.7	δὴ τοῦτο κατὰ τὴν ὥραν ἑκάστην ἐποίει τὸ κῆτος,
@@ -119,7 +228,35 @@
 163.18	οὐ πάνυ δὲ ὑψηλαί, ὅσον ἑκατὸν σταδίων ἑκάστη τὸ
 163.19	περίμετρον· ἐπὶ δὲ αὐτῶν ἔπλεον τῶν ἀνδρῶν ἐκείνων
 --- apparatus
+1/2	συγκομιζόμενοι τὸν καρπὸν N
+2	τὸν ἐκ τῶν] ΓΩSPFv τῶν ἐκ τῶν Z ἐκ τῶν (om. τὸν) N
+4	διήγομεν ZPNFv διηγάγομεν ΓΩS
+5	δʼ ΓΩSN δὲ ZPF
+5	ἐνάτῳ ΓΩSPN ἐννάτω ZFv
+7	ἑκάστην om. N
+7	ἐποίει ΓΩSPFv ἐπήει Z ἐποιεῖτο N
+7	τὸ κῆττος P
+8	ἡμᾶς] καὶ ἡμᾶς F
+9	ἄνοιξιν ὡς ἔφην N
+10	πολλὴ om. ΩS
+11	ἀνειρπύσαμεν ΓΩZPFv ἀνηρ orsus Γ¹ ἀνηρπύσαμεν S*² ἀνηρπάσ orsus S¹ ἀνερπύσαμεν N
+12	ἐνδοτέρω Γ γρ mg. Pˣ ἐνδοτέρωι ΩS ἐντὸς ZPNFv
+14/15	ἡμισταδιαίους SZP*NFv αί spscr. Γ² vel Γˣ ἡμισταδίους Γ¹Ω γρ spscr. Pˣ ἡμι**σταδίους (συ?) P¹
+15	τὴν ἡλικίαν N
+16	τριήρων ΓΩF τριηρῶν SZPN supra ω litura est in Γ rasura in Ω
+16	οὖν ΓΩS suppl. mg. Pˣ om. ZPNFv
+17	δʼ N
+17	μὲν ΓΩSNFv om. ZP
+18	ὅσον om. N
+18/19	τὸ περίμετρον ΓΩS γρ τὸ spscr. Pˣ τὴν περίμετρον prob. Schw Γ*ᵃZPFv γρ mg. S τὴν περίοδον N
+19	δὲ ΓΩS δʼ ZPNFv
 --- notes
+163.3	λελυμένοις.: flag checked, printed so; draft right.
+163.4	line 4 is indented (¶ kept) and begins with lowercase ἐνιαυτὸν as printed (the draft had Ἐνιαυτὸν).
+163.5	chapter 40 in the right margin at line 5: §1.40 where the draft has it.
+163.15	νήσων: flag checked, printed so; draft right.
+163.17	a small speck before ἐπιμήκεις in the scan is not a sign; nothing added.
+163.5	apparatus 5 ἐννάτω printed without iota subscript (ἐνάτῳ with it); copied as printed.
 
 === p-0231
 --- text
@@ -143,4 +280,27 @@
 164.18	ἐμβληθεῖσαι κατεδύοντο, αἱ δὲ συμπλεκόμεναι καρτερῶς
 164.19	διηγωνίζοντο καὶ οὐ ῥᾳδίως ἀπελύοντο· οἱ γὰρ
 --- apparatus
+1	δὲ om. N
+2	ἑκατέρας F
+2	ἐφεξῆς om. N
+3	κυπαρίττοις μεγάλαις αὐτοκλάδοις ΓΩS κυπαρίσσοις αὐτοκλάδοις μεγάλαις ZPNFv
+4	ὥσπερ ΓΩS εἰ del. Pˣ ὡσπερεὶ ZPNFv
+5	ἱστήκει Γ
+5	χάλκεον Ω χαλκέον Γ (έ in ε corr. Γ*) χαλκοῦν SZPNFv
+6	πεντασταδιαῖον ΓΩSZF πεντὰ σταδιαῖον P πεντεσταδιαῖον Cob et ε sps. F σταδιαὶον N
+7	τεσσαράκοντα N
+9	ἐκάετο ΓΩS ἐκαίετο ZPNFv
+10	ὁ ΓΩS spscr. Pˣ om. ZPNFv
+11	τε om. ΩS
+11	ταύτην καὶ ἔφερε τὴν νῆσον Γ τὴν νῆσον καὶ ἔφερε ταύτην ΩS αὐτὴν καὶ ἔφερε τὴν νῆσον ZPNFv
+11	ᾗ] οἷ P prob. Schw
+12	δʼ N
+12	ἐφειστήκει ΩSZˣPNF ἐφιστήκει Γ ἐφεστήκει Z
+15	ὕστερον δὲ ἐφάνησαν bis scr. P¹ corr. Pˣ
+15	ἑξακόσιοι ΓΩSN οι spscr. Pˣ ἑξακόσιαι ZPF
+17	συνηράσσαντο ΩS
+18	ἐμβληθεὶσαι] ΓΩSP aut ex corr. Pˣ ἐκλαληθ*σαι (ῆ potius quam εῖ) Z ἐκβληθεῖσαι NF et ni f. P¹
 --- notes
+164.14	ἑωρῶμεν,: flag checked, printed ἑωρῶ-μεν, across lines 14/15; written whole on line 14 as the draft has it. Chapter 41 in the left margin at line 14: §1.41 where the draft has it.
+164.1	no line on this page is indented: no ¶.
+164.6	apparatus 6 σταδιαὶον N and 18 lemma ἐμβληθεὶσαι]: the accent prints as a grave (probably a worn circumflex); copied as printed.

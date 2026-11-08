@@ -783,7 +783,7 @@ def write_draft(slug: str, sources: Path, transcriptions: Path) -> list[dict]:
 # --- reading and checking a batch -------------------------------------------------------------
 
 KEY = re.compile(r"^(\d+)\.(\d+)$")
-APP_KEY = re.compile(r"^(?:(\d+)(?:/(\d+))?|-)$")
+APP_KEY = re.compile(r"^(?:(\d+)(?:/(\d+)| et (\d+))?(?: sqq?\.)?|-)$")
 SECTION_MARK = re.compile(r"§(\d+)\.(\d+)")
 
 
@@ -905,10 +905,10 @@ def check_batch(slug: str, path: Path, sources: Path) -> list[str]:
         for n, item in block["apparatus"]:
             mm = APP_KEY.match(n)
             if not mm:
-                remarks.append(f"{stem}: bad apparatus number {n!r} (5, 1/2, or - for a note on no line)")
+                remarks.append(f"{stem}: bad apparatus number {n!r} (5, 1/2, 8 et 9, 18 sq., or - for a note on no line)")
                 continue
             if n != "-":
-                a, b = int(mm.group(1)), int(mm.group(2) or mm.group(1))
+                a, b = int(mm.group(1)), int(mm.group(2) or mm.group(3) or mm.group(1))
                 if not (1 <= a <= max(count, 1)) or b < a or b > count + 3:
                     remarks.append(f"{stem}: apparatus {n} names a line not on this page (it has {count})")
             if item != unicodedata.normalize("NFC", item):
