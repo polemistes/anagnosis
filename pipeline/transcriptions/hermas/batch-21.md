@@ -12,6 +12,9 @@
 --- apparatus
 --- margin
 --- notes
+26.11.1	ὧδε checked: printed at the start of the second line (and again before ἕως); the page has no footnote marks, no apparatus and no margin references
+26.11.2	ἀκοκριθεῖσαι as printed (so also Tauber): a misprint for ἀποκριθεῖσαι
+26.11.5	ὡσεὶ and σιγὴν as printed (the OCR's errors)
 
 === p-0260
 --- text
@@ -24,9 +27,14 @@
 26.12.2	ὁ μὲν υἱὸς τοῦ θεοῦ πάσης τῆς κτίσεως αὐτοῦ προγενέστερός ἐστιν, ὥστε σύμβουλον αὐτὸν γενέσθαι τῷ πατρὶ τῆς κτίσεως αὐτοῦ· διὰ τοῦτο καὶ παλαιὰ ἡ πέτρα.¹ Ἡ δὲ πύλη διατί καινή, φημί, κύριε;
 26.12.3	Ὅτι, φησίν, ἐπʼ ἐσχάτων τῶν ἡμερῶν τῆς συντελείας φανερὸς ἐγένετο, διὰ τοῦτο
 --- apparatus
+1	παλαιὰ ἡ πέτρα Pᵃᵐ παλαιός ἐστι A, om. L.
 --- margin
-26.12.2	Prov. 8, 27-30
+26.12.2	Prov. 8, 27–30
 --- notes
+26.11.7+	παρθένον as printed (so also Tauber): a misprint for παρθένων
+26.11.9	ὅλως checked: in this scan the ο is blotted and looks like ἅλως; Google's scan of the same plates (TheApostolicFathersV2 n262) shows ὅλως clearly
+26.12.2	mark ¹ after πέτρα. confirmed; the apparatus item ends "om. L." (the stop after L read on Google's scan, n262, the Internet Archive scan is blurred there)
+26.12.3	Ὅτι as printed (the OCR's "Ὅτε" is its error)
 
 === p-0262
 --- text
@@ -37,11 +45,16 @@
 26.12.7	Εἶδες, φησί, τοὺς ἓξ ἄνδρας καὶ τὸν μέσον αὐτῶν ἔνδοξον καὶ μέγαν ἄνδρα τὸν περιπατοῦντα περὶ τὸν πύργον καὶ τοὺς λίθους ἀποδοκιμάσαντα ἐκ τῆς οἰκοδομῆς; Εἶδον, φημί, κύριε.
 26.12.8	Ὁ ἔνδοξος, φησίν, ἀνὴρ ὁ υἱὸς τοῦ θεοῦ ἐστι, κἀκεῖνοι οἱ ἓξ οἱ ἔνδοξοι ἄγγελοί
 --- apparatus
+1	βεβλημένους om. A.
+2	τὸ ἅγιον A, τοῦ υἱοῦ αὐτοῦ E, τοῦ υἱοῦ τοῦ θεοῦ L.
 --- margin
-26.12.3	Jo. 3, 5 cf. Mc. 9, 47; 10, 23-25; Mt. 5, 20; 7, 21; 18, 3
+26.12.4	Jo. 3, 5 cf. Mc. 9, 47; 10, 23–25; Mt. 5, 20; 7, 21; 18, 3
 26.12.5	Jo. 3, 5
 26.12.6	Jo. 14, 6
 --- notes
+26.12.4	marks ¹ after βεβλημένους, and ² after ἅγιον confirmed; the first margin reference stands beside the lines of 26.12.4 (from "4. εἶδες" down to βεβλημένους), so keyed 26.12.4, not 26.12.3
+26.12.5	τῆν (circumflex) as printed (so also Tauber): a misprint for τὴν
+26.12.6	κύριον. checked: printed whole at the end of the line
 
 === p-0264
 --- text
@@ -53,8 +66,12 @@
 26.13.3	τοὺς δὲ λίθους, φησίν, οὓς εἶδες ἀποβεβλημένους, οὗτοι τὸ μὲν ὄνομα ἐφόρεσαν, τὸν δὲ ἱματισμὸν τῶν παρθένων οὐκ ἐνεδύσαντο. Ποῖος, φημί, ἱματισμὸς αὐτῶν ἐστί, κύριε; Αὐτὰ τὰ ὀνόματα, φησίν, ἱματισμός ἐστιν αὐτῶν. ὃς ἂν τὸ ὄνομα τοῦ υἱοῦ τοῦ θεοῦ φορῇ, καὶ τούτων ὀφείλει τὰ ὀνόματα φορεῖν· καὶ γὰρ αὐτὸς ὁ υἱὸς τὰ ὀνόματα τῶν παρθένων τούτων φορεῖ.
 26.13.4	ὅσους, φησί, λίθους εἶδες εἰς τὴν οἰκοδομὴν τοῦ πύργου εἰσεληλυθότας, ἐπιδεδομένους διὰ τῶν χειρῶν αὐτῶν καὶ μείναντας εἰς τὴν οἰκοδομήν,¹ τούτων τῶν παρθένων τὴν δύναμιν
 --- apparatus
+1	Retranslated from LE, om. A.
 --- margin
 --- notes
+26.13.2	the verse number 2 is printed before Αἱ; λάβῃς as printed (with iota subscript, both times)
+26.13.4	mark ¹ after οἰκοδομήν, confirmed (no brackets printed around the retranslated words); δύναμιν is divided across the page break (δύνα- | μιν) and written whole here; the page has no margin references
+[chapter]	XIII checked on the page
 
 === p-0266
 --- text
@@ -65,12 +82,17 @@
 26.13.8	μετὰ οὖν χρόνον τινὰ ἀνεπείσθησαν ὑπὸ τῶν γυναικῶν ὧν εἶδες μέλανα ἱμάτια ἐνδεδυμένων, τοὺς ὤμους ἔξω ἐχουσῶν καὶ τὰς τρίχας λελυμένας καὶ εὐμόρφων· ταύτας ἰδόντες ἐπεθύμησαν αὐτῶν καὶ ἐνεδύσαντο τὴν δύναμιν αὐτῶν, τῶν δὲ παρθένων ἀπεδύσαντο τὸ ἔνδυμα καὶ τὴν δύναμιν.¹
 26.13.9	οὗτοι οὖν ἀπεβλήθησαν ἀπὸ τοῦ οἴκου τοῦ θεοῦ καὶ ἐκείναις παρεδόθησαν· οἱ δὲ μὴ ἀπατηθέντες τῷ κάλλει τῶν γυναικῶν τούτων ἔμειναν ἐν τῷ οἴκῳ τοῦ θεοῦ. ἔχεις, φησί, τὴν ἐπίλυσιν τῶν ἀποβεβλημένων.
 --- apparatus
+1	τὴν δύναμιν AL₂, τὸ ἔνδυμα L₁ τὸ ἔνδυμα καὶ τὴν δύναμιν A.
 --- margin
 26.13.5	Eph. 4, 4
 26.13.7	Eph. 4, 4
-26.13.7	II Cor. 13, 11; Philipp, 2, 2; 3, 16; 4, 2; Rom. 12, 16
+26.13.7	II Cor. 13, 11; Philipp 2, 2; 3, 16; 4, 2; Rom. 12, 16
 26.13.8	Ps. 14, 2; Acts 10, 35; Heb. 11, 33
 --- notes
+26.13.6	πύργου. checked (the OCR's "πύργουι" is its error)
+26.13.7	margin: "Philipp" printed without a stop and without a comma (the draft's "Philipp," corrected); the reference starts beside the line "ἔνδυμα· τὰ γὰρ αὐτὰ ἐφρόνουν"
+26.13.8	mark ¹ after δύναμιν. confirmed; the apparatus item as printed, A named twice ("AL₂" for τὴν δύναμιν and "A" for τὸ ἔνδυμα καὶ τὴν δύναμιν) and no comma after L₁: so also on Google's scan of the same plates (n268); the margin "Ps. 14, 2; Acts 10, 35; Heb. 11, 33" stands beside the lines of 26.13.8 (ἐνδεδυμένων … ἐπεθύμησαν), though its subject is δικαιοσύνην εἰργάζοντο at the end of 26.13.7
+26.13.9	the verse number 9 is printed before οὗτοι
 
 === p-0268
 --- text
@@ -80,9 +102,13 @@
 26.14.2	Εἰσελεύσονται, φησίν, ἐὰν τούτων τῶν γυναικῶν ἀποβάλωσι τὰ ἔργα, τῶν δὲ παρθένων ἀναλάβωσι τὴν δύναμιν καὶ ἐν τοῖς ἔργοις αὐτῶν πορευθῶσι· διὰ τοῦτο γὰρ καὶ τῆς οἰκοδομῆς ἀνοχὴ ἐγένετο, ἵνα, ἐὰν μετανοήσωσιν οὗτοι, ἀπέλθωσιν εἰς τὴν οἰκοδομὴν τοῦ πύργου. ἐὰν δὲ μὴ μετανοήσωσι, τότε ἄλλοι εἰσελεύσονται,¹ καὶ οὗτοι εἰς τέλος ἐκβληθήσονται.
 26.14.3	ἐπὶ τούτοις πᾶσιν ηὐχαρίστησα τῷ κυρίῳ, ὅτι ἐσπλαγχνίσθη ἐπὶ πᾶσι τοῖς ἐπικαλουμένοις τῷ ὀνόματι αὐτοῦ καὶ ἐξαπέστειλε τὸν ἄγγελον τῆς μετανοίας εἰς ἡμᾶς τοὺς ἁμαρτήσαντας εἰς αὐτὸν καὶ ἀνεκαίνισεν ἡμῶν τὸ πνεῦμα καὶ ἤδη κατεφθαρμένων ἡμῶν καὶ μὴ ἐχόντων ἐλπίδα τοῦ ζῆν ἀνενέωσε τὴν ζωὴν ἡμῶν.
 26.14.4	Νῦν, φημί, κύριε, δήλωσόν μοι, διατί ὁ πύργος χαμαὶ οὐκ ᾠκοδόμηται, ἀλλʼ ἐπὶ τὴν πέτραν καὶ ἐπὶ τὴν πύλην. Ἔτι, φησίν, ἄφρων εἶ καὶ ἀσύνετος; Ἀνάγκην ἔχω, φημί, κύριε, πάντα ἐπερωτᾶν σε, ὅτι οὐδʼ ὅλως οὐδὲν δύναμαι νοῆσαι· τὰ γὰρ πάντα μεγάλα καὶ ἔνδοξά ἐστι καὶ δυσνόητα τοῖς ἀνθρώποις.
-¶
 26.14.5	Ἄκουε, φησί· τὸ ὄνομα τοῦ υἱοῦ τοῦ θεοῦ μέγα ἐστὶ καὶ ἀχώρητον καὶ τὸν κόσμον ὅλον βαστάζει.
 --- apparatus
+1	εἰσελεύσονται LE, ἀπελεύσονται A.
 --- margin
 26.14.3	Is. 43, 7
 --- notes
+[chapter]	XIV checked on the page
+26.14.2	mark ¹ after the second εἰσελεύσονται, (before καὶ οὗτοι) confirmed
+26.14.4	ᾠκοδόμηται as printed (ᾠκοδόμη-|ται, with iota subscript)
+26.14.5	the verse number 5 is printed before Ἄκουε, at the start of a line but not indented (flush with the lines above, unlike the chapter's first verse): the draft's ¶ before it deleted

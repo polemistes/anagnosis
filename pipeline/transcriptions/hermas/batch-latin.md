@@ -2,42 +2,50 @@
 --- text
 26.30.3	Quodsi de ceteris montibus adiecisset, necesse habuisset rursus visitare eam turrem atque purgare. Hi autem omnes candidi inventi sunt, πιστεύσαντες καὶ οἱ μέλλοντες πιστεύειν· ἐκ τοῦ αὐτοῦ γὰρ γένους εἰσίν. μακάριον τὸ γένος τοῦτο, ὅτι ἄκακόν ἐστιν.
 26.30.4	ἄκουε νῦν καὶ περὶ τῶν λίθων τῶν στρογγύλων καὶ λαμπρῶν. καὶ αὐτοὶ πάντες ἐκ τοῦ ὄρους τοῦ λευκοῦ εἰσίν. Audi autem, quare rotundi sunt reperti. Divitiae suae eos pusillum obscuraverunt a veritate atque obfuscaverunt, a deo vero nunquam recesserunt, nec ullum verbum malum processit de ore eorum, sed omnis aequitas et virtus veritatis.
-26.30.5	Horum ergo mentem cum vidisset dominus posse eos veritati favere, bonos quoque permanere, iussit opes eorum circumcidi, non enim in totum eorum tolli, ut possint aliquid boni facere de eo, quod eis relictum est, et vivent deo, quoniam ex bono genere sunt. Ideo ergo pusillum circumcisi sunt et positi sunt in structuram turris
+26.30.5	Horum ergo mentem cum vidisset dominus posse eos veritati favere, bonos quoque permanere, iussit opes eorum circumcidi, non enim in totum eorum tolli, ut possint aliquid boni facere de eo, quod eis relictum est, et vivent deo, quoniam ex bono genere sunt. Ideo ergo pusillum circumcisi sunt et positi sunt in structuram turris huius.
 --- apparatus
 --- margin
+26.30.4	Eph. 4, 29
 --- notes
+26.30.3	the scan cuts off the right edge (ceteris, visitare, candidi, μέλλοντες): read on Google's scan of the same plates (n304); the page's marks ¹ and ² stand in the Greek text of 26.30.1-2 and their items belong to block p-0302
+26.30.5	"huius." is printed at the foot of p. 290, not on p. 292
 
 === l-0304
 --- text
-26.30.5+	huius.
+[chapter]	XXXI
+¶
 26.31.1	Ceteri vero, qui adhuc rotundi remanserunt neque aptati sunt in eam structuram, quia nondum acceperunt sigillum, repositi sunt suo loco; valde enim rotundi reperti sunt.
 26.31.2	Oportet autem circumcidi hoc saeculum ab illis et vanitates opum suarum, et tunc convenient in dei regnum. Necesse est enim eos intrare in dei regnum; hoc enim genus innocuum benedixit dominus. Ex hoc ergo genere non intercidet quisquam. Etenim licet quis eorum temptatus a nequissimo diabolo aliquid deliquerit, cito recurret ad dominum suum.
 26.31.3	Felices vos iudico omnes, ego nuntius paenitentiae, quicumque estis innocentes sicut infantes, quoniam pars vestra bona est et honorata apud deum.
-26.31.4	Dico autem omnibus, vobis, quicumque sigillum hoc accepistis, simplicitatem habere neque offensarum memores esse neque in malitia vestra permanere aut in memoria offensarum amaritudinis, in unum quemque spiritum fieri et has malas scissuras permediare ac tollere a vobis, ut dominus pecorum gaudeat de his.
+26.31.4	Dico autem omnibus, vobis, quicumque sigillum hoc accepistis, simplicitatem habere neque offensarum memores esse neque in malitia vestra permanere aut in memoria offensarum amaritudinis, in unum quemque spiritum fieri et has malas scissuras permediare ac tollere a vobis, ut dominus pecorum gaudeat de his.¹
 26.31.5	χαρήσεται δέ, ἐὰν πάντα ὑγιῆ εὑρεθῇ, καὶ μὴ διαπεπτωκότα ἐξ αὐτῶν. ἐὰν δὲ εὑρεθῇ τινα ἐξ αὐτῶν διαπεπτωκότα, οὐαὶ τοῖς ποιμέσιν ἔσται.
-26.31.6	ἐὰν δὲ καὶ αὐτοὶ οἱ ποιμένες εὑρεθῶσι διαπεπτωκότες, τί ἐροῦσι τῷ δεσπότῃ τοῦ ποιμνίου; ὅτι ἀπὸ τῶν προβάτων διέπεσαν; οὐ πιστευθήσονται· ἄπιστον γὰρ πρᾶγμά ἐστι ποιμένα ὑπὸ προβάτων παθεῖν τι· μᾶλλον δὲ
+26.31.6	ἐὰν δὲ καὶ αὐτοὶ οἱ ποιμένες εὑρεθῶσι διαπεπτωκότες, τί ἐροῦσι τῷ δεσπότῃ τοῦ ποιμνίου; ὅτι ἀπὸ τῶν προβάτων διέπεσαν; οὐ πιστευθήσονται· ἄπιστον γὰρ πρᾶγμά ἐστι ποιμένα ὑπὸ προβάτων παθεῖν τι· μᾶλλον δὲ κολασθήσονται
 --- apparatus
+1	The Greek which follows is a quotation preserved in Antiochus.
 --- margin
 --- notes
+26.31.6	κολασ-θήσονται divided at the page break: written whole here
 
 === l-0306
 --- text
-26.31.6+	κολασθήσονται διὰ τὸ ψεῦδος αὐτῶν. Et ego sum pastor, et validissime oportet me de vobis reddere rationem.
-[title]	XXXII
+26.31.6+	διὰ τὸ ψεῦδος αὐτῶν. Et ego sum pastor, et validissime oportet me de vobis reddere rationem.
+[chapter]	XXXII
 ¶
 26.32.1	Remediate ergo vos, dum adhuc turris aedificatur.
 26.32.2	Dominus habitat in viris amantibus pacem; ei enimvero pax cara est; a litigiosis vero et perditis malitiae longe abest. Reddite igitur ei spiritum integrum, sicut accepistis.
-26.32.3	Si enim dederis fulloni vestimentum novum integrum idque integrum iterum vis recipere, fullo autem scissum tibi illud reddet, recipies illud? Nonne statim scandesces et eum convicio persequeris, dicens: Vestimentum integrum tibi dedi; quare scidisti illud et inutile redegisti? Et propter scissuram, quam in eo fecisti, in usu esse non potest. Nonne haec omnia verba dices fulloni ergo et de scissura, quam in vestimento tuo fecerit?
+26.32.3	Si enim dederis fulloni vestimentum novum integrum idque integrum iterum vis recipere, fullo autem scissum tibi illud reddet, recipies illud? Nonne statim scandesces¹ et eum convicio persequeris, dicens: Vestimentum integrum tibi dedi; quare scidisti illud et inutile redegisti? Et propter scissuram, quam in eo fecisti, in usu esse non potest. Nonne haec omnia verba dices fulloni ergo et de scissura, quam in vestimento tuo fecerit?²
 26.32.4	Si sic igitur tu doles de vestimento tuo et quereris, quod non illud integrum recipias, quid putas dominum tibi facturum, qui spiritum integrum tibi dedit, et tu eum totum inutilem redegisti, ita ut in nullo usu esse possit domino suo? Inutilis enim esse coepit usus eius, cum sit corruptus a te. Nonne igitur dominus spiritus eius propter hoc factum tuum morte te adficiet?
 26.32.5	Plane, inquam, omnes eos,
 --- apparatus
+1	Scandescis L₁, irasceris L₂.
+2	A great part of this paragraph is found in Greek in Antiochus, but he seems here to abbreviate and perhaps to paraphrase too much to render it wise to follow his text.
 --- margin
 --- notes
 
 === l-0308
 --- text
 26.32.5+	quoscumque invenerit in memoria offensarum permanere, adficiet. Clementiam, inquit, eius calcare nolite, sed potius honorificate eum, quod tam patiens est ad delicta vestra et non est sicut vos. Agite enim paenitentiam utilem vobis.
-[title]	XXXIII
+[chapter]	XXXIII
 ¶
 26.33.1	Haec omnia, quae supra scripta sunt, ego pastor nuntius paenitentiae ostendi et locutus sum dei servis. Si credideritis ergo et audieritis verba mea et ambulaveritis in his et correxeritis itinera vestra, vivere poteritis. Sin autem permanseritis in malitia et memoria offensarum, nullus ex huiusmodi vivet deo. Haec omnia a me dicenda dicta sunt vobis.
 26.33.2	Ait mihi ipse pastor: Omnia a me interrogasti? Et dixi: Ita, domine. Quare ergo non interrogasti me de forma lapidum in structura repositorum, quod explevimus formas? Et dixi: Oblitus sum, domine.
@@ -60,35 +68,44 @@
 --- apparatus
 --- margin
 --- notes
+27.1.1	the title is printed "Similitudo X" in small capitals with no full stop
 
 === l-0312
 --- text
 27.2.1+	quo eum offenderim.
 27.2.2	Et ego, inquit, scio nihil extra ordinem fecisse te neque esse facturum. Et ideo haec loquor tecum, ut perseveres. Bene enim de te hic apud me existimavit. Tu autem ceteris haec verba dices, ut et illi, qui egerunt aut acturi sunt paenitentiam, eadem quae tu sentiant et hic apud me de his bene interpretetur et ego apud dominum.
 27.2.3	Et ego, inquam, domine, omni homini indico magnalia domini; spero autem, quia omnes, qui antea peccaverunt, si haec audiant, libenter acturi sunt paenitentiam vitam recuperantes.
-27.2.4	Permane ergo, inquit, in hoc ministerio et consumma illud. Quicumque autem mandata huius efficiunt, habebunt vitam, et hic apud dominum magnum honorem. Quicumque vero huius mandata non servant, fugiunt a sua vita et illum adversus; nec mandata eius sequuntur, sed morti se tradunt et unusquisque eorum reus fit sanguinis sui. Tibi autem dico, ut servias mandatis his, et remedium peccatorum habebis.
+27.2.4	Permane ergo, inquit, in hoc ministerio et consumma illud. Quicumque autem mandata huius efficiunt, habebunt vitam, et hic apud dominum magnum honorem. Quicumque vero huius mandata non servant, fugiunt a sua vita et illum adversus¹; nec mandata eius sequuntur, sed morti se tradunt et unusquisque eorum reus fit sanguinis sui. Tibi autem dico, ut servias mandatis his, et remedium peccatorum habebis.
 [chapter]	III
 ¶
 27.3.1	Misi autem tibi has virgines, ut habitent tecum; vidi enim eas affabiles tibi esse. Habes ergo eas adiutrices, quo magis possis huius mandata servare; non potest enim fieri, ut sine his virginibus haec mandata serventur. Video autem eas libenter esse tecum; sed ego praecipiam eis, ut omnino a domo
 --- apparatus
+1	Hilgenfeld emends to “aversantur illum.”
 --- margin
+27.2.3	Acts 2, 11
 --- notes
+27.2.4	the mark ¹ stands after adversus, before the semicolon, as printed
 
 === l-0314
 --- text
 27.3.1+	tua non discedant.
 27.3.2	Tu tantum communda domum tuam; in munda enim domo libenter habitabunt; mundae enim sunt atque castae et industriae et omnes habentes gratiam apud dominum. Igitur si habuerint domum tuam puram, tecum permanebunt. Sin autem pusillum aliquid inquinationis acciderit, protinus a domo tua recedent; hae enim virgines nullum omnino diligunt inquinationem.
-¶
 27.3.3	Dico ei: Spero me, domine, placiturum eis, ita ut in domo mea libenter habitent semper. καὶ ὥσπερ οὗτος, ᾧ παρέδωκάς με, οὐ μέμφεταί με, οὐδὲ αὗται μέμψονταί με.
 27.3.4	λέγει τῷ ποιμένι· Οἶδα, ὅτι ὁ δοῦλος τοῦ θεοῦ θέλει ζῆν καὶ τηρήσει τὰς ἐντολὰς ταύτας καὶ τὰς παρθένους ἐν καθαρότητι καταστήσει.
-27.3.5	ταῦτα εἰπὼν τῷ ποιμένι πάλιν παρέδωκέν με καὶ τὰς παρθένους καλέσας… λέγει αὐταῖς· Quoniam video vos libenter in domo huius habitare, commendo eum vobis et domum eius, ut a domo eius non recedatis omnino. Illae vero haec verba libenter audierunt.
+27.3.5	ταῦτα εἰπὼν τῷ ποιμένι πάλιν παρέδωκέν με καὶ τὰς παρθένους καλέσας . . . . λέγει αὐταῖς·¹ Quoniam video vos libenter in domo huius habitare, commendo eum vobis et domum eius, ut a domo eius non recedatis omnino. Illae vero haec verba libenter audierunt.
 [chapter]	IV
 ¶
 27.4.1	Ait deinde mihi: Viriliter in ministerio hoc conversare, omni homini indica magnalia domini, et habebis gratiam in hoc ministerio. Quicumque ergo in his mandatis ambulaverit, vivet et felix erit in vita sua; quicumque vero neglexerit, non vivet et erit infelix in vita sua.
 27.4.2	Dic omnibus, ut non
 --- apparatus
+1	The Greek is from Pᵒˣ (Oxyrynchus Papyr. 404).
 --- margin
+27.4.1	Acts 2, 1
 --- notes
+27.3.3	the verse number 3 is printed before Dico at the start of a line that is not indented: the ¶ removed
+27.3.5	Lake's dots of omission printed ". . . ." after καλέσας; the mark ¹ after αὐταῖς· (the raised stop)
+27.4.1	the margin prints "Acts 2, 1" (so also Google's scan of the same plates, n316), though p. 300 has Acts 2, 11 for the same phrase (magnalia domini): written as printed
+27.4.2	the apparatus prints the siglum Pᵒˣ (ox raised, no y) and "Oxyrynchus": both as printed
 
 === l-0316
 --- text

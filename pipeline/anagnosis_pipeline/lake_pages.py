@@ -822,7 +822,7 @@ def check_batch(slug: str, path: Path) -> list[str]:
                 remarks.append(f"{stem} {key}: a divided word? write it whole on the page where it begins")
             if re.match(r"^\d+\.\s", text):
                 remarks.append(f"{stem} {key}: Lake's printed verse number is not copied (the key carries it)")
-            if re.search(r"\s[.,·;:]", plain(text)):
+            if re.search(r"\s[.,·;:]", re.sub(r"\.( \.)+", "", plain(text))):  # not Lake's dots of omission
                 remarks.append(f"{stem} {key}: a space before a stop")
             page_marks += marks_in(text)
             pieces = re.findall(r"[^\W\d_]+", plain(text)) if latin else [w for w, _s, _e in greek.words(plain(text))]
