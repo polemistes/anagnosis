@@ -72,6 +72,9 @@ def main(argv: list[str] | None = None) -> int:
     clb = sub.add_parser("check-lucian-batch", help="check text batch files of a Lucian text (pipeline/transcriptions/lucian/<slug>/batch-NN.md)")
     clb.add_argument("files", nargs="+")
     clb.add_argument("--slug", default="truestory")
+    lrs = sub.add_parser("lucian-residuals", help="what the checked text and the OCR still disagree on, per page, for the residual pass")
+    lrs.add_argument("files", nargs="*")
+    lrs.add_argument("--slug", default="truestory")
     mlu = sub.add_parser("merge-lucian", help="texts/<slug>/ from the checked batches of a Lucian text (lucian_merge.py), GLAUx and Harmon")
     mlu.add_argument("slug", nargs="?", default="truestory")
     sub.add_parser("fetch-nt", help="download the New Testament sources into pipeline/sources/nt/ (SBLGNT, MACULA, Dodson, BSB)")
@@ -221,6 +224,11 @@ def main(argv: list[str] | None = None) -> int:
                 print("  " + p)
             bad += len(problems)
         return 1 if bad else 0
+    elif args.cmd == "lucian-residuals":
+        from collections import Counter
+        from .lucian_pages import residuals as lucian_residuals
+        r = lucian_residuals(args.slug, [Path(f) for f in args.files] or None)
+        print(f"{len(r)} residuals: " + ", ".join(f"{k} {v}" for k, v in Counter(x["kind"] for x in r).most_common()))
     elif args.cmd == "merge-lucian":
         from .lucian_merge import merge as merge_lucian
         return 1 if merge_lucian(args.slug, SOURCES, TEXTS, ROOT / "pipeline" / "build", DATA / "lexicon.sqlite") else 0

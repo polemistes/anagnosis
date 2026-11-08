@@ -169,7 +169,7 @@ Nilén's apparatus, but an altered one, which will make you the editor".
 
 - [x] Step 1: modules, tests, CLI (2026-11-08): `lucian_pages.py`, `lucian_merge.py`, `tests/test_lucian.py`, CLI `lucian-pages`, `check-lucian-batch`, `merge-lucian`; `transcriptions/lucian/INSTRUCTIONS.md`
 - [x] Step 2: leaves (2026-11-08): Nilén text leaves 196-275, sigla 10, 11, 13, 16, title 4; Jerram notes 81-100, introduction 15-29, his text 31-79
-- [ ] Step 3: draft
+- [x] Step 3: draft (2026-11-08): 80 pages, 1480 lines, 220 flagged (14 %), all 89 sections placed, apparatus and short rule found on all 80 pages; 14 batches
 - [ ] Step 4: text and apparatus batches, residuals
 - [ ] Step 5: merge, lemma check, Harmon checklist, review
 - [ ] Step 6: Jerram's notes
@@ -268,6 +268,18 @@ Nilén's apparatus, but an altered one, which will make you the editor".
     are read by Tesseract and matched to the Perseus words (as the drama route matches a text),
     which gives each of his lines its book.section; the lemma search in Nilén's section is the
     check, `_locate_fuzzy` the fallback. Built at step 6.
+* **2026-11-08, step 3: draft.** First run: 1479 lines, 219 flagged (14 %), but the short rule
+  missed on 8 pages (leaves 199, 210, 214, 256, 259, 262, 269, 273): there the rule stands only
+  16-20 rows below the last line's descenders, and on leaf 259 the rule is 13 px thick. On leaf
+  262 (p. 195) the drama fallback then put the last text line into the apparatus. The rule test
+  was relaxed (12 blank rows above, 20 below, a band up to 14 px) and checked on all 80 pages: the
+  rule is now found on every page, and no rule found before moved by more than 3 px. Those 8
+  pages were drafted again (their margin and apparatus caches deleted) and the batches written
+  afresh (no agent had touched them). Result: 1480 lines, 220 flagged (14 %), within the brief's
+  10-25 %. Of the flags, 181 are "the OCR reads …" (mostly OCR errors on Nilén's δ, ὁ, Δ, μ),
+  32 words not found in the OCR, 13 lines guessed, 13 fifth lines whose margin number was not read,
+  2 chapter numbers not read. The draft capitalises the first word of every paragraph, as Nilén
+  does (the OCR loses the breathing on Ὥσπερ and the like; 60 lines).
 
 ## Sizes, for planning
 

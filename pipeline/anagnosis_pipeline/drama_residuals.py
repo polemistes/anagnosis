@@ -54,10 +54,14 @@ def _letters(core: str) -> str:
     return unicodedata.normalize("NFC", core.lower().replace(APOS, "").replace("ʼ", ""))
 
 
-def page_residuals(play, layout: dict, items: list[tuple[str, str]]) -> list[dict]:
+def page_residuals(play, layout: dict, items: list[tuple[str, str]], stream=None) -> list[dict]:
+    """`stream(layout)` -> (lines, ocr words), folded: the page's OCR (default: the drama route's)."""
     from .drama_pages import fold_ocr, ocr_stream
 
-    lines, ocr = fold_ocr(play, *ocr_stream([layout], play.adscript))
+    if stream is not None:
+        lines, ocr = stream(layout)
+    else:
+        lines, ocr = fold_ocr(play, *ocr_stream([layout], play.adscript))
     # the OCR's words with their punctuation, by printed line
     words: list[tuple[str, str, int]] = []  # (n, word as checked, index)
     for n, text in items:

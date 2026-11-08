@@ -271,9 +271,10 @@ def run(slug: str, step: str, workers: int = 4) -> None:
 
 def short_rule(path: Path) -> int | None:
     """The top of the short rule Nilén sets between the text and the apparatus: a band of ink at
-    most 10 pixels high with 28 blank rows above and below, 8-40 % of the page wide and at least
-    30 % inked (the rule is faint and broken on many pages); the first such band below the top
-    quarter of the page (the end of a book has a second, the closing ornament)."""
+    most 14 pixels high with 12 blank rows above (the descenders of the last line come close) and
+    20 below, 8-40 % of the page wide and at least 30 % inked (the rule is faint and broken on many
+    pages); the first such band below the top quarter of the page (the end of a book has a second,
+    the closing ornament)."""
     from PIL import Image
 
     with Image.open(path) as im:
@@ -292,13 +293,13 @@ def short_rule(path: Path) -> int | None:
 
         y = int(0.25 * H)
         while y < int(0.97 * H):
-            if rows[y] < 0.008 * W or not blank(y - 30, y - 2):
+            if rows[y] < 0.008 * W or not blank(y - 14, y - 2):
                 y += 1
                 continue
             y1 = y
-            while y1 < H and rows[y1] >= 0.002 * W and y1 - y < 14:
+            while y1 < H and rows[y1] >= 0.002 * W and y1 - y < 18:
                 y1 += 1
-            if y1 - y <= 10 and blank(y1 + 1, y1 + 30):
+            if y1 - y <= 14 and blank(y1 + 1, y1 + 22):
                 cols = ink.crop((0, y, w, y1)).resize((w, 1), Image.BOX).tobytes()
                 xs = [x for x, v in enumerate(cols) if v > 0]
                 if xs:
@@ -452,8 +453,12 @@ def ocr_stream(layouts: list[dict]) -> tuple[list[dict], list[dict]]:
                 continue
             for w in ws:
                 for piece in DASHES.split(ocr_norm(w["text"])):
-                    if piece.strip():
-                        toks.append({"t": piece, "skel": skel(piece), "line": li, "conf": w["conf"]})
+                    if not piece.strip():
+                        continue
+                    if not skel(piece) and toks and toks[-1]["line"] == li and re.fullmatch(r"[.,·;:'\"”᾽˙]+", piece.strip()):
+                        toks[-1]["t"] += piece.strip()  # Nilén's stop set off by a space ("ἦν .")
+                        continue
+                    toks.append({"t": piece, "skel": skel(piece), "line": li, "conf": w["conf"]})
     count = Counter(t["line"] for t in toks if t["skel"])
     for k, t in enumerate(toks):
         last = k + 1 == len(toks) or toks[k + 1]["line"] != t["line"]
@@ -621,9 +626,15 @@ def line_texts(numbered: list[dict], lines: list[dict], ocr: list[dict], pers: l
                 flags.append(f"the OCR shows {name} on this line, Perseus has none: copy Nilén's")
             elif d_has and not o_has:
                 flags.append(f"Perseus has {name} on this line, the OCR shows none: check the print")
-        L["text"] = text
         indented = pl["indent"] > 0.6 * pl["line_h"]
         L["para"] = indented and not verse
+        if L["para"] and out:
+            # Nilén begins every paragraph with a capital (the OCR often loses its breathing)
+            k = 1 if out[0].startswith("§") and len(out) > 1 else 0
+            if not _starts_upper(out[k]):
+                out[k] = _capitalise(out[k])
+                text = ("| " if verse else "") + " ".join(out)
+        L["text"] = text
     for k, L in enumerate(numbered):
         nxt = numbered[k + 1]["line"] if k + 1 < len(numbered) else len(lines)
         for li in range(L["line"] + 1, nxt):
@@ -937,6 +948,74 @@ def check_batch(slug: str, path: Path, sources: Path) -> list[str]:
             tag = " (noted)" if where in noted else ""
             remarks.append(f"{where}: written {mine} | Perseus has {theirs}{tag}")
     return remarks
+
+
+def residuals(slug: str, files: list[Path] | None = None) -> list[dict]:
+    """The residual pass (pipeline/transcriptions/lucian/RESIDUALS.md): what the checked lines and
+    Tesseract's reading of them still disagree on (words, accents, punctuation, brackets), per
+    page, with a crop of the lines: residuals/r-NNNN.md and r-NNNN.png, residuals.json."""
+    from PIL import Image, ImageDraw, ImageFont
+
+    from .drama_pages import scan_dirs
+    from .drama_residuals import page_residuals
+
+    play = PLAYS[slug]
+    pages = read_batches(transcriptions_dir(slug), files)
+    od = out_dir(slug) / "residuals"
+    od.mkdir(exist_ok=True)
+    _, sbuild = scan_dirs(play.scan)
+    try:
+        font = ImageFont.truetype("DejaVuSans-Bold.ttf", 30)
+    except OSError:
+        font = ImageFont.load_default()
+
+    def stream(layout):
+        lines, ocr = ocr_stream([layout])
+        fold(play, lines, ocr)
+        return lines, ocr
+
+    everything = []
+    for stem, block in sorted(pages.items()):
+        leaf = int(stem[2:])
+        items = [(k, plain(t)) for k, t in block["text"] if k != "¶" and not t.startswith("[title]")]
+        res = page_residuals(play, page_layout(play, leaf), items, stream)
+        noted = {m.group(1) for x in block["notes"] if (m := re.match(r"^(\d+\.\d+)", x))}
+        for r in res:
+            r["stem"] = stem
+            r["noted"] = r["n"] in noted
+        everything += res
+        for old in od.glob(f"r-{leaf:04d}.*"):
+            old.unlink()
+        if not res:
+            continue
+        md = [f"# Residuals on {stem} (leaf {leaf}, Nilén's p. {page_of(play, leaf)})", "",
+              f"Image: r-{leaf:04d}.png (each line once, labelled with its key); the whole page: ../pages/leaf_{leaf:04d}.png", ""]
+        for k, r in enumerate(res, 1):
+            what = {"word": f"the text has «{r['text']}», the OCR reads «{r['ocr']}»",
+                    "accent": f"accents: the text has «{r['text']}», the OCR reads «{r['ocr']}»",
+                    "punctuation": f"punctuation: the text has «{r['text']}», the OCR reads «{r['ocr']}»",
+                    "bracket": f"brackets or asterisk: the text has «{r['text']}», the OCR reads «{r['ocr']}»",
+                    "ocr-only": f"the OCR reads «{r['ocr']}» here, the text has nothing"}[r["kind"]]
+            md.append(f"{k}. {r['n']}: {what}" + (" (the line is noted in the batch)" if r["noted"] else ""))
+        (od / f"r-{leaf:04d}.md").write_text("\n".join(md) + "\n", encoding="utf-8")
+        with Image.open(sbuild / "pages" / f"leaf_{leaf:04d}.png") as im:
+            g = im.convert("L")
+            spans = []
+            for r in res:
+                if r["y0"] is not None and (r["n"], r["y0"]) not in [(x[0], x[1]) for x in spans]:
+                    spans.append((r["n"], r["y0"], r["y1"]))
+            crops = [(n, g.crop((20, max(0, y0 - 14), g.size[0] - 20, y1 + 12))) for n, y0, y1 in spans]
+        if crops:
+            sheet = Image.new("L", (230 + max(c.size[0] for _n, c in crops), sum(c.size[1] + 10 for _n, c in crops)), 255)
+            d = ImageDraw.Draw(sheet)
+            y = 0
+            for n, c in crops:
+                sheet.paste(c, (230, y))
+                d.text((8, y + c.size[1] // 2 - 18), n, fill=0, font=font)
+                y += c.size[1] + 10
+            sheet.save(od / f"r-{leaf:04d}.png")
+    (od / "residuals.json").write_text(json.dumps(everything, ensure_ascii=False, indent=0), encoding="utf-8")
+    return everything
 
 
 def main(argv: list[str]) -> None:
