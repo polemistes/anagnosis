@@ -184,7 +184,7 @@ Nilén's apparatus, but an altered one, which will make you the editor".
 - [x] Step 7: introduction (2026-11-08): Jerram's introduction (pp. ix-xxiii), 2 batches checked and reviewed
 - [x] Step 8: DCC notes (2026-11-08): 86 pages (89 sections; 2.7-2.10 one page), 1798 paragraphs; twenty notes compared with the site, all agree
 - [x] Step 9: translation, sigla, glossary, about, READMEs (2026-11-08): eng-harmon.txt 89 sections (no problems); sigla.md from the praefatio; glossary 79, short definitions 106, aliases 26, 16 lemma fixes and 12 hand analyses; lexicon coverage complete
-- [ ] Step 10: build, pack, catalogue, emulator check
+- [x] Step 10: build, pack, catalogue, emulator check (2026-11-08): data/truestory.sqlite, app/packs/truestory, catalogue 17 texts; emulator check done after four fixes (long sections divided, inline section numbers, apparatus by section, commentators named)
 
 ## Decisions
 
@@ -387,6 +387,40 @@ Nilén's apparatus, but an altered one, which will make you the editor".
     texts are likely affected: recorded for the author, not changed here (shared code).
   * `about.md` as the Gorgias's (GLAUx, machine-made syntax); "A Lucian" section in texts/README.md;
     the row in play/README.md.
+* **2026-11-08, step 10: build and the emulator check.** `build --only truestory`, `check` (0
+  errors), the asset pack `app/packs/truestory` registered in settings.gradle.kts and
+  androidApp/build.gradle.kts, `catalog` (17 texts). Emulator `anagnosis`, bundle by bundletool
+  local testing: bought in the debug shop, downloaded, opened. Found and fixed:
+  * **Sections taller than a page.** The reader pages prose by whole lines (paginate: a line is
+    never divided between pages, and a line taller than the page stands alone and runs off it);
+    with one line per section, 22 sections (up to 1432 characters, 36 lines on a phone) did not fit,
+    and pages held one section with much white space. `lucian_merge.split_long` now divides a
+    section longer than 550 characters at sentence ends (. · ; :) into lines of its own, 1.7, 1.7b,
+    1.7c (no part under 200 characters; a paragraph's continuation lettered among them): 166 lines
+    for 89 sections, the longest 723 characters. The section stays the unit of citation and of the
+    notes; the reader joins the parts into one paragraph. The hand analyses are now keyed by section
+    and form ("1.29 κατετέθημεν"); the merge finds the part that holds the form.
+  * **No section numbers.** Prose in the app showed only Stephanus marks. App change (shared code,
+    used only by prose numbered by book and section, `WorkData.sectioned`): the section's number
+    stands inline before its first word, as the New Testament's verse numbers do (its later parts
+    carry none); the page label, note and syntax headings say "§ 7", "§§ 2–3", "§ 1.2" instead of
+    "Line"; no margin column is reserved.
+  * **The apparatus filed under a section's parts** (1.2b) showed the section's first part's text
+    above it (the sheet looks a line up by number, not letter): the apparatus is now filed under the
+    section (89 headings), like Jerram's and the DCC's notes.
+  * **Two commentaries in one list.** The commentary sheet merges every commentary's notes by line;
+    Jerram's and the DCC's notes on the same section stood together without a name. App change: where
+    a page has notes from more than one commentary, each group is headed with its commentator
+    ("§ 1.2 · C. S. Jerram", "§ 1.2 · Dickinson College Commentaries", from the commentary's title)
+    and the section's text is shown once. Pages with notes from one commentary are as before (the
+    Odyssey's two commentaries never share a page).
+  * The introduction's heading "Introduction" was doubled by the sheet's own title: left out.
+  * Checked and working: the text, the apparatus and its Manuscripts page (sigla), Jerram's and the
+    DCC's notes, the introduction, the word sheet (γάρ: particle, Koine pronunciation, the
+    dictionaries), the syntax of a sentence (GLAUx, marked automatic), reading aloud (Koine voice).
+  * Memory: a second emulator of another project and the Gradle daemons filled the RAM and the OOM
+    killer closed the editor during this step; afterwards one emulator at a time, Gradle stopped
+    after each build, the emulator closed at the end.
 
 ## Sizes, for planning
 
