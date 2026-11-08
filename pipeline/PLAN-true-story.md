@@ -168,7 +168,7 @@ Nilén's apparatus, but an altered one, which will make you the editor".
 ## Progress
 
 - [x] Step 1: modules, tests, CLI (2026-11-08): `lucian_pages.py`, `lucian_merge.py`, `tests/test_lucian.py`, CLI `lucian-pages`, `check-lucian-batch`, `merge-lucian`; `transcriptions/lucian/INSTRUCTIONS.md`
-- [ ] Step 2: leaves
+- [x] Step 2: leaves (2026-11-08): Nilén text leaves 196-275, sigla 10, 11, 13, 16, title 4; Jerram notes 81-100, introduction 15-29, his text 31-79
 - [ ] Step 3: draft
 - [ ] Step 4: text and apparatus batches, residuals
 - [ ] Step 5: merge, lemma check, Harmon checklist, review
@@ -220,6 +220,54 @@ Nilén's apparatus, but an altered one, which will make you the editor".
     supplement, absent in Nilén), `ἔμελλον` (Perseus's gap, Nilén's `***`), and OCR errors.
   * The Jerram section of `INSTRUCTIONS-prose.md` is written at step 6, when his notes' keying
     is known (step 2 finds it).
+* **2026-11-08, step 2: leaves.** Pages looked at: Nilén leaves 0-72 (OCR of each, images of 4,
+  10, 11, 13, 16), 196-202, 215-279 (running heads by OCR; images of 232-234, 275); Jerram leaves
+  7-15, 28-31, 35, 80-81, 101-104.
+  * **Nilén**: the scan numbers its leaves from 0 with none hidden, so leaf = page image n;
+    page = leaf − 67 throughout the text (p. 129 = leaf 196, p. 133 = leaf 200, p. 208 = leaf 275:
+    checked at both ends and in the middle). Book I: pp. 129-166 = leaves 196-233 (the title on
+    p. 129 below a blank upper half; p. 166 ends after six lines, with the subscription
+    "διώρθωσα …" in the apparatus). Book II: pp. 167-208 = leaves 234-275 (title on p. 167; p.
+    208 ends with the subscription and Nilén's note "ascribam adnotationem finalem
+    scholiastarum …"). 80 pages, as the brief expected. Leaves 276-279: blank and the library's.
+  * Title page (leaf 4): "LUCIANUS | edidit | NILS NILÉN | VOL. I. FASC. I | LIBELLI I—XIV |
+    MCMVI | LIPSIAE | IN AEDIBUS B. G. TEUBNERI" ("Samosatensis" is a reader's pencil): the
+    edition is written "Lucianus, edidit Nils Nilén, vol. I fasc. I: libelli I–XIV, Leipzig, B. G.
+    Teubner, 1906" (not "Luciani Samosatensis libelli", as the brief had it).
+  * There is no conspectus siglorum of the usual kind: the praefatio (pp. III-XVI, leaves 6-19)
+    holds tables. p. VII (leaf 10): every witness used by the editors with its date class (aᵃ-aᵘ
+    = 9th/10th-12th c., r = later) and its name (Γ Vaticanus 90, Ω Marcianus 434, S Mutinensis
+    193, Z Vaticanus 1323, P Vaticanus 76, N Parisinus 2957, F Guelferbytanus fol., I Urbinas 118,
+    B Vindobonensis 123, U Vaticanus 1324, v the Amsterdam edition of 1743 …); p. VIII (leaf
+    11): Jacobitz's witnesses, and the note on the date classes; p. X (leaf 13): "Ego hos testes
+    adhibui in libellorum 1—14 apparatu": for libelli 13 and 14 (the two books) Γ Ω F N P (*P in
+    13: lost at the beginning, "periit in P libelli initium usque ad c. 14 med.") S Z, with
+    Nilén's explanation of the asterisks and dashes in the table; p. XIII (leaf 16): further
+    codices. The hands (Γᵃ, Γˣ, Γ*, S²) are not explained in what was seen: sigla.md (step 9) says
+    what the pages show and reads the rest of the praefatio for it. The appendix apparatus (pp.
+    XVII ff., leaves 20 ff.) covers libelli 1-12 only, not ours.
+  * Six text pages (pp. 129, 130, 132, 133, 166, 167) and p. 208: 12-21 lines of text (20-21 on a
+    full page, fewer above a long apparatus); the margins as recorded at step 1; the short rule;
+    the apparatus in Latin with every item headed by its line number (repeated for each item on
+    the same line), ranges "1/2", "12/13", "13/14", "12/15"; above the first items of each book a
+    paragraph "Libri: ΓΩSZPNF …" naming the witnesses; Nilén's text prints `***` for the lacuna
+    at 1.2 (p. 130 l. 12, "ἔμελλον *** Κτησίας") and lacks Harmon's αὐτοὺς (p. 130 l. 3).
+  * **Jerram** (scan lucianiverahisto00luci; scandata hides leaf 0, so leaf = page image n + 1;
+    its own page numbers: leaf = page + 30, leaf = roman + 6): **1879** (title page "M DCCC
+    LXXIX", preface signed January 1879; the brief's date stands). Title leaf 9, preface pp. v-vii
+    leaves 11-13, introduction pp. ix-xxiii leaves 15-29 (15 pages, not 23), his text with the
+    English summaries pp. 1-49 leaves 31-79 (p. 50 blank), **notes pp. 51-70 leaves 81-100** (20
+    pages, not 50), index pp. 71-73 leaves 101-103. The introduction ends: "The text of the present
+    edition is that of the Tauchnitz Classics, by C. H. Weise".
+  * **How Jerram keys his notes**: under the headings BOOK I and BOOK II, each note begins with
+    the line number of **his own text** ("Line 4. μέρος γοῦν, etc., …", "l. 17. σπουδαιοτέρων …",
+    "ll. 26, 27. …"), counted from the start of each book and printed every fifth line in the right
+    margin of his text pages, which print no chapter numbers and set his English summaries in
+    italics between the paragraphs (not counted). So the brief's second case holds: the note's
+    section is found from the line. Decided: his text pages (leaves 31-79, `Play.notes_text_leaves`)
+    are read by Tesseract and matched to the Perseus words (as the drama route matches a text),
+    which gives each of his lines its book.section; the lemma search in Nilén's section is the
+    check, `_locate_fuzzy` the fallback. Built at step 6.
 
 ## Sizes, for planning
 

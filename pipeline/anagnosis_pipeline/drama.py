@@ -113,6 +113,9 @@ class Play:
     # the short rule below the text ("short") rather than the small type found from the foot up
     page_offset: int = 0
     app_rule: str = ""
+    # the commentary's own text (Jerram's Greek, whose line numbers his notes cite), read only to
+    # map those line numbers to ours
+    notes_text_leaves: list[tuple[int, int]] = field(default_factory=list)
 
     @property
     def perseus(self) -> str:
@@ -312,18 +315,25 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
     # by lucian_pages.py (prose, by printed line; the unit of grc.txt is the book.section), GLAUx,
     # Harmon's translation, Jerram's commentary and introduction
     Play("truestory", "Ἀληθῶν διηγημάτων", "A True Story", "Λουκιανός", "Lucian", "tlg0062.tlg012",
-         "Luciani Samosatensis libelli, edidit Nils Nilén, vol. I fasc. 1, Leipzig, B. G. Teubner, 1906",
+         "Lucianus, edidit Nils Nilén, vol. I fasc. I: libelli I–XIV, Leipzig, B. G. Teubner, 1906",
          "bub_gb_RYepnZKT1OwC", "nilen", "N. Nilén", "lucian_truestory_nilen",
          glaux="0062-012.xml",
          trans_file="drama/tlg0062.tlg012.perseus-eng2.xml", translator="A. M. Harmon", trans_key="harmon",
          trans_edition="Lucian, with an English translation by A. M. Harmon, vol. I, Loeb Classical Library, London, Heinemann, 1913",
          trans_license="CC BY-SA 4.0 (Perseus Digital Library)",
          notes_editor="jerram", notes_editor_name="C. S. Jerram",
-         notes_edition="Luciani Vera Historia, with introduction and notes by C. S. Jerram, Oxford, Clarendon Press, 1879",
+         notes_edition="Luciani Vera Historia, edited with introduction and notes for the use of middle forms in schools by C. S. Jerram, Oxford, Clarendon Press, 1879",
          notes_scan="lucianiverahisto00luci", app_bare_numbers=True, app_rule="short",
          ocr_fold={"ϑ": "θ", "ϱ": "ρ", "ϐ": "β", "ϰ": "κ"}, skel_fold="χκξζ",  # Nilén's ζ is read as ξ
          pronunciation="koine",  # second century AD; the author may switch it to attic
-         page_offset=67),
+         page_offset=67,
+         # Nilén (scan leaf n = page image n): title page leaf 4, praefatio pp. III-XVI = leaves 6-19,
+         # the witnesses (pp. VII, VIII, X, XIII) leaves 10, 11, 13, 16; text pp. 129-208 = leaves
+         # 196-275 (book I 196-233, book II 234-275). Jerram (leaf 0 hidden, leaf = image n + 1):
+         # title leaf 9, preface pp. v-vii = leaves 11-13, introduction pp. ix-xxiii = leaves 15-29,
+         # his text pp. 1-49 = leaves 31-79, notes pp. 51-70 = leaves 81-100, index pp. 71-73
+         text_leaves=[(196, 275)], sigla_leaves=[10, 11, 13, 16], notes_leaves=[(81, 100)],
+         intro_leaves=[(15, 29)], notes_text_leaves=[(31, 79)]),
 ]}
 
 
