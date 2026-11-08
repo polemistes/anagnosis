@@ -251,6 +251,13 @@ converter and came out as Greek letters.)
   author asked for it: it follows the introductions in `introduction.md` (step 7).
 * **The Michigan papyrus** (Bonner 1934, Sim. 2–9): not in Lake; public domain in Norway since
   2025, US status unchecked; a later note in sigla.md at most.
+* **Similitude 1's label**: Lake prints no title of its own over Similitude 1, only the heading of
+  all the Similitudes in capitals, ΠΑΡΑΒΟΛΑΙ ΑΣ ΕΛΑΛΗΣΕ ΜΕΤʼ ΕΜΟΥ, and that is its label in the
+  book chooser ("Similitude 1 · ΠΑΡΑΒΟΛΑΙ ΑΣ …"), as printed. Tauber's "Παραβολὴ αʹ" would read
+  more evenly beside the others, but is not on the page. Kept as printed unless you prefer it.
+* **Misprints in the apparatus**: Lake's misprints in his Greek text are corrected with a note
+  (29); those inside his apparatus notes (μετανοήσοὐσιν, θεῖαν, πρυφητικοῦ, ἐθελυδιδάσκαλοι, the
+  siglum F) are left as printed, being his commentary. Say if they should be corrected as well.
 * **Release**: the text is built and in the catalogue after step 10; a reader release with it is
   yours to decide (play/README.md: build the bundle, upload, create and activate the product
   `hermas_shepherd_lake`, name "The Shepherd of Hermas", €3).
@@ -266,7 +273,7 @@ converter and came out as Greek letters.)
 - [x] Step 7: introductions (2026-11-08): 7 batches checked and reviewed (Lake 4 pages, Taylor I 46, Taylor II 5); `introduction.md`: Lake's introduction (1913), Taylor's introduction (1903) in five chapters with his lettered parts, Taylor: Hermas and the Gospels (1906), signed
 - [x] Step 8: appendix (the Latin end) (2026-11-08): `appendix.md` from `batch-latin.md` (checked and reviewed at step 4), 34 sections 9.30.3-10.4.5 in order with Lake's translation and his 5 apparatus items, Taylor's 6 notes on the Latin end at its foot; one slip of the Perseus translation corrected; p. 304 read against the file
 - [x] Step 9: translation, sigla, glossary, aliases, short definitions, homographs, about, READMEs (2026-11-08): 47 lemma corrections, 5 tokens by hand, one more misprint (26.23.5); glossary 43 names and shortdefs.tsv 72 entries (written and reviewed by agents, the rest by hand): every lemma has a short definition; 24 aliases; 2 homograph groups; sigla.md, about.md, texts/README.md, play/README.md
-- [ ] Step 10: build, pack, catalogue, emulator check
+- [x] Step 10: build, pack, catalogue, emulator check (2026-11-08): data/hermas.sqlite (4.4 MB), app/packs/hermas, catalogue 18 texts; emulator check done, one fix (the short definition of πορεύω)
 
 ## Decisions
 
@@ -545,6 +552,28 @@ converter and came out as Greek letters.)
     (the hands of ℵ, Pᵃᵐ/Pᴬᵐʰ, Pᵒˣʸ/Pᵒˣ, Pᴮᵉʳˡ, E₁ and the unexplained F, the Fathers, the signs),
     each place it cites looked up; `about.md` (product hermas_shepherd_lake, google_play yes);
     the section in texts/README.md and the row in play/README.md.
+
+* **2026-11-08, step 10: build and the emulator check.** `build --only hermas` (693 lines, 27,138
+  tokens, 1770 lemmas, every one with a short definition; 43 glossary entries; the introduction,
+  the appendix and the sigla as documents), `check` 0 errors; the asset pack `app/packs/hermas`
+  (from truestory's) in settings.gradle.kts and androidApp/build.gradle.kts; `catalog`, 18 texts.
+  The longest verse is 622 characters (the True Story's lines run to 723 after its split and fit a
+  phone page), so no verse is divided. RAM looked at first (13 GB free, no emulator running); the
+  bundle built with no emulator up, Gradle stopped, then one emulator (`anagnosis`), bundletool
+  local testing. Checked on the phone: bought in the debug shop ("Owned", downloaded), opened;
+  the book chooser lists 26 books (the Greek ends in Similitude 9; Similitude 10 is in the
+  appendix, so 26, not the brief's 27), each with Lake's title; a chapter read (verse numbers
+  inline, "Chapter 1 · 29" in Mandate 4 with the continuous number); the citation "Vision
+  1.1.1–3", "Mandate 4.1.1–4" at the bottom, "Vision 1.1.3" over notes and syntax; the apparatus
+  and its Manuscripts page; Lake's side-heading and Taylor's note under Vision 1.1.3, each headed
+  with its commentator; the introduction (Lake, Taylor's five chapters, his 1906 appendix) and the
+  appendix (Similitude 9.30.3-10.4.5) under "About this edition"; the word sheet of πορευομένου
+  (GLAUx lemma πορεύω; Abbott-Smith's πορεύομαι reached through the alias; Koine pronunciation);
+  the syntax of Vision 1.1.3 (marked automatic); reading aloud from a tapped word (Koine voice,
+  the word lit; the sound itself not heard on the emulator). One fix: Logeion's short definition
+  of πορεύω is the active's ("to make to go, carry"); the Shepherd has only the middle:
+  `shortdefs.tsv` now gives "(mid.) go, journey, proceed …". The emulator closed (`adb emu kill`),
+  `./gradlew --stop`.
 
 ## Sizes, for planning
 
