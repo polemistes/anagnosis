@@ -386,7 +386,18 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          # p. 1 = leaf 13, his introduction pp. 2-5 = leaves 14-17, the Greek on the even pages
          # 6-290 = leaves 18-302 (his translation on the odd pages facing it); A ends on p. 290 after
          # Sim. 9.30.2, and the Latin end runs from there to p. 304 = leaf 316
-         text_leaves=[(18, 302)], latin_leaves=[(302, 316)], sigla_leaves=[16, 17]),
+         text_leaves=[(18, 302)], latin_leaves=[(302, 316)], sigla_leaves=[15, 16, 17],
+         # Taylor I (shepherdofhermas0000herm; scandata hides leaf 0, page image n = leaf - 1; leaf =
+         # page + 4): introduction pp. 9-54 = leaves 13-58, the Visions and Mandates with his
+         # footnotes pp. 57-164 = leaves 61-168 (p. 55 the half-title "Visions I-IV", the index p. 165).
+         # Taylor II (shepherdofhermas02hermuoft; jp2 from _0001, page image n = leaf - 1; leaf = page
+         # + 4): the Similitudes pp. 9-131 = leaves 13-135, the Appendix (Hermas and the Gospels)
+         # pp. 135-139 = leaves 139-143 (half-title p. 133), the index p. 141.
+         notes_sources={
+             "notes": [("shepherdofhermas0000herm", [(61, 168)]), ("shepherdofhermas02hermuoft", [(13, 135)])],
+             "intro": [("apostolicfathers02lakeuoft", [(14, 17)]), ("shepherdofhermas0000herm", [(13, 58)]),
+                       ("shepherdofhermas02hermuoft", [(139, 143)])],
+         }),
 ]}
 
 

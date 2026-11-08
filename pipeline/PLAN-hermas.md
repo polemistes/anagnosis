@@ -258,7 +258,7 @@ converter and came out as Greek letters.)
 ## Progress
 
 - [x] Step 1: modules, tests, CLI, app's dotted citation, INSTRUCTIONS (2026-11-08): `hermas_text.py`, `lake_pages.py`, `lake_merge.py`, `tests/test_hermas.py`; `drama_prose` reads a kind from several scans; CLI `lake-pages`, `check-hermas-batch`, `hermas-residuals`, `merge-hermas`; the app's `citation: dotted` (tested); `transcriptions/hermas/INSTRUCTIONS.md`, `REVIEW.md`, `RESIDUALS.md` (the Taylor section of INSTRUCTIONS-prose.md at step 2, when his pages are seen)
-- [ ] Step 2: leaves
+- [x] Step 2: leaves (2026-11-08): Lake Greek 18-302 even, Latin 302-316 even, introduction 14-17, sigla 15-17; Taylor I introduction 13-58, notes 61-168; Taylor II notes 13-135, appendix 139-143
 - [ ] Step 3: draft (Greek and Latin)
 - [ ] Step 4: text and apparatus batches, residuals
 - [ ] Step 5: merge, Tauber and First1K checks, misprints, review
@@ -329,6 +329,33 @@ converter and came out as Greek letters.)
     on three scans: Lake (leaves 14-17), Taylor I, Taylor II (the appendix).
   * `Play.route = "lake"`: the prose batches go to `transcriptions/hermas/`, and the prose checker
     reads Taylor's headings.
+* **2026-11-08, step 2: leaves.** Lake: confirmed from `page_numbers.json` and the images (leaf 15
+  = p. 3, leaf 302 = p. 290, leaf 316 = p. 304): leaf = page + 12 throughout. Six Greek pages looked
+  at (leaves 18, 20, 22, 24, 26, 298-302) and Latin ones (304-316): the layout as recorded under step
+  1; the apparatus runs on in one or two lines at the foot, small type, no rule; pages without
+  apparatus occur (p. 10). The sigla are on pp. 3-5 (leaves 15-17: ℵ on p. 3, A H and the papyri on
+  p. 4, Pᵇᵉʳ, L₁ L₂ L E C and the Fathers on p. 5): `sigla_leaves=[15, 16, 17]`.
+  * **Taylor I** (shepherdofhermas0000herm: 192 leaves, leaf 0 hidden, page image n = leaf − 1,
+    leaf = page + 4; contents page leaf 9 read): Preface pp. 7-8, **Introduction pp. 9-54 = leaves
+    13-58** (1 Authorship and date, 2 The text and the versions, 3 Structure and contents, 4 Sources
+    of the Shepherd, 5 The doctrine of Hermas), half-title "Visions I-IV" p. 55, **the translation
+    with his footnotes pp. 57-164 = leaves 61-168** (Visions I-IV pp. 57-104, Vision V and the
+    Mandates pp. 105-164), Index pp. 165-166, then the publisher's lists.
+  * **Taylor II** (shepherdofhermas02hermuoft: jp2 from _0001, hidden 170-173 at the end, page image
+    n = leaf − 1, leaf = page + 4; contents page leaf 8 read): "The Similitudes" half-title, **First
+    Similitude p. 9 to the end of the Tenth p. 131 = leaves 13-135**, "APPENDIX" half-title p. 133,
+    **the Appendix pp. 135-139 = leaves 139-143** (five pages, not the "137 ff." of the brief; signed
+    "C. Taylor, Cambridge, August 1906"), Index p. 141.
+  * Taylor's page (looked at vol. I leaves 54-66, 160-170; vol. II 9-24, 128-145): running head (THE
+    SHEPHERD left, the book right), his translation with the book's title, CHAPTER headings and the
+    verse numbers in the text, and under it his footnotes in small type, marked * † …, some running
+    over to the next page. His notes are footnotes to his translation, so the agents keep only the
+    footnotes, each headed by the traditional reference of its mark (`## Vision 1.1.2`), with the
+    English words before the mark as lemma: the Taylor section of
+    `transcriptions/drama/INSTRUCTIONS-prose.md` says how.
+  * `PLAYS["hermas"].notes_sources`: notes = Taylor I 61-168 and Taylor II 13-135 (231 pages, 29
+    batches of eight); intro = Lake 14-17, Taylor I 13-58, Taylor II 139-143 (55 pages, 7 batches).
+    Leaf 13 of each Taylor volume fetched from its jp2 zip: p. 9 in both, as computed.
 
 ## Sizes, for planning
 

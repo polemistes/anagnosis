@@ -200,6 +200,51 @@ Historia*, Oxford 1879, scan `lucianiverahisto00luci`; the batches are in
   in italics `*…*`. Keep everything, the paragraph on translations and editions included (it is
   prose, not a list).
 
+**Taylor's Shepherd of Hermas (notes, introduction, appendix), and Lake's introduction.**
+Charles Taylor, *The Shepherd of Hermas*, Early Church Classics, SPCK, vol. I 1903 (scan
+`shepherdofhermas0000herm`), vol. II 1906 (scan `shepherdofhermas02hermuoft`); K. Lake, *The
+Apostolic Fathers* II (Loeb 1913, scan `apostolicfathers02lakeuoft`). The batches are in
+`pipeline/transcriptions/hermas/` (`notes-NN.md`, `intro-NN.md`). The pages come from more than one
+scan, so a page's stem carries the scan's place in the list as its first digit: `p-10061` is leaf
+61 of the first scan, `p-20013` leaf 13 of the second. For the notes the first scan is Taylor I and
+the second Taylor II; for the introduction the first is Lake, the second Taylor I, the third Taylor
+II (`p-30139`). The crops are in a folder per scan, `pipeline/build/drama-prose/hermas/<scan>/`
+(`p-10061-flags.png`, `p-10061-col-l.png`, `pages/leaf_0061.png`); the index of the pages is
+`pipeline/build/drama-prose/hermas/notes.json` (`intro.json`). Clean print, one column.
+* *Taylor's page*: the running head (THE SHEPHERD on the left-hand page, the book on the right:
+  FIRST VISION, TWELFTH MANDATE, SECOND SIMILITUDE) and the page number; his **translation**, with
+  the book's title where a book begins (FIRST VISION), CHAPTER 2 headings, and **the verse numbers
+  in the text** ("2. After a while I saw her bathing"); under it, in small type, his **footnotes**,
+  each beginning with a mark (* † ‡ § ‖ ¶) that answers a mark after a word of the translation above.
+* *Notes* (`notes-NN.md`): **keep only the footnotes, and leave the translation out** (it is not
+  used; delete the draft's paragraphs of translation). Head each footnote with the place of its
+  mark in the translation, in the traditional reference: book, chapter, verse, as
+  `## Vision 1.1.2`, `## Mandate 4.3.1`, `## Similitude 9.30.2`. The book is the running head's (or
+  the title on the page); the chapter is the last CHAPTER heading before the mark (a book without
+  CHAPTER headings, as most Mandates and the first Similitudes, is chapter 1: `## Mandate 1.1.3`,
+  or, as Taylor prints such places, `## Mandate 1.3`, which the merge reads as chapter 1); the
+  verse is the last verse number printed before the mark (the first verse of a chapter, before
+  any number is printed, is verse 1). Then the footnote's text as printed, **without its mark**,
+  as one paragraph, opened by the English words just before the mark in bold, up to about five
+  words from the start of their clause: `**sold me to a lady**: …` (none if the mark stands after
+  a heading). Two footnotes on the same verse: the same heading twice is fine, or one heading
+  and two paragraphs.
+* A footnote that runs over to the next page: its rest is the first paragraph of the next page's
+  block, marked `+ ` (and nothing else on that page is so marked).
+* His references (*Sim.* i. 1—3, *Mand.* xi. 18 n., Lev. xxv. 23, Clem. *Strom.* vii. 12, P. 877)
+  and Greek, Latin and Hebrew words as printed; italics `*…*`; Greek in Unicode polytonic with
+  every accent and breathing, his transliterations in italics as printed (*paroikia*, *xenen*).
+* *Introduction* (`intro-NN.md`): first Lake's four pages (p-1…: THE APOSTOLIC FATHERS / THE
+  SHEPHERD OF HERMAS heading becomes `# Lake's introduction (1913)`; his list of the manuscripts,
+  versions and papyri as paragraphs, one witness each, ℵ written as U+2135, sigla as he prints them:
+  L₁, L₂, Pᵃᵐ, Pᵒˣ), then Taylor's (p-2…: the page's title INTRODUCTION becomes
+  `# Taylor's introduction (1903)`, his numbered chapters "1. AUTHORSHIP AND DATE." `## 1.
+  Authorship and Date`, his lettered parts "A. *Rhoda and the Church.*" `### A. Rhoda and the
+  Church`), then Taylor's appendix (p-3…: `# Taylor: Hermas and the Gospels (1906)`, his heading
+  APPENDIX left out as part of it; his signature "C. TAYLOR. Cambridge, August 1906." as the last
+  paragraph). Footnotes `[Note: * …]` after the paragraph where the mark stands; run-ons `+ `.
+  Keep everything, the paragraphs on editions and translations included (they are prose).
+
 **Your own files.** Scripts, enlarged crops and other helpers go only in a folder of your own,
 named after your batch file, under the session's scratchpad folder (e.g.
 `<scratchpad>/agamemnon-notes-03/`); other agents work beside you at the same time and use the
