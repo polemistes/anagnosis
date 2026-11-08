@@ -52,6 +52,11 @@ def book_name(book: int) -> str:
     return BOOK_NAMES[book - 1]
 
 
+def chapters_in(book: int) -> int:
+    """How many chapters the book has (Similitude 10, book 27, has four)."""
+    return (FIRST_CHAPTER + [115])[book] - FIRST_CHAPTER[book - 1]
+
+
 def continuous_chapter(book: int, chapter: int) -> int:
     return FIRST_CHAPTER[book - 1] + chapter - 1
 

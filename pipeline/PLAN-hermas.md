@@ -259,7 +259,7 @@ converter and came out as Greek letters.)
 
 - [x] Step 1: modules, tests, CLI, app's dotted citation, INSTRUCTIONS (2026-11-08): `hermas_text.py`, `lake_pages.py`, `lake_merge.py`, `tests/test_hermas.py`; `drama_prose` reads a kind from several scans; CLI `lake-pages`, `check-hermas-batch`, `hermas-residuals`, `merge-hermas`; the app's `citation: dotted` (tested); `transcriptions/hermas/INSTRUCTIONS.md`, `REVIEW.md`, `RESIDUALS.md` (the Taylor section of INSTRUCTIONS-prose.md at step 2, when his pages are seen)
 - [x] Step 2: leaves (2026-11-08): Lake Greek 18-302 even, Latin 302-316 even, introduction 14-17, sigla 15-17; Taylor I introduction 13-58, notes 61-168; Taylor II notes 13-135, appendix 139-143
-- [ ] Step 3: draft (Greek and Latin)
+- [x] Step 3: draft (Greek and Latin) (2026-11-08): 143 Greek pages, 815 verse blocks, 24 batches; 25 % of the verses flagged before the footnote-mark flags (44 % with them); all 207 First1K notes placed; Latin 8 pages, 40 verse blocks, 25 % (`batch-latin.md`)
 - [ ] Step 4: text and apparatus batches, residuals
 - [ ] Step 5: merge, Tauber and First1K checks, misprints, review
 - [ ] Step 6: Lake's and Taylor's notes
@@ -356,6 +356,43 @@ converter and came out as Greek letters.)
   * `PLAYS["hermas"].notes_sources`: notes = Taylor I 61-168 and Taylor II 13-135 (231 pages, 29
     batches of eight); intro = Lake 14-17, Taylor I 13-58, Taylor II 139-143 (55 pages, 7 batches).
     Leaf 13 of each Taylor volume fetched from its jp2 zip: p. 9 in both, as computed.
+
+* **2026-11-08, step 3: the draft.** Lake's 143 Greek pages and 8 Latin pages read by Tesseract
+  (`build/logs/hermas-fetch-ocr.log`) and drafted (`build/logs/hermas-draft.log`):
+  `transcriptions/hermas/batch-01.md` to `batch-24.md` (six pages each) and `batch-latin.md`, the
+  check sheets in `build/lake-pages/hermas/`.
+  * **The rate.** The first draft flagged 55 % of the verse blocks, 41 % without the footnote-mark
+    flags (every mark is flagged by design, so the agents look at each on the page). That is over
+    the brief's 30 %, so the module was mended before any agent saw it. The layout and the verse
+    matching were right: every verse of Tauber was placed on a page, all 207 apparatus notes of
+    First1K were placed as marks, and every page with a mark has its apparatus found (108 pages
+    with an apparatus; leaf 80 has one with no First1K mark, because its note 1 stands on the
+    title "Ἀποκάλυψις εʹ¹", which First1K's text lacks: the agent writes the mark on the [title]).
+    What raised the rate was Tesseract's Greek model on Lake's figures and a few letters. Mended:
+    * **Verse numbers.** The model reads 2 as "3", 3 as "8", "5" or "9", 6 as "0", and turns many
+      numbers into a letter or splits them ("Ἰ.", "Ἷ:", "Π." for 7, "δ." for 6, "9" ":"). The
+      misreadings counted on the whole draft are accepted (`_NUM_MISREAD`); a short token of no
+      Greek word that stands just before a verse of Tauber counts as its number (`_weak_number`);
+      a "1." lost under a chapter numeral is not flagged (Lake prints it under every numeral: p. 16).
+    * **Pieces of a word** (three letters or more of its beginning or end: "ρόνον" for χρόνον) and
+      **λ read as χ, ζ as ἕ, Latin c as e** ("ἱχαρὸς", "ἕωή", "tune") are not flagged as readings
+      (`_ocr_noise`). ὅτι read "ὅτε" (13 times; p. 10 looked at: Lake prints ὅτι) stays flagged,
+      since ὅτε for ὅτι is a reading an edition can have.
+    * **Books of one chapter have no numeral** (Mandates 1 and 2 on p. 70; by Tauber's chapters Vision 5,
+      Mandates 1, 2, 3, 7, 8, 9, 11 and Similitudes 1, 2, 3, 4, 7): the draft and
+      `check-hermas-batch` ask for a `[chapter]` line only in books of more than one chapter
+      (`chapters_in`). Where Lake prints a numeral the OCR missed (Mandate 6 "I", p. 94), the flag
+      stays.
+  * **After the mending**: 25 % of the 815 verse blocks flagged before the mark flags (44 % with
+    them); Latin 25 % of 40 (27 % of 47 entries with headings). Above the brief's expected 10 %,
+    under its 30 %: what remains is real reading work for the agents (57 verse numbers the OCR
+    cannot confirm, 17 OCR words Tauber lacks, 6 chapter numerals missed, titles read badly, and
+    the word readings), not a fault in the layout.
+  * Batch 1 read against pages 6-14: the titles (ΠΟΙΜΗΝ, then Tauber's chapters as Roman numerals),
+    ¶ at each chapter, `1.1.3+` continuations, marks at First1K's places, the margin references
+    pre-filled by verse (Ps. 2, 4; 123, 1 on p. 8). The apparatus sections are empty by design: the
+    agents write them from the enlarged halves (INSTRUCTIONS step 3), and step 5 compares them with
+    First1K's.
 
 ## Sizes, for planning
 

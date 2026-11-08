@@ -3,10 +3,10 @@ import unittest
 from pathlib import Path
 
 from anagnosis_pipeline.drama import PLAYS
-from anagnosis_pipeline.hermas_text import (beta_item, cite, compare_form, continuous_chapter, first1k_marks,
+from anagnosis_pipeline.hermas_text import (beta_item, chapters_in, cite, compare_form, continuous_chapter, first1k_marks,
                                             lake_notes, lake_translation, tauber_text)
 from anagnosis_pipeline.lake_merge import assemble, taylor_ref
-from anagnosis_pipeline.lake_pages import VNUM, marks_in, ocr_roman, plain, read_batches, roman, to_roman, to_sup
+from anagnosis_pipeline.lake_pages import VNUM, _ocr_noise, _weak_number, marks_in, ocr_roman, plain, read_batches, roman, to_roman, to_sup
 
 TAUBER = """1.0.0 Ὅρασις αʹ
 1.1.1 Ὁ θρέψας με πέπρακέν με Ῥόδῃ τινὶ εἰς Ῥώμην.
@@ -111,6 +111,17 @@ class Page(unittest.TestCase):
         self.assertEqual(to_sup(12), "¹²")
         self.assertEqual(marks_in("τινὶ¹ εἰς Ῥώμην,² καὶ"), [1, 2])
         self.assertEqual(plain("τινὶ¹ εἰς"), "τινὶ εἰς")
+        # the Greek model's misreadings on Lake's type
+        self.assertTrue(_weak_number({"text": "Ἰ.", "conf": 32}))
+        self.assertTrue(_weak_number({"text": "9", "conf": 96}))
+        self.assertFalse(_weak_number({"text": "ὁ", "conf": 95}))
+        self.assertFalse(_weak_number({"text": "ἐν", "conf": 40}))
+        self.assertTrue(_ocr_noise("χρόνον", "ρόνον"))
+        self.assertTrue(_ocr_noise("ἱλαρὸς", "ἱχαρὸς"))
+        self.assertTrue(_ocr_noise("ζωὴ", "ἕωὴ"))
+        self.assertFalse(_ocr_noise("ὅτι", "ὅτε"))
+        self.assertFalse(_ocr_noise("μετανοίας", "μενανοίας"))
+        self.assertEqual((chapters_in(1), chapters_in(6), chapters_in(26), chapters_in(27)), (4, 1, 33, 4))
 
     def test_batches_and_assemble(self):
         batch = ("=== p-0018\n--- text\n[title]\tΠΟΙΜΗΝ\n[chapter]\tI\n¶\n1.1.1\tὉ θρέψας τινὶ¹ εἰς\n"

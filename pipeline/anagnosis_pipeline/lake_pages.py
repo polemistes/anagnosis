@@ -283,6 +283,11 @@ def ocr_stream(layouts: list[dict]) -> tuple[list[dict], list[dict], list[dict]]
                 if m:
                     nums.append({"n": int(m.group(1)) if m.group(1) else None, "line": li, "before": len(toks), "conf": w["conf"]})
                     continue
+                if _weak_number(w):
+                    # a number the Greek model turns into a letter or splits ("Ἰ.", "δ.", "9" ":"): it
+                    # counts as a verse number only where the check text begins a verse
+                    d = re.sub(r"\D", "", w["text"])
+                    nums.append({"n": int(d) if d else None, "line": li, "before": len(toks), "conf": w["conf"], "weak": True})
                 for piece in DASHES.split(ocr_norm(w["text"])):
                     if not piece.strip():
                         continue
@@ -322,14 +327,37 @@ def ocr_stream(layouts: list[dict]) -> tuple[list[dict], list[dict], list[dict]]
 
 # --- the draft -------------------------------------------------------------------------------
 
-# Tesseract's misreadings of Lake's verse numbers: printed -> read
-_NUM_MISREAD = {3: {8}, 8: {3}, 7: {1}, 1: {7}, 5: {None, 6}, 6: {5}, 9: {0}}
+# Tesseract's misreadings of Lake's verse numbers: printed -> read (counted on the whole draft)
+_NUM_MISREAD = {2: {3, 5, 9}, 3: {5, 8, 9}, 8: {3}, 7: {1}, 1: {7}, 5: {None, 6}, 6: {0, 5, 9}, 9: {0}}
+
+
+def _ocr_noise(ours: str, read: str) -> bool:
+    """Differences the Greek model makes on Lake's type that no page bears out: a piece of the
+    word (its beginning or end, three letters or more), and λ read as χ, ζ as ἕ, Latin c as e."""
+    a, b = skel(ours), skel(read)
+    if len(b) >= 3 and len(b) < len(a) and (a.startswith(b) or a.endswith(b)):
+        return True
+    fold = str.maketrans({"χ": "λ", "e": "c"})
+    b2 = b.translate(fold)
+    a2 = a.translate(fold)
+    return a2 == b2 or (a2.replace("ζ", "ε") == b2)
+
+
+def _weak_number(w: dict) -> bool:
+    """A short token that is no Greek word: digits, or one letter read at low confidence, with
+    or without a stop after it."""
+    t = w["text"].strip().rstrip(".,:;·΄'’")
+    if not t or len(t) > 2:
+        return False
+    if t.isdigit():
+        return True
+    return len(skel(t)) <= 1 and w["conf"] < 60
 
 
 def build_draft(play: Play, latin: bool = False) -> dict:
     from .drama_pages import realign
     from .gorgias_pages import align, assign_lines
-    from .hermas_text import first1k_marks, headings, tauber_text
+    from .hermas_text import chapters_in, first1k_marks, headings, tauber_text
 
     leaves = play.visible("latin" if latin else "text")
     workers = int(os.environ.get("DRAMA_WORKERS", "4"))
@@ -419,7 +447,7 @@ def build_draft(play: Play, latin: bool = False) -> dict:
                 near[0]["flags"].append(f"the OCR reads “{t['t']}” on a line of this verse, which Tauber does not have here")
     # verse numbers read before a word where Tauber begins no verse
     for j, nm in num_before.items():
-        if not pers[j]["newsec"] and nm["n"] is not None and nm["conf"] >= 80:
+        if not pers[j]["newsec"] and not nm.get("weak") and nm["n"] is not None and nm["conf"] >= 80:
             e = _entry_of(entries, pers, j)
             if e is not None:
                 e["flags"].append(f"the OCR reads a verse number “{nm['n']}.” before “{pers[j]['t']}”, where Tauber begins no verse")
@@ -456,7 +484,9 @@ def build_draft(play: Play, latin: bool = False) -> dict:
             if t["newchapter"]:
                 chap = int(t["sec"].split(".")[1])
                 if prev is None or prev["type"] != "chapter":
-                    e["flags"].append(f"chapter {chap} begins here, but no chapter numeral was found above the verse")
+                    # a book of one chapter has no numeral (Mandates 1 and 2 on p. 70)
+                    if chapters_in(book) > 1:
+                        e["flags"].append(f"chapter {chap} begins here, but no chapter numeral was found above the verse")
                 else:
                     got = ocr_roman(prev["text"])
                     if got != chap:
@@ -511,7 +541,7 @@ def _verse_text(e: dict, pers: list[dict], ocr: list[dict], match: list[int | No
             out.append(w)
         if o is None:
             flags.append(f"{t['t']}: not found in the OCR; check it is printed here")
-        elif t["sim"] < 1.0 and ocr[o]["conf"] >= 70:
+        elif t["sim"] < 1.0 and ocr[o]["conf"] >= 70 and not _ocr_noise(t["t"], ocr[o]["t"]):
             flags.append(f"{t['t']}: the OCR reads “{ocr[o]['t']}”")
         elif t["sim"] == 1.0 and len(t["skel"]) >= 4 and ocr[o]["conf"] >= 95 and _accent_letters(t["t"]) != _accent_letters(ocr[o]["t"]):
             flags.append(f"{t['t']}: the OCR reads “{ocr[o]['t']}” (accents)")
@@ -522,7 +552,11 @@ def _verse_text(e: dict, pers: list[dict], ocr: list[dict], match: list[int | No
         v = int(first["sec"].split(".")[2])
         nm = num_before.get(e["words"][0])
         if nm is None:
-            flags.append(f"no verse number “{v}.” read before “{first['t']}”: check that verse {v} begins here")
+            # Lake prints "1." under every chapter numeral; the OCR often loses it there
+            if not (v == 1 and first["newchapter"]):
+                flags.append(f"no verse number “{v}.” read before “{first['t']}”: check that verse {v} begins here")
+        elif nm.get("weak") and nm["n"] is None:
+            pass  # something stands where the number is printed: the check text's verse is taken
         elif nm["n"] != v and nm["n"] not in _NUM_MISREAD.get(v, set()):
             flags.append(f"the verse number before “{first['t']}” is read “{nm['n']}.”; Tauber's verse is {v}")
         # a verse Lake begins on an indented line of its own
@@ -711,7 +745,7 @@ def check_batch(slug: str, path: Path) -> list[str]:
     from Tauber's (each a change made on checking; '(noted)' where the page's notes name the verse)."""
     import difflib
 
-    from .hermas_text import sec_key, tauber_sections
+    from .hermas_text import chapters_in, sec_key, tauber_sections
 
     latin = path.name == "batch-latin.md"
     index = json.loads((out_dir(slug) / ("latin-pages.json" if latin else "pages.json")).read_text(encoding="utf-8"))
@@ -768,7 +802,7 @@ def check_batch(slug: str, path: Path) -> list[str]:
                     remarks.append(f"{stem} {key}: a chapter that does not begin with verse 1")
                 if prev is not None and not new_chapter and cur[2] != prev[2] + 1:
                     remarks.append(f"{stem} {key}: verse {cur[2]} follows verse {prev[2]}")
-                if new_chapter and prev is not None and pending_chapter is None:
+                if new_chapter and prev is not None and pending_chapter is None and chapters_in(cur[0]) > 1:
                     remarks.append(f"{stem} {key}: chapter {cur[1]} begins, but no [chapter] line stands before it")
                 if pending_chapter is not None and pending_chapter != cur[1]:
                     remarks.append(f"{stem} {key}: the [chapter] line above reads {pending_chapter}, the verse's chapter is {cur[1]}")
