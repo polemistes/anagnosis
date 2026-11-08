@@ -161,6 +161,9 @@ Nilén's apparatus, but an altered one, which will make you the editor".
 * **The DCC introduction**: left out; say if you want it after Jerram's.
 * **Nilén's fasc. 2 (1923)** holds five more works with his apparatus but has no scan on the
   Archive; the Symposium and the Judgement of the Vowels among them have Pedalion hand trees.
+* **Misprints in Nilén's text**: 144.3 σκοκῶν (for σκοπῶν, 1.17) and 144.7 μεγέθος (for μέγεθος)
+  are kept as printed, with the right analysis on the word sheet; say if you want them corrected
+  in the text (with a note in the apparatus).
 * **Release**: the text is built and in the catalogue after step 10; a reader release with it is
   yours to decide (play/README.md: build the bundle, upload, create and activate the product
   `lucian_truestory_nilen`, name "A True Story", €3).
@@ -170,7 +173,7 @@ Nilén's apparatus, but an altered one, which will make you the editor".
 - [x] Step 1: modules, tests, CLI (2026-11-08): `lucian_pages.py`, `lucian_merge.py`, `tests/test_lucian.py`, CLI `lucian-pages`, `check-lucian-batch`, `merge-lucian`; `transcriptions/lucian/INSTRUCTIONS.md`
 - [x] Step 2: leaves (2026-11-08): Nilén text leaves 196-275, sigla 10, 11, 13, 16, title 4; Jerram notes 81-100, introduction 15-29, his text 31-79
 - [x] Step 3: draft (2026-11-08): 80 pages, 1480 lines, 220 flagged (14 %), all 89 sections placed, apparatus and short rule found on all 80 pages; 14 batches
-- [ ] Step 4: text and apparatus batches, residuals
+- [x] Step 4: text and apparatus batches, residuals (2026-11-08): 14 batches checked and independently reviewed (workflows, 7 at a time), residual pass (433 items, 7 agents); every checker remark explained
 - [ ] Step 5: merge, lemma check, Harmon checklist, review
 - [ ] Step 6: Jerram's notes
 - [ ] Step 7: introduction
@@ -280,6 +283,30 @@ Nilén's apparatus, but an altered one, which will make you the editor".
   32 words not found in the OCR, 13 lines guessed, 13 fifth lines whose margin number was not read,
   2 chapter numbers not read. The draft capitalises the first word of every paragraph, as Nilén
   does (the OCR loses the breathing on Ὥσπερ and the like; 60 lines).
+* **2026-11-08, step 4: batches.** Ultracode is on, so the batches ran as workflows: per batch a
+  checking agent, then an independent reviewer (`transcriptions/lucian/REVIEW.md`), in two waves of
+  seven (batches 1-7, 8-14), at most seven agents at once; then the residual pass
+  (`lucian-residuals`, `transcriptions/lucian/RESIDUALS.md`): 433 items (128 accent, 119 word, 108
+  punctuation, 76 OCR-only, 2 brackets), seven agents with two batches each. The reviewers
+  corrected mostly the apparatus (breathings, iota subscripts, a lemma in Latin A, an οἱ/οἳ) and
+  two divided words left on the next line (177.3 φυτοῖς, 178.1 συμπόσιον; a scan of every hyphen
+  the OCR read found no other); the residual pass changed four things (144.7 μεγέθος, 199.8 a
+  comma, 202.4 a dash, the siglum below). Every checker remark left is one of Nilén's own readings
+  against Harmon's, noted (αὐτοὺς absent 130.3, συγγεγραφότας 130.10, κατετέθημεν 154.2, [καὶ]
+  161.16 and 180.9, [λέγων] 182.8, no καὶ 173.11, no τὸν 186.10, ἀπενενέκρωτο 168.1, …).
+  * Conventions settled on the way (INSTRUCTIONS.md updated): Nilén's black blocks (a printed sort
+    for letters lost in a manuscript) are written ■, one per block; apparatus numbers may be
+    `18 sq.` and `8 et 9` (the checker and the merge accept them; three items written "sq." at
+    the start of the item were moved into the number); a range printed "13—16" is written 13/16;
+    the raised sign after Γ at pp. 143, 201, 202 is read Γ³ (a flat-topped 3; the reviewer of
+    batch 3 compared the three places), not Γˢ.
+  * **Paragraph capitals**: the brief said Nilén capitalises the first word of a paragraph and the
+    draft did so (60 lines); the pages show that he does so only at the start of a book and in two
+    places (Ὁρμηθεὶς 1.5, Ταῦτα 2.47; Τὸ 2.1), and begins the other paragraphs with a small letter.
+    The agents followed the print, and the residual pass checked the first word of every ¶ line.
+  * Misprints in Nilén's Greek text are kept as printed (the brief's rule: closest to the page),
+    each noted in its batch: 144.3 σκοκῶν (for σκοπῶν), 144.7 μεγέθος (for μέγεθος). In the apparatus
+    likewise (ἀλκίνουυ p. 131, ΓFSN p. 185). Listed for the author.
 
 ## Sizes, for planning
 

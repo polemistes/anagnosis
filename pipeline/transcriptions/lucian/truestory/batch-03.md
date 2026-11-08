@@ -127,7 +127,7 @@
 5	δεξάμενοι F
 6	δὲ ΓΩSF δʼ ZPN
 9	ἔφυγον] SZPNFv γρ mg. Γˣ recepi dubitanter ἔπαυσαν ΓΩ γρ spscr. Pˣ
-10	ἐγκλίναντες ΓΩ γρ spscr. Pˣ ἐκκλίναντες S ἐπικλίναντες ZPNFv γρ mg. Γˢ
+10	ἐγκλίναντες ΓΩ γρ spscr. Pˣ ἐκκλίναντες S ἐπικλίναντες ZPNFv γρ mg. Γ³
 11	σφῶν] Γ*ᵃZPNFv σαφῶν S σαφῶς ΓΩ γρ spscr. Pˣ
 12	γεγενημένης ΓΩSF γενομενομένης Z γενομένης PN
 13	καὶ post δὲ om. N
@@ -145,6 +145,7 @@
 143.16	apparatus: one or two letters of P's reading are hidden by a blot on the scan (κατέστα…ν P): [illegible]
 143.17	apparatus: the 4 of "Il. 16, 459" is partly covered by a mark on the scan; 459 is the right line of the Iliad
 143.10	apparatus: the raised letter in "γρ mg. Γˢ" reads as s (small, not certain)
+143.10	res: apparatus item 10 Γˢ -> Γ³: enlarged, the raised sign is a flat-topped figure 3 (flat top stroke over a closed lower bowl), not an s; the same sign as "Γ vel Γ³" on p. 201 (leaf 268), batch 13
 143.1	rev: apparatus item 1 (καὶ ὁ]) ἡ (sic) N -> ἥ (sic) N: rough breathing and acute printed
 
 === p-0211
@@ -155,7 +156,7 @@
 144.4	Νεφελοκένταυροι προσελαύνοντες, οὓς ἔδει πρὸ τῆς
 144.5	μάχης ἐλθεῖν τῷ Φαέθοντι. καὶ δὴ ἐφαίνοντο προσιόντες,
 144.6	θέαμα παραδοξότατον, ἐξ ἵππων πτερωτῶν
-144.7	καὶ ἀνθρώπων συγκείμενοι· μέγεθος δὲ τῶν μὲν ἀνθρώπων
+144.7	καὶ ἀνθρώπων συγκείμενοι· μεγέθος δὲ τῶν μὲν ἀνθρώπων
 144.8	ὅσον τοῦ Ῥοδίων κολοσσοῦ ἐξ ἡμισείας ἐς τὸ
 144.9	ἄνω, τῶν δὲ ἵππων ὅσον νεὼς μεγάλης φορτίδος. τὸ
 144.10	μέντοι πλῆθος αὐτῶν οὐκ ἀνέγραψα, μή τῳ καὶ ἄπιστον
@@ -192,6 +193,7 @@
 --- notes
 144.1	τρόπαια (divided τρό-/παια across the page break) moved to the foot of p. 143 (143.19)
 144.3	the page clearly prints "σκοκῶν" (Harmon σκοπῶν), an evident misprint for σκοπῶν: written as printed; the editor should decide whether to correct it
+144.7	res: μέγεθος -> μεγέθος: the page clearly prints the acute on the second ε (a misprint), written as printed
 144.10	margin flag: the Vulgate number 85 stands at line 10 and Nilén prints "11" beside line 11 instead of 10; 22 lines counted on the page, 5/15/20 where they should be: keys right, nothing changed
 
 === p-0212

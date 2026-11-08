@@ -46,13 +46,14 @@
 201.app	item 1: the lemma is printed |ἐξ|εβλάστησεν (a heavy and a dotted vertical bar); "supra vsum" as printed
 201.14	rev: apparatus item 14 "ᾴ pro ά S" corrected to "άι pro ά S" (alpha with acute followed by a separate iota, as printed); the note on 201.14 likewise
 201.app	rev: item 5 Γ³ checked enlarged: a flat-topped Teubner 3 like the digits; kept (batch 03 wrote the same sign Γˢ at p. 143.10)
+201.app	res: item 5 Γ³ (and 202 item 13) compared enlarged with "γρ mg. Γ" at p. 143 app. 10 (leaf 210): the same flat-topped raised 3 on all three; batch 03 now writes Γ³ there too; nothing changed here
 
 === p-0269
 --- text
 202.1	πεντήκοντα ἢ ὀλίγῳ πλείους τὴν ὕλην οὖσαν, ἔπειτα
 202.2	δὲ αὖθις ἕτερον ὠκεανὸν ἐκδεχόμενον. καὶ δὴ ἐδόκει
-202.3	ἡμῖν ἀναθεμένους τὴν ναῦν ἐπὶ τὴν κόμην τῶν δένδρων —
-202.4	πυκνὴ δὲ ἦν — ὑπερβιβάσαι, εἰ δυναίμεθα,
+202.3	ἡμῖν ἀναθεμένους τὴν ναῦν ἐπὶ τὴν κόμην τῶν δένδρων
+202.4	— πυκνὴ δὲ ἦν — ὑπερβιβάσαι, εἰ δυναίμεθα,
 202.5	εἰς τὴν θάλατταν τὴν ἑτέραν· καὶ οὕτως ἐποιοῦμεν.
 202.6	ἐκδήσαντες γὰρ αὐτὴν κάλῳ μεγάλῳ καὶ ἀνελθόντες
 202.7	ἐπὶ τὰ δένδρα μόλις ἀνιμησάμεθα, καὶ θέντες ἐπὶ τῶν
@@ -97,6 +98,7 @@
 202.app	13 and 201 item 5: the raised sign after "Γ vel Γ" looks like a 3 (unlike the clear ᵃ at item 6); written Γ³; item 18: "¨σ i. e. ίσ", accent on ίσ faint
 202.app	rev: item 18 "ίσ" corrected to "ΐσ": enlarged, the iota carries two dots with the acute between them (diaeresis and acute), which is what the ¨ before σ stands for
 202.app	rev: items 13 Γ³ (as at 201 item 5) and the rest checked against the print; no other change
+202.4	res: the dash after δένδρων stands at the start of line 4 ("δρων — πυκνὴ"): moved from 202.3, as printed
 
 === p-0270
 --- text

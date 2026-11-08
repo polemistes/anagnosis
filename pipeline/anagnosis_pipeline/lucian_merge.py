@@ -133,11 +133,14 @@ def lemma_of(item: str) -> tuple[list[str], list[str]]:
     "ἄν — διπλασιάσαντος]"; the words before a ']' if there is one, else the leading words that
     hold a small Greek letter (the sigla ΓΩSZ, Latin, numbers end it). ([], []) if the item
     begins otherwise ("pro οὐ spat. …", "Libri: …")."""
-    if "]" in item:
-        lem = item.split("]")[0].split()
+    head = item.split("]")[0].split() if "]" in item else []
+    if head and all(_LOWER_GREEK.search(t) or t in ("—", "–") or re.fullmatch(r"[⟨⟩\[\]()·,.]+", t) for t in head):
+        lem = head
     else:
         lem = []
         for t in item.split():
+            if t.startswith("(") and lem:
+                break  # "μινῴου (ι ex η corr.) S*": the parenthesis reports a detail of the reading
             core = t.strip(",.;:·()⟨⟩[]")
             if t in ("—", "–") or (core and _LOWER_GREEK.search(core) and not re.search(r"[A-Za-z]", core)):
                 lem.append(t)
@@ -154,6 +157,27 @@ def lemma_of(item: str) -> tuple[list[str], list[str]]:
     return lem, []
 
 
+def greek_runs(item: str) -> list[list[str]]:
+    """The item's readings: runs of words holding a small Greek letter, separated by sigla, Latin
+    and numbers. Nilén's positive items ("πνέοντι ΓΩS πνεύματι ZNFI") have two or more, the first
+    being his text's reading; a negative item ("οὐκέτι F") has one, a variant."""
+    runs: list[list[str]] = []
+    cur: list[str] = []
+    for t in item.replace("]", " ] ").split():
+        core = t.strip(",.;:·()⟨⟩[]")
+        if core and _LOWER_GREEK.search(core) and not re.search(r"[A-Za-z]", core):
+            cur.append(t)
+        elif t in ("—", "–") and cur:
+            cur.append(t)
+        else:
+            if cur:
+                runs.append(cur)
+            cur = []
+    if cur:
+        runs.append(cur)
+    return runs
+
+
 def _split_dash(text: str) -> tuple[str, str, str]:
     m = re.split(r"\s*[—–]\s*", text, maxsplit=1)
     return (m[0], "—", m[1] if len(m) > 1 else "")
@@ -163,14 +187,14 @@ def _sk(w: str) -> str:
     return skel(w).translate(str.maketrans("ςχ", "σκ"))
 
 
-def _find(lemma: list[str], cands: list[tuple[int, int, str]]) -> int | None:
+def _find(lemma: list[str], cands: list[tuple[int, int, str]], exact: bool = False) -> int | None:
     """Where the lemma's words stand in a run of words (index into cands): an exact match of
-    the skeletons first, else one where every word is close (a letter or two)."""
+    the skeletons first, else (unless `exact`) one where every word is close (a letter or two)."""
     ls = [_sk(w) for w in lemma if _sk(w)]
     if not ls:
         return None
     cs = [_sk(c[2]) for c in cands]
-    for strict in (True, False):
+    for strict in ((True,) if exact else (True, False)):
         for i in range(len(cs) - len(ls) + 1):
             ok = True
             for k, l in enumerate(ls):
@@ -234,19 +258,40 @@ def place_apparatus(pages: dict[str, dict], index: list[dict], text: dict) -> tu
             cands = [c for k in window_keys for c in lines[k]]
             own = [c for k in ordered[ia: ib + 1] for c in lines[k]]
             first, last = lemma_of(item)
+            # a slip to Harmon's reading shows as Nilén's first reading missing from the text while
+            # a later reading of the same item stands there; or an explicit lemma] not found
+            runs = [r for r in greek_runs(item) if [w for w in r if w.strip("΄'") not in ("γρ",)]]
+            later_in_text = any(_find(r, cands, exact=True) is not None for r in runs[1:])
+            positive = "]" in item or later_in_text
+            where = f"{page}.{n} (lines {ka}{'-' + kb if kb != ka else ''})"
             u = None
             if first:
-                i = _find(first, own)
+                i = _find(first, own, exact=True)
                 hit = own[i] if i is not None else None
+                if hit is None:
+                    i = _find(first, cands, exact=True)
+                    hit = cands[i] if i is not None else None
+                exact = hit is not None
                 if hit is None:
                     i = _find(first, cands)
                     hit = cands[i] if i is not None else None
+                if hit is None:
+                    # a variant in another order or with a word added: most of its words on the lines
+                    ws = {_sk(c[2]): c for c in cands}
+                    found = [ws[_sk(w)] for w in first if _sk(w) in ws]
+                    if found and len(found) >= max(1, len([w for w in first if _sk(w)]) - 1):
+                        hit = found[0]
                 if hit is not None:
                     u = hit[0]
                     if last and _find(last, cands) is None:
-                        misses.append(f"{page}.{n} (section {units[u]['n']}): the end of the lemma range “{' '.join(last)}” not found: {item}")
-                else:
-                    misses.append(f"{page}.{n} (lines {ka}{'-' + kb if kb != ka else ''}): lemma “{' '.join(first)}” not in the text: {item}")
+                        misses.append(f"WEAK {where}: the end of the lemma range “{' '.join(last)}” not found: {item}")
+                if positive and not exact:
+                    near = f" (the text there: {' '.join(c[2] for c in own)})"
+                    why = "a later reading of the item stands in the text" if later_in_text else "the lemma] is not in the text"
+                    misses.append(f"SERIOUS {where}: Nilén's reading “{' '.join(first)}” is not in the text as written ({why})"
+                                  f"{near}: {item}")
+                elif hit is None:
+                    misses.append(f"WEAK {where}: variant “{' '.join(first)}” matches nothing on the lines: {item}")
             if u is None:
                 # an addition or a note in Latin: the section of the Greek word it names, else the line's
                 named = re.search(r"(?:post|ante|inter|pro|supra)\s+([^\s,;:]+)", item)
@@ -263,7 +308,7 @@ def place_apparatus(pages: dict[str, dict], index: list[dict], text: dict) -> tu
                         problems.append(f"{p['stem']}: apparatus {n}: no words on the lines it names")
                         continue
                     if not first:
-                        misses.append(f"{page}.{n}: no Greek lemma; filed under {units[u]['n']}: {item}")
+                        misses.append(f"WEAK {page}.{n}: no Greek lemma; filed under {units[u]['n']}: {item}")
             placed.append((u, item))
             last_unit = u
     return placed, misses, problems
@@ -446,8 +491,12 @@ def merge(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path) -> 
         print(f"wrote commentary-dcc.md: {n_dcc} paragraphs")
 
     log = build / f"{slug}-merge.log"
-    log.write_text("\n".join(problems + ["", f"# lemmas not found ({len(misses)})"] + misses) + "\n", encoding="utf-8")
-    print(f"{len(problems)} problems, {len(misses)} lemma misses ({log})")
+    serious = [m for m in misses if m.startswith("SERIOUS")]
+    weak = [m for m in misses if not m.startswith("SERIOUS")]
+    log.write_text("\n".join(problems + ["", f"# Nilén's readings (positive items) not found in the text as written ({len(serious)})"]
+                             + serious + ["", f"# variants that match nothing, items without a Greek lemma ({len(weak)})"] + weak) + "\n",
+                   encoding="utf-8")
+    print(f"{len(problems)} problems, {len(serious)} positive lemmas not in the text, {len(weak)} weak misses ({log})")
     return len(problems)
 
 
