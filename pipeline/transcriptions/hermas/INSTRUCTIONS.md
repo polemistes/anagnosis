@@ -81,7 +81,11 @@ and is **not** transcribed (it comes from elsewhere). On each Greek page:
 * **Headings**: where a book begins, Lake prints its title centred (ΠΟΙΜΗΝ on p. 6, over the whole
   work; Ὅρασις βʹ, Ἐντολὴ αʹ …), and **each chapter's number as a centred Roman numeral** (I, II,
   … XXXIII). These are `[title]<TAB>…` and `[chapter]<TAB>…` lines, as printed (the numeral in
-  Latin capitals: `[chapter]<TAB>XXIX`). The draft wrote the numeral of the chapter that begins
+  Latin capitals: `[chapter]<TAB>XXIX`). **A title is written as printed, with Lake's full stop,
+  not letter-spaced, and the Greek numeral sign always as ʹ** (`[title]<TAB>Ἐντολὴ αʹ.`; never ΄
+  or '; the checker reports them); a footnote mark on a title is written on the `[title]` line
+  (p. 68: `Ἀποκάλυψις εʹ.¹` if the page has it so). A book of one chapter (Mandates 1-3, 7-9,
+  11, Similitudes 1-4, 7, Vision 5) has no numeral: write none. The draft wrote the numeral of the chapter that begins
   below it, and Tauber's heading for a title it could read: check both against the page.
 * **The verses run on in paragraphs**, each begun by its number in the text ("2. μετὰ χρόνον …").
   A chapter's first verse ("1.") begins a new, indented line. **Lake's verse number is not

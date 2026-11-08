@@ -5,7 +5,7 @@ from pathlib import Path
 from anagnosis_pipeline.drama import PLAYS
 from anagnosis_pipeline.hermas_text import (beta_item, chapters_in, cite, compare_form, continuous_chapter, first1k_marks,
                                             lake_notes, lake_translation, tauber_text)
-from anagnosis_pipeline.lake_merge import assemble, taylor_ref
+from anagnosis_pipeline.lake_merge import assemble, taylor_ref, title_label
 from anagnosis_pipeline.lake_pages import VNUM, _ocr_noise, _weak_number, marks_in, ocr_roman, plain, read_batches, roman, to_roman, to_sup
 
 TAUBER = """1.0.0 Ὅρασις αʹ
@@ -140,6 +140,16 @@ class Page(unittest.TestCase):
         self.assertEqual([v["para"] for v in text["verses"]], [True, False, True])
         self.assertEqual(text["titles"], {1: ["ΠΟΙΜΗΝ"]})
         self.assertEqual(text["problems"], [])
+
+    def test_titles(self):
+        self.assertEqual(title_label("Ὅρασις βʹ."), "Ὅρασις βʹ")
+        self.assertEqual(title_label("Ἐντολὴ α΄.¹"), "Ἐντολὴ αʹ")
+        batch = ("=== p-0080\n--- text\n[title]\tἈποκάλυψις εʹ.¹\n1.1.1\tΠροσευξαμένου μου\n"
+                 "--- apparatus\n1\tἈποκάλυψις ε W\n--- margin\n--- notes\n")
+        with tempfile.TemporaryDirectory() as t:
+            (Path(t) / "batch-06.md").write_text(batch, encoding="utf-8")
+            text = assemble(read_batches(Path(t)), [{"stem": "p-0080"}])
+        self.assertEqual(text["marks"], {("p-0080", 1): "1.1.1"})
 
 
 if __name__ == "__main__":

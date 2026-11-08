@@ -781,6 +781,10 @@ def check_batch(slug: str, path: Path) -> list[str]:
                     pending_chapter = roman(text)
                     if pending_chapter is None:
                         remarks.append(f"{stem}: chapter numeral {text!r} is not a Roman number")
+                else:
+                    page_marks += marks_in(text)  # Lake's note on a title (p. 68: Ἀποκάλυψις εʹ¹)
+                    if re.search(r"[΄'’]", text):
+                        remarks.append(f"{stem}: [title] {text!r}: write the numeral sign as ʹ")
                 continue
             mm = VKEY.match(key)
             if not mm:
@@ -867,6 +871,13 @@ def check_batch(slug: str, path: Path) -> list[str]:
         ops = sm.get_opcodes()
         for k, (op, a0, a1, b0, b1) in enumerate(ops):
             if op == "equal":
+                # the same letters: the accents and breathings too (a misprint of Lake's: κάρδίᾳ)
+                for i in range(a1 - a0):
+                    mine, theirs = _accented(words[a0 + i][1]), _accented(pw[b0 + i][1])
+                    if mine != theirs:
+                        where = words[a0 + i][2]
+                        tag = " (noted)" if where in noted else ""
+                        remarks.append(f"{where}: accents: written {words[a0 + i][1]} | Tauber has {pw[b0 + i][1]}{tag}")
                 continue
             # a verse divided between two batch files: its other part is in the file before or after
             if op == "insert" and k == 0 and first_key.endswith("+"):
@@ -879,6 +890,12 @@ def check_batch(slug: str, path: Path) -> list[str]:
             tag = " (noted)" if where in noted else ""
             remarks.append(f"{where}: written {mine} | Tauber has {theirs}{tag}")
     return remarks
+
+
+def _accented(word: str) -> str:
+    """A word's letters with their accents and breathings, without stops, marks or elision."""
+    w = unicodedata.normalize("NFC", plain(word)).replace("ς", "σ")
+    return "".join(c for c in w if unicodedata.category(c)[0] == "L" and c not in "ʼʹ").lower()
 
 
 def _verses_run_on(slug: str, latin: bool) -> set[str]:

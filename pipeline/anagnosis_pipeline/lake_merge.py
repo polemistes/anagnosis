@@ -25,6 +25,7 @@ from __future__ import annotations
 import difflib
 import json
 import re
+import unicodedata
 from pathlib import Path
 
 from . import greek
@@ -50,6 +51,13 @@ KOINE: dict[str, str] = {
 
 # --- the text ---------------------------------------------------------------------------------
 
+def title_label(title: str) -> str:
+    """A printed title as a section label: without Lake's footnote mark and full stop, the numeral
+    sign as ʹ ("Ὅρασις βʹ." -> "Ὅρασις βʹ")."""
+    t = unicodedata.normalize("NFC", plain(title)).translate(str.maketrans({"΄": "ʹ", "'": "ʹ", "’": "ʹ"}))
+    return re.sub(r"\s+", " ", t).strip().rstrip(".").strip()
+
+
 def assemble(pages: dict[str, dict], index: list[dict]) -> dict:
     """The verses in order: {'verses': [{'sec', 'words': [str], 'para', 'stem'}], 'marks': {(stem,
     number): verse}, 'titles': {book: [text]}, 'problems': [...]}; the footnote marks stay on the
@@ -61,6 +69,7 @@ def assemble(pages: dict[str, dict], index: list[dict]) -> dict:
     problems: list[str] = []
     pending_para = False
     pending_titles: list[str] = []
+    title_marks: list[tuple[str, int]] = []  # a note on a title belongs to the book's first verse
     for p in index:
         stem = p["stem"]
         block = pages.get(stem)
@@ -75,6 +84,7 @@ def assemble(pages: dict[str, dict], index: list[dict]) -> dict:
                 continue
             if key == "[title]":
                 pending_titles.append(text)
+                title_marks += [(stem, k) for k in marks_in(text)]
                 continue
             if key == "[chapter]":
                 continue
@@ -86,6 +96,9 @@ def assemble(pages: dict[str, dict], index: list[dict]) -> dict:
             words = text.split()
             for k in marks_in(text):
                 marks[(stem, k)] = sec
+            for tm in title_marks:
+                marks[tm] = sec
+            title_marks = []
             if m.group(4):
                 v = by_sec.get(sec)
                 if v is None:
@@ -273,7 +286,7 @@ def merge(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path) -> 
         b, c, _vv = (int(x) for x in v["sec"].split("."))
         if b != book:
             book, chapter = b, None
-            printed = [t for t in text["titles"].get(b, []) if skel(t) != skel("ΠΟΙΜΗΝ")]
+            printed = [title_label(t) for t in text["titles"].get(b, []) if skel(t) != skel("ΠΟΙΜΗΝ")]
             label = printed[-1] if printed else heads.get(b, "")
             doc.items.append(Section(1, "book", f"{book_name(b)} · {label}" if label else book_name(b)))
         if c != chapter:
@@ -425,7 +438,7 @@ def write_appendix(play, sources: Path, tdir: Path, od: Path, out: Path, problem
         if b != book:
             book = b
             printed = text["titles"].get(b)
-            md += [f"# {book_name(b)}" + (f" · {printed[-1]}" if printed else ""), ""]
+            md += [f"# {book_name(b)}" + (f" · {title_label(printed[-1])}" if printed else ""), ""]
         if (b, c) != chapter:
             chapter = (b, c)
             md += [f"## Chapter {c} ({continuous_chapter(b, c)})", ""]
