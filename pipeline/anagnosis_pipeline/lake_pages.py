@@ -821,8 +821,10 @@ def check_batch(slug: str, path: Path) -> list[str]:
             if re.search(r"\s[.,·;:]", plain(text)):
                 remarks.append(f"{stem} {key}: a space before a stop")
             page_marks += marks_in(text)
-            for w, _s, _e in greek.words(plain(text)):
-                words.append((skel(w), w, sec))
+            pieces = re.findall(r"[^\W\d_]+", plain(text)) if latin else [w for w, _s, _e in greek.words(plain(text))]
+            for w in pieces:
+                if skel(w):  # not the keraia of a numeral (ιβʹ), which the tokenizer splits off
+                    words.append((skel(w), w, sec))
             if not latin:
                 for w in re.findall(r"[A-Za-z]{2,}", plain(text)):
                     remarks.append(f"{stem} {key}: Latin letters “{w}” in the Greek text")
@@ -851,6 +853,8 @@ def check_batch(slug: str, path: Path) -> list[str]:
         if stem in by_stem and by_stem[stem]["verses"] and not page_secs:
             remarks.append(f"{stem}: no verses, the draft had {by_stem[stem]['verses']}")
     # wording against Tauber, over the verses the batch touches
+    first_key = next((kk for block in pages.values() for kk, _t in block["text"] if VKEY.match(kk)), "")
+    runs_on = _verses_run_on(slug, latin)
     if words:
         sections = tauber_sections(part="latin" if latin else "greek")
         order = sorted(sections, key=sec_key)
@@ -860,8 +864,14 @@ def check_batch(slug: str, path: Path) -> list[str]:
         pw = [(skel(piece), piece, s) for s in span for t in sections[s] for piece in re.split(r"[—–]+", t) if skel(piece)]
         ours = [w[0] for w in words]
         sm = difflib.SequenceMatcher(None, ours, [p[0] for p in pw], autojunk=False)
-        for op, a0, a1, b0, b1 in sm.get_opcodes():
+        ops = sm.get_opcodes()
+        for k, (op, a0, a1, b0, b1) in enumerate(ops):
             if op == "equal":
+                continue
+            # a verse divided between two batch files: its other part is in the file before or after
+            if op == "insert" and k == 0 and first_key.endswith("+"):
+                continue
+            if op == "insert" and k == len(ops) - 1 and a0 == len(ours) and secs[-1] in runs_on:
                 continue
             where = words[a0][2] if a0 < len(words) else words[-1][2]
             mine = " ".join(w[1] for w in words[a0:a1]) or "(nothing)"
@@ -869,6 +879,14 @@ def check_batch(slug: str, path: Path) -> list[str]:
             tag = " (noted)" if where in noted else ""
             remarks.append(f"{where}: written {mine} | Tauber has {theirs}{tag}")
     return remarks
+
+
+def _verses_run_on(slug: str, latin: bool) -> set[str]:
+    """The verses the draft divided between a page and the next (keyed `+` on the second)."""
+    f = out_dir(slug) / ("latin-draft.json" if latin else "draft.json")
+    if not f.exists():
+        return set()
+    return {e["sec"] for e in json.loads(f.read_text(encoding="utf-8")) if e.get("key") and e["key"].endswith("+")}
 
 
 def roman(text: str) -> int | None:
