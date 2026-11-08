@@ -1,110 +1,96 @@
 === p-10109
-VISION V
-
-AND
-
-"HE MANDATES
 --- flags
-1 AND [conf] →
+1 AND [conf] → ok (the half-title, left out)
 --- notes
+Half-title page "VISION V / AND / THE MANDATES" (no translation, no footnotes): no text to keep.
 
 === p-10110
-
 --- flags
 --- notes
+Blank page: no text to keep.
 
 === p-10111
-FIFTH VISION
-
-## 1
-WHEN I had prayed at home and sat down upon the couch,* there came in a man of stately look, in the attire of a shepherd, cloked in a white skin, and having a scrip on his shoulders and a staff in his hand. And he saluted me, and I saluted him back. 2. And immediately he sat down beside me and said to me, I was sent by the most reverend Angel to dwell with thee the ; rest of the days of thy life. 3. Thinking that he was come to try me I said to him, But who art
-
-* Cotelier cites Tertullian (De Orat. xii.) on the puerility of making this a precedent; Pindar and Plutarch as witnesses with him to a heathen custom of sitting down after prayer; and St. Jerome as remarking that some were over curious to find scriptural authority for all their doings. In describing the Shepherd (cp. Sze. vi. 2. 5) Hermas would naturally have thought of John the Baptist, the messenger who preached repentance (Mark 1. 2—4 ; Matt. iii. 1—10), and who is asked in John i. 19 Who art thon 2 With the Baptist’s sayings compare [725. iii. 6. 7 ; Sz. iv. 4, viii. 6. 1. The book of Enoch (xl. 9) names the angel of repentance Fanuel.
+## Vision 5.1.1
+**sat down upon the couch**: Cotelier cites Tertullian (*De Orat.* xii.) on the puerility of making this a precedent; Pindar and Plutarch as witnesses with him to a heathen custom of sitting down after prayer; and St. Jerome as remarking that some were over curious to find scriptural authority for all their doings. In describing the Shepherd (cp. *Sim.* vi. 2. 5) Hermas would naturally have thought of John the Baptist, the *messenger* who preached *repentance* (Mark i. 2—4; Matt. iii. 1—10), and who is asked in John i. 19 *Who art thou?* With the Baptist’s sayings compare *Vis.* iii. 6. 7; *Sim.* iv. 4, viii. 6. 1. The book of Enoch (xl. 9) names the angel of repentance Fanuel.
 --- flags
-1 I [conf] →
-2 said [conf] →
-3 to [conf] →
-4 precedent; [conf] →
-5 Sze [latin] (Greek model: ,ο 77.) →
-6 messenger [conf] →
-7 [725. [conf] →
-8 Sz. [conf] →
-9 Fanuel [rare] →
+1 I [conf] → ok (translation, left out)
+2 said [conf] → ok (translation, left out)
+3 to [conf] → ok (translation, left out)
+4 precedent; [conf] → ok
+5 Sze [latin] (Greek model: ,ο 77.) → *Sim.*
+6 messenger [conf] → *messenger*
+7 [725. [conf] → *Vis.*
+8 Sz. [conf] → *Sim.*
+9 Fanuel [rare] → ok
 --- notes
+The draft's "## 1" (the verse number 1. of the translation) and the translation paragraph deleted; the one footnote (mark * after "couch," in verse 1; Fifth Vision has no CHAPTER headings, so chapter 1) headed Vision 5.1.1. Unflagged misreadings corrected from the image: "Mark 1. 2—4" → "Mark i. 2—4", "Who art thon 2" → "*Who art thou?*", italics restored on *De Orat.*, *repentance*. The space Taylor sets before semicolons is not kept, as in the earlier batches.
 
 === p-10112
-+ thou? for I know, quoth I, to whom I was dclivered. He said unto me, Knowest thou me not? Nay, quoth I. I, quoth he, am the Shepherd to whom thou wast delivered. 4. While he yet spake his visage was changed, and I took knowledge of him that it was he to whom I had been delivered; and immediately I was confounded, and fear took hold upon me, and I was quite overcome with grief at having so answered him wickedly and foolishly. 5. Then he answered and said to me, Be not confounded, but strengthen thyself in my commandments which I am about to command thee. For I was sent, quoth he, to shew thee again all that thou sawest before, to wit the sum of the things expedient for thee. First of all write thou my commandments and parables; and the rest, as I will shew thee, so shalt thou write. For this cause, quoth he, I bid thee first write the commandments and parables, that thou mayest read them oft and be able to keep them.* 6. So I
-
-* This is quoted at the beginning of Clem. S#rom. as we have it. Plato (Laws, 891 A) observes that it is helpful to have laws written and so at hand for frequent reference. We use Visions, Mandates, and Similitudes as titles for the sake of the abbreviations Κ75., Mand., Sim., which serve also for the Latin Visiones, Mandate, Similitudines of critical editions. On the title of this section
-
-[Note: 566 page 20.]
+## Vision 5.1.5
+**be able to keep them**: This is quoted at the beginning of Clem. *Strom.* as we have it. Plato (*Laws*, 891 A) observes that it is helpful to have laws written and so at hand for frequent reference. We use *Visions*, *Mandates*, and *Similitudes* as titles for the sake of the abbreviations *Vis.*, *Mand.*, *Sim.*, which serve also for the Latin *Visiones*, *Mandata*, *Similitudines* of critical editions. On the title of this section see page 20.
 --- flags
-1 dclivered [rare] →
-2 S#rom. [conf] →
-3 (Laws, [conf] →
-4 Visions, [conf] →
-5 Similitudes [latin] (Greek model: ΥΩ) →
-6 Κ75., [digit] →
-7 Visiones [latin] (Greek model: Ψῆρογιος,) →
-8 Mandate, [conf] →
-9 Similitudines [rare] →
-10 Similitudines [rare] →
+1 dclivered [rare] → ok (translation, left out; printed "delivered")
+2 S#rom. [conf] → *Strom.*
+3 (Laws, [conf] → (*Laws*,
+4 Visions, [conf] → *Visions*,
+5 Similitudes [latin] (Greek model: ΥΩ) → *Similitudes*
+6 Κ75., [digit] → *Vis.*,
+7 Visiones [latin] (Greek model: Ψῆρογιος,) → *Visiones*
+8 Mandate, [conf] → *Mandata*,
+9 Similitudines [rare] → *Similitudines* (divided "Simili-|tudines", written whole)
+10 Similitudines [rare] → *Similitudines* (the second half of the same word)
 --- notes
+The run-on (translation, verses 3-5) deleted; it was translation, not a footnote, so the page has no `+ `. The one footnote (mark * after "keep them." in verse 5) headed Vision 5.1.5. The draft's "[Note: 566 page 20.]" was the footnote's last line ("see page 20."), joined to it. Italics restored on *Mandates*, *Sim.*; "891 A" with the small capital A as an ordinary capital.
 
 === p-10113
-+ wrote the commandments and parables, as he commanded me. 7. If therefore when ye have heard them ye keep them and walk in them and do them with a pure heart, ye shall receive from the Lord what things He promised you; but if = when ye hear ye repent not, but add yet to your sins, ye shall receive from Him the contrary. All these things the Shepherd, the Angel of Repentance, commanded me thus to write.
 --- flags
 --- notes
+No footnotes on this page (translation only, Vision 5.1.6-5.1.7, left out): no text to keep. The draft's `+ ` run-on was translation; deleted.
 
 === p-10114
-FIRST MANDATE
+## Mandate 1.1.1
+**that there is one God**: Lit. *that God is one* (James ii. 19, ed. Mayor). He contains (John xxi. 25) the world, and is not comprehended (*Sim.* ix. 14. 5) or contained by it. With *Mand.* i. 1, which is cited by Irenaeus (iv. 20. 2) and later writers, compare *Vis.* i. 1. 6, 3. 4; 1 Kings viii. 27 (2 Chron. ii. 6, vi. 18); Wisdom i. 14; 2 Macc. vii. 28; Heb. xi. 3; and the teaching of Peter in the *Preaching* as quoted at the beginning of Clem. *Strom.* vi. 5. Origen in *op.* i. 61 (p. 50) adds that the like is written in the book of Enoch. On John i. 1 (Brooke, p. 22) he quotes 2 Macc. vii. 28, and then *Mand.* i. 1.
 
-I. FIRST of all believe that there is one God,* the Creator and Framer of all things, who made all things to be out of that which was not, and comprehendeth all things and is alone incomprehensible. 2. Believe therefore in Him and fear Him, and fearing Him be continent.t
-
-* Lit. 2hat God is one (James ii. 19, ed. Mayor). He contains (John xxi. 25) the world, and is not comprehended (S77. ix. 14. 5) or contained by it. With Mana. i. 1, which is cited by Irenaeus (iv. 20. 2) and later writers, compare Vis. 1. 1. 6, 3. 4; 1 Kings viil. 27 (2 Chron. ii. 6, vi. 18); Wisdom i. 14; 2 Macc. vii. 28; Heb. xi. 3; and the teaching of Peter in the Preacking as quoted at the beginning of Clem. S#7ome. vi. 5. Origen in op. i. 61 (p. 50) adds that the like is written in the book or Enoch. On John i. 1 (Brooke, p. 22) he quotes 2 Macc. vii. 28, and then Mand. i. 1.
-
-## 1
-Continence (pp. 42, 43, 48), which comes next after Faith in VZs. iii. 8 and Sz. ix. 15, is first simply powerover, mastery. The corresponding adjective (Gr. enkrates) is used in its primary sense in 2 Macc. x. 15 being masters of important strongholds, 17 masters of the positions. Continent in the ethical sense is paraphrased by 1 Cor.
+## Mandate 1.1.2
+**fearing Him be continent**: Continence (pp. 42, 43, 48), which comes next after Faith in *Vis.* iii. 8 and *Sim.* ix. 15, is first simply *power-over*, *mastery*. The corresponding adjective (Gr. *enkrates*) is used in its primary sense in 2 Macc. x. 15 *being masters of important strongholds*, 17 *masters of the positions*. Continent in the ethical sense is paraphrased by 1 Cor.
 --- flags
-1 2hat [digit] →
-2 (S77. [digit] →
-3 Mana. [conf] →
-4 1, [digit] →
-5 viil [latin] →
-6 Preacking [latin] →
-7 S#7ome. [digit] →
-8 1 [conf] →
-9 VZs [latin] (Greek model: Ψίς.) →
-10 Sz. [conf] →
-11 enkrates [latin] (Greek model: δηλ γαίοο)) →
-12 important [conf] →
-13 the [conf] →
+1 2hat [digit] → *that* (italic: *that God is one*)
+2 (S77. [digit] → (*Sim.*
+3 Mana. [conf] → *Mand.* (printed *Mana.*: a damaged or wrong sort, see notes)
+4 1, [digit] → 1, (i. 1,)
+5 viil [latin] → viii
+6 Preacking [latin] → *Preaching*
+7 S#7ome. [digit] → *Strom.*
+8 1 [conf] → 1 (John i. 1)
+9 VZs [latin] (Greek model: Ψίς.) → *Vis.*
+10 Sz. [conf] → *Sim.*
+11 enkrates [latin] (Greek model: δηλ γαίοο)) → *enkrates*
+12 important [conf] → *important* (italic, in the quotation)
+13 the [conf] → *the* (italic, in the quotation)
 --- notes
+The translation (with the title FIRST MANDATE) deleted, and the draft's false "## 1" (a verse number) with it. Two footnotes: * after "one God," (verse 1), † after "continent." (verse 2); the First Mandate has no CHAPTER headings, so chapter 1. The second footnote runs on to p-10115. Unflagged corrections from the image: "Vis. 1. 1. 6" → "*Vis.* i. 1. 6", "book or Enoch" → "book of Enoch" (the print shows "oı", an f with its head broken off), "Origen in op." italic *op.* as printed, "powerover" → "*power-over*" (divided "power-|over" at the line end; kept with its hyphen as a compound, since two words would not be divided so), "mastery" and the 2 Macc. quotations italic as printed. Left for the reviewer: the print clearly reads "With *Mana.* i. 1"; written *Mand.* (the reference is to this verse; the a is a d without its ascender or a wrong sort), as the earlier batch wrote "the Gospel" for a dropped letter.
 
 === p-10115
-+ These things observe, and thou shalt cast away all wickedness from thee, and thou shalt put on every virtue of righteousness, and shalt live unto God, if thou keep this commandment.
-
-Vil. 37 but hath power over his own will, although the word itself is not used there. A man may exercise this power positively (p. 42) or negatively, so as to do or not to do. Mand. viii. commends continence or temperance in the negative sense of total abstinence, namely from evils See also 17s. i. 2. 4, 1i. 3. 2 ; Mand. v1. 1. τ; Sim. v.1. 5. The phrase “every virtue of righteousness?” is accounted for by the saying of Theognis, quoted as proverbial by Aristotle, that righteousness (or justice) is an epitome of all the virtues. With “live unto God” compare Luke xx. 38 ; Rom. vi. 10f,, xiv. δ,
++ vii. 37 *but hath power over his own will*, although the word itself is not used there. A man may exercise this power positively (p. 42) or negatively, so as to do or not to do. *Mand.* viii. commends continence or temperance in the negative sense of total abstinence, namely from evil. See also *Vis.* i. 2. 4, ii. 3. 2; *Mand.* vi. 1. 1; *Sim.* v. 1. 5. The phrase “every virtue of righteousness” is accounted for by the saying of Theognis, quoted as proverbial by Aristotle, that righteousness (or justice) is an epitome of all the virtues. With “live unto God” compare Luke xx. 38; Rom. vi. 10 f., xiv. 8.
 --- flags
-1 Vil [latin] (Greek model: ψῇϊ.) →
-2 evils [conf] →
-3 17s. [digit] →
-4 1i. [digit] →
-5 v1. [digit] →
-6 1. [digit] →
-7 10f,, [digit] →
+1 Vil [latin] (Greek model: ψῇϊ.) → vii
+2 evils [conf] → evil.
+3 17s. [digit] → *Vis.*
+4 1i. [digit] → ii.
+5 v1. [digit] → vi.
+6 1. [digit] → 1.
+7 10f,, [digit] → 10 f.,
 --- notes
+The translation paragraph (Mandate 1.1.2, end) deleted; the page's only footnote text is the end of the † footnote from p-10114 (Mandate 1.1.2), kept as the `+ ` run-on. Unflagged corrections from the image: "Mand. v1. 1. τ" → "*Mand.* vi. 1. 1", "Sim. v.1. 5" → "*Sim.* v. 1. 5", "righteousness?”" → "righteousness”", "xiv. δ," → "xiv. 8.", the quotation from 1 Cor. vii. 37 and *Mand.* in italics as printed.
+rev: "*Sim.* v. 1. 5": the print has a dotted lower-case i ("v. i. 5"), not the undotted old-style figure 1 of "vi. 1. 1" on the line above; a wrong-fount misprint for the figure (Sim. 5.1.5, on fasting), 1 kept as in notes-04 (Psalm lxix. 1). Text unchanged.
 
 === p-10116
-SECOND MANDATE
-
-## 1
-HE said to me, Hold to simplicity and be without guile,* and thou shalt be as little children which know not the wickedness that destroyeth the life of men. 2. First speak evil of no man, neither hearken gladly to one that speaketh evil [Else thou also that hearkenest shalt be guilty of the sin of him that speaketh the evil, if so be thou believe the slander which thou hearest. For if thou believe it thou wilt thyself also have somewhat against thy brother. So shalt thou be guilty of the sin of the slanderer. 3. Slander is mischievous ; it is an unruly devil, never at peace but always dwelling in dissensions. Keep thyself therefore from it, and thou shalt be in harmony always
-
-* The third, fourth and fifth of the seven Christian Graces (Vis. iii. 8) are dwelt upon in Mand. ii. 1—4 ; cp. I Pet. ii. 1, 2, and for the phrase “have against” Matt. v. 23. Evil speaking is personified in Szzz. ix. 15. On Gr. haplous, which means single, simple, and also liberal, see Thayer's Lexicon of the New Testament.
+## Mandate 2.1.1
+**Hold to simplicity and be without guile**: The third, fourth and fifth of the seven Christian Graces (*Vis.* iii. 8) are dwelt upon in *Mand.* ii. 1—4; cp. 1 Pet. ii. 1, 2, and for the phrase “have against” Matt. v. 23. Evil speaking is personified in *Sim.* ix. 15. On Gr. *haplous*, which means single, simple, and also liberal, see Thayer’s *Lexicon* of the New Testament.
 --- flags
-1 hearkenest [rare] →
-2 Szzz [latin] (Greek model: ,ϑΖ22.) →
-3 haplous [latin] (Greek model: ““αῤίοιις,) →
-4 Thayer's [conf] →
+1 hearkenest [rare] → ok (translation, left out)
+2 Szzz [latin] (Greek model: ,ϑΖ22.) → *Sim.*
+3 haplous [latin] (Greek model: ““αῤίοιις,) → *haplous*
+4 Thayer's [conf] → Thayer’s
 --- notes
+The translation (with the title SECOND MANDATE) and the draft's false "## 1" deleted. One footnote, mark * after "guile," in verse 1 (no CHAPTER headings, so chapter 1); it ends on this page, nothing runs on. Unflagged corrections from the image: "I Pet." → "1 Pet.", italics restored on *Vis.*, *Mand.*, *Lexicon*.

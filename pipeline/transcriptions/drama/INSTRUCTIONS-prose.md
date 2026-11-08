@@ -229,6 +229,9 @@ II (`p-30139`). The crops are in a folder per scan, `pipeline/build/drama-prose/
   words from the start of their clause: `**sold me to a lady**: …` (none if the mark stands after
   a heading). Two footnotes on the same verse: the same heading twice is fine, or one heading
   and two paragraphs.
+* *Taylor's printing slips*: a wrong or dropped letter that makes no word ("Gosbels", "he Gospel",
+  *Mana.* for *Mand.*) is corrected, with a line under `--- notes` saying what is printed; anything
+  that could be his own spelling or wording stays as printed.
 * A footnote that runs over to the next page: its rest is the first paragraph of the next page's
   block, marked `+ ` (and nothing else on that page is so marked).
 * His references (*Sim.* i. 1—3, *Mand.* xi. 18 n., Lev. xxv. 23, Clem. *Strom.* vii. 12, P. 877)
