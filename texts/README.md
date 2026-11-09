@@ -354,7 +354,8 @@ editions are in the public domain; the transcription is published under CC BY-SA
   cites it "Mandate 4.1.2": `# citation: dotted`), each chapter headed by its number and the
   continuous chapter number (1-114); Lake's titles of the books as printed. 29 misprints in his
   text and one in a title are corrected (`MISPRINTS`, `TITLE_MISPRINTS` in `lake_merge.py`; the
-  batches keep the print), each with a note in the apparatus. The Greek ends at Similitude 9.30.2,
+  batches keep the print), each with a note in the apparatus; so are five inside his apparatus items
+  (`APPARATUS_MISPRINTS`). The Greek ends at Similitude 9.30.2,
   where manuscript A breaks off. Read aloud in the Koine pronunciation.
 * Critical apparatus (`commentary-lake-apparatus.md`): Lake's 207 items, each under the verse of
   its footnote mark (the marks are numbered by the page in the print and left out of the text);

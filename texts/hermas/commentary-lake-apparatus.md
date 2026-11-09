@@ -22,7 +22,9 @@
 καταφθαρῆναι ℵ* Pᵃᵐ, καταφθαρῆναι δεινῶς ALE.
 
 ## 1.3.2
-μετανοήσοὐσιν ℵ, μετανοήσωσιν A.
+μετανοήσουσιν ℵ, μετανοήσωσιν A.
+
+μετανοήσουσιν (in the note above): Lake prints μετανοήσοὐσιν, a misprint; corrected in this edition.
 
 ## 1.3.4
 ὃν ἀγαπῶ ℵ, qui invisibili (= ἀοράτῳ) L₁, qui omnia virtute sustentabili L₂, “in his pity and in his love” E. The text is clearly corrupt, and cannot be restored with certainty.
@@ -71,7 +73,9 @@
 Om. ℵ*.
 
 ## 3.1.5
-ἁμαρτίας μου—ἀμαρτίας μου om. per homoiot. ℵL₂.
+ἁμαρτίας μου—ἁμαρτίας μου om. per homoiot. ℵL₂.
+
+ἁμαρτίας (in the note above): Lake prints ἀμαρτίας, a misprint; corrected in this edition.
 
 ## 3.1.6
 ἐστάθη A, stetit post me L₁E, ἐπεστάθη is accepted by most editors as an emendation.
@@ -313,12 +317,16 @@ The text of this passage is reconstructed thus by the editors from LE Ant. A rea
 τῷ θεῷ EL Ath.² Ant., κατὰ σοῦ A, κατὰ σοῦ τοῦ θεοῦ Ath.¹
 
 ## 16.1.8
-τὸ ἄνωθεν AL₁, τὸ θεῖαν τὸ ἄνωθεν EL₂.
+τὸ ἄνωθεν AL₁, τὸ θεῖον τὸ ἄνωθεν EL₂.
+
+θεῖον (in the note above): Lake prints θεῖαν, a misprint; corrected in this edition.
 
 καὶ: Lake prints και, a misprint; corrected in this edition.
 
 ## 16.1.9
-τοῦ πρυφητικοῦ πνεύματος L₂E₁, τοῦ προφητοῦ A, nuntius sanctus divinitatis (ἄγγελος ἅγιος θεότητος).
+τοῦ προφητικοῦ πνεύματος L₂E₁, τοῦ προφητοῦ A, nuntius sanctus divinitatis (ἄγγελος ἅγιος θεότητος).
+
+προφητικοῦ (in the note above): Lake prints πρυφητικοῦ, a misprint; corrected in this edition.
 
 ## 16.1.18
 οὖν L (ergo) E (now), om. A.
@@ -661,7 +669,9 @@ Retranslated from LE, om. A.
 δυνήσονται . . . μετανοήσωσιν retranslated from LE, om. A.
 
 ## 26.22.2
-ἐθελυδιδάσκαλοι A, but LE seem to represent διδάσκαλοι.
+ἐθελοδιδάσκαλοι A, but LE seem to represent διδάσκαλοι.
+
+ἐθελοδιδάσκαλοι (in the note above): Lake prints ἐθελυδιδάσκαλοι, a misprint; corrected in this edition.
 
 ## 26.22.4
 μωροὶ καὶ . . . ἐάν retranslated from LE. A is illegible, but seems to read πονηρ(ότατοι ?) instead of μωροί.

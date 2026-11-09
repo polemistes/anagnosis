@@ -159,6 +159,21 @@ class Page(unittest.TestCase):
         self.assertEqual(text["titles"][8], ["Ἐντολὴ γʹ."])
         self.assertIn(("8.1.1", "Ἐντολὴ (the title): Lake prints Εντολὴ, without the breathing; corrected in this edition."), notes)
 
+    def test_apparatus_misprints(self):
+        from anagnosis_pipeline import lake_merge
+        placed = [("16.1.8", "τὸ ἄνωθεν AL₁, τὸ θεῖαν τὸ ἄνωθεν EL₂."), ("16.1.8", "another item"),
+                  ("3.1.5", "ἁμαρτίας μου—ἀμαρτίας μου om. per homoiot. ℵL₂.")]
+        problems: list = []
+        out = lake_merge.correct_apparatus_misprints("hermas", placed, problems)
+        self.assertEqual(out[:3], [
+            ("16.1.8", "τὸ ἄνωθεν AL₁, τὸ θεῖον τὸ ἄνωθεν EL₂."),
+            ("16.1.8", "θεῖον (in the note above): Lake prints θεῖαν, a misprint; corrected in this edition."),
+            ("16.1.8", "another item")])
+        self.assertEqual(out[3][1], "ἁμαρτίας μου—ἁμαρτίας μου om. per homoiot. ℵL₂.")
+        self.assertEqual(len(out), 5)
+        # the three not in these items are reported
+        self.assertEqual(len(problems), 3)
+
     def test_titles(self):
         self.assertEqual(title_label("Ὅρασις βʹ."), "Ὅρασις βʹ")
         self.assertEqual(title_label("Ἐντολὴ α΄.¹"), "Ἐντολὴ αʹ")

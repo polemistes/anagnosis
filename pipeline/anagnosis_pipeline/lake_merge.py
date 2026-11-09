@@ -39,8 +39,8 @@ PIPELINE = ROOT / "pipeline"
 # Misprints in Lake's Greek: the batches keep what is printed; the text shows the right reading and
 # the apparatus says so (the author's rule, 2026-11-08). Key: the verse.
 # Lake's misprints in the Greek text, each checked on the page (the batch notes; PLAN-hermas.md,
-# step 5): verse -> [(as printed, the right reading)], whole words. Misprints inside Lake's own
-# apparatus notes stay as printed.
+# step 5): verse -> [(as printed, the right reading)], whole words. Misprints inside his apparatus
+# are in APPARATUS_MISPRINTS.
 MISPRINTS: dict[str, dict[str, list[tuple[str, str]]]] = {
     "hermas": {
         "1.2.2": [("κάρδίᾳ", "καρδίᾳ")],
@@ -71,6 +71,20 @@ MISPRINTS: dict[str, dict[str, list[tuple[str, str]]]] = {
         "26.16.5": [("σφαγῖδα", "σφραγῖδα")],
         "26.23.5": [("μετανήσατε", "μετανοήσατε")],  # "μετα-|νήσατε", the ο lost at the line's end
         "26.29.1": [("κακια", "κακία")],
+    },
+}
+# Lake's misprints inside his own apparatus items, each checked on the page: verse -> [(as printed,
+# the right reading)], whole words; corrected with a note after the item (the author, 2026-11-09:
+# "We keep to the text we are printing. But correct misprints, with a note"). The siglum F ("L₂F",
+# Vis. 2.4.3; "AFL₁", Sim. 9.29.3) is a clear F on both pages, not a worn E, and its meaning is
+# unknown: kept as printed (sigla.md).
+APPARATUS_MISPRINTS: dict[str, dict[str, list[tuple[str, str]]]] = {
+    "hermas": {
+        "1.3.2": [("μετανοήσοὐσιν", "μετανοήσουσιν")],
+        "3.1.5": [("ἀμαρτίας", "ἁμαρτίας")],
+        "16.1.8": [("θεῖαν", "θεῖον")],
+        "16.1.9": [("πρυφητικοῦ", "προφητικοῦ")],
+        "26.22.2": [("ἐθελυδιδάσκαλοι", "ἐθελοδιδάσκαλοι")],
     },
 }
 # slips of the Perseus file in Lake's notes, checked on his page: wrong -> as printed
@@ -201,6 +215,29 @@ def correct_misprints(slug: str, text: dict, problems: list[str]) -> list[tuple[
         first = next((v["sec"] for v in text["verses"] if v["sec"].startswith(f"{book}.")), None)
         notes.append((first, f"{right} (the title): Lake prints {printed}, without the breathing; corrected in this edition."))
     return notes
+
+
+def correct_apparatus_misprints(slug: str, placed: list[tuple[str, str]],
+                                problems: list[str]) -> list[tuple[str, str]]:
+    """The apparatus items with Lake's misprints in them corrected (APPARATUS_MISPRINTS), each
+    followed by a note marked as this edition's."""
+    fixes = APPARATUS_MISPRINTS.get(slug, {})
+    word = lambda w: re.compile(rf"(?<![^\W\d_]){re.escape(w)}(?![^\W\d_])")
+    out: list[tuple[str, str]] = []
+    done: set[tuple[str, str]] = set()
+    for sec, item in placed:
+        out.append((sec, item))
+        for printed, right in fixes.get(sec, []):
+            if len(word(printed).findall(item)) != 1:
+                continue
+            out[-1] = (sec, word(printed).sub(right, out[-1][1]))
+            out.append((sec, f"{right} (in the note above): Lake prints {printed}, a misprint; corrected in this edition."))
+            done.add((sec, printed))
+    for sec, pairs in fixes.items():
+        for printed, _ in pairs:
+            if (sec, printed) not in done:
+                problems.append(f"apparatus misprint {sec}: “{printed}” not found once in an item")
+    return out
 
 
 # --- the apparatus against First1K's ----------------------------------------------------------
@@ -381,6 +418,8 @@ def merge(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path) -> 
                 continue
             placed.append((sec, item))
     placed += misprint_notes
+    comparison = compare_first1k(placed)  # Lake's items as printed
+    placed = correct_apparatus_misprints(slug, placed, problems)
     md = _meta_lines({
         "title": f"Critical apparatus ({play.app_editor_name})",
         "author": play.app_editor_name, "lang": "eng",
@@ -394,7 +433,6 @@ def merge(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path) -> 
         md += [f"## {sec}", "\n\n".join(items), ""]
     (out / f"commentary-{play.app_editor}-apparatus.md").write_text("\n".join(md) + "\n", encoding="utf-8")
     print(f"wrote commentary-{play.app_editor}-apparatus.md: {len(grouped)} verses, {len(placed)} items")
-    comparison = compare_first1k(placed)
 
     # lemmas, morphology, syntax
     review = _tokens(play, doc, sources, out, lexicon, build)

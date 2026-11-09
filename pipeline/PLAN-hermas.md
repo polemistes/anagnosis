@@ -254,10 +254,12 @@ converter and came out as Greek letters.)
 * **Similitude 1's label**: Lake prints no title of its own over Similitude 1, only the heading of
   all the Similitudes in capitals, ΠΑΡΑΒΟΛΑΙ ΑΣ ΕΛΑΛΗΣΕ ΜΕΤʼ ΕΜΟΥ, and that is its label in the
   book chooser ("Similitude 1 · ΠΑΡΑΒΟΛΑΙ ΑΣ …"), as printed. Tauber's "Παραβολὴ αʹ" would read
-  more evenly beside the others, but is not on the page. Kept as printed unless you prefer it.
+  more evenly beside the others, but is not on the page. Decided 2026-11-09, the author: "We keep
+  to the text we are printing": Lake's heading stays.
 * **Misprints in the apparatus**: Lake's misprints in his Greek text are corrected with a note
-  (29); those inside his apparatus notes (μετανοήσοὐσιν, θεῖαν, πρυφητικοῦ, ἐθελυδιδάσκαλοι, the
-  siglum F) are left as printed, being his commentary. Say if they should be corrected as well.
+  (29). Decided 2026-11-09, the author: "But correct misprints, with a note": the five inside his
+  apparatus items are corrected too, each with a note after the item (`APPARATUS_MISPRINTS`); the
+  siglum F stays (a clear F on both pages, its meaning unknown, so not an evident misprint).
 * **Release**: the text is built and in the catalogue after step 10; a reader release with it is
   yours to decide (play/README.md: build the bundle, upload, create and activate the product
   `hermas_shepherd_lake`, name "The Shepherd of Hermas", €3).
@@ -468,6 +470,13 @@ converter and came out as Greek letters.)
     (μετανοήσοὐσιν, θεῖαν, πρυφητικοῦ, ἐθελυδιδάσκαλοι, ἀμαρτίας with a smooth breathing, the
     siglum F in "AFL₁" and "L₂F") stay as printed: they are his commentary. παῆναι 1.3.3 is the
     late aorist of παύω, not a misprint.
+  * **Misprints in the apparatus** (2026-11-09, the author's answer): μετανοήσοὐσιν (1.3.2),
+    ἀμαρτίας (3.1.5), θεῖαν (16.1.8), πρυφητικοῦ (16.1.9), ἐθελυδιδάσκαλοι (26.22.2) are corrected
+    in the items, each followed by "X (in the note above): Lake prints Y, a misprint; corrected in
+    this edition." (`APPARATUS_MISPRINTS`, `correct_apparatus_misprints`). The First1K comparison
+    still runs on the items as printed (the merge log unchanged). F in "L₂F" (p. 24) and "AFL₁"
+    (p. 288) is a clear, unworn F on both pages: kept, sigla.md says so. τοῦ προφητοῦ A (16.1.9)
+    is A's reading as reported, not touched.
   * **(d) The review list**: the numerals with a keraia (ρʹ, λʹ, κεʹ, λεʹ, μʹ: 27 in the text) were
     split by the tokenizer into a letter (μ analysed as ἐγώ) and a lone ʹ. `greek._TOKEN` now
     keeps U+02B9 at the end of a word (no other text has one), so they align with GLAUx, which
