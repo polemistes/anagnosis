@@ -32,6 +32,10 @@ work and edition, as given in the text's `about.md` (`product_id`); it can never
 | The Shepherd | hermas_shepherd_lake |
 | New Testament | newtestament_sbl |
 
+On sale (2026-11-14): Antigone, Ajax, Electra, Odyssey, Symposium, Gorgias and the New Testament.
+The other ids are reserved for texts that are built but not yet made available; a product is
+created in the Console only when the author puts its text on sale.
+
 1. Payments profile (needed before anything can be sold).
 2. The reader exists already (no.anagnosis.reader, with Play App Signing). Upload the 0.3.0
    bundle to **Test and release › Testing › Internal testing**, with yourself on the testers'

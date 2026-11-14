@@ -10,7 +10,7 @@ Anagnosis Ancient Greek Reader
 
 Free ancient Greek dictionaries (LSJ) and parser. Buy Greek texts in the app.
 
-## Full description (3168)
+## Full description (2905)
 
 Anagnosis is an app for reading ancient Greek texts. It provides ancient Greek dictionaries, among them LSJ and the Middle Liddell, and a parser for morphological analysis, all free. Ancient Greek texts can be bought and read inside the app. The dictionaries cover Homeric Greek, Attic Greek and Koine Greek, which includes Biblical Greek and New Testament Greek. The texts come with a critical apparatus, syntax of sentences, a translation and a commentary for each available text (the Greek New Testament does not have a commentary yet). The app has a powerful search engine, and texts can be read aloud in ancient pronunciation.
 
@@ -31,7 +31,6 @@ TEXTS AVAILABLE (Buy in app)
 • Antigone by Sophocles, R. C. Jebb's edition with his translation and critical apparatus (1891) and his commentary (1900)
 • Ajax by Sophocles, R. C. Jebb's edition with his translation, critical apparatus and commentary (1896)
 • Electra by Sophocles, R. C. Jebb's edition with his translation, critical apparatus and commentary (1894)
-• The Oresteia by Aeschylus (Agamemnon, Choephoroi, Eumenides; each bought separately), Arthur Sidgwick's Oxford editions with his critical apparatus, introductions and commentary (1884–1887; the Eumenides without commentary) and H. W. Smyth's translation (1926)
 
 Each text is bought inside the app; it is then downloaded and appears on the front page of Anagnosis.
 
@@ -49,11 +48,6 @@ This app has been created with the help of large language models.
 Version 0.7.0:
 
 Long dictionary entries are easier to read. The list of forms that opens an entry in Liddell-Scott-Jones is set out with one line for each tense or case, the tense and voice labels stand out in colour, and a long list is folded until you ask for it, so that the meanings come first.
-
-## Release notes, 0.6.0 (354; limit 500)
-Version 0.6.0:
-
-New texts: Aeschylus' Oresteia, each play bought separately: Agamemnon, Choephoroi (The Libation Bearers) and Eumenides, in Arthur Sidgwick's Oxford editions with his critical apparatus and introductions, his commentary on the Agamemnon and the Choephoroi, H. W. Smyth's translation, and syntax from the Ancient Greek Dependency Treebank.
 
 ## Release notes, 0.5.0 (488; limit 500)
 Version 0.5.0:
