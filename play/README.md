@@ -140,6 +140,14 @@ goes on to a "B.". Middle Liddell's notes on forms and derivation stand one to a
 release notes for 0.7.0 are in listings/reader.md. The screenshots show no long dictionary entry
 and are still correct.
 
+Version code 18 (still 0.7.0) adds vowel length marked over the vowel and metrical signs in the
+dictionaries and commentaries. Version code 19 (still 0.7.0, 2026-11-14) adds a second size
+slider in Options, "Text size in dictionaries and notes" (12 to 26, starting at 14, the old size),
+for dictionary entries, commentary, critical apparatus, introductions and the reader's own notes.
+The release notes do not mention it yet. The bundle was checked on the tablet emulator as an
+update over 0.6.0: the setting starts at 14, and the Symposium's commentary is drawn at 20 when
+it is set to 20.
+
 Which texts are on sale is the author's decision alone: a text that is built and has its pack is
 not thereby for sale. `google_play: yes` goes into a text's about.md only when the author says
 that this text is to be made available (2026-11-14: the mark was taken off the Oresteia, the
