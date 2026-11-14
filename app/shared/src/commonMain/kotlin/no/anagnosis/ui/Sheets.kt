@@ -157,7 +157,7 @@ fun WordSheet(
                 Spacer(Modifier.height(8.dp))
                 info.entries.filter { it.lexiconSlug == shown }.forEachIndexed { i, e ->
                     if (i > 0) HorizontalDivider(Modifier.padding(vertical = 10.dp))
-                    HtmlText(e.html, onGreekWord = onGreekWord)
+                    DictionaryEntry(e.html, onGreekWord = onGreekWord)
                 }
             }
             Spacer(Modifier.height(32.dp))

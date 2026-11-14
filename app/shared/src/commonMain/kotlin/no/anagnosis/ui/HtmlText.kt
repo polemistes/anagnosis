@@ -48,9 +48,24 @@ fun HtmlText(
     val text = remember(html, linkColor, muted, greekWords, onNoteLink != null) {
         htmlToAnnotated(html, linkColor = linkColor, onNoteLink = onNoteLink, mutedColor = muted, greekWords = greekWords)
     }
+    AnnotatedText(text, modifier, onGreekWord)
+}
+
+/**
+ * An already converted text, drawn in the body style. With [onGreekWord] the Greek words that
+ * [htmlToAnnotated] marked can be tapped. [maxLines] cuts the text off after that many lines; what
+ * is cut off is not part of the text's area, so a tap cannot reach it.
+ */
+@Composable
+internal fun AnnotatedText(
+    text: AnnotatedString,
+    modifier: Modifier = Modifier,
+    onGreekWord: ((String) -> Unit)? = null,
+    maxLines: Int = Int.MAX_VALUE,
+) {
     var layout by remember { mutableStateOf<TextLayoutResult?>(null) }
     val currentOnGreekWord by rememberUpdatedState(onGreekWord)
-    val taps = if (!greekWords) Modifier else Modifier.pointerInput(text) {
+    val taps = if (onGreekWord == null) Modifier else Modifier.pointerInput(text) {
         detectTapGestures { position ->
             val l = layout ?: return@detectTapGestures
             val offset = l.charAt(position)
@@ -63,6 +78,7 @@ fun HtmlText(
         text = text,
         modifier = modifier.then(taps),
         style = MaterialTheme.typography.bodyMedium,
+        maxLines = maxLines,
         onTextLayout = { layout = it },
     )
 }
@@ -84,6 +100,11 @@ fun htmlToAnnotated(
     mutedColor: Color = linkColor.copy(alpha = 0.55f),
     /** Mark every Greek word with an annotation (GREEK_TAG), for [HtmlText]'s tap handler. */
     greekWords: Boolean = false,
+    /**
+     * The colour of the tense and voice labels of a forms section, which are then also set in
+     * semi-bold and bold; null leaves them as muted as every other grammatical label.
+     */
+    formsColor: Color? = null,
 ): AnnotatedString = buildAnnotatedString {
     var pos = 0
     var paragraphs = 0
@@ -144,6 +165,14 @@ fun htmlToAnnotated(
                         "tr" in cls -> { pushStyle(SpanStyle(fontWeight = FontWeight.SemiBold, color = linkColor)); pushed++ }
                         // citations and author abbreviations recede
                         "bibl" in cls || "usg" in cls -> { pushStyle(SpanStyle(color = mutedColor, fontSize = 0.88.em)); pushed++ }
+                        // the label that opens a line of the forms section; it may sit inside a plain
+                        // "gram" span, whose muted colour it overrides as the inner style
+                        formsColor != null && "gram" in cls && "voice" in cls -> {
+                            pushStyle(SpanStyle(fontWeight = FontWeight.Bold, color = formsColor)); pushed++
+                        }
+                        formsColor != null && "gram" in cls && "tns" in cls -> {
+                            pushStyle(SpanStyle(fontWeight = FontWeight.SemiBold, color = formsColor)); pushed++
+                        }
                         "gram" in cls || "etym" in cls -> { pushStyle(SpanStyle(color = mutedColor)); pushed++ }
                     }
                 }
