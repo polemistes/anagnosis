@@ -201,11 +201,12 @@ def load_lexica(sources: Path, cache_dir: Path) -> dict[str, list[Entry]]:
         else:
             print(f"parsing {slug} (cached afterwards in {cache}) ...", file=sys.stderr)
             if slug == "lsj":
-                # the entries whose forms section was repaired on a judgment, to be looked through
-                review: list[tuple[str, str]] = []
-                entries = fn(sources, review)
-                (cache_dir / "lsj-forms-review.tsv").write_text("".join(f"{k}\t{n}\n" for k, n in review), encoding="utf-8")
-                print(f"lsj: {len(review)} entries on the review list of the forms sections ({cache_dir / 'lsj-forms-review.tsv'})", file=sys.stderr)
+                # how the file's "A." was put right, entry by entry; the notes mark those to look through
+                repairs: list[tuple[str, str, str]] = []
+                entries = fn(sources, repairs)
+                (cache_dir / "lsj-forms-repairs.tsv").write_text("".join("\t".join(r) + "\n" for r in repairs), encoding="utf-8")
+                print(f"lsj: section A put right in {len(repairs)} entries, {sum(1 for r in repairs if r[2])} of them "
+                      f"to look through ({cache_dir / 'lsj-forms-repairs.tsv'})", file=sys.stderr)
             else:
                 entries = fn(sources)
             with cache.open("w", encoding="utf-8") as f:

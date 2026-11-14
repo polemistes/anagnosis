@@ -92,7 +92,8 @@ def _render(el, grk: bool, out: list[str]) -> None:
         attr = f' data-ref="{html.escape(target, quote=True)}"' if target else ""
         open_, close = f'<span class="ref"{attr}>', "</span>"
     elif tag in GRAM_TAGS:
-        cls = "gram tns" if tag == "tns" else "gram voice" if tag == "gram" and el.get("type") == "voice" else "gram"
+        cls = ("gram tns" if tag == "tns" else "gram mood" if tag == "mood"
+               else "gram voice" if tag == "gram" and el.get("type") == "voice" else "gram")
         open_, close = f'<span class="{cls}">', "</span>"
     elif tag in ("usg", "etym", "note", "xr", "abbr", "lbl", "date", "placeName", "author", "title", "biblScope", "hi", "emph"):
         cls = "i" if tag in ("hi", "emph", "title") else "span"
@@ -171,9 +172,11 @@ def render_entry(el) -> str:
 #
 # In the printed lexicon an entry is one paragraph: the headword, its forms (tenses, cases, dialect
 # forms, each with its authority), then the meanings. The Perseus file gives every entry a section
-# "A" and opens it at the first translation, cross-reference or quoted form, whichever comes
-# first. Where a quoted form comes first, "A." lands inside the forms ("impf. | A. ἠρχόμην"). The
-# repair below takes the forms back into the head paragraph and puts "A." where the meanings start.
+# "A", and opens it by rule: after the last headword form, at the first quoted form, and so on.
+# Where a quoted form comes first, "A." lands inside the forms ("impf. | A. ἠρχόμην"); where a
+# derived word is marked as a headword, it lands after that word, past the entry's own meaning
+# ("Κελτοί, οἱ, Celts … hence Κελτικός, | A. Celtic"). The repair below takes the forms back into
+# the head paragraph and puts "A." where the meanings start.
 
 
 @dataclass
@@ -185,8 +188,8 @@ class _Frag:
 
 def _kind(el) -> str:
     tag = el.tag
-    if tag == "tr":
-        return "tr"
+    if tag in ("tr", "title"):
+        return "tr"     # italics; outside the senses the file marks them as titles ("Celts")
     if tag == "tns":
         return "tns"
     if tag == "gram" and el.get("type") == "voice":
@@ -206,11 +209,16 @@ def _kind(el) -> str:
 
 
 def _frags(text: str | None, nodes: list) -> list[_Frag]:
+    """The content of an element as fragments. A quotation with its citation (<cit>) is taken
+    apart into its pieces: the file wraps whole stretches in one ("ἀφίημι) one who lets off a
+    military engine, Plb. 4.56.3"), and a divider may stand inside."""
     frags = []
     if text:
         frags.append(_Frag("text", _text(text, False)))
     for k in nodes:
-        if isinstance(k.tag, str) and k.tag not in SKIP_TAGS:
+        if isinstance(k.tag, str) and k.tag == "cit":
+            frags.extend(_frags(k.text, list(k)))
+        elif isinstance(k.tag, str) and k.tag not in SKIP_TAGS:
             out: list[str] = []
             _render(k, False, out)
             frags.append(_Frag(_kind(k), "".join(out)))
@@ -285,32 +293,56 @@ def _is_gloss(tr_text: str) -> bool:
     text = text.strip(" ,;:.")
     if not _GLOSS.fullmatch(text) or text.endswith("-"):
         return False
-    return bool(re.search(r"[a-z]{2}", text)) or text == "I"
+    return bool(re.search(r"[a-z]{2}", text)) or text == "I" or bool(re.fullmatch(r"[A-Z][a-z]", text))
+
+
+_ITALIC = re.compile(r"(<i[^>]*>)(.*)(</i>)", re.S)
+
+
+def _split_italics(frags: list[_Frag]) -> list[_Frag]:
+    """The same fragments, with the italics cut where a divider stands inside them: a dash
+    ("serpo):—move slowly"), or the bracket that closes an etymology ("ibo) withdraw, retreat").
+    The dash becomes text, so that it divides like any other."""
+    out = []
+    for f in frags:
+        m = _ITALIC.fullmatch(f.html) if f.kind == "tr" else None
+        if m is None or "<" in m.group(2):
+            out.append(f)
+            continue
+        open_, text, close = m.groups()
+        pieces = [text]
+        dash = re.fullmatch(r"(.*?)(:?\s*—)(.*)", text, re.S)
+        if dash:
+            pieces = [dash.group(1), None, dash.group(3)]
+            out_dash = dash.group(2)
+        cut: list[_Frag] = []
+        for piece in pieces:
+            if piece is None:
+                cut.append(_Frag("text", out_dash))
+                continue
+            depth = 0
+            for pos, ch in enumerate(piece):
+                if ch in "([":
+                    depth += 1
+                elif ch in ")]":
+                    depth -= 1
+                    if depth < 0 and piece[pos + 1:].strip():
+                        cut.append(_Frag("tr", open_ + piece[:pos + 1] + close))
+                        piece = piece[pos + 1:]
+                        break
+            if piece.strip() or not cut:
+                cut.append(_Frag("tr", open_ + piece + close))
+            elif piece:
+                cut.append(_Frag("text", piece))
+        out.extend(cut)
+    return out
 
 
 # what may stand between a divider and the meaning it opens: words, labels, a Greek word without citation
 _LIGHT = {"text", "label", "infl", "tns", "voice"}
-# the longest such run that still belongs to the meaning ("a πυγμή long or tall")
+# the longest such run that still belongs to the meaning ("an umbelliferous plant growing in Crete, Athamanta")
 _LEAD_IN = 60
-_DASH_IN_TR = re.compile(r"(<i[^>]*>)([^<]*?)(:?\s*—)(.*)", re.S)
 _CLAUSE_END = (",", ";", ":", ".", "·", ";")
-
-
-def _split_dashes(frags: list[_Frag]) -> list[_Frag]:
-    """The same fragments, with a dash that stands inside italics ("serpo):—move slowly") set
-    apart as text, so that it divides like any other."""
-    out = []
-    for f in frags:
-        m = _DASH_IN_TR.fullmatch(f.html) if f.kind == "tr" else None
-        if m is None:
-            out.append(f)
-            continue
-        open_, before, dash, rest = m.groups()
-        if before.strip():
-            out.append(_Frag("tr", open_ + before + "</i>"))
-        out.append(_Frag("text", dash))
-        out.append(_Frag("tr", open_ + rest))
-    return out
 
 
 @dataclass
@@ -321,7 +353,7 @@ class _Segment:
     strong: int | None = None       # its first translation that stands on its own
     clause: int | None = None       # its first translation that opens a clause (": scratch, gash")
     weak: int | None = None         # its first Greek phrase with a translation
-    tenses: int = 0                 # the tenses named before its first translation
+    tenses: int = 0                 # the tenses and moods named before its first translation
 
 
 def _segments(frags: list[_Frag], texts: list[str], depth: int) -> list[_Segment]:
@@ -350,7 +382,7 @@ def _segments(frags: list[_Frag], texts: list[str], depth: int) -> list[_Segment
             depth = _brackets(texts[i], depth)
             if seg.opens is None:
                 seg.opens = f.kind
-            if f.kind == "tns" and seg.clause is None and seg.weak is None:
+            if (f.kind == "tns" or 'class="gram mood"' in f.html) and seg.clause is None and seg.weak is None:
                 seg.tenses += 1
             if before == 0 and f.kind == "tr" and _is_gloss(f.html):
                 p = frags[prev] if prev is not None else None
@@ -372,31 +404,89 @@ def _segments(frags: list[_Frag], texts: list[str], depth: int) -> list[_Segment
     return segs
 
 
+# what may lead up to the "for" or "of" of a definition by reference: abbreviations and a few plain words
+_REFERENCE = re.compile(r"(?:(?:[A-Za-z]+\.|\d|form|forms|later|late|rarer|rare|older|old|another|Verb|Noun|word),? )*(?:for|of|=)")
+_FOREGOING = re.compile(r"(?:\b(?:for|of)|=)\s*(?:foreg|sq)\.")
+
+
+def _reference_at(frags: list[_Frag], start: tuple[int, int], equations: bool = True) -> bool:
+    """Whether a definition by reference to another word opens at `start`: "poet. for τέκνον",
+    "collat. form of κτείνω", "pf. 2 of ὁράω", "Ep. for sq.", and with `equations` also
+    "= σπίζα", "poet. Verb, = κτερεΐζω"; not a remark that happens to end so ("perhaps by error
+    for ῥᾳδιέστερος"), nor a pointer among the forms ("ἀμφ-εληλεύθεν, v. ἀμφέρχομαι")."""
+    i, off = start
+    words = ""
+    while i < len(frags) and len(words) <= 40:
+        f = frags[i]
+        if f.kind == "text":
+            words += f.html[off:]
+        elif f.kind in ("label", "tns", "voice"):
+            words += _plain(f.html)
+        else:
+            break
+        i, off = i + 1, 0
+    words = _WS.sub(" ", words).strip()
+    if _FOREGOING.match(words) or re.match(_REFERENCE.pattern + r"\s*(?:foreg|sq)\.", words):
+        return True
+    if len(words) > 40 or i >= len(frags):
+        return False
+    f = frags[i]
+    if f.kind == "xr" and _plain(f.html).lstrip().startswith("="):
+        return equations and (not words or bool(re.fullmatch(r"(?:(?:[A-Za-z]+\.|Verb|Noun|form|word),? ?)*", words)))
+    return (f.kind == "xr" or f.html.startswith('<span class="foreign">')) and bool(_REFERENCE.fullmatch(words))
+
+
+def _first_reference(frags: list[_Frag], texts: list[str], depth: int = 0, equations: bool = True) -> tuple[int, int] | None:
+    """Where the first definition by reference opens, at the start of a clause outside brackets."""
+    for i, f in enumerate(frags):
+        if f.kind != "text":
+            depth = _brackets(texts[i], depth)
+            continue
+        for pos, ch in enumerate(texts[i]):
+            if ch in "([":
+                depth += 1
+            elif ch in ")]":
+                depth = max(depth - 1, 0)
+            elif ch in ",;:—" and depth == 0:
+                at = _skip_stops(frags, (i, pos + 1))
+                if _reference_at(frags, at, equations):
+                    return at
+    return None
+
+
 def _lead_in(frags: list[_Frag], t: int) -> tuple[int, int]:
     """Where the meaning that holds the translation at `t` starts, as (fragment, offset in its
-    text): after the closing bracket, the citation or the like before it, when only a short
-    description stands between ("(πυγμή 11) a πυγμή long or tall"); else at the translation."""
+    text): after the inflection, the closing bracket or the citation before it, when only a short
+    description stands between ("τό, indecl., | the Hebrew Passover"); else at the translation."""
     length = 0
     j = t - 1
     cut = None
     while j >= 0 and cut is None:
         f = frags[j]
-        if f.kind == "infl" or (f.kind not in _LIGHT and f.kind != "tr" and not f.html.startswith('<span class="foreign">')):
+        if (f.kind == "infl" or (f.kind not in _LIGHT and f.kind != "tr" and not f.html.startswith('<span class="foreign">'))
+                or (f.kind != "text" and re.search(r"[)\]]", _plain(f.html)))):
             cut = (j + 1, 0)
-        elif f.kind == "text" and re.search(r"[)\]]", f.html):
-            off = max(f.html.rfind(")"), f.html.rfind("]")) + 1
+        elif f.kind == "text" and re.search(r"[)\]—]", f.html):
+            off = max(f.html.rfind(c) for c in ")]—") + 1
             cut = (j, off) if length + _plain_len(f.html[off:]) <= _LEAD_IN else (t, 0)
         else:
             length += _plain_len(f.html)
             if length > _LEAD_IN:
                 cut = (t, 0)
             j -= 1
-    if cut is None:
-        cut = (0, 0)
-    # the stops and spaces after the divider stay with what comes before
-    i, off = cut
-    while i < t:
+    return _skip_stops(frags, cut or (0, 0), t)
+
+
+def _skip_stops(frags: list[_Frag], at: tuple[int, int], limit: int | None = None) -> tuple[int, int]:
+    """The place after the stops, spaces and inflection that follow `at`: they stay with what
+    comes before a divider ("(…)), ἡ, | feast")."""
+    i, off = at
+    limit = len(frags) if limit is None else limit
+    while i < limit:
         f = frags[i]
+        if f.kind == "infl" and off == 0:
+            i += 1
+            continue
         if f.kind != "text":
             break
         rest = f.html[off:]
@@ -425,49 +515,137 @@ def _cut(frags: list[_Frag], at: tuple[int, int]) -> tuple[list[_Frag], list[_Fr
     return frags[:i] + [_Frag("text", text[:off])], [_Frag("text", text[off:])] + frags[i + 1:]
 
 
-def _meaning_start(frags: list[_Frag], before: list[_Frag] = ()) -> tuple[list[_Frag], list[_Frag], str | None] | None:
-    """Split a section where the meanings of the headword start: what comes before, the meaning,
-    and a note when the split rests on a judgment. None when the section holds no meaning.
-
-    The lexicon divides with dashes: forms, ":—Med., …", ":—Pass., …", then the meaning. The
-    meaning is the first stretch after a dash that holds a translation of its own or opens with a
-    reference ("= ἀρτύω"), from its dash on ("—lengthd. form of φύρω …"). A Greek phrase with its
-    translation counts only where no tense is named: among the forms it glosses another word
-    ("were replaced by forms of εἶμι ibo"). Before the first dash the meaning starts at the first
-    translation, with the short description that leads up to it. `before` is what stands before
-    the section: a bracket opened there may close in it.
-    """
-    frags = _split_dashes(frags)
-    texts = _matched(list(before) + frags)
-    depth = _brackets("".join(texts[:len(before)]))
-    for n, seg in enumerate(_segments(frags, texts[len(before):], depth)):
-        if n == 0:
-            first = min((t for t in (seg.strong, seg.weak) if t is not None), default=None)
-            if first is None:
-                continue
-            at = _lead_in(frags, first)
-            forms, meaning = _cut(frags, at)
-            return forms, meaning, "no divider stands before the first translation" if at == (first, 0) and first == seg.weak else None
-        if seg.opens in ("voice", "tns") and seg.tenses:
-            # the forms of a voice or tense: they hold the meaning only where it follows them
-            # without a dash, as a clause of its own (":—Pass., aor. ἐκνίσθην E. Andr. 209: scratch, gash")
-            if seg.clause is None:
-                continue
-            forms, meaning = _cut(frags, _clause_start(frags, seg.clause))
-            return forms, meaning, "the forms of a voice run on into the first translation without a dash"
-        if seg.strong is not None or seg.opens == "xr" or (seg.weak is not None and seg.tenses == 0):
-            forms, meaning = _cut(frags, seg.start)
-            weak_only = seg.strong is None and seg.opens != "xr"
-            return forms, meaning, "the first translation is that of a Greek phrase" if weak_only else None
+def _bracket_closes(frags: list[_Frag], texts: list[str], depth: int) -> tuple[int, int] | None:
+    """The place after the bracket that closes the `depth` brackets open before the fragments."""
+    for i, f in enumerate(frags):
+        if f.kind == "text":
+            for pos, ch in enumerate(texts[i]):
+                if ch in "([":
+                    depth += 1
+                elif ch in ")]":
+                    depth -= 1
+                    if depth == 0:
+                        return i, pos + 1
+        else:
+            depth = _brackets(texts[i], depth)
+            if depth == 0:
+                return i + 1, 0
     return None
 
 
-_FORM_LABEL = re.compile(r"(?:\b(?:sg|pl|nom|gen|dat|acc|voc|inf|part|subj|opt|imper|ind|indic|aor|fut|pf|impf|pres|plpf)\.|\bdual|\d)\s*\(?\s*$")
+# words that carry on a citation or a remark on the forms, and open no meaning
+_CARRIES_ON = {"etc", "cf", "codd", "cod", "al", "ib", "ibid", "v", "vv", "sq", "s", "l", "dub", "prob", "perh", "and", "but",
+               "also", "or", "in", "ap", "acc", "nom", "gen", "dat", "voc", "sg", "pl", "dual", "id", "fut", "aor", "pf", "impf",
+               "later", "hence", "so", "the", "of", "these", "this", "written", "found", "freq", "rarely", "rare", "more", "not",
+               "never", "always", "only", "for", "from", "poet", "fem", "masc", "neut", "adj", "adv", "comp", "sup", "dim",
+               "patron", "med", "pass", "act", "ep", "ion", "dor", "att", "aeol", "it", "there", "on", "with", "as"}
+
+
+def _reads_as_meaning(frags: list[_Frag], at: tuple[int, int]) -> bool:
+    """Whether the meaning opens at `at`, after an etymology in brackets: with a translation, a
+    reference, or plain words ("(ἀφίημι) one who lets off a military engine"); not with a
+    citation, a form, or a remark on the forms."""
+    rest = _cut(frags, at)[1]
+    seg = _segments(rest, _matched(rest), 0)[0]
+    first = next((i for i, f in enumerate(rest) if not _blank(f)), None)
+    if first is None or seg.tenses:
+        return False
+    f = rest[first]
+    if f.kind == "xr" or _reference_at(rest, (first, 0)):
+        return True
+    if f.kind == "greek":
+        return seg.weak == first
+    if f.kind in ("text", "tr"):
+        word = re.match(r"\s*([A-Za-z]+)", _plain(f.html))
+        return word is not None and word.group(1).lower() not in _CARRIES_ON and (len(word.group(1)) > 1 or word.group(1) in "aI")
+    return False
+
+
+def _meaning_start(frags: list[_Frag], before: list[_Frag], in_forms: bool) -> tuple[list[_Frag], list[_Frag], str, str] | None:
+    """Split the file's section "A" where the meanings of the headword start: what comes before,
+    the meaning, the divider that was used, and a note (or "") when the split rests on a
+    judgment. None when no meaning is found, or nothing shows that forms stand before it.
+
+    `before` is the head: a bracket opened there may close in the section, and what follows such
+    a bracket (an etymology) is the meaning when it reads as one. Else the lexicon's dashes
+    divide: forms, ":—Med., …", ":—Pass., …", then the meaning, which is the first stretch after
+    a dash that holds a translation of its own or opens with a reference ("= ἀρτύω", "poet. for
+    τέκνον"), from its dash on. A Greek phrase with its translation counts only where no tense is
+    named: among the forms it glosses another word ("were replaced by forms of εἶμι ibo").
+    `in_forms` says that the section opens after a label of a form; then a translation that opens
+    a clause before the first dash starts the meaning ("fut. -ιοῦμαι Luc. Alex. 1; reckon").
+    """
+    texts = _matched(list(before) + frags)
+    depth = _brackets("".join(texts[:len(before)]))
+    texts = texts[len(before):]
+    if depth:
+        closes = _bracket_closes(frags, texts, depth)
+        if closes is not None:
+            at = _skip_stops(frags, closes)
+            if _reads_as_meaning(frags, at):
+                return *_cut(frags, at), "bracket", ""
+    forms = in_forms or depth > 0     # something shows that forms stand before the meaning
+    segs = _segments(frags, texts, depth)
+    for n, seg in enumerate(segs):
+        if n == 0:
+            if in_forms:
+                starts = [_clause_start(frags, seg.clause)] if seg.clause is not None else []
+                first_dash = segs[1].start[0] if len(segs) > 1 else len(frags)
+                reference = _first_reference(frags[:first_dash], texts[:first_dash], depth, equations=False)
+                if reference is not None:
+                    starts.append(reference)
+                if starts:
+                    return *_cut(frags, min(starts)), "clause", ""
+        elif seg.opens in ("voice", "tns") and seg.tenses:
+            # the forms of a voice or tense: they hold the meaning only where it follows them
+            # without a dash, as a clause of its own (":—Pass., aor. ἐκνίσθην E. Andr. 209: scratch, gash")
+            if seg.clause is not None:
+                return *_cut(frags, _clause_start(frags, seg.clause)), "clause", "the forms of a voice run on into the first translation without a dash"
+        elif seg.strong is not None or seg.opens == "xr" or (seg.weak is not None and seg.tenses == 0) or _reference_at(frags, seg.start):
+            if not forms:
+                return None
+            weak_only = seg.strong is None and seg.opens != "xr" and not _reference_at(frags, seg.start)
+            return *_cut(frags, seg.start), "dash", "the first translation is that of a Greek phrase" if weak_only else ""
+        forms = forms or seg.tenses > 0 or seg.opens in ("voice", "tns")
+    return None
+
+
+def _plain_words_after_dash(frags: list[_Frag], before: list[_Frag]) -> tuple[list[_Frag], list[_Frag]] | None:
+    """Split a section that holds no translation and no reference at the first dash after which
+    plain words open: there the meaning may stand unmarked ("…voc. Ἰοῖ A. Pr. 635, etc.:—Io,
+    daughter of Inachus")."""
+    texts = _matched(list(before) + frags)
+    depth = _brackets("".join(texts[:len(before)]))
+    for seg in _segments(frags, texts[len(before):], depth)[1:]:
+        if seg.opens in ("text", "tr") and _reads_as_meaning(frags, _skip_stops(frags, seg.start)):
+            return _cut(frags, seg.start)
+    return None
+
+
+def _meaning_in_head(head: list[_Frag], references: bool) -> tuple[int, int] | None:
+    """Where the head itself starts to give the meaning, if it does: at its first translation
+    ("Κελτοί, οἱ, | Celts, Hdt. 2.33 …"), with the short description that leads up to it; and,
+    with `references`, at a definition by reference ("κτίννυμι, | collat. form of κτείνω").
+    The file sets "A." past such a meaning when a derived word or a quoted form follows it."""
+    texts = _matched(head)
+    found = []
+    for seg in _segments(head, texts, 0):
+        if seg.strong is not None:
+            found.append(_lead_in(head, seg.strong))
+            break
+    if references:
+        at = _first_reference(head, texts)
+        if at is not None:
+            found.append(at)
+    return min(found) if found else None
+
+
+_FORM_LABEL = re.compile(r"(?:\b(?:sg|pl|nom|gen|dat|acc|voc|inf|part|subj|opt|imper|ind|indic|aor|fut|pf|impf|pres|plpf)\.|\bdual|\d)\s*[-(]?\s*$")
 
 
 def _in_forms(head: list[_Frag]) -> bool:
     """Whether the head breaks off among the forms: after a grammatical label."""
-    last = next((f for f in reversed(head) if not _blank(f)), None)
+    last = next((f for f in reversed(head) if not (f.kind == "text" and not f.html.strip(" \t\r\n-("))), None)
     if last is None:
         return False
     if last.kind in ("tns", "voice", "label"):
@@ -475,54 +653,133 @@ def _in_forms(head: list[_Frag]) -> bool:
     return last.kind == "text" and bool(_FORM_LABEL.search(_plain(last.html)))
 
 
-def _repair_section_a(head: list[_Frag], senses: list, over: dict) -> str | None:
-    """Take back into `head` what the file put under "A." but belongs to the forms.
+_COMMA_QUOTE = re.compile(r'<span class="quote">\s*,\s*(\([^()<>]*\))?\s*(.*)</span>', re.S)
+
+
+def _comma_first(head: list[_Frag], body: list[_Frag]) -> bool:
+    """A quotation that opens the section with a comma (", (ὄρρος) pertaining to the rump"): the
+    comma, and with it an etymology in brackets, go back to the head. Says whether it did so."""
+    first = next((i for i, f in enumerate(body) if not _blank(f)), None)
+    m = _COMMA_QUOTE.fullmatch(body[first].html) if first is not None else None
+    if m is None:
+        return False
+    etymology, rest = m.groups()
+    head.append(_Frag("text", ", "))
+    if etymology:
+        head.append(_Frag("other", f'<span class="foreign">{etymology}</span>'))
+        head.append(_Frag("text", " "))
+    if rest.strip():
+        body[first] = _Frag("greek", '<span class="quote">' + rest + "</span>")
+    else:
+        del body[first]
+    return True
+
+
+def _find_words(frags: list[_Frag], words: str) -> tuple[int, int] | None:
+    """The place where `words` start in the fragments, spaces aside: in a run of text, or at the
+    start of a child."""
+    target = _WS.sub("", html.escape(words, quote=False))
+    chars: list[str] = []
+    where: list[tuple[int, int]] = []
+    for i, f in enumerate(frags):
+        for pos, ch in enumerate(f.html if f.kind == "text" else _plain(f.html)):
+            if not ch.isspace():
+                chars.append(ch)
+                where.append((i, pos))
+    k = "".join(chars).find(target)
+    if k < 0 or not target:
+        return None
+    i, pos = where[k]
+    if frags[i].kind == "text":
+        return i, pos
+    return (i, 0) if k == 0 or where[k - 1][0] != i else None
+
+
+def _repair_section_a(head: list[_Frag], senses: list, over: dict, decision: str | None = None) -> tuple[str, str] | None:
+    """Put the file's "A." where the meanings start: take back into `head` the forms that the
+    file put under it, or take into the section the meaning that the file left in the head.
 
     `over` says how the senses concerned are rendered instead: None to leave one out, else its
-    labels (None for its own) and its content (None for its own). Returns a note for the review
-    list when the repair rests on a judgment.
+    labels (None for its own) and its content (None for its own). `decision` is the editor's own
+    for the entry (lsj-forms.tsv): the first words of the meaning, "-" for no "A." at all, "="
+    to leave the entry as the file has it. Returns the rule that was used, and a note (or "")
+    when the repair rests on a judgment and wants looking at; None when nothing was done.
     """
+    def html_of(frags: list[_Frag]) -> str:
+        return "".join(f.html for f in frags).lstrip()
+
     s0 = senses[0]
-    body = _frags(s0.text, list(s0))
+    body = _split_italics(_frags(s0.text, list(s0)))
     first = next((f for f in body if not _blank(f)), None)
-    if first is None:
+    if first is None or decision == "=":
         return None
+    if decision == "-":
+        head.extend(body)
+        over[s0] = None
+        return "decided", ""
+    if decision:
+        at = _find_words(head + body, decision)
+        if at is None:
+            raise ValueError(f"lsj-forms.tsv: the words {decision!r} do not stand before the second section of the entry")
+        keep, meaning = _cut(head + body, at)
+        head[:] = keep
+        over[s0] = (None, html_of(meaning))
+        return "decided", ""
     if any(s.get("n") == "A" and s.get("level") == "1" for s in senses[1:]):
         # the lexicon prints an "A." of its own further down: the file's is no section at all
         head.extend(body)
         over[s0] = None
-        return None
-    # the file's "A." opens at a quoted form only where it was placed by rule; and only among the
-    # forms (after a label, inside a bracket) is it out of place
+        return "printed A.", ""
+    # the file's "A." opens at a quoted form, inside a citation ("Hsch. | s.v. κιμβεία") or inside
+    # a remark on the forms ("formed | like ἵστημι"): placed by rule, not at a meaning
+    aside = first.kind == "xr" and re.match(r"\s*(?:s\.\s?v\.|like)\s", _plain(first.html)) is not None
+    quoted = first.kind == "greek" or aside
+    done = None
+    if _comma_first(head, body):
+        over[s0] = (None, html_of(body))
+        done = "comma", ""
+    at = _meaning_in_head(head, references=quoted)
+    if at is not None:
+        keep, meaning = _cut(head, at)
+        head[:] = keep
+        over[s0] = (None, html_of(meaning + body))
+        return "head", ""
     open_ = _brackets("".join(_matched(head + body)[:len(head)]))     # brackets open where "A." stands
-    if first.kind not in ("greek", "xr") or not (open_ or _in_forms(head)):
-        return None
-    if first.kind == "xr" and not open_:
-        return None     # "= κάππαρις", "v. ῥήγνυμι": the entry is defined by the reference
-    found = _meaning_start(body, head)
+    if not (quoted or (first.kind == "xr" and open_)):
+        return done     # "A." opens at a translation, or the entry is defined by a reference ("= κάππαρις")
+    in_forms = _in_forms(head)
+    found = _meaning_start(body, head, in_forms)
     if found is not None:
-        forms, meaning, note = found
+        forms, meaning, divider, note = found
         if not any(not _blank(f) for f in forms):
-            return None     # the meaning opens the section: "A." stands where it should
+            return done     # the meaning opens the section: "A." stands where it should
         head.extend(forms)
-        over[s0] = (None, "".join(f.html for f in meaning).lstrip())
-        return note
-    s1 = senses[1] if len(senses) > 1 else None
-    if s1 is None:
-        return None     # no meaning to move "A." to
-    if (s1.get("n"), s1.get("level")) in (("I", "2"), ("1", "3"), ("a", "4")):
-        # a numbered series opens: all of the file's "A." comes before the first meaning
-        head.extend(body)
-        over[s0] = None
-        next_body = _frags(s1.text, list(s1))
-        if _meaning_start(next_body) is None and any(f.kind == "greek" for f in next_body):
-            return "numbered sections of forms follow, so A. has no place and is left out"
-        over[s1] = (["A", s1.get("n")], None)
-        return None
-    # the first section of a series, unnumbered as in print, and it holds no translation
+        over[s0] = (None, html_of(meaning))
+        return divider, note
+    if not (in_forms or open_ or aside or any(f.kind == "tns" for f in body)):
+        return done     # no forms in sight: quotations for a meaning that the head gives in plain words
+    plain = _plain_words_after_dash(body, head)
+    if plain is not None:
+        forms, meaning = plain
+        head.extend(forms)
+        over[s0] = (None, html_of(meaning))
+        return "plain words", "the meaning is not marked as a translation: taken to start at the plain words after a dash"
+    # forms, and no meaning among them
     head.extend(body)
     over[s0] = None
-    return "the unnumbered first section holds no translation: taken into the head, A. left out"
+    s1 = senses[1] if len(senses) > 1 else None
+    if s1 is None:
+        return "no A.", "the entry holds no translation: all of it taken into the head, A. left out"
+    if (s1.get("n"), s1.get("level")) in (("I", "2"), ("1", "3"), ("a", "4")):
+        # a numbered series opens: all of the file's "A." comes before the first meaning
+        nxt = _frags(s1.text, list(s1))
+        segs = _segments(nxt, _matched(nxt), 0)
+        meaning = any(s.strong is not None or s.weak is not None or s.opens == "xr" for s in segs)
+        if not meaning and any(f.kind == "greek" for f in nxt):
+            return "no A.", "numbered sections of forms follow, so A. has no place and is left out"
+        over[s1] = (["A", s1.get("n")], None)
+        return "next section", ""
+    return "no A.", "the unnumbered first section holds no translation: taken into the head, A. left out"
 
 
 def _lines(frags: list[_Frag]) -> str:
@@ -597,16 +854,19 @@ def _lines(frags: list[_Frag]) -> str:
     return "".join(out)
 
 
-def render_lsj_entry(el) -> tuple[str, str | None]:
-    """An LSJ entry as HTML, and a note for the review list when its repair rests on a judgment."""
+def render_lsj_entry(el, decision: str | None = None) -> tuple[str, tuple[str, str] | None]:
+    """An LSJ entry as HTML, and how its "A." was put right, if it was: the rule used, and a note
+    (or "") when that rests on a judgment. `decision` is the editor's own for the entry."""
     kids = list(el)
     first = next((i for i, k in enumerate(kids) if k.tag == "sense"), len(kids))
     head = _frags(el.text, kids[:first])
     senses = [k for k in kids[first:] if k.tag == "sense"]
     over: dict = {}
-    note = None
+    repair = None
     if senses and senses[0].get("n") == "A" and senses[0].get("level") == "1":
-        note = _repair_section_a(head, senses, over)
+        repair = _repair_section_a(head, senses, over, decision)
+    elif decision:
+        raise ValueError("lsj-forms.tsv: the entry has no section A to decide on")
     rest: list[str] = []
     for k in kids[first:]:
         if k in over:
@@ -619,7 +879,7 @@ def render_lsj_entry(el) -> tuple[str, str | None]:
     s = (f'<p class="head">{s}</p>' if s else "") + _WS.sub(" ", "".join(rest))
     s = re.sub(r" ?<br> ?", "<br>", s)
     s = s.replace(" </p>", "</p>").replace("<p class=\"sense\"> ", "<p class=\"sense\">")
-    return s.strip(), note
+    return s.strip(), repair
 
 
 def _split_key(key: str) -> tuple[str, int]:
@@ -629,9 +889,10 @@ def _split_key(key: str) -> tuple[str, int]:
     return key, 0
 
 
-def parse_lexicon(path: Path, lexicon: str, p4: bool, review: list[tuple[str, str]] | None = None) -> list[Entry]:
-    """The entries of one file. For LSJ, `review` collects (headword, note) for the entries whose
-    forms section was repaired on a judgment."""
+def parse_lexicon(path: Path, lexicon: str, p4: bool, repairs: list[tuple[str, str, str]] | None = None,
+                  decisions: dict[str, str] | None = None) -> list[Entry]:
+    """The entries of one file. For LSJ, `repairs` collects (key, rule, note) for the entries
+    whose "A." was put right, and `decisions` are the editor's own, by key (read_lsj_decisions)."""
     if p4:
         root = load_p4(path)
     else:
@@ -645,9 +906,12 @@ def parse_lexicon(path: Path, lexicon: str, p4: bool, review: list[tuple[str, st
         base, homograph = _split_key(key)
         headword = greek.betacode_to_unicode(base)
         if lexicon == "lsj":
-            entry_html, note = render_lsj_entry(el)
-            if note and review is not None:
-                review.append((key, note))
+            try:
+                entry_html, repair = render_lsj_entry(el, (decisions or {}).get(key))
+            except ValueError as e:
+                raise ValueError(f"{key}: {e}") from None
+            if repair and repairs is not None:
+                repairs.append((key, *repair))
         else:
             entry_html = render_entry(el)
         entries.append(
@@ -663,10 +927,31 @@ def parse_lexicon(path: Path, lexicon: str, p4: bool, review: list[tuple[str, st
     return entries
 
 
-def parse_lsj(sources: Path, review: list[tuple[str, str]] | None = None) -> list[Entry]:
+LSJ_DECISIONS = "lsj-forms.tsv"
+
+
+def read_lsj_decisions(path: Path) -> dict[str, str]:
+    """The editor's decisions on where the meanings of an LSJ entry start, for the entries where
+    the rules go wrong: tab-separated lines of key, decision, comment. The decision is the first
+    words of the meaning ("A." is set before them), "-" for no "A." at all, or "=" to leave the
+    entry as the file has it. Lines starting with # are comments."""
+    decisions = {}
+    if path.exists():
+        for line in path.read_text(encoding="utf-8").splitlines():
+            if line.strip() and not line.startswith("#"):
+                key, decision = line.split("\t")[:2]
+                decisions[key] = decision.strip()
+    return decisions
+
+
+def parse_lsj(sources: Path, repairs: list[tuple[str, str, str]] | None = None) -> list[Entry]:
+    decisions = read_lsj_decisions(sources.parent / LSJ_DECISIONS)
     entries: list[Entry] = []
     for path in sorted((sources / "lsj").glob("grc.lsj.perseus-eng*.xml"), key=lambda p: int(re.search(r"eng(\d+)", p.name).group(1))):
-        entries.extend(parse_lexicon(path, "lsj", p4=False, review=review))
+        entries.extend(parse_lexicon(path, "lsj", p4=False, repairs=repairs, decisions=decisions))
+    unknown = set(decisions) - {e.key for e in entries}
+    if unknown:
+        raise ValueError(f"{LSJ_DECISIONS}: no such entries: {sorted(unknown)}")
     return entries
 
 
