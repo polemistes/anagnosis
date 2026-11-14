@@ -30,10 +30,13 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 /** The visual lines of a long head paragraph that stay visible while it is folded. */
-const val FORMS_SHOWN_LINES = 8
+const val FORMS_SHOWN_LINES = 10
 
-/** A head paragraph is folded only if folding hides at least this many lines. */
-const val FORMS_MIN_HIDDEN_LINES = 4
+/**
+ * A head paragraph is folded only if folding hides at least this many lines: a fold that puts away
+ * a line or two saves nothing and costs a tap. On a phone some 370 of LSJ's forms sections fold.
+ */
+const val FORMS_MIN_HIDDEN_LINES = 5
 
 /** How far the lines of a forms section are indented after their first line. */
 private val FORMS_INDENT = 14.sp

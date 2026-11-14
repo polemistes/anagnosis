@@ -200,7 +200,14 @@ def load_lexica(sources: Path, cache_dir: Path) -> dict[str, list[Entry]]:
             entries = [Entry(**json.loads(l)) for l in cache.open(encoding="utf-8")]
         else:
             print(f"parsing {slug} (cached afterwards in {cache}) ...", file=sys.stderr)
-            entries = fn(sources)
+            if slug == "lsj":
+                # the entries whose forms section was repaired on a judgment, to be looked through
+                review: list[tuple[str, str]] = []
+                entries = fn(sources, review)
+                (cache_dir / "lsj-forms-review.tsv").write_text("".join(f"{k}\t{n}\n" for k, n in review), encoding="utf-8")
+                print(f"lsj: {len(review)} entries on the review list of the forms sections ({cache_dir / 'lsj-forms-review.tsv'})", file=sys.stderr)
+            else:
+                entries = fn(sources)
             with cache.open("w", encoding="utf-8") as f:
                 for e in entries:
                     f.write(json.dumps(e.__dict__, ensure_ascii=False) + "\n")

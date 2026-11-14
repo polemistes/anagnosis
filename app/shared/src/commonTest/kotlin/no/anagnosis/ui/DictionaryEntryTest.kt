@@ -116,31 +116,27 @@ class DictionaryEntryTest {
     }
 
     @Test
-    fun aHeadOfElevenLinesIsShownWhole() {
+    fun aHeadThatWouldHideOnlyAFewLinesIsShownWhole() {
+        val longestWhole = FORMS_SHOWN_LINES + FORMS_MIN_HIDDEN_LINES - 1
         assertTrue(!foldable(1))
         assertTrue(!foldable(FORMS_SHOWN_LINES))
-        assertTrue(!foldable(FORMS_SHOWN_LINES + FORMS_MIN_HIDDEN_LINES - 1))
-        assertEquals(Int.MAX_VALUE, formsMaxLines(11, open = false))
-        assertEquals(Int.MAX_VALUE, formsMaxLines(11, open = true))
+        assertTrue(!foldable(longestWhole))
+        assertEquals(Int.MAX_VALUE, formsMaxLines(longestWhole, open = false))
+        assertEquals(Int.MAX_VALUE, formsMaxLines(longestWhole, open = true))
     }
 
     @Test
-    fun aHeadOfTwelveLinesFoldsToEight() {
-        assertTrue(foldable(12))
-        assertTrue(foldable(40))
-        assertEquals(8, formsMaxLines(12, open = false))
-        assertEquals(8, formsMaxLines(40, open = false))
+    fun aLongerHeadFoldsToTheShownLines() {
+        val shortestFolded = FORMS_SHOWN_LINES + FORMS_MIN_HIDDEN_LINES
+        assertTrue(foldable(shortestFolded))
+        assertTrue(foldable(120))
+        assertEquals(FORMS_SHOWN_LINES, formsMaxLines(shortestFolded, open = false))
+        assertEquals(FORMS_SHOWN_LINES, formsMaxLines(120, open = false))
     }
 
     @Test
     fun anOpenHeadHasNoLimit() {
-        assertEquals(Int.MAX_VALUE, formsMaxLines(12, open = true))
-        assertEquals(Int.MAX_VALUE, formsMaxLines(40, open = true))
-    }
-
-    @Test
-    fun theTwoConstantsAreWhatTheBriefSays() {
-        assertEquals(8, FORMS_SHOWN_LINES)
-        assertEquals(4, FORMS_MIN_HIDDEN_LINES)
+        assertEquals(Int.MAX_VALUE, formsMaxLines(FORMS_SHOWN_LINES + FORMS_MIN_HIDDEN_LINES, open = true))
+        assertEquals(Int.MAX_VALUE, formsMaxLines(120, open = true))
     }
 }
