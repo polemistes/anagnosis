@@ -730,7 +730,7 @@ Artemis was worshipped on the coasts near Malis (637 n.), but we have no proof t
 
 **ἡμερῶν** goes with **ἀνήριθμον**, not with **χρόνον**: ‘without number of days,’=‘extending to countless days.’ Cp. *Ai.*601 f. μηνῶν | ἀνήριθμος: *O. C.*677 n.
 
-The form ἀνήριθμος is of a frequent type. When the second part of a compound adj. has a disyllabic stem (usu. a verbal stem), beginning with a short vowel, this vowel may be lengthened. Such forms were oft. convenient in poetry (as ἀνήροτος, εὐήνεμος, φιλήρετμος), but many of them were equally current in good prose (as ἀνήκεστος, ἀνήνυτος, ἀνηλεῶς, εὐώνυμος). The restriction of ἀνήριθμος to classical poetry and late prose (as Athen. p. 253 F) is not due to 1ts form, but to the fact that classical prose preferred ἀναρίθμητος. Tragedy uses ἀνάριθμος (α^) where it suits the metre (as in *El.*225). In Theocr. 15. 45 ἀνάριθμοι (α—) is Doric for ἀνήριθμοι.
+The form ἀνήριθμος is of a frequent type. When the second part of a compound adj. has a disyllabic stem (usu. a verbal stem), beginning with a short vowel, this vowel may be lengthened. Such forms were oft. convenient in poetry (as ἀνήροτος, εὐήνεμος, φιλήρετμος), but many of them were equally current in good prose (as ἀνήκεστος, ἀνήνυτος, ἀνηλεῶς, εὐώνυμος). The restriction of ἀνήριθμος to classical poetry and late prose (as Athen. p. 253 F) is not due to 1ts form, but to the fact that classical prose preferred ἀναρίθμητος. Tragedy uses ἀνάριθμος (ᾰ) where it suits the metre (as in *El.*225). In Theocr. 15. 45 ἀνάριθμοι (ᾱ) is Doric for ἀνήριθμοι.
 
 ## 248
 **τὸν μὲν πλεῖστον … χρόνον**: i.e., twelve of the fifteen months (44).— **ὡς φήσ' αὐτός**: cp. 253 ὡς αὐτὸς λέγει. It would have seemed incredible without such testimony.
@@ -829,7 +829,7 @@ The conject. *φανεὶς* δὲ δοῦλος ἀνδρος *ἀντʼ* ἐλ
 ## 270
 **αὖθις**, at a later time: *Ant.*1204 n.
 
-**Τιρυνθίαν … κλιτύν**. We cannot be sure that Sophocles had any clear picture of the place before his mind; but his phrase, at least, is not unsuitable. κλιτύς, ‘slope,’ does not necessarily imply great elevation. The site of Tiryns is a ridge of limestone rock on the Argolic Gulf (cp. 1151), in which, at some prehistoric time, it formed an island. The length of this ridge, from N. to S. , is about 328 yards: its width about 109. The upper citadel of Tiryns was at the southern end, where the rock attains a height of about 72 feet above sea-level, and of 59 feet above the present surface of the plain. North of this was the lower citadel; and the whole was surrounded by those massive ‘Cyclopean’ walls from which Tiryns derived its Homeric epithet ( *Il.*2. 559), τειχιόεσσα. See Schliemann's *Tiryns*, p. 177. Such a site, though not steep or lofty, might correctly be described as the Τιρυνθία κλιτύς.—For the **υ^** in **κλιτύν**, cp. *Ant.*1144 n., and *ib.* 1127 λιγνύς: so νηδύς ( Eur. *Andr.*356 etc.).
+**Τιρυνθίαν … κλιτύν**. We cannot be sure that Sophocles had any clear picture of the place before his mind; but his phrase, at least, is not unsuitable. κλιτύς, ‘slope,’ does not necessarily imply great elevation. The site of Tiryns is a ridge of limestone rock on the Argolic Gulf (cp. 1151), in which, at some prehistoric time, it formed an island. The length of this ridge, from N. to S. , is about 328 yards: its width about 109. The upper citadel of Tiryns was at the southern end, where the rock attains a height of about 72 feet above sea-level, and of 59 feet above the present surface of the plain. North of this was the lower citadel; and the whole was surrounded by those massive ‘Cyclopean’ walls from which Tiryns derived its Homeric epithet ( *Il.*2. 559), τειχιόεσσα. See Schliemann's *Tiryns*, p. 177. Such a site, though not steep or lofty, might correctly be described as the Τιρυνθία κλιτύς.—For the **ῠ** in **κλιτύν**, cp. *Ant.*1144 n., and *ib.* 1127 λιγνύς: so νηδύς ( Eur. *Andr.*356 etc.).
 
 **ἵππους νομάδας**: acc. to *Od.*21. 22, Iphitus came, ἵππους διζήμενος, αἵ οἱ ὄλοντο | δώδεκα θήλειαι, ὑπὸ δ' ἡμίονοι ταλαεργοί: but Apollod.2. 6. 2 says, κλαπεισῶν ἐξ Εὐβοίας ὑπὸ Αὐτολύκου βοῶν. For **νομάδας**, ‘wandering,’ cp. *O.T.* 1350 n.
 
@@ -1061,7 +1061,7 @@ Another explanation is: **τοῦ με ἐφίστασαι**, ‘why hast thou c
 ## 350
 **ἃ μὲν γὰρ ἐξείρηκας**, standing where it does, is most simply taken as an acc. of respect; though τούτων might be supplied.
 
-**ἀγνοία**: for the α—, see on *Ph.*129ἀγνοία προσῇ.
+**ἀγνοία**: for the ᾱ, see on *Ph.*129ἀγνοία προσῇ.
 
 ## 352
 **μαρτύρων**: cp. 188.
@@ -1242,7 +1242,7 @@ As to Nauck's change in the order of these verses (cr. n.), it is enough to obse
 **δίκαιος**: cp. 348.
 
 ## 412
-**ποικίλας** (ι—): cp. 1121: for ποικίλος with ref. to subtlety, see on *O. T.*130ἡ ποικιλῳδὸς Σφίγξ.
+**ποικίλας** (ῑ): cp. 1121: for ποικίλος with ref. to subtlety, see on *O. T.*130ἡ ποικιλῳδὸς Σφίγξ.
 
 ## 415
 **ἱστορούμενος**=ἐρωτώμενος, a comparatively rare use of this passive; so Her.1. 24κληθέντας ἱστορέεσθαι εἴ τι λέγοιεν.—*οὐ σιγηλὸς εἶ*: as Creon calls the φύλαξ a λάλημα, *Ant.*320.Possibly an echo of Aesch. *Suppl.*567λέγʼ, εἴ τι βούλει· καὶ γὰρ οὐ σιγηλὸς εἶ: where the phrase alludes to the rhetoric of the herald Copreus.
@@ -1304,7 +1304,7 @@ Deianeira argues:—(1) 438 —448: he need not fear that she will feel rancour 
 ## 441
 **Ἔρωτι μέν νυν**, like *O. T.*31θεοῖσι μέν νυν: so in Ionic prose, as Her.4. 145οὗτος μέν νυν ταῦτα ἔπρησσε.— *ἀντανίσταται*: like the athlete who rises, when called by the herald, and presents himself for the contest: Her.8. 59ἐν τοῖσι ἀγῶσι οἱ προεξανιστάμενοι (i.e., *before* they are thus summoned) ῥαπίζονται. So Plut. *Sull.*7(with ref. to a contest for the consulship) ἀντανίστατο δ' αὐτῷ Μάριος.—*ἐς χεῖρας*, with ἀντανίσταται: a terse way of saying, ‘so as to come to close quarters’: Soph. *O. C.*835τάχ' εἰς βάσανον εἶ χερῶν (n.); *ib.* 975 ἐς χεῖρας ἦλθον. Plut. *Thes.*5ἀγχέμαχοι καὶ μάλιστα δὴ πάντων εἰς χεῖρας ὠθεῖσθαι (to push forward to close quarters) τοῖς ἐναντίοις μεμαθηκότες.
 
-**πύκτης ὅπως**. No one can parry the adroit and rapid blows of Erôs. His antagonist fares like the barbarian opposed to the skilled pugilist (Dem. or. 4 § 40),—ὁ πληγεὶς ἀεὶ τῆς πληγῆς ἔχεται, κἂν ἑτέρωσε πατάξῃς, ἐκεῖσέ εἰσιν αἱ χεῖρες· προβάλλεσθαι δ' η— βλέπειν ἐναντίον οὔτ οἶδεν οὔτ' ἐθέλει. Schneidewin cp. Anacreon fr. 63. 3 στεφάνους ἔνεικον, ὡς δὴ | πρὸς Ἔρωτα πυκταλίζω: but the resemblance is only verbal; the reveller does not wish to *resist* Love, but to *make trial* of his might.
+**πύκτης ὅπως**. No one can parry the adroit and rapid blows of Erôs. His antagonist fares like the barbarian opposed to the skilled pugilist (Dem. or. 4 § 40),—ὁ πληγεὶς ἀεὶ τῆς πληγῆς ἔχεται, κἂν ἑτέρωσε πατάξῃς, ἐκεῖσέ εἰσιν αἱ χεῖρες· προβάλλεσθαι δ' η̄ βλέπειν ἐναντίον οὔτ οἶδεν οὔτ' ἐθέλει. Schneidewin cp. Anacreon fr. 63. 3 στεφάνους ἔνεικον, ὡς δὴ | πρὸς Ἔρωτα πυκταλίζω: but the resemblance is only verbal; the reveller does not wish to *resist* Love, but to *make trial* of his might.
 
 **οὐ καλῶς φρονεῖ**: cp. Eur. fr. 271 Ἔρωτα δ' ὅστις μὴ θεὸν κρίνει μέγαν | καὶ τῶν ἁπάντων δαιμόνων ὑπέρτατον, | ἢ σκαιός ἐστιν, ἢ καλῶν ἄπειρος ὢν | οὐκ οἶδε τὸν μέγιστον ἀνθρώποις θεόν.
 
@@ -1974,7 +1974,7 @@ Let us now examine the text in detail.
 
 (1) **παγχρίστῳ** does not look like a gloss. Dindorf, who thinks it one, can only suggest that it arose from πάγχριστος, a gloss upon συγκραθείς. This is hardly probable. Sophocles is fond of intensive compounds with πᾶς: cp. 505, 652: *El.*851πανσύρτῳ, παμμήνῳ: *Ant.*1282παμμήτωρ: fr. 347 πάγξενος, etc. As an epithet for the robe, παγχρίστῳ, ‘thoroughly anointed,’ is suitable. (Cp. Deianeira's words in 580.) But it cannot be a subst., as the schol. on 663 would make it (λείπει τῷ πέπλῳ).
 
-(2) The words **ἐπὶ προφάσει θηρός**= ἐπίπονον ἁμέραν in 654. Besides being unmetrical, θηρός requires an unexampled sense for προφάσει, viz., ‘precept.’ Hence Dindorf reads προφάνσει (a word which is not extant), and in 654 ἐπιπόνων ἁμερᾶν. For θηρός, M. Haupt conjectured **φάρους** (ΘΗΡΟΣ, ΦΑΡΟΣ): for the α^, cp. 916. The words ἐπὶ προφάσει φάρους then mean, ‘on the pretext of the robe.’ The robe was the πρόφασις for using the love-charm. παγχρίστῳ can be retained in the dat., agreeing with προφάσει (cp. *Ant.*794 n.).
+(2) The words **ἐπὶ προφάσει θηρός**= ἐπίπονον ἁμέραν in 654. Besides being unmetrical, θηρός requires an unexampled sense for προφάσει, viz., ‘precept.’ Hence Dindorf reads προφάνσει (a word which is not extant), and in 654 ἐπιπόνων ἁμερᾶν. For θηρός, M. Haupt conjectured **φάρους** (ΘΗΡΟΣ, ΦΑΡΟΣ): for the ᾰ, cp. 916. The words ἐπὶ προφάσει φάρους then mean, ‘on the pretext of the robe.’ The robe was the πρόφασις for using the love-charm. παγχρίστῳ can be retained in the dat., agreeing with προφάσει (cp. *Ant.*794 n.).
 
 (3) For **συγκραθεὶς**, cp. *Ant.*1311δειλαίᾳ δὲ συγκέκραμαι δύᾳ (‘steeped in’ it): *Ai.*895οἴκτῳ τῷδε συγκεκραμένην (‘steeped in this lament,’—i.e., in the anguish of it). *Plut.* 853 οὕτω πολυφόρῳ συγκέκραμαι δαίμονι. Thus the primary sense of *mixture*, or *fusion*, led to that of intimate union. If we accept φάρους, then συγκραθεὶς would be most naturally taken in the sense which πανίμερος, just before it, could suggest,— ‘made one in heart’ with Deianeira.
 
@@ -2123,7 +2123,7 @@ For **ὀπώρας** as=‘fruit,’ cp. fr. 234. 7 πᾶσα τέμνεται 
 **ἧς … ὕπερ**, *on account of* whom,=ἧς ἕνεκα, or δἰ ἥν: cp. *Ant.*932βραδυτῆτος ὕπερ.
 
 ## 709
-**ἀποφθίσαι**: φθίσω and ἔφθισα have ι— in epic poetry, but ι^ in Attic: cp. 1043: *O. T.*202: *Ai.*1027.
+**ἀποφθίσαι**: φθίσω and ἔφθισα have ῑ in epic poetry, but ῐ in Attic: cp. 1043: *O. T.*202: *Ai.*1027.
 
 ## 711
 **ἀρκεῖ**, ‘*anails*’: not, ‘*suffices.*’ In the latter sense, ἀρκεῖ is usu. impers., but in the former, personal, as it is here (*sc.* ἡ μάθησις).
@@ -2268,7 +2268,7 @@ For **σὺν**, cp. Theocr. 25. 251 τηλοῦ δὲ μιῇ πήδησε σ�
 **προσῆγε**, *sc.* τῷ βωμῷ: cp. Pollux 1. 29 τὰ δὲ προσακτέα φύματα, ἱερεῖα ἄρτια ἄτομα ὁλόκληρα ὑγιῆ ἄπηρα. The imperf. means strictly, ‘*proceeded to* bring’ (after donning the robe). The hist. pres. ταυροκτονεῖ, too, represents an imperf., not an aor.
 
 ## 763
-**ἵλεῳ**. While ἱλαρός (ι^) properly refers to aspect (‘beaming,’ ‘cheerful,’ as opp. to σκυθρωπός), ἵλεως denotes a placid or gracious mood of the mind: cp. Ephippus (a poet of the Middle Comedy), Ἐμπολή fr. 1 ἐποίησέ θ' ἱλαρόν, εὐθέως δ' ἀφεῖλε πᾶν | αὐτοῦ τὸ λυποῦν, κἀπέδειξεν ἵλεων (where Meineke rashly changes θ' ἱλαρόν to θαλερόν).
+**ἵλεῳ**. While ἱλαρός (ῐ) properly refers to aspect (‘beaming,’ ‘cheerful,’ as opp. to σκυθρωπός), ἵλεως denotes a placid or gracious mood of the mind: cp. Ephippus (a poet of the Middle Comedy), Ἐμπολή fr. 1 ἐποίησέ θ' ἱλαρόν, εὐθέως δ' ἀφεῖλε πᾶν | αὐτοῦ τὸ λυποῦν, κἀπέδειξεν ἵλεων (where Meineke rashly changes θ' ἱλαρόν to θαλερόν).
 
 ## 764
 **κόσμῳ τε … καὶ στολῇ**=κοσμίᾳ στολῇ. So in Eur. *Med.*1165Glauce puts on the deadly gifts of Medea, δώροις ὑπερχαίρουσα.—*κατηύχετο*: as Chryses μεγάλ' εὔχετο χεῖρας ἀνασχών, at the sacrifice described in *Il.*1. 447—466; and as Nestor πολλὰ...Ἀθήνῃ | εὔχετʼ on the like occasion in *Od.*3. 430—463. Those two passages explain the ritual imagined here (vv. 756—766). (1) Heracles, having put on the robe, brings his victims to the altar. (2) The next act would be to sprinkle the χέρνιψ on the sacrificers; who would then take barleymeal (οὐλοχύται) in the hands from the basket, κανοῦν. (3) Then Heracles offers his prayer to Zeus. (4) The actual immolation follows; the barley-meal is sprinkled on the heads of victims; hair, cut from one or more of them, is thrown on the altar-fire; and they are slain. (5) The μηρία ( *Ant.*1011), doubly wrapped in fat, are burnt on the altar. This act was in progress, when the agonies of Heracles began.
@@ -2478,7 +2478,7 @@ Others understand: (1) ‘in the Centaur's deadly *net.*’ νεφέλη was a k
 *834* The MSS. have ὃν *τέκετο* θάνατος, *ἔτεκε* δʼ αἰόλος δράκων. This has been explained as if θάνατος were the father and the δράκων (hydra) the mother. But usage does not warrant such a pointed antithesis between τίκτομαι (midd.) and τίκτω. The poets apply either voice to either parent: see, e.g., *Il.*6. 154ὁ δ' ἄρα Γλαῦκον τέκεθ' υἱόν, | αὐτὰρ Γλαῦκος ἔτικτεν ἀμύμονα Βελλεροφόντην: *ib.* 2. 728 ἔτεκεν Ῥήνη, and 742 τέκετο κλυτὸς Ἱπποδάμεια. Lobeck's correction of **ἔτεκε** to **ἔτρεφε** is a certain one.— **αἰόλος**: cp. 11.
 
 ## 835
-**ἀέλιον**, with **α^**, the rarer quantity: cp. *Ant.*100 n.
+**ἀέλιον**, with **ᾰ**, the rarer quantity: cp. *Ant.*100 n.
 
 ## 836
 **ὕδρας … φάσματι**, monstrous hydra: cp. 508 φάσμα ταύρου. **προστετακὼς**, ‘close-locked’ in the <\*>eadly grip of the monster. The word came to the poet's mind through a consciousness of the literal meaning,—viz., that the hero's flesh is ‘glued’ to the robe. Thi<\*> very trait, so thoroughly Sophoclean, confirms the soundness of the text. (Cp. *Ant.*117 n.) The context (**μελαγχαίτα δʼ** etc.) further confirms it. As the Chorus picture the turments of Heracles, two dread shapes rise before their thought,—the hydra, who nursed the venom, and the Centaur, through whose blood it works.—For the proposed emendations of **φάσματι**, see Appendix.
@@ -2493,7 +2493,7 @@ It has long been the general belief that the words **νέσου** (or **νέσσ
 
 Here I may briefly state my own conclusions. (1) **μελαγχαίτα**, ‘the blackhaired one,’ could probably stand without a substantive, or proper name,—esp. as Κενταύρου has occurred not far back; though it would be somewhat harsh.
 
-(2) Comparing v. 830 with v. 840, we see that the words ἔχοι θανὼν λατρείαν in 830 correspond metrically with -α^ κέντρ' ἐπιζέσαντα. The words ἔτι ποτ' ἔτ' ἐπίπονον in 830 ought therefore to correspond with what stands between αἰκίζει in 839 and the α^ before κέντρʼ in 840: viz., acc. to the MSS., νέσου (or νέσσου) θ' ὕπο φοίνια δολόμυθ-.
+(2) Comparing v. 830 with v. 840, we see that the words ἔχοι θανὼν λατρείαν in 830 correspond metrically with -ᾰ κέντρ' ἐπιζέσαντα. The words ἔτι ποτ' ἔτ' ἐπίπονον in 830 ought therefore to correspond with what stands between αἰκίζει in 839 and the ᾰ before κέντρʼ in 840: viz., acc. to the MSS., νέσου (or νέσσου) θ' ὕπο φοίνια δολόμυθ-.
 
 (3) Now, if **νέσου θ' ὕπο** were ejected, this correspondence would be obtained by reading **ὑπόφονα** (instead of φοίνια) **δολόμυθα**. The form ὑπόφονος, though not extant, is correct (cp. ἀπόφονος in Eur. *Or.*163Eur. Or., 192). The κέντρα would be ὑπόφονα as being ‘secretly fraught with death.’ The hiatus in αἰκίζει | ὑπόφονα is not unexampled, though it has not the usual excuse of a slight pause: cp. 833 f., 846 f.; *Ph.*832 n. Such a hiatus has been assumed here by Hermann and others. It might be avoided, however, by reading **φόνια δολιόμυθα**. The forms δολόμυθος and δολιόμυθος are equally correct: cp. δολόμητις and δολιόμητις, δολόφρων and δολιόφρων. In this case, the origin of **ὕπο** would remain obscure.
 
@@ -2949,7 +2949,7 @@ This passage consists of lyrics delivered by actors (ἀπὸ σκηνῆς). As
 The lyric structure is complex, but not obscure. The passage falls into two main parts, separated by the five hexameters in 1018—1022 (ὦ παῖ τοῦδ' ἀνδρὸς...νέμει Ζεύς). I. The first part consists of 1004—1017, in which the first three verses correspond metrically with the last three. II. The second part consists of 1023—1043. (It is equal in length with the first part, though the traditional numbering makes it appear longer.) Here, the first four verses correspond with the last four. Then the central portion of part I. corresponds with the central portion of part II. Thus: (1) 1st strophe, 1004—1006,=1st antistr., 1015—1017. (2) 2nd str., 1007—1009,=2nd antistr., 1027—1030. (3) 3rd str., 1023—1026, =3rd antistr., 1040—1043. The dactyls in 1010—1014, and 1031—1040, could also be regarded as forming a fourth strophe and antistrophe.—For the metres see Metrical Analysis.
 
 ## 1005
-**ἐᾶτέ μʼ, ἐᾶτε … εὐνᾶσθαι**. A restoration of this corrupt passage turns chiefly on the following points. (1) The corresponding verses of the antistrophe (1016 f.) may be taken as showing the true metre. (2) L's variant for **εὐνᾶσαι** in 1005, viz. **ὕστατον**, may therefore be received. **εὐνάσαι** (α^), from εὐνάζω is impossible, since, like εὐνᾶσαι (εὐνάω), it could only be transitive. (3) In 1006 the MS. **δύστανον** is clearly wrong; it may have been either a gloss on **δύσμορον**, or a corruption of **ὕστατον**. (4) Hermann's reading in 1006, **ἐᾶθ' ὕστατον εὐνᾶσθαι**, is strongly confirmed by the metrical correspondence with 1017, **μολὼν τοῦ στυγεροῦ; φεῦ φεῦ**,—a verse of undoubted soundness.
+**ἐᾶτέ μʼ, ἐᾶτε … εὐνᾶσθαι**. A restoration of this corrupt passage turns chiefly on the following points. (1) The corresponding verses of the antistrophe (1016 f.) may be taken as showing the true metre. (2) L's variant for **εὐνᾶσαι** in 1005, viz. **ὕστατον**, may therefore be received. **εὐνάσαι** (ᾰ), from εὐνάζω is impossible, since, like εὐνᾶσαι (εὐνάω), it could only be transitive. (3) In 1006 the MS. **δύστανον** is clearly wrong; it may have been either a gloss on **δύσμορον**, or a corruption of **ὕστατον**. (4) Hermann's reading in 1006, **ἐᾶθ' ὕστατον εὐνᾶσθαι**, is strongly confirmed by the metrical correspondence with 1017, **μολὼν τοῦ στυγεροῦ; φεῦ φεῦ**,—a verse of undoubted soundness.
 
 ## 1007
 **πᾷ … ψαύεις**: a remonstrance against being touched at all. Cp. *Ph.*817ἀπό μ' ὀλεῖς, ἢν προσθίγῃς. Hyllus seeks to place him in a more comfortable position,—as Heracles himself soon requests (1025).—A comparison with the antistrophic verse Ph., 1027, θρῴσκει δ' αὖ, θρῴσκει δειλαία, shows the loss of a syllable here. Hermann follows Seidler in repeating **πᾷ**, which is the simplest and most probable remedy.
@@ -3001,7 +3001,7 @@ The MS. words, **σοί τε γὰρ ὄμμα**, are unquestionably corrupt. Th
 In the Appendix are given the proposed explanations of the vulgate, and various conjectures.
 
 ## 1021
-**λαθίπονον δ' ὀδυνᾶν**: cp. *El.*1002ἄλυπος ἄτης: *I. T.* 450 δουλείας... | ...παυσίπονος. The adj., found only here and in *Ai.*711, recalls the epic λα^θικηδής. It is proleptic predicate with **ἐξανύσαι**, ‘to effect that his life shall forget,’ etc. The reference of **βίοτον** to Heracles would be clearer if we could read **ἔστι οἱ** (not ἔστιν οἱ, cp. 650): but **μοι** is confirmed by **ἔνδοθεν**, ‘from my own resources’ (cp. 730 οἴκοι n.).
+**λαθίπονον δ' ὀδυνᾶν**: cp. *El.*1002ἄλυπος ἄτης: *I. T.* 450 δουλείας... | ...παυσίπονος. The adj., found only here and in *Ai.*711, recalls the epic λᾰθικηδής. It is proleptic predicate with **ἐξανύσαι**, ‘to effect that his life shall forget,’ etc. The reference of **βίοτον** to Heracles would be clearer if we could read **ἔστι οἱ** (not ἔστιν οἱ, cp. 650): but **μοι** is confirmed by **ἔνδοθεν**, ‘from my own resources’ (cp. 730 οἴκοι n.).
 
 **θύραθεν**, by the help of others: cp. Eur. *H. F.*713ὡς θύραθεν εἰκάσαι (i.e. without personal knowledge).—The MS. **ὀδύναν … βιότου** is tenable, but less probable, and much less forcible.
 
@@ -3022,7 +3022,7 @@ In the Appendix are given the proposed explanations of the vulgate, and various 
 **Παλλάς**. Athena was always a guardian goddess to her half-brother, Heracles; of whom she says in *Il.*8. 363 ff., τειρόμενον σώεσκον ὑπ' Εὐρυσθῆος ἀέθλων· | ἦ τοι ὁ μὲν κλαίεσκε πρὸς οὐρανόν, αὐτὰρ ἐμὲ Ζεὺς | τῷ ἐπαλεξήσουσαν ἀπ' οὐρανόθεν προΐαλλεν. She was constantly represented in Greek art as present with Heracles during his labours, or as honouring and comforting him in seasons of repose. Sometimes she gives him a flower or a wreath; sometimes a refreshing draught. And, after the close of his mortal toils, it is Athena Nikè who escorts him to Olympus. (Cp. n. on *Ph.*728.) The art-literature of the subject will be found in Roscher, *Lex.*, p. 2215. Attic black-figure vases often illustrate this relationship,—one which was the more welcome to Athenians because Heracles was essentially a Dorian hero.
 
 ## 1032
-**φύτορʼ**, Dindorf's correction of φύσαντʼ, gives an incomparably better verse than Fröhlich's **τὸν φύσαντ' οἴκτιρʼ**. It is very improbable that **οἴκτιρʼ** would have been corrupted into the aor. partic.; but a rare word, such as **φύτορʼ**, would easily have become **φύσαντʼ**. Dindorf is clearly right in holding that the ν of φύτωρ would be short, though metrical convenience might sometimes cause it to be lengthened in such compounds as ἀμπελοφύτορα (*Anth.* 6. 44), which could not otherwise come into a hexameter. He might have added that the verse, ἀθάνατοι δὲ Πτέρωτα, διὰ πτεροφύτορ' ἀνάγκην, is prefaced by Plato with the remark that it is οὐ σφόδρα τι ἔμμετρον,— a comment which, as W. H. Thompson observes, may apply to the υ— no less than to the δε^ (*Phaedr.* p. 252 C). Hesychius has φύτορες· γεννήτορες. For the spelling οἰκτίρας, cp. 464 n.
+**φύτορʼ**, Dindorf's correction of φύσαντʼ, gives an incomparably better verse than Fröhlich's **τὸν φύσαντ' οἴκτιρʼ**. It is very improbable that **οἴκτιρʼ** would have been corrupted into the aor. partic.; but a rare word, such as **φύτορʼ**, would easily have become **φύσαντʼ**. Dindorf is clearly right in holding that the ν of φύτωρ would be short, though metrical convenience might sometimes cause it to be lengthened in such compounds as ἀμπελοφύτορα (*Anth.* 6. 44), which could not otherwise come into a hexameter. He might have added that the verse, ἀθάνατοι δὲ Πτέρωτα, διὰ πτεροφύτορ' ἀνάγκην, is prefaced by Plato with the remark that it is οὐ σφόδρα τι ἔμμετρον,— a comment which, as W. H. Thompson observes, may apply to the ῡ no less than to the δε̆ (*Phaedr.* p. 252 C). Hesychius has φύτορες· γεννήτορες. For the spelling οἰκτίρας, cp. 464 n.
 
 **ἀνεπίφθονον**: schol. ἀνεμέσητον, ἐφ ῳ οὐδείς σε μέμψεται ὡς πατροκτόνον.
 
@@ -3040,7 +3040,7 @@ In the Appendix are given the proposed explanations of the vulgate, and various 
 **αὐθαίμων**: nom. for voc., like ὦ τλάμων (*O.C.* 185). This adj., found only here,=ὅμαιμος, ὁμαίμων ( *O. C.*330 n.), αὐθόμαιμος (*ib.* 335), as denoting the fraternal tie. But αὔθαιμος, as used in *O.C.* 1078, is merely ‘kinsman.’—It is as the son of Zeus that he invokes Hades.
 
 ## 1042
-**ὠκυπέτᾳ**, an epic epith. for a horse ( *Il.*8. 42), or a bird ( *Op* 210). -*φθίσας* (ι^); 709 n.
+**ὠκυπέτᾳ**, an epic epith. for a horse ( *Il.*8. 42), or a bird ( *Op* 210). -*φθίσας* (ῐ); 709 n.
 
 ## 1045
 **οἵαις**, not **οἵας**, is clearly right here. ἐλαύνειν can take a cogn. acc. denoting the *course* on which one is driven, as *Nub.* 29 πολλοὺς τὸν πατέρ' ἐλαύνεις δρόμους: but when it means ‘to vex’ or ‘harass,’ the troubles inflicted are expressed by the instrum. dat., as in the examples cited by Dindorf: *Ai.*275λύπῃ...ἐλήλαται: Eur. *Andr.*31καχοῖς ἐλαύνομαι: Eur. *Ion*1620ἐλαύνεται συμφοραῖς.

@@ -135,6 +135,8 @@ def _children(el, grk: bool, out: list[str]) -> None:
 
 
 _WS = re.compile(r"\s+")
+# a line that opens with a label: the space inside its tags would indent the line by a letter
+_BR_SPACE = re.compile(r"<br>((?:<(?!/)[^>]*>)+)\s+")
 
 
 def render_entry(el) -> str:
@@ -158,7 +160,7 @@ def render_entry(el) -> str:
         out.append(_text(child.tail, False))
     s = "".join(out)
     s = _WS.sub(" ", s)
-    s = re.sub(r" ?<br> ?", "<br>", s)
+    s = _BR_SPACE.sub(r"<br>\1", re.sub(r" ?<br> ?", "<br>", s))
     s = s.replace(" </p>", "</p>").replace("<p class=\"sense\"> ", "<p class=\"sense\">")
     # the head matter (before the first sense) becomes its own paragraph
     if not s.startswith("<p"):
@@ -929,7 +931,7 @@ def render_lsj_entry(el, decision: str | None = None) -> tuple[str, tuple[str, s
         rest.append(_text(k.tail, False))
     s = _WS.sub(" ", _lines(head)).strip()
     s = (f'<p class="head">{s}</p>' if s else "") + _WS.sub(" ", "".join(rest))
-    s = re.sub(r" ?<br> ?", "<br>", s)
+    s = _BR_SPACE.sub(r"<br>\1", re.sub(r" ?<br> ?", "<br>", s))
     s = s.replace(" </p>", "</p>").replace("<p class=\"sense\"> ", "<p class=\"sense\">")
     return s.strip(), repair
 

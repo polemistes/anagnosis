@@ -297,7 +297,7 @@ Cp. Eur. *Andr.* 719ὧδʼ, ὦ κάκιστε, τῆσδ' ἐλυμήνω χέ
 
 **σῖγ' ἀνέξει**: cp. fr. 618 σύγγνωτε κἀνάσχεσθε σιγῶσαι.
 
-**δειλίαν ἀρεῖ**, ‘win,’ ‘acquire,’ the reputation of cowardice: cp. *Ant.* 924τὴν δυσσέβειαν εὐσεβοῦσ' ἐκτησάμην (n.): *I. T.* 676 καὶ δειλίαν γὰρ καὶ κάκην κεκτήσομαι. The fut. midd. ἀροῦμαι occurs in *O. C.* 460 σωτῆρ' ἀρεῖσθε, and Pind. *P.* 1. 75ἀρέομαι.. μισθόν. The fut. act. **ἀρεῖς** has better MS. authority here; but is (I am now convinced) wrong. It could mean only, ‘*raise* thy cowardice,’ in the sense, ‘allow thy coward fears to rise,’—a very forced one. Further, there is no other example of a fut. act. ἀρῶ with **α^**. See note in Appendix on the Future and Aorist forms from ἀείρω, αἴρω, ἄρνυμαι.
+**δειλίαν ἀρεῖ**, ‘win,’ ‘acquire,’ the reputation of cowardice: cp. *Ant.* 924τὴν δυσσέβειαν εὐσεβοῦσ' ἐκτησάμην (n.): *I. T.* 676 καὶ δειλίαν γὰρ καὶ κάκην κεκτήσομαι. The fut. midd. ἀροῦμαι occurs in *O. C.* 460 σωτῆρ' ἀρεῖσθε, and Pind. *P.* 1. 75ἀρέομαι.. μισθόν. The fut. act. **ἀρεῖς** has better MS. authority here; but is (I am now convinced) wrong. It could mean only, ‘*raise* thy cowardice,’ in the sense, ‘allow thy coward fears to rise,’—a very forced one. Further, there is no other example of a fut. act. ἀρῶ with **ᾰ**. See note in Appendix on the Future and Aorist forms from ἀείρω, αἴρω, ἄρνυμαι.
 
 ## 76
 **ἔνδον ἀρκείτω μένων**: for the personal constr. (instead of ἀρκείτω αὐτὸν ἔνδον μένειν), cp. 635: *Ant.* 547ἀρκέσω θνῄσκους ἐγώ: *O. T.* 1061ἅλις νοσοῦσ' ἐγώ.
@@ -347,7 +347,7 @@ Cp. Eur. *Andr.* 719ὧδʼ, ὦ κάκιστε, τῆσδ' ἐλυμήνω χέ
 ## 89
 **οὗτος**: 71.
 
-**Αἴας**. When a proper name of the 3rd declension comes from a stem ending in αντ (as Αἰαντ), the Attic vocative ends in α—ς: so Θόας, ἄκουσον, *I. T.* 1436. The Homeric vocative of Αἴας is always Αἶαν (α^) —formed on the analogy of the voc from stems in οντ, as Κρέον (stem Κρεοντ). The vocatives Πουλυδάμα ( *Il.* 12. 231), Λαοδάμα ( *Od.* 8. 141) are exceptions, due perhaps to a sense that here the ending -αν might suggest an accusative.
+**Αἴας**. When a proper name of the 3rd declension comes from a stem ending in αντ (as Αἰαντ), the Attic vocative ends in ᾱς: so Θόας, ἄκουσον, *I. T.* 1436. The Homeric vocative of Αἴας is always Αἶαν (ᾰ) —formed on the analogy of the voc from stems in οντ, as Κρέον (stem Κρεοντ). The vocatives Πουλυδάμα ( *Il.* 12. 231), Λαοδάμα ( *Od.* 8. 141) are exceptions, due perhaps to a sense that here the ending -αν might suggest an accusative.
 
 **τῆς συμμάχου**: there is a terrible irony in this, since he had angered her by rejecting her aid in battle (774).
 
@@ -478,7 +478,7 @@ Ajax enters from the tent, carrying the heavy, blood-stained thong, with which h
 ## 129
 **ὄγκον**, ‘pomp,’ *Tr.* 817.Cp. Shakesp. *Merch.* 1. 1. 124 showing a more swelling port | Than my faint means would grant continuance.
 
-**ἄρῃ**, ‘take upon thee,’ ‘assume’: subjunct. of 1st aor. ἠράμην (not of 2nd aor. ἠρόμην, which would have **α^**). The sense of ἠράμην is usu. ‘to take up’ or ‘take upon one,’ rarely ‘to win,’ which is the regular sense of ἠρόμην. See Appendix on 75.— **ἄρῃς** (from 1st aor. act. ἦρα) has inferior MS. authority, and is also less suitable in sense: it would mean, ‘lift up,’ ‘exalt.’
+**ἄρῃ**, ‘take upon thee,’ ‘assume’: subjunct. of 1st aor. ἠράμην (not of 2nd aor. ἠρόμην, which would have **ᾰ**). The sense of ἠράμην is usu. ‘to take up’ or ‘take upon one,’ rarely ‘to win,’ which is the regular sense of ἠρόμην. See Appendix on 75.— **ἄρῃς** (from 1st aor. act. ἦρα) has inferior MS. authority, and is also less suitable in sense: it would mean, ‘lift up,’ ‘exalt.’
 
 ## 130
 **βρίθεις**, ‘art weighty,’ i.e. ‘powerful’: cp. Pind. *N.* 3. 40συγγενεῖ δέ τις εὐδοξίᾳ μέγα βρίθει.
@@ -723,7 +723,7 @@ The simplest remedy is that which is proposed by Prof. v. Wilamowitz-Möllendorf
 ## 196
 **ἀτάρβητα**, neut. pl. as adverb. I keep this, the reading of the MSS., as Wecklein and Bellermann do. Dindorf strikes out **ὧδʼ** (unwarrantably), and writes **ἀτάρβητος**. In an epode, the strophic test is absent, and the logaoedic metre admits of Dindorf's reading. There is, however, a point in favour of **ἀτάρβητα** which deserves to be noted; viz., that the adverbial neut. pl., though it has no special relation to verbs of *motion*, is, in fact, very often joined with such verbs; and that the phrase **ἀτάρβητα ὁρμᾶται** is therefore thoroughly consonant with poetical usage. See (e.g.) *O. T.* 883ὑπέροπτα πορεύεται: *O. C.* 1695οὔτοι κατάμεμπτ' ἔβητον: *Il.* 17. 75ἀκίχητα διώκων | ἵππους: Pind. *O.* 7. 45βαίνει..ἀτέκμαρτα: Soph. *Ph.* 1740ἀπαρθένευτ' ἀλωμένα: Eur. *Bacch.* 435οὐδ' ἄκρανθ' ὡρμήσαμεν. For the hiatus at the end of the verse, cp. 425 χθονὸς μολόντ' ἀπὸ | Ἑλλανίδος.
 
-**εὐανέμοις**, with **α^** (not **α—**, as if Doric for εὐηνέμοις): so probably in fr. 342 εὐανέμου λίμνας. Cp. *Od.* 19. 432πτύχας ἠνεμοέσσας.
+**εὐανέμοις**, with **ᾰ** (not **ᾱ**, as if Doric for εὐηνέμοις): so probably in fr. 342 εὐανέμου λίμνας. Cp. *Od.* 19. 432πτύχας ἠνεμοέσσας.
 
 **βάσσαις**: *O. C.* 673χλωραῖς ὑπὸ βάσσαις (n.): *Il.* 21. 449Ἴδης ἐν κνημοῖσι πολυπτύχου ὑληέσσης.
 
@@ -1326,7 +1326,7 @@ For the sentiment, cp. *Tr.* 742τὸ γὰρ | φανθὲν τίς ἂν δύ�
 
 **ὀλέσσας**: cp. *Ph.* 1163πέλασσον. (Below, in 927, some edd. read ἐξανύσσειν: see n. there.) This epic licence in tragic lyrics is illustrated by their toleration of such forms as τόσσον (185), μέσσος, ζώειν ( *El.* 157, *O. C.* 1213), πνείειν ( *Ant.* 1146), etc.
 
-**βασιλῆς** is the form which the grammarians Draco and Herodian read here (cr. n.). But, so far as Attic inscrr. are available, they indicate that the acc. plur. from ευ stems ended in -έα—ς, always uncontracted; while the contraction in -εῖς (not -ῆς) was the rule from the Macedonian age onwards. (The earliest example of τοὺς βασιλεῖς quoted by Meisterhans, *Gramm. Att. Inschr.* § 39, belongs to 318—311 B.C.) We must regard the acc. βασιλῆς here, then, not as an old Attic, but as a poetical form. On the other hand, βασιλῆς was the form of the *nom.* plur. in the older Attic (cp. 189). Herodian (*l. c.*, cr. n.) cites νομῆς from Xenophon, as if it were an *acc.* pl. like βασιλῆς here: but in the place to which he apparently refers ( I. *Cyr.* 1§ 2) it is *nom.*, and the best recent edd. give νομεῖς.
+**βασιλῆς** is the form which the grammarians Draco and Herodian read here (cr. n.). But, so far as Attic inscrr. are available, they indicate that the acc. plur. from ευ stems ended in -έᾱς, always uncontracted; while the contraction in -εῖς (not -ῆς) was the rule from the Macedonian age onwards. (The earliest example of τοὺς βασιλεῖς quoted by Meisterhans, *Gramm. Att. Inschr.* § 39, belongs to 318—311 B.C.) We must regard the acc. βασιλῆς here, then, not as an old Attic, but as a poetical form. On the other hand, βασιλῆς was the form of the *nom.* plur. in the older Attic (cp. 189). Herodian (*l. c.*, cr. n.) cites νομῆς from Xenophon, as if it were an *acc.* pl. like βασιλῆς here: but in the place to which he apparently refers ( I. *Cyr.* 1§ 2) it is *nom.*, and the best recent edd. give νομεῖς.
 
 **θάνοιμι καὐτός**: cp. Aesch. *Cho.* 438ἔπειτ' ἐγὼ νοσφίσας ὀλοίμαν.
 
@@ -1348,7 +1348,7 @@ For the sentiment, cp. *Tr.* 742τὸ γὰρ | φανθὲν τίς ἂν δύ�
 ## 401
 **ἁ Διὸς … θεὸς**: cp. 450: *O. C.* 623χὡ Διὸς Φοῖβος.
 
-**ὀλέθριον** should answer metrically to εὔφρονες in 420. If it be sound, the first syllable must represent the anacrusis, which is omitted before εὔφρονες: and the ε is long, as it is in 799 (ὀλεθρίαν), *O. T.* 1341(ὀλέθριον), and *O. C.* 1683(ὀλεθρία): though we find ε^ in *Tr.* 845(ὀλεθρίαισι), and ib. 878 (ὀλεθρία). The neatest emendation is **οὔλιον** (cr. n.).
+**ὀλέθριον** should answer metrically to εὔφρονες in 420. If it be sound, the first syllable must represent the anacrusis, which is omitted before εὔφρονες: and the ε is long, as it is in 799 (ὀλεθρίαν), *O. T.* 1341(ὀλέθριον), and *O. C.* 1683(ὀλεθρία): though we find ε̆ in *Tr.* 845(ὀλεθρίαισι), and ib. 878 (ὀλεθρία). The neatest emendation is **οὔλιον** (cr. n.).
 
 ## 403
 **φύγῃ … μενῶ**. For the delib. subjunct. combined with fut. indic., cp. *Tr.* 973τί πάθω; τί δὲ μήσομαι;
@@ -1846,7 +1846,7 @@ The word ἀτάλλω may have been suggested to Sophocles by a trait in the sc
 ## 563
 **τροφῆς ἄοκνον**: any adj. compounded with *a privativum* can take a genitive; and here the gen. is the more natural since ἅοκνος suggests the notion of ἀφειδής.
 
-**ἔμπα**: this form occurs in Pind. *N.* 4. 36, and Callim. *Epigr.* 13 (καί σφιν ἀνιηρὸν μὲν ἐρεῖς ἔπος, ἔμπα δὲ λέξον). A Doric form ἔμπα—ν is used by Pind. *P.* 5. 51.In 122 and 1338, as in Soph. *Ant.* 845, we have ἔμπας. (The form ἔμπακʼ, once read here, was a mere blunder: see cr. n.)— **κεἰ** stands here (as in 692 and 962) where εἰ καί would be normal, since the reference is to an actual fact: cp. Soph. *O. T.*appendix on v. 305, p. 224.
+**ἔμπα**: this form occurs in Pind. *N.* 4. 36, and Callim. *Epigr.* 13 (καί σφιν ἀνιηρὸν μὲν ἐρεῖς ἔπος, ἔμπα δὲ λέξον). A Doric form ἔμπᾱν is used by Pind. *P.* 5. 51.In 122 and 1338, as in Soph. *Ant.* 845, we have ἔμπας. (The form ἔμπακʼ, once read here, was a mere blunder: see cr. n.)— **κεἰ** stands here (as in 692 and 962) where εἰ καί would be normal, since the reference is to an actual fact: cp. Soph. *O. T.*appendix on v. 305, p. 224.
 
 ## 564
 **τηλωπὸς**, properly ‘of distant aspect’ (ὤψ), here merely ‘distant,’ as in *Ph.* 216βοᾷ τηλωπὸν ἰωάν.
@@ -2014,7 +2014,7 @@ Prof. Campbell pronounces this interpretation ‘untenable,’ and renders ἔφ
 
 **πρὶν δή ποτε**, ‘in some bygone day.’
 
-**Ἄρει** with **α—**, as in 254 (n.).
+**Ἄρει** with **ᾱ**, as in 254 (n.).
 
 ## 614
 **φρενὸς οἰοβώτας**, ‘a lonely pasturer of his thoughts,’—i.e., one who nurses lonely thoughts. They allude to the gloomy and ominous despair which has replaced his frenzy. The ending -βώτης could mean either βοσκόμενος, as in *Ph.* 1148οὐρεσιβώτας (θῆρας), or βόσκων. The latter seems best here; his φρήν represents the flock; he is the shepherd. Cp. *Suppl.* 304 ποῖον πανόπτην οἰοβουκόλον λέγεις; (Argus,— Io being his sole charge.) Simonides fr. 133 Ὄσσα, Κιθαιρῶνός τ' οἰονόμοι σκοπιαί. Other compounds in which οἶος has a like force are οἰόφρων (πέτρα, *Suppl.* 795), οἰόζωνος ( *O. T.* 846).
@@ -2315,7 +2315,7 @@ The third ἐπεισόδιον consists of two scenes. (1) 719—814. The messe
 **στρατήγιον**, the κλισία of Agamemnon. So in *Il.* 7. 382 an agora is held νηὶ πάρα πρυμνῇ Ἀγαμέμνονος. He was stationed near Odysseus, whose post, at the middle point of the naval camp ( *Il.* 11. 6), is mentioned as being near the place of assembly, judgment, and sacrifice; ἵνα σφ' ἀγορή τε θέμις τε | ἤην, τῇ δὴ καί σφι θεῶν ἐτετεύχατο βωμοί ( *Il.* 11. 807 f.). Hence **μέσον** here. The chiefs of the army had now met in front of these headquarters to hold a βουλή on the deed of Ajax; while the λαοί were gathered in ἀγορά around them. In Attic prose στρατήγιον means the council-chamber of the ten στρατηγοί (Aeschin. or. 2 § 85: or. 3. § 146).
 
 ## 722
-**κυδάζεται**. The word from which this verb comes is written κῦδος by the schol. in L here (ἀρσενικῶς δὲ ὁ κῦδος ἐπὶ τῆς ὕβρεως), and by the schol. on Apoll. Rhod. 1. 1337 κῦδος ἀρσενικῶς ἡ λοιδορία παρὰ Συρακουσίοις. The schol. in L illustrates the verb by two quotations: (1) from the Ἄμυκος of Epicharmus: Ἄμυκε μὴ κύδαζέ μοι τὸν πρεσβύτερον ἀδελφόν: (2) from the *Iphigeneia* of Aeschylus: οὔ τοι γυναιξὶ κυδάζεσθαι· τί γάρ;—where Elmsley inserts δεῖ, and Blomfield χρή, after γυναιξί. The verb having υ^, the noun must have been ὁ κύδος (υ^).—For the dat. of the agency, **Ἀργείοις**, cp. 539.
+**κυδάζεται**. The word from which this verb comes is written κῦδος by the schol. in L here (ἀρσενικῶς δὲ ὁ κῦδος ἐπὶ τῆς ὕβρεως), and by the schol. on Apoll. Rhod. 1. 1337 κῦδος ἀρσενικῶς ἡ λοιδορία παρὰ Συρακουσίοις. The schol. in L illustrates the verb by two quotations: (1) from the Ἄμυκος of Epicharmus: Ἄμυκε μὴ κύδαζέ μοι τὸν πρεσβύτερον ἀδελφόν: (2) from the *Iphigeneia* of Aeschylus: οὔ τοι γυναιξὶ κυδάζεσθαι· τί γάρ;—where Elmsley inserts δεῖ, and Blomfield χρή, after γυναιξί. The verb having ῠ, the noun must have been ὁ κύδος (ῠ).—For the dat. of the agency, **Ἀργείοις**, cp. 539.
 
 ## 723
 **στείχοντα** κ.τ.λ. They saw him coming while he was still far off; when he drew nearer, they gathered round him in a threatening crowd; and now, having arrived at the στρατήγιον, he is being reviled by them. Notwithstanding the position of **ἐν κύκλῳ**, the poet may have meant **πρόσωθεν** to go with **μαθόντες**, which certainly suits the sense better than to take it with στείχοντα. The order of words, though somewhat awkward, is not bolder than that in *Ant.* 944 f. ἔτλα καὶ Δανάας οὐράνιον φῶς | ἀλλάξαι δέμας ἐν χαλκοδέτοις αὐλαῖς. Cp. also *El.* 1349 f., *Ph.* 598, Ph. 1163.
@@ -2395,7 +2395,7 @@ The third ἐπεισόδιον consists of two scenes. (1) 719—814. The messe
 **οἶος Ἀτρειδῶν δίχα**: cp. 464 n.
 
 ## 751
-**φιλοφρόνως**: for the ο— before φρ, cp. *Ant.* 1104τοὺς κακόφρονας: ib. 336 περιβρυχίοισιν (n.).
+**φιλοφρόνως**: for the ο̄ before φρ, cp. *Ant.* 1104τοὺς κακόφρονας: ib. 336 περιβρυχίοισιν (n.).
 
 ## 752
 **παντοίᾳ τέχνῃ**: Her. 1. 112ἐχρήιζε μηδεμιῇ τέχνῃ ἐκθεῖναί μιν. Xen. *Anab.* 4. 5. 16ἐδεῖτο αὐτῶν πάσῃ τέχνῃ καὶ μηχανῇ μὴ ἀπολείπεσθαι.
@@ -2460,7 +2460,7 @@ It is not without reason, then, that the reading **κἀνόνητα** is suppor
 
 Other explanations are the following. (1) The poet meant to add something to the effect of ἠτίμασε τὴν παραίνεσιν, but changed the form of the sentence. (2) Ἀθάνας, ἡνίκα..ηὐδᾶτο stands for a gen. absol., Ἀθάνας αὐδωμένης. (3) The gen. depends on ἔπος in 773, ‘a saying *about* her,’ like μῦθος..φίλων ( *Ant.* 11).
 
-The most attractive remedy is Mehlhorn's, **δίαν Ἀθάναν**, so that the verb shall have the same constr. as in *Ph.* 1065.But, if this be right, how did the genitive arise? Possibly some annotator, who thought that after ηὐδᾶτʼ in 772 the subject of ἀντιφωνεῖ might be obscure, wrote ΑΙΑΣ in the margin, and this, mistaken for ΔΙΑΣ, led to ΔΙΑΣ ΑΘΑΝΑΣ supplanting ΔΙΑΝ ΑΘΑΝΑΝ in the text. The occurrence of the same words in 757 may have helped. [The Homeric fem. is δῖα, δῖαν. But δία— occurs in *Rhes.* 226 Ἄπολλον, ὦ δία κεφαλά.]
+The most attractive remedy is Mehlhorn's, **δίαν Ἀθάναν**, so that the verb shall have the same constr. as in *Ph.* 1065.But, if this be right, how did the genitive arise? Possibly some annotator, who thought that after ηὐδᾶτʼ in 772 the subject of ἀντιφωνεῖ might be obscure, wrote ΑΙΑΣ in the margin, and this, mistaken for ΔΙΑΣ, led to ΔΙΑΣ ΑΘΑΝΑΣ supplanting ΔΙΑΝ ΑΘΑΝΑΝ in the text. The occurrence of the same words in 757 may have helped. [The Homeric fem. is δῖα, δῖαν. But δίᾱ occurs in *Rhes.* 226 Ἄπολλον, ὦ δία κεφαλά.]
 
 If, on the other hand, **δίας Ἀθάνας** be genuine, then corruption may lurk in **δεύτερον**: e.g. the poet may have written εἶτα δ' ἀντίον.
 
@@ -2829,7 +2829,7 @@ For the lyric metres see Metrical Analysis.
 
 **ἔχων … ἄγρας**: cp. 564 θήραν ἔχων (n.).
 
-**ἀΰπνους**: the υ is long here, as in *O. C.* 685(where ἄϋπνοι=ἀηδών in 672), though short in *Ph.* 848: as in *Ph.* 827 the first Υπνε has υ—, and the second υ^. Hermann unnecessarily inserted **ἀμφʼ** before ἀΰπνους (taking the υ as short). The metre is dochmiac: cp. 926 n.
+**ἀΰπνους**: the υ is long here, as in *O. C.* 685(where ἄϋπνοι=ἀηδών in 672), though short in *Ph.* 848: as in *Ph.* 827 the first Υπνε has ῡ, and the second ῠ. Hermann unnecessarily inserted **ἀμφʼ** before ἀΰπνους (taking the υ as short). The metre is dochmiac: cp. 926 n.
 
 ## 883
 **ἢ τίς Ὀλυμπιάδων θεᾶν** κ.τ.λ. ‘Can any Oread of the Mysian Olympus, or any Naiad of the streams that flow into the Hellespont, tell us where he is?’ **θεᾶν** is understood again with **ποταμῶν** (Ὀλυμπιάδες θεαί, ἢ θεαὶ ποταμῶν): for the adj. co-ordinated with a gen., cp. Pind. *N.* 8. 2παρθενηΐοις παίδων τ' ἐφίζοισα γλεφάροις: Eur. *Med.* 404τοῖς Σισυφείοις τοῖς τ' Ἰάσονος γάμοις. As to the Mysian Olympus, [see on 720](#720).
@@ -2839,7 +2839,7 @@ For the lyric metres see Metrical Analysis.
 **Βοσπορίων**, of the Hellespont; cp. Aesch. *Pers.* 723, καὶ τόδ' ἐξέπραξεν, ὥστε Βόσπορον κλῇσαι μέγαν; with ref. to the bridges of boats made by order of Xerxes, ἡ ξεῦξις τοῦ Ἑλλησπόντου ( Her. 7. 35).—The word **ἴδρις**, added in L and most MSS. after **ποταμῶν**, was an early interpolation, caused by the elliptical construction. The schol. (on 879) read it, and explains ποταμῶν ἴδρις by Ναΐς. But the antistr., Her. v. 930, πάννυχα καὶ φαέθοντ' ἀνεστέναζες, is clearly sound; though Elmsley suggested that ἄναξ may have dropped out before ἀνεστέναζες.
 
 ## 885
-**εἴ ποθι … λεύσσων**=λεύσσων, εἴ ποθι (=που) λεύσσει: *Ph.* 1204ξίφος, εἴ ποθεν, | ἢ γένυν, ἢ βελέων τι, προπέμψατε, i.e., εἴ ποθεν προπέμψαι ἔχετε (n.).—*ἀπύοι*, -u-: Ar. *Eq.* 1023ἐγὼ μέν εἰμ' ὁ κύων· πρὸ σοῦ γὰρ ἀπύω. (Moschus 2. 124 has ἠπύοντες with υ—: elsewhere the pres. has υ^: the fut. and aor. have υ—.)
+**εἴ ποθι … λεύσσων**=λεύσσων, εἴ ποθι (=που) λεύσσει: *Ph.* 1204ξίφος, εἴ ποθεν, | ἢ γένυν, ἢ βελέων τι, προπέμψατε, i.e., εἴ ποθεν προπέμψαι ἔχετε (n.).—*ἀπύοι*, -u-: Ar. *Eq.* 1023ἐγὼ μέν εἰμ' ὁ κύων· πρὸ σοῦ γὰρ ἀπύω. (Moschus 2. 124 has ἠπύοντες with ῡ: elsewhere the pres. has ῠ: the fut. and aor. have ῡ.)
 
 **σχέτλια**, instead of σχέτλιον: so 1126 δίκαια: *Ph.* 524αἰσχρά: Eur. *Or.* 413δεινά: Thuc. 5. 14§ 4 ἀδύνατα.
 
@@ -2961,7 +2961,7 @@ For the lyric metres see Metrical Analysis.
 
 **ἄρʼ**: 233 n.
 
-Erfurdt's insertion of **ὧδʼ** before **ἐξανύσειν** has been widely accepted: then ἐξ- (corresponding with the α^ of ἀΰπνους in 881) takes the place of a short syllable; a license possible in dochmiacs. But L's reading, στερεόφρων ἄρ' *ἐξανύσσειν* κακάν, gives an exact metrical correspondence, without any conjectural addition. No one could hesitate to prefer it, but for a doubt as to whether Tragic lyrics could admit the form ἐξανύσσειν. The doubled ς occurs in *Od.* 16. 373ἀνύσσεσθαι (fut. midd.): *Theog.* 954 ἀνύσσας: Pind. *P.* 12. 11ἄνυσσεν. Sophocles has ὀλέσσας (390), and πέλασσον ( Soph. *Ph.* 1163). Hartung, G. Wolff, and Wecklein read ἐξανύσσειν: rightly, I believe. Observe that the close kinship of lyric with epic diction here is significantly marked by **οὐλίῳ** in 933,—an epic and Pindaric word which is free from just suspicion, yet occurs nowhere else in Tragedy.
+Erfurdt's insertion of **ὧδʼ** before **ἐξανύσειν** has been widely accepted: then ἐξ- (corresponding with the ᾰ of ἀΰπνους in 881) takes the place of a short syllable; a license possible in dochmiacs. But L's reading, στερεόφρων ἄρ' *ἐξανύσσειν* κακάν, gives an exact metrical correspondence, without any conjectural addition. No one could hesitate to prefer it, but for a doubt as to whether Tragic lyrics could admit the form ἐξανύσσειν. The doubled ς occurs in *Od.* 16. 373ἀνύσσεσθαι (fut. midd.): *Theog.* 954 ἀνύσσας: Pind. *P.* 12. 11ἄνυσσεν. Sophocles has ὀλέσσας (390), and πέλασσον ( Soph. *Ph.* 1163). Hartung, G. Wolff, and Wecklein read ἐξανύσσειν: rightly, I believe. Observe that the close kinship of lyric with epic diction here is significantly marked by **οὐλίῳ** in 933,—an epic and Pindaric word which is free from just suspicion, yet occurs nowhere else in Tragedy.
 
 ## 929
 **τοῖα**: 164 n.
@@ -3240,7 +3240,7 @@ Lycophron borrows the word κνώδων from this passage, in alluding to the su
 **εἶδες**, ‘seest thou?’ (a rhetorical apostrophe to the corpse). The aor. is used as in *Tr.* 1221ἔγνως (‘thou art right’).
 
 ## 1027
-**καὶ θανὼν ἀποφθίσειν**. As Heracles says of Nessus, ζῶντά μ' ἔκτεινεν θανών, *Tr.* 1163(n.). In Homer the fut. φθίσω and the aor. ἔφθισα always have ι—. The Attic poets use ἔφθισα with ι^ ( Aesch. *Eum.* 173, Soph. *O. T.* 202, etc.); this is the only Attic example of the fut. φθίσω. (The form ἀποφθιεῖν, which Dindorf once read here, has no authority, and is contrary to analogy.)
+**καὶ θανὼν ἀποφθίσειν**. As Heracles says of Nessus, ζῶντά μ' ἔκτεινεν θανών, *Tr.* 1163(n.). In Homer the fut. φθίσω and the aor. ἔφθισα always have ῑ. The Attic poets use ἔφθισα with ῐ ( Aesch. *Eum.* 173, Soph. *O. T.* 202, etc.); this is the only Attic example of the fut. φθίσω. (The form ἀποφθιεῖν, which Dindorf once read here, has no authority, and is contrary to analogy.)
 
 *1028*—
 
@@ -3370,7 +3370,7 @@ The slow movement of the verse (with only quasi-caesura after the 3rd foot) is i
 ## 1066
 **πρὸς ταῦτα**: 971 n.
 
-**ἐξάρῃς** (α—): cp. *O. T.* 914ὑψοῦ γὰρ αἴρει θυμόν.
+**ἐξάρῃς** (ᾱ): cp. *O. T.* 914ὑψοῦ γὰρ αἴρει θυμόν.
 
 ## 1067
 **εἰ … μὴ ʼδυνήθημεν**, ‘granting that we were unable.’ Cp. Thuc. 3. 40§ 4 εἰ γὰρ οὗτοι ὀρθῶς ἀπέστησαν, ὑμεῖς ἂν οὐ χρεὼν ἄρχοιτε, ‘assuming that they were right to revolt, your rule would be unwarrantable.’
@@ -3811,7 +3811,7 @@ Remark the repetition of **τέρψιν** (after 1201): it recurs in 1216. See n
 **ἔπεστι πόντου | πρόβλημʼ**: the genitive goes with πρόβλημα: cp. *Ph.* 1455πόντου προβολῆς: Quintus Smyrn. 9. 378 ἐπὶ προβολῇσι θαλάσσης. The scholiast confirms the reading of the MSS.: ἔνθα ὑλώδης ἐξοχὴ τῆς θαλάττης ἐστί. With **ἔπεστι** we understand πόντῳ from πόντου. For ἔπεστι after ἐπέσται in 1216, cp. *Ant.* 73, Ant. 76(κείσομαι), Ant. 613, Ant. 618(ἕρπει).
 
 ## 1220
-**ὑπὸ πλάκα Σουνίου**: for the ο— of ὑπὸ before πλ, cp. *Ant.* 612τὸ πρίν.—Sunium, the S. E. promontory of Attica, is, in Leake's words, ‘lofty, steep, and rugged on every side, except the south-west, where there is a beach and a small bay, with an island at the entrance’ (*Demi of Attica*, vol. II. p. 63). On the highest point stood the Doric temple of Athena, built probably about the middle of the 5th century B.C. The modern name of the cape, *Colonna* (Κολόνναις), is derived from the remaining columns of the temple, which are of a brilliant whiteness, the marble of which they are made being of a much lighter colour than the Pentelic. ‘As seen from a distance, glittering in the sun across the blue sea, they look like pillars of snow or salt, rather than stone’ (Mure, *Tour* II. p. 123). Cp. Eur. *Cycl.* 293ἥ τε Σουνίου | δίας Ἀθάνας σῶς ὑπάργυρος πέτρα (where the epithet alludes to the silver-mines of Laurium). Poseidon also was worshipped at Sunium (Σουνιάρατε, Ar. *Eq.* 560): but Leake was disposed to think that he can have had an altar only, as the sole buildings traceable were the temple of Athena and the fortress erected on Sunium circ. 413 B.C. (*Demi* II. p. 64). Wordsworth, however, saw remains which, he thought, might be those of a Poseidonion (*Athens and Attica*, p. 177).
+**ὑπὸ πλάκα Σουνίου**: for the ο̄ of ὑπὸ before πλ, cp. *Ant.* 612τὸ πρίν.—Sunium, the S. E. promontory of Attica, is, in Leake's words, ‘lofty, steep, and rugged on every side, except the south-west, where there is a beach and a small bay, with an island at the entrance’ (*Demi of Attica*, vol. II. p. 63). On the highest point stood the Doric temple of Athena, built probably about the middle of the 5th century B.C. The modern name of the cape, *Colonna* (Κολόνναις), is derived from the remaining columns of the temple, which are of a brilliant whiteness, the marble of which they are made being of a much lighter colour than the Pentelic. ‘As seen from a distance, glittering in the sun across the blue sea, they look like pillars of snow or salt, rather than stone’ (Mure, *Tour* II. p. 123). Cp. Eur. *Cycl.* 293ἥ τε Σουνίου | δίας Ἀθάνας σῶς ὑπάργυρος πέτρα (where the epithet alludes to the silver-mines of Laurium). Poseidon also was worshipped at Sunium (Σουνιάρατε, Ar. *Eq.* 560): but Leake was disposed to think that he can have had an altar only, as the sole buildings traceable were the temple of Athena and the fortress erected on Sunium circ. 413 B.C. (*Demi* II. p. 64). Wordsworth, however, saw remains which, he thought, might be those of a Poseidonion (*Athens and Attica*, p. 177).
 
 ## 1221
 **τὰς ἱερὰς**: so Pind. fr. 75. 4 ἐν ταῖς ἱεραῖς Ἀθάναις. Ar. *Eq.* 1319ὦ ταῖς ἱεραῖς φέγγος Ἀθήναις: Timocreon fr. I. 3 ἱερᾶν ἀπ' Ἀθηνᾶν. Cp. *El.* 707Ἀθηνῶν τῶν θεοδμήτων.
@@ -3939,7 +3939,7 @@ The *exodos* falls into three parts. 1. The scene between Teucer and Agamemnon: 
 **ὀρθὸς**, ‘it is brought straight into the road’ (from which it has strayed): cp. *Helen.* 1555 ταύρειος δὲ ποὺς | οὐκ ἤθελ' ὀρθὸς σανίδα προσβῆναι κάτα, ‘to advance straight across the plank’ (into the ship).
 
 ## 1255
-**φάρμακον**, ‘corrective,’ τὴν μάστιγα. Cp. *O.C.* 714 ἵπποισιν τὸν ἀκεστῆρα χαλινόν. So the bit for Pegasus, given by Athena to Bellerophon, is φίλτρον τόδ' ἵππειον ( Pind. *O.* 13. 68), φάρμακον πραυ— ́ (ib. 85).
+**φάρμακον**, ‘corrective,’ τὴν μάστιγα. Cp. *O.C.* 714 ἵπποισιν τὸν ἀκεστῆρα χαλινόν. So the bit for Pegasus, given by Athena to Bellerophon, is φίλτρον τόδ' ἵππειον ( Pind. *O.* 13. 68), φάρμακον πραῡ́ (ib. 85).
 
 **νοῦν κατακτήσει**: cp. Plat. *Rep.* 591B (ἡ ψυχὴ) σωφροσύνην.. κτωμένη. So κτῆμα is said of moral or mental attributes (*O.T.* 549, *Ant.* 1050). **τινά**, ironical, some small measure of it.
 
@@ -4424,7 +4424,7 @@ On the other hand, Odysseus is at liberty to assist in protecting the funeral fr
 ## 1414
 **φησὶ**: i.e., if he says that he is a friend, let him now prove it.
 
-**σούσθω**: for the form, see on *Tr.* 645σοῦται.— *βάτω*: of this 2nd aor. imperat. we find also ἔμβα— ( Eur. *El.* 113), κατάβα— ( *Vesp.* 979), βᾶθι ( Soph. *Ph.* 1196), βᾶτε ( Soph. *O. C.* 1547).
+**σούσθω**: for the form, see on *Tr.* 645σοῦται.— *βάτω*: of this 2nd aor. imperat. we find also ἔμβᾱ ( Eur. *El.* 113), κατάβᾱ ( *Vesp.* 979), βᾶθι ( Soph. *Ph.* 1196), βᾶτε ( Soph. *O. C.* 1547).
 
 **πάντ' ἀγαθῷ**: cp. 910 ὁ πάντα κωφός.
 

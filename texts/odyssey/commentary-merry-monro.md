@@ -305,7 +305,7 @@ See on Od. 5.43.
 **δουροδόκης ἔντοσθεν**. The interpretation of Eustath. seems simplest, that the δουροδόκη was εἰς κίονα ἐγγεγλυμμένη, as if the spearshafts rested in the flutings of the column; an interpretation which does not suit well with the epithet ἐυξόου. Rumpf, Aed. Hom. 1. 29, regards it as a rack against the wall in the space between two engaged columns at the entrance to the μέγαρον. This interpretation he prefers, because in Od.16. 40Telemachus gives up his spear and ἔστησε φέρων πρὸς κίονα μακρήν ( Od.17. 29) *before* he crosses the stone threshold at the entrance of the hall. For **ἄλλα**, meaning ‘besides,’ ‘as well,’ see on inf. 133.
 
 ## 1.130
-That **λῖτα** is an accusative singular seems settled by the use of λιτί as the dative, Il.18. 352; both cases must be referred to a nom. λίς, cp. λὶς πέτρη Od.12. 64; though Eustath. ad loc. takes it as a metaplastic accusative from a nominative λιτόν. Nitzsch follows the interpretation of F. A. Wolf (Analect. 4. 501), taking the word as an accusative plural from an old neuter λί = λισσόν. Cp. Thucyd. 2. 97 ὅσα ὑφαντά τε καὶ λεῖα, i. e. unembroidered. Whichever interpretation we adopt it will be better to take the words ὑπὸ— πετάσσας as parenthetical, so that the two adjectives καλὸν δαιδάλεον should go with θρόνον, to which they are appropriate. With the same stem (λι—τ) are connected Lat. glitus, and Gk. γλοιός, γλίσχρος. See Curtius, Gk. Etym. 330.
+That **λῖτα** is an accusative singular seems settled by the use of λιτί as the dative, Il.18. 352; both cases must be referred to a nom. λίς, cp. λὶς πέτρη Od.12. 64; though Eustath. ad loc. takes it as a metaplastic accusative from a nominative λιτόν. Nitzsch follows the interpretation of F. A. Wolf (Analect. 4. 501), taking the word as an accusative plural from an old neuter λί = λισσόν. Cp. Thucyd. 2. 97 ὅσα ὑφαντά τε καὶ λεῖα, i. e. unembroidered. Whichever interpretation we adopt it will be better to take the words ὑπὸ— πετάσσας as parenthetical, so that the two adjectives καλὸν δαιδάλεον should go with θρόνον, to which they are appropriate. With the same stem (λῑτ) are connected Lat. glitus, and Gk. γλοιός, γλίσχρος. See Curtius, Gk. Etym. 330.
 
 ## 1.132
 *κλισμόν*. κλισμοὶ μέν εἰσιν οἱ ἔχοντες κλιντῆρα ἐξέχοντα πρὸς τὴν τῶν ὤμων ἀνάπαυσιν. ἐν αὐτοῖς γὰρ ἐπερείδουσι τοὺς ὤμους οἱ καθήμενοι. οἱ δὲ μὴ ἔχοντες ταῦτα, θρόνοι. Schol. E. P. Q. If the distinction between the two words can be preserved, it, probably, amounts to this, that the θρόνος had a straight, and the κλισμός a sloping back. In practice, the θρόνος stood higher than the κλισμός, and is the word used for a chair of state.
@@ -313,7 +313,7 @@ That **λῖτα** is an accusative singular seems settled by the use of λιτ�
 **ἔκτοθεν ἄλλων μνηστήρων**, ‘apart from the others, the suitors.’ This epexegetic use of a noun after ἄλλος is not uncommon in Homer. Cp. Od.5. 105ἄλλων . . τῶν ἀνδρῶν οδ., 10. 485 ἄλλων . . ἑτάρων. The process seems reversed in such a phrase as ἅμα τῇ γε καὶ ἀμφίπολοι κίον ἄλλαι Od.6. 84; cp. Soph. Aj.516ἄλλη μοῖρα, Phil. 38 ἄλλα ῥάκη. Livy 4. 41 plaustra iumentaque alia. Ameis quotes as parallels Od. 2. 412; 8. 368; 15. 407, 449; 18. 416; 19. 601; 20. 324; Il.2. 191; 13. 622.
 
 ## 1.134
-**ἁδήσειεν**, ‘should feel loathing,’ properly that which comes from satiety. With ἅδην cp. Lat. satur, satis. For the quantity and orthography of α^ʽ ́δην, α—ʽ ́δην, ἄδδην cp. κα^λός, κα—λός, κάλλος, the variation arising from the influence of the Jod after the δ or λ sometimes being assimilated to the preceding consonant, sometimes only lengthening the vowel, and sometimes disappearing altogether. See Curtius, Gk. Etym. 572.
+**ἁδήσειεν**, ‘should feel loathing,’ properly that which comes from satiety. With ἅδην cp. Lat. satur, satis. For the quantity and orthography of ᾰ̔́δην, ᾱ̔́δην, ἄδδην cp. κᾰλός, κᾱλός, κάλλος, the variation arising from the influence of the Jod after the δ or λ sometimes being assimilated to the preceding consonant, sometimes only lengthening the vowel, and sometimes disappearing altogether. See Curtius, Gk. Etym. 572.
 
 **ὑπερφίαλος**, like ὑπερφυής, and the Aeschylean ὑπέρφευ, has the sense of *overgrown* (from root φυ), which easily passes into that of *overweening.* With the change of vowel cp. φυτόν with φῖτυ, μόλυβδος with μόλιβδος, λύγος with Lat. lig-are. Curtius, Gk. Etym. 468. Schmidt J. says ὑπερφίαλος may come from \*ὑπερφέvαλος, like Boeot. κλίος, ῥίοντας, instead of κλέvος, ῥέvοντας, or θίασος instead of θέvασος.
 
@@ -610,7 +610,7 @@ Cp. also Soph. Frag. 920 Dindorf, Pollux 7. 32 τὰς δὲ ταινίας ὁ�
 ## 1.246
 **Δουλίχιον**, called πολύπυρον Od.14. 335, did not belong to the kingdom of Odysseus, but was under the government of Meges , Il.2. 625, while in Od.14. 336 mention is made of a βασιλεὺς Ἄκαστος. In Il.2. 625 it is mentioned in connection with the Echinades, οἱ δ' ἐκ Δουλιχίοιο Ἐχινάων θ' ἱεράων νήσων, to which is added αἳ ναίουσι πέρην ἁλὸς Ἤλιδος ἄντα, which seems to throw the islands further south than they really are. Strabo (10. 458) identifies Δουλίχιον with Δολίχα, the only one of the Echinades which in his time was still fruitful, the others being silted up by the deposit from the Achelous ( Thuc.2. 102). Modern Greek story identifies Δουλίχιον with an island that has now disappeared, called Kakaba. According to others, Dulichium was a town on the mainland of Acarnania; or, following the interpretation of Hellanicus (quoted by Strabo 10. 456) who identifies it with Κεφαλληνία, we may take Dulichium to be the larger division of Κεφαλ. lying nearer to the Echinades, while Σάμη may be the other division farthest from Ithaca. Or, possibly (cp. Il.2. 634), Homer thinks of Κεφαλ. as actually consisting of two islands, named respectively Dulichium and Same.
 
-**Ζάκυνθος** (Zante) is made feminine in Od.9. 24ὑλήεσσα Z. For the retention of a short vowel before the Z. compare οἳ δε^` Ζέλειαν Il.2. 824, ἄστυ^ Ζελείης Il.4. 103, λειμῶνι^ Σκαμανδρίῳ Il.2. 467.
+**Ζάκυνθος** (Zante) is made feminine in Od.9. 24ὑλήεσσα Z. For the retention of a short vowel before the Z. compare οἳ δε̆̀ Ζέλειαν Il.2. 824, ἄστῠ Ζελείης Il.4. 103, λειμῶνῐ Σκαμανδρίῳ Il.2. 467.
 
 ## 1.249
 **ἀρνεῖται**, ‘declines,’ here used as the contrary, not of καταφάναι, but of συναινεῖν. So Od. 8. 42, 43 ἔρχεσθ' . . μηδέ τις ἀρνείσθω , 358 τεὸν ἔπος ἀρνήσασθαι , 21. 345 τόξον … δόμεναί τε καὶ ἀρνήσασθαι .
@@ -687,7 +687,7 @@ Again, in Il.3. 627, Meges son of Phyleus is said to have been the leader of the
 **μητέρα**. This word stands naturally in the accusative, as forming the contrast to μνηστῆρας, but the construction thus begun requires to be completed with ἀπόπεμψον, as Od.2. 113; or ἀνωγέτω ἀπονέεσθαι, as Od.2. 195; instead of which it is made to terminate in a softer expression, involving an anacoluthon. Döderlein proposes to put a period at γαμέεσθαι, and to mark off εἴ οἱ θυμὸς ἐφορμᾶται between commas: but the regular use of ἐρορμᾶσθαι in Homer is with an infinitive, as ἐμοὶ αὐτῷ θυμὸς ἐφορμᾶται πολεμίζειν Il.13. 74, cp. Od.4. 713.Besides which, the abrupt commencement **ἂψ ἴτω** would be most harsh; and the passage given from Il.1. 179οἴκαδ' ἰὼν σὺν νηυσί τε σῇς καὶ σοῖς ἑτάροισι Μυρμιδόνεσσιν ἄνασσε seems insufficient to justify such a construction, as there has already been an imperative mood earlier in the sentence. For a similar anacoluthon compare Il.2. 681νῦν δ' αὖ τοὺς ὅσσοι τὸ Πελασγικὸν Ἄργος ἔναιον . . . τῶν αὖ ἦν ἀρχὸς Ἀχιλλεύς.
 
 ## 1.276
-**πατρός**, sc. Icarius. Where he dwelt was an old question. Aristotle (de Poet.cap. penult.) leans to the tradition which places him in Cephallenia; οἴονται γὰρ αὐτὸν Λάκωνα εἶναι· ἄτοπον οὖν τὸ μὴ ἐντυχεῖν τὸν Τηλέμαχον αὐτῷ εἰς Λακεδαίμονα ἐλθόντα· τὸ δὲ ἴσως ἔχει ὥσπερ οἱ Κεφάλληνές φασι, παρ' αὐτῶν γὰρ γῆμαι λέγουσι τὸν Ὀδυσσέα, καὶ εἶναι Ἰκάδιον ἀλλ' οὐκ Ἰκάριον. Strabo (10. 461) makes him the brother of Tyndarus and son of Oebalus king of Sparta: he and Tyndarus, driven out by Hippocoon, fled to Acarnania. Tyndarus returned, but Icarius got part of Acarnania for himself, and there remained. Notice the quantity of δυ—ναμένοιο lengthened by arsis.
+**πατρός**, sc. Icarius. Where he dwelt was an old question. Aristotle (de Poet.cap. penult.) leans to the tradition which places him in Cephallenia; οἴονται γὰρ αὐτὸν Λάκωνα εἶναι· ἄτοπον οὖν τὸ μὴ ἐντυχεῖν τὸν Τηλέμαχον αὐτῷ εἰς Λακεδαίμονα ἐλθόντα· τὸ δὲ ἴσως ἔχει ὥσπερ οἱ Κεφάλληνές φασι, παρ' αὐτῶν γὰρ γῆμαι λέγουσι τὸν Ὀδυσσέα, καὶ εἶναι Ἰκάδιον ἀλλ' οὐκ Ἰκάριον. Strabo (10. 461) makes him the brother of Tyndarus and son of Oebalus king of Sparta: he and Tyndarus, driven out by Hippocoon, fled to Acarnania. Tyndarus returned, but Icarius got part of Acarnania for himself, and there remained. Notice the quantity of δῡναμένοιο lengthened by arsis.
 
 ## 1.277
 **οἱ δὲ … ἔεδνα**. Nitzsch gives an elaborate interpretation of the passage, of which the substance is as follows. First, οἱ cannot be the suitors (as Schol.), but οἱ ἀμφὶ τὸν πατέρα (as Eustath.); for (1) in Od.2. 196 the same words are used by one of the suitors, Eurymachus, and (2) it was the business of the bride's family to provide the γάμος. Cp. Od.4. 3, where Menelaus is found δαινύντα γάμον πολλοῖσιν ἔτῃσιν, on the occasion of the marriage of his son and his daughter. But then to assign to the same family the duty of ἕδνα ἀρτύνειν involves two difficulties; (*a*) it seems to contravene the general custom, which was that the suitor should present the ἕδνα—should, in fact, bid for the bride, as Od.16. 390ἀλλ' ἐκ μεγάροιο ἕκαστος
@@ -830,11 +830,11 @@ This rendering, ‘upwards,’ is further confirmed by the use of Ἀνόπαι�
 *θέσπις*. θεός and stem σεπ, as in ἔννεπε Od.1. 1.
 
 ## 1.330
-**κατεβήσετο**. The greatest uncertainty exists as to the spelling of this word. In the Iliad, with the exception of 5. 352, the Cod. Venetus always gives ἐβήσετο, not ἐβήσατο, though in some passages α— is written over the ε— by another hand. The testimony of the Schol. is extremely confusing. Schol. A. on Il.2. 95 gives *ἀπεβήσετο·* εἰ μὲν ἀντὶ τοῦ ἀπέβαινε παρατατικοῦ, διὰ τοῦ α— γραπτέον, ἀπεβήσατο, οὕτως Ἐπαφρόδιτος. Schol. β. ὁ μὲν Ζηνόδοτος διὰ τοῦ ε— γράφει, ὃ καὶ ἄμεινον, οἱ δὲ ἄλλοι διὰ τοῦ α—. Schol. A. on Il.3. 262προκρίνει μὲν τὴν διὰ τοῦ ε— γραφὴν βήσετο, πλὴν οὐ μετατίθησιν, ἀλλὰ διὰ τοῦ α— γράφει Ἀρίσταρχος. Schol. A. on Il.10. 513ἐπεβήσετο, οὕτως Ἀρίσταρχος. The statements are of course irreconcileable. The view of Epaphroditus (quoted above), that the form should be written with α— if it had the force of an imperfect tense, with ε— if that of an aorist, is not borne out by fact, though it may be noticed that βήσετο is written parallel with ἔβαινε Od.3. 471, and ἐπεβήσετο with βαῖνε Il.11. 517.Cp. Od.10. 107.
+**κατεβήσετο**. The greatest uncertainty exists as to the spelling of this word. In the Iliad, with the exception of 5. 352, the Cod. Venetus always gives ἐβήσετο, not ἐβήσατο, though in some passages ᾱ is written over the ε̄ by another hand. The testimony of the Schol. is extremely confusing. Schol. A. on Il.2. 95 gives *ἀπεβήσετο·* εἰ μὲν ἀντὶ τοῦ ἀπέβαινε παρατατικοῦ, διὰ τοῦ ᾱ γραπτέον, ἀπεβήσατο, οὕτως Ἐπαφρόδιτος. Schol. β. ὁ μὲν Ζηνόδοτος διὰ τοῦ ε̄ γράφει, ὃ καὶ ἄμεινον, οἱ δὲ ἄλλοι διὰ τοῦ ᾱ. Schol. A. on Il.3. 262προκρίνει μὲν τὴν διὰ τοῦ ε̄ γραφὴν βήσετο, πλὴν οὐ μετατίθησιν, ἀλλὰ διὰ τοῦ ᾱ γράφει Ἀρίσταρχος. Schol. A. on Il.10. 513ἐπεβήσετο, οὕτως Ἀρίσταρχος. The statements are of course irreconcileable. The view of Epaphroditus (quoted above), that the form should be written with ᾱ if it had the force of an imperfect tense, with ε̄ if that of an aorist, is not borne out by fact, though it may be noticed that βήσετο is written parallel with ἔβαινε Od.3. 471, and ἐπεβήσετο with βαῖνε Il.11. 517.Cp. Od.10. 107.
 
 The ancients treated these forms as imperfects, derived from the future stem. Cp. Cramer, Epim. 42. 21 ἐκ τοῦ βίβημι βήσω καὶ *μετάγεται ὁ μέλλων εἰς ἐνεστῶτα* (present tense), καὶ γίνεται βήσω, ὃ μέλλοντα οὐκ ἔχει. τὰ γὰρ ἀπὸ μελλόντων εἰς ἐνεστῶτα μεταγόμενα ῥήματα ἄχρι τοῦ παρατατικοῦ (imperfect tense), κλίνεται, ὡς τὸ ἄξω, ‘ἄξετε δὲ Πριάμοιο βίην’ ( Il.3. 105), ὁ παρατατικὸς ἔβησον, ἐβησόμην, ἐβήσου, ἐβήσετο καὶ ἀπεβήσετο. So Herodian on ἄξετε, οἴσετε, cp. Cramer (A. O. 4. 202, 209), ὁ δὲ Ἡρωδιανὸς ἐνεστῶτός φησι ταῦτα καὶ παρατατικοῦ.
 
-It is more correct to say that several stems form a Weak Aorist, as a Thematic tense, with ε or ο instead of α^. Cp. ἐδύσετο, πελάσσετον (imperat.), λέξεο, ὄρσεο, οἴσετε, ἀξέμεναι.
+It is more correct to say that several stems form a Weak Aorist, as a Thematic tense, with ε or ο instead of ᾰ. Cp. ἐδύσετο, πελάσσετον (imperat.), λέξεο, ὄρσεο, οἴσετε, ἀξέμεναι.
 
 Here we must interpret the accusative **κλίμακα** as expressing the way or path along which she goes. So ἀπέσσυτο ὁδόν Il.6. 391, ἄλλην ὁδὸν ἤλθομεν Od.9. 261, ἴσαν λείην ὁδόν Od.10. 103, προσέβη τρηχεῖαν ἀταρπόν Od.14. 1.The use is similar with καταβαίνειν, ξεστὸν ἐφολκαῖον καταβάς ib. 350. This local accusative is quite different to such usages as θάλαμον κατεβήσετο Od.2. 337, κατέβαιν' ὑπερώια Od.23. 85.
 
@@ -1091,7 +1091,7 @@ which last word serves as explanation of περισκέπτῳ ἐνὶ χώρ�
 
 **ἅμα** is adverbial=‘going along with him,’ like ἅμ' ἑπομένη.
 
-**ἰδυῖα**. For this shortening of the feminine from εἰδώς, compare τεθα^λυῖα Od.6. 293, μεμα^κυῖα Il.4. 435, σεσα^ρυῖα fr. σεσηρώς Hesiod. Herc.268.Cp. Monro, H. G. § 26.
+**ἰδυῖα**. For this shortening of the feminine from εἰδώς, compare τεθᾰλυῖα Od.6. 293, μεμᾰκυῖα Il.4. 435, σεσᾰρυῖα fr. σεσηρώς Hesiod. Herc.268.Cp. Monro, H. G. § 26.
 
 ## 1.431
 **ἐεικοσάβοια**, perhaps we may supply κτέατα, or some such word. Twenty oxen was a high price for a slave, as ( Il.23. 705) four oxen is the set value of one who πολλὰ ἐπίστατο ἔργα.
@@ -1600,7 +1600,7 @@ Join **ἣν τίνων** and **ἐνὶ θυμῷ ἀσχάλλῃς**.
 **ἐν πᾶσιν** = coram omnibus. Cp. Il.9. 121ὑμῖν δ' ἐν πάντεσσι περικλυτὰ δῶρ' ὀνομήνω, ibid. 528 ἐν δ' ὑμῖν ἐρέω πάντεσσι φίλοισι.
 
 ## 2.195
-**ἀπονέεσθαι**. As parallel instances of the lengthening of an initial long syllable in words where many short vowels come together, Ameis quotes α—ʼθάνατος, α—ʼκάματος, α—ʼποπέσῃσιν Od.24. 7, ε—ʼπίτονος Od.12. 423, ζε—φυρίη Od.7. 119, α—ʼγοράασθε Il.2. 337.
+**ἀπονέεσθαι**. As parallel instances of the lengthening of an initial long syllable in words where many short vowels come together, Ameis quotes ᾱ̓θάνατος, ᾱ̓κάματος, ᾱ̓ποπέσῃσιν Od.24. 7, ε̄̓πίτονος Od.12. 423, ζε̄φυρίη Od.7. 119, ᾱ̓γοράασθε Il.2. 337.
 
 ## 2.199
 **ἐπεὶ οὔ τινα δείδιμεν ἔμπης**. The same expression occurs in Il.7. 196.It is difficult to settle the question whether the meaning of ἔμπης (i. e. ἐν πᾶσιν) be really ‘altogether’ or ‘for all that.’ Most commentators lean to the latter as being the only true rendering in Homer. Bäumlein however (Griech. Partik. 115 foll.) insists on its primary meaning being ‘wholly,’ ‘quite,’ quoting the present passage, and comparing Il.5. 190 foll.; 7. 196; 14. 98 foll., 173; 17. 632; 19. 308; 24. 522. He would even assign this force to the word in Od.5. 205; 3.209; 15.214; especially claiming it for Od.19. 37 foll. He also compares Aesch. P. V.48; Aesch. Eum.229; Soph. Aj.122.Granting this then as the original and rightful meaning he allows that where the word stands as pointing a distinctly adversative relation to some previous statement, this primary sense easily passes into the secondary one of ‘notwithstanding,’ compare French toutefois. As instances of this he gives Il.1. 561; 8.32; 17.229; Od.11. 350; 14.214; 20.311; 23. 83: Pind. Pyth. 4. 86 foll.; 5. 55: Aesch. P. V.186 foll.: Eur. Alc.906; Eur. Cycl.535: Theocr. 10. 29; 22. 17. This adversative force is even more strongly exhibited in the combination of περ ἔμπης with the participle, Il.9. 517 foll.; 14. 1; 15. 399; Od.15. 361; 18.165; 19.356.
@@ -1664,7 +1664,7 @@ Join **ἣν τίνων** and **ἐνὶ θυμῷ ἀσχάλλῃς**.
 **παρθέμενοι**, ‘staking.’ Schol. παραβάλλοντες, cp. Il.9. 322αἰὲν ἐμὴν ψυχὴν παραβαλλόμενος πολεμίζειν. See also Od.3. 74.The emphasis lies in the participle; ‘it is at the hazard of their own lives that they violently consume.’
 
 ## 2.239
-**οἷον … ἄνεῳ**, ‘to see how you all sit silent.’ There is great uncertainty about ἄνεῳ. La Roche, H. T. p. 191, quotes from Apollon. de Adverb. p. 554 καὶ περὶ τοῦ ΑΝΕΩΙ δὲ διαφορά τις κατὰ τὸν μερισμὸν εἰσήγετο πρὸς ἐνίων, ὡς εἴη μᾶλλον ὄνομα πληθυντικόν, Ἀττικῶς κεκλιμένον. ᾧ λόγῳ καὶ τὸ ι— προσκείμενον. P. 555 ὅτι μὲν οὖν δύναται ὄνομα πληθυντικὸν εἶναι σαφὲς ἐντεῦθεν. ἀλλὰ δῆλον ὡς καὶ Ἀριστάρχῳ καὶ τοῖς ἀπὸ τῆς Ἀριστάρχου σχολῆς συνηρέσκετο μὴ μᾶλλον ὄνομα ἐκδέχεσθαι, ὡς ἐπίρρημα δὲ ἐκ τοῦ καθ' ἕνα σχηματισμὸν ἐκφέρεσθαι καὶ ἐπὶ ἑνικῆς σχήσεως καὶ ἐπὶ πληθυντικῆς παρελαμβάνετο, ὅπερ οὐ παρείπετο ὀνόμασι. καὶ γένους μὴ εἶναι διακριτικόν. ἐστὶ δέ που καὶ ἐπὶ ἑνικῆς ἐκφορᾶς τὸ τοιοῦτον, ‘ἡ δ' ἄνεω (sic) δὴν ἧστο’ (ψ. 93), καὶ σαφὲς ὅτι εἰ δοθείη ἡ γραφὴ σὺν τῷ ι—, δοθείη ἂν καὶ τὸ ὄνομα εἶναι τὸ ἄνεως. Eustath. too regards it as a nominative from ἄνεως, and we may doubt whether Aristarchus, with whom Buttm. agrees, would have decided in calling ἄνεως or ἄνεω (cp. οὕτως, οὕτω) an adverb, but for the solitary passage in Hom. Od.23. 93; which it must be remembered belongs to a portion of the poem which is impugned. ἄνεως is equivalent to ἄν-αvος i. e. ἄν-αυ-ος, the root αv or αυ having the sense of crying or speaking, cp. αὐδᾶν, ἀυτή.
+**οἷον … ἄνεῳ**, ‘to see how you all sit silent.’ There is great uncertainty about ἄνεῳ. La Roche, H. T. p. 191, quotes from Apollon. de Adverb. p. 554 καὶ περὶ τοῦ ΑΝΕΩΙ δὲ διαφορά τις κατὰ τὸν μερισμὸν εἰσήγετο πρὸς ἐνίων, ὡς εἴη μᾶλλον ὄνομα πληθυντικόν, Ἀττικῶς κεκλιμένον. ᾧ λόγῳ καὶ τὸ ῑ προσκείμενον. P. 555 ὅτι μὲν οὖν δύναται ὄνομα πληθυντικὸν εἶναι σαφὲς ἐντεῦθεν. ἀλλὰ δῆλον ὡς καὶ Ἀριστάρχῳ καὶ τοῖς ἀπὸ τῆς Ἀριστάρχου σχολῆς συνηρέσκετο μὴ μᾶλλον ὄνομα ἐκδέχεσθαι, ὡς ἐπίρρημα δὲ ἐκ τοῦ καθ' ἕνα σχηματισμὸν ἐκφέρεσθαι καὶ ἐπὶ ἑνικῆς σχήσεως καὶ ἐπὶ πληθυντικῆς παρελαμβάνετο, ὅπερ οὐ παρείπετο ὀνόμασι. καὶ γένους μὴ εἶναι διακριτικόν. ἐστὶ δέ που καὶ ἐπὶ ἑνικῆς ἐκφορᾶς τὸ τοιοῦτον, ‘ἡ δ' ἄνεω (sic) δὴν ἧστο’ (ψ. 93), καὶ σαφὲς ὅτι εἰ δοθείη ἡ γραφὴ σὺν τῷ ῑ, δοθείη ἂν καὶ τὸ ὄνομα εἶναι τὸ ἄνεως. Eustath. too regards it as a nominative from ἄνεως, and we may doubt whether Aristarchus, with whom Buttm. agrees, would have decided in calling ἄνεως or ἄνεω (cp. οὕτως, οὕτω) an adverb, but for the solitary passage in Hom. Od.23. 93; which it must be remembered belongs to a portion of the poem which is impugned. ἄνεως is equivalent to ἄν-αvος i. e. ἄν-αυ-ος, the root αv or αυ having the sense of crying or speaking, cp. αὐδᾶν, ἀυτή.
 
 ## 2.240
 **καθαπτόμενοι ἐπέεσσι**, see on sup. 39.
@@ -1763,7 +1763,7 @@ Join closely **οὐ κείνου** — ‘not his,’ i. e. ἄλλου. Cp. Od
 **πατρώιος ἑταῖρος** means only ‘a comrade of thy father.’
 
 ## 2.289
-**ἤια**. Schol. παρὰ δὲ Ὁμήρῳ ἤια τὰ ἐφόδια οἰκείως ἀπὸ τοῦ ἰέναι εἴρηται. Another Schol. quoting Od.5. 368ἠίων θημῶνα τινάξῃ suggests that its meaning of ‘chaff’ comes ἀπὸ τοῦ κινεῖσθαι τῷ ἀνέμῳ, and another ridiculous derivation is suggested ἀπὸ τοῦ ἀίσσειν δύναμαι. οἱ γὰρ ἐσθίοντες καὶ πορεύεσθαι δύνανται. We seem to get a clue to its meaning here, inasmuch as it stands parallel to ἄλφιτα in the next line, and so may = ‘provision of bread;’ flesh would be ὄψα, which word is accordingly conjoined with σῖτον καὶ οἶνον Od.3. 480.Hesych. and Suid. give a word εἰαί, εἶοι ὀσπρίων καθάρματα, which may possibly be referable to ζειαί. See Lobeck, El. 1. 100. The quantity of the word varies; generally as here η—ι—α^, the ι is long; in Od.4. 363; 12. 329 it stands as η—ʼ ́ι^α^, and at the close of a verse it becomes a dissyllable, Od.5. 266; 9. 212, see also Od.5. 368.
+**ἤια**. Schol. παρὰ δὲ Ὁμήρῳ ἤια τὰ ἐφόδια οἰκείως ἀπὸ τοῦ ἰέναι εἴρηται. Another Schol. quoting Od.5. 368ἠίων θημῶνα τινάξῃ suggests that its meaning of ‘chaff’ comes ἀπὸ τοῦ κινεῖσθαι τῷ ἀνέμῳ, and another ridiculous derivation is suggested ἀπὸ τοῦ ἀίσσειν δύναμαι. οἱ γὰρ ἐσθίοντες καὶ πορεύεσθαι δύνανται. We seem to get a clue to its meaning here, inasmuch as it stands parallel to ἄλφιτα in the next line, and so may = ‘provision of bread;’ flesh would be ὄψα, which word is accordingly conjoined with σῖτον καὶ οἶνον Od.3. 480.Hesych. and Suid. give a word εἰαί, εἶοι ὀσπρίων καθάρματα, which may possibly be referable to ζειαί. See Lobeck, El. 1. 100. The quantity of the word varies; generally as here η̄ῑᾰ, the ι is long; in Od.4. 363; 12. 329 it stands as η̄̓́ῐᾰ, and at the close of a verse it becomes a dissyllable, Od.5. 266; 9. 212, see also Od.5. 368.
 
 ## 2.294
 **ἐπιόψομαι** here and in Il.9. 167 is used in the sense of ‘looking after,’ i. e. ‘selecting;’ the shorter form ἐπόψομαι in the sense of ‘visiting,’ ‘beholding,’ Od.7. 324; 19. 260, 597; 23. 19.
@@ -2148,7 +2148,7 @@ stans celsa in puppi.’ See note on Od. 1.148. |
 ## 3.10
 **κατάγοντο**. The use of this word suggests that the ancients regarded the sea not as a level, but as sloping down to the shore, as of course it appears to the eye. Virgil seems to have had the same thought in his mind in the line ( Aen.5. 212) ‘prona petit maria et pelago decurrit aperto.’
 
-**ἐίσης**. This epithet is used of ναῦς, δαίς, and φρένες, and of a shield in the phrase ἀσπὶς πάντοσ' ἐίση Il.3. 347.The sense of ‘equal’ seems to satisfy all the usages; ‘the fairly-portioned feast,’ ‘the fairly-balanced mind,’ which last expression when applied to a ship would mean, ‘trimmed,’ ‘balanced,’ as Coleridge ( Marin. ) ‘steady with upright keel.’ The Schol. prefers to render it here by ἰσόπλευρος, which comes nearer to ἀσπὶς πάντοσ' ἐίση, and which would apply to the regularity of the ship's ‘lines’ or curves. The original form of the adjective is vισvος, Skt. viSu, ‘equally.’ The prosthetic ε is thus a representative of the lost initial digamma. Ahrens prefers to connect ἐίση in all its usages with the stem εικ, and assign to it the meaning of ‘suitable’ or ‘good.’ The form ἐίση, on this theory, will be referred to the feminine, from a possible masculine ἐίξ, analogous to ἀμφιέλισσα, which is referred to a form ἀμφιέλιξ. The feminine form, however, should properly be ἔισσα^ and not ἐίση.
+**ἐίσης**. This epithet is used of ναῦς, δαίς, and φρένες, and of a shield in the phrase ἀσπὶς πάντοσ' ἐίση Il.3. 347.The sense of ‘equal’ seems to satisfy all the usages; ‘the fairly-portioned feast,’ ‘the fairly-balanced mind,’ which last expression when applied to a ship would mean, ‘trimmed,’ ‘balanced,’ as Coleridge ( Marin. ) ‘steady with upright keel.’ The Schol. prefers to render it here by ἰσόπλευρος, which comes nearer to ἀσπὶς πάντοσ' ἐίση, and which would apply to the regularity of the ship's ‘lines’ or curves. The original form of the adjective is vισvος, Skt. viSu, ‘equally.’ The prosthetic ε is thus a representative of the lost initial digamma. Ahrens prefers to connect ἐίση in all its usages with the stem εικ, and assign to it the meaning of ‘suitable’ or ‘good.’ The form ἐίση, on this theory, will be referred to the feminine, from a possible masculine ἐίξ, analogous to ἀμφιέλισσα, which is referred to a form ἀμφιέλιξ. The feminine form, however, should properly be ἔισσᾰ and not ἐίση.
 
 ## 3.11
 **στεῖλαν ἀείραντες**. The further description of a landing is given in Il.1. 433ἱστία μὲν στείλαντο, θέσαν δ' ἐν νηὶ μελαίνῃ,
@@ -2205,7 +2205,7 @@ For **ἰθύς** with genitive see Od.1. 119.
 **τραφέμεν**. This is probably the aor. act. of τρέφω, with intransitive signification. For the form cp. φαγέμεν 10. 386; ἐλθέμεν Il.4. 247; and for the intransitive use Τληπόλεμος δ' ἐπεὶ οὖν τράφʼ (adolevit) ἐνὶ μεγάρῳ Il.2. 661; λέοντε ἐτραφέτην Il.5. 555.Herodian takes it as another form of τραφῆναι.
 
 ## 3.31
-**ἄγυριν**, distinct from ἀγορή, as signifying an informal meeting, any gathering of men. On the form of the word Eustath. says, αἰολίζουσα οὐ μόνον τῇ τροπῇ τοῦ ο— εἰς υ— ἀλλὰ καὶ τῷ τόνῳ. The relation of coetus to contio is the same as that of ἄγυρις to ἀγορή.
+**ἄγυριν**, distinct from ἀγορή, as signifying an informal meeting, any gathering of men. On the form of the word Eustath. says, αἰολίζουσα οὐ μόνον τῇ τροπῇ τοῦ ο̄ εἰς ῡ ἀλλὰ καὶ τῷ τόνῳ. The relation of coetus to contio is the same as that of ἄγυρις to ἀγορή.
 
 ## 3.33
 **κρέα τ' ὤπτων … ἔπειρον**. The word ἄλλα must be retracted from the second clause, so as to be used with both; as if the whole sentence had run τῶν κρεάτων ἄλλα μὲν ὤπτων ἄλλα δὲ ἔπειρον. Compare κεῖμαι δ' ἐπ' ἀκταῖς, *ἄλλοτ'* ἐν πόντου σάλῳ Eur. Hec.28.‘Some meats there were roasting, and others they were piercing with the spit’ Il.1. 465 foll.
@@ -2464,7 +2464,7 @@ Join **νόστου ἐπ' εὐρέα νῶτα** and compare νόστου γα
 **θεσπεσίῃ**. This epithet is more often applied to ἠχή than to any other word in Homer; analogous to this is its usage with ἰαχή, βοή, ἀλαλητός, ὅμαδος, with which it perhaps retains some colour of its etymology, viz. θεός and root σεπ (see Curt. G. E. 230, 411), as if describing that which was uttered or might be uttered by a God. In Il.2. 367 this primary meaning is fully kept in the use of θεσπεσίῃ absolutely, = ‘by the will of heaven.’ In the word θέσ-φατος, the signification ‘uttered or ordained by heaven’ is never lost; in its strengthened form ἀθέσφατος, properly ‘ineffable,’ ne ab ipsis quidem Dis narrandum, it has passed generally into an epithet, signifying ‘marvellous,’ ‘strong,’ or ‘vast,’ e.g. ἀθέσφατος οἶνος, γαῖα, ὄμβρος, etc. Similarly θεσπέσιος is used merely to express excellence, greatness, or completeness, as with λαῖλαψ, ὀδμή, ἀχλύς, νέφος, πλοῦτος, χάρις, ἄωτος, χαλκός, ἀοιδή, φόβος, φύζα. As an epithet of ἄντρον, βηλός, and possibly of Σείρηνες (see Od.12. 158), it seems to tend in the direction of its natural meaning ‘sacred.’
 
 ## 3.151
-**ἀέσαμεν**. This aorist form (generally with α—, but inf. 490 and in Od.15. 40, 188 with α^) may be referred to ἄημι. From same root ἀv, we get, by reduplication, ἰαύω (ἰαvω), the aorist from which (without retaining reduplication) may be ἄεσα. The meaning of the word is ‘rested,’ whether the notion of sleep be included or not. Schol. E. H. M. Q. τὸ ἀέσαμεν οὐκ ἐκοιμήθημεν, ἀλλ' ἐπνεύσαμεν [al. ἀνεπνεύσαμεν]. λέγει δὲ καὶ ἀνάπνευσιν τὴν μικρὰν τῶν κακῶν παραμυθίαν ( Il.11. 801). **χαλεπά**, because of their divergent views.
+**ἀέσαμεν**. This aorist form (generally with ᾱ, but inf. 490 and in Od.15. 40, 188 with ᾰ) may be referred to ἄημι. From same root ἀv, we get, by reduplication, ἰαύω (ἰαvω), the aorist from which (without retaining reduplication) may be ἄεσα. The meaning of the word is ‘rested,’ whether the notion of sleep be included or not. Schol. E. H. M. Q. τὸ ἀέσαμεν οὐκ ἐκοιμήθημεν, ἀλλ' ἐπνεύσαμεν [al. ἀνεπνεύσαμεν]. λέγει δὲ καὶ ἀνάπνευσιν τὴν μικρὰν τῶν κακῶν παραμυθίαν ( Il.11. 801). **χαλεπά**, because of their divergent views.
 
 ## 3.152
 **πῆμα κακοῖο**. So πῆμα δύης Od.14. 338, πῆμα τῆς ἄτης Soph. Aj.363.
@@ -2824,7 +2824,7 @@ Compare with the story given here the legend of Jason, Hdt.4. 179καί μιν �
 **μέγα τοῖον**. See note on Od. 1.209, and cp. Il.20. 178τόσσον ὁμίλου πολλὸν ἐπελθών. The Schol., on the passage, says ὑπερβολικῶς τοῦτό φησιν. Cp. the different account in Od.14. 253-7 ἐπλέομεν βορέῃ ἀνέμῳ ἀκραέι καλῷ . . πεμπταῖοι δ' Αἴγυπτον ἐυρρείτην ἱκόμεσθα. But the illustration here is only half serious.
 
 ## 3.322
-**αὐτόετες οἰχνεῦσι**, ‘can wend in the space of one year.’ οἰχνεῖν is commonly used of customary action, as in 6. 157; 9. 120. **τε— δεινόν τε**. With a single exception ( Il.8. 133) δεινός always lengthens a preceding short vowel, by the force of the original digamma, (δvεινός).
+**αὐτόετες οἰχνεῦσι**, ‘can wend in the space of one year.’ οἰχνεῖν is commonly used of customary action, as in 6. 157; 9. 120. **τε̄ δεινόν τε**. With a single exception ( Il.8. 133) δεινός always lengthens a preceding short vowel, by the force of the original digamma, (δvεινός).
 
 ## 3.324
 **ἐθέλεις**, sc. ἰέναι, supplied from ἴθι in preceding line.
@@ -3013,7 +3013,7 @@ The goldsmith is called, inf. 432, χαλκεύς, from the name of the metal wh
 ## 3.429
 **ἕδρας** and **ξύλα** both go with **οἰσέμεν**. The servants are not only to bring clear water, but ‘seats and store of logs to set at either side’ (**ἀμφί**) of the altar which stood in the midst. For the combination at the introduction of the sentence, οἱ δ' ἄλλοι μένετε, ‘but do all the rest of you bide here,’ compare λαοὶ μὲν σκίδνασθε Od.2. 252, ἄλλοι μὲν νῦν μίμνετε Od.9. 172, μίμνετε δ' ἄλλοι πάντες Il.19. 190.
 
-**οἰσέμεν**, Epic weak aorist formed as a Thematic tense with ε and ο instead of α^. So οἰσέμεναι Od.8. 399; 12.10; 18.291; Il.3. 120; 23.564. In Il.18. 191οἰσέμεν is generally described as the future infin., but it can equally well be the aorist. See note on τελευτηθῆναι Od.2. 171.
+**οἰσέμεν**, Epic weak aorist formed as a Thematic tense with ε and ο instead of ᾰ. So οἰσέμεναι Od.8. 399; 12.10; 18.291; Il.3. 120; 23.564. In Il.18. 191οἰσέμεν is generally described as the future infin., but it can equally well be the aorist. See note on τελευτηθῆναι Od.2. 171.
 
 ## 3.433
 **πείρατα**. This plural is used elsewhere with νίκης, ὀλέθρου, γαίης, ἀέθλων, also ( Il.23. 350) ἑκάστου πείρατ' ἔειπεν. The singular πεῖραρ is used with ὀιζύος, Od.5. 289, and for the issue of a trial, Il.18. 501.Here translate, ‘wherein lie the issues of art,’ i.e. on which art depends for its accomplishment; through which the artistic conception is realized. Eustath. περατωτικά. Or, if we emphasise the notion of ‘boundary’ in πεῖραρ, we may speak of the tools as the ‘limits within which the craft lies;’ which will produce a similar meaning by a different process. For a fuller discussion of πεῖραρ see on Od. 12.51.
@@ -4003,13 +4003,13 @@ For the use of **ἱκέσθαι** with simple accusative, as in the former clau
 ## 4.477
 **διιπετέος** literally, ‘fallen from Zeus,’ that is, ‘rain-fed,’ as Eustath. interprets ὑετῷ πληρουμένου, which, he says, best suits the Nile (Αἴγυπτος), inasmuch as ἐκ τῶν ἐν Αἰθιοπίᾳ γιγνομένων θέρους σφοδρῶν ὑετῶν πληροῦται, ὡς καὶ Ἀριστοτέλης καὶ Εὔδοξός φασι. The same epithet is applied to the Spercheios, Il.17. 263; cp. Il.16. 174; 21.326. The name Νεῖλος first occurs in Hesiod. Theog.337Τηθύς τ' Ὠκεανῷ ποταμοὺς τέκε δινήεντας
 
-Νεῖλόν τ' Ἄλφειόν τε. Diodorus, Hist.1. 19, speaking of the river says, ἀρχαιότατον μὲν ὄνομα σχεῖν Ὠκεάνην . . ἔπειτα δὲ διὰ τὸ γενόμενον ἔκρηγμά φασιν Ἀετὸν ὀνομασθῆναι υ^στερον δὲ Αἴγυπτον ἀπὸ τοῦ βασιλεύσαντος τῆς χώρας. Strabo Hist., 1. 2, 30, remarks, ὁ ποιητὴς τοίνυν διιπετέας καλεῖ τοὺς ποταμοὺς οὐ τοὺς χειμάρρους μόνους ἀλλὰ καὶ πάντας κοινῶς, ὅτι πληροῦνται πάντες ἀπὸ τῶν ὀμβρίων ὑδάτων. Others have attempted to interpret the word as meaning ‘that flows under the clear sky.’ Compare ἔνδιος. Some of the old grammarians gave διαυγής as an equivalent for διιπετής, the Etym. Mag. 274. 15 quoting from ευριπ. λαμπρότερος ἢ πρὶν καὶ διιπετέστερος. |
+Νεῖλόν τ' Ἄλφειόν τε. Diodorus, Hist.1. 19, speaking of the river says, ἀρχαιότατον μὲν ὄνομα σχεῖν Ὠκεάνην . . ἔπειτα δὲ διὰ τὸ γενόμενον ἔκρηγμά φασιν Ἀετὸν ὀνομασθῆναι ῠστερον δὲ Αἴγυπτον ἀπὸ τοῦ βασιλεύσαντος τῆς χώρας. Strabo Hist., 1. 2, 30, remarks, ὁ ποιητὴς τοίνυν διιπετέας καλεῖ τοὺς ποταμοὺς οὐ τοὺς χειμάρρους μόνους ἀλλὰ καὶ πάντας κοινῶς, ὅτι πληροῦνται πάντες ἀπὸ τῶν ὀμβρίων ὑδάτων. Others have attempted to interpret the word as meaning ‘that flows under the clear sky.’ Compare ἔνδιος. Some of the old grammarians gave διαυγής as an equivalent for διιπετής, the Etym. Mag. 274. 15 quoting from ευριπ. λαμπρότερος ἢ πρὶν καὶ διιπετέστερος. |
 
 ## 4.483
 **δολιχὴν … ἀργαλέην τε**. Yet it was but one day's sail to Egypt; sup. 356.
 
 ## 4.489
-**ἀδευκέι**. This was formerly rendered ‘bitter,’ being referred to δεῦκος, which is interpreted as τὸ γλυκὺ παρὰ τοῖς Αἰτωλοῖς. See also Schol. E. on this passage, πικρῷ ἀπὸ τοῦ στερητικοῦ α— καὶ τοῦ γλεύκους. But on the other hand, Apollon. Hom. Lex. gives as his interpretation of the word ἀπεοικώς, Hesych. ἀπροσδόκητος. Heliodor. ἀνείκαστος, and Schol. β. ἀδοκής ἀπὸ τοῦ δεύχω τὸ δέχομαι. This suggests δοκ as the root of ἀ-δευκ-ής, which would give the meaning ‘unseemly,’ or, less likely, ‘unexpected.’ Schol. B. on Od. 6.273 has δεύκω τὸ βλέπω. Compare the name Πολυ-δεύκης = ‘very comely’ or ‘seemly.’
+**ἀδευκέι**. This was formerly rendered ‘bitter,’ being referred to δεῦκος, which is interpreted as τὸ γλυκὺ παρὰ τοῖς Αἰτωλοῖς. See also Schol. E. on this passage, πικρῷ ἀπὸ τοῦ στερητικοῦ ᾱ καὶ τοῦ γλεύκους. But on the other hand, Apollon. Hom. Lex. gives as his interpretation of the word ἀπεοικώς, Hesych. ἀπροσδόκητος. Heliodor. ἀνείκαστος, and Schol. β. ἀδοκής ἀπὸ τοῦ δεύχω τὸ δέχομαι. This suggests δοκ as the root of ἀ-δευκ-ής, which would give the meaning ‘unseemly,’ or, less likely, ‘unexpected.’ Schol. B. on Od. 6.273 has δεύκω τὸ βλέπω. Compare the name Πολυ-δεύκης = ‘very comely’ or ‘seemly.’
 
 ## 4.493
 **οὐδέ σέ φημι**. Here again οὐδέ introduces the reason, as if οὐ γάρ were written. Cp. Od.1. 296; 2.369; 10.380; 15. 393; 18. 17.
@@ -4107,7 +4107,7 @@ Cp. Il.17. 61, where, as here, **ὥς τίς τε** may be a transposition for 
 **κυλινδόμενος**. Compare for this sign of grief Od.10. 499; Il.18. 26; 24. 65, and see Plato's remarks upon this want of self-control in the Homeric heroes, Rep.389
 
 ## 4.544
-**δήομεν**. This word is connected with root δα, the long stem answering to δα^ (ς) in δέδαεν, etc. (See Monro, H. G. § 80, who shows that we have here a subjunctive form.) Some MSS. write δῄομεν, δῄεις and δῄει, which variation may have arisen, as La Roche suggests, from a confusion on the part of the transcriber between δήω and δηιόω. With **ἄνυσις** cp. Il.2. 347; 4.56; and for a similar use of πρῆξις Il.24. 524.
+**δήομεν**. This word is connected with root δα, the long stem answering to δᾰ (ς) in δέδαεν, etc. (See Monro, H. G. § 80, who shows that we have here a subjunctive form.) Some MSS. write δῄομεν, δῄεις and δῄει, which variation may have arisen, as La Roche suggests, from a confusion on the part of the transcriber between δήω and δηιόω. With **ἄνυσις** cp. Il.2. 347; 4.56; and for a similar use of πρῆξις Il.24. 524.
 
 ## 4.546
 **ἤ κεν … κτεῖνεν**. Fäsi here interprets **κεν** as = που or οἶμαι, quoting Il.14. 484τῷ καί κέ τις εὔχεται εἶναι. But εὔχεται here can hardly be a subjunctive, as there is no clear instance of Thematic stems forming the subjunctive with a short vowel; Monro, H. G. § 82. Perhaps we should read καί *τέ* τις with two MSS. But κεν κτεῖνεν (unless we suppose κεν to be a sort of anticipation of ἀντιβολήσαις) may be regarded as a loosely stated apodosis to an unexpressed protasis. ‘Either you will find him alive or [if you do not] Orestes will have slain him, and you will come in for the funeral feast.’ Thus κεν κτεῖνεν expresses an act which probably has taken place, and κεν ἀντιβολήσαις an act which probably will take place.
@@ -4286,7 +4286,7 @@ The words from **ἀρετῇ … ἄριστοι** give the reason why they wer
 
 νῶτα παραΐσσοντος, where the Schol. A. gives as a v. l. παραΐσσοντα: compare also Il.14. 25σφι . . νυσσομένων ιλ., 16. 531 οἱ . . εὐξαμένοιο, Od.6. 157σφισι . . λευσσόντων οδ., 9. 256 ἡμῖν . . δεισάντων, ib. 458 οἱ . . θεινομένου οδ., 14. 527 οἱ . . νόσφιν ἐόντος οδ., 17. 231 οἱ . . βαλλομένοιο οδ., 22. 17 οἱ . . βλημένου. |
 
-On **ἀπηύρα** (ἀπαυράω), see Monro, H. G. § 31, note 1, who remarks, ‘Putting together the indic. act. ἀπηύρων *took away* (1 sing. and 3 plur.), ἀπηύρας, ἀπηύρα, mid. **ἀπ-ηύρα^-το** (read before Wolf in Od.4. 646), the part. ἀπούρας (mid. ἀπουράμενος in Hes. Sc. 173), and the aor. ἐπ-αυρεῖν, and adopting (from Ahrens) the division **ἀπούρας**, which seems necessary to account for the **ο**, we have (1) a stem -υρα^- (in its short form); (2) a stem -αὐρα^, in which αυ is for original *ǔ*; (3) forms *as if from* \*αὐρά-ω; (4) a thematic stem αὐρε or **-ο**, alternating with αὐρα^.’
+On **ἀπηύρα** (ἀπαυράω), see Monro, H. G. § 31, note 1, who remarks, ‘Putting together the indic. act. ἀπηύρων *took away* (1 sing. and 3 plur.), ἀπηύρας, ἀπηύρα, mid. **ἀπ-ηύρᾰ-το** (read before Wolf in Od.4. 646), the part. ἀπούρας (mid. ἀπουράμενος in Hes. Sc. 173), and the aor. ἐπ-αυρεῖν, and adopting (from Ahrens) the division **ἀπούρας**, which seems necessary to account for the **ο**, we have (1) a stem -υρᾰ- (in its short form); (2) a stem -αὐρᾰ, in which αυ is for original *ǔ*; (3) forms *as if from* \*αὐρά-ω; (4) a thematic stem αὐρε or **-ο**, alternating with αὐρᾰ.’
 
 ## 4.652
 **μεθ' ἡμέας**. Löwe renders apud nos, comparing Od.16. 418καὶ δέ σέ φασιν
@@ -4315,7 +4315,7 @@ On **ἀπηύρα** (ἀπαυράω), see Monro, H. G. § 31, note 1, who rema
 
 **τοσσῶνδε**. This reading seems on the whole the best. See crit. note. The excited tone of the words renders unnecessary the presence of δέ as a conjunction. Compare the asyndeton with ἄρξει inf. It is usual to regard the **ἐκ** as separated by tmesis from **οἴχεται**, to which it belongs; the compound ἐξοίχεσθαι occurring in Il.6. 379 Il., 384.But it is simpler to describe ἐκ as an adverb, without touching the question of a tmesis. At any rate ἐκ does not govern τοσσῶνδ', which depends upon **ἀέκητι**, which is a word placed in Homer either before or after the case depending on it, but which is never found standing without such a case. Transl. ‘Away this young lad has gone in despite of these numbers of us.’ **τοσσῶνδε**, as frequently ὅδε and its cases, is used with a gesture referring it to the speaker and to those to whom he belongs.
 
-**αὔτως**. There is great disagreement as to the etymology, meaning, and orthography of this word. It is variously regarded as an epic form of οὕτως, as a direct adverb from αὐτός, or as an identical form of two distinct words, one of which is derived from αὐτός and the other from ἄvατος, αὐατός, ἄτη, an impossible etymology suggested by the meaning ‘in vain’ sometimes attributed to αὔτως. See Döderl. Glossar. s. v. If it be taken as a collateral form of οὕτως, it will be coloured in each case by the tone of the context, and will mean, ‘so as you see,’ ‘just so and no more,’ etc., etc. Compare κεῖμαι δ' ἀμέριμνος οὕτως Soph. Aj.1206; μόλις οὕτως Aristoph. Nub.327; οὕτω δὲ βασάνιζʼ ἀπαγαγών Aristoph. Ran.625, and this same process will generally give an intelligible meaning to αὔτως. If it be regarded as the adverb of αὐτός, its signification may vary with the different meanings of the pronoun. See Autenrieth (Nägelsb. Il.1. 103), who sums up the meanings of αὐτός as (1) *is;* (2) *ipse;* (3) *solus;* (4) *idem;* the corresponding meanings of αὔτως being (1) *ita; sic;* including sic temere, *ita tantum;* (2) *sua sponte;* (3) *solum;* (4) *item.* Compare with (1) Il.5. 255; with (2) Il.1. 520; with (3) Il.13. 104; 18.198; with (4) Il.2. 138.But this seems too artificial a set of distinctions, and it is far more natural to find the special meaning of the adverb supplied in each case by the graphic power of the language, so easily appreciated by the quick perception of a Greek audience. It is impossible to accept such an account of the word as is given in Cramer, Anecd. Par.3. 125 Par., 4τὸ αὔτως εἰ μὲν δασύνεται γίνεται ἐκ τοῦ οὕτως, κατὰ τροπὴν τοῦ ο— εἰς α—, καὶ σημαίνει τὸ ὁμοίως· εἰ δὲ ψιλοῦται σημαίνει τὸ ματαίως. The ancients generally used the smooth breathing; the Venetus A. almost always. Bekker prefers to write ὧς δ' αὐτῶς, but Hermann maintains αὔτως as an Aeolic form, with the characteristic breathing and accent. Any one who has heard the use of ‘*so*’ in German conversation, and has appreciated the various shades of meaning it can convey, has a ready parallel to the uses of αὔτως, i. e. οὕτως, while a shrug of the shoulders, a toss of the head, or the pointing of a finger would be all-sufficient to fix the meaning in which the speaker employed it on each occasion.
+**αὔτως**. There is great disagreement as to the etymology, meaning, and orthography of this word. It is variously regarded as an epic form of οὕτως, as a direct adverb from αὐτός, or as an identical form of two distinct words, one of which is derived from αὐτός and the other from ἄvατος, αὐατός, ἄτη, an impossible etymology suggested by the meaning ‘in vain’ sometimes attributed to αὔτως. See Döderl. Glossar. s. v. If it be taken as a collateral form of οὕτως, it will be coloured in each case by the tone of the context, and will mean, ‘so as you see,’ ‘just so and no more,’ etc., etc. Compare κεῖμαι δ' ἀμέριμνος οὕτως Soph. Aj.1206; μόλις οὕτως Aristoph. Nub.327; οὕτω δὲ βασάνιζʼ ἀπαγαγών Aristoph. Ran.625, and this same process will generally give an intelligible meaning to αὔτως. If it be regarded as the adverb of αὐτός, its signification may vary with the different meanings of the pronoun. See Autenrieth (Nägelsb. Il.1. 103), who sums up the meanings of αὐτός as (1) *is;* (2) *ipse;* (3) *solus;* (4) *idem;* the corresponding meanings of αὔτως being (1) *ita; sic;* including sic temere, *ita tantum;* (2) *sua sponte;* (3) *solum;* (4) *item.* Compare with (1) Il.5. 255; with (2) Il.1. 520; with (3) Il.13. 104; 18.198; with (4) Il.2. 138.But this seems too artificial a set of distinctions, and it is far more natural to find the special meaning of the adverb supplied in each case by the graphic power of the language, so easily appreciated by the quick perception of a Greek audience. It is impossible to accept such an account of the word as is given in Cramer, Anecd. Par.3. 125 Par., 4τὸ αὔτως εἰ μὲν δασύνεται γίνεται ἐκ τοῦ οὕτως, κατὰ τροπὴν τοῦ ο̄ εἰς ᾱ, καὶ σημαίνει τὸ ὁμοίως· εἰ δὲ ψιλοῦται σημαίνει τὸ ματαίως. The ancients generally used the smooth breathing; the Venetus A. almost always. Bekker prefers to write ὧς δ' αὐτῶς, but Hermann maintains αὔτως as an Aeolic form, with the characteristic breathing and accent. Any one who has heard the use of ‘*so*’ in German conversation, and has appreciated the various shades of meaning it can convey, has a ready parallel to the uses of αὔτως, i. e. οὕτως, while a shrug of the shoulders, a toss of the head, or the pointing of a finger would be all-sufficient to fix the meaning in which the speaker employed it on each occasion.
 
 ## 4.667
 **ἄρξει**, ‘this beginning of his will be a mischief to us by and by.’ ἄρχειν is used here, like ἦρχε νέεσθαι Il.2. 84, ‘he was the first to go.’
@@ -4327,7 +4327,7 @@ The common reading is πρὶν ἡμῖν πῆμα γενέσθαι or φυτ�
 **ἰόντα** cannot be construed ‘as he returns,’ it means simply ‘on his way;’ the context alone supplying the direction of the route. Compare for this general use of ἰέναι Od.2. 367; 9.279; 10.558; 11. 63, 72; 14. 322; when it specifies return it requires the addition of an adverb, as ἄψ Il.3. 306; Od.10. 405, πάλιν Il.11. 652; Od.11. 149, αὖτις Il.1. 27; 8.271; 10.468; 18. 286; Od.16. 46.So La Roche (Hom. Stud. 146) proposes αὖτις here, and insists on it the more because where αὐτόν is joined with μιν there ought to be a strong contrast implied, which is wanting here, unless we try to strike a contrast between ‘him by himself,’ as an easy prey to ‘our twenty comrades.’
 
 ## 4.672
-**ναυτίλλεται**. See Curtius, Verb. p. 322, ‘This apparent present subjunctive may be taken as an aorist, whether we write ναυτι— ́λεται, or assume an Aeolic form, like ὀφέλλειεν Il.17. 651.’ Monro, H. G. § 82, adopts ναυτίλεται, aor. subj., remarking that there are no clear instances of thematic stems forming the subjunctive with the short vowel. ‘That he may bring to a miserable end that voyage of his in search of his father.’ There is a sort of sneer implied in the word, as when Sophocles uses it to describe a careless sailor ‘finishing his voyage in a capsized ship,’ ὑπτίοις κάτω
+**ναυτίλλεται**. See Curtius, Verb. p. 322, ‘This apparent present subjunctive may be taken as an aorist, whether we write ναυτῑ́λεται, or assume an Aeolic form, like ὀφέλλειεν Il.17. 651.’ Monro, H. G. § 82, adopts ναυτίλεται, aor. subj., remarking that there are no clear instances of thematic stems forming the subjunctive with the short vowel. ‘That he may bring to a miserable end that voyage of his in search of his father.’ There is a sort of sneer implied in the word, as when Sophocles uses it to describe a careless sailor ‘finishing his voyage in a capsized ship,’ ὑπτίοις κάτω
 
 στρέψας τὸ λοιπὸν σέλμασιν ναυτίλλεται Antig. 716. |
 
@@ -4375,7 +4375,7 @@ With **ἔργα** supply ὑμέτερα, from ὑμέτερος.
 **εὐεργέων**, genitive plural neuter, from εὐεργής, here and in Od.22. 319.
 
 ## 4.701
-**Νίσσομαι** is commonly explained from νεσ-ιομαι, but it is difficult to see how σι would become σς, or νες change into νις. Perhaps the process is νι-νσ-ιο-μαι, in which case the original spelling would be νι— ́σομαι. See G. Meyer, G. G. § 497. If from νι-νσ-ομαι, then γί-γν-ομαι forms an exact parallel.
+**Νίσσομαι** is commonly explained from νεσ-ιομαι, but it is difficult to see how σι would become σς, or νες change into νις. Perhaps the process is νι-νσ-ιο-μαι, in which case the original spelling would be νῑ́σομαι. See G. Meyer, G. G. § 497. If from νι-νσ-ομαι, then γί-γν-ομαι forms an exact parallel.
 
 ## 4.704
 **ἀμφασίη** (= ἀφασίη). For the insertion of the nasal cp. ὀμφή, ἔγχος, and ἔγχελυς compared with ἔχις. The addition of **ἐπέων** is redundant, as βοῶν in the phrase βοῶν ἐπιβουκόλος Od.3. 422.
@@ -4452,7 +4452,7 @@ Dolios is described as father of the goatherd Melantheus, Od.17. 212, and of Mel
 **εἰ δή που … μεμάασιν**, ‘in the hope that he having devised some plan in his mind may come forth (sc. ἐξ ἀγροῦ) and complain (**ὀδύρεται** aor. subjunctive; so ὀδυράμενος Il.24. 48) to the people who are eager,’ etc. The Schol. B. would interpret this ἐν τοῖς μνηστῆρσι κλαύσει, καὶ οἰκτειρήσουσι τοῦ μὴ κτεῖναι Τηλέμαχον, an explanation which Nitzsch condemns. An appeal to the people is made in Hom. Od.2. 228.We must suppose the people here to be on the side of the suitors, so that λαοί would be the direct antecedent to οἵ. Düntzer conjectures ὡς for οἵ, which removes all difficulty.
 
 ## 4.743
-**νύμφα^**. Here and in Il.3. 130; ‘poeta Aeolici sermonis usum sequitur, cum in vocativo νύμφα correpta ultima utatur. Deprehenditur enim subinde apud Aeoles, ut sunt in universum propter accentus, puto, rationem ad corripiendas et mutilandas verborum terminationes admodum proclives, correpta vocativi forma, sicut in ὦ Δίκα^ Sapph.77’ Theod. Ameis de Aeolism. ap. Hom. p. 39, Halle, 1865. It should be remarked that Aeolism in Homer is seen not so much in a general modification of the Ionic dialect, as in the occasional employment of the forms and flexions regarded as characteristic of the Aeolic. Hinrichs (De Hom. elocutionis vestigüs Aeol., Berlin, 1875) would considerably reduce the number of Aeolisms, accepted by the ancient grammarians, who, according to him, gave the name of Aeolisms to what are only archaisms. He also seeks to prove that Aeolisms are most frequent in common Epic formulas. Among the most unmistakable of these may be quoted such words as λυκάβας Od.14. 161.Compare τρισσὸν ὑπὸλ λυκάβαν in a metrical inscription of the Roman period, found in Mytilene. ἴα=μία Il.4. 437 etc., πίσυρες Od.5. 70 etc., πεμπώβολον Od.3. 460, πεμπάζεσθαι Od.4. 412, μείς=μήν Il.19. 117, βῶς= βοῦς, an ox-hide shield, Il.7. 238(?), φήρ=θήρ Il.1. 268, Θερσίτης as contrasted with θάρσος. Such forms too as βόλομαι (i. e. βόλλομαι) for βούλομαι, ἕταρος for ἕταιρος (see Eustath. 28. 32), αὐέρυσαν Il.1. 159, αὐιάχοι Il.13. 41, καλαῦροψ Il.23. 845, and ταλαύρινος Il.5. 289, may be quoted as Aeolic. Some Aeolic forms became the common property of the Greek language, as ἄγυρις, ἀνώνυμος, ἐρεβεννός (for ἐρεβεσνός), ἐραννός, ἄγρει from ἀγρεῖν=αἱρεῖν. In the declension of the noun such forms as νύμφα, νυμφάων, νεφεληγερέτα and -ταο, Κρονίδαο ιλ., ιʽ ́πποιο, Κυκλώπεσσι, etc. come nearer to the Aeolic system than to the Ionic. The grammarians also referred to the same source the so-called metaplastic cases of the noun e. g. φύλακος (nominative) and its cases by the side of φύλαξ, Il.6. 35; 24.566; Od.15. 231; cp. ἰῶκα Il.11. 601 with ἰωκήν, ὑσμῖνι with ὑσμίνῃ, ἀλκί with ἀλκῇ, and ζαῆν ἄνεμον Od.12. 313, where the Ionic form of declension would give ζαῆ. It is less easy to assign the various forms of the pronoun to their original dialects. Perhaps ἐγών, the genitives in -θεν, ἄμμι, ἄμμε, ὔμμι, ὔμμε, may be reckoned with some certainty as Aeolic. Among adverb forms, ὕπαιθα, ἤλιθα, μίνυνθα, ἄλλυδις, and ἄμυδις reckon as Aeolic.
+**νύμφᾰ**. Here and in Il.3. 130; ‘poeta Aeolici sermonis usum sequitur, cum in vocativo νύμφα correpta ultima utatur. Deprehenditur enim subinde apud Aeoles, ut sunt in universum propter accentus, puto, rationem ad corripiendas et mutilandas verborum terminationes admodum proclives, correpta vocativi forma, sicut in ὦ Δίκᾰ Sapph.77’ Theod. Ameis de Aeolism. ap. Hom. p. 39, Halle, 1865. It should be remarked that Aeolism in Homer is seen not so much in a general modification of the Ionic dialect, as in the occasional employment of the forms and flexions regarded as characteristic of the Aeolic. Hinrichs (De Hom. elocutionis vestigüs Aeol., Berlin, 1875) would considerably reduce the number of Aeolisms, accepted by the ancient grammarians, who, according to him, gave the name of Aeolisms to what are only archaisms. He also seeks to prove that Aeolisms are most frequent in common Epic formulas. Among the most unmistakable of these may be quoted such words as λυκάβας Od.14. 161.Compare τρισσὸν ὑπὸλ λυκάβαν in a metrical inscription of the Roman period, found in Mytilene. ἴα=μία Il.4. 437 etc., πίσυρες Od.5. 70 etc., πεμπώβολον Od.3. 460, πεμπάζεσθαι Od.4. 412, μείς=μήν Il.19. 117, βῶς= βοῦς, an ox-hide shield, Il.7. 238(?), φήρ=θήρ Il.1. 268, Θερσίτης as contrasted with θάρσος. Such forms too as βόλομαι (i. e. βόλλομαι) for βούλομαι, ἕταρος for ἕταιρος (see Eustath. 28. 32), αὐέρυσαν Il.1. 159, αὐιάχοι Il.13. 41, καλαῦροψ Il.23. 845, and ταλαύρινος Il.5. 289, may be quoted as Aeolic. Some Aeolic forms became the common property of the Greek language, as ἄγυρις, ἀνώνυμος, ἐρεβεννός (for ἐρεβεσνός), ἐραννός, ἄγρει from ἀγρεῖν=αἱρεῖν. In the declension of the noun such forms as νύμφα, νυμφάων, νεφεληγερέτα and -ταο, Κρονίδαο ιλ., ιʽ ́πποιο, Κυκλώπεσσι, etc. come nearer to the Aeolic system than to the Ionic. The grammarians also referred to the same source the so-called metaplastic cases of the noun e. g. φύλακος (nominative) and its cases by the side of φύλαξ, Il.6. 35; 24.566; Od.15. 231; cp. ἰῶκα Il.11. 601 with ἰωκήν, ὑσμῖνι with ὑσμίνῃ, ἀλκί with ἀλκῇ, and ζαῆν ἄνεμον Od.12. 313, where the Ionic form of declension would give ζαῆ. It is less easy to assign the various forms of the pronoun to their original dialects. Perhaps ἐγών, the genitives in -θεν, ἄμμι, ἄμμε, ὔμμι, ὔμμε, may be reckoned with some certainty as Aeolic. Among adverb forms, ὕπαιθα, ἤλιθα, μίνυνθα, ἄλλυδις, and ἄμυδις reckon as Aeolic.
 
 In the flexion of the verbs the Scholl. and grammarians refer several peculiar forms to Aeolic that cannot rightly be so characterised, e. g. the termination -ατο, which occurs in the pure Ionic of Herodotus. The short forms δάμεν, βάν, στάν, ἔφαν are referred by them to the same dialect, but it is at least as likely that they were in common usage in popular Greek. Among the best established Aeolisms in the verb we may quote such forms as κέκαδον, κεκαδησόμεθα, the reduplicated 2nd aorist and its derived future; which Schol. Vict.on Il.8. 352 calls ἀναδιπλασιασμὸς Αἰολικός. The Schol. A. on Il.10. 67 finds ἐγρήγορθαι as an Aeolic form: cp. τέτορθαι, μέμορθαι, ἔφθορθαι.
 
@@ -4498,7 +4498,7 @@ dona tulit.’ |
 
 **ἔκλυεν οἱ**, ‘heard for her,’ i. e. heard her prayer. Compare with this use of the dative δέξασθαί τινι, and see Il.16. 531ὅττι οἱ ὦκ' ἤκουσε μέγας θεὸς εὐξαμένοιο.
 
-*ἀρῆς*, α— in arsis, α^ in thesis. The word appears in various senses: (1) as here, ‘a prayer,’ cp. Il.15. 378, 598; 23. 199; (2) a ‘curse,’ Il.9. 566, etc. etc.; (3) ‘mischief’ or ‘harm,’ Od.2. 59; 22.208; Il.12. 334, etc. An attempt has been made to distinguish (3) as an altogether different word, connected with ἀρημένος: and Heyne ( Il.12. 334) vainly endeavours to restrict ἀ—ρή to meaning (2), and ἀ^ρή to (1).
+*ἀρῆς*, ᾱ in arsis, ᾰ in thesis. The word appears in various senses: (1) as here, ‘a prayer,’ cp. Il.15. 378, 598; 23. 199; (2) a ‘curse,’ Il.9. 566, etc. etc.; (3) ‘mischief’ or ‘harm,’ Od.2. 59; 22.208; Il.12. 334, etc. An attempt has been made to distinguish (3) as an altogether different word, connected with ἀρημένος: and Heyne ( Il.12. 334) vainly endeavours to restrict ᾱ̓ρή to meaning (2), and ᾰ̓ρή to (1).
 
 ## 4.768
 **ὁμάδησαν**. The tense shows that this is not a description of the noisy character of the suitors' feast, but that it expresses the sudden clamour raised when they heard Penelope's cry (ὀλολυγή) and misinterpreted its meaning.
@@ -5398,7 +5398,7 @@ The tenses are graphic. Odysseus succeeds in scrambling on the plank, and, bestr
 **φανήῃ**. We often find φαίνεσθαι used of the reappearance of things which had been lost. Cp. φάνημεν Od.9. 466, of the return of Odysseus and his companions to their comrades after their escape from the Cyclops; or οὔ τις ἐξεφάνη, of the loss of the men who were detained by Circe's treachery; or ἐξεφαάνθη, of the reappearance of the planks from the whirlpool, Od.12. 442.So here, the father's life had seemed lost beyond all hope of recovery. Human skill was not supposed by the ancients to reach to inward ailments; cp. Od.9. 411νοῦσόν γ' οὔ πως ἔστι Διὸς μεγάλου ἀλέασθαι. Nitzsch quotes from Seneca ( Ep. 95), ‘Medecina quondam paucarum fuit scientia herbarum, quibus sisteretur fluens sanguis, vulnera coirent paullatim.’ See especially the remarks of Plato ( Rep.406) about invalids and their doctoring, τῇ παιδαγωγικῇ τῶν νοσημάτων ταύτῃ τῇ νῦν ἰατρικῇ πρὸ τοῦ Ἀσκληπιάδαι οὐκ ἐχρῶντο, ὥς φασιν, πρὶν Ἡρόδικον γενέσθαι, i.e. fifth cent. B.C.
 
 ## 5.396
-**ἔχραε**, ‘assails,’ a gnomic aorist parallel to **κῆται**. Cp. ἐπέχραον Od.2. 50.The form is that of a thematic aorist (χρα—υ- or χρα^v-).
+**ἔχραε**, ‘assails,’ a gnomic aorist parallel to **κῆται**. Cp. ἐπέχραον Od.2. 50.The form is that of a thematic aorist (χρᾱυ- or χρᾰv-).
 
 ## 5.400
 **ὅσσον τε γέγωνε βοήσας**, the personal subject being τις, which is not expressed; cp. Il.13. 287οὐδέ κεν ἔνθα τεόν γε μένος καὶ χεῖρας ὄνοιτο. *γέγωνε* is a perfect with a present signification. Translate, ‘as far as one makes himself heard with a shout;’ for γεγώνειν οὐ ψιλῶς ἐστι φωνεῖν ἀλλ' ἄκουστον φθέγγεσθαι Schol. Venet. on Il.8. 223.The etymology of the word is most uncertain. Fick refers it to the root *gan*, *gâ* = ‘cognoscere.’ May it be connected with the Lat. *gannire*? The verb occurs in three forms, γεγωνέω, γεγωνίσκω, and, more rarely, γεγώνω, as in Eurip. Or.1218; Soph. Phil.238.
@@ -5571,7 +5571,7 @@ Join **ὑπὸ-δύσετο**.
 ## 5.482
 **ἐπαμήσατο**, ‘gathered together.’ So ἀμησάμενος, Od.9. 247, of the Cyclops collecting the curd he had made. Cp. Il.24. 164κόπρος ἔην κεφαλῇ τε καὶ αὐχένι τοῖο γέροντος
 
-τήν ῥα κυλινδόμενος καταμήσατο χερσὶν ἑῇσι. If **ἀμᾶν** in the sense of ‘cutting’ and **ἀμᾶσθαι** in the sense of ‘collecting’ are words with the same etymology, it is difficult to understand the wide divergence of meaning in the two voices. It may be that ‘collect’ is the true meaning of both, and that the idea of ‘cutting’ has come in without reference to etymology because it is the ordinary and recognised way of ‘gathering’ the harvest. The quantities also vary: the active gives α—μ, while the middle voice and the verb in compounds have α^μ. It has been proposed to connect the word with ἅμα or ἄμυδις, but more likely the initial α is merely prosthetic, so that we may connect the word with *mähen*, ‘to mow,’ or Lat. *me-to*, *mes-sis.* The process here described is the piling of a broad cushion or bed of leaves on which to lie. |
+τήν ῥα κυλινδόμενος καταμήσατο χερσὶν ἑῇσι. If **ἀμᾶν** in the sense of ‘cutting’ and **ἀμᾶσθαι** in the sense of ‘collecting’ are words with the same etymology, it is difficult to understand the wide divergence of meaning in the two voices. It may be that ‘collect’ is the true meaning of both, and that the idea of ‘cutting’ has come in without reference to etymology because it is the ordinary and recognised way of ‘gathering’ the harvest. The quantities also vary: the active gives ᾱμ, while the middle voice and the verb in compounds have ᾰμ. It has been proposed to connect the word with ἅμα or ἄμυδις, but more likely the initial α is merely prosthetic, so that we may connect the word with *mähen*, ‘to mow,’ or Lat. *me-to*, *mes-sis.* The process here described is the piling of a broad cushion or bed of leaves on which to lie. |
 
 ## 5.483
 **χύσις**, ‘for there was a great litter of leaves in full plenty, enough to shelter two or three men, in storm-time, even though the weather should be very wild.’
@@ -5597,7 +5597,7 @@ With **ἵνα μή … αὔοι** compare Xen. Mem.2. 2. 12οὐκοῦν κα
 **δυσπονέος**, a metaplastic form of the genitive of δύσπονος, as if from an adjective of the form δυσπονής.
 
 ## 6.2
-**ἀρημένος**. This word the Schol. interprets by βεβλαμμένος. It is used ( Od.9. 403) to express the affliction of the blinded Cyclops; and ( Od.18. 53) the miserable plight of Odysseus when disguised as a beggar, δύῃ ἀρημένος. In Il.18. 435 we have γήραϊ λυγρῷ ἀρ., and in Od.11. 136γήραι ὑπὸ λιπαρῷ ἀρ. The etymology is uncertain. Döderl. regards it as a perfect participle from ἀρᾶν, a simpler form of ἀράσσειν, comparing ἀρατὸν ἕλκος Soph. Ant.972, and suggesting a connection with ἀραιός. Düntzer refers it to ἀρή (α^), a word itself of doubtful derivation; cp. ἀρὴν ἀμῦναι Il.12. 334.Thiersch takes it from a form vαρέω = βαρέω, as if it were vε vαρημένος, and this notion of ‘over-weighed’ suits well with a similar phrase, καμάτῳ ἁδηκότες ἠδὲ καὶ ὕπνῳ Od.12. 281.Unless we can translate **ὕπνῳ** by ‘sleepiness,’ we must regard the whole expression as an instance of syllepsis; as in Tacit. Ann.4. 14‘ubi nocte et laetitia incaluisse videt;’ or it may be a sort of ἓν διὰ δυοῖν, meaning ‘oppressed with the sleep that weariness brings.’ Cp. Horace, Od.3. 4. 11‘ludo fatigatumque somno.’ Some interpreters, according to Eustath., joined ὕπνῳ with καθεῦδε.
+**ἀρημένος**. This word the Schol. interprets by βεβλαμμένος. It is used ( Od.9. 403) to express the affliction of the blinded Cyclops; and ( Od.18. 53) the miserable plight of Odysseus when disguised as a beggar, δύῃ ἀρημένος. In Il.18. 435 we have γήραϊ λυγρῷ ἀρ., and in Od.11. 136γήραι ὑπὸ λιπαρῷ ἀρ. The etymology is uncertain. Döderl. regards it as a perfect participle from ἀρᾶν, a simpler form of ἀράσσειν, comparing ἀρατὸν ἕλκος Soph. Ant.972, and suggesting a connection with ἀραιός. Düntzer refers it to ἀρή (ᾰ), a word itself of doubtful derivation; cp. ἀρὴν ἀμῦναι Il.12. 334.Thiersch takes it from a form vαρέω = βαρέω, as if it were vε vαρημένος, and this notion of ‘over-weighed’ suits well with a similar phrase, καμάτῳ ἁδηκότες ἠδὲ καὶ ὕπνῳ Od.12. 281.Unless we can translate **ὕπνῳ** by ‘sleepiness,’ we must regard the whole expression as an instance of syllepsis; as in Tacit. Ann.4. 14‘ubi nocte et laetitia incaluisse videt;’ or it may be a sort of ἓν διὰ δυοῖν, meaning ‘oppressed with the sleep that weariness brings.’ Cp. Horace, Od.3. 4. 11‘ludo fatigatumque somno.’ Some interpreters, according to Eustath., joined ὕπνῳ with καθεῦδε.
 
 ## 6.4
 **εὐρυχόρῳ**, see on Od. 4.635; and Eustath. ad loc. ἀεὶ παρ' Ὁμήρῳ εὐρύχορος συστέλλει τὴν παραλήγουσαν, ἔνθα δηλαδὴ ἔστιν εὐρὺ χορεύειν. τὸ δέ γε παρὰ τοῖς ὕστερον εὐρύχορον πλάτος μόνον χώρας δηλοῖ.
@@ -5697,7 +5697,7 @@ integit, et large diffuso lumine ridet.’ Also Seneca de IraLucr., 3. 6‘pars 
 ## 6.45
 **πέπταται**, ‘is outspread;’ so πέπτατο αὐγή Il.17. 371.The word is used also simply of clothes laid out as a covering, Il.5. 195.Cp. Joel 2. 2 ‘the morning spread upon the mountains.’
 
-**ἀνέφελος** is the better reading, not ἀννέφελος. A short final vowel preceding the word νέφος is frequently lengthened in Homer, as δε—` νεφέεσσι Od.5. 293; 9. 68, ποτι—` νέφεα Od.8. 374, δια—` νεφέων Il.22. 309.Among words beginning with ν a fair proportion can be shown to have begun with σν (as νευρή, νιφάς, νέω, νύμφη). And it has been held that νέφος originally began with a double consonant, as shown by δνόφος, κνέφας, but the form *nubes* in Latin is against this idea. Eustath. quotes as similar metrical lengthenings α—ʼκάματος and α—ʼθάνατος. See generally Monro, H. G. § 371.
+**ἀνέφελος** is the better reading, not ἀννέφελος. A short final vowel preceding the word νέφος is frequently lengthened in Homer, as δε̄̀ νεφέεσσι Od.5. 293; 9. 68, ποτῑ̀ νέφεα Od.8. 374, διᾱ̀ νεφέων Il.22. 309.Among words beginning with ν a fair proportion can be shown to have begun with σν (as νευρή, νιφάς, νέω, νύμφη). And it has been held that νέφος originally began with a double consonant, as shown by δνόφος, κνέφας, but the form *nubes* in Latin is against this idea. Eustath. quotes as similar metrical lengthenings ᾱ̓κάματος and ᾱ̓θάνατος. See generally Monro, H. G. § 371.
 
 **ἐπιδέδρομεν**, ‘floats over it;’ used conversely of ἀχλύς Od.20. 357.
 
@@ -6086,7 +6086,7 @@ Join **οὐ … ἀέκητι**, as οὐ . . θεῶν ἀέκητι Od.3. 28.
 **κεκλημένος εἴη**. Cp. Il.2. 260μήδ' ἔτι Τηλεμάχοιο πατὴρ κεκλημένος εἴην. This so-called ‘periphrastic conjugation’ is found in Homer only with the perfect passive participle, as in τετελεσμένον ἔσται. See Lehrs, Aristarch.383.Translate, ‘Would that such an one might be called my husband, and that it might please him to bide here!’ Compare σὴ παράκοιτις κέκλημαι Il.4. 60.Ameis suggests that **οἱ**, standing as it does in an emphatic position, marks the transition from the general sentiment to the thought about Odysseus himself as the possible husband. These two lines incurred the disapproval of some of the older critics. Aristarchus obelises both verses, but is not indisposed to let the former stand. Plutarch (de audiend. poet.) is offended by them, saying, ψεκτέον τὸ θράσος αὐτῆς καὶ τὴν ἀκολασίαν, and Schol. Q. T. remarks, Ἔφορος ἐπαινεῖ τὸν λόγον ὡς ἐξ εὐφυοῦς πρὸς ἀρετὴν ψυχῆς· ἐγὼ δὲ πρὸς τὸ ἁβροδίαιτον τῶν Φαιάκων. Modern feeling will doubtless side with Ephorus, regarding the words as expressing the thoughts of an innocent girl, to whom marriage was a certainty and not a mere possibility; and she has no hearers but her own familiar handmaidens, for Odysseus is **ἀπάνευθε** (sup. 236). In the presence of men, Nausicaa is very different, even before her father, αἴδετο θαλερὸν γάμον ἐξονομῆναι sup. 66.
 
 ## 6.248
-**Ὀδυσσῆι ἔθεσαν**. Notice the lengthening of the datival iota before a vowel, with no initial v, as in Od.16. 206.It is more common when a pause in the sense intervenes, as in Od.8. 224; 10.520. But the -ι of the Sing. Dat.is so frequently long in Homer that it may be regarded as a doubtful vowel. Considering that this vowel is rarely elided, and that the corresponding Latin case ends in ι—, it is highly probable that the Greek -ι was originally long. See Monro, H. G. §§ 373 Dat., 376.
+**Ὀδυσσῆι ἔθεσαν**. Notice the lengthening of the datival iota before a vowel, with no initial v, as in Od.16. 206.It is more common when a pause in the sense intervenes, as in Od.8. 224; 10.520. But the -ι of the Sing. Dat.is so frequently long in Homer that it may be regarded as a doubtful vowel. Considering that this vowel is rarely elided, and that the corresponding Latin case ends in ῑ, it is highly probable that the Greek -ι was originally long. See Monro, H. G. §§ 373 Dat., 376.
 
 ## 6.255
 **ὄρσεο … ἴμεν**, ‘rouse thyself to go.’ So ὦρτο πόλινδ' ἴμεν Od.7. 14, and the common phrase βῆ δ' ἴμεν sup. 130, or βῆ δ' ἰέναι. *Ὄρσεο* is the imperat. of the weak aorist ὠρσόμην, like δύσετο. The form ὄρσο Od.7. 342 is directly from the root.
@@ -6191,7 +6191,7 @@ In **κομίσσατο** both ideas of ‘rescuing’ and ‘taking care of’ 
 οἵην τερπωλὴν θεὸς ἤγαγε Hom. Od.18. 36. |
 
 ## 6.303
-**ἥρωος** is generally read as a dactyl, and is compared with βέβλη^αι Il.11. 380, but Ahrens would make both spondees by synizesis. For other instances of a long syllable shortened in the middle of a word compare ἔμπαι^ον Od.20. 379, οἷος (˘˘) Il.13. 275; 18.105; Od.7. 312; 20. 89, υἱός Il.6. 130; 17.575; Od.11. 270; ( Il.1. 489?), υἱόν Il.4. 473; 5.612; 9.84; 17. 590, υἱέ Il.7. 47; 11.200; 15.244; ( Od.11. 478?). See Ribbeck, Hom. Forml. § 5.
+**ἥρωος** is generally read as a dactyl, and is compared with βέβλη̆αι Il.11. 380, but Ahrens would make both spondees by synizesis. For other instances of a long syllable shortened in the middle of a word compare ἔμπαῐον Od.20. 379, οἷος (˘˘) Il.13. 275; 18.105; Od.7. 312; 20. 89, υἱός Il.6. 130; 17.575; Od.11. 270; ( Il.1. 489?), υἱόν Il.4. 473; 5.612; 9.84; 17. 590, υἱέ Il.7. 47; 11.200; 15.244; ( Od.11. 478?). See Ribbeck, Hom. Forml. § 5.
 
 **κεκύθωσι** (subjunctive of reduplicated aor.), is appropriate with **δόμοι**, as one is lost to sight from outside, as soon as the door is passed. **αὐλή** seems to be added, somewhat out of place, to express the first part of the premises, on which he must set foot on his way to the house. As soon as he has entered the court and passed within the house, he is to walk right through the hall to the upper end, where the king and queen will be found sitting.
 
@@ -6276,7 +6276,7 @@ Join **τῷ … ἐφήμενος**. With the words **ἀθάνατος ὥς**
 **παρθενικῇ** is variously taken as an adj. in agreement with, or a substantive in apposition to, **νεήνιδι**. The form stands to παρθένος as ὀρφανικός to ὀρφανός.
 
 ## 7.25
-**ἐξ ἀπίης γαίης**. These words form the epexegesis to τηλόθεν, as, sup. 22, Ἀλκινόου does to ἀνέρος. Translate, ‘from after, from a distant land.’ So Eustath. ἐκ τῆς μακρὰν ἀπεχούσης γῆς. The name γῆ Ἀπία (α—) for the Peloponnese is a different word according to Buttm. Lexil. s. v. The accentuation of ἄπιος, however, as compared with ἀντίος, seems to suggest some other etymology than ἀπό. It is therefore proposed to refer it to root *ap*, as in Skt. Ap-as, Lat. aqu-a. We might then compare Ἀπιδανός, Μεσσ-άπ-ιοι, and even Ἀπία γῆ Aesch. Supp.777, which last word may suggest the modern name Morea (*mare*); cp. Ar-mor-ica. Thus **ἐξ ἀπίης γῆς** would mean ‘from a land over the water.’ Cp. Il.1. 270.
+**ἐξ ἀπίης γαίης**. These words form the epexegesis to τηλόθεν, as, sup. 22, Ἀλκινόου does to ἀνέρος. Translate, ‘from after, from a distant land.’ So Eustath. ἐκ τῆς μακρὰν ἀπεχούσης γῆς. The name γῆ Ἀπία (ᾱ) for the Peloponnese is a different word according to Buttm. Lexil. s. v. The accentuation of ἄπιος, however, as compared with ἀντίος, seems to suggest some other etymology than ἀπό. It is therefore proposed to refer it to root *ap*, as in Skt. Ap-as, Lat. aqu-a. We might then compare Ἀπιδανός, Μεσσ-άπ-ιοι, and even Ἀπία γῆ Aesch. Supp.777, which last word may suggest the modern name Morea (*mare*); cp. Ar-mor-ica. Thus **ἐξ ἀπίης γῆς** would mean ‘from a land over the water.’ Cp. Il.1. 270.
 
 ## 7.29
 **ναίει**. See note on Od. 1.404. Some compare the words **πατρὸς ἐγγύθι ναίει** with ποτικέκλιται αὐτῇ Od.6. 308; see note there.
@@ -6476,7 +6476,7 @@ Here **φαίνοντες** is used intransitively for ‘giving light;’ cp. O
 **ὄρχατος**, ‘proprie idem est atque ὄρχος a quo forma non magis differt quam μέσσατος a μέσσος: invaluit tamen usus ut ὄρχος diceretur στίχος φυτῶν, ordo singulus plantarum vel arborum, ὄρχατος autem istorum ordinum complexio, sive hortus’ Bothe.
 
 ## 7.114
-**πεφύκασι**, for which some read πεφύκει, has here a short penult. In v. 128 we have the form πεφύα—σι. There are only two instances of this short ending in Homer, viz., πεφύκα^σι, as here, and λελόγχα^σι Od.11. 304.‘For other examples in Ionic, see Curt. Verb. ii. 166. In these forms the α^ belongs to the ending, since -α^σι is for -α^τι, which corresponds to the -ντι of the Doric φα-ντι. The forms in -α—σι are of later origin.’ Monro, H. G. § 5, cp. also § 7.
+**πεφύκασι**, for which some read πεφύκει, has here a short penult. In v. 128 we have the form πεφύᾱσι. There are only two instances of this short ending in Homer, viz., πεφύκᾰσι, as here, and λελόγχᾰσι Od.11. 304.‘For other examples in Ionic, see Curt. Verb. ii. 166. In these forms the ᾰ belongs to the ending, since -ᾰσι is for -ᾰτι, which corresponds to the -ντι of the Doric φα-ντι. The forms in -ᾱσι are of later origin.’ Monro, H. G. § 5, cp. also § 7.
 
 ## 7.118
 **χείματος**, ‘neither in winter nor in summer.’ To this is added, as epexegesis, **ἐπετήσιος**, in agreement with καρπός: ‘lasting all the year.’
@@ -6960,7 +6960,7 @@ These words remind us of ‘blind Thamyris and blind Maeonides,’ and of our ow
 **χρείων**, ‘giving response,’ as χρήσω δ' ἀνθρώποισι Διὸς νημερτέα βουλήν h. Hom. Ap. 132.
 
 ## 8.80
-**Πυθώ** was the oldest name of the place in Phocis where Apollo's oracle was established. In h. Hom. Ap. 362 foll. the name was derived from πύθεσθαι because of the ‘rotting’ carcase of the Python which lay there, ἐνταυθοῖ νῦν πύθευ ἐπὶ χθονὶ βωτιανείρῃ .. ἐξ οὗ νῦν Πυθὼ κικλήσκεται. Others derive it from πυ^θέσθαι, where the quantity of the vowel suggests a difficulty. Δελφοί was properly the name of the people; the word first occurs h. Hom. 28. 14 Δελφῶν ἐς πίονα δῆμον. Voss (says Nitzsch) dates it from about B.C. 620. O. Müller would explain **λάινος οὐδός** of a subterranean treasure-house, see the description of the building of the temple by Trophonius, h. Hom. Ap. 295 foll., from which Nitzsch dissents.
+**Πυθώ** was the oldest name of the place in Phocis where Apollo's oracle was established. In h. Hom. Ap. 362 foll. the name was derived from πύθεσθαι because of the ‘rotting’ carcase of the Python which lay there, ἐνταυθοῖ νῦν πύθευ ἐπὶ χθονὶ βωτιανείρῃ .. ἐξ οὗ νῦν Πυθὼ κικλήσκεται. Others derive it from πῠθέσθαι, where the quantity of the vowel suggests a difficulty. Δελφοί was properly the name of the people; the word first occurs h. Hom. 28. 14 Δελφῶν ἐς πίονα δῆμον. Voss (says Nitzsch) dates it from about B.C. 620. O. Müller would explain **λάινος οὐδός** of a subterranean treasure-house, see the description of the building of the temple by Trophonius, h. Hom. Ap. 295 foll., from which Nitzsch dissents.
 
 ## 8.81
 **τότε**, ‘then;’ namely, when Agamemnon consulted the oracle. The war with Troy was just beginning, the κακῶν τρικυμία was just rolling on (**κυλίνδετο**), soon to sweep so many lives away. The story appears in a different shape on the authority of Demetrius Phalereus (quoted by Schol. H. M. Q. R. E. on Od. 3.267), Μενέλαος ἅμα τῷ Ὀδυσεῖ ἐλθὼν ἐς Δελφοὺς τὸν θεὸν ἤρετο περὶ τῆς μελλούσης ἔσεσθαι ἐς Ἴλιον στρατείας.
@@ -7257,7 +7257,7 @@ The bow of Eurytus descended through his son Iphitus to Odysseus, in whose hands
 **ἄρτια βάζειν**, ‘to speak with sound judgment.’ **ἄρτιος** is equivalent to *sanus*, and hence is either ‘sound’ as here, or ‘sincere’ as in Od.19. 248ὅτι οἱ φρεσὶν ἄρτια ᾔδη. The final vowel of **ἐπίσταιτο** is lengthened in arsis before the digamma.
 
 ## 8.243
-**δαινύῃ**. In Od.19. 328 we find δαινυ^ ́ῃ. Ameis suggests δαινύεαι, which Monro, H. G. § 18 accepts; preferring in Od.19. 328, to read δαινύεʼ.
+**δαινύῃ**. In Od.19. 328 we find δαινῠ́ῃ. Ameis suggests δαινύεαι, which Monro, H. G. § 18 accepts; preferring in Od.19. 328, to read δαινύεʼ.
 
 ## 8.244
 **οἷα … πατρῶν**, ‘what prowess Zeus bestoweth on us, from our fathers' times right on.’ This use of **ἐπί** with the dative may be illustrated by Od.13. 60γῆρας . . καὶ θάνατος τά τ' ἐπ' ἀνθρώποισι πέλονται οδ., 8. 554 ἐπὶ πᾶσι τίθενται . . τοκῆες [ὄνομα]. But most apposite to the sense is Od.14. 227αὐτὰρ ἐμοὶ τὰ φίλ' ἔσκε τά που θεὸς ἐν φρεσὶ θῆκεν,
@@ -7762,7 +7762,7 @@ Join **τῆς … παρειαί**. We may render **ἐλεεινοτάτῳ** 
 ἤ τευ ἀκοντίσσαι ἠὲ σχεδὸν ὁρμηθῆναι. These marvellous ships, endued with human sense, and anticipating the will of their masters, flit unseen over the sea, (for this is the meaning of **ἠέρι καὶ νεφέλῃ κεκαλυμμέναι**, see note on ἠέρα 7. 140), enjoying immunity from all danger. The same sort of story appears again partly in the legend of the ‘Flying Dutchman;’ partly in the tale of ‘Hiawatha and his Canoe.’ Welcker (Klein. Schrift. ii.) sees in the description of the Phaeacians and their ghostly ships, conveying Odysseus in a deep sleep to his home, a Greek adaptation of the Northern legend of the Ferrymen of Death, carrying over the souls of the departed to the island of Brittia, as told by Procopius ( Bell. Goth. 4. 20); but this dismal office seems little suited for the gay and easy Phaeacians, who are **πομποὶ ἀπήμονες**. The mist and cloud that envelopes them is but the natural concealment of the working of supernatural power. Compare however Od.11. 15. |
 
 ## 8.560
-**πόλιας** scanned as ˘¯. So πόλιος in Il.2. 811; 21.567. Bekker and Nauck write πόλι—ς, as in the new Ionic.
+**πόλιας** scanned as ˘¯. So πόλιος in Il.2. 811; 21.567. Bekker and Nauck write πόλῑς, as in the new Ionic.
 
 ## 8.562
 Join *οὔτε σφιν ἔπι* [ἔπεστι] *δέος*.
@@ -7794,7 +7794,7 @@ Join *οὔτε σφιν ἔπι* [ἔπεστι] *δέος*.
 **Ἀργείων Δαναῶν**. The phrase Ἀργείη Ἑλένη suggests that Ἀργείων here is an epithet, referring to the home of the **Δαναοί**. The expression δίψιον Ἄργος has suggested to K. O. Müller to connect Δαναός with δανός, ‘dry;’ while others assign a meaning directly contrary to Δαναός, as if from δα, ‘very’ (as in δάσκιος) and να- (νάω, ‘to flow’). Gladstone would make Δαναοί the epithet and Ἀργεῖοι the noun. Bekker prefers ἡρώων Δαναῶν.
 
 ## 8.581
-**πηός** (perhaps from πέ-πα—μαι) seems limited to connections by marriage, who are ‘nearest to one after one's own blood-relations.’
+**πηός** (perhaps from πέ-πᾱμαι) seems limited to connections by marriage, who are ‘nearest to one after one's own blood-relations.’
 
 ## 8.582
 **γαμβρός** connected with γαμεῖν, and **πενθερός**, perhaps, with a root πενθ = ‘bind,’ seen in πεῖσμα.
@@ -7851,7 +7851,7 @@ The narrative of Odysseus, contained in bb. 9-12, was called, as early as the ti
 **Ἰθάκην εὐδείελον**. For the interpretation of this passsge see Appendix on Ithaca.
 
 ## 9.24
-**ὑλήεσσα^ Ζάκυνθος**. See note on Od. 1.246, where also we have ὑλήεντι Ζακύνθῳ and not ὑληέσσῃ. Similarly ἠμαθόεις is used as an adjective of two terminations in fifteen places, ἀμπελόεις in Il.2. 561, ποιήεις ib. 503, the reason being probably merely metrical; see note on Od. 4.406.
+**ὑλήεσσᾰ Ζάκυνθος**. See note on Od. 1.246, where also we have ὑλήεντι Ζακύνθῳ and not ὑληέσσῃ. Similarly ἠμαθόεις is used as an adjective of two terminations in fifteen places, ἀμπελόεις in Il.2. 561, ποιήεις ib. 503, the reason being probably merely metrical; see note on Od. 4.406.
 
 ## 9.27
 **κουροτρόφος**, generally rendered ‘nurse of young heroes,’ like βωτιάνειρα, an epithet of Phthia, Il.1. 155.But the translation of **κουροτρόφος** will be modified by the special meaning assigned to κοῦρος, and if we take κοῦρος simply to mean a ‘youth,’ the compounded adjective may be compared with παιδοτρόφος, a Sophoclean epithet for ἐλαία, O. C.701.**κουροτρόφος** is also used of Latona, mother of Artemis and Apollo, in Theocr. 18. 50.
@@ -7947,7 +7947,7 @@ The subject to **ἀῦσαι** is τινα, expressing, distributively, all the
 **ἐπικάρσιαι**. Eustath. interprets this ‘head downwards,’ of ships plunging their bows in the seas as they run before the wind, comparing the word with ἐπικάρ, Il. 6. 392 χαράδραι … μεγάλα στενάχουσι ῥέουσαι | ἐξ ὀρέων ἐπικάρ (‘praeceps’). An analogous form is ἀνακάρ. Nitzsch prefers the interpretation of Apoll. λεχ.πλάγιαι = ‘obliquae.’ Compare the expression ἐπικαρσίας τοῦ Πόντου of ships moored at an angle to the Euxine, Hdt.7. 36; and the word ἐγκάρσιος, ‘athwart,’ Thuc.6. 99.The ships are regarded as drifting on with the wind abeam. The radical meaning of κάρσιος in these compounds is, according to Düntzer, ‘curved’ or ‘crooked;’ compare κέρας, κυρτός.
 
 ## 9.74
-**συ—νεχές**. The quantity of the first syllable in συνεχές and πα—ρέχῃ, Od.19. 113, is long, because ἔχω originally had initial ς, cp. ἕξω, ἔσχον.
+**σῡνεχές**. The quantity of the first syllable in συνεχές and πᾱρέχῃ, Od.19. 113, is long, because ἔχω originally had initial ς, cp. ἕξω, ἔσχον.
 
 ## 9.75
 **θυμὸν ἔδοντες**, cp. Cicero, Tusc. Disp. 3. 26 ‘ipse suum cor edens.’ See also Od.10. 143, 379; Il.6. 202.In Od.16. 92 we find καταδάπτειν ἦτορ, and in Il.24. 129σὴν ἔδεαι κραδίην.
@@ -8119,7 +8119,7 @@ Join **διὰ … κοσμηθέντες**.
 For **ἐσχατιῇ** see inf. 280.
 
 ## 9.184
-**μῆλα**, the lesser cattle, including sheep and goats. The etymological connection of the word is very uncertain. It may be connected with μαλακός in the sense of ‘soft’ or ‘woolly,’ a notion which suggests a further reference to μαλλός. If we might compare the word with μα—λός, ‘bright’ (compare μήλοπα καρπόν [?] Od.7. 154), we should have an etymology which would equally suit μῆλον, ‘the apple’ or ‘bright-cheeked fruit,’ and ἄργυφα μῆλα, the ‘bright white flocks.’ Grimm J. refers μῆλα = ‘the *lesser* cattle’ to the same root as ‘small.’
+**μῆλα**, the lesser cattle, including sheep and goats. The etymological connection of the word is very uncertain. It may be connected with μαλακός in the sense of ‘soft’ or ‘woolly,’ a notion which suggests a further reference to μαλλός. If we might compare the word with μᾱλός, ‘bright’ (compare μήλοπα καρπόν [?] Od.7. 154), we should have an etymology which would equally suit μῆλον, ‘the apple’ or ‘bright-cheeked fruit,’ and ἄργυφα μῆλα, the ‘bright white flocks.’ Grimm J. refers μῆλα = ‘the *lesser* cattle’ to the same root as ‘small.’
 
 **ἰαύεσκον**, i. e. ‘were housed at night;’ in the day-time they were out at pasture.
 
@@ -8181,7 +8181,7 @@ The **ταρσοί** mentioned here are the same as the **πλεκτοὶ τάλ
 **ἔρχατο**, in Od.10. 241 with augment, ἐέρχατο. The lambs were penned off in three divisions according to age, the firstlings, the later lambs (μέτασσαι = ‘intermediate,’ from μετά, as ἔπισσος from ἐπί and περισσός from περί,) and the newly yeaned. With the use of **ἕρσαι**, to express the young of animals, compare ψάκαλον and μητέρες ψακαλοῦχοι Soph. Frag. 962, and δρόσοις ἀέπτοις λεόντων Aesch. Ag.141.
 
 ## 9.222
-**ναῖον**. The full form of the verb νάω is σ-ναv-ω, Aeol. ναύω. It is, together with νέω (i. e. σ-νεv-ω, cp. ἔνευσα), to be referred to root νυ or σνυ, Skt. snu, and snau-mi = ‘fluo.’ The quantity of the α in νάω is usually short in Homer, as in Od.6. 292; Il.21. 197, but the v. l. νᾶον gives α— in the imperf., as in the later epic.
+**ναῖον**. The full form of the verb νάω is σ-ναv-ω, Aeol. ναύω. It is, together with νέω (i. e. σ-νεv-ω, cp. ἔνευσα), to be referred to root νυ or σνυ, Skt. snu, and snau-mi = ‘fluo.’ The quantity of the α in νάω is usually short in Homer, as in Od.6. 292; Il.21. 197, but the v. l. νᾶον gives ᾱ in the imperf., as in the later epic.
 
 The general word **ἄγγεα** is subdivided into **σκαφίδες** (σκάπ-τω, *scoop*), and **γαυλοί**, probably ‘round bowls;’ cp. γόγγυλος, and Skt. golas = ‘a ball.’
 
@@ -8290,7 +8290,7 @@ The use of the participle **ἰών** merely as a graphic addition may be parall
 **ἄψορρον**. The Schol. strangely interprets as οὐχ ἁπλῶς ἀλλ' ὀπισθόρμητον, τὸ ἀνάπαλιν τῆς ἀληθείας. It only means, ‘I answered him back,’ as in inf. 501.
 
 ## 9.283
-**Νέα**. See crit. note. For two short syllables coalescing into one long cp. ὑψηρεφε—α— Od.4. 757, ἠνώγε—α— sup. 44, τεμένε—α— Od.11. 185, and ῥε—α— διελεύσεσθαι Il.13. 144.
+**Νέα**. See crit. note. For two short syllables coalescing into one long cp. ὑψηρεφε̄ᾱ Od.4. 757, ἠνώγε̄ᾱ sup. 44, τεμένε̄ᾱ Od.11. 185, and ῥε̄ᾱ διελεύσεσθαι Il.13. 144.
 
 ## 9.285
 If we join **ἄνεμος ἐκ πόντου** we may compare it with πλημυρὶς ἐκ πόντοιο inf. 486. Others join **φέρεν ἐκ πόντου**, ‘brought in from the open sea;’ i. e. they were driven on a leeshore, which explains the reason of their coming at all to the land of the Cyclopes.
@@ -8364,7 +8364,7 @@ In **ἐεικοσ-όροιο** we have the root -ερ, as in ἐρέσσω. It 
 **μῆκος** and **πάχος** are accusatives qualifying τόσσον.
 
 ## 9.325
-**ὄργυια^** (in Attic ὀργυια— ́) is from stem ὀρεγ—seen in English ‘reach.’ It properly denotes the space between the finger-tips when the arms are ‘extended.’ The ‘foot,’ the ‘cubit,’ and the ‘ell’ are instances of measures derived from the human body. The ‘fathom’ is the same length as the ὄργυια, and is got at in the same way; but the word is applied to the length of line or thread (*fead*, *faden*) that can be held with the furthest stretch of the two arms.
+**ὄργυιᾰ** (in Attic ὀργυιᾱ́) is from stem ὀρεγ—seen in English ‘reach.’ It properly denotes the space between the finger-tips when the arms are ‘extended.’ The ‘foot,’ the ‘cubit,’ and the ‘ell’ are instances of measures derived from the human body. The ‘fathom’ is the same length as the ὄργυια, and is got at in the same way; but the word is applied to the length of line or thread (*fead*, *faden*) that can be held with the furthest stretch of the two arms.
 
 ## 9.326
 **ἀποξῦναι**. With this reading (see crit. note) compare Eur. Cycl.456 ἀκρέμων ἐλαίας … ὃν φασγάνῳ τῷδʼ ἐξαποξύνας ἄκρον | ἐς πῦρ καθήσω | . The Homeric picture is spoiled by the substitution of ἀκρέμων for **ῥόπαλον**.
@@ -8425,7 +8425,7 @@ For the use of **τόδε** after οἶνος see note on Od. 12.75.
 Join **περὶ … ἤλυθεν**, and take **Κύκλωπα** as the direct object of the compound verb, and **φρένας** as the epexegetical accusative of nearer definition. Cp. Il.10. 139τὸν δ' αἶψα περὶ φρένας ἤλυθ' ἰωή. Euripides uses a similar expression (Alc. 758) ἕως ἐθέρμηνʼ αὐτὸν *ἀμφιβᾶσα* φλὸξ | οἴνου | .
 
 ## 9.366
-**ὄνομα—**. The hiatus and lengthening of the final syllable depend mainly on the pause in the sense. But cp. inf. 392; Il.5. 576; 8.556. The form **Οὖτιν** is intentionally made different from the ordinary accusative from οὔτις, because it is used as a proper name.
+**ὄνομᾱ**. The hiatus and lengthening of the final syllable depend mainly on the pause in the sense. But cp. inf. 392; Il.5. 576; 8.556. The form **Οὖτιν** is intentionally made different from the ordinary accusative from οὔτις, because it is used as a proper name.
 
 ## 9.369
 **πύματον … μετὰ οἷς ἑτάροισι**. This is not equivalent to ‘last, after his companions,’ but rather ‘last, in the list of his companions,’ the regular use of **μετά** with dative.
@@ -8462,13 +8462,13 @@ The reading ἰόντα, which would make **θερμόν** agree with **αἷμ�
 **ἀμφί** is to be taken adverbially with **εὗσεν**, ‘round about,’ as in Od.3. 429ἕδρας τε ξύλα τ' ἀμφὶ καὶ ἀγλαὸν οἰσέμεν ὕδωρ. *εὕω* and Lat. ‘uro’ both belong to Skt. root uS.
 
 ## 9.392
-**ἰάχοντα** agrees in gender with **πέλεκυν** only, **ἠὲ σκέπαρνον** being thrown in, as it were, parenthetically. **μεγάλα** lengthens its final syllable in arsis before vιάχοντα, but, inf. 395, we have περὶ δ' ἴαχε, where the initial v is dropped. The usage seems to be that where the participle is used, it almost invariably has the v as in Od.4. 454; 10.323; 22.81; Il.11. 463(though in Il.21. 341 we find ἐγὼν ἰάχουσα), and in the finite sense where ι^ is lengthened by the augment, the v is dropped, as μέγα δ' ἴαχε Il.23. 216, ὅτε τ' ἴαχε Il.18. 219, μέγ' ἴαχον Il.2. 333, μεγάλ' ἴαχε Od.2. 428.
+**ἰάχοντα** agrees in gender with **πέλεκυν** only, **ἠὲ σκέπαρνον** being thrown in, as it were, parenthetically. **μεγάλα** lengthens its final syllable in arsis before vιάχοντα, but, inf. 395, we have περὶ δ' ἴαχε, where the initial v is dropped. The usage seems to be that where the participle is used, it almost invariably has the v as in Od.4. 454; 10.323; 22.81; Il.11. 463(though in Il.21. 341 we find ἐγὼν ἰάχουσα), and in the finite sense where ῐ is lengthened by the augment, the v is dropped, as μέγα δ' ἴαχε Il.23. 216, ὅτε τ' ἴαχε Il.18. 219, μέγ' ἴαχον Il.2. 333, μεγάλ' ἴαχε Od.2. 428.
 
 ## 9.393
 **τὸ γάρ**, sc. φαρμάσσειν. Here, the hot bar answers to the iron, and the water to the eye. With βάπτειν compare βαφῇ σίδηρος ὥς Soph. Aj.651.The word βαφή was afterwards used in the sense of ‘temper;’ as βαφὴν ἀφιᾶσιν ὥσπερ ὁ σίδηρος εἰρήνην ἄγοντες Aristot. Pol. 4 (7). 14. The emphatic antithesis suggested by τὸ γὰρ αὖτε σιδήρου γε κράτος ἐστίν seems to imply that while iron is vastly strengthened by such ‘tempering,’ the Cyclops' eye was destroyed by the corresponding process.
 
 ## 9.398
-Join **χερσὶν ἀλύων**, to describe the wild movements of his hands in his agony. Elsewhere ἀλύειν has υ^, so that some of the grammarians proposed to read here ἀλυίων.
+Join **χερσὶν ἀλύων**, to describe the wild movements of his hands in his agony. Elsewhere ἀλύειν has ῠ, so that some of the grammarians proposed to read here ἀλυίων.
 
 ## 9.402
 **ἱστάμενοι**. ‘And taking their stand round the cave they asked what ailed him, “What is this great hurt of thine, Polyphemus, that thou hast thus cried out?”’ **τίπτε τόσον** is thus best joined with **ἀρημένος**, and **ὧδε** with **ἐβόησας**.
@@ -8544,7 +8544,7 @@ With the use of the present tense **ἔρχεαι** after **πάρος** cp. π�
 **μακρὰ βιβάς**. This graphically describes the proud bearing generally noticeable in the animal that is the leader of a herd or flock.
 
 ## 9.451
-**ἀπονέεσθαι**. For the lengthening of the initial α— see note on Od. 12.423.
+**ἀπονέεσθαι**. For the lengthening of the initial ᾱ see note on Od. 12.423.
 
 ## 9.455
 **πεφυγμένον εἶναι ὄλεθρον**. See note on Od. 1.20.
@@ -8727,7 +8727,7 @@ There are two ways of punctuating here. We may either put a stop after **τυτ�
 ## 10.7
 **ἔνθα**, not a local adverb, but rather a temporal one, as introducing a new feature in the story. See on Od. 1.11.
 
-**ἀκοίτις**. This contracted form of the accusative plural is common in the form ἤνις Il.6. 94, etc. Bekker also writes πόλι—ς in Od.8. 560; Il.2. 648; 9.328; 18. 342, 490, and in Il.12. 375ἐπάλξι—ς for ἐπάλξεις, and, similarly, νήστι—ς for νήστιας Il.19. 156.
+**ἀκοίτις**. This contracted form of the accusative plural is common in the form ἤνις Il.6. 94, etc. Bekker also writes πόλῑς in Od.8. 560; Il.2. 648; 9.328; 18. 342, 490, and in Il.12. 375ἐπάλξῑς for ἐπάλξεις, and, similarly, νήστῑς for νήστιας Il.19. 156.
 
 ## 10.10
 **κνισῆεν δέ τε δῶμα**. ‘And the steaming house’ (i.e. with smoke of roasting meat, suggested by **δαίνυνται**) ‘sends out its sounds round about in the outer court.’ If this rendering be right, it means that the sound of feasting and perhaps of the accompanying music was audible even as one entered the court and before the house was reached. **αὐλῇ** will be a true local dative, epexegetical of περί in **περιστεναχίζεται**, because it exactly defines the limits within which the noise was heard. Cp. Od.17. 269 γιγνώσκω δʼ ὅτι πολλοὶ ἐν αὐτῷ δαῖτα τίθενται | ἄνδρες· ἐπεὶ κνίση μὲν ἀνήνοθεν, ἐν δέ τε φόρμιγξ | ἠπύει . The only MS. variant of any importance is αὐλή in the nominative case, which would make **δῶμα** an accusative governed by περί, ‘and the courtyard echoes all round the steaming house.’ No interpretation is offered by the Scholl., except the words in Schol. Q. περιηχεῖται ἐκ τοῦ λαοῦ, which give no meaning; but the last word may be a mistake for αὐλοῦ, from αὐλός, ‘a pipe.’ Possibly this suggested to Schäfer the reading αὔλῃ=‘with the sound of fluting,’ αὔλη being regarded as a shorter form of αὔλησις, as βλάστη of βλάστησις, αὔξη of αὔξησις. This conjecture is accepted by Kayser, and is introduced into the text of Fäsi's edition. One MS. gives αὐδή, which Nitzsch proposes to alter into αὐδῇ, while Düntzer, followed by Nauck, would read περιστεναχίζετ' ἀοιδῇ. The use of ‘atria’ in the Virgilian translation points however distinctly to αὐλή, Virg. Aen.1. 725‘fit strepitus tectis vocemque per ampla volutant
@@ -8780,7 +8780,7 @@ With **ταμίην ἀνέμων** compare ταμίης πολέμοιο Il.4. 
 στρέψας τὸ λοιπὸν σέλμασιν ναυτίλλεται. The Schol. on this passage gives a double interpretation of **πόδα**, either (1) the rope that pulls round the sail-yard, τὸν μεταγωγὸν τοῦ κέρατος κάλων, or (2) the rudder itself, sc. πηδάλιον. The use of νωμᾶν may seem to support this interpretation, as we have οἰήια νωμᾶν in Hom. Od.12. 218, and οἴακα νωμᾶν S. c. T. 3; but it is doubtful whether πούς ever bears this meaning. |
 
 ## 10.36
-**Αἰόλου**. Here we may suppose that the ο is lengthened in thesis, by the effect of the liquid λ; see Spitzn. de vers. heroic. 83 foll. Ahrens (Hom. Form lehr.) would write Αἰόλοο. Cp. Ἰλι— ́ου (Ἰλίοο) προπάροιθε Il.15. 66, ἀνεψι—οῦ (ἀνεψίοο) κταμένοιο Il.15. 554, ἀγρι— ́οῦ (ἀγρίοο) πρόσθεν Il.22. 313.Such a form of the genitive would amend the awkward rhythm in χαλεπὴ δ' ἔχε δήμου (δήμοο) φῆμις Od.14. 239.See note on Od. 1.70, and cp. Monro, H. G. § 98.
+**Αἰόλου**. Here we may suppose that the ο is lengthened in thesis, by the effect of the liquid λ; see Spitzn. de vers. heroic. 83 foll. Ahrens (Hom. Form lehr.) would write Αἰόλοο. Cp. Ἰλῑ́ου (Ἰλίοο) προπάροιθε Il.15. 66, ἀνεψῑοῦ (ἀνεψίοο) κταμένοιο Il.15. 554, ἀγρῑ́οῦ (ἀγρίοο) πρόσθεν Il.22. 313.Such a form of the genitive would amend the awkward rhythm in χαλεπὴ δ' ἔχε δήμου (δήμοο) φῆμις Od.14. 239.See note on Od. 1.70, and cp. Monro, H. G. § 98.
 
 ## 10.37
 **πλησίον**, used as a substantive, as Od.8. 328.Compare the common use of ἀθάνατοι, θνητοί and αἰδοῖοι Od.15. 373, γνώριμος Od.16. 9.Theogn. 221 611, uses ὁ πλησίος.
@@ -8813,7 +8813,7 @@ With **ταμίην ἀνέμων** compare ταμίης πολέμοιο Il.4. 
 **ἐπ' οὐδοῦ**. So Odysseus sits, when playing the part of a beggar, Od.17. 339.It is a more modest attitude than that of Odysseus in Od.7. 153, where he walks up the hall and sits by the hearth. Nitzsch observes, however, that not till later times is the hearth regarded as a place of sanctuary. See Thuc.1. 136.
 
 ## 10.64
-**ἔχραε**, from stem χρα—υ, χρα^v. For similar thematic Aorists with short α^ (the corresponding long form containing α— or **η**) cp. λάθετο, εὔαδε, διέτμαγον, δάηται (δα—υ, δα^v). See Monro, H. G. § 31.
+**ἔχραε**, from stem χρᾱυ, χρᾰv. For similar thematic Aorists with short ᾰ (the corresponding long form containing ᾱ or **η**) cp. λάθετο, εὔαδε, διέτμαγον, δάηται (δᾱυ, δᾰv). See Monro, H. G. § 31.
 
 ## 10.65
 **ἵκηαι**. See crit. note, and compare sup. 24, Monro, H. G. § 298 shows that the construction of a subjunctive with a historic tense is in Homer exceptional. It may be used when (1) the governing verb is a gnomic aorist, or (2) if the action expressed by the subordinate clause is still future at the time of speaking. In such cases the governing verb is generally to be translated by the English perfect. If ἵκηαι be the right reading in the present passage we may render ‘we have but now sent you away, intending that you shall arrive etc.’
@@ -8822,7 +8822,7 @@ With **ταμίην ἀνέμων** compare ταμίης πολέμοιο Il.4. 
 **καὶ εἴ που**, like Lat. ‘sicubi’= ‘wherever else thou likest.’
 
 ## 10.68
-**ἄα—σαν**, cp. ἀα— ́σατο Il.11. 340, ἄα^σας Il.8. 237, ἀα^σάμην Il.9. 119; and the contracted forms ἆσε Od.11. 61, α—ʼ ́σατο Il.19. 95.
+**ἄᾱσαν**, cp. ἀᾱ́σατο Il.11. 340, ἄᾰσας Il.8. 237, ἀᾰσάμην Il.9. 119; and the contracted forms ἆσε Od.11. 61, ᾱ̓́σατο Il.19. 95.
 
 **πρὸς τοῖσι**=‘praeter hos.’ Every other instance of the use of **πρός** with dative in Homer has a purely local meaning, viz. ‘close to,’ as Il.5. 408, 425; Il.22. 64; Od.3. 298; Od.5. 401.
 
@@ -8951,7 +8951,7 @@ A mythological explanation of the difficulty suggests that in the Odyssey, as we
 **ἐκ νομοῦ ὕλης**, ‘from his pasture in the wood.’ **νομοῦ**, is local here, as in Il.2. 475, and ὕ*λης* is epexegetical.
 
 ## 10.160
-**πι—όμενος** is fut. part.
+**πῑόμενος** is fut. part.
 
 **δὴ γάρ μιν**, ‘for sorely the sun's power oppressed him.’
 
@@ -8966,7 +8966,7 @@ A mythological explanation of the difficulty suggests that in the Odyssey, as we
 **τὸ δὲ … δόρυ**, lit. ‘it, sc. the spear.’ So Od.5. 68ἡ δὲ . . ἡμερὶς ἡβώωσα, etc.
 
 ## 10.163
-**μακών**, onomatop., found only in the 2nd aor. and perf. μέμηκα, μεμα^κυῖα, and later form ἐμέμηκον (see Monro, H. G. § 27). The full phrase used here is found in Il.16. 469 of a horse, and in Od.19. 454 of a boar mortally wounded. In Od.18. 98 it is used of Irus the beggar, with an inten tionally comic effect. The tense seems to express a single loud cry.
+**μακών**, onomatop., found only in the 2nd aor. and perf. μέμηκα, μεμᾰκυῖα, and later form ἐμέμηκον (see Monro, H. G. § 27). The full phrase used here is found in Il.16. 469 of a horse, and in Od.19. 454 of a boar mortally wounded. In Od.18. 98 it is used of Irus the beggar, with an inten tionally comic effect. The tense seems to express a single loud cry.
 
 ## 10.164
 Odysseus steps upon the creature's body, to enable him to apply more force in pulling out the spear, which he then lays on the ground in order that he may have his hands free, and leaves it there.
@@ -9083,7 +9083,7 @@ nullaque erat nostro factura in corpore vulnus.’ |
 ## 10.238
 **κατά** and **ἐέργνυ** must be joined closely together, **συφεοῖσιν** being a purely local dative. The form ἐέργνυ, which supposes a present ἔργνυμι, is found only here.
 
-With the form **πεπληγ-μῖα** cp. τεθνηυῖα, τετρηχυῖα, βεβρι—θυῖα, πεφρι—κυῖα, τετρι—γυῖα, and see Monro, H. G. § 26. 3.
+With the form **πεπληγ-μῖα** cp. τεθνηυῖα, τετρηχυῖα, βεβρῑθυῖα, πεφρῑκυῖα, τετρῑγυῖα, and see Monro, H. G. § 26. 3.
 
 ## 10.240
 **ἔμπεδος**. It may be asked whether Circe's sorcery had been perfectly successful. She gave them φάρμακα λύγρʼ, ἵνα πάγχυ λαθοίατο πατρίδος αἴης, but though she succeeded in turning them into swine, the **νοῦς** remained unaltered. Still, in v. 397 inf. they failed to recognise Odysseus, till Circe προσάλειφεν ἑκάστῳ φάρμακον ἄλλο.
@@ -9115,7 +9115,7 @@ devorat ipse dolor.’ |
 The plural **τόξα** does not, as sometimes explained, include bow and arrows, but regards the bow as a sort of composite structure of two horns and a centre: cp. Il. 1. 45 τόξ' ὤμοισιν ἔχων ἀμφηρεφέα τε φαρέτρην. Similar to this is the use of ἅρματα.
 
 ## 10.263
-**ἠνώγε—α—**, with synizesis. Cp. Od. 9. 44; 17. 55.
+**ἠνώγε̄ᾱ**, with synizesis. Cp. Od. 9. 44; 17. 55.
 
 **αὐτὴν ὁδόν**, not like ὁδὸν αὐτήν of sup. 158, but as in Od. 8. 107 αὐτὴν ὁδὸν ἥν περ οἱ ἄλλοι, equivalent to τὴν αὐτήν in later Greek.
 
@@ -9237,7 +9237,7 @@ The contrast intended would naturally be expressed by ἑταίρους μὲν 
 **λόε**, ‘she washed me [with water] out of a great cauldron, over head and shoulders, after she had mixed it to my taste, οὐ πάνυ τι ζέον, ἀλλὰ δηλαδὴ εὔκρατον.
 
 ## 10.362
-Here **θυμῆρες** is used predicatively with **κεράσασα**. It is doubted whether θυμήρης is identical with θυμα—ρής ( Il.9. 336; Od.23. 232, etc.), the accent seeming to contradict it. It is more likely that θυμα—ρής is to be referred to stem -αρ, and that θυμήρης is only an adjectival form from θυμός.
+Here **θυμῆρες** is used predicatively with **κεράσασα**. It is doubted whether θυμήρης is identical with θυμᾱρής ( Il.9. 336; Od.23. 232, etc.), the accent seeming to contradict it. It is more likely that θυμᾱρής is to be referred to stem -αρ, and that θυμήρης is only an adjectival form from θυμός.
 
 ## 10.366
 **εἷσε δέ**. Here begins the apodosis to **ἐπεί** 364.
@@ -9622,7 +9622,7 @@ impositique rogis iuvenes ante ora parentum,’ cp. Verg. Aen.6. 306. |
 **νεοπενθέα θυμόν** seems to mean ‘a heart whose sorrow was just fresh;’ so we have τεκοῦσα νεοπαθής Aesch. Eum.514, and πένθος ἔχων νεοκηδέι θυμῷ Hes. Theog.98.The epithet brings before our eyes a picture of the maidens with all the passionate expression of sorrow—dishevelled hair and streaming eyes. This is the meaning of the words of the Schol. ἀεὶ νεάζον ἔχουσαι τὸ πάθος· ἢ νέον παθοῦσαι, and is better than the alternative interpretation ἐν τῇ νεότητι πενθοῦσαι.
 
 ## 11.40
-**οὐτάμενοι**. See on Od. 4.807. Aristarchus and Herodian both decide in favour of the proparoxytone accent, considering the form to be the present participle of the passive. Cp. Et. Mag. 46. 4 τὸ δὲ οὐτάμενος καὶ ἐληλάμενος ὁ Ἡρωδιανὸς οὔ φησι κατὰ πάθος γίγνεσθαι προπαροξύτονα ἀπὸ τοῦ οὐτασμένος καὶ ἐληλασμένος, ἀλλ' ἀπὸ τῶν ἐς μ—ι— τῶν τε οὔτημι καὶ ἐλήλημι. εἰσὶ δὲ ἐνεστῶτες (present), ὡς ἵστημι, ἵσταμαι, ἱστάμενος. Pamphilus is said to have written these words paroxytone, as if perfect passive participles syncopated. But οὐτάμενοι is better described as a participle of the non-thematic aorist of the middle voice with passive signification: similar forms being the infinitives οὐτάμεν Il.5. 132, and οὐτάμεναι Od.9. 301; 19.419. **οὐτάμενοι** is thus parallel to κατακτάμενος Od.16. 106; compare ἔκτα Od.1. 300, and κτάμεναι Od.10. 295.Such aorist participles have almost a purely adjectival force, as φθίμενος Il.8. 359, ἀλιτήμενος Od.4. 807, ὀνήμενος Od.2. 33, ἐυκτίμενος Il.2. 501, etc.
+**οὐτάμενοι**. See on Od. 4.807. Aristarchus and Herodian both decide in favour of the proparoxytone accent, considering the form to be the present participle of the passive. Cp. Et. Mag. 46. 4 τὸ δὲ οὐτάμενος καὶ ἐληλάμενος ὁ Ἡρωδιανὸς οὔ φησι κατὰ πάθος γίγνεσθαι προπαροξύτονα ἀπὸ τοῦ οὐτασμένος καὶ ἐληλασμένος, ἀλλ' ἀπὸ τῶν ἐς μ—ῑ τῶν τε οὔτημι καὶ ἐλήλημι. εἰσὶ δὲ ἐνεστῶτες (present), ὡς ἵστημι, ἵσταμαι, ἱστάμενος. Pamphilus is said to have written these words paroxytone, as if perfect passive participles syncopated. But οὐτάμενοι is better described as a participle of the non-thematic aorist of the middle voice with passive signification: similar forms being the infinitives οὐτάμεν Il.5. 132, and οὐτάμεναι Od.9. 301; 19.419. **οὐτάμενοι** is thus parallel to κατακτάμενος Od.16. 106; compare ἔκτα Od.1. 300, and κτάμεναι Od.10. 295.Such aorist participles have almost a purely adjectival force, as φθίμενος Il.8. 359, ἀλιτήμενος Od.4. 807, ὀνήμενος Od.2. 33, ἐυκτίμενος Il.2. 501, etc.
 
 ## 11.43
 There seems no reason why Odysseus should be seized with panic, unless at the weird sound of the cries raised by the shades. In v. 633 (see note above on vv. 38-43) there is a good ground for terror.
@@ -10159,7 +10159,7 @@ This story would seem to connect the Dioscuri with some myth representing the al
 ἐν Λακεδαίμονι αὖθι φίλῃ ἐν πατρίδι γαίῃ. For the phrase γαῖα or αἶα κατέχει cp. Od.13. 427; 15.31; Il.16. 629, where the expression has the regular meaning of being dead and buried. It is difficult to reconcile this with **ζωούς**, unless we apply a sort of oxymoron to the effect that though dead, buried, and **νέρθεν γῆς**, they are ‘alive’ to a certain extent, the extent being limited by the words **οἳ καὶ … τεθνᾶσιν**. Nitzsch proposes to read ἀμφιζωούς, to which the following line would form the epexegesis. But only by straining the interpretation is it possible to harmonise the form of the story in the Iliad with that in the Odyssey. |
 
 ## 11.304
-**λελόγχασιν**. See crit. note. For the quantity of the α^ see Od.7. 114 on πεφύκα^σι, and cp. Monro, H. G. §§ 5 Od., 7.Among other points which suggest a late origin for the whole passage we may note that **τὴν Τυνδαρέου παράκοιτιν** (sup.) seems to be a use of the demonstratival pronoun, or article, that is quite post-Homeric. We might quote Θάμυριν τὸν Θρήικα Il.2. 595 as the nearest parallel; but not ὁ Ἰφίκλοιο πάις (as Krüger) Il.13. 698, for **ὁ** there is the emphatic demonstrative, referring back to ὁ μέν, ib. 694. Lauer (Hom. Quaest. 51) says well, ‘Vocabulum τήν articuli quasi vicarium improbandum est, cum a versibus 260, 266, 305, quamvis eadem in iis sit coniunctio, vocula ista τήν absit.’
+**λελόγχασιν**. See crit. note. For the quantity of the ᾰ see Od.7. 114 on πεφύκᾰσι, and cp. Monro, H. G. §§ 5 Od., 7.Among other points which suggest a late origin for the whole passage we may note that **τὴν Τυνδαρέου παράκοιτιν** (sup.) seems to be a use of the demonstratival pronoun, or article, that is quite post-Homeric. We might quote Θάμυριν τὸν Θρήικα Il.2. 595 as the nearest parallel; but not ὁ Ἰφίκλοιο πάις (as Krüger) Il.13. 698, for **ὁ** there is the emphatic demonstrative, referring back to ὁ μέν, ib. 694. Lauer (Hom. Quaest. 51) says well, ‘Vocabulum τήν articuli quasi vicarium improbandum est, cum a versibus 260, 266, 305, quamvis eadem in iis sit coniunctio, vocula ista τήν absit.’
 
 ## 11.305
 **Ἰφιμέδεια** was daughter of Triops, king of Thessaly. Aloeus, her uncle and husband, is described as son of Poseidon by Canace daughter of Aeolus. Iphimedeia alleged (**φάσκε**, as sup. 236 φάτο, and 261 εὔχετο) that she was mother of Otus and Ephialtes by Poseidon; the common form of legend reappearing, as in the story of Tyro, Antiope, Alcmene, and Leda.
@@ -10502,7 +10502,7 @@ Join **πέφνε με καὶ αὐτόν**=‘memetipsum interfecit.’
 **καμόντων**, we have in καμόντες an euphemistic equivalent for θανόντες. It has been variously interpreted, some rendering it as ‘defuncti laboribus;’ others, as Buttm. and Nitzsch, ‘tired out.’ But see the remarks of Classen on this word as an illustration of the force of the aorist participle (Beobacht. p. 57). His conclusions are thus summed up by L. Schmidt (Tractand. Syntax. Graecae ratio, Marburg. 1871, p. 10) ‘Acutissimo iudicio Classenius exposuit, defunctos apud Homerum propterea tam saepe participiis θανόντες et καμόντες appellari, quia non tam de eorum statu apud inferos quam de praeterito mortis momento cogitetur, τεθνηῶτας autem ita dici ut magis sive corporum sive in Orco exstantium animarum condicio significetur . . atque in universum sponte intellegitur in perfecti participio, ut quod simul cum re acta eius effectum denotet, longe ponderosius quid inesse quam in participio aoristi, utpote ad solum actus momentum spectante.’ For other meanings of κάμνω see Od.9. 127.
 
 ## 11.478
-**Πηλέος** is here scanned as a spondee. If we read **Πηλῆος** we must make the first syllable of υἱέ short, comparing οὐδὲ Δρύαντο^ς υι^ʽός Il.6. 130, Ποδῆς υι^ʽὸς Ἠετίωνος Il.17. 575.But in Il.2. 566Spitzner disallows Μηκιστῆο^ς υι^ʽός, asserting that υἱ- is never used short unless a dactyl precedes.
+**Πηλέος** is here scanned as a spondee. If we read **Πηλῆος** we must make the first syllable of υἱέ short, comparing οὐδὲ Δρύαντο̆ς υῐ̔ός Il.6. 130, Ποδῆς υῐ̔ὸς Ἠετίωνος Il.17. 575.But in Il.2. 566Spitzner disallows Μηκιστῆο̆ς υῐ̔ός, asserting that υἱ- is never used short unless a dactyl precedes.
 
 ## 11.479
 **κατὰ χρέος**, generally rendered ‘on business with,’ as κατὰ πρῆξιν Od.3. 72, or ‘in need of.’ But perhaps, because of the frequent phrase ψυχῇ χρησόμενος, we ought to translate ‘for consulting with.’
@@ -10681,7 +10681,7 @@ Like Minos, Orion continues his customary pursuits in Hades. A phantom hunter, h
 **δέρτρον**, from δέρω, signifying properly any ‘skin’ or ‘membrane,’ is used technically for the ‘caul,’ Lat. ‘omentum’ or ‘peritoneum;’ the membrane enveloping the intestines. The later Greek name was ἐπίπλοον. Apollon. Lex.57. 13 gives as another proposed interpretation τὸ στόμα τοῦ γυπός. This would necessitate our translating **δύνοντες** ‘plunging.’ Cp. Ov. Metam. 4. 456; Virg. Aen.6. 595.
 
 ## 11.580
-**ἕλκησε** may be taken as a 1 aor. from ἑλκέω, Epic form of ἕλκω. The MSS. give various forms, such as ἤλκησε, εἴλκησε, ἤλκυσε, εἴλκυσε, and ἤλκωσε, written variously with smooth or rough breathing. La Roche decides on ἕλκησε, as probably being the Aristarchean reading. He thinks too that the metre suggests ἕλκησε rather than ἥλκησε, as γα— ́ρ implies an initial digamma, viz. vέλκησε. We may render ‘laid violent hands on,’ comparing δμῶάς τε γυναῖκας
+**ἕλκησε** may be taken as a 1 aor. from ἑλκέω, Epic form of ἕλκω. The MSS. give various forms, such as ἤλκησε, εἴλκησε, ἤλκυσε, εἴλκυσε, and ἤλκωσε, written variously with smooth or rough breathing. La Roche decides on ἕλκησε, as probably being the Aristarchean reading. He thinks too that the metre suggests ἕλκησε rather than ἥλκησε, as γᾱ́ρ implies an initial digamma, viz. vέλκησε. We may render ‘laid violent hands on,’ comparing δμῶάς τε γυναῖκας
 
 *ῥυστάζοντας* ἀεικελίως Od.16. 108.Cp. also σῆς τε βοῆς σοῦ θ' ἑλκηθμοῖο πυθέσθαι Il.6. 465, ἑλκηθείσας τε θύγατρας Il.22. 62. |
 
@@ -11356,7 +11356,7 @@ With the arrangement of the words compare Od.11. 421; and Il.6. 185καρτίσ�
 **λιλαιόμενοι βιότοιο**, ‘vitae servandae studiosi.’ This interpretation seems settled by Od.24. 534 foll. τῶν δ' ἄρα δεισάντων ἐκ χειρῶν ἔπτατο τεύχεα . . πρὸς δὲ πόλιν τρωπῶντο, λιλαιόμενοι βιότοιο. Others render ‘victum quaerentes,’ but they had bread and wine still left.
 
 ## 12.330
-**καὶ δή** is still a part of the protasis introduced by **ὅτε δή**. ‘When the food was all consumed—*and* they were in quest of game—*then* (**δὴ τότε**) I went away up the island.’ For καὶ δή so used cp. Od.5. 409; Il.2. 135.Probably **δὴ ἄγρην** is to be read in synizesis as δὴ ἕβδομον inf. 399. We might scan δη^` α^ʼ ́γρην, but ἄγρην is used with the initial long in Od.22. 306.The general rule in Homer is that when a short vowel is followed by two consonants the syllable is long. For a table of exceptions see Monro, H. G. § 370.
+**καὶ δή** is still a part of the protasis introduced by **ὅτε δή**. ‘When the food was all consumed—*and* they were in quest of game—*then* (**δὴ τότε**) I went away up the island.’ For καὶ δή so used cp. Od.5. 409; Il.2. 135.Probably **δὴ ἄγρην** is to be read in synizesis as δὴ ἕβδομον inf. 399. We might scan δη̆̀ ᾰ̓́γρην, but ἄγρην is used with the initial long in Od.22. 306.The general rule in Homer is that when a short vowel is followed by two consonants the syllable is long. For a table of exceptions see Monro, H. G. § 370.
 
 ## 12.333
 Odysseus withdraws, for he was more likely to hold communion with the gods when alone. Cp. Od.4. 367, of Eidothea, ἥ μ' οἴῳ ἔρροντι συνήντετο νόσφιν ἑταίρων, and Od.10. 277.Besides, the feeling of confidence between himself and his comrades was broken; so that he doubtless had misgivings about their loyalty which he could not utter to the gods in their presence.
@@ -11602,7 +11602,7 @@ The accentuation of **πρυμνή** is a matter of difficulty. There is an adj.
 ## 13.81
 *ἡ δʼ κτλ*. The sentence is taken up again in l. 84 ὣς ἄρα τῆς κτλ. The harshness of the anacoluthon is softened by the nom. ἵπποι in the next clause: cp. 14. 85, Il.4. 433. Il., 17. 755.
 
-**τετρα—ορος**, contr. for τετρα-ήορος: cp. συν-ήορος, παρ-ήορος (ἀείρω of yoking horses, cp. Il.10. 499. Il., 15. 680).
+**τετρᾱορος**, contr. for τετρα-ήορος: cp. συν-ήορος, παρ-ήορος (ἀείρω of yoking horses, cp. Il.10. 499. Il., 15. 680).
 
 ## 13.84
 For πρύμνη some read πρῴρη, as giving a truer picture. But how could πρύμνη have crept into the text?
@@ -11954,7 +11954,7 @@ Gen. of the *space within* which.
 ## 14.109
 **ἐνδυκέως** qualifies the whole clause **κρέα τ' ἤσθιε πῖνέ τε οἶνον**, and is further explained by the two adverbs ἁρπαλέως ἀκέων. See on l. 62.
 
-**κρέα^**, see SchmidtJ. , *Pluralb.* p. 338.
+**κρέᾰ**, see SchmidtJ. , *Pluralb.* p. 338.
 
 ## 14.112
 **καί οἱ** is the apodosis, ‘then did he (sc. Eumaeus) fill &c.’ The act being necessarily that of the host, the name of Eumaeus is not added.
@@ -12016,7 +12016,7 @@ We expect a word meaning ‘I could go on’ (διατελοίην or the like),
 Better **τράφον**, see on Il.2. 661.
 
 ## 14.203
-**ἰθαιγενέεσσι**. The quantity of the ι is not certain. The ι^ of the text is supported by Ἰθαιμένης (ι^) in Il.16. 586: but both passages can be amended, as Fick proposed, by reading ἶσʼ here and Σθένελον for Σθενέλαον in the Iliad.
+**ἰθαιγενέεσσι**. The quantity of the ι is not certain. The ῐ of the text is supported by Ἰθαιμένης (ῐ) in Il.16. 586: but both passages can be amended, as Fick proposed, by reading ἶσʼ here and Σθένελον for Σθενέλαον in the Iliad.
 
 ## 14.209
 ‘Cast lots for it,’ i.e. divided it and assigned the shares by lot. The order ἐδάσαντο καὶ . . ἐβάλοντο marks the division as the main thing, of which casting lots was a detail: cp. 13. 274.
@@ -12156,7 +12156,7 @@ The wind must now have gone round from north-east to south or southeast. This ch
 ## 14.371
 371 (=20.77). For the form ἀρέπυια see also the vase-painting figured on p. 198.
 
-**ἅρπυιαι** ‘the snatchers,’ a word formed like ὄργυια, ἄγυια, αἴθυια. The verb from which it comes is probably concealed in ἀνηρείψαντο, for which Fick (*Odyss.* p. 2) has happily proposed to read ἀνα—ρέψαντο, from ἀν-αρέπω, ‘to snatch up’ (*rapio*). Thus there is a play of language—‘the snatchers have snatched up.’ See 20. 77, Il.20. 234.
+**ἅρπυιαι** ‘the snatchers,’ a word formed like ὄργυια, ἄγυια, αἴθυια. The verb from which it comes is probably concealed in ἀνηρείψαντο, for which Fick (*Odyss.* p. 2) has happily proposed to read ἀνᾱρέψαντο, from ἀν-αρέπω, ‘to snatch up’ (*rapio*). Thus there is a play of language—‘the snatchers have snatched up.’ See 20. 77, Il.20. 234.
 
 For ἅρπυιαι Fick would read ἀρέπυιαι (a form given in the Et. Mag.): but ἅρπυια is related to the supposed ἀρέπω (or ἁρέπω) as ὄργυια to ὀρέγω.
 
@@ -12348,7 +12348,7 @@ The apodosis to **εἰ δ' ἐθέλεις** **τραφθῆναι** is underst
 Anciently rejected, cp. l. 19.
 
 ## 15.98
-Perhaps we should read ὀπτῆσα—{ι} κρεάων ‘wherewith to roast some of the flesh.’ For κρεάων see on 14. 28.
+Perhaps we should read ὀπτῆσᾱ{ι} κρεάων ‘wherewith to roast some of the flesh.’ For κρεάων see on 14. 28.
 
 ## 15.116
 ‘The lips are wrought above, are finished, with gold.’
@@ -12719,7 +12719,7 @@ The reference is not to the spear of Theoclymenus (l. 283), as Ameis supposes. T
 The question between the participles **βιβάς** and **βιβῶν** is left unsettled by La Roche (*H. T.* 215): and both forms are admitted by Ludwich (βιβάς in Od.9. 450. Od., 17. 27, βιβᾶσα in 11. 539, προβιβῶντα here). The MSS. are overwhelmingly in favour of the nom. masc. βιβάς, while they give fem. βιβῶσα in Od.11. 539, and βιβῶντα, &c. in Il.3. 22. Il., 13. 807. Il., 16. 609, Od.15. 555, but βιβάντα in Il.13. 371.About the reading of Aristarchus there is an apparent contradiction. On Il.15. 307 both the ‘marginal’ and the ‘text’ scholia of A tell us that he read βιβῶν (βιβῶν πᾶσαι εἶχον A, Ἀρίσταρχος βιβῶν A^{t},—both from Didymus). The Townley scholia have: βιβάσ] οὕτω τινές, ἐπεὶ καὶ ὕψι βιβάντα (13. 371) φησίν· ἄλλοι δὲ βιβῶν γράφουσι καὶ περισπῶσι. On the other hand, on Il.7. 213A^{t} has οὕτως Ἀρίσταρχος βιβάς (from Did. ): and on Il.13. 371 we find in A and *T* the statement, probably coming from Herodian (see Ludwich), that he wrote βιβάντα as δαμέντα and ἱστάντα. It seems to me certain that in the scholia A and A^{t} on Il.15. 307βιβάς should be written for βιβῶν. The agreement of scholia A and A^{t} does not prove (as La Roche seems to think) that βιβῶν must be right. A and A^{t} are taken from a common source, the comparatively late ‘epitome.’ Against this evidence we have the testimony of Didymus himself on Il.7. 213, and of Herodian on Il.13. 371, ascribing βιβάς and βιβάντα to Aristarchus. Moreover, Schol. T on Il.15. 307 is practically conclusive in the same direction. In a Townley scholium of the form οὕτω τινές, ἄλλοι δὲ—, the word τινές almost certainly includes Aristarchus (see examples in Ludwich, *A. H. T.* p. 128). This is strongly confirmed by the reference to βιβάντα in Il.13. 371, since we know that that form was expressly adopted there by Aristarchus. On the whole, then, we may take it that in his view the Homeric declension was βιβάς, gen. βιβάντος, &c. And considering that the MSS. are practically unanimous for βιβάς, while they are *not* unanimous against βιβάντος, &c., and further that the declension βιβάς, gen. βιβῶντος, &c. is improbable, we infer that βιβῶν, βιβῶντος, &c. may be banished from Homer.
 
 ## 16.2
-**ἄριστον ἅμ' ἠοῖ**. There may be an intentional play of language here; the original doubtless was ἀvέριστον ἅμ' ἀvόϊ. The stem ἀvερ-, older *auser* (see in ἦρι, ἠέριος ‘at dawn,’ αὔριον ‘to-morrow,’ Lat. *aurōra*) is a parallel form to ἀvοσ-, older *ausos*, ‘dawn.’ We may conjecture that ἀvέριστον came from ἀvερ- through a verb ἀvερίζω ‘to take a morning (meal).’ The suffix -το- is regularly used of *time* or season; so in δείπνηστος, δόρπηστος, βουλυ—τός ‘the time of unyoking,’ ἄροτος ‘plough-time,’ ἄμητος ‘reaping,’ τρυγητός ‘vintage.’ Note that δείπν-ηστος may be a compound; the second part containing the root ἐδ- ‘to eat’ (lengthened under the general rule as to compounds whose second part begins with a vowel, *H. G.* § 125, 8). So δόρπ-ηστος: but not ἀvέριστον, which is properly ἡ ὥρα τοῦ ἀvερίζειν. For ἀvερίζω ‘to breakfast,’ cp. δειελιάω ‘to sup’ (17. 599). Similarly θερίζω ‘to do summer-work,’ i.e. ‘to reap,’ ὀπωρίζω ‘to gather in fruit’: also ἐαρίζω ‘to blossom,’ ὀρθρίζω ‘to rise early’ (Luke xxi. 38). See Curt. Stud. 11. 175.
+**ἄριστον ἅμ' ἠοῖ**. There may be an intentional play of language here; the original doubtless was ἀvέριστον ἅμ' ἀvόϊ. The stem ἀvερ-, older *auser* (see in ἦρι, ἠέριος ‘at dawn,’ αὔριον ‘to-morrow,’ Lat. *aurōra*) is a parallel form to ἀvοσ-, older *ausos*, ‘dawn.’ We may conjecture that ἀvέριστον came from ἀvερ- through a verb ἀvερίζω ‘to take a morning (meal).’ The suffix -το- is regularly used of *time* or season; so in δείπνηστος, δόρπηστος, βουλῡτός ‘the time of unyoking,’ ἄροτος ‘plough-time,’ ἄμητος ‘reaping,’ τρυγητός ‘vintage.’ Note that δείπν-ηστος may be a compound; the second part containing the root ἐδ- ‘to eat’ (lengthened under the general rule as to compounds whose second part begins with a vowel, *H. G.* § 125, 8). So δόρπ-ηστος: but not ἀvέριστον, which is properly ἡ ὥρα τοῦ ἀvερίζειν. For ἀvερίζω ‘to breakfast,’ cp. δειελιάω ‘to sup’ (17. 599). Similarly θερίζω ‘to do summer-work,’ i.e. ‘to reap,’ ὀπωρίζω ‘to gather in fruit’: also ἐαρίζω ‘to blossom,’ ὀρθρίζω ‘to rise early’ (Luke xxi. 38). See Curt. Stud. 11. 175.
 
 ## 16.4
 **ὑλακόμωροι**, see on 14. 29.
@@ -12736,13 +12736,13 @@ The two clauses of this line are parallel in sense: Ulysses perceived at once th
 **προθύροισι** ‘the door-way,’ sc. of the αὐλή: properly the spaces round the door, see on 10. 220.
 
 ## 16.15
-**φάεα**, with α— by metrical lengthening (Schulze, *Quaest. Ep.* p. 206).
+**φάεα**, with ᾱ by metrical lengthening (Schulze, *Quaest. Ep.* p. 206).
 
 ## 16.18
 **ἐξ ἀπίης γαίης** ‘from a far-off land.’ This must be the meaning here and in 7. 25 (see the note). From Aristonicus (Schol. A. on Il.1. 270) we learn that οἱ νεώτεροι , i.e. post-Homeric authors, understood it as a name for the Peloponnesus. This is possible in the Iliad (1. 270. Il., 3. 49). If it is so, we must suppose that in the time of the Odyssey the word ἄπιος survived, though its proper meaning was forgotten, and that it was then connected with ἀπό by a kind of ‘popular etymology.’ The true derivation may be, as Curtius conjectured (*Grundz.*⁵ 469), from a root *ap* ‘water,’ whence Μεσσ-άπιοι, &c. Or, if the root is *aq*, it may be connected with Latin *aqua*, *ahva* ‘river.’
 
 ## 16.19
-**τηλύγετον**. As Buttmann showed (*Lexil.* s.v.), this word probably meant ‘beloved,’ ‘favourite.’ No probable derivation has been proposed. It may be worth suggesting that it comes from θῆλυς ‘soft,’ ‘delicate,’ through a verb θηλύζω, and thus originally meant ‘made tender,’ ‘caressed.’ For the initial **τ** cp. τηλεθάω from θάλλω, θαλέθω. So Ταΰγετος is probably from ταΰς ‘great’ (ταΰσας μεγαλύνας Hesych.). The **γ** is doubtless a formative element, and has nothing to do with the root γα^.
+**τηλύγετον**. As Buttmann showed (*Lexil.* s.v.), this word probably meant ‘beloved,’ ‘favourite.’ No probable derivation has been proposed. It may be worth suggesting that it comes from θῆλυς ‘soft,’ ‘delicate,’ through a verb θηλύζω, and thus originally meant ‘made tender,’ ‘caressed.’ For the initial **τ** cp. τηλεθάω from θάλλω, θαλέθω. So Ταΰγετος is probably from ταΰς ‘great’ (ταΰσας μεγαλύνας Hesych.). The **γ** is doubtless a formative element, and has nothing to do with the root γᾰ.
 
 ## 16.21
 **πάντα**. This is one of several places where πάντα may be either a masc. sing. or a neut. plur. used adverbially (=‘in all parts’). Here the neut. plur, would refer to the head and face and hands (l. 15). So in 17. 480 ἀποδρύψωσι δὲ πάντα, 19. 475 πάντα ἄνακτ' ἐμὸν ἀμφαφάασθαι, Il.22. 354κατὰ πάντα δάσονται ιλ., 24. 20 περὶ δʼ αἰγίδι πάντα κάλυπτε. The adverbial use is clear in Il.22. 491πάντα δ' ὑπεμνήμυκε, Od.4. 654τῷ δ' αὐτῷ πάντα ἐῴκει (so 24. 446, Il.5. 181. Il., 11. 613. Il., 21. 600. Il., 23. 66), perhaps in Od.6. 227, ἐπεὶ δὴ πάντα λοέσσατο (viz. back, shoulders, and head): cp. also 18. 167. It seems to give the best construction in all the passages quoted.
@@ -12986,7 +12986,7 @@ Notice the aor. imper. **ἀκουσάτω** with **μή**: *H. G.* § 328.
 ## 16.313
 **δηθὰ αὔτως εἴσῃ** (εἶσθα Bekk.) ‘for a long time you will go about doing no more than making trial.’
 
-317 (=19. 498., 22. 418). **νηλείτιδες**. Of the various forms offered to our choice, here and in the two other places where this line appears (see the crit. note), the two which have most external support are νηλιτεῖς and νηλίτιδες. If however, as seems probable, the word meant ‘unoffending,’ from ἀλιτεῖν, the second syllable should be written with ει (not ι—): cp. ἀλείτης ‘offender,’ rightly so written by Aristarchus, also the ‘ablaut’ form ἀλοιτός (Lycophr. 136). Evidently νηλειτής is related to ἀλι^τεῖν as νημερτής to ἁμαρτεῖν. Further, we have sufficient authority for preferring the uncontracted ending -έες, to the advantage of the metre. The final question, therefore, lies between νηλειτέες and νηλείτιδες. Both forms doubtless existed, and may well have existed together in the language of which this line is an archaic fragment; but in the present context the feminine form has a good deal of point. It should be observed, however, that a fem. νηλεῖτις does not answer regularly to νηλειτής (gen. -έος), but rather to a masc. of the First Declension (possibly νηλείτης, negative of ἀλείτης). Cp. the fem. forms ἐργάτις, ληῗτις, δασπλῆτις, χερνῆτις, &c., which answer to barytone masc. forms in -της.
+317 (=19. 498., 22. 418). **νηλείτιδες**. Of the various forms offered to our choice, here and in the two other places where this line appears (see the crit. note), the two which have most external support are νηλιτεῖς and νηλίτιδες. If however, as seems probable, the word meant ‘unoffending,’ from ἀλιτεῖν, the second syllable should be written with ει (not ῑ): cp. ἀλείτης ‘offender,’ rightly so written by Aristarchus, also the ‘ablaut’ form ἀλοιτός (Lycophr. 136). Evidently νηλειτής is related to ἀλῐτεῖν as νημερτής to ἁμαρτεῖν. Further, we have sufficient authority for preferring the uncontracted ending -έες, to the advantage of the metre. The final question, therefore, lies between νηλειτέες and νηλείτιδες. Both forms doubtless existed, and may well have existed together in the language of which this line is an archaic fragment; but in the present context the feminine form has a good deal of point. It should be observed, however, that a fem. νηλεῖτις does not answer regularly to νηλειτής (gen. -έος), but rather to a masc. of the First Declension (possibly νηλείτης, negative of ἀλείτης). Cp. the fem. forms ἐργάτις, ληῗτις, δασπλῆτις, χερνῆτις, &c., which answer to barytone masc. forms in -της.
 
 ## 16.322
 **Ἰθάκηνδε**. Here the town is meant.
@@ -12998,7 +12998,7 @@ Notice the aor. imper. **ἀκουσάτω** with **μή**: *H. G.* § 328.
 **δείσασα** ‘taking alarm,’ viz. by the ship arriving without Telemachus.
 
 ## 16.333
-**συναντήτην** is one of the curious group of forms, chiefly duals and infinitives in -μεναι of verbs in -αω and -εω, which have **η** instead of α— (from αε) or **ει** (from εε): συλήτην, προσαυδήτην, φοιτήτην, ἀρήμεναι, γοήμεναι, πεινήμεναι: ἀπειλήτην, ὁμαρτήτην, καλήμεναι, πενθήμεναι, φορήμεναι, φιλήμεναι, ποθήμεναι, ἀλιτήμενος, ὅρηαι (14. 343). Whether these are originally nonthematic, as Brugmann holds (*M. U.* 1. 86, *Grundr.* II. 953, 963), or arise from pre-Hellenic contraction of aje, eje (as Wackernagel, *K. Z.* xxvii. 84-88), can hardly be determined. In any case there seems to be no reason for regarding them as derived from Aeolic: especially as in that dialect the dual was lost at an early period.
+**συναντήτην** is one of the curious group of forms, chiefly duals and infinitives in -μεναι of verbs in -αω and -εω, which have **η** instead of ᾱ (from αε) or **ει** (from εε): συλήτην, προσαυδήτην, φοιτήτην, ἀρήμεναι, γοήμεναι, πεινήμεναι: ἀπειλήτην, ὁμαρτήτην, καλήμεναι, πενθήμεναι, φορήμεναι, φιλήμεναι, ποθήμεναι, ἀλιτήμενος, ὅρηαι (14. 343). Whether these are originally nonthematic, as Brugmann holds (*M. U.* 1. 86, *Grundr.* II. 953, 963), or arise from pre-Hellenic contraction of aje, eje (as Wackernagel, *K. Z.* xxvii. 84-88), can hardly be determined. In any case there seems to be no reason for regarding them as derived from Aeolic: especially as in that dialect the dual was lost at an early period.
 
 ## 16.341
 **ἕρκεα** is properly the whole enclosure, **μέγαρον** the chief hall of the palace.
@@ -13084,7 +13084,7 @@ For **θέμιστες** there was an ancient v. l. **Τόμουροι**, preser
 It is best to put a comma only after μάρτυρος, since the sense is continuous: ‘to whom Zeus is witness, and for whom it is impiety to devise evil to one another,’ = ‘who in the sight of Ζεὺς ἱκετήσιος are bound to be at peace with each other.’
 
 ## 16.428
-**ἀπορραῖσαι** ‘to smite away,’ i. e. to take away with violence. The word is formed like ἀπαράσσω, ἀπορρήγνυμι, ἀποκόπτω (*H. G.* § 224): cp. 1. 404 κτήματ' ἀπορραίσειε. Mr. T. L. Agar (*Journ. of Phil.* xxvi. 116) would restore ἀποvρῆσαι, ἀποvρήσειε, supposing the words to be first aorists formed from the root which we have in ἀπηύραν, part. ἀπούρας, and perhaps also in the fut. ἀπουρήσουσιν in Il.22. 489—if we follow the reading and analysis suggested by Buttmann and adopted by Bekker and Curtius. The proposed tense, it is evident, would yield a very suitable sense in the context. On the other hand there are considerable difficulties in regard to the form of the word. The point is, what is the root? If, as G. Meyer holds (*G. G.*² § 527), ἀπηύρα is for ἀπ-εvρα^, and this vρα^- is the weak form of a root vερ-, the first aorist would not be ἔ-vρη-σα, but ἔ-vερ-σα or ἔ-vειρα.
+**ἀπορραῖσαι** ‘to smite away,’ i. e. to take away with violence. The word is formed like ἀπαράσσω, ἀπορρήγνυμι, ἀποκόπτω (*H. G.* § 224): cp. 1. 404 κτήματ' ἀπορραίσειε. Mr. T. L. Agar (*Journ. of Phil.* xxvi. 116) would restore ἀποvρῆσαι, ἀποvρήσειε, supposing the words to be first aorists formed from the root which we have in ἀπηύραν, part. ἀπούρας, and perhaps also in the fut. ἀπουρήσουσιν in Il.22. 489—if we follow the reading and analysis suggested by Buttmann and adopted by Bekker and Curtius. The proposed tense, it is evident, would yield a very suitable sense in the context. On the other hand there are considerable difficulties in regard to the form of the word. The point is, what is the root? If, as G. Meyer holds (*G. G.*² § 527), ἀπηύρα is for ἀπ-εvρᾰ, and this vρᾰ- is the weak form of a root vερ-, the first aorist would not be ἔ-vρη-σα, but ἔ-vερ-σα or ἔ-vειρα.
 
 ## 16.429
 **ζωήν** ‘substance,’ as in 14. 96.
@@ -13652,7 +13652,7 @@ The impf. **τέρποντο** is to be connected with the aor. **ἦλθε** at
 **ὁππότερος δέ κε νικήσῃ κρείσσων τε γένηται**, a formula repeated from Il.3. 71,—doubtless in the spirit of parody.
 
 ## 18.53
-**ἀρημένος** seems rightly explained as = βεβλαμμένος ‘impaired, broken down.’ It is doubtless derived from ἀρή ‘harm’ (ἄρος· ἑκούσιον βλάβος Hesych.). The α— is a difficulty: it must represent a reduplication: but the temporal reduplication (there is no evidence of initial v or ς) would give ἠρημένος. Possibly the true form is ἀραρημένος, like ἀλαλήμενος, ἀκαχήμενος (properly ἀλαλημένος, ἀκαχημένος).
+**ἀρημένος** seems rightly explained as = βεβλαμμένος ‘impaired, broken down.’ It is doubtless derived from ἀρή ‘harm’ (ἄρος· ἑκούσιον βλάβος Hesych.). The ᾱ is a difficulty: it must represent a reduplication: but the temporal reduplication (there is no evidence of initial v or ς) would give ἠρημένος. Possibly the true form is ἀραρημένος, like ἀλαλήμενος, ἀκαχήμενος (properly ἀλαλημένος, ἀκαχημένος).
 
 ## 18.58
 The weight of authority is for **ἐπώμνυον** (against **ἀπ-**) here and in 15. 437. Elsewhere in the Odyssey (2. 377., 10. 345, 381., 12. 303) ἀπόμνυμι is used of swearing *not* to do a thing. For ἐπί with ὄμνυμι denoting a *negative* oath, Il. 9.132, 274. Il. 10. 332. Il., 21. 373. Il., 23. 42.
@@ -13750,7 +13750,7 @@ The tendency of the considerations put forward by Seeck (*Quellen*, pp. 3440) is
 
 The reasons now adduced, and especially the comparison of l. 176 and l. 269, make it probable that Seeck's interpretation of the speech of Eurynome is the true one. The question, then, is whether the desired meaning is to be gathered from the present text. Surely this may be done without too much forcing, or reading between the lines. Eurynome, it may be understood, could not venture to advise her mistress in so many words to accept one of the Suitors. But when Penelope declared her intention to show herself to them, she took this as meaning all that (as we see from the sequel) it did mean. She did not use the word marriage (any more than Nausicaa did to her father, 6. 66), but merely said: ‘Do so, my child: but adorn yourself, lay aside your mourning; your son, who has been your care till now, is a bearded man.’
 
-On the whole it seems not improbable that the passage in question is an interpolation as regards the context in which we now find it. There are some traces of post-Homeric language: as χρῶτα (172, 179), τέως (190), θησαίατο (191), πλέονες scanned πλεῦνες (247), ἀνέσει (265), κάλλος=‘a cosmetic’ (192). Cp. also the scanning δα^κρύοισι (173).
+On the whole it seems not improbable that the passage in question is an interpolation as regards the context in which we now find it. There are some traces of post-Homeric language: as χρῶτα (172, 179), τέως (190), θησαίατο (191), πλέονες scanned πλεῦνες (247), ἀνέσει (265), κάλλος=‘a cosmetic’ (192). Cp. also the scanning δᾰκρύοισι (173).
 
 ## 18.160
 **πετάσειε** ‘might flutter.’ The metaphor is obscure. The notion may be that the minds of the Suitors would be excited or ‘elated’ as a sail is filled by the wind: cp. the phrase ἀνά θ' ἱστία λευκὰ πετάσσας, and the later uses of διαστέλλω. See also l. 327.
@@ -13768,7 +13768,7 @@ On the whole it seems not improbable that the passage in question is an interpol
 **χρῶτα** (here and l. 179) is postHomeric, for χρόα: so χρωτός in Il.10. 575.
 
 ## 18.173
-The shortening of the α in **δακρύοισι** may be defended by metrical necessity: but cp. δα^κρυπλώειν, 19. 122. The form δάκρυσσι, suggested by Nauck, is not Homeric: for νέκυσσι &c. see on 22. 401.
+The shortening of the α in **δακρύοισι** may be defended by metrical necessity: but cp. δᾰκρυπλώειν, 19. 122. The form δάκρυσσι, suggested by Nauck, is not Homeric: for νέκυσσι &c. see on 22. 401.
 
 ## 18.174
 **κάκιον** ‘it is ill’ (not well): the compar. as in 15. 370., 17. 176.
@@ -13817,7 +13817,7 @@ The shortening of the α in **δακρύοισι** may be defended by metrical n
 **μνηστήρων ἰότητι** ‘at the will of the Suitors,’ as they wished (so the Schol.). This hardly agrees with the story as told. The Suitors are quite impartial: indeed, Antinous affects a sympathy for Ulysses (79-81) which does not belong to his usual character. Moreover, **ἰότητι** in Homer means not ‘in accordance with the wish,’ but ‘by the will,’ i. e. the command or instigation. So θεῶν ἰότητι (often in the Odyssey)=‘by divine providence,’ and Il.15. 41μὴ δἰ ἐμὴν ἰότητα=‘it is not my doing that.’ Hence the sense here should be that the combat with Irus was not brought about by the Suitors. This however does not fit the next words βίῃ δ` ὅ γε φέρτερος ἦεν. Thus we are driven to regard the use of **ἰότητι** as one of the indications of the post-Homeric character of the scene (158-303).
 
 ## 18.238
-**λελῦτο**, pf. opt., for λελυ—-ι-το. So in l. 248 **δαινύατο** for δαινυ-ι-ατο.
+**λελῦτο**, pf. opt., for λελῡ-ι-το. So in l. 248 **δαινύατο** for δαινυ-ι-ατο.
 
 244-245. The repetition of the name **Πηνελόπεια** is a little awkward. When the interpolated lines 214-243 are cut out the name is not wanted in 244. It would certainly be an improvement in that case to read Εὐρύμαχος δὲ ἔπεσσι προσηύδα μειλιχίοισι.
 
@@ -13922,7 +13922,7 @@ This is the only mention in Homer of the **λέσχη**, afterwards a familiar i
 **οὐ πάμπαν** ‘not at all,’=Attic οὐ πάνυ.
 
 ## 18.348
-**δύη** is opt., for δυ—-ιη.
+**δύη** is opt., for δῡ-ιη.
 
 ## 18.354
 **ἔμπης** ‘after all,’ ‘really now,’ said in a deprecating tone before announcing a prodigy: cp. 19. 37 ἔμπης μοι τοῖχοι κτλ. Eurymachus pretends to think that Ulysses with his torches is a source of light that can only be ascribed to the presence of a divine being (19. 40 ἦ μάλα τις θεὸς ἔνδον).
@@ -14094,7 +14094,7 @@ Cp. Simonides, fr. 26 ἀπὸ τράπεζαν εἷλε καὶ ποτήρια
 ## 19.95
 **εἴρεσθαι**, almost the only instance in Homer of a pres. inf. after μέλλω meaning ‘to be about to’: see on 14. 133., 18. 138. The exceptions are, νέεσθαι (6. 110, Il.17. 497,—where however it may be fut.), and λίσσεσθαι in Il.10. 455.The aor. inf. is also very rare (Krüger, Dial.§ 53, 8, 6).
 
-109-114. These lines are not quite in place here. The general words of l. 108 form a sufficient introduction to the speech of Ulysses. And, as Friedländer has pointed out (*Analecta Hom.* p. 462), l. 115 *τῶ ἐμὲ νῦν κτλ*. implies that a reason has been given why Penelope should not ask who the stranger is—a reason which the lines in question cannot be thought to supply. In substance and in style they are Hesiodic: see the very similar passage Hes. Op.225-237. The mention of fishing as an important source of wealth points to a post-Homeric state of things. The scanning **πα—ρέχῃ** is perhaps to be defended by συ—νεχές in 9. 74, but is at least unusual. Probably we have here one of the instances of a fragment of early gnomic poetry finding its way into epic narrative.
+109-114. These lines are not quite in place here. The general words of l. 108 form a sufficient introduction to the speech of Ulysses. And, as Friedländer has pointed out (*Analecta Hom.* p. 462), l. 115 *τῶ ἐμὲ νῦν κτλ*. implies that a reason has been given why Penelope should not ask who the stranger is—a reason which the lines in question cannot be thought to supply. In substance and in style they are Hesiodic: see the very similar passage Hes. Op.225-237. The mention of fishing as an important source of wealth points to a post-Homeric state of things. The scanning **πᾱρέχῃ** is perhaps to be defended by σῡνεχές in 9. 74, but is at least unusual. Probably we have here one of the instances of a fragment of early gnomic poetry finding its way into epic narrative.
 
 ## 19.109
 **ὥς τέ τευ ἦ**. With this reading **ἦ** is an affirmative or emphasizing particle, as in τίη (or τί ἦ), ἐπεὶ ἦ. The vulgate reading **ἤ** is usually supported by the parallel 3. 348 ὥς τέ τευ ἢ παρὰ πάμπαν ἀνείμονος ἠὲ πενιχροῦ. But, as Bekker showed (*Hom. Bl.* ii. 200), the disjunctive ἤ—ἤ is out of place there, and we must read *ἦ*—*ἠδέ*. So in Il.2. 289 we should probably read (with Ameis) ὥς τε γὰρ ἦ παῖδες νεαροὶ χῆραί τε γυναῖκες.
@@ -14281,7 +14281,7 @@ Out of nine instances of σῶς and σῶν there is only one ( Il.22. 332) tha
 303-307= 14. 158-162: see the notes on that passage.
 
 ## 19.312
-**ὀι— ́εται**. This is the only instance of ὀΐομαι used impersonally. Axt conj. ὑπὸ θυμὸς ὀΐεται (*Conj. Hom.* p. 34).
+**ὀῑ́εται**. This is the only instance of ὀΐομαι used impersonally. Axt conj. ὑπὸ θυμὸς ὀΐεται (*Conj. Hom.* p. 34).
 
 ## 19.315
 **εἴ ποτ' ἔην γε**, see on 15. 268.
@@ -14424,7 +14424,7 @@ Most MSS. have **φίλως χαίροντες ἔπεμπον**, which is intol
 **ἐπίτρεψον δὲ θεοῖσιν** ‘leave the matter to the gods,’ a formula for de precating further action. Cp. 22. 288 ἀλλὰ θεοῖσι μῦθον ἐπιτρέψαι (in contrast to μέγα εἰπεῖν): also of the contest with the bow, 21. 279 νῦν μὲν παῦσαι τόξον, ἐπιτρέψαι δὲ θεοῖσι. Here, as Ameis points out, and in 21. 279 it has a double meaning. To the person addressed it is a mere formula = ‘say no more’: to the hearer, who knows the course of events, it is significant of the fate that the gods have in store.
 
 ## 19.505
-The final **α** of **λίπα** is always elided in Homer, but the form is proved by Thuc.1. 6. 5.It is doubtless one of the adverbs in -α^ (like λίγα, πύκα, κάρτα, &c.), which are generally regarded as survivals of the instrumental case (Brugmann, *M. U.* ii. 158). Possibly the phrase λίπ' ἐλαίῳ represents an ancient instrum. λίπα ἐλαίω ‘with oil olive.’
+The final **α** of **λίπα** is always elided in Homer, but the form is proved by Thuc.1. 6. 5.It is doubtless one of the adverbs in -ᾰ (like λίγα, πύκα, κάρτα, &c.), which are generally regarded as survivals of the instrumental case (Brugmann, *M. U.* ii. 158). Possibly the phrase λίπ' ἐλαίῳ represents an ancient instrum. λίπα ἐλαίω ‘with oil olive.’
 
 ## 19.507
 **θερσόμενος**, fut. part.
@@ -14574,7 +14574,7 @@ This story of the ‘daughters of Pandareus’ does not directly clash with the 
 **ἀνηρείψαντο**, see on 14. 371. It should have been noticed there that the correction ἀνηρέψαντο was suggested by Döderlein (*Hom. Gloss.* 23-25), and supported by the Hesychian gloss ἀνερεψάμενοι· ἀναρπάσαντες, and by some MSS. in Hesiod Theog.990(ἀναρεψαμένη V, ἀναρρειψαμένη Ald. al.).
 
 ## 20.78
-**ἐρινύσιν** should rather be ἐρινύσσʼ, cp. νέκυσσι, &c. (better perhaps νέκυ—σι, &c., Brugmann, *Gr. Gr.* § 90).
+**ἐρινύσιν** should rather be ἐρινύσσʼ, cp. νέκυσσι, &c. (better perhaps νέκῡσι, &c., Brugmann, *Gr. Gr.* § 90).
 
 **ἀμφιπολεύειν** ‘to attend to,’ a euphemism.
 
@@ -14998,7 +14998,7 @@ These despairing words of Leiodes may be illustrated by a story told in Pausania
 **οἷόν τε … ἔμεναι**. For the use of οἷος with an inf. cp. 19. 160; and see *H. G.* § 235.
 
 ## 21.178
-Either **στέατος** is scanned as a disyllable (**ε—α—** by synizesis), or the vowel before **στ-** is allowed to be short, as in the case of Σκάμανδρος, Ζάκυνθος, &c.
+Either **στέατος** is scanned as a disyllable (**ε̄ᾱ** by synizesis), or the vowel before **στ-** is allowed to be short, as in the case of Σκάμανδρος, Ζάκυνθος, &c.
 
 ## 21.186
 The fresh paragraph should begin here, not with l. 188: for the meaning is that *while* Antinous and Eurymachus were still busy with the bow, Ulysses took the opportunity to steal out and make himself known to the two faithful servants. Hence the impf. **ἐπεῖχε** followed by the aor. **βῆσαν**.
@@ -15271,7 +15271,7 @@ The asyndeton serves to show that *φάσγανά τε κτλ*. is epexegetic of
 **ἰδνωθείς** ‘curled up,’ cp. Il.2. 266(of Thersites struck by the sceptre) Il., 13. 618ἰδνώθη δὲ πεσών. A different attitude is expressed by ἰδνωθεὶς ὀπίσω ( Od.8. 375, Il.12. 205). The other reading **δινηθείς** would mean ‘whirling’ or ‘spinning about’: see the note on 16. 63.
 
 ## 22.89
-**ἐείσατο**. Regarding this form the most plausible suggestion is still that of Wackernagel (*Bezz. Beitr.* iv. 269), viz. that it answers to Sanscr. *ayāsam*, sigmatic aor. from the root *yā* (Indog. *yē*). The corresponding Greek form would be ἔησα, but the change from **η** to **ει** may be due to the influence of εἶμι, &c. It should, however, be noticed that the meaning is not simply ‘went,’ but ‘went at,’ ‘took a course towards’: cp. 8. 283 εἴσατ' ἴμεν ‘directed his going to.’ On this ground we are tempted to compare the sense of ἰθύς ‘aim,’ ‘direction,’ and suppose a root εἰθ- or ι—θ-. But this would not explain the syllabic augment.
+**ἐείσατο**. Regarding this form the most plausible suggestion is still that of Wackernagel (*Bezz. Beitr.* iv. 269), viz. that it answers to Sanscr. *ayāsam*, sigmatic aor. from the root *yā* (Indog. *yē*). The corresponding Greek form would be ἔησα, but the change from **η** to **ει** may be due to the influence of εἶμι, &c. It should, however, be noticed that the meaning is not simply ‘went,’ but ‘went at,’ ‘took a course towards’: cp. 8. 283 εἴσατ' ἴμεν ‘directed his going to.’ On this ground we are tempted to compare the sense of ἰθύς ‘aim,’ ‘direction,’ and suppose a root εἰθ- or ῑθ-. But this would not explain the syllabic augment.
 
 ## 22.97
 **ἀνελκόμενον** ‘as he was drawing out.’
@@ -15447,7 +15447,7 @@ Eumaeus, having been put on his guard, is now a ‘better watch,’ and sees Mel
 **ἑλίκων**, see the note on 1. 92.
 
 ## 22.294
-**Λειώκριτον**. The names written in our texts Λειώκριτος (or Λειόκριτος) and Λειώδης are probably derived from an Old Ionic form ληός (for λα—ός). They must have been originally written Ληόκριτος and Ληοvάδης (cp. Εὐρυάδης). The form ληός was preserved in Ionic; Hipponax (88) ληὸν ἀθρήσας is quoted by the grammarians.
+**Λειώκριτον**. The names written in our texts Λειώκριτος (or Λειόκριτος) and Λειώδης are probably derived from an Old Ionic form ληός (for λᾱός). They must have been originally written Ληόκριτος and Ληοvάδης (cp. Εὐρυάδης). The form ληός was preserved in Ionic; Hipponax (88) ληὸν ἀθρήσας is quoted by the grammarians.
 
 Similarly the stem of **θέρσος** (the later θάρσος) is preserved in the proper names Θερσίτης, Ἁλιθέρσης, and Πολυθερσείδης (l. 287). It is incorrect to regard these forms as Aeolic. Similar forms are common in proper names of all the dialects.
 
@@ -15624,7 +15624,7 @@ A prothysteron: **ἤγγειλε** is the main assertion: **ἀνέγειρε**
 **σανίδες**, viz. of the door leading to the women's room, cp. 21. 382 and 22. 399.
 
 ## 23.45
-**νέκυσσιν** should perhaps be νέκυ—σιν: see the note on 20. 78.
+**νέκυσσιν** should perhaps be νέκῡσιν: see the note on 20. 78.
 
 ## 23.46
 **ἔχοντες** ‘occupying,’ ‘covering.’
@@ -15857,7 +15857,7 @@ The use of the epithet **ἠριγένεια** (without Ἠώς) = Dawn is not f
 **ἐπαύλους** ‘stalls,’ *stabula.*
 
 ## 23.361
-**ἐπι—τέλλω**. This scansion is indefensible by Homeric rules.
+**ἐπῑτέλλω**. This scansion is indefensible by Homeric rules.
 
 ## 23.362
 **φάτις … ἀνδρῶν μνηστήρων** ‘story about the Suitors.’ Usually the phrase means ‘the talk of men.’

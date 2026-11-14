@@ -41,7 +41,7 @@
     "syntax_license": "CC BY-SA 3.0 US",
     "google_play": "yes",
     "product_id": "sophocles_ajax_jebb",
-    "version": "70eccd60d2ea91ed"
+    "version": "2b1f2d28d11ea325"
   },
   {
     "slug": "antigone",
@@ -64,7 +64,7 @@
     "syntax_license": "CC BY-SA 3.0 US",
     "google_play": "yes",
     "product_id": "sophocles_antigone_jebb",
-    "version": "8b4911b6817a34b4"
+    "version": "9ac2332f2167b5ea"
   },
   {
     "slug": "choephoroi",
@@ -129,7 +129,7 @@
     "syntax_license": "CC BY-SA 3.0 US",
     "google_play": "yes",
     "product_id": "sophocles_electra_jebb",
-    "version": "835d772003e35382"
+    "version": "4e6cfc076e045425"
   },
   {
     "slug": "eumenides",
@@ -237,7 +237,7 @@
     "syntax_license": "CC BY-SA 3.0 US",
     "google_play": "yes",
     "product_id": "homer_odyssey_allen",
-    "version": "17e0c5489176998a"
+    "version": "ede66d63e5a715b0"
   },
   {
     "slug": "oedipuscoloneus",
@@ -258,7 +258,7 @@
     "syntax": "machine-made (GLAUx), not checked by hand",
     "syntax_source": "GLAUx (Alek Keersmaekers, KU Leuven): automatic annotation, not checked by hand",
     "syntax_license": "CC BY-SA 4.0",
-    "version": "2f4e6a05f981ffd9"
+    "version": "3ee357fe56299555"
   },
   {
     "slug": "oedipustyrannus",
@@ -279,7 +279,7 @@
     "syntax": "annotated by hand (Ancient Greek Dependency Treebank)",
     "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
     "syntax_license": "CC BY-SA 3.0 US",
-    "version": "9c3e00cf31e0e64b"
+    "version": "4a85a43206c82933"
   },
   {
     "slug": "philoctetes",
@@ -323,7 +323,7 @@
     "syntax_license": "CC BY-SA 4.0",
     "google_play": "yes",
     "product_id": "plato_symposium_burnet",
-    "version": "17c060581f1f7549"
+    "version": "39c4363530c435bb"
   },
   {
     "slug": "theogony",
@@ -365,7 +365,7 @@
     "syntax": "annotated by hand (Ancient Greek Dependency Treebank)",
     "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
     "syntax_license": "CC BY-SA 3.0 US",
-    "version": "0f90c9f2cef284a0"
+    "version": "1370d1998d6cd236"
   },
   {
     "slug": "truestory",

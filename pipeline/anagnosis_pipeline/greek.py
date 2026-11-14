@@ -55,5 +55,33 @@ def lemma_key(lemma: str) -> str:
     return s.lower()
 
 
+# Betacode marks vowel length with ^ (short) and _ (long), among the other marks of the letter
+# ("a^)/kouon", "ka^ta^", "i_"). The converter does not know them: it leaves ^ beside the vowel,
+# makes _ a dash, and a mark that stands before a breathing breaks the breathing ("α^ʼ ́κουον").
+# They are taken out before the conversion and set over the vowel afterwards, as in print: ᾰ, ῑ, ἄ̆.
+_BREVE, _MACRON = "\ue000", "\ue001"   # placeholders, which the converter passes through
+_LENGTH = re.compile(r"(\*[)(/\\=+|^_]*)?([aeiouhwAEIOUHW])([)(/\\=+|^_]*)")
+_MARKED = re.compile(r"(.)([\u0300-\u036f]*)([\ue000\ue001]+)", re.S)
+
+
+def _length_out(m: re.Match) -> str:
+    capital, letter, marks = m.group(1) or "", m.group(2), m.group(3)
+    found = capital + marks
+    if "^" not in found and "_" not in found:
+        return m.group(0)
+    holders = "".join(_BREVE if c == "^" else _MACRON for c in found if c in "^_")
+    return capital.replace("^", "").replace("_", "") + letter + marks.replace("^", "").replace("_", "") + holders
+
+
+def _length_in(m: re.Match) -> str:
+    letter = nfd(m.group(1) + m.group(2))
+    mark = "\u0306" if m.group(3)[0] == _BREVE else "\u0304"
+    return letter[0] + mark + letter[1:]
+
+
 def betacode_to_unicode(s: str) -> str:
-    return nfc(beta_code.beta_code_to_greek(s))
+    """Betacode to Unicode, with the marks of vowel length over their vowel (ᾰ, ῑ)."""
+    if "^" not in s and "_" not in s:
+        return nfc(beta_code.beta_code_to_greek(s))
+    out = beta_code.beta_code_to_greek(_LENGTH.sub(_length_out, s))
+    return nfc(_MARKED.sub(_length_in, out))

@@ -138,7 +138,7 @@ The vocative **σὺ** is no argument for the conjecture **βουλεύετον*
 **ἀροίμην**, opt. of 2nd aor. ἠρόμην ( *Ant.* 907, *Ai.* 247). The direct deliberative form is τίνι τρόπῳ ἄρωμαι; The indirect, (*a*) after a primary tense, ἱκνοῦμαι ὡς ἂν μάθω ὅτῳ ἄρωμαι: (*b*) after a secondary tense, as above. Cp. *O. T.* 71 f. ὡς πύθοιθ' ὅ τι | δρῶν...ῥυσαίμην πόλιν (n.). It is also possible to take ἀροίμην as opt. of fut. ἀροῦμαι: but it may be objected that, in such clauses, the fut. indic. was commonly retained, even after a secondary tense (cp. Goodwin, *Moods and Tenses*, new ed., §§ 130, 340). —For the sense, ‘win,’ ‘achieve,’ cp. *Ai.* 193, *O. C.* 460.
 
 ## 35
-**χρῇ**: the pres. of this χράω occurs also in Her. (1. 55 χρᾷ, etc.). In Soph. *O. C.* 87 we have the impf. ἐξέχρη: and the aor. pass. in Soph. *O. T.* 604, Soph. *O. C.* 355.— **τοιαῦθʼ** (with οι^, Soph. *Ant.* 691)...**ὧν** (instead of οἵων): cp. Soph. *O. C.* 1353 n.
+**χρῇ**: the pres. of this χράω occurs also in Her. (1. 55 χρᾷ, etc.). In Soph. *O. C.* 87 we have the impf. ἐξέχρη: and the aor. pass. in Soph. *O. T.* 604, Soph. *O. C.* 355.— **τοιαῦθʼ** (with οῐ, Soph. *Ant.* 691)...**ὧν** (instead of οἵων): cp. Soph. *O. C.* 1353 n.
 
 **ὁ Φοῖβος**. Blomfield wished to omit the art., which Sophocles has not elsewhere prefixed to this name; but ὁ Φοῖβος occurs (e.g.) in Ar. *Eq.* 1024, 1084.
 
@@ -343,7 +343,7 @@ Verses 86—102 form a σύστημα,=vv. 103—120 (ἀντισύστημα). 
 
 **γῆς ἰσόμοιρ' ἀήρ**, ‘air coextensive with earth,’—having a μοῖρα, a domain in space, equal to that of earth. Cp. Hamlet's phrase, ‘this goodly frame, the earth...this most excellent canopy, the air’ (2. 2. 311). Hes. *Th.* 126 Γαῖα δέ τοι πρῶτον μὲν ἐγείνατο ἶσον ἑαυτῇ | Οὐρανὸν ἀστερόενθʼ, ἵνα μιν περὶ πάντα καλύπτοι . A genitive after ἰσόμοιρος usu. denotes that *in which* persons share alike (as Isae. or. 6 § 25 ἰσομοίρους...τῶν πατρῴων). Here it denotes the partner. Cp. *De Mund.* 6. 18 (p. 399 *a* 8) ἥλιος...καὶ οἱ τούτου [not τούτῳ] ἰσόδρομοι, ὅ τε Φωσφόρος καὶ ὁ Ἑρμῆς. So adjectives of similarity or equivalence can take a gen. (as προσφερής Eur. *H. F.* 131, ἀντίπαλος Pind. *O.* 8. 71). Such genitives are analogous to those which follow words expressing community or participation, as κοινός, συγγενής, etc.—Others, taking ἀήρ as that which is intermediate between γῆ and αἰθήρ, explain, ‘air, which has the same share in earth (as it has in αἰθήρ),’ —comparing Ar. *Av.* 187ἐν μέσῳ δήπουθεν ἀήρ ἐστι γῆς (where καὶ οὐρανοῦ is to be supplied). This is very forced.
 
-**ἰσόμοιρʼ** is a necessary correction of **ἰσόμοιρος** (cr. n.), which would require α^ in ἀήρ,—a quantity found only in pseudoPhocylides 108, and an epigram quoted by Eustathius p. 17. 46.
+**ἰσόμοιρʼ** is a necessary correction of **ἰσόμοιρος** (cr. n.), which would require ᾰ in ἀήρ,—a quantity found only in pseudoPhocylides 108, and an epigram quoted by Eustathius p. 17. 46.
 
 ## 88
 **πολλὰς μὲν … ᾔσθου**. Each of these two verses is an anapaestic dimeter lacking one long syllable (‘catalectic’), i.e., a ‘paroemiac.’ Two successive paroemiacs were admissible only in anapaests of this ‘free’ or lyric character (n. on 86—120). These paroemiacs are purely spondaic; as ‘free’ anapaests also admitted the converse license, of resolving the long syllables, except the last, of the paroemiac ( *I. T.* 130 πόδα παρθένιον ὅσιον ὁσίας). Synesius, the bishop of Ptolemais, composed his fifth hymn wholly in these spondaic paroemiacs, a weighty and solemn measure; Ὑμνώμεν κοῦρον κούρας, | νύμφας οὐ νυμφευθείσας, κ.τ.λ. See W. Christ, *Metrik* § 293 (2nd ed.).
@@ -370,7 +370,7 @@ The MS. **οἴκων** is better than the proposed **λέκτρων**, since (*
 **κατὰ μὲν βάρβαρον αἶαν**, i.e. at Troy. The whole form of this passage (95—99) seems clearly to show a reminiscence of *Od.* 11. 406—411, where the shade of Agamemnon says to Odysseus,— οὔτ' ἐμέ γ' ἐν νήεσσι Ποσειδάων ἐδάμασσεν,... | οὔτε μ' ἀνάρσιοι ἄνδρες ἐδηλήσαντ' ἐπὶ χέρσου, | ἀλλά μοι Αἴγισθος τεύξας θάνατόν τε μόρον τε | ἔκτα σὺν οὐλομένῃ ἀλόχῳ, οἶκόνδε καλέσσας, | δειπνίσσας, ὤς τίς τε κατέκτανε βοῦν ἐπὶ φάτνῃ. Sophocles follows the Homeric version in conceiving Agamemnon as slain at a banquet (194, Od. 203); and **ἐξένισεν** in v. 96 suggests a contrast with the entertainment which had been prepared for him at home.—Cp. also Aesch. *Eum.* 625 ff.
 
 ## 96
-**Ἄρης** with α— (after Homeric precedent, *Il.* 5. 31 etc.), as in *Ant.* 139, *Ai.* 254, Ai. 614.
+**Ἄρης** with ᾱ (after Homeric precedent, *Il.* 5. 31 etc.), as in *Ant.* 139, *Ai.* 254, Ai. 614.
 
 **ἐξένισεν**. The ξένια with which Ares welcomes his guests are wounds and death. Archilochus fr. 7 ξείνια δυσμενέσιν λυγρὰ χαριζόμενοι. *Helen.* 480 θάνατος ξένιά σοι γενήσεται. *Anthol.* 6. 9 (arrows) ὀλοὰ ξείνια δυσμενέων.
 
@@ -487,7 +487,7 @@ The general idea of this κομμός may have been suggested by that of the κ�
 **παραμύθ-** **ιον** might be nomin. in appos. with the subject of the verb, but is better taken as acc. in appos. with the sentence: cp. 564 (ποινὰς), 966 (πημονὴν): *O. T.* 603(n.): Eur. *Or.* 1105Ἑλένην κτάνωμεν, Μενελέῳ λύπην πικράν.
 
 ## 131
-**ξυνίημι** (ι^): as Ar. *Av.* 946 begins a trimeter with ξυνίημ' ὅτι βούλει. The initial ι of ἵημι is properly long in pres. (and impf.) indic., imper., infin., and partic. This is the regular quantity in Attic: cp. 596. In Homeric verse the pres. indic. and imper., and the pres. part., (act. and midd.,) have ι— in arsis (and once, even in thesis, *Il.* 12. 274ἀλλὰ πρόσωἵεσθε): but ι^ in thesis, as when ἵενται closes a verse. The impf., too, has ι^ in thesis, as *Il.* 1. 479(ἵει). The Tragoedians, following epic precedent, sometimes shorten ι in these parts of ἵημι: thus ἵησιν (ι^) in lyrics, Aesch. *Th.* 310.But it is noteworthy that in tragic *dialogue* the examples of ι^ seem to be confined to the pres. part.; thus Aesch. *Th.* 493ἱέντα: Eur. *Hec.* 338 and *I. A.* 1101 ἱεῖσα: *I. T.* 298 ἱείς.
+**ξυνίημι** (ῐ): as Ar. *Av.* 946 begins a trimeter with ξυνίημ' ὅτι βούλει. The initial ι of ἵημι is properly long in pres. (and impf.) indic., imper., infin., and partic. This is the regular quantity in Attic: cp. 596. In Homeric verse the pres. indic. and imper., and the pres. part., (act. and midd.,) have ῑ in arsis (and once, even in thesis, *Il.* 12. 274ἀλλὰ πρόσωἵεσθε): but ῐ in thesis, as when ἵενται closes a verse. The impf., too, has ῐ in thesis, as *Il.* 1. 479(ἵει). The Tragoedians, following epic precedent, sometimes shorten ι in these parts of ἵημι: thus ἵησιν (ῐ) in lyrics, Aesch. *Th.* 310.But it is noteworthy that in tragic *dialogue* the examples of ῐ seem to be confined to the pres. part.; thus Aesch. *Th.* 493ἱέντα: Eur. *Hec.* 338 and *I. A.* 1101 ἱεῖσα: *I. T.* 298 ἱείς.
 
 **τάδʼ**: your kindly purpose.
 
@@ -549,10 +549,10 @@ For the repetition of **ἀλλά**, so soon after the ἀλλά in 137, see 879
 **φρένας**, defining ἐμέ: cp. 99 κάρα, n.
 
 ## 148
-**αἰὲν Ἴτυν**. The υ— need not be explained by ictus, for it was originally long in these words, though in ordinary Attic usage it had become shortened. In *Od.* 5. 470ἐς κλιτὺν ἀναβάς, and a few passages of Tragedy (as Eur. *H. F.* 5στάχυς, *El.* 1214 γένυν), the υ— remains. Aristophanes, too, has Ἴτυ—ν ἐλελιζομένη ( *Av.* 212). On the other hand κλιτὺν (υ^) in *Tr.* 271 represents the later practice. (For the varied quantity here, cp. *Ph.* 296πέτροισι πέτρον, n.) The reiterated Ἴτυν was heard in the nightingale's note; cp. Eur. fr. 773. 25 ὀρθρευομένα γόοις | Ἴτυν Ἴτυν πολύθρηνον, and Aesch. *Ag.* 1144.
+**αἰὲν Ἴτυν**. The ῡ need not be explained by ictus, for it was originally long in these words, though in ordinary Attic usage it had become shortened. In *Od.* 5. 470ἐς κλιτὺν ἀναβάς, and a few passages of Tragedy (as Eur. *H. F.* 5στάχυς, *El.* 1214 γένυν), the ῡ remains. Aristophanes, too, has Ἴτῡν ἐλελιζομένη ( *Av.* 212). On the other hand κλιτὺν (ῠ) in *Tr.* 271 represents the later practice. (For the varied quantity here, cp. *Ph.* 296πέτροισι πέτρον, n.) The reiterated Ἴτυν was heard in the nightingale's note; cp. Eur. fr. 773. 25 ὀρθρευομένα γόοις | Ἴτυν Ἴτυν πολύθρηνον, and Aesch. *Ag.* 1144.
 
 ## 149
-**ὄρνις** with ι^, as in *Ant.* 1021(n.).
+**ὄρνις** with ῐ, as in *Ant.* 1021(n.).
 
 **ἀτυζομένα**, bewildered, distraught with grief: cp. 135 ἀλύειν.
 
@@ -610,7 +610,7 @@ For the simple ὅς, instead of ὅς γε or ὅστις, with causal force, c
 **Ὀρέσταν**, emphatically placed at the end, is drawn into the case of the relative **ὃν**: cp. *Od.* 1. 69Κύκλωπος κεχόλωται, ὃν ὀφθαλμοῦ ἀλάωσεν, | ἀντίθεον Πολύφημον. Aesch. *Th.* 553τῷδʼ, ὃν λέγεις τὸν Ἀρκάδα.
 
 ## 164
-**ἀκάματα** with initial α^: but in *Ant.* 339ἀκαμάταν with α— (n.). For the neut. plur. as adv., cp. 786: *O. T.* 883ὑπέροπτα (n.).
+**ἀκάματα** with initial ᾰ: but in *Ant.* 339ἀκαμάταν with ᾱ (n.). For the neut. plur. as adv., cp. 786: *O. T.* 883ὑπέροπτα (n.).
 
 **ἀνύμφευτος** is merely a rhetorical amplification of the thought expressed by **ἄτεκνος**, and hence the poet is indifferent to the order of the words; just as in 962 ἄλεκτρα *precedes* ἀνυμέναια, and as Oedipus forebodes the fate of his daughters, χέρσους φθαρῆναι κἀγάμους (*O.T.* 1502). Antigone makes a similar lament ( *Ant.* 813 ff., Ant. 917 f.).
 
@@ -843,7 +843,7 @@ Other explanations are:—(1) Taking the dative with πρόσφορον:—‘To
 **εἴ τῳ πρόσκειμαι χρηστῷ**: prosperity is here conceived as a *region* of comfort, close to which the person is securely established. ‘When my lot is cast in pleasant places.’ Cp. 1040: Eur. fr. 418 κακοῖς γὰρ οὐ σὺ πρόσκεισαι μόνη. Conversely, Soph. *Ant.* 1243ἀνδρὶ πρόσκειται κακόν. (See n. on Soph. *Ant.* 94.)
 
 ## 241
-**ξυνναίοιμʼ**: cp. *O.T.* 1205 τίς ἄταις..τίς ἐν πόνοις | ξύνοικος: Plat. *Rep.* 587C ἡδοναῖς ξυνοικεῖ: conversely, *O.C.* 1134 κηλὶς κακῶν ξύνοικος: *Ph.* 1168ἄχθος ὃ ξυνοικει—.
+**ξυνναίοιμʼ**: cp. *O.T.* 1205 τίς ἄταις..τίς ἐν πόνοις | ξύνοικος: Plat. *Rep.* 587C ἡδοναῖς ξυνοικεῖ: conversely, *O.C.* 1134 κηλὶς κακῶν ξύνοικος: *Ph.* 1168ἄχθος ὃ ξυνοικεῑ.
 
 **εὔκηλος**: the only instance of this Homeric form in Tragedy (for in Eur. *I.A.* 644Blomfield restored ἕκηλον). The stem of ἕκηλος being vεκ, εὔκηλος is perh. for ἐvέκηλος, ἔvκηλος (Curt. *Etym.* § 19).
 
@@ -1515,7 +1515,7 @@ The conjecture **ἔστ' ἂν** for **ὅταν** is unnecessary, since **σ�
 **ἀρχὴν**, *omnino*, preceding the negative, as in *Ant.* 92(n.), *Ph.* 1239.— **τλημονεστάτη**: cp. 275.
 
 ## 440
-**ἔβλαστε**, with initial ε^, as in 1095, *Ph.* 1311ἐξ ἧς ἔβλαστες (n.): but above, in 238, this ε is long.
+**ἔβλαστε**, with initial ε̆, as in 1095, *Ph.* 1311ἐξ ἧς ἔβλαστες (n.): but above, in 238, this ε is long.
 
 ## 441
 **ὅν γ' … τῷδʼ**: for ὅδε after a relat., cp. *O. C.* 1332οἷς ἂν σὺ προσθῇ, τοῖσδ' ἔφασκ' εἶναι κράτος: *Ph.* 86 f.: *Tr.* 23, Tr. 820.
@@ -1555,7 +1555,7 @@ Two different motives are assigned by the Greek commentators; viz.:—(1) the de
 
 We come, therefore, to a dilemma. (1) The words τήνδ' ἀλιπαρῆ τρίχα may conceal some corruption: τήνδʼ ought possibly to be **τήνδε τʼ** (which is preferable to τήνδε γʼ here), followed by **ἀλίπαρον** (cr. n.), ‘not sleek or glossy,’ as with unguents. I incline to this view. The genuine word was in any case probably *negative*, parallel with οὐ χλιδαῖς ἠσκημένον in 452.
 
-(2) Or else, if the text be sound, ἀλιπαρῆ may mean οὐ λιπαράν. There is no doubt that λιπ, ‘fat,’ is the root both of λι^παρός, ‘shining,’ and of λι—παρής, ‘sticking’; cp. Plat. *Crat.* 427 B τὸ λιπαρὸν καὶ τὸ κολλῶδες (Curt. *Etym.* § 340). Similarly γλίσχρος, ‘sticky,’ came to mean ‘importunate.’ It is barely possible that, in coining a new negative compound, the poet may have transferred the sense of λιπαρός to λιπαρής: but it seems improbable.
+(2) Or else, if the text be sound, ἀλιπαρῆ may mean οὐ λιπαράν. There is no doubt that λιπ, ‘fat,’ is the root both of λῐπαρός, ‘shining,’ and of λῑπαρής, ‘sticking’; cp. Plat. *Crat.* 427 B τὸ λιπαρὸν καὶ τὸ κολλῶδες (Curt. *Etym.* § 340). Similarly γλίσχρος, ‘sticky,’ came to mean ‘importunate.’ It is barely possible that, in coining a new negative compound, the poet may have transferred the sense of λιπαρός to λιπαρής: but it seems improbable.
 
 ## 452
 **ζῶμα** here = ζώνην, a sense which recurs only in later Greek; as in *Anth. Pal.* 6. 272 a woman dedicates her ζῶμα to Artemis. (As to the ζῶμα of the Homeric warrior, see *Introd. to Homer*, p. 65, n. 3.)
@@ -2793,7 +2793,7 @@ The literal sense then is:—‘(I know this) by a life which, through all the m
 This view gives πανσύρτῳ a more forcible and more poetical sense than if it be taken as=‘swept together from every side.’ The meaning then would be, ‘a life, through all the months, of many dread horrors, *accumulated* from every quarter,’—the epithet πανσύρτῳ being transferred from the troubles to the life itself. It would still, indeed, be possible to make πανσύρτῳ active; ‘a life which draws troubles together from all sides’; but such an active sense would be somewhat harsher, on this interpretation, than on that which supposes the image of a torrent.
 
 ## 853
-**ἁθρήνεις**. The MS. reading, **ἃ θροεῖς**, conflicts with the metre of the antistrophe (864), where the corresponding words are ἁ λώβα. In *Ai.* 582, where θρηνεῖν is right, θροεῖν was a *v.l.* (Paris A). The reasons for preferring ἁθρήνεις to **ἃ θρηνεῖς** are two. (1) A lengthening of α^ before θρ, though not impossible in lyrics (cp. *Ant.* 612το— πρίν), would be unusual. (2) The context favours the imperfect. In 850—852 Electra refers to the woes which she has so long endured. The Chorus now reply, ‘We have seen what *thou wast* mourning,’—‘the course of thy sorrow,’—through all those years (cp. 140 f.). The compromise, ᾇ θρηνεῖς, meets the first point, but not the second.
+**ἁθρήνεις**. The MS. reading, **ἃ θροεῖς**, conflicts with the metre of the antistrophe (864), where the corresponding words are ἁ λώβα. In *Ai.* 582, where θρηνεῖν is right, θροεῖν was a *v.l.* (Paris A). The reasons for preferring ἁθρήνεις to **ἃ θρηνεῖς** are two. (1) A lengthening of ᾰ before θρ, though not impossible in lyrics (cp. *Ant.* 612το̄ πρίν), would be unusual. (2) The context favours the imperfect. In 850—852 Electra refers to the woes which she has so long endured. The Chorus now reply, ‘We have seen what *thou wast* mourning,’—‘the course of thy sorrow,’—through all those years (cp. 140 f.). The compromise, ᾇ θρηνεῖς, meets the first point, but not the second.
 
 ## 854
 **μή μέ νυν**. Here νυν, not νῦν, is clearly right: ‘If ye so well know my griefs, *then* desist,’ etc.
@@ -3286,7 +3286,7 @@ The contrast between the attitude of the two sisters suggests the theme of this 
 ## 1058
 **ἄνωθεν** here=ἄνω: so 1449 ἔξωθεν: *Tr.* 601ἔσωθεν: *Ant.* 521κάτωθεν.
 
-**οἰωνοὺς** with οι^ (the only example in this word): cp. 1001 τοιοῦτον: fr. 881 τὸν Βοι^ώτιον νόμον: *Od.* 7. 312τοῖος ἐὼν οἷός ἐσσι.—The stork was especially a type of parental and filial piety: Ar. *Av.* 1355ἐπὴν ὁ πατὴρ ὁ πελαργὸς ἐκπετησίμους | πάντας ποήσῃ τοὺς πελαργιδῆς τρέφων, | δεῖ τοὺς νεοττοὺς τὸν πατέρα πάλιν τρέφειν. Suidas *s.v.* ἀντιπελαργεῖν: παροιμία ἐπὶ τῶν τὰς χάριτας ἀποδιδόντων.
+**οἰωνοὺς** with οῐ (the only example in this word): cp. 1001 τοιοῦτον: fr. 881 τὸν Βοῐώτιον νόμον: *Od.* 7. 312τοῖος ἐὼν οἷός ἐσσι.—The stork was especially a type of parental and filial piety: Ar. *Av.* 1355ἐπὴν ὁ πατὴρ ὁ πελαργὸς ἐκπετησίμους | πάντας ποήσῃ τοὺς πελαργιδῆς τρέφων, | δεῖ τοὺς νεοττοὺς τὸν πατέρα πάλιν τρέφειν. Suidas *s.v.* ἀντιπελαργεῖν: παροιμία ἐπὶ τῶν τὰς χάριτας ἀποδιδόντων.
 
 ## 1059
 **ἐσορώμενοι**: for the midd., cp. *Tr.* 909εἰσορωμένη, ib. 306 ὁρωμένη: *O. C.* 244προσορωμένα: *Ant.* 593ὁρῶμαι. —(τούτων) **ἀφ' ὧν**: cp. *O. C.* 1388κτανεῖν θ' ὑφ' οὗπερ ἐξελήλασαι.
@@ -4112,7 +4112,7 @@ Blaydes and Wecklein read **ʼπέστην**: but ἐπέστην σε as = ‘a
 ## 1379
 **ἐξ οἵων ἔχω** | **αἰτῶ**: lit., ‘I make the prayer with such means as I have’; i.e., no longer with offerings— since none are at hand—but with heartfelt vows. Schol. ὡς δυνάμεως ἔχω, λόγοις ἀξιοῦν, οὐ θύειν.
 
-*1380* I read **προπίπτω**, as metre requires, not **προπίτνω**. The first syllable of πίτνω is never long. Thus, where **ι^** is needed, Aesch. *Pers.* 588 has προπίτνοντες, and Soph. *O. C.* 1754προσπίτνομεν: but, requiring **ι—**, *Suppl.* 63 writes προπίπτουσα.
+*1380* I read **προπίπτω**, as metre requires, not **προπίτνω**. The first syllable of πίτνω is never long. Thus, where **ῐ** is needed, Aesch. *Pers.* 588 has προπίτνοντες, and Soph. *O. C.* 1754προσπίτνομεν: but, requiring **ῑ**, *Suppl.* 63 writes προπίπτουσα.
 
 ## 1382
 **τἀπιτίμια**. Eur. *Hec.* 1086δράσαντι δ' αἰσχρὰ δεινὰ τἀπιτίμια. Josephus *Bell. Iud.* 1. 30 § 6 ἀπέχω τῆς ἀσεβείας τὸ ἐπιτίμιον.
@@ -4159,7 +4159,7 @@ Campbell suggests that the image in προνέμεται is from *fire* ‘eatin
 
 The bold use of **αἷμα** may be illustrated by Aesch. *Ch.* 932πολλῶν αἱμάτων, ‘many deeds of blood’; Eur. *Or.* 284εἴργασται δ' ἐμοὶ | μητρῷον αἷμα, ‘the murder of a mother.’ Eur. Itshould be remembered that Orestes does *not* enter the house *with a weapon displayed in his hands.* The sword or dagger is concealed. We may be sure, then, that, whether αἷμα is genuine or not, at least Sophocles did not use any word (such as μάχαιραν) denoting a *weapon*; since then the words **χειροῖν ἔχων** would necessarily have had their literal sense, ‘holding in the hands’; they could no longer have meant, as the context requires them to mean, simply, ‘charged with,’ ‘bearing with him.’ This fact—that some *abstract* word is required—is, to my mind, the strongest argument in favour of **αἷμα**.
 
-If **νεάκονητον** is right, the **α** must be short. The verse corresponds with 1387 με^τ <01> α^δρο^μο—ι— κα^κ | ω—ν πα^ν | ου—ργη—μα^τ | ω—ν Λ ||, a dochmiac dimeter. Now, analogy would suggest that νεακόνητον is Doric for νεηκόνητον. Cp. νεηκονής ( *Ai.* 820): νεηκής (Hom. ): νεηλιφής (νέος, ἀλείφω, Arist. ). Even when the second part of the compound begins with a consonant, we find such forms as νεα—γενής ([Eur. ] *I. A.* 1623), νεηθαλής, νεήτομος, νεήφατος. Yet at least two exceptions occur. (1) νεα^λής in Nicander *Alexiph.* 358 and 364; although the α is normally long. (2) *Anthol. Pal.* 7. 13 παρθενικὴν νεάοιδον: in an epigram ascribed to Leonidas of Tarentum, *c.* 280 B.C. It seems possible, then, that Sophocles should have written νεα^κόνητον.
+If **νεάκονητον** is right, the **α** must be short. The verse corresponds with 1387 με̆τ <01> ᾰδρο̆μο̄ῑ κᾰκ | ω̄ν πᾰν | οῡργη̄μᾰτ | ω̄ν Λ ||, a dochmiac dimeter. Now, analogy would suggest that νεακόνητον is Doric for νεηκόνητον. Cp. νεηκονής ( *Ai.* 820): νεηκής (Hom. ): νεηλιφής (νέος, ἀλείφω, Arist. ). Even when the second part of the compound begins with a consonant, we find such forms as νεᾱγενής ([Eur. ] *I. A.* 1623), νεηθαλής, νεήτομος, νεήφατος. Yet at least two exceptions occur. (1) νεᾰλής in Nicander *Alexiph.* 358 and 364; although the α is normally long. (2) *Anthol. Pal.* 7. 13 παρθενικὴν νεάοιδον: in an epigram ascribed to Leonidas of Tarentum, *c.* 280 B.C. It seems possible, then, that Sophocles should have written νεᾰκόνητον.
 
 ## 1395
 **ὁ Μαίας δὲ παῖς**. Hermes χθόνιος, whom Electra had already invoked (111), acts here in his twofold quality as πομπαῖος and δόλιος. Cp. *Ph.* 133Ἑρμῆς δ' ὁ πέμπων δόλιος ἡγήσαιτο νῷν. A like part is assigned to him in the *Choephori*, 727 χθόνιον δ' Ἑρμῆν | .. τοῖσδ' ἐφοδεῦσαι | ξιφοδηλήτοισιν ἀγῶσιν: ib. 812 ξυλλάβοι δ' ἐνδίκως | παῖς ὁ Μαίας ἐπιφορώτατος (like a favouring wind) | πρᾶξιν οὐρίαν θέλων.
