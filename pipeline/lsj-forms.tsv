@@ -1,0 +1,167 @@
+# Where the meanings of an LSJ entry start, for the entries where the rules of the importer
+# (anagnosis_pipeline/lexicon.py, "LSJ: the forms section") go wrong. Tab-separated: the entry's
+# key in the Perseus file, the decision, a comment.
+#
+# The decision is the first words of the meaning, as they stand in the entry: "A." is set before
+# them and what comes before goes into the head paragraph. "-" means that the entry gets no "A."
+# at all (it holds forms, variants or Greek glosses only); "=" leaves the entry as the file has it.
+#
+# These decisions come from the check of 2026-11-14: readers went through the entries that the
+# rules were unsure about, and through samples of the rest, and named the place where each
+# meaning starts. The comment gives the fault they found with the rules' result.
+*(/arpuiai	the Snatchers, a name used in Od. to	too late
+*)/itwn	a town in Thessaly: —hence Ἰτωνία, ἡ,	too late
+*)ama/rios	epith. of Zeus and Athena in Achaea, SIG	too late
+*)amfia/raos	Amphiaraus, Argive hero and seer, A. , etc.;	too late
+*)azo/sios	month at Epidaurus, IG 4.1485.20 ,al.	too late
+*)erexqeu/s	an ancient hero of Attica, first in Il.	too late
+*)inwpo/s	name of a stream on Delos	too late
+*brito/martis	name of Artemis in Crete, = virgo dulcis	too late
+*dhmh/trios	of or belonging to Demeter, βίος A. Fr.	too late
+*kk	eleventh (later tenth) letter in Gr. alphabet	too late
+*qargh/lia	a festival of Apollo and Artemis held at	too late
+*ti/beios	name of a slave, IG 22.1672.69	too late
+*tufw/nios	of Typhon, πέτρη A.R. l. c.; ἄρκτος Nonn.	too late
+a(marth=	together, at same time, at once, Il. 5.656	too late
+a(mh=	in a certain way, Hp. ap. Gal. 19.78	too late
+a)/mi	ajowan, Carum copticum, PTeb. 55.5	too late
+a)/rgillos	white clay, potter's earth, Arist. Pr. 890a26	too late
+a)/roura	tilled or arable land, Il. 11.68 , etc.;	too late
+a)=3	exclamation expressing pity, envy, contempt, etc.,	too late
+a)gkotu/lh	a game, Hsch. ἀγκταλιάζει· ἄγχει, Hsch.	too late
+a)kerseko/mhs	with unshorn hair, i.e. ever-young (for	too late
+a)leai/nw	warm, make warm, Hp. Epid. 5.57 , Mul.	too late
+a)lge/w	feel bodily pain, suffer, ἀλγήσας smarting with pain	too late
+a)lh/qw	= Att. ἀλέω (A), mostly pres. (and impf.,	too late
+a)me/lei	never mind, do not trouble yourself, esp. to	too late
+a)mfagapa/w	= foreg., aor. ἀμφαγάπησε h.Cer. 439	too late
+a)na/qema	properly, like ἀνάθημα , anything dedicated, Theoc.	too late
+a)ne/kfantos	not to be revealed or uttered, i.e. mystical,	too late
+a)ntipe/rhqen	from the opposite side, A.R. 1.613	too late
+a)pia/llw	Dor. for ἀποπέμπω, Th. 5.77 ;	too late
+a)popurgi/zontes	title of work by Diagoras, Suid.	too late
+a)popuri/s	small fish like ἐπανθρακίς , Clearch. 16	too late
+a)pouri/zw	only in Il. 22.489 ἄλλοι γάρ οἱ ἀπουρίσσουσιν	too late
+a)wri/	at an untimely hour, too early, Heraclid.Com. 1.2	cut in two
+ai)asth/s	'the mourner', of the plant ὑάκινθος, Nic. Fr.	too late
+ai)qeri/ths	a precious stone, Ps.-Callisth. 1.4	too late
+baki/s	Boeotian prophet, Hdt. 8.20 , 77 , al.;	too late
+bau/+zw	cry βαύ βαύ, bark, Theoc. 6.10	too late
+da/ktulos	-finger, ἐπὶ δακτύλων συμβάλλεσθαι τοὺς μῆνας	too late
+dani/zw	Hellenistic form for δανείζω, LXX Pr. 19.14	too late
+dermhsth/s	worm which eats skin or leather, S. Fr.	too late
+di/dis	signifying motion to a place, like -δε ,	too late
+diaithth/rion	in pl., dwelling-rooms, X. Oec. 9.4	too late
+diatu/fw	διατεθυμμένη dazed, Lib. Or. 1.95	too late
+e(/wmen	subj. form for ἥομεν (cf. ἄω c)	too late
+e)/lpw	cause to hope, πάντας μὲν ἔλπει she feeds	too late
+e)cofruo/w	ἐξωφρυωμένος supercilious, Hsch., EM 350.22	too late
+e)gkatami/sgw	= - μείγνυμι, τῇ διηγήσει τὰς θεατρικὰς	too late
+e)kkotti/zw	ruined at play, Hsch. s.v. ἐκκεκομμένος.	too late
+e)ndia/zw	pass the noon, take a siesta, Plu. Rom.	too late
+e)niph/	rebuke, reproof, Il. 4.402 , etc.;	too late
+e)pididumi/s	in Anatomy, epididymis, Gal. 4.565	too late
+e)pilai/+s	name of a bird ( v.l. ὑπολαΐς ),	too late
+eu)/zugos	of ships, well-benched, Od. 13.116 , 17.288	too late
+eu)ai/	a cry of joy like εὐοῖ , Ar.	too late
+eu)e(/n	an exclamation like εὔἁν, εὐοἵ	too late
+eu)pa/teira	= sq., Men. 616 (with v.l. εὐπατέρεια	too late
+eu)sebh/s	pious, religious, opp. δυσσεβής (q.v.), Thgn. 1141	too late
+flia/sios	name of a Spartan month, St.Byz. s.v. Φλιοῦς;	too late
+galeoeidh/s	of the shark kind, οἱ γ. Arist. HA	too late
+gluku/s	sweet to the taste or smell, νέκταρ Il.	too late
+goniko/s	of the seed, γ. ἔκκρισις Arist. Pr. 879b28	too late
+i)kma/w1	= λικμάω, Hsch. ( Act. and Pass. )	too late
+i)kma/w2	ἰκμαμένος wounded, Inscr.Cypr. 135.3 H.	too late
+ka/k1	name of the letter κ	too late
+ka/kourgos	doing ill, mischievous, knavish, once in Hom.	too late
+kaqo/sios	-ώτατος devotissimus, Gloss.	too late
+karxaro/dous	with saw-like teeth, καρχαρόδοντε δύω κύνε Il. 10.360	too late
+katorgo/w	κατωργώμεθα we have quarrelled with each other,	too late
+kekrame/nws	in a mixed manner, πρὸ τῶν ἀμίκτων ἐλέγχων	too late
+kosu/mbh	= Att. κρωβύλος, Poll. 2.30	too late
+kourew=tis	the third day of the Ἀπατούρια, on which	too late
+krokonhtikh/	the art of spinning the woof, opp. στημονονητική	too late
+ku/passis	short frock, reaching to a man's mid-thigh,	too late
+kwlakre/ths	name of a financial official in early Athens	too late
+leu/kinos	of white poplar, στέφανοι Arist. Oec. 1353b27	too late
+leuko/geios	of or with white earth, ll. cc.	too late
+lexai=os	of or for a couch, φυλλάς A.R. 1.1182	too late
+lhda/rion	Dim. of λῆδος, Ar. Av. 715	too late
+m	thirteenth (later twelfth) letter of the Gr. alphabet	too late
+me/linos2	ashen, μείλινον ἔγχος Il. 5.655	too late
+megalo/koros	with large pupils, Aët. 7.54	too late
+mesoeidh/s	in the region of the μέση, i.e. in	too late
+mh/tis2	old Gr. and Cret. for μηδείς, Il. 12.272	too late
+mono/tonos	of one tone in music, uniform, monotonous.	too late
+muliko/s	for a mill, λίθος Ev.Luc. 17.2	too late
+nomoai/olos	of varied melody, dub. in Telest. 2	too late
+o(/ros	boundary, landmark, ἀμφ' οὔροισι δύ' ἀνέρε	too early
+o)cu/blatta	in Lat. form oxyblatta, bright purple, Cod.Just. 4.40.1	too late
+o)fruo/eis	on the brow or edge of a steep	too late
+o)nuxi/ths	of the onyx kind, ὀ. λίθος Dsc. 5.74	too late
+o)ri/ganon	an acrid herb, ὀ. Ἡρακλεωτική Dsc. ,	too late
+oi)nologi/a	a tax (perh. = σπονδὴ Διονύσου )	too late
+ou)/2	nearly like οὐ δή , strengthening the negation	too late
+ou)dei/s	not one, i.e. no one, none, used by	too late
+ou)loki/kinna	poet.for οὖλοι κίκιννοι (cf. οὐλοκάρηνος 11 )	too late
+pamfala/w	gaze in astonishment, Ion. word, Hippon. 131	too late
+paraigia/lios	= sq., Xenocr. ap. Orib. 2.58.42	too late
+parakako/w	-κεκακωμένος deranged, Gloss.	too late
+parakuma/tios	with a wavy border, χιτωνίσκος IG 22.1514.46	too late
+pe/rseion	fruit of περσέα, Thphr. HP 2.2.10	too late
+pente/ktenos	with five purple threads woven zig-zag	too late
+peripola/rxhs	commander of military patrol, Th. 8.92	too late
+podiai=os	a foot long, broad, or high, Hp. Art.	too late
+pollostai=os	for many days past, Eub. 133 cod.	too late
+polu/mhlos	with many sheep or goats, rich in flocks,	too late
+polu/stios	with many small stones, pebbly, Call. Jov. 26	too late
+pou/limos	Aeol. (prob. Boeot. ) for βούλιμος, Plu. 2.694a	too late
+pro/malos	an unknown tree with supple springy branches	too late
+prosape/xw	προσαπεσχηκέναι to have received in addition,	too late
+prutanei=on	the magistrates' hall, town hall, Hdt. 1.146 ,	too late
+puknogo/natos	with frequent knots or joints, Dsc. 1.18	too late
+puqmene/w	of a number, to be a base of	too late
+qeraph/i+os	Ion. and poet. for θεραπευτικός, in neut. pl.	too late
+qri/c	hair, Hom. only in pl., ὀρθαὶ τρίχες ἔσταν	too late
+qursi/ths	= ὠκιμοειδές, Ps.- Dsc. 4.28	too late
+r(oizo/w	= ῥοιζέω, Hsch. ; also ῥοίζομαι,	too late
+r(wph/i+on	bushes, brushwood, underwood, ῥωπήϊα πυκνά Il. 13.199	too late
+sabai=	a Bacchanalian cry, like εὐαί, εὐοῖ , Eup.	too late
+sfagi=tis	of the throat, φλέβες σφαγίτιδες Arist. HA 514a4	too late
+sfhro/s2	-	cut in two
+shmasi/a	the giving a signal or command, LXX Nu.	too late
+sitani/as	a branching cereal, Thphr. HP 8.2.3	too late
+skhniko/s	of the stage, theatrical, Plu. 2.1142c	too late
+splhno/omai	have a compress applied, Heliod. ap. Orib. 46.9.3	too late
+spu/raqos	= σπυράς, only in pl., Hp. Nat.Mul. 32	too late
+ste/gw	cover closely, so as to keep a fluid	too late
+sthmoni/as	ς. κίκιννος a thread-like curl, Cratin. 353	too late
+stolidwto/s	ς. χιτών a long tunic hanging in many	too late
+su/staqmos	of equal weight, Hp. ap. Gal. 19.143 .	too late
+sua/greios	of the wild boar, πέλματα PCair.Zen. 692.18	too late
+sxinoke/falos	with a squill-shaped, i.e.peaked. head,	too late
+sxoinote/neia	poet.fem ofsq., formed like ἡδυέπεια, μουνογένεια	too late
+taxino/s	poet. and late Prose for ταχύς, φρένες, ἴουλοι	too late
+te/ramnon1	chamber, house, like μέλαθρα, τ. ἀπὸ νυμφιδίων	too late
+termio/eis	prob. fringed, ἀσπίς Il. 16.803	too late
+tir	Elean for τις, SIG 9.7 (vi B.C.)	too late
+tittubi/zw	prop. of the cry of the common partridge	too late
+toi/sdesi	Ep. (and Ion. , if rightly read in	too late
+toixi/zw	of a ship, lie on her beam ends,	too late
+tri/tatos	lengthd. poet. for τρίτος, like μέσσατος for μέσος	too late
+trifu/llinos	an Italian wine, Gal. 14.19	too late
+u(polai/+s	an unknown small bird, Arist. HA 564a2	too late
+u(yipe/thlos	Ion. and Ep. for ὑψιπέτα^λος, used like ὑψίκομος	too late
+u)eu/xomai	Cypr. for ἐπεύχομαι ( Cypr. ὐ-	too late
+u)nti/qhmi	Cypr. for ἀνα-τ., aor. ὐνέθηκε Schwyzer 682.12	too late
+w(sanei/	as if, as it were, with Verbs	too late
+xou=s1	a measure of capacity, = 12 κοτύλαι:	too late
+xrush/latos	of beaten gold, A. Th. 644 ,	too late
+xudai/+zomai	to be used in vulgar language, Eust. 421.19	too late
+xutri/s	Dim. (in form only) of χύτρα or χύτρος	too late
+ya/mmh	rarer form of ψάμμος, Hdt. 4.181 ( v.l.	too late
+yeudoku/peiros	bastard κύπειρος, Dsc. 5.75.15 ; pseudocypirus	too late
+za=2	= γῆ, Inscr.Cypr. 135.8H. ; but ζαν	too late
+zwo/s	alive, living, Pi. P. 4.209 , Hdt. 2.70	too late
+zwogra/fos	poet. for ζωγρ-, Theoc. 15.81	too late

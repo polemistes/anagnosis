@@ -424,8 +424,9 @@ def _reference_at(frags: list[_Frag], start: tuple[int, int], equations: bool = 
             words += _plain(f.html)
         else:
             break
+        words = _WS.sub(" ", words).lstrip()
         i, off = i + 1, 0
-    words = _WS.sub(" ", words).strip()
+    words = words.strip()
     if _FOREGOING.match(words) or re.match(_REFERENCE.pattern + r"\s*(?:foreg|sq)\.", words):
         return True
     if len(words) > 40 or i >= len(frags):
@@ -588,14 +589,8 @@ def _meaning_start(frags: list[_Frag], before: list[_Frag], in_forms: bool) -> t
     segs = _segments(frags, texts, depth)
     for n, seg in enumerate(segs):
         if n == 0:
-            if in_forms:
-                starts = [_clause_start(frags, seg.clause)] if seg.clause is not None else []
-                first_dash = segs[1].start[0] if len(segs) > 1 else len(frags)
-                reference = _first_reference(frags[:first_dash], texts[:first_dash], depth, equations=False)
-                if reference is not None:
-                    starts.append(reference)
-                if starts:
-                    return *_cut(frags, min(starts)), "clause", ""
+            if in_forms and seg.clause is not None:
+                return *_cut(frags, _clause_start(frags, seg.clause)), "clause", ""
         elif seg.opens in ("voice", "tns") and seg.tenses:
             # the forms of a voice or tense: they hold the meaning only where it follows them
             # without a dash, as a clause of its own (":—Pass., aor. ἐκνίσθην E. Andr. 209: scratch, gash")
@@ -622,10 +617,30 @@ def _plain_words_after_dash(frags: list[_Frag], before: list[_Frag]) -> tuple[li
     return None
 
 
-def _meaning_in_head(head: list[_Frag], references: bool) -> tuple[int, int] | None:
+def _plain_words_in_head(head: list[_Frag]) -> tuple[int, int] | None:
+    """Where the head gives the meaning in plain, unmarked words, if it does: straight after the
+    headword with its inflection, or after the etymology in brackets that follows them
+    ("Ὑδατοσύδνη, ἡ, | name of a Nereïd", "μέλινος …, η, ον, (μελία) | ashen")."""
+    last = max((i for i, f in enumerate(head) if f.kind == "infl" or f.html.startswith('<b class="orth">')), default=None)
+    if last is None:
+        return None
+    at = _skip_stops(head, (last + 1, 0))
+    texts = _matched(head)
+    i, off = at
+    if i < len(head) and head[i].kind == "text" and texts[i][off:off + 1] == "(":
+        closes = _bracket_closes(head[i:], [texts[i][off + 1:]] + texts[i + 1:], 1)
+        if closes is None:
+            return None
+        j, pos = closes
+        at = _skip_stops(head, (i + j, pos + (off + 1 if j == 0 else 0)))
+    return at if at[0] < len(head) and _reads_as_meaning(head, at) else None
+
+
+def _meaning_in_head(head: list[_Frag], references: bool, following: list[_Frag] = ()) -> tuple[int, int] | None:
     """Where the head itself starts to give the meaning, if it does: at its first translation
     ("Κελτοί, οἱ, | Celts, Hdt. 2.33 …"), with the short description that leads up to it; and,
-    with `references`, at a definition by reference ("κτίννυμι, | collat. form of κτείνω").
+    with `references`, at a definition by reference ("κτίννυμι, | collat. form of κτείνω"), whose
+    other word may be the first of `following`, the section ("Dim. of | πλινθίς 11").
     The file sets "A." past such a meaning when a derived word or a quoted form follows it."""
     texts = _matched(head)
     found = []
@@ -634,8 +649,10 @@ def _meaning_in_head(head: list[_Frag], references: bool) -> tuple[int, int] | N
             found.append(_lead_in(head, seg.strong))
             break
     if references:
-        at = _first_reference(head, texts)
-        if at is not None:
+        first = next((f for f in following if not _blank(f)), None)
+        other = [_Frag("greek", '<span class="foreign">' + _plain(first.html) + "</span>")] if first is not None and first.kind == "greek" else []
+        at = _first_reference(head + other, texts + [""] * len(other))
+        if at is not None and at[0] < len(head):
             found.append(at)
     return min(found) if found else None
 
@@ -664,11 +681,20 @@ def _comma_first(head: list[_Frag], body: list[_Frag]) -> bool:
     if m is None:
         return False
     etymology, rest = m.groups()
+    while head and _blank(head[-1]):
+        del head[-1]
+    if head and head[-1].kind == "text":
+        head[-1] = _Frag("text", head[-1].html.rstrip())
     head.append(_Frag("text", ", "))
     if etymology:
         head.append(_Frag("other", f'<span class="foreign">{etymology}</span>'))
         head.append(_Frag("text", " "))
-    if rest.strip():
+    if _plain(rest).strip() in ("ὁ", "ἡ", "τό", "οἱ", "αἱ", "τά"):
+        # ", ἡ an adept in polite learning": the second gender of the headword, not a quotation
+        head.append(_Frag("infl", f'<span class="gram">{_plain(rest).strip()}</span>'))
+        head.append(_Frag("text", ", "))
+        del body[first]
+    elif rest.strip():
         body[first] = _Frag("greek", '<span class="quote">' + rest + "</span>")
     else:
         del body[first]
@@ -732,13 +758,18 @@ def _repair_section_a(head: list[_Frag], senses: list, over: dict, decision: str
         return "printed A.", ""
     # the file's "A." opens at a quoted form, inside a citation ("Hsch. | s.v. κιμβεία") or inside
     # a remark on the forms ("formed | like ἵστημι"): placed by rule, not at a meaning
-    aside = first.kind == "xr" and re.match(r"\s*(?:s\.\s?v\.|like)\s", _plain(first.html)) is not None
+    opening = _plain(first.html) if first.kind == "xr" else ""
+    aside = re.match(r"\s*s\.\s?v\.\s", opening) is not None
+    if re.match(r"\s*like\s", opening):
+        # "like ῥάζω, growl, snarl" defines; "apocop. acc. αἰῶ, like Ποσειδῶ, restored by …:—lifetime" is a remark
+        before_dash = _segments(body, _matched(body), 0)[0]
+        aside = before_dash.strong is None or before_dash.tenses > 0
     quoted = first.kind == "greek" or aside
     done = None
     if _comma_first(head, body):
         over[s0] = (None, html_of(body))
         done = "comma", ""
-    at = _meaning_in_head(head, references=quoted)
+    at = _meaning_in_head(head, references=quoted, following=body)
     if at is not None:
         keep, meaning = _cut(head, at)
         head[:] = keep
@@ -764,6 +795,12 @@ def _repair_section_a(head: list[_Frag], senses: list, over: dict, decision: str
         head.extend(forms)
         over[s0] = (None, html_of(meaning))
         return "plain words", "the meaning is not marked as a translation: taken to start at the plain words after a dash"
+    at = _plain_words_in_head(head)
+    if at is not None:
+        keep, meaning = _cut(head, at)
+        head[:] = keep
+        over[s0] = (None, html_of(meaning + body))
+        return "plain words", "the meaning is not marked as a translation: taken to start at the plain words after the headword"
     # forms, and no meaning among them
     head.extend(body)
     over[s0] = None
