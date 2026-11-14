@@ -45,6 +45,13 @@ You are welcome to download the source files for the app and the texts and build
 
 This app has been created with the help of large language models.
 
+## Release notes, 0.7.0 (401; limit 500)
+Version 0.7.0:
+
+Long dictionary entries are easier to read. The list of forms that opens an entry in Liddell-Scott-Jones is set out with one line for each tense or case, the tense and voice labels stand out in colour, and a long list is folded until you ask for it, so that the meanings come first.
+
+New texts: Aristophanes' Clouds, Hesiod's Theogony, Lucian's A True Story and the Shepherd of Hermas.
+
 ## Release notes, 0.6.0 (354; limit 500)
 Version 0.6.0:
 

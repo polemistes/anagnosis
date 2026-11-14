@@ -125,3 +125,15 @@ from its pack and is read aloud from a tapped word.
 Version code 15 (still 0.5.0, 2026-10-22): the Klatt man two semitones higher, the speakers'
 names in the man's voice raised above it rather than below, and a switch for saying the names
 (on by default). The release notes say the names can be turned off.
+
+## The forms sections of the dictionaries (reader 0.7.0)
+
+Reader 0.7.0 (version code 17) shows the forms section that opens a long LSJ entry as lines, one
+for each tense or case, with the tense and voice labels in colour; a long section is folded
+after ten lines ("Show all forms"). The file's section letter "A.", which stood in the middle of
+the forms in some 4,800 entries, is put where the meanings start, and shown only where the entry
+goes on to a "B.". Middle Liddell's notes on forms and derivation stand one to a line. The
+release notes for 0.7.0 in listings/reader.md also name the four texts added since 0.6.0
+(Clouds, Theogony, A True Story, the Shepherd of Hermas): their products must be active in the
+Console before the update reaches people, or the shop shows them as not offered. The screenshots
+show no long dictionary entry and are still correct.
