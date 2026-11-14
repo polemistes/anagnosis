@@ -1715,7 +1715,7 @@ A vase found at Capua shows Pelops and Hippodameia in a ship, from which Myrtilu
 **ἐκοιμάθη**: cp. *Ai.* 831καλῶ θ' ἅμα | πομπαῖον Ἑρμῆν χθόνιον εὖ με κοιμίσαι.
 
 ## 510
-**παγχρυσέων δίφρων**, the golden chariot given to Pelops by Poseidon: see Pind. *O.* 1. 87, in n. on 505. This plur. (750), as denoting *one* chariot (like ὄχεα, ἅρματα), is not Homeric. παγχρυσέων (¯¯˘¯), the epic form, suits the metre here. Cp. Soph. *Tr.* 1099χρυσέων (¯˘¯). Dindorf, keeping the MS. παγχρύσων, inserts ἐκ after it. The strophic test is absent in an epode.
+**παγχρυσέων δίφρων**, the golden chariot given to Pelops by Poseidon: see Pind. *O.* 1. 87, in n. on 505. This plur. (750), as denoting *one* chariot (like ὄχεα, ἅρματα), is not Homeric. παγχρυσέων (––⏑–), the epic form, suits the metre here. Cp. Soph. *Tr.* 1099χρυσέων (–⏑–). Dindorf, keeping the MS. παγχρύσων, inserts ἐκ after it. The strophic test is absent in an epode.
 
 ## 512
 **πρόρριζος** here= πανώλεθρος, as in Ar. *Ran.* 587πρόρριζος αὐτός, ἡ γυνή, τὰ παιδία, | κάκιστ' ἀπολοίμην. It would strain the word to understand, ‘torn from his place’ in the chariot.
@@ -2744,7 +2744,7 @@ These lyrics mark the climax of Electra's grief. The comforter vainly seeks to r
 ## 836
 **οἶδα γὰρ** κ.τ.λ.: ‘Nay, (I can still offer thee comfort;) *for* I know that Amphiaraüs, like Agamemnon, was betrayed to death by a false wife; and yet now he is a great spiritual force beneath the earth, and is revered among men.’ Although Orestes is dead, Agamemnon may still be *honoured.* The Chorus do not directly hint a belief that he can still be *avenged*,—as Amphiaraüs was. Electra then seizes on this point of contrast, Amphiaraüs found an avenger; her father cannot now find one.
 
-**Ἀμφιάρεων**, scanned ¯˘˘¯, as in *O. C.* 1313(n.): **ἄνακτα**, as the seer Teiresias is so called, *O. T.* 284(n.). Amphiaraüs, the Argive seer and warrior, married Eriphylè, sister of Adrastus, king of Argos. He had sworn to abide by her decision in any difference between himself and her brother, with whom he had formerly been at feud ( Apollod. 3. 6. 2). When Polyneices sought Argive aid against Thebes, Amphiaraüs opposed the enterprise, foreseeing a fatal issue. Polyneices then bribed Eriphylè with a golden necklace, and she persuaded her husband to join the expedition. The Argives were routed by the Thebans. In the flight, Amphiaraüs was approaching the river Ismenus, near Thebes, when the earth, riven by a thunderbolt, swallowed him up, with his chariot: cp. *fr.* 873. Sophocles wrote an Ἐριφύλη, and also a satyric Ἀμφιάρεως.
+**Ἀμφιάρεων**, scanned –⏑⏑–, as in *O. C.* 1313(n.): **ἄνακτα**, as the seer Teiresias is so called, *O. T.* 284(n.). Amphiaraüs, the Argive seer and warrior, married Eriphylè, sister of Adrastus, king of Argos. He had sworn to abide by her decision in any difference between himself and her brother, with whom he had formerly been at feud ( Apollod. 3. 6. 2). When Polyneices sought Argive aid against Thebes, Amphiaraüs opposed the enterprise, foreseeing a fatal issue. Polyneices then bribed Eriphylè with a golden necklace, and she persuaded her husband to join the expedition. The Argives were routed by the Thebans. In the flight, Amphiaraüs was approaching the river Ismenus, near Thebes, when the earth, riven by a thunderbolt, swallowed him up, with his chariot: cp. *fr.* 873. Sophocles wrote an Ἐριφύλη, and also a satyric Ἀμφιάρεως.
 
 ## 837
 **χρυσοδέτοις ἕρκεσι**, nets, or snares, of golden links; i.e., the toils of fate into which he was drawn through the necklace with which his wife was bribed. (Not, ‘the snare laid for *her* by the necklace’; she knew what was to come.) The epithet marks the figurative sense of ἕρκεσι (as a ship is λινόπτερον ὄχημα, Aesch. *P. V.* 468): cp. Soph. *Ai.* 60εἰς ἕρκη κακά (the net of doom). **γυναικῶν**, i.e. Ἐριφύλης, an allusive plur. (145 n.), perhaps suggested by Hom. *Od.* 15. 247(of Amphiaraüs), ἀλλ' ὄλετ' ἐ<*> Θήβῃσι γυναίων εἵνεκα δώρων. (This is better than to give γυναικῶν a general sense,— ‘such as women love.’) Cp. Plat. *Rep.* 590A ἡ Ἐριφύλη ἐπὶ τῇ τοῦ ἀνδρὸς ψυχῇ τὸν ὅρμον δεξαμένη. It was the ὅρμος which had been given to Harmonia by her husband Cadmus ( Paus. 9. 41. 2).
@@ -3323,7 +3323,7 @@ Some write **Φάμα**. Aeschines mentions Φήμης θεοῦ μεγίστη�
 **ἀχόρευτα**: cp. *O. C.* 1222 f. (death) ἀνυμέναιος | ἄλυρος ἄχορος: *Suppl.* 681 (war) ἄχορον ἀκίθαριν: *Eum.* 331ὕμνος (of the Furies)..ἀφόρμικτος: Eur. *Tro.* 121ἄτας..ἀχορεύτους: *I. T.* 146 ἀλύροις ἐλέγοις.—The **ὀνείδη** are the dishonours of the house,—not reproaches to the spirit of Agamemnon for inactivity; though it is implied, of course, that now more than ever his aid is needed.
 
 ## 1070
-**νοσεῖ** answers to οἰωνοὺς (˘ ¯ ¯) in 1058: it is certain, therefore, that a syllable has dropped out after it. **δή** (supplied by Triclinius) is at least tolerable, and is not precluded by ἤδη: cp. Eur. *Tro.* 233δοῦλαι γὰρ δὴ (‘*very* slaves’) | Δωρίδος ἐσμὲν χθονὸς ἤδη. So here δή will emphasise νοσεῖ. For other conjectures, see Appendix.
+**νοσεῖ** answers to οἰωνοὺς (⏑ – –) in 1058: it is certain, therefore, that a syllable has dropped out after it. **δή** (supplied by Triclinius) is at least tolerable, and is not precluded by ἤδη: cp. Eur. *Tro.* 233δοῦλαι γὰρ δὴ (‘*very* slaves’) | Δωρίδος ἐσμὲν χθονὸς ἤδη. So here δή will emphasise νοσεῖ. For other conjectures, see Appendix.
 
 ## 1071
 **τὰ δὲ πρὸς τέκνων**, acc.: lit., ‘as to the relations between their children.’
@@ -4188,7 +4188,7 @@ Electra hastens out of the house. She performs the part of an <*>ξάγγελο�
 **κοσμεῖ**. In *Il.* 23. 253 f. the golden urn containing the bones of Patroclus is ‘covered with a linen veil.’ In *Il.* 24. 796 the urn with Hector's ashes is ‘shrouded in soft purple robes.’ Leaf observes there: ‘In Etruscan graves very fine linen covers are found spread on the stools on which stand the urns containing the ashes.’ Some such ‘dressing’ is denoted by κοσμεῖ here; but wreaths of flowers may also be meant.
 
 ## 1404
-**αἰαῖ· ἰὼ στέγαι**. Dindorf (*Metra* p. 106) reads these words as a dochmiac (˘˘˘¯˘¯): Nauck and Wecklein take them as an iambic tripody (¯¯˘¯˘¯). The latter view seems correct. The hiatus after αἰαῖ is excused by the pause. Cp. *Ant.* 1276φεῦ φεῦ, ὦ πόνοι. *Ph.* 1106αἰαῖ αἰαῖ (=1086 ὤμοι μοί μοι).
+**αἰαῖ· ἰὼ στέγαι**. Dindorf (*Metra* p. 106) reads these words as a dochmiac (⏑⏑⏑–⏑–): Nauck and Wecklein take them as an iambic tripody (––⏑–⏑–). The latter view seems correct. The hiatus after αἰαῖ is excused by the pause. Cp. *Ant.* 1276φεῦ φεῦ, ὦ πόνοι. *Ph.* 1106αἰαῖ αἰαῖ (=1086 ὤμοι μοί μοι).
 
 ## 1407
 **ἀνήκουστα**, lit., ‘not to be heard’: then, ‘dreadful to hear’; cp. ἄρρητα. So Eur. *Hipp.* 362ἔκλυες, <*>, | ἀνήκουστα τᾶς | τυράννου πάθη μέλεα θρεομένας. Antiphon or. 1 § 22 δεήσεται ἀθέμιτα καὶ ἀτέλεστα καὶ ἀνήκουστα καὶ θεοις καὶ ὑμῖν.

@@ -12,6 +12,7 @@ from __future__ import annotations
 import collections
 import html
 import re
+import unicodedata
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -139,6 +140,33 @@ _WS = re.compile(r"\s+")
 _BR_SPACE = re.compile(r"<br>((?:<(?!/)[^>]*>)+)\s+")
 
 
+# Metrical schemes in the English text of the lexica, written with the signs of a typewriter:
+# "^—^^", "_ _ ^", "(scanned - ^)", "˘ ˘ ¯". They become the metrical signs, ⏑ for a short and –
+# for a long syllable. A run counts as a scheme when it holds a sign that is never anything else
+# (^ _ ˘ ¯ ⏑); a dash or hyphen alone stays what it is.
+_METRE = re.compile(r"(?<![\wͰ-Ͽἀ-῿̀-ͯ\-—])"
+                    r"((?:[\^_˘¯⏑—\-–×|\[\]] ?)*[\^_˘¯⏑](?: ?[\^_˘¯⏑—\-–×|\[\]])*)"
+                    r"(?![\wͰ-Ͽἀ-῿\-—])")
+_METRE_SIGNS = str.maketrans({"^": "⏑", "˘": "⏑", "_": "–", "¯": "–", "—": "–", "-": "–"})
+
+
+_LATIN_LENGTH = re.compile(r"(?<=[A-Za-z])?([aeiouyAEIOUY])([\^_])(?=[a-z])|(?<=[a-z])([aeiouy])([\^_])")
+
+
+def _latin_length(m: re.Match) -> str:
+    vowel, mark = (m.group(1), m.group(2)) if m.group(1) else (m.group(3), m.group(4))
+    return unicodedata.normalize("NFC", vowel + ("\u0306" if mark == "^" else "\u0304"))
+
+
+def _metre(html_text: str) -> str:
+    """The metrical schemes of an entry's HTML in metrical signs, and the length marks of Latin
+    words over their vowel ("balsa^mum" gives balsămum), outside the tags."""
+    def fix(text: str) -> str:
+        text = text.replace("Ae_r.", "Aër.")  # Hippocrates' De aëre, whose diaeresis the file writes so
+        return _METRE.sub(lambda m: m.group(1).translate(_METRE_SIGNS), _LATIN_LENGTH.sub(_latin_length, text))
+    return "".join(p if p.startswith("<") else fix(p) for p in re.split(r"(<[^>]+>)", html_text))
+
+
 def render_entry(el) -> str:
     """A Middle Liddell entry as HTML.
 
@@ -167,7 +195,7 @@ def render_entry(el) -> str:
         i = s.find("<p")
         head, rest = (s, "") if i < 0 else (s[:i], s[i:])
         s = f"<p class=\"head\">{head.strip()}</p>{rest}"
-    return s.strip()
+    return _metre(s).strip()
 
 
 # ---------------------------------------------------------------- LSJ: the forms section
@@ -933,7 +961,7 @@ def render_lsj_entry(el, decision: str | None = None) -> tuple[str, tuple[str, s
     s = (f'<p class="head">{s}</p>' if s else "") + _WS.sub(" ", "".join(rest))
     s = _BR_SPACE.sub(r"<br>\1", re.sub(r" ?<br> ?", "<br>", s))
     s = s.replace(" </p>", "</p>").replace("<p class=\"sense\"> ", "<p class=\"sense\">")
-    return s.strip(), repair
+    return _metre(s).strip(), repair
 
 
 def _split_key(key: str) -> tuple[str, int]:

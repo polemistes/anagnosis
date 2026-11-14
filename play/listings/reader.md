@@ -44,12 +44,12 @@ You are welcome to download the source files for the app and the texts and build
 
 This app has been created with the help of large language models.
 
-## Release notes, 0.7.0 (405; limit 500)
+## Release notes, 0.7.0 (465; limit 500)
 Version 0.7.0:
 
 Long dictionary entries are easier to read. The list of forms that opens an entry in Liddell-Scott-Jones is set out with one line for each tense or case, the tense and voice labels stand out in colour, and a long list is folded until you ask for it, so that the meanings come first.
 
-Marks of vowel length stand over the vowel, as in print (ᾰ, ῑ), in the dictionaries and the commentaries.
+Marks of vowel length stand over the vowel, as in print (ᾰ, ῑ), and metrical schemes are written with metrical signs (⏑ –), in the dictionaries and the commentaries.
 
 ## Release notes, 0.5.0 (488; limit 500)
 Version 0.5.0:
