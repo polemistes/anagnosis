@@ -241,12 +241,29 @@ def _brackets(text: str, depth: int = 0) -> int:
     return depth
 
 
-def _depth(frags: list[_Frag]) -> int:
-    """How many brackets stand open at the end of the fragments."""
-    depth = 0
-    for f in frags:
-        depth = _brackets(_plain(f.html), depth)
-    return depth
+def _matched(frags: list[_Frag]) -> list[str]:
+    """The text of each fragment (of a run of text as it stands, of a child without its tags),
+    with every bracket that has no partner blanked out.
+
+    The file has brackets that are never closed ("fut. ἀκούσομαι ( Act. ἀκούσω first in …"):
+    counted, such a bracket would hold everything after it for a parenthesis.
+    """
+    texts = [f.html if f.kind == "text" else _plain(f.html) for f in frags]
+    open_: list[tuple[int, int, str]] = []
+    paired = set()
+    for i, text in enumerate(texts):
+        for pos, ch in enumerate(text):
+            if ch in "([":
+                open_.append((i, pos, ch))
+            elif ch in ")]":
+                partner = "(" if ch == ")" else "["
+                for n in range(len(open_) - 1, -1, -1):
+                    if open_[n][2] == partner:
+                        paired.update((open_[n][:2], (i, pos)))
+                        del open_[n:]
+                        break
+    return ["".join(ch if ch not in "()[]" or (i, pos) in paired else " " for pos, ch in enumerate(text))
+            for i, text in enumerate(texts)]
 
 
 _GLOSS = re.compile(r"[A-Za-z][A-Za-z ,;:.'’()-]*")
@@ -307,16 +324,17 @@ class _Segment:
     tenses: int = 0                 # the tenses named before its first translation
 
 
-def _segments(frags: list[_Frag], depth: int) -> list[_Segment]:
-    """The section cut at its dashes, with what each stretch holds. `depth` brackets are open
-    before it; what stands in brackets (an etymology: "cf. Skt. nar-") is no translation."""
+def _segments(frags: list[_Frag], texts: list[str], depth: int) -> list[_Segment]:
+    """The section cut at its dashes, with what each stretch holds. `texts` are the fragments'
+    texts with their brackets matched and `depth` brackets are open before the section; what
+    stands in brackets (an etymology: "cf. Skt. nar-") is no translation."""
     segs = [_Segment((0, 0))]
     prev = None     # the fragment before, blanks aside
     for i, f in enumerate(frags):
         seg = segs[-1]
         before = depth
         if f.kind == "text":
-            for pos, ch in enumerate(f.html):
+            for pos, ch in enumerate(texts[i]):
                 if ch in "([":
                     depth += 1
                 elif ch in ")]":
@@ -329,7 +347,7 @@ def _segments(frags: list[_Frag], depth: int) -> list[_Segment]:
             if _blank(f):
                 continue
         else:
-            depth = _brackets(_plain(f.html), depth)
+            depth = _brackets(texts[i], depth)
             if seg.opens is None:
                 seg.opens = f.kind
             if f.kind == "tns" and seg.clause is None and seg.weak is None:
@@ -407,7 +425,7 @@ def _cut(frags: list[_Frag], at: tuple[int, int]) -> tuple[list[_Frag], list[_Fr
     return frags[:i] + [_Frag("text", text[:off])], [_Frag("text", text[off:])] + frags[i + 1:]
 
 
-def _meaning_start(frags: list[_Frag], depth: int = 0) -> tuple[list[_Frag], list[_Frag], str | None] | None:
+def _meaning_start(frags: list[_Frag], before: list[_Frag] = ()) -> tuple[list[_Frag], list[_Frag], str | None] | None:
     """Split a section where the meanings of the headword start: what comes before, the meaning,
     and a note when the split rests on a judgment. None when the section holds no meaning.
 
@@ -416,10 +434,13 @@ def _meaning_start(frags: list[_Frag], depth: int = 0) -> tuple[list[_Frag], lis
     reference ("= ἀρτύω"), from its dash on ("—lengthd. form of φύρω …"). A Greek phrase with its
     translation counts only where no tense is named: among the forms it glosses another word
     ("were replaced by forms of εἶμι ibo"). Before the first dash the meaning starts at the first
-    translation, with the short description that leads up to it.
+    translation, with the short description that leads up to it. `before` is what stands before
+    the section: a bracket opened there may close in it.
     """
     frags = _split_dashes(frags)
-    for n, seg in enumerate(_segments(frags, depth)):
+    texts = _matched(list(before) + frags)
+    depth = _brackets("".join(texts[:len(before)]))
+    for n, seg in enumerate(_segments(frags, texts[len(before):], depth)):
         if n == 0:
             first = min((t for t in (seg.strong, seg.weak) if t is not None), default=None)
             if first is None:
@@ -445,9 +466,7 @@ _FORM_LABEL = re.compile(r"(?:\b(?:sg|pl|nom|gen|dat|acc|voc|inf|part|subj|opt|i
 
 
 def _in_forms(head: list[_Frag]) -> bool:
-    """Whether the head breaks off inside the forms: in an open bracket, or after a grammatical label."""
-    if _depth(head) > 0:
-        return True
+    """Whether the head breaks off among the forms: after a grammatical label."""
     last = next((f for f in reversed(head) if not _blank(f)), None)
     if last is None:
         return False
@@ -475,11 +494,12 @@ def _repair_section_a(head: list[_Frag], senses: list, over: dict) -> str | None
         return None
     # the file's "A." opens at a quoted form only where it was placed by rule; and only among the
     # forms (after a label, inside a bracket) is it out of place
-    if first.kind not in ("greek", "xr") or not _in_forms(head):
+    open_ = _brackets("".join(_matched(head + body)[:len(head)]))     # brackets open where "A." stands
+    if first.kind not in ("greek", "xr") or not (open_ or _in_forms(head)):
         return None
-    if first.kind == "xr" and _depth(head) == 0:
+    if first.kind == "xr" and not open_:
         return None     # "= κάππαρις", "v. ῥήγνυμι": the entry is defined by the reference
-    found = _meaning_start(body, _depth(head))
+    found = _meaning_start(body, head)
     if found is not None:
         forms, meaning, note = found
         if not any(not _blank(f) for f in forms):
@@ -513,11 +533,12 @@ def _lines(frags: list[_Frag]) -> str:
     a line of its own, when there are other lines.
     """
     tokens: list[tuple[str, object]] = []
-    for f in frags:
+    for f, text in zip(frags, _matched(frags)):
         if f.kind == "text":
-            tokens.extend(("ch", c) for c in f.html)
+            # a bracket without a partner counts as none: blanked in `text`, kept in the output
+            tokens.extend(("ch", c) if c == m else ("lone", c) for c, m in zip(f.html, text))
         else:
-            tokens.append(("el", f))
+            tokens.append(("el", (f, text)))
 
     def following(k: int) -> int | None:
         while k < len(tokens):
@@ -529,7 +550,7 @@ def _lines(frags: list[_Frag]) -> str:
     def voice_at(k: int) -> bool:
         kind, value = tokens[k]
         if kind == "el":
-            return value.kind == "voice"
+            return value[0].kind == "voice"
         word = "".join(v for t, v in tokens[k:k + 5] if t == "ch")
         return word.startswith(("Med.", "Pass.", "Act."))
 
@@ -546,8 +567,11 @@ def _lines(frags: list[_Frag]) -> str:
         kind, value = tokens[k]
         k += 1
         if kind == "el":
-            out.append(value.html)
-            depth = _brackets(_plain(value.html), depth)
+            out.append(value[0].html)
+            depth = _brackets(value[1], depth)
+            continue
+        if kind == "lone":
+            out.append(value)
             continue
         if value in "([":
             depth += 1
