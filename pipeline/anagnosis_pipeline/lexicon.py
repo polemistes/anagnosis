@@ -539,7 +539,9 @@ _CARRIES_ON = {"etc", "cf", "codd", "cod", "al", "ib", "ibid", "v", "vv", "sq", 
                "also", "or", "in", "ap", "acc", "nom", "gen", "dat", "voc", "sg", "pl", "dual", "id", "fut", "aor", "pf", "impf",
                "later", "hence", "so", "the", "of", "these", "this", "written", "found", "freq", "rarely", "rare", "more", "not",
                "never", "always", "only", "for", "from", "poet", "fem", "masc", "neut", "adj", "adv", "comp", "sup", "dim",
-               "patron", "med", "pass", "act", "ep", "ion", "dor", "att", "aeol", "it", "there", "on", "with", "as"}
+               "patron", "med", "pass", "act", "ep", "ion", "dor", "att", "aeol", "it", "there", "on", "with", "as",
+               # remarks that say there is no meaning to give, or where the word comes from
+               "sine", "sens", "cj", "coined", "corrupt", "formed", "composed", "mostly", "opp", "expl"}
 
 
 def _reads_as_meaning(frags: list[_Frag], at: tuple[int, int]) -> bool:

@@ -34,7 +34,7 @@ const val FORMS_SHOWN_LINES = 10
 
 /**
  * A head paragraph is folded only if folding hides at least this many lines: a fold that puts away
- * a line or two saves nothing and costs a tap. On a phone some 370 of LSJ's forms sections fold.
+ * a line or two saves nothing and costs a tap. On a phone some 400 of LSJ's forms sections fold.
  */
 const val FORMS_MIN_HIDDEN_LINES = 5
 
