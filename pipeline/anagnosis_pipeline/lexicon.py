@@ -176,7 +176,8 @@ def render_entry(el) -> str:
 # Where a quoted form comes first, "A." lands inside the forms ("impf. | A. ἠρχόμην"); where a
 # derived word is marked as a headword, it lands after that word, past the entry's own meaning
 # ("Κελτοί, οἱ, Celts … hence Κελτικός, | A. Celtic"). The repair below takes the forms back into
-# the head paragraph and puts "A." where the meanings start.
+# the head paragraph and puts "A." where the meanings start. The letter itself is shown only in
+# the entries that go on to a "B.": elsewhere it is the file's addition, and print has none.
 
 
 @dataclass
@@ -906,11 +907,23 @@ def render_lsj_entry(el, decision: str | None = None) -> tuple[str, tuple[str, s
         repair = _repair_section_a(head, senses, over, decision)
     elif decision:
         raise ValueError("lsj-forms.tsv: the entry has no section A to decide on")
+    # "A." is the file's own addition where the lexicon has no "B.": print has no letter there
+    lettered = any(k.get("level") == "1" and (k.get("n") or "0")[0] not in "A0" for k in senses)
+
+    def labels_of(k, labels: list[str] | None) -> list[str] | None:
+        if lettered:
+            return labels
+        if labels is None:
+            return [] if k.get("level") == "1" and k.get("n") == "A" else None
+        return [label for label in labels if label != "A"]
+
     rest: list[str] = []
     for k in kids[first:]:
         if k in over:
             if over[k] is not None:
-                _sense(k, False, rest, labels=over[k][0], content=over[k][1])
+                _sense(k, False, rest, labels=labels_of(k, over[k][0]), content=over[k][1])
+        elif isinstance(k.tag, str) and k.tag == "sense":
+            _sense(k, False, rest, labels=labels_of(k, None))
         elif isinstance(k.tag, str):
             _render(k, False, rest)
         rest.append(_text(k.tail, False))
