@@ -22,6 +22,8 @@ enum class LineNumberMode(val label: String) { ALL("All"), FIFTH("Every 5th"), N
 data class ReaderSettings(
     val font: FontChoice = FontChoice.SYSTEM,
     val fontSize: Int = 17,
+    /** The text size in the sheets: dictionary entries, commentary, apparatus, documents, the reader's notes. */
+    val sheetFontSize: Int = DEFAULT_SHEET_SIZE,
     /** The widest a column of text is set, in characters of Greek at the chosen size (so it grows with the text). */
     val lineLength: Int = 65,
     val theme: ColorTheme = ColorTheme.SYSTEM,
@@ -64,6 +66,10 @@ data class ReaderSettings(
     companion object {
         const val MIN_SIZE = 13
         const val MAX_SIZE = 26
+        /** The sheets' text size before it could be set: Material's body text. */
+        const val DEFAULT_SHEET_SIZE = 14
+        const val MIN_SHEET_SIZE = 12
+        const val MAX_SHEET_SIZE = 26
         const val MIN_LINE_LENGTH = 40
         const val MAX_LINE_LENGTH = 100
         /** The slider moves the line length in steps of this many characters. */

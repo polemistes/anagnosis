@@ -27,6 +27,7 @@ import androidx.compose.ui.text.style.TextIndent
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.Constraints
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.em
 import androidx.compose.ui.unit.sp
 
 /** The visual lines of a long head paragraph that stay visible while it is folded. */
@@ -38,8 +39,8 @@ const val FORMS_SHOWN_LINES = 10
  */
 const val FORMS_MIN_HIDDEN_LINES = 5
 
-/** How far the lines of a forms section are indented after their first line. */
-private val FORMS_INDENT = 14.sp
+/** How far the lines of a forms section are indented after their first line: one em, so it grows with the text. */
+private val FORMS_INDENT = 1.em
 
 /**
  * An entry cut into its head paragraph and the paragraphs after it. [hasLineBreaks] tells that the

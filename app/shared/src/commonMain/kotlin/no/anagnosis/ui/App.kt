@@ -16,6 +16,7 @@ import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.DisposableEffect
+import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.rememberCoroutineScope
 import no.anagnosis.speech.ReadAloud
 import no.anagnosis.speech.rememberPcmPlayer
@@ -136,77 +137,79 @@ fun App(
     }
 
     MaterialTheme(colorScheme = colors) {
-        Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
-            val list = catalog
-            when (val s = screen) {
-                is Screen.Search -> {
-                    SearchScreen(
-                        repository, search, settings,
-                        onSettingsChange = { settings = it; settingsStore.save(it) },
-                        textSlug = (s.from as? Screen.Reader)?.slug,
-                        installed = list.orEmpty().filter { it.installed },
-                        onOpen = { openHit(it, s) },
-                        onBack = { screen = s.from },
-                    )
-                    PlatformBackHandler { screen = s.from }
-                }
-                Screen.Home -> if (list == null) Loading() else HomeScreen(
-                    catalog = list,
-                    appVersion = appVersion,
-                    repository = repository,
-                    settings = settings,
-                    onSettingsChange = { settings = it; settingsStore.save(it) },
-                    expanded = expanded,
-                    onExpand = { expanded = it },
-                    onRead = { screen = Screen.Reader(it) },
-                    onAvailable = { screen = Screen.Available },
-                    search = search,
-                    onOpenHit = { openHit(it, Screen.Home) },
-                    listState = homeList,
-                    descriptionDismissed = descriptionDismissed,
-                    onDismissDescription = { forGood ->
-                        descriptionDismissed = true
-                        if (forGood) settings.copy(showDescription = false).also { settings = it; settingsStore.save(it) }
-                    },
-                )
-                Screen.Available -> {
-                    if (list == null) Loading() else AvailableTextsScreen(
-                        catalog = list,
-                        shop = shopState,
-                        onBuy = { shop.buy(it) },
-                        onDownload = { shop.download(it) },
-                        onOpen = { expanded = it; screen = Screen.Reader(it) },
-                        onBack = { screen = Screen.Home },
-                    )
-                    PlatformBackHandler { screen = Screen.Home }
-                }
-                is Screen.Reader -> {
-                    val data = current
-                    if (data == null || data.slug != s.slug) Loading("Opening ${list?.firstOrNull { it.slug == s.slug }?.let { e -> e.titleEn.ifEmpty { e.title } } ?: "the text"} …") else {
-                        ReaderScreen(
-                            repository = repository,
-                            data = data,
-                            settings = settings,
+        CompositionLocalProvider(LocalSheetTextSize provides settings.sheetFontSize) {
+            Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
+                val list = catalog
+                when (val s = screen) {
+                    is Screen.Search -> {
+                        SearchScreen(
+                            repository, search, settings,
                             onSettingsChange = { settings = it; settingsStore.save(it) },
-                            onHelp = { showIntro = true },
-                            onBack = { screen = s.backTo },
-                            onSearch = { screen = Screen.Search(stripBack(s)) },
-                            startLine = target?.takeIf { it.slug == s.slug }?.nInt ?: settingsStore.lastLine(s.slug) ?: 1L,
-                            target = target?.takeIf { it.slug == s.slug },
-                            onTargetShown = { target = null },
-                            onSearchLemma = { key, lemma ->
-                                search.openLemma(key, lemma)
-                                search.thisText = true
-                                screen = Screen.Search(stripBack(s))
-                            },
-                            onPositionChange = { settingsStore.saveLastText(s.slug); settingsStore.saveLastLine(s.slug, it) },
-                            readAloud = readAloud,
-                            entry = list?.firstOrNull { it.slug == s.slug } ?: CatalogEntry(s.slug, data.work.title, data.work.author ?: "", "", "", "", "", true),
+                            textSlug = (s.from as? Screen.Reader)?.slug,
+                            installed = list.orEmpty().filter { it.installed },
+                            onOpen = { openHit(it, s) },
+                            onBack = { screen = s.from },
                         )
-                        if (showIntro) {
-                            IntroDialog(onDismiss = { showIntro = false; settingsStore.markIntroSeen() })
+                        PlatformBackHandler { screen = s.from }
+                    }
+                    Screen.Home -> if (list == null) Loading() else HomeScreen(
+                        catalog = list,
+                        appVersion = appVersion,
+                        repository = repository,
+                        settings = settings,
+                        onSettingsChange = { settings = it; settingsStore.save(it) },
+                        expanded = expanded,
+                        onExpand = { expanded = it },
+                        onRead = { screen = Screen.Reader(it) },
+                        onAvailable = { screen = Screen.Available },
+                        search = search,
+                        onOpenHit = { openHit(it, Screen.Home) },
+                        listState = homeList,
+                        descriptionDismissed = descriptionDismissed,
+                        onDismissDescription = { forGood ->
+                            descriptionDismissed = true
+                            if (forGood) settings.copy(showDescription = false).also { settings = it; settingsStore.save(it) }
+                        },
+                    )
+                    Screen.Available -> {
+                        if (list == null) Loading() else AvailableTextsScreen(
+                            catalog = list,
+                            shop = shopState,
+                            onBuy = { shop.buy(it) },
+                            onDownload = { shop.download(it) },
+                            onOpen = { expanded = it; screen = Screen.Reader(it) },
+                            onBack = { screen = Screen.Home },
+                        )
+                        PlatformBackHandler { screen = Screen.Home }
+                    }
+                    is Screen.Reader -> {
+                        val data = current
+                        if (data == null || data.slug != s.slug) Loading("Opening ${list?.firstOrNull { it.slug == s.slug }?.let { e -> e.titleEn.ifEmpty { e.title } } ?: "the text"} …") else {
+                            ReaderScreen(
+                                repository = repository,
+                                data = data,
+                                settings = settings,
+                                onSettingsChange = { settings = it; settingsStore.save(it) },
+                                onHelp = { showIntro = true },
+                                onBack = { screen = s.backTo },
+                                onSearch = { screen = Screen.Search(stripBack(s)) },
+                                startLine = target?.takeIf { it.slug == s.slug }?.nInt ?: settingsStore.lastLine(s.slug) ?: 1L,
+                                target = target?.takeIf { it.slug == s.slug },
+                                onTargetShown = { target = null },
+                                onSearchLemma = { key, lemma ->
+                                    search.openLemma(key, lemma)
+                                    search.thisText = true
+                                    screen = Screen.Search(stripBack(s))
+                                },
+                                onPositionChange = { settingsStore.saveLastText(s.slug); settingsStore.saveLastLine(s.slug, it) },
+                                readAloud = readAloud,
+                                entry = list?.firstOrNull { it.slug == s.slug } ?: CatalogEntry(s.slug, data.work.title, data.work.author ?: "", "", "", "", "", true),
+                            )
+                            if (showIntro) {
+                                IntroDialog(onDismiss = { showIntro = false; settingsStore.markIntroSeen() })
+                            }
+                            PlatformBackHandler { screen = s.backTo }
                         }
-                        PlatformBackHandler { screen = s.backTo }
                     }
                 }
             }

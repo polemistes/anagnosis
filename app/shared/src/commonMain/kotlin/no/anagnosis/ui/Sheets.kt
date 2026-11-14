@@ -99,68 +99,70 @@ fun WordSheet(
     // a word looked up from the sheet takes its place: its dictionary opens anew
     var open by remember(info) { mutableStateOf(initial) }
     ModalBottomSheet(onDismissRequest = onDismiss, sheetState = state, modifier = sheetModifier()) {
-        Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 20.dp, vertical = 8.dp)) {
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                Text(greekText(info.form), style = MaterialTheme.typography.headlineSmall)
-                if (onSpeak != null) {
-                    IconButton(onClick = onSpeak, modifier = Modifier.semantics { contentDescription = "Say the word" }) {
-                        SpeakerIcon(MaterialTheme.colorScheme.primary)
-                    }
-                }
-            }
-            val subtitle = buildString {
-                if (info.lemma != info.form) append(info.lemma)
-                if (info.morphology.isNotEmpty()) { if (isNotEmpty()) append("  ·  "); append(info.morphology) }
-            }
-            if (subtitle.isNotEmpty()) {
-                Text(subtitle, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
-            }
-            info.syntax?.takeIf { showFunction }?.let {
-                Text(it.replaceFirstChar { c -> c.uppercase() }, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
-            }
-            pronunciation?.let { p ->
-                val ipa = remember(info, p) { Phonology.ipa(info.form, info.marked, p) }
-                if (ipa.isNotEmpty()) {
-                    Text("/$ipa/  ·  ${p.label}", style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
-                }
-            }
-            Spacer(Modifier.height(12.dp))
-            when {
-                info.shortDefinition != null -> ShortDefinition(info.shortDefinition, info.homograph)
-                glossary.isNotEmpty() -> glossary.forEach { HtmlText(it.html, onGreekWord = onGreekWord) }
-                info.entries.isEmpty() -> Text("No dictionary entry found.", style = MaterialTheme.typography.bodyMedium)
-            }
-            if (buttons.isNotEmpty() || onSyntax != null || notes.isNotEmpty() || onOccurrences != null) {
-                Spacer(Modifier.height(16.dp))
-                FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                    for ((slug, label) in buttons) {
-                        val toggle = { open = if (open == slug) null else slug }
-                        if (open == slug) {
-                            FilledTonalButton(onClick = toggle) { Text(label) }
-                        } else {
-                            OutlinedButton(onClick = toggle) { Text(label) }
+        SheetText {
+            Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 20.dp, vertical = 8.dp)) {
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Text(greekText(info.form), style = MaterialTheme.typography.headlineSmall)
+                    if (onSpeak != null) {
+                        IconButton(onClick = onSpeak, modifier = Modifier.semantics { contentDescription = "Say the word" }) {
+                            SpeakerIcon(MaterialTheme.colorScheme.primary)
                         }
                     }
-                    if (onSyntax != null) {
-                        OutlinedButton(onClick = onSyntax) { Text("Syntax") }
-                    }
-                    if (onOccurrences != null) {
-                        OutlinedButton(onClick = onOccurrences) { Text("Occurrences") }
-                    }
-                    for ((label, open) in notes) {
-                        OutlinedButton(onClick = open) { Text(label) }
+                }
+                val subtitle = buildString {
+                    if (info.lemma != info.form) append(info.lemma)
+                    if (info.morphology.isNotEmpty()) { if (isNotEmpty()) append("  ·  "); append(info.morphology) }
+                }
+                if (subtitle.isNotEmpty()) {
+                    Text(subtitle, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                }
+                info.syntax?.takeIf { showFunction }?.let {
+                    Text(it.replaceFirstChar { c -> c.uppercase() }, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                }
+                pronunciation?.let { p ->
+                    val ipa = remember(info, p) { Phonology.ipa(info.form, info.marked, p) }
+                    if (ipa.isNotEmpty()) {
+                        Text("/$ipa/  ·  ${p.label}", style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
                     }
                 }
-            }
-            val shown = open
-            if (shown != null) {
-                Spacer(Modifier.height(8.dp))
-                info.entries.filter { it.lexiconSlug == shown }.forEachIndexed { i, e ->
-                    if (i > 0) HorizontalDivider(Modifier.padding(vertical = 10.dp))
-                    DictionaryEntry(e.html, onGreekWord = onGreekWord)
+                Spacer(Modifier.height(12.dp))
+                when {
+                    info.shortDefinition != null -> ShortDefinition(info.shortDefinition, info.homograph)
+                    glossary.isNotEmpty() -> glossary.forEach { HtmlText(it.html, onGreekWord = onGreekWord) }
+                    info.entries.isEmpty() -> Text("No dictionary entry found.", style = MaterialTheme.typography.bodyMedium)
                 }
+                if (buttons.isNotEmpty() || onSyntax != null || notes.isNotEmpty() || onOccurrences != null) {
+                    Spacer(Modifier.height(16.dp))
+                    FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                        for ((slug, label) in buttons) {
+                            val toggle = { open = if (open == slug) null else slug }
+                            if (open == slug) {
+                                FilledTonalButton(onClick = toggle) { Text(label) }
+                            } else {
+                                OutlinedButton(onClick = toggle) { Text(label) }
+                            }
+                        }
+                        if (onSyntax != null) {
+                            OutlinedButton(onClick = onSyntax) { Text("Syntax") }
+                        }
+                        if (onOccurrences != null) {
+                            OutlinedButton(onClick = onOccurrences) { Text("Occurrences") }
+                        }
+                        for ((label, open) in notes) {
+                            OutlinedButton(onClick = open) { Text(label) }
+                        }
+                    }
+                }
+                val shown = open
+                if (shown != null) {
+                    Spacer(Modifier.height(8.dp))
+                    info.entries.filter { it.lexiconSlug == shown }.forEachIndexed { i, e ->
+                        if (i > 0) HorizontalDivider(Modifier.padding(vertical = 10.dp))
+                        DictionaryEntry(e.html, onGreekWord = onGreekWord)
+                    }
+                }
+                Spacer(Modifier.height(32.dp))
             }
-            Spacer(Modifier.height(32.dp))
         }
     }
 }
@@ -182,31 +184,33 @@ fun PageNotesSheet(
     var focusY by remember { mutableStateOf<Int?>(null) }
     LaunchedEffect(focusY) { focusY?.let { scroll.animateScrollTo(it) } }
     ModalBottomSheet(onDismissRequest = onDismiss, sheetState = state, modifier = sheetModifier()) {
-        Column(Modifier.fillMaxWidth().verticalScroll(scroll).padding(horizontal = 20.dp, vertical = 8.dp)) {
-            Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
-                Text(kind.label, style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary, modifier = Modifier.weight(1f))
-                if (sigla != null) {
-                    // named by its document: "Manuscripts and sigla" gives Manuscripts, "Editions cited ..." Editions
-                    TextButton(onClick = { showSigla = true }) { Text(sigla.title.substringBefore(' ')) }
-                }
-            }
-            if (entries.isEmpty()) {
-                Spacer(Modifier.height(12.dp))
-                Text("Nothing on this page.", style = MaterialTheme.typography.bodyMedium)
-            }
-            entries.forEachIndexed { i, entry ->
-                if (i > 0) HorizontalDivider(Modifier.padding(vertical = 14.dp)) else Spacer(Modifier.height(12.dp))
-                val focused = focusN != null && entry.notes.any { it.from_n_int == focusN }
-                Column(if (focused) Modifier.onGloballyPositioned { focusY = it.positionInParent().y.toInt() } else Modifier) {
-                    Text(entry.heading, style = MaterialTheme.typography.titleMedium)
-                    entry.lineText?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant) }
-                    for (note in entry.notes) {
-                        Spacer(Modifier.height(6.dp))
-                        HtmlText(note.html)
+        SheetText {
+            Column(Modifier.fillMaxWidth().verticalScroll(scroll).padding(horizontal = 20.dp, vertical = 8.dp)) {
+                Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+                    Text(kind.label, style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary, modifier = Modifier.weight(1f))
+                    if (sigla != null) {
+                        // named by its document: "Manuscripts and sigla" gives Manuscripts, "Editions cited ..." Editions
+                        TextButton(onClick = { showSigla = true }) { Text(sigla.title.substringBefore(' ')) }
                     }
                 }
+                if (entries.isEmpty()) {
+                    Spacer(Modifier.height(12.dp))
+                    Text("Nothing on this page.", style = MaterialTheme.typography.bodyMedium)
+                }
+                entries.forEachIndexed { i, entry ->
+                    if (i > 0) HorizontalDivider(Modifier.padding(vertical = 14.dp)) else Spacer(Modifier.height(12.dp))
+                    val focused = focusN != null && entry.notes.any { it.from_n_int == focusN }
+                    Column(if (focused) Modifier.onGloballyPositioned { focusY = it.positionInParent().y.toInt() } else Modifier) {
+                        Text(entry.heading, style = MaterialTheme.typography.titleMedium)
+                        entry.lineText?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant) }
+                        for (note in entry.notes) {
+                            Spacer(Modifier.height(6.dp))
+                            HtmlText(note.html)
+                        }
+                    }
+                }
+                Spacer(Modifier.height(32.dp))
             }
-            Spacer(Modifier.height(32.dp))
         }
     }
     if (showSigla && sigla != null) {
@@ -280,39 +284,41 @@ fun DocumentSheet(document: Documents, onDismiss: () -> Unit) {
     val listState = rememberLazyListState()
     val scope = rememberCoroutineScope()
     ModalBottomSheet(onDismissRequest = onDismiss, sheetState = state, modifier = sheetModifier()) {
-        LazyColumn(state = listState, modifier = Modifier.fillMaxWidth(), contentPadding = PaddingValues(horizontal = 20.dp, vertical = 8.dp)) {
-            item { Text(document.title, style = MaterialTheme.typography.titleLarge, modifier = Modifier.padding(bottom = 8.dp)) }
-            if (sections.count { it.title != null } > 3) {
-                item {
-                    Column(Modifier.padding(bottom = 12.dp)) {
-                        sections.forEachIndexed { i, sec ->
-                            if (sec.title != null) {
-                                Text(
-                                    sec.title,
-                                    style = if (sec.level == 1) MaterialTheme.typography.labelLarge else MaterialTheme.typography.bodySmall,
-                                    color = MaterialTheme.colorScheme.primary,
-                                    modifier = Modifier
-                                        .fillMaxWidth()
-                                        .clickable { scope.launch { listState.animateScrollToItem(i + 2) } }
-                                        .padding(start = if (sec.level == 1) 0.dp else 12.dp, top = if (sec.level == 1) 8.dp else 2.dp),
-                                )
+        SheetText {
+            LazyColumn(state = listState, modifier = Modifier.fillMaxWidth(), contentPadding = PaddingValues(horizontal = 20.dp, vertical = 8.dp)) {
+                item { Text(document.title, style = MaterialTheme.typography.titleLarge, modifier = Modifier.padding(bottom = 8.dp)) }
+                if (sections.count { it.title != null } > 3) {
+                    item {
+                        Column(Modifier.padding(bottom = 12.dp)) {
+                            sections.forEachIndexed { i, sec ->
+                                if (sec.title != null) {
+                                    Text(
+                                        sec.title,
+                                        style = if (sec.level == 1) MaterialTheme.typography.labelLarge else MaterialTheme.typography.bodySmall,
+                                        color = MaterialTheme.colorScheme.primary,
+                                        modifier = Modifier
+                                            .fillMaxWidth()
+                                            .clickable { scope.launch { listState.animateScrollToItem(i + 2) } }
+                                            .padding(start = if (sec.level == 1) 0.dp else 12.dp, top = if (sec.level == 1) 8.dp else 2.dp),
+                                    )
+                                }
                             }
                         }
+                        HorizontalDivider()
                     }
-                    HorizontalDivider()
                 }
-            }
-            itemsIndexed(sections) { _, sec ->
-                if (sec.title != null) {
-                    Text(
-                        sec.title,
-                        style = if (sec.level == 1) MaterialTheme.typography.titleLarge else MaterialTheme.typography.titleMedium,
-                        modifier = Modifier.padding(top = if (sec.level == 1) 24.dp else 16.dp, bottom = 6.dp),
-                    )
+                itemsIndexed(sections) { _, sec ->
+                    if (sec.title != null) {
+                        Text(
+                            sec.title,
+                            style = if (sec.level == 1) MaterialTheme.typography.titleLarge else MaterialTheme.typography.titleMedium,
+                            modifier = Modifier.padding(top = if (sec.level == 1) 24.dp else 16.dp, bottom = 6.dp),
+                        )
+                    }
+                    if (sec.html.isNotBlank()) HtmlText(sec.html)
                 }
-                if (sec.html.isNotBlank()) HtmlText(sec.html)
+                item { Spacer(Modifier.height(32.dp)) }
             }
-            item { Spacer(Modifier.height(32.dp)) }
         }
     }
 }

@@ -23,7 +23,6 @@ import androidx.compose.ui.text.withAnnotation
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.em
-import androidx.compose.ui.unit.sp
 
 /**
  * Renders the small HTML subset produced by the pipeline: p, br, b, i, span, a.
@@ -148,7 +147,7 @@ fun htmlToAnnotated(
                 "b" -> { pushStyle(SpanStyle(fontWeight = FontWeight.Bold)); pushed++ }
                 "h1", "h2", "h3" -> {
                     if (length > 0) append("\n\n")
-                    pushStyle(SpanStyle(fontWeight = FontWeight.Bold, fontSize = if (tag == "h1") 20.sp else 17.sp)); pushed++
+                    pushStyle(SpanStyle(fontWeight = FontWeight.Bold, fontSize = if (tag == "h1") (20f / 14f).em else (17f / 14f).em)); pushed++
                     pendingParagraphBreak = false
                 }
                 "i" -> {

@@ -9,6 +9,7 @@ actual class SettingsStore(context: Context) {
     actual fun load(): ReaderSettings = ReaderSettings(
         font = prefs.getString("font", null)?.let { name -> FontChoice.entries.firstOrNull { it.name == name } } ?: FontChoice.SYSTEM,
         fontSize = prefs.getInt("font_size", 17).coerceIn(ReaderSettings.MIN_SIZE, ReaderSettings.MAX_SIZE),
+        sheetFontSize = prefs.getInt("sheet_font_size", ReaderSettings.DEFAULT_SHEET_SIZE).coerceIn(ReaderSettings.MIN_SHEET_SIZE, ReaderSettings.MAX_SHEET_SIZE),
         lineLength = prefs.getInt("line_length", 65).coerceIn(ReaderSettings.MIN_LINE_LENGTH, ReaderSettings.MAX_LINE_LENGTH),
         theme = prefs.getString("theme", null)?.let { name -> ColorTheme.entries.firstOrNull { it.name == name } } ?: ColorTheme.SYSTEM,
         lineNumbers = prefs.getString("line_numbers", null)?.let { name -> LineNumberMode.entries.firstOrNull { it.name == name } } ?: LineNumberMode.FIFTH,
@@ -53,6 +54,7 @@ actual class SettingsStore(context: Context) {
         prefs.edit()
             .putString("font", settings.font.name)
             .putInt("font_size", settings.fontSize)
+            .putInt("sheet_font_size", settings.sheetFontSize)
             .putInt("line_length", settings.lineLength)
             .putString("theme", settings.theme.name)
             .putString("line_numbers", settings.lineNumbers.name)

@@ -30,7 +30,10 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import no.anagnosis.data.Credit
@@ -85,6 +88,30 @@ fun OptionsDialog(
                     onValueChange = { onChange(settings.copy(fontSize = it.toInt())) },
                     valueRange = ReaderSettings.MIN_SIZE.toFloat()..ReaderSettings.MAX_SIZE.toFloat(),
                     steps = ReaderSettings.MAX_SIZE - ReaderSettings.MIN_SIZE - 1,
+                )
+                Spacer(Modifier.height(8.dp))
+                Text("Text size in dictionaries and notes  ·  ${settings.sheetFontSize}", style = MaterialTheme.typography.labelLarge)
+                Text(
+                    "Dictionary entries, commentary, critical apparatus, introductions and your own notes.",
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+                Slider(
+                    value = settings.sheetFontSize.toFloat(),
+                    onValueChange = { onChange(settings.copy(sheetFontSize = it.roundToInt())) },
+                    valueRange = ReaderSettings.MIN_SHEET_SIZE.toFloat()..ReaderSettings.MAX_SHEET_SIZE.toFloat(),
+                    steps = ReaderSettings.MAX_SHEET_SIZE - ReaderSettings.MIN_SHEET_SIZE - 1,
+                )
+                // a sample at the chosen size: the sheets are not in sight behind the dialog
+                Text(
+                    buildAnnotatedString {
+                        withStyle(SpanStyle(fontWeight = FontWeight.Bold)) { append("λόγος") }
+                        append(", ὁ, ")
+                        withStyle(SpanStyle(fontWeight = FontWeight.SemiBold, color = MaterialTheme.colorScheme.primary)) { append("computation, reckoning") }
+                    },
+                    fontSize = settings.sheetFontSize.sp,
+                    lineHeight = (settings.sheetFontSize * 20f / 14f).sp,
+                    modifier = Modifier.padding(bottom = 4.dp),
                 )
                 Spacer(Modifier.height(8.dp))
                 Text("Line length  ·  ${settings.lineLength} characters", style = MaterialTheme.typography.labelLarge)

@@ -129,19 +129,21 @@ fun PageNotesListSheet(
 ) {
     val state = rememberModalBottomSheetState(skipPartiallyExpanded = true)
     ModalBottomSheet(onDismissRequest = onDismiss, sheetState = state, modifier = sheetModifier()) {
-        Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 20.dp, vertical = 8.dp)) {
-            Text("Notes", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
-            if (notes.isEmpty()) {
-                Spacer(Modifier.height(12.dp))
-                Text("No notes on this page.", style = MaterialTheme.typography.bodyMedium)
+        SheetText {
+            Column(Modifier.fillMaxWidth().verticalScroll(rememberScrollState()).padding(horizontal = 20.dp, vertical = 8.dp)) {
+                Text("Notes", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
+                if (notes.isEmpty()) {
+                    Spacer(Modifier.height(12.dp))
+                    Text("No notes on this page.", style = MaterialTheme.typography.bodyMedium)
+                }
+                notes.forEachIndexed { i, pn ->
+                    if (i > 0) HorizontalDivider(Modifier.padding(vertical = 10.dp)) else Spacer(Modifier.height(12.dp))
+                    NoteEntry(label(pn.note), pn.note, short = false) { onOpen(pn) }
+                }
+                Spacer(Modifier.height(16.dp))
+                TextButton(onClick = onAll, modifier = Modifier.align(Alignment.CenterHorizontally)) { Text("All notes in this text") }
+                Spacer(Modifier.height(16.dp))
             }
-            notes.forEachIndexed { i, pn ->
-                if (i > 0) HorizontalDivider(Modifier.padding(vertical = 10.dp)) else Spacer(Modifier.height(12.dp))
-                NoteEntry(label(pn.note), pn.note, short = false) { onOpen(pn) }
-            }
-            Spacer(Modifier.height(16.dp))
-            TextButton(onClick = onAll, modifier = Modifier.align(Alignment.CenterHorizontally)) { Text("All notes in this text") }
-            Spacer(Modifier.height(16.dp))
         }
     }
 }
@@ -165,40 +167,42 @@ fun AllNotesSheet(
     val placed = notes.filter { it.placement != null }
     val lost = notes.filter { it.placement == null }
     ModalBottomSheet(onDismissRequest = onDismiss, sheetState = state, modifier = sheetModifier()) {
-        LazyColumn(Modifier.fillMaxWidth().heightIn(min = 120.dp), contentPadding = PaddingValues(horizontal = 20.dp, vertical = 8.dp)) {
-            item {
-                Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
-                    Text("Notes on $title", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary, modifier = Modifier.weight(1f))
-                    if (onExport != null && notes.isNotEmpty()) TextButton(onClick = onExport) { Text("Export") }
-                }
-                if (notes.isEmpty()) {
-                    Spacer(Modifier.height(12.dp))
-                    Text("No notes yet.", style = MaterialTheme.typography.bodyMedium)
-                }
-            }
-            items(placed, key = { it.note.id }) { pn ->
-                Column {
-                    if (pn !== placed.first()) HorizontalDivider(Modifier.padding(vertical = 10.dp)) else Spacer(Modifier.height(8.dp))
-                    NoteEntry(label(pn.note), pn.note, short = true) { onGo(pn) }
-                }
-            }
-            if (lost.isNotEmpty()) {
+        SheetText {
+            LazyColumn(Modifier.fillMaxWidth().heightIn(min = 120.dp), contentPadding = PaddingValues(horizontal = 20.dp, vertical = 8.dp)) {
                 item {
-                    Text(
-                        "Passages not found in the current text",
-                        style = MaterialTheme.typography.labelLarge,
-                        color = MaterialTheme.colorScheme.primary,
-                        modifier = Modifier.padding(top = 24.dp, bottom = 4.dp),
-                    )
-                }
-                items(lost, key = { it.note.id }) { pn ->
-                    Column(verticalArrangement = Arrangement.spacedBy(0.dp)) {
-                        if (pn !== lost.first()) HorizontalDivider(Modifier.padding(vertical = 10.dp)) else Spacer(Modifier.height(8.dp))
-                        NoteEntry(label(pn.note), pn.note, short = true) { onOpen(pn) }
+                    Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
+                        Text("Notes on $title", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary, modifier = Modifier.weight(1f))
+                        if (onExport != null && notes.isNotEmpty()) TextButton(onClick = onExport) { Text("Export") }
+                    }
+                    if (notes.isEmpty()) {
+                        Spacer(Modifier.height(12.dp))
+                        Text("No notes yet.", style = MaterialTheme.typography.bodyMedium)
                     }
                 }
+                items(placed, key = { it.note.id }) { pn ->
+                    Column {
+                        if (pn !== placed.first()) HorizontalDivider(Modifier.padding(vertical = 10.dp)) else Spacer(Modifier.height(8.dp))
+                        NoteEntry(label(pn.note), pn.note, short = true) { onGo(pn) }
+                    }
+                }
+                if (lost.isNotEmpty()) {
+                    item {
+                        Text(
+                            "Passages not found in the current text",
+                            style = MaterialTheme.typography.labelLarge,
+                            color = MaterialTheme.colorScheme.primary,
+                            modifier = Modifier.padding(top = 24.dp, bottom = 4.dp),
+                        )
+                    }
+                    items(lost, key = { it.note.id }) { pn ->
+                        Column(verticalArrangement = Arrangement.spacedBy(0.dp)) {
+                            if (pn !== lost.first()) HorizontalDivider(Modifier.padding(vertical = 10.dp)) else Spacer(Modifier.height(8.dp))
+                            NoteEntry(label(pn.note), pn.note, short = true) { onOpen(pn) }
+                        }
+                    }
+                }
+                item { Spacer(Modifier.height(32.dp)) }
             }
-            item { Spacer(Modifier.height(32.dp)) }
         }
     }
 }
