@@ -2,8 +2,9 @@
 
 The entries are small synthetic ones in the shape of the Perseus file (Greek in Betacode inside
 elements with lang="greek"; the senses are flat siblings with n and level). The tests look at the
-plain text of the head paragraph and of the paragraph that carries "A.", at where the line breaks
-fall, at the label classes and at the rule that the repair reports; never at a whole HTML string.
+plain text of the head paragraph and of the sense paragraphs, at where the line breaks fall, at the
+label classes and at the rule that the repair reports; never at a whole HTML string. The letter
+"A." is shown only in an entry that goes on to a "B." (an extra sense paragraph of level 1 gives it).
 """
 import re
 import tempfile
@@ -54,7 +55,8 @@ def lines_of(inner):
 
 
 class SectionARepairTest(unittest.TestCase):
-    """Where the file opens its section "A" in the wrong place, "A." goes to where the meanings start."""
+    """Where the file opens its section "A" in the wrong place, the meaning paragraph starts where the
+    meanings start. The entries here have no "B.", so the letter itself is not shown (LetterATest)."""
 
     def test_forms_then_numbered_meanings_a_goes_before_the_first_number(self):
         html, repair = render(f'''
@@ -76,9 +78,9 @@ class SectionARepairTest(unittest.TestCase):
         ])
         senses = senses_of(html)
         self.assertEqual(len(senses), 2)
-        self.assertTrue(senses[0].startswith("A. I. start, set out"), senses[0])
+        self.assertTrue(senses[0].startswith("I. start, set out"), senses[0])
         self.assertTrue(senses[1].startswith("II. come"), senses[1])
-        self.assertEqual(html.count("<b>A.</b>"), 1)
+        self.assertNotIn("<b>A.</b>", html)
 
     def test_dash_after_forms_in_the_same_section_opens_the_meaning(self):
         html, repair = render(f'''
@@ -91,7 +93,7 @@ class SectionARepairTest(unittest.TestCase):
         head = plain(head_of(html))
         self.assertTrue(head.startswith("ἀνήρ, ὁ, ἀνδρός, dat. ἄνδρεσι Il. 1.1:"), head)
         self.assertTrue(head.endswith("(ἀ-):—"), head)
-        self.assertEqual(senses_of(html), ["A. man, opp. woman"])
+        self.assertEqual(senses_of(html), ["man, opp. woman"])
 
     def test_voices_each_get_an_empty_line_before_their_dash(self):
         html, repair = render(f'''
@@ -113,7 +115,7 @@ class SectionARepairTest(unittest.TestCase):
         ])
         self.assertIn('<span class="gram voice">Med.</span>', head)
         self.assertIn('<span class="gram voice">Pass.</span>', head)
-        self.assertEqual(senses_of(html), ["A. kill, slay, Il. 1.1"])
+        self.assertEqual(senses_of(html), ["kill, slay, Il. 1.1"])
 
     def test_a_inside_an_etymology_bracket_takes_the_bracket_into_the_head(self):
         html, repair = render(f'''
@@ -123,7 +125,7 @@ class SectionARepairTest(unittest.TestCase):
         self.assertEqual(repair[0], "bracket")
         head = plain(head_of(html))
         self.assertTrue(head.endswith("(σῆμα 3)"), head)
-        self.assertEqual(senses_of(html), ["A. full of tombs, Il. 1.1"])
+        self.assertEqual(senses_of(html), ["full of tombs, Il. 1.1"])
 
     def test_a_meaning_in_plain_words_after_a_bracket_is_found_too(self):
         html, repair = render(f'''
@@ -135,7 +137,7 @@ class SectionARepairTest(unittest.TestCase):
         self.assertTrue(head.endswith("(ἀφίημι)"), head)
         senses = senses_of(html)
         self.assertEqual(len(senses), 1)
-        self.assertTrue(senses[0].startswith("A. one who lets off a military engine"), senses[0])
+        self.assertTrue(senses[0].startswith("one who lets off a military engine"), senses[0])
 
     def test_meaning_already_in_the_head_as_a_title_moves_a_back_to_it(self):
         html, repair = render(f'''
@@ -146,7 +148,7 @@ class SectionARepairTest(unittest.TestCase):
         self.assertEqual(plain(head_of(html)), "Κελτοί, οἱ,")
         senses = senses_of(html)
         self.assertEqual(len(senses), 1)
-        self.assertTrue(senses[0].startswith("A. Celts"), senses[0])
+        self.assertTrue(senses[0].startswith("Celts"), senses[0])
         # the derived word and its meaning stay in the section
         self.assertIn("hence Κελτικός", senses[0])
         self.assertIn("Celtic, Gallic", senses[0])
@@ -162,7 +164,7 @@ class SectionARepairTest(unittest.TestCase):
         self.assertTrue(head.endswith("dat. pl. τέκεσσι Il. 1.1, al.:—"), head)
         senses = senses_of(html)
         self.assertEqual(len(senses), 1)
-        self.assertTrue(senses[0].startswith("A. poet. for τέκνον"), senses[0])
+        self.assertTrue(senses[0].startswith("poet. for τέκνον"), senses[0])
 
     def test_the_lexicons_own_printed_a_dissolves_the_files_section(self):
         html, repair = render(f'''
@@ -172,11 +174,11 @@ class SectionARepairTest(unittest.TestCase):
               <sense n="A" level="1"><tr>in the above tenses,</tr> {BIBL}</sense>
             </entryFree>''')
         self.assertEqual(repair[0], "printed A.")
-        self.assertEqual(html.count("<b>A.</b>"), 1)
+        self.assertEqual(html.count("<b>A.</b>"), 0)
         head = plain(head_of(html))
         self.assertIn("pf. βέβληκα", head)
         self.assertIn("aor. ἔβαλον", head)
-        self.assertEqual(senses_of(html), ["A. in the above tenses, Il. 1.1"])
+        self.assertEqual(senses_of(html), ["in the above tenses, Il. 1.1"])
 
     def test_entry_of_forms_only_has_no_a_at_all(self):
         html, repair = render(f'''
@@ -198,7 +200,7 @@ class SectionARepairTest(unittest.TestCase):
             </entryFree>''')
         self.assertIsNone(repair)
         self.assertEqual(plain(head_of(html)), "ἀγαθός, ή, όν,")
-        self.assertEqual(senses_of(html), ["A. good:"])
+        self.assertEqual(senses_of(html), ["good:"])
 
     def test_synonym_entry_is_left_as_it_is(self):
         html, repair = render(f'''
@@ -207,7 +209,7 @@ class SectionARepairTest(unittest.TestCase):
             </entryFree>''')
         self.assertIsNone(repair)
         self.assertEqual(plain(head_of(html)), "κάππαρι, ιος,")
-        self.assertEqual(senses_of(html), ["A. = κάππαρις, Il. 1.1"])
+        self.assertEqual(senses_of(html), ["= κάππαρις, Il. 1.1"])
 
     def test_a_bracket_never_closed_in_the_forms_does_not_hide_the_meaning(self):
         html, repair = render(f'''
@@ -221,7 +223,7 @@ class SectionARepairTest(unittest.TestCase):
         self.assertTrue(head.endswith("etc.:—"), head)
         senses = senses_of(html)
         self.assertEqual(len(senses), 1)
-        self.assertTrue(senses[0].startswith("A. hear"), senses[0])
+        self.assertTrue(senses[0].startswith("hear"), senses[0])
 
     def test_a_quotation_that_opens_with_a_comma_takes_the_comma_and_etymology_into_the_head(self):
         html, repair = render(f'''
@@ -235,7 +237,7 @@ class SectionARepairTest(unittest.TestCase):
         self.assertTrue(head.endswith(", (ὄρρος)"), head)
         senses = senses_of(html)
         self.assertEqual(len(senses), 1)
-        self.assertTrue(senses[0].startswith("A. pertaining to the rump"), senses[0])
+        self.assertTrue(senses[0].startswith("pertaining to the rump"), senses[0])
 
     def test_translation_that_opens_a_clause_among_the_forms_starts_the_meaning(self):
         html, repair = render(f'''
@@ -248,7 +250,7 @@ class SectionARepairTest(unittest.TestCase):
         self.assertTrue(head.endswith("aor. ἐλογισάμην Il. 1.1;"), head)
         senses = senses_of(html)
         self.assertEqual(len(senses), 1)
-        self.assertTrue(senses[0].startswith("A. reckon,"), senses[0])
+        self.assertTrue(senses[0].startswith("reckon,"), senses[0])
 
     def test_meaning_in_plain_words_after_a_dash_is_taken_with_a_note(self):
         html, repair = render(f'''
@@ -260,7 +262,7 @@ class SectionARepairTest(unittest.TestCase):
         self.assertTrue(repair[1])      # a judgment: the note says why
         head = plain(head_of(html))
         self.assertTrue(head.endswith("etc.:—"), head)
-        self.assertEqual(senses_of(html), ["A. Io, daughter of Inachus"])
+        self.assertEqual(senses_of(html), ["Io, daughter of Inachus"])
 
     def test_entry_without_a_section_a_is_not_repaired(self):
         html, repair = render(f'''
@@ -270,6 +272,154 @@ class SectionARepairTest(unittest.TestCase):
             </entryFree>''')
         self.assertIsNone(repair)
         self.assertEqual(senses_of(html), ["I. other Il. 1.1"])
+
+
+class LetterATest(unittest.TestCase):
+    """The letter "A." is shown only in an entry that goes on to a "B." (or further); where the lexicon
+    has no "B." it is the file's own addition and print has none. The same entries are rendered
+    without and with a further section of level 1, in each shape the file has: a section that opens
+    at a translation, one repaired at a dash, forms before numbered meanings, and the lexicon's own
+    printed "A." after the file's section of forms."""
+
+    B = f'<sense n="B" level="1"><tr>bad</tr> {BIBL}</sense>'
+
+    @staticmethod
+    def regular(more=""):
+        return f'''
+            <entryFree id="n260" key="a)gaqo/s" type="main">
+              <orth lang="greek">a)gaqo/s</orth>, <itype lang="greek">h/</itype>, <itype lang="greek">o/n</itype>,
+              <sense n="A" level="1"><tr>good</tr>:</sense>
+              {more}
+            </entryFree>'''
+
+    @staticmethod
+    def dashed(more=""):
+        return f'''
+            <entryFree id="n8665" key="a)nh/r" type="main">
+              <orth lang="greek">a)nh/r</orth>, <case>dat.</case>
+              <sense n="A" level="1">{CIT.format("a)/ndresi")}: ... (<etym lang="greek">a)-</etym>):—<tr>man,</tr> opp. woman</sense>
+              {more}
+            </entryFree>'''
+
+    @staticmethod
+    def numbered(more=""):
+        return f'''
+            <entryFree id="n42827" key="e)/rxomai" type="main">
+              <orth lang="greek">e)/rxomai</orth> {BIBL}, etc.: <tns>impf.</tns>
+              <sense n="A" level="1">{CIT.format("h)rxo/mhn")}: <tns>fut.</tns> <foreign lang="greek">e)leu/somai</foreign>:</sense>
+              <sense n="I" level="2"><tr>start, set out,</tr> <foreign lang="greek">e)rxome/nw|</foreign></sense>
+              <sense n="II" level="2"><tr>come</tr> or <tr>go</tr></sense>
+              {more}
+            </entryFree>'''
+
+    @staticmethod
+    def printed(more=""):
+        return f'''
+            <entryFree id="n8" key="ba/llw" type="main">
+              <orth lang="greek">ba/llw</orth> <tns>pf.</tns>
+              <sense n="A" level="1"><foreign lang="greek">be/blhka</foreign>, <tns>aor.</tns> <foreign lang="greek">e)/balon</foreign></sense>
+              <sense n="A" level="1"><tr>in the above tenses,</tr> {BIBL}</sense>
+              {more}
+            </entryFree>'''
+
+    # without a "B."
+
+    def test_a_regular_entry_without_b_shows_no_a(self):
+        html, repair = render(self.regular())
+        self.assertIsNone(repair)
+        self.assertEqual(senses_of(html), ["good:"])
+        self.assertNotIn("<b>A.</b>", html)
+
+    def test_the_numbers_below_a_are_kept_when_a_is_left_out(self):
+        html, repair = render(self.numbered())
+        self.assertEqual(repair[0], "next section")
+        senses = senses_of(html)
+        self.assertEqual(len(senses), 2)
+        self.assertTrue(senses[0].startswith("I. start, set out"), senses[0])
+        self.assertTrue(senses[1].startswith("II. come"), senses[1])
+        self.assertNotIn("<b>A.</b>", html)
+        self.assertIn("<b>I.</b>", html)
+        self.assertIn("<b>II.</b>", html)
+
+    def test_a_repaired_entry_without_b_shows_no_a(self):
+        html, repair = render(self.dashed())
+        self.assertEqual(repair[0], "dash")
+        self.assertTrue(plain(head_of(html)).endswith("(ἀ-):—"))
+        self.assertEqual(senses_of(html), ["man, opp. woman"])
+        self.assertNotIn("<b>A.</b>", html)
+
+    def test_the_lexicons_own_printed_a_is_left_out_too_without_b(self):
+        html, repair = render(self.printed())
+        self.assertEqual(repair[0], "printed A.")
+        self.assertEqual(senses_of(html), ["in the above tenses, Il. 1.1"])
+        self.assertNotIn("<b>A.</b>", html)
+
+    def test_a_is_not_made_up_where_the_entry_has_only_a_b(self):
+        html, repair = render(f'''
+            <entryFree id="n9" key="a)/xw" type="main">
+              <orth lang="greek">a)/xw</orth>, <tns>aor.</tns>
+              <sense n="A" level="1">{CIT.format("h)/xon")}, <tns>pf.</tns> <foreign lang="greek">h)/xa</foreign></sense>
+              {self.B}
+            </entryFree>''')
+        self.assertEqual(repair[0], "no A.")
+        self.assertEqual(senses_of(html), ["B. bad Il. 1.1"])
+        self.assertNotIn("<b>A.</b>", html)
+
+    # with a "B."
+
+    def test_a_regular_entry_with_b_keeps_a(self):
+        html, repair = render(self.regular(self.B))
+        self.assertIsNone(repair)
+        self.assertEqual(senses_of(html), ["A. good:", "B. bad Il. 1.1"])
+        self.assertEqual(html.count("<b>A.</b>"), 1)
+
+    def test_every_letter_of_level_one_is_kept_with_a(self):
+        html, _ = render(self.regular(self.B + '<sense n="C" level="1"><tr>worse</tr></sense>'))
+        self.assertEqual(senses_of(html), ["A. good:", "B. bad Il. 1.1", "C. worse"])
+
+    def test_the_numbers_below_a_and_b_are_kept(self):
+        html, _ = render(self.regular('<sense n="I" level="2"><tr>fine</tr></sense>' + self.B))
+        self.assertEqual(senses_of(html), ["A. good:", "I. fine", "B. bad Il. 1.1"])
+
+    def test_a_repaired_entry_with_b_keeps_a_where_the_meaning_starts(self):
+        html, repair = render(self.dashed(self.B))
+        self.assertEqual(repair[0], "dash")
+        self.assertTrue(plain(head_of(html)).endswith("(ἀ-):—"))
+        self.assertEqual(senses_of(html), ["A. man, opp. woman", "B. bad Il. 1.1"])
+        self.assertEqual(html.count("<b>A.</b>"), 1)
+
+    def test_forms_then_numbered_meanings_with_b_keep_a_before_the_first_number(self):
+        html, repair = render(self.numbered(self.B))
+        self.assertEqual(repair[0], "next section")
+        self.assertEqual(lines_of(head_of(html)), ["ἔρχομαι Il. 1.1, etc.:", "impf. ἠρχόμην Il. 1.1:", "fut. ἐλεύσομαι:"])
+        senses = senses_of(html)
+        self.assertEqual(len(senses), 3)
+        self.assertTrue(senses[0].startswith("A. I. start, set out"), senses[0])
+        self.assertTrue(senses[1].startswith("II. come"), senses[1])
+        self.assertEqual(senses[2], "B. bad Il. 1.1")
+        self.assertEqual(html.count("<b>A.</b>"), 1)
+
+    def test_the_lexicons_own_printed_a_is_shown_once_with_b(self):
+        html, repair = render(self.printed(self.B))
+        self.assertEqual(repair[0], "printed A.")
+        head = plain(head_of(html))
+        self.assertIn("pf. βέβληκα", head)
+        self.assertIn("aor. ἔβαλον", head)
+        self.assertEqual(senses_of(html), ["A. in the above tenses, Il. 1.1", "B. bad Il. 1.1"])
+        self.assertEqual(html.count("<b>A.</b>"), 1)
+
+    def test_the_letter_is_shown_in_the_entry_as_the_file_has_it_when_there_is_a_b(self):
+        html, repair = render(self.numbered(self.B), decision="=")
+        self.assertIsNone(repair)
+        senses = senses_of(html)
+        self.assertTrue(senses[0].startswith("A. ἠρχόμην"), senses[0])
+        self.assertTrue(senses[1].startswith("I. start"), senses[1])
+        self.assertEqual(html.count("<b>A.</b>"), 1)
+
+    def test_the_letter_follows_a_decision_for_the_place_of_the_meaning(self):
+        html, repair = render(self.dashed(self.B), decision="opp. woman")
+        self.assertEqual(repair, ("decided", ""))
+        self.assertEqual(senses_of(html), ["A. opp. woman", "B. bad Il. 1.1"])
 
 
 class DecisionTest(unittest.TestCase):
@@ -286,14 +436,14 @@ class DecisionTest(unittest.TestCase):
         self.assertEqual(repair, ("decided", ""))
         head = plain(head_of(html))
         self.assertTrue(head.endswith(":—"), head)
-        self.assertEqual(senses_of(html), ["A. man, opp. woman"])
+        self.assertEqual(senses_of(html), ["man, opp. woman"])
 
     def test_a_decision_may_name_a_different_place_than_the_rules_would(self):
         html, repair = render(self.ENTRY, decision="opp. woman")
         self.assertEqual(repair, ("decided", ""))
         head = plain(head_of(html))
         self.assertTrue(head.endswith("man,"), head)
-        self.assertEqual(senses_of(html), ["A. opp. woman"])
+        self.assertEqual(senses_of(html), ["opp. woman"])
 
     def test_a_dash_puts_everything_in_the_head_and_leaves_a_out(self):
         html, repair = render(self.ENTRY, decision="-")
@@ -314,7 +464,7 @@ class DecisionTest(unittest.TestCase):
         self.assertIsNone(repair)
         self.assertEqual(lines_of(head_of(html)), ["ἔρχομαι Il. 1.1, etc.:", "impf."])
         senses = senses_of(html)
-        self.assertTrue(senses[0].startswith("A. ἠρχόμην"), senses[0])
+        self.assertTrue(senses[0].startswith("ἠρχόμην"), senses[0])
         self.assertTrue(senses[1].startswith("I. start"), senses[1])
 
     def test_words_that_do_not_occur_raise_value_error(self):
@@ -527,7 +677,7 @@ class ParseTest(unittest.TestCase):
             decided = []
             entries = parse_lexicon(path, "lsj", p4=False, repairs=decided, decisions={"a)/xw": "="})
             self.assertEqual(decided, [])
-            self.assertIn("A. ", plain(entries[0].html))
+            self.assertEqual(senses_of(entries[0].html), ["ἤχον Il. 1.1, pf. ἤχα"])     # left as the file has it
             with self.assertRaises(ValueError) as caught:
                 parse_lexicon(path, "lsj", p4=False, decisions={"a)/xw": "no such words"})
             self.assertTrue(str(caught.exception).startswith("a)/xw: "))
