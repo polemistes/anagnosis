@@ -17,7 +17,6 @@
     "syntax": "annotated by hand (Ancient Greek Dependency Treebank)",
     "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
     "syntax_license": "CC BY-SA 3.0 US",
-    "google_play": "yes",
     "product_id": "aeschylus_agamemnon_sidgwick",
     "version": "348333c89dd41c15"
   },
@@ -85,7 +84,6 @@
     "syntax": "annotated by hand (Ancient Greek Dependency Treebank), lines 1-945; the treebank stops there",
     "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
     "syntax_license": "CC BY-SA 3.0 US",
-    "google_play": "yes",
     "product_id": "aeschylus_choephoroi_sidgwick",
     "version": "d5c4f0dabb7d88c6"
   },
@@ -107,7 +105,6 @@
     "syntax": "machine-made (GLAUx), not checked by hand",
     "syntax_source": "GLAUx (Alek Keersmaekers, KU Leuven): automatic annotation, not checked by hand",
     "syntax_license": "CC BY-SA 4.0",
-    "google_play": "yes",
     "product_id": "aristophanes_clouds_starkie",
     "version": "789221c25a1e6e86"
   },
@@ -151,7 +148,6 @@
     "syntax": "annotated by hand (Ancient Greek Dependency Treebank)",
     "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
     "syntax_license": "CC BY-SA 3.0 US",
-    "google_play": "yes",
     "product_id": "aeschylus_eumenides_sidgwick",
     "version": "e4c0c97aa0953241"
   },
@@ -195,7 +191,6 @@
     "syntax": "machine-made (GLAUx), not checked by hand",
     "syntax_source": "GLAUx (Alek Keersmaekers, KU Leuven): automatic annotation, not checked by hand",
     "syntax_license": "CC BY-SA 4.0",
-    "google_play": "yes",
     "product_id": "hermas_shepherd_lake",
     "version": "bfb59537b7c215c7"
   },
@@ -348,7 +343,6 @@
     "syntax": "annotated by hand (Ancient Greek Dependency Treebank)",
     "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
     "syntax_license": "CC BY-SA 3.0 US",
-    "google_play": "yes",
     "product_id": "hesiod_theogony_rzach",
     "version": "ae6962c203eeabad"
   },
@@ -391,7 +385,6 @@
     "syntax": "machine-made (GLAUx), not checked by hand",
     "syntax_source": "GLAUx (Alek Keersmaekers, KU Leuven): automatic annotation, not checked by hand",
     "syntax_license": "CC BY-SA 4.0",
-    "google_play": "yes",
     "product_id": "lucian_truestory_nilen",
     "version": "6efbe1239b3dae35"
   }

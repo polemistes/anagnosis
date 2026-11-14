@@ -133,7 +133,11 @@ for each tense or case, with the tense and voice labels in colour; a long sectio
 after ten lines ("Show all forms"). The file's section letter "A.", which stood in the middle of
 the forms in some 4,800 entries, is put where the meanings start, and shown only where the entry
 goes on to a "B.". Middle Liddell's notes on forms and derivation stand one to a line. The
-release notes for 0.7.0 in listings/reader.md also name the four texts added since 0.6.0
-(Clouds, Theogony, A True Story, the Shepherd of Hermas): their products must be active in the
-Console before the update reaches people, or the shop shows them as not offered. The screenshots
-show no long dictionary entry and are still correct.
+release notes for 0.7.0 are in listings/reader.md. The screenshots show no long dictionary entry
+and are still correct.
+
+Which texts are on sale is the author's decision alone: a text that is built and has its pack is
+not thereby for sale. `google_play: yes` goes into a text's about.md only when the author says
+that this text is to be made available (2026-11-14: the mark was taken off the Oresteia, the
+Clouds, the Theogony, A True Story and the Shepherd of Hermas, which had been marked when they
+were built; their product ids stay in their about.md, ready for that day).
