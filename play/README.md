@@ -144,7 +144,7 @@ Version code 18 (still 0.7.0) adds vowel length marked over the vowel and metric
 dictionaries and commentaries. Version code 19 (still 0.7.0, 2026-11-14) adds a second size
 slider in Options, "Text size in dictionaries and notes" (12 to 26, starting at 14, the old size),
 for dictionary entries, commentary, critical apparatus, introductions and the reader's own notes.
-The release notes do not mention it yet. The bundle was checked on the tablet emulator as an
+The release notes for 0.7.0 name it (shortened to make room). The bundle was checked on the tablet emulator as an
 update over 0.6.0: the setting starts at 14, and the Symposium's commentary is drawn at 20 when
 it is set to 20.
 
