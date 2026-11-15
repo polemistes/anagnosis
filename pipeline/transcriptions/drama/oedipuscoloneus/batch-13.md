@@ -145,7 +145,7 @@
 1019	ὁδοῦ κατάρχειν τῆς ἐκεῖ, πομπὸν δʼ ἐμὲ
 1020	χωρεῖν, ἵνʼ, εἰ μὲν ἐν τόποισι τοῖσδʼ ἔχεις
 1021	τὰς παῖδας ἡμῖν, αὐτὸς ἐκδείξῃς ἐμοί·
-1022	εἰ δʼ ἐγκρατεῖς φεύγουσιν, οὐδὲν δεῖ πονεῖν.
+1022	εἰ δʼ ἐγκρατεῖς φεύγουσιν, οὐδὲν δεῖ πονεῖν·
 1023	ἄλλοι γὰρ οἱ σπεύδοντες, οὓς οὐ μή ποτε
 1024	χώρας φυγόντες τῆσδʼ ἐπεύξωνται θεοῖς.
 1025	ἀλλʼ ἐξυφηγοῦ· γνῶθι δʼ ὡς ἔχων ἔχει
@@ -163,6 +163,7 @@
 1017	The apparatus begins with the end of the 1016 note ("ἐξειργασμένοι F. W. Schmidt."), written with that note on p-0258.
 1019	δέ με (Perseus): the page prints δʼ ἐμὲ, as the OCR read it (Jebb's note: "δέ με MSS.: δʼ ἐμὲ Herm., and so Blaydes, Campb."): changed.
 1021	The page prints a comma after ἡμῖν (τὰς παῖδας ἡμῖν, αὐτὸς): added (unflagged; seen on the whole page).
+1022	res: raised stop after πονεῖν, not a full stop, as printed
 1026	The note runs on to the top of the next text page (leaf 262): its end "and so Nauck, Hartung, Blaydes, Wecklein." is written here, not on p-0262.
 
 === p-0262

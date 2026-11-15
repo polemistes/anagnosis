@@ -32,7 +32,7 @@
 === p-0278
 --- text
 1128	εἰδὼς δʼ ἀμύνω τοῖσδε τοῖς λόγοις τάδε·
-1129	ἔχω γὰρ ἅχω διὰ σὲ κοὐκ ἄλλον βροτῶν·
+1129	ἔχω γὰρ ἅχω διὰ σὲ κοὐκ ἄλλον βροτῶν.
 1130	καί μοι χέρʼ, ὦναξ, δεξιὰν ὄρεξον, ὡς
 1131	ψαύσω φιλήσω τʼ, εἰ θέμις, τὸ σὸν κάρα.
 1132	καίτοι τί φωνῶ; πῶς σʼ ἂν ἄθλιος γεγὼς
@@ -40,12 +40,12 @@
 1134	κηλὶς κακῶν ξύνοικος; οὐκ ἔγωγέ σε,
 1135	οὐδʼ οὖν ἐάσω· τοῖς γὰρ ἐμπείροις βροτῶν
 1136	μόνοις οἷόν τε συνταλαιπωρεῖν τάδε.
-1137	σὺ δʼ αὐτόθεν μοι χαῖρε καὶ τὰ λοιπά μου
+1137	σὺ δʼ αὐτόθεν μοι χαῖρε, καὶ τὰ λοιπά μου
 1138	μέλου δικαίως, ὥσπερ ἐς τόδʼ ἡμέρας.
 @ Θησεύς
 1139	οὔτʼ εἴ τι μῆκος τῶν λόγων ἔθου πλέον,
 1140	τέκνοισι τερφθεὶς τοῖσδε, θαυμάσας ἔχω,
-1141	οὔτʼ εἰ πρὸ τοὐμοῦ προύλαβες τὰ τῶνδʼ ἔπη.
+1141	οὔτʼ εἰ πρὸ τοὐμοῦ προύλαβες τὰ τῶνδʼ ἔπη·
 1142	βάρος γὰρ ἡμᾶς οὐδὲν ἐκ τούτων ἔχει.
 --- apparatus
 1129	ἄλλον] ἄλλου L (made from ἄλλον), R, Vat.
@@ -62,6 +62,9 @@
 --- notes
 1133	The print has ἀνδρὸς ᾧ, grave accent and no comma (the draft had Perseus's ἀνδρός, ᾧ); changed.
 1130	apparatus: Jebb prints ὤναξ (smooth breathing and acute) in L's reading; in Vat. and A, R, L² the prodelided ἄναξ is printed with a breathing and acute standing alone before ναξ, written ῎ναξ (U+1FCE); in B a breathing alone, written ʼναξ.
+1129	res: full stop after βροτῶν, as printed (the text had a raised stop; not listed, seen on the crop of 1129)
+1137	res: comma after χαῖρε, as printed
+1141	res: raised stop after ἔπη, as printed (the text had a full stop)
 1131	apparatus: L's reading is printed ἣ (rough breathing, grave), the reading of B, T ᾗ; copied as printed.
 
 === p-0280
@@ -71,7 +74,7 @@
 1145	δείκνυμι δʼ· ὧν γὰρ ὤμοσʼ οὐκ ἐψευσάμην
 1146	οὐδέν σε, πρέσβυ· τάσδε γὰρ πάρειμʼ ἄγων
 1147	ζώσας, ἀκραιφνεῖς τῶν κατηπειλημένων.
-1148	χὤπως μὲν ἁγὼν ᾑρέθη, τί δεῖ μάτην
+1148	χὥπως μὲν ἁγὼν ᾑρέθη, τί δεῖ μάτην
 1149	κομπεῖν, ἅ γʼ εἴσει καὐτὸς ἐκ τούτοιν ξυνών;
 1150	λόγος δʼ ὃς ἐμπέπτωκεν ἀρτίως ἐμοὶ
 1151	στείχοντι δεῦρο, συμβαλοῦ γνώμην, ἐπεὶ
@@ -98,6 +101,7 @@
 1149	The print has τούτοιν (the draft had Perseus's ταύταιν); changed. Jebb's apparatus: "τούτοιν] ταύταιν MSS." ξυνών; stands on this line, as printed.
 1154	The print has a comma after με (the draft had none); changed.
 1159	The print has no comma after ἔκυρον (the draft had one); changed.
+1148	res: χὥπως with rough breathing and acute, as printed (the mark is the same as on ἅ in 1149, unlike the smooth breathing and acute of εἴσει; cp. χὡ at 563, 1374); the apparatus's small type does not show the breathing clearly, left as χὤπως
 1150	apparatus: the print has no colon after "A, B, R" before ἐκπέπτωκεν (end of a line on the facing page); an evident misprint, the colon is supplied.
 1153	apparatus: the print has no colon between "Farn." and "οὐδὲν A, F, R, L²" (end of a line, Farn. ends the line); an evident misprint, the colon is supplied.
 

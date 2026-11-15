@@ -99,7 +99,7 @@
 === p-0330
 --- text
 @ Οἰδίπους
-1505	ἄναξ, ποθοῦντι προυφάνης, καί σοι θεῶν
+1505	ἄναξ, ποθοῦντι προὐφάνης, καί σοι θεῶν
 1506	τύχην τις ἐσθλὴν τῆσδʼ ἔθηκε τῆς ὁδοῦ.
 @ Θησεύς
 1507	τί δʼ ἐστίν, ὦ παῖ Λαΐου, νέορτον αὖ;
@@ -133,6 +133,7 @@
 1517	The print has ποεῖν, not ποιεῖν: written as printed.
 1505	speakers and margin numbers (1505, 1510, 1515) checked on the whole page: as in the file.
 1517	ψευδό-|φημα, divided at a line end in the apparatus, written whole.
+1505	res: προὐφάνης with smooth breathing on υ, as printed
 
 === p-0332
 --- text
@@ -176,12 +177,12 @@
 1533	χοὔτως ἀδῇον τήνδʼ ἐνοικήσεις πόλιν
 1534	σπαρτῶν ἀπʼ ἀνδρῶν· αἱ δὲ μυρίαι πόλεις,
 1535	κἂν εὖ τις οἰκῇ, ῥᾳδίως καθύβρισαν.
-1536	θεοὶ γὰρ εὖ μέν, ὀψὲ δʼ εἰσορῶσʼ, ὅταν
+1536	θεοὶ γὰρ εὖ μὲν ὀψὲ δʼ εἰσορῶσʼ, ὅταν
 1537	τὰ θεῖʼ ἀφείς τις εἰς τὸ μαίνεσθαι τραπῇ·
 1538	ὃ μὴ σύ, τέκνον Αἰγέως, βούλου παθεῖν.
 1539	τὰ μὲν τοιαῦτʼ οὖν εἰδότʼ ἐκδιδάσκομεν.
 1540	χῶρον δʼ, ἐπείγει γάρ με τοὐκ θεοῦ παρόν,
-1541	στείχωμεν ἤδη μηδʼ ἔτʼ ἐντρεπώμεθα.
+1541	στείχωμεν ἤδη, μηδʼ ἔτʼ ἐντρεπώμεθα.
 --- apparatus
 1533	ἀδῇον] ἀδήϊον MSS.: schol. in L ἀδῄωτον.—ἐνοικήσεις] ἂν οἰκήσαις Blaydes.
 1534	ἀπανδρῶν L: ἀπʼ ἀνδρῶν the other MSS.: ὑπʼ ἀνδρῶν Schaefer (‘nescio an recte,’ Elms.).—αἱ δὲ μυρίαι πόλεις] οἱ δὲ μυρίοι πόλεως Wecklein: οὗ δὲ κυρία πόλις Nauck. (αἱ δὲ κυρίαι πόλεις Nitzsch, εἰ δὲ κυρία πόλις Kayser.)
@@ -191,3 +192,5 @@
 1541	μὴ δέ γʼ ἐντρεπώμεθα L and most MSS.: μηδέν γʼ A, R: μηδʼ ἔτʼ Reisig, Hermann: μηδʼ ἐπιστρεφώμεθα Campbell (schol. ἐντρεπώμεθα· ἀντὶ τοῦ, ἐπιστρεφώμεθα).
 --- notes
 1533	no flags on this page; text, margin numbers (1535, 1540) and the absence of a speaker heading checked on the whole page: as in the file.
+1536	res: μὲν with grave and no comma after it, as printed
+1541	res: comma after ἤδη, as printed

@@ -67,7 +67,7 @@
 @ Ἰσμήνη
 417	ἄμφω γʼ ὁμοίως, κἀξεπίστασθον καλῶς.
 @ Οἰδίπους
-418	κᾆθʼ οἱ κάκιστοι τῶνδʼ ἀκούσαντες, πάρος
+418	κᾆθʼ οἱ κάκιστοι τῶνδʼ ἀκούσαντες πάρος
 419	τοὐμοῦ πόθου προύθεντο τὴν τυραννίδα;
 --- apparatus
 404	In L the 1st hand wrote πέλασ προσθέσθαι. Over these words the corrector placed β, α, to show the right order. Then πέλασ was deleted, and written anew after προσθέσθαι.
@@ -83,6 +83,7 @@
 402	the apparatus begins with the end of the 402 note (πότμος δυστυχῶν.), written on p-0168.
 408	the schol. reads μη̄ with a straight bar over η (not a circumflex), copied as printed.
 417	the note runs on to the top of p-0172 (T, B, etc.); written whole here.
+418	res: no comma after ἀκούσαντες, as printed
 
 === p-0172
 --- text
@@ -94,7 +95,7 @@
 423	αὐτοῖν γένοιτο τῆσδε τῆς μάχης πέρι,
 424	ἧς νῦν ἔχονται κἀπαναίρονται δόρυ·
 425	ὡς οὔτʼ ἂν ὃς νῦν σκῆπτρα καὶ θρόνους ἔχει
-426	μείνειεν οὔτʼ ἂν οὑξεληλυθὼς πάλιν
+426	μείνειεν, οὔτʼ ἂν οὑξεληλυθὼς πάλιν
 427	ἔλθοι ποτʼ αὖθις· οἵ γε τὸν φύσαντʼ ἐμὲ
 428	οὕτως ἀτίμως πατρίδος ἐξωθούμενον
 429	οὐκ ἔσχον οὐδʼ ἤμυναν, ἀλλʼ ἀνάστατος
@@ -118,6 +119,7 @@
 417	the apparatus begins with the end of the 417 note (T, B, etc.), written on p-0170.
 424	κἀπα-|ναιροῦνται and 432 κατή-|νυσεν (end on p-0174) written whole.
 426	οὑξεληλυθώς: rough breathing in the apparatus, as in the text.
+426	res: comma after μείνειεν, as printed
 
 === p-0174
 --- text

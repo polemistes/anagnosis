@@ -7,7 +7,7 @@
 @ Ξένος
 65	καὶ κάρτα, τοῦδε τοῦ θεοῦ γʼ ἐπώνυμοι.
 @ Οἰδίπους
-66	ἄρχει τις αὐτῶν ἢ ʼπὶ τῷ πλήθει λόγος;
+66	ἄρχει τις αὐτῶν, ἢ ʼπὶ τῷ πλήθει λόγος;
 @ Ξένος
 67	ἐκ τοῦ κατʼ ἄστυ βασιλέως τάδʼ ἄρχεται.
 @ Οἰδίπους
@@ -27,6 +27,7 @@
 63	the apparatus of this page begins with the end of the note on 63 ("above: πλέω Suidas s. v. Ξυνουσία. Schneidewin conject. λεώ."), which begins on the page before: left to the batch before.
 70	the print has ΟΙ. in the margin at this verse: the speaker Οἰδίπους stands as in the draft; the verse reads ἆρʼ ἄν as Perseus.
 71	the note runs on to the top of p-0120's apparatus (the scholium): written whole here. In the scholium the print has μολοι without an accent, an evident misprint: written μόλοι.
+66	res: comma after αὐτῶν, as printed
 
 === p-0120
 --- text
@@ -38,9 +39,9 @@
 74	ὅσʼ ἂν λέγωμεν πάνθʼ ὁρῶντα λέξομεν.
 @ Ξένος
 75	οἶσθʼ, ὦ ξένʼ, ὡς νῦν μὴ σφαλῇς; ἐπείπερ εἶ
-76	γενναῖος, ὡς ἰδόντι, πλὴν τοῦ δαίμονος,
-77	αὐτοῦ μένʼ οὗπερ κἀφάνης, ἕως ἐγὼ
-78	τοῖς ἐνθάδʼ αὐτοῦ μὴ κατʼ ἄστυ δημόταις
+76	γενναῖος, ὡς ἰδόντι, πλὴν τοῦ δαίμονος·
+77	αὐτοῦ μένʼ, οὗπερ κἀφάνης, ἕως ἐγὼ
+78	τοῖς ἐνθάδʼ αὐτοῦ, μὴ κατʼ ἄστυ, δημόταις
 79	λέξω τάδʼ ἐλθών· οἵδε γὰρ κρινοῦσί σοι
 80	εἰ χρή σε μίμνειν ἢ πορεύεσθαι πάλιν.
 @ Οἰδίπους
@@ -67,6 +68,9 @@
 75	the apparatus note is printed "75 f.": filed under 75.
 84	ἕδρας: the print has ἕδρας as the draft.
 86	the note runs on to the top of p-0122's apparatus ("above η): γένοισθʼ V³."): written whole here.
+76	res: raised stop after δαίμονος, as printed
+77	res: comma after μένʼ, as printed (seen on the whole page)
+78	res: commas after αὐτοῦ and after ἄστυ, as printed
 
 === p-0122
 --- text
@@ -74,13 +78,13 @@
 89	ἐλθόντι χώραν τερμίαν, ὅπου θεῶν
 90	σεμνῶν ἕδραν λάβοιμι καὶ ξενόστασιν,
 91	ἐνταῦθα κάμψειν τὸν ταλαίπωρον βίον,
-92	κέρδη μὲν οἰκήσαντα τοῖς δεδεγμένοις,
+92	κέρδη μέν, οἰκήσαντα, τοῖς δεδεγμένοις,
 93	ἄτην δὲ τοῖς πέμψασιν, οἵ μʼ ἀπήλασαν·
 94	σημεῖα δʼ ἥξειν τῶνδέ μοι παρηγγύα,
 95	ἢ σεισμόν, ἢ βροντήν τινʼ, ἢ Διὸς σέλας.
 96	ἔγνωκα μέν νυν ὥς με τήνδε τὴν ὁδὸν
 97	οὐκ ἔσθʼ ὅπως οὐ πιστὸν ἐξ ὑμῶν πτερὸν
-98	ἐξήγαγʼ εἰς τόδʼ ἄλσος· οὐ γὰρ ἄν ποτε
+98	ἐξήγαγʼ εἰς τόδʼ ἄλσος. οὐ γὰρ ἄν ποτε
 --- apparatus
 89	ἐλθόντα Elmsley.
 90	ξενόστασιν] Over this word γρ. καὶ κατάστασιν is written in L. The whole verse had been accidentally omitted from L's text, and has been added in the right-hand margin, in a line with v. 89, apparently by the 1st hand.
@@ -92,6 +96,8 @@
 86	the apparatus begins with the end of the note on 86, written with p-0120.
 95	the print has commas after σεισμόν and after τινʼ, and a full stop at the end (ἢ σεισμόν, ἢ βροντήν τινʼ, ἢ Διὸς σέλας.): punctuation and accent changed to the print's.
 92	"vol. 1." is printed with the old-style figure one.
+92	res: commas after μέν (acute before the comma, as printed) and after οἰκήσαντα, as printed
+98	res: full stop after ἄλσος, not a raised stop, as printed
 
 === p-0124
 --- text
@@ -108,10 +114,10 @@
 109	οἰκτίρατʼ ἀνδρὸς Οἰδίπου τόδʼ ἄθλιον
 110	εἴδωλον· οὐ γὰρ δὴ τό γʼ ἀρχαῖον δέμας.
 @ Ἀντιγόνη
-111	σίγα· πορεύονται γὰρ οἵδε δή τινες
+111	σίγα. πορεύονται γὰρ οἵδε δή τινες
 112	χρόνῳ παλαιοί, σῆς ἕδρας ἐπίσκοποι.
 @ Οἰδίπους
-113	σιγήσομαί τε καὶ σύ μʼ ἐξ ὁδοῦ πόδα
+113	σιγήσομαί τε καὶ σύ μʼ †ἐξ ὁδοῦ πόδα†
 --- apparatus
 99	ὑμῶν MSS.: ὑμῖν Suid. (s. v. νηφάλιος θυσία); schol. οὐ γὰρ ἂν πρώταις ὑμῖν ἀντέσχον.
 104	μείονʼ ὧδʼ ἔχειν is conjectured by Wecklein; μειόνως νοσεῖν by Nauck; μεῖον ἀντισχεῖν (‘parum obdurasse’) by Mekler.
@@ -123,6 +129,8 @@
 101	μοι,: the print has μοι, as the draft.
 110	the print has τό γʼ (two words), not τόδʼ: changed (the apparatus and Jebb's commentary confirm the reading).
 113	the note runs on to the top of p-0126's apparatus ("ἐκποδὼν ὁδοῦ H. Keck, and so Wecklein: see comment."): written whole here.
+111	res: full stop after σίγα, not a raised stop, as printed
+113	res: daggers before ἐξ and after πόδα (†ἐξ ὁδοῦ πόδα†), as printed
 
 === p-0126
 --- text
@@ -151,7 +159,7 @@
 === p-0128
 --- text
 123	πλανάτας,
-123a	πλανάτας τις ὁ πρέσβυς, οὐδʼ ἔγχωρος· προσέβα γὰρ οὐκ ἄν ποτʼ ἀστιβὲς ἄλσος ἐς
+124	πλανάτας τις ὁ πρέσβυς, οὐδʼ ἔγχωρος· προσέβα γὰρ οὐκ ἄν ποτʼ ἀστιβὲς ἄλσος ἐς
 127	τᾶνδʼ ἀμαιμακετᾶν κορᾶν, ἃς τρέμομεν λέγειν καὶ
 130	παραμειβόμεσθʼ ἀδέρκτως, ἀφώνως, ἀλόγως τὸ τᾶς εὐφάμου στόμα φροντίδος
 133	ἱέντες· τὰ δὲ νῦν τινʼ ἥκειν λόγος οὐδὲν ἅζονθʼ,
@@ -172,12 +180,13 @@
 --- notes
 121	the apparatus begins with the end of the note on 121, written with p-0126.
 123	the print has a comma after πλανάτας (verse 6 of the strophe): added (seen on the whole page).
-123a	the print sets “οὐκ ἄν ποτʼ ἀστιβὲς ἄλσος ἐς” indented under this verse, with no strophe numeral (margin 125 beside it): the turnover of verse 7, join confirmed. The print has a comma after πρέσβυς: added.
+124	the print sets “οὐκ ἄν ποτʼ ἀστιβὲς ἄλσος ἐς” indented under this verse, with no strophe numeral (margin 125 beside it): the turnover of verse 7, join confirmed. The print has a comma after πρέσβυς: added.
 130	“εὐφάμου στόμα φροντίδος” is printed indented under this verse with no strophe numeral (9 here, 10 at ἱέντες), margin 132 beside it: it is the turnover of this verse, like the one at 125, so the draft's separate verse 132 is joined to 130 (numbers 131–132 skipped). The print has no stop after τᾶς: the draft's full stop removed.
 133	the print has a raised stop after ἱέντες, not a comma: changed (seen on the whole page).
-125	the apparatus note is numbered 125 as printed (the checker reports it): its lemma ἔγχωρος stands in verse 123a, whose turnover begins Perseus line 125.
+125	the apparatus note is numbered 125 as printed (the checker reports it): its lemma ἔγχωρος stands in verse 124 (Jebb counts ἔγχωρος in line 125, see his note 125 f. προσέβα γὰρ οὐκ ἄν).
 134	the apparatus note is numbered 134 as printed; in our numbering its words stand on verse 133.
 132	the apparatus note is numbered 132 as printed; its lemma εὐφάμου stands on verse 130 in our numbering (the turnover).
 132	ἁσυχίᾳ: the breathing is rough in the print (same shape as in ὁρᾶν below); ἆμαρ and ἄματι smooth.
 138	the note runs on to the top of p-0130's apparatus ("passages as Ar. Eq. 1331 ὅδʼ ἐκεῖνος ὁρᾶν."): written whole here; p-0130 must not write it again.
+124	res: renumbered from 123a: the print counts it as a verse of its own (strophe verse 7, after 123 πλανάτας), and the margin 125 on its turnover, counted from 120 at strophe verse 3, makes it 124; Jebb's commentary numbers 123 πλανάτας and 125 f. προσέβα γὰρ οὐκ ἄν.
 141	the four printed lines the draft found after this verse that matched no Perseus words are the apparatus lines (OCR of the apparatus block), not verses: nothing added.

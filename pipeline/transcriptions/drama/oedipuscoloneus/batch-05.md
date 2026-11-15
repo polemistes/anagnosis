@@ -10,10 +10,10 @@
 315	τί φῶ;
 316	ἆρʼ ἔστιν; ἆρʼ οὐκ ἔστιν; ἢ γνώμη πλανᾷ;
 317	καὶ φημὶ κἀπόφημι κοὐκ ἔχω τί φῶ.
-318	τάλαινα.
-319	οὐκ ἔστιν ἄλλη· φαιδρὰ γοῦν ἀπʼ ὀμμάτων
+318	τάλαινα·
+319	οὐκ ἔστιν ἄλλη. φαιδρὰ γοῦν ἀπʼ ὀμμάτων
 320	σαίνει με προσστείχουσα· σημαίνει δʼ ὅτι
-321	μόνης τόδʼ ἐστὶ δῆλον Ἰσμήνης κάρα.
+321	μόνης τόδʼ ἐστὶ †δῆλον† Ἰσμήνης κάρα.
 @ Οἰδίπους
 322	πῶς εἶπας, ὦ παῖ;
 @ Ἀντιγόνη
@@ -35,6 +35,10 @@
 311	OI. and AN. confirmed on one printed line: Oedipus 311, Antigone 311a.
 313	Jebb prints the MSS. reading ἡλιοστερὴς (so his apparatus), not Perseus's ἡλιοστεγὴς: changed.
 322	OI. and AN. confirmed on one printed line: Oedipus 322, Antigone 322a; δʼ is printed in 322a.
+318	res: raised stop after τάλαινα, as printed
+319	res: full stop after ἄλλη, as printed
+321	res: daggers round δῆλον (†δῆλον†), as printed (not in the residual list; seen on the whole page)
+326	res: the print has βλεπω without its accent, an evident misprint: βλέπω kept
 
 === p-0158
 --- text
@@ -178,7 +182,7 @@
 
 === p-0166
 --- text
-379	κῆδός τε καινὸν καὶ ξυνασπιστὰς φίλους
+379	κῆδός τε καινὸν καὶ ξυνασπιστὰς φίλους,
 380	ὡς αὐτίκʼ Ἄργος ἢ τὸ Καδμείων πέδον
 381	τιμῇ καθέξον ἢ πρὸς οὐρανὸν βιβῶν.
 382	ταῦτʼ οὐκ ἀριθμός ἐστιν, ὦ πάτερ, λόγων,
@@ -210,4 +214,5 @@
 383	Jebb prints ὅπου in the text (checked on the page), though his note gives ὅποι as the reading of L and the rest.
 386	The print has ὤραν with smooth breathing, as the draft (Turnebus's reading, per the note).
 387	The print has νῦν with circumflex (clear on the page, and so in the 387 note); the draft's νὺν corrected.
+379	res: comma after φίλους, as printed
 390	The 390 note ends at the head of the next spread (leaf 168, "s.v., Zonaras p. 912."): written here whole; the batch with p-0168 should not write it again.

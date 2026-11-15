@@ -108,7 +108,7 @@
 === p-0318
 --- text
 @ Πολυνείκης
-1422	αἰσχρὸν τὸ φεύγειν καὶ τὸ πρεσβεύοντʼ ἐμὲ
+1422	αἰσχρὸν τὸ φεύγειν, καὶ τὸ πρεσβεύοντʼ ἐμὲ
 1423	οὕτω γελᾶσθαι τοῦ κασιγνήτου πάρα.
 @ Ἀντιγόνη
 1424	ὁρᾷς τὰ τοῦδʼ οὖν ὡς ἐς ὀρθὸν ἐκφέρει
@@ -138,6 +138,7 @@
 1435	σφῷν δʼ εὐοδοίη MSS.: σφὼ δʼ εὐοδοίη Hermann (formerly): σφῷν δʼ εὖ διδοίη Burges.—τάδʼ εἰ τελεῖτέ μοι (με B, Vat., V²) | θανόντʼ MSS. (τελοῖτε L, made by S from τελεῖτε): τάδʼ εἰ θανόντι μοι | τελεῖτʼ Lobeck. Elmsley has τελεῖτέ με in his text, but supports τελεῖτέ μοι in his note.
 1436	θανόντʼ· ἐπεὶ οὔ μοι ζῶντί γʼ αὖθις ἕξετον MSS. (ἐπʼ οὐ L, with ει written above by S): με ζῶντα γʼ L², and so Elms., Hartung. Madvig, too, approves this, but would place the verse after 1409. Wecklein conject. θανόντʼ ἐπεί μʼ, οὐ ζῶντά γʼ αὖθις ἕξετον: Schneidewin, ἐπεὶ οὔτι ζῶντί γʼ. Dindorf and others think the verse, as a whole, spurious; Sophocles may have written θανόντι, and, the rest of the v. having been lost, an interpolator may have supplied ἐπεὶ...ἕξετον.—Hermann supposes that a v. has been lost after 1435, and that the sense was, τάδʼ εἰ τελεῖτέ μοι, ⟨τιμῆς με πρὸς σφῷν τῆς προσηκούσης τυχεῖν⟩ θανόντα.
 --- notes
+1422	res: comma after φεύγειν, as printed
 1429	the page prints οὐδʼ (with L; the apparatus gives οὐκ to B, T, Vat., Farn.), not Perseus's οὐκ: written as printed.
 1432	the page prints ἐπίσχῃς, with the iota subscript, as Perseus; the OCR's reading was only garbled. No change.
 1433	the page prints a comma after μέλουσα (ἔσται μέλουσα, δύσποτμός): added (unflagged; seen on the whole page).

@@ -66,7 +66,7 @@
 --- text
 490	ἔπειτʼ ἀφέρπειν ἄστροφος. καὶ ταῦτά σοι
 491	δράσαντι θαρσῶν ἂν παρασταίην ἐγώ·
-492	ἄλλως δὲ δειμαίνοιμʼ ἄν, ὦ ξένʼ, ἀμφὶ σοι.
+492	ἄλλως δὲ δειμαίνοιμʼ ἄν, ὦ ξένʼ, ἀμφὶ σοί.
 @ Οἰδίπους
 493	ὦ παῖδε, κλύετον τῶνδε προσχώρων ξένων;
 @ Ἀντιγόνη
@@ -82,9 +82,9 @@
 502	ἔρημον ἕρπειν οὐδʼ ὑφηγητοῦ δίχα.
 @ Ἰσμήνη
 503	ἀλλʼ εἶμʼ ἐγὼ τελοῦσα· τὸν τόπον δʼ ἵνα
-504	χρῆσταί μʼ ἐφευρεῖν, τοῦτο βούλομαι μαθεῖν.
+504	χρῆσται μʼ ἐφευρεῖν, τοῦτο βούλομαι μαθεῖν.
 @ Χορός
-505	τοὐκεῖθεν ἄλσους, ὦ ξένη, τοῦδʼ· ἢν δέ του
+505	τοὐκεῖθεν ἄλσους, ὦ ξένη, τοῦδʼ. ἢν δέ του
 --- apparatus
 491	θαρρῶν L, with the other MSS. (as in O. T. 1062 θάρρει): yet in vv. 305, 726, 1185 L has θάρσει, and in 664 θαρσεῖν.—παρασταίην B, Vat.: παρασταίμην L and the rest, except that Farn. has παραστέμην.
 492	ἄλλως δὲ] ἄλλως δʼ αὖ L.
@@ -105,6 +105,9 @@
 504	the lemma is printed χρʼ at the end of one line and ῆσται at the start of the next (no breathing visible on ῆ): written χρʼ ῆσται.
 504	in Burges's ἵνʼ ἃ | χρή, ʼσται the mark before σται is printed as a double stroke (like ″); written as the elision mark ʼ.
 505	the note runs on to the top of the next spread's apparatus (p-0186, "τοῦδʼ in that place of the verse. … κατὰ τό."): written here whole.
+492	res: σοί accented (ἀμφὶ σοί.), as printed
+504	res: χρῆσται without the second accent, as printed
+505	res: full stop after τοῦδʼ (not a raised stop), as printed (seen on the whole page, beyond the residual list)
 
 === p-0186
 --- text
@@ -153,6 +156,7 @@
 505	the page's apparatus begins with the end of the note on 505 (τοὐκεῖθεν … κατὰ τό.), written with p-0184; the next note is printed "505 f.": written 505.
 509	πονῆ (no iota subscript) and ἧν (rough breathing) copied as printed.
 506	beyond the flags: the print has a comma after ἔποικος (ἔποικος, ὃς φράσει., seen on the whole page): added.
+511	numbering kept: the margin prints 509, 515, 520 beside the verses so numbered, and 510-514 run on from 509. Jebb's own notes count ἐπεγείρειν (joined to 510 as its turnover) as 511 and ὅμως δʼ ἔραμαι πυθέσθαι as 512 (apparatus 511 ἔπʼ ἐγείρειν, 512 ἔραμαι; cp. 523 "v. 512 (ὅμως …)"): the apparatus numbers are kept as printed and refer to our 510 and 511.
 
 === p-0188
 --- text

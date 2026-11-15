@@ -13,8 +13,8 @@
 @ Χορός
 149	ἐή· ἀλαῶν ὀμμάτων
 150	ἆρα καὶ ἦσθα φυτάλμιος; δυσαίων
-151	μακραίων θʼ, ὅσʼ ἐπεικάσαι.
-152	ἀλλʼ οὐ μὰν ἔν γʼ ἐμοὶ
+152	μακραίων θʼ, ὅσʼ ἐπεικάσαι.
+153	ἀλλʼ οὐ μὰν ἔν γʼ ἐμοὶ
 --- apparatus
 142	προσίδητʼ] νομίσητʼ Meineke.
 143	ἀλεξήτωρ L, Turnebus, Wecklein: ἀλεξῆτορ A, Brunck, and most edd.
@@ -27,14 +27,15 @@
 142	The apparatus of this page begins with the end of a note from the page before ("passages as Ar. Eq. 1331 ὅδʼ ἐκεῖνος ὁρᾶν."): left to the batch before.
 146	Jebb prints αὐτοῦ (smooth breathing) in the quotation of Ai. 907: copied as printed.
 149	The print has ἐή· (raised stop), not ἐή, as Perseus: changed (line not flagged; seen clearly on the page).
-151	The print has θʼ, not γʼ (Bothe's reading, which Jebb adopts; see his apparatus): changed.
+152	The print has θʼ, not γʼ (Bothe's reading, which Jebb adopts; see his apparatus): changed.
 151	The apparatus note "151 f." runs on to the top of p-0132 (μακραίων | τʼ ἔτʼ … Campbell.): written here whole.
+152	res: renumbered to the print: the margin number 152 stands beside μακραίων θʼ, ὅσʼ ἐπεικάσαι (draft 151), so it is 152, and ἀλλʼ οὐ μὰν ἔν γʼ ἐμοὶ (draft 152) is 153; Jebb's numbers on p-0132 (apparatus 153 προσθήσει, commentary 154 περᾷς, apparatus 155 ἵνα) continue it there. Jebb's apparatus note 151 (δυσαίων | μακραίων) now names the end of verse 150 (ἆρα … δυσαίων): number kept as printed.
 
 === p-0132
 --- text
-153	προσθήσει τάσδʼ ἀράς.
-155	περᾷς γάρ,
-155a	περᾷς· ἀλλʼ ἵνα τῷδʼ ἐν ἀφθέγκτῳ μὴ προπέσῃς νάπει ποιάεντι, κάθυδρος οὗ
+153a	προσθήσει τάσδʼ ἀράς.
+154	περᾷς γάρ,
+155	περᾷς· ἀλλʼ ἵνα τῷδʼ ἐν ἀφθέγκτῳ μὴ προπέσῃς νάπει ποιάεντι, κάθυδρος οὗ
 158	κρατὴρ μειλιχίων ποτῶν ῥεύματι συντρέχει· τό,
 161	ξένε πάμμορʼ, εὖ φύλαξαι· μετάσταθʼ, ἀπόβαθι. πολλὰ κέλευθος ἐρατύει·
 165	κλύεις, ὦ πολύμοχθʼ ἀλᾶτα; λόγον εἴ τινʼ οἴσεις
@@ -53,9 +54,10 @@
 166	οἴσεις] ἔχεις L, with οἴσεις written above it, probably by the first corrector (S). The other MSS. have ἔχεις, and so Wecklein, Blaydes, Nauck. Cp. n. on 134.
 170	ἔλθοι L, and most MSS.: ἔλθῃ (or ἔλθη) A, R, V³.
 --- notes
-153	The print has an asterisk before προσθήσει (Jebb's conjecture admitted): left out. Apparatus: the print has "Blades and Postgate", an evident misprint for Blaydes (so spelt everywhere else in the apparatus): written Blaydes.
-155a	Lettered verse confirmed: the print sets περᾷς γάρ, (small numeral 6) and περᾷς· ἀλλʼ … (numeral 7) as two verses. The next printed line, ποιάεντι, κάθυδρος οὗ (margin 157), is set in under it without a numeral: the turnover of this verse, joined to it (157 removed; unflagged, seen on the whole page).
-155a	Apparatus: Jebb numbers his notes on this verse 155 (ἵνα) and 156 (προσπέσῃς): kept as printed.
+153a	The print has an asterisk before προσθήσει (Jebb's conjecture admitted): left out. Apparatus: the print has "Blades and Postgate", an evident misprint for Blaydes (so spelt everywhere else in the apparatus): written Blaydes.
+155	The print sets περᾷς γάρ, (small numeral 6) and περᾷς· ἀλλʼ … (numeral 7) as two verses. The next printed line, ποιάεντι, κάθυδρος οὗ (margin 157), is set in under it without a numeral: the turnover of this verse, joined to it (157 removed; unflagged, seen on the whole page).
+155	Apparatus: Jebb numbers his notes on this verse 155 (ἵνα) and 156 (προσπέσῃς): kept as printed.
+153a	res: renumbered to the print, running on from the margin number 152 on p-0130 (μακραίων = 152, ἀλλʼ οὐ μὰν = 153): Jebb's apparatus numbers προσθήσει 153, so it is the second verse in 153 (153a, was 153); his commentary numbers περᾷς γάρ 154 (was 155) and his apparatus ἵνα 155, so περᾷς· ἀλλʼ ἵνα … is 155 (was 155a). The margin number 157 stands on that verse's turnover, which it covers (155-157). Lettering kept rather than running on to 154-156, so that Jebb's numbers 153 and 154 stay on the verses they name.
 158	The print has συντρέχει· τό, (Jebb's reading τό, Heath's: see his note 161), not συντρέχει, τόν,: changed. The margin number 160 beside this verse is Jebb's numbering; his notes 160 (ῥεύματι) and 161 (τῶν) refer to this verse: numbers kept as printed.
 161	The print has φύλαξαι· and μετάσταθʼ, (raised stop, comma), not φύλαξαι; μετάσταθʼ: changed (unflagged; seen on the whole page). The next printed line, κέλευθος ἐρατύει·, is set in without a numeral: the turnover of this verse, joined to it (163 removed; unflagged, seen on the whole page).
 163	Apparatus: Jebb's note 164 (ἐρατύει) refers to the end of our 161; his 166 (οἴσεις) to our 165: numbers kept as printed.
@@ -73,7 +75,7 @@
 173a	ψαύω καὶ δή.
 @ Οἰδίπους
 174	ὦ ξεῖνοι, μὴ δῆτʼ ἀδικηθῶ
-174a	σοὶ πιστεύσας καὶ μεταναστάς.
+175	σοὶ πιστεύσας καὶ μεταναστάς.
 @ Χορός
 176	οὔ τοι μήποτέ σʼ ἐκ τῶνδʼ ἑδράνων, ὦ γέρον, ἄκοντά τις ἄξει.
 @ Οἰδίπους
@@ -105,7 +107,7 @@
 171	The apparatus of this page begins with the end of the note on 170 ("A, R, V³."), written with p-0132.
 173a	The print has both speeches on one line (ΟΙ. πρόσθιγέ νύν μου. ΑΝ. ψαύω καὶ δή.): split with the speaker as in the draft; μου. confirmed.
 174	The print has ξεῖνοι (Jebb's reading; his apparatus: ξεῖνοι] ξένοι MSS.: ξένε Nauck), not ξένε: changed.
-174a	σοὶ confirmed (two printed verses, as the draft). Apparatus: Jebb numbers this verse 175: kept as printed.
+175	σοὶ confirmed (two printed verses, as the draft). res: renumbered 174a to 175, as the print counts it (Jebb's apparatus and commentary 175 σοὶ; the verses run on from the margin number 174 to 176 τῶνδʼ ἑδράνων).
 176	Turnover confirmed: τις ἄξει. is set in under the verse; ἄκοντά and τῶνδʼ stand on the first printed line as the draft has them. Apparatus: Jebb's note 177 (ἄξει) refers to this verse: number kept as printed.
 178a	The print has both speeches on one line (ΟΙ. ἔτʼ οὖν; ΧΟ. ἔτι βαῖνε πόρσω.): split as in the draft. Likewise 180/180a (ΟΙ. ἔτι; ΧΟ. προβίβαζε, κούρα,).
 181	Where Perseus marks lost verses (181a-c), Jebb prints three lines of metrical scheme, numbered 5, 6, 7 in his strophe, with speakers ΑΝ., ΟΙ., ΑΝ. in the margin: written as three `!` lines with the speakers (@ Ἀντιγόνη, @ Οἰδίπους, @ Ἀντιγόνη). Signs: ⏑ short, – long, –⏑ the long joined to a short as printed (no single character for it), ⏗ the triseme (printed └), ‖ double bar, ‖͒ the double bar with a pause mark (fermata) over it, ∧ the pause (printed Λ), ⟧ the closing bracket printed at the end of the period. His translation says: "[A verse for Antigone, a verse for Oedipus, and then another verse for Antigone, seem to have been lost here.]"

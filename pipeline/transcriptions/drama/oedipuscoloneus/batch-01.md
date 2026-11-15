@@ -24,7 +24,7 @@ Sigla: L = cod. Laur. 32. 9 (first half of eleventh century). r = one or more of
 12	ὅπου ποτʼ ἐσμέν· μανθάνειν γὰρ ἥκομεν
 13	ξένοι πρὸς ἀστῶν, ἃν δʼ ἀκούσωμεν τελεῖν.
 @ Ἀντιγόνη
-14	πάτερ ταλαίπωρʼ Οἰδίπους, πύργοι μέν, οἳ
+14	πάτερ ταλαίπωρʼ Οἰδίπους, πύργοι μὲν οἳ
 15	πόλιν στέγουσιν, ὡς ἀπʼ ὀμμάτων, πρόσω·
 --- apparatus
 9	θάκοισιν MSS., which Elmsley keeps, with the older edd.: θάκησιν Seidler, and so most of the recent edd. This conject. is also in R (cod. 34, Riccardian Library, a MS. of the 16th cent., acc. to P. N. Pappageorgius, Jahrb. f. Class. Phil., suppl. xiii. p. 406, 1883), η having been written over οι by a corrector.
@@ -35,6 +35,7 @@ Sigla: L = cod. Laur. 32. 9 (first half of eleventh century). r = one or more of
 5	the apparatus opens with the end of the note on 5, written with p-0106.
 13	the breathings of ἃν, χἂν, ἃ and ἂν in the note are small in the scan; read as the sense requires (ἃν = ἃ ἄν, koronis on χἂν), consistent with the crops.
 15	the note ends at the top of leaf 110 (Blaydes.); written whole here.
+14	res: μὲν οἳ (grave, no comma after it), as printed
 
 === p-0110
 --- text
@@ -81,7 +82,7 @@ Sigla: L = cod. Laur. 32. 9 (first half of eleventh century). r = one or more of
 32	εὔκαιρόν ἐστιν, ἔννεφʼ, ὡς ἁνὴρ ὅδε.
 @ Οἰδίπους
 33	ὦ ξεῖνʼ, ἀκούων τῆσδε τῆς ὑπέρ τʼ ἐμοῦ
-34	αὑτῆς θʼ ὁρώσης, οὕνεχʼ ἡμὶν αἴσιος
+34	αὑτῆς θʼ ὁρώσης οὕνεχʼ ἡμὶν αἴσιος
 35	σκοπὸς προσήκεις ὧν ἀδηλοῦμεν φράσαι—
 @ Ξένος
 36	πρίν νυν τὰ πλείονʼ ἱστορεῖν, ἐκ τῆσδʼ ἕδρας
@@ -104,6 +105,7 @@ Sigla: L = cod. Laur. 32. 9 (first half of eleventh century). r = one or more of
 38	νομίζεται; checked: printed on this line; speaker ΟΙ. as in the draft.
 40	Γῆς checked: the print has Γῆς; no change.
 40	the note on 40 ends at the top of leaf 114 (σκότος (acc.) in H. F. 1159, fr. 538.); written whole here.
+34	res: no comma after ὁρώσης, as printed
 
 === p-0114
 --- text
@@ -146,14 +148,14 @@ Sigla: L = cod. Laur. 32. 9 (first half of eleventh century). r = one or more of
 @ Οἰδίπους
 52	τίς ἔσθʼ ὁ χῶρος δῆτʼ ἐν ᾧ βεβήκαμεν;
 @ Ξένος
-53	ὅσʼ οἶδα κἀγὼ πάντʼ ἐπιστήσει κλύων·
+53	ὅσʼ οἶδα κἀγὼ πάντʼ ἐπιστήσει κλύων.
 54	χῶρος μὲν ἱρὸς πᾶς ὅδʼ ἔστʼ· ἔχει δέ νιν
 55	σεμνὸς Ποσειδῶν· ἐν δʼ ὁ πυρφόρος θεὸς
-56	Τιτὰν Προμηθεύς· ὃν δʼ ἐπιστείβεις τόπον,
+56	Τιτὰν Προμηθεύς· ὃν δʼ ἐπιστείβεις τόπον
 57	χθονὸς καλεῖται τῆσδε χαλκόπους ὀδός,
 58	ἔρεισμʼ Ἀθηνῶν· οἱ δὲ πλησίοι γύαι
 59	τόνδʼ ἱππότην Κολωνὸν εὔχονται σφίσιν
-60	ἀρχηγὸν εἶναι καὶ φέρουσι τοὔνομα
+60	ἀρχηγὸν εἶναι, καὶ φέρουσι τοὔνομα
 61	τὸ τοῦδε κοινὸν πάντες ὠνομασμένοι.
 --- apparatus
 51	ἄτιμοσ γʼ (sic) ἔκ γʼ L. There are other instances in L of τʼ, γʼ, or δʼ thus thrust in by the scribe: cp. vv. 52, 1279. By an opposite error B has ἄτιμος ἐξ ἐμοῦ.
@@ -171,3 +173,6 @@ Sigla: L = cod. Laur. 32. 9 (first half of eleventh century). r = one or more of
 54	the print has ἱρὸς (Perseus ἱερὸς); changed to the print.
 55	the note's last words (See comment.) stand at the head of the facing page's apparatus.
 63	the note on 63 (a verse of the next page) begins at the foot of leaf 117 and ends at the top of leaf 118 (above: πλέω Suidas s. v. Ξυνουσία. Schneidewin conject. λεώ.); written whole here, as the brief asks; batch 02 must not write it again.
+53	res: full stop after κλύων, as printed
+56	res: no comma after τόπον, as printed
+60	res: comma after εἶναι, as printed

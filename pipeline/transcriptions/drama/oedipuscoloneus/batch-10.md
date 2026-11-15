@@ -58,7 +58,7 @@
 --- text
 715	πρώταισι ταῖσδε κτίσας ἀγυιαῖς.
 716	ἁ δʼ εὐήρετμος ἔκπαγλʼ ἁλία χερσὶ παραπτομένα πλάτα
-718	θρῴσκει, τῶν ἑκατομπόδων
+718	θρώσκει, τῶν ἑκατομπόδων
 719	Νηρῄδων ἀκόλουθος.
 @ Ἀντιγόνη
 720	ὦ πλεῖστʼ ἐπαίνοις εὐλογούμενον πέδον,
@@ -85,6 +85,7 @@
 715	renumbered by the margin (715 beside πρώταισι, 720 beside ὦ πλεῖστʼ) and Jebb's notes (715 ταῖσδʼ, 716 ἁ δʼ, 717 παραπτομένα): the draft's 716, 717 are now 715, 716 (ἁ δʼ … πλάτα covers 716-717).
 716	The turnover πλάτα, set in on the next line, confirmed as the end of this verse (antistrophe numeral 8).
 717	Apparatus: Jebb numbers this note 717 (παραπτομένα, in the verse numbered 716): kept as printed.
+718	res: θρώσκει without iota subscript, as printed
 721	The asterisk before σὸν (Jebb's mark of a conjecture) is left out.
 722	The print sets ΑΝ. inside the line after καινόν; (one verse shared by two speakers): the split at ἆσσον and the speakers are confirmed. ἆσσον confirmed on the image.
 727	The print has γεγήρακε (no final ν), as the OCR read: changed from γεγήρακεν.

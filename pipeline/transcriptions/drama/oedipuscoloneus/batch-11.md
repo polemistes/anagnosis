@@ -1,13 +1,13 @@
 === p-0228
 --- text
 775	καίτοι τίς αὕτη τέρψις, ἄκοντας φιλεῖν;
-776	ὥσπερ τις εἴ σοι λιπαροῦντι μὲν τυχεῖν
+776	ὥσπερ τις εἰ σοὶ λιπαροῦντι μὲν τυχεῖν
 777	μηδὲν διδοίη μηδʼ ἐπαρκέσαι θέλοι,
 778	πλήρη δʼ ἔχοντι θυμὸν ὧν χρῄζοις, τότε
 779	δωροῖθʼ, ὅτʼ οὐδὲν ἡ χάρις χάριν φέροι·
 780	ἆρʼ ἂν ματαίου τῆσδʼ ἂν ἡδονῆς τύχοις;
 781	τοιαῦτα μέντοι καὶ σὺ προσφέρεις ἐμοί,
-782	λόγῳ μὲν ἐσθλά. τοῖσι δʼ ἔργοισιν κακά.
+782	λόγῳ μὲν ἐσθλά, τοῖσι δʼ ἔργοισιν κακά.
 783	φράσω δὲ καὶ τοῖσδʼ, ὥς σε δηλώσω κακόν.
 784	ἥκεις ἔμʼ ἄξων, οὐχʼ ἵνʼ ἐς δόμους ἄγῃς,
 785	ἀλλʼ ὡς πάραυλον οἰκίσῃς, πόλις δέ σοι
@@ -30,6 +30,8 @@
 --- notes
 775	margin number 775 printed beside this verse: numbering confirmed. The print has a comma after τέρψις: added (seen in the flagged strip).
 783	φράσω: the print has φράσω, as the draft; the OCR split the word.
+776	res: εἰ σοὶ (no accent on εἰ, grave on σοὶ), as printed
+782	res: comma after ἐσθλά, not a full stop, as printed
 787	Apparatus: the note on 787 runs on to the top of the next text page's apparatus (leaf 230, “accent remains.”): written whole here.
 
 === p-0230
@@ -59,16 +61,16 @@
 --- text
 @ Κρέων
 800	πότερα νομίζεις δυστυχεῖν ἔμʼ ἐς τὰ σά,
-801	ἤ σʼ εἰς τὰ σαυτοῦ μᾶλλον, ἐν τῷ νῦν λόγῳ;
+801	ἢ σʼ εἰς τὰ σαυτοῦ μᾶλλον, ἐν τῷ νῦν λόγῳ;
 @ Οἰδίπους
 802	ἐμοὶ μέν ἐσθʼ ἥδιστον εἰ σὺ μήτʼ ἐμὲ
 803	πείθειν οἷός τʼ εἶ μήτε τούσδε τοὺς πέλας.
 @ Κρέων
 804	ὦ δύσμορʼ, οὐδὲ τῷ χρόνῳ φύσας φανεῖ
-805	φρένας ποτʼ ἀλλὰ λῦμα τῷ γήρᾳ τρέφει;
+805	φρένας ποτʼ, ἀλλὰ λῦμα τῷ γήρᾳ τρέφει;
 @ Οἰδίπους
 806	γλώσσῃ σὺ δεινός· ἄνδρα δʼ οὐδένʼ οἶδʼ ἐγὼ
-807	δίκαιον ὅστις ἐξ ἅπαντος εὖ λέγει.
+807	δίκαιον, ὅστις ἐξ ἅπαντος εὖ λέγει.
 @ Κρέων
 808	χωρὶς τό τʼ εἰπεῖν πολλὰ καὶ τὰ καίρια.
 @ Οἰδίπους
@@ -91,6 +93,9 @@
 800	margin number 800 printed beside this verse: numbering confirmed.
 801	the print has ἐν τῷ νῦν λόγῳ, not ἐς: changed.
 802	ἐσθʼ and σὺ are printed on this line, as the draft; the print has no comma after ἥδιστον: removed.
+801	res: ἢ with grave accent, as printed
+805	res: comma after ποτʼ, as printed
+807	res: comma after δίκαιον, as printed
 813	Apparatus: Jebb's note “813 f.”, written under 813; it runs on from the facing page to the top of the next text page's apparatus (leaf 234, “φίλους etc.”): written whole here. Jebb spaces πρόσθε (Erfurdt's reading) for emphasis: written plain.
 
 === p-0234
@@ -225,7 +230,7 @@
 851	ταχθεὶς τάδʼ ἔρδω, καὶ τύραννος ὢν ὅμως,
 852	νίκα. χρόνῳ γάρ, οἶδʼ ἐγώ, γνώσει τάδε,
 853	ὁθούνεκʼ αὐτὸς αὑτὸν οὔτε νῦν καλὰ
-854	δρᾷς οὔτε πρόσθεν εἰργάσω βίᾳ φίλων,
+854	δρᾷς οὔτε πρόσθεν εἰργάσω, βίᾳ φίλων
 855	ὀργῇ χάριν δούς, ἥ σʼ ἀεὶ λυμαίνεται.
 @ Χορός
 856	ἐπίσχες αὐτοῦ, ξεῖνε.
@@ -250,3 +255,4 @@
 845	the print has εἶ μοι (circumflex), not εἴ: changed (unflagged word, seen clearly in the flagged strip of 845a). The print has ΟΙ. ποῦ, τέκνον, εἶ μοι; ΑΝ. πρὸς βίαν πορεύομαι. on one line: split as in the draft. 846/846a, 847/847a and 856/856a likewise one printed line each, split as in the draft, speakers as printed.
 855	margin number 855 printed beside this verse: numbering confirmed.
 859	the print has τούτοιν, not ταύταιν: changed.
+854	res: comma after εἰργάσω, none after φίλων, as printed
