@@ -525,6 +525,10 @@ The metrical analyses are not transcribed (as for Ajax and Electra).
   vol. I (log build/logs/euripides-setup.md). The Medea's page agents start when the
   Philoctetes commentary has been read.
 
+* **2026-11-16, the author: "After Medea, take Alcestis also."** Passed on to the Euripides
+  set-up agent for pipeline/PLAN-euripides.md, which is from now on the place for everything
+  about Euripides.
+
 ## Decisions
 
 * 2026-11-15: order by least work left (Trachiniae first).
