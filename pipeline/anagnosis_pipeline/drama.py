@@ -379,7 +379,10 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          # leaf = PDF page (leaves from 1; 344-347 hidden): the Greek on the even leaves 76-296;
          # the Appendix 299-324; the introduction 11-49 and 73-75, and the whole commentary
          # (under the text, two columns), which Perseus lacks
-         text_leaves=[(76, 297)]),
+         # prose leaves: the introduction 11-46 and "Manuscripts, editions, etc." 47-49 (the
+         # metrical analysis 50-70 is not transcribed); the arguments, persons and structure
+         # 73-75; the Appendix 299-324. The commentary (kind notes) is still to be set up.
+         text_leaves=[(76, 297)], intro_leaves=[(11, 49), (73, 75)], appendix_leaves=[(299, 324)]),
     # Hesiod's Theogony (pipeline/PLAN-theogony.md): Rzach's Teubner text and apparatus, Paley's
     # commentary (his own text and critical notes on the same pages are not used)
     Play("theogony", "Θεογονία", "Theogony", "Ἡσίοδος", "Hesiod", "tlg0020.tlg001",
