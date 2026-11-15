@@ -13,40 +13,58 @@ A session that picks this up: read **Progress** below, `git status`, `git log -5
 Commit after every verified stage. The method is the one Ajax and Electra were made with
 (texts/README.md, "Sophocles' other plays"; the briefs in `transcriptions/sophocles/`).
 
-## Steps for each play
+## The route: the drama pipeline (OCR, flags, residuals), not the old by-eye batches
 
-Page ranges (PDF pages = image numbers) are in `build/sophocles-pages/pages.json`.
+**The author, 2026-11-15: "follow the paths that have already been proven to be most efficient
+and least prone to error."** That is the route of `PLAN-drama.md` (read its "How to work from
+this brief", "Steps for each play" and Decisions before anything else), by which every text
+since the Gorgias was made, the Clouds on pages laid out like Jebb's (`layout="jebb"`):
+Tesseract reads the page, the OCR is matched to the check text, agents decide only the flagged
+places and copy the apparatus from crops, a residual pass settles what flags do not see
+(punctuation, brackets, low-confidence words), and the print's own verse division and margin
+numbers come from the page, so no separate lyric pass is needed. The old Sophocles briefs
+(INSTRUCTIONS.md, LYRICS.md: agents read whole pages by eye) are NOT to be used for new pages.
 
-1. **First pass** (INSTRUCTIONS.md): critical apparatus and text check, 8 pages per agent,
-   files `batch-NN.md`, numbered in page order. Agents: general-purpose, **Opus**, at most 10
-   at once, each appending page by page and running `check-sophocles-batch`. Run them with the
-   workflow `transcriptions/sophocles/sophocles.workflow.js` (args in its header; `kind: batch`),
-   ten jobs at a time. Do NOT run `import-sophocles <play>` while first-pass agents work
-   (they compare with the frozen `reference-grc.txt`, but the lyric pass reads `texts/<play>/grc.txt`).
-2. **Appendix** (APPENDIX.md, `appendix-NN.md`, ~7 pages per agent) and **front matter**
-   (INTRODUCTION.md, `introduction-NN.md`): independent of step 1, can run beside it.
-   Front-matter pages may have to be rendered first (pdftoppm, width 1600, as `_render` in
-   sophocles_pages.py); find them with `pdftotext -f N -l N`.
-3. `check-sophocles-batch <play> <all batch files>`; look at the agents' `--- notes`; then
-   `merge-sophocles-apparatus <play>`, `import-sophocles <play>`; commit.
-4. **Lyric pass** (LYRICS.md, `lines-NN.md`, `kind: lines`): the pages where the first pass
-   reported "numbering differs" or moved words between verses (odes, kommoi): list them from
-   the batches' differences and notes, about 5–6 pages per agent. Then `import-sophocles` again;
-   aim, as for Electra: nearly every apparatus lemma stands in the line that carries its number.
-5. `merge-sophocles-appendix <play>`; `sigla.md` (Jebb's note on his symbols, from the first
-   apparatus page, as texts/electra/sigla.md); `glossary.md` (names the dictionaries lack) and
-   `shortdefs.tsv`; lemma slips listed by `check` and `build/<play>-review.tsv` corrected in the
-   importer; `about.md` gets its `product_id`.
-6. `build --only <play>`, `check`, `catalog`; asset pack `app/packs/<play>` registered in
-   `app/settings.gradle.kts` and `app/androidApp/build.gradle.kts`; a row in `play/README.md`;
-   the "Done so far" line of texts/README.md. Emulator check (free RAM first; no Gradle build
-   beside two emulators; stop Gradle and close the emulator afterwards). Commit; update Progress.
+What has to be set up once for the Sophocles plays (then each play is a `drama.PLAYS` entry):
+
+1. **A `Play` entry** per play in drama.py: scan (`SCANS` in sophocles_pages.py), `layout="jebb"`,
+   the AGDT treebank (Trachiniae, OT) or GLAUx (OC, Philoctetes) as `sophocles.PLAYS` names them,
+   Jebb's translation from Perseus, product id, `text_leaves` (the PDF page numbers in
+   build/sophocles-pages/pages.json are not leaf numbers: convert with the scan's scandata.xml,
+   `leaf_of`, and look at the first and last text page).
+2. **The check text is Jebb's own text from Perseus** (`sources/<play>.perseus-gk.xml`, TEI P4,
+   read today by sophocles.py / tei_p4.py), not the canonical grc2 file `load_perseus` expects:
+   give `load_perseus` a P4 reader that returns the same structure as `perseus_play` (tokens,
+   lines, sections, stage directions, speakers), with a test.
+3. `drama-pages <play> fetch | ocr | draft` in the background; read the summary. More than 70 %
+   of the lines flagged on clean print = the matching or the layout is wrong: fix the module
+   first (the rough test of 2026-10-23 flagged 53 % of Jebb's lines, with a cruder
+   normalisation than drama_pages has; the Agamemnon had 26 %).
+4. Text batches (`transcriptions/drama/<play>/batch-NN.md`, INSTRUCTIONS-text.md, six pages
+   each, Opus, at most 10 at once, by workflow), checker, then `drama-residuals` and its pass
+   (RESIDUALS.md); the Clouds also had a review agent per batch (REVIEW.md): use it only if
+   the author asks.
+5. `merge-drama <play>`. **What Perseus already gives stays**: Jebb's commentary
+   (`commentary-jebb.md`) and his introduction, made by `import-sophocles`; make sure the merge
+   keeps them (the commentary is keyed to Jebb's line numbers, which the merged text now
+   carries) and that `import-sophocles` is no longer run for a play once it is on this route.
+6. **The English prose Perseus lacks** by the prose OCR route (`drama-prose`, word flags,
+   INSTRUCTIONS-prose.md, eight pages per agent): the manuscripts chapter and the pages before
+   the text (kind `intro`, added after Perseus's chapters as `import-sophocles` does today),
+   and Jebb's Appendix (a new kind `appendix`, written as `appendix.md` in the format of
+   texts/electra/appendix.md; APPENDIX.md and INTRODUCTION.md keep their format rules). For
+   the Oedipus Tyrannus and the Philoctetes the whole introduction, for the Philoctetes the
+   whole commentary (kind `notes`), come this way too.
+7. `sigla.md`, `glossary.md`, `shortdefs.tsv`, review list, `about.md` with its `product_id`
+   (no sale mark), `build --only <play>`, `check`, `catalog`, the asset pack, play/README.md
+   row, texts/README.md, emulator check: as PLAN-drama.md steps 8–10.
 
 ## Which model reads
 
-Blind test 2026-11-15: Sonnet re-transcribed Electra pp. 150–153 (text pages) and 301–302
-(appendix) without seeing Opus's batches; results under Progress. Until it says otherwise:
-Greek text check and apparatus on Opus.
+Page agents on Opus (PLAN-drama.md; the author finds Opus the best reader). A blind test was
+started 2026-11-15: Sonnet re-transcribed Electra pp. 150–153 and 301–302 without seeing
+Opus's batches; result under Progress when it is in. Sonnet is for code written to a contract,
+tests and mechanical checks.
 
 ## What each play still needs
 
@@ -61,12 +79,17 @@ The metrical analyses are not transcribed (as for Ajax and Electra).
 
 ## Progress
 
-* **2026-11-15, Trachiniae.** First pass: batches 01–08 (pages 80–143) started on Opus;
-  09–22 (144–257, the last one 248–257) to follow, then appendix 259–284 and front matter
-  55–58, 77–79. Pages 77–79 rendered.
+* **2026-11-15, Trachiniae.** Before the author's word on the route, eight by-eye batches of
+  the old kind were started (transcriptions/sophocles/trachiniae/batch-01…08, pages 80–143,
+  Opus). They are let finish and kept **only as an audit**: once the drama route has merged the
+  text, compare its verses and apparatus for those pages with these batches and look at every
+  disagreement on the page. Nothing else of the old route is run. Next: set-up items 1–3 above
+  for the Trachiniae. PDF pages 77–79 rendered (build/sophocles-pages/trachiniae).
 
 ## Decisions
 
-* 2026-11-15: order by least work left (Trachiniae first); 8 pages per agent; the old route
-  (agents read the page images) kept rather than building an OCR route for Jebb's text pages:
-  the OCR test of 2026-10-23 flagged over half the lines, so it would save little there.
+* 2026-11-15: order by least work left (Trachiniae first).
+* 2026-11-15: the drama pipeline's OCR route for all four plays (the author's word; see "The
+  route"). My first choice that day, to go on with the old by-eye batches, was wrong: it
+  ignored that the route had been replaced after the Gorgias and the Agamemnon showed what a
+  reader's eye misses (PLAN-drama.md, Decisions, "Agamemnon step 4: a second pass").

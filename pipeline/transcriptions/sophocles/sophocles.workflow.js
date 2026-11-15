@@ -8,7 +8,8 @@ export const meta = {
 // args: { play: 'trachiniae', title: 'Trachiniae', scratch: '<session scratchpad>', model: 'opus',
 //         kind: 'batch' | 'lines' | 'appendix' | 'introduction',
 //         jobs: [{ id: '09', from: 144, to: 151 }  or  { id: '01', pages: [120, 122, 124] }] }
-// See pipeline/PLAN-sophocles.md. At most 10 jobs per run.
+// OLD ROUTE (agents read whole pages by eye), kept for the record: PLAN-sophocles.md now
+// prescribes the drama pipeline (OCR, flags, residuals). Do not use for new pages.
 const ROOT = '/home/proteus/koding/anagnosis/pipeline'
 const { play, title, scratch, kind, jobs } = args
 const model = args.model || 'opus'
