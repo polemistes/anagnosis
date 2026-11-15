@@ -341,6 +341,37 @@ The metrical analyses are not transcribed (as for Ajax and Electra).
   verses, 216 flagged), 19 batch files of which 13 hold partial first-pass work. The work
   ends with the Oedipus at Colonus.
 
+* **2026-11-15: THE OEDIPUS TYRANNUS IS FINISHED** (c4f67ea; built, catalogue, pack,
+  `sophocles_oedipustyrannus_jebb`, no sale mark). Finishing: introduction (§§ 1–30,
+  manuscripts chapter, arguments, persons, structure) and Appendix (18 notes) joined; lyric
+  numbering (kommos 649–699, second and fourth stasimon); 22 hand analyses, 11 lemma fixes;
+  glossary 15, shortdefs 29, sigla. Perseus's commentary and translation for this play are
+  the SECOND edition (1887): `PERSEUS_EDITION` in sophocles.py, said in about.md. The
+  emulator check (Opus agent) then found, and the same agent fixed, in shared code so that
+  the next play gets them too: sections named by the division holding most of their verses
+  (`label_parts`; applied by merge-drama to plays with a check text); the opening words
+  printed in capitals written as the check text has them (INSTRUCTIONS-text.md); a line the
+  print sets as one shared verse is one lettered verse (683/683a/683b), whatever number a
+  note gives a part of it; Perseus's `<gap/>` = Jebb's "…" kept in the commentary; no
+  italics marks in headings; a misprint in a prose document corrected with a bracketed
+  paragraph "[Correction in this edition: the print has …]". Undecided and left: Jebb's own
+  notes disagree on 1195–1197; 502 has no printed number. Not caused by our data (app):
+  taps in a contents list sometimes land one section early; the glossary entry of a name is
+  never shown when the name has a short definition; "in apposition of ','" on the syntax
+  sheet. Counts for the PUBLISHED plays, not regenerated: section labels would change in the
+  Ajax at 718 (Third episode) and 961 (Fourth episode), not in Electra or Antigone; the
+  ellipsis fix changes nothing in them.
+* **Oedipus at Colonus**: first pass back (22 agents, 4.0 M tokens) and committed (8920ee9);
+  818 residuals; the residual pass runs (nine at once). Prose leaves set (intro 55–66 and
+  99–105, appendix 373–397: to be verified on the drafts; leaf ≠ PDF page), `drama-prose
+  oedipuscoloneus intro|appendix fetch|ocr|draft` started (log build/logs/
+  oedipuscoloneus-prose.log). Its batch-01 still has the opening word with the OCR's capital
+  (Τέκνον): to be written as the check text has it. Next: checker, commit, review (with the
+  `extra` text of the Oedipus Tyrannus review), merge, `sophocles-numbering`, prose check +
+  second reading (Appendix and argument pages; the introduction pages the first check only,
+  unless the author says otherwise), finishing agent, emulator check (which should also
+  spot-check the fixed points in the Trachiniae and the Oedipus Tyrannus).
+
 ## Decisions
 
 * 2026-11-15: order by least work left (Trachiniae first).

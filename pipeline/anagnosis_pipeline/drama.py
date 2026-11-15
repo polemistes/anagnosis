@@ -367,7 +367,10 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          # is not its PDF page: PDF 100-363 (the text) = leaves 106-371, the Greek on every other
          # shown leaf from 106; the Appendix PDF 365-388 = leaves 373-398; "Manuscripts,
          # editions, etc." about PDF 53-57 = leaves 55-59; the persons about PDF 97 = leaf 103
-         text_leaves=[(106, 371)]),
+         # prose leaves (PDF page in brackets): "Manuscripts, editions, etc." 55-66 [53-64]; the
+         # arguments, persons and structure before the text 99-105 [93-99]; the Appendix 373-397
+         # [365-387]
+         text_leaves=[(106, 371)], intro_leaves=[(55, 66), (99, 105)], appendix_leaves=[(373, 397)]),
     Play("philoctetes", "Φιλοκτήτης", "Philoctetes", "Σοφοκλῆς", "Sophocles", "tlg0011.tlg006",
          "Sophocles: The Plays and Fragments, Part IV: The Philoctetes, ed. R. C. Jebb, second edition, Cambridge University Press, 1898",
          "playsfragmentswi04sophuoft", "jebb", "R. C. Jebb", "sophocles_philoctetes_jebb",
