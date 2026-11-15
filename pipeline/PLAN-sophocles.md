@@ -529,6 +529,22 @@ The metrical analyses are not transcribed (as for Ajax and Electra).
   set-up agent for pipeline/PLAN-euripides.md, which is from now on the place for everything
   about Euripides.
 
+* **2026-11-16, Philoctetes commentary.** First check back (28 agents, 4.6 M tokens; every
+  flag answered; several agents rewrote notes from the images where the draft had woven the
+  two columns' lines together) and committed. Second reading tried on four batches (03, 08,
+  14, 22; 32 pages; 0.57 M): two wrong accents of ours (ὃς, ὥς), one wrong bolding, two
+  spacing trifles, and two misprints of Jebb's found and corrected with a note (ἐνβολή for
+  ἐκβολή; a lost quotation mark); two batches of the four needed nothing. By the author's
+  rule (a pass stays if it catches errors that would otherwise remain) **the other 24
+  batches get the second reading too**: running, eight at once. The finishing agent works
+  beside it (log build/logs/philoctetes-finish-agent.md); when both are back: `sophocles-prose
+  philoctetes`, `build --only philoctetes`, `catalog`, `check`, then the emulator check
+  (8 GB free memory needed).
+* **Euripides** is from now on in pipeline/PLAN-euripides.md (set-up done and committed
+  35858ec, 72c5753: private/, the pre-push hook, the `release:` date, Murray's layout options,
+  the Medea's draft: 57 pages, 1,405 verses, 72 flagged, 10 batches). The Medea's batch 01
+  runs alone as a trial.
+
 ## Decisions
 
 * 2026-11-15: order by least work left (Trachiniae first).
