@@ -131,6 +131,10 @@ class Play:
     # "lake" (lake_pages: the batches in transcriptions/<slug>/, notes headed by the traditional
     # reference, ## Mandate 4.1.2)
     route: str = ""
+    # the check text from a file in our own text format (under pipeline/transcriptions/) instead
+    # of the canonical Perseus TEI: Jebb's Sophocles, whose Perseus text (TEI P4, Jebb's own) was
+    # imported by sophocles.py and frozen as sophocles/<slug>/reference-grc.txt
+    check_text: str = ""
 
     @property
     def perseus(self) -> str:
@@ -319,6 +323,17 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          notes_editor="rogers", notes_editor_name="Benjamin Bickley Rogers",
          notes_edition="The Lysistrata of Aristophanes, with a translation into corresponding metres, introduction and commentary by Benjamin Bickley Rogers, London, George Bell and Sons, 1911",
          notes_scan="aristophaniscomo04aris"),
+    # Sophocles in Jebb's edition (pipeline/PLAN-sophocles.md): text and apparatus by this route;
+    # Jebb's commentary, introduction and translation are Perseus's, made by sophocles.py
+    Play("trachiniae", "Τραχίνιαι", "Trachiniae", "Σοφοκλῆς", "Sophocles", "tlg0011.tlg001",
+         "Sophocles: The Plays and Fragments, with critical notes, commentary, and translation in English prose, by R. C. Jebb, Part V: The Trachiniae, Cambridge, University Press, 1892",
+         "sophocles05soph", "jebb", "R. C. Jebb", "sophocles_trachiniae_jebb",
+         treebank="tlg0011.tlg001.perseus-grc2.tb.xml", layout="jebb",
+         check_text="sophocles/trachiniae/reference-grc.txt",
+         # leaf = PDF page (leaf 0 is hidden): the Greek on the even leaves 80-256, Jebb's
+         # translation facing it; the Appendix 259-284; "Manuscripts, editions, etc." 55-58;
+         # Jebb's note in place of an ancient argument, the persons and the structure 77-79
+         text_leaves=[(80, 257)]),
     # Hesiod's Theogony (pipeline/PLAN-theogony.md): Rzach's Teubner text and apparatus, Paley's
     # commentary (his own text and critical notes on the same pages are not used)
     Play("theogony", "Θεογονία", "Theogony", "Ἡσίοδος", "Hesiod", "tlg0020.tlg001",
@@ -572,10 +587,56 @@ def perseus_play(path: Path) -> dict:
     return {"tokens": tokens, "lines": lines, "sections": sections, "stages": stages, "speakers": speakers}
 
 
+def textfile_play(path: Path) -> dict:
+    """A check text kept in our text format (grc.txt: sections, speakers, stage directions,
+    `number<TAB>verse`) in the structure of perseus_play."""
+    from .textfmt import Line, Section, Speaker, Stage, parse_file
+
+    tokens: list[dict] = []
+    lines: list[dict] = []
+    sections: list[tuple[int, int, str, str]] = []
+    stages: list[tuple[int, str]] = []
+    speakers: list[str] = []
+    speaker, last, pending, si = "", None, False, -1
+    for item in parse_file(path).items:
+        if isinstance(item, Section):
+            sections.append((len(lines), item.level, item.kind, item.label))
+        elif isinstance(item, Speaker):
+            name = greek.nfc(item.name)
+            if name and name != last:
+                pending, si, last = True, si + 1, name
+                if name not in speakers:
+                    speakers.append(name)
+            speaker = name or speaker
+        elif isinstance(item, Stage):
+            stages.append((len(tokens) - 1, greek.nfc(item.text)))
+        elif isinstance(item, Line):
+            words = _words_of(item.text)
+            li = len(lines)
+            line = {"n": item.n, "base": base(item.n), "words": [], "gap": not words}
+            lines.append(line)
+            if line["gap"] and tokens:
+                tokens[-1]["gap"] = True
+            for k, (w, gap) in enumerate(words):
+                # the second half of a word divided at the end of the verse before
+                if k == 0 and tokens and re.search(r"[Ͱ-Ͽἀ-῿]-$", tokens[-1]["t"]) and tokens[-1]["li"] == li - 1 and not pending:
+                    prev = tokens[-1]
+                    prev["t"] = prev["t"][:-1] + w
+                    prev["skel"] = skel(prev["t"])
+                    prev["gap"] = prev["gap"] or gap
+                    prev["joined"] = True
+                    continue
+                tokens.append({"t": w, "skel": skel(w), "n": item.n, "base": line["base"], "li": li,
+                               "first": not line["words"], "speaker": speaker, "newsp": pending, "gap": gap, "si": si})
+                pending = False
+                line["words"].append(len(tokens) - 1)
+    return {"tokens": tokens, "lines": lines, "sections": sections, "stages": stages, "speakers": speakers}
+
+
 def load_perseus(play: "Play", sources: Path) -> dict:
     """The play's check text (perseus_play), its verses in the order of their numbers where the
     play asks for it (Play.perseus_order), and its skeletons folded (Play.skel_fold)."""
-    pers = perseus_play(sources / play.perseus)
+    pers = textfile_play(PIPELINE / "transcriptions" / play.check_text) if play.check_text else perseus_play(sources / play.perseus)
     if play.perseus_order == "numeric" or play.perseus_drop:
         pers = numeric_order(pers, set(play.perseus_drop), play.perseus_order == "numeric")
     if play.skel_fold:
