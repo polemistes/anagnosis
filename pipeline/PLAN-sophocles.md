@@ -455,6 +455,21 @@ The metrical analyses are not transcribed (as for Ajax and Electra).
   own crops). Prose: introduction drafted (intro-01…06, 42 pages, 523 flags), Appendix being
   drafted (leaves 299-324); the commentary (kind `notes`) still to be set up and tested.
 
+* **2026-11-16, the author: deleting scratch files must not lose anything needed to resume;
+  store elsewhere than /tmp.** Done: agents' working files go to
+  `pipeline/build/agent-scratch/` from now on (on disk, ignored by git; pass it as `scratch`
+  to the workflow scripts, whose headers say so); the emulator check's helper scripts are in
+  `pipeline/tools/emulator-check/` (committed). What was deleted from the RAM-disk scratchpad
+  earlier that day was reproducible or recorded: the agents' page crops (cut from the page
+  images in pipeline/build/drama-scans, which stay), two debug bundles (rebuilt by Gradle),
+  the Euripides research's sample page images (re-downloadable; the findings are in
+  pipeline/research/euripides-plays.md), the crops behind the six settled breathings and the
+  adjudication (their verdicts are in research/route-comparison/ and in the batch notes), and
+  the Sonnet test's two transcriptions (its result is in this plan; the files themselves are
+  gone). Everything needed to resume lives in the repository (batch files, saved after each
+  page and committed after each pass), in pipeline/build (scans, OCR, drafts, residual lists,
+  logs) and in this plan.
+
 ## Decisions
 
 * 2026-11-15: order by least work left (Trachiniae first).
