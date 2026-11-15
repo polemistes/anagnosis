@@ -142,36 +142,64 @@
 1332	τί γὰρ ἔδει μʼ ὁρᾶν,
 1335	ὅτῳ γʼ ὁρῶντι μηδὲν ἦν ἰδεῖν γλυκύ;
 @ Χορός
-1336	ἦν τᾷδʼ ὅπωσπερ καὶ σύ φῄς.
+1336	ἦν ταῦθʼ ὅπωσπερ καὶ σὺ φής.
 @ Οἰδίπους
-1337	τί δῆτʼ ἐμοὶ βλεπτὸν ἢ
-1338	στερκτὸν ἢ προσήγορον
-1339	ἔτʼ ἔστʼ ἀκούειν ἡδονᾷ φίλοι;
-1340	ἀπάγετʼ ἐκτόπιον ὅ τι τάχιστά με,
-1341	ἀπάγετʼ, ὦ φίλοι, τὸν Μέγʼ ὀλέθριον
-1342	τὸν καταρατότατον, ἔτι δὲ καὶ θεοῖς
-1345	ἐχθρότατον βροτῶν.
+1337	τί δῆτʼ ἐμοὶ βλεπτόν, ἢ
+1338	στερκτόν, ἢ προσήγορον
+1339	ἔτʼ ἔστʼ ἀκούειν ἡδονᾷ, φίλοι;
+1340	ἀπάγετʼ ἐκτόπιον ὅτι τάχιστά με,
+1341	ἀπάγετʼ, ὦ φίλοι, τὸν μέγʼ ὀλέθριον,
+1345	τὸν καταρατότατον, ἔτι δὲ καὶ θεοῖς
+1346	ἐχθρότατον βροτῶν.
 @ Χορός
-1346	δείλαιε τοῦ νοῦ τῆς τε συμφορᾶς ἴσον,
-1347	ὡς σʼ ἠθέλησα μηδέ γʼ ἂν γνῶναί ποτε.
+1347	δείλαιε τοῦ νοῦ τῆς τε συμφορᾶς ἴσον,
+1348	ὥς σʼ ἠθέλησα μηδέ γʼ ἂν γνῶναί ποτε.
 --- apparatus
+1330	In L the 1st hand wrote ὁ κακὰ τελῶν τάδʼ ἐμὰ πάθεα: an early hand added a second κακὰ after ὁ, and a second ἐμὰ before τάδʼ. Many of the later MSS. have κακὰ only once (the second having been taken for a dittographia), while they have ἐμὰ twice (owing to the interposed τάδʼ).
+1339	ἡδονᾷ MSS.: ἁδονᾷ Dindorf.
+1341	τὸν ὀλέθριον μέγαν L: τὸν ὀλέθριον μέγα r (B, E, T): τὸν μέγʼ ὀλέθριον Erfurdt. Turnebus conjectured τὸν ὄλεθρον μέγαν (received by Brunck and others): Bergk, τὸν ὄλεθρόν με γᾶς.
+1348	L has ὡσ (made from ὅσσʼ or ὅσ) σʼ ἠθέλησα μὴδʼ (sic) ἀναγνῶναί ποτʼ ἄν. Instead of ποτʼ ἄν, some later MSS. (including A) have ποτε. As in 561 ἂν μετρηθεῖεν was corrupted to ἀναμετρηθεῖεν, so here ἀναγνῶναι is probably a corruption of ἂν γνῶναι. Hermann restored ὥς σʼ ἠθέλησα μηδέ γʼ ἂν γνῶναί ποτε. This is slightly nearer to the MSS. than Dindorf's ὡς ἠθέλησα μηδέ σʼ ἂν γνῶναί ποτε: and γε suits the emphasis (‘never so much as known thee’).—Dobree proposed ὥς σʼ ἠθέλησα μηδαμὰ γνῶναί ποτʼ ἄν. (For the short vowel lengthened before γν, cp. El. 547 σῆς δίχα γνώμης, Tr. 389 οὐκ ἀπὸ γνώμης.) Wecklein (Ars Soph. em. p. 21) ὥς σʼ ἠθέλησα μηδάμʼ ἂν γνῶναί ποτε.
 --- notes
+1325	the apparatus begins with the end of the 1323 note ("proposed κηδεμών."), written with p-0272. Small strophe numerals 5-8 and 1-15 left out.
+1326	ὅμως. checked: printed at the end of this verse.
+1331	δʼ checked: printed (ἔπαισε δʼ αὐτόχειρ).
+1336	the page prints ἦν ταῦθʼ ὅπωσπερ καὶ σὺ φής. (Perseus ἦν τᾷδʼ … φῄς): ταῦθʼ and φής without iota subscript, as printed.
+1337	the page prints βλεπτόν, ἢ and (1338) στερκτόν, ἢ with acute and comma, (1339) ἡδονᾷ, φίλοι with a comma; checked on the image.
+1340	the page prints ὅτι as one word (Perseus ὅ τι).
+1341	the page prints τὸν *μέγʼ ὀλέθριον, (asterisk left out; the draft had a stray capital Μέγʼ) with a comma at the end.
+1345	renumbered from the margin: Jebb prints 1345 beside τὸν καταρατότατον, ἔτι δὲ καὶ θεοῖς (the draft had 1342); his apparatus on 1365 calls ἔτι δὲ καὶ θεοῖς "1345". So ἐχθρότατον βροτῶν is 1346, δείλαιε 1347 and ὥς σʼ ἠθέλησα 1348 (Jebb's apparatus and commentary number them so; the strophe ends at 1348, the antistrophe begins at 1349).
+1348	the page prints ὥς (rough breathing and acute; Perseus ὡς); *ἂν with Jebb's asterisk, left out.
 
 === p-0276
 --- text
 @ Οἰδίπους
-1348	ὄλοιθʼ ὅστις ἦν, ὃς ἀγρίας πέδας
-1350	μονάδʼ ἐπιποδίας ἔλυσʼ μʼ ἀπό τε φόνου
-1351	ἔρυτο κἀνέσωσεν, οὐδὲν εἰς χάριν πράσσων.
+1349	ὄλοιθʼ ὅστις ἦν ὃς ἀγρίας πέδας
+1350	†νομάδʼ† ἐπιποδίας ἔλυσʼ ἀπό τε φόνου
+1351	ἔρρυτο κἀνέσωσέ μʼ, οὐδὲν εἰς χάριν πράσσων.
 1352	τότε γὰρ ἂν θανὼν
-1355	οὐκ ἦ φίλοισιν οὐδʼ ἐμοὶ τοσόνδʼ ἄχος.
+1355	οὐκ ἦν φίλοισιν οὐδʼ ἐμοὶ τοσόνδʼ ἄχος.
 @ Χορός
 1356	θέλοντι κἀμοὶ τοῦτʼ ἂν ἦν.
 @ Οἰδίπους
 1357	οὔκουν πατρός γʼ ἂν φονεὺς
-1358	ἦλθον οὐδὲ νυμφίος
+1358	ἦλθον, οὐδὲ νυμφίος
 1359	βροτοῖς ἐκλήθην ὧν ἔφυν ἄπο.
 1360	νῦν δʼ ἄθεος μέν εἰμʼ, ἀνοσίων δὲ παῖς,
-1361	ὁμολεχὴς δʼ ἀφʼ ὧν αὐτὸς ἔφυν τάλας.
+1362	ὁμογενὴς δʼ ἀφʼ ὧν αὐτὸς ἔφυν τάλας.
 --- apparatus
+1349	ἀγρίας] ἀπʼ ἀγρίας L. Triclinius rightly struck out ἀπʼ, which was probably added to make the construction of the gen. clearer. Hermann preferred to omit ἦν, reading, ὄλοιθʼ ὅστις, ὅς μʼ ἀπʼ ἀγρίας πέδας.
+1350	νομάδοσ ἐπιποδίασ | ἔλυσεν ἀπό τε φόνου | ἔρρυτο κἀνέσωσεν L. ἔλυσεν has been made by an early hand from ἔλαβέμʼ (Campbell thinks, from ἔλαβέν μʼ), above which had been written ὕσ. The later MSS. have ἔλυσεν (as A), ἔλυσέ μʼ (E), ἔλυσʼ ἐμʼ (V⁴), or ἔλαβέ μʼ (V). Some have ἔρρυτο, others ἔρυτο. For νομάδος Elmsley conjectured νομάδʼ: I suggest μονάδʼ. For κἀνέσωσεν Campbell has given κἀνέσωσέ μʼ.
+1355	ἄχος r, ἄχθος L. Faehsi's conjecture, ἄγος, is less suitable here.
+1360	ἄθλιος MSS.: ἄθεος was restored by Erfurdt, and independently (in the same year, 1811) by Seidler, De Vers. Dochm. 59. The same emendation was afterwards made by Elmsley, and by Reisig (Conject. I. 191).
+1362	ὁμογενὴς MSS.: ὁμολεχὴς Meineke: ὁμόγαμος Musgrave.
 --- notes
+1349	renumbered: the draft's 1348 is the print's 1349 (Jebb's apparatus and commentary number ἀγρίας 1349; the antistrophe begins at 1349). Small numerals 1-11 left out.
+1349	the page prints no comma after ἦν; ὄλοιθʼ checked (the OCR's τόλοιθʼ is noise).
+1350	the page prints †νομάδʼ† between daggers (Perseus μονάδʼ, Jebb's own conjecture in the apparatus) and no μʼ after ἔλυσʼ; the specks after νομάδʼ are not a stop.
+1351	the page prints ἔρρυτο κἀνέσωσέ μʼ, (Perseus ἔρυτο κἀνέσωσεν,).
+1355	the page prints οὐκ ἦν (Perseus ἦ); margin 1355 at this verse.
+1357	the print has ΟΙ. before οὔκουν: the speaker line kept.
+1357	πατρός checked: acute as printed.
+1358	the page prints ἦλθον, with a comma.
+1362	the page prints ὁμογενὴς (Perseus ὁμολεχὴς, Meineke's conjecture in the apparatus). Numbered 1362, not 1361 as in the draft: Jebb's apparatus and his commentary ("1362 f. ὁμογενὴς δʼ ἀφʼ ὧν ἔφυν") number it so, and his note on 1341 calls αὐτὸς ἔφυν τάλας 1363; the margin 1360 stands at νῦν δʼ ἄθεος, which in his count covers 1360-1361.
+1362	the note runs on to the next text page (leaf 278, "Musgrave."): written whole here.
