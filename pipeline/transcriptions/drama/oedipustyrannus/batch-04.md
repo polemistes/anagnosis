@@ -180,7 +180,7 @@
 344	θυμοῦ διʼ ὀργῆς ἥτις ἀγριωτάτη.
 @ Οἰδίπους
 345	καὶ μὴν παρήσω γʼ οὐδέν, ὡς ὀργῆς ἔχω,
-346	ἅπερ ξυνίημʼ· ἴσθι γὰρ δοκῶν ἐμοὶ
+346	ἅπερ ξυνίημʼ. ἴσθι γὰρ δοκῶν ἐμοὶ
 347	καὶ ξυμφυτεῦσαι τοὔργον, εἰργάσθαι θʼ, ὅσον
 --- apparatus
 336	κἀπαραίτητος Sehrwald.
@@ -192,3 +192,4 @@
 345	γʼ is printed on this line (checked on the image).
 347	Apparatus: the note runs on to the top of the next page's apparatus (leaf 158: "re-touched, to make θʼ. εἰργάσθαι θʼ r."); written whole here.
 347	res: comma after τοὔργον, as printed
+346	rev: full stop after ξυνίημʼ (the print has a full stop on the line, not a raised stop; enlarged crop)

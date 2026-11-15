@@ -150,7 +150,7 @@
 === p-0262
 --- text
 @ Χορός
-1232	λείπει μὲν οὐδʼ ἃ πρόσθεν ἤδειμεν τὸ μὴ οὐ
+1232	λείπει μὲν οὐδʼ ἃ πρόσθεν ᾔδειμεν τὸ μὴ οὐ
 1233	βαρύστονʼ εἶναι· πρὸς δʼ ἐκείνοισιν τί φής;
 @ Ἐξάγγελος
 1234	ὁ μὲν τάχιστος τῶν λόγων εἰπεῖν τε καὶ
@@ -172,7 +172,7 @@
 1248	τοῖς οἷσιν αὐτοῦ δύστεκνον παιδουργίαν.
 1249	γοᾶτο δʼ εὐνάς, ἔνθα δύστηνος διπλοῦς
 --- apparatus
-1232	ἤδειμεν MSS. εἴδομεν Wecklein.
+1232	ᾔδειμεν MSS. εἴδομεν Wecklein.
 1244	ἐπιρρήξασʼ MSS. In L, α has been written over ή by a later hand. ἐπιρράξασʼ Dobree.
 1245	κάλει MSS.: καλεῖ Erfurdt. (Brunck ʼκάλει, Blaydes ἐκάλει.) So in Eur. Alc. 183, Med. 1141 the MSS. have κύνει for κυνεῖ.
 --- notes
@@ -183,6 +183,7 @@
 1245	numbering checked: margin 1235, 1240, 1245 agree with the draft.
 1233	res: φής (acute, no iota subscript), as printed
 1243	res: raised stop after ἀκμαῖς, as printed
+1232	rev: ᾔδειμεν, not ἤδειμεν, in the verse and in the apparatus lemma: the print has the iota subscript under η in both (enlarged; a plain η on the same line, μὴ, has none; the commentary's lemma too reads ᾔδειμεν)
 1245	apparatus: the note runs on to the facing page (leaf 263, "Erfurdt. … the MSS.") and ends at the top of leaf 264 ("have κύνει for κυνεῖ."): written here whole.
 
 === p-0264

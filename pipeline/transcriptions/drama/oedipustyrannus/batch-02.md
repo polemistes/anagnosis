@@ -25,13 +25,14 @@
 74	πέραι L. Porson conj. περᾷ, proposing to omit v. 75: see note.
 79	προστείχοντα MSS., meaning, however, doubtless, the compound with πρός, not with πρό: cp. on O. C. 986.—προσστείχοντα Erfurdt.
 87	τὰ δύσθροʼ is Heimsoeth's conj. suggested by the schol., λέγω γὰρ πάντα ἂν εὐτυχεῖν τὴν πόλιν, εἰ καὶ τὰ δύσφημα τύχοι [ἂν] κατʼ ὀρθὸν ἐξελθόντα. But the schol. uses that word only to illustrate his own comment on ἐσθλήν: ἀπὸ γὰρ τῶν εὐφήμων ἄρξασθαι θέλει, and clearly read δύσφορʼ, which is in the lemma of another schol.
-88	ἐξελθόντα MSS. ἐξιόντα Suidas and Zonaras s.v. δύσφορα, probably by a mere error.
+88	ἐξελθόντα MSS. ἐξιόντα Suidas and Zonaras s. v. δύσφορα, probably by a mere error.
 --- notes
 73	no margin number read by the draft: the page prints 75, 80, 85 beside verses 75, 80, 85; the numbering is right.
 78	the print has a comma after εἶπας (Perseus none): added.
 81	the print ends the verse with a full stop: added.
 82	the print has a full stop after ἡδύς, not a raised stop: changed.
 73	the apparatus begins with the end of a note from the page before (…αις written above), a marginal schol. quoting τοὺς φυγαδικοὺς πλάνους.): left to the batch before.
+88	rev: "s. v." spaced as printed (was "s.v.")
 88	the note runs on to the top of p-0124's apparatus ("δύσφορα, probably by a mere error."): written here whole.
 
 === p-0124

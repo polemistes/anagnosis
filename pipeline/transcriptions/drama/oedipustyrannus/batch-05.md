@@ -115,7 +115,7 @@
 --- text
 399	ὃν δὴ σὺ πειρᾷς ἐκβαλεῖν, δοκῶν θρόνοις
 400	παραστατήσειν τοῖς Κρεοντείοις πέλας.
-401	κλαίων δοκεῖς μοι καὶ σὺ χὠ συνθεὶς τάδε
+401	κλαίων δοκεῖς μοι καὶ σὺ χὡ συνθεὶς τάδε
 402	ἀγηλατήσειν· εἰ δὲ μὴ ʼδόκεις γέρων
 403	εἶναι, παθὼν ἔγνως ἂν οἷά περ φρονεῖς.
 @ Χορός
@@ -141,6 +141,7 @@
 413	ἵνʼ is printed on this line; the flag is a misread by the OCR.
 405	the note runs on to the facing page (leaf 165); the numbers are 557, 1346 (checked enlarged; the OCR read 537, 1340). The dot before Οἰδίπου in "recommends·Οἰδίπου" is a speck: left out.
 413	the note begins at the foot of leaf 165 and ends at the top of leaf 166's apparatus ("καὶ L. δεδορκὼς κοὐ r."); written whole here. L's final σ in δέδορκασ copied as printed.
+401	rev: χὡ with a rough breathing on ω, as printed (compared at 8x with the rough breathing of ὃν 399 and the smooth of ἐκβαλεῖν 399 on the same page); the draft had χὠ (Perseus)
 
 === p-0166
 --- text

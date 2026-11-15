@@ -22,12 +22,13 @@
 1365	ἔτι Hermann: ἔφυ MSS. The correction is necessary, since the words ἔτι κακοῦ κακόν answer metrically to ἔτι δὲ καὶ θεοῖς (1345).
 1368	ἦσθα] ἦσθʼ ἂν Porson (on Tr. 114, Adv. p. 174). Purgold (Obs. Crit. in Soph. etc., 1802) made the same conjecture, and Hartung so reads: but see comment.
 1376	ἔβλαστε r, ἔβλαστεν L. For βλαστοῦσʼ Hartung gives βλαστόντʼ, omitting the comma after ἔβλαστε (‘that I should look upon offspring so born’): but see comment.
-1379	ἱερὰ L; ἰρὰ r, Dindorf. The longer form is the regular one in L (though in O. C. 16 it has ἰρός). Here, as in 1428, the tribrach lends a certain pathos to the rhythm. Nauck unnecessarily writes ἱερά θʼ ὧν.
+1379	ἱερὰ L; ἱρὰ r, Dindorf. The longer form is the regular one in L (though in O. C. 16 it has ἱρός). Here, as in 1428, the tribrach lends a certain pathos to the rhythm. Nauck unnecessarily writes ἱερά θʼ ὧν.
 --- notes
 1365	the apparatus begins with the end of a note from the page before ("Musgrave."): left to the batch before.
 1370	συμβούλευʼ checked: the page prints συμβούλευʼ (the OCR's ν is the type's υ).
 1379	the note runs on to the top of the next text page (leaf 280, "ὧν."): written whole here.
 1378 res: commas after γʼ and after πύργος, as printed
+1379	rev: apparatus ἰρὰ r and ἰρός corrected to ἱρὰ, ἱρός: the print has the rough breathing (enlarged, the same mark as on Nauck's ἱερά in the same note; unlike the smooth breathing of ἀν, ἠνεσχόμην on leaf 280)
 
 === p-0280
 --- text
@@ -116,7 +117,7 @@
 --- apparatus
 1422	οὐχ ὡς] L has οὐ, with a letter erased after it: a later hand has written οὐχ in the margin. The erased letter was probably θʼ (or τʼ), as in the next verse the 1st hand wrote οὔθʼ, which a later changed to οὐδʼ (A’s reading), while another wrote a second οὐχ in the margin. οὐχ...οὐδʼ seems better here, because simpler, than the more rhetorical οὔθʼ..οὔθʼ.
 1424-1431	ἀλλʼ εἰ τὰ θνητῶν...ἔχει κακά. On Nauck’s transposition of these eight verses, see comment.
-1428	ἱερὸς] ἰρὸς Dindorf. See on 1379.
+1428	ἱερὸς] ἱρὸς Dindorf. See on 1379.
 1430	μάλισθʼ ὁρᾶν MSS. Dobree conjectures μόνοις ὁρᾶν (and so Blaydes, with μόνοις δʼ in 1431): Meineke, μόνοις θʼ ὁρᾶν.
 --- notes
 1414	the apparatus begins with the end of the 1414 note ("able."), written with the page before.
@@ -124,6 +125,7 @@
 1417	βουλεύειν, checked: printed on this verse.
 1428	φῶς checked: printed on this verse.
 1430	the note runs on to the top of the next text page (leaf 286, "with μόνοις δʼ in 1431): Meineke, μόνοις θʼ ὁρᾶν."): written whole here.
+1428	rev: apparatus ἰρὸς corrected to ἱρὸς: the print (leaf 285) has the rough breathing, the same mark as on ἱερὸς beside it and on ὁρᾶν in the 1430 note, unlike the smooth breathing of ἀλλʼ above
 
 === p-0286
 --- text

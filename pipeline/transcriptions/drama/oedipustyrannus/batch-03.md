@@ -132,9 +132,9 @@
 229	ἀστεργὲς οὐδέν, γῆς δʼ ἄπεισιν ἀβλαβής·
 230	εἰ δʼ αὖ τις ἄλλον οἶδεν ἐξ ἄλλης χθονὸς
 231	τὸν αὐτόχειρα, μὴ σιωπάτω· τὸ γὰρ
-232	κέρδος τελῶ ʼγὼ χἠ χάρις προσκείσεται.
+232	κέρδος τελῶ ʼγὼ χἡ χάρις προσκείσεται.
 233	εἰ δʼ αὖ σιωπήσεσθε, καί τις ἢ φίλου
-234	δείσας ἀπώσει τοὔπος ἢ χαὐτοῦ τόδε,
+234	δείσας ἀπώσει τοὔπος ἢ χαὑτοῦ τόδε,
 235	ἃκ τῶνδε δράσω, ταῦτα χρὴ κλύειν ἐμοῦ.
 236	τὸν ἄνδρʼ ἀπαυδῶ τοῦτον, ὅστις ἐστί, γῆς
 237	τῆσδʼ, ἧς ἐγὼ κράτη τε καὶ θρόνους νέμω,
@@ -156,6 +156,9 @@
 240	flag (three printed lines after this verse matched no Perseus words): they are the first lines of the apparatus (227 f. ὑπεξελὼν | αὐτὸς MSS. …), which the draft's crop -app-l/-app-r leaves out; read from the whole page and written in the apparatus, nothing added to the text.
 227	apparatus: the note is numbered "227 f.": filed under 227.
 240	the note on 240 runs on beyond the spread to the head of the apparatus on p-0144 (an early hand to χέρνιβασ, which is in almost all the later MSS.): written whole here.
+232	rev: the print has χἡ with a rough breathing (the same mark as on αὑτοῦ in 228, not the smooth one of αὐτὸν; enlarged 5x): χἠ changed to χἡ.
+234	rev: the print has χαὑτοῦ with the rough breathing (the same mark as χἡ in 232 and αὑτοῦ in 228, compared at 5x; Jebb keeps the breathing of the second word in crasis, cp. χὡς in his apparatus on Trach. 965): χαὐτοῦ changed to χαὑτοῦ.
+230	rev: apparatus: the mark on ἢ in Vauvilliers' ἢ ʼξ is filled with ink at 10x and cannot be told rough or smooth; ἢ (the sense, 'or from') kept. ἀμῆς checked at 10x: smooth, as on ἐξ beside it.
 
 === p-0144
 --- text

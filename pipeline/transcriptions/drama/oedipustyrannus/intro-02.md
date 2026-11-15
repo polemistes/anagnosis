@@ -29,7 +29,7 @@ The man chosen to expose the babe received it from the hands of the mother, Ioca
 14 εὐλήεητν [greek] (Greek model: ἰὐθλναν.) → evidently
 15 Swellfoot [latin] (Greek model: (5 νεϊποοι,,) → ok
 --- notes
-Margin note of § 8 read from the page: "Supposed antecedents of the plot." Laïus written with its diaeresis as printed (here and through the batch). Footnote 1 placed after the paragraph that holds its mark (the run-on paragraph); footnote 2 after the Laïus paragraph.
+Margin note of § 8 read from the page: "Supposed antecedents of the plot." Laïus written with its diaeresis as printed (here and through the batch). Footnote 1 placed after the paragraph that holds its mark (the run-on paragraph); footnote 2 after the Laïus paragraph. The checker's remark "§ 8 after § 0" comes from counting each batch afresh: intro-01 ends with § 7, so § 8 is in order.
 
 === p-0024
 + of Laïus on Mount Cithaeron, where they were pastured during the half-year from March to September.
@@ -158,60 +158,61 @@ As Creon leads Oedipus within, the Chorus speak the closing words: No mortal mus
 
 *The method of discovery.* With reference to the general structure of the plot, the first point to observe is the skill with which Sophocles has managed those two threads of proof which he created by his invention of the second herdsman.
 
-We have :(—
+We have:—
 
-(1) The thread of evidence from the reported statement of the Theban herdsman as to the place of the murder, in connection with Tocasta’s statement as to the time, the person of Laius, and the retinue. This tends to show that Oedipus has slain Latus—being presumably in no wise his kinsman. The proof of Oedipus having slain Latus is so far completed at 754 (αἰαῖ, Tad ἤδη διαφανῆ) as to leave no longer any moral doubt on the mind of Oedipus himself. *
+(1) The thread of evidence from the reported statement of the Theban herdsman as to the *place* of the murder, in connection with Iocasta’s statement as to the time, the person of Laïus, and the retinue. This tends to show that Oedipus has slain Laïus—*being presumably in no wise his kinsman*. The proof of Oedipus having slain Laïus is so far completed at 754 (αἰαῖ, τάδ’ ἤδη διαφανῆ) as to leave no longer any moral doubt on the mind of Oedipus himself.
 
-(2) The thread of evidence from the Corinthian, showing, in the first instance, that Oedipus is zo the son of Polybus and Merope, and so relieving him from the fear of parricide and incest. Hence the confident tone of Oedipus (1076 ff.), which so powerfully contrasts with the despair of locasta: s/Z has known the worst from v. 1044. =
+(2) The thread of evidence from the Corinthian, showing, in the first instance, that Oedipus is *not* the son of Polybus and Meropè, and so relieving him from the fear of parricide and incest. Hence the confident tone of Oedipus (1076 ff.), which so powerfully contrasts with the despair of Iocasta: *she* has known the worst from v. 1044.
 
-(3) The convergence of these two threads, when the Theban herdsman is confronted with the Corinthian. This immediately follows the moment of relief just noticed. It now appears that the slayer of Laius has a/so committed parricide and incest.
+(3) The convergence of these two threads, when the Theban herdsman is confronted with the Corinthian. This immediately follows the moment of relief just noticed. It now appears that the slayer of Laïus has *also* committed parricide and incest.
 
 ## § 10 — Aristotle’s criticisms.
 
-The frequent references of Aristotle to the Oedipus Tyrannus indicate its value for him as a typical masterpiece, though the points for which he commends it concern general analysis of form, not the essence of its distinctive excellence. The points are these :—
+The frequent references of Aristotle to the *Oedipus Tyrannus* indicate its value for him as a typical masterpiece, though the points for which he commends it concern general analysis of form, not the essence of its distinctive excellence. The points are these:—
 --- flags
-1 :(— [conf] →
-2 Tocasta’s [latin] (Greek model: Ἰοοᾶβεαῖδ.) →
-3 Latus—being [conf] (Greek model: Τιαϊαϑ8---ὀρέρρ᾽) →
-4 Latus [conf] →
-5 zo [conf] →
-6 ff.), [conf] →
-7 locasta [latin] (Greek model: Ἰοςαβία:) →
-8 s/Z [conf] →
-9 Laius [conf] →
+1 :(— [conf] → :—
+2 Tocasta’s [latin] (Greek model: Ἰοοᾶβεαῖδ.) → Iocasta’s
+3 Latus—being [conf] (Greek model: Τιαϊαϑ8---ὀρέρρ᾽) → Laïus—*being*
+4 Latus [conf] → Laïus
+5 zo [conf] → *not*
+6 ff.), [conf] → ok
+7 locasta [latin] (Greek model: Ἰοςαβία:) → Iocasta
+8 s/Z [conf] → *she*
+9 Laius [conf] → Laïus
 --- notes
+Margin notes read from the page: "The method of discovery." (at the start of its paragraph, in italics) and "Aristotle’s criticisms." (§ 10). Beyond the flags: Laius → Laïus also in "the person of Laïus" (unflagged), Merope → Meropè; italics restored (*place*, *being presumably in no wise his kinsman*, *also*, *Oedipus Tyrannus*); "Tad" → τάδ’; stray "*" and "=" (pencil marks) at two paragraph ends deleted. Jebb prints a space before the colon in "We have :—", "Iocasta :" and "these :—"; written without it, as in the rest of the batch.
 
 === p-0029
-1. The ‘recognition’ (ἀναγνῶρισις) is contrived in the best way ; Ze, it is coincident with a reversal of fortunes (περιπέτεια).
+1. The ‘recognition’ (ἀναγνώρισις) is contrived in the best way; *i.e.*, it is coincident with a reversal of fortunes (περιπέτεια).
 
 2. This reversal is peculiarly impressive, because the Corinthian messenger had come to bring tidings of the honour in store for Oedipus.
 
-3. Oedipus is the most effective kind of subject for such a reversal, because he had been (2) great and glorious, (6) not preeminently virtuous or just, (¢) and, again, one whose reverses are not due to crime, but only to unconscious. error.
+3. Oedipus is the most effective kind of subject for such a reversal, because he had been (*a*) great and glorious, (*b*) *not* preeminently virtuous or just, (*c*) and, again, one whose reverses are not due to crime, but only to unconscious error.
 
-4. ‘The story is told in such a manner as to excite pity and terror by hearing without seeing (as in regard to the exposure of the child, the killing of Laius, the death of Iocasta).
+4. The story is told in such a manner as to excite pity and terror by hearing without seeing (as in regard to the exposure of the child, the killing of Laïus, the death of Iocasta).
 
 5. If there is any improbability in the story, this is not in the plot itself (ἐν τοῖς πράγμασιν), but in the supposed antecedents (ἔξω τῆς τραγῳδίας).
 
-*Improbability in (με antecedents.* In this last comment, Aristotle indicates a trait which :
-
-is certainly open to criticism—the ignorance of Oedipus as to the story of Laius. He knows, indeed, the name of his predecessor—though Creon does not think it unnecessary to remind him of the name (103). He also knows that Latus had met a violent death: but he does not know whether this had befallen at Thebes, or in its neighbourhood, or abroad (109—113). Nor does he know that Laius was reported to have been slain by robbers, and that only one of his followers had escaped (116— 123): and he asks if no search had been made at the time (128, 566). Iocasta, who has now been his wife for many years, tells him, as if for the first time, the story of the oracle given to Laius, and he tells her the story of his own early fortunes— though here we need not press the fact that he even names to her his Corinthian parents: that may be regarded as merely a formal preface to a connected narrative. It may be conceded that the matters of which Oedipus is supposed ignorant were themes of which Iocasta, and all the persons about the new king, might well have been reluctant to speak. Still it is evident that the measure of past reticence imagined, both on their part and on his, exceeds the limit of verisimilitude. The true defence of this improbability consists in frankly recognising it. Exquisite
+*Improbability in the antecedents.* In this last comment, Aristotle indicates a trait which is certainly open to criticism—the ignorance of Oedipus as to the story of Laïus. He knows, indeed, the name of his predecessor—though Creon does not think it unnecessary to remind him of the name (103). He also knows that Laïus had met a violent death: but he does not know whether this had befallen at Thebes, or in its neighbourhood, or abroad (109—113). Nor does he know that Laïus was reported to have been slain by robbers, and that only one of his followers had escaped (116—123): and he asks if no search had been made at the time (128, 566). Iocasta, who has now been his wife for many years, tells him, as if for the first time, the story of the oracle given to Laïus, and he tells her the story of his own early fortunes—though here we need not press the fact that he even names to her his Corinthian parents: that may be regarded as merely a formal preface to a connected narrative. It may be conceded that the matters of which Oedipus is supposed ignorant were themes of which Iocasta, and all the persons about the new king, might well have been reluctant to speak. Still it is evident that the measure of past reticence imagined, both on their part and on his, exceeds the limit of verisimilitude. The true defence of this improbability consists in frankly recognising it. Exquisite
 --- flags
-1 ἀναγνῶρισις [accent] (Greek model: (ἀναγνῶρισιςγ) →
-2 (2) [conf] →
-3 ‘The [conf] →
-4 Latus [conf] →
-5 Laius, [conf] →
+1 ἀναγνῶρισις [accent] (Greek model: (ἀναγνῶρισιςγ) → ἀναγνώρισις
+2 (2) [conf] → (*a*)
+3 ‘The [conf] → The
+4 Latus [conf] → Laïus
+5 Laius, [conf] → Laïus,
 --- notes
+Margin note read from the page: "Improbability in the antecedents." (printed "Improba-|bility in|the ante-|cedents."), put in italics at the start of its paragraph; the draft had garbled it ("*Improbability in (με antecedents.*") and broken the paragraph after "which :" — joined. Beyond the flags: "Ze," → *i.e.*,; "(6)" → (*b*), "(¢)" → (*c*), *not* in italics; "unconscious. error" → "unconscious error"; "116— 123" → "116—123"; Laius → Laïus also in "the killing of Laïus", "the story of Laïus", "Laïus was reported", "given to Laïus" (unflagged). Pencil handwriting above item 1 ("Aristotle") left out.
 
 === p-0030
-+ as was the dramatic art exercised within the scope of the action (ἐν τοῖς πράγμασι), this art was still so far naive as to feel no offence at some degree of freedom in the treatment of that which did not come within the framework,—of that which, in Aristotle’s phrase, lay ‘outside the piece, ἔξω τῆς Tpaywdias. It is as if a sculptor neglected to remove some roughness of support or environment which, he felt, would not come into account against the effect of a highly finished group.
++ as was the dramatic art exercised within the scope of the action (ἐν τοῖς πράγμασι), this art was still so far naïve as to feel no offence at some degree of freedom in the treatment of that which did not come within the framework,—of that which, in Aristotle’s phrase, lay ‘outside the piece,’ ἔξω τῆς τραγῳδίας. It is as if a sculptor neglected to remove some roughness of support or environment which, he felt, would not come into account against the effect of a highly finished group.
 
 ## § 11 — The characters.
 
-A drama is itself the only adequate commentary on its persons. It makes them live for us, or it does not. If we submit them to ethical analysis, this may be interesting to us, and instructive to those who have not seen or read the piece. But, for a spectator or reader of the play, the men and women must be those whom he finds there. When we personally know a character in real life, another’s estimate of it is seldom more than a key to his point of view—rarely a mental light which we feel that we can appropriate. And it may be permitted to say in passing that this is a reason why the reviving taste for good drama—a result for which, in this country, so much is due to Mr Irving—seems likely to aid in correcting a literary fault of the day which is frequently acknowledged—the tendency to adopt ready-made critical estimates of books which the adopter, at least, has not read. No one who sees a play can help forming some impression of /is own about the characters. If he reports it honestly, that is criticism; not necessarily good, but not sham. To any one who reads this play of Sophocles with even moderate attention and sympathy, how living is Oedipus! Common experience proves so much; but almost every reader will probably feel that by no attempt at analysis or description could he enable another to see precisely Zzs Oedipus :-no, though the effort should bring out ‘a point or two as yet unseized by the Germans.” The case is somewhat different, however, when a particular reading of certain characters in a play is the ground for the attribution to it of a tendency; then it is useful to inquire whether this reading is right—whether, that is, these persons of the drama do indeed speak and act in the tone ascribed to them.
+A drama is itself the only adequate commentary on its persons. It makes them live for us, or it does not. If we submit them to ethical analysis, this may be interesting to *us*, and instructive to those who have not seen or read the piece. But, for a spectator or reader of the play, the men and women must be those whom he finds there. When we personally know a character in real life, another’s estimate of it is seldom more than a key to his point of view—rarely a mental light which we feel that we can appropriate. And it may be permitted to say in passing that this is a reason why the reviving taste for good drama—a result for which, in this country, so much is due to Mr Irving—seems likely to aid in correcting a literary fault of the day which is frequently acknowledged—the tendency to adopt ready-made critical estimates of books which the adopter, at least, has not read. No one who sees a play can help forming some impression *of his own* about the characters. If he reports it honestly, that is criticism; not necessarily good, but not sham. To any one who reads this play of Sophocles with even moderate attention and sympathy, how living is Oedipus! Common experience proves so much; but almost every reader will probably feel that by no attempt at analysis or description could he enable another to see precisely *his* Oedipus: no, though the effort should bring out ‘a point or two as yet unseized by the Germans.’ The case is somewhat different, however, when a particular reading of certain characters in a play is the ground for the attribution to it of a tendency; then it is useful to inquire whether this reading is right—whether, that is, these persons of the drama do indeed speak and act in the tone ascribed to them.
 --- flags
-1 Tpaywdias [rare] →
-2 Zzs [latin] (Greek model: ΥΩ) →
-3 :-no, [conf] →
-4 unseized [rare] →
+1 Tpaywdias [rare] → τραγῳδίας.
+2 Zzs [latin] (Greek model: ΥΩ) → *his*
+3 :-no, [conf] → : no,
+4 unseized [rare] → ok
 --- notes
+Margin note of § 11 read from the page ("The char-|acters."). Beyond the flags: "naive" → naïve (printed with the diaeresis); "piece, ἔξω" → "piece,’ ἔξω" (closing quotation mark lost by the OCR); "Germans.”" → "Germans.’"; italics restored (*us*, *of his own*, *his*; the draft's "/is own" was "of his own"). Flag 3: the print has only a faint grey speck between "Oedipus :" and "no", not a dash; written "Oedipus: no" (space before the colon dropped, as elsewhere). If the speck is a broken dash, Jebb's ":—" would be meant; left as a colon.

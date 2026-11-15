@@ -13,7 +13,7 @@
 1084	τοιόσδε δʼ ἐκφὺς οὐκ ἂν ἐξέλθοιμʼ ἔτι
 1085	ποτʼ ἄλλος, ὥστε μὴ ʼκμαθεῖν τοὐμὸν γένος.
 --- apparatus
-1075	ἀναρρήξῃ L. Most of the later MSS. agree with L, but ἀναρρήξει is in V, Bodl. Laud. 54, E (from -η), Trin. (ἀναρήξει).
+1075	ἀναρρήξη L. Most of the later MSS. agree with L, but ἀναρρήξει is in V, Bodl. Laud. 54, E (from -η), Trin. (ἀναρήξει).
 1084	The 1st hand in L wrote τοιόσδʼ ἐκφὺς ὡσ οὐκ ἂν ἐξέλθοιμʼ ἔτι. A later hand wrote δε over τοιόσδ (i.e. τοιόσδε δʼ), and indicated by dots over ὡσ that it was to be deleted. The origin of the corruption plainly was that, δʼ having dropped out after τοιόσδε, some one unskilled in metre thought to complete the verse with ὡς (as=‘be sure that,’ cp. Ai. 39).—Blaydes conj. τοιόσδε δὴ φύς.—Dindorf, who once conjectured οὐκ ἂν ἐξέλθοιν ποτὲ | ἀλλοῖος, now rejects both verses (1084 f.).
 1085	ποτʼ ἄλλος] ἄτιμος Nauck.—ὥστε μὴ ʼκμαθεῖν] ὥστε μὴ οὐ μαθεῖν Blaydes.
 --- notes
@@ -21,6 +21,9 @@
 1075	the apparatus begins with the end of a note from the page before ("suit χαίρειν here."): left to the batch before.
 1084	ὡσ (rough breathing, no accent, final σ as a medial σ) is L's spelling as Jebb prints it; ἐξέλθοιν (Dindorf's conjecture) as printed.
 1085	the note runs on to the top of p-0244's apparatus ("μὴ ʼκμαθεῖν] ὥστε μὴ οὐ μαθεῖν Blaydes."): written here whole.
+1075	rev: apparatus ἀναρρήξῃ → ἀναρρήξη: the print has no iota subscript in L's reading (enlarged crop).
+1081	rev: the comma after διδούσης on the scan is in pencil (grey, ink value 123 against 47 for the print), not printed: no comma, text unchanged.
+1084	rev: ὡσ in this note checked 4x and 10x: the mark opens like the rough breathing (tail down to the right), against the smooth on ἐκφὺς beside it.
 
 === p-0244
 --- text
@@ -51,6 +54,7 @@
 1097	apparatus numbers 1097, 1099 are Jebb's: they name verses that stand inside the printed lines numbered 1096, 1098.
 1099	"Blaydes conject. κορᾶν." heads the facing page's apparatus and continues the note on 1099: written with it.
 1090	res: renumbered to the print (was 1089): the margin 1090 stands beside ὦ Κιθαιρών … αὔριον (Jebb's 1089-1090), so the verse takes 1090, as Jebb himself names it (comment. on 1101: "If in 1090 we keep οὐκ ἔσει τὰν αὔριον"); 1086, 1088, 1091, 1092, 1094, 1096 kept by Jebb's notes, 1098 and 1100 stand on their margin numbers. The apparatus 1090 now stands on its verse.
+1086	rev: every verse read against enlarged crops of the page (punctuation, accents, breathings): no change; the comma after αὔξειν (1092) is printed, under the pencil arrow. Apparatus breathings checked 4x: ἑτέραν rough, ἔσει, ἆρα L, ἄρα Heath smooth.
 
 === p-0246
 --- text
@@ -79,6 +83,7 @@
 1107	apparatus numbers 1103 (none), 1107 and 1109 are Jebb's; 1107 and 1109 name verses inside the printed lines numbered 1105 and 1108.
 1109	breathings in this note checked on the enlarged crop: ἑλικωνιάδων, ἑλικωνίδος, ἑλικωπίδων printed with the rough breathing.
 1114	the note runs on to the top of p-0248's apparatus ("tures ὄντας for ὥσπερ. See comment."): written here whole.
+1101	rev: every verse read against enlarged crops of the page: no change. Apparatus breathings checked 10x against the rough on Ἑλικωνίδων: ἑλικωνιάδων, ἑλικωνίδος (leaf 246) and ἑλικωπίδων (leaf 247) rough.
 
 === p-0248
 --- text
@@ -98,7 +103,7 @@
 @ Θεράπων
 1123	ἦ, δοῦλος οὐκ ὠνητός, ἀλλʼ οἴκοι τραφείς.
 @ Οἰδίπους
-1124	ἔργον μεριμνῶν ποῖον ἢ βίον τινά;
+1124	ἔργον μεριμνῶν ποῖον ἢ βίον τίνα;
 @ Θεράπων
 1125	ποίμναις τὰ πλεῖστα τοῦ βίου συνειπόμην.
 @ Οἰδίπους
@@ -121,6 +126,7 @@
 1130	the two "printed lines that matched no Perseus words" after 1130 are the first lines of the apparatus; the batch file has no such lines, nothing removed.
 1130	the apparatus begins with the end of the note on 1114 (tures ὄντας for ὥσπερ. See comment.): written with p-0246. The page's apparatus crops cut off its first three lines; the apparatus was read from the whole page.
 1130	the note runs on beyond the spread to the head of p-0250's apparatus ("…πωσ r: που Blaydes."): written here whole; p-0250 leaves that end out.
+1124	rev: the print has τίνα (acute on ι, interrogative; enlarged 4x), not Perseus's τινά: changed.
 
 === p-0250
 --- text
@@ -151,6 +157,7 @@
 1131	the apparatus begins with the end of the note on 1130 ("Blaydes."): written with p-0248.
 1137	breathings checked on the enlarged crop: L's ἐμμήνουσ and the Trin. ἐκμήνους smooth, Porson's ἑκμήνους rough.
 1131	res: the first pass noted the changes on 1131, 1134, 1135, 1140 but the text still had Perseus's words: now made as printed (ὕπο.; κάτοιδεν ἦμος τὸν Κιθαιρῶνος τόπον without commas; ἑνὶ without comma; comma after τούτων).
+1131	rev: every verse read against enlarged crops of the page: no change (ἑνὶ 1135 and ἑκμήνους 1137 rough; the full stop after χρόνου 1141 is printed, under pencil marks). Apparatus breathings checked 8x: ἑνί (1135 note) rough; ἐμμήνουσ, ἐκμήνους smooth, Porson's ἑκμήνους rough.
 
 === p-0252
 --- text
@@ -212,3 +219,4 @@
 1162	the print has a comma after οἰκεῖον (the OCR reads it so too): added.
 1165	the print has ΘΕ. in the margin here: @ Θεράπων kept.
 1145	the facing page (leaf 253) prints only the translation, no apparatus: the apparatus is the one note under the verses.
+1142	rev: every verse read against enlarged crops of the page: no change (ἁνὴρ 1160 rough, checked 5x). Apparatus: the one note, as printed.

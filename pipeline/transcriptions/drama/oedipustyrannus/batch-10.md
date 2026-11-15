@@ -71,7 +71,7 @@
 899	Ἀβαῖσι] Erfurdt wrote Ἄβαισι, on the authority of Arcadius (104. 11). Eustathius knew both modes of writing it (on Il. 1. 536, p. 279. 1).
 903	ὀρθὸν L, ὄρθʼ r.
 904	πάντʼ ἀνάσσων] πάντα λεύσσων B. Arnold.—λάθοι L: λάθη r: λάθῃ Brunck.
-906	φθίνοντα γὰρ λαΐου ∴ θέσφατʼ L: the three dots meaning that παλαιὰ (written in the margin by a later hand) was to be inserted there. (Most of the later MSS. have φθίνοντα γὰρ λαΐου παλαιὰ θέσφατʼ: a few place παλαιὰ before λαΐου or after θέσφατα.)—παλαίφατα is the conjecture of Arndt, and of Linwood (who prefixes τὰ to Λαΐου, reading ὧν τοιόσδʼ for ἐν τοῖσδʼ in 892). Schneidewin supplied Πυθόχρηστα before Λαΐου.—For Λαΐου, Mekler writes Δαλίου, Nauck Λοξίου.
+906	φθίνοντα γὰρ λαΐου ∴ θέσφατʼ L: the three dots meaning that παλαιὰ (written in the margin by a later hand) was to be inserted there. (Most of the later MSS. have φθίνοντα γὰρ λαΐου παλαιὰ θέσφατʼ: a few place παλαιὰ before λαΐου or after θέσφατα.)—παλαίφατα is the conjecture of Arndt, and of Linwood (who prefixes τὰ to Λαΐου, reading ὢν τοιόσδʼ for ἐν τοῖσδʼ in 892). Schneidewin supplied Πυθόχρηστα before Λαΐου.—For Λαΐου, Mekler writes Δαλίου, Nauck Λοξίου.
 --- notes
 895	numbering checked on the whole page: the margin prints 895, 900 (beside οὐδὲ τὰν Ὀλυμπίαν), 905 (beside σὲ τάν τε) and 910 (beside ἔρρει); the apparatus names 899, 903, 904, 906 for the verses so numbered here. Renumbered: draft 900, 900a, 905, 906, 907, 908, 909, 909a are 899, 900, 903, 904, 905, 906, 907, 908; Jebb has no 898 and no 909.
 899	the print has ναόν, (acute and comma): corrected.
@@ -79,6 +79,7 @@
 906	Jebb prints ⟨παλαίφατα⟩ in angle brackets (his supplement, Arndt's conjecture): brackets added; the word stands on this verse.
 896	the numerals in "Campbell, 1. xxvii" and "Il. 1. 536" are printed as old-style figures; written 1.
 906	the note runs on to the top of p-0224's apparatus ("Λαΐου.—For Λαΐου … Λοξίου."): written here whole.
+906	rev: Linwood's "ὢν τοιόσδʼ": the print has smooth breathing and grave (ὢν, the same mark as on ἢ in 896, enlarged 10x on leaf 223), not ὧν: corrected.
 
 === p-0224
 --- text
@@ -120,7 +121,7 @@
 @ Ἰοκάστη
 931	αὔτως δὲ καὶ σύ γʼ, ὦ ξένʼ· ἄξιος γὰρ εἶ
 932	τῆς εὐεπείας οὕνεκʼ. ἀλλὰ φράζʼ ὅτου
-933	χρῄζων ἀφῖξαι χὤ τι σημῆναι θέλων.
+933	χρῄζων ἀφῖξαι χὥ τι σημῆναι θέλων.
 @ Ἄγγελος
 934	ἀγαθὰ δόμοις τε καὶ πόσει τῷ σῷ, γύναι.
 @ Ἰοκάστη
@@ -145,7 +146,7 @@
 930	γένοιτʼ] γένοιʼ Wecklein.
 933	χʼ ὡστί seems to have been written by the 1st hand in L, and then altered to χʼ ὥ τι. χὥς τι (V, Pal.) and καὶ τί (Γ) were known as variants.
 935	The 1st hand in L wrote παρὰ, which an early hand changed to πρὸς, the common reading of the late MSS. (but παρὰ L² and Pal.).—The δʼ after τίνοσ in L was added by an early hand.
-943	πῶσ εἶπασ· ἦ τέθνηκε πόλυβοσ; | εἰ δὲ μὴ | λέγω γʼ ἐγὼ τἀληθὲσ, ἀξιῶ θανεῖν L. The words εἰ δὲ μὴ are in a line by themselves. After πόλυβοσ, and before εἰ, are marks like =. Triclinius conjecturally added γέρων after Πόλυβος, and some late MSS. have γέρον, but none (it seems) ὦ γέρον, Bothe's reading. Nauck proposed (1856) πώς εἶπας; ἦ τέθνηκεν Οἰδίπου πατήρ; | τέθνηκε Πόλυβος· εἰ δὲ μή, ἀξιῶ θανεῖν. The correction of the first verse is specious; not so that of 944. Mekler rejects both vv.
+943	πῶσ εἶπασ· ἦ τέθνηκε πόλυβοσ; | εἰ δὲ μὴ | λέγω γʼ ἐγὼ τἀληθὲσ, ἀξιῶ θανεῖν L. The words εἰ δὲ μὴ are in a line by themselves. After πόλυβοσ, and before εἰ, are marks like =. Triclinius conjecturally added γέρων after Πόλυβος, and some late MSS. have γέρον, but none (it seems) ὦ γέρον, Bothe's reading. Nauck proposed (1856) πῶς εἶπας; ἦ τέθνηκεν Οἰδίπου πατήρ; | τέθνηκε Πόλυβος· εἰ δὲ μή, ἀξιῶ θανεῖν. The correction of the first verse is specious; not so that of 944. Mekler rejects both vv.
 --- notes
 927	numbering checked on the whole page: the margin prints 930, 935, 940 beside the verses so numbered; no change.
 930	γʼ stands on this verse (ἐκείνου γʼ οὖσα): no change.
@@ -158,6 +159,9 @@
 943	Jebb prints ⟨ὦ γέρον;⟩ in angle brackets (Bothe's supplement, per the note): brackets added.
 933	the breathings in ὡστί, ὥ τι, χὥς τι are read as rough (the c-shaped mark, as in οἷσθε on p-0224); small type, not certain.
 943	the note runs on to the top of p-0228's apparatus ("that of 944. Mekler rejects both vv."): written here whole.
+933	rev: the print has χὥ τι (rough breathing with acute on ω: the open-c mark, as in οὑξερῶ 936 and οὑπιχώριοι 939, not the comma of αὐτὸν; enlarged 10x), not χὤ: corrected.
+933	rev: apparatus ὡστί, ὥ τι, χὥς τι confirmed rough at 8x against ἕδη (p-0220 commentary) and the smooth ἀ/εἰ of the same type; οἶσθε on p-0224 is smooth (as written there), not a rough reference.
+943	rev: in Nauck's verse the print has πώς (acute), an evident misprint for πῶς (as in the verse itself): corrected to πῶς.
 
 === p-0228
 --- text

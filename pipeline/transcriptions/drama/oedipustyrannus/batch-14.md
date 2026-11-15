@@ -28,7 +28,7 @@
 1280	τάδʼ ἐκ δυοῖν ἔρρωγεν οὐ μόνου κάτα,
 1281	ἀλλʼ ἀνδρὶ καὶ γυναικὶ συμμιγῆ κακά.
 1282	ὁ πρὶν παλαιὸς δʼ ὄλβος ἦν πάροιθε μὲν
-1283	ὄλβος δικαίως· νῦν δὲ τῇδε θἠμέρᾳ
+1283	ὄλβος δικαίως· νῦν δὲ τῇδε θἡμέρᾳ
 1284	στεναγμός, ἄτη, θάνατος, αἰσχύνη, κακῶν
 1285	ὅσʼ ἐστὶ πάντων ὀνόματʼ, οὐδέν ἐστʼ ἀπόν.
 @ Χορός
@@ -48,7 +48,7 @@
 1297	ὦ δεινὸν ἰδεῖν πάθος ἀνθρώποις,
 --- apparatus
 1280	οὐ μόνου κακὰ MSS. οὐ μόνου κάτα Otto. The same emendation had been made by me independently. It is received by Wolff and Wecklein.—οὐ μόνῳ κακὰ Schneidewin; οὐ μόνου πάρα Kennedy; οὐ μόνου μόνῳ Lachmann; οὐχ ἑνὸς μόνου Porson; οὐκ ἀνδρὸς μόνου Arndt; οὐ μονόστολα Winckelmann; οὐ μονοζυγῆ Hermann.—Dindorf rejects vv. 1280, 1281 as spurious.
-1283	τῇδε θἠμέρᾳ] τῆιδέθʼ ἡμέραι L. (The final ι, which might easily be taken for a comma, is from a later hand.) τῇδʼ ἐν ἡμέρᾳ Erfurdt. Cp. Ai. 756 τῇδε θἠμέρᾳ.
+1283	τῇδε θἡμέρᾳ] τῆιδέθʼ ἡμέραι L. (The final ι, which might easily be taken for a comma, is from a later hand.) τῇδʼ ἐν ἡμέρᾳ Erfurdt. Cp. Ai. 756 τῇδε θἡμέρᾳ.
 1284	ἄτε L 1st hand, corrected to ἄτη.
 1286	ἐν τίνι L.
 --- notes
@@ -57,6 +57,7 @@
 1286	the page prints ἔν τινι (Perseus ἐν τίνι); Jebb's commentary on 1286 says "ἔν τινι is right", the apparatus gives ἐν τίνι as L's reading.
 1289	the page prints τὸν μητρός, αὐδῶν (Perseus τὸν μητέρʼ—αὐδῶν); Jebb's commentary on 1289 rejects Schneidewin's μητέρʼ.
 1290	the page prints ἑαυτόν, with a comma (Perseus ἑαυτὸν); ἔτι checked: printed on this verse.
+1283	rev: θἡμέρᾳ with a rough breathing as printed (Perseus θἠμέρᾳ), in the verse, the apparatus lemma and the Ai. 756 quotation: enlarged, the mark has the shape of the rough breathing of ὁ in 1282 and of ἡμέραι/ἡμέρᾳ in the same note, not that of the smooth ἀλλʼ ἀνδρὶ in 1281 or ἐν in the note.
 
 === p-0270
 --- text
@@ -188,7 +189,7 @@
 1362	ὁμογενὴς δʼ ἀφʼ ὧν αὐτὸς ἔφυν τάλας.
 --- apparatus
 1349	ἀγρίας] ἀπʼ ἀγρίας L. Triclinius rightly struck out ἀπʼ, which was probably added to make the construction of the gen. clearer. Hermann preferred to omit ἦν, reading, ὄλοιθʼ ὅστις, ὅς μʼ ἀπʼ ἀγρίας πέδας.
-1350	νομάδοσ ἐπιποδίασ | ἔλυσεν ἀπό τε φόνου | ἔρρυτο κἀνέσωσεν L. ἔλυσεν has been made by an early hand from ἔλαβέμʼ (Campbell thinks, from ἔλαβέν μʼ), above which had been written ὕσ. The later MSS. have ἔλυσεν (as A), ἔλυσέ μʼ (E), ἔλυσʼ ἐμʼ (V⁴), or ἔλαβέ μʼ (V). Some have ἔρρυτο, others ἔρυτο. For νομάδος Elmsley conjectured νομάδʼ: I suggest μονάδʼ. For κἀνέσωσεν Campbell has given κἀνέσωσέ μʼ.
+1350	νομάδοσ ἐπιποδίασ | ἔλυσεν ἀπό τε φόνου | ἔρρυτο κἀνέσωσεν L. ἔλυσεν has been made by an early hand from ἔλαβέμʼ (Campbell thinks, from ἔλαβέν μʼ), above which had been written ϋσ. The later MSS. have ἔλυσεν (as A), ἔλυσέ μʼ (E), ἔλυσʼ ἐμʼ (V⁴), or ἔλαβέ μʼ (V). Some have ἔρρυτο, others ἔρυτο. For νομάδος Elmsley conjectured νομάδʼ: I suggest μονάδʼ. For κἀνέσωσεν Campbell has given κἀνέσωσέ μʼ.
 1355	ἄχος r, ἄχθος L. Faehsi's conjecture, ἄγος, is less suitable here.
 1360	ἄθλιος MSS.: ἄθεος was restored by Erfurdt, and independently (in the same year, 1811) by Seidler, De Vers. Dochm. 59. The same emendation was afterwards made by Elmsley, and by Reisig (Conject. I. 191).
 1362	ὁμογενὴς MSS.: ὁμολεχὴς Meineke: ὁμόγαμος Musgrave.
@@ -203,3 +204,4 @@
 1358	the page prints ἦλθον, with a comma.
 1362	the page prints ὁμογενὴς (Perseus ὁμολεχὴς, Meineke's conjecture in the apparatus). Numbered 1362, not 1361 as in the draft: Jebb's apparatus and his commentary ("1362 f. ὁμογενὴς δʼ ἀφʼ ὧν ἔφυν") number it so, and his note on 1341 calls αὐτὸς ἔφυν τάλας 1363; the margin 1360 stands at νῦν δʼ ἄθεος, which in his count covers 1360-1361.
 1362	the note runs on to the next text page (leaf 278, "Musgrave."): written whole here.
+1350	rev: apparatus "above which had been written ϋσ": the print has υ with a diaeresis (two dots, enlarged 8x), no breathing or accent; was ὕσ.

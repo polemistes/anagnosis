@@ -115,6 +115,7 @@
 713	the note 713 runs on to the top of the apparatus of p-0200 (ἕξοι.): written here whole.
 704	res: comma after ξυνειδώς (acute), as printed
 712	res: ἀπʼ without accent, as printed (seen in the residual crop, not a listed item)
+707	rev: no change: after πέρι the page has a mark like "!" (a stroke over a dot); it is a reader's mark like the "blasph." with arrow written beside 709 on this page, not a stop of the printed text: nothing written
 
 === p-0200
 --- text
@@ -165,7 +166,7 @@
 735	καὶ τίς χρόνος τοῖσδʼ ἐστὶν οὑξεληλυθώς;
 @ Ἰοκάστη
 736	σχεδόν τι πρόσθεν ἢ σὺ τῆσδʼ ἔχων χθονὸς
-737	ἀρχὴν ἐφαίνου, τοῦτʼ ἐκηρύχθη πόλει.
+737	ἀρχὴν ἐφαίνου τοῦτʼ ἐκηρύχθη πόλει.
 @ Οἰδίπους
 738	ὦ Ζεῦ, τί μου δρᾶσαι βεβούλευσαι πέρι;
 @ Ἰοκάστη
@@ -182,7 +183,7 @@
 @ Ἰοκάστη
 746	πῶς φής; ὀκνῶ τοι πρὸς σʼ ἀποσκοποῦσʼ, ἄναξ.
 @ Οἰδίπους
-747	δεινῶς ἀθυμῶ μὴ βλέπων ὁ μάντις ᾖ·
+747	δεινῶς ἀθυμῶ μὴ βλέπων ὁ μάντις ᾖ.
 748	δείξεις δὲ μᾶλλον, ἢν ἓν ἐξείπῃς ἔτι.
 @ Ἰοκάστη
 749	καὶ μὴν ὀκνῶ μέν, ἃν δʼ ἔρῃ μαθοῦσʼ ἐρῶ.
@@ -190,7 +191,7 @@
 740	φύσιν | τίνʼ εἶχε φράζε· τίνα δʼ ἀκμὴν ἥβης ἔχων. L. The only variation in the later MSS. is ἔσχε for εἶχε (A). I adopt a former conjecture of Nauck's, τίνος for τίνα δʼ. Wecklein changes ἥβης ἔχων to ἔχων ἔβη: Meineke changes ἥβης to τότʼ ἦλθʼ: Wolff gives, τίνʼ εἶχε, φράζʼ ἔτʼ· ἦν δʼ ἀκμὴν ἥβης ἔχων; Others seek a substitute either (1) for ἔχων, as Brunck τότε, Kennedy ἔτι: or (2) for εἶχε, as Dindorf ἦλθε, Hartung ἔτυχε, Schneidewin and Blaydes εἷρπε.
 742	μέγασ L. A few later MSS. (Δ, Pal., and V as corrected) have μέλας, which Wecklein adopts.—χνοάζων L, not altered from χνοάζον: nor is the latter (so far as I know) in any MS.—λευκανθὲς L, which is the usual reading in the later MSS.; only one or two have λευκανθεὶς (Γ) or λευκανθὲν (Δ). Hartung reads χνοάζον...λευκανθεὶς κάρα.
 743	In L ἀπεστάτει has been made from ἀποστάτει by an early hand.
-749	ἃ δʼ ἂν L, and so nearly all the later MSS. (but ἃν δʼ Dresd. a, ἃν δʼ Bodl. Laud. 54). On such a point as ἃ δʼ ἂν versus ἃν δʼ, the authority of our MSS. is not decisive. In O. C. 13 ἃν δʼ seems clearly preferable to ἃ δʼ ἂν (L there has ἃν̀, omitting δʼ); and here, too, it gives a more Sophoclean rhythm.
+749	ἃ δʼ ἂν L, and so nearly all the later MSS. (but ἃν δʼ Dresd. a, ἂν δʼ Bodl. Laud. 54). On such a point as ἃ δʼ ἂν versus ἃν δʼ, the authority of our MSS. is not decisive. In O. C. 13 ἃν δʼ seems clearly preferable to ἃ δʼ ἂν (L there has ἃν̀, omitting δʼ); and here, too, it gives a more Sophoclean rhythm.
 --- notes
 735	margins 735, 740 and 745 agree with the numbering; every speaker in the margin (ΟΙ., ΙΟ.) as in the draft.
 741	flag: the print has τίνʼ εἶχε φράζε, *τίνος ἀκμὴν (Nauck's τίνος, apparatus 740; the asterisk left out), not Perseus's τίνʼ ἦλθε φράζε, τίνα δʼ ἀκμὴν: changed. Jebb's apparatus files the note under 740 (it quotes 740-741).
@@ -198,6 +199,9 @@
 746	flag: the print has πρὸς σʼ (grave) and φής without iota subscript (enlarged): changed both.
 749	flag: the print has ἃν δʼ ἔρῃ (rough breathing and grave on ἃν; Jebb's choice, apparatus 749), not ἃ δʼ ἂν ἔρῃ: changed.
 749	the note 749 runs on to the top of the apparatus of p-0204 (here, too, … rhythm.): written here whole. L's reading at O. C. 13 is printed with a breathing and grave on α and a second grave over ν: written ἃν̀ (combining grave). The breathing of εἷρπε (740) is blurred; written rough, the form of ἕρπω.
+737	rev: no comma after ἐφαίνου (enlarged; the print runs ἀρχὴν ἐφαίνου τοῦτʼ ἐκηρύχθη πόλει.): comma removed.
+747	rev: the stop after ᾖ stands on the line (a full stop; its foot level with the letters' foot, where the raised stop after τάλας in 744 stands at the top of the letters): ᾖ· changed to ᾖ.
+749	rev: apparatus 749: the second MS. reading, before Bodl. Laud. 54, is printed with a smooth breathing, ἂν δʼ (at 10x its mark has the form of the smooth breathing of ἂν in ἃ δʼ ἂν L, not the rough of ἃν δʼ Dresd. a beside it): ἃν changed to ἂν, as printed. Not corrected as a misprint, since ἂν (= ἐάν) δʼ is a possible MS. reading; left open for the author.
 
 === p-0204
 --- text

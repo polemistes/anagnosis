@@ -27,6 +27,7 @@ Sophocles, on the other hand, *concentrates* the attention of the audience on th
 5 played, [conf] → played,’
 6 #2¢z [conf] → *then*
 --- notes
+The checker's remark "§ 24 after § 0" is expected: § 23 stands at the end of intro-04, and the checker counts the sections from the start of each batch.
 
 === p-0049
 ## § 25 — References to a prophetic instinct.
@@ -200,42 +201,44 @@ In May, 1881, after seven months of preparation, the *Oedipus Tyrannus* was acte
 The stray mark after "Greek drama." (draft "͵") is a speck, deleted. Section number "§ 20" read from the print as § 29; margin notes of § 28 ("The *Oedipus Tyrannus*—a crucial experiment.", *Oedipus Tyrannus* italic in the margin) and § 29 ("The result at Harvard.") read from the page. Footnote 1 moved to after the § 28 paragraph that holds its mark. "Refer-|ences" divided between the pages: written whole here.
 
 === p-0053
-+ ences to it will be found in the following commentary. But it is the impression which the whole work made on the spectators of which we would speak here. Nothing of the original was altered or omitted; and at the last Oedipus was brought on the scenc, ‘his pale face marred with bloody stains’ The performances were seen by about six thousand persons,—the Harvard theatre holding about a thousand at a time. As an English version was provided for those who needed it, it cannot be said that the language veiled what might else have offended. From first to last, these great audiences, thoroughly representative of the most cultivated and critical judgment, were held spell-bound. ‘The ethical situation was so overwhelming, that they listened with bated breath, and separated in silence.” ‘The play is over. There is a moment’s silence, and then the theatre rings with applause. It seems inappropriate, however, and ceases almost as suddenly as it began. The play has left such a solemn impression that the usual customs seem unfitting, and the audience disperses quietly'’ There is the nineteenth century’s practical interpretation of Aristotle. This is Tragedy, ‘effecting, by means of pity and terror, the purgation of such feelings.’
++ ences to it will be found in the following commentary. But it is the impression which the whole work made on the spectators of which we would speak here. Nothing of the original was altered or omitted; and at the last Oedipus was brought on the scene, ‘his pale face marred with bloody stains.’ The performances were seen by about six thousand persons,—the Harvard theatre holding about a thousand at a time. As an English version was provided for those who needed it, it cannot be said that the language veiled what might else have offended. From first to last, these great audiences, thoroughly representative of the most cultivated and critical judgment, were held spell-bound. ‘The ethical situation was so overwhelming, that they listened with bated breath, and separated in silence.’ ‘The play is over. There is a moment’s silence, and then the theatre rings with applause. It seems inappropriate, however, and ceases almost as suddenly as it began. The play has left such a solemn impression that the usual customs seem unfitting, and the audience disperses quietly¹.’ There is the nineteenth century’s practical interpretation of Aristotle. This is Tragedy, ‘effecting, by means of pity and terror, the *purgation* of such feelings.’
 
-## § 30 — Ocdipe Roi S35 Francais.
+[Note: ¹ *Account of the Harvard Greek Play*, pp. 36, 103.]
 
-A few months later in the same year (1881), the Oedipus Tyrannus was revived in a fairly close French translation at the Théatre Francais. When the version of Jules Lacroix was played there in 1858, the part of Oedipus was filled by Geoffroy; but on this occasion an artist was available whose powers were even more congenial. Probably no actor of modern times has excelled M. Mounet-Sully in the union of all the qualities required for a living impersonation of the Sophoclean Oedipus in the entire series of moods and range of passions which the part comprises; as the great king, at once mighty and tender; the earnest and zealous champion of the State in the search for hidden guilt; the proud man startled by a charge which he indignantly repels, and embittered by the supposed treason of a friend; tortured by slowly increasing fears, alternating with moments of reassurance; stung to frenzy by the proof of his unspeakable wretchedness; subdued to a
+## § 30 — *Oedipe Roi* at the Théâtre Français.
 
-[Note: 1 Account of the Harvard Greek Play, pp. 36, 103.]
+A few months later in the same year (1881), the *Oedipus Tyrannus* was revived in a fairly close French translation at the Théâtre Français. When the version of Jules Lacroix was played there in 1858, the part of Oedipus was filled by Geoffroy; but on this occasion an artist was available whose powers were even more congenial. Probably no actor of modern times has excelled M. Mounet-Sully in the union of all the qualities required for a living impersonation of the Sophoclean Oedipus in the entire series of moods and range of passions which the part comprises; as the great king, at once mighty and tender; the earnest and zealous champion of the State in the search for hidden guilt; the proud man startled by a charge which he indignantly repels, and embittered by the supposed treason of a friend; tortured by slowly increasing fears, alternating with moments of reassurance; stung to frenzy by the proof of his unspeakable wretchedness; subdued to a
 --- flags
-1 ences [rare] →
-2 scenc [rare] →
-3 ‘The [conf] →
-4 quietly'’ [conf] →
-5 ‘effect- [conf] →
-6 Théatre [latin] (Greek model: ὙΤμΒέδιγε.) →
-7 Francais [latin] (Greek model: Ἐτδηςαίβ..) →
-8 Lacroix [rare] →
-9 Geoffroy [rare] →
-10 Mounet [rare] →
+1 ences [rare] → ok
+2 scenc [rare] → scene
+3 ‘The [conf] → ok
+4 quietly'’ [conf] → quietly¹.’
+5 ‘effect- [conf] → ‘effecting (joined)
+6 Théatre [latin] (Greek model: ὙΤμΒέδιγε.) → Théâtre
+7 Francais [latin] (Greek model: Ἐτδηςαίβ..) → Français.
+8 Lacroix [rare] → ok
+9 Geoffroy [rare] → ok
+10 Mounet [rare] → ok
 --- notes
+"scene" is printed with a worn last e that looks like c ("scenc"): written "scene". Quotation marks mended ("stains.’", "silence.’", "quietly¹.’"); *purgation* italic in the print. Margin note of § 30 read from the page (draft "Ocdipe Roi S35 Francais."): "*Oedipe Roi* at the Théâtre Français.", *Oedipe Roi* italic. The footnote (draft at the foot, "1 Account …") made `[Note: ¹ …]` with the title in italics and moved to after the paragraph that holds its mark, before § 30.
 
 === p-0054
-+ calmer despair; finally softened by the meeting with his young daughters. The scene between Oedipus and Iocasta (vv. 700 —3862) should be especially noticed as one in which the genius of Sophocles received the fullest justice from that of M. Mounet-Sully. In the words of a critic who has finely described the performance’: —
++ calmer despair; finally softened by the meeting with his young daughters. The scene between Oedipus and Iocasta (vv. 700—862) should be especially noticed as one in which the genius of Sophocles received the fullest justice from that of M. Mounet-Sully. In the words of a critic who has finely described the performance¹:—
+
+[Note: ¹ *Saturday Review*, Nov. 19, 1881.]
 
 ‘Every trait of the tragedian’s countenance is now a witness to the inward dread, always increasing upon him, as he relates his own adventure, and questions her for more minute details of the death of Laius. His voice sometimes sinks to a trembling gasp of apprehension, as the identity of the two events becomes more and more evident. He seems to be battling with fate.’
 
-With a modern audience, the moment at which the selfblinded Oedipus comes forth is that which tests the power of the ancient dramatist; if, at that sight, repugnance overpowers compassion, the spell has been imperfect; if all other feelings are absorbed in the profound pathos of the situation, then Sophocles has triumphed. We have seen the issue of the ordeal in the case of the representation at Harvard. On the Paris stage, the traditions of the French classical drama (represented on this point by Corneille and Voltaire) were apt to make the test peculiarly severe. It is the more significant that the moment is thus described in the excellent account which we have cited above (—
+With a modern audience, the moment at which the self-blinded Oedipus comes forth is that which tests the power of the ancient dramatist; if, at that sight, repugnance overpowers compassion, the spell has been imperfect; if all other feelings are absorbed in the profound pathos of the situation, then Sophocles has triumphed. We have seen the issue of the ordeal in the case of the representation at Harvard. On the Paris stage, the traditions of the French classical drama (represented on this point by Corneille and Voltaire) were apt to make the test peculiarly severe. It is the more significant that the moment is thus described in the excellent account which we have cited above:—
 
 ‘Oedipus enters, and in the aspect of the man, his whole history is told. It is not the adjunct of the bleeding eyes which now most deeply stirs the spectators. It is the intensity of woe which is revealed in every movement of the altered features and of the tottering figure whose bearing had been so majestic, and the tone of the voice,—hoarse, yet articulate. The inward struggle is recognised in its necessary outward signs. The strain on the audience might now become too great but for the relief of tenderness which almost immediately succeeds in the parting of Oedipus from his children. Often as pathetic farewells of a similar kind have been presented on the stage, seldom has any made an appeal so forcible.’
-
-[Note: 1 Saturday Review, Nov. 19, 1891.]
 --- flags
-1 Iocasta [conf] →
-2 Mounet [rare] →
-3 performance’: [conf] →
-4 — [conf] →
-5 It [conf] →
-6 is [conf] →
-7 1891. [conf] →
+1 Iocasta [conf] → ok
+2 Mounet [rare] → ok
+3 performance’: [conf] → performance¹:—
+4 — [conf] → ok
+5 It [conf] → ok
+6 is [conf] → ok
+7 1891. [conf] → 1881.
 --- notes
+"vv. 700—3862" (OCR) is "vv. 700—862" in the print. In the quoted critic "Laius" is printed without the diaeresis (kept); "him" is printed with a broken i ("hlm"): written "him". "self-|blinded" divided at the line end, written with its hyphen (self-blinded). "above (—" made "above:—". The ink blot in "Mounet" ignored. Footnote mark ¹ after "performance": the footnote (draft at the foot, 1891) made `[Note: ¹ *Saturday Review*, Nov. 19, 1881.]` (the print has 1881) and moved to after that paragraph.

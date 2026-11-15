@@ -133,119 +133,121 @@ L is not only the oldest, but also immeasurably the best, MS. of Sophocles which
 The margin notes "The first hand." and "The first corrector." stand beside lines inside the paragraph, not at its start: written in italics in the running text before the sentence they stand beside ("The scribe wrote …", "This person is usually …"). "simile" (end of "fac-simile" from p-0057) written whole on p-0057.
 
 === p-0059
-+ among whom have been Anton Seyffert (Quaestiones criticae de Codicibus recte aestimandis, Halle, 1863) ; Prof. N. Wecklein (Ars Sophoclis emendandi, pp. 2 ff., 1869), and Prof. L. Campbell (Sopkocles, vol. 1. pp. xxiv ff., 1879). 1 learn, however, that Prof. Wecklein has since become disposed to retract his opinion. In the second part of the Introduction to the Facsimile of L (pp. 15 ff.), I have shortly stated some of the objections to regarding L as the unique source. Two of them are furnished by this play: viz. (i) verse 8oo, omitted in the text of L, and inserted in the margin by a hand certainly later than several of the Mss. which have the verse in the text: (ii) the words πονεῖν ἢ τοῖς θεοῖς written at v. 896 in the text of L,—these being corrupted from a gloss, πανηγυρίζειν τοῖς θεοῖς, which exists in full in the Trinity Ms., and elsewhere'. The chief argument for L being the unique source is briefly this, that, though other Mss. sometimes correct L on small points, no one of them supplies any correction which was clearly beyond the reach of a fairly intelligent scribe or grammarian. The question is one which does not seem to admit of demonstrative proof either way: we must be content with the probabilities, which will be differently estimated by different minds. Apart, however, from this obscure question, all scholars can agree in recognising the paramount importance of L as the basis of our text. The sense of L’s incomparable value is one which steadily grows upon the student as he proceeds with the labour of textual criticism. Wecklein’s words are not too strong, when properly understood: ‘A critic will hardly go wrong if he treats every letter, every stroke in L as worthy of particular attention, while he regards the readings of other Mss. rather in the light of conjectures,’ —that is, where these Mss. diverge from L otherwise than by correcting its trivial errors. Instances in which they correct L may be seen in this play at vv. 43, 182, 221, 296, 332, 347, 657, 730, 961, 1260, 1387, 1474, etc. But, notwithstanding all such small corrections, it remains true that, with 1, safe, the loss of our other mss. would have been a comparatively light misfortune. As instances in which a true reading has been preserved in a citation of Sophocles by an ancient author, but neither in L nor in any other Ms., we may notice vv. 466, 528, 1170.
++ among whom have been Anton Seyffert (*Quaestiones criticae de Codicibus recte aestimandis*, Halle, 1863); Prof. N. Wecklein (*Ars Sophoclis emendandi*, pp. 2 ff., 1869), and Prof. L. Campbell (*Sophocles*, vol. I. pp. xxiv ff., 1879). I learn, however, that Prof. Wecklein has since become disposed to retract his opinion. In the second part of the Introduction to the Facsimile of L (pp. 15 ff.), I have shortly stated some of the objections to regarding L as the unique source. Two of them are furnished by this play: viz. (i) verse 800, omitted in the text of L, and inserted in the margin by a hand certainly later than several of the MSS. which have the verse in the text: (ii) the words πονεῖν ἢ τοῖς θεοῖς written at v. 896 in the text of L,—these being corrupted from a gloss, πανηγυρίζειν τοῖς θεοῖς, which exists in full in the Trinity MS., and elsewhere¹. The chief argument for L being the unique source is briefly this, that, though other MSS. sometimes correct L on small points, no one of them supplies any correction which was clearly beyond the reach of a fairly intelligent scribe or grammarian. The question is one which does not seem to admit of demonstrative proof either way: we must be content with the probabilities, which will be differently estimated by different minds. Apart, however, from this obscure question, all scholars can agree in recognising the paramount importance of L as the basis of our text. The sense of L’s incomparable value is one which steadily grows upon the student as he proceeds with the labour of textual criticism. Wecklein’s words are not too strong, when properly understood: ‘A critic will hardly go wrong if he treats every letter, every stroke in L as worthy of particular attention, while he regards the readings of other MSS. rather in the light of conjectures,’—that is, where these MSS. diverge from L otherwise than by correcting its trivial errors. Instances in which they correct L may be seen in this play at vv. 43, 182, 221, 296, 332, 347, 657, 730, 967, 1260, 1387, 1474, etc. But, notwithstanding all such small corrections, it remains true that, with L safe, the loss of our other MSS. would have been a comparatively light misfortune. As instances in which a true reading has been preserved in a citation of Sophocles by an ancient author, but neither in L nor in any other MS., we may notice vv. 466, 528, 1170.
 
-## § 4 — Other Mss.
+[Note: ¹ A valuable discussion of this point is given by Prof. Campbell, vol. I. pp. xxv—xli.]
 
-Of the other Florentine mss., L* cod. XXXI. 10 (14th cent.) contains all the seven plays, while I' (cod. Abbat. 152), of the late 13th cent., has only 4, £/, Ὁ. T., Phil. ; and A (cod. Abbat. 41), of the 14th cent, only 47, ZZ, O. T.
+## § 4 — Other MSS.
 
-1 A valuable discussion of this point is given by Prof. Campbell, vol. I. Pp. XXv— xli.
+Of the other Florentine MSS., L² cod. XXXI. 10 (14th cent.) contains all the seven plays, while Γ (cod. Abbat. 152), of the late 13th cent., has only *Ai.*, *El.*, *O. T.*, *Phil.*; and Δ (cod. Abbat. 41), of the 14th cent., only *Ai.*, *El.*, *O. T.*
 --- flags
-1 criticae [latin] (Greek model: ΓΟ) →
-2 Codicibus [rare] →
-3 aestimandis [latin] (Greek model: αοείἐνιαηαῆς,) →
-4 Sopkocles [latin] (Greek model: (ϑοῤλσείεν,) →
-5 1. [digit] →
-6 ff., [conf] →
-7 1 [digit] →
-8 8oo, [digit] →
-9 Mss. [conf] →
-10 elsewhere'. [conf] →
-11 Mss. [conf] →
-12 conjectures,’ [conf] →
-13 —that [conf] →
-14 1, [digit] →
-15 Ms., [conf] →
-16 L* [conf] →
-17 Abbat [rare] →
-18 4, [conf] →
-19 £/, [conf] →
-20 T., [conf] (Greek model: Ζ;) →
-21 Abbat [rare] →
-22 cent, [conf] →
-23 47, [conf] →
-24 ZZ [latin] (Greek model: 'Ζξ,) →
+1 criticae [latin] (Greek model: ΓΟ) → ok (italic)
+2 Codicibus [rare] → ok (italic)
+3 aestimandis [latin] (Greek model: αοείἐνιαηαῆς,) → ok (italic)
+4 Sopkocles [latin] (Greek model: (ϑοῤλσείεν,) → *Sophocles*
+5 1. [digit] → I.
+6 ff., [conf] → ok
+7 1 [digit] → I
+8 8oo, [digit] → 800,
+9 Mss. [conf] → MSS.
+10 elsewhere'. [conf] → elsewhere¹.
+11 Mss. [conf] → MSS.
+12 conjectures,’ [conf] → ok
+13 —that [conf] → ok (joined: conjectures,’—that)
+14 1, [digit] → L
+15 Ms., [conf] → MS.,
+16 L* [conf] → L²
+17 Abbat [rare] → ok
+18 4, [conf] → *Ai.*,
+19 £/, [conf] → *El.*,
+20 T., [conf] (Greek model: Ζ;) → *O. T.*,
+21 Abbat [rare] → ok
+22 cent, [conf] → cent.,
+23 47, [conf] → *Ai.*,
+24 ZZ [latin] (Greek model: 'Ζξ,) → *El.*,
 --- notes
+Beyond the flags: italics restored (*Quaestiones … aestimandis*, *Ars Sophoclis emendandi*, *Phil.*); "961" read 967 from the print; "I' " read Γ, "A (cod. Abbat. 41)" read Δ; mss. → MSS. throughout; space before ";" dropped. Footnote moved after the paragraph that holds its mark (before § 4); margin note "Other MSS." read from the page.
 
 === p-0060
-A, no. 2712 in the National Library of Paris, 1s a parchment of the 13th century’. It 15 a volume of 324 pages, each about 114 inches by 9 in size, and contains (1) Eur. εν, Or., Phoen., Androm., Med., Hipp. : (2) ἢ. 117—214, the seven plays of Soph.: (3) Ar. Plut., Nub., Ran., Eq., Av., Acharn., Eccl. (imperfect). The text of each page is in three columns; the writing goes continuously from left to right along all three, so that, e.g,, vv. 1, 2, 3 of a play are respectively the first lines of columns 1, 2, 3, and v. 4 is the second line of col. 1. The contractions are naturally very numerous, since the average breadth of each column (ze. of each verse) is only about 2 inches; but they are regular, and the Ms. 15 not difficult to read.
+A, no. 2712 in the National Library of Paris, is a parchment of the 13th century¹. It is a volume of 324 pages, each about 11½ inches by 9 in size, and contains (1) Eur. *Hec.*, *Or.*, *Phoen.*, *Androm.*, *Med.*, *Hipp.*: (2) p. 117—214, the seven plays of Soph.: (3) Ar. *Plut.*, *Nub.*, *Ran.*, *Eq.*, *Av.*, *Acharn.*, *Eccl.* (imperfect). The text of each page is in three columns; the writing goes continuously from left to right along all three, so that, *e.g.*, vv. 1, 2, 3 of a play are respectively the first lines of columns 1, 2, 3, and v. 4 is the second line of col. 1. The contractions are naturally very numerous, since the average breadth of each column (*i.e.* of each verse) is only about 2 inches; but they are regular, and the MS. is not difficult to read.
 
-B, no. 2787, in the same Library, written on thick paper, contains (1) Acsch-.B. Ὑ,. Trd)., Pers.: {2) Soph. Ὁ. Z., Track., Pil, O-C. Codex E, no. 2884, written on paper, contains (1) the same three plays of Aesch., (2) Soph. “42., El, O. T., (3) Theocr. /dyll. 1—14. Both these Mss. have short interlinear notes and scholia. In E the writing is not good, and the rather frequent omissions show the scribe to have been somewhat careless. Though the Catalogue assigns E to the 13th cent., the highest date due to it seems to be the middle or late 14th. T, no. 2711, on thick paper, a Ms. of the 15th cent., exhibits the seven plays of Sophocles in the recension of Demetrius Triclinius, the grammarian of the 14th cent. The single-column pages, measuring about 114 by 74, contain copious marginal scholia, which are mainly Triclinian. The general features of the Triclinian recension are wellknown. He occasionally gives, or suggests, improved readings, but his ignorance of classical metre was equalled by his rashness, and especially in the lyrics he has often made havoc.
+[Note: ¹ It contains the entry, ‘Codex optimae notae. Codex Memmianus. Anno D. 1731 Feb. 16 Die.’ In 1740 it had not yet been collated (Catal. II. 542).]
 
-Of the Venetian Mss., V, no. 468, a paper folio of the late 13th or early 14th cent., contains (1) Oppian; (2) Aesch. P. V., Théb., Pers., Agam. (imperfect): (3) Soph., the 7 plays (but Z7ack. only to 18, O. C. only from 1338). ΜΝ", no. 616, a parchment in small folio, probably of the 14th cent., contains (1) Soph., the 7 plays: (2) Aesch., 5 plays (Cho. and Suppl. wanting). Μ᾽, no. 467, a paper 8vo. of the 14th cent., has the 7 plays of Sophocles. V* no. 472, a paper 8vo. of the 14th cent., has (1) Ar. Plut., Nub., Ran.; (2) Soph. 4i., Εἰ, Ant. (imperfect), O. T, with marginal scholia.
+B, no. 2787, in the same Library, written on thick paper, contains (1) Aesch. *P. V.*, *Theb.*, *Pers.*: (2) Soph. *O. T.*, *Trach.*, *Phil.*, *O. C.* Codex E, no. 2884, written on paper, contains (1) the same three plays of Aesch., (2) Soph. *Ai.*, *El.*, *O. T.*, (3) Theocr. *Idyll.* 1—14. Both these MSS. have short interlinear notes and scholia. In E the writing is not good, and the rather frequent omissions show the scribe to have been somewhat careless. Though the Catalogue assigns E to the 13th cent., the highest date due to it seems to be the middle or late 14th. T, no. 2711, on thick paper, a MS. of the 15th cent., exhibits the seven plays of Sophocles in the recension of Demetrius Triclinius, the grammarian of the 14th cent. The single-column pages, measuring about 11½ by 7½, contain copious marginal scholia, which are mainly Triclinian. The general features of the Triclinian recension are well-known. He occasionally gives, or suggests, improved readings, but his ignorance of classical metre was equalled by his rashness, and especially in the lyrics he has often made havoc.
 
-Of the Bodleian mss., Laud. Misc. 99 (Auct. F. 3. 25), late 14th cent., contains Soph. O. 7%, £/, Ai.: Laud. 54 (early 15th cent.) the same three : Barocc. 66, 15th cent., the same three, with Eur. Phkoen.
+Of the Venetian MSS., V, no. 468, a paper folio of the late 13th or early 14th cent., contains (1) Oppian; (2) Aesch. *P. V.*, *Theb.*, *Pers.*, *Agam.* (imperfect): (3) Soph., the 7 plays (but *Trach.* only to 18, *O. C.* only from 1338). V², no. 616, a parchment in small folio, probably of the 14th cent., contains (1) Soph., the 7 plays: (2) Aesch., 5 plays (*Cho.* and *Suppl.* wanting). V³, no. 467, a paper 8vo. of the 14th cent., has the 7 plays of Sophocles. V⁴, no. 472, a paper 8vo. of the 14th cent., has (1) Ar. *Plut.*, *Nub.*, *Ran.*; (2) Soph. *Ai.*, *El.*, *Ant.* (imperfect), *O. T.*, with marginal scholia.
 
-[Note: 1 It contains the entry, ‘Codex optimae notae. Codex Memmianus. Anno D.]
-
-[Note: 1731 Feb. 16 Die.” In 1740 it had not yet been collated (Catal. 11. 542).]
+Of the Bodleian MSS., Laud. Misc. 99 (Auct. F. 3. 25), late 14th cent., contains Soph. *O. T.*, *El.*, *Ai.*: Laud. 54 (early 15th cent.) the same three: Barocc. 66, 15th cent., the same three, with Eur. *Phoen.*
 --- flags
-1 1s [digit] →
-2 Hipp. [conf] →
-3 ἢ. [conf] →
-4 Eq., [conf] →
-5 e.g,, [conf] →
-6 (ze. [conf] →
-7 Acsch [latin] (Greek model: Αδβοη. 5) →
-8 Ὑ,. [conf] →
-9 Trd [latin] (Greek model: Ζλοό.,) →
-10 Pil, [conf] →
-11 O-C. [conf] →
-12 (1) [digit] →
-13 El, [conf] →
-14 dyll [latin] (Greek model: έν.) →
-15 clinian. [conf] →
-16 Théb [latin] (Greek model: Ζλο.,) →
-17 Z7ack. [digit] →
-18 ΜΝ", [conf] →
-19 (Cho. [conf] →
-20 Suppl. [conf] →
-21 Μ᾽, [conf] →
-22 8vo. [digit] →
-23 V* [conf] →
-24 8vo. [digit] →
-25 4i., [digit] →
-26 mss., [conf] →
-27 Phkoen [latin] (Greek model: Ράσονι.) →
-28 optimae [rare] →
-29 notae [rare] →
-30 Memmianus [rare] →
+1 1s [digit] → is
+2 Hipp. [conf] → *Hipp.*
+3 ἢ. [conf] → p.
+4 Eq., [conf] → *Eq.*,
+5 e.g,, [conf] → *e.g.*,
+6 (ze. [conf] → (*i.e.*
+7 Acsch [latin] (Greek model: Αδβοη. 5) → Aesch.
+8 Ὑ,. [conf] → *V.*,
+9 Trd [latin] (Greek model: Ζλοό.,) → *Theb.*,
+10 Pil, [conf] → *Phil.*,
+11 O-C. [conf] → *O. C.*
+12 (1) [digit] → ok
+13 El, [conf] → *El.*,
+14 dyll [latin] (Greek model: έν.) → *Idyll.*
+15 clinian. [conf] → ok (Tri-clinian, joined)
+16 Théb [latin] (Greek model: Ζλο.,) → *Theb.*,
+17 Z7ack. [digit] → *Trach.*
+18 ΜΝ", [conf] → V²,
+19 (Cho. [conf] → (*Cho.*
+20 Suppl. [conf] → *Suppl.*
+21 Μ᾽, [conf] → V³,
+22 8vo. [digit] → ok
+23 V* [conf] → V⁴,
+24 8vo. [digit] → ok
+25 4i., [digit] → *Ai.*,
+26 mss., [conf] → MSS.,
+27 Phkoen [latin] (Greek model: Ράσονι.) → *Phoen.*
+28 optimae [rare] → ok
+29 notae [rare] → ok
+30 Memmianus [rare] → ok
 --- notes
+Beyond the flags: italics restored on all the titles of plays (Hec., Or., … O. T.); "15" → is, "114" → 11½ (twice), "74" → 7½; "Ὁ. Z., Track." → *O. T.*, *Trach.*; "“42." → *Ai.*; "O. 7%, £/" → *O. T.*, *El.*; "Die.”" → Die.’; "Catal. 11." → Catal. II.; Ms./mss. → MS./MSS. throughout; spaces before ":" and ";" dropped. The footnote, split by the draft into two [Note:] paragraphs, made one and moved after the paragraph that holds its mark. "well-known" printed divided at the line end (well-|known): written with its hyphen as the usual spelling.
 
 === p-0061
-+ The Ms. of Trin. Coll. Camb. (late 14th—early 15th) has ZZ, Ai, oO. 7:
++ The MS. of Trin. Coll. Camb. (late 14th—early 15th) has *El.*, *Ai.*, *O. T.*
 
-## § 5 — Scope of ie cient tion.
+## § 5 — Scope of the critical annotation.
 
-In relation to a text, the report of manuscript readings may be valuable in either, or both, of two senses, the palaeographical and the critical. For example, in O. 7. 15 L reads προσήιμεθα, and in 17 στένοντες. These facts have a palaeographical interest, as indicating the kind of mistakes that may be expected in Mss. of this age and class. But they are of no critical interest, since neither προσήμεθα nor στένοντες is a possible variant: they in no way affect the certainty that we must read προσήμεθα and σθένοντες. In a discussion on the characteristics and tendencies of a particular Ms., such facts have a proper (and it may happen to be, an important) place, as illustrating how, for instance, « may have been wrongly added, or 6 wrongly altered, elsewhere. The editor of a text has to consider how far he will report facts of which the direct interest is palaeographical only.
+In relation to a text, the report of manuscript readings may be valuable in either, or both, of two senses, the palaeographical and the critical. For example, in *O. T.* 15 L reads προσήιμεθα, and in 17 στένοντες. These facts have a palaeographical interest, as indicating the kind of mistakes that may be expected in MSS. of this age and class. But they are of no critical interest, since neither προσῄμεθα nor στένοντες is a possible variant: they in no way affect the certainty that we must read προσήμεθα and σθένοντες. In a discussion on the characteristics and tendencies of a particular MS., such facts have a proper (and it may happen to be, an important) place, as illustrating how, for instance, ι may have been wrongly added, or θ wrongly altered, elsewhere. The editor of a text has to consider how far he will report facts of which the direct interest is palaeographical only.
 
-The general rule which I have followed is to report only those readings of Mss. which have a direct critical interest, that is, which affect a question of reading or of orthography; except in the instances, not numerous in this play, where a manuscript error, as such, appeared specially significant. Had I endeavoured to exhibit all, or even a considerable part, of the mere mis-spellings, errors of accentuation, and the like, which I have found in the mss. which I have collated, the critical notes must have grown to an enormous bulk, without any corresponding benefit, unless to the palaeographical student of the particular codex and its kindred. On the other hand, I have devoted much time, care, and thought to the endeavour not to omit in my critical notes any point where the evidence of the mss. known to me seemed to have a direct bearing on the text.
+The general rule which I have followed is to report only those readings of MSS. which have a direct critical interest, that is, which affect a question of reading or of orthography; except in the instances, not numerous in this play, where a manuscript error, as such, appeared specially significant. Had I endeavoured to exhibit all, or even a considerable part, of the mere mis-spellings, errors of accentuation, and the like, which I have found in the MSS. which I have collated, the critical notes must have grown to an enormous bulk, without any corresponding benefit, unless to the palaeographical student of the particular codex and its kindred. On the other hand, I have devoted much time, care, and thought to the endeavour not to omit in my critical notes any point where the evidence of the MSS. known to me seemed to have a direct bearing on the text.
 
-## § 6 — The use of “Metre
+## § 6 — The use of conjecture.
 
-The use of conjecture is a question on which an editor must be prepared to meet with large differences of opinion, and must be content if the credit is conceded to him of having steadily acted to the best of his judgment. All students of Sophocles would probably agree at least in this, that his text is one in which conjectural emendation should be admitted only with the utmost caution. His style is not seldom analogous to that of Vergil in this respect, that, when his instinct felt a phrase to be truly and finely expressive, he left the logical analysis of it to the discretion of grammarians then unborn. I might instance νῦν πᾶσι χαίρω (O. 7. 596). Such a style may easily provoke the heavy hand of prosaic correction ; and, if it requires sympathy to interpret and defend it, it also requires, when it has once been marred, a very tender and very temperate touch in any attempt to restore it. Then in the lyric
+The use of conjecture is a question on which an editor must be prepared to meet with large differences of opinion, and must be content if the credit is conceded to him of having steadily acted to the best of his judgment. All students of Sophocles would probably agree at least in this, that his text is one in which conjectural emendation should be admitted only with the utmost caution. His style is not seldom analogous to that of Vergil in this respect, that, when his instinct felt a phrase to be truly and finely expressive, he left the logical analysis of it to the discretion of grammarians then unborn. I might instance νῦν πᾶσι χαίρω (*O. T.* 596). Such a style may easily provoke the heavy hand of prosaic correction; and, if it requires sympathy to interpret and defend it, it also requires, when it has once been marred, a very tender and very temperate touch in any attempt to restore it. Then in the lyric
 --- flags
-1 ZZ [latin] (Greek model: 27,) →
-2 oO. [conf] →
-3 προσήιμεθα [greek] →
-4 orévovτες [mixed] →
-5 orévovτες [mixed] →
+1 ZZ [latin] (Greek model: 27,) → *El.*,
+2 oO. [conf] → *O.*
+3 προσήιμεθα [greek] → ok
+4 orévovτες [mixed] → στένοντες
+5 orévovτες [mixed] → στένοντες
 --- notes
+Beyond the flags: "Ai, oO. 7:" → *Ai.*, *O. T.*; "O. 7." → *O. T.* (twice); the second "προσήμεθα" is printed with iota subscript, προσῄμεθα; "«" → ι, "6" → θ (the letters themselves, printed without breathing: the checker's remark on “ι” is answered so); Mss./mss. → MSS. throughout; space before ";" dropped. Margin notes read from the page: § 5 "Scope of the critical annotation." (draft "Scope of ie cient tion."), § 6 "The use of conjecture." (draft "The use of “Metre").
 
 === p-0062
-+ parts of his plays Sophocles is characterised by tones of feeling and passion which change with the most rapid sensibility —by boldness and sometimes confusion of metaphor—and by occasional indistinctness of imagery, as if the figurative notion was suddenly crossed in his mind by the literal.
++ parts of his plays Sophocles is characterised by tones of feeling and passion which change with the most rapid sensibility—by boldness and sometimes confusion of metaphor—and by occasional indistinctness of imagery, as if the figurative notion was suddenly crossed in his mind by the literal.
 
-## § 7 — Our text— how transmitted.
+## § 7 — Our text—how transmitted.
 
-Now consider by what manner of process the seven extant plays of this most bold and subtle artist have come down to us through about 23 centuries. Already within some 70 years after the death of Sophocles, the Athenian actors had tampered in such wise with the texts of the three great dramatists that the orator Lycurgus caused a standard copy to be deposited in the public archives of Athens, and a regulation to be made that an authorised person should follow in a written text the performances given on the stage, with a view to controlling unwarranted change®. Our oldest manuscript dates from 1400 to 1500 years after the time of Lycurgus. The most ancient sources which existed for the writers of our Mss. were already, it cannot be doubted, seriously corrupted. And with regard to these writers themselves, it must not be forgotten what their ordinary qualifications were. They were usually men who spoke and wrote the Greek of their age (say from the 11th to the 16th century) as it was commonly spoken and written by men of fair education. On the other hand, as we can see, they were usually very far from being good scholars in old classical Greek ; of classical metres they knew almost nothing; and in respect of literary taste or poetical feeling they were, as a rule, no less poorly equipped. In the texts of the dramatists they were constantly meeting with things which they did not understand, and in such cases they either simply transmitted a fault of the archetype, or tried to make sense by some expedient of their own. On the whole, the text of Sophocles has fared better in the Mss. than that of either Aeschylus or Euripides. This needs no explanation in the case of Aeschylus. The style of Euripides, apparently so near to common life, and here analogous to that of Lysias, is, like the orator’s, full of hidden snares and pitfalls for a transcriber: λείη μὲν yap ἰδεῖν, as the old epigram says of it, εἰ δέ τις αὐτὴν | εἰσβαίνοι, χαλεποῦ τρηχυτέρη σκόλοπος. Where, however, our Mss. of Sophocles do fail, the corruption is often serious and universal. His manuscript text resembles a country with generally good roads, but an occasional deficiency of bridges.
+Now consider by what manner of process the seven extant plays of this most bold and subtle artist have come down to us through about 23 centuries. Already within some 70 years after the death of Sophocles, the Athenian actors had tampered in such wise with the texts of the three great dramatists that the orator Lycurgus caused a standard copy to be deposited in the public archives of Athens, and a regulation to be made that an authorised person should follow in a written text the performances given on the stage, with a view to controlling unwarranted change¹. Our oldest manuscript dates from 1400 to 1500 years after the time of Lycurgus. The most ancient sources which existed for the writers of our MSS. were already, it cannot be doubted, seriously corrupted. And with regard to these writers themselves, it must not be forgotten what their ordinary qualifications were. They were usually men who spoke and wrote the Greek of their age (say from the 11th to the 16th century) as it was commonly spoken and written by men of fair education. On the other hand, as we can see, they were usually very far from being good scholars in old classical Greek; of classical metres they knew almost nothing; and in respect of literary taste or poetical feeling they were, as a rule, no less poorly equipped. In the texts of the dramatists they were constantly meeting with things which they did not understand, and in such cases they either simply transmitted a fault of the archetype, or tried to make sense by some expedient of their own. *Its general condition.* On the whole, the text of Sophocles has fared better in the MSS. than that of either Aeschylus or Euripides. This needs no explanation in the case of Aeschylus. The style of Euripides, apparently so near to common life, and here analogous to that of Lysias, is, like the orator’s, full of hidden snares and pitfalls for a transcriber: λείη μὲν γὰρ ἰδεῖν, as the old epigram says of it, εἰ δέ τις αὐτὴν | εἰσβαίνοι, χαλεποῦ τρηχυτέρη σκόλοπος. Where, however, our MSS. of Sophocles do fail, the corruption is often serious and universal. His manuscript text resembles a country with generally good roads, but an occasional deficiency of bridges.
+
+[Note: ¹ [Plut.] *Vit. Lycurg.* § 11.]
 
 Is there reason to hope that, in such places, more light will yet be obtained from the manuscripts or scholia now known to exist? It
-
-[Note: 1 [Plut.] Vit. Lycurg. § 11.]
 --- flags
-1 change®. [conf] →
-2 eloβαίνοι [mixed] →
-3 eloβαίνοι [mixed] →
-4 τρηχυτέρη [greek] (Greek model: πτρηχυτέρη) →
-5 σκόλοπος. [conf] →
+1 change®. [conf] → change¹.
+2 eloβαίνοι [mixed] → εἰσβαίνοι
+3 eloβαίνοι [mixed] → εἰσβαίνοι
+4 τρηχυτέρη [greek] (Greek model: πτρηχυτέρη) → ok
+5 σκόλοπος. [conf] → ok
 --- notes
+Beyond the flags: "yap" → γὰρ; "Mss." → MSS. throughout; "sensibility —by" → sensibility—by; space before ";" dropped; the epigram's printed bar kept as " | " (εἰσ-|βαίνοι divided at the line end, written whole). Margin notes read from the page: § 7 "Our text—how transmitted." (draft "Our text— how"); "Its general condition." stands beside the line "their own. On the whole, …" inside the paragraph: written in italics before that sentence, as on p-0058. Footnote moved after the paragraph that holds its mark, *Vit. Lycurg.* in italics.
