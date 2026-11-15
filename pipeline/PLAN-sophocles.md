@@ -257,6 +257,42 @@ The metrical analyses are not transcribed (as for Ajax and Electra).
   texts); it now shows names without a dictionary entry in the Choephoroi, Clouds, Electra and
   one word in the Eumenides: small glossary additions, not done.
 
+* **2026-11-15, Trachiniae emulator check and what it led to** (508573f). The check (Opus
+  agent; commands in its report: from app/ with JAVA_HOME=/opt/android-studio/jbr,
+  `./gradlew :androidApp:bundleDebug`, `./gradlew --stop`, bundletool 1.18.1 `build-apks
+  --local-testing`, `install-apks`, `emulator -avd anagnosis -no-snapshot-save -no-boot-anim
+  -no-audio`; the unmarked text is not in the shop, so the sale mark is added to a scratch
+  copy of the bundle's catalogue only) found the app working and three things in the data:
+  * **`merge-drama` exits with the number of its log remarks**: never chain it with `&&`
+    (my chain stopped and the build stayed stale). Run merge, `sophocles-prose`,
+    `build --only`, `catalog`, `check` as separate commands.
+  * **Lyric numbering.** After a long verse that covers two traditional numbers, the numbering
+    pass's "run on from the margin number" leaves our numbers one behind Jebb's until the
+    next margin number, and his notes then sit under the wrong verse. New command
+    **`sophocles-numbering <play>`** lists the suspects (apparatus notes whose lemma stands in
+    a neighbouring verse; notes with the printed number in front). For the Trachiniae an agent
+    renumbered five stretches by Jebb's note numbers and the pages (parodos, 205–215, 633–644,
+    839–864, 1015–1040); three lemma suspects are left on purpose (658, 977, 981: explained in
+    build/logs/trachiniae-numbering-agent.md); undecided and left: the epode 131–140 (margin
+    135 on χαίρειν against note 132 and the introduction's "epode 132–140") and 1029/1030.
+    **For the next plays: run `sophocles-numbering` after the first merge and give its list to
+    one agent with the pages, before the last build.**
+  * **Lost spaces in Jebb's commentary from Perseus** ("*Ai.*664ἡ βροτῶν"): the importer
+    joined pieces at tag boundaries without a space; fixed in commentary.py (`_join`,
+    `_needs_space`, tests). `sophocles-prose` now makes commentary-jebb.md again from the
+    Perseus source with the fixed importer, then re-files the notes. The published plays were
+    NOT regenerated; the fix would add 321 spaces in the Antigone (259 notes), 1,341 in the
+    Ajax (915 notes, 28 in the introduction), 1,121 in the Electra (772 notes, 14 in the
+    introduction): **the author decides whether to rebuild them.** For the Oedipus Tyrannus
+    the regeneration would also turn 7 places like Ἐρινύ–ων back to Ἐρινύ¯ων (the vowel-length
+    correction of commit a369d68 was made in the files, not in the importer): look at this
+    when that play reaches `sophocles-prose`.
+  * Being done by the same agent: the 25 translation segments that start at numbers we lack
+    are to stand with the earlier verse that covers them (in `sophocles-prose`, eng-jebb.txt
+    made again from Perseus first). After that the Trachiniae is finished; a second emulator
+    run is not planned (the app's behaviour was seen; what changed since is data, checked in
+    the files).
+
 ## Decisions
 
 * 2026-11-15: order by least work left (Trachiniae first).
