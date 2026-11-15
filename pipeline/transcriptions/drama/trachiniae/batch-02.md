@@ -72,7 +72,7 @@
 118	ὥσπερ A: ὥστε L.
 120	ἀναμπλάκητον] ἀπλάκητον L (and so Hesych., ἀπλάκητον, ἀναμάρτητον). But the schol. in L has the true ἀναμπλάκητον, in which μ, having been accidentally omitted, is written over π,—thus illustrating the origin of ἀπλάκητον.—Ἅιδα] ἀΐδα L, A, etc.: αἵδα B.
 121	ἐρύκει] ἐρύκοι T.
-122	ἐπιμεμφομένα σʼ r: L has ἐπιμεμφομένασ, followed by a full stop (σ. having been inadvertently substituted for σʼ).—αἰδοῖα Musgrave: ἀδεῖα MSS. O. Hense conj. ἔδεισα (Nauck, σε|δεῖσα): Subkoff, σοι | λεῖα.
+122	ἐπιμεμφομένα σʼ r: L has ἐπιμεμφομένασ, followed by a full stop (σ. having been inadvertently substituted for σʼ).—αἰδοῖα Musgrave: ἁδεῖα MSS. O. Hense conj. ἔδεισα (Nauck, σε|δεῖσα): Subkoff, σοι | λεῖα.
 127	ἀνάλγητα] M. Schmidt conj. ἀνάλλακτα.
 128	ἐπέβαλε r: ἐπέβαλλε L.
 --- notes
@@ -91,6 +91,7 @@
 121	apparatus 121 (ἐρύκει) refers to our 120 (σφε δόμων ἐρύκει., joined to it).
 127	apparatus 127 (ἀνάλγητα) refers to our 126.
 128	apparatus 128 (ἐπέβαλε) refers to our 126.
+122	rev: apparatus 122: ἁδεῖα MSS., with a rough breathing (the same shape as in ἁδεῖα and ἡδύς in Jebb's note on 122, opposite to the smooth breathings of ἀνάλγητα, ἀνάλλακτα in this apparatus), as printed (settled against enlarged crops, 2026-11-15)
 
 === p-0098
 --- text
@@ -176,12 +177,12 @@
 158	ἁμοὶ] ἅμοι L: ἅ μοι Ald.
 159	οὔπω] οὕπω L: οὕτω Harl.: and so Tournier conj.
 161	λέχους] Naber conj. λάχους.—ὅ τι] L has ὅτι (sic): there is nothing, then, to show that the scribe meant ὅτι rather than ὅ τι. But the Aldine and all the earlier edd. have ὅτι. Musgrave, while keeping ὅτι in his text, first recommended ὅ τι (ed. 1809).
-162	χρείη Brunck: χρεῖʼ ἧ L (with ει in an erasure, from η). Cp. cr. nn. on O. T. 555, O. C. 268, Ant. 884.
+162	χρείη Brunck: χρεῖʼ ἦ L (with ει in an erasure, from η). Cp. cr. nn. on O. T. 555, O. C. 268, Ant. 884.
 163	διαιρετὸν L: διαιρετὴν r (as Harl.): A has διαιρετὸν with ὴν written above. Hermann, with Lobeck (Paralip. p. 482), writes διαίρετον.—νέμοι L, with most MSS.: μένειν A, Harl., Ald.
 164	τρίμηνος Wakefield: τρίμηνον MSS.—ἡνίκα Dawes: ἡνίκʼ ἂν MSS.
 165	ἀπείη] ἀπήει (sic) L, with ει written over η, and η over ει, by the first hand.—κἀνιαύσιος MSS.: κἀνιαύσιον Brunck (writing κᾀνιαύσιον).
 166-168	Dobree suspected these three vv., which Dindorf rejects.
-166	χρείη σφε] χρεῖʼ, ἥσφε L.
+166	χρείη σφε] χρεῖʼ, ἤσφε L.
 167	τοῦθʼ] Wunder conj. τοῦδʼ.—ὑπεκδραμόντα MSS.: Wunder and Burges conj. ὑπερδραμόντα.
 169	τοιαῦτʼ...εἱμαρμένα] Nauck proposes to read οἰζὺν...εἱμαρμένον, and to omit vv. 166—168.
 170	Wunder and Dindorf reject this v.: O. Hense would read τὸν Ἡράκλειον ἐκτελευτᾶσθαι πόνον. (with a full stop), and place the v. before v. 169.
@@ -197,3 +198,5 @@
 167	flag (ἢ not found in the OCR): ἢ is printed at the start of this verse; no change.
 169	"τοιαῦτʼ...εἱμαρμένα" and "οἰζὺν...εἱμαρμένον": the three dots are printed without spaces; copied so.
 170	Jebb's note on 170 ends the spread; nothing runs on to leaf 104.
+162	rev: apparatus 162: χρεῖʼ ἦ L, smooth breathing under the circumflex (the stalk under the circumflex ends without the rightward curl of the rough breathings in ᾗ, οἷον, ᾧ, ὧν, and matches the smooth ἦν, οὖν, εἶμι of nearby pages; agrees with the smooth ἤσφε in 166); the earlier note reading it rough is withdrawn; as printed (settled against enlarged crops, 2026-11-15)
+166	rev: apparatus 166: χρεῖʼ, ἤσφε L, smooth breathing with the acute (the same shape as the smooth breathing of ἂν on leaf 103, opposite to the rough of ἡνίκα, ἡνίκʼ there), as printed (settled against enlarged crops, 2026-11-15)

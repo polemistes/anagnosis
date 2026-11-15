@@ -339,7 +339,7 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
     # Sophocles in Jebb's edition (pipeline/PLAN-sophocles.md): text and apparatus by this route;
     # Jebb's commentary, introduction and translation are Perseus's, made by sophocles.py
     Play("trachiniae", "Τραχίνιαι", "Trachiniae", "Σοφοκλῆς", "Sophocles", "tlg0011.tlg001",
-         "Sophocles: The Plays and Fragments, with critical notes, commentary, and translation in English prose, by R. C. Jebb, Part V: The Trachiniae, Cambridge, University Press, 1892",
+         "Sophocles: The Plays and Fragments, Part V: The Trachiniae, ed. R. C. Jebb, Cambridge University Press, 1892",
          "sophocles05soph", "jebb", "R. C. Jebb", "sophocles_trachiniae_jebb",
          treebank="tlg0011.tlg001.perseus-grc2.tb.xml", translation="kept", translator="Richard C. Jebb", trans_key="jebb", layout="jebb", app_rule="under", head_frac=0.095, speaker_trust=True, app_langs=("eng+grc", "grc+eng"),
          check_text="sophocles/trachiniae/reference-grc.txt",
@@ -349,7 +349,7 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          # persons and the structure 77-79
          text_leaves=[(80, 257)], intro_leaves=[(55, 58), (77, 79)], appendix_leaves=[(259, 281)]),
     Play("oedipustyrannus", "Οἰδίπους Τύραννος", "Oedipus Tyrannus", "Σοφοκλῆς", "Sophocles", "tlg0011.tlg004",
-         "Sophocles: The Plays and Fragments, with critical notes, commentary, and translation in English prose, by R. C. Jebb, Part I: The Oedipus Tyrannus, third edition, Cambridge, University Press, 1893",
+         "Sophocles: The Plays and Fragments, Part I: The Oedipus Tyrannus, ed. R. C. Jebb, third edition, Cambridge University Press, 1893",
          "playsfragmentswi01sophuoft", "jebb", "R. C. Jebb", "sophocles_oedipustyrannus_jebb",
          treebank="tlg0011.tlg004.perseus-grc1.tb.xml", translation="kept", translator="Richard C. Jebb", trans_key="jebb", layout="jebb", app_rule="under", head_frac=0.095, speaker_trust=True, app_langs=("eng+grc", "grc+eng"),
          check_text="sophocles/oedipustyrannus/reference-grc.txt",
@@ -359,7 +359,7 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          # (title and arguments 103-106, persons 107, structure 108-109), which Perseus lacks
          text_leaves=[(110, 299)], intro_leaves=[(15, 66), (103, 109)], appendix_leaves=[(301, 334)]),
     Play("oedipuscoloneus", "Οἰδίπους ἐπὶ Κολωνῷ", "Oedipus at Colonus", "Σοφοκλῆς", "Sophocles", "tlg0011.tlg007",
-         "Sophocles: The Plays and Fragments, with critical notes, commentary, and translation in English prose, by R. C. Jebb, Part II: The Oedipus Coloneus, second edition, Cambridge, University Press, 1889",
+         "Sophocles: The Plays and Fragments, Part II: The Oedipus Coloneus, ed. R. C. Jebb, second edition, Cambridge University Press, 1889",
          "sophocles02soph_0", "jebb", "R. C. Jebb", "sophocles_oedipuscoloneus_jebb",
          glaux="0011-007.xml", layout="jebb", app_rule="under", head_frac=0.095, speaker_trust=True, app_langs=("eng+grc", "grc+eng"),
          check_text="sophocles/oedipuscoloneus/reference-grc.txt",
@@ -369,7 +369,7 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          # editions, etc." about PDF 53-57 = leaves 55-59; the persons about PDF 97 = leaf 103
          text_leaves=[(106, 371)]),
     Play("philoctetes", "Φιλοκτήτης", "Philoctetes", "Σοφοκλῆς", "Sophocles", "tlg0011.tlg006",
-         "Sophocles: The Plays and Fragments, with critical notes, commentary, and translation in English prose, by R. C. Jebb, Part IV: The Philoctetes, second edition, Cambridge, University Press, 1898",
+         "Sophocles: The Plays and Fragments, Part IV: The Philoctetes, ed. R. C. Jebb, second edition, Cambridge University Press, 1898",
          "playsfragmentswi04sophuoft", "jebb", "R. C. Jebb", "sophocles_philoctetes_jebb",
          glaux="0011-006.xml", layout="jebb", app_rule="under", head_frac=0.095, speaker_trust=True, app_langs=("eng+grc", "grc+eng"),
          check_text="sophocles/philoctetes/reference-grc.txt",

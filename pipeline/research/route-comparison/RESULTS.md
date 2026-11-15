@@ -47,6 +47,19 @@ more by-eye errors.
   OCR, make the difference here: Tesseract's reading of the apparatus is only a help.
 * An error both routes make in the same way cannot be seen by this comparison.
 
+## After the review, and the places that stayed in doubt
+
+After the review pass (every verse read against the page, the apparatus item by item) the
+comparison was run a third time (`after-review/`). The text had no known error left. In the
+apparatus five places still stood against the blind readers or between them, all a breathing
+or accent in the small type, and a sixth showed up new. One more agent settled these six from
+4x enlargements, each beside certain rough and smooth breathings from the same page: four
+corrected in the OCR route's file (122 ἁδεῖα, 166 ἤσφε, 333 ῆ, 162 ἦ: the first three
+certain, the last probable), two confirmed as they stood (58 ὤραν; 66 πὄυστιν as one word,
+loosely set). Three of the four corrections are readings the by-eye route had right. With
+them the final text and apparatus of these pages hold no known error; the by-eye reading of
+the same pages holds 15 in the text and about 20 in the apparatus.
+
 ## Cost (agent tokens, Opus)
 
 | | tokens | scan pages | per page |
@@ -55,6 +68,7 @@ more by-eye errors.
 | OCR route, first pass | 2.47 M | 178 | 13,900 |
 | OCR route, residual pass | 1.28 M | 178 | 7,200 |
 | OCR route, both | 3.75 M | 178 | 21,100 |
+| OCR route, review pass (two runs; the first was stopped half way) | about 2.5 M | 178 | about 14,000 |
 
 The by-eye route would also need its second pass for the lyric verses, which the OCR route
 does not (the draft divides the verses as printed).

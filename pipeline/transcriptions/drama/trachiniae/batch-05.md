@@ -11,7 +11,7 @@
 @ Δηιάνειρα
 339	τί δʼ ἐστί; τοῦ με τήνδʼ ἐφίστασαι βάσιν;
 --- apparatus
-333	σύ θʼ] σύγʼ Brunck.—οἷ] ἧ (=ᾗ) Harl.—θέλεις A: θέληισ L: θέλοις B.
+333	σύ θʼ] σύγʼ Brunck.—οἷ] ῆ (=ᾗ) Harl.—θέλεις A: θέληισ L: θέλοις B.
 334	ἐγὼ δὲ L, with most MSS.: ἐγώ τε A (and so Turnebus).
 335	ἀμμείνασʼ] ἐμμείνασʼ A, Harl.; and so Ald.
 336	οὕστινάς τʼ] τʼ was added by Erfurdt. (οὕστινάς γʼ A.) Hense deletes this verse, omitting τʼ after ὧν in 337.
@@ -24,6 +24,7 @@
 333	apparatus: the apparatus on this page begins with the end of a note from the page before ("conj. προσφατόν γʼ ἐμοῦ λάβοι ... Blaydes restores λάβῃ."): left to the batch before.
 333	apparatus: the breathing on the first ἧ is faint under the circumflex; written as the rough breathing of the gloss (=ᾗ).
 336	res: no comma after τῶνδʼ, as printed
+333	rev: apparatus 333: ῆ (=ᾗ) Harl., a circumflex with no breathing on the first η (clear white between the letter and the circumflex; the gloss ᾗ beside it has its breathing plainly), as printed (settled against enlarged crops, 2026-11-15)
 
 === p-0130
 --- text

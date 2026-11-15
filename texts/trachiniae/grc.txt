@@ -1,8 +1,8 @@
 # title: Τραχίνιαι
 # author: Σοφοκλῆς
 # lang: grc
-# source: Sophocles: The Plays and Fragments, with critical notes, commentary, and translation in English prose, by R. C. Jebb, Part V: The Trachiniae, Cambridge, University Press, 1892; read from the Internet Archive scan sophocles05soph by OCR, matched word by word to Jebb's text in the Perseus Digital Library (soph.trach_gk.xml), and checked against the scan where the two disagreed
-# edition: Sophocles: The Plays and Fragments, with critical notes, commentary, and translation in English prose, by R. C. Jebb, Part V: The Trachiniae, Cambridge, University Press, 1892
+# source: Sophocles: The Plays and Fragments, Part V: The Trachiniae, ed. R. C. Jebb, Cambridge University Press, 1892; read from the Internet Archive scan sophocles05soph by OCR, matched word by word to Jebb's text in the Perseus Digital Library (soph.trach_gk.xml), and checked against the scan where the two disagreed
+# edition: Sophocles: The Plays and Fragments, Part V: The Trachiniae, ed. R. C. Jebb, Cambridge University Press, 1892
 # license: CC BY-SA 4.0 (transcription; the edition is in the public domain)
 
 == episode Prologue

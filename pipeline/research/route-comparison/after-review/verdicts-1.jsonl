@@ -1,0 +1,41 @@
+{"id": "T6-1", "verdict": "1", "printed": "Οἰνέως,", "note": "comma with tail after Οἰνέως"}
+{"id": "T7-1", "verdict": "1", "printed": "Πλευρῶνι,", "note": "comma after Πλευρῶνι"}
+{"id": "T16-1", "verdict": "1", "printed": "ἐπηυχόμην", "note": "no stop at line end"}
+{"id": "T79-1", "verdict": "2", "printed": "τελεῖν,", "note": "comma at line end"}
+{"id": "T85-1", "verdict": "2", "printed": "ἅμα.", "note": "full stop at foot of line"}
+{"id": "T95-1", "verdict": "1", "printed": "τε φλογιζόμενον,", "note": "no comma after τε; comma after φλογιζόμενον"}
+{"id": "T145-1", "verdict": "1", "printed": "θεοῦ,", "note": "comma"}
+{"id": "T226-1", "verdict": "1", "printed": "παρῆλθε", "note": "no comma before τόνδε"}
+{"id": "T240-1", "verdict": "1", "printed": "ᾕρει", "note": "iota subscript clearly printed under the eta"}
+{"id": "T249-1", "verdict": "1", "printed": "ὡς", "note": "rough breathing only, no accent"}
+{"id": "T314-1", "verdict": "1", "printed": "ἐγώ;", "note": "question mark (;)"}
+{"id": "T349-1", "verdict": "1", "printed": "νοεῖς·", "note": "raised stop, not a full stop; raised stop, not a full stop"}
+{"id": "T357-1", "verdict": "1", "printed": "λατρεύματʼ,", "note": "comma clearly printed after the elision; comma clearly printed"}
+{"id": "T391-1", "verdict": "1", "printed": "ἁνὴρ", "note": "rough breathing on alpha; rough breathing, same form as on ὡς"}
+{"id": "T438-1", "verdict": "2", "printed": "κακῇ,", "note": "comma after κακῇ; comma clearly printed"}
+{"id": "A38-1", "verdict": "2", "printed": "ἰφίτου", "note": "smooth breathing on first iota, acute on second"}
+{"id": "A66-1", "verdict": "neither", "printed": "πὄ υστιν", "note": "smooth breathing + acute on omicron (as reading 2), but a visible gap between ὄ and υστιν (as reading 1); gap is narrower than a normal word space; Smooth breathing with acute on the omicron, as in reading 2 (the rough breathing in ὅτι on leaf 102 has its blob at the foot; this one has it at the top). But the page leaves a clear gap between πὄ and υστιν, as in reading 1. So the breathing matches reading 2 and the spacing matches reading 1."}
+{"id": "A84-1", "verdict": "1", "printed": "ἅμα", "note": "rough breathing + acute"}
+{"id": "A84-2", "verdict": "2", "printed": "ἅμα", "note": "rough breathing + acute, same shape as the first"}
+{"id": "A94-102-1", "verdict": "1", "printed": "ἅλιον· ἅλιον", "note": "rough breathing on both (same shape as ἅμα in note 84); raised stop after the first"}
+{"id": "A120-1", "verdict": "2", "printed": "αἵδα", "note": "rough breathing + acute on iota"}
+{"id": "A122-1", "verdict": "2", "printed": "ἁδεῖα", "note": "rough breathing (blob at top, tail down to the right), unlike the smooth one on ἀνάλγητα in the same block"}
+{"id": "A132-1", "verdict": "1", "printed": "νὺξ", "note": "grave accent; leaf 99, start of the small-type block"}
+{"id": "A159-1", "verdict": "2", "printed": "οὕπω L: οὕτω", "note": "lemma οὔπω has a smooth breathing; the L and Harl. forms both have rough breathings (tail bends right)"}
+{"id": "A166-1", "verdict": "2", "printed": "ἤσφε", "note": "clear smooth breathing with acute (leaf 103)"}
+{"id": "A220-1", "verdict": "2", "printed": "βακχείαν", "note": "acute on the iota, no circumflex on ει"}
+{"id": "A237-1", "verdict": "2", "printed": "εὐβοῒσ", "note": "grave between the diaeresis dots; final medial sigma as printed"}
+{"id": "A245-1", "verdict": "2", "printed": "αὑτῷ", "note": "lemma has a rough breathing (tail down to the right); the following αὐτῶι L has a smooth one"}
+{"id": "A255-1", "verdict": "2", "printed": "αὑτῷ", "note": "rough breathing (head at top, tail down to the right), unlike the smooth breathing on ἀγχιστ- in 256"}
+{"id": "A285-1", "verdict": "2", "printed": "σὸς", "note": "grave accent, then the full stop: πόσις γ' ὁ σὸς."}
+{"id": "A295-1", "verdict": "1", "printed": "ἀνάγκη", "note": "lemma has no iota subscript"}
+{"id": "A328-1", "verdict": "2", "printed": "αὕτη", "note": "rough breathing plus acute; breathing has the same shape as the one on αὑτῆι just before it"}
+{"id": "A333-1", "verdict": "1", "printed": "ῆ", "note": "circumflex only, no breathing (Harl. spelling); the bracket gives ᾗ"}
+{"id": "A365-1", "verdict": "2", "printed": "σοὺς", "note": "grave accent; full stop follows; grave accent"}
+{"id": "A373-1", "verdict": "2", "printed": "οὓς", "note": "rough breathing with grave (stroke slants down to the right); rough breathing with a short stroke falling to the right (grave), no circumflex arc; small type, seen at high zoom"}
+{"id": "A391-1", "verdict": "1", "printed": "ἁνὴρ", "note": "rough breathing (reversed-comma shape), compare smooth ἀπὸ in note 389; rough breathing (c-shaped), same as ὡς"}
+{"id": "A391-2", "verdict": "2", "printed": "ὡ", "note": "rough breathing, no accent; rough breathing, clearly unlike the apostrophe-shaped smooth mark before νὴρ"}
+{"id": "A395-1", "verdict": "2", "printed": "συνχρόνωι", "note": "nu, not gamma, before χ; ν clearly printed, not γ"}
+{"id": "A402-433-1", "verdict": "2", "printed": "σὴν", "note": "grave accent; grave accent"}
+{"id": "A403-1", "verdict": "1", "printed": "ἐρωτήσασ", "note": "final letter printed as medial-form σ (manuscript spelling), likewise ἔχεισ; medial-form sigma at word end, as in ἔχεισ"}
+{"id": "A418-1", "verdict": "1", "printed": "1", "note": "old-style figure one at x-height, same glyph as the 1 in 1786; not a capital I; old-style figure at x-height, the same glyph as the 1 in 1786; not a full-height capital I"}

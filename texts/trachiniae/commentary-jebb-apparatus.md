@@ -203,7 +203,7 @@ L divides the vv. thus:—πολλὰ — | ἢ νότου — | κύματʼ �
 [121] ἐρύκει] ἐρύκοι T.
 
 ## 122
-ἐπιμεμφομένα σʼ r: L has ἐπιμεμφομένασ, followed by a full stop (σ. having been inadvertently substituted for σʼ).—αἰδοῖα Musgrave: ἀδεῖα MSS. O. Hense conj. ἔδεισα (Nauck, σε|δεῖσα): Subkoff, σοι | λεῖα.
+ἐπιμεμφομένα σʼ r: L has ἐπιμεμφομένασ, followed by a full stop (σ. having been inadvertently substituted for σʼ).—αἰδοῖα Musgrave: ἁδεῖα MSS. O. Hense conj. ἔδεισα (Nauck, σε|δεῖσα): Subkoff, σοι | λεῖα.
 
 ## 126
 [127] ἀνάλγητα] M. Schmidt conj. ἀνάλλακτα.
@@ -258,7 +258,7 @@ Dindorf now rejects these three vv.: he formerly rejected v. 150 only (ed. 1860)
 **λέχους**] Naber conj. λάχους.—**ὅ τι**] L has ὅτι (sic): there is nothing, then, to show that the scribe meant ὅτι rather than ὅ τι. But the Aldine and all the earlier edd. have ὅτι. Musgrave, while keeping ὅτι in his text, first recommended ὅ τι (ed. 1809).
 
 ## 162
-χρείη Brunck: χρεῖʼ ἧ L (with ει in an erasure, from η). Cp. cr. nn. on O. T. 555, O. C. 268, Ant. 884.
+χρείη Brunck: χρεῖʼ ἦ L (with ει in an erasure, from η). Cp. cr. nn. on O. T. 555, O. C. 268, Ant. 884.
 
 ## 163
 διαιρετὸν L: διαιρετὴν r (as Harl.): A has διαιρετὸν with ὴν written above. Hermann, with Lobeck (Paralip. p. 482), writes διαίρετον.—νέμοι L, with most MSS.: μένειν A, Harl., Ald.
@@ -273,7 +273,7 @@ Dindorf now rejects these three vv.: he formerly rejected v. 150 only (ed. 1860)
 Dobree suspected these three vv., which Dindorf rejects.
 
 ## 166
-**χρείη σφε**] χρεῖʼ, ἥσφε L.
+**χρείη σφε**] χρεῖʼ, ἤσφε L.
 
 ## 167
 **τοῦθʼ**] Wunder conj. τοῦδʼ.—ὑπεκδραμόντα MSS.: Wunder and Burges conj. ὑπερδραμόντα.
@@ -558,7 +558,7 @@ L points thus:—μὴ τῶν τυράννων εὐρύτου· σπορά τ�
 τοῖσ οὖσι λύπην πρόσ γʼ ἐμοῦ λύπην λάβοι L, with most MSS. The variants are worthless,—λοιπὴν for the first λύπην (B), or λύπης for the second (A). Triclinius amended οὖσι λύπην to οὖσιν ἄλλην. Blaydes conj. οὖσι καινὴν, or οὖσιν ἤδη: Nauck, οὖσιν αὐτῇ. Others propose, instead of the second λύπην, διπλῆν (F. W. Schmidt), νέαν (Dindorf), or λύπῃ (Paley). Wecklein conj. προσφατόν γʼ ἐμοῦ λάβοι. Wunder changes πρός γʼ ἐμοῦ to ἐξ ἐμοῦ. For λάβοι (MSS.), Blaydes restores λάβῃ.
 
 ## 333
-**σύ θʼ**] σύγʼ Brunck.—**οἷ**] ἧ (=ᾗ) Harl.—θέλεις A: θέληισ L: θέλοις B.
+**σύ θʼ**] σύγʼ Brunck.—**οἷ**] ῆ (=ᾗ) Harl.—θέλεις A: θέληισ L: θέλοις B.
 
 ## 334
 ἐγὼ δὲ L, with most MSS.: ἐγώ τε A (and so Turnebus).
