@@ -44,7 +44,11 @@ const out = []
 for (let i = 0; i < files.length; i += atOnce) {
   const chunk = files.slice(i, i + atOnce)
   const res = await pipeline(chunk,
-    f => agent(check(f), { label: `${play} ${f}`, phase: 'Prose batches', model: 'opus', agentType: 'general-purpose' }),
+    // args.reviewOnly: files whose flags are all answered already (a checking agent was stopped
+    // before it reported): they go straight to the review
+    f => (args.reviewOnly || []).includes(f)
+      ? 'The first agent was stopped before it reported; every flag in the file is answered.'
+      : agent(check(f), { label: `${play} ${f}`, phase: 'Prose batches', model: 'opus', agentType: 'general-purpose' }),
     (report, f) => args.review
       ? agent(review(f, report), { label: `${play} review ${f}`, phase: 'Review', model: 'opus', agentType: 'general-purpose' })
           .then(r => ({ file: f, check: String(report || '').slice(0, 400), review: String(r || 'NO REPLY').slice(0, 500) }))

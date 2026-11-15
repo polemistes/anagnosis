@@ -214,6 +214,18 @@ The metrical analyses are not transcribed (as for Ajax and Electra).
     first pass 2.47 M (Trachiniae, 178 leaves) and 2.02 M (Oedipus Tyrannus, 190 leaves);
     residual passes 1.28 M and 1.44 M; prose-route agent 0.34 M; comparison lists 0.17 M.
 
+* **RESTARTED 2026-11-15 at the author's word: "take it play by play again, and go back to
+  doing it the most economical way that produces the best quality, and after that you can
+  think about efficiency."** So: the Trachiniae alone until it is finished (then Oedipus
+  Tyrannus, Philoctetes or Oedipus at Colonus only when their turn comes; their half-done
+  batches wait); at most ten agents at once; no pass run twice; the passes kept are those that
+  were seen to catch errors: flags, residuals, and one review per batch with the verse-reading
+  task (text) or one second reading (prose). Running: the review of Trachiniae batches 01, 02,
+  05, 06, 07, 10, 11, 12, 13 (six at once) and the prose (appendix-03 check, then a review of
+  intro-01, appendix-01…03). Then: the comparison's parts 1–3 with ONE blind reader each (the
+  two readers of part 4 agreed on everything; a second reader only for a "neither" or an
+  unclear scan), `sophocles-prose trachiniae`, `merge-drama trachiniae` and the steps after it.
+
 ## Decisions
 
 * 2026-11-15: order by least work left (Trachiniae first).
