@@ -3,7 +3,7 @@
 This folder holds the page-by-page work on the printed editions of nine plays and of Hesiod's
 Theogony (see pipeline/PLAN-drama.md and pipeline/PLAN-theogony.md for which edition each uses). Each play has a folder
 (`agamemnon/`, `choephoroi/`, `eumenides/`, `clouds/`, `medea/`, `frogs/`, `bacchae/`,
-`alcestis/`, `lysistrata/`) with batch files. The editions are in the public domain; the
+`alcestis/`, `lysistrata/`, and for Jebb's Sophocles `trachiniae/`, `oedipustyrannus/`) with batch files. The editions are in the public domain; the
 transcription is published under CC BY-SA 4.0. `merge-drama <play>` turns the batch files into
 `texts/<play>/grc.txt` and `texts/<play>/commentary-<editor>-apparatus.md`.
 
@@ -196,6 +196,43 @@ verses Rzach does not print in his text (the Metis fragment after 929, which Per
   (ΑΜΦΙΛΛ⟨Ο⟩ΓΙΑC B), copy the capitals as printed, lunate sigma C included, and his brackets.
 * Greek words in the apparatus have full accents as printed; references (Hom. Β 305, Priscianus
   Inst. XIV 34, Aristides XXVIII 20, Mor. 747 f) are copied as printed.
+
+**Jebb's Sophocles (Trachiniae, Oedipus Tyrannus, Oedipus at Colonus, Philoctetes).** Each
+spread has the Greek on the left-hand (even) page and Jebb's translation on the right-hand page;
+only the left-hand pages have verses. On a text page: the verses; under them, after a wider
+space but **with no rule**, the critical apparatus in small type set to the full width; then a
+rule, and under the rule the commentary in two columns: leave the commentary. The apparatus
+usually runs on to the facing page, where it stands in the same small type between the
+translation and the rule (crops `-app2-l.png`, `-app2-r.png`): write it with the text page.
+* **The text.** The speakers' abbreviations (ΔΗ., ΥΛ., ΧΟ., ΑΓ., ΛΙ., ΤΡ., ΠΡ., ΗΡ., ΘΕ.; ΟΙ.,
+  ΙΕ., ΚΡ., ΤΕ., ΙΟ.) stand in the left margin; a character's name is printed in capitals,
+  centred, above the first speech (ΔΗΙΑΝΕΙΡΑ.); the margin numbers every fifth verse are at the
+  right. In the lyrics Jebb prints small numerals before the verses of a strophe (2, 3, 4 …) and
+  labels in the left margin (στρ. α΄., ἀντ. α΄., ἐπ.): neither is part of the text. A verse too
+  long for the line ends on the next line, set in to the right: it is one verse (the draft joins
+  it and flags the join; confirm it). Jebb marks a conjecture admitted into the text with an
+  asterisk (*τό): leave the asterisk out. His supplements stand in angle brackets, printed
+  < >: write ⟨ ⟩; words he holds spurious in square brackets; a dagger † stays. Words printed
+  outside the metre on a verse's line (ναί· before 425) stay on that line, as printed.
+* **The apparatus.** Each note begins with the line number in bold ("16", "12 f.", "94—102"),
+  usually followed by a lemma that ends in a square bracket; a note on one line may hold several
+  remarks divided by ".—": the whole note is ONE output line, `16<TAB>ἀεὶ] αἰεὶ L. Cp. cr. n. on
+  Ant. 76.—ἐπηυχόμην] ἐπευχόμην L. Cp. Ant. 1164 (comment.).` The number is the first line
+  number alone: "12 f." and "4 ff." give `12` and `4` (leave "f."/"ff." out); a range
+  "94—102" gives `94-102`. A second note with the same number (often on the facing page) is a
+  further output line with that number. Copy Jebb's English, his sigla (L, A, B, K, T, V, V²,
+  Vat., Harl., r, MSS., schol., the hands "1st hand", S, corrector), names and references as
+  printed; a manuscript's spelling he quotes without accents or with the final σ (ἀλκμήνησ,
+  δόμοισ) is copied as printed; a superscript letter or figure as a Unicode superscript (V²).
+  The verse division he reports with upright strokes (ὃν— | τίκτει— | ἅλιον) keeps its strokes.
+* A note that runs on beyond the spread (from the foot of the right-hand page to the top of the
+  next left-hand page's apparatus, where it goes on without a number): write the whole note on
+  the page where it begins, taking its end from the next page's `-app-l.png`, `-app-r.png`
+  (open them even if that page is in another batch), and do not write that end again on the next
+  page. If your first page's apparatus begins with such an end, leave it to the batch before.
+* The first text page's apparatus begins with Jebb's note on his symbols ("L = cod. Laur. 32. 9
+  … r = one or more of the later MSS. … MSS., after a reading, means …"): it is not an item.
+  Copy it under `--- notes` in one line beginning `Sigla:`.
 
 **Your own files.** Scripts, enlarged crops and other helpers go only in a folder of your own,
 named after your batch file, under the session's scratchpad folder (e.g.
