@@ -25,14 +25,14 @@
 
 === p-0186
 --- text
-696	ὃς τὰν θερμοτάταν αἱμάδα κηκιομέναν ἑλκέων
+695	ὃς τὰν θερμοτάταν αἱμάδα κηκιομέναν ἑλκέων
 697	ἐνθήρου ποδὸς ἠπίοισι
 698	φύλλοις κατευνάσειεν, εἴ τις ἐμπέσοι,
 700	φορβάδος ἐκ γαίας ἑλών·
 701	εἷρπε δʼ ἄλλοτʼ ἀλλαχᾷ
 702	τότʼ ἂν εἰλυόμενος,
 703	παῖς ἄτερ ὡς φίλας τιθήνας, ὅθεν εὐμάρειʼ ὑπάρχοι πόρου, ἁνίκʼ ἐξανείη δακέθυμος ἄτα·
-707	οὐ φορβὰν ἱερᾶς γᾶς σπόρον, οὐκ ἄλλων
+706	οὐ φορβὰν ἱερᾶς γᾶς σπόρον, οὐκ ἄλλων
 708	αἴρων τῶν νεμόμεσθʼ ἀνέρες ἀλφησταί,
 --- apparatus
 695	οὐδʼ ὃς τὰν MSS.: Hermann omits οὐδʼ: Erfurdt, τὰν.
@@ -48,15 +48,17 @@
 706-717	L divides the vv. thus:—οὐ φορβὰν— | γᾶσ— | αἴρων—νεμόμε|σθʼ— | πλὴν— | πτανῶν— | ὦ μελέα— | ὃσ—ἥ|σθη— | λεύσσειν δʼ— | ἀεὶ προσενώμα.
 707	σπόρον r: πόρον from σπόρον L, with gl. σῖτον above.
 --- notes
-696	Numbering checked on the whole page (no margin number was read): the margin prints 700 at φορβάδος and 705 beside πόρου … ἄτα·; the draft's numbers stand.
+695	Numbering checked on the whole page (no margin number was read): the margin prints 700 at φορβάδος and 705 beside πόρου … ἄτα·.
 701	The print has εἷρπε *δʼ ἄλλοτʼ *ἀλλαχᾷ (δʼ Jebb's conjecture, asterisked), not γὰρ: changed to δʼ; the asterisks left out.
 702	Unflagged, seen on the image: the print has a comma after εἰλυόμενος; added.
 703	Numbering checked on the whole page: πόρου … ἄτα· is set in to the right on the next printed line with no strophe numeral (the numerals run 4-10, 10 before παῖς), the margin 705 beside it: the turnover of Jebb's verse 10, as in the strophe at 688. Joined to 703 (covering 703-705); the draft's separate 705 removed. Unflagged, seen on the image: the print has a comma after τιθήνας; added.
-707	The dot under α of ἱερᾶς on the scan is a blemish (no iota subscript in this genitive); left as ἱερᾶς. στρ. β΄. in the margin left out.
-695	Jebb's apparatus numbers follow his own count of these lyric verses (as on p-0182): 695 (οὐδʼ ὃς τὰν) names our 696, 698 (ἐνθήρου … φύλλοις) our 697-698, 699 (εἴ τις ἐμπέσοι) our 698, 702 (ὡς) and 703, 704 (ὑπάρχοι, πόρου, ἐξανείη) our 703; kept as printed.
-699	Checker: apparatus 699 (εἴ τις ἐμπέσοι) names words in our 698, 705 (δακέθυμος) words in our 703 (covering 703-705), and 706-717 is Jebb's range for the second strophe (our 707-716, beginning on this page): all kept as printed.
+706	The dot under α of ἱερᾶς on the scan is a blemish (no iota subscript in this genitive); left as ἱερᾶς. στρ. β΄. in the margin left out.
+695	Apparatus 698 (ἐνθήρου … φύλλοις) names words in 697-698, 699 (εἴ τις ἐμπέσοι) words in 698 (covering 698-699), 702 (ὡς) and 704 (πόρου, ἐξανείη) words in 703 (covering 703-705): kept as printed.
+699	Checker: apparatus 699 (εἴ τις ἐμπέσοι) names words in 698 (covering 698-699), 705 (δακέθυμος) words in 703 (covering 703-705), 707 (σπόρον) words in 706 (covering 706-707), and 706-717 is Jebb's range for the second strophe (706-716, beginning on this page): all kept as printed.
 701	Apparatus: ἕρπει and ἕρποι with the rough breathing, as at 691-705 on p-0184. ἄλλᾱι L: the print sets a bar over the second α; written with a combining macron.
 700	Apparatus: ἐκτέμοι, the ο broken in the print (ἐκτέμ∩ι). In 699 "(foι" is a broken r: "for".
+695	rev: numbering: ὃς τὰν … ἑλκέων renumbered 696 → 695: Jebb's apparatus 695 (οὐδʼ ὃς τὰν), his commentary "695 ff. ὃς τὰν" and "Appendix on 695 f." put ὃς τὰν in 695; the verse covers 695-696 (apparatus 696 αἱμάδα in it), after 693 which covers 693-694 (margin 694 on its turnover).
+706	rev: numbering: οὐ φορβὰν … ἄλλων renumbered 707 → 706: Jebb's apparatus 711 ("φορβὰν...γᾶς σπόρον in 706"), the range 706-717 and his commentary "706 ff. ἱερᾶς"; the verse covers 706-707 (apparatus 707 σπόρον in it), so αἴρων stays 708 (covering 708-709) and πλὴν 710 (margin 710).
 704	The note on 703 begins at the foot of p-0186 ("703 ὑπάρχοι") and ends on the facing page; the notes 704-707 are on the facing page (leaf 187). ὃσ—ἥ|σθη in 706-717: the breathing on ὃσ read as rough with grave (ὃσ) on the zoomed crop.
 
 === p-0188
@@ -67,8 +69,8 @@
 716	λεύσσων δʼ ὅπου γνοίη στατὸν εἰς ὕδωρ αἰεὶ προσενώμα.
 718	νῦν δʼ ἀνδρῶν ἀγαθῶν παιδὸς ὑπαντήσας
 720	εὐδαίμων ἀνύσει καὶ μέγας ἐκ κείνων·
-721	ὅς νιν ποντοπόρῳ δούρατι, πλήθει
-722	πολλῶν μηνῶν, πατρίαν ἄγει πρὸς αὐλὰν Μαλιάδων νυμφᾶν,
+722	ὅς νιν ποντοπόρῳ δούρατι, πλήθει
+724	πολλῶν μηνῶν, πατρίαν ἄγει πρὸς αὐλὰν Μαλιάδων νυμφᾶν,
 --- apparatus
 711	πτανῶν ἀνύσειε πνανοῖσ γαστρὶ φορβὰν. L. The other MSS. have either this, or (as A) πτανῶν πτανοῖς ἀνύσειε γαστρὶ φορβάν. (ἀνύσει Γ.) Brunck restored πτανοῖς ἰοῖς. Wecklein (Ars p. 80) suggests πτανῶν ἰοῖς ἀνύσειε...φορβάν (‘food from birds,’ as opposed to φορβὰν...γᾶς σπόρον in 706). L has ὀρνέοις as a gl. on πτανοῖς.—For ἀνύσειε Blaydes conj. πορίσειε.
 715	πόματοσ L, with ω above ό from 1st hand.—δεκέτεῖ L. The acute accent is from the 1st hand; the circumflex, from S. There was a special cause for this confusion of accents, which I may notice. Adjectives in -ετης were paroxytone in Attic (as δεκέτης), but oxytone in the common dialect (as δεκετής): see Chandler § 703 (2nd ed.). The scribe found δεκέτει, and copied it: the corrector (S) wished for the later δεκετεῖ, and omitted (as elsewhere) to delete the other accent. χρόνωι L. δεκέτη χρόνον A, which Nauck prefers: and so Blaydes.
@@ -82,15 +84,17 @@
 --- notes
 713	The print has δεκέτι (as Jebb's own text, cf. his note on 715), not δεκέτει: changed. The margin 715 stands beside this verse, which covers 713-715: the numbering is right.
 716	The print has αἰεὶ (Triclinius, apparatus 717), not ἀεὶ: changed. Unflagged, seen on the image: no comma after ὕδωρ in the print; removed. προσε- | νώμα. is divided at the line end: written whole.
-722	Flag (turnover): νυμφᾶν, is set in on the next printed line with the margin 725 beside it, the end of this verse (strophe numeral 4 before πολλῶν): the join confirmed. The print has a comma after νυμφᾶν: added. Jebb's asterisks before ἰοῖς (711) and πατρίαν (722) left out; ἀντ. β΄. in the margin left out.
-711	Jebb's apparatus numbers follow his own count of these lyric verses: 715 (πόματος, δεκέτει) names our 713, 717 (αἰεὶ, προσενώμα) our 716, 719 (παιδὸς ὑπαντήσας) our 718, 724 (πατρίαν) and 725 (Μαλιάδων) our 722; kept as printed.
+724	Flag (turnover): νυμφᾶν, is set in on the next printed line with the margin 725 beside it, the end of this verse (strophe numeral 4 before πολλῶν): the join confirmed. The print has a comma after νυμφᾶν: added. Jebb's asterisks before ἰοῖς (711) and πατρίαν (724) left out; ἀντ. β΄. in the margin left out.
+711	Apparatus 715 (πόματος, δεκέτει) names words in 713 (covering 713-715), 717 (αἰεὶ, προσενώμα) in 716 (covering 716-717), 719 (παιδὸς ὑπαντήσας) in 718 (covering 718-719), 725 (Μαλιάδων) in 724 (covering 724-725); kept as printed.
 711	Apparatus: πνανοῖσ (sic, L's reading as printed); Wecklein's πτανῶν is letter-spaced for emphasis in the print, written plain. (ἀνύσει Γ.): the siglum Γ as printed.
 718-729	Apparatus: σπερχειοῦ τε—χάλ|κασπισ: the dash after τε runs on to χάλ on the next printed line (no stroke between), as αἴρων—νεμόμε|σθʼ at 706-717; οἴτασ..ὄχθων with the two dots as printed. The notes from "The scribe found δεκέτει" on are on the facing page (leaf 189).
+722	rev: numbering: ὅς νιν … πλήθει renumbered 721 → 722: εὐδαίμων … κείνων· (margin 720) covers 720-721 (Jebb's commentary "720 f. ἀνύσει εὐδαίμων"), and his commentary "722 ποντοπόρῳ" puts this verse at 722; it covers 722-723.
+724	rev: numbering: πολλῶν … νυμφᾶν, renumbered 722 → 724: Jebb's apparatus 724 (πατρίαν) and commentary "724 ff. πατρίαν"; the verse covers 724-725 (margin 725 on its turnover, apparatus 725 Μαλιάδων in it).
 
 === p-0190
 --- text
 726	Σπερχειοῦ τε παρʼ ὄχθας, ἵνʼ ὁ χάλκασπις ἀνὴρ θεοῖς
-727	πλάθει πατρὸς θείῳ πυρὶ παμφαής, Οἴτας ὑπὲρ ὄχθων.
+728	πλάθει πατρὸς θείῳ πυρὶ παμφαής, Οἴτας ὑπὲρ ὄχθων.
 @ Νεοπτόλεμος
 730	ἕρπʼ, εἰ θέλεις. τί δή ποθʼ ὧδʼ ἐξ οὐδενὸς
 731	λόγου σιωπᾷς κἀπόπληκτος ὧδʼ ἔχει;
@@ -104,7 +108,8 @@
 731	ἔχει] ἔχηι L.
 --- notes
 732	No flags on this page. Seen on the image (the OCR's “Δὰᾷ ἁ.” is garbled): the print has ἆ ἆ ἆ ἆ. (four times ἆ, smooth breathing and circumflex, no comma), not Ἀᾶ, ἀᾶ.: changed to the print.
-727	Jebb's asterisk before πατρὸς left out. The apparatus note "727 f." filed under 727; Jebb's 729 (ὄχθων) names the end of our 727, which covers 727-729; kept as printed. The note runs on to the facing page (leaf 191) from "θεοῖς | πλάθει βάσιν".
+727	Jebb's asterisk before πατρὸς left out. The apparatus note "727 f." filed under 727 (θεοῖς at the end of 726, which covers 726-727, and πλάθει in 728); Jebb's 729 (ὄχθων) names the end of 728, which covers 728-729; kept as printed. The note runs on to the facing page (leaf 191) from "θεοῖς | πλάθει βάσιν".
+728	rev: numbering: πλάθει … ὄχθων. renumbered 727 → 728: Jebb's commentary "728 πλάθει" and his apparatus 727 (Bergk's πλάθη "in the corresponding v. of the strophe (716)": 728 answers to 716); the verse covers 728-729 (apparatus 729 ὄχθων in it), after 726 which covers 726-727 (commentary "727 ὁ χάλκασπις ἀνὴρ" in it). ἕρπʼ 730 (margin) follows.
 
 === p-0192
 --- text

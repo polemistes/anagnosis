@@ -34,7 +34,7 @@
 1288	ἆρα] οὐκ ἆρα L (the circumflex added by S): οὐκ ἄρα r: Porson conjectured ἆρʼ οὐ, or ἆρα (preferring the former, Praef. p. x): Wakefield, οὐ γὰρ.—δολούμεθα] Corrected from δουλούμεθα in L.
 1289	ἁγνοῦ—ὕψιστον] Wakefield conject. ἁγνὸν—ὑψίστου.
 1291	παρέσται] πάρεστι Γ, Hartung, Cavallin. Blaydes writes τάχʼ ἔσται.
-1292	πρότεινε] πρόυτεινε L (sic). The letters πρόυτ have been ascribed to a corrector; but the whole word seems to have been written by the 1st hand.
+1292	πρότεινε] πρὀυτεινε L (sic). The letters πρὀυτ have been ascribed to a corrector; but the whole word seems to have been written by the 1st hand.
 1293	ὡς] Buttmann conject. ὧν: Reiske, ὦ: Tournier, ᾧ: Cavallin, ὡς συνίστωσαν θεοί: O. Hense, ἐγὼ δʼ ἀπαυδῶ, θεοὶ δέ μοι ξυνίστορες.
 1294	ὑπέρ τʼ r: ὑπὲρ L, with most MSS. The restoration of τʼ was probably due to Triclinius.
 1295	L points thus: τέκνον· τίνοσ φώνημα· μῶν ὀδυσσέωσ | ἐπηισθόμην; Blaydes, thus: τέκνον, τίνος φώνημα, μῶν Ὀδυσσέως, | ἐπῃσθόμην; Nauck proposes to delete ἐπῃσθόμην (which is omitted by B), and to write ΟΔ. Ὀδυσσέως, σάφʼ ἴσθι κ.τ.λ.
@@ -47,6 +47,7 @@
 1295	the page prints a question mark after φώνημα and no comma after Ὀδυσσέως (checked on the whole page; Jebb's apparatus contrasts Blaydes's pointing with commas).
 1295	the note is headed "1295 f."; it runs on to the top of the next page's apparatus (p-0270), from where its end is taken.
 1296a	the speaker change (ΟΔ.) inside the verse confirmed.
+1292	rev: apparatus: L's reading and "the letters" are printed πρὀυτεινε, πρὀυτ with a smooth breathing on the ο (not an acute; compared at 6x with the acute of πάρεστι and the breathing of ὀδυσσέωσ on the same page): written so (was πρόυτεινε, πρόυτ).
 
 === p-0270
 --- text

@@ -99,10 +99,10 @@
 650	κοιμῶ τόδʼ ἕλκος, ὥστε πραΰνειν πάνυ.
 --- apparatus
 633	πάντα δὲ] Wakefield conj. πάντα τε.
-636	ὁρίζῃ Reiske, Brunck: ὁρίζει MSS. (χωρίζει Ha.l.): marg. gl. in L, διΐστησιν.—Buttmann retained ὡς (as = ‘since’) ὁρίζει: Hermann gave ἕως... ὁρίζει.
+636	ὁρίζῃ Reiske, Brunck: ὁρίζει MSS. (χωρίζει Harl.): marg. gl. in L, διΐστησιν.—Buttmann retained ὡς (as = ‘since’) ὁρίζει: Hermann gave ἕως... ὁρίζει.
 637	Hermann would assign these two vv. to the Chorus. Blaydes follows Bergk in rejecting them.
 639	τοὐκ r: τοῦ L.—ἀνῇ Pierson: ἄηι L, with gl. παρῆι: ἀγῆ A (with gl. πέσῃ, θραυσθῇ, showing that the annotator took it from ἐάγην,—‘be broken,’ i.e. ‘fall’!).
-642	οὔκʼ· ἀλλὰ (sic) L.—Seyffert reads, οὐκ αὐτὰ...; Meineke, οὐκ ἆρα...; (and so Cavallin): Wecklein (Ars p. 40) οὐκ ἆρʼ ἅμα...; O. Heine, ἀλλʼ οὐχὶ...; Schneidewin (formerly), ἀλλʼ ἐστὶ...: Doederlein, οἶδʼ· ἀλλὰ (and so Nauck): Mekler, εὖ γʼ· ἀλλὰ.—Paley would justify οὔκ by a transposition, arranging the vv. thus: 643, 644, 642, 641.
+642	οὔκʼ· ἀλλὰ (sic) L.—Seyffert reads, οὐκ αὐτὰ...; Meineke, οὐκ ἆρα...; (and so Cavallin): Wecklein (Ars p. 40) οὐκ ἄρʼ ἅμα...; O. Heine, ἀλλʼ οὐχὶ...; Schneidewin (formerly), ἀλλʼ ἐστὶ...: Doederlein, οἶδʼ· ἀλλὰ (and so Nauck): Mekler, εὖ γʼ· ἀλλὰ.—Paley would justify οὔκ by a transposition, arranging the vv. thus: 643, 644, 642, 641.
 644	κλέψαι τε] Bergk conj. κλέψαι τι.
 645	λαβὼν] Dobree conj. λαβόνθʼ, and so Hartung.
 647	ἄπο] Reiske conj. ἄγαν: Burges, οὐ πολλῶν γε, παῖ.
@@ -116,6 +116,8 @@
 637	The apparatus note is printed "637 f."; filed under 637.
 648	The print marks ἔπι with Jebb's asterisk (a conjecture); the asterisk left out, the word as in the draft.
 642	Wecklein's conjecture is printed οὐκ ἄρʼ ἄμα with a smooth breathing on ἄμα, an evident misprint; written ἅμα.
+636	rev: the print has "(χωρίζει Ha.l.)", an evident misprint for Harl. (the Harleian MS., as in 602, 608, 611); written Harl.
+642	rev: Wecklein's ἄρʼ restored as printed (acute, smooth breathing; the draft had ἆρʼ, which is Meineke's ἆρα); ἅμα stays as corrected.
 
 === p-0178
 --- text
@@ -210,3 +212,5 @@
 685	The printed verse ends with ἀνήρ, (margin 685); ὤλλυθʼ begins the next verse on the next page (p-0184, 686 ὤλλυθʼ ὧδʼ ἀναξίως.); removed here.
 678	Jebb's apparatus numbers follow his own count of these lyric verses (first pass; the text now follows that count, see the note on 679): 678 (ποτὲ τῶν Διὸς) names words in verse 677, 682 (ἐσιδὼν, μοίρᾳ) words in verse 681; kept as printed. The note "679 f." filed under 679.
 679	Renumbered (second pass) to the print's count, which the margin and the apparatus give together: 676 λόγῳ (strophe v. 1), 677 τὸν πελάταν (v. 2, which covers 678: apparatus 678 ποτὲ τῶν Διὸς), 679 κατὰ δρομάδʼ … Κρόνου παῖς (v. 3, apparatus "679 f."; it covers 680, whose margin number is printed beside its turnover Κρόνου παῖς), 681 ἄλλον (v. 4, covers 682: apparatus 682 ἐσιδὼν, μοίρᾳ), 683 τοῦδʼ (was 682), 684 θνατῶν (was 683; apparatus 684 ὃς οὔτʼ ἔρξας), 685 ἀλλʼ ἴσος (margin 685). The draft's 680 became 679. Apparatus 678 and 682 name the second number a verse covers; kept as printed.
+683	rev: numbering checked and kept: Jebb's commentary heads its note "682 τοῦδʼ", but the apparatus (682 ἐσιδὼν … μοίρᾳ in verse 4, 684 ὃς οὔτʼ ἔρξας in verse 6), L's division in the note on 676-690 (ἄλλον— | γʼ οἶδα— | τοῦδʼ— | ὃσ οὔτʼ—: τοῦδʼ begins the traditional 683) and the antistrophe (684 answers to 699 in the note on 684) give verse 5 the number 683.
+684	rev: Harl.'s ἕρξας checked at 8x against ὃς on the next line of the facing page: the mark reads as rough (the small type is blurred), and Jebb cites Harl. only because it differs from ἔρξας; kept.

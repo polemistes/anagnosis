@@ -7,7 +7,7 @@
 @ Νεοπτόλεμος
 201a	τί τόδε;
 @ Χορός
-202	προὐφάνη κτύπος,
+201b	προὐφάνη κτύπος,
 203	φωτὸς σύντροφος ὡς τειρομένου ⟨του,⟩
 204	ἤ που τῇδʼ ἢ τῇδε τόπων.
 205	βάλλει βάλλει μʼ ἐτύμα φθογγά του στίβον κατʼ ἀνάγκαν
@@ -17,7 +17,7 @@
 @ Νεοπτόλεμος
 210a	λέγʼ ὅ τι.
 @ Χορός
-211	φροντίδας νέας·
+210b	φροντίδας νέας·
 212	ὡς οὐκ ἔξεδρος, ἀλλʼ ἔντοπος ἁνήρ,
 --- apparatus
 199	πρὶν ὅδʼ ἐξήκοι L, A, and most of the later MSS.: ἐξήκει V², ἐξίκοι R. Schaefer conj. πρὶν ὅδʼ ἐξήκῃ: Blaydes, πρὶν ἂν ἐξήκῃ.
@@ -43,6 +43,10 @@
 209	Jebb's apparatus number, kept as printed: his διάσημα γὰρ θροεῖ (209), in our 208.
 199	The apparatus of this page has no continuation crop: it runs on to the facing page (leaf 113), from "r: ἑτοίμα L." to "212 ἁνήρ] ἀνὴρ L."; read from my own crops of leaf_0113.png.
 205	Breathings read on enlarged crops: ἑτοίμα and Seyffert's ἁ rough, the lemma ἐτύμα smooth.
+201	rev: numbering: the print sets ΧΟ. εὔστομʼ ἔχε, παῖ. ΝΕ. τί τόδε; ΧΟ. προὐφάνη κτύπος as ONE line shared between speakers: one verse with lettered parts, so προὐφάνη κτύπος is 201b again (not 202), whatever number Jebb's note 202 προὐφάνη gives it; the verse covers 201-202 and φωτὸς is 203. Jebb's strophe numerals agree: none before εὔστομʼ (first verse), 2 φωτὸς, 3 ἤ που, 4 βάλλει … ἀνάγκαν (one verse, 205-206), 5 ἕρποντος, 6 βαρεῖα … θροεῖ (208-209).
+210	rev: numbering: likewise ἀλλʼ ἔχε, τέκνον, ΝΕ. λέγʼ ὅ τι. ΧΟ. φροντίδας νέας· is one printed line shared between speakers: φροντίδας νέας· is 210b (not 211); the verse covers 210-211 and ὡς οὐκ ἔξεδρος is 212 (Jebb's 212 ἁνήρ).
+202	Jebb's apparatus number, kept as printed: his προὐφάνη (202) stands in our 201b.
+212	rev: breathings checked at 10x against certain marks (ἐξήκοι smooth, Seyffert's ἁ rough): the lemma ἁνήρ rough, L's ἀνὴρ smooth, as written; the text's ἁνήρ rough.
 
 === p-0114
 --- text

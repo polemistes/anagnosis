@@ -43,7 +43,7 @@ no flags on this page.
 535	ἀφʼ ὧν διέζων ὥς τʼ ἔφυν εὐκάρδιος.
 536	οἶμαι γὰρ οὐδʼ ἂν ὄμμασιν μόνην θέαν
 537	ἄλλον λαβόντα πλὴν ἐμοῦ τλῆναι τάδε·
-538	ἐγὼ δʼ ἀνάγκῃ προύμαθον στέργειν κακά.
+538	ἐγὼ δʼ ἀνάγκῃ προὔμαθον στέργειν κακά.
 @ Χορός
 539	ἐπίσχετον, μάθωμεν· ἄνδρε γὰρ δύο,
 540	ὁ μὲν νεὼς σῆς ναυβάτης, ὁ δʼ ἀλλόθρους,
@@ -58,6 +58,7 @@ no flags on this page.
 533	no flags on this page. The print's "533 f." is filed under 533. The lemma's final σ carries two dots above in the print (L's mark of deletion): written σ̈ (σ with combining diaeresis). "ap-|proximates" divided at the end of a printed line: written whole. οἴκησισ with medial σ as printed.
 532	res: no comma after γενοίμην, as printed.
 532	res: full stop after προσφιλῆ (not a question mark), as printed; seen in the crop.
+538	rev: προύμαθον changed to προὔμαθον: the print has a smooth breathing and an acute on υ (enlarged crop of the whole page).
 
 === p-0164
 --- text
@@ -83,10 +84,11 @@ no flags on this page.
 548	ἀπʼ L: ἐξ r.
 550	συννεναυστοληκότες Dobree: οἱ νεναυστοληκότες MSS.
 552	προστυχόντι] Cavallin conj. προστυχόντα: Brunck, προστυχών τι: Hartung, προστυχεῖν τε: Heath, προστυχόν τι, changing ἴσων to ἴσως, and taking τῶν as relat. with οὐδέν (‘a thing that happens to have come to my knowledge,—one of the facts which thou, perchance, knowest not’). Musgrave approved this, only keeping προστυχόντι as=‘since I have chanced upon thee.’—τῶν ἴσων] In L made from τὸν ἴσον by S.
-554	σοῦ νέα Auratus: ἀμφὶ σʼ οὕνεκα L, and so (or ἀμφὶ σοῦ ʼνεκα) most other MSS.: ἀμφὶς εἴνεκα Γ, with γρ. ἀμφὶς ὄν [i.e. ἀμφὶ σοῦ] ἀντὶ τοῦ περὶ σοῦ. The fact that ἀμφὶ σοῦ ἕνεκα (or οὕνεκα) could thus pass muster as a pleonasm deserves notice.
+554	σοῦ νέα Auratus: ἀμφὶ σʼ οὕνεκα L, and so (or ἀμφὶ σοῦ ʼνεκα) most other MSS.: ἀμφὶς εἵνεκα Γ, with γρ. ἀμφὶς ὄν [i.e. ἀμφὶ σοῦ] ἀντὶ τοῦ περὶ σοῦ. The fact that ἀμφὶ σοῦ ἕνεκα (or οὕνεκα) could thus pass muster as a pleonasm deserves notice.
 555	ἐστί] ἔστι L, and so Blaydes.
 --- notes
 546	no flags on this page. Words divided at printed line ends (νεναυ-|στοληκότες, προσ-|τυχών) written whole; a broken type mark before προστυχεῖν (Hartung) left out.
+554	rev: apparatus: εἴνεκα changed to εἵνεκα (Γ's reading): at 12x its breathing has the shape of the rough breathing of οὕνεκα in the same note, not the smooth one of ἀμφὶ or ὄν.
 
 === p-0166
 --- text
@@ -157,7 +159,7 @@ no flags on this page.
 577	ἔκπλει σεαυτὸν] Paley conj. ἔκπλευσον αὐτὸν.
 578	τί με] Seyffert reads τί δὲ, and so Cavallin. Nauck conj. τίσι (with λόγοις με in 579).
 579	πρός σʼ] In L the 1st hand wrote πρὸ σʼ: S inserted another σ after ὸ.
-580	Nauck places in the text his conjectures οἶδʼ ἐγώ for οἶδά πω, and σαφῶς for εἰς φῶς. He further suggests χρήζει for λέξει.
+580	Nauck places in the text his conjectures οἶδʼ ἐγώ for οἶδά πω, and σαφῶς for εἰς φῶς. He further suggests χρῄζει for λέξει.
 582	διαβάλῃς r: διαβάλλησ (sic) L.
 584	χρηστά θʼ Dobree, and so most recent edd.: χρηστά γʼ MSS.
 --- notes
@@ -171,6 +173,7 @@ no flags on this page.
 572	apparatus: "572 πρὸς ποῖον" and "580 f." (filed under 580) as printed; "Dobree’s" with the English apostrophe; "1st hand" printed in small capitals.
 574	apparatus: Brunck's form printed as ἃ followed by a separate breathing-and-acute sign before ν: written ῎ (U+1FCE).
 584	apparatus: the note runs on to the next spread (p-0170, "χρηστά γʼ MSS."): written whole here.
+580	rev: apparatus: χρήζει changed to χρῄζει: the print has an iota subscript under η (enlarged crop of the facing page).
 
 === p-0170
 --- text

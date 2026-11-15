@@ -43,7 +43,7 @@
 
 === p-0092
 --- text
-84	δός μοι σεαυτόν, κᾆτα τὸν λοιπὸν χρόνον
+84	δός μοι σεαυτὸν κᾆτα τὸν λοιπὸν χρόνον
 85	κέκλησο πάντων εὐσεβέστατος βροτῶν.
 @ Νεοπτόλεμος
 86	ἐγὼ μὲν οὓς ἂν τῶν λόγων ἀλγῶ κλύων,
@@ -68,6 +68,7 @@
 97	ἀργὸν L, ἀργὴν r.—ἐργάτιν] ἐργάτην Γ: Blomfield conj. ἐργάνην.
 --- notes
 91	printed "91 f.": filed under 91. No flags on this page.
+84	rev: the print has σεαυτὸν κᾆτα (grave, no comma; Perseus σεαυτόν, κᾆτα): written as printed
 89	res: ὡς without accent and φασίν with acute (Perseus ὥς φασιν), as printed; οὑκφύσας rough breathing confirmed
 
 === p-0094

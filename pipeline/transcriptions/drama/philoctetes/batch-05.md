@@ -105,7 +105,7 @@
 @ Νεοπτόλεμος
 324	θυμὸν γένοιτο χειρὶ πληρῶσαί ποτε,
 325	ἵνʼ αἱ Μυκῆναι γνοῖεν ἡ Σπάρτη θʼ ὅτι
-326	χἠ Σκῦρος ἀνδρῶν ἀλκίμων μήτηρ ἔφυ.
+326	χἡ Σκῦρος ἀνδρῶν ἀλκίμων μήτηρ ἔφυ.
 @ Φιλοκτήτης
 327	εὖ γʼ, ὦ τέκνον· τίνος γὰρ ὧδε τὸν μέγαν
 328	χόλον κατʼ αὐτῶν ἐγκαλῶν ἐλήλυθας;
@@ -127,6 +127,7 @@
 315	Jebb's "315 f." written as 315; "320 f." as 320.
 320	the capitals with an apostrophe-like breathing ('Ατρειδῶν, 'Οδ.) written with the breathing on the capital (Ἀτρειδῶν, Ὀδ.).
 328	the apparatus note runs on to the next page (Tournier, ἐν καλῷ ʼπελήλυθας.): written whole here; ʼπελήλυθας keeps Jebb's prodelision mark.
+326	rev: χἠ changed to χἡ: the print has a rough breathing on the η (4x, the same mark as on αἱ and ἡ in 325, unlike the smooth on ἀνδρῶν)
 
 === p-0132
 --- text
@@ -138,7 +139,7 @@
 334	τέθνηκεν, ἀνδρὸς οὐδενός, θεοῦ δʼ ὕπο,
 335	τοξευτός, ὡς λέγουσιν, ἐκ Φοίβου δαμείς.
 @ Φιλοκτήτης
-336	ἀλλʼ εὐγενὴς μὲν ὁ κτανών τε χὠ θανών.
+336	ἀλλʼ εὐγενὴς μὲν ὁ κτανών τε χὡ θανών.
 337	ἀμηχανῶ δὲ πότερον, ὦ τέκνον, τὸ σὸν
 338	πάθημʼ ἐλέγχω πρῶτον, ἢ κεῖνον στένω.
 @ Νεοπτόλεμος
@@ -149,7 +150,7 @@
 342	αὖθις πάλιν μοι πρᾶγμʼ, ὅτῳ σʼ ἐνύβρισαν.
 @ Νεοπτόλεμος
 343	ἦλθόν με νηὶ ποικιλοστόλῳ μέτα
-344	δῖός τʼ Ὀδυσσεὺς χὠ τροφεὺς τοὐμοῦ πατρός,
+344	δῖός τʼ Ὀδυσσεὺς χὡ τροφεὺς τοὐμοῦ πατρός,
 --- apparatus
 333	ἦ L, εἰ r.
 334	Burges would change οὐδενός to οὐ δαμείς, and omit v. 335. For τοξευτός Blaydes conj. τόξοισιν.
@@ -168,6 +169,8 @@
 333	res: raised stop after τόδʼ, not a comma, as printed
 336	res: full stop after θανών, not a raised stop, as printed
 338	res: comma after πρῶτον, as printed
+336	rev: χὠ changed to χὡ: the print has a rough breathing on the ω (4x, the same mark as on ὁ before κτανών, unlike the smooth on εὐγενὴς)
+344	rev: χὠ changed to χὡ: rough breathing in the print (4x, against the smooth on τοὐμοῦ)
 
 === p-0134
 --- text
@@ -178,7 +181,7 @@
 349	χρόνον μʼ ἐπέσχον μή με ναυστολεῖν ταχύ,
 350	μάλιστα μὲν δὴ τοῦ θανόντος ἱμέρῳ,
 351	ὅπως ἴδοιμʼ ἄθαπτον· οὐ γὰρ εἰδόμην·
-352	ἔπειτα μέντοι χὠ λόγος καλὸς προσῆν,
+352	ἔπειτα μέντοι χὡ λόγος καλὸς προσῆν,
 353	εἰ τἀπὶ Τροίᾳ πέργαμʼ αἱρήσοιμʼ ἰών.
 354	ἦν δʼ ἦμαρ ἤδη δεύτερον πλέοντί μοι,
 --- apparatus
@@ -191,3 +194,4 @@
 347	the first and third ἢ are printed with a grave, the one in the brackets with an acute (ἤ); ʼμʼ keeps Jebb's prodelision mark.
 351	the apparatus note runs on beyond the spread; its end (reject the verse.) taken from the head of p-0136's apparatus and written here.
 347	res: ἢ ʼμʼ ἑλεῖν (grave on ἢ, prodelided ʼμʼ), as printed and as the apparatus gives it
+352	rev: χὠ changed to χὡ: rough breathing in the print (4x, same mark as on αἱρήσοιμʼ in 353, unlike the smooth on εἰ, τἀπὶ)

@@ -205,7 +205,7 @@
 @ Φιλοκτήτης
 1263	τίς αὖ παρʼ ἄντροις θόρυβος ἵσταται βοῆς;
 --- apparatus
-1252-1258	In L these vv. are distributed as follows:—1252 ΟΔ. ἀλλʼ οὐδέ τοι... 1253 ΝΕ. οὔ τἄρα Τρωσίν...1254 ff. ΟΔ. ἔστω τὸ μέλλον. ΝΕ. χεῖρα...ἐπιψαύουσαν; ΟΔ. ἀλλὰ κἀμέ τοι...τιμωρήσεται. In the Aldine, as follows:—1252 is given to N. (without indication of a lacuna between 1251 and 1252): 1253 to Od.: 1254 f. (ἔστω ...ἐπιψαύουσαν) to N.: and the rest (ἀλλὰ...τιμωρήσεται) to Odysseus. Turnebus restored the words χεῖρα...ἐπιψαύουσαν to Od., and the words ἀλλὰ...κοὐ μέλλοντʼ ἔτι to N. The loss of a verse, spoken by Od., between 1251 and 1252 was first suggested by Hermann (Ad Vigerum 703, ap. Erfurdt, ed. 1805). See comment.
+1252-1258	In L these vv. are distributed as follows:—1252 ΟΔ. ἀλλʼ οὐδέ τοι... 1253 ΝΕ. οὔ τἄρα Τρωσίν...1254 ff. ΟΔ. ἔστω τὸ μέλλον. ΝΕ. χεῖρα...ἐπιψαύουσαν; ΟΔ. ἀλλὰ κἀμέ τοι...τιμωρήσεται. In the Aldine, as follows:—1252 is given to N. (without indication of a lacuna between 1251 and 1252): 1253 to Od.: 1254 f. (ἔστω...ἐπιψαύουσαν) to N.: and the rest (ἀλλὰ...τιμωρήσεται) to Odysseus. Turnebus restored the words χεῖρα...ἐπιψαύουσαν to Od., and the words ἀλλὰ...κοὐ μέλλοντʼ ἔτι to N. The loss of a verse, spoken by Od., between 1251 and 1252 was first suggested by Hermann (Ad Vigerum 703, ap. Erfurdt, ed. 1805). See comment.
 1252	πείθομαι] πείσομαι Bothe and Blaydes.—τὸ δρᾶν] Wecklein conj. τὸ μὴ οὐ.
 1253	οὔ τἄρα] οὔτʼ ἄρα L: οὔτʼ ἆρα A.
 1254	ἔστω MSS. (except B, ἔσται): ἴτω Wecklein.
@@ -221,6 +221,7 @@
 1255	flag (margin 1255 at a line numbered 1256): the margin is right; renumbered as above.
 1255a	flag: the print sets κώπης ἐπιψαύουσαν; ΝΕ. ἀλλὰ κἀμέ τοι on one line: the split by speaker confirmed.
 1263	apparatus: the note runs on to the top of the next text page (leaf 266, "the last of p. 93 B. ... added by S."); written whole here.
+1252	rev: apparatus 1252—1258: "(ἔστω ...ἐπιψαύουσαν)" written "(ἔστω...ἐπιψαύουσαν)"; the space was only the print's line break.
 
 === p-0266
 --- text

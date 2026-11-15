@@ -28,6 +28,8 @@
 1110	flag: the OCR's bracket is the margin number 1110 misread; the print has no brackets.
 1099	apparatus: the page's apparatus begins with the end of a note from the spread before ("The later MSS. vary between βαρύποτμε and βαρύποτμʼ … For the conjectures, see below."): left to the batch before.
 1111	apparatus: the print has a space before the colons (ὑστερῶν :, ψοφεῖν :); written without, as the brief asks.
+1096	rev: the print's first letter of the verse is an α with smooth breathing and circumflex (ἆ βαρύποτμε, seen at 6x; the ω of ὦ τλάμων 1102 is plainly different): an evident misprint (or a damaged ω), since Jebb's cr. n. 1095 ff. (leaf 243) gives L's ὦ βαρύποτμε and reports no conjecture ἆ (his asterisk marks only κοὐκ); ὦ kept, left open for the editor.
+1096	rev: verses, punctuation, breathings and the apparatus (both pages) re-read against the page images: no other change; λείπει ἡ ἀντί has the rough breathing in the print.
 
 === p-0246
 --- text
@@ -80,6 +82,7 @@
 1132	the print has *ἄρθμιον (asterisk left out).
 1130	apparatus: Jebb prints a q-shaped sign for L's compendium of ει; written q.
 1125	apparatus: the print has a space before the colon in “Turnebus :”; written without.
+1112	rev: verses, punctuation, numbering (Jebb's notes 1113, 1116 ff., 1119 f., 1121 f., 1123 f., 1125, 1126, 1130 ff. stand on the verses so numbered) and the apparatus on both pages re-read against the page images (ἔφʼ ἥμενος, ἆθλον, ἥλικα, ἦ checked at 4-5x): no change.
 
 === p-0248
 --- text
@@ -116,6 +119,7 @@
 1144	the print has *τῶνδʼ (asterisk left out).
 1137	apparatus: the 1137 note is on the second half of the printed verse 1136 (which covers Jebb's 1137): kept with his number.
 1138	apparatus: ἁνήρ is printed with a rough breathing (crasis) as far as the crop shows; εὐθη-|μοσύνᾳ divided at the line end of the note, written whole. The print has a space before several colons (ἑλίσσει :, ἐρύσσει :); written without.
+1133	rev: verses, punctuation, numbering and the apparatus on both pages re-read against the page images: no change; ἁνήρ confirmed at 10x (its breathing turns the other way from the smooth one of αὐτός beside it).
 
 === p-0250
 --- text
@@ -142,6 +146,8 @@
 1152	the print ends the verse with a raised stop (τανῦν·), not a comma: changed (seen on the whole page).
 1154	the print has φοβητός, with acute and comma (Jebb's transposition, commentary 1153 ff.): changed from φοβητὸς (seen on the whole page).
 1153	apparatus: the note 1153 ff. runs on from the foot of the facing page (leaf 251) to the top of p-0252's apparatus (“above αι by the first hand. For conjectures see comment. and Appendix.”): written whole here, and not again on p-0252. The facing page's apparatus has four lines, read from the whole page (the app2 crops show only the first).
+1146	rev: as at 1096, the print's first letter is an α with smooth breathing and circumflex (ἆ πταναὶ, seen at 6x), while ὦ δύστανος 1152 on the same page is a plain ω: kept ὦ as an evident misprint, since Jebb's apparatus reports no change of the MSS.' ὦ here (1146 has only πταναὶ r: πτηναὶ L); the same sort at 1096 and here is left open for the editor.
+1146	rev: verses, punctuation, numbering and the apparatus on both pages re-read against the page images: no other change.
 
 === p-0252
 --- text
@@ -164,7 +170,7 @@
 1157	ἐμᾶς σαρκὸς αἰόλας] τᾶσδʼ αἰόλας σαρκός Triclinius. For αἰόλας Nauck writes ἀθλίας.
 1161	L divides thus: μηκέτι...ὅσα πέμ-|πει...αἶα.
 1163	σέβει] σέβηι L.—ξένον, πέλασσον] Hermann conj. ξένον, μαλάσσου: Arndt, ξένων γʼ ἔλασσον.
-1165	ὅτι σοι L: ὅτι σοὶ r. Dindorf writes ὅτι σὸν: Seyffert, ἐπὶ σοί.
+1165	ὅτι σοι L: ὅτι σοὶ r. Dindorf writes ὅτι σὸν: Seyffert, ἐπὶ σοὶ.
 1167	ἀδαὴς | δʼ ἔχειν μυρίον ἄχθοσ ὃ ξυνοικεῖ L (ᾧ ξυνοικεῖ A). From the words of the schol., ἄγνωστος πρὸς τὸ ὀχεῖσθαι, it has been inferred that he read ὀχεῖν. Adopting this, Hartung reads ἀδαὲς δʼ (‘it is foolish’) | ὀχεῖν μυρίον ἄχθος ᾧ ξυνοικεῖς. For ἔχειν Blaydes gives ἄγειν.
 1169	L divides thus:—πάλιν...ὑπέ|μνασασ...ἐντόπων. For ἄλγημʼ Cavallin conj. ἄλγος μʼ. For τῶν πρὶν ἐντόπων Hense conj. τῶν ξυνεμπόρων.
 1172	εἴργασαι] Elmsley conj. εἰργάσω.
@@ -177,6 +183,8 @@
 1157	apparatus: the page's apparatus begins with the end of the note 1153 ff. ("above αι by the first hand. For conjectures see comment. and Appendix."), written whole on p-0250 and not repeated here.
 1167	apparatus: ἀδα-|ὴς is divided at the line end between the two pages, written whole.
 1165	apparatus: the print has a space before the colon in “σὸν :”; written without.
+1165	rev: apparatus: Seyffert's ἐπὶ σοὶ has a grave on σοὶ in the print (seen at 8x): changed from σοί.
+1156	rev: verses, punctuation, numbering and the rest of the apparatus on both pages re-read against the page images (ὃ ξυνοικεῖ, ᾧ, ὑπέ|μνασασ checked at 8x): no other change.
 
 === p-0254
 --- text
@@ -231,4 +239,5 @@
 1187	renumbered (was 1186a): δαίμων δαίμων … τάλας· is a printed verse of its own, and Jebb numbers it 1187 (cr. n. 1187 ὁ τάλας); αἰαῖ αἰαῖ, stays 1186. 1188-1192 unchanged. The checker does not see a renumbering.
 1192	the print has προὔφαινες (coronis and acute on υ), Jebb's spelling also in his apparatus: changed from προύφαινες.
 1182	apparatus: the print has a space before the colon in “ἑκόντι :”; written without.
+1173	rev: verses, speaker parts, punctuation, numbering and the apparatus on both pages re-read against the page images: no change. Jebb's commentary on leaf 255 names μετρίαζʼ 1183 ("1183 The older edd. give μετρίαζε in full"); it stays 1182a as part of the shared printed line, by the rule for shared lines.
 

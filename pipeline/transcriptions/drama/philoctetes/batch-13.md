@@ -201,7 +201,7 @@
 --- apparatus
 992	τίθης Auratus and Porson: τιθείς MSS. (τιθεῖς B).
 993	ἡ δʼ] ἥδʼ (sic) L: though in the similar passage, El. 1501, it gives ἡ δʼ. Blaydes reads ἥδʼ here.
-994	ΦΙ. οὐ φημʼ ἔγωγε. ΟΔ. φημί· (corrected from φημὶ) L. And so the later MSS. The reading in the text is Gernhard’s. Wakefield had already given ἔγωγε to ΟΔ.—πειστέον r: πιστέον L.
+994	ΦΙ. οὔ φημʼ ἔγωγε. ΟΔ. φημί· (corrected from φημὶ) L. And so the later MSS. The reading in the text is Gernhard’s. Wakefield had already given ἔγωγε to ΟΔ.—πειστέον r: πιστέον L.
 995	δούλουσ made from δοῦλοσ by 1st hand in L.
 997	Nauck conj. ἀριστεῦσιν.
 999	οὐδέποτέ γʼ] οὐδέποτε δʼ Γ.—χρῇ] χρή L, made from χρῆ by S.—με] γε Γ.—παθεῖν] L has μ written above π.
@@ -216,3 +216,4 @@
 1001a	the print sets ΦΙ. inside the line before κρᾶτʼ ἐμὸν: split as the draft has it.
 1003	the print marks ξυλλάβετον in the text with Jebb's asterisk (left out, as the brief says); in the apparatus the asterisk before the lemma is kept as printed.
 1005	margin numbers 995, 1000, 1005 read on the whole page, at 995, 1000, 1005: numbering right.
+994	rev: apparatus: οὔ φημʼ ἔγωγε (smooth breathing and acute on οὔ, seen at 10x), not οὐ.

@@ -24,6 +24,7 @@
 1451	The print has πρύμναν (the apparatus: "πρύμναν MSS.: πρύμνην Hermann"): changed. Margin numbers 1445 and 1450 agree with the draft.
 1443	apparatus: "1443 f." filed under 1443 (f. left out). Jebb's < > in Hermann's supplement written ⟨ ⟩. The 1449 note is "1449 ff."
 1447	apparatus: after "the ι had been" Jebb prints the minuscule ligature for ει (a sign like q); it has no Unicode character, so it is written [ligature], as in earlier batches.
+1443	rev: verses 1443-1451 read word by word against the page (ηὑσέβεια, ἢν, ταὐτῇ, ἡ and the 1449 punctuation enlarged); the apparatus here and on leaf 293 read item by item: no change.
 
 === p-0294
 --- text
@@ -50,6 +51,7 @@
 --- notes
 1452	The flag (no margin number read): the whole page shows 1455 beside κτύπος ἄρσην … προβολῆς and 1460 beside στόνον ἀντίτυπον χειμαζομένῳ, as the draft numbers them; nothing changed. Speaker ΦΙ. at 1452 as the draft. Jebb's asterisk before προβολῆς (1455) left out.
 1452	apparatus: Jebb prints χ with a circumflex above it (the abbreviation for χων); written χ͂ (χ with combining perispomeni), as τ͂ in the Clouds batches. L's spellings πληγῆισι, θρηίσσηισιν and the MSS.' προβλής (acute) copied as printed.
+1452	rev: verses 1452-1461 read word by word against the page (οὗ 1456 enlarged); the apparatus here and on leaf 295 read item by item (Ἑρμαῖον and Ἕρμαιον, rough, enlarged): no change.
 
 === p-0296
 --- text
@@ -58,7 +60,7 @@
 1464	χαῖρʼ, ὦ Λήμνου πέδον ἀμφίαλον,
 1465	καί μʼ εὐπλοίᾳ πέμψον ἀμέμπτως,
 1466	ἔνθʼ ἡ μεγάλη Μοῖρα κομίζει
-1467	γνώμη τε φίλων χὠ πανδαμάτωρ
+1467	γνώμη τε φίλων χὡ πανδαμάτωρ
 1468	δαίμων, ὃς ταῦτʼ ἐπέκρανεν.
 @ Χορός
 1469	χωρῶμεν δὴ πάντες ἀολλεῖς,
@@ -72,3 +74,5 @@
 --- notes
 1462	No flags on this page. Unflagged, seen on the whole page: comma after ἤδη: added (Jebb's note quotes "λείπομεν ἤδη, |" too). Margin numbers 1465 and 1470 agree with the draft; speaker ΧΟ. at 1469 as the draft. Jebb's asterisk before δὴ (1469) left out.
 1462	apparatus: "1462 f." filed under 1462 (f. left out); "pa-|roemiac" at a line end written whole. Meineke's εὐπλοία (no iota subscript) and L's ἀολλέεσ (final-form σ as printed) copied as printed. The page ends the play; the apparatus ends on the facing page (leaf 297).
+1467	rev: χὡ with a rough breathing on ω, as printed (compared at 6x with the rough breathing of ἡ 1466 and the smooth of ἐπιβάντες 1463 on the same page; Jebb's crasis keeps the breathing of ὁ, as χὡ at O.T. 401); the draft had χὠ (Perseus).
+1462	rev: verses 1462-1471 read word by word against the page, and the apparatus here and on leaf 297 item by item (breathings of ἤδη, ἰδοὺ, ἀολλεῖς enlarged): no other change.

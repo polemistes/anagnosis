@@ -73,10 +73,10 @@
 390	ἐμοί θʼ ὁμοίως καὶ θεοῖς εἴη φίλος.
 @ Χορός
 391	ὀρεστέρα παμβῶτι Γᾶ, μᾶτερ αὐτοῦ Διός,
-392	ἃ τὸν μέγαν Πακτωλὸν εὔχρυσον νέμεις,
+393	ἃ τὸν μέγαν Πακτωλὸν εὔχρυσον νέμεις,
 395	σὲ κἀκεῖ, μᾶτερ πότνιʼ, ἐπηυδώμαν,
-396	ὅτʼ ἐς τόνδʼ Ἀτρειδᾶν ὕβρις πᾶσʼ ἐχώρει,
-397	ὅτε τὰ πάτρια τεύχεα παρεδίδοσαν,
+397	ὅτʼ ἐς τόνδʼ Ἀτρειδᾶν ὕβρις πᾶσʼ ἐχώρει,
+399	ὅτε τὰ πάτρια τεύχεα παρεδίδοσαν,
 400	ἰὼ μάκαιρα ταυροκτόνων
 401	λεόντων ἔφεδρε, τῷ Λαρτίου,
 402	σέβας ὑπέρτατον.
@@ -89,7 +89,7 @@
 --- notes
 389	flag checked on the whole page: the margin prints 390 at ἐμοί θʼ, 395 at σὲ κἀκεῖ and 400 at ἰὼ μάκαιρα, as numbered; no change. Each printed verse 391-402 is one line of the print (ΧΟ. in the margin at 391 confirmed).
 391	The apparatus begins with the end of the note on 388 ("Hence Schneidewin read τρόποισι."), written with that note on p-0138. The ὀρεσ-|τέρα of the 391-402 note is the apparatus's own line break: written whole; the strokes in τεύ-|χεα, ταυρο-|κτόνων, ἔφε-|δρε are Jebb's report of L's division and stay.
-393	Apparatus numbers are Jebb's, by his own count of the lyric lines: his 393 (ἃ τὸν μέγαν) is our 392, his 399 (παρεδίδοσαν) falls in our 397 (ὅτε τὰ πάτρια τεύχεα παρεδίδοσαν); 401 and 402 agree with ours.
+393	rev: numbering: renumbered by Jebb's apparatus: his note 393 ἃ τὸν μέγαν stands in the verse ἃ τὸν … νέμεις (was 392) and his 399 παρεδίδοσαν in ὅτε τὰ πάτρια … παρεδίδοσαν (was 397); so ὀρεστέρα … Διός covers 391-392, ἃ τὸν … νέμεις 393-394, σὲ κἀκεῖ 395-396 (margin 395), and ὅτʼ ἐς τόνδʼ … ἐχώρει takes 397 (was 396), covering 397-398 (no note names it; 397 rather than 396 because L, in Jebb's note on 391-402, divides both σὲ κἀκεῖ— | πότνιʼ— and ὅτʼ ἐς τόνδʼ— | ὕβρις— into two lines, and ὅτε … is 399); ἰὼ μάκαιρα 400 (margin). Jebb's commentary numbers Πακτωλὸν 392 and τὰ πάτρια 398, one lower than his apparatus; the apparatus (with the margin and the regular two-number verses) is followed. Open: the commentary's 392 and 398 disagree.
 401	The print has Λαρτίου, with a comma: comma added.
 
 === p-0142

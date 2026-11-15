@@ -26,7 +26,7 @@
 1014	ἀφυᾶ Lud. Dindorf: ἀφυῆ MSS. θέλονθʼ] θέλων θʼ L, made from θέλονθʼ (for nothing indicates that the 1st hand meant θέλον θʼ).
 1017	προὐβάλου] προύβαλον Γ.
 1018	ἄπολιν] Wakefield conj. ἄπορον.
-1019	καί σοι] Wakefield conj. καίτοι.—ἤϋξάμην L, with ευ written over ἤϋ by 1st hand.
+1019	καί σοι] Wakefield conj. καίτοι.—ἠϋξάμην L, with ευ written over ἠϋ by 1st hand.
 1023	σοῦ τε r: σοῦ γε L.
 --- notes
 1007	margin numbers 1010, 1015, 1020 on the page confirm the numbering; the print has *αὖ (asterisk left out).
@@ -40,6 +40,7 @@
 1024	the unmatched line after 1024 is the apparatus (OCR), nothing to add.
 1015	res: προὐδίδαξεν with the coronis over υ, as printed (Perseus προυδίδαξεν)
 1017	res: προὐβάλου with the coronis over υ, as printed (and as Jebb's lemma at 1017; Perseus προυβάλου)
+1019	rev: apparatus ἤϋξάμην, ἤϋ corrected to ἠϋξάμην, ἠϋ: enlarged 12x beside ἤιδει, ᾔδειν (leaf 232) and ἄπορον (leaf 233), which show the smooth breathing AND a separate acute; here the η has the smooth breathing alone (the earlier "second check" note above is superseded).
 
 === p-0234
 --- text
@@ -69,6 +70,7 @@
 1032	apparatus: the breathings of ἕξετε, ἕξεις (rough) and ἔτʼ ἔστʼ (smooth) are small in the scan; read with the OCR and the sense (futures of ἔχω).
 1033	the print has a comma after πλεύσαντος; added.
 1034	apparatus: the 1028-1032 notes are on leaf 234 (the check sheet's apparatus crops missed most of them, so read from the whole page); 1032 (from Wakefield on), 1033 and 1034 on the facing page.
+1031	rev: enlarged 6x, the stop after πῶς is printed as a full stop (no tail visible); kept as the comma, an evident misprint or a broken comma (the sense and Jebb's translation "how is it that thou no longer findest me lame" need the comma).
 
 === p-0236
 --- text
@@ -146,6 +148,7 @@
 1060	the print has a full stop after πατῶν, not a raised stop; changed.
 1061	the print has a raised stop after ἴωμεν, not a comma; changed.
 1065	apparatus: the lemma ὡσ] is printed with a medial σ (the added letter); copied as printed.
+1058	rev: the print has ἐγά θʼ (the ω broken or misprinted as α, enlarged 6x); kept as ἐγώ, an evident misprint (Jebb's apparatus has ἐγώ θʼ MSS.).
 
 === p-0240
 --- text
@@ -160,7 +163,7 @@
 1071	λειφθήσομαι δὴ κοὐκ ἐποικτερεῖτέ με;
 @ Χορός
 1072	ὅδʼ ἐστὶν ἡμῶν ναυκράτωρ ὁ παῖς· ὅσʼ ἂν
-1073	οὗτος λέγῃ σοι, ταῦτά σοι χἠμεῖς φαμέν.
+1073	οὗτος λέγῃ σοι, ταῦτά σοι χἡμεῖς φαμέν.
 @ Νεοπτόλεμος
 1074	ἀκούσομαι μὲν ὡς ἔφυν οἴκτου πλέως
 1075	πρὸς τοῦδʼ· ὅμως δὲ μείνατʼ, εἰ τούτῳ δοκεῖ,
@@ -173,7 +176,7 @@
 1068	πρόσλευσσε] προσλευσε L. The 1st hand made the same error in 815, though not in 716. Cp. O. C. 121.
 1069	διαφθερεῖσ L, with A and most of the rest; διαφθαρῆς Γ.
 1071	λειφθήσομʼ ἤδη MSS.: λειφθήσομαι δὴ Wakefield. Blaydes writes λειφθήσομαι δῆτʼ, οὐδʼ.
-1073	χἠμεῖσ made from γʼ ἡμεῖσ in L.
+1073	χἡμεῖσ made from γʼ ἡμεῖσ in L.
 1076	τά τʼ ἐκ νεὼς] Tournier conj. τὰ τῆς νεώς.
 1079	ἡμῖν] Blaydes conj. ἢ νῦν.—L has not νῶ, but νὼ: cp. on 945 (ἑλὼν).—ὁρμώμεθον MSS. (ὁρμώμεθα Γ). ὁρμώμεθα Elmsley, Nauck.
 1081-1085	L divides the vv. thus:—ὦ κοίλασ — | θερμόν— | σʼ οὐκ— | λείψειν— | καὶ θνήσκοντι συνοίσηι.
@@ -182,6 +185,8 @@
 1076	the print has no comma after τοσοῦτον (the OCR agrees); removed.
 1081	apparatus: the note on 1081-1085 is printed on this spread (facing page, leaf 241), so it is written here; the verses are on p-0242.
 1078	res: χοὗτος with the rough breathing, as printed (enlarged beside ᾗ in 1017 and εὖ in 1015: the mark is the rough one; Perseus χοὖτος)
+1073	rev: χἡμεῖς with the rough breathing, as printed (enlarged 6x beside ἡμῶν, rough, and ἐστὶν, smooth, in 1072: the mark is the rough one, as in χοὗτος 1078); was χἠμεῖς (Perseus).
+1073	rev: apparatus χἠμεῖσ corrected to χἡμεῖσ: enlarged 16x on leaf 241 beside ἐκ (1076, smooth: tail to the left) and ἡμῖν, ὁρμώμεθον, ἑλὼν (1079, rough: tail curling right); the mark is the rough one.
 
 === p-0242
 --- text

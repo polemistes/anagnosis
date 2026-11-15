@@ -28,7 +28,7 @@
 144	νῦν μέν, ἴσως γὰρ τόπον ἐσχατιαῖς
 145	προσιδεῖν ἐθέλεις ὅντινα κεῖται,
 146	δέρκου θαρσῶν· ὁπόταν δὲ μόλῃ
-147	δεινὸς ὁδίτης, τῶνδʼ οὑκ μελάθρων,
+147	δεινὸς ὁδίτης τῶνδʼ οὑκ μελάθρων,
 --- apparatus
 139	γνώμα A: γνώμας L. The later MSS. are divided, and some (among which are B, L², Γ) have γνώμα γνώμας.
 140	ἀνάσσεται] L has ἀνά ⋮ ⋮ ΄σσεται (sic). Dübner reports the 1st hand as having written ἀναναν . σσεται, with a letter, which was not α, erased between ν and σ. A reference to the autotype facsimile (p. 81 B, l. 5) will show that this interpretation of the lacuna is at least very doubtful.—Seyffert conj. ἀΐσσεται, Blaydes ἐρέσσεται.
@@ -45,6 +45,8 @@
 139	res: comma after γνώμα, as printed
 142	res: comma after ἔννεπε, as printed
 147	res: comma after μελάθρων, as printed
+147	rev: comma after ὁδίτης removed: the print has none (δεινὸς ὁδίτης τῶνδʼ *οὑκ μελάθρων,; Jebb's asterisk left out); οὑκ has a rough breathing on the enlarged crop.
+141	rev: "σὲ δʼ E" checked at 5x: the print has a capital E; left as printed (open: possibly a misprint for L).
 
 === p-0104
 --- text
@@ -101,7 +103,7 @@
 --- apparatus
 163	τόνδε MSS.: except that Γ (13th cent.) has τήνδε. Blaydes conj. τῇδε.
 166	στυγερὸν στυγερῶς MSS.: Brunck conj. σμυγερὸν σμυγερῶς. Benedict omits the words, and thus (having omitted also vv. 159—161) makes the anapaestic system, 162—168, equal to that in 144—149.
-167	αὐτῷ r: αὐτῷ L. The words οὐδέ τινʼ αὐτῷ are bracketed by Herm. They are absent from one of the later MSS. (R, 14th cent.).
+167	αὐτῷ r: αὑτῷ L. The words οὐδέ τινʼ αὐτῷ are bracketed by Herm. They are absent from one of the later MSS. (R, 14th cent.).
 168	ἐπινωμᾶν] Burges conj. πόδα νωμᾶν.
 170	μή του κηδομένου made from μὴ τοὺσ κηδομένουσ L.
 171	μὴ σύντροφον L: μηδὲ σύντροφον r. Brunck conj. μηδὲ ξύντροφον: Pauli, μηδʼ ἐς σύντροφον: Wecklein, μηδὲν σύντροφον: Cavallin, μή του σύντροφον.
@@ -114,6 +116,7 @@
 177	renumbered from the draft's 176: the margin prints 177 beside ὦ παλάμαι θεῶν (the check sheet missed it), and Jebb's apparatus has "177 *θεῶν"; Jebb counts the long printed line χρείας ἱσταμένῳ. πῶς ποτε, πῶς δύσμορος ἀντέχει; as 175-176, so 176 is skipped.
 177	unflagged, but seen on the whole page: the print ends the verse with a raised stop (θεῶν·), not a comma: changed. Jebb's asterisk before θεῶν (his conjecture-mark) left out of the text; kept in the apparatus lemma, where it is printed.
 167	the apparatus prints the two forms alike (αὐτῷ r: αὐτῷ L, both with smooth breathing and iota subscript as far as the crop shows); copied as printed. Perhaps one should be αὑτῷ or αὐτῶ: left for the editor to decide.
+167	rev: apparatus: the second form is αὑτῷ (L): enlarged 12x, its breathing curls the other way from the smooth one on αὐτῷ r and from the smooth ἐ of ἐπὶ (174 note, leaf 107); so αὐτῷ r: αὑτῷ L.
 
 === p-0108
 --- text
