@@ -505,6 +505,26 @@ The metrical analyses are not transcribed (as for Ajax and Electra).
   commentary spacing (321 / 1,341 / 1,121) and the Ajax's section labels noted before.
   The Philoctetes, when its commentary is read from the scan, has no Perseus placeholders.
 
+* **2026-11-16, Philoctetes commentary.** Set-up agent's report (log
+  build/logs/philoctetes-commentary-setup.md; commit c79b80a): kind `notes` for Jebb's page
+  (`_region_under_rule`: all under the rule, two columns, read across the spread; a new rule
+  detector `_rule_isolated` that measures against the page's own paper; `head_rule`); drafted
+  222 pages in 28 batches (notes-01…28), 5,397 flags (median 23.5 a page), 767 note headings;
+  about 97 % of the Greek words right in the draft; no page without a rule;
+  `write_transcribed_commentary` in sophocles.py writes commentary-jebb.md from the checked
+  notes where Perseus has none (tested on made-up batches only: watch its first real run).
+  Estimated with a second reading: about 56 agents, 9–12 M tokens. **Running: the first
+  check of all 28 batches** (nine at once, no second reading yet). Decision to take when it
+  is back: run the second reading on four batches first and count what it finds, then decide
+  for the rest (the author's rule on passes). Introduction and Appendix: checked and read a
+  second time (20 agents, 2.9 M), committed (de02dab).
+* **Medea, stage 1 (preparation, no page agents)**: an Opus agent builds the private place for
+  the Euripides files (`private/` with its own repository, links from the usual paths, the
+  public .gitignore, a pre-push hook, `check` errors), the `release:` date that keeps a text
+  out of the public catalogue, pipeline/PLAN-euripides.md, and the Medea's draft from Murray's
+  vol. I (log build/logs/euripides-setup.md). The Medea's page agents start when the
+  Philoctetes commentary has been read.
+
 ## Decisions
 
 * 2026-11-15: order by least work left (Trachiniae first).
