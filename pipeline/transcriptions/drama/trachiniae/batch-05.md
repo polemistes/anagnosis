@@ -5,7 +5,7 @@
 334	σπεύδῃς, ἐγὼ δὲ τἄνδον ἐξαρκῆ τιθῶ.
 @ Ἄγγελος
 335	αὐτοῦ γε πρῶτον βαιὸν ἀμμείνασʼ, ὅπως
-336	μάθῃς ἄνευ τῶνδʼ, οὕστινάς τʼ ἄγεις ἔσω,
+336	μάθῃς ἄνευ τῶνδʼ οὕστινάς τʼ ἄγεις ἔσω,
 337	ὧν τʼ οὐδὲν εἰσήκουσας ἐκμάθῃς ἃ δεῖ·
 338	τούτων ἔχω γὰρ πάντʼ ἐπιστήμην ἐγώ.
 @ Δηιάνειρα
@@ -23,6 +23,7 @@
 339	the four unmatched lines flagged after 339 are the OCR of the apparatus, not verses: nothing added.
 333	apparatus: the apparatus on this page begins with the end of a note from the page before ("conj. προσφατόν γʼ ἐμοῦ λάβοι ... Blaydes restores λάβῃ."): left to the batch before.
 333	apparatus: the breathing on the first ἧ is faint under the circumflex; written as the rough breathing of the gloss (=ᾗ).
+336	res: no comma after τῶνδʼ, as printed
 
 === p-0130
 --- text
@@ -41,7 +42,7 @@
 347	φωνεῖ δίκης ἐς ὀρθόν, ἀλλʼ ἢ νῦν κακός,
 348	ἢ πρόσθεν οὐ δίκαιος ἄγγελος παρῆν.
 @ Δηιάνειρα
-349	τί φής; σαφῶς μοι φράζε πᾶν ὅσον νοεῖς.
+349	τί φής; σαφῶς μοι φράζε πᾶν ὅσον νοεῖς·
 350	ἃ μὲν γὰρ ἐξείρηκας ἀγνοία μʼ ἔχει.
 @ Ἄγγελος
 351	τούτου λέγοντος τἀνδρὸς εἰσήκουσʼ ἐγώ,
@@ -64,11 +65,12 @@
 340	apparatus: Jebb's "340 f." is filed under 340, "f." left out as the brief says.
 347	apparatus: φώνεῖ (acute and circumflex together) is copied as printed: L's reading with S's added acute.
 353	apparatus: the υ over οι is printed between two raised dots (•υ•), written ·υ·.
+349	res: raised stop after νοεῖς, as printed
 
 === p-0132
 --- text
 356	οὐ τἀπὶ Λυδοῖς οὐδʼ ὑπʼ Ὀμφάλῃ πόνων
-357	λατρεύματʼ οὐδʼ ὁ ῥιπτὸς Ἰφίτου μόρος·
+357	λατρεύματʼ, οὐδʼ ὁ ῥιπτὸς Ἰφίτου μόρος·
 358	ὃν νῦν παρώσας οὗτος ἔμπαλιν λέγει.
 359	ἀλλʼ ἡνίκʼ οὐκ ἔπειθε τὸν φυτοσπόρον
 360	τὴν παῖδα δοῦναι, κρύφιον ὡς ἔχοι λέχος,
@@ -93,6 +95,7 @@
 365	apparatus: the note "365 f." runs on beyond the spread; its end ("Wecklein writes ... τοῦσδε L.") is taken from the top of the apparatus of p-0134 and not written again there.
 356	apparatus: the breathing Jebb prints before the capital (ʼΟμφάλῃ) is written on the capital, Ὀμφάλῃ.
 360	apparatus: ἔχη (made from ἔχει) is printed without iota subscript (L's spelling): copied as printed.
+357	res: comma after λατρεύματʼ, as printed
 
 === p-0134
 --- text
@@ -111,7 +114,7 @@
 377	λαθραῖον; ὦ δύστηνος· ἆρʼ ἀνώνυμος
 378	πέφυκεν, ὥσπερ οὑπάγων διώμνυτο;
 @ Ἄγγελος
-379	ἦ κάρτα λαμπρὰ καὶ κατʼ ὄνομα καὶ φύσιν,
+379	ἦ κάρτα λαμπρὰ καὶ κατʼ ὄνομα καὶ φύσιν·
 380	πατρὸς μὲν οὖσα γένεσιν Εὐρύτου ποτὲ
 --- apparatus
 367	μηδὲ] μὴ δὲ L. Erfurdt conj. μήτι: Hartung μὴ σὺ.—τόδε L (with an erasure after ο: it was perhaps τόνδε); and so most MSS.: τάδε B, with a few others.
@@ -127,11 +130,12 @@
 366	apparatus: the apparatus begins with the end of the note "365 f." ("Wecklein writes ... τοῦσδε L."), written whole on p-0132.
 367	apparatus: Erfurdt's conjecture is printed μήτι (the OCR read μήτε).
 379	apparatus: the mark Jebb prints as prefixed to v. 379 in L has the shape of ζ: written ζ.
+379	res: raised stop after φύσιν, as printed
 
 === p-0136
 --- text
 381	Ἰόλη ʼκαλεῖτο, τῆς ἐκεῖνος οὐδαμὰ
-382	βλάστας ἐφώνει, δῆθεν οὐδὲν ἱστορῶν.
+382	βλάστας ἐφώνει δῆθεν οὐδὲν ἱστορῶν.
 @ Χορός
 383	ὄλοιντο μή τι πάντες οἱ κακοί, τὰ δὲ
 384	λαθραῖʼ ὃς ἀσκεῖ μὴ πρέπονθʼ αὑτῷ κακά.
@@ -167,6 +171,7 @@
 391	not flagged, seen on the whole page: the print has ἁνὴρ (rough breathing, Hermann's crasis, as Jebb's note on 391 f. says) and no comma after ἀγγέλων: changed.
 391	apparatus: Jebb's "391 f." is filed under 391; Erfurdt's reading is printed ὅδʼ ὡ ʼνὴρ (rough breathing, no accent on ω), copied as printed.
 381	apparatus: L's οὐδαμᾶι is printed with the iota on the line: copied as printed.
+382	res: no comma after ἐφώνει, as printed
 
 === p-0138
 --- text
@@ -187,7 +192,7 @@
 @ Λίχας
 401	Εὐβοιίς· ὧν δʼ ἔβλαστεν οὐκ ἔχω λέγειν.
 @ Ἄγγελος
-402	οὗτος, βλέφʼ ὧδε· πρὸς τίνʼ ἐννέπειν δοκεῖς;
+402	οὗτος, βλέφʼ ὧδε. πρὸς τίνʼ ἐννέπειν δοκεῖς;
 @ Λίχας
 403	σὺ δʼ εἰς τί δή με τοῦτʼ ἐρωτήσας ἔχεις;
 @ Ἄγγελος
@@ -211,3 +216,4 @@
 397	apparatus: the note "397 and 399" is filed under 397.
 401-404	apparatus: the notes "401—404" and "402—433" are on the facing page (leaf 139) and name lines beyond this page; 402-433 runs past the batch's last verse (404).
 403	apparatus: L's reading is printed ἐρωτήσασ ʼέχεισ (apostrophe before ε, the ε with an acute and no breathing), copied as printed.
+402	res: full stop after ὧδε, as printed

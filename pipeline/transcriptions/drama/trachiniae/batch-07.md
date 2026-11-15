@@ -98,6 +98,7 @@
 541	ὁ checked: it is printed at the start of this verse (the OCR read it as δ).
 550	The page prints a comma after φοβοῦμαι (ταῦτʼ οὖν φοβοῦμαι, μὴ πόσις): added.
 545	A grey speck between ξυνοικεῖν and τῇδʼ (the OCR's stop) is not a printed stop: nothing changed.
+551	res: the page prints καληται with neither circumflex nor iota subscript (an evident misprint or lost type: Jebb's note on 551 reads καλῆται A, and Ald.); καλῆται kept, corrected.
 547	Apparatus: the note 547-549 runs on to the facing page (from ὀφθαλμὸς] Meineke conj. to and Ald.); ᾖ in the note on 551 is printed with an iota subscript, twice.
 
 === p-0160

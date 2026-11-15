@@ -34,7 +34,7 @@
 1041	ὦ Διὸς αὐθαίμων, εὔνασον εὔνασόν μʼ
 1042	ὠκυπέτᾳ μόρῳ τὸν μέλεον φθίσας.
 @ Χορός
-1043	κλύουσʼ ἔφριξα τάσδε συμφοράς, φίλαι,
+1044	κλύουσʼ ἔφριξα τάσδε συμφοράς, φίλαι,
 1045	ἄνακτος, οἵαις οἷος ὢν ἐλαύνεται.
 @ Ἡρακλῆς
 1046	ὦ πολλὰ δὴ καὶ θερμὰ κοὐ λόγῳ κακὰ
@@ -61,8 +61,9 @@
 1040	the print has a comma after the second αὔτως: added.
 1041	the print accents εὔνασόν before μʼ: written as printed.
 1046	Jebb's asterisk before κοὐ left out.
-1038	apparatus: Jebb's numbers 1038, 1039, 1044 name verses inside our longer lines (1036, 1040, 1043); kept as printed (this answers the checker's remarks on 1039 and 1044). ἃν and ἣν both with rough breathing, as printed.
+1038	apparatus: Jebb's numbers 1038, 1039 name verses inside our longer lines (1036, 1040); kept as printed (this answers the checker's remark on 1039). ἃν and ἣν both with rough breathing, as printed.
 1047	apparatus: κἀν-|νοίαισι divided only at the end of a printed line: written whole.
+1044	res: renumbered from 1043: the trimeter κλύουσʼ ἔφριξα stands before ἄνακτος, which bears the margin 1045, and Jebb's apparatus names it 1044 (ὠκυπέτᾳ … φθίσας covers 1042-1043, as in L's division 1027-1043).
 
 === p-0228
 --- text

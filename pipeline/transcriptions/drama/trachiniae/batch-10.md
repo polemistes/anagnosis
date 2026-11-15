@@ -81,7 +81,7 @@
 789	ἐπεὶ δʼ ἀπεῖπε, πολλὰ μὲν τάλας χθονὶ
 790	ῥίπτων ἑαυτόν, πολλὰ δʼ οἰμωγῇ βοῶν,
 791	τὸ δυσπάρευνον λέκτρον ἐνδατούμενος
-792	σοῦ τῆς ταλαίνης, καὶ τὸν Οἰνέως γάμον
+792	σοῦ τῆς ταλαίνης καὶ τὸν Οἰνέως γάμον,
 --- apparatus
 777	ἤκουσε] ἤκουσε L, the ε written small over σ, with traces of a deleted ν, over which two dots had been placed. The ν may have been made from α.
 778	πλευμόνων A, L², Harl., and Ald.: πνευμόνων L, with most MSS.
@@ -96,6 +96,7 @@
 779	ᾗ is printed on this verse (ἄρθρον ᾗ λυγίζεται); nothing changed.
 782	apparatus: διασπα-|σθέντος, divided at the end of the page's apparatus, written whole; likewise ἀνηυ-|φήμησεν in 783.
 787	apparatus "787 f.": written under 787.
+792	res: no comma after ταλαίνης, comma after γάμον, as printed
 
 === p-0194
 --- text

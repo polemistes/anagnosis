@@ -59,8 +59,8 @@
 
 === p-0096
 --- text
-113	κύματʼ ἂν εὐρέϊ πόντῳ βάντʼ ἐπιόντα τʼ ἴδοι,
-114	οὕτω δὲ τὸν Καδμογενῆ στρέφει, τὸ δʼ αὔξει, βιότου πολύπονον ὥσπερ πέλαγος
+115	κύματʼ ἂν εὐρέϊ πόντῳ βάντʼ ἐπιόντα τʼ ἴδοι,
+116	οὕτω δὲ τὸν Καδμογενῆ στρέφει, τὸ δʼ αὔξει, βιότου πολύπονον ὥσπερ πέλαγος
 120	Κρήσιον. ἀλλά τις θεῶν αἰὲν ἀναμπλάκητον Ἅιδα σφε δόμων ἐρύκει.
 122	ὧν ἐπιμεμφομένα σʼ αἰδοῖα μέν, ἀντία δʼ οἴσω.
 125	φαμὶ γὰρ οὐκ ἀποτρύειν ἐλπίδα τὰν ἀγαθὰν
@@ -76,16 +76,17 @@
 127	ἀνάλγητα] M. Schmidt conj. ἀνάλλακτα.
 128	ἐπέβαλε r: ἐπέβαλλε L.
 --- notes
-113	the margin prints 115 beside this verse (κύματʼ … ἴδοι, Jebb's 114-115); the Perseus-based number 113 is kept, the margin falling inside the verse in Jebb's count.
-114	flag (οὕτῶ not found in the OCR): the print has οὕτω, with no circumflex (the draft's οὕτῶ is Perseus's slip); corrected.
-114	the indented line πολύπονον ὥσπερ πέλαγος is the turnover of this verse (set in like σιλεὺς … Κρονίδας under 126; the strophe's numeral 3 stands before οὕτω only, 4 before Κρήσιον): joined to 114 and the number 115 dropped.
-120	flag (margin 120 at a line numbered 121): σφε δόμων ἐρύκει. is set in, the turnover of the verse Κρήσιον … Ἅιδα (strophe verse 4, answering 127 ἀλλʼ ἐπὶ πῆμα … κέλευθοι in the antistrophe): joined to 120, so the margin 120 now stands at verse 120; the number 121 dropped.
+115	res: renumbered to the print (was 113): the margin 115 stands beside κύματʼ … ἴδοι (Jebb's 114-115), so the verse takes 115; it answers φαμὶ … ἀγαθὰν (125, margin 125) in the antistrophe.
+116	res: renumbered to the print (was 114): οὕτω … πέλαγος runs on from the margin 115 (Jebb's 116-118, cf. his notes 117 στρέφει, 118 ὥσπερ); it answers χρῆναί … Κρονίδας (126). The checker does not see this; noted here.
+116	flag (οὕτῶ not found in the OCR): the print has οὕτω, with no circumflex (the draft's οὕτῶ is Perseus's slip); corrected.
+116	the indented line πολύπονον ὥσπερ πέλαγος is the turnover of this verse (set in like σιλεὺς … Κρονίδας under 126; the strophe's numeral 3 stands before οὕτω only, 4 before Κρήσιον): joined to this verse (then numbered 114) and the number 115 dropped.
+120	flag (margin 120 at a line numbered 121): σφε δόμων ἐρύκει. is set in, the turnover of the verse Κρήσιον … Ἅιδα (strophe verse 4, answering 130 ἀλλʼ ἐπὶ πῆμα … κέλευθοι in the antistrophe): joined to 120, so the margin 120 now stands at verse 120; the number 121 dropped.
 122	flag (ὧν not found in the OCR): ὧν is printed at the start of this verse; no change.
 126	flag (turnover): the print sets σιλεὺς ἐπέβαλε θνατοῖς Κρονίδας· in, after βα-, as the end of this verse; confirmed.
-114	Jebb's apparatus numbers are his own count of these lyric verses and are kept as printed (114 κύματʼ is in our 113).
-115	apparatus 115 (ἐπιόντα τʼ ἴδοι) refers to our 113.
-117	apparatus 117 (στρέφει) refers to our 114.
-118	apparatus 118 (ὥσπερ) refers to our 114.
+114	Jebb's apparatus numbers are his own count of these lyric verses and are kept as printed (114 κύματʼ is in our 115).
+115	apparatus 115 (ἐπιόντα τʼ ἴδοι) stands on our 115.
+117	apparatus 117 (στρέφει) refers to our 116.
+118	apparatus 118 (ὥσπερ) refers to our 116.
 120	ἀΐδα (L, A) is printed with a smooth breathing and diaeresis; αἵδα (B) with a rough breathing (small on the scan, read under enlargement).
 121	apparatus 121 (ἐρύκει) refers to our 120 (σφε δόμων ἐρύκει., joined to it).
 127	apparatus 127 (ἀνάλγητα) refers to our 126.
@@ -93,7 +94,7 @@
 
 === p-0098
 --- text
-127	ἀλλʼ ἐπὶ πῆμα καὶ χαρὰ πᾶσι κυκλοῦσιν, οἷον ἄρκτου στροφάδες κέλευθοι.
+130	ἀλλʼ ἐπὶ πῆμα καὶ χαρὰ πᾶσι κυκλοῦσιν, οἷον ἄρκτου στροφάδες κέλευθοι.
 131	μένει γὰρ οὔτʼ αἰόλα
 132	νὺξ βροτοῖσιν οὔτε κῆρες
 133	οὔτε πλοῦτος, ἀλλʼ ἄφαρ
@@ -113,23 +114,24 @@
 140	τέκνοισι] τέκνοισιν L. ἄβουλον] Wecklein conj. ἀγνώμονʼ.
 141	ἀπεικάσαι MSS.: Hermann conj. ἐπεικάσαι: Wunder, σάφʼ εἰκάσαι.
 --- notes
-127	flags (turnover; margin 130 at a line numbered 127): the print sets στροφάδες κέλευθοι. in, as the end of the antistrophe's verse 4 (numeral 4 before ἀλλʼ only); the join is confirmed. The margin 130 stands beside the turnover: Jebb's verse runs 129-130, and the next verse μένει begins 131, as in the draft; no renumbering.
-129	apparatus 129 (πῆμα καὶ χαρὰ) and 130 (οἷον) are Jebb's numbers for parts of our 127; kept as printed.
-130	apparatus 130 (οἷον) refers to our 127.
+130	flags (turnover; margin 130 at a line numbered 127): the print sets στροφάδες κέλευθοι. in, as the end of the antistrophe's verse 4 (numeral 4 before ἀλλʼ only); the join is confirmed. The margin 130 stands beside the turnover: Jebb's verse runs 129-130, and the next verse μένει begins 131, as in the draft; no renumbering (first pass).
+130	res: renumbered to the print (was 127): the margin 130 stands on this verse (beside its turnover), as the margin 120 stands on the strophe's verse 4 Κρήσιον … ἐρύκει (120) that it answers; numbers run 126, 130, 131.
+129	apparatus 129 (πῆμα καὶ χαρὰ) and 130 (οἷον) are Jebb's numbers for parts of our 130; kept as printed.
+130	apparatus 130 (οἷον) stands on our 130.
 132	ἆμαρ: the breathing under the circumflex is small on the scan; read as smooth (the Doric form of ἦμαρ).
 139	apparatus 139 (τάδʼ αἰὲν) is Jebb's number for our 137 (Jebb counts 136-137 and 138-139 for the two verses after 135; the draft has 136, 137, following Perseus; the margins 135 and 140 agree).
 140	Jebb prints no dash between the two remarks of this note ("τέκνοισιν L. ἄβουλον]"); copied as printed.
 
 === p-0100
 --- text
-142	πάθημα τοὐμόν· ὡς δʼ ἐγὼ θυμοφθορῶ,
+142	πάθημα τοὐμόν· ὡς δʼ ἐγὼ θυμοφθορῶ
 143	μήτʼ ἐκμάθοις παθοῦσα, νῦν δʼ ἄπειρος εἶ.
 144	τὸ γὰρ νεάζον ἐν τοιοῖσδε βόσκεται
-145	χώροισιν αὑτοῦ, καί νιν οὐ θάλπος θεοῦ
-146	οὐδʼ ὄμβρος οὐδὲ πνευμάτων οὐδὲν κλονεῖ,
+145	χώροισιν αὑτοῦ, καί νιν οὐ θάλπος θεοῦ,
+146	οὐδʼ ὄμβρος, οὐδὲ πνευμάτων οὐδὲν κλονεῖ,
 147	ἀλλʼ ἡδοναῖς ἄμοχθον ἐξαίρει βίον
-148	ἐς τοῦθʼ ἕως τις ἀντὶ παρθένου γυνὴ
-149	κληθῇ λάβῃ τʼ ἐν νυκτὶ φροντίδων μέρος,
+148	ἐς τοῦθʼ, ἕως τις ἀντὶ παρθένου γυνὴ
+149	κληθῇ, λάβῃ τʼ ἐν νυκτὶ φροντίδων μέρος,
 150	ἤτοι πρὸς ἀνδρὸς ἢ τέκνων φοβουμένη.
 151	τότʼ ἄν τις εἰσίδοιτο, τὴν αὑτοῦ σκοπῶν
 152	πρᾶξιν, κακοῖσιν οἷς ἐγὼ βαρύνομαι.
@@ -149,6 +151,11 @@
 143	flag (τʼ not found in the OCR): the print reads νῦν δʼ (Jebb's reading, from L; his note gives νῦν τʼ as Harl.'s), with a comma after παθοῦσα; corrected.
 150	flag (ἢ not found in the OCR): ἢ is printed on this verse; no change.
 145	the breathings of αὐτοῦ/αὑτοῦ in the notes on 145 and 151 were read under enlargement (the rough breathing small, with the tail to the right) and agree with the sense of each note.
+142	res: no comma after θυμοφθορῶ, as printed (the verse runs on into μήτʼ ἐκμάθοις); removed.
+145	res: comma after θεοῦ, as printed.
+146	res: comma after ὄμβρος, as printed.
+148	res: comma after τοῦθʼ, as printed.
+149	res: comma after κληθῇ, as printed.
 
 === p-0102
 --- text
@@ -160,7 +167,7 @@
 163	μοῖραν πατρῴας γῆς διαιρετὸν νέμοι,
 164	χρόνον προτάξας, ὡς τρίμηνον ἡνίκα
 165	χώρας ἀπείη κἀνιαύσιος βεβώς,
-166	τότʼ ἢ θανεῖν χρείη σφε τῷδε τῷ χρόνῳ
+166	τότʼ ἢ θανεῖν χρείη σφε τῷδε τῷ χρόνῳ,
 167	ἢ τοῦθʼ ὑπεκδραμόντα τοῦ χρόνου τέλος
 168	τὸ λοιπὸν ἤδη ζῆν ἀλυπήτῳ βίῳ.
 169	τοιαῦτʼ ἔφραζε πρὸς θεῶν εἱμαρμένα
@@ -186,6 +193,7 @@
 163	"with ὴν written above": the print has a grave accent alone on η, no breathing (enlarged).
 164	the comma after προτάξας is printed (leaf 102); added.
 165	the print reads κἀνιαύσιος (clear on the whole page; Jebb's reading, as his note on 165 shows: "κἀνιαύσιος MSS.: κἀνιαύσιον Brunck"); not flagged, since the OCR read it right, but the draft had Perseus's κἀνιαύσιον; corrected. Brunck's κᾀνιαύσιον is printed with an iota subscript under α.
+166	res: comma after χρόνῳ, as printed.
 167	flag (ἢ not found in the OCR): ἢ is printed at the start of this verse; no change.
 169	"τοιαῦτʼ...εἱμαρμένα" and "οἰζὺν...εἱμαρμένον": the three dots are printed without spaces; copied so.
 170	Jebb's note on 170 ends the spread; nothing runs on to leaf 104.

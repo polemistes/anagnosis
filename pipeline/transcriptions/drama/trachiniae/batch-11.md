@@ -30,10 +30,10 @@
 --- text
 852	ἔρρωγεν παγὰ δακρύων· κέχυται νόσος, ὦ πόποι, οἷον ἀναρσίων
 854	οὔπω †Ἡρακλέους ἀγακλειτὸν ἐπέμολε πάθος οἰκτίσαι.
-855	ἰὼ κελαινὰ λόγχα προμάχου δορός,
-856	ἃ τότε θοὰν νύμφαν
-857	ἄγαγες ἀπʼ αἰπεινᾶς
-858	τάνδʼ Οἰχαλίας αἰχμᾷ·
+856	ἰὼ κελαινὰ λόγχα προμάχου δορός,
+857	ἃ τότε θοὰν νύμφαν
+858	ἄγαγες ἀπʼ αἰπεινᾶς
+859	τάνδʼ Οἰχαλίας αἰχμᾷ·
 860	ἁ δʼ ἀμφίπολος Κύπρις ἄναυδος φανερὰ
 861	τῶνδʼ ἐφάνη πράκτωρ.
 @ Ἡμιχόριον 1
@@ -51,12 +51,13 @@
 865	τί φημί;] Nauck conj. τί φῶμεν; Schenkl, τί φὴς σύ;
 --- notes
 852	flag (turnover): ἀναρσίων is set in under the verse as its end; confirmed.
-852	flag (no margin number read): the whole page (leaf 202) prints 856 beside ἰὼ κελαινὰ (our 855), 860 beside ἁ δʼ ἀμφίπολος (860) and 865 beside τί φημί; (865). The 856 is Jebb's own count of the antistrophe (his 852-853 and 854-855 for the first two verses); the Perseus-based numbers are kept, as for the strophe on p-0200.
+852	flag (no margin number read): the whole page (leaf 202) prints 856 beside ἰὼ κελαινὰ, 860 beside ἁ δʼ ἀμφίπολος and 865 beside τί φημί;. The 856 is Jebb's own count of the antistrophe (his 852-853 and 854-855 for the first two verses).
 854	the print has a dagger before Ἡρακλέους (†Ἡρακλέους, seen on the whole page, leaf 202); added.
 862	ΗΜ. Α. in the margin: Ἡμιχόριον 1 confirmed; the print has ἢ (grave) before κλύω, checked under enlargement.
 865	the print has τί φημί; with an acute on the last syllable (whole page, leaf 202, and Jebb's note on 865); corrected.
 866	flag (speaker): the print has ΗΜ. Β. in the margin, i.e. Ἡμιχόριον 2, as in the draft; no change. The print has no comma after ἄσημον; removed.
-853	Jebb's apparatus numbers are his own count of the lyric verses, kept as printed: his "853 f." covers our 852 and 854, his 856 (λόγχα προμάχου) is our 855, his 857 (θοὰν νύμφαν) our 856, his 863 (ΗΜ. Α., πότερον) our 862.
+853	Jebb's apparatus numbers are his own count of the lyric verses, kept as printed: his "853 f." covers our 852 and 854, his 863 (ΗΜ. Α., πότερον) our 862.
+856	res: renumbered to the print: the margin 856 stands beside ἰὼ κελαινὰ, so ἰὼ κελαινὰ … ἁ δʼ ἀμφίπολος run 856-860 (were 855-858, 860); 852 and 854 kept (Jebb's own note 853 f. counts ἀναρσίων 853, οὔπω 854). The apparatus 856 (λόγχα προμάχου) and 857 (θοὰν νύμφαν) now stand on their verses.
 863	the note on 863 runs on to the facing page (leaf 203) from "the Chorus."; written here whole, with the note on 865 from the same page.
 
 === p-0204
@@ -89,9 +90,9 @@
 879a	εἰπὲ τῷ μόρῳ,
 880	γύναι, ξυντρέχει.
 @ Τροφός
-882	αὑτὴν διηΐστωσε.
+881	αὑτὴν διηΐστωσε.
 @ Χορός
-882a	τίς θυμός, ἢ τίνες νόσοι,
+882	τίς θυμός, ἢ τίνες νόσοι,
 --- apparatus
 869	ἀήθης MSS. ἀηδὴς Lond. ed. of 1722; the same conject. was afterwards made independently by Ast and by Wunder.
 870	σημανοῦσα Triclinius: σημαίνουσα MSS.
@@ -112,8 +113,8 @@
 878	the print has a comma after τάλαινʼ (τάλαινʼ, ὀλεθρία·, as in Jebb's note on 878); added. ΧΟ. in the margin (with the label κομμός, not part of the text); @ Χορός confirmed.
 879	the draft's capital Γε is the OCR's; the print has *γε (asterisk left out); corrected to γε.
 879a	flag (split): the print has ΧΟ. εἰπὲ τῷ μόρῳ, on the same printed line after ΤΡ. σχετλιώτατά … πρᾶξιν.; split kept. γύναι, ξυντρέχει. stands on its own line, at the verse's indent, with the margin 880: a verse of its own (880), not a turnover.
-882a	flag (θυμὸς: the OCR reads θυμός,): the print has τίς θυμός, ἢ τίνες νόσοι, with commas after θυμός and νόσοι; corrected. Split at ΧΟ. after ΤΡ. αὑτὴν διηΐστωσε. kept.
-881	Jebb's apparatus numbers here are his own count: his 881 (διηΐστωσε) is our 882, his 882 (τίς θυμὸς) our 882a. Kept as printed.
+882	flag (θυμὸς: the OCR reads θυμός,): the print has τίς θυμός, ἢ τίνες νόσοι, with commas after θυμός and νόσοι; corrected. Split at ΧΟ. after ΤΡ. αὑτὴν διηΐστωσε. kept.
+881	res: renumbered to the print: αὑτὴν διηΐστωσε. (was 882) and τίς θυμός, ἢ τίνες νόσοι, (was 882a) stand on one printed line but are two verses in Jebb's count (his notes 881 διηΐστωσε, 882 τίς θυμὸς); counted on from the margin 880 they are 881 and 882, and the margin 885 on p-0206 is met. The apparatus 881 and 882 now stand on their verses.
 879	Jebb's note on 879 runs on to the facing page (leaf 205) from "Heinrich Schmidt"; written here whole, with the notes on 880-882 from the same page.
 
 === p-0206

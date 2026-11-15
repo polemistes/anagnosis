@@ -40,7 +40,7 @@ Sigla: L = cod. Laur. 32. 9 (first half of eleventh century). r = one or more of
 21	ἐκλύεταί με. καὶ τρόπον μὲν ἂν πόνων
 22	οὐκ ἂν διείποιμʼ· οὐ γὰρ οἶδʼ· ἀλλʼ ὅστις ἦν
 23	θακῶν ἀταρβὴς τῆς θέας, ὅδʼ ἂν λέγοι·
-24	ἐγὼ γὰρ ἥμην ἐκπεπληγμένη φόβῳ
+24	ἐγὼ γὰρ ἥμην ἐκπεπληγμένη φόβῳ,
 25	μή μοι τὸ κάλλος ἄλγος ἐξεύροι ποτέ.
 26	τέλος δʼ ἔθηκε Ζεὺς ἀγώνιος καλῶς,
 --- apparatus
@@ -58,6 +58,7 @@ Sigla: L = cod. Laur. 32. 9 (first half of eleventh century). r = one or more of
 22	ἦν stands at the end of this verse, as the draft has it.
 12	apparatus "12 f.": Jebb's upright stroke for the verse end kept as " | "; written under 12.
 24	apparatus "24 f.": written under 24.
+24	res: comma after φόβῳ, as printed
 
 === p-0084
 --- text
@@ -95,7 +96,7 @@ Sigla: L = cod. Laur. 32. 9 (first half of eleventh century). r = one or more of
 43	σχεδὸν δʼ ἐπίσταμαί τι πῆμʼ ἔχοντά νιν·
 44	χρόνον γὰρ οὐχὶ βαιόν, ἀλλʼ ἤδη δέκα
 45	μῆνας πρὸς ἄλλοις πέντʼ ἀκήρυκτος μένει.
-46	κἀστίν τι δεινὸν πῆμα· τοιαύτην ἐμοὶ
+46	κἄστιν τι δεινὸν πῆμα· τοιαύτην ἐμοὶ
 47	δέλτον λιπὼν ἔστειχε, τὴν ἐγὼ θαμὰ
 48	θεοῖς ἀρῶμαι πημονῆς ἄτερ λαβεῖν.
 @ Τροφός
@@ -118,10 +119,11 @@ Sigla: L = cod. Laur. 32. 9 (first half of eleventh century). r = one or more of
 57	νέμοι, L, A, and most MSS.: νέμει r (as Vat. and Harl.).
 --- notes
 49	speaker: the print heads the speech ΤΡΟΦΟΣ. (centred), where Perseus has Θεράπαινα: written @ Τροφός, as the print wins.
+46	res: κἄστιν (coronis with acute on α, no accent on ι), as printed; Perseus κἀστίν
 
 === p-0088
 --- text
-58	ἐγγὺς δʼ ὅδʼ αὐτὸς ἀρτίπους θρῴσκει δόμους,
+58	ἐγγὺς δʼ ὅδʼ αὐτὸς ἀρτίπους θρῴσκει δόμους·
 59	ὥστʼ εἴ τί σοι πρὸς καιρὸν ἐννέπειν δοκῶ,
 60	πάρεστι χρῆσθαι τἀνδρὶ τοῖς τʼ ἐμοῖς λόγοις.
 @ Δηιάνειρα
@@ -139,7 +141,7 @@ Sigla: L = cod. Laur. 32. 9 (first half of eleventh century). r = one or more of
 68	καὶ ποῦ κλύεις νιν, τέκνον, ἱδρῦσθαι χθονός;
 @ Ὕλλος
 69	τὸν μὲν παρελθόντʼ ἄροτον ἐν μήκει χρόνου
-70	Λυδῇ γυναικί φασί νιν λάτριν πονεῖν.
+70	Λυδῇ γυναικὶ φασί νιν λάτριν πονεῖν.
 @ Δηιάνειρα
 71	πᾶν τοίνυν, εἰ καὶ τοῦτʼ ἔτλη, κλύοι τις ἄν.
 @ Ὕλλος
@@ -159,6 +161,8 @@ Sigla: L = cod. Laur. 32. 9 (first half of eleventh century). r = one or more of
 58	no flags on this page.
 62	apparatus: Jebb prints the rough breathing alone ("the ‘ added by S"): written ῾.
 66	apparatus: L's πὄυστιν is printed with a small gap after πὄ (the breathing and accent set over ο); written as one word.
+70	res: γυναικὶ with a grave before φασί, as printed
+58	res: raised stop after δόμους (the draft a comma), as printed; seen on the whole page while checking 61
 
 === p-0090
 --- text
@@ -171,7 +175,7 @@ Sigla: L = cod. Laur. 32. 9 (first half of eleventh century). r = one or more of
 @ Ὕλλος
 78	τὰ ποῖα, μῆτερ; τὸν λόγον γὰρ ἀγνοῶ.
 @ Δηιάνειρα
-79	ὡς ἢ τελευτὴν τοῦ βίου μέλλει τελεῖν
+79	ὡς ἢ τελευτὴν τοῦ βίου μέλλει τελεῖν,
 80	ἢ τοῦτον ἄρας ἆθλον εἰς τό γʼ ὕστερον
 81	τὸν λοιπὸν ἤδη βίοτον εὐαίωνʼ ἔχειν.
 82	ἐν οὖν ῥοπῇ τοιᾷδε κειμένῳ, τέκνον,
@@ -202,3 +206,4 @@ Sigla: L = cod. Laur. 32. 9 (first half of eleventh century). r = one or more of
 83	the print has a question mark after ξυνέρξων (the draft a comma), and 85 ends with a full stop (the draft a question mark); seen on the whole page while checking 82.
 84	the bracketed verse kept with its brackets as printed; the draft's final ἐξολωλότοσ corrected to ἐξολωλότος (the print has a final sigma in the text; σ for final sigma is only in the apparatus's quotation of L).
 84	apparatus "84 f.", "80 f.": written under 84 and 80; L's spelling with σ for final sigma copied as printed; Jebb's three dots printed as "(:·)".
+79	res: comma after τελεῖν, as printed

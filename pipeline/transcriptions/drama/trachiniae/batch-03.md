@@ -33,7 +33,7 @@
 184	τίνʼ εἶπας, ὦ γεραιέ, τόνδε μοι λόγον;
 @ Ἄγγελος
 185	τάχʼ ἐς δόμους σοὺς τὸν πολύζηλον πόσιν
-186	ἥξειν φανέντα σὺν κράτει νικηφόρῳ.
+186	ἥξειν, φανέντα σὺν κράτει νικηφόρῳ.
 @ Δηιάνειρα
 187	καὶ τοῦ τόδʼ ἀστῶν ἢ ξένων μαθὼν λέγεις;
 @ Ἄγγελος
@@ -65,6 +65,7 @@
 191	κερδάναιμι checked: printed so.
 195	the print ends the verse with a full stop (πρόσω.), not the raised stop: changed.
 189	apparatus: "ib. 802;:" has a speck before the colon; written "802:".
+186	res: comma after ἥξειν, as printed
 
 === p-0108
 --- text

@@ -27,10 +27,10 @@
 262	ὃς αὐτὸν ἐλθόντʼ ἐς δόμους ἐφέστιον,
 263	ξένον παλαιὸν ὄντα, πολλὰ μὲν λόγοις
 264	ἐπερρόθησε, πολλὰ δʼ ἀτηρᾷ φρενί,
-265	λέγων χεροῖν μὲν ὡς ἄφυκτʼ ἔχων βέλη
+265	λέγων, χεροῖν μὲν ὡς ἄφυκτʼ ἔχων βέλη
 266	τῶν ὧν τέκνων λείποιτο πρὸς τόξου κρίσιν,
-267	φωνεῖ δὲ δοῦλος ἀνδρὸς ὡς ἐλευθέρου
-268	ῥαίοιτο· δείπνοις δʼ ἡνίκʼ ἦν ᾠνωμένος,
+267	φωνεῖ δέ, δοῦλος ἀνδρὸς ὡς ἐλευθέρου
+268	ῥαίοιτο· δείπνοις δʼ, ἡνίκʼ ἦν ᾠνωμένος,
 269	ἔρριψεν ἐκτὸς αὐτόν. ὧν ἔχων χόλον,
 --- apparatus
 260	μεταίτιον] μέτʼ αἴτιον L.
@@ -42,6 +42,9 @@
 --- notes
 263	flag ξένον: the page prints ξένον, as Perseus; unchanged.
 264	apparatus note printed "264 f."; written under 264.
+265	res: comma after λέγων, as printed
+267	res: δέ, with acute and comma, as printed
+268	res: comma after δʼ, as printed
 267	apparatus note runs on to the facing page (leaf 119) from "So most of the MSS."; written whole here.
 
 === p-0120
@@ -49,17 +52,17 @@
 270	ὡς ἵκετʼ αὖθις Ἴφιτος Τιρυνθίαν
 271	πρὸς κλιτύν, ἵππους νομάδας ἐξιχνοσκοπῶν,
 272	τότʼ ἄλλοσʼ αὐτὸν ὄμμα, θατέρᾳ δὲ νοῦν
-273	ἔχοντʼ, ἀπʼ ἄκρας ἧκε πυργώδους πλακός.
+273	ἔχοντʼ ἀπʼ ἄκρας ἧκε πυργώδους πλακός.
 274	ἔργου δʼ ἕκατι τοῦδε μηνίσας ἄναξ
 275	ὁ τῶν ἁπάντων Ζεὺς πατὴρ Ὀλύμπιος
-276	πρατόν νιν ἐξέπεμψεν οὐδʼ ἠνέσχετο,
+276	πρατόν νιν ἐξέπεμψεν, οὐδʼ ἠνέσχετο,
 277	ὁθούνεκʼ αὐτὸν μοῦνον ἀνθρώπων δόλῳ
-278	ἔκτεινεν· εἰ γὰρ ἐμφανῶς ἠμύνατο,
+278	ἔκτεινεν. εἰ γὰρ ἐμφανῶς ἠμύνατο,
 279	Ζεύς τἂν συνέγνω ξὺν δίκῃ χειρουμένῳ·
 280	ὕβριν γὰρ οὐ στέργουσιν οὐδὲ δαίμονες.
 281	κεῖνοι δʼ ὑπερχλίοντες ἐκ γλώσσης κακῆς
 282	αὐτοὶ μὲν Ἅιδου πάντες εἴσʼ οἰκήτορες,
-283	πόλις δὲ δούλη· τάσδε δʼ ἅσπερ εἰσορᾷς
+283	πόλις δὲ δούλη· τάσδε δʼ ἅσπερ εἰσορᾷς,
 --- apparatus
 272	θατέρᾳ] θʼ ητέραι L: θἀτέρᾳ r.
 275	ὀλύμπιοσ L: οὐλύμπιος r.
@@ -68,6 +71,10 @@
 279	τἂν Erfurdt: τʼ ἂν MSS.
 281	ὑπερχλίοντες] So the lemma of the schol., and the first hand in L, where S has altered it to ὑπερχλιδῶντες, the reading of A and other later MSS.
 --- notes
+273	res: no comma after ἔχοντʼ, as printed
+276	res: comma after ἐξέπεμψεν, as printed
+278	res: full stop after ἔκτεινεν (not a raised stop), as printed
+283	res: comma after εἰσορᾷς, as printed
 277	the lemma μοῦ-|νον is divided at the end of a printed line; written whole.
 279	the note runs on to the facing page (leaf 121) from "Erfurdt"; written whole here.
 
@@ -119,14 +126,14 @@
 305	μηδʼ, εἴ τι δράσεις, τῆσδέ γε ζώσης ἔτι.
 306	οὕτως ἐγὼ δέδοικα τάσδʼ ὁρωμένη.
 307	ὦ δυστάλαινα, τίς ποτʼ εἶ νεανίδων;
-308	ἄνανδρος ἢ τεκνοῦσσα; πρὸς μὲν γὰρ φύσιν
+308	ἄνανδρος, ἢ τεκνοῦσσα; πρὸς μὲν γὰρ φύσιν
 309	πάντων ἄπειρος τῶνδε, γενναία δέ τις.
 310	Λίχα, τίνος ποτʼ ἐστὶν ἡ ξένη βροτῶν;
 311	τίς ἡ τεκοῦσα, τίς δʼ ὁ φιτύσας πατήρ;
 312	ἔξειπʼ· ἐπεί νιν τῶνδε πλεῖστον ᾤκτισα
 313	βλέπουσʼ, ὅσῳπερ καὶ φρονεῖν οἶδεν μόνη.
 @ Λίχας
-314	τί δʼ οἶδʼ ἐγώ, τί δʼ ἄν με καὶ κρίνοις; ἴσως
+314	τί δʼ οἶδʼ ἐγώ; τί δʼ ἄν με καὶ κρίνοις; ἴσως
 315	γέννημα τῶν ἐκεῖθεν οὐκ ἐν ὑστάτοις.
 @ Δηιάνειρα
 316	μὴ τῶν τυράννων; Εὐρύτου σπορά τις ἦν;
@@ -141,6 +148,8 @@
 316	L points thus:—μὴ τῶν τυράννων εὐρύτου· σπορά τις ἦν; For τῶν, a v.l. was του (B, T): hence Brunck wrote, μὴ τοῦ τυραννεύοντος Εὐρύτου σπορά; Dobree suggested either (a) μή του τυράννων; Εὐρύτῳ σπορά τις ἦν; or (b) μή του τυράννων ἦν τις, Εὐρύτου σπορά;—but suspected that Εὐρύτου was a gloss. Heimsoeth (and Blaydes) conj. μὴ τῶν τυράννων τῶν ἐκεῖ σπορά τις ἦν;
 --- notes
 304	flag "speaker change (ΣΟΦΟΚΛΕΟΥΣ.)": that is the running head of the page, not a speaker; no speaker added.
+308	res: comma after ἄνανδρος, as printed
+314	res: question mark after ἐγώ (not a comma), as printed
 308	the note runs on to the facing page (leaf 125) from "latter is"; written whole here.
 313	αἰδη-|μονεῖ divided at a line end in the print; written whole.
 314	the Greek question marks, printed with a space before them, are written close up.

@@ -78,14 +78,14 @@
 
 === p-0240
 --- text
-1146	ἴθʼ, ὦ τέκνον, πατὴρ γὰρ οὐκέτʼ ἔστι σοι·
+1146	ἴθʼ, ὦ τέκνον· πατὴρ γὰρ οὐκέτʼ ἔστι σοι·
 1147	κάλει τὸ πᾶν μοι σπέρμα σῶν ὁμαιμόνων,
 1148	κάλει δὲ τὴν τάλαιναν Ἀλκμήνην, Διὸς
 1149	μάτην ἄκοιτιν, ὡς τελευταίαν ἐμοῦ
 1150	φήμην πύθησθε θεσφάτων ὅσʼ οἶδʼ ἐγώ.
 @ Ὕλλος
 1151	ἀλλʼ οὔτε μήτηρ ἐνθάδʼ, ἀλλʼ ἐπακτίᾳ
-1152	Τίρυνθι συμβέβηκεν ὥστʼ ἔχειν ἕδραν.
+1152	Τίρυνθι συμβέβηκεν ὥστʼ ἔχειν ἕδραν,
 1153	παίδων δὲ τοὺς μὲν ξυλλαβοῦσʼ αὐτὴ τρέφει,
 1154	τοὺς δʼ ἂν τὸ Θήβης ἄστυ ναίοντας μάθοις·
 1155	ἡμεῖς δʼ ὅσοι πάρεσμεν, εἴ τι χρή, πάτερ,
@@ -105,6 +105,8 @@
 1160	πρὸς τῶν πνεόντων (πλεόντων V²) μηδενὸς θανεῖν ὕπο MSS. (1) Keeping ὕπο, Erfurdt conj. τῶν ἐμπνεόντων: Dindorf, ἀνδρῶν (Blaydes βροτῶν) πνεόντων: Blaydes also, τῶν μὲν πνεόντων. (2) Keeping πρὸς, Musgrave conj. θανεῖν ποτέ (Dobree ποτʼ ἄν): Wecklein, χρῆναι θανεῖν.
 --- notes
 1155	no flags on this page. Apparatus: "1155 f." written as 1155; Jebb's spaces before colons ("Brunck :", "τοὐμὸν :") written without.
+1146	res: raised stop after τέκνον (draft comma), as printed; seen on the page while settling the residuals
+1152	res: comma after ἕδραν, as printed
 
 === p-0242
 --- text
@@ -118,11 +120,11 @@
 1168	πρὸς τῆς πατρῴας καὶ πολυγλώσσου δρυός,
 1169	ἥ μοι χρόνῳ τῷ ζῶντι καὶ παρόντι νῦν
 1170	ἔφασκε μόχθων τῶν ἐφεστώτων ἐμοὶ
-1171	λύσιν τελεῖσθαι· κἀδόκουν πράξειν καλῶς.
+1171	λύσιν τελεῖσθαι· κἀδόκουν πράξειν καλῶς·
 1172	τὸ δʼ ἦν ἄρʼ οὐδὲν ἄλλο πλὴν θανεῖν ἐμέ.
 1173	τοῖς γὰρ θανοῦσι μόχθος οὐ προσγίγνεται.
 1174	ταῦτʼ οὖν ἐπειδὴ λαμπρὰ συμβαίνει, τέκνον,
-1175	δεῖ σʼ αὖ γενέσθαι τῷδε τἀνδρὶ σύμμαχον
+1175	δεῖ σʼ αὖ γενέσθαι τῷδε τἀνδρὶ σύμμαχον,
 --- apparatus
 1161	πέλοι] πέλει L, with οι written above by the first hand: πέλει A, with most MSS., and Ald.
 1163	ἔκτεινεν A, Harl., and Ald.: ἔκτεινε L: ἔκτανεν (or ἔκτανε) r.
@@ -136,6 +138,8 @@
 --- notes
 1174	flag checked: συμβαίνει as printed (OCR misread the accent); no change.
 1167	apparatus: "εἰσελθὼν L.:" with the stop, as printed.
+1171	res: raised stop after καλῶς, as printed; seen on the page while settling the residuals
+1175	res: comma after σύμμαχον, as printed
 
 === p-0244
 --- text
@@ -146,7 +150,7 @@
 1179	ἀλλʼ, ὦ πάτερ, ταρβῶ μὲν εἰς λόγου στάσιν
 1180	τοιάνδʼ ἐπελθών, πείσομαι δʼ ἅ σοι δοκεῖ.
 @ Ἡρακλῆς
-1181	ἔμβαλλε χεῖρα δεξιὰν πρώτιστά μοι·
+1181	ἔμβαλλε χεῖρα δεξιὰν πρώτιστά μοι.
 @ Ὕλλος
 1182	ὡς πρὸς τί πίστιν τήνδʼ ἄγαν ἐπιστρέφεις;
 @ Ἡρακλῆς
@@ -154,7 +158,7 @@
 @ Ὕλλος
 1184	ἰδού, προτείνω, κοὐδὲν ἀντειρήσεται.
 @ Ἡρακλῆς
-1185	ὄμνυ Διός νυν τοῦ με φύσαντος κάρα,
+1185	ὄμνυ Διός νυν τοῦ με φύσαντος κάρα.
 @ Ὕλλος
 1186	ἦ μὴν τί δράσειν; καὶ τόδʼ ἐξειρήσεται;
 @ Ἡρακλῆς
@@ -164,7 +168,7 @@
 @ Ἡρακλῆς
 1189	εἰ δʼ ἐκτὸς ἔλθοις, πημονὰς εὔχου λαβεῖν.
 @ Ὕλλος
-1190	οὐ μὴ λάβω· δράσω γάρ· εὔχομαι δʼ ὅμως·
+1190	οὐ μὴ λάβω· δράσω γάρ· εὔχομαι δʼ ὅμως.
 --- apparatus
 1176	μὴ ʼπιμεῖναι (or μὴ ἐπιμεῖναι) most MSS., and Ald.: μή πειμεῖναι (sic) L: εῖ is in an erasure, prob. from ῆ: the first ει has also been retouched, but it is not clear that it has come (as Dübner thinks) from α. αν had been written above (apparently by S), but has been deleted by a line drawn through it. Meineke conj. μὴ ἀναμεῖναι: Blaydes, μή τι τλῆναι.—ὀξῦναι] ὀξύναι L.
 1177	εἰκαθόντα] εἰκάθοντα L, with most MSS., and Ald.: εἰκάθθόντα A (ό from first hand).
@@ -178,6 +182,9 @@
 --- notes
 1184	the page prints ἰδού, with a comma after it (Perseus ἰδοὺ without comma); written as printed.
 1176	apparatus: "μή πειμεῖναι" with the acute as printed; "εἰκάθθόντα A" with θθ as printed; Jebb's spaces before colons and semicolons written without.
+1181	res: full stop after μοι, as printed
+1185	res: full stop after κάρα, as printed
+1190	res: full stop after ὅμως, as printed
 
 === p-0246
 --- text
@@ -187,12 +194,12 @@
 1192	οἶδʼ, ὡς θυτήρ γε πολλὰ δὴ σταθεὶς ἄνω.
 @ Ἡρακλῆς
 1193	ἐνταῦθά νυν χρὴ τοὐμὸν ἐξάραντά σε
-1194	σῶμʼ αὐτόχειρα καὶ ξὺν οἷς χρῄζεις φίλων.
+1194	σῶμʼ αὐτόχειρα καὶ ξὺν οἷς χρῄζεις φίλων,
 1195	πολλὴν μὲν ὕλην τῆς βαθυρρίζου δρυὸς
 1196	κείραντα, πολλὸν δʼ ἄρσενʼ ἐκτεμόνθʼ ὁμοῦ
 1197	ἄγριον ἔλαιον, σῶμα τοὐμὸν ἐμβαλεῖν,
 1198	καὶ πευκίνης λαβόντα λαμπάδος σέλας
-1199	πρῆσαι. γόου δὲ μηδὲν εἰσίτω δάκρυ,
+1199	πρῆσαι. γόου δὲ μηδὲν εἰσίτω δάκρυ·
 1200	ἀλλʼ ἀστένακτος κἀδάκρυτος, εἴπερ εἶ
 1201	τοῦδʼ ἀνδρός, ἔρξον· εἰ δὲ μή, μενῶ σʼ ἐγὼ
 1202	καὶ νέρθεν ὢν ἀραῖος εἰσαεὶ βαρύς.
@@ -210,5 +217,6 @@
 1191	flags checked: πάγον; stands on this verse (printed "πάγον ;"); margin numbers 1195 and 1200 on the whole page agree with the numbering.
 1197	flag checked: σῶμα as printed.
 1203	the page prints τί <δʼ> εἶπας, Jebb's supplement in angle brackets: written ⟨δʼ⟩.
-1194	not flagged, seen on the whole page while checking the margin: the print has φίλων, (comma; draft has a full stop) and in 1199 δάκρυ· (raised stop; draft has a comma). Left as drafted, since unflagged lines are not retyped; for the reviewer to decide.
+1194	res: comma after φίλων, as printed
+1199	res: raised stop after δάκρυ, as printed (the first pass had seen it and left it for review)
 1195	apparatus: "1195—" at the foot of the text page runs on to "1198 Wunder rejects these four vv." on the facing page: one item 1195-1198.
