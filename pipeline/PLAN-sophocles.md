@@ -388,6 +388,32 @@ The metrical analyses are not transcribed (as for Ajax and Electra).
   Tyrannus's. Oedipus at Colonus now: review of the 22 text batches and prose (check + second
   reading) running.
 
+* **2026-11-16 (night).** Oedipus at Colonus: residual pass (22 agents, 2.0 M), review with
+  the five-point `extra` text (22 agents, 4.1 M, 51 corrections) and prose (12 agents, 1.9 M;
+  the second reading found five errors in 42 pages, four in the Appendix's Greek) all back
+  and committed; `merge-drama oedipuscoloneus`: 1,795 verses, 917 apparatus notes, 33 log
+  remarks (covered verses), 2 words without lemma, review list 95; `sophocles-numbering`:
+  9 lemma suspects, 33 numbers in front. (The first merge crashed after the tokens: the
+  entries of the two GLAUx plays lacked `translation="kept"`; added.) An Opus agent does the
+  finishing (log build/logs/oedipuscoloneus-finish-agent.md); then the emulator check, which
+  should also spot-check in the Trachiniae and the Oedipus Tyrannus what was fixed after
+  their checks (section headings, O.T. verse 1 and 683, the commentary's ellipses and
+  spacing, headings without asterisks, the Appendix correction note).
+* **Philoctetes: first pass started** beside the Oedipus at Colonus's finishing (19 batches,
+  nine at once; 13 held partial work from the mass run). Its commentary, introduction and
+  Appendix by the prose route are NOT set up yet: see the entry above on what that needs;
+  test the commentary's layout on several spreads and tell the author how large the job
+  looks before any agent reads it.
+* **Euripides (the author, 2026-11-15/16)**: all nineteen plays from Murray's Oxford text,
+  with an English commentary beside it from the start, to be offered only from 1 January
+  2028; the files stay on this computer and must never be pushed (set up a separate local
+  folder with its own history before the first file is written; nothing of Murray's in a
+  production bundle, no sale mark). Assessment and ranking: pipeline/research/
+  euripides-plays.md. Nothing starts before the Sophocles plays are done. Open: which
+  printing of Murray's vol. II and III to read (the author offered to look on Google Books
+  and HathiTrust: list in the session's messages and in the research file's "Not done or not
+  verified").
+
 ## Decisions
 
 * 2026-11-15: order by least work left (Trachiniae first).
