@@ -123,7 +123,7 @@
 281	μήπω γενέσθαι φωτὸς ἀνοσίου βροτῶν.
 --- apparatus
 266	τά γʼ] τάδʼ A, R.
-268	χρεῖʼ ἠῖ L (ει is in an erasure; perh. it was ἠ). So the other MSS., but with ἦ, not ἠῖ. χρείη Heath.
+268	χρεῖʼ ἠῖ L (ει is in an erasure; perh. it was ὴ). So the other MSS., but with ἦ, not ἠῖ. χρείη Heath.
 269	οὕνεκʼ] εἵνεκʼ B, Vat., Blaydes.
 278	μοίραις L, A, with most MSS.: μοίρας F, R²: μοῖραν T, B, Vat., Farn. The first corrector of L has placed in the margin a sign meaning ζήτει, or ζήτημα,—showing that he felt the difficulty, but knew no remedy. ποιεῖσθε (L), ποεῖσθε, or ποιεῖσθαι, is in all MSS.: so, too, is μηδαμῶς.
 279	βροτῶν] βροτόν Triclinius.
@@ -132,7 +132,8 @@
 266	numbering checked on the whole page (the draft read no margin number): the margin prints 270, 275 and 280 beside verses 270, 275 and 280; nothing to renumber.
 278	flag: the print has †μοίραις† ποεῖσθε (daggers round μοίραις; ποεῖσθε without ι, clear), where the draft had Perseus's Μοίρας ποιεῖσθε; Jebb's cr. n. 278 "μοίραις L, A, with most MSS. … ποεῖσθε"; corrected.
 280	flag: φυγὴν stands on this verse and the print has του (not τον); confirmed.
-268	cr. n.: ἠῖ (L's letters: smooth breathing on η, circumflex on ι) and "perh. it was ἠ" (a breathing alone over η) copied as printed.
+268	cr. n.: ἠῖ (L's letters: smooth breathing on η, circumflex on ι) and "perh. it was ἠ" (a breathing alone over η) copied as printed (the second corrected by the review: see the rev line).
+268	rev: cr. n. "perh. it was ὴ": the mark over η slants down to the right like a grave accent (straight, thick at the top), not a smooth breathing (compare the smooth breathing on ἠῖ in the same note, whose tail turns down to the left); i.e. L first had χρὴ. Changed ἠ to ὴ.
 281	cr. n. 281 runs on to the top of leaf 152's apparatus ("writes θεῶν."): written here whole, left out on p-0152.
 
 === p-0152

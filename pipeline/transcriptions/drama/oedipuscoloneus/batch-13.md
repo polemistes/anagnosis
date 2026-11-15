@@ -62,6 +62,7 @@
 --- notes
 971	The apparatus begins with the end of the 970 note ("ἱκνεῖτʼ the rest."), written with that note on p-0252.
 975	The margin prints 975 beside ἐς χεῖρας ἦλθον (the draft's 974a), 980 beside οἵους ἐρῶ, 985 beside ἀλλʼ ἓν γὰρ: Jebb numbers ἐς χεῖρας as 975 (his notes 977, 978, 979, 982, 984, 986 agree), so the draft's 974a-985 are renumbered 975-986.
+973	rev: checked at 12x: the first ἦ (ἦ L) and ἦν are smooth; the ἦ after ἔα (written in marg. by S) is not clearly rough or smooth in the scan: kept ἦ.
 976	μηδὲν: printed as in Perseus (the OCR split the word).
 979	The page prints no comma after λέγειν at the verse end: removed (unflagged; seen on the whole page, as the OCR also read it).
 982	ὤμοι: the page prints ὤμοι (smooth breathing and acute), as Perseus.
@@ -122,7 +123,7 @@
 1016	ἅλις λόγων· ὡς οἱ μὲν ἐξειργασμένοι
 --- apparatus
 1003	καί σοι made from καὶ σοὶ in L.—ὄνομα] ὄμμα L².—καλόν] φίλον Tournier.
-1007	τιμὰσ made from τιμᾶσ in L: τιμὰς the other MSS.: τιμαῖς Turnebus. In v. 1006 F has ὧν written above θεοὺς, and this conjecture (θεῶν) was evidently meant to justify the common reading τιμὰς.—ἥδε] ἦδε L (the η in an erasure), L²: ἡ δὲ A, R: ἥδε the rest.—τῷδʼ] τοῦδε L and most MSS.: τοῦθʼ A (with δʼ written above), L², Brunck, Elms., and most edd.: τῷδʼ Kuhnhardt, Dindorf, Wecklein.
+1007	τιμὰσ made from τιμᾶσ in L: τιμὰς the other MSS.: τιμαῖς Turnebus. In v. 1006 F has ῶν written above θεοὺς, and this conjecture (θεῶν) was evidently meant to justify the common reading τιμὰς.—ἥδε] ἧδε L (the η in an erasure), L²: ἡ δὲ A, R: ἥδε the rest.—τῷδʼ] τοῦδε L and most MSS.: τοῦθʼ A (with δʼ written above), L², Brunck, Elms., and most edd.: τῷδʼ Kuhnhardt, Dindorf, Wecklein.
 1009	αὐτόντεχειροῦ (sic) L, with no smooth breathing on ε, as though αὐτόν τε χειροῦ were meant; and so most MSS.: αὐτόν τʼ ἐχειροῦ F.
 1010	τᾶσδε θεᾶσ L first hand (the corrector has changed τᾶσδε to τάσδε, but left θεᾶσ): τάσδε θεὰς Vat.: τάσδε νῦν θεὰς L²: τάσδε τὰς θεὰς the rest.
 1011	Nauck would delete this v. (holding κατασκήπτω to be a mark of spuriousness), and in v. 1012 would read, ἐλθεῖν ἀρῶμαι ξυμμάχους, ἵνʼ ἐκμάθῃς. After ξυμμάχους (Vat. συμμάχους), θʼ is wanting in L and the other MSS. (except that in F it is written above the line): Reisig restored it.
@@ -134,6 +135,8 @@
 1007	τοῦθʼ (Perseus): the page prints τῷδʼ (Jebb's note: "τῷδʼ] τοῦδε L … τοῦθʼ A …, Brunck, Elms., and most edd.: τῷδʼ Kuhnhardt, Dindorf, Wecklein"): changed.
 1010	The margin's 1010 stands beside this verse (the OCR's "ΙΟΙΟ"): numbering confirmed.
 1011	Printed "1011 f.": number written as 1011.
+1007	rev: apparatus: "F has ῶν written above θεοὺς" (the ending only, no breathing, as printed), not ὧν.
+1007	rev: apparatus: L's reading is ἧδε (rough breathing, compared at 12x with ἡ δὲ and ἥδε on the same line and the smooth ὄνομα, ὄμμα above), not ἦδε.
 1016	The page prints a raised stop after λόγων (ἅλις λόγων· ὡς), not a comma: changed (unflagged; seen on the whole page). Jebb's asterisk before ἐξειργασμένοι (his conjecture-mark; see his note, F. W. Schmidt) left out. The seven lines the draft took for verses after this one are the apparatus, not verses: nothing added. The 1016 note runs on to the top of the next text page (leaf 260): its end "ἐξειργασμένοι F. W. Schmidt." is written here, not on p-0260.
 
 === p-0260

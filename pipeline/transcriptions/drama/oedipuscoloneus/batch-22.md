@@ -53,7 +53,7 @@
 @ Ἀντιγόνη
 1724	πάλιν, φίλα, συθῶμεν.
 @ Ἰσμήνη
-1725	ὡς τί ῥέξομεν;
+1724a	ὡς τί ῥέξομεν;
 @ Ἀντιγόνη
 1726	ἵμερος ἔχει με.
 @ Ἰσμήνη
@@ -92,7 +92,7 @@
 1731	τόδε] L has δε in an erasure.
 1733	ἄγε με καὶ τό τʼ ἐνάριξον L. The other MSS. also have ἐνάριξον, except L², which has ἐξενάριξον. Elmsley ἐπενάριξον.
 1734	The MSS. have only a single αἰαῖ: Gleditsch repeats it, giving the second to Antigone.—ποῦ] πῆ L²: ποῖ the other MSS.: πῇ Halm, Wecklein. See comment.
-1736	τλάμονʼ] τλάμων MSS. The corrector of L has not altered ω to ο (as has been supposed): but the first hand wrote the second loop of ω a little less clearly than usual; a similar ω is that of L's κακῶσ in v. 1740. If the corrector had meant to make τλάμονʼ, he would, as elsewhere, have erased the right-hand part of ω, and then changed ν to νʼ. τλάμονʼ Hermann.—ἄξω L²: ἔξω L and the rest.
+1736	τλάμονʼ] τλάμων MSS. The corrector of L has not altered ω to ο (as has been supposed): but the first hand wrote the second loop of ω a little less clearly than usual; a similar ω is that of L's κακῶσ in v. 1740. If the corrector had meant to make τλάμονʼ, he would, as elsewhere, have erased the right-hand part of ω, and then changed ν to νʼ. τλάμονʼ Hermann.—ἄξω L²: ἕξω L and the rest.
 --- notes
 1716	Perseus marks a lost verse here: the print sets a line of metrical signs, – ⏑ | – ⏑ | – ⏑ | – ⏑ || (strophe numeral 19), with the margin number 1716 beside it; written as verse 1716 (the number of Perseus's empty verse), as at 1715.
 1717	renumbered (was 1719): no margin number stands at this verse; it follows the margin's 1716 and runs on from it (the next margin number, 1720, stands at ἀλλʼ ἐπεὶ). Flag (lost verse before it) answered at 1716.
@@ -106,14 +106,16 @@
 1734	the print has αἰαῖ· (raised stop), not a comma: changed.
 1715	apparatus: the top of this page's apparatus (πότμος, … τὼ πατρὸς ὧδʼ ἐρήμω Dindorf.) is the end of the note 1715 ff. begun on leaf 361, written on p-0360.
 1726	apparatus: Jebb's "1726 ff."; the speakers' abbreviations inside it (ΑΝ., ΙΣ., ΧΟ.) and Gleditsch's supplements in angle brackets (⟨τις⟩, ⟨οὖν⟩, ⟨ΑΝ. τί δή;⟩) copied as printed.
-1736	apparatus: the note runs on beyond the spread; its end (Hermann.—ἄξω L²: ἔξω L and the rest.) is taken from the top of p-0364's apparatus and not written again there.
+1736	apparatus: the note runs on beyond the spread; its end (Hermann.—ἄξω L²: ἕξω L and the rest.) is taken from the top of p-0364's apparatus and not written again there.
+1724	rev: numbering: ΑΝ. πάλιν, φίλα, συθῶμεν. ΙΣ. ὡς τί ῥέξομεν; is ONE printed line shared between speakers (margin 1724): one verse with lettered parts, 1724 and 1724a (was 1724, 1725), although Jebb's apparatus names ῥέξομεν 1725; the line covers his 1724-1725, so ἵμερος stays 1726. Apparatus 1725 (ῥέξομεν) kept with Jebb's printed number; the checker's remark that 1725 names no line on the page is explained by this.
+1736	rev: apparatus: L's reading at the end of the note (top of leaf 364) is printed ἕξω with a rough breathing (enlarged against the smooth breathing of ἄξω beside it, and as the text's ἕξω): ἔξω corrected to ἕξω.
 
 === p-0364
 --- text
 @ Χορός
 1737	φίλαι, τρέσητε μηδέν.
 @ Ἀντιγόνη
-1738	ἀλλὰ ποῖ φύγω;
+1737a	ἀλλὰ ποῖ φύγω;
 @ Χορός
 1739	καὶ πάρος ἀπέφυγε
 @ Ἀντιγόνη
@@ -159,6 +161,7 @@
 1747	the print does not have ναὶ ναί. (ΑΝ.), ξύμφημι καὐτός. (ΧΟ.) or αἰαῖ: its last verse is ΑΝ. φεῦ, φεῦ· ποῖ μόλωμεν, ὦ Ζεῦ; (numeral 10), and Jebb's apparatus 1747 f. says Dindorf rightly deletes ναὶ ναί, ξύμφημι καὐτός and that the MSS. have φεῦ φεῦ. The draft's 1747 ναὶ ναί., @ Χορός 1747a ξύμφημι καὐτός. and @ Ἀντιγόνη 1748 αἰαῖ, ποῖ … removed; written @ Ἀντιγόνη 1747 φεῦ, φεῦ· ποῖ μόλωμεν, ὦ Ζεῦ; (Jebb's 1747, covering 1748: his commentary 1747 φεῦ, φεῦ). The flags "Perseus changes speaker here" and "not found in the OCR" are answered by this.
 1736	apparatus: the top of this page's apparatus (Hermann.—ἄξω L²: ἔξω L and the rest.) is the end of the note 1736, written on p-0362.
 1739	apparatus: Jebb's "1739 f."; L's spellings (πάροσ, σφῶιν, κακῶσ) copied as printed.
+1737	rev: numbering: ΧΟ. φίλαι, τρέσητε μηδέν. ΑΝ. ἀλλὰ ποῖ φύγω; is ONE printed line shared between speakers: one verse with lettered parts, 1737 and 1737a (was 1737, 1738), although Jebb's commentary names φύγω 1738 (and his commentary on 1742 cites ποῖ φύγω; as 1737); the line covers his 1737-1738, so καὶ πάρος stays 1739 (apparatus and commentary 1739 f., margin 1740 at τὰ σφῷν).
 1747	apparatus: Jebb's "1747 f."; the note begins on leaf 365 and ends at the top of p-0366's apparatus (B, F, Vat.: Schneidewin conject. μένωμεν.), taken from there and not written again on p-0366.
 
 === p-0366

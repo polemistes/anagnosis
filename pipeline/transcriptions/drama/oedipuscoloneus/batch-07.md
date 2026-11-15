@@ -118,9 +118,9 @@
 509	οὐδʼ εἰ πονεῖ τις, δεῖ πόνου μνήμην ἔχειν.
 @ Χορός
 510	δεινὸν μὲν τὸ πάλαι κείμενον ἤδη κακόν, ὦ ξεῖνʼ, ἐπεγείρειν·
-511	ὅμως δʼ ἔραμαι πυθέσθαι
+512	ὅμως δʼ ἔραμαι πυθέσθαι
 @ Οἰδίπους
-512	τί τοῦτο;
+512a	τί τοῦτο;
 @ Χορός
 513	τᾶς δειλαίας ἀπόρου φανείσας
 514	ἀλγηδόνος, ᾇ ξυνέστας.
@@ -156,7 +156,8 @@
 505	the page's apparatus begins with the end of the note on 505 (τοὐκεῖθεν … κατὰ τό.), written with p-0184; the next note is printed "505 f.": written 505.
 509	πονῆ (no iota subscript) and ἧν (rough breathing) copied as printed.
 506	beyond the flags: the print has a comma after ἔποικος (ἔποικος, ὃς φράσει., seen on the whole page): added.
-511	numbering kept: the margin prints 509, 515, 520 beside the verses so numbered, and 510-514 run on from 509. Jebb's own notes count ἐπεγείρειν (joined to 510 as its turnover) as 511 and ὅμως δʼ ἔραμαι πυθέσθαι as 512 (apparatus 511 ἔπʼ ἐγείρειν, 512 ἔραμαι; cp. 523 "v. 512 (ὅμως …)"): the apparatus numbers are kept as printed and refer to our 510 and 511.
+512	rev: numbering: ὅμως δʼ ἔραμαι πυθέσθαι renumbered 511 → 512 and τί τοῦτο; 512 → 512a. Jebb's verse δεινὸν … ἐπεγείρειν (one printed verse with its turnover, strophe numeral 1) covers 510 and 511 (apparatus 511 ἔπʼ ἐγείρειν has its lemma in the turnover), so the next verse takes 512: apparatus 512 ἔραμαι and the note on 523 ("v. 512 (ὅμως δʼ ἔραμαι πυθέσθαι)") put ὅμως at 512; apparatus 513/514 ("in v. 513 the 1st hand wrote τᾶσ...ἀπόρου", 514 ἀλγηδόνος) and the margin 515 at μὴ πρὸς ξενίας keep τᾶς δειλαίας at 513, so τί τοῦτο; between them is 512a. (The commentary's numbers 513 τί τοῦτο, 514 τᾶς, 515 ᾇ ξυνέστας run one ahead of the apparatus and the margin here; the margin and the apparatus are followed.) (The first check's note that kept 511 is removed.)
+511	rev: apparatus 511 (ἔπʼ ἐγείρειν) keeps Jebb's number: 511 is the number covered by verse 510's turnover ἐπεγείρειν, so no line bears it (the checker's remark "apparatus 511 names a line not on this page" is explained by this).
 
 === p-0188
 --- text

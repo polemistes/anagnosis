@@ -84,7 +84,7 @@
 1573	λόγοσ αἰὲν ἀνέχει the MSS., except those which (as T, Farn.) have the conject. of Triclinius, ὡς λόγος αἰὲν ἔχει. The insertion of ὡς was an error: on the other hand ἔχει for ἀνέχει has rightly been received by most of the recent edd. The last syll. of αἰὲν led to the corruption.
 1574	τόν Hermann: ὅν MSS.: δός Nauck: ἵνʼ Wecklein: τόδʼ Hartung.
 1575	ἐν καθαρῷ MSS.: ἐκ καθαροῦ Madvig: ἐκ καθαρῶν Meineke.—Hermann suspected βῆναι, suggesting μολεῖν or κίειν.
-1578	τὸν] τίνʼ L, F: τὸν the rest.—αἰένυπνον] αἰέν ὕπνον L, made by S from αἰὲν ἄϋπνον: αἰὲν ἀϋπνον most MSS., and Ald.: αἰὲν ἔνυπνον Triclinius (T, Farn.). Schol.: ὑφʼ ἓν ἀναγνωστέον αἰένϋπνον (sic); ἀείϋπνον οὕτως ἀποδιδόασι. This schol. is usually printed with a full stop, which is not in L, after ἀείϋπνον. But the sense is, ‘Thus they (αἰὲν and ὕπνον) make ἀείϋπνον.’
+1578	τὸν] τίνʼ L, F: τὸν the rest.—αἰένυπνον] αἰέν ϋπνον L, made by S from αἰὲν ἄϋπνον: αἰὲν ἀϋπνον most MSS., and Ald.: αἰὲν ἔνυπνον Triclinius (T, Farn.). Schol.: ὑφʼ ἓν ἀναγνωστέον αἰένϋπνον (sic); ἀείϋπνον οὕτως ἀποδιδόασι. This schol. is usually printed with a full stop, which is not in L, after ἀείϋπνον. But the sense is, ‘Thus they (αἰὲν and ὕπνον) make ἀείϋπνον.’
 1579	ξυντομωτάτως MSS.: ξυντομώτατον Elmsley (who had before conjectured -ος or -ην): ξυντομωτάτων Wecklein.
 --- notes
 1569	margin numbers 1570, 1575 read on the whole page: numbering confirmed.
@@ -92,6 +92,7 @@
 1572	the page prints παρʼ Ἅιδᾳ (Elmsley's spelling, see the apparatus), not Perseus's Ἁίδᾳ: written as printed.
 1574	ὦ is printed on this line: confirmed.
 1579	the page prints "ξυντομώτατον μὲν ἂν" (Elmsley's conjecture, no comma): ξυντομωτάτως, changed to ξυντομώτατον; ἂν stands on this line, confirmed. The speaker is printed as the centred heading ΑΓΓΕΛΟΣ.
+1578	rev: apparatus 1578: L's reading is printed αἰέν ϋπνον (diaeresis, no breathing; checked enlarged), not ὕπνον: corrected.
 
 === p-0342
 --- text

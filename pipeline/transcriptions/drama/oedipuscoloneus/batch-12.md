@@ -64,7 +64,7 @@
 881a	τά γʼ οὐ τελεῖ·
 882	⟨Ζεύς μοι ξυνίστω.⟩
 @ Κρέων
-882a	Ζεὺς γʼ ἂν εἰδείη, σὺ δʼ οὔ.
+882a	Ζεύς γʼ ἂν εἰδείη, σὺ δʼ οὔ.
 @ Χορός
 883	ἆρʼ οὐχ ὕβρις τάδʼ;
 @ Κρέων
@@ -85,6 +85,7 @@
 881	the print has a raised stop after τελεῖ (the draft had a full stop): changed.
 882	flags: the print has <Ζεύς μοι ξυνίστω.> in angle brackets (Jebb's own supplement, see his note on 882), not Perseus's [ἴστω μέγας Ζεύς.] (Enger's): written ⟨Ζεύς μοι ξυνίστω.⟩. ΚΡ. Ζεὺς γʼ ἂν εἰδείη, σὺ | δʼ οὔ. is printed with its end δʼ οὔ. as a turnover on the next line: one verse.
 882	the print has Ζεὺς (grave) in Creon's reply, as the OCR read: changed from Ζεύς.
+882	rev: the print's Ζεὺς γʼ (grave before the enclitic γʼ) is an evident misprint: Jebb's own commentary lemma on 882 and his apparatus (Enger, Campbell) print Ζεύς γʼ ἂν with the acute: corrected back to Ζεύς; the print has Ζεὺς.
 885	the print has a raised stop after μόλετʼ (the draft had a comma): changed, though the line was not flagged.
 886	numbering: was 885a: περῶσʼ οἵδε δή. is a printed verse of its own (antistrophe numeral 10); counting from the margin 885 (μόλετε) to 890 (οὗ χάριν) it is Jebb's 886, and his note is on 885 f.: renumbered 886.
 885	The note on 885 f. runs on to the top of the next text page (p-0244: "(omitting πέραν)."): written here whole.
@@ -163,7 +164,7 @@
 911	ἐμοῦ A and most MSS.: μου L, ἐμοὶ Vat.: σοῦ Nauck.—Bothe conject. κατάξιʼ ἂν: Elmsley, κατάξια.
 912	αὐτὸς] ἀστὸς Meineke: υἱὸς Nauck, who for σῆς χθονός...πόλιν would read σῆς πόλεως...χθόνα.
 915	ἐπιπεσὼν L, F: ἐπεισπεσὼν the rest. Cp. v. 924.
-917	δούλην τινὰ] Wecklein conject. βουλῆς δίχα: F. Kern, βουλῆς κενήν.
+917	δούλην τινὰ] Wecklein conject. βουλῆς δίχα: F. Kern, βουλῆς κενὴν.
 918	κἄμʼ] καί μʼ A, R.
 919-923	Badham rejects these five vv.; Nauck, only v. 920.
 --- notes
@@ -175,6 +176,7 @@
 916	the print has a raised stop after βίᾳ (the draft had a comma): changed, though the line was not flagged.
 918	the print has a comma after εἶναι: added, though the line was not flagged.
 919	flag (Θῆβαί not found): Θῆβαί is printed on this line; left.
+917	rev: apparatus 917: the print has κενὴν (grave) in Kern's conjecture: changed from κενήν.
 919	The note on 919—923 runs on to the top of the next text page (p-0248: "only v. 920."): written here whole.
 
 === p-0248
@@ -224,16 +226,21 @@
 949	τοιούσδʼ ἀλήτας τῇδʼ ὁμοῦ ναίειν πόλει·
 950	ᾧ πίστιν ἴσχων τήνδʼ ἐχειρούμην ἄγραν.
 --- apparatus
-938	δρῶν τʼ L, L², F: δρῶν δʼ the rest.—ἐφευρίσκη L, ἐφʼ εὑρίσκει F, εὑρίσκει (sic) L².
+938	δρῶν τʼ L, L², F: δρῶν δʼ the rest.—ἐφευρίσκη L, ἐφʼ εὑρίσκει F, εὐρίσκει (sic) L².
 939	ἐγὼ οὔτʼ L, F: ἔγʼ οὔτʼ T, Farn.: ἐγὼ μὲν οὔτʼ L²: ἐγὼ οὐκ A, B, R, Vat.—νέμων Schneidewin: λέγων A, B, R, Vat.: λέγω L, F, L².
 940	ἄβουλον] ἄνολβον Nauck.
 941	τόδʼ B, T, Vat., Farn.: τότʼ L²: τόγʼ L, R, F, Ald.
 942	αὐτοὺς L, and so the rest, except L², which has αὐτοῖς, a reading conjectured by Scaliger and received by Heath, Brunck, Hartung, Blaydes.
 944	ἤιδη (with ν written above) ὅθʼ οὕνεκʼ L. ἤδη (sic) most MSS., and Ald.: ᾔδειν or ἤδειν T, Farn.—ἄνδρα καὶ] καὶ is wanting in A, R.
+945	κἄναγνον A, R: κἄνανδρον the rest.—δεξοίατʼ is ascribed by Campbell to L, which, however, like the other MSS., has δεξαίατʼ (as Duebner states): δεξοίατʼ was conjectured by Elmsley.
+946	ἀνόσιοι τέκνων MSS., except that L² has ἀνοσιώτατοι (without τέκνων). For τέκνων Benedict and Reiske conject. τέκνῳ (cp. schol. παρʼ ὅσον αὐτός ἐστι τέκνον μητέρα γεγαμηκώς): Musgrave and Hartung, τοκέων, which Blaydes receives. Nauck proposes to delete τέκνων, and to write, κἄναγνον οὐ δεξοίατʼ ⟨οὐδένʼ⟩, οὐδʼ ὅτῳ | ξυνόντες εὑρέθησαν ἀνόσιοι γάμοι.
+948	ξυνηίδειν L, and so (or ξυνήδειν) the rest: ξυνῄδη Brunck.
 --- notes
 936	The apparatus of the page begins with "Schneidewin, and so Wecklein.", the end of the note on 936, written with p-0248.
 938	The apparatus crops (p-0250-app-l/-r.png) cut only the last line; the apparatus was read from the whole page (leaf 250). The breathings of εὑρίσκει (F, L²) in the note on 938 are small in the scan: read as rough.
 939	The asterisk before νέμων (Jebb's mark of a conjecture, Schneidewin's) is left out.
 942	flag (ἐμῶν: the OCR reads ἐμάν): the page prints ἐμᾶν, with an α, clearly; an evident misprint (no Doric form in Creon's trimeters, and the apparatus says nothing of it): ἐμῶν kept.
 944	flag (δʼ not found): δʼ is printed on this line (ᾔδη δʼ ὁθούνεκʼ); left.
+938	rev: apparatus 938: enlarged against certain breathings on the page (ὅθʼ οὕνεκʼ rough, the elision mark and αὐτοὺς smooth), F's εὑρίσκει has the rough breathing but L²'s has the smooth (hence Jebb's "sic"): εὑρίσκει (sic) L² changed to εὐρίσκει (sic) L².
+945	rev: apparatus 945, 946 and 948 added: they stand on the facing page (leaf 251, crops p-0250-app2-l/-r.png) and had been left out. 948 "ξυν- | ηίδειν" divided at the line end, written whole (ξυνηίδειν). Nauck's <οὐδένʼ> in 946 written ⟨οὐδένʼ⟩. Breathings checked enlarged (εὑρέθησαν rough, αὐτός smooth). The note on 948 ends on leaf 251 (p-0252 begins with 954 f.).
 950	flags (printed lines matching no Perseus words after 950): they are the apparatus lines, read as verses by the OCR; nothing added. Margin 940, 945, 950 confirmed.

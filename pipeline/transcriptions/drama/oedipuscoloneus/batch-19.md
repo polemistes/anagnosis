@@ -61,7 +61,7 @@
 1479	(was 1480) renumbered by Jebb's own notes (checked on the whole page): his apparatus "1479 f. ἵλαος, ὦ δαίμων, ἵλαος" begins this verse, which covers 1479-1480 (the margin 1480 stands beside it). The print has a comma after the second ἵλαος: added (unflagged; seen on the whole page). The print's ει before τι shows no breathing or accent (worn or missing type): εἴ kept, as Perseus and the sense have it.
 1484	(was 1483) renumbered: the ἐναισίου verse covers 1482-1483 (Jebb's apparatus "1482 f."), so ἀκερδῆ … πως is 1484. The print ends it with a raised stop (πως·), not a full stop: changed (unflagged; seen on the whole page).
 1485	(was 1483a) The print sets Ζεῦ ἄνα, σοὶ φωνῶ as a verse of its own (strophe numeral 7), with a comma after ἄνα: comma added. Jebb numbers it 1485 (his apparatus on p-0328: "cp. v. 1485, Ζεῦ ἄνα, σοὶ φωνῶ"); the margin 1486 stands at ἆρʼ ἐγγὺς.
-1480	The asterisk before σοῦ in the ἐναισίου verse (Cobet's conjecture, admitted) is left out.
+1482	The asterisk before σοῦ in the ἐναισίου verse (Cobet's conjecture, admitted) is left out.
 1482	syn-|τύχοι, divided at a line end in the apparatus, written whole.
 
 === p-0328
@@ -81,7 +81,7 @@
 1503	χάλαζʼ ἐπιρράξασα; πάντα γὰρ θεοῦ
 1504	τοιαῦτα χειμάζοντος εἰκάσαι πάρα.
 --- apparatus
-1491	ἰὼ only once in MSS.: the second ἰὼ was added by Herm. The passage is very corrupt in L:—ἰὼ παῖ | βᾶθι βᾶθʼ εἴτʼ άκραν | ἐπιγύαλον (here space is left for about eight letters, but nothing is erased) ἐναλίωι | ποσειδαωνίωι θεῶι τυγχάνεισ | βούθυτον ἐστίαν ἁγιάζων· ἵκου· | All MSS. have εἴτʼ ἄκραν, except Vat., which has ἐπʼ ἄκραν: and all have ἐπιγύαλον or else ἐπὶ γύαλον. Most of them agree with L in ποσειδαωνίωι: but R has ποσειδαονίῳ, Vat. ποσειδωνίῳ. In L, S has written ἁγίζων over ἁγιάζων: F has ἁγιάζων: A, R, L² ἁγίζων: B, T, Vat., Farn. αἰγίζων. See comment.
+1491	ἰὼ only once in MSS.: the second ἰὼ was added by Herm. The passage is very corrupt in L:—ἰὼ παῖ | βᾶθι βᾶθʼ εἴτʼ άκραν | ἐπιγύαλον (here space is left for about eight letters, but nothing is erased) ἐναλίωι | ποσειδαωνίωι θεῶι τυγχάνεισ | βούθυτον ἑστίαν ἁγιάζων· ἵκου· | All MSS. have εἴτʼ ἄκραν, except Vat., which has ἐπʼ ἄκραν: and all have ἐπιγύαλον or else ἐπὶ γύαλον. Most of them agree with L in ποσειδαωνίωι: but R has ποσειδαονίῳ, Vat. ποσειδωνίῳ. In L, S has written ἁγίζων over ἁγιάζων: F has ἁγιάζων: A, R, L² ἁγίζων: B, T, Vat., Farn. αἰγίζων. See comment.
 1498	παθών] παθῶν L, with most MSS.
 1499	ἄϊσσʼ ὦ ʼναξ MSS. Before these words there is a defect of – ⏑ (cp. v. 1485, Ζεῦ ἄνα, σοὶ φωνῶ). Hence σπεῦσον was supplied by Triclinius (T, Farn.), ᾆσσον by Engelmann. Gleditsch proposes ᾆσσέ νυν, ᾆσσʼ. For παθών· ἄϊσσʼ Blaydes writes ἀνθʼ ὧν ἔπαθεν· ᾆσσʼ.
 1500	κοινὸς] καινὸς F. W. Schmidt, who would delete v. 1501.—ἡγεῖται B, T, Vat., Farn.: οἰχεῖται R: ἠχεῖται the rest.
@@ -93,7 +93,8 @@
 1499	The print has Jebb's angle brackets with a comma inside: ⟨σπεῦσον,⟩ (Perseus [σπεῦσον]): written as printed.
 1502	The print has κεραυνός, with a comma; ἤ with smooth breathing and acute as in the draft: written so.
 1501	The print has an asterisk before ἀστῶν (Reiske's conjecture admitted): left out.
-1491	L's readings quoted in the apparatus are copied as printed: άκραν without breathing, ἐστίαν with smooth breathing, the iota written on the line (ἐναλίωι, θεῶι).
+1491	L's readings quoted in the apparatus are copied as printed: άκραν without breathing, the iota written on the line (ἐναλίωι, θεῶι).
+1491	rev: L's βούθυτον ἑστίαν in the apparatus has a rough breathing in the print (compared at 8x with ἁγιάζων beside it and with the smooth ἐπιγύαλον below): ἐστίαν corrected to ἑστίαν.
 1499	the metrical signs of the defect ("– ⏑") are written with a dash and the metrical breve; οἰχεῖ-|ται, divided at a line end, written whole.
 
 === p-0330

@@ -83,7 +83,7 @@
 1664	ἀλγεινὸς ἐξεπέμπετʼ, ἀλλʼ εἴ τις βροτῶν
 1665	θαυμαστός. εἰ δὲ μὴ δοκῶ φρονῶν λέγειν,
 --- apparatus
-1649	οὐδαμῇ Vat.
+1649	οὐδαμῆ Vat.
 1651	ἔχοντα χεῖρα κρατός B, T, Vat., Farn.: χεῖρʼ ἀντέχοντα κρατὸς the rest.
 1652	ἀνασχέτου L first hand, ἀνασχετοῦ S.
 1655	τὸν] τῶν R (with ὸν written above), F, Vat. (which has θεὸν).
@@ -101,6 +101,7 @@
 1661	The print has a comma after πομπός (so the accent is acute).
 1662	The print ends the verse with a raised stop (βάθρον·), not a full stop.
 1663	ἁνὴρ (rough breathing) confirmed by the image and by Jebb's apparatus (ἁνὴρ] ἀνὴρ L).
+1649	rev: apparatus οὐδαμῇ corrected to οὐδαμῆ: the print has no iota subscript (checked at 4x).
 
 === p-0354
 --- text
@@ -192,7 +193,7 @@
 --- apparatus
 1691	Nauck brackets μέλλων, and Wecklein γʼ ὁ μέλλων.
 1693	διδύμᾱ...ἀρίστᾱ T, Farn. (with Triclinius): δίδυμα...ἄριστα the other MSS.
-1694	τὸ φέρον ἐκ θεοῦ καλῶς | φέρειν χρὴ MSS. The words φέρειν χρὴ are rejected by Herm., Dind., and others: Wecklein, keeping φέρειν, would omit καλῶς and χρή. Thus τὸ φέρον ἐκ θεοῦ καλῶς (or φέρειν) =1721 τὸ τέλος, ὦ φίλαι, βίου.—τὸ παρὸν for τὸ φέρον Sallier.
+1694	τὸ φέρον ἐκ θεοῦ καλῶς | φέρειν χρὴ MSS. The words φέρειν χρὴ are rejected by Herm., Dind., and others: Wecklein, keeping φέρειν, would omit καλῶς and χρὴ. Thus τὸ φέρον ἐκ θεοῦ καλῶς (or φέρειν) =1721 τὸ τέλος, ὦ φίλαι, βίου.—τὸ παρὸν for τὸ φέρον Sallier.
 1695	μηδʼ ἄγαν οὕτω φλέγεσθον MSS. Keeping this, Hermann proposed λήγετʼ ἤδη (or λήγετον δή) for λήγετε in v. 1722; and Wecklein, λήγετʼ αὐτοῦ. Dindorf, leaving the simple λήγετε in v. 1722, writes μηδὲν ἄγαν here, and omits οὕτω: Bellermann, μηδʼ ἔτʼ ἄγαν. Burton, reading λήγετον in v. 1722, gave μηδʼ ἄγαν here.
 1696	οὔτοι κατάμεμπτʼ ἔβητον MSS. (κατάπεμπτʼ L, with μ written above).—ἔβητον] ἐβήτην Elmsley. M. Schmidt conject. ἀπέσβη, relying on the lemma of the schol., οὔτοι κατάμεμπτος ἔβη.
 1697	τοι after πόθος was added by Hartung.—ἄρʼ ἦν τις] ἄρʼ ἦν τίσ ἦν L.
@@ -206,3 +207,4 @@
 1697	The print has πόθος <τοι> (Hartung's supplement in angle brackets, unaccented): written ⟨τοι⟩; Perseus's τοὶ.
 1698	The print has ⟨ἦν⟩ in angle brackets (Brunck's supplement).
 1699	The note on 1699 runs on to the next text page (leaf 360): its end "ὁπότε γʼ ἔτʼ αὐτὸν: Mekler, ὁπηνίκʼ αὐτὸν." is taken from there and is not to be written again on p-0360.
+1694	rev: apparatus "καλῶς and χρή." corrected to "χρὴ.": the print has a grave accent here (checked at 4x).

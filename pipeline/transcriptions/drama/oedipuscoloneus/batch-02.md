@@ -189,4 +189,5 @@
 132	ἁσυχίᾳ: the breathing is rough in the print (same shape as in ὁρᾶν below); ἆμαρ and ἄματι smooth.
 138	the note runs on to the top of p-0130's apparatus ("passages as Ar. Eq. 1331 ὅδʼ ἐκεῖνος ὁρᾶν."): written whole here; p-0130 must not write it again.
 124	res: renumbered from 123a: the print counts it as a verse of its own (strophe verse 7, after 123 πλανάτας), and the margin 125 on its turnover, counted from 120 at strophe verse 3, makes it 124; Jebb's commentary numbers 123 πλανάτας and 125 f. προσέβα γὰρ οὐκ ἄν.
+137	rev: numbering checked against Jebb's notes (123 πλανάτας, 125 f. προσέβα, 126 ἄλσος ἐς, 127 ἀμαιμακετᾶν, 130 ff. παραμειβόμεσθʼ, 131 ἀφώνως, 132 εὐφάμου, 134 οὐδὲν ἅζονθʼ, 135 ὃν, 138 ὅδʼ ἐκεῖνος) and the margins 125, 132, 135, 140: no change. His commentary note "137 μοι" has μοί in verse 136 (δύναμαι … ποῦ μοί): 136 and 137 kept, since ποτε ναίει must be 137 before ὅδʼ ἐκεῖνος at 138 and the antistrophe's margins (166, 170) agree.
 141	the four printed lines the draft found after this verse that matched no Perseus words are the apparatus lines (OCR of the apparatus block), not verses: nothing added.

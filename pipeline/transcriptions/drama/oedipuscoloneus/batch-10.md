@@ -19,6 +19,7 @@
 692	The apparatus of the page begins with "οὐδʼ οὖν | ἁ (and so Blaydes): Campbell, οὐδʼ ἄρʼ | ἁ.", the end of the note on 692, written whole with p-0214 (batch 9).
 694	renumbered by the print: the margin prints 694 beside ἔστιν and 700 beside ὃ τᾷδε, and Jebb's notes number οὐδʼ ἐν τᾷ μεγάλᾳ…βλαστὸν 696 f. (Πέλοπος "in v. 697"), φύτευμʼ 698, ἐγχέων 699. The draft's 695, 696, 697, 698 are now 694, 696, 698, 699 (ἔστιν … ἐπακούω covers 694-695, οὐδʼ … βλαστὸν 696-697).
 694	The print has a comma after ἐπακούω (the draft had none; the OCR read it): added.
+694	rev: numbering checked, no change: Jebb's commentary heads a note "695 f. Δωρίδι", but his apparatus numbers the verse 696 f. and his commentary on 698 says "βλαστόν (697)"; with the margin 700 and the antistrophe (707, 709, 711) that gives 694 (694-695) and 696 (696-697), as written.
 696	The turnover βλαστὸν, set in on the next line, confirmed as the end of this verse (strophe numeral 2).
 698	The print has αὐτοποιόν (Blaydes's accent, as Jebb's note on 698 says), not αὐτόποιον: changed.
 700	ὃ confirmed (the OCR read the strophe numeral 5 beside it as δ).
@@ -149,10 +150,10 @@
 747	βιοστερῆ] After the ο two or three letters have been erased in L.—τὴν] τήνδʼ B: τὴν δʼ Vat.
 748	αἰκίας] αἰκείας F, Elms.
 749	ἥδε] ἥδʼ ἡ B, T, Vat., Farn.; which is possibly right. Wecklein conject. ὧδε.
-751	πτωχῶι (with ῆ above) L: πτωχῷ R²: πτωχῇ A and most MSS.
+751	πτωχῶι (with ῆ above) L: πτωχῶ R²: πτωχῇ A and most MSS.
 755	οὐ] εὖ Mekler.—νυν] νῦν L, with most MSS., and so Ald., Hartung: νιν Blaydes, Dindorf.—τἀμφανῆ] τἀφανῆ B, T, Farn.
 757	κρύψον] κύψον B, T, Vat., Farn.
-758	φίλως | εἰπών] Herwerden suggests φίλος | λιπών, with a change of τήνδε τὴν to τήνδε μέν. Blaydes had already proposed λιπών.
+758	φίλως | εἰπών] Herwerden suggests φίλος | λιπών, with a change of τήνδε τὴν to τήνδε μὲν. Blaydes had already proposed λιπών.
 --- notes
 742	The apparatus of the page begins with "B, T, Vat., Farn.", the end of the note on 742, written whole with p-0222.
 743	The apparatus continues on the facing page (leaf 225, between the translation and the rule; no -app2 crops were made for this page, so it was read from the whole page): the notes on 748, 749, 751, 755, 757 and 758 stand there.
@@ -160,6 +161,8 @@
 747	The print has a comma after χωροῦντα, not a raised stop: changed.
 754	(flag) The print has ἐς, clearly: changed from εἰς.
 755	(flag) The print has κρύπτειν· σύ νυν (a raised stop, and νυν, as Jebb's note on 755 gives: "νυν] νῦν L … νιν Blaydes, Dindorf"): changed from κρύπτειν, σύ νιν.
+751	rev: apparatus: the print has πτωχῶ R² (no iota subscript, against πτωχῶι L and πτωχῇ A): πτωχῷ changed to πτωχῶ.
+758	rev: apparatus: the print has τήνδε μὲν. (grave): μέν changed to μὲν.
 
 === p-0226
 --- text

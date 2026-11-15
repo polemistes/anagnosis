@@ -1,7 +1,7 @@
 === p-0106
 --- text
 @ Οἰδίπους
-1	Τέκνον τυφλοῦ γέροντος Ἀντιγόνη, τίνας
+1	τέκνον τυφλοῦ γέροντος Ἀντιγόνη, τίνας
 2	χώρους ἀφίγμεθʼ ἢ τίνων ἀνδρῶν πόλιν;
 3	τίς τὸν πλανήτην Οἰδίπουν καθʼ ἡμέραν
 4	τὴν νῦν σπανιστοῖς δέξεται δωρήμασιν;
@@ -14,6 +14,8 @@
 --- notes
 Sigla: L = cod. Laur. 32. 9 (first half of eleventh century). r = one or more of the later MSS. This symbol is used where a more particular statement is unnecessary. ‘MSS.,’ after a reading, means that it is in all the MSS. known to the editor.
 5	the note runs on to the top of leaf 108 (B, and others: μικροῦ L, A, etc.); written whole here.
+1	rev: Τέκνον written τέκνον (the opening word, printed in capitals ΤΕΚΝΟΝ, as the check text spells it)
+1	rev: verses 1-7 read word by word against the page (punctuation, accents, breathings, χὠ with koronis): no other change
 
 === p-0108
 --- text
@@ -36,6 +38,7 @@ Sigla: L = cod. Laur. 32. 9 (first half of eleventh century). r = one or more of
 13	the breathings of ἃν, χἂν, ἃ and ἂν in the note are small in the scan; read as the sense requires (ἃν = ἃ ἄν, koronis on χἂν), consistent with the crops.
 15	the note ends at the top of leaf 110 (Blaydes.); written whole here.
 14	res: μὲν οἳ (grave, no comma after it), as printed
+13	rev: checked χἂν in the note at 6x against ἃ (rough) and ἂν (smooth) in καὶ ἃ ἂν and against χἂν δέῃ (Ar. Th. 90, a sure koronis), which has the same mark: kept χἂν. Verses 8-15 and the apparatus read word by word: no change.
 
 === p-0110
 --- text
@@ -69,6 +72,7 @@ Sigla: L = cod. Laur. 32. 9 (first half of eleventh century). r = one or more of
 15	the apparatus opens with the end of the note on 15 (Blaydes.), written with p-0108.
 16	the page prints ἱρός (Perseus ἱερός) and ὡς σάφʼ εἰκάσαι (Perseus ὡς ἀπεικάσαι), as Jebb's apparatus reports; text changed to the print.
 26	checked: the page prints μολοῦσά ποι as the draft has it; no change.
+16	rev: verses 16-27 read word by word against the page (21 νύν acute as printed; 26 ἦ with smooth breathing, enlarged) and the apparatus item by item (breathings of ἱρὸσ, ἱερὸς, ὅπου, ὅπη, ὅποι enlarged): no change.
 
 === p-0112
 --- text
@@ -106,6 +110,7 @@ Sigla: L = cod. Laur. 32. 9 (first half of eleventh century). r = one or more of
 40	Γῆς checked: the print has Γῆς; no change.
 40	the note on 40 ends at the top of leaf 114 (σκότος (acc.) in H. F. 1159, fr. 538.); written whole here.
 34	res: no comma after ὁρώσης, as printed
+28	rev: verses 28-40 read word by word against the page (31 χὤ with koronis; 32 ἁνὴρ and 34 αὑτῆς rough, enlarged against ὡς and ὁρώσης) and the apparatus item by item (32 ἁνὴρ] rough, ἀνὴρ smooth, enlarged; 35 ὧν rough): no change.
 
 === p-0114
 --- text
@@ -140,6 +145,8 @@ Sigla: L = cod. Laur. 32. 9 (first half of eleventh century). r = one or more of
 46a	checked: one printed verse, ΞΕ. τί δʼ ἐστὶ τοῦτο; ΟΙ. ξυμφορᾶς ξύνθημʼ ἐμῆς.; kept split as 46/46a at the change of speaker.
 48	δίχʼ and γʼ checked: printed on this line; no change.
 50	φράσαι checked; no change.
+41	rev: verses 41-50 read word by word against the page (46 and 48 ἐστὶ with grave as printed; 46/46a one printed line, lettered parts) and the apparatus item by item (breathings of ἵλεῳ, ἑκὼν, ἡ πόλις, ἕδρας, ὡς, ὥστε enlarged): no change.
+44	rev: a small dot stands over the ε of the lemma ἵλεῳ] (not over the ἵλεῳ after the colon); taken as a flaw of the type, not an accent; kept ἵλεῳ.
 
 === p-0116
 --- text
@@ -176,3 +183,4 @@ Sigla: L = cod. Laur. 32. 9 (first half of eleventh century). r = one or more of
 53	res: full stop after κλύων, as printed
 56	res: no comma after τόπον, as printed
 60	res: comma after εἶναι, as printed
+51	rev: verses 51-61 read word by word against the page and the apparatus item by item, with the end of the note on 63 on leaf 118 (breathings of ἠδʼ, ὁδός, ὀδός, οἱ, αἱ, ὠνομασμένον enlarged): no change.

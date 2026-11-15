@@ -30,6 +30,7 @@
 152	The print has θʼ, not γʼ (Bothe's reading, which Jebb adopts; see his apparatus): changed.
 151	The apparatus note "151 f." runs on to the top of p-0132 (μακραίων | τʼ ἔτʼ … Campbell.): written here whole.
 152	res: renumbered to the print: the margin number 152 stands beside μακραίων θʼ, ὅσʼ ἐπεικάσαι (draft 151), so it is 152, and ἀλλʼ οὐ μὰν ἔν γʼ ἐμοὶ (draft 152) is 153; Jebb's numbers on p-0132 (apparatus 153 προσθήσει, commentary 154 περᾷς, apparatus 155 ἵνα) continue it there. Jebb's apparatus note 151 (δυσαίων | μακραίων) now names the end of verse 150 (ἆρα … δυσαίων): number kept as printed.
+150	rev: the print shows a small dot after δυσαίων, smaller than the raised stop of the page (cp. ἐή·) and set lower, at mid-letter height: taken as a speck, not a stop (Jebb's translation runs on: 'Evil have been thy days, and many'); draft left without punctuation.
 
 === p-0132
 --- text
@@ -173,7 +174,7 @@
 @ Οἰδίπους
 207	ὦ ξένοι, ἀπόπτολις· ἀλλὰ μὴ
 @ Χορός
-209	τί τόδʼ ἀπεννέπεις, γέρον;
+207a	τί τόδʼ ἀπεννέπεις, γέρον;
 @ Οἰδίπους
 210	μή, μή μʼ ἀνέρῃ τίς εἰμι, μηδʼ ἐξετάσῃς πέρα ματεύων.
 --- apparatus
@@ -198,6 +199,7 @@
 210	The print sets one verse, ΟΙ. μή, μή μʼ ἀνέρῃ τίς εἰμι, μηδʼ ἐξετάσῃς πέρα ματεύων. (Hartung's and Bergk's μή, μή μʼ: see the apparatus), not Perseus's three μή over two verses: 210 and 210a joined into one verse 210, with one μή fewer; ΟΙ. stands in the margin, the speaker as in the draft.
 210	The OCR lines listed after this verse on the check sheet are the apparatus: not text.
 201	Apparatus: the print has "conjectured προκλινον" without an accent, an evident misprint: written πρόκλινον.
+207a	rev: numbering: the print sets ΟΙ. ὦ ξένοι … ἀλλὰ μὴ and ΧΟ. τί τόδʼ ἀπεννέπεις, (turnover γέρον;) as ONE printed line shared between speakers: one verse with lettered parts, so the Chorus's part is 207a (was 209); the margin 209 stands on the turnover γέρον;, which the verse covers (207-209), and the next verse is 210, as printed.
 
 === p-0140
 --- text
@@ -208,7 +210,7 @@
 @ Χορός
 212b	αὔδα.
 @ Οἰδίπους
-213	τέκνον, ὤμοι, τί γεγώνω;
+212c	τέκνον, ὤμοι, τί γεγώνω;
 @ Χορός
 215	τίνος εἶ σπέρματος, ὦ ξένε, φώνει, πατρόθεν.
 @ Οἰδίπους
@@ -251,9 +253,10 @@
 224	ἰὼ ὣ ὣ ὥ. ΟΙ. δύσμοροσ· ΧΟ. ὣ ὥ. L. (The ΟΙ. and ΧΟ. were added by S, the 1st hand having written merely short lines.) The other MSS. agree with L in giving the word δύσμορος to Oed.: Hermann first restored it to the Chorus. Instead of ἰὼ ὣ ὣ ὥ... ὣ ὥ one must read either ἰώ, ὢ ὤ...ὢ ὤ (with Hermann), or ὠὼ ὠώ...ὠώ (with Dindorf).
 --- notes
 212	The print has ΧΟ. τί τόδʼ; ΟΙ. αἰνὰ φύσις. ΧΟ. αὔδα. ΟΙ. τέκνον, on one line, with ὤμοι, τί γεγώνω; set in under it as the turnover: splits and the join confirmed (213 τέκνον, ὤμοι, τί γεγώνω;). ὤμοι (smooth breathing and acute) confirmed in 213 and 216.
-213	Apparatus: Jebb's note 214 (γεγώνω) refers to the end of our 213; his 215 (ξεῖνε) to our 215: numbers kept as printed.
+213	Apparatus: Jebb's note 214 (γεγώνω) refers to the end of our 212c (was 213); his 215 (ξεῖνε) to our 215: numbers kept as printed.
 220	The print has ΟΙ. Λαΐου ἴστε τινʼ; ὤ. ΧΟ. ἰοὺ ἰού.: Jebb gives ὤ (smooth breathing, acute, full stop) to Oedipus, as Wecklein and Boeckh (see his apparatus). Changed: ὤ. moved to the end of 220, and 220a reads ἰοὺ ἰού.
 221a	The print has both speeches on one line (ΟΙ. … γένος; ΧΟ. ὦ Ζεῦ.); likewise 222/222a (ΟΙ. … Οἰδιπόδαν; ΧΟ. σὺ γὰρ ὅδʼ εἶ;): split as in the draft.
 224	The print has ΧΟ. ἰώ, ὢ ὤ· ΟΙ. δύσμορος. ΧΟ. ὢ ὤ· on one line: split as in the draft; ἰὼ ὢ ὤ. changed to ἰώ, ὢ ὤ· and ὢ ὤ. (224b) to ὢ ὤ· (accent, comma, raised stops as printed; unflagged, seen at high enlargement).
 220	Apparatus: in the readings of L ("ὣ ὣ ἰού", "ἰὼ ὣ ὣ ὥ", "ὣ ὥ") and of Elmsley ("ὣ ὣ ἰού") the print has the rounded rough breathing on ω, against the smooth breathing of the other MSS. (ὢ ὢ), of Postgate (ὢ ἰού) and of Hermann (ἰώ, ὢ ὤ): copied as seen at high enlargement. Dindorf's ὠὼ ὠώ...ὠώ: breathing small, read as smooth.
 224	The note on 224 runs on to the top of p-0142's apparatus ("δύσμορος to Oed.: … (with Dindorf)."): written here whole; the batch with p-0142 should leave it out.
+212c	rev: numbering: τέκνον, ὤμοι, τί γεγώνω; is the last part of the ONE printed line ΧΟ. τί τόδʼ; ΟΙ. αἰνὰ φύσις. ΧΟ. αὔδα. ΟΙ. τέκνον, (turnover ὤμοι, τί γεγώνω;) shared between speakers: one verse with lettered parts, so it is 212c (was 213), whatever number Jebb's note 214 (γεγώνω) gives it; the margin 215 stands on the next verse (τίνος εἶ σπέρματος), as printed. Jebb's apparatus note 214 now names a word in 212c: number kept as printed.

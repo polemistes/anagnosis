@@ -28,6 +28,7 @@
 1211	the printed line ὅστις … παρεὶς is Jebb's 1211-1212 (apparatus 1211 on ὅστις … χρῄζει, 1212 on παρεὶς); kept as one verse numbered 1211, covering 1212. στρ. in the margin left out.
 1209	apparatus: Jebb's note is numbered "1209 f."; in Jebb's "σῶς.." the second dot is a speck, written σῶς.
 1212	apparatus: the 1212 note runs on to the head of the apparatus on p-0290 (πάρος: Schneidewin, … παρὲκ.): written whole here; nothing of it is written again on p-0290.
+1209	rev: ὢν in the verse and in the apparatus (ὢν | σῶς, σῶς | ὢν) checked at 4x: smooth breathing with grave, as written. τίνειν. (1203) ends with a full stop.
 
 === p-0290
 --- text
@@ -37,8 +38,8 @@
 1219	ὅταν τις ἐς πλέον πέσῃ
 1220	τοῦ δέοντος· ὁ δʼ ἐπίκουρος ἰσοτέλεστος,
 1221	Ἄϊδος ὅτε μοῖρʼ ἀνυμέναιος
-1222	ἄλυρος ἄχορος ἀναπέφηνε,
-1223	θάνατος ἐς τελευτάν.
+1223	ἄλυρος ἄχορος ἀναπέφηνε,
+1224	θάνατος ἐς τελευτάν.
 1225	μὴ φῦναι τὸν ἅπαντα νικᾷ λόγον· τὸ δʼ, ἐπεὶ φανῇ,
 --- apparatus
 1213	ζώειν] ζωάν Hartung (reading τὰν μετρίου).—φυλάσσων] ὀφείλων Maehly. The Triclinian text (T, Farn.) has σκαιοσύναν αἰεὶ φυλάσσων, against metre: but Triclinius supposed these vv. to be μονοστροφικά.
@@ -52,6 +53,7 @@
 1212	apparatus: the head of this page's apparatus (πάρος: Schneidewin, … παρὲκ.) is the end of the 1212 note, written with it on p-0288.
 1218	apparatus: Jebb's "1218 f." written 1218; in our numbering ὅπου stands in 1216 (which covers 1218). Every ἄν in this note is printed with an acute, copied so.
 1225	apparatus: the 1225 note runs on to the head of the apparatus on p-0292 (φύῃ Nauck, on Maehly's conject.): written whole here.
+1221	rev: numbering: Ἄϊδος ὅτε μοῖρʼ ἀνυμέναιος is Jebb's 1221-1222 (apparatus "1221 f. Martin conject." on this verse and the next; commentary on p-0291 "1222 f. ἀνυμέναιος", with ἄλυρος ἄχορος in the f.): kept 1221, now covering 1222; ἄλυρος ἄχορος ἀναπέφηνε renumbered 1222 to 1223 and θάνατος ἐς τελευτάν 1223 to 1224. The strophe so runs 1211-1224, the antistrophe 1225-1238 (14 numbers each), and μὴ φῦναι 1225 (margin, apparatus 1225 φῦναι, commentary 1225) follows directly.
 
 === p-0292
 --- text
@@ -118,6 +120,8 @@
 1252	the print gives the verse to two speakers: ΟΙ. τίς οὗτος; ΑΝ. ὅνπερ καὶ πάλαι κατείχομεν: split into 1252 (Oedipus) and 1252a with @ Ἀντιγόνη (the OCR read the ΑΝ.); 1253 is Antigone's too, and ΠΟΛΥΝΕΙΚΗΣ heads the next page. The checker does not see this.
 1250	apparatus: Wecklein's ανδρῶν is printed without a breathing, copied so.
 1248	apparatus: the printed 'Ρίπαια (breathing before the capital) is written Ῥίπαια.
+1242	rev: numbering checked against Jebb's notes: the commentary heads κατʼ ἄκρας (verse 1242) "1241 f.", but the margin 1240 (πάντοθεν) and 1245 (αἱ μὲν) with four single verses between leave no room for a shift, and the apparatus 1244 ἆται and 1248 αἱ δὲ νυχίαν agree with our numbers: Jebb's commentary heading is loose; nothing changed.
+1244	rev: apparatus breathings checked at 4x against ἆται, ἀπὸ (smooth) and αἱ, ὅρη (rough) on this spread: αἵτε rough, αἶτε and αἴτε smooth, as written.
 
 === p-0296
 --- text
@@ -154,6 +158,8 @@
 1257	the print has ἐφεύρηκʼ, not ἐφηύρηκʼ (so too his apparatus): changed.
 1260	the draft had joined two printed verses: κόμη διʼ αὔρας ἀκτένιστος ᾄσσεται· is a printed verse of its own (Jebb's apparatus 1261 ἀΐσσεται): split off as 1261.
 1268	a dot after ἐπʼ in the print (ἐπʼ· ἔργοις) is a speck, not a stop: nothing changed.
+1268	rev: at 4x the dot after ἐπʼ is a small printed dot at mid-height, not at the height of a raised stop; no stop can stand after the elided preposition: a stray mark of the print, left out.
+1261	rev: apparatus breathings checked at 4x against ἐφεύρηκʼ (smooth) and ὃν (rough): ἀΐσσεται smooth, ἁίσσεται rough, as written.
 1269	ἡμαρτημένων: the η's breathing and accent are broken in the print; the word as drafted.
 1270	the print has ἄκη μὲν ἔστι (grave on μὲν, ἔστι accented on the first syllable), not μέν ἐστι: changed.
 1266	apparatus: Wecklein's conjecture is printed ἀκοι´ειν, the υ broken in the type (the accent stands where the υ's right arm should be): an evident misprint, written ἀκούειν.
@@ -196,3 +202,4 @@
 1281	the print has no comma after τι (1281) nor after πως (1282): removed.
 1273	apparatus: L's ἀνταμείβη is printed without iota subscript, copied so.
 1270	apparatus: the head of this page's apparatus (Hartung.) is the end of the 1270 note, written with it on p-0296. The 1284 note ends on this spread (the apparatus of p-0300 begins with 1288).
+1279	rev: apparatus breathings checked at 4x against ἀπότιμον (smooth): ἀφῇ, ἀφῆκε, ἀφιῇ, ἀφῆται all smooth, as written.

@@ -33,7 +33,7 @@
 1055	For Θησέα καὶ Dindorf conject. Αἰγεΐδαν: Halm, ῥυσόμενον. For Θησέα καὶ τὰς Wecklein gives Θησέα παῖδας.—διστόλους L and most MSS.: διαστόλους B, Vat. In L this v. l. is indicated by a superscript α.
 1056	ἀδμῆτας L, F, L²: ἀδμήτας A and most MSS.—ἀδελφεὰς A, R, etc., which Herm. preferred, though supposing it to be pronounced as a trisyllable: ἀδελφὰς first hand in L (where S has inserted ε before ας), T, L², etc.
 1057	αὐτάρκει] ἀνταρκεῖ Meineke, πανταρκεῖ Dindorf.
-1059	ἤ] ἦ L.—ἐφέσπερον L first hand, corrected by S to ἐφʼ ἕσπερον (schol. in marg. ἐπὶ τὸν ἕσπερον).
+1059	ἢ] ἦ L.—ἐφέσπερον L first hand, corrected by S to ἐφʼ ἕσπερον (schol. in marg. ἐπὶ τὸν ἕσπερον).
 1060	νιφάδος] λιχάδος (‘steep’) Meineke.—πελῶσʼ MSS.: γρ. πελάζουσι L marg.: περῶσʼ Hartung, and so Nauck, Wecklein.
 1061	Οἰάτιδος] Nauck formerly conject. Οἰνάτιδος: see comment.—ἐκ νομοῦ MSS.: εἰς νομὸν Hartung, Nauck, Wecklein.
 --- notes
@@ -41,6 +41,7 @@
 1059	the page prints ἤ in lower case and ἐφέσπερον as one word (Perseus Ἤ … ἐφεσπέρου); written as printed (cf. apparatus 1059).
 1061	unflagged, but checked on the whole page: the print has νομόν (oxytone; Perseus νόμον), Jebb's text with an asterisk before εἰς; written as printed (cf. apparatus 1061).
 1061	the apparatus note on 1061 ends at the top of p-0268 (εἰς νομὸν Hartung, Nauck, Wecklein.); written whole here.
+1059	rev: apparatus lemma written ἢ] (smooth breathing and grave, as printed in the note; 8x enlarged), was ἤ]; the text verse has ἤ with the acute.
 
 === p-0268
 --- text
@@ -50,7 +51,7 @@
 1066	δεινὰ δὲ Θησειδᾶν ἀκμά.
 1067	πᾶς γὰρ ἀστράπτει χαλινός,
 1068	πᾶσα δʼ ὁρμᾶται καθεῖσʼ
-1069	ἀμπυκτήρια στομίων
+1069	ἀμπυκτήρια ⟨στομίων⟩
 1070	ἄμβασις, οἳ τὰν ἱππίαν
 1071	τιμῶσιν Ἀθάναν
 1072	καὶ τὸν πόντιον γαιάοχον
@@ -62,6 +63,7 @@
 --- notes
 1062	ἢ checked: printed on this verse.
 1065	Ἄρης, checked: printed at the end of this verse.
+1069	rev: στομίων is printed in Jebb's angle brackets (<στομίων>, his supplement, Wecklein's conjecture in the apparatus on 1068): written ⟨στομίων⟩.
 1061	the first line of this page's apparatus (εἰς νομὸν Hartung, Nauck, Wecklein.) ends the note on 1061 begun on p-0266, and is written there.
 1068	the note "1068 f." ends at the top of p-0270's apparatus (… Dindorf, κατὰ | ἀμπυκ-|τήριʼ –́ ⏑ ⏑ –. … χαλῶσʼ.); written whole here. The metrical signs: –́ a long syllable with ictus, ⏑ short, – long.
 
@@ -77,7 +79,7 @@
 1082	αἰθερίας νεφέλας κύρσαιμʼ ἄνωθʼ ἀγώνων
 1084	αἰωρήσασα τοὐμὸν ὄμμα.
 --- apparatus
-1074	ἔρδουσιν ἢ μέλλουσιν; ὡς | L. So the other MSS., except that some have ἕρδουσιν. Elmsley gives ἔρδουσʼ (sic) ἢ μέλλουσιν; ὡς =1085 ἰὼ Ζεῦ πάνταρχε θεῶν. Hermann, ἔρδουσιν ἢ μέλλουσʼ; ὡς | (and so Dindorf, Blaydes); but in his ed. of 1841 ἔρδουσιν ἢ μέλλουσιν; ὡς |: cp. on vv. 1085 f.—Wecklein writes ἔρδουσʼ, οὐ (for ἢ) μέλλουσιν, with K. Walter.
+1074	ἔρδουσιν ἢ μέλλουσιν; ὡς | L. So the other MSS., except that some have ἕρδουσιν. Elmsley gives ἕρδουσʼ (sic) ἢ μέλλουσιν; ὡς =1085 ἰὼ Ζεῦ πάνταρχε θεῶν. Hermann, ἔρδουσιν ἢ μέλλουσʼ; ὡς | (and so Dindorf, Blaydes); but in his ed. of 1841 ἔρδουσιν ἢ μέλλουσιν; ὡς |: cp. on vv. 1085 f.—Wecklein writes ἔρδουσʼ, οὐ (for ἢ) μέλλουσιν, with K. Walter.
 1076	τάχʼ ἂν δώσειν | τὰν δεινὰ τλᾶσαν δεινὰ δʼ εὑρ|οῦσαν πρὸς αὐθομαίμων πάθη MSS.—ἀντάσειν] Buecheler's correction of ἂν δώσειν. Musgrave conject. ἀνδώσειν (the lemma of the schol. in L has ἀνδωσειν, sic), which Campb., Paley and others receive: Turnebus, ἐνδώσειν, approved by Elms. and most of the recent edd.: Blaydes, ἀνσώσειν: Halm, εὔσοιαν. For τάχʼ ἂν δώσειν Nauck proposes τύχαν λῴω.—τᾶν...τλασᾶν...εὑρουσᾶν] Reisig made this correction (suggested as possible by the scholiast in L) of τὰν...τλᾶσαν...εὑροῦσαν. He is followed by Elms., and by the others who read ἐνδώσειν.—αὐθαίμων] Bothe's correction of αὐθομαίμων.
 1083	αἰθερία ʼκ νεφέλας Meineke.—κύρσαιμʼ ἄνωθʼ ἀγώνων Hermann: κύρσαιμʼ αὐτῶν δʼ ἀγώνων MSS. (αὐ made from αὖ in L): κύρσαιμι τῶνδʼ ἀγώνων Wunder.
 1084	αἰωρήσασα] θεωρήσασα MSS. (in L a mark × is set against it): θεωρήσουσα Blaydes: ἐωρήσασα Wunder; which Dindorf receives, adding, however, ‘Praestat fortasse αἰωρήσασα, non obstante syllaba brevi versus antistrophici 1095’ (μολεῖν); and so Wecklein writes, who had himself suggested αἰωρούμενʼ ὄμματʼ ἴσχων. Nauck proposes θέᾳ τέρψασα: Hartung, θέᾳ πλήσασα: Tournier, θεωρὸν θεῖσα.—ὄμμα] αἷμα Vat.: Meineke conject. ἐρωήσασα τοὐμὸν οἷμα.
@@ -89,7 +91,9 @@
 1084	αἰωρήσασα written in lower case as printed (the draft had a capital from the OCR), Jebb's asterisk left out.
 1083	apparatus number as printed: Jebb's note "1083" is on the verse numbered 1082 here (αἰθερίας νεφέλας κύρσαιμʼ ἄνωθʼ ἀγώνων, which covers 1082-1083).
 1074	apparatus: the first ἔρδουσιν (L's reading) has the smooth breathing, the second (“some have”) the rough one, as printed.
+1074	rev: apparatus: Elmsley's form is printed with the rough breathing, ἕρδουσʼ (sic) (10x enlarged beside the smooth ἔρδουσιν of Hermann and the rough ἕρδουσιν of "some have"), was ἔρδουσʼ; Wecklein's ἔρδουσʼ is smooth.
 1081	the five printed lines the check sheet lists after this verse as matching no Perseus words are apparatus lines, not verses: nothing added.
+1082	rev: numbering checked, kept: the verse αἰθερίας … ἀγώνων covers 1082-1083 and εἴθʼ ἀελλαία is 1081 alone, by responsion with the antistrophe (καὶ κασιγνήταν 1092, ὠκυπόδων … ἀρωγὰς 1093-1094: Jebb's commentary "1092 f. ὀπαδὸν…ἐλάφων", apparatus 1093 ὠκυπόδων and 1094 ἀρωγὰς); Jebb numbers his note "1083" (and commentary "1083 ff." ἄνωθʼ) by the second number the verse covers, as he does "1094" on the antistrophic verse; αἰωρήσασα 1084 answers μολεῖν 1095 (Dindorf in the apparatus on 1084).
 
 === p-0272
 --- text

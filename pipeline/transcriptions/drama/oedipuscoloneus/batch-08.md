@@ -61,7 +61,7 @@
 557	ʼπερέσθαι Reisig, Elms., and most edd.: τι ἔρεσθαι L (τι ἐρέσθαι 1st hand), τί (τὶ A) ἔρεσθαι most MSS., and Ald.: σʼ ἔρεσθαι T, B, etc., Turnebus, Brunck.—Οἰδίπου MSS.: Οἰδίπους Elmsley. Cp. n. on 461.
 561	ὁποίασʼ σʼ L, the second σʼ from a later hand (as it seems). In ἀφισταίμην the letters μ and η have been retouched by the corrector (S).
 562	ὡσ οἶδά γʼ αὐτὸσ L (with a mark χ in the left marg.), and so the other MSS. The change (Dindorf’s) of ὡς to ὃς avoids the extreme awkwardness of ὡς, as ‘since’, followed by ὡς, ‘that’. For γʼ αὐτὸς Doederlein and Dindorf read καὐτὸς.
-563	χὡς εἷς Dobree: χὤστις MSS. The corruption may have arisen from the fact that the contraction for ει has some general likeness to that for στ. χὤτι Vauvilliers, Elmsley.
+563	χὠς εἷς Dobree: χὤστις MSS. The corruption may have arisen from the fact that the contraction for ει has some general likeness to that for στ. χὤτι Vauvilliers, Elmsley.
 565	ξένον γʼ ἂν Vauvilliers: ξένον γὰρ MSS.—οὐδένʼ A, R, V³, Ald.: οὐδὲν L, with most MSS.
 --- notes
 555	the whole page renumbered by the margin (555 at σκευή, 560 at δίδασκε, 565 at ὥστε ξένον): the draft's 556-566 (with 559 skipped and a 564a) are 555-565; Jebb's apparatus numbers (557, 561, 562, 563, 565) agree.
@@ -69,7 +69,8 @@
 557	the print has Οἰδίπου (vocative as in the MSS.; Jebb's note 557 says so), not Perseus's Οἰδίπους: written Οἰδίπου.
 561	ἐγώ· with the raised stop as printed (draft had a comma).
 562	the print has ὃς οἶδά γʼ αὐτὸς, not Perseus's ὃς οἶδα καὐτὸς (Jebb's note 562 discusses καὐτὸς as Doederlein's and Dindorf's): written as printed.
-563	the print has χὡς (rough breathing, no accent; so also the lemma of Jebb's note 563), not Perseus's χὢς: written χὡς.
+563	the print has χὡς (rough breathing, no accent), not Perseus's χὢς: written χὡς.
+563	rev: apparatus 563 lemma χὡς changed to χὠς: in the small type of the note the mark is the smooth breathing (coronis), compared at 8x with the rough ὡς and the smooth αὐτὸς of the same note; the verse itself has the rough breathing (χὡς), kept.
 562	the 562 note runs on to the facing page ("of ὡς, as ‘since’ … read καὐτὸς."): written whole.
 565	the page's last verse ends with a comma; the sentence goes on overleaf.
 
@@ -149,6 +150,7 @@
 583	αἰτῆι, αἰτῇ, λοῖσθʼ etc. in the 583 note copied as printed.
 588	the 588 note runs on to the facing page ("in L².—ἐκγόνων … C. G. Eggert."): written whole.
 589	ἀν-|αρπάσουσι, divided at the line end in the 589 note, written whole.
+587	rev: breathings of the 587 note checked at 7-10x against the certain rough ὡς and ἁγὼν (which Elms. restored) and the certain smooth ἀγὼν of the same note: οὐχ ἁγὼν rough; οὐκ ἀγὼν, γὰρ ἀγὼν, now have ἀγὼν smooth, as written. In ἔστʼ ἀγὼν Vat. the mark (at the faded page edge) is not clearly either; kept smooth, as Jebb's 'the MSS. now have ἀγὼν' implies.
 
 === p-0200
 --- text

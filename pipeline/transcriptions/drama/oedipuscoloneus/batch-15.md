@@ -17,7 +17,7 @@
 1127	καὶ τοὐπιεικὲς καὶ τὸ μὴ ψευδοστομεῖν.
 --- apparatus
 1116	ταῖς τηλικαῖσδε] τοῖς τηλικοῖσδε Nauck.
-1118	καὶ σοί τε τοὖργον τοὐμὸν ἔσται βραχύ L. So the other MSS., except that L² has καὶ σοί γε: T and Farn. ἔσται δὴ βραχύ, prob. a conject. of Triclinius. Hermann: καὶ σοί τε τοὔργον τοῦτʼ ἐμοί τʼ ἔσται βραχύ. Wex: οὗ κἄστι τοὔργον· τοὐμὸν ὧδʼ ἔσται βραχύ. Spengel: καὶ σοί γε τοὔργον τοὐμὸν εἴρηται βραχύ. Wecklein: καὶ σοί τε κἀμοὶ τοὐμὸν ἵσταται βραχύ. Enger: κεἴσει σὺ τοὔργον, τοῦτʼ ἐμὸν δʼ ἔσται βραχύ. Mekler: εἴσει τε τοὔργον· τοὐμὸν ἑστάτω βραχύ. Arndt: καὶ σοὶ τόδʼ ἔργον τοὐμὸν ἤνυσται βραχύ. Blaydes: καὶ σοί τε χἠμὶν τοὔργον ὧδʼ ἔσται βραχύ.
+1118	καὶ σοί τε τοὖργον τοὐμὸν ἔσται βραχύ L. So the other MSS., except that L² has καὶ σοί γε: T and Farn. ἔσται δὴ βραχύ, prob. a conject. of Triclinius. Hermann: καὶ σοί τε τοὔργον τοῦτʼ ἐμοί τʼ ἔσται βραχύ. Wex: οὗ κἄστι τοὔργον· τοὐμὸν ὧδʼ ἔσται βραχύ. Spengel: καὶ σοί γε τοὔργον τοὐμὸν εἴρηται βραχύ. Wecklein: καὶ σοί τε κἀμοὶ τοὐμὸν ἵσταται βραχύ. Enger: κεἴσει σὺ τοὔργον, τοῦτʼ ἐμὸν δʼ ἔσται βραχύ. Mekler: εἴσει τε τοὔργον· τοὐμὸν ἑστάτω βραχύ. Arndt: καὶ σοὶ τόδʼ ἔργον τοὐμὸν ἤνυσται βραχύ. Blaydes: καὶ σοί τε χἡμὶν τοὔργον ὧδʼ ἔσται βραχύ.
 1119	This v. is written between v. 1120 and v. 1121 in L, but the first hand has pointed out the right order by placing βʹ, αʹ, γʹ in the margin.
 1120	εἰ φανέντʼ] ἐμφανέντʼ A.—μηκυνῶ Elms.
 1121	τὴν ἐς τάσδε μοι] σὴν (from σῆν) ἐς τᾶσ δέ μοι L. σὴν is in all MSS.: τὴν Musgrave.
@@ -27,6 +27,7 @@
 1118	The print has *κἄστι (Jebb's asterisk, left out); the draft had a capital Κ from the OCR's reading of the asterisk: changed to κἄστι.
 1125	The print has a raised stop after τῇδʼ (the draft had a comma); changed.
 1118	apparatus: in the note on 1118 the first lemma prints τοὖργον (smooth breathing and circumflex), the conjectures τοὔργον; copied as printed. Wecklein's κἀμοὶ: the coronis is faint and looks like an acute; written κἀμοὶ.
+1118	rev: apparatus: Blaydes's χἠμὶν changed to χἡμὶν: the print has a rough breathing on η (compared at 10x with the smooth breathing of τοὐμὸν and the rough of ἑστάτω in the same note; the edition keeps the rough breathing in crasis, cp. χὥπως 1148).
 1124	apparatus: after "the εῖ (written" Jebb prints the minuscule ligature for ει with a circumflex; it has no Unicode character, so it is written [ligature with circumflex], as [ligature] in earlier batches.
 
 === p-0278
@@ -45,7 +46,7 @@
 @ Θησεύς
 1139	οὔτʼ εἴ τι μῆκος τῶν λόγων ἔθου πλέον,
 1140	τέκνοισι τερφθεὶς τοῖσδε, θαυμάσας ἔχω,
-1141	οὔτʼ εἰ πρὸ τοὐμοῦ προύλαβες τὰ τῶνδʼ ἔπη·
+1141	οὔτʼ εἰ πρὸ τοὐμοῦ προὔλαβες τὰ τῶνδʼ ἔπη·
 1142	βάρος γὰρ ἡμᾶς οὐδὲν ἐκ τούτων ἔχει.
 --- apparatus
 1129	ἄλλον] ἄλλου L (made from ἄλλον), R, Vat.
@@ -65,6 +66,7 @@
 1129	res: full stop after βροτῶν, as printed (the text had a raised stop; not listed, seen on the crop of 1129)
 1137	res: comma after χαῖρε, as printed
 1141	res: raised stop after ἔπη, as printed (the text had a full stop)
+1141	rev: προύλαβες changed to προὔλαβες: the print has a smooth breathing and an acute on υ (enlarged crop), as in the apparatus lemma προὔλαβες].
 1131	apparatus: L's reading is printed ἣ (rough breathing, grave), the reading of B, T ᾗ; copied as printed.
 
 === p-0280
@@ -89,7 +91,7 @@
 1158	βωμῷ καθῆσθαι τῷ Ποσειδῶνος, παρʼ ᾧ
 1159	θύων ἔκυρον ἡνίχʼ ὡρμώμην ἐγώ.
 --- apparatus
-1148	χὤπως μὲν ἀγὼν οὗτος ᾑρέθη, τί δεῖ μάτην MSS. and Ald.: in F the corrector has deleted μάτην, and so Schaefer. χὤπως μὲν ὅδʼ ἀγὼν Brunck: χὤπως μὲν ἁγὼν Heath. Meineke suggests χὤπως μὲν οὗτος (omitting ἀγὼν).—For ᾑρέθη Naber conject. διεκρίθη.
+1148	χὥπως μὲν ἀγὼν οὗτος ᾑρέθη, τί δεῖ μάτην MSS. and Ald.: in F the corrector has deleted μάτην, and so Schaefer. χὥπως μὲν ὅδʼ ἀγὼν Brunck: χὥπως μὲν ἁγὼν Heath. Meineke suggests χὥπως μὲν οὗτος (omitting ἀγὼν).—For ᾑρέθη Naber conject. διεκρίθη.
 1149	εἴσει] οἴση Vat.—τούτοιν] ταύταιν MSS. See comment. on v. 445.
 1150	λόγος MSS.: λόγον Ald., Brunck: λόγου H. Estienne.—ἐμπέπτωκεν A, B, R: ἐκπέπτωκεν L, F, T, Vat., Farn.
 1151	στίχειν τι L, F: στείχοντι the other MSS.—γνώμην] γνώμῃ Suidas.
@@ -101,7 +103,8 @@
 1149	The print has τούτοιν (the draft had Perseus's ταύταιν); changed. Jebb's apparatus: "τούτοιν] ταύταιν MSS." ξυνών; stands on this line, as printed.
 1154	The print has a comma after με (the draft had none); changed.
 1159	The print has no comma after ἔκυρον (the draft had one); changed.
-1148	res: χὥπως with rough breathing and acute, as printed (the mark is the same as on ἅ in 1149, unlike the smooth breathing and acute of εἴσει; cp. χὡ at 563, 1374); the apparatus's small type does not show the breathing clearly, left as χὤπως
+1148	res: χὥπως with rough breathing and acute, as printed (the mark is the same as on ἅ in 1149, unlike the smooth breathing and acute of εἴσει; cp. χὡ at 563, 1374); in the apparatus now χὥπως too (see the rev note on 1148)
+1148	rev: apparatus: χὤπως changed to χὥπως in all four places of the note: enlarged 10x, each has the rough breathing (blob above, tail to the right, as on ἁγὼν of Heath's reading in the same note) before the acute, unlike the smooth breathing of ἀγὼν; as in the text.
 1150	apparatus: the print has no colon after "A, B, R" before ἐκπέπτωκεν (end of a line on the facing page); an evident misprint, the colon is supplied.
 1153	apparatus: the print has no colon between "Farn." and "οὐδὲν A, F, R, L²" (end of a line, Farn. ends the line); an evident misprint, the colon is supplied.
 
@@ -140,9 +143,9 @@
 @ Θησεύς
 1175	τί δʼ; οὐκ ἀκούειν ἔστι, καὶ μὴ δρᾶν ἃ μὴ
 --- apparatus
-1160	προσχρήζοντι L.
+1160	προσχρῄζοντι L.
 1164	σοὶ φασὶν αὐτὸν ἐς λόγους ἐλθεῖν μολόν|τʼ αἰτεῖν ἀπελθεῖν ἀσφαλῶς τῆς δεῦρʼ ὁδοῦ. I read with Vauvilliers, who corrects μολόντʼ to μόνον, and adds τʼ after ἀπελθεῖν. Other conjectures are: (1) Musgrave, μόνον τʼ for μολόν|τʼ. (2) Heath, μολόντʼ | αἰτεῖν ἀπελθεῖν τʼ. (3) Nauck (formerly) θέλοντʼ | αἰτεῖν ἀπελθεῖν.
-1168	προσχρήζει B, T, R, Vat., Farn.
+1168	προσχρῄζει B, T, R, Vat., Farn.
 1169	ὦ φίλτατʼ ἴσχεσ οἷ (ἱ from ὑ) περ εἶ L.—ἴσχες B, F, Vat.: ἴσχε L²: ἐπίσχες A, R: εἶχες T, Farn.—ὦ φίλτατε, σχὲς Heath: ὦ φίλτατʼ, ἴσχε σʼ Doederlein.—οὗπερ L, with most MSS.: ἧπερ (sic) T, Vat.
 1171	προστάτης] πρόστροπος Hartung.
 1172	ὅν γʼ ἐγὼ] ὃν ἂν ἐγὼ Vauvilliers.
@@ -153,6 +156,8 @@
 1169	The print has ΘΗ. τί δʼ ἔστι σοι; on the same printed line as 1169, and ΘΗ. πράγματος ποίου; λέγε. on the line of 1170: kept as split, 1169a and 1170a, with the speakers as printed.
 1172	The print has ἐστίν, with acute and comma (the draft had ἐστὶν), and ψέξαιμί with a small ψ (the draft had a capital from the OCR); changed.
 1175	The print has a comma after ἔστι (the draft had none); changed.
+1160	rev: apparatus: προσχρήζοντι changed to προσχρῄζοντι: the print has an iota subscript under the η (enlarged crop).
+1168	rev: apparatus: προσχρήζει changed to προσχρῄζει: the print has an iota subscript under the η (enlarged crop).
 1164	apparatus: the note is printed "1164 f.", filed as 1164; the upright strokes inside μολόν|τʼ are Jebb's and kept.
 1169	apparatus: in L's reading οἷ and (ἱ from ὑ) are printed with rough breathings; copied as printed.
 
@@ -189,6 +194,7 @@
 --- notes
 1176	The print has τοῦδʼ (the draft had Perseus's τοῦτʼ); changed. Jebb's apparatus: "τοῦδʼ Elms.: τοῦτʼ MSS."
 1179	The print has a raised stop after σκόπει (the draft had none); changed.
+1182	rev: the print has αὑτοῖ (an ι with the circumflex where υ should stand: a dropped or broken letter); an evident misprint, αὑτοῦ kept.
 1184	Renumbered: the print's margin has 1185 at οὐ γάρ σε and 1190 at τὰ τῶν κακίστων, and Jebb's apparatus numbers καὶ νῷν ὕπεικε 1184; the draft had numbered the verses from καὶ νῷν on one higher (1185-1191, no 1184). They are now 1184-1190, and the next page runs on (1191-1201).
 1187	The asterisk before κακῶς (Jebb's conjecture mark) is left out.
 1187	apparatus: the lemma is printed ἀκοῦ΄σαι, a circumflex on ου and the first hand's acute left standing after it (as the note explains); written with a spacing tonos (΄).
