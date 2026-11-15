@@ -1,7 +1,7 @@
 import unittest
 import unicodedata
 
-from anagnosis_pipeline.greek import betacode_to_unicode
+from anagnosis_pipeline.greek import betacode_to_unicode, length_signs_over
 
 
 def marks(s: str) -> list[str]:
@@ -31,6 +31,20 @@ class VowelLengthTest(unittest.TestCase):
         # metrical schemes in English text, and a dash after a consonant
         self.assertIn("^", betacode_to_unicode("^ ^"))
         self.assertTrue(betacode_to_unicode("q_").endswith("—"))
+
+
+class LengthSignsTest(unittest.TestCase):
+    """˘ and ¯ written beside a vowel (Perseus's &breve; &macr;) go over it; free signs stay."""
+
+    def test_a_sign_after_a_vowel_is_its_length_mark(self):
+        self.assertEqual(marks(length_signs_over("γενύ¯ων")), ["0x304", "0x301"])
+        self.assertEqual(length_signs_over("(α˘)"), "(ᾰ)")
+        self.assertEqual(length_signs_over("Πάνδι¯α"), "Πάνδῑα")
+        self.assertEqual(length_signs_over("aera¯"), "aerā")
+
+    def test_free_signs_and_schemes_are_left(self):
+        for s in ("¯¯ ˘˘", "¯˘˘¯", "only of ˘: see", "ἐστι ¯˘˘¯", "α¯˘˘¯", "ν¯"):
+            self.assertEqual(length_signs_over(s), s)
 
 
 if __name__ == "__main__":

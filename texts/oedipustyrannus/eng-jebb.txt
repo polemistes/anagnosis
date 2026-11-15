@@ -145,8 +145,7 @@
 
 === strophe 2
 @ Chorus
-169	Alas, countless are the sorrows I bear.
-170	A plague is on all our people, and thought can find no weapon for defense. The fruits of the glorious earth do not grow; by no birth of offspring do women surmount the pangs in which they shriek.
+168	Alas, countless are the sorrows I bear. A plague is on all our people, and thought can find no weapon for defense. The fruits of the glorious earth do not grow; by no birth of offspring do women surmount the pangs in which they shriek.
 175	You can see life after life speed away, like a bird on the wing, swifter than irresistible fire, to the shore of the western god.
 
 === antistrophe 2
@@ -430,7 +429,7 @@
 @ Chorus
 483	The wise augur moves me, neither approving nor denying, with dread, with dread indeed.
 485	I am at a loss what to say. I am flustered in my expectations, seeing neither the present nor the future clearly. Never in past days or in these have I heard how the house of Labdacus or the son of Polybus had any quarrel with one another that
-490	I could bring as proof in assailing the public reputation of Oedipus, seeking to avenge the line of Labdacus
+488	I could bring as proof in assailing the public reputation of Oedipus, seeking to avenge the line of Labdacus
 495	for the undiscovered murder.
 
 === antistrophe 2
@@ -649,19 +648,19 @@
 649	Consent, reflect, listen, my king, I beg you.
 
 @ Oedipus
-650	What would you have me grant you?
+651	What would you have me grant you?
 
 @ Chorus
-651	Respect him who was in the past not foolish, and who now is strong in his oath.
+652	Respect him who was in the past not foolish, and who now is strong in his oath.
 
 @ Oedipus
-653	Do you understand what you crave?
+655	Do you understand what you crave?
 
 @ Chorus
-654	I do.
+655a	I do.
 
 @ Oedipus
-655	Tell me, then, what you mean.
+655b	Tell me, then, what you mean.
 
 @ Chorus
 656	That you should never use an unproved rumor to cast a dishonoring charge on the friend who has bound himself with a curse.
@@ -699,10 +698,10 @@
 681	Blind suspicion, bred of talk, arose, and injustice inflicts wounds.
 
 @ Iocasta
-682	On both sides?
+683	On both sides?
 
 @ Chorus
-683	Yes.
+683a	Yes.
 
 @ Iocasta
 684	And what was the story?
@@ -893,7 +892,7 @@
 
 === strophe 2
 @ Chorus
-884	But if any man walks haughtily in deed or word,
+883	But if any man walks haughtily in deed or word,
 885	with no fear of Justice, no reverence for the images of gods, may an evil doom seize him for his ill-starred pride, if he does not gain his advantage fairly,
 890	or avoid unholy deeds, but seeks to lay profaning hands on sanctities. Where such things occur, what mortal shall boast any more that he can ward off the arrow of the gods from his life?
 895	No. For if such deeds are held in honor, why should we join in the sacred dance?
@@ -1234,7 +1233,7 @@
 @ Chorus
 1086	If I am a seer or wise of heart,
 1090	Cithaeron, you will not fail—by heaven, you will not—to know at tomorrow’s full moon that Oedipus honors you as native to him, as his nurse, and his mother, and that you are celebrated in our dance and song,
-1095	because you are well-pleasing to our prince. O Phoebus to whom we cry, may these things find favor in your sight!
+1094	because you are well-pleasing to our prince. O Phoebus to whom we cry, may these things find favor in your sight!
 
 === antistrophe 1
 @ Chorus

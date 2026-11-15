@@ -56,7 +56,7 @@
 
 === p-0256
 --- text
-1188	τίς γάρ, τίς ἀνὴρ πλέον
+1189	τίς γάρ, τίς ἀνὴρ πλέον
 1190	τᾶς εὐδαιμονίας φέρει
 1191	ἢ τοσοῦτον ὅσον δοκεῖν
 1192	καὶ δόξαντʼ ἀποκλῖναι;
@@ -68,8 +68,8 @@
 1198	ὦ Ζεῦ, κατὰ μὲν φθίσας
 1199	τὰν γαμψώνυχα παρθένον
 1200	χρησμῳδόν, θανάτων δʼ ἐμᾷ
-1201	χώρᾳ πύργος ἀνέστα·
-1201a	ἐξ οὗ καὶ βασιλεὺς καλεῖ
+1200a	χώρᾳ πύργος ἀνέστα·
+1201	ἐξ οὗ καὶ βασιλεὺς καλεῖ
 1202	ἐμὸς καὶ τὰ μέγιστʼ ἐτιμάθης, ταῖς μεγάλαισιν ἐν
 1203	Θήβαισιν ἀνάσσων.
 1204	τανῦν δʼ ἀκούειν τίς ἀθλιώτερος;
@@ -85,6 +85,9 @@
 1201	ἐξ οὗ καὶ βασιλεὺς καλεῖ checked: a printed verse of its own (antistrophe line 7); 1201a kept. Margins 1190, 1195, 1200, 1204 agree with the draft; ἀντ. α΄., στρ. β. and the strophe numerals left out.
 1196	apparatus: Jebb's apparatus numbers follow the traditional numbering here and do not all fit his printed lines: "1196 οὐδένα" is on our 1195 (οὐδὲν μακαρίζω), "1197 ἐκράτησε" on 1197, "1200 ἀνέστα" on our 1201 (χώρᾳ πύργος ἀνέστα), "1202 f. καλεῖ | ἐμὸς" on our 1201a-1202. Numbers written as printed; "1202 f." written 1202.
 1193	apparatus: the page's apparatus begins with the end of the 1188 note (erased. A gloss … above.), written on p-0254. The 1202 note runs on to the top of leaf 258 (com-|mon. Cp. Metrical Analysis, p. lxxxviii.): written here, with the divided word joined.
+1189	rev: numbering: was 1188: τίς γάρ, τίς ἀνὴρ πλέον is Jebb's 1189: ὡς ὑμᾶς … ἐναριθμῶ covers 1187-1188 (apparatus 1188 ἐναριθμῶ; commentary 1187 ὡς with ἐναριθμῶ); margin 1190 at τᾶς
+1200a	rev: numbering: was 1201: χώρᾳ πύργος ἀνέστα· is the second printed line of Jebb's 1200 (margin 1200 at χρησμῳδόν; apparatus 1200 ἀνέστα; commentary 1200 θανάτων πύργος and "in 1200 L … gives ἀνέστα")
+1201	rev: numbering: was 1201a: ἐξ οὗ καὶ βασιλεὺς καλεῖ is Jebb's 1201 (commentary on 1197: "Then at 1201 (ἐξ οὗ κ.τ.λ.)"; it covers 1202, apparatus 1202 f. καλεῖ | ἐμὸς)
 
 === p-0258
 --- text

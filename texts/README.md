@@ -187,8 +187,12 @@ files here.
 * Translation (`eng-jebb.txt`): Jebb's, Perseus `perseus-eng2` (Trachiniae `perseus-eng3`),
   modernized by Perseus. CC BY-SA 4.0.
 * Commentary and introduction: Jebb's, from Perseus, CC BY-SA 3.0 US. Perseus lacks the
-  commentary on the Philoctetes and the introduction to the Oedipus Tyrannus.
-* Critical notes (`commentary-jebb-apparatus.md`): transcribed from the scans with the text
+  commentary on the Philoctetes and the introduction to the Oedipus Tyrannus; the latter is now
+  transcribed whole from the scan (Jebb's Introduction, "Manuscripts, editions and commentaries",
+  the arguments, persons and structure). Perseus's Oedipus Tyrannus commentary is of the second
+  edition (1887): `sophocles-prose` files a note whose number the third edition's verses lack at
+  the verse that holds its lemma.
+* Critical apparatus (`commentary-jebb-apparatus.md`): transcribed from the scans with the text
   check, brief in `pipeline/transcriptions/sophocles/INSTRUCTIONS.md`, checked with
   `check-sophocles-batch` and merged with `merge-sophocles-apparatus`. The differences are
   keyed to the play's frozen `reference-grc.txt` and placed by the words they quote.
@@ -205,13 +209,15 @@ files here.
   `appendix.md` by `merge-sophocles-appendix`.
 * `glossary.md` (names the dictionaries lack) and `shortdefs.tsv` are written by hand; `sigla.md`
   gives Jebb's note on his symbols.
-* Done so far: Ajax, Electra and the Trachiniae. The Trachiniae was made by the drama pipeline's
-  route (`pipeline/PLAN-sophocles.md`: Tesseract OCR of the scan matched to Jebb's Perseus text,
-  agents deciding the flagged places from the page, a residual pass and a review per batch; text
-  and critical apparatus by `merge-drama trachiniae` from `pipeline/transcriptions/drama/trachiniae/`,
-  the transcribed introduction chapters and the Appendix by `sophocles-prose trachiniae`) rather
-  than by the by-eye batches described above. The Oedipus Tyrannus is checked as far as line 160;
-  the other two plays are imported from Perseus without the check.
+* Done so far: Ajax, Electra, the Trachiniae and the Oedipus Tyrannus. The Trachiniae and the
+  Oedipus Tyrannus were made by the drama pipeline's route (`pipeline/PLAN-sophocles.md`: Tesseract
+  OCR of the scan matched to Jebb's Perseus text, agents deciding the flagged places from the page,
+  a residual pass and a review per batch; text and critical apparatus by `merge-drama <play>` from
+  `pipeline/transcriptions/drama/<play>/`, the transcribed introduction and the Appendix by
+  `sophocles-prose <play>`, which also makes the commentary and the translation again from Perseus
+  and re-files them by the verses) rather than by the by-eye batches described above; the lyric
+  numbering was settled against Jebb's margin and note numbers (`sophocles-numbering <play>` lists
+  the suspects). The other two plays are imported from Perseus without the check.
 
 ## Aeschylus' Oresteia (`texts/agamemnon/`, `choephoroi/`, `eumenides/`)
 

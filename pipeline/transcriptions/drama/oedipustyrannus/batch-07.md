@@ -247,9 +247,9 @@
 @ Χορός
 649	πιθοῦ θελήσας φρονήσας τʼ, ἄναξ, λίσσομαι.
 @ Οἰδίπους
-650	τί σοι θέλεις δῆτʼ εἰκάθω;
+651	τί σοι θέλεις δῆτʼ εἰκάθω;
 @ Χορός
-651	τὸν οὔτε πρὶν νήπιον νῦν τʼ ἐν ὅρκῳ μέγαν καταίδεσαι.
+652	τὸν οὔτε πρὶν νήπιον νῦν τʼ ἐν ὅρκῳ μέγαν καταίδεσαι.
 @ Οἰδίπους
 655	οἶσθʼ οὖν ἃ χρῄζεις;
 @ Χορός
@@ -275,3 +275,5 @@
 658	εὖ is printed (the OCR read Jebb's strophe numeral 7 as τ): kept.
 656	the apparatus note "656 f." numbered 656.
 660	the note runs on to the top of p-0194's apparatus ("θεῶν and πρόμον. A few, however, (as V,) keep θεὸν and omit θεῶν. T keeps both."): written here whole.
+651	rev: numbering: was 650: τί σοι … εἰκάθω; is Jebb's 651: πιθοῦ … λίσσομαι bears the margin 649 and covers 650 (commentary 652 οὔτε πρὶν…νῦν τε on the next verse; Perseus's commentary 651 εἰκάθω)
+652	rev: numbering: was 651: τὸν οὔτε πρὶν … καταίδεσαι is Jebb's 652 (commentary 652 οὔτε πρὶν…νῦν τε), covering 653-654 before οἶσθʼ οὖν (655)

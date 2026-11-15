@@ -12,7 +12,7 @@
 878	ἔνθʼ οὐ ποδὶ χρησίμῳ
 879	χρῆται. τὸ καλῶς δʼ ἔχον
 880	πόλει πάλαισμα μήποτε λῦσαι θεὸν αἰτοῦμαι.
-881	θεὸν οὐ λήξω ποτὲ προστάταν ἴσχων.
+882	θεὸν οὐ λήξω ποτὲ προστάταν ἴσχων.
 --- apparatus
 870	οὐδὲ μήν ποτε λάθραι (the ρ almost erased) κατακοιμάσηι L. Most of the later MSS. (as A) have λάθα, and κατακοιμάσει: some have μήν, others μή (as E). Elmsley has been followed by a majority of edd. in giving μήποτε...κατακοιμήσῃ.
 876	ἀκροτάταν εἰσαναβᾶσʼ ἀπότομον | ὤρουσεν εἰσ ἀνάγκαν L. All MSS. have ἀκροτάταν. Instead of ἀπότομον, A has ἄποτμον, with ο written above.—ἀκρότατα γεῖσʼ ἀναβᾶσʼ Wolff; ἀποτμοτάταν (for ἀπότομον) Schnelle. See comment.
@@ -25,6 +25,7 @@
 880	renumbered: the margin prints 880 beside πόλει πάλαισμα; χρῆται is 879 and θεὸν οὐ λήξω 881 (draft 880, 881, 882).
 870	the apparatus begins with "σόν γε Bothe.", the end of a note from p-0216 (batch before): left to it.
 876	the note runs on to the top of p-0220's apparatus; written here whole, from "ἀκρότατα γεῖσʼ" to "See comment.".
+882	rev: numbering: was 881: θεὸν οὐ λήξω … ἴσχων is Jebb's 882: πόλει πάλαισμα … (margin 880) covers 881; commentary 882 f. προστάταν … ὑπέροπτα (883), the antistrophe 873-882
 
 === p-0220
 --- text
@@ -37,7 +38,7 @@
 890	καὶ τῶν ἀσέπτων ἔρξεται,
 891	ἢ τῶν ἀθίκτων θίξεται ματᾴζων.
 892	τίς ἔτι ποτʼ ἐν τοῖσδʼ ἀνὴρ θεῶν βέλη
-893	εὔξεται ψυχᾶς ἀμύνειν;
+894	εὔξεται ψυχᾶς ἀμύνειν;
 --- apparatus
 890	ἔρξεται L. The scribe had begun to write χ as the third letter, but corrected it to ξ. The later MSS. have the same word, with variations of breathing.
 891	ἕξεται MSS. In L the breathing has been added (or retouched) by the first corrector. θίξεται Blaydes. (The mode of writing ἕξεται in L, where the first ε is large, suggests the ease with which θίξ might have become ἕξ.)—ματάιζων L, ματάζων r.
@@ -49,6 +50,7 @@
 891	ματάιζων L: the α carries an acute crossed by a short horizontal stroke (perhaps a breve); written ά.
 892	θυμῶ (no iota subscript) and τίσ ἔτί, ψυχᾶσ copied as printed.
 876	the apparatus begins with the end of the 876 note (ἀκρότατα γεῖσʼ … See comment.), written with it on p-0218.
+894	rev: numbering: was 893: εὔξεται ψυχᾶς ἀμύνειν; is Jebb's 894 (commentary 894 εὔξεται); τίς ἔτι ποτʼ … βέλη is 892-893 (commentary 892 τίς ἔτι ποτʼ, 893 θεῶν βέλη); margin 895 at εἰ γὰρ
 
 === p-0222
 --- text
@@ -63,8 +65,8 @@
 904	Ζεῦ, πάντʼ ἀνάσσων, μὴ λάθοι
 905	σὲ τάν τε σὰν ἀθάνατον αἰὲν ἀρχάν.
 906	φθίνοντα γὰρ Λαΐου ⟨παλαίφατα⟩
-907	θέσφατʼ ἐξαιροῦσιν ἤδη,
-908	κοὐδαμοῦ τιμαῖς Ἀπόλλων ἐμφανής·
+908	θέσφατʼ ἐξαιροῦσιν ἤδη,
+909	κοὐδαμοῦ τιμαῖς Ἀπόλλων ἐμφανής·
 910	ἔρρει δὲ τὰ θεῖα.
 --- apparatus
 896	After χορεύειν, L has in the same verse πονεῖν ἢ τοῖσ θεοῖσ. These words are found in at least four other MSS.,—Pal., M (as corrected), M², M⁵: being a corruption of a gloss, πανηγυρίζειν τοῖς θεοῖς, found in the Trin. and other MSS. (Campbell, 1. xxvii). Dr E. M. Thompson points out that this corruption, hardly possible in uncial writing, would have been comparatively easy in minuscule, and regards it as indicating that the archetype of L was a minuscule MS. (Introd. to Facsimile, p. 8.)
@@ -80,6 +82,8 @@
 896	the numerals in "Campbell, 1. xxvii" and "Il. 1. 536" are printed as old-style figures; written 1.
 906	the note runs on to the top of p-0224's apparatus ("Λαΐου.—For Λαΐου … Λοξίου."): written here whole.
 906	rev: Linwood's "ὢν τοιόσδʼ": the print has smooth breathing and grave (ὢν, the same mark as on ἢ in 896, enlarged 10x on leaf 223), not ὧν: corrected.
+908	rev: numbering: was 907: θέσφατʼ ἐξαιροῦσιν ἤδη is Jebb's 908 (commentary 908 ἐξαιροῦσιν): φθίνοντα γὰρ … ⟨παλαίφατα⟩ (906) covers 907 (commentary 906: παλαίφατα answers θεῶν βέλη in 893)
+909	rev: numbering: was 908: κοὐδαμοῦ τιμαῖς … is Jebb's 909 (commentary 909 τιμαῖς…ἐμφανής); margin 910 at ἔρρει
 
 === p-0224
 --- text

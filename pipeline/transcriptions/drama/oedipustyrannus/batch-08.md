@@ -1,7 +1,7 @@
 === p-0194
 --- text
 661	Ἅλιον· ἐπεὶ ἄθεος ἄφιλος ὅ τι πύματον
-662	ὀλοίμαν, φρόνησιν εἰ τάνδʼ ἔχω.
+664	ὀλοίμαν, φρόνησιν εἰ τάνδʼ ἔχω.
 665	ἀλλά μοι δυσμόρῳ γᾶ φθίνουσα
 666	τρύχει ψυχάν, τὰ δʼ εἰ κακοῖς κακὰ
 667	προσάψει τοῖς πάλαι τὰ πρὸς σφῷν.
@@ -38,6 +38,7 @@
 677	renumbered from 678: the margin prints 675 at αὑταῖς and 678 at γύναι, so σοῦ μὲν (after the verse 676 shared by ΟΙ. and ΚΡ.) is 677.
 678	renumbered from 679: the margin prints 678 beside γύναι (ΧΟ., ἀντ. α΄.). Apparatus 679 (δόμον) is Jebb's number for the second half of this verse (his 678-679).
 672	res: commas after δʼ and after ᾖ, as printed
+664	rev: numbering: was 662: ὀλοίμαν … ἔχω is Jebb's 664: his commentary 663 (ὅ τι πύματον … ὀλοίμαν) begins inside Ἅλιον …, which covers 661-663, and the margin 665 stands at ἀλλά; the strophe 660-668 answers line for line to the antistrophe 689-697 (πεφάνθαι 693)
 
 === p-0196
 --- text
@@ -50,7 +51,7 @@
 @ Χορός
 683a	ναίχι.
 @ Ἰοκάστη
-683b	καὶ τίς ἦν λόγος;
+684	καὶ τίς ἦν λόγος;
 @ Χορός
 685	ἅλις ἔμοιγʼ, ἅλις, γᾶς προπονουμένας,
 686	φαίνεται, ἔνθʼ ἔληξεν, αὐτοῦ μένειν.
@@ -59,9 +60,9 @@
 688	τοὐμὸν παριεὶς καὶ καταμβλύνων κέαρ;
 @ Χορός
 689	ὦναξ, εἶπον μὲν οὐχ ἅπαξ μόνον,
-691	ἴσθι δὲ παραφρόνιμον, ἄπορον ἐπὶ φρόνιμα
-692	πεφάνθαι μʼ ἄν, εἴ σʼ ἐνοσφιζόμαν,
-693	ὅς τʼ ἐμὰν γᾶν φίλαν ἐν πόνοισιν
+690	ἴσθι δὲ παραφρόνιμον, ἄπορον ἐπὶ φρόνιμα
+693	πεφάνθαι μʼ ἄν, εἴ σʼ ἐνοσφιζόμαν,
+694	ὅς τʼ ἐμὰν γᾶν φίλαν ἐν πόνοισιν
 695	ἀλύουσαν κατʼ ὀρθὸν οὔρισας,
 696	τανῦν τʼ εὔπομπος ἂν γένοιο.
 --- apparatus
@@ -79,12 +80,16 @@
 696	the note 696 runs on to the top of the apparatus of p-0198 (from "according to Dübner" to "See comment."): written here whole. In "εἰ δύναι ὁ γενοῦ Bodl." the small word is a blurred ο with a breathing; read ὁ, as both OCR readings have it.
 686	res: commas after φαίνεται and after ἔληξεν, as printed
 696	res: no comma after εὔπομπος, as printed
+684	rev: numbering: was 683b: καὶ τίς ἦν λόγος; is Jebb's 684 (apparatus 684 λόγος; commentary 683 f. ἀμφοῖν ἀπʼ αὐτοῖν on the printed line that holds 683-684)
+690	rev: numbering: was 691: ἴσθι … φρόνιμα is Jebb's 690-692 (commentary 692 ἐπὶ φρόνιμα at its end; 693 πεφάνθαι next): ὦναξ bears the margin 689 alone, as οὐ τὸν (660) in the strophe, and ἴσθι answers Ἅλιον (661-663)
+693	rev: numbering: was 692: πεφάνθαι … ἐνοσφιζόμαν is Jebb's 693 (apparatus 693, commentary 693 πεφάνθαι ἄν)
+694	rev: numbering: was 693: ὅς τʼ ἐμὰν … πόνοισιν is Jebb's 694 (apparatus 694 ὅς τʼ, commentary 694 ὅς τε); margin 695 at ἀλύουσαν
 
 === p-0198
 --- text
 @ Ἰοκάστη
-697	πρὸς θεῶν δίδαξον κἄμʼ, ἄναξ, ὅτου ποτὲ
-698	μῆνιν τοσήνδε πράγματος στήσας ἔχεις.
+698	πρὸς θεῶν δίδαξον κἄμʼ, ἄναξ, ὅτου ποτὲ
+699	μῆνιν τοσήνδε πράγματος στήσας ἔχεις.
 @ Οἰδίπους
 700	ἐρῶ· σὲ γὰρ τῶνδʼ ἐς πλέον, γύναι, σέβω·
 701	Κρέοντος, οἷά μοι βεβουλευκὼς ἔχει.
@@ -116,6 +121,8 @@
 704	res: comma after ξυνειδώς (acute), as printed
 712	res: ἀπʼ without accent, as printed (seen in the residual crop, not a listed item)
 707	rev: no change: after πέρι the page has a mark like "!" (a stroke over a dot); it is a reader's mark like the "blasph." with arrow written beside 709 on this page, not a stop of the printed text: nothing written
+698	rev: numbering: was 697: πρὸς θεῶν δίδαξον … is Jebb's 698: τανῦν τʼ εὔπομπος … (696, commentary 696 ἂν γένοιο) covers 697, the end of the 2nd antistrophe 689-697 (his commentary on 649 ff.); the margin 700 stands at ἐρῶ
+699	rev: numbering: was 698: μῆνιν τοσήνδε … is Jebb's 699 (margin 700 at the next verse)
 
 === p-0200
 --- text

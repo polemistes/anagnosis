@@ -73,10 +73,32 @@ def _length_out(m: re.Match) -> str:
     return capital.replace("^", "").replace("_", "") + letter + marks.replace("^", "").replace("_", "") + holders
 
 
+def _over(letter: str, breve: bool) -> str:
+    """A letter with its marks, and the breve or macron set first over it (\u1fb0, \u1fe1\u0301)."""
+    letter = nfd(letter)
+    return letter[0] + ("\u0306" if breve else "\u0304") + letter[1:]
+
+
 def _length_in(m: re.Match) -> str:
-    letter = nfd(m.group(1) + m.group(2))
-    mark = "\u0306" if m.group(3)[0] == _BREVE else "\u0304"
-    return letter[0] + mark + letter[1:]
+    return _over(m.group(1) + m.group(2), m.group(3)[0] == _BREVE)
+
+
+# The same marks written as signs beside the letter, as Perseus's TEI does with &breve; and &macr;
+# ("genu/&macr;wn" gives \u03b3\u03b5\u03bd\u03cd\u00af\u03c9\u03bd). Directly after a vowel inside a word, a sign is that vowel's mark
+# of length and goes over it; standing free, or in a scheme of several signs (\u00af\u02d8\u02d8\u00af), it is a
+# metrical sign and is left for the metrical conversion.
+_SIGN_LENGTH = re.compile(r"(\w)([\u0300-\u036f]*)([\u00af\u02d8])(?![\u00af\u02d8\u23d1\u00d7|\-\u2013\u2014])")
+_VOWELS = set("\u03b1\u03b5\u03b7\u03b9\u03bf\u03c5\u03c9aeiouy")
+
+
+def length_signs_over(text: str) -> str:
+    """Breve and macron signs (\u02d8 \u00af) written directly after a Greek or Latin vowel set over it as
+    combining marks: \u03b3\u03b5\u03bd\u03cd\u00af\u03c9\u03bd gives \u03b3\u03b5\u03bd\u1fe1\u0301\u03c9\u03bd, (\u03b1\u02d8) gives (\u1fb0); free signs and schemes are left."""
+    def fix(m: re.Match) -> str:
+        if nfd(m.group(1))[0].lower() not in _VOWELS:
+            return m.group(0)
+        return nfc(_over(m.group(1) + m.group(2), m.group(3) == "\u02d8"))
+    return _SIGN_LENGTH.sub(fix, text)
 
 
 def betacode_to_unicode(s: str) -> str:

@@ -755,10 +755,15 @@ def write_translation(slug: str, sources: Path, texts: Path) -> list[str]:
     return moves
 
 
+# Perseus's commentary where it is of another edition than the volume scanned (play.edition): the
+# Oedipus Tyrannus on Perseus is the second edition (its note numbers are not always the third's)
+PERSEUS_EDITION = {"oedipustyrannus": "second edition, 1887"}
+
+
 def perseus_source(play: Play) -> str:
     """The source line of the documents made from Perseus's commentary file (import_play)."""
     edition = (f"Sophocles: The Plays and Fragments, {PART_ROMAN[play.part]}: The {play.title_en}, ed. R. C. Jebb, "
-               f"Cambridge University Press, {play.edition}")
+               f"Cambridge University Press, {PERSEUS_EDITION.get(play.slug, play.edition)}")
     return f"Perseus Digital Library, jebb.soph.{play.code}_eng.xml ({edition})"
 
 
@@ -772,6 +777,7 @@ def write_commentary(slug: str, sources: Path, texts: Path) -> int:
     import os
 
     from .commentary import import_jebb_commentary
+    from .greek import length_signs_over
     from .lexicon import _METRE, _METRE_SIGNS
 
     play = PLAYS[slug]
@@ -789,10 +795,30 @@ def write_commentary(slug: str, sources: Path, texts: Path) -> int:
         print(f"{src.name}: {e}; {path.name} left as it is")
         return 0
     text = tmp.read_text(encoding="utf-8")
+    for wrong, right in COMMENTARY_FIXES.get(slug, []):
+        if wrong not in text:
+            print(f"{path.name}: fix not applied, not found: {wrong}")
+        text = text.replace(wrong, right)
+    text = length_signs_over(text)
     tmp.write_text(_METRE.sub(lambda m: m.group(1).translate(_METRE_SIGNS), text), encoding="utf-8")
     os.replace(tmp, path)
     print(f"wrote {path}: {n} notes from Perseus")
     return n
+
+
+# Perseus's commentary where it is not what the page prints, put right before the vowel-length and
+# metrical signs are converted (write_commentary): (Perseus's text as imported, the page's)
+COMMENTARY_FIXES: dict[str, list[tuple[str, str]]] = {
+    "oedipustyrannus": [
+        # leaf 191, note on 640 (synizesis of υ): the bar stands over both vowels (υ͞ω), not
+        # over the υ as a macron (Perseus: genu/&macr;wn)
+        ("γενύ¯ων", "γενύ͞ων"), ("ἡδύ¯οσμον", "ἡδύ͞οσμον"), ("Ἐρινύ¯ων", "Ἐρινύ͞ων"),
+        ("Ἠλεκτρύ¯ωνος", "Ἠλεκτρύ͞ωνος"),
+        # leaf 127, note on 118 f.: "χωρὶς τοῦ ῑ...ἡ μέντοι παράδοσις ἔχει τὸ ῑ." (Perseus: a gap,
+        # and the second ῑ without its mark)
+        ("χωρὶς τοῦ ῑἡ μέντοι παράδοσις ἔχει τὸ ι.", "χωρὶς τοῦ ῑ…ἡ μέντοι παράδοσις ἔχει τὸ ῑ."),
+    ],
+}
 
 
 # Perseus's commentary: notes whose printed heading (and the first word of the lemma) Perseus lost,

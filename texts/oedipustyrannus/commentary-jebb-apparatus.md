@@ -394,8 +394,8 @@ L has τὸν ἐναγῆι φίλον μήποτʼ ἐν αἰτίαι | σὺ
 ## 678
 [679] δόμον L: δόμων r.
 
-## 683
-[684] λόγος L: ὁ λόγος r.
+## 684
+λόγος L: ὁ λόγος r.
 
 ## 688
 Hartung conjectures παρίης καὶ καταμβλύνεις, placing a note of interrogation (;) after ἥκεις. So Wecklein (writing παριεῖς with Cobet). All MSS. give the participles. In L and A there is a marg. gloss ἐκλύων on παριείς.
@@ -403,7 +403,8 @@ Hartung conjectures παρίης καὶ καταμβλύνεις, placing a not
 ## 693
 εἴ σε νοσφίζομαι MSS. εἴ σʼ ἐνοσφιζόμαν Hermann, Hartung (-ην), Badham.
 
-[694] ὅς τʼ MSS.: ὅς γʼ Turnebus, and so Wecklein.—πόνοις MSS. πόνοισιν Bergk, which obviates the metrical necessity of altering φθίνουσα to φθινάς in 665. Blaydes suggests πόνοις τότʼ.
+## 694
+ὅς τʼ MSS.: ὅς γʼ Turnebus, and so Wecklein.—πόνοις MSS. πόνοισιν Bergk, which obviates the metrical necessity of altering φθίνουσα to φθινάς in 665. Blaydes suggests πόνοις τότʼ.
 
 ## 695
 **ἀλύουσαν**] σαλεύουσαν Dobree.
@@ -693,8 +694,8 @@ Heimsoeth conject. νέμων διπλοῖσι ποιμνίοις, ἐγὼ δ�
 ## 1186
 **ἰὼ**] The 1st hand in L wrote ὦ (found also in later MSS.); another has corrected it to ἰώ, rightly, since ἰώ answers to ὅστις in 1197.
 
-## 1188
-**ἐναριθμῶ**] ἐναριθμῶι (i.e. ἐν ἀριθμῷ) L 1st hand: the final ι has been almost erased. A gloss ἐντάττω is written above.
+## 1187
+[1188] ἐναριθμῶ] ἐναριθμῶι (i.e. ἐν ἀριθμῷ) L 1st hand: the final ι has been almost erased. A gloss ἐντάττω is written above.
 
 ## 1193
 τὸ σόν τοι MSS. L has a comma after τὸ (added as if to guard against the words being read τόσον), and the marg. schol., τὸν σὸν βίον παράδειγμα ἔχων οὐδένα μακαρίζω καὶ εὐδαιμονίζω. As βίον would be a natural equivalent for δαίμονα here, the Scholiast may have read τὸν σόν τοι: though it is also possible that he took τὸ σόν as=‘thy lot.’—τὸν σόν τοι Camerarius, and so most of the recent edd.

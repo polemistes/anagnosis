@@ -19,6 +19,32 @@ HAND_ANALYSES: dict[str, dict[str, tuple[str, str]]] = {
         "1077 δʼ": ("δέ", "c--------"),               # the treebank reads θʼ
         "1234 δʼ": ("δέ", "c--------"),               # the treebank reads τʼ
     },
+    # Jebb's Oedipus Tyrannus: the review list (build/oedipustyrannus-review.tsv), each word read in
+    # its verse
+    "oedipustyrannus": {
+        "185 ἱκτῆρες": ("ἱκτήρ", "n-p---mn-"),        # not ἱκέτης
+        "206 προσταθέντα": ("προΐστημι", "v-pappna-"),  # Jebb: from προΐστημι, not προστάσσω
+        "265 πάντʼ": ("πᾶς", "a-p---na-"),            # πάντα (the treebank reads πᾶν)
+        "405 Οἰδίπου": ("Οἰδίπους", "n-s---mv-"),      # vocative
+        "538 τοὔργον": ("ἔργον", "n-s---na-"),         # τὸ ἔργον (the treebank: ἔργνυμι)
+        "572 τὰς": ("ὁ", "l-p---fa-"),                # the article of τὰς ἐμὰς … φονεύσεις
+        "665 φθίνουσα": ("φθίνω", "v-sppafn-"),        # not φθίω
+        "719 ἄβατον": ("ἄβατος", "a-s---na-"),         # with ὄρος
+        "876 ἀκρότατα": ("ἄκρος", "a-p---nas"),        # with γεῖσα (Wolff's conjecture)
+        "876 γεῖσʼ": ("γεῖσον", "n-p---na-"),
+        "877 ἀποτμοτάταν": ("ἄποτμος", "a-s---fas"),   # Schnelle's superlative of ἄποτμος
+        "1030 δʼ": ("δέ", "g--------"),               # the treebank reads τʼ
+        "1277 ἔτεγγον": ("τέγγω", "v3piia---"),        # subject γλῆναι
+        "1311 ἐξήλου": ("ἐξάλλομαι", "v2saim---"),     # aorist
+        "1336 ταῦθʼ": ("οὗτος", "a-p---nn-"),          # subject of ἦν
+        "1350 νομάδʼ": ("νομάς", "a-s---ma-"),         # not μονάς (Jebb: of the babe, 'in the pastures')
+        "1351 ἔρρυτο": ("ῥύομαι", "v3saim---"),
+        "1351 κἀνέσωσέ": ("ἀνασῴζω", "v3saia---"),     # καὶ ἀνέσωσε
+        "1401 τι": ("τις", "p-s---na-"),              # the treebank reads ἔτι
+        "1463 οἷν": ("ὅς", "p-d---fd-"),              # the two daughters
+        "1466 οἷν": ("ὅς", "p-d---fg-"),
+        "1504 τούτοιν": ("οὗτος", "a-d---fd-"),
+    },
     "hermas": {
         "26.5.4 κʹ": ("κʹ", "m--------"),  # twenty (GLAUx: ἄν)
         "2.4.3 Γραπτὴ": ("Γραπτή", "n-s---fn-"),  # the name (GLAUx: γραπτός)
@@ -376,6 +402,21 @@ LEMMA_FIXES: dict[str, dict[str, str]] = {
         "ταναυφής": "ταναϋφής",  # 602 ταναϋφῆ
         "Ἡρακλέης": "Ἡρακλῆς",  # the Attic forms Ἡρακλῆς, -έους, -εῖ, -ῆ (14 places)
         "ποτιπτύσσω": "προσπτύσσω",  # 767 προσπτύσσεται
+    },
+    "oedipustyrannus": {
+        # AGDT lemmas misspelt or in another form than the dictionaries' headword (the form and
+        # verse in the comment)
+        "Ιοκάστη": "Ἰοκάστη",  # 1053 Ἰοκάστη, 1235 Ἰοκάστης
+        "Λαβδακ́δης": "Λαβδακίδης",  # 487 Λαβδακίδαις
+        "Λαιος": "Λάιος",  # 573 Λαΐου
+        "σεαὐτοῦ": "σεαυτοῦ",  # 583 σαυτῷ
+        "διόριζω": "διορίζω",  # 723 διώρισαν
+        "ε͂πακούω": "ἐπακούω",  # 794 ʼπακούσας
+        "πρώτερος": "πρῶτος",  # 1119 πρῶτʼ
+        "τοιαῦτος": "τοιοῦτος",  # 1494 τοιαῦτʼ
+        "Κρεότειος": "Κρεόντειος",  # 400 Κρεοντείοις
+        "Λαίειος": "Λαΐειος",  # 451, 1216 Λαΐειον
+        "ἁδυεπής": "ἡδυεπής",  # 151 ἁδυεπὲς (Doric)
     },
     "hermas": {
         # GLAUx lemmas garbled or spelled otherwise than the dictionaries (step 9; the form in the

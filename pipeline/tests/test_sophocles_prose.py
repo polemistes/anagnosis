@@ -127,7 +127,7 @@ class WriteProse(unittest.TestCase):
         # our numbering lacks re-filed; a second run gives the same file
         xml = PERSEUS.replace("</body>", """<div1 type="commentary"><div2><head>94-140</head><p>Parodos.</p>
 <div3 n="97" type="commLine"><p><lemma lang="greek">tou=to</lemma>: cp. <bibl n="Hom. Il. 18.126"><title>Il.</title>18. 126</bibl><quote lang="greek">mhde/</quote>, &macr;&breve;&breve;&macr;.</p></div3>
-<div3 n="99" type="commLine"><p><lemma lang="greek">w)= lampra=|</lemma>, as below.</p></div3>
+<div3 n="99" type="commLine"><p><lemma lang="greek">w)= lampra=|</lemma>, as below; <quote lang="greek">a)e/&breve;lion</quote>, time of &breve;.</p></div3>
 </div2></div1></body>""")
         (self.sources / "jebb-trachiniae-commentary.xml").write_text(xml, encoding="utf-8")
         (self.texts / "trachiniae" / "grc.txt").write_text(
@@ -139,7 +139,8 @@ class WriteProse(unittest.TestCase):
         self.assertTrue(text.startswith("# title: Commentary on Sophocles: Trachiniae\n# author: Richard C. Jebb\n"
                                         "# lang: eng\n# source: Perseus Digital Library, jebb.soph.trach_eng.xml"))
         self.assertIn("## 97\n**τοῦτο**: cp. *Il.* 18. 126 μηδέ, –⏑⏑–.\n", text)
-        self.assertIn("## 98\n[99] **ὦ λαμπρᾷ**, as below.\n", text)
+        # a breve after a vowel is its length mark, set over it; a free one is a metrical sign
+        self.assertIn("## 98\n[99] **ὦ λαμπρᾷ**, as below; ἀε\u0306\u0301λιον, time of ⏑.\n", text)
         write_prose("trachiniae", self.sources, self.texts, self.tr)
         self.assertEqual(path.read_text(encoding="utf-8"), text)
         self.assertFalse(path.with_name(path.name + ".part").exists())
