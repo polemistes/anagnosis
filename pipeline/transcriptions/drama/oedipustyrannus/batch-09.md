@@ -23,7 +23,9 @@
 787	λάθρᾳ δὲ μητρὸς καὶ πατρὸς πορεύομαι
 788	Πυθώδε, καί μʼ ὁ Φοῖβος ὧν μὲν ἱκόμην
 --- apparatus
+779	μέθηι L 1st hand, changed by an early hand to μέθης. The latter prevails in the later MSS. (but μέθη Γ).
 --- notes
+779	the apparatus note runs on to the facing page (leaf 207): written here whole.
 
 === p-0208
 --- text

@@ -23,7 +23,12 @@
 @ Οἰδίπους
 361	οὐχ ὥστε γʼ εἰπεῖν γνωστόν· ἀλλʼ αὖθις φράσον.
 --- apparatus
+360	L has ἢ ʼκπειρᾶι λέγειν, with ο written under the accent on λεγ, and a mark of abbreviation, /\, over ειν. Dübner thinks that the 1st hand wrote λέγ, denoting ειν by the mark aforesaid, and indicating by ο a reading λόγων, to which a marginal gloss by a later hand refers, εἰ πεῖραν λόγων κινεῖς: then another hand wrote ειν in full. Campbell holds that the 1st hand wrote λέγοι. All the later MSS. have λέγειν; and I believe, with Dübner, that this was what the 1st hand in L meant to give. The superscript ο, however, is not (I think) from the first hand, but from a later one, prob. the same that wrote the marg. gloss. The ειν may be from the first corrector (S).—Hartung reads ἢ πειρᾷ λέγων; Campbell, ἢ ʼκπειρᾷ λόγῳ; Wecklein and Bellermann, ἢ ἐκπειρᾷ λόγων; Blaydes proposes οὐχὶ ξυνῆκας; πρὸς τί μου ʼκπειρᾷ λέγειν; Mekler, ἢ πέτρᾳ ʼλεγον; F. W. Schmidt, ἢ ἑτέρᾳ λέγω;
 --- notes
+360	λέγων; is printed on this line, with Jebb's asterisk (left out); the flag is a misread by the OCR.
+361	the two unmatched printed lines after this verse are OCR of the apparatus, not verses; nothing added.
+349	the apparatus begins with the end of the note on 349 (from leaf 156, "…τοῦτʼ ἔφην ἅπαν μόνου."); left to the batch before.
+360	the mark of abbreviation is printed as a stroke with a short heavy hook at the top; written /\. The note runs on to the facing page (leaf 159) and ends there.
 
 === p-0160
 --- text
@@ -43,7 +48,7 @@
 @ Τειρεσίας
 369	εἴπερ τί γʼ ἐστὶ τῆς ἀληθείας σθένος.
 @ Οἰδίπους
-370	ἀλλʼ ἔστι, πλὴν σοί· σοὶ δὲ τοῦτʼ οὐκ ἔστʼ ἐπεὶ
+370	ἀλλʼ ἔστι, πλὴν σοί· σοὶ δὲ τοῦτʼ οὐκ ἔστʼ, ἐπεὶ
 371	τυφλὸς τά τʼ ὦτα τόν τε νοῦν τά τʼ ὄμματʼ εἶ.
 @ Τειρεσίας
 372	σὺ δʼ ἄθλιός γε ταῦτʼ ὀνειδίζων, ἃ σοὶ
@@ -62,7 +67,16 @@
 380	ὦ πλοῦτε καὶ τυραννὶ καὶ τέχνη τέχνης
 381	ὑπερφέρουσα τῷ πολυζήλῳ βίῳ,
 --- apparatus
+374	μιᾶς] μαίας G. Wolff.
+376	με μοῖρα πρός γε σοῦ L (and so the later MSS., except that Δ has σε...γε σοῦ): σε μοῖρα πρός γʼ ἐμοῦ Brunck.
+379	Κρέων δέ MSS.: Κρέων γε Brunck.
 --- notes
+364	πλέον; is printed on this line; the flag is a misread by the OCR.
+369	σθένος as Perseus; the OCR misread it.
+370	ἔστι as Perseus. The print has a comma after ἔστʼ (ἔστʼ, ἐπεὶ): added.
+372	δʼ is printed on this line.
+376	the siglum before "has" is printed Δ (checked enlarged), not A; copied as printed.
+379	the note begins at the foot of the facing page (leaf 161) and ends at the top of leaf 162's apparatus ("MSS.: Κρέων γε Brunck."); written whole here.
 
 === p-0162
 --- text
@@ -74,17 +88,25 @@
 387	ὑφεὶς μάγον τοιόνδε μηχανορράφον,
 388	δόλιον ἀγύρτην, ὅστις ἐν τοῖς κέρδεσιν
 389	μόνον δέδορκε, τὴν τέχνην δʼ ἔφυ τυφλός.
-390	ἐπεί, φέρʼ εἰπέ, ποῦ σὺ μάντις εἶ σαφής;
-391	πῶς οὐκ, ὅθʼ ἡ ῥαψῳδὸς ἐνθάδʼ ἦν κύων,
+390	ἐπεὶ φέρʼ εἰπέ, ποῦ σὺ μάντις εἶ σαφής;
+391	πῶς οὐχ, ὅθʼ ἡ ῥαψῳδὸς ἐνθάδʼ ἦν κύων,
 392	ηὔδας τι τοῖσδʼ ἀστοῖσιν ἐκλυτήριον;
 393	καίτοι τό γʼ αἴνιγμʼ οὐχὶ τοὐπιόντος ἦν
 394	ἀνδρὸς διειπεῖν, ἀλλὰ μαντείας ἔδει·
 395	ἣν οὔτʼ ἀπʼ οἰωνῶν σὺ προυφάνης ἔχων
 396	οὔτʼ ἐκ θεῶν του γνωτόν· ἀλλʼ ἐγὼ μολών,
 397	ὁ μηδὲν εἰδὼς Οἰδίπους, ἔπαυσά νιν,
-398	γνώμῃ κυρήσας οὐδʼ ἀπʼ, οἰωνῶν μαθών·
+398	γνώμῃ κυρήσας οὐδʼ ἀπʼ οἰωνῶν μαθών·
 --- apparatus
+396	τοῦ L, του r.
 --- notes
+382	margin numbers 385, 390, 395 stand at verses 385, 390, 395 of the draft: numbering right.
+383	γʼ is printed on this line.
+390	the print has ἐπεὶ φέρʼ (grave, no comma after it): written so.
+391	the print has οὐχ, (not οὐκ,): written so.
+394	ἀνδρὸς is printed; the OCR cut it short.
+398	the draft had a stray comma after ἀπʼ; the print has none (οὐδʼ ἀπʼ οἰωνῶν): removed.
+379	the top of the apparatus ("MSS.: Κρέων γε Brunck.") is the end of the note on 379, written with p-0160.
 
 === p-0164
 --- text

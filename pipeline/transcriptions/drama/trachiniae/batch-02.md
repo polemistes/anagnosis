@@ -7,13 +7,28 @@
 93	πράσσειν, ἐπεὶ πύθοιτο, κέρδος ἐμπολᾷ.
 @ Χορός
 94	ὃν αἰόλα νὺξ ἐναριζομένα
-95	τίκτει κατευνάζει τε, φλογιζόμενον
-96	Ἅλιον Ἅλιον αἰτῶ
+95	τίκτει κατευνάζει τε φλογιζόμενον,
+96	Ἅλιον, Ἅλιον αἰτῶ
 97	τοῦτο καρῦξαι, τὸν Ἀλκμήνας πόθι μοι πόθι παῖς
 98	ναίει ποτʼ, ὦ λαμπρᾷ στεροπᾷ φλεγέθων,
-100	ἢ ποντίας αὐλῶνος ἢ δισσαῖσιν ἀπείροις κλιθείς,
+100	ἢ ποντίας αὐλῶνας, ἢ δισσαῖσιν ἀπείροις κλιθείς·
 --- apparatus
+90	μὴ MSS.: μὴ οὐ Brunck, and so most edd.
+92	νυν] νῦν L.
+93	πύθοιτο made from πύθοιο in L.
+94-102	L divides the vv. thus:—ὃν— | τίκτει — | ἅλιον· ἅλιον — | τούτωι — ἀλκμή|νασ — | ναίει — | ἢ ποντίασ — | δισσαῖσιν — | εἴπʼ—ὄμμα.
+94	ἐναριζομένα] O. Hense conj. ἐπαναιρομένα: K. Fecht, μεταμειβομένα: Wecklein, συνοριζομένα (i.e., ‘on the threshold of day’): Blaydes, ἀφανιζομένα.
+97	τοῦτο r: τούτωι L.—καρῦξαι] κᾱρύξαι L.
+98	πόθι μοι πόθι μοι παῖσ L, with most MSS.: πόθι μοι πόθι παῖς T (with Triclinius). πόθι μοι πόθι μοι (omitting παῖς), Wunder. Schneidewin conj. πόθι μοι πόθι γᾶς.
+99	λαμπρᾶι στεροπᾶι made by S from λαμπρὰ στεροπὰ in L.
+100	ποντίασ L (with ου written over α by first hand): ποντίους A, with most of the other MSS.—δισσαῖσιν ἀπείροις Erfurdt. The MSS. have δισσαῖσιν ἀπείροισιν (L), δισσαῖσιν ἀπείροισι (A, Ald.), or δισσαῖς ἀπείροις (T).
 --- notes
+95	the print has the comma after φλογιζόμενον, not after τε (seen on the whole page, leaf 92); corrected.
+96	the print has a comma after the first Ἅλιον (leaf 92); added.
+98	Jebb's apparatus numbers follow his own count of the lyric verses: his 98 (πόθι μοι πόθι παῖς) stands in our 97, his 99 (λαμπρᾷ στεροπᾷ) is our 98; his "100 f." is our 100 (the printed line ἢ ποντίας … κλιθείς). The numbers are kept as printed.
+99	apparatus 99 (λαμπρᾶι στεροπᾶι) refers to our verse 98: Jebb's number kept, so the checker's "not on this page" remark is expected.
+100	the print reads αὐλῶνας, with a comma after it (clear on the crop; Jebb's reading, cf. his note on 100 f.); the verse ends with a raised stop κλιθείς·, not a comma; corrected.
+100	Jebb's note on 100 f. runs on to the top of leaf 94's apparatus ("ἀπείροισιν (L), … (T)."); written here whole, from p-0094-app-l/-r.
 
 === p-0094
 --- text
@@ -27,20 +42,54 @@
 111	δύστανον ἐλπίζουσαν αἶσαν.
 112	πολλὰ γὰρ ὥστʼ ἀκάμαντος ἢ νότου ἢ βορέα τις
 --- apparatus
+102	κατʼ ὄμμα] Nauck conj. πανόπτα.
+103	ποθουμένᾳ] Nauck conj. πόθου πλέᾳ: Musgrave, πονουμένᾳ: Meineke, πτοουμένᾳ: O. Hense, φοβουμένᾳ.
+104	τὰν] τᾱν (not τᾶν) L.
+108	τρέφουσαν Casaubon: φέρουσαν MSS.
+109	εὐναῖς] εὐναῖς τʼ Triclinius.
+112-121	L divides the vv. thus:—πολλὰ — | ἢ νότου — | κύματʼ — | βάντʼ— | οὕτω — | τρέφει — | πολύπονον — | κρήσιον — | αἰὲν — | σφε—ἐρύκει.—O. Hense, whom Nauck follows, places vv. 112—121 after vv. 122—131.
+113	βορέα L: βορέου r.
 --- notes
+101	no flags on the text of this page; the apparatus begins with the end of Jebb's note on 100 f., written with p-0092.
+102	Jebb's apparatus numbers here are his own count of the lyric verses, kept as printed: his 102 (κατʼ ὄμμα) is our 101, 103 (ποθουμένᾳ) our 102.
+104	apparatus 104 (τὰν) is Jebb's number for our 103.
+108	apparatus 108 (τρέφουσαν) is Jebb's number for our 107.
+109	apparatus 109 (εὐναῖς) is Jebb's number for our 110. The print has a stray bracket after the number ("109] εὐναῖς]"), an evident misprint; left out.
+113	apparatus 113 (βορέα) is Jebb's number for our 112.
 
 === p-0096
 --- text
 113	κύματʼ ἂν εὐρέϊ πόντῳ βάντʼ ἐπιόντα τʼ ἴδοι,
-114	οὕτῶ δὲ τὸν Καδμογενῆ στρέφει, τὸ δʼ αὔξει, βιότου
-115	πολύπονον ὥσπερ πέλαγος
-120	Κρήσιον. ἀλλά τις θεῶν αἰὲν ἀναμπλάκητον Ἅιδα
-121	σφε δόμων ἐρύκει.
+114	οὕτω δὲ τὸν Καδμογενῆ στρέφει, τὸ δʼ αὔξει, βιότου πολύπονον ὥσπερ πέλαγος
+120	Κρήσιον. ἀλλά τις θεῶν αἰὲν ἀναμπλάκητον Ἅιδα σφε δόμων ἐρύκει.
 122	ὧν ἐπιμεμφομένα σʼ αἰδοῖα μέν, ἀντία δʼ οἴσω.
 125	φαμὶ γὰρ οὐκ ἀποτρύειν ἐλπίδα τὰν ἀγαθὰν
 126	χρῆναί σʼ· ἀνάλγητα γὰρ οὐδʼ ὁ πάντα κραίνων βασιλεὺς ἐπέβαλε θνατοῖς Κρονίδας·
 --- apparatus
+114	κύματʼ ἂν εὐρέϊ Porson and Wakefield: κυμάτʼ ἐν εὐρέϊ Erfurdt: κύματʼ εὐρέϊ MSS. (κύματα εὐρέϊ Triclinius): εὐρέϊ κύματα Brunck.
+115	ἐπιόντα τʼ ἴδοι MSS. For ἴδοι, Erfurdt gave ἴδῃ. ἐπιόντʼ ἂν ἴδοι Zippmann (with ἐν εὐρέϊ in v. 114), and so Subkoff: ἐπιόντʼ ἂν ἴδοις Hense, with ἢ βορέα του (instead of τις) in 113.
+117	στρέφει Reiske: τρέφει MSS. In B and Lc the gloss τὸ μὲν precedes τρέφει.—τὸ δʼ] τόδʼ B, T.—αὔξει made from ἄξει by S in L.
+118	ὥσπερ A: ὥστε L.
+120	ἀναμπλάκητον] ἀπλάκητον L (and so Hesych., ἀπλάκητον, ἀναμάρτητον). But the schol. in L has the true ἀναμπλάκητον, in which μ, having been accidentally omitted, is written over π,—thus illustrating the origin of ἀπλάκητον.—Ἅιδα] ἀΐδα L, A, etc.: αἵδα B.
+121	ἐρύκει] ἐρύκοι T.
+122	ἐπιμεμφομένα σʼ r: L has ἐπιμεμφομένασ, followed by a full stop (σ. having been inadvertently substituted for σʼ).—αἰδοῖα Musgrave: ἀδεῖα MSS. O. Hense conj. ἔδεισα (Nauck, σε|δεῖσα): Subkoff, σοι | λεῖα.
+127	ἀνάλγητα] M. Schmidt conj. ἀνάλλακτα.
+128	ἐπέβαλε r: ἐπέβαλλε L.
 --- notes
+113	the margin prints 115 beside this verse (κύματʼ … ἴδοι, Jebb's 114-115); the Perseus-based number 113 is kept, the margin falling inside the verse in Jebb's count.
+114	flag (οὕτῶ not found in the OCR): the print has οὕτω, with no circumflex (the draft's οὕτῶ is Perseus's slip); corrected.
+114	the indented line πολύπονον ὥσπερ πέλαγος is the turnover of this verse (set in like σιλεὺς … Κρονίδας under 126; the strophe's numeral 3 stands before οὕτω only, 4 before Κρήσιον): joined to 114 and the number 115 dropped.
+120	flag (margin 120 at a line numbered 121): σφε δόμων ἐρύκει. is set in, the turnover of the verse Κρήσιον … Ἅιδα (strophe verse 4, answering 127 ἀλλʼ ἐπὶ πῆμα … κέλευθοι in the antistrophe): joined to 120, so the margin 120 now stands at verse 120; the number 121 dropped.
+122	flag (ὧν not found in the OCR): ὧν is printed at the start of this verse; no change.
+126	flag (turnover): the print sets σιλεὺς ἐπέβαλε θνατοῖς Κρονίδας· in, after βα-, as the end of this verse; confirmed.
+114	Jebb's apparatus numbers are his own count of these lyric verses and are kept as printed (114 κύματʼ is in our 113).
+115	apparatus 115 (ἐπιόντα τʼ ἴδοι) refers to our 113.
+117	apparatus 117 (στρέφει) refers to our 114.
+118	apparatus 118 (ὥσπερ) refers to our 114.
+120	ἀΐδα (L, A) is printed with a smooth breathing and diaeresis; αἵδα (B) with a rough breathing (small on the scan, read under enlargement).
+121	apparatus 121 (ἐρύκει) refers to our 120 (σφε δόμων ἐρύκει., joined to it).
+127	apparatus 127 (ἀνάλγητα) refers to our 126.
+128	apparatus 128 (ἐπέβαλε) refers to our 126.
 
 === p-0098
 --- text
@@ -56,12 +105,25 @@
 @ Δηιάνειρα
 141	πεπυσμένη μέν, ὡς ἀπεικάσαι, πάρει
 --- apparatus
+129	πῆμα καὶ χαρὰ made from πήματι καὶ χαρᾶι in L. For χαρὰ Hermann wrote χαρὰν.
+130	οἷον] Nauck writes αἰὲν.
+132	οὔτʼ αἰόλα νὺξ] Meineke conj. οὔτʼ ἆμαρ οὔτε [? οὐ] νὺξ.
+134	βέβακε r: βέβηκε L.
+139	τάδʼ αἰὲν] Hense conj. κεδναῖσιν.
+140	τέκνοισι] τέκνοισιν L. ἄβουλον] Wecklein conj. ἀγνώμονʼ.
+141	ἀπεικάσαι MSS.: Hermann conj. ἐπεικάσαι: Wunder, σάφʼ εἰκάσαι.
 --- notes
+127	flags (turnover; margin 130 at a line numbered 127): the print sets στροφάδες κέλευθοι. in, as the end of the antistrophe's verse 4 (numeral 4 before ἀλλʼ only); the join is confirmed. The margin 130 stands beside the turnover: Jebb's verse runs 129-130, and the next verse μένει begins 131, as in the draft; no renumbering.
+129	apparatus 129 (πῆμα καὶ χαρὰ) and 130 (οἷον) are Jebb's numbers for parts of our 127; kept as printed.
+130	apparatus 130 (οἷον) refers to our 127.
+132	ἆμαρ: the breathing under the circumflex is small on the scan; read as smooth (the Doric form of ἦμαρ).
+139	apparatus 139 (τάδʼ αἰὲν) is Jebb's number for our 137 (Jebb counts 136-137 and 138-139 for the two verses after 135; the draft has 136, 137, following Perseus; the margins 135 and 140 agree).
+140	Jebb prints no dash between the two remarks of this note ("τέκνοισιν L. ἄβουλον]"); copied as printed.
 
 === p-0100
 --- text
 142	πάθημα τοὐμόν· ὡς δʼ ἐγὼ θυμοφθορῶ,
-143	μήτʼ ἐκμάθοις παθοῦσα νῦν τʼ ἄπειρος εἶ.
+143	μήτʼ ἐκμάθοις παθοῦσα, νῦν δʼ ἄπειρος εἶ.
 144	τὸ γὰρ νεάζον ἐν τοιοῖσδε βόσκεται
 145	χώροισιν αὑτοῦ, καί νιν οὐ θάλπος θεοῦ
 146	οὐδʼ ὄμβρος οὐδὲ πνευμάτων οὐδὲν κλονεῖ,
@@ -77,7 +139,16 @@
 156	ὡρμᾶτʼ ἀπʼ οἴκων Ἡρακλῆς, τότʼ ἐν δόμοις
 157	λείπει παλαιὰν δέλτον ἐγγεγραμμένην
 --- apparatus
+143	ἐκμάθοις] ἐκμάθῃς Harl.—νῦν δʼ L, with most MSS.: νῦν τʼ Harl.
+145	χώροισιν αὑτοῦ] In L the first hand wrote αὐτοῦ: S then placed a rough breathing over α, without deleting the other (cp. Ph. 715 cr. n.), thus leaving ἁὐτοῦ. A, with most MSS., has αὐτοῦ: but the Aldine, αὑτοῦ.
+146	οὐδὲν κλονεῖ] L has an erasure of perh. three letters before οὐδὲν, and κλονεῖ made from κλονεῖν.
+150-152	Dindorf now rejects these three vv.: he formerly rejected v. 150 only (ed. 1860).
+150	πρὸς ἀνδρὸς] Tournier conj. πρὸ τἀνδρὸς.
+151	τότʼ L: τόδʼ r.—αὐτοῦ L: αὑτοῦ r.
 --- notes
+143	flag (τʼ not found in the OCR): the print reads νῦν δʼ (Jebb's reading, from L; his note gives νῦν τʼ as Harl.'s), with a comma after παθοῦσα; corrected.
+150	flag (ἢ not found in the OCR): ἢ is printed on this verse; no change.
+145	the breathings of αὐτοῦ/αὑτοῦ in the notes on 145 and 151 were read under enlargement (the rough breathing small, with the tail to the right) and agree with the sense of each note.
 
 === p-0102
 --- text
@@ -85,14 +156,36 @@
 159	πολλοὺς ἀγῶνας ἐξιών, οὔπω φράσαι,
 160	ἀλλʼ ὥς τι δράσων εἷρπε κοὐ θανούμενος.
 161	νῦν δʼ ὡς ἔτʼ οὐκ ὢν εἶπε μὲν λέχους ὅ τι
-162	χρείη μʼ ἑλέσθαι κτῆσιν εἶπε δʼ ἣν τέκνοις
+162	χρείη μʼ ἑλέσθαι κτῆσιν, εἶπε δʼ ἣν τέκνοις
 163	μοῖραν πατρῴας γῆς διαιρετὸν νέμοι,
-164	χρόνον προτάξας ὡς τρίμηνον ἡνίκα
-165	χώρας ἀπείη κἀνιαύσιον βεβώς,
+164	χρόνον προτάξας, ὡς τρίμηνον ἡνίκα
+165	χώρας ἀπείη κἀνιαύσιος βεβώς,
 166	τότʼ ἢ θανεῖν χρείη σφε τῷδε τῷ χρόνῳ
 167	ἢ τοῦθʼ ὑπεκδραμόντα τοῦ χρόνου τέλος
 168	τὸ λοιπὸν ἤδη ζῆν ἀλυπήτῳ βίῳ.
 169	τοιαῦτʼ ἔφραζε πρὸς θεῶν εἱμαρμένα
 170	τῶν Ἡρακλείων ἐκτελευτᾶσθαι πόνων,
 --- apparatus
+158	ἁμοὶ] ἅμοι L: ἅ μοι Ald.
+159	οὔπω] οὕπω L: οὕτω Harl.: and so Tournier conj.
+161	λέχους] Naber conj. λάχους.—ὅ τι] L has ὅτι (sic): there is nothing, then, to show that the scribe meant ὅτι rather than ὅ τι. But the Aldine and all the earlier edd. have ὅτι. Musgrave, while keeping ὅτι in his text, first recommended ὅ τι (ed. 1809).
+162	χρείη Brunck: χρεῖʼ ἧ L (with ει in an erasure, from η). Cp. cr. nn. on O. T. 555, O. C. 268, Ant. 884.
+163	διαιρετὸν L: διαιρετὴν r (as Harl.): A has διαιρετὸν with ὴν written above. Hermann, with Lobeck (Paralip. p. 482), writes διαίρετον.—νέμοι L, with most MSS.: μένειν A, Harl., Ald.
+164	τρίμηνος Wakefield: τρίμηνον MSS.—ἡνίκα Dawes: ἡνίκʼ ἂν MSS.
+165	ἀπείη] ἀπήει (sic) L, with ει written over η, and η over ει, by the first hand.—κἀνιαύσιος MSS.: κἀνιαύσιον Brunck (writing κᾀνιαύσιον).
+166-168	Dobree suspected these three vv., which Dindorf rejects.
+166	χρείη σφε] χρεῖʼ, ἥσφε L.
+167	τοῦθʼ] Wunder conj. τοῦδʼ.—ὑπεκδραμόντα MSS.: Wunder and Burges conj. ὑπερδραμόντα.
+169	τοιαῦτʼ...εἱμαρμένα] Nauck proposes to read οἰζὺν...εἱμαρμένον, and to omit vv. 166—168.
+170	Wunder and Dindorf reject this v.: O. Hense would read τὸν Ἡράκλειον ἐκτελευτᾶσθαι πόνον. (with a full stop), and place the v. before v. 169.
 --- notes
+158	the apparatus crops of this page (p-0102-app-l/-r) are cut too low and the top of the facing page's crops is cut off: the whole apparatus was read from the whole pages, leaves 102 and 103, enlarged. The five "printed line matched no Perseus words" flags after 170 are Tesseract's readings of these apparatus lines, not verses; nothing added to the text.
+159	the breathings of the three words οὔπω/οὕπω/οὕτω are too small on the scan to tell apart; οὕπω (L) and οὕτω (Harl., and Tournier's conjecture) are written rough as the note requires (the lemma is the text's οὔπω, so L must differ; οὕτω is the only word possible) and as the OCR reads them.
+162	the comma after κτῆσιν is printed (leaf 102); added.
+162	χρεῖʼ ἧ L: the breathing under the circumflex is small; read rough, as in χρεῖʼ, ἥσφε L in the note on 166 (L divides χρείη the same way there).
+163	"with ὴν written above": the print has a grave accent alone on η, no breathing (enlarged).
+164	the comma after προτάξας is printed (leaf 102); added.
+165	the print reads κἀνιαύσιος (clear on the whole page; Jebb's reading, as his note on 165 shows: "κἀνιαύσιος MSS.: κἀνιαύσιον Brunck"); not flagged, since the OCR read it right, but the draft had Perseus's κἀνιαύσιον; corrected. Brunck's κᾀνιαύσιον is printed with an iota subscript under α.
+167	flag (ἢ not found in the OCR): ἢ is printed at the start of this verse; no change.
+169	"τοιαῦτʼ...εἱμαρμένα" and "οἰζὺν...εἱμαρμένον": the three dots are printed without spaces; copied so.
+170	Jebb's note on 170 ends the spread; nothing runs on to leaf 104.

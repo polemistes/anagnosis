@@ -1,4 +1,4 @@
-# The plays: the commentaries, introductions and Starkie's translation, from OCR
+# The plays: the commentaries, introductions, appendices and Starkie's translation, from OCR
 
 The English pages of the editions (the editor's notes, his introduction, and for the Clouds
 Starkie's translation) are read by Tesseract with the English and Greek models and turned into
@@ -25,7 +25,7 @@ For each page `p-0250`, in `pipeline/build/drama-prose/<play>/`:
 * `pages/leaf_0250.png`: the whole page.
 * For a translation batch (`trans-NN.md`) the crops are named `trans-p-0251-flags.png` and so on.
 
-The batch file (`notes-NN.md`, `intro-NN.md` or `trans-NN.md`, eight pages each) has a block
+The batch file (`notes-NN.md`, `intro-NN.md`, `trans-NN.md` or `appendix-NN.md`, eight pages each) has a block
 per page:
 
 ```
@@ -248,6 +248,123 @@ II (`p-30139`). The crops are in a folder per scan, `pipeline/build/drama-prose/
   APPENDIX left out as part of it; his signature "C. TAYLOR. Cambridge, August 1906." as the last
   paragraph). Footnotes `[Note: * …]` after the paragraph where the mark stands; run-ons `+ `.
   Keep everything, the paragraphs on editions and translations included (they are prose).
+
+## Jebb's Sophocles: the Appendix and the chapters before the text
+
+R. C. Jebb, *Sophocles: The Plays and Fragments* (Cambridge). Perseus has his text, translation,
+commentary and most of his introduction; what it lacks is read here: his chapter **Manuscripts,
+editions, etc.**, the **pages before the text** (the ancient argument or, for the Trachiniae,
+his note in its place; the persons of the drama; the structure of the play), for the Oedipus
+Tyrannus **the whole introduction**, and his **Appendix** (longer notes on particular lines, at
+the end of the volume). The batches are `pipeline/transcriptions/drama/<play>/intro-NN.md` (the
+chapters before the text) and `appendix-NN.md` (the Appendix), the crops in
+`pipeline/build/drama-prose/<play>/`. `sophocles-prose <play>` turns the checked batches into
+`texts/<play>/introduction.md` (after the chapters from Perseus) and `texts/<play>/appendix.md`;
+the result must look exactly like `texts/electra/appendix.md` and the last two chapters of
+`texts/electra/introduction.md` (look at them before you start). Everything you need is in this
+section; do not open `pipeline/transcriptions/sophocles/` (another route's material).
+
+**Read each page's image through once** (`<stem>-col-l.png`, or `pages/leaf_NNNN.png`), not
+only the flagged words: the OCR knows no italics, and it garbles Jebb's italic words (*Trachiniae*
+read as "Zrachiniae", *Il.* as "ZZ", *Hist.* as "Aist.") and his old-style figures (1 read as I,
+l or ι; 0 as o; 6 as b or 0; "8o f." for "80 f.") without always flagging them. Line and page
+numbers, references and Greek must be exactly the print's.
+
+**What the draft already does** (check each, mend what is wrong): it leaves out the running head
+(page number, APPENDIX., MANUSCRIPTS, EDITIONS, ETC., ΣΟΦΟΚΛΕΟΥΣ), the signature at the foot and
+the large titles APPENDIX. and ΣΟΦΟΚΛΕΟΥΣ ΤΡΑΧΙΝΙΑΙ; it writes the headings below in their forms,
+with the section and line numbers as it could read them (often wrongly: take every number from
+the image); it puts the margin notes after their section's heading or at the start of their
+paragraph; it joins the lines of a paragraph, writes the persons on one line, joins quoted verses
+with ` | `, puts an Appendix note's lemma in bold, and marks a paragraph run on from the page before
+with `+ `. Flags on words of lines the draft left out (a running head, a title) are answered
+`omitted`.
+
+**The Appendix** (`appendix-NN.md`):
+
+* Each note begins with Jebb's line number in bold and, mostly, his lemma. The number becomes a
+  heading of its own: `## Line 70`; with "f." or "ff." as printed, `## Line 29 f.`,
+  `## Line 853 ff.`; a range with an **en dash** (–), `## Lines 11–14`, `## Lines 1264–1278`.
+  Nothing else on the heading line.
+* The lemma (the Greek words after the number) goes in bold at the start of the first paragraph,
+  its stop inside the bold: `**ἔλειπε.** This imperfect has been explained …`. A lemma that
+  stands alone on its line (often a verse or two, set to the right) is a paragraph of its own,
+  its verses separated by ` | `: `**νὺξ γὰρ εἰσάγει | καὶ νὺξ ἀπωθεῖ διαδεδεγμένη πόνον.**`.
+  English after the Greek, "(So the MSS.)", stays outside the bold. A note with no lemma ("11—14
+  As to the coins …") has none.
+* A heading inside a note, in capitals or small capitals ("I. NOTE ON THE CONSTRUCTION.", "THE
+  ORACLE AT DODONA."), is `### ` and the words in ordinary capitals and small letters, the stop
+  kept: `### I. Note on the Construction.` A title printed above a note's number goes **after**
+  the note's heading (`## Line 1166`, then `### The Oracle at Dodona.`).
+* A numbered list (1. Bothe: … 2. Hermann: …; I. … II. …) is a paragraph per item when each
+  item begins a printed line; numbers inside running text stay in it.
+
+**The chapters before the text** (`intro-NN.md`):
+
+* A chapter begins with `# ` and its title as printed, small capitals as ordinary capitals and
+  small letters: `# Manuscripts, editions, etc.`, `# Introduction`.
+* A numbered section (§ 1, § 2 …) begins with a heading `## § 1`; if Jebb prints a note in the
+  margin beside the section's first line, it follows after a spaced em dash, as printed with its
+  stop: `## § 3 — Scholia.`, `## § 5 — The theory of two recensions.` A margin note beside a later
+  paragraph of the section goes at the start of that paragraph in italics: `*Editions.* The
+  complete editions …`. Margin notes are small and the OCR garbles them ("of tw oe"): read each
+  from the image.
+* The pages before the text: `# The ancient argument` once, then `## The argument` (where there
+  are several arguments, as headed in the print: `## I. The argument of Aristophanes`), then
+  `## The persons of the drama` and `## Structure of the play`. For the Trachiniae, which has no
+  ancient argument, Jebb's note in its place ("THE *Trachiniae*, alone among the seven plays, has
+  no ancient ὑπόθεσις …") stands under `## The argument`.
+* The persons: the Greek names as printed, in one paragraph, separated by ` · `, the left column
+  first, then the right: `ΔΗΙΑΝΕΙΡΑ. · ΔΟΥΛΗ ΤΡΟΦΟΣ. · ΥΛΛΟΣ. · …`. The OCR reads these capitals
+  as Latin letters (AHIANEIPA): write them in Greek. Jebb's remarks after them (on the persons and
+  on the actors' parts) are ordinary paragraphs.
+* The structure of the play: a paragraph per numbered part, as printed: `1. πρόλογος, 1—93.`,
+  `3. ἐπεισόδιον πρῶτον, 141—496, including a short ὑπόρχημα, or ‘dance-song,’ 205—224.` (ranges
+  in the running text keep Jebb's —). Leave out stray pencil marks (~, -) at the ends of lines.
+* An argument in Greek (the Oedipus Tyrannus): paragraphs as printed, without the line numbers
+  in its margin; its heading in Greek capitals begins its first paragraph in bold:
+  `**ΥΠΟΘΕΣΙΣ.** Τὸ δρᾶμα …`. Jebb's critical apparatus on it (the small full-width block)
+  follows as one paragraph beginning `*Critical apparatus.*` (our label: never "Critical notes"),
+  each note with its line number:
+  `*Critical apparatus.* 2 **ἐπιγράφουσιν**] So Dindorf with L: vulg. ἐπέγραφον. 4 …`. His commentary
+  on it (the two columns below) is a paragraph per note, the lemma in bold followed by `]`:
+  `2 **τύραννον...ἐπιγράφουσιν**] …`. Where the text, the critical notes and the commentary all
+  run on to the next page, the text continues there after `+ `, the critical apparatus after
+  `+notes `, the commentary after `+comm `, in that order.
+* The list of interpolations and other lists of verses in the manuscripts chapter are kept, as
+  printed, as one paragraph (nothing is left out in Jebb's chapters).
+
+**For both**:
+
+* Paragraphs as printed, separated by a blank line; headings too. A paragraph that runs on to the
+  next page stops at the foot; the next page's block begins with `+ ` and the rest (only the
+  page's first paragraph may begin so). A word divided between two pages is written whole at the
+  end of the first page and left out on the next; a word divided at a line end is written whole
+  (a hyphen only in a word that has one, as *man-headed*).
+* A footnote (small type at the foot, marked ¹ ² or * †): the mark stays in the text where it
+  stands, and the note is a paragraph `[Note: ¹ …]` directly after the paragraph in which its
+  mark stands.
+* Greek verses quoted on lines of their own: one paragraph, the lines separated by ` | `.
+* Jebb's wording, spelling and punctuation exactly; his quotation marks are mostly single ‘ ’
+  (the OCR often reads the closing ’ as ” and the opening ‘ as ¢ or ‘ followed by a space:
+  check every one); the dash is —. Italics `*…*` wherever he prints italics: titles of books
+  (*Adversaria*, *Hist. Numorum*), the abbreviated works he cites (*Il.*, *Od.*, *O. T.*, *Ai.*,
+  *Ph.*), Latin words and phrases (*editio princeps*, *ad loc.*, *i.e.*), the italic heads of
+  numbered paragraphs (`1. *Site.* Dodona stood …`) and words in italics for emphasis (*after*).
+  Small capitals as ordinary capitals: MSS., MS., B.C., A.D., S.W. (the OCR reads them as small
+  letters: "mss.", "Ms." become `MSS.`, `MS.`); the figures of a manuscript's page as printed
+  (p. 64 B). Sigla as printed: L, L², Lc, V², V³ (superscript figures as ² ³, the OCR reads them
+  as ?, *, 2).
+* Greek in Unicode polytonic, precomposed, with every breathing and accent; elision ’ (the OCR's
+  ᾽ is also accepted and made ’ at the merge). The OCR reads short Greek words in Latin letters
+  (yap for γὰρ, ov for οὐ, Tov for τὸν, dpa for ἅμα): correct them wherever they stand.
+* "critical notes" stays where Jebb writes it in his prose; it is his wording.
+* Check with `check-drama-prose <play> transcriptions/drama/<play>/appendix-NN.md` (or
+  `intro-NN.md`): for the Appendix it wants the headings above, increasing line numbers, and each
+  line in `texts/<play>/grc.txt` (where it is not, say why under notes: Jebb may number a verse
+  otherwise than our text).
+
+## Your own files
 
 **Your own files.** Scripts, enlarged crops and other helpers go only in a folder of your own,
 named after your batch file, under the session's scratchpad folder (e.g.

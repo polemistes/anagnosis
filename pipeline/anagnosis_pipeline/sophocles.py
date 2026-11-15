@@ -362,18 +362,21 @@ def label_parts(doc, play: Play) -> None:
         seen.add(name)
 
 
-def add_transcribed_introduction(path: Path, checked: Path, play: Play) -> None:
+def add_transcribed_introduction(path: Path, checked: Path, play: Play, paras: list[str] | None = None,
+                                 how: str = "transcribed page by page") -> None:
     """The chapters of Jebb's Introduction that Perseus lacks (the manuscripts, the ancient
     argument, the persons, the structure; for some plays the whole), transcribed page by page
-    (introduction-*.md, brief INTRODUCTION.md), after those from Perseus."""
+    (introduction-*.md, brief INTRODUCTION.md), after those from Perseus. `paras`: the chapters'
+    paragraphs already merged (sophocles-prose: from the prose OCR batches), `how` they were read."""
     from .sophocles_pages import SCAN_EDITIONS, merge_pages
 
-    paras = merge_pages(checked, "introduction-") if checked.exists() else []
+    if paras is None:
+        paras = merge_pages(checked, "introduction-") if checked.exists() else []
     if not paras:
         return
-    slug = checked.name
+    slug = play.slug
     transcribed = (f"Sophocles: The Plays and Fragments, {PART_ROMAN[play.part]}: The {play.title_en}, "
-                   f"Cambridge University Press, {SCAN_EDITIONS[slug]}, transcribed page by page")
+                   f"Cambridge University Press, {SCAN_EDITIONS[slug]}, {how}")
     if path.exists():
         head, _, body = path.read_text(encoding="utf-8").partition("\n\n")
         head = re.sub(r"^# source: (.*)$", lambda m: f"# source: {m.group(1)}; the chapters after § "
@@ -386,7 +389,8 @@ def add_transcribed_introduction(path: Path, checked: Path, play: Play) -> None:
                 f"# license: CC BY-SA 4.0 (transcription; the edition is in the public domain)\n\n"
                 + "\n\n".join(paras) + "\n")
     path.write_text(text, encoding="utf-8")
-    print(f"added to {path}: {sum(1 for p in paras if p.startswith('#'))} transcribed headings")
+    shown = path.with_suffix("") if path.suffix == ".part" else path
+    print(f"added to {shown}: {sum(1 for p in paras if p.startswith('#'))} transcribed headings")
 
 
 def import_play(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path) -> None:
@@ -493,3 +497,93 @@ def import_play(slug: str, sources: Path, texts: Path, build: Path, lexicon: Pat
             (out / "introduction.md").unlink()
             print(f"no introduction in {files['commentary']}")
     add_transcribed_introduction(out / "introduction.md", checked, play)
+
+
+# ---------------------------------------------------------------- the prose OCR route
+
+PROSE_HOW = "read by OCR and checked against the page images"
+
+
+def prose_paragraphs(directory: Path, kind: str) -> list[str]:
+    """The paragraphs of a play's checked prose batches (drama_prose: <kind>-NN.md, the page's
+    Markdown without its flags and notes), merged as the page-by-page transcriptions are
+    (sophocles_pages.merge_page_blocks: '+ ' runs on, footnotes stay after their paragraph); the
+    OCR's elision mark (᾽, ʼ) after a Greek letter written ’ as in the other plays' documents."""
+    from .drama_prose import read_prose_batches
+    from .sophocles_pages import merge_page_blocks
+
+    pages = {stem: block["md"] for stem, block in read_prose_batches(directory, kind).items()}
+    return [re.sub(r"(?<=[\u0370-\u03ff\u1f00-\u1fff])[\u1fbd\u02bc]", "\u2019", p) for p in merge_page_blocks(pages)]
+
+
+def unchecked_prose(directory: Path, kind: str, index: Path | None = None) -> list[str]:
+    """Why the batches of a kind cannot be merged yet: a flag not answered, a page of the draft's
+    index (build/drama-prose/<slug>/<kind>.json) missing. Empty when they can."""
+    import json
+
+    from .drama_prose import read_prose_batches
+
+    pages = read_prose_batches(directory, kind)
+    out = []
+    for stem, block in pages.items():
+        n = sum(1 for raw in block["flags"] if re.match(r"^\d+ .*→\s*$", raw))
+        if n:
+            out.append(f"{block['batch']} {stem}: {n} flags not answered")
+    if index is not None and index.exists():
+        for p in json.loads(index.read_text(encoding="utf-8")):
+            if p["stem"] not in pages:
+                out.append(f"{p['stem']}: not in the {kind} batches")
+    return out
+
+
+def write_prose(slug: str, sources: Path, texts: Path, transcriptions: Path, index_dir: Path | None = None) -> int:
+    """sophocles-prose: from the checked prose batches of a play on the drama route
+    (transcriptions/drama/<slug>/intro-NN.md, appendix-NN.md) texts/<slug>/introduction.md (the
+    chapters from Perseus, made afresh from sources/jebb-<slug>-commentary.xml as import-sophocles
+    makes them, then the transcribed chapters) and texts/<slug>/appendix.md (as
+    merge-sophocles-appendix). Nothing else in texts/<slug>/ is touched; a kind whose batches are
+    not all checked is left alone. Safe to run again. Returns the number of kinds left alone."""
+    import os
+
+    from .introduction import import_introduction
+    from .sophocles_pages import appendix_header
+
+    play = PLAYS[slug]
+    out = texts / slug
+    out.mkdir(parents=True, exist_ok=True)
+    skipped = 0
+    for kind in ("intro", "appendix"):
+        if not any(transcriptions.glob(f"{kind}-*.md")):
+            print(f"{slug} {kind}: no batches")
+            continue
+        why = unchecked_prose(transcriptions, kind, index_dir / f"{kind}.json" if index_dir else None)
+        if why:
+            print(f"{slug} {kind}: not merged, the batches are not all checked:\n  " + "\n  ".join(why[:20])
+                  + (f"\n  … and {len(why) - 20} more" if len(why) > 20 else ""))
+            skipped += 1
+            continue
+        paras = prose_paragraphs(transcriptions, kind)
+        if kind == "appendix":
+            path = out / "appendix.md"
+            tmp = path.with_name(path.name + ".part")
+            tmp.write_text(appendix_header(slug, PROSE_HOW).rstrip("\n") + "\n\n" + "\n\n".join(paras) + "\n", encoding="utf-8")
+            os.replace(tmp, path)
+            print(f"wrote {path}: {sum(1 for p in paras if p.startswith('## '))} notes")
+            continue
+        path = out / "introduction.md"
+        tmp = path.with_name(path.name + ".part")
+        tmp.unlink(missing_ok=True)
+        commentary = sources / sources_for(play)["commentary"]
+        if play.commentary and commentary.exists():
+            edition = (f"Sophocles: The Plays and Fragments, {PART_ROMAN[play.part]}: The {play.title_en}, ed. R. C. Jebb, "
+                       f"Cambridge University Press, {play.edition}")
+            source = f"Perseus Digital Library, jebb.soph.{play.code}_eng.xml ({edition})"
+            n = import_introduction(commentary, tmp, {
+                "title": "Introduction", "author": "Richard C. Jebb", "source": source, "license": "CC BY-SA 3.0 US"})
+            if not n:
+                tmp.unlink()  # Perseus lacks this play's introduction (the Oedipus Tyrannus)
+            else:
+                print(f"{slug}: {n} sections of the introduction from Perseus")
+        add_transcribed_introduction(tmp, transcriptions, play, paras=paras, how=PROSE_HOW)
+        os.replace(tmp, path)
+    return skipped

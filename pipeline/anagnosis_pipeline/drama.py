@@ -51,7 +51,9 @@ class Play:
     treebank: str = ""           # AGDT file in sources/treebanks/
     glaux: str = ""              # GLAUx file in sources/glaux/
     # the translation: "perseus" (TEI with line numbers), "gutenberg" (the Athenian Society: speeches),
-    # "wikisource" (Coleridge's Bacchantes: speeches), "starkie" (transcribed from the scan: trans-NN.md)
+    # "wikisource" (Coleridge's Bacchantes: speeches), "starkie" (transcribed from the scan: trans-NN.md),
+    # "kept" (made by another command and left as it is: Jebb's Sophocles, eng-jebb.txt from
+    # Perseus by import-sophocles; the merge writes no translation)
     translation: str = "perseus"
     trans_file: str = ""         # under sources/
     translator: str = ""
@@ -69,6 +71,9 @@ class Play:
     notes_leaves: list[tuple[int, int]] = field(default_factory=list)
     intro_leaves: list[tuple[int, int]] = field(default_factory=list)
     trans_leaves: list[tuple[int, int]] = field(default_factory=list)
+    # an appendix of longer notes in prose (Jebb's Sophocles: the Appendix after the commentary),
+    # read like an introduction (drama_prose kind "appendix") and written as appendix.md
+    appendix_leaves: list[tuple[int, int]] = field(default_factory=list)
     sigla_leaves: list[int] = field(default_factory=list)
     # critical notes printed apart from the text pages (Earle's "Notes on the text", an appendix)
     app_leaves: list[tuple[int, int]] = field(default_factory=list)
@@ -154,7 +159,7 @@ class Play:
 
     def leaves(self, kind: str) -> list[int]:
         ranges = {"text": self.text_leaves, "notes": self.notes_leaves, "intro": self.intro_leaves,
-                  "trans": self.trans_leaves, "latin": self.latin_leaves}[kind]
+                  "trans": self.trans_leaves, "latin": self.latin_leaves, "appendix": self.appendix_leaves}[kind]
         out: list[int] = []
         for a, b in ranges:
             out += list(range(a, b + 1, self.leaf_step if kind in ("text", "latin") else 1))
@@ -336,21 +341,41 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
     Play("trachiniae", "Τραχίνιαι", "Trachiniae", "Σοφοκλῆς", "Sophocles", "tlg0011.tlg001",
          "Sophocles: The Plays and Fragments, with critical notes, commentary, and translation in English prose, by R. C. Jebb, Part V: The Trachiniae, Cambridge, University Press, 1892",
          "sophocles05soph", "jebb", "R. C. Jebb", "sophocles_trachiniae_jebb",
-         treebank="tlg0011.tlg001.perseus-grc2.tb.xml", layout="jebb", app_rule="under", head_frac=0.095, speaker_trust=True, app_langs=("eng+grc", "grc+eng"),
+         treebank="tlg0011.tlg001.perseus-grc2.tb.xml", translation="kept", translator="Richard C. Jebb", trans_key="jebb", layout="jebb", app_rule="under", head_frac=0.095, speaker_trust=True, app_langs=("eng+grc", "grc+eng"),
          check_text="sophocles/trachiniae/reference-grc.txt",
          # leaf = PDF page (leaf 0 is hidden): the Greek on the even leaves 80-256, Jebb's
-         # translation facing it; the Appendix 259-284; "Manuscripts, editions, etc." 55-58;
-         # Jebb's note in place of an ancient argument, the persons and the structure 77-79
-         text_leaves=[(80, 257)]),
+         # translation facing it; the Appendix 259-281 (282 blank, the indices from 283);
+         # "Manuscripts, editions, etc." 55-58; Jebb's note in place of an ancient argument, the
+         # persons and the structure 77-79
+         text_leaves=[(80, 257)], intro_leaves=[(55, 58), (77, 79)], appendix_leaves=[(259, 281)]),
     Play("oedipustyrannus", "Οἰδίπους Τύραννος", "Oedipus Tyrannus", "Σοφοκλῆς", "Sophocles", "tlg0011.tlg004",
          "Sophocles: The Plays and Fragments, with critical notes, commentary, and translation in English prose, by R. C. Jebb, Part I: The Oedipus Tyrannus, third edition, Cambridge, University Press, 1893",
          "playsfragmentswi01sophuoft", "jebb", "R. C. Jebb", "sophocles_oedipustyrannus_jebb",
-         treebank="tlg0011.tlg004.perseus-grc1.tb.xml", layout="jebb", app_rule="under", head_frac=0.095, speaker_trust=True, app_langs=("eng+grc", "grc+eng"),
+         treebank="tlg0011.tlg004.perseus-grc1.tb.xml", translation="kept", translator="Richard C. Jebb", trans_key="jebb", layout="jebb", app_rule="under", head_frac=0.095, speaker_trust=True, app_langs=("eng+grc", "grc+eng"),
          check_text="sophocles/oedipustyrannus/reference-grc.txt",
          # leaf = PDF page (leaves from 1; 358-361 hidden): the Greek on the even leaves 110-298
          # (leaf 300, p. 200, holds only the end of the commentary; the Appendix 301-334); the
          # introduction 15-66 and the arguments 104-107, which Perseus lacks
-         text_leaves=[(110, 299)]),
+         text_leaves=[(110, 299)], intro_leaves=[(15, 66), (104, 107)], appendix_leaves=[(301, 334)]),
+    Play("oedipuscoloneus", "Οἰδίπους ἐπὶ Κολωνῷ", "Oedipus at Colonus", "Σοφοκλῆς", "Sophocles", "tlg0011.tlg007",
+         "Sophocles: The Plays and Fragments, with critical notes, commentary, and translation in English prose, by R. C. Jebb, Part II: The Oedipus Coloneus, second edition, Cambridge, University Press, 1889",
+         "sophocles02soph_0", "jebb", "R. C. Jebb", "sophocles_oedipuscoloneus_jebb",
+         glaux="0011-007.xml", layout="jebb", app_rule="under", head_frac=0.095, speaker_trust=True, app_langs=("eng+grc", "grc+eng"),
+         check_text="sophocles/oedipuscoloneus/reference-grc.txt",
+         # twelve leaves are hidden (0, 25, 26, 77, 78, 83, 84, 147, 148, 387, 388, 421), so a leaf
+         # is not its PDF page: PDF 100-363 (the text) = leaves 106-371, the Greek on every other
+         # shown leaf from 106; the Appendix PDF 365-388 = leaves 373-398; "Manuscripts,
+         # editions, etc." about PDF 53-57 = leaves 55-59; the persons about PDF 97 = leaf 103
+         text_leaves=[(106, 371)]),
+    Play("philoctetes", "Φιλοκτήτης", "Philoctetes", "Σοφοκλῆς", "Sophocles", "tlg0011.tlg006",
+         "Sophocles: The Plays and Fragments, with critical notes, commentary, and translation in English prose, by R. C. Jebb, Part IV: The Philoctetes, second edition, Cambridge, University Press, 1898",
+         "playsfragmentswi04sophuoft", "jebb", "R. C. Jebb", "sophocles_philoctetes_jebb",
+         glaux="0011-006.xml", layout="jebb", app_rule="under", head_frac=0.095, speaker_trust=True, app_langs=("eng+grc", "grc+eng"),
+         check_text="sophocles/philoctetes/reference-grc.txt",
+         # leaf = PDF page (leaves from 1; 344-347 hidden): the Greek on the even leaves 76-296;
+         # the Appendix 299-324; the introduction 11-49 and 73-75, and the whole commentary
+         # (under the text, two columns), which Perseus lacks
+         text_leaves=[(76, 297)]),
     # Hesiod's Theogony (pipeline/PLAN-theogony.md): Rzach's Teubner text and apparatus, Paley's
     # commentary (his own text and critical notes on the same pages are not used)
     Play("theogony", "Θεογονία", "Theogony", "Ἡσίοδος", "Hesiod", "tlg0020.tlg001",
@@ -1195,6 +1220,37 @@ def _meta_lines(meta: dict[str, str]) -> list[str]:
     return [f"# {k}: {v}" for k, v in meta.items() if v]
 
 
+def check_text_name(play: Play) -> str:
+    """The check text as grc.txt's source line names it."""
+    if play.check_text:
+        from .sophocles import PLAYS as SOPHOCLES
+
+        # sophocles/<slug>/reference-grc.txt was imported from Jebb's own text on Perseus (TEI P4)
+        return f"Jebb's text in the Perseus Digital Library (soph.{SOPHOCLES[play.slug].code}_gk.xml)"
+    return f"the Perseus Digital Library text ({play.tlg}.perseus-grc2)"
+
+
+def apparatus_meta(play: Play) -> dict[str, str]:
+    """The header of commentary-<app_editor>-apparatus.md; for Jebb's Sophocles that of the plays
+    made earlier (texts/electra/commentary-jebb-apparatus.md)."""
+    if play.check_text:
+        from .sophocles import PART_ROMAN, PLAYS as SOPHOCLES
+        from .sophocles_pages import SCAN_EDITIONS
+
+        s = SOPHOCLES[play.slug]
+        return {"title": "Critical apparatus", "author": "Richard C. Jebb", "lang": "eng",
+                "source": f"Sophocles, The Plays and Fragments, {PART_ROMAN[s.part]}: The {s.title_en}, Cambridge University "
+                          f"Press, {SCAN_EDITIONS[play.slug]} (critical apparatus), read by OCR and checked against the scan",
+                "license": TRANSCRIPTION_LICENSE}
+    return {
+        "title": f"Critical apparatus ({play.app_editor_name})",
+        "author": play.app_editor_name,
+        "lang": "eng" if play.app_langs[1].startswith("eng") else "lat",
+        "source": f"{play.edition}; transcribed from the Internet Archive scan {play.scan}",
+        "license": TRANSCRIPTION_LICENSE,
+    }
+
+
 def merge_play(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path,
                transcriptions: Path | None = None) -> int:
     """texts/<slug>/ from the checked batch files; safe to run again at any time. Writes what its
@@ -1274,8 +1330,8 @@ def merge_play(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path
         before.setdefault(at, []).append(Section(level, kind, label))
     meta = {
         "title": play.title, "author": play.author, "lang": "grc",
-        "source": f"{play.edition}; read from the Internet Archive scan {play.scan} by OCR, matched word by word to the "
-                  f"Perseus Digital Library text ({play.tlg}.perseus-grc2), and checked against the scan where the two disagreed",
+        "source": f"{play.edition}; read from the Internet Archive scan {play.scan} by OCR, matched word by word to "
+                  f"{check_text_name(play)}, and checked against the scan where the two disagreed",
         "edition": play.edition,
         "license": TRANSCRIPTION_LICENSE,
     }
@@ -1322,13 +1378,7 @@ def merge_play(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path
                                  for h, body in notes], [n for n, _t in lines], dict(lines))
     problems += [p.replace("notes:", "apparatus:") for p in probs]
     notes = placed
-    md = _meta_lines({
-        "title": f"Critical apparatus ({play.app_editor_name})",
-        "author": play.app_editor_name,
-        "lang": "eng" if play.app_langs[1].startswith("eng") else "lat",
-        "source": f"{play.edition}; transcribed from the Internet Archive scan {play.scan}",
-        "license": TRANSCRIPTION_LICENSE,
-    }) + [""]
+    md = _meta_lines(apparatus_meta(play)) + [""]
     for heading, body in notes:
         md.append(f"## {heading}")
         md.append(bold_lemmas("\n\n".join(body)))
@@ -1346,7 +1396,11 @@ def merge_play(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path
     # the commentary
     from .drama_prose import merge_kind
 
-    paras = merge_kind(transcriptions, "notes")
+    if play.check_text:
+        # Jebb's Sophocles: commentary-jebb.md and introduction.md are Perseus's (import-sophocles),
+        # the transcribed chapters and the Appendix are added by sophocles-prose; never touched here
+        print("commentary and introduction: left as they are (sophocles-prose writes the transcribed parts)")
+    paras = [] if play.check_text else merge_kind(transcriptions, "notes")
     if paras:
         raw = notes_from_paragraphs(paras)
         placed, probs = place_notes(raw, [n for n, _t in lines], dict(lines))
@@ -1363,7 +1417,7 @@ def merge_play(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path
             md.append("")
         (out / f"commentary-{play.notes_editor}.md").write_text("\n".join(md) + "\n", encoding="utf-8")
         print(f"wrote commentary-{play.notes_editor}.md: {len(placed)} notes")
-    paras = merge_kind(transcriptions, "intro")
+    paras = [] if play.check_text else merge_kind(transcriptions, "intro")
     if paras:
         md = _meta_lines({
             "title": "Introduction", "author": play.notes_editor_name,
@@ -1440,6 +1494,9 @@ def _translation(play: Play, sources: Path, out: Path, lines: list[tuple[str, st
     meta = {"title": play.title_en, "translator": play.translator, "lang": "eng",
             "source": play.trans_edition, "license": play.trans_license}
     eng: list[str] = []
+    if play.translation == "kept":
+        print(f"translation: eng-{play.trans_key}.txt left as it is")
+        return
     if play.translation == "perseus":
         # verses the edition does not print (Play.perseus_drop) have no translation either
         rows = [r for r in perseus_translation(sources / play.trans_file) if r[0] not in play.perseus_drop]

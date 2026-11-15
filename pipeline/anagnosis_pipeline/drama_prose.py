@@ -3,11 +3,11 @@ translation of the Clouds (pipeline/PLAN-drama.md, steps 6-7), by the route of t
 Greek Testament (egt_ocr.py): Tesseract with the English and Greek models, Greek words read again
 with the Greek model, and every word the OCR doubts flagged for an agent to check against a crop.
 
-    python -m anagnosis_pipeline drama-prose <play> notes|intro|trans fetch|ocr|draft
+    python -m anagnosis_pipeline drama-prose <play> notes|intro|trans|appendix fetch|ocr|draft
 
 The draft of each page is written into the batch files pipeline/transcriptions/drama/<play>/
-notes-NN.md, intro-NN.md or trans-NN.md (eight pages each; a file that exists is never
-overwritten) as a block
+notes-NN.md, intro-NN.md, trans-NN.md or appendix-NN.md (eight pages each; a file that exists is
+never overwritten) as a block
 
     === p-0250
     ## 779
@@ -20,6 +20,16 @@ and the crops under pipeline/build/drama-prose/<play>/: p-0250-flags.png (the li
 flagged word, numbered, the word boxed), p-0250-col-l.png and -col-r.png (the columns; one
 column: -col-l.png only). merge_kind() and merge_translation() read the checked batches for
 drama.merge_play.
+
+Jebb's Sophocles (layout "jebb"): the chapters before the text (kind intro) and the Appendix (kind
+appendix) are full-width pages, the manuscripts chapter with notes in the outer margin; the draft
+writes them as the briefs sophocles/INTRODUCTION.md and APPENDIX.md want (_jebb_markdown): the
+margin note after the section's heading (`## § 3 — Scholia.`) or in italics at the start of its
+paragraph, `# Manuscripts, editions, etc.`, `# The ancient argument`, `## The persons of the
+drama` (the names in one line), `## Structure of the play`, the Appendix's notes headed
+`## Line 15`, `## Lines 11–14`, `## Line 29 f.` with the lemma in bold; the section and line
+numbers, which the OCR often garbles, are settled over the pages in order (_resolve_headings).
+sophocles.write_prose (sophocles-prose) reads the checked batches.
 """
 from __future__ import annotations
 
@@ -38,7 +48,7 @@ from .drama_pages import fetch_leaf, route_dir, scan_dirs
 ROOT = Path(__file__).resolve().parent.parent.parent
 PIPELINE = ROOT / "pipeline"
 PAGES_PER_BATCH = 8
-KINDS = ("notes", "intro", "trans")
+KINDS = ("notes", "intro", "trans", "appendix")
 
 
 # --- fetch and OCR -----------------------------------------------------------------------------
@@ -113,6 +123,13 @@ def _region(play: Play, kind: str, leaf: int, lines: list[dict], size: tuple[int
     # the running head (NOTES. LINES 412-450. / AGAMEMNON. / INTRODUCTION.) a little lower down
     body = [l for l in body if not (l["bbox"][1] < 0.1 * H and len(l["words"]) <= 5
                                     and _capitals(" ".join(w["text"] for w in l["words"])))]
+    if play.layout == "jebb" and kind in ("intro", "appendix"):
+        # Jebb's head with its page number in small roman figures (EDITIONS, ETC. lii), and his
+        # signature at the foot (J. S. V., I—2): no word of three small letters
+        body = [l for l in body if not (l["bbox"][1] < 0.1 * H and len(l["words"]) <= 6 and _capitals(" ".join(
+            w["text"] for w in l["words"] if not re.fullmatch(r"[ivxlcIl1\d]{1,6}[.,]?", w["text"]))))]
+        body = [l for l in body if not (l["bbox"][1] > 0.88 * H and len(" ".join(w["text"] for w in l["words"])) <= 12
+                                        and not re.search(r"[a-z]{3}", " ".join(w["text"] for w in l["words"])))]
     # a page number or signature alone at the foot
     body = [l for l in body if not (l["bbox"][1] > 0.88 * H and len(l["words"]) <= 2
                                     and len(" ".join(w["text"] for w in l["words"])) <= 7
@@ -278,6 +295,9 @@ def analyse_page(play: Play, kind: str, leaf: int, voc, names: set[str], scan: s
     img = Image.open(sbuild / "pages" / f"leaf_{leaf:04d}.png").convert("L")
     lines = read_lines(ocr_leaf(scan, leaf))
     order, mid = _region(play, kind, leaf, lines, img.size)
+    jebb = play.layout == "jebb" and kind in ("intro", "appendix")
+    if jebb:
+        order = _jebb_margins(order, img.size)
     cols: dict[str, list[dict]] = {}
     for l in order:
         cols.setdefault(l["region"], []).append(l)
@@ -353,9 +373,12 @@ def analyse_page(play: Play, kind: str, leaf: int, voc, names: set[str], scan: s
             caps = _capitals(text) and len(text) < 90
             numbered = kind == "notes" and note_heading(text, play.note_start) is not None
             short_end = prev is not None and prev["bbox"][2] < right - 3 * h and re.search(r"[.?!:]['’”)]?$", prev["text"])
+            if jebb and prev is not None and prev["bbox"][2] < right - 1.5 * h and re.match(r"^(?:\d{1,2}|[IlΙ1]{1,2})\.\s", text):
+                short_end = True  # an item of a numbered list (the structure of the play) after a short line
             new = (prev is None or indent > 0.8 * h or centred or caps or numbered or bool(short_end)
                    or (prev is not None and prev["caps"]))
-            entry = {"text": text, "bbox": l["bbox"], "centred": centred, "caps": caps}
+            entry = {"text": text, "bbox": l["bbox"], "centred": centred, "caps": caps, "margin": l.get("margin"),
+                     "words": l["words"]}
             if new or not paras:
                 paras.append({"lines": [entry], "region": region, "indent": indent > 0.8 * h})
             else:
@@ -368,7 +391,10 @@ def analyse_page(play: Play, kind: str, leaf: int, voc, names: set[str], scan: s
             else:
                 paras.append({"lines": [{"text": text}], "region": region, "indent": False, "foot": True})
     md: list[str] = []
-    for k, p in enumerate(paras):
+    cands: list[dict] = []
+    if jebb:
+        md = _jebb_markdown(paras, kind, cands)
+    for k, p in enumerate([] if jebb else paras):
         text = _join_lines([x["text"] for x in p["lines"]])
         if p.get("foot"):
             md.append(f"[Note: {text}]")
@@ -413,7 +439,7 @@ def analyse_page(play: Play, kind: str, leaf: int, voc, names: set[str], scan: s
         md.append(text)
         md.append("")
     return {"leaf": leaf, "md": "\n".join(md).strip(), "flags": flags, "lines": lines, "mid": mid,
-            "order": idx, "size": list(img.size), "scan": scan}
+            "order": idx, "size": list(img.size), "scan": scan, "cands": cands}
 
 
 def _crops(play: Play, kind: str, page: dict, out_dir: Path, stem: str) -> None:
@@ -485,6 +511,8 @@ def write_draft(slug: str, kind: str) -> list[dict]:
         names = _names(scan, leaves, voc)
         with ThreadPoolExecutor(int(os.environ.get("DRAMA_WORKERS", "4"))) as ex:
             pages += list(ex.map(lambda l: analyse_page(play, kind, l, voc, names, scan), leaves))
+    if play.layout == "jebb" and kind in ("intro", "appendix"):
+        _resolve_headings(pages, kind)
     top = route_dir("drama-prose", slug, play.scan_for(kind)) if kind not in play.notes_sources else prose_dir(play, kind, play.scan_for(kind)).parent
     index = []
     trans_starts = _greek_speech_starts(slug) if kind == "trans" else {}
@@ -542,6 +570,285 @@ def _names(scan: str, leaves: list[int], voc) -> set[str]:
                     if tok[:1].isupper() and not tok.isupper() and _script(tok) == "latin" and w["conf"] >= 90 and tok.lower() not in english:
                         seen[tok] += 1
     return {t for t, n in seen.items() if n >= 3}
+
+
+# --- Jebb's Sophocles: the chapters before the text and the Appendix -------------------------------
+
+_GREEK_LETTER = re.compile(r"[Ͱ-Ͽἀ-῿]")
+_DIGITS = str.maketrans({"I": "1", "l": "1", "Ι": "1", "ι": "1", "|": "1", "o": "0", "O": "0", "ο": "0", "Ο": "0"})
+
+
+def _jebb_margins(order: list[dict], size: tuple[int, int]) -> list[dict]:
+    """Jebb's notes in the outer margin of the manuscripts chapter (MSS., Scholia., The theory of
+    two recensions.): the words beyond the edge of the justified lines, taken out of their lines
+    and attached, as l["margin"], to the line of the text beside which the note begins. Specks at
+    the page's edge and tall boxes (the binding, a library stamp) are dropped. Returns the lines
+    left."""
+    W, _H = size
+    if not order:
+        return order
+    hs = sorted(l["bbox"][3] - l["bbox"][1] for l in order)
+    h = hs[len(hs) // 2]
+    keep = [l for l in order if not (l["bbox"][0] > 0.94 * W or l["bbox"][2] < 0.06 * W or l["bbox"][3] - l["bbox"][1] > 3 * h)]
+    # a column of numbers that Tesseract took for one tall line (5. 6. 7. 8. 9. of the structure
+    # of the play): each word put back at the start of the line it stands beside
+    for tall in [l for l in order if l["bbox"][3] - l["bbox"][1] > 3 * h and 0.06 * W < l["bbox"][0] < 0.94 * W]:
+        for w in tall["words"]:
+            y = (w["bbox"][1] + w["bbox"][3]) / 2
+            beside = [l for l in keep if l["bbox"][1] <= y <= l["bbox"][3] and l["bbox"][0] > w["bbox"][2]]
+            if beside:
+                beside[0]["words"].insert(0, w)
+                beside[0]["bbox"] = [w["bbox"][0]] + beside[0]["bbox"][1:]
+    full = [l for l in keep if len(l["words"]) >= 5]
+
+    def edge(values: list[int]) -> int | None:
+        # the x at which most lines begin (end), if at least five lines share it
+        best: list[int] = []
+        for v in values:
+            near = [u for u in values if abs(u - v) <= 0.006 * W]
+            if len(near) > len(best):
+                best = near
+        return sorted(best)[len(best) // 2] if len(best) >= 5 else None
+
+    right = edge([l["bbox"][2] for l in full])
+    left = edge([l["bbox"][0] for l in full])
+    found: list[tuple[int, dict]] = []  # (y, word)
+    body: list[dict] = []
+    for l in keep:
+        out = [w for w in l["words"] if (right is not None and w["bbox"][0] > right + 0.1 * h)
+               or (left is not None and w["bbox"][2] < left - 0.1 * h)]
+        if out:
+            found += [(w["bbox"][1], w) for w in out]
+            l["words"] = [w for w in l["words"] if w not in out]
+            if not l["words"]:
+                continue
+            l["bbox"] = [min(w["bbox"][0] for w in l["words"]), min(w["bbox"][1] for w in l["words"]),
+                         max(w["bbox"][2] for w in l["words"]), max(w["bbox"][3] for w in l["words"])]
+        body.append(l)
+    found.sort(key=lambda t: (t[0], t[1]["bbox"][0]))
+    notes: list[list[dict]] = []  # a note's lines follow one another closely
+    for y, w in found:
+        if notes and y - notes[-1][-1]["bbox"][1] < 2.0 * h:
+            notes[-1].append(w)
+        else:
+            notes.append([w])
+    for note in notes:
+        # the words of the note's lines in reading order, a word divided at a line end joined
+        lines_of: list[list[dict]] = []
+        for w in sorted(note, key=lambda w: w["bbox"][1]):
+            if lines_of and abs(w["bbox"][1] - lines_of[-1][0]["bbox"][1]) < 0.5 * h:
+                lines_of[-1].append(w)
+            else:
+                lines_of.append([w])
+        text = _join_lines([" ".join(x["text"] for x in sorted(ws, key=lambda w: w["bbox"][0])) for ws in lines_of])
+        y = (note[0]["bbox"][1] + note[0]["bbox"][3]) / 2
+        if body:
+            near = min(body, key=lambda l: abs((l["bbox"][1] + l["bbox"][3]) / 2 - y))
+            near["margin"] = (near["margin"] + " " + text) if near.get("margin") else text
+    return body
+
+
+def _greek_share(text: str) -> float:
+    letters = [c for c in text if c.isalpha()]
+    return sum(1 for c in letters if _GREEK_LETTER.match(c)) / len(letters) if letters else 0.0
+
+
+def _bold_lemma_lead(text: str) -> tuple[str, str]:
+    """An Appendix note's lemma: the Greek at the start of the text up to where Jebb's English
+    begins (a word in Latin letters of four letters or more, or two such words in a row; the OCR
+    reads short Greek words as Latin: yap, ov). Returns (lemma, the rest); ('', text) if none."""
+    words = text.split(" ")
+    end = len(words)
+    for i, w in enumerate(words):
+        core = re.sub(r"[^A-Za-z]", "", w)
+        if not core:
+            continue
+        nxt = re.sub(r"[^A-Za-z]", "", words[i + 1]) if i + 1 < len(words) else ""
+        if len(core) >= 4 or (nxt and not _GREEK_LETTER.search(words[i + 1])):
+            end = i
+            break
+    lemma = " ".join(words[:end]).strip()
+    if not re.search(r"[Ͱ-Ͽἀ-῿]{2}", lemma):
+        return "", text
+    return lemma, " ".join(words[end:]).strip()
+
+
+def _jebb_markdown(paras: list[dict], kind: str, cands: list[dict]) -> list[str]:
+    """The Markdown of a page of Jebb's chapters before the text (intro) or of his Appendix: see
+    the module's docstring. A paragraph that may begin a numbered section or an Appendix note is
+    written as a placeholder line (\x00k, cands[k]) that _resolve_headings settles."""
+    # verses quoted on lines of their own (short lines in Greek): one paragraph, lines joined by |
+    merged: list[dict] = []
+    for p in paras:
+        one = len(p["lines"]) == 1 and not p.get("foot")
+        verse = (one and _greek_share(p["lines"][0]["text"]) >= 0.7 and not p["lines"][0]["caps"]
+                 and not re.match(r"^\S{1,3}\.\s", p["lines"][0]["text"]))
+        if verse and merged and merged[-1].get("verse"):
+            merged[-1]["lines"][0]["text"] += " | " + p["lines"][0]["text"]
+            continue
+        if verse:
+            p = dict(p, verse=True, lines=[dict(p["lines"][0])])
+        merged.append(p)
+    md: list[str] = []
+    persons: tuple[list[str], list[str]] | None = None
+    title = argument = False
+    bold_next = ""
+    k = 0
+    while k < len(merged):
+        p = merged[k]
+        first = k == 0
+        k += 1
+        text = _join_lines([x["text"] for x in p["lines"]])
+        if p.get("foot"):
+            md += [f"[Note: {text}]", ""]
+            continue
+        line0 = p["lines"][0]
+        heading = len(p["lines"]) == 1 and (line0["caps"] or (line0["centred"] and len(text) < 80)) and not p.get("verse")
+        if persons is not None:
+            if heading and _capitals(text):
+                # ΔΗΙΑΝΕΙΡΑ.   ΑΓΓΕΛΟΣ.: the names in two columns, the left one read first
+                ws = line0["words"]
+                h = max(1, line0["bbox"][3] - line0["bbox"][1])
+                cut = next((i for i in range(1, len(ws)) if ws[i]["bbox"][0] - ws[i - 1]["bbox"][2] > 3 * h), len(ws))
+                persons[0].append(" ".join(w["text"] for w in ws[:cut]))
+                if cut < len(ws):
+                    persons[1].append(" ".join(w["text"] for w in ws[cut:]))
+                continue
+            md += [" · ".join(persons[0] + persons[1]), ""]
+            persons = None
+        if heading and re.search(r"ΣΟΦΟΚΛ", text):
+            title = True  # the play's title over the pages before the text: not written
+            continue
+        if heading and title and _greek_share(text) >= 0.7 and not re.search(r"ΥΠΟΘΕΣ|ΠΡΟΣ|IIPO", text):
+            md += ["# The ancient argument", ""]
+            title, argument = False, True
+            continue
+        if heading and re.search(r"ΠΡΟΣ|IIPO|ΙΙΡΟ", text):  # ΤΑ ΤΟΥ ΔΡΑΜΑΤΟΣ ΠΡΟΣΩΠΑ, read as Latin too
+            md += ["## The persons of the drama", ""]
+            persons = ([], [])
+            argument = False
+            continue
+        if heading and re.search(r"STRUCTURE\s+OF\s+THE\s+PLAY", text, re.I):
+            md += ["## Structure of the play", ""]
+            argument = False
+            continue
+        if heading and re.search(r"ΥΠΟΘΕΣ", text):
+            if argument:
+                md += ["## The argument", ""]
+                argument = False
+            bold_next = f"**{text.strip()}**"
+            continue
+        if heading and _capitals(text) and kind == "appendix":
+            if re.fullmatch(r"\W*APPENDIX\W*", text):
+                continue
+            md += ["### " + title_case(text) + ("." if text.rstrip().endswith(".") else ""), ""]
+            continue
+        if heading and _capitals(text):
+            words = text.strip().lower()
+            words = words if words.endswith("etc.") else words.rstrip(" .")
+            md += ["# " + words[:1].upper() + words[1:], ""]
+            continue
+        if argument:
+            md += ["## The argument", ""]
+            argument = False
+        if bold_next:
+            text = bold_next + " " + text
+            bold_next = ""
+        margin = next((x["margin"] for x in p["lines"] if x.get("margin")), None)
+        prefix = "+ " if first and not p["indent"] else ""
+        if kind == "intro" and (p["indent"] or first):
+            m1 = re.match(r"^(§|δ|S|s|8|5)\s*\.?\s*([0-9IlΙι|oOοΟ]{1,2})\s*\.\s+", text)
+            m2 = re.match(r"^([0-9IlΙι|oOοΟ]{1,3})\s*\.\s+", text)
+            nums = []
+            for m, g in ((m1, 2), (m2, 1)):
+                if m and m.group(g).translate(_DIGITS).isdigit():
+                    nums.append((int(m.group(g).translate(_DIGITS)), m.end()))
+            if nums:
+                cands.append({"kind": "sec", "nums": [n for n, _e in nums], "explicit": bool(m1 and m1.group(1) == "§"),
+                              "margin": margin, "bodies": [text[e:] for _n, e in nums],
+                              "orig": prefix + (f"*{margin}* " if margin else "") + text})
+                md += [f"\x00{len(cands) - 1}", ""]
+                continue
+        if kind == "appendix" and (p["indent"] or first):
+            m = re.match(r"^([0-9IlΙ|oOο]{1,4})(?:\s*[-—–]+\s*([0-9IlΙ|oOο]{1,4}))?(?:\s*([fἢἔ]{1,2})[.,])?(?=\s|$)", text)
+            ff = None
+            if not m:
+                # "190 f." read as "1901."
+                m = ff = re.match(r"^([0-9IlΙ|oOο]{2,4})1\.(?=\s)", text)
+            if m and m.group(1).translate(_DIGITS).isdigit() and (ff or not m.group(2) or m.group(2).translate(_DIGITS).isdigit()):
+                read = m.group(1).translate(_DIGITS)
+                b = int(m.group(2).translate(_DIGITS)) if not ff and m.group(2) else None
+                suffix = " f." if ff else {1: " f.", 2: " ff."}.get(len(m.group(3) or ""), "")
+                # the number as read, then (an extra figure read: 8563 for 853) with one figure less
+                nums = [int(read)] + sorted({int(read[:i] + read[i + 1:]) for i in range(len(read))} if len(read) >= 3 else set())
+                options = [(a, f"## Lines {a}–{b}" if b and b > a else f"## Line {a}{suffix}") for a in nums]
+                lemma, rest = _bold_lemma_lead(text[m.end():].strip())
+                if (len(p["lines"]) == 1 or p.get("verse")) and _greek_share(text[m.end():]) >= 0.6:
+                    lemma, rest = text[m.end():].strip(), ""  # the lemma alone on its line(s), Greek misread as Latin and all
+                if lemma and not rest and k < len(merged) and merged[k].get("verse"):
+                    lemma += " | " + merged[k]["lines"][0]["text"]  # the lemma's verses run on below
+                    k += 1
+                # Jebb's English after the lemma's Greek ("(So the MSS.)", "(1)", an opening quote) not in bold
+                tail = re.search(r"\s*(\([^()]*[A-Za-z0-9][^()]*\)|[‘“]|—\S*)$", lemma) if lemma else None
+                if tail and tail.start() > 0:
+                    rest = (tail.group(1) + " " + rest).strip()
+                    lemma = lemma[:tail.start()].rstrip()
+                body = f"**{lemma}** {rest}" if lemma else rest
+                cands.append({"kind": "line", "options": options, "body": body.strip(), "orig": prefix + text})
+                md += [f"\x00{len(cands) - 1}", ""]
+                continue
+        if margin:
+            text = f"*{margin}* " + text
+        md += [prefix + text, ""]
+    if persons is not None:
+        md += [" · ".join(persons[0] + persons[1]), ""]
+    return md
+
+
+def _resolve_headings(pages: list[dict], kind: str, last_line: int = 2000) -> None:
+    """The placeholders of _jebb_markdown settled over the pages in order: a section heading where
+    its number (one of the readings the OCR allows) follows the last section's (or Jebb prints §
+    clearly), counted afresh in each chapter; an Appendix note where its line number is higher
+    than the last note's. Anything else goes back into the text as read."""
+    last = 0
+    for page in pages:
+        out: list[str] = []
+        for raw in page["md"].split("\n"):
+            if raw.startswith("# "):
+                last = 0
+            m = re.fullmatch("\x00(\\d+)", raw)
+            if not m:
+                out.append(raw)
+                continue
+            c = page["cands"][int(m.group(1))]
+            if c["kind"] == "sec":
+                pick = next((i for i, n in enumerate(c["nums"]) if n == last + 1), None)
+                if pick is None and c["explicit"]:
+                    pick = 0
+                if pick is None:
+                    out.append(c["orig"])
+                    continue
+                last = c["nums"][pick]
+                out += [f"## § {last}" + (f" — {c['margin']}" if c["margin"] else ""), ""]
+                if c["bodies"][pick].strip():
+                    out.append(c["bodies"][pick].strip())
+                elif out[-1] == "":
+                    out.pop()
+            else:
+                pick = next(((a, h) for a, h in c["options"] if last < a <= last_line), None)
+                if pick is None:
+                    out.append(c["orig"])
+                    continue
+                last = pick[0]
+                out += [pick[1], ""]
+                if c["body"]:
+                    out.append(c["body"])
+                elif out[-1] == "":
+                    out.pop()
+        md = re.sub(r"\n{3,}", "\n\n", "\n".join(out)).strip()
+        # a title printed above an Appendix note (THE ORACLE AT DODONA. over 1166) goes under the
+        # note's heading, so that it belongs to that note and not to the one before
+        page["md"] = re.sub(r"^(### [^\n]+)\n\n(## Lines? [^\n]+)$", r"\2\n\n\1", md, flags=re.M)
 
 
 # --- Starkie's translation ---------------------------------------------------------------------
@@ -677,7 +984,7 @@ _VOWEL_START = re.compile(r"^[αεηιουωρ]", re.I)
 def check_prose(slug: str, kind: str, path: Path, texts: Path) -> list[str]:
     """Remarks on one checked prose batch: pages missing or out of order, headings, run-on marks,
     flags not answered, Greek not precomposed or without a breathing on an initial vowel or rho,
-    and (notes, translation) line numbers that grc.txt lacks."""
+    and (notes, translation, appendix) line numbers that grc.txt lacks."""
     out_dir = PIPELINE / "build" / "drama-prose" / slug
     index = json.loads((out_dir / f"{kind}.json").read_text(encoding="utf-8"))
     pages = read_prose_batches(path.parent, kind, files=[path])
@@ -756,6 +1063,21 @@ def check_prose(slug: str, kind: str, path: Path, texts: Path) -> list[str]:
                         prev_sec = n
                     elif not re.match(r"^#{1,3} \S", raw):
                         remarks.append(f"{stem}: heading “{raw}” is not well formed")
+                elif kind == "appendix":
+                    # Jebb's Appendix (sophocles/APPENDIX.md): ## Line 15, ## Line 29 f., ## Lines 11–14, ### I. Note on …
+                    if raw.startswith("### ") and len(raw) > 4:
+                        continue
+                    mm = re.match(r"^## Lines? (\d+)(?:–(\d+))?(?: (ff?)\.)?$", raw)
+                    if not mm or (raw.startswith("## Lines ") != bool(mm.group(2))) or (mm.group(2) and mm.group(3)):
+                        remarks.append(f"{stem}: heading “{raw}” is not '## Line N', '## Line N f.', '## Line N ff.', "
+                                       f"'## Lines N–M' (en dash) or '### …'")
+                        continue
+                    n = int(mm.group(1))
+                    if n <= prev_note:
+                        remarks.append(f"{stem}: note {raw[3:]} comes after line {prev_note}")
+                    prev_note = n
+                    if numbers and mm.group(1) not in numbers and mm.group(1) not in noted:
+                        remarks.append(f"{stem}: note {raw[3:]}: no line {n} in texts/{slug}/grc.txt (say why under notes)")
             if kind == "trans":
                 if not (raw.startswith("@ ") or raw.startswith("+ ") or re.match(r"^\d+[a-z]?\t", raw)):
                     remarks.append(f"{stem}: “{raw[:50]}” is neither '@ Speaker', 'N<TAB>text' nor a run-on '+ '")

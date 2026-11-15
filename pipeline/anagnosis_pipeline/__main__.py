@@ -54,13 +54,15 @@ def main(argv: list[str] | None = None) -> int:
     cdb = sub.add_parser("check-drama-batch", help="check text batch files of a play (pipeline/transcriptions/drama/<play>/batch-NN.md)")
     cdb.add_argument("play")
     cdb.add_argument("files", nargs="+")
-    dpr = sub.add_parser("drama-prose", help="a play's notes, introduction or translation by OCR (drama_prose.py): notes|intro|trans fetch|ocr|draft")
+    dpr = sub.add_parser("drama-prose", help="a play's notes, introduction, translation or appendix by OCR (drama_prose.py): notes|intro|trans|appendix fetch|ocr|draft")
     dpr.add_argument("play")
-    dpr.add_argument("kind", choices=["notes", "intro", "trans"])
+    dpr.add_argument("kind", choices=["notes", "intro", "trans", "appendix"])
     dpr.add_argument("step", choices=["fetch", "ocr", "draft"])
-    cdp = sub.add_parser("check-drama-prose", help="check prose batch files of a play (notes-NN.md, intro-NN.md, trans-NN.md)")
+    cdp = sub.add_parser("check-drama-prose", help="check prose batch files of a play (notes-NN.md, intro-NN.md, trans-NN.md, appendix-NN.md)")
     cdp.add_argument("play")
     cdp.add_argument("files", nargs="+")
+    spr = sub.add_parser("sophocles-prose", help="texts/<play>/introduction.md (Perseus's chapters, then the transcribed ones) and appendix.md from the checked prose batches (intro-NN.md, appendix-NN.md) of a Sophocles play on the drama route")
+    spr.add_argument("play")
     drs = sub.add_parser("drama-residuals", help="what the checked text and the OCR still disagree on, per page, for a second pass (drama_residuals.py)")
     drs.add_argument("play")
     drs.add_argument("files", nargs="*")
@@ -203,9 +205,9 @@ def main(argv: list[str] | None = None) -> int:
         from .drama_prose import check_prose
         bad = 0
         for f in args.files:
-            kind = re.match(r"(notes|intro|trans)-", Path(f).name)
+            kind = re.match(r"(notes|intro|trans|appendix)-", Path(f).name)
             if not kind:
-                print(f"{f}: not a notes-, intro- or trans- file")
+                print(f"{f}: not a notes-, intro-, trans- or appendix- file")
                 bad += 1
                 continue
             problems = check_prose(args.play, kind.group(1), Path(f), TEXTS)
@@ -214,6 +216,14 @@ def main(argv: list[str] | None = None) -> int:
                 print("  " + p)
             bad += len(problems)
         return 1 if bad else 0
+    elif args.cmd == "sophocles-prose":
+        from .drama import PLAYS as DRAMA
+        from .sophocles import write_prose
+        if args.play not in DRAMA or not DRAMA[args.play].check_text:
+            print(f"{args.play}: not a Sophocles play on the drama route (drama.PLAYS with check_text)")
+            return 1
+        return 1 if write_prose(args.play, SOURCES, TEXTS, ROOT / "pipeline" / "transcriptions" / "drama" / args.play,
+                                ROOT / "pipeline" / "build" / "drama-prose" / args.play) else 0
     elif args.cmd == "drama-residuals":
         from collections import Counter
         from .drama_residuals import residuals
@@ -339,17 +349,12 @@ def main(argv: list[str] | None = None) -> int:
             print(f"{slug}: {n} notes" + (f"; sigla: {sigla[:80]}" if sigla else ""))
     elif args.cmd == "merge-sophocles-appendix":
         from .sophocles import PLAYS, PART_ROMAN
-        from .sophocles_pages import SCAN_EDITIONS, merge_appendix
+        from .sophocles_pages import appendix_header, merge_appendix
         for slug in args.plays or list(PLAYS):
-            play = PLAYS[slug]
             d = ROOT / "pipeline" / "transcriptions" / "sophocles" / slug
             if not any(d.glob("appendix-*.md")):
                 continue
-            header = (f"# title: Appendix\n# author: Richard C. Jebb\n"
-                      f"# source: Sophocles, The Plays and Fragments, {PART_ROMAN[play.part]}: The {play.title_en}, Cambridge University Press, "
-                      f"{SCAN_EDITIONS[slug]} (Appendix), transcribed page by page\n"
-                      f"# license: CC BY-SA 4.0 (transcription; the edition is in the public domain)\n")
-            n = merge_appendix(d, TEXTS / slug / "appendix.md", header)
+            n = merge_appendix(d, TEXTS / slug / "appendix.md", appendix_header(slug))
             print(f"{slug}: {n} notes")
     elif args.cmd == "import-sophocles":
         from .sophocles import PLAYS, import_play

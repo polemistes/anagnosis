@@ -199,6 +199,17 @@ def merge(directory: Path, out: Path, header: str) -> tuple[int, str]:
     return len(order), "\n\n".join(preface)
 
 
+def appendix_header(slug: str, how: str = "transcribed page by page") -> str:
+    """The header lines of texts/<slug>/appendix.md."""
+    from .sophocles import PART_ROMAN, PLAYS
+
+    play = PLAYS[slug]
+    return (f"# title: Appendix\n# author: Richard C. Jebb\n"
+            f"# source: Sophocles, The Plays and Fragments, {PART_ROMAN[play.part]}: The {play.title_en}, Cambridge University Press, "
+            f"{SCAN_EDITIONS[slug]} (Appendix), {how}\n"
+            f"# license: CC BY-SA 4.0 (transcription; the edition is in the public domain)\n")
+
+
 def merge_appendix(directory: Path, out: Path, header: str) -> int:
     """Jebb's Appendix from the page batches (appendix-*.md, brief APPENDIX.md). Returns the
     number of notes (## headings)."""
@@ -221,6 +232,11 @@ def merge_pages(directory: Path, prefix: str) -> list[str]:
                 pages[stem] = []
             elif stem is not None:
                 pages[stem].append(raw.rstrip())
+    return merge_page_blocks(pages)
+
+
+def merge_page_blocks(pages: dict[str, list[str]]) -> list[str]:
+    """merge_pages() for pages already read: {stem: the page's Markdown lines}."""
     paras: list[str] = []
     for stem in sorted(pages):
         for block in re.split(r"\n\s*\n", "\n".join(pages[stem])):
@@ -258,7 +274,7 @@ def _greek(text: str) -> bool:
 
 
 def _stream(para: str) -> str:
-    if para.startswith("*Critical notes.*"):
+    if para.startswith(("*Critical notes.*", "*Critical apparatus.*")):
         return "notes"
     if re.match(r"^(\d+[a-z]?\s+)?\*\*[^*]+\*\*\]", para):
         return "comm"
