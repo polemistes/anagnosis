@@ -122,11 +122,11 @@
 883	τάνδʼ αἰχμᾷ βέλεος κακοῦ ξυνεῖλε; πῶς ἐμήσατο
 885	πρὸς θανάτῳ θάνατον ἀνύσασα μόνα;
 @ Τροφός
-886	στονόεντος ἐν τομᾷ σιδάρου.
+887	στονόεντος ἐν τομᾷ σιδάρου.
 @ Χορός
-887	ἐπεῖδες, ὦ ματαία, τάνδʼ ὕβριν;
+888	ἐπεῖδες, ὦ ματαία, τάνδʼ ὕβριν;
 @ Τροφός
-888	ἐπεῖδον, ὡς δὴ πλησία παραστάτις.
+889	ἐπεῖδον, ὡς δὴ πλησία παραστάτις.
 @ Χορός
 890	τίς ἦν; πῶς; φέρʼ εἰπέ.
 @ Τροφός
@@ -162,12 +162,12 @@
 --- notes
 883	flag (no margin number read): the whole page (leaf 206) prints 885 beside πρὸς θανάτῳ (885), 890 beside τίς ἦν; (890), 895 beside δόμοις τοῖσδʼ (895) and 900 beside ἐπεὶ παρῆλθε (900); the numbering agrees.
 883	the print has πῶς (circumflex), not the draft's πως (leaf 206); corrected.
-887	flags (τάνδε; τὴν not found): the print has ἐπεῖδες, ὦ ματαία, τάνδʼ ὕβριν; (no τὴν; Jebb's note on 888 quotes Wunder's τήνδε τὴν ὕβριν as a conjecture); corrected.
+888	flags (τάνδε; τὴν not found): the print has ἐπεῖδες, ὦ ματαία, τάνδʼ ὕβριν; (no τὴν; Jebb's note on 888 quotes Wunder's τήνδε τὴν ὕβριν as a conjecture); corrected.
 892a	flag (split): the print has ΤΡ. σαφηνῆ. on the same printed line after ΧΟ. τί φωνεῖς;; split kept.
 893	the print has ⟨δὴ⟩ in angle brackets (Jebb's supplement, printed < >; see his note on 893 f.); brackets added.
 895	flag (δόμοισι: the OCR reads δόμοις): the print has δόμοις (Nauck's, as Jebb's note on 895 says); corrected.
 900	flags (γὰρ not found; ἦλθε: the OCR reads παρῆλθε): the print has ἐπεὶ παρῆλθε δωμάτων εἴσω μόνη, (the MSS. reading, Jebb's note on 900; Perseus has Schaefer's γὰρ ἦλθε), with a comma at the end; corrected.
-887	Jebb's apparatus numbers 887 (τομᾷ) and 888 (ὦ ματαία) are his own count and refer to our 886 and 887; kept as printed.
+887	rev: renumbered to the print: στονόεντος, ἐπεῖδες, ἐπεῖδον are 887, 888, 889 (were 886-888, Perseus's count, which skips 889); Jebb's apparatus (887 τομᾷ, 888 ὦ ματαία) and his commentary (886 μόνα, 887 στονόεντος, 888 ὦ ματαία, 889 ὡς δὴ … παραστάτις) count them so, his 885 covering πρὸς θανάτῳ … μόνα; (885-886); margins 885 and 890 unchanged. The apparatus 887 and 888 now stand on their verses.
 891	the print has αὐτῆ in both places ("αὐτῆ (not αὐτῆ) L"); the iota subscript of the second, which the sense requires, has not printed: an evident misprint, written αὐτῇ.
 893	Jebb's note on 893 f. runs on to the facing page (leaf 207) from "μεγά|λαν."; written here whole, with the notes on 895-900 from the same page. The stroke in μεγά|λαν is printed (L's line division).
 
