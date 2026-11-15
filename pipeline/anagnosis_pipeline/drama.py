@@ -347,10 +347,10 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          "playsfragmentswi01sophuoft", "jebb", "R. C. Jebb", "sophocles_oedipustyrannus_jebb",
          treebank="tlg0011.tlg004.perseus-grc1.tb.xml", layout="jebb", app_rule="under", head_frac=0.095, speaker_trust=True, app_langs=("eng+grc", "grc+eng"),
          check_text="sophocles/oedipustyrannus/reference-grc.txt",
-         # leaf = PDF page (leaves from 1; 358-361 hidden): the Greek on the even leaves 110-300
-         # (300, p. 200, is the play's last page; 301 begins the Appendix, 301-334); the
+         # leaf = PDF page (leaves from 1; 358-361 hidden): the Greek on the even leaves 110-298
+         # (leaf 300, p. 200, holds only the end of the commentary; the Appendix 301-334); the
          # introduction 15-66 and the arguments 104-107, which Perseus lacks
-         text_leaves=[(110, 300)]),
+         text_leaves=[(110, 299)]),
     # Hesiod's Theogony (pipeline/PLAN-theogony.md): Rzach's Teubner text and apparatus, Paley's
     # commentary (his own text and critical notes on the same pages are not used)
     Play("theogony", "Θεογονία", "Theogony", "Ἡσίοδος", "Hesiod", "tlg0020.tlg001",
