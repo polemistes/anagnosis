@@ -197,6 +197,21 @@ class RefileTranslation(unittest.TestCase):
         refile_translation(doc, numbers)
         self.assertEqual([i.n for i in doc.items if hasattr(i, "n")], ["885", "887"])
 
+    def test_fixed_numbers(self):
+        # TRANSLATION_NUMBERS: Perseus's 211-214 are the print's 212-212c; a "…" for a lost verse
+        # our text has no line for is dropped with its speaker; the rest by the rules
+        doc = parse("@ Chorus\n180a\tLead him onward.\n@ Antigone\n181a\t…\n@ Antigone\n181c\tCome, follow.\n"
+                    "@ Chorus\n211\tWhat does this mean?\n@ Oedipus\n212\tHorrid the birth—\n"
+                    "@ Chorus\n213\tSpeak!\n@ Oedipus\n214\tMy child!\n@ Chorus\n215\tWhat is your lineage?\n", "t")
+        numbers = ["180a", "181", "182", "210", "212", "212a", "212b", "212c", "215"]
+        fixed = {"181a": None, "181c": "182", "211": "212", "212": "212a", "213": "212b", "214": "212c"}
+        moves, left = refile_translation(doc, numbers, fixed=fixed)
+        self.assertEqual([(i.n, i.text) for i in doc.items if hasattr(i, "n")], [
+            ("180a", "Lead him onward."), ("182", "Come, follow."), ("212", "What does this mean?"),
+            ("212a", "Horrid the birth—"), ("212b", "Speak!"), ("212c", "My child!"), ("215", "What is your lineage?")])
+        self.assertEqual(left, [])
+        self.assertEqual(serialize(doc).count("@ Antigone"), 1)
+
 
 if __name__ == "__main__":
     unittest.main()

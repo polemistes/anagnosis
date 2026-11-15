@@ -320,3 +320,13 @@ This passage consists of lyrics.
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class RangeHeadings(unittest.TestCase):
+    def test_range_put_back_in_the_heading(self):
+        from anagnosis_pipeline.sophocles import range_headings
+        text = "## 981\n**εἰς τόδʼ**, x.\n\n## 982\n—*984* He has just said.\n\n## 986\n**δυσστομεῖν**\n"
+        self.assertEqual(range_headings(text),
+                         "## 981\n**εἰς τόδʼ**, x.\n\n## 982-984\nHe has just said.\n\n## 986\n**δυσστομεῖν**\n")
+        self.assertEqual(range_headings(range_headings(text)), range_headings(text))
+

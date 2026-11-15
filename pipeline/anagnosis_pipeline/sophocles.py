@@ -630,7 +630,7 @@ def jebb_translation(play: Play, sources: Path):
 
 
 def refile_translation(doc, numbers: list[str], speech_starts: set[str] | None = None,
-                       word_map=None) -> tuple[list[str], list[str]]:
+                       word_map=None, fixed: dict[str, str | None] | None = None) -> tuple[list[str], list[str]]:
     """Jebb's translation from Perseus (a Document) put with the verses of grc.txt (`numbers`, in
     order). The segments' numbers are Jebb's verse numbers as Perseus's English cites them, which
     are ours except where his longer lyric verse covers a number, and except in a few places where
@@ -651,6 +651,9 @@ def refile_translation(doc, numbers: list[str], speech_starts: set[str] | None =
       * a segment that lands on the verse of the segment before is joined to it (one space), unless
         a change of speaker, a stage direction or a section lies between: then, as one that would
         land before it, it takes the next verse after it, so that the print's order stays.
+    `fixed` (TRANSLATION_NUMBERS) overrides all of this for the segments it names, where
+    Perseus's English counts a stretch otherwise than the print (its number -> ours, or None: a
+    "…" for a lost verse our text has no line for, dropped with its speaker).
     Changes the Document in place; returns (moves, notes on the segments left or forced on)."""
     from .linenum import parts as n_parts
     from .textfmt import Line
@@ -689,8 +692,16 @@ def refile_translation(doc, numbers: list[str], speech_starts: set[str] | None =
                 new_speaker = True
             continue
         n = it.n
-        target, how = default(n)
-        if (new_speaker and speech_starts is not None and word_map is not None
+        if fixed and n in fixed:
+            target, how = fixed[n], "Jebb's verse (TRANSLATION_NUMBERS)"
+            if target is None:
+                moves.append(f"translation: {n} dropped ({it.text.strip()[:30]}: no verse of ours)")
+                if out and type(out[-1]).__name__ == "Speaker":
+                    out.pop()
+                continue
+        else:
+            target, how = default(n)
+        if (not (fixed and n in fixed) and new_speaker and speech_starts is not None and word_map is not None
                 and target is not None and target not in speech_starts):
             m = word_map(n)
             if m in speech_starts and (prev is None or order[m] > prev):
@@ -773,7 +784,8 @@ def write_translation(slug: str, sources: Path, texts: Path) -> list[str]:
     word_map = None
     if slug in drama.PLAYS and drama.PLAYS[slug].check_text:
         word_map = translation_word_map(slug, sources, lines, {it.n for it in doc.items if isinstance(it, Line)})
-    moves, left = refile_translation(doc, [n for n, _t in lines], starts, word_map)
+    moves, left = refile_translation(doc, [n for n, _t in lines], starts, word_map,
+                                     TRANSLATION_NUMBERS.get(slug))
     path = texts / slug / "eng-jebb.txt"
     tmp = path.with_name(path.name + ".part")
     write_file(tmp, doc)
@@ -782,6 +794,39 @@ def write_translation(slug: str, sources: Path, texts: Path) -> list[str]:
         print(m)
     print(f"wrote {path}: {len(moves)} segments moved or joined, {len(left)} left or forced on")
     return moves
+
+
+# Perseus's English where its numbers in a stretch follow neither Jebb's print nor the rules of
+# refile_translation (read beside the Greek): Perseus's number -> our verse, None = a "…" standing
+# for a verse lost in the MSS. (Jebb prints a line of metrical signs, our text no verse)
+TRANSLATION_NUMBERS: dict[str, dict[str, str | None]] = {
+    "oedipuscoloneus": {
+        # parodos: the lost verses after 181 and 182; 193 (οὕτως;) is Jebb's 194; Perseus counts
+        # 197-199 one ahead; τί τόδʼ … τέκνον, ὤμοι, τί γεγώνω; are Jebb's 212-212c (Perseus 211-214)
+        "181a": None, "181b": None, "181c": "182", "183": None, "193": "194", "193a": "194a",
+        "198": "197", "199": "198", "200": "199",
+        "211": "212", "212": "212a", "213": "212b", "214": "212c",
+        # first kommos: πῶς φῄς; 531, παῖδε, δύο δʼ ἄτα 532, ὦ Ζεῦ 532a, ματρὸς 533; τί γάρ; 538b,
+        # ἐδεξάμην δῶρον 538c
+        "530": "531", "530a": "532", "531": "532a", "532": "533", "539": "538b", "539a": "538c",
+        # δοκῶ 879, τάνδʼ ἄρʼ 879a; Creon's Ζεύς γʼ ἂν εἰδείη 882a (882 is Jebb's supplement)
+        "878": "879", "879": "879a", "882a": "882a",
+        # Perseus's misprint for 1099a (ὦ πάτερ πάτερ)
+        "1009a": "1099a",
+        # the second speaker's part of a shared verse whose first part Perseus files under the
+        # verse before (so no plain number): τί δρᾷς, ξένε; 829a, ὦ τάλαινʼ ἐγώ 1438a, ταῦτα δʼ ἐν
+        # τῷ δαίμονι 1443a, μηδέ γε μάτευε 1743a
+        "829a": "829a", "1438a": "1438a", "1443a": "1443a", "1743a": "1743a",
+        # segments (Perseus's five-verse chunks in the lyrics) put with the verse that holds their
+        # first words: ὅρα 117, ἃς τρέμομεν 127, ἐή· ἀλαῶν ὀμμάτων 149, μετάσταθʼ 161, ἀβάτων ἀποβάς
+        # 167, πρός νυν θεῶν 49, μὴ ʼπίτασσʼ 839a, πώλοισιν 1062, καὶ τὸν ἀγρευτὰν Ἀπόλλω 1091, τίς
+        # πλαγὰ 1231, αἱ δʼ ἀνατέλλοντος 1246, νέα τάδε 1447, μέγας, ἴδε 1462, τάλαιναν 1691, ὦ
+        # τάλαινα (Ismene) 1715, ἐπαμμένει 1717
+        "118": "117", "130": "127", "148": "149", "160": "161", "165": "167", "48": "49",
+        "839": "839a", "1060": "1062", "1090": "1091", "1230": "1231", "1245": "1246",
+        "1448": "1447", "1463": "1462", "1690": "1691", "1714": "1715", "1715": "1717",
+    },
+}
 
 
 # Perseus's commentary where it is of another edition than the volume scanned (play.edition): the
@@ -823,7 +868,7 @@ def write_commentary(slug: str, sources: Path, texts: Path) -> int:
         tmp.unlink(missing_ok=True)
         print(f"{src.name}: {e}; {path.name} left as it is")
         return 0
-    text = tmp.read_text(encoding="utf-8")
+    text = range_headings(tmp.read_text(encoding="utf-8"))
     for wrong, right in COMMENTARY_FIXES.get(slug, []):
         if wrong not in text:
             print(f"{path.name}: fix not applied, not found: {wrong}")
@@ -833,6 +878,16 @@ def write_commentary(slug: str, sources: Path, texts: Path) -> int:
     os.replace(tmp, path)
     print(f"wrote {path}: {n} notes from Perseus")
     return n
+
+
+_RANGE_LOST = re.compile(r"^## (\d+)\n(\n?)— ?\*(\d+)\* ?", re.M)
+
+
+def range_headings(text: str) -> str:
+    """Perseus's commentary keeps only the first number of some of Jebb's range headings and puts
+    the rest in front of the note as an italic number ("982—984 He has just said" comes as
+    "## 982" + "—*984* He has just said"): the heading is made the range again (## 982-984)."""
+    return _RANGE_LOST.sub(lambda m: f"## {m.group(1)}-{m.group(3)}\n{m.group(2)}", text)
 
 
 # Perseus's commentary where it is not what the page prints, put right before the vowel-length and
@@ -846,6 +901,19 @@ COMMENTARY_FIXES: dict[str, list[tuple[str, str]]] = {
         # leaf 127, note on 118 f.: "χωρὶς τοῦ ῑ...ἡ μέντοι παράδοσις ἔχει τὸ ῑ." (Perseus: the
         # second ῑ without its mark)
         ("ἡ μέντοι παράδοσις ἔχει τὸ ι.", "ἡ μέντοι παράδοσις ἔχει τὸ ῑ."),
+    ],
+    "oedipuscoloneus": [
+        # Perseus's Betacode v (digamma) where the page has another letter: leaf 155 (note 307)
+        # υἱέος, leaf 285 (1181) νέα, leaf 232 (805) "√ΛΥ, another form of √ΛΟϜ", leaf 334 (1533)
+        # √ΔΑϜ
+        ("vἱέος", "υἱέος"), ("**vέα**", "**νέα**"),
+        ("√ΛΓ, another form of √ΛΟv", "√ΛΥ, another form of √ΛΟϜ"), ("√ΔΑv", "√ΔΑϜ"),
+        # leaf 155, note 310: "τί λέξω" (Perseus ti/le/cw)
+        ("**τίλέξω**", "**τί λέξω**"),
+        # note 49: a space lost after "προστρέπω),"; leaf 155, note 309: "ἀνδρί [γ'] ἐσθλὰ",
+        # "pseudo-Philem."
+        ("προστρέπω),φράσαι", "προστρέπω), φράσαι"), ("ἀνδρί [ γ' ] ἐσθλὰ", "ἀνδρί [γ'] ἐσθλὰ"),
+        ("pseudo - Philem.", "pseudo-Philem."),
     ],
 }
 

@@ -81,7 +81,7 @@
 47	I dare not remove you without warrant from the city, until I report what I am doing.
 
 @ Oedipus
-48	Now by the gods, stranger, do not deny me, hapless wanderer as you see,
+49	Now by the gods, stranger, do not deny me, hapless wanderer as you see,
 50	the honor of the knowledge for which I beg you.
 
 @ Stranger
@@ -160,10 +160,10 @@
 !	The Chorus of elders of Colonus enters the orchestra.
 
 @ Chorus
-118	Look! Who was he, then? Where is he staying? Where has he rushed from this place,
+117	Look! Who was he, then? Where is he staying? Where has he rushed from this place,
 120	man most insatiate of all who live? Scan the ground, look well, press the search everywhere. A wanderer that old man must have been,
-125	a wanderer, not a dweller in the land; otherwise he never would have advanced into this untrodden grove of the maidens with whom none may strive.
-130	Their name we tremble to speak; we pass them by with eyes turned away, moving our lips, without sound or word, in still devotion. But now it is said that one has come who reveres them not at all;
+124	a wanderer, not a dweller in the land; otherwise he never would have advanced into this untrodden grove of the maidens with whom none may strive.
+127	Their name we tremble to speak; we pass them by with eyes turned away, moving our lips, without sound or word, in still devotion. But now it is said that one has come who reveres them not at all;
 135	and him I cannot yet discern, though I look round all the holy place, nor do I know where to find his lodging.
 !	Oedipus steps forward with Antigone.
 
@@ -185,11 +185,11 @@
 
 === antistrophe 1
 @ Chorus
-148	Alas! Were you sightless even from birth?
+149	Alas! Were you sightless even from birth?
 150	Evil have been your days, and many, it appears. But at least if I can help it, you shall not add this curse to your lot. You go too far—too far!
 155	That your rash steps may intrude on the field of this voiceless, grassy glade, where the waters of the mixing bowl blend their stream with the flow of honied offerings, beware, unhappiest of strangers.
-160	Retire! Withdraw! Let a wide space part us. Do you hear, toil-worn wanderer? If you have anything to say in converse with us,
-165	leave forbidden ground, and speak where it is lawful for all; but, till then, refrain.
+161	Retire! Withdraw! Let a wide space part us. Do you hear, toil-worn wanderer? If you have anything to say in converse with us,
+167	leave forbidden ground, and speak where it is lawful for all; but, till then, refrain.
 
 @ Oedipus
 170	Daughter, to what counsel shall we incline?
@@ -225,16 +225,7 @@
 180a	Lead him onward, maiden, for you hear us and obey.
 
 @ Antigone
-181a	…
-
-@ Oedipus
-181b	…
-
-@ Antigone
-181c	Come, follow this way with your dark steps, father, as I lead you.
-
-@ Oedipus
-183	…
+182	Come, follow this way with your dark steps, father, as I lead you.
 
 @ Chorus
 184	Stranger in a foreign land,
@@ -249,10 +240,10 @@
 192	There! Do not incline your steps beyond that ledge of bedrock.
 
 @ Oedipus
-193	This far?
+194	This far?
 
 @ Chorus
-193a	Enough, I say
+194a	Enough, I say
 
 @ Oedipus
 195	Shall I sit down?
@@ -261,13 +252,13 @@
 195a	Yes, move sideways, and crouch low on the edge of the rock.
 
 @ Antigone
-198	Father, this is my task: calmly to—
+197	Father, this is my task: calmly to—
 
 @ Oedipus
-199	Ah me! ah me!
+198	Ah me! ah me!
 
 @ Antigone
-200	—fit step to step, and lean your aged frame upon my dear arm.
+199	—fit step to step, and lean your aged frame upon my dear arm.
 
 @ Oedipus
 202	Alas for my sad destruction!
@@ -282,22 +273,22 @@
 207	Strangers, I am without a city, but do not—
 
 @ Chorus
-208	What is this that you forbid, old man?
+207a	What is this that you forbid, old man?
 
 @ Oedipus
 210	do not, do not ask me who I am! Do not seek or probe further!
 
 @ Chorus
-211	What does this mean?
+212	What does this mean?
 
 @ Oedipus
-212	Horrid the birth—
+212a	Horrid the birth—
 
 @ Chorus
-213	Speak!
+212b	Speak!
 
 @ Oedipus
-214	My child—ah, me!—what shall I say?
+212c	My child—ah, me!—what shall I say?
 
 @ Chorus
 215	What is your lineage, stranger? Speak! And who is your father?
@@ -679,7 +670,7 @@
 510	Terrible it is, stranger, to arouse the old woe that has for so long been laid to rest: and yet I yearn to hear—
 
 @ Oedipus
-512	What now?
+512a	What now?
 
 @ Chorus
 513	—Of that grief-filled anguish, cureless, with which you have wrestled.
@@ -719,16 +710,16 @@
 529	Ah, me! These words, strangers, are like death to my ears. And those two maidens of mine—
 
 @ Chorus
-530	What will you say?
+531	What will you say?
 
 @ Oedipus
-530a	—Two daughters—two curses—
+532	—Two daughters—two curses—
 
 @ Chorus
-531	O Zeus!
+532a	O Zeus!
 
 @ Oedipus
-532	—of mine, sprung from the travail of the womb that bore me too.
+533	—of mine, sprung from the travail of the womb that bore me too.
 
 === strophe 2
 @ Chorus
@@ -756,10 +747,10 @@
 538a	I have not performed!
 
 @ Chorus
-539	How?
+538b	How?
 
 @ Oedipus
-539a	A gift was given to me—O, wretched that I am, if only I had never won from the city that gift for my services!
+538c	A gift was given to me—O, wretched that I am, if only I had never won from the city that gift for my services!
 
 === antistrophe 2
 @ Chorus
@@ -985,15 +976,14 @@
 
 === strophe 2
 @ Chorus
-694	And there is a thing such as I have not heard of on Asian ground,
-695	nor as ever yet born in the great Dorian isle of Pelops: a plant unconquered, self-renewing, causing terror to destroying enemies.
+694	And there is a thing such as I have not heard of on Asian ground, nor as ever yet born in the great Dorian isle of Pelops: a plant unconquered, self-renewing, causing terror to destroying enemies.
 700	It greatly flourishes in this land—the gray-leafed olive, nurturer of children. Youth cannot harm it by the ravages of his hand, nor can any who lives with old age. For the sleepless eye
 705	of Zeus Morios watches over it, and gray-eyed Athena.
 
 === antistrophe 2
 @ Chorus
 707	And I have more praise for this city our mother,
-710	the gift of a great divinity, a glory most great: the might of horses, the might of colts, and the might of the sea. For you, son of Cronus, lord Poseidon, have set her on the throne of this pride,
+709	the gift of a great divinity, a glory most great: the might of horses, the might of colts, and the might of the sea. For you, son of Cronus, lord Poseidon, have set her on the throne of this pride,
 715	by establishing first in our roads the bit that cures the rage of horses. And the shapely oar, well-fitted for the sea, in flying past the land leaps to follow the hundred-footed Nereids.
 
 == episode
@@ -1126,8 +1116,7 @@
 833	Oh, city !
 
 @ Chorus
-834	What are you doing, stranger? Release her!
-835	Your strength and ours will soon come to the test.
+834	What are you doing, stranger? Release her! Your strength and ours will soon come to the test.
 
 @ Creon
 836	Stand back!
@@ -1145,7 +1134,7 @@
 838a	Unhand the girl at once!
 
 @ Creon
-839	Do not make commands where you are not the master.
+839a	Do not make commands where you are not the master.
 
 @ Chorus
 840	Let go, I tell you!
@@ -1237,10 +1226,10 @@
 877	What arrogance you have come with, stranger, if you think you will achieve this!
 
 @ Creon
-878	I will.
+879	I will.
 
 @ Chorus
-879	Then I think this city no longer exists.
+879a	Then I think this city no longer exists.
 
 @ Creon
 880	For men who are just, you see, the weak vanquishes the strong.
@@ -1289,7 +1278,7 @@
 897	Hurry, one of you attendants, to the altars there, and order the people to leave the sacrifice
 900	and race on foot and by horse full speed, to the region where the two highways meet, so that the maidens may not pass, and I not become a mockery to this stranger as one worsted by force. Quick, I say, away with you!
 !	Turning towards Creon.
-904a	As for this man, if my
+904	As for this man, if my
 905	anger went as far as he deserves, I would not let him go uninjured from my hand. But now, just such law as he himself has brought will be the rule for his correction.
 !	Addressing Creon.
 909	You will never leave this land
@@ -1362,7 +1351,7 @@
 === antistrophe 1
 @ Chorus
 1059	Or perhaps they will soon draw near to the pastures on the west of Oea’s snowy rock,
-1060	fleeing on young horses or in chariots racing full speed. He will be caught!
+1062	fleeing on young horses or in chariots racing full speed. He will be caught!
 1065	Terrible is the neighboring Ares, terrible the might of the followers of Theseus. Yes, the steel of every bridle flashes,
 1070	and against their opponents charges forward our whole cavalry, who honor horse-riding Athena, and the earth-girdling Sea-god, the dear son of Rhea.
 
@@ -1375,7 +1364,7 @@
 === antistrophe 2
 @ Chorus
 1085	Hear, all-ruling lord of the gods, all-seeing Zeus! Grant to the guardians of this land to achieve with triumphant might the capture that gives the prize into their hands! And may your daughter grant it too, dread Pallas Athena!
-1090	And Apollo, the hunter, and his sister, who follows the spotted, swift-footed deer—I wish that they would come, a double help
+1091	And Apollo, the hunter, and his sister, who follows the spotted, swift-footed deer—I wish that they would come, a double help
 1095	to this land and to its people.
 
 == episode
@@ -1387,7 +1376,7 @@
 !	Enter Antigone and Ismene, with Theseus and his attendants.
 
 @ Antigone
-1009a	Father, father,
+1099a	Father, father,
 1100	I wish some god would grant that your eyes might see this excellent man, who has brought us here to you!
 
 @ Oedipus
@@ -1517,20 +1506,20 @@
 === strophe 1
 @ Chorus
 1211	Whoever craves the longer length of life, not content to desire a moderate span, him I will judge with no uncertainty: he clings to folly.
-1215	For the long years lay in deposit many things nearer to pain than joy; but as for your delights, you will find them nowhere, when someone’s life has fallen beyond the fitting period.
+1214	For the long years lay in deposit many things nearer to pain than joy; but as for your delights, you will find them nowhere, when someone’s life has fallen beyond the fitting period.
 1220	The Helper comes at last to all alike, when the fate of Hades is suddenly revealed, without marriage-song, or lyre, or dance: Death at the end.
 
 === antistrophe 1
 @ Chorus
 1225	Not to be born is, beyond all estimation, best; but when a man has seen the light of day, this is next best by far, that with utmost speed he should go back from where he came. For when he has seen youth go by, with its easy merry-making,
-1230	what hard affliction is foreign to him, what suffering does he not know? Envy, factions, strife, battles,
-1235	and murders. Last of all falls to his lot old age, blamed, weak, unsociable, friendless, wherein dwells every misery among miseries.
+1231	what hard affliction is foreign to him, what suffering does he not know? Envy, factions, strife, battles,
+1234	and murders. Last of all falls to his lot old age, blamed, weak, unsociable, friendless, wherein dwells every misery among miseries.
 
 === epode
 @ Chorus
 1239	In such years is this poor man here, not I alone.
 1240	Like some cape that fronts the north which is lashed on every side by the waves of winter, so he also is fiercely lashed evermore by the dread disasters that break on him like the surf, some from the region of the setting sun,
-1245	some from that of its rising, some in the realm of its noon-time rays, some from the gloom-wrapped hills of the North.
+1246	some from that of its rising, some in the realm of its noon-time rays, some from the gloom-wrapped hills of the North.
 
 == episode
 @ Antigone
@@ -1665,7 +1654,7 @@
 
 === strophe 1
 @ Chorus
-1448	Behold, new ills of heavy fate have newly come from the blind stranger,
+1447	Behold, new ills of heavy fate have newly come from the blind stranger,
 1450	unless, perhaps, fate is finding its goal. I cannot say that a purpose of the divinities is ever vain. Time sees all things forever, and raises up some things,
 1455	then on the next day raises others back up again. The sky resounds! Zeus!
 !	Thunder.
@@ -1683,7 +1672,7 @@
 !	Thunder.
 
 @ Chorus
-1463	Listen! With a louder noise this one crashes down unspeakably,
+1462	Listen! With a louder noise this one crashes down unspeakably,
 1465	hurled by Zeus! The hair of my head stands up for fear, my soul is dismayed; for again the lightning flashes in the sky. What end will it release?
 1470	I fear it, for never does it fly forth in vain, or without serious results. O great Sky! O Zeus!
 
@@ -1701,7 +1690,7 @@
 
 @ Chorus
 1477	Look! Look! Once again the piercing din is around us!
-1480	Be merciful, divinity, be merciful, if you are bringing anything of gloom for the land which is our mother! May I find you well disposed, and may I not, because I have cared for a man accursed, somehow obtain a favor without profit!
+1479	Be merciful, divinity, be merciful, if you are bringing anything of gloom for the land which is our mother! May I find you well disposed, and may I not, because I have cared for a man accursed, somehow obtain a favor without profit!
 1485	Lord Zeus, to you I cry!
 
 @ Oedipus
@@ -1835,14 +1824,14 @@
 @ Antigone
 1678a	Precisely in the way you could most wish for: indeed, in a way in which neither Ares took him, nor the sea,
 1680	but instead he was snatched away to the fields which no one may see, by some swift, strange doom. Wretched me! For us a night like death has descended on our eyes;
-1685	how shall we find our hard livelihood, roaming to some far land, or on the waves of the sea?
+1684	how shall we find our hard livelihood, roaming to some far land, or on the waves of the sea?
 
 @ Ismene
-1689	I do not know. If only murderous Hades would join me in death to my aged father!
-1690	Wretched me! I cannot live the life that must be mine.
+1688	I do not know. If only murderous Hades would join me in death to my aged father!
+1691	Wretched me! I cannot live the life that must be mine.
 
 @ Chorus
-1692	Best of daughters, you both must bear the will of the gods. Do not be inflamed with too much grief;
+1693	Best of daughters, you both must bear the will of the gods. Do not be inflamed with too much grief;
 1695	what you have encountered is not to be blamed.
 
 === antistrophe 1
@@ -1864,24 +1853,24 @@
 1710	nor do I know how in my wretchedness I must still my grief for you that is so immense. Alas! You wanted to die in a foreign land, but you died without me near.
 
 @ Ismene
-1714	Wretched me! What fate
-1715	awaits you and me, dear, orphaned as we are of our father?
+1715	Wretched me! What fate
+1717	awaits you and me, dear, orphaned as we are of our father?
 
 @ Chorus
 1720	Cease from your grief, dear girls, since his end is blessed. No one is beyond the reach of evil.
 
 === strophe 2
 @ Antigone
-1723	Dear, let us hasten back.
+1724	Dear, let us hasten back.
 
 @ Ismene.
-1724	To do what deed?
+1724a	To do what deed?
 
 @ Antigone
-1725	A longing fills my soul—
+1726	A longing fills my soul—
 
 @ Ismene.
-1726	For what?
+1726a	For what?
 
 @ Antigone
 1727	To see the netherworld home.
@@ -1920,7 +1909,7 @@
 1737	Dear girls, do not be afraid.
 
 @ Antigone
-1738	But where shall I flee?
+1737a	But where shall I flee?
 
 @ Chorus
 1739	Already a refuge has been found—
