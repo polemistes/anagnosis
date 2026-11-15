@@ -298,6 +298,11 @@ with `+ `. Flags on words of lines the draft left out (a running head, a title) 
   the note's heading (`## Line 1166`, then `### The Oracle at Dodona.`).
 * A numbered list (1. Bothe: … 2. Hermann: …; I. … II. …) is a paragraph per item when each
   item begins a printed line; numbers inside running text stay in it.
+* An essay of the Appendix that is not on one line (the Oedipus Tyrannus: "*The Oedipus Tyrannus
+  at Harvard.*", in numbered sections "§ 1. *Opening Scene.*") is headed `## ` and its title
+  (`## The Oedipus Tyrannus at Harvard`), its sections `### § 1. Opening Scene.`; the line notes
+  after it are headed as above. The Oedipus Tyrannus prints a stop after a note's number
+  ("1526. οὔ τις …"): the heading is `## Line 1526` all the same.
 
 **The chapters before the text** (`intro-NN.md`):
 
@@ -309,8 +314,9 @@ with `+ `. Flags on words of lines the draft left out (a running head, a title) 
   paragraph of the section goes at the start of that paragraph in italics: `*Editions.* The
   complete editions …`. Margin notes are small and the OCR garbles them ("of tw oe"): read each
   from the image.
-* The pages before the text: `# The ancient argument` once, then `## The argument` (where there
-  are several arguments, as headed in the print: `## I. The argument of Aristophanes`), then
+* The pages before the text: `# The ancient argument` once, then `## The argument`, or, where
+  Jebb numbers several (the Oedipus Tyrannus: I., II., III.), `## I. The argument`,
+  `## II. The argument`, `## III. The argument` (the draft makes these from the numerals), then
   `## The persons of the drama` and `## Structure of the play`. For the Trachiniae, which has no
   ancient argument, Jebb's note in its place ("THE *Trachiniae*, alone among the seven plays, has
   no ancient ὑπόθεσις …") stands under `## The argument`.
@@ -330,9 +336,22 @@ with `+ `. Flags on words of lines the draft left out (a running head, a title) 
   on it (the two columns below) is a paragraph per note, the lemma in bold followed by `]`:
   `2 **τύραννον...ἐπιγράφουσιν**] …`. Where the text, the critical notes and the commentary all
   run on to the next page, the text continues there after `+ `, the critical apparatus after
-  `+notes `, the commentary after `+comm `, in that order.
-* The list of interpolations and other lists of verses in the manuscripts chapter are kept, as
-  printed, as one paragraph (nothing is left out in Jebb's chapters).
+  `+notes `, the commentary after `+comm `, in that order. Each further heading in Greek capitals
+  (ΑΛΛΩΣ., ΧΡΗΣΜΟΣ …, ΤΟ ΑΙΝΙΓΜΑ ΤΗΣ ΣΦΙΓΓΟΣ., ΛΥΣΙΣ ΤΟΥ ΑΙΝΙΓΜΑΤΟΣ.) begins its paragraph in
+  bold, as the draft writes it (in Greek letters: the OCR reads them as Latin, XPH3MOS). The OCR of
+  these Greek pages is weak (accents read as separate marks: `\ ~ ε ’ ’ /`, `Ν ’ 3`): delete
+  such debris and read every verse from the image. On these pages the draft does not tell the
+  critical apparatus from the commentary (it may wrap the commentary in `[Note: …]`): give
+  each its form as above.
+* The list of suspected verses ("black list") and other lists of verses in the manuscripts
+  chapter are kept, as printed, as one paragraph. A list of editions or of subsidia (the Oedipus
+  Tyrannus, "Editions and commentaries", § 12-13) is left out as the general rule says: one
+  paragraph `[list of editions omitted]` where it stood; Jebb's prose before and after it stays.
+* In the Oedipus Tyrannus the persons are followed by the actors' parts, set as a table with
+  braces (OEDIPUS, πρωταγωνιστής. / IOCASTA, PRIEST OF ZEUS, … } δευτεραγωνιστής.): one paragraph
+  per actor, the names as printed (small capitals as capitals and small letters), then his Greek
+  word: `Oedipus, πρωταγωνιστής.`, `Iocasta, Priest of Zeus, Messenger from the house
+  (ἐξάγγελος), Servant of Laïus, δευτεραγωνιστής.`, and so on.
 
 **For both**:
 

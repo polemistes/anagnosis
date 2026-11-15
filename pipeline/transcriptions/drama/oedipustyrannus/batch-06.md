@@ -76,21 +76,34 @@
 
 === p-0176
 --- text
-496	ἀλλʼ ὁ μὲν οὖν Ζεὺς ὅ τʼ Ἀπόλλων ξυνετοὶ καὶ τὰ βροτῶν
+498	ἀλλʼ ὁ μὲν οὖν Ζεὺς ὅ τʼ Ἀπόλλων ξυνετοὶ καὶ τὰ βροτῶν
 500	εἰδότες· ἀνδρῶν δʼ ὅτι μάντις πλέον ἢ ʼγὼ φέρεται,
-501	κρίσις οὔκ ἔστιν ἀλαθής· σοφίᾳ δʼ ἂν σοφίαν
-502	παραμείψειεν ἀνήρ.
+502	κρίσις οὐκ ἔστιν ἀληθής· σοφίᾳ δʼ ἂν σοφίαν
+504	παραμείψειεν ἀνήρ.
 505	ἀλλʼ οὔποτʼ ἔγωγʼ ἄν, πρὶν ἴδοιμʼ ὀρθὸν ἔπος, μεμφομένων ἂν καταφαίην.
-506	φανερὰ γὰρ ἐπʼ αὐτῷ, πτερόεσσʼ ἦλθε κόρα
-510	ποτέ, καὶ σοφὸς ὤφθη βασάνῳ θʼ ἁδύπολις τῷ ἀπʼ ἐμᾶς
+508	φανερὰ γὰρ ἐπʼ αὐτῷ πτερόεσσʼ ἦλθε κόρα
+510	ποτέ, καὶ σοφὸς ὤφθη βασάνῳ θʼ ἁδύπολις· τῷ ἀπʼ ἐμᾶς
 511	φρενὸς οὔποτʼ ὀφλήσει κακίαν.
 @ Κρέων
-512	ἄνδρες πολῖται, δείνʼ ἔπη πεπυσμένος
-513	κατηγορεῖν μου τὸν τύραννον Οἰδίπουν,
+513	ἄνδρες πολῖται, δείνʼ ἔπη πεπυσμένος
+514	κατηγορεῖν μου τὸν τύραννον Οἰδίπουν
 515	πάρειμʼ ἀτλητῶν. εἰ γὰρ ἐν ταῖς ξυμφοραῖς
 516	ταῖς νῦν νομίζει πρός γʼ ἐμοῦ πεπονθέναι
 --- apparatus
+508	φανερὰ γὰρ ἐπʼ αὐτῷ] Hermann, thinking v. 493 (ἔμαθον κ.τ.λ.) to be complete as it stands in the MSS., omitted the words γὰρ ἐπʼ αὐτῷ in his first ed. (though he afterwards replaced them); and Dindorf did likewise. Triclinius omitted ἐπʼ αὐτῷ, merely on the ground that he thought them unsuitable, but retained γάρ.
+510	ἡδύπολις MSS.: ἁδύπολις Erfurdt and Dindorf.
+516	πρόσ τʼ ἐμοῦ L, with traces of erasure at τʼ and ἐ. The 1st hand had written πρόστεμοῦ (or possibly πρόσγεμοῦ), joining σ, as so often, to the following letter: the corrector erased the τ (or γ), and wrote τʼ separately (cp. 134, 257, 294).—πρός γʼ ἐμοῦ r, and Suidas (s.v. βάξιν).—πρός τι μου Hartung. This was an old conjecture: τι is written above the line in L, and in several of the later MSS. It may have been a result, rather than cause, of the false reading πρός τʼ.
 --- notes
+498	Numbering: the draft counted the unnumbered Perseus lines of the antistrophe one by one (496, 501, 502, 506, 512, 513), which the print contradicts: the margin has 500 at εἰδότες, 512 beside φρενὸς … κακίαν and 515 at πάρειμʼ; Jebb's notes are numbered 498 (ἀλλʼ ὁ μὲν οὖν), 504 (παραμείψειεν), 506-507 (πρὶν ἴδοιμʼ, καταφαίην, both in 505), 508 (φανερὰ γὰρ ἐπʼ αὐτῷ, apparatus and commentary), 510 (βασάνῳ); Perseus itself puts card 513 at ἄνδρες πολῖται. Renumbered 496→498, 501→502, 502→504, 506→508, 512→513, 513→514; 500, 505, 510, 511, 515, 516 as in the draft (510 is Perseus's own number for ποτέ …; φρενὸς keeps 511, the margin 512 falling inside that verse, as 495 does beside ἐπὶ τὰν on p-0174).
+498	Flags on βροτῶν (not in the OCR, line a guess): the print sets βροτῶν above the line at the right, opened by a bracket ([βροτῶν), as the end of this verse; kept at the end of 498.
+500	Flag (ἢ not in the OCR): the print has πλέον ἢ ʼγὼ, as the draft.
+505	Turnover confirmed: ἂν καταφαίην. is set in on the next line as the end of this verse.
+502	The print has οὐκ (not οὔκ) and ἀληθής (not ἀλαθής); corrected to the print.
+508	The print has no comma after αὐτῷ; removed.
+510	The print has a raised stop after ἁδύπολις (ἁδύπολις· τῷ); added.
+514	The print has no comma after Οἰδίπουν; removed.
+516	The two printed lines "after 516" that matched no Perseus words are Tesseract's reading of the apparatus (508): nothing added.
+508	The note on 508 ends on the facing page (leaf 177) with "retained γάρ."; the note on 516 runs on to the top of p-0178's apparatus ("above the line in L … πρός τʼ."): written here whole.
 
 === p-0178
 --- text
@@ -118,12 +131,19 @@
 532	οὗτος σύ, πῶς δεῦρʼ ἦλθες; ἦ τοσόνδʼ ἔχεις
 533	τόλμης πρόσωπον ὥστε τὰς ἐμὰς στέγας
 --- apparatus
+517	ἔργοισί τι βλάβην φέρον Kennedy.
+525	τοῦ πρόσ δʼ L. Of the later MSS. some (as B) have τοῦ πρὸς δʼ: others (as A) πρὸς τοῦδʼ (not τοῦ δʼ): others (as Γ and L²) τοὖπος or τοῦπος.—τοὔπος is read by most of the recent edd.: see comment.
+528	ἐξ ὀμμάτων ὀρθῶν δὲ L (the δὲ having been made from τε by a later hand). Most of the later MSS. have either this, or (as A) ἐξ ὀμμάτων ὀρθῶν τε. The reading which seems preferable, ἐξ ὀμμάτων δʼ ὀρθῶν τε, is given by Suidas and a few later MSS. (Γ, Δ, Trin.).
 --- notes
+520	Flag (λόγου, OCR “λόγον”): the print has λόγου, as the draft. Margin numbers 520, 525, 530 agree with the draft.
+517	The apparatus begins with the end of the note on 516 ("above the line in L … πρός τʼ."): written with p-0176.
+525	The print distinguishes τοὖπος (breathing and circumflex), τοῦπος and τοὔπος (breathing and acute); copied so.
+528	The note runs on to the top of p-0180's apparatus ("is given by Suidas … (Γ, Δ, Trin.)."): written here whole.
 
 === p-0180
 --- text
 534	ἵκου, φονεὺς ὢν τοῦδε τἀνδρὸς ἐμφανῶς
-535	λῃστής Τʼ ἐναργὴς τῆς ἐμῆς τυραννίδος;
+535	λῃστής τʼ ἐναργὴς τῆς ἐμῆς τυραννίδος;
 536	φέρʼ εἰπὲ πρὸς θεῶν, δειλίαν ἢ μωρίαν
 537	ἰδών τινʼ ἔν μοι ταῦτʼ ἐβουλεύσω ποεῖν;
 538	ἢ τοὔργον ὡς οὐ γνωριοῖμί σου τόδε
@@ -140,4 +160,16 @@
 @ Κρέων
 547	τοῦτʼ αὐτὸ νῦν μου πρῶτʼ ἄκουσον ὡς ἐρῶ.
 --- apparatus
+537	ἐν ἐμοὶ MSS.: ἔν μοι Reisig.
+538	γνωρίσοιμι MSS.: γνωριοῖμι Elmsley.
+539	ἢ οὐκ A. Spengel: κοὐκ MSS.
+541	πλήθους MSS. The conjecture πλούτου, first made by an anonymous German translator of the play in 1803, has been adopted by Nauck and others.
+546	ηὕρηκʼ] εὕρηκʼ L. See comment. Cp. 1051.
 --- notes
+536	Flag (ἢ not in the OCR): the print has δειλίαν ἢ μωρίαν, as the draft.
+539	Flag (δόλῳ, OCR “ὅλῳ”): the print has δόλῳ, as the draft. Jebb prints *ἢ οὐκ (his conjecture mark, see his note 539), left out of the text.
+542	Flags on ἁλίσκεται; (not in the OCR, line a guess): it stands at the end of this verse, as the draft.
+544	Flag (κᾆτα not in the OCR): the print has κᾆτα, as the draft.
+545	Flag (δʼ not in the OCR): the print has μανθάνειν δʼ ἐγὼ, as the draft.
+535	The draft had a capital Τʼ (from the OCR); the print has τʼ; corrected. Margin numbers 535, 540, 545 agree with the draft.
+537	The apparatus begins with the end of the note on 528 ("is given by Suidas … (Γ, Δ, Trin.)."): written with p-0178. The note on 546 ends on the facing page (leaf 181); nothing runs on.

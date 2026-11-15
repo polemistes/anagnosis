@@ -33,7 +33,7 @@
 @ Κρέων
 565	οὔκουν ἐμοῦ γʼ ἑστῶτος οὐδαμοῦ πέλας.
 @ Οἰδίπους
-566	ἀλλʼ οὐκ ἔρευναν τοῦ κτανόντος ἔσχετε;
+566	ἀλλʼ οὐκ ἔρευναν τοῦ θανόντος ἔσχετε;
 @ Κρέων
 567	παρέσχομεν, πῶς δʼ οὐχί; κοὐκ ἠκούσαμεν.
 @ Οἰδίπους
@@ -41,7 +41,15 @@
 @ Κρέων
 569	οὐκ οἶδʼ· ἐφʼ οἷς γὰρ μὴ φρονῶ σιγᾶν φιλῶ.
 --- apparatus
+555	χρείη Dawes. L has χρεῖʼ ἦ, but the accentuation is due to the first corrector, and the ῏ over η has been re-touched by a later hand. The 1st hand may have intended χρειη or χρείη, though the space between ει and η is rather unduly wide. χρεῖʼ ἦ is in almost all the later MSS. (χρεῖʼ ἦν Γ; χρείμʼ Bodl. Barocc. 66, with α superscript). Cp. v. 791.
+561	ἀναμετρηθεῖεν A, a reading which no other MS. seems to have. Cp. 1348, where ἂν γνῶναι has been changed to ἀναγνῶναι in all the MSS.
+566	θανόντος] κτανόντος Meineke: θενόντος M. Schmidt.
+567	κοὐκ ἠκούσαμεν] κοὐκ ἰχνεύσαμεν Mekler: κοὐδὲν ἤνομεν Nauck.
 --- notes
+560	ἄφαντος checked: printed on this line.
+565	γʼ checked: printed (ἐμοῦ γʼ ἑστῶτος).
+566	the page prints θανόντος (Perseus κτανόντος, Meineke's conjecture; Jebb's note 566 confirms θανόντος).
+555	apparatus: the mark Jebb prints over η (breathing with circumflex) written ῏.
 
 === p-0184
 --- text
@@ -50,7 +58,7 @@
 @ Κρέων
 571	ποῖον τόδʼ; εἰ γὰρ οἶδά γʼ, οὐκ ἀρνήσομαι.
 @ Οἰδίπους
-572	ὁθούνεκʼ, εἰ μὴ σοὶ ξυνῆλθε, τάσδʼ ἐμὰς
+572	ὁθούνεκʼ, εἰ μὴ σοὶ ξυνῆλθε, τὰς ἐμὰς
 573	οὐκ ἄν ποτʼ εἶπε Λαΐου διαφθοράς.
 @ Κρέων
 574	εἰ μὲν λέγει τάδʼ, αὐτὸς οἶσθʼ· ἐγὼ δὲ σοῦ
@@ -79,7 +87,16 @@
 589	οὔτʼ ἄλλος ὅστις σωφρονεῖν ἐπίσταται.
 590	νῦν μὲν γὰρ ἐκ σοῦ πάντʼ ἄνευ φόβου φέρω,
 --- apparatus
+570	τοσόνδε γʼ] τὸ σὸν δέ L 1st hand: the corrector changed σὸν to σόν, as if to indicate the reading τοσόνδε. τοσόνδε is in a few of the later MSS. (as B, with gl. τοσοῦτον): τὸ σὸν δέ in A and others.—τὸ σὸν δέ γʼ is read by Brunck, and others: τοσόνδε γʼ by Porson (Eur. Med. 461), Elmsley, and others. The reading τόσον δέ γʼ, already known to Triclinius, and also suggested by Reisig, is preferred by Wunder and others.
+572	τὰς MSS.: τάσδʼ Döderlein.
+575	ταῦθʼ MSS.: ταὔθʼ Brunck.
+579	Wecklein writes τῆς τιμῆς instead of γῆς ἴσον: Heimsoeth conjectures τοῦ κράτους for ταὐτὰ γῆς: F. W. Schmidt, ἀρχῆς δʼ ἐκείνῃ ταῦτʼ ἔχεις ἴσον νέμων.
+583	ἐγὼ] ἔχω is Heimsoeth's conjecture, who might point to v. 1061, where ἐγὼ is right, and the MSS. give ἔχω.
 --- notes
+570	no margin number read by the draft: the page prints 570 beside verse 570; the numbering is right.
+572	the print reads τὰς ἐμὰς (Perseus τάσδʼ, Döderlein's conjecture; Jebb's note 572 gives τὰς MSS.): changed.
+583	γʼ is printed on this verse: kept.
+583	the apparatus note runs on to the top of p-0186's apparatus ("right, and the MSS. give ἔχω."): written here whole.
 
 === p-0186
 --- text
@@ -98,7 +115,16 @@
 603	καὶ τῶνδʼ ἔλεγχον τοῦτο μὲν Πυθώδʼ ἰὼν
 604	πεύθου τὰ χρησθέντʼ εἰ σαφῶς ἤγγειλά σοι·
 --- apparatus
+597	ἐκκαλοῦσι L, with a gloss προκαλοῦσιν written above. There is no trace of a variant in the later MSS., for in E καλοῦσι is a mere blunder, and the παρα written in the margin of L and A was meant to explain ἐκ, not to suggest a v. l. παρακαλοῦσι. That ἐκκαλοῦσι was rightly understood, appears from such glosses as μεσ[ίτην] ποιοῦσι (B), εἰς βοήθειαν μεσοῦντα (E).—αἰκάλλουσι Musgrave.
+598	τὸ γὰρ τυχεῖν αὐτοῖσ ἅπαν ἐνταῦθʼ ἔνι L. The accent on αὐτοῖσ has been either made or re-touched by the first corrector (S); Dübner and Campbell think that the 1st hand wrote αὐτοὺσ. This is possible, but seems hardly certain. They also find traces of τ, written by an early hand after ἅπαν, but now erased. Of the later MSS., a few have ἅπαν, the majority (as A) ἅπαντʼ, but two (Γ and L²) the probably true reading, πᾶν.—πάντʼ is read by Bothe and Burges.—Wecklein brackets the verse as spurious.
+602	δρῶντος] δρῶν τόσʼ Bellermann; δρῶν τόδʼ Förster.
+604	πεύθου L, the letters πευ in an erasure; the 1st hand perh. wrote ἐπύθου, as Dübner thinks. πεύθου prevails in the later MSS., but Γ has πύθου, and Pal. πυθοῦ. Nauck prefers πυθοῦ, as Dindorf did in Poet. Scen. ed. 5 (1869).
 --- notes
+583	the apparatus begins with the end of the note on 583 ("right, and the MSS. give ἔχω."): written with p-0184.
+594	οὔπω: the print has smooth breathing and circumflex as Perseus: kept.
+602	ἂν: the print reads ἂν (second ἂν before τλαίην): kept.
+604	the note runs on to the top of p-0188's apparatus ("πυθοῦ, as Dindorf did in Poet. Scen. ed. 5 (1869)."): written here whole.
+598	apparatus: L's spellings αὐτοῖσ, αὐτοὺσ copied with the medial σ as printed.
 
 === p-0188
 --- text
@@ -111,7 +137,7 @@
 611	φίλον γὰρ ἐσθλὸν ἐκβαλεῖν ἴσον λέγω
 612	καὶ τὸν παρʼ αὑτῷ βίοτον, ὃν πλεῖστον, φιλεῖ.
 613	ἀλλʼ ἐν χρόνῳ γνώσει τάδʼ ἀσφαλῶς, ἐπεὶ
-614	χρόνος δίκαιον ἄνδρα δείκνυσιν μόνος·
+614	χρόνος δίκαιον ἄνδρα δείκνυσιν μόνος,
 615	κακὸν δὲ κἂν ἐν ἡμέρᾳ γνοίης μιᾷ.
 @ Χορός
 616	καλῶς ἔλεξεν εὐλαβουμένῳ πεσεῖν,
@@ -124,10 +150,12 @@
 @ Κρέων
 622	τί δῆτα χρῄζεις; ἦ με γῆς ἔξω βαλεῖν;
 @ Οἰδίπους
-623	ἥκιστα· θνῄσκειν, οὐ φυγεῖν σε βούλομαι.
+623	ἥκιστα· θνῄσκειν, οὐ φυγεῖν σε βούλομαι,
 624	ὡς ἂν προδείξῃς οἷόν ἐστι τὸ φθονεῖν.
 @ Κρέων
 625	ὡς οὐχ ὑπείξων οὐδὲ πιστεύσων λέγεις;
+@ Οἰδίπους
+!	* * * * * *
 @ Κρέων
 627	οὐ γὰρ φρονοῦντά σʼ εὖ βλέπω.
 @ Οἰδίπους
@@ -137,7 +165,19 @@
 @ Οἰδίπους
 628a	ἀλλʼ ἔφυς κακός.
 --- apparatus
+608	Bellermann conject. γνώμης δὲ δήλου.
+623	θνήισκειν L. See comment. on 118.
+624	ὡς ἂν is my conjecture for ὅταν. The MSS. give v. 624 to Creon, and v. 625 to Oedipus. After v. 625 a verse seems to be lost.
 --- notes
+604	the apparatus begins with the end of the note on 604 ("πυθοῦ, as Dindorf did in Poet. Scen. ed. 5 (1869)."): written with p-0186.
+614	χρόνος is printed (the OCR lost the χ); the print ends the verse with a comma (Perseus ·): changed.
+622	χρῄζεις; is printed on this verse: kept.
+623	θνῄσκειν: the print has acute and iota subscript as Perseus: kept. The print ends the verse with a comma (Perseus .): changed.
+624	the print gives 624 to Oedipus (no speaker mark; Jebb's note 624 f.): kept as in the draft.
+626	after 625 the print has ΟΙ. and a row of six asterisks (a lost verse of Oedipus): added @ Οἰδίπους and the ! line; @ Κρέων before 627 kept.
+627	the print sets 627 and 627a on one line, ΚΡ. … ΟΙ. τὸ γοῦν ἐμόν.: the split and speakers are right.
+628	the print sets 628 and 628a on one line, ΚΡ. … ΟΙ. ἀλλʼ ἔφυς κακός.: the split and speakers are right.
+624	the note "624 f." runs on to the top of p-0190's apparatus ("to Oedipus. After v. 625 a verse seems to be lost."): written here whole, numbered 624.
 
 === p-0190
 --- text
@@ -150,7 +190,7 @@
 @ Οἰδίπους
 629c	ὦ πόλις πόλις.
 @ Κρέων
-630	κἀμοὶ πόλεως μέτεστιν, οὐχί σοι μόνῳ.
+630	κἀμοὶ πόλεως μέτεστιν, οὐχὶ σοὶ μόνῳ.
 @ Χορός
 631	παύσασθʼ, ἄνακτες· καιρίαν δʼ ὑμῖν ὁρῶ
 632	τήνδʼ ἐκ δόμων στείχουσαν Ἰοκάστην, μεθʼ ἧς
@@ -158,15 +198,27 @@
 @ Ἰοκάστη
 634	τί τὴν ἄβουλον, ὦ ταλαίπωροι, στάσιν
 635	γλώσσης ἐπήρασθʼ οὐδʼ ἐπαισχύνεσθε γῆς
-636	οὕτω νοσούσης ἴδια κινοῦντες κακά;
-637	οὐκ εἶ σύ τʼ οἴκους σύ τε, Κρέων, κατὰ στέγας,
+636	οὕτω νοσούσης, ἴδια κινοῦντες κακά;
+637	οὐκ εἶ σύ τʼ οἴκους σύ τε, Κρέον, κατὰ στέγας,
 638	καὶ μὴ τὸ μηδὲν ἄλγος εἰς μέγʼ οἴσετε;
 @ Κρέων
-639	ὅμαιμε, δεινά μʼ Οἰδίπους ὁ σὸς πόσις δρᾶσαι δικαιοῖ
-640	δυοῖν ἀποκρίνας κακοῖν
+639	ὅμαιμε, δεινά μʼ Οἰδίπους ὁ σὸς πόσις
+640	δυοῖν δικαιοῖ δρᾶν ἀποκρίνας κακοῖν,
 641	ἢ γῆς ἀπῶσαι πατρίδος ἢ κτεῖναι λαβών.
 --- apparatus
+629	ἄρχοντοσ L, made from ἄρχοντεσ either by the first hand or by the first corrector (S).—ἄρχοντας Musgrave.
+631	καιρίαν] κυρίαν L, the υ in an erasure of two letters, of which the second was ι: in the margin, γρ. καιρίαν. Most of the later MSS. have καιρίαν.
+634	τὴν] Döderlein conj. τήνδʼ.
+635	The 1st hand in L wrote ἐπήρασθʼ, but an early corrector changed this to ἐπήρατʼ, as most of the later MSS. read, though one or two (as V, V⁴) have ἐπήρασθʼ.
+637	L has an erasure between σύ τʼ and οἴκουσ. The 1st hand seems to have intended σύ τʼ ἐσ οἴκουσ.—κρέων L, and nearly all the later MSS. In 1459 L again has κρέων as voc., but in Ant. 211 κρέον by correction from κρέων: but E has Κρέον, and so Elmsley.
+640	δρᾶσαι δικαιοῖ δυοῖν ἀποκρίνας κακοῖν MSS.—δυοῖν .. δρᾶν is my conjecture: see comment. The word συνίζησις, written over δυοῖν in T, seems to show a consciousness of the singularity.
 --- notes
+624	the apparatus begins with the end of the note on 624 ("to Oedipus. After v. 625 a verse seems to be lost."): written with p-0188.
+629	the print sets 629/629a and 629b/629c each on one line (ΚΡ. … ΟΙ. …): splits and speakers right. Jebb's note 629 (ἄρχοντοσ) is on the verse numbered 629b here; his number kept.
+630	the print reads οὐχὶ σοὶ with graves (Perseus οὐχί σοι): changed.
+636	ἴδια is printed on this verse; the print has a comma after νοσούσης: added.
+637	the print reads Κρέον (Perseus Κρέων; Jebb's note 637 follows E and Elmsley): changed.
+639	the print ends 639 at πόσις; δικαιοῖ stands on 640, and δρᾶσαι is not printed: Jebb prints δυοῖν δικαιοῖ *δρᾶν ἀποκρίνας κακοῖν, (his conjecture, note 640; asterisk left out): 639 and 640 rewritten as printed.
 
 === p-0192
 --- text
@@ -201,4 +253,13 @@
 @ Χορός
 660	οὐ τὸν πάντων θεῶν θεὸν πρόμον
 --- apparatus
+648	πάρεισί σοι made in L from πάρεισʼ ἴσοι. Cp. El. 1201.
+656	L has τὸν ἐναγῆι φίλον μήποτʼ ἐν αἰτίαι | σὺν ἀφανεῖ λόγον ἄτιμον ἐκβαλεῖν. Over λόγον an early hand has written γω, indicating λόγῳ, which is found in most of the later MSS. (including A); a few others (as V) have λόγων. Hermann inserted σʼ after λόγῳ. The false reading ἐκβαλεῖν is in almost all the later MSS.; but T agrees with Suidas (s.v. ἐναγής) in βαλεῖν.—For ἐναγῆ Musgrave conjectured ἀναγῆ: for σὺν, Seidler σύ γʼ, reading λόγων (which Musgrave, too, preferred).
+659	φυγεῖν, written by the 1st hand in L, has been changed to φυγὴν by an early corrector.
+660	θεῶν θεὸν. In L θεὸν is partially effaced, and in most of the later MSS. it is omitted; thus in A it has been completely erased, a space of four letters being left between θεῶν and πρόμον. A few, however, (as V,) keep θεὸν and omit θεῶν. T keeps both.
 --- notes
+640	the apparatus begins with the end of the note on 640 ("The word συνίζησις … of the singularity."): written with p-0190.
+655	the print sets 655, 655a, 655b on one line (ΟΙ. … ΧΟ. οἶδα. ΟΙ. φράζε δὴ τί φής.): splits and speakers right.
+658	εὖ is printed (the OCR read Jebb's strophe numeral 7 as τ): kept.
+656	the apparatus note "656 f." numbered 656.
+660	the note runs on to the top of p-0194's apparatus ("θεῶν and πρόμον. A few, however, (as V,) keep θεὸν and omit θεῶν. T keeps both."): written here whole.

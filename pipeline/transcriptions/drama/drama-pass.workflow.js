@@ -6,6 +6,7 @@ export const meta = {
   ],
 }
 // args: { play, scan, scratch, kind: 'residuals' | 'review', atOnce: 12,
+//         extra: 'a further instruction for every review agent',
 //         jobs: [{ id: '01', batches: ['01', '02'], pages: 'p-0080, p-0082', open: 'numbering questions left open …' }] }
 // residuals: after `drama-residuals <play>`; two batch files per job, `pages` = the pages that have residuals.
 // review: one batch file per job. See pipeline/PLAN-drama.md and pipeline/PLAN-sophocles.md.
@@ -36,7 +37,7 @@ First read transcriptions/drama/REVIEW.md and transcriptions/drama/INSTRUCTIONS-
 ${common(j)}
 Check sheets and crops: build/drama-pages/${play}/ (p-NNNN.md, p-NNNN-lines.png, p-NNNN-app-l.png, -app-r.png, -app2-l.png, -app2-r.png)
 Your own folder for crops and scripts: ${scratch}/${play}-rev-${j.id}/
-
+${args.extra ? '\n' + args.extra + '\n' : ''}
 Reply as REVIEW.md says: per page what you changed (or "no change"), the number of unexplained checker remarks, anything left open.`
 
 const out = []

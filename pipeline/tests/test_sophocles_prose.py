@@ -186,6 +186,26 @@ class AppendixDraft(unittest.TestCase):
         _resolve_headings(pages, "intro")
         self.assertEqual(pages[0]["md"], "# Manuscripts, editions, etc.\n\n## § 1 — MSS.\n\nTwelve\n\n56. The text\n\n## § 2\n\nx")
 
+    def test_margin_note_taken_out_of_its_line(self):
+        from anagnosis_pipeline.drama_prose import _jebb_margins
+
+        def line(y, x0, x1, words):
+            step = (x1 - x0) // len(words)
+            ws = [{"text": t, "bbox": [x0 + i * step, y, x0 + (i + 1) * step - 10, y + 60], "conf": 90}
+                  for i, t in enumerate(words)]
+            return {"bbox": [x0, y, x1, y + 60], "words": ws}
+
+        body = [line(400 + 80 * i, 120, 2110, ["word"] * 8) for i in range(10)]
+        body[3]["words"].append({"text": "MSS.", "bbox": [2140, 640, 2260, 700], "conf": 90})
+        body[3]["bbox"][2] = 2260
+        stamp = line(100, 2420, 2446, ["SN"])
+        out = _jebb_margins(body + [stamp], (2454, 4104))
+        self.assertEqual(len(out), 10)
+        self.assertEqual(out[3]["margin"], "MSS.")
+        self.assertEqual(out[3]["bbox"][2], out[3]["words"][-1]["bbox"][2])
+        self.assertEqual([w["text"] for w in out[3]["words"]], ["word"] * 8)
+        self.assertEqual([l.get("margin") for k, l in enumerate(out) if k != 3], [None] * 9)
+
 
 if __name__ == "__main__":
     unittest.main()

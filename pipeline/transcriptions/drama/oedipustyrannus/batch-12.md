@@ -13,22 +13,43 @@
 1084	τοιόσδε δʼ ἐκφὺς οὐκ ἂν ἐξέλθοιμʼ ἔτι
 1085	ποτʼ ἄλλος, ὥστε μὴ ʼκμαθεῖν τοὐμὸν γένος.
 --- apparatus
+1075	ἀναρρήξῃ L. Most of the later MSS. agree with L, but ἀναρρήξει is in V, Bodl. Laud. 54, E (from -η), Trin. (ἀναρήξει).
+1084	The 1st hand in L wrote τοιόσδʼ ἐκφὺς ὡσ οὐκ ἂν ἐξέλθοιμʼ ἔτι. A later hand wrote δε over τοιόσδ (i.e. τοιόσδε δʼ), and indicated by dots over ὡσ that it was to be deleted. The origin of the corruption plainly was that, δʼ having dropped out after τοιόσδε, some one unskilled in metre thought to complete the verse with ὡς (as=‘be sure that,’ cp. Ai. 39).—Blaydes conj. τοιόσδε δὴ φύς.—Dindorf, who once conjectured οὐκ ἂν ἐξέλθοιν ποτὲ | ἀλλοῖος, now rejects both verses (1084 f.).
+1085	ποτʼ ἄλλος] ἄτιμος Nauck.—ὥστε μὴ ʼκμαθεῖν] ὥστε μὴ οὐ μαθεῖν Blaydes.
 --- notes
+1075	no flags on this page; the text was not re-read.
+1075	the apparatus begins with the end of a note from the page before ("suit χαίρειν here."): left to the batch before.
+1084	ὡσ (rough breathing, no accent, final σ as a medial σ) is L's spelling as Jebb prints it; ἐξέλθοιν (Dindorf's conjecture) as printed.
+1085	the note runs on to the top of p-0244's apparatus ("μὴ ʼκμαθεῖν] ὥστε μὴ οὐ μαθεῖν Blaydes."): written here whole.
 
 === p-0244
 --- text
 @ Χορός
 1086	εἴπερ ἐγὼ μάντις εἰμὶ καὶ κατὰ γνώμαν ἴδρις,
-1087	οὐ τὸν Ὄλυμπον ἀπείρων,
-1087a	ὦ Κιθαιρών, οὐκ ἔσει τὰν αὔριον
+1088	οὐ τὸν Ὄλυμπον ἀπείρων,
+1089	ὦ Κιθαιρών, οὐκ ἔσει τὰν αὔριον
 1091	πανσέληνον, μὴ οὐ σέ γε καὶ πατριώταν Οἰδίπουν
 1092	καὶ τροφὸν καὶ ματέρʼ αὔξειν,
-1095	καὶ χορεύεσθαι πρὸς ἡμῶν, ὡς ἐπὶ ἦρα φέροντα τοῖς ἐμοῖς τυράννοις.
+1094	καὶ χορεύεσθαι πρὸς ἡμῶν, ὡς ἐπὶ ἦρα φέροντα τοῖς ἐμοῖς τυράννοις.
 1096	ἰήϊε Φοῖβε, σοὶ δὲ ταῦτʼ ἀρέστʼ εἴη.
-1097	τίς σε, τέκνον, τίς σʼ ἔτικτε τᾶν μακραιώνων ἄρα
-1100	Πανὸς ὀρεσσιβάτα
+1098	τίς σε, τέκνον, τίς σʼ ἔτικτε τᾶν μακραιώνων ἄρα
+1100	Πανὸς ὀρεσσιβάτα πατρὸς
 --- apparatus
+1090	οὐκ ἔσει τὰν αὔριον MSS.: οὐκ ἔσει τὰν αὖρι Nauck: οὐκ ἔσει τὰν ἦρι Wecklein: οὐκέτι τὰν ἑτέραν Dindorf. See comment., and cp. 1101.
+1091	Οἰδίπου MSS. I write Οἰδίπουν.
+1097	σοὶ δὲ MSS.: σοὶ δʼ οὖν Kennedy.
+1099	τῶν MSS.: τᾶν Heimsoeth.—ἆρα L: ἄρα Heath. Blaydes conject. κορᾶν.
+1100	πανὸσ ὀρεσσιβάτα προσπελασθεῖσʼ MSS. (L has προσπελασθεῖσα, without elision.) To supply the want of a syllable after ὀρεσσιβάτα, Hermann inserted τις, Heath που: Wunder and others wrote ὀρεσσιβάταο: Dindorf conjectured Νύμφα ὀρεσσιβάτᾳ που Πανὶ πλαθεῖσα. Lachmann restored πατρὸς πελασθεῖσʼ.
 --- notes
+1086	numbering of the lyrics renumbered to Jebb's (the Perseus count is irregular here): the print sets the strophe in seven lines and the margin prints 1090 beside line 3, 1098 beside the first line of the antistrophe and 1100 beside its second; Jebb's notes number οὐ … ἀπείρων 1088, χορεύεσθαι 1094, ἰήϊε 1096, ἔτικτε 1098. Each printed verse carries the number of its first word: εἴπερ … ἴδρις 1086 (1086-1087), οὐ τὸν Ὄλυμπον 1088, ὦ Κιθαιρών … αὔριον 1089 (1089-1090, the margin's 1090 beside it; Perseus too begins its 1090 at οὐκ ἔσει), πανσέληνον 1091, καὶ τροφὸν 1092, καὶ χορεύεσθαι … τυράννοις 1094, ἰήϊε … εἴη 1096 (1096-1097), τίς σε … ἄρα 1098 (1098-1099), Πανὸς 1100. The draft's 1087, 1087a, 1095, 1097 renumbered 1088, 1089, 1094, 1098. Jebb's own numbers are not wholly consistent here (his note on 1100 speaks of ἀπείρων "in 1087"); whoever merges may wish to check 1089 against 1090 for the line ὦ Κιθαιρών.
+1089	ἔσει confirmed on the image (the OCR's ἔδει is wrong).
+1091	Jebb's asterisk before Οἰδίπουν left out.
+1092	ματέρʼ αὔξειν, is printed on this verse (a pencil stroke runs through the line end): kept.
+1094	the indented ἐμοῖς τυράννοις. is the turnover of this verse: confirmed.
+1098	Jebb's asterisk before τᾶν left out.
+1100	the print divides πα- | τρὸς between this verse and the next: πατρὸς written whole here (Jebb's asterisk before it left out); no square brackets are printed on the line (the OCR's [ is the margin number misread).
+1090	apparatus numbers 1090, 1097, 1099 are Jebb's: they name verses that stand inside the printed lines numbered 1089, 1096, 1098.
+1099	"Blaydes conject. κορᾶν." heads the facing page's apparatus and continues the note on 1099: written with it.
 
 === p-0246
 --- text

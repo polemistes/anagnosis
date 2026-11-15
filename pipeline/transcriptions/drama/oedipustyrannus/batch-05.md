@@ -117,7 +117,7 @@
 403	εἶναι, παθὼν ἔγνως ἂν οἷά περ φρονεῖς.
 @ Χορός
 404	ἡμῖν μὲν εἰκάζουσι καὶ τὰ τοῦδʼ ἔπη
-405	ὀργῇ λελέχθαι καὶ τά σʼ, Οἰδίπους, δοκεῖ,
+405	ὀργῇ λελέχθαι καὶ τὰ σʼ, Οἰδίπου, δοκεῖ.
 406	δεῖ δʼ οὐ τοιούτων, ἀλλʼ ὅπως τὰ τοῦ θεοῦ
 407	μαντεῖʼ ἄριστα λύσομεν, τόδε σκοπεῖν.
 @ Τειρεσίας
@@ -131,7 +131,13 @@
 415	ἆρʼ οἶσθʼ ἀφʼ ὧν εἶ; καὶ λέληθας ἐχθρὸς ὢν
 416	τοῖς σοῖσιν αὐτοῦ νέρθε κἀπὶ γῆς ἄνω,
 --- apparatus
+405	Οἰδίπου. L and the other MSS. support this form of the voc. here, and in O. C. 557, 1346; but Οἰδίπους (voc.) in twelve other places. Elmsley and Reisig, whom Dindorf follows, hold Οἰδίπους to be alone correct. Here, at least, euphony recommends Οἰδίπου. It is more probable that both forms were admissible.
+413	δέδορκασ καὶ L. δεδορκὼς κοὐ r.
 --- notes
+405	the print has Οἰδίπου (the vocative Jebb defends in his note), τὰ σʼ with a grave, and a full stop after δοκεῖ (checked enlarged): written so.
+413	ἵνʼ is printed on this line; the flag is a misread by the OCR.
+405	the note runs on to the facing page (leaf 165); the numbers are 557, 1346 (checked enlarged; the OCR read 537, 1340). The dot before Οἰδίπου in "recommends·Οἰδίπου" is a speck: left out.
+413	the note begins at the foot of leaf 165 and ends at the top of leaf 166's apparatus ("καὶ L. δεδορκὼς κοὐ r."); written whole here. L's final σ in δέδορκασ copied as printed.
 
 === p-0166
 --- text
@@ -157,7 +163,12 @@
 433	οὐ γάρ τί σʼ ᾔδη μῶρα φωνήσοντʼ, ἐπεὶ
 434	σχολῇ σʼ ἂν οἴκους τοὺς ἐμοὺς ἐστειλάμην.
 --- apparatus
+420	λιμὴν] μυχὸς Wecklein.
+434	σχολῇ σʼ MSS.: σχολῇ γʼ Suidas, and so Porson, inserting σʼ after ἐμούς.
 --- notes
+424	ἄλλων is printed (pencil marks over it); the flag is a misread by the OCR.
+413	the top of the apparatus ("καὶ L. δεδορκὼς κοὐ r.") is the end of the note on 413, written with p-0164.
+434	the note runs on to the facing page (leaf 167) and ends there.
 
 === p-0168
 --- text
@@ -188,4 +199,11 @@
 448	δείσας πρόσωπον· οὐ γὰρ ἔσθʼ ὅπου μʼ ὀλεῖς.
 449	λέγω δέ σοι· τὸν ἄνδρα τοῦτον, ὃν πάλαι
 --- apparatus
+438	ἥδʼ ἡμέρα φύσει σε] τῇδʼ ἡμέρᾳ πεύσει σφε Nauck.
+439	ἄγαντʼ L 1st hand: the τʼ has been erased.
+445	σύ γʼ ἐμποδὼν] L has σύγʼ in an erasure. The 1st hand seems to have written ταῦτʼ: an early corrector (S?) wrote γρ. σύ γε in the margin, and altered the word in the text. One later MS. (Vat. a) has σύμʼ; another (B) τά γʼ.
+446	ἀλγύναισ L: ἀλγύνοις Elmsley.
 --- notes
+438	διαφθερεῖ. is printed at the end of this line; the OCR missed it.
+446	τʼ is printed on this line (συθείς τʼ ἂν); the OCR misread it.
+445	the note runs on to the facing page (leaf 169), where the 446 note follows; L's final σ in ἀλγύναισ copied as printed.

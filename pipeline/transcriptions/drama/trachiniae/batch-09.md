@@ -2,7 +2,7 @@
 --- text
 660	ὅθεν μόλοι πανίμερος,
 661	τᾶς πειθοῦς παγχρίστῳ
-662	συγκραθεὶς ἐπὶ προφάσει φάρους.
+662	†συγκραθεὶς ἐπὶ προφάσει φάρους.
 @ Δηιάνειρα
 663	γυναῖκες, ὡς δέδοικα μὴ περαιτέρω
 664	πεπραγμένʼ ᾖ μοι πάνθʼ ὅσʼ ἀρτίως ἔδρων.
@@ -30,6 +30,7 @@
 666	flag checked: δʼ, is printed on this verse; no change.
 672	res: comma after ἐκβέβηκεν, as printed
 669	unflagged, seen on the whole page: raised stop after γʼ, not a comma, as printed
+662	rev: dagger † before συγκραθεὶς added, as printed (*φάρους, asterisk left out)
 
 === p-0178
 --- text

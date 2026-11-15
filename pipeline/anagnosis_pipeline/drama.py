@@ -355,8 +355,9 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          check_text="sophocles/oedipustyrannus/reference-grc.txt",
          # leaf = PDF page (leaves from 1; 358-361 hidden): the Greek on the even leaves 110-298
          # (leaf 300, p. 200, holds only the end of the commentary; the Appendix 301-334); the
-         # introduction 15-66 and the arguments 104-107, which Perseus lacks
-         text_leaves=[(110, 299)], intro_leaves=[(15, 66), (104, 107)], appendix_leaves=[(301, 334)]),
+         # introduction 15-66 (67 ff. the metrical analysis) and the pages before the text 103-109
+         # (title and arguments 103-106, persons 107, structure 108-109), which Perseus lacks
+         text_leaves=[(110, 299)], intro_leaves=[(15, 66), (103, 109)], appendix_leaves=[(301, 334)]),
     Play("oedipuscoloneus", "Οἰδίπους ἐπὶ Κολωνῷ", "Oedipus at Colonus", "Σοφοκλῆς", "Sophocles", "tlg0011.tlg007",
          "Sophocles: The Plays and Fragments, with critical notes, commentary, and translation in English prose, by R. C. Jebb, Part II: The Oedipus Coloneus, second edition, Cambridge, University Press, 1889",
          "sophocles02soph_0", "jebb", "R. C. Jebb", "sophocles_oedipuscoloneus_jebb",
