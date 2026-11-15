@@ -290,8 +290,7 @@ The text has been much suspected (see cr. n.), but without reason. The imagery, 
 
 Porson is cited by Wunder and other editors as the authority for omitting παῖς. But Porson (on *Hec.*1030) said only that it is *possible* to omit παῖς,—adding that it is better to retain it (omitting the second μοι):—‘potes ejicere παῖς et legere πόθι μοι πόθι μοι. Sed alterum melius.’
 
-## 99
-**ὦ … φλεγέθων**: for this direct invocation (continued in 102), following Ἅλιον αἰτῶ, cp. *O. T.*164προφάνητέ μοι (after Ἄρτεμιν and Φοῖβον).
+[99] **ὦ … φλεγέθων**: for this direct invocation (continued in 102), following Ἅλιον αἰτῶ, cp. *O. T.*164προφάνητέ μοι (after Ἄρτεμιν and Φοῖβον).
 
 **στεροπᾷ**, usu. ‘lightning,’ here, ‘flashing light’; so the word is used of flashing armour ( *Il.*11. 83, etc.).
 
@@ -316,8 +315,7 @@ This use of **δισσαῖσιν** is possible only because **πόθι** preced
 ## 103
 **ποθουμένᾳ** = ποθούσῃ, a midd. found only here, yet not suspicious, since the context excludes the pass. sense. The ‘longing mind’ is clearly Deianeira's; ποθουμένᾳ could not well denote the ‘anxious’ or ‘tender’ feeling of the Chorus. As **πυνθάνομαι** is devoid of emphasis,—like a parenthetic ‘so I hear,’—the order of the words is not too bold.
 
-## 104
-**τὰν ἀμφινεικῆ**: cp. 527: Aesch. *Ag.*686τὰν δορίγαμβρον ἀμφινεικῆ θ' Ἑλέναν. Not, ‘with *two* suitors’ (Paley).— **ἀεί** belonged, in the poet's thought, to **τρύχεσθαι**, but is cut off from it by the adversative form in which the sentence is worked out (οὔποτ' εὐνάζειν..., ἀλλʼ, instead of οὔποτ' εὐνάζουσαν). It could not well be taken with ποθουμένᾳ: still less with πυνθάνομαι.
+[104] **τὰν ἀμφινεικῆ**: cp. 527: Aesch. *Ag.*686τὰν δορίγαμβρον ἀμφινεικῆ θ' Ἑλέναν. Not, ‘with *two* suitors’ (Paley).— **ἀεί** belonged, in the poet's thought, to **τρύχεσθαι**, but is cut off from it by the adversative form in which the sentence is worked out (οὔποτ' εὐνάζειν..., ἀλλʼ, instead of οὔποτ' εὐνάζουσαν). It could not well be taken with ποθουμένᾳ: still less with πυνθάνομαι.
 
 ## 105
 **ὄρνιν**. The nightingale may be meant (cp. 963, *El.*148ἃ Ἴτυν αἰὲν Ἴτυν ὀλοφύρεται); but it is also possible that the image is general, as in *Ant.*423 ff.
@@ -352,8 +350,8 @@ Among those who receive **στρέφει** (due to Reiske) are Dindorf, Nauck, W
 
 As to the MS. **τρέφει**, we may observe:—(1) Eur. *Hipp.*367ὦ πόνοι τρέφοντες βροτούς may fairly be quoted to show that the sense here might be, ‘troubles make up the life of Heracles.’ (2) But the context seems to show that, instead of this, we require a word (*a*) which shall convey the idea of *vexing*, and (*b*) which can be opposed to αὔξει. For other views of the passage, see Appendix.
 
-## 119
-**ἀλλά**: (*though* he is harassed), *yet* he is not suffered to perish (cp. 88). Since the words **τὸ δ' αὔξει** may be regarded as parenthetical, the idea of *trouble* remains the dominant one in the sentence before ἀλλά: hence the antithesis is logical.
+## 120
+[119] **ἀλλά**: (*though* he is harassed), *yet* he is not suffered to perish (cp. 88). Since the words **τὸ δ' αὔξει** may be regarded as parenthetical, the idea of *trouble* remains the dominant one in the sentence before ἀλλά: hence the antithesis is logical.
 
 **ἀναμπλάκητον**, ‘unerring,’ in the sense, ‘not stumbling or failing,’ ἄπταιστον (schol.), ἀσφαλῆ. Cp. *O. T.*472Κῆρες αναπλάκητοι. As to the forms with and without μ, see n. there.— **ἐρύκει**, a somewhat strange phrase (though θάνατον ἐρύκειν τινός would be natural), since it might suggest that he wished to reach Hades: cp. *Il.*18. 126μηδέ μ' ἔρυκε μάχης.
 
@@ -362,13 +360,12 @@ As to the MS. **τρέφει**, we may observe:—(1) Eur. *Hipp.*367ὦ πόν�
 
 Hense (whom Nauck follows) thinks that this second antistrophe (122—131) requires to be transposed, so as to become the second strophe, immediately following v. 111. But this change is worse than unnecessary. It is liable to the fatal objection that vv. 132 ff. (μένει γὰρ etc.) are then severed from the thought which they develope (vv. 129—131 ἀλλ' ἐπὶ πῆμα καὶ χαρὰ etc.). They are brought into a context which does not suit them (vv. 119— 121 ἀλλά τις θεῶν etc.).
 
-## 123
-**αἰδοῖα**, Musgrave's correction of **ἁδεῖα**, is certain. In L the ἁ of ἁδεῖα is at the end of a v., and the loss of ι after it would have been peculiarly easy (see Autotype Facsimile, p. 66 A). The difficulty of **ἁδεῖα** is not the construction, which, if somewhat harsh, is quite possible: ‘I will counsel in a pleasant vein’ (the adj. used adverbially), ‘though the counsel is adverse.’ The objection is the sense. ‘In a pleasant vein’ must mean, ‘suggesting thoughts of comfort’: as in *O. T.*82ἡδύς, ‘pleasant,’ = ‘bringing good news.’ But, since **ἀντία** expresses remonstrance against her *despair*, there is then no proper antithesis with **ἁδεῖα**. Further, the word required by the context is clearly one which shall temper opposition with deference: as **αἰδοῖα** does.
+[123] **αἰδοῖα**, Musgrave's correction of **ἁδεῖα**, is certain. In L the ἁ of ἁδεῖα is at the end of a v., and the loss of ι after it would have been peculiarly easy (see Autotype Facsimile, p. 66 A). The difficulty of **ἁδεῖα** is not the construction, which, if somewhat harsh, is quite possible: ‘I will counsel in a pleasant vein’ (the adj. used adverbially), ‘though the counsel is adverse.’ The objection is the sense. ‘In a pleasant vein’ must mean, ‘suggesting thoughts of comfort’: as in *O. T.*82ἡδύς, ‘pleasant,’ = ‘bringing good news.’ But, since **ἀντία** expresses remonstrance against her *despair*, there is then no proper antithesis with **ἁδεῖα**. Further, the word required by the context is clearly one which shall temper opposition with deference: as **αἰδοῖα** does.
 
 **οἴσω**, *proferam*, ‘bring forward,’ ‘suggest’: cp. *O. C.* 166 λόγον εἴ τιν' οἴσεις | πρὸς ἐμὰν λέσχαν. Isocr. or. 7 § 6 τούτων ἐνεγκεῖν ἔχω παραδείγματα. Not, ‘give an adverse judgment,’ like ψῆφον φέρειν.
 
-## 124
-**γὰρ**, prefacing the statement ( *O. T.*277 n.).
+## 125
+[124] **γὰρ**, prefacing the statement ( *O. T.*277 n.).
 
 **ἀποτρύειν**, ‘fret away.’ The midd. occurs in *Ant.*339γᾶν...ἀποτρύεται. (Cp. Tac. *Hist.* 2. 76 si quid... ferociae habuit,...commissationibus deteritur.)
 
@@ -381,8 +378,8 @@ Hense (whom Nauck follows) thinks that this second antistrophe (122—131) requi
 
 **ἐπέβαλε**: since the reference is to an eternal law, it seems best to take the aor. as=a perfect, rather than as gnomic (‘usually imposes’). For the sense, cp. Eur. *Med.*1112πῶς οὖν λύει... | τήνδ' ἔτι λύπην... | θνητοῖσι θεοὺς ἐπιβάλλειν*;* Il.6. 357οἷσιν ἐπὶ Ζεὺς θῆκε κακὸν μόρον.
 
-## 129
-**ἐπὶ … κυκλοῦσιν**=ἐπικυκλοῦσι, by tmesis: ‘come round in turn’ to all. Others prefer to join **ἐπὶ πᾶσι**, ‘over the heads of all,’ thinking that this suits the imagery (from stars) better; but the first view seems more in accord with idiom. There is no other sound instance of an intrans. κυκλεῖν in a writer of the 5th cent. B.C.; for in *El.*1365κυκλοῦνται is certainly right; it was so written by the first hand in L, and then altered by another to κυκλοῦσι. But Arist. uses ἀνακυκλεῖν intransitively: *De Gen. et Corr.* 2. 11 (p. 338 *a* 4) ἀνάγκη (τὴν γένεσιν) ἀνακυκλεῖν καὶ ἀνακάμπτειν: and so again in *Meteor.* 1. 3 (p. 339 *b* 28). In later Greek, too, this usage was current, as appears from Plut. *Mor.*160F (δελφῖνες...κυκλοῦντες) There is no reason, then, for doubting that Soph. admitted the use here; cp. the intrans. ἐπινωμᾶν and προσενώμα in Soph. *Ph.*168Soph. Ph., 717.Nauck, holding with Herm. that **κυκλοῦσιν** must be transitive, adopts his **χαρὰν** for **χαρὰ**, and further changes **οἷον** to **αἰὲν**, thus destroying the beautiful simile, and reducing ἄρκτου...κέλευθοι to an equivalent for περιτελλόμεναι ὧραι.
+## 130
+[129] **ἐπὶ … κυκλοῦσιν**=ἐπικυκλοῦσι, by tmesis: ‘come round in turn’ to all. Others prefer to join **ἐπὶ πᾶσι**, ‘over the heads of all,’ thinking that this suits the imagery (from stars) better; but the first view seems more in accord with idiom. There is no other sound instance of an intrans. κυκλεῖν in a writer of the 5th cent. B.C.; for in *El.*1365κυκλοῦνται is certainly right; it was so written by the first hand in L, and then altered by another to κυκλοῦσι. But Arist. uses ἀνακυκλεῖν intransitively: *De Gen. et Corr.* 2. 11 (p. 338 *a* 4) ἀνάγκη (τὴν γένεσιν) ἀνακυκλεῖν καὶ ἀνακάμπτειν: and so again in *Meteor.* 1. 3 (p. 339 *b* 28). In later Greek, too, this usage was current, as appears from Plut. *Mor.*160F (δελφῖνες...κυκλοῦντες) There is no reason, then, for doubting that Soph. admitted the use here; cp. the intrans. ἐπινωμᾶν and προσενώμα in Soph. *Ph.*168Soph. Ph., 717.Nauck, holding with Herm. that **κυκλοῦσιν** must be transitive, adopts his **χαρὰν** for **χαρὰ**, and further changes **οἷον** to **αἰὲν**, thus destroying the beautiful simile, and reducing ἄρκτου...κέλευθοι to an equivalent for περιτελλόμεναι ὧραι.
 
 **ἄρκτου στροφάδες κέλευθοι**. As the Great Bear moves ever round the pole, so joy and sorrow come round in unceasing rotation. The peculiar fitness of the comparison is in the fact that the Bear never disappears below the horizon: *Il.*18. 487ἄρκτον τʼ...ἥ τ' αὐτοῦ στρέφεται, ‘that revolves *in its place*,’—‘having no share in the baths of Ocean.’ Ov. *Met.* 13. 293 immunemque aequoris arcton. Cf. Soph. fr. 399 ἄρκτου στροφάς τε καὶ κυνὸς ψυχρὰν δύσιν.
 
@@ -620,8 +617,8 @@ Hence we have to choose between these views, of which I prefer the first. (1) **
 ## 211
 **ἀνάγετʼ**: cp. Soph. *El.*125ἴθι τὸν αὐτὸν ἔγειρε γόον, | ἄναγε πολύδακρυν ἁδονάν: id. Soph. *Ph.*1350ἀνάγετ' ἀνάγετε κωκυτόν.
 
-## 213
-**Ἄρτεμιν Ὀρτυγίαν**. The epithet was usu. understood as meaning ‘born in Ortygia.’ That name, like Nysa, was associated with various places (as Syracuse; Aetolia, schol. Apoll. Rh. 1. 419; Ephesus, Strabo 14. 639); but most frequently with Delos, as a name either for that island itself, or for some islet near it (Rheneia?): cp. *Hom. h. Apoll.* 16, which describes Artemis and Apollo as born, τὴν μὲν ἐν Ὀρτυγίῃ, τὸν δὲ κραναῇ ἐνὶ Δήλῳ. The epithet is parodied by Ar. *Av.*870Λητοῖ ὀρτυγομήτρᾳ (‘Quail mother’) Asteria, Leto's sister, was said to have escaped from Zeus by taking the form of a quail (ὄρτυξ): Apollod.1. 2§ 2. One theory explains the name Ortygia as simply ‘abounding with quails’; another (Preller vol. I. p. 238) supposes that the ὄρτυξ was taken as the type of a good mother; but the question remains uncertain.
+## 212
+[213] **Ἄρτεμιν Ὀρτυγίαν**. The epithet was usu. understood as meaning ‘born in Ortygia.’ That name, like Nysa, was associated with various places (as Syracuse; Aetolia, schol. Apoll. Rh. 1. 419; Ephesus, Strabo 14. 639); but most frequently with Delos, as a name either for that island itself, or for some islet near it (Rheneia?): cp. *Hom. h. Apoll.* 16, which describes Artemis and Apollo as born, τὴν μὲν ἐν Ὀρτυγίῃ, τὸν δὲ κραναῇ ἐνὶ Δήλῳ. The epithet is parodied by Ar. *Av.*870Λητοῖ ὀρτυγομήτρᾳ (‘Quail mother’) Asteria, Leto's sister, was said to have escaped from Zeus by taking the form of a quail (ὄρτυξ): Apollod.1. 2§ 2. One theory explains the name Ortygia as simply ‘abounding with quails’; another (Preller vol. I. p. 238) supposes that the ὄρτυξ was taken as the type of a good mother; but the question remains uncertain.
 
 Artemis was worshipped on the coasts near Malis (637 n.), but we have no proof that the name Ὀρτυγία was specially given to her there. Perhaps the poet uses it here merely as one of her standing epithets.
 
@@ -1499,8 +1496,7 @@ Ovid (*Met.* 9. 1—100) departs from the old Greek version: his Acheloüs begin
 
 Oeniadae was some twelve miles W.S.W. of Pleuron. As Heracles arrives from his famous home to the east, so it is fitting that the river-god should come from the western town which was a chief seat of his worship. The head of the Acheloüs appears on coins of Oeniadae.
 
-## 510
-**Βακχίας**: *Ant.*1122Βακχεῦ, Βακχᾶν | ὁ ματρόπολιν Θήβαν | ναιετῶν (n.). Heracles was born at. Thebes (116 n.).
+[510] **Βακχίας**: *Ant.*1122Βακχεῦ, Βακχᾶν | ὁ ματρόπολιν Θήβαν | ναιετῶν (n.). Heracles was born at. Thebes (116 n.).
 
 **ἀπὸ**: L's accent, **ἄπο**, represents the doctrine of some grammarians that the accent of the prep. suffered anastrophè when it stood between adj. and subst. (or subst. and adj.): see Ellendt *Lex.*p. 78 *b.* There is more reason for this when the subst. precedes; e.g., Ξάνθου ἄπο δινήεντος ( *Il.*2. 877) is more natural than Βακχίας ἄπο Θήβας. Modern editors differ: nor is their practice always consistent. But in all such cases it seems better to regard adj. and subst. as forming a single expression, and therefore to keep the normal accent.
 
@@ -1884,8 +1880,8 @@ A joyous music will presen<\*> be heard by the dwellers around Tr<\*>s. The vict
 
 *633*—
 
-## 639
-**<*> ναύλοχα** κ.τ.λ. Wishing to call up a general picture of the whole region, the poet takes Thermopylae as his central point. From the cliffs of Oeta, which overhang that pass, his thought passes to the highlands (<*>ους Οἴτας) of Malis, and thence descends to the seaboard,—bringing us back to Thermopylae by the mention of the Amphictyons.
+## 633-638
+**ὦ ναύλοχα** κ.τ.λ. Wishing to call up a general picture of the whole region, the poet takes Thermopylae as his central point. From the cliffs of Oeta, which overhang that pass, his thought passes to the highlands (<*>ους Οἴτας) of Malis, and thence descends to the seaboard,—bringing us back to Thermopylae by the mention of the Amphictyons.
 
 **θερμὰ λουτρὰ**: the wa<\*>m springs at Thermopylae are situated between the Malian gulf on the N. (**να<*>λοχα**), and the cliffs of Oeta on the south (**πετραῖα**). They gush from the foot of the mountain,—that spur of Oeta which Livy and Strabo call Callidromus,—a little west of the point where the pass is narrowest. They were locally called χ<*>ροι, from the natural basins of rock; and near them was an altar of Heracles, for whose use Athena was said to have called them forth ( Her.7. 176: Peisander *ap.* schol. *Nub.* 1050).
 
@@ -1919,8 +1915,8 @@ A joyous music will presen<\*> be heard by the dwellers around Tr<\*>s. The vict
 
 **ἀχῶν**, as a correction of **ἰάχων**, is hardly doubtful, since a resolution of the long syllable would impair the rhythm (cp. 635 Οἴτας).
 
-## 644
-**ὁ Διὸς … Ἀλκμήνας κόρος**: objection has been taken to the double gen., but needlessly: the second gen. practically forms a single notion with κόρος,—‘Zeus's Alcmena-son,’=the son *of* Zeus *by* Alcmena. To a Greek ear the effect would be nearly the same as when the first gen. is replaced by an adj.; e.g., Aesch. *Suppl.*313ὁ Δῖος πόρτις...βοός, Pind. *O.*2. 13<*> Κρόνιε παῖ Ῥέας.
+## 643
+[644] **ὁ Διὸς … Ἀλκμήνας κόρος**: objection has been taken to the double gen., but needlessly: the second gen. practically forms a single notion with κόρος,—‘Zeus's Alcmena-son,’=the son *of* Zeus *by* Alcmena. To a Greek ear the effect would be nearly the same as when the first gen. is replaced by an adj.; e.g., Aesch. *Suppl.*313ὁ Δῖος πόρτις...βοός, Pind. *O.*2. 13<*> Κρόνιε παῖ Ῥέας.
 
 ## 645
 **σοῦται**, instead of the MS. **σεῦται**, is now generally read here. Cp. *Ai.*1414σούσθω: Aesch. *Pers.*25σοῦν<*> ται: *Vesp.* 209 σοῦ. On the other hand, σεῦται has no nearer <\*>arallel than the Homeric στεῦται: which some, indeed, regard as syncopated (Curtius, *Gk. Verb*, ch. iv. I. C), but others as a genuine non-thematic form (Leaf, *Il.*18. 191).
@@ -2459,8 +2455,8 @@ Needless difficulties have been made by assuming that the allusion here must be 
 
 **κατουρίζει**, intrans., are coming into haven before a fair wind: schol. ὥσπερ οὐρίῳ πνεύματι προσορμεῖ ἡμῖν κατ' ὀρθὸν ἀνυόμενα. This compound does not occur elsewhere: but cp. Ar. *Th.*1226τρέχε νυν κατὰ τοὺς κόρακας ἐπουρίσας.
 
-## 829
-**ὁ μὴ λεύσσων**=ὁ μὴ βλέπων, the dead. Though this absol. use of λεύσσειν is found only here, it does not warrant suspicion.
+## 827
+[829] **ὁ μὴ λεύσσων**=ὁ μὴ βλέπων, the dead. Though this absol. use of λεύσσειν is found only here, it does not warrant suspicion.
 
 **ἐπίπονον … λατρείαν**. The insertion of **πόνων**, due to Gleditsch, is made probable by the text of the antistrophe: [see on 839](#839) f. For the phrase, cp. 356 πόνων | λατρεύματʼ. And for ἐπίπονον along with πόνων, cp. *Ant.*502 n. Other views of this verse are given in the Appendix on 839 f.
 
@@ -2485,11 +2481,10 @@ Others understand: (1) ‘in the Centaur's deadly *net.*’ νεφέλη was a k
 
 **μελαγχαίτα** (gen.): *Scut.* 186 μελαγχαίτην τε Μίμαντα. Cp. above, 557 n.
 
-## 838
-**ἄμμιγα**=ἀνάμιγα (cp. 519): Dem. or. 21 § 52 (in a μαντεία), ἱστάναι ὡραίων Βρομίῳ χάριν ἄμμιγα πάντας (‘promiscuously,’ i.e. of mixed fruits). Here the sense seems to be, ‘confusedly’; there is a tumult of pangs: cp. 1053 ff. The objection of taking it as merely ‘therewith,’ or ‘at the same time,’ is that the κέντρα are only the workings of the hydra's venom.
+## 837
+[838] **ἄμμιγα**=ἀνάμιγα (cp. 519): Dem. or. 21 § 52 (in a μαντεία), ἱστάναι ὡραίων Βρομίῳ χάριν ἄμμιγα πάντας (‘promiscuously,’ i.e. of mixed fruits). Here the sense seems to be, ‘confusedly’; there is a tumult of pangs: cp. 1053 ff. The objection of taking it as merely ‘therewith,’ or ‘at the same time,’ is that the κέντρα are only the workings of the hydra's venom.
 
-## 839
-It has long been the general belief that the words **νέσου** (or **νέσσου**) **θ' ὕπο**, found in the MSS., have arisen from a gloss,—the name of Nessus having been introduced to explain **μελαγχαίτα**. But otherwise there has been little agreement. The views of various critics are given in the Appendix.
+[839] It has long been the general belief that the words **νέσου** (or **νέσσου**) **θ' ὕπο**, found in the MSS., have arisen from a gloss,—the name of Nessus having been introduced to explain **μελαγχαίτα**. But otherwise there has been little agreement. The views of various critics are given in the Appendix.
 
 Here I may briefly state my own conclusions. (1) **μελαγχαίτα**, ‘the blackhaired one,’ could probably stand without a substantive, or proper name,—esp. as Κενταύρου has occurred not far back; though it would be somewhat harsh.
 
@@ -2502,14 +2497,12 @@ Here I may briefly state my own conclusions. (1) **μελαγχαίτα**, ‘th
 ## 841
 **ὧν … ἄοκνος**, *quorum secura* (cp. 23): she had no apprehension of such results. The MS. **ἄοκνον**, an epithet of βλάβαν, is explained as ‘not shrinking,’ i.e., ‘not delaying,’ ‘hastening on.’ But (*a*) such a personification is strange; and (*b*) ὧν has then to be taken, somewhat awkwardly, with τὰ μὲν in 843.
 
-## 842
-**προσορῶσα** is confirmed, as against the plausible **προορῶσα** (Blaydes), by the fact that Deianeira had seen Iolè's arrival. She did not merely ‘foresee’ evil; she had ‘beheld’ it coming.
+[842] **προσορῶσα** is confirmed, as against the plausible **προορῶσα** (Blaydes), by the fact that Deianeira had seen Iolè's arrival. She did not merely ‘foresee’ evil; she had ‘beheld’ it coming.
 
 ## 843
 **ἀΐσσουσαν**, Nauck's correction of **ἀϊσσόντων**, is acceptable, because ‘swift coming’ should be that of the βλάβη, rather than of the γάμοι: since **γάμων** here means simply the new tie,—not a formal marriage which was in prospect: cp. 460 ἔγημε (n.), *Ant.*185τὴν ἄτην ὁρῶν | στείχουσαν ἀστοῖς. *νέων ἀϊσσόντων γάμων* would be a gen. absol., ‘as a new marriage was hastening on.’
 
-## 844
-**τὰ μὲν αὐτὰ προσέβαλε**: the *remedial measures* were her own; their *results*, due to Nessus, were not foreseen by her. προσέβαλε=‘applied,’ as a remedy to a disease: cp. 580. Others explain, ‘brought upon herself’ (*sc.* ἑαυτῇ): but this would rèquire αὑτᾷ in place of αὐτά.
+[844] **τὰ μὲν αὐτὰ προσέβαλε**: the *remedial measures* were her own; their *results*, due to Nessus, were not foreseen by her. προσέβαλε=‘applied,’ as a remedy to a disease: cp. 580. Others explain, ‘brought upon herself’ (*sc.* ἑαυτῇ): but this would rèquire αὑτᾷ in place of αὐτά.
 
 The MS. reading, τὰ μὲν *οὔ τι* προσέβαλε, is explained to mean, ‘part she did not *comprehend*’ (schol. οὐκ ἔγνω, οὐ συνῆκεν): i.e., she had, indeed, a secret purpose, but she did not know the deadly nature of the unguent. To this there are two objections. (1) The supposed sense of προσέβαλε is unexampled: cp. 580 n. (2) The proper antithesis is lost; for τὰ ἀπ' ἀλλόθρου γνώμας μολόν<*>) <\*>ought to be opposed to her own designs or acts; but those things which she ‘did not comprehend’ were just those which ‘came from the alien will.’
 
@@ -2540,8 +2533,7 @@ The MS. reading, τὰ μὲν *οὔ τι* προσέβαλε, is explained to 
 ## 852
 **ἔρρωγεν παγὰ δακρύων**: cp. 919: *Ant.*802ἴσχειν δʼ | οὐκέτι πηγὰς δύναμαι δακρύων. The natural sense is, ‘The *stream* of tears has burst forth’; i.e., ‘we all weep for this calamity.’ The words could not well mean merely, ‘a *source* of tears has been opened’; i.e., a woe has befallen, which will claim tears.
 
-## 853
-**κέχυται νόσος**, the plague has been diffused through his whole frame: cp. *Ph.*293πάγου χυθέντος, ‘spread abroad.’
+[853] **κέχυται νόσος**, the plague has been diffused through his whole frame: cp. *Ph.*293πάγου χυθέντος, ‘spread abroad.’
 
 **ὦ πόποι**: *O. T.*167 n.
 
@@ -2636,8 +2628,8 @@ By πρᾶξιν must be meant here the mode of ‘doing’ the deed, rather tha
 
 **τίνες νόσοι**, what pangs of frenzy ( *Ai.*59φοιτῶντ' ἄνδρα μανιάσιν νόσοις). The words ἢ τίνες νόσοι are really parenthetical,—suggesting that the excited mind (θυμός) may have been also deranged; hence the verb can agree with θυμός, on which the chief stress falls.— **ξυνεῖλε**, *corripuit*, seized and carried off; cp. Thuc.2. 51(ὁ λοιμὸς) πάντα ξυνῄρει. Not, ‘destroyed her along with Heracles.’
 
-## 886
-**μόνα** means merely that she alone is responsible for the death of Heracles as well as for her own. It does not anticipate the statement that she was unaided in her suicide (891).
+## 885
+[886] **μόνα** means merely that she alone is responsible for the death of Heracles as well as for her own. It does not anticipate the statement that she was unaided in her suicide (891).
 
 ## 887
 **στονόεντος**: cp. *Il.*8. 159βέλεα στονόεντα χέοντο (‘dolorous darts’).
@@ -2942,7 +2934,7 @@ Hyllus, detained by the events within (928), cannot have been far on his way tow
 ## 1003
 **θαῦμ' ἂν πόρρωθεν ἰδοίμην**: ‘I should look upon him, from afar, as a wonder,’—i.e., ‘I should marvel as soon as he came within my ken.’ He means that he might scan the horizon long enough, in the vain hope of such a prodigy appearing.—Others join **πόρρωθεν** with **θ<*>μα**: ‘I should behold him as a wonder from some distant region’: i.e., the place which contains him must be distant indeed. Hermann further supposed a question: ‘am I likely to see such a wonder coming from afar?’—The phrase τηλόθεν εἰσορῶν in *Ph.*454 is not similar: see n. there.
 
-## 1004-1043
+## 1004-1042
 This passage consists of lyrics delivered by actors (ἀπὸ σκηνῆς). As the Chorus takes no part in it, it is not technically a κομμός, which is a θρῆνος κοινὸς χοροῦ καὶ ἀπὸ σκηνῆς.
 
 ## 1004
@@ -3031,8 +3023,8 @@ In the Appendix are given the proposed explanations of the vulgate, and various 
 
 **ἐχόλωσεν**, an epic word ( *Il.*18. 111), here partly suggested by the thought of the venom working in his veins. Cp. 1142 ἐκμῆναι. The *v.l.* **ἐχόλησεν** (schol.) was intended to mean, ‘has used the hydra's gall against me’: but the Attic sense of χολᾶν was ‘to be μελάγχολος.’
 
-## 1039
-**αὔτως**: for the smooth breathing, see n. on *O.T.* 931.
+## 1040
+[1039] **αὔτως**: for the smooth breathing, see n. on *O.T.* 931.
 
 **γλυκὺς**; cp. *O.C.* 106 ἴτʼ, ὦ γλυκεῖαι παῖδες ἀρχαίου Σκότου (n.).
 

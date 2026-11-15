@@ -96,6 +96,9 @@ def check_work(work_dir: Path, lexicon_keys: dict[str, set[str]] | None, sources
     if lexicon_keys is not None and not isinstance(lexicon_keys, dict):
         lexicon_keys = None
     if lexicon_keys is not None:
+        # a copy: the glossary is this text's own (the bundle keeps it per text), so its names
+        # must not count as found for the texts checked after it
+        lexicon_keys = {"exact": set(lexicon_keys["exact"]), "loose": set(lexicon_keys["loose"])}
         for glossary in [work_dir / "glossary.md", *sorted(work_dir.glob("dictionary-*.md"))]:
             if not glossary.exists():
                 continue

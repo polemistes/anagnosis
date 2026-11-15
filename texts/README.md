@@ -205,8 +205,13 @@ files here.
   `appendix.md` by `merge-sophocles-appendix`.
 * `glossary.md` (names the dictionaries lack) and `shortdefs.tsv` are written by hand; `sigla.md`
   gives Jebb's note on his symbols.
-* Done so far: Ajax and Electra. The Oedipus Tyrannus is checked as far as line 160; the other
-  three plays are imported from Perseus without the check.
+* Done so far: Ajax, Electra and the Trachiniae. The Trachiniae was made by the drama pipeline's
+  route (`pipeline/PLAN-sophocles.md`: Tesseract OCR of the scan matched to Jebb's Perseus text,
+  agents deciding the flagged places from the page, a residual pass and a review per batch; text
+  and critical apparatus by `merge-drama trachiniae` from `pipeline/transcriptions/drama/trachiniae/`,
+  the transcribed introduction chapters and the Appendix by `sophocles-prose trachiniae`) rather
+  than by the by-eye batches described above. The Oedipus Tyrannus is checked as far as line 160;
+  the other two plays are imported from Perseus without the check.
 
 ## Aeschylus' Oresteia (`texts/agamemnon/`, `choephoroi/`, `eumenides/`)
 

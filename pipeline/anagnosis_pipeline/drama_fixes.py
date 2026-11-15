@@ -361,6 +361,22 @@ HAND_ANALYSES: dict[str, dict[str, tuple[str, str]]] = {
 }
 
 LEMMA_FIXES: dict[str, dict[str, str]] = {
+    "trachiniae": {
+        # AGDT lemmas misspelt or in another dialect's form than the words of the text (the form
+        # and verse in the comment); the dictionaries' headword on the right
+        "γψνή": "γυνή",  # 202 γυναῖκες
+        "ἀμφιπλήj": "ἀμφιπλήξ",  # 930 ἀμφιπλῆγι
+        "Εὐνος": "Εὔηνος",  # 559 Εὔηνον, the river (the glossary)
+        "Ομφάλη": "Ὀμφάλη",  # 356 Ὀμφάλῃ
+        "Ἐυρύτειος": "Εὐρύτειος",  # 260 Εὐρυτείαν
+        "Κήναιος": "Κηναῖος",  # 753 Κήναιον, the headland (the glossary)
+        "Εὐβοιίς": "Εὐβοΐς",  # 237 Εὐβοιίς
+        "ὄψε": "ὀψέ",  # 934 ὄψʼ
+        "πέπειρα": "πέπειρος",  # 728 πέπειρα
+        "ταναυφής": "ταναϋφής",  # 602 ταναϋφῆ
+        "Ἡρακλέης": "Ἡρακλῆς",  # the Attic forms Ἡρακλῆς, -έους, -εῖ, -ῆ (14 places)
+        "ποτιπτύσσω": "προσπτύσσω",  # 767 προσπτύσσεται
+    },
     "hermas": {
         # GLAUx lemmas garbled or spelled otherwise than the dictionaries (step 9; the form in the
         # comment where the lemma alone does not show it)

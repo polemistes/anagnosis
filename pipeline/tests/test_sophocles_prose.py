@@ -207,5 +207,93 @@ class AppendixDraft(unittest.TestCase):
         self.assertEqual([l.get("margin") for k, l in enumerate(out) if k != 3], [None] * 9)
 
 
+COMMENTARY = """# title: Commentary on Sophocles: Trachiniae
+# author: Richard C. Jebb
+
+## 98
+**ναίει**: dwells.
+
+## 99
+**ὦ … φλεγέθων**: for this direct invocation.
+
+## 119
+**ἀλλά**: *yet* he is not suffered to perish.
+
+## 124
+It is the statement.
+
+## 1004-1043
+This passage consists of lyrics.
+
+## 1040
+**αὔτως**: for the smooth breathing.
+"""
+GRC = """# title: Τραχίνιαι
+
+@ Χορός
+98	ναίει ποτʼ, ὦ λαμπρᾷ στεροπᾷ φλεγέθων,
+100	ἢ ποντίας αὐλῶνας,
+116	οὕτω δὲ τὸν Καδμογενῆ στρέφει,
+120	Κρήσιον. ἀλλά τις θεῶν
+122	ὧν ἐπιμεμφομένα σʼ αἰδοῖα μέν,
+125	φαμὶ γὰρ οὐκ ἀποτρύειν
+1004	ἒ ἔ,
+1040	αὔτως, ὧδʼ αὔτως, ὥς μʼ ὤλεσεν.
+1042	ὠκυπέτᾳ μόρῳ τὸν μέλεον φθίσας.
+"""
+
+
+class RefileCommentary(unittest.TestCase):
+    """sophocles-prose files Jebb's notes on verses our numbering lacks as merge-drama files the
+    apparatus: under the line that holds the lemma (the earlier or the next one), else the
+    nearest earlier line, the printed number kept in front."""
+
+    def test_notes_refiled_and_safe_to_run_again(self):
+        from anagnosis_pipeline.sophocles import refile_commentary
+
+        with tempfile.TemporaryDirectory() as tmp:
+            work = Path(tmp)
+            (work / "commentary-jebb.md").write_text(COMMENTARY, encoding="utf-8")
+            (work / "grc.txt").write_text(GRC, encoding="utf-8")
+            moves = refile_commentary(work)
+            text = (work / "commentary-jebb.md").read_text(encoding="utf-8")
+            self.assertEqual(len(moves), 4)
+            self.assertEqual(text, """# title: Commentary on Sophocles: Trachiniae
+# author: Richard C. Jebb
+
+## 98
+**ναίει**: dwells.
+
+[99] **ὦ … φλεγέθων**: for this direct invocation.
+
+## 120
+[119] **ἀλλά**: *yet* he is not suffered to perish.
+
+## 122
+[124] It is the statement.
+
+## 1004-1042
+This passage consists of lyrics.
+
+## 1040
+**αὔτως**: for the smooth breathing.
+""")
+            # again: nothing moves, the file stays as it is
+            self.assertEqual(refile_commentary(work), [])
+            self.assertEqual((work / "commentary-jebb.md").read_text(encoding="utf-8"), text)
+
+    def test_heading_perseus_lost_put_right(self):
+        from anagnosis_pipeline.sophocles import refile_notes
+
+        lines = {"633": "ὦ ναύλοχα καὶ πετραῖα", "638": "Πυλάτιδες κλέονται·", "640": "ὁ καλλιβόας"}
+        fixes = {"639 **<*> ναύλοχα**": ("633-639", "**ὦ ναύλοχα**")}
+        want = "## 633-638\n**ὦ ναύλοχα** κ.τ.λ. Wishing\n"
+        # from Perseus's heading, and from the state an earlier run without the fix left
+        for text in ("## 639\n**<*> ναύλοχα** κ.τ.λ. Wishing\n", "## 638\n[639] **<*> ναύλοχα** κ.τ.λ. Wishing\n"):
+            new, _moves = refile_notes(text, lines, fixes)
+            self.assertEqual(new, want)
+            self.assertEqual(refile_notes(new, lines, fixes), (want, []))
+
+
 if __name__ == "__main__":
     unittest.main()

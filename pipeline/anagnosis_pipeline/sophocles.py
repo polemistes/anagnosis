@@ -586,4 +586,153 @@ def write_prose(slug: str, sources: Path, texts: Path, transcriptions: Path, ind
                 print(f"{slug}: {n} sections of the introduction from Perseus")
         add_transcribed_introduction(tmp, transcriptions, play, paras=paras, how=PROSE_HOW)
         os.replace(tmp, path)
+    refile_commentary(out)
     return skipped
+
+
+# Perseus's commentary: notes whose printed heading (and the first word of the lemma) Perseus lost,
+# put right from the page: "number lemma-start" -> (Jebb's heading, Jebb's lemma)
+NOTE_HEADING_FIXES: dict[str, dict[str, tuple[str, str]]] = {
+    "trachiniae": {
+        # leaf 172: "633—639 ὦ ναύλοχα κ.τ.λ." (Perseus: 639, the ὦ lost)
+        "639 **<*> ναύλοχα**": ("633-639", "**ὦ ναύλοχα**"),
+    },
+}
+
+_NOTE_HEAD = re.compile(r"^## (\d+[a-z]?)(?:-(\d+[a-z]?))?(?:\s+(ff?\.))?\s*$")
+
+
+def _skel(word: str) -> str:
+    from .drama import skel
+
+    return skel(word)
+
+
+def refile_notes(text: str, lines: dict[str, str],
+                 heading_fixes: dict[str, tuple[str, str]] | None = None) -> tuple[str, list[str]]:
+    """Jebb's notes (a commentary-jebb.md text) on verses our numbering lacks, filed as merge-drama
+    files the apparatus (drama.place_notes): his longer printed verse covers the traditional
+    numbers after its own (his 98 holds 98-99), so a note on 99 goes to the line that holds the
+    first words of its bold lemma if they stand in the nearest earlier line or the next line of
+    grc.txt (`lines`: number -> verse), else to the nearest earlier line; the printed number is
+    kept in front of the note (`[99] **…**`), and a note filed under the heading just before it
+    is joined to that note. A range's end our numbering lacks becomes the last line we have
+    inside the range. Notes on lines we have are left exactly as they are, so running it again
+    changes nothing. `heading_fixes` ("639 **<*> ναύλοχα**" -> ("633-639", "**ὦ ναύλοχα**"))
+    first puts right a note whose heading and lemma Perseus lost or misread (NOTE_HEADING_FIXES).
+    Returns the text and one line per note moved."""
+    from .drama import base
+    from .linenum import complete
+
+    numbers = list(lines)
+    have = set(numbers)
+    raw = text.split("\n")
+    head: list[str] = []
+    blocks: list[list] = []  # [heading line, body lines]
+    for line in raw:
+        if line.startswith("## "):
+            blocks.append([line, []])
+        elif blocks:
+            blocks[-1][1].append(line)
+        else:
+            head.append(line)
+    moves: list[str] = []
+    out: list[list] = []
+    for heading, body in blocks:
+        i = next((k for k, l in enumerate(body) if l.strip()), None)
+        if heading_fixes and i is not None and _NOTE_HEAD.match(heading):
+            pm = re.match(r"^\[(\S+)\] (.*)$", body[i])
+            num, rest = (pm.group(1), pm.group(2)) if pm else (heading[3:].strip(), body[i])
+            for key, (new_n, new_lemma) in heading_fixes.items():
+                knum, _, klemma = key.partition(" ")
+                if num == knum and rest.startswith(klemma):
+                    moves.append(f"commentary: the note on {num} ({klemma}) is Jebb's note on {new_n} ({new_lemma})")
+                    heading = f"## {new_n}"
+                    body = body[:i] + [new_lemma + rest[len(klemma):]] + body[i + 1:]
+        m = _NOTE_HEAD.match(heading)
+        if not m or not numbers:
+            out.append([heading, body])
+            continue
+        a, b, ff = m.group(1), m.group(2), m.group(3)
+        b_full = complete(b, a) if b else ""
+        if a in have and (not b or b_full in have):
+            out.append([heading, body])
+            continue
+        printed = a + (f"-{b}" if b else "")
+        new_a = a
+        if a not in have:
+            earlier = [n for n in numbers if 0 <= base(n) <= base(a)]
+            later = [n for n in numbers if base(n) > base(a)]
+            candidates = [c for c in (earlier[-1] if earlier else None, later[0] if later else None) if c]
+            first = next((l for l in body if l.strip()), "")
+            lm = re.match(r"^\*\*([^*]+)\*\*", first)
+            words = [s for s in (_skel(w) for w, _s, _e in greek.words(lm.group(1))) if s][:3] if lm else []
+            found = None
+            if words:
+                best = 0
+                for c in candidates:  # the earlier line first: it wins a tie
+                    verse = {_skel(w) for w, _s, _e in greek.words(lines[c])}
+                    if words[0] not in verse:
+                        continue
+                    score = sum(1 for w in words if w in verse)
+                    if score > best:
+                        best, found = score, c
+            if found:
+                new_a = found
+                how = "which holds its lemma"
+            elif earlier:
+                new_a = earlier[-1]
+                how = "the nearest earlier line"
+            else:
+                out.append([heading, body])
+                moves.append(f"commentary: no line for the note on {printed}")
+                continue
+        new_b = ""
+        if b:
+            new_b = b_full if b_full in have else ""
+            if not new_b:
+                inside = [n for n in numbers if base(new_a) < base(n) <= base(b_full)]
+                new_b = inside[-1] if inside else ""
+            if new_b and base(new_b) <= base(new_a):
+                new_b = ""
+        new_heading = f"## {new_a}" + (f"-{new_b}" if new_b else "") + (f" {ff}" if ff and not new_b else "")
+        if new_a != a:
+            # the printed number in front of the note, as in the apparatus
+            i = next((k for k, l in enumerate(body) if l.strip()), None)
+            if i is not None:
+                body = body[:i] + [f"[{printed}] {body[i]}"] + body[i + 1:]
+            moves.append(f"commentary: line {a} is not in our numbering; the note on {printed} goes to "
+                         f"{new_heading[3:]} ({how})")
+        else:
+            moves.append(f"commentary: the note on {printed} now ends at {new_b or a}")
+        if out and out[-1][0] == new_heading:
+            prev = out[-1][1]
+            while prev and not prev[-1].strip():
+                prev.pop()
+            prev.append("")
+            prev.extend(body)
+        else:
+            out.append([new_heading, body])
+    lines_out = head + [l for heading, body in out for l in [heading, *body]]
+    return "\n".join(lines_out), moves
+
+
+def refile_commentary(work_dir: Path) -> list[str]:
+    """refile_notes on texts/<slug>/commentary-jebb.md against its grc.txt (sophocles-prose);
+    writes the file only when a note moved. Returns the moves (also printed)."""
+    from .textfmt import parse_file
+
+    path, grc = work_dir / "commentary-jebb.md", work_dir / "grc.txt"
+    if not path.exists() or not grc.exists():
+        return []
+    lines = {l.n: l.text for l in parse_file(grc).lines}
+    text = path.read_text(encoding="utf-8")
+    new, moves = refile_notes(text, lines, NOTE_HEADING_FIXES.get(work_dir.name))
+    if new != text:
+        tmp = path.with_name(path.name + ".part")
+        tmp.write_text(new, encoding="utf-8")
+        tmp.replace(path)
+    for m in moves:
+        print(m)
+    print(f"{path}: {len(moves)} notes on lines our numbering lacks re-filed")
+    return moves
