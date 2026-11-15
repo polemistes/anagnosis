@@ -60,7 +60,8 @@ PLAYS = {p.slug: p for p in [
     Play("philoctetes", "phil", "tlg006", "Φιλοκτήτης", "Philoctetes", "IV", "1898",
          glaux="0011-006.xml", commentary=False,
          parts=[(1, "Prologue"), (135, "Parodos"), (219, "First episode"), (676, "Stasimon"),
-                (730, "Second episode"), (865, "Third episode"), (1081, "Kommos"), (1218, "Exodos")]),
+                (730, "Second episode"), (827, "Kommos"), (865, "Third episode"), (1081, "Second kommos"),
+                (1218, "Exodos")]),
     Play("trachiniae", "trach", "tlg001", "Τραχίνιαι", "Trachiniae", "V", "1892",
          treebank="tlg0011.tlg001.perseus-grc2.tb.xml", eng="perseus-eng3",
          parts=[(1, "Prologue"), (94, "Parodos"), (141, "First episode"), (497, "First stasimon"),
@@ -586,7 +587,30 @@ def prose_paragraphs(directory: Path, kind: str) -> list[str]:
 
     pages = {stem: block["md"] for stem, block in read_prose_batches(directory, kind).items()}
     paras = [re.sub(r"(?<=[\u0370-\u03ff\u1f00-\u1fff])[\u1fbd\u02bc]", "\u2019", p) for p in merge_page_blocks(pages)]
-    return [plain_heading(p) if p.startswith("#") else p for p in paras]
+    return join_footnote_rests([plain_heading(p) if p.startswith("#") else p for p in paras])
+
+
+_FOOTNOTE_OPEN = re.compile(r"[.!?;:)\]\u2019\u201d]\s*$")
+
+
+def join_footnote_rests(paras: list[str]) -> list[str]:
+    """A footnote run over to the next page stands at that page's foot as a footnote of its own,
+    "[Note: sail with Philoctetes, \u2026]": a footnote that begins with a small letter, where the
+    footnote before it ends without a stop ("\u2026 And Neoptolemus can propose to]"), is that
+    footnote's rest and is joined to it (a divided word joined again)."""
+    from .sophocles_pages import join_run_on
+
+    out: list[str] = []
+    last: int | None = None      # index in out of the last footnote
+    for p in paras:
+        if (p.startswith("[Note: ") and p.endswith("]") and re.match(r"\[Note: [a-z]", p) and last is not None
+                and not _FOOTNOTE_OPEN.search(out[last][:-1])):
+            out[last] = join_run_on(out[last][:-1], p[len("[Note: "):])
+            continue
+        if p.startswith("[Note:"):
+            last = len(out)
+        out.append(p)
+    return out
 
 
 def plain_heading(heading: str) -> str:
@@ -717,6 +741,15 @@ def write_transcribed_commentary(slug: str, texts: Path, transcriptions: Path, i
         # …" before "1—134 Prologue."), under the first heading, as Perseus files the Trachiniae's
         print(f"{slug} notes: put under ## {notes[1][0]}, before its note: {' '.join(notes[0][1])[:80]}")
         notes = [(notes[1][0], notes[0][1] + notes[1][1])] + notes[2:]
+    joined: list[tuple[str, list[str]]] = []
+    for heading, body in notes:
+        # Jebb's "927 ff." (a general note) and "927 πῦρ" next to it are both `## 927`: one note,
+        # its paragraphs in the print's order (as further lemmas on one verse are)
+        if joined and heading and joined[-1][0] == heading:
+            joined[-1] = (heading, joined[-1][1] + body)
+        else:
+            joined.append((heading, body))
+    notes = joined
     count = 0
     for heading, body in notes:
         if not heading:
@@ -943,6 +976,35 @@ TRANSLATION_NUMBERS: dict[str, dict[str, str | None]] = {
         "118": "117", "130": "127", "148": "149", "160": "161", "165": "167", "48": "49",
         "839": "839a", "1060": "1062", "1090": "1091", "1230": "1231", "1245": "1246",
         "1448": "1447", "1463": "1462", "1690": "1691", "1714": "1715", "1715": "1717",
+    },
+    "philoctetes": {
+        # parodos: λέγʼ ὅ τι 210a (Neoptolemus), φροντίδας νέας· ὡς οὐκ ἔξεδρος … 210b (Perseus
+        # counts the parts of the shared verse 210, 211, 212)
+        "211": "210a", "212": "210b",
+        # ποίου δὲ τούτου … Ὀδυσσέως ἐρεῖς; is 441, Philoctetes's answer 442 (Perseus 440, 441)
+        "440": "441", "441": "442",
+        # the second speaker's part of a shared verse whose first part Perseus files under the
+        # segment before (so no plain number, and the rule would take "a" for the first part):
+        # καὶ σέ γʼ εἰσάξω 674a, πῶς οὐκ οἶσθα 754a, ἰὼ ἰὼ δύστηνε σύ 759a, τὴν ἁμαρτίαν 1248a,
+        # παῦε, μὴ λέξῃς πέρα 1275a, πάντα γὰρ φράσεις μάτην 1280a, μὴ ʼπεύξῃ πέρα 1286a, σάφʼ
+        # ἴσθι 1296a
+        "674a": "674a", "754a": "754a", "759a": "759a", "1248a": "1248a", "1275a": "1275a",
+        "1280a": "1280a", "1286a": "1286a", "1296a": "1296a",
+        # ἆ ἆ ἆ ἆ 732 (Philoctetes), τί ⟨δʼ⟩ ἔστιν; 733, οὐδὲν δεινόν 733a (Perseus 731-733)
+        "731": "732", "732": "733", "733": "733a",
+        # λεύσσων δʼ ὅπου … προσενώμα ("but ever directed his path …") is 716
+        "715": "716",
+        # πότμος, ⟨πότμος⟩ σε δαιμόνων 1116 (the Chorus; Perseus 1115)
+        "1115": "1116",
+        # epode of the second kommos: τί τοῦτʼ ἔλεξας; 1173, εἰ σὺ τὰν ἐμοὶ 1173a; ὦ ξένοι, μείνατε
+        # 1185, τί θροεῖς; 1185a; ποῖον ἐρεῖς τόδʼ ἔπος; 1204, ξίφος 1204a; τί ποτε; 1210, πατέρα
+        # ματεύων 1210a (Perseus counts each a verse earlier)
+        "1172": "1173", "1173": "1173a", "1184": "1185", "1185": "1185a",
+        "1203": "1204", "1204": "1204a", "1209": "1210", "1210": "1210a",
+        # Odysseus's "…" for the verse lost after 1251 (Jebb prints no verse)
+        "1251a": None,
+        # Heracles's μήπω γε 1409 (Perseus 1408)
+        "1408": "1409",
     },
 }
 

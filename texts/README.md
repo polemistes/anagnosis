@@ -187,10 +187,13 @@ files here.
 * Translation (`eng-jebb.txt`): Jebb's, Perseus `perseus-eng2` (Trachiniae `perseus-eng3`),
   modernized by Perseus. CC BY-SA 4.0.
 * Commentary and introduction: Jebb's, from Perseus, CC BY-SA 3.0 US. Perseus lacks the
-  commentary on the Philoctetes and the introduction to the Oedipus Tyrannus; the latter is now
-  transcribed whole from the scan (Jebb's Introduction, "Manuscripts, editions and commentaries",
-  the arguments, persons and structure). Perseus's Oedipus Tyrannus commentary is of the second
-  edition (1887): `sophocles-prose` files a note whose number the third edition's verses lack at
+  introduction to the Oedipus Tyrannus and both the introduction and the commentary of the
+  Philoctetes: these are transcribed whole from the scans (Jebb's Introduction, the manuscripts
+  chapter, the arguments, persons and structure; for the Philoctetes also his whole commentary,
+  read by the prose OCR route from the two columns under the rule of every page,
+  `notes-NN.md`, and written as `commentary-jebb.md` by `sophocles-prose`), CC BY-SA 4.0.
+  Perseus's Oedipus Tyrannus commentary is of the second edition (1887): `sophocles-prose`
+  files a note whose number the third edition's verses lack at
   the verse that holds its lemma. Perseus's Oedipus at Colonus (commentary, introduction and
   translation) is of the second edition (1889), the edition of the scan; where its commentary
   differs from the page (a lost range in a heading, a garbled letter) `sophocles.py` puts it right
@@ -213,18 +216,19 @@ files here.
   `appendix.md` by `merge-sophocles-appendix`.
 * `glossary.md` (names the dictionaries lack) and `shortdefs.tsv` are written by hand; `sigla.md`
   gives Jebb's note on his symbols.
-* Done so far: Ajax, Electra, the Trachiniae, the Oedipus Tyrannus and the Oedipus at Colonus.
-  The last three were made by the drama pipeline's route (`pipeline/PLAN-sophocles.md`: Tesseract
+* Done so far: all six plays (Ajax, Electra, the Trachiniae, the Oedipus Tyrannus, the Oedipus
+  at Colonus and the Philoctetes). The last four were made by the drama pipeline's route (`pipeline/PLAN-sophocles.md`: Tesseract
   OCR of the scan matched to Jebb's Perseus text, agents deciding the flagged places from the page,
   a residual pass and a review per batch; text and critical apparatus by `merge-drama <play>` from
   `pipeline/transcriptions/drama/<play>/`, the transcribed introduction and the Appendix by
   `sophocles-prose <play>`, which also makes the commentary and the translation again from Perseus
   and re-files them by the verses) rather than by the by-eye batches described above; the lyric
   numbering was settled against Jebb's margin and note numbers (`sophocles-numbering <play>` lists
-  the suspects). The Oedipus at Colonus has GLAUx's automatic lemmas and syntax, not checked by
-  hand (its `about.md` says so); the lemmas and parses the review list and `check` showed wrong
-  are corrected in `drama_fixes.py` (`HAND_ANALYSES`, `LEMMA_FIXES`). The Philoctetes is still
-  imported from Perseus without the check.
+  the suspects). The Oedipus at Colonus and the Philoctetes have GLAUx's automatic lemmas and
+  syntax, not checked by hand (their `about.md` says so); the lemmas and parses the review list,
+  a reading of the lemmas against their forms and `check` showed wrong are corrected in
+  `drama_fixes.py` (`HAND_ANALYSES`, `LEMMA_FIXES`). Perseus's Philoctetes translation is of the
+  second edition (1898), the scan's; `TRANSLATION_NUMBERS` files its segments by Jebb's verses.
 
 ## Aeschylus' Oresteia (`texts/agamemnon/`, `choephoroi/`, `eumenides/`)
 

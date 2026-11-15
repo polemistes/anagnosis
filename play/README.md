@@ -34,6 +34,7 @@ work and edition, as given in the text's `about.md` (`product_id`); it can never
 | Trachiniae | sophocles_trachiniae_jebb |
 | Oedipus Tyrannus | sophocles_oedipustyrannus_jebb |
 | Oedipus at Colonus | sophocles_oedipuscoloneus_jebb |
+| Philoctetes | sophocles_philoctetes_jebb |
 
 On sale (2026-11-14): Antigone, Ajax, Electra, Odyssey, Symposium, Gorgias and the New Testament.
 The other ids are reserved for texts that are built but not yet made available; a product is

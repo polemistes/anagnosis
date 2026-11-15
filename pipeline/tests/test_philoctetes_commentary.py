@@ -115,11 +115,35 @@ class TranscribedCommentary(unittest.TestCase):
         self.assertFalse((self.texts / "philoctetes" / "commentary-jebb.md").exists())
         self.assertEqual(write_prose("philoctetes", self.sources, self.texts, self.tr), 1)
 
+    def test_two_notes_on_one_number_are_one_note(self):
+        # "927 ff." at the foot of one page and "927 πῦρ" at the top of the next: one `## 927`
+        (self.tr / "notes-02.md").write_text(NOTES_2.replace("## 264-269", "## 255"), encoding="utf-8")
+        write_transcribed_commentary("philoctetes", self.texts, self.tr)
+        text = (self.texts / "philoctetes" / "commentary-jebb.md").read_text(encoding="utf-8")
+        self.assertEqual(text.count("## 255"), 1)
+        self.assertIn("## 255\n**οὐ μηδὲ**", text)
+        self.assertIn("μηδ’ Ἑλλάδος γῆς.\n\nThese verses describe", text)
+
     def test_no_batches(self):
         for p in self.tr.glob("notes-*.md"):
             p.unlink()
         self.assertEqual(write_transcribed_commentary("philoctetes", self.texts, self.tr), 0)
         self.assertFalse((self.texts / "philoctetes" / "commentary-jebb.md").exists())
+
+
+class FootnoteRest(unittest.TestCase):
+    def test_rest_of_a_footnote_joined(self):
+        from anagnosis_pipeline.sophocles import join_footnote_rests
+
+        paras = ["text ¹", "[Note: ¹ Each chief has his own men. And Neoptolemus can propose to]", "## § 10",
+                 "more text", "[Note: sail with Philoctetes, for Malis (1402 ff.).]",
+                 "[Note: cp. Plato, *Legg.* 967 A.]"]
+        self.assertEqual(join_footnote_rests(paras), [
+            "text ¹", "[Note: ¹ Each chief has his own men. And Neoptolemus can propose to sail with Philoctetes, "
+            "for Malis (1402 ff.).]", "## § 10", "more text",
+            # the footnote before ends with a stop: a footnote of its own
+            "[Note: cp. Plato, *Legg.* 967 A.]"])
+        self.assertEqual(join_footnote_rests(["a", "[Note: di-]", "[Note: vided word.]"]), ["a", "[Note: divided word.]"])
 
 
 class Draft(unittest.TestCase):

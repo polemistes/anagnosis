@@ -173,7 +173,7 @@
 509	ἆθλʼ, οἷα μηδεὶς τῶν ἐμῶν τύχοι φίλων.
 510	εἰ δὲ πικρούς, ἄναξ, ἔχθεις Ἀτρείδας,
 512	ἐγὼ μὲν τὸ κείνων κακὸν τῷδε κέρδος
-515	μετατιθέμενος, ἔνθαπερ ἐπιμέμονεν,
+514	μετατιθέμενος, ἔνθαπερ ἐπιμέμονεν,
 --- apparatus
 498	οἶμαι] Valckenaer conj. οἴμοι.—μέρος MSS., and Suid. s. v. στόλος. μέρει the 1st hand in A, and Suid. s. v. διάκονος: and so Brunck, Hartung, Blaydes.
 502	πάντα δεινὰ MSS. Wakefield conj. πάντʼ ἄδηλα: Dobree, πάντα κοινὰ.
@@ -193,3 +193,4 @@
 512	res: μὲν with a grave and no comma after it, as printed
 509	apparatus: the breathings of ἅσσα and ἃ are too small to read with certainty; written rough (the words' breathing)
 505	apparatus: τἀκ θεῶν read on the enlarged page (the OCR has τάκ); the mark over α is a coronis
+514	rev: numbering: μετατιθέμενος … ἐπιμέμονεν renumbered 515 → 514 (finishing agent): it answers the strophe's ὅτε τὰ πάτρια … παρεδίδοσαν (398, covering 398-399) and, by L's division in Jebb's note on 507-518 (μέγα τιθέμενος ἔν|θαπερ), covers 514-515; ἐγὼ μὲν … κέρδος is 512 covering 512-513 (L: ἐγὼ— | κακὸν—). The margin 515 stands at this line because it covers 515; Jebb's apparatus 515 (μετατιθέμενος, ἔνθαπερ, ἐπιμέμονεν) names the line by its second number, as his 399 παρεδίδοσαν does in the strophe.

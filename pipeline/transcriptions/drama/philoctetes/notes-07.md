@@ -60,7 +60,7 @@ Read the columns through: 276 split wrongly after στῆναι (now **στῆν
 **ὁ μὲν χρόνος δὴ διὰ χρόνου** κ.τ.λ. The text has been boldly altered by some editors (see cr. n.), in order to get rid of διὰ χρόνου: but the iteration is itself a proof of soundness. Such iteration is constantly employed in expressing a succession of seasons or periods; ‘day by day,’ ἔτος εἰς ἔτος (*Ant.* 340), παρ’ ἦμαρ ἡμέρα (*Ai.* 475), Mod. Gr. χρόνο σὲ χρόνο (‘year after year’), *truditur dies die* (Hor. *Carm.* 2. 18. 15), etc. The phrase **διὰ χρόνου** regularly means, ‘*after an interval of time*’: cp. 758: Lys. or. 1 § 12 ἀσμένη με ἑωρακυῖα ἥκοντα διὰ χρόνου: Xen. *Cyr.* 1. 4. 28 ἥκω διὰ χρόνου. So here, **ὁ χρόνος προὔβαινέ μοι**, time was ever moving on for me, **διὰ χρόνου**, as (each) space of time was left behind. (The ‘each’ is implied in the imperfect προὔβαινε, which denotes not a single advance, but a series of advances.) Suppose that the interval denoted by διὰ χρόνου is a month. ‘One month having elapsed’ (διὰ χρόνου—as each month came to an end), ‘time kept moving on’ (*i.e.* a new month began). Render, then, ‘Time went on for me, *season by season*.’ Cp. Tennyson, *Enoch Arden*: ‘Thus over Enoch’s early-silvering head | The sunny and rainy seasons came and went | Year after year.’—Ellendt, rightly starting from the sense of διὰ χρόνου as ‘after an interval,’ wrongly explains it here as simply *tarde*, ‘pausenweise’: *i.e.* ‘time went on with many a pause’: as if, to Philoctetes, time seemed, at moments, to stand still. The error here consists in excepting the intervals denoted by διὰ χρόνου from the whole progress described by προὔβαινε.—Not: ‘time kept moving on *through time*’: as if ὁ χρόνος were the moving point, while διὰ χρόνου denoted its course.—For **προὔβαινε**, cp. Her. 3. 53 τοῦ χρόνου προβαίνοντος: Lys. or. 1 § 11 προϊόντος δὲ τοῦ χρόνου.
 
 ## 286
-**κἄδει τι**. The sense of **τι** here is nearly ἕκαστόν τι, just as τις sometimes =ἕκαστός τις (Thuc. 1. 40 τοὺς ξυμμάχους αὐτόν τινα κολάζειν); a sense which the impf. **ἔδει** brings out, by implying successive needs at successive moments.
+**κἄδει τι**. The sense of **τι** here is nearly ἕκαστόν τι, just as τις sometimes=ἕκαστός τις (Thuc. 1. 40 τοὺς ξυμμάχους αὐτόν τινα κολάζειν); a sense which the impf. **ἔδει** brings out, by implying successive needs at successive moments.
 
 **βαιᾷ**, of size, as Aesch. *Pers.* 447 νῆσος... | βαιά.
 
@@ -105,6 +105,7 @@ Read the columns through: 276 split wrongly after στῆναι (now **στῆν
 --- notes
 Misprint corrected: "Musgave" printed (283), written Musgrave.
 Structure: the first note was headed 285 by the draft; the print has 283 f. (now ## 283). **οἱ βαιά**. made **βαιᾷ**, (a lemma after a dash, 286). El. 959 quotation given its second | as printed. "(41. 475)" is (*Ai.* 475). Italics restored throughout.
+286	rev: "sometimes =ἕκαστός" written "sometimes=ἕκαστός" (the = begins a printed line; no space, as elsewhere in the file)
 
 === p-0126
 + may be inferred from Plat. *Legg.* 763 A διακονοῦντές τε καὶ διακονούμενοι ἑαυτοῖς, ‘serving (the State), and serving themselves’ (cp. Ar. *Ach.* 1017 αὑτῷ διακονεῖται). In later Greek, however, the midd. is sometimes no more than the act.; *e.g.* Lucian *Philops.* 35 δεξιῶς ὑπηρέτει καὶ διηκονεῖτο ἡμῖν.
@@ -168,7 +169,7 @@ Structure: the 288 note was scrambled by the OCR across the line (Eur. Helen. 12
 **ξύλον τι**. Lemnos is now almost devoid of wood, save for a few plane-trees in the water-courses, and a little undergrowth.—For **ἄν** with iterative impf., cp. on 291 f.
 
 ## 296
-**ἐν πέτροισι πέτρον**. For the change of quantity, cp. 827 (ὕπνε): *O. C.* 442 οἱ τοῦ πατρὸς τῷ πατρὶ: *ib.* 883 ἆρ’ οὐχ ὕβρις τάδ’;—ὕβρις: *Ant.* 1310 f. δείλαιος...—δειλαίᾳ: *El.* 148 ἃ Ἴτυν, αἰὲν Ἴτυν ὀλοφύρεται.
+**ἐν πέτροισι πέτρον**. For the change of quantity, cp. 827 (ὕπνε): *O. C.* 442 οἱ τοῦ πατρὸς τῷ πατρὶ: *ib.* 883 ἆρ’ οὐχ ὕβρις τάδ’;—ὕβρις: *Ant.* 1310 f. δείλαῐος...—δειλαίᾳ: *El.* 148 ἃ Ἴτυν, αἰὲν Ἴτυν ὀλοφύρεται.
 
 **ἐκτρίβων**, rubbing hard (ἐκ=‘thoroughly,’ *i.e.* till the spark comes). The *v. l.* ἐκθλίβων would mean, ‘pressing’ or ‘squeezing,’ and is unsuitable. Cp. Xen. *Cyr.* 2. 2. 15 ἔκ γε σοῦ πῦρ...ῥᾷον ἄν τις ἐκτρίψειεν ἢ γέλωτα ἐξαγάγοιτο. The use of two stones would suggest concussion rather than friction. The Eskimos kindle fire by striking a piece of iron pyrites with a piece of quartz (instead of flint); the Alaskans of North America, and the Aleutian islanders (in the North Pacific), use two pieces of quartz, smeared with native sulphur. (M. Elie Reclus, in *Encycl. Brit.*, art. ‘Fire.’) **ἐκτρίβων** might, however, cover the case of a slanting or scraping blow. In Lucian *Ver. Hist.* 1. 32 τὰ πυρεῖα συντρίψαντες refers to rubbing sticks together.
 
@@ -215,6 +216,7 @@ Structure: the 288 note was scrambled by the OCR across the line (Eur. Helen. 12
 --- notes
 Misprint corrected: the print has "πρὸς τοῦτ ἄν" (no elision mark; 293 note on 294), written τοῦτ’.
 Structure: in 296 ὕβρις and δειλαίᾳ after the dashes are in plain type (quotations, not lemmas): joined again into the paragraph with their dashes. ἐκτρίβων inside the Reclus sentence is bold in its paragraph. "Tr. 853" (draft 77. 8:3), "Ai. 647", "O. C. 23", "ib. 896" taken from the image. Italics restored throughout.
+296	rev: δείλαιος written δείλαῐος, with the breve Jebb prints over the ι (the change of quantity is his point)
 
 === p-0128
 + only in the first person, sing., as 1452, Ar. *Nub.* 787 φέρ’ ἴδω: or plur., as id. *Vesp.* 1516 φέρε νυν...ξυγχωρήσωμεν. On the other hand, φέρ’ εἰπέ occurs eight times in Soph. (433: *O. T.* 390, 536, 1142: *Ant.* 534: *El.* 310, 376: *Tr.* 890). In Her. 4. 127 φέρετε, τούτους ἀνευρόντες συγχέειν πειρᾶσθε αὐτούς, the 2nd verb is imperat., not subj. If φέρε...μάθῃς be retained, it can be defended only as an irregular equivalent for φέρε...φράσω or the like (cp. Her. 2. 14 φέρε δὲ νῦν καὶ αὐτοῖσι Αἰγυπτίοισι ὡς ἔχει φράσω).
@@ -377,7 +379,7 @@ Structure: the draft lost the heading 314 ff. (read "914 ff."): now ## 314; the 
 ## 322
 **ἦ γάρ**, 248 n.
 
-**τοῖς πανωλέθροις**: cp. Eur. *El.* 86 χἢ πανώλεθρος | μήτηρ.
+**τοῖς πανωλέθροις**: cp. Eur. *El.* 86 χἠ πανώλεθρος | μήτηρ.
 
 **παθών**, and not merely κλύων.
 
@@ -429,3 +431,4 @@ The corruption in the MSS., θυμῷ...χεῖρα, is of the same nature as th
 27 359: [conf] → 353.
 --- notes
 Structure: 322 f. heading restored (the draft had "1 γάρ, 248 η." as text). 329: "ἐξερῶ—ἐρῶ" (plain Greek after the dash) joined again into its paragraph; "σοὶ δ’ ὁμὰ" is ἐμὰ (Od. 9. 12, letter smudged in the print); "to Troy, 359" is 353. Μυκῆναι, Σπάρτη, γνοῖεν bold as printed. Italics restored throughout.
+322	rev: χἢ πανώλεθρος corrected to χἠ (the print has the coronis, smooth, and no accent)

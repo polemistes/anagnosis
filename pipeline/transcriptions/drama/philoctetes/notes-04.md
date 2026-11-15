@@ -206,6 +206,7 @@ The Chorus has asked, How are we to help? He replies, in effect, ‘The moment f
 6 Gory. [conf] → *Gorg.*
 7 ΞΖ [greek] (Greek model: :.) → f. (150 f.: heading ## 150)
 --- notes
+150	rev: Eur. Andr. 868 is printed "δείμ’" with an acute (checked against ποιεῖν on the same column); δεῖμα takes the circumflex, so the draft's δεῖμ’ is kept as the correction of an evident misprint
 
 === p-0105
 + pron. The **ὄμμα** is that of the Chorus, and is the subject to **φρουρεῖν**: this appears certain, when we compare *Tr.* 225 οὐδέ μ’ ὄμματος | φρουρὰν [φρουρὰ L] παρῆλθε, ‘nor hath it escaped my watchful eye.’ Dindorf takes ὄμμ’ as a sort of ‘cognate’ acc., ‘to watch *with* the eye,’ and compares *Tr.* 914 κἀγὼ λαθραῖον ὄμμ’ ἐπεσκιασμένη | φρούρουν: but there the partic. is the warrant for it.

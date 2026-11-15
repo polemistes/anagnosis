@@ -163,7 +163,7 @@ Breathing remarks on “ᾱ”, “ᾰ”, “εί”, “α”, “ομᾷ”, 
 **οὐκ ἔσθ᾽ ὡς οὐ**, *sc.* πονεῖ: for ὡς instead of the usual ὅπως, cp. *Ant.* 750 ταύτην ποτ᾽ οὐκ ἔσθ᾽ ὡς ἔτι ζῶσαν γαμεῖς. This shows that we ought not to read οὐκ ἔστιν ὅπως οὐ θεῶν μελέτῃ (omitting του).
 
 ## 197
-**τοῦ μὴ...τεῖναι**, ‘in order that he should not bend...’ τοῦ μή is not to be taken with μελέτῃ (‘care to prevent his bending’), but with the whole preceding sentence. This constr. occurs (*a*) after words of hindering, Xen. *An.* 3. 5. 11 πᾶς...ἀσκὸς δύο ἄνδρας ἕξει τοῦ μὴ καταδῦναι: (*b*) where the notion of hindering is not expressed, but only implied, as Thuc. 1. 23 § 5 τὰς αἰτίας προέγραψα..., τοῦ μή τινα ζητῆσαί ποτε ἐξ ὅτου τοσοῦτος πόλεμος...κατέστη. Id. 2. 22 § 1 ἐκκλησίαν οὐκ ἐποίει..., τοῦ μὴ ὀργῇ...ξυνελθόντας ἐξαμαρτεῖν. So, in affirmative sentences, τοῦ without μή: id. 1. 4 τό τε λῃστικὸν ...καθῄρει..., τοῦ τὰς προσόδους μᾶλλον ἰέναι αὐτῷ.
+**τοῦ μὴ...τεῖναι**, ‘in order that he should not bend...’ τοῦ μή is not to be taken with μελέτῃ (‘care to prevent his bending’), but with the whole preceding sentence. This constr. occurs (*a*) after words of hindering, Xen. *An.* 3. 5. 11 πᾶς...ἀσκὸς δύο ἄνδρας ἕξει τοῦ μὴ καταδῦναι: (*b*) where the notion of hindering is not expressed, but only implied, as Thuc. 1. 23 § 5 τὰς αἰτίας προέγραψα..., τοῦ μή τινα ζητῆσαί ποτε ἐξ ὅτου τοσοῦτος πόλεμος...κατέστη. Id. 2. 22 § 1 ἐκκλησίαν οὐκ ἐποίει..., τοῦ μὴ ὀργῇ...ξυνελθόντας ἐξαμαρτεῖν. So, in affirmative sentences, τοῦ without μή: id. 1. 4 τό τε λῃστικὸν...καθῄρει..., τοῦ τὰς προσόδους μᾶλλον ἰέναι αὐτῷ.
 
 **τεῖναι...βέλη**, *point* them, like *sagittas tendere* (Hor. *C.* 1. 29. 9): we need not suppose that a word proper to the bow (‘stretch’) is transferred to the arrows. **τὰ θεῶν**, *i.e.*, given by the gods (cp. 140 Διὸς σκῆπτρον), because the bow of Philoctetes was originally the gift of Apollo to Heracles (Apollod. 1. 4. 11 § 9). Cp. 943.
 --- flags
@@ -200,6 +200,7 @@ Breathing remarks on “ᾱ”, “ᾰ”, “εί”, “α”, “ομᾷ”, 
 31 sagittas [rare] → *sagittas*
 32 2.2., [conf] → *i.e.*,
 --- notes
+197	rev: "λῃστικὸν ...καθῄρει" closed up to "λῃστικὸν...καθῄρει" (the dots begin the next printed line; no space in the print's style)
 
 === p-0112
 ## 199
@@ -327,7 +328,7 @@ Breathing remarks on “ᾱ”, “ᾰ”, “εί”, “α”, “ομᾷ”, 
 **ἀγροβότας**, ἐν ἀγρῷ βόσκων: cp. *O. T.* 1103 πλάκες ἀγρόνομοι, n. Philoctetes is returning from wild places to his dwelling. This suggests the contrast with a shepherd who, playing his pipe, comes cheerily home from the ‘otia dia pastorum.’
 
 ## 215
-**ἀλλ᾽ ἤ που** κ.τ.λ. After οὐ μολπὰν **ἔχων** we ought to have had ἀλλὰ ...βοῶν: but a finite verb, **βοᾷ**, takes the place of a second participle, as oft.: see n. on *O. C.* 351.—Join **ὑπ᾽ ἀνάγκας** with **πταίων** rather than with **βοᾷ**: the ἀνάγκη, or stress of pain (206),—from the ulcered foot which he drags after him (291),—causes him to stumble on the rough ground.
+**ἀλλ᾽ ἤ που** κ.τ.λ. After οὐ μολπὰν **ἔχων** we ought to have had ἀλλὰ...βοῶν: but a finite verb, **βοᾷ**, takes the place of a second participle, as oft.: see n. on *O. C.* 351.—Join **ὑπ᾽ ἀνάγκας** with **πταίων** rather than with **βοᾷ**: the ἀνάγκη, or stress of pain (206),—from the ulcered foot which he drags after him (291),—causes him to stumble on the rough ground.
 
 **τηλωπὸν ἰωάν**, a cry heard from a distance. τηλωπός = (1) ‘of distant aspect,’ (ὤψ,) *i.e.*, ‘seen afar’: then (2) simply, ‘distant,’ though the object is not visible: *Ai.* 564 τηλωπὸς οἰχνεῖ. It is in this general sense of ‘distant’ that τηλωπός is here applied to a sound heard from afar. We cannot properly compare τηλεφανής, said of the personified Echo (189). In Aesch. *Theb.* 103 κτύπον δέδορκα may imply the mental picture called up by the clash of arms, as Verrall observes.
 
@@ -356,6 +357,7 @@ Breathing remarks on “ᾱ”, “ᾰ”, “εί”, “α”, “ομᾷ”, 
 18 sea.’ [conf] → ok
 --- notes
 The page continues the paragraph from p-0113 ("Plat. *Rep.* | 399 D …"): `+ ` added; the draft's cut at "**ἃ** good" (a misread "—a good") joined again. The note headed "## 211" in the draft is Jebb's 215 f.: heading `## 215`.
+215	rev: "ἀλλὰ ...βοῶν" closed up to "ἀλλὰ...βοῶν" (the dots begin the next printed line)
 
 === p-0115
 + 1450 f. Heinrich Schmidt seems right in holding that δεινόν here does not require θρηνεῖ (for θροεῖ) in 209. Lachmann’s conjecture, προβοᾷ γὰρ **αἴλινον**, hardly deserved to be adopted by Blaydes. See Metrical Analysis.—Hermann’s view, that in 209 διάσημα θροεῖ γάρ should be read, as here, προβοᾷ **δέ** τι δεινόν, involves the arbitrary substitution of δέ for γάρ. It would be obvious to suggest προβοᾷ τι γὰρ αἰνόν, or προβοᾷ γὰρ ἐλεινόν: but neither is probable.

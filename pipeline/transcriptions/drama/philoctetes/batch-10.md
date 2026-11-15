@@ -26,8 +26,8 @@
 === p-0186
 --- text
 695	ὃς τὰν θερμοτάταν αἱμάδα κηκιομέναν ἑλκέων
-697	ἐνθήρου ποδὸς ἠπίοισι
-698	φύλλοις κατευνάσειεν, εἴ τις ἐμπέσοι,
+698	ἐνθήρου ποδὸς ἠπίοισι
+699	φύλλοις κατευνάσειεν, εἴ τις ἐμπέσοι,
 700	φορβάδος ἐκ γαίας ἑλών·
 701	εἷρπε δʼ ἄλλοτʼ ἀλλαχᾷ
 702	τότʼ ἂν εἰλυόμενος,
@@ -60,6 +60,7 @@
 695	rev: numbering: ὃς τὰν … ἑλκέων renumbered 696 → 695: Jebb's apparatus 695 (οὐδʼ ὃς τὰν), his commentary "695 ff. ὃς τὰν" and "Appendix on 695 f." put ὃς τὰν in 695; the verse covers 695-696 (apparatus 696 αἱμάδα in it), after 693 which covers 693-694 (margin 694 on its turnover).
 706	rev: numbering: οὐ φορβὰν … ἄλλων renumbered 707 → 706: Jebb's apparatus 711 ("φορβὰν...γᾶς σπόρον in 706"), the range 706-717 and his commentary "706 ff. ἱερᾶς"; the verse covers 706-707 (apparatus 707 σπόρον in it), so αἴρων stays 708 (covering 708-709) and πλὴν 710 (margin 710).
 704	The note on 703 begins at the foot of p-0186 ("703 ὑπάρχοι") and ends on the facing page; the notes 704-707 are on the facing page (leaf 187). ὃσ—ἥ|σθη in 706-717: the breathing on ὃσ read as rough with grave (ὃσ) on the zoomed crop.
+698	rev: numbering: ἐνθήρου ποδὸς ἠπίοισι renumbered 697 → 698 and φύλλοις … ἐμπέσοι 698 → 699 (finishing agent, on the page): the antistrophe's numerals put 7 (φορβάδος) beside the margin 700, so 6 φύλλοις is 699 and 5 ἐνθήρου 698, as Jebb's apparatus (698 ἐνθήρου … φύλλοις, 699 εἴ τις ἐμπέσοι) and his commentary (699 εἴ τις ἐμπέσοι) number them; ὃς τὰν … ἑλκέων stays 695 (apparatus 695, commentary 695 ff.) and covers 695-697 (apparatus 696 αἱμάδα).
 
 === p-0188
 --- text

@@ -599,8 +599,8 @@ L divides the vv. thus: ὀρεστέρα— | μᾶτερ— | ἃ τὸν— |
 ## 393
 **ἃ τὸν μέγαν**] Wecklein writes ἁγνὸν μέγʼ ἃ: Lindemann conj. ἃ Τμώλιον.
 
-## 399
-παρεδίδοσαν r: παραδίδοσαν L.
+## 398
+[399] παρεδίδοσαν r: παραδίδοσαν L.
 
 ## 401
 λαρτίου Γ: λαερτίου L.—Bergk conj. λεόντων ἔφεδρʼ, ἰὼ τἄργʼ ἰδοῦ.
@@ -788,8 +788,8 @@ L divides the vv. thus:—οἴκτειρʼ—ἔλε|ξε— | ἆθλʼ— | �
 ## 512
 **ἐγὼ μὲν**] B. Todt conj. ἐγώ νιν.
 
-## 515
-**μετατιθέμενος**] μέγα τιθέμενοσ L, A, and most others: μετατιθέμενος r and schol.—**ἔνθαπερ**] ἔνθάπερ L.—ἐπιμέμονεν r: ἐπεὶ μέμονεν L.
+## 514
+[515] μετατιθέμενος] μέγα τιθέμενοσ L, A, and most others: μετατιθέμενος r and schol.—**ἔνθαπερ**] ἔνθάπερ L.—ἐπιμέμονεν r: ἐπεὶ μέμονεν L.
 
 ## 517
 τὰν θεῶν Herm.: τὰν ἐκ θεῶν MSS.
@@ -1116,7 +1116,8 @@ L divides the vv. thus: ἵνʼ αὐτὸσ— | οὐδέ τινʼ— | κακ
 ## 698
 **ἐνθήρου**] Vauvilliers conj. ἐμπήρου.—φύλλοις r, φύλλοισι L.
 
-[699] εἴ τις ἐμπέσοι MSS.: Brunck conj. εἴ τινʼ ἐμπέσοι: Dindorf εἴ τι ἐμπέσοι (assuming hiatus after τι to be permissible; cp. his n. on v. 100): Seyffert, εἴ τι συμπέσοι: Gleditsch, εἴ τε συμπέσοι: Hartung, εἴ τʼ ἐμπέσοι, as in 684 he reads οὐ (for οὔτε) νοσφίσας.
+## 699
+εἴ τις ἐμπέσοι MSS.: Brunck conj. εἴ τινʼ ἐμπέσοι: Dindorf εἴ τι ἐμπέσοι (assuming hiatus after τι to be permissible; cp. his n. on v. 100): Seyffert, εἴ τι συμπέσοι: Gleditsch, εἴ τε συμπέσοι: Hartung, εἴ τʼ ἐμπέσοι, as in 684 he reads οὐ (for οὔτε) νοσφίσας.
 
 ## 700
 ἔκ τε γᾶς MSS.: Turnebus conj., ἔκ γε γᾶς, and so Seyffert: Hartung, ἔκ τι γᾶς: Dindorf, ἐκ γαίας: Brunck, ὥστε γᾶς.—For ἑλεῖν, Schneidewin, after Reiske, gave ἑλών (reading εἴ τις ἐμπέσοι, sc. αἱμάς): and so Nauck. Paley, ἕλοι. Wecklein writes φορβάδος ἐκτέμοι τι γᾶς.

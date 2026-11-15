@@ -356,7 +356,7 @@ Theognis, in a similar strain, asks how a mortal is to revere the gods when he s
 ## 482
 **ἀντλίαν**, the hold of the ship, where he could be stowed away beneath the rowers. Cp. Athen. p. 37 D καταβαλὼν ἐμαυτὸν ὑπὸ τοὺς θαλάμους (the places of the θαλαμῖται, or lowest rank of rowers) ὡς ἔνι μάλιστα κατωτάτω ἐκείμην. Dionysius comicus (350 B.C.) Θεσμοφόρος fr. 1. 40 describes a seaman as ἐξ ἀντλίας ἥκοντα, *i.e.*, the man was one of the θαλαμῖται. Cp. Her. 8. 118: Xerxes is making a long voyage in stormy weather; but he and the numerous Persian nobles with him are all on the deck (ἐπὶ τοῦ καταστρώματος), while only the Phoenician sailors occupy the part below (κοίλην νέα). So, too, in [Dem.] or. 32 § 5, during a voyage of many days, all the passengers live on deck, the κοίλη ναῦς being used by the rowers only.
 
-**πρῴραν...πρύμνην**. Lucian (*Navig.* 5), speaking of a large vessel, mentions αἱ κατὰ πρύμναν οἰκήσεις, but ordinarily only the κυβερνήτης would be located at the stern, as the πρῳρεύς at the prow. πρύμνα was the later Attic form: but πρύμνη is used by Attic poets for metre’s sake,
+**πρῷραν...πρύμνην**. Lucian (*Navig.* 5), speaking of a large vessel, mentions αἱ κατὰ πρύμναν οἰκήσεις, but ordinarily only the κυβερνήτης would be located at the stern, as the πρῳρεύς at the prow. πρύμνα was the later Attic form: but πρύμνη is used by Attic poets for metre’s sake,
 --- flags
 1 (1) [digit] → (1)
 2 dat.,—‘in [conf] → dat.,—‘in
@@ -377,10 +377,11 @@ Theognis, in a similar strain, asks how a mortal is to revere the gods when he s
 17 καταστρώματος), [conf] → ok
 18 κοίλῃ [conf] → κοίλη
 19 "only. [conf] → only.
-20 πρῷραν... [conf] → πρῴραν...
+20 πρῷραν... [conf] → ok
 21 «πρύμνην. [conf] → πρύμνην.
 22 Vavig [latin] (Greek model: (λιαυΐρ.) → (Navig.
 --- notes
+482	rev: lemma πρῷραν restored with the circumflex the print has (the check had made it πρῴραν)
 
 === p-0155
 + as Ar. *Vesp.* 399 ἤν πως πρύμνην ἀνακρούσηται. Cp. 1451.

@@ -215,11 +215,11 @@
 210	But listen, son—
 
 @ Neoptolemus
-211	To what? Tell me.
+210a	To what? Tell me.
 
 @ Chorus
-212	To my latest thoughts. For he is not far from his home, but nearby. And not with music of the flute, like a shepherd pasturing his flocks, does he come,—
-215	no—but crying out a far-sounding howl as he stumbles, perhaps, from tortuous pain, or as he scans the haven unvisited by any ship. His cries are loud, and terrible.
+210b	To my latest thoughts. For he is not far from his home, but nearby. And not with music of the flute, like a shepherd pasturing his flocks, does he come,—
+214	no—but crying out a far-sounding howl as he stumbles, perhaps, from tortuous pain, or as he scans the haven unvisited by any ship. His cries are loud, and terrible.
 
 == episode
 !	Enter Philoctetes, on the spectators’ right.
@@ -337,7 +337,7 @@
 === strophe 1
 @ Chorus
 391	Goddess of the hills, Earth all-nourishing, mother of Zeus himself, you through whose realm the great Pactolus
-395	rolls golden sands! There, there also, dread Mother, I called upon your name, when all the insults of the Atreids landed upon this man, when they handed over his father’s armor, that sublime marvel,
+394	rolls golden sands! There, there also, dread Mother, I called upon your name, when all the insults of the Atreids landed upon this man, when they handed over his father’s armor, that sublime marvel,
 400	to the son of Laertes. Hear it, blessed queen, who rides on bull-slaughtering lions!
 
 == episode
@@ -386,10 +386,10 @@
 438	I will attest to that, and with that very truth in mind, I will ask you how fares a man of little worth, but sharp of tongue and clever.
 
 @ Neoptolemus
-440	Surely the man of whom you ask is no one but Odysseus?
+441	Surely the man of whom you ask is no one but Odysseus?
 
 @ Philoctetes
-441	I did not mean him; there was one Thersites, who could never be content to speak once and briefly, even though no one wanted him to speak at all. Do you know if he is alive?
+442	I did not mean him; there was one Thersites, who could never be content to speak once and briefly, even though no one wanted him to speak at all. Do you know if he is alive?
 
 @ Neoptolemus
 445	I never saw him, but I heard that he is still alive.
@@ -427,7 +427,7 @@
 @ Chorus
 507	Have pity, my king! He has told of a struggle with sufferings manifold and oppressive—may the like befall no friend of mine!
 510	And if, my king, you hate the hateful Atreids, then, turning their wrongdoing to this man’s gain,
-515	I would take him in your swift, well-rigged ship to the home for which he longs, and so escape the god’s just wrath.
+514	I would take him in your swift, well-rigged ship to the home for which he longs, and so escape the god’s just wrath.
 
 == episode
 @ Neoptolemus
@@ -608,41 +608,41 @@
 === strophe 1
 @ Chorus
 676	I have heard a rumor, but never seen with my eyes, how the man who once approached the bed of Zeus was bound upon a
-680	swift wheel by the almighty son of Cronus. But of no other mortal do I know, either by hearsay or by sight, that has encountered a doom so repugnant as this of Philoctetes. For though he had wronged no one by force or thievery,
+679	swift wheel by the almighty son of Cronus. But of no other mortal do I know, either by hearsay or by sight, that has encountered a doom so repugnant as this of Philoctetes. For though he had wronged no one by force or thievery,
 685	but conducted himself fairly towards the fair, he was left to perish so undeservedly. I truly marvel how—how in the world—as he listened in solitude to the breakers rushing around him,
-690	he kept his hold upon a life so full of grief.
+688	he kept his hold upon a life so full of grief.
 
 === antistrophe 1
 @ Chorus
 691	Here, he alone was his own neighbor, powerless to walk, with no one in the land to be his companion while he suffered—no one to whom he could cry out a lament that would be answered
 695	for the plague that gnawed his flesh and drained his blood—no one to lull with healing herbs gathered from the nourishing earth the burning blood which oozed from the ulcers of his
 700	envenomed foot, whenever the torment attacked him. Instead he would then creep this way or that, stumbling like a child without his kind nurse, to any place from where his needs
-705	might be supplied, whenever the devouring anguish withdrew.
+703	might be supplied, whenever the devouring anguish withdrew.
 
 === strophe 2
 @ Chorus
-707	For food he did not gather the fruit of holy Earth, nor anything else that we mortals feed on by our labor,
+706	For food he did not gather the fruit of holy Earth, nor anything else that we mortals feed on by our labor,
 710	except when on occasion he obtained food to ease his hunger by means of feathered shafts from his swift-striking bow. Ah, joyless was his life, who for ten years never knew the delight of wine,
-715	but ever directed his path towards any stagnant pool that he could find as he gazed around him.
+716	but ever directed his path towards any stagnant pool that he could find as he gazed around him.
 
 === antistrophe 2
 @ Chorus
 718	But now, after those troubles, he will attain happiness and heartiness in the end
 720	because of his meeting with this son of a noble race, who after the fullness of many months carries him aboard our sea-crossing hull to his ancestral home,
-725	the haunt of Malian nymphs, and to the banks of the Spercheius in that very land where, above Oeta’s heights, the hero of the brazen shield approached the gods, illuminated by his father’s divine fire.
+724	the haunt of Malian nymphs, and to the banks of the Spercheius in that very land where, above Oeta’s heights, the hero of the brazen shield approached the gods, illuminated by his father’s divine fire.
 
 == episode
 @ Neoptolemus
 730	Please, come on. Why so silent with no apparent cause? And why are you paralyzed?
 
 @ Philoctetes
-731	Ai, ai!
+732	Ai, ai!
 
 @ Neoptolemus
-732	What is the matter?
+733	What is the matter?
 
 @ Philoctetes
-733	Nothing serious—go on, son.
+733a	Nothing serious—go on, son.
 
 @ Neoptolemus
 734	Are you in pain from the disease that frequents you?
@@ -1051,7 +1051,7 @@
 === strophe 1
 @ Philoctetes
 1081	Hollow in the caverned rock, now hot, now frosty, how true it seems, then, that I was sadly fated never to leave you!
-1085	No, you will witness my death, too. Ah, ah, me! Sad dwelling, so long filled with the pain welling from my flesh, what will be my daily portion hereafter?
+1084	No, you will witness my death, too. Ah, ah, me! Sad dwelling, so long filled with the pain welling from my flesh, what will be my daily portion hereafter?
 1090	Where, from what provision, shall I, unhappy, find any hope of sustenance? Above my head the tremulous doves will go on their way through the whistling wind. I can stop their flight no more.
 
 @ Chorus
@@ -1060,12 +1060,12 @@
 
 === antistrophe 1
 @ Philoctetes
-1101	Ah, miserable, miserable, then, am I, and shamed by hardship, who next must hereafter dwell in my misery here,
+1102	Ah, miserable, miserable, then, am I, and shamed by hardship, who next must hereafter dwell in my misery here,
 1105	with no man for companion in the days to come, and waste away. I can no longer bring food to my home, no
 1110	longer gain it by the winged weapons held in my strong hands. But the unsuspected and stealthy fictions of a treacherous mind deceived me. If only I could watch him, the contriver of this plot, doomed to endure my anguish for as long a time!
 
 @ Chorus
-1115	Doom, god-sent doom constrained you to suffer this, not, I tell you, any treachery to which my hand was lent.
+1116	Doom, god-sent doom constrained you to suffer this, not, I tell you, any treachery to which my hand was lent.
 1120	Aim your hate-filled, baneful curse elsewhere, since I prefer that you not reject my friendship.
 
 === strophe 2
@@ -1084,44 +1084,44 @@
 1146	Ah, my winged prey, and you tribes of bright-eyed creatures held by this place in its upland pastures, leap no more
 1150	in flight from your lairs, for I do not grasp in my hands those shafts which were once my strength—but now, gone, are my undoing! Roam at will now; the place has no more terrors—for you!
 1155	The time is ripe for you to take blood for blood, to sate yourselves to your heart’s desire on my discolored flesh! Soon I will leave life, for from what source can I find the means to live? Who can feed, as I will have to,
-1160	on the winds, when he no longer owns any of the bounty that the life-giving earth supplies?
+1159	on the winds, when he no longer owns any of the bounty that the life-giving earth supplies?
 
 @ Chorus
-1162	In the name of the gods, if you have any reverence for a friend who approaches you in all kindness, approach him!
+1163	In the name of the gods, if you have any reverence for a friend who approaches you in all kindness, approach him!
 1165	But know this, and know it well: it is in your power to escape this plague. Cruel is it that you feed it with your own flesh, and that there is no way for you to learn to endure the countless torments that dwell with it.
 
 === epode
 @ Philoctetes
-1170	Again, again, you have recalled the old agony to my thoughts—kindest though you are of all who have visited before! Why have you ruined me? What have you done to me?
+1169	Again, again, you have recalled the old agony to my thoughts—kindest though you are of all who have visited before! Why have you ruined me? What have you done to me?
 
 @ Chorus
-1172	What do you mean?
+1173	What do you mean?
 
 @ Philoctetes
-1173	That it was your hope to take
-1175	me to that Trojan land I abhor.
+1173a	That it was your hope to take
+1174	me to that Trojan land I abhor.
 
 @ Chorus
 1176	Yes, I believe that to be the best course.
 
 @ Philoctetes
-1177	Leave me, then—immediately!
+1176a	Leave me, then—immediately!
 
 @ Chorus
-1179	Pleasant, pleasant, indeed, is the task you set me, and I am ready to obey.
+1178	Pleasant, pleasant, indeed, is the task you set me, and I am ready to obey.
 1180	Come, let us be going, each to his station in the ship!
 
 @ Philoctetes
 1182	By Zeus who hears men’s curses, do not go, I implore you!
 
 @ Chorus
-1183	Be moderate.
+1182a	Be moderate.
 
 @ Philoctetes
-1184	Friends, in the name of the gods, stay!
+1185	Friends, in the name of the gods, stay!
 
 @ Chorus
-1185	Why do you call?
+1185a	Why do you call?
 
 @ Philoctetes
 1186	Ayee, ayee! Doom, Doom! My suffering kills me! Foot, my foot, what shall I do with you in the days to come?
@@ -1142,10 +1142,10 @@
 1200	Ilium be damned, and as many of the men before its walls as dared reject this foot of mine! But oh, friends, grant me one wish!
 
 @ Chorus
-1203	What would you ask?
+1204	What would you ask?
 
 @ Philoctetes
-1204	A sword, if you can find one, or an axe, or any weapon—
+1204a	A sword, if you can find one, or an axe, or any weapon—
 1205	please, pass it to me!
 
 @ Chorus
@@ -1155,10 +1155,10 @@
 1207	Mangle all this body, and sever limb from limb with my own hand! Death, death is my thought now!
 
 @ Chorus
-1209	Why, why ever would you—
+1210	Why, why ever would you—
 
 @ Philoctetes
-1210	I am seeking my father—
+1210a	I am seeking my father—
 
 @ Chorus
 1211	In what land?
@@ -1256,9 +1256,6 @@
 
 @ Neoptolemus
 1251	With justice on my side, I do not tremble at the terrors you name.
-
-@ Odysseus
-1251a	…
 
 @ Neoptolemus
 1252	No, not even at the threat of your hand do I yield obedience.
@@ -1489,7 +1486,7 @@
 !	Heracles appears above the stage.
 
 @ Heracles
-1408	Not yet, not until you have heard my commands,
+1409	Not yet, not until you have heard my commands,
 1410	son of Poeas. Know that your ears perceive the voice of Heracles, and that you look upon his face. For your sake I have left my divine seat and come
 1415	to reveal to you the purposes of Zeus, and to halt the journey on which you are departing. Hearken to my words. First I would tell you of my own fortunes—how, by toiling through and enduring so many toils to the end, I have won the glory of deathlessness, as you witness.
 1420	And for you, be sure, this fate is ordained, that through these toils of yours you will make your life far-famed. You shall go with this man to the Trojan city, where, first, you shall be healed of your cruel sickness,

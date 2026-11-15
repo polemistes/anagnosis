@@ -272,10 +272,10 @@ The draft had broken the Eur. I. T. quotation (64) into false lemma paragraphs a
 
 **ὁμιλία**, merely ‘intercourse,’ in a general sense: the special meaning, ‘colloquy,’ (seen in the Mod. Gk. ὁμιλέω=‘to speak,’) is postclassical.
 
-**πιστή**, trusted by Philoctetes; cp. 1272. **βέβαιος**, safe for Neoptolemus.
+**πιστὴ**, trusted by Philoctetes; cp. 1272. **βέβαιος**, safe for Neoptolemus.
 
 ## 72
-**ἔνορκος**. Odysseus was bound by the oath which all the suitors of Helen had sworn to her father Tyndareus,—that they would come to her husband’s aid, if he was robbed of her: Eur. *I. A.* 61 ὅτου γυνὴ γένοιτο Τυνδαρὶς κόρη, | τούτῳ ξυναμυνεῖν, εἴ τις ἐκ δόμων λαβὼν | οἴχοιτο. So Ajax came to Troy οὕνεχ’ ὅρκων οἷσιν ἦν ἐνώμοτος (*Ai.* 1113). Paus. was shown the place, called Ἵππου μνῆμα, on the road from Lacedaemon into Arcadia, where Tyndareus, having sacrificed a horse, τοὺς Ἑλένης ἐξώρκου μνηστῆρας (3. 20. 9).
+**ἔνορκος**. Odysseus was bound by the oath which all the suitors of Helen had sworn to her father Tyndareus,—that they would come to her husband’s aid, if he was robbed of her: Eur. *I. A.* 61 ὅτου γυνὴ γένοιτο Τυνδαρὶς κόρη, | τούτῳ ξυναμυνεῖν, εἴτις ἐκ δόμων λαβὼν | οἴχοιτο. So Ajax came to Troy οὕνεχ’ ὅρκων οἷσιν ἦν ἐνώμοτος (*Ai.* 1113). Paus. was shown the place, called Ἵππου μνῆμα, on the road from Lacedaemon into Arcadia, where Tyndareus, having sacrificed a horse, τοὺς Ἑλένης ἐξώρκου μνηστῆρας (3. 20. 9).
 
 **ἐξ ἀνάγκης**: Odysseus feigned madness, in order to avoid going to Troy,
 --- flags
@@ -310,11 +310,13 @@ The draft had broken the Eur. I. T. quotation (64) into false lemma paragraphs a
 29 ῃ.---ὁμιλία, [conf] → n.—ὁμιλία,
 30 ΞΞ [greek] (Greek model: "Ξ..) → =
 31 speak,’ [conf] (Greek model: βρβαῖς,}) → ok
-32 miom [latin] → πιστή
+32 miom [latin] → πιστὴ
 33 "Ἑλένης [conf] → Ἑλένης
 34 ΟὠἰἸ [greek] (Greek model: 9).--ἐξ) → ἐξ
 --- notes
 Missing words restored from the image: in 67 "ἐμβαλεῖς (or προσβαλεῖς)", in 68 "(*i.e.* assuming", "(*i.e.* ὀλοῦμαι)", "βαλεῖς", "με" for "pe"; the garbled two-column sentence "L supports σοὶ, which is, of course, quite tenable. But σοι seems preferable" rebuilt; Ai. 1005 (draft 1003); τὸ Δαρδάνου πέδον is a new indented paragraph under 68. Flag 6 "or" was a pencil mark at the foot of the column, left out.
+70	rev: lemma πιστὴ (grave, as printed; was πιστή)
+72	rev: εἴτις as printed (one word; was εἴ τις)
 
 === p-0090
 + but Palamedes detected the trick: cp. 1025 n.

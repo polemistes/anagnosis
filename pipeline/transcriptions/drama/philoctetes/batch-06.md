@@ -74,9 +74,9 @@
 @ Χορός
 391	ὀρεστέρα παμβῶτι Γᾶ, μᾶτερ αὐτοῦ Διός,
 393	ἃ τὸν μέγαν Πακτωλὸν εὔχρυσον νέμεις,
-395	σὲ κἀκεῖ, μᾶτερ πότνιʼ, ἐπηυδώμαν,
-397	ὅτʼ ἐς τόνδʼ Ἀτρειδᾶν ὕβρις πᾶσʼ ἐχώρει,
-399	ὅτε τὰ πάτρια τεύχεα παρεδίδοσαν,
+394	σὲ κἀκεῖ, μᾶτερ πότνιʼ, ἐπηυδώμαν,
+396	ὅτʼ ἐς τόνδʼ Ἀτρειδᾶν ὕβρις πᾶσʼ ἐχώρει,
+398	ὅτε τὰ πάτρια τεύχεα παρεδίδοσαν,
 400	ἰὼ μάκαιρα ταυροκτόνων
 401	λεόντων ἔφεδρε, τῷ Λαρτίου,
 402	σέβας ὑπέρτατον.
@@ -91,6 +91,7 @@
 391	The apparatus begins with the end of the note on 388 ("Hence Schneidewin read τρόποισι."), written with that note on p-0138. The ὀρεσ-|τέρα of the 391-402 note is the apparatus's own line break: written whole; the strokes in τεύ-|χεα, ταυρο-|κτόνων, ἔφε-|δρε are Jebb's report of L's division and stay.
 393	rev: numbering: renumbered by Jebb's apparatus: his note 393 ἃ τὸν μέγαν stands in the verse ἃ τὸν … νέμεις (was 392) and his 399 παρεδίδοσαν in ὅτε τὰ πάτρια … παρεδίδοσαν (was 397); so ὀρεστέρα … Διός covers 391-392, ἃ τὸν … νέμεις 393-394, σὲ κἀκεῖ 395-396 (margin 395), and ὅτʼ ἐς τόνδʼ … ἐχώρει takes 397 (was 396), covering 397-398 (no note names it; 397 rather than 396 because L, in Jebb's note on 391-402, divides both σὲ κἀκεῖ— | πότνιʼ— and ὅτʼ ἐς τόνδʼ— | ὕβρις— into two lines, and ὅτε … is 399); ἰὼ μάκαιρα 400 (margin). Jebb's commentary numbers Πακτωλὸν 392 and τὰ πάτρια 398, one lower than his apparatus; the apparatus (with the margin and the regular two-number verses) is followed. Open: the commentary's 392 and 398 disagree.
 401	The print has Λαρτίου, with a comma: comma added.
+394	rev: numbering: σὲ κἀκεῖ … ἐπηυδώμαν renumbered 395 → 394, ὅτʼ ἐς τόνδʼ … ἐχώρει 397 → 396, ὅτε τὰ πάτρια … παρεδίδοσαν 399 → 398 (finishing agent, on the page): the margin has 395 at σὲ κἀκεῖ and 400 at ἰὼ μάκαιρα, so lines 4 and 5 hold 396-399, two numbers each; Jebb's commentary heads its note "398 τὰ πάτρια", so ὅτε τὰ πάτρια begins at 398 (covering 398-399: apparatus 399 παρεδίδοσαν) and ὅτʼ ἐς τόνδʼ is 396 (covering 396-397); σὲ κἀκεῖ then covers 394-395 (L's division σὲ κἀκεῖ— | πότνιʼ—, two of the traditional verses) and ἃ τὸν μέγαν stays 393 (apparatus 393). The antistrophe answers line for line (514 μετατιθέμενος = 398). Jebb's commentary "392 Πακτωλὸν" is the one number that does not fit (his apparatus has 393 ἃ τὸν μέγαν).
 
 === p-0142
 --- text
