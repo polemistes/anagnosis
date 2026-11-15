@@ -372,6 +372,22 @@ The metrical analyses are not transcribed (as for Ajax and Electra).
   unless the author says otherwise), finishing agent, emulator check (which should also
   spot-check the fixed points in the Trachiniae and the Oedipus Tyrannus).
 
+* **2026-11-15, the author: "I have changed my mind. Continue with Philoctetes when it is its
+  turn."** The Philoctetes is no longer parked: it follows the Oedipus at Colonus (its first
+  pass may overlap the Oedipus at Colonus's finishing steps, as allowed above). To do then:
+  first pass on all 19 batches again (13 hold partial work; the agents go on from what is in
+  the files), residuals, review with the five-point `extra` text of the Oedipus at Colonus
+  review; prose: the whole introduction (leaves 11–49 and 73–75, to verify), the Appendix
+  (299–324, to verify), and the WHOLE COMMENTARY, which Perseus lacks: kind `notes`, two
+  columns under the rule on both pages of every spread (set `notes_leaves`, `notes_editor`;
+  `drama_prose._region` must learn this layout: under the rule found by `page_layout`; test
+  on several spreads before any agent; the notes begin with a bold verse number and lemma,
+  run on from page to page and from the left page to the right); the merge must then write
+  commentary-jebb.md from the notes batches for this play instead of keeping Perseus's
+  (there is none), and its introduction comes wholly from the batches, as the Oedipus
+  Tyrannus's. Oedipus at Colonus now: review of the 22 text batches and prose (check + second
+  reading) running.
+
 ## Decisions
 
 * 2026-11-15: order by least work left (Trachiniae first).
