@@ -1,7 +1,7 @@
 # title: Introduction
 # author: Richard C. Jebb
-# source: Perseus Digital Library, jebb.soph.trach_eng.xml (Sophocles: The Plays and Fragments, Part V: The Trachiniae, ed. R. C. Jebb, Cambridge University Press, 1892)
-# license: CC BY-SA 3.0 US
+# source: Perseus Digital Library, jebb.soph.trach_eng.xml (Sophocles: The Plays and Fragments, Part V: The Trachiniae, ed. R. C. Jebb, Cambridge University Press, 1892); the chapters after § 22 from Sophocles: The Plays and Fragments, Part V: The Trachiniae, Cambridge University Press, first edition 1892; Internet Archive sophocles05soph (Boston College), read by OCR and checked against the page images
+# license: CC BY-SA 3.0 US (Perseus); the transcribed chapters CC BY-SA 4.0
 
 # Introduction
 
@@ -289,3 +289,90 @@ Nowhere is the poet's ethical portraiture more delicately vivid than in the hero
 
 The extent to which the *Trachiniae* shows the influ- ence of Euripides has sometimes been exaggerated. Stress has been laid especially on the form of the prologue; Deianeira opens the play with a speech of some length, in which she incidentally relates certain previous events. But here we must distinguish. The prologue of the *Trachiniae* is Euripidean only in so far as it is partly historical; it is utterly unlike the typical prologues of Euripides in being dramatic. For, in the first place, Deianeira's speech is no soliloquy,—though it is true that she is rather communing with her own thoughts than directly addressing the Nurse; it gives the cue for the Nurse's suggestion that Hyllus should be sent to seek his father, and thus serves to set the drama in motion. Secondly, it is dramatic as illustrating the mind of Deianeira herself,—that mind which is to govern the subsequent action (Schlegel's criticism (§ 1, n. 3) was the inspiration of a short ‘programm’ published at Cleve (Prussia) in 1830 by C. M. AxtA. , *Commentatio critica qua Trachiniarum Sophocleae prologum subdititium esse demonstratur.* Axt uses the term ‘prologue,’ not in the Greek sense (i.e. to denote vv. 1—93), but only with reference to Deianeira's speech, vv. 1—48. He holds that the play ought to begin at v. 49, with the speech of the τροφός.) . Even with regard to this prologue, the inner contrast between the two poets is more significant than the resemblance. Nor can it be said that the general style of the play shows any pervading influence of the supposed kind. There are a few coincidences of phrase between verses of the *Trachiniae* and verses of Euripides (1) *Tr.*542(Deianeira speaks,) τοιάδ' Ἡρακλῆς | οἰκούριʼ ἀντέπεμψε τοῦ μακροῦ χρόνου: cp. Eur. *H. F.*1373(Megara speaks,) μακρὰς διαντλοῦσ' ἐν δόμοις οἰκουρίας. (2) Soph. *Tr.*1096διφυᾶ τ' ἄμικτον ἱπποβάμονα στρατὸν | θηρῶν, ὑβριστήν, ἄνομον: cp. Eur. *H. F.*181τετρασκελές θ' ὕβρισμα, Κενταύρων γένος. (3) Soph. *Tr.*1101ἄλλων τε μόχθων μυρίων ἐγευσάμην: cp. Eur. *H. F.*1353καὶ γὰρ πόνων δὴ μυρίων ἐγευσάμην. [Wilamowitz, vol. II. p. 278, assumes that Soph. has borrowed this use of γεύομαι from Eur. : but Soph. had already said in Soph. *Ant.*1005, ἐμπύρων ἐγευόμην.] (4) Soph. *Tr.*1112ὦ τλῆμον Ἑλλὰς κ.τ.λ.: cp. Eur. *H. F.*877μέλεος Ἑλλάς, ἃ τὸν εὐεργέταν | ἀποβαλεῖς. In Soph. *Tr.*764κόσμῳ τε χαίρων καὶ στολῇ may, I think, be a reminiscence of Eur. *Med.*1165(in a similar episode), δώροις ὑπερχαίρουσα. And Soph. *Tr.*416, λέγʼ, εἴ τι χρῄζεις· καὶ γὰρ οὐ σιγηλὸς εἶ, is an echo of Aesch. *Suppl.*567(421 B.C.), λέγʼ, εἴ τι βούλει· καὶ γὰρ οὐ σιγηλὸς εἶ. ; but they are trivial; and, even if it were certain that in all of them Sophocles was the debtor, they would merely illustrate a fact which is unquestioned. He was well acquainted with the works of Euripides, and admired them; in his later years, they influenced him in details of language and of versification. But the style of Sophocles, so far as extant work shows, always preserved a thoroughly distinctive character. Certainly the *Trachiniae* is no exception to that rule; and not merely the style, but the whole mind which appears there, attests the authorship.
 
+# Manuscripts, editions, etc.
+
+## § 1 — MSS.
+
+Twelve of the MSS., other than L, to which reference is made in the critical notes, have been described in former volumes (*Oed. Tyr.*, Introd., pp. liii ff., 2nd ed.: *Oed. Col.*, p. xlix, 2nd ed.: *Phil.*, p. xlv): viz., the Parisian A, B, K, T: the Florentine Lc, L², R: the Venetian V, V², V³: the Roman Vat.: and the London Harl. The last-named was collated by Porson with the text of the *Trachiniae* in the ed. of Sophocles by Thomas Johnson (an. 1708); the collation is given in Porson’s *Adversaria*, p. 177. There remains only a Venetian MS., cod. 617 in the Library of St Mark, cited at verse 23, from the collation of Vladimir Subkoff in his edition of the *Trachiniae* (Moscow, 1879), for θακῶν. It is described by him as ‘chartaceus, saec. xiv et xv’; and he designates it by the letter E. Besides E, Subkoff used eleven other MSS., viz. L, and ten of the twelve named above, the two exceptions being V and V³. Our L² is designated by him as M: Lc, as N: V², as V: Vat., as v.: Harl., as *h*. As a contribution to an intricate and obscure subject, it is interesting to notice the view as to the relationships of his twelve MSS. to which he was led as the result of work on this play. He would distinguish three families: (1) L² and K are transcripts of L. (2) R and Harl. are closely akin to A, the basis of the Aldine text. (3) Lc, B, V², E, Vat., and T (representing the Triclinian recension) form a third family, of which the common characteristic is a larger element of Byzantine correction: while, within this family, a closer kinship unites (*a*) Lc and B, (*b*) V², E, and Vat. He recognises the marked superiority of L to all the other MSS., but finds no proof that it is their common parent. (See *Oed. Tyr.*, p. liv, 2nd ed.)
+
+## § 2
+
+With regard to the readings of L, and its peculiarities as a MS., some points of interest will be found in the critical notes on vv. 329, 368, 403, 463, 468, 767, 1091, 1176, 1265. The first corrector (S) has in four instances supplied a verse which the scribe had accidentally omitted (177, added in the text, being the last line of p. 66 B,—a case like *Ph.* 1263: 445, 536, 705, added in the margin). In 1040, however, the words ὦ διὸσ αὐθαίμων, omitted from the text, have been added in the margin by the scribe himself. There is one passage, vv. 383—433, where scribe and corrector alike have left part of the dialogue in disorder, through omitting or confusing the indications of persons. Thus at 383 L omits ΧΟ.: ΧΟ. (instead of ΑΓ.) is prefixed to 390: ΑΓ. (instead of ΛΙ.) to 397 and 399: while in 402—433 the persons are either not marked, or marked wrongly. The result can be traced in modern literary criticism: see above, p. xxxiv.
+
+## § 3 — Scholia.
+
+The scholia in L on vv. 119, 120 preserve the true reading ἀναμπλάκητον, corrupted in the MSS. to ἀμπλάκητον. There are two other places where the scholiast gives at least the hint by which a lost reading can be restored. In v. 399 his διηγήσομαι indicates that in v. 398 the νέμεις of the MSS. ought to be νεμεῖς. And in 602 the schol.’s notice, γρ. ἀϋφῆ ἀντὶ τοῦ λεπτοϋφῆ, helped Wunder’s correction of εὐϋφῆ into ταναϋφῆ.
+
+## § 4 — Interpolation.
+
+In vv. 83—85 there is a clear case of interpolation:—
+
+ἡνίκ’ ἢ σεσώσμεθα | [ἢ πίπτομεν σοῦ πατρὸς ἐξολωλότος] | κείνου βίον σώσαντος, ἢ οἰχόμεσθ’ ἅμα.
+
+Another probable instance (as I think with Hartung) occurs in vv. 362 ff.:—
+
+ἐπιστρατεύει πατρίδα [τὴν ταύτης, ἐν ᾗ | τὸν Εὔρυτον τόνδ’ εἶπε δεσπόζειν θρόνων, | κτείνει τ’ ἄνακτα πατέρα] τῆσδε καὶ πόλιν | ἔπερσε.
+
+(See commentary.) Besides these verses, many others—not fewer than about 120 in all—have been suspected or rejected by various commentators; often, apparently, on the general ground that anything is suspicious which is not indispensable. Thus Nauck, in condemning four verses (932—935)—verses full of pathos and beauty, and free from any real offence against Greek poetical idiom—writes:—‘Diese *entbehrlichen* und in sprachlicher Hinsicht vielfach Anstoss erregenden Verse werden von V. Jernstedt wohl mit Recht als interpolirt bezeichnet.’ Let the reader examine the passage for himself, and judge. It is to be regretted when a habit of mind such as might be fostered by the habitual composition of telegrams is applied to the textual criticism of poetry—or, indeed, of prose. Yet it is right that students should have notice as to what verses of the play have been suspected or condemned by scholars of mark. I cannot vouch for the completeness of the following ‘black list,’ but I believe that it is nearly complete:—
+
+17 Bergk. 24 f. Schenkl (after Dobree). 25 Hartung and Nauck. 43 Dindorf. 44—48 Wunder. 80 f. Nauck would reduce these two vv. to one. 88 f. Dindorf. 150—152 Dindorf. (Wecklein suspects only v. 150.) 166—168 Dindorf. 169 f. Bergk. 170 Wunder and Dindorf. 252 f. Wunder. 264 f. (πολλὰ δ’...χεροῖν μὲν) Bergk and Jernstedt. 280 Deventer and Zippmann. 295 Dindorf and Nauck (after Wunder). 301 f. Hense and Nauck. 305 G. H. Müller. 321 Nauck (with τίς εἶ for ἐπεὶ in 320). 322 f. Nauck would reduce these two vv. to one. 336 Hense and Nauck (omitting τ’ after ὧν in 337). 356 f. Wunder and Blaydes. 362 f. Wunder and Blaydes. 394 Herwerden and Hense. 444 Wunder and Nauck. 488 f. Dindorf. 526—530 Wunder and Bergk. 584—587 Dindorf. 585 Wunder and Nauck. 596 f. Dindorf. 601 Nauck and Wecklein. 602 f. Paley. 628 Nauck and Wecklein. 680 f. (Κένταυρος...γλωχῖνι) Nauck. 684 Wunder and Wecklein. 690 Wunder. 696 Wunder. (Dobree and Wecklein suspect the v.) 712 f. Nauck. 732 Hense. 735 Nauck and Wecklein. 743 Hense (proposing γύναι for τὸ γὰρ in 742). 746 f. (βαρεῖαν...πατρὸς) Deventer and Hense. 781 f. Meineke. 791 f. Nauck would reduce these two vv. to one. 798 Schenkl. 801 f. Bergk. 875 ff. Bergk (without defining the limit: p. lix of his ed.). 893—895 Wunder. 907—911 Wecklein. (L. Dindorf had suspected v. 911.) 924 f. (ᾗ χρυσήλατος...περονίς) Herwerden. 932—935 Jernstedt and Nauck. 943—946 Meineke. 998 f. (τόδ’...καταδερχθῆναι) Wunder. 1060 Nauck and Wecklein. 1107 f. Nauck would reduce these two vv. to one. 1114 f. Bergk would omit one of these two vv. 1144 Hense. 1156 Nauck (with δέ σοι for δ’ ὅσοι in 1155). 1165 Nauck (after Dobree). 1173 Axt and Nauck. 1195—1198 Wunder. 1267 L. Dindorf. 1270—1274 Hense. 1275—1278 Hartung and F. Ritter.
+
+## § 5 — The theory of two recensions.
+
+Hermann (1st ed. p. xiv) propounded a theory that the *Trachiniae* once existed in two different recensions. He thus sought to explain the fact that in one or two places the text found in our MSS. of Sophocles differs from that of ancient citations: see 12 f., and 787 f., with the notes there. In some other passages he saw traces of the two recensions having become mixed: thus verse 84, ἢ πίπτομεν σοῦ πατρὸς ἐξολωλότος, belonged to one recension, and verse 85, κείνου βίον σώσαντος, ἢ οἰχόμεσθ’ ἅμα, to the other. Similarly verses 293, 294 were a substitute for v. 295; vv. 523—525, for vv. 526—528; etc. A similar view is expressed by Bergk, in the ‘Adnotatio Critica’ to his ed. of Sophocles, pp. lvii ff. Thus he thinks that vv. 801, 802 and 1144, 1145 belong to the second recension; while in vv. 1114, 1115, and especially in part of the dialogue between the Chorus and the Nurse (875 ff.), he discovers a blending of the two editions. (‘Aperte duplicis recensionis reliquiae temere confusae sunt in nostris libris,’ p. lix, on 875.)
+
+Schneidewin has argued against this theory (*Abhandlung über die Trach. d. Soph.*, in the Transactions of the Göttingen Gesellsch. d. Wiss., vol. VI., 1854). It rests, in fact, on no solid foundation. With regard to the discrepancies between the MSS. and the ancient citations, the only noteworthy cases are the two above-mentioned, in vv. 12 f., and 787 f.; in the former, Strabo’s reading, κύτει | βούπρῳρος, is doubtless right; but the τύπῳ | βούκρανος of the MSS., whether due to actors or to transcribers, does not help to prove a distinct recension; while in 787 f., where our MSS. must be right (except, probably, in omitting τ’), Diogenes Laertius has presumably misquoted by a mere slip of memory. As to the supposed duplications of sense in the passages where a mixing of two texts has been assumed, a study of the context in each case will best show the baselessness of the assumption.
+
+## § 6 — Emendations.
+
+The text of the *Trachiniae* contains its full share of problems; though, as a whole, it is, in my opinion, less corrupt than has often been supposed. In two instances I have admitted emendations of my own to the text, viz. at v. 554 and v. 1019, because the probabilities seemed sufficiently strong to justify that course. It would have been justifiable, perhaps, to do likewise at v. 869; but there, as at v. 526 and v. 911, I have preferred to submit my conjectures in the commentary only. The suggestion made at v. 678 is of a more tentative kind.
+
+## § 7 — Editions, etc.
+
+As to the complete editions of Sophocles which have been consulted, see *Oed. Tyr.* p. lxi, 2nd ed. It may be mentioned that the new issue of Wunder’s edition, revised by Wecklein, has lately been completed by the appearance of the *Trachiniae* (vol. II., sect. iii, Leipsic, 1890). Besides the volume by F. A. Paley, containing *Ph.*, *El.*, *Tr.*, *Ai.* (London, 1880), I have consulted also the following separate editions of this play. Sophoclis *Trachiniae*. Recognovit et adversariis enarravit Ioannes Apitzius. (Halle, 1833.)—Sophoclis *Trachiniae*, with Notes and Introduction by Alfred Pretor, M.A. (Cambridge, 1877.)—Sophoclis *Trachiniae*. Codicibus denuo collatis recensuit varietate lectionis instruxit indicibus adornavit Vladimir Subkoff. (Moscow, 1879.)
+
+# The ancient argument
+
+## The argument
+
+The *Trachiniae*, alone among the seven plays, has no ancient ὑπόθεσις. In order to supply this defect, a scholiast transcribed a passage from the *Bibliotheca* of Apollodorus (2. 7. 5—7). This extract is prefixed to the play in the Laurentian MS. (p. 64 B), with the heading, ἐκ τῆς Ἀπολλοδώρου βιβλιοθήκης ὑπόθεσις. In the Aldine edition of Sophocles (the *editio princeps*) the extract was printed, without the name of Apollodorus, as ΤΡΑΧΙΝΙΩΝ ΥΠΟΘΕΣΙΣ. Subsequent editors continued the tradition, though they restored the heading given in L.
+
+The passage is, however, wholly out of place here. In fact, a student to whom the *Trachiniae* was new could not confuse his mind more effectually than by reading this extract from the *Bibliotheca* under the impression that it contained an outline of the plot. Apollodorus, in compiling the legends of Heracles, followed an order fundamentally different from that supposed in the play. He placed the marriage with Deianeira *after*, not before, the labours for Eurystheus, the slaying of Iphitus, and the servitude to Omphalè. (Introduction, § 8.) The scholiast, who made the extract and called it an Argument, was content that it began with the marriage and ended with the pyre. His text varies considerably from the MSS. of Apollodorus. (See Heyne’s edition of Apollodorus, vol. I. pp. 215 ff.: Dindorf, *Schol. Soph.* vol. II. pp. 21 ff.)
+
+Equally irrelevant to the *Trachiniae* are the thirteen hexameters, enumerating thirteen labours of Heracles, which the Laurentian MS. gives at the end of the play (p. 79 B), with the title ἄθλοι (*sic*) Ἡρακλέους. They occur also in *Anthol. Plan.* 4. 92, without the author’s name. Tzetzes (*Histor.* 2. 490) ascribed them to Quintus Smyrnaeus; but they resemble rather the purely mechanical work of a grammarian.
+
+## The persons of the drama
+
+ΔΗΙΑΝΕΙΡΑ. · ΔΟΥΛΗ ΤΡΟΦΟΣ. · ΥΛΛΟΣ. · ΧΟΡΟΣ ΓΥΝΑΙΚΩΝ ΤΡΑΧΙΝΙΩΝ. · ΑΓΓΕΛΟΣ. · ΛΙΧΑΣ. · ΗΡΑΚΛΗΣ. · ΠΡΕΣΒΥΣ.
+
+The Laurentian MS. (L) prefixes θε (θεράπαινα) to v. 49, while indicating τροφός in the later scene (847 ff.). Hence it could be inferred that δούλη τροφός should be read as denoting two distinct persons. This view prevailed in the older editions, including those of Brunck and Hermann. Recent editors usually identify the speaker at v. 49 with the τροφός of 847 ff. This is a dramatic gain, since the effect of 847 ff. is strengthened by our previous knowledge of the Nurse’s attachment to Deianeira. [In the Aldine ed. the speaker at v. 49 is strangely designated as παιδαγωγός.]
+
+The Chorus consists of fifteen Trachinian maidens (cp. 143, 211), friends of Deianeira.
+
+The parts were probably distributed as follows:—protagonist, Deianeira and Heracles; deuteragonist, Hyllus and Lichas; tritagonist, the Nurse, the Messenger, and the Old Man.
+
+## Structure of the play
+
+1. πρόλογος, 1—93.
+
+2. πάροδος, 94—140.
+
+3. ἐπεισόδιον πρῶτον, 141—496, including a short ὑπόρχημα, or ‘dance-song,’ 205—224.
+
+4. στάσιμον πρῶτον, 497—530.
+
+5. ἐπεισόδιον δεύτερον, 531—632.
+
+6. στάσιμον δεύτερον, 633—662.
+
+7. ἐπεισόδιον τρίτον, 663—820.
+
+8. στάσιμον τρίτον, 821—862.
+
+9. ἐπεισόδιον τέταρτον, 863—946.
+
+10. στάσιμον τέταρτον, 947—970.
+
+11. ἔξοδος, 971—1278, including a μέλος ἀπὸ σκηνῆς, 1004—1043.
+
+According to Nauck, the first ἐπεισόδιον ends at v. 204, and the second consists of vv. 225—496, the choral song in vv. 205—224 being the first στάσιμον. The play has then five epeisodia and five stasima.

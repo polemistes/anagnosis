@@ -220,28 +220,29 @@ Beyond the flags: *s. v.* (OCR "s. 2."), *H. N.* (AZ.), *De Divin.*, B.C. (B.c.)
 === p-0281
 ## Lines 1264–1278
 
-(1) Among the editors who give these verses wholly to Hyllus are Hermann, Dindorf, Wunder, Wecklein, Paley, Pretor. Blaydes agrees with them in his text; but in his commentary holds that vv. 1275 —12%8 belong to the Chorus.
+(1) Among the editors who give these verses wholly to Hyllus are Hermann, Dindorf, Wunder, Wecklein, Paley, Pretor. Blaydes agrees with them in his text; but in his commentary holds that vv. 1275—1278 belong to the Chorus.
 
-(2) Brunck and Campbell give 1264—1274 to Hyllus, and 1275— 1278 to the Chorus. And this, to judge from L (see commentary), was once the prevalent opinion.
+(2) Brunck and Campbell give 1264—1274 to Hyllus, and 1275—1278 to the Chorus. And this, to judge from L (see commentary), was once the prevalent opinion.
 
-(3) Nauck holds a singular view. He eliminates Hyllus altogether. Verses 1259—1269 are given by him to Heracles, and verses 1270— 1278 to the Chorus: but he brackets 1275—12%8 as spurious.
+(3) Nauck holds a singular view. He eliminates Hyllus altogether. Verses 1259—1269 are given by him to Heracles, and verses 1270—1278 to the Chorus: but he brackets 1275—1278 as spurious.
 
-His reason for giving Heracles not only 1259—1263, but also 1264— 1269, is merely that ὁπαδοί in 1264 must mean the followers of Heracles, and that therefore Heracles, not Hyllus, must be the speaker. But, seeing that the men have come with Hyllus from Euboea, why should not Hyllus address them as ὀπαδοί, although his father had previously been their leader? And Nauck’s view further requires the unhappy change of alper into χαίρετ. Then he gives 1270—1274 to the Chorus, and to Hyllus, merely on the ground of general tenour: but obviously the reproach to the gods (αἰσχρὰ δ᾽ ἐκείνοις) comes better from the son of Heracles than from the Chorus.
+His reason for giving Heracles not only 1259—1263, but also 1264—1269, is merely that ὀπαδοί in 1264 must mean the followers of *Heracles*, and that therefore Heracles, not Hyllus, must be the speaker. But, seeing that the men have come with Hyllus from Euboea, why should not Hyllus address them as ὀπαδοί, although his father had previously been their leader? And Nauck’s view further requires the unhappy change of αἴρετ’ into χαίρετ’. Then he gives 1270—1274 to the Chorus, and to Hyllus, merely on the ground of general tenour: but obviously the reproach to the gods (αἰσχρὰ δ’ ἐκείνοις) comes better from the son of Heracles than from the Chorus.
 
-The touch-stone of Nauck’s theory is the word ἐμοί in 1264. If συγγνωμοσύνην means ‘ pardon,’ then ἐμοί must mean Hyllus. Accordingly Nauck is driven to a rendering of συγγνωμοσύνην which is not merely strange and forced, but must be pronounced impossible. He deletes the words ἀγνωμοσύνην εἰδότες ἔργων, reads θεοῖς instead of θεῶν, and takes συγγνωμοσύνην to mean μαρτυρίαν : ‘bearing strong witness to me and to the gods.” He quotes Thuc. 2. 74 ξυγγνώμονες δὲ ἔστε: but those words mean, ‘consent’; not, ‘be witnesses, —which 1s expressed a little earlier in the same passage by ξυνίστορες ἔστε.
+The touch-stone of Nauck’s theory is the word ἐμοί in 1264. If συγγνωμοσύνην means ‘pardon,’ then ἐμοί must mean Hyllus. Accordingly Nauck is driven to a rendering of συγγνωμοσύνην which is not merely strange and forced, but must be pronounced impossible. He deletes the words ἀγνωμοσύνην εἰδότες ἔργων, reads θεοῖς instead of θεῶν, and takes συγγνωμοσύνην to mean μαρτυρίαν: ‘bearing strong *witness to* me and to the gods.’ He quotes Thuc. 2. 74 ξυγγνώμονες δὲ ἔστε: but those words mean, ‘*consent*’; not, ‘be *witnesses*,’—which is expressed a little earlier in the same passage by ξυνίστορες ἔστε.
 
-(4) Bergk proposes the following distribution :—1259—1263, Heracles: 1264—1269, Hyllus: 1270—12%8, Chorus. (See his edition, p. Ix.)
+(4) Bergk proposes the following distribution:—1259—1263, Heracles: 1264—1269, Hyllus: 1270—1278, Chorus. (See his edition, p. lx.)
 
 (5) Dindorf thinks that the play originally ended with verse 1263, spoken by Heracles. But this would manifestly be too abrupt.
 --- flags
-1 —12%8 [conf] →
-2 1259—1269 [conf] →
-3 Chorus: [conf] →
-4 1275—12%8 [conf] →
-5 ὁπαδοί [accent] →
-6 alper [latin] (Greek model: αἴρετ᾽) →
-7 witnesses, [conf] →
-8 —which [conf] →
-9 1s [digit] →
-10 1270—12%8, [conf] →
+1 —12%8 [conf] → —1278
+2 1259—1269 [conf] → ok
+3 Chorus: [conf] → ok
+4 1275—12%8 [conf] → 1275—1278
+5 ὁπαδοί [accent] → ὀπαδοί
+6 alper [latin] (Greek model: αἴρετ᾽) → αἴρετ’
+7 witnesses, [conf] → *witnesses*,’
+8 —which [conf] → ok
+9 1s [digit] → is
+10 1270—12%8, [conf] → 1270—1278,
 --- notes
+Beyond the flags: 1275— 1278, 1270— 1278, 1264— 1269 (spaces after the dash dropped, one figure range each), *Heracles*, δ᾽ → δ’, ‘ pardon,’ → ‘pardon,’, gods.” → gods.’, Ix → lx, *witness to* (italic), ‘*consent*’ (italic), the space before colons dropped (Chorus:, μαρτυρίαν:, distribution:—). “and to Hyllus” after “to the Chorus,” is as printed. This page ends the Appendix.

@@ -109,7 +109,7 @@ II. Conjectures which omit παγχρίστῳ.
 
 ## Line 836 f.
 
-**δεινοτάτῳ μὲν ὕδρας προστετακὼς | φάσματι.**—**προστετακὼς** has been regarded as indicating that φάσματι has displaced some word denoting the *venom* of the hydra. And this view is apparently confirmed by the schol.: προσκεκολλημένος τῷ ἰῷ τῆς ὕδρας. Another schol. has:—**φάσματι** τουτέστι τῷ ἱματίῳ τῷ κεχρισμένῳ τῷ φαρμάκῳ τῆς ὕδρας, τουτέστι τῇ χολῇ. This second scholium suggests, like the first, that the scholiast read, not φάσματα, but a word which he could interpret by φαρμάκῳ or ἰῷ. Suppose, for instance, that this word was χρίσματι. The scholiast means that the allusion is to the robe anointed with this χρίσμα. Whatever the word may have been, it certainly was not one which directly expressed the idea of ‘robe’: for then the scholiast could have written at once, κεχρισμένῳ τῇ χολῇ τῆς ὕδρας, instead of, κεχρισμένῳ τῷ φαρμάκῳ τῆς ὕδρας, τουτέστι τῇ χολῇ.
+**δεινοτάτῳ μὲν ὕδρας προστετακὼς | φάσματι.**—προστετακὼς has been regarded as indicating that φάσματι has displaced some word denoting the *venom* of the hydra. And this view is apparently confirmed by the schol.: προσκεκολλημένος τῷ ἰῷ τῆς ὕδρας. Another schol. has:—**φάσματι** τουτέστι τῷ ἱματίῳ τῷ κεχρισμένῳ τῷ φαρμάκῳ τῆς ὕδρας, τουτέστι τῇ χολῇ. This second scholium suggests, like the first, that the scholiast read, not φάσματα, but a word which he could interpret by φαρμάκῳ or ἰῷ. Suppose, for instance, that this word was χρίσματι. The scholiast means that the allusion is to the robe anointed with this χρίσμα. Whatever the word may have been, it certainly was not one which directly expressed the idea of ‘robe’: for then the scholiast could have written at once, κεχρισμένῳ τῇ χολῇ τῆς ὕδρας, instead of, κεχρισμένῳ τῷ φαρμάκῳ τῆς ὕδρας, τουτέστι τῇ χολῇ.
 
 The following substitutes for φάσματι have been proposed. 1. νάματι, ‘stream,’—the venom which flowed from the hydra. Wunder, who suggests this, refers to Hesychius, νῆμα· ὕδωρ· ὕφασμα (a confusion of νῆμα with νᾶμα). He thinks that here, too, νάματι was confused with νήματι, and explained by a gloss ὑφάσματι, whence φάσματι. Hartung adopts νάματι. It is certainly the most ingenious emendation hitherto made.
 
@@ -157,6 +157,7 @@ The following substitutes for φάσματι have been proposed. 1. νάματι
 26 ὑπόφονα [greek] → ok
 --- notes
 The garbled line in Dindorf's paragraph (debris of the line break, "; giving ¢ μερ . 5 » pop P") removed; the paragraph joined (προφάνσει). The lacuna is printed as metrical signs, a long with an ictus, a short and a long: written –́ ⏑ –. "839f Νέσσου…" was not a heading: `## Line 839 f.` with the lemma in bold. Spaced Greek (ἐνδυτοῖς, προστετακὼς after the lemma, φάσματι opening the second scholium) in bold. ἁμερᾶν (the print's rough breathing), ὕφασμα, ἔτ’ ἐπίπονόν <γ’> and "It is" (for "Τί is") corrected from the image.
+836	rev: προστετακὼς after the lemma is in ordinary italic type, not spaced (same width as in the lemma): bold removed
 
 === p-0270
 + it can only emphasise the adjective, it is intolerably weak. Campbell also reads thus, only writing ὑποφόνια δολόμυθα.

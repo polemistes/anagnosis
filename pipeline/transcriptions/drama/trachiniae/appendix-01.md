@@ -75,7 +75,7 @@ Beyond the flags: closing quotes ’ for ” (four places), κύτει is (Is), 
 
 ## Lines 44–48
 
-Wunder’s rejection of these five verses is groundless. He sets out from the incorrect assumption that the words ὠδῖνας αὐτοῦ in v. 42 refer directly to the δέλτος (as being the cause of her anxiety), and that therefore further mention of the δέλτος in 46—48 is superfluous. He further objects that Deianeira ought not to speak as if her alarm arose merely from the *length* of her husband’s absence (44, 45). Then verse 46 repeats the sense of 43. And the whole passage, he urges, is a weak anticipation of 155 ff. The answer is simple. Deianeira is alarmed not merely because the absence of Heracles has been long, but because, as she says, it has now lasted precisely 15 months, thus completing the term fixed by the oracle. Verse 43 expresses a surmise; verse 46 is stronger, and expresses certainty. An allusion to the δέλτος, without further explanation, is natural here, where she communes aloud with her own thoughts, heard only by the Nurse. It is also dramatically effective, as bespeaking the interest of the spectators for the explanation given in 155 ff.
+Wunder’s rejection of these five verses is groundless. He sets out from the incorrect assumption that the words ὠδῖνας αὑτοῦ in v. 42 refer directly to the δέλτος (as being the cause of her anxiety), and that therefore further mention of the δέλτος in 46—48 is superfluous. He further objects that Deianeira ought not to speak as if her alarm arose merely from the *length* of her husband’s absence (44, 45). Then verse 46 repeats the sense of 43. And the whole passage, he urges, is a weak anticipation of 155 ff. The answer is simple. Deianeira is alarmed not merely because the absence of Heracles has been long, but because, as she says, it has now lasted precisely 15 months, thus completing the term fixed by the oracle. Verse 43 expresses a surmise; verse 46 is stronger, and expresses certainty. An allusion to the δέλτος, without further explanation, is natural here, where she communes aloud with her own thoughts, heard only by the Nurse. It is also dramatically effective, as bespeaking the interest of the spectators for the explanation given in 155 ff.
 
 ## Line 56 f.
 
@@ -113,6 +113,7 @@ Other critics have proposed still bolder remedies; as Faehse, οὐ καλῶς 
 24 Αγαμέμνονι [accent] (Greek model: ᾿Αγαμέμνονι.) → Ἀγαμέμνονι
 --- notes
 Structure: the last note's number is 76 in the print (the draft had 70). Beyond the flags: is for 15 (five places), ‘Night for Night, *i.e.* (ze.), τε κἀκ (Te kak), καλῶς (καλώς), οὐ for ov (three places), the stop after τοῦ καλῶς, p. 36 (Ὁ. 36), δοκοῖ. (comma), So, again (80, again), τε for Te, Wecklein: ‘The (stray spaces); italics *turn*, *vicissim*, *brings Heracles home*, *length*, *Ars Soph. em.*, *Il.*, *Od.*, *i.e.*; the Homeric verses joined by | where the print has the bar after Θυέστῃ·.
+44	rev: ὠδῖνας αὑτοῦ (the print has the rough breathing; the draft had αὐτοῦ)
 
 === p-0262
 But in *Od.* 11. 86 τὴν ζωὴν κατέλειπον refers to the dead Anticleia. And no theory of this kind applies to *Il.* 22. 226 ἡ δ’ ἄρα τὸν μὲν ἔλειπε, κιχήσατο δ’ Ἕκτορα δῖον, where the imperf. differs from the aor. only as meaning, ‘proceeded to leave.’ The fact seems to be that metrical convenience had much to do with the epic usage of ἔλειπον, and that, so far as the epic poet consciously distinguished it from ἔλιπον in the examples just quoted, the distinction was simply that the imperf. pictured the *process* of leaving. The Attic poets modelled their usage of ἔλειπον on the epic,—profiting by the metrical convenience, and feeling that they had good warrant: so Aesch. *Ag.* 607 οἵανπερ οὖν ἔλειπε: and more strikingly, Eur. *Andr.* 1205 ὦ φίλος, ἔλειπες ἐν δόμοις μ’ ἔρημον.
@@ -173,9 +174,9 @@ Line 116 f.: Jebb's number for the verse οὕτω δὲ τὸν Καδμογε�
 
 ## Lines 144–146
 
-**τὸ γὰρ νεάζον ἐν τοιοῖσδε βόσκεται | χώροισιν αὐτοῦ, καί νιν οὐ θάλπος θεοῦ, | οὐδ’ ὄμβρος, οὐδὲ πνευμάτων οὐδὲν κλονεῖ.**
+**τὸ γὰρ νεάζον ἐν τοιοῖσδε βόσκεται | χώροισιν αὑτοῦ, καί νιν οὐ θάλπος θεοῦ, | οὐδ’ ὄμβρος, οὐδὲ πνευμάτων οὐδὲν κλονεῖ.**
 
-The conjectures in v. 145 have been of two classes. (1) Those which alter χώροισιν αὐτοῦ only. Such are those of Reiske, χώροις ἄνατον: and Hermann, χώροις, ἵν’ αὐτοῦ, *sc.* ἐστίν, *ubi sui iuris est*. (2) Those which alter more. M. Schmidt, χώροισιν, οὗ κάει νιν. Wunder, χώροις, ἵν’ αὐαίνοντος. Wecklein, χώροις, ἵν’ αὐτὸ καῖον. Arndt, χώροις, ἵν’ αὔτ’ οὐκ αἰθίνου (Mekler, αἰθρίου). Musgrave (*inter alia*), χώροις, ἵν’ οὐ ψύχη νιν. Blaydes, χώροις, ἵν’ οὐ ψῦχός νιν.
+The conjectures in v. 145 have been of two classes. (1) Those which alter χώροισιν αὑτοῦ only. Such are those of Reiske, χώροις ἄνατον: and Hermann, χώροις, ἵν’ αὑτοῦ, *sc.* ἐστίν, *ubi sui iuris est*. (2) Those which alter more. M. Schmidt, χώροισιν, οὗ κάει νιν. Wunder, χώροις, ἵν’ αὐαίνοντος. Wecklein, χώροις, ἵν’ αὐτὸ καῖον. Arndt, χώροις, ἵν’ αὔτ’ οὐκ αἰθίνου (Mekler, αἰθρίου). Musgrave (*inter alia*), χώροις, ἵν’ οὐ ψύχη νιν. Blaydes, χώροις, ἵν’ οὐ ψῦχός νιν.
 
 ## Lines 166–168
 
@@ -219,6 +220,7 @@ Wecklein would render:—‘having prescribed the time, (namely) when he should 
 26 :—*¢ [conf] → :—‘
 --- notes
 The page begins with the rest of ‘hyper-thesis.’, written whole at the foot of p. 262. Beyond the flags: τὸ δέ (8¢), ‘there (—*), *ubi* (μὲ), αὐτοῦ in the lemma (αὑτοῦ), ’ for ” (five), *If* (2.0.), II. p. 39 (11.), ὡς for ws, ψύχη as printed (no iota subscript), alternative written whole (divided between pages); italics *augetur*, *ap.*, *sustains*, *sc.*, *ubi sui iuris est*, *inter alia*, *Adv.*, *If*, *about*.
+144	rev: αὑτοῦ with the rough breathing as printed in three places (the lemma, ‘alter χώροισιν αὑτοῦ only’, Hermann's ἵν’ αὑτοῦ); the batch had αὐτοῦ
 
 === p-0264
 + would be a harsh one, viz. to take ὡς as ὅτι, and to suppose an ellipse of δέοι γίγνεσθαι ταῦτα or the like. In any case, if the sentence ended with v. 165, Deianeira would represent Heracles as having said simply,—‘If I do not return at the end of fifteen months, consider me dead, and divide my property.’ What he actually said, according to the traditional text, was: ‘If I do not return at the end of fifteen months, consider me dead, and divide my property; for, at the end of that period, I shall *either* die, *or* enter on a peaceful life.’ Heracles himself says (1171) that he had expected the oracle to be fulfilled in the better sense,—κἀδόκουν πράξειν καλῶς. And Deianeira has already said that the oracle which he communicated to her spoke of these alternatives (79—81). Here, then, where she is giving the Chorus a full account of the situation, it is indispensable that she should refer to both possibilities. The genuineness of verses 166—168 appears not merely from the grammatical context, but from considerations of dramatic fitness.
@@ -274,7 +276,7 @@ II. Other emendations discard the verb ποθῶ altogether. (1) Blaydes: ἃ γ
 
 The traditional reading in 323, διοίσει, has been explained as follows. (1) Passow: *linguam in ore movere*: whence Liddell and Scott, ‘set her tongue in motion.’ So Linwood, and Pretor. (2) Neue and Ellendt: ‘will bring out’ the tongue, from between the lips. So Campbell, though doubtfully. (3) Blaydes: ‘will continue to carry the same tongue as hitherto.’ (4) Hermann: ‘will not be different as to speech, but true to her previous behaviour.’
 
-The scholiast has:—ἐὰν αἰδουμένη σε φθέγξηται, κατ’ οὐδὲν ἄρα ἐξ ἴσου τῷ πρόσθεν χρόνῳ προκομίσειεν <ἂν> αὐτῆς τὴν γλῶτταν· τὸν γὰρ πρὸ τοῦ χρόνον ἐσιώπα. His text in v. 322, then, was the same as ours; but we cannot be sure whether, in v. 323, it was διοίσει or διήσει that he paraphrased by προκομίσειεν.
+The scholiast has:—ἐὰν αἰδουμένη σε φθέγξηται, κατ’ οὐδὲν ἄρα ἐξ ἴσου τῷ πρόσθεν χρόνῳ προκομίσειεν <ἂν> αὑτῆς τὴν γλῶτταν· τὸν γὰρ πρὸ τοῦ χρόνον ἐσιώπα. His text in v. 322, then, was the same as ours; but we cannot be sure whether, in v. 323, it was διοίσει or διήσει that he paraphrased by προκομίσειεν.
 
 The following conjectures may be mentioned. (1) Paley, διοίξει. (2) D. S. Margoliouth: οὐ τἄρα τῷ γε πρόσθεν οὐδὲν ἠξίου | χρόνῳ διορίσαι· γλῶσσαν ἥτις οὐδαμὰ | προὔφηνεν κ.τ.λ. The ἠξίου is ingenious; but διορίσαι is an impossible word in this context. (3) Hense supposes that v. 322 is mainly an interpolation. He would fuse verses 322 and 323 into one, by reading οὐ τἄρ’ ἀνοίξει γλῶσσαν κ.τ.λ. (4) Nauck would do likewise: he suggests ποῦ γὰρ διήσει (or οὐ τἄρα λύσει) γλῶσσαν.
 
@@ -311,6 +313,7 @@ The following conjectures may be mentioned. (1) Paley, διοίξει. (2) D. S.
 27 Schneidewin’s [conf] → ok
 --- notes
 Beyond the flags: *i.e.* (22.), γὰρ for yap (several), οὐκ ἂν (dv), the stop after ποθῶ, O. Hense (Greek Ο), II. (ΤΙ.), the lemma οὔ τἄρα τῷ γε (Tapa, ye), αὐτῆς (αὑτῆς; the print has the smooth breathing), γε and διορίσαι· in Margoliouth, (or οὐ τἄρα λύσει) (Or ov Tapa), σύ γ’ (σύ γ), in 420 (In), ’ for ” (several); italics *part with his desire*, *neuter*, *Ars Soph. em.*, *ap.*, *Ars*, *linguam in ore movere*. The scholiast's <ἂν> kept in angle brackets as printed (as in the Electra appendix).
+322	rev: the scholiast's αὑτῆς with the rough breathing as printed (the batch had αὐτῆς, and its note above, ‘the print has the smooth breathing’, is wrong)
 
 === p-0266
 ## Line 476
