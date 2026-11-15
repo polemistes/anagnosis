@@ -53,24 +53,36 @@
 
 === p-0246
 --- text
-1100a	πατρὸς πελασθεῖσʼ; ἢ σέ γʼ εὐνάτειρά τις
+1101	πελασθεῖσʼ; ἢ σέ γʼ εὐνάτειρά τις
 1102	Λοξίου; τῷ γὰρ πλάκες ἀγρόνομοι πᾶσαι φίλαι·
-1105	εἴθʼ ὁ Κυλλάνας ἀνάσσων,
-1106	εἴθʼ ὁ Βακχεῖος θεὸς ναίων ἐπʼ ἄκρων ὀρέων σʼ εὕρημα δέξατʼ ἔκ του
-1107	Νυμφᾶν Ἑλικωνίδων, αἷς πλεῖστα συμπαίζει.
+1104	εἴθʼ ὁ Κυλλάνας ἀνάσσων,
+1105	εἴθʼ ὁ Βακχεῖος θεὸς ναίων ἐπʼ ἄκρων ὀρέων εὕρημα δέξατʼ ἔκ του
+1108	Νυμφᾶν Ἑλικωνίδων, αἷς πλεῖστα συμπαίζει.
 @ Οἰδίπους
 1110	εἰ χρή τι κἀμὲ μὴ συναλλάξαντά πω,
 1111	πρέσβεις, σταθμᾶσθαι, τὸν βοτῆρʼ ὁρᾶν δοκῶ,
-1112	ὅνπερ πάλαι ζητοῦμεν· ἔν τε γὰρ μακρῷ
+1112	ὅνπερ πάλαι ζητοῦμεν. ἔν τε γὰρ μακρῷ
 1113	γήρᾳ ξυνᾴδει τῷδε τἀνδρὶ σύμμετρος,
 1114	ἄλλως τε τοὺς ἄγοντας ὥσπερ οἰκέτας
 --- apparatus
+1101	ἢ σέ γε θυγάτηρ λοξίου L. Most of the later MSS. insert τις before θυγάτηρ, while a few agree with L. Arndt conjectures ἢ σέ γʼ εὐνάτειρά τις. Hartung, ἢ σέ γʼ οὔρειος κόρα.
+1107	εὕρημα] σʼ εὕρημα Dindorf: ἄγρευμα M. Schmidt: γέννημα or λόχευμα Wecklein: δώρημα Gleditsch: σε θρέμμα Wolff.
+1109	ἑλικωνιάδων L, with almost all the later MSS. (A has ἑλικωνιάδων by correction from ἑλικωνίδος.)—Ἑλικωνίδων Porson. ἑλικωπίδων Wilamowitz.
+1111	πρέσβει L. A letter (evidently σ) has been erased after ι. A very late hand has written υν over ει. The other MSS. have πρέσβει (A), πρέσβυ (received by Blaydes and Campbell), or πρέσβυν (Elmsley and Hartung). Dindorf cp. Aesch. Pers. 840 (where the chorus is addressed), ὑμεῖς δέ, πρέσβεις, χαίρετʼ.
+1114	ἄλλως τε] Nauck gives δμῶάς τε, and further conjectures ὄντας for ὥσπερ. See comment.
 --- notes
+1101	(flag: no margin number read) the margin prints 1104 beside εἴθʼ ὁ Κυλλάνας and 1110 beside εἰ χρή; Jebb's notes number ἢ σέ γʼ 1101, πλάκες 1103, ὁ Βακχεῖος θεός 1105, εὕρημα 1107, ἑλικωνιάδων 1109. Renumbered by the first word of each printed verse: τρὸς πελασθεῖσʼ … τις 1101 (draft 1100a), Λοξίου … φίλαι 1102 (1102-1103), Κυλλάνας 1104 (draft 1105), Βακχεῖος … ἔκ του 1105 (1105-1107, draft 1106), Νυμφᾶν … συμπαίζει 1108 (1108-1109, draft 1107).
+1101	the print divides πα- | τρὸς at the end of 1100: πατρὸς is written whole on 1100 and left out here; Jebb's asterisk before εὐνάτειρά left out.
+1105	the print has no σʼ before εὕρημα (ὀρέων εὕρημα): removed. The indented δέξατʼ ἔκ του is the turnover of this verse: confirmed.
+1112	the print has a full stop after ζητοῦμεν, not a raised stop (the OCR reads it so too): changed.
+1107	apparatus numbers 1103 (none), 1107 and 1109 are Jebb's; 1107 and 1109 name verses inside the printed lines numbered 1105 and 1108.
+1109	breathings in this note checked on the enlarged crop: ἑλικωνιάδων, ἑλικωνίδος, ἑλικωπίδων printed with the rough breathing.
+1114	the note runs on to the top of p-0248's apparatus ("tures ὄντας for ὥσπερ. See comment."): written here whole.
 
 === p-0248
 --- text
 1115	ἔγνωκʼ ἐμαυτοῦ· τῇ δʼ ἐπιστήμῃ σύ μου
-1116	προύχοις τάχʼ ἄν που, τὸν βοτῆρʼ ἰδὼν πάρος.
+1116	προὔχοις τάχʼ ἄν που, τὸν βοτῆρʼ ἰδὼν πάρος.
 @ Χορός
 1117	ἔγνωκα γάρ, σάφʼ ἴσθι· Λαΐου γὰρ ἦν
 1118	εἴπερ τις ἄλλος πιστὸς ὡς νομεὺς ἀνήρ.
@@ -83,7 +95,7 @@
 1121	οὗτος σύ, πρέσβυ, δεῦρό μοι φώνει βλέπων
 1122	ὅσʼ ἄν σʼ ἐρωτῶ. Λαΐου ποτʼ ἦσθα σύ;
 @ Θεράπων
-1123	ἦ δοῦλος οὐκ ὠνητός, ἀλλʼ οἴκοι τραφείς.
+1123	ἦ, δοῦλος οὐκ ὠνητός, ἀλλʼ οἴκοι τραφείς.
 @ Οἰδίπους
 1124	ἔργον μεριμνῶν ποῖον ἢ βίον τινά;
 @ Θεράπων
@@ -99,7 +111,15 @@
 @ Οἰδίπους
 1130	τόνδʼ ὃς πάρεστιν· ἢ ξυναλλάξας τί πω;
 --- apparatus
+1130	ἦ L 1st hand, corrected to ἢ by a later hand.—ξυναλλάξασ L, the first λ made from ν, as if the scribe had begun to write ξυναντήσας. The later MSS. are divided between the alternative readings, ἢ ξυναλλάξας (as E, Bodl. Laud. 54, Vat. a, c), and ἦ ξυνήλλαξας (as A, T, V, Δ). The change of ἢ into ἦ probably induced the change of the aor. participle into the aor. indic.—πω] In L the ω has been made from ο or α after erasure of at least two other letters. The word was never πωσ or που: Dübner suggests πούσ, Campbell ποτέ. The last letter seems to have been σ, and the word may perhaps have been πάροσ.—πωσ r: που Blaydes.
 --- notes
+1115	δʼ is printed on this verse: kept.
+1116	the print has προὔχοις (smooth breathing and acute on υ; the OCR reads it so too), not Perseus's προύχοις: changed.
+1120	ἦ τόνδε φράζεις; is printed on this verse, and the print has ΑΓ. inside the line before τοῦτον: the split into 1120 and 1120a with @ Ἄγγελος confirmed.
+1123	the print has a comma after ἦ (the OCR reads it so too): added. ΘΕΡΑΠΩΝ. is printed centred above this verse: @ Θεράπων kept.
+1130	the two "printed lines that matched no Perseus words" after 1130 are the first lines of the apparatus; the batch file has no such lines, nothing removed.
+1130	the apparatus begins with the end of the note on 1114 (tures ὄντας for ὥσπερ. See comment.): written with p-0246. The page's apparatus crops cut off its first three lines; the apparatus was read from the whole page.
+1130	the note runs on beyond the spread to the head of p-0250's apparatus ("…πωσ r: που Blaydes."): written here whole; p-0250 leaves that end out.
 
 === p-0250
 --- text
@@ -118,7 +138,17 @@
 @ Θεράπων
 1141	λέγεις ἀληθῆ, καίπερ ἐκ μακροῦ χρόνου.
 --- apparatus
+1131	ὕπο] ἄπο Reiske.
+1135	Heimsoeth conject. νέμων διπλοῖσι ποιμνίοις, ἐγὼ δʼ ἑνί, | ἐπλησίαζε.
+1137	ἐμμήνουσ L, with almost all the later MSS.: but the Trin. MS. has ἐκμήνους, whence Porson restored ἑκμήνους.
+1138	χειμῶνα L: χειμῶνι r. As the accus. was changed into the easier dat., so the dat. in turn became the gen. in some copies (Γ has χειμῶνος, with γρ. χειμῶνι). In A there is an erasure over the νι of χειμῶνι, but no trace (I think) of α.
 --- notes
+1131	the print reads ὕπο (μνήμης ὕπο.), as the OCR has it and Jebb's apparatus confirms (ὕπο] ἄπο Reiske): changed from ἄπο.
+1134	the print reads κάτοιδεν ἦμος τὸν Κιθαιρῶνος τόπον (no comma after κάτοιδεν, accusatives, no comma at the end; Jebb's note on 1134 discusses τὸν Κιθαιρῶνος τόπον): changed.
+1135	the print ends the verse ἑνὶ (grave, no comma; the OCR reads it so too): changed.
+1140	the print has a comma after τούτων (the OCR reads it so too): added.
+1131	the apparatus begins with the end of the note on 1130 ("Blaydes."): written with p-0248.
+1137	breathings checked on the enlarged crop: L's ἐμμήνουσ and the Trin. ἐκμήνους smooth, Porson's ἑκμήνους rough.
 
 === p-0252
 --- text
@@ -159,9 +189,9 @@
 @ Οἰδίπους
 1160	ἁνὴρ ὅδʼ, ὡς ἔοικεν, ἐς τριβὰς ἐλᾷ.
 @ Θεράπων
-1161	οὐ δῆτʼ ἔγωγʼ, ἀλλʼ εἶπον, ὡς δοίην, πάλαι.
+1161	οὐ δῆτʼ ἔγωγʼ, ἀλλʼ εἶπον ὡς δοίην πάλαι.
 @ Οἰδίπους
-1162	πόθεν λαβών; οἰκεῖον ἢ ʼξ ἄλλου τινός;
+1162	πόθεν λαβών; οἰκεῖον, ἢ ʼξ ἄλλου τινός;
 @ Θεράπων
 1163	ἐμὸν μὲν οὐκ ἔγωγʼ, ἐδεξάμην δέ του.
 @ Οἰδίπους
@@ -173,4 +203,10 @@
 @ Θεράπων
 1167	τῶν Λαΐου τοίνυν τις ἦν γεννημάτων.
 --- apparatus
+1145	νέος] βρέφος Wecklein.
 --- notes
+1147	ἆ, is printed at the head of this verse (circumflex, smooth breathing): kept.
+1161	the print has no commas around ὡς δοίην (εἶπον ὡς δοίην πάλαι; the OCR reads it so too): removed.
+1162	the print has a comma after οἰκεῖον (the OCR reads it so too): added.
+1165	the print has ΘΕ. in the margin here: @ Θεράπων kept.
+1145	the facing page (leaf 253) prints only the translation, no apparatus: the apparatus is the one note under the verses.

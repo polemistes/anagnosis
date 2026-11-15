@@ -45,7 +45,7 @@
 960	χωρεῖν πρὸ δόμων λέγουσιν
 961	ἄσπετόν τι θαῦμα.
 962	ἀγχοῦ δʼ ἄρα κοὐ μακρὰν
-963	προύκλαιον, ὀξύφωνος ὡς ἀηδών.
+963	προὔκλαιον, ὀξύφωνος ὡς ἀηδών.
 964	ξένων γὰρ ἐξόμιλος ἥδε τις βάσις.
 --- apparatus
 951	μένομεν Erfurdt: μέλλομεν MSS.: μελόμενʼ Hermann.
@@ -64,6 +64,7 @@
 956	The print has τὸν *Ζηνὸς (Triclinius' reading, admitted with Jebb's asterisk; see his note 956): Δῖον (Perseus, Nauck's conjecture) changed to Ζηνὸς, asterisk left out.
 964	The lemma is printed βασις] without accent, an evident misprint for βάσις (the text prints βάσις): corrected.
 960	The lemma λέ-|γουσιν and re-|taining are divided over two lines in the print; written whole.
+963	rev: the print has προὔκλαιον (smooth breathing and acute on υ), not Perseus's προύκλαιον; changed.
 
 === p-0216
 --- text
