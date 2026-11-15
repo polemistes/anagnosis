@@ -1,13 +1,13 @@
 === p-0200
 --- text
-840	Νέσσου ὑποφόνια δολιόμυθα κέντρʼ ἐπιζέσαντα.
+839	Νέσσου ὑποφόνια δολιόμυθα κέντρʼ ἐπιζέσαντα.
 841	ὧν ἅδʼ ἁ τλάμων ἄοκνος, μεγάλαν προσορῶσα δόμοισι βλάβαν νέων
 843	ἀΐσσουσαν γάμων, τὰ μὲν αὐτὰ προσέβαλε· τὰ δʼ ἀπʼ ἀλλόθρου
 845	γνώμας μολόντʼ ὀλεθρίαισι συναλλαγαῖς
 846	ἦ που ὀλοὰ στένει,
 847	ἦ που ἀδινῶν χλωρὰν
 848	τέγγει δακρύων ἄχναν.
-850	ἁ δʼ ἐρχομένα μοῖρα προφαίνει δολίαν
+849	ἁ δʼ ἐρχομένα μοῖρα προφαίνει δολίαν
 851	καὶ μεγάλαν ἄταν.
 --- apparatus
 841-851	L divides the vv. thus:—ὧν ἅδʼ— | μεγάλαν— | νέων— | τὰ μὲν— | γνώμασ— | ἦ που ὀλοὰ— | ἦ που ἀδινῶν— | τέγγει— | ἁ δʼ— | μοῖρα— | καὶ...ἄταν.
@@ -25,6 +25,8 @@
 842	Jebb's apparatus numbers follow his own count of the lyric verses and are kept as printed: his 842 (προσορῶσα, δόμοισι) is in our 841, his 844 (προσέβαλεν, ἀλλόθρου) in our 843, his "846 f." covers our 846-847.
 844	apparatus 844 (προσέβαλεν, ἀλλόθρου) refers to our 843: Jebb's number kept, so the checker's "not on this page" remark is expected.
 841	Jebb's note on 841—851 is on the text page; the notes from 843 (αὐτὰ … οὔ τι MSS.) on run on to the facing page (leaf 201), written here.
+839	rev: numbering: was 840: Νέσσου … ἐπιζέσαντα is Jebb's 839 and covers 840, which the margin prints beside it (his commentary 839 f. on νέσου; φάσματι … αἰκίζει covers 837-838)
+849	rev: numbering: was 850: ἁ δʼ ἐρχομένα … δολίαν is Jebb's 849 and covers 850, which the margin prints beside it; καὶ μεγάλαν ἄταν ends the strophe at 851 (his introductory note: 841-851), and the verse answers ἁ δʼ ἀμφίπολος … φανερὰ (860-861)
 
 === p-0202
 --- text
@@ -35,10 +37,10 @@
 858	ἄγαγες ἀπʼ αἰπεινᾶς
 859	τάνδʼ Οἰχαλίας αἰχμᾷ·
 860	ἁ δʼ ἀμφίπολος Κύπρις ἄναυδος φανερὰ
-861	τῶνδʼ ἐφάνη πράκτωρ.
+862	τῶνδʼ ἐφάνη πράκτωρ.
 @ Ἡμιχόριον 1
-862	πότερον ἐγὼ μάταιος, ἢ κλύω τινὸς
-863	οἴκτου διʼ οἴκων ἀρτίως ὁρμωμένου;
+863	πότερον ἐγὼ μάταιος, ἢ κλύω τινὸς
+864	οἴκτου διʼ οἴκων ἀρτίως ὁρμωμένου;
 865	τί φημί;
 @ Ἡμιχόριον 2
 866	ἠχεῖ τις οὐκ ἄσημον ἀλλὰ δυστυχῆ
@@ -59,6 +61,9 @@
 853	Jebb's apparatus numbers are his own count of the lyric verses, kept as printed: his "853 f." covers our 852 and 854, his 863 (ΗΜ. Α., πότερον) our 862.
 856	res: renumbered to the print: the margin 856 stands beside ἰὼ κελαινὰ, so ἰὼ κελαινὰ … ἁ δʼ ἀμφίπολος run 856-860 (were 855-858, 860); 852 and 854 kept (Jebb's own note 853 f. counts ἀναρσίων 853, οὔπω 854). The apparatus 856 (λόγχα προμάχου) and 857 (θοὰν νύμφαν) now stand on their verses.
 863	the note on 863 runs on to the facing page (leaf 203) from "the Chorus."; written here whole, with the note on 865 from the same page.
+862	rev: numbering: was 861: ἁ δʼ ἀμφίπολος … φανερὰ (margin 860) covers 860-861, as ἁ δʼ ἐρχομένα … δολίαν which it answers; τῶνδʼ ἐφάνη πράκτωρ is Jebb's 862, the end of the antistrophe 852-862 (his introductory note)
+863	rev: numbering: was 862: πότερον ἐγὼ μάταιος … is Jebb's 863 (his apparatus 863 ΗΜ. Α. … πότερον ἐγὼ μάταιος; the MSS. give vv. 863-870 to the Chorus)
+864	rev: numbering: was 863: οἴκτου … ὁρμωμένου; is 864; τί φημί; bears the margin 865
 
 === p-0204
 --- text

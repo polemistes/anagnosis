@@ -5,9 +5,9 @@
 @ Ἡρακλῆς
 1023	ὦ παῖ, ποῦ ποτʼ εἶ; τᾷδέ με τᾷδέ με
 1025	πρόσλαβε κουφίσας. ἒ ἔ, ἰὼ δαῖμον.
-1026	θρῴσκει δʼ αὖ, θρῴσκει δειλαία
-1027	διολοῦσʼ ἡμᾶς
-1030	ἀποτίβατος ἀγρία νόσος.
+1027	θρῴσκει δʼ αὖ, θρῴσκει δειλαία
+1028	διολοῦσʼ ἡμᾶς
+1029	ἀποτίβατος ἀγρία νόσος.
 1031	ὦ Παλλὰς Παλλάς, τόδε μʼ αὖ λωβᾶται. ἰὼ παῖ,
 1032	τὸν φύτορʼ οἰκτίρας ἀνεπίφθονον εἴρυσον ἔγχος,
 1035	παῖσον ἐμᾶς ὑπὸ κλῇδος, ἀκοῦ δʼ ἄχος, ᾧ μʼ ἐχόλωσεν
@@ -26,11 +26,14 @@
 1033	apparatus: Jebb numbers the note on τὸν φύτορʼ 1033; the verse τὸν φύτορʼ … ἔγχος is our 1032 (1033 is covered by it). Number kept as printed.
 1027	apparatus: ἀποτί-βατοσ and ὠκυ-πέτα are divided only at the end of a printed line (written whole); κληϊ-|δοσ is L's division as reported, kept with its stroke.
 1026	apparatus: in L's reading the first ε shows only a breathing (ἐ), the second ἔ; written as printed.
+1027	rev: numbering: was 1026: πρόσλαβε … ἰὼ δαῖμον. (margin 1025) covers 1026 (Jebb's apparatus 1026 ἒ ἒ ἰὼ and commentary 1026 ἰὼ δαῖμον stand in it), so θρῴσκει … δειλαία is his 1027 (commentary 1027 θρῴσκει; the second antistrophe 1027-1030 in his introductory note)
+1028	rev: numbering: was 1027: διολοῦσʼ ἡμᾶς runs on from 1027
+1029	rev: numbering: was 1030: ἀποτίβατος ἀγρία νόσος. carries 1029 and covers 1030, which the margin prints beside it: the antistrophe 1027-1030 has three printed verses for four numbers, and ὦ Παλλὰς … is Jebb's 1031
 
 === p-0226
 --- text
 1036	σὰ μάτηρ ἄθεος· τὰν ὧδʼ ἐπίδοιμι πεσοῦσαν
-1040	αὔτως, ὧδʼ αὔτως, ὥς μʼ ὤλεσεν. ὦ γλυκὺς Ἅιδας,
+1039	αὔτως, ὧδʼ αὔτως, ὥς μʼ ὤλεσεν. ὦ γλυκὺς Ἅιδας,
 1041	ὦ Διὸς αὐθαίμων, εὔνασον εὔνασόν μʼ
 1042	ὠκυπέτᾳ μόρῳ τὸν μέλεον φθίσας.
 @ Χορός
@@ -65,6 +68,7 @@
 1047	apparatus: κἀν-|νοίαισι divided only at the end of a printed line: written whole.
 1044	res: renumbered from 1043: the trimeter κλύουσʼ ἔφριξα stands before ἄνακτος, which bears the margin 1045, and Jebb's apparatus names it 1044 (ὠκυπέτᾳ … φθίσας covers 1042-1043, as in L's division 1027-1043).
 1051	rev: apparatus: L's reading is printed ἐμοῖ (circumflex), not ἐμοὶ: corrected.
+1039	rev: numbering: was 1040: αὔτως … ὦ γλυκὺς Ἅιδας, is Jebb's 1039 and covers 1040 (his commentary 1039 αὔτως, apparatus 1039 f. ὦ γλυκὺς Ἅιδας); σὰ μάτηρ … πεσοῦσαν (1036, margin 1038) covers 1037-1038, ὦ Διὸς αὐθαίμων bears the margin 1041
 
 === p-0228
 --- text

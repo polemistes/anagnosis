@@ -353,7 +353,7 @@
     "title_en": "Trachiniae",
     "author_en": "Sophocles",
     "description": "The Greek text of Sir Richard Jebb's edition, with his translation, critical apparatus and commentary, and the Liddell–Scott dictionaries. Tap any word for its meaning and form.",
-    "edition": "Sophocles: The Plays and Fragments, with critical notes, commentary, and translation in English prose, by R. C. Jebb, Part V: The Trachiniae, Cambridge, University Press, 1892",
+    "edition": "Sophocles: The Plays and Fragments, Part V: The Trachiniae, ed. R. C. Jebb, Cambridge University Press, 1892",
     "app_id": "no.anagnosis.trachiniae",
     "ref_edition": "R. C. Jebb, Sophocles: The Plays and Fragments, Part V: The Trachiniae, Cambridge University Press 1892",
     "ref_translation": "R. C. Jebb, Sophocles: The Plays and Fragments, Part V: The Trachiniae, Cambridge University Press 1892",
@@ -366,7 +366,7 @@
     "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
     "syntax_license": "CC BY-SA 3.0 US",
     "product_id": "sophocles_trachiniae_jebb",
-    "version": "b5c26eb18e67b70d"
+    "version": "ab895869dc88ae55"
   },
   {
     "slug": "truestory",

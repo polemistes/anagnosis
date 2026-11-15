@@ -142,9 +142,9 @@
 633	ὦ ναύλοχα καὶ πετραῖα
 634	θερμὰ λουτρὰ καὶ πάγους
 635	Οἴτας παραναιετάοντες, οἵ τε μέσσαν Μηλίδα πὰρ λίμναν
-636	χρυσαλακάτου τʼ ἀκτὰν κόρας,
-637	ἔνθʼ Ἑλλάνων ἀγοραὶ
-638	Πυλάτιδες κλέονται·
+637	χρυσαλακάτου τʼ ἀκτὰν κόρας,
+638	ἔνθʼ Ἑλλάνων ἀγοραὶ
+639	Πυλάτιδες κλέονται·
 640	ὁ καλλιβόας τάχʼ ὑμῖν
 641	αὐλὸς οὐκ ἀναρσίαν
 --- apparatus
@@ -158,11 +158,14 @@
 635	Jebb's small strophe numerals (2-6), the label στρ. α΄. and ἀντ. α΄. and the asterisk before κλέονται are left out.
 636	Jebb's apparatus numbers by the traditional colometry: his 636 (πὰρ) stands in our 635, his 639 (κλέονται) in our 638 (Πυλάτιδες κλέονται). Text numbering kept: the margin 635 and 640 agree with it, and his notes on p-0174 (657 πρὸς, 658 ἀνύσειε inside one printed verse) show the apparatus numbers do not follow his printed verses.
 639	Checker remark "apparatus 639 names a line not on this page": Jebb prints 639; the verse (Πυλάτιδες κλέονται) is our 638, Perseus having no 639 here. Kept as printed.
+637	rev: numbering: was 636: Οἴτας … λίμναν (margin 635) covers 635-636 (Jebb's note 636 πὰρ stands in it), so χρυσαλακάτου … κόρας is his 637
+638	rev: numbering: was 637: ἔνθʼ Ἑλλάνων ἀγοραὶ is Jebb's 638 (his commentary 638 ἔνθʼ Ἑλλάνων)
+639	rev: numbering: was 638: Πυλάτιδες κλέονται· is Jebb's 639, the last verse of the strophe 633-639 (his note 639 κλέονται; his introductory note); the antistrophe begins at the margin 640
 
 === p-0174
 --- text
 642	ἀχῶν καναχὰν ἐπάνεισιν, ἀλλὰ θείας ἀντίλυρον μούσας.
-643	ὁ γὰρ Διὸς Ἀλκμήνας κόρος
+644	ὁ γὰρ Διὸς Ἀλκμήνας κόρος
 645	σοῦται πάσας ἀρετᾶς
 646	λάφυρʼ ἔχων ἐπʼ οἴκους·
 647	ὃν ἀπόπτολιν εἴχομεν παντᾷ,
@@ -198,3 +201,4 @@
 658	Jebb's 658 (ἀνύσειε) stands at the end of our 657 (πρὶν τάνδε … ἀνύσειε): his traditional numbering; item kept under 658.
 647	The stray mark after πάντα in the line division (a broken type or speck) is not copied.
 653	οἱ στρωθεὶς with the rough breathing, as in Jebb's commentary on 653 ("αὖ (or οἱ) στρωθεὶς").
+644	rev: numbering: was 643: ἀχῶν … μούσας covers 642-643, as Οἴτας … λίμναν (635-636) which it answers, so ὁ γὰρ Διὸς Ἀλκμήνας κόρος is Jebb's 644 (his apparatus 644 and commentary 644 ὁ Διὸς … Ἀλκμήνας κόρος); σοῦται bears the margin 645

@@ -3,7 +3,7 @@ import unittest
 from lxml import etree
 
 from anagnosis_pipeline.commentary import _md, _txt
-from anagnosis_pipeline.sophocles import _printed, apply_text_check, perseus_anchors
+from anagnosis_pipeline.sophocles import _printed, apply_text_check, numbering_suspects, perseus_anchors
 from anagnosis_pipeline.sophocles_pages import bold_lemmas
 from anagnosis_pipeline.textfmt import Document, Line
 
@@ -77,6 +77,50 @@ class Lemmas(unittest.TestCase):
     def test_lemma_does_not_run_over_a_full_stop(self):
         self.assertEqual(bold_lemmas("Nauck, s. v. ὑπόβλητον. σαυτοῦ] σεαυτοῦ L."),
                          "Nauck, s. v. ὑπόβλητον. **σαυτοῦ**] σεαυτοῦ L.")
+
+
+class NumberingSuspects(unittest.TestCase):
+    LINES = [("96", "Ἅλιον, Ἅλιον αἰτῶ"),
+             ("97", "τοῦτο καρῦξαι, τὸν Ἀλκμήνας πόθι μοι πόθι παῖς"),
+             ("98", "ναίει ποτʼ, ὦ λαμπρᾷ στεροπᾷ φλεγέθων,"),
+             ("100", "ἢ ποντίας αὐλῶνας, ἢ δισσαῖσιν ἀπείροις κλιθείς·"),
+             ("101", "εἴπʼ, ὦ κρατιστεύων κατʼ ὄμμα."),
+             ("102", "ποθουμένᾳ γὰρ φρενὶ πυνθάνομαι")]
+    APP = """# title: Critical apparatus
+
+## 97
+τοῦτο r: τούτωι L.—**καρῦξαι**] κᾱρύξαι L.
+
+## 98
+πόθι μοι L.
+
+[99] λαμπρᾶι στεροπᾶι made by S from λαμπρὰ στεροπὰ in L.
+
+## 100
+**ἢ ποντίας...κλιθείς**] ποντίασ L.
+
+## 101
+**Κατʼ ὄμμα**] Nauck conj. πανόπτα.
+
+## 102
+**Ἥλιον**] not near.
+"""
+
+    def test_lemma_in_a_nearby_verse_and_printed_numbers(self):
+        items = numbering_suspects(self.LINES, self.APP)
+        self.assertEqual([(i["kind"], i["note"], i["lemma"], i["filed"], i["found"]) for i in items], [
+            ("printed", "99", "λαμπρᾶι στεροπᾶι", "98", "98"),
+        ])
+        # the lemma of the note filed under 102 stands in 101 (case and accents ignored); a lemma in
+        # its own verse (100, up to the "..."), or in no verse within reach (Ἥλιον), is not listed
+        app = self.APP.replace("## 101\n**Κατʼ ὄμμα**", "## 101\n**εἴπʼ**").replace(
+            "## 102\n**Ἥλιον**] not near.", "## 102\n**κατʼ ὄμμα**] Nauck.\n\n## 96\n**Ἥλιον**] not near.")
+        items = numbering_suspects(self.LINES, app)
+        self.assertEqual([(i["kind"], i["note"], i["lemma"], i["filed"], i["found"]) for i in items], [
+            ("printed", "99", "λαμπρᾶι στεροπᾶι", "98", "98"),
+            ("lemma", "102", "κατʼ ὄμμα", "102", "101"),
+        ])
+        self.assertEqual([n for n, _t in items[1]["context"]], ["98", "100", "101", "102"])
 
 
 if __name__ == "__main__":

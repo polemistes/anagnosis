@@ -13,6 +13,7 @@ Markdown subset used: **bold** (lemmas), *italic*, [text](#line) cross reference
 from __future__ import annotations
 
 import re
+import unicodedata
 from pathlib import Path
 
 from lxml import etree
@@ -64,12 +65,57 @@ def _md(el, grk: bool) -> str:
 
 
 def _md_children(el, grk: bool) -> str:
-    parts = [_txt(el.text, grk)]
+    parts: list[tuple[str, str | None]] = [(_txt(el.text, grk), None)]
     for child in el:
         if isinstance(child.tag, str):  # skip comments and processing instructions
-            parts.append(_md(child, grk))
-        parts.append(_txt(child.tail, grk))
-    return "".join(parts)
+            parts.append((_md(child, grk), etree.QName(child).localname))
+        parts.append((_txt(child.tail, grk), None))
+    return _join(parts)
+
+
+def _join(parts: list[tuple[str, str | None]]) -> str:
+    """The pieces of an element's content (text, or a child's Markdown with its tag) joined, with a
+    space where Perseus left none at a tag boundary that the print spaces (_needs_space)."""
+    out, last = "", None
+    for s, tag in parts:
+        if not s:
+            continue
+        if out and _needs_space(out, last, s, tag):
+            out += " "
+        out += s
+        last = tag
+    return out
+
+
+def _needs_space(left: str, left_tag: str | None, right: str, right_tag: str | None) -> bool:
+    """Perseus's Jebb files often have no space at a tag boundary where the print has one:
+    "Pind. <title>O.</title>7. 54</bibl><quote>…", "below<bibl>Aesch. Ag., 876f</bibl>". A space
+    goes between a work's title and what follows it (a number, a word, an opening bracket), between
+    a citation (<bibl>) and a word, quotation, bracket or § after it, and between a word and a
+    citation that follows it. Never before a stop, comma, closing bracket or dash, and not between
+    a citation and a digit (Perseus splits a number there: "111</bibl>1n.")."""
+    if left[-1].isspace() or right[0].isspace():
+        return False
+    lc = left.rstrip("*")[-1:]
+    rc = right.lstrip("*")[:1]
+    if not lc or not rc:
+        return False
+    if left_tag == "title":
+        return (_alnum(lc) or lc == ".") and (_alnum(rc) or rc == "(")
+    if left_tag == "bibl":
+        return _letter(rc) or rc in "(§‘“\"["
+    if right_tag == "bibl":
+        return (_alnum(lc) or lc in "’”") and _alnum(rc)
+    return False
+
+
+def _letter(c: str) -> bool:
+    """A letter of a word (Latin or Greek), not a modifier such as the elision mark ʼ."""
+    return unicodedata.category(c) in ("Lu", "Ll", "Lt", "Lo")
+
+
+def _alnum(c: str) -> bool:
+    return _letter(c) or c.isdigit()
 
 
 def _txt(s: str | None, grk: bool) -> str:

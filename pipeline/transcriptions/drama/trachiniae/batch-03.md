@@ -98,8 +98,8 @@
 208	κλαγγὰ τὸν εὐφαρέτραν
 209	Ἀπόλλω προστάταν· ὁμοῦ δὲ
 210	παιᾶνα παιᾶνʼ ἀνάγετʼ, ὦ παρθένοι,
-211	βοᾶτε τὰν ὁμόσπορον
-212	Ἄρτεμιν Ὀρτυγίαν ἐλαφαβόλον, ἀμφίπυρον,
+212	βοᾶτε τὰν ὁμόσπορον
+213	Ἄρτεμιν Ὀρτυγίαν ἐλαφαβόλον, ἀμφίπυρον,
 215	γείτονάς τε Νύμφας.
 216	ἀείρομʼ, οὐδʼ ἀπώσομαι
 217	τὸν αὐλόν, ὦ τύραννε τᾶς ἐμᾶς φρενός.
@@ -130,6 +130,9 @@
 220	the print has ὁ κισσός, ἄρτι with a comma: changed. ὑποστρέφων ἅμιλλαν, a printed verse within Jebb's 220 (his 221 is ἰὼ ἰὼ Παιάν), numbered 220a.
 221	was 220a: Jebb's 221 (apparatus "221 Παιάν"). The print shows no square brackets (the OCR misread Π); the stop after Παιάν is a raised stop (a faint speck below it): changed from a full stop.
 222	ἴδʼ checked: printed at the start of the verse.
+212	rev: numbering: was 211: παιᾶνα … ὦ παρθένοι (margin 210) covers 211 (Jebb's commentary 211 ἀνάγετʼ stands in it), so βοᾶτε τὰν ὁμόσπορον is his 212
+213	rev: numbering: was 212: Ἄρτεμιν Ὀρτυγίαν … ἀμφίπυρον is Jebb's 213 and covers 214 (his commentary 213 ff. Ἄρτεμιν Ὀρτυγίαν, apparatus 214 on Ὀρτυγίαν); γείτονάς τε Νύμφας bears the margin 215
+214	rev: numbering: apparatus 214 (Ὀρτυγίαν) names a number that 213 covers; kept as printed, filed under 213 by the merge
 
 === p-0112
 --- text

@@ -63,6 +63,8 @@ def main(argv: list[str] | None = None) -> int:
     cdp.add_argument("files", nargs="+")
     spr = sub.add_parser("sophocles-prose", help="texts/<play>/introduction.md (Perseus's chapters, then the transcribed ones) and appendix.md from the checked prose batches (intro-NN.md, appendix-NN.md) of a Sophocles play on the drama route")
     spr.add_argument("play")
+    snu = sub.add_parser("sophocles-numbering", help="apparatus notes that suggest our verse numbers are not Jebb's (a lemma in a nearby verse, a printed number kept in front), from texts/<play>/grc.txt and commentary-jebb-apparatus.md")
+    snu.add_argument("play")
     drs = sub.add_parser("drama-residuals", help="what the checked text and the OCR still disagree on, per page, for a second pass (drama_residuals.py)")
     drs.add_argument("play")
     drs.add_argument("files", nargs="*")
@@ -224,6 +226,9 @@ def main(argv: list[str] | None = None) -> int:
             return 1
         return 1 if write_prose(args.play, SOURCES, TEXTS, ROOT / "pipeline" / "transcriptions" / "drama" / args.play,
                                 ROOT / "pipeline" / "build" / "drama-prose" / args.play) else 0
+    elif args.cmd == "sophocles-numbering":
+        from .sophocles import report_numbering
+        report_numbering(TEXTS / args.play)
     elif args.cmd == "drama-residuals":
         from collections import Counter
         from .drama_residuals import residuals

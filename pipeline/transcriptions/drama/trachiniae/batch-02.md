@@ -10,7 +10,7 @@
 95	τίκτει κατευνάζει τε φλογιζόμενον,
 96	Ἅλιον, Ἅλιον αἰτῶ
 97	τοῦτο καρῦξαι, τὸν Ἀλκμήνας πόθι μοι πόθι παῖς
-98	ναίει ποτʼ, ὦ λαμπρᾷ στεροπᾷ φλεγέθων,
+99	ναίει ποτʼ, ὦ λαμπρᾷ στεροπᾷ φλεγέθων,
 100	ἢ ποντίας αὐλῶνας, ἢ δισσαῖσιν ἀπείροις κλιθείς·
 --- apparatus
 90	μὴ MSS.: μὴ οὐ Brunck, and so most edd.
@@ -29,16 +29,17 @@
 99	apparatus 99 (λαμπρᾶι στεροπᾶι) refers to our verse 98: Jebb's number kept, so the checker's "not on this page" remark is expected.
 100	the print reads αὐλῶνας, with a comma after it (clear on the crop; Jebb's reading, cf. his note on 100 f.); the verse ends with a raised stop κλιθείς·, not a comma; corrected.
 100	Jebb's note on 100 f. runs on to the top of leaf 94's apparatus ("ἀπείροισιν (L), … (T)."); written here whole, from p-0094-app-l/-r.
+99	rev: numbering: was 98: Jebb's verse τοῦτο καρῦξαι … πόθι παῖς is his 97 and covers 98 (his note 98 on πόθι μοι stands in it), so ναίει ποτʼ … φλεγέθων is his 99 (his notes 99 on λαμπρᾷ στεροπᾷ); the margin 100 stands on ἢ ποντίας … κλιθείς (100, covering 101)
 
 === p-0094
 --- text
-101	εἴπʼ, ὦ κρατιστεύων κατʼ ὄμμα.
-102	ποθουμένᾳ γὰρ φρενὶ πυνθάνομαι
-103	τὰν ἀμφινεικῆ Δηιάνειραν ἀεί,
+102	εἴπʼ, ὦ κρατιστεύων κατʼ ὄμμα.
+103	ποθουμένᾳ γὰρ φρενὶ πυνθάνομαι
+104	τὰν ἀμφινεικῆ Δηιάνειραν ἀεί,
 105	οἷά τινʼ ἄθλιον ὄρνιν,
 106	οὔποτʼ εὐνάζειν ἀδακρύτων βλεφάρων πόθον, ἀλλʼ
-107	εὔμναστον ἀνδρὸς δεῖμα τρέφουσαν ὁδοῦ
-110	ἐνθυμίοις εὐναῖς ἀνανδρώτοισι τρύχεσθαι, κακὰν
+108	εὔμναστον ἀνδρὸς δεῖμα τρέφουσαν ὁδοῦ
+109	ἐνθυμίοις εὐναῖς ἀνανδρώτοισι τρύχεσθαι, κακὰν
 111	δύστανον ἐλπίζουσαν αἶσαν.
 112	πολλὰ γὰρ ὥστʼ ἀκάμαντος ἢ νότου ἢ βορέα τις
 --- apparatus
@@ -56,14 +57,19 @@
 108	apparatus 108 (τρέφουσαν) is Jebb's number for our 107.
 109	apparatus 109 (εὐναῖς) is Jebb's number for our 110. The print has a stray bracket after the number ("109] εὐναῖς]"), an evident misprint; left out.
 113	apparatus 113 (βορέα) is Jebb's number for our 112.
+102	rev: numbering: was 101: εἴπʼ … ὄμμα is Jebb's 102 (ἢ ποντίας … κλιθείς covers 100-101; his notes 102 κατʼ ὄμμα, and his commentary 102 κρατιστεύων κατʼ ὄμμα)
+103	rev: numbering: was 102: ποθουμένᾳ … is Jebb's 103, the first verse of the antistrophe 103-111 (his notes 103 ποθουμένᾳ in apparatus and commentary)
+104	rev: numbering: was 103: τὰν ἀμφινεικῆ … is Jebb's 104 (his notes 104 τὰν, commentary 104 τὰν ἀμφινεικῆ); the margin 105 stands on οἷά τινʼ
+108	rev: numbering: was 107: οὔποτʼ … ἀλλʼ (106) covers 107, as τοῦτο καρῦξαι … παῖς (97-98) which it answers; so εὔμναστον … ὁδοῦ is Jebb's 108 (his note 108 τρέφουσαν)
+109	rev: numbering: was 110: ἐνθυμίοις … κακὰν is Jebb's 109 and covers 110, which the margin prints beside it (his note 109 εὐναῖς; it answers ἢ ποντίας … κλιθείς, 100-101)
 
 === p-0096
 --- text
-115	κύματʼ ἂν εὐρέϊ πόντῳ βάντʼ ἐπιόντα τʼ ἴδοι,
+114	κύματʼ ἂν εὐρέϊ πόντῳ βάντʼ ἐπιόντα τʼ ἴδοι,
 116	οὕτω δὲ τὸν Καδμογενῆ στρέφει, τὸ δʼ αὔξει, βιότου πολύπονον ὥσπερ πέλαγος
-120	Κρήσιον. ἀλλά τις θεῶν αἰὲν ἀναμπλάκητον Ἅιδα σφε δόμων ἐρύκει.
+119	Κρήσιον. ἀλλά τις θεῶν αἰὲν ἀναμπλάκητον Ἅιδα σφε δόμων ἐρύκει.
 122	ὧν ἐπιμεμφομένα σʼ αἰδοῖα μέν, ἀντία δʼ οἴσω.
-125	φαμὶ γὰρ οὐκ ἀποτρύειν ἐλπίδα τὰν ἀγαθὰν
+124	φαμὶ γὰρ οὐκ ἀποτρύειν ἐλπίδα τὰν ἀγαθὰν
 126	χρῆναί σʼ· ἀνάλγητα γὰρ οὐδʼ ὁ πάντα κραίνων βασιλεὺς ἐπέβαλε θνατοῖς Κρονίδας·
 --- apparatus
 114	κύματʼ ἂν εὐρέϊ Porson and Wakefield: κυμάτʼ ἐν εὐρέϊ Erfurdt: κύματʼ εὐρέϊ MSS. (κύματα εὐρέϊ Triclinius): εὐρέϊ κύματα Brunck.
@@ -92,17 +98,20 @@
 127	apparatus 127 (ἀνάλγητα) refers to our 126.
 128	apparatus 128 (ἐπέβαλε) refers to our 126.
 122	rev: apparatus 122: ἁδεῖα MSS., with a rough breathing (the same shape as in ἁδεῖα and ἡδύς in Jebb's note on 122, opposite to the smooth breathings of ἀνάλγητα, ἀνάλλακτα in this apparatus), as printed (settled against enlarged crops, 2026-11-15)
+114	rev: numbering: was 115: κύματʼ … ἴδοι is Jebb's 114 and covers 115, which the margin prints beside it (his notes 114 κύματʼ ἂν εὐρέϊ, 115 ἐπιόντα τʼ ἴδοι); πολλὰ γὰρ … τις is 112-113 (note 113 βορέα)
+119	rev: numbering: was 120: Κρήσιον … ἐρύκει is Jebb's 119 and covers 120-121 (the margin 120 at its turnover; his commentary 119 ἀλλά, notes 120 ἀναμπλάκητον, 121 ἐρύκει); the strophe is 112-121 (his introductory note)
+124	rev: numbering: was 125: φαμὶ γὰρ … ἀγαθὰν is Jebb's 124 and covers 125, which the margin prints beside it (his commentary 124 γὰρ; ὧν ἐπιμεμφομένα … is 122-123, commentary 123 αἰδοῖα)
 
 === p-0098
 --- text
-130	ἀλλʼ ἐπὶ πῆμα καὶ χαρὰ πᾶσι κυκλοῦσιν, οἷον ἄρκτου στροφάδες κέλευθοι.
+129	ἀλλʼ ἐπὶ πῆμα καὶ χαρὰ πᾶσι κυκλοῦσιν, οἷον ἄρκτου στροφάδες κέλευθοι.
 131	μένει γὰρ οὔτʼ αἰόλα
 132	νὺξ βροτοῖσιν οὔτε κῆρες
 133	οὔτε πλοῦτος, ἀλλʼ ἄφαρ
 134	βέβακε, τῷ δʼ ἐπέρχεται
 135	χαίρειν τε καὶ στέρεσθαι.
-136	ἃ καὶ σὲ τὰν ἄνασσαν ἐλπίσιν λέγω
-137	τάδʼ αἰὲν ἴσχειν· ἐπεὶ τίς ὧδε
+137	ἃ καὶ σὲ τὰν ἄνασσαν ἐλπίσιν λέγω
+139	τάδʼ αἰὲν ἴσχειν· ἐπεὶ τίς ὧδε
 140	τέκνοισι Ζῆνʼ ἄβουλον εἶδεν;
 @ Δηιάνειρα
 141	πεπυσμένη μέν, ὡς ἀπεικάσαι, πάρει
@@ -122,6 +131,9 @@
 132	ἆμαρ: the breathing under the circumflex is small on the scan; read as smooth (the Doric form of ἦμαρ).
 139	apparatus 139 (τάδʼ αἰὲν) is Jebb's number for our 137 (Jebb counts 136-137 and 138-139 for the two verses after 135; the draft has 136, 137, following Perseus; the margins 135 and 140 agree).
 140	Jebb prints no dash between the two remarks of this note ("τέκνοισιν L. ἄβουλον]"); copied as printed.
+129	rev: numbering: was 130: ἀλλʼ ἐπὶ πῆμα … κέλευθοι is Jebb's 129 and covers 130, which the margin prints at its turnover (his notes 129 πῆμα καὶ χαρὰ, 130 οἷον; commentary 129 ἐπὶ … κυκλοῦσιν)
+137	rev: numbering: was 136: ἃ καὶ σὲ … λέγω is Jebb's 137 and covers 138 (his commentary 137 ἃ); χαίρειν τε καὶ στέρεσθαι keeps the margin 135, so it covers 136
+139	rev: numbering: was 137: τάδʼ αἰὲν ἴσχειν … ὧδε is Jebb's 139 (his note 139 τάδʼ αἰὲν); τέκνοισι … εἶδεν; bears the margin 140. μένει γὰρ … stays 131 for the margin 135, though Jebb's note 132 (οὔτʼ αἰόλα νὺξ) begins in it and his introductory note gives the epode as 132-140
 
 === p-0100
 --- text

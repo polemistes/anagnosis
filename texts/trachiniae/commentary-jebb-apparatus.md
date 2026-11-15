@@ -160,10 +160,10 @@ L divides the vv. thus:—ὃν— | τίκτει — | ἅλιον· ἅλιο�
 ## 97
 τοῦτο r: τούτωι L.—**καρῦξαι**] κᾱρύξαι L.
 
-## 98
-πόθι μοι πόθι μοι παῖσ L, with most MSS.: πόθι μοι πόθι παῖς T (with Triclinius). πόθι μοι πόθι μοι (omitting παῖς), Wunder. Schneidewin conj. πόθι μοι πόθι γᾶς.
+[98] πόθι μοι πόθι μοι παῖσ L, with most MSS.: πόθι μοι πόθι παῖς T (with Triclinius). πόθι μοι πόθι μοι (omitting παῖς), Wunder. Schneidewin conj. πόθι μοι πόθι γᾶς.
 
-[99] λαμπρᾶι στεροπᾶι made by S from λαμπρὰ στεροπὰ in L.
+## 99
+λαμπρᾶι στεροπᾶι made by S from λαμπρὰ στεροπὰ in L.
 
 ## 100
 ποντίασ L (with ου written over α by first hand): ποντίους A, with most of the other MSS.—δισσαῖσιν ἀπείροις Erfurdt. The MSS. have δισσαῖσιν ἀπείροισιν (L), δισσαῖσιν ἀπείροισι (A, Ald.), or δισσαῖς ἀπείροις (T).
@@ -174,31 +174,33 @@ L divides the vv. thus:—ὃν— | τίκτει — | ἅλιον· ἅλιο�
 ## 103
 **ποθουμένᾳ**] Nauck conj. πόθου πλέᾳ: Musgrave, πονουμένᾳ: Meineke, πτοουμένᾳ: O. Hense, φοβουμένᾳ.
 
-[104] τὰν] τᾱν (not τᾶν) L.
+## 104
+**τὰν**] τᾱν (not τᾶν) L.
 
-## 107
-[108] τρέφουσαν Casaubon: φέρουσαν MSS.
+## 108
+τρέφουσαν Casaubon: φέρουσαν MSS.
 
-[109] εὐναῖς] εὐναῖς τʼ Triclinius.
+## 109
+**εὐναῖς**] εὐναῖς τʼ Triclinius.
 
-## 112-120
+## 112-119
 L divides the vv. thus:—πολλὰ — | ἢ νότου — | κύματʼ — | βάντʼ— | οὕτω — | τρέφει — | πολύπονον — | κρήσιον — | αἰὲν — | σφε—ἐρύκει.—O. Hense, whom Nauck follows, places vv. 112—121 after vv. 122—131.
 
 ## 112
 [113] βορέα L: βορέου r.
 
-[114] κύματʼ ἂν εὐρέϊ Porson and Wakefield: κυμάτʼ ἐν εὐρέϊ Erfurdt: κύματʼ εὐρέϊ MSS. (κύματα εὐρέϊ Triclinius): εὐρέϊ κύματα Brunck.
+## 114
+κύματʼ ἂν εὐρέϊ Porson and Wakefield: κυμάτʼ ἐν εὐρέϊ Erfurdt: κύματʼ εὐρέϊ MSS. (κύματα εὐρέϊ Triclinius): εὐρέϊ κύματα Brunck.
 
-## 115
-ἐπιόντα τʼ ἴδοι MSS. For ἴδοι, Erfurdt gave ἴδῃ. ἐπιόντʼ ἂν ἴδοι Zippmann (with ἐν εὐρέϊ in v. 114), and so Subkoff: ἐπιόντʼ ἂν ἴδοις Hense, with ἢ βορέα του (instead of τις) in 113.
+[115] ἐπιόντα τʼ ἴδοι MSS. For ἴδοι, Erfurdt gave ἴδῃ. ἐπιόντʼ ἂν ἴδοι Zippmann (with ἐν εὐρέϊ in v. 114), and so Subkoff: ἐπιόντʼ ἂν ἴδοις Hense, with ἢ βορέα του (instead of τις) in 113.
 
 ## 116
 [117] στρέφει Reiske: τρέφει MSS. In B and Lc the gloss τὸ μὲν precedes τρέφει.—**τὸ δʼ**] τόδʼ B, T.—αὔξει made from ἄξει by S in L.
 
 [118] ὥσπερ A: ὥστε L.
 
-## 120
-**ἀναμπλάκητον**] ἀπλάκητον L (and so Hesych., ἀπλάκητον, ἀναμάρτητον). But the schol. in L has the true ἀναμπλάκητον, in which μ, having been accidentally omitted, is written over π,—thus illustrating the origin of ἀπλάκητον.—**Ἅιδα**] ἀΐδα L, A, etc.: αἵδα B.
+## 119
+[120] ἀναμπλάκητον] ἀπλάκητον L (and so Hesych., ἀπλάκητον, ἀναμάρτητον). But the schol. in L has the true ἀναμπλάκητον, in which μ, having been accidentally omitted, is written over π,—thus illustrating the origin of ἀπλάκητον.—**Ἅιδα**] ἀΐδα L, A, etc.: αἵδα B.
 
 [121] ἐρύκει] ἐρύκοι T.
 
@@ -210,10 +212,10 @@ L divides the vv. thus:—πολλὰ — | ἢ νότου — | κύματʼ �
 
 [128] ἐπέβαλε r: ἐπέβαλλε L.
 
-[129] πῆμα καὶ χαρὰ made from πήματι καὶ χαρᾶι in L. For χαρὰ Hermann wrote χαρὰν.
+## 129
+πῆμα καὶ χαρὰ made from πήματι καὶ χαρᾶι in L. For χαρὰ Hermann wrote χαρὰν.
 
-## 130
-**οἷον**] Nauck writes αἰὲν.
+[130] οἷον] Nauck writes αἰὲν.
 
 ## 132
 **οὔτʼ αἰόλα νὺξ**] Meineke conj. **οὔτʼ ἆμαρ οὔτε [? οὐ**] νὺξ.
@@ -221,8 +223,8 @@ L divides the vv. thus:—πολλὰ — | ἢ νότου — | κύματʼ �
 ## 134
 βέβακε r: βέβηκε L.
 
-## 137
-[139] τάδʼ αἰὲν] Hense conj. κεδναῖσιν.
+## 139
+**τάδʼ αἰὲν**] Hense conj. κεδναῖσιν.
 
 ## 140
 **τέκνοισι**] τέκνοισιν L. **ἄβουλον**] Wecklein conj. ἀγνώμονʼ.
@@ -359,7 +361,7 @@ L divides the vv. thus:— ἀνολολύξετε — | ἀλαλαῖσ—κο
 ## 210
 **παιᾶνα παιᾶνʼ**] παιᾶνα παιᾶνα MSS.
 
-## 212
+## 213
 [214] After Ὀρτυγίαν Dindorf inserts θεὰν: Wecklein (Ars Soph. em. p. 33) and Blaydes suggest τὰν.
 
 ## 216
@@ -1044,17 +1046,16 @@ Nauck would place these nine verses immediately after 615, thinking that Deianei
 ## 632
 **τἀκεῖθεν**] τὰ κεῖθεν L. Schneidewin conj. κακεῖθεν.
 
-## 633-638
+## 633-639
 L divides the vv. thus:—ὦ ναύλοχα — | θερμὰ — | οἴτασ — | μηλίδα— | χρυσαλακάτου— | ἔνθʼ— | πυλάτιδεσ κλέονται.
 
 ## 635
 παραναιετάοντες L (παράναιετάοντεσ), A, etc.: περιναιετάοντες r (with παρα written above in B and T).—μέσσαν L: μέσαν r, and Ald.
 
-## 636
-πὰρ T (Triclinius): παρὰ the other MSS. (παραλίμναν L).
+[636] πὰρ T (Triclinius): παρὰ the other MSS. (παραλίμναν L).
 
-## 638
-[639] κλέονται Musgrave: καλέονται MSS.: καλεῦνται Bergk (as formerly Hermann).
+## 639
+κλέονται Musgrave: καλέονται MSS.: καλεῦνται Bergk (as formerly Hermann).
 
 ## 641
 **ἀναρσίαν**] ἀρνασίαν Ald. (a mere misprint).
@@ -1062,8 +1063,8 @@ L divides the vv. thus:—ὦ ναύλοχα — | θερμὰ — | οἴτασ
 ## 642
 ἀχῶν Elmsley: ἰάχων L, with most MSS.: ἰαχῶν r.
 
-## 643
-[644] Ἀλκμήνας κόρος] ἀλκμήνας τε κόρος MSS. (κοῦρος A, and Ald.). Triclinius deleted τε. Hartung writes Ἀλκμήνας τε παῖς: Wecklein (whom Nauck follows), ἀλκαῖος κόρος: Subkoff, ἄλκιμος κόρος.
+## 644
+**Ἀλκμήνας κόρος**] ἀλκμήνας τε κόρος MSS. (κοῦρος A, and Ald.). Triclinius deleted τε. Hartung writes Ἀλκμήνας τε παῖς: Wecklein (whom Nauck follows), ἀλκαῖος κόρος: Subkoff, ἄλκιμος κόρος.
 
 ## 645
 σοῦται Blomfield and Elmsley: σεῦται MSS.
@@ -1680,8 +1681,8 @@ L divides each of these five hexameters into two shorter verses. The first hexam
 ## 1013
 οὐκ ἐπιτρέψει V² (as corrected), Vat.: οὐκ ἀποτρέψει L, with most MSS., and Ald.—Wecklein writes ἀντιπαρέξει: Nauck conj. οὐδὲν ὀρέξει (Fröhlich ὀρέξαι): Blaydes, οὐ χέρα τρέψει (but in the text he has τρέψαι).
 
-## 1016
-**κρᾶτα**] Wecklein writes σάρκα.—βίᾳ Wakefield: βίου MSS.
+## 1015
+[1016] κρᾶτα] Wecklein writes σάρκα.—βίᾳ Wakefield: βίου MSS.
 
 ## 1018-1022
 L divides the first hexameter after ἀνδρὸσ: the second, after ῥώμαν: the third, after ἐμοῦ: the fourth, after ὀδύναν: the fifth, after ἐξανύσαι. Further, σωίζειν stands in a line by itself. Thus the five vv. form eleven lines.
@@ -1698,8 +1699,8 @@ L divides the first hexameter after ἀνδρὸσ: the second, after ῥώμα�
 ## 1023
 ὦ παῖ Seidler (and so, acc. to Subkoff, L²): ὦ παῖ παῖ L, with most MSS., and Ald.: ὦ παῖ ὦ παῖ R: παῖ παῖ Hermann (omitting ὦ). Nauck conj. ὦ γόνε (=1041 ὦ Διὸς).
 
-## 1026
-**ἒ ἒ ἰὼ**] ἐ ἔ | ἰὼ ἰὼ L. Dindorf writes αἰαῖ, ἰὼ (the second ἰὼ is wanting in K, Harl., etc.).
+## 1025
+[1026] ἒ ἒ ἰὼ] ἐ ἔ | ἰὼ ἰὼ L. Dindorf writes αἰαῖ, ἰὼ (the second ἰὼ is wanting in K, Harl., etc.).
 
 ## 1027-1042
 L divides the vv. thus:—θρώισκει— | δειλαία— | ἀποτίβατοσ— | νόσοσ— | τόδε μʼ αὖ— | τὸν φύσαντʼ— | ἀνεπίφθονον— | παῖσον—κληϊ-|δοσ— | σὰ μάτηρ— | ἃν ὧδʼ— | αὔτωσ— | ὦ διὸσ— | ὦ γλυκὺσ— | εὔνασόν μʼ— | ὠκυπέτα— | τὸν μέλεον φθίσασ.
@@ -1716,7 +1717,8 @@ L divides the vv. thus:—θρώισκει— | δειλαία— | ἀποτί�
 ## 1036
 [1038] τὰν Seidler and Erfurdt: ἃν MSS. (ἣν B).
 
-[1039] ὦ γλυκὺς Ἅιδας, | ὦ Διὸς αὐθαίμων Seidler. ὦ Διὸς αὐθαίμων, | ὦ γλυκὺς Ἀΐδας MSS. In L the words ὦ διὸσ αὐθαίμων, which had been omitted from the text, have been added (by the first hand, not by S) in the right-hand marg., in line with ὤλεσεν: they were meant to form a verse preceding ὦ γλυκὺσ ἀΐδασ.
+## 1039
+ὦ γλυκὺς Ἅιδας, | ὦ Διὸς αὐθαίμων Seidler. ὦ Διὸς αὐθαίμων, | ὦ γλυκὺς Ἀΐδας MSS. In L the words ὦ διὸσ αὐθαίμων, which had been omitted from the text, have been added (by the first hand, not by S) in the right-hand marg., in line with ὤλεσεν: they were meant to form a verse preceding ὦ γλυκὺσ ἀΐδασ.
 
 ## 1041
 εὔνασον εὔνασον Turnebus, after Triclinius: εὔνασόν μʼ εὔνασον L, with most MSS., and Ald.

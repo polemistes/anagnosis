@@ -206,13 +206,13 @@
 1014	οὐ πῦρ, οὐκ ἔγχος τις ὀνήσιμον οὐκ ἐπιτρέψει;
 1014a	ἒ ἔ,
 1015	οὐδʼ ἀπαράξαι κρᾶτα βίᾳ θέλει
-1016	μολὼν τοῦ στυγεροῦ; φεῦ φεῦ.
+1017	μολὼν τοῦ στυγεροῦ; φεῦ φεῦ.
 @ Πρέσβυς
-1017	ὦ παῖ τοῦδʼ ἀνδρός, τοὔργον τόδε μεῖζον ἀνήκει
-1018	ἢ κατʼ ἐμὰν ῥώμαν, σὺ δὲ σύλλαβε, σοὶ γὰρ ἑτοίμα
-1019	ἐς πλέον ἢ διʼ ἐμοῦ σῴζειν.
+1018	ὦ παῖ τοῦδʼ ἀνδρός, τοὔργον τόδε μεῖζον ἀνήκει
+1019	ἢ κατʼ ἐμὰν ῥώμαν, σὺ δὲ σύλλαβε, σοὶ γὰρ ἑτοίμα
+1020	ἐς πλέον ἢ διʼ ἐμοῦ σῴζειν.
 @ Ὕλλος
-1020	ψαύω μὲν ἔγωγε,
+1020a	ψαύω μὲν ἔγωγε,
 --- apparatus
 1010-1014	L divides each of these five hexameters into two shorter verses. The first hexameter is divided after τὸ τὸ τοῖ: the second, after ἑλλάνων: the third, after πόντωι: the fourth, after τάλασ: the fifth, after ἔγχοσ.
 1010	τοτοτοῖ appears also as τοτοτοί, ὀττοτοί or ὀττο τοῖ, τὸ τὸ τοῖ (L), and τοῦτό τοι (R, etc.), which last is the reading of Ald., retained even by Brunck. Triclinius, omitting τοτοτοῖ, wrote ἧπταί μου ⟨νόσος⟩· ἡ δʼ αὖθʼ ἕρπει· ⟨ποῦ⟩ πόθεν ἔστʼ, ὦ.—ἥδʼ MSS.: ἡ δʼ Schaefer.—πόθεν] Köchly conj. πόθι δʼ.
@@ -234,3 +234,9 @@
 1020	ΥΛ. stands inside the printed line before ψαύω: split confirmed (@ Ὕλλος). The six "printed lines that matched no Perseus words" after this verse are the apparatus (OCR noise); nothing added.
 1013	app.: Jebb numbers the note on οὐκ ἐπιτρέψει 1013 (our 1014) and the note on κρᾶτα and βίᾳ 1016 (our 1015); the printed numbers are kept. τοτο-|τοῖ and the 1013 note (from the foot of leaf 222 to leaf 223) run over lines; written whole.
 1018-1022	app.: the note names verses that run on to the next page; filed under 1018-1022 as printed. L's σωίζειν (with ι on the line) and ἀνδρὸσ copied as printed.
+1017	rev: numbering: was 1016: οὐδʼ ἀπαράξαι … θέλει bears the margin 1015 and covers 1016 (Jebb's note 1016 κρᾶτα), so μολὼν … φεῦ φεῦ. is his 1017, the end of the antistrophe 1015-1017 (his introductory note)
+1016	rev: numbering: apparatus 1016 (κρᾶτα) names a number that 1015 covers (οὐδʼ ἀπαράξαι κρᾶτα …); kept as printed, filed under 1015 by the merge
+1018	rev: numbering: was 1017: ὦ παῖ τοῦδʼ ἀνδρός … is Jebb's 1018, the first of the five hexameters 1018-1022 (his introductory note; apparatus 1018 ἀνήκει, commentary 1018 τοὔργον τόδε)
+1019	rev: numbering: was 1018: ἢ κατʼ ἐμὰν ῥώμαν … is Jebb's 1019 (his apparatus 1019 σὺ δὲ, commentary 1019 ἢ κατʼ ἐμὰν ῥώμαν)
+1020	rev: numbering: was 1019: ἐς πλέον … σῴζειν. ΥΛ. ψαύω μὲν ἔγωγε, is one printed hexameter, Jebb's 1020, with the margin 1020 at its end
+1020a	rev: numbering: was 1020: ψαύω μὲν ἔγωγε, is the end of the hexameter 1020 after the change of speaker: lettered

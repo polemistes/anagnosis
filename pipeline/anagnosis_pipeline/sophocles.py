@@ -541,8 +541,10 @@ def write_prose(slug: str, sources: Path, texts: Path, transcriptions: Path, ind
     (transcriptions/drama/<slug>/intro-NN.md, appendix-NN.md) texts/<slug>/introduction.md (the
     chapters from Perseus, made afresh from sources/jebb-<slug>-commentary.xml as import-sophocles
     makes them, then the transcribed chapters) and texts/<slug>/appendix.md (as
-    merge-sophocles-appendix). Nothing else in texts/<slug>/ is touched; a kind whose batches are
-    not all checked is left alone. Safe to run again. Returns the number of kinds left alone."""
+    merge-sophocles-appendix); a kind whose batches are not all checked is left alone. Then
+    Jebb's commentary from Perseus (commentary-jebb.md) made afresh (write_commentary) and its notes
+    on lines our numbering lacks re-filed (refile_commentary). Nothing else in texts/<slug>/ is
+    touched. Safe to run again. Returns the number of kinds left alone."""
     import os
 
     from .introduction import import_introduction
@@ -575,19 +577,58 @@ def write_prose(slug: str, sources: Path, texts: Path, transcriptions: Path, ind
         tmp.unlink(missing_ok=True)
         commentary = sources / sources_for(play)["commentary"]
         if play.commentary and commentary.exists():
-            edition = (f"Sophocles: The Plays and Fragments, {PART_ROMAN[play.part]}: The {play.title_en}, ed. R. C. Jebb, "
-                       f"Cambridge University Press, {play.edition}")
-            source = f"Perseus Digital Library, jebb.soph.{play.code}_eng.xml ({edition})"
             n = import_introduction(commentary, tmp, {
-                "title": "Introduction", "author": "Richard C. Jebb", "source": source, "license": "CC BY-SA 3.0 US"})
+                "title": "Introduction", "author": "Richard C. Jebb", "source": perseus_source(play),
+                "license": "CC BY-SA 3.0 US"})
             if not n:
                 tmp.unlink()  # Perseus lacks this play's introduction (the Oedipus Tyrannus)
             else:
                 print(f"{slug}: {n} sections of the introduction from Perseus")
         add_transcribed_introduction(tmp, transcriptions, play, paras=paras, how=PROSE_HOW)
         os.replace(tmp, path)
+    write_commentary(slug, sources, texts)
     refile_commentary(out)
     return skipped
+
+
+def perseus_source(play: Play) -> str:
+    """The source line of the documents made from Perseus's commentary file (import_play)."""
+    edition = (f"Sophocles: The Plays and Fragments, {PART_ROMAN[play.part]}: The {play.title_en}, ed. R. C. Jebb, "
+               f"Cambridge University Press, {play.edition}")
+    return f"Perseus Digital Library, jebb.soph.{play.code}_eng.xml ({edition})"
+
+
+def write_commentary(slug: str, sources: Path, texts: Path) -> int:
+    """texts/<slug>/commentary-jebb.md afresh from sources/jebb-<slug>-commentary.xml, with the
+    header import_play gives it, and the metrical schemes Perseus writes with breves and macrons
+    (¯˘˘¯) in metrical signs (–⏑⏑–), as in the files of the plays made earlier. Run by
+    sophocles-prose before refile_commentary re-files the notes on lines our numbering lacks, so
+    a change of the numbering or of the importer reaches the file; safe to run again. Returns the
+    number of notes (0 when Perseus has no commentary for the play: the file is left alone)."""
+    import os
+
+    from .commentary import import_jebb_commentary
+    from .lexicon import _METRE, _METRE_SIGNS
+
+    play = PLAYS[slug]
+    src = sources / sources_for(play)["commentary"]
+    if not play.commentary or not src.exists():
+        return 0
+    path = texts / slug / "commentary-jebb.md"
+    tmp = path.with_name(path.name + ".part")
+    try:
+        n = import_jebb_commentary(src, tmp, {
+            "title": f"Commentary on Sophocles: {play.title_en}", "author": "Richard C. Jebb", "lang": "eng",
+            "source": perseus_source(play), "license": "CC BY-SA 3.0 US"})
+    except SystemExit as e:  # the file holds no commentary
+        tmp.unlink(missing_ok=True)
+        print(f"{src.name}: {e}; {path.name} left as it is")
+        return 0
+    text = tmp.read_text(encoding="utf-8")
+    tmp.write_text(_METRE.sub(lambda m: m.group(1).translate(_METRE_SIGNS), text), encoding="utf-8")
+    os.replace(tmp, path)
+    print(f"wrote {path}: {n} notes from Perseus")
+    return n
 
 
 # Perseus's commentary: notes whose printed heading (and the first word of the lemma) Perseus lost,
@@ -736,3 +777,113 @@ def refile_commentary(work_dir: Path) -> list[str]:
         print(m)
     print(f"{path}: {len(moves)} notes on lines our numbering lacks re-filed")
     return moves
+
+
+# ---------------------------------------------------------------- numbering check (sophocles-numbering)
+
+_APP_LEMMA = re.compile(r"^(?:\[[^\]]+\]\s*)?\*\*([^*]+)\*\*")
+_APP_PRINTED = re.compile(r"^\[(\d+[a-z]?(?:-\d+[a-z]?)?)\]\s")
+
+
+def _letters(s: str) -> str:
+    """The letters of a text, accents, breathings, case and spaces ignored; an iota subscript
+    counts as an iota (the apparatus quotes L's λαμπρᾶι for the text's λαμπρᾷ)."""
+    from .drama import skel
+
+    return "".join(skel(w, adscript=True) for w, _s, _e in greek.words(s))
+
+
+def numbering_suspects(lines: list[tuple[str, str]], apparatus: str, reach: int = 3) -> list[dict]:
+    """Where our verse numbers may not be Jebb's (lyric verses his longer verse covers, numbered
+    on from the last margin number): from grc.txt's verses (`lines`: (number, verse) in order)
+    and the merged apparatus (commentary-jebb-apparatus.md text). A note's lemma stands in the
+    verse that bears the note's number, so two kinds are listed:
+      * "lemma": a note whose bold lemma (`**…**` at its start, up to the first `...`, `…` or
+        `|`) is not in the verse it is filed under but in a verse within `reach` lines of it;
+      * "printed": a note whose printed number was kept in front (`[99] …`) because our
+        numbering lacks it.
+    Each item: kind, note (the note's number), lemma, filed (the number it is filed under),
+    found (the number of the verse that holds the lemma, or None), context (the verses from
+    `reach` lines before to `reach` after, as (number, verse))."""
+    numbers = [n for n, _t in lines]
+    index = {n: i for i, n in enumerate(numbers)}
+    letters = [_letters(t) for _n, t in lines]
+    out: list[dict] = []
+    heading = None
+    for para in re.split(r"\n\s*\n", apparatus):
+        para = para.strip()
+        m = re.match(r"^## (\S+)(?:[ \t]+ff?\.)?[ \t]*(?:\n(.*))?$", para, re.S)
+        if m:
+            heading, para = m.group(1), (m.group(2) or "").strip()
+        elif para.startswith("#") or heading is None:
+            continue
+        if not para:
+            continue
+        filed = heading.split("-")[0]
+        if filed not in index:
+            continue
+        i = index[filed]
+        pm = _APP_PRINTED.match(para)
+        note = pm.group(1) if pm else heading
+        lm = _APP_LEMMA.match(para)
+        lemma = re.split(r"\.\.\.|…|\|", lm.group(1))[0].strip() if lm else ""
+        key = _letters(lemma)
+        near = range(max(0, i - reach), min(len(lines), i + reach + 1))
+        found = None
+        if key:
+            hits = [j for j in near if key in letters[j]]
+            found = numbers[min(hits, key=lambda j: (abs(j - i), j))] if hits else None
+        context = [lines[j] for j in near]
+        if key and key not in letters[i] and found:
+            out.append({"kind": "lemma", "note": note, "lemma": lemma, "filed": filed, "found": found, "context": context})
+        elif pm:
+            if not key:
+                # no bold lemma: the words before a "]", else the first two Greek words
+                rest = para[len(pm.group(0)):]
+                bm = re.match(r"^([^\]:]{1,60})\]", rest)
+                if bm:
+                    lemma = bm.group(1).strip()
+                else:
+                    run = []
+                    for w, _s, _e in greek.words(rest):
+                        if not re.search(r"[\u0370-\u03ff\u1f00-\u1fff]", w) or len(run) == 2:
+                            break
+                        run.append(w)
+                    lemma = " ".join(run)
+                key = _letters(lemma)
+                hits = [j for j in near if key and key in letters[j]]
+                found = numbers[min(hits, key=lambda j: (abs(j - i), j))] if hits else None
+            out.append({"kind": "printed", "note": note, "lemma": lemma, "filed": filed, "found": found,
+                        "context": context})
+    return out
+
+
+def report_numbering(work_dir: Path, reach: int = 3) -> int:
+    """sophocles-numbering: print numbering_suspects for texts/<slug>/ from the apparatus
+    (commentary-jebb-apparatus.md); returns how many. (Jebb's commentary from Perseus is not
+    scanned: Perseus drops the "f." of its headings, so a note on two verses whose lemma stands in
+    the second would be listed everywhere; look at its numbers by hand in a suspect stretch.)"""
+    from .textfmt import parse_file
+
+    grc, app = work_dir / "grc.txt", work_dir / "commentary-jebb-apparatus.md"
+    if not grc.exists() or not app.exists():
+        print(f"{work_dir}: no grc.txt or commentary-jebb-apparatus.md")
+        return 0
+    lines = [(l.n, l.text) for l in parse_file(grc).lines]
+    total = 0
+    for path in (app,):
+        label = "apparatus"
+        items = numbering_suspects(lines, path.read_text(encoding="utf-8"), reach)
+        for it in items:
+            what = ("the lemma is not in the verse it is filed under" if it["kind"] == "lemma"
+                    else "printed number kept in front: our numbering lacks it")
+            where = f"; the lemma stands in {it['found']}" if it["found"] else ""
+            print(f"{label} note {it['note']} ({it['lemma']}): filed under {it['filed']}{where} [{what}]")
+            for n, t in it["context"]:
+                mark = ">" if n == it["filed"] else ("*" if n == it["found"] else " ")
+                print(f"  {mark} {n}\t{t}")
+        lem = sum(1 for it in items if it["kind"] == "lemma")
+        print(f"{work_dir.name} {label}: {lem} notes whose lemma stands in another verse, "
+              f"{len(items) - lem} notes with the printed number in front")
+        total += len(items)
+    return total

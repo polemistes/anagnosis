@@ -122,6 +122,28 @@ class WriteProse(unittest.TestCase):
         for name, kept in self.kept.items():
             self.assertEqual((self.texts / "trachiniae" / name).read_text(encoding="utf-8"), kept)
 
+    def test_commentary_made_afresh_and_refiled(self):
+        # Perseus's commentary: spaces at tag boundaries, metrical schemes in signs, notes on lines
+        # our numbering lacks re-filed; a second run gives the same file
+        xml = PERSEUS.replace("</body>", """<div1 type="commentary"><div2><head>94-140</head><p>Parodos.</p>
+<div3 n="97" type="commLine"><p><lemma lang="greek">tou=to</lemma>: cp. <bibl n="Hom. Il. 18.126"><title>Il.</title>18. 126</bibl><quote lang="greek">mhde/</quote>, &macr;&breve;&breve;&macr;.</p></div3>
+<div3 n="99" type="commLine"><p><lemma lang="greek">w)= lampra=|</lemma>, as below.</p></div3>
+</div2></div1></body>""")
+        (self.sources / "jebb-trachiniae-commentary.xml").write_text(xml, encoding="utf-8")
+        (self.texts / "trachiniae" / "grc.txt").write_text(
+            "# title: Τραχίνιαι\n\n97\tτοῦτο καρῦξαι, τὸν Ἀλκμήνας πόθι μοι πόθι παῖς\n"
+            "98\tναίει ποτʼ, ὦ λαμπρᾷ στεροπᾷ φλεγέθων,\n", encoding="utf-8")
+        write_prose("trachiniae", self.sources, self.texts, self.tr)
+        path = self.texts / "trachiniae" / "commentary-jebb.md"
+        text = path.read_text(encoding="utf-8")
+        self.assertTrue(text.startswith("# title: Commentary on Sophocles: Trachiniae\n# author: Richard C. Jebb\n"
+                                        "# lang: eng\n# source: Perseus Digital Library, jebb.soph.trach_eng.xml"))
+        self.assertIn("## 97\n**τοῦτο**: cp. *Il.* 18. 126 μηδέ, –⏑⏑–.\n", text)
+        self.assertIn("## 98\n[99] **ὦ λαμπρᾷ**, as below.\n", text)
+        write_prose("trachiniae", self.sources, self.texts, self.tr)
+        self.assertEqual(path.read_text(encoding="utf-8"), text)
+        self.assertFalse(path.with_name(path.name + ".part").exists())
+
     def test_introduction_without_perseus_chapters(self):
         write_prose("trachiniae", self.sources, self.texts, self.tr)
         text = (self.texts / "trachiniae" / "introduction.md").read_text(encoding="utf-8")
