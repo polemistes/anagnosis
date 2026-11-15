@@ -330,9 +330,10 @@ The metrical analyses are not transcribed (as for Ajax and Electra).
   commentary as a hairline: `_rule_hairline` in drama_pages.py (agrees with the other
   detectors on all 264 leaves, finds the rule where they missed it; leaf 225 has none). Draft
   made again: 132 pages, 1,801 verses, 396 flagged (22 %), 22 batches, committed (8525ba7).
-  Its first pass may start only when the Oedipus Tyrannus is finished: on 2026-11-15 a start
-  beside the Oedipus Tyrannus's finishing agent was refused as against "play by play".
-  The Philoctetes (first pass half done) comes after it.
+  A start beside the Oedipus Tyrannus's finishing agent was first refused as against "play by
+  play"; the author then allowed it ("Do it."): **the next play's first pass may overlap the
+  previous play's finishing steps, within ten agents; no more than that.** First pass started
+  2026-11-15 (22 batches, nine at once). The Philoctetes (first pass half done) comes after it.
 
 ## Decisions
 
