@@ -100,6 +100,32 @@ The metrical analyses are not transcribed (as for Ajax and Electra).
   `commentary-jebb.md` or `introduction.md` unless prose batches exist (drama.py lines
   ~1340–1360 write them only then: check); the `source` line of grc.txt names the check text.
 
+* **2026-11-15, set-up item 3 done for both plays; Trachiniae item 4 running.** The first
+  draft showed Jebb's page read wrongly; fixed in drama_pages.py / drama.py (commit "Drama
+  pipeline for Jebb's Sophocles", tests in tests/test_drama.py): `app_rule="under"` (the
+  apparatus is the small type above the commentary's one rule, found by the line pitch of the
+  commentary), `_rule_sloping` (a rule askew or thin), `GREY_GROUND` + `whiten` (the Boston
+  College scans photograph grey paper; the module's ink tests want white: **add
+  `sophocles02soph_0`, the Oedipus at Colonus, to GREY_GROUND if its pages are grey**),
+  `head_frac=0.095`, `speaker_trust=True`, `app_langs=("eng+grc", "grc+eng")`. Drafts:
+  Trachiniae 89 pages, 1,242 verses, 150 flagged (12 %), 15 batches; Oedipus Tyrannus 96 pages,
+  1,482 verses, 287 flagged (19 %), 16 batches (its last page, leaf 300, has no verses in the
+  draft and leaves 163, 217 no apparatus crop: look before sending agents). INSTRUCTIONS-text.md
+  has a section "Jebb's Sophocles". The workflow script is
+  `transcriptions/drama/drama-text.workflow.js` (args in its header). **Trachiniae text
+  batches 01–15 were started** (Opus, eight at once). When they are back: checker on every
+  file, commit, `drama-residuals trachiniae` and its pass (RESIDUALS.md), then item 5.
+* **The comparison the author asked for (2026-11-15)**: "how much better/worse the two ways of
+  reading are". Material: the by-eye batches `transcriptions/sophocles/trachiniae/batch-01…08`
+  (pages 80–143; 1.34 M agent tokens for 64 pages, 10 agents incl. two test agents) against
+  the OCR route's batches 01–06 for the same pages (text after flags, and again after the
+  residual pass). Compare (a) the text: every difference from the check text each route
+  reports; (b) the apparatus, note by note. Every disagreement is settled on the page image by
+  an Opus agent that is not told which route said what; report per route: real differences
+  missed, errors introduced, tokens per page. The Oedipus Tyrannus has 24 by-eye pages
+  (110–133, transcriptions/sophocles/oedipustyrannus) for the same. The agents of the OCR route
+  are told not to open transcriptions/sophocles/.
+
 ## Decisions
 
 * 2026-11-15: order by least work left (Trachiniae first).
