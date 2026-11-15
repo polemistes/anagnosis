@@ -470,6 +470,25 @@ The metrical analyses are not transcribed (as for Ajax and Electra).
   page and committed after each pass), in pipeline/build (scans, OCR, drafts, residual lists,
   logs) and in this plan.
 
+* **2026-11-16, emulator check of the Oedipus at Colonus done** (with spot-checks in the two
+  sister plays; 11 GB free after the author closed programs). The app works on every point;
+  everything corrected after the earlier checks shows right in the Trachiniae and the Oedipus
+  Tyrannus. Three faults in the data, being fixed by the finishing agent: (1) section
+  boundaries follow Perseus, not Jebb (O.C. "Third episode" at 1099, Jebb 1096): the merged
+  text is to begin each of Jebb's divisions at its verse; (2) 65 "<*>" placeholders in the
+  Trachiniae's commentary from Perseus (shown as "α<>νός", breaking italics), also in the
+  published Electra (58), Ajax (12), Antigone (11); (3) two "1670— 1750" spacing slips. App
+  behaviour noted, not changed: in the Greek-and-English view the English of a lettered part
+  of a shared verse sits clipped at the foot of the page before its Greek; a margin number
+  moves to the next verse when its own line is full (by design); contents taps land a section
+  early; a name's glossary entry never shows when it has a short definition.
+* **Philoctetes**: review back (19 agents, 3.1 M, 47 corrections) and committed;
+  `merge-drama philoctetes`: 1,469 verses, 814 apparatus notes, 26 log remarks, review list
+  82, `sophocles-numbering`: 10 lemma suspects, 26 numbers in front. Running: prose check +
+  second reading of intro-01…06 and appendix-01…04 (eight at once; scratch on disk), and an
+  Opus agent setting up and measuring the commentary (kind `notes`; log
+  build/logs/philoctetes-commentary-setup.md): tell the author its size before any reading.
+
 ## Decisions
 
 * 2026-11-15: order by least work left (Trachiniae first).
