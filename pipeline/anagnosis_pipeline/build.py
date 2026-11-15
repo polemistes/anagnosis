@@ -375,17 +375,32 @@ def build_catalog(texts: Path, out_dir: Path) -> None:
     write_catalog([read_catalog_entry(d) for d in sorted(p for p in texts.iterdir() if p.is_dir() and (p / "grc.txt").exists())], out_dir)
 
 
-def write_catalog(catalog: list[dict], out_dir: Path) -> None:
+AUTHOR_CATALOG_NAME = "catalog-author.json"
+
+
+def write_catalog(catalog: list[dict], out_dir: Path, today: "datetime.date | None" = None) -> None:
+    """catalog.json, the public catalogue the reader bundles: every text but those held back by a
+    release date in the future (`# release: YYYY-MM-DD` in about.md; a private text of
+    private.PRIVATE_SLUGS never before private.PRIVATE_RELEASE); catalog-author.json, every text,
+    for the author's own builds (ignored by the public repository); <slug>.catalog.json per text."""
+    from .private import held_back, release_of
+
     # each built text's version, so that the reader knows when a downloaded text is out of date
     for entry in catalog:
         version = out_dir / f"{entry['slug']}.sqlite.version"
         if version.exists():
             entry["version"] = version.read_text(encoding="utf-8").strip()
-    (out_dir / "catalog.json").write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    public = [e for e in catalog if not held_back(e["slug"], e.get("release"), today)]
+    back = [e for e in catalog if e not in public]
+    (out_dir / "catalog.json").write_text(json.dumps(public, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    (out_dir / AUTHOR_CATALOG_NAME).write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     # each text's own entry, for the app that sells it to hand to the reader
     for entry in catalog:
         (out_dir / f"{entry['slug']}.catalog.json").write_text(json.dumps([entry], ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"wrote {out_dir / 'catalog.json'}: {len(catalog)} texts")
+    print(f"wrote {out_dir / 'catalog.json'}: {len(public)} texts"
+          + (f"; held back (only in {out_dir / AUTHOR_CATALOG_NAME}): "
+             + ", ".join(f"{e['slug']} until {release_of(e['slug'], e.get('release'))[0]}" for e in back) if back else
+             f"; {out_dir / AUTHOR_CATALOG_NAME}: the same"))
 
 
 def read_catalog_entry(work_dir: Path) -> dict:

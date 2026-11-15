@@ -80,7 +80,8 @@ when finding page ranges.
   transcribed from the scan, with its critical apparatus. The Perseus text (Smyth for Aeschylus,
   Hall-Geldart for Aristophanes, Murray for Euripides) is the **check text** that the OCR is
   matched against, as Perseus was for the Gorgias; it never ships. Murray's Euripides is
-  protected in Norway until 2028 and must not appear in texts/ in any form; the Smyth and
+  protected in Norway until 2028 and must not appear in the public repository in any form (since
+  2026-11-16 the Euripides plays are made from it in private: PLAN-euripides.md); the Smyth and
   Hall-Geldart texts may differ from the edition and so do not ship either, except that for the
   Lysistrata the edition *is* Hall-Geldart's.
 * **Not usable, ever**: Murray's Greek text and his verse translations; Jack Lindsay's
@@ -169,6 +170,8 @@ when finding page ranges.
   apparatus are Prinz-Wecklein's Teubner Medea (scan euripidisfabula01euriuoft; find the Medea's
   leaves by its title page), Earle's notes go on top, the product id becomes
   euripides_medea_wecklein, and the Decisions log records the choice with the pages looked at.
+  **Superseded 2026-11-16:** the Medea's text and apparatus now come from Murray's Oxford text by
+  pipeline/PLAN-euripides.md (private until 2028-01-01); Earle serves as its commentary.
 * **Frogs**: Tucker prints the text with the apparatus at the foot and the notes at the back
   (running heads give the line range). The Athenian Society translation is the one that
   ships; Rogers's and Tucker's are not used.
@@ -180,12 +183,16 @@ when finding page ranges.
   words and speeches as everywhere else; that stretch is simply checked by hand in the merge log.
   Sandys's 3rd edition (1892) is the text; his introduction is long (over a hundred pages) and is
   transcribed in full except the lists of editions.
+  **Superseded 2026-11-16:** the Bacchae's text and apparatus will come from Murray's Oxford text
+  by pipeline/PLAN-euripides.md; Sandys serves as its commentary and introduction.
 * **Alcestis**: Hayley prints the text with the speakers' abbreviations in the margin, the
   numbers every fifth line at the right and the critical apparatus at the foot of each page
   (English, with the sigla of his introduction); the "critical and exegetical notes" at the back,
   each under a bold line number and lemma; an introduction of about ninety pages. One volume for
   everything, as Tucker's Frogs; the scan is clean. Earle's Alcestis (1894) is the spare only
   if pages of Hayley's scan prove unusable, and then the Decisions log says which.
+  **Superseded 2026-11-16:** the Alcestis's text and apparatus will come from Murray's Oxford text
+  by pipeline/PLAN-euripides.md; Hayley serves as its commentary and introduction.
 * **Lysistrata**: the text and apparatus are Hall-Geldart's Oxford text (vol. II of the scan;
   the Perseus text is the same edition, so the check is light, as for the Gorgias). The notes
   are Rogers's, printed at the foot of his pages under the text and his verse translation

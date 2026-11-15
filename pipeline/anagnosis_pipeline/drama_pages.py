@@ -67,6 +67,8 @@ def route_dir(route: str, slug: str, scan: str) -> Path:
     d.mkdir(parents=True, exist_ok=True)
     link = d / "pages"
     target = Path("..") / ".." / "drama-scans" / scan / "pages"
+    if link.is_symlink() and os.readlink(link) != str(target):
+        link.unlink()  # the play's scan changed (the Medea: Earle's scan, then Murray's)
     if not link.exists() and not link.is_symlink():
         link.symlink_to(target)
     return d
@@ -457,6 +459,25 @@ def _block_above_rule(lines: list[dict], head: list[dict], rule: int) -> int | N
     return top
 
 
+SIGNATURE = re.compile(r"""^(?:[ΕE][ΥY]?[ΚKR]\.?|EUR\.?|[1IΙlΓ]\.?|\d{1,3}[*:"'’”]?\.?|[*:])$""")
+
+
+def _signature(l: dict, W: int, Hpage: int) -> bool:
+    """The printer's signature at the foot of a page (Murray's "EUR. I." with the sheet's number,
+    or the number alone at the right, "6*"), which is not part of the apparatus."""
+    ws = [w["text"].strip() for w in l["words"]]
+    if not ws or len(ws) > 4 or l["bbox"][1] < 0.8 * Hpage:
+        return False
+    if all(SIGNATURE.match(w) for w in ws) and any(re.match(r"^(?:[ΕE][ΥY]?[ΚKR]|EUR)", w) for w in ws):
+        return True
+    # however Tesseract reads it ("ΕὔΚ. 1. 7", "ΕὥΕ.Ὶ1: 8"; "88", "8:", "ΤῈ" for 8* and 7* alone):
+    # a few short words ending in the sheet's number far to the right, where no last line of the
+    # apparatus ends with a short word standing alone
+    last = max(l["words"], key=lambda w: w["bbox"][0])
+    return all(len(w) <= 8 for w in ws) and len(last["text"].strip()) <= 4 and last["bbox"][0] > 0.6 * W \
+        and (len(ws) == 1 or min(w["bbox"][0] for w in l["words"]) > 0.11 * W)
+
+
 def page_layout(play: Play, leaf: int, app_y: int | None = None, hocr: Path | None = None) -> dict:
     """The page's printed lines (top to bottom, each with its words and the words beside it in the
     margins), where the apparatus begins and ends, the column's edges, the line height.
@@ -481,12 +502,16 @@ def page_layout(play: Play, leaf: int, app_y: int | None = None, hocr: Path | No
     head = [l for l in lines if l["bbox"][3] < play.head_frac * Hpage]
     head_y = max((l["bbox"][3] for l in head), default=int(0.03 * Hpage))
     body = [l for l in lines if l not in head and not _noise(l)]
+    # (the signature is the page's last line: nothing of two words or more stands below it)
+    sigs = [l for l in lines if l not in head and _signature(l, W, Hpage)
+            and not any(x["bbox"][1] > l["bbox"][1] + 10 and len(x["words"]) >= 2 for x in lines)] if play.foot_signature else []
+    body = [l for l in body if l not in sigs]
     good = [l for l in body if _good(l) >= 2]
     heights = sorted(l["bbox"][3] - l["bbox"][1] for l in good) or [50]
     H = heights[len(heights) // 2]
     upper = [l for l in good if l["bbox"][1] < 0.7 * Hpage and l["x_size"] > 0] or good
     sizes = sorted(l["x_size"] for l in upper) or [H]
-    XS = sizes[len(sizes) // 2]
+    XS = sizes[len(sizes) // 2] if play.verse_size_q == 0.5 else sizes[min(len(sizes) - 1, int(play.verse_size_q * len(sizes)))]
     rule = head_rule(play, png, Hpage)
     limit = rule if rule else Hpage
     between = None
@@ -504,6 +529,25 @@ def page_layout(play: Play, leaf: int, app_y: int | None = None, hocr: Path | No
             break  # a verse
         if l["x_size"] <= 0.9 * XS or has_num:
             block.append(l)
+    if play.app_pitch_cut:
+        # Murray: the apparatus is the run of lines from the foot of the page upwards, each within
+        # the small type's pitch (about 0.8 of a verse line's height) of the line below it, or, if
+        # further (a line Tesseract missed), itself in the small type; the last verse stands a
+        # verse's pitch above it, though Tesseract may size its type as small as the apparatus's
+        # or read its margin number as an item number. Every line Tesseract found counts, those
+        # it read too badly to keep included, but not the thin rows of accents it reads apart.
+        cands = sorted((x for x in lines if x not in head and x not in sigs and x["bbox"][3] <= limit + 5
+                        and x["bbox"][3] - x["bbox"][1] >= 0.6 * H), key=lambda x: -x["bbox"][1])
+        block = cands[:1]
+        for l in cands[1:]:
+            if block[-1]["bbox"][1] - l["bbox"][1] > 1.05 * H and l["x_size"] > 0.82 * XS:
+                break
+            block.append(l)
+        if block:
+            # a last line too short for the height test ("AVB", "-mann") below the run
+            low = block[0]["bbox"][1]
+            block += [x for x in lines if x not in head and x not in sigs and x not in block
+                      and low < x["bbox"][1] <= low + 1.05 * H and x["bbox"][3] <= limit + 5]
     given_app_y = app_y
     app_y = app_end = None
     if given_app_y is not None:
@@ -519,6 +563,9 @@ def page_layout(play: Play, leaf: int, app_y: int | None = None, hocr: Path | No
         if play.app_to_foot:
             app_end = max([app_end] + [l["bbox"][3] + int(0.3 * H) for l in lines
                                        if l["bbox"][1] > app_y and l["bbox"][3] <= limit])
+        for l in sigs:  # the crop stops above the printer's signature
+            if l["bbox"][1] > app_y:
+                app_end = min(app_end, l["bbox"][1] - 4)
     text_lines = [l for l in body if (app_y is None or (l["bbox"][1] + l["bbox"][3]) / 2 < app_y)
                   and (rule is None or l["bbox"][3] < rule)]
     # split boxes that hold two printed lines; drop accents read as lines of their own
@@ -905,6 +952,10 @@ def realign(ocr: list[dict], toks: list[dict], match: list[int | None], run: int
     return mended
 
 
+# a metrical label at the end of the printed line ("[στρ.", "[ἀντ.", "[ἐπῳδ."), as Tesseract reads it
+METRE_LABEL = re.compile(r"[\[(]\s*(?:στρ|ἀντ|αντ|ἐπῳδ|ἐπωδ|επῳδ|επωδ)\S*\s*$")
+
+
 def build_draft(play: Play, sources: Path) -> tuple[list[dict], dict[int, dict], list[dict], dict]:
     """The automatic text: verses {'n', 'leaf', 'text', 'speaker' (a new speaker's name, or
     None), 'flags', 'y0', 'y1', 'ocr', 'stages' (directions before the verse)}, the layouts, the
@@ -1020,8 +1071,9 @@ def build_draft(play: Play, sources: Path) -> tuple[list[dict], dict[int, dict],
         # brackets and daggers
         if not v["split"]:
             text_now = " ".join(words)
+            line_ocr = METRE_LABEL.sub("", pl["ocr"]) if play.metre_labels else pl["ocr"]
             for open_, close, name in (("[", "]", "square brackets"), ("⟨", "⟩", "angle brackets")):
-                o_has = any(c in pl["ocr"] for c in (open_, close) + (("<", ">") if open_ == "⟨" else ()))
+                o_has = any(c in line_ocr for c in (open_, close) + (("<", ">") if open_ == "⟨" else ()))
                 d_has = open_ in text_now or close in text_now
                 if o_has and not d_has:
                     flags.append(f"the OCR shows {name} on this line, Perseus has none: copy the print's")

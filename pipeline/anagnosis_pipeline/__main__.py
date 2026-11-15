@@ -111,8 +111,10 @@ def main(argv: list[str] | None = None) -> int:
     b = sub.add_parser("build", help="build data/lexicon.sqlite and one data/<text>.sqlite per text")
     b.add_argument("--out", default=str(DATA))
     b.add_argument("--only", help="rebuild only this text's database (and the catalog), keeping the lexicon")
-    c = sub.add_parser("catalog", help="write data/catalog.json alone, from the about.md headers and the built databases")
+    c = sub.add_parser("catalog", help="write data/catalog.json (the public catalogue: texts held back by a release date left out) and data/catalog-author.json (every text) alone, from the about.md headers and the built databases")
     c.add_argument("--out", default=str(DATA))
+    pvs = sub.add_parser("private-setup", help="the private folders of a text not public before its release (private/texts/<slug>, private/transcriptions/drama/<slug>) and the links to them (private.py)")
+    pvs.add_argument("slug")
     args = ap.parse_args(argv)
 
     if args.cmd == "fetch":
@@ -408,6 +410,10 @@ def main(argv: list[str] | None = None) -> int:
     elif args.cmd == "catalog":
         from .build import build_catalog
         build_catalog(TEXTS, Path(args.out))
+    elif args.cmd == "private-setup":
+        from .private import setup as private_setup
+        for line in private_setup(args.slug, ROOT):
+            print(line)
     return 0
 
 

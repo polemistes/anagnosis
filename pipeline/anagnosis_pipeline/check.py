@@ -157,5 +157,17 @@ def check_all(texts: Path, sources: Path) -> int:
         e, w = check_work(work_dir, lexicon_keys, sources)
         errors += e
         warnings += w
+    # texts that must not be public yet (private.py: Murray's Euripides until 2028), and texts
+    # held back from the public catalogue by a release date
+    from .private import check_private
+    perrors, held = check_private(texts.parent)
+    print("== private texts and release dates")
+    for line in perrors:
+        print(f"  ERROR {line}")
+    for line in held:
+        print(f"  {line}")
+    if not perrors and not held:
+        print("  nothing held back; no private text's file in the public repository")
+    errors += len(perrors)
     print(f"{errors} errors, {warnings} warnings")
     return 1 if errors else 0

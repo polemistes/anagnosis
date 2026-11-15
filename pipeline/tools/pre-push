@@ -1,0 +1,39 @@
+#!/usr/bin/env python3
+"""pre-push hook of the public repository: refuses a push that would carry a file of a private
+text (pipeline/anagnosis_pipeline/private.py, PRIVATE_SLUGS: Murray's Euripides, not public
+before 2028-01-01) or anything under private/, in any pushed commit or in a pushed tip's tree.
+
+Install: cp pipeline/tools/pre-push .git/hooks/pre-push && chmod +x .git/hooks/pre-push
+If the check itself cannot run, the push is refused (it fails closed).
+"""
+import subprocess
+import sys
+from pathlib import Path
+
+
+def main() -> int:
+    top = subprocess.run(["git", "rev-parse", "--show-toplevel"], capture_output=True, text=True)
+    if top.returncode != 0:
+        print("pre-push: not inside a git repository; push refused", file=sys.stderr)
+        return 1
+    root = Path(top.stdout.strip())
+    sys.path.insert(0, str(root / "pipeline"))
+    try:
+        from anagnosis_pipeline.private import pre_push
+    except Exception as e:  # noqa: BLE001  (any failure to load the check refuses the push)
+        print(f"pre-push: cannot load the private-text check ({e}); push refused", file=sys.stderr)
+        return 1
+    problems = pre_push(sys.stdin.read().splitlines(), root)
+    if problems:
+        print("pre-push: REFUSED. The push would carry files of texts that must stay private "
+              "(pipeline/PLAN-euripides.md):", file=sys.stderr)
+        for p in problems[:40]:
+            print(f"  {p}", file=sys.stderr)
+        if len(problems) > 40:
+            print(f"  … and {len(problems) - 40} more", file=sys.stderr)
+        return 1
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

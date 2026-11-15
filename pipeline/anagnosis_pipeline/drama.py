@@ -1,8 +1,9 @@
 """Nine plays in editions of 1880-1911, one text each (texts/<slug>/): pipeline/PLAN-drama.md.
 
 Aeschylus' Oresteia (Sidgwick, Clarendon Press), Aristophanes' Clouds (Starkie), Frogs (Tucker)
-and Lysistrata (Hall-Geldart, Oxford, with Rogers's notes), Euripides' Medea (Earle), Bacchae
-(Sandys) and Alcestis (Hayley). For each play the edition's Greek text and critical apparatus
+and Lysistrata (Hall-Geldart, Oxford, with Rogers's notes), Euripides' Medea (since 2026-11-16
+Murray's Oxford text with Earle's notes, private until 2028: PLAN-euripides.md), Bacchae (Sandys)
+and Alcestis (Hayley; both to move to Murray's text by PLAN-euripides.md). For each play the edition's Greek text and critical apparatus
 are read from an Internet Archive scan by OCR (drama_pages.py), matched word by word to the
 Perseus text (a different edition: the check text, never shipped), and checked by agents
 against the page images where the two disagree; the editor's notes and introduction (and
@@ -122,6 +123,20 @@ class Play:
     app_rule: str = ""
     # the running head: lines that end above this share of the page's height (Jebb's head stands lower)
     head_frac: float = 0.075
+    # the verse's type size is this quantile of the sizes of the lines in the page's upper 70 %
+    # (0.5, the median; Murray's Euripides 0.75: a long apparatus reaches up into that part of
+    # the page and would pull the median down to its own smaller type)
+    verse_size_q: float = 0.5
+    # the printer's signature at the foot of some pages ("EUR. I. 6", a lone "6*" at the right)
+    # is not part of the apparatus (Murray's Oxford text)
+    foot_signature: bool = False
+    # the apparatus block found from the foot up ends where the step to the next line up is wider
+    # than the apparatus's own line pitch allows (Murray: the last verse, whose type Tesseract
+    # sometimes sizes as small as the apparatus's, stands a verse's pitch above it)
+    app_pitch_cut: bool = False
+    # the edition prints metrical labels at the right of a strophe's first verse ("[στρ.", "[ἀντ.",
+    # Murray): not a bracket of the text
+    metre_labels: bool = False
     # the check text is the same editor's text (Jebb's, from Perseus): where it changes speaker
     # and the print has something in the left margin that Tesseract garbles, the change counts
     # as printed and is not flagged
@@ -289,19 +304,43 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          notes_editor="starkie", notes_editor_name="W. J. M. Starkie", layout="jebb",
          text_leaves=[(108, 414)], trans_leaves=[(109, 415)], notes_leaves=[(108, 415)],
          intro_leaves=[(19, 98), (101, 107)], sigla_leaves=[67, 68, 69, 70]),
+    # Euripides in Murray's Oxford text (pipeline/PLAN-euripides.md): PRIVATE until 2028-01-01
+    # (private.py; texts/medea and pipeline/transcriptions/drama/medea are links into private/).
+    # Murray's text and apparatus; the check text is Perseus's grc2 file, which is Murray's own
+    # text (the same scan), so the two are one edition; Earle's notes and introduction beside it
     Play("medea", "Μήδεια", "Medea", "Εὐριπίδης", "Euripides", "tlg0006.tlg003",
-         "The Medea of Euripides, with introduction and notes by Mortimer Lamson Earle, New York, American Book Company, 1904",
-         "cu31924079583609", "earle", "M. L. Earle", "euripides_medea_earle",
+         "Euripidis Fabulae, recognovit brevique adnotatione critica instruxit Gilbertus Murray, tomus I, Oxford, Clarendon Press, 1902",
+         "euripidisfabulae01euriuoft", "murray", "G. Murray", "euripides_medea_murray",
          glaux="0006-003.xml",
          trans_file="drama/tlg0006.tlg003.perseus-eng2.xml", translator="E. P. Coleridge", trans_key="coleridge",
          trans_edition="The Plays of Euripides, translated by E. P. Coleridge, London, George Bell and Sons, 1891",
          trans_license="CC BY-SA 4.0 (Perseus Digital Library)",
-         notes_editor="earle", notes_editor_name="Mortimer Lamson Earle", layout="earle",
-         # p = leaf - 7 throughout (no hidden leaves): text pp. 73-247, the commentary under it to
-         # p. 247; introduction pp. 7-64, the Greek hypothesis and the persons pp. 65-72; the
-         # codices' sigla pp. 257-259; "Notes on the text of this edition" pp. 267-294
-         text_leaves=[(80, 254)], notes_leaves=[(80, 254)], intro_leaves=[(14, 79)],
-         sigla_leaves=[264, 265, 266], app_leaves=[(274, 301)]),
+         notes_editor="earle", notes_editor_name="Mortimer Lamson Earle",
+         notes_edition="The Medea of Euripides, with introduction and notes by Mortimer Lamson Earle, New York, American Book Company, 1904",
+         notes_scan="cu31924079583609",
+         # the check text is Murray's own: where it changes speaker and the margin holds something
+         # Tesseract garbles, the change counts as printed (as for Jebb's Sophocles)
+         speaker_trust=True,
+         # the apparatus items' numbers stand without a stop (the verse number, then the lemma); a long
+         # apparatus reaches high up the page; the printer's signature under it on some pages
+         app_bare_numbers=True, verse_size_q=0.75, foot_signature=True, app_pitch_cut=True,
+         head_frac=0.065,  # the running head ends above 0.060 of the page, the first verse below 0.072
+         metre_labels=True,
+         # Murray (euripidisfabulae01euriuoft; leaf = page image n + 1; leaves 0 and 381-385
+         # hidden): title page leaf 9 (Tomus I; the verso, leaf 10, "Excudebat Horatius Hart"),
+         # Praefatio pp. iii-xi = leaves 11-19, Fabularum ordo 20, Codicum catalogus 21-23, Sigla
+         # leaf 24. The Medea: half-title with the ΥΠΟΘΕΣΙΣ ΜΗΔΕΙΑΣ leaf 102 and the
+         # hypotheses' end (Aristophanes') leaf 103, both with their Latin apparatus and line
+         # numbers at the left; ΤΑ ΤΟΥ ΔΡΑΜΑΤΟΣ ΠΡΟΣΩΠΑ with Murray's notes on the persons and the
+         # codices leaf 104; the text vv. 1-1419 leaves 105-161 (162 blank, the Heraclidae from 163).
+         # Earle (notes scan cu31924079583609; p = leaf - 7 throughout, no hidden leaves): his
+         # text with the commentary under it in two columns pp. 73-247 = leaves 80-254 (the notes
+         # run on inside paragraphs: "— 20. **ἡ δύστηνος**: …"); introduction pp. 7-64 = leaves
+         # 14-71; his Greek hypothesis and persons pp. 65-72 = leaves 72-79 (not used: Murray's
+         # are); the codices pp. 255-259 and his "Notes on the text of this edition" pp. 267-294
+         # = leaves 274-301 (not used: Murray's apparatus is the apparatus). OCR of Earle's
+         # leaves is on disk (pipeline/build/drama-scans/cu31924079583609/).
+         text_leaves=[(105, 161)], sigla_leaves=[24], notes_leaves=[(80, 254)], intro_leaves=[(14, 71)]),
     Play("frogs", "Βάτραχοι", "Frogs", "Ἀριστοφάνης", "Aristophanes", "tlg0019.tlg009",
          "The Frogs of Aristophanes, with introduction and commentary by T. G. Tucker, London, Macmillan, 1906",
          "frogsofaristopha00arisrich", "tucker", "T. G. Tucker", "aristophanes_frogs_tucker",
