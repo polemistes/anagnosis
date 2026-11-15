@@ -7,9 +7,9 @@
 @ Νεοπτόλεμος
 201a	τί τόδε;
 @ Χορός
-201b	προὐφάνη κτύπος,
-202	φωτὸς σύντροφος ὡς τειρομένου ⟨του,⟩
-203	ἤ που τῇδʼ ἢ τῇδε τόπων.
+202	προὐφάνη κτύπος,
+203	φωτὸς σύντροφος ὡς τειρομένου ⟨του,⟩
+204	ἤ που τῇδʼ ἢ τῇδε τόπων.
 205	βάλλει βάλλει μʼ ἐτύμα φθογγά του στίβον κατʼ ἀνάγκαν
 207	ἕρποντος, οὐδέ με λάθει
 208	βαρεῖα τηλόθεν αὐδὰ τρυσάνωρ· διάσημα γὰρ θροεῖ.
@@ -17,8 +17,8 @@
 @ Νεοπτόλεμος
 210a	λέγʼ ὅ τι.
 @ Χορός
-210b	φροντίδας νέας·
-213	ὡς οὐκ ἔξεδρος, ἀλλʼ ἔντοπος ἁνήρ,
+211	φροντίδας νέας·
+212	ὡς οὐκ ἔξεδρος, ἀλλʼ ἔντοπος ἁνήρ,
 --- apparatus
 199	πρὶν ὅδʼ ἐξήκοι L, A, and most of the later MSS.: ἐξήκει V², ἐξίκοι R. Schaefer conj. πρὶν ὅδʼ ἐξήκῃ: Blaydes, πρὶν ἂν ἐξήκῃ.
 200	χρῆναι r: χρῆν (from χρήν) L.
@@ -32,24 +32,22 @@
 209	γὰρ θροεῖ MSS., except those which (like T) have the reading of Triclinius, θροεῖ γάρ. Dindorf conj. γὰρ θρηνεῖ (=218 γὰρ δεινόν). Cp. 218 n.
 212	ἁνήρ] ἀνὴρ L.
 --- notes
-201	The print sets ΧΟ. εὔστομʼ ἔχε, παῖ. ΝΕ. τί τόδε; ΧΟ. προὐφάνη on one line, κτύπος, set in below as its turnover: split by speaker as 201, 201a, 201b; turnover confirmed. παῖ. confirmed on the image.
-201b	The print has προὐφάνη (coronis over υ), as Jebb's lemma at 202 also has; written so (Perseus προυφάνη).
-202	The print has ⟨του,⟩ in angle brackets (Porson's supplement, see the apparatus at Jebb's 203): brackets added, comma inside as printed.
+201	The print sets ΧΟ. εὔστομʼ ἔχε, παῖ. ΝΕ. τί τόδε; ΧΟ. προὐφάνη on one line, κτύπος, set in below as its turnover: split by speaker as 201, 201a, 202 (renumbered from 201b in the second pass, see the res note); turnover confirmed. παῖ. confirmed on the image.
+202	The print has προὐφάνη (coronis over υ), as Jebb's lemma at 202 also has; written so (Perseus προυφάνη).
+203	The print has ⟨του,⟩ in angle brackets (Porson's supplement, see the apparatus at 203): brackets added, comma inside as printed.
 205	The print sets ἀνάγκαν set in below as the turnover of this verse, with the margin number 206 beside it: turnover confirmed (Perseus 206 is covered by this verse).
 208	The print reads θροεῖ (not θρηνεῖ; Dindorf's conjecture θρηνεῖ is reported in Jebb's note on 209): changed to θροεῖ.
-210	The print sets ἀλλʼ ἔχε, τέκνον, ΝΕ. λέγʼ ὅ τι. ΧΟ. φροντίδας on one line, νέας· set in below (margin 210): split by speaker as 210, 210a, 210b; turnover confirmed. The print has νέας· (raised stop), not νέας.: changed.
-202	Apparatus numbers are Jebb's, one ahead of ours in this strophe: his 202 (προὐφάνη) is our 201b, 203 is our 202, 204 is our 203, 206 falls in our 205 (στίβον κατʼ ἀνάγκαν), 209 in our 208 (διάσημα γὰρ θροεῖ), 212 is our 213.
-204	Jebb's apparatus number, kept as printed: our 203 (ἤ που τῇδʼ ἢ τῇδε τόπων); see the note at 202.
-206	Jebb's apparatus number, kept as printed: his separately numbered ἀνάγκαν line, in our 205 (στίβον); see the note at 202.
-209	Jebb's apparatus number, kept as printed: his line διάσημα γὰρ θροεῖ, in our 208; see the note at 202.
-212	Jebb's apparatus number, kept as printed: our 213 (ὡς οὐκ ἔξεδρος … ἁνήρ); see the note at 202.
+210	The print sets ἀλλʼ ἔχε, τέκνον, ΝΕ. λέγʼ ὅ τι. ΧΟ. φροντίδας on one line, νέας· set in below (margin 210): split by speaker as 210, 210a, 211 (renumbered from 210b in the second pass, see the res note); turnover confirmed. The print has νέας· (raised stop), not νέας.: changed.
+201	res: renumbered by the print: Jebb counts προὐφάνη κτύπος as 202 and φροντίδας νέας as 211 (his apparatus 202 προὐφάνη, 203 σύντροφος, 204 ἤ που, 212 ἁνήρ, 213 μολπὰν, 214 ποιμὴν; comment. 215 f. at ἀλλʼ ἤ που; margin 206 at ἀνάγκαν, 210 at νέας·, 215 at ἀνάγκας): the draft's 201b, 202, 203 became 202, 203, 204, its 210b and 213 became 211 and 212, and on p-0114 its 214, 215 became 213, 214. The apparatus numbers now agree with ours.
+206	Jebb's apparatus number, kept as printed: his ἀνάγκαν (206), the turnover of our 205.
+209	Jebb's apparatus number, kept as printed: his διάσημα γὰρ θροεῖ (209), in our 208.
 199	The apparatus of this page has no continuation crop: it runs on to the facing page (leaf 113), from "r: ἑτοίμα L." to "212 ἁνήρ] ἀνὴρ L."; read from my own crops of leaf_0113.png.
 205	Breathings read on enlarged crops: ἑτοίμα and Seyffert's ἁ rough, the lemma ἐτύμα smooth.
 
 === p-0114
 --- text
-214	οὐ μολπὰν σύριγγος ἔχων,
-215	ὡς ποιμὰν ἀγροβότας, ἀλλʼ ἤ που πταίων ὑπʼ ἀνάγκας
+213	οὐ μολπὰν σύριγγος ἔχων,
+214	ὡς ποιμὰν ἀγροβότας, ἀλλʼ ἤ που πταίων ὑπʼ ἀνάγκας
 216	βοᾷ τηλωπὸν ἰωάν,
 217	ἢ ναὸς ἄξενον αὐγάζων ὅρμον· προβοᾷ τι γὰρ δεινόν.
 @ Φιλοκτήτης
@@ -62,11 +60,11 @@
 217	ναὸς] Blaydes conj. ναυσὶν.—ἄξενον αὐγά|ζων ὅρμον] Hermann conj. ἄξενον ὁρμὰν | αὐγάζων: so Bergk, but with ὅρμον.—τι γὰρ δεινόν Wunder; γάρ τι δεινόν MSS. Reading θροεῖ γάρ in 209, Herm. here gives προβοᾷ δέ τι δεινόν. Blaydes, reading γὰρ θροεῖ in 209, here adopts Lachmann's conj., προβοᾷ γὰρ αἴλινον.
 220	The readings of the MSS. here are of three classes. (1) κἀκ ποίας πάτρας, without indication of a variant: L, with many later MSS., as B, R, T, and K. (2) κἀκ ποίας πάτρας, but with indication of a variant: V³ (14th cent.), γρ. ναυτίλῳ πλάτῃ. In V (13th cent.) and L² (14th cent.) the gloss appears, in a corrupted form, as ναυτίλῳ κώπῃ τῇ πλάτῃ προσορμίσατε [corrected to προσωρμίσατε]. (3) ναυτίλῳ πλάτῃ, without indication of a variant: A (13th cent.), Vat. (14th cent.). Most of the modern edd. give ναυτίλῳ πλάτῃ. Nauck conj., κἀκ ποίας τύχης: Wecklein (Ars Soph. em. 6) κἀκ ποίας χθονὸς: Seyffert, κἀκ ποίας φορᾶς: Cavallin, καὶ ποίᾳ πλάτῃ. See comment.
 --- notes
-215	The print has ποιμὰν (Doric α; Jebb's apparatus at his 214 gives ποιμὴν as L's reading, and his commentary says "ποιμὰν, not ποιμὴν, is surely required"): changed from Perseus's ποιμὴν.
-215	The print divides ἀνάγ- | κας, κας set in below with the margin number 215 beside it: written whole at the end of this verse.
+214	The print has ποιμὰν (Doric α; Jebb's apparatus at his 214 gives ποιμὴν as L's reading, and his commentary says "ποιμὰν, not ποιμὴν, is surely required"): changed from Perseus's ποιμὴν.
+214	The print divides ἀνάγ- | κας, κας set in below with the margin number 215 beside it: written whole at the end of this verse, which covers Jebb's 215 (comment. 215 f. at ἀλλʼ ἤ που).
 217	ἢ confirmed at the head of the verse on the image (Jebb's strophe numeral 6 before it).
 219	The print has ξένοι· (raised stop), not ξένοι,: changed.
-213	Apparatus numbers are Jebb's: his 213 (μολπὰν) is our 214, his 214 (ποιμὴν, ἀγροβότας) is our 215; his 216, 217 f. and 220 agree with ours (his 217 f. covers our 217, ἢ ναὸς … δεινόν).
+213	res: renumbered by the print (see the res note at 201 on p-0112): the draft's 214 οὐ μολπὰν and 215 ὡς ποιμὰν became 213 and 214, so Jebb's apparatus 213 and 214 now name our lines; his 216, 217 f. and 220 agree with ours (his 217 f. covers our 217, ἢ ναὸς … δεινόν).
 
 === p-0116
 --- text
@@ -111,7 +109,7 @@
 @ Φιλοκτήτης
 242	ὦ φιλτάτου παῖ πατρός, ὦ φίλης χθονός,
 243	ὦ τοῦ γέροντος θρέμμα Λυκομήδους, τίνι
-244	στόλῳ προσέσχες τήνδε γῆν πόθεν πλέων;
+244	στόλῳ προσέσχες τήνδε γῆν, πόθεν πλέων;
 @ Νεοπτόλεμος
 245	ἐξ Ἰλίου τοι δὴ τανῦν γε ναυστολῶ.
 @ Φιλοκτήτης
@@ -126,6 +124,7 @@
 246	οὐ γὰρ δὴ] In L the 1st hand wrote οὐ δὴ γὰρ. The δὴ has been erased, and, as there was not room to insert it between γὰρ and σύ γʼ, it has been written immediately over γὰρ by S. Several of the later MSS. have οὐ γὰρ without δὴ.
 --- notes
 236	No flags on this page: the text was not re-read.
+244	res: comma after γῆν, as printed
 236	The apparatus divides πρό-|σχημα and προσήγαγέν | σε at the turn to the facing page: πρόσχημα written whole.
 246	The note on 246 runs on to the top of the next text page's apparatus (leaf 120, "MSS. have οὐ γὰρ without δὴ."): written whole here, its end taken from p-0120-app-l.png, and not repeated on p-0120.
 

@@ -12,11 +12,11 @@
 1199	βροντᾶς αὐγαῖς μʼ εἶσι φλογίζων.
 1200	ἐρρέτω Ἴλιον, οἵ θʼ ὑπʼ ἐκείνῳ
 1201	πάντες ὅσοι τόδʼ ἔτλασαν ἐμοῦ ποδὸς ἄρθρον ἀπῶσαι.
-1202	ἀλλʼ, ὦ ξένοι, ἕν γέ μοι εὖχος ὀρέξατε.
+1203	ἀλλʼ, ὦ ξένοι, ἕν γέ μοι εὖχος ὀρέξατε.
 @ Χορός
-1203	ποῖον ἐρεῖς τόδʼ ἔπος;
+1204	ποῖον ἐρεῖς τόδʼ ἔπος;
 @ Φιλοκτήτης
-1203a	ξίφος, εἴ ποθεν,
+1204a	ξίφος, εἴ ποθεν,
 1205	ἢ γένυν, ἢ βελέων τι, προπέμψατε.
 @ Χορός
 1206	ὡς τίνα δὴ ῥέξῃς παλάμαν ποτέ;
@@ -34,10 +34,11 @@
 1207	κρᾶτʼ ἀπὸ πάντα καὶ ἄρθρα τέμω χερί MSS. (τεμῶ B). For πάντα Wecklein gives τᾷδε (to go with χερί). For κρᾶτʼ Hermann conj. χρῶτʼ: Wunder, κρᾶτʼ ἀπὸ πάντα τε τἄρθρα: Blaydes, κρᾶτα καὶ ἄρθρʼ ἀπὸ πάντα (also κρᾶτʼ ἀπὸ πάντα τε κῶλα): Semitelos (Antig. p. 583), ἄκρα τʼ ἀπὸ πάντα καὶ ἄρθρα.
 --- notes
 1200	flag (square brackets in the OCR): the print has none (the OCR's "[200" is the margin number 1200); it has a comma after Ἴλιον: added.
-1203a	flag: the print sets ΧΟ. ποῖον ἐρεῖς τόδʼ ἔπος; ΦΙ. ξίφος, εἴ ποθεν, on one line: the split by speaker confirmed.
+1204a	flag: the print sets ΧΟ. ποῖον ἐρεῖς τόδʼ ἔπος; ΦΙ. ξίφος, εἴ ποθεν, on one line: the split by speaker confirmed.
 1197	unflagged, seen on the whole page: the print has a comma after the first οὐδέποτʼ: added.
 1205	unflagged, seen on the whole page: the print has commas after γένυν and after τι: added.
 1207	Jebb's asterisk before χρῶτʼ (Hermann's conjecture, see the apparatus) left out of the text.
+1201	res numbering: the margin prints 1200 at ἐρρέτω and 1205 at ἢ γένυν; Jebb's commentary (leaf 257) numbers ἀλλʼ, ὦ ξένοι … ὀρέξατε 1203 ("1203 ἀλλʼ … ὀρέξατε") and ποῖον ἐρεῖς … ξίφος, εἴ ποθεν … γένυν "1204 f.", so his long verse πάντες ὅσοι … ἀπῶσαι counts as 1201-1202 (the apparatus "1202 f." on ἀπῶσʼ· ἀλλʼ fits). Renumbered by the print: ἀλλʼ 1203 (was 1202), ποῖον 1204 (was 1203), ξίφος 1204a (was 1203a); no verse bears 1202, and the apparatus keeps its printed number 1202.
 1202	apparatus: the note "1202 f." runs on to the facing page (Blaydes conj. ...); written whole here. 1194 f., 1207 f. written under the first line number.
 
 === p-0258

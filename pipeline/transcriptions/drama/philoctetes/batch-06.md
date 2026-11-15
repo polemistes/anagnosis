@@ -4,7 +4,7 @@
 356	κατηγόμην· καί μʼ εὐθὺς ἐν κύκλῳ στρατὸς
 357	ἐκβάντα πᾶς ἠσπάζετʼ, ὀμνύντες βλέπειν
 358	τὸν οὐκέτʼ ὄντα ζῶντʼ Ἀχιλλέα πάλιν.
-359	κεῖνος μὲν οὖν ἔκειτʼ· ἐγὼ δʼ ὁ δύσμορος
+359	κεῖνος μὲν οὖν ἔκειτʼ· ἐγὼ δʼ ὁ δύσμορος,
 360	ἐπεὶ ʼδάκρυσα κεῖνον, οὐ μακρῷ χρόνῳ
 361	ἐλθὼν Ἀτρείδας πρὸς φίλους, ὡς εἰκὸς ἦν,
 362	τά θʼ ὅπλʼ ἀπῄτουν τοῦ πατρὸς τά τʼ ἄλλʼ ὅσʼ ἦν.
@@ -30,6 +30,7 @@
 356	εὐθὺς: the print has εὐθὺς (the OCR split it); kept.
 362	ἦν. is printed at the end of this verse; kept.
 369	The note runs on to the next page's apparatus ("not necessary)."); written whole here.
+359	res: comma after δύσμορος, as printed
 
 === p-0138
 --- text
@@ -95,7 +96,7 @@
 --- text
 @ Φιλοκτήτης
 403	ἔχοντες, ὡς ἔοικε, σύμβολον σαφὲς
-404	λύπης πρὸς ἡμᾶς, ὦ ξένοι, πεπλεύκατε,
+404	λύπης πρὸς ἡμᾶς, ὦ ξένοι, πεπλεύκατε·
 405	καί μοι προσᾴδεθʼ ὥστε γιγνώσκειν ὅτι
 406	ταῦτʼ ἐξ Ἀτρειδῶν ἔργα κἀξ Ὀδυσσέως.
 407	ἔξοιδα γάρ νιν παντὸς ἂν λόγου κακοῦ
@@ -112,6 +113,7 @@
 411	ἠνείχετο MSS.: ἠνέσχετο Porson.
 --- notes
 403	No flags on this page; the text was not re-read.
+404	res: raised stop after πεπλεύκατε, not a comma, as printed
 
 === p-0144
 --- text
@@ -120,7 +122,7 @@
 @ Νεοπτόλεμος
 415	ὡς μηκέτʼ ὄντα κεῖνον ἐν φάει νόει.
 @ Φιλοκτήτης
-416	οἴμοι τάλας. ἀλλʼ οὐχ ὁ Τυδέως γόνος
+416	οἴμοι τάλας. ἀλλʼ οὐχ ὁ Τυδέως γόνος,
 417	οὐδʼ οὑμπολητὸς Σισύφου Λαερτίῳ,
 418	οὐ μὴ θάνωσι· τούσδε γὰρ μὴ ζῆν ἔδει.
 @ Νεοπτόλεμος
@@ -140,21 +142,22 @@
 --- notes
 414	No flags on this page; the text was not re-read. The coronis over ου in χοὖτος (lemma, L's χοὖτοσ, Seyffert's conjectures) is written χοὖτος as in the text.
 421	Breathings read on enlarged crops: the 1st hand's ὠ smooth, changed to ὡ rough; ὃς, ὁς, ὁ rough; Hermann's ἁγαθὸς rough (crasis).
+416	res: comma after γόνος, as printed
 423	The note runs on beyond the spread (κἀξε- | κήρυξεν. at the head of p-0146's apparatus): written whole here.
 
 === p-0146
 --- text
 @ Νεοπτόλεμος
 424	κεῖνός γε πράσσει νῦν κακῶς, ἐπεὶ θανὼν
-425	Ἀντίλοχος αὐτῷ φροῦδος, ὃς παρῆν, γόνος.
+425	Ἀντίλοχος αὐτῷ φροῦδος ὃς παρῆν γόνος.
 @ Φιλοκτήτης
 426	οἴμοι, δύʼ αὖ τώδʼ ἄνδρʼ ἔλεξας, οἷν ἐγὼ
 427	ἥκιστʼ ἂν ἠθέλησʼ ὀλωλότοιν κλύειν.
 428	φεῦ φεῦ· τί δῆτα δεῖ σκοπεῖν, ὅθʼ οἵδε μὲν
-429	τεθνᾶσʼ, Ὀδυσσεὺς δʼ ἔστιν αὖ κἀνταῦθʼ ἵνα
+429	τεθνᾶσʼ, Ὀδυσσεὺς δʼ ἔστιν αὖ κἀνταῦθʼ, ἵνα
 430	χρῆν ἀντὶ τούτων αὐτὸν αὐδᾶσθαι νεκρόν;
 @ Νεοπτόλεμος
-431	σοφὸς παλαιστὴς κεῖνος· ἀλλὰ χαἰ σοφαὶ
+431	σοφὸς παλαιστὴς κεῖνος· ἀλλὰ χαἱ σοφαὶ
 432	γνῶμαι, Φιλοκτῆτʼ, ἐμποδίζονται θαμά.
 --- apparatus
 425	ὃς παρῆν γόνος Musgrave: ὅσπερ ἦν γόνος MSS. The schol. in L notes μόνος as a v. l. for γόνος. See comment. and Appendix.
@@ -165,3 +168,6 @@
 --- notes
 424	No flags on this page; the text was not re-read. The apparatus begins with the end of the note on 423 ("κήρυξεν."), written with that note on p-0144.
 426	Breathings read on enlarged crops beside ὅσπερ (rough) and ἔλεξας (smooth): L's αὕ τωσ and A's αὕτως rough, "from αὔτωσ" and "the same with αὔτως" smooth.
+425	res: no comma after φροῦδος nor after παρῆν, as printed (φροῦδος *ὃς παρῆν γόνος.)
+429	res: comma after κἀνταῦθʼ, as printed
+431	res: χαἱ with rough breathing (crasis καὶ αἱ), as printed (enlarged crop: the same mark as on οὑμπολητὸς 417, unlike the smooth one on ἀλλὰ); not a listed item, seen while checking 431

@@ -1,7 +1,7 @@
 === p-0100
 --- text
 132	ἐγὼ δὲ πρὸς ναῦν εἶμι, σοὶ παρεὶς τάδε·
-133	Ἑρμῆς δʼ ὁ πέμπων δόλιος ἡγήσαιτο νῷν
+133	Ἑρμῆς δʼ ὁ πέμπων δόλιος ἡγήσαιτο νῷν,
 134	Νίκη τʼ Ἀθάνα Πολιάς, ἣ σῴζει μʼ ἀεί.
 @ Χορός
 135	τί χρή, τί χρή με, δέσποτʼ, ἐν ξένᾳ ξένον
@@ -15,19 +15,20 @@
 135	ξένον: the crop prints ξένον, as the draft (the OCR's ἕένον is a misreading).
 135	the print has τί χρή, τί χρή (acute on the first χρή, comma after it), seen on the flagged crop; written so.
 134	the apparatus begins with "τῶν λόγων ἀεί.", the end of a note begun on the page before: left to the batch before.
+133	res: comma after νῷν, as printed
 
 === p-0102
 --- text
-139	καὶ γνώμα παρʼ ὅτῳ τὸ θεῖον
+139	καὶ γνώμα, παρʼ ὅτῳ τὸ θεῖον
 140	Διὸς σκῆπτρον ἀνάσσεται.
 141	σὲ δʼ, ὦ τέκνον, τόδʼ ἐλήλυθεν
-142	πᾶν κράτος ὠγύγιον· τό μοι ἔννεπε
+142	πᾶν κράτος ὠγύγιον· τό μοι ἔννεπε,
 143	τί σοι χρεὼν ὑπουργεῖν.
 @ Νεοπτόλεμος
 144	νῦν μέν, ἴσως γὰρ τόπον ἐσχατιαῖς
 145	προσιδεῖν ἐθέλεις ὅντινα κεῖται,
 146	δέρκου θαρσῶν· ὁπόταν δὲ μόλῃ
-147	δεινὸς ὁδίτης, τῶνδʼ οὑκ μελάθρων
+147	δεινὸς ὁδίτης, τῶνδʼ οὑκ μελάθρων,
 --- apparatus
 139	γνώμα A: γνώμας L. The later MSS. are divided, and some (among which are B, L², Γ) have γνώμα γνώμας.
 140	ἀνάσσεται] L has ἀνά ⋮ ⋮ ΄σσεται (sic). Dübner reports the 1st hand as having written ἀναναν . σσεται, with a letter, which was not α, erased between ν and σ. A reference to the autotype facsimile (p. 81 B, l. 5) will show that this interpretation of the lacuna is at least very doubtful.—Seyffert conj. ἀΐσσεται, Blaydes ἐρέσσεται.
@@ -41,6 +42,9 @@
 140	Jebb prints two columns of three dots between ἀνά and σσεται, written ⋮ ⋮, and an acute-like mark before σσεται, written ΄ (U+0384).
 141	"σὲ δʼ E": the crop clearly prints a capital E, although Jebb's sigla list no E (perhaps a misprint for L); copied as printed, left for the editor to decide.
 147	the note runs on to the top of the next page's apparatus (p-0104, "ὁπλίτης."); written whole here.
+139	res: comma after γνώμα, as printed
+142	res: comma after ἔννεπε, as printed
+147	res: comma after μελάθρων, as printed
 
 === p-0104
 --- text
@@ -54,8 +58,8 @@
 154	καὶ χῶρον τίνʼ ἔχει. τὸ γάρ μοι
 155	μαθεῖν οὐκ ἀποκαίριον,
 156	μὴ προσπεσών με λάθῃ ποθέν·
-157	τίς τόπος ἢ τίς ἕδρα; τίνʼ ἔχει στίβον,
-158	ἔναυλον ἢ θυραῖον;
+157	τίς τόπος, ἢ τίς ἕδρα; τίνʼ ἔχει στίβον,
+158	ἔναυλον, ἢ θυραῖον;
 @ Νεοπτόλεμος
 159	οἶκον μὲν ὁρᾷς τόνδʼ ἀμφίθυρον
 160	πετρίνης κοίτης.
@@ -72,6 +76,8 @@
 --- notes
 148	no flags on this page; the apparatus read from the four crops. Its first word, "ὁπλίτης.", ends the note on 147 and is written with p-0102.
 150	Jebb's note is headed "150 f.": filed under 150.
+157	res: comma after τόπος, as printed
+158	res: comma after ἔναυλον, as printed
 
 === p-0106
 --- text

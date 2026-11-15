@@ -1,6 +1,6 @@
 === p-0160
 --- text
-516	ἐπʼ εὐστόλου Ταχείας νεὼς
+516	ἐπʼ εὐστόλου ταχείας νεὼς
 517	πορεύσαιμʼ ἂν ἐς δόμους, τὰν θεῶν
 518	νέμεσιν ἐκφυγών.
 @ Νεοπτόλεμος
@@ -29,6 +29,7 @@
 529	βουλοίμεσθα MSS., except B, which has βουλόμεσθα, the reading preferred by Brunck and Hartung.
 --- notes
 no flags on this page.
+516	res: ταχείας with a small τ, as printed (seen on the whole page; the draft had a capital).
 528	the print sets a space before the colon in "ἔκ γε r : ἔκ τε"; written without it, as the brief asks.
 
 === p-0162
@@ -36,7 +37,7 @@ no flags on this page.
 @ Φιλοκτήτης
 530	ὦ φίλτατον μὲν ἦμαρ, ἥδιστος δʼ ἀνήρ,
 531	φίλοι δὲ ναῦται, πῶς ἂν ὑμὶν ἐμφανὴς
-532	ἔργῳ γενοίμην, ὥς μʼ ἔθεσθε προσφιλῆ;
+532	ἔργῳ γενοίμην ὥς μʼ ἔθεσθε προσφιλῆ.
 533	ἴωμεν, ὦ παῖ, προσκύσαντε τὴν ἔσω
 534	ἄοικον εἰσοίκησιν, ὥς με καὶ μάθῃς
 535	ἀφʼ ὧν διέζων ὥς τʼ ἔφυν εὐκάρδιος.
@@ -55,6 +56,8 @@ no flags on this page.
 541	αὖθις r: αὖτις L.—Blaydes conj. αὐτίκʼ.
 --- notes
 533	no flags on this page. The print's "533 f." is filed under 533. The lemma's final σ carries two dots above in the print (L's mark of deletion): written σ̈ (σ with combining diaeresis). "ap-|proximates" divided at the end of a printed line: written whole. οἴκησισ with medial σ as printed.
+532	res: no comma after γενοίμην, as printed.
+532	res: full stop after προσφιλῆ (not a question mark), as printed; seen in the crop.
 
 === p-0164
 --- text

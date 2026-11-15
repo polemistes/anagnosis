@@ -1,7 +1,7 @@
 === p-0172
 --- text
 600	ὅν γʼ εἶχον ἤδη χρόνιον ἐκβεβληκότες;
-601	τίς ὁ πόθος αὐτοὺς ἵκετʼ; ἢ θεῶν βία
+601	τίς ὁ πόθος αὐτοὺς ἵκετʼ, ἢ θεῶν βία
 602	καὶ νέμεσις, οἵπερ ἔργʼ ἀμύνουσιν κακά;
 @ Ἔμπορος
 603	ἐγώ σε τοῦτʼ, ἴσως γὰρ οὐκ ἀκήκοας,
@@ -11,7 +11,7 @@
 607	ὁ πάντʼ ἀκούων αἰσχρὰ καὶ λωβήτʼ ἔπη
 608	δόλιος Ὀδυσσεὺς εἷλε· δέσμιόν τʼ ἄγων
 609	ἔδειξʼ Ἀχαιοῖς ἐς μέσον, θήραν καλήν·
-610	ὃς δὴ τά τʼ ἄλλʼ αὐτοῖσι πάντʼ ἐθέσπισεν
+610	ὃς δὴ τά τʼ ἄλλʼ αὐτοῖσι πάντʼ ἐθέσπισεν,
 611	καὶ τἀπὶ Τροίᾳ πέργαμʼ ὡς οὐ μή ποτε
 612	πέρσοιεν, εἰ μὴ τόνδε πείσαντες λόγῳ
 613	ἄγοιντο νήσου τῆσδʼ ἐφʼ ἧς ναίει τὰ νῦν.
@@ -28,6 +28,8 @@
 --- notes
 613	Flag τανῦν: the page prints τὰ νῦν, two words with a grave on τὰ; written as printed.
 611	The apparatus note is printed "611 f."; filed under 611.
+601 res: comma after ἵκετʼ (not a question mark), as printed
+610 res: comma after ἐθέσπισεν, as printed
 
 === p-0174
 --- text
@@ -127,13 +129,13 @@
 @ Φιλοκτήτης
 655	ταῦτʼ, οὐ γὰρ ἄλλʼ ἔστʼ, ἀλλʼ ἃ βαστάζω χεροῖν.
 @ Νεοπτόλεμος
-656	ἆρʼ ἔστιν ὥστε κἀγγύθεν θέαν λαβεῖν
+656	ἆρʼ ἔστιν ὥστε κἀγγύθεν θέαν λαβεῖν,
 657	καὶ βαστάσαι με προσκύσαι θʼ ὥσπερ θεόν;
 @ Φιλοκτήτης
 658	σοί γʼ, ὦ τέκνον, καὶ τοῦτο κἄλλο τῶν ἐμῶν
 659	ὁποῖον ἄν σοι ξυμφέρῃ γενήσεται.
 @ Νεοπτόλεμος
-660	καὶ μὴν ἐρῶ γε, τὸν δʼ ἔρωθʼ οὕτως ἔχω·
+660	καὶ μὴν ἐρῶ γε· τὸν δʼ ἔρωθʼ οὕτως ἔχω·
 661	εἴ μοι θέμις, θέλοιμʼ ἄν· εἰ δὲ μή, πάρες.
 @ Φιλοκτήτης
 662	ὅσιά τε φωνεῖς ἔστι τʼ, ὦ τέκνον, θέμις,
@@ -154,6 +156,8 @@
 654	Flag ἦ: printed on this verse (ΝΕ. ἦ ταῦτα ...); kept.
 657	Flag θεόν: printed at the end of this verse; kept.
 655	L's reading has άλλʼ with an acute and no breathing, as Jebb's "(sic, not ἀλλʼ)" says; copied so.
+656 res: comma after λαβεῖν, as printed
+660 res: raised stop after γε (not a comma), as printed
 
 === p-0180
 --- text
@@ -168,7 +172,7 @@
 674	χωροῖς ἂν εἴσω.
 @ Φιλοκτήτης
 674a	καὶ σέ γʼ εἰσάξω· τὸ γὰρ
-675	νοσοῦν ποθεῖ σε ξυμπαραστάτην λαβεῖν.
+675	νοσοῦν ποθεῖ σε ξυμπαραστάτην λαβεῖν·
 @ Χορός
 676	λόγῳ μὲν ἐξήκουσʼ, ὄπωπα δʼ οὐ μάλα,
 --- apparatus
@@ -184,14 +188,15 @@
 667	Flag (no margin number read): checked on the whole page; the margin prints 670 at εὐεργετῶν and 675 at νοσοῦν, so the numbering 667-676 stands.
 674a	Flag (speaker change inside the line): the print sets χωροῖς ἂν εἴσω. ΦΙ. καὶ σέ γʼ εἰσάξω· τὸ γὰρ as one verse with ΦΙ. in the middle; split at the speaker change as for 589/589a.
 667	The apparatus note is printed "667 f."; filed under 667. The note on 674 is printed "674 f."; filed under 674.
+675 res: raised stop after λαβεῖν (not a full stop), as printed; seen on the whole page (not a listed residual)
 
 === p-0182
 --- text
 677	τὸν πελάταν λέκτρων ποτὲ τῶν Διὸς
-680	κατὰ δρομάδʼ ἄμπυκα δέσμιον ὡς ἔβαλεν παγκρατὴς Κρόνου παῖς·
+679	κατὰ δρομάδʼ ἄμπυκα δέσμιον ὡς ἔβαλεν παγκρατὴς Κρόνου παῖς·
 681	ἄλλον δʼ οὔτινʼ ἔγωγʼ οἶδα κλύων οὐδʼ ἐσιδὼν μοίρᾳ
-682	τοῦδʼ ἐχθίονι συντυχόντα
-683	θνατῶν, ὃς οὔτʼ ἔρξας τινʼ, οὔ τι νοσφίσας,
+683	τοῦδʼ ἐχθίονι συντυχόντα
+684	θνατῶν, ὃς οὔτʼ ἔρξας τινʼ, οὔ τι νοσφίσας,
 685	ἀλλʼ ἴσος ὢν ἴσοις ἀνήρ,
 --- apparatus
 678	ποτὲ τῶν Διὸς] ποτὲ διὸς MSS.: Triclinius inserted τοῦ (and so Buttmann): Porson (on Eur. Phoen. 145), τῶν.
@@ -200,7 +205,8 @@
 684	ὃς οὔτʼ ἔρξας τινʼ MSS. (ἕρξας Harl.): Musgrave conj. ὃς οὔτινʼ ἔρξας: Erfurdt, ὃς οὐ φθίσας τινʼ: Cavallin (after Blaydes), ὃς οὔτε κλέψας: Bergk, ὃς οὔ τι ῥέξας.—οὔ τι νοσφίσας Schneidewin: οὔτε νοσφίσας MSS. Bergk would insert οὔτινʼ before οὔτε νοσφίσας, and in 699 read ἢ εἴ τις ὄρνις instead of εἴ τις.
 685	ἴσος ὢν ἴσοις] ἴσωσ (sic) ἐν ἴσοισ L: ἴσος ἐν ἴσοις r. Bothe conj. ἴσος εἰν ἴσοις: F. Schultz and Lachmann, ἴσος ὢν ἴσοις: Hermann, ἴσος ἔν γʼ ἴσοις: Burges, ἴσος, εἴ τις, ὢν ἀνὴρ (and so Blaydes in text).
 --- notes
-680	Flag (turnover): the print sets Κρόνου παῖς· indented on the next line with the margin number 680 beside it, the end of this verse; the join confirmed.
-683	Unflagged, seen on the image: the print has a comma after τινʼ (ἔρξας τινʼ, οὔ τι νοσφίσας); added. Jebb's asterisks before οὔ τι (683) and ὢν (685) left out.
+679	Flag (turnover, on the verse then numbered 680): the print sets Κρόνου παῖς· indented on the next line with the margin number 680 beside it, the end of this verse; the join confirmed.
+684	Unflagged, seen on the image: the print has a comma after τινʼ (ἔρξας τινʼ, οὔ τι νοσφίσας); added. Jebb's asterisks before οὔ τι (684) and ὢν (685) left out.
 685	The printed verse ends with ἀνήρ, (margin 685); ὤλλυθʼ begins the next verse on the next page (p-0184, 686 ὤλλυθʼ ὧδʼ ἀναξίως.); removed here.
-678	Jebb's apparatus numbers follow his own count of these lyric verses: 678 (ποτὲ τῶν Διὸς) names words in our 677, 679 ("679 f.", the verse κατὰ δρομάδʼ … παῖς) our 680, 682 (ἐσιδὼν, μοίρᾳ) our 681, 684 (ὃς οὔτʼ ἔρξας) our 683; kept as printed. The note "679 f." filed under 679.
+678	Jebb's apparatus numbers follow his own count of these lyric verses (first pass; the text now follows that count, see the note on 679): 678 (ποτὲ τῶν Διὸς) names words in verse 677, 682 (ἐσιδὼν, μοίρᾳ) words in verse 681; kept as printed. The note "679 f." filed under 679.
+679	Renumbered (second pass) to the print's count, which the margin and the apparatus give together: 676 λόγῳ (strophe v. 1), 677 τὸν πελάταν (v. 2, which covers 678: apparatus 678 ποτὲ τῶν Διὸς), 679 κατὰ δρομάδʼ … Κρόνου παῖς (v. 3, apparatus "679 f."; it covers 680, whose margin number is printed beside its turnover Κρόνου παῖς), 681 ἄλλον (v. 4, covers 682: apparatus 682 ἐσιδὼν, μοίρᾳ), 683 τοῦδʼ (was 682), 684 θνατῶν (was 683; apparatus 684 ὃς οὔτʼ ἔρξας), 685 ἀλλʼ ἴσος (margin 685). The draft's 680 became 679. Apparatus 678 and 682 name the second number a verse covers; kept as printed.

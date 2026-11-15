@@ -106,18 +106,18 @@
 
 === p-0154
 --- text
-477	σοὶ δʼ ἐκλιπόντι τοῦτʼ ὄνειδος οὐ καλόν,
+477	σοὶ δʼ, ἐκλιπόντι τοῦτʼ, ὄνειδος οὐ καλόν,
 478	δράσαντι δʼ, ὦ παῖ, πλεῖστον εὐκλείας γέρας,
 479	ἐὰν μόλω ʼγὼ ζῶν πρὸς Οἰταίαν χθόνα.
 480	ἴθʼ· ἡμέρας τοι μόχθος οὐχ ὅλης μιᾶς.
-481	τόλμησον. ἐμβαλοῦ μʼ ὅπῃ θέλεις ἄγων,
+481	τόλμησον, ἐμβαλοῦ μʼ ὅπῃ θέλεις ἄγων,
 482	εἰς ἀντλίαν, εἰς πρῷραν, εἰς πρύμνην, ὅπου
 483	ἥκιστα μέλλω τοὺς ξυνόντας ἀλγυνεῖν.
 484	νεῦσον, πρὸς αὐτοῦ Ζηνὸς ἱκεσίου, τέκνον,
 485	πείσθητι· προσπίτνω σε γόνασι, καίπερ ὢν
 486	ἀκράτωρ ὁ τλήμων, χωλός. ἀλλὰ μή μʼ ἀφῇς
-487	ἔρημον οὕτω χωρὶς ἀνθρώπων στίβου,
-488	ἀλλʼ ἢ πρὸς οἶκον τὸν σὸν ἔκσωσόν μʼ ἄγων
+487	ἔρημον οὕτω χωρὶς ἀνθρώπων στίβου·
+488	ἀλλʼ ἢ πρὸς οἶκον τὸν σὸν ἔκσωσόν μʼ ἄγων,
 489	ἢ πρὸς τὰ Χαλκώδοντος Εὐβοίας σταθμά·
 490	κἀκεῖθεν οὔ μοι μακρὸς εἰς Οἴτην στόλος
 --- apparatus
@@ -131,23 +131,29 @@
 --- notes
 479	the print has Οἰταίαν (as the OCR; Perseus spells Οὐταίαν): changed
 482	the print has ὅπου (Jebb reads Γ's ὅπου, as his apparatus and commentary say): ὅποι changed to ὅπου
+477	res: comma after δʼ and after τοῦτʼ, as printed
+481	res: comma after τόλμησον (not a full stop), as printed
+487	res: raised stop after στίβου (not a comma), as printed
+488	res: comma after ἄγων, as printed
 477	apparatus: the note begins at the top of leaf 154 with the end of the 476 note ("Tournier, εὐπετές."), written with 476 on the page before
 
 === p-0156
 --- text
 491	Τραχινίαν τε δειράδʼ ἠδʼ ἐς εὔροον
-492	Σπερχειὸν ἔσται· πατρί μʼ ὡς δείξῃς φίλῳ,
+492	Σπερχειὸν ἔσται, πατρί μʼ ὡς δείξῃς φίλῳ,
 493	ὃν δὴ παλαιὸν ἐξ ὅτου δέδοικʼ ἐγὼ
 494	μή μοι βεβήκῃ. πολλὰ γὰρ τοῖς ἱγμένοις
 495	ἔστελλον αὐτὸν ἱκεσίους πέμπων λιτάς,
 496	αὐτόστολον πέμψαντά μʼ ἐκσῶσαι δόμους.
-497	ἀλλʼ ἢ τέθνηκεν ἢ τὰ τῶν διακόνων,
+497	ἀλλʼ ἢ τέθνηκεν, ἢ τὰ τῶν διακόνων,
 --- apparatus
 491	Τραχινίαν τε δειράδα καὶ τὸν εὔρροον MSS. See comment. and Appendix.
 493	παλαιὰν L, with two dots (:) above the second α, referring to a note in the right-hand marg. by an early hand, :πάλαι ἂν. The later MSS. have either παλαίʼ ἂν (as A, L², Harl.), or πάλαι ἂν, as B: παλαιὸν Triclinius.
 494	βεβήκῃ] βεβήκοι L, with A and most of the later MSS.; but a few have βεβήκῃ, as B, Vat. b, and cod. Flor. 32. 2 (the N of Blaydes, Dindorf's Lc). R and T have βεβήκει. Elmsley conj. βέβηκε.—ἱγμένοις] ἱκμένοισ L.
 496	πέμψαντα] Blaydes conj. πλεύσαντα.—δόμους Wunder: δόμοις MSS.
 --- notes
+492	res: comma after ἔσται (not a raised stop), as printed
+497	res: comma after τέθνηκεν, as printed
 491	no flags; no apparatus crops for the text page: the apparatus read from the whole page (leaf 156) and the facing-page crops
 493	apparatus: ":πάλαι ἂν" keeps the space before the colon: the colon is the two-dot mark of L's marginal note, as printed, not punctuation
 
@@ -158,15 +164,15 @@
 500	νῦν δʼ, εἰς σὲ γὰρ πομπόν τε καὐτὸν ἄγγελον
 501	ἥκω, σὺ σῶσον, σύ μʼ ἐλέησον, εἰσορῶν
 502	ὡς πάντα δεινὰ κἀπικινδύνως βροτοῖς
-503	κεῖται παθεῖν μὲν εὖ, παθεῖν δὲ θάτερα.
+503	κεῖται, παθεῖν μὲν εὖ, παθεῖν δὲ θάτερα.
 504	χρὴ δʼ ἐκτὸς ὄντα πημάτων τὰ δείνʼ ὁρᾶν,
 505	χὤταν τις εὖ ζῇ, τηνικαῦτα τὸν βίον
-506	σκοπεῖν μάλιστα, μὴ διαφθαρεὶς λάθῃ.
+506	σκοπεῖν μάλιστα μὴ διαφθαρεὶς λάθῃ.
 @ Χορός
 507	οἴκτιρʼ, ἄναξ· πολλῶν ἔλεξεν δυσοίστων πόνων
-508	ἆθλʼ, οἷα μηδεὶς τῶν ἐμῶν τύχοι φίλων.
+509	ἆθλʼ, οἷα μηδεὶς τῶν ἐμῶν τύχοι φίλων.
 510	εἰ δὲ πικρούς, ἄναξ, ἔχθεις Ἀτρείδας,
-511	ἐγὼ μέν, τὸ κείνων κακὸν τῷδε κέρδος
+512	ἐγὼ μὲν τὸ κείνων κακὸν τῷδε κέρδος
 515	μετατιθέμενος, ἔνθαπερ ἐπιμέμονεν,
 --- apparatus
 498	οἶμαι] Valckenaer conj. οἴμοι.—μέρος MSS., and Suid. s. v. στόλος. μέρει the 1st hand in A, and Suid. s. v. διάκονος: and so Brunck, Hartung, Blaydes.
@@ -180,6 +186,10 @@
 515	μετατιθέμενος] μέγα τιθέμενοσ L, A, and most others: μετατιθέμενος r and schol.—ἔνθαπερ] ἔνθάπερ L.—ἐπιμέμονεν r: ἐπεὶ μέμονεν L.
 --- notes
 498	no flags; margin numbers 500, 505, 510, 515 agree with the draft
-509	apparatus: Jebb numbers the lyric verses otherwise than our numbering: his 509 (οἷα) is our 508, his 512 (ἐγὼ μὲν) our 511; his numbers kept
+503	res: comma after κεῖται, as printed
+506	res: no comma after μάλιστα, as printed
+509	renumbered by Jebb's apparatus (was 508): his notes number ἆθλʼ, οἷα … φίλων 509 (509 οἷα, τύχοι), so the οἴκτιρʼ verse covers 507-508 (L's division in the note on 507-518: οἴκτειρʼ—ἔλε|ξε— | ἆθλʼ—); the margin 510 stands at εἰ δὲ πικρούς
+512	renumbered by Jebb's apparatus (was 511): his note 512 ἐγὼ μὲν begins this verse, so εἰ δὲ πικρούς covers 510-511 (L: εἰ δὲ— | ἔχθεις—); the margin 515 stands at μετατιθέμενος. The checker does not see a renumbering.
+512	res: μὲν with a grave and no comma after it, as printed
 509	apparatus: the breathings of ἅσσα and ἃ are too small to read with certainty; written rough (the words' breathing)
 505	apparatus: τἀκ θεῶν read on the enlarged page (the OCR has τάκ); the mark over α is a coronis

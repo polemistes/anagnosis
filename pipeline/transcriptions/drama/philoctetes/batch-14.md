@@ -8,9 +8,9 @@
 1012	οἷς τʼ αὐτὸς ἐξήμαρτεν οἷς τʼ ἐγὼ ʼπαθον.
 1013	ἀλλʼ ἡ κακὴ σὴ διὰ μυχῶν βλέπουσʼ ἀεὶ
 1014	ψυχή νιν ἀφυᾶ τʼ ὄντα κοὐ θέλονθʼ ὅμως
-1015	εὖ προυδίδαξεν ἐν κακοῖς εἶναι σοφόν.
+1015	εὖ προὐδίδαξεν ἐν κακοῖς εἶναι σοφόν.
 1016	καὶ νῦν ἔμʼ, ὦ δύστηνε, συνδήσας νοεῖς
-1017	ἄγειν ἀπʼ ἀκτῆς τῆσδʼ, ἐν ᾗ με προυβάλου
+1017	ἄγειν ἀπʼ ἀκτῆς τῆσδʼ, ἐν ᾗ με προὐβάλου
 1018	ἄφιλον ἔρημον ἄπολιν ἐν ζῶσιν νεκρόν.
 1019	φεῦ.
 1019a	ὄλοιο· καί σοι πολλάκις τόδʼ ηὐξάμην.
@@ -38,6 +38,8 @@
 1022	the print has no comma after αὔθʼ; removed.
 1019	apparatus (second check): "written over ἤϋ" as printed (smooth breathing and acute on η, as in the lemma ἤϋξάμην), not ἠϋ.
 1024	the unmatched line after 1024 is the apparatus (OCR), nothing to add.
+1015	res: προὐδίδαξεν with the coronis over υ, as printed (Perseus προυδίδαξεν)
+1017	res: προὐβάλου with the coronis over υ, as printed (and as Jebb's lemma at 1017; Perseus προυβάλου)
 
 === p-0234
 --- text
@@ -164,7 +166,7 @@
 1075	πρὸς τοῦδʼ· ὅμως δὲ μείνατʼ, εἰ τούτῳ δοκεῖ,
 1076	χρόνον τοσοῦτον εἰς ὅσον τά τʼ ἐκ νεὼς
 1077	στείλωσι ναῦται καὶ θεοῖς εὐξώμεθα.
-1078	χοὖτος τάχʼ ἂν φρόνησιν ἐν τούτῳ λάβοι
+1078	χοὗτος τάχʼ ἂν φρόνησιν ἐν τούτῳ λάβοι
 1079	λῴω τινʼ ἡμῖν. νὼ μὲν οὖν ὁρμώμεθον,
 1080	ὑμεῖς δʼ, ὅταν καλῶμεν, ὁρμᾶσθαι ταχεῖς.
 --- apparatus
@@ -179,6 +181,7 @@
 1066	no flags on this page; margin numbers 1070, 1075, 1080 and the speakers ΦΙ., ΟΔ., ΦΙ., ΧΟ., ΝΕ. in the margin agree with the draft.
 1076	the print has no comma after τοσοῦτον (the OCR agrees); removed.
 1081	apparatus: the note on 1081-1085 is printed on this spread (facing page, leaf 241), so it is written here; the verses are on p-0242.
+1078	res: χοὗτος with the rough breathing, as printed (enlarged beside ᾗ in 1017 and εὖ in 1015: the mark is the rough one; Perseus χοὖτος)
 
 === p-0242
 --- text

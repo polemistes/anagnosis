@@ -9,7 +9,7 @@
 767	ὕπνος μʼ, ὅταν περ τὸ κακὸν ἐξίῃ τόδε·
 768	κοὐκ ἔστι λῆξαι πρότερον· ἀλλʼ ἐᾶν χρεὼν
 769	ἕκηλον εὕδειν. ἢν δὲ τῷδε τῷ χρόνῳ
-770	μόλωσʼ ἐκεῖνοι, πρὸς θεῶν ἐφίεμαι
+770	μόλωσʼ ἐκεῖνοι, πρὸς θεῶν, ἐφίεμαι
 771	ἑκόντα μήτʼ ἄκοντα μήτε τῳ τέχνῃ
 772	κείνοις μεθεῖναι ταῦτα, μὴ σαυτόν θʼ ἅμα
 773	κἄμʼ, ὄντα σαυτοῦ πρόστροπον, κτείνας γένῃ.
@@ -31,6 +31,7 @@
 771	the print reads μήτʼ ἄκοντα μήτε τῳ (Jebb keeps L's reading; his apparatus gives μηδʼ … μηδέ as Dindorf's): written as printed.
 772	κείνοις as printed (the OCR's κείνους is wrong).
 776	the print reads ἰδού, δέχου (comma after ἰδού) and a comma after πρόσκυσον: written as printed.
+770	res: comma after θεῶν, as printed
 
 === p-0198
 --- text
@@ -38,7 +39,7 @@
 778	ἐμοί τε καὶ τῷ πρόσθʼ ἐμοῦ κεκτημένῳ.
 @ Νεοπτόλεμος
 779	ὦ θεοί, γένοιτο ταῦτα νῷν· γένοιτο δὲ
-780	πλοῦς οὔριός τε κεὐσταλὴς ὅποι ποτὲ
+780	πλοῦς οὔριός τε κεὐσταλής, ὅποι ποτὲ
 781	θεὸς δικαιοῖ χὠ στόλος πορσύνεται.
 @ Φιλοκτήτης
 782	ἀλλʼ ὄκνος, ὦ παῖ, μὴ ἀτέλεστʼ εὔχῃ ⟨μʼ ἔχει⟩·
@@ -50,7 +51,7 @@
 788	προσέρχεται τόδʼ ἐγγύς. οἴμοι μοι τάλας.
 789	ἔχετε τὸ πρᾶγμα· μὴ φύγητε μηδαμῇ.
 790	ἀτταταῖ.
-791	ὦ ξένε Κεφαλλήν, εἴθε σου διαμπερὲς
+791	ὦ ξένε Κεφαλλήν, εἴθε σοῦ διαμπερὲς
 792	στέρνων ἔχοιτʼ ἄλγησις ἥδε. φεῦ, παπαῖ,
 793	παπαῖ μάλʼ αὖθις. ὦ διπλοῖ στρατηλάται,
 794	Ἀγάμεμνον, ὦ Μενέλαε, πῶς ἂν ἀντʼ ἐμοῦ
@@ -70,14 +71,16 @@
 --- notes
 777	the print reads αὐτά, (acute, comma after it): written as printed.
 782	Jebb prints ἀλλʼ *ὄκνος, ὦ παῖ, μὴ *ἀτέλεστʼ εὔχῃ <μʼ ἔχει>· (his own emendation; Perseus has ἀλλʼ οὖν δέδοικα … τέκνον): written as printed, asterisks left out, his supplement in ⟨ ⟩; margin 780 at πλοῦς, 785 at παπαῖ, φεῦ, 790 at ἀτταταῖ agree with the numbering.
+780	res: κεὐσταλής, (acute, comma after it), as printed
+791	res: σοῦ (circumflex), as printed (Hermann's reading, cp. the apparatus)
 
 === p-0200
 --- text
 795	τὸν ἴσον χρόνον τρέφοιτε τήνδε τὴν νόσον;
 796	ὤμοι μοι.
 797	ὦ Θάνατε Θάνατε, πῶς ἀεὶ καλούμενος
-798	οὕτω κατʼ ἦμαρ, οὐ δύνᾳ μολεῖν ποτε;
-799	ὦ τέκνον ὦ γενναῖον, ἀλλὰ συλλαβὼν
+798	οὕτω κατʼ ἦμαρ οὐ δύνᾳ μολεῖν ποτε;
+799	ὦ τέκνον, ὦ γενναῖον, ἀλλὰ συλλαβὼν
 800	τῷ Λημνίῳ τῷδʼ ἀνακαλουμένῳ πυρὶ
 801	ἔμπρησον, ὦ γενναῖε· κἀγώ τοι ποτὲ
 802	τὸν τοῦ Διὸς παῖδʼ ἀντὶ τῶνδε τῶν ὅπλων,
@@ -99,6 +102,8 @@
 796	the print reads ὤμοι μοι. (the MSS. reading; Perseus has Nauck's ἰώ μοι): written as printed.
 801	the print reads κἀγώ τοι ποτὲ (τοι without accent, grave on ποτὲ): written as printed.
 800	the apparatus word ἀγκαλού-|μενος, divided at the line end, written whole.
+798	res: no comma after ἦμαρ, as printed
+799	res: comma after τέκνον, as printed
 
 === p-0202
 --- text
@@ -133,13 +138,13 @@
 @ Φιλοκτήτης
 816b	μέθες ποτέ.
 @ Νεοπτόλεμος
-817	οὔ φημʼ ἐάσειν.
+817	οὐ φήμʼ ἐάσειν.
 @ Φιλοκτήτης
 817a	ἀπό μʼ ὀλεῖς, ἢν προσθίγῃς.
 @ Νεοπτόλεμος
 818	καὶ δὴ μεθίημʼ, εἴ τι δὴ πλέον φρονεῖς.
 @ Φιλοκτήτης
-819	ὦ γαῖα, δέξαι θανάσιμόν μʼ ὅπως ἔχω
+819	ὦ γαῖα, δέξαι θανάσιμόν μʼ ὅπως ἔχω·
 820	τὸ γὰρ κακὸν τόδʼ οὐκέτʼ ὀρθοῦσθαί μʼ ἐᾷ.
 @ Νεοπτόλεμος
 821	τὸν ἄνδρʼ ἔοικεν ὕπνος οὐ μακροῦ χρόνου
@@ -156,6 +161,8 @@
 810	the print sets θάρσει, μενοῦμεν. ΦΙ. ἦ μενεῖς; ΝΕ. σαφῶς | φρόνει. as one verse with its turnover (margin 810 beside φρόνει.): the draft's split into 810, 810a, 810b by speaker kept; the speakers as printed on 810-817a; margin 815, 820 agree.
 821	the four OCR lines "matched no Perseus words" after this verse are the apparatus, not verses: nothing added.
 818	Blaydes's μεθίεμαι is printed letter-spaced: written plain.
+817	res: οὐ φήμʼ (accent on φήμʼ, none on οὐ), as printed
+819	res: raised stop after ἔχω, as printed (seen on the whole page, not in the residual list)
 
 === p-0204
 --- text
@@ -169,7 +176,7 @@
 828	εὐαὲς ἡμῖν ἔλθοις,
 829	εὐαίων εὐαίων, ὦναξ·
 830	ὄμμασι δʼ ἀντίσχοις
-831	τάνδʼ αἴγλαν, ἃ τέταται τανῦν.
+831	τάνδʼ αἴγλαν ἃ τέταται τανῦν.
 --- apparatus
 823	ἱδρώς γέ τοί νιν MSS. (ἱδρὼσ γέ τοι νιν, sic, L); except that K has δέ for γέ. Buttmann conj. ἱδρώς τε: Dind. ἱδρὼς δέ, or ἱδρῷ ῥέον τε.
 826	ὡς] Wecklein conj. ἕως.
@@ -182,12 +189,13 @@
 --- notes
 822	no flags on this page; margin 825 and 830 agree with the numbering.
 827-838	the words πράσ-|σειν and νευρο-|σπαδής (828), divided at the line end in the apparatus, written whole.
+831	res: no comma after αἴγλαν, as printed
 
 === p-0206
 --- text
 832	ἴθι ἴθι μοι παιών.
 833	ὦ τέκνον, ὅρα ποῦ στάσει,
-834	ποῖ δέ μοι τἀνθένδε βάσει,
+834	ποῖ δέ μοι τἀνθένδε βάσει
 835	φροντίδος. ὁρᾷς ἤδη.
 836	πρὸς τί μενοῦμεν πράσσειν;
 837	καιρός τοι πάντων γνώμαν ἴσχων
@@ -206,3 +214,4 @@
 --- notes
 838	not flagged (Perseus has the same words), but the print sets πολύ τι in angle brackets as Jebb's supplement (<πολύ τι> πολὺ παρὰ …; his apparatus: Hermann added it): the brackets written as ⟨ ⟩. No other flags on the page; margin 835 and 840 agree.
 834	Jebb's "834 f." written 834; φρον-|τίδος divided at the line end, written whole; the note ends on the facing page, nothing runs on to the next spread.
+834	res: no comma after βάσει, as printed

@@ -31,10 +31,10 @@
 
 === p-0222
 --- text
-941	ὀμόσας ἀπάξειν οἴκαδʼ, ἐς Τροίαν μʼ ἄγει·
+941	ὀμόσας ἀπάξειν οἴκαδʼ ἐς Τροίαν μʼ ἄγει·
 942	προσθείς τε χεῖρα δεξιάν, τὰ τόξα μου
 943	ἱερὰ λαβὼν τοῦ Ζηνὸς Ἡρακλέους ἔχει,
-944	καὶ τοῖσιν Ἀργείοισι φήνασθαι θέλει·
+944	καὶ τοῖσιν Ἀργείοισι φήνασθαι θέλει.
 945	ὡς ἄνδρʼ ἑλὼν ἰσχυρὸν ἐκ βίας μʼ ἄγει,
 946	κοὐκ οἶδʼ ἐναίρων νεκρὸν ἢ καπνοῦ σκιάν,
 947	εἴδωλον ἄλλως· οὐ γὰρ ἂν σθένοντά γε
@@ -50,12 +50,14 @@
 949	με δρᾶν L, with most MSS.: ποιεῖν A, Harl.
 950	ἀλλʼ ἀπόδος] ἀπόδοσ L, and so the rest, except V², which has ἀπόδος σύ γʼ. ἀλλʼ was restored by Turnebus. Other conjectures are ἀπόδος, δός (A. Seyffert): ἀπόδος νιν (Blaydes).—ἐν σαυτῷ L: ἐν σαυτοῦ A (which Nauck prefers), and so Brunck.
 --- notes
+941	res: no comma after οἴκαδʼ, as printed
+944	res: full stop after θέλει, as printed (not the raised stop)
 945	the print has ἰσχυρὸν with the grave (as the OCR read, and as Jebb's apparatus quotes it): changed from ἰσχυρόν.
 945	apparatus: Jebb's dot leaders are copied as printed, three dots in the lemma (ἑλὼν...ἐκ), two elsewhere (ἑλὼν..ἐκ, (sic)..ἐκ).
 
 === p-0224
 --- text
-951	τί φής; σιωπᾷς; οὐδέν εἰμʼ ὁ δύσμορος.
+951	τί φής; σιωπᾷς· οὐδέν εἰμʼ ὁ δύσμορος.
 952	ὦ σχῆμα πέτρας δίπυλον, αὖθις αὖ πάλιν
 953	εἴσειμι πρός σε ψιλός, οὐκ ἔχων τροφήν·
 954	ἀλλʼ αὐανοῦμαι τῷδʼ ἐν αὐλίῳ μόνος,
@@ -76,6 +78,7 @@
 958	καί μʼ] κἄμʼ Brunck.—πρόσθε made from πρόσθεν in L.—Purgold rejects this v.
 961	μάθοιμʼ εἰ καὶ] Blaydes conj. μάθοιμεν (or μάθοιμί σʼ, or μάθοιμʼ ἔτʼ) εἰ: C. Walter, μάθοιμʼ εἰ μὴ.
 --- notes
+951	res: raised stop after σιωπᾷς, as printed
 953	the print has πρός σε (acute on πρός, σε enclitic without accent); Jebb's apparatus gives πρὸς σὲ as L's reading: changed from πρὸς σὲ.
 959	the print has τείσω (the OCR's reading), not τίσω: changed.
 961	the print has μήπω as one word (ὄλοιο—μήπω,): changed from μή πω.
@@ -170,7 +173,7 @@
 --- text
 992	θεοὺς προτείνων τοὺς θεοὺς ψευδεῖς τίθης.
 @ Ὀδυσσεύς
-993	οὔκ, ἀλλʼ ἀληθεῖς· ἡ δʼ ὁδὸς πορευτέα.
+993	οὔκ, ἀλλʼ ἀληθεῖς. ἡ δʼ ὁδὸς πορευτέα.
 @ Φιλοκτήτης
 994	οὐ φήμʼ.
 @ Ὀδυσσεύς
@@ -206,6 +209,7 @@
 1002	Hermann conj. πέτρας ἄνωθεν τῆσδʼ ἐναιμάξω πεσών.
 1003	*ξυλλάβετον αὐτὸν Bernhardy: ξυλλάβετʼ αὐτὸν L: ξυλλάβετέ γʼ αὐτὸν A: ξυλλάβετε τοῦτον Triclinius: ξυλλάβετʼ ἄρʼ αὐτὸν Wecklein (Ars p. 33) and Hartung: ξυλλάβετʼ, ἄγʼ, αὐτὸν Burges: ξυλλάβετε, ναῦται Hense: ξυλλάβετʼ, ἄγʼ, οὗτοι Cavallin: ξύλλαβέ τις αὐτὸν Bergk: ξυμμάρψατʼ αὐτὸν M. Schmidt.
 --- notes
+993	res: full stop after ἀληθεῖς, as printed (not the raised stop)
 994	the print has οὐ φήμʼ. (smooth breathing without accent on οὐ, acute on φήμʼ), seen on the flagged line's crop: changed from οὔ φημʼ.
 994a	the print has ἐγὼ δὲ φημί. (grave on δὲ, acute on φημί, as the OCR read): changed from δέ φημι. ΟΔ. is printed inside the line: split as the draft has it.
 1000	seen on the whole page: the print has ἕως γʼ ἂν ᾖ μοι (Jebb's note on 1000: ἕως γʼ Triclinius, Blaydes, Cavallin): γʼ added.

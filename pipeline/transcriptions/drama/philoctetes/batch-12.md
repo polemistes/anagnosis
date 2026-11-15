@@ -36,15 +36,15 @@
 855	οὖρός τοι, τέκνον, οὖρος·
 856	ἁνὴρ δʼ ἀνόμματος οὐδʼ ἔχων
 857	ἀρωγὰν ἐκτέταται νύχιος,
-858	(ἀλεὴς ὕπνος ἐσθλός,)
+859	(ἀλεὴς ὕπνος ἐσθλός,)
 860	οὐ χερός, οὐ ποδός, οὔ τινος ἄρχων,
 861	ἀλλά τις ὡς Ἀΐδᾳ πάρα κείμενος.
 862	ὅρα, βλέπʼ εἰ καίρια
-863	φθέγγει· τὸ δʼ ἁλώσιμον
+863	φθέγγει. τὸ δʼ ἁλώσιμον
 863a	ἐμᾷ φροντίδι, παῖ,
 864	πόνος ὁ μὴ φοβῶν κράτιστος.
 @ Νεοπτόλεμος
-865	σιγᾶν κελεύω μηδʼ ἀφεστάναι φρενῶν·
+865	σιγᾶν κελεύω, μηδʼ ἀφεστάναι φρενῶν.
 866	κινεῖ γὰρ ἁνὴρ ὄμμα κἀνάγει κάρα.
 --- apparatus
 855-864	L divides the vv. thus:—οὖροσ— | δʼ ἀνόμματοσ— | ἐκτέταται— | ἀλεὴσ— | οὐ χερὸσ— | ἀλλʼ ὅστισ— | ὁρᾶι— | τὸ δʼ ἀλώσιμον— | πόνοσ—κράτιστοσ.
@@ -57,8 +57,8 @@
 863	τὸ δʼ from τόδʼ in L.—ἐμᾷ] ἀμᾷ Dindorf.
 866	ἁνὴρ] ἀνὴρ L.
 --- notes
-858	The print sets the verse in round brackets, (ἀλεὴς ὕπνος ἐσθλός,), as a parenthesis within the verses (Jebb's comment: "a parenthetic comment"), not a stage direction: kept as a verse, the brackets as printed in place of the draft's quotation marks.
-858	Numbering: Jebb prints ἀρωγὰν ἐκτέταται νύχιος as one verse (our 857) and numbers his apparatus notes 858 (νύχιος) and 859 (ἀλεὴς); our numbering by the Perseus rule gives ἀλεὴς the number 858 (margin 860 at οὐ χερός agrees either way). The apparatus keeps Jebb's numbers 858 and 859.
+859	The print sets the verse in round brackets, (ἀλεὴς ὕπνος ἐσθλός,), as a parenthesis within the verses (Jebb's comment: "a parenthetic comment"), not a stage direction: kept as a verse, the brackets as printed in place of the draft's quotation marks.
+859	res: renumbered 858 to 859, as the print counts: Jebb's apparatus numbers νύχιος 858 and ἀλεὴς 859, so ἀρωγὰν ἐκτέταται νύχιος (857) covers 858; margin 860 at οὐ χερός agrees.
 861	The print has πάρα κείμενος (two words; crop clear) and *τις (asterisk left out): changed from παρακείμενος.
 863a	The print sets ἐμᾷ φροντίδι, παῖ, as its own verse: lettered number confirmed.
 855-864	The note is numbered "855—864" in the print.
@@ -66,11 +66,15 @@
 856	ὣ ʼνὴρ Brunck: the breathing and accent on ω are small in the scan; read as rough breathing with grave.
 863	ἀμᾷ Dindorf: the breathing looks smooth on the scan, the same shape as on ἐμᾷ just before; written as seen.
 862	φθέγγου L²: the superscript 2 after L is clear on the facing page.
+863	res: full stop after φθέγγει, as printed
+865	res: comma after κελεύω, as printed
+865	res: full stop after φρενῶν, as printed
+858	The apparatus note 858 (νύχιος] νύχιʼ Wecklein) is printed so by Jebb; νύχιος stands in our 857, which covers 858 in his count.
 
 === p-0212
 --- text
 @ Φιλοκτήτης
-867	ὦ φέγγος ὕπνου διάδοχον τό τʼ ἐλπίδων
+867	ὦ φέγγος ὕπνου διάδοχον, τό τʼ ἐλπίδων
 868	ἄπιστον οἰκούρημα τῶνδε τῶν ξένων.
 869	οὐ γάρ ποτʼ, ὦ παῖ, τοῦτʼ ἂν ἐξηύχησʼ ἐγώ,
 870	τλῆναί σʼ ἐλεινῶς ὧδε τἀμὰ πήματα
@@ -97,6 +101,7 @@
 --- notes
 867	No flags on this page; the apparatus runs on to the facing page (leaf 213).
 879	The note is numbered "879 f." in the print.
+867	res: comma after διάδοχον, as printed
 
 === p-0214
 --- text
@@ -118,7 +123,7 @@
 @ Φιλοκτήτης
 894	θάρσει· τό τοι σύνηθες ὀρθώσει μʼ ἔθος.
 @ Νεοπτόλεμος
-895	παπαῖ· τί δῆτʼ ἂν δρῷμʼ ἐγὼ τοὐνθένδε γε;
+895	παπαῖ· τί δῆτʼ ⟨ἂν⟩ δρῷμʼ ἐγὼ τοὐνθένδε γε;
 --- apparatus
 884	σου r, Ald.: σοι L, which Blaydes reads.
 887	οἴσουσι] Blaydes conj. ἀροῦσι: C. Schirlitz, στήσουσι.
@@ -128,6 +133,7 @@
 895	τί δῆτα δρῶμʼ (sic) L. No MS. has ἂν. Schaefer restored τί δῆτʼ ἂν δρῷμʼ. Brunck conj. τί δῆτα δρῷμʼ ἂν ἐκ τούτων ἐγώ;—τοὐνθένδε γε A: τοὐνθένδε λέγε L, r: τοὐνθάδε λέγε B. Erfurdt conj. τοὐνθένδʼ ἔτι; and so Blaydes.
 --- notes
 882	No flags on this page; the apparatus runs on to the facing page (leaf 215).
+895	res: the print has τί δῆτʼ <ἂν> δρῷμʼ (Jebb's supplement in angle brackets; not in the residual list, seen on the page): written ⟨ἂν⟩
 
 === p-0216
 --- text
@@ -151,7 +157,7 @@
 @ Νεοπτόλεμος
 906	αἰσχρὸς φανοῦμαι· τοῦτʼ ἀνιῶμαι πάλαι.
 @ Φιλοκτήτης
-907	οὔκουν ἐν οἷς γε δρᾷς· ἐν οἷς δʼ αὐδᾷς ὀκνῶ.
+907	οὔκουν ἐν οἷς γε δρᾷς· ἐν οἷς δʼ αὐδᾷς, ὀκνῶ.
 --- apparatus
 896	λόγῳ] ‘Mallem legere λόγων’ (Brunck). Harl. has λόγων, which Cavallin adopts.
 897	ὅποι] ὅπη Γ.—τρέπειν] Nauck conj. στρέφειν.
@@ -168,6 +174,7 @@
 896	No flags on this page; the apparatus runs on to the facing page (leaf 217).
 902	αὑτοῦ r: αὐτοῦ L: the two breathings cannot be told apart in the scan; the first written rough as the text prints αὑτοῦ and as the note's contrast requires.
 907	The breathings on οἷστε, οἷστʼ, οἷ δʼ, οἷς are not clear in the scan; written rough as the words require. The parenthesis opened after L is not closed in the print; copied as printed. "γε..ἐν" with two dots as printed.
+907	res: comma after αὐδᾷς, as printed
 
 === p-0218
 --- text
@@ -198,7 +205,7 @@
 921	καὶ ταῦτʼ ἀληθῆ δρᾶν νοεῖς;
 @ Νεοπτόλεμος
 921a	πολλὴ κρατεῖ
-922	τούτων ἀνάγκη, καὶ σὺ μὴ θυμοῦ κλύων.
+922	τούτων ἀνάγκη· καὶ σὺ μὴ θυμοῦ κλύων.
 @ Φιλοκτήτης
 923	ἀπόλωλα τλήμων, προδέδομαι. τί μʼ, ὦ ξένε,
 924	δέδρακας; ἀπόδος ὡς τάχος τὰ τόξα μοι.
@@ -224,3 +231,4 @@
 926	ἔνδικόν confirmed on this verse.
 912	The note is numbered "912 f." in the print.
 916	"L.—Wunder" is printed with a doubled dash; written as the usual ".—".
+922	res: raised stop after ἀνάγκη, as printed
