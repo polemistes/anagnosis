@@ -236,6 +236,98 @@ translation and the rule (crops `-app2-l.png`, `-app2-r.png`): write it with the
   … r = one or more of the later MSS. … MSS., after a reading, means …"): it is not an item.
   Copy it under `--- notes` in one line beginning `Sigla:`.
 
+**Murray's Euripides (Oxford text).** G. Murray, Euripidis Fabulae, Oxford (vol. I 1902:
+Cyclops, Alcestis, Medea, Heraclidae, Hippolytus, Andromache, Hecuba; vols. II-III the other
+plays). These plays are **private until 2028-01-01** (pipeline/PLAN-euripides.md): their batch
+files live in `private/` (the play's folder here is a link into it). Never copy any of their
+text or apparatus into another file, a message to another agent, or anything outside the batch
+file and your own scratch folder. Every page is a text page; there is no facing translation.
+* **What stands on the page.** At the top the running head (ΕΥΡΙΠΙΔΟΥ on the left-hand pages,
+  the play's title, e.g. ΜΗΔΕΙΑ, on the right-hand ones): not text. Then 20-29 verses; the
+  margin numbers every fifth verse stand at the **right** on both pages. Under the verses, with
+  a wider space and **no rule**, the apparatus in small type, Latin, set to the full width. At
+  the foot of some pages, under the apparatus, the printer's signature: "EUR. I." with a
+  sheet number at the right, or the number alone with an asterisk (7*): not apparatus, leave
+  it out (the crops stop above it; if a crop shows it, ignore it). The first page of a play has
+  the play's title above the text.
+* **Speakers.** The speaker's abbreviation stands in the left margin before the verse where
+  the speaker begins, the name's first two letters: in the Medea Τρ. (Τροφός), Πα.
+  (Παιδαγωγός), Μη., Χο., Κρ., Ια., Αι. (Αἰγεύς); in the Alcestis Χο., Αδ., Ηρ. and the
+  others of the play's persons page (the check sheet lists the check text's names). The same abbreviation can mean two persons (in the Medea, Πα. is the
+  Paedagogus early in the play, the children, Παῖδες, at 1271 ff.): take the name the check
+  text gives there unless the page plainly says otherwise. A character's first entry is
+  announced by the name in capitals on a line of its own above the speech (ΙΑΣΩΝ, ΑΓΓΕΛΟΣ):
+  that heading is not text, it is the `@ Name` line. Words printed with the heading in brackets
+  ((ἔνδοθεν), "within") are a stage direction: a `!` line with the words as printed, before
+  the verse. A change of speaker **inside** a printed line is printed with the next speaker's
+  abbreviation in the line itself (Ια. … Μη. …): the line is split at that point into lettered
+  verses as the draft does it (the second part `1397a`), each part after its own `@` line.
+  Within the chorus or a group a change of voice is printed as a dash — before the words: the
+  dash is part of the verse as printed (Perseus has it too); it is not a new `@` line.
+* **Metrical labels and turnovers.** At the right of a strophe's first verse Murray prints
+  `[στρ.`, `[ἀντ.` (and `[ἐπῳδ.`): not text, not a bracket of the text; leave them out. A
+  lyric verse too long for the measure ends on the next printed line, set in, often after a
+  divided word (σε- | βίζουσʼ); the margin number may stand beside that turnover. It is one
+  verse: the word is written whole and the margin number belongs to the verse it ends (the
+  draft joins such lines and flags the join: confirm it on the image).
+* **The check text is Murray's own text** (Perseus digitised this very edition by OCR). So a
+  flag is almost always an OCR slip on one side: Tesseract's (δʼ read as ὃ, ἂν as ἃν, a lost
+  breathing) or Perseus's (a garbled word, a wrong accent, a lost stop). Decide from the crop
+  which: where the page agrees with the check text, leave the line; where the page prints
+  something else, write what the page prints and say under notes "Perseus has X". A real
+  difference of reading between the print and the check text is rare: when you find one, look
+  twice and note it.
+* **Signs in the text**, written as printed: square brackets [ ] round words or verses Murray
+  deletes (a deleted verse stays a verse, in its brackets); his additions in angle brackets,
+  printed ⟨ ⟩ (also round a whole supplied cry with its speaker's heading: the `@` line, then
+  the verse in ⟨ ⟩, and say under notes where the bracket opens); daggers † round corrupt words,
+  exactly where they stand; a lacuna he marks with a row of asterisks or dots between verses is
+  a `!` line with the row as printed (`* * * * *`). The play's opening words, if printed in
+  capitals, are written as the check text spells them. Otherwise a verse's first word has a
+  capital only where the print has one in its ordinary type (a proper name, a speech's first
+  word where Murray prints one): Murray does not capitalise verse beginnings.
+* **Numbering** (what the Sophocles plays taught): the verses carry **Murray's** numbers. His
+  witnesses are the margin numbers and the numbers of his apparatus (an item numbered 634 names
+  the verse that holds its lemma). The check text's numbers, from which the draft numbered the
+  verses, run in lyric passages at times one behind or ahead of his, where the traditional
+  numbering skips or doubles a number (in the Medea's second stasimon Perseus numbers ἱμέρῳ …
+  633 where Murray's apparatus shows 634). The margin check sees only every fifth number, so
+  in lyrics compare every apparatus number on the page with the verse that holds its lemma, and
+  renumber the verses (and the following ones up to the next margin number) where they
+  disagree; note each renumbering. A verse that covers two traditional numbers carries the
+  first, and the second is skipped. A line Murray prints as one, shared between speakers, is one
+  printed line split into lettered verses at the change of speaker (above). Where Murray prints
+  verses out of the order of their numbers (the Medea 1271-1272 after 1273-1274, with his
+  margin numbers beside them), write them in his order with his numbers and explain the
+  checker's "does not run on" remark under notes.
+* **The apparatus.** Each item begins with the line number, **without a stop**, then the lemma
+  (often closed by a square bracket) and the readings with their sigla. Items run on in the
+  paragraph, separated by wider spaces; a new number begins a new item. Several items for one
+  line, the second printed without the number (a second lemma after a wider space), are separate
+  output lines with the same number; where you cannot tell, keep them in one item. Two
+  consecutive lines named together ("21, 22", "38-43") are a range `21-22`, `38-43`; lines not
+  consecutive ("1125, 1129, 1136 …") go under the first number, and the item keeps the further
+  numbers as printed at its start. "Post 1056 …" goes under 1056 with "Post 1056" kept in the
+  item. A remark printed without a number after the last item of the play ("In fine …", the
+  manuscripts' subscriptions) goes under the play's last verse. An item that runs on to the
+  next page (rare: each page's apparatus treats that page's verses) is written whole on the page
+  where it begins.
+* **Sigla**, copied exactly as on Murray's Sigla page: the manuscripts M A B V L P (O D F N, Nap.,
+  Haun., Apogr. Par. rarely), the papyri Π, the fragments K, H, Ambr.; Σ for the scholia (Σ B,
+  Σ V for a scholion in one manuscript, as printed); a manuscript's first and second hand as
+  Unicode superscripts (L¹, V², B¹, A¹); the later correcting hands as the small letters l, p, v,
+  b (his Sigla page: "litteris minusculis"; write the small letter, italics are ignored); γρ.
+  (a variant noted in a manuscript), codd., rell., corr., suprascr., om., cf., fortasse, sic,
+  and the scholars' names (Elmsley, Porson, Nauck, Wilamowitz, Verrall …) and references as
+  printed. Greek in the apparatus with full accents and breathings as printed.
+* Format, as everywhere: one output line per item, `N<TAB>item` (a range `N-M`); no space
+  before a colon or semicolon; save after each page.
+* **Keep to the flags and the apparatus.** A review pass follows every batch: it reads every
+  verse against the whole page for stops, accents, breathings, iota subscripts, brackets and
+  daggers, and compares the apparatus's breathings at enlargement with certain ones on the same
+  page. So do not re-read unflagged verses word by word; spend the care on the flags, the
+  numbering in the lyrics and a complete apparatus.
+
 **Your own files.** Scripts, enlarged crops and other helpers go only in a folder of your own,
 named after your batch file, under the session's scratchpad folder (e.g.
 `<scratchpad>/agamemnon-notes-03/`); other agents work beside you at the same time and use the

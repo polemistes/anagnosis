@@ -138,9 +138,9 @@ matter there (a pass stays only if it catches real errors):
 4. `drama-residuals <slug>` and its pass (RESIDUALS.md); then **one review per batch** with the
    five-point `extra` reading task of the Oedipus at Colonus review (every verse against the
    page for punctuation, accents, breathings, iota subscripts, brackets and daggers; the
-   apparatus's breathings enlarged and compared with certain ones on the same page). Murray's
-   apparatus has superscript hands (L², B¹), italic sigla for later hands (*l p*) and Σ: the
-   brief must say how each is written (to be settled on the Medea's first batch).
+   apparatus's breathings enlarged and compared with certain ones on the same page). How
+   Murray's sigla are written (superscript hands L¹ L², the later correcting hands as the small
+   letters l p v b of his Sigla page, Σ) is in INSTRUCTIONS-text.md, "Murray's Euripides".
 5. `merge-drama <slug>` (never chained with `&&`: it exits with the number of its remarks); the
    numbering suspects (the Sophocles plays needed `sophocles-numbering`; a like report for
    Murray's lyric division to be written if the merge log shows covered verses); the review
@@ -248,11 +248,15 @@ own text): rewrite each at its turn as the Medea's was.
   and after the first merge a numbering report like `sophocles-numbering` (which reads only
   commentary-jebb-apparatus.md) must be run on commentary-murray-apparatus.md; (2) the metrical
   labels, the character headings and the signatures are not text; (3) how to write Murray's
-  sigla: superscript hands (L², B¹ as in Jebb's batches), italic later hands (*l*, *p*, *v*:
-  plain letters, as they are only told apart by the italic: decide on batch 01 and say it in
-  sigla.md), Σ, "codd.", "rell.". **Next**: that brief section, then batch 01 alone as a trial
+  sigla: superscript hands (L², B¹ as in Jebb's batches), the later correcting hands as small
+  letters (l, p, v, b: Murray's Sigla page says "litteris minusculis"; sigla.md must say so),
+  Σ, "codd.", "rell.". **Next**: batch 01 alone as a trial
   (Opus), look at it, then the rest (at most ten at once); the Philoctetes's finishing comes
   first by the author's order.
+* **2026-11-16: the agents' brief has its section** "Murray's Euripides (Oxford text)" in
+  pipeline/transcriptions/drama/INSTRUCTIONS-text.md (the page, speakers, what is not text, the
+  check text being Murray's own, signs, numbering by his apparatus and margin, the apparatus and
+  its sigla, the review pass to follow). Batch 01 can run as the trial.
 
 ## Decisions
 
