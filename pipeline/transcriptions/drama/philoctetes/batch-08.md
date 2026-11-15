@@ -90,8 +90,8 @@ no flags on this page.
 @ Νεοπτόλεμος
 557	ἀλλʼ ἡ χάρις μὲν τῆς προμηθίας, ξένε,
 558	εἰ μὴ κακὸς πέφυκα, προσφιλὴς μενεῖ·
-559	φράσον δʼ ἅπερ, γʼ ἔλεξας, ὡς μάθω τί μοι
-560	νεώτερον, βούλευμʼ ἀπʼ Ἀργείων ἔχεις.
+559	φράσον δʼ ἅπερ γʼ ἔλεξας, ὡς μάθω τί μοι
+560	νεώτερον βούλευμʼ ἀπʼ Ἀργείων ἔχεις.
 @ Ἔμπορος
 561	φροῦδοι διώκοντές σε ναυτικῷ στόλῳ
 562	Φοῖνιξ ὁ πρέσβυς οἵ τε Θησέως κόροι.
@@ -107,18 +107,27 @@ no flags on this page.
 @ Νεοπτόλεμος
 568	πῶς οὖν Ὀδυσσεὺς πρὸς τάδʼ οὐκ αὐτάγγελος
 --- apparatus
+557	τῆς] Seyffert conj. σῆς.
+558	πέφυκα, προσφιλὴς] Desiring ἀσφαλὴς, Burges conj. πέφυκʼ ἄκρʼ (‘consummately’): Blaydes, πέφυκά γʼ: Mekler, πέφυχʼ ὅδʼ.
+559	ἅπερ γʼ ἔλεξας A: ἅπερ ἔλεξασ L, with most of the other MSS.—Hartung conj. ἅπερ προὔλεξας: Herwerden, ἅπερ λέλακας: Wecklein, ἅπερ ὑπέδειξας: Seyffert, ἄγʼ ἅπερ ἔλεξας: Weil, ὁποῖʼ ἔλεξας: Nauck, ὅπως ἔλεξας.
+560	ἔχεις] φέρεις Γ.
+562	φοῖνιξ from φοίνιξ L.
+563	λόγοις] Nauck conj. δόλοις.
+566	καθʼ ὁρμὴν] Nauck conj. καθʼ ἡμῶν.
+567	ὡς ταῦτʼ ἐπίστω δρώμενʼ] Nauck conj. σὺ for ὡς: Blaydes, ὡς δρώμενʼ ἴσθι ταῦτʼ, or ταῦτʼ ἐξεπίστω δρώμενʼ.
 --- notes
+559	no flags on this page. Seen on the whole page: the print has no comma after ἅπερ (559) nor after νεώτερον (560), which Perseus has; both commas removed. The 560 note ends on the facing page (φέρεις Γ.). ἔλεξασ in the 559 note with final σ as printed; φοῖνιξ/φοίνιξ in the 562 note lower-case as printed.
 
 === p-0168
 --- text
-569	πλεῖν ἦν ἕτοιμος; ἢ φόβος τις εἶργέ νιν;
+569	πλεῖν ἦν ἑτοῖμος; ἢ φόβος τις εἶργέ νιν;
 @ Ἔμπορος
 570	κεῖνός γʼ ἐπʼ ἄλλον ἄνδρʼ ὁ Τυδέως τε παῖς
 571	ἔστελλον, ἡνίκʼ ἐξανηγόμην ἐγώ.
 @ Νεοπτόλεμος
-572	πρὸς ποῖον αὖ τόνδʼ αὐτὸς Οὑδυσσεὺς ἔπλει;
+572	πρὸς ποῖον αὖ τόνδʼ αὐτὸς οὑδυσσεὺς ἔπλει;
 @ Ἔμπορος
-573	ἦν δή τισ—ἀλλὰ τόνδε μοι πρῶτον φράσον
+573	ἦν δή τις—ἀλλὰ τόνδε μοι πρῶτον φράσον
 574	τίς ἐστίν· ἃν λέγῃς δὲ μὴ φώνει μέγα.
 @ Νεοπτόλεμος
 575	ὅδʼ ἔσθʼ ὁ κλεινός σοι Φιλοκτήτης, ξένε.
@@ -126,24 +135,46 @@ no flags on this page.
 576	μή νύν μʼ ἔρῃ τὰ πλείονʼ, ἀλλʼ ὅσον τάχος
 577	ἔκπλει σεαυτὸν ξυλλαβὼν ἐκ τῆσδε γῆς.
 @ Φιλοκτήτης
-578	τί φησιν, ὦ παῖ; τί με κατὰ σκότον ποτὲ
+578	τί φησίν, ὦ παῖ; τί με κατὰ σκότον ποτὲ
 579	διεμπολᾷ λόγοισι πρός σʼ ὁ ναυβάτης;
 @ Νεοπτόλεμος
-580	οὐκ οἶδά πω τί φησι· δεῖ δʼ αὐτὸν λέγειν
+580	οὐκ οἶδά πω τί φησί· δεῖ δʼ αὐτὸν λέγειν
 581	εἰς φῶς ὃ λέξει, πρὸς σὲ κἀμὲ τούσδε τε.
 @ Ἔμπορος
 582	ὦ σπέρμʼ Ἀχιλλέως, μή με διαβάλῃς στρατῷ
 583	λέγονθʼ ἃ μὴ δεῖ· πόλλʼ ἐγὼ κείνων ὕπο
 584	δρῶν ἀντιπάσχω χρηστά θʼ, οἷʼ ἀνὴρ πένης.
 --- apparatus
+569	εἶργε] εἷργε L (made from εἶργε?).
+570	κεῖνός γʼ] Benedict conj. κεῖνός τʼ.
+571	ἐγώ B: ἔσω L, A, etc.
+572	πρὸς ποῖον ἂν τόνδʼ MSS. Dobree’s conjecture of αὖ for ἂν is adopted by Dindorf, Blaydes, Nauck, Wecklein, Cavallin.—Dissen and (independently) Wecklein also conj. οὖν.—οὑδυσσεὺς] In L the 1st hand wrote ὁδυσσεὺσ: υ (very small) was then inserted after ὁ either by that hand itself, or by S.
+574	ἃν Brunck (writing ἃ ῎ν): ἂν MSS. (in L ἀν). The same error occurs in O. T. 281.
+576	μή νυν] μὴ νῦν L.
+577	ἔκπλει σεαυτὸν] Paley conj. ἔκπλευσον αὐτὸν.
+578	τί με] Seyffert reads τί δὲ, and so Cavallin. Nauck conj. τίσι (with λόγοις με in 579).
+579	πρός σʼ] In L the 1st hand wrote πρὸ σʼ: S inserted another σ after ὸ.
+580	Nauck places in the text his conjectures οἶδʼ ἐγώ for οἶδά πω, and σαφῶς for εἰς φῶς. He further suggests χρήζει for λέξει.
+582	διαβάλῃς r: διαβάλλησ (sic) L.
+584	χρηστά θʼ Dobree, and so most recent edd.: χρηστά γʼ MSS.
 --- notes
+573	flag: the print has τις— with final ς (the draft had τισ—); corrected.
+575	flag: ξένε as printed; unchanged.
+578	flag: the print accents φησίν (not enclitic φησιν); written as printed.
+580	flag: the print accents φησί·; written as printed.
+569	unflagged, seen on the whole page: the print has ἑτοῖμος (Perseus ἕτοιμος); written as printed.
+572	unflagged, seen on the whole page: the print has οὑδυσσεὺς with a small ο; the capital removed.
+569	apparatus: the breathing of L's εἷργε is read from a tiny mark that differs in shape from the smooth breathings of the lemma and of the word in brackets; if it is smooth the note would make no sense (made from itself).
+572	apparatus: "572 πρὸς ποῖον" and "580 f." (filed under 580) as printed; "Dobree’s" with the English apostrophe; "1st hand" printed in small capitals.
+574	apparatus: Brunck's form printed as ἃ followed by a separate breathing-and-acute sign before ν: written ῎ (U+1FCE).
+584	apparatus: the note runs on to the next spread (p-0170, "χρηστά γʼ MSS."): written whole here.
 
 === p-0170
 --- text
 @ Νεοπτόλεμος
 585	ἐγώ εἰμʼ Ἀτρείδαις δυσμενής· οὗτος δέ μοι
 586	φίλος μέγιστος, οὕνεκʼ Ἀτρείδας στυγεῖ.
-587	δεῖ δή σʼ ἔμοιγʼ ἐλθόντα προσφιλῆ, λόγων
+587	δεῖ δή σʼ, ἔμοιγʼ ἐλθόντα προσφιλῆ, λόγων
 588	κρύψαι πρὸς ἡμᾶς μηδένʼ ὧν ἀκήκοας.
 @ Ἔμπορος
 589	ὅρα τί ποιεῖς, παῖ.
@@ -157,7 +188,7 @@ no flags on this page.
 591	λέγω. ʼπὶ τοῦτον ἄνδρε τώδʼ ὥπερ κλύεις,
 592	ὁ Τυδέως παῖς ἥ τʼ Ὀδυσσέως βία,
 593	διώμοτοι πλέουσιν ἦ μὴν ἢ λόγῳ
-594	πείσαντες ἄξειν ἢ πρὸς ἰσχύος κράτος.
+594	πείσαντες ἄξειν, ἢ πρὸς ἰσχύος κράτος.
 595	καὶ ταῦτʼ Ἀχαιοὶ πάντες ἤκουον σαφῶς
 596	Ὀδυσσέως λέγοντος· οὗτος γὰρ πλέον
 597	τὸ θάρσος εἶχε θατέρου δράσειν τάδε.
@@ -165,4 +196,22 @@ no flags on this page.
 598	τίνος δʼ Ἀτρεῖδαι τοῦδʼ ἄγαν οὕτω χρόνῳ
 599	τοσῷδʼ ἐπεστρέφοντο πράγματος χάριν,
 --- apparatus
+585	ἐγώ εἰμʼ L 1st hand, altered by S to ἐγὼ ʼμʼ. Most of the other MSS. have ἐγώ εἰμʼ (as A), or ἐγώ ʼμʼ (as B): ἐγὼ μὲν Γ. Nauck conj. ἔγωγʼ.
+587	προσφιλῆ, *λόγων] προσφιλῆ λόγον L, etc.: προσφιλεῖ λόγῳ in Harl. (15th cent.), which Burges adopts in his text, is an isolated v. l. For λόγον Burges conj. λόγων, received by Nauck, Wecklein, Mekler.
+588	After ἡμᾶς two letters (δὲ?) have been erased in L.—μηδένʼ MSS.: Linwood conj. μηδὲν, and so Blaydes.
+590	ποιοῦ] Wecklein (Ars p. 62) conj. θοῦ τοι: Reiske, πείθου or πιθοῦ.
+591	ὥπερ L: ὥσπερ r.
+592	Herwerden would delete this v., because the names have been given already (570).
+593	ἦ] ἤ L. For ἦ μὴν ἢ Elmsley conj. ἦ μήν νιν.
+594	πείσαντες] πείσαντέ γʼ B, and so Brunck. Burges conj. πείσαντʼ ἀπάξειν.
+598	οὕτωι L 1st hand, but the ι has been erased.—Nauck would reject the words from Ἀτρεῖδαι to τοσῷδʼ inclusive.
 --- notes
+589a	flag: the print sets 589 as one line shared by two speakers (ΕΜ. ὅρα τί ποιεῖς, παῖ. ΝΕ. σκοπῶ κἀγὼ πάλαι.): the split and the speaker change kept.
+590a	flag: likewise one printed line, ΕΜ. … ΝΕ. ποιοῦ λέγων.: split and speaker kept.
+593	flag: ἢ is printed on this line (ἦ μὴν ἢ λόγῳ); unchanged.
+587	unflagged, seen on the whole page: the print has a comma after σʼ (δή σʼ, ἔμοιγʼ); added.
+594	unflagged, seen on the whole page: the print has a comma after ἄξειν; added.
+584	the apparatus begins with the end of the 584 note (χρηστά γʼ MSS.), written with p-0168.
+587	the asterisk in the lemma *λόγων (Jebb's mark of a conjecture in the text) kept as printed in the apparatus.
+593	Elmsley's conjecture is printed "η μήν νιν" with no breathing or accent on η (a dropped mark); written ἦ, as in the lemma and the verse.
+598	printed "598 f.": filed under 598. "1st hand" printed in small capitals.

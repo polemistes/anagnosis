@@ -53,7 +53,18 @@
 630	δεῖξαι νεὼς ἄγοντʼ ἐν Ἀργείοις μέσοις;
 631	οὔ· θᾶσσον ἂν τῆς πλεῖστον ἐχθίστης ἐμοὶ
 --- apparatus
+614	ἤκουσʼ r: ἤκουσεν L.—τόκος L, A, and most MSS.: γόνος B, R, Lc.
+615	εἰπόντʼ from εἰπόνθʼ in L.
+618	Nauck conj. καὶ καρατομεῖν | ἐφεῖτο τῷ θέλοντι τῶνδε μὴ τυχών.
+621	κήδηι L.—F. W. Schmidt conj. κήδοιʼ ἔτι.
+622	ἡ] ἧ L.
+625	πρὸς φῶς ἀνελθεῖν] Nauck writes εἰς φῶς ἂν ἐλθεῖν.
+630	ἄγοντʼ from ἄγονθʼ L.
+631	οὔ·] οὐ· 1st hand in L: S added the accent, but in front of the breathing. Seyffert, from the margin of Turnebus, gives οὐ θᾶσσον...; Welcker conj. οὗ θᾶσσον, and so Dind., Wunder, Hartung, Blaydes, Wecklein.—Schneidewin conj. ἦ θᾶσσον.
 --- notes
+624	Flag Ἅιδου: the page prints Ἅιδου (the OCR's ἽΛιδου is a misreading); kept.
+618	The apparatus note is printed "618 f."; filed under 618.
+631	The note runs on to the top of the next text page's apparatus (p-0176, "θᾶσσον...; Welcker conj. ... ἦ θᾶσσον."); written whole here.
 
 === p-0176
 --- text
@@ -73,7 +84,7 @@
 642	οὔκ, ἀλλὰ κἀκείνοισι ταῦτʼ ἐναντία.
 @ Φιλοκτήτης
 643	οὐκ ἔστι λῃσταῖς πνεῦμʼ ἐναντιούμενον,
-644	ὅταν παρῇ κλέψαι τι χἀρπάσαι βίᾳ.
+644	ὅταν παρῇ κλέψαι τε χἀρπάσαι βίᾳ.
 @ Νεοπτόλεμος
 645	ἀλλʼ εἰ δοκεῖ, χωρῶμεν, ἔνδοθεν λαβὼν
 646	ὅτου σε χρεία καὶ πόθος μάλιστʼ ἔχει.
@@ -85,7 +96,24 @@
 649	φύλλον τί μοι πάρεστιν, ᾧ μάλιστʼ ἀεὶ
 650	κοιμῶ τόδʼ ἕλκος, ὥστε πραΰνειν πάνυ.
 --- apparatus
+633	πάντα δὲ] Wakefield conj. πάντα τε.
+636	ὁρίζῃ Reiske, Brunck: ὁρίζει MSS. (χωρίζει Ha.l.): marg. gl. in L, διΐστησιν.—Buttmann retained ὡς (as = ‘since’) ὁρίζει: Hermann gave ἕως... ὁρίζει.
+637	Hermann would assign these two vv. to the Chorus. Blaydes follows Bergk in rejecting them.
+639	τοὐκ r: τοῦ L.—ἀνῇ Pierson: ἄηι L, with gl. παρῆι: ἀγῆ A (with gl. πέσῃ, θραυσθῇ, showing that the annotator took it from ἐάγην,—‘be broken,’ i.e. ‘fall’!).
+642	οὔκʼ· ἀλλὰ (sic) L.—Seyffert reads, οὐκ αὐτὰ...; Meineke, οὐκ ἆρα...; (and so Cavallin): Wecklein (Ars p. 40) οὐκ ἆρʼ ἅμα...; O. Heine, ἀλλʼ οὐχὶ...; Schneidewin (formerly), ἀλλʼ ἐστὶ...: Doederlein, οἶδʼ· ἀλλὰ (and so Nauck): Mekler, εὖ γʼ· ἀλλὰ.—Paley would justify οὔκ by a transposition, arranging the vv. thus: 643, 644, 642, 641.
+644	κλέψαι τε] Bergk conj. κλέψαι τι.
+645	λαβὼν] Dobree conj. λαβόνθʼ, and so Hartung.
+647	ἄπο] Reiske conj. ἄγαν: Burges, οὐ πολλῶν γε, παῖ.
+648	τί τοῦθʼ] Blaydes conj. τί δʼ ἔσθʼ.—ἔνι MSS.: ἔπι is conject. by London ed. (1747), Heath, Wakefield, etc.: ἄπο by Hartung.
+649	μάλιστʼ ἀεὶ] Hense conj. μάλιστα, παῖ: Tournier, τάχιστʼ ἀεὶ.
+650	πάνυ] πόνου R (16th cent.), which Hartung adopts. Reiske conj. πόνον: Wecklein, πόδα: Nauck, πάλιν: Hense, πολύ: Meineke, ταχύ.
 --- notes
+644	Flag τι: the page prints τε (κλέψαι τε χἀρπάσαι), as Jebb's apparatus confirms ("κλέψαι τε] Bergk conj. κλέψαι τι"); changed to τε.
+650	The seven printed lines flagged after 650 are the OCR of the apparatus, not verses; nothing added.
+631	The apparatus begins with the end of the note on 631 ("θᾶσσον...; ... ἦ θᾶσσον."), written with that note on p-0174.
+637	The apparatus note is printed "637 f."; filed under 637.
+648	The print marks ἔπι with Jebb's asterisk (a conjecture); the asterisk left out, the word as in the draft.
+642	Wecklein's conjecture is printed οὐκ ἄρʼ ἄμα with a smooth breathing on ἄμα, an evident misprint; written ἅμα.
 
 === p-0178
 --- text
@@ -114,7 +142,18 @@
 665	ὃς πατέρα πρέσβυν, ὃς φίλους, ὃς τῶν ἐμῶν
 666	ἐχθρῶν μʼ ἔνερθεν ὄντʼ ἀνέστησας πέρα.
 --- apparatus
+654	τόξʼ ἃ] τόξα Ald., with A.
+655	ταῦτʼ οὐ γαρ άλλʼ (sic, not ἀλλʼ) ἔσθʼ ἃ βαστάζω χεροῖν L. Two modes of completing the v. appear in other MSS.: (1) A, οὐ γὰρ ἄλλα γʼ ἔσθʼ: (2) Γ, ἄλλʼ ἔσθʼ ἀλλʼ.—Hartung conj. ταῦτʼ, οὐ γὰρ ἔστιν ἄλλʼ: Hense, ταῦτʼ, οὐ γὰρ ἄλλʼ ἔτʼ ἔσθʼ: Mekler, ταῦτʼ, οὐ γὰρ ἄλλʼ, ἔξισθʼ.
+656	ἆρʼ] ἄρʼ L.
+657	με] Blaydes gives σφε.
+659	ξυμφέρῃ] συμφέρον Γ.
+661	εἴ μοι] Reiske conj. εἰ μὲν.—πάρες] Nauck and Blaydes conj. οὐ θέλω.
+663	τόδʼ r: τότʼ L.
+666	πέραι L. Burges conj. μʼ ὕπερ: Blaydes, the same, or πάλιν, or χερί: Cavallin, κάρα.
 --- notes
+654	Flag ἦ: printed on this verse (ΝΕ. ἦ ταῦτα ...); kept.
+657	Flag θεόν: printed at the end of this verse; kept.
+655	L's reading has άλλʼ with an acute and no breathing, as Jebb's "(sic, not ἀλλʼ)" says; copied so.
 
 === p-0180
 --- text
@@ -133,7 +172,18 @@
 @ Χορός
 676	λόγῳ μὲν ἐξήκουσʼ, ὄπωπα δʼ οὐ μάλα,
 --- apparatus
+667	Hense would omit from ταῦτά σοι to δοῦναι inclusive.
+668	καὶ δόντι δοῦναι] Musgrave conj. καὶ στόματι δοῦναι (as Blaydes reads): Herwerden, κἄχοντι δοῦναι.
+669	μόνον] Nauck conj. μόνῳ.
+670	αὔτʼ] αὐτ (sic) L: cp. on 607.
+671-673	οὐκ ἄχθομαι...φίλος. The MSS. give these three vv. to Philoctetes. Doederlein first restored them to Neoptolemus. They are rejected as spurious by Dindorf and Wunder, whom Nauck and Campbell follow.
+674	L rightly gives χωροῖς ἂν εἴσω to Neoptolemus (the words forming a line by themselves), and καὶ σέ γʼ εἰσάξω to Philoctetes. Bergk reverses this attribution. Cavallin gives the whole two vv. to Philoctetes. Hermann, following L as to the persons, places vv. 674 f. before vv. 671—673.—καὶ σέ γʼ εἰσάξω] Tournier conj. καί σʼ ἐπεισάξω.
+676-690	L divides the vv. thus:—λόγῳ μὲν— | τὸν— | ποτὲ— | δρομάδα— | ἔλαβʼ— | ἄλλον— | γʼ οἶδα— | τοῦδʼ— | ὃσ οὔτʼ— | ἀλλʼ— | ὤλλυθʼ— | τόδε— | πῶσ ποτε— | ῥοθίων— | ἄρα— | βιοτὰν κατέσχεν.
+676	ἐξήκουσʼ] ἐξήικουσʼ L.
 --- notes
+667	Flag (no margin number read): checked on the whole page; the margin prints 670 at εὐεργετῶν and 675 at νοσοῦν, so the numbering 667-676 stands.
+674a	Flag (speaker change inside the line): the print sets χωροῖς ἂν εἴσω. ΦΙ. καὶ σέ γʼ εἰσάξω· τὸ γὰρ as one verse with ΦΙ. in the middle; split at the speaker change as for 589/589a.
+667	The apparatus note is printed "667 f."; filed under 667. The note on 674 is printed "674 f."; filed under 674.
 
 === p-0182
 --- text
@@ -141,7 +191,16 @@
 680	κατὰ δρομάδʼ ἄμπυκα δέσμιον ὡς ἔβαλεν παγκρατὴς Κρόνου παῖς·
 681	ἄλλον δʼ οὔτινʼ ἔγωγʼ οἶδα κλύων οὐδʼ ἐσιδὼν μοίρᾳ
 682	τοῦδʼ ἐχθίονι συντυχόντα
-683	θνατῶν, ὃς οὔτʼ ἔρξας τινʼ οὔ τι νοσφίσας,
-685	ἀλλʼ ἴσος ὢν ἴσοις ἀνήρ, ὤλλυθʼ
+683	θνατῶν, ὃς οὔτʼ ἔρξας τινʼ, οὔ τι νοσφίσας,
+685	ἀλλʼ ἴσος ὢν ἴσοις ἀνήρ,
 --- apparatus
+678	ποτὲ τῶν Διὸς] ποτὲ διὸς MSS.: Triclinius inserted τοῦ (and so Buttmann): Porson (on Eur. Phoen. 145), τῶν.
+679	ἰξίονα κατʼ ἄμπυκα δὴ | δρομάδα δέσμιον ὡσ | ἔλαβʼ ὁ παγκρατὴσ κρόνου παῖσ· L. So the other MSS., except that, for κατʼ ἄμπυκα, Harl. has κάμπυκα: for ἔλαβʼ, Vat. has ἔβαλεν: and T (with Triclinius) omits δὴ. For the conjectures see comment. and Appendix.
+682	ἐσιδὼν] The 1st hand in L wrote ἐσίδων: the corrector has made ἐσίδον by erasing the second limb of ω.—μοίράι made from μοῖραι in L, with gl. τύχηι above.
+684	ὃς οὔτʼ ἔρξας τινʼ MSS. (ἕρξας Harl.): Musgrave conj. ὃς οὔτινʼ ἔρξας: Erfurdt, ὃς οὐ φθίσας τινʼ: Cavallin (after Blaydes), ὃς οὔτε κλέψας: Bergk, ὃς οὔ τι ῥέξας.—οὔ τι νοσφίσας Schneidewin: οὔτε νοσφίσας MSS. Bergk would insert οὔτινʼ before οὔτε νοσφίσας, and in 699 read ἢ εἴ τις ὄρνις instead of εἴ τις.
+685	ἴσος ὢν ἴσοις] ἴσωσ (sic) ἐν ἴσοισ L: ἴσος ἐν ἴσοις r. Bothe conj. ἴσος εἰν ἴσοις: F. Schultz and Lachmann, ἴσος ὢν ἴσοις: Hermann, ἴσος ἔν γʼ ἴσοις: Burges, ἴσος, εἴ τις, ὢν ἀνὴρ (and so Blaydes in text).
 --- notes
+680	Flag (turnover): the print sets Κρόνου παῖς· indented on the next line with the margin number 680 beside it, the end of this verse; the join confirmed.
+683	Unflagged, seen on the image: the print has a comma after τινʼ (ἔρξας τινʼ, οὔ τι νοσφίσας); added. Jebb's asterisks before οὔ τι (683) and ὢν (685) left out.
+685	The printed verse ends with ἀνήρ, (margin 685); ὤλλυθʼ begins the next verse on the next page (p-0184, 686 ὤλλυθʼ ὧδʼ ἀναξίως.); removed here.
+678	Jebb's apparatus numbers follow his own count of these lyric verses: 678 (ποτὲ τῶν Διὸς) names words in our 677, 679 ("679 f.", the verse κατὰ δρομάδʼ … παῖς) our 680, 682 (ἐσιδὼν, μοίρᾳ) our 681, 684 (ὃς οὔτʼ ἔρξας) our 683; kept as printed. The note "679 f." filed under 679.

@@ -87,19 +87,33 @@
 169	οἰκτίρω νιν ἔγωγʼ, ὅπως,
 170	μή του κηδομένου βροτῶν
 171	μηδὲ ξύντροφον ὄμμʼ ἔχων,
-172	δύστανος, μόνος ἀεί,
+172	δύστανος, μόνος αἰεί,
 173	νοσεῖ μὲν νόσον ἀγρίαν,
 174	ἀλύει δʼ ἐπὶ παντί τῳ
-175	χρείας ἱσταμένῳ. πῶς ποτε πῶς δύσμορος ἀντέχει;
-176	ὦ παλάμαι θεῶν,
+175	χρείας ἱσταμένῳ. πῶς ποτε, πῶς δύσμορος ἀντέχει;
+177	ὦ παλάμαι θεῶν·
 --- apparatus
+163	τόνδε MSS.: except that Γ (13th cent.) has τήνδε. Blaydes conj. τῇδε.
+166	στυγερὸν στυγερῶς MSS.: Brunck conj. σμυγερὸν σμυγερῶς. Benedict omits the words, and thus (having omitted also vv. 159—161) makes the anapaestic system, 162—168, equal to that in 144—149.
+167	αὐτῷ r: αὐτῷ L. The words οὐδέ τινʼ αὐτῷ are bracketed by Herm. They are absent from one of the later MSS. (R, 14th cent.).
+168	ἐπινωμᾶν] Burges conj. πόδα νωμᾶν.
+170	μή του κηδομένου made from μὴ τοὺσ κηδομένουσ L.
+171	μὴ σύντροφον L: μηδὲ σύντροφον r. Brunck conj. μηδὲ ξύντροφον: Pauli, μηδʼ ἐς σύντροφον: Wecklein, μηδὲν σύντροφον: Cavallin, μή του σύντροφον.
+172	αἰεὶ Triclinius: ἀεὶ L, with A and most of the other MSS.
+174	ἐπὶ παντί τῳ] Aristeides (I. p. 61) loosely quotes these words as ἐπὶ ἅπαντι τῷ (sic).
+177	*θεῶν Lachmann: θνητῶν MSS.
 --- notes
+172	the crop prints αἰεί (Triclinius's reading, see the apparatus), not Perseus's ἀεί: written as printed.
+175	unflagged, but seen on the whole page: the print has a comma after ποτε (πῶς ποτε, πῶς): added.
+177	renumbered from the draft's 176: the margin prints 177 beside ὦ παλάμαι θεῶν (the check sheet missed it), and Jebb's apparatus has "177 *θεῶν"; Jebb counts the long printed line χρείας ἱσταμένῳ. πῶς ποτε, πῶς δύσμορος ἀντέχει; as 175-176, so 176 is skipped.
+177	unflagged, but seen on the whole page: the print ends the verse with a raised stop (θεῶν·), not a comma: changed. Jebb's asterisk before θεῶν (his conjecture-mark) left out of the text; kept in the apparatus lemma, where it is printed.
+167	the apparatus prints the two forms alike (αὐτῷ r: αὐτῷ L, both with smooth breathing and iota subscript as far as the crop shows); copied as printed. Perhaps one should be αὑτῷ or αὐτῶ: left for the editor to decide.
 
 === p-0108
 --- text
-177	ὦ δύστανα γένη βροτῶν,
-178	οἷς μὴ μέτριος αἰών.
-180	οὗτος πρωτογόνων ἴσως
+178	ὦ δύστανα γένη βροτῶν,
+179	οἷς μὴ μέτριος αἰών.
+180	οὗτος, πρωτογόνων ἴσως
 181	οἴκων οὐδενὸς ὕστερος,
 182	πάντων ἄμμορος ἐν βίῳ
 183	κεῖται μοῦνος ἀπʼ ἄλλων,
@@ -107,12 +121,23 @@
 185	θηρῶν, ἔν τʼ ὀδύναις ὁμοῦ
 186	λιμῷ τʼ οἰκτρός, ἀνήκεστα μεριμνήματʼ ἔχων· ὀρεία
 --- apparatus
+179	οἷς] οἷσι Suidas s.v. παλάμαι.—αἰών] Burges conj. ἀγών.
+180	ἴσως] Burges conj. γεγὼς: Mekler, τέως: Seyffert (who ultimately, however, retained the vulgate) τις ὢν.
+181	οἴκων] Meineke conj. οἰκῶν: Toup, οὐκ ὢν. In Suidas s.v. λασίοις some MSS. have οἴκων, but others (not the best) give ἥκων, which Brunck adopted, with Porson's approval (Adv. 199, 315).—ὕστερος] Wecklein conj. ὑστέρων.
+182	ἐν βίῳ] Blaydes conj. ἐς βίον.
+183	ἄλλων] Burges conj. ἀνδρῶν.
+184	μετὰ] μέτα L. To avoid the short syll. at the end of the v., Herm. wrote θηρῶν ἢ λασίων μέτʼ ἢ | στικτῶν (doubting whether μεταὶ was permissible). Burges conj. μετʼ ὢν: Meineke, μέσῳ: Lehrs, πέλας.
+186	L has: λιμῶι τʼ οἰκτρὸσ ἀνήκεστα μερι|μνήματʼ ἔχων· βαρεῖ|αδʼ (sic) ἀθυρόστομοσ | ἀχὼ· τηλεφανὴσ πικρᾶσ | οἰμωγᾶσ ὑπόκειται. The point after ἔχων is faint, and not, apparently, from the first hand. The later MSS. agree with L, except that Vat. b (cod. Urb. 141, 14th cent.) has βαρεῖ· | ἁ δʼ.—For the conjectures, see comment. and Appendix.
 --- notes
+178	renumbered (draft 177 → 178, 178 → 179), unflagged: the apparatus has "179 οἷς]", and the margin 180 stands at οὗτος, so the two verses before it are 178 and 179 (177 is ὦ παλάμαι θεῶν on p-0106).
+180	unflagged, but seen on the whole page: the print has a comma after οὗτος: added.
+186	the print divides ὀρεί- | α δʼ (the α at the head of p-0110): written whole here as the draft has it; Jebb's asterisk before ὀρεί- left out. This long printed line covers 186-187 in Jebb's count (the margin has 190 at οἰμωγαῖς; see p-0110).
+186	Jebb's note is headed "186 ff.": filed under 186. "Vat. b" (lower-case b) as printed. In βαρεῖ· | ἁ δʼ the breathing on α is rough on the enlarged crop.
 
 === p-0110
 --- text
-187	δʼ ἀθυρόστομος
-188	Ἀχὼ τηλεφανὴς πικραῖς
+188	δʼ ἀθυρόστομος
+189	Ἀχὼ τηλεφανὴς πικραῖς
 190	οἰμωγαῖς ὑπακούει.
 @ Νεοπτόλεμος
 191	οὐδὲν τούτων θαυμαστὸν ἐμοί·
@@ -120,8 +145,16 @@
 193	καὶ τὰ παθήματα κεῖνα πρὸς αὐτὸν
 194	τῆς ὠμόφρονος Χρύσης ἐπέβη,
 195	καὶ νῦν ἃ πονεῖ δίχα κηδεμόνων,
-196	οὐκ ἔσθʼ ὡς οὐ θεῶν του μελέτῃ
+196	οὐκ ἔσθʼ ὡς οὐ θεῶν του μελέτῃ,
 197	τοῦ μὴ πρότερον τόνδʼ ἐπὶ Τροίᾳ
 198	τεῖναι τὰ θεῶν ἀμάχητα βέλη,
 --- apparatus
+189	πικραῖς | οἰμωγαῖς] πικρᾶς οἰμωγᾶς MSS.—ὑπακούει Auratus: ὑπόκειται MSS.
+193	παθήματα κεῖνα Brunck: παθήματʼ ἐκεῖνα MSS.
+196	ὡς Porson: ὅπως MSS.
 --- notes
+188	renumbered (draft 187 → 188, 188 → 189), unflagged: the margin prints 190 beside οἰμωγαῖς ὑπακούει, and Jebb's apparatus has "189 f. πικραῖς | οἰμωγαῖς", so Ἀχὼ … πικραῖς is 189 and α δʼ ἀθυρόστομος 188 (the long line λιμῷ … ὀρεί- on p-0108 counts as 186-187, as its strophic twin 175 counts as 175-176).
+188	the line begins with the α that ends ὀρεί-|α (written whole at the end of 186), so the verse is δʼ ἀθυρόστομος.
+189	Jebb's note is headed "189 f.": filed under 189.
+196	unflagged, but seen on the whole page: the print has a comma after μελέτῃ: added.
+196	no apparatus on the facing page (leaf 111): the three notes stand under the text.

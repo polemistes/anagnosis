@@ -45,13 +45,27 @@
 453	ἐγὼ μέν, ὦ γένεθλον Οἰταίου πατρός,
 454	τὸ λοιπὸν ἤδη τηλόθεν τό τʼ Ἴλιον
 455	καὶ τοὺς Ἀτρείδας εἰσορῶν φυλάξομαι·
-456	ὅπου δʼ ὁ χείρων τἀγαθοῦ μεῖζον σθένει
+456	ὅπου θʼ ὁ χείρων τἀγαθοῦ μεῖζον σθένει
 457	κἀποφθίνει τὰ χρηστὰ χὠ δειλὸς κρατεῖ,
 458	τούτους ἐγὼ τοὺς ἄνδρας οὐ στέρξω ποτέ·
 459	ἀλλʼ ἡ πετραία Σκῦρος ἐξαρκοῦσά μοι
 460	ἔσται τὸ λοιπόν, ὥστε τέρπεσθαι δόμῳ.
 --- apparatus
+445	αὐτόν] αὐτός Burges and Nauck.—δʼ ἔτʼ] δέ τʼ L.
+446	οὐδέν πω R and Suid.: οὐδέπω L, A.
+448	καί πωσ from καὶ πῶσ L.
+450	χρήστʼ] χρὴστʼ (not χρῆστʼ) L, as in Tr. 1137.—ἀποστέλλουσʼ] Suidas (s. v. παλιντριβῆ) reads ἀπαγγέλλουσʼ. Nauck gives προυσελοῦσʼ.
+451	χρὴ] χρῆ L.—ποῦ δʼ αἰνεῖν] Blaydes gives πῶς δʼ αἰνεῖν.
+452	ἐπαινῶν] Schneidewin conj. ἐρευνῶν, which Nauck and Blaydes adopt; while Schneidewin himself afterwards returned to ἐπαινῶν. Musgrave conj. τὰ θεῖʼ, ἐπαινῶν τοὺς θεούς, εὕρω κακά;
+455	εἰσορῶν] εἰσορᾶν Γ, and so Blaydes.
+456	ὅπου θʼ L, with γ written over θ (by S, I think, rather than by the 1st hand): ὅπου θʼ A: ὅπου γʼ B, T, and others: ὅπου δʼ Herm. and Burges.
+457	δειλὸς Brunck: δεινὸς MSS.
+458	Nauck agrees with K. Walter (Emendationum in Soph. fab. specimen, p. 17) in rejecting this verse. In 456 he would then read ὅπου τὸ χεῖρον.
+460	δόμῳ] μόνῳ Suidas (s. v. στέρξω).—Nauck thinks that this v. was added by a grammarian, in order to furnish the finite verb.
 --- notes
+456	the print has ὅπου θʼ (Jebb follows L and A; the apparatus names δʼ as Hermann's and Burges's): δʼ changed to θʼ
+460	the three unmatched printed lines after this verse are the top of the apparatus, not verses
+445	apparatus: the crops app-l/app-r cut off the first four lines of the apparatus; read from the whole page (leaf 150)
 
 === p-0152
 --- text
@@ -76,16 +90,28 @@
 475	ὅμως δὲ τλῆθι· τοῖσι γενναίοισί τοι
 476	τό τʼ αἰσχρὸν ἐχθρὸν καὶ τὸ χρηστὸν εὐκλεές.
 --- apparatus
+465	εἴκῃ] ἥκη (sic) L. A mark written over ἥ merely calls attention to a scholium in the left marg. (which has the same mark prefixed to it), διδῶ· συγχωρήση. Γ has ἥκει, and the Harleian ἥκοι. A has εἴκῃ, but the ει seems to have been made from η.—Cavallin conjectures ἱῇ, not observing that the ι of ἵημι is always short in the pres. subjunct.; see comment. on O. C. 1279.
+466	στέλλεσθε] στέλεσθε L, with the second λ added above the line by the 1st hand.
+468	πρός τε... | πρός τʼ] Blaydes would prefer πρός σε... | πρός σʼ.
+470	ἱκέτης] Meineke (O. C. p. 287) conj. ἵκτης or ἱκτὴρ.—λίπῃς] λείπηις L, with ι written over ει by the 1st hand.
+471	τοῖσδʼ οἵοις] τοῖσδέ γʼ οἷς Suid. (s. v. πρὸς νῦν). Dind. conj. τοῖσιδʼ οἷς. Blaydes writes τοῖσδʼ ἐν οἷς, and in 472 ἐν οἷσί τʼ for ὅσοισί τʼ.—Wecklein adds θʼ after οἵοις.
+472	ἐννέοντα L, with αι written over έ by S.
+474	Nauck suspects this v.
+476	τό τʼ αἰσχρὸν ἐχθρὸν] Herm. Retract. p. 7 conj. τό τʼ ἐχθρὸν αἰσχρὸν.—εὐκλεές] Vauvilliers conj. εὐφιλές: Dobree, εὐχερές: Nauck, εὐμαρές: Tournier, εὐπετές.
 --- notes
+461	margin numbers 465, 470, 475 checked on the whole page: the numbering is right
+466	the print sets ΝΕ. καιρὸς γὰρ καλεῖ on the line of 466: the split into 466 and 466a confirmed
+465	apparatus: the breathings of ἱῇ and ἵημι are too small to read with certainty in the scan; written rough (the verb's breathing)
+476	apparatus: the note runs on to the next text page (leaf 154): its end ("Tournier, εὐπετές.") taken from there
 
 === p-0154
 --- text
 477	σοὶ δʼ ἐκλιπόντι τοῦτʼ ὄνειδος οὐ καλόν,
 478	δράσαντι δʼ, ὦ παῖ, πλεῖστον εὐκλείας γέρας,
-479	ἐὰν μόλω ʼγὼ ζῶν πρὸς Οὐταίαν χθόνα.
+479	ἐὰν μόλω ʼγὼ ζῶν πρὸς Οἰταίαν χθόνα.
 480	ἴθʼ· ἡμέρας τοι μόχθος οὐχ ὅλης μιᾶς.
 481	τόλμησον. ἐμβαλοῦ μʼ ὅπῃ θέλεις ἄγων,
-482	εἰς ἀντλίαν, εἰς πρῷραν, εἰς πρύμνην, ὅποι
+482	εἰς ἀντλίαν, εἰς πρῷραν, εἰς πρύμνην, ὅπου
 483	ἥκιστα μέλλω τοὺς ξυνόντας ἀλγυνεῖν.
 484	νεῦσον, πρὸς αὐτοῦ Ζηνὸς ἱκεσίου, τέκνον,
 485	πείσθητι· προσπίτνω σε γόνασι, καίπερ ὢν
@@ -95,7 +121,17 @@
 489	ἢ πρὸς τὰ Χαλκώδοντος Εὐβοίας σταθμά·
 490	κἀκεῖθεν οὔ μοι μακρὸς εἰς Οἴτην στόλος
 --- apparatus
+477	τοῦτʼ] Blaydes writes τόνδʼ, and in 478 changes δράσαντι to σώσαντι. Nauck adopts the latter conjecture, though not the former; but he should have received both, or neither.
+480	ἴθʼ] ὅθʼ Triclinius.—τοι] Burges conj. σοι.
+481	ἐμβαλοῦ r, ἐκβαλοῦ L. Meineke conj. εἰσβαλοῦ.—ὅπῃ] ὅπηι L: ὅπη r: ὅποι Wakefield.—Nauck changes ἄγων to νεώς.
+482	εἰς (thrice) MSS.: εἰς...ἐς...ἐς Dindorf.—πρῶιραν (ῶ made from ώ) L.—πρύμναν L: πρύμνην Elmsley.—ὅποι L, with A and others: ὅπου Γ.
+483	τοὺς ξυνόντας] τοῦ παρόντος V², whence Blaydes conj. τοὺς πλέοντας.
+485	προσπίτνῶ L.
+489	Εὐβοίας] Musgrave conj. Εὐβοίᾳ: O. Riemann, Εὐβοιῶς.
 --- notes
+479	the print has Οἰταίαν (as the OCR; Perseus spells Οὐταίαν): changed
+482	the print has ὅπου (Jebb reads Γ's ὅπου, as his apparatus and commentary say): ὅποι changed to ὅπου
+477	apparatus: the note begins at the top of leaf 154 with the end of the 476 note ("Tournier, εὐπετές."), written with 476 on the page before
 
 === p-0156
 --- text
@@ -107,7 +143,13 @@
 496	αὐτόστολον πέμψαντά μʼ ἐκσῶσαι δόμους.
 497	ἀλλʼ ἢ τέθνηκεν ἢ τὰ τῶν διακόνων,
 --- apparatus
+491	Τραχινίαν τε δειράδα καὶ τὸν εὔρροον MSS. See comment. and Appendix.
+493	παλαιὰν L, with two dots (:) above the second α, referring to a note in the right-hand marg. by an early hand, :πάλαι ἂν. The later MSS. have either παλαίʼ ἂν (as A, L², Harl.), or πάλαι ἂν, as B: παλαιὸν Triclinius.
+494	βεβήκῃ] βεβήκοι L, with A and most of the later MSS.; but a few have βεβήκῃ, as B, Vat. b, and cod. Flor. 32. 2 (the N of Blaydes, Dindorf's Lc). R and T have βεβήκει. Elmsley conj. βέβηκε.—ἱγμένοις] ἱκμένοισ L.
+496	πέμψαντα] Blaydes conj. πλεύσαντα.—δόμους Wunder: δόμοις MSS.
 --- notes
+491	no flags; no apparatus crops for the text page: the apparatus read from the whole page (leaf 156) and the facing-page crops
+493	apparatus: ":πάλαι ἂν" keeps the space before the colon: the colon is the two-dot mark of L's marginal note, as printed, not punctuation
 
 === p-0158
 --- text
@@ -127,4 +169,17 @@
 511	ἐγὼ μέν, τὸ κείνων κακὸν τῷδε κέρδος
 515	μετατιθέμενος, ἔνθαπερ ἐπιμέμονεν,
 --- apparatus
+498	οἶμαι] Valckenaer conj. οἴμοι.—μέρος MSS., and Suid. s. v. στόλος. μέρει the 1st hand in A, and Suid. s. v. διάκονος: and so Brunck, Hartung, Blaydes.
+502	πάντα δεινὰ MSS. Wakefield conj. πάντʼ ἄδηλα: Dobree, πάντα κοινὰ.
+505	τὸν βίον] Blaydes conj. τἀκ θεῶν.
+507-518	L divides the vv. thus:—οἴκτειρʼ—ἔλε|ξε— | ἆθλʼ— | εἰ δὲ— | ἔχθεις— | ἐγὼ— | κακὸν— | μέγα τιθέμενος ἔν|θαπερ— | ἐπʼ εὐπόρου— | νεὼς— | δόμους— | νέμεσιν ἐκφυγών.
+507	ἔλεξεν] ἔλεξε L.
+509	οἷα] ὅσσα L, with A and almost all others: R (14th cent.) and Harl. (15th) have ὅσα.—οἷα, Porson's conj. (Adv. p. 200), has been generally received: but he himself afterwards gave the preference to ἅσσα (Adv. p. 237). Dobree conj. ἄθλους, ἃ ('qualia. ὃς pro οἷος').—τύχοι] Seyffert gives λάχοι. Herwerden made the same conj., which is received by Blaydes, Cavallin, Nauck, Wecklein.
+510	πικρούς] Nauck conj. πικρῶς: Blaydes, διπλοῦς.
+512	ἐγὼ μὲν] B. Todt conj. ἐγώ νιν.
+515	μετατιθέμενος] μέγα τιθέμενοσ L, A, and most others: μετατιθέμενος r and schol.—ἔνθαπερ] ἔνθάπερ L.—ἐπιμέμονεν r: ἐπεὶ μέμονεν L.
 --- notes
+498	no flags; margin numbers 500, 505, 510, 515 agree with the draft
+509	apparatus: Jebb numbers the lyric verses otherwise than our numbering: his 509 (οἷα) is our 508, his 512 (ἐγὼ μὲν) our 511; his numbers kept
+509	apparatus: the breathings of ἅσσα and ἃ are too small to read with certainty; written rough (the words' breathing)
+505	apparatus: τἀκ θεῶν read on the enlarged page (the OCR has τάκ); the mark over α is a coronis

@@ -81,17 +81,29 @@
 @ Νεοπτόλεμος
 104	οὕτως ἔχει τι δεινὸν ἰσχύος θράσος;
 @ Ὀδυσσεύς
-105	ἰούς γʼ ἀφύκτους καὶ προπέμποντας φόνον.
+105	ἰοὺς ἀφύκτους καὶ προπέμποντας φόνον.
 @ Νεοπτόλεμος
-106	οὐκ ἆρʼ ἐκείνῳ γʼ οὐδὲ προσμῖξαι θρασύ;
+106	οὐκ ἆρʼ ἐκείνῳ γʼ οὐδὲ προσμεῖξαι θρασύ;
 @ Ὀδυσσεύς
 107	οὔ, μὴ δόλῳ λαβόντα γʼ, ὡς ἐγὼ λέγω.
 @ Νεοπτόλεμος
-108	οὐκ αἰσχρὸν ἡγεῖ δῆτα τὸ ψευδῆ λέγειν;
+108	οὐκ αἰσχρὸν ἡγεῖ δῆτα τὰ ψευδῆ λέγειν;
 @ Ὀδυσσεύς
 109	οὔκ, εἰ τὸ σωθῆναί γε τὸ ψεῦδος φέρει.
 --- apparatus
+100	τί οὖν μʼ MSS. (in L οὖν has been made from οὐ by S): τί μʼ οὖν Wakefield.
+103	L has πίθηται made from πείθηται by S.
+104	θράσος] Nauck conj. κράτος.
+105	ἰοὺς] Dobree conj. ἰούς γʼ.
+106	ἐκείνῳ γʼ οὐδὲ] Blaydes conj. ἐκείνῳ ʼστʼ οὐδὲ: Bergk, ἐκείνῳ καὶ τὸ.—οὐδὲ r, οὔτε L.
+107	λαβόντα γʼ] Blaydes conj. λαθόντα γʼ.
+108	δῆτα τὰ r: δὴ τά δε (=τάδε) L (and so K, cod. Par. 2886): the δὴ was omitted at first, and then added (by the 1st hand itself) above the line. Vauvilliers conj. δῆτα τὸ: Wecklein, δῆτα σὺ: Cavallin, δηλαδὴ. The reading δὴ τὰ ψευδῆ in L² seems to have come from δῆτα (τὰ) ψευδῆ: see comment.
 --- notes
+100	margin 100 and 105 checked on the whole page; numbering runs on.
+105	the page prints ἰοὺς ἀφύκτους without γʼ (Perseus ἰούς γʼ; Jebb's apparatus gives ἰούς γʼ as Dobree's conjecture): γʼ removed, accent ἰοὺς.
+106	the page prints προσμεῖξαι (Perseus προσμῖξαι): written as printed.
+108	the page prints δῆτα τὰ ψευδῆ (Perseus τὸ); the apparatus confirms δῆτα τὰ: written as printed.
+108	the note on 108 runs on to the next spread (leaf 96, "to have come from … see comment."): written whole here.
 
 === p-0096
 --- text
@@ -100,7 +112,7 @@
 @ Ὀδυσσεύς
 111	ὅταν τι δρᾷς εἰς κέρδος, οὐκ ὀκνεῖν πρέπει.
 @ Νεοπτόλεμος
-112	κέρδος δʼ ἐμοὶ τί τοῦτον ἐς Τροίαν μολεῖν;
+112	κέρδος δʼ ἐμοὶ τί τοῦτον εἰς Τροίαν μολεῖν;
 @ Ὀδυσσεύς
 113	αἱρεῖ τὰ τόξα ταῦτα τὴν Τροίαν μόνα.
 @ Νεοπτόλεμος
@@ -118,7 +130,20 @@
 @ Νεοπτόλεμος
 120	ἴτω· ποήσω, πᾶσαν αἰσχύνην ἀφείς.
 --- apparatus
+110	λακεῖν L 1st hand, altered by an early hand to λαλεῖν. Most of the later MSS. have λαλεῖν (Vat. λαβεῖν).
+111	εἰσ L, ἐς r.
+112	δʼ ἐμοὶ L: δέ μοι r.
+116	θηρατέα γίγνοιτʼ ἂν L, and so almost all the later MSS.: in A the final α of θηρατέα is marked as long, and the gloss, δυνατὴ ληφθῆναι, shows that the adj. was taken with Τροία. A v. l. was θηρατέα γοῦν (V², Vat.). Triclinius gave θηρατέʼ οὖν: Elmsley conj. θηρατέʼ ἂν γίγνοιτʼ ἂν: Tournier, θηρατέʼ ἂν γίγνοιτʼ ἄρʼ: Nauck, γίγνοιτʼ ἄν, εἴπερ ὧδʼ ἔχει, θηρατέα.—γένοιτʼ, a v. l. found in T and other late MSS., was perh. due to Triclinius: see comment.
+117	δωρήματα] Blaydes conj. δωρήματε.
+118	τὸ δρᾶν] Γ having τὸ μὴ δρᾶν, Blaydes conj. τὸ μὴ.
+119	αὑτὸς] αὐτὸσ L, which was the common reading.—κεκλῇʼ] L has κεκλῆιʼ made from κεκλησʼ (sic), prob. by S, with ἂν κεκλημένος εἴης written above.—ἅμα] Herwerden conj. ἀνήρ: Mekler, (κεκλῇό) μοι.
+120	ποήσω L, and so Nauck, Wecklein, Mekler (reviser of Dind. 6th Teubner ed., 1885).
 --- notes
+110	the apparatus begins with the end of the note on 108 ("to have come from … see comment."), written with p-0094. The supplied crops of this page's apparatus show only its first line: the apparatus was read from my own crops of leaf 96 and leaf 97.
+112	the page prints εἰς Τροίαν (Perseus ἐς): written as printed.
+116	the flag said the print shows no speaker change: the page prints ΝΕ. before 116, so @ Νεοπτόλεμος stays.
+119	the lemma reads αὑτὸς] (rough breathing, as the text), L's reading αὐτὸσ smooth.
+120	the note on 120 runs on to the next spread (leaf 98, "1885)."): written whole here.
 
 === p-0098
 --- text
@@ -137,4 +162,15 @@
 130	οὗ δῆτα, τέκνον, ποικίλως αὐδωμένου
 131	δέχου τὰ συμφέροντα τῶν ἀεὶ λόγων.
 --- apparatus
+121	μνημονεύεις MSS.: μνημονεύσεις Herwerden, and so Blaydes, Cavallin, Nauck, Seyffert, Wecklein.
+123	νυν] νῦν L.
+125	ἀποστελῶ] Musgrave (ed. 1809 Oxon.) proposed ἀποστεῖλαι. The alternative conj. ἀπόστελλʼ αὖ, ascribed by Blaydes to Musgrave, seems to be that of Burges (ed. 1833). Cavallin in his crit. note credits Musgrave with ἀποστέλλου, but in his commentary, p. 29, quotes Blaydes as his authority for it, and must therefore mean ἀπόστελλʼ αὖ. Blaydes suggests that, reading ἀπόστελλʼ αὖ, or ἀποστεῖλαι, we should transpose vv. 124, 125.
+126	χρόνου] After this word, one letter (apparently σ) has been erased in L.—δοκῆτέ τι] δοκῆτʼ ἔτι L, the ῆ made from ει, prob. by the first corrector (S). δοκῆτέ τι r.
+127	κατασχολάζειν] Nauck conj. πέρα σχολάζειν.—αὖθις r: αὖτις L.—ἐκπέμψω r: ἐκπέμπω L, with ψω written above by the 1st hand.—Burges conj. αὖθις αὖ πέμψω.
+128	τρόποις] τρόπον Triclinius. Herwerden would delete this verse.
+129	ἀγνοία L, with most of the later MSS.: ἀγνοίᾳ Triclinius.
+130	αὐδωμένου] In L, ν seems to have been erased after ω, which is itself in an erasure. It is possible, though not clear, that the 1st hand wrote αὐδὴν μένον.—Nauck conj. σὺ δῆτα, τέκνον, (or, σὺ δʼ, ὦ τέκνον μοι,) ποικίλως αὐδωμένων.
+131	τῶν ἀεὶ λόγων] Blaydes conj. τῶν λόγων ἀεί.
 --- notes
+121	no flags on this page; margin 125 and 130 checked on the whole page. The apparatus begins with the end of the note on 120 ("1885)."), written with p-0096; read from my own crops of leaf 98 and leaf 99.
+131	the note on 131 runs on to the next spread (leaf 100, "τῶν λόγων ἀεί."): written whole here.
