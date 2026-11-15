@@ -74,6 +74,34 @@ def route_dir(route: str, slug: str, scan: str) -> Path:
 
 # --- fetch and OCR -----------------------------------------------------------------------------
 
+# scans photographed with a grey ground (the paper at about 146 of 255, where the Toronto scans
+# have 250): their pages are stretched to a white ground when they are made, because the ink
+# tests of this module (rules, margin numbers, crops) take everything under 140 for ink
+GREY_GROUND = {"sophocles05soph"}
+
+
+def whiten(png: Path) -> bool:
+    """Stretch a grey-ground page so that its paper is white (the 2 % darkest values to black, the
+    median to white); nothing is done to a page whose ground is already light. True if changed."""
+    from PIL import Image
+
+    with Image.open(png) as im:
+        g = im.convert("L")
+    hist, total, run, lo, mid = g.histogram(), g.size[0] * g.size[1], 0, None, None
+    for v, n in enumerate(hist):
+        run += n
+        if lo is None and run >= 0.02 * total:
+            lo = v
+        if mid is None and run >= 0.5 * total:
+            mid = v
+    if mid >= 215:
+        return False
+    hi = max(lo + 30, int(mid * 0.95))
+    g.point([max(0, min(255, round((v - lo) * 255 / (hi - lo)))) for v in range(256)]).save(str(png) + ".part.png")
+    os.replace(str(png) + ".part.png", png)
+    return True
+
+
 def fetch_leaf(scan: str, leaf: int) -> Path:
     """Leaf `leaf` of the scan as a grey PNG: from the jp2 zip, or, for a scan that has none, the
     Archive's page image (/page/n<N>_w<width>.jpg, N counted over the shown leaves, the largest
@@ -114,6 +142,8 @@ def fetch_leaf(scan: str, leaf: int) -> Path:
         subprocess.run(["opj_decompress", "-i", str(jp2), "-o", f"{t}/p.png"], check=True, capture_output=True)
         subprocess.run(["magick", f"{t}/p.png", "-colorspace", "Gray", str(png) + ".part.png"], check=True)
     os.replace(str(png) + ".part.png", png)
+    if scan in GREY_GROUND:
+        whiten(png)
     return png
 
 
@@ -225,6 +255,31 @@ def _rule_below(path: Path, y_from: int) -> int | None:
     return None
 
 
+def _rule_sloping(path: Path, y_from: int, parts: int = 8, reach: int = 18) -> int | None:
+    """As _rule_below, for a rule that does not lie on one row of pixels (a page photographed a
+    little askew): the middle 80 % of the width is cut into `parts`; a piece of rule is a row
+    that is dark (under 170: a thin rule prints grey) over 60 % of its part (a row of text never is); the rule is where at least
+    three quarters of the parts have such a row within `reach` pixels of each other. Returns
+    the middle of those rows."""
+    from PIL import Image
+
+    with Image.open(path) as im:
+        g = im.convert("L")
+        w, h = g.size
+        x0, x1 = int(w * 0.1), int(w * 0.9)
+        step = (x1 - x0) // parts
+        hits: list[list[int]] = []
+        for k in range(parts):
+            col = g.crop((x0 + k * step, 0, x0 + (k + 1) * step, h)).point(lambda v: 255 if v < 170 else 0).resize((1, h), Image.BOX).tobytes()
+            hits.append([y for y in range(max(0, y_from), h - 8) if col[y] > 0.6 * 255])
+    for y in sorted({y for rows in hits for y in rows}):
+        near = [min((r for r in rows if abs(r - y) <= reach), key=lambda r: abs(r - y), default=None) for rows in hits]
+        found = [r for r in near if r is not None]
+        if len(found) >= 0.75 * parts:
+            return sorted(found)[len(found) // 2]
+    return None
+
+
 def rules(path: Path, y_from: int = 0) -> list[int]:
     """Every printed rule (a thin dark line across much of the page) below y_from, top to bottom."""
     out: list[int] = []
@@ -299,6 +354,31 @@ def _different(a: list[dict], b: list[dict]) -> bool:
     return len(sims) >= 2 and sum(sims) / len(sims) < 0.5
 
 
+def _block_above_rule(lines: list[dict], head: list[dict], rule: int) -> int | None:
+    """Jebb's Sophocles: the top of the critical apparatus, the block of small type that stands
+    directly above the rule heading the commentary, with no rule between it and the verses (or,
+    on the facing page, the translation) but a wider space. The small type's line pitch and size
+    are measured on the commentary below the rule; the block is taken from the rule upwards as
+    long as the lines follow each other at that pitch. None where the line above the rule is in
+    the larger type (a page without apparatus) or the commentary is too short to measure."""
+    below = sorted((l for l in lines if l["bbox"][1] > rule and len(l["words"]) >= 2), key=lambda l: l["bbox"][1])
+    steps = sorted(b["bbox"][1] - a["bbox"][1] for a, b in zip(below, below[1:]) if b["bbox"][1] - a["bbox"][1] > 20)
+    sizes = sorted(l["x_size"] for l in below if l["x_size"] > 0)
+    if len(steps) < 3 or not sizes:
+        return None
+    pitch, small = steps[len(steps) // 2], sizes[len(sizes) // 2]
+    above = sorted((l for l in lines if l not in head and l["bbox"][3] <= rule + 5 and len(l["words"]) >= 2),
+                   key=lambda l: -l["bbox"][1])
+    if not above or (above[0]["x_size"] > 1.25 * small):
+        return None
+    top = above[0]["bbox"][1]
+    for l in above[1:]:
+        if top - l["bbox"][1] > 1.4 * pitch:
+            break
+        top = min(top, l["bbox"][1])
+    return top
+
+
 def page_layout(play: Play, leaf: int, app_y: int | None = None, hocr: Path | None = None) -> dict:
     """The page's printed lines (top to bottom, each with its words and the words beside it in the
     margins), where the apparatus begins and ends, the column's edges, the line height.
@@ -320,7 +400,7 @@ def page_layout(play: Play, leaf: int, app_y: int | None = None, hocr: Path | No
     lines = read_lines(hocr or ocr_leaf(play.scan, leaf))
     with Image.open(png) as im:
         W, Hpage = im.size
-    head = [l for l in lines if l["bbox"][3] < 0.075 * Hpage]
+    head = [l for l in lines if l["bbox"][3] < play.head_frac * Hpage]
     head_y = max((l["bbox"][3] for l in head), default=int(0.03 * Hpage))
     body = [l for l in lines if l not in head and not _noise(l)]
     good = [l for l in body if _good(l) >= 2]
@@ -330,6 +410,8 @@ def page_layout(play: Play, leaf: int, app_y: int | None = None, hocr: Path | No
     sizes = sorted(l["x_size"] for l in upper) or [H]
     XS = sizes[len(sizes) // 2]
     rule = _rule_below(png, int(0.2 * Hpage)) if play.layout == "jebb" else None
+    if rule is None and play.app_rule == "under":
+        rule = _rule_sloping(png, int(0.2 * Hpage))
     limit = rule if rule else Hpage
     between = None
     if rule is not None:
@@ -337,6 +419,7 @@ def page_layout(play: Play, leaf: int, app_y: int | None = None, hocr: Path | No
         nxt = _rule_below(png, rule + 12)
         if nxt is not None and nxt - rule > 0.5 * H:
             between = (rule, nxt)
+    under = _block_above_rule(lines, head, rule) if play.app_rule == "under" and rule is not None else None
     # the apparatus, from the foot up
     block: list[dict] = []
     for l in sorted((l for l in body if l["bbox"][3] <= limit + 5), key=lambda l: -l["bbox"][1]):
@@ -349,6 +432,9 @@ def page_layout(play: Play, leaf: int, app_y: int | None = None, hocr: Path | No
     app_y = app_end = None
     if given_app_y is not None:
         app_y, app_end = given_app_y + 4, Hpage - 10
+    elif play.app_rule == "under" and rule is not None:
+        if under is not None:
+            app_y, app_end = max(0, under - int(0.25 * H)), rule - 4
     elif between is not None:
         app_y, app_end = between[0] + 4, between[1] - 4
     elif block and any(_item_number(w, play.app_bare_numbers, 0.85 * W) for l in block for w in l["words"]):
@@ -534,6 +620,12 @@ def margin_numbers(play: Play, layout: dict) -> list[tuple[int, int]]:
                                   "-c", "tessedit_char_whitelist=0123456789"], capture_output=True, text=True, env=env).stdout.strip()
             if re.fullmatch(r"\d{1,4}", out):
                 marks.append(((p["oy0"] + p["oy1"]) // 2, int(out)))
+            else:
+                # the page's own OCR read a number in that margin with confidence
+                side = p["right_m"] if play.margin_numbers == "right" else p["left_m"]
+                seen = [w["text"].strip() for w in side if w["conf"] >= 85 and re.fullmatch(r"\d{1,4}", w["text"].strip())]
+                if len(seen) == 1:
+                    marks.append(((p["oy0"] + p["oy1"]) // 2, int(seen[0])))
     cache.write_text(json.dumps(marks))
     return marks
 
@@ -608,7 +700,8 @@ def ocr_stream(layouts: list[dict], adscript: bool) -> tuple[list[dict], list[di
             tx1 = max((w["bbox"][2] for w in ws if sum(c.isalpha() for c in w["text"]) >= 2), default=p["x0"])
             lines.append({"leaf": lay["leaf"], "y0": p["y0"], "y1": p["y1"], "x0": p["x0"], "ocr": text,
                           "abbr": abbr, "heading": None, "noise": bool(p.get("noise")), "margin": p["right_m"] + p["left_m"],
-                          "tx1": tx1, "right": lay.get("right"), "xs": lay.get("x_size") or 50})
+                          "tx1": tx1, "right": lay.get("right"), "xs": lay.get("x_size") or 50,
+                          "lm": "".join(w["text"] for w in p["left_m"]).strip()})
             if p.get("noise"):
                 continue
             # a reader's scribble after a word divided at the verse's end is not the line's end
@@ -866,7 +959,12 @@ def build_draft(play: Play, sources: Path) -> tuple[list[dict], dict[int, dict],
         if not v["split"]:
             abbr = pl.get("abbr")
             if speaker is not None:
-                if abbr is None:
+                # Play.speaker_trust: something stands in the left margin where the check text
+                # changes speaker, though Tesseract garbles it ("ὙΔ}" for ΥΛ.)
+                trusted = play.speaker_trust and (len(pl.get("lm") or "") >= 2 if abbr is None else match_speaker(abbr, names) is None)
+                if trusted:
+                    pass
+                elif abbr is None:
                     flags.append(f"Perseus changes speaker here ({speaker}), the print shows none")
                 else:
                     who = match_speaker(abbr, names)

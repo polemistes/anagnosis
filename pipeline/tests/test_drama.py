@@ -163,6 +163,39 @@ class AbbreviationTest(unittest.TestCase):
         self.assertEqual(match_speaker("ΧΟ ΓΕ", ["Χορὸς γερόντων", "Χορὸς Γυναικῶν"]), "Χορὸς γερόντων")
 
 
+class JebbSophocles(unittest.TestCase):
+    def test_check_text_from_our_text_format(self):
+        from anagnosis_pipeline.drama import textfile_play
+
+        with tempfile.TemporaryDirectory() as d:
+            p = Path(d) / "reference-grc.txt"
+            p.write_text("# title: x\n\n== episode Prologue\n@ Δηιάνειρα\n1\tλόγος μέν ἐστʼ ἀρχαῖος\n"
+                         "@ Ὕλλος\n2\tὡς οὐκ ἂν εὐδαί-\n3\tμων γένοιτο\n=== strophe 1\n3a\tτέλος\n", encoding="utf-8")
+            pers = textfile_play(p)
+        self.assertEqual([t["t"] for t in pers["tokens"]], ["λόγος", "μέν", "ἐστʼ", "ἀρχαῖος", "ὡς", "οὐκ", "ἂν", "εὐδαίμων", "γένοιτο", "τέλος"])
+        self.assertEqual([l["n"] for l in pers["lines"]], ["1", "2", "3", "3a"])
+        self.assertEqual(pers["sections"], [(0, 1, "episode", "Prologue"), (3, 2, "strophe", "1")])
+        self.assertEqual(pers["speakers"], ["Δηιάνειρα", "Ὕλλος"])
+        self.assertTrue(pers["tokens"][0]["newsp"] and pers["tokens"][4]["newsp"] and not pers["tokens"][1]["newsp"])
+        self.assertEqual(pers["tokens"][7]["n"], "2")  # the divided word stands whole on the first verse
+        self.assertEqual(pers["tokens"][9]["base"], 3)
+
+    def test_apparatus_block_above_the_rule(self):
+        from anagnosis_pipeline.drama_pages import _block_above_rule
+
+        def line(y, size, n=3):
+            return {"bbox": [200, y, 2200, y + 50], "x_size": size, "words": [{"text": "w"}] * n}
+
+        head = [line(230, 80)]
+        verses = [line(430 + 84 * k, 79) for k in range(10)]            # the last at 1186
+        apparatus = [line(1330 + 54 * k, 50) for k in range(4)]         # a wider space above it
+        commentary = [line(1800 + 54 * k, 52) for k in range(12)]
+        lines = head + verses + apparatus + commentary
+        self.assertEqual(_block_above_rule(lines, head, 1735), 1330)
+        # a page whose verses run down to the rule: no apparatus
+        self.assertIsNone(_block_above_rule(head + verses + commentary, head, 1735))
+
+
 if __name__ == "__main__":
     unittest.main()
 

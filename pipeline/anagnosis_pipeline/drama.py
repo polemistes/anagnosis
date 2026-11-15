@@ -112,7 +112,15 @@ class Play:
     # leaf - page_offset (Nilén's Lucian: p. 133 = leaf 200); the apparatus is what stands under
     # the short rule below the text ("short") rather than the small type found from the foot up
     page_offset: int = 0
+    # "under" (Jebb's Sophocles, layout "jebb"): no rule between the verses and the apparatus;
+    # the apparatus is the small type directly above the one rule that heads the commentary
     app_rule: str = ""
+    # the running head: lines that end above this share of the page's height (Jebb's head stands lower)
+    head_frac: float = 0.075
+    # the check text is the same editor's text (Jebb's, from Perseus): where it changes speaker
+    # and the print has something in the left margin that Tesseract garbles, the change counts
+    # as printed and is not flagged
+    speaker_trust: bool = False
     # the commentary's own text (Jerram's Greek, whose line numbers his notes cite), read only to
     # map those line numbers to ours
     notes_text_leaves: list[tuple[int, int]] = field(default_factory=list)
@@ -328,7 +336,7 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
     Play("trachiniae", "Τραχίνιαι", "Trachiniae", "Σοφοκλῆς", "Sophocles", "tlg0011.tlg001",
          "Sophocles: The Plays and Fragments, with critical notes, commentary, and translation in English prose, by R. C. Jebb, Part V: The Trachiniae, Cambridge, University Press, 1892",
          "sophocles05soph", "jebb", "R. C. Jebb", "sophocles_trachiniae_jebb",
-         treebank="tlg0011.tlg001.perseus-grc2.tb.xml", layout="jebb",
+         treebank="tlg0011.tlg001.perseus-grc2.tb.xml", layout="jebb", app_rule="under", head_frac=0.095, speaker_trust=True, app_langs=("eng+grc", "grc+eng"),
          check_text="sophocles/trachiniae/reference-grc.txt",
          # leaf = PDF page (leaf 0 is hidden): the Greek on the even leaves 80-256, Jebb's
          # translation facing it; the Appendix 259-284; "Manuscripts, editions, etc." 55-58;
@@ -337,7 +345,7 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
     Play("oedipustyrannus", "Οἰδίπους Τύραννος", "Oedipus Tyrannus", "Σοφοκλῆς", "Sophocles", "tlg0011.tlg004",
          "Sophocles: The Plays and Fragments, with critical notes, commentary, and translation in English prose, by R. C. Jebb, Part I: The Oedipus Tyrannus, third edition, Cambridge, University Press, 1893",
          "playsfragmentswi01sophuoft", "jebb", "R. C. Jebb", "sophocles_oedipustyrannus_jebb",
-         treebank="tlg0011.tlg004.perseus-grc1.tb.xml", layout="jebb",
+         treebank="tlg0011.tlg004.perseus-grc1.tb.xml", layout="jebb", app_rule="under", head_frac=0.095, speaker_trust=True, app_langs=("eng+grc", "grc+eng"),
          check_text="sophocles/oedipustyrannus/reference-grc.txt",
          # leaf = PDF page (leaves from 1; 358-361 hidden): the Greek on the even leaves 110-300
          # (300, p. 200, is the play's last page; 301 begins the Appendix, 301-334); the
