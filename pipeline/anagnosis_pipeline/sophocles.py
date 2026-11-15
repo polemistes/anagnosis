@@ -438,12 +438,7 @@ def import_play(slug: str, sources: Path, texts: Path, build: Path, lexicon: Pat
     write_file(out / "grc.txt", grc)
     print(f"wrote {out / 'grc.txt'}: {len(grc.lines)} lines")
 
-    eng = tei_to_document(sources / files["eng"], {
-        "title": play.title_en, "translator": "Richard C. Jebb", "lang": "eng",
-        "source": f"urn:cts:greekLit:tlg0011.{play.tlg}.{play.eng}",
-        "edition": f"Sophocles: The Plays and Fragments, {PART_ROMAN[play.part]}: The {play.title_en}, tr. R. C. Jebb, Cambridge; modernized by Perseus",
-        "license": "CC BY-SA 4.0",
-    })
+    eng = jebb_translation(play, sources)
     write_file(out / "eng-jebb.txt", eng)
     print(f"wrote {out / 'eng-jebb.txt'}: {len(eng.lines)} paragraphs")
 
@@ -543,8 +538,9 @@ def write_prose(slug: str, sources: Path, texts: Path, transcriptions: Path, ind
     makes them, then the transcribed chapters) and texts/<slug>/appendix.md (as
     merge-sophocles-appendix); a kind whose batches are not all checked is left alone. Then
     Jebb's commentary from Perseus (commentary-jebb.md) made afresh (write_commentary) and its notes
-    on lines our numbering lacks re-filed (refile_commentary). Nothing else in texts/<slug>/ is
-    touched. Safe to run again. Returns the number of kinds left alone."""
+    on lines our numbering lacks re-filed (refile_commentary); Jebb's translation (eng-jebb.txt)
+    made afresh and its segments at numbers our text lacks re-filed (write_translation). Nothing
+    else in texts/<slug>/ is touched. Safe to run again. Returns the number of kinds left alone."""
     import os
 
     from .introduction import import_introduction
@@ -588,7 +584,175 @@ def write_prose(slug: str, sources: Path, texts: Path, transcriptions: Path, ind
         os.replace(tmp, path)
     write_commentary(slug, sources, texts)
     refile_commentary(out)
+    write_translation(slug, sources, texts)
     return skipped
+
+
+def jebb_translation(play: Play, sources: Path):
+    """Jebb's translation from Perseus as a Document (the eng-jebb.txt import_play writes)."""
+    from .import_perseus import tei_to_document
+
+    return tei_to_document(sources / sources_for(play)["eng"], {
+        "title": play.title_en, "translator": "Richard C. Jebb", "lang": "eng",
+        "source": f"urn:cts:greekLit:tlg0011.{play.tlg}.{play.eng}",
+        "edition": f"Sophocles: The Plays and Fragments, {PART_ROMAN[play.part]}: The {play.title_en}, tr. R. C. Jebb, Cambridge; modernized by Perseus",
+        "license": "CC BY-SA 4.0",
+    })
+
+
+def refile_translation(doc, numbers: list[str], speech_starts: set[str] | None = None,
+                       word_map=None) -> tuple[list[str], list[str]]:
+    """Jebb's translation from Perseus (a Document) put with the verses of grc.txt (`numbers`, in
+    order). The segments' numbers are Jebb's verse numbers as Perseus's English cites them, which
+    are ours except where his longer lyric verse covers a number, and except in a few places where
+    Perseus's count drifts from his print. So, segment by segment, in order:
+      * a lettered number is Perseus's way of dividing a verse shared by speakers (whether
+        grc.txt has the number or not): 876a is the first speaker's part, 876b the second's (409b
+        alone: the second part, the first being in the segment before; if the file also has a plain
+        876, a is the second part). Our text numbers the parts 876, 876a …: the k-th part goes to
+        the k-th of these that grc.txt has; when it has fewer (Jebb prints the second speaker's
+        words as the next verse) the number is left as it is and the build shows the segment from
+        the next verse;
+      * a plain number our text has stays; one that Jebb's longer verse covers goes to the nearest
+        earlier verse;
+      * where the segment begins a new speaker but that verse does not (`speech_starts`: the
+        verses of grc.txt that begin a speech), the word map is asked (`word_map(n)`: the verse of
+        ours that holds the first word of Perseus's verse n, drama.perseus_number_map): its verse
+        is taken if it begins a speech and keeps the order (Perseus 886 = our 887);
+      * a segment that lands on the verse of the segment before is joined to it (one space), unless
+        a change of speaker, a stage direction or a section lies between: then, as one that would
+        land before it, it takes the next verse after it, so that the print's order stays.
+    Changes the Document in place; returns (moves, notes on the segments left or forced on)."""
+    from .linenum import parts as n_parts
+    from .textfmt import Line
+
+    have = set(numbers)
+    order = {n: i for i, n in enumerate(numbers)}
+    keys = sorted((n_parts(n), n) for n in numbers)
+    items = doc.items
+    original = {it.n for it in items if isinstance(it, Line)}
+    moves: list[str] = []
+    left: list[str] = []
+
+    def default(n: str) -> tuple[str | None, str]:
+        num, letter = n_parts(n)
+        if letter:
+            k = (1 if str(num) in original else 0) + ord(letter) - ord("a")
+            ours = [x for x in [str(num)] + [f"{num}{chr(ord('a') + j)}" for j in range(26)] if x in have]
+            if k < len(ours):
+                return ours[k], f"part {k + 1} of the shared verse {num}"
+            return None, f"grc.txt has {len(ours)} part(s) of verse {num}"
+        if n in have:
+            return n, ""
+        earlier = [x for key, x in keys if key < (num, letter)]
+        return (earlier[-1], "covered by the verse") if earlier else (None, "no earlier verse")
+
+    out: list = []
+    prev: int | None = None      # order index of the last placed segment
+    prev_line = None
+    blocked = False              # a speaker, stage direction or section since the last segment
+    new_speaker = False
+    for it in items:
+        if not isinstance(it, Line):
+            out.append(it)
+            blocked = True
+            if type(it).__name__ == "Speaker":
+                new_speaker = True
+            continue
+        n = it.n
+        target, how = default(n)
+        if (new_speaker and speech_starts is not None and word_map is not None
+                and target is not None and target not in speech_starts):
+            m = word_map(n)
+            if m in speech_starts and (prev is None or order[m] > prev):
+                target, how = m, "its words begin a speech there (word map)"
+        if target is None:
+            left.append(f"translation: {n} left as it is ({how})")
+        else:
+            if prev is not None and order[target] <= prev:
+                if order[target] == prev and not blocked and prev_line is not None:
+                    prev_line.text = prev_line.text.rstrip() + " " + it.text.lstrip()
+                    moves.append(f"translation: {n} joined to the segment of {target} ({how or 'same verse'})")
+                    new_speaker = False
+                    continue
+                if prev + 1 >= len(numbers):
+                    left.append(f"translation: {n} left as it is (no verse after {numbers[prev]})")
+                    target = None
+                else:
+                    forced = numbers[prev + 1]
+                    left.append(f"translation: {n} would go to {target}, before the segment before it: "
+                                f"takes the next verse, {forced}")
+                    target = forced
+            elif target != n:
+                moves.append(f"translation: {n} → {target}" + (f" ({how})" if how else ""))
+            if target is not None:
+                it.n = target
+                prev = order[target]
+        out.append(it)
+        prev_line = it
+        blocked = new_speaker = False
+    items[:] = out
+    return moves, left
+
+
+def translation_word_map(slug: str, sources: Path, lines: list[tuple[str, str]], translation_numbers: set[str]):
+    """word_map for refile_translation: Perseus's verse n (a lettered part: the k-th part of that
+    verse in the reference text, plain, a, b …) -> the verse of ours that holds its first word."""
+    from . import drama
+    from .linenum import parts as n_parts
+
+    pers = drama.load_perseus(drama.PLAYS[slug], sources)
+    nmap = drama.perseus_number_map(lines, pers)
+    ref = {l["n"] for l in pers["lines"]}
+
+    def word_map(n: str) -> str | None:
+        num, letter = n_parts(n)
+        if letter:
+            k = (1 if str(num) in translation_numbers else 0) + ord(letter) - ord("a")
+            parts = [x for x in [str(num)] + [f"{num}{chr(ord('a') + j)}" for j in range(26)] if x in ref]
+            n = parts[k] if k < len(parts) else ""
+        return nmap.get(n) if n in ref else None
+    return word_map
+
+
+def write_translation(slug: str, sources: Path, texts: Path) -> list[str]:
+    """texts/<slug>/eng-jebb.txt afresh from Perseus (as import_play makes it), then
+    refile_translation against grc.txt, with the word map of the play's check text where the drama
+    route has one (sophocles-prose); safe to run again. Returns the moves."""
+    import os
+
+    from . import drama
+    from .textfmt import Line, Speaker, parse_file, write_file
+
+    play = PLAYS[slug]
+    src = sources / sources_for(play)["eng"]
+    grc = texts / slug / "grc.txt"
+    if not src.exists() or not grc.exists():
+        return []
+    doc = jebb_translation(play, sources)
+    gdoc = parse_file(grc)
+    lines = [(l.n, l.text) for l in gdoc.lines]
+    starts: set[str] = set()
+    pending = True
+    for it in gdoc.items:
+        if isinstance(it, Speaker):
+            pending = True
+        elif isinstance(it, Line):
+            if pending:
+                starts.add(it.n)
+            pending = False
+    word_map = None
+    if slug in drama.PLAYS and drama.PLAYS[slug].check_text:
+        word_map = translation_word_map(slug, sources, lines, {it.n for it in doc.items if isinstance(it, Line)})
+    moves, left = refile_translation(doc, [n for n, _t in lines], starts, word_map)
+    path = texts / slug / "eng-jebb.txt"
+    tmp = path.with_name(path.name + ".part")
+    write_file(tmp, doc)
+    os.replace(tmp, path)
+    for m in moves + left:
+        print(m)
+    print(f"wrote {path}: {len(moves)} segments moved or joined, {len(left)} left or forced on")
+    return moves
 
 
 def perseus_source(play: Play) -> str:

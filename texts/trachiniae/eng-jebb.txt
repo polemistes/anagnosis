@@ -89,21 +89,21 @@
 @ Chorus
 103	For with longing heart, as I hear, Deianeira, the battle-prize, now,
 105	like some mournful bird, never rests her eyes’ longing that they might be without tears, but nourishing a well-remembered fear for her husband’s travels she is constantly afflicted
-110	by her anxious, widowed marriage-bed and in her misery anticipates misfortune.
+109	by her anxious, widowed marriage-bed and in her misery anticipates misfortune.
 
 === strophe 2
 @ Chorus
 112	For just as one may see billow after billow
-115	advancing and passing over the wide deep before the tireless south-wind, or the north, so the great toil of his life, stormy as the Cretan sea, now whirls back the heir of Cadmus, now exalts him. But some god always
-120	keeps him unerring from the house of Hades.
+114	advancing and passing over the wide deep before the tireless south-wind, or the north, so the great toil of his life, stormy as the Cretan sea, now whirls back the heir of Cadmus, now exalts him. But some god always
+119	keeps him unerring from the house of Hades.
 
 === antistrophe 2
 !	To Deianeira.
 
 @ Chorus
 122	With respect I reproach you for your weeping, but still I will speak in dissent.
-125	You must not, I say, wear away fair hope. Remember that the all-accomplishing king, the son of Cronus, does not appoint a painless lot for mortals. Sorrow and joy revolve to all, as the stars of the Bear
-130	move in their circling paths.
+124	You must not, I say, wear away fair hope. Remember that the all-accomplishing king, the son of Cronus, does not appoint a painless lot for mortals. Sorrow and joy revolve to all, as the stars of the Bear
+129	move in their circling paths.
 
 === epode
 @ Chorus
@@ -346,7 +346,7 @@
 408	The very word that I wished to hear from you—you admit that she is your mistress?
 
 @ Lichas
-409b	Yes, it is only right to do so.
+409a	Yes, it is only right to do so.
 
 @ Messenger
 410	Well, then, what penalty would you think it right to pay, if you should be found to be behaving wrongly towards her?
@@ -428,12 +428,12 @@
 @ Chorus
 497	Great and mighty is the victory which the Cyprian queen always bears away. I bypass the tales of the gods,
 500	and do not narrate how she beguiled the son of Cronus, and Hades, the lord of darkness, or Poseidon, shaker of the earth. But, when this bride was to be won,
-505	who were the massive rivals that entered the contest for her nuptials? Who stepped forward to the ordeal of battle full of blows and raising dust?
+504	who were the massive rivals that entered the contest for her nuptials? Who stepped forward to the ordeal of battle full of blows and raising dust?
 
 === antistrophe 1
 @ Chorus
 507	One was a mighty river-god, the form of a bull, high-horned and four-legged,
-510	Achelous, from Oeniadae. The other came from Thebes, home of Bacchus, brandishing his resilient bow, his spears and club; he was the son of Zeus. These two then met in a mass, lusting to win a bride,
+509	Achelous, from Oeniadae. The other came from Thebes, home of Bacchus, brandishing his resilient bow, his spears and club; he was the son of Zeus. These two then met in a mass, lusting to win a bride,
 515	and the Cyprian goddess of nuptial joy was there with them, acting as sole umpire.
 
 === epode
@@ -643,18 +643,18 @@
 @ Chorus
 831	For if the Centaur’s deceitful torture smears his sides with a murderous net, where clings the venom which Death birthed and the gleaming serpent nourished,
 835	how can he look upon tomorrow’s sun, when that appalling Hydra-shape grasps him? Those murderous goads, prepared
-840	by the deceptive words of black-haired Nessus, torment him with confused thrashing and seethe on his skin.
+839	by the deceptive words of black-haired Nessus, torment him with confused thrashing and seethe on his skin.
 
 === strophe 2
 @ Chorus
 841	In these matters this miserable lady had no apprehension, when she foresaw in the new marriage a great plague swiftly rushing upon her household. Her own hand applied the drug. But no doubt for the results yielded by a stranger’s
 845	counsel, given at a fatal meeting—for these she despairingly groans and sheds a tender dew of thickly-falling tears.
-850	And the coming fate foreshadows a great disaster, contrived by guile.
+849	And the coming fate foreshadows a great disaster, contrived by guile.
 
 === antistrophe 2
 @ Chorus
 852	Our streaming tears break forth. Ah, no! An infection pours over him, an illness more to be pitied
-855	than any suffering that adversaries ever brought upon that glorious hero. Ah, you dark head of the spear foremost in battle, who by your mighty point recently led that swift bride from Oechalia’s heights!
+854	than any suffering that adversaries ever brought upon that glorious hero. Ah, you dark head of the spear foremost in battle, who by your mighty point recently led that swift bride from Oechalia’s heights!
 860	But the Cyprian goddess, ministering in silence, has been plainly proved the author of these deeds.
 
 == episode
@@ -683,42 +683,42 @@
 875	of all her journeys, departed without stirring a foot.
 
 @ Chorus
-876a	Surely you do not mean she is dead?
+876	Surely you do not mean she is dead?
 
 @ Nurse
-876b	My tale is told.
+876a	My tale is told.
 
 @ Chorus
-877a	Dead, the poor woman?
+877	Dead, the poor woman?
 
 @ Nurse
-877b	Again you hear me affirm it.
+877a	Again you hear me affirm it.
 
 @ Chorus
 878	Poor, lost one! Tell me, what was the manner of her death?
 
 @ Nurse
-879a	Oh, it was most cruel in its execution!
+879	Oh, it was most cruel in its execution!
 
 @ Chorus
-879b	Speak,
+879a	Speak,
 880	woman, with what end did she meet?
 
 @ Nurse
-881a	She destroyed herself.
+881	She destroyed herself.
 
 @ Chorus
 881b	What impulse drove her? What disease of her mind seized her on the point of its evil shaft? How did she contrive
 885	this death upon death, accomplishing it all on her own?
 
 @ Nurse
-886	By a stroke of the sword which gives cause for mourning.
+887	By a stroke of the sword which gives cause for mourning.
 
 @ Chorus
-887	Did you witness that violent deed, poor helpless one?
+888	Did you witness that violent deed, poor helpless one?
 
 @ Nurse
-888	I did, yes, since I was standing close by.
+889	I did, yes, since I was standing close by.
 
 @ Chorus
 890	What was it? How was it done? Oh, speak!
@@ -727,10 +727,10 @@
 891	Of her own accord she set her hand to the deed.
 
 @ Chorus
-892a	What are you saying?
+892	What are you saying?
 
 @ Nurse
-892b	The certain truth.
+892a	The certain truth.
 
 @ Chorus
 893	The firstborn, the firstborn of that newly arisen bride is
@@ -789,14 +789,14 @@
 975	the cruel pain that infuriates your father! He lives, though on the very edge. Bite your tongue and hold it!
 
 @ Hyllus
-977b	What do you say, old man—is he alive?
+977a	What do you say, old man—is he alive?
 
 @ Old Man
 978	You must not awake the slumberer! You must not rouse and revive
 980	his fierce, recurrent infection, my son!
 
 @ Hyllus
-981b	But the immense weight of this misery crushes me. My heart craves release!
+981a	But the immense weight of this misery crushes me. My heart craves release!
 
 @ Heracles
 983	O Zeus, in what land am I? Among what people
@@ -807,7 +807,7 @@
 990	sleep from his brain and eyes?
 
 @ Hyllus
-991b	No, I know no way to be patient when I witness this misery.
+991a	No, I know no way to be patient when I witness this misery.
 
 @ Heracles
 993	O Cenaean rock, foundation of my altars, what cruel reward
@@ -825,19 +825,19 @@
 
 === mesode
 @ Old Man
-1017	You are the man’s son, and this task exceeds my strength. Help him, for the strength to save him is at your command,
-1020a	more than mine.
+1018	You are the man’s son, and this task exceeds my strength. Help him, for the strength to save him is at your command,
+1020	more than mine.
 
 @ Hyllus
-1020b	My hands reach out to him, but no resource in myself or from another can help me make his life forget its agonies. So strong is the destiny appointed by Zeus!
+1020a	My hands reach out to him, but no resource in myself or from another can help me make his life forget its agonies. So strong is the destiny appointed by Zeus!
 
 === antistrophe 1
 @ Heracles
-1024	O my son, where are you?
+1023	O my son, where are you?
 1025	Raise me, take hold of me here, here! Oh, oh, my god! Again, again the cruel pest leaps, leaps up to rend me, the
-1030	wild, uncombatable plague! O Pallas, Pallas, it tortures me again! oh, please, my son, pity your sire! Draw a sword—you will not be blamed for it—strike me beneath my collarbone.
+1029	wild, uncombatable plague! O Pallas, Pallas, it tortures me again! oh, please, my son, pity your sire! Draw a sword—you will not be blamed for it—strike me beneath my collarbone.
 1035	Heal this pain with which your godless mother has enraged me! So may I see her fall to ruin, exactly, just exactly, as she has destroyed me!
-1040	Sweet Hades, brother of Zeus, give me sleep, give me sleep. Kill me in my misery by a swift-flying doom!
+1039	Sweet Hades, brother of Zeus, give me sleep, give me sleep. Kill me in my misery by a swift-flying doom!
 
 == episode
 @ Chorus

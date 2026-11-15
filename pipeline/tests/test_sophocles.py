@@ -3,7 +3,8 @@ import unittest
 from lxml import etree
 
 from anagnosis_pipeline.commentary import _md, _txt
-from anagnosis_pipeline.sophocles import _printed, apply_text_check, numbering_suspects, perseus_anchors
+from anagnosis_pipeline.sophocles import _printed, apply_text_check, numbering_suspects, perseus_anchors, refile_translation
+from anagnosis_pipeline.textfmt import parse, serialize
 from anagnosis_pipeline.sophocles_pages import bold_lemmas
 from anagnosis_pipeline.textfmt import Document, Line
 
@@ -121,6 +122,80 @@ class NumberingSuspects(unittest.TestCase):
             ("lemma", "102", "κατʼ ὄμμα", "102", "101"),
         ])
         self.assertEqual([n for n, _t in items[1]["context"]], ["98", "100", "101", "102"])
+
+
+class RefileTranslation(unittest.TestCase):
+    TR = """# title: T
+
+== episode
+@ Chorus
+105\tlike some mournful bird,
+110\tby her anxious bed.
+@ Nurse
+112\tFor just as one may see
+113\tbillow after billow
+@ Chorus
+876a\tSurely she is not dead?
+@ Nurse
+876b\tMy tale is told.
+@ Chorus
+881a\tShe destroyed herself.
+@ Nurse
+881b\tWhat impulse drove her?
+@ Chorus
+977b\tIs he alive?
+"""
+    GRC = ["105", "106", "109", "111", "112", "114", "876", "876a", "881", "882", "977", "977a"]
+
+    def test_rules(self):
+        doc = parse(self.TR, "t")
+        moves, left = refile_translation(doc, self.GRC)
+        self.assertEqual([(i.n, i.text) for i in doc.items if hasattr(i, "n")], [
+            ("105", "like some mournful bird,"), ("109", "by her anxious bed."),
+            ("112", "For just as one may see billow after billow"), ("876", "Surely she is not dead?"),
+            ("876a", "My tale is told."), ("881", "She destroyed herself."), ("881b", "What impulse drove her?"),
+            ("977a", "Is he alive?")])
+        # the speakers stay where they were, none lost or doubled
+        self.assertEqual(serialize(doc).count("@ "), self.TR.count("@ "))
+        self.assertEqual(len(moves), 6)
+        self.assertEqual(left, ["translation: 881b left as it is (grc.txt has 1 part(s) of verse 881)"])
+        # (the letters follow Perseus's convention, so the step must start from Perseus's file,
+        # never from its own output: write_translation always does)
+
+    def test_join_to_the_segment_of_the_covering_verse(self):
+        doc = parse("@ Chorus\n112\tFor just as\n113\tbillow after billow\n@ Nurse\n115\tNo.\n", "t")
+        moves, left = refile_translation(doc, ["112", "115"])
+        self.assertEqual(serialize(doc), "@ Chorus\n112\tFor just as billow after billow\n\n@ Nurse\n115\tNo.\n")
+        self.assertEqual((len(moves), left), (1, []))
+
+    def test_no_join_across_a_change_of_speaker(self):
+        # the later segment takes the next verse (where the build would show it), the order kept
+        doc = parse("112\tA.\n@ Nurse\n113\tB.\n", "t")
+        moves, left = refile_translation(doc, ["110", "112", "114"])
+        self.assertEqual(moves, [])
+        self.assertEqual([i.n for i in doc.items if hasattr(i, "n")], ["112", "114"])
+        self.assertEqual(serialize(doc).count("@ Nurse"), 1)
+        self.assertEqual(len(left), 1)
+
+    def test_numbers_that_name_other_verses(self):
+        # Perseus counts 886-888 where the print has 887-889 (our 885 covers 886): the Nurse's
+        # "By a stroke …" (Perseus 886) begins a speech, our 885 does not; the word map puts it at
+        # 887, and the two segments after it, which land on verses already taken across a change
+        # of speaker, follow on to 888 and 889
+        doc = parse("@ Chorus\n885\tthis death upon death?\n@ Nurse\n886\tBy a stroke of the sword.\n"
+                    "@ Chorus\n887\tDid you witness it?\n@ Nurse\n888\tI did.\n@ Chorus\n890\tWhat was it?\n", "t")
+        numbers = ["883", "885", "887", "888", "889", "890"]
+        starts = {"883", "887", "888", "889", "890"}
+        perseus = {"885": "885", "886": "887", "887": "888", "888": "889", "890": "890"}
+        moves, left = refile_translation(doc, numbers, starts, perseus.get)
+        self.assertEqual([(i.n, i.text) for i in doc.items if hasattr(i, "n")], [
+            ("885", "this death upon death?"), ("887", "By a stroke of the sword."), ("888", "Did you witness it?"),
+            ("889", "I did."), ("890", "What was it?")])
+        self.assertEqual(serialize(doc).count("@ "), 5)
+        # without the word map, the nearest earlier verse (and the order rule) only
+        doc = parse("@ Chorus\n885\tA.\n@ Nurse\n886\tB.\n", "t")
+        refile_translation(doc, numbers)
+        self.assertEqual([i.n for i in doc.items if hasattr(i, "n")], ["885", "887"])
 
 
 if __name__ == "__main__":

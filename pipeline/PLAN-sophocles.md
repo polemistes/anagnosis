@@ -293,6 +293,28 @@ The metrical analyses are not transcribed (as for Ajax and Electra).
     run is not planned (the app's behaviour was seen; what changed since is data, checked in
     the files).
 
+* **2026-11-15: THE TRACHINIAE IS FINISHED** (built, in the catalogue as
+  `sophocles_trachiniae_jebb`, no sale mark; putting it on sale is the author's word and
+  needs the product in the Console and a reader release). Last step: the translation's
+  segments re-filed in `sophocles-prose` (eng-jebb.txt made again from Perseus each run; a
+  lettered part goes to the matching part of our verse, a number a longer verse covers to the
+  nearest earlier verse; the word map only where a segment begins a speech and its default
+  verse does not; 30 segments moved). The word map could NOT be the main rule: the
+  translation's numbers follow neither reference-grc.txt nor the Perseus Greek's own count
+  (it misplaced the English at 103, 115, 190–195, 505–517, 863, 955, 971, 974). Two
+  segments stay one verse late (132 at the epode's disputed number; "Oh! Oh!" at 1015 for
+  ἒ ἔ, our 1014a); `check`: one segment at an absent number (881b, shown at 882, right).
+* **Oedipus Tyrannus**: review back (16 agents, 2.6 M tokens, 28 corrections) and committed;
+  `merge-drama oedipustyrannus`: 1,485 verses, 319 apparatus notes, 9 log remarks (covered
+  verses), 2 words without lemma, review list 126 words; `sophocles-numbering`: 3 lemma
+  suspects, 9 notes with the number in front. Prose check + second reading running. Then, in
+  this order: `sophocles-prose oedipustyrannus` (look at the 7 vowel-length places first),
+  one agent for the numbering suspects with the pages, the finishing agent (review list,
+  lemma fixes, glossary, shortdefs, sigla from the first apparatus page, about.md product id
+  `sophocles_oedipustyrannus_jebb`, pack, catalogue, README rows), separate commands for
+  merge / sophocles-prose / build / catalog / check, then the emulator check (points 3–11 of
+  the Trachiniae's list; point 1 is known: an unmarked text is not in the shop).
+
 ## Decisions
 
 * 2026-11-15: order by least work left (Trachiniae first).
