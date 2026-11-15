@@ -335,6 +335,12 @@ The metrical analyses are not transcribed (as for Ajax and Electra).
   previous play's finishing steps, within ten agents; no more than that.** First pass started
   2026-11-15 (22 batches, nine at once). The Philoctetes (first pass half done) comes after it.
 
+* **2026-11-15, the author: "We will not go further with Philoctetes for now."** The
+  Philoctetes is PARKED: do not continue it (first pass, prose, commentary) until the author
+  says so. What is on disk stays: the `Play` entry, scan, OCR, draft (111 pages, 1,469
+  verses, 216 flagged), 19 batch files of which 13 hold partial first-pass work. The work
+  ends with the Oedipus at Colonus.
+
 ## Decisions
 
 * 2026-11-15: order by least work left (Trachiniae first).
