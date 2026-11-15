@@ -2,15 +2,22 @@
 --- text
 @ Ὀδυσσεύς
 1	Ἀκτὴ μὲν ἥδε τῆς περιρρύτου χθονὸς
-2	Λήμνου, βροτοῖς ἄστιπτος οὐδʼ οἰκουμένη,
-3	ἔνθʼ, ὦ κρατίστου πατρὸς Ἑλλήνων τραφεὶς
+2	Λήμνου, βροτοῖς ἄστιπτος οὐδʼ οἰκουμένη·
+3	ἔνθʼ, ὦ κρατίστου πατρὸς Ἑλλήνων τραφείς,
 4	Ἀχιλλέως παῖ Νεοπτόλεμε, τὸν Μηλιᾶ
 5	Ποίαντος υἱὸν ἐξέθηκʼ ἐγώ ποτε,
 6	ταχθεὶς τόδʼ ἔρδειν τῶν ἀνασσόντων ὕπο,
-7	νόσῳ καταστάζοντα διαβόρῳ πόδα·
+7	νόσῳ καταστάζοντα διαβόρῳ πόδα,
 8	ὅτʼ οὔτε λοιβῆς ἡμὶν οὔτε θυμάτων
 --- apparatus
+2	ἄστιπτος L, and Γ (cod. Abbat. Flor. 152, late 13th cent.): ἄστειπτος A, with the other later MSS. Cp. on στιπτή, v. 33.
+6	Nauck places this verse after v. 7.
 --- notes
+1	Sigla: L = cod. Laur. 32. 9 (first half of eleventh century). r = one or more of the later MSS. This symbol is used where a more particular statement is unnecessary. 'MSS.,' after a reading, means that it is in all the MSS. known to the editor.
+6	flag checked: the margin 5 stands beside verse 5 on the whole page; numbering right, no change.
+2	unflagged, seen on the whole page: the print ends the verse with a raised stop (draft a comma): changed.
+3	unflagged, seen on the whole page: the print has τραφείς, (acute, then a comma): written as printed.
+7	unflagged, seen on the whole page: the print ends the verse with a comma (draft a raised stop): changed.
 
 === p-0078
 --- text
@@ -18,18 +25,32 @@
 10	κατεῖχʼ ἀεὶ πᾶν στρατόπεδον δυσφημίαις,
 11	βοῶν, στενάζων. ἀλλὰ ταῦτα μὲν τί δεῖ
 12	λέγειν; ἀκμὴ γὰρ οὐ μακρῶν ἡμῖν λόγων,
-13	μὴ καὶ μάθῃ μʼ ἥκοντα κἀκχέω τὸ πᾶν
-14	σόφισμα, τῷ νιν αὐτίχʼ αἱρήσειν δοκῶ.
-15	ἀλλʼ ἔργον ἤδη σὸν τὰ λοίφʼ ὑπηρετεῖν
-16	σκοπεῖν θʼ ὅπου ʼστʼ ἐνταῦθα δίστομος πέτρα
+13	μὴ καὶ μάθῃ μʼ ἥκοντα, κἀκχέω τὸ πᾶν
+14	σόφισμα τῷ νιν αὐτίχʼ αἱρήσειν δοκῶ.
+15	ἀλλʼ ἔργον ἤδη σὸν τὰ λοίφʼ ὑπηρετεῖν,
+16	σκοπεῖν θʼ ὅπου ʼστʼ ἐνταῦθα δίστομος πέτρα,
 17	τοιάδʼ, ἵνʼ ἐν ψύχει μὲν ἡλίου διπλῆ
 18	πάρεστιν ἐνθάκησις, ἐν θέρει δʼ ὕπνον
-19	διʼ ἀμφιτρῆτος αὐλίου πέμπει πνοή·
+19	διʼ ἀμφιτρῆτος αὐλίου πέμπει πνοή.
 20	βαιὸν δʼ ἔνερθεν ἐξ ἀριστερᾶς τάχʼ ἂν
 21	ἴδοις ποτὸν κρηναῖον, εἴπερ ἐστὶ σῶν.
-22	ἅ μοι προσελθὼν σῖγα σήμαινʼ εἴτʼ ἐκεῖ
+22	ἅ μοι προσελθὼν σῖγα σήμαινʼ εἴτʼ ἔχει
 --- apparatus
+10	κατείχετʼ L: κατεῖχʼ r.
+11	στενάζων] ἤϋζον (sic) Γ, a corruption of ἰύζων, itself manifestly a reminiscence of Tr. 787 βοῶν, ἰύζων.
+13	These two verses are rejected by E. A. Richter (Beiträge z. Kritik u. Erkl. des Soph. Philoct., Altenburg, 1876), with Nauck's approval, who pronounces v. 14 'quite unworthy of an intelligent poet.'
+14	αὐτίχʼ made from αὐτίκʼ in L by S (the 1st corrector).
 --- notes
+12	flag checked: λέγειν; is printed (the OCR dropped the ν); no change.
+22	flag checked: the page prints ἔχει (σήμαινʼ εἴτʼ ἔχει), not Perseus's ἐκεῖ; written as printed.
+22	the two unmatched printed lines after this verse are the apparatus (OCR of its first lines), not verses; nothing added.
+13	unflagged, seen on the whole page: comma after ἥκοντα, as printed.
+14	unflagged, seen on the whole page: no comma after σόφισμα, as printed.
+15	unflagged, seen on the whole page: comma at the verse end, as printed.
+16	unflagged, seen on the whole page: comma after πέτρα, as printed.
+19	unflagged, seen on the whole page: full stop after πνοή (draft a raised stop), as printed.
+11	apparatus: ἤϋζον printed with smooth breathing and acute on η and a diaeresis on υ (checked enlarged); Γ the siglum introduced in the note on v. 2.
+13	apparatus: the note is printed "13 f."; written under 13.
 
 === p-0080
 --- text

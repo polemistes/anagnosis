@@ -258,105 +258,107 @@ Two other explanations of the vulgate may be noticed. (1) Hermann rendered 196 t
 Structure: the note's number is 196 f. in the print (the draft had 190 f.). Beyond the flags: ’ for ” (several), κἀδόκουν (stray «), = τὸ ποθούμενον (--), οἱ (of), ‘Each (stray space), *to* at the foot (#); italics *either*, *or*, *O. C.*, *e.g.*, *feeling*, *its object*, Hermann's Latin.
 
 === p-0265
-+ part with his desire (to learn). But μεθεῖτο would require the genitive, τοῦ ποθοῦντος. We might, indeed, conjecture μεθείη. There can, however, be little doubt that with οὐκ ἂν μεθεῖτο we must understand αὐτοῦ (22. τοῦ Aixa): the whole context shows this.
++ *part with his desire* (to learn).’ But μεθεῖτο would require the genitive, τοῦ ποθοῦντος. We might, indeed, conjecture μεθείη. There can, however, be little doubt that with οὐκ ἂν μεθεῖτο we must understand αὐτοῦ (*i.e.* τοῦ Λίχα): the whole context shows this.
 
-Emendations of v. 196 have been numerous. That of E. Thomas, τὰ γὰρ ποθείν᾽, has been noted in the commentary. The others fall under two classes.
+Emendations of v. 196 have been numerous. That of E. Thomas, τὰ γὰρ ποθείν’, has been noted in the commentary. The others fall under two classes.
 
-I. Those which retain some part of ποθῶ (1) Wecklein reads, ὁ yap ποθῶν ἕκαστος ἐκμαθεῖν κυρεῖ, ascribing it to Subkoff. Then οὐκ dv μεθεῖτο will govern a neuter αὐτοῦ understood. (2) Wecklein in Ars Soph. em. Ὁ. 26: ὃ γὰρ ποθῶν ἦν πᾶς τις ἐκμαθεῖν θέλων. (3) Ο. Hense: τὰ γὰρ ποθούμεν᾽ ὅστις ἐκμαθεῖν θέλει.
+I. Those which retain some part of ποθῶ. (1) Wecklein reads, ὁ γὰρ ποθῶν ἕκαστος ἐκμαθεῖν κυρεῖ, ascribing it to Subkoff. Then οὐκ ἂν μεθεῖτο will govern a *neuter* αὐτοῦ understood. (2) Wecklein in *Ars Soph. em.* p. 26: ὃ γὰρ ποθῶν ἦν πᾶς τις ἐκμαθεῖν θέλων. (3) O. Hense: τὰ γὰρ ποθούμεν’ ὅστις ἐκμαθεῖν θέλει.
 
-A possibility, which I have not seen mentioned, is ὃ γὰρ ποθοῦσ᾽ ἕκαστος ἐκμαθεῖν θέλων. Instead of θέλοντες... ᾿μεθεῖντο, the singular might have come in under the influence of ἕκαστος. Another possibility would be, ὁ γὰρ ποθῶν... θέλων.
+A possibility, which I have not seen mentioned, is ὃ γὰρ ποθοῦσ’ ἕκαστος ἐκμαθεῖν θέλων. Instead of θέλοντες...μεθεῖντο, the singular might have come in under the influence of ἕκαστος. Another possibility would be, ὁ γὰρ ποθῶν...θέλων.
 
-ΤΙ. Other emendations discard the verb ποθῶ altogether. (1) Blaydes : a ἰ γὰρ πέπονθ᾽. (2) F. W. Schmidt: τὰ yap φίλων. (3) Nauck : τὰ yap wapovh ἕκαστος ἐκμαθεῖν ποθῶν. (4) M. Schmidt (ap. Wecklein, Ars p. 26): ofovvex’ ὧν ἕκαστος ἐκμαθεῖν θέλοι.
+II. Other emendations discard the verb ποθῶ altogether. (1) Blaydes: ἃ γὰρ πέπονθ’. (2) F. W. Schmidt: τὰ γὰρ φίλων. (3) Nauck: τὰ γὰρ παρόνθ’ ἕκαστος ἐκμαθεῖν ποθῶν. (4) M. Schmidt (*ap.* Wecklein, *Ars* p. 26): ὁθούνεχ’ ὧν ἕκαστος ἐκμαθεῖν θέλοι.
 
 ## Line 322 f.
 
-**οὔ Tapa τῷ ye πρόσθεν οὐδὲν ἐξ ἴσου | χρόνῳ διήσει γλῶσσαν.**
+**οὔ τἄρα τῷ γε πρόσθεν οὐδὲν ἐξ ἴσου | χρόνῳ διήσει γλῶσσαν.**
 
-The traditional reading in 323, διοίσει, has been explained as follows. (1) Passow : Zinguam in ore movere : whence Liddell and Scott, ‘set her tongue in motion.” So Linwood, and Pretor. (2) Neue and Ellendt: ‘will bring out’ the tongue, from between the lips. So Campbell, though doubtfully. (3) Blaydes: ‘will continue to carry the same tongue as hitherto.” (4) Hermann: ‘will not be different as to speech, but true to her previous behaviour.’
+The traditional reading in 323, διοίσει, has been explained as follows. (1) Passow: *linguam in ore movere*: whence Liddell and Scott, ‘set her tongue in motion.’ So Linwood, and Pretor. (2) Neue and Ellendt: ‘will bring out’ the tongue, from between the lips. So Campbell, though doubtfully. (3) Blaydes: ‘will continue to carry the same tongue as hitherto.’ (4) Hermann: ‘will not be different as to speech, but true to her previous behaviour.’
 
-The scholiast has :--Ἴὰν αἰδουμένη σε φθέγξηται, κατ᾽ οὐδὲν ἁ apa ἐξ ἴσου τῷ πρόσθεν χρόνῳ προκομίσειεν «ἂν-:- αὑτῆς τὴν γλῶτταν' τὸν γὰρ πρὸ τοῦ χρόνον ἐσιώπα. His text in ν. 322, then, was the same as ours; but we cannot be sure whether, 1 in v. 323, it was διοίσει or διήσει that he paraphrased by προκομίσειεν. ᾿
+The scholiast has:—ἐὰν αἰδουμένη σε φθέγξηται, κατ’ οὐδὲν ἄρα ἐξ ἴσου τῷ πρόσθεν χρόνῳ προκομίσειεν <ἂν> αὐτῆς τὴν γλῶτταν· τὸν γὰρ πρὸ τοῦ χρόνον ἐσιώπα. His text in v. 322, then, was the same as ours; but we cannot be sure whether, in v. 323, it was διοίσει or διήσει that he paraphrased by προκομίσειεν.
 
-The following conjectures may be mentioned. (1) Paley, διοίξει. (2) DS. Margoliouth : οὐ τἄρα τῷ ye πρόσθεν οὐδὲν ἠξίου | χρόνῳ διορίσαι: γλῶσσαν ἥτις οὐδαμὰ | προὔφηνεν κιτιλ. The ἠξίου is ingenious; but διορίσαι is an impossible word in this context. (3) Hense supposes that v. 322 is mainly an interpolation. He would fuse verses 322 and 323 into one, by reading οὐ τἄρ’ ἀνοίξει γλῶσσαν κιτ. A. (4) Nauck would do likewise : he suggests ποῦ γὰρ διήσει (Or ov Tapa λύσει) γλῶσσαν.
+The following conjectures may be mentioned. (1) Paley, διοίξει. (2) D. S. Margoliouth: οὐ τἄρα τῷ γε πρόσθεν οὐδὲν ἠξίου | χρόνῳ διορίσαι· γλῶσσαν ἥτις οὐδαμὰ | προὔφηνεν κ.τ.λ. The ἠξίου is ingenious; but διορίσαι is an impossible word in this context. (3) Hense supposes that v. 322 is mainly an interpolation. He would fuse verses 322 and 323 into one, by reading οὐ τἄρ’ ἀνοίξει γλῶσσαν κ.τ.λ. (4) Nauck would do likewise: he suggests ποῦ γὰρ διήσει (or οὐ τἄρα λύσει) γλῶσσαν.
 
 ## Line 419
 
-**ἣν ὑπ᾽ ἀγνοίας ὁρᾷς.** In Schneidewin’s conjecture, ἧς σύ γ᾽ ἀγνοεῖς γονάς, the σύ γ comes awkwardly after οὔκουν σὺ ταύτην. Nor is γονάς very near to ὁρᾷς: though it might be suggested that γονάς was first corrupted to σποράν through the transcriber’s eye wandering to σπορὰν In 420. Still less satisfactory is Reiske’s ἣν ὑπ᾽ ἀγνοίᾳ στέγεις, or Meineke’s ἣν σύ γ᾽ ἀγνοεῖν λέγεις.
+**ἣν ὑπ’ ἀγνοίας ὁρᾷς.** In Schneidewin’s conjecture, ἧς σύ γ’ ἀγνοεῖς γονάς, the σύ γ’ comes awkwardly after οὔκουν σὺ ταύτην. Nor is γονάς very near to ὁρᾷς: though it might be suggested that γονάς was first corrupted to σποράν through the transcriber’s eye wandering to σπορὰν in 420. Still less satisfactory is Reiske’s ἣν ὑπ’ ἀγνοίᾳ στέγεις, or Meineke’s ἣν σύ γ’ ἀγνοεῖν λέγεις.
 --- flags
-1 desire [conf] →
-2 learn). [conf] →
-3 Aixa [rare] →
-4 ποθείν᾽ [accent] →
-5 Subkoff [rare] →
-6 ποθούμεν᾽ [accent] →
-7 ποθοῦσ᾽ [accent] →
-8 θέλοντες... [conf] →
-9 ᾿μεθεῖντο, [conf] →
-10 ἰ [conf] →
-11 Nauck [conf] →
-12 wapovh [latin] (Greek model: παρόνθ᾽) →
-13 ofovvex’ [latin] (Greek model: δθούνεχ᾽) →
-14 Passow [latin] (Greek model: Ῥαβθον :) →
-15 Zinguam [latin] (Greek model: ἀριρμαηη,) →
-16 :--Ἴὰν [conf] →
-17 ἁ [conf] →
-18 προκομίσειεν [greek] →
-19 «ἂν-:- [conf] →
-20 1 [digit] →
-21 προκομίσειεν [greek] →
-22 ᾿ [conf] →
-23 διοίξει [greek] →
-24 DS. [conf] →
-25 κιτιλ [greek] →
-26 κιτ [greek] →
-27 Schneidewin’s [conf] →
+1 desire [conf] → ok
+2 learn). [conf] → learn).’
+3 Aixa [rare] → Λίχα
+4 ποθείν᾽ [accent] → ok
+5 Subkoff [rare] → ok
+6 ποθούμεν᾽ [accent] → ok
+7 ποθοῦσ᾽ [accent] → ok
+8 θέλοντες... [conf] → ok
+9 ᾿μεθεῖντο, [conf] → μεθεῖντο,
+10 ἰ [conf] → ἃ
+11 Nauck [conf] → ok
+12 wapovh [latin] (Greek model: παρόνθ᾽) → παρόνθ’
+13 ofovvex’ [latin] (Greek model: δθούνεχ᾽) → ὁθούνεχ’
+14 Passow [latin] (Greek model: Ῥαβθον :) → ok
+15 Zinguam [latin] (Greek model: ἀριρμαηη,) → linguam
+16 :--Ἴὰν [conf] → :—ἐὰν
+17 ἁ [conf] → ἄρα
+18 προκομίσειεν [greek] → ok
+19 «ἂν-:- [conf] → <ἂν>
+20 1 [digit] → deleted (stray mark)
+21 προκομίσειεν [greek] → ok
+22 ᾿ [conf] → deleted (stray mark)
+23 διοίξει [greek] → ok
+24 DS. [conf] → D. S.
+25 κιτιλ [greek] → κ.τ.λ.
+26 κιτ [greek] → κ.τ.λ.
+27 Schneidewin’s [conf] → ok
 --- notes
+Beyond the flags: *i.e.* (22.), γὰρ for yap (several), οὐκ ἂν (dv), the stop after ποθῶ, O. Hense (Greek Ο), II. (ΤΙ.), the lemma οὔ τἄρα τῷ γε (Tapa, ye), αὐτῆς (αὑτῆς; the print has the smooth breathing), γε and διορίσαι· in Margoliouth, (or οὐ τἄρα λύσει) (Or ov Tapa), σύ γ’ (σύ γ), in 420 (In), ’ for ” (several); italics *part with his desire*, *neuter*, *Ars Soph. em.*, *ap.*, *Ars*, *linguam in ore movere*. The scholiast's <ἂν> kept in angle brackets as printed (as in the Electra appendix).
 
 === p-0266
 ## Line 476
 
 **ὁ δεινὸς ἵμερος.** Those who understand these words to mean merely, ‘very’ (or ‘most’) ‘potent love,’ can appeal to a number of passages in which the article has been similarly regarded as merely strengthening an adjective,—usually δεινός. But these passages do not seem to establish the supposed usage. In all of them the article can be explained as referring to something previously mentioned or implied.
 
-The examples may be divided into two classes. I. Those in which such a reference is manifest. 1. Az 1226 τὰ δεινὰ ῥήματ᾽, ¢ those terrible words.” 2. O. C. 1392 τὸ δεινὸν μῖσος, ‘that terrible hatred.” 3. Eur 7. 7. 924 τὰ δεινὰ δ᾽ ἔργα πῶς ἔτλης μητρὸς πέρι; ‘those terrible deeds. II. Examples in which such a reference is less obvious, yet may naturally be supposed. 1. Ai 312 ἔπειτ᾽ ἐμοὶ τὰ δείν᾽ ἐπηπείλησ᾽ ἔπη, those dread threats (which haunt my memory)’: cp. 4#Z. 408 πρὸς σοῦ τὰ δείν᾽ ἐκεῖν᾽ ἐπηπειλημένοι. 2. Ai. 650 ἐγὼ yap, ὃς τὰ δείν᾽ ἐκαρτέρουν τότε, ‘who was so wondrously firm then.” 3. Eur. 2% 180 ποῦ δ᾽, ὃς τὰ δεινὰ τῇδ᾽ ἐφυβρίζει πόλει | Καπανεύς ; ‘those dread vaunts’ (of which we have heard). 4. 7 7% 1366 ὅθεν τὰ δεινὰ πλήγματ᾽ ἦν γενειάδων , ---- those dread blows, —which the speaker had experienced. 5. Or. 1554 τὰ δεινὰ καὶ δραστήρια | δισσοῖν λεόντοιν, ‘the dread and forceful deeds’ 6. Ar. Ran. 706 ἐνταῦθα δὴ τὰ δεινὰ κινηθήσεται, “ that terrible strife ’—already indicated.
+The examples may be divided into two classes. I. Those in which such a reference is manifest. 1. *Ai.* 1226 τὰ δεινὰ ῥήματ’, ‘*those* terrible words.’ 2. *O. C.* 1392 τὸ δεινὸν μῖσος, ‘*that* terrible hatred.’ 3. Eur. *I. T.* 924 τὰ δεινὰ δ’ ἔργα πῶς ἔτλης μητρὸς πέρι; ‘*those* terrible deeds.’ II. Examples in which such a reference is less obvious, yet may naturally be supposed. 1. *Ai.* 312 ἔπειτ’ ἐμοὶ τὰ δείν’ ἐπηπείλησ’ ἔπη, ‘*those* dread threats (which haunt my memory)’: cp. *Ant.* 408 πρὸς σοῦ τὰ δείν’ ἐκεῖν’ ἐπηπειλημένοι. 2. *Ai.* 650 ἐγὼ γάρ, ὃς τὰ δείν’ ἐκαρτέρουν τότε, ‘who was *so* wondrously firm then.’ 3. Eur. *Ph.* 180 ποῦ δ’, ὃς τὰ δεινὰ τῇδ’ ἐφυβρίζει πόλει | Καπανεύς; ‘*those* dread vaunts’ (of which we have heard). 4. *I. T.* 1366 ὅθεν τὰ δεινὰ πλήγματ’ ἦν γενειάδων,—‘*those* dread blows,’—which the speaker had experienced. 5. *Or.* 1554 τὰ δεινὰ καὶ δραστήρια | δισσοῖν λεόντοιν, ‘*the* dread and forceful deeds.’ 6. Ar. *Ran.* 796 ἐνταῦθα δὴ τὰ δεινὰ κινηθήσεται, ‘*that* terrible strife’—already indicated.
 
-In the following examples the adjective is not δεινός. The first two of them belong to class I., and the third to class II. 1. Ai. 1107 τὰ σέμν᾽ ἔπη, ‘τὴν proud words.” 2. Ar. Ran. 882 viv yap ἀγὼν σοφίας ὁ μέγας χωρεῖ, ‘that great contest’—already mentioned. 3. Aesch. 7%. 283 ἀντηρέτας ἐχθροῖσι Tov μέγαν τρόπον, ‘to match the attack of the foe on this great scale’ (Verrall)—referring to the previous description of the Argive warriors.
+In the following examples the adjective is not δεινός. The first two of them belong to class I., and the third to class II. 1. *Ai.* 1107 τὰ σέμν’ ἔπη, ‘*thy* proud words.’ 2. Ar. *Ran.* 882 νῦν γὰρ ἀγὼν σοφίας ὁ μέγας χωρεῖ, ‘*that* great contest’—already mentioned. 3. Aesch. *Th.* 283 ἀντηρέτας ἐχθροῖσι τὸν μέγαν τρόπον, ‘to match the attack of the foe on this great scale’ (Verrall)—referring to the previous description of the Argive warriors.
 
 ## Line 511
 
-**παλίντονα.** This epithet is given to the bow, not only when strung and bent (ZZ 8. 266, 15. 443), but also when unstrung (ZZ το. 459, Od. 21. τι and 59: Hom. hymn. 27. 16). Herodotus describes the ᾿Αράβιοι of Xerxes as armed with τόξα παλίντονα μακρά (7. 69). Thus it appears that the epithet referred to the form of the bow, and not to its being ‘drawn back’ in shooting, nor to its ‘springing back’ after the shot.
+**παλίντονα.** This epithet is given to the bow, not only when strung and bent (*Il.* 8. 266, 15. 443), but also when unstrung (*Il.* 10. 459, *Od.* 21. 11 and 59: *Hom. hymn.* 27. 16). Herodotus describes the Ἀράβιοι of Xerxes as armed with τόξα παλίντονα μακρά (7. 69). Thus it appears that the epithet referred to the form of the bow, and not to its being ‘drawn back’ in shooting, nor to its ‘springing back’ after the shot.
 
-Stein, on the passage of Herodotus just noticed, holds that the παλίντονα τόξα there mentioned had a double curve in the direction contrary to that in which the archer bends the bow when shooting, «—v. Thus the πάλιν in the compound,—¢back,’—που!ά mean, ‘against the direction in which the archer bends the bow’; and this seems to be what the schol. on /7/ 8. 266, explaining παλίντονα, means by εἰς τοὐπίσω τεινόμενα. The effect of such a curvature would be, of course, a great increase in the propelling force of the bow. Another form of the παλίντόνον τόξον had a single outward curve, ἡ. (See Rich, s. 2. ‘arcus.’)
+Stein, on the passage of Herodotus just noticed, holds that the παλίντονα τόξα there mentioned had a double curve in the direction contrary to that in which the archer bends the bow when shooting, ◡―◡. Thus the πάλιν in the compound,—‘back,’—would mean, ‘*against* the direction in which the archer bends the bow’; and this seems to be what the schol. on *Il.* 8. 266, explaining παλίντονα, means by εἰς τοὐπίσω τεινόμενα. The effect of such a curvature would be, of course, a great increase in the propelling force of the bow. Another form of the παλίντονον τόξον had a single outward curve, ◡. (See Rich, *s. v.* ‘arcus.’)
 
-The ordinary Greek bow, as described in ZZ. 4. 105—126, consisted of two horns, joined in the middle by a straight handle (πῆχυς, ZZ 11. 375). Such a bow would be properly called παλίντονον when the ends of the horns curved outwards.
+The ordinary Greek bow, as described in *Il.* 4. 105—126, consisted of two horns, joined in the middle by a straight handle (πῆχυς, *Il.* 11. 375). Such a bow would be properly called παλίντονον when the ends of the horns curved outwards.
 --- flags
-1 ‘that [conf] →
-2 7. [conf] →
-3 ‘those [conf] (Greek model: ἐζάοσε) →
-4 4#Z. [conf] →
-5 2% [conf] →
-6 ‘those [conf] →
-7 7% [conf] →
-8 πλήγματ᾽ [accent] →
-9 γενειάδων [conf] →
-10 ---- [conf] →
-11 blows, [conf] →
-12 —which [conf] →
-13 Or. [conf] →
-14 strife [conf] →
-15 ’—already [conf] →
-16 viv [rare] →
-17 ‘to [conf] →
-18 ZZ [latin] (Greek model: ΥΩ) →
-19 ZZ [latin] (Greek model: ω) →
-20 hymn. [conf] →
-21 Αράβιοι [accent] (Greek model: ᾿᾿Αράβιοι) →
-22 «—v. [conf] (Greek model: τως) →
-23 ‘against [conf] →
-24 /7/ [conf] →
-25 παλίνrovov [mixed] →
-26 παλίνrovov [mixed] →
-27 ἡ. [conf] →
-28 ‘arcus.’) [conf] →
-29 ZZ [latin] (Greek model: “.) →
-30 ZZ [rare] →
-31 11. [conf] →
+1 ‘that [conf] → ok
+2 7. [conf] → I.
+3 ‘those [conf] (Greek model: ἐζάοσε) → ok
+4 4#Z. [conf] → Ant.
+5 2% [conf] → Ph.
+6 ‘those [conf] → ok
+7 7% [conf] → I. T.
+8 πλήγματ᾽ [accent] → ok
+9 γενειάδων [conf] → γενειάδων,
+10 ---- [conf] → —‘those
+11 blows, [conf] → blows,’
+12 —which [conf] → ok
+13 Or. [conf] → ok
+14 strife [conf] → ok
+15 ’—already [conf] → ok
+16 viv [rare] → νῦν
+17 ‘to [conf] → ok
+18 ZZ [latin] (Greek model: ΥΩ) → Il.
+19 ZZ [latin] (Greek model: ω) → Il.
+20 hymn. [conf] → ok
+21 Αράβιοι [accent] (Greek model: ᾿᾿Αράβιοι) → Ἀράβιοι
+22 «—v. [conf] (Greek model: τως) → ◡―◡.
+23 ‘against [conf] → ok
+24 /7/ [conf] → Il.
+25 παλίνrovov [mixed] → παλίντονον
+26 παλίνrovov [mixed] → παλίντονον
+27 ἡ. [conf] → ◡.
+28 ‘arcus.’) [conf] → ok
+29 ZZ [latin] (Greek model: “.) → Il.
+30 ZZ [rare] → Il.
+31 11. [conf] → ok
 --- notes
+Beyond the flags: *Ai.* (Az), *I. T.* 924 (7. 7.), ‘*those* (missing quote), Ran. 796 (the draft had 706), ‘*thy* proud words (τὴν), νῦν γὰρ (viv yap), τὸν μέγαν (Tov), *Th.* (7%.), 10. 459 (το.), 21. 11 (τι), *s. v.* (s. 2.), ’ for ” (several), the Greek ‘γάρ,’ in Ai. 650 accented as printed; italics *Ai.*, *O. C.*, *I. T.*, *Ant.*, *Ph.*, *Or.*, *Ran.*, *Th.*, *Il.*, *Od.*, *Hom. hymn.*, *s. v.* and the emphasised English words. The two curve signs Jebb prints after ‘shooting,’ and ‘outward curve,’ are written ◡―◡ (two end curves joined by a straight bar, as printed) and ◡ (a single curve); they are drawings of the bow's shape, not letters.

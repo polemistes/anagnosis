@@ -9,13 +9,27 @@
 847	ὡς πάντων ἐν νόσῳ εὐδρακὴς
 848	ὕπνος ἄϋπνος λεύσσειν.
 849	ἀλλʼ ὅτι δύνᾳ μάκιστον
-850	κεῖνο δή μοι κεῖνο λάθρᾳ
+850	κεῖνο ⟨δή⟩ μοι, κεῖνο λάθρᾳ
 851	ἐξιδοῦ ὅπᾳ πράξεις.
 852	οἶσθα γὰρ ἃν αὐδῶμαι,
-853	εἰ ταύταν τούτων γνώμαν ἴσχεις,
+853	εἰ ταύταν τούτῳ γνώμαν ἴσχεις,
 854	μάλα τοι ἄπορα πυκινοῖς ἐνιδεῖν πάθη.
 --- apparatus
+842	ἔστʼ] Blaydes writes ἔργʼ: Wecklein conj. εἶτʼ.—σὺν from σὺμ L.
+843-854	L divides the vv. thus:—ἀλλὰ— | μʼ αὖθισ βαιὰν | βαιὰν— | πέμπε— | ὡσ πάντων— | ὕπνοσ— | ἀλλʼ ὅτι— | κεῖνό μοι— | ἐξίδου— | οἶσθα— | εἰ ταὐτὰν— | ἔχεισ— | ἄπορα—πάθη.
+846	φήμαν L: φάμαν Triclinius. Nauck conj. φάτιν (so that the MS. ἀντέχοις could be kept in 830).
+849	δύναι L: δύναιο r.
+850	κεῖνό μοι κεῖνο λάθρᾳ MSS. (λάθρʼ Triclin.). To equalise the v. with ποῖ δὲ βάσει, πῶς δέ μοι τἀντεῦθεν (834), Herm. conj. κεῖνο δή μοι, κεῖνο λάθρᾳ, λάθρᾳ. Blaydes, κεῖνο δή μοι, κεῖνο λάθρα τἀνδρὸς [τούτου γʼ J. H. H. Schmidt]. Seyffert, κεῖνο μοι σύ, κεῖνο λάθρᾳ: B. Todt, κεῖνό μοι κείνων λάθρᾳ (to suit their readings of 834, where see n.).
+851	ἐξιδοῦ] ἐξίδου L.—ὅ τι L, with gl. ὅπη (not ὅπως) written above. All the other MSS. have ὅτι. Schneidewin gave ὅπᾳ: Herm., formerly ὅπως, afterwards ὅπερ.—B. Todt conj. ἐξηγοῦ ὅπως πράξεις (=his τἀντεῦθεν ὁρᾷς ἤδη in 835).
+852	ὧν αὐδῶμαι L, with .ον. written over ὧν by S: ὧν K, R, Harl., Vat. b, V: ὃν A, B, Γ, Vat., V³: ὅντινʼ Triclinius: ὅν γʼ Brunck: ἃν Hermann. Cavallin gives οἶσθʼ ὑπὲρ ὧν αὐδῶμαι.
+853	ταὐτὰν L. The later MSS. have the same, or ταυτὰν (A), τὴν αὐτὰν (V), εἴτʼ αὐτὰν (B), while Γ seems to be alone in reading ταύταν.—Wunder conj. ταὐτὸν...γνώμαν: Dobree, ταὐτὸν...γνώμας: Bergk, ταὐτὸν...γνῶμʼ. B. Todt, εἰ δʼ ἄλλως τούτων γνῶμʼ. For τούτῳ Dind. gives τούτων.—ἴσχεις r: ἔχεισ L, with ἴσχεισ written in marg. by S.
+854	μάλα τοι | ἄπορα πυκινοῖσιν ἐνϊδεῖν πάθη L. After τοι three or four letters have been erased; an accent (′) and four dots remain. πυκινοῖσιν may have been made from πυκνοῖσιν. Later MSS. have πυκινοῖσιν, πυκνοῖς, or πυκινοῖς. For the conjectures see comment. and Appendix.
 --- notes
+850	The print has κεῖνο <δή> μοι, κεῖνο λάθρᾳ: Jebb's supplement in angle brackets and a comma after μοι (not flagged; seen on the page and confirmed by his note on 850); written ⟨δή⟩.
+852	The print has *ἃν (asterisk left out); the draft's ἃν confirmed on the page.
+853	The print has τούτῳ (crop clear; his note on 853: "For τούτῳ Dind. gives τούτων"); changed from τούτων.
+843-854	In L's division ὡσ: the breathing is small and blurred in the scan; written ὡσ as in the text.
+843-854	The note is numbered "843—854" in the print.
 
 === p-0210
 --- text

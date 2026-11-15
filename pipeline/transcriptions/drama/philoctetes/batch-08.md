@@ -18,7 +18,18 @@
 528	μόνον θεοὶ σῴζοιεν ἔκ τε τῆσδε γῆς
 529	ἡμᾶς ὅποι τʼ ἐνθένδε βουλοίμεσθα πλεῖν.
 --- apparatus
+517	τὰν θεῶν Herm.: τὰν ἐκ θεῶν MSS.
+521	τόθʼ οὐκέθʼ αὐτὸσ (sic) L.
+522	ἥκιστα τοῦτʼ L.
+523	ἕξεις] L has ηι written over ει by S.
+524	σοῦ γέ μʼ] σοῦ γʼ ἔμʼ Brunck.
+525	πρὸς τὸ καίριον] Blaydes conj. τῷδε πρὸς καιρὸν.
+526	ἀλλʼ εἰ] Nauck conj. εἰ δὴ: Hense, εἰ δʼ οὖν.
+528	ἔκ τε] The 1st hand in L wrote ἔκδε (sic): S then wrote γ over δ. ἔκ γε r: ἔκ τε Gernhard.
+529	βουλοίμεσθα MSS., except B, which has βουλόμεσθα, the reading preferred by Brunck and Hartung.
 --- notes
+no flags on this page.
+528	the print sets a space before the colon in "ἔκ γε r : ἔκ τε"; written without it, as the brief asks.
 
 === p-0162
 --- text
@@ -37,7 +48,13 @@
 540	ὁ μὲν νεὼς σῆς ναυβάτης, ὁ δʼ ἀλλόθρους,
 541	χωρεῖτον, ὧν μαθόντες αὖθις εἴσιτον.
 --- apparatus
+533	προσκύσαντεσ̈ L (the dots meaning that σ should be deleted): and so A. But the later MSS. generally give προσκύσαντες. Γ (13th cent.) προσκύσοντες.—εἰσοίκησιν] The scribe of L intended (I think) εἰσ οἴκησιν, not εἰσοίκησιν. He has written, indeed, εἰ σοἴκησιν (sic), as in O. C. 739 εἰ σπλεῖστον, with a disregard for the division of words which he often shows (see O.C., Introd. p. xlvi). Further, the smooth breathing is indistinct in form, being an almost round dot: but, in his writing, it often approximates to such a character: thus the breathing on οὐδʼ in 536 is hardly different: and a comparison with the breathing on οἴκησισ, as written by him in Ant. 892, seems to confirm this view.—For conjectures, see comment. and Appendix.
+538	κακά] τάδε MSS.: but S has written in the marg. of L γρ. κακά, whence Valckenaer adopted it (on Phoen. 430).
+539	μάθωμεν] Wakefield conj. μένωμεν: Blaydes, μείνωμεν: Hense, σταθῶμεν.—δύο] δύω L.
+540	Hense, with Nauck’s approval, rejects this v.—ἀλλόθρους] Wecklein (Ars p. 58) conj. ἄλλοθεν.
+541	αὖθις r: αὖτις L.—Blaydes conj. αὐτίκʼ.
 --- notes
+533	no flags on this page. The print's "533 f." is filed under 533. The lemma's final σ carries two dots above in the print (L's mark of deletion): written σ̈ (σ with combining diaeresis). "ap-|proximates" divided at the end of a printed line: written whole. οἴκησισ with medial σ as printed.
 
 === p-0164
 --- text
@@ -58,7 +75,15 @@
 555	βουλεύματʼ ἐστί, κοὐ μόνον βουλεύματα,
 556	ἀλλʼ ἔργα δρώμενʼ, οὐκέτʼ ἐξαργούμενα.
 --- apparatus
+546	δέ πως] Blaydes conj. δέ τῳ.—ταὐτὸν] The 1st hand in L wrote αὐτὸν, to which τ has been prefixed by S.
+547	πλέων] Reiske conj. πλέω, and in 549 ὡς δʼ ἤκουσα.
+548	ἀπʼ L: ἐξ r.
+550	συννεναυστοληκότες Dobree: οἱ νεναυστοληκότες MSS.
+552	προστυχόντι] Cavallin conj. προστυχόντα: Brunck, προστυχών τι: Hartung, προστυχεῖν τε: Heath, προστυχόν τι, changing ἴσων to ἴσως, and taking τῶν as relat. with οὐδέν (‘a thing that happens to have come to my knowledge,—one of the facts which thou, perchance, knowest not’). Musgrave approved this, only keeping προστυχόντι as=‘since I have chanced upon thee.’—τῶν ἴσων] In L made from τὸν ἴσον by S.
+554	σοῦ νέα Auratus: ἀμφὶ σʼ οὕνεκα L, and so (or ἀμφὶ σοῦ ʼνεκα) most other MSS.: ἀμφὶς εἴνεκα Γ, with γρ. ἀμφὶς ὄν [i.e. ἀμφὶ σοῦ] ἀντὶ τοῦ περὶ σοῦ. The fact that ἀμφὶ σοῦ ἕνεκα (or οὕνεκα) could thus pass muster as a pleonasm deserves notice.
+555	ἐστί] ἔστι L, and so Blaydes.
 --- notes
+546	no flags on this page. Words divided at printed line ends (νεναυ-|στοληκότες, προσ-|τυχών) written whole; a broken type mark before προστυχεῖν (Hartung) left out.
 
 === p-0166
 --- text

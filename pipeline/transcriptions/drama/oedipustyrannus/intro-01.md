@@ -1,118 +1,108 @@
 === p-0015
-# Introduction,
+# Introduction
 
 ## § 1
 
-THE Oedipus Tyrannus is in one sense the masterpiece of Attic Tragedy. No other shows an equal degree of art in the development of the plot; and this excellence depends on the powerful and subtle drawing of the characters. Modern drama, where minor parts can be multiplied and scene changed at will, can more easily divorce the two kinds of merit. Some of Voltaire’s plays, for instance, not first-rate in other ways, are models of ingenious construction. The conditions of the Greek stage left less room for such a result. In the Oedipus Tyrannus the highest constructive skill is seen to be intimately and necessarily allied with the vivid delineation of a few persons.
+THE *Oedipus Tyrannus* is in one sense the masterpiece of Attic Tragedy. No other shows an equal degree of art in the development of the plot; and this excellence depends on the powerful and subtle drawing of the characters. Modern drama, where minor parts can be multiplied and scene changed at will, can more easily divorce the two kinds of merit. Some of Voltaire’s plays, for instance, not first-rate in other ways, are models of ingenious construction. The conditions of the Greek stage left less room for such a result. In the *Oedipus Tyrannus* the highest constructive skill is seen to be intimately and necessarily allied with the vivid delineation of a few persons.
 
 Here it is peculiarly interesting to recover, so far as we can, the form in which the story of Oedipus came to Sophocles; to remark what he has altered or added; and to see how the same subject has been handled by other dramatists.
 
 The essence of the myth is the son slaying his unknown father, and thereby fulfilling a decree of fate. The subsequent marriage, if not an original part of the story, seems to have been an early addition. The central ideas are, (1) the irresistible power of destiny, and (2) the sacredness of the primary natural ties, as measured by the horror of an unconscious sin against it. The direct and simple form in which these ideas are embodied gives the legend an impress of high antiquity. This might be illustrated by a comparison with the story of Sohrab and Rustum as told in Mr Matthew Arnold’s beautiful poem. The slaying of the unknown son by the father is there surrounded with a pathos and a chivalrous tenderness which have no counterpart in the grim simplicity of the Oedipus myth, as it appears in its earliest known shape.
 --- flags
-1 8 [conf] →
-2 subsequent [conf] →
-3 (1) [digit] →
-4 Sohrab [rare] →
-5 Rustum [rare] →
+1 8 [conf] → § (heading ## § 1)
+2 subsequent [conf] → ok
+3 (1) [digit] → ok
+4 Sohrab [rare] → ok
+5 Rustum [rare] → ok
 --- notes
 
 === p-0016
 ## § 2 — Homeric Poems.
 
-The liad, which knows the war of Polyneices and his allies against Thebes (4. 378), once glances at the tale of Oedipus—where Mecisteus, father of Euryalus, is said to have visited Thebes in order to attend tne funeral games which were celebrated after the death of Oedipus (23. 679 f.) :--
+The *Iliad*, which knows the war of Polyneices and his allies against Thebes (4. 378), once glances at the tale of Oedipus—where Mecisteus, father of Euryalus, is said to have visited Thebes in order to attend the funeral games which were celebrated after the death of Oedipus (23. 679 f.):—
 
-ὅς ποτε Θήβασδ᾽ ἦλθε δεδουπότος Οἰδιπόδαο | ἐς τάφον,---
+ὅς ποτε Θήβασδ’ ἦλθε δεδουπότος Οἰδιπόδαο | ἐς τάφον,—
 
-—*‘who came to Thebes of yore, when Oedipus had fallen, to his burying.’
+—‘who came to Thebes of yore, when Oedipus had fallen, to his burying.’
 
-The word δεδουπότος plainly refers to a violent death in fight, or at the hand of an assassin; it would not be in accord with the tone of epic language to understand it as a figurative phrase for a sudden fall from greatness. But more than this the Iliad does not tell. The poet of the 23rd book imagines Oedipus as having died by violence, and received burial at Thebes, in the generation before the Trojan war.
+The word δεδουπότος plainly refers to a violent death in fight, or at the hand of an assassin; it would not be in accord with the tone of epic language to understand it as a figurative phrase for a sudden fall from greatness. But more than this the *Iliad* does not tell. The poet of the 23rd book imagines Oedipus as having died by violence, and received burial at Thebes, in the generation before the Trojan war.
 
-The Nekyia in the Odyssey gives the earliest sketch of an integral story (11. 271 ff.) :—
+The Nekyia in the *Odyssey* gives the earliest sketch of an integral story (11. 271 ff.):—
 
-Μητέρα τ᾽ Οἰδιπόδαο ἴδον, καλὴν Ἐπικάστην, | ἣ μέγα ἔργον ἔρεξεν ἀϊδρείῃσι νόοιο
+Μητέρα τ’ Οἰδιπόδαο ἴδον, καλὴν Ἐπικάστην, | ἣ μέγα ἔργον ἔρεξεν ἀϊδρείῃσι νόοιο | γημαμένη ᾧ υἱεῖ· ὁ δ’ ὃν πατέρ’ ἐξεναρίξας | γῆμεν· ἄφαρ δ’ ἀνάπυστα θεοὶ θέσαν ἀνθρώποισιν. | ἀλλ’ ὁ μὲν ἐν Θήβῃ πολυηράτῳ ἄλγεα πάσχων | Καδμείων ἤνασσε θεῶν ὀλοὰς διὰ βουλάς· | ἡ δ’ ἔβη εἰς Ἀΐδαο πυλάρταο κρατεροῖο, | ἁψαμένη βρόχον αἰπὺν ἀφ’ ὑψηλοῖο μελάθρου, | ᾧ ἄχεϊ σχομένη· τῷ δ’ ἄλγεα κάλλιπ’ ὀπίσσω | πολλὰ μάλ’, ὅσσα τε μητρὸς Ἐρινύες ἐκτελέουσιν.
 
-7 ? ς» ς > JB 1.3 . ) /
-
-γημαμένη ᾧ υἱεῖ" ὁ © ov πατέρ᾽ ἐξεναρίξας | ~ » 9 τ ’ \ 7 3 ’ | γῆμεν: ἄφαρ δ᾽ ἀνάπυστα θεοὶ θέσαν ἀνθρώποισιν. | 3 ϑς \ 3 / [4 ΝΜ / | ἀλλ ὁ μὲν ἐν Θήβῃ πολυηράτῳ ἄλγεα πάσχων
-
-~ /
-
-Καδμείων ἤνασσε θεῶν ὀλοὰς διὰ βουλάς" | ἡ δ᾽ ἔβη εἰς ᾿Αἴδαο πυλάρταο κρατεροῖο, | ἁψαμένη βρόχον αἰπὺν ἀφ᾽ ὑψηλοῖο μελάθρου, | ᾧ ἄχεϊ σχομένη" τῷ δ᾽ ἄλγεα καλλιπ᾽ ὀπί | ᾧ ἄχεϊ σχομένη" τῷ δ᾽ ἄλγε π᾿ ὀπίσσω
-
-\ IN? e/ \ 3 / 3 ’
-
-πολλὰ μάλ᾽, ὅσσα τε μητρὸς Ἐρινύες ἐκτελέουσιν.
-
-¢And I saw the mother of Oedipodes, fair Epicasté, who wrought a dread deed with unwitting mind, in that she wedded her son; but he had slain his father ere he wedded her; and presently the gods made these things known among men. Yet he still ruled over the Cadmeans in lovely Thebes, suffering anguish by the dire counsels of the gods; but she went to the house of Hades, the strong warder, when she had fastened a noose on high from the roof-beam, possessed by her pain; and to him she bequeathed sorrows full many, even all that a mother’s Avengers bring to pass.’
+‘And I saw the mother of Oedipodes, fair Epicastè, who wrought a dread deed with unwitting mind, in that she wedded her son; but he had slain his father ere he wedded her; and presently the gods made these things known among men. Yet he still ruled over the Cadmeans in lovely Thebes, suffering anguish by the dire counsels of the gods; but she went to the house of Hades, the strong warder, when she had fastened a noose on high from the roof-beam, possessed by her pain; and to him she bequeathed sorrows full many, even all that a mother’s Avengers bring to pass.’
 --- flags
-1 liad [latin] (Greek model: 7]ηαά,) →
-2 Mecisteus [rare] →
-3 tne [rare] →
-4 Θήβασδ᾽ [greek] →
-5 —*‘who [conf] →
-6 Iliad [conf] →
-7 Οἰδιπόδαο [conf] →
-8 ἣ [conf] →
-9 ς» [conf] →
-10 JB [conf] →
-11 1.3 [conf] →
-12 . [conf] →
-13 ) [conf] →
-14 9 [conf] →
-15 τ [conf] →
-16 3 [conf] →
-17 γῆμεν: [conf] →
-18 ϑς [greek] (Greek model: φ4..ὺ7Ίκ) →
-19 [4 [conf] →
-20 ΝΜ [greek] (Greek model: ») →
-21 ὀλοὰς [conf] →
-22 Αἴδαο [accent] (Greek model: ᾽᾿Αἴδαο) →
-23 σχομένη" [conf] →
-24 καλλιπ᾽ [accent] (Greek model: κἀλλιπ᾽ ὀπίο) →
-25 ὀπί [conf] →
-26 π᾿ [conf] →
-27 e/ [conf] →
-28 Epicasté [latin] (Greek model: Ἐρίἰοαϑιδ,) →
+1 liad [latin] (Greek model: 7]ηαά,) → *Iliad*
+2 Mecisteus [rare] → ok
+3 tne [rare] → tne (misprint, corrected to "the"; see notes)
+4 Θήβασδ᾽ [greek] → ok (Θήβασδ’)
+5 —*‘who [conf] → —‘who
+6 Iliad [conf] → *Iliad*
+7 Οἰδιπόδαο [conf] → ok
+8 ἣ [conf] → ok
+9 ς» [conf] → debris (deleted)
+10 JB [conf] → debris (deleted)
+11 1.3 [conf] → debris (deleted)
+12 . [conf] → debris (deleted)
+13 ) [conf] → debris (deleted)
+14 9 [conf] → debris (deleted)
+15 τ [conf] → debris (deleted)
+16 3 [conf] → debris (deleted)
+17 γῆμεν: [conf] → γῆμεν·
+18 ϑς [greek] (Greek model: φ4..ὺ7Ίκ) → debris (deleted)
+19 [4 [conf] → debris (deleted)
+20 ΝΜ [greek] (Greek model: ») → debris (deleted)
+21 ὀλοὰς [conf] → ok
+22 Αἴδαο [accent] (Greek model: ᾽᾿Αἴδαο) → Ἀΐδαο
+23 σχομένη" [conf] → σχομένη·
+24 καλλιπ᾽ [accent] (Greek model: κἀλλιπ᾽ ὀπίο) → κάλλιπ’ (doubled line deleted)
+25 ὀπί [conf] → ὀπίσσω (doubled line deleted)
+26 π᾿ [conf] → κάλλιπ’
+27 e/ [conf] → debris (deleted)
+28 Epicasté [latin] (Greek model: Ἐρίἰοαϑιδ,) → Epicastè
 --- notes
+Printed "tne funeral games" (line 4), an evident misprint, corrected to "the". The Odyssey verses (11. 271-280) re-read from the image: the draft had accent debris lines, a doubled verse and garbled words (ὁ © ov for ὁ δ’ ὃν, ἀλλ for ἀλλ’); its marks " and : for the high stop are ·.
 
 === p-0017
-With regard to this outline in the Odyssey, it is to be noted that it ignores (a) the deliverance of Thebes from the Sphinx— though this may be implied in the marriage with Epicaste: (6) the self-blinding of Oedipus: (¢) the expulsion of Oedipus from Thebes—herein agreeing with the indication in the //iad. It further seems to exclude the notion of Epicaste having borne children to Oedipus, since the discovery followed ‘presently’ on the union,—unless, indeed, by ἄφαρ the poet merely meant ‘suddenly.
+With regard to this outline in the *Odyssey*, it is to be noted that it ignores (*a*) the deliverance of Thebes from the Sphinx—though this may be implied in the marriage with Epicastè: (*b*) the self-blinding of Oedipus: (*c*) the expulsion of Oedipus from Thebes—herein agreeing with the indication in the *Iliad*. It further seems to exclude the notion of Epicastè having borne children to Oedipus, since the discovery followed ‘presently’ on the union,—unless, indeed, by ἄφαρ the poet merely meant ‘suddenly.’
 
-## § 3 — Other epic '*
+## § 3 — Other epic versions.
 
-Lost poems of Hesiod may have touched on the story of Oedipus; but in his extant work there is only a passing reference to the war at Thebes (between DPolyneices and Eteocles), in which heroes fell, ‘fighting for the flocks of Oedipus.” Hesiod knows the Sphinx as the daughter of Echidna and as the pest of Thebes’.
+Lost poems of Hesiod may have touched on the story of Oedipus; but in his extant work there is only a passing reference to the war at Thebes (between Polyneices and Eteocles), in which heroes fell, ‘fighting for the flocks of Oedipus.’ Hesiod knows the Sphinx as the daughter of Echidna and as the pest of Thebes¹.
 
-But the story of Oedipus was fully treated in some of those lost epics which dealt with the Theban cycle of myths. One of these was the " Oedipodeia, Οἰδιπόδεια (ἔπη). According to this, the four children of Oedipus were not borne by Iocasta, but by a second wife, Euryganeia. Pausanias, who follows this account, does not know the author of the poem? It will be observed that this epic agrees with the Odyssey in not making Iocasta bear issue to Oedipus. It is by Attic writers, so far as we know, that she was first described as doing so. Poets or logographers who desired to preserve the favour of Dorians had a reason for avoiding that version. There were houses which traced their line from the children of Oedipus,—as Theron, tyrant of Acragas, claimed descent from Thersandros, son of Polyneices®’. To represent these children as the offspring of an incestuous
+[Note: ¹ Hes. *Op.* 162: war slew the heroes, τοὺς μὲν ἐφ’ ἑπταπύλῳ Θήβῃ...μαρναμένους μήλων ἕνεκ’ Οἰδιπόδαο. The Sphinx: *Theog.* 326, ἡ δ’ (Echidna) ἄρα Φῖκ’ ὀλοὴν τέκε, Καδμείοισιν ὄλεθρον. The hill near Thebes on which the Sphinx sat was called Φίκειον ὄρος. References in lost Hesiodic poems: schol. on *Il.* 23. 680.]
 
-[Note: 1 Hes. Op. 162: war slew the heroes, τοὺς μὲν ἐφ᾽ ἑπταπύλῳ Θήβῃ... μαρναμένους μήλων ἕνεκ᾽ Οἰδιπόδαο. The Sphinx: ZZeog. 326, ἡ δ᾽ (Echidna) dpa Φῖκ᾽ ὀλοὴν τέκε, Καδμείοισιν ὄλεθρον. The hill near Thebes on which the Sphinx sat was called Φίκειον ὄρος. References in lost Hesiodic poems: schol. on ZZ. 23. 680.]
+But the story of Oedipus was fully treated in some of those lost epics which dealt with the Theban cycle of myths. One of these was the ‘*Oedipodeia*,’ Οἰδιπόδεια (ἔπη). According to this, the four children of Oedipus were not borne by Iocasta, but by a second wife, Euryganeia. Pausanias, who follows this account, does not know the author of the poem². It will be observed that this epic agrees with the *Odyssey* in not making Iocasta bear issue to Oedipus. It is by Attic writers, so far as we know, that she was first described as doing so. Poets or logographers who desired to preserve the favour of Dorians had a reason for avoiding that version. There were houses which traced their line from the children of Oedipus,—as Theron, tyrant of Acragas, claimed descent from Thersandros, son of Polyneices³. To represent these children as the offspring of an incestuous
 
-[Note: 2 He speaks merely of ὁ τὰ ἔπη ποιήσας ἃ Οἰδιπόδεια ὀνομάζουσι (9. 5. 11). But the inscription known as the ‘marmor Borgianum’ refers it to Cinaethon, a Lacedaemonian poet who treated epically the Dorian family legends, and who is said to have flourished about 775 B.C. Pausanias, however, who quotes Cinaethon on several points of genealogy, certainly did not regard the Oedipodeia as his work.]
+[Note: ² He speaks merely of ὁ τὰ ἔπη ποιήσας ἃ Οἰδιπόδεια ὀνομάζουσι (9. 5. 11). But the inscription known as the ‘marmor Borgianum’ refers it to Cinaethon, a Lacedaemonian poet who treated epically the Dorian family legends, and who is said to have flourished about 775 B.C. Pausanias, however, who quotes Cinaethon on several points of genealogy, certainly did not regard the *Oedipodeia* as his work.]
 
-[Note: 8 Pind. OZ 2. 35.]
+[Note: ³ Pind. *Ol.* 2. 35.]
 --- flags
-1 iad [latin] (Greek model: “αά.) →
-2 Epicaste [conf] →
-3 ‘presently’ [conf] →
-4 DPolyneices [latin] (Greek model: Ῥοϊνπείςθβ.) →
-5 Thebes’. [conf] →
-6 Oedipodeia [latin] (Greek model: Οραϊῥοάοία,,) →
-7 Οἰδιπόδεια [conf] →
-8 Iocasta, [conf] →
-9 poem? [conf] →
-10 Iocasta [conf] →
-11 Thersandros [rare] →
-12 Polyneices®’. [conf] →
-13 Θήβῃ... [conf] →
-14 μαρναμένους [conf] →
-15 ZZeog [latin] (Greek model: Ζάδορ.) →
-16 dpa [rare] →
-17 Φίκειον [greek] (Greek model: Φίκειον.) →
-18 ZZ [latin] (Greek model: ,ΧΨ.) →
-19 marmor [rare] →
-20 Borgianum’ [rare] →
-21 Oedipodeia [latin] (Greek model: Οεαέῤοιεξα.) →
-22 OZ [conf] →
+1 iad [latin] (Greek model: “αά.) → *Iliad*
+2 Epicaste [conf] → Epicastè
+3 ‘presently’ [conf] → ok
+4 DPolyneices [latin] (Greek model: Ῥοϊνπείςθβ.) → Polyneices
+5 Thebes’. [conf] → Thebes¹.
+6 Oedipodeia [latin] (Greek model: Οραϊῥοάοία,,) → ‘*Oedipodeia*,’
+7 Οἰδιπόδεια [conf] → ok
+8 Iocasta, [conf] → ok
+9 poem? [conf] → poem².
+10 Iocasta [conf] → ok
+11 Thersandros [rare] → ok
+12 Polyneices®’. [conf] → Polyneices³.
+13 Θήβῃ... [conf] → ok
+14 μαρναμένους [conf] → ok
+15 ZZeog [latin] (Greek model: Ζάδορ.) → *Theog.*
+16 dpa [rare] → ἄρα
+17 Φίκειον [greek] (Greek model: Φίκειον.) → ok
+18 ZZ [latin] (Greek model: ,ΧΨ.) → *Il.*
+19 marmor [rare] → ok
+20 Borgianum’ [rare] → ok
+21 Oedipodeia [latin] (Greek model: Οεαέῤοιεξα.) → *Oedipodeia*
+22 OZ [conf] → *Ol.*
 --- notes
+Footnote 1 placed after the paragraph that holds its mark (Thebes¹), before the next paragraph; footnotes 2 and 3 after the page's last paragraph, which holds their marks. The draft's "Theog.", "Il.", "Op.", "Ol." were garbled (ZZeog, ZZ, OZ); ἑπταπύλῳ read with its rough breathing from the image (the draft had ἐπταπύλῳ… only in Greek letters without check).
 
 === p-0018
 + union would have been to declare the stream polluted at its source.

@@ -18,7 +18,16 @@
 443	ὃς οὐκ ἂν εἵλετʼ εἰσάπαξ εἰπεῖν, ὅπου
 444	μηδεὶς ἐῴη· τοῦτον οἶσθʼ εἰ ζῶν κυρεῖ;
 --- apparatus
+434	σοῦ Hemsterhuys (Lucian vol. I. p. 147): σοι MSS.
+435	σʼ ἐν βραχεῖ Erfurdt: σε βραχεῖ MSS.
+436	τοῦτʼ] Wecklein conj. ταῦτʼ (Ars p. 55).—οὐδένʼ has been made in L from οὐδʼ ἓν (or ἕν): this might suggest οὐδʼ ἕνʼ.
+437	αἱρεῖ V² (αἱρεῖ Suid.): αἴρει L, with the rest.
+440	δὲ] Campb. ascribes τε to L here, but doubtless through a misprint of 440 for 441. In this verse L, like the other MSS., has δὲ.—νῦν] Blaydes conj. δρῶν.
+441	ποίου δὲ Florens Christianus, Γ, Vat. b: ποίου τε L, with A and most of the others; ποίου γε T, B, Vat.—τούτου] Brunck conj. τοῦτο.—ἐρεῖς] λέγεις V², which Nauck prefers. Wecklein gives ποίου γε τούτου πλὴν [instead of πλήν γʼ] Ὀδ. ἐρεῖς, ascribing it to Nauck: who, however, in his 8th ed. (1882) has δὲ...πλήν γʼ. Blaydes gives, on his own conject., ποῖον σὺ τόνδʼ αὖ πλήν γʼ Ὀδ. ἐρεῖς;
+443	εἵλετʼ εἰσάπαξ] Blaydes gives ἠδεῖτʼ εἰς ἅπαντʼ. In L εἰσάπαξ is written as one word.
+444	ἐῴη r (including A): ἐὼν L, with γρ. ἐώη (sic) in marg.
 --- notes
+437	apparatus: the breathings of αἱρεῖ (Suid.) and αἴρει (L) are very small in the print; read as rough and smooth, as Tesseract has them
 
 === p-0150
 --- text

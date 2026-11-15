@@ -15,7 +15,7 @@
 779	ἀνὴρ γὰρ ἐν δείπνοις μʼ ὑπερπλησθεὶς μέθῃ
 780	καλεῖ παρʼ οἴνῳ, πλαστὸς ὡς εἴην πατρί.
 781	κἀγὼ βαρυνθεὶς τὴν μὲν οὖσαν ἡμέραν
-782	μόλις κατέσχον, θἀτέρᾳ δʼ ἰὼν πέλας
+782	μόλις κατέσχον, θατέρᾳ δʼ ἰὼν πέλας
 783	μητρὸς πατρός τʼ ἤλεγχον· οἱ δὲ δυσφόρως
 784	τοὔνειδος ἦγον τῷ μεθέντι τὸν λόγον.
 785	κἀγὼ τὰ μὲν κείνοιν ἐτερπόμην, ὅμως δʼ
@@ -27,6 +27,7 @@
 --- notes
 779	the apparatus note runs on to the facing page (leaf 207): written here whole.
 774	res: the print has Πολύβος (acute on the υ), an evident misprint (Jebb prints Πόλυβος everywhere else, Πόλυβον at 827): Πόλυβος kept
+782	rev: the print has θατέρᾳ without a coronis (clear on the enlarged crop; θατ- already marks the crasis): the draft's θἀτέρᾳ corrected
 
 === p-0208
 --- text

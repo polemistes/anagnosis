@@ -14,9 +14,20 @@
 610	ὃς δὴ τά τʼ ἄλλʼ αὐτοῖσι πάντʼ ἐθέσπισεν
 611	καὶ τἀπὶ Τροίᾳ πέργαμʼ ὡς οὐ μή ποτε
 612	πέρσοιεν, εἰ μὴ τόνδε πείσαντες λόγῳ
-613	ἄγοιντο νήσου τῆσδʼ ἐφʼ ἧς ναίει τανῦν.
+613	ἄγοιντο νήσου τῆσδʼ ἐφʼ ἧς ναίει τὰ νῦν.
 --- apparatus
+600	ὅν γʼ Heath and Erfurdt: ὅν τʼ MSS.
+601	βία] Above this word L has the gl. φθόνος. Nauck conj. δίκη: Pallis, the same, or βλάβη: Mekler, ἀρὰ.
+602	οἵπερ] ἥπερ (for ἧπερ?) Harl.—Pallis conj. αἵπερ.
+607	λωβήτʼ] λωβὴτʼ L, with a further dot on the τ. Dindorf (ed. 1860) treats this dot as the accent, written over τ instead of η: but η is accented (ὴ).
+608	δέσμιόν τʼ L, and most MSS.: δέσμιον δʼ A, Harl.
+609	ἐς μέσον] Blaydes conj. ἐν μέσοις (cp. 630).
+610	ἐθέσπισεν Triclinius: ἐθέσπισε L, A, etc.
+611	ὡς οὐ μή] ὡς οὐ δή Harl.—πέρσοιεν L and most MSS.: πέρσειεν r.—Elmsley conj. ὡς οὐ μήποτε | πέρσειαν: Blaydes, ὡς οὐκ ἄν ποτε | πέρσοιεν. Nauck would prefer to read (taking δή from the Harleian MS.) ὡς οὐ δή ποτε | πέρσοιεν.—Mekler conj. ὡς οὐ μή ποτε | ἕλοιεν.
+613	ἄγοιντο MSS. Blaydes reads ἀγάγοιντο: he also conj. ἄξοιντο.
 --- notes
+613	Flag τανῦν: the page prints τὰ νῦν, two words with a grave on τὰ; written as printed.
+611	The apparatus note is printed "611 f."; filed under 611.
 
 === p-0174
 --- text

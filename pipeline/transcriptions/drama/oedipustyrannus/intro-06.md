@@ -1,37 +1,41 @@
 === p-0055
-*Conclu- ="* In the presence of such testimonies, it can no longer be deemed that the Tragedy of ancient Greece has lost its virtue for the modern world. And, speaking merely as a student of Sophocles, I can bear witness that the representation of the Ajax at Cambridge (1882) was to me a new revelation of meaning and power. Of that performance, remarkable in so many aspects, I hope to say something in a later part of this edition. Here it must suffice to record a conviction that such revivals, apart from their literary and artistic interest, have also an educational value of the very highest order.
+*Conclusion.* In the presence of such testimonies, it can no longer be deemed that the Tragedy of ancient Greece has lost its virtue for the modern world. And, speaking merely as a student of Sophocles, I can bear witness that the representation of the *Ajax* at Cambridge (1882) was to me a new revelation of meaning and power. Of that performance, remarkable in so many aspects, I hope to say something in a later part of this edition. Here it must suffice to record a conviction that such revivals, apart from their literary and artistic interest, have also an educational value of the very highest order.
 --- flags
-1 Ajax [conf] →
+1 Ajax [conf] → ok (italic: *Ajax*)
 --- notes
 
 === p-0056
-+ Mss. used. § 1. The manuscripts of the Oedipus Tyrannus which have been chiefly used in this edition are the following’.
+# Manuscripts, editions and commentaries
+
+## § 1 — MSS. used.
+
+The manuscripts of the *Oedipus Tyrannus* which have been chiefly used in this edition are the following¹.
+
+[Note: ¹ There is no doubt that L belongs to the first half of the 11th century, and none (I believe) that A is of the 13th. These are the two most important dates. In the case of several minor MSS., the tendency has probably been to regard them as somewhat older than they really are. The dates indicated above for such MSS. are given on the best authority that I could find, but I do not pretend to vouch for their precision. This is, in fact, of comparatively small moment, so long as we know the general limits of age. Excluding L and A, we may say broadly that almost all other known MSS. of Sophocles belong to the period 1300—1600 A.D.]
 
 In the Biblioteca Mediceo-Laurenziana, Florence.
 
-L, cod. ΧΧΧΙΙ. 9, commonly known as the Laurentian Ms., first half of 11th century.
+L, cod. XXXII. 9, commonly known as the Laurentian MS., first half of 11th century.
 
-In the Bibliothtque Nationale, Paris.
+In the Bibliothèque Nationale, Paris.
 
-5 cod. 2712, 13th century.
+A, cod. 2712, 13th century.
 
-Em cod. 2787, ascribed to the 15th cent. (Catal. 11. 553).
+B, cod. 2787, ascribed to the 15th cent. (Catal. II. 553).
 
-)
+E, cod. 2884, ascribed to the 13th cent. (? *ib.* II. 565).
 
-, cod. 2884, ascribed to the 13th cent. (Ὁ 74. 11. 565).
-
-= ΠΟΘ, 2711, 15th cent.
+T, cod. 2711, 15th cent.
 
 In the Biblioteca Marciana, Venice.
 
 V, cod. 468, late 13th century or early 14th.
 
-V? cod. 616, probably of the 14th cent.
+V², cod. 616, probably of the 14th cent.
 
-V2, cod. 467, 14th cent.
+V³, cod. 467, 14th cent.
 
-γ΄, cod. 472, 14th cent,
+V⁴, cod. 472, 14th cent.
 
 In the Bodleian Library, Oxford.
 
@@ -45,89 +49,88 @@ In the Library of Trinity College, Cambridge.
 
 Cod. R. 3. 31, mainly of the late 14th century, in parts perhaps of the early 15th.
 
-These mss. 1 have myself collated.
+These MSS. I have myself collated.
 
 The following are known to me in some cases by slighter personal
-
-1 There isno doubt that 1, belongs to the first half of the 11th century, and none (I believe) that A is of the 13th. These are the two most important dates. In the case of several minor MSs., the tendency has probably been to regard them as somewhat older than they really are. The dates indicated above for such Mss. are given on the best authority that I could find, but I do not pretend to vouch for their precision. This is, in fact, of comparatively small moment, so long as we know the general limits of age. Excluding L and A, we may say broadly that almost all other known Mss. of Sophocles belong to the period 1300—1600 A.D.
 --- flags
-1 Mss. [conf] →
-2 Mediceo [rare] →
-3 Laurenziana [rare] →
-4 ΧΧΧΙΙ [greek] (Greek model: ΧΣΧΧΗ.) →
-5 Bibliothtque [latin] (Greek model: ΒιθΠοῖμδαας.) →
-6 Nationale [rare] →
-7 5 [conf] →
-8 Em [conf] →
-9 (Ὁ [conf] →
-10 74. [conf] →
-11 = [conf] →
-12 ΠΟΘ, [conf] →
-13 15th [conf] →
-14 cent. [conf] →
-15 Marciana [rare] →
-16 V2, [digit] →
-17 1 [digit] →
-18 isno [rare] →
-19 1, [digit] →
-20 11th [conf] →
-21 MSs., [conf] →
+1 Mss. [conf] → MSS. (margin note: MSS. used.)
+2 Mediceo [rare] → ok
+3 Laurenziana [rare] → ok
+4 ΧΧΧΙΙ [greek] (Greek model: ΧΣΧΧΗ.) → XXXII
+5 Bibliothtque [latin] (Greek model: ΒιθΠοῖμδαας.) → Bibliothèque
+6 Nationale [rare] → ok
+7 5 [conf] → A,
+8 Em [conf] → B,
+9 (Ὁ [conf] → (?
+10 74. [conf] → *ib.*
+11 = [conf] → T,
+12 ΠΟΘ, [conf] → cod.
+13 15th [conf] → ok
+14 cent. [conf] → ok
+15 Marciana [rare] → ok
+16 V2, [digit] → V³,
+17 1 [digit] → I
+18 isno [rare] → is no
+19 1, [digit] → L
+20 11th [conf] → ok
+21 MSs., [conf] → MSS.,
 --- notes
 
 === p-0057
-MANUSCRIPTS hii inspection, but more largely from previous collations, especially from those of Prof. I. Campbell (2nd ed., 1879) :—Pal. = Palat. 40, Heidelberg: Vat. a=cod. 40 in the Vatican, 13th cent. (ascribed by some to the 12th): Vat. Ὁ, cod. τοίη, 141, 25., 14th cent.: Vat. ¢, cod. Urbin. 140, 2b., 14th cent.: M, cod. G. 43 sup., in the Biblioteca Ambrosiana, Milan, 13th or early 14th cent.: M? cod. 1. 39 sup., #5., early 14th cent.: Τ cod. 31. 10 (14th cent.) in the Bibliot. Med.-Lor., Florence; I, cod. Abbat. τοῦ, late 13th, 78.1 A, cod. Abbat. 41, 14th cent., 75.3 Ricc. cod. 34, in the Biblioteca Riccardiana, Florence, sometimes ascribed to the 14th cent, but really of the 16th (see P. N. Papageorgius, ‘cod. Laurent. von Soph.,’ etc., p. 406, Leipzig, Teubner, 1883).
++ inspection, but more largely from previous collations, especially from those of Prof. L. Campbell (2nd ed., 1879):—Pal. = Palat. 40, Heidelberg: Vat. a = cod. 40 in the Vatican, 13th cent. (ascribed by some to the 12th): Vat. b, cod. Urbin. 141, *ib.*, 14th cent.: Vat. c, cod. Urbin. 140, *ib.*, 14th cent.: M, cod. G. 43 sup., in the Biblioteca Ambrosiana, Milan, 13th or early 14th cent.: M², cod. L. 39 sup., *ib.*, early 14th cent.: L², cod. 31. 10 (14th cent.) in the Bibliot. Med.-Lor., Florence; Γ, cod. Abbat. 152, late 13th, *ib.*: Δ, cod. Abbat. 41, 14th cent., *ib.*: Ricc. cod. 34, in the Biblioteca Riccardiana, Florence, sometimes ascribed to the 14th cent., but really of the 16th (see P. N. Papageorgius, ‘cod. Laurent. von Soph.,’ etc., p. 406, Leipzig, Teubner, 1883).
 
-In making a first selection of Mss. to be collated, I was guided chiefly by what I already knew of their character and of their relations to each other, as these might be inferred from the previous reports; and this list was afterwards modified by such light as I gradually gained from my own experience. L stands first and alone. A is perhaps next—though at a long interval—in general value. The selection of 14th and 15th century Mss. could have been enlarged ; but, so far as I can judge, the list which has been given is fairly representative. In the present state of our knowledge, even after all that has been done in recent years, it would, I think, be generally allowed that the greatest reserve must still be exercised in regard to any theory of the connections existing, whether by descent or by contamination, between our mss. of Sophocles. We have not here to do with well-marked families, in the sense in which this can be said of the manuscript authorities for some other ancient texts ; the data are often exceedingly complex, and such that the facts could be equally well explained by any one of two, or sometimes more, different suppositions. This is a subject with which I hope to deal more fully on a future occasion; even a slight treatment of it would carry me far beyond the limits which must be kept here. Meanwhile, it may be useful to give a few notes regarding some of the Mss. mentioned above, and to add some general remarks.
+In making a first selection of MSS. to be collated, I was guided chiefly by what I already knew of their character and of their relations to each other, as these might be inferred from the previous reports; and this list was afterwards modified by such light as I gradually gained from my own experience. L stands first and alone. A is perhaps next—though at a long interval—in general value. The selection of 14th and 15th century MSS. could have been enlarged; but, so far as I can judge, the list which has been given is fairly representative. In the present state of our knowledge, even after all that has been done in recent years, it would, I think, be generally allowed that the greatest reserve must still be exercised in regard to any theory of the connections existing, whether by descent or by contamination, between our MSS. of Sophocles. We have not here to do with well-marked families, in the sense in which this can be said of the manuscript authorities for some other ancient texts; the data are often exceedingly complex, and such that the facts could be equally well explained by any one of two, or sometimes more, different suppositions. This is a subject with which I hope to deal more fully on a future occasion; even a slight treatment of it would carry me far beyond the limits which must be kept here. Meanwhile, it may be useful to give a few notes regarding some of the MSS. mentioned above, and to add some general remarks.
 
-## § 2 — The Laurentian Ms.
+## § 2 — The Laurentian MS.
 
-L, no. XXXIL 9 in the Laurentian Library at Florence, is a vellum Ms., written in the first half of the eleventh century. It forms a volume measuring 12} by 8% inches, and containing 264 leaves (= 528 pages), of which Sophocles fills 118 leaves (= 236 pp.). It contains the seven plays of Sophocles, the seven plays of Aeschylus (with a few defects), and the Argonautica of Apollonius Rhodius. Marginal and interlinear scholia accompany the texts. |
+L, no. XXXII. 9 in the Laurentian Library at Florence, is a vellum MS., written in the first half of the eleventh century. It forms a volume measuring 12¼ by 8½ inches, and containing 264 leaves (= 528 pages), of which Sophocles fills 118 leaves (= 236 pp.). It contains the seven plays of Sophocles, the seven plays of Aeschylus (with a few defects), and the *Argonautica* of Apollonius Rhodius. Marginal and interlinear scholia accompany the texts.
 
-Since the first edition of this volume appeared, an autotype fac-
+Since the first edition of this volume appeared, an autotype facsimile
 --- flags
-1 hii [latin] (Greek model: ΤΙ) →
-2 I. [conf] →
-3 25., [conf] →
-4 Urbin [latin] →
-5 2b., [digit] →
-6 Ambrosiana [rare] →
-7 #5., [conf] →
-8 Τ [conf] →
-9 Bibliot [rare] →
-10 Lor [rare] →
-11 Abbat [latin] (Greek model: ΑΡΡαΐῖ.) →
-12 τοῦ, [conf] →
-13 late [conf] (Greek model: Ἰαΐθ) →
-14 13th, [conf] →
-15 78.1 [conf] →
-16 Abbat [rare] →
-17 Ricc [latin] →
-18 Riccardiana [rare] →
-19 cent, [conf] →
-20 15th [conf] →
-21 XXXIL [latin] (Greek model: ΧΧΣΙΠ.) →
-22 Argonautica [conf] →
+1 hii [latin] (Greek model: ΤΙ) → omitted (running head liii)
+2 I. [conf] → L.
+3 25., [conf] → *ib.*,
+4 Urbin [latin] → ok
+5 2b., [digit] → *ib.*,
+6 Ambrosiana [rare] → ok
+7 #5., [conf] → *ib.*,
+8 Τ [conf] → L²,
+9 Bibliot [rare] → ok
+10 Lor [rare] → ok
+11 Abbat [latin] (Greek model: ΑΡΡαΐῖ.) → ok
+12 τοῦ, [conf] → 152,
+13 late [conf] (Greek model: Ἰαΐθ) → ok
+14 13th, [conf] → ok
+15 78.1 [conf] → *ib.*:
+16 Abbat [rare] → ok
+17 Ricc [latin] → ok
+18 Riccardiana [rare] → ok
+19 cent, [conf] → cent.,
+20 15th [conf] → ok
+21 XXXIL [latin] (Greek model: ΧΧΣΙΠ.) → XXXII.
+22 Argonautica [conf] → *Argonautica*
 --- notes
 
 === p-0058
-+ *The first hand.* simile of the text of Sophocles in L has been published by the London Society for the Promotion of Hellenic Studies (1885). In an Introduction issued with the facsimile, the palaeographical character of the Ms. has been described by Mr E. M. Thompson, Keeper of Manuscripts and Egerton Librarian in the British Museum. The Ms. was produced in a regular workshop or scriptorium at Byzantium, The scribe wrote a clear and flexible hand ; the characters are minuscule, in that more cursive style which distinguishes other classical mss. of the same period from the biblical and liturgical. As the form of the ruling shows, the scribe prepared the Ms. to receive scholia ; but his own work was confined to writing the text. The scholia were copied into the Ms. by another person, under whose supervision the scribe appears to have worked. This person is usually designated as the ‘diorthotes,” because he was the first corrector; or as ‘S,” because he wrote the scholia. In some cases he himself corrected the errors of the first hand; in some others, where the first hand has corrected itself, this was probably done under his guidance; and he usually reserved to himself the part of supplying in the margin any verse which the first hand had omitted. In writing the scholia, the corrector used a mixture of minuscule and uncial (‘half-uncial’): but, in correcting or supplementing the text, he often used a more minuscule style, as if for the sake of greater uniformity with the first hand. Hence there is sometimes a doubt between the two hands, though, as a rule, they are easily distinguished.
++ of the text of Sophocles in L has been published by the London Society for the Promotion of Hellenic Studies (1885). In an Introduction issued with the facsimile, the palaeographical character of the MS. has been described by Mr E. M. Thompson, Keeper of Manuscripts and Egerton Librarian in the British Museum. The MS. was produced in a regular workshop or scriptorium at Byzantium. *The first hand.* The scribe wrote a clear and flexible hand; the characters are minuscule, in that more cursive style which distinguishes other classical MSS. of the same period from the biblical and liturgical. As the form of the ruling shows, the scribe prepared the MS. to receive scholia; but his own work was confined to writing the text. The scholia were copied into the MS. by another person, under whose supervision the scribe appears to have worked. *The first corrector.* This person is usually designated as the ‘diorthotes,’ because he was the first corrector; or as ‘S,’ because he wrote the scholia. In some cases he himself corrected the errors of the first hand; in some others, where the first hand has corrected itself, this was probably done under his guidance; and he usually reserved to himself the part of supplying in the margin any verse which the first hand had omitted. In writing the scholia, the corrector used a mixture of minuscule and uncial (‘half-uncial’): but, in correcting or supplementing the text, he often used a more minuscule style, as if for the sake of greater uniformity with the first hand. Hence there is sometimes a doubt between the two hands, though, as a rule, they are easily distinguished.
 
-*Later correctors of* In the 12th and 13th centuries, at least three different hands added some notes. Hands of the 14th, 15th, or 16th century have been recognised in some other notes, both marginal and superscript. These later hands can usually be distinguished from that of the first corrector (the ‘diorthotes,” or S), but very often cannot be certainly distinguished from each other. The attempt to do so is of the less moment since the additions which they made are seldom of any value. For much else that is of palaeographical interest in regard to L, readers may be referred to Mr Thompson’s Introduction: the facts noticed here are those which primarily concern a student of Sophocles.
+*Later correctors of L.* In the 12th and 13th centuries, at least three different hands added some notes. Hands of the 14th, 15th, or 16th century have been recognised in some other notes, both marginal and superscript. These later hands can usually be distinguished from that of the first corrector (the ‘diorthotes,’ or S), but very often cannot be certainly distinguished from each other. The attempt to do so is of the less moment since the additions which they made are seldom of any value. For much else that is of palaeographical interest in regard to L, readers may be referred to Mr Thompson’s Introduction: the facts noticed here are those which primarily concern a student of Sophocles.
 
 ## § 3 — Unique value of L.
 
-L is not only the oldest, but also immeasurably the best, Ms. of Sophocles which we possess. In 1847 Cobet expressed the opinion that L is the source from which all our other Mss. are ultimately derived. This view has been supported by Dindorf in the preface to his 3rd edition (Oxon. 1860), and by Moriz Seyffert in the preface to his Philoctetes (1867). The contrary view—that some of our mss. come from a source independent of L—has also found able supporters,
+L is not only the oldest, but also immeasurably the best, MS. of Sophocles which we possess. In 1847 Cobet expressed the opinion that L is the source from which all our other MSS. are ultimately derived. This view has been supported by Dindorf in the preface to his 3rd edition (Oxon. 1860), and by Moriz Seyffert in the preface to his *Philoctetes* (1867). The contrary view—that some of our MSS. come from a source independent of L—has also found able supporters,
 --- flags
-1 Ms. [conf] →
-2 scholia [conf] →
-3 ‘S,” [conf] →
-4 (‘half-uncial’): [conf] →
-5 15th, [conf] →
-6 ‘diorthotes,” [conf] →
-7 3. [conf] →
-8 L [conf] →
-9 mss. [conf] →
+1 Ms. [conf] → MS.
+2 scholia [conf] → ok
+3 ‘S,” [conf] → ‘S,’
+4 (‘half-uncial’): [conf] → ok
+5 15th, [conf] → ok
+6 ‘diorthotes,” [conf] → ‘diorthotes,’
+7 3. [conf] → ok (§ 3, in the heading)
+8 L [conf] → ok
+9 mss. [conf] → MSS.
 --- notes
+The margin notes "The first hand." and "The first corrector." stand beside lines inside the paragraph, not at its start: written in italics in the running text before the sentence they stand beside ("The scribe wrote …", "This person is usually …"). "simile" (end of "fac-simile" from p-0057) written whole on p-0057.
 
 === p-0059
 + among whom have been Anton Seyffert (Quaestiones criticae de Codicibus recte aestimandis, Halle, 1863) ; Prof. N. Wecklein (Ars Sophoclis emendandi, pp. 2 ff., 1869), and Prof. L. Campbell (Sopkocles, vol. 1. pp. xxiv ff., 1879). 1 learn, however, that Prof. Wecklein has since become disposed to retract his opinion. In the second part of the Introduction to the Facsimile of L (pp. 15 ff.), I have shortly stated some of the objections to regarding L as the unique source. Two of them are furnished by this play: viz. (i) verse 8oo, omitted in the text of L, and inserted in the margin by a hand certainly later than several of the Mss. which have the verse in the text: (ii) the words πονεῖν ἢ τοῖς θεοῖς written at v. 896 in the text of L,—these being corrupted from a gloss, πανηγυρίζειν τοῖς θεοῖς, which exists in full in the Trinity Ms., and elsewhere'. The chief argument for L being the unique source is briefly this, that, though other Mss. sometimes correct L on small points, no one of them supplies any correction which was clearly beyond the reach of a fairly intelligent scribe or grammarian. The question is one which does not seem to admit of demonstrative proof either way: we must be content with the probabilities, which will be differently estimated by different minds. Apart, however, from this obscure question, all scholars can agree in recognising the paramount importance of L as the basis of our text. The sense of L’s incomparable value is one which steadily grows upon the student as he proceeds with the labour of textual criticism. Wecklein’s words are not too strong, when properly understood: ‘A critic will hardly go wrong if he treats every letter, every stroke in L as worthy of particular attention, while he regards the readings of other Mss. rather in the light of conjectures,’ —that is, where these Mss. diverge from L otherwise than by correcting its trivial errors. Instances in which they correct L may be seen in this play at vv. 43, 182, 221, 296, 332, 347, 657, 730, 961, 1260, 1387, 1474, etc. But, notwithstanding all such small corrections, it remains true that, with 1, safe, the loss of our other mss. would have been a comparatively light misfortune. As instances in which a true reading has been preserved in a citation of Sophocles by an ancient author, but neither in L nor in any other Ms., we may notice vv. 466, 528, 1170.

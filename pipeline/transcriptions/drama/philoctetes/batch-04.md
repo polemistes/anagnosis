@@ -7,20 +7,40 @@
 @ Νεοπτόλεμος
 201a	τί τόδε;
 @ Χορός
-201b	προυφάνη κτύπος,
-202	φωτὸς σύντροφος ὡς τειρομένου του,
+201b	προὐφάνη κτύπος,
+202	φωτὸς σύντροφος ὡς τειρομένου ⟨του,⟩
 203	ἤ που τῇδʼ ἢ τῇδε τόπων.
 205	βάλλει βάλλει μʼ ἐτύμα φθογγά του στίβον κατʼ ἀνάγκαν
 207	ἕρποντος, οὐδέ με λάθει
-208	βαρεῖα τηλόθεν αὐδὰ τρυσάνωρ· διάσημα γὰρ θρηνεῖ.
+208	βαρεῖα τηλόθεν αὐδὰ τρυσάνωρ· διάσημα γὰρ θροεῖ.
 210	ἀλλʼ ἔχε, τέκνον,
 @ Νεοπτόλεμος
 210a	λέγʼ ὅ τι.
 @ Χορός
-210b	φροντίδας νέας.
+210b	φροντίδας νέας·
 213	ὡς οὐκ ἔξεδρος, ἀλλʼ ἔντοπος ἁνήρ,
 --- apparatus
+199	πρὶν ὅδʼ ἐξήκοι L, A, and most of the later MSS.: ἐξήκει V², ἐξίκοι R. Schaefer conj. πρὶν ὅδʼ ἐξήκῃ: Blaydes, πρὶν ἂν ἐξήκῃ.
+200	χρῆναι r: χρῆν (from χρήν) L.
+201	After παῖ Herm. (Retract. p. 4) proposed to add μοι, and, after τέκνον in 210, δή.
+202	προὐφάνη] προυφάνηι L.
+203	σύντροφος] Wakefield conj. σύνδρομος: Blaydes, σύμμετρος.—⟨του⟩ was added by Porson. Bergk conj. τειρομένοιο.
+204	ἦ που L: ἤπου r: ἤ που Herm.—Blaydes would write τᾷδʼ ἢ τᾷδʼ.
+205	ἐτύμα r: ἑτοίμα L. Seyffert, ἔτυμʼ ἁ. Nauck, guided by L's reading, gives μέ τοι (instead of ἐτύμα) here, and in 214 ἀγρότας instead of ἀγροβότας.
+206	στίβου L, with A and most of the later MSS.: but a few have στίβον, as Γ and V².
+207	λάθει L: λήθει r.
+209	γὰρ θροεῖ MSS., except those which (like T) have the reading of Triclinius, θροεῖ γάρ. Dindorf conj. γὰρ θρηνεῖ (=218 γὰρ δεινόν). Cp. 218 n.
+212	ἁνήρ] ἀνὴρ L.
 --- notes
+201	The print sets ΧΟ. εὔστομʼ ἔχε, παῖ. ΝΕ. τί τόδε; ΧΟ. προὐφάνη on one line, κτύπος, set in below as its turnover: split by speaker as 201, 201a, 201b; turnover confirmed. παῖ. confirmed on the image.
+201b	The print has προὐφάνη (coronis over υ), as Jebb's lemma at 202 also has; written so (Perseus προυφάνη).
+202	The print has ⟨του,⟩ in angle brackets (Porson's supplement, see the apparatus at Jebb's 203): brackets added, comma inside as printed.
+205	The print sets ἀνάγκαν set in below as the turnover of this verse, with the margin number 206 beside it: turnover confirmed (Perseus 206 is covered by this verse).
+208	The print reads θροεῖ (not θρηνεῖ; Dindorf's conjecture θρηνεῖ is reported in Jebb's note on 209): changed to θροεῖ.
+210	The print sets ἀλλʼ ἔχε, τέκνον, ΝΕ. λέγʼ ὅ τι. ΧΟ. φροντίδας on one line, νέας· set in below (margin 210): split by speaker as 210, 210a, 210b; turnover confirmed. The print has νέας· (raised stop), not νέας.: changed.
+202	Apparatus numbers are Jebb's, one ahead of ours in this strophe: his 202 (προὐφάνη) is our 201b, 203 is our 202, 204 is our 203, 206 falls in our 205 (στίβον κατʼ ἀνάγκαν), 209 in our 208 (διάσημα γὰρ θροεῖ), 212 is our 213.
+199	The apparatus of this page has no continuation crop: it runs on to the facing page (leaf 113), from "r: ἑτοίμα L." to "212 ἁνήρ] ἀνὴρ L."; read from my own crops of leaf_0113.png.
+205	Breathings read on enlarged crops: ἑτοίμα and Seyffert's ἁ rough, the lemma ἐτύμα smooth.
 
 === p-0114
 --- text

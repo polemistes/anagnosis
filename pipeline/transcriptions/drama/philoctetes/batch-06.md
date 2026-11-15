@@ -16,7 +16,20 @@
 368	ὀργῇ βαρείᾳ, καὶ καταλγήσας λέγω·
 369	ὦ σχέτλιʼ, ἦ ʼτολμήσατʼ ἀντʼ ἐμοῦ τινι
 --- apparatus
+355	κἀγὼ πικρὸν] Burges conj. κἀγὼ ʼπʼ ἄκρον: Blaydes writes κἀγὼ ʼς ἄκρον.—πλάτῃ] Nauck conj. πνοῇ or δρόμῳ.
+357	ἠσπάζετʼ] ἠσπάζετο L. For such neglect of elision cp. comm. on Ant. 1146 f.
+360	δάκρυσα MSS.: ʼδάκρυσα Heath.
+361	πρὸς φίλους] Bothe conj. προσφιλῶς. Blaydes writes πρὸς διπλοῦς.
+362	τά τʼ ἄλλʼ ὅσʼ ἦν] Nauck conj. καὶ τἄπιπλα.
+363	οἴμοι from οἶμοι L.
+366	Λαέρτου L, with most of the later MSS.: Λαρτίου T (after Triclinius).
+367	κἀγὼ δακρύσασ L (with A and most of the rest): κἀγὼ ʼκδακρύσας B. Bothe conj. κἄγωγʼ ἀκούσας: whence Blaydes gives κἀγὼ ʼξακούσας: Nauck, κἀγὼ ʼπακούσας: Wecklein, ἐγὼ δʼ ἀκούσας.
+369	ὦ σχέτλιʼ ἦ τολμήσατʼ L (ʼτολμήσατʼ Vauvilliers). Heath conj. ὦ σχέτλιοι, ἦ ʼτολμήσατʼ: Musgrave, ὦ σχέτλιοι, ʼτολμήσατʼ: Tournier, ὦ σχετλίω, ʼτολμήσατʼ: Blaydes, ὦ σχέτλιʼ, ἦ ʼτόλμησας (recognising, however, that it is not necessary).
 --- notes
+355	The apparatus begins with the end of a note from the page before ("reject the verse."): left to the batch before.
+356	εὐθὺς: the print has εὐθὺς (the OCR split it); kept.
+362	ἦν. is printed at the end of this verse; kept.
+369	The note runs on to the next page's apparatus ("not necessary)."); written whole here.
 
 === p-0138
 --- text

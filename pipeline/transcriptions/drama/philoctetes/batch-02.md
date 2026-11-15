@@ -11,7 +11,12 @@
 72	σὺ μὲν πέπλευκας οὔτʼ ἔνορκος οὐδενὶ
 73	οὔτʼ ἐξ ἀνάγκης οὔτε τοῦ πρώτου στόλου·
 --- apparatus
+64	αὔτʼ] αὐτʼ L.—λέγων] Gedike conj. λέγʼ οὖν.—ὅσʼ made from ὃσ in L.
+66	τούτων γὰρ οὐδέμʼ ἀλγυνεῖσ L. The first corrector (S) has written ν, very small, between the έ and μʼ of οὐδέμʼ, indicating οὐδέν μʼ. And οὐδέν μʼ is in some of the later MSS., including A and V, while Vat. has οὐδὲν. Ven. has ἀλγυνεῖ, the rest ἀλγυνεῖς. All have τούτων. Buttmann conj. τούτῳ (for τούτων) γὰρ οὐδέν μʼ ἀλγυνεῖς: so Wund. and Blaydes. Dindorf, τούτων γὰρ οὐδὲν ἀλγυνεῖ μʼ.—ἐργάσει] ἐργάσηι L; as below, 78 γενήσηι, 108 ἡγῆι, and passim.
+67	ἀργείοισι L, the final ι erased.
 --- notes
+64	no flags on this page; apparatus read from the crops.
+67	the note on 67 runs on to the next spread (leaf 90, "erased."): written whole here.
 
 === p-0090
 --- text
@@ -26,7 +31,14 @@
 82	τόλμα· δίκαιοι δʼ αὖθις ἐκφανούμεθα.
 83	νῦν δʼ εἰς ἀναιδὲς ἡμέρας μέρος βραχὺ
 --- apparatus
+76	προσδιαφθερῶ] Tournier conj. προσδιαφθείρω.
+78	L γενή σηι τῶν (sic), made from γενηισι στὼν (?).
+79	παῖ Erfurdt conj.: καὶ MSS.: Froehlich proposes μὲν, Gernhardt δὴ, Blaydes (reading παῖ) τοι: Campb., with Linwood, defends καὶ, but, if a change were made, would prefer τοι.
+81	τι L: τοι A. The later MSS. are divided; B, R, V³ are among those that have τοι, while Γ and L² have τι.—λαβεῖν] Erfurdt conj. λαχεῖν.
+82	δʼ A, B: θʼ (sic) L, L²: τʼ K (Par. 2886, ap. Blaydes), R, T, etc. Here, as elsewhere (cp. Ant. 467, 966), L hints at a true reading which it has lost: θʼ αὖθις really points to δʼ αὖθις, though it might easily be supposed to be a mere blunder for τʼ αὖθις, the reading which prevailed in the later MSS.
+83	ἀναιδὲς] Nauck conj. βραχείας (without proposing to alter βραχὺ): Mekler, μιᾶς δὸς, with a comma after βραχὺ.—Vv. 83—85 are rejected by E. A. Richter.
 --- notes
+74	no flags on this page; the apparatus begins with the end of the note on 67 ("erased."), written with p-0088.
 
 === p-0092
 --- text
@@ -49,7 +61,12 @@
 98	νῦν δʼ εἰς ἔλεγχον ἐξιὼν ὁρῶ βροτοῖς
 99	τὴν γλῶσσαν, οὐχὶ τἄργα, πάνθʼ ἡγουμένην.
 --- apparatus
+87	τούσδε] τοὺς δὲ Buttmann.—πράσσειν] E. A. Richter conj. πλάσσειν.
+91	Nauck wishes to delete v. 92, and to change οὐ γὰρ ἐξ ἑνὸς ποδὸς into οὐ γὰρ ἐξ ἐμοῦ τρόπου (with a full stop: ‘for it is not my way’).—τοσούσδε] το σούσδε L, with an erasure of one letter between the first ο and σ.
+96	καὐτὸς] In L the σ of καὐτὸσ has been added by S.
+97	ἀργὸν L, ἀργὴν r.—ἐργάτιν] ἐργάτην Γ: Blomfield conj. ἐργάνην.
 --- notes
+91	printed "91 f.": filed under 91. No flags on this page.
 
 === p-0094
 --- text

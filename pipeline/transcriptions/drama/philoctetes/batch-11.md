@@ -1,25 +1,35 @@
 === p-0196
 --- text
-761	βούλει λάβωμαι δῆτα καὶ θίγω τί σου;
+762	βούλει λάβωμαι δῆτα καὶ θίγω τί σου;
 @ Φιλοκτήτης
-762	μὴ δῆτα τοῦτό γʼ· ἀλλά μοι τὰ τόξʼ ἑλὼν
-763	τάδʼ, ὥσπερ ᾐτοῦ μʼ ἀρτίως, ἕως ἀνῇ
+763	μὴ δῆτα τοῦτό γʼ· ἀλλά μοι τὰ τόξʼ ἑλὼν
+764	τάδʼ, ὥσπερ ᾐτοῦ μʼ ἀρτίως, ἕως ἀνῇ
 765	τὸ πῆμα τοῦτο τῆς νόσου τὸ νῦν παρόν,
 766	σῷζʼ αὐτὰ καὶ φύλασσε. λαμβάνει γὰρ οὖν
 767	ὕπνος μʼ, ὅταν περ τὸ κακὸν ἐξίῃ τόδε·
 768	κοὐκ ἔστι λῆξαι πρότερον· ἀλλʼ ἐᾶν χρεὼν
 769	ἕκηλον εὕδειν. ἢν δὲ τῷδε τῷ χρόνῳ
 770	μόλωσʼ ἐκεῖνοι, πρὸς θεῶν ἐφίεμαι
-771	ἑκόντα μηδʼ ἄκοντα μηδέ τῳ τέχνῃ
+771	ἑκόντα μήτʼ ἄκοντα μήτε τῳ τέχνῃ
 772	κείνοις μεθεῖναι ταῦτα, μὴ σαυτόν θʼ ἅμα
 773	κἄμʼ, ὄντα σαυτοῦ πρόστροπον, κτείνας γένῃ.
 @ Νεοπτόλεμος
 774	θάρσει προνοίας οὕνεκʼ· οὐ δοθήσεται
 775	πλὴν σοί τε κἀμοί· ξὺν τύχῃ δὲ πρόσφερε.
 @ Φιλοκτήτης
-776	ἰδοὺ δέχου, παῖ· τὸν φθόνον δὲ πρόσκυσον
+776	ἰδού, δέχου, παῖ· τὸν φθόνον δὲ πρόσκυσον,
 --- apparatus
+762	λάβωμαι δῆτα] In L δῆτα was omitted by the 1st hand, but has been inserted by S. It is in A and the other later MSS. Mollweide conj. λάβω τὰ τόξα.
+767	ἐξίηι L: ἐξήῃ A: ἐξίκη Γ: ἐξήκῃ B, and so Brunck. Schneidewin formerly conj. ἐξανῇ.
+769	ἕκηλον] ἕκηλόν μʼ B.
+771	μήτʼ ἄκοντα L: μηδʼ ἄκοντα Dindorf.—μήτε τῳ] μή (from μὴ) τέτωι L. μηδέ τῳ Dind.
+772	μεθεῖναι ταῦτα] μεθεῖνε L, omitting ταῦτα, which is absent also from R and K, but present in A and the rest.
+774	B adds γʼ to προνοίας, and so Blaydes.—οὕνεκʼ] εἵνεκʼ Nauck.
 --- notes
+762	numbering: the page prints only 765 in the margin (at τὸ πῆμα, as in the draft); Perseus, like Jebb, has only three verses between 760 and 765, but Jebb's own apparatus and commentary number βούλει λάβωμαι 762, μὴ δῆτα (μοι) 763 and τάδʼ (ἕως) 764, so his skipped number is 761, not 764: the three verses renumbered 762, 763, 764 (were 761, 762, 763).
+771	the print reads μήτʼ ἄκοντα μήτε τῳ (Jebb keeps L's reading; his apparatus gives μηδʼ … μηδέ as Dindorf's): written as printed.
+772	κείνοις as printed (the OCR's κείνους is wrong).
+776	the print reads ἰδού, δέχου (comma after ἰδού) and a comma after πρόσκυσον: written as printed.
 
 === p-0198
 --- text

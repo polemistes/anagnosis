@@ -1,14 +1,25 @@
 === p-0184
 --- text
-686	ὧδʼ ἀναξίως.
-687	τόδε τοι θαῦμά μʼ ἔχει,
+686	ὤλλυθʼ ὧδʼ ἀναξίως.
+687	τόδε ⟨τοι⟩ θαῦμά μʼ ἔχει,
 688	πῶς ποτε πῶς ποτʼ ἀμφιπλάκτων ῥοθίων μόνος κλύων,
 690	πῶς ἄρα πανδάκρυτον οὕτω βιοτὰν κατέσχεν·
 691	ἵνʼ αὐτὸς ἦν πρόσουρος, οὐκ ἔχων βάσιν,
 692	οὐδέ τινʼ ἐγχώρων κακογείτονα,
 693	παρʼ ᾧ στόνον ἀντίτυπον βαρυβρῶτʼ ἀποκλαύσειεν αἱματηρόν·
 --- apparatus
+686	ὤλλυθʼ ὧδʼ ἀναξίωσ· | τόδε θαῦμʼ ἔχει με L. For the conjectures here and in the antistr. (701), see comment. and Appendix.
+688	ἀμφιπλήκτων MSS.: ἀμφιπλάκτων Erfurdt.—κλύων r: κλύζων L (with A and others).
+690	κατέσχεν] Nauck conj. ἀνέτλα.
+691-705	L divides the vv. thus: ἵνʼ αὐτὸσ— | οὐδέ τινʼ— | κακογείτονα— | βαρυβρῶτʼ ἀποκλαύ|σειεν— | τὰν θερμοτάταν | αἱμάδα— | ἐνθήρου— | κατευνάσειεν— | φορβάδοσ— | ἕρπει— | τότʼ ἂν— | παῖς— | ὅθεν— | πόρου— | δακέθυμος ἄτα.
+691	ἵνʼ αὐτὸς ἦν πρόσουρος MSS. Meineke conj. ἵνʼ αὐτός οἱ πρόσουρος: Bothe, ἵνʼ αὐτὸς ἦν, πρόσουρον: Seyffert, ἵνʼ αὐτὸς ἦν, πρόδουλον: Blaydes, ἵνʼ αὐτὸς ἦν οἰκουρός: Cavallin, ἵνʼ οὔτις ἦν πρόσουρος.—βάσιν] Oberdick conj. κάσιν.
+692	ἐγχώρων made from ἐγχωρίων in L. Vauvilliers conj. ἔγχωρον, and so Blaydes. Cavallin, after Bugge and Hartung, gives οὔτινʼ ἐς ἔγχωρον, taking it with βάσιν.—κακογείτονα] Seyffert reads ἄπο γείτονα.
+693	παρʼ ᾧ...αἱματηρόν. For conjectural insertions here, see Appendix on 678 f.
 --- notes
+686	The print sets ὤλλυθʼ ὧδʼ ἀναξίως. as one verse (strophe numeral 8), ὤλλυθʼ at its head on this page: added here. The draft put ὤλλυθʼ at the end of 685 on p-0182 (batch-09); it is not printed there and should be removed from that line. Numbered 686 as Jebb's apparatus and the margin count (690) require.
+687	Jebb prints τοι in angle brackets (Dindorf's insertion): written ⟨τοι⟩.
+693	Checked on the image: αἱματηρόν· is the indented turnover of this verse (strophe numeral 3 stands before παρʼ, the margin 694 beside the turnover); kept as one verse.
+691-705	Apparatus: ἕρπει read with rough breathing (small type, as in Jebb's comment on 686 f.).
 
 === p-0186
 --- text

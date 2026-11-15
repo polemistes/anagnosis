@@ -6,7 +6,7 @@
 929	οἷʼ ἠπάτηκας· οὐδʼ ἐπαισχύνει μʼ ὁρῶν
 930	τὸν προστρόπαιον, τὸν ἱκέτην, ὦ σχέτλιε;
 931	ἀπεστέρηκας τὸν βίον τὰ τόξʼ ἑλών.
-932	ἀπόδος, ἱκνοῦμαί σʼ, ἀπόδος, ἱκετεύω, τέκνον·
+932	ἀπόδος, ἱκνοῦμαί σʼ, ἀπόδος, ἱκετεύω, τέκνον.
 933	πρὸς θεῶν πατρῴων, τὸν βίον με μὴ ἀφέλῃ.
 934	ὤμοι τάλας. ἀλλʼ οὐδὲ προσφωνεῖ μʼ ἔτι,
 935	ἀλλʼ ὡς μεθήσων μήποθʼ, ὧδʼ ὁρᾷ πάλιν.
@@ -16,7 +16,18 @@
 939	ἀνακλαίομαι παροῦσι τοῖς εἰωθόσιν,
 940	οἷʼ ἔργʼ ὁ παῖς μʼ ἔδρασεν οὑξ Ἀχιλλέως·
 --- apparatus
+927	δεῖμα] δῆμα L, with ει over ῆ from 1st hand. Nauck conj. λῦμα: Seyffert gives λῆμα (on Bergk's conj.). Valckenaer conj. ὦ πῦρ σύ, παιπάλημα.
+928	εἰργάσω] In L the 1st hand, after writing εἰργάσω, began to repeat it, but stopped at ειρ, and deleted the letters. Elmsley conj. εἴργασαι.
+929	ὁρῶν] Wecklein conj. με δρῶν.
+933	μή μʼ ἀφέληισ L (and so most of the later MSS.): μή μου ʼφέλῃς A. με μὴ ἀφέλῃς Lond. ed. 1747. Elmsley conj. με μὴ ἀφέλῃ (on O. T. 1522: formerly, on Eur. Med. 56, με μὴ ἀφέλῃς).
+934	ἀλλʼ οὐδὲ] Nauck conj. ὡς οὐδὲ: Hense, ὅδʼ οὐδὲ.—προσφωνεῖ r: προφωνεῖ L. προσφωνεῖ was first edited by Canter (1579). προσφωνεῖν Ald.: προσφωνεῖς Junt. edd.
+935	μήποθʼ ὧδʼ] Wakefield conj. μήποτʼ οὐδʼ: Blaydes μήποτʼ αὔθʼ.
+938	λέγω] Reiske conj. λέγων.
+939	ἀνακλαίομαι MSS.: ἀνακλάομαι Dindorf. Wecklein conj. ἀνακλαύσομαι: Blaydes ἀποκλαίομαι.—Nauck thinks this v. spurious.
 --- notes
+932	ἱκνοῦμαί is printed on this line; the print ends the verse with a full stop (τέκνον.), not the raised stop: changed.
+934	the print has ὤμοι (smooth breathing and acute), as the draft; the OCR's ὦμοι is wrong.
+940	the three unmatched lines after 940 are the first lines of the apparatus (927-929), not verses: nothing added.
 
 === p-0222
 --- text

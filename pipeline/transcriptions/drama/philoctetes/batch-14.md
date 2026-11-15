@@ -7,20 +7,36 @@
 1011	δῆλος δὲ καὶ νῦν ἐστιν ἀλγεινῶς φέρων
 1012	οἷς τʼ αὐτὸς ἐξήμαρτεν οἷς τʼ ἐγὼ ʼπαθον.
 1013	ἀλλʼ ἡ κακὴ σὴ διὰ μυχῶν βλέπουσʼ ἀεὶ
-1014	ψυχή νιν ἀφυῆ τʼ ὄντα κοὐ θέλονθʼ ὅμως
+1014	ψυχή νιν ἀφυᾶ τʼ ὄντα κοὐ θέλονθʼ ὅμως
 1015	εὖ προυδίδαξεν ἐν κακοῖς εἶναι σοφόν.
 1016	καὶ νῦν ἔμʼ, ὦ δύστηνε, συνδήσας νοεῖς
 1017	ἄγειν ἀπʼ ἀκτῆς τῆσδʼ, ἐν ᾗ με προυβάλου
-1018	ἄφιλον ἔρημον ἄπολιν, ἐν ζῶσιν νεκρόν.
+1018	ἄφιλον ἔρημον ἄπολιν ἐν ζῶσιν νεκρόν.
 1019	φεῦ.
 1019a	ὄλοιο· καί σοι πολλάκις τόδʼ ηὐξάμην.
 1020	ἀλλʼ οὐ γὰρ οὐδὲν θεοὶ νέμουσιν ἡδύ μοι,
 1021	σὺ μὲν γέγηθας ζῶν, ἐγὼ δʼ ἀλγύνομαι
-1022	τοῦτʼ αὔθʼ, ὅτι ζῶ σὺν κακοῖς πολλοῖς τάλας,
+1022	τοῦτʼ αὔθʼ ὅτι ζῶ σὺν κακοῖς πολλοῖς τάλας,
 1023	γελώμενος πρὸς σοῦ τε καὶ τῶν Ἀτρέως
 1024	διπλῶν στρατηγῶν, οἷς σὺ ταῦθʼ ὑπηρετεῖς.
 --- apparatus
+1007	οἷʼ αὖ μʼ Hermann: οἷά μʼ L (with most MSS.): οἵως r (and Porson Adv. p. 201): οἷός μʼ Triclin.: οἷόν μʼ Blaydes.—ὥς μʼ MSS. (Γ has γρ. ὁ written above): Wakefield conj. ὅς μʼ, and so Dindorf.
+1010	ἤιδει L: ᾔδειν Dind.
+1012	οἷς τʼ αὐτὸς] οἷς αὐτὸς Γ.—ʼπαθον] πάθον MSS.
+1014	ἀφυᾶ Lud. Dindorf: ἀφυῆ MSS. θέλονθʼ] θέλων θʼ L, made from θέλονθʼ (for nothing indicates that the 1st hand meant θέλον θʼ).
+1017	προὐβάλου] προύβαλον Γ.
+1018	ἄπολιν] Wakefield conj. ἄπορον.
+1019	καί σοι] Wakefield conj. καίτοι.—ἤϋξάμην L, with ευ written over ἠϋ by 1st hand.
+1023	σοῦ τε r: σοῦ γε L.
 --- notes
+1007	margin numbers 1010, 1015, 1020 on the page confirm the numbering; the print has *αὖ (asterisk left out).
+1010	"ΙΟΙΟ" is the margin number 1010.
+1014	the print has ἀφυᾶ (the apparatus: ἀφυᾶ Lud. Dindorf: ἀφυῆ MSS.); changed.
+1014	apparatus: the print has no ".—" before θέλονθʼ] (the note turns over to the facing page there); copied as printed.
+1018	the print has no comma after ἄπολιν; removed.
+1019	φεῦ. is printed on a line of its own above ὄλοιο, as in the draft.
+1022	the print has no comma after αὔθʼ; removed.
+1024	the unmatched line after 1024 is the apparatus (OCR), nothing to add.
 
 === p-0234
 --- text

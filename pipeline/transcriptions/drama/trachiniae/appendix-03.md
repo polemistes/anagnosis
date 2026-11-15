@@ -167,54 +167,55 @@ Besides the oak, other sources of divination were used at Dodona. One was the so
 Beyond the flags: 6. *Procedure of the oracle.*, *s. v.* (twice; OCR "5. 7.", "5. 2."), 15 → is, the italic quotations ‘*by the mouth of the two Peleiades.*’, ‘*By the agency of two doves.*’ and ‘*From between two doves.*’, ai → αἱ (twice), kal Ta → καὶ τὰ, kal → καὶ, (Zed) → (Ζεῦ), *Amor.*, Δωδώνῃ (three times), 77. 172 → *Tr.* 172, *a golden dove*, οὓς, δι’ ὧν (δι wv), amo → ἀπὸ, the space before colons dropped.
 
 === p-0280
-+ was prolonged through the rest. Hence Awdwvaiov χαλκεῖον was a proverb for garrulity (Suidas s. 2.). We hear also of a fountain, near the oak, whose murmurs were oracular (Plin. AZ. /V. 2. 103, etc.): and of sortes, lots drawn from a vessel (Cic. De Divin. 1. 34. 76).
++ was prolonged through the rest. Hence Δωδωναῖον χαλκεῖον was a proverb for garrulity (Suidas *s. v.*). We hear also of a fountain, near the oak, whose murmurs were oracular (Plin. *H. N.* 2. 103, etc.): and of *sortes*, lots drawn from a vessel (Cic. *De Divin.* 1. 34. 76).
 
-As to the mode of delivering the oracle’s responses, Sophocles assumes that the practice at Dodona was the same which prevailed at Delphi and elsewhere. That is, the response was given orally, and the person to whom it was given wrote it down (1167). Here Sophocles is confirmed by a writer of the fourth century B.c., Ephorus, in a passage cited above (p. 204, 1. 13). But in later times the visitors to Dodona wrote down their questions, and gave these to the priestesses; who returned written answers. The formula ἐπερωτῶντι τὸ κοινὸν τῶν * * Ala Νᾷον καὶ Διώναν is one which occurs on the leaden plates found by Carapanos (pp. 68--- 82). Such a proceeding implies the first conditions of decline for an oracle—a less quick-witted administration, and a more critical public.
+As to the mode of delivering the oracle’s responses, Sophocles assumes that the practice at Dodona was the same which prevailed at Delphi and elsewhere. That is, the response was given orally, and the person to whom it was given wrote it down (1167). Here Sophocles is confirmed by a writer of the fourth century B.C., Ephorus, in a passage cited above (p. 204, l. 13). But in later times the visitors to Dodona wrote down their questions, and gave these to the priestesses; who returned written answers. The formula ἐπερωτῶντι τὸ κοινὸν τῶν * * Δία Νᾷον καὶ Διώναν is one which occurs on the leaden plates found by Carapanos (pp. 68—82). Such a proceeding implies the first conditions of decline for an oracle—a less quick-witted administration, and a more critical public.
 
 The temple at Dodona, with the exception of the cella, was destroyed about 220 B.C. by the Aetolians, in revenge for the Epeirots having joined the Achaean League. In 88 B.C. the place was pillaged by the Thracians whom Mithridates had sent into Epeirus. In the second and third centuries of the Christian era, Dodona enjoyed a transitory revival of its old fame.
 
 ## Line 1260
 
-**χάλυβος λιθοκόλλητον στόμιον.** (1) The interpretation, ‘a curb of steel, sez with pieces of stone, has not been supported by any proof that a steel curb was ever furnished with teeth of sfome. The passages adduced refer merely to curbs made with jagged edges, or teeth, of iron or steel. Thus Pollux (ro. 65) quotes στόμια πριονωτά from Aristophanes (fr. 139). According to Servius on Verg. Geo. 3. 208 (duris parere lupatis), ‘lupata’ were so called ‘a lupinis dentibus, qui inaequales sunt.” Cp. Plut. Mor. p. 641 F ἵππους λυκοσπάδας οἱ μὲν ἀπὸ τῶν χαλινῶν τῶν λύκων ἔφασαν ὠνομάσθαι, διὰ τὸ θυμοειδὲς kai δυσκάθεκτον οὕτω σωφρονιζομένους. This severe kind of bit was used, it appears, in breaking fiery colts. λύκος, as a Greek name for it, seems not to occur before Plutarch. Whether it was borrowed from Zupatum, or vice versa, we do not know. Welcker’s conjecture, AvkokdAAyrov,—i.e. ‘ provided with the sharp teeth of a Avkos,’—is very improbable.
+**χάλυβος λιθοκόλλητον στόμιον.** (1) The interpretation, ‘a curb of steel, *set with pieces of stone*,’ has not been supported by any proof that a steel curb was ever furnished with teeth of *stone*. The passages adduced refer merely to curbs made with jagged edges, or teeth, of iron or steel. Thus Pollux (10. 65) quotes στόμια πριονωτά from Aristophanes (fr. 139). According to Servius on Verg. *Geo.* 3. 208 (*duris parere lupatis*), ‘lupata’ were so called ‘a lupinis dentibus, qui inaequales sunt.’ Cp. Plut. *Mor.* p. 641 F ἵππους λυκοσπάδας οἱ μὲν ἀπὸ τῶν χαλινῶν τῶν λύκων ἔφασαν ὠνομάσθαι, διὰ τὸ θυμοειδὲς καὶ δυσκάθεκτον οὕτω σωφρονιζομένους. This severe kind of bit was used, it appears, in breaking fiery colts. λύκος, as a Greek name for it, seems not to occur before Plutarch. Whether it was borrowed from *lupatum*, or *vice versa*, we do not know. Welcker’s conjecture, λυκοκόλλητον,—*i.e.* ‘provided with the sharp teeth of a λύκος,’—is very improbable.
 
-(2) Another interpretation of λιθοκόλλητον is, ‘set with precious stones” Reference is made to Nonnus 32. 122 εὐλαϊγγάς τε χαλινούς. Similarly λιθοκόλλητος occurs as an epithet of χιτών (Callixenus ap. Athen. p. 200 B). But, if such ornamentation was ever applied to curbs by Greeks of the 5th century B.C, it must at least have been very exceptional ; and in any case such an epithet would be wholly out of place here.
+(2) Another interpretation of λιθοκόλλητον is, ‘set *with precious stones*.’ Reference is made to Nonnus 32. 122 εὐλάϊγγάς τε χαλινούς. Similarly λιθοκόλλητος occurs as an epithet of χιτών (Callixenus *ap.* Athen. p. 200 B). But, if such ornamentation was ever applied to curbs by Greeks of the 5th century B.C., it must at least have been very exceptional; and in any case such an epithet would be wholly out of place here.
 
-(3) Hermann’s rendering is ferreum saxorum frenum. He means a Jerrea compages, or iron clamp, used for binding stones together.
+(3) Hermann’s rendering is *ferreum saxorum frenum*. He means a *ferrea compages*, or iron clamp, used for binding stones together.
 
-The scholia recognise the word λιθοκόλλητον, but give no light. One scholiast takes χάλυβος with ψυχή, and στόμιον as = στόμα : ‘allowing thy mouth to be closed, as the mouth of a well is closed with a stone’ (ὡσανεὶ στόμα φρέατος λίθῳ κεκολλημένον).
+The scholia recognise the word λιθοκόλλητον, but give no light. One scholiast takes χάλυβος with ψυχή, and στόμιον as = στόμα: ‘allowing thy mouth to be closed, as the mouth of a well is closed with a stone’ (ὡσανεὶ στόμα φρέατος λίθῳ κεκολλημένον).
 --- flags
-1 Awdwvaiov [rare] →
-2 /V. [conf] →
-3 sortes [rare] →
-4 Divin [rare] →
-5 But [conf] →
-6 in [conf] →
-7 later [conf] →
-8 Νᾷον [accent] (Greek model: Νᾷον.) →
-9 Διώναν [greek] (Greek model: “Διώναν.) →
-10 Epeirots [rare] →
-11 sez [latin] (Greek model: ΚΣ) →
-12 sfome [latin] (Greek model: ΕΖ) →
-13 lupatis [latin] (Greek model: Μιῥαΐῖ),) →
-14 lupata’ [latin] (Greek model: «Ἰαραῖα᾽) →
-15 lupinis [rare] →
-16 dentibus [rare] →
-17 inaequales [rare] →
-18 inaequales [rare] →
-19 Zupatum [latin] (Greek model: ἀιῤαίμ,) →
-20 Welcker’s [conf] →
-21 AvkokdAAyrov [latin] (Greek model: 'λυκοκόλλητον, -- 6.) →
-22 ‘ [conf] →
-23 Avkos [latin] (Greek model: λύκος, ἶ5) →
-24 εὐλαϊγγάς [greek] (Greek model: εὐλάϊγγάς,) →
-25 Callixenus [rare] →
-26 B.C, [conf] →
-27 ferreum [latin] (Greek model: ς έγγέμρ,) →
-28 saxorum [rare] →
-29 Jerrea [latin] (Greek model: ἥέγγεα.) →
-30 compages [rare] →
-31 κεκολλημένον [greek] →
+1 Awdwvaiov [rare] → Δωδωναῖον
+2 /V. [conf] → *N.*
+3 sortes [rare] → *sortes*
+4 Divin [rare] → *Divin.*
+5 But [conf] → ok
+6 in [conf] → ok
+7 later [conf] → ok
+8 Νᾷον [accent] (Greek model: Νᾷον.) → ok
+9 Διώναν [greek] (Greek model: “Διώναν.) → ok
+10 Epeirots [rare] → ok
+11 sez [latin] (Greek model: ΚΣ) → *set
+12 sfome [latin] (Greek model: ΕΖ) → *stone*
+13 lupatis [latin] (Greek model: Μιῥαΐῖ),) → lupatis* (*duris parere lupatis*)
+14 lupata’ [latin] (Greek model: «Ἰαραῖα᾽) → ok
+15 lupinis [rare] → ok
+16 dentibus [rare] → ok
+17 inaequales [rare] → ok (inae-|quales)
+18 inaequales [rare] → ok
+19 Zupatum [latin] (Greek model: ἀιῤαίμ,) → *lupatum*
+20 Welcker’s [conf] → ok
+21 AvkokdAAyrov [latin] (Greek model: 'λυκοκόλλητον, -- 6.) → λυκοκόλλητον
+22 ‘ [conf] → ‘provided
+23 Avkos [latin] (Greek model: λύκος, ἶ5) → λύκος
+24 εὐλαϊγγάς [greek] (Greek model: εὐλάϊγγάς,) → εὐλάϊγγάς
+25 Callixenus [rare] → ok
+26 B.C, [conf] → B.C.,
+27 ferreum [latin] (Greek model: ς έγγέμρ,) → *ferreum
+28 saxorum [rare] → saxorum (italic)
+29 Jerrea [latin] (Greek model: ἥέγγεα.) → *ferrea
+30 compages [rare] → compages* (italic)
+31 κεκολλημένον [greek] → ok
 --- notes
+Beyond the flags: *s. v.* (OCR "s. 2."), *H. N.* (AZ.), *De Divin.*, B.C. (B.c.), l. 13, pp. 68—82, ro. 65 → 10. 65, *Geo.*, *duris parere*, *Mor.*, kai → καὶ, *vice versa*, *i.e.*, ‘set *with precious stones*.’ (OCR ”), *ap.*, λίθῳ, ‘a lupinis … sunt.’ (OCR ”). εὐλάϊγγάς: the print's accents over αι are crowded; read as λά + ϊ (εὐλάϊγξ, second acute from the enclitic τε).
 
 === p-0281
 ## Lines 1264–1278

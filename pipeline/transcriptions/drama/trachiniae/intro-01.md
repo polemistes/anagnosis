@@ -204,66 +204,78 @@ The passage is, however, wholly out of place here. In fact, a student to whom th
 Read through against the page. Beyond the flags: "THE" → "The" (small capitals, as § 1's "Twelve"); "ὑπόfeos." → "ὑπόθεσις."; "Bibliotheca" italic (twice); "ms. (p. 64 B)" → "MS. (p. 64 B)"; "editio princeps" italic. The heading quoted from L is printed in an uncial type imitating the manuscript (lunate sigma c, the final ου as a ligature): written in ordinary polytonic, ἐκ τῆς Ἀπολλοδώρου βιβλιοθήκης ὑπόθεσις (the draft had ᾿Απολλολώρογ Βιβλιοθήκης ὑπόθεοιο). The signature "I—2" at the foot omitted.
 
 === p-0078
-+ Heyne’s edition οἵ Apollodorus, vol. 1. pp. 215 ff.: Dindorf, Sco. Soph. vol. 11. pp. 21 ff.)
++ Heyne’s edition of Apollodorus, vol. I. pp. 215 ff.: Dindorf, *Schol. Soph.* vol. II. pp. 21 ff.)
 
-Equally irrelevant to the Zrackhiniae are the thirteen hexameters, enumerating thirteen labours of Heracles, which the Laurentian Ms. gives at the end of the play (p. 79 B), with the title ἄθλοι (52) ‘HpakAéoyc. They occur also in Anthol. Plan. 4. 92, without the author’s name. Tzetzes (Histor. 2. 490) ascribed them to Quintus Smyrnaeus ; but they resemble rather the purely mechanical work of a grammarian.
+Equally irrelevant to the *Trachiniae* are the thirteen hexameters, enumerating thirteen labours of Heracles, which the Laurentian MS. gives at the end of the play (p. 79 B), with the title ἄθλοι (*sic*) Ἡρακλέους. They occur also in *Anthol. Plan.* 4. 92, without the author’s name. Tzetzes (*Histor.* 2. 490) ascribed them to Quintus Smyrnaeus; but they resemble rather the purely mechanical work of a grammarian.
 
 ## The persons of the drama
 
-AHIANEIPA. · AOYAH ΤΡΟΦΟΣ. · ΥΛΛΟΣ. · ΧΟΡΟΣ TYNAIKON TPAXINIQN. · ATTEAOS. · ΛΙΧΑΣ. · ΗΡΑΚΛΗΣ. · ΠΡΕΣΒΥΣ.
+ΔΗΙΑΝΕΙΡΑ. · ΔΟΥΛΗ ΤΡΟΦΟΣ. · ΥΛΛΟΣ. · ΧΟΡΟΣ ΓΥΝΑΙΚΩΝ ΤΡΑΧΙΝΙΩΝ. · ΑΓΓΕΛΟΣ. · ΛΙΧΑΣ. · ΗΡΑΚΛΗΣ. · ΠΡΕΣΒΥΣ.
 
-The Laurentian ms. (L) prefixes fe (θεράπαινα) to v. 49, while indicating τροφός in the later scene (847 ff.). Hence it could be inferred that δούλη τροφός should be read as denoting two distinct persons. This view prevailed in the older editions, including those of Brunck and Hermann. Recent editors usually identify the speaker at v. 49 with the τροφός of 847 ff. This is a dramatic gain, since the effect of 847 ff. is strengthened by our previous knowledge of the Nurse's attachment to Deianeira. [In the Aldine ed. the speaker at v. 49 is strangely designated as παιδαγωγός.]
+The Laurentian MS. (L) prefixes θε (θεράπαινα) to v. 49, while indicating τροφός in the later scene (847 ff.). Hence it could be inferred that δούλη τροφός should be read as denoting two distinct persons. This view prevailed in the older editions, including those of Brunck and Hermann. Recent editors usually identify the speaker at v. 49 with the τροφός of 847 ff. This is a dramatic gain, since the effect of 847 ff. is strengthened by our previous knowledge of the Nurse’s attachment to Deianeira. [In the Aldine ed. the speaker at v. 49 is strangely designated as παιδαγωγός.]
 
 The Chorus consists of fifteen Trachinian maidens (cp. 143, 211), friends of Deianeira.
 
-The parts were probably distributed as follows :—protagonist, Deianeira and Heracles; deuteragonist, Hyllus and Lichas; tritagonist, the Nurse, the Messenger, and the Old Man.
+The parts were probably distributed as follows:—protagonist, Deianeira and Heracles; deuteragonist, Hyllus and Lichas; tritagonist, the Nurse, the Messenger, and the Old Man.
 --- flags
-1 1. [digit] →
-2 Sco [latin] (Greek model: σολοί.) →
-3 Zrackhiniae [latin] (Greek model: “Ζγαελίμίασ,) →
-4 Ms. [conf] →
-5 ἄθλοι [accent] →
-6 (52) [conf] →
-7 HpakAéoyc [latin] (Greek model: “Ἡρδκλέογο.) →
-8 Anthol. [conf] →
-9 Smyrnaeus [conf] →
-10 APAMATOS [latin] (Greek model: ΔΡΑΜΑΤΟΣ) →
-11 IIPOSQIIA [latin] (Greek model: ΠΡΟΣΩΠΑ.) →
-12 AHIANEIPA [rare] →
-13 ATTEAOS [latin] (Greek model: ΑΤΤΈΛΟΣ.) →
-14 AOYAH [rare] →
-15 ΛΙΧΑΣ [accent] (Greek model: ΔΙΧΑΣ.) →
-16 ΗΡΑΚΛΗΣ [accent] (Greek model: ἩἨΡΑΚΛΗΣ.) →
-17 TYNAIKON [latin] →
-18 TPAXINIQN [latin] →
-19 Nurse's [conf] →
+1 1. [digit] → I.
+2 Sco [latin] (Greek model: σολοί.) → *Schol.*
+3 Zrackhiniae [latin] (Greek model: “Ζγαελίμίασ,) → *Trachiniae*
+4 Ms. [conf] → MS.
+5 ἄθλοι [accent] → ok (printed so, with Jebb's "(sic)")
+6 (52) [conf] → (*sic*)
+7 HpakAéoyc [latin] (Greek model: “Ἡρδκλέογο.) → Ἡρακλέους.
+8 Anthol. [conf] → *Anthol.*
+9 Smyrnaeus [conf] → ok
+10 APAMATOS [latin] (Greek model: ΔΡΑΜΑΤΟΣ) → omitted (title ΤΑ ΤΟΥ ΔΡΑΜΑΤΟΣ ΠΡΟΣΩΠΑ., written as the heading)
+11 IIPOSQIIA [latin] (Greek model: ΠΡΟΣΩΠΑ.) → omitted (same title)
+12 AHIANEIPA [rare] → ΔΗΙΑΝΕΙΡΑ
+13 ATTEAOS [latin] (Greek model: ΑΤΤΈΛΟΣ.) → ΑΓΓΕΛΟΣ
+14 AOYAH [rare] → ΔΟΥΛΗ
+15 ΛΙΧΑΣ [accent] (Greek model: ΔΙΧΑΣ.) → ok
+16 ΗΡΑΚΛΗΣ [accent] (Greek model: ἩἨΡΑΚΛΗΣ.) → ok
+17 TYNAIKON [latin] → ΓΥΝΑΙΚΩΝ
+18 TPAXINIQN [latin] → ΤΡΑΧΙΝΙΩΝ
+19 Nurse's [conf] → Nurse’s
 --- notes
+Read through against the page. Beyond the flags: "οἵ Apollodorus" → "of Apollodorus"; "Sco. Soph. vol. 11." → "*Schol. Soph.* vol. II."; "(p. 79 B)" small capital; "Anthol. Plan." and "Histor." italic; "ms. (L) prefixes fe" → "MS. (L) prefixes θε"; space before semicolon and colon dropped. The title Ἡρακλέους is printed in the uncial type of the manuscript (lunate sigma, ου ligature): written in ordinary polytonic. The persons: ΧΟΡΟΣ ΓΥΝΑΙΚΩΝ ΤΡΑΧΙΝΙΩΝ. was already in its place as the last of the left column; all Latin-letter names written in Greek.
 
 === p-0079
 ## Structure of the play
 
-I. πρόλογος, I—0Q3.
+1. πρόλογος, 1—93.
 
-2. πάροδος, 94---140. -
+2. πάροδος, 94—140.
 
-3. ἐπεισόδιον πρῶτον, 141—496, including a short ὑπόρχημα, or ‘dance-song,” 205—224.
+3. ἐπεισόδιον πρῶτον, 141—496, including a short ὑπόρχημα, or ‘dance-song,’ 205—224.
 
-4. στάσιμον πρῶτον, 497—530. ~ χὰ ἐπεισόδιον δεύτερον, 531—632.
+4. στάσιμον πρῶτον, 497—530.
 
-στάσιμον δεύτερον, 632---662.. | ἐπεισόδιον τρίτον, 663—820. | στάσιμον τρίτον, 821---862. -. | τὰ ἐπεισόδιον τέταρτον, 86“---ο46.
+5. ἐπεισόδιον δεύτερον, 531—632.
 
-10. στάσιμον τέταρτον, 947---970. --.
+6. στάσιμον δεύτερον, 633—662.
 
-1Ι. ἔξοδος, 971—1278, including a μέλος ἀπὸ σκηνῆς, 1004—1043. According to Nauck, the first ἐπεισόδιον ends at ν. 204, and the second consists of vv. 225—496, the choral song in vv. 205—224 being the first στάσιμον. ‘The play has then five epeisodia and five stasima.
+7. ἐπεισόδιον τρίτον, 663—820.
+
+8. στάσιμον τρίτον, 821—862.
+
+9. ἐπεισόδιον τέταρτον, 863—946.
+
+10. στάσιμον τέταρτον, 947—970.
+
+11. ἔξοδος, 971—1278, including a μέλος ἀπὸ σκηνῆς, 1004—1043.
+
+According to Nauck, the first ἐπεισόδιον ends at v. 204, and the second consists of vv. 225—496, the choral song in vv. 205—224 being the first στάσιμον. The play has then five epeisodia and five stasima.
 --- flags
-1 I—0Q3. [digit] (Greek model: 1-πτο3.) →
-2 ‘dance-song,” [conf] →
-3 χὰ [conf] →
-4 632---662.. [conf] →
-5 τὰ [conf] →
-6 86“---ο46. [digit] →
-7 1Ι. [digit] →
-8 ἔξοδος, [conf] →
-9 ‘The [conf] →
-10 epeisodia [rare] →
+1 I—0Q3. [digit] (Greek model: 1-πτο3.) → 1—93.
+2 ‘dance-song,” [conf] → ‘dance-song,’
+3 χὰ [conf] → 5. (the numeral of part 5, misread)
+4 632---662.. [conf] → 633—662.
+5 τὰ [conf] → 9. (the numeral of part 9, misread)
+6 86“---ο46. [digit] → 863—946.
+7 1Ι. [digit] → 11.
+8 ἔξοδος, [conf] → ok
+9 ‘The [conf] → The
+10 epeisodia [rare] → ok
 --- notes
+Read through against the page. The draft had run parts 4-10 together and lost the numerals 5-9: each part now a paragraph with its number as printed ("I." → "1.", "1Ι." → "11."); "94---140. -" → "94—140." and the other pencil dashes at line ends (after 140, 530, 662, 862, 970) left out; "στάσιμον δεύτερον, 632" → "633" (print 633—662); "86“---ο46" → "863—946"; "947---970. --." → "947—970."; "ν. 204" → "v. 204" (Latin v). "According to Nauck …" is a new indented paragraph in the print, split off from part 11. The Greek names of the parts are printed in bold Greek type; written plain, as the brief's form.

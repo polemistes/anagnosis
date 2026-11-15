@@ -1,97 +1,82 @@
 === p-0039
-Oed. Quis frui et tenebris vetat?
++ | *Oed.* Quis frui et tenebris vetat? | Quis reddit oculos? matris, heu, matris sonus. | Perdidimus operam. Congredi fas amplius | Haud est. Nefandos dividat vastum mare...
 
-Quis reddit oculos? matris, heu, matris sonus.
+Iocasta presently kills herself on the stage. Here, at least, Seneca has the advantage of Euripides, whose Iocasta speaks the prologue of the *Phoenissae*, and coldly recites the horrors of her past life,—adding that Oedipus has been imprisoned by his sons, ‘in order that his fate might be forgotten—for it needs much art to hide it’¹. The Iocasta of Sophocles rushes from the scene, not to re-appear, at the moment when she finds Oedipus resolved to unbare that truth of which she herself is already certain, and leaves the terrible cry thrilling in our ears—
 
-Perdidimus operam. Congredi fas amplius
+[Note: ¹ Eur. *Phoen.* 64 ἵν’ ἀμνήμων τύχη | γένοιτο, πολλῶν δεομένη σοφισμάτων.]
 
-Haud est. Nefandos dividat vastum mare...
+ἰού, ἰού, δύστηνε· τοῦτο γάρ σ’ ἔχω | μόνον προσειπεῖν, ἄλλο δ’ οὔποθ’ ὕστερον.
 
-Iocasta presently kills herself on the stage. Here, at least, Seneca has the advantage of Euripides, whose locasta speaks the prologue of the Ploenissae, and coldly recites the horrors of her past life,—adding that Oedipus has been imprisoned by his sons, ‘in order that his fate might be forgotten—for it needs much art to hide it’. The Iocasta of Sophocles rushes from the scene, not to re-appear, at the moment when she finds Oedipus resolved to unbare that truth of which she herself is already certain, and leaves the terrible cry thrilling in our ears—
+In the truth and power of this touch, Sophocles is alone. Neither Seneca, nor any later dramatist, has managed this situation so as to express with a similar union of delicacy and strength the desperate anguish of a woman whom fate has condemned to unconscious crime.
 
-ἰού, ἰού, δύστηνε᾽ τοῦτο γάρ σ᾽ ἔχω | μόνον προσειπεῖν, ἄλλο δ᾽ οὔποθ᾽ ὕστερον.
+(iii) Seneca had no ‘Oedipus at Colonus’ in view. He was free to disregard that part of the legend according to which Oedipus was expelled from Thebes by Eteocles and Polyneices, and can therefore close his play by making Oedipus go forth into voluntary exile:—
 
-In the truth and power of this touch, Sophocles is alone. Neither Seneca, nor any later dramatist, has managed this situation so as to express with a similar union of delicacy and strength the desperate anguish of a woman whom fate has condemned to unconscious crime. :
+Mortifera mecum vitia terrarum extraho. | Violenta fata et horridus morbi tremor | Maciesque et atra pestis et tabidus dolor | Mecum ite, mecum: ducibus his uti libet.
 
-(iii) Seneca had no ‘Oedipus δὲ Colonus’ in view. He was free to disregard that part of the legend according to which Oedipus was expelled from Thebes by Eteocles and Polyncices, and can therefore close his play by making Oedipus go forth into voluntary exile :(—
+## § 19 — Seneca’s relation to Sophocles.
 
-Mortifera mecum vitia terrarum extraho.
+The closeness with which Seneca has studied Sophocles can be judged from several passages². It is instructive to notice that, while Seneca has invented rhetorical ornament (as in the
 
-Violenta fata et horridus morbi tremor
-
-Maciesque et atra pestis et tabidus dolor
-
-Mecum ite, mecum : ducibus his uti libet.
-
-## § 10 — Seneca’s αὐ lation to μὰ να
-
-The closeness with which Seneca has studied Sophocles
-
-: rol . : can be judged from several passages® It is instructive to notice that, while Seneca has invented rhetorical ornament (as in the
-
-[Note: 1 Eur. Phoen. 64 ἵν᾽ ἀμνήμων τύχη | γένοιτο, πολλῶν δεομένη σοφισμάτων.]
-
-[Note: 2 Such are, the scene in which Oedipus upbraids Creon (Sen. 678—708, cp. Soph. §32—0630) ; the questioning of Iocasta by Oedipus (Sen. 773—783, cp. Soph. 740—]
-
-[Note: 755) ; the scene with the messenger from Corinth, and the final discovery (Sen. 783—]
-
-[Note: 831. Cp. Soph. 955—1185).]
+[Note: ² Such are, the scene in which Oedipus upbraids Creon (Sen. 678—708, cp. Soph. 532—630); the questioning of Iocasta by Oedipus (Sen. 773—783, cp. Soph. 740—755); the scene with the messenger from Corinth, and the final discovery (Sen. 783—881. Cp. Soph. 955—1185).]
 --- flags
-1 Oed. [conf] →
-2 frui [latin] (Greek model: ἔπ) →
-3 matris [rare] →
-4 matris [rare] →
-5 Perdidimus [rare] →
-6 Nefandos [rare] →
-7 dividat [rare] →
-8 vastum [rare] →
-9 locasta [latin] (Greek model: Ἰοςαϑία) →
-10 Ploenissae [latin] (Greek model: “Ῥλοοηΐσϑας,) →
-11 it’. [conf] →
-12 unbare [rare] →
-13 cer- [conf] →
-14 δύστηνε᾽ [conf] →
-15 Polyncices [rare] →
-16 Mortifera [rare] →
-17 vitia [rare] →
-18 extraho [rare] →
-19 Maciesque [rare] →
-20 tabidus [rare] →
-21 ducibus [rare] →
-22 libet [rare] →
-23 rol [latin] (Greek model: ΓΘ) →
-24 §32—0630) [conf] →
+1 Oed. [conf] → *Oed.* (italic speaker)
+2 frui [latin] (Greek model: ἔπ) → ok
+3 matris [rare] → ok
+4 matris [rare] → ok
+5 Perdidimus [rare] → ok
+6 Nefandos [rare] → ok
+7 dividat [rare] → ok
+8 vastum [rare] → ok
+9 locasta [latin] (Greek model: Ἰοςαϑία) → Iocasta
+10 Ploenissae [latin] (Greek model: “Ῥλοοηΐσϑας,) → *Phoenissae*
+11 it’. [conf] → it’¹.
+12 unbare [rare] → ok
+13 cer- [conf] → certain (joined)
+14 δύστηνε᾽ [conf] → δύστηνε·
+15 Polyncices [rare] → Polyneices
+16 Mortifera [rare] → ok
+17 vitia [rare] → ok
+18 extraho [rare] → ok
+19 Maciesque [rare] → ok
+20 tabidus [rare] → ok
+21 ducibus [rare] → ok
+22 libet [rare] → ok
+23 rol [latin] (Greek model: ΓΘ) → omitted (garbled margin note, read as "Seneca’s relation to Sophocles.")
+24 §32—0630) [conf] → 532—630)
 --- notes
+The page opens in the middle of the Latin quotation from Seneca begun at the foot of p-0038; its verses are joined with ` | `, and the block opens "+ | " so that the merge joins it to the verses before with " | ".
+Section number read from the print (§ 19, the draft had § 10) with its margin note "Seneca’s relation to Sophocles."; footnote 2 was split over four [Note:] paragraphs, now one.
 
 === p-0040
-+ opening dialogue, 1—1035, and the Nekyia, 530--- 568), he has not known how to vary the natural development of the action.. He has compressed the incidents of Sophocles into the smallest compass; and hence, notwithstanding the rhetorical episodes, the whole play consists only of 1060 lines, and would not have occupied more than an hour and a half in representation. Seneca is thus a negative witness to the mastery shown by the artist who could construct such a drama as the Oedipus Tyrannus with such materials. The modern dramatists, as we shall see, teach the same lesson in a more positive form. Walter Scott’s estimate of Seneca’s Oedipus needs modification, but is just in the main. ‘Though devoid of fancy and of genius, he says, it ‘displays the masculine eloquence and high moral sentiment of its author; and if it does not interest us in the scene of fiction, it often compels us to turn our thoughts inward, and to study our own hearts” Seneca’s fault, however, so far as the plot is concerned, seems less that he fails to interest, than that, by introducing the necromantic machinery, and by obliterating the finer moral traits of his Greek original, he has rendered the interest rather ‘ sensational’ than properly dramatic’.
++ opening dialogue, 1—105, and the Nekyia, 530—568), he has not known how to vary the natural development of the action. He has compressed the incidents of Sophocles into the smallest compass; and hence, notwithstanding the rhetorical episodes, the whole play consists only of 1060 lines, and would not have occupied more than an hour and a half in representation. Seneca is thus a negative witness to the mastery shown by the artist who could construct such a drama as the *Oedipus Tyrannus* with such materials. The modern dramatists, as we shall see, teach the same lesson in a more positive form. Walter Scott’s estimate of Seneca’s *Oedipus* needs modification, but is just in the main. ‘Though devoid of fancy and of genius,’ he says, it ‘displays the masculine eloquence and high moral sentiment of its author; and if it does not interest us in the scene of fiction, it often compels us to turn our thoughts inward, and to study our own hearts.’ Seneca’s fault, however, so far as the plot is concerned, seems less that he fails to interest, than that, by introducing the necromantic machinery, and by obliterating the finer moral traits of his Greek original, he has rendered the interest rather ‘sensational’ than properly dramatic¹.
 
-## § 20 — The Oedipe of Corneille.
+[Note: ¹ A small trait may be noticed as amusingly characteristic of the Roman poet of the Empire. The Laïus of Sophocles goes to Delphi βαιός—with only four attendants (752). Seneca makes Laïus *set out* with the proper retinue of a king;—but most of them lose their way. *Plures fefellit error ancipitis viae: Paucos fidelis curribus iunxit labor.*]
 
-The Oedipe of Corneille was produced at Paris in 1657. After an interval which followed the unfavourable reception of his Pertharite in 1653, it was with the Oedzpe that Corneille returned to the theatre, at the instance of his patron, Nicolas Fouquet, to whom it is dedicated. It is immaterial for our purpose that this play is far from exhibiting Corneille at his best; nor need we here inquire what precise rank is to be assigned to it among his less successful works. For the student of Sophocles, it has the permanent interest of showing how the subject of the Oedipus Tyrannus was adapted to the modern stage by a typical artist of the French classical school. The severely simple theme of Sophocles, with its natural elements of pity and terror, is found too meagre by the modern dramatist. He cannot trust to that
+## § 20 — The *Oedipe* of Corneille.
 
-[Note: 1 A small trait may be noticed as amusingly characteristic of the Roman poet of the Empire. The Laius of Sophocles goes to Delphi βαιός—with only four attendants (752). Seneca makes Laius se ou with the proper retinue of a king ;—but most of them lose their way. ZPlures fefellit ervor ancipitis viae: Paucos fideliscurribus iunxit labor.]
+The *Oedipe* of Corneille was produced at Paris in 1657. After an interval which followed the unfavourable reception of his *Pertharite* in 1653, it was with the *Oedipe* that Corneille returned to the theatre, at the instance of his patron, Nicolas Fouquet, to whom it is dedicated. It is immaterial for our purpose that this play is far from exhibiting Corneille at his best; nor need we here inquire what precise rank is to be assigned to it among his less successful works. For the student of Sophocles, it has the permanent interest of showing how the subject of the *Oedipus Tyrannus* was adapted to the modern stage by a typical artist of the French classical school. The severely simple theme of Sophocles, with its natural elements of pity and terror, is found too meagre by the modern dramatist. He cannot trust to that
 --- flags
-1 1—1035, [conf] →
-2 action.. [conf] →
-3 sensa- [conf] →
-4 Oedipe [latin] (Greek model: Οεαΐῤε,) →
-5 Pertharite [rare] →
-6 Oedzpe [rare] →
-7 Fouquet [rare] →
-8 Oedipus [conf] →
-9 ou [conf] →
-10 king [conf] →
-11 ;—but [conf] →
-12 ZPlures [latin] (Greek model: ίωγες) →
-13 fefellit [latin] →
-14 ervor [latin] (Greek model: 27707) →
-15 ancipitis [rare] →
-16 Paucos [latin] (Greek model: “Ῥαζεος.) →
-17 fideliscurribus [latin] (Greek model: ΒΟΟΣ) →
-18 fideliscurribus [rare] →
-19 iunxit [conf] →
+1 1—1035, [conf] → 1—105,
+2 action.. [conf] → action.
+3 sensa- [conf] → sensational (joined)
+4 Oedipe [latin] (Greek model: Οεαΐῤε,) → *Oedipe*
+5 Pertharite [rare] → *Pertharite*
+6 Oedzpe [rare] → *Oedipe*
+7 Fouquet [rare] → ok
+8 Oedipus [conf] → *Oedipus*
+9 ou [conf] → *set out*
+10 king [conf] → ok
+11 ;—but [conf] → ok
+12 ZPlures [latin] (Greek model: ίωγες) → *Plures*
+13 fefellit [latin] → ok
+14 ervor [latin] (Greek model: 27707) → error
+15 ancipitis [rare] → ok
+16 Paucos [latin] (Greek model: “Ῥαζεος.) → ok
+17 fideliscurribus [latin] (Greek model: ΒΟΟΣ) → fidelis curribus
+18 fideliscurribus [rare] → fidelis curribus
+19 iunxit [conf] → ok
 --- notes
+Margin note of § 20 is "The *Oedipe* of Corneille." (italic Oedipe). Footnote 1: the Latin quotation (Seneca) is printed in italics; "fidelis" ends a printed line and "curribus" begins the next (two words).
 
 === p-0041
 + alone ; he feels that he needs some further source of variety and relief. To supply this, he interweaves an underplot of secondary persons—‘ the happy episode of the loves of Theseus and Dirce. Theseus is the king of Athens; Dirce is a daughter of the deceased Lafus.

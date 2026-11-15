@@ -1,0 +1,198 @@
+[
+ {
+  "reader": "part 4 reader b",
+  "verdicts": [
+   {
+    "id": "T336-1",
+    "verdict": "1",
+    "printed": "τῶνδ’",
+    "note": "no comma after τῶνδ’"
+   },
+   {
+    "id": "T349-1",
+    "verdict": "1",
+    "printed": "νοεῖς·",
+    "note": "raised stop, not a full stop"
+   },
+   {
+    "id": "A365-1",
+    "verdict": "2",
+    "printed": "σοὺς",
+    "note": "grave accent; full stop follows"
+   },
+   {
+    "id": "T357-1",
+    "verdict": "1",
+    "printed": "λατρεύματ’,",
+    "note": "comma clearly printed after the elision"
+   },
+   {
+    "id": "A373-1",
+    "verdict": "2",
+    "printed": "οὓς",
+    "note": "rough breathing with grave (stroke slants down to the right)"
+   },
+   {
+    "id": "T379-1",
+    "verdict": "1",
+    "printed": "φύσιν·",
+    "note": "raised stop"
+   },
+   {
+    "id": "A391-1",
+    "verdict": "1",
+    "printed": "ἁνὴρ",
+    "note": "rough breathing (reversed-comma shape), compare smooth ἀπὸ in note 389"
+   },
+   {
+    "id": "A391-2",
+    "verdict": "2",
+    "printed": "ὡ",
+    "note": "rough breathing, no accent"
+   },
+   {
+    "id": "T382-1",
+    "verdict": "2",
+    "printed": "ἐφώνει",
+    "note": "no comma; commentary itself says many editors place a comma here"
+   },
+   {
+    "id": "T391-1",
+    "verdict": "1",
+    "printed": "ἁνὴρ",
+    "note": "rough breathing on alpha"
+   },
+   {
+    "id": "A395-1",
+    "verdict": "2",
+    "printed": "συνχρόνωι",
+    "note": "nu, not gamma, before χ"
+   },
+   {
+    "id": "A402-433-1",
+    "verdict": "2",
+    "printed": "σὴν",
+    "note": "grave accent"
+   },
+   {
+    "id": "A403-1",
+    "verdict": "1",
+    "printed": "ἐρωτήσασ",
+    "note": "final letter printed as medial-form σ (manuscript spelling), likewise ἔχεισ"
+   },
+   {
+    "id": "A418-1",
+    "verdict": "1",
+    "printed": "1",
+    "note": "old-style figure one at x-height, same glyph as the 1 in 1786; not a capital I"
+   },
+   {
+    "id": "T438-1",
+    "verdict": "2",
+    "printed": "κακῇ,",
+    "note": "comma after κακῇ"
+   }
+  ]
+ },
+ {
+  "reader": "part 4 reader a",
+  "verdicts": [
+   {
+    "id": "T336-1",
+    "verdict": "1",
+    "printed": "τῶνδʼ",
+    "note": "no stop after τῶνδʼ"
+   },
+   {
+    "id": "T349-1",
+    "verdict": "1",
+    "printed": "νοεῖς·",
+    "note": "raised stop, not a full stop"
+   },
+   {
+    "id": "A365-1",
+    "verdict": "2",
+    "printed": "σοὺς",
+    "note": "grave accent"
+   },
+   {
+    "id": "T357-1",
+    "verdict": "1",
+    "printed": "λατρεύματʼ,",
+    "note": "comma clearly printed"
+   },
+   {
+    "id": "A373-1",
+    "verdict": "2",
+    "printed": "οὓς",
+    "note": "rough breathing with a short stroke falling to the right (grave), no circumflex arc; small type, seen at high zoom"
+   },
+   {
+    "id": "T379-1",
+    "verdict": "1",
+    "printed": "φύσιν·",
+    "note": "raised stop"
+   },
+   {
+    "id": "A391-1",
+    "verdict": "1",
+    "printed": "ἁνὴρ",
+    "note": "rough breathing (c-shaped), same as ὡς"
+   },
+   {
+    "id": "A391-2",
+    "verdict": "2",
+    "printed": "ὡ",
+    "note": "rough breathing, clearly unlike the apostrophe-shaped smooth mark before νὴρ"
+   },
+   {
+    "id": "T382-1",
+    "verdict": "2",
+    "printed": "ἐφώνει",
+    "note": "no stop after ἐφώνει"
+   },
+   {
+    "id": "T391-1",
+    "verdict": "1",
+    "printed": "ἁνὴρ",
+    "note": "rough breathing, same form as on ὡς"
+   },
+   {
+    "id": "A395-1",
+    "verdict": "2",
+    "printed": "συνχρόνωι",
+    "note": "ν clearly printed, not γ"
+   },
+   {
+    "id": "A402-433-1",
+    "verdict": "2",
+    "printed": "σὴν",
+    "note": "grave accent"
+   },
+   {
+    "id": "A403-1",
+    "verdict": "1",
+    "printed": "ἐρωτήσασ",
+    "note": "medial-form sigma at word end, as in ἔχεισ"
+   },
+   {
+    "id": "A418-1",
+    "verdict": "1",
+    "printed": "1",
+    "note": "old-style figure at x-height, the same glyph as the 1 in 1786; not a full-height capital I"
+   },
+   {
+    "id": "T402-1",
+    "verdict": "2",
+    "printed": "ὧδε.",
+    "note": "full stop at the foot of the line"
+   },
+   {
+    "id": "T438-1",
+    "verdict": "2",
+    "printed": "κακῇ,",
+    "note": "comma clearly printed"
+   }
+  ]
+ }
+]

@@ -1,71 +1,69 @@
 === p-0031
-*Is AE unbelief?* And certainly one of the most interesting questions in the Oedipus Tyrannus concerns the intellectual position of Oedipus and Iocasta towards that divine power of which the hand is laid so heavily upon both. Sophocles had found in human nature itself the sanction of ‘the unwritten laws,’ and the seal of faith in a beneficence immortal and eternal ; but his personal attitude towards the ‘sceptical’ currents of thought in his age was never, so far as we can judge, that of admonitory protest or dogmatic reproof. It was his temperament to look around him for elements of conciliation, to evoke gentle and mediating influences, rather than to make war on the forces which he regarded as sinister :—it might be said of him, as of a person in one of his own plays, οὔτοι συνέχθειν ἀλλὰ συμφιλεῖν ἔφυ. But is there any reason to think that the Oedipus Tyrannus marks a moment when this mind—‘which saw life steadily, and saw it whole’—was partly shaken in its self-centred calm by the consciousness of a spiritual anarchy around it which seemed fraught with ultimate danger to the cohesion of society, and that a note of solemn warning, addressed to Athens and to Greece, is meant to be heard throughout the drama? Our answer must depend upon the sense in which we conceive that he places Oedipus or Iocasta at issue with religion.
+*Is Sophocles reproving unbelief?* And certainly one of the most interesting questions in the *Oedipus Tyrannus* concerns the intellectual position of Oedipus and Iocasta towards that divine power of which the hand is laid so heavily upon both. Sophocles had found in human nature itself the sanction of ‘the unwritten laws,’ and the seal of faith in a beneficence immortal and eternal ; but his personal attitude towards the ‘sceptical’ currents of thought in his age was never, so far as we can judge, that of admonitory protest or dogmatic reproof. It was his temperament to look around him for elements of conciliation, to evoke gentle and mediating influences, rather than to make war on the forces which he regarded as sinister :—it might be said of him, as of a person in one of his own plays, οὔτοι συνέχθειν ἀλλὰ συμφιλεῖν ἔφυ. But is there any reason to think that the *Oedipus Tyrannus* marks a moment when this mind—‘which saw life steadily, and saw it whole’—was partly shaken in its self-centred calm by the consciousness of a spiritual anarchy around it which seemed fraught with ultimate danger to the cohesion of society, and that a note of solemn warning, addressed to Athens and to Greece, is meant to be heard throughout the drama? Our answer must depend upon the sense in which we conceive that he places Oedipus or Iocasta at issue with religion.
 
 ## § 12 — Oedipus.
 
-As regards Oedipus, it might be said that, in this particular aspect, he is a modern character, and more especially, perhaps, a character of the nineteenth century. The instinct of reverence for the gods was originally fundamental in his nature: it appears in the first act of his manhood—the journey to Delphi. Nor did he for a moment mistrust the gods because the doom assigned to him was bitter. Then he achieved a great intellectual success, reached the most brilliant prosperity, and was ranked by his fellow-men as second to the gods alone. He is not spoiled by his good fortune. We find him, at the opening of the play, neither arrogant nor irreverent; full, rather, of tenderness for his people, full of reverence for the word of Apollo. Suddenly, however, the prophet of Apollo denounces him. Instantly his s appeal is to the intellect. If it comes to that, what claim has any other human mind to interpose between
+As regards Oedipus, it might be said that, in this particular aspect, he is a modern character, and more especially, perhaps, a character of the nineteenth century. The instinct of reverence for the gods was originally fundamental in his nature: it appears in the first act of his manhood—the journey to Delphi. Nor did he for a moment mistrust the gods because the doom assigned to him was bitter. Then he achieved a great intellectual success, reached the most brilliant prosperity, and was ranked by his fellow-men as second to the gods alone. He is not spoiled by his good fortune. We find him, at the opening of the play, neither arrogant nor irreverent; full, rather, of tenderness for his people, full of reverence for the word of Apollo. Suddenly, however, the prophet of Apollo denounces *him*. Instantly his appeal is to the intellect. If it comes to that, what claim has any other human mind to interpose between
 --- flags
-1 Oedipus [conf] →
-2 :—it [conf] →
-3 mind—‘which [conf] →
-4 him. [conf] →
+1 Oedipus [conf] → ok
+2 :—it [conf] → ok
+3 mind—‘which [conf] → ok
+4 him. [conf] → *him*. (italic)
 --- notes
 
 === p-0032
-+ /7s mind and Heaven? Is he not Oedipus, who silenced the Sphinx? Yes, but presently, gradually, his own mind begins to argue on the other side. No one is so acute as he, and of course he must be the first to see any facts which tell against himself. And now, when he is face to face with the gods, and no prophet stands between, the instinct of reverence inborn in his noble nature finds voice in the prayer, ὁ Forbid, forbid, ye pure and awful gods, that I should see that day!’ After varying hopes and fears, his own mind is convinced of the worst. Reason, which had been the arbiter of faith, now becomes the inexorable judge of sin, the most instant and most rigorous claimant for his absolute abasement before the gods.
++ *his* mind and Heaven? Is he not Oedipus, who silenced the Sphinx? Yes, but presently, gradually, his own mind begins to argue on the other side. No one is so acute as he, and of course he must be the first to see any facts which tell against himself. And now, when he is face to face with the gods, and no prophet stands between, the instinct of reverence inborn in his noble nature finds voice in the prayer, ‘Forbid, forbid, ye pure and awful gods, that I should see that day!’ After varying hopes and fears, his own mind is convinced of the worst. Reason, which had been the arbiter of faith, now becomes the inexorable judge of sin, the most instant and most rigorous claimant for his absolute abasement before the gods.
 
-*Iocasta.* #4 § 13. Plainly, it would be a misreading to construe the fate of Oedipus as a dramatic nemesis of impiety ; but the case of Tocasta is at first sight less clear. She, at least, is one who openly avows scorn for oracles, and urges her lord to share it. It niay often be noticed—where the dramatist has known how to draw from life—that the true key-note of a dominant mood is struck by a short utterance on which no special emphasis is thrown, just as, in life itself, the sayings most truly significant of character are not always long or marked. For Iocasta, such a key-note is given in the passage where she is telling Oedipus that a response from the Delphian temple had warned Laius that he was destined to be slain by the child whom she bore to him. ‘An oracle came to Laius once—/ will not say from Phoebus himself, but from his ministers’ (v. 712). Iocasta thoroughly believes in the power of the gods to effect their will (724),—to punish or to save (921). But she does not believe that any mortal—be he priest or prophet—is permitted by them to read the future. Had not the Delphian priests doomed her to sacrifice her first-born child,—and this, without saving the life of her husband, Latus? The iron which years ago had entered into the soul of the wife and mother has wrought in her a result similar to that which pride of intellect has produced in Oedipus. Like Oedipus, she still believes in the wise omnipotence of the gods; like him also, she is no longer prepared to accept any mortal interpreter of their decrees. Thus are the
+## § 13 — Iocasta.
+
+Plainly, it would be a misreading to construe the fate of Oedipus as a dramatic nemesis of impiety ; but the case of Iocasta is at first sight less clear. She, at least, is one who openly avows scorn for oracles, and urges her lord to share it. It may often be noticed—where the dramatist has known how to draw from life—that the true key-note of a dominant mood is struck by a short utterance on which no special emphasis is thrown, just as, in life itself, the sayings most truly significant of character are not always long or marked. For Iocasta, such a key-note is given in the passage where she is telling Oedipus that a response from the Delphian temple had warned Laïus that he was destined to be slain by the child whom she bore to him. ‘An oracle came to Laïus once—*I will not say from Phoebus himself, but from his ministers*’ (v. 712). Iocasta thoroughly believes in the power of the gods to effect their will (724),—to punish or to save (921). But she does not believe that any mortal—be he priest or prophet—is permitted by them to read the future. Had not the Delphian priests doomed her to sacrifice her first-born child,—and this, without saving the life of her husband, Laïus? The iron which years ago had entered into the soul of the wife and mother has wrought in her a result similar to that which pride of intellect has produced in Oedipus. Like Oedipus, she still believes in the wise omnipotence of the gods; like him also, she is no longer prepared to accept any mortal interpreter of their decrees. Thus are the
 --- flags
-1 /7s [digit] →
-2 ὁ [conf] →
-3 #4 [conf] →
-4 Oedipus [conf] →
-5 Tocasta [rare] →
-6 niay [rare] →
-7 Iocasta, [conf] →
-8 from [conf] →
-9 Iocasta [conf] →
+1 /7s [digit] → *his*
+2 ὁ [conf] → ‘
+3 #4 [conf] → omitted (pencil mark)
+4 Oedipus [conf] → ok
+5 Tocasta [rare] → Iocasta
+6 niay [rare] → may
+7 Iocasta, [conf] → ok
+8 from [conf] → *from* (italic)
+9 Iocasta [conf] → ok
 --- notes
 
 === p-0033
-+ two foremost persons of this tragedy separated from the offices of human intercession, and directly confronted in spirit—one by his self-reliance, the other by her remembered anguish—with the inscrutable powers which control their fate. It is as a study of the human heart, true for every age, not as a protest against tendencies of the poet’s own, that the Oedipus Tyrannus illustrates the relation of faith to reason.
++ two foremost persons of this tragedy separated from the offices of human intercession, and directly confronted in spirit—one by his self-reliance, the other by her remembered anguish—with the inscrutable powers which control their fate. It is as a study of the human heart, true for every age, not as a protest against tendencies of the poet’s own, that the *Oedipus Tyrannus* illustrates the relation of faith to reason.
 
-## § 14 — Teiresias. “™
+## § 14 — Teiresias. Creon.
 
-The central figure of the drama is brought into clearer relief by the characters of Teiresias and Creon. Teiresias exists only for the god whom he serves. Through him Apollo speaks. As opposed to Oedipus, he zs the divine knowledge of Apollo, opposed to human ignorance and blindness. While ‘the servant of Loxias’ thus stands above the king of Thebes, Creon stands below him, on the humbler but safer ground of ordinary humanity. Creon is shrewd, cautious, practical, not sentimental or demonstrative, yet of a fervid self-respect, and with a strong and manly kindliness which comes out in the hour of need. It might be said that the Creon of the Oedipus Tyrannus embodies a good type of Scottish character, as the Creon of the Antigone —an earlier sketch—is rather of the Prussian .type, as it is popularly idealised by some of its neighbours. Teiresias is the gauge of human insight matched against divine; Creon, of fortune’s heights and depths, compared with the less brilliant but more stable lot of commoner men. ‘Crave not to be master in all things; for the mastery which thou didst win hath not followed thee through life’—are his words to Oedipus at the end; and his own position at the moment exemplifies the sense in which ‘the god ever gives the mastery to the middle state ἢ,
+The central figure of the drama is brought into clearer relief by the characters of Teiresias and Creon. Teiresias exists only for the god whom he serves. Through him Apollo speaks. As opposed to Oedipus, he *is* the divine knowledge of Apollo, opposed to human ignorance and blindness. While ‘the servant of Loxias’ thus stands above the king of Thebes, Creon stands below him, on the humbler but safer ground of ordinary humanity. Creon is shrewd, cautious, practical, not sentimental or demonstrative, yet of a fervid self-respect, and with a strong and manly kindliness which comes out in the hour of need¹. It might be said that the Creon of the *Oedipus Tyrannus* embodies a good type of Scottish character, as the Creon of the *Antigone*—an earlier sketch—is rather of the Prussian type, as it is popularly idealised by some of its neighbours. Teiresias is the gauge of human insight matched against divine; Creon, of fortune’s heights and depths, compared with the less brilliant but more stable lot of commoner men. ‘Crave not to be master in all things; for the mastery which thou didst win hath not followed thee through life’—are his words to Oedipus at the end; and his own position at the moment exemplifies the sense in which ‘the god ever gives the mastery to the middle state’².
 
-## § 15 — Supposed references ig con. temporary events.
+[Note: ¹ Lest it should be thought that in the note on p. 77 the harsher aspect of Creon’s character is unduly prominent, I may observe that this note relates to vv. 512—862, and deals with Creon only as he appears *there*. The scene which begins at v. 1422—and more especially vv. 1476 f.—must of course be taken into account when we offer, as here, a more general estimate of the character.]
 
-There is no external evidence for the time at which
+[Note: ² παντὶ μέσῳ τὸ κράτος θεὸς ὤπασεν, Aesch. *Eum.* 528.]
 
-: :
+## § 15 — Supposed references to contemporary events.
 
-the Oedipus Tyrannus was first acted. Internal evidence warrants
-
-[Note: 1 Lest it should be thought that in the note on p. 77 the harsher aspect of Creon’s character is unduly prominent, I may observe that this note relates to vv. 512—862, and deals with Creon only as he appears #kere. The scene which begins at v. 1422—and more especially vv. 1476 f.—must of course be taken into account when we offer, as here, a more general estimate of the character.]
-
-[Note: 2 παντὶ μέσῳ τὸ κράτος θεὸς ὥπασεν, Aesch. Eum. 528.]
+There is no external evidence for the time at which the *Oedipus Tyrannus* was first acted. Internal evidence warrants
 --- flags
-1 need. [conf] →
-2 Oedipus [conf] →
-3 ἢ, [conf] →
-4 kere [latin] (Greek model: 2λεγε.) →
-5 ὥπασεν [accent] (Greek model: ὦπασεν,) →
+1 need. [conf] → need¹.
+2 Oedipus [conf] → ok
+3 ἢ, [conf] → ’². (footnote mark, no Greek)
+4 kere [latin] (Greek model: 2λεγε.) → *there*
+5 ὥπασεν [accent] (Greek model: ὦπασεν,) → ὤπασεν
 --- notes
 
 === p-0034
-+ the belief that it was composed after the Antigone, and before the Oedipus Coloneus. The probable limits thus indicated might be roughly given as about 430—412 B.C. More than this we cannot say. Modern ingenuity has recognised Pericles in Oedipus,—the stain of Alcmaeonid lineage in his guilt as the slayer of Laius,—the ‘Dorian war, and a pestilence therewith’ in the afflictions of Thebes. This allegorical hypothesis need not detain us. But it may be well briefly to remark the difference, for drama, between association of ideas and direct allusion. If Sophocles had set himself to describe the plague at Athens as he had known it, it might have been held that, in an artistic sense, his fault was graver than that of Phrynichus, when, by representing the capture of Miletus, he ‘reminded the Athenians of their own misfortunes.” If, however, writing at a time subsequent to the pestilence which he had survived, he wished to give an ideal picture of a plague-stricken town, it would have been natural and fitting that he should borrow some touches from his own experience. But the sketch in the play is far too slight to warrant us in saying that he even did this; perhaps the reference to the victims of pestilence tainting the air (θαναταφόρα v. 180) is the only trait that might suggest it. Thucydides (11. 50), in describing the plague of 430 B.C, notices the number of the unburied dead. The remarks just made apply equally to the supposed allusion in vv. 883 ff. to the mutilation of the Hermae (see the note on 886).
++ the belief that it was composed after the *Antigone*, and before the *Oedipus Coloneus*. The probable limits thus indicated might be roughly given as about 439—412 B.C. More than this we cannot say. Modern ingenuity has recognised Pericles in Oedipus,—the stain of Alcmaeonid lineage in his guilt as the slayer of Laïus,—the ‘Dorian war, and a pestilence therewith’ in the afflictions of Thebes. This allegorical hypothesis need not detain us. But it may be well briefly to remark the difference, for drama, between association of ideas and direct allusion. If Sophocles had set himself to describe the plague at Athens as he had known it, it might have been held that, in an artistic sense, his fault was graver than that of Phrynichus, when, by representing the capture of Miletus, he ‘reminded the Athenians of their own misfortunes.’ If, however, writing at a time subsequent to the pestilence which he had survived, he wished to give an ideal picture of a plague-stricken town, it would have been natural and fitting that he should borrow some touches from his own experience. But the sketch in the play is far too slight to warrant us in saying that he even did this; perhaps the reference to the victims of pestilence *tainting the air* (θαναταφόρα v. 180) is the only trait that might suggest it. Thucydides (II. 50), in describing the plague of 430 B.C., notices the number of the unburied dead. The remarks just made apply equally to the supposed allusion in vv. 883 ff. to the mutilation of the Hermae (see the note on 886).
 
-*Alleged defeat of the play.* A tradition, dating at least from the 2nd century B.C}, affirmed that, when Sophocles produced the Oedipus Tyrannus, he was defeated for the first prize by Philocles—a poet of whose work we know nothing. Philocles was a nephew of Aeschylus, and, as Aristeides observes? achieved an honour which
+*Alleged defeat of the play.* A tradition, dating at least from the 2nd century B.C.¹, affirmed that, when Sophocles produced the *Oedipus Tyrannus*, he was defeated for the first prize by Philocles,—a poet of whose work we know nothing. Philocles was a nephew of Aeschylus, and, as Aristeides observes², achieved an honour which
 
-[Note: ‘1 The words in the prose ὑπόθεσις (given on p. 4) are simply, ἡττηθέντα ὑπὸ Φιλοκλέους, ὥς φησι Δικαίαρχος. The Dicaearchus who wrote ὑποθέσεις τῶν Εὐριπίδου καὶ Σοφοκλέους μύθων has been generally identified with Dicaearchus of Messana, the Peripatetic, a pupil of Aristotle and a friend of Theophrastus. We might place his ‘floruit,’ then, somewhere about 310 B.C.; there are indications that he survived]
+[Note: ¹ The words in the prose ὑπόθεσις (given on p. 4) are simply, ἡττηθέντα ὑπὸ Φιλοκλέους, ὥς φησι Δικαίαρχος. The Dicaearchus who wrote ὑποθέσεις τῶν Εὐριπίδου καὶ Σοφοκλέους μύθων has been generally identified with Dicaearchus of Messana, the Peripatetic, a pupil of Aristotle and a friend of Theophrastus. We might place his ‘floruit,’ then, somewhere about 310 B.C.; there are indications that he survived 296 B.C. If, on the other hand, the ὑποθέσεις were ascribed to the grammarian Dicaearchus of Lacedaemon, a pupil of Aristarchus, this would bring us to about 140 B.C.]
 
-[Note: 206 B.C. If, on the other hand, the ὑποθέσεις were ascribed to the grammarian Dicaearchus of Lacedaemon, a pupil of Aristarchus, this would bring us to about]
+[Note: ² II. 256.]
 --- flags
-1 Laius,—the [conf] →
-2 observes? [conf] →
-3 ‘1 [digit] →
-4 ‘floruit,’ [conf] →
+1 Laius,—the [conf] → Laïus,—the
+2 observes? [conf] → observes²,
+3 ‘1 [digit] → ¹ (speck before the mark)
+4 ‘floruit,’ [conf] → ok
 --- notes
 
 === p-0035

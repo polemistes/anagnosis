@@ -222,7 +222,7 @@ II. To write δόμοισι, with Triclinius, instead of δόμοις, in 842, a
 29 κέλωρ-. [conf] → κέλωρ’>.
 30 Andr. [conf] → ok
 --- notes
-The quoted verses of the strophe were cut short in the draft (the paragraph "Thus the words … correspond metrically" had swallowed the antistrophe's words, and "οιtext" and "limited to > this" were debris): rebuilt from the image, with "οἷ- |" as printed. Angle brackets of the conjectures as printed (<ἐξ>, <ποτ’ ἄνδρ’>, <Ζηνὸς κέλωρ’>, <θείαν βίαν>). Further corrections from the image: κέντρ’ (elision lost), ποτ’ (for "mor’"), ὧν ἅδ’ ἁ, ἀπ’ (for "am", "dm"), "which" (for "Which"), the missing | before ἀγάκλαυτον.
+The quoted verses of the strophe were cut short in the draft (the paragraph "Thus the words … correspond metrically" had swallowed the antistrophe's words, and "οιtext" and "limited to > this" were debris): rebuilt from the image, with "οἷ- |" as printed. Angle brackets of the conjectures as printed (<ἐξ>, <ποτ’ ἄνδρ’>, <Ζηνὸς κέλωρ’>, <θείαν βίαν>). Further corrections from the image: κέντρ’ (elision lost), ποτ’ (for "mor’"), ὧν ἅδ’ ἁ, ἀπ’ (for "am", "dm"), "which" (for "Which"), the missing | before ἀγάκλαυτον. Checker remarks on “ον”, “οις” (no breathing): word endings after a bracketed beginning, [οἷ]ον and [δόμ]οις, as printed.
 
 === p-0271
 + is in the genitive case: Wecklein’s does explain that; but the words θείαν βίαν could not, without some further definition (such as τοῦδε), denote Heracles. The emendation which I suggest, ἀναρσίων <ὕπ’> οὔπω <τοῦδε σῶμ’> ἀγακλειτόν, at least accounts for Ἡρακλέους (as a gloss on τοῦδε), clears up the construction of ἀναρσίων, and is Sophoclean in respect to the periphrasis with σῶμα.
@@ -319,7 +319,7 @@ A. Proposed explanations of the traditional text.
 26 ‘undimmed,’ [conf] → ok
 27 δ [conf] → δι’
 --- notes
-The scholium on 1019 had been cut by a line of accent debris ("\ \ ΄ \ ΄ὔ ~ N 3 » ~ EA 3 / .") and garbled (yap, kal, προς TO, TOV, 7)): rebuilt from the image, the paragraph joined. Quotation marks mended (“Behold … evermore!”.’, ‘even beyond the grave.’, ‘the household …’). "I. τ." is "I. 1.". ἀτόκους (heavy upright type) and the spaced ὀξύτερόν in bold; ἐς τὸ λοιπὸν (for "é"), ἢ δι’ (for "ἢ 80"), ἑστίας, Iolè, *focos*, *ap.*, *them*, *quicker*, *than* corrected or italicised from the image.
+The scholium on 1019 had been cut by a line of accent debris ("\ \ ΄ \ ΄ὔ ~ N 3 » ~ EA 3 / .") and garbled (yap, kal, προς TO, TOV, 7)): rebuilt from the image, the paragraph joined. Quotation marks mended (“Behold … evermore!”.’, ‘even beyond the grave.’, ‘the household …’). "I. τ." is "I. 1.". ἀτόκους (heavy upright type) and the spaced ὀξύτερόν in bold; ἐς τὸ λοιπὸν (for "é"), ἢ δι’ (for "ἢ 80"), ἑστίας, Iolè, *focos*, *ap.*, *them*, *quicker*, *than* corrected or italicised from the image. Checker remark on “ους” (no breathing): the ending “(or -ους)” as printed.
 
 === p-0273
 + by Mr Whitelaw at p. 297: ‘with youthful sight | Undimmed—thou, where I fail, canst aid.’
@@ -384,7 +384,7 @@ II. Emendations which alter ὄμμα.—1. Purgold: σοί τέ γε ῥώμα 
 26 (thyself),’—an [conf] → ok
 27 Zelp [latin] (Greek model: Λε) → help
 28 Purgold [latin] → ok
-29 7¢ [conf] → τέ γε
+29 7¢ [conf] → τέ
 30 ῥώμα [conf] → ok
 31 him, [conf] → ok
 32 —incorrectly [conf] → ok
@@ -397,52 +397,53 @@ II. Emendations which alter ὄμμα.—1. Purgold: σοί τέ γε ῥώμα 
 39 arteria [latin] (Greek model: αγίογία,) → ok
 40 az». [conf] → air.
 --- notes
-Campbell's quotation prints σωζειν without an accent (an evident misprint; σώζεσθαι follows in the same quotation): written σώζειν. Wecklein's three verses were split by the draft and garbled (σωκεῖν, the metrical signs – ⏑ ⏑ – ⏑ ⏑ –): one paragraph with ` | `, rebuilt from the image. "I. τ." and "II. … ὄμμα.—τ." are "1."; Hermann's ἒν (for "ἔν 85"), "as =" restored; ’στι, ἅμμα, σοί τι (for "ool 7"), ἔμπλεον (for "ἔμπλεον 7¢"), σοί τέ γε (for "7¢ ye"). Spaced Greek (συλλαβοῦ, ἐμοῦ σωκεῖν, ἐς πλέον) in bold. Italics restored (*at my command*, *a fulness of resource*, *am not able*, *Ars Soph. em.*, *thou*, *help*, *arteria*, *air*).
+Campbell's quotation prints σωζειν without an accent (an evident misprint; σώζεσθαι follows in the same quotation): written σώζειν. Wecklein's three verses were split by the draft and garbled (σωκεῖν, the metrical signs – ⏑ ⏑ – ⏑ ⏑ –): one paragraph with ` | `, rebuilt from the image. "I. τ." and "II. … ὄμμα.—τ." are "1."; Hermann's ἒν (for "ἔν 85"), "as =" restored; ’στι, ἅμμα, σοί τι (for "ool 7"), σοί τέ γε (for "σοί 7¢ ye"). Spaced Greek (συλλαβοῦ, ἐμοῦ σωκεῖν, ἐς πλέον) in bold. Italics restored (*at my command*, *a fulness of resource*, *am not able*, *Ars Soph. em.*, *thou*, *help*, *arteria*, *air*).
 
 === p-0274
-+ from ἀήρ and τηρεῖν. When the name ‘arteria’ was applied by the ancients to what 15 now called an ‘artery,’ the error of taking it for an air-passage arose from the fact that after death the ‘arteriae’ were found empty, while the veins were filled with blood returning from the heart.
++ from ἀήρ and τηρεῖν. When the name ‘arteria’ was applied by the ancients to what is now called an ‘artery,’ the error of taking it for an air-passage arose from the fact that after death the ‘arteriae’ were found empty, while the veins were filled with blood returning from the heart.
 
-The adjective ἀρτήριος (apra-w, ‘to suspend’) meant ‘fitted for suspending’: and the feminine ἀρτηρία was used as a substantive, ‘a cord for suspending,’—σειρά, or the like, being understood. Then this term came to be used by physicians in certain figurative senses. (1) The name ἀρτηρία was given to the windpipe, regarded as a tube from which the lungs are, as it were, suspended. Hippocrates, the contemporary of Sophocles, uses the word in this sense; and it is the only sense which the word bears in the genuine works of Aristotle. (See Prof. Joseph Mayor's notes on Cicero De Nat. Deor. 2. 55 δὲ 136, 138: vol. 11. of his ed., pp. 256, 262.) Similarly the aorta (ἀορτή, ἀείρω) is so called, as being a tube or cord from which the heart depends. (2) In the plural, ἀρτηρίαι were the bronchial tubes : this use, too, is recognised by Hippocrates. After a time it was found convenient to define ἀρτηρία, when it meant the windpipe, by a special epithet. The word chosen was τραχεῖα, because the windpipe 15 externally ‘rough’ with rings of cartilage which strengthen it. The phrase ἡ τραχεῖα ἀρτηρία dates at least from the age of the physician Erasistratus (¢. 280 B.C.).
+The adjective ἀρτήριος (ἀρτά-ω, ‘to suspend’) meant ‘fitted for suspending’: and the feminine ἀρτηρία was used as a substantive, ‘a cord for suspending,’—σειρά, or the like, being understood. Then this term came to be used by physicians in certain figurative senses. (1) The name ἀρτηρία was given to the *windpipe*, regarded as a tube from which the lungs are, as it were, suspended. Hippocrates, the contemporary of Sophocles, uses the word in this sense; and it is the only sense which the word bears in the genuine works of Aristotle. (See Prof. Joseph Mayor’s notes on Cicero *De Nat. Deor.* 2. 55 §§ 136, 138: vol. II. of his ed., pp. 256, 262.) Similarly the aorta (ἀορτή, ἀείρω) is so called, as being a tube or cord from which the heart depends. (2) In the plural, ἀρτηρίαι were *the bronchial tubes*: this use, too, is recognised by Hippocrates. After a time it was found convenient to define ἀρτηρία, when it meant the *windpipe*, by a special epithet. The word chosen was **τραχεῖα**, because the windpipe is externally ‘rough’ with rings of cartilage which strengthen it. The phrase ἡ τραχεῖα ἀρτηρία dates at least from the age of the physician Erasistratus (*c.* 280 B.C.).
 
-‘ Arteries’ in the modern sense, and veins, are alike called φλέβες by Aristotle. The physician Praxagoras of Cos (¢. 310—290 B.C.) has been regarded as the first who had some notion of the true distinction (Sprengel, Hist. de la ήώ. vol. 1. p. 491). But the general conception long continued to be that which Cicero attests, De Naz. Deor. 2. 55 § 138, ¢ Sanguis per venas in omne corpus diffunditur, et spirvitus per arterias.’
+‘Arteries’ in the modern sense, and veins, are alike called **φλέβες** by Aristotle. The physician Praxagoras of Cos (*c.* 310—290 B.C.) has been regarded as the first who had some notion of the true distinction (Sprengel, *Hist. de la Méd.* vol. I. p. 491). But the general conception long continued to be that which Cicero attests, *De Nat. Deor.* 2. 55 § 138, ‘*Sanguis per* venas *in omne corpus diffunditur, et spiritus per* arterias.’
 
-The later doctrines of the ‘arteriae,” from Galen to Harvey, may be traced in Prof. J. G. McKendrick’s article on the Vascular System,’ Encycl. Brit. vol. xxiv. pp. 95 ff. (9th ed.).
+The later doctrines of the ‘arteriae,’ from Galen to Harvey, may be traced in Prof. J. G. McKendrick’s article on the ‘Vascular System,’ *Encycl. Brit.* vol. XXIV. pp. 95 ff. (9th ed.).
 
 ## Line 1166
 
 ### The Oracle at Dodona.
 
-M. Constantin Carapanos, when at Jannina in the summer of 1875, heard of some coins having been found in a neighbouring district, among ruins usually identified with Passaron, the chief town of the Molossi in Epeirus. He was thus led to undertake the excavations which finally established the true site of Dodona,—formerly placed by Leake and others on the hill of Kastritza, at the s. end of the Lake of Jannina. The results obtained by M. Carapanos are given in his work, Dodone et ses ruines (Paris, 1878).
+M. Constantin Carapanos, when at Jannina in the summer of 1875, heard of some coins having been found in a neighbouring district, among ruins usually identified with Passaron, the chief town of the Molossi in Epeirus. He was thus led to undertake the excavations which finally established the true site of Dodona,—formerly placed by Leake and others on the hill of Kastritza, at the S. end of the Lake of Jannina. The results obtained by M. Carapanos are given in his work, *Dodone et ses ruines* (Paris, 1878).
 
-1. Site. Dodona stood in what is now the valley of Tcharacovista, about 11} miles s.w. of Jannina. It is in the region where the N.E. corner of Thesprotia touched the N.w. corner of Molossia. As Strabo says, ‘ Dodona 15 called Thesprotian by the tragedians (Aesch. 2. 7. 831) and Pindar, but afterwards became subject to the Molossi’ (7. 7.4). The total length of the valley from N.w. to s.E. is about 7% miles; its width varies from about half a mile to about a mile and a quarter. On the
+1. *Site.* Dodona stood in what is now the valley of Tcharacovista, about 11¼ miles S.W. of Jannina. It is in the region where the N.E. corner of Thesprotia touched the N.W. corner of Molossia. As Strabo says, ‘Dodona is called Thesprotian by the tragedians (Aesch. *P. V.* 831) and Pindar, but afterwards became subject to the Molossi’ (7. 7. 4). The total length of the valley from N.W. to S.E. is about 7½ miles; its width varies from about half a mile to about a mile and a quarter. On the
 --- flags
-1 arteria’ [latin] →
-2 arteriae’ [rare] →
-3 ἀρτήριος [greek] (Greek model: ἀρτήριος.) →
-4 apra [latin] →
-5 ‘fitted [conf] →
-6 sense; [conf] →
-7 Mayor's [conf] →
-8 windpipe, [conf] →
-9 Praxagoras [rare] →
-10 1. [digit] →
-11 Naz [latin] (Greek model: ΒΑ) →
-12 ¢ [conf] →
-13 venas [rare] →
-14 diffunditur [latin] →
-15 spirvitus [latin] (Greek model: οφίγέλμς) →
-16 arterias [latin] (Greek model: δυΐετδϑ.") →
-17 arteriae [latin] (Greek model: ΤΟΝ) →
-18 McKendrick’s [latin] (Greek model: ΜοΚεπάποκ5.) →
-19 Vascular [conf] →
-20 Encycl [latin] (Greek model: Ζαρα.) →
-21 xxiv. [conf] →
-22 (9th [conf] →
-23 Passaron [rare] →
-24 Molossi [latin] →
-25 Kastritza [rare] →
-26 ruines [rare] →
-27 Tcharacovista [rare] →
-28 7. [conf] →
-29 Molossi’ [rare] →
+1 arteria’ [latin] → ok
+2 arteriae’ [rare] → ok
+3 ἀρτήριος [greek] (Greek model: ἀρτήριος.) → ok
+4 apra [latin] → ἀρτά
+5 ‘fitted [conf] → ok
+6 sense; [conf] → ok
+7 Mayor's [conf] → Mayor’s
+8 windpipe, [conf] → ok
+9 Praxagoras [rare] → ok
+10 1. [digit] → I.
+11 Naz [latin] (Greek model: ΒΑ) → Nat.
+12 ¢ [conf] → ‘Sanguis
+13 venas [rare] → ok
+14 diffunditur [latin] → ok
+15 spirvitus [latin] (Greek model: οφίγέλμς) → spiritus
+16 arterias [latin] (Greek model: δυΐετδϑ.") → ok
+17 arteriae [latin] (Greek model: ΤΟΝ) → ok
+18 McKendrick’s [latin] (Greek model: ΜοΚεπάποκ5.) → ok
+19 Vascular [conf] → ‘Vascular
+20 Encycl [latin] (Greek model: Ζαρα.) → Encycl.
+21 xxiv. [conf] → XXIV.
+22 (9th [conf] → ok
+23 Passaron [rare] → ok
+24 Molossi [latin] → ok
+25 Kastritza [rare] → ok
+26 ruines [rare] → ok
+27 Tcharacovista [rare] → ok
+28 7. [conf] → 7.
+29 Molossi’ [rare] → ok
 --- notes
+Heading order as the brief says: `## Line 1166`, then `### The Oracle at Dodona.` (printed above the number). Small capitals as capitals (S., S.W., N.E., N.W., S.E., B.C., vol. II., I., XXIV.); fractions 11¼, 7½ (draft "11}", "7%"); "is" for "15" (three times); §§ for "δὲ"; *c.* for "¢."; ‘Arteries’ quotation mark; Cicero's Latin in italics with venas and arterias in roman as printed. φλέβες and τραχεῖα (heavy upright type) in bold. Italics restored (*windpipe*, *the bronchial tubes*, *De Nat. Deor.*, *Hist. de la Méd.*, *Encycl. Brit.*, *Dodone et ses ruines*, *Site.*, *P. V.*). Checker remark on “ω” (no breathing): the ending of ἀρτά-ω, divided by a hyphen as printed.
