@@ -23,6 +23,7 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 53067	17	·	·	u--------	AuxK	0	
 53067	18	E			PRED	0	1
 53068	5	,	,	u--------	AuxX	0	
+53068	7	ἀπεικάσαι	ἀπεικάζω	v--ana---	ADV	6	
 53068	8	,	,	u--------	AuxX	0	
 53068	11	,	,	u--------	AuxX	0	
 53068	13	,	,	u--------	AuxY	14	
@@ -169,6 +170,7 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 53130	10	,	,	u--------	AuxX	0	
 53130	19	,	,	u--------	AuxY	20	
 53130	26	·	·	u--------	AuxK	0	
+53131	4	τόδʼ	ὅδε	p-s---nn-	ATR	6	
 53131	7	.	.	u--------	AuxK	0	
 53131	8	E			PRED	0	1
 53132	2	·	·	u--------	AuxK	0	
@@ -220,14 +222,12 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 53154	10	.	.	u--------	AuxK	0	
 53155	3	,	,	u--------	AuxX	0	
 53155	5	·	·	u--------	AuxK	0	
-53156	5	ἀφθέγκτῳ	ἄφθεγκτος	a-s---nd-	ATR	8	
 53156	10	,	,	u--------	AuxX	0	
 53156	18	,	,	u--------	AuxX	0	
 53156	20	,	,	u--------	AuxX	0	
 53156	23	,	,	u--------	AuxX	0	
 53156	26	;	;	u--------	AuxK	0	
 53157	3	.	.	u--------	AuxK	0	
-53158	1	πολλὰ	πολύς	a-p---na-	ADV	3	
 53158	4	·	·	u--------	AuxK	0	
 53159	2	,	,	u--------	AuxX	0	
 53159	6	;	;	u--------	AuxK	0	
@@ -312,6 +312,7 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 53194	3	E			PRED	0	1
 53195	4	,	,	u--------	AuxX	0	
 53195	6	;	;	u--------	AuxK	0	
+53196	3	μή	μή	d--------	AuxZ	5	
 53196	8	,	,	u--------	AuxX	0	
 53196	14	.	.	u--------	AuxK	0	
 53197	3	;	;	u--------	AuxK	0	
@@ -357,11 +358,8 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 53218	5	.	.	u--------	AuxK	0	
 53219	6	,	,	u--------	AuxK	0	
 53220	9	·	·	u--------	AuxK	0	
-53221	3	ἀπάταις	ἀπάτη	n-p---fd-	ADV	6	
-53221	6	παραβαλλομένα	παραβάλλω	v-sppmfn-	ADV	12	
 53221	8	,	,	u--------	AuxX	0	
 53221	11	,	,	u--------	AuxX	0	
-53221	13	ἔχειν	ἔχω	v--pna---	OBJ	12	
 53221	14	.	.	u--------	AuxK	0	
 53222	12	,	,	u--------	AuxX	0	
 53222	20	.	.	u--------	AuxK	0	
@@ -897,6 +895,7 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 53448	2	·	·	u--------	AuxK	0	
 53449	11	,	,	u--------	AuxX	0	
 53449	14	καί	καί	c--------	AuxZ	15	
+53449	15	καὐτὸς	αὐτός	p-s---mn-	ADV	18	
 53449	19	,	,	u--------	AuxX	0	
 53449	22	,	,	u--------	AuxX	0	
 53449	23	καί	καί	c--------	AuxY	30	
@@ -1066,6 +1065,8 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 53526	15	,	,	u--------	AuxX	0	
 53526	24	.	.	u--------	AuxK	0	
 53527	5	καί	καί	c--------	MWE	6	
+53527	6	κἂν	ἐάν	c--------	AuxC	1	
+53527	8	ἄνευ	ἄνευ	r--------	AuxP	10	
 53527	11	,	,	u--------	AuxX	0	
 53527	16	·	·	u--------	AuxK	0	
 53527	17	E			PRED	0	1
@@ -1633,7 +1634,6 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 53749	12	ὁ	ὁ	l-s---na-	ATR	14	
 53749	15	.	.	u--------	AuxK	0	
 53750	4	,	,	u--------	AuxX	0	
-53750	5	παντόπτα	παντόπτης	n-s---mv-	ATR	6	
 53750	7	,	,	u--------	AuxX	0	
 53750	18	,	,	u--------	AuxX	0	
 53750	24	.	.	u--------	AuxK	0	
@@ -2156,6 +2156,8 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 53940	11	E			PRED	0	1
 53941	6	·	·	u--------	AuxK	0	
 53942	19	·	·	u--------	AuxK	0	
+53943	3	εὖ	εὖ	d--------	ADV	4	
+53943	4	διδοίη	δίδωμι	v3spoa---	PRED	0	
 53943	6	,	,	u--------	AuxX	0	
 53943	12	,	,	u--------	AuxX	0	
 53943	20	.	.	u--------	AuxK	0	
@@ -2218,6 +2220,7 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 53974	6	;	;	u--------	AuxK	0	
 53975	3	·	·	u--------	AuxK	0	
 53976	11	.	.	u--------	AuxK	0	
+53977	2	ἔα	ἔα	i--------	ExD	7	
 53977	3	,	,	u--------	AuxX	0	
 53977	10	.	.	u--------	AuxK	0	
 53978	2	,	,	u--------	AuxX	0	
@@ -2337,6 +2340,8 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 54023	12	,	,	u--------	AuxX	0	
 54023	15	,	,	u--------	AuxX	0	
 54023	18	,	,	u--------	AuxX	0	
+54023	21	μή	μή	d--------	AuxZ	26	
+54023	22	τʼ	τε	c--------	AuxY	26	
 54023	36	.	.	u--------	AuxK	0	
 54024	13	.	.	u--------	AuxK	0	
 54025	8	,	,	u--------	AuxX	0	
@@ -2486,6 +2491,7 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 54083	19	E			ADV	11	1
 54084	5	,	,	u--------	AuxX	0	
 54084	11	,	,	u--------	AuxX	0	
+54084	12	μηδὲν	μηδείς	p-s---na-	OBJ	14	
 54084	15	·	·	u--------	AuxK	0	
 54085	5	.	.	u--------	AuxK	0	
 54086	8	.	.	u--------	AuxK	0	
@@ -2566,10 +2572,15 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 54126	8	.	.	u--------	AuxK	0	
 54126	9	E			PRED	0	1
 54127	6	.	.	u--------	AuxK	0	
+54128	1	ναὶ	ναί	i--------	ExD	4	
+54128	2	ναί	ναί	i--------	ExD	4	
 54128	3	.	.	u--------	AuxK	0	
 54128	4	E			PRED	0	1
+54129	1	ξύμφημι	σύμφημι	v1spia---	PRED	0	
 54129	2	καί	καί	c--------	AuxZ	3	
+54129	3	καὐτός	αὐτός	p-s---mn-	ADV	1	
 54129	4	.	.	u--------	AuxK	0	
+54130	1	αἰαῖ	αἰαῖ	i--------	ExD	4	
 54130	2	,	,	u--------	AuxX	0	
 54130	5	,	,	u--------	AuxX	0	
 54130	8	;	;	u--------	AuxK	0	

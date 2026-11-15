@@ -361,7 +361,7 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
     Play("oedipuscoloneus", "Οἰδίπους ἐπὶ Κολωνῷ", "Oedipus at Colonus", "Σοφοκλῆς", "Sophocles", "tlg0011.tlg007",
          "Sophocles: The Plays and Fragments, Part II: The Oedipus Coloneus, ed. R. C. Jebb, second edition, Cambridge University Press, 1889",
          "sophocles02soph_0", "jebb", "R. C. Jebb", "sophocles_oedipuscoloneus_jebb",
-         glaux="0011-007.xml", layout="jebb", app_rule="under", head_frac=0.095, speaker_trust=True, app_langs=("eng+grc", "grc+eng"),
+         glaux="0011-007.xml", translation="kept", translator="Richard C. Jebb", trans_key="jebb", layout="jebb", app_rule="under", head_frac=0.095, speaker_trust=True, app_langs=("eng+grc", "grc+eng"),
          check_text="sophocles/oedipuscoloneus/reference-grc.txt",
          # twelve leaves are hidden (0, 25, 26, 77, 78, 83, 84, 147, 148, 387, 388, 421), so a leaf
          # is not its PDF page: PDF 100-363 (the text) = leaves 106-371, the Greek on every other
@@ -374,7 +374,7 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
     Play("philoctetes", "Φιλοκτήτης", "Philoctetes", "Σοφοκλῆς", "Sophocles", "tlg0011.tlg006",
          "Sophocles: The Plays and Fragments, Part IV: The Philoctetes, ed. R. C. Jebb, second edition, Cambridge University Press, 1898",
          "playsfragmentswi04sophuoft", "jebb", "R. C. Jebb", "sophocles_philoctetes_jebb",
-         glaux="0011-006.xml", layout="jebb", app_rule="under", head_frac=0.095, speaker_trust=True, app_langs=("eng+grc", "grc+eng"),
+         glaux="0011-006.xml", translation="kept", translator="Richard C. Jebb", trans_key="jebb", layout="jebb", app_rule="under", head_frac=0.095, speaker_trust=True, app_langs=("eng+grc", "grc+eng"),
          check_text="sophocles/philoctetes/reference-grc.txt",
          # leaf = PDF page (leaves from 1; 344-347 hidden): the Greek on the even leaves 76-296;
          # the Appendix 299-324; the introduction 11-49 and 73-75, and the whole commentary
