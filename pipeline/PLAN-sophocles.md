@@ -85,6 +85,18 @@ The metrical analyses are not transcribed (as for Ajax and Electra).
   text, compare its verses and apparatus for those pages with these batches and look at every
   disagreement on the page. Nothing else of the old route is run. Next: set-up items 1–3 above
   for the Trachiniae. PDF pages 77–79 rendered (build/sophocles-pages/trachiniae).
+* **2026-11-15, set-up items 1–2 done** (commit a41903c): `Play.check_text` and
+  `drama.textfile_play` (the check text read from `sophocles/<play>/reference-grc.txt`, Jebb's
+  Perseus text as first imported: 7,294 words, 1,248 lines for the Trachiniae), and the
+  `trachiniae` entry (leaf = PDF page; text leaves 80–257, the Greek on the even ones).
+  Item 3 started: `drama-pages trachiniae fetch`, `ocr`, `draft`, log in
+  `build/logs/trachiniae-pages.log` (idempotent: run again if cut off). **Next**: read the
+  draft's summary (share of flagged lines), look at two drafted pages against the images, then
+  the text batches (item 4). **Before `merge-drama trachiniae`** (item 5) the merge needs:
+  a translation mode that leaves `eng-jebb.txt` alone (today `translation="perseus"` reads a
+  canonical TEI file; Jebb's is P4, already imported), and nothing that overwrites
+  `commentary-jebb.md` or `introduction.md` unless prose batches exist (drama.py lines
+  ~1340–1360 write them only then: check); the `source` line of grc.txt names the check text.
 
 ## Decisions
 
