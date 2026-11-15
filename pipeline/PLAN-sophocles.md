@@ -226,6 +226,37 @@ The metrical analyses are not transcribed (as for Ajax and Electra).
   two readers of part 4 agreed on everything; a second reader only for a "neither" or an
   unclear scan), `sophocles-prose trachiniae`, `merge-drama trachiniae` and the steps after it.
 
+* **2026-11-15, evening. Trachiniae: everything but the emulator check done and committed
+  (b38fb8f).** Review of all 15 text batches (five corrections in the whole play); prose
+  checked and read a second time (`sophocles-prose trachiniae`: introduction = Perseus's 22
+  sections + 12 transcribed headings, appendix 29 notes); `merge-drama trachiniae` (1,242
+  verses, 692 apparatus notes; the 25 remarks in build/trachiniae-merge.log are apparatus
+  notes on lyric verses Jebb's longer verse covers, filed under the earlier line with the
+  printed number in front); six analyses fixed from the review list (`HAND_ANALYSES`), twelve
+  lemma slips (`LEMMA_FIXES`); glossary (21 names), shortdefs (25), sigla; `sophocles-prose`
+  now also re-files Jebb's commentary notes on verses our numbering lacks (19 here);
+  product id, pack, catalogue, play/README row, texts/README. `check`: 0 errors, nothing for
+  the Trachiniae but the 17 translation segments at absent numbers (as Ajax and Electra).
+  An Opus agent does the emulator check (PLAN-drama step 10; it must close the emulator and
+  stop Gradle). **The order of the last steps, for the next plays**: review → prose check +
+  second reading → `sophocles-prose` → `merge-drama` → review list → lemma fixes, glossary,
+  shortdefs, sigla, about → `sophocles-prose` again (re-files the commentary) → `build --only`,
+  `catalog`, pack → emulator.
+* **The comparison is finished**: research/route-comparison/RESULTS.md. In short: by eye 15
+  errors in 2,600 words of text and 22 in 258 apparatus notes; OCR route after flags and
+  residuals 2 and 4, after the review and a targeted settling of six doubtful breathings no
+  known error. The apparatus's breathings in the small type are the commonest error of every
+  reader: the review's `extra` text for the next plays now tells the reviewer to enlarge and
+  compare each breathing that matters with certain ones on the same page (see the Oedipus
+  Tyrannus review call).
+* **Oedipus Tyrannus resumed** (the Trachiniae waits only for its emulator check): review of
+  the 16 text batches (six at once) and the prose (intro-01…08, appendix-01…05; three at once,
+  check then second reading). Then the same last steps. Its introduction comes wholly from
+  the prose batches (Perseus has none).
+* The checker's glossary bug was fixed (it counted an earlier text's glossary for later
+  texts); it now shows names without a dictionary entry in the Choephoroi, Clouds, Electra and
+  one word in the Eumenides: small glossary additions, not done.
+
 ## Decisions
 
 * 2026-11-15: order by least work left (Trachiniae first).
