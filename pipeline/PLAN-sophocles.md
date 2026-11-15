@@ -489,6 +489,22 @@ The metrical analyses are not transcribed (as for Ajax and Electra).
   Opus agent setting up and measuring the commentary (kind `notes`; log
   build/logs/philoctetes-commentary-setup.md): tell the author its size before any reading.
 
+* **2026-11-16: THE OEDIPUS AT COLONUS IS FINISHED** (built, catalogue, pack,
+  `sophocles_oedipuscoloneus_jebb`, no sale mark; emulator-checked). The fix round after its
+  check (finishing agent, "Round 2" in its log; shared code, so the Philoctetes gets it too):
+  `sophocles.align_part_starts` (merge-drama moves a top-level section that begins within six
+  verses of one of Jebb's division starts to that verse: O.C. Third episode now at 1096; the
+  Trachiniae and the Oedipus Tyrannus already matched Jebb's structure everywhere);
+  Perseus's "<*>" is its keyers' mark for text they could not read (a letter or several
+  words): the importer now writes "[?]" so that it cannot break the markdown, and for the
+  Trachiniae all 163 places (159 in the commentary, 4 in the introduction) were read from the
+  pages into `COMMENTARY_FIXES["trachiniae"]` / `INTRODUCTION_FIXES`; `range_dash` removes the
+  space after the dash in a range of numbers. **For the published plays (not regenerated;
+  the author decides)**: unread places Antigone 41, Ajax 19, Electra 79 (each would need the
+  page, as for the Trachiniae); range dashes Antigone 10, Ajax 9, Electra 8; with the
+  commentary spacing (321 / 1,341 / 1,121) and the Ajax's section labels noted before.
+  The Philoctetes, when its commentary is read from the scan, has no Perseus placeholders.
+
 ## Decisions
 
 * 2026-11-15: order by least work left (Trachiniae first).
