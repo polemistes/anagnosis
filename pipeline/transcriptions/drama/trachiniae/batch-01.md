@@ -23,6 +23,7 @@ Sigla: L = cod. Laur. 32. 9 (first half of eleventh century). r = one or more of
 5	the print ends the verse with a raised stop (βαρύν·), the draft had a comma; 6: the print has a comma after Οἰνέως, the draft none. Seen on the whole page while checking 7.
 7	margin flag: the only margin number on the page is 5, at verse 5; the "0" was noise. Numbering is right.
 7	apparatus: Jebb's < > around ἔτʼ written ⟨ ⟩, as in the text.
+1	rev: second review: every verse (words, accents, breathings, subscripts, stops, brackets), speakers, margin numbers and every apparatus item read against the page image; no change
 
 === p-0082
 --- text
@@ -59,6 +60,7 @@ Sigla: L = cod. Laur. 32. 9 (first half of eleventh century). r = one or more of
 12	apparatus "12 f.": Jebb's upright stroke for the verse end kept as " | "; written under 12.
 24	apparatus "24 f.": written under 24.
 24	res: comma after φόβῳ, as printed
+10	rev: second review: every verse (words, accents, breathings, subscripts, stops, brackets), speakers, margin numbers and every apparatus item read against the page image; no change
 
 === p-0084
 --- text
@@ -89,6 +91,7 @@ Sigla: L = cod. Laur. 32. 9 (first half of eleventh century). r = one or more of
 40	ὅπου] ὅποι Brunck.
 --- notes
 35	the print has ἀεὶ (Jebb's apparatus: "ἀεὶ] αἰεὶ L"), not Perseus's αἰεὶ.
+27	rev: second review: every verse (words, accents, breathings, subscripts, stops, brackets), speakers, margin numbers and every apparatus item read against the page image; no change
 
 === p-0086
 --- text
@@ -120,6 +123,7 @@ Sigla: L = cod. Laur. 32. 9 (first half of eleventh century). r = one or more of
 --- notes
 49	speaker: the print heads the speech ΤΡΟΦΟΣ. (centred), where Perseus has Θεράπαινα: written @ Τροφός, as the print wins.
 46	res: κἄστιν (coronis with acute on α, no accent on ι), as printed; Perseus κἀστίν
+42	rev: second review: every verse (words, accents, breathings, subscripts, stops, brackets), speakers, margin numbers and every apparatus item read against the page image; no change
 
 === p-0088
 --- text
@@ -165,6 +169,7 @@ Sigla: L = cod. Laur. 32. 9 (first half of eleventh century). r = one or more of
 58	res: raised stop after δόμους (the draft a comma), as printed; seen on the whole page while checking 61
 58	rev: apparatus 58, Hense's conjecture: ὤραν (smooth breathing, as printed, and as the text of 57), not ὥραν
 62	rev: apparatus 62: ᾗ δέ (rough breathing, circumflex, iota subscript, as printed), not ἣ δέ
+58	rev: second review: every verse (words, accents, breathings, subscripts, stops, brackets), speakers, margin numbers and every apparatus item read against the page image; no change
 
 === p-0090
 --- text
@@ -209,3 +214,4 @@ Sigla: L = cod. Laur. 32. 9 (first half of eleventh century). r = one or more of
 84	the bracketed verse kept with its brackets as printed; the draft's final ἐξολωλότοσ corrected to ἐξολωλότος (the print has a final sigma in the text; σ for final sigma is only in the apparatus's quotation of L).
 84	apparatus "84 f.", "80 f.": written under 84 and 80; L's spelling with σ for final sigma copied as printed; Jebb's three dots printed as "(:·)".
 79	res: comma after τελεῖν, as printed
+74	rev: second review: every verse (words, accents, breathings, subscripts, stops, brackets), speakers, margin numbers and every apparatus item read against the page image; no change

@@ -152,7 +152,7 @@
 887	τομᾷ] στομᾶι L first hand, with τ written over στ by a late corrector.—σιδάρου Erfurdt: σιδήρου MSS.
 888	ὦ ματαία MSS. (ὦ ματαῖα L). Hermann writes, ἐπεῖδες, ⟨εἶδες,⟩ ὦ μάταιε, τάνδʼ ὕβριν; Wunder, ἐπεῖδες, ὦ μάταιε, τήνδε τὴν ὕβριν; Blaydes, ἐπεῖδες, ὦ μαῖʼ, ἆρα τάνδε τὰν ὕβριν; Nauck, ἐπεῖδες, ματαία [without ὦ], τάνδʼ ὕβριν; but would prefer, ἐπεῖδες μάταν τάνδʼ;
 890	τίς] τί Harl.—For τίς ἦν; πῶς; Wunder writes, τίς ἦνεν; (‘who did the deed?’)
-891	αὐτὴ r: αὐτῆ (not αὐτῇ) L.
+891	αὐτὴ r: αὑτῆ (not αὐτῆ) L.
 893	L divides thus: ἔτεκεν ἔτεκεν μεγά|λαν. For the second ἔτεκεν, Wunder writes ἔτεκε (with Triclinius): J. H. Heinrich Schmidt, ἔτεκε δὴ.—ἁ νέορτος schol.: ἀν ἕορτοσ L: ἀνέορτος A, with most MSS., and Ald.
 895	δόμοις Nauck: δόμοισι MSS.—Ἐρινύν] ἐρινῦν L: ἐριννύν A, with most MSS., and Ald.—Wunder rejects vv. 893—895.
 896	μᾶλλον δʼ εἰ] In L the first hand had written μᾶλλον ἢ (omitting δʼ): the correction is by S.
@@ -168,7 +168,7 @@
 895	flag (δόμοισι: the OCR reads δόμοις): the print has δόμοις (Nauck's, as Jebb's note on 895 says); corrected.
 900	flags (γὰρ not found; ἦλθε: the OCR reads παρῆλθε): the print has ἐπεὶ παρῆλθε δωμάτων εἴσω μόνη, (the MSS. reading, Jebb's note on 900; Perseus has Schaefer's γὰρ ἦλθε), with a comma at the end; corrected.
 887	rev: renumbered to the print: στονόεντος, ἐπεῖδες, ἐπεῖδον are 887, 888, 889 (were 886-888, Perseus's count, which skips 889); Jebb's apparatus (887 τομᾷ, 888 ὦ ματαία) and his commentary (886 μόνα, 887 στονόεντος, 888 ὦ ματαία, 889 ὡς δὴ … παραστάτις) count them so, his 885 covering πρὸς θανάτῳ … μόνα; (885-886); margins 885 and 890 unchanged. The apparatus 887 and 888 now stand on their verses.
-891	the print has αὐτῆ in both places ("αὐτῆ (not αὐτῆ) L"); the iota subscript of the second, which the sense requires, has not printed: an evident misprint, written αὐτῇ.
+891	rev: apparatus 891 corrected to the print, αὐτὴ r: αὑτῆ (not αὐτῆ) L.: under enlargement (leaf 206) the second form has a rough breathing and the third a smooth one, neither an iota subscript; Jebb contrasts the breathings (L's αὑτῆ against αὐτῆ), so there is no misprint; the earlier αὐτῆ … (not αὐτῇ) and its misprint note withdrawn.
 893	Jebb's note on 893 f. runs on to the facing page (leaf 207) from "μεγά|λαν."; written here whole, with the notes on 895-900 from the same page. The stroke in μεγά|λαν is printed (L's line division).
 
 === p-0208
