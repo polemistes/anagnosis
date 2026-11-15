@@ -143,6 +143,30 @@ The metrical analyses are not transcribed (as for Ajax and Electra).
   build/logs/sophocles-prose-agent.md); another builds the comparison lists in
   pipeline/research/route-comparison/ (compare.py, tally.py; blind adjudication to follow).
 
+* **2026-11-15, later.** Trachiniae: residual pass back and committed (37b78c0; 15 agents,
+  1.28 M tokens, 8 minutes); the review pass runs (kind `review`, with the extra task of
+  reading every verse against the page for stops, accents, breathings and brackets: a residual
+  agent had found seven such places that neither flags nor residuals caught; use the same
+  `extra` text for the other plays, it is in the workflow call of this session and repeated
+  here: "read every verse of the batch against the whole page image … for its punctuation,
+  accents, breathings, iota subscripts, brackets and daggers; change only what the print
+  clearly shows, with a `rev:` note"). Trachiniae prose: drafts made (introduction 7 pages,
+  158 flags; appendix 23 pages, leaves 259–281, 556 flags); check + review agents run
+  (`transcriptions/drama/drama-prose.workflow.js`); then `sophocles-prose trachiniae`.
+  Oedipus Tyrannus: first pass back and committed (6743722; 16 agents, 2.0 M tokens); 599
+  residuals; the residual pass runs; its prose OCR (`drama-prose oedipustyrannus intro|appendix
+  fetch|ocr|draft`, log build/logs/oedipustyrannus-prose.log; pages before the text are leaves
+  103–109) runs. Philoctetes and Oedipus at Colonus: leaf numbering verified against the old
+  page images; OCR and drafts under way.
+* **Route comparison**: pipeline/research/route-comparison/ (compare.py, tally.py; states
+  after-flags = 854a0cb, after-residual = 37b78c0; adjudication/items.jsonl = the 67 places
+  of both states, map.json ties them to the states' items). Blind adjudication by workflow
+  (two readers per item, a third where they differ); its result must be written to
+  adjudication/verdicts.json and tallied per state; an after-review state is to follow.
+* Open with the author: the label "*Critical notes.*" over an argument's notes in
+  texts/electra/introduction.md and sophocles/INTRODUCTION.md (the new pages say "*Critical
+  apparatus.*"); changing the Electra means rebuilding a text on sale.
+
 ## Decisions
 
 * 2026-11-15: order by least work left (Trachiniae first).
