@@ -6,6 +6,8 @@ export const meta = {
     { title: 'Review', detail: 'an independent reading of each batch against the page images (REVIEW.md)', model: 'opus' },
   ],
 }
+// scratch = /home/proteus/koding/anagnosis/pipeline/build/agent-scratch (on disk, git-ignored; NOT the
+// session scratchpad, which is a RAM disk and is emptied at a restart)
 // args: { play, scratch, atOnce: 12, review: true,
 //         section: "Jebb's Sophocles: the Appendix and the chapters before the text",
 //         files: ['intro-01', 'appendix-01', 'appendix-02', 'appendix-03'] }
@@ -19,7 +21,7 @@ Play: ${play}${args.section ? ` (your section of the brief: "${args.section}")` 
 Your batch file (edit it in place, save after each page): transcriptions/drama/${play}/${f}.md
 Crops and whole pages: build/drama-prose/${play}/ (p-NNNN-flags.png, p-NNNN-col-l.png, -col-r.png, pages/leaf_NNNN.png; FLAG_KINDS.md explains the flags)
 Checker: .venv/bin/python -m anagnosis_pipeline check-drama-prose ${play} transcriptions/drama/${play}/${f}.md
-Write no other file in the repository and do not run git. Your scratch folder lives in memory (a RAM disk): keep it small (crops only as large as you need) and delete it when you have finished. Do not open anything under transcriptions/sophocles/ or texts/${play}/.`
+Write no other file in the repository and do not run git. Keep your scratch folder small (crops only as large as you need). Do not open anything under transcriptions/sophocles/ or texts/${play}/.`
 const check = f => `You check one batch of an editor's English prose (with Greek quotations), read by OCR, against the printed pages, for an open-source Ancient Greek reading app. Accuracy of every word, and of every Greek letter, accent and breathing, matters more than speed.
 
 First read transcriptions/drama/INSTRUCTIONS-prose.md, all of it, and follow it exactly.

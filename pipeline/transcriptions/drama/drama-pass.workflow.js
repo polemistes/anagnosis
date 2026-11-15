@@ -5,6 +5,8 @@ export const meta = {
     { title: 'Pass', detail: 'one agent per job, checker on every file', model: 'opus' },
   ],
 }
+// scratch = /home/proteus/koding/anagnosis/pipeline/build/agent-scratch (on disk, git-ignored; NOT the
+// session scratchpad, which is a RAM disk and is emptied at a restart)
 // args: { play, scan, scratch, kind: 'residuals' | 'review', atOnce: 12,
 //         extra: 'a further instruction for every review agent',
 //         jobs: [{ id: '01', batches: ['01', '02'], pages: 'p-0080, p-0082', open: 'numbering questions left open …' }] }
@@ -19,7 +21,7 @@ Play: ${play} (edition section in INSTRUCTIONS-text.md: "Jebb's Sophocles" for t
 Batch file${j.batches.length > 1 ? 's' : ''} (edit in place, save after each page): ${files(j).join(', ')}
 Whole pages: build/drama-scans/${scan}/pages/leaf_NNNN.png
 Checker: .venv/bin/python -m anagnosis_pipeline check-drama-batch ${play} <batch file>
-Write no other file in the repository and do not run git. Your scratch folder lives in memory (a RAM disk): keep it small (crops only as large as you need) and delete it when you have finished. Do not open anything under transcriptions/sophocles/ (an independent reading of these pages is kept there for comparison and must stay independent), nor texts/${play}/.`
+Write no other file in the repository and do not run git. Keep your scratch folder small (crops only as large as you need). Do not open anything under transcriptions/sophocles/ (an independent reading of these pages is kept there for comparison and must stay independent), nor texts/${play}/.`
 const prompt = j => kind === 'residuals'
   ? `You do the second pass (residuals and numbering) on checked batches of the Greek text of a play, for an open-source Ancient Greek reading app. Accuracy of every accent, breathing and stop matters more than speed.
 
