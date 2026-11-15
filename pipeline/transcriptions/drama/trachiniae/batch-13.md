@@ -61,7 +61,7 @@
 1040	the print has a comma after the second αὔτως: added.
 1041	the print accents εὔνασόν before μʼ: written as printed.
 1046	Jebb's asterisk before κοὐ left out.
-1038	apparatus: Jebb's numbers 1038, 1039, 1044 name verses inside our longer lines (1036, 1040, 1043); kept as printed. ἃν and ἣν both with rough breathing, as printed.
+1038	apparatus: Jebb's numbers 1038, 1039, 1044 name verses inside our longer lines (1036, 1040, 1043); kept as printed (this answers the checker's remarks on 1039 and 1044). ἃν and ἣν both with rough breathing, as printed.
 1047	apparatus: κἀν-|νοίαισι divided only at the end of a printed line: written whole.
 
 === p-0228
@@ -177,13 +177,23 @@
 1108	κἂν μηδὲν ἕρπω, τήν γε δράσασαν τάδε
 1109	χειρώσομαι κἀκ τῶνδε· προσμόλοι μόνον,
 1110	ἵνʼ ἐκδιδαχθῇ πᾶσιν ἀγγέλλειν ὅτι
-1111	καὶ ζῶν κακούς γε καὶ θανὼν ἐτισάμην.
+1111	καὶ ζῶν κακούς γε καὶ θανὼν ἐτεισάμην.
 @ Χορός
 1112	ὦ τλῆμον Ἑλλάς, πένθος οἷον εἰσορῶ
 1113	ἕξουσαν, ἀνδρὸς τοῦδέ γʼ εἰ σφαλήσεται.
 @ Ὕλλος
 1114	ἐπεὶ παρέσχες ἀντιφωνῆσαι, πάτερ,
-1115	σιγὴν παρασχὼν κλῦθί μου, νοσῶν ὅμως·
+1115	σιγὴν παρασχὼν κλῦθί μου, νοσῶν ὅμως.
 1116	αἰτήσομαι γάρ σʼ ὧν δίκαια τυγχάνειν.
 --- apparatus
+1100	ἐπʼ ἐσχάτοις] ἐπεσχάτοισ L. For ἐπʼ ἐσχάτοις τόποις Hense conj. γῆς ἐπʼ ἐσχάτοις: Nauck, ἐπʼ ἐσχάτοισι γῆς or ἐπʼ ἐσχάτοις χθονός.
+1102	τροπαῖʼ L: τρόπαιʼ r and Ald. Cp. 751.
+1106	αὐδηθεὶς] αὐ δηθεὶσ L, the letters θη (which are still traceable) having been erased after αὐ. αὐθηδὴς A, R.
+1108	μηδὲν ἕρπω] Blaydes writes μηκέθʼ ἕρπω.
+1111	κακούς γε] Cobet conj. κακούργους.
+1113	σφαλήσεται] Meineke and Nauck conj. σφαλεῖσʼ ἔσει.
+1114	παρέσχες] Wecklein conj. παρείκεις: Blaydes, παρίης (as Heimsoeth), or παρῆκας. Wunder wrote εἴπερ πάρεστιν.
 --- notes
+1100	τόποις as printed (the OCR's τόποι is a misreading): unchanged.
+1111	the print has ἐτεισάμην (Perseus ἐτισάμην): written as printed.
+1115	the print ends the verse with a full stop (Perseus a raised stop): written as printed.
