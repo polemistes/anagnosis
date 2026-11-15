@@ -315,6 +315,25 @@ The metrical analyses are not transcribed (as for Ajax and Electra).
   merge / sophocles-prose / build / catalog / check, then the emulator check (points 3–11 of
   the Trachiniae's list; point 1 is known: an unmarked text is not in the shop).
 
+* **2026-11-15, later evening.** Oedipus Tyrannus prose back (25 agents, 3.9 M tokens: check
+  and second reading of intro-01…08 and appendix-01…05) and committed; an Opus agent does the
+  finishing (log: build/logs/oedipustyrannus-finish-agent.md): vowel-length marks in the
+  commentary, `sophocles-prose`, lyric numbering in every lyric passage, review list, lemma
+  fixes, glossary, shortdefs, sigla, about, build, pack, README rows. Then the emulator check.
+* **What the prose second reading finds** (the author's rule: a pass stays only if it catches
+  real errors): Trachiniae 30 pages: 6 corrections, 5 of them breathings in the Appendix;
+  Oedipus Tyrannus 93 pages: 4 (two accents, a bolding, an escaped asterisk). Nearly all in
+  the Greek of the Appendix. Proposed to the author for the next plays (no answer yet; until
+  then keep the full second reading): second reading for the Appendix and the argument pages
+  only; English introduction pages get the first check alone.
+* **Oedipus at Colonus prepared, NOT started.** Its 1889 printing has the rule above the
+  commentary as a hairline: `_rule_hairline` in drama_pages.py (agrees with the other
+  detectors on all 264 leaves, finds the rule where they missed it; leaf 225 has none). Draft
+  made again: 132 pages, 1,801 verses, 396 flagged (22 %), 22 batches, committed (8525ba7).
+  Its first pass may start only when the Oedipus Tyrannus is finished: on 2026-11-15 a start
+  beside the Oedipus Tyrannus's finishing agent was refused as against "play by play".
+  The Philoctetes (first pass half done) comes after it.
+
 ## Decisions
 
 * 2026-11-15: order by least work left (Trachiniae first).
