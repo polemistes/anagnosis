@@ -24,7 +24,7 @@ Whole pages, only when a flag needs one: build/drama-scans/${scan}/pages/leaf_NN
 Your own folder for crops and scripts: ${scratch}/${play}-batch-${b.id}/
 Checker: .venv/bin/python -m anagnosis_pipeline check-drama-batch ${play} transcriptions/drama/${play}/batch-${b.id}.md
 
-Write no other file in the repository and do not run git. Do not open anything under transcriptions/sophocles/ (an independent reading of these pages is kept there for comparison and must stay independent), nor texts/${play}/.
+Write no other file in the repository and do not run git. Your scratch folder lives in memory (a RAM disk): keep it small (crops only as large as you need) and delete it when you have finished. Do not open anything under transcriptions/sophocles/ (an independent reading of these pages is kept there for comparison and must stay independent), nor texts/${play}/.
 
 Reply as "Before you finish" in the brief says: for each page the flags checked, what you changed, the number of apparatus items, and the checker's last line.`
 

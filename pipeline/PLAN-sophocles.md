@@ -431,6 +431,30 @@ The metrical analyses are not transcribed (as for Ajax and Electra).
   reaches a production bundle before 2028-01-01; (3) a plan file of its own for Euripides
   (the drama pipeline's entry for the Medea changes from Earle's text to Murray's).
 
+* **2026-11-16.** Oedipus at Colonus FINISHED but for the emulator check (b01a3d3): finishing
+  agent's results in build/logs/oedipuscoloneus-finish-agent.md (48 hand analyses, 25 lemma
+  fixes, glossary 20, shortdefs 33; `range_headings` restores the range of a commentary
+  heading that Perseus cuts to its first number; `TRANSLATION_NUMBERS`, a per-play table,
+  sets the translation's verse numbers right before the re-filing rules; Perseus's commentary
+  and translation are the 1889 second edition, the scan's own). **Its emulator check has NOT
+  run**: the agent stopped by the rules because (1) I had rerun `sophocles-prose` for the
+  Trachiniae and the Oedipus Tyrannus, which rewrote their files a minute before (no change
+  in content) so their databases were older than their files: both rebuilt since; (2) only
+  2 GB of memory was available. **The session's scratchpad is on a RAM disk (/tmp is tmpfs)**:
+  the agents' crops and two emulator bundles had filled 4.3 GB of memory; cleared (finished
+  plays' folders deleted), and the workflow prompts now tell every agent to keep its scratch
+  small and delete it at the end. Available memory is about 6 GB with the author's own
+  programs open: the check needs 8. **To run the check**: `free -g` shows 8 GB or more
+  available; then the agent's brief of this session (points A 1-10 for the Oedipus at
+  Colonus, B spot-checks for the two sister plays); helper scripts in the scratchpad's
+  emulator-oc/bin (patch_aab.py, ui.py; if the scratchpad is gone, PLAN-sophocles.md's
+  "Trachiniae emulator check" entry gives the commands and what the scripts do).
+* **Philoctetes**: first pass (19 agents, 2.9 M) and residual pass (19 agents, 1.6 M) back and
+  committed; the review runs (nine at once; the apparatus crops of this play's draft are
+  unreliable on some pages: the draft predates `_rule_hairline`; the reviewers read from their
+  own crops). Prose: introduction drafted (intro-01…06, 42 pages, 523 flags), Appendix being
+  drafted (leaves 299-324); the commentary (kind `notes`) still to be set up and tested.
+
 ## Decisions
 
 * 2026-11-15: order by least work left (Trachiniae first).

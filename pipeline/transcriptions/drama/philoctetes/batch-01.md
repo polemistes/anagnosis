@@ -1,7 +1,7 @@
 === p-0076
 --- text
 @ Ὀδυσσεύς
-1	Ἀκτὴ μὲν ἥδε τῆς περιρρύτου χθονὸς
+1	ἀκτὴ μὲν ἥδε τῆς περιρρύτου χθονὸς
 2	Λήμνου, βροτοῖς ἄστιπτος οὐδʼ οἰκουμένη·
 3	ἔνθʼ, ὦ κρατίστου πατρὸς Ἑλλήνων τραφείς,
 4	Ἀχιλλέως παῖ Νεοπτόλεμε, τὸν Μηλιᾶ
@@ -18,6 +18,8 @@
 2	unflagged, seen on the whole page: the print ends the verse with a raised stop (draft a comma): changed.
 3	unflagged, seen on the whole page: the print has τραφείς, (acute, then a comma): written as printed.
 7	unflagged, seen on the whole page: the print ends the verse with a comma (draft a raised stop): changed.
+1	rev: Ἀκτὴ written ἀκτὴ (the opening word, printed in capitals ἌΚΤΗ, as the check text spells it)
+1	rev: verses 1-8 read word by word against the page (punctuation, accents, breathings): no other change; apparatus 2 and 6 (leaf 77) checked: no change
 
 === p-0078
 --- text
