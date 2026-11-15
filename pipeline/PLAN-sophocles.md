@@ -167,6 +167,53 @@ The metrical analyses are not transcribed (as for Ajax and Electra).
   texts/electra/introduction.md and sophocles/INTRODUCTION.md (the new pages say "*Critical
   apparatus.*"); changing the Electra means rebuilding a text on sale.
 
+* **STOPPED 2026-11-15 about 13:55 at the author's word ("stop the work now, but do not lose
+  work that has been done").** All workflows were stopped; no agent and no local job is
+  running; everything on disk is committed (afc7300). Agents edit their batch file in place
+  and save after each page, so a batch that was in work is partly done: a new agent on the same
+  file goes on from what is there (the first-pass brief and the review brief both say so).
+  **Do not start anything until the author says so.** State, and what to run then (scripts in
+  `transcriptions/drama/`: `drama-text.workflow.js`, `drama-pass.workflow.js`,
+  `drama-prose.workflow.js`; their args are in each header and in this log):
+  * **Trachiniae.** Text: first pass ✓, residual pass ✓ (37b78c0). Review (kind `review` with
+    the `extra` text above): batches 03, 04, 08, 09, 14, 15 finished; **01, 02, 05, 06, 07,
+    10, 11, 12, 13 to run again** (they may hold some `rev:` notes already). Prose
+    (`drama-prose.workflow.js`, review: true): intro-01 checked (its review not done);
+    appendix-01, -02 have every flag answered but their agents had not reported; appendix-03
+    has 10 flags open: run the workflow again on intro-01, appendix-01…03 (a checking agent
+    finds little left, the reviewer then reads the pages). Then `sophocles-prose trachiniae`,
+    `merge-drama trachiniae`, review list, sigla, glossary, shortdefs, about.md (product id,
+    no sale mark), build, pack, emulator.
+  * **Oedipus Tyrannus.** Text: first pass ✓, residual pass ✓ (d36e3c7). Review: started on
+    all 16 batches, none finished: run all 16 again. Prose: introduction intro-01…08 (59
+    pages, 1065 flags): intro-08 checked, the others in work (open flags: 01 55, 02 18, 03 92,
+    04 195, 05 17, 06 64, 07 243); Appendix drafted (appendix-01…05, 34 pages, 804 flags),
+    no agent yet. Run the prose workflow on all thirteen files.
+  * **Philoctetes.** Draft ✓ (111 pages, 1,469 verses, 216 flagged, 19 batches). First pass
+    started on all 19, none finished (batches 05 and 15–19 have no apparatus yet): run
+    `drama-text.workflow.js` on all 19 again; then residuals, review. Its prose: the whole
+    introduction (leaves 11–49, 73–75), the Appendix (299–324) and the **whole commentary**
+    (kind `notes`: two columns under the rule on both pages of every spread; needs
+    `notes_leaves`, `notes_editor="jebb"` and a look at `_region` for this layout) are not
+    set up yet.
+  * **Oedipus at Colonus.** Draft ✓ (132 pages, 1,802 verses, 401 flagged = 22 %, 22
+    batches); not yet looked at (flag kinds, apparatus found on every page, two pages against
+    the images), no agent yet. Prose leaves: see the comment at its `Play` entry (leaf ≠ PDF
+    page).
+  * **Route comparison.** The adjudication was stopped after part 4 of 4 (both readers,
+    15 and 16 verdicts, agreeing on all 15 they share: adjudication/verdicts-partial.json).
+    Parts 1–3 (51 items) to adjudicate: the workflow script is in this session's folder only;
+    its prompt is easy to rebuild from adjudication/items.jsonl (two blind readers per part,
+    a third where they differ; readers must not open map.json, key.jsonl, after-*/,
+    transcriptions/, texts/). Then write verdicts per state through map.json and run tally.py;
+    an after-review state is to be compared when the Trachiniae's review is complete.
+  * **Module gap to fix** (reported by the residual agents): `drama_residuals` misses
+    punctuation that follows an elided word (δʼ, τοῦτʼ); until it is fixed the review's extra
+    task (reading every verse for stops) covers it.
+  * Token use this day, for the record: Trachiniae by-eye round 1.34 M (64 pages); OCR route
+    first pass 2.47 M (Trachiniae, 178 leaves) and 2.02 M (Oedipus Tyrannus, 190 leaves);
+    residual passes 1.28 M and 1.44 M; prose-route agent 0.34 M; comparison lists 0.17 M.
+
 ## Decisions
 
 * 2026-11-15: order by least work left (Trachiniae first).
