@@ -126,15 +126,22 @@ def _alnum(c: str) -> bool:
     return _letter(c) or c.isdigit()
 
 
+# Perseus's "<*>": a character or a stretch its keyers could not read (α<*>νός = αἶνός, the <*>acle =
+# the oracle, at the <*> of = at the end of); the per-play table puts right those read from the page,
+# any other is shown as GAP, which neither the betacode conversion nor the markdown misreads
+UNREAD, GAP = "\ue003", "[?]"
+
+
 def _txt(s: str | None, grk: bool) -> str:
     if not s:
         return ""
+    s = s.replace("<*>", UNREAD)
     if grk and not _plain_english(s):
         s, _open[0] = _beta(s, _open[0])
     else:
         _open[0] = max(0, _open[0] + s.count("(") - s.count(")"))
         s = s.replace("*", "\\*").replace("_", "\\_")
-    return re.sub(r"\s+", " ", s)
+    return re.sub(r"\s+", " ", s).replace(UNREAD, GAP)
 
 
 # Perseus writes ordinary parentheses inside Greek quotations, where betacode reads ( and ) as

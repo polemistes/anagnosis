@@ -341,6 +341,63 @@ def perseus_anchors(lines, stated: dict[int, str], printed: dict[int, str], reac
     return out
 
 
+def align_part_starts(doc, play: Play, window: int = 6) -> list[str]:
+    """Begin each of Jebb's divisions (play.parts) exactly at its first verse: a top-level section
+    of the check text's division that begins up to `window` verses before or after the division's
+    first verse (the nearest such section, and only where no section begins at that verse already)
+    is moved to stand before that verse, with the speaker and stage directions just before it (so
+    the lyric sub-section before it ends there too); a section that would then start with a verse
+    and no speaker gets the speaker of that verse. Run by merge-drama before label_parts. Returns
+    one line per section moved."""
+    from .textfmt import Line, Section, Speaker, Stage
+
+    moves: list[str] = []
+
+    def base(n: str) -> int:
+        return int(re.match(r"\d+", n).group())
+
+    def first_line(i: int):
+        for item in doc.items[i + 1:]:
+            if isinstance(item, Line):
+                return item
+            if isinstance(item, Section) and item.level == 1:
+                return None
+        return None
+
+    for start, _label in play.parts[1:]:
+        items = doc.items
+        tops = [(i, first_line(i)) for i, it in enumerate(items) if isinstance(it, Section) and it.level == 1]
+        tops = [(i, l) for i, l in tops if l is not None]
+        if any(base(l.n) == start for _i, l in tops):
+            continue
+        near = [(abs(base(l.n) - start), i, l) for i, l in tops if abs(base(l.n) - start) <= window]
+        if not near:
+            continue
+        _d, si, sline = min(near, key=lambda x: x[0])
+        target = next((k for k, it in enumerate(items) if isinstance(it, Line) and base(it.n) == start), None)
+        if target is None:
+            continue
+        # the speaker of the target verse, and where its heading block begins
+        speaker = None
+        for it in items[:target]:
+            if isinstance(it, Speaker):
+                speaker = it
+        k = target
+        while k > 0 and isinstance(items[k - 1], (Speaker, Stage)):
+            k -= 1
+        section = items.pop(si)
+        if si < k:
+            k -= 1
+        items.insert(k, section)
+        nxt = k + 1
+        while nxt < len(items) and isinstance(items[nxt], Stage):
+            nxt += 1
+        if nxt < len(items) and isinstance(items[nxt], Line) and speaker is not None:
+            items.insert(nxt, Speaker(speaker.name))
+        moves.append(f"section {section.kind} moved from {sline.n} to {start} (Jebb's {_label})")
+    return moves
+
+
 def label_parts(doc, play: Play) -> None:
     """Name each top-level section by Jebb's division (play.parts) in which most of its verses
     fall; a later section of a division already named is "(continued)" (a lyric part inside an
@@ -608,13 +665,69 @@ def write_prose(slug: str, sources: Path, texts: Path, transcriptions: Path, ind
             if not n:
                 tmp.unlink()  # Perseus lacks this play's introduction (the Oedipus Tyrannus)
             else:
+                text = tmp.read_text(encoding="utf-8")
+                for wrong, right in INTRODUCTION_FIXES.get(slug, []):
+                    if wrong not in text:
+                        print(f"{path.name}: fix not applied, not found: {wrong}")
+                    text = text.replace(wrong, right)
+                tmp.write_text(range_dash(text), encoding="utf-8")
                 print(f"{slug}: {n} sections of the introduction from Perseus")
         add_transcribed_introduction(tmp, transcriptions, play, paras=paras, how=PROSE_HOW)
         os.replace(tmp, path)
-    write_commentary(slug, sources, texts)
+    if not write_commentary(slug, sources, texts) and not play.commentary:
+        # Perseus has no commentary for this play (the Philoctetes): Jebb's, read by OCR
+        if write_transcribed_commentary(slug, texts, transcriptions, index_dir) < 0:
+            skipped += 1
     refile_commentary(out)
     write_translation(slug, sources, texts)
     return skipped
+
+
+def write_transcribed_commentary(slug: str, texts: Path, transcriptions: Path, index_dir: Path | None = None) -> int:
+    """texts/<slug>/commentary-jebb.md from the checked notes batches of the prose OCR route
+    (transcriptions/drama/<slug>/notes-NN.md: `## 12` headings, the bold lemma, '+ ' for a note run
+    on from the page before), for a play whose commentary Perseus lacks (the Philoctetes), with
+    the header lines of the other plays' commentary-jebb.md (title, author, lang, source,
+    license); the metrical schemes in metrical signs as write_commentary writes them. Notes on
+    lines our numbering lacks are re-filed afterwards by refile_commentary, as for the others.
+    Returns the number of notes; 0 when there are no batches, -1 when they are not all checked
+    (the file is then left alone)."""
+    import os
+
+    from .drama import notes_from_paragraphs
+    from .lexicon import _METRE, _METRE_SIGNS
+    from .sophocles_pages import SCAN_EDITIONS
+
+    if not any(transcriptions.glob("notes-*.md")):
+        print(f"{slug} notes: no batches")
+        return 0
+    why = unchecked_prose(transcriptions, "notes", index_dir / "notes.json" if index_dir else None)
+    if why:
+        print(f"{slug} notes: not merged, the batches are not all checked:\n  " + "\n  ".join(why[:20])
+              + (f"\n  … and {len(why) - 20} more" if len(why) > 20 else ""))
+        return -1
+    play = PLAYS[slug]
+    notes = notes_from_paragraphs(prose_paragraphs(transcriptions, "notes"))
+    md = [f"# title: Commentary on Sophocles: {play.title_en}", "# author: Richard C. Jebb", "# lang: eng",
+          f"# source: Sophocles: The Plays and Fragments, {PART_ROMAN[play.part]}: The {play.title_en}, ed. R. C. Jebb, "
+          f"Cambridge University Press, {SCAN_EDITIONS[slug]}, {PROSE_HOW}",
+          "# license: CC BY-SA 4.0 (transcription; the edition is in the public domain)", ""]
+    count = 0
+    for heading, body in notes:
+        if not heading:
+            print(f"{slug} notes: text before the first note's heading, left out: {' '.join(body)[:80]}")
+            continue
+        md += [f"## {heading}"] + [x for p in body for x in (p, "")]
+        if not body:
+            md.append("")
+        count += 1
+    text = _METRE.sub(lambda m: m.group(1).translate(_METRE_SIGNS), "\n".join(md).rstrip("\n") + "\n")
+    path = texts / slug / "commentary-jebb.md"
+    tmp = path.with_name(path.name + ".part")
+    tmp.write_text(text, encoding="utf-8")
+    os.replace(tmp, path)
+    print(f"wrote {path}: {count} notes from the transcribed batches")
+    return count
 
 
 def jebb_translation(play: Play, sources: Path):
@@ -873,7 +986,7 @@ def write_commentary(slug: str, sources: Path, texts: Path) -> int:
         if wrong not in text:
             print(f"{path.name}: fix not applied, not found: {wrong}")
         text = text.replace(wrong, right)
-    text = length_signs_over(text)
+    text = length_signs_over(range_dash(text))
     tmp.write_text(_METRE.sub(lambda m: m.group(1).translate(_METRE_SIGNS), text), encoding="utf-8")
     os.replace(tmp, path)
     print(f"wrote {path}: {n} notes from Perseus")
@@ -890,9 +1003,173 @@ def range_headings(text: str) -> str:
     return _RANGE_LOST.sub(lambda m: f"## {m.group(1)}-{m.group(3)}\n{m.group(2)}", text)
 
 
+_RANGE_DASH = re.compile(r"(\d)([—–]) (\d)")
+
+
+def range_dash(text: str) -> str:
+    """No space after the dash of a range of numbers (Perseus: "1670— 1750", Jebb: 1670—1750)."""
+    return _RANGE_DASH.sub(r"\1\2\3", text)
+
+
+# Perseus's introduction (import_introduction) where it is not what the page prints
+INTRODUCTION_FIXES: dict[str, list[tuple[str, str]]] = {
+    "trachiniae": [
+        # Perseus's "<*>" (imported as "[?]"): Plutarch's εἶτα … εἶδος (De prof. in virt. 7), and two
+        # English places whose letters the sense leaves no doubt about
+        ("ε[?]τα τὸ πικρὸν", "εἶτα τὸ πικρὸν"), ("ε[?]δος ὅπερ", "εἶδος ὅπερ"),
+        ("some epic[?] which", "some epic in which"), ("mind of Heracle[?]. The", "mind of Heracles. The"),
+    ],
+}
+
+
 # Perseus's commentary where it is not what the page prints, put right before the vowel-length and
 # metrical signs are converted (write_commentary): (Perseus's text as imported, the page's)
 COMMENTARY_FIXES: dict[str, list[tuple[str, str]]] = {
+    "trachiniae": [
+        # Perseus's "<*>" (imported as "[?]"): what its keyers could not read, every one read on the
+        # page (leaves 81-253, two columns under the rule), with the other slips of the same notes
+        # (zerb, inder, cioth, ἱεροί, dial gue, ναιετάονρες, προv-ι for verb, under, cloth, ἱεροῦ,
+        # dialogue, ναιετάοντες, προϝ-ι) and the run of tags Perseus left as text in the note on 143
+        ('α[?]νός τις', 'αἶνός τις'),
+        ('**[?]λγιστον**', '**ἄλγιστον**'),
+        ('Ἀχελῷοσ[?] δὲ', 'Ἀχελῷος δὲ'),
+        ('οὐδέ π[?] λήξαντʼ', 'οὐδέ πω λήξαντʼ'),
+        ('πλὴν [?] κύριος | Θησε[?] παρέστω', 'πλὴν ὁ κύριος | Θησεὺς παρέστω'),
+        ('*ὠδῖνας*: cp. [?]25.', '*ὠδῖνας*: cp. 325.'),
+        ('**αὑτοῦ**, [?]ctive gen.', '**αὑτοῦ**, objective gen.'),
+        ('πατρὸς...ο[?]κτο[?] (', 'πατρὸς...οἶκτον ('),
+        ('*[?]οῦ* is clearly right: the h[?]shness of **αὐτ[?]**', '*αὐτοῦ* is clearly right: the harshness of **αὐτοῦ**'),
+        ('supposing that, [?]stead of it', 'supposing that, instead of it'),
+        ('ἄλλοις [?]έντε**', 'ἄλλοις πέντε**'),
+        ('the [?]acle at Dodona had told Heracles th[?]. at the end', 'the oracle at Dodona had told Heracles that, at the end'),
+        ('he [?]ould have rest. Fifteen months befo[?] this', 'he should have rest. Fifteen months before this'),
+        ('given Deian[?] the δέλτος on which h[?] had written [?]own that', 'given Deianeira the δέλτος on which he had written down that'),
+        ('[?]e had then to[?] her', 'He had then told her'),
+        ('return at the [?] of fifteen', 'return at the end of fifteen'),
+        ('assume th[?] he was dead (164 ff.)[?]', 'assume that he was dead (164 ff.).'),
+        ('to announ[?] his approach', 'to announce his approach'),
+        ('tidings of [?]im.', 'tidings of him.'),
+        ('ponders the [?]cle, her grave misgiving (43) becomes [?]rtitude.', 'ponders the oracle, her grave misgiving (43) becomes certitude.'),
+        ('in dial gue without', 'in dialogue without'),
+        ('rejection of vv[?] 44—48', 'rejection of vv. 44—48'),
+        ('conjecture [?].—', 'conjecture σοί.—'),
+        ('**ἀγεννή[?]ων**', '**ἀγεννήτων**'),
+        ('**πα[?]ς** is that', '**παῖς** is that'),
+        ('(1) **[?]ν**, not **ἂν**', '(1) **ἐν**, not **ἂν**'),
+        ('σφραγῖδα φύλασ[?] [?]ν ἐπὶ δέλτῳ', 'σφραγῖδα φύλασσʼ, ἣν ἐπὶ δέλτῳ'),
+        ('ἐπεικάζω is [?] to ‘enter upon’', 'ἐπεικάζω is strictly, to ‘enter upon’'),
+        ('ἐπινοῶ: [?] ἀπεικάζω', 'ἐπινοῶ: while ἀπεικάζω'),
+        ('is rath[?] throw off,’', 'is rather ‘to throw off,’'),
+        ('a guess,—ἀπ[?] [?]ing used', 'a guess,—ἀπό being used'),
+        ('**θυμοφ[?]**, from', '**θυμοφθορῶ**, from'),
+        ("**μήτ' [?]θοις … νῦν δʼ ἄπειρος εἶ**: i.e., ‘mayest [?] remain ignorant,—as thou now art [?] the combination of a wish with a fact [?] 582 ff.", "**μήτ' ἐκμάθοις … νῦν δʼ ἄπειρος εἶ**: i.e., ‘mayest thou remain ignorant,—as thou now art.’ For the combination of a wish with a fact, cp. 582 ff."),
+        ('has [?] authority than', 'has better authority than'),
+        ('Greek express[?] had a pervading bent towards antith[?] and this tendency sometimes asserted [?] after a sentence had begun in the [?]actic’ form.', 'Greek expression had a pervading bent towards antithesis, and this tendency sometimes asserted itself after a sentence had begun in the ‘paratactic’ form.'),
+        ('sprang [?] the thought, ‘you may, indeed, know [?] the future', 'sprang from the thought, ‘you may, indeed, know in the future'),
+        ('you do [?]’ I therefore', 'you do not.’ I therefore'),
+        ('Each trad[?]nal instance', 'Each traditional instance'),
+        ('should be care[?] weighed', 'should be carefully weighed'),
+        ('**τ[?] νεάζον** κ.τ.λ.', '**τὸ γὰρ νεάζον** κ.τ.λ.'),
+        ('before changing δέ to τε. [?] 285 f. Ant., 333 f. Ant., 1151 ff.: *Ant.* 1096, *P*<*\\*>12 f.*<*\\*> and for the negative*<*quote lang=greek>mh/te*<*/quote> followed by*<*quote lang=greek>de/*<*/quote>,*<*title>O. C.* 421 f.', 'before changing δέ to τε. Cp. 285 f., 333 f., 1151 ff.: *Ant.* 1096, *Ph.* 1312 f.: and for the negative μήτε followed by δέ, *O. C.* 421 f.'),
+        ('simple and clear[?] but', 'simple and clear; but'),
+        ('etc., [?]σχω is more usual', 'etc., ἀνίσχω is more usual'),
+        ('καὶ καρπ[?] τούτων', 'καὶ καρπῶν τούτων'),
+        ('πρόσοδος ἀναλ[?] σκηται', 'πρόσοδος ἀναλίσκηται'),
+        ('συντελουμέν[?] θυσίας', 'συντελουμένας θυσίας'),
+        ('τοῦ ἱεροί συντείνοντα', 'τοῦ ἱεροῦ συντείνοντα'),
+        ('μαντείας**: [?] may have vowed', 'μαντείας**: he may have vowed'),
+        ('bright praise[?] seen', 'bright praises seen'),
+        ('cp. 1127 [?] *O. C.* 332 f.', 'cp. 1127: *O. C.* 332 f.'),
+        ('cp. *O. C.* 35 [?]', 'cp. *O. C.* 35 n.'),
+        ('*Ant.* 764 ἐν [?] ὁρῶν', '*Ant.* 764 ἐν ὀφθαλμοῖς ὁρῶν'),
+        ('schol. [?] εἰσὶ δεσπότου', 'schol. ἀντὶ τίνος εἰσὶ δεσπότου'),
+        ('*sc.* τὸ [?] χαίρειν', '*sc.* τὸ ἐμὲ χαίρειν'),
+        ('sense of the zerb', 'sense of the verb'),
+        ('Not (as [?]ood)', 'Not (as Linwood)'),
+        ('but [?]ls a certain sadness', 'but feels a certain sadness'),
+        ("δέδοικ' [?]γὼ", "δέδοικ' ἐγὼ"),
+        ('makest me to [?]lt', 'makest me to halt'),
+        ('602 ο[?]δεν τό γʼ α[?]σχρὸν', '602 οἶδεν τό γʼ αἰσχρὸν'),
+        ('[?]κείνης διδακτά', '| κείνης διδακτά'),
+        ('ἐστίν, [?] ἰοὺς ὕδρα', 'ἐστίν, ᾧ ἰοὺς ὕδρα'),
+        ('blood with a cioth', 'blood with a cloth'),
+        ('πολιουρκούμενοι...ε[?]τα', 'πολιουρκούμενοι...εἶτα'),
+        ('all that he said’[?] as if', 'all that he said’: as if'),
+        ('is rather an a[?].): but *Phaedr.*', 'is rather an aor.): but Plat. *Phaedr.*'),
+        ('‘too soon[?] ( Aesch.', '‘too soon’ (Aesch.'),
+        ('πρω-ί is prob. for προv-ι', 'πρω-ί is prob. for προϝ-ι'),
+        ('Second στ[?]ον.', 'Second στάσιμον.'),
+        ('1st an[?] 640', '1st antistr., 640'),
+        ('For the [?]res see', 'For the metres see'),
+        ('will presen[?] be heard by the dwellers around Tr[?]s. The victorious Heracles will soon [?]rn, filled with new love for Deianeira, inder the spell', 'will presently be heard by the dwellers around Trachis. The victorious Heracles will soon return, filled with new love for Deianeira, under the spell'),
+        ('highlands ([?]ους Οἴτας)', 'highlands (πάγους Οἴτας)'),
+        ('the wa[?]m springs', 'the warm springs'),
+        ('(**να[?]λοχα**)', '(**ναύλοχα**)'),
+        ('locally called χ[?]ροι', 'locally called χύτροι'),
+        ('*sc.* ναιετάονρες', '*sc.* ναιετάοντες'),
+        ('οἱ ἄλλοι [?]ρσαι', 'οἱ ἄλλοι Πέρσαι'),
+        ('λί[?]ναν*', 'λίμναν*'),
+        ('the deep [?] which it forms', 'the deep recess which it forms'),
+        ('*O.* 2. 13 [?] Κρόνιε', '*O.* 2. 13 ὦ Κρόνιε'),
+        ('*Pers.* 25 σοῦν[?] ται', '*Pers.* 25 σοῦνται'),
+        ('no nearer [?]arallel', 'no nearer parallel'),
+        ('(like [?]θλα)', '(like ἆθλα)'),
+        ('As γένοιτο [?]=‘it might', 'As γένοιτο ἂν=‘it might'),
+        ('μὴ ματαία [?]ν γένοιτο', 'μὴ ματαία ἂν γένοιτο'),
+        ('τὴν ἐξ ἐμο[?] δυσβουλίαν', 'τὴν ἐξ ἐμοῦ δυσβουλίαν'),
+        ('Here [?]ὰ ἐκεῖθεν is not merely τ[?] ἐκεῖ', 'Here τὰ ἐκεῖθεν is not merely τὰ ἐκεῖ'),
+        ('*from* (or [?]) his side', '*from* (or *on*) his side'),
+        ('ἐμοῦ.—*[?]θούμεθα*', 'ἐμοῦ.—*ποθούμεθα*'),
+        ('οἰστρηθε[?]ς Διονύσῳ', 'οἰστρηθεὶς Διονύσῳ'),
+        ('τὰ ὀχήματα, τά τ[?] πεζὰ', 'τὰ ὀχήματα, τά τε πεζὰ'),
+        ('ὥσπερ [?]ν=*dummodo*', 'ὥσπερ ἂν=*dummodo*'),
+        ('ἀμφίθρεπτον α[?]μα', 'ἀμφίθρεπτον αἷμα'),
+        ('Ἀχελῷος καὶ Ἡρ[?]κλῆς', 'Ἀχελῷος καὶ Ἡρακλῆς'),
+        ('Then Heracles, [?]ning to', 'Then Heracles, turning to'),
+        ('**δν οὐχ ο[?]όν τε**', '**ὃν οὐχ οἷόν τε**'),
+        ('Σοφοκλῆς (fr. 822)[?] λύσω', 'Σοφοκλῆς (fr. 822)· λύσω'),
+        ('γνώμας μολόν[?]) [?]ought', 'γνώμας μολόντʼ ought'),
+        ('the secre[?] villainy', 'the secret villainy'),
+        ('in the [?]eadly grip', 'in the deadly grip'),
+        ('the robe. Thi[?] very trait', 'the robe. This very trait'),
+        ('κινεῖ γὰρ ἁνὴρ [?] κἀνάγει κάρα.—Wecklein, omitting [?] takes', 'κινεῖ γὰρ ἁνὴρ ὄμμα κἀνάγει κάρα.—Wecklein, omitting **θʼ**, takes'),
+        ('a certain standard, [?]s with εἰς', 'a certain standard, is with εἰς'),
+        ('gain to seafarers. [?] I hesitate', 'gain to seafarers. I hesitate'),
+        ('protasis is εἰ μὴ [?]ης', 'protasis is εἰ μὴ δοίης'),
+        ('*O.T.* 13[?] n.', '*O.T.* 1376 n.'),
+        ('on a[?] count of', 'on account of'),
+        ('εὐτυχὴς δοκεῖ ε[?]ναι', 'εὐτυχὴς δοκεῖ εἶναι'),
+        ('in accor[?]nce with', 'in accordance with'),
+        ('ἐναριζο[?]ένα', 'ἐναριζομένα'),
+        ('ὦ χρόνιος ἐ[?]θὼν', 'ὦ χρόνιος ἐλθὼν'),
+        ('prose-write[?] would', 'prose-writer would'),
+        ('Heracleid [?]escent', 'Heracleid descent'),
+        ('(τ[?] ἐμῆς φρενός', '(τῆς ἐμῆς φρενός'),
+        ('παρελθὼν [?]μματος', 'παρελθὼν ὄμματος'),
+        ('λελωφήκα[?]εν', 'λελωφήκαμεν'),
+        ('my father[?]s,’', "my father's,’"),
+        ('φύλασσʼ, [?]ν ἐπὶ δέλτῳ', 'φύλασσʼ, ἣν ἐπὶ δέλτῳ'),
+        ("οἷός τ' ε[?]ναι", "οἷός τ' εἶναι"),
+        ("(L's re[?]ding)", "(L's reading)"),
+        ('Ἀχαιῶν, ο[?]δα,', 'Ἀχαιῶν, οἶδα,'),
+        ('ἐν κακοῖσιν ο[?]δὲν', 'ἐν κακοῖσιν οὐδὲν'),
+        ('gloss on το[?]ε.', 'gloss on τοῦδε.'),
+        ('adjecti[?] which', 'adjectives which'),
+        ('καθέλοι νιν α[?]ν πότμον', 'καθέλοι νιν αἰὼν πότμον'),
+        ('ταλαιπ[?]ρῶν', 'ταλαιπωρῶν'),
+        ('**θ[?]μα**', '**θαῦμα**'),
+        ('Dindo[?]f formerly', 'Dindorf formerly'),
+        ('ἐκνενε[?] μένος', 'ἐκνενευρισμένος'),
+        ('ἀνῇ νό[?]ος', 'ἀνῇ νόσος'),
+        ('only i[?] he abhors', 'only if he abhors'),
+        ('βουκ[?]λήσας', 'βουκολήσας'),
+        ('441 [?]αῦτʼ ὀνείδιζʼ', '441 τοιαῦτʼ ὀνείδιζʼ'),
+        ('πε[?]σομαι δέ', 'πείσομαι δέ'),
+        ('εἰσιέν[?].', 'εἰσιέναι.'),
+        ('thou comest [?]hither', 'thou comest thither'),
+        ('*γεν[?]ῦ*', '*γενοῦ*'),
+        ('τὸ σὸν ἔ[?]ον', 'τὸ σὸν ἔργον'),
+    ],
     "oedipustyrannus": [
         # leaf 191, note on 640 (synizesis of υ): the bar stands over both vowels (υ͞ω), not
         # over the υ as a macron (Perseus: genu/&macr;wn)
@@ -922,8 +1199,8 @@ COMMENTARY_FIXES: dict[str, list[tuple[str, str]]] = {
 # put right from the page: "number lemma-start" -> (Jebb's heading, Jebb's lemma)
 NOTE_HEADING_FIXES: dict[str, dict[str, tuple[str, str]]] = {
     "trachiniae": {
-        # leaf 172: "633—639 ὦ ναύλοχα κ.τ.λ." (Perseus: 639, the ὦ lost)
-        "639 **<*> ναύλοχα**": ("633-639", "**ὦ ναύλοχα**"),
+        # leaf 172: "633—639 ὦ ναύλοχα κ.τ.λ." (Perseus: 639, the ὦ unread, "<*>", imported as "[?]")
+        "639 **[?] ναύλοχα**": ("633-639", "**ὦ ναύλοχα**"),
     },
 }
 
@@ -946,7 +1223,7 @@ def refile_notes(text: str, lines: dict[str, str],
     kept in front of the note (`[99] **…**`), and a note filed under the heading just before it
     is joined to that note. A range's end our numbering lacks becomes the last line we have
     inside the range. Notes on lines we have are left exactly as they are, so running it again
-    changes nothing. `heading_fixes` ("639 **<*> ναύλοχα**" -> ("633-639", "**ὦ ναύλοχα**"))
+    changes nothing. `heading_fixes` ("639 **[?] ναύλοχα**" -> ("633-639", "**ὦ ναύλοχα**"))
     first puts right a note whose heading and lemma Perseus lost or misread (NOTE_HEADING_FIXES).
     Returns the text and one line per note moved."""
     from .drama import base

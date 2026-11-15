@@ -252,6 +252,45 @@ class LabelParts(unittest.TestCase):
         self.assertEqual(labels, ["Third episode", "Third stasimon", "Exodos"])
 
 
+class AlignPartStarts(unittest.TestCase):
+    def test_section_moved_to_the_division_start(self):
+        from anagnosis_pipeline.sophocles import PLAYS, align_part_starts, label_parts
+        from anagnosis_pipeline.textfmt import Section, Speaker
+
+        # OC: the Third episode begins at 1096 (the Chorus's trimeters), Perseus's section at 1099;
+        # the antistrophe of the stasimon ends with 1095
+        items = ([Section(1, "choral", ""), Section(2, "antistrophe", "2"), Speaker("Χορός")]
+                 + [Line(str(n), "…") for n in range(1090, 1099)]
+                 + [Section(1, "episode", ""), Speaker("Οἰδίπους"), Line("1099", "…"), Line("1100", "…")])
+        doc = Document(items=items)
+        moves = align_part_starts(doc, PLAYS["oedipuscoloneus"])
+        self.assertEqual(moves, ["section episode moved from 1099 to 1096 (Jebb's Third episode)"])
+        seq = [(type(i).__name__, getattr(i, "n", getattr(i, "name", getattr(i, "kind", "")))) for i in doc.items]
+        k = seq.index(("Section", "episode"))
+        self.assertEqual(seq[k - 1], ("Line", "1095"))
+        self.assertEqual(seq[k + 1:k + 3], [("Speaker", "Χορός"), ("Line", "1096")])
+        self.assertEqual(seq[-4:], [("Line", "1098"), ("Speaker", "Οἰδίπους"), ("Line", "1099"), ("Line", "1100")])
+        label_parts(doc, PLAYS["oedipuscoloneus"])
+        self.assertEqual([i.label for i in doc.items if isinstance(i, Section) and i.level == 1],
+                         ["Second stasimon", "Third episode"])
+        # safe to run again; a section already at its division is left alone
+        self.assertEqual(align_part_starts(doc, PLAYS["oedipuscoloneus"]), [])
+
+    def test_section_too_far_or_later_moved_forward(self):
+        from anagnosis_pipeline.sophocles import PLAYS, align_part_starts
+        from anagnosis_pipeline.textfmt import Section, Speaker
+
+        # a section beginning a verse before the division (718 for 719) moves on to it; the
+        # verse left behind joins the section before
+        items = ([Section(1, "choral", ""), Speaker("Χορός"), Line("716", "…"), Line("717", "…"),
+                  Section(1, "episode", ""), Speaker("Χορός"), Line("718", "…"), Speaker("Ἄγγελος"), Line("719", "…")])
+        doc = Document(items=items)
+        self.assertEqual(align_part_starts(doc, PLAYS["ajax"]),
+                         ["section episode moved from 718 to 719 (Jebb's Third episode)"])
+        seq = [type(i).__name__ + ":" + getattr(i, "n", getattr(i, "name", getattr(i, "kind", ""))) for i in doc.items]
+        self.assertEqual(seq[4:], ["Speaker:Χορός", "Line:718", "Section:episode", "Speaker:Ἄγγελος", "Line:719"])
+
+
 class PlainHeading(unittest.TestCase):
     def test_no_italics_markers_or_backslashes(self):
         from anagnosis_pipeline.sophocles import plain_heading

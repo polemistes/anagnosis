@@ -309,10 +309,10 @@ This passage consists of lyrics.
         from anagnosis_pipeline.sophocles import refile_notes
 
         lines = {"633": "ὦ ναύλοχα καὶ πετραῖα", "638": "Πυλάτιδες κλέονται·", "640": "ὁ καλλιβόας"}
-        fixes = {"639 **<*> ναύλοχα**": ("633-639", "**ὦ ναύλοχα**")}
+        fixes = {"639 **[?] ναύλοχα**": ("633-639", "**ὦ ναύλοχα**")}
         want = "## 633-638\n**ὦ ναύλοχα** κ.τ.λ. Wishing\n"
         # from Perseus's heading, and from the state an earlier run without the fix left
-        for text in ("## 639\n**<*> ναύλοχα** κ.τ.λ. Wishing\n", "## 638\n[639] **<*> ναύλοχα** κ.τ.λ. Wishing\n"):
+        for text in ("## 639\n**[?] ναύλοχα** κ.τ.λ. Wishing\n", "## 638\n[639] **[?] ναύλοχα** κ.τ.λ. Wishing\n"):
             new, _moves = refile_notes(text, lines, fixes)
             self.assertEqual(new, want)
             self.assertEqual(refile_notes(new, lines, fixes), (want, []))

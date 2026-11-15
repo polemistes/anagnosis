@@ -381,8 +381,11 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          # (under the text, two columns), which Perseus lacks
          # prose leaves: the introduction 11-46 and "Manuscripts, editions, etc." 47-49 (the
          # metrical analysis 50-70 is not transcribed); the arguments, persons and structure
-         # 73-75; the Appendix 299-324. The commentary (kind notes) is still to be set up.
-         text_leaves=[(76, 297)], intro_leaves=[(11, 49), (73, 75)], appendix_leaves=[(299, 324)]),
+         # 73-75; the Appendix 299-324. The commentary (kind notes): under the rule of every
+         # leaf 76-297, both pages of each spread, two columns (drama_prose._region_under_rule);
+         # written by sophocles-prose as commentary-jebb.md (Perseus has none for this play)
+         text_leaves=[(76, 297)], intro_leaves=[(11, 49), (73, 75)], appendix_leaves=[(299, 324)],
+         notes_leaves=[(76, 297)], notes_editor="jebb", notes_editor_name="Richard C. Jebb"),
     # Hesiod's Theogony (pipeline/PLAN-theogony.md): Rzach's Teubner text and apparatus, Paley's
     # commentary (his own text and critical notes on the same pages are not used)
     Play("theogony", "Θεογονία", "Theogony", "Ἡσίοδος", "Hesiod", "tlg0020.tlg001",
@@ -1362,6 +1365,8 @@ def merge_play(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path
         from . import sophocles
 
         if slug in sophocles.PLAYS:
+            for m in sophocles.align_part_starts(doc, sophocles.PLAYS[slug]):
+                print(m)
             sophocles.label_parts(doc, sophocles.PLAYS[slug])
     out.mkdir(parents=True, exist_ok=True)
     write_file(out / "grc.txt", doc)

@@ -90,3 +90,21 @@ class GapIsAnEllipsis(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class UnreadPlaceholder(unittest.TestCase):
+    """Perseus's "<*>" (a character its keyers could not read) comes out as "[?]", in Greek and in
+    English, and neither breaks the betacode nor the markdown italics around it."""
+
+    def test_greek_and_english(self):
+        from anagnosis_pipeline.commentary import _txt
+        self.assertEqual(_txt("a<*>no/s tis", True), "α[?]νός τις")
+        self.assertEqual(_txt("the <*>acle at Dodona", False), "the [?]acle at Dodona")
+        self.assertNotIn("*", _txt("the h<*>shness of", False))
+
+
+class RangeDash(unittest.TestCase):
+    def test_no_space_after_the_dash_of_a_range(self):
+        from anagnosis_pipeline.sophocles import range_dash
+        self.assertEqual(range_dash("κομμός (1670— 1750), 640— 646, a — 3"), "κομμός (1670—1750), 640—646, a — 3")
+

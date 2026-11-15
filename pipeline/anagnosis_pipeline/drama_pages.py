@@ -306,6 +306,58 @@ def _rule_hairline(path: Path, y_from: int, parts: int = 4, reach: int = 18) -> 
     return None
 
 
+def _rule_isolated(path: Path, y_from: int, parts: int = 4, reach: int = 18) -> int | None:
+    """A rule printed grey on grey paper (the Toronto Philoctetes: paper about 200, the rule about
+    120, too pale for _rule_below), measured against the page's own paper: in each of `parts`
+    pieces of the middle 80 % of the width, a row darker than the paper by 50 over 40 % of the
+    piece while the rows 8-11 pixels above and below it are all but empty (a dense line of small
+    type, which fools _rule_sloping, always has ink there). The rule is where three quarters of
+    the pieces have such a row within `reach` pixels of each other."""
+    from PIL import Image
+
+    with Image.open(path) as im:
+        g = im.convert("L")
+    w, h = g.size
+    hist = g.histogram()
+    total, acc, paper = sum(hist), 0, 255
+    for v, n in enumerate(hist):
+        acc += n
+        if acc >= total / 2:
+            paper = v
+            break
+    thr = paper - 50
+    x0, x1 = int(w * 0.1), int(w * 0.9)
+    step = (x1 - x0) // parts
+    hits: list[list[int]] = []
+    for k in range(parts):
+        col = g.crop((x0 + k * step, 0, x0 + (k + 1) * step, h)).point(lambda v: 255 if v < thr else 0).resize((1, h), Image.BOX).tobytes()
+        hits.append([y for y in range(max(12, y_from), h - 12) if col[y] > 0.4 * 255
+                     and max(col[y - 11:y - 7]) < 0.08 * 255 and max(col[y + 8:y + 12]) < 0.08 * 255])
+    for y in sorted({y for rows in hits for y in rows}):
+        near = [min((r for r in rows if abs(r - y) <= reach), key=lambda r: abs(r - y), default=None) for rows in hits]
+        found = [r for r in near if r is not None]
+        if len(found) >= 0.75 * parts:
+            return sorted(found)[len(found) // 2]
+    return None
+
+
+def head_rule(play: Play, path: Path, height: int) -> int | None:
+    """The rule page_layout takes as the page's rule (layout "jebb"): the first below a fifth of
+    the page by _rule_below, and for Jebb's Sophocles (app_rule "under", the rule that heads the
+    commentary) where _rule_below finds none by _rule_isolated, then _rule_sloping, then
+    _rule_hairline. (_rule_isolated was put before _rule_sloping on 2026-11-16: on Philoctetes
+    leaves 79, 81, 96, 156, 251 _rule_sloping took a dense apparatus line for the rule; on the
+    Trachiniae, Oedipus Tyrannus and Oedipus at Colonus it changes no page's rule.) drama_prose
+    takes the commentary's region from it (everything under it)."""
+    if play.layout != "jebb":
+        return None
+    rule = _rule_below(path, int(0.2 * height))
+    if rule is None and play.app_rule == "under":
+        y = int(0.2 * height)
+        rule = _rule_isolated(path, y) or _rule_sloping(path, y) or _rule_hairline(path, y)
+    return rule
+
+
 def rules(path: Path, y_from: int = 0) -> list[int]:
     """Every printed rule (a thin dark line across much of the page) below y_from, top to bottom."""
     out: list[int] = []
@@ -435,9 +487,7 @@ def page_layout(play: Play, leaf: int, app_y: int | None = None, hocr: Path | No
     upper = [l for l in good if l["bbox"][1] < 0.7 * Hpage and l["x_size"] > 0] or good
     sizes = sorted(l["x_size"] for l in upper) or [H]
     XS = sizes[len(sizes) // 2]
-    rule = _rule_below(png, int(0.2 * Hpage)) if play.layout == "jebb" else None
-    if rule is None and play.app_rule == "under":
-        rule = _rule_sloping(png, int(0.2 * Hpage)) or _rule_hairline(png, int(0.2 * Hpage))
+    rule = head_rule(play, png, Hpage)
     limit = rule if rule else Hpage
     between = None
     if rule is not None:

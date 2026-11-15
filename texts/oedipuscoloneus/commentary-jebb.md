@@ -2701,7 +2701,7 @@ The τήνδε γʼ of the MSS. could be retained only if μου were changed to
 **τοὺς ἐμοὺς**: cp. 148 σμικροῖς (=Antigone); *Ant.* 48 ἀλλ' οὐδὲν αὐτῷ τῶν ἐμῶν μ' εἴργειν μέτα (i.e. from my brother): *O. T.* 1448 ὀρθῶς τῶν γε σῶν τελεῖς ὕπερ (for thy sister).
 
 ## 833-886
-The phrase τοὺς ἐμοὺς ἄγω indicates the moment at which Creon lays his hand on Antigone. It is followed by 11 verses, 833—843, in which the dochmiacs of the Chorus, blended with iambic trimeters, mark excitement. Antistrophic to these are the 11 verses, 876—886, which in like manner follow the moment at which Creon lays his hand on Oedipus. As a lyric interposition in dialogue, the passage has a kommatic character, though it does not constitute a κομμός proper in the same sense as 510—548, 1447—1499, or 1670— 1750.
+The phrase τοὺς ἐμοὺς ἄγω indicates the moment at which Creon lays his hand on Antigone. It is followed by 11 verses, 833—843, in which the dochmiacs of the Chorus, blended with iambic trimeters, mark excitement. Antistrophic to these are the 11 verses, 876—886, which in like manner follow the moment at which Creon lays his hand on Oedipus. As a lyric interposition in dialogue, the passage has a kommatic character, though it does not constitute a κομμός proper in the same sense as 510—548, 1447—1499, or 1670—1750.
 
 ## 834
 **ἀφήσεις**: 838 μέθες. The former is properly, "allow to depart,"—the latter, "release from one's grasp"; but they differ here only as "let her alone" from the more specific "unhand her." Cp. 857 οὔτοι σ' ἀφήσω, I will not allow thee to leave Colonus.
@@ -4159,7 +4159,7 @@ The γὰρ seems meant to introduce a further account of what the μάντει�
 **οἰωνῶν ὁδοῖς**, in respect to the paths of birds of omen, i.e. in applying the rules of augury to their flights. Cp. *Il.* 12.237 τύνη δ' οἰωνοῖσι τανυπτερύγεσσι κελεύεις | πείθεσθαι· τῶν οὔ τι μετατρέπω οὐδ' ἀλεγίζω, | εἴτ' ἐπὶ δεξίʼ ἴωσι , etc. Quite different is *O. T.* 311 ἄλλην μαντικῆς...ὁδόν, some other *way* of divination (as distinct from augury).
 
 ## 1315
-The thirteen lines (1313— 1325) which contain the list of chiefs illustrate the poet's tact. There is no pomp of description, no superfluous detail; but the three most interesting points are lightly touched,—the character of Amphiaraus, the character of Capaneus, and the parentage of Parthenopaeus. The dramatic purpose is to dignify the strife, and to heighten the terror of the father's curse, which falls not only on the guilty son, but on his allies (cp. 1400).
+The thirteen lines (1313—1325) which contain the list of chiefs illustrate the poet's tact. There is no pomp of description, no superfluous detail; but the three most interesting points are lightly touched,—the character of Amphiaraus, the character of Capaneus, and the parentage of Parthenopaeus. The dramatic purpose is to dignify the strife, and to heighten the terror of the father's curse, which falls not only on the guilty son, but on his allies (cp. 1400).
 
 The list agrees in names, though not in order, with Aesch. *Th.* 377—652, where each name is associated with one of the seven gates of Thebes, as probably in the epic Thebaid. (Cp. *Ant.* 141 ff., where the seven champions appear as having been slain and *spoiled*,—the special doom of Amphiaraus being ignored.) Eur. *Phoen.* 1104—1188 also has this list, except that Eteoclus is omitted, and Adrastus (the one survivor) substituted. In his *Supplices* Eteoclus and Adrastus are both included, while either Hippomedon or Amphiaraus seems to be omitted.
 
