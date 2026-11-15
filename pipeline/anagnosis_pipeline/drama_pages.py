@@ -280,6 +280,32 @@ def _rule_sloping(path: Path, y_from: int, parts: int = 8, reach: int = 18) -> i
     return None
 
 
+def _rule_hairline(path: Path, y_from: int, parts: int = 4, reach: int = 18) -> int | None:
+    """A rule printed as a hairline, too faint for _rule_below and _rule_sloping (the Oedipus at
+    Colonus of 1889): in each of `parts` pieces of the middle 80 % of the width, a row that is
+    grey (under 215) over a third of the piece while the rows nine pixels above and below it
+    are all but empty: a row of text is never so alone. The rule is where three quarters of the
+    pieces have such a row within `reach` pixels of each other."""
+    from PIL import Image
+
+    with Image.open(path) as im:
+        g = im.convert("L")
+        w, h = g.size
+        x0, x1 = int(w * 0.1), int(w * 0.9)
+        step = (x1 - x0) // parts
+        hits: list[list[int]] = []
+        for k in range(parts):
+            col = g.crop((x0 + k * step, 0, x0 + (k + 1) * step, h)).point(lambda v: 255 if v < 215 else 0).resize((1, h), Image.BOX).tobytes()
+            hits.append([y for y in range(max(9, y_from), h - 10)
+                         if col[y] > 0.33 * 255 and col[y - 9] < 0.1 * 255 and col[y + 9] < 0.1 * 255])
+    for y in sorted({y for rows in hits for y in rows}):
+        near = [min((r for r in rows if abs(r - y) <= reach), key=lambda r: abs(r - y), default=None) for rows in hits]
+        found = [r for r in near if r is not None]
+        if len(found) >= 0.75 * parts:
+            return sorted(found)[len(found) // 2]
+    return None
+
+
 def rules(path: Path, y_from: int = 0) -> list[int]:
     """Every printed rule (a thin dark line across much of the page) below y_from, top to bottom."""
     out: list[int] = []
@@ -411,7 +437,7 @@ def page_layout(play: Play, leaf: int, app_y: int | None = None, hocr: Path | No
     XS = sizes[len(sizes) // 2]
     rule = _rule_below(png, int(0.2 * Hpage)) if play.layout == "jebb" else None
     if rule is None and play.app_rule == "under":
-        rule = _rule_sloping(png, int(0.2 * Hpage))
+        rule = _rule_sloping(png, int(0.2 * Hpage)) or _rule_hairline(png, int(0.2 * Hpage))
     limit = rule if rule else Hpage
     between = None
     if rule is not None:
