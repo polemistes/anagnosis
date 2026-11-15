@@ -87,14 +87,14 @@ The draft had garbled the end of the note on 674 and the lemma τὸ γὰρ | �
 
 The comparison with Ixion is the more forcible here, since reference has just been made to the gratitude shown by Philoctetes (672). Ixion was the great example of ingratitude. Cp. Pind. *P.* 2. 21 θεῶν δ’ ἐφετμαῖς Ἰξίονα φαντὶ ταῦτα βροτοῖς | λέγειν ἐν πτερόεντι τροχῷ | παντᾷ κυλινδόμενον· | τὸν εὐεργέταν ἀγαναῖς ἀμοιβαῖς ἐποιχομένους τίνεσθαι.
 
-**λέκτρων...τῶν Διὸς**: cp. 1406 βέλεσι τοῖς Ἡρακλέους. Buttmann preferred the Triclinian **τοῦ Διός**,—which is admissible (cp. *Ant.* 10 n.),—as emphasising the proper name; but **τῶν** is clearly right.
+**λέκτρων...τῶν Διὸς**: cp. 1406 βέλεσι τοῖς Ἡρακλέους. Buttmann preferred the Triclinian **τοῦ** Διός,—which is admissible (cp. *Ant.* 10 n.),—as emphasising the proper name; but **τῶν** is clearly right.
 
 ## 679
 **κατὰ δρομάδ’ ἄμπυκα...Κρόνου παῖς**. As given in the MSS. (see cr. n.), these verses are longer than the corresponding vv. of the antistrophe, 693 f., παρ’ ᾧ στόνον...αἱματηρόν. If both **Ἰξίονα** and **δέσμιον** are to be kept here, the antistrophic verses must be expanded. But those verses appear to be sound as they stand. The question is, then, whether **Ἰξίονα** or **δέσμιον** should be omitted here. I prefer to omit **Ἰξίονα**, for two reasons.
 
 (1) The poet’s tendency to omit the proper name in mythical allusion, when the context made his meaning clear, might be illustrated from *Ant.* 133, where Capaneus is described, yet not named; and from 966—987 of the same play, where Cleopatra—whose fate is being compared with Antigone’s—is only indicated as the mother of the Phineidae (980) and the daughter of Boreas (985).
 
-(2) **δέσμιον** is not, indeed, necessary to the sense. As in prose we have ἀναβιβάζειν ἐπὶ τὸν τροχόν (Andoc. or. 1 § 43), so, here, the sense would be adequately given by **κατ’ ἄμπυκα... ἔβαλεν**. And it might fairly be suggested that δέσμιον had crept into the text from the schol., κατ’ ἄμπυκα δὴ] κατὰ τὸν τρόχον (which should be τροχὸν, see *Ant.* 1065 n.) δεδεμένον. Then, omitting **δέσμιον**, we might keep the order of the MS. words, merely changing **κατ’** to **ἀν’**:—**Ἰξίον’ ἀν’ ἄμπυκα δὴ δρομάδ’ ὡς ἔβαλεν** (where δή = ‘as men say’). But, on the other hand, poetical considerations seem in favour of **δέσμιον**. It adds force to the picture of a terrible doom imposed by an irresistible power.—Other views are discussed in the Appendix.
+(2) **δέσμιον** is not, indeed, necessary to the sense. As in prose we have ἀναβιβάζειν ἐπὶ τὸν τροχόν (Andoc. or. 1 § 43), so, here, the sense would be adequately given by **κατ’ ἄμπυκα...ἔβαλεν**. And it might fairly be suggested that δέσμιον had crept into the text from the schol., κατ’ ἄμπυκα δὴ] κατὰ τὸν τρόχον (which should be τροχὸν, see *Ant.* 1065 n.) δεδεμένον. Then, omitting **δέσμιον**, we might keep the order of the MS. words, merely changing **κατ’** to **ἀν’**:—**Ἰξίον’ ἀν’ ἄμπυκα δὴ δρομάδ’ ὡς ἔβαλεν** (where δή = ‘as men say’). But, on the other hand, poetical considerations seem in favour of **δέσμιον**. It adds force to the picture of a terrible doom imposed by an irresistible power.—Other views are discussed in the Appendix.
 --- flags
 1 ἐξήκουσα [conf] → ok
 2 nequaguam [latin] (Greek model: (γεφειαφοια»),) → *nequaquam*
@@ -118,6 +118,8 @@ The comparison with Ixion is the more forcible here, since reference has just be
 20 δρομάδ᾽ [accent] → ok
 --- notes
 The end of the note on 679 (2) was garbled in the draft (lines run together out of order); rewritten from the image. Headings "677 f." and "679 f." are `## 677` and `## 679`.
+677	rev: "τοῦ Διός": only τοῦ is bold in the print, Διός plain; bold taken off Διός
+679	rev: "κατ’ ἄμπυκα... ἔβαλεν" written "κατ’ ἄμπυκα...ἔβαλεν" (the print breaks the line after the dots)
 
 === p-0183
 **ἄμπυκα**, here, the rim of the wheel; elsewhere always ‘head-band.’ But its etymology (ἀμπί=ἀμφί) might easily suggest this poet. use, esp. as **δρομάδα** (perh. suggested by τροχός) helps it out. The schol. seems to have read ἄμπυκα.
@@ -128,7 +130,7 @@ Cp. Hesych., ἄμπυκες, τροχοί· οὕτω Σοφοκλῆς ἐν �
 **τοῦδ’** = ἢ τόνδ’: cp. 597 θατέρου, n.
 
 ## 684
-**οὔτ’ ἔρξας τιν’, οὔ τι νοσφίσας**. A partial reminiscence of *Od.* 4. 690 οὔτε τινὰ ῥέξας ἐξαίσιον οὔτε τι εἰπών, as Eustathius saw (p. 763, 2): Ὁμηρικὸν δέ τι καὶ παρὰ Σοφοκλεῖ ἐν Φιλοκτήτῃ τὸ οὔτε τι ῥέξας, κακὸν δηλαδή· οὕτω γὰρ νοεῖται, εἰ καὶ παντελῶς ἐκεῖ σιωπᾶται τὸ ῥεχθέν. Here the last three words prove two things,—viz., that Eustath. read **οὔτε** νοσφίσας, and that οὔτε τι ῥέξας in his citation of Sophocles was a mere slip for οὔτ’ ἔρξας τιν’: since, if his text of our verse had really contained τι, he could not have said, σιωπᾶται τὸ ῥεχθέν. (He has other such slips: see Appendix on *Ant.* 292.) Schneidewin’s emendation, **οὔ τι** for **οὔτε**, appears certain. ἔρδειν τινά τι can mean, ‘to do a wrong to a man’: ἔρδειν τινά, without τι, could not possibly mean it. Ought we, then, to write **οὐκ** (for οὔτ’) ἔρξας? Probably not. Cp. *Ant.* 249 **οὔτε** του γενῇδος ἦν | πλῆγμ’, **οὐ** δικέλλης ἐνβολή, and *O. C.* 972 n.
+**οὔτ’ ἔρξας τιν’, οὔ τι νοσφίσας**. A partial reminiscence of *Od.* 4. 690 οὔτε τινὰ ῥέξας ἐξαίσιον οὔτε τι εἰπών, as Eustathius saw (p. 763, 2): Ὁμηρικὸν δέ τι καὶ παρὰ Σοφοκλεῖ ἐν Φιλοκτήτῃ τὸ οὔτε τι ῥέξας, κακὸν δηλαδή· οὕτω γὰρ νοεῖται, εἰ καὶ παντελῶς ἐκεῖ σιωπᾶται τὸ ῥεχθέν. Here the last three words prove two things,—viz., that Eustath. read **οὔτε** νοσφίσας, and that οὔτε τι ῥέξας in his citation of Sophocles was a mere slip for οὔτ’ ἔρξας τιν’: since, if his text of our verse had really contained τι, he could not have said, σιωπᾶται τὸ ῥεχθέν. (He has other such slips: see Appendix on *Ant.* 292.) Schneidewin’s emendation, **οὔ τι** for **οὔτε**, appears certain. ἔρδειν τινά τι can mean, ‘to do a wrong to a man’: ἔρδειν τινά, without τι, could not possibly mean it. Ought we, then, to write **οὐκ** (for οὔτ’) ἔρξας? Probably not. Cp. *Ant.* 249 **οὔτε** του γενῇδος ἦν | πλῆγμ’, **οὐ** δικέλλης ἐκβολή, and *O. C.* 972 n.
 
 **νοσφίσας**, robbed, defrauded. We find not only νοσφίζειν τινά τινος, but also νοσφίζειν τινά τι (as Pind. *N.* 6. 64 σέ τ’ ἐνόσφισε... | κλᾶρος...ἄνθε’ Ὀλυμπιάδος); and this is the constr. here. The antithesis is between βία (**ἔρξας**) and δόλος (**νοσφίσας**): Ixion had murdered his father-in-law, and had sought to steal the love of Hera.
 
@@ -142,7 +144,7 @@ L has **ἴσωσ** (*sic*) **ἐν ἴσοισ**. The objection to reading **�
 3 τροχοί" [conf] → τροχοί·
 4 “17:1. [conf] → *Ant.*
 5 πλῆγμ᾽ [accent] → ok
-6 ἐνβολή [greek] → ok (so printed)
+6 ἐνβολή [greek] → ἐκβολή (misprint corrected, see notes)
 7 NV. [conf] → *N.*
 8 κλᾶρος.. [conf] → κλᾶρος...
 9 ἄνθε᾽ [conf] → ok
@@ -159,7 +161,8 @@ L has **ἴσωσ** (*sic*) **ἐν ἴσοισ**. The objection to reading **�
 20 οὐἰπολέμιος [greek] (Greek model: οοπολέμιος.) → ...πολέμιος
 --- notes
 Checker: the page begins with a new, indented paragraph (the further lemma ἄμπυκα of the note on 679, from p-0182), so no heading and no `+ `.
-684: *Ant.* 249 is printed "δικέλλης ἐνβολή" (so in the image; Jebb's Antigone has ἐκβολή); kept as printed, as it may be intended. The paragraphs "ἄμπυκα, here …" and "Cp. Hesych. …" both begin indented lines in the print (further paragraphs of the note on 679); the draft had cut the second in two and lost "τυγα" of ἄντυγα; mended. The signature "J. S. IV." left out. Headings: "682" lemma τοῦδ’ bold, "= ἢ τόνδ’" plain.
+684: *Ant.* 249 is printed "δικέλλης ἐνβολή" (so in the image; Jebb's Antigone has ἐκβολή); corrected to ἐκβολή by the review (see the rev line below). The paragraphs "ἄμπυκα, here …" and "Cp. Hesych. …" both begin indented lines in the print (further paragraphs of the note on 679); the draft had cut the second in two and lost "τυγα" of ἄντυγα; mended. The signature "J. S. IV." left out. Headings: "682" lemma τοῦδ’ bold, "= ἢ τόνδ’" plain.
+684	rev: "ἐνβολή" (so printed in *Ant.* 249, a form Greek does not have: ν is never written before β) is an evident misprint for ἐκβολή, the reading of Jebb's Antigone 249; corrected
 
 === p-0184
 + that the blunder ἴσωσ in L may be connected with the original presence of ὤν in the text.
@@ -280,7 +283,7 @@ The schol. joined **κακογείτονα** as epithet with **στόνον**: �
 + case itself might help to suggest that βαρυβρῶτα and αἱματηρόν described the object of the κλαυθμός. With βαρυβρώς cp. διαβόρος (v. 7, n.). Cp. 208 αὐδὰ | τρυσάνωρ. Schneidewin cites also Aesch. *Theb.* 348 βλαχαὶ δ’ αἱματόεσσαι | τῶν ἐπιμαστιδίων | ἀρτιτρεφεῖς βρέμονται. It seems possible that this may have been in Soph.’s mind: but it is less bold, since βλαχαὶ αἱματόεσσαι τῶν ἐπιμ. merely = βλαχαὶ τῶν αἱματοέντων ἐπιμ. (like νεῖκος ἀνδρῶν ξύναιμον, etc.). A truer parallel is [Eur.] *Rhes.* 260 κακόγαμβρον | ...γόον, = γόον περὶ κακοῦ γαμβροῦ. We might add Eur. *El.* 752 φόνιον οἰμωγὴν κλύω. The conjectural insertions which have been made in these vv. are noticed in the Appendix on vv. 678 f.
 
 ## 695
-**ὃς τὰν**. The MS. text has **οὐδ’ ὃς τὰν**,—a syllable too much. **οὐδ’** may have been conjecturally added, to link this clause to the last; while **τὰν** is not so likely to have been inserted. And **ὃς τὰν** is intrinsically better here than **οὐδ’ ὅς**.
+**ὃς τὰν**. The MS. text has **οὐδ’ ὃς τὰν**,—a syllable too much. **οὐδ’** may have been conjecturally added, to link this clause to the last; while **τὰν** is not so likely to have been inserted. And **ὃς τὰν** is intrinsically better here than **οὐδ’ ὃς**.
 
 **αἱμάδα**: schol. τὴν τοῦ αἵματος ῥύσιν. The word is found only here.
 
@@ -304,7 +307,7 @@ Some read **εἴ τιν’ ἐμπέσοι**, or **εἴ τι**
 7 251 [conf] → *El.* 752
 8 Ms. [conf] → MS.
 9 Tav [latin] (Greek model: τὰν, ἃ) → τὰν
-10 8s.—aipdda: [digit] (Greek model: ὃς.--αἰμάδα:) → ὅς.—αἱμάδα:
+10 8s.—aipdda: [digit] (Greek model: ὃς.--αἰμάδα:) → ὃς.—αἱμάδα:
 11 aipdda [latin] (Greek model: ὃς.--αἰμάδα:) → αἱμάδα
 12 κηκϊομέναν [accent] (Greek model: κηκϊομέναν.) → κηκῑομέναν
 13 6oo [digit] (Greek model: ὅοο) → 600
@@ -330,6 +333,7 @@ Some read **εἴ τιν’ ἐμπέσοι**, or **εἴ τι**
 --- notes
 Checker: "ι" is the letter iota named in the English ("The ι is short in Homer"). ## 699: Jebb's number; our text has no 699.
 Note on 693 (run on): at [Eur.] *Rhes.* 260 the print has "γόον περὶ κακοῦ λαμβροῦ", an evident misprint for γαμβροῦ (κακόγαμβρον); corrected. "695 ff." is `## 695`. The lemma κηκῑομέναν has a macron over the ι as printed; ἀνακήκῐον and κήκῐε have a breve. The lemma at the foot ("εἴ τι | συμπέσοι") runs on to p-0187.
+695	rev: "οὐδ’ ὅς." is printed with the grave, "οὐδ’ ὃς." (as in the lemma ὃς τὰν); made ὃς
 
 === p-0187
 + **συμπέσοι**, keeping **ἑλεῖν**: ‘if any leaf should fall in his way, to pluck,’ or, ‘if it should be his fortune to pluck any leaf.’ But ἐμπίπτειν ought to be said of the wanderer, not of a stationary object which he finds. And συμπέσοι is too suggestive of a ‘coincidence’ to be a fitting word here.—Campbell, reading φορβάδος ἔκ τε γᾶς ἑλεῖν, takes the const. to be (οὐκ ἦν) ὅστις κατευνάσειεν ἑλεῖν τε (instead of ἕλοι τε). This is as if one said, οὐχ εἶχεν ὅστις ἔλθοι καὶ βοηθεῖν.
@@ -340,12 +344,12 @@ Note on 693 (run on): at [Eur.] *Rhes.* 260 the print has "γόον περὶ κ
 **εἷρπε** κ.τ.λ. Join **ἂν** with **εἷρπε**: cp. 290 n.: for **εἰλυόμενος**, *ib.* As to the reading in these verses, see on 686 f. The phrase ἄλλοτε ἀλλαχῇ occurs in Xen. *Mem.* 1. 4. 12.
 
 ## 703
-**παῖς...ὡς**: like a child that cannot yet walk firmly without the help of its nurse. Cp. Aesch. *Eum.* 38, where the aged priestess, tottering with fear, is said to be ἀντίπαις.
+**παῖς...ὥς**: like a child that cannot yet walk firmly without the help of its nurse. Cp. Aesch. *Eum.* 38, where the aged priestess, tottering with fear, is said to be ἀντίπαις.
 
 ## 704
 **ὅθεν** = ἐκεῖσε ὅθεν: cp. Xen. *An.* 1. 3 § 17 μὴ ἡμᾶς ἀγάγῃ ὅθεν οὐχ οἷόν τε ἔσται ἐξελθεῖν. **ὅθεν ὑπάρχοι**, after εἷρπε ἄν, answers to ὅθεν ἂν ὑπάρχῃ after a primary tense: cp. 289 n.
 
-**εὐμάρεια... πόρου**, ‘facility of resource,’—*i.e.*, the means of supplying his needs. For εὐμάρεια cp. 284; for πόρου, Eur. *Alc.* 213 τίς ἂν πόρος κακῶν | γένοιτο...; He had to find food, water, fuel, and the medicinal herb (285 ff., 649).—Not, ‘ease on his path’ (ease in movement), as if the search for the herb alone were meant. Some read **πόρων** as = ‘resources’: but, in this sense, the associations of the plur. would have been too prosaic for an Attic poet. For the theory that **πόρον** should be read, and taken with εἷρπε, see Appendix on 695 f.
+**εὐμάρεια...πόρου**, ‘facility of resource,’—*i.e.*, the means of supplying his needs. For εὐμάρεια cp. 284; for πόρου, Eur. *Alc.* 213 τίς ἂν πόρος κακῶν | γένοιτο...; He had to find food, water, fuel, and the medicinal herb (285 ff., 649).—Not, ‘ease on his path’ (ease in movement), as if the search for the herb alone were meant. Some read **πόρων** as = ‘resources’: but, in this sense, the associations of the plur. would have been too prosaic for an Attic poet. For the theory that **πόρον** should be read, and taken with εἷρπε, see Appendix on 695 f.
 
 **ἐξανείη**, remit its violence: 639 n.
 
@@ -376,3 +380,5 @@ Note on 693 (run on): at [Eur.] *Rhes.* 260 the print has "γόον περὶ κ
 14 poet's [conf] → poet’s
 --- notes
 The draft's stray "ἃ." in "to be ἃ. fitting" deleted ("to be a fitting"). The draft had garbled the end of the note on 704 (lines of the two columns mixed: "a φησιν ‘facility tense: of cp. resource,’"); rewritten from the image. "701 f.", "704 f.", "706 ff." are `## 701`, `## 704`, `## 706`. φορβάδος: the reference is 391 (the draft had 301).
+703	rev: lemma "παῖς...ὡς" made "παῖς...ὥς": the print shows the acute over ω (the postpositive ὥς of the verse); the breathing beside it is worn
+704	rev: "εὐμάρεια... πόρου" written "εὐμάρεια...πόρου" (the print breaks the line after the dots)

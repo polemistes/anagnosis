@@ -72,7 +72,7 @@ The page begins with the end of a word divided from p-0091 (“ver-|sion”, wri
 
 **καὶ μὴ δόλοισιν**: μή is generic (it does not, and could not here, go with the inf. ἄγειν): *i.e.*, the phrase means strictly, ‘and by such means as are not frauds’: cp. on 409 (μηδὲν δίκαιον), *Ant.* 494 τῶν μηδὲν ὀρθῶς...τεχνωμένων.
 
-**οὐ γὰρ** κ.τ.λ.: the γάρ implies, ‘this ought to satisfy thee, *for* force cannot fail’: it is thus already a trace of irresolution. **ἐξ ἑνὸς ποδὸς**, lit. starting from one foot,’ *i.e.* ‘when he has the use of only one foot,’—ἐκ marking that εἷς πούς is the condition which makes his victory impossible. Cp. n. on *O. C.* 848 οὔκουν ποτ’ ἐκ τούτοιν γε μὴ σκήπτροιν ἔτι | ὁδοιπορήσῃς. In *El.* 455 Ὀρέστην ἐξ ὑπερτέρας χερὸς | ἐχθροῖσιν...ἐπεμβῆναι, (‘that, with victorious might, he may trample on his foes,’) the ὑπερτέρα χείρ is similarly the antecedent condition.
+**οὐ γὰρ** κ.τ.λ.: the γάρ implies, ‘this ought to satisfy thee, *for* force cannot fail’: it is thus already a trace of irresolution. **ἐξ ἑνὸς ποδὸς**, lit. ‘starting from one foot,’ *i.e.* ‘when he has the use of only one foot,’—ἐκ marking that εἷς πούς is the condition which makes his victory impossible. Cp. n. on *O. C.* 848 οὔκουν ποτ’ ἐκ τούτοιν γε μὴ σκήπτροιν ἔτι | ὁδοιπορήσῃς. In *El.* 455 Ὀρέστην ἐξ ὑπερτέρας χερὸς | ἐχθροῖσιν...ἐπεμβῆναι, (‘that, with victorious might, he may trample on his foes,’) the ὑπερτέρα χείρ is similarly the antecedent condition.
 
 **τοσούσδε** (*sc.* ὄντας, cp. n. on ἐγκρατής, 75): the 15 seamen who form the Chorus will be at hand to help them.
 
@@ -134,6 +134,7 @@ The page begins with the end of a word divided from p-0091 (“ver-|sion”, wri
 39 go4 [digit] (Greek model: 904) → 904
 --- notes
 Read through against the columns: the draft had scrambled the note on 90 (πρὸς βίαν / ἀπάγειν): rewritten from the print. **ἄγειν** is bold inside the paragraph (no dash), so no new paragraph there. The draft's paragraph cut at “—ἐκ marking” is wrong (plain ἐκ): joined again, and **ἐξ ἑνὸς ποδὸς** (bold, no dash) stays in the paragraph. **νικᾶν** and **πάνθ’ ἡγουμένην** are bold inside their paragraphs (no dash). Greek, italics and references corrected throughout (Il. 9. 312, I. A. 926, ἁπλοῦς, ὥς φασίν, Meteor. 1. 14, p. 352 a 13, Oecon. 2, Eur. Alc. 640, Phaedr. 278 C, O. T. 904).
+90	rev: evident misprint corrected: the print has “lit. starting from one foot,’” without the opening quotation mark; written “lit. ‘starting from one foot,’”.
 
 === p-0094
 + also take βροτοῖς directly with ἡγουμ. as=‘*showing the way* in all things to men’ (cp. 133): but here the notion required is that of ‘swaying’ rather than ‘guiding’; and in the former sense ἡγουμένην would take the genit. βροτῶν. There is an allusion to the Athenian demagogues (cp. 388 διδασκάλων λόγοισι): as Cleon says (Thuc. 3. 38) of the citizens in the ecclesia, εἰώθατε θεαταὶ μὲν τῶν λόγων γίγνεσθαι, ἀκροαταὶ δὲ τῶν ἔργων (‘absorbed in the drama of debate, but content with rumours from the field of action’).

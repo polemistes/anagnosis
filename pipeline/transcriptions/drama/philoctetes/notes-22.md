@@ -37,10 +37,11 @@ Are we, then, to admit the *v. l.* **τοῦ πλέονος**? It occurs in the 
 17 ZL [latin] (Greek model: (δ,) → El.
 18 FEur [latin] (Greek model: Ἑπύτ.;) → Eur.
 19 Hee [latin] (Greek model: Κἴκ.) → Hec.
-20 ἢ [conf] → ?
+20 ἢ [conf] → ok
 21 λυσιτελεστέρου [greek] (Greek model: 'λυσιτελεστέρου.) → ok
 --- notes
 Run-on from p-0243 (note on 1097 ff.). Bold restored on ἁ τύχα ἅδ’, ἔχει, ἄλλου, ἄλλοθεν, τοῦ...δαίμονος, εἵλου, εἵλου τὸ κάκιον αἰνεῖν, αἰνεῖν, τοῦ πλέονος, ωι, ο, αι, οι. Unflagged corrections: ἃ τύχα ἅδ᾽ → ἁ τύχα ἅδ’; ἐμᾶς" → ἐμᾶς·; ἔχεν → ἔχει; ad → ἅδ’; ἀμ[ᾶς → ἀμ|ᾶς; ἀξιῷ → ἀξιῶ; Rep. 337 Ὁ → Rep. 337 D; τάδ᾽ (lemma) → τᾷδ’; ᾽ἀπὸ → ἀπὸ; O, 7. → O. T.; Eur, Ale. → Eur. Alc.; Ms. → MS.; πατρῷos → πατρῷος; 'the τ. Z. Tod πλέονος ἢ' → 'the v. l. τοῦ πλέονος?'; kal → καὶ (twice); the scholium after 'on this v.:—' is in plain type in the print and stays in the paragraph (the draft had made it a bold lemma paragraph). Italics added (O. T., Rep., Ai., Alc., Ant., El., Hec., Heracl., v. l.). The checker's breathing remarks for ᾶς, ωι, ο, αι, οι: these are single letters and the second half of a word divided by Jebb's verse-bar (ἀμ|ᾶς), cited as printed, without breathing.
+20	rev: flag 20 (ἢν, fr. 323) answered ok: smooth breathing and grave as printed (ἢν = ἐάν); αὑτῷ rough as printed
 
 === p-0245
 + points may be noticed. (*a*) δαίμων, when it means μοῖρα, is sometimes quite impersonal; *e.g.*, fr. 587 μὴ σπεῖρε πολλοῖς τὸν παρόντα δαίμονα (‘spread not thy present trouble abroad’—by speech). (*b*) τοῦ **πλέονος** δαίμονος would be suggested by such phrases as πλέον ἔχειν: *i.e.*, it might be possible to say τὸν πλείω δαίμον’ ἔχω, or the like, though not ὁ πλείων δαίμων με σῴζει. And so the bold phrase seems just conceivable here, where the idea is, ‘Instead of the better portion, thou hast chosen the worse.’ Omitting **τοῦ**, Bothe would read **λωΐονος** (cp. Simonides Amorg. 7. 30 λωΐων γυνή), and Wunder **λωϊτέρου**. But, for Soph., neither seems probable.
