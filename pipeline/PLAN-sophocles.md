@@ -414,6 +414,23 @@ The metrical analyses are not transcribed (as for Ajax and Electra).
   and HathiTrust: list in the session's messages and in the research file's "Not done or not
   verified").
 
+* **2026-11-16, the author: "Start with Medea next."** The first Euripides play is the
+  Medea, after the Philoctetes (its token-free preparation and first pass may overlap the
+  Philoctetes's finishing, by the overlap rule). What it is to be: Murray's text and apparatus
+  (vol. I, 1902; scan euripidisfabulae01euriuoft, Perseus's own source, so the check text and
+  the print are one edition); Earle 1904 as commentary and introduction (scan
+  cu31924079583609, OCR of its leaves already on disk; his notes stand under his text in two
+  columns and run on: the prose route's region for that layout is still to be written, see
+  PLAN-drama.md "Medea, step 3"; his own text and critical appendix are NOT used);
+  Coleridge's translation from Perseus; the hand-made Pedalion trees for the whole play
+  (CC BY-SA 4.0: check their labels against the treebank's before choosing them over GLAUx).
+  Before its first file is written: (1) the private local place for all Euripides files
+  (texts, transcription batches, built database, pack), with its own history and ignored by
+  the public repository; (2) a way for `catalog` and the release bundle to leave out a text
+  that is not yet to be offered (a release date in about.md), so that nothing of Murray's
+  reaches a production bundle before 2028-01-01; (3) a plan file of its own for Euripides
+  (the drama pipeline's entry for the Medea changes from Earle's text to Murray's).
+
 ## Decisions
 
 * 2026-11-15: order by least work left (Trachiniae first).
