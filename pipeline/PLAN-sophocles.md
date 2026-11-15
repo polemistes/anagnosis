@@ -126,6 +126,23 @@ The metrical analyses are not transcribed (as for Ajax and Electra).
   (110–133, transcriptions/sophocles/oedipustyrannus) for the same. The agents of the OCR route
   are told not to open transcriptions/sophocles/.
 
+* **2026-11-15, afternoon (the author: use what is left of the limit before it resets;
+  "ultracode").** Trachiniae: first pass back and committed (854a0cb: 15 agents, 2.47 M
+  tokens, 178 leaves); `drama-residuals trachiniae` gave 387 residuals on 81 pages; the
+  residual pass runs (15 agents, one batch each; script
+  `transcriptions/drama/drama-pass.workflow.js`, kind `residuals`). After it: checker, commit,
+  then a review agent per batch (same script, kind `review`; the author's "ultracode" covers
+  the Clouds-level checking), then `merge-drama trachiniae`. Oedipus Tyrannus: text batches
+  restarted with 16 at once (workflow run wf_e4ae76bf-010). Oedipus at Colonus and
+  Philoctetes: `Play` entries added (OC: twelve hidden leaves, leaf ≠ PDF page, text leaves
+  106–371; its scan is in GREY_GROUND; Philoctetes text leaves 76–297, to verify against
+  build/sophocles-pages/philoctetes/p-0076.png once fetched); `drama-pages <play> fetch`,
+  `ocr`, `draft` started with nohup, logs build/logs/<play>-pages.log (run again if cut off;
+  check the draft's summary and two pages before sending agents). An Opus agent extends the
+  prose route (kind `appendix`, command `sophocles-prose`; its notes in
+  build/logs/sophocles-prose-agent.md); another builds the comparison lists in
+  pipeline/research/route-comparison/ (compare.py, tally.py; blind adjudication to follow).
+
 ## Decisions
 
 * 2026-11-15: order by least work left (Trachiniae first).
