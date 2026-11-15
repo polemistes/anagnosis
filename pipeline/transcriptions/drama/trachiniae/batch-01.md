@@ -149,9 +149,9 @@ Sigla: L = cod. Laur. 32. 9 (first half of eleventh century). r = one or more of
 @ Δηιάνειρα
 73	ποῦ δῆτα νῦν ζῶν ἢ θανὼν ἀγγέλλεται;
 --- apparatus
-58	ἀρτίπουσ θρώισκει L: B. F. Westcott conj. ἄρτι που ʼσθρῴσκει: Fröhlich, ἄρτι προσθρῴσκει: O. Hense (making vv. 57 f. into one), νέμει τινʼ ὥραν· ἄρτι δʼ ἐσθρῴσκει.
+58	ἀρτίπουσ θρώισκει L: B. F. Westcott conj. ἄρτι που ʼσθρῴσκει: Fröhlich, ἄρτι προσθρῴσκει: O. Hense (making vv. 57 f. into one), νέμει τινʼ ὤραν· ἄρτι δʼ ἐσθρῴσκει.
 60	τοῖς τʼ] So L. Some of the later MSS. have τοῖς, without τʼ (which, in A, is written above); and Hartung adopts this. Hermann, τοῖς γʼ.
-62	μῦθοι] μύθοι L.—ἥδε] ἡῖδε L (the ῾ added by S). The mis-spelling seems due to a confusion between ἥδε and ἣ δέ.
+62	μῦθοι] μύθοι L.—ἥδε] ἡῖδε L (the ῾ added by S). The mis-spelling seems due to a confusion between ἥδε and ᾗ δέ.
 66	ποῦ ʼστιν] πὄυστιν L (sic). Nauck and others write ποῦ ἔστιν.—φέρειν Valckenaer: φέρει MSS.: φέροι Wunder.
 67	μύθοισ L, with most MSS.: μύθοις γʼ Harl., Ald. Cp. 73.
 68	ἱδρῦσθαι] ἱδρύσθαι L.
@@ -163,6 +163,8 @@ Sigla: L = cod. Laur. 32. 9 (first half of eleventh century). r = one or more of
 66	apparatus: L's πὄυστιν is printed with a small gap after πὄ (the breathing and accent set over ο); written as one word.
 70	res: γυναικὶ with a grave before φασί, as printed
 58	res: raised stop after δόμους (the draft a comma), as printed; seen on the whole page while checking 61
+58	rev: apparatus 58, Hense's conjecture: ὤραν (smooth breathing, as printed, and as the text of 57), not ὥραν
+62	rev: apparatus 62: ᾗ δέ (rough breathing, circumflex, iota subscript, as printed), not ἣ δέ
 
 === p-0090
 --- text

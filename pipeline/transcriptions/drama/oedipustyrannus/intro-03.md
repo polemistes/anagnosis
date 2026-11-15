@@ -1,0 +1,233 @@
+=== p-0031
+*Is AE unbelief?* And certainly one of the most interesting questions in the Oedipus Tyrannus concerns the intellectual position of Oedipus and Iocasta towards that divine power of which the hand is laid so heavily upon both. Sophocles had found in human nature itself the sanction of ‘the unwritten laws,’ and the seal of faith in a beneficence immortal and eternal ; but his personal attitude towards the ‘sceptical’ currents of thought in his age was never, so far as we can judge, that of admonitory protest or dogmatic reproof. It was his temperament to look around him for elements of conciliation, to evoke gentle and mediating influences, rather than to make war on the forces which he regarded as sinister :—it might be said of him, as of a person in one of his own plays, οὔτοι συνέχθειν ἀλλὰ συμφιλεῖν ἔφυ. But is there any reason to think that the Oedipus Tyrannus marks a moment when this mind—‘which saw life steadily, and saw it whole’—was partly shaken in its self-centred calm by the consciousness of a spiritual anarchy around it which seemed fraught with ultimate danger to the cohesion of society, and that a note of solemn warning, addressed to Athens and to Greece, is meant to be heard throughout the drama? Our answer must depend upon the sense in which we conceive that he places Oedipus or Iocasta at issue with religion.
+
+## § 12 — Oedipus.
+
+As regards Oedipus, it might be said that, in this particular aspect, he is a modern character, and more especially, perhaps, a character of the nineteenth century. The instinct of reverence for the gods was originally fundamental in his nature: it appears in the first act of his manhood—the journey to Delphi. Nor did he for a moment mistrust the gods because the doom assigned to him was bitter. Then he achieved a great intellectual success, reached the most brilliant prosperity, and was ranked by his fellow-men as second to the gods alone. He is not spoiled by his good fortune. We find him, at the opening of the play, neither arrogant nor irreverent; full, rather, of tenderness for his people, full of reverence for the word of Apollo. Suddenly, however, the prophet of Apollo denounces him. Instantly his s appeal is to the intellect. If it comes to that, what claim has any other human mind to interpose between
+--- flags
+1 Oedipus [conf] →
+2 :—it [conf] →
+3 mind—‘which [conf] →
+4 him. [conf] →
+--- notes
+
+=== p-0032
++ /7s mind and Heaven? Is he not Oedipus, who silenced the Sphinx? Yes, but presently, gradually, his own mind begins to argue on the other side. No one is so acute as he, and of course he must be the first to see any facts which tell against himself. And now, when he is face to face with the gods, and no prophet stands between, the instinct of reverence inborn in his noble nature finds voice in the prayer, ὁ Forbid, forbid, ye pure and awful gods, that I should see that day!’ After varying hopes and fears, his own mind is convinced of the worst. Reason, which had been the arbiter of faith, now becomes the inexorable judge of sin, the most instant and most rigorous claimant for his absolute abasement before the gods.
+
+*Iocasta.* #4 § 13. Plainly, it would be a misreading to construe the fate of Oedipus as a dramatic nemesis of impiety ; but the case of Tocasta is at first sight less clear. She, at least, is one who openly avows scorn for oracles, and urges her lord to share it. It niay often be noticed—where the dramatist has known how to draw from life—that the true key-note of a dominant mood is struck by a short utterance on which no special emphasis is thrown, just as, in life itself, the sayings most truly significant of character are not always long or marked. For Iocasta, such a key-note is given in the passage where she is telling Oedipus that a response from the Delphian temple had warned Laius that he was destined to be slain by the child whom she bore to him. ‘An oracle came to Laius once—/ will not say from Phoebus himself, but from his ministers’ (v. 712). Iocasta thoroughly believes in the power of the gods to effect their will (724),—to punish or to save (921). But she does not believe that any mortal—be he priest or prophet—is permitted by them to read the future. Had not the Delphian priests doomed her to sacrifice her first-born child,—and this, without saving the life of her husband, Latus? The iron which years ago had entered into the soul of the wife and mother has wrought in her a result similar to that which pride of intellect has produced in Oedipus. Like Oedipus, she still believes in the wise omnipotence of the gods; like him also, she is no longer prepared to accept any mortal interpreter of their decrees. Thus are the
+--- flags
+1 /7s [digit] →
+2 ὁ [conf] →
+3 #4 [conf] →
+4 Oedipus [conf] →
+5 Tocasta [rare] →
+6 niay [rare] →
+7 Iocasta, [conf] →
+8 from [conf] →
+9 Iocasta [conf] →
+--- notes
+
+=== p-0033
++ two foremost persons of this tragedy separated from the offices of human intercession, and directly confronted in spirit—one by his self-reliance, the other by her remembered anguish—with the inscrutable powers which control their fate. It is as a study of the human heart, true for every age, not as a protest against tendencies of the poet’s own, that the Oedipus Tyrannus illustrates the relation of faith to reason.
+
+## § 14 — Teiresias. “™
+
+The central figure of the drama is brought into clearer relief by the characters of Teiresias and Creon. Teiresias exists only for the god whom he serves. Through him Apollo speaks. As opposed to Oedipus, he zs the divine knowledge of Apollo, opposed to human ignorance and blindness. While ‘the servant of Loxias’ thus stands above the king of Thebes, Creon stands below him, on the humbler but safer ground of ordinary humanity. Creon is shrewd, cautious, practical, not sentimental or demonstrative, yet of a fervid self-respect, and with a strong and manly kindliness which comes out in the hour of need. It might be said that the Creon of the Oedipus Tyrannus embodies a good type of Scottish character, as the Creon of the Antigone —an earlier sketch—is rather of the Prussian .type, as it is popularly idealised by some of its neighbours. Teiresias is the gauge of human insight matched against divine; Creon, of fortune’s heights and depths, compared with the less brilliant but more stable lot of commoner men. ‘Crave not to be master in all things; for the mastery which thou didst win hath not followed thee through life’—are his words to Oedipus at the end; and his own position at the moment exemplifies the sense in which ‘the god ever gives the mastery to the middle state ἢ,
+
+## § 15 — Supposed references ig con. temporary events.
+
+There is no external evidence for the time at which
+
+: :
+
+the Oedipus Tyrannus was first acted. Internal evidence warrants
+
+[Note: 1 Lest it should be thought that in the note on p. 77 the harsher aspect of Creon’s character is unduly prominent, I may observe that this note relates to vv. 512—862, and deals with Creon only as he appears #kere. The scene which begins at v. 1422—and more especially vv. 1476 f.—must of course be taken into account when we offer, as here, a more general estimate of the character.]
+
+[Note: 2 παντὶ μέσῳ τὸ κράτος θεὸς ὥπασεν, Aesch. Eum. 528.]
+--- flags
+1 need. [conf] →
+2 Oedipus [conf] →
+3 ἢ, [conf] →
+4 kere [latin] (Greek model: 2λεγε.) →
+5 ὥπασεν [accent] (Greek model: ὦπασεν,) →
+--- notes
+
+=== p-0034
++ the belief that it was composed after the Antigone, and before the Oedipus Coloneus. The probable limits thus indicated might be roughly given as about 430—412 B.C. More than this we cannot say. Modern ingenuity has recognised Pericles in Oedipus,—the stain of Alcmaeonid lineage in his guilt as the slayer of Laius,—the ‘Dorian war, and a pestilence therewith’ in the afflictions of Thebes. This allegorical hypothesis need not detain us. But it may be well briefly to remark the difference, for drama, between association of ideas and direct allusion. If Sophocles had set himself to describe the plague at Athens as he had known it, it might have been held that, in an artistic sense, his fault was graver than that of Phrynichus, when, by representing the capture of Miletus, he ‘reminded the Athenians of their own misfortunes.” If, however, writing at a time subsequent to the pestilence which he had survived, he wished to give an ideal picture of a plague-stricken town, it would have been natural and fitting that he should borrow some touches from his own experience. But the sketch in the play is far too slight to warrant us in saying that he even did this; perhaps the reference to the victims of pestilence tainting the air (θαναταφόρα v. 180) is the only trait that might suggest it. Thucydides (11. 50), in describing the plague of 430 B.C, notices the number of the unburied dead. The remarks just made apply equally to the supposed allusion in vv. 883 ff. to the mutilation of the Hermae (see the note on 886).
+
+*Alleged defeat of the play.* A tradition, dating at least from the 2nd century B.C}, affirmed that, when Sophocles produced the Oedipus Tyrannus, he was defeated for the first prize by Philocles—a poet of whose work we know nothing. Philocles was a nephew of Aeschylus, and, as Aristeides observes? achieved an honour which
+
+[Note: ‘1 The words in the prose ὑπόθεσις (given on p. 4) are simply, ἡττηθέντα ὑπὸ Φιλοκλέους, ὥς φησι Δικαίαρχος. The Dicaearchus who wrote ὑποθέσεις τῶν Εὐριπίδου καὶ Σοφοκλέους μύθων has been generally identified with Dicaearchus of Messana, the Peripatetic, a pupil of Aristotle and a friend of Theophrastus. We might place his ‘floruit,’ then, somewhere about 310 B.C.; there are indications that he survived]
+
+[Note: 206 B.C. If, on the other hand, the ὑποθέσεις were ascribed to the grammarian Dicaearchus of Lacedaemon, a pupil of Aristarchus, this would bring us to about]
+--- flags
+1 Laius,—the [conf] →
+2 observes? [conf] →
+3 ‘1 [digit] →
+4 ‘floruit,’ [conf] →
+--- notes
+
+=== p-0035
++ had been denied to his uncle. The surprise which has been expressed by some modern writers appears unnecessary ; the composition of Philocles was probably good, and it has never been held that the judges of such prizes were infallible.
+
+## § 16 — Te actor =
+
+The name of an actor, once famous in the chief part of this play, is of interest also on more general grounds. Polus,a native of Aegina, is said to have been the pupil of another tragic actor, Archias of Thurii!. He flourished, then, in the middle or latter part of the 4th century B.C.—only some 50 or 60 years after the death of Sophocles. Physically well-gifted, and of versatile grace, he was equally successful as Oedipus the King, and in the very different but not less difficult part of Oedipus at Colonus® Like the poet whose masterpieces he interpreted, he enjoyed a vigorous old age; and it is recorded that, at seventy, he acted ‘eight tragedies in four days’®> In the Electra of Sophocles, an urn, supposed to contain the ashes of Orestes, is placed in the hands of his sister, who makes a lament over it. Polus once acted Electra not long after the death of his son. An urn, containing the youth’s ashes, was brought from the tomb ; the actor received it, and, on the scene, suffered a natural grief to have vehement course *.
+
+1 Plut. Dem. 28 τοῦτον δὲ [Archias] Θούριον ὄντα τῷ γένει λόγος ἔχει τραγῳδίας ὑποκρίνεσθαί ποτε, καὶ τὸν Αἰγινήτην Πῶλον, τὸν ὑπερβαλόντα τῇ τέχνῃ πάντας, ἐκείνου γενέσθαι μαθητὴν Ἱστοροῦσιν.—Schaefer (Dem. wu. 5. Zeit, 1. 219 1.) and A. Miiller (Gr. Biihnenalterthiimer, p. 186, n. 3) distinguish this Polus from an elder, whom they place in the time of Socrates. They seem mistaken. In Plut. περὶ φιλίας, fr. τό (p. 833 ed. Wyttenbach), Socrates is quoted, and then Polus is mentioned ; but not as contemporary with Socrates. As to Lucian calling Polus ὁ Σουνιεύς, see below, note 4.
+
++ 2 Stobaeus Floril. p. 522 (XCVII. 28), in an extract from the προτρεπτικαὶ ὁμιλίαι of Arrian: ἢ οὐχ ὁρᾷς ὅτι οὐκ εὐφωνότερον οὐδὲ ἥδιον ὁ Πῶλος τὸν τύραννον Οἰδίποδα ὑπεκρίνετο ἢ τὸν ἐπὶ Κολωνῷ ἀλήτην καὶ πτωχόν ; (οὐδὲ ἥδιον is Gaisford’s emendation of οὐδὲν δι᾽ ὧν.)
+
+3 Plut. Mor. 785 Cc Πῶλον δὲ τὸν τραγῳδὸν Ἐρατοσθένης καὶ Φιλόχορος ἱστοροῦσιν ἑβδομήκοντα ἔτη "γεγενημένον ὀκτὼ τραγῳδίας ἐν τέτταρσιν ἡμέραις διαγωνίσασθαι μικρὸν ἔμπροσθεν τῆς τελευτῆς.
+
+4 Aulus Gellius 7. 5 Histrio in terra Graecia fuit fama celebri qui gestus et vocis claritudine ceteris antestabat....Polus lugubri habitu Electrae indutus ossa atque urnam a sepulcro tulit filii, et quasi Orestis amplexus opplevit omnia non simulacris neque imitamentis sed luctu atque lamentis veris et spirantibus.
+
+*᾿* Lucian Jupp. Tragved. § 3 οὐχ ὁρῶ... ἐφ᾽ ὅτῳ Πῶλος ἢ ᾿᾿Αριστόδημος ἀντὶ Διὸς ἡμῖν ἀναπέφηνας. Id. Menippus § 16 (on the contrast between the life of actors
+--- flags
+1 Thurii!. [conf] →
+2 days’®> [conf] →
+3 Miiller [latin] →
+4 Biihnenalterthiimer [latin] (Greek model: Βηλνιονιαίογελησεεν,) →
+5 Floril [latin] (Greek model: Ζγογῆϊ.) →
+6 (XCVII. [conf] →
+7 προτρεπτικαὶ [greek] →
+8 Πῶλος [conf] →
+9 δι᾽ [conf] →
+10 "γεγενημένον [conf] →
+11 celebri [rare] →
+12 claritudine [rare] →
+13 antestabat [rare] →
+14 lugubri [rare] →
+15 habitu [rare] →
+16 urnam [rare] →
+17 filii [latin] →
+18 opplevit [rare] →
+19 simulacris [rare] →
+20 imitamentis [rare] →
+21 lamentis [rare] →
+22 veris [rare] →
+23 spirantibus [rare] →
+24 Jupp [latin] (Greek model: Ζεῤῥ.) →
+25 Tragved [latin] (Greek model: Ζγαροφά.) →
+26 ὁρῶ... [conf] →
+27 ἐφ᾽ [conf] →
+28 Πῶλος [conf] →
+29 Αριστόδημος [accent] (Greek model: Αριστόδημος,) →
+30 ἡμῖν [conf] →
+31 Menippus [latin] →
+--- notes
+
+=== p-0036
+*Significance of the story.* Little as such an incident may accord with modern feeling or taste, it is at least of very clear significance in relation to the tone of the Attic stage as it existed for a generation whose grandfathers were contemporary with Sophocles. Whether the story was true or not, it must have been conceived as possible. And, this being so, nothing could better show the error of supposing that the old Greek acting of tragedy was statuesque in a cold or rigid sense—in a sense excluding declamation and movement suitable to the passions which the words expressed. Play of feature, indeed, was excluded by the use of masks; but this very fact would have increased the need for appropriate gesture. The simple grouping—as recent revivals have helped us to feel—must have constantly had a plastic beauty rarely seen on our more crowded stage'!; but it is inconceivable, and the story just noticed affords some direct ground for denying, that this result was obtained at any sacrifice of life and truth in the portrayal of emotion. Demosthenes tells us that some of the inferior tragedians of his time were called ‘ranters’® It might be said, of course, that this indicates a popular preference for an undemonstrative style. But it might with more force be replied that ‘ranting’ is not a fault which a coldly ‘statuesque’ tradition would have generated.
+
+*-* on and off the stage) ἤδη δὲ πέρας ἔχοντος τοῦ δράματος, ἀποδυσάμενος ἕκαστος αὐτῶν τὴν χρυσόπαστον ἐκείνην ἐσθῆτα καὶ τὸ προσωπεῖον ἀποθέμενος καὶ καταβὰς ἀπὸ τῶν ἐμβατῶν πένης καὶ ταπεινὸς περιέρχεται, οὐκέτ᾽ ᾿Αγαμέμνων ὁ ᾿Ατρέως οὐδὲ Κρέων ὁ Μενοικέως, ἀλλὰ Πῶλος Χαρικλέους Σουνιεὺς ὀνομαζόμενος ἣ Σάτυρος Θεογείτονος Μαραθώνιος. [‘Polus, son of Charicles, of Sunium,’ is not inconsistent with τὸν Αἰγινήτην in Plut. Dem. 28, for the great actor may have been a native of Aegina who was afterwards enrolled in the Attic deme of Sunium.] 1d. De mercede conduct. § 5 τοῖς τραγικοῖς ὑποκριταῖς...οἱ ἐπὶ μὲν τῆς σκηνῆς ᾿Αγαμέμνων ἕκαστος αὐτῶν ἢ Κρέων ἢ αὐτὸς Ἡρακλῆς εἰσιν, ἔξω δὲ ἸΠώλος ἢ ᾿Αριστόδημος, ἀποθέμενοι τὰ προσωπεῖα, γίγνονται.
+
+The Aristodemus coupled by Lucian with Polus is the actor mentioned by Aeschines and Demosthenes; the latter specially notices that he and Theodorus had both often acted the Antigone of Sophocles (or. 19. 8 246): Satyrus is the comic actor mentioned by the same orators (Aeschin. 2. § 156, Dem. or. 19. § 193). Thus we see how, in later Greek literature, Polus had become one of a small group of names typical of the best histrionic art of the classical age.
+
+1 On the sense in which a ‘plastic’ character is common to Greek Sculpture, Tragedy, and Oratory, cp. my A¢tic Orators, vol. 1. pp. xcviii—ciii.
+
+2 Dem. or. 18. § 262 μισθώσας αὑτὸν τοῖς βαρυστόνοις ἐπικαλουμένοις ἐκείνοις ὑποκριταῖς, Σιμύλῳ καὶ Σωκράτει, ἐτριταγωνίστεις.
+--- flags
+1 stage'!; [conf] →
+2 ‘ranting’ [conf] →
+3 is [conf] →
+4 Αγαμέμνων [accent] (Greek model: ᾽Αγαμέμνων.) →
+5 Ατρέως [accent] →
+6 Θεογείτονος [greek] (Greek model: Θεογείτονος.) →
+7 Sunium.] [conf] →
+8 1d. [digit] →
+9 mercede [rare] →
+10 Αγαμέμνων [accent] (Greek model: ᾽Αγα-) →
+11 Αγαμέμνων [accent] →
+12 Ἡρακλῆς [conf] →
+13 ἸΠώλος [greek] (Greek model: 'Πώλος) →
+14 Αριστόδημος [accent] (Greek model: Αριστόδημος,) →
+15 Theodorus [rare] →
+16 A¢tic [conf] →
+17 1. [digit] →
+--- notes
+
+=== p-0037
+## § 17 — Other ik on subject.
+
+The story of Oedipus was one of a few subjects which the Greek dramatists never tired of handling. Some eight or nine tragedies, entitled Oedipus, are known by the names of their authors, and by nothing else’. Plato, the poet of the Old Comedy, wrote a Laius, which was perhaps a parody of the Aeschylean play; and the Middle Comedy was indebted to Eubulus for an Oedipus from which a few verses are left—a travesty of the curse pronounced upon the unknown criminal®. Julius Caesar, like the younger Pitt, was a precocious dramatist, and Oedipus was his theme®. The self-blinded Oedipus was a part which Nero loved to act, and the last public recitation which he ever gave, we are told, was in this character. The Greek verse at which he stopped is on record : whose it was, we know not®. Of all the Greek versions, not one remains by which to gauge the excellence of Sophocles. But the literatures of other languages make some amends.
+
+Nothing can better illustrate the distinctive qualities of the Sophoclean Oedipus than to compare it with the treatment of the same theme by Seneca, Corneille, Dryden and Voltaire. So far as the last three are concerned, the comparison has a larger
+
+* An Οἰδίπους by the Carcinus whom Aristophanes ridicules is quoted by Arist. Rhet. 5. 16. 11. Xenocles is said to have been victorious, with a series of plays including an Οἰδίπους, against Euripides, one of whose pieces on that occasion was the Z'7oades, probably in 415 B.C. An Οἰδίπους is also ascribed to Achaeus (Nauck 7»γαρ. fr. p. 584), Theodectes (p. 623), and, more doubtfully, to Diogenes of Sinope (Ρ. 627); also by Suidas to Philocles, and to each of two poets named Nicomachus (one of Athens, the other of the Troad).
+
+3 Meineke Com. Frag. pp. 231 (Plato), Eubulus (451). Of the latter’s five verses, the last three are—ὅστις δ᾽ ἐπὶ δεῖπνον ἢ φίλον τιν᾽ ἢ ξένον | καλέσας ἔπειτα συμβολὰς ἐπράξατο, | φυγὰς γένοιτο μηδὲν οἴκοθεν λαβών. It seems quite possible, as has been suggested, that Eubulus was parodying verses from the Oedipus of Euripides.
+
+*ν* 3 Sueton. Jul. Caes. 56 Feruntur et a puero et ab adulescentulo quaedam scripta, ut laudes Herculis, tragoedia Oedipus.
+
+4 Sueton. Nero 21 Tragoedias quoque cantavit personatus. Inter cetera cantavit Canacen parturientem, Orestem matricidam, Oedipodem excaecatum, Herculem insanum.
+
+5 7b. 46 Observatum etiam fuerat novissimam fabulam cantasse eum [Neronem] publice Oedipum exsulem, atque in hoc desisse versu, οἰκτρῶς θανεῖν μ᾽ ἄνωγε σύγγαμος πατήρ. Dio Cassius (63. 28) also quotes the verse as one on which Nero’s mind dwelt : τὸ ἔπος ἐκεῖνο συνεχῶς ἐνενόει. |
+--- flags
+1 criminal®. [conf] →
+2 act, [conf] →
+3 Xenocles [rare] →
+4 Z'7oades, [digit] (Greek model: 7γοαάές,) →
+5 oades [latin] (Greek model: 7γοαάές,) →
+6 Jul. [conf] →
+7 Feruntur [rare] →
+8 adulescentulo [rare] →
+9 scripta [latin] →
+10 tragoedia [latin] →
+11 Tragoedias [rare] →
+12 cantavit [rare] →
+13 personatus [rare] →
+14 cantavit [rare] →
+15 Canacen [rare] →
+16 parturientem [latin] →
+17 Orestem [rare] →
+18 matricidam [rare] →
+19 Oedipodem [rare] →
+20 excaecatum [rare] →
+21 insanum [rare] →
+22 5 [conf] →
+23 7b. [digit] →
+24 Observatum [rare] →
+25 fuerat [rare] →
+26 novissimam [rare] →
+27 cantasse [rare] →
+28 Neronem [rare] →
+29 exsulem [rare] →
+30 desisse [rare] →
+31 | [conf] →
+--- notes
+
+=== p-0038
++ value. The differences between the spirit of the best Greck Tragedy and that of modern drama are not easily expressed in formulas, but can be made clearer by a particular example. Perhaps the literature of drama hardly affords any example so apposite for this purpose as the story of Oedipus.
+
+## § 18 — The Oedipus of Seneca.
+
+Seneca has followed, and sometimes paraphrased, Sophocles with sufficient fidelity to heighten the contrast between the original and the rhetorical transcript. For the comparative student of drama, however, the Roman piece is by no means devoid of instruction or of interest. Seneca’s plot diverges from that of Sophocles in three main points. (i) Teiresias does not intuitively know the murderer of Larus. When his aid is invoked by Oedipus, he has recourse to the arts of divination. Manto, the daughter of the blind seer, reports the signs to him, and he declares that neither voice of birds nor inspection of victims can reveal the name. Laius himself must be called up from the shades. In a grove near Thebes, Teiresias performs the awful rites which evoke the dead; the ghastly shape of Lafus rises—
+
+Stetit per artus sanguine effuso horridus— and denounces his son. This scene is related to Oedipus by Creon in a long and highly-wrought speech (530—658). Here, as in the earlier scene with Manto (303—402), copious use is made of detail from Roman augural lore, as well as of the Nekyia in the eleventh book of the Odyssey—suggesting a contrast with the lightness of touch which marks that passage of the Sophoclean Antigone (998—1011) where Teiresias describes the failure of his appeal to augury. There, the technical signs are briefly but vividly indicated; in Seneca, the erudition is heavy and obtrusive.
+
+(ii) After the discovery of the parricide and the incest, and when Oedipus has now blinded himself, Iocasta meets and thus accosts him :—
+
+Quid te vocem ?
+
+Natumne ? dubitas? natus es, natum pudet,
+
+Invite, loquere, nate: quo avertis caput
+
+Vacuosque vultus?
+--- flags
+1 Greck [latin] (Greek model: ατεοκ) →
+2 Larus. [conf] →
+3 Lafus [latin] (Greek model: Τιαῖυ5) →
+4 effuso [rare] →
+5 :— [conf] →
+6 vocem [conf] →
+7 Natumne [latin] (Greek model: Ναίυμηπε ἢ) →
+8 ? [conf] →
+9 dubitas [rare] →
+10 natum [rare] →
+11 loquere [rare] →
+12 avertis [rare] →
+13 Vacuosque [rare] →
+--- notes

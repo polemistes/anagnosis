@@ -1,7 +1,7 @@
 === p-0158
 --- text
 348	μὴ χερσὶ καίνων· εἰ δʼ ἐτύγχανες βλέπων,
-349	καὶ τοὔργον ἂν σοῦ τοῦτʼ, ἔφην εἶναι μόνου.
+349	καὶ τοὔργον ἂν σοῦ τοῦτʼ ἔφην εἶναι μόνου.
 @ Τειρεσίας
 350	ἄληθες; ἐννέπω σὲ τῷ κηρύγματι
 351	ᾧπερ προεῖπας ἐμμένειν, κἀφʼ ἡμέρας
@@ -15,7 +15,7 @@
 @ Οἰδίπους
 357	πρὸς τοῦ διδαχθείς; οὐ γὰρ ἔκ γε τῆς τέχνης.
 @ Τειρεσίας
-358	πρὸς σοῦ· σὺ γάρ μʼ ἄκοντα προυτρέψω λέγειν.
+358	πρὸς σοῦ· σὺ γάρ μʼ ἄκοντα προὐτρέψω λέγειν.
 @ Οἰδίπους
 359	ποῖον λόγον; λέγʼ αὖθις, ὡς μᾶλλον μάθω.
 @ Τειρεσίας
@@ -28,6 +28,8 @@
 360	λέγων; is printed on this line, with Jebb's asterisk (left out); the flag is a misread by the OCR.
 361	the two unmatched printed lines after this verse are OCR of the apparatus, not verses; nothing added.
 349	the apparatus begins with the end of the note on 349 (from leaf 156, "…τοῦτʼ ἔφην ἅπαν μόνου."); left to the batch before.
+349	res: no comma after τοῦτʼ, as printed
+358	res: προὐτρέψω (smooth breathing on υ), as printed; Perseus προυτρέψω
 360	the mark of abbreviation is printed as a stroke with a short heavy hook at the top; written /\. The note runs on to the facing page (leaf 159) and ends there.
 
 === p-0160
@@ -93,7 +95,7 @@
 392	ηὔδας τι τοῖσδʼ ἀστοῖσιν ἐκλυτήριον;
 393	καίτοι τό γʼ αἴνιγμʼ οὐχὶ τοὐπιόντος ἦν
 394	ἀνδρὸς διειπεῖν, ἀλλὰ μαντείας ἔδει·
-395	ἣν οὔτʼ ἀπʼ οἰωνῶν σὺ προυφάνης ἔχων
+395	ἣν οὔτʼ ἀπʼ οἰωνῶν σὺ προὐφάνης ἔχων
 396	οὔτʼ ἐκ θεῶν του γνωτόν· ἀλλʼ ἐγὼ μολών,
 397	ὁ μηδὲν εἰδὼς Οἰδίπους, ἔπαυσά νιν,
 398	γνώμῃ κυρήσας οὐδʼ ἀπʼ οἰωνῶν μαθών·
@@ -107,6 +109,7 @@
 394	ἀνδρὸς is printed; the OCR cut it short.
 398	the draft had a stray comma after ἀπʼ; the print has none (οὐδʼ ἀπʼ οἰωνῶν): removed.
 379	the top of the apparatus ("MSS.: Κρέων γε Brunck.") is the end of the note on 379, written with p-0160.
+395	res: προὐφάνης (smooth breathing on υ), as printed; Perseus προυφάνης; seen on the page while settling the residuals
 
 === p-0164
 --- text
@@ -176,7 +179,7 @@
 435	ἡμεῖς τοιοίδʼ ἔφυμεν, ὡς μὲν σοὶ δοκεῖ,
 436	μῶροι, γονεῦσι δʼ, οἵ σʼ ἔφυσαν, ἔμφρονες.
 @ Οἰδίπους
-437	ποίοισι; μεῖνον, τίς δέ μʼ ἐκφύει βροτῶν;
+437	ποίοισι; μεῖνον. τίς δέ μʼ ἐκφύει βροτῶν;
 @ Τειρεσίας
 438	ἥδʼ ἡμέρα φύσει σε καὶ διαφθερεῖ.
 @ Οἰδίπους
@@ -184,7 +187,7 @@
 @ Τειρεσίας
 440	οὔκουν σὺ ταῦτʼ ἄριστος εὑρίσκειν ἔφυς;
 @ Οἰδίπους
-441	τοιαῦτʼ ὀνείδιζʼ, οἷς ἔμʼ εὑρήσεις μέγαν.
+441	τοιαῦτʼ ὀνείδιζʼ οἷς ἔμʼ εὑρήσεις μέγαν.
 @ Τειρεσίας
 442	αὕτη γε μέντοι σʼ ἡ τύχη διώλεσεν.
 @ Οἰδίπους
@@ -195,7 +198,7 @@
 445	κομιζέτω δῆθʼ· ὡς παρὼν σύ γʼ ἐμποδὼν
 446	ὀχλεῖς, συθείς τʼ ἂν οὐκ ἂν ἀλγύνοις πλέον.
 @ Τειρεσίας
-447	εἰπὼν ἄπειμʼ ὧν οὕνεκʼ, ἦλθον, οὐ τὸ σὸν
+447	εἰπὼν ἄπειμʼ ὧν οὕνεκʼ ἦλθον, οὐ τὸ σὸν
 448	δείσας πρόσωπον· οὐ γὰρ ἔσθʼ ὅπου μʼ ὀλεῖς.
 449	λέγω δέ σοι· τὸν ἄνδρα τοῦτον, ὃν πάλαι
 --- apparatus
@@ -206,4 +209,7 @@
 --- notes
 438	διαφθερεῖ. is printed at the end of this line; the OCR missed it.
 446	τʼ is printed on this line (συθείς τʼ ἂν); the OCR misread it.
+437	res: full stop after μεῖνον (the draft a comma), as printed
+441	res: no comma after ὀνείδιζʼ, as printed
+447	res: no comma after οὕνεκʼ, as printed
 445	the note runs on to the facing page (leaf 169), where the 446 note follows; L's final σ in ἀλγύναισ copied as printed.

@@ -2,11 +2,11 @@
 --- text
 260	ἔχων δὲ λέκτρα καὶ γυναῖχʼ ὁμόσπορον,
 261	κοινῶν τε παίδων κοίνʼ ἄν, εἰ κείνῳ γένος
-262	μὴ ʼδυστύχησεν, ἦν ἂν ἐκπεφυκότα·
+262	μὴ ʼδυστύχησεν, ἦν ἂν ἐκπεφυκότα,
 263	νῦν δʼ ἐς τὸ κείνου κρᾶτʼ ἐνήλαθʼ ἡ τύχη·
 264	ἀνθʼ ὧν ἐγὼ τάδʼ, ὡσπερεὶ τοὐμοῦ πατρός,
 265	ὑπερμαχοῦμαι, κἀπὶ πάντʼ ἀφίξομαι
-266	ζητῶν τὸν αὐτόχειρα τοῦ φόνου λαβεῖν,
+266	ζητῶν τὸν αὐτόχειρα τοῦ φόνου λαβεῖν
 267	τῷ Λαβδακείῳ παιδὶ Πολυδώρου τε καὶ
 268	τοῦ πρόσθε Κάδμου τοῦ πάλαι τʼ Ἀγήνορος.
 269	καὶ ταῦτα τοῖς μὴ δρῶσιν εὔχομαι θεοὺς
@@ -20,6 +20,8 @@
 --- notes
 263	δʼ is printed on this line (checked on the image).
 265	The page prints ὑπερμαχοῦμαι, κἀπὶ πάντʼ ἀφίξομαι (comma after ὑπερμαχοῦμαι, πάντʼ for Perseus's πᾶν, no stop at the end); written as printed.
+262	res: comma after ἐκπεφυκότα (not a raised stop), as printed
+266	res: no comma after λαβεῖν, as printed
 
 === p-0148
 --- text
@@ -62,10 +64,10 @@
 @ Χορός
 292	θανεῖν ἐλέχθη πρός τινων ὁδοιπόρων.
 @ Οἰδίπους
-293	ἤκουσα κἀγώ. τὸν δʼ ἰδόντʼ οὐδεὶς ὁρᾷ.
+293	ἤκουσα κἀγώ· τὸν δʼ ἰδόντʼ οὐδεὶς ὁρᾷ.
 @ Χορός
 294	ἀλλʼ εἴ τι μὲν δὴ δείματός γʼ ἔχει μέρος,
-295	τὰς σὰς ἀκούων οὐ μενεῖ τοιάσδʼ ἀράς,
+295	τὰς σὰς ἀκούων οὐ μενεῖ τοιάσδʼ ἀράς.
 @ Οἰδίπους
 296	ᾧ μή ʼστι δρῶντι τάρβος, οὐδʼ ἔπος φοβεῖ.
 @ Χορός
@@ -84,25 +86,27 @@
 --- notes
 290	γʼ is printed on this line (checked on the image).
 297	Apparatus: the note runs on to the top of the next page's apparatus (p-0152, from "vantage in authority" to "see comm."); written whole here, the divided word ad-|vantage joined.
+293	res: raised stop after κἀγώ (not a full stop), as printed
+295	res: full stop after ἀράς (not a comma), as printed
 
 === p-0152
 --- text
-303	οἵᾳ νόσῳ σύνεστιν· ἧς σὲ προστάτην
+303	οἵᾳ νόσῳ σύνεστιν· ἧς σε προστάτην
 304	σωτῆρά τʼ, ὦναξ, μοῦνον ἐξευρίσκομεν.
 305	Φοῖβος γάρ, εἰ καὶ μὴ κλύεις τῶν ἀγγέλων,
 306	πέμψασιν ἡμῖν ἀντέπεμψεν, ἔκλυσιν
 307	μόνην ἂν ἐλθεῖν τοῦδε τοῦ νοσήματος,
 308	εἰ τοὺς κτανόντας Λάϊον μαθόντες εὖ
-309	κτείναιμεν ἢ γῆς φυγάδας ἐκπεμψαίμεθα.
+309	κτείναιμεν, ἢ γῆς φυγάδας ἐκπεμψαίμεθα.
 310	σύ νυν φθονήσας μήτʼ ἀπʼ οἰωνῶν φάτιν
 311	μήτʼ εἴ τινʼ ἄλλην μαντικῆς ἔχεις ὁδόν,
 312	ῥῦσαι σεαυτὸν καὶ πόλιν, ῥῦσαι δʼ ἐμέ,
 313	ῥῦσαι δὲ πᾶν μίασμα τοῦ τεθνηκότος.
 314	ἐν σοὶ γὰρ ἐσμέν· ἄνδρα δʼ ὠφελεῖν ἀφʼ ὧν
-315	ἔχοι τε καὶ δύναιτο, κάλλιστος πόνων.
+315	ἔχοι τε καὶ δύναιτο κάλλιστος πόνων.
 @ Τειρεσίας
 316	φεῦ φεῦ, φρονεῖν ὡς δεινὸν ἔνθα μὴ τέλη
-317	λύῃ φρονοῦντι· ταῦτα γὰρ καλῶς ἐγὼ
+317	λύῃ φρονοῦντι. ταῦτα γὰρ καλῶς ἐγὼ
 --- apparatus
 305	εἰ καὶ μὴ MSS.: εἴ τι μὴ L. Stephani: εἰ μὴ καὶ F. V. Fritzsch.
 307	τοῦδε] τήνδε Blaydes.
@@ -113,6 +117,10 @@
 --- notes
 305	The page prints εἰ καὶ μὴ (Jebb keeps the MSS. reading, see his apparatus), Perseus εἴ τι μὴ; written as printed.
 297	The apparatus begins with the end of the note on 297 ("vantage in authority ... see comm."), written with p-0150.
+303	res: σε unaccented (enclitic), as printed
+309	res: comma after κτείναιμεν, as printed
+315	res: no comma after δύναιτο, as printed
+317	res: full stop after φρονοῦντι (not a raised stop), as printed
 
 === p-0154
 --- text
@@ -127,12 +135,12 @@
 323	τῇδʼ, ἥ σʼ ἔθρεψε, τήνδʼ ἀποστερῶν φάτιν.
 @ Τειρεσίας
 324	ὁρῶ γὰρ οὐδὲ σοὶ τὸ σὸν φώνημʼ ἰὸν
-325	πρὸς καιρόν· ὡς οὖν μηδʼ ἐγὼ ταὐτὸν πάθω—
+325	πρὸς καιρόν· ὡς οὖν μηδʼ ἐγὼ ταὐτὸν πάθω.
 @ Οἰδίπους
 326	μὴ πρὸς θεῶν φρονῶν γʼ ἀποστραφῇς, ἐπεὶ
 327	πάντες σε προσκυνοῦμεν οἵδʼ ἱκτήριοι.
 @ Τειρεσίας
-328	πάντες γὰρ οὐ φρονεῖτʼ· ἐγὼ δʼ οὐ μή ποτε
+328	πάντες γὰρ οὐ φρονεῖτʼ. ἐγὼ δʼ οὐ μή ποτε
 329	τἄμʼ, ὡς ἂν εἴπω μὴ τὰ σʼ, ἐκφήνω κακά.
 @ Οἰδίπους
 330	τί φής; ξυνειδὼς οὐ φράσεις, ἀλλʼ ἐννοεῖς
@@ -148,6 +156,8 @@
 --- notes
 320	σὺ is printed at the end of this line (checked on the whole page).
 330	The print has ΟΙ. in the margin here; the draft's @ Οἰδίπους stands; all speakers on the page checked against the whole page.
+325	res: full stop after πάθω (not a dash), as printed
+328	res: full stop after φρονεῖτʼ (not a raised stop), as printed
 
 === p-0156
 --- text
@@ -171,7 +181,7 @@
 @ Οἰδίπους
 345	καὶ μὴν παρήσω γʼ οὐδέν, ὡς ὀργῆς ἔχω,
 346	ἅπερ ξυνίημʼ· ἴσθι γὰρ δοκῶν ἐμοὶ
-347	καὶ ξυμφυτεῦσαι τοὔργον εἰργάσθαι θʼ, ὅσον
+347	καὶ ξυμφυτεῦσαι τοὔργον, εἰργάσθαι θʼ, ὅσον
 --- apparatus
 336	κἀπαραίτητος Sehrwald.
 337	ὁρμὴν L 1st hand. γ has been written over μ by an early hand (prob. S), which has also sought to make μ into γ in the text. ὀργὴν r.—τὴν σὴν δʼ L, and so almost all the later MSS. But one at least (V⁴) has τὴν σοὶ δʼ, which Dindorf adopts.
@@ -181,3 +191,4 @@
 342	γʼ is printed on this line (checked on the image).
 345	γʼ is printed on this line (checked on the image).
 347	Apparatus: the note runs on to the top of the next page's apparatus (leaf 158: "re-touched, to make θʼ. εἰργάσθαι θʼ r."); written whole here.
+347	res: comma after τοὔργον, as printed

@@ -43,17 +43,17 @@
 91	εἰ τῶνδε χρῄζεις πλησιαζόντων κλύειν,
 92	ἕτοιμος εἰπεῖν, εἴτε καὶ στείχειν ἔσω.
 @ Οἰδίπους
-93	ἐς πάντας αὔδα· τῶνδε γὰρ πλέον φέρω
+93	ἐς πάντας αὔδα. τῶνδε γὰρ πλέον φέρω
 94	τὸ πένθος ἢ καὶ τῆς ἐμῆς ψυχῆς πέρι.
 @ Κρέων
 95	λέγοιμʼ ἂν οἷʼ ἤκουσα τοῦ θεοῦ πάρα.
 96	ἄνωγεν ἡμᾶς Φοῖβος ἐμφανῶς ἄναξ
 97	μίασμα χώρας, ὡς τεθραμμένον χθονὶ
-98	ἐν τῇδʼ, ἐλαύνειν μηδʼ ἀνήκεστον τρέφειν.
+98	ἐν τῇδʼ, ἐλαύνειν, μηδʼ ἀνήκεστον τρέφειν.
 @ Οἰδίπους
 99	ποίῳ καθαρμῷ; τίς ὁ τρόπος τῆς ξυμφορᾶς;
 @ Κρέων
-100	ἀνδρηλατοῦντας ἢ φόνῳ φόνον πάλιν
+100	ἀνδρηλατοῦντας, ἢ φόνῳ φόνον πάλιν
 101	λύοντας, ὡς τόδʼ αἷμα χειμάζον πόλιν.
 @ Οἰδίπους
 102	ποίου γὰρ ἀνδρὸς τήνδε μηνύει τύχην;
@@ -65,6 +65,9 @@
 101	χειμάζον L, with ει written over ον. The ει may be from the 1st hand, as Dübner thinks: but there is room for doubting whether it was not due to the διορθωτής or first corrector (S). A, and other of the later MSS., have χειμάζον: and χειμάζει, found in a few later MSS., seems to have been merely a conjecture.
 --- notes
 94	ἢ is printed on this verse: kept.
+93 res: full stop after αὔδα, not a raised stop, as printed
+98 res: comma after ἐλαύνειν, as printed
+100 res: comma after ἀνδρηλατοῦντας, as printed
 88	the apparatus begins with the end of the note on 88 (δύσφορα, probably by a mere error.): written with p-0122.
 101	the note runs on to the top of p-0126's apparatus ("found in a few later MSS., seems to have been merely a conjecture."): written here whole.
 
@@ -76,22 +79,22 @@
 106	τούτου θανόντος νῦν ἐπιστέλλει σαφῶς
 107	τοὺς αὐτοέντας χειρὶ τιμωρεῖν τινας.
 @ Οἰδίπους
-108	οἳ δʼ εἰσὶ ποῦ γῆς; ποῦ τόδʼ εὑρεθήσεται
+108	οἱ δʼ εἰσὶ ποῦ γῆς; ποῦ τόδʼ εὑρεθήσεται
 109	ἴχνος παλαιᾶς δυστέκμαρτον αἰτίας;
 @ Κρέων
-110	ἐν τῇδʼ ἔφασκε γῇ· τὸ δὲ ζητούμενον
+110	ἐν τῇδʼ ἔφασκε γῇ. τὸ δὲ ζητούμενον
 111	ἁλωτόν, ἐκφεύγει δὲ τἀμελούμενον.
 @ Οἰδίπους
 112	πότερα δʼ ἐν οἴκοις ἢ ʼν ἀγροῖς ὁ Λάϊος
 113	ἢ γῆς ἐπʼ ἄλλης τῷδε συμπίπτει φόνῳ;
 @ Κρέων
-114	θεωρός, ὡς ἔφασκεν, ἐκδημῶν, πάλιν
+114	θεωρός, ὡς ἔφασκεν, ἐκδημῶν πάλιν
 115	πρὸς οἶκον οὐκέθʼ ἵκεθʼ, ὡς ἀπεστάλη.
 @ Οἰδίπους
 116	οὐδʼ ἄγγελός τις οὐδὲ συμπράκτωρ ὁδοῦ
 117	κατεῖδʼ, ὅτου τις ἐκμαθὼν ἐχρήσατʼ ἄν;
 @ Κρέων
-118	θνῄσκουσι γάρ, πλὴν εἷς τις, ὃς φόβῳ, φυγὼν
+118	θνῄσκουσι γάρ, πλὴν εἷς τις, ὃς φόβῳ φυγὼν
 119	ὧν εἶδε πλὴν ἓν οὐδὲν εἶχʼ εἰδὼς φράσαι.
 @ Οἰδίπους
 120	τὸ ποῖον; ἓν γὰρ πόλλʼ ἂν ἐξεύροι μαθεῖν,
@@ -103,6 +106,10 @@
 106	νῦν is printed on this verse: kept.
 111	the print reads ἐκφεύγει (Perseus ἐκφεύγειν): changed.
 119	the print reads εἶδε: kept.
+108 res: οἱ with the breathing only, no accent, as printed
+110 res: full stop after γῇ, not a raised stop, as printed
+114 res: no comma after ἐκδημῶν, as printed
+118 res: no comma after φόβῳ, as printed
 101	the apparatus begins with the end of the note on 101 (found in a few later MSS., …): written with p-0124.
 117	the note runs on to the top of p-0128's apparatus ("autotype facsimile of L the original π is clear.] ὅτου r."): written here whole.
 
@@ -119,22 +126,26 @@
 127	οὐδεὶς ἀρωγὸς ἐν κακοῖς ἐγίγνετο.
 @ Οἰδίπους
 128	κακὸν δὲ ποῖον ἐμποδὼν τυραννίδος
-129	οὕτω πεσούσης, εἶργε τοῦτʼ ἐξειδέναι;
+129	οὕτω πεσούσης εἶργε τοῦτʼ ἐξειδέναι;
 @ Κρέων
 130	ἡ ποικιλῳδὸς Σφὶγξ τὸ πρὸς ποσὶ σκοπεῖν
 131	μεθέντας ἡμᾶς τἀφανῆ προσήγετο.
 @ Οἰδίπους
-132	ἀλλʼ ἐξ ὑπαρχῆς αὖθις αὔτʼ ἐγὼ φανῶ·
+132	ἀλλʼ ἐξ ὑπαρχῆς αὖθις αὔτʼ ἐγὼ φανῶ.
 133	ἐπαξίως γὰρ Φοῖβος, ἀξίως δὲ σὺ
 134	πρὸ τοῦ θανόντος τήνδʼ ἔθεσθʼ ἐπιστροφήν·
-135	ὥστʼ ἐνδίκως ὄψεσθε κἀμὲ σύμμαχον
+135	ὥστʼ ἐνδίκως ὄψεσθε κἀμὲ σύμμαχον,
 136	γῇ τῇδε τιμωροῦντα τῷ θεῷ θʼ ἅμα.
-137	ὑπὲρ γὰρ οὐχὶ τῶν ἀπωτέρω φίλων,
+137	ὑπὲρ γὰρ οὐχὶ τῶν ἀπωτέρω φίλων
 --- apparatus
 134	πρὸ τοῦ L. The 1st hand had written πρὸ στοῦ, separating the σ (as he often does) from the syllable to which it belonged, and forming στ in one character; the corrector erased the σ. Among the later MSS., A and a few more have πρὸ (sometimes with the gloss ὑπὲρ): others have πρός.—τήνδʼ ἔθεσθʼ ἐπιστροφήν] A variant recorded in the margin of L, τήνδε θεσπίζει γραφήν, is instructive, as indicating the lengths to which arbitrary conjecture was sometimes carried. Cp. on 1529.
 --- notes
 128	the print reads ἐμποδὼν with a grave and no comma after it (Perseus ἐμποδών,): changed.
 130	the print reads ποσὶ (Perseus ποσὶν): changed.
+129 res: no comma after πεσούσης, as printed
+132 res: full stop after φανῶ, not a raised stop, as printed
+135 res: comma after σύμμαχον, as printed (seen on the page beside the residuals)
+137 res: no comma after φίλων, as printed
 117	the apparatus begins with the end of the note on 117 (autotype facsimile of L …): written with p-0126.
 134	the note runs on to the top of p-0130's apparatus ("conjecture was sometimes carried. Cp. on 1529."): written here whole.
 

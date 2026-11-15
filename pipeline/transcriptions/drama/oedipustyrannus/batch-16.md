@@ -122,7 +122,7 @@
 @ Κρέων
 1519a	τοιγαροῦν τεύξει τάχα.
 @ Οἰδίπους
-1520	φῂς τάδʼ οὖν;
+1520	φὴς τάδʼ οὖν;
 @ Κρέων
 1520a	ἃ μὴ φρονῶ γὰρ οὐ φιλῶ λέγειν μάτην.
 @ Οἰδίπους
@@ -141,6 +141,7 @@
 1513	in the note, the marks after "writes", "καιρός" and "ζῆν" print as low dots (worn commas); written as commas, since Jebb's next sentence says Blaydes and Campbell "place no comma after καιρός".
 1516	flags (split): each trochaic verse 1516-1521 is printed on one line, ΟΙ. … ΚΡ. …, with Creon's words after ΚΡ. in mid-line: the splits with @ Κρέων / @ Οἰδίπους kept.
 1517	the turnovers κλύων. (1517), δόσιν. (1518), τάχα. (1519), μάτην. (1520, margin 1520 beside it) and δʼ ἀφοῦ. (1521) are printed set in on the next line: confirmed as the ends of these verses; δόσιν confirmed.
+1520	res: φὴς with grave accent and no iota subscript, as printed (Perseus φῂς)
 1518	the notes from "λῴονος. Blaydes and Campbell" (end of 1513) and those on 1517, 1518, 1521 stand on the facing page (leaf 297); the note on 1521 runs on beyond the spread to the top of leaf 298's apparatus ("right, though νυν ..νῦν would be quite defensible."); written whole here.
 
 === p-0298

@@ -116,9 +116,9 @@
 454	ψευδεῖ καλεῖσθαι κὴρ πρόσεστιν οὐ καλή.
 455	ὅπως δὲ λήσεις, οὐδὲ τοῦτο γίγνεται·
 --- apparatus
-441	μέν νυν] μεν νῦν L, with an erasure of two letters before ὖν. Stobaeus, who quotes vv. 441—443, has μὲν γοῦν (Flor. 63. 24, p. 388).
+441	μέν νυν] μεν νῦν L, with an erasure of two letters before ῦν. Stobaeus, who quotes vv. 441—443, has μὲν γοῦν (Flor. 63. 24, p. 388).
 444	Wunder and Nauck bracket this v.—κἀμοῦ γε· πῶς δʼ οὐ] καμοῦ γε· πῶσδʼ ού· L.—χἀτέρας οἵας γʼ ἐμοῦ] Blaydes writes χἀτέρας γʼ οἵας ἐμοῦ.
-445	This v. was omitted by the first hand in L, and added in the margin by S. Cp. 536.—τὠμῷ τʼ ἀνδρὶ] τῶιμῶ τἀνδρὶ L. For τʼ, Schaefer conj. γʼ: Blaydes writes κείνῳ τἀνδρί.
+445	This v. was omitted by the first hand in L, and added in the margin by S. Cp. 536.—τὠμῷ τʼ ἀνδρὶ] τῶιμῶ τἀνδρὶ L. For τʼ, Schaefer conj. γʼ: Blaydes writes κείνῳ τἀνδρὶ.
 447	μεταιτίᾳ] μετʼ αἰτίαι L, with ω written over the second α by a late hand. μεταιτίῳ r.
 448	ἐμοὶ] ἐμοῦ K.
 449	οὐκἔστι (not οὐκεύτι) L.
@@ -133,6 +133,8 @@
 444	app.: L's ού· is printed with an acute only, no breathing visible; copied so.
 445	app.: the note runs on to the facing page (L. For τʼ, Schaefer conj. ...); the end of it and the 447 note stand above the lines cropped in -app2; read from leaf 145.
 453	app.: πάν τʼ is printed with a space before τʼ; copied so.
+441	rev: app. "before ὖν" corrected to "before ῦν" (the print has the circumflex only, no breathing).
+445	rev: app. "κείνῳ τἀνδρί." corrected to "κείνῳ τἀνδρὶ." (grave, as printed on leaf 145).
 
 === p-0146
 --- text

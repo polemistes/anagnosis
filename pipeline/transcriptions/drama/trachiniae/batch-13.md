@@ -53,7 +53,7 @@
 1045	οἵαις B, T, Vat.: οἵασ L, with most MSS., and Ald.
 1046	κοὐ λόγῳ κακὰ Bothe: καὶ λόγῳ κακὰ MSS.: καὶ λόγων πέρα Wunder. Hense would write καὶ λόφῳ κακά, making those words change places with μοχθήσας ἐγώ.
 1047	χερσὶ] χειρὶ A, R, Harl., and Ald.—καὶ νώτοισι] Wecklein conj. καὶ στέρνοισι: Hartung writes κἀννοίαισι: see comment.
-1051	ἐμοῖς] ἐμοὶ L, with σ added above by a late hand.—ἐρινύων L: ἐριννύων r, and Ald.
+1051	ἐμοῖς] ἐμοῖ L, with σ added above by a late hand.—ἐρινύων L: ἐριννύων r, and Ald.
 1052	διόλλυμαι] L has ο in an erasure, from ω.
 --- notes
 1036	the margin prints 1038 beside this verse (σὰ μάτηρ … πεσοῦσαν covers 1036-1039), 1041 beside ὦ Διὸς αὐθαίμων, 1045 beside ἄνακτος, 1050 beside οἷον τόδʼ: the numbering agrees, nothing renumbered.
@@ -64,6 +64,7 @@
 1038	apparatus: Jebb's numbers 1038, 1039 name verses inside our longer lines (1036, 1040); kept as printed (this answers the checker's remark on 1039). ἃν and ἣν both with rough breathing, as printed.
 1047	apparatus: κἀν-|νοίαισι divided only at the end of a printed line: written whole.
 1044	res: renumbered from 1043: the trimeter κλύουσʼ ἔφριξα stands before ἄνακτος, which bears the margin 1045, and Jebb's apparatus names it 1044 (ὠκυπέτᾳ … φθίσας covers 1042-1043, as in L's division 1027-1043).
+1051	rev: apparatus: L's reading is printed ἐμοῖ (circumflex), not ἐμοὶ: corrected.
 
 === p-0228
 --- text

@@ -163,12 +163,12 @@
 @ Λίχας
 319	ἥκιστα· σιγῇ τοὐμὸν ἔργον ἤνυτον.
 @ Δηιάνειρα
-320	εἴπʼ, ὦ τάλαινʼ, ἀλλʼ ἡμὶν ἐκ σαυτῆς, ἐπεὶ
+320	εἴπʼ, ὦ τάλαινʼ, ἀλλʼ ἡμὶν ἐκ σαυτῆς· ἐπεὶ
 321	καὶ ξυμφορά τοι μὴ εἰδέναι σέ γʼ ἥτις εἶ.
 @ Λίχας
 322	οὔ τἄρα τῷ γε πρόσθεν οὐδὲν ἐξ ἴσου
 323	χρόνῳ διήσει γλῶσσαν, ἥτις οὐδαμὰ
-324	προύφηνεν οὔτε μείζονʼ οὔτʼ ἐλάσσονα,
+324	προὔφηνεν οὔτε μείζονʼ οὔτʼ ἐλάσσονα,
 325	ἀλλʼ αἰὲν ὠδίνουσα συμφορᾶς βάρος
 326	δακρυρροεῖ δύστηνος, ἐξ ὅτου πάτραν
 327	διήνεμον λέλοιπεν· ἡ δέ τοι τύχη
@@ -196,3 +196,5 @@
 326	ἐδά-|κρυεν divided at a line end in the print; written whole.
 329	Nauck's ἧ: the breathing under the circumflex is small; read as rough.
 331	the note runs on beyond the spread to the top of leaf 128's apparatus ("conj. προσφατόν γʼ ἐμοῦ λάβοι. … Blaydes restores λάβῃ."), read from the whole page leaf_0128.png; written whole here, so p-0128 (batch 05) should not write that end again.
+320	rev: raised stop after σαυτῆς (not a comma), as printed
+324	rev: προὔφηνεν with the coronis (breathing and acute on υ), as printed

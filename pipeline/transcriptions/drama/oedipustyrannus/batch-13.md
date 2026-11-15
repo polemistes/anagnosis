@@ -151,7 +151,7 @@
 --- text
 @ Χορός
 1232	λείπει μὲν οὐδʼ ἃ πρόσθεν ἤδειμεν τὸ μὴ οὐ
-1233	βαρύστονʼ εἶναι· πρὸς δʼ ἐκείνοισιν τί φῄς;
+1233	βαρύστονʼ εἶναι· πρὸς δʼ ἐκείνοισιν τί φής;
 @ Ἐξάγγελος
 1234	ὁ μὲν τάχιστος τῶν λόγων εἰπεῖν τε καὶ
 1235	μαθεῖν, τέθνηκε θεῖον Ἰοκάστης κάρα.
@@ -164,7 +164,7 @@
 1240	πεύσει τὰ κείνης ἀθλίας παθήματα.
 1241	ὅπως γὰρ ὀργῇ χρωμένη παρῆλθʼ ἔσω
 1242	θυρῶνος, ἵετʼ εὐθὺ πρὸς τὰ νυμφικὰ
-1243	λέχη, κόμην σπῶσʼ ἀμφιδεξίοις ἀκμαῖς.
+1243	λέχη, κόμην σπῶσʼ ἀμφιδεξίοις ἀκμαῖς·
 1244	πύλας δʼ, ὅπως εἰσῆλθʼ, ἐπιρράξασʼ ἔσω
 1245	καλεῖ τὸν ἤδη Λάϊον πάλαι νεκρόν,
 1246	μνήμην παλαιῶν σπερμάτων ἔχουσʼ, ὑφʼ ὧν
@@ -181,6 +181,8 @@
 1242	θυρῶνος checked: printed so.
 1244	the print reads ὅμως εἰσῆλθʼ, an evident misprint for ὅπως (Jebb's translation: "once within the chamber"; a reader has pencilled ὅπως in the margin): ὅπως kept.
 1245	numbering checked: margin 1235, 1240, 1245 agree with the draft.
+1233	res: φής (acute, no iota subscript), as printed
+1243	res: raised stop after ἀκμαῖς, as printed
 1245	apparatus: the note runs on to the facing page (leaf 263, "Erfurdt. … the MSS.") and ends at the top of leaf 264 ("have κύνει for κυνεῖ."): written here whole.
 
 === p-0264

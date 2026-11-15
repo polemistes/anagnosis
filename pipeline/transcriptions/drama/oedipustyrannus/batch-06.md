@@ -30,7 +30,7 @@
 467	ἵππων σθεναρώτερον
 468	φυγᾷ πόδα νωμᾶν.
 469	ἔνοπλος γὰρ ἐπʼ αὐτὸν ἐπενθρῴσκει
-470	πυρὶ καὶ στεροπαῖς ὁ Διὸς γενέτας,
+470	πυρὶ καὶ στεροπαῖς ὁ Διὸς γενέτας·
 471	δειναὶ δʼ ἅμʼ ἕπονται
 472	Κῆρες ἀναπλάκητοι.
 473	ἔλαμψε γὰρ τοῦ νιφόεντος ἀρτίως φανεῖσα
@@ -47,6 +47,7 @@
 475	Punctuation seen on the whole page: the print has a comma after Παρνασοῦ (475), a full stop after ἀναπλάκητοι (472) and a comma after ἰσόταυρος (478), which the draft lacked; corrected.
 478	Jebb prints *ἰσόταυρος (his conjecture mark), left out of the text as the brief says.
 478	The note runs on to the facing page (leaf 173) and ends at the top of p-0174's apparatus ("…ἔναυ- | λος."): written here whole, the divided word ἔναυλος joined.
+470	res: raised stop after γενέτας (not a comma), as printed
 
 === p-0174
 --- text
@@ -54,25 +55,27 @@
 480	τὰ μεσόμφαλα γᾶς ἀπονοσφίζων
 481	μαντεῖα· τὰ δʼ ἀεὶ
 482	ζῶντα περιποτᾶται.
-483	δεινὰ μὲν οὖν, δεινὰ ταράσσει σοφὸς οἰωνοθέτας
+483	δεινὰ μὲν οὖν, δεινὰ ταράσσει σοφὸς οἰωνοθέτας,
 485	οὔτε δοκοῦντʼ οὔτʼ ἀποφάσκονθʼ· ὅ τι λέξω δʼ ἀπορῶ.
 486	πέτομαι δʼ ἐλπίσιν, οὔτʼ ἐνθάδʼ ὁρῶν οὔτʼ ὀπίσω.
 487	τί γὰρ ἢ Λαβδακίδαις
-490	ἢ τῷ Πολύβου νεῖκος ἔκειτʼ, οὔτε πάροιθέν ποτʼ ἔγωγʼ οὔτε τανῦν πω
-491	ἔμαθον, πρὸς ὅτου δὴ ⟨βασανίζων⟩ βασάνῳ
-492	ἐπὶ τὰν ἐπίδαμον φάτιν εἶμʼ Οἰδιπόδα, Λαβδακίδαις
-495	ἐπίκουρος ἀδήλων θανάτων.
+488	ἢ τῷ Πολύβου νεῖκος ἔκειτʼ, οὔτε πάροιθέν ποτʼ ἔγωγʼ οὔτε τανῦν πω
+493	ἔμαθον, πρὸς ὅτου δὴ ⟨βασανίζων⟩ βασάνῳ
+495	ἐπὶ τὰν ἐπίδαμον φάτιν εἶμʼ Οἰδιπόδα, Λαβδακίδαις
+496	ἐπίκουρος ἀδήλων θανάτων.
 --- apparatus
 483	δεινὰ μὲν οὖν] δεινά με νῦν Bergk: δεινά με νοῦν Nauck.
 493	There is a defect in the text as given by L and the other MSS., the antistrophic verse (508) being φανερὰ γὰρ ἐπʼ αὐτῷ πτερόεσσʼ ἦλθε κόρα. (See Metrical Analysis.) The alternatives are, (1) to supply ⏑ ⏑ – – after ἔμαθον, or after ὅτου δὴ: (2) to supply – ⏑ ⏑ – after βασάνῳ. It may be noticed that in L the words πρὸσ ὅτου δὴ stand in a line by themselves, the large space left after them suggesting the loss of something there. See comment.—One later MS. (Bodl. Laud. 54) has παρʼ ὅτου, with the gloss παρʼ οὗ, ἤγουν τοῦ νείκους.
 --- notes
 479	Renumbered 478→479 to the print, running on from the renumbering on p-0172 (πέτρας ἰσόταυρος is 478, Jebb's note 478); the margin 480 at τὰ μεσόμφαλα confirms it.
 483	The apparatus begins with the end of the note on 478 ("λος."): written with p-0172.
-490	Flags on 487 ("[οὔτε", "τανῦν", square brackets): the words [οὔτε τανῦν πω stand at the right end of the printed line of 487, opened by a bracket: Jebb's turn-up of the end of the next verse, too long for its own line (ἢ τῷ Πολύβου … ἔγωγʼ οὔτε τανῦν πω). The draft had lost them; added at the end of 490, without the bracket (a printer's mark, not an editorial bracket). 487 itself unchanged.
-491	The print has ⟨βασανίζων⟩ in angle brackets (Jebb's supplement, see his note 493); the draft had no brackets; added.
-492	Flag (margin 495 at a line numbered 492): the margin 495 stands beside the verse ἐπὶ τὰν … Λαβδακίδαις, whose last word stands in Perseus line 495; ἐπίκουρος begins in the same Perseus line and keeps 495. Numbering left as the draft (margin 485 at οὔτε δοκοῦντʼ agrees). The print has a comma after Οἰδιπόδα; added.
+488	(was 490) Flags on 487 ("[οὔτε", "τανῦν", square brackets): the words [οὔτε τανῦν πω stand at the right end of the printed line of 487, opened by a bracket: Jebb's turn-up of the end of the next verse, too long for its own line (ἢ τῷ Πολύβου … ἔγωγʼ οὔτε τανῦν πω). The draft had lost them; added at the end of 490, without the bracket (a printer's mark, not an editorial bracket). 487 itself unchanged.
+493	(was 491) The print has ⟨βασανίζων⟩ in angle brackets (Jebb's supplement, see his note 493); the draft had no brackets; added.
+495	(was 492) Flag (margin 495 at a line numbered 492): the margin 495 stands beside the verse ἐπὶ τὰν … Λαβδακίδαις, whose last word stands in Perseus line 495; ἐπίκουρος begins in the same Perseus line and keeps 495. Numbering left as the draft (margin 485 at οὔτε δοκοῦντʼ agrees). The print has a comma after Οἰδιπόδα; added.
 486	The print has the comma after ἐλπίσιν, not after οὔτʼ; corrected.
-493	Jebb's note 493 is on the defect in ἔμαθον, πρὸς ὅτου δὴ ⟨βασανίζων⟩ βασάνῳ (our 491): kept under Jebb's number 493, which names no line of ours.
+493	Jebb's note 493 is on the defect in ἔμαθον, πρὸς ὅτου δὴ ⟨βασανίζων⟩ βασάνῳ: since the second pass that verse is 493 (see the res note below).
+483	res: comma after οἰωνοθέτας, as printed
+495	res: renumbered to the print: the margin 495 stands beside ἐπὶ τὰν … Λαβδακίδαις, so that verse is 495 (was 492) and ἐπίκουρος ἀδήλων θανάτων. 496 (was 495; Jebb's commentary 497 on θανάτων); in between, by Jebb's own numbers, ἢ τῷ Πολύβου … ἔγωγʼ οὔτε τανῦν πω is 488 (was 490; his commentary 487 f. ἢ Λαβδακίδαις ἢ τῷ Πολύβου) and ἔμαθον … βασάνῳ 493 (was 491; his apparatus 493, commentary 493 πρὸς ὅτου, and the apparatus 508 on p-0176 "v. 493 (ἔμαθον κ.τ.λ.)"). Margins 480, 483, 485 agree. This overrides the first pass's note on 492 above. The checker does not see a renumbering; noted here.
 
 === p-0176
 --- text
@@ -83,7 +86,7 @@
 505	ἀλλʼ οὔποτʼ ἔγωγʼ ἄν, πρὶν ἴδοιμʼ ὀρθὸν ἔπος, μεμφομένων ἂν καταφαίην.
 508	φανερὰ γὰρ ἐπʼ αὐτῷ πτερόεσσʼ ἦλθε κόρα
 510	ποτέ, καὶ σοφὸς ὤφθη βασάνῳ θʼ ἁδύπολις· τῷ ἀπʼ ἐμᾶς
-511	φρενὸς οὔποτʼ ὀφλήσει κακίαν.
+512	φρενὸς οὔποτʼ ὀφλήσει κακίαν.
 @ Κρέων
 513	ἄνδρες πολῖται, δείνʼ ἔπη πεπυσμένος
 514	κατηγορεῖν μου τὸν τύραννον Οἰδίπουν
@@ -104,6 +107,7 @@
 514	The print has no comma after Οἰδίπουν; removed.
 516	The two printed lines "after 516" that matched no Perseus words are Tesseract's reading of the apparatus (508): nothing added.
 508	The note on 508 ends on the facing page (leaf 177) with "retained γάρ."; the note on 516 runs on to the top of p-0178's apparatus ("above the line in L … πρός τʼ."): written here whole.
+512	res: renumbered to the print (was 511): the margin 512 stands beside φρενὸς οὔποτʼ ὀφλήσει κακίαν; numbers run 510, 512, 513. This overrides the first pass's note on 498 ("φρενὸς keeps 511"). Margins 500 and 515 agree.
 
 === p-0178
 --- text
@@ -117,7 +121,7 @@
 523	ἀλλʼ ἦλθε μὲν δὴ τοῦτο τοὔνειδος τάχʼ ἂν
 524	ὀργῇ βιασθὲν μᾶλλον ἢ γνώμῃ φρενῶν.
 @ Κρέων
-525	τοὔπος δʼ ἐφάνθη, ταῖς ἐμαῖς γνώμαις ὅτι
+525	τοὔπος δʼ ἐφάνθη ταῖς ἐμαῖς γνώμαις ὅτι
 526	πεισθεὶς ὁ μάντις τοὺς λόγους ψευδεῖς λέγοι;
 @ Χορός
 527	ηὐδᾶτο μὲν τάδʼ, οἶδα δʼ οὐ γνώμῃ τίνι.
@@ -125,7 +129,7 @@
 528	ἐξ ὀμμάτων δʼ ὀρθῶν τε κἀξ ὀρθῆς φρενὸς
 529	κατηγορεῖτο τοὐπίκλημα τοῦτό μου;
 @ Χορός
-530	οὐκ οἶδʼ· ἃ γὰρ δρῶσʼ, οἱ κρατοῦντες οὐχ ὁρῶ.
+530	οὐκ οἶδʼ· ἃ γὰρ δρῶσʼ οἱ κρατοῦντες οὐχ ὁρῶ.
 531	αὐτὸς δʼ ὅδʼ ἤδη δωμάτων ἔξω περᾷ.
 @ Οἰδίπους
 532	οὗτος σύ, πῶς δεῦρʼ ἦλθες; ἦ τοσόνδʼ ἔχεις
@@ -139,6 +143,8 @@
 517	The apparatus begins with the end of the note on 516 ("above the line in L … πρός τʼ."): written with p-0176.
 525	The print distinguishes τοὖπος (breathing and circumflex), τοῦπος and τοὔπος (breathing and acute); copied so.
 528	The note runs on to the top of p-0180's apparatus ("is given by Suidas … (Γ, Δ, Trin.)."): written here whole.
+525	res: no comma after ἐφάνθη, as printed (removed)
+530	res: no comma after δρῶσʼ, as printed (removed; seen on the whole page, not in the residual list)
 
 === p-0180
 --- text

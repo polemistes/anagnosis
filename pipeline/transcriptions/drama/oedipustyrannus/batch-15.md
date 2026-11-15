@@ -15,7 +15,7 @@
 1375	ἀλλʼ ἡ τέκνων δῆτʼ ὄψις ἦν ἐφίμερος,
 1376	βλαστοῦσʼ ὅπως ἔβλαστε, προσλεύσσειν ἐμοί;
 1377	οὐ δῆτα τοῖς γʼ ἐμοῖσιν ὀφθαλμοῖς ποτε·
-1378	οὐδʼ ἄστυ γʼ οὐδὲ πύργος οὐδὲ δαιμόνων
+1378	οὐδʼ ἄστυ γʼ, οὐδὲ πύργος, οὐδὲ δαιμόνων
 1379	ἀγάλμαθʼ ἱερά, τῶν ὁ παντλήμων ἐγὼ
 1380	κάλλιστʼ ἀνὴρ εἷς ἔν γε ταῖς Θήβαις τραφεὶς
 --- apparatus
@@ -27,6 +27,7 @@
 1365	the apparatus begins with the end of a note from the page before ("Musgrave."): left to the batch before.
 1370	συμβούλευʼ checked: the page prints συμβούλευʼ (the OCR's ν is the type's υ).
 1379	the note runs on to the top of the next text page (leaf 280, "ὧν."): written whole here.
+1378 res: commas after γʼ and after πύργος, as printed
 
 === p-0280
 --- text
@@ -45,13 +46,14 @@
 1393	ἐμαυτὸν ἀνθρώποισιν ἔνθεν ἦ γεγώς;
 1394	ὦ Πόλυβε καὶ Κόρινθε καὶ τὰ πάτρια
 1395	λόγῳ παλαιὰ δώμαθʼ, οἷον ἆρά με
-1396	κάλλος κακῶν ὕπουλον ἐξεθρέψατε·
+1396	κάλλος κακῶν ὕπουλον ἐξεθρέψατε.
 --- apparatus
 1383	καὶ γένους τοῦ Λαΐου] These words seem sound (see comment.), but have been variously amended. Blaydes, καὶ γένος τὸν Λαΐου (‘by birth the son of L.’): Hartung, κἂν γένους τοῦ Λαΐου (‘though he be of L.’s race’): Herwerden, καὶ γένους ἀλάστορα: Mekler, καὶ γένους τοὐμοῦ μύσος. Benedict (Obs. in Soph., 1820) would place the full stop after ἄναγνον, and take καὶ γένους τοῦ Λ. with κηλῖδα (‘a stain on the race’); and so Kennedy.
 1387	ἀν εσχόμην, L, i.e. ἀνεσχόμην, as is shown by the absence of accent on ἀν and of breathing on ε: the scribe often thus leaves a small space between syllables or letters. Most of the later MSS. have ἀνεσχόμην or ἠνεσχόμην, but two at least (A, V) give ἂν ἐσχόμην.
 1388	τὸ μὴ ἀποκλεῖσαι MSS.: τὸ μὴ ἀποκλῇσαι Elmsley. The original form of the verb was κληΐω (being formed from the noun-stem κλῆϝι, cp. κονίω, μηνίω), and κλῄω, not κλείω, was the older Attic form, still used, doubtless, in the time of Sophocles: thus κληίς occurs in an Attic inscription later than 403 B.C.; though κλείς, κλεῖθρον, etc., occur as early as about 378—330 B.C. (Meisterhans, Gramm. Att. Inschr. p. 17.) The spelling of κλείω, etc., fluctuates in our MSS.: thus L has κλεῖθρα above in v. 1262, but κλῆιθρα in 1287, 1294.
 --- notes
 1381	no flags on this page. The apparatus begins with the end of the 1379 note ("ὧν."), written with the page before.
+1396 res: full stop after ἐξεθρέψατε (not a raised stop), as printed
 1387	the note runs on to the facing page (leaf 281, "but two at least (A, V) give ἂν ἐσχόμην."); the -app2 crops of this page are empty, so the facing page's apparatus was read from leaf 281 itself.
 1388	the note begins on the facing page (leaf 281) and runs on to the top of the next text page (leaf 282, "1294."): written whole here. κλῆϝι: the print has the digamma, written ϝ.
 
@@ -63,15 +65,15 @@
 1400	αἳ τοὐμὸν αἷμα τῶν ἐμῶν χειρῶν ἄπο
 1401	ἐπίετε πατρός, ἆρά μου μέμνησθέ τι,
 1402	οἷʼ ἔργα δράσας ὑμὶν εἶτα δεῦρʼ ἰὼν
-1403	ὁποῖʼ ἔπρασσον αὖθις; ᾧ γάμοι γάμοι,
+1403	ὁποῖʼ ἔπρασσον αὖθις; ὦ γάμοι γάμοι,
 1404	ἐφύσαθʼ ἡμᾶς, καὶ φυτεύσαντες πάλιν
 1405	ἀνεῖτε ταὐτοῦ σπέρμα, κἀπεδείξατε
 1406	πατέρας, ἀδελφούς, παῖδας, αἷμʼ ἐμφύλιον,
-1407	νύμφας, γυναῖκας μητέρας τε, χὠπόσα
+1407	νύμφας γυναῖκας μητέρας τε, χὠπόσα
 1408	αἴσχιστʼ ἐν ἀνθρώποισιν ἔργα γίγνεται.
 1409	ἀλλʼ οὐ γὰρ αὐδᾶν ἔσθʼ ἃ μηδὲ δρᾶν καλόν,
 1410	ὅπως τάχιστα πρὸς θεῶν ἔξω μέ που
-1411	καλύψατʼ ἢ φονεύσατʼ ἢ θαλάσσιον
+1411	καλύψατʼ, ἢ φονεύσατʼ, ἢ θαλάσσιον
 1412	ἐκρίψατʼ, ἔνθα μήποτʼ εἰσόψεσθʼ ἔτι.
 1413	ἴτʼ, ἀξιώσατʼ ἀνδρὸς ἀθλίου θιγεῖν.
 1414	πίθεσθε, μὴ δείσητε· τἀμὰ γὰρ κακὰ
@@ -86,6 +88,9 @@
 1405	σπέρμα, and κἀπεδείξατε checked: printed on this verse (pencil writing over ταὐτοῦ σπέρμα ignored; Jebb's asterisk before ταὐτοῦ left out).
 1415	the three unmatched printed lines after this verse are the apparatus (OCR), not verses: nothing added.
 1414	the note runs on to the top of the next text page (leaf 284, "able."): written whole here.
+1403 res: ὦ (smooth breathing, no iota subscript), as printed
+1407 res: no comma after νύμφας, as printed
+1411 res: commas after καλύψατʼ and after φονεύσατʼ, as printed
 
 === p-0284
 --- text
@@ -125,7 +130,7 @@
 @ Οἰδίπους
 1432	πρὸς θεῶν, ἐπείπερ ἐλπίδος μʼ ἀπέσπασας,
 1433	ἄριστος ἐλθὼν πρὸς κάκιστον ἄνδρʼ ἐμέ,
-1434	πιθοῦ τί μοι· πρὸς σοῦ γὰρ οὐδʼ ἐμοῦ φράσω.
+1434	πιθοῦ τί μοι· πρὸς σοῦ γάρ, οὐδʼ ἐμοῦ, φράσω.
 @ Κρέων
 1435	καὶ τοῦ με χρείας ὧδε λιπαρεῖς τυχεῖν;
 @ Οἰδίπους
@@ -138,8 +143,8 @@
 1440	ἀλλʼ ἥ γʼ ἐκείνου πᾶσʼ ἐδηλώθη φάτις,
 1441	τὸν πατροφόντην, τὸν ἀσεβῆ μʼ ἀπολλύναι.
 @ Κρέων
-1442	οὕτως ἐλέχθη ταῦθʼ· ὅμως δʼ ἵνʼ ἕσταμεν
-1443	χρείας, ἄμεινον ἐκμαθεῖν τι δραστέον.
+1442	οὕτως ἐλέχθη ταῦθʼ· ὅμως δʼ, ἵνʼ ἕσταμεν
+1443	χρείας, ἄμεινον ἐκμαθεῖν τί δραστέον.
 @ Οἰδίπους
 1444	οὕτως ἄρʼ ἀνδρὸς ἀθλίου πεύσεσθʼ ὕπερ;
 @ Κρέων
@@ -160,6 +165,9 @@
 1439	the page prints πρακτέον (Perseus πρακτέαν).
 1446	the page prints προστρέψομαι (Perseus προστέψομαι), as Jebb's apparatus (προστρέψομαι L).
 1446	the note runs on to the top of the next text page (leaf 288, "which some edd. receive: but see comment."): written whole here.
+1434 res: γάρ, (acute, comma) and comma after ἐμοῦ, as printed
+1442 res: comma after δʼ, as printed
+1443 res: τί (acute), as printed
 
 === p-0288
 --- text

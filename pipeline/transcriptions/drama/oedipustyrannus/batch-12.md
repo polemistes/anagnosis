@@ -27,7 +27,7 @@
 @ Χορός
 1086	εἴπερ ἐγὼ μάντις εἰμὶ καὶ κατὰ γνώμαν ἴδρις,
 1088	οὐ τὸν Ὄλυμπον ἀπείρων,
-1089	ὦ Κιθαιρών, οὐκ ἔσει τὰν αὔριον
+1090	ὦ Κιθαιρών, οὐκ ἔσει τὰν αὔριον
 1091	πανσέληνον, μὴ οὐ σέ γε καὶ πατριώταν Οἰδίπουν
 1092	καὶ τροφὸν καὶ ματέρʼ αὔξειν,
 1094	καὶ χορεύεσθαι πρὸς ἡμῶν, ὡς ἐπὶ ἦρα φέροντα τοῖς ἐμοῖς τυράννοις.
@@ -42,14 +42,15 @@
 1100	πανὸσ ὀρεσσιβάτα προσπελασθεῖσʼ MSS. (L has προσπελασθεῖσα, without elision.) To supply the want of a syllable after ὀρεσσιβάτα, Hermann inserted τις, Heath που: Wunder and others wrote ὀρεσσιβάταο: Dindorf conjectured Νύμφα ὀρεσσιβάτᾳ που Πανὶ πλαθεῖσα. Lachmann restored πατρὸς πελασθεῖσʼ.
 --- notes
 1086	numbering of the lyrics renumbered to Jebb's (the Perseus count is irregular here): the print sets the strophe in seven lines and the margin prints 1090 beside line 3, 1098 beside the first line of the antistrophe and 1100 beside its second; Jebb's notes number οὐ … ἀπείρων 1088, χορεύεσθαι 1094, ἰήϊε 1096, ἔτικτε 1098. Each printed verse carries the number of its first word: εἴπερ … ἴδρις 1086 (1086-1087), οὐ τὸν Ὄλυμπον 1088, ὦ Κιθαιρών … αὔριον 1089 (1089-1090, the margin's 1090 beside it; Perseus too begins its 1090 at οὐκ ἔσει), πανσέληνον 1091, καὶ τροφὸν 1092, καὶ χορεύεσθαι … τυράννοις 1094, ἰήϊε … εἴη 1096 (1096-1097), τίς σε … ἄρα 1098 (1098-1099), Πανὸς 1100. The draft's 1087, 1087a, 1095, 1097 renumbered 1088, 1089, 1094, 1098. Jebb's own numbers are not wholly consistent here (his note on 1100 speaks of ἀπείρων "in 1087"); whoever merges may wish to check 1089 against 1090 for the line ὦ Κιθαιρών.
-1089	ἔσει confirmed on the image (the OCR's ἔδει is wrong).
+1090	ἔσει confirmed on the image (the OCR's ἔδει is wrong).
 1091	Jebb's asterisk before Οἰδίπουν left out.
 1092	ματέρʼ αὔξειν, is printed on this verse (a pencil stroke runs through the line end): kept.
 1094	the indented ἐμοῖς τυράννοις. is the turnover of this verse: confirmed.
 1098	Jebb's asterisk before τᾶν left out.
 1100	the print divides πα- | τρὸς between this verse and the next: πατρὸς written whole here (Jebb's asterisk before it left out); no square brackets are printed on the line (the OCR's [ is the margin number misread).
-1090	apparatus numbers 1090, 1097, 1099 are Jebb's: they name verses that stand inside the printed lines numbered 1089, 1096, 1098.
+1097	apparatus numbers 1097, 1099 are Jebb's: they name verses that stand inside the printed lines numbered 1096, 1098.
 1099	"Blaydes conject. κορᾶν." heads the facing page's apparatus and continues the note on 1099: written with it.
+1090	res: renumbered to the print (was 1089): the margin 1090 stands beside ὦ Κιθαιρών … αὔριον (Jebb's 1089-1090), so the verse takes 1090, as Jebb himself names it (comment. on 1101: "If in 1090 we keep οὐκ ἔσει τὰν αὔριον"); 1086, 1088, 1091, 1092, 1094, 1096 kept by Jebb's notes, 1098 and 1100 stand on their margin numbers. The apparatus 1090 now stands on its verse.
 
 === p-0246
 --- text
@@ -124,17 +125,17 @@
 === p-0250
 --- text
 @ Θεράπων
-1131	οὐχ ὥστε γʼ εἰπεῖν ἐν τάχει μνήμης ἄπο.
+1131	οὐχ ὥστε γʼ εἰπεῖν ἐν τάχει μνήμης ὕπο.
 @ Ἄγγελος
 1132	κοὐδέν γε θαῦμα, δέσποτʼ· ἀλλʼ ἐγὼ σαφῶς
 1133	ἀγνῶτʼ ἀναμνήσω νιν. εὖ γὰρ οἶδʼ ὅτι
-1134	κάτοιδεν, ἦμος τῷ Κιθαιρῶνος τόπῳ,
-1135	ὁ μὲν διπλοῖσι ποιμνίοις, ἐγὼ δʼ ἑνί,
+1134	κάτοιδεν ἦμος τὸν Κιθαιρῶνος τόπον
+1135	ὁ μὲν διπλοῖσι ποιμνίοις, ἐγὼ δʼ ἑνὶ
 1136	ἐπλησίαζον τῷδε τἀνδρὶ τρεῖς ὅλους
 1137	ἐξ ἦρος εἰς ἀρκτοῦρον ἑκμήνους χρόνους·
 1138	χειμῶνα δʼ ἤδη τἀμά τʼ εἰς ἔπαυλʼ ἐγὼ
 1139	ἤλαυνον οὗτός τʼ εἰς τὰ Λαΐου σταθμά.
-1140	λέγω τι τούτων ἢ οὐ λέγω πεπραγμένον;
+1140	λέγω τι τούτων, ἢ οὐ λέγω πεπραγμένον;
 @ Θεράπων
 1141	λέγεις ἀληθῆ, καίπερ ἐκ μακροῦ χρόνου.
 --- apparatus
@@ -149,6 +150,7 @@
 1140	the print has a comma after τούτων (the OCR reads it so too): added.
 1131	the apparatus begins with the end of the note on 1130 ("Blaydes."): written with p-0248.
 1137	breathings checked on the enlarged crop: L's ἐμμήνουσ and the Trin. ἐκμήνους smooth, Porson's ἑκμήνους rough.
+1131	res: the first pass noted the changes on 1131, 1134, 1135, 1140 but the text still had Perseus's words: now made as printed (ὕπο.; κάτοιδεν ἦμος τὸν Κιθαιρῶνος τόπον without commas; ἑνὶ without comma; comma after τούτων).
 
 === p-0252
 --- text

@@ -179,7 +179,7 @@
 955	ἐκ τῆς Κορίνθου, πατέρα τὸν σὸν ἀγγελῶν
 956	ὡς οὐκέτʼ ὄντα Πόλυβον, ἀλλʼ ὀλωλότα.
 @ Οἰδίπους
-957	τί φῄς, ξένʼ; αὐτός μοι σὺ σημάντωρ γενοῦ.
+957	τί φής, ξένʼ; αὐτός μοι σὺ σημάντωρ γενοῦ.
 @ Ἄγγελος
 958	εἰ τοῦτο πρῶτον δεῖ μʼ ἀπαγγεῖλαι σαφῶς,
 959	εὖ ἴσθʼ ἐκεῖνον θανάσιμον βεβηκότα.
@@ -205,6 +205,7 @@
 960	the print has a comma after δόλοισιν: added.
 964	the print has σκοποῖτό τις, not τι: corrected.
 965	the print has a comma after ἑστίαν: added.
+957	res: φής without iota subscript, as printed
 943	the apparatus begins with the end of the 943 note ("that of 944. Mekler rejects both vv."), written with it on p-0226.
 959	in Porson's σάφʼ ἴσθʼ the σ is printed with a tail below, like ς (a damaged or wrong sort): written σ.
 966	the note runs on to the top of p-0230's apparatus (batch 11); written here whole, ending "the 1st hand in V."; that end is not to be written again with p-0230.

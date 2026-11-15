@@ -171,7 +171,7 @@
 1190	οὐ μὴ λάβω· δράσω γάρ· εὔχομαι δʼ ὅμως.
 --- apparatus
 1176	μὴ ʼπιμεῖναι (or μὴ ἐπιμεῖναι) most MSS., and Ald.: μή πειμεῖναι (sic) L: εῖ is in an erasure, prob. from ῆ: the first ει has also been retouched, but it is not clear that it has come (as Dübner thinks) from α. αν had been written above (apparently by S), but has been deleted by a line drawn through it. Meineke conj. μὴ ἀναμεῖναι: Blaydes, μή τι τλῆναι.—ὀξῦναι] ὀξύναι L.
-1177	εἰκαθόντα] εἰκάθοντα L, with most MSS., and Ald.: εἰκάθθόντα A (ό from first hand).
+1177	εἰκαθόντα] εἰκάθοντα L, with most MSS., and Ald.: εἰκάθόντα A (ό from first hand).
 1178	ἐξευρόντα] Wecklein writes ἐξορθοῦντα: Wakefield conj. ἐξαίροντα (and so Wecklein, Ars Soph. em. p. 52): Meineke, ἐκφέροντα: Herwerden, εὖ τηροῦντα.
 1179	στάσιν] Wecklein conj. τάσιν (‘tension’).
 1181	ἔμβαλλε χεῖρα] ἔμβαλ εχεῖρα L.
@@ -181,10 +181,11 @@
 1186	L points thus: ἦ μὴν τί δράσειν· καὶ τόδʼ ἐξειρήσεται. The usual pointing was δράσειν;...ἐξειρήσεται. Hence the v. l. τότʼ for τόδʼ (B in marg.). Hermann, δράσειν;...ἐξειρήσεται;
 --- notes
 1184	the page prints ἰδού, with a comma after it (Perseus ἰδοὺ without comma); written as printed.
-1176	apparatus: "μή πειμεῖναι" with the acute as printed; "εἰκάθθόντα A" with θθ as printed; Jebb's spaces before colons and semicolons written without.
+1176	apparatus: "μή πειμεῖναι" with the acute as printed; Jebb's spaces before colons and semicolons written without.
 1181	res: full stop after μοι, as printed
 1185	res: full stop after κάρα, as printed
 1190	res: full stop after ὅμως, as printed
+1177	rev: apparatus "εἰκάθθόντα A" corrected to εἰκάθόντα A: the print has a single θ (the δ-like letter is ό, as in "(ό from first hand)"); the earlier note on θθ removed
 
 === p-0246
 --- text

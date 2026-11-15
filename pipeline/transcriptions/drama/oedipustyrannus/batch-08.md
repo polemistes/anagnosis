@@ -9,7 +9,7 @@
 669	ὁ δʼ οὖν ἴτω, κεἰ χρή με παντελῶς θανεῖν,
 670	ἢ γῆς ἄτιμον τῆσδʼ ἀπωσθῆναι βίᾳ.
 671	τὸ γὰρ σόν, οὐ τὸ τοῦδʼ, ἐποικτίρω στόμα
-672	ἐλεινόν· οὗτος δʼ ἔνθʼ ἂν ᾖ στυγήσεται.
+672	ἐλεινόν· οὗτος δʼ, ἔνθʼ ἂν ᾖ, στυγήσεται.
 @ Κρέων
 673	στυγνὸς μὲν εἴκων δῆλος εἶ, βαρὺς δʼ, ὅταν
 674	θυμοῦ περάσῃς. αἱ δὲ τοιαῦται φύσεις
@@ -37,6 +37,7 @@
 676	flag (split): the print has ΟΙ. οὔκουν μʼ ἐάσεις κἀκτὸς εἶ; ΚΡ. πορεύσομαι, on one printed line: the split with @ Κρέων kept.
 677	renumbered from 678: the margin prints 675 at αὑταῖς and 678 at γύναι, so σοῦ μὲν (after the verse 676 shared by ΟΙ. and ΚΡ.) is 677.
 678	renumbered from 679: the margin prints 678 beside γύναι (ΧΟ., ἀντ. α΄.). Apparatus 679 (δόμον) is Jebb's number for the second half of this verse (his 678-679).
+672	res: commas after δʼ and after ᾖ, as printed
 
 === p-0196
 --- text
@@ -52,7 +53,7 @@
 683b	καὶ τίς ἦν λόγος;
 @ Χορός
 685	ἅλις ἔμοιγʼ, ἅλις, γᾶς προπονουμένας,
-686	φαίνεται ἔνθʼ ἔληξεν αὐτοῦ μένειν.
+686	φαίνεται, ἔνθʼ ἔληξεν, αὐτοῦ μένειν.
 @ Οἰδίπους
 687	ὁρᾷς ἵνʼ ἥκεις, ἀγαθὸς ὢν γνώμην ἀνήρ,
 688	τοὐμὸν παριεὶς καὶ καταμβλύνων κέαρ;
@@ -62,7 +63,7 @@
 692	πεφάνθαι μʼ ἄν, εἴ σʼ ἐνοσφιζόμαν,
 693	ὅς τʼ ἐμὰν γᾶν φίλαν ἐν πόνοισιν
 695	ἀλύουσαν κατʼ ὀρθὸν οὔρισας,
-696	τανῦν τʼ εὔπομπος, ἂν γένοιο.
+696	τανῦν τʼ εὔπομπος ἂν γένοιο.
 --- apparatus
 684	λόγος L: ὁ λόγος r.
 688	Hartung conjectures παρίης καὶ καταμβλύνεις, placing a note of interrogation (;) after ἥκεις. So Wecklein (writing παριεῖς with Cobet). All MSS. give the participles. In L and A there is a marg. gloss ἐκλύων on παριείς.
@@ -76,6 +77,8 @@
 689	renumbered from 690: the margin prints 689 beside ὦναξ (ἀντ. β΄.); 691-693 kept as in the draft (the margin 695 at ἀλύουσαν agrees). Jebb's apparatus numbers 693 (εἴ σʼ ἐνοσφιζόμαν) and 694 (ὅς τʼ, πόνοισιν) name our 692 and 693: his count divides these lyric verses otherwise.
 693	flag: the print has πόνοισιν (Bergk, apparatus 694), not Perseus's πόνοις: changed.
 696	the note 696 runs on to the top of the apparatus of p-0198 (from "according to Dübner" to "See comment."): written here whole. In "εἰ δύναι ὁ γενοῦ Bodl." the small word is a blurred ο with a breathing; read ὁ, as both OCR readings have it.
+686	res: commas after φαίνεται and after ἔληξεν, as printed
+696	res: no comma after εὔπομπος, as printed
 
 === p-0198
 --- text
@@ -90,7 +93,7 @@
 @ Οἰδίπους
 703	φονέα με φησὶ Λαΐου καθεστάναι.
 @ Ἰοκάστη
-704	αὐτὸς ξυνειδὼς ἢ μαθὼν ἄλλου πάρα;
+704	αὐτὸς ξυνειδώς, ἢ μαθὼν ἄλλου πάρα;
 @ Οἰδίπους
 705	μάντιν μὲν οὖν κακοῦργον εἰσπέμψας, ἐπεὶ
 706	τό γʼ εἰς ἑαυτὸν πᾶν ἐλευθεροῖ στόμα.
@@ -100,7 +103,7 @@
 709	βρότειον οὐδὲν μαντικῆς ἔχον τέχνης.
 710	φανῶ δέ σοι σημεῖα τῶνδε σύντομα.
 711	χρησμὸς γὰρ ἦλθε Λαΐῳ ποτʼ, οὐκ ἐρῶ
-712	Φοίβου γʼ ἄπʼ αὐτοῦ, τῶν δʼ ὑπηρετῶν ἄπο,
+712	Φοίβου γʼ ἀπʼ αὐτοῦ, τῶν δʼ ὑπηρετῶν ἄπο,
 713	ὡς αὐτὸν ἥξοι μοῖρα πρὸς παιδὸς θανεῖν,
 --- apparatus
 702	ἐρεῖς] κυρεῖς Eggert.—ἐγκαλεῖν ἔχεις M. Seyffert.
@@ -110,6 +113,8 @@
 697	no flags. The apparatus begins with the end of the note 696 from p-0196 (according to Dübner … See comment.), written there. Margins 700 (at ἐρῶ), 705 and 710 agree with the numbering (Jebb's numbering, like the draft, has no 699).
 713	unflagged, but checked on the enlarged page: the print has ἥξοι (rough breathing and acute on η, as in Jebb's apparatus 713 ἥξοι L 1st hand), not Perseus's ἕξοι: changed.
 713	the note 713 runs on to the top of the apparatus of p-0200 (ἕξοι.): written here whole.
+704	res: comma after ξυνειδώς (acute), as printed
+712	res: ἀπʼ without accent, as printed (seen in the residual crop, not a listed item)
 
 === p-0200
 --- text
@@ -121,10 +126,10 @@
 719	ἔρριψεν ἄλλων χερσὶν εἰς ἄβατον ὄρος.
 720	κἀνταῦθʼ Ἀπόλλων οὔτʼ ἐκεῖνον ἤνυσεν
 721	φονέα γενέσθαι πατρός, οὔτε Λάϊον,
-722	τὸ δεινὸν οὑφοβεῖτο πρὸς παιδὸς θανεῖν.
+722	τὸ δεινὸν οὑφοβεῖτο, πρὸς παιδὸς θανεῖν.
 723	τοιαῦτα φῆμαι μαντικαὶ διώρισαν,
 724	ὧν ἐντρέπου σὺ μηδέν· ὧν γὰρ ἂν θεὸς
-725	χρείαν ἐρευνᾷ, ῥᾳδίως αὐτὸς φανεῖ.
+725	χρείαν ἐρευνᾷ ῥᾳδίως αὐτὸς φανεῖ.
 @ Οἰδίπους
 726	οἷόν μʼ ἀκούσαντʼ ἀρτίως ἔχει, γύναι,
 727	ψυχῆς πλάνημα κἀνακίνησις φρενῶν.
@@ -134,7 +139,7 @@
 729	ἔδοξʼ ἀκοῦσαι σοῦ τόδʼ, ὡς ὁ Λάϊος
 730	κατασφαγείη πρὸς τριπλαῖς ἁμαξιτοῖς.
 @ Ἰοκάστη
-731	ηὐδᾶτο γὰρ ταῦτʼ οὐδέ πω λήξαντʼ ἔχει.
+731	ηὐδᾶτο γὰρ ταῦτʼ, οὐδέ πω λήξαντʼ ἔχει.
 @ Οἰδίπους
 732	καὶ ποῦ ʼσθʼ ὁ χῶρος οὗτος οὗ τόδʼ ἦν πάθος;
 @ Ἰοκάστη
@@ -150,6 +155,9 @@
 719	flag: the print has εἰς ἄβατον ὄρος (the MSS. order, apparatus 719), not Perseus's ἄβατον εἰς ὄρος: word order changed.
 721	flag: the print has πατρός, (comma after it, so acute) and a comma after Λάϊον: changed.
 722	not changed (unflagged): the page shows a comma after οὑφοβεῖτο and none after ἐρευνᾷ in 725; left for the punctuation pass.
+722	res: comma after οὑφοβεῖτο (rough breathing confirmed), as printed
+725	res: no comma after ἐρευνᾷ, as printed
+731	res: comma after ταῦτʼ, as printed
 
 === p-0202
 --- text
@@ -194,10 +202,10 @@
 === p-0204
 --- text
 @ Οἰδίπους
-750	πότερον ἐχώρει βαιὸς ἢ πολλοὺς ἔχων
+750	πότερον ἐχώρει βαιός, ἢ πολλοὺς ἔχων
 751	ἄνδρας λοχίτας, οἷʼ ἀνὴρ ἀρχηγέτης;
 @ Ἰοκάστη
-752	πέντʼ ἦσαν οἱ ξύμπαντες, ἐν δʼ αὐτοῖσιν ἦν.
+752	πέντʼ ἦσαν οἱ ξύμπαντες, ἐν δʼ αὐτοῖσιν ἦν
 753	κῆρυξ· ἀπήνη δʼ ἦγε Λάϊον μία.
 @ Οἰδίπους
 754	αἰαῖ, τάδʼ ἤδη διαφανῆ. τίς ἦν ποτὲ
@@ -220,7 +228,7 @@
 766	πάρεστιν· ἀλλὰ πρὸς τί τοῦτʼ ἐφίεσαι;
 @ Οἰδίπους
 767	δέδοικʼ ἐμαυτόν, ὦ γύναι, μὴ πόλλʼ ἄγαν
-768	εἰρημένʼ ᾖ μοι διʼ ἅ νιν εἰσιδεῖν θέλω.
+768	εἰρημένʼ ᾖ μοι, διʼ ἅ νιν εἰσιδεῖν θέλω.
 --- apparatus
 756	ὅσπερ L, as re-touched by the first corrector (S): the 1st hand seems to have written ὥσπερ.
 763	οἷʼ Hermann: ὥς γʼ Campbell (who cites ὡς from K,=Flor. Abb. 66). ὅγʼ L: ὁ δέ γʼ, ὅδʼ, ὁ δʼ, or ὧδʼ, r.
@@ -230,3 +238,6 @@
 752	not changed (unflagged): the page prints no stop after ἦν at the end of 752 (the draft has a full stop) and a comma after βαιός in 750; left for the punctuation pass.
 754	flag: the print has ποτὲ (grave, at the end of the printed line): changed.
 759	flag: τʼ after Λάϊόν confirmed on this verse.
+750	res: comma after βαιός (acute), as printed
+752	res: no stop after ἦν at the end of the verse, as printed
+768	res: comma after μοι, as printed

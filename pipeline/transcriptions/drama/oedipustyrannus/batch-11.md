@@ -1,7 +1,7 @@
 === p-0230
 --- text
 967	κτενεῖν ἔμελλον πατέρα τὸν ἐμόν; ὁ δὲ θανὼν
-968	κεύθει κάτω δὴ γῆς. ἐγὼ δʼ ὅδʼ ἐνθάδε
+968	κεύθει κάτω δὴ γῆς· ἐγὼ δʼ ὅδʼ ἐνθάδε
 969	ἄψαυστος ἔγχους· εἴ τι μὴ τὠμῷ πόθῳ
 970	κατέφθιθʼ· οὕτω δʼ ἂν θανὼν εἴη ʼξ ἐμοῦ.
 971	τὰ δʼ οὖν παρόντα συλλαβὼν θεσπίσματα
@@ -11,11 +11,11 @@
 @ Οἰδίπους
 974	ηὔδας· ἐγὼ δὲ τῷ φόβῳ παρηγόμην.
 @ Ἰοκάστη
-975	μὴ νῦν ἔτʼ αὐτῶν μηδὲν ἐς θυμὸν βάλῃς.
+975	μή νυν ἔτʼ αὐτῶν μηδὲν ἐς θυμὸν βάλῃς.
 @ Οἰδίπους
 976	καὶ πῶς τὸ μητρὸς λέκτρον οὐκ ὀκνεῖν με δεῖ;
 @ Ἰοκάστη
-977	τί δʼ ἂν φοβοῖτʼ ἄνθρωπος ᾧ τὰ τῆς τύχης
+977	τί δʼ ἂν φοβοῖτʼ ἄνθρωπος, ᾧ τὰ τῆς τύχης
 978	κρατεῖ, πρόνοια δʼ ἐστὶν οὐδενὸς σαφής;
 --- apparatus
 967	κτανεῖν L, and almost all the later MSS.: it may, indeed, be an accident that one, at least, of them (V²) has κτενεῖν, which Elmsley required.
@@ -26,9 +26,12 @@
 967	flag (no margin number read): the margin prints 970 beside κατέφθιθʼ and 975 beside μή νυν ἔτʼ; the numbering is right.
 967	the apparatus begins with the end of a note from the page before ("S. 2224) is supported by the Ravenna MS. … the 1st hand in V."): left to the batch before.
 973	the print has προὔλεγον (smooth breathing and acute on υ), not Perseus's προύλεγον; changed.
-975	unflagged, left as the draft has it: the print reads μή νυν (Perseus μὴ νῦν).
+975	unflagged in the first pass: the print reads μή νυν (Perseus μὴ νῦν); changed in the residual pass (see below).
 976	the print has καὶ πῶς τὸ μητρὸς λέκτρον οὐκ ὀκνεῖν με δεῖ; (Jebb reads λέκτρον, see his note), not Perseus's λέχος after ὀκνεῖν; changed.
 976	in L's reading the abbreviation μρσ is printed with a stroke over it: written μ̅ρ̅σ̅ (combining overline). Bergk's ⟨ἔτʼ⟩ is printed in angle brackets < >. The notes on 968 and 976 run on to the facing page (leaf 231).
+968	res: raised stop after γῆς, as printed
+975	res: μή νυν, as printed (Perseus μὴ νῦν)
+977	res: comma after ἄνθρωπος, as printed
 
 === p-0232
 --- text
@@ -39,7 +42,7 @@
 983	παρʼ οὐδέν ἐστι, ῥᾷστα τὸν βίον φέρει.
 @ Οἰδίπους
 984	καλῶς ἅπαντα ταῦτʼ ἂν ἐξείρητό σοι,
-985	εἰ μὴ ʼκύρει ζῶσʼ ἡ τεκοῦσα· νῦν δʼ ἐπεὶ
+985	εἰ μὴ ʼκύρει ζῶσʼ ἡ τεκοῦσα· νῦν δʼ, ἐπεὶ
 986	ζῇ, πᾶσʼ ἀνάγκη, κεἰ καλῶς λέγεις, ὀκνεῖν.
 @ Ἰοκάστη
 987	καὶ μὴν μέγας γʼ ὀφθαλμὸς οἱ πατρὸς τάφοι.
@@ -57,7 +60,7 @@
 993	ἦ ῥητόν; ἢ οὐχὶ θεμιτὸν ἄλλον εἰδέναι;
 @ Οἰδίπους
 994	μάλιστά γʼ· εἶπε γάρ με Λοξίας ποτὲ
-995	χρῆναι μιγῆναι μητρὶ τἠμαυτοῦ τό τε
+995	χρῆναι μιγῆναι μητρὶ τἠμαυτοῦ, τό τε
 996	πατρῷον αἷμα χερσὶ ταῖς ἐμαῖς ἑλεῖν.
 997	ὧν οὕνεχʼ ἡ Κόρινθος ἐξ ἐμοῦ πάλαι
 --- apparatus
@@ -67,10 +70,12 @@
 979	the print has εἰκῇ with the iota subscript (clear on the crop), not Perseus's εἰκῆ; changed.
 982	the print has ξυνευνάσθησαν, not Perseus's ξυνηυνάσθησαν; changed.
 993	ἦ is printed at the start of this verse (the OCR read it as "7."); kept.
-995	μιγῆναι confirmed (the OCR's μυγῆναι is its error). Unflagged: the print has a comma after τἠμαυτοῦ, which the draft lacks; left as the draft has it.
+995	μιγῆναι confirmed (the OCR's μυγῆναι is its error). Unflagged: the print has a comma after τἠμαυτοῦ, which the draft lacks; added in the residual pass (see below).
 980	the margin prints 980 and 995 where the draft has them; the numbering is right.
 987	the mark after μεγ in A's short writing of μέγας is printed as a small angle (an acute stroke rising from a short low line): written ∠. The note on 987 runs on to the facing page (leaf 233).
 993	the note begins on the facing page (leaf 233) and runs on to the top of leaf 234's apparatus (ἄλλοισι θεμιτὸν εἰδέναι, which had also occurred to the present ed.): written whole here, not again on p-0234.
+985	res: comma after νῦν δʼ, as printed
+995	res: comma after τἠμαυτοῦ, as printed
 
 === p-0234
 --- text
@@ -150,7 +155,7 @@
 @ Οἰδίπους
 1031	τί δʼ ἄλγος ἴσχοντʼ ἀγκάλαισι λαμβάνεις;
 @ Ἄγγελος
-1032	ποδῶν ἂν ἄρθρα μαρτυρήσειεν τὰ σά·
+1032	ποδῶν ἂν ἄρθρα μαρτυρήσειεν τὰ σά.
 @ Οἰδίπους
 1033	οἴμοι, τί τοῦτʼ ἀρχαῖον ἐννέπεις κακόν;
 @ Ἄγγελος
@@ -169,6 +174,7 @@
 1020	the margin prints 1020, 1025, 1030 and 1035 where the draft has them; the numbering is right.
 1025	the apparatus begins with "Erfurdt.", the end of the note on 1011, written with that note on p-0234. The enlarged apparatus crops of this page cut off its top lines; the apparatus was read from my own crops of leaf 236.
 1031	the note on 1031 runs on to the facing page (leaf 237) and ends at the top of leaf 238's apparatus ("used in El. 863; cp. 1025, 1039 τυχών)."): written whole here, not again on p-0238.
+1032	res: full stop after σά, not a raised stop, as printed
 
 === p-0238
 --- text
@@ -195,7 +201,7 @@
 @ Ἄγγελος
 1046	ὑμεῖς γʼ ἄριστʼ εἰδεῖτʼ ἂν οὑπιχώριοι.
 @ Οἰδίπους
-1047	ἔστιν τις ὑμῶν τῶν παρεστώτων πέλας,
+1047	ἔστιν τις ὑμῶν τῶν παρεστώτων πέλας
 1048	ὅστις κάτοιδε τὸν βοτῆρʼ ὃν ἐννέπει,
 1049	εἴτʼ οὖν ἐπʼ ἀγρῶν εἴτε κἀνθάδʼ εἰσιδών;
 1050	σημήναθʼ, ὡς ὁ καιρὸς ηὑρῆσθαι τάδε.
@@ -204,7 +210,7 @@
 1052	ὃν κἀμάτευες πρόσθεν εἰσιδεῖν· ἀτὰρ
 1053	ἥδʼ ἂν τάδʼ οὐχ ἥκιστʼ ἂν Ἰοκάστη λέγοι.
 @ Οἰδίπους
-1054	γύναι, νοεῖς ἐκεῖνον, ὅντινʼ ἀρτίως
+1054	γύναι, νοεῖς ἐκεῖνον ὅντινʼ ἀρτίως
 1055	μολεῖν ἐφιέμεσθα; τόνδʼ οὗτος λέγει;
 --- apparatus
 1050	ηὑρῆσθαι] εὑρῆσθαι L. See comment. on 68.
@@ -215,21 +221,23 @@
 1045	ἦ is printed at the start of this verse; kept. The margin prints 1045 and 1050 where the draft has them, and 1055 beside μολεῖν ἐφιέμεσθα; the numbering is right.
 1050	the apparatus begins with "used in El. 863; cp. 1025, 1039 τυχών).", the end of the note on 1031, written with that note on p-0236. "See comment. on 68." stands as printed, "on 68." beginning the second line.
 1055	the note on 1055 runs on to the facing page (leaf 239) and ends at the top of leaf 240's apparatus ("But a few, at least, have τόνδʼ (M, M² 1st hand, Δ)."): written whole here, not again on p-0240.
+1047	res: no comma after πέλας, as printed
+1054	res: no comma after ἐκεῖνον, as printed
 
 === p-0240
 --- text
 @ Ἰοκάστη
-1056	τί δʼ ὅντινʼ εἶπε; μηδὲν ἐντραπῇς· τὰ δὲ
+1056	τί δʼ ὅντινʼ εἶπε; μηδὲν ἐντραπῇς. τὰ δὲ
 1057	ῥηθέντα βούλου μηδὲ μεμνῆσθαι μάτην.
 @ Οἰδίπους
-1058	οὐκ ἂν γένοιτο τοῦθʼ ὅπως ἐγὼ λαβὼν
+1058	οὐκ ἂν γένοιτο τοῦθʼ, ὅπως ἐγὼ λαβὼν
 1059	σημεῖα τοιαῦτʼ οὐ φανῶ τοὐμὸν γένος.
 @ Ἰοκάστη
 1060	μὴ πρὸς θεῶν, εἴπερ τι τοῦ σαυτοῦ βίου
 1061	κήδει, ματεύσῃς τοῦθʼ· ἅλις νοσοῦσʼ ἐγώ.
 @ Οἰδίπους
 1062	θάρσει· σὺ μὲν γὰρ οὐδʼ ἐὰν τρίτης ἐγὼ
-1063	μητρὸς φανῶ τρίδουλος, ἐκφανεῖ κακή.
+1063	μητρὸς φανῶ τρίδουλος ἐκφανεῖ κακή.
 @ Ἰοκάστη
 1064	ὅμως πιθοῦ μοι, λίσσομαι· μὴ δρᾶ τάδε.
 @ Οἰδίπους
@@ -258,3 +266,6 @@
 1056	no flags on this page; the text was not re-read.
 1061	the apparatus begins with the end of the note on 1055, written with that note on p-0238. The enlarged crops of the facing page (leaf 241) cut its apparatus badly; it was read from my own crops of leaf 241.
 1062	the note on 1062 runs on to the facing page (leaf 241). The note on 1070 begins at the foot of leaf 241 and ends at the top of leaf 242's apparatus ("suit χαίρειν here."): written whole here; the next batch should not write it again. A stray mark after "manifestly" at the end of leaf 241's last line is not a hyphen of the word; left out.
+1056	res: full stop after ἐντραπῇς, not a raised stop, as printed
+1058	res: comma after τοῦθʼ, as printed
+1063	res: no comma after τρίδουλος, as printed

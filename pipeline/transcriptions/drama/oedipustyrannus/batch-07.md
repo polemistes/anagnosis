@@ -9,10 +9,10 @@
 551	εἴ τοι νομίζεις ἄνδρα συγγενῆ κακῶς
 552	δρῶν οὐχ ὑφέξειν τὴν δίκην, οὐκ εὖ φρονεῖς.
 @ Κρέων
-553	ξύμφημί σοι ταῦτʼ ἔνδικʼ εἰρῆσθαι· τὸ δὲ
-554	πάθημʼ ὁποῖον φὴς παθεῖν, δίδασκέ με.
+553	ξύμφημί σοι ταῦτʼ ἔνδικʼ εἰρῆσθαι. τὸ δὲ
+554	πάθημʼ ὁποῖον φὴς παθεῖν δίδασκέ με.
 @ Οἰδίπους
-555	ἔπειθες ἢ οὐκ ἔπειθες, ὡς χρείη μʼ ἐπὶ
+555	ἔπειθες, ἢ οὐκ ἔπειθες, ὡς χρείη μʼ ἐπὶ
 556	τὸν σεμνόμαντιν ἄνδρα πέμψασθαί τινα;
 @ Κρέων
 557	καὶ νῦν ἔθʼ αὑτός εἰμι τῷ βουλεύματι.
@@ -50,6 +50,9 @@
 565	γʼ checked: printed (ἐμοῦ γʼ ἑστῶτος).
 566	the page prints θανόντος (Perseus κτανόντος, Meineke's conjecture; Jebb's note 566 confirms θανόντος).
 555	apparatus: the mark Jebb prints over η (breathing with circumflex) written ῏.
+553	res: full stop after εἰρῆσθαι (not raised stop), as printed
+554	res: no comma after παθεῖν, as printed
+555	res: comma after the first ἔπειθες, as printed
 
 === p-0184
 --- text
@@ -70,7 +73,7 @@
 @ Οἰδίπους
 578	ἄρνησις οὐκ ἔνεστιν ὧν ἀνιστορεῖς.
 @ Κρέων
-579	ἄρχεις δʼ ἐκείνῃ ταὐτὰ γῆς ἴσον νέμων;
+579	ἄρχεις δʼ ἐκείνῃ ταὐτὰ γῆς, ἴσον νέμων;
 @ Οἰδίπους
 580	ἃν ᾖ θέλουσα πάντʼ ἐμοῦ κομίζεται.
 @ Κρέων
@@ -97,6 +100,7 @@
 572	the print reads τὰς ἐμὰς (Perseus τάσδʼ, Döderlein's conjecture; Jebb's note 572 gives τὰς MSS.): changed.
 583	γʼ is printed on this verse: kept.
 583	the apparatus note runs on to the top of p-0186's apparatus ("right, and the MSS. give ἔχω."): written here whole.
+579	res: comma after γῆς, as printed
 
 === p-0186
 --- text
@@ -113,7 +117,7 @@
 601	ἀλλʼ οὔτʼ ἐραστὴς τῆσδε τῆς γνώμης ἔφυν
 602	οὔτʼ ἂν μετʼ ἄλλου δρῶντος ἂν τλαίην ποτέ.
 603	καὶ τῶνδʼ ἔλεγχον τοῦτο μὲν Πυθώδʼ ἰὼν
-604	πεύθου τὰ χρησθέντʼ εἰ σαφῶς ἤγγειλά σοι·
+604	πεύθου τὰ χρησθέντʼ, εἰ σαφῶς ἤγγειλά σοι·
 --- apparatus
 597	ἐκκαλοῦσι L, with a gloss προκαλοῦσιν written above. There is no trace of a variant in the later MSS., for in E καλοῦσι is a mere blunder, and the παρα written in the margin of L and A was meant to explain ἐκ, not to suggest a v. l. παρακαλοῦσι. That ἐκκαλοῦσι was rightly understood, appears from such glosses as μεσ[ίτην] ποιοῦσι (B), εἰς βοήθειαν μεσοῦντα (E).—αἰκάλλουσι Musgrave.
 598	τὸ γὰρ τυχεῖν αὐτοῖσ ἅπαν ἐνταῦθʼ ἔνι L. The accent on αὐτοῖσ has been either made or re-touched by the first corrector (S); Dübner and Campbell think that the 1st hand wrote αὐτοὺσ. This is possible, but seems hardly certain. They also find traces of τ, written by an early hand after ἅπαν, but now erased. Of the later MSS., a few have ἅπαν, the majority (as A) ἅπαντʼ, but two (Γ and L²) the probably true reading, πᾶν.—πάντʼ is read by Bothe and Burges.—Wecklein brackets the verse as spurious.
@@ -125,17 +129,18 @@
 602	ἂν: the print reads ἂν (second ἂν before τλαίην): kept.
 604	the note runs on to the top of p-0188's apparatus ("πυθοῦ, as Dindorf did in Poet. Scen. ed. 5 (1869)."): written here whole.
 598	apparatus: L's spellings αὐτοῖσ, αὐτοὺσ copied with the medial σ as printed.
+604	res: comma after χρησθέντʼ, as printed (not on the residual list; seen on the page)
 
 === p-0188
 --- text
 605	τοῦτʼ ἄλλʼ, ἐάν με τῷ τερασκόπῳ λάβῃς
 606	κοινῇ τι βουλεύσαντα, μή μʼ ἁπλῇ κτάνῃς
-607	ψήφῳ, διπλῇ δέ, τῇ τʼ ἐμῇ καὶ σῇ, λαβών·
+607	ψήφῳ, διπλῇ δέ, τῇ τʼ ἐμῇ καὶ σῇ, λαβών.
 608	γνώμῃ δʼ ἀδήλῳ μή με χωρὶς αἰτιῶ.
 609	οὐ γὰρ δίκαιον οὔτε τοὺς κακοὺς μάτην
 610	χρηστοὺς νομίζειν οὔτε τοὺς χρηστοὺς κακούς.
 611	φίλον γὰρ ἐσθλὸν ἐκβαλεῖν ἴσον λέγω
-612	καὶ τὸν παρʼ αὑτῷ βίοτον, ὃν πλεῖστον, φιλεῖ.
+612	καὶ τὸν παρʼ αὑτῷ βίοτον, ὃν πλεῖστον φιλεῖ.
 613	ἀλλʼ ἐν χρόνῳ γνώσει τάδʼ ἀσφαλῶς, ἐπεὶ
 614	χρόνος δίκαιον ἄνδρα δείκνυσιν μόνος,
 615	κακὸν δὲ κἂν ἐν ἡμέρᾳ γνοίης μιᾷ.
@@ -144,7 +149,7 @@
 617	ἄναξ· φρονεῖν γὰρ οἱ ταχεῖς οὐκ ἀσφαλεῖς.
 @ Οἰδίπους
 618	ὅταν ταχύς τις οὑπιβουλεύων λάθρᾳ
-619	χωρῇ, ταχὺν δεῖ κἀμὲ βουλεύειν πάλιν·
+619	χωρῇ, ταχὺν δεῖ κἀμὲ βουλεύειν πάλιν.
 620	εἰ δʼ ἡσυχάζων προσμενῶ, τὰ τοῦδε μὲν
 621	πεπραγμένʼ ἔσται, τἀμὰ δʼ ἡμαρτημένα.
 @ Κρέων
@@ -157,13 +162,13 @@
 @ Οἰδίπους
 !	* * * * * *
 @ Κρέων
-627	οὐ γὰρ φρονοῦντά σʼ εὖ βλέπω.
+626	οὐ γὰρ φρονοῦντά σʼ εὖ βλέπω.
 @ Οἰδίπους
-627a	τὸ γοῦν ἐμόν.
+626a	τὸ γοῦν ἐμόν.
 @ Κρέων
-628	ἀλλʼ ἐξ ἴσου δεῖ κἀμόν.
+627	ἀλλʼ ἐξ ἴσου δεῖ κἀμόν.
 @ Οἰδίπους
-628a	ἀλλʼ ἔφυς κακός.
+627a	ἀλλʼ ἔφυς κακός.
 --- apparatus
 608	Bellermann conject. γνώμης δὲ δήλου.
 623	θνήισκειν L. See comment. on 118.
@@ -175,20 +180,24 @@
 623	θνῄσκειν: the print has acute and iota subscript as Perseus: kept. The print ends the verse with a comma (Perseus .): changed.
 624	the print gives 624 to Oedipus (no speaker mark; Jebb's note 624 f.): kept as in the draft.
 626	after 625 the print has ΟΙ. and a row of six asterisks (a lost verse of Oedipus): added @ Οἰδίπους and the ! line; @ Κρέων before 627 kept.
-627	the print sets 627 and 627a on one line, ΚΡ. … ΟΙ. τὸ γοῦν ἐμόν.: the split and speakers are right.
-628	the print sets 628 and 628a on one line, ΚΡ. … ΟΙ. ἀλλʼ ἔφυς κακός.: the split and speakers are right.
+626	the print sets 626 and 626a on one line, ΚΡ. … ΟΙ. τὸ γοῦν ἐμόν.: the split and speakers are right.
+627	the print sets 627 and 627a on one line, ΚΡ. … ΟΙ. ἀλλʼ ἔφυς κακός.: the split and speakers are right.
 624	the note "624 f." runs on to the top of p-0190's apparatus ("to Oedipus. After v. 625 a verse seems to be lost."): written here whole, numbered 624.
+607	res: full stop after λαβών (not raised stop), as printed
+612	res: no comma after πλεῖστον, as printed
+619	res: full stop after πάλιν (not raised stop), as printed
+626	res numbering: the print does not count the lost verse after 625 (margin 625, then four shared lines, then 630 at κἀμοὶ; Jebb's notes 628 ἀρκτέον, 629 ἄρχοντος): Perseus 627, 627a, 628, 628a renumbered 626, 626a, 627, 627a; the checker's remarks here follow from it
 
 === p-0190
 --- text
 @ Κρέων
-629	εἰ δὲ ξυνίης μηδέν;
+628	εἰ δὲ ξυνίης μηδέν;
 @ Οἰδίπους
-629a	ἀρκτέον γʼ ὅμως.
+628a	ἀρκτέον γʼ ὅμως.
 @ Κρέων
-629b	οὔτοι κακῶς γʼ ἄρχοντος.
+629	οὔτοι κακῶς γʼ ἄρχοντος.
 @ Οἰδίπους
-629c	ὦ πόλις πόλις.
+629a	ὦ πόλις πόλις.
 @ Κρέων
 630	κἀμοὶ πόλεως μέτεστιν, οὐχὶ σοὶ μόνῳ.
 @ Χορός
@@ -197,14 +206,14 @@
 633	τὸ νῦν παρεστὸς νεῖκος εὖ θέσθαι χρεών.
 @ Ἰοκάστη
 634	τί τὴν ἄβουλον, ὦ ταλαίπωροι, στάσιν
-635	γλώσσης ἐπήρασθʼ οὐδʼ ἐπαισχύνεσθε γῆς
+635	γλώσσης ἐπήρασθʼ; οὐδʼ ἐπαισχύνεσθε, γῆς
 636	οὕτω νοσούσης, ἴδια κινοῦντες κακά;
 637	οὐκ εἶ σύ τʼ οἴκους σύ τε, Κρέον, κατὰ στέγας,
 638	καὶ μὴ τὸ μηδὲν ἄλγος εἰς μέγʼ οἴσετε;
 @ Κρέων
 639	ὅμαιμε, δεινά μʼ Οἰδίπους ὁ σὸς πόσις
 640	δυοῖν δικαιοῖ δρᾶν ἀποκρίνας κακοῖν,
-641	ἢ γῆς ἀπῶσαι πατρίδος ἢ κτεῖναι λαβών.
+641	ἢ γῆς ἀπῶσαι πατρίδος, ἢ κτεῖναι λαβών.
 --- apparatus
 629	ἄρχοντοσ L, made from ἄρχοντεσ either by the first hand or by the first corrector (S).—ἄρχοντας Musgrave.
 631	καιρίαν] κυρίαν L, the υ in an erasure of two letters, of which the second was ι: in the margin, γρ. καιρίαν. Most of the later MSS. have καιρίαν.
@@ -214,11 +223,14 @@
 640	δρᾶσαι δικαιοῖ δυοῖν ἀποκρίνας κακοῖν MSS.—δυοῖν .. δρᾶν is my conjecture: see comment. The word συνίζησις, written over δυοῖν in T, seems to show a consciousness of the singularity.
 --- notes
 624	the apparatus begins with the end of the note on 624 ("to Oedipus. After v. 625 a verse seems to be lost."): written with p-0188.
-629	the print sets 629/629a and 629b/629c each on one line (ΚΡ. … ΟΙ. …): splits and speakers right. Jebb's note 629 (ἄρχοντοσ) is on the verse numbered 629b here; his number kept.
+629	the print sets 628/628a and 629/629a each on one line (ΚΡ. … ΟΙ. …): splits and speakers right. Jebb's note 629 (ἄρχοντοσ) is on verse 629 (οὔτοι κακῶς γʼ ἄρχοντος).
 630	the print reads οὐχὶ σοὶ with graves (Perseus οὐχί σοι): changed.
 636	ἴδια is printed on this verse; the print has a comma after νοσούσης: added.
 637	the print reads Κρέον (Perseus Κρέων; Jebb's note 637 follows E and Elmsley): changed.
 639	the print ends 639 at πόσις; δικαιοῖ stands on 640, and δρᾶσαι is not printed: Jebb prints δυοῖν δικαιοῖ *δρᾶν ἀποκρίνας κακοῖν, (his conjecture, note 640; asterisk left out): 639 and 640 rewritten as printed.
+628	res numbering: by the print's count (see p-0188, 626; Jebb's notes 628 ἀρκτέον, 629 ἄρχοντος) Perseus 629, 629a, 629b, 629c renumbered 628, 628a, 629, 629a; 630 stays on κἀμοὶ as printed
+635	res: question mark ; after ἐπήρασθʼ and comma after ἐπαισχύνεσθε, as printed (the question mark not on the residual list; seen on the page)
+641	res: comma after πατρίδος, as printed
 
 === p-0192
 --- text

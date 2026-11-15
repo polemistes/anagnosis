@@ -26,6 +26,7 @@
 779	μέθηι L 1st hand, changed by an early hand to μέθης. The latter prevails in the later MSS. (but μέθη Γ).
 --- notes
 779	the apparatus note runs on to the facing page (leaf 207): written here whole.
+774	res: the print has Πολύβος (acute on the υ), an evident misprint (Jebb prints Πόλυβος everywhere else, Πόλυβον at 827): Πόλυβος kept
 
 === p-0208
 --- text
@@ -34,16 +35,16 @@
 791	ὡς μητρὶ μὲν χρείη με μιχθῆναι, γένος δʼ
 792	ἄτλητον ἀνθρώποισι δηλώσοιμʼ ὁρᾶν,
 793	φονεὺς δʼ ἐσοίμην τοῦ φυτεύσαντος πατρός.
-794	κἀγὼ ʼπακούσας ταῦτα τὴν Κορινθίαν,
-795	ἄστροις τὸ λοιπὸν ἐκμετρούμενος, χθόνα
+794	κἀγὼ ʼπακούσας ταῦτα τὴν Κορινθίαν
+795	ἄστροις τὸ λοιπὸν ἐκμετρούμενος χθόνα
 796	ἔφευγον, ἔνθα μήποτʼ ὀψοίμην κακῶν
 797	χρησμῶν ὀνείδη τῶν ἐμῶν τελούμενα.
-798	στείχων δʼ ἱκνοῦμαι τούσδε τοὺς χώρους, ἐν οἷς
+798	στείχων δʼ ἱκνοῦμαι τούσδε τοὺς χώρους ἐν οἷς
 799	σὺ τὸν τύραννον τοῦτον ὄλλυσθαι λέγεις.
 800	καί σοι, γύναι, τἀληθὲς ἐξερῶ. τριπλῆς
 801	ὅτʼ ἦ κελεύθου τῆσδʼ ὁδοιπορῶν πέλας,
 802	ἐνταῦθά μοι κῆρύξ τε κἀπὶ πωλικῆς
-803	ἀνὴρ ἀπήνης ἐμβεβώς, οἷον σὺ φῇς,
+803	ἀνὴρ ἀπήνης ἐμβεβώς, οἷον σὺ φής,
 --- apparatus
 789	ἄλλα θʼ ἄθλια L: the 1st hand had written ἀθλίω. ἄλλα δʼ ἄθλια r. Herwerden would read ἄλλα δʼ ἀθλίῳ.
 790	προὐφάνη MSS.: προὔφηνεν Hermann. (The gloss προέδειξε in E may be a reminiscence of such a reading. It may be remarked, too, that προὐφάνην is cited by Campbell from M²,=Ambros. L. 39.)
@@ -54,6 +55,10 @@
 790	the print has προὔφηνεν (breathing on the υ, as the apparatus spells it), marked with Jebb's asterisk: the draft's προύφηνεν corrected; asterisk left out.
 791	δʼ checked: printed at the end of this verse.
 797	the apparatus items for 797 and 800 run on to the facing page (leaf 209); the 800 note runs on beyond the spread to the top of p-0210's apparatus ("variation for some fifty years ... have this verse in the text."): written here whole.
+794	res: no comma after Κορινθίαν, as printed
+795	res: no comma after ἐκμετρούμενος, as printed
+798	res: no comma after χώρους, as printed
+803	res: φής (acute, no iota subscript), as printed
 
 === p-0210
 --- text
@@ -61,7 +66,7 @@
 805	αὐτός θʼ ὁ πρέσβυς πρὸς βίαν ἠλαυνέτην.
 806	κἀγὼ τὸν ἐκτρέποντα, τὸν τροχηλάτην,
 807	παίω διʼ ὀργῆς· καί μʼ ὁ πρέσβυς ὡς ὁρᾷ,
-808	ὄχου παραστείχοντα τηρήσας, μέσον
+808	ὄχου, παραστείχοντα τηρήσας, μέσον
 809	κάρα διπλοῖς κέντροισί μου καθίκετο.
 810	οὐ μὴν ἴσην γʼ ἔτεισεν, ἀλλὰ συντόμως
 811	σκήπτρῳ τυπεὶς ἐκ τῆσδε χειρὸς ὕπτιος
@@ -71,7 +76,7 @@
 815	τίς τοῦδε νῦν ἔστʼ ἀνδρὸς ἀθλιώτερος;
 816	τίς ἐχθροδαίμων μᾶλλον ἂν γένοιτʼ ἀνήρ;
 817	ὃν μὴ ξένων ἔξεστι μηδʼ ἀστῶν τινι
-818	δόμοις δέχεσθαι μηδὲ προσφωνεῖν τινα,
+818	δόμοις δέχεσθαι, μηδὲ προσφωνεῖν τινα,
 --- apparatus
 808	ὄχου MSS.: ὄχον Schaefer: ὄχους Döderlein.
 814	Λαίῳ MSS.: Λαΐου Bothe. Blaydes suggests, εἰ δέ τι ξένῳ | τούτῳ προσήκει Λαίῳ τε συγγενές: Heimsoeth, εἰ δὲ τῷ ξένῳ | τούτῳ προσῆν καὶ Λαΐῳ τι συγγενές.
@@ -84,15 +89,17 @@ p-0210	the apparatus begins with the end of the 800 note (from p-0208): written 
 814	the print has Λαΐῳ (the MSS. reading, see the apparatus); the draft's Λαΐου (Bothe) corrected.
 815	the print has τίς τοῦδε *νῦν ἔστʼ ἀνδρὸς ἀθλιώτερος; (Jebb's transposition, see the apparatus): the draft's Perseus line τίς τοῦδέ γʼ ἀνδρός ἐστιν ἀθλιώτερος; replaced; asterisk left out.
 815	the 815 and 817 notes run on to the facing page (leaf 211); the 817 note runs on beyond the spread to the top of p-0212's apparatus ("lute): Dindorf ... (instead of τινα)."): written here whole.
+808	res: comma after ὄχου, as printed
+818	res: comma after δέχεσθαι, as printed
 
 === p-0212
 --- text
 819	ὠθεῖν δʼ ἀπʼ οἴκων. καὶ τάδʼ οὔτις ἄλλος ἦν
 820	ἢ ʼγὼ ʼπʼ ἐμαυτῷ τάσδʼ ἀρὰς ὁ προστιθείς.
 821	λέχη δὲ τοῦ θανόντος ἐν χεροῖν ἐμαῖν
-822	χραίνω, διʼ ὧνπερ ὤλετʼ· ἆρʼ ἔφυν κακός;
+822	χραίνω, διʼ ὧνπερ ὤλετʼ. ἆρʼ ἔφυν κακός;
 823	ἆρʼ οὐχὶ πᾶς ἄναγνος; εἴ με χρὴ φυγεῖν,
-824	καί μοι φυγόντι μἤστι τοὺς ἐμοὺς ἰδεῖν
+824	καί μοι φυγόντι μἤστι τοὺς ἐμοὺς ἰδεῖν,
 825	μηδʼ ἐμβατεύειν πατρίδος, ἢ γάμοις με δεῖ
 826	μητρὸς ζυγῆναι καὶ πατέρα κατακτανεῖν
 827	Πόλυβον, ὃς ἐξέφυσε κἀξέθρεψέ με.
@@ -126,6 +133,8 @@ p-0212	the apparatus begins with the end of the 817 note (from p-0210): written 
 822	χραίνω checked: as printed.
 832	τοιάνδʼ checked: printed on this verse.
 825	the 825, 827 and 840 notes run on to the facing page (leaf 213); the 840 note runs on beyond the spread to the top of p-0214's apparatus ("conjectured by Arndt, Blaydes, and M. Schmidt."): written here whole.
+822	res: full stop after ὤλετʼ, as printed (not in the residual list; clear on the crop: a stop on the line, not raised)
+824	res: comma after ἰδεῖν, as printed
 
 === p-0214
 --- text
@@ -163,8 +172,8 @@ p-0214	the apparatus begins with the end of the 840 note (from p-0212): written 
 === p-0216
 --- text
 @ Οἰδίπους
-859	καλῶς νομίζεις· ἀλλʼ ὅμως τὸν ἐργάτην
-860	πέμψον τινὰ στελοῦντα μηδὲ τοῦτʼ ἀφῇς.
+859	καλῶς νομίζεις. ἀλλʼ ὅμως τὸν ἐργάτην
+860	πέμψον τινὰ στελοῦντα, μηδὲ τοῦτʼ ἀφῇς.
 @ Ἰοκάστη
 861	πέμψω ταχύνασʼ· ἀλλʼ ἴωμεν ἐς δόμους·
 862	οὐδὲν γὰρ ἂν πράξαιμʼ ἂν ὧν οὐ σοὶ φίλον.
@@ -179,3 +188,5 @@ p-0214	the apparatus begins with the end of the 840 note (from p-0212): written 
 p-0216	no apparatus on this page: under the verses there is only the commentary (the facing leaf 217 has none either); the 852 note's end, at the top of p-0218, is written with p-0214.
 861	speaker checked: the print has ΙΟ. in the margin before this verse; @ Ἰοκάστη kept.
 867	the "printed lines" after 867 that matched nothing are the commentary in two columns under the verses: nothing added.
+859	res: full stop after νομίζεις, as printed (on the line, not raised)
+860	res: comma after στελοῦντα, as printed
