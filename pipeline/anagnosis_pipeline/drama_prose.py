@@ -253,14 +253,48 @@ def _region_under_rule(play: Play, leaf: int, body: list[dict], size: tuple[int,
                                                 max(w["bbox"][2] for w in ws), max(w["bbox"][3] for w in ws)])
             piece["region"] = region
             out.append(piece)
+    # pieces of one printed line that Tesseract read as lines of their own ("983 ἅμ’ αὐτοῖς, sc.
+    # τοῖς τόξοις." and "So in"): put together, so that the second piece does not look indented
+    merged: list[dict] = []
+    for region in ("left", "right"):
+        col = sorted((l for l in out if l["region"] == region), key=lambda l: (l["bbox"][1] + l["bbox"][3]) / 2)
+        row: list[dict] = []
+        for l in col:
+            m = row[-1] if row else None
+            if m is not None:
+                ov = min(m["bbox"][3], l["bbox"][3]) - max(m["bbox"][1], l["bbox"][1])
+                if ov > 0.5 * min(m["bbox"][3] - m["bbox"][1], l["bbox"][3] - l["bbox"][1]):
+                    ws = sorted(m["words"] + l["words"], key=lambda w: w["bbox"][0])
+                    row[-1] = dict(m, words=ws, bbox=[min(m["bbox"][0], l["bbox"][0]), min(m["bbox"][1], l["bbox"][1]),
+                                                       max(m["bbox"][2], l["bbox"][2]), max(m["bbox"][3], l["bbox"][3])],
+                                   x_size=max(m.get("x_size") or 0, l.get("x_size") or 0))
+                    continue
+            row.append(l)
+        merged += row
+    out = merged
+    # the signature (J. S. IV., read "7.5. IV.") at the foot of a column: a short line without a
+    # word in it, the column's last, set off from the line above by more than the usual space
+    for region in ("left", "right"):
+        col = sorted((l for l in out if l["region"] == region), key=lambda l: l["bbox"][1])
+        if len(col) < 4:
+            continue
+        pitch = sorted(b["bbox"][1] - a["bbox"][1] for a, b in zip(col, col[1:]))[(len(col) - 1) // 2]
+        last = col[-1]
+        text = " ".join(w["text"] for w in last["words"])
+        if (last["bbox"][1] > 0.75 * H and len(text) <= 14 and not re.search(r"[a-z]{3}|[Ͱ-Ͽἀ-῿]{3}", text)
+                and last["bbox"][1] - col[-2]["bbox"][1] > 1.5 * pitch):
+            out.remove(last)
     order = sorted(out, key=lambda l: ({"left": 0, "right": 1}[l["region"]], l["bbox"][1]))
     return order, mid
 
 
 def jebb_dashes(text: str) -> str:
     """The OCR's dashes in Jebb's commentary as he prints them: '---', '--', '-—' are his dash (—);
+    κ.τ.λ. as the OCR reads it (κιτ.λ., k.T.\\.) written so;
     and his commonest references, which the OCR reads "O. 7." and "0. C.", as *O. T.*, *O. C.*"""
     text = re.sub(r"\s?(?:-{2,4}|-—|—-)\s?", "—", text)
+    text = re.sub(r"(?<!\w)(?:κ[.,ι:]\s?τ[.,]\s?λ|k\.\s?T\.\s?[\\λA])[.,]", "κ.τ.λ.", text)  # κιτ.λ., k.T.\.
+    text = re.sub(r"(?<=\s)ὃ(?=\s\d)", "§", text)  # "De Igne § 37" read "ὃ 37"
     text = re.sub(r"(?<![\w*])[OΟ0]\.\s?[7T]\.", "*O. T.*", text)
     return re.sub(r"(?<![\w*])[OΟ0]\.\s?[CС]\.", "*O. C.*", text)
 
@@ -277,11 +311,26 @@ def jebb_f(text: str) -> str:
 _LEMMA_DASH = re.compile(r"\s*—\s*(?=[‘“(\[]?[Ͱ-Ͽἀ-῿])")
 
 
+_GWORD = r"[‘“(\[]?[Ͱ-Ͽἀ-῿][Ͱ-Ͽἀ-῿ʼ’᾽]*[’”)\]]?"
+_LEAD_GREEK = re.compile(rf"^{_GWORD}(?:(?:\s*(?:\.{{2,3}}|…)\s*|\s+){_GWORD})*")
+
+
 def jebb_lemma(text: str) -> str:
-    """drama.bold_lemma, with Jebb's 'κ.τ.λ.' after the lemma left out of the bold
-    (**ἔα κακῶς** κ.τ.λ.)."""
-    out = bold_lemma(text)
-    return re.sub(r"^\*\*(.+?)\s+κ\*\*\.τ\.λ\.", r"**\1** κ.τ.λ.", out)
+    """The Greek words at the start of a note of Jebb's in bold, as drama.bold_lemma, up to the
+    first word that is not Greek, with his 'κ.τ.λ.' left out of the bold (**ἔα κακῶς** κ.τ.λ.).
+    (Not bold_lemma itself: its pattern, whose word separators are optional, backtracks for
+    minutes on a long run of Greek that ends otherwise than it expects.)"""
+    if text.startswith("**"):
+        return text
+    m = _LEAD_GREEK.match(text)
+    if not m:
+        return text
+    lemma = m.group(0)
+    if re.search(r"\sκ$", lemma) and text[len(lemma):].startswith(".τ.λ."):
+        lemma = lemma[:-2]
+    lemma = lemma.rstrip()
+    rest = text[len(lemma):]
+    return f"**{re.sub(r'(?<=[^.])\.\.(?=[^.])', '...', lemma)}**" + rest  # the OCR's '..' for Jebb's '...' 
 
 
 def split_lemmas(text: str, first: bool = False) -> list[str]:
@@ -296,39 +345,78 @@ def split_lemmas(text: str, first: bool = False) -> list[str]:
     return [x for x in out if x] or [""]
 
 
-NOTE_WINDOW = 60  # how far one note's number may run ahead of the last (Jebb's notes)
+NOTE_WINDOW = 100  # how far one note's number may run ahead of the one before (Jebb's notes)
+NOTE_REACH = 80    # how many headings back a note's predecessor in the sequence is looked for
+_DIGIT_LIKE = {"3": "8", "8": "3", "1": "7", "7": "1", "5": "6", "6": "5", "0": "9", "9": "0"}
+
+
+def _note_options(a: str) -> list[tuple[int, int]]:
+    """The readings of a note's number as the OCR gave it, with their cost: as read (0); with a
+    figure fewer (1: "255 f." read "2555.", "1153" for "153"); with one old-style figure read as
+    its look-alike (2: 3/8, 1/7, 5/6, 0/9: "30" read "80")."""
+    out = {int(a): 0}
+    if len(a) >= 3:
+        for i in range(len(a)):
+            x = a[:i] + a[i + 1:]
+            if x and not x.startswith("0"):
+                out.setdefault(int(x), 1)
+    for i, c in enumerate(a):
+        if c in _DIGIT_LIKE:
+            x = a[:i] + _DIGIT_LIKE[c] + a[i + 1:]
+            if not x.startswith("0"):
+                out.setdefault(int(x), 2)
+    return sorted(out.items(), key=lambda t: t[1])
 
 
 def _resolve_note_headings(pages: list[dict], last_line: int = 2000) -> None:
-    """The note headings of Jebb's commentary (placeholders of analyse_page) settled over the
-    pages in order: the number as read where it follows the last note's (not lower, at most
-    NOTE_WINDOW higher, not beyond the play's last line); else a reading with one figure fewer
-    (the OCR reads "255 f." as "2555.", "153 ff." as "1153 ff."); else no heading: the paragraph
-    goes back into the text as read, for the agent."""
-    last = 0
+    """The note headings of Jebb's commentary (placeholders of analyse_page) settled over all the
+    pages at once: of the numbers as read (or a reading of _note_options), the longest sequence
+    that never falls and never leaps more than NOTE_WINDOW nor beyond the play's last line is
+    kept as headings, the cheaper readings preferred; a candidate outside it (a reference at the
+    start of a paragraph, a number misread past mending) goes back into the text as read, for
+    the agent. One misread number thus cannot shut out the notes after it."""
+    cands = []  # (page, candidate)
+    for page in pages:
+        for raw in page["md"].split("\n"):
+            m = re.fullmatch("\x00(\\d+)", raw)
+            if m and page["cands"][int(m.group(1))].get("kind") == "note":
+                cands.append(page["cands"][int(m.group(1))])
+    opts = [[(v, c) for v, c in _note_options(x["n"].partition("-")[0]) if 1 <= v <= last_line] for x in cands]
+    # best[i][j]: (score, previous (i, j)) of the best sequence ending in option j of candidate i
+    best: list[list[tuple[int, tuple[int, int] | None]]] = []
+    for i, oi in enumerate(opts):
+        row = []
+        for v, cost in oi:
+            score, prev = 10 - cost, None
+            for k in range(max(0, i - NOTE_REACH), i):
+                for j2, (v2, _c2) in enumerate(opts[k]):
+                    if v2 <= v <= v2 + NOTE_WINDOW and best[k][j2][0] + 10 - cost > score:
+                        score, prev = best[k][j2][0] + 10 - cost, (k, j2)
+            row.append((score, prev))
+        best.append(row)
+    chosen: dict[int, int] = {}
+    ends = [(best[i][j][0], i, j) for i in range(len(best)) for j in range(len(best[i]))]
+    if ends:
+        _s, i, j = max(ends)
+        node: tuple[int, int] | None = (i, j)
+        while node is not None:
+            chosen[id(cands[node[0]])] = opts[node[0]][node[1]][0]
+            node = best[node[0]][node[1]][1]
     for page in pages:
         out: list[str] = []
         for raw in page["md"].split("\n"):
             m = re.fullmatch("\x00(\\d+)", raw)
-            if not m:
+            c = page["cands"][int(m.group(1))] if m else None
+            if c is None or c.get("kind") != "note":
                 out.append(raw)
                 continue
-            c = page["cands"][int(m.group(1))]
-            if c.get("kind") != "note":
-                out.append(raw)
-                continue
-            a, _, b = c["n"].partition("-")
-            top = min(last + NOTE_WINDOW, last_line) if last else last_line
-            opts = [a] + sorted({a[:i] + a[i + 1:] for i in range(len(a))} - {a} if len(a) >= 3 else set(),
-                                key=lambda x: int(x))
-            pick = next((x for x in opts if x and last <= int(x) <= top and not x.startswith("0")), None)
-            if pick is None:
+            if id(c) not in chosen:
                 for piece in c["orig"]:
                     out += [piece, ""]
                 continue
-            last = int(pick)
-            heading = f"## {pick}" + (f"-{b}" if b and int(b) > int(pick) else "")
-            out += [heading] + [x for piece in c["body"] if piece for x in (piece, "")]
+            n = chosen[id(c)]
+            b = c["n"].partition("-")[2]
+            out += [f"## {n}" + (f"-{b}" if b and int(b) > n else "")] + [x for piece in c["body"] if piece for x in (piece, "")]
             if out[-1] != "":
                 out.append("")
         page["md"] = re.sub(r"\n{3,}", "\n\n", "\n".join(out)).strip()
@@ -520,8 +608,11 @@ def analyse_page(play: Play, kind: str, leaf: int, voc, names: set[str], scan: s
             short_end = prev is not None and prev["bbox"][2] < right - 3 * h and re.search(r"[.?!:]['’”)]?$", prev["text"])
             if jebb and prev is not None and prev["bbox"][2] < right - 1.5 * h and re.match(r"^(?:\d{1,2}|[IlΙ1]{1,2})\.\s", text):
                 short_end = True  # an item of a numbered list (the structure of the play) after a short line
-            if under and numbered and prev is not None and indent <= 0.5 * h and not short_end:
-                numbered = False  # a figure at the start of a printed line inside running text (Thuc. 4. | 117)
+            if under and numbered and indent <= 0.8 * h:
+                # Jebb begins every note with an indented line: a figure at the start of a line
+                # flush with the column is a reference run on (Thuc. 4. | 117; "7. 110" at the
+                # top of a column)
+                numbered = False
             new = (prev is None or indent > 0.8 * h or centred or caps or numbered or bool(short_end)
                    or (prev is not None and prev["caps"]))
             if under and prev is None and region == "right" and paras and not (indent > 0.8 * h or numbered or centred):
@@ -560,7 +651,7 @@ def analyse_page(play: Play, kind: str, leaf: int, voc, names: set[str], scan: s
                               "orig": split_lemmas(text)})
                 md += [f"\x00{len(cands) - 1}", ""]
                 continue
-            pieces = split_lemmas(text)
+            pieces = split_lemmas(text, first=p["indent"])  # an indented paragraph begins with a lemma
             if k == 0 and not p["indent"]:
                 pieces[0] = "+ " + pieces[0]  # the note runs on from the page before
             for piece in pieces:

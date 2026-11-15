@@ -712,10 +712,15 @@ def write_transcribed_commentary(slug: str, texts: Path, transcriptions: Path, i
           f"# source: Sophocles: The Plays and Fragments, {PART_ROMAN[play.part]}: The {play.title_en}, ed. R. C. Jebb, "
           f"Cambridge University Press, {SCAN_EDITIONS[slug]}, {PROSE_HOW}",
           "# license: CC BY-SA 4.0 (transcription; the edition is in the public domain)", ""]
+    if len(notes) > 1 and not notes[0][0]:
+        # what Jebb prints before the first note's number (the Philoctetes: "Scene:—A lonely place
+        # …" before "1—134 Prologue."), under the first heading, as Perseus files the Trachiniae's
+        print(f"{slug} notes: put under ## {notes[1][0]}, before its note: {' '.join(notes[0][1])[:80]}")
+        notes = [(notes[1][0], notes[0][1] + notes[1][1])] + notes[2:]
     count = 0
     for heading, body in notes:
         if not heading:
-            print(f"{slug} notes: text before the first note's heading, left out: {' '.join(body)[:80]}")
+            print(f"{slug} notes: text without a heading, left out: {' '.join(body)[:80]}")
             continue
         md += [f"## {heading}"] + [x for p in body for x in (p, "")]
         if not body:

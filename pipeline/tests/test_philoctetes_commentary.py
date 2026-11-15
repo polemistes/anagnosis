@@ -11,7 +11,7 @@ from anagnosis_pipeline.drama_prose import _resolve_note_headings, jebb_dashes, 
 from anagnosis_pipeline.sophocles import PROSE_HOW, write_prose, write_transcribed_commentary
 
 NOTES_1 = """=== p-0120
-+ was merely a late attempt to mend the verse.
+Scene:—*A lonely place on the N.E. coast of Lemnos.*
 
 ## 249
 **ἢ γὰρ** in eager question: 322, *O. C.* 64.
@@ -80,7 +80,10 @@ class TranscribedCommentary(unittest.TestCase):
             f"(University of Toronto), {PROSE_HOW}",
             "# license: CC BY-SA 4.0 (transcription; the edition is in the public domain)",
             "",
+            # what stands before the first number goes under the first heading
             "## 249",
+            "Scene:—*A lonely place on the N.E. coast of Lemnos.*",
+            "",
             "**ἢ γὰρ** in eager question: 322, *O. C.* 64.",
             "",
             "**ἐγὼ** with emphasis: cp. 1213.",
@@ -102,9 +105,6 @@ class TranscribedCommentary(unittest.TestCase):
             "**νόστου**, said by the Chorus.",
             "",
         ]))
-        # the text before the first heading (the end of a note on the page before the batches)
-        # is joined to nothing and left out
-        self.assertNotIn("late attempt", text)
         # again: the same file
         write_prose("philoctetes", self.sources, self.texts, self.tr)
         self.assertEqual((self.texts / "philoctetes" / "commentary-jebb.md").read_text(encoding="utf-8"), text)
@@ -152,6 +152,15 @@ class Draft(unittest.TestCase):
         self.assertEqual(pages[0]["md"], "## 249\n**ἢ γὰρ** x\n\nmore\n\n## 255\n**οὐ** y")
         # 117 is lower than the last note, 1760 beyond the play: back into the text as read
         self.assertEqual(pages[1]["md"], "117 ἐπὶ μεῖζον\n\n## 258-259\n**σίγ’** z\n\n1760 w")
+
+    def test_one_misread_number_does_not_shut_out_the_rest(self):
+        # "30" read "80" (old-style 3 for 8): the sequence 29, 30, 31, 32 wins over 29, 80
+        def cand(n):
+            return {"kind": "note", "n": n, "body": [f"note {n}"], "orig": [f"{n} as read"]}
+
+        pages = [{"md": "\n\n".join(f"\x00{k}" for k in range(5)), "cands": [cand(x) for x in ("29", "80", "31", "32", "33")]}]
+        _resolve_note_headings(pages, 1471)
+        self.assertEqual([l for l in pages[0]["md"].split("\n") if l.startswith("## ")], ["## 29", "## 30", "## 31", "## 32", "## 33"])
 
 
 if __name__ == "__main__":

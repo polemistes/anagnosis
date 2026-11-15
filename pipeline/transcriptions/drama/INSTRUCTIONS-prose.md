@@ -383,6 +383,97 @@ with `+ `. Flags on words of lines the draft left out (a running head, a title) 
   line in `texts/<play>/grc.txt` (where it is not, say why under notes: Jebb may number a verse
   otherwise than our text).
 
+## Jebb's Sophocles: the commentary
+
+For the **Philoctetes** Perseus has no commentary, so Jebb's whole commentary (R. C. Jebb,
+*Sophocles: The Plays and Fragments, Part IV: The Philoctetes*, second edition, Cambridge 1898;
+scan `playsfragmentswi04sophuoft`) is read here. The batches are
+`pipeline/transcriptions/drama/philoctetes/notes-NN.md` (eight pages each), the crops in
+`pipeline/build/drama-prose/philoctetes/` (`p-0121-flags.png`, `p-0121-col-l.png`,
+`p-0121-col-r.png`, `pages/leaf_0121.png`). `sophocles-prose philoctetes` turns the checked
+batches into `texts/philoctetes/commentary-jebb.md`, which must look like
+`texts/trachiniae/commentary-jebb.md` or `texts/oedipuscoloneus/commentary-jebb.md` (look at a
+screenful of one before you start). Everything you need is in this section and in "The notes"
+above; do not open `pipeline/transcriptions/sophocles/`.
+
+**The page and what is yours.** Each spread has the Greek verses on the left-hand (even) page
+and Jebb's translation on the right-hand (odd) page; under them, full width in small type, the
+critical apparatus; then a rule; and **under the rule, on both pages, the commentary in two
+columns. Only the commentary under the rule is yours.** The verses, the translation and the
+apparatus above the rule belong to other batches: if a line of them slipped into the draft (an
+apparatus note such as "1151 πρόσθεν r: πρόσθε L.—", a line of the translation), delete it and
+say so under notes. The draft also leaves out the running head (page number, ΣΟΦΟΚΛΕΟΥΣ,
+ΦΙΛΟΚΤΗΤΗΣ) and the signature at the foot ("4—2", "15—2"); a flag on such a word is answered
+`omitted`.
+
+**The order.** The commentary reads down the left column of the left-hand page, then its right
+column, then the left and right columns of the right-hand page, and runs on to the next spread;
+the pages stand in the batches in that order (p-0120 left page, p-0121 right page). The draft has
+put each page's lines in this order and joined a paragraph that runs from the foot of the left
+column to the top of the right one; check it on the column images. A paragraph that runs on from
+the page before (also from the left-hand page to the right-hand page of one spread) begins the
+page's block with `+ `; a page whose first line is a new, indented paragraph gets no `+ `.
+
+**The notes.**
+
+* A note begins a new, indented paragraph with the verse number in bold, mostly followed by the
+  lemma in bold Greek: "**12 f.** **ἀκμὴ** …". The number becomes the heading: `## 12`; "12 f."
+  and "12 ff." are `## 12`; a range "50—53" is `## 50-53` (plain hyphen); "1081—1217" over a
+  whole lyric part is a note like any other. Nothing else on the heading line.
+* The draft took the numbers as the OCR read them and kept a heading only where its number
+  follows the last one (not lower, at most 60 higher); **take every number from the image**: the
+  bold old-style figures are often misread (1 as I, l or ι; 0 as o; 6 as b; "255 f." as "2555.",
+  where the draft has already tried a figure fewer). A heading the draft could not settle is left
+  as text at the start of its paragraph ("1760 w…"): make it the heading from the image. A number
+  at the start of a printed line inside running text ("Thuc. 4. | 117", "cp. | 1095") is a
+  reference, never a heading.
+* The lemma: the Greek in bold after the number, in `**…**`; its colon, comma or stop stays
+  outside, as does "κ.τ.λ." after it: `**ἔα κακῶς** κ.τ.λ.`, `**πότμος...δαιμόνων**: Ant. 157`.
+  The OCR reads bold Greek worst of all: read every lemma from the image.
+* **Further lemmas on the same verse** run on inside Jebb's paragraph after a dash: "…the
+  repeated σε, cp. *Ant.* 790.—**ἐμᾶς**, Bergk's correction…". As in the other plays' files, each
+  such lemma begins a **new paragraph under the same heading**, the dash dropped:
+  `**ἐμᾶς**, Bergk's correction…`. The draft has already cut the paragraph at **every** dash
+  followed by Greek and put the Greek in bold: check each cut against the image; where the Greek
+  after the dash is not bold (a quotation or a word in plain type), join the pieces again with
+  the dash (`…the gloss,—κατέχεται…`) and take the bold away. A dash followed by English ("—For
+  που, Blaydes gives πω") stays in the paragraph. A further lemma that Jebb begins on a new
+  indented line without a number is also a new paragraph under the same heading.
+* Bold Greek **inside** a paragraph, not after a dash ("…the bravest of the Greeks.'
+  **πατρὸς** is not a gen. of agency"), stays in its paragraph, in bold.
+* The OCR reads Jebb's "=" as "--", so the draft may have cut "τολμήστατε=τολμηέστατε" at it:
+  join it again with "=". A paragraph that begins indented without a number begins with a bold
+  lemma in the draft: take the bold away where the print has none.
+* Before the first note Jebb describes the scene ("Scene:—*A lonely place on the N.E. coast of
+  Lemnos* …"), and a range note opens each part of the play ("1—134 Prologue. Odysseus tells
+  …"): keep the scene as the first paragraph of p-0076 (the merge files it under `## 1-134`, as
+  the Trachiniae's) and the range notes as notes (`## 1-134`), in italics where Jebb prints them.
+* Jebb's dash is —, in ranges too ("vv. 264—269"; the draft wrote the OCR's -- and --- so);
+  only the heading's range has a hyphen.
+
+**Jebb's references and abbreviations**, copied exactly as printed, italics as printed:
+Sophocles' plays *Ai.*, *Ant.*, *El.*, *O. T.*, *O. C.*, *Tr.*, *Ph.* and other works (*Il.*,
+*Od.*, Aesch. *Pers.*, Eur. *H. F.*, Ar. *Pax*, Plut. *Mor.*, Thuc. 4. 117, Lys. or. 12 § 23);
+"n." is a note: "170 n." his note on v. 170 of this play, "*O. C.* 1019 n." his note in his
+Oedipus Coloneus (another volume of the same edition), "cr. n." his critical note (the
+apparatus); "see Appendix" is the Appendix of this volume, "Introd." his introduction; cp., sc.,
+*i.e.*, *v. l.*, schol., Herm. (Hermann), Nauck, Blaydes, Bergk, Wecklein as printed. Small
+capitals as ordinary capitals (MSS., MS., B.C.; the OCR reads "Mss."): `MSS.`. Sigla as printed
+(L, A, r, L², V³). Quotation marks are mostly his single ‘ ’ (the OCR reads ’ as ” and ‘ as ¢:
+check every one). Metrical schemes in the signs he prints (– ⏑ ×).
+
+**Greek**: Unicode polytonic, precomposed, every breathing and accent; elision ’ (the OCR's ᾽ is
+accepted and made ’ at the merge). Jebb quotes much Greek in his notes; the OCR reads short Greek
+words in Latin letters (yap γὰρ, ov οὐ, Tov τὸν, kal καί) and garbles bold Greek: correct every
+such word you see, flagged or not, but do not retype Greek that is right. **Read each column
+image through once**, as for the Appendix: the OCR knows no italics, and the figures of verse
+references must be exactly the print's.
+
+**Check** with `check-drama-prose philoctetes transcriptions/drama/philoctetes/notes-NN.md`: it
+wants `## N` or `## N-M` headings, rising numbers, each in `texts/philoctetes/grc.txt` (where Jebb
+numbers a verse our text lacks, which happens in the lyrics, keep his number and say under notes
+"## 1100: Jebb's number; our text has no 1100"), every flag answered, `+ ` only at a page's start.
+
 ## Your own files
 
 **Your own files.** Scripts, enlarged crops and other helpers go only in a folder of your own,
