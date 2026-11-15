@@ -241,6 +241,9 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2898566	9	,	,	u--------	COORD	2	
 2898566	17	,	,	u--------	AuxX	19	
 2898566	21	.	.	u--------	AuxK	0	
+2898567	1	ἀείρομαι	ἀείρω	v1spie---	PRED_CO	3	
+2898567	2	οὐ	οὐδέ	g--------	AuxZ	4	
+2898567	3	δ̓	δέ	g--------	COORD	0	
 2898567	7	,	,	u--------	AuxX	9	
 2898567	13	.	.	u--------	AuxK	0	
 2898568	4	,	,	u--------	AuxX	5	
@@ -958,6 +961,7 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2898851	5	,	,	u--------	AuxX	7	
 2898851	8	,	,	u--------	AuxX	7	
 2898851	10	;	;	u--------	AuxK	0	
+2898852	6	οὐ	οὐ	d--------	AuxZ	7	
 2898852	8	·	·	u--------	AuxK	0	
 2898852	9	[0]			ATR	10	1
 2898852	10	[1]			OBJ	11	1
@@ -1072,6 +1076,7 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2898895	14	,	,	u--------	AuxX	12	
 2898895	18	,	,	u--------	AuxX	20	
 2898895	23	,	,	u--------	AuxX	20	
+2898895	30	τανῦν	τανῦν	d--------	ADV	39	
 2898895	32	,	,	u--------	AuxX	36	
 2898895	38	;	;	u--------	AuxK	0	
 2898895	39	[0]			ADV	29	1
@@ -1123,6 +1128,8 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2898921	6	[0]			PRED	0	1
 2898922	2	,	,	u--------	AuxX	4	
 2898922	5	,	,	u--------	AuxX	4	
+2898922	6	τάνδε	ὅδε	p-s---fa-	ATR	8	
+2898922	7	τὴν	ὁ	l-s---fa-	ATR	8	
 2898922	9	;	;	u--------	AuxK	0	
 2898923	2	,	,	u--------	AuxX	6	
 2898923	7	.	.	u--------	AuxK	0	
@@ -1145,6 +1152,8 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2898934	4	[0]			PRED	0	1
 2898935	3	,	,	u--------	AuxX	4	
 2898935	7	.	.	u--------	AuxK	0	
+2898936	2	γὰρ	γάρ	g--------	AuxY	37	
+2898936	3	ἦλθε	ἔρχομαι	v3saia---	ADV_CO	7	
 2898936	15	,	,	u--------	AuxX	16	
 2898936	20	,	,	u--------	AuxX	16	
 2898936	27	,	,	u--------	AuxX	21	

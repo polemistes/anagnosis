@@ -9,6 +9,16 @@ plainly wrong wherever it stands.
 from __future__ import annotations
 
 HAND_ANALYSES: dict[str, dict[str, tuple[str, str]]] = {
+    # Jebb's Trachiniae: words the review list (build/trachiniae-review.tsv) showed with the
+    # treebank's parse of another reading, or with none
+    "trachiniae": {
+        "122 αἰδοῖα": ("αἰδοῖος", "a-p---na-"),      # Musgrave's αἰδοῖα for the MSS.' ἁδεῖα
+        "165 κἀνιαύσιος": ("ἐνιαύσιος", "a-s---mn-"),  # the treebank reads κἀνιαύσιον
+        "216 ἀείρομʼ": ("ἀείρω", "v1spie---"),
+        "869 ἀήθης": ("ἀήθης", "a-s---fn-"),         # †ἀήθης, where the treebank reads κατηφὴς
+        "1077 δʼ": ("δέ", "c--------"),               # the treebank reads θʼ
+        "1234 δʼ": ("δέ", "c--------"),               # the treebank reads τʼ
+    },
     "hermas": {
         "26.5.4 κʹ": ("κʹ", "m--------"),  # twenty (GLAUx: ἄν)
         "2.4.3 Γραπτὴ": ("Γραπτή", "n-s---fn-"),  # the name (GLAUx: γραπτός)
