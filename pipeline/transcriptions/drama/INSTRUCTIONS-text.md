@@ -214,6 +214,8 @@ translation and the rule (crops `-app2-l.png`, `-app2-r.png`): write it with the
   asterisk (*τό): leave the asterisk out. His supplements stand in angle brackets, printed
   < >: write ⟨ ⟩; words he holds spurious in square brackets; a dagger † stays. Words printed
   outside the metre on a verse's line (ναί· before 425) stay on that line, as printed.
+  The play's opening words, printed in capitals, are written as the check text spells them
+  (ὦ τέκνα, not Ὦ Τέκνα or Ὦ ΤΕΚΝΑ).
 * **The apparatus.** Each note begins with the line number in bold ("16", "12 f.", "94—102"),
   usually followed by a lemma that ends in a square bracket; a note on one line may hold several
   remarks divided by ".—": the whole note is ONE output line, `16<TAB>ἀεὶ] αἰεὶ L. Cp. cr. n. on

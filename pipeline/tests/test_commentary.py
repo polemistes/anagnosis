@@ -68,5 +68,25 @@ class CitationSpaces(unittest.TestCase):
         self.assertIn("**λόγος**, as Pind. *O.* 7. 54 ἀνθρώπων παλαιαὶ ῥήσιες.", text)
 
 
+class GapIsAnEllipsis(unittest.TestCase):
+    """Perseus's Oedipus Tyrannus writes Jebb's "..." as <gap/>: kept as a spaced ellipsis."""
+
+    def md(self, xml):
+        from anagnosis_pipeline.commentary import _md
+        return _md(etree.fromstring(xml), False)
+
+    def test_between_words(self):
+        self.assertEqual(self.md('<p><lemma lang="greek">duoi=n<gap/>a)pokri/nas kakoi=n</lemma> x</p>'),
+                         "**δυοῖν … ἀποκρίνας κακοῖν** x\n\n")
+        self.assertEqual(self.md('<p>The <foreign lang="greek">dra=sai<gap/>duoi=n,</foreign> is</p>'),
+                         "The δρᾶσαι … δυοῖν, is\n\n")
+
+    def test_no_space_before_a_stop_and_none_doubled(self):
+        self.assertEqual(self.md('<p><foreign lang="greek">i)w\\<gap/>*zeu=,<gap/>po/rois</foreign></p>'),
+                         "ἰὼ … Ζεῦ, … πόροις\n\n")
+        self.assertEqual(self.md('<p><quote lang="greek">e)pei/ se <gap/> ste/rcas</quote></p>'),
+                         "ἐπεί σε … στέρξας\n\n")
+
+
 if __name__ == "__main__":
     unittest.main()

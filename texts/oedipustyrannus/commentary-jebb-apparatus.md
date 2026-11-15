@@ -394,8 +394,8 @@ L has τὸν ἐναγῆι φίλον μήποτʼ ἐν αἰτίαι | σὺ
 ## 678
 [679] δόμον L: δόμων r.
 
-## 684
-λόγος L: ὁ λόγος r.
+## 683
+[684] λόγος L: ὁ λόγος r.
 
 ## 688
 Hartung conjectures παρίης καὶ καταμβλύνεις, placing a note of interrogation (;) after ἥκεις. So Wecklein (writing παριεῖς with Cobet). All MSS. give the participles. In L and A there is a marg. gloss ἐκλύων on παριείς.

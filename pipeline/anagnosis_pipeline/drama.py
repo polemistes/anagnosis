@@ -1350,6 +1350,13 @@ def merge_play(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path
             doc.items.append(Stage(a))
         else:
             doc.items.append(Line(a, b))
+    if play.check_text:
+        # Jebb's Sophocles: the sections named by the divisions of the play (sophocles.PLAYS) in
+        # which most of their verses fall, by our final numbering
+        from . import sophocles
+
+        if slug in sophocles.PLAYS:
+            sophocles.label_parts(doc, sophocles.PLAYS[slug])
     out.mkdir(parents=True, exist_ok=True)
     write_file(out / "grc.txt", doc)
     print(f"wrote {out / 'grc.txt'}: {len(lines)} lines from {len(pages)} pages")

@@ -281,7 +281,7 @@ The story of Oedipus was one of a few subjects which the Greek dramatists never 
 
 Nothing can better illustrate the distinctive qualities of the Sophoclean Oedipus than to compare it with the treatment of the same theme by Seneca, Corneille, Dryden and Voltaire. So far as the last three are concerned, the comparison has a larger value. The differences between the spirit of the best Greek Tragedy and that of modern drama are not easily expressed in formulas, but can be made clearer by a particular example. Perhaps the literature of drama hardly affords any example so apposite for this purpose as the story of Oedipus.
 
-## § 18 — The *Oedipus* of Seneca.
+## § 18 — The Oedipus of Seneca.
 
 Seneca has followed, and sometimes paraphrased, Sophocles with sufficient fidelity to heighten the contrast between the original and the rhetorical transcript. For the comparative student of drama, however, the Roman piece is by no means devoid of instruction or of interest. Seneca’s plot diverges from that of Sophocles in three main points. (i) Teiresias does not intuitively know the murderer of Laïus. When his aid is invoked by Oedipus, he has recourse to the arts of divination. Manto, the daughter of the blind seer, reports the signs to him, and he declares that neither voice of birds nor inspection of victims can reveal the name. Laïus himself must be called up from the shades. In a grove near Thebes, Teiresias performs the awful rites which evoke the dead; the ghastly shape of Laïus rises—
 
@@ -313,7 +313,7 @@ The closeness with which Seneca has studied Sophocles can be judged from several
 
 [Note: ¹ A small trait may be noticed as amusingly characteristic of the Roman poet of the Empire. The Laïus of Sophocles goes to Delphi βαιός—with only four attendants (752). Seneca makes Laïus *set out* with the proper retinue of a king;—but most of them lose their way. *Plures fefellit error ancipitis viae: Paucos fidelis curribus iunxit labor.*]
 
-## § 20 — The *Oedipe* of Corneille.
+## § 20 — The Oedipe of Corneille.
 
 The *Oedipe* of Corneille was produced at Paris in 1657. After an interval which followed the unfavourable reception of his *Pertharite* in 1653, it was with the *Oedipe* that Corneille returned to the theatre, at the instance of his patron, Nicolas Fouquet, to whom it is dedicated. It is immaterial for our purpose that this play is far from exhibiting Corneille at his best; nor need we here inquire what precise rank is to be assigned to it among his less successful works. For the student of Sophocles, it has the permanent interest of showing how the subject of the *Oedipus Tyrannus* was adapted to the modern stage by a typical artist of the French classical school. The severely simple theme of Sophocles, with its natural elements of pity and terror, is found too meagre by the modern dramatist. He cannot trust to that alone; he feels that he needs some further source of variety and relief. To supply this, he interweaves an underplot of secondary persons—‘the happy episode of the loves of Theseus and Dircè.’ Theseus is the king of Athens; Dircè is a daughter of the deceased Laïus.
 
@@ -337,7 +337,7 @@ La surprenante horreur de cet accablement | Ne coûte à sa grande âme aucun é
 
 Contrast with this the life-like and terrible power of the delineation in Sophocles, from the moment when the cry of despair bursts from the lips of Oedipus (1182), to the end.
 
-## § 21 — The *Oedipus* of Dryden.
+## § 21 — The Oedipus of Dryden.
 
 Twenty-two years after Corneille, Dryden essayed the same theme. His view was that his French predecessor had failed through not rendering the character of Oedipus more noble and attractive. On the other hand, he follows Corneille in the essential point of introducing an underplot. Dryden’s Eurydicè answers to Corneille’s Dircè, being, like her, the daughter of Laïus. Corneille’s Theseus is replaced by Adrastus, king of Argos,—a personage less likely, in Dryden’s opinion, to eclipse Oedipus. When the play opens, Oedipus is absent from Thebes, and engaged in war with Argos. Meanwhile plots are being laid against his throne by Creon—a hunch-backed villain who makes love to Eurydicè, and is rejected by her much as Shakspeare’s Richard, Duke of Gloster—who has obviously suggested some traits—is repulsed by the Lady Ann. Presently Oedipus returns, bringing the captive Adrastus, whom he chivalrously sets free to woo Eurydicè. From this point, the piece follows the general lines of Sophocles, so far as the discovery is concerned. Oedipus is denounced, however, not by Teiresias, but, as in Seneca, by the ghost,—which Dryden, unlike Seneca, brings on the stage.
 
@@ -355,7 +355,7 @@ It is right to add that, while the best parts of the play—the first and third 
 
 But for the murderer’s self, unfound by man, | Find him, ye powers celestial and infernal! | And the same fate, or worse than Laïus met, | Let be his lot: his children be accurst; | His wife and kindred, all of his, be cursed! | *Both Priests.* Confirm it, heaven! | Enter Jocasta, *attended by Women.* | *Joc.* At your devotions? Heaven succeed your wishes; | And bring the effect of these your pious prayers | On you, and me, and all. | *Pr.* Avert this omen, heaven! | *Oedip.* O fatal sound! unfortunate Jocasta! | What hast thou said? an ill hour hast thou chosen | For these foreboding words! why, we were cursing! | *Joc.* Then may that curse fall only where you laid it. | *Oedip.* Speak no more! | For all thou say’st is ominous: we were cursing; | And that dire imprecation hast thou fasten’d | On Thebes, and thee, and me, and all of us.
 
-## § 22 — The *Oedipe* of Voltaire.
+## § 22 — The Oedipe of Voltaire.
 
 More than either Dryden or Corneille, Voltaire has treated this subject in the spirit of the antique. His *Oedipe* was composed when he was only nineteen. It was produced in 1718 (when he was twenty-four), and played forty-six times consecutively—a proof, for those days, of marked success. In 1729, the piece having kept its place on the stage meanwhile, a new edition was published. It is not merely a remarkable work for so young a man; its intrinsic merit, notwithstanding obvious defects, is, I venture to think, much greater than has usually been recognised. The distinctive ‘note’ of the modern versions—the underplot—is there, no doubt; but, unlike Corneille and Dryden, Voltaire has not allowed it to overshadow the main action.
 
@@ -427,7 +427,7 @@ But this touch, though bold and not unhappy, must be classed with the transparen
 
 The recent revivals of Greek plays have had their great reward in proving how powerfully the best Greek Tragedy can appeal to modern audiences. Those who are furthest from being surprised by the result will be among the first to allow that the demonstration was needed. The tendency of modern study had been too much to fix attention on external contrasts between the old Greek theatre and our own. Nor was an adequate corrective of this tendency supplied by the manner in which the plays have usually been studied; a manner more favourable to a minute appreciation of the text than to apprehension of the play as a work of art. The form had been understood better than the spirit. A vague feeling might sometimes be perceived that the effectiveness of the old Greek dramas, *as such*, had depended essentially on the manners and beliefs of the people for whom they were written, and that a successful Sophocles presupposed a Periclean Athens. Some wonderment appeared to greet the discovery that a masterpiece of Aeschylus, when acted, could move the men and women of to-day. Now that this truth has been so profoundly impressed on the most cultivated audiences which England or America could furnish,—in Germany and France it had been less unfamiliar,—it is not too much to say that a new life has been breathed into the modern study of the Greek drama.
 
-## § 28 — The *Oedipus Tyrannus*—a crucial experiment.
+## § 28 — The Oedipus Tyrannus—a crucial experiment.
 
 Recent representations of the *Oedipus Tyrannus* have a peculiar significance, which claims notice here. The incestuous relationship—the entrance of Oedipus with bleeding eyes—these are incidents than which none could be imagined more fitted to revolt a modern audience. Neither Corneille nor Voltaire had the courage to bring the self-blinded king on the stage; his deed is related by others. Voltaire, indeed, suggested¹ that the spectacle might be rendered supportable by a skilful disposition of lights,—Oedipus, with his gore-stained face, being kept in the dim back-ground, and his passion being expressed by action rather than declamation, while the scene should resound with the cries of Iocasta and the laments of the Thebans. Dryden dared what the others declined; but his play was soon pronounced impossible for the theatre. Scott quotes a contemporary witness to the effect that, when Dryden’s *Oedipus* was revived about the year 1790, ‘the audience were unable to support it to an end; the boxes being all emptied before the third act was concluded.’
 
@@ -441,7 +441,7 @@ In May, 1881, after seven months of preparation, the *Oedipus Tyrannus* was acte
 
 [Note: ¹ *Account of the Harvard Greek Play*, pp. 36, 103.]
 
-## § 30 — *Oedipe Roi* at the Théâtre Français.
+## § 30 — Oedipe Roi at the Théâtre Français.
 
 A few months later in the same year (1881), the *Oedipus Tyrannus* was revived in a fairly close French translation at the Théâtre Français. When the version of Jules Lacroix was played there in 1858, the part of Oedipus was filled by Geoffroy; but on this occasion an artist was available whose powers were even more congenial. Probably no actor of modern times has excelled M. Mounet-Sully in the union of all the qualities required for a living impersonation of the Sophoclean Oedipus in the entire series of moods and range of passions which the part comprises; as the great king, at once mighty and tender; the earnest and zealous champion of the State in the search for hidden guilt; the proud man startled by a charge which he indignantly repels, and embittered by the supposed treason of a friend; tortured by slowly increasing fears, alternating with moments of reassurance; stung to frenzy by the proof of his unspeakable wretchedness; subdued to a calmer despair; finally softened by the meeting with his young daughters. The scene between Oedipus and Iocasta (vv. 700—862) should be especially noticed as one in which the genius of Sophocles received the fullest justice from that of M. Mounet-Sully. In the words of a critic who has finely described the performance¹:—
 

@@ -109,7 +109,9 @@ Begins with a new indented paragraph (no run-on). § 7 and § 8 made `###` headi
 
 ‘This scene...was the dramatic climax of the play. The acting led up to it gradually by the excited conversation and the shepherd’s blow. When Oedipus burst through the doors of the palace, his attendants quickly followed him; the horror-stricken messengers turned with despairing gestures and descended the steps, the one to the right, the other to the left, and a profound silence fell upon the theatre.’
 
-### § 10. Effect of the fourth stasimon, vv. 1223—1530, p. 98.
+### § 10. Effect of the fourth stasimon, vv. 1186—1222, p. 98.
+
+[Correction in this edition: the print has “vv. 1223—1530” here, a slip for 1186—1222, the verses of the fourth stasimon; §§ 11 and 12 take up 1223—1530.]
 
 ‘In the opening strains of the last choral ode, which now ring out, the emotions of the scene are wonderfully expressed. Each one recognizes the solemnity and depth of his own feelings in their pathetic tones.’
 
@@ -128,6 +130,7 @@ Begins with a new indented paragraph (no run-on). § 7 and § 8 made `###` headi
 7 “As [conf] → ‘As
 8 where [conf] → ok
 --- notes
+§ 10: the heading is printed “vv. 1223—1530”, an evident misprint (the fourth stasimon is 1186—1222; §§ 11, 12 cover 1223—1530): corrected to 1186—1222 by the author's rule on misprints, with a bracketed correction note after the heading.
 Structure mended: the draft made "§ 9." a false heading `## Line 89` and dropped the section's title; it is now `### § 9. …`, and § 10 and § 11 likewise `###` headings. The page begins with § 9 (no run-on). A staff of music (two bars in the bass clef, 4/4, pp, then two in the treble, p) stands between § 10 and § 11: `[music omitted]`, as on p. 303. "Laïus" with the diaeresis as printed in the heading (Norman's text prints Laius). § 10 is printed "vv. 1223—1530" (the fourth stasimon is 1186—1222 in Jebb's numbering); kept as printed, as it is not evident what was meant. Unflagged: "ts extorted" → "is extorted" (the heading word "ex-|torted" joined); “ ” for ‘ ’ at the quotations' starts; ¢ for ‘; spaces before ; removed.
 
 === p-0306

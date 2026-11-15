@@ -69,7 +69,9 @@ It was upon this group—the first complex one in the play—that Mr F. D. Mille
 
 ‘This scene...was the dramatic climax of the play. The acting led up to it gradually by the excited conversation and the shepherd’s blow. When Oedipus burst through the doors of the palace, his attendants quickly followed him; the horror-stricken messengers turned with despairing gestures and descended the steps, the one to the right, the other to the left, and a profound silence fell upon the theatre.’
 
-### § 10. Effect of the fourth stasimon, vv. 1223—1530, p. 98.
+### § 10. Effect of the fourth stasimon, vv. 1186—1222, p. 98.
+
+[Correction in this edition: the print has “vv. 1223—1530” here, a slip for 1186—1222, the verses of the fourth stasimon; §§ 11 and 12 take up 1223—1530.]
 
 ‘In the opening strains of the last choral ode, which now ring out, the emotions of the scene are wonderfully expressed. Each one recognizes the solemnity and depth of his own feelings in their pathetic tones.’
 

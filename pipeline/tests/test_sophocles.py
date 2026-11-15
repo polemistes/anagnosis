@@ -200,3 +200,45 @@ class RefileTranslation(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class LabelParts(unittest.TestCase):
+    """Each top-level section takes the division in which most of its verses fall."""
+
+    def test_majority_not_first_line(self):
+        from anagnosis_pipeline.sophocles import PLAYS, label_parts
+        from anagnosis_pipeline.textfmt import Section
+
+        def sec(kind, numbers):
+            return [Section(1, kind, "x")] + [Line(str(n), "…") for n in numbers]
+
+        # Perseus's boundaries a verse early: 462 (in the First episode) heads the stasimon,
+        # 512 (in the First stasimon) heads the Second episode; the kommos 649-697 lies inside it
+        doc = Document(items=sec("episode", range(216, 462)) + sec("choral", range(462, 512))
+                       + sec("episode", range(512, 649)) + sec("choral", range(649, 698))
+                       + sec("episode", range(698, 863)))
+        label_parts(doc, PLAYS["oedipustyrannus"])
+        labels = [i.label for i in doc.items if isinstance(i, Section)]
+        self.assertEqual(labels, ["First episode", "First stasimon", "Second episode",
+                                  "Second episode (continued)", "Second episode (continued)"])
+
+    def test_a_division_named_nowhere_keeps_its_section(self):
+        from anagnosis_pipeline.sophocles import PLAYS, label_parts
+        from anagnosis_pipeline.textfmt import Section
+
+        def sec(kind, numbers):
+            return [Section(1, kind, "x")] + [Line(str(n), "…") for n in numbers]
+
+        # Electra: the third stasimon 1384-1397 and the kommos 1398-1441 in one section
+        doc = Document(items=sec("episode", range(1288, 1384)) + sec("choral", range(1384, 1442))
+                       + sec("episode", range(1442, 1511)))
+        label_parts(doc, PLAYS["electra"])
+        labels = [i.label for i in doc.items if isinstance(i, Section)]
+        self.assertEqual(labels, ["Third episode", "Third stasimon", "Exodos"])
+
+
+class PlainHeading(unittest.TestCase):
+    def test_no_italics_markers_or_backslashes(self):
+        from anagnosis_pipeline.sophocles import plain_heading
+        self.assertEqual(plain_heading("## § 18 — The *Oedipus* of Seneca."), "## § 18 — The Oedipus of Seneca.")
+        self.assertEqual(plain_heading("### § 1. *Opening* Scene\\_"), "### § 1. Opening Scene")

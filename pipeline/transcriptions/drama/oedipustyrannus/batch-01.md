@@ -1,7 +1,7 @@
 === p-0110
 --- text
 @ Οἰδίπους
-1	Ὦ Τέκνα, Κάδμου τοῦ πάλαι νέα τροφή,
+1	ὦ τέκνα, Κάδμου τοῦ πάλαι νέα τροφή,
 2	τίνας ποθʼ ἕδρας τάσδε μοι θοάζετε
 3	ἱκτηρίοις κλάδοισιν ἐξεστεμμένοι;
 4	πόλις δʼ ὁμοῦ μὲν θυμιαμάτων γέμει,
@@ -15,6 +15,7 @@
 --- notes
 Sigla: L = cod. Laur. 32. 9 (first half of eleventh century). r = one or more of the later MSS.: see Introd. on the text. This symbol is used where a more particular statement is unnecessary. ‘MSS.,’ after a reading, means that it is in all the MSS. known to the editor.
 1	the print sets the speaker's name centred above the first verse (ΟΙΔΙΠΟΥΣ.): @ Οἰδίπους kept. The first words are printed in capitals (ΤΕΚΝΑ); written as Perseus spells them.
+1	rev: the opening words, printed in capitals (Ὦ ΤΕΚΝΑ), written as the check text spells them (ὦ τέκνα; the draft had taken Ὦ Τέκνα from the OCR), as the other plays of Jebb begin.
 9	the page prints φράζʼ, as Perseus (the OCR's φράξ is wrong); it prints a comma after ἀλλʼ (ἀλλʼ, ὦ γεραιέ), added.
 10	this page has no apparatus item: below the verses stands only Jebb's note on his symbols (copied above as Sigla), which runs on to the facing page.
 

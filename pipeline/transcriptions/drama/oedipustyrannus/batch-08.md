@@ -51,7 +51,7 @@
 @ Χορός
 683a	ναίχι.
 @ Ἰοκάστη
-684	καὶ τίς ἦν λόγος;
+683b	καὶ τίς ἦν λόγος;
 @ Χορός
 685	ἅλις ἔμοιγʼ, ἅλις, γᾶς προπονουμένας,
 686	φαίνεται, ἔνθʼ ἔληξεν, αὐτοῦ μένειν.
@@ -80,7 +80,7 @@
 696	the note 696 runs on to the top of the apparatus of p-0198 (from "according to Dübner" to "See comment."): written here whole. In "εἰ δύναι ὁ γενοῦ Bodl." the small word is a blurred ο with a breathing; read ὁ, as both OCR readings have it.
 686	res: commas after φαίνεται and after ἔληξεν, as printed
 696	res: no comma after εὔπομπος, as printed
-684	rev: numbering: was 683b: καὶ τίς ἦν λόγος; is Jebb's 684 (apparatus 684 λόγος; commentary 683 f. ἀμφοῖν ἀπʼ αὐτοῖν on the printed line that holds 683-684)
+683b	rev: numbering: kept 683b (a first change to 684 withdrawn): ἀμφοῖν ἀπʼ αὐτοῖν; ΧΟ. ναίχι. ΙΟ. καὶ τίς ἦν λόγος; is ONE printed line (strophe numeral 4; margin 685 at the next line), Jebb's 683 covering 684 (commentary 683 f. ἀμφοῖν ἀπʼ αὐτοῖν; apparatus 684 λόγος, a number the line covers), answering 655 οἶσθʼ οὖν … φής in the strophe, likewise one line in three parts (655, 655a, 655b)
 690	rev: numbering: was 691: ἴσθι … φρόνιμα is Jebb's 690-692 (commentary 692 ἐπὶ φρόνιμα at its end; 693 πεφάνθαι next): ὦναξ bears the margin 689 alone, as οὐ τὸν (660) in the strophe, and ἴσθι answers Ἅλιον (661-663)
 693	rev: numbering: was 692: πεφάνθαι … ἐνοσφιζόμαν is Jebb's 693 (apparatus 693, commentary 693 πεφάνθαι ἄν)
 694	rev: numbering: was 693: ὅς τʼ ἐμὰν … πόνοισιν is Jebb's 694 (apparatus 694 ὅς τʼ, commentary 694 ὅς τε); margin 695 at ἀλύουσαν

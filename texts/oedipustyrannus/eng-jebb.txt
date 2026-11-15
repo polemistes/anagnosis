@@ -704,7 +704,7 @@
 683a	Yes.
 
 @ Iocasta
-684	And what was the story?
+683b	And what was the story?
 
 @ Chorus
 685	It is enough, I think, enough, when our land is already vexed, that the matter should rest where it stopped.

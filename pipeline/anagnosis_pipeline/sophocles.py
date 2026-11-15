@@ -342,22 +342,42 @@ def perseus_anchors(lines, stated: dict[int, str], printed: dict[int, str], reac
 
 
 def label_parts(doc, play: Play) -> None:
-    """Name each top-level section by Jebb's division its first line falls in."""
+    """Name each top-level section by Jebb's division (play.parts) in which most of its verses
+    fall; a later section of a division already named is "(continued)" (a lyric part inside an
+    episode, or the episode again after it). By the majority, not the first line: Perseus's
+    section boundaries often lie a verse before Jebb's division (512 for 513), and the first
+    line would then name the whole episode after the stasimon before it."""
+    import collections
+
     from .textfmt import Line, Section
 
     if not play.parts:
         return
-    seen: set[str] = set()
+    counts: dict[int, collections.Counter] = {}
     current = None
-    first_line: dict[int, str] = {}
     for i, item in enumerate(doc.items):
         if isinstance(item, Section) and item.level == 1:
             current = i
-        elif isinstance(item, Line) and current is not None and current not in first_line:
-            first_line[current] = item.n
-    for i, n in first_line.items():
-        num = int(re.match(r"\d+", n).group())
-        name = [label for start, label in play.parts if start <= num][-1]
+            counts[i] = collections.Counter()
+        elif isinstance(item, Line) and current is not None:
+            num = int(re.match(r"\d+", item.n).group())
+            division = [k for k, (start, _label) in enumerate(play.parts) if start <= num]
+            counts[current][division[-1] if division else 0] += 1
+    # the most verses; between equal counts the earlier division
+    chosen = {i: min(c, key=lambda d: (-c[d], d)) for i, c in counts.items() if c}
+    # but a division that would be named nowhere keeps the section its first verses begin, if it
+    # has more than one verse there (Electra 1384-1441: the stasimon 1384-1397 and the kommos of
+    # the exodos in one Perseus section)
+    named = set(chosen.values())
+    for i, c in counts.items():
+        if i in chosen:
+            first = min(c)
+            if first not in named and c[first] > 1:
+                chosen[i] = first
+                named = set(chosen.values())
+    seen: set[str] = set()
+    for i, k in chosen.items():
+        name = play.parts[k][1]
         doc.items[i].label = name if name not in seen else f"{name} (continued)"
         seen.add(name)
 
@@ -508,7 +528,16 @@ def prose_paragraphs(directory: Path, kind: str) -> list[str]:
     from .sophocles_pages import merge_page_blocks
 
     pages = {stem: block["md"] for stem, block in read_prose_batches(directory, kind).items()}
-    return [re.sub(r"(?<=[\u0370-\u03ff\u1f00-\u1fff])[\u1fbd\u02bc]", "\u2019", p) for p in merge_page_blocks(pages)]
+    paras = [re.sub(r"(?<=[\u0370-\u03ff\u1f00-\u1fff])[\u1fbd\u02bc]", "\u2019", p) for p in merge_page_blocks(pages)]
+    return [plain_heading(p) if p.startswith("#") else p for p in paras]
+
+
+def plain_heading(heading: str) -> str:
+    """A Markdown heading without italics markers or backslashes: the reader shows a heading as
+    plain text (and lists it in the contents), so "## § 18 — The *Oedipus* of Seneca." would show
+    its asterisks."""
+    marks, _, text = heading.partition(" ")
+    return f"{marks} " + re.sub(r"\s+", " ", re.sub(r"[*_\\]", "", text)).strip()
 
 
 def unchecked_prose(directory: Path, kind: str, index: Path | None = None) -> list[str]:
@@ -814,9 +843,9 @@ COMMENTARY_FIXES: dict[str, list[tuple[str, str]]] = {
         # over the υ as a macron (Perseus: genu/&macr;wn)
         ("γενύ¯ων", "γενύ͞ων"), ("ἡδύ¯οσμον", "ἡδύ͞οσμον"), ("Ἐρινύ¯ων", "Ἐρινύ͞ων"),
         ("Ἠλεκτρύ¯ωνος", "Ἠλεκτρύ͞ωνος"),
-        # leaf 127, note on 118 f.: "χωρὶς τοῦ ῑ...ἡ μέντοι παράδοσις ἔχει τὸ ῑ." (Perseus: a gap,
-        # and the second ῑ without its mark)
-        ("χωρὶς τοῦ ῑἡ μέντοι παράδοσις ἔχει τὸ ι.", "χωρὶς τοῦ ῑ…ἡ μέντοι παράδοσις ἔχει τὸ ῑ."),
+        # leaf 127, note on 118 f.: "χωρὶς τοῦ ῑ...ἡ μέντοι παράδοσις ἔχει τὸ ῑ." (Perseus: the
+        # second ῑ without its mark)
+        ("ἡ μέντοι παράδοσις ἔχει τὸ ι.", "ἡ μέντοι παράδοσις ἔχει τὸ ῑ."),
     ],
 }
 

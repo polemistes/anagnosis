@@ -61,6 +61,10 @@ def _md(el, grk: bool) -> str:
         return inner.strip() + "\n\n"
     if tag in ("pb", "milestone"):
         return ""
+    if tag == "gap":
+        # Perseus's Oedipus Tyrannus writes Jebb's "..." between quoted words as <gap/>
+        # ("duoi=n<gap/>a)pokri/nas kakoi=n"): an ellipsis, spaced as the other files' &hellip;
+        return "…"
     return inner
 
 
@@ -96,6 +100,10 @@ def _needs_space(left: str, left_tag: str | None, right: str, right_tag: str | N
     a citation and a digit (Perseus splits a number there: "111</bibl>1n.")."""
     if left[-1].isspace() or right[0].isspace():
         return False
+    if left_tag == "gap":
+        return right[0] not in ",.;:·)]’”!?"
+    if right_tag == "gap":
+        return left[-1] not in "(['‘“"
     lc = left.rstrip("*")[-1:]
     rc = right.lstrip("*")[:1]
     if not lc or not rc:

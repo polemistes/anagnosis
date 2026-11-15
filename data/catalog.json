@@ -280,7 +280,7 @@
     "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
     "syntax_license": "CC BY-SA 3.0 US",
     "product_id": "sophocles_oedipustyrannus_jebb",
-    "version": "96e6ddbb54f67976"
+    "version": "4f331a92043e128a"
   },
   {
     "slug": "philoctetes",
@@ -367,7 +367,7 @@
     "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
     "syntax_license": "CC BY-SA 3.0 US",
     "product_id": "sophocles_trachiniae_jebb",
-    "version": "de56cbe25c24894f"
+    "version": "f1b36289f4eedcc3"
   },
   {
     "slug": "truestory",
