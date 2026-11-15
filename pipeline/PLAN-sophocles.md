@@ -62,8 +62,10 @@ What has to be set up once for the Sophocles plays (then each play is a `drama.P
 ## Which model reads
 
 Page agents on Opus (PLAN-drama.md; the author finds Opus the best reader). A blind test was
-started 2026-11-15: Sonnet re-transcribed Electra pp. 150–153 and 301–302 without seeing
-Opus's batches; result under Progress when it is in. Sonnet is for code written to a contract,
+run 2026-11-15: Sonnet re-transcribed Electra pp. 150–153 without seeing Opus's batches. On
+four pages it missed one difference of the text (353 γόων;), reported one that is not there
+(373 τὼν), and misread three places in the apparatus (βʼ for βʹ, the impossible τὀυ for τὸν,
+τοὔμε for τοῦμε). **Sonnet does not read Greek pages**; page agents stay on Opus. Sonnet is for code written to a contract,
 tests and mechanical checks.
 
 ## What each play still needs
