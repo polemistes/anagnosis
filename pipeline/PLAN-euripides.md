@@ -236,6 +236,24 @@ own text): rewrite each at its turn as the Medea's was.
 
 ## Progress
 
+* **2026-11-17: THE MEDEA IS FINISHED** (for the author's own use; held back until
+  2028-01-01). Emulator check with the author's build (it built first time; the pack and
+  data/catalog-author.json were bundled; the app itself knows nothing of `release`, the
+  catalogue and the build keep the text back): everything works, reading aloud included
+  (the speech fix is in). Fix round after it (finishing agent, Round 2; private e51590c): a
+  short stage direction at the head of a speech stays there in the translation ("(within)
+  Ah, me!": 10 places); "(α) in literature" (a Greek α read as Latin a); Πελίᾳ, Πελίαν and
+  Ἥλιον tagged masculine; twelve names given short definitions of our own (Logeion had
+  Pelias as "king of Kolchis"). Noted, not changed: the app's `firstLineFrom` in
+  ReaderScreen.kt assumes rising verse numbers and shows verse 1273 for the apparatus note on
+  the transposed 1271 (the data is right); the same short-direction case exists in the
+  Sophocles translations (Trachiniae 3 places, Oedipus at Colonus 2, Philoctetes 1), not
+  rebuilt; Earle's note "1274 f." on παρέλθω sits under 1274 where Murray has the word in
+  1275. **Open with the author**: how he gets the Medea on his own phone (the debug build on
+  a phone uses real Play billing): recommended, a small change so that his own build treats
+  the texts named in app/author-packs.txt as owned.
+
+
 * **2026-11-17, Alcestis: text reviewed and merged.** First pass 8 agents, 1.03 M tokens;
   no residual pass; review 8 agents, 1.29 M, 24 `rev:` notes (a row of dots one dot short,
   an iota subscript in the apparatus, a correction at 528, an elision mark, a space, and
