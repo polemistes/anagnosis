@@ -1079,6 +1079,8 @@ def perseus_translation(path: Path, stages_apart: bool = False) -> list[tuple[st
         return "".join(parts)
 
     head: list[str] = []  # short directions waiting for the words of the speech (stages_apart)
+    carry: list[str] = []  # words after a direction set apart, waiting for the speech's next verse
+    SPLIT = "\ue000"  # a private-use character: lxml refuses control characters
 
     def short(st: str) -> bool:
         return len(st.split()) <= SPEAKER_DIRECTION_WORDS and not st.startswith("[")
@@ -1113,6 +1115,8 @@ def perseus_translation(path: Path, stages_apart: bool = False) -> list[tuple[st
                                 inline = f" ({st.rstrip('.').strip()}) "
                             elif st:
                                 (after if seen_words else before).append(st)
+                                if seen_words:
+                                    inline = SPLIT  # where the verse's words may be cut (below)
                             # the stage's place keeps a space between the words round it
                             prev = sub.getprevious()
                             tail = inline + (sub.tail or "")
@@ -1125,6 +1129,23 @@ def perseus_translation(path: Path, stages_apart: bool = False) -> list[tuple[st
                             seen_words = True
                 text = re.sub(r"\s+", " ", text_of(child)).strip()
                 text = re.sub(r"\(\s+", "(", re.sub(r"\s+\)", ")", text))
+                if carry:
+                    text = (carry.pop() + " " + text).strip()
+                if SPLIT in text:
+                    # a direction set apart among the words: what follows it begins the next verse of
+                    # the same speech ("… disowned it. [Exit Pheres.] Now, since we must bear …"),
+                    # so that the direction stands where Perseus has it; with no next verse in the
+                    # speech, the words stay and the direction follows them
+                    first, _, rest = text.partition(SPLIT)
+                    rest = rest.replace(SPLIT, " ").strip()
+                    nxt = next((sib for sib in child.itersiblings() if isinstance(sib.tag, str)
+                                and etree.QName(sib).localname == "l"), None)
+                    if rest and nxt is not None:
+                        carry.append(rest)
+                        text = first.strip()
+                    else:
+                        text = (first + " " + rest).strip()
+                    text = re.sub(r"\s+", " ", text)
                 out.extend(("!", "", st) for st in before)
                 if text and head:
                     text = "".join(f"({h}) " for h in head) + text
@@ -1758,6 +1779,45 @@ def merge_play(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path
     return len(problems)
 
 
+def escape_footnote_marks(paragraph: str) -> str:
+    """A footnote mark printed as an asterisk ("[Note: * See …]", "tragedies,* though") written \\*,
+    so that build.md_to_html cannot pair it with the next italics mark. Walking the paragraph:
+    an escaped \\* is kept; ** is bold and skipped; a * not after a letter, a digit or closing
+    punctuation and before a word, while no italics are open, opens them ("Wecklein*) … no *certain*":
+    the first is a mark); a * preceded by a non-space while italics are open closes them; any
+    other single * is a mark, and so is an opener left unclosed at the end. Headings are left."""
+    if paragraph.startswith("#") or "*" not in paragraph:
+        return paragraph
+    chars = list(paragraph)
+    marks: list[int] = []
+    opened = None
+    i = 0
+    while i < len(chars):
+        c = chars[i]
+        if c == "\\" and i + 1 < len(chars) and chars[i + 1] == "*":
+            i += 2
+            continue
+        if c == "*" and i + 1 < len(chars) and chars[i + 1] == "*":
+            i += 2
+            continue
+        if c == "*":
+            before = chars[i - 1] if i else " "
+            after = chars[i + 1] if i + 1 < len(chars) else " "
+            if opened is None and not (before.isalnum() or before in ".,;:!?)]”’") and not after.isspace() \
+                    and after not in ")]:;,.":
+                opened = i
+            elif opened is not None and not before.isspace():
+                opened = None
+            else:
+                marks.append(i)
+        i += 1
+    if opened is not None:
+        marks.append(opened)
+    for k in sorted(marks, reverse=True):
+        chars[k] = "\\*"
+    return "".join(chars)
+
+
 def write_prose_documents(play: Play, transcriptions: Path, out: Path, lines: list[tuple[str, str]], build: Path,
                           problems: list[str]) -> None:
     """commentary-<notes_editor>.md and introduction.md from the checked notes and intro batches
@@ -1799,7 +1859,7 @@ def write_prose_documents(play: Play, transcriptions: Path, out: Path, lines: li
         }) + [""]
         for heading, body in placed:
             md.append(f"## {heading}")
-            md.append("\n\n".join(body))
+            md.append("\n\n".join(escape_footnote_marks(b) for b in body))
             md.append("")
         (out / f"commentary-{play.notes_editor}.md").write_text("\n".join(md) + "\n", encoding="utf-8")
         print(f"wrote commentary-{play.notes_editor}.md: {len(placed)} notes")
@@ -1826,7 +1886,7 @@ def write_prose_documents(play: Play, transcriptions: Path, out: Path, lines: li
         md = _meta_lines({
             "title": "Introduction", "author": author, "source": source,
             "license": license,
-        }) + [""] + ["\n\n".join(paras)]
+        }) + [""] + ["\n\n".join(escape_footnote_marks(p) for p in paras)]
         (out / "introduction.md").write_text("\n".join(md).rstrip() + "\n", encoding="utf-8")
         print(f"wrote introduction.md: {sum(1 for p in paras if p.startswith('#'))} headings")
 

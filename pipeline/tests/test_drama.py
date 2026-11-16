@@ -291,3 +291,35 @@ class FollowLemmas(unittest.TestCase):
                                ("13", ["[12] **ἄπειμι**: I go away."]),
                                ("11", ["**ἀκούετε**: in the lettered part."])])
         self.assertEqual(len(moves), 2)
+
+
+class TranslationStageAmongWords(unittest.TestCase):
+    TEI = """<TEI xmlns="http://www.tei-c.org/ns/1.0"><text><body><div>
+<sp><speaker>Admetus</speaker><l n="735">I had disowned it.  <stage>(Exit PHERES).</stage>  Now, since we must bear our woe,</l>
+<l n="740">let us go. <stage>[Exit ADMETUS.</stage> </l></sp>
+</div></body></text></TEI>"""
+
+    def test_words_after_the_direction_begin_the_next_verse(self):
+        from anagnosis_pipeline.drama import perseus_translation
+
+        with tempfile.TemporaryDirectory() as t:
+            path = Path(t) / "eng.xml"
+            path.write_text(self.TEI, encoding="utf-8")
+            self.assertEqual(perseus_translation(path, stages_apart=True), [
+                ("735", "Admetus", "I had disowned it."), ("!", "", "Exit PHERES."),
+                ("740", "Admetus", "Now, since we must bear our woe, let us go."), ("!", "", "Exit ADMETUS.")])
+
+
+class FootnoteMarks(unittest.TestCase):
+    def test_marks_escaped_italics_kept(self):
+        from anagnosis_pipeline.drama import escape_footnote_marks as esc
+
+        self.assertEqual(esc("[Note: * See Weber (in *Comment. W.*, p. 99 f.).]"),
+                         "[Note: \\* See Weber (in *Comment. W.*, p. 99 f.).]")
+        self.assertEqual(esc("probably correct,* though *Alc.* 954 f."), "probably correct,\\* though *Alc.* 954 f.")
+        self.assertEqual(esc("**λόγος**: *i.e.* a word"), "**λόγος**: *i.e.* a word")
+        self.assertEqual(esc("mirrors.*"), "mirrors.\\*")
+        self.assertEqual(esc("Wecklein*) … no *certain* example"), "Wecklein\\*) … no *certain* example")
+        self.assertEqual(esc("“athlete”*: the (*x*)"), "“athlete”\\*: the (*x*)")
+        self.assertEqual(esc("already \\* escaped, *it*"), "already \\* escaped, *it*")
+        self.assertEqual(esc("## A heading *x"), "## A heading *x")

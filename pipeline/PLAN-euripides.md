@@ -255,6 +255,24 @@ own text): rewrite each at its turn as the Medea's was.
   merged and rebuilt). Built (data/alcestis.sqlite), catalog-author.json only; `check` 0 errors;
   pack linked; app/author-packs.txt holds medea and alcestis. **Next**: the emulator check with the
   author's build.
+  **After the emulator check** (record build/logs/alcestis-emulator-check.md): right were the front
+  matter, the text, the lyric headings, the apparatus on covered numbers, the moved notes, Hayley's
+  uncials, the translation, the word sheets, reading aloud (no crash), and the Medea's en dashes.
+  Two data faults, fixed (finishing agent, round 2): (1) Hayley's footnote asterisk ("[Note: * …"
+  and bare marks in the running text) paired with the next italics mark in build.md_to_html (the
+  app only renders the HTML; md_to_html honours `\*`): the prose merge now writes every footnote
+  mark `\*` (drama.escape_footnote_marks, in write_prose_documents: 41 marks in the commentary, 88
+  in the introduction; every paragraph's italics now pair); (2) "Exit PHERES." stood one clause late
+  (after "Now, since …"): a direction set apart among a verse's words now starts the speech's next
+  verse with the words after it (perseus_translation). Elsewhere, not rebuilt: the Medea's English
+  at 895/900 would change at its next merge (Enter the Children before "Take his right hand", as in
+  Perseus); the Agamemnon's commentary has a stray asterisk ("slowly *to", its batch to mend) that
+  the escape would show; the Shepherd of Hermas's introduction (lake_merge, not this writer) has 6
+  "[Note: *" marks and unpaired italics. App behaviour seen again, not changed: taps land left of the
+  drawn word, the drift growing towards the line's end (verse 1: the last word cannot be opened); a
+  long English segment clipped in the side-by-side view; a name's glossary entry hidden by a short
+  definition; the app ignores `release`, so a held-back text shows in the shop only with a sale mark
+  in a scratch catalogue.
 
 * **2026-11-17, Alcestis prose: set up, drafted, first check running.** Set-up agent's
   report (log build/logs/alcestis-prose-setup.md; public commit 02e0be7; private 289900e):
