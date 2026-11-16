@@ -550,6 +550,55 @@ def compound_analysis(form: str, analyse, known, depth: int = 2, pick=None) -> t
     return None
 
 
+_ARTICLE_BEFORE_ENCLITIC = {"ὅ": "l-s---mn-", "ἥ": "l-s---fn-", "οἵ": "l-p---mn-", "αἵ": "l-p---fn-"}
+
+
+def relatives_and_articles(rows: list[dict]) -> int:
+    """Two things the analyser cannot tell without the next word, in the words it read by itself
+    (those outside the trees): ὃ with the grave, and ὅ before τι, is the relative, not the
+    article; ἥ τε, οἵ τε, αἵ τε, ὅ τε is the article with the enclitic's accent, not the
+    relative. Returns how many were changed."""
+    changed = 0
+    for r, nxt in zip(rows, rows[1:]):
+        if r.get("sentence"):
+            continue
+        if (r["form"] == "ὃ" or (r["form"] == "ὅ" and nxt["form"] in ("τι", "τί"))) and r["lemma"] == "ὁ":
+            r["lemma"], r["postag"] = "ὅς", "p-s---na-"
+            changed += 1
+        elif r["form"] in _ARTICLE_BEFORE_ENCLITIC and nxt["form"] == "τε" and r["lemma"] == "ὅς":
+            r["lemma"], r["postag"] = "ὁ", _ARTICLE_BEFORE_ENCLITIC[r["form"]]
+            changed += 1
+    return changed
+
+
+ADDRESSED = {"δικαστής", "βουλευτής", "πολίτης"}
+
+
+def vocatives(rows: list[dict], analyse) -> int:
+    """In a speech without trees the analyser reads each word by itself and calls the address
+    after ὦ a nominative (ὦ ἄνδρες δικασταί, ὦ Ἀθηναῖοι, ὦ βουλή). The words that follow ὦ, as
+    far as each has a vocative of the same lemma and number among its analyses, are made
+    vocative: the first word whatever it is, after it only the court's names and proper names.
+    Returns how many were changed."""
+    changed = 0
+    for i, r in enumerate(rows):
+        if r["form"].lower() != "ὦ":
+            continue
+        for k, t in enumerate(rows[i + 1:i + 4]):
+            tag = t["postag"]
+            if len(tag) != 9 or tag[7] not in "nv":
+                break
+            if k and t["lemma"] not in ADDRESSED and not t["lemma"][:1].isupper():
+                break  # the address is over: ὦ ἄνδρες δικασταί, τέτταρες ἀδελφοί
+            want = tag[:7] + "v" + tag[8]
+            if tag[7] == "n":
+                if not any(a[1] == t["lemma"] and a[2] == want for a in analyse(t["form"])):
+                    break
+                t["postag"] = want
+                changed += 1
+    return changed
+
+
 def tokens(slug: str, doc, sources: Path, out: Path, lexicon: Path, build: Path) -> int:
     """tokens.tsv and syntax-nodes.tsv: each speech's words aligned to its own trees (the words
     alone decide: neither source knows Hude's lines), the analyser for the words the trees lack
@@ -598,9 +647,12 @@ def tokens(slug: str, doc, sources: Path, out: Path, lexicon: Path, build: Path)
             reason = (f"no lemma or parse in {who}" if same else f"reads {r['form']} where {who} has {tb_form}" if tb_form
                       else f"a word {who} splits" if "+" in r["word_id"] else f"not in {who}")
             review.append({"line": r["line"], "form": r["form"], "lemma": r["lemma"], "postag": r["postag"], "reason": reason})
+        if not tb:
+            vocatives(got, analyse)
         used = {(r["sentence"], w) for r in got for w in r["word_id"].split("+") if r["sentence"]}
         nodes += syntax_nodes(tb, used)
         rows += got
+    relatives_and_articles(rows)
     hands = HAND_ANALYSES.get(slug, {})
     fixes = TEXT_LEMMA_FIXES.get(slug, {})
     for r in rows:
@@ -693,14 +745,52 @@ def write_translation(slug: str, sources: Path, out: Path, units: list[dict], pr
     return len(rows)
 
 
+GILLIES_MARK = re.compile(r"(?:^|(?<=\s))§(\d+)\s+")
+
+
+def gillies_segments(paras: list[str]) -> tuple[list[tuple[int, str]], list[str]]:
+    """Gillies's paragraphs as (section, text) segments, and what is wrong with the marks. A mark
+    `§7 ` stands at the head of a paragraph, or inside one before a sentence; the text from one
+    mark to the next is one segment, filed under that section. A paragraph without a mark, and
+    the part of a paragraph before its first mark, run on in the segment before. Headings and
+    footnotes ([Note: …]) are not his translation and are left out."""
+    segs: list[list] = []
+    wrong: list[str] = []
+
+    def add(text: str, new_paragraph: bool) -> None:
+        text = text.strip()
+        if not text:
+            return
+        if not segs:
+            wrong.append(f"text before the first mark: {text[:40]}")
+        elif segs[-1][1]:
+            segs[-1][1] += ("\n\n" if new_paragraph else " ") + text  # a paragraph of his own inside the segment
+        else:
+            segs[-1][1] = text
+
+    for p_ in paras:
+        if p_.startswith("#") or p_.startswith("[Note:"):
+            continue
+        at = 0
+        for m in GILLIES_MARK.finditer(p_):
+            add(p_[at:m.start()], at == 0)
+            n = int(m.group(1))
+            if segs and n <= segs[-1][0]:
+                wrong.append(f"§{n} after §{segs[-1][0]}: the marks must rise")
+            segs.append([n, ""])
+            at = m.end()
+        add(p_[at:], at == 0)
+    return [(n, t) for n, t in segs], wrong
+
+
 def write_gillies(slug: str, out: Path, units: list[dict], problems: list[str], drafts: bool = False) -> int:
     """eng-gillies.txt: Gillies's version (1778) of the speeches the 1898 translation lacks, from
     the checked batches of the entries lysias-gillies-NN (kind intro). It is a free version without
     section numbers: each of his paragraphs is filed under the section of Hude's text where it
-    begins, which an alignment pass writes at the paragraph's head as `§7 ` (PLAN-lysias.md,
-    step 8); a paragraph without the mark runs on in the segment before; his footnotes
-    ([Note: …]) and the oration's heading are not shipped. A speech whose paragraphs carry no
-    marks yet is left out and named."""
+    begins, which an alignment pass writes at the paragraph's head as `§7 `
+    (transcriptions/lysias/GILLIES-ALIGN.md; gillies_segments); his footnotes ([Note: …]) and
+    the oration's heading are not shipped. A speech whose paragraphs carry no marks yet is left
+    out and named."""
     from .drama import GILLIES_EDITION, LYSIAS_GILLIES
     from .hude_notes import paragraphs
 
@@ -711,22 +801,15 @@ def write_gillies(slug: str, out: Path, units: list[dict], problems: list[str], 
         paras = paragraphs(f"lysias-gillies-{speech:02d}", "intro", drafts)
         if paras is None:
             continue
-        segs: list[list] = []
-        for p_ in paras:
-            if p_.startswith("#") or p_.startswith("[Note:"):
-                continue
-            m = re.match(r"^§(\d+)\s+", p_)
-            if m:
-                segs.append([int(m.group(1)), p_[m.end():]])
-            elif segs:
-                segs[-1][1] += " " + p_
+        segs, wrong = gillies_segments(paras)
         if not segs:
             problems.append(f"Gillies, speech {speech}: transcribed, but its paragraphs are not yet placed (§N at each paragraph's head)")
             continue
+        problems += [f"Gillies, speech {speech}: {w}" for w in wrong]
         for n, text in segs:
             if f"{speech}.{n}" not in have:
                 problems.append(f"Gillies: section {speech}.{n} is not in the Greek")
-            rows.append(f"{speech}.{n}\t{text}")
+            rows.append(f"{speech}.{n}\t" + " ".join(text.split()))
         done.append(speech)
     if rows:
         meta = {"title": PLAYS[slug].title_en, "translator": "John Gillies (1778)", "lang": "eng",
@@ -736,6 +819,60 @@ def write_gillies(slug: str, out: Path, units: list[dict], problems: list[str], 
         (out / "eng-gillies.txt").write_text("\n".join(_meta_lines(meta) + [""] + rows) + "\n", encoding="utf-8")
         print(f"wrote eng-gillies.txt: {len(rows)} paragraphs of speeches {done}")
     return len(rows)
+
+
+def _batch_text(content: str) -> list[str]:
+    """The text lines of a prose batch file (not its flags and notes), the marks taken out."""
+    lines, on = [], True
+    for raw in content.splitlines():
+        if raw.startswith("=== "):
+            on = True
+        elif raw.startswith("--- "):
+            on = False
+        if on:
+            lines.append(GILLIES_MARK.sub("", raw).rstrip())
+    return lines
+
+
+def check_gillies_marks(speech: int, texts: Path) -> list[str]:
+    """After the alignment pass on a speech of Gillies: nothing but the marks may differ from the
+    committed (checked) transcription; the marks name sections of the Greek and rise. Prints each
+    mark with the first words of the English and of the Greek section, to read down by eye."""
+    import subprocess
+
+    from .hude_notes import paragraphs
+
+    slug = f"lysias-gillies-{speech:02d}"
+    directory = PIPELINE / "transcriptions" / "drama" / slug
+    problems: list[str] = []
+    for f in sorted(directory.glob("intro-*.md")):
+        rel = f.relative_to(ROOT).as_posix()
+        got = subprocess.run(["git", "-C", str(ROOT), "show", f"HEAD:{rel}"], capture_output=True, text=True)
+        if got.returncode:
+            problems.append(f"{f.name}: not committed yet: commit the checked transcription before the alignment pass")
+            continue
+        was, now = _batch_text(got.stdout), _batch_text(f.read_text(encoding="utf-8"))
+        for d in difflib.unified_diff(was, now, lineterm="", n=0):
+            if d[:1] in "+-" and d[:3] not in ("+++", "---"):
+                problems.append(f"{f.name}: the text is changed, not only marked: {d[:90]}")
+    paras = paragraphs(slug, "intro", True)
+    if paras is None:
+        return problems + [f"{slug}: no batch file"]
+    segs, wrong = gillies_segments(paras)
+    problems += wrong
+    grc = {}
+    for raw in (texts / "lysias" / "grc.txt").read_text(encoding="utf-8").splitlines():
+        n, tab, text = raw.partition("\t")
+        if tab and n.startswith(f"{speech}.") and n[-1].isdigit():
+            grc[int(n.split(".")[1])] = text
+    for n, text in segs:
+        if n not in grc:
+            problems.append(f"§{n}: speech {speech} has no such section")
+        print(f"  {speech}.{n:<3} {' '.join(text.split()[:9]):<60} | {' '.join(grc.get(n, '?').split()[:7])}")
+    unmarked = [n for n in sorted(grc) if n and n not in {k for k, _ in segs}]
+    print(f"speech {speech}: {len(segs)} marks for {len([n for n in grc if n])} sections; sections with no mark of their own: "
+          f"{' '.join(str(n) for n in unmarked) or 'none'}")
+    return problems
 
 
 # --- merge -----------------------------------------------------------------------------------

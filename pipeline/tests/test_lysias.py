@@ -484,6 +484,43 @@ class WordsAndTranslation(unittest.TestCase):
         self.assertEqual(sorted(SPEECH_NAMES), list(range(1, 35)))
         self.assertEqual(NO_SYNTAX, {12, 13, 19})
 
+    def test_vocatives(self):
+        from anagnosis_pipeline.hude_merge import vocatives
+        table = {"ἄνδρες": [("ἄνδρες", "ἀνήρ", "n-p---mn-", "m"), ("ἄνδρες", "ἀνήρ", "n-p---mv-", "m")],
+                 "δικασταί": [("δικασταί", "δικαστής", "n-p---mn-", "m"), ("δικασταί", "δικαστής", "n-p---mv-", "m")],
+                 "ἡγοῦμαι": [("ἡγοῦμαι", "ἡγέομαι", "v1spie---", "m")]}
+        rows = [{"form": f, "lemma": l, "postag": t} for f, l, t in (
+            ("ἄνδρες", "ἀνήρ", "n-p---mn-"), ("ὦ", "ὦ", "i--------"), ("ἄνδρες", "ἀνήρ", "n-p---mn-"),
+            ("δικασταί", "δικαστής", "n-p---mn-"), ("ἡγοῦμαι", "ἡγέομαι", "v1spie---"))]
+        self.assertEqual(vocatives(rows, lambda f: table.get(f, [])), 2)
+        self.assertEqual([r["postag"] for r in rows], ["n-p---mn-", "i--------", "n-p---mv-", "n-p---mv-", "v1spie---"])
+
+    def test_relatives_and_articles(self):
+        from anagnosis_pipeline.hude_merge import relatives_and_articles
+        rows = [{"form": f, "lemma": l, "postag": t, "sentence": sent} for f, l, t, sent in (
+            ("ὃ", "ὁ", "p-s---mn-", ""), ("οὐκ", "οὐ", "d--------", ""), ("ὅ", "ὁ", "p-s---mn-", ""), ("τι", "τις", "p-s---na-", ""),
+            ("ἥ", "ὅς", "p-s---fn-", ""), ("τε", "τε", "g--------", ""), ("ὃ", "ὁ", "p-s---mn-", "1.5"), ("καὶ", "καί", "c--------", ""))]
+        self.assertEqual(relatives_and_articles(rows), 3)
+        self.assertEqual([(r["lemma"], r["postag"]) for r in rows if r["form"] in ("ὃ", "ὅ", "ἥ")],
+                         [("ὅς", "p-s---na-"), ("ὅς", "p-s---na-"), ("ὁ", "l-s---fn-"), ("ὁ", "p-s---mn-")])  # the trees' word is left
+
+    def test_gillies_marks(self):
+        from anagnosis_pipeline.hude_merge import _batch_text, gillies_segments
+        paras = ["# An Oration", "§1 It is wonderful, O Senators! he should pretend. §3 But granting I was his enemy.",
+                 "[Note: a A note.]", "He goes on without a mark.", "§5 Another paragraph."]
+        segs, wrong = gillies_segments(paras)
+        self.assertEqual(wrong, [])
+        self.assertEqual([n for n, _ in segs], [1, 3, 5])
+        self.assertEqual(segs[0][1], "It is wonderful, O Senators! he should pretend.")
+        self.assertEqual(segs[1][1], "But granting I was his enemy.\n\nHe goes on without a mark.")
+        # the marks must rise; text before the first mark has no place
+        self.assertEqual(len(gillies_segments(["Unplaced.", "§4 One.", "§4 Two.", "§2 Three."])[1]), 3)
+        # the alignment pass may add marks and nothing else: the flags and notes do not count
+        was = "=== p-0607\nIt is wonderful. But granting.\n--- notes\nnone\n"
+        now = "=== p-0607\n§1 It is wonderful. §3 But granting.\n--- notes\nplaced by the alignment pass\n"
+        self.assertEqual(_batch_text(was), _batch_text(now))
+        self.assertNotEqual(_batch_text(was), _batch_text(now.replace("wonderful", "wonderfull")))
+
     def test_compound_verbs(self):
         from anagnosis_pipeline.hude_merge import _join_prefix, compound_analysis
 

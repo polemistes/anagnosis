@@ -106,6 +106,23 @@ HAND_ANALYSES: dict[str, dict[str, tuple[str, str]]] = {
         "8.4 μᾶλλον": ("μάλα", "d-------c"),
         "4.3 Διονυσίοις": ("Διονύσια", "n-p---nd-"),
         "21.11b δωρεὰν": ("δωρεά", "n-s---fa-"),
+        # the analyser's choice among the readings of a form, wrong for its place (the review of the
+        # words outside the trees whose spelling allows more than one lemma)
+        "6.14 οὐδʼ": ("οὐδέ", "d--------"),
+        "6.53 ἀρὰν": ("ἀρά", "n-s---fa-"),
+        "14.15 τἀρεστὰ": ("ἀρεστός", "a-p---na-"),
+        "18.19 κακῶς": ("κακός", "d--------"),
+        "20.16 ἡμέρας": ("ἡμέρα", "n-p---fa-"),
+        "23.5 Πλαταιῶν": ("Πλαταιεύς", "n-p---mg-"),
+        "23.8 Πλαταιῶν": ("Πλαταιεύς", "n-p---mg-"),
+        "24.26 ὁμοίως": ("ὅμοιος", "d--------"),
+        "30.1 ἀξιῶ": ("ἀξιόω", "v1spia---"),
+        "31.4 μόνων": ("μόνος", "a-p---ng-"),
+        "33.0 ἔχθρας": ("ἔχθρα", "n-s---fg-"),
+        "33.0 πορφύρᾳ": ("πορφύρα", "n-s---fd-"),
+        "33.0 θεωρῶν": ("θεωρός", "n-p---mg-"),
+        "34.0b ἐπισήμων": ("ἐπίσημος", "a-p---mg-"),
+        "34.6 ἐροῦσι": ("ἐρῶ", "v3pfia---"),
     },
     # Jebb's Trachiniae: words the review list (build/trachiniae-review.tsv) showed with the
     # treebank's parse of another reading, or with none

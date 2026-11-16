@@ -107,6 +107,8 @@ def main(argv: list[str] | None = None) -> int:
     mly.add_argument("--text-only", action="store_true", help="only the Greek text and the apparatus (no words, syntax, translation, commentaries)")
     mly.add_argument("--without-notes", action="store_true", help="leave the commentaries, introduction, appendix and Gillies's translation out (while their batches are being checked)")
     mly.add_argument("--drafts", action="store_true", help="a trial: take the commentary batches as they are, flags not yet answered (never into texts/)")
+    cgm = sub.add_parser("check-gillies-marks", help="after the alignment pass on Gillies's translation of Lysias: only the marks added, the marks sections of the Greek and rising; lists each mark beside the Greek")
+    cgm.add_argument("speeches", nargs="+", type=int)
     sub.add_parser("fetch-nt", help="download the New Testament sources into pipeline/sources/nt/ (SBLGNT, MACULA, Dodson, BSB)")
     sub.add_parser("import-nt", help="texts/newtestament/ from the SBLGNT, MACULA, Dodson and the Berean Standard Bible")
     sub.add_parser("prepare-autenrieth-pages", help="page images and OCR drafts for transcribing Autenrieth's Homeric Dictionary (pipeline/build/autenrieth-pages/)")
@@ -328,6 +330,16 @@ def main(argv: list[str] | None = None) -> int:
             raise SystemExit("--drafts is for a trial merge: give --out a scratch folder")
         return 1 if merge_lysias(args.slug, SOURCES, Path(args.out), ROOT / "pipeline" / "build",
                                  None if args.text_only else DATA / "lexicon.sqlite", args.drafts, not args.without_notes) else 0
+    elif args.cmd == "check-gillies-marks":
+        from .hude_merge import check_gillies_marks
+        bad = 0
+        for speech in args.speeches:
+            problems = check_gillies_marks(speech, TEXTS)
+            print(f"speech {speech}: {len(problems)} remarks")
+            for p in problems:
+                print("  " + p)
+            bad += len(problems)
+        return 1 if bad else 0
     elif args.cmd == "fetch-nt":
         from .nt import fetch_nt
         fetch_nt(SOURCES)
