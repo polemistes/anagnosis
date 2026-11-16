@@ -846,10 +846,18 @@ draft lists them under `--- notes` for each page: read every one of them on the 
 long s has no cross-stroke, or a nub on the left only) and delete the DRAFT line when done. The
 oration's heading ("AN ORATION OF LYSIAS, AGAINST EVANDER, A Candidate for the Office of
 High-Priest.") is one `# ` heading in ordinary capitals and small letters; the running head, the
-page number, the signature and the catchword at the foot of the page are left out. Gillies's
+page number, the signature and the catchword at the foot of the page are left out. On some
+pages the print of the other side shows through the paper and was read as lines of stray
+letters, above the running head, in the blank parts of the page, sometimes in the middle of a
+paragraph (`» ν΄“ 5 ». ν- ν yy`): delete them and write `noise` after their flags (a page can
+have a hundred such flags; they may be answered all at once, but only after you have seen on the
+image that nothing is printed there). The heading on the oration's first page is set in widely spaced capitals over several
+lines ("AN ORATION OF LYSIAS, IN Defence of EUPHILETUS, accused of …"), which the OCR reads
+badly or not at all: type it from the image. Gillies's
 footnotes (marked by small raised letters) are `[Note: ᵃ …]` paragraphs after the paragraph that
 holds the mark. Only the oration is yours: a page of the range that holds Gillies's
-"Introduction" to another oration is left empty with a remark under notes. **Do not add section
+"Introduction" to another oration, or the title leaf of the next one, is left empty with a
+remark under notes. **Do not add section
 numbers and do not alter or modernise his words**; where each paragraph begins in the Greek is
 settled later, apart.
 

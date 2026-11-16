@@ -212,7 +212,8 @@ built in this stage.
    the next): `eng-1898.txt`. At 13.65–68 it follows the same order as Hude, so nothing is
    re-filed. (b) Gillies (1778) for the six speeches the 1898 version lacks: see "Gillies"
    below: transcribed by the prose route, then laid beside the Greek by paragraphs
-   (`hude_merge.write_gillies`: `eng-gillies.txt`).
+   (the alignment pass, `transcriptions/lysias/GILLIES-ALIGN.md`; `hude_merge.write_gillies`:
+   `eng-gillies.txt`).
 9. **Commentaries and introductions.** See "The commentaries" below: every speech's commentary
    an entry of the prose route, 74 batches; first check and second reading by agents
    (`lysias-prose.workflow.js`); `merge-lysias` then writes `commentary-adams.md`,
@@ -304,8 +305,8 @@ his "Defence of a Citizen accused of receiving a Bribe" (confirmed: it opens "I 
 become of age, under the archonship …"), and **speech 4 has a translation after all** (his
 "Defence … of a Citizen accused of giving a Wound from Malice aforethought"): the speeches
 without English are eight, not nine: 6, 8, 11, 15, 18, 20, 27, 29. Leaves (page + 175 up to
-p. 350, + 174 from p. 419): 1: 593–604; 3: 613–625; 4: 607–612; 21: 504–513; 26: 516–525;
-34: 494–499 (`drama.LYSIAS_GILLIES`; entries `lysias-gillies-NN`, kind `intro`).
+p. 350, + 174 from p. 419): 1: 593–602; 3: 613–623; 4: 607–612; 21: 504–511; 26: 516–522;
+34: 494–496 (`drama.LYSIAS_GILLIES`; entries `lysias-gillies-NN`, kind `intro`).
 
 **The sample**: speech 4 (six pages) fetched, read and drafted by the prose route
 (`transcriptions/drama/lysias-gillies-04/intro-01.md`, 93 flags). The print has the long s:
@@ -325,9 +326,47 @@ middle of a section takes that section; the merge files each paragraph under its
 cut, reordered or reworded; where Gillies leaves something out or adds, the paragraph simply
 runs on. `about.md` says that these six are in a free eighteenth-century version.
 
+**The other five speeches** (1, 3, 21, 26, 34) are fetched, read and drafted (2026-11-16):
+entries `lysias-gillies-01`, `-03`, `-21`, `-26`, `-34` beside the sample `-04`. On the drafts the
+last page of each oration was found (the ranges first given ran on into the title leaf and the
+introduction of the next oration) and the ranges cut back to the oration itself: 1: leaves
+593–602; 3: 613–623; 4: 607–612; 21: 504–511; 26: 516–522; 34: 494–496
+(`drama.LYSIAS_GILLIES`). In all **45 pages in 8 batch files, 1,726 flags**: speech 1: 438 (10
+pages, two files); 3: 288 (11 pages, two files); 4: 93 (6 pages); 21: 620 (8 pages); 26: 237
+(7 pages); 34: 50 (3 pages). The flags are many for two reasons, both in the brief: the long s,
+and, on this film, the print of the other side showing through the paper, which Tesseract reads
+as lines of stray letters (one page of speech 21 has 136 flags, most of them such noise; the
+agent deletes the lines and answers their flags `noise` after seeing on the image that nothing
+is printed there). The oration's heading in widely spaced capitals is read badly or not at all
+and is typed from the image.
+
+**The alignment pass, as written** (`transcriptions/lysias/GILLIES-ALIGN.md`, the script
+`lysias-gillies-align.workflow.js`; nothing started). It runs on a speech only after its
+transcription has had its check and second reading and **is committed**. The agent writes one
+thing into the text: the mark `§N ` (the number of a section of Hude's Greek). A mark stands at
+the head of every paragraph of Gillies; and, so that a long paragraph does not sit beside one
+section while the next five have nothing beside them, also inside a paragraph before a sentence
+of his that plainly begins where a section of the Greek begins. The marks rise; what he leaves
+out has no mark; what he transposes stays where he put it, unmarked, with a remark. The agent
+does not translate and may not open another translation. Two guards: the brief's single rule
+(marks only), and the checker `check-gillies-marks N`, which compares the marked file with the
+committed transcription (any difference that is not a mark is reported), checks that the marks
+are sections of the speech and rise, and lists each mark with the first words of the English and
+of the Greek for the eye. A second agent then checks the places (the script's `review`). The
+merge takes the text from one mark to the next as one segment under that section
+(`hude_merge.gillies_segments`); a speech without marks is left out and named in the log. The
+prose checker (`check-drama-prose`) gives the same output with the marks as without.
+
 ## The reader (not changed in this stage; `app/` untouched)
 
 Two things the reader needs for this text; both are small and neither changes another text.
+The files are all under `app/shared/src/commonMain/kotlin/no/anagnosis/`: `data/Models.kt`
+(both changes), `data/AnagnosisRepository.kt` and `ui/ReaderScreen.kt` (the label); line numbers
+as on 2026-11-16. Until it is made, the reader shows Lysias with every speech's syntax called
+automatic (also the five hand-made ones) and a chooser of bare numbers 1–34; nothing breaks.
+The built database carries what is needed: checked in `data/lysias.sqlite`: meta
+`syntax_by_book = 1=manual 14=manual 15=manual 23=manual 24=manual 12=none 13=none 19=none`,
+34 level-1 sections labelled "1 · Ὑπὲρ τοῦ Ἐρατοσθένους φόνου ἀπολογία" and so on.
 
 1. **The syntax label by speech.** Today `AnagnosisRepository` reads the meta key `syntax` once
    (`automaticSyntax = selectMeta("syntax") == "automatic"`, AnagnosisRepository.kt line 136) and
@@ -350,7 +389,8 @@ Two things the reader needs for this text; both are small and neither changes an
    list from the level-1 sections, with each section's label (`"12 · Κατὰ Ἐρατοσθένους τοῦ
    γενομένου …"`), but marks a book `named` only for a verse-numbered text (the New Testament);
    for a text numbered book.line the chooser shows the number alone, as for the Odyssey's
-   books. The change: `named = verses || label is not just the number` (or: `named` when the
+   books (`Book.name`, `Book.title`, Models.kt lines 162–167: a named book is called by its
+   label, another "Book" and its number). The change (Models.kt line 103): `named = verses || label is not just the number` (or: `named` when the
    section's label holds " · " and a name after it), so that the chooser lists "12 · Κατὰ
    Ἐρατοσθένους …"; the list must scroll (34 rows; the New Testament's 27 already do) and a
    long name must wrap or be cut with an ellipsis (the longest is 67 letters). The True Story's
@@ -461,10 +501,30 @@ lysias-12/notes-01, p-0078 in notes-02, p-0172 in lysias-23/notes-01, p-0259 in
 lysias-10/notes-01) are already answered; the agent of the batch does the other pages and the
 second reader reads all.
 
-Gillies: `{"entry": "lysias-gillies-04", "file": "intro-01"}` is the sample batch; for the other
-five speeches first `drama-prose lysias-gillies-NN intro fetch`, `ocr`, `draft` (NN = 01, 03, 21,
-26, 34; about 60 leaves of 12 MB each from the Archive), then their batches by the same script;
-then the alignment pass ("Gillies" above), whose brief is not written yet.
+**Gillies, the transcription** (the same script and brief section; the speech-4 sample batch is
+one of the jobs: its flags are not answered; `"review": true` as for the commentaries):
+
+```json
+{ "scratch": "/home/proteus/koding/anagnosis/pipeline/build/agent-scratch", "atOnce": 6, "review": true,
+  "jobs": [
+    {"entry": "lysias-gillies-01", "file": "intro-01"}, {"entry": "lysias-gillies-01", "file": "intro-02"},
+    {"entry": "lysias-gillies-03", "file": "intro-01"}, {"entry": "lysias-gillies-03", "file": "intro-02"},
+    {"entry": "lysias-gillies-04", "file": "intro-01"}, {"entry": "lysias-gillies-21", "file": "intro-01"},
+    {"entry": "lysias-gillies-26", "file": "intro-01"}, {"entry": "lysias-gillies-34", "file": "intro-01"}
+  ] }
+```
+
+**Gillies, the alignment pass** (`pipeline/transcriptions/lysias/lysias-gillies-align.workflow.js`,
+brief `GILLIES-ALIGN.md`; model opus, general-purpose; one agent per speech and a second look):
+only after the transcription batches above are checked, read a second time **and committed**
+(`git commit pipeline/transcriptions/drama/lysias-gillies-NN`; the checker compares with HEAD):
+
+```json
+{ "atOnce": 6, "review": true, "speeches": [1, 3, 4, 21, 26, 34] }
+```
+
+Then `.venv/bin/python -m anagnosis_pipeline check-gillies-marks 1 3 4 21 26 34` (0 remarks; its
+listing read down once), commit, and `merge-lysias` writes `eng-gillies.txt`.
 
 After each wave: `check-drama-prose <entry> <file>` on every file, commit
 (`git commit pipeline/transcriptions/drama/lysias-NN`), and at the end `merge-lysias`, then read
@@ -472,7 +532,38 @@ After each wave: `check-drama-prose <entry> <file>` on every file, commit
 
 ## For the author
 
-**New questions (2026-11-16, from the commentaries, translations and merge stage):**
+**New questions (2026-11-16, from the merge, the words and the build):**
+
+* **Speeches 12, 13 and 19 have no trees, so every word there (12,860, a quarter of the text)
+  has the lemma and form the analyser gives the word by itself.** Measured on the speeches with
+  hand-made trees that is right for the lemma 97 times in 100; the case is wrong for about two
+  words in a hundred (a neuter called accusative where it is nominative), the number for fewer
+  than one. Three ways: (a) leave it, as the words outside the trees are left in the other
+  texts, with a sentence in about.md; (b) a checking pass by agents over the 811 word forms in
+  these speeches whose spelling allows more than one lemma (the list is made:
+  `pipeline/build/agent-scratch/lysias/notree-ambiguous.txt`; the agent chooses among the
+  analyser's readings, it does not write any), about a dozen small batches for a cheaper model;
+  (c) a reader change that shows every possible form for a word without trees. Proposed: (b).
+* **Gillies beside the Greek: marks inside his paragraphs too.** The alignment pass as written
+  puts a section mark at the head of each of his paragraphs and also, inside a long paragraph,
+  before a sentence that plainly begins a new section, so the reader shows his English in
+  smaller pieces beside the sections they render. His words and their order are untouched, but
+  his long paragraphs are shown divided. Say if you want marks at his paragraph heads only.
+* **Two words cut by a supplement** (25.35 ὑπο⟨ψίαν καταστήσετε⟩, 33.9 ⟨ἀγανακτήσει⟩εν): the
+  reader divides a word at such a bracket, so each is two tappable halves; both halves give
+  the whole word (ὑποψία, ἀγανακτέω). Making them one word would need a change to the word
+  division that the pipeline and the reader share; not made.
+* **The glossary of 188 names** says who each person is in the speeches, with the places. What
+  it adds from outside the speeches is little and worth your eye: the archons' years, "the
+  Phaedrus of Plato's dialogues" (19.15), Cinesias "the dithyrambic poet", Cephisodorus "the
+  comic poet", Antiphon "the orator", the year of a battle. Names the dictionaries already have
+  as bare names (Διόδοτος "Diodotus", Σίμων "Simon") got no entry: say if every party to a
+  speech should have one.
+* **The catalogue.** Lysias now stands in `data/catalog.json` (not for sale). Its description
+  comes from about.md, which describes the finished text (commentaries, Gillies). Nothing is
+  pushed; the catalogue reaches users only with a reader release.
+
+**Questions from the commentaries, translations and merge stage (2026-11-16):**
 
 * **Adams's appendices.** Proposed: his Appendix I–V ships as the text's appendix (Chronological
   outline, Athenian legal procedure, Rhetorical terms, Money and prices, The manuscripts: 36
@@ -596,14 +687,14 @@ Nothing here blocks the text batches. In the order in which an answer is needed:
 - [x] Step 2: leaves and layout (2026-11-16): text leaves 19–287 (269 pages, with the four leaves the scan hides), SIGLA 18, praefatio 9–16; the tables above
 - [x] Step 3: OCR and draft (2026-11-16): 269 pages fetched, cut (the four frames) and read; draft: 6,798 lines (6,698 of text, 67 headings, 26 hypothesis lines, 7 lines the check text lacks) and 82 title lines; 1,242 text lines flagged (18 %), 1,681 flags in all (6.2 a page; 11 pages with none; the most 34); the apparatus found on all 269 pages, a title on 34; 45 batch files `transcriptions/lysias/batch-NN.md`
 - [x] Pilot (2026-11-16): batch 01 (leaves 19–24, 1.1–1.28) checked by the set-up session by the brief: 56 flags, 21 changes to the text, 85 apparatus items, checker 8 remarks all noted; the brief, the flags and the tools mended from it (Decisions); `lysias-residuals` on it: 27 items; a scratch merge of the draft runs (`--out pipeline/build/agent-scratch/lysias/texts`)
-- [ ] Step 4: text and apparatus batches, first pass
-- [ ] Step 5: second passes
-- [ ] Step 6: merge and the checks
-- [x] Step 7: words and syntax, the pipeline side (2026-11-16): `hude_merge.tokens` (each speech aligned to its own trees: AGDT 1, 14, 15, 23; GLAUx for the rest, hand-made for 24; none for 12, 13, 19), the label by speech (`# syntax-by-book` in grc.txt, `syntax_by_book` in the built meta table); trial merge: 56,484 words, 71 without a lemma, review list 830. The reader's change is described under "The reader" and not made
-- [ ] Step 8: translations: the 1898 version done in the merge (`eng-1898.txt`: 699 segments of 20 speeches, every one under a section of Hude's text); Gillies: his contents established (six speeches needed: 1, 3, 4, 21, 26, 34), entries `lysias-gillies-NN` set up, speech 4 fetched, read and drafted as the sample; the other five to fetch and draft, all six to check, then the alignment pass
-- [ ] Step 9: commentaries and introductions: set up and drafted (2026-11-16): 21 entries, 493 pages, 74 batches, 5,797 flags (Adams 353 pages / 51 batches / 3,888 flags; Morgan 54 / 9 / 898; Shuckburgh 86 / 14 / 1,011); pilot pages checked (Adams p-0069, p-0078; Morgan p-0172; Shuckburgh p-0259); the brief's section, the workflow script and its arguments under "Hand-over"; `hude_notes.py` files the notes under Hude's sections (trial merge on the drafts: 2,761 paragraphs under 641 sections). Still to do: the agents' first check and second reading of the 74 batches
-- [ ] Step 10: sigla, glossary, about: `sigla.md` (from Hude's SIGLA page) and `about.md` written (`transcriptions/lysias/static/`, copied by the merge); the book names in lower-case Greek with numbers (`hude_merge.SPEECH_NAMES`); still to do after the real merge: `glossary.md`, `shortdefs.tsv`, `aliases.tsv` (the trial `check`: 213 lemmas in no dictionary, 158 without a short definition), the review list, the texts/README.md section
-- [ ] Step 11: build and emulator check
+- [x] Step 4: text and apparatus batches, first pass (2026-11-16, run by the main session): all 45 batches checked by agents against the crops
+- [x] Step 5: second passes (2026-11-16, the main session): the residual pass on all 45 batches (71 corrections) and the independent review of all 45 (35 corrections); commit 1e8aef8. Both stayed for the whole text: each caught errors the pass before had left
+- [x] Step 6: merge and the checks (2026-11-16): `merge-lysias`: 1,145 lines (1,116 sections of 1,116), 34 speeches, 280 paragraphs, from 269 pages; 4,091 apparatus items under 1,061 sections; 0 problems. The 19 serious lemma misses looked up on the page and settled (none a slip of the text: `SETTLED`), 568 weak ones sampled (no class of fault); the pages flagged at set-up looked at; the misprint tables (6 in the text, 6 in the apparatus). See Decisions
+- [x] Step 7: words and syntax (2026-11-16): each speech aligned to its own trees (AGDT 1, 14, 15, 23; GLAUx for the rest, hand-made for 24; none for 12, 13, 19); the label by speech (`# syntax-by-book`, `syntax_by_book` in the built meta table); 56,484 words, none without a lemma; 6,923 syntax nodes; the review list (830 words) gone through: what it was and what was done under Decisions. The reader's change is described under "The reader" and not made
+- [ ] Step 8: translations: the 1898 version done in the merge (`eng-1898.txt`: 699 segments of 20 speeches, every one under a section of Hude's text). Gillies: all six speeches (1, 3, 4, 21, 26, 34) fetched, read and drafted (45 pages, 8 batch files, 1,726 flags; the ranges cut back to the orations on the drafts); the brief for his batches (INSTRUCTIONS-prose.md) and for the alignment pass (`transcriptions/lysias/GILLIES-ALIGN.md`), the script `lysias-gillies-align.workflow.js`, the checker `check-gillies-marks`; the arguments under "Hand-over". Still to do: the agents' check and second reading of the batches, the commit, the alignment pass, the merge
+- [ ] Step 9: commentaries and introductions: set up and drafted (2026-11-16): 21 entries, 493 pages, 74 batches, 5,797 flags (Adams 353 pages / 51 batches / 3,888 flags; Morgan 54 / 9 / 898; Shuckburgh 86 / 14 / 1,011); pilot pages checked (Adams p-0069, p-0078; Morgan p-0172; Shuckburgh p-0259); the brief's section, the workflow script and its arguments under "Hand-over"; `hude_notes.py` files the notes under Hude's sections. With the main session's agents since 2026-11-16: Morgan's nine batches checked and read a second time (a412f1e), Shuckburgh's and Adams's following; then `merge-lysias` (without `--without-notes`) and `pipeline/build/lysias-notes.log`
+- [x] Step 10: sigla, glossary, about (2026-11-16): `sigla.md` and `about.md` (`transcriptions/lysias/static/`, copied by the merge); the book names in lower-case Greek with numbers (`hude_merge.SPEECH_NAMES`); `glossary.md` (188 names), `shortdefs.tsv` (21 ordinary words, 185 names, one line for δῆμος), `aliases.tsv` (13), written by hand in `texts/lysias/` (the merge does not touch them); `check`: 2,801 lemmas, none missing from the dictionaries and the glossary, none without a short definition; the texts/README.md section
+- [ ] Step 11: build and emulator check: `build --only lysias` (data/lysias.sqlite, 8.3 MB), `catalog` (Lysias in data/catalog.json, no `google_play`), `check` (0 errors; no warning in Lysias) done on 2026-11-16 on the text without the commentaries and Gillies; the lexicon and the other texts' databases unchanged (checksums of lexicon.sqlite and three texts compared). Still to do: the build again after the commentaries and Gillies are merged, the asset pack, the reader's two changes, the emulator check
 
 ## Decisions
 
@@ -747,6 +838,95 @@ Nothing here blocks the text batches. In the order in which an answer is needed:
     the 85 pilot items filed under their sections, no serious lemma miss, 15 weak (all
     manuscripts' spellings and conjectures); its four problems are the draft's open places named
     under "Hand-over".
+
+* **2026-11-16, the merge of the checked text (step 6).** `merge-lysias` on the 45 batches after
+  their three passes; the log `pipeline/build/lysias-merge.log`.
+  * **The 19 serious lemma misses** (an apparatus item whose lemma is neither on its line nor
+    beside it): each looked up on the page (crop sheets of the 19 text lines with their apparatus).
+    In every one the batch's text agrees with the print, and the item is a reading Hude reports
+    without the word of his own text in front (his apparatus is largely negative: "δὲ μὴ
+    γενομένων C", "εἰς δημοκρατίαν L", "ἐκ τοῦ ἄστεος X"), a variant in another word order, or a
+    supplement quoted with its neighbour ("⟨περὶ⟩ ἁπάντων"). None is a slip of the text and
+    none a wrong lemma in a batch, so no batch file was changed; the 19 are recorded as printed
+    in `hude_merge.SETTLED` (key `leaf.line: lemma`: 32.5, 35.13, 44.11, 68.19, 72.23, 139.5,
+    161.6, 186.23, 199.15, 210.2, 212.4, 219.5, 226.24, 233.23, 239.8, 258.23, 278.1, 279.20,
+    286.19) and the log now shows 0 serious. At 72.23 the text's ἐπὶ δημοκρατίας is Dobree's
+    reading, which Hude adopts; the agents had noted it.
+  * **The weak ones** (568): 503 are items whose first words match nothing on the line (readings
+    of the manuscripts and conjectures given without a lemma: ἤδειν L, τοι C, οὔσης ⟨οὐ μᾶλλον⟩
+    Canter), 62 name a word that stands on the line beside (Hude counts a broken line with the
+    one before, or cites the line where a longer lemma begins), 3 are ranges whose last word was
+    not found (an omission that runs into the next section). A hundred read through: no class
+    of fault, nothing to change in the batches. One thing mended in the tool from it: a variant
+    without a lemma on a line that holds the end of one section and the beginning of the next
+    was filed under the first; it now goes under the section whose words it is most like.
+  * **The pages flagged at set-up.** p-0143/0144: 13.65–68 stand in Hude's order with his
+    numbers (the batch notes say so; grc.txt has 65 Τἆλλα τοίνυν … 67 Ἦσαν τοίνυν οὗτοι … in
+    his sequence). p-0163/0164: the heading ΝΟΜΟΙ. ΟΡΚΟΙ. ΓΡΑΦΗ. closes speech 14 (a `!` line
+    after 14.47; the merge kept a heading only before a section and now keeps one at a speech's
+    end too). p-0106, p-0153, p-0272: the line counts agree with the margin numbers after the
+    agents' check (no problem in the log). p-0272, p-0281, p-0284: the three hypotheses are
+    sections 32.0, 33.0, 34.0 (34.0 in two paragraphs).
+  * **Misprints** (the reviewers' `misprint:` notes, all twelve in the tables; the batches keep
+    the print, each correction has a note in the apparatus): text, `MISPRINTS`: ἔλεγετʼ (89.22),
+    Αυσιθέῳ (100.16), πεπιστευμενους (184.15), εστιν (202.2), the comma of "ἐνίκων καὶ,"
+    (205.21), ὀλιγαοχικὸς (229.27); apparatus, `APPARATUS_MISPRINTS`: προτερον (45.19),
+    συμβαλόμενυς (76.26), ἐφʼ ᾖ (77.3), οὑτυσὶ (146.27), ούνεκα without a breathing (211.16 and
+    238.25; printed οὔνεκα on two other pages). Not corrected: ἑβδομήκοντα at 191.17 (a damaged
+    ν), Ἱππαρμόδωρον in the apparatus at 218.9 (the reviewer withdrew the note).
+* **2026-11-16, the words (step 7).** What the review list of 830 words was, and what was done.
+  * **What it held.** 550 words that are **not in the trees** (283 of them the three hypotheses
+    of 32–34, which GLAUx has not got; the rest Hude's supplements and the places where he has
+    more words than Lamb); 209 where **Hude reads another word than the trees' text**; 39 words
+    in the speeches without trees that **the analyser could not read**; 32 compound verbs read
+    by a rule. Names: 45 of the 830. So about 760 are words the analyser read by itself, and the
+    71 words that had no lemma at all were the 39 and the 32.
+  * **By rule first.** (1) A compound verb the analyser lacks is read from its simple verb and
+    its prefix where the joined lemma is a dictionary headword (`compound_analysis`): 32.
+    (2) In a speech without trees the address after ὦ is a vocative (`vocatives`: ὦ ἄνδρες
+    δικασταί; 60 words). (3) ὃ and ὅ τι are the relative, ἥ τε / αἵ τε the article
+    (`relatives_and_articles`: 25 words outside the trees). (4) Garbled and variant lemmas of
+    the trees go to the dictionaries' headword (`LEMMA_FIXES["lysias"]`, 72 lemmas: οὐτε,
+    κατά-καθεύδω, ἀμφιαμφισβητέω, ξηαριξλες for Χαρικλῆς, καταλιμπάνω for καταλείπω, ἔχθρη …).
+  * **Then by hand** (`HAND_ANALYSES["lysias"]`, 104 words, keyed by section and form): the 39
+    unread words of 12, 13, 19; the names the trees or the analyser read as the common word they
+    are spelled like, or the reverse (Δάμνιππος as "horse-taming", Πολέμαρχος as the polemarch,
+    Φυλῇ as Φυλεύς, Παιανιεῖ as παιανίζω, Ἑρμᾶς, φυλὴν as Phyle); the two words a supplement
+    cuts in two (25.35 ὑπο⟨ψίαν, 33.9 ⟨ἀγανακτήσει⟩εν: the reader's word division makes two
+    words of each, and both halves carry the whole word's lemma and form); and 15 words where
+    the analyser's choice among the readings of a form was wrong for the place (ἀξιῶ as ἄξιος,
+    θεωρῶν as θεωρέω, οὐδʼ as οὐδός, κακῶς and ὁμοίως as adjectives, Πλαταιῶν as the town).
+    For that last group the 441 review words whose spelling allows more than one lemma were
+    listed with their context and read through (`build/agent-scratch/lysias/review-ambiguous.txt`).
+  * **How good the analyser's reading is where nothing checks it** (measured on the 7,607 words
+    of the speeches with hand-made trees, by giving the analyser each word alone): the lemma is
+    the trees' in 97.1 % (the rest mostly another headword for the same word: μᾶλλον/μάλα,
+    δεῖ/δέω); the case differs in 2.5 % of the words (most of them the vocative after ὦ, now a
+    rule), the number in 0.7 %; the other differences are conventions (particle or adverb,
+    pronoun or adjective, middle or middle-passive). **Speeches 12, 13 and 19 (12,860 words)
+    stand on that reading alone**: For the author.
+  * **The dictionaries.** After the fixes 165 lemmas were in no dictionary, nearly all names,
+    and 90 had no short definition. `glossary.md`: 188 entries (the 165, and 23 names the
+    dictionaries know only as common words: Βάτραχος "frog", Φείδων "oil-can", Αἴσιμος
+    "fated"), each saying who the person is in the speech, with the places; several men of one
+    name in one entry. `shortdefs.tsv`: 21 ordinary words Logeion's list lacks, the names (a
+    name spelled like a common word that the speeches do not use takes that word's place, since
+    lemma keys are lower-cased; δῆμος has one line for the people and for Demus; Φυλή and
+    Πολέμαρχος keep Logeion's own capitalised lines). `aliases.tsv`: 13 spellings the
+    dictionaries list otherwise (μιμνῄσκω, πρῴην, εὔνους, Χερρόνησος, ἀκληρωτί …). The sources
+    of the two hand files are kept beside their small generator in
+    `build/agent-scratch/lysias/glossary/` (not in the repository; the files in texts/lysias/
+    are the ones to edit).
+* **2026-11-16, the build without the commentaries (step 11, the pipeline's part).** `merge-lysias
+  lysias --without-notes` (the option leaves the commentaries, the introduction, the appendix
+  and Gillies out while their batches are with the agents), `build --only lysias`: 1,145 lines,
+  56,484 tokens, 2,797 lemmas, 6,923 syntax nodes, 699 translation segments, 1,061 apparatus
+  notes, the sigla, 188 glossary entries, 8.3 MB; `catalog`: 19 texts in the public catalogue,
+  Lysias without `google_play`; `check`: 0 errors, 8 warnings, none of them in Lysias. The
+  catalogue's description is about.md's and already speaks of the commentaries and Gillies: they
+  are to be merged before any reader release carries the catalogue. Other texts verified
+  unchanged: data/lexicon.sqlite and the databases of three other texts by checksum before and
+  after; the tests (277).
 
 ## Sizes, for planning
 

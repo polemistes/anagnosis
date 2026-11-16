@@ -728,13 +728,14 @@ LYSIAS_PROSE = {
 # bim_eighteenth-century_the-orations-of-lysias-a_lysias_1778: 676 leaves, a bitonal film scan,
 # long s; leaf = page + 175 up to p. 350, page + 174 from p. 419): the six speeches the 1898
 # translation lacks, each from the first page of the oration to its last (Gillies's own
-# introduction before each is not taken). He has eighteen speeches of Lysias in all, in this
+# introduction before each and the title leaf of the next are not taken; the last pages were
+# settled on the drafts). He has eighteen speeches of Lysias in all, in this
 # order: 2, 14, 13, 12, 25, 34, 21, 26, 31, 16, 7, 17, 19, 1, 4, 3, 32, 10.
 GILLIES_SCAN = "bim_eighteenth-century_the-orations-of-lysias-a_lysias_1778"
 GILLIES_EDITION = ("The Orations of Lysias and Isocrates, translated from the Greek, with some account of their lives, "
                    "by John Gillies, London, J. Murray, 1778")
 LYSIAS_GILLIES: dict[int, list[tuple[int, int]]] = {
-    1: [(593, 604)], 3: [(613, 625)], 4: [(607, 612)], 21: [(504, 513)], 26: [(516, 525)], 34: [(494, 499)],
+    1: [(593, 602)], 3: [(613, 623)], 4: [(607, 612)], 21: [(504, 511)], 26: [(516, 522)], 34: [(494, 496)],
 }
 
 
