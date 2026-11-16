@@ -216,6 +216,28 @@ own text): rewrite each at its turn as the Medea's was.
 
 ## Progress
 
+* **2026-11-17, Medea: prose done and merged; finishing.** Second reading of the other 18
+  commentary batches and the 7 of Earle's introduction: 25 agents, 3.2 M tokens; 38 `rev:`
+  corrections in the whole prose, a dozen of them accents or breathings in the Greek (ἄν for
+  ἂν three times, ἢ καὶ, ὤν for ὧν, οὓς): the sample had understated what the pass finds, and
+  it stays for the Alcestis. `merge-drama medea`: commentary-earle.md 1,098 notes,
+  introduction.md 40 headings, 11 log remarks. An Opus agent does the finishing (log
+  build/logs/medea-finish-agent.md): numbering by Murray's apparatus, the review list (194
+  words against the Pedalion trees), translation, sigla from Murray's leaf 24, glossary,
+  shortdefs, about.md with the release date, the build into the author's catalogue, and the
+  app's optional list of author packs. Then the emulator check with an author's build.
+  Agent tokens for the Medea's prose: set-up 0.42 M, first check 4.3 M, second reading 0.8 +
+  3.2 M.
+* **2026-11-17, Alcestis started** (the overlap rule: the next play's first pass beside the
+  previous play's finishing). `drama.py`'s `alcestis` entry is Murray's now (text leaves
+  57–101, the Medea's page options; Hayley as notes editor, his leaves still to be found);
+  `private-setup alcestis`; `drama-pages alcestis fetch|ocr|draft` running (log
+  build/logs/alcestis-pages.log). Then: judge the draft (flags, apparatus on every page, three
+  pages against the images), first pass (edition section "Murray's Euripides (Oxford text)"),
+  NO residual pass, the review with the Medea's five points, merge; Hayley's notes (at the
+  back of his book) and introduction by the prose route.
+
+
 * **2026-11-17, Medea prose: first check back, second reading running.** First check of the
   31 batches: 31 agents, 4.3 M tokens, every flag answered (private cdc2c1c). Second reading
   of a sample (notes-03, 09, 15, 20) and of the two batches with Murray's hypotheses and
