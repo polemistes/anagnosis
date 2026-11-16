@@ -287,6 +287,20 @@ class NumberingSuspectsUnbolded(unittest.TestCase):
 
 
 class AlignPartStarts(unittest.TestCase):
+    def test_section_begun_at_a_subsection(self):
+        from anagnosis_pipeline.sophocles import align_part_starts, label_parts
+        from anagnosis_pipeline.textfmt import Section, Speaker
+
+        class P:  # the Alcestis: the third stasimon 962 inside Perseus's choral section from 861
+            parts = [(1, "Third episode"), (962, "Third stasimon")]
+        items = ([Section(1, "choral", ""), Speaker("Χορός"), Line("861", "…"), Line("961", "…"),
+                  Section(2, "strophe", "1"), Speaker("Χορός"), Line("962", "…")])
+        doc = Document(items=items)
+        self.assertEqual(align_part_starts(doc, P), ["section choral begun at 962 (Jebb's Third stasimon)"])
+        label_parts(doc, P)
+        self.assertEqual([(i.kind, i.label) for i in doc.items if isinstance(i, Section)],
+                         [("choral", "Third episode"), ("choral", "Third stasimon"), ("strophe", "1")])
+
     def test_section_moved_before_a_lyric_subsection(self):
         from anagnosis_pipeline.sophocles import align_part_starts, label_parts
         from anagnosis_pipeline.textfmt import Section, Speaker

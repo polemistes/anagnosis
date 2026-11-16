@@ -373,6 +373,20 @@ def align_part_starts(doc, play: Play, window: int = 6) -> list[str]:
             continue
         near = [(abs(base(l.n) - start), i, l) for i, l in tops if abs(base(l.n) - start) <= window]
         if not near:
+            # no top-level section near, but a lyric sub-section of the check text begins at the
+            # division's first verse (the Alcestis: the third stasimon 962 inside Perseus's choral
+            # section from 861): a top-level section of the enclosing kind begins there
+            target = next((k for k, it in enumerate(items) if isinstance(it, Line) and base(it.n) == start), None)
+            if target is None:
+                continue
+            k = target
+            while k > 0 and isinstance(items[k - 1], (Speaker, Stage)):
+                k -= 1
+            if k > 0 and isinstance(items[k - 1], Section) and items[k - 1].level > 1:
+                enclosing = next((it for it in reversed(items[:k]) if isinstance(it, Section) and it.level == 1), None)
+                if enclosing is not None:
+                    items.insert(k - 1, Section(1, enclosing.kind, ""))
+                    moves.append(f"section {enclosing.kind} begun at {start} (Jebb's {_label})")
             continue
         _d, si, sline = min(near, key=lambda x: x[0])
         target = next((k for k, it in enumerate(items) if isinstance(it, Line) and base(it.n) == start), None)

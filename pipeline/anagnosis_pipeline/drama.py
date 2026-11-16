@@ -109,6 +109,10 @@ class Play:
     # keeps the printed number in front ("[1056] **…**"), as the apparatus always does (Earle's
     # notes on Murray's text, whose numbering differs from Earle's in places)
     notes_refile_mark: bool = False
+    # a paragraph of a note whose bold lemma is not in the verse (or range) the note is filed under
+    # but in a verse up to three lines away goes to that verse, the printed number in front
+    # (follow_lemmas; Hayley's Alcestis, whose numbering differs from Murray's in places)
+    notes_follow_lemma: bool = False
     # letters the edition's typeface makes Tesseract read otherwise (Rzach's Teubner: ϑ for θ),
     # put right in the OCR before it is matched; letters counted as one in the matching (Tesseract
     # reads the Teubner κ as χ): pairs "χκ" = χ counts as κ
@@ -434,8 +438,15 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          notes_editor="hayley", notes_editor_name="Harry Wilson Hayley",
          notes_edition="The Alcestis of Euripides, edited with an introduction and critical and exegetical notes by H. W. Hayley, Boston, Ginn & Company, 1898",
          notes_scan="alcestisofeuripi00euriuoft", notes_layout="hayley", note_start=HAYLEY_NOTE,
-         # a note on a verse Murray's numbering lacks keeps Hayley's number in front (as the Medea's)
-         notes_refile_mark=True,
+         # a note on a verse Murray's numbering lacks keeps Hayley's number in front (as the Medea's);
+         # a paragraph whose lemma stands in a neighbouring verse goes there (Hayley numbers some
+         # lyric and dialogue stretches otherwise than Murray)
+         notes_refile_mark=True, notes_follow_lemma=True,
+         # Hayley's divisions of the play (introduction, chapter B)
+         parts=[(1, "Prologue"), (77, "Parodos"), (136, "First episode"), (435, "First stasimon"),
+                (476, "Second episode"), (568, "Second stasimon"), (606, "Third episode"),
+                (962, "Third stasimon"), (1006, "Exodos")],
+         trans_stages_apart=True,
          # Murray died in 1957 (as the Medea's entry): the licence line of the files that hold his
          # text or apparatus (introduction.md too: his hypotheses and persons stand in it)
          edition_license="CC BY-SA 4.0 (transcription); Murray's edition is in the public domain in the United States, "
@@ -1401,6 +1412,96 @@ def _lemma_line(body: list[str], n: int, lines: dict[str, str]) -> str | None:
     return min(near)[1] if near else None
 
 
+_ELIDED = "ʼ’᾽'"
+
+
+def _lemma_words(paragraph: str) -> list[str] | None:
+    """The letters of the words of a paragraph's bold lemma (up to its first "…", "..." or "|"),
+    those of three letters or more; None when it has no bold lemma or no word of four letters."""
+    m = re.match(r"^(?:\[\d+[a-z]?(?:-\d+[a-z]?)?\]\s*)?\*\*([^*]+)\*\*", paragraph)
+    if not m:
+        return None
+    first = re.split(r"\.\s*\.\s*\.|…|\|", m.group(1))[0]
+    words = [w for w, _s, _e in greek.words(first)]
+    keys = [skel(w) + ("ʼ" if w[-1:] in _ELIDED else "") for w in words]
+    keys = [k for k in keys if len(k.rstrip("ʼ")) >= 3]
+    return keys if any(len(k.rstrip("ʼ")) >= 4 for k in keys) else None
+
+
+def _holds(keys: list[str], verse: str) -> bool:
+    """Whether every lemma word stands in the verse (an elided word matches its full form)."""
+    have = [skel(w) + ("ʼ" if w[-1:] in _ELIDED else "") for w, _s, _e in greek.words(verse)]
+
+    def match(k: str, v: str) -> bool:
+        a, b = k.rstrip("ʼ"), v.rstrip("ʼ")
+        if a == b:
+            return True
+        if v.endswith("ʼ") and a.startswith(b) and len(a) - len(b) <= 1:
+            return True
+        return k.endswith("ʼ") and b.startswith(a) and len(b) - len(a) <= 1
+
+    return all(any(match(k, v) for v in have) for k in keys)
+
+
+def follow_lemmas(notes: list[tuple[str, list[str]]], lines: list[tuple[str, str]],
+                  reach: int = 3) -> tuple[list[tuple[str, list[str]]], list[str]]:
+    """Play.notes_follow_lemma: a paragraph of a note filed under one of our verses whose bold
+    lemma (a word of four letters at least) stands neither in that verse nor in the note's range
+    but in a verse up to `reach` lines away goes to the nearest such verse as a note of its own,
+    the printed number in front ("[575] **συρίζων**: …"), right after the note it comes from.
+    Returns the notes and one remark per paragraph moved."""
+    numbers = [n for n, _t in lines]
+    index = {n: i for i, n in enumerate(numbers)}
+    out: list[tuple[str, list[str]]] = []
+    moves: list[str] = []
+    for heading, body in notes:
+        a, _, b = heading.partition("-")
+        if a not in index:
+            # a number our text lacks: the whole note goes to the verse near it that holds its
+            # lemma, where place_notes would take the nearest earlier verse
+            keys = _lemma_words(body[0]) if body and heading else None
+            near = sorted((abs(base(n) - base(a)), k) for k, n in enumerate(numbers)
+                          if keys and abs(base(n) - base(a)) <= reach and _holds(keys, lines[k][1]))
+            if near:
+                target = numbers[near[0][1]]
+                moves.append(f"notes: the note on {heading} goes to {target}, which holds its lemma")
+                heading = target + (f"-{b}" if b and base(b) > base(target) else "")
+            out.append((heading, body))
+            continue
+        i = index[a]
+        j = index.get(b, i) if b else i
+        if b and b not in index:
+            later = [k for k, n in enumerate(numbers) if base(a) < base(n) <= base(b)]
+            j = later[-1] if later else i
+        # a note on a verse covers its lettered parts (219 and 219a: one verse of the tradition)
+        while j + 1 < len(numbers) and base(numbers[j + 1]) == base(numbers[j]) and numbers[j + 1] != str(base(numbers[j + 1])):
+            j += 1
+        stay: list[str] = []
+        moved: list[tuple[str, list[str]]] = []
+        for para in body:
+            keys = _lemma_words(para)
+            if not keys or any(_holds(keys, lines[k][1]) for k in range(i, j + 1)):
+                stay.append(para)
+                continue
+            near = sorted((abs(k - i), k) for k in range(max(0, i - reach), min(len(lines), j + reach + 1))
+                          if not i <= k <= j and _holds(keys, lines[k][1]))
+            if not near:
+                stay.append(para)
+                continue
+            target = numbers[near[0][1]]
+            text = para if para.startswith("[") else f"[{heading}] {para}"
+            if moved and moved[-1][0] == target:
+                moved[-1][1].append(text)
+            else:
+                moved.append((target, [text]))
+            moves.append(f"notes: the paragraph of the note on {heading} on {para.split('**')[1]!r} goes to {target}, "
+                         "which holds its lemma")
+        if stay:
+            out.append((heading, stay))
+        out += moved
+    return out, moves
+
+
 def place_notes(notes: list[tuple[str, list[str]]], numbers: list[str],
                 texts: dict[str, str] | None = None) -> tuple[list[tuple[str, list[str]]], list[str]]:
     """Notes under our line numbers: a heading names a line we have (1234 or 1234a) or a range; a
@@ -1679,6 +1780,9 @@ def write_prose_documents(play: Play, transcriptions: Path, out: Path, lines: li
         if play.notes_refile_mark:
             raw = [(h, body if not h or h.split("-")[0] in have else
                     ([f"[{h}] {body[0]}"] + body[1:] if body else [f"[{h}]"])) for h, body in raw]
+        if play.notes_follow_lemma:
+            raw, moves = follow_lemmas(raw, lines)
+            problems += moves
         placed, probs = place_notes(raw, [n for n, _t in lines], dict(lines))
         problems += probs
         md = _meta_lines({

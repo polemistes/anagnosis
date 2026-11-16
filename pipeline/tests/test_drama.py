@@ -273,3 +273,20 @@ class TranslationStagesApart(unittest.TestCase):
                 ("1270a", "Sons", "(within) Ah!")])
             # without stages_apart the speech-level direction stays a line of its own, as before
             self.assertIn(("!", "", "within"), perseus_translation(path))
+
+
+class FollowLemmas(unittest.TestCase):
+    def test_paragraph_moved_to_the_verse_with_its_lemma(self):
+        from anagnosis_pipeline.drama import follow_lemmas
+
+        # made-up verses; the commentator numbers one verse later than our text
+        lines = [("10", "ἄνδρες πολῖται χαίρετε"), ("11", "λόγος δὲ τοῦδε μακρός"), ("11a", "σιγῶντες ἀκούετε"),
+                 ("13", "ἐγὼ δʼ ἄπειμι νῦν")]
+        notes = [("11", ["**λόγος**: a word.", "**χαίρετε**: farewell.", "**τε**: too short to move."]),
+                 ("12", ["[12] **ἄπειμι**: I go away."]), ("11", ["**ἀκούετε**: in the lettered part."])]
+        out, moves = follow_lemmas(notes, lines)
+        self.assertEqual(out, [("11", ["**λόγος**: a word.", "**τε**: too short to move."]),
+                               ("10", ["[11] **χαίρετε**: farewell."]),
+                               ("13", ["[12] **ἄπειμι**: I go away."]),
+                               ("11", ["**ἀκούετε**: in the lettered part."])])
+        self.assertEqual(len(moves), 2)
