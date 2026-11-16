@@ -50,7 +50,7 @@ android {
         buildConfig = true
     }
     // the texts sold in the app, delivered by Google Play once bought (see packs/antigone)
-    assetPacks += listOf("antigone", "ajax", "electra", "odyssey", "symposium", "gorgias", "agamemnon", "choephoroi", "eumenides", "clouds", "theogony", "truestory", "hermas", "newtestament", "trachiniae", "oedipustyrannus", "oedipuscoloneus", "philoctetes").map { ":packs:$it" }
+    assetPacks += listOf("antigone", "ajax", "electra", "odyssey", "symposium", "gorgias", "agamemnon", "choephoroi", "eumenides", "clouds", "theogony", "truestory", "hermas", "newtestament", "trachiniae", "oedipustyrannus", "oedipuscoloneus", "philoctetes", "lysias").map { ":packs:$it" }
     assetPacks += authorPacks.map { ":packs:$it" }
     packaging {
         resources {

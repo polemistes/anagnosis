@@ -651,7 +651,8 @@ fun ReaderScreen(
                             DropdownMenu(expanded = showBooks, onDismissRequest = { showBooks = false }) {
                                 for (b in data.books) {
                                     DropdownMenuItem(
-                                        text = { Text(b.title, fontWeight = if (b.number == currentBook.number) FontWeight.Bold else null) },
+                                        // a long title (a speech of Lysias) takes two lines at most, then an ellipsis
+                                        text = { Text(b.title, fontWeight = if (b.number == currentBook.number) FontWeight.Bold else null, maxLines = 2, overflow = TextOverflow.Ellipsis) },
                                         onClick = { showBooks = false; if (b.number != currentBook.number) goToBook(b) },
                                     )
                                 }
@@ -946,10 +947,20 @@ fun ReaderScreen(
                             },
                             english = if (translation == null) null else {
                                 {
-                                    TranslationPage(
-                                        pageSegments.getOrNull(index - offset) ?: emptyList(), styles, showAnchors, Modifier.fillMaxSize(), anchorLabel(data),
-                                        highlight = highlight?.takeIf { it.source == SearchSource.TRANSLATION },
-                                    )
+                                    // a book the translation leaves out (some speeches of Lysias):
+                                    // say so, rather than show an empty column
+                                    if (currentBook != null && bookSegments.isEmpty()) {
+                                        Text(
+                                            "This edition has no translation of ${currentBook.title}.",
+                                            style = styles.translation, color = MaterialTheme.colorScheme.secondary,
+                                            modifier = Modifier.padding(top = SPEAKER_TOP),
+                                        )
+                                    } else {
+                                        TranslationPage(
+                                            pageSegments.getOrNull(index - offset) ?: emptyList(), styles, showAnchors, Modifier.fillMaxSize(), anchorLabel(data),
+                                            highlight = highlight?.takeIf { it.source == SearchSource.TRANSLATION },
+                                        )
+                                    }
                                 }
                             },
                         )
@@ -976,7 +987,7 @@ fun ReaderScreen(
         val tree = remember(sentence, data) { repository.sentenceTree(data, sentence) }
         val label = remember(tree, data) { sentenceLabel(tree, data) }
         Box(Modifier.fillMaxSize()) {
-            SyntaxScreen(tree, label, family, onWord = { selectedTokenId = it }, onBack = { syntaxSentence = null }, automatic = data.automaticSyntax)
+            SyntaxScreen(tree, label, family, onWord = { selectedTokenId = it }, onBack = { syntaxSentence = null }, automatic = data.automaticSyntaxOfSentence(sentence))
         }
         PlatformBackHandler { syntaxSentence = null }
     }
@@ -1880,8 +1891,9 @@ private const val VERSE_GAP = "\u202F"
  */
 private fun verseMarks(data: WorkData, shown: Boolean): ((Lines) -> VerseMark?)? =
     if (data.sectioned && shown) { line ->
-        // the section's number where it begins; its later parts (1.7b) carry none
-        if (line.n_sub.isNotEmpty()) null else VerseMark(data.verseOf(line.n_int).toString(), chapter = false)
+        // the section's number where it begins; its later parts (1.7b) carry none, nor does a
+        // section 0 (the hypothesis printed before a speech of Lysias)
+        if (line.n_sub.isNotEmpty() || data.verseOf(line.n_int) == 0L) null else VerseMark(data.verseOf(line.n_int).toString(), chapter = false)
     } else if (!data.verses || !shown) null else { line ->
         when {
             line.n_sub.isNotEmpty() -> null

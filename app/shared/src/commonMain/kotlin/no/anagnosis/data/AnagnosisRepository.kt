@@ -134,6 +134,7 @@ class AnagnosisRepository(
             prose = q.selectMeta("layout").executeAsOneOrNull() == "prose",
             closedDashes = q.selectMeta("dashes").executeAsOneOrNull() == "closed",
             automaticSyntax = q.selectMeta("syntax").executeAsOneOrNull() == "automatic",
+            syntaxByBook = Book.parseSyntaxByBook(q.selectMeta("syntax_by_book").executeAsOneOrNull()),
             dictionaryOrder = q.selectMeta("dictionaries").executeAsOneOrNull()?.split(' ')?.filter { it.isNotBlank() } ?: emptyList(),
             pronunciation = defaultPronunciation(slug, work.author, q.selectMeta("pronunciation").executeAsOneOrNull()),
         )
@@ -166,7 +167,7 @@ class AnagnosisRepository(
             .map { Entry(it.lexicon_slug, it.lexicon_title, it.headword, it.homograph, it.html) }
         val short = q.selectShortDefinition(token.lemma_key).executeAsOneOrNull()?.definition
         val syntax = token.sentence?.let { Syntax.roleOf(sentenceTree(data, it), token) }
-            ?.let { if (data.automaticSyntax) "$it (automatic)" else it }
+            ?.let { if (data.automaticSyntaxAt(data.lineById[token.line_id]?.n_int ?: 0L)) "$it (automatic)" else it }
         val (lemma, homograph) = splitHomograph(token.lemma)
         return WordInfo(token.form, lemma, Morphology.describe(token.postag), short, glossary + rows, syntax, markedForm(token), homograph)
     }

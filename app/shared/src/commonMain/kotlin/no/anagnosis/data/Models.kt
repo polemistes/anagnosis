@@ -74,6 +74,11 @@ class WorkData(
     val closedDashes: Boolean = false,
     /** The syntax was made by a parser and not checked by hand (shown on the syntax page). */
     val automaticSyntax: Boolean = false,
+    /**
+     * The books whose syntax differs from [automaticSyntax] (meta `syntax_by_book`, Lysias):
+     * "manual" (made by hand), "none" (no trees), "automatic"; empty for every other text.
+     */
+    val syntaxByBook: Map<Int, String> = emptyMap(),
     /** The dictionaries the word sheet offers first, most fitting first (abbott-smith dodson ml lsj). */
     val dictionaryOrder: List<String> = emptyList(),
     /** The pronunciation the text is read in unless the reader chooses another. */
@@ -89,6 +94,22 @@ class WorkData(
 
     val tokenById: Map<Long, Tokens> by lazy { tokensByLine.values.flatten().associateBy { it.id } }
 
+    /** Whether the syntax of the line [nInt] was made by a parser: per book where the text says so ([syntaxByBook]). */
+    fun automaticSyntaxAt(nInt: Long): Boolean =
+        if (syntaxByBook.isEmpty()) automaticSyntax
+        else when (syntaxByBook[bookOf(nInt)]) {
+            null -> automaticSyntax
+            "automatic" -> true
+            else -> false  // "manual", "none"
+        }
+
+    /** Whether the syntax of a sentence (by its id) was made by a parser: as its first word's line. */
+    fun automaticSyntaxOfSentence(sentence: String): Boolean {
+        if (syntaxByBook.isEmpty()) return automaticSyntax
+        val token = tokensByLine.values.asSequence().flatten().firstOrNull { it.sentence == sentence } ?: return automaticSyntax
+        return automaticSyntaxAt(lineById[token.line_id]?.n_int ?: return automaticSyntax)
+    }
+
     /** Prose cited by book and section (Lucian's A True Story, 1.7): a line is a section, or a part
      * of one (1.7b); the section numbers stand in the text like the New Testament's verse numbers. */
     val sectioned: Boolean get() = prose && bookNumbered
@@ -100,7 +121,7 @@ class WorkData(
     val books: List<Book> by lazy {
         if (!byBook) emptyList() else lines.groupBy { bookOf(it.n_int) }.map { (b, ls) ->
             val label = sectionsByFirstLine[ls.first().id]?.firstOrNull()?.label ?: b.toString()
-            Book(b, label, ls.first().n_int, ls.last().n_int, named = verses)
+            Book(b, label, ls.first().n_int, ls.last().n_int, named = verses || Book.hasTitle(label))
         }
     }
 
@@ -160,11 +181,32 @@ class WorkData(
  * A [named] book (the New Testament's) is called by its name, an epic's by "Book" and its number.
  */
 class Book(val number: Int, val label: String, val firstN: Long, val lastN: Long, val named: Boolean = false) {
-    /** "Matthew" for a named book, else its number. */
+    /** "Matthew" for a named book, else its number ("12" for a Lysias speech, whose label is "12 · Κατὰ …"). */
     val name: String get() = if (named) label.substringBefore(" · ") else number.toString()
 
-    /** How the book is offered in the book menu: "Book 1 · Α", "Matthew · ΚΑΤΑ ΜΑΘΘΑΙΟΝ". */
+    /** How the book is offered in the book menu: "Book 1 · Α", "Matthew · ΚΑΤΑ ΜΑΘΘΑΙΟΝ", "12 · Κατὰ Ἐρατοσθένους …". */
     val title: String get() = if (named) label else "Book $label"
+
+    companion object {
+        /**
+         * Whether a book's label gives it a title after its number ("12 · Κατὰ Ἐρατοσθένους …", a
+         * speech of Lysias), not a numeral letter (an epic's "1 · Α", A True Story's "2 · Β"),
+         * which keeps "Book 1 · Α".
+         */
+        fun hasTitle(label: String): Boolean {
+            val parts = label.split(" · ", limit = 2)
+            if (parts.size < 2 || parts[0].toIntOrNull() == null) return false
+            val title = parts[1].trim()
+            return title.length > 2 || title.contains(' ')
+        }
+
+        /** The meta value `syntax_by_book` ("1=manual 12=none …") as book number to kind. */
+        fun parseSyntaxByBook(value: String?): Map<Int, String> =
+            value.orEmpty().split(' ').mapNotNull { part ->
+                val (b, kind) = part.split('=', limit = 2).takeIf { it.size == 2 } ?: return@mapNotNull null
+                b.toIntOrNull()?.let { it to kind.trim() }?.takeIf { it.second.isNotEmpty() }
+            }.toMap()
+    }
 }
 
 class TranslationData(val translation: Translations, val segments: List<Translation_segments>)
