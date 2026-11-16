@@ -455,7 +455,7 @@ MSS. σωματοφθορεῖν, corrupt ; best reading is **δωματοφθο
 ## 956
 ‘But since I am subdued, to hearken to thee in this.’ **ἀκούειν** consec. or epexegetic inf.
 
-[*After* 957 *Agamemnon’s sandals are untied by an attendant while the queen is speaking ; she then, probably yet speaking, escorts him slowly
+[*After* 957 *Agamemnon’s sandals are untied by an attendant while the queen is speaking ; she then, probably yet speaking, escorts him slowly*
 --- flags
 1 «Who [conf] → ‘Who
 2 either.” [conf] → either.’
@@ -493,6 +493,7 @@ MSS. σωματοφθορεῖν, corrupt ; best reading is **δωματοφθο
 --- notes
 The signature and page number at the foot (“D 49”) left out. The stage direction after 956 runs on to p-0140, kept as a paragraph under 956 where it is printed. ἁλουργές is a further note (lemma alone) under 946.
 
+rev: the italic stage note runs over to p-0140: its italics closed at the page's end ("slowly*"), as p-0140 opens them again ("+ *to the central door"); the merged paragraph had an unpaired asterisk (footnote-marks agent, 2026-11-17).
 === p-0140
 + *to the central door : after* 972 *he enters with his train, and she utters her short prayer*, 973, 4, *then follows him. Kassandra remains seated and silent in the chariot.*]
 
