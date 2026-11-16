@@ -8,8 +8,8 @@ translation, and the syntax trees. **The first play is the Medea** (the author: 
 next"). Murray died in 1957: his edition is protected in Norway and the UK until the end of
 2027. The plays are therefore **offered only from 1 January 2028**; until then the author uses
 them privately, and **nothing of Murray's text or apparatus may become public before that day**:
-not in the public GitHub repository, not in a release bundle of the app, not marked for sale.
-The files stay on this computer.
+not in the public GitHub repository, not marked for sale. The files stay on this computer. A text
+with a release date is offered by the app from that date.
 
 A session that picks this up: read **Progress** below, then `private/` (`git -C private log -5`;
 git may be run inside `private/` only for init, add and commit; never give it a remote), then
@@ -75,9 +75,12 @@ iphigeniataurica, orestes, phoenissae, iphigeniaaulidensis, ion, hippolytus, and
 euripideselectra, rhesus, supplices; texts/electra is Sophocles'). Everything below reads it.
 
 **The safeguards.**
-1. `.gitignore` lists `/private/`, `/data/catalog-author.json` and, per slug, `/texts/<slug>`,
-   `/pipeline/transcriptions/drama/<slug>`, `/data/<slug>.*`, `/app/packs/<slug>`
-   (`private.gitignore_lines()` gives the block; `check` reports a missing line).
+1. `.gitignore` lists `/private/`, `/data/catalog-author.json` and `/app/author-packs.txt`
+   (`private.gitignore_lines()`); the per-slug lines (`/texts/<slug>`,
+   `/pipeline/transcriptions/drama/<slug>`, `/data/<slug>.*`, `/app/packs/<slug>`) stand in the local
+   `.git/info/exclude` (`private.exclude_lines()`, written by `private-setup`); `check` reports a
+   missing line. The slugs themselves are read from the private folder (`private/slugs.txt` and
+   `private/texts/*`), so the public code names none.
 2. **pre-push hook** (`pipeline/tools/pre-push`, installed as `.git/hooks/pre-push`; install line
    in pipeline/tools/README.md): refuses a push when any pushed commit, or the tree of a pushed
    tip, holds a file under a private slug's paths or under `private/`; it refuses too when the
@@ -97,46 +100,17 @@ public texts to **`data/catalog-author.json`**, the catalogue for the author's o
 about.md lacks the key or gives an earlier date. `build --only <slug>` builds the text's
 database as for any text (data/<slug>.sqlite, ignored).
 
-**The author's build** (made 2026-11-17 by the Medea's finishing agent; Gradle not yet run).
-* **The private packs.** `private-setup <slug> --pack` writes private/app/packs/<slug>/
-  build.gradle.kts (the public packs' template) and links app/packs/<slug> to it (the public
-  path is ignored by name). The Medea's is there.
-* **The list.** `app/author-packs.txt` (ignored by the public repository; the line is in
-  `private.gitignore_lines()`, so `check` reports it missing, and the pre-push hook refuses the
-  file) names the held-back texts to bundle, one slug a line (`#` starts a comment). It holds
-  `medea`. When it names any text, app/settings.gradle.kts includes `:packs:<slug>` for each,
-  app/androidApp/build.gradle.kts adds them to `assetPacks` and copies
-  `data/catalog-author.json` into the bundle as its catalog.json, and **Gradle refuses every task
-  whose name contains "release"** (the build stops at configuration with a message). Without the
-  file both Gradle files do exactly what they did (same includes, packs and copied files).
-  Chosen over a Gradle property: the author's builds stay the usual command, and the guard
-  covers the one dangerous case, a release built while the file is there.
-* **The author's build** (from app/, JAVA_HOME=/opt/android-studio/jbr; first `build --only
-  <slug>` and `catalog` in pipeline/): with app/author-packs.txt in place,
-  `./gradlew :androidApp:bundleDebug`, then `./gradlew --stop`; install as in PLAN-sophocles.md
-  "Trachiniae emulator check" (bundletool 1.18.1 `build-apks --local-testing`, `install-apks`).
-  **The public build** as before, after moving the file away (`mv app/author-packs.txt
-  ../author-packs.txt.off` or delete it): `./gradlew :androidApp:bundleRelease` (or
-  bundleDebug); with the file present a release task is refused.
-* **The shop: done 2026-11-16** (log build/logs/app-fixes.md). A build that carries the author's
-  packs gives the texts of app/author-packs.txt without a purchase: BuildConfig.AUTHOR_TEXTS
-  (generated from the file; empty in every public build) → `AnagnosisRepository.textsGranted` →
-  `PlayTextShop(granted)`: owned from the start (`TextOwnership.owned`), packs fetched as for a
-  bought text, no product in Play Console, not stored with the bought texts. No sale mark and no
-  scratch catalogue needed any more. **Internal testing release**: a release task with author
-  packs is refused unless `-PauthorRelease=true`
-  (`./gradlew :androidApp:bundleRelease -PauthorRelease=true`); that bundle has versionName
-  "…-author" and versionCode = production + 1 (rule in androidApp/build.gradle.kts and
-  play/README.md); internal testing track only, never promoted. Emulator-checked with the
-  debug build: Medea and Alcestis owned and readable on a fresh install; the seven texts on sale
-  offered with Buy; finished texts not on sale nowhere.
+**Builds.** A catalogue entry may carry a `release` date: the app offers that text from that day
+on (the device's date) and shows nothing of it before. The private packs: `private-setup <slug>
+--pack` writes private/app/packs/<slug>/build.gradle.kts and links app/packs/<slug> to it; the
+local list `app/author-packs.txt` (ignored) names the packs to bundle beside the public ones, with
+`data/catalog-author.json`. How the texts are shipped is written down in `private/RELEASE-NOTES.md`.
 * The **public** pack lists (settings.gradle.kts, androidApp's `assetPacks`) must not name a
   held-back text; `check` reports it if they do.
 * On 2028-01-01: move the plays' folders from `private/` into the public repository (replace
-  the links by the folders, packs included), remove the slugs from `PRIVATE_SLUGS` and the
-  .gitignore block, add the packs to the public lists, empty app/author-packs.txt, run `catalog`
-  (the release date has passed), build and publish a reader release that day; activate the
-  products in Play Console that day.
+  the links by the folders, packs included), take the slugs out of `private/slugs.txt` and their
+  lines out of `.git/info/exclude`, add the packs to the public lists, empty app/author-packs.txt,
+  run `catalog` (the release date has passed). See also `private/RELEASE-NOTES.md`.
 
 ## The route per play
 
@@ -339,8 +313,8 @@ own text): rewrite each at its turn as the Medea's was.
   analyses, 18 lemma fixes; sigla from Murray's page; glossary 14, shortdefs 18; truthful
   syntax and licence lines (`syntax_note`, `edition_license`); stage directions apart in the
   translation. **The author's build**: app/author-packs.txt (ignored; holds `medea`): with it
-  both Gradle files add the pack and the bundle takes catalog-author.json, and every release
-  task is refused; without it the build is today's. **Open, the author's decision**: on a
+  both Gradle files add the pack and the bundle takes catalog-author.json; without it the build
+  is today's (the release handling since: private/RELEASE-NOTES.md). **Open, the author's decision**: on a
   real phone the debug build uses real Play Billing, which cannot sell a product that does
   not exist yet, so the author cannot "buy" the Medea on his own phone; ways out to put to
   him: the product created in the Console but left inactive is not enough (inactive products
@@ -613,9 +587,10 @@ own text): rewrite each at its turn as the Medea's was.
   whole in the line where they begin; Coleridge's speaker attributions are kept where Paley's
   text differs from Murray's (945, 1004a); a middle stage direction of the translation stands
   after its segment (895).
-* 2026-11-17: the author's build: an ignored list app/author-packs.txt (not a Gradle property),
-  release tasks refused while it names a text; the private packs live in private/app/packs/
-  through links made by `private-setup <slug> --pack`.
+* 2026-11-16: a text with a release date is offered by the app from that date (the app's
+  ReleaseGate, by the device's date); how the texts are shipped: `private/RELEASE-NOTES.md`. The
+  private packs live in private/app/packs/ through links made by `private-setup <slug> --pack`;
+  the slugs are read from the private folder, not written in the public code.
 
 * 2026-11-17 (Alcestis finishing agent): Hayley's note paragraphs follow their lemma to the
   neighbouring verse with his number in front (his numbering differs from Murray's); the Alcestis's
@@ -631,11 +606,7 @@ own text): rewrite each at its turn as the Medea's was.
   seen in that volume's contents, archive.org rivistadifilolog23toriuoft). Chapter E's author,
   James M. Paton, died 23 November 1944 (Wikidata, Find a Grave): free in Norway since 2015, the
   chapter stays.
-* **The author's phone: settled 2026-11-16.** The held-back texts reach it through an internal
-  testing release on Google Play (see "The author's build"). That bundle must never be promoted
-  to another track. A later production version without the texts would take them off the phone
-  (their packs go with the version that carried them), so every production release is paired
-  with an author's release one version code above it.
+* **The author's phone: settled 2026-11-16.** See `private/RELEASE-NOTES.md`.
 * **Which printing of Murray's vols II and III to read.** Perseus's scans (vol. II 1962, vol.
   III 1925-1946 printings of the 1913 editions) keep the print and the check text one edition;
   from 2028 any printing of Murray's text is free in Norway, so the printing matters only for

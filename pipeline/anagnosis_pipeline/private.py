@@ -2,24 +2,27 @@
 
 Gilbert Murray's Oxford text of Euripides (Murray died 1957) is protected in Norway and the UK
 until the end of 2027. The Euripides plays are made from it now and offered from 1 January 2028;
-until then nothing of Murray's text or apparatus may reach the public repository, a release
-bundle of the app, or the shop. Their files live in `private/` at the repository root (its own
+until then nothing of Murray's text or apparatus may reach the public repository or be marked for
+sale; the app offers a text with a release date only from that date. Their files live in `private/` at the repository root (its own
 git repository, ignored by the public one); the pipeline finds them at its usual paths through
 symbolic links:
 
     texts/<slug>                          -> ../private/texts/<slug>
     pipeline/transcriptions/drama/<slug>  -> ../../../private/transcriptions/drama/<slug>
 
-`PRIVATE_SLUGS` is the one list of these texts; the public .gitignore, the pre-push hook
-(pipeline/tools/pre-push), `check` and `catalog` all read it from here. This module uses the
-standard library only, so that the hook can load it with any Python 3.
+Which texts these are is not written in the public repository: `private_slugs()` reads it from
+the private folder itself (the slugs in private/slugs.txt, plus every folder in private/texts/),
+and `PRIVATE_SLUGS` holds that list as found at import. The pre-push hook (pipeline/tools/pre-push),
+`check` and `catalog` all read it from here. Their per-text ignore lines stand in the local
+.git/info/exclude, not in the tracked .gitignore. This module uses the standard library only, so
+that the hook can load it with any Python 3.
 
     python -m anagnosis_pipeline private-setup <slug>          the folders and links for a slug
     python -m anagnosis_pipeline private-setup <slug> --pack   also its asset pack (app/packs/<slug>
                                                                -> ../../private/app/packs/<slug>)
 
-The author's own build of the reader bundles the held-back texts named in app/author-packs.txt
-(ignored; see AUTHOR_PACKS) with data/catalog-author.json; the public pack lists never name them.
+A local list, app/author-packs.txt (ignored; see AUTHOR_PACKS), names asset packs to bundle beside
+the public ones, with data/catalog-author.json; the public pack lists never name them.
 """
 from __future__ import annotations
 
@@ -33,19 +36,34 @@ from typing import Iterable
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 
-# the nineteen plays of Euripides in Murray's Oxford text, in the order of the ranking in
-# pipeline/research/euripides-plays.md (texts/electra is Sophocles': Euripides' is euripideselectra)
-PRIVATE_SLUGS: tuple[str, ...] = (
-    "alcestis", "medea", "heraclidae", "helen", "bacchae", "hecuba", "troades", "cyclops", "heracles",
-    "iphigeniataurica", "orestes", "phoenissae", "iphigeniaaulidensis", "ion", "hippolytus", "andromache",
-    "euripideselectra", "rhesus", "supplices",
-)
+PRIVATE = "private"                        # the private folder, at the repository root
+SLUG_LIST = "slugs.txt"                    # inside private/: the private slugs, one a line
+
+
+def private_slugs(root: Path = ROOT) -> tuple[str, ...]:
+    """The private texts' slugs, as the private folder holds them: the lines of private/slugs.txt
+    (`#` starts a comment) and the folders of private/texts/. Empty without a private folder (a
+    public checkout)."""
+    priv = root / PRIVATE
+    out: set[str] = set()
+    lst = priv / SLUG_LIST
+    if lst.is_file():
+        for raw in lst.read_text(encoding="utf-8").splitlines():
+            line = raw.split("#", 1)[0].strip()
+            if line:
+                out.add(line)
+    texts = priv / "texts"
+    if texts.is_dir():
+        out |= {d.name for d in texts.iterdir() if d.is_dir()}
+    return tuple(sorted(out))
+
+
+PRIVATE_SLUGS: tuple[str, ...] = private_slugs()
 
 # the earliest day any of them may be offered: Murray's text is free in Norway and the UK from then
 PRIVATE_RELEASE = "2028-01-01"
 
-PRIVATE = "private"                        # the private folder, at the repository root
-AUTHOR_CATALOG = "data/catalog-author.json"  # every text, held-back ones too: for the author's own builds
+AUTHOR_CATALOG = "data/catalog-author.json"  # every text, with their release dates: the local catalogue
 
 # where the public repository's paths point, per slug: (public path, path inside private/)
 LINKS = (("texts/{slug}", "texts/{slug}"),
@@ -54,10 +72,9 @@ LINKS = (("texts/{slug}", "texts/{slug}"),
 # the public files that list the reader's asset packs
 PACK_LISTS = ("app/settings.gradle.kts", "app/androidApp/build.gradle.kts")
 
-# the author's own builds of the reader: this file (ignored by the public repository) names the
-# held-back texts to bundle as asset packs, one slug a line; when it lists any, both Gradle files
-# above include those packs and the reader bundles data/catalog-author.json as its catalogue, and
-# Gradle refuses every release task (pipeline/PLAN-euripides.md, "The author's build")
+# a local list (ignored by the public repository) of further asset packs to bundle, one slug a
+# line; when it lists any, both Gradle files above include those packs and the reader bundles
+# data/catalog-author.json as its catalogue (with each text's release date)
 AUTHOR_PACKS = "app/author-packs.txt"
 # a private text's asset pack: app/packs/<slug> is a link to this folder inside private/
 PACK_LINK = ("app/packs/{slug}", "app/packs/{slug}")
@@ -68,17 +85,43 @@ def public_patterns(slug: str) -> list[str]:
     return [f"/texts/{slug}", f"/pipeline/transcriptions/drama/{slug}", f"/data/{slug}.*", f"/app/packs/{slug}"]
 
 
-def gitignore_lines(slugs: Iterable[str] = PRIVATE_SLUGS) -> list[str]:
-    """Every line the public .gitignore must hold for the private texts."""
-    out = [f"/{PRIVATE}/", f"/{AUTHOR_CATALOG}", f"/{AUTHOR_PACKS}"]
-    for slug in slugs:
+def gitignore_lines() -> list[str]:
+    """The lines the tracked .gitignore must hold for the private texts (none names a text)."""
+    return [f"/{PRIVATE}/", f"/{AUTHOR_CATALOG}", f"/{AUTHOR_PACKS}"]
+
+
+def exclude_lines(slugs: Iterable[str] | None = None) -> list[str]:
+    """The per-text ignore lines, kept in the local .git/info/exclude (never in a tracked file)."""
+    out: list[str] = []
+    for slug in (PRIVATE_SLUGS if slugs is None else slugs):
         out += public_patterns(slug)
     return out
 
 
-def private_slug_of(path: str, slugs: Iterable[str] = PRIVATE_SLUGS) -> str | None:
+LOCAL_EXCLUDE = ".git/info/exclude"
+
+
+def write_exclude(root: Path, slugs: Iterable[str]) -> list[str]:
+    """Adds the missing per-text lines to the repository's local .git/info/exclude; the lines added."""
+    git = root / ".git"
+    if not git.is_dir():
+        return []
+    f = root / LOCAL_EXCLUDE
+    f.parent.mkdir(parents=True, exist_ok=True)
+    have = f.read_text(encoding="utf-8").splitlines() if f.exists() else []
+    add = [l for l in exclude_lines(slugs) if l not in have]
+    if add:
+        with f.open("a", encoding="utf-8") as out:
+            if have and have[-1].strip():
+                out.write("\n")
+            out.write("\n".join(["# private texts (pipeline/anagnosis_pipeline/private.py)"] + add) + "\n")
+    return add
+
+
+def private_slug_of(path: str, slugs: Iterable[str] | None = None) -> str | None:
     """The private slug a repository-relative path belongs to ("private" for the private folder
     itself, "catalog" for the author's catalogue), or None for a public path."""
+    slugs = PRIVATE_SLUGS if slugs is None else slugs
     p = path.strip().lstrip("/")
     if p == PRIVATE or p.startswith(PRIVATE + "/"):
         return PRIVATE
@@ -95,9 +138,9 @@ def private_slug_of(path: str, slugs: Iterable[str] = PRIVATE_SLUGS) -> str | No
     return None
 
 
-def find_private(paths: Iterable[str], slugs: Iterable[str] = PRIVATE_SLUGS) -> list[str]:
+def find_private(paths: Iterable[str], slugs: Iterable[str] | None = None) -> list[str]:
     """The paths among `paths` that lie under a private slug's paths or under private/."""
-    slugs = tuple(slugs)
+    slugs = tuple(PRIVATE_SLUGS if slugs is None else slugs)
     return sorted({p for p in paths if p and private_slug_of(p, slugs)})
 
 
@@ -145,11 +188,11 @@ def parse_date(value: str) -> _dt.date | None:
         return None
 
 
-def release_of(slug: str, release: str | None) -> tuple[_dt.date | None, str | None]:
+def release_of(slug: str, release: str | None, slugs: Iterable[str] | None = None) -> tuple[_dt.date | None, str | None]:
     """The day a text may be offered, and a complaint where the about.md's `release` is wrong.
     None = no release date (offered now). A private slug is never offered before PRIVATE_RELEASE,
     whatever its about.md says; a release value that is not a date holds the text back for good."""
-    floor = parse_date(PRIVATE_RELEASE) if slug in PRIVATE_SLUGS else None
+    floor = parse_date(PRIVATE_RELEASE) if slug in (PRIVATE_SLUGS if slugs is None else tuple(slugs)) else None
     if release is None or not release.strip():
         if floor:
             return floor, f"{slug}: a private text without `# release:` in about.md (held back until {PRIVATE_RELEASE})"
@@ -162,10 +205,10 @@ def release_of(slug: str, release: str | None) -> tuple[_dt.date | None, str | N
     return day, None
 
 
-def held_back(slug: str, release: str | None, today: _dt.date | None = None) -> bool:
+def held_back(slug: str, release: str | None, today: _dt.date | None = None, slugs: Iterable[str] | None = None) -> bool:
     """True while a text's release date lies in the future: `catalog` leaves it out of the public
     catalogue."""
-    day, _ = release_of(slug, release)
+    day, _ = release_of(slug, release, slugs)
     return day is not None and day > (today or _dt.date.today())
 
 
@@ -178,18 +221,19 @@ def check_private(root: Path = ROOT, tracked: list[str] | None = None, today: _d
     errors: list[str] = []
     notes: list[str] = []
     today = today or _dt.date.today()
+    slugs = private_slugs(root)
     if tracked is None:
         try:
             tracked = tracked_files(root)
         except (RuntimeError, OSError) as e:
             errors.append(f"cannot list the files git tracks ({e}): the private texts were not checked")
             tracked = []
-    for p in find_private(tracked):
+    for p in find_private(tracked, slugs):
         errors.append(f"{p}: a private text's file is tracked in the public repository (git rm --cached it)")
     for rel in PACK_LISTS:
         f = root / rel
         if f.exists():
-            for name in sorted(set(pack_names(f.read_text(encoding="utf-8"))) & set(PRIVATE_SLUGS)):
+            for name in sorted(set(pack_names(f.read_text(encoding="utf-8"))) & set(slugs)):
                 errors.append(f"{rel}: lists the private text {name} as an asset pack")
     gi = root / ".gitignore"
     have = {l.strip() for l in gi.read_text(encoding="utf-8").splitlines()} if gi.exists() else set()
@@ -197,6 +241,17 @@ def check_private(root: Path = ROOT, tracked: list[str] | None = None, today: _d
     if missing:
         errors.append(f".gitignore lacks {len(missing)} line(s) for the private texts: {', '.join(missing[:6])}"
                       + (" …" if len(missing) > 6 else ""))
+    named = [l for l in have if any(l in public_patterns(s) for s in slugs)]
+    if named:
+        errors.append(f".gitignore names private texts ({len(named)} line(s)); they belong in {LOCAL_EXCLUDE}"
+                      " (run private-setup <slug> again)")
+    if (root / ".git").is_dir():
+        ex = root / LOCAL_EXCLUDE
+        have_ex = {l.strip() for l in ex.read_text(encoding="utf-8").splitlines()} if ex.exists() else set()
+        lack = [l for l in exclude_lines(slugs) if l not in have_ex and l not in have]
+        if lack:
+            errors.append(f"{LOCAL_EXCLUDE} lacks {len(lack)} line(s) for the private texts: {', '.join(lack[:4])}"
+                          + (" …" if len(lack) > 4 else "") + " (run private-setup <slug> again)")
     texts = root / "texts"
     public_catalog: set[str] = set()
     cat = root / "data" / "catalog.json"
@@ -209,13 +264,13 @@ def check_private(root: Path = ROOT, tracked: list[str] | None = None, today: _d
         for d in sorted(p for p in texts.iterdir() if p.is_dir()):
             h = about_headers(d)
             slug = d.name
-            if slug in PRIVATE_SLUGS and not (d.is_symlink() and (root / PRIVATE).resolve() in d.resolve().parents):
+            if slug in slugs and not (d.is_symlink() and (root / PRIVATE).resolve() in d.resolve().parents):
                 errors.append(f"texts/{slug}: a private text outside private/ (run private-setup {slug})")
-            if slug in PRIVATE_SLUGS and h.get("google_play", "").lower() == "yes":
+            if slug in slugs and h.get("google_play", "").lower() == "yes":
                 errors.append(f"texts/{slug}/about.md: a private text marked `google_play: yes`")
-            if not h and slug not in PRIVATE_SLUGS:
+            if not h and slug not in slugs:
                 continue
-            day, complaint = release_of(slug, h.get("release"))
+            day, complaint = release_of(slug, h.get("release"), slugs)
             if complaint and (d / "grc.txt").exists():
                 errors.append(complaint)
             if day is not None and day > today:
@@ -223,15 +278,15 @@ def check_private(root: Path = ROOT, tracked: list[str] | None = None, today: _d
                              " (in the author's catalogue only)")
                 if slug in public_catalog:
                     errors.append(f"data/catalog.json names {slug}, which is held back: run `catalog`")
-    for slug in sorted(public_catalog & set(PRIVATE_SLUGS)):
+    for slug in sorted(public_catalog & set(slugs)):
         if not (texts / slug).exists():
             errors.append(f"data/catalog.json names the private text {slug}")
     return errors, notes
 
 
-PACK_TEMPLATE = """// The {slug} text as an on-demand asset pack; see packs/antigone. A text held back until its
-// release date (pipeline/PLAN-euripides.md): this folder lives in private/ (app/packs/{slug} is a
-// link to it) and the pack is built only by the author's own builds (app/author-packs.txt).
+PACK_TEMPLATE = """// The {slug} text as an on-demand asset pack; see packs/antigone. A private text with a release
+// date: this folder lives in private/ (app/packs/{slug} is a link to it) and the pack is bundled
+// by the builds made with the local list app/author-packs.txt.
 plugins {{
     alias(libs.plugins.assetPack)
 }}
@@ -260,8 +315,8 @@ def setup(slug: str, root: Path = ROOT, git: bool = True, pack: bool = False) ->
     file there stops the set-up. With `pack`, also the text's asset pack for the author's own
     builds: private/app/packs/<slug>/build.gradle.kts (as the public packs') and the link
     app/packs/<slug> to it."""
-    if slug not in PRIVATE_SLUGS:
-        raise SystemExit(f"{slug}: not a private text (anagnosis_pipeline/private.py, PRIVATE_SLUGS)")
+    if slug not in private_slugs(root):
+        raise SystemExit(f"{slug}: not a private text (add it to {PRIVATE}/{SLUG_LIST} first)")
     said: list[str] = []
     priv = root / PRIVATE
     priv.mkdir(exist_ok=True)
@@ -316,18 +371,21 @@ def setup(slug: str, root: Path = ROOT, git: bool = True, pack: bool = False) ->
         link.parent.mkdir(parents=True, exist_ok=True)
         link.symlink_to(rel)
         said.append(f"{link.relative_to(root)} -> {rel}")
+    for line in write_exclude(root, [slug]):
+        said.append(f"{LOCAL_EXCLUDE}: {line}")
     return said
 
 
 ZERO = "0" * 40
 
 
-def pre_push(lines: Iterable[str], root: Path = ROOT) -> list[str]:
+def pre_push(lines: Iterable[str], root: Path = ROOT, slugs: Iterable[str] | None = None) -> list[str]:
     """The pre-push hook's test: the paths under a private slug's paths or under private/ that
     the push would carry, in any commit pushed or in the tree of a pushed tip. `lines` are the
     hook's standard input (<local ref> <local sha> <remote ref> <remote sha>). Any git error
     counts as a problem: the hook refuses rather than lets a private file through."""
     problems: list[str] = []
+    slugs = tuple(private_slugs(root) if slugs is None else slugs)
     for raw in lines:
         parts = raw.split()
         if len(parts) != 4:
@@ -346,6 +404,6 @@ def pre_push(lines: Iterable[str], root: Path = ROOT) -> list[str]:
         except RuntimeError as e:
             problems.append(f"{local_ref}: {e}")
             continue
-        for p in find_private(paths):
+        for p in find_private(paths, slugs):
             problems.append(f"{local_ref} -> {remote_ref}: {p}")
     return problems

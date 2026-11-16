@@ -392,6 +392,11 @@ def write_catalog(catalog: list[dict], out_dir: Path, today: "datetime.date | No
             entry["version"] = version.read_text(encoding="utf-8").strip()
     public = [e for e in catalog if not held_back(e["slug"], e.get("release"), today)]
     back = [e for e in catalog if e not in public]
+    # the reader shows a text only from its release date (ReleaseGate in the app): the entry
+    # carries the day that holds it back, also where about.md lacks it or gives an earlier one
+    for e in back:
+        day = release_of(e["slug"], e.get("release"))[0]
+        e["release"] = "9999-12-31" if day is None or day.year == 9999 else day.isoformat()
     (out_dir / "catalog.json").write_text(json.dumps(public, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     (out_dir / AUTHOR_CATALOG_NAME).write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     # each text's own entry, for the app that sells it to hand to the reader

@@ -182,6 +182,8 @@ private const val NOTES_DB = "notes.sqlite"
 
 actual fun nowMillis(): Long = System.currentTimeMillis()
 
+actual fun todayIso(): String = java.time.LocalDate.now().toString()
+
 actual fun inflate(data: ByteArray): String {
     val inflater = Inflater()
     inflater.setInput(data)

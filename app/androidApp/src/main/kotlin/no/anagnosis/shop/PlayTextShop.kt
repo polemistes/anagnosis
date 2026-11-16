@@ -30,9 +30,9 @@ class PlayTextShop(
     private val driverFactory: DriverFactory,
     onSale: List<OnSale>,
     /**
-     * The texts this build gives without a purchase: in the author's own build the held-back
-     * texts it carries (BuildConfig.AUTHOR_TEXTS), empty in every public build. They are owned
-     * from the start, never bought, and their packs are fetched like a bought text's.
+     * The texts this build gives without a purchase (BuildConfig.GRANTED_TEXTS; empty unless the
+     * build was asked for them on purpose). They are owned from the start, never bought, and
+     * their packs are fetched like a bought text's.
      */
     granted: List<OnSale> = emptyList(),
 ) : TextShop {

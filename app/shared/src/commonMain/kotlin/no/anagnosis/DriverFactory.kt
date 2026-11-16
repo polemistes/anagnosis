@@ -30,5 +30,8 @@ expect class DriverFactory {
 /** The current time in epoch milliseconds. */
 expect fun nowMillis(): Long
 
+/** The device's local date as YYYY-MM-DD (for the release dates of texts, [no.anagnosis.data.ReleaseGate]). */
+expect fun todayIso(): String
+
 /** Decompresses zlib data to a UTF-8 string (the shared lexicon stores entries this way). */
 expect fun inflate(data: ByteArray): String

@@ -26,10 +26,11 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         super.onCreate(savedInstanceState)
         val driverFactory = DriverFactory(applicationContext)
-        val repository = AnagnosisRepository(driverFactory)
-        // the author's own build gives the held-back texts it carries without a purchase
-        val granted = repository.textsGranted(BuildConfig.AUTHOR_TEXTS.split(',').map { it.trim() }.filter { it.isNotEmpty() })
-        shop = PlayTextShop(this, driverFactory, repository.textsOnSale(), granted)
+        // texts this build gives without a purchase (BuildConfig.GRANTED_TEXTS, empty unless the
+        // build was asked for them on purpose; see androidApp/build.gradle.kts)
+        val grantedSlugs = BuildConfig.GRANTED_TEXTS.split(',').map { it.trim() }.filter { it.isNotEmpty() }.toSet()
+        val repository = AnagnosisRepository(driverFactory, granted = grantedSlugs)
+        shop = PlayTextShop(this, driverFactory, repository.textsOnSale(), repository.textsGranted(grantedSlugs))
         val settingsStore = SettingsStore(applicationContext)
         val version = packageManager.getPackageInfo(packageName, 0).versionName ?: "?"
         if (savedInstanceState == null) openText.value = intent?.getStringExtra(EXTRA_OPEN_TEXT)

@@ -43,6 +43,8 @@ class CatalogEntry(
     val syntaxLicense: String = "",
     /** The version of the text's database in this build, for knowing when a download is out of date. */
     val version: String = "",
+    /** The day from which the text is offered (YYYY-MM-DD), or empty: see [ReleaseGate]. */
+    val release: String = "",
 )
 
 /** Everything needed to display one work, loaded once. */

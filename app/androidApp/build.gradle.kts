@@ -6,12 +6,16 @@ plugins {
     alias(libs.plugins.composeCompiler)
 }
 
-// The author's own build (see settings.gradle.kts): the held-back texts named in
-// app/author-packs.txt as asset packs, and data/catalog-author.json as the catalogue. Without the
-// file the build is the public one, unchanged.
+// The local list app/author-packs.txt (see settings.gradle.kts): its texts as asset packs, and
+// data/catalog-author.json as the catalogue. Without the file the build is the public one, unchanged.
 val authorPacks = rootProject.file("author-packs.txt").takeIf { it.isFile }?.readLines()
     ?.map { it.substringBefore('#').trim() }?.filter { it.isNotEmpty() }.orEmpty()
-/** The public release's version; the author's build sits one above it (see versionCode below). */
+// The texts of that list given without a purchase and shown whatever their release date: only
+// when asked for on purpose, -PauthorRelease=true (a release for the internal testing track) or
+// -PauthorGrant=true (a debug build). Otherwise the build is the normal one.
+val authorGrant = authorPacks.isNotEmpty() &&
+    (providers.gradleProperty("authorRelease").orNull == "true" || providers.gradleProperty("authorGrant").orNull == "true")
+/** The public release's version; a granting build sits one above it (see versionCode below). */
 val productionVersionCode = 19
 val productionVersionName = "0.7.0"
 
@@ -32,17 +36,15 @@ android {
         applicationId = "no.anagnosis.reader"
         minSdk = libs.versions.android.minSdk.get().toInt()
         targetSdk = libs.versions.android.targetSdk.get().toInt()
-        // Version rule (play/README.md): productionVersionCode is the public release's. A build
-        // that carries the author's packs (app/author-packs.txt; released only with
-        // -PauthorRelease=true, to the internal testing track) takes productionVersionCode + 1 and
-        // the versionName suffix "-author": a tester's phone installs the highest code it may have,
-        // so the author's bundle must stand above the production one; the next production release
-        // then takes the code after the author's.
-        versionCode = if (authorPacks.isEmpty()) productionVersionCode else productionVersionCode + 1
-        versionName = if (authorPacks.isEmpty()) productionVersionName else "$productionVersionName-author"
-        // The held-back texts this build gives its user without a purchase (comma-separated
-        // slugs): empty in every public build
-        buildConfigField("String", "AUTHOR_TEXTS", "\"${authorPacks.joinToString(",")}\"")
+        // Version rule: productionVersionCode is the public release's. A granting
+        // build (authorGrant above; released with -PauthorRelease=true to the internal testing
+        // track only) takes productionVersionCode + 1 and the versionName suffix "-author": a
+        // tester's phone installs the highest code it may have, so that bundle must stand above
+        // the production one; the next production release then takes the code after it.
+        versionCode = if (authorGrant) productionVersionCode + 1 else productionVersionCode
+        versionName = if (authorGrant) "$productionVersionName-author" else productionVersionName
+        // The texts this build gives without a purchase (comma-separated slugs): empty unless granting
+        buildConfigField("String", "GRANTED_TEXTS", "\"${if (authorGrant) authorPacks.joinToString(",") else ""}\"")
     }
     buildFeatures {
         buildConfig = true
@@ -96,7 +98,7 @@ kotlin {
 val copyBundle by tasks.registering(Sync::class) {
     from(rootProject.file("../data")) {
         include("lexicon.sqlite", "lexicon.sqlite.version", if (authorPacks.isEmpty()) "catalog.json" else "catalog-author.json")
-        // the author's build: every text's catalogue, under the name the app reads
+        // with the local list: the local catalogue, under the name the app reads
         rename("catalog-author\\.json", "catalog.json")
     }
     into(layout.projectDirectory.dir("src/main/assets/data"))

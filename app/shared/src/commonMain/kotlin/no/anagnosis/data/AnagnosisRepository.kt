@@ -9,8 +9,19 @@ import no.anagnosis.lexdb.LexiconDatabase
 import no.anagnosis.notesdb.NotesDatabase
 import no.anagnosis.ui.plainText
 import no.anagnosis.nowMillis
+import no.anagnosis.todayIso
 
-class AnagnosisRepository(private val driverFactory: DriverFactory) {
+/**
+ * @param today the device's local date (YYYY-MM-DD), asked each time: a text with a release date
+ *   exists for the user only from that day ([ReleaseGate])
+ * @param granted the texts this build gives without a purchase (the author's own build; empty
+ *   in every other build): shown whatever their release date
+ */
+class AnagnosisRepository(
+    private val driverFactory: DriverFactory,
+    private val today: () -> String = ::todayIso,
+    private val granted: Set<String> = emptySet(),
+) {
     private val lexicon by lazy { LexiconDatabase(driverFactory.createDriver("lexicon")) }
     private val textDbs = HashMap<String, AnagnosisDatabase>()
     private val notesDb by lazy { NotesDatabase(driverFactory.createNotesDriver()) }
@@ -26,23 +37,34 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
 
     /** The texts this app knows about, installed ones marked. */
     fun catalog(): List<CatalogEntry> {
-        val installed = driverFactory.installedTexts(ownedTexts).toSet()
-        val json = driverFactory.readCatalog()
-        val entries = if (json != null) parseCatalog(json) else emptyList()
-        val listed = entries.map { it.slug }.toSet()
+        val all = catalogEntries()
+        val day = today()
+        val hidden = ReleaseGate.hidden(all, day, granted)
+        val installed = driverFactory.installedTexts(ownedTexts).toSet() - hidden
+        val entries = all.filter { it.slug !in hidden }
+        val listed = all.map { it.slug }.toSet()
         // installed texts missing from the catalog (e.g. a downloaded text) still appear
         val extra = installed.filter { it !in listed }.map { slug ->
             val w = textDb(slug).anagnosisQueries.selectWorkBySlug(slug).executeAsOneOrNull()
             CatalogEntry(slug, w?.title ?: slug, w?.author ?: "", w?.title ?: slug, w?.author ?: "", "", w?.edition ?: "", true)
         }
-        return entries.map { it.copy(installed = it.slug in installed) }.distinctBy { it.slug } + extra
+        return entries.map { it.copy(installed = it.slug in installed, offered = ReleaseGate.offered(it, day)) } + extra
     }
 
-    /** The texts on sale in the reader: those marked so, with a product id and a built database. */
-    fun textsOnSale(): List<OnSale> =
+    /** The catalogue's entries, once each. */
+    private fun catalogEntries(): List<CatalogEntry> =
         driverFactory.readCatalog()?.let(::parseCatalog).orEmpty().distinctBy { it.slug }
-            .filter { it.onGooglePlay && it.productId.isNotEmpty() && it.version.isNotEmpty() }
+
+    /**
+     * The texts on sale in the reader: those offered today ([ReleaseGate.offered]: marked for
+     * sale, or past their release date), with a product id and a built database.
+     */
+    fun textsOnSale(): List<OnSale> {
+        val day = today()
+        return catalogEntries()
+            .filter { ReleaseGate.offered(it, day) && it.productId.isNotEmpty() && it.version.isNotEmpty() }
             .map { OnSale(it.slug, it.productId, it.version) }
+    }
 
     /**
      * The texts this build gives without a purchase (the author's own build, [slugs] from its
@@ -51,14 +73,13 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
      */
     fun textsGranted(slugs: Collection<String>): List<OnSale> =
         if (slugs.isEmpty()) emptyList()
-        else driverFactory.readCatalog()?.let(::parseCatalog).orEmpty().distinctBy { it.slug }
-            .filter { it.slug in slugs && it.version.isNotEmpty() }
+        else catalogEntries().filter { it.slug in slugs && it.version.isNotEmpty() }
             .map { OnSale(it.slug, it.productId, it.version) }
 
-    private fun CatalogEntry.copy(installed: Boolean) =
+    private fun CatalogEntry.copy(installed: Boolean, offered: Boolean) =
         CatalogEntry(slug, title, author, titleEn, authorEn, description, edition, installed, appId,
-            editor, apparatus, translation, commentary, syntax, dictionaries, onGooglePlay, productId,
-            refEdition, refTranslation, refCommentary, syntaxSource, syntaxLicense, version)
+            editor, apparatus, translation, commentary, syntax, dictionaries, offered, productId,
+            refEdition, refTranslation, refCommentary, syntaxSource, syntaxLicense, version, release)
 
     private fun parseCatalog(json: String): List<CatalogEntry> {
         // the catalog is a flat JSON array of objects with string values; a small parser suffices
@@ -73,7 +94,7 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
                 field(o, "editor"), field(o, "apparatus"), field(o, "translation"), field(o, "commentary"),
                 field(o, "syntax"), field(o, "dictionaries"), field(o, "google_play") == "yes", field(o, "product_id"),
                 field(o, "ref_edition"), field(o, "ref_translation"), field(o, "ref_commentary"),
-                field(o, "syntax_source"), field(o, "syntax_license"), field(o, "version"))
+                field(o, "syntax_source"), field(o, "syntax_license"), field(o, "version"), field(o, "release"))
         }.filter { it.slug.isNotEmpty() }.toList()
     }
 
@@ -364,7 +385,8 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
     fun dictionaries(): List<Pair<String, String>> {
         val out = LinkedHashMap<String, String>()
         for (l in lexicon.lexiconQueries.selectLexicons().executeAsList()) out[l.slug] = l.title
-        for (slug in driverFactory.installedTexts(ownedTexts)) {
+        val hidden = ReleaseGate.hidden(catalogEntries(), today(), granted)
+        for (slug in driverFactory.installedTexts(ownedTexts).filter { it !in hidden }) {
             for (l in textDb(slug).anagnosisQueries.selectLexicons().executeAsList()) {
                 if (!l.slug.endsWith("-glossary")) out.getOrPut(l.slug) { l.title }
             }

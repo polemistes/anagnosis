@@ -158,22 +158,8 @@ that this text is to be made available (2026-11-14: the mark was taken off the O
 Clouds, the Theogony, A True Story and the Shepherd of Hermas, which had been marked when they
 were built; their product ids stay in their about.md, ready for that day).
 
-## The author's build on the internal testing track (2026-11-16)
+## Texts with a release date (2026-11-16)
 
-The texts held back until their release date (app/author-packs.txt, ignored by git; today the
-Medea and the Alcestis) reach the author's own phone through **internal testing only**. Gradle
-refuses every release task while author-packs.txt names a text, unless the release is asked for
-on purpose:
-
-    ./gradlew :androidApp:bundleRelease -PauthorRelease=true
-
-That bundle carries the held-back packs and data/catalog-author.json, and its texts are owned
-without a purchase (BuildConfig.AUTHOR_TEXTS; no product is needed in Play Console). Upload it to
-**Test and release › Testing › Internal testing** and **never promote it to another track**.
-
-**Version rule.** `productionVersionCode` in app/androidApp/build.gradle.kts is the public
-release's code. A build with the author's packs takes `productionVersionCode + 1` and the
-versionName suffix `-author` (e.g. 20, "0.7.0-author" beside production 19, "0.7.0"): a tester's
-phone installs the highest code it is entitled to, so the author's bundle must stand above the
-production one. The next production release then takes the code after the author's (here 21):
-raise `productionVersionCode` past every code the author's builds have used.
+A text whose catalogue entry carries a `release` date (YYYY-MM-DD) is offered by the app from
+that date on, by the device's date, like a text on sale (its product must then be active in Play
+Console); before that date the app shows nothing of it.
