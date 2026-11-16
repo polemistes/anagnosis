@@ -596,6 +596,27 @@ The metrical analyses are not transcribed (as for Ajax and Electra).
   (rebuilding the published Jebb plays; the "Critical notes." label; Ajax and Electra by the
   OCR route; the app behaviours noted by the emulator checks).
 
+* **2026-11-17, THE READ-ALOUD CRASH: cause found, fix committed (0ef5b3b), device check
+  running.** Not a fault of the Philoctetes: a bug in eSpeak's sentence splitter
+  (readclause.c), triggered by the `[[…]]` phoneme text the app sends: (1) an elided word
+  joined to the next word when that word carries a pause (`[[u:0d]][[oI0ku:0me1nE:0 _::]]`:
+  eSpeak misses a `[[` directly after `]]` and takes the `:` of the pause for a colon); (2)
+  any utterance over about 725 bytes (split inside the brackets). The leftover is read as
+  plain text, eSpeak falls back on its English dictionary, which the app does not ship, and
+  reads a table never filled in: a crash or not by what the memory happens to hold.
+  Reproduced on this computer under AddressSanitizer with the app's sources, config, calls
+  and data (log build/logs/speech-crash.md). **Every text on sale can trigger it, in all
+  three pronunciations** (sentences with a trigger: Odyssey 1,565 of 6,873; Antigone 164 of
+  983; Ajax 197 of 1,105; Electra 234 of 1,357; New Testament 339 of 8,010; Symposium 102 of
+  1,013; Gorgias 105 of 2,144). The fix: app/espeak/patches/phoneme-input-clauses.patch
+  (looks for `[[` before the countdown that hid it, never splits inside brackets, zeroes new
+  dictionary tables), with a host test app/espeak/tests/run-host-test.sh that fails without
+  it; sentences without a trigger give the same sound before and after (22,851 sentences
+  compared). Not yet verified: the native build through Gradle and reading aloud on the
+  emulator (the emulator agent is doing it). **A reader release carrying the fix is the
+  author's to decide** (current build: 0.7.0, version code 19). Side note from the agent, not
+  changed: in Koine a word beginning with a stress mark gets its highlight one word late.
+
 ## Decisions
 
 * 2026-11-15: order by least work left (Trachiniae first).
