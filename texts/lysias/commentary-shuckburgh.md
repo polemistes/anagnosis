@@ -136,6 +136,10 @@ If this is genuine it presents two difficulties :—(1) διείλεκτο is el
 
 Some objection has been made to the fact of the ταμίαι being thus able to act towards their superiors, the Strategi. But, in the first place, it must be observed that it was *after* their year of office; and, in the second, that ἀνακαλεσάμενοι does not, I think, imply necessarily a summons of personal attendance, but a call for an explanation, which must often have been necessary between the Exchequer and the magistrates who gave in accounts. **γραφὴ** is equivalent to the λεύκωμα in l. 35.
 
+**οἷα πεπονθὼς ἦν** ‘the treatment I had received:’ equivalent to a pluperfect. Madv. § 114 b.
+
+[Shuckburgh's text reads otherwise here; the text shown has οἷα πεπονθὼς ἦ.]
+
 **ἔπειθον** ‘they tried to persuade them.’
 
 **τῶν πολιτῶν τινας** ‘this or that citizen.’
@@ -145,10 +149,6 @@ Some objection has been made to the fact of the ταμίαι being thus able to 
 **τὸν παρʼ ὑμῶν κίνδυνον** *i.e.* the risk of being called to account before a court.
 
 ## 9.8
-**οἷα πεπονθὼς ἦν** ‘the treatment I had received:’ equivalent to a pluperfect. Madv. § 114 b.
-
-[Shuckburgh's text reads otherwise here; the text shown has οἷα πεπονθὼς ἦ.]
-
 **προσήκειν δὲ . . παρασχήσομαι**. The sense is: ‘You now know that the fine *was* remitted; but though I think that I have already shown that I am not liable, I will put in laws and pleas besides to prove it further.’
 
 **καὶ διὰ ταύτην τὴν ἀπόδειξιν** ‘even by the exposition of my case already made.’
@@ -831,17 +831,17 @@ For this transaction see v. § 52. It took place at the end of B.C. 404, and was
 **Νικοκλέους καὶ Ἀντικλέους** ‘slave of Nicokles and Antikles.’
 
 ## 13.65
-**συκοφαντίας . . ἀπέγραφεν**. The various forms of legal processes set on foot by this professional informer. For **συκοφαντία**, see ii. l. 140. **δίκη** and **γραφή** are respectively ‘a private’ and ‘public action,’ *i.e.* referring to some personal injury, or injury to the property or right of the State. See Classical Dicty. **ἀπογραφή** see iii. 16.
-
-## 13.67
 **πολλὰ . . ὅσα κακὰ . . ἐπιτετήδευται . . λέγειν** ‘considering how numerous are the base and shameful facts of his career, it would be too long a business to recount them.’ **ἐπιτηδεύειν** an intransitive verb, yet takes the neuter accusative of a numeral adjective, which in the passive construction becomes nominative. Madv. § 27, a. *Supra*, v. l. 7.
 
 [Shuckburgh's text reads otherwise here; the text shown has πολὺ ἂν εἴη ἔργον λέγειν.]
+
+**συκοφαντίας . . ἀπέγραφεν**. The various forms of legal processes set on foot by this professional informer. For **συκοφαντία**, see ii. l. 140. **δίκη** and **γραφή** are respectively ‘a private’ and ‘public action,’ *i.e.* referring to some personal injury, or injury to the property or right of the State. See Classical Dicty. **ἀπογραφή** see iii. 16.
 
 **συκοφαντίας . . ὤφλησεν** ‘you convicted him of Sycophancy, and he was fined 10,000 drachmæ.’ The fine for this offence lay at the discretion of the judges. Hermann, 136.
 
 [Shuckburgh's text reads otherwise here; the text shown has ὦφλεν.]
 
+## 13.67
 **παραφρυκτωρευόμενος . . ληφθείς** ‘having been caught in the act of making treasonable signals to the enemy.’ The idea of malpractice is supplied by παρά, as in παραπρεσβεύειν, etc. Lamachus was killed early in 414 (Thucyd. vi. 101); the offence, therefore, must have been before that; and though it is idle perhaps to seek to fix the exact time, the occurrences in the autumn of 415, while the Athenians were at Catana, must have given many opportunities for such treason. [Thucyd. vi. 63-70.] For the use of such fire signals as giving definite information, see Herod. vii. 182. Thucyd. 2, 94; 3, 22, 9.
 
 **ἀνδράποδον ἐξήγαγεν** ‘abducted a slave.’ He would thereby incur the punishment of an ἀνδραποδιστής, whether he carried off another man’s slave, or a free man into slavery. See iv. l. 64. **παιδίσκην ἀστῆς ἐξαγαγὼν** ‘for having abducted the maidservant of an Athenian lady.’ **ἀπέθανε** ‘was put to death.’
@@ -852,14 +852,14 @@ For this transaction see v. § 52. It took place at the end of B.C. 404, and was
 ## 13.69
 **θάνατος ἡ ζημία ἐστίν**. Adultery was punished by death, according to the laws of Draco. Later jurists seem to have distinguished violence and seduction, and to have punished the former by a fine, the latter by death,—a curious reversal of modern ideas. Hermann, § 104. Taylor, Lect. Lys. xii. 3.
 
+**ἦ πού γε** ‘much more.’ See on ii. l. 53.
+
 ## 13.70
 **ἐπὶ τῶν τετρακοσίων** ‘in the time of the 400.’ For ‘the 400’ see on v. l. 295. Thucydides (8, 92, 2) says, without giving names, that Phrynichus πληγεὶς ὑπʼ ἀνδρὸς τῶν περιπόλων τινός ἐξ ἐπιβουλῆς ἐν τῇ ἀγορᾷ πληθούσῃ . . ἀπέθανε παραχρῆμα, and goes on to say that the man who actually struck the blow escaped, but that his accomplice, an Argive, was taken and put to the torture. This cannot be reconciled with the statement made by the speaker. The names of the assassins, Apollodorus and Thrasybulus, are also given by Lycurgus, C. Leocr. § 112; he says that the murder took place at night (νύκτωρ), and that the assassins were taken, but afterwards released by the Demus. Hicks (*Greek Inscriptions*, p. 106) reconciles Thucydides and Lycurgus as to the *time* of the murder by asserting that ἐν τῇ ἀγορᾷ πληθούσῃ refers to the *place*, not the *time*. An inscription (Hicks, pp. 105-6) exists praising Thrasybulus, on the motion of Erasinides. Plutarch (Alcib. 25) also tells the story, but by a curious mistake assigns the deed to Hermon, who is mentioned in another connection in the same chapter of Thucydides. See Prof. Jowett’s note to Thucyd. 8, 92.
 
 **Ἀθηναῖον . . . ἐποιήσατο** ‘made him an Athenian,’ *i.e.* ‘voted him the citizenship.’
 
 ## 13.71
-**ἦ πού γε** ‘much more.’ See on ii. l. 53.
-
 **βαδίζοντι** ‘on foot.’ It was close to the Senate House (Thucyd.)
 
 ## 13.72
@@ -868,15 +868,18 @@ For this transaction see v. § 52. It took place at the end of B.C. 404, and was
 ## 13.73
 **ἐδίκαζε . . . ἐγράφετο**, cf. ll. 455-6. For the form ἐξεκλησίαζε, see on v. l. 506. **γραφὰς τὰς ἐξ ἀνθρώπων** ‘every kind of indictment imaginable.’ The phrase appears to be used also by Æschines, τὰς ἐξ ἀνθρώπων πληγάς, and not to be found elsewhere. **Ἀναγυράσιος** ‘inscribing his name on the indictment as belonging to the deme Anagurus’ (Ἀναγυροῦς) of the tribe Aeantis. For if he is a citizen he must have been entered on the roll of some deme and tribe, and unless he were one, he would not be one of those capable (οἷς ἔξεστι) of acting as prosecutor in a suit.
 
+## 13.74
+The argument is not a strong one, because his whole case against Agoratus rests much on the fact that, though a person likely to have incurred their resentment, the Thirty *had* spared him, because of his usefulness as a spy, which would not have been at all lessened by his having been one of the assassins of Phrynichus. **αὐτοὶ**, *i.e.* the Thirty and their party.
+
 ## 13.75
 **εἰ . . μὴ ἀποκτείνας προσποιεῖται** ‘if on the one hand he pretends to have killed him, though he did not.’ μὴ is not dependent on εἰ, but involves a condition within a condition, ‘if he pretends to have killed, and yet if he did not kill.’ **εἰ δὲ ἀμφισβητεῖς** in bringing forward the second horn of the dilemma he suddenly addresses the defendant, as in l. 407. The dilemma is this: ‘If your pretence of having killed Phrynichus is false, you are a liar; if true, what mischief you must have done to the Democracy to secure your pardon from the Thirty!’
 
 ## 13.76
-The argument is not a strong one, because his whole case against Agoratus rests much on the fact that, though a person likely to have incurred their resentment, the Thirty *had* spared him, because of his usefulness as a spy, which would not have been at all lessened by his having been one of the assassins of Phrynichus. **αὐτοὶ**, *i.e.* the Thirty and their party.
-
 **ἐὰν οὐ φάσκῃ** see l. 433.
 
 ## 13.77
+A third hold on him that you have is this: if forced to confess that he did *not* kill Phrynichus, he will not be able to account for his pretended citizenship, and you can then punish him for illegally taking part in assemblies, lawsuits, etc.
+
 **παρασκευάζεσθαι** ‘that he is preparing,’—with an idea of dishonesty. See ii. l. 122.
 
 **συγκατῆλθε** see *supra*, l. 444, ‘returned from exile with the party of Phylè.’ See Appendix, ‘The Thirty.’ **μέγιστον ἀγώνισμα** ‘the point on which he most relies.’
@@ -884,8 +887,6 @@ The argument is not a strong one, because his whole case against Agoratus rests 
 **τῶν ὑπὸ τούτου ἐκπεπτωκότων** ‘of those who owed their banishment to the defendant.’ Certainly this use of τούτου here is exceedingly awkward, referring, as it must do, to the same person as ὅστις.
 
 ## 13.78
-A third hold on him that you have is this: if forced to confess that he did *not* kill Phrynichus, he will not be able to account for his pretended citizenship, and you can then punish him for illegally taking part in assemblies, lawsuits, etc.
-
 **ἄντικρυς** ‘straight off’ ‘without more ado.’ **οὗπερ . . . συλλάβοιεν** ‘to the place in which they were wont to execute other pirates and thieves when they caught them.’ **κακοῦργος** in legal language meant a ‘thief,’ one of the class of offenders who could be summarily convicted. Cf. Demosth. 732, where κακοῦργοι πατραλοῖαι ἀστράτευτοι are classed together, and the first afterwards explained by ἐὰν τι ἁλῷ κλοπῆς.
 
 **Ἄνυτος** who was afterwards one of the accusers of Socrates. Xenophon (Hell. 2, 3, 42) represents Theramenes as classing him with Thrasybulus, who has generally the sole credit of the occupation of Phylè, στρατηγῶν ἐπὶ Φυλὴν, ‘commanding the expedition to occupy Phylè.’ **διακέοιντο** ‘were in a position.’ The form is Ionic, but was used by the Attic writers (*e.g.* Thucyd. 4, 33); the ε being always retained in subjunctive and optative, except in the Epic form, κῆται. Il. xix. 32. See Veitch. [The stem is κει, κεῖ-μαι, κοί-τη, κοι-μά-ω. Lat. *qui-eo*, *ci-vi-s*. Root *Ki*. Curtius, 145.]
@@ -950,13 +951,13 @@ A third hold on him that you have is this: if forced to confess that he did *not
 ## 13.91
 **ὑπὸ τοῦ δήμου**. Some word or words are lost, perhaps Ἀθηναῖος πεποιῆσθαι, ‘that he has been made a citizen by the Demus.’ **φαίνεται κακώσας** ‘is shown to have injured.’ See ii. l. 119.
 
-**τὸν . . ποιητὸν πατέρα** sc. the Demus, as in l. 654. **καὶ διὰ τοῦτο** ‘even for this if there were no other reason.’ **κατὰ τὸν . . κακώσεως νόμον** ‘in virtue of the law regarding the doing an injury to a father.’ To strike or ill-use a parent was an offence punishable by fine, disfranchisement, or death: the suit was called γραφὴ κακώσεως γονέων. See Arist. Av. 1344. Nub. 1419-1430.
-
-## 13.92
 **καὶ ἀφεὶς . . ἐγίγνετο** ‘and is shown to have abandoned and betrayed the persons by whose means it (the Demus) was ever exalted and strengthened.’ **ἐκεῖνος** refers to the Demus. The imperfect **ἐγίγνετο** is used because the influence of these men was continuous.
 
 [Shuckburgh's text reads otherwise here; the text shown has καθυφεὶς.]
 
+**τὸν . . ποιητὸν πατέρα** sc. the Demus, as in l. 654. **καὶ διὰ τοῦτο** ‘even for this if there were no other reason.’ **κατὰ τὸν . . κακώσεως νόμον** ‘in virtue of the law regarding the doing an injury to a father.’ To strike or ill-use a parent was an offence punishable by fine, disfranchisement, or death: the suit was called γραφὴ κακώσεως γονέων. See Arist. Av. 1344. Nub. 1419-1430.
+
+## 13.92
 **ἐπέσκηψαν**. See ll. 28, 287.
 
 **ἔμβραχυ** ‘in a word.’
@@ -1064,10 +1065,9 @@ A third hold on him that you have is this: if forced to confess that he did *not
 
 **καὶ ὅτε . . ἔσται** ‘nay, when as a baby he had not as yet shown what he was going to be.’ The young Alcibiades, we learn from Isocr. de big. § 47, was in his fourth year when he was thus seized as a hostage for his father. He was not put to death, I suppose, because such a cruelty was a freak of freedom beyond even an Athenian demus. For the tense **ἔσται** retained from the direct speech, see Goodwin, 242 b. **ὀλίγου** ‘within a little.’ Goodwin, § 172 b. **τοῖς ἕνδεκα παρεδόθη** ‘was delivered to the Eleven,’ *i.e.* for execution, see iv. l. 60.
 
-## 14.18
 ‘The great deeds of their ancestors will not help us to recover from the enemy what their ill discipline loses us, and therefore it is not fair they should escape punishment for the sake of these ancestral achievements.’ **τὰς . . ἀρετάς** ‘the noble deeds.’ Cf. Andoc., Or. i. p. 18, ἀξιῶ κἀμοὶ διὰ τὰς τῶν προγόνων ἀρετὰς σωτηρίαν γενέσθαι.
 
-## 14.19
+## 14.18
 For the sentiment, see on iii. l. 119.
 
 ## 14.20

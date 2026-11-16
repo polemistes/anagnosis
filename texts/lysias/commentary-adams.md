@@ -2898,7 +2898,7 @@ For the repeated use of antithesis in this section see App. § 57. 1.
 
 **ὅτε ἀκούοιτε, ἐπειδὴ πυνθάνοισθε** (§ 22): in both instances the reference is to the repeated rumors that came from the city. HA. 914 B (2); G. 1431. 2; B. 625; Gl. 616 b; GMT. 532.
 
-[Adams's text reads otherwise here; the text shown has ὅτε … ἀκούοιτε … ἐπειδὴ δὲ ἐπυνθάνεσθε.]
+[Adams's text reads otherwise here; the text shown has ἐπειδὴ δὲ ἐπυνθάνεσθε (§ 22).]
 
 **φυγῇ**: best taken in the (rare) collective sense = *you, the exiles*. So Xen. *Hell.* 5. 2. 9 κατάγειν ἐβούλοντο τὴν φυγήν. Cp. τὴν ἀρχήν = *the administration* Lys. 12. 6. For the argument, cp. the plea of Theramenes to the same effect, Xen. *Hell.* 2. 3. 44.
 

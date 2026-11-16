@@ -306,7 +306,7 @@ OTHER_READINGS: dict[int, dict[str, str]] = {
     23: {"Δεκελέων οὓς": "Δεκελειῶν οὓς"},
     24: {"οἷός τʼ ὦ": "", "ψηφίσασθαι πάντας": "ψηφίσασθαι ἐλεήσαντας", "οὔθʼ οὗτος ὑμῖν": "οὔθʼ οὗτος εὖ φρονεῖ", "εὖ ποιῶν": "εὖ φρονεῖ"},
     25: {"πειθομένοις": "πιθομένοις", "τούτους μέν . . . ἐκείνους δέ": "αὐτοὶ μὲν … ἐκείνους δὲ",
-         "ὅτε ἀκούοιτε, ἐπειδὴ πυνθάνοισθε": "ὅτε … ἀκούοιτε … ἐπειδὴ δὲ ἐπυνθάνεσθε"},
+         "ὅτε ἀκούοιτε, ἐπειδὴ πυνθάνοισθε": "ἐπειδὴ δὲ ἐπυνθάνεσθε (§ 22)"},
     28: {"ἂν . . λάβητε": "ἐὰν … λάβητε"},
     30: {"καὶ τοσαῦτα . . ἔδωκεν": "καὶ ὅσα ⟨οὐδεὶς πώποτε⟩", "κατὰ πρυτανείαν λόγον ἀναφέρουσι": "ἀποφέρουσι", "Νικομαχίδην": "Νικόμαχον",
          "ὑπὲρ τοῦ δήμου": "ὑπὸ τοῦ δήμου"},
@@ -346,6 +346,7 @@ def speech_notes(speech: int, sections: dict[str, list[str]], sources: Path, dra
     name = LYSIAS_EDITORS[editor][1]
     count: dict[str, int] = {}
     used: set = set()
+    drift = 0  # Shuckburgh: how far the last note found by its lemma stood from the section his line number gave
     for head, ps in notes:
         m = re.match(r"^(\d+)(?:-(\d+))?$", head)
         a, b = int(m.group(1)), int(m.group(2)) if m.group(2) else None
@@ -358,11 +359,31 @@ def speech_notes(speech: int, sections: dict[str, list[str]], sources: Path, dra
             if how == "miss":
                 line = other_reading(speech, p, name, used)
                 if line:
-                    log.append(f"READS {speech} note {head}: {line} {p[:50]}")
+                    # the note goes where Hude's words named in the table stand: the section
+                    # named, or the nearest one that has them
+                    hude = [w for w in (skel(x) for x in re.split(r"[\s…]+", OTHER_READINGS[speech][_BOLD.match(p).group(1)])) if w]
+                    home = int(sec.split(".")[1])
+                    at = next((n for d in range(0, 5) for n in dict.fromkeys((home - d, home + d))
+                               if hude and all(_has_run(sections.get(f"{speech}.{n}", []), [w]) is not None for w in hude)), None)
+                    if "(§" in OTHER_READINGS[speech][_BOLD.match(p).group(1)]:
+                        at = home  # the words named stand in the next section; the note stays at its own
+                    if hude and at is None:
+                        log.append(f"TABLE {speech}: Hude's words for “{_BOLD.match(p).group(1)}” are not near {sec}")
+                    elif at is not None:
+                        sec = f"{speech}.{at}"
+                    log.append(f"READS {speech} note {head} at {sec}: {line} {p[:50]}")
                     p, how = p + "\n\n" + line, "reads"
             count[how] = count.get(how, 0) + 1
+            if by_line and how in ("lemma", "near") and named:
+                drift = int(sec.split(".")[1]) - named[0]
             if how == "none" and prev is not None:
                 sec = prev  # a further paragraph of the note before
+            elif by_line and how in ("none", "miss") and drift and named and f"{speech}.{named[0] + drift}" in sections:
+                # the line map runs a section or two ahead or behind for a stretch: a note that has
+                # no lemma to be found by goes with the notes around it
+                log.append(f"DRIFT {speech} note {head}: no lemma to find it by; filed at {speech}.{named[0] + drift} with the notes before it, "
+                           f"not at {sec}: {p[:60]}")
+                sec = f"{speech}.{named[0] + drift}"
             elif how == "near":
                 log.append(f"NEAR {speech} note {head}: the lemma stands in {sec}, not in "
                            f"{speech}.{named[0] if named else '?'}: {p[:70]}")

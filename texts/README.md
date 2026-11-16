@@ -407,8 +407,8 @@ The thirty-four speeches in Karl Hude's Oxford text (*Lysiae orationes*, Oxford,
 the checked transcription in `pipeline/transcriptions/lysias/` (brief `pipeline/PLAN-lysias.md`,
 modules `hude_pages.py`, `hude_merge.py`, `hude_notes.py`). The editions are in the public domain;
 the transcription is published under CC BY-SA 4.0. The Eroticus (XXXV) is left out.
-(2026-11-16: the commentaries, the introduction, the appendix and Gillies's translation are
-merged in when their batches are checked; the files are not there yet.)
+(2026-11-16: Gillies's translation is merged in when its batches are checked and laid beside the
+Greek; `eng-gillies.txt` is not there yet.)
 
 * Greek text (`grc.txt`): Hude's, read by OCR and matched word by word to the Perseus text of the
   speeches (Lamb's Loeb, the check text only, never shipped); the flags, then every word, stop and
@@ -439,6 +439,8 @@ merged in when their batches are checked; the files are not there yet.)
   word its lemma names (Shuckburgh numbers by the lines of his own text; his text pages were
   read and matched to the Greek). The introduction is Adams's general one and each commentator's
   introduction to his speech; the appendix is Adams's Appendix I-V.
+  A note on a reading that is not Hude's is followed by a line in square brackets that says so
+  (63 notes: `OTHER_READINGS` in `hude_notes.py`); the merged English has no space before ; : ? !.
 * Lemmas, morphology and syntax (`tokens.tsv`, `syntax-nodes.tsv`): by speech. Hand-made trees
   for 1, 14, 15, 23 (Ancient Greek Dependency Treebank, CC BY-SA 3.0) and 24 (Pedalion Trees,
   through GLAUx); GLAUx's automatic trees (CC BY-SA 4.0) for the rest; none for 12, 13, 19 (the

@@ -773,7 +773,7 @@ Nothing here blocks the text batches. In the order in which an answer is needed:
 - [x] Step 6: merge and the checks (2026-11-16): `merge-lysias`: 1,145 lines (1,116 sections of 1,116), 34 speeches, 280 paragraphs, from 269 pages; 4,091 apparatus items under 1,061 sections; 0 problems. The 19 serious lemma misses looked up on the page and settled (none a slip of the text: `SETTLED`), 568 weak ones sampled (no class of fault); the pages flagged at set-up looked at; the misprint tables (6 in the text, 6 in the apparatus). See Decisions
 - [x] Step 7: words and syntax (2026-11-16): each speech aligned to its own trees (AGDT 1, 14, 15, 23; GLAUx for the rest, hand-made for 24; none for 12, 13, 19); the label by speech (`# syntax-by-book`, `syntax_by_book` in the built meta table); 56,484 words, none without a lemma; 6,923 syntax nodes; the review list (830 words) gone through: what it was and what was done under Decisions. The reader's change is described under "The reader" and not made. Still to do: the checking pass over the words of 12, 13, 19 (prepared: "The words without trees"; the control jobs first)
 - [ ] Step 8: translations: the 1898 version done in the merge (`eng-1898.txt`: 699 segments of 20 speeches, every one under a section of Hude's text). Gillies: all six speeches (1, 3, 4, 21, 26, 34) fetched, read and drafted (45 pages, 8 batch files, 1,726 flags; the ranges cut back to the orations on the drafts); the brief for his batches (INSTRUCTIONS-prose.md) and for the alignment pass (`transcriptions/lysias/GILLIES-ALIGN.md`), the script `lysias-gillies-align.workflow.js`, the checker `check-gillies-marks`; the arguments under "Hand-over". Still to do: the agents' check and second reading of the batches, the commit, the alignment pass, the merge
-- [ ] Step 9: commentaries and introductions: set up and drafted (2026-11-16): 21 entries, 493 pages, 74 batches, 5,797 flags (Adams 353 pages / 51 batches / 3,888 flags; Morgan 54 / 9 / 898; Shuckburgh 86 / 14 / 1,011); pilot pages checked (Adams p-0069, p-0078; Morgan p-0172; Shuckburgh p-0259); the brief's section, the workflow script and its arguments under "Hand-over"; `hude_notes.py` files the notes under Hude's sections. With the main session's agents since 2026-11-16: Morgan's nine batches checked and read a second time (a412f1e), Shuckburgh's and Adams's following; then `merge-lysias` (without `--without-notes`) and `pipeline/build/lysias-notes.log`
+- [x] Step 9: commentaries and introductions (2026-11-16): 21 entries, 493 pages, 74 batches, checked and read a second time by the main session's agents (a412f1e, 62bce24, 364f4a2, a38cf55); merged: `commentary-adams.md` (308 notes, 1,616 paragraphs), `commentary-morgan.md` (90 notes, 432 paragraphs), `commentary-shuckburgh.md` (573 notes, 631 paragraphs under 253 sections), `introduction.md` (Adams's general introduction and a chapter for each of the nineteen speeches), `appendix.md` (Adams's Appendix I–V); the notes log settled (Decisions)
 - [x] Step 10: sigla, glossary, about (2026-11-16): `sigla.md` and `about.md` (`transcriptions/lysias/static/`, copied by the merge); the book names in lower-case Greek with numbers (`hude_merge.SPEECH_NAMES`); `glossary.md` (188 names), `shortdefs.tsv` (21 ordinary words, 185 names, one line for δῆμος), `aliases.tsv` (13), written by hand in `texts/lysias/` (the merge does not touch them); `check`: 2,801 lemmas, none missing from the dictionaries and the glossary, none without a short definition; the texts/README.md section
 - [ ] Step 11: build and emulator check: `build --only lysias` (data/lysias.sqlite, 8.3 MB), `catalog` (Lysias in data/catalog.json, no `google_play`), `check` (0 errors; no warning in Lysias) done on 2026-11-16 on the text without the commentaries and Gillies; the lexicon and the other texts' databases unchanged (checksums of lexicon.sqlite and three texts compared). Still to do: the build again after the commentaries and Gillies are merged, the asset pack, the reader's two changes, the emulator check
 
@@ -1027,6 +1027,56 @@ Nothing here blocks the text batches. In the order in which an answer is needed:
   measure`, 28 job files and two control jobs, the brief, the workflow script; the merge reads
   the answers as a table. Nothing is answered yet, so tokens.tsv is unchanged by it. about.md
   now says that the word analyses of the three speeches are automatic.
+
+* **2026-11-16, the commentaries merged; the notes log settled** (`pipeline/build/lysias-notes.log`,
+  which ends each speech with a `COUNT` line).
+  * **How the paragraphs found their sections** (a note's every lemma is a paragraph): Adams
+    1,616 paragraphs: 1,510 by their lemma in the section he names, 13 by their lemma in a
+    section beside it, 60 without a Greek lemma (kept with their note), 25 on another reading
+    than Hude's, 8 not found. Morgan 432: 412, 3, 4, 11, 2. Shuckburgh 631: 474, 75, 48, 27, 7.
+  * **The lemma search widened** after the first run showed 242 lemmas "not found", 150 of them
+    only because the lemma names words that stand apart ("ἐπιβουλεύετε, ἀφῆτε"; "τῇ ἀρετῇ" for
+    τῇ τούτων ἀρετῇ): a lemma is also found where every one of its words is in the section;
+    where its letters are there divided otherwise (δή που / δήπου); δέ in a lemma for the text's
+    δʼ; a dash or κτέ. as dots of omission.
+  * **Shuckburgh numbers by the lines of his own text**, which the merge maps to sections through
+    an OCR of his text pages. The map runs a section or two ahead in stretches (the end of speech
+    13), so his lemma is looked for four sections either side (two for the others), and a note
+    without a lemma to be found by goes with the drift of the notes before it (`DRIFT`, 5 notes).
+  * **A note on a reading that is not Hude's** (63): each looked up in Hude's section; the note
+    stays under the section where Hude's own words stand, with its lemma as printed, and is
+    followed by a line in square brackets: "[Morgan's text reads otherwise here; the text shown
+    has δωρεὰν.]" (`hude_notes.OTHER_READINGS`: the lemma, Hude's words; the merge checks that
+    Hude's words are in the section and says so if a table entry is not used). Only where it is
+    certain: not a lemma in its dictionary form (χιτωνίσκος), not a heading (ΜΑΡΤΥΡΕΣ).
+  * **Left at the commentator's number, unmarked** (17): lemmas in the dictionary form (ὑγιὴς,
+    χιτωνίσκος, ἀνδραποδιστὴς, εὐήθειαν), abbreviated (τῶν ἄλλων Ἑ. πλεῖστα, τί δʼ ἂν κ.τ.λ., ἦ που
+    κτλ., the display at 24.8), the heading ΜΑΡΤΥΡΕΣ, words in two sections (αὖ, ἡνίκα; ἄριστοι δὲ
+    γεγενημένοι), Hude's capital with iota adscript (Ὤιμην), and five where the counterpart in
+    Hude is not plain (αὐτῶν 7.40, ἦ πού γε 13.69, ἀλλʼ οὐκ 19.23, ὅτου 22.22, οἷοί περ 30.28).
+  * **The checker's last remarks in Adams's files**: lysias-19/notes-04 "note 48 comes after 52":
+    Adams prints § 52 after § 47 and his notes follow his order; the merge files each note by
+    its number and lemma, so the note on 52 stands at 19.52. The word endings without a breathing
+    (-ῃ, -ει and the like) are endings he discusses, as printed. Nothing changed.
+  * **Footnotes that run over a page** stood in the batches as two `[Note: …]` paragraphs, the
+    second without a mark at the head of the next page's block: joined again where the first
+    ends without a stop (`join_footnotes`; five in the introduction: "three brothers, Pole-" +
+    "marchus, …").
+  * **Elisions** in quoted Greek typed with the closing quotation mark (δ’ ἐστὶ) are written
+    with the Greek's apostrophe (`greek_elisions`); a quotation's closing mark stays.
+  * **The commentators' misprints** corrected by the readers of the pages in the batch files,
+    each with its note there: 51 notes, listed by the merge in
+    `pipeline/build/lysias-commentary-misprints.log` (wrong accents and breathings in quoted
+    Greek, ἐκφέρετο for ἐξεφέρετο, "Nor further" for "No further", a broken letter). All are
+    evident; two doubtful places were left as printed by the readers (τὰ κείνων in a quotation of
+    Demosthenes, γεμοὶ in one of Andocides).
+  * **No batch file was changed** in settling the log: the placing, the bracketed lines, the
+    footnotes and the elisions are the merge's.
+  * Built with the commentaries: 9.5 MB; `check`: 0 errors, no warning in Lysias; the HTML of
+    notes of each commentator, of the introduction and the appendix looked at (bold lemmas,
+    italics, the bracketed lines, headings in two levels, footnotes as `[Note: …]` paragraphs
+    as in the other texts). Gillies is not merged: his marks do not exist yet (the merge names
+    speeches 3 and 4 as transcribed but not placed).
 
 ## Sizes, for planning
 

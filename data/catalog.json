@@ -213,7 +213,7 @@
     "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library; speeches 1, 14, 15, 23 annotated by Vanessa Gorman); Pedalion Trees (KU Leuven; speech 24), through GLAUx; GLAUx (Alek Keersmaekers, KU Leuven): automatic annotation, not checked by hand",
     "syntax_license": "CC BY-SA 3.0 US (Ancient Greek Dependency Treebank); CC BY-SA 4.0 (Pedalion Trees, GLAUx)",
     "product_id": "lysias_speeches_hude",
-    "version": "5cee02e12c76124a"
+    "version": "e5a3b838d0d5929e"
   },
   {
     "slug": "newtestament",
