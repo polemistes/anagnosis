@@ -255,6 +255,7 @@ class TranslationStagesApart(unittest.TestCase):
 <sp><speaker>Medea</speaker><l n="96"><stage>(within).</stage>  Ah, me!</l></sp>
 <sp><speaker>Nurse</speaker><l n="110">be guilty of? <stage>[Exit Attendant with the children.</stage> </l>
 <l n="895">and anger is no more. <stage>Enter the Children.</stage> Take his right hand.</l></sp>
+<sp><speaker>Sons</speaker> <stage>within</stage> <l n="1270a">Ah!</l></sp>
 </div></body></text></TEI>"""
 
     def test_stages_apart(self):
@@ -265,6 +266,10 @@ class TranslationStagesApart(unittest.TestCase):
             path.write_text(self.TEI, encoding="utf-8")
             self.assertEqual(perseus_translation(path)[1], ("96", "Medea", "((within).) Ah, me!"))
             self.assertEqual(perseus_translation(path, stages_apart=True), [
-                ("95", "Nurse", "to her foes."), ("!", "", "within."), ("96", "Medea", "Ah, me!"),
+                # a short direction before the words of a verse or a speech stays at its head
+                ("95", "Nurse", "to her foes."), ("96", "Medea", "(within) Ah, me!"),
                 ("110", "Nurse", "be guilty of?"), ("!", "", "Exit Attendant with the children."),
-                ("895", "Nurse", "and anger is no more. Take his right hand."), ("!", "", "Enter the Children.")])
+                ("895", "Nurse", "and anger is no more. Take his right hand."), ("!", "", "Enter the Children."),
+                ("1270a", "Sons", "(within) Ah!")])
+            # without stages_apart the speech-level direction stays a line of its own, as before
+            self.assertIn(("!", "", "within"), perseus_translation(path))

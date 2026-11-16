@@ -98,7 +98,9 @@ class Play:
     # the commentary's region on a page of the notes scan: "" = as the layout says; "paley" = the
     # two columns under the text and Paley's bands (everything below the last line that crosses
     # the page's middle); "earle" = everything under the verses at the top of the page, found by
-    # the two columns of small type (drama_prose.earle_top)
+    # the two columns of small type (drama_prose.earle_top); "hayley" = Hayley's notes at the back of
+    # his book: one column, every note an indented paragraph opened by its bold number, further
+    # bold lemmas run on inside the paragraph after a sentence's end ("… ἑστίαν. **αἰνέσαι** : …")
     notes_layout: str = ""
     # leaves of the notes scan read with another kind (the introduction) that are laid out as the
     # notes pages and take their region (Earle's notes on the hypothesis under his Greek, "earle")
@@ -292,6 +294,8 @@ def leaf_of(scan: str, n: int) -> int:
     return shown[n]
 
 
+# Hayley's Alcestis: "Verse 1." opens his first note, then "2.", "28-37.", "86 ff."
+HAYLEY_NOTE = r"^(?:Verses?\s+|Vss?\.\s*)?(\d{1,4})(?:\s*[-–—]\s*(\d{1,4}))?(?:\s*f{1,2}\.|\s*sqq?\.)?[.,:]?(?=\s|$)"
 SIDGWICK_NOTE = r"^[lI1|]{1,2}\.\s*(\d{1,4})(?:\s*[-–—]\s*(\d{1,4}))?(?:\s*f{1,2}\.|\s*sqq?\.)?[.,:]?(?=\s|$)"
 
 PLAYS: dict[str, Play] = {p.slug: p for p in [
@@ -423,14 +427,33 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          trans_license="CC BY-SA 4.0 (Perseus Digital Library)",
          notes_editor="hayley", notes_editor_name="Harry Wilson Hayley",
          notes_edition="The Alcestis of Euripides, edited with an introduction and critical and exegetical notes by H. W. Hayley, Boston, Ginn & Company, 1898",
-         notes_scan="alcestisofeuripi00euriuoft",
+         notes_scan="alcestisofeuripi00euriuoft", notes_layout="hayley", note_start=HAYLEY_NOTE,
          # Murray's page, as for the Medea (see that entry for what each option answers)
          speaker_trust=True, app_bare_numbers=True, verse_size_q=0.75, foot_signature=True, app_pitch_cut=True,
          head_frac=0.065, metre_labels=True,
          # Murray's scan: the hypotheses with their apparatus leaves 54-55, the persons with his
          # note leaf 56, the text leaves 57-101 (seen 2026-11-16), the volume's Sigla leaf 24.
-         # Hayley's leaves (notes at the back, the introduction) are still to be found.
-         text_leaves=[(57, 101)], sigla_leaves=[24]),
+         # Hayley (notes scan alcestisofeuripi00euriuoft; 294 leaves, hidden 0, 8-9, 18-19, 172-173,
+         # 278-279, 289-293; p = leaf - 98 to leaf 171, leaf - 100 from leaf 174): title leaf 7,
+         # contents leaf 17; Introduction pp. xi-lxxxvii = leaves 21-97: A. The Myth of Alcestis (21),
+         # B. The Euripidean Play (29), C. The Critical Basis for the Text (43; from "The editions of
+         # the Alcestis are very numerous" on leaf 53 to the end of the list of editions, translations
+         # and critical essays on leaf 58 a list: left out, leaves 54-57 not read), D. Questions
+         # concerning the Scenic Representation (58), E. The Myth of Alcestis in Ancient Art, by James
+         # M. Paton (61-95), F. Hypotheses of the Play (95-96: his own Greek after Schwartz, not used:
+         # Murray's are; no notes on them), Critical Signs and Abbreviations (97: his apparatus's, not
+         # used); half-title 99, his persons 100, his text with his apparatus pp. 3-52 = leaves 101-150
+         # and Select Conjectures pp. 53-60 = leaves 151-157 (not used); Critical and Exegetical Notes
+         # pp. 61-167 = leaves 159-267 (one column; critical and exegetical notes mixed; "Verse 1.",
+         # then a bold figure opening an indented paragraph, further bold lemmas run on inside it);
+         # Metrical Appendix from p. 169 = leaf 269 (not transcribed).
+         text_leaves=[(57, 101)], sigla_leaves=[24], notes_leaves=[(159, 267)], intro_leaves=[(21, 53), (58, 95)],
+         # the introduction document, as the Medea's: Hayley's introduction, then Murray's ancient
+         # hypotheses with his apparatus (vol. I leaves 54-55), then Murray's persons page (leaf 56);
+         # merged in this order (the stems p-1…, p-2…, p-3…)
+         notes_sources={"intro": [("alcestisofeuripi00euriuoft", [(21, 53), (58, 95)]),
+                                  ("euripidisfabulae01euriuoft", [(54, 55)]),
+                                  ("euripidisfabulae01euriuoft", [(56, 56)])]}),
     Play("lysistrata", "Λυσιστράτη", "Lysistrata", "Ἀριστοφάνης", "Aristophanes", "tlg0019.tlg007",
          "Aristophanis Comoediae, recognoverunt brevique adnotatione critica instruxerunt F. W. Hall et W. M. Geldart, tomus II, Oxford, Clarendon Press, 1907",
          "aristophaniscomo02arisuoft", "hall-geldart", "F. W. Hall and W. M. Geldart", "aristophanes_lysistrata_hall_geldart",
@@ -971,6 +994,11 @@ def perseus_number_map(lines: list[tuple[str, str]], pers: dict) -> dict[str, st
 
 # ---------------------------------------------------------------- translations
 
+# a stage direction of the translation this short, before the words of a verse or a speech, says
+# how the speaker speaks and stays with the speech (perseus_translation, stages_apart)
+SPEAKER_DIRECTION_WORDS = 4
+
+
 def _stage_text(text: str) -> str:
     """A stage direction set apart: without the parentheses or the opening bracket Perseus keeps
     round it ("(within)." -> "within.", "[Exit Attendant …" -> "Exit Attendant …")."""
@@ -986,8 +1014,11 @@ def perseus_translation(path: Path, stages_apart: bool = False) -> list[tuple[st
     """A Perseus translation in verse-numbered TEI: (Perseus line number, speaker, text) for each
     <l>, and ("!", "", text) for a stage direction between verses; the display line n="0" left out;
     a stage direction inside a verse kept in parentheses, or with `stages_apart` (Play.
-    trans_stages_apart) set apart as a ("!", "", text) row of its own: before the verse when it
-    stands before the verse's words ("(within). Ah, me!"), else after it."""
+    trans_stages_apart) set apart as a ("!", "", text) row of its own, after the verse (before it
+    when it stands before the verse's words); but a short direction before the words of a verse
+    or a speech (Coleridge's "MEDEA (within)."; "(To the Nurse.)"), which says how the speaker
+    speaks, stays at the head of the verse's text in parentheses, "(within) Ah, me!", as the
+    Clouds' and the Agamemnon's translations show such directions."""
     from lxml import etree
 
     root = etree.parse(str(path)).getroot()
@@ -1013,6 +1044,11 @@ def perseus_translation(path: Path, stages_apart: bool = False) -> list[tuple[st
             parts.append(child.tail or "")
         return "".join(parts)
 
+    head: list[str] = []  # short directions waiting for the words of the speech (stages_apart)
+
+    def short(st: str) -> bool:
+        return len(st.split()) <= SPEAKER_DIRECTION_WORDS and not st.startswith("[")
+
     def walk(node) -> None:
         for child in node:
             if not isinstance(child.tag, str):
@@ -1032,8 +1068,11 @@ def perseus_translation(path: Path, stages_apart: bool = False) -> list[tuple[st
                     seen_words = bool((child.text or "").strip())
                     for sub in list(child):
                         if isinstance(sub.tag, str) and etree.QName(sub).localname == "stage":
-                            st = _stage_text("".join(sub.itertext()))
-                            if st:
+                            raw = re.sub(r"\s+", " ", "".join(sub.itertext())).strip()
+                            st = _stage_text(raw)
+                            if st and not seen_words and short(raw):
+                                head.append(st.rstrip(".").strip())
+                            elif st:
                                 (after if seen_words else before).append(st)
                             # the stage's place keeps a space between the words round it
                             prev = sub.getprevious()
@@ -1048,12 +1087,19 @@ def perseus_translation(path: Path, stages_apart: bool = False) -> list[tuple[st
                 text = re.sub(r"\s+", " ", text_of(child)).strip()
                 text = re.sub(r"\(\s+", "(", re.sub(r"\s+\)", ")", text))
                 out.extend(("!", "", st) for st in before)
+                if text and head:
+                    text = "".join(f"({h}) " for h in head) + text
+                    head.clear()
                 if text:
                     out.append((n, speaker[0], text))
                 out.extend(("!", "", st) for st in after)
             elif tag == "stage":
                 st = re.sub(r"\s+", " ", "".join(child.itertext())).strip()
-                if st:
+                if st and stages_apart and etree.QName(node).localname == "sp" and short(st) \
+                        and child.getprevious() is not None and etree.QName(child.getprevious()).localname == "speaker":
+                    # a direction between the speaker's name and the speech's first verse
+                    head.append(_stage_text(st).rstrip(".").strip())
+                elif st:
                     out.append(("!", "", st))
             elif tag in ("speaker", "note", "head", "milestone", "pb"):
                 pass

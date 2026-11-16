@@ -475,6 +475,10 @@ HAND_ANALYSES: dict[str, dict[str, tuple[str, str]]] = {
         "1180 δρομήμασιν": ("δρόμημα", "n-p---nd-"),    # the trees: δραμήμασιν
         "1181 ἔκπλεθρον": ("ἕκπλεθρος", "a-s---na-"),   # with κῶλον
         "1255 χρυσέας": ("χρύσεος", "a-s---fg-"),       # with γονᾶς
+        # round 2 (after the emulator check): names the trees tag feminine
+        "6 Πελίᾳ": ("Πελίας", "n-s---md-"),
+        "486 Πελίαν": ("Πελίας", "n-s---ma-"),
+        "746 Ἥλιον": ("Ἥλιος", "n-s---ma-"),
     },
     "theogony": {
         "116 γένετʼ": ("γίγνομαι", "v3saim---"),  # the treebank has γενέτης
