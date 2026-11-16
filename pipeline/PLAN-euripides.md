@@ -236,6 +236,18 @@ own text): rewrite each at its turn as the Medea's was.
 
 ## Progress
 
+* **2026-11-17, Alcestis: text reviewed and merged.** First pass 8 agents, 1.03 M tokens;
+  no residual pass; review 8 agents, 1.29 M, 24 `rev:` notes (a row of dots one dot short,
+  an iota subscript in the apparatus, a correction at 528, an elision mark, a space, and
+  notes of what was confirmed). `merge-drama alcestis`: 1,171 verses, 456 apparatus notes
+  (554 items), no word without lemma, review list only 34 words (the GLAUx trees for this
+  play are on Murray's own text), Coleridge 504 segments, 6 merge remarks (five apparatus
+  numbers on verses a longer verse covers: 399, 439, 449, 981, 1005; one translation line).
+  Private commits to "Alcestis: Murray's text and critical apparatus merged". The text cost
+  2.3 M agent tokens (the Medea's 3.7 M, a Sophocles play's 8–10 M). Running: the set-up of
+  Hayley's commentary and introduction (log build/logs/alcestis-prose-setup.md).
+
+
 * **2026-11-17, Medea built for the author; emulator check running.** Finishing agent's
   report (log build/logs/medea-finish-agent.md; public commit 081018f; private a94f6ca): the
   play is in data/catalog-author.json only; `check` 0 errors; no verse renumbered (every
