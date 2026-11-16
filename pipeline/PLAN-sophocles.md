@@ -617,6 +617,15 @@ The metrical analyses are not transcribed (as for Ajax and Electra).
   author's to decide** (current build: 0.7.0, version code 19). Side note from the agent, not
   changed: in Koine a word beginning with a stress mark gets its highlight one word late.
 
+* **2026-11-17, the read-aloud fix verified on the emulator**: the native library rebuilt
+  by Gradle from the patched sources (object files and the bundle's .so checked); 15
+  read-aloud starts, 0 crashes: Philoctetes from verse 1 nine times after a force-stop (it
+  crashed twice out of two before), from verse 9 three times, the long sentence Ephesians
+  1:3–14 and Hebrews 1:1–4 in Koine, Odyssey 1–12 in Homeric; nothing in the log; the
+  highlight moves steadily word by word and through the sentence ends. Record in
+  build/agent-scratch/emulator-speech/. **Left for the author: a reader release with the fix**
+  (the build is 0.7.0, version code 19; nothing built or prepared).
+
 ## Decisions
 
 * 2026-11-15: order by least work left (Trachiniae first).
