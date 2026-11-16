@@ -264,15 +264,17 @@ own text): rewrite each at its turn as the Medea's was.
   mark `\*` (drama.escape_footnote_marks, in write_prose_documents: 41 marks in the commentary, 88
   in the introduction; every paragraph's italics now pair); (2) "Exit PHERES." stood one clause late
   (after "Now, since …"): a direction set apart among a verse's words now starts the speech's next
-  verse with the words after it (perseus_translation). Elsewhere, not rebuilt: the Medea's English
-  at 895/900 would change at its next merge (Enter the Children before "Take his right hand", as in
-  Perseus); the Agamemnon's commentary has a stray asterisk ("slowly *to", its batch to mend) that
+  verse with the words after it (perseus_translation). The Medea was merged and built again for the
+  author with the same rule (its English at 895/900: Enter the Children before "Take his right
+  hand", as in Perseus; private 549c28a). Elsewhere, not rebuilt: the Agamemnon's commentary has a stray asterisk ("slowly *to", its batch to mend) that
   the escape would show; the Shepherd of Hermas's introduction (lake_merge, not this writer) has 6
   "[Note: *" marks and unpaired italics. App behaviour seen again, not changed: taps land left of the
   drawn word, the drift growing towards the line's end (verse 1: the last word cannot be opened); a
   long English segment clipped in the side-by-side view; a name's glossary entry hidden by a short
   definition; the app ignores `release`, so a held-back text shows in the shop only with a sale mark
-  in a scratch catalogue.
+  in a scratch catalogue. **The Alcestis is finished for the author's own use (2026-11-16).**
+  Token use: first check of the prose 4.2 M (24 agents), second reading 3.5 M (24 agents, 46
+  corrections, six batches without any), finishing 0.64 M + 0.04 M, emulator check 0.53 M.
 
 * **2026-11-17, Alcestis prose: set up, drafted, first check running.** Set-up agent's
   report (log build/logs/alcestis-prose-setup.md; public commit 02e0be7; private 289900e):
