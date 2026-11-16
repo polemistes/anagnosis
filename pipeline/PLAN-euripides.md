@@ -216,6 +216,21 @@ own text): rewrite each at its turn as the Medea's was.
 
 ## Progress
 
+* **2026-11-17, Medea, text.** Batch 01 ran alone as the trial (clean: 74 apparatus items on
+  six pages, checker silent); batches 02–10 followed. First pass of all ten: 1.27 M agent
+  tokens for 57 pages (the Sophocles plays took two to three times that per page: the check
+  text being the same edition, there is little to decide). Committed in private/ (9b1a745).
+  What the agents found that the flags cannot see: **Perseus's OCR lost Murray's daggers**
+  (three verses in batch 08, more in 02, 06, 09: the opening dagger turned into a capital or
+  dropped) and some accents (19 αἰσυμνᾷ). Lyric verses renumbered by Murray's apparatus on
+  pp. 122, 130, 143. `drama-residuals medea`: 235 residuals (punctuation 80, accent 76,
+  ocr-only 48, word 18, bracket 13). **Running: the residual pass** (ten jobs, nine at once;
+  `drama-pass.workflow.js` now takes `edition`). Then the review, whose `extra` text must add
+  to the five Sophocles points: look on every page for Murray's daggers †, brackets and
+  marks of lacunae that the check text lacks; the transposed verses 1271–1274 stay in his
+  printed order with his numbers.
+
+
 * **2026-11-16, set-up** (agent; log `pipeline/build/logs/euripides-setup.md`): private folder,
   safeguards, release dates and this plan; the Medea's entry, leaves and draft (see below).
 * **2026-11-16, Medea route step 1-2 done.** `private-setup medea` (private/ has its own git;
