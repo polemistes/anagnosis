@@ -733,6 +733,15 @@ LEMMA_FIXES: dict[str, dict[str, str]] = {
         "Αἰγίνη": "Αἴγινα",
         "μητραλοίης": "μητραλοίας",
         "Συρακούσιος": "Συρακόσιος",  # 6.6, 20.26 Συρακοσίου
+        # lemmas among the analyser's readings that are no dictionary headword, chosen in the checking
+        # pass over the speeches without trees (the reading is right, the lemma's spelling is not)
+        "πρὶν": "πρίν",
+        "πλὴν": "πλήν",
+        "εἰτε": "εἴτε",
+        "ἀέκων": "ἄκων",
+        "πρότερον": "πρότερος",
+        "πότερον": "πότερος",
+        "θᾶττον": "ταχύς",
     },
     "trachiniae": {
         # AGDT lemmas misspelt or in another dialect's form than the words of the text (the form

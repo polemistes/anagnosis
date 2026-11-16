@@ -771,7 +771,7 @@ Nothing here blocks the text batches. In the order in which an answer is needed:
 - [x] Step 4: text and apparatus batches, first pass (2026-11-16, run by the main session): all 45 batches checked by agents against the crops
 - [x] Step 5: second passes (2026-11-16, the main session): the residual pass on all 45 batches (71 corrections) and the independent review of all 45 (35 corrections); commit 1e8aef8. Both stayed for the whole text: each caught errors the pass before had left
 - [x] Step 6: merge and the checks (2026-11-16): `merge-lysias`: 1,145 lines (1,116 sections of 1,116), 34 speeches, 280 paragraphs, from 269 pages; 4,091 apparatus items under 1,061 sections; 0 problems. The 19 serious lemma misses looked up on the page and settled (none a slip of the text: `SETTLED`), 568 weak ones sampled (no class of fault); the pages flagged at set-up looked at; the misprint tables (6 in the text, 6 in the apparatus). See Decisions
-- [x] Step 7: words and syntax (2026-11-16): each speech aligned to its own trees (AGDT 1, 14, 15, 23; GLAUx for the rest, hand-made for 24; none for 12, 13, 19); the label by speech (`# syntax-by-book`, `syntax_by_book` in the built meta table); 56,484 words, none without a lemma; 6,923 syntax nodes; the review list (830 words) gone through: what it was and what was done under Decisions. The reader's change is described under "The reader" and not made. Still to do: the checking pass over the words of 12, 13, 19 (prepared: "The words without trees"; the control jobs first)
+- [x] Step 7: words and syntax (2026-11-16): each speech aligned to its own trees (AGDT 1, 14, 15, 23; GLAUx for the rest, hand-made for 24; none for 12, 13, 19); the label by speech (`# syntax-by-book`, `syntax_by_book` in the built meta table); 56,484 words, none without a lemma; 6,923 syntax nodes; the review list (830 words) gone through: what it was and what was done under Decisions. The reader's change is described under "The reader" and not made. The checking pass over the words of 12, 13, 19 is done and applied: 591 readings changed (Decisions)
 - [ ] Step 8: translations: the 1898 version done in the merge (`eng-1898.txt`: 699 segments of 20 speeches, every one under a section of Hude's text). Gillies: all six speeches (1, 3, 4, 21, 26, 34) fetched, read and drafted (45 pages, 8 batch files, 1,726 flags; the ranges cut back to the orations on the drafts); the brief for his batches (INSTRUCTIONS-prose.md) and for the alignment pass (`transcriptions/lysias/GILLIES-ALIGN.md`), the script `lysias-gillies-align.workflow.js`, the checker `check-gillies-marks`; the arguments under "Hand-over". Still to do: the agents' check and second reading of the batches, the commit, the alignment pass, the merge
 - [x] Step 9: commentaries and introductions (2026-11-16): 21 entries, 493 pages, 74 batches, checked and read a second time by the main session's agents (a412f1e, 62bce24, 364f4a2, a38cf55); merged: `commentary-adams.md` (308 notes, 1,616 paragraphs), `commentary-morgan.md` (90 notes, 432 paragraphs), `commentary-shuckburgh.md` (573 notes, 631 paragraphs under 253 sections), `introduction.md` (Adams's general introduction and a chapter for each of the nineteen speeches), `appendix.md` (Adams's Appendix I–V); the notes log settled (Decisions)
 - [x] Step 10: sigla, glossary, about (2026-11-16): `sigla.md` and `about.md` (`transcriptions/lysias/static/`, copied by the merge); the book names in lower-case Greek with numbers (`hude_merge.SPEECH_NAMES`); `glossary.md` (188 names), `shortdefs.tsv` (21 ordinary words, 185 names, one line for δῆμος), `aliases.tsv` (13), written by hand in `texts/lysias/` (the merge does not touch them); `check`: 2,801 lemmas, none missing from the dictionaries and the glossary, none without a short definition; the texts/README.md section
@@ -1077,6 +1077,24 @@ Nothing here blocks the text batches. In the order in which an answer is needed:
     italics, the bracketed lines, headings in two levels, footnotes as `[Note: …]` paragraphs
     as in the other texts). Gillies is not merged: his marks do not exist yet (the merge names
     speeches 3 and 4 as transcribed but not placed).
+
+* **2026-11-16, the checking pass applied** (the 28 jobs answered by Sonnet agents, checked and
+  committed by the main session, 09546b6; the control: 32 of 56 differing words corrected, the
+  "spoiled" ones differences of convention). The merge reads 4,213 answers and changes the
+  reading of **591 words** of speeches 12, 13, 19 (4.6 % of their 12,860; 203, 205 and 179): the
+  case in 356, the number in 187, the mood in 95, the lemma in 80, the person in 72, the tense
+  in 71, the voice in 46 (a word can change in several); 11 answers were `other:`, one `?`.
+  **A sample read for a class of fault** (all 108 lemma changes; nine of each other kind in their
+  sentences): the choices are right (τὰ ἔργα … γεγένηται nominative, τῆς κατηγορίας genitive
+  singular for the accusative plural, ἐβάδιζον third plural, ἐρωτῶσιν the verb for the
+  participle, σώσω future, τιμωρήσασθε imperative, πλεῖν "more", ἔδει from δεῖ, Ἦ "I was").
+  One class of fault, not the agents' but the list's: seven lemmas among the analyser's readings
+  are no dictionary headword (πρὶν, πλὴν, εἰτε with the wrong accent, epic ἀέκων, the adverbs
+  πρότερον, πότερον, θᾶττον): the reading chosen is right, the lemma is sent to its headword
+  (`LEMMA_FIXES["lysias"]`; 28 words; `Reader.readings` applies the fixes, so a job made again
+  would not offer them). Three short definitions added (πρῶτον, φίλτατος, ὕστατος) and one made
+  to fit (προσδέω, "need besides"). `check`: 2,799 lemmas, none missing, none without a short
+  definition. The merge uses a job file only when it is committed and unchanged.
 
 ## Sizes, for planning
 
