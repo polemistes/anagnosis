@@ -31,12 +31,17 @@ class Signature(unittest.TestCase):
         self.assertFalse(_signature(line(["ΕΥΚ.", "1.", "6", "λόγος]", "x"], 251, 2377), W, H))
 
     def test_only_murray(self):
-        self.assertTrue(PLAYS["medea"].foot_signature)
-        self.assertEqual(PLAYS["medea"].verse_size_q, 0.75)
-        self.assertTrue(PLAYS["medea"].app_pitch_cut)
-        self.assertTrue(PLAYS["medea"].metre_labels)
+        # the options for Murray's page are on for the plays read from his Oxford text, and for
+        # no other play
+        murray = {slug for slug, play in PLAYS.items() if play.app_editor == "murray"}
+        self.assertLessEqual({"medea", "alcestis"}, murray)
+        for slug in murray:
+            self.assertTrue(PLAYS[slug].foot_signature, slug)
+            self.assertEqual(PLAYS[slug].verse_size_q, 0.75, slug)
+            self.assertTrue(PLAYS[slug].app_pitch_cut, slug)
+            self.assertTrue(PLAYS[slug].metre_labels, slug)
         for slug, play in PLAYS.items():
-            if slug != "medea":
+            if slug not in murray:
                 self.assertFalse(play.foot_signature, slug)
                 self.assertEqual(play.verse_size_q, 0.5, slug)
                 self.assertFalse(play.app_pitch_cut, slug)
