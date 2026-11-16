@@ -192,7 +192,7 @@
     "syntax_source": "GLAUx (Alek Keersmaekers, KU Leuven): automatic annotation, not checked by hand",
     "syntax_license": "CC BY-SA 4.0",
     "product_id": "hermas_shepherd_lake",
-    "version": "bfb59537b7c215c7"
+    "version": "93374db7378920af"
   },
   {
     "slug": "newtestament",
@@ -390,6 +390,6 @@
     "syntax_source": "GLAUx (Alek Keersmaekers, KU Leuven): automatic annotation, not checked by hand",
     "syntax_license": "CC BY-SA 4.0",
     "product_id": "lucian_truestory_nilen",
-    "version": "6efbe1239b3dae35"
+    "version": "674742fd8fa51474"
   }
 ]

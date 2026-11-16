@@ -356,6 +356,8 @@ manuscripts page, introduction, commentary (Agamemnon, Choephoroi), syntax and r
 
 ## Progress
 
+* **2026-11-17, footnote marks (the author: "Fix the footnotes")**: the Agamemnon's italic stage note after 957 (Sidgwick, running over leaves 139-140) had one unpaired asterisk; notes-06 mended (p-0139 closes its italics), not merged: its next merge brings it. The prose merge (write_prose_documents) now escapes footnote-mark asterisks; at the Agamemnon's next merge that changes nothing else (scratch merge). Log build/logs/footnote-marks.md.
+
 **Paused by the author on 2026-11-02 (Clouds nearly done, Medea at step 3). Resume here.** (Clouds finished on 2026-11-04; Medea step 3 is next.) Every
 result so far is committed; nothing depends on the session that did it.
 
