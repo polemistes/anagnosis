@@ -216,6 +216,28 @@ own text): rewrite each at its turn as the Medea's was.
 
 ## Progress
 
+* **2026-11-17, Medea: text reviewed and merged.** Review back (ten agents, 1.57 M tokens):
+  13 `rev:` notes, about six of substance (an iota subscript and a breathing in the
+  apparatus, one apparatus item split off, the exclamation at 1055a/1056 numbered as
+  Murray's apparatus files it, a paragraphos dash at 1275, an evident misprint αλλʼ at 523
+  noted); most pages needed nothing. With the residual pass's one change this confirms the
+  decision above: **no residual pass for the next plays from Murray**. `merge-drama medea`:
+  1,407 verses, 642 apparatus notes (799 items), Coleridge's translation (504 segments),
+  1 word without lemma, review list 194 words, 4 merge remarks (the transposed 1271–1274).
+  Committed in private/ (6e6ea90). The trees: pipeline/sources/glaux/0006-003.xml marks its
+  sentences `analysis="manual"` and reads otherwise than Murray in some 118 words
+  (ἀριστέων for his ἀρίστων at 5): made on a later text; an agent is finding out whose they
+  are and how about.md may describe them. **Running: the set-up of Earle's commentary and
+  introduction for the prose route** (log build/logs/medea-prose-setup.md), no reading agents
+  yet. To do after it: the notes and introduction batches (check, and a second reading where
+  the Greek is dense), Murray's hypotheses and persons (his leaves 102–104) and Sigla
+  (leaf 24), lemma fixes from the review list, glossary, shortdefs, about.md with
+  `# release: 2028-01-01` and `product_id: euripides_medea_murray`, `build --only medea`
+  (author's catalogue), and the app's private build for the author's own use and the
+  emulator check.
+* Agent tokens for the Medea's text: first pass 1.27 M, residual pass 0.87 M, review 1.57 M.
+
+
 * **2026-11-17, Medea, residual pass and review.** Residual pass back (ten agents, 0.87 M
   tokens, four minutes): of the 235 listed items ONE needed a change (a comma at 1178); the
   rest were Tesseract's own slips, since print and check text are one edition. The three
