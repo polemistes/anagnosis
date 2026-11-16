@@ -93,6 +93,13 @@ FILES = {
        for n in ("0019-003", "0019-007", "0019-009", "0006-002", "0006-003", "0006-017")},
     # GLAUx for Lucian's A True Story (automatic syntax, aligned to Nilén's words)
     "glaux/0062-012.xml": f"{RAW}/alekkeersmaekers/glaux/main/xml/0062-012.xml",
+    # Lysias (pipeline/PLAN-lysias.md): the Perseus text of the 34 speeches (Lamb's Loeb Greek: the
+    # check text for Hude's Oxford text, never shipped), GLAUx for each speech (automatic syntax),
+    # and the anonymous literal translation of 1898 (Project Gutenberg #6969, twenty speeches)
+    **{f"drama/tlg0540.tlg{n:03d}.perseus-grc2.xml":
+       f"{RAW}/PerseusDL/canonical-greekLit/master/data/tlg0540/tlg{n:03d}/tlg0540.tlg{n:03d}.perseus-grc2.xml" for n in range(1, 35)},
+    **{f"glaux/0540-{n:03d}.xml": f"{RAW}/alekkeersmaekers/glaux/main/xml/0540-{n:03d}.xml" for n in range(1, 35)},
+    "gutenberg/pg6969.txt": "https://www.gutenberg.org/cache/epub/6969/pg6969.txt",
     # The Athenian Society's Aristophanes (1912): Lysistrata, Frogs
     **{f"gutenberg/pg{n}.txt": f"https://www.gutenberg.org/cache/epub/{n}/pg{n}.txt" for n in (8688, 8689)},
 }

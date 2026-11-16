@@ -203,6 +203,10 @@ class Play:
     # edition (the Medea: the Pedalion trees, made on a later text); "" = "automatic" for GLAUx,
     # nothing for an AGDT treebank
     syntax_note: str = ""
+    # leaves the scan's own page list hides (scandata: "Delete") that are pages of the text all
+    # the same (Hude's Lysias: two openings exist only as the camera's uncropped frames, leaves
+    # 36-37 and 44-45, which the Archive's reader therefore lacks): kept by visible()
+    unhide: tuple[int, ...] = ()
 
     @property
     def perseus(self) -> str:
@@ -231,7 +235,7 @@ class Play:
         """The kind's leaves without those the scan hides (scandata.xml: a leaf the Archive left
         out of its page images, a duplicate or an interleaved sheet). For a Jebb-layout volume the
         text is on every other shown leaf from the first, the translation on the leaves facing it."""
-        hidden = hidden_leaves(self.scan_for(kind))
+        hidden = hidden_leaves(self.scan_for(kind)) - set(self.unhide)
         if self.layout == "jebb" and kind in ("text", "trans"):
             shown = [l for a, b in (self.text_leaves if kind == "text" else self.trans_leaves)
                      for l in range(a, b + 1) if l not in hidden]
@@ -625,6 +629,27 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
              "intro": [("apostolicfathers02lakeuoft", [(14, 17)]), ("shepherdofhermas0000herm", [(13, 58)]),
                        ("shepherdofhermas02hermuoft", [(139, 143)])],
          }),
+    # Lysias, the 34 speeches as one text (pipeline/PLAN-lysias.md): Hude's Oxford text and critical
+    # apparatus, read by hude_pages.py (prose, by printed line; the unit of grc.txt is the
+    # speech.section, the speeches being the text's books). The check text is the 34 Perseus files
+    # tlg0540.tlg001-034 (Lamb's Loeb Greek, never shipped); `tlg` names the author only.
+    Play("lysias", "Λόγοι", "Speeches", "Λυσίας", "Lysias", "tlg0540",
+         "Lysiae orationes, recognovit brevique adnotatione critica instruxit Carolus Hude, Oxford, Clarendon Press, 1912",
+         "orationesrecogno00lysi", "hude", "C. Hude", "lysias_speeches_hude",
+         route="hude", pronunciation="attic",
+         # the Oxford page, as Murray's: the apparatus items' numbers without a stop, a long
+         # apparatus reaching high up the page, the printer's signature under it ("LYS. 1", "1*")
+         app_bare_numbers=True, verse_size_q=0.75, foot_signature=True, app_pitch_cut=True,
+         # Hude prints no page numbers in the text. Scan orationesrecogno00lysi: 308 leaves (0-307),
+         # hidden 0, 36, 37, 44, 45 and 307. Leaves 36-37 and 44-45 are pages of speech 2 that the
+         # scan keeps only as uncropped camera frames marked "Delete" (the Archive's reader skips
+         # them): they are used (unhide; cut to the page by hude_pages.FRAMES). Page image n = leaf
+         # - 1 up to leaf 35, leaf - 3 for 38-43, leaf - 5 from 46. Series title leaf 5, title page leaf 7,
+         # praefatio pp. iii-x = leaves 9-16 (signed Rome, 1 December 1911), SIGLA leaf 18, speeches
+         # I-XXXIV leaves 19-287 (each speech begins on a fresh page), XXXV (the Eroticus, from
+         # Plato's Phaedrus; not part of this text) leaves 288-292, Index nominum 293-296, the
+         # publisher's list (dated August 1914) from 297
+         text_leaves=[(19, 287)], sigla_leaves=[18], intro_leaves=[(9, 16)], unhide=(36, 37, 44, 45)),
 ]}
 
 

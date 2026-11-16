@@ -32,7 +32,8 @@ class Signature(unittest.TestCase):
 
     def test_only_murray(self):
         # the options for Murray's page are on for the plays read from his Oxford text, and for
-        # no other play
+        # no other play (Hude's Lysias, another Oxford text of the same years, shares the page's
+        # options but not the metrical labels: tests/test_lysias.py)
         murray = {slug for slug, play in PLAYS.items() if play.app_editor == "murray"}
         self.assertLessEqual({"medea", "alcestis"}, murray)
         for slug in murray:
@@ -41,7 +42,7 @@ class Signature(unittest.TestCase):
             self.assertTrue(PLAYS[slug].app_pitch_cut, slug)
             self.assertTrue(PLAYS[slug].metre_labels, slug)
         for slug, play in PLAYS.items():
-            if slug not in murray:
+            if slug not in murray and play.route != "hude":
                 self.assertFalse(play.foot_signature, slug)
                 self.assertEqual(play.verse_size_q, 0.5, slug)
                 self.assertFalse(play.app_pitch_cut, slug)

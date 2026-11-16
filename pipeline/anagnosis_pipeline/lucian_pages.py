@@ -86,23 +86,31 @@ def page_of(play: Play, leaf: int) -> int:
 
 _ELISION = re.compile(r"(?<=[Ͱ-Ͽἀ-῿])['’᾽](?=\s|$|[,.;·:!?)\]⟩—])")
 SEC, PARA, VERSE, VEND, GAP = "", "", "", "", ""
+HEAD, QOPEN, QCLOSE = "\ue005", "\ue006", "\ue007"
 
 
-def perseus_prose(path: Path) -> tuple[list[dict], list[dict]]:
+def perseus_prose(path: Path, book: str = "", quotes: bool = False, headings: bool = False) -> tuple[list[dict], list[dict]]:
     """The words of a Perseus prose text divided into books and sections (div subtype book /
     section), in order: {'t' (the word as written, with its punctuation and brackets), 'skel',
     'sec' ('1.7'), 'newsec' (a section begins at it), 'para' (a <p> begins at it), 'glued' (no
     space before it), 'verse' (a line of verse begins at it), 'inverse', 'gap' (Perseus marks
     lost text after it), 'label': False}; and the notes taken out of the text: {'sec', 'after'
     (the index of the word the note follows, -1 before the first), 'n', 'text'}. A note in a
-    heading belongs to the first section after it."""
+    heading belongs to the first section after it.
+
+    For a work that is one file of a collection, without book divisions (a speech of Lysias,
+    hude_pages.py): `book` is the number its sections are counted under ('12' gives 12.7);
+    `quotes` writes a <q> as ‘…’ (the closing mark is kept apart from the elision sign);
+    `headings` marks the words of a <label> (the Μάρτυρες, Νόμος set on a line of their own in a
+    speech) with 'heading': True, and a section that Perseus begins with its label begins at the
+    first word after it."""
     from lxml import etree
 
     root = etree.parse(str(path)).getroot()
     body = root.find(f".//{TEI}body")
     parts: list[str] = []
     notes: list[dict] = []
-    book = [""]
+    book = [book]
 
     def text(s: str | None) -> None:
         if s:
@@ -131,7 +139,17 @@ def perseus_prose(path: Path) -> tuple[list[dict], list[dict]]:
             parts.append(f" {PARA} ")
         if tag == "l":
             parts.append(f" {VERSE}")
+        if tag == "label" and headings:
+            for n in el.iter(f"{TEI}note"):
+                notes.append({"pos": len(parts), "n": n.get("n", ""), "text": " ".join("".join(n.itertext()).split())})
+            bits = [el.text or ""] + [c.tail or "" for c in el.iter() if c is not el and etree.QName(c).localname == "note"] \
+                + ["".join(c.itertext()) + (c.tail or "") for c in el if etree.QName(c).localname != "note"]
+            for w in " ".join(bits).split():
+                parts.append(f" {HEAD}{w} ")
+            return
         open_, close = {"add": ("⟨", "⟩"), "del": ("[", "]")}.get(tag, ("", ""))
+        if tag == "q" and quotes:
+            open_, close = QOPEN, QCLOSE
         parts.append(open_)
         text(el.text)
         for child in el:
@@ -153,6 +171,9 @@ def perseus_prose(path: Path) -> tuple[list[dict], list[dict]]:
         marked.append(p)
     s = greek.nfc("".join(marked))
     s = _ELISION.sub(APOS, s)
+    if quotes:
+        s = re.sub(QOPEN + r"\s*", "‘", s)
+        s = re.sub(r"\s*" + QCLOSE, "’", s)
     s = re.sub(r"([⟨\[“])\s+", r"\1", s)
     s = re.sub(r"\s+([⟩\]”])", r"\1", s)
     out: list[dict] = []
@@ -180,9 +201,16 @@ def perseus_prose(path: Path) -> tuple[list[dict], list[dict]]:
             verse = inverse = True
         gap = GAP in raw
         raw = raw.replace(GAP, "")
+        heading = HEAD in raw
+        raw = raw.replace(HEAD, "")
         if raw:
             tok = {"t": raw, "skel": skel(raw), "sec": sec, "newsec": newsec, "para": para, "glued": glued,
                    "verse": verse, "inverse": inverse, "gap": gap, "label": False}
+            if heading and tok["skel"]:
+                # the label's line is not the section's first word: the marks wait for the word after it
+                tok.update(heading=True, newsec=False, para=False)
+                out.append(tok)
+                continue
             if tok["skel"]:
                 out.append(tok)
                 newsec = para = verse = False

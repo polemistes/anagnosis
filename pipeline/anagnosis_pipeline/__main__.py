@@ -92,6 +92,18 @@ def main(argv: list[str] | None = None) -> int:
     hrs.add_argument("--slug", default="hermas")
     mhe = sub.add_parser("merge-hermas", help="texts/hermas/ from the checked batches (lake_merge.py), GLAUx, Lake's translation and notes, Taylor")
     mhe.add_argument("slug", nargs="?", default="hermas")
+    hup = sub.add_parser("hude-pages", help="Lysias from Hude's Oxford text by OCR (hude_pages.py): fetch | ocr | draft (pipeline/build/hude-pages/<slug>/, pipeline/transcriptions/<slug>/)")
+    hup.add_argument("slug")
+    hup.add_argument("step", choices=["fetch", "ocr", "draft"])
+    cly = sub.add_parser("check-lysias-batch", help="check text batch files of Lysias (pipeline/transcriptions/lysias/batch-NN.md)")
+    cly.add_argument("files", nargs="+")
+    cly.add_argument("--slug", default="lysias")
+    lyr = sub.add_parser("lysias-residuals", help="what the checked text of Lysias and the OCR still disagree on, per page, for the residual pass")
+    lyr.add_argument("files", nargs="*")
+    lyr.add_argument("--slug", default="lysias")
+    mly = sub.add_parser("merge-lysias", help="the Greek text and the critical apparatus of Lysias from the checked batches (hude_merge.py), with the lemma check")
+    mly.add_argument("slug", nargs="?", default="lysias")
+    mly.add_argument("--out", default=str(TEXTS), help="the texts folder to write <slug>/ into (default: texts/)")
     sub.add_parser("fetch-nt", help="download the New Testament sources into pipeline/sources/nt/ (SBLGNT, MACULA, Dodson, BSB)")
     sub.add_parser("import-nt", help="texts/newtestament/ from the SBLGNT, MACULA, Dodson and the Berean Standard Bible")
     sub.add_parser("prepare-autenrieth-pages", help="page images and OCR drafts for transcribing Autenrieth's Homeric Dictionary (pipeline/build/autenrieth-pages/)")
@@ -289,6 +301,27 @@ def main(argv: list[str] | None = None) -> int:
     elif args.cmd == "merge-hermas":
         from .lake_merge import merge as merge_hermas
         return 1 if merge_hermas(args.slug, SOURCES, TEXTS, ROOT / "pipeline" / "build", DATA / "lexicon.sqlite") else 0
+    elif args.cmd == "hude-pages":
+        from . import hude_pages
+        hude_pages.main([args.slug, args.step])
+    elif args.cmd == "check-lysias-batch":
+        from .hude_pages import check_batch as check_lysias
+        bad = 0
+        for f in args.files:
+            problems = check_lysias(args.slug, Path(f), SOURCES)
+            print(f"{f}: {len(problems)} remarks")
+            for p in problems:
+                print("  " + p)
+            bad += len(problems)
+        return 1 if bad else 0
+    elif args.cmd == "lysias-residuals":
+        from collections import Counter
+        from .hude_pages import residuals as lysias_residuals
+        r = lysias_residuals(args.slug, [Path(f) for f in args.files] or None)
+        print(f"{len(r)} residuals: " + ", ".join(f"{k} {v}" for k, v in Counter(x["kind"] for x in r).most_common()))
+    elif args.cmd == "merge-lysias":
+        from .hude_merge import merge as merge_lysias
+        return 1 if merge_lysias(args.slug, SOURCES, Path(args.out), ROOT / "pipeline" / "build") else 0
     elif args.cmd == "fetch-nt":
         from .nt import fetch_nt
         fetch_nt(SOURCES)
