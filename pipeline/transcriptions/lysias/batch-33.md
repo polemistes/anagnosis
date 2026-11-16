@@ -37,7 +37,7 @@
 10	⟨καὶ⟩ θανάτῳ Brulart
 13	γνώσεσθε X
 15	ταῦτα om. C
-16	οὕνεκα L
+16	ούνεκα L
 22	τὰς αἰτίας· αἰσχρὸν δʼ Dobree: δὲ τὰς αἰτίας αἰσχρὸν L
 24	ψηφίσησθε. ἐρώτησις C
 --- notes
@@ -46,6 +46,7 @@
 211.18	τὴν added before βουλήν, as printed
 211.16	apparatus 16: οὕνεκα: the acute is clear, the breathing is not distinct (the point of the angle bracket of the item above touches it); written rough as on 213 (app. 19) and 215 (app. 16), where the same reading is printed with a clear rough breathing: to be checked
 211.24	apparatus 24: the lemma ψηφίσησθε. ends in a full stop, then ἐρώτησις C on the next printed line; partly under a library stamp but legible
+211.16	rev: misprint: apparatus item 16 ούνεκα L, as printed, without a breathing (enlarged with the contrast raised: only the acute stands over the υ, and the point of the angle bracket in the line above ends clear of it); the same reading is printed οὔνεκα with a smooth breathing on 213 (app. 19) and 215 (app. 16), not rough as the note above says; was οὕνεκα
 
 === p-0212
 --- text
@@ -147,7 +148,7 @@
 14	μὲν om. Aldus
 15	πορεύσεσθαι Frohberger: τούτῳ τῷ λόγῳ οὐκ ἐλεήσεσθαι Weidner
 17	ὑμῖν C: ἡμῖν X et Suidas s. v. ἄξιον
-19	ἕνεκα C: οὕνεκα X
+19	ἕνεκα C: οὔνεκα X
 21	νῦν Hofmeister: νυνὶ L
 23	ὠνούμενοι Dobree
 --- notes
@@ -159,6 +160,7 @@
 213.20	ἡμέρας lower case, as printed (the draft had Ἡμέρας)
 213.25	δέῃ with iota subscript and no comma after ἐθέλουσιν, as printed (seen on the image while checking the page)
 213.27	ὑμετέρᾳ with iota subscript, as printed
+213.19	rev: apparatus item 19 οὔνεκα X with smooth breathing and acute, as printed (enlarged: the same mark as on ἔτι in item 6, unlike the rough breathing of ἕνεκα beside it); was οὕνεκα
 
 === p-0214
 --- text
@@ -250,7 +252,7 @@
 8	λαμβάνειν ⟨ἢ παρὰ τῶν ὁμολογούντων⟩ Contius
 10	κοινοὶ Dobree
 12	τούτων Kayser: αὐτῶν L
-16	οὕνεκα X (it. 17)
+16	οὔνεκα X (it. 17)
 16	παραδείγματος del. Dobree
 17	⟨καὶ⟩ οὕτω Hirschig
 20	αἱροῦνται C: αἰτοῦνται X
@@ -265,6 +267,7 @@
 215.13	ἂν as printed, the check text has ἐὰν
 215.24	πολὺ added before μᾶλλον, as printed
 215.16	apparatus 16: οὕνεκα with rough breathing (compared with the smooth breathing of εἴη on 215.7 and αὐτῶν in the apparatus)
+215.16	rev: apparatus item 16 οὔνεκα X (it. 17) with smooth breathing and acute, as printed (enlarged: the V-shaped mark of smooth breathing and acute, as on ἔτι on 213, app. 6; the rough breathing and acute of οὕτω in item 17 just below is a different, c-shaped mark); was οὕνεκα
 
 === p-0216
 --- text

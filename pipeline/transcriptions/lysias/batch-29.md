@@ -294,7 +294,7 @@
 13	πρόσθεν C
 14	οἳ Taylor: καὶ L
 16	πλεῖον L
-17	ἐνειμάσθην δὲ τὼ υἱέε C: ἐνειμάσθη δὲ τῷ υἱεὶ X
+17	ἐνειμάσθην δὲ τὼ υἱέε C: ἐνειμάσθη δὲ τῶ υἱεὶ X
 18	ἑκατέρω L: corr. Reiske
 19	πλέον L
 19	ταλάντων L: corr. Reiske
@@ -310,6 +310,7 @@
 191.19	Θαλλοῦ (circumflex on the last syllable) as printed
 191.22	[ἦν] followed by a raised stop, as printed
 191.22	apparatus: “Taylor” has a broken r on the page (looks like Tayloι); written Taylor
+191.17	rev: apparatus item 17: X's reading τῶ υἱεὶ printed without iota subscript (τῶ, not τῷ), as printed
 
 === p-0192
 --- text
