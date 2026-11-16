@@ -561,6 +561,25 @@ The metrical analyses are not transcribed (as for Ajax and Electra).
   pass 4.0 M, residuals 2.0 M, review 4.1 M, prose 1.9 M, finishing 0.85 M. Oedipus Tyrannus:
   first pass 2.0 M, residuals 1.4 M, review 2.6 M, prose 3.9 M, finishing 0.85 M.
 
+* **2026-11-17, Philoctetes emulator check done** (10 GB free). Works: shop, verses, every
+  division once and in order, apparatus, sigla, the transcribed commentary (twelve notes read
+  on screen: clean), introduction with footnotes, Appendix, translation, word sheet, syntax
+  notice. **Faults in the data**, being fixed by the finishing agent (Round 2 in its log):
+  lyric sub-headings repeated at every change of speaker in the second kommos (so 1173a and
+  1176a are not staggered); Jebb's asterisk before a conjecture unescaped in commentary notes
+  147, 177 and apparatus 177, 587, 1003 (italics run on); "retains tains" in note 177; a
+  stray caret in the argument; a stage direction inside the English speech at 1215 and three
+  lost spaces in the translation. The agent is to look for the same in the other three plays.
+  **AN APP CRASH, not yet looked into**: reading aloud from verse 1 of the Philoctetes after
+  a fresh start crashes the app (SIGSEGV in libanagnosisspeech.so, `LookupDict2` called from
+  `LookupLetter`), twice out of two; once also from verse 9; it works from verses 3, 8–12,
+  987, and the Odyssey reads fine. To do: find the word or character that triggers it (the
+  screenshots and the agent's notes are in build/agent-scratch/emulator-philoctetes/), fix
+  the speech code, and check whether any text on sale can trigger it. App behaviour noted
+  again: the English of a lettered part clipped at the foot of the page; a tap on a word
+  registering a little to the left of it; "Second kommos" and "Strophe 1" left alone at the
+  foot of a page.
+
 ## Decisions
 
 * 2026-11-15: order by least work left (Trachiniae first).

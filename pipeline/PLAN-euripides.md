@@ -216,6 +216,16 @@ own text): rewrite each at its turn as the Medea's was.
 
 ## Progress
 
+* **2026-11-17, Medea prose.** Set-up agent's report (log build/logs/medea-prose-setup.md;
+  public commit a631275, private d7cee8c): Earle's notes 175 pages, 22 batches, 2,623 flags,
+  1,039 note headings; introduction 67 pages, 9 batches, 1,021 flags (Earle's introduction 58
+  pages; Murray's hypotheses 2; Earle's notes on the hypothesis 6; Murray's persons 1). The
+  trees are the Pedalion hand-made ones (all 824 sentences), made on a later text than
+  Murray's. **Running: the first check of all 31 batches** (nine at once). Then: a second
+  reading of four notes batches as a sample, and by its yield the rest; `merge-drama medea`;
+  the finishing steps.
+
+
 * **2026-11-17, Medea: Earle's commentary and introduction set up and drafted** (agent; log
   build/logs/medea-prose-setup.md; no reading agents yet). Commentary (`notes_layout="earle"`:
   everything under the verses, found by the first run of three two-column rows, drama_prose.
