@@ -149,6 +149,21 @@ def _region(play: Play, kind: str, leaf: int, lines: list[dict], size: tuple[int
         # under the left column on the notes pages)
         body = [l for l in body if not (l["bbox"][1] > 0.75 * H and re.fullmatch(
             r"MEDEA\s*[—–-]*\s*[\dIl|§]{0,3}\.?", " ".join(w["text"] for w in l["words"]).strip()))]
+    if play.notes_layout == "hayley" and (scan or play.scan_for(kind)) == play.notes_scan:
+        # specks read as a tiny line of a figure or two (a "9" under the running head of p. 62,
+        # which became a note's number)
+        body = [l for l in body if not (l["bbox"][3] - l["bbox"][1] < 26
+                                        and len(" ".join(w["text"] for w in l["words"])) <= 4)]
+        # the running head of the introduction with its page number in small roman figures
+        # ("INTRODUCTION. xiii", "lxxxvi INTRODUCTION."), which is not all capitals
+        body = [l for l in body if not (l["bbox"][1] < 0.1 * H and re.fullmatch(
+            r"(?:\S{1,9}\s+)?INTRODUCTION\.?(?:\s+\S{1,9})?", " ".join(w["text"] for w in l["words"]).strip()))]
+        # the accents of quoted Greek verses read as a line of their own (tiny type, few letters)
+        def letters(t: str) -> float:
+            t = t.replace(" ", "")
+            return sum(c.isalpha() for c in t) / len(t) if t else 0.0
+        body = [l for l in body if not ((l.get("x_size") or 99) < 26
+                                        and letters(" ".join(w["text"] for w in l["words"])) < 0.6)]
     top = 0
     if play.layout == "jebb" and kind == "notes" and play.app_rule == "under":
         return _region_under_rule(play, leaf, body, size)
@@ -541,6 +556,46 @@ def earle_markdown(text: str, cands: list[dict], lead: str = "") -> list[str]:
     return out
 
 
+def hayley_clean(text: str) -> str:
+    """The OCR of Hayley's notes as he prints them: '---', '--', '-—' his spaced dash; the OCR's ¢ for
+    his opening quotation mark ‘."""
+    text = re.sub(r"\s?(?:-{2,4}|-—|—-)\s?", " — ", text)
+    text = text.replace("¢", "‘")
+    text = re.sub(r"\s?:\s?:(?=\s)", " :", text)  # the colon read twice
+    return re.sub(r"\s{2,}", " ", text).strip()
+
+
+# a further lemma of Hayley's (not after the dots of a gap, "εἰ τὴν παροῦσαν . . . γυναῖχ᾽ :", nor after
+# sc., cf., i.e., e.g., v.: "πολλή μ᾽ ἀνάγκη : sc. μητέρα γενέσθαι : μ᾽ is …") inside a note's paragraph: bold Greek after a sentence's end, before
+# his spaced colon ("… θῆσσαν ἑστίαν. αἰνέσαι : Schol. …"); Greek quoted after a reference's figure
+# ("Phoen. 425 οὐ μεμπτὸς … ἡμέρας :") is no lemma
+_HAYLEY_CUT = re.compile(rf"(?<=[.;!?’”)\]])(?<!\.\.)(?<!\.\s\.)(?<![\s(]sc\.)(?<![\s(][cC]f\.)(?<!i\.e\.)(?<!e\.g\.)(?<![\s(]v\.)(?<![\s(]vv\.)\s+(?={_GWORD}(?:(?:\s*\.(?:\s?\.){{1,3}}\s*|\s*…\s*|\s+){_GWORD})*\s?:)")
+_HAYLEY_LEMMA = re.compile(rf"^({_GWORD}(?:(?:\s*\.(?:\s?\.){{1,3}}\s*|\s*…\s*|\s+){_GWORD})*)\s?:")
+
+
+def hayley_lemma(text: str) -> str:
+    """The Greek before Hayley's colon at the start of a piece in bold, the colon outside it without
+    the space he sets before it ("φλόγα : here" -> "**φλόγα**: here"); a piece that does not begin
+    with Greek and a colon is left as it is."""
+    if text.startswith("**"):
+        return text
+    m = _HAYLEY_LEMMA.match(text)
+    if not m:
+        return text
+    return f"**{m.group(1).rstrip()}**:" + text[m.end():]
+
+
+def hayley_split(text: str, first: bool = False) -> list[str]:
+    """A paragraph of Hayley's notes cut before every further lemma (_HAYLEY_CUT), each piece after
+    a cut a paragraph of its own with its lemma in bold, as the other commentaries' further lemmas
+    are written; with `first` the first piece's lemma too (the text after a note's number)."""
+    parts = [x.strip() for x in _HAYLEY_CUT.split(text) if x.strip()]
+    if not parts:
+        return [""]
+    return [hayley_lemma(parts[0]) if first else parts[0]] + [hayley_lemma(x) for x in parts[1:]]
+
+
+HAYLEY_BACK = 15   # how far one of Hayley's notes may stand below the one before it (his order going back)
 NOTE_WINDOW = 100  # how far one note's number may run ahead of the one before (Jebb's notes)
 NOTE_REACH = 80    # how many headings back a note's predecessor in the sequence is looked for
 _DIGIT_LIKE = {"3": "8", "8": "3", "1": "7", "7": "1", "5": "6", "6": "5", "0": "9", "9": "0"}
@@ -573,7 +628,10 @@ def _resolve_note_headings(pages: list[dict], last_line: int = 2000, window: int
     the agent. One misread number thus cannot shut out the notes after it. A candidate marked
     `join` (Earle's notes, which run on inside a paragraph) goes back into the paragraph it was
     cut from: its first piece joined to the text before it on the page (or, if nothing stands
-    before it, written with its `alone` prefix, the page's run-on mark)."""
+    before it, written with its `alone` prefix, the page's run-on mark). A candidate marked `back`
+    (Hayley's notes, every one opening an indented paragraph) whose number as read lies a little
+    below the heading before it (at most `back` lower) is kept as a heading too: the editor's own
+    order going back ("384. … 381. …", a range note after its single notes)."""
     cands = []  # (page, candidate)
     for page in pages:
         for raw in page["md"].split("\n"):
@@ -602,6 +660,7 @@ def _resolve_note_headings(pages: list[dict], last_line: int = 2000, window: int
         while node is not None:
             chosen[id(cands[node[0]])] = opts[node[0]][node[1]][0]
             node = best[node[0]][node[1]][1]
+    last = 0
     for page in pages:
         out: list[str] = []
         for raw in page["md"].split("\n"):
@@ -610,6 +669,16 @@ def _resolve_note_headings(pages: list[dict], last_line: int = 2000, window: int
             if c is None or c.get("kind") != "note":
                 out.append(raw)
                 continue
+            if id(c) not in chosen and c.get("back"):
+                read = c["n"].partition("-")[0]
+                if read.isdigit() and last - c["back"] <= int(read) <= last:
+                    chosen[id(c)] = int(read)
+                    n = int(read)
+                    b = c["n"].partition("-")[2]
+                    out += [f"## {n}" + (f"-{b}" if b and int(b) > n else "")] + [x for piece in c["body"] if piece for x in (piece, "")]
+                    if out[-1] != "":
+                        out.append("")
+                    continue
             if id(c) not in chosen:
                 pieces = list(c["orig"])
                 k = len(out) - 1
@@ -625,6 +694,7 @@ def _resolve_note_headings(pages: list[dict], last_line: int = 2000, window: int
                     out += [piece, ""]
                 continue
             n = chosen[id(c)]
+            last = max(last, n)
             b = c["n"].partition("-")[2]
             out += [f"## {n}" + (f"-{b}" if b and int(b) > n else "")] + [x for piece in c["body"] if piece for x in (piece, "")]
             if out[-1] != "":
@@ -720,6 +790,31 @@ def _reread_strip(scan: str, leaf: int, box: tuple[int, int, int, int]) -> list[
     return out
 
 
+def _omit(play: Play, scan: str, leaf: int, order: list[dict], spans: list | None = None) -> list[dict]:
+    """The page's lines without a stretch Play.prose_omit leaves out; the line after the stretch
+    (or, at the page's end, the line before it) carries the marker to write in its place. The
+    stretch's (top, bottom) is added to `spans` (where the page is not read again for lines the
+    OCR missed)."""
+    for oscan, oleaf, first, last, marker in play.prose_omit:
+        if oscan != scan or oleaf != leaf or not order:
+            continue
+        texts = [" ".join(w["text"] for w in l["words"]) for l in order]
+        a = 0 if not first else next((i for i, t in enumerate(texts) if re.search(first, t)), None)
+        b = len(order) - 1 if not last else next((i for i, t in enumerate(texts) if re.search(last, t) and i >= (a or 0)), None)
+        if a is None or b is None:
+            print(f"{play.slug}: leaf {leaf}: the stretch to leave out was not found ({first!r} … {last!r})")
+            continue
+        if spans is not None:
+            spans.append((min(l["bbox"][1] for l in order[a:b + 1]), max(l["bbox"][3] for l in order[a:b + 1])))
+        order = order[:a] + order[b + 1:]
+        if marker and order:
+            if a < len(order):
+                order[a]["omit_before"] = marker
+            else:
+                order[-1]["omit_after"] = marker
+    return order
+
+
 def analyse_page(play: Play, kind: str, leaf: int, voc, names: set[str], scan: str | None = None) -> dict:
     """The page's text in Markdown with the flagged words, and the data for its crops."""
     from PIL import Image
@@ -732,6 +827,8 @@ def analyse_page(play: Play, kind: str, leaf: int, voc, names: set[str], scan: s
     img = Image.open(sbuild / "pages" / f"leaf_{leaf:04d}.png").convert("L")
     lines = read_lines(ocr_leaf(scan, leaf))
     order, mid = _region(play, kind, leaf, lines, img.size, scan)
+    omitted: list[tuple[int, int]] = []
+    order = _omit(play, scan, leaf, order, omitted)
     no_rule = mid == NO_RULE
     if no_rule:
         mid = 0
@@ -744,6 +841,8 @@ def analyse_page(play: Play, kind: str, leaf: int, voc, names: set[str], scan: s
     # Earle's introduction (his volume's pages read as kind intro, not his notes on the hypothesis):
     # his notes in the outer margin, the verses he quotes, the accents Tesseract reads as a line
     earle_intro = (kind == "intro" and play.notes_layout == "earle" and scan == play.notes_scan and not earle_page)
+    # Hayley's introduction: Greek verses he quotes set in on lines of their own
+    hayley_intro = kind == "intro" and play.notes_layout == "hayley" and scan == play.notes_scan
     if earle_intro:
         order = _earle_margins(order, img.size)
     cols: dict[str, list[dict]] = {}
@@ -761,7 +860,8 @@ def analyse_page(play: Play, kind: str, leaf: int, voc, names: set[str], scan: s
         x1 = max(l["bbox"][2] for l in col) + 10
         extra = []
         for a, b in zip(col, col[1:]):
-            if b["bbox"][1] - a["bbox"][1] > 1.75 * pitch:
+            if b["bbox"][1] - a["bbox"][1] > 1.75 * pitch and not any(
+                    y0 < b["bbox"][1] and a["bbox"][3] < y1 for y0, y1 in omitted):  # not a stretch left out
                 near = {w["text"] for w in a["words"] + b["words"]}
                 strip = (max(0, x0), a["bbox"][1] + int(0.7 * pitch), min(img.width, x1), b["bbox"][1] + int(0.25 * pitch))
                 for l in _reread_strip(scan, leaf, strip):
@@ -808,6 +908,7 @@ def analyse_page(play: Play, kind: str, leaf: int, voc, names: set[str], scan: s
     paras: list[dict] = []
     under = kind == "notes" and play.app_rule == "under"  # Jebb's Sophocles: the commentary under the rule
     earle = kind == "notes" and play.notes_layout == "earle"  # Earle's Medea: notes run on inside paragraphs
+    hayley = kind == "notes" and play.notes_layout == "hayley"  # Hayley's Alcestis: further lemmas run on
     for region, col in cols.items():
         lefts = sorted(l["bbox"][0] for l in col)
         left = lefts[len(lefts) // 5] if lefts else 0
@@ -827,25 +928,31 @@ def analyse_page(play: Play, kind: str, leaf: int, voc, names: set[str], scan: s
             short_end = prev is not None and prev["bbox"][2] < right - 3 * h and re.search(r"[.?!:]['’”)]?$", prev["text"])
             if jebb and prev is not None and prev["bbox"][2] < right - 1.5 * h and re.match(r"^(?:\d{1,2}|[IlΙ1]{1,2})\.\s", text):
                 short_end = True  # an item of a numbered list (the structure of the play) after a short line
-            if under and numbered and indent <= 0.8 * h:
+            if (under or hayley) and numbered and indent <= 0.8 * h:
                 # Jebb begins every note with an indented line: a figure at the start of a line
                 # flush with the column is a reference run on (Thuc. 4. | 117; "7. 110" at the
-                # top of a column)
+                # top of a column; Hayley's "O. C. 1138." read "0. C.")
                 numbered = False
             verse = (earle_intro and not caps and indent > 3 * h and l["bbox"][2] < right - 1.5 * h)
+            if hayley_intro:
+                verse = not caps and indent > 3 * h and l["bbox"][2] < right - 1.5 * h and _greek_share(text) >= 0.5
+                # (his chapter titles are long: "C. THE CRITICAL BASIS FOR THE TEXT." fills 0.63 of the line)
+                centred = (abs((l["bbox"][0] + l["bbox"][2]) / 2 - (left + right) / 2) < 2 * h
+                           and (l["bbox"][2] - l["bbox"][0]) < 0.75 * (right - left))
+                centred = centred and not verse and (caps or _greek_share(text) < 0.3)
             if earle_intro:
                 centred = centred and caps  # Earle centres only his headings; the verses he quotes are set in
             new = (prev is None or indent > 0.8 * h or centred or caps or numbered or bool(short_end)
                    or (prev is not None and prev["caps"]))
             if earle_intro and not verse and not caps and indent > 3 * h and prev is not None and not short_end:
                 new = False  # a line shortened beside a note in the left margin, not a paragraph's start
-            if earle_intro and prev is not None and (verse or prev.get("verse")):
+            if (earle_intro or hayley_intro) and prev is not None and (verse or prev.get("verse")):
                 # the verses he quotes: one paragraph, its lines separated by " | "
                 new = verse != bool(prev.get("verse")) or (not verse and new)
             if (under or earle or earle_page) and prev is None and region == "right" and paras and not (indent > 0.8 * h or numbered or centred):
                 new = False  # the paragraph runs on from the foot of the left column
             entry = {"text": text, "bbox": l["bbox"], "centred": centred, "caps": caps, "margin": l.get("margin"),
-                     "words": l["words"], "verse": verse}
+                     "words": l["words"], "verse": verse, "omit_before": l.get("omit_before"), "omit_after": l.get("omit_after")}
             if new or not paras:
                 paras.append({"lines": [entry], "region": region, "indent": indent > 0.8 * h})
             else:
@@ -863,7 +970,12 @@ def analyse_page(play: Play, kind: str, leaf: int, voc, names: set[str], scan: s
         md = _jebb_markdown(paras, kind, cands)
     for k, p in enumerate([] if jebb else paras):
         text = _join_lines([x["text"] for x in p["lines"]])
+        before = next((x["omit_before"] for x in p["lines"] if x.get("omit_before")), None)
+        if before:
+            md += [before, ""]  # a stretch left out by rule (Play.prose_omit) stood here
         if p.get("foot"):
+            if hayley and not re.search(r"[A-Za-zͰ-Ͽἀ-῿]{4}", text):
+                continue  # specks at the foot of Hayley's page read as a footnote ("A hd", "».»»")
             md.append(f"[Note: {text}]")
             md.append("")
             continue
@@ -883,6 +995,28 @@ def analyse_page(play: Play, kind: str, leaf: int, voc, names: set[str], scan: s
                 c = local[int(mm.group(1))]
                 body = c["body"] or [""]
                 md += [(c["alone"] + c["label"] + " " + body[0]).rstrip()] + [y for piece in body[1:] for y in ("", piece)]
+            continue
+        if hayley:
+            # Hayley's notes: the title over the first page (CRITICAL AND EXEGETICAL NOTES.) and his
+            # bracketed list of the editions he cites from under it are left out (PLAN-drama.md: lists of
+            # editions are not transcribed); the heading is settled over the pages
+            # (_resolve_note_headings); a further lemma inside the paragraph begins one of its own
+            if p["lines"][0]["caps"] and len(p["lines"]) == 1:
+                continue
+            if text.startswith("[") and text.rstrip().endswith("]") and not cands and re.search(r"edition", text):
+                continue
+            text = hayley_clean(text)
+            h = note_heading(text, play.note_start)
+            if h and p["indent"]:
+                cands.append({"kind": "note", "n": h[0], "body": hayley_split(text[h[1]:].strip(), first=True),
+                              "orig": hayley_split(text), "back": HAYLEY_BACK})
+                md += [f"\x00{len(cands) - 1}", ""]
+                continue
+            pieces = hayley_split(text)
+            if k == 0 and not p["indent"]:
+                pieces[0] = "+ " + pieces[0]  # the note runs on from the page before
+            for piece in pieces:
+                md += [piece, ""]
             continue
         if under:
             # Jebb's Sophocles: the heading is settled over the pages (_resolve_note_headings);
@@ -929,6 +1063,25 @@ def analyse_page(play: Play, kind: str, leaf: int, voc, names: set[str], scan: s
                 if not text:
                     continue
                 margins = []
+            elif heading and play.notes_layout == "hayley" and scan == play.notes_scan:
+                # Hayley's introduction: its title and his lettered chapters (A. THE MYTH OF ALCESTIS.)
+                # `# `, the subtitles and numbered parts under them (Its History and Literary
+                # Treatment., I. The Alcestis and the Stage-question.) `## `; the line naming the
+                # chapter's author (BY JAMES M. PATON, PH.D.) a paragraph
+                if re.match(r"^BY\s", text):
+                    md += [text, ""]
+                    continue
+                top = re.match(r"^(?:[A-F]\.\s|INTRODUCTION\b)", text)
+                words = title_case(text) if _capitals(text) else text.strip(" .")
+                words = re.sub(r"^([A-F]\. )(\w)", lambda mm: mm.group(1) + mm.group(2).upper(), words)  # A. The Myth
+                last_md = next((x for x in reversed(md) if x), "")
+                if not top and _capitals(text) and last_md.startswith("# ") and md and md[-1] == "" \
+                        and p["lines"][0].get("caps") and k > 0 and paras[k - 1]["lines"][-1].get("caps"):
+                    # a chapter's title in capitals turned over to a second line (… REPRESENTATION OF | THE PLAY.)
+                    md[-2] = last_md + " " + title_case(text)[:1].lower() + title_case(text)[1:]
+                    continue
+                md += [("# " if top else "## ") + words, ""]
+                continue
             elif heading:
                 md.append("# " + (title_case(text) if _capitals(text) else text.strip(" .")))
                 md.append("")
@@ -949,6 +1102,9 @@ def analyse_page(play: Play, kind: str, leaf: int, voc, names: set[str], scan: s
                 text = "+ " + text
         md.append(text)
         md.append("")
+        after = next((x["omit_after"] for x in p["lines"] if x.get("omit_after")), None)
+        if after:
+            md += [after, ""]
     return {"leaf": leaf, "md": "\n".join(md).strip(), "flags": flags, "lines": lines, "mid": mid,
             "order": idx, "size": list(img.size), "scan": scan, "cands": cands, "no_rule": no_rule}
 
@@ -1028,6 +1184,8 @@ def write_draft(slug: str, kind: str) -> list[dict]:
         _resolve_note_headings(pages, last_line(play))
     if kind == "notes" and play.notes_layout == "earle":
         _resolve_note_headings(pages, last_line(play), EARLE_WINDOW)
+    if kind == "notes" and play.notes_layout == "hayley":
+        _resolve_note_headings(pages, last_line(play))
     top = route_dir("drama-prose", slug, play.scan_for(kind)) if kind not in play.notes_sources else prose_dir(play, kind, play.scan_for(kind)).parent
     index = []
     trans_starts = _greek_speech_starts(slug) if kind == "trans" else {}
@@ -1427,11 +1585,19 @@ def _jebb_markdown(paras: list[dict], kind: str, cands: list[dict]) -> list[str]
 
 def last_line(play: Play) -> int:
     """The highest line number of the check text (the bound of an Appendix note's number), or of
-    texts/<slug>/grc.txt for a play merged without one (Earle's notes on Murray's Medea)."""
-    if not play.check_text and play.notes_layout == "earle":
+    texts/<slug>/grc.txt for a play merged without one (Earle's notes on Murray's Medea), or before
+    that play's text is merged, of its text draft (build/drama-pages/<slug>/draft.json: Hayley's
+    notes on Murray's Alcestis)."""
+    if not play.check_text and play.notes_layout in ("earle", "hayley"):
         path = ROOT / "texts" / play.slug / "grc.txt"
         if path.exists():
             found = [int(m.group(1)) for m in re.finditer(r"^(\d+)[a-z]?\t", path.read_text(encoding="utf-8"), re.M)]
+            if found:
+                return max(found)
+        draft = PIPELINE / "build" / "drama-pages" / play.slug / "draft.json"
+        if play.notes_layout == "hayley" and draft.exists():
+            found = [int(m.group(1)) for v in json.loads(draft.read_text(encoding="utf-8"))
+                     if (m := re.match(r"^(\d+)", str(v.get("n", ""))))]
             if found:
                 return max(found)
     if play.check_text:
@@ -1617,6 +1783,33 @@ def merge_translation(directory: Path) -> list[tuple[str, str, str]]:
 
 _GREEK = re.compile(r"[Ͱ-Ͽἀ-῿][Ͱ-Ͽἀ-῿ʼ’᾽]*")
 _VOWEL_START = re.compile(r"^[αεηιουωρ]", re.I)
+# a reference to Homer by the book's letter: "Hom. Α 282", "Il. Ζ 146, Ι 63", "Od. ε 264"; the
+# letters (and the numbers) that follow the author's or the poem's name
+_HOMER_REF = re.compile(r"(?<![A-Za-z])(?:Hom(?:er)?\.?|Il\.|Od\.)\s*"
+                        r"((?:[A-Za-zͰ-Ͽ]\s*\d{1,3}(?:\s*f{1,2}\.)?(?:\s*[-–]\s*\d{1,3})?\s*[,;]?\s*(?:and\s+)?)+)")
+_HOMER_BOOK = re.compile(r"(?<![A-Za-zͰ-Ͽ])([A-Za-zͰ-Ͽ])\s*(?=\d)")
+
+
+_HOMER_ROMAN_GREEK = re.compile(r"(?<![A-Za-z])(?:Hom(?:er)?\.?|Il\.|Od\.)\s*(?:[IVXL]*[ΙΧ][IVXLΙΧ]*)(?=\.?\s*\d)")
+
+
+def homer_greek_numerals(text: str) -> list[str]:
+    """References to Homer by a roman numeral (Hayley: "Od. XI. 253") in which the numeral holds
+    Greek capitals Ι or Χ (the OCR's reading of the Latin letters), two letters or more: each as
+    read ("Od. ΧΙ")."""
+    return [m.group(0) for m in _HOMER_ROMAN_GREEK.finditer(text) if len(m.group(0).split()[-1]) >= 2]
+
+
+def homer_latin_letters(text: str) -> list[str]:
+    """The references to Homer by book letter in which a book letter is a Latin capital (the OCR's
+    look-alike of the Greek capital: "Hom. A 282" with a Latin A for Α): each as "A 282"."""
+    out = []
+    for m in _HOMER_REF.finditer(text):
+        for b in _HOMER_BOOK.finditer(m.group(1)):
+            if "A" <= b.group(1) <= "Z":
+                num = re.match(r"\s*(\d+)", m.group(1)[b.end(1):])
+                out.append(f"{b.group(1)} {num.group(1) if num else ''}".strip())
+    return out
 
 
 def check_prose(slug: str, kind: str, path: Path, texts: Path) -> list[str]:
@@ -1726,6 +1919,10 @@ def check_prose(slug: str, kind: str, path: Path, texts: Path) -> list[str]:
                     remarks.append(f"{stem}: translation line {mm.group(1)} is not a line of grc.txt")
             if raw != unicodedata.normalize("NFC", raw):
                 remarks.append(f"{stem}: not NFC: “{raw[:40]}”")
+            for ref in homer_latin_letters(raw):
+                remarks.append(f"{stem}: Homer's book letter in “{ref}” is a Latin capital: write the Greek letter")
+            for ref in homer_greek_numerals(raw):
+                remarks.append(f"{stem}: Homer's book in “{ref}” is a roman numeral with Greek capitals: write it in Latin letters")
             for g in _GREEK.findall(raw):
                 letters = unicodedata.normalize("NFD", g)
                 if _VOWEL_START.match(letters) and letters[0].islower() and not re.search("[̓̔]", letters[:4]):

@@ -169,6 +169,12 @@ class Play:
     # notes_leaves / intro_leaves for that kind. Each page's stem carries its volume (p-1NNNN for
     # the first scan, p-2NNNN for the second) so that leaves of two scans never meet
     notes_sources: dict[str, list[tuple[str, list[tuple[int, int]]]]] = field(default_factory=dict)
+    # stretches of a prose page left out by rule (a list of editions inside a chapter of the
+    # introduction, the commentator's own Greek hypothesis): (scan, leaf, first line, last line,
+    # marker): the lines from the first that matches `first` ("" = the page's first) to the last that
+    # matches `last` ("" = the page's end, footnotes included) are not read; `marker` ("" = none) is
+    # written as a paragraph where they stood (drama_prose.analyse_page)
+    prose_omit: list[tuple[str, int, str, str, str]] = field(default_factory=list)
     # the module that reads the text pages: "" (drama_pages, or lucian_pages when page_offset is set),
     # "lake" (lake_pages: the batches in transcriptions/<slug>/, notes headed by the traditional
     # reference, ## Mandate 4.1.2)
@@ -428,6 +434,12 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          notes_editor="hayley", notes_editor_name="Harry Wilson Hayley",
          notes_edition="The Alcestis of Euripides, edited with an introduction and critical and exegetical notes by H. W. Hayley, Boston, Ginn & Company, 1898",
          notes_scan="alcestisofeuripi00euriuoft", notes_layout="hayley", note_start=HAYLEY_NOTE,
+         # a note on a verse Murray's numbering lacks keeps Hayley's number in front (as the Medea's)
+         notes_refile_mark=True,
+         # Murray died in 1957 (as the Medea's entry): the licence line of the files that hold his
+         # text or apparatus (introduction.md too: his hypotheses and persons stand in it)
+         edition_license="CC BY-SA 4.0 (transcription); Murray's edition is in the public domain in the United States, "
+                         "and in Norway, the EU and the UK from 1 January 2028",
          # Murray's page, as for the Medea (see that entry for what each option answers)
          speaker_trust=True, app_bare_numbers=True, verse_size_q=0.75, foot_signature=True, app_pitch_cut=True,
          head_frac=0.065, metre_labels=True,
@@ -440,7 +452,8 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          # the Alcestis are very numerous" on leaf 53 to the end of the list of editions, translations
          # and critical essays on leaf 58 a list: left out, leaves 54-57 not read), D. Questions
          # concerning the Scenic Representation (58), E. The Myth of Alcestis in Ancient Art, by James
-         # M. Paton (61-95), F. Hypotheses of the Play (95-96: his own Greek after Schwartz, not used:
+         # M. Paton (61-95; Paton believed to have died in 1944, so free in Norway since 2015:
+         # unverified, the author to confirm), F. Hypotheses of the Play (95-96: his own Greek after Schwartz, not used:
          # Murray's are; no notes on them), Critical Signs and Abbreviations (97: his apparatus's, not
          # used); half-title 99, his persons 100, his text with his apparatus pp. 3-52 = leaves 101-150
          # and Select Conjectures pp. 53-60 = leaves 151-157 (not used); Critical and Exegetical Notes
@@ -453,7 +466,16 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          # merged in this order (the stems p-1…, p-2…, p-3…)
          notes_sources={"intro": [("alcestisofeuripi00euriuoft", [(21, 53), (58, 95)]),
                                   ("euripidisfabulae01euriuoft", [(54, 55)]),
-                                  ("euripidisfabulae01euriuoft", [(56, 56)])]}),
+                                  ("euripidisfabulae01euriuoft", [(56, 56)])]},
+         # the list of essays on the play at the end of chapter B (leaves 42-43), the list of
+         # editions, translations and essays in chapter C (leaves 53-58; the lines as the OCR reads
+         # them) and Hayley's own Greek of the hypotheses (leaf 95 from his heading F) left out
+         prose_omit=[("alcestisofeuripi00euriuoft", 42, r"^I append a partial list of the essays", "", ""),
+                     ("alcestisofeuripi00euriuoft", 43, "", r"^hand\.$", "[Bibliography omitted]"),
+                     ("alcestisofeuripi00euriuoft", 53, r"^The editions of the Alcestis are very numerous",
+                      r"^Barnes.{0,3} comments may still be consulted", ""),
+                     ("alcestisofeuripi00euriuoft", 58, "", r"^ed\. IV\. p\. 70", "[list of editions omitted]"),
+                     ("alcestisofeuripi00euriuoft", 95, r"^F\. HYPOTHESES OF THE PLAY", "", "")]),
     Play("lysistrata", "Λυσιστράτη", "Lysistrata", "Ἀριστοφάνης", "Aristophanes", "tlg0019.tlg007",
          "Aristophanis Comoediae, recognoverunt brevique adnotatione critica instruxerunt F. W. Hall et W. M. Geldart, tomus II, Oxford, Clarendon Press, 1907",
          "aristophaniscomo02arisuoft", "hall-geldart", "F. W. Hall and W. M. Geldart", "aristophanes_lysistrata_hall_geldart",
@@ -1676,9 +1698,12 @@ def write_prose_documents(play: Play, transcriptions: Path, out: Path, lines: li
         author, source = play.notes_editor_name, (f"{play.notes_edition or play.edition}, the introduction; transcribed from "
                                                   f"the Internet Archive scan {play.scan_for('intro')}")
         if "intro" in play.notes_sources and play.scan in [s for s, _r in play.notes_sources["intro"]]:
-            # the commentator's introduction with the text's edition's hypotheses and persons (the Medea)
+            # the commentator's introduction with the text's edition's hypotheses and persons (the
+            # Medea, the Alcestis); the commentator's notes on the hypothesis where his volume is read
+            # twice (Earle's)
             author = f"{play.notes_editor_name}; {play.app_editor_name} (the ancient hypotheses and the persons)"
-            source = (f"{play.notes_edition}, the introduction and the notes on the hypothesis (Internet Archive scan "
+            twice = sum(1 for s, _r in play.notes_sources["intro"] if s == play.notes_scan) > 1
+            source = (f"{play.notes_edition}, the introduction{' and the notes on the hypothesis' if twice else ''} (Internet Archive scan "
                       f"{play.notes_scan}); {play.edition}, the ancient hypotheses with the critical apparatus and the "
                       f"persons of the drama (scan {play.scan}); transcribed from the scans")
         license = TRANSCRIPTION_LICENSE

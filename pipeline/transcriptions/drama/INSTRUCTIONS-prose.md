@@ -614,6 +614,117 @@ first figure after `p-` is the part; the crops are in `pipeline/build/drama-pros
 
 Check with `check-drama-prose medea transcriptions/drama/medea/intro-NN.md` as for the notes.
 
+## Hayley's Alcestis: the commentary and the introduction
+
+H. W. Hayley, *The Alcestis of Euripides*, Boston, Ginn & Company, 1898 (scan
+`alcestisofeuripi00euriuoft`). As for the Medea, the play's Greek text and apparatus in the app
+are Gilbert Murray's; Hayley supplies the **commentary** (`notes-NN.md`, his "Critical and
+Exegetical Notes" at the back of his book, pp. 61-167) and the **introduction** (`intro-NN.md`).
+His own Greek text, apparatus, select conjectures and metrical appendix are not used. The play is
+**private until 2028-01-01**: what "Earle's Medea" says above about private files holds here word
+for word (the batches live in `private/`; nothing of them, or of Murray's pages, goes anywhere but
+the batch file and your own scratch folder).
+
+**Hayley's notes page.** One column, clean print, no handwriting. At the top the running head
+CRITICAL AND EXEGETICAL NOTES and the page number (left out by the draft). Every note is an
+**indented paragraph opened by the verse number in bold figures and a stop**: "**2.**", "**28-37.**"
+(printed with an en dash: `## 28-37`), "**700 f.**" and "**1132 ff.**" (`## 700`, `## 1132`); his first
+note is headed "Verse 1." (`## 1`). Then, mostly, the **lemma in bold Greek with a spaced colon**
+("**φλόγα** : here unqualified …"): write `**φλόγα**: here …` (colon outside the bold, no space
+before it). A note may begin in English ("**8.** Wakefield and Earle read …"): no lemma.
+* **Further lemmas run on inside the paragraph.** Hayley does not start a new line for a further
+  lemma on the same verse: "… so *El.* 205 θῆσσαν ἑστίαν. **αἰνέσαι** : Schol. …". As in every
+  play's commentary, each further lemma **begins a new paragraph under the same heading**. The
+  draft cut the paragraph wherever a sentence ended and Greek followed before a colon, and bolded
+  that Greek: check every cut on the image. **Only what the print sets in the bold lemma type is
+  bold** (a heavier, plainer Greek face than the Greek of his quotations): where the cut Greek is
+  in the ordinary Greek type (a quotation, or the opening words of the play quoted inside his note
+  on verse 1), take the bold away and join the pieces again into one paragraph. Where the print
+  has a bold lemma the draft did not cut (it is followed by a comma or by English instead of a
+  colon: "**τοῖς μὴ θέλουσι**, “any who are unwilling” …", "**πλείω** will then mean …", or its Greek
+  was read in Latin letters), cut it yourself. A lemma may bridge a gap with dots:
+  `**εἰ τὴν παροῦσαν . . . γυναῖχ’**:` (dots as printed, spaced).
+* **Take every heading's number from the image.** A bold number the draft left in the text
+  becomes a heading; a number the draft made a heading that is not a bold number at the start of
+  an indented paragraph goes back into its paragraph. Hayley's notes go back a little in places
+  (a range note after the single notes it covers, "**1132 ff.**" after 1140; "**381.**" after 384): keep his
+  order and his numbers; `check-drama-prose` then says "note N comes after M": write under notes
+  "Hayley's order".
+* **Critical and exegetical notes are mixed**; keep them all, his discussion of readings and
+  manuscripts included (sigla in italics as printed: *B*, *L*, *P*, *a*, *b*; "MSS.", "Sel.
+  Conj." for his Select Conjectures, "App. Crit." for his apparatus: copy as printed). His bracketed
+  list of the editions he cites the other dramatists from, at the head of the first page, is left
+  out (the draft has dropped it).
+* **His references**, copied as printed: plays in italics (*El.*, *Hippol.*, *Or.*, *Phoen.*, *Hec.*,
+  Soph. *Aj.*, *O. C.*, Aristoph. *Thesm.*, *Nub.*), the grammars (Goodwin *M. and T.* 38, Kühner,
+  G.), scholars and their works with their titles in italics (Wecklein, Prinz, Nauck *Eur. Stud.*,
+  Kviçala, Earle, Weil, Monk, Wuestemann). German, Latin and French quotations are frequent and
+  long: read them on the image; the OCR loses umlauts and ç ("niichtern" is "nüchtern", "Kvigala"
+  "Kviçala") and garbles quotation marks (he uses “ ” for quotations and ‘ ’ inside them or for
+  a meaning: check every one). **Homer**: Hayley cites the books by **roman numerals with a
+  stop** (*Il.* XXII. 386, *Od.* XI. 253), in Latin letters; the OCR reads them now as Greek
+  capitals ("ΧΙ.") or garbles them ("XVIIL" for XVIII, "1." for I.): write the Latin numeral as
+  printed (`check-drama-prose` reports a run of Greek Ι/Χ standing as such a numeral). Where a
+  book of Homer is cited by its **letter** instead (a quotation from another scholar, a note of
+  Earle's kind: Α 282, ε 264), the letter is **Greek**, never a Latin look-alike (A, B, E, Z, H, I,
+  K, M, N, O, P, T, Y, X; Ω read as Q); `check-drama-prose` reports a Latin capital standing as a
+  book letter after Hom., Il. or Od.
+* The OCR joins a word divided at a line's end even where the hyphen belongs to it
+  ("palacedoor" for "palace-door"): put the hyphen back where the print has a compound. "?" is
+  sometimes read as ὃ, "El." as "Kl.", "so" as "50", "I" as "1": the read-through finds them.
+* His footnotes (a few pages, marked *) are written `[Note: * …]` after the paragraph where the
+  mark stands.
+
+**The introduction (`intro-NN.md`)** holds three parts, in the order of their page names (the
+crops in `pipeline/build/drama-prose/alcestis/<scan>/`, `p-10021-flags.png` and so on):
+
+1. **Hayley's Introduction** (`p-1…`, pp. xi-lxxxv, scan `alcestisofeuripi00euriuoft`). One column,
+   footnotes marked * (`[Note: * …]`). Headings: the title INTRODUCTION → `# Introduction`; his
+   lettered chapters → `# A. The Myth of Alcestis`, `# B. The Euripidean Play`, `# C. The Critical
+   Basis for the Text`, `# D. Questions Concerning the Scenic Representation of the Play`,
+   `# E. The Myth of Alcestis in Ancient Art` (capitals and small letters as in these examples);
+   the italic subtitle under a chapter ("Its History and Literary Treatment.", "The Manuscripts,
+   Scholia, Editions, etc.") and the numbered parts of D (I., II., III.) → `## …` (no stop at the
+   end). Chapter E is by James M. Paton: the line under its title (BY JAMES M. PATON, PH.D.) is
+   the paragraph `By James M. Paton, Ph.D.` The draft has made the headings: check them (the
+   OCR garbles his small capitals: "Tue EuripipEaN Pray" is THE EURIPIDEAN PLAY). **Left out**:
+   the list of essays on the nature of the play that ends chapter B (from "I append a partial
+   list of the essays" on p-10042 to "… unable to consult at first hand." on p-10043; the draft
+   has written `[Bibliography omitted]` at the head of p-10043); the list of editions,
+   translations and critical essays in chapter C (from "The editions
+   of the Alcestis are very numerous" on p-10053 to "… Dobree, *Adversaria Critica* …" on p-10058;
+   the draft has left it out and written `[list of editions omitted]` at the head of p-10058:
+   check that nothing of the list is left and nothing else is lost; the prose on the scholia
+   before it on p-10053 stays), and his chapter F with his own Greek of the hypotheses (p-10095
+   from its heading on; the draft has left it out: Murray's hypotheses follow instead). Greek
+   verses he quotes on lines of their own (chapter A) are one paragraph with " | " between the
+   printed lines. **Kept, though dense**: in chapter C the table of the variants of *L* and *P*
+   in the first 300 lines (from the foot of p-10047 over p-10048 into p-10049; two columns, "26
+   συμμέτρως *L*, | σύμμετρος *P*."): one paragraph per printed row, the two columns in one line as
+   printed (`26 συμμέτρως *L*, σύμμετρος *P*.`, the first row with its "v."), read row by row from the image (the OCR
+   of this table is poor and partly out of order: rewrite it, do not mend it).
+2. **The ancient hypotheses in Murray's edition** (`p-2…`, scan `euripidisfabulae01euriuoft`,
+   leaves 54-55): exactly as part 2 of the Medea's introduction above (`# The ancient
+   hypotheses`; each hypothesis `## ` with its heading as printed, in Greek capitals and in
+   brackets where printed; its Greek one paragraph per printed paragraph, without the margin line
+   numbers; then the page's apparatus as one paragraph beginning `*Critical apparatus.* `, in the
+   form INSTRUCTIONS-text.md, "Murray's Euripides", gives). These two pages are **dense Greek and
+   Latin in small type: read them from the page image line by line**, not from the draft (which
+   gives the foot's small type as `[Note: …]` paragraphs and the margin numbers inside the Greek,
+   and garbles the headings); the flags are only a help. Murray's half-title (the play's name) is
+   left out.
+3. **The persons of the drama in Murray's edition** (`p-3…`, leaf 56): `# The persons of the
+   drama`; the names in one paragraph separated by " · ", **read down each column** of the list as
+   printed (the left column top to bottom, then the right one; not across the columns: that
+   mistake was made on the Medea's page), in the printed capitals; then, each as a paragraph of
+   its own and exactly as printed, read from the image: the line of Greek in ordinary type under
+   the names; Murray's note on the list in small type (Latin with Greek words and sigla, in the
+   form INSTRUCTIONS-text.md gives for his apparatus: hands as superscripts, the small letters of
+   the later hands, Σ); and his note at the foot of the page (the year of the performance and the
+   codices). No `*Critical apparatus.*` label on this page (as the Medea's).
+
+Check with `check-drama-prose alcestis transcriptions/drama/alcestis/notes-NN.md` (or `intro-NN.md`).
+
 ## Your own files
 
 **Your own files.** Scripts, enlarged crops and other helpers go only in a folder of your own,

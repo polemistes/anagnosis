@@ -283,6 +283,15 @@ own text): rewrite each at its turn as the Medea's was.
   servers for the testers only; or a small change that lets the author's build treat the
   texts named in author-packs.txt as owned (no billing), which keeps everything on his
   devices. The emulator check (author's build, scratch copy patched for the shop) runs.
+* **2026-11-17, Alcestis: Hayley's commentary and introduction set up and drafted** (agent; log
+  build/logs/alcestis-prose-setup.md; no reading agents yet). Hayley's notes leaves 159-267 (one
+  column, critical and exegetical notes mixed, `notes_layout="hayley"`); his introduction leaves
+  21-53, 58-95, the lists of essays and editions (leaves 42-43, 53-58) and his own Greek of the
+  hypotheses (95-96) left out (`Play.prose_omit`); then Murray's hypotheses (54-55) and persons
+  (56). Brief: INSTRUCTIONS-prose.md, "Hayley's Alcestis". **Unverified, for the author:**
+  chapter E of Hayley's introduction (The Myth of Alcestis in Ancient Art, leaves 61-95) is by
+  James M. Paton, believed to have died in 1944 (if so, free in Norway since 2015); confirm before
+  release.
 * **2026-11-17, Alcestis: draft judged, first pass running.** Draft: 45 pages, 1,172 verses,
   119 flagged (10 %: 47 of them speaker changes the margin reader missed; apparatus found on
   every page), 8 batches, committed in private/ (259100c). First pass: 8 agents at once.
