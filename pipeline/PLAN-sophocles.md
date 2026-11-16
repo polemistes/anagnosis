@@ -625,6 +625,8 @@ The metrical analyses are not transcribed (as for Ajax and Electra).
   highlight moves steadily word by word and through the sentence ends. Record in
   build/agent-scratch/emulator-speech/. **Left for the author: a reader release with the fix**
   (the build is 0.7.0, version code 19; nothing built or prepared).
+* **2026-11-17, Oedipus at Colonus, note 1248**: Alcman's Ῥίπας and Damastes' Ῥίπαια (Perseus's capital rho keyed as *(p, read on leaf 294) had paired into italics over the passage; two COMMENTARY_FIXES entries (and the lost space in ὑπὲρ τὰ), sophocles-prose and the build again. No other such keying in the four plays. (Antigone, Ajax, Electra: see build/logs/footnote-marks.md, the author's decision.)
+
 
 ## Decisions
 

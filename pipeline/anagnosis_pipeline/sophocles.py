@@ -1404,6 +1404,9 @@ COMMENTARY_FIXES: dict[str, list[tuple[str, str]]] = {
         ("pseudo - Philem.", "pseudo-Philem."),
         # note 1248: Ῥιπᾶν, Ῥῖπαι (Perseus's Betacode *(ripa=n read as a bare asterisk and a breathing)
         ("***ʽπιπᾶν**", "**Ῥιπᾶν**"), ("*ʽπῖπαι", "Ῥῖπαι"),
+        # the same note, leaf 294 (read 2026-11-17): Alcman's Ῥίπας and Damastes' Ῥίπαια, which
+        # had paired into italics over the passage
+        ("*ʽπίπας", "Ῥίπας"), ("*ʽπίπαια", "Ῥίπαια"), ("ὑπὲρτὰ Ῥίπαια", "ὑπὲρ τὰ Ῥίπαια"),
     ],
 }
 
