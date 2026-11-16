@@ -165,6 +165,28 @@ def _region(play: Play, kind: str, leaf: int, lines: list[dict], size: tuple[int
         body = [l for l in body if not ((l.get("x_size") or 99) < 26
                                         and letters(" ".join(w["text"] for w in l["words"])) < 0.6)]
     top = 0
+    if play.notes_layout == "college" and kind == "notes":
+        # the college editions of Lysias (Adams, Morgan): the printer's signature under the left
+        # column of every eighth or sixteenth page ("LYSIAS — 5")
+        body = [l for l in body if not (l["bbox"][1] > 0.75 * H and re.fullmatch(
+            r"[A-Z]{4,}\.?\s*[—–-]*\s*[\dIl|§]{0,3}\.?", " ".join(w["text"] for w in l["words"]).strip()))]
+        return _region_earle(play, leaf, body, size)
+    if play.notes_layout == "back" and kind == "notes":
+        # Shuckburgh's running head on a right-hand page: the speech's numeral and the page number ("IV. 221")
+        body = [l for l in body if not (l["bbox"][1] < 0.1 * H and len(l["words"]) <= 3
+                                        and re.search(r"\d{3}", " ".join(w["text"] for w in l["words"])))]
+        body = _own_oration(play, leaf, body)
+    if play.intro_foot_columns and kind == "intro":
+        # Morgan's introductions: the text in one column, his footnotes under it in two (found as
+        # Earle's commentary is, by the rows of two columns): the text first, then the footnotes'
+        # left column, then their right one
+        cut = earle_top(body, W)
+        if cut > 0.3 * H:
+            main = sorted((l for l in body if (l["bbox"][1] + l["bbox"][3]) / 2 <= cut), key=lambda l: l["bbox"][1])
+            for l in main:
+                l["region"] = "one"
+            feet, _mid = _two_columns([l for l in body if (l["bbox"][1] + l["bbox"][3]) / 2 > cut], H, signature=False)
+            return main + feet, 0
     if play.layout == "jebb" and kind == "notes" and play.app_rule == "under":
         return _region_under_rule(play, leaf, body, size)
     if play.notes_layout == "earle" and (kind == "notes" or earle_notes_page(play, kind, leaf, scan)):
@@ -230,6 +252,26 @@ def _region(play: Play, kind: str, leaf: int, lines: list[dict], size: tuple[int
 
 
 NO_RULE = -1  # _region's gutter when the page has no rule to take the commentary from
+ORATION_HEAD = re.compile(r"^ORATION\s+[IVXLl1]+\b")
+
+
+def _own_oration(play: Play, leaf: int, body: list[dict]) -> list[dict]:
+    """Shuckburgh's Lysias (notes_layout "back"): the notes stand at the back of the book, each
+    speech's under a heading "ORATION IV. [10.]" with his introduction to the speech, and the
+    next speech's heading may stand on the page where this one's notes end. Of the first leaf of
+    the speech's notes only what stands from its heading down is the speech's; of a later leaf,
+    only what stands above the next speech's heading."""
+    leaves = play.leaves("notes")
+    heads = sorted((l for l in body if ORATION_HEAD.match(" ".join(w["text"] for w in l["words"]).strip())),
+                   key=lambda l: l["bbox"][1])
+    if not heads or not leaves:
+        return body
+    if leaf == leaves[0]:
+        body = [l for l in body if l["bbox"][1] >= heads[0]["bbox"][1] - 2]
+        heads = heads[1:]
+    if heads:
+        body = [l for l in body if l["bbox"][3] <= heads[0]["bbox"][1] + 2]
+    return body
 
 
 def _region_under_rule(play: Play, leaf: int, body: list[dict], size: tuple[int, int]) -> tuple[list[dict], float]:
@@ -450,6 +492,39 @@ def jebb_lemma(text: str) -> str:
     lemma = lemma.rstrip()
     rest = text[len(lemma):]
     return f"**{re.sub(r'(?<=[^.])\.\.(?=[^.])', '...', lemma)}**" + rest  # the OCR's '..' for Jebb's '...' 
+
+
+_COLLEGE_LEMMA = re.compile(rf"^({_GWORD}(?:(?:\s*[,;]?\s*\.(?:\s?\.){{1,3}}\s*|\s*…\s*|[,;]?\s+){_GWORD})*(?:\s+κτλ\.)?)\s?:(?=\s|$)")
+
+
+def college_lemma(text: str) -> str:
+    """The lemma of a note in the college editions of Lysias (Adams, Morgan): the bold Greek up to
+    the colon that follows it (Adams sets a space before the colon), commas and dots of omission
+    included ("κινδυνεύειν ἐδόκει, ὡς . . . ὑπάρχοντος : it seemed …"); written `**lemma**: `.
+    Where no colon follows the leading Greek, as jebb_lemma."""
+    if text.startswith("**"):
+        return text
+    m = _COLLEGE_LEMMA.match(text)
+    if not m:
+        return jebb_lemma(text)
+    lemma = re.sub(r"\s*\.(?:\s?\.){1,3}\s*", " . . . ", m.group(1)).strip()
+    return f"**{lemma}**:" + text[m.end():]
+
+
+_BACK_LEMMA = re.compile(rf"^{_GWORD}(?:(?:\s*[,;]?\s*\.(?:\s?\.){{1,3}}\s*|\s*…\s*|[,;]?\s+){_GWORD})*")
+
+
+def back_lemma(text: str) -> str:
+    """The lemma of a note of Shuckburgh's: the bold Greek that opens it, with its dots of
+    omission (he prints two: "εἰσήγγελλε . . δημηγορεῖν ‘was impeaching …’"), up to the first
+    word that is not Greek; no colon follows. The dots are written as he prints them, spaced."""
+    if text.startswith("**"):
+        return text
+    m = _BACK_LEMMA.match(text)
+    if not m:
+        return text
+    lemma = re.sub(r"\s*\.(?:\s?\.)+\s*", lambda d: " " + " ".join("." * d.group(0).count(".")) + " ", m.group(0)).strip()
+    return f"**{lemma.rstrip(' .,;')}**" + (text[m.end():] if not lemma.endswith((".", ",", ";")) else lemma[len(lemma.rstrip(' .,;')):] + text[m.end():])
 
 
 def split_lemmas(text: str, first: bool = False, lemma=None) -> list[str]:
@@ -790,6 +865,31 @@ def _reread_strip(scan: str, leaf: int, box: tuple[int, int, int, int]) -> list[
     return out
 
 
+def long_s(word: str, english: set[str]) -> str:
+    """A word of an eighteenth-century print as we write it: the long s (ſ), which Tesseract
+    reads as ſ or as f, written s ("fhould", "ſhould" → should; "poſſeſſion" → possession). An f
+    becomes an s only where the word as read is no English word and the word with s is one (the
+    first such reading, the fewest letters changed); the ligatures ct and st are plain letters."""
+    w = word.replace("ſ", "s").replace("ﬅ", "st").replace("ﬆ", "st").replace("\ueada", "ct")
+    m = re.match(r"^([^A-Za-z]*)([A-Za-z]+(?:[-'’][A-Za-z]+)*)([^A-Za-z]*)$", w)
+    if not m or "f" not in m.group(2).lower():
+        return w
+    core = m.group(2)
+    if core.lower() in english:
+        return w
+    spots = [i for i, c in enumerate(core) if c == "f"]
+    if len(spots) > 4:
+        return w
+    from itertools import combinations
+
+    for k in range(1, len(spots) + 1):
+        for combo in combinations(spots, k):
+            cand = "".join("s" if i in combo else c for i, c in enumerate(core))
+            if cand.lower() in english:
+                return m.group(1) + cand + m.group(3)
+    return w
+
+
 def _omit(play: Play, scan: str, leaf: int, order: list[dict], spans: list | None = None) -> list[dict]:
     """The page's lines without a stretch Play.prose_omit leaves out; the line after the stretch
     (or, at the page's end, the line before it) carries the marker to write in its place. The
@@ -826,6 +926,16 @@ def analyse_page(play: Play, kind: str, leaf: int, voc, names: set[str], scan: s
     _, sbuild = scan_dirs(scan)
     img = Image.open(sbuild / "pages" / f"leaf_{leaf:04d}.png").convert("L")
     lines = read_lines(ocr_leaf(scan, leaf))
+    doubtful: list[str] = []
+    if play.long_s:
+        for l in lines:
+            for w in l["words"]:
+                w["text"] = long_s(w["text"], voc[2])
+                core = re.sub(r"[^A-Za-z]", "", w["text"]).lower()
+                # a word that is English with f and with s (fame / same, fight / sight): the OCR cannot tell
+                if "f" in core and core in voc[2] and any(
+                        (core[:i] + "s" + core[i + 1:]) in voc[2] for i, c in enumerate(core) if c == "f"):
+                    doubtful.append(core)
     order, mid = _region(play, kind, leaf, lines, img.size, scan)
     omitted: list[tuple[int, int]] = []
     order = _omit(play, scan, leaf, order, omitted)
@@ -879,7 +989,7 @@ def analyse_page(play: Play, kind: str, leaf: int, voc, names: set[str], scan: s
     foot: dict[str, list[dict]] = {}
     for region, col in cols.items():
         sizes = sorted(l["x_size"] for l in col if l["x_size"])
-        if len(col) < 6 or not sizes or (kind == "notes" and play.notes_layout == "earle") or earle_page:
+        if len(col) < 6 or not sizes or (kind == "notes" and play.notes_layout in ("earle", "college", "back")) or earle_page:
             continue  # (Earle's notes have no footnotes; Tesseract's size of a short last line is no guide)
         xs = sizes[len(sizes) // 2]
         h = sorted(l["bbox"][3] - l["bbox"][1] for l in col)[len(col) // 2]
@@ -900,13 +1010,22 @@ def analyse_page(play: Play, kind: str, leaf: int, voc, names: set[str], scan: s
                 foot[region] = col[k:]
                 cols[region] = col[:k]
                 break
+    if kind == "intro" and play.intro_foot_columns and "one" in cols:
+        # the two columns under the text are its footnotes
+        for region in ("left", "right"):
+            if region in cols:
+                foot.setdefault("one", []).extend(cols.pop(region))
     idx = [lines.index(l) for l in order]
     flags = check_words(lines, idx, img, voc, names, leaf)
     # paragraphs: a line indented by about an em, a centred line, a line in capitals, or a line
     # beginning with a note's number begins one; so does a line after a short line that ends a
     # sentence
     paras: list[dict] = []
-    under = kind == "notes" and play.app_rule == "under"  # Jebb's Sophocles: the commentary under the rule
+    # Jebb's Sophocles: the commentary under the rule; the college editions of Lysias (Adams,
+    # Morgan: notes_layout "college") print their notes the same way under the text: a note opens
+    # an indented paragraph with its number, further lemmas follow after a dash
+    under = kind == "notes" and (play.app_rule == "under" or play.notes_layout == "college")
+    back = kind == "notes" and play.notes_layout == "back"  # Shuckburgh's Lysias: notes at the back by his own lines
     earle = kind == "notes" and play.notes_layout == "earle"  # Earle's Medea: notes run on inside paragraphs
     hayley = kind == "notes" and play.notes_layout == "hayley"  # Hayley's Alcestis: further lemmas run on
     for region, col in cols.items():
@@ -1022,30 +1141,40 @@ def analyse_page(play: Play, kind: str, leaf: int, voc, names: set[str], scan: s
             # Jebb's Sophocles: the heading is settled over the pages (_resolve_note_headings);
             # a further bold lemma after a dash begins a paragraph of its own, as in Perseus's files
             text = jebb_f(jebb_dashes(text))
+            lem = college_lemma if play.notes_layout == "college" else None
             h = note_heading(text, play.note_start)
             if h:
-                cands.append({"kind": "note", "n": h[0], "body": split_lemmas(text[h[1]:].strip(), first=True),
-                              "orig": split_lemmas(text)})
+                cands.append({"kind": "note", "n": h[0], "body": split_lemmas(text[h[1]:].strip(), first=True, lemma=lem),
+                              "orig": split_lemmas(text, lemma=lem)})
                 md += [f"\x00{len(cands) - 1}", ""]
                 continue
-            pieces = split_lemmas(text, first=p["indent"])  # an indented paragraph begins with a lemma
-            if k == 0 and not p["indent"]:
-                pieces[0] = "+ " + pieces[0]  # the note runs on from the page before
+            pieces = split_lemmas(text, first=p["indent"], lemma=lem)  # an indented paragraph begins with a lemma
+            if k == 0 and not p["indent"] and not (lem and text.lstrip().startswith("—")):
+                # the note runs on from the page before (but a page of a college edition that opens
+                # with a dash and a lemma opens a new paragraph of the note before: no run-on mark)
+                pieces[0] = "+ " + pieces[0]
             for piece in pieces:
                 md += [piece, ""]
             continue
+        if back and len(p["lines"]) == 1 and ORATION_HEAD.match(text.strip()):
+            md += ["# Introduction", ""]  # the speech's heading: his introduction to it follows, then the notes
+            continue
         if kind == "notes":
             h = note_heading(text, play.note_start)
+            if back and h and not p["indent"]:
+                h = None  # a figure at the start of a line flush with the column is a reference run on
             if h:
                 n, end = h
                 md.append(f"## {n}")
-                body = bold_lemma(text[end:].strip())
+                body = back_lemma(text[end:].strip()) if back else bold_lemma(text[end:].strip())
                 if body:
                     md.append(body)
                 md.append("")
                 continue
             if k == 0 and not p["indent"]:
                 text = "+ " + text  # the note runs on from the page before
+            elif back and p["indent"] and "# Introduction" not in md[-12:] and any(x.startswith("## ") for x in md):
+                text = back_lemma(text)  # a further note on the same line: an indented paragraph that opens with its lemma
         elif kind == "intro":
             if p["lines"][0].get("verse"):
                 text = " | ".join(x["text"].strip() for x in p["lines"])
@@ -1106,7 +1235,8 @@ def analyse_page(play: Play, kind: str, leaf: int, voc, names: set[str], scan: s
         if after:
             md += [after, ""]
     return {"leaf": leaf, "md": "\n".join(md).strip(), "flags": flags, "lines": lines, "mid": mid,
-            "order": idx, "size": list(img.size), "scan": scan, "cands": cands, "no_rule": no_rule}
+            "order": idx, "size": list(img.size), "scan": scan, "cands": cands, "no_rule": no_rule,
+            "long_s": sorted(set(doubtful))}
 
 
 def _crops(play: Play, kind: str, page: dict, out_dir: Path, stem: str) -> None:
@@ -1180,7 +1310,7 @@ def write_draft(slug: str, kind: str) -> list[dict]:
             pages += list(ex.map(lambda l: analyse_page(play, kind, l, voc, names, scan), leaves))
     if play.layout == "jebb" and kind in ("intro", "appendix"):
         _resolve_headings(pages, kind, last_line(play))
-    if kind == "notes" and play.app_rule == "under":
+    if kind == "notes" and (play.app_rule == "under" or play.notes_layout == "college"):
         _resolve_note_headings(pages, last_line(play))
     if kind == "notes" and play.notes_layout == "earle":
         _resolve_note_headings(pages, last_line(play), EARLE_WINDOW)
@@ -1218,6 +1348,9 @@ def write_draft(slug: str, kind: str) -> list[dict]:
                 alt = f" (Greek model: {f['alt']})" if f.get("alt") and f["alt"] != f["text"] else ""
                 out.append(f"{k} {f['token']} [{f['kind']}]{alt} →")
             out.append("--- notes")
+            if page.get("long_s"):
+                out.append("DRAFT: long s. These words on the page are English with f and with s; read each on the image "
+                           "(the long s has no cross-stroke, or one on the left only): " + ", ".join(page["long_s"]))
             if page.get("no_rule"):
                 out.append("DRAFT: no rule was found on this page, so the commentary's region is unknown and nothing "
                            "was drafted: transcribe the commentary under the rule from the page image, and say so here.")
@@ -1588,6 +1721,8 @@ def last_line(play: Play) -> int:
     texts/<slug>/grc.txt for a play merged without one (Earle's notes on Murray's Medea), or before
     that play's text is merged, of its text draft (build/drama-pages/<slug>/draft.json: Hayley's
     notes on Murray's Alcestis)."""
+    if play.last_note:
+        return play.last_note
     if not play.check_text and play.notes_layout in ("earle", "hayley"):
         path = ROOT / "texts" / play.slug / "grc.txt"
         if path.exists():
@@ -1848,14 +1983,16 @@ def check_prose(slug: str, kind: str, path: Path, texts: Path) -> list[str]:
                 remarks.append(f"{stem}: empty page (say so under notes if the page is blank)")
             continue
         first = md[0]
-        if kind == "notes" and not (first.startswith("## ") or first.startswith("+ ")):
+        college = PLAYS[slug].notes_layout in ("college", "back")
+        if kind == "notes" and not (first.startswith("## ") or first.startswith("+ ") or first == "# Introduction"
+                                    or (college and first.startswith("**"))):  # a further lemma of the note before
             remarks.append(f"{stem}: the page begins neither with a note's heading nor with '+ ' (a note run on)")
         for k, raw in enumerate(md):
             if raw.startswith("+ ") and k > 0:
                 remarks.append(f"{stem}: '+ ' inside the page (only the page's first paragraph may run on)")
             if raw.startswith("#"):
-                if kind == "notes" and re.match(r"^# Book [IVX]+$", raw):
-                    prev_note = -1  # Jerram counts his lines afresh in each book
+                if kind == "notes" and re.match(r"^# (?:Book [IVX]+|Introduction)$", raw):
+                    prev_note = -1  # Jerram counts his lines afresh in each book; Shuckburgh's introduction to a speech stands at the head of its notes
                     continue
                 if kind == "notes" and PLAYS[slug].route == "lake":
                     # Taylor: ## Vision 1.1.2, ## Mandate 1.3 (a book of one chapter), ## Similitude 9.30.2

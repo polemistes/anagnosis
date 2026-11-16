@@ -725,6 +725,123 @@ crops in `pipeline/build/drama-prose/alcestis/<scan>/`, `p-10021-flags.png` and 
 
 Check with `check-drama-prose alcestis transcriptions/drama/alcestis/notes-NN.md` (or `intro-NN.md`).
 
+## Lysias: the three commentaries, their introductions, and Gillies's translation
+
+The Greek text and critical apparatus of Lysias in the app are Karl Hude's (Oxford 1912;
+`pipeline/PLAN-lysias.md`). Each speech that has an English commentary takes it from one of three
+school editions; **each speech is a "play" of its own for this route**: `lysias-12` is speech 12,
+its batches are `pipeline/transcriptions/drama/lysias-12/notes-NN.md` and `intro-NN.md`, its crops
+`pipeline/build/drama-prose/lysias-12/`, its checker `check-drama-prose lysias-12 <file>`. The
+commentators' own Greek texts, their critical notes and their indexes are not used. Everything
+is in the public domain; nothing here is private.
+
+| edition | speeches (entries) | what is read |
+|---|---|---|
+| **Adams**: C. D. Adams, *Lysias: Selected Speeches*, American Book Company, 1905 | `lysias-12`, `-16`, `-19`, `-22`, `-24`, `-25`, `-32`, `-34`; `lysias-intro` (his general introduction); `lysias-appendix` (his Appendix I–V) | notes under his text; an introduction before each speech |
+| **Morgan**: M. H. Morgan, *Eight Orations of Lysias*, Ginn, 1895 | `lysias-07`, `-23`, `-31` | notes under his text; an introduction before each speech |
+| **Shuckburgh**: E. S. Shuckburgh, *Lysiae Orationes XVI*, Macmillan, 1882 | `lysias-05`, `-09`, `-10`, `-13`, `-14`, `-17`, `-28`, `-30` | notes at the back of the book, with his introduction to the speech at their head |
+| **Gillies**: J. Gillies, *The Orations of Lysias and Isocrates*, London, 1778 | `lysias-gillies-01`, `-03`, `-04`, `-21`, `-26`, `-34` | his English translation (`intro-NN.md`) |
+
+**For all three commentaries.** The OCR knows no italics and reads italic words badly ("7 am
+guilty" for *I am guilty*, "20 go", "fo", "lo" for *to*, "27 seemed" for *it seemed*, "t4at"):
+**read each column image through once** and correct what the print shows, not only the flagged
+words; set italics `*…*` wherever the editor prints them (his translations of the Greek, titles
+of works, Latin terms). Greek in the editor's ordinary Greek type is plain; **only the lemmas
+are bold**. Quotation marks are the editor's (Adams and Morgan ‘ ’ and “ ” as printed; the OCR
+reads an opening ‘ as ¢, ©, *). References are copied as printed: the grammars (Adams: HA., G.,
+B., Gl., GS., GMT., Kühn.; Morgan: G., H., GMT.; Shuckburgh: Goodwin, Madv., Clyde, Donaldson,
+Veitch), other speeches by number and section ("12. 62", "Lys. xii. 5", "Orat. v. l. 140"),
+"App. § 57. 3", "Crit. Note", "Introd. p. 25". A figure of a reference that Tesseract read as a
+letter or a sign ("§" as "8" or "καὶ ὃ", "16" as "τό", "1" as "I") is put right from the image.
+A display the editor sets with a brace (Adams: `ὥστε ἄν {` two lines `}`) is written on one line,
+the braced lines separated by ` | `: `ὥστε ἄν: μήτε ψευδόμενον . . . κατηγορῆσαι | μήτε
+βουλόμενον . . . δύνασθαι.`
+
+**Adams and Morgan: the notes page.** The upper part of the page is the editor's Greek text in
+large type (with section numbers and line numbers in the margin): **not yours**; the draft has
+left it out, and a line of it that slipped in is deleted (say so under notes). Under it, without
+a rule, the **notes in two columns** in small type: down the left column, then down the right;
+they run on to the next page. A page whose text fills it has no notes.
+* **A note begins a new, indented paragraph with the section number and a stop** ("13.
+  **σιγᾶν**: …"): the number is the heading, `## 13`. The numbers are **sections of the speech**
+  and run upwards without going back; take every heading's number from the image. A number at
+  the start of a line that is not indented is a reference run on from the line before, not a
+  note.
+* **Further lemmas follow inside the paragraph after a dash** ("… confiscated money. — **ὡς ἥξων
+  ἐκεῖσε**: …"): each begins a new paragraph under the same heading, the dash left out. The
+  draft cut the paragraph at every dash that is followed by Greek and bolded that Greek up to the
+  colon: check every cut on the image. Where the Greek after a dash is in the ordinary type (a
+  quotation), take the bold away and join the pieces again with the dash ( — ). Where the print
+  has a bold lemma the draft did not cut (its Greek was read in Latin letters, or no dash was
+  read), cut it yourself.
+* **The lemma** is written `**lemma**: ` (Adams sets a space before the colon: no space in the
+  file), with its commas and its dots of omission as printed, spaced (`**κινδυνεύειν ἐδόκει, ὡς
+  . . . ὑπάρχοντος**: `); Morgan's "κτλ." after a lemma is part of it (`**ἥκω κτλ.**: `). A lemma
+  divided at a line's end is written whole. Copy the lemma exactly as the commentator prints it
+  even where Hude's text reads otherwise: the merge finds the section by the lemma and lists the
+  lemmas that are not in Hude's text.
+* A note that runs on from the page before begins the page's block with `+ `; so does a note
+  that runs from the foot of the left column of one page to the next page.
+* Adams's "See Crit. Note" refers to his critical notes, which are not shipped: copy it as
+  printed.
+
+**Adams and Morgan: the introduction to a speech** (`intro-NN.md`). One column. The speech's
+number and title at its head (Adams: "XII" and "THE SPEECH AGAINST ERATOSTHENES", then
+"INTRODUCTION") become one heading, `# The Speech against Eratosthenes`; the number and the
+word INTRODUCTION are left out. The headings inside it (Adams: OUTLINE, COMMENTS ON ARGUMENT AND
+STYLE; the Roman-numbered parts of his outlines, "I. Προοίμιον, *Exordium*, §§ 1–3.", are
+paragraphs, not headings) are `## Outline`, `## Comments on Argument and Style`. Greek set out on
+lines of its own (Adams's analyses of periods, cola one under another) is one paragraph, the
+lines separated by ` | `. Footnotes: each a paragraph `[Note: ¹ …]` after the paragraph that
+holds its mark, the marks as raised figures (¹ ² ³). **Morgan's footnotes stand in two columns
+under the text** (left column first); the draft has taken them as footnotes: check their order
+and that none is run into another. The running head and the page number are left out. Adams's
+page of abbreviations (the grammars) before speech 12 is kept as it stands, each abbreviation a
+paragraph. In `lysias-intro` (Adams's general introduction: the life, works and style of Lysias,
+the revolutions of 411 and 404) the chapter titles are `# ` headings. In `lysias-appendix` the
+five parts are `# ` headings without their Roman numbers (`# Chronological Outline`, `# Athenian
+Legal Procedure`, `# Rhetorical Terms`, `# Money and Prices at Athens`, `# The Manuscripts`),
+**the paragraph numbers in bold at the head of a paragraph are kept as printed** ("**57.**":
+the notes cite them, "App. § 57. 3"), tables are written row by row, each row a paragraph with
+its cells separated by ` | `; the Bibliography (VI) and the Critical Notes (VII) are not taken
+(the draft stops before "VI. BIBLIOGRAPHY").
+
+**Shuckburgh: the notes** (`notes-NN.md`; there is no `intro` batch). One column. The speech's
+notes begin under a heading "ORATION IV. [10.]" (his own number, then the usual one), which the
+draft has written `# Introduction`; under it stand **his introduction to the speech** (plain
+paragraphs: keep them all, they are shipped as the speech's introduction) and then the notes. Of
+a page that also holds the end of the speech before, or the heading of the next, only this
+speech's part is yours (the draft has cut the rest; check it).
+* **A note begins an indented paragraph with a number and a stop, then the lemma in bold**
+  ("**6.** **συμβολαίων** ‘business transactions.’ …"; no colon after the lemma). **The number
+  is the line of Shuckburgh's own text**, counted through the speech, not a section: the heading
+  is that line number, `## 6`; a range "12-15." is `## 12-15`. Keep his numbers exactly: the
+  merge turns each line into Hude's section from Shuckburgh's text pages. The numbers run
+  upwards.
+* **A further note on the same line is an indented paragraph that opens with its bold lemma,
+  without a number** ("**ἐνόμιζον μὲν οὖν** ‘well, then, I *used* to think.’"): a paragraph of
+  its own under the same heading, the lemma in `**…**`. The draft bolded the Greek that opens such
+  a paragraph: check that it is in the bold type, and that the bold ends where the print's does.
+* His single quotation marks ‘ ’ around a rendering are kept; words he prints in italics inside
+  it are `*…*`.
+
+**Gillies's translation** (`lysias-gillies-NN`, `intro-NN.md`). An English version of 1778 in
+one column, a clean bitonal scan, **printed with the long s**. Everything is written in modern
+letters: ſ is s, the ligatures ct and st plain letters; spelling, capitals, italics (`*…*`) and
+punctuation as printed ("shew", "chuse", "Athenians!"). The draft has turned the long s into s
+wherever that gave an English word; **a word that is English both with f and with s (same and
+fame, sight and fight, so and fo, sat and fat, soul and foul) it could not decide, and the
+draft lists them under `--- notes` for each page: read every one of them on the image** (the
+long s has no cross-stroke, or a nub on the left only) and delete the DRAFT line when done. The
+oration's heading ("AN ORATION OF LYSIAS, AGAINST EVANDER, A Candidate for the Office of
+High-Priest.") is one `# ` heading in ordinary capitals and small letters; the running head, the
+page number, the signature and the catchword at the foot of the page are left out. Gillies's
+footnotes (marked by small raised letters) are `[Note: ᵃ …]` paragraphs after the paragraph that
+holds the mark. Only the oration is yours: a page of the range that holds Gillies's
+"Introduction" to another oration is left empty with a remark under notes. **Do not add section
+numbers and do not alter or modernise his words**; where each paragraph begins in the Greek is
+settled later, apart.
+
 ## Your own files
 
 **Your own files.** Scripts, enlarged crops and other helpers go only in a folder of your own,

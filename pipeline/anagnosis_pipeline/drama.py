@@ -101,7 +101,19 @@ class Play:
     # the two columns of small type (drama_prose.earle_top); "hayley" = Hayley's notes at the back of
     # his book: one column, every note an indented paragraph opened by its bold number, further
     # bold lemmas run on inside the paragraph after a sentence's end ("… ἑστίαν. **αἰνέσαι** : …")
+    # "college" = the college editions of Lysias (Adams, Morgan): the text at the top of the page,
+    # the notes under it in two columns in smaller type, no rule; a note opens an indented paragraph
+    # with its section number, further lemmas follow after a dash (read as Jebb's commentary);
+    # "back" = Shuckburgh's Lysias: notes at the back of the book in one column, numbered by the
+    # lines of his own text, each speech's under a heading "ORATION IV. [10.]" with his introduction
     notes_layout: str = ""
+    # the highest number a note can carry (a speech's last section, or the last line of the
+    # commentator's own text) where no text of this slug exists to take it from
+    last_note: int = 0
+    # the introduction's footnotes stand in two columns under its text (Morgan's Lysias)
+    intro_foot_columns: bool = False
+    # an eighteenth-century print with the long s (Gillies's Lysias, 1778): written s
+    long_s: bool = False
     # leaves of the notes scan read with another kind (the introduction) that are laid out as the
     # notes pages and take their region (Earle's notes on the hypothesis under his Greek, "earle")
     notes_region_leaves: list[tuple[int, int]] = field(default_factory=list)
@@ -651,6 +663,105 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          # publisher's list (dated August 1914) from 297
          text_leaves=[(19, 287)], sigla_leaves=[18], intro_leaves=[(9, 16)], unhide=(36, 37, 44, 45)),
 ]}
+
+
+# ---------------------------------------------------------------- the commentaries on Lysias
+
+# One commentary to a speech, from three school editions (pipeline/PLAN-lysias.md): the leaves of
+# each speech's introduction and of its notes. Each speech is an entry of its own for the prose
+# route (drama-prose lysias-12 notes|intro fetch|ocr|draft; batches in transcriptions/drama/
+# lysias-12/): the notes of a speech are numbered from 1 again, as a play's are, so the route's
+# checks of the numbers' order hold within an entry. hude_notes.py files the checked notes under
+# Hude's sections. `last` is the speech's last section (Adams, Morgan: notes by section) or the
+# last line of the commentator's own text (Shuckburgh: notes by his lines).
+#
+# Adams (lysiasselectedsp0000char; leaf = page + 8): introduction pp. 9-42, each speech with its
+# introduction, then the text with the notes under it in two columns; Appendix pp. 327-362
+# (I Chronological outline, II Athenian legal procedure, III Rhetorical terms, IV Money and prices,
+# V The manuscripts; VI Bibliography and VII Critical notes on his own text are not taken).
+# Morgan (eightorations00lysi, the 1900 printing; leaf = page + 64): the same page; his
+# introduction to a speech stands before its text.
+# Shuckburgh (orationes16witha00lysiuoft; leaf = page + 38): his text pp. 1-190 with English
+# summaries, the notes at the back pp. 193 ff. by the lines of his text, each speech's under
+# "ORATION IV. [10.]" with his introduction to it; his own numbers I-XVI are not ours.
+LYSIAS_EDITORS = {
+    "adams": ("lysiasselectedsp0000char", "Charles Darwin Adams", "college",
+              "Lysias: Selected Speeches, XII, XVI, XIX, XXII, XXIV, XXV, XXXII, XXXIV, edited with introduction, notes, and "
+              "appendices by Charles Darwin Adams, New York, Cincinnati, Chicago, American Book Company, 1905"),
+    "morgan": ("eightorations00lysi", "Morris H. Morgan", "college",
+               "Eight Orations of Lysias, edited with introduction, notes, and appendices by Morris H. Morgan, "
+               "Boston, Ginn and Company, 1895"),
+    "shuckburgh": ("orationes16witha00lysiuoft", "Evelyn S. Shuckburgh", "back",
+                   "Lysiae Orationes XVI, with analysis, notes, appendices, and indices by Evelyn S. Shuckburgh, "
+                   "London, Macmillan and Co., 1882"),
+}
+# speech: (editor, introduction leaves, notes leaves, last note number, the commentator's text leaves)
+LYSIAS_NOTES: dict[int, tuple[str, list[tuple[int, int]], list[tuple[int, int]], int, list[tuple[int, int]]]] = {
+    12: ("adams", [(51, 67)], [(69, 137)], 100, []),
+    16: ("adams", [(138, 149)], [(150, 167)], 21, []),
+    19: ("adams", [(168, 183)], [(184, 220)], 64, []),
+    22: ("adams", [(221, 227)], [(228, 238)], 22, []),
+    24: ("adams", [(239, 246)], [(247, 260)], 27, []),
+    25: ("adams", [(261, 268)], [(269, 290)], 35, []),
+    32: ("adams", [(291, 300)], [(301, 320)], 29, []),
+    34: ("adams", [(321, 327)], [(328, 334)], 11, []),
+    7: ("morgan", [(65, 70)], [(71, 87)], 43, []),
+    23: ("morgan", [(168, 171)], [(172, 179)], 16, []),
+    31: ("morgan", [(197, 199)], [(200, 215)], 34, []),
+    # Shuckburgh: no introduction pages of its own (it stands at the head of the notes); the
+    # notes' leaves (a leaf shared with the next speech is cut at its heading), his text's leaves
+    5: ("shuckburgh", [], [(231, 235)], 0, [(39, 41)]),
+    9: ("shuckburgh", [], [(249, 258)], 0, [(54, 60)]),
+    10: ("shuckburgh", [], [(258, 268)], 0, [(60, 68)]),
+    13: ("shuckburgh", [], [(290, 310)], 0, [(96, 130)]),
+    14: ("shuckburgh", [], [(310, 323)], 0, [(128, 146)]),
+    17: ("shuckburgh", [], [(330, 336)], 0, [(151, 160)]),
+    28: ("shuckburgh", [], [(368, 374)], 0, [(196, 206)]),
+    30: ("shuckburgh", [], [(374, 384)], 0, [(205, 218)]),
+}
+# entries without notes: Adams's general introduction, and his Appendix I-V
+LYSIAS_PROSE = {
+    "lysias-intro": ("adams", [(17, 50)]),
+    "lysias-appendix": ("adams", [(335, 370)]),
+}
+# John Gillies, The Orations of Lysias and Isocrates, London 1778 (scan
+# bim_eighteenth-century_the-orations-of-lysias-a_lysias_1778: 676 leaves, a bitonal film scan,
+# long s; leaf = page + 175 up to p. 350, page + 174 from p. 419): the six speeches the 1898
+# translation lacks, each from the first page of the oration to its last (Gillies's own
+# introduction before each is not taken). He has eighteen speeches of Lysias in all, in this
+# order: 2, 14, 13, 12, 25, 34, 21, 26, 31, 16, 7, 17, 19, 1, 4, 3, 32, 10.
+GILLIES_SCAN = "bim_eighteenth-century_the-orations-of-lysias-a_lysias_1778"
+GILLIES_EDITION = ("The Orations of Lysias and Isocrates, translated from the Greek, with some account of their lives, "
+                   "by John Gillies, London, J. Murray, 1778")
+LYSIAS_GILLIES: dict[int, list[tuple[int, int]]] = {
+    1: [(593, 604)], 3: [(613, 625)], 4: [(607, 612)], 21: [(504, 513)], 26: [(516, 525)], 34: [(494, 499)],
+}
+
+
+def _lysias_entries() -> list[Play]:
+    out = []
+    for slug, (editor, intro) in LYSIAS_PROSE.items():
+        scan, name, _layout, edition = LYSIAS_EDITORS[editor]
+        out.append(Play(slug, "Λόγοι", "Speeches", "Λυσίας", "Lysias", "tlg0540", "", scan, "hude", "C. Hude", "",
+                        route="hude-notes", notes_editor=editor, notes_editor_name=name, notes_edition=edition,
+                        notes_scan=scan, intro_leaves=intro,
+                        # Adams's Appendix VI (Bibliography) begins on the page where V ends: left out
+                        prose_omit=[(scan, 370, r"BIBLIOGRAPHY", "", "")] if slug == "lysias-appendix" else []))
+    for speech, leaves in LYSIAS_GILLIES.items():
+        out.append(Play(f"lysias-gillies-{speech:02d}", "Λόγοι", "Speeches", "Λυσίας", "Lysias", f"tlg0540.tlg{speech:03d}", "",
+                        GILLIES_SCAN, "hude", "C. Hude", "", route="hude-notes", notes_editor="gillies",
+                        notes_editor_name="John Gillies", notes_edition=GILLIES_EDITION, notes_scan=GILLIES_SCAN,
+                        intro_leaves=leaves, long_s=True))
+    for speech, (editor, intro, notes, last, text) in LYSIAS_NOTES.items():
+        scan, name, layout, edition = LYSIAS_EDITORS[editor]
+        out.append(Play(f"lysias-{speech:02d}", "Λόγοι", "Speeches", "Λυσίας", "Lysias", f"tlg0540.tlg{speech:03d}", "", scan,
+                        "hude", "C. Hude", "", route="hude-notes", notes_editor=editor, notes_editor_name=name,
+                        notes_edition=edition, notes_scan=scan, notes_layout=layout, intro_leaves=intro, notes_leaves=notes,
+                        last_note=last, notes_text_leaves=text, intro_foot_columns=editor == "morgan"))
+    return out
+
+
+PLAYS.update({p.slug: p for p in _lysias_entries()})
 
 
 # ---------------------------------------------------------------- the Perseus text

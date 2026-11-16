@@ -344,3 +344,146 @@ class Merge(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class Commentaries(unittest.TestCase):
+    def test_entries(self):
+        from anagnosis_pipeline.drama import LYSIAS_GILLIES, LYSIAS_NOTES
+
+        # one commentary to a speech: Adams 8, Morgan 3, Shuckburgh 8; Gillies's six speeches
+        by = {}
+        for speech, row in LYSIAS_NOTES.items():
+            by.setdefault(row[0], []).append(speech)
+        self.assertEqual(sorted(by["adams"]), [12, 16, 19, 22, 24, 25, 32, 34])
+        self.assertEqual(sorted(by["morgan"]), [7, 23, 31])
+        self.assertEqual(sorted(by["shuckburgh"]), [5, 9, 10, 13, 14, 17, 28, 30])
+        self.assertEqual(sorted(LYSIAS_GILLIES), [1, 3, 4, 21, 26, 34])
+        p = PLAYS["lysias-12"]
+        self.assertEqual((p.notes_layout, p.last_note, p.route), ("college", 100, "hude-notes"))
+        self.assertEqual(PLAYS["lysias-10"].notes_layout, "back")
+        self.assertTrue(PLAYS["lysias-10"].notes_text_leaves)
+        self.assertTrue(PLAYS["lysias-07"].intro_foot_columns and not PLAYS["lysias-12"].intro_foot_columns)
+        self.assertTrue(PLAYS["lysias-gillies-04"].long_s)
+        # the new options are off for every other entry
+        for slug, play in PLAYS.items():
+            if not slug.startswith("lysias-"):
+                self.assertEqual((play.long_s, play.intro_foot_columns, play.last_note, play.unhide if slug != "lysias" else ()),
+                                 (False, False, 0, ()), slug)
+                self.assertNotIn(play.notes_layout, ("college", "back"), slug)
+
+    def test_college_lemma(self):
+        from anagnosis_pipeline.drama_prose import college_lemma, split_lemmas
+
+        self.assertEqual(college_lemma("κινδυνεύειν ἐδόκει, ὡς... ὑπάρχοντος : it seemed"),
+                         "**κινδυνεύειν ἐδόκει, ὡς . . . ὑπάρχοντος**: it seemed")
+        self.assertEqual(college_lemma("βαδίζειν : to go on"), "**βαδίζειν**: to go on")
+        self.assertEqual(college_lemma("ἥκω κτλ.: note the short"), "**ἥκω κτλ.**: note the short")
+        self.assertEqual(college_lemma("κινδυνεύειν is usually"), "**κινδυνεύειν** is usually")   # no colon: as Jebb's
+        self.assertEqual(split_lemmas("σιγᾶν: Lysias would.—ὡς ἥξων ἐκεῖσε : on the", first=True, lemma=college_lemma),
+                         ["**σιγᾶν**: Lysias would.", "**ὡς ἥξων ἐκεῖσε**: on the"])
+
+    def test_long_s(self):
+        from anagnosis_pipeline.drama_prose import long_s
+
+        english = {"should", "possession", "himself", "of", "defence", "said", "first", "same", "fame", "self-defence"}
+        for read, want in (("fhould", "should"), ("ſhould", "should"), ("poffeffion", "possession"), ("himfelf,", "himself,"),
+                           ("of", "of"), ("defence", "defence"), ("faid", "said"), ("firft", "first"), ("fame", "fame"),
+                           ("Athenians!", "Athenians!"), ("xyzf", "xyzf")):
+            self.assertEqual(long_s(read, english), want, read)
+
+    def test_own_oration(self):
+        from anagnosis_pipeline.drama_prose import _own_oration
+
+        def line(y, text):
+            return {"bbox": [100, y, 900, y + 40], "words": [{"text": w} for w in text.split()]}
+
+        play = PLAYS["lysias-10"]           # Shuckburgh's ORATION IV. [10.]: notes on leaves 258-268
+        first, last = play.leaves("notes")[0], play.leaves("notes")[-1]
+        page = [line(100, "the end of the notes on the speech before"), line(300, "ORATION IV. [10.]"), line(400, "This speech was"),
+                line(500, "4. κελεύοντος on his demand")]
+        self.assertEqual([" ".join(w["text"] for w in l["words"])[:9] for l in _own_oration(play, first, page)],
+                         ["ORATION I", "This spee", "4. κελεύο"])
+        end = [line(100, "210. the last note"), line(300, "ORATION V. [12]."), line(400, "the next speech's introduction")]
+        self.assertEqual(len(_own_oration(play, last, end)), 1)
+        self.assertEqual(len(_own_oration(play, first + 2, page[2:])), 2)   # a middle page: all of it
+
+
+class NotesPlacement(unittest.TestCase):
+    SECTIONS = {"12.12": "ἐπιτυγχάνει μηλόβιός τε καὶ μνησιθείδης ἐκ τοῦ ἐργαστηρίου ἀπιόντες".split(),
+                "12.13": "πείσων δὲ προσελθὼν σιγᾶν μοι παρεκελεύετο καὶ θαρρεῖν ὡς ἥξων ἐκεῖσε κινδυνεύειν ἐδόκει ὡς τοῦ γε ἀποθανεῖν ὑπάρχοντος ἤδη".split(),
+                "12.14": "καλέσας δὲ δάμνιππον λέγω πρὸς αὐτὸν τάδε ἀδικῶ δʼ οὐδέν".split()}
+
+    def setUp(self):
+        from anagnosis_pipeline.drama import skel
+
+        self.sections = {k: [skel(w) for w in v] for k, v in self.SECTIONS.items()}
+
+    def test_lemma_parts(self):
+        from anagnosis_pipeline.hude_notes import lemma_parts
+
+        self.assertEqual(lemma_parts("**κινδυνεύειν ἐδόκει, ὡς . . . ὑπάρχοντος**: it seemed"),
+                         [["κινδυνευειν", "εδοκει", "ωσ"], ["υπαρχοντοσ"]])
+        self.assertEqual(lemma_parts("**ἥκω κτλ.**: note"), [["ηκω"]])
+        self.assertEqual(lemma_parts("A note without a lemma."), [])
+        self.assertEqual(lemma_parts("**Wakefield** reads"), [])
+
+    def test_place(self):
+        from anagnosis_pipeline.hude_notes import place
+
+        # in the section named; in the one beside it (the editions divide the sections otherwise);
+        # not in Hude's text at all (another reading): it stays where the commentator puts it
+        self.assertEqual(place(12, [13], "**σιγᾶν**: Lysias would have us suspect", self.sections), ("12.13", "lemma"))
+        self.assertEqual(place(12, [13], "**κινδυνεύειν ἐδόκει, ὡς . . . ὑπάρχοντος**: it seemed", self.sections), ("12.13", "lemma"))
+        self.assertEqual(place(12, [13], "**Δάμνιππον**: this is all that we know", self.sections), ("12.14", "near"))
+        self.assertEqual(place(12, [13], "**πείσας**: so the MSS.", self.sections), ("12.13", "miss"))
+        self.assertEqual(place(12, [13], "See Crit. Note.", self.sections), ("12.13", "none"))
+        # Shuckburgh's line holds the end of one section and the start of the next: both are tried
+        self.assertEqual(place(12, [12, 13], "**θαρρεῖν**: to be of good cheer", self.sections), ("12.13", "lemma"))
+        # a section number beyond the speech's last is brought back to it
+        self.assertEqual(place(12, [40], "No lemma here.", self.sections)[0], "12.14")
+
+    def test_split_notes(self):
+        from anagnosis_pipeline.hude_notes import line_sections, split_notes
+
+        intro, notes = split_notes(["# Introduction", "This speech was delivered", "in 384.", "## 4", "**κελεύοντος** ‘on his demand.’",
+                                    "## 6-8", "**συμβολαίων** ‘business’", "**ἐνόμιζον** ‘I used to think.’"])
+        self.assertEqual(intro, ["This speech was delivered", "in 384."])
+        self.assertEqual(notes, [("4", ["**κελεύοντος** ‘on his demand.’"]), ("6-8", ["**συμβολαίων** ‘business’", "**ἐνόμιζον** ‘I used to think.’"])])
+        lines = {5: [1, 1, 1], 6: [1, 2, 2, 2], 9: [3]}
+        self.assertEqual(line_sections(lines, 6), [2, 1])
+        self.assertEqual(line_sections(lines, 5, 6), [1, 2])
+        self.assertEqual(line_sections(lines, 7), [2, 1])     # a line not in the map: the nearest before
+        self.assertEqual(line_sections({}, 7), [])
+
+
+class WordsAndTranslation(unittest.TestCase):
+    def test_syntax_by_speech(self):
+        from anagnosis_pipeline.hude_merge import NO_SYNTAX, SPEECH_NAMES, syntax_kind
+
+        self.assertEqual([k for k in range(1, 35) if syntax_kind(k) == "manual"], [1, 14, 15, 23, 24])
+        self.assertEqual([k for k in range(1, 35) if syntax_kind(k) == "none"], [12, 13, 19])
+        self.assertEqual(sum(1 for k in range(1, 35) if syntax_kind(k) == "automatic"), 26)
+        self.assertEqual(sorted(SPEECH_NAMES), list(range(1, 35)))
+        self.assertEqual(NO_SYNTAX, {12, 13, 19})
+
+    def test_names_have_hudes_letters(self):
+        from anagnosis_pipeline.hude_merge import SPEECH_NAMES, _letters
+
+        self.assertEqual(_letters(SPEECH_NAMES[16][0]), _letters("ΕΝ ΒΟΥΛΗΙ ΜΑΝΤΙΘΕΩΙ ΔΟΚΙΜΑΖΟΜΕΝΩΙ ΑΠΟΛΟΓΙΑ"))
+        self.assertEqual(_letters(SPEECH_NAMES[27][0]), _letters("ΚΑΤΑ ΕΠΙΚΡΑΤΟΥΣ ΚΑΙ ΤΩΝ ΣΥΜΠΡΕ- ΣΒΕΥΤΩΝ ΕΠΙΛΟΓΟΣ [ΩΣ ΘΕΟΔΩΡΟΣ]"))
+        self.assertEqual(_letters(SPEECH_NAMES[4][0]), _letters("ΠΕΡΙ ΤΡΑΥΜΑΤΟΣ ΕΚ ΠΡΟΝΟΙΑΣ, ΥΠΕΡ ΟΥ ΚΑΙ ΠΡΟΣ ΟΝ ⟨ΑΔΗΛΟΝ⟩"))
+
+    def test_translation_1898(self):
+        from anagnosis_pipeline.hude_merge import translation_1898
+
+        text = ("front matter\n\nORATION II.\n\nFUNERAL ORATION.\n\n\n1. If I thought it possible, in 12 days. 2. And though\nmy words "
+                "relate.\n\n3. First, then, _I_ will review.\n\nWITNESSES.\n\n5. The Amazons were once.\n\n\n\nORATION V.\n\nCALLIAS.\n\n"
+                "1. If Callias were contending.\n\n*** END OF THE PROJECT GUTENBERG EBOOK ***\n1. licence\n")
+        with tempfile.TemporaryDirectory() as t:
+            p = Path(t) / "pg.txt"
+            p.write_text(text, encoding="utf-8")
+            got, problems = translation_1898(p)
+        self.assertEqual(problems, [])
+        self.assertEqual(got[2], [(1, "If I thought it possible, in 12 days."), (2, "And though my words relate."),
+                                  (3, "First, then, *I* will review. WITNESSES."), (5, "The Amazons were once.")])
+        self.assertEqual(got[5], [(1, "If Callias were contending.")])

@@ -104,6 +104,8 @@ def main(argv: list[str] | None = None) -> int:
     mly = sub.add_parser("merge-lysias", help="the Greek text and the critical apparatus of Lysias from the checked batches (hude_merge.py), with the lemma check")
     mly.add_argument("slug", nargs="?", default="lysias")
     mly.add_argument("--out", default=str(TEXTS), help="the texts folder to write <slug>/ into (default: texts/)")
+    mly.add_argument("--text-only", action="store_true", help="only the Greek text and the apparatus (no words, syntax, translation, commentaries)")
+    mly.add_argument("--drafts", action="store_true", help="a trial: take the commentary batches as they are, flags not yet answered (never into texts/)")
     sub.add_parser("fetch-nt", help="download the New Testament sources into pipeline/sources/nt/ (SBLGNT, MACULA, Dodson, BSB)")
     sub.add_parser("import-nt", help="texts/newtestament/ from the SBLGNT, MACULA, Dodson and the Berean Standard Bible")
     sub.add_parser("prepare-autenrieth-pages", help="page images and OCR drafts for transcribing Autenrieth's Homeric Dictionary (pipeline/build/autenrieth-pages/)")
@@ -321,7 +323,10 @@ def main(argv: list[str] | None = None) -> int:
         print(f"{len(r)} residuals: " + ", ".join(f"{k} {v}" for k, v in Counter(x["kind"] for x in r).most_common()))
     elif args.cmd == "merge-lysias":
         from .hude_merge import merge as merge_lysias
-        return 1 if merge_lysias(args.slug, SOURCES, Path(args.out), ROOT / "pipeline" / "build") else 0
+        if args.drafts and Path(args.out).resolve() == TEXTS.resolve():
+            raise SystemExit("--drafts is for a trial merge: give --out a scratch folder")
+        return 1 if merge_lysias(args.slug, SOURCES, Path(args.out), ROOT / "pipeline" / "build",
+                                 None if args.text_only else DATA / "lexicon.sqlite", args.drafts) else 0
     elif args.cmd == "fetch-nt":
         from .nt import fetch_nt
         fetch_nt(SOURCES)

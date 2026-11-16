@@ -39,6 +39,57 @@ PIPELINE = ROOT / "pipeline"
 MISPRINTS: dict[str, dict[str, tuple[str, str]]] = {
     "lysias": {},
 }
+# The speeches' names for the book chooser: Hude's printed title (capitals without accents in
+# the print) in lower case with accents and breathings, the first word capitalised, his brackets
+# kept (the author, 2026-11-16); the accents are those of the Perseus files' titles where the
+# words agree. The merge compares each with the title lines of the batches by letters and reports
+# a difference. The second name is the customary English one (for the introduction's chapters).
+SPEECH_NAMES: dict[int, tuple[str, str]] = {
+    1: ("Ὑπὲρ τοῦ Ἐρατοσθένους φόνου ἀπολογία", "On the Murder of Eratosthenes"),
+    2: ("Ἐπιτάφιος τοῖς Κορινθίων βοηθοῖς", "Funeral Oration"),
+    3: ("Πρὸς Σίμωνα ἀπολογία", "Against Simon"),
+    4: ("Περὶ τραύματος ἐκ προνοίας, ὑπὲρ οὗ καὶ πρὸς ὃν ⟨ἄδηλον⟩", "On a Wound by Premeditation"),
+    5: ("Ὑπὲρ Καλλίου ἱεροσυλίας ἀπολογία", "For Callias"),
+    6: ("Κατὰ Ἀνδοκίδου ἀσεβείας", "Against Andocides"),
+    7: ("Ἀρεοπαγιτικὸς περὶ τοῦ σηκοῦ ἀπολογία", "On the Olive Stump"),
+    8: ("Κατηγορία πρὸς τοὺς συνουσιαστὰς κακολογιῶν", "Accusation of Calumny"),
+    9: ("Ὑπὲρ τοῦ στρατιώτου", "For the Soldier"),
+    10: ("Κατὰ Θεομνήστου", "Against Theomnestus I"),
+    11: ("Κατὰ Θεομνήστου Β", "Against Theomnestus II"),
+    12: ("Κατὰ Ἐρατοσθένους τοῦ γενομένου τῶν τριάκοντα, ὃν αὐτὸς εἶπε Λυσίας", "Against Eratosthenes"),
+    13: ("Κατὰ Ἀγοράτου ἐνδείξεως", "Against Agoratus"),
+    14: ("Κατὰ Ἀλκιβιάδου λιποταξίου", "Against Alcibiades I"),
+    15: ("Κατὰ Ἀλκιβιάδου ἀστρατείας", "Against Alcibiades II"),
+    16: ("Ἐν βουλῇ Μαντιθέῳ δοκιμαζομένῳ ἀπολογία", "For Mantitheus"),
+    17: ("Δημοσίων ἀδικημάτων", "On the Property of Eraton"),
+    18: ("Περὶ τῆς δημεύσεως ⟨τῶν⟩ τοῦ Νικίου ἀδελφοῦ ἐπίλογος", "On the Property of the Brother of Nicias"),
+    19: ("Ὑπὲρ τῶν Ἀριστοφάνους χρημάτων, πρὸς τὸ δημόσιον", "On the Property of Aristophanes"),
+    20: ("Ὑπὲρ Πολυστράτου δήμου καταλύσεως ἀπολογία", "For Polystratus"),
+    21: ("Ἀπολογία δωροδοκίας ἀπαράσημος", "Defence against a Charge of Taking Bribes"),
+    22: ("Κατὰ τῶν σιτοπωλῶν", "Against the Grain Dealers"),
+    23: ("Κατὰ Παγκλέωνος ὅτι οὐκ ἦν Πλαταιεύς", "Against Pancleon"),
+    24: ("[Πρὸς τὴν εἰσαγγελίαν] περὶ τοῦ μὴ δίδοσθαι τῷ ἀδυνάτῳ ἀργύριον", "For the Cripple"),
+    25: ("Δήμου καταλύσεως ἀπολογία", "Defence against a Charge of Subverting the Democracy"),
+    26: ("⟨Περὶ τῆς Εὐάνδρου δοκιμασίας⟩", "On the Scrutiny of Evander"),
+    27: ("Κατὰ Ἐπικράτους καὶ τῶν συμπρεσβευτῶν ἐπίλογος [ὡς Θεόδωρος]", "Against Epicrates"),
+    28: ("Κατὰ Ἐργοκλέους ἐπίλογος", "Against Ergocles"),
+    29: ("Κατὰ Φιλοκράτους ἐπίλογος", "Against Philocrates"),
+    30: ("Κατὰ Νικομάχου γραμματέως εὐθυνῶν κατηγορία", "Against Nicomachus"),
+    31: ("Κατὰ Φίλωνος δοκιμασίας", "Against Philon"),
+    32: ("Κατὰ Διογείτονος", "Against Diogeiton"),
+    33: ("Ὀλυμπικός", "Olympic Oration"),
+    34: ("Περὶ τοῦ μὴ καταλῦσαι τὴν πάτριον πολιτείαν Ἀθήνησι", "On the Constitution"),
+}
+# Where the trees of each speech come from (PLAN-lysias.md, "Syntax"): the AGDT's hand-made trees
+# (pipeline/sources/treebanks, CC BY-SA 3.0), GLAUx's file (hand-made for 24: the Pedalion trees;
+# automatic for the rest, CC BY-SA 4.0), or none (12, 13, 19: the only trees are under a
+# non-commercial licence; the author, 2026-11-16: shipped without syntax).
+AGDT = {1, 14, 15, 23}
+MANUAL = AGDT | {24}
+NO_SYNTAX = {12, 13, 19}
+# the anonymous literal translation of 1898 (Project Gutenberg #6969): its twenty speeches
+TRANSLATED_1898 = (2, 5, 7, 9, 10, 12, 13, 14, 16, 17, 19, 22, 23, 24, 25, 28, 30, 31, 32, 33)
+STATIC = PIPELINE / "transcriptions" / "lysias" / "static"
 # which of several like words on the line an item means: "alt. τὴν del. Emperius"
 ORDINAL = re.compile(r"^(pr|prius|alt|alterum|tert|tertium|quart)\.?\s+(?=\S)")
 ORDINALS = {"pr": 0, "prius": 0, "alt": 1, "alterum": 1, "tert": 2, "tertium": 2, "quart": 3}
@@ -169,6 +220,14 @@ def assemble(pages: dict[str, dict], index: list[dict]) -> dict:
         k = next(i for i, (a, b, _w) in enumerate(old_lines[key]) if a == ui and b == 0)
         new_units[lines[key][k][0]]["before"] = before[id(units[ui])]
     return {"units": new_units, "lines": lines, "titles": titles, "problems": problems}
+
+
+def _letters(s: str) -> str:
+    """A title's letters alone (no accents, brackets or hyphens of a divided word; an iota
+    adscript of the capitals counts as the subscript of the lower case: ΒΟΥΛΗΙ, βουλῇ)."""
+    from .drama import skel
+
+    return skel(s.replace("- ", ""), adscript=True)
 
 
 def speech_title(lines: list[str]) -> tuple[str, str]:
@@ -310,13 +369,170 @@ def place_apparatus(pages: dict[str, dict], index: list[dict], text: dict) -> tu
     return placed, misses, problems
 
 
+# --- words and syntax --------------------------------------------------------------------------
+
+def syntax_kind(speech: int) -> str:
+    return "none" if speech in NO_SYNTAX else "manual" if speech in MANUAL else "automatic"
+
+
+def speech_treebank(speech: int, sources: Path) -> list[dict]:
+    """The trees of a speech as drama._tokens takes them (sophocles.read_agdt / read_glaux_lines),
+    the sentence ids made the text's own by the speech's number in front ("12.34"); [] for a
+    speech shipped without syntax."""
+    from .sophocles import read_agdt, read_glaux_lines
+
+    if speech in NO_SYNTAX:
+        return []
+    if speech in AGDT:
+        tb = read_agdt(sources / "treebanks" / f"tlg0540.tlg{speech:03d}.perseus-grc1.tb.xml")
+    else:
+        tb = read_glaux_lines(sources / "glaux" / f"0540-{speech:03d}.xml")
+    for w in tb:
+        w["sentence"] = f"{speech}.{w['sentence']}"
+    return tb
+
+
+def tokens(slug: str, doc, sources: Path, out: Path, lexicon: Path, build: Path) -> int:
+    """tokens.tsv and syntax-nodes.tsv: each speech's words aligned to its own trees (the words
+    alone decide: neither source knows Hude's lines), the analyser for the words the trees lack
+    or read otherwise, and for the whole of the speeches without trees; the review list
+    build/<slug>-review.tsv. As drama._tokens, speech by speech."""
+    from . import greek
+    from .drama_fixes import HAND_ANALYSES, LEMMA_FIXES as TEXT_LEMMA_FIXES
+    from .import_perseus import LEMMA_FIXES, write_syntax_nodes, write_tokens
+    from .odyssey import align, fix_lemma, syntax_nodes
+    from .odyssey_merge import Analyser, Frequencies, choose_analysis
+    from .textfmt import Document
+
+    analyse = Analyser(lexicon)
+    freq = Frequencies(sources / "treebanks")
+    by_speech: dict[int, Document] = {}
+    for line in doc.lines:
+        by_speech.setdefault(int(line.n.split(".")[0]), Document(meta={})).items.append(line)
+    rows: list[dict] = []
+    nodes: list[dict] = []
+    review: list[dict] = []
+    for speech in sorted(by_speech):
+        tb = speech_treebank(speech, sources)
+        who = "the treebank" if speech in AGDT else "GLAUx"
+        got, _warnings = align(by_speech[speech], tb, keep_tb_form=True)
+        for r in got:
+            tb_form = r.pop("tb_form", "")
+            same = tb_form and greek.strip_diacritics(tb_form) == greek.strip_diacritics(r["form"])
+            if r["lemma"] and r["postag"] and (same or not tb_form):
+                continue
+            chosen = choose_analysis(r["form"], analyse(r["form"]), r["postag"], r["lemma"], freq, tb_form)
+            if chosen is not None:
+                r["lemma"], r["postag"] = fix_lemma(chosen[0]), chosen[1]
+            if not tb:
+                if not r["lemma"]:
+                    review.append({"line": r["line"], "form": r["form"], "lemma": "", "postag": r["postag"], "reason": "no trees for this speech; the analyser has no reading"})
+                continue  # a speech without trees: every word is the analyser's, only the unread ones are listed
+            reason = (f"no lemma or parse in {who}" if same else f"reads {r['form']} where {who} has {tb_form}" if tb_form
+                      else f"a word {who} splits" if "+" in r["word_id"] else f"not in {who}")
+            review.append({"line": r["line"], "form": r["form"], "lemma": r["lemma"], "postag": r["postag"], "reason": reason})
+        used = {(r["sentence"], w) for r in got for w in r["word_id"].split("+") if r["sentence"]}
+        nodes += syntax_nodes(tb, used)
+        rows += got
+    hands = HAND_ANALYSES.get(slug, {})
+    fixes = TEXT_LEMMA_FIXES.get(slug, {})
+    for r in rows:
+        hand = hands.get(f"{r['line']} {r['form']}") or hands.get(f"{base(r['line'])} {r['form']}")
+        if hand:
+            r["lemma"], r["postag"] = hand
+        r["lemma"] = LEMMA_FIXES.get(r["lemma"], r["lemma"])
+        r["lemma"] = fixes.get(r["lemma"], r["lemma"])
+    write_tokens(out / "tokens.tsv", rows)
+    write_syntax_nodes(out / "syntax-nodes.tsv", nodes)
+    print(f"wrote tokens.tsv: {len(rows)} words, {sum(1 for r in rows if not r['lemma'])} without lemma; "
+          f"syntax-nodes.tsv: {len(nodes)} nodes")
+    with (build / f"{slug}-review.tsv").open("w", encoding="utf-8") as f:
+        f.write("line\tform\tlemma\tpostag\treason\n")
+        for r in review:
+            f.write(f"{r['line']}\t{r['form']}\t{r['lemma']}\t{r['postag']}\t{r['reason']}\n")
+    return len(review)
+
+
+# --- the translation of 1898 -------------------------------------------------------------------
+
+_ROMAN = {"I": 1, "V": 5, "X": 10, "L": 50}
+
+
+def _roman(s: str) -> int:
+    total = 0
+    for a, b in zip(s, s[1:] + " "):
+        total += -_ROMAN[a] if b in _ROMAN and _ROMAN[b] > _ROMAN[a] else _ROMAN[a]
+    return total
+
+
+def translation_1898(path: Path) -> tuple[dict[int, list[tuple[int, str]]], list[str]]:
+    """The anonymous literal translation of 1898 (Project Gutenberg #6969) by speech and section:
+    {speech: [(section, text)]} and problems. The speeches are headed "ORATION XII." (the
+    transcription has "XXXL." and "XXXIL." for XXXI and XXXII); the section numbers stand in the
+    text ("… for time to fail. 2. But I think …"), most of them, not all: a segment runs from one
+    printed number to the next and is filed under its first section. The speech's title line is
+    left out; the headings inside a speech (WITNESSES., LAW.) stay in the text; _italics_ are
+    written *italics*."""
+    t = path.read_text(encoding="utf-8").replace("\r", "")
+    t = t.split("*** END OF THE PROJECT GUTENBERG")[0]
+    heads = list(re.finditer(r"^ORATION ([IVXL]+)\.\s*$", t, re.M))
+    out: dict[int, list[tuple[int, str]]] = {}
+    problems: list[str] = []
+    for k, h in enumerate(heads):
+        numeral = h.group(1)
+        if numeral not in ("L", "XL") and numeral.endswith("L"):
+            numeral = numeral[:-1] + "I"  # XXXL, XXXIL: an I read as L
+        speech = _roman(numeral)
+        if speech != TRANSLATED_1898[k]:
+            problems.append(f"translation 1898: heading {h.group(0).strip()} read as speech {speech}, expected {TRANSLATED_1898[k]}")
+            speech = TRANSLATED_1898[k]
+        block = t[h.end(): heads[k + 1].start() if k + 1 < len(heads) else len(t)]
+        text = " ".join(block.split())
+        segs: list[tuple[int, str]] = []
+        cur, pos, start = 0, 0, None
+        for m in re.finditer(r"(?:^|(?<=\s))(\d{1,3})\. (?=[\"“‘'(\[A-Z_])", text):
+            n = int(m.group(1))
+            if not (cur < n <= cur + 6):
+                continue  # a figure in the text, not a section's number
+            if start is not None:
+                segs.append((cur, text[start:m.start()].strip()))
+            elif text[:m.start()].strip() and n != 1:
+                problems.append(f"translation 1898: speech {speech} begins with section {n}")
+            cur, start = n, m.end()
+        if start is not None:
+            segs.append((cur, text[start:].strip()))
+        out[speech] = [(n, re.sub(r"_([^_]+)_", r"*\1*", s_)) for n, s_ in segs]
+    return out, problems
+
+
+def write_translation(slug: str, sources: Path, out: Path, units: list[dict], problems: list[str]) -> int:
+    play = PLAYS[slug]
+    by_speech, probs = translation_1898(sources / "gutenberg" / "pg6969.txt")
+    problems += probs
+    have = {base(u["n"]) for u in units}
+    rows = []
+    for speech in sorted(by_speech):
+        for n, text in by_speech[speech]:
+            if f"{speech}.{n}" not in have:
+                problems.append(f"translation 1898: section {speech}.{n} is not in the Greek")
+                continue
+            rows.append(f"{speech}.{n}\t{text}")
+    meta = {"title": play.title_en, "translator": "Anonymous (1898)", "lang": "eng",
+            "source": "The Orations of Lysias, literally translated, Handy Literal Translations, New York, 1898 (speeches "
+                      + ", ".join(str(x) for x in TRANSLATED_1898) + "); from the Project Gutenberg text, ebook 6969",
+            "license": "Public domain"}
+    (out / "eng-1898.txt").write_text("\n".join(_meta_lines(meta) + [""] + rows) + "\n", encoding="utf-8")
+    print(f"wrote eng-1898.txt: {len(rows)} segments of {len(by_speech)} speeches")
+    return len(rows)
+
+
 # --- merge -----------------------------------------------------------------------------------
 
 def base(n: str) -> str:
     return re.sub(r"[a-z]$", "", n)
 
 
-def merge(slug: str, sources: Path, texts: Path, build: Path) -> int:
+def merge(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path | None = None, drafts: bool = False) -> int:
     from .textfmt import Document, Line, Section, Speaker, Stage, write_file
 
     play = PLAYS[slug]
@@ -347,6 +563,9 @@ def merge(slug: str, sources: Path, texts: Path, build: Path) -> int:
         if k not in text["titles"]:
             problems.append(f"speech {k}: no [title] lines")
 
+    by_kind: dict[str, list[int]] = {}
+    for k in range(1, SPEECHES + 1):
+        by_kind.setdefault(syntax_kind(k), []).append(k)
     meta = {
         "title": play.title, "author": play.author, "lang": "grc",
         "source": f"{play.edition}; read from the Internet Archive scan {play.scan} by OCR, matched word by word to the "
@@ -355,6 +574,9 @@ def merge(slug: str, sources: Path, texts: Path, build: Path) -> int:
         "edition": play.edition,
         "license": TRANSCRIPTION_LICENSE,
         "layout": "prose",
+        # the text's label, and the speeches that differ from it: hand-made trees, or none
+        "syntax": "automatic",
+        "syntax-by-book": " ".join(f"{k}={kind}" for kind in ("manual", "none") for k in by_kind.get(kind, [])),
         "pronunciation": play.pronunciation,
     }
     doc = Document(meta=meta)
@@ -364,7 +586,10 @@ def merge(slug: str, sources: Path, texts: Path, build: Path) -> int:
         if b != book:
             book = b
             _numeral, title = speech_title(text["titles"].get(int(b), []))
-            doc.items.append(Section(1, "book", f"{b} · {title}" if title else b))
+            name = SPEECH_NAMES[int(b)][0]
+            if title and _letters(name) != _letters(title):
+                problems.append(f"speech {b}: the name “{name}” has other letters than Hude's title “{title}”")
+            doc.items.append(Section(1, "book", f"{b} · {name}"))
         for heading in u["before"]:
             doc.items.append(Stage(heading))
         if u["para"]:
@@ -397,6 +622,16 @@ def merge(slug: str, sources: Path, texts: Path, build: Path) -> int:
     print(f"wrote commentary-{play.app_editor}-apparatus.md: {len(grouped)} sections, {len(placed)} items; "
           f"lemmas not found: {len(serious)} serious, {len(misses) - len(serious)} weak")
 
+    # words and syntax, the translation, the commentaries and introduction, the hand-written files
+    if lexicon is not None:
+        n = tokens(slug, doc, sources, out, lexicon, build)
+        print(f"review list: {n} words in {build / f'{slug}-review.tsv'}")
+        write_translation(slug, sources, out, units, problems)
+        from . import hude_notes
+
+        hude_notes.write(texts, slug, sources, build, drafts)
+        for path in sorted(STATIC.glob("*")):
+            (out / path.name).write_bytes(path.read_bytes())
     log = [f"# merge-lysias {slug}", "", f"## Problems ({len(problems)})", ""] + [f"* {x}" for x in problems]
     log += ["", f"## Apparatus lemmas not found on their lines ({len(misses)})", "",
             "SERIOUS: the text may have slipped to the check text's reading; look at the page. WEAK: a conjecture, a "

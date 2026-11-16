@@ -527,6 +527,10 @@ def build_work(db: sqlite3.Connection, work_dir: Path, homographs: "Homographs |
     for key in ("layout", "syntax", "dictionaries", "pronunciation", "dashes", "citation"):
         if m.get(key):
             db.execute("INSERT OR REPLACE INTO meta VALUES (?, ?)", (key, m[key]))
+    # the books whose syntax is not what "syntax" says of the text (Lysias: "1=manual 12=none":
+    # hand-made trees in speech 1, none in speech 12, in a text whose other speeches are automatic)
+    if m.get("syntax-by-book"):
+        db.execute("INSERT OR REPLACE INTO meta VALUES ('syntax_by_book', ?)", (m["syntax-by-book"],))
 
     last_line = max(line_ids, key=lambda n: line_n_parts(n))
     last_int, last_sub = line_n_parts(last_line)
