@@ -9,12 +9,21 @@ sound.
 What is here:
 
 * `fetch-espeak.sh` clones eSpeak NG 1.52.0 into `espeak-ng/` (ignored by git) and applies
-  `patches/`. Two patches: `grc-tone-language.patch` makes Ancient Greek a tone language, so that
+  `patches/`. Three patches: `grc-tone-language.patch` makes Ancient Greek a tone language, so that
   the pitch accent of Homeric and Attic Greek is spoken with tone phonemes, as Vietnamese is;
   `klatt-frame-loudness.patch` makes eSpeak's Klatt synthesiser follow the loudness of the
   sound frames (as the formant synthesiser does through the formant heights), loop a mixed-in
   recording for the length of its sound, and mix it at the formant synthesiser's level. Without
   it the rolled r was one tap and the closures of b d g were spoken at full voice.
+  `phoneme-input-clauses.patch` keeps eSpeak from losing track of `[[phonemes]]`: it missed a
+  `[[` straight after `]]` (an elided word joined to the next) and cut a long sentence (over
+  about 725 bytes) inside the brackets; either way the rest was read as text, and naming a
+  character like `]` or `:` sent eSpeak to its English dictionary, which the app does not ship,
+  through uninitialised pointers: the app crashed (SIGSEGV in `LookupDict2`, 2026-11-17). The
+  patch also zeroes new translators, so a missing dictionary can no longer crash.
+* `tests/run-host-test.sh` builds the library from the checkout for this computer with
+  AddressSanitizer and runs `tests/phoneme_input_test.c` (the app's calls and data, on the
+  inputs that crashed it). Run it after changing a patch or updating eSpeak.
 * `phsource/ph_grc`: the Ancient Greek phoneme table (replaces eSpeak's own
   `ph_greek_ancient`): short and long vowels, diphthongs, aspirated stops, and four tones
   (0 low, 1 high, 2 rising, 3 falling), with the same four at three more levels (10-13, 20-23,

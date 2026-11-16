@@ -1,0 +1,45 @@
+diff --git a/src/libespeak-ng/readclause.c b/src/libespeak-ng/readclause.c
+--- a/src/libespeak-ng/readclause.c
++++ b/src/libespeak-ng/readclause.c
+@@ -452,10 +452,13 @@
+ 
+ static int CheckPhonemeMode(int option_phoneme_input, int phoneme_mode, int c1, int c2) {
+ 		if (option_phoneme_input) {
+-			if (phoneme_mode > 0)
+-				phoneme_mode--;
+-			else if ((c1 == '[') && (c2 == '['))
++			// Anagnosis: "[[" is looked for first, so that phonemes starting straight after "]]"
++			// ("[[a]][[b _:]]") are phonemes too; before, the countdown below hid that "[[",
++			// a ':' in the second word ended the clause, and the rest was read as text
++			if ((c1 == '[') && (c2 == '['))
+ 				phoneme_mode = -1; // input is phoneme mnemonics, so don't look for punctuation
++			else if (phoneme_mode > 0)
++				phoneme_mode--;
+ 			else if ((c1 == ']') && (c2 == ']'))
+ 				phoneme_mode = 2; // set phoneme_mode to zero after the next two characters
+ 
+@@ -942,7 +945,9 @@
+ 		}
+ 		*charix_top = ix;
+ 
+-		if (((ix > (n_buf-75)) && !IsAlpha(c1) && !iswdigit(c1))  ||  (ix >= (n_buf-4))) {
++		// Anagnosis: a long clause is not cut inside [[phonemes]] (nor between "]]" and the
++		// next "[["), where the rest would be read as text, but at the space between words
++		if (((ix > (n_buf-75)) && !IsAlpha(c1) && !iswdigit(c1) && (phoneme_mode == 0))  ||  (ix >= (n_buf-4))) {
+ 			// clause too long, getting near end of buffer, so break here
+ 			// try to break at a word boundary (unless we actually reach the end of buffer).
+ 			// (n_buf-4) is to allow for 3 bytes of multibyte character plus terminator.
+diff --git a/src/libespeak-ng/tr_languages.c b/src/libespeak-ng/tr_languages.c
+--- a/src/libespeak-ng/tr_languages.c
++++ b/src/libespeak-ng/tr_languages.c
+@@ -242,7 +242,9 @@
+ 		 0,  0,  0,  0,  0,  0,  0,  0,  0,  0, 55,  0, 56,  0, 57,  0, // 0x170
+ 	};
+ 
+-	if ((tr = (Translator *)malloc(sizeof(Translator))) == NULL)
++	// Anagnosis: zeroed, so that a translator whose dictionary is missing (the English one that
++	// eSpeak falls back on to name a character) has no stray pointers in its hash table
++	if ((tr = (Translator *)calloc(1, sizeof(Translator))) == NULL)
+ 		return NULL;
+ 
+ 	tr->encoding = ESPEAKNG_ENCODING_ISO_8859_1;
