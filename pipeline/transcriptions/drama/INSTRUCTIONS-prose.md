@@ -474,6 +474,142 @@ wants `## N` or `## N-M` headings, rising numbers, each in `texts/philoctetes/gr
 numbers a verse our text lacks, which happens in the lyrics, keep his number and say under notes
 "## 1100: Jebb's number; our text has no 1100"), every flag answered, `+ ` only at a page's start.
 
+## Earle's Medea: the commentary and the introduction
+
+M. L. Earle, *The Medea of Euripides*, New York, American Book Company, 1904 (scan
+`cu31924079583609`). The play's Greek text and apparatus in the app are another edition's
+(Gilbert Murray's Oxford text); Earle supplies the **commentary** (`notes-NN.md`) and the
+**introduction** (`intro-NN.md`). The play is **private until 2028-01-01**
+(pipeline/PLAN-euripides.md): its batch files live in `private/` (the play's folder under
+`pipeline/transcriptions/drama/` is a link into it). Never copy anything of these batches, or
+of Murray's pages, into another file, a message to another agent, or anything outside the batch
+file and your own scratch folder. Everything you need is in this section and in "The notes" and
+"The introduction" above.
+
+**Earle's page (the notes).** At the top the running head and page number; then Earle's own
+Greek verses in large type with his margin numbers (**not yours**: they are his edition's text,
+which is not used); then, **without a rule**, his commentary in smaller type in **two columns**.
+Only the commentary is yours. The draft took everything under the verses (the crops are
+`pipeline/build/drama-prose/medea/p-0140-flags.png`, `p-0140-col-l.png`, `p-0140-col-r.png`, the
+page `pages/leaf_0140.png`); if a verse, a margin number or the printer's signature at the foot
+of a left column ("MEDEA — 13") slipped in, delete it and say so under notes; if the first
+line of a column is missing, add it from the image. The order is the left column top to bottom,
+then the right column, then the next page; a paragraph running from the foot of the left column
+to the top of the right one is one paragraph (the draft joined them: check); a note running on
+from the page before begins the page's block with `+ `.
+
+**Notes run on inside paragraphs.** Earle does not begin each note on a new line. A note begins
+with the verse number in **bold old-style figures and a stop**, followed by the lemma in bold
+Greek and a spaced colon, or by English: "**458.** **τυράννους** : apparently with the same
+reference as βασιλέων, v. 455." — "**452.** The prolepsis is like that in v. 447." The number
+may stand at the start of an indented paragraph, at the start of a line, or **in the middle of
+a line after a sentence** ("… where we have ὡς with οὐδέν. **453.** Of course the μέν clause …").
+Forms: "21 f." and "21 ff." → `## 21`; "455–458." → `## 455-458` (plain hyphen); "Vv. 1–48."
+(a note on a whole scene) → `## 1-48`. The draft cut the paragraph before every such number and
+made it the heading; it kept only numbers that rise through the commentary, so:
+* **Take every heading's number from the image.** Old-style figures are misread: 1 as I or l,
+  3/8, 0/9 or o, 2 as "ἡ" or "z", the bold "f." as "£." or "1."; the draft has tried such
+  readings. A bold number the draft left in the text (it could not fit it into the sequence)
+  becomes a heading: cut the paragraph there. A number the draft made a heading that is not
+  bold in the print (a reference: "v. 450.", "cp. 1345 f.", "Pyth. 4. 209", "Il. 9. 63.") goes
+  back into the text where it stood, joined to its paragraph.
+* **Earle's order is his text's order.** Where his text moves verses (p-0111/0112 and
+  p-0200/0201 at least) his notes go back in number (… 217, 222, 223, 224, then 219–221 …): keep
+  his order and his numbers; `check-drama-prose` then says "note N comes after M": write under
+  notes "Earle's order (his text moves the verses)".
+* **The lemma** is the bold Greek after the number, ending at his spaced colon (or at the first
+  plain word): write `**τυράννους**:` (colon outside the bold, no space before it). A lemma may
+  bridge a gap with dots: `**ἀμφιλόγους . . . νείκη**:`. Where the print sets two bold
+  stretches with plain words between ("**αἰθερία** (= πρὸς αἰθέρα) **ἀνέπτα** :", "**πατρὸς
+  δόμοι** and **λέκτρων δόμοισιν** are contrasted"), bold each as printed (the draft bolds only
+  the first). A note that begins in English has no lemma.
+* **Further lemmas on the same verse** follow a dash inside the note: "… with the gen. —
+  **τοιγάρ** : *i.e.* …". As in every play's commentary, each begins a **new paragraph under
+  the same heading**, the dash dropped: `**τοιγάρ**: *i.e.* ἐπεὶ …`. The draft cut at every dash
+  followed by Greek and bolded the Greek: check each cut on the image; where the Greek after the
+  dash is not bold (a quotation), join the pieces again with " — " and take the bold away.
+  Where the OCR read the bold Greek after a dash in Latin letters, the draft could not cut: do it
+  yourself ("— obras : aeque" is "— **οὕτως** : aeque"; "—alel δ᾽" is "**αἰεὶ δ᾽**";
+  "—"Apyois σκάφος" is "**Ἀργοῦς σκάφος**"). A dash followed by English ("— The dramatic
+  excellence of this πρόλογος …") stays in its paragraph as " — ".
+* Earle's dash is spaced: " — ". His quotation marks are single ‘ ’ (double “ ” for a quotation
+  inside a quotation and for some longer quotations): the OCR reads ‘ as ¢ (the draft has
+  changed those) and ’ as ” or ’: check them. Verses he quotes run on in his text with " | "
+  between them, as printed.
+
+**His abbreviations and references**, copied as printed: v., vv., cp., cf., sc., *i.e.*, *e.g.*
+(italic; the OCR reads *i.e.* as "2.6.", "Ze.", "Z.e.": the draft has made most of them
+`*i.e.*`), κτέ. (his "etc." after Greek), Introd. (his introduction, by page: "Introd. p. 34"),
+"see on v. 3 f." (his note on 3), Schol. (the scholia), Mss.; the grammars HA. (Hadley-Allen),
+G. (Goodwin), GMT. (Goodwin's Moods and Tenses), with their section numbers ("HA. 871 a, G. 1513,
+GMT. 734"); L. and S. (Liddell and Scott). Other plays and authors with italic titles: *Alc.*,
+*Hipp.*, *Androm.*, *Heracl.*, *Hec.*, *I.T.*, *Suppl.*, *Bacch.*, Soph. *Ant.*, *El.*, *O.C.*,
+Aesch., Aristoph. *Ach.*, *Clouds*, Hdt., Thuc., Plato's *Protagoras*, Hesiod *Op.*; Homer by
+the book's Greek letter (ε 264, Ω 545: the OCR reads Ω as Q). Latin and German quoted in
+italics (*aeque*, *qui facit per alium facit per se*, *Griechenland*), names as printed
+(Hölderlin, Wecklein, Verrall, Headlam). The OCR knows no italics: **read each column image
+through once** and set the italics (`*…*`) where Earle prints them, as for the Philoctetes.
+
+**Greek**: Unicode polytonic, precomposed, every breathing and accent; elision ’ (the OCR's ᾽
+is accepted). The OCR reads short Greek words in Latin letters and does **not** always flag them
+("sc. poi" for sc. μοί, kal for καί, yap for γάρ, ols for οἷς): correct every such word you see
+on the read-through; do not retype Greek that is right.
+
+**Headings that our text lacks.** Earle numbers some lyric verses otherwise than the play's
+text in the app (`texts/medea/grc.txt`): keep Earle's number; `check-drama-prose` says "no
+line N": write under notes "## 134: Earle's number; our text has no 134" (the merge files the
+note under the nearest earlier verse with "[134]" in front).
+
+**The introduction (`intro-NN.md`)** holds four parts, in the order of their page names (the
+first figure after `p-` is the part; the crops are in `pipeline/build/drama-prose/medea/<scan>/`,
+`p-10014-flags.png` and so on, the page in that folder's `pages/leaf_0014.png`):
+
+1. **Earle's Introduction** (`p-1…`, his pp. 7-64, scan `cu31924079583609`). The title
+   INTRODUCTION → `# Introduction`; his chapter titles in capitals (EURIPIDES'S LIFE, THE MEDEA
+   and the others) → `# Euripides's Life` (capitals and small letters, apostrophe as printed).
+   He numbers his paragraphs through the whole introduction ("**1.** Of the facts of
+   Euripides's personal life …"): each is a section `## § 1` (the draft has done this where it
+   saw the number; the numbers run on across chapters; `check-drama-prose` checks the sequence).
+   **His notes in the margin** (small bold words in a space beside two or three shortened lines,
+   at the outer edge: "Sources", "Birth and death", "Parentage"): after a dash in the section's
+   heading, `## § 2 — Birth and death`; a margin note beside a paragraph that opens no section
+   in italics at the paragraph's start, `*Parentage* …`. The draft has taken out the margin notes
+   it found: check every one against the page (the OCR reads "Birth" as "girth"; a margin word
+   left inside a sentence must be moved out of it; a note's words split between lines joined).
+   Verses he quotes (Greek, Latin, English, French) are set in: one paragraph, the printed lines
+   separated by " | " (the draft has done this; check where a quotation begins and ends; the
+   accents of Greek verses that Tesseract read as a line of their own are dropped, the rest of
+   such noise you delete). The English translations he prints after them are ordinary
+   paragraphs. His bracketed **bibliographies** at the end of chapters ("[BIBLIOGRAPHY. — …]"):
+   left out by the brief's rule, each replaced by the paragraph `[Bibliography omitted]`. A
+   table (the plays with their dates) as paragraphs, one row each. Footnotes `[Note: …]`. The
+   printer's signature at the foot ("MEDEA — 3") is left out.
+2. **The ancient hypotheses in Murray's edition** (`p-2…`, scan `euripidisfabulae01euriuoft`,
+   leaves 102-103: the half-title, then the hypotheses in Greek prose with line numbers in the
+   left margin and Murray's Latin apparatus in small type at the foot). Write: on the first page
+   `# The ancient hypotheses`; each hypothesis `## ` and its heading as printed (Greek
+   capitals, in brackets where printed); its Greek as one paragraph per printed paragraph,
+   without the margin line numbers, exactly as printed (brackets, daggers, sigla in the text);
+   then the apparatus of that page as one paragraph beginning `*Critical apparatus.* `, its
+   items with Murray's line numbers as printed and in the form the play's apparatus uses
+   (INSTRUCTIONS-text.md, "Murray's Euripides": his sigla, hands, Σ). The draft has given the
+   foot's small type as `[Note: …]` paragraphs and the margin numbers inside the Greek: rewrite
+   both. Murray's half-title (the play's name) is left out.
+3. **Earle's notes on the hypothesis** (`p-3…`, scan `cu31924079583609`, leaves 73-78, his
+   pp. 66-71). Each page has Earle's Greek of the hypothesis at the top (not used, and left out
+   by the draft) and his notes under it in two columns, run on as in the commentary. On the first
+   page begin with `## Earle's notes on the hypothesis (by the lines of his printing)`. Each note
+   is a paragraph that begins with his line number and stop, then the bold lemma: `8.
+   **δρακόντων πτερωτῶν**: *i.e.* drawn by them.` (the draft has made such paragraphs where it
+   saw a number); a further lemma after a dash is a paragraph of its own without a number. His
+   line numbers are those of his own printing of the hypothesis: keep them as printed.
+4. **The persons of the drama in Murray's edition** (`p-4…`, leaf 104): `# The persons of the
+   drama`; the names in one paragraph separated by " · " as printed (Greek, in the case
+   printed); Murray's note under the list (Latin: the first performance and the codices) as one
+   paragraph, exactly as printed.
+
+Check with `check-drama-prose medea transcriptions/drama/medea/intro-NN.md` as for the notes.
+
 ## Your own files
 
 **Your own files.** Scripts, enlarged crops and other helpers go only in a folder of your own,

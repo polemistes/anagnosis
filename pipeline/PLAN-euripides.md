@@ -216,6 +216,23 @@ own text): rewrite each at its turn as the Medea's was.
 
 ## Progress
 
+* **2026-11-17, Medea: Earle's commentary and introduction set up and drafted** (agent; log
+  build/logs/medea-prose-setup.md; no reading agents yet). Commentary (`notes_layout="earle"`:
+  everything under the verses, found by the first run of three two-column rows, drama_prose.
+  `earle_top`; the notes that run on inside paragraphs cut before every bold number and settled
+  over the whole commentary, `earle_markdown` + `_resolve_note_headings`): **175 pages, 22
+  batches (notes-01…22), 2,623 flags (median 15 a page; worst p-0191 and p-0145 33), 1,039 note
+  headings**, none falling; about 97 % of the Greek right in the draft. Introduction (kind
+  `intro` from two scans, `notes_sources`; Earle's margin notes and quoted verses handled):
+  see "Medea: the introduction" under Decisions and the log for its numbers. Merge:
+  `write_prose_documents` (out of merge_play) writes commentary-earle.md and introduction.md only
+  when their batches are all checked; `notes_refile_mark` puts the printed number in front of a
+  note filed under the nearest earlier verse. Brief: INSTRUCTIONS-prose.md, "Earle's Medea: the
+  commentary and the introduction". The trees: see "Medea: the syntax trees" under Decisions.
+  **Next**: the first check of notes-01…22 (eight pages per agent, Opus, at most ten at once)
+  and of intro-01…09, then a second reading of the notes as for the Philoctetes (four batches
+  first, then the rest if it finds errors), then `merge-drama medea`.
+
 * **2026-11-17, Medea: text reviewed and merged.** Review back (ten agents, 1.57 M tokens):
   13 `rev:` notes, about six of substance (an iota subscript and a breathing in the
   apparatus, one apparatus item split off, the exclamation at 1055a/1056 numbered as
@@ -326,6 +343,54 @@ own text): rewrite each at its turn as the Medea's was.
   on two spreads before writing a new region.
 * 2026-11-16: the texts/README.md section and the play/README.md row of a Murray play wait for
   the release (they would describe in public a text the public cannot have).
+
+* **2026-11-17, Medea: the introduction document** (set-up agent). Order in the app's
+  introduction.md, as merged from the intro batches in the order of their page names: (1)
+  Earle's Introduction (`p-1…`, his pp. 7-64 = leaves 14-71, all of it but his bracketed
+  bibliographies, which the agents replace by `[Bibliography omitted]` by PLAN-drama.md's rule;
+  his numbered paragraphs as `## § N`, his margin notes after a dash in the section heading);
+  (2) **the ancient hypotheses from Murray's edition** (`p-2…`, vol. I leaves 102-103), the
+  Greek with Murray's own Latin apparatus under each page as a `*Critical apparatus.*`
+  paragraph, in the form of the Philoctetes's "ancient argument"; (3) **Earle's notes on the
+  hypothesis** (`p-3…`, leaves 73-78, pp. 66-71, the two columns under his Greek: kept, because
+  they explain the hypothesis's matter (Pherecydes, Simonides, the Nostoi, the didascalia and
+  the lost plays); his own Greek of the hypothesis is not used; his notes keep his line numbers,
+  said in their heading to be those of his printing); (4) **Murray's persons page** (`p-4…`,
+  leaf 104: the names, and his Latin note on the performance and the codices, which sigla.md
+  will also quote at step 7). How: **the prose route's `intro` kind from two scans**
+  (`Play.notes_sources["intro"]`, four entries; `page_stem` now numbers a page by the entry
+  that holds it, so a scan may stand in the list twice; Taylor's Shepherd keeps its stems),
+  not a separate batch: the hypotheses are short (two pages and the persons page) and the
+  agents of the introduction can write the apparatus by INSTRUCTIONS-text.md's Murray section.
+  Earle's leaves 73-78 take his notes pages' region (`Play.notes_region_leaves`); his persons
+  page (leaf 79) has no notes and is not used. Earle's leaf 72 is a half-title.
+* **2026-11-17, Medea: the syntax trees** (set-up agent; alignment code not changed).
+  pipeline/sources/glaux/0006-003.xml has 824 sentences, **all 824 marked `analysis="manual"`**
+  (9,916 word nodes with punctuation; in the GLAUx files on disk only this one is wholly manual:
+  the Alcestis, Bacchae and the others are all `auto`, A True Story is half and half). They are
+  the **Pedalion trees** of the Medea (research file: github.com/perseids-publications/
+  pedalion-trees, `euripides_medea.xml`, 824 sentences, about 9,845 words; annotated by Toon
+  Van Hal and KU Leuven students on a GLAUx pre-parse and checked by Van Hal, Gijbels and
+  Joosten), taken into GLAUx under its document id; the file itself carries no header (no
+  licence or editor statement), and the GLAUx documentation is not on disk; the licence is
+  **CC BY-SA 4.0** (Pedalion's TREEBANK_LICENSE, and GLAUx's), usable in a sold app with
+  attribution. Labels: AGDT style (PRED, SBJ, OBJ, ATR, ADV, AuxP/AuxY/AuxZ, COORD) with GLAUx's
+  PRED_CO and its animacy/sense attributes. **Their text is not Murray's**: the merge found 118
+  words where Murray reads otherwise and 76 of Murray's words the trees lack (review list 194).
+  The trees' readings at those places (ἀριστέων at 5, καλλίνικος ᾁσεται at 45, φυγὰς πολίταις
+  at 12, ὅπως ἄριστα at 240) are a later critical text's, most likely J. Diggle's Oxford text
+  (1984), which the TLG's Euripides follows; not checked against the edition (no network for
+  it). **So about.md must say** (wording for step 7): "Syntax: hand-made trees of the Pedalion
+  project (KU Leuven; T. Van Hal and others), distributed with GLAUx, CC BY-SA 4.0. They were
+  made on a later edition of the Greek text than Murray's; where Murray reads otherwise (some
+  120 words) the tree of the later reading is shown at Murray's word, and some 75 of Murray's
+  words have no tree." The keys: `syntax_source:` as above, `syntax_license: CC BY-SA 4.0`,
+  and `syntax:` must **not** say machine-made. Open (for the main session): grc.txt gets
+  `syntax: automatic` because the entry has no `treebank` (`Play.syntax_automatic`); for this
+  play that label is untrue, so before the build either give the Play a way to say the trees
+  are hand-made but of another text (a new field, as the review list's HAND_ANALYSES and
+  LEMMA_FIXES mend the worst of the 194 words), or accept "automatic" knowingly. Not decided
+  here.
 
 ## For the author
 

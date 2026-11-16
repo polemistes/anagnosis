@@ -93,8 +93,16 @@ class Play:
     app_to_foot: bool = False
     # the commentary's region on a page of the notes scan: "" = as the layout says; "paley" = the
     # two columns under the text and Paley's bands (everything below the last line that crosses
-    # the page's middle)
+    # the page's middle); "earle" = everything under the verses at the top of the page, found by
+    # the two columns of small type (drama_prose.earle_top)
     notes_layout: str = ""
+    # leaves of the notes scan read with another kind (the introduction) that are laid out as the
+    # notes pages and take their region (Earle's notes on the hypothesis under his Greek, "earle")
+    notes_region_leaves: list[tuple[int, int]] = field(default_factory=list)
+    # a note on a verse our numbering lacks, filed under the nearest earlier verse (place_notes),
+    # keeps the printed number in front ("[1056] **…**"), as the apparatus always does (Earle's
+    # notes on Murray's text, whose numbering differs from Earle's in places)
+    notes_refile_mark: bool = False
     # letters the edition's typeface makes Tesseract read otherwise (Rzach's Teubner: ϑ for θ),
     # put right in the OCR before it is matched; letters counted as one in the matching (Tesseract
     # reads the Teubner κ as χ): pairs "χκ" = χ counts as κ
@@ -316,8 +324,8 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          trans_edition="The Plays of Euripides, translated by E. P. Coleridge, London, George Bell and Sons, 1891",
          trans_license="CC BY-SA 4.0 (Perseus Digital Library)",
          notes_editor="earle", notes_editor_name="Mortimer Lamson Earle",
-         notes_edition="The Medea of Euripides, with introduction and notes by Mortimer Lamson Earle, New York, American Book Company, 1904",
-         notes_scan="cu31924079583609",
+         notes_edition="The Medea of Euripides, edited by Mortimer Lamson Earle, New York, Cincinnati, Chicago, American Book Company, 1904",
+         notes_scan="cu31924079583609", notes_layout="earle",
          # the check text is Murray's own: where it changes speaker and the margin holds something
          # Tesseract garbles, the change counts as printed (as for Jebb's Sophocles)
          speaker_trust=True,
@@ -336,11 +344,21 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          # Earle (notes scan cu31924079583609; p = leaf - 7 throughout, no hidden leaves): his
          # text with the commentary under it in two columns pp. 73-247 = leaves 80-254 (the notes
          # run on inside paragraphs: "— 20. **ἡ δύστηνος**: …"); introduction pp. 7-64 = leaves
-         # 14-71; his Greek hypothesis and persons pp. 65-72 = leaves 72-79 (not used: Murray's
-         # are); the codices pp. 255-259 and his "Notes on the text of this edition" pp. 267-294
+         # 14-71 (title page leaf 8); the half-title leaf 72, his Greek hypothesis with his notes on
+         # it in two columns under it pp. 66-71 = leaves 73-78 (his Greek not used, Murray's is; his
+         # notes are, in the introduction), his persons p. 72 = leaf 79 (not used: Murray's are);
+         # the codices pp. 255-259 and his "Notes on the text of this edition" pp. 267-294
          # = leaves 274-301 (not used: Murray's apparatus is the apparatus). OCR of Earle's
          # leaves is on disk (pipeline/build/drama-scans/cu31924079583609/).
-         text_leaves=[(105, 161)], sigla_leaves=[24], notes_leaves=[(80, 254)], intro_leaves=[(14, 71)]),
+         text_leaves=[(105, 161)], sigla_leaves=[24], notes_leaves=[(80, 254)], intro_leaves=[(14, 71)],
+         # the introduction document (pipeline/PLAN-euripides.md, "Medea: the introduction"): Earle's
+         # introduction (leaves 14-71, pp. 7-64), then Murray's ancient hypotheses with his apparatus
+         # (vol. I leaves 102-103), then Earle's notes on the hypothesis (leaves 73-78, pp. 66-71,
+         # the two columns under his Greek, which is not used), then Murray's persons page (leaf 104);
+         # merged in this order (the stems p-1…, p-2…, p-3…, p-4…)
+         notes_sources={"intro": [("cu31924079583609", [(14, 71)]), ("euripidisfabulae01euriuoft", [(102, 103)]),
+                                  ("cu31924079583609", [(73, 78)]), ("euripidisfabulae01euriuoft", [(104, 104)])]},
+         notes_region_leaves=[(73, 78)], notes_refile_mark=True),
     Play("frogs", "Βάτραχοι", "Frogs", "Ἀριστοφάνης", "Aristophanes", "tlg0019.tlg009",
          "The Frogs of Aristophanes, with introduction and commentary by T. G. Tucker, London, Macmillan, 1906",
          "frogsofaristopha00arisrich", "tucker", "T. G. Tucker", "aristophanes_frogs_tucker",
@@ -1451,16 +1469,48 @@ def merge_play(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path
     # the translation
     _translation(play, sources, out, lines, items, pers, problems, transcriptions)
 
-    # the commentary
-    from .drama_prose import merge_kind
-
+    # the commentary and the introduction
     if play.check_text:
         # Jebb's Sophocles: commentary-jebb.md and introduction.md are Perseus's (import-sophocles),
         # the transcribed chapters and the Appendix are added by sophocles-prose; never touched here
         print("commentary and introduction: left as they are (sophocles-prose writes the transcribed parts)")
-    paras = [] if play.check_text else merge_kind(transcriptions, "notes")
+    else:
+        write_prose_documents(play, transcriptions, out, lines, build, problems)
+
+    log = build / f"{slug}-merge.log"
+    log.write_text("\n".join(problems) + "\n", encoding="utf-8")
+    print(f"{len(problems)} problems ({log})")
+    return len(problems)
+
+
+def write_prose_documents(play: Play, transcriptions: Path, out: Path, lines: list[tuple[str, str]], build: Path,
+                          problems: list[str]) -> None:
+    """commentary-<notes_editor>.md and introduction.md from the checked notes and intro batches
+    (drama_prose: notes-NN.md, intro-NN.md), each only when its batches are all checked (every
+    flag answered, every page of build/drama-prose/<slug>/<kind>.json there), so that a draft
+    nobody has checked never becomes a text. Notes go under our line numbers (place_notes); with
+    Play.notes_refile_mark a note moved off a number our text lacks keeps that number in front.
+    The introduction's pages are merged in the order of their stems (with notes_sources: the
+    entries' order). Remarks are added to `problems`."""
+    from .drama_prose import merge_kind
+    from .sophocles import unchecked_prose
+
+    slug = play.slug
+    have = {n for n, _t in lines}
+
+    def checked(kind: str) -> bool:
+        why = unchecked_prose(transcriptions, kind, build / "drama-prose" / slug / f"{kind}.json")
+        if why:
+            problems.append(f"{kind}: not merged, the batches are not all checked ({len(why)}): {why[0]}")
+            print(f"{kind}: not merged, the batches are not all checked ({len(why)} pages), e.g. {why[0]}")
+        return not why
+
+    paras = merge_kind(transcriptions, "notes") if any(transcriptions.glob("notes-*.md")) and checked("notes") else []
     if paras:
         raw = notes_from_paragraphs(paras)
+        if play.notes_refile_mark:
+            raw = [(h, body if not h or h.split("-")[0] in have else
+                    ([f"[{h}] {body[0]}"] + body[1:] if body else [f"[{h}]"])) for h, body in raw]
         placed, probs = place_notes(raw, [n for n, _t in lines], dict(lines))
         problems += probs
         md = _meta_lines({
@@ -1475,20 +1525,22 @@ def merge_play(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path
             md.append("")
         (out / f"commentary-{play.notes_editor}.md").write_text("\n".join(md) + "\n", encoding="utf-8")
         print(f"wrote commentary-{play.notes_editor}.md: {len(placed)} notes")
-    paras = [] if play.check_text else merge_kind(transcriptions, "intro")
+    paras = merge_kind(transcriptions, "intro") if any(transcriptions.glob("intro-*.md")) and checked("intro") else []
     if paras:
+        author, source = play.notes_editor_name, (f"{play.notes_edition or play.edition}, the introduction; transcribed from "
+                                                  f"the Internet Archive scan {play.scan_for('intro')}")
+        if "intro" in play.notes_sources and play.scan in [s for s, _r in play.notes_sources["intro"]]:
+            # the commentator's introduction with the text's edition's hypotheses and persons (the Medea)
+            author = f"{play.notes_editor_name}; {play.app_editor_name} (the ancient hypotheses and the persons)"
+            source = (f"{play.notes_edition}, the introduction and the notes on the hypothesis (Internet Archive scan "
+                      f"{play.notes_scan}); {play.edition}, the ancient hypotheses with the critical apparatus and the "
+                      f"persons of the drama (scan {play.scan}); transcribed from the scans")
         md = _meta_lines({
-            "title": "Introduction", "author": play.notes_editor_name,
-            "source": f"{play.notes_edition or play.edition}, the introduction; transcribed from the Internet Archive scan {play.scan_for('intro')}",
+            "title": "Introduction", "author": author, "source": source,
             "license": TRANSCRIPTION_LICENSE,
         }) + [""] + ["\n\n".join(paras)]
         (out / "introduction.md").write_text("\n".join(md).rstrip() + "\n", encoding="utf-8")
         print(f"wrote introduction.md: {sum(1 for p in paras if p.startswith('#'))} headings")
-
-    log = build / f"{slug}-merge.log"
-    log.write_text("\n".join(problems) + "\n", encoding="utf-8")
-    print(f"{len(problems)} problems ({log})")
-    return len(problems)
 
 
 def _tokens(play: Play, doc, sources: Path, out: Path, lexicon: Path, build: Path) -> int:

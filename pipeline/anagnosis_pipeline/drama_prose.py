@@ -106,16 +106,23 @@ def prose_dir(play: Play, kind: str, scan: str) -> Path:
 
 
 def page_stem(play: Play, kind: str, scan: str, leaf: int) -> str:
-    """p-0250; p-10250 / p-20250 for a kind read from several scans (the scan's place in the list)."""
+    """p-0250; p-10250 / p-20250 for a kind read from several scans (the place in the list of the
+    entry that holds the leaf: a scan may stand in the list twice, as Earle's volume does for the
+    Medea's introduction, before and after Murray's hypotheses, and the pages are merged in the
+    order of their stems)."""
     if kind not in play.notes_sources:
         return f"p-{leaf:04d}"
-    k = [s for s, _r in play.notes_sources[kind]].index(scan) + 1
+    entries = play.notes_sources[kind]
+    k = next((i for i, (s, ranges) in enumerate(entries, 1) if s == scan and any(a <= leaf <= b for a, b in ranges)), None)
+    if k is None:
+        k = [s for s, _r in entries].index(scan) + 1
     return f"p-{k}{leaf:04d}"
 
 
 # --- the page --------------------------------------------------------------------------------
 
-def _region(play: Play, kind: str, leaf: int, lines: list[dict], size: tuple[int, int]) -> tuple[list[dict], float]:
+def _region(play: Play, kind: str, leaf: int, lines: list[dict], size: tuple[int, int],
+            scan: str | None = None) -> tuple[list[dict], float]:
     """The lines of the page that hold the notes (introduction, translation), each marked with its
     column ('left', 'right' or 'one'), without the running head, page number and signature, in
     reading order. Returns them and the gutter's x (0 for one column)."""
@@ -137,9 +144,16 @@ def _region(play: Play, kind: str, leaf: int, lines: list[dict], size: tuple[int
     body = [l for l in body if not (l["bbox"][1] > 0.88 * H and len(l["words"]) <= 2
                                     and len(" ".join(w["text"] for w in l["words"])) <= 7
                                     and re.search(r"\d", " ".join(w["text"] for w in l["words"])))]
+    if play.notes_layout == "earle" and (scan or play.scan_for(kind)) == play.notes_scan:
+        # Earle's volume: the printer's signature at the foot of every eighth page ("MEDEA — 13",
+        # under the left column on the notes pages)
+        body = [l for l in body if not (l["bbox"][1] > 0.75 * H and re.fullmatch(
+            r"MEDEA\s*[—–-]*\s*[\dIl|§]{0,3}\.?", " ".join(w["text"] for w in l["words"]).strip()))]
     top = 0
     if play.layout == "jebb" and kind == "notes" and play.app_rule == "under":
         return _region_under_rule(play, leaf, body, size)
+    if play.notes_layout == "earle" and (kind == "notes" or earle_notes_page(play, kind, leaf, scan)):
+        return _region_earle(play, leaf, body, size)
     if play.layout == "jebb" and kind in ("notes", "trans"):
         from .drama_pages import rules as _rules
 
@@ -222,15 +236,29 @@ def _region_under_rule(play: Play, leaf: int, body: list[dict], size: tuple[int,
     # the signature (J. S. IV. 3, or a lone figure) at the foot
     body = [l for l in body if not (l["bbox"][1] > 0.9 * H and len(" ".join(w["text"] for w in l["words"])) <= 14
                                     and not re.search(r"[a-z]{3}|[Ͱ-Ͽἀ-῿]{3}", " ".join(w["text"] for w in l["words"])))]
+    return _two_columns(body, H)
+
+
+def _gutter(lines: list[dict], lo: float = 0.38, hi: float = 0.62) -> tuple[int, float, int]:
+    """The gutter between two columns: (words crossing it, distance from the middle, x) for the x
+    between `lo` and `hi` of the lines' width that the fewest words cross."""
+    x0 = min(l["bbox"][0] for l in lines)
+    x1 = max(l["bbox"][2] for l in lines)
+    words = [w for l in lines for w in l["words"]]
+    cover = [(sum(1 for w in words if w["bbox"][0] - 4 < x < w["bbox"][2] + 4), abs(x - (x0 + x1) / 2), x)
+             for x in range(int(x0 + lo * (x1 - x0)), int(x0 + hi * (x1 - x0)), 3)]
+    return min(cover) if cover else (len(words), 0, 0)
+
+
+def _two_columns(body: list[dict], H: int, signature: bool = True) -> tuple[list[dict], float]:
+    """The commentary's lines in two columns (Jebb's under the rule, Earle's under the verses): the
+    left column read first, then the right; a line Tesseract ran across the gutter cut there; with
+    `signature` a short line without a word at a column's foot (J. S. IV.) left out. One column
+    (gutter 0) where no gutter is found."""
     if not body:
         return [], 0
-    # the gutter: the x near the middle of the block that the fewest words cross
-    x0 = min(l["bbox"][0] for l in body)
-    x1 = max(l["bbox"][2] for l in body)
     words = [w for l in body for w in l["words"]]
-    cover = [(sum(1 for w in words if w["bbox"][0] - 4 < x < w["bbox"][2] + 4), abs(x - (x0 + x1) / 2), x)
-             for x in range(int(x0 + 0.38 * (x1 - x0)), int(x0 + 0.62 * (x1 - x0)), 3)]
-    best = min(cover) if cover else (len(words), 0, 0)
+    best = _gutter(body)
     mid = best[2]
     left_n = sum(1 for w in words if w["bbox"][2] <= mid)
     right_n = sum(1 for w in words if w["bbox"][0] >= mid)
@@ -274,7 +302,7 @@ def _region_under_rule(play: Play, leaf: int, body: list[dict], size: tuple[int,
     out = merged
     # the signature (J. S. IV., read "7.5. IV.") at the foot of a column: a short line without a
     # word in it, the column's last, set off from the line above by more than the usual space
-    for region in ("left", "right"):
+    for region in ("left", "right") if signature else ():
         col = sorted((l for l in out if l["region"] == region), key=lambda l: l["bbox"][1])
         if len(col) < 4:
             continue
@@ -286,6 +314,82 @@ def _region_under_rule(play: Play, leaf: int, body: list[dict], size: tuple[int,
             out.remove(last)
     order = sorted(out, key=lambda l: ({"left": 0, "right": 1}[l["region"]], l["bbox"][1]))
     return order, mid
+
+
+def earle_top(body: list[dict], W: int) -> int:
+    """Earle's Medea (notes_layout "earle"): the y where his commentary begins, under the block of
+    verses in larger type at the top of the page, with no rule between. The commentary is found
+    by its two columns: the first of three rows, one under the other at the small type's pitch,
+    where a line of the left column and a line of the right one stand side by side (a verse
+    crosses the gutter; a verse that Tesseract cut at a wide space, or its margin number, makes no
+    run of three such rows). From that row up, lines in the small type directly above it are taken
+    too (a first row that Tesseract read across the gutter as one line). 0 where the page has no
+    such rows (the whole page is then taken, as for a page without verses)."""
+    if not body:
+        return 0
+    lines = [l for l in body if l["bbox"][3] - l["bbox"][1] >= 18 and l["x_size"] >= 20]  # not the verses' accents read as a line
+    lower = [l for l in lines if l["bbox"][1] > 0.35 * max(x["bbox"][3] for x in lines)] or lines
+    mid = _gutter(lower, 0.4, 0.6)[2] if lower else W / 2
+    def side(l: dict) -> str:
+        if l["bbox"][2] <= mid + 8:
+            return "L"
+        if l["bbox"][0] >= mid - 8:
+            return "R"
+        return "X"
+    col_w = max(1, mid - min(l["bbox"][0] for l in lines))
+    def real(l: dict) -> bool:  # not a margin number, a speaker's abbreviation or a speck
+        return len(l["words"]) >= 2 and (l["bbox"][2] - l["bbox"][0]) > 0.25 * col_w
+    left = [l for l in lines if side(l) == "L" and real(l)]
+    right = [l for l in lines if side(l) == "R" and real(l)]
+    rows: list[tuple[int, int, float]] = []  # (top, bottom, x_size) of the rows of two columns
+    for a in left:
+        for b in right:
+            ov = min(a["bbox"][3], b["bbox"][3]) - max(a["bbox"][1], b["bbox"][1])
+            if ov > 0.5 * min(a["bbox"][3] - a["bbox"][1], b["bbox"][3] - b["bbox"][1]):
+                rows.append((min(a["bbox"][1], b["bbox"][1]), max(a["bbox"][3], b["bbox"][3]),
+                             max(a["x_size"], b["x_size"])))
+                break
+    rows.sort()
+    if len(rows) < 3:
+        return 0
+    pitches = sorted(b[0] - a[0] for a, b in zip(rows, rows[1:]) if b[0] - a[0] > 10)
+    pitch = pitches[len(pitches) // 2] if pitches else 45
+    start = next((i for i in range(len(rows) - 2)
+                  if rows[i + 1][0] - rows[i][0] <= 1.6 * pitch and rows[i + 2][0] - rows[i + 1][0] <= 1.6 * pitch), None)
+    if start is None:
+        return 0
+    small = sorted(r[2] for r in rows[start:])[len(rows[start:]) // 2]
+    hs = sorted(r[1] - r[0] for r in rows[start:])
+    h = hs[len(hs) // 2]
+    top = rows[start][0]
+    margin = sorted(l["bbox"][0] for l in left if l["bbox"][1] >= top)
+    margin = margin[len(margin) // 5] if margin else 0
+    for l in sorted((l for l in lines if l["bbox"][1] < top), key=lambda l: -l["bbox"][1]):
+        if top - l["bbox"][1] > 1.6 * pitch:
+            break
+        if l["bbox"][3] - l["bbox"][1] > 1.35 * h or (side(l) == "X" and l["x_size"] > 1.15 * small):
+            break  # a verse (Tesseract's size of a short line in one column, "(302-306).", is no guide)
+        if side(l) == "L" and l["bbox"][0] > margin + 2.5 * h:
+            break  # a short verse, set in from the left column's edge
+        if side(l) == "R" and not real(l):
+            continue  # a verse's margin number
+        top = l["bbox"][1]
+    return top - 2
+
+
+def earle_notes_page(play: Play, kind: str, leaf: int, scan: str | None) -> bool:
+    """A page of another kind laid out as Earle's notes pages (Play.notes_region_leaves of the
+    notes scan: his notes on the hypothesis, under his Greek, read with the introduction)."""
+    return (kind != "notes" and (scan or play.scan_for(kind)) == play.notes_scan
+            and any(a <= leaf <= b for a, b in play.notes_region_leaves))
+
+
+def _region_earle(play: Play, leaf: int, body: list[dict], size: tuple[int, int]) -> tuple[list[dict], float]:
+    """Earle's Medea, kind notes: everything under the verses (earle_top), in two columns, the left
+    column read first; the page number at the foot is already gone (_region)."""
+    W, H = size
+    top = earle_top(body, W)
+    return _two_columns([l for l in body if (l["bbox"][1] + l["bbox"][3]) / 2 > top], H, signature=False)
 
 
 def jebb_dashes(text: str) -> str:
@@ -333,16 +437,108 @@ def jebb_lemma(text: str) -> str:
     return f"**{re.sub(r'(?<=[^.])\.\.(?=[^.])', '...', lemma)}**" + rest  # the OCR's '..' for Jebb's '...' 
 
 
-def split_lemmas(text: str, first: bool = False) -> list[str]:
+def split_lemmas(text: str, first: bool = False, lemma=None) -> list[str]:
     """A paragraph of Jebb's commentary cut where a dash is followed by Greek (in the print a
     further lemma in bold: "…cp. 1095 n.—**ἐμᾶς**, Bergk's correction"), each piece after a cut
     with its lemma in bold, as Perseus's files of the other plays give them; with `first` the
     first piece too (the text after a note's number). Pieces that are not a lemma (Greek after a
     dash in plain type) are for the agent to join again."""
+    lemma = lemma or jebb_lemma
     parts = _LEMMA_DASH.split(text)
-    out = [jebb_lemma(parts[0].strip()) if first else parts[0].strip()]
-    out += [jebb_lemma(x.strip()) for x in parts[1:] if x.strip()]
+    out = [lemma(parts[0].strip()) if first else parts[0].strip()]
+    out += [lemma(x.strip()) for x in parts[1:] if x.strip()]
     return [x for x in out if x] or [""]
+
+
+def earle_clean(text: str) -> str:
+    """The OCR of Earle's commentary as he prints it: '---', '--', '-—' are his dash (—); a range
+    divided at a line's end ("455- 458.") joined; the OCR's ¢ for his opening quotation mark ‘;
+    the space he sets before a lemma's colon ("τυράννους :") is kept for the lemma rule."""
+    text = re.sub(r"\s?(?:-{2,4}|-—|—-)\s?", " — ", text)
+    text = re.sub(r"(?<=\d)\s?[-–]\s+(?=\d)", "-", text)
+    text = text.replace("¢", "‘")
+    # his italic i.e., which the OCR reads "2.6.", "Ze.", "Z.e.", "7.e."; sc. read "56." or "SC."
+    text = re.sub(r"(?<![\w.])(?:2\.[26]|1\.6|Z\.?e|ze|ie|7\.?\s?e|fe)\.(?=\s)", "*i.e.*", text)
+    text = re.sub(r"(?<![\w.])(?:56|SC)\.(?=\s[Ͱ-Ͽἀ-῿])", "sc.", text)
+    return re.sub(r"\s{2,}", " ", text).strip()
+
+
+# a note's number in Earle's commentary, wherever it stands in the paragraph: bold old-style
+# figures with a stop, "21 f.", "455-458.", "Vv. 1-48."; the OCR reads old-style 1 as I or l, 0 as
+# o, and the figure 2 as "ἡ" or "z"; the bold "f." as "£." or "Φ."
+_EARLE_CAND = re.compile(r"(?<![^\s—])(?:(?:Vv?\.)\s*)?([0-9IlΙ|oOοΟ]{1,4}|ἡ|z)(?:\s*[-–]\s*([0-9IlΙ|oOοΟ]{1,4}))?"
+                         r"(?:\s*(?:ff|f|£f|££|£|ΖΦ|ΣΦ|Φ))?\.(?=\s|$)")
+_EARLE_DIGITS = str.maketrans({"I": "1", "l": "1", "Ι": "1", "|": "1", "o": "0", "O": "0", "ο": "0", "Ο": "0"})
+# the word before a number that makes it a reference, not a note's number: v. 450, cp. 1345, p. 36,
+# HA. 871, Soph. Ant. 173 f.
+_EARLE_REF = re.compile(r"^\(?(?:[vV]v?|[cC]p|[cC]f|pp?|ll?|nn?|sqq?|sc|ch|no|vol|ed|al|ib|ibid|ss?|[A-Z][A-Za-z]{0,3}"
+                        r"|Soph|Aesch|Aeschin|Hipp|Suppl|Supp|Thuc|Androm|Heracl|Herc|Introd|Bacch|Phoen|Troad|Cycl|Rhes"
+                        r"|Iph|Taur|Aul|Hom|Aristoph|Plat|Pind|Theocr|Verg|Hor|Carm|Georg|Ecl|Aen|Symp|Phaed|Prot|Gorg"
+                        r"|Isocr|Plut|Anth|Schol|Hist|Pyth|Nem|Isth|Prom|Sept|Pers|Alcest|Elect|Lycurg|Andoc|Lysias)\.$")
+EARLE_WINDOW = 60  # how far one of Earle's notes may run ahead of the one before
+# Earle's lemma may span a gap marked with spaced dots ("ἀμφιλόγους . . . νείκη :", "κοὐκ.... ἔκβασις")
+_EARLE_LEAD = re.compile(rf"^{_GWORD}(?:(?:\s*\.(?:\s?\.){{1,3}}\s*|\s*…\s*|\s+){_GWORD})*")
+
+
+def earle_lemma(text: str) -> str:
+    """The Greek at the start of a piece of Earle's notes in bold (as jebb_lemma), a gap marked by
+    dots inside it included as printed."""
+    if text.startswith("**"):
+        return text
+    m = _EARLE_LEAD.match(text)
+    if not m:
+        return text
+    lemma = m.group(0).rstrip()
+    return f"**{lemma}**" + text[len(lemma):]
+
+
+def earle_markdown(text: str, cands: list[dict], lead: str = "") -> list[str]:
+    """One paragraph of Earle's commentary (earle_clean'd) as draft lines: the paragraph is cut
+    before every number that may begin a note (_EARLE_CAND, after a sentence's end or a dash, not
+    after a reference word), each such number a placeholder for _resolve_note_headings (which
+    keeps those in a sequence as `## N` headings and joins the rest back); every piece is cut
+    again at a dash followed by Greek (a further lemma on the verse, as split_lemmas), and the
+    Greek after a number or a dash goes in bold, its colon outside (`**τυράννους**:`). `lead` is
+    put before the paragraph's first piece ("+ " for a paragraph run on from the page before)."""
+    starts = []
+    for m in _EARLE_CAND.finditer(text):
+        a, b = m.group(1), m.group(2)
+        if not (re.search(r"\d", a) or a in ("ἡ", "z")) or (b and not re.search(r"\d", b)):
+            continue
+        if re.match(r"\s*[\d)\]]", text[m.end():]):
+            continue  # a reference's book or chapter ("Pyth. 4. 209)")
+        before = text[:m.start()].rstrip()
+        prev = before.split()[-1] if before.split() else ""
+        if prev and not (re.search(r"[.;:!?’'”)\]—]$", prev)):
+            continue
+        if prev and _EARLE_REF.match(prev):
+            continue
+        a = "2" if a in ("ἡ", "z") else a.translate(_EARLE_DIGITS)
+        b = b.translate(_EARLE_DIGITS) if b else ""
+        if a.startswith("0") and len(a) == 1:
+            continue
+        starts.append((m.start(), m.end(), a + (f"-{b}" if b else "")))
+    def colon(piece: str) -> str:
+        return re.sub(r"^(\*\*[^*]+\*\*)\s+([:;,])", r"\1\2", piece)
+    out: list[str] = []
+    pre = text[: starts[0][0]].strip() if starts else text
+    if pre:
+        pieces = [colon(x) for x in split_lemmas(pre, lemma=earle_lemma)]
+        pieces[0] = lead + pieces[0]
+        for x in pieces:
+            out += [x, ""]
+    for k, (s, e, n) in enumerate(starts):
+        end = starts[k + 1][0] if k + 1 < len(starts) else len(text)
+        rest = text[e:end].strip()
+        # a number inside the paragraph that is not kept goes back into it; one at its start stays
+        # at the start of its paragraph
+        cands.append({"kind": "note", "n": n, "label": text[s:e].strip(), "join": bool(pre) or k > 0,
+                      "alone": lead if k == 0 and not pre else "",
+                      "bonus": 3 if k == 0 and not pre and not lead else 0,  # a number opening an indented paragraph
+                      "body": [colon(x) for x in split_lemmas(rest, first=True, lemma=earle_lemma)] if rest else [],
+                      "orig": [colon(x) for x in split_lemmas(text[s:end].strip(), lemma=earle_lemma)]})
+        out += [f"\x00{len(cands) - 1}", ""]
+    return out
 
 
 NOTE_WINDOW = 100  # how far one note's number may run ahead of the one before (Jebb's notes)
@@ -368,13 +564,16 @@ def _note_options(a: str) -> list[tuple[int, int]]:
     return sorted(out.items(), key=lambda t: t[1])
 
 
-def _resolve_note_headings(pages: list[dict], last_line: int = 2000) -> None:
+def _resolve_note_headings(pages: list[dict], last_line: int = 2000, window: int = NOTE_WINDOW) -> None:
     """The note headings of Jebb's commentary (placeholders of analyse_page) settled over all the
     pages at once: of the numbers as read (or a reading of _note_options), the longest sequence
     that never falls and never leaps more than NOTE_WINDOW nor beyond the play's last line is
     kept as headings, the cheaper readings preferred; a candidate outside it (a reference at the
     start of a paragraph, a number misread past mending) goes back into the text as read, for
-    the agent. One misread number thus cannot shut out the notes after it."""
+    the agent. One misread number thus cannot shut out the notes after it. A candidate marked
+    `join` (Earle's notes, which run on inside a paragraph) goes back into the paragraph it was
+    cut from: its first piece joined to the text before it on the page (or, if nothing stands
+    before it, written with its `alone` prefix, the page's run-on mark)."""
     cands = []  # (page, candidate)
     for page in pages:
         for raw in page["md"].split("\n"):
@@ -387,11 +586,12 @@ def _resolve_note_headings(pages: list[dict], last_line: int = 2000) -> None:
     for i, oi in enumerate(opts):
         row = []
         for v, cost in oi:
-            score, prev = 10 - cost, None
+            gain = 10 - cost + cands[i].get("bonus", 0)
+            score, prev = gain, None
             for k in range(max(0, i - NOTE_REACH), i):
                 for j2, (v2, _c2) in enumerate(opts[k]):
-                    if v2 <= v <= v2 + NOTE_WINDOW and best[k][j2][0] + 10 - cost > score:
-                        score, prev = best[k][j2][0] + 10 - cost, (k, j2)
+                    if v2 <= v <= v2 + window and best[k][j2][0] + gain > score:
+                        score, prev = best[k][j2][0] + gain, (k, j2)
             row.append((score, prev))
         best.append(row)
     chosen: dict[int, int] = {}
@@ -411,7 +611,17 @@ def _resolve_note_headings(pages: list[dict], last_line: int = 2000) -> None:
                 out.append(raw)
                 continue
             if id(c) not in chosen:
-                for piece in c["orig"]:
+                pieces = list(c["orig"])
+                k = len(out) - 1
+                while k >= 0 and out[k] == "":
+                    k -= 1
+                if c.get("join") and pieces and k >= 0 and not out[k].startswith("#"):
+                    out[k] = out[k] + " " + pieces.pop(0)
+                    del out[k + 1:]
+                    out.append("")
+                elif pieces:
+                    pieces[0] = c.get("alone", "") + pieces[0]
+                for piece in pieces:
                     out += [piece, ""]
                 continue
             n = chosen[id(c)]
@@ -521,15 +731,21 @@ def analyse_page(play: Play, kind: str, leaf: int, voc, names: set[str], scan: s
     _, sbuild = scan_dirs(scan)
     img = Image.open(sbuild / "pages" / f"leaf_{leaf:04d}.png").convert("L")
     lines = read_lines(ocr_leaf(scan, leaf))
-    order, mid = _region(play, kind, leaf, lines, img.size)
+    order, mid = _region(play, kind, leaf, lines, img.size, scan)
     no_rule = mid == NO_RULE
     if no_rule:
         mid = 0
     ids = {id(x) for x in lines}
     lines.extend(l for l in order if id(l) not in ids)  # a line cut at the gutter: its pieces
     jebb =play.layout == "jebb" and kind in ("intro", "appendix")
+    earle_page = earle_notes_page(play, kind, leaf, scan)  # Earle's notes on the hypothesis (intro)
     if jebb:
         order = _jebb_margins(order, img.size)
+    # Earle's introduction (his volume's pages read as kind intro, not his notes on the hypothesis):
+    # his notes in the outer margin, the verses he quotes, the accents Tesseract reads as a line
+    earle_intro = (kind == "intro" and play.notes_layout == "earle" and scan == play.notes_scan and not earle_page)
+    if earle_intro:
+        order = _earle_margins(order, img.size)
     cols: dict[str, list[dict]] = {}
     for l in order:
         cols.setdefault(l["region"], []).append(l)
@@ -563,8 +779,8 @@ def analyse_page(play: Play, kind: str, leaf: int, voc, names: set[str], scan: s
     foot: dict[str, list[dict]] = {}
     for region, col in cols.items():
         sizes = sorted(l["x_size"] for l in col if l["x_size"])
-        if len(col) < 6 or not sizes:
-            continue
+        if len(col) < 6 or not sizes or (kind == "notes" and play.notes_layout == "earle") or earle_page:
+            continue  # (Earle's notes have no footnotes; Tesseract's size of a short last line is no guide)
         xs = sizes[len(sizes) // 2]
         h = sorted(l["bbox"][3] - l["bbox"][1] for l in col)[len(col) // 2]
         k = len(col)
@@ -591,6 +807,7 @@ def analyse_page(play: Play, kind: str, leaf: int, voc, names: set[str], scan: s
     # sentence
     paras: list[dict] = []
     under = kind == "notes" and play.app_rule == "under"  # Jebb's Sophocles: the commentary under the rule
+    earle = kind == "notes" and play.notes_layout == "earle"  # Earle's Medea: notes run on inside paragraphs
     for region, col in cols.items():
         lefts = sorted(l["bbox"][0] for l in col)
         left = lefts[len(lefts) // 5] if lefts else 0
@@ -604,7 +821,9 @@ def analyse_page(play: Play, kind: str, leaf: int, voc, names: set[str], scan: s
             centred = (abs((l["bbox"][0] + l["bbox"][2]) / 2 - (left + right) / 2) < 2 * h
                        and (l["bbox"][2] - l["bbox"][0]) < 0.6 * (right - left))
             caps = _capitals(text) and len(text) < 90
-            numbered = kind == "notes" and note_heading(text, play.note_start) is not None
+            # (Earle's numbers are found inside the paragraph by earle_markdown; a paragraph begins
+            # with an indented line)
+            numbered = kind == "notes" and not earle and note_heading(text, play.note_start) is not None
             short_end = prev is not None and prev["bbox"][2] < right - 3 * h and re.search(r"[.?!:]['’”)]?$", prev["text"])
             if jebb and prev is not None and prev["bbox"][2] < right - 1.5 * h and re.match(r"^(?:\d{1,2}|[IlΙ1]{1,2})\.\s", text):
                 short_end = True  # an item of a numbered list (the structure of the play) after a short line
@@ -613,12 +832,20 @@ def analyse_page(play: Play, kind: str, leaf: int, voc, names: set[str], scan: s
                 # flush with the column is a reference run on (Thuc. 4. | 117; "7. 110" at the
                 # top of a column)
                 numbered = False
+            verse = (earle_intro and not caps and indent > 3 * h and l["bbox"][2] < right - 1.5 * h)
+            if earle_intro:
+                centred = centred and caps  # Earle centres only his headings; the verses he quotes are set in
             new = (prev is None or indent > 0.8 * h or centred or caps or numbered or bool(short_end)
                    or (prev is not None and prev["caps"]))
-            if under and prev is None and region == "right" and paras and not (indent > 0.8 * h or numbered or centred):
+            if earle_intro and not verse and not caps and indent > 3 * h and prev is not None and not short_end:
+                new = False  # a line shortened beside a note in the left margin, not a paragraph's start
+            if earle_intro and prev is not None and (verse or prev.get("verse")):
+                # the verses he quotes: one paragraph, its lines separated by " | "
+                new = verse != bool(prev.get("verse")) or (not verse and new)
+            if (under or earle or earle_page) and prev is None and region == "right" and paras and not (indent > 0.8 * h or numbered or centred):
                 new = False  # the paragraph runs on from the foot of the left column
             entry = {"text": text, "bbox": l["bbox"], "centred": centred, "caps": caps, "margin": l.get("margin"),
-                     "words": l["words"]}
+                     "words": l["words"], "verse": verse}
             if new or not paras:
                 paras.append({"lines": [entry], "region": region, "indent": indent > 0.8 * h})
             else:
@@ -641,6 +868,22 @@ def analyse_page(play: Play, kind: str, leaf: int, voc, names: set[str], scan: s
             md.append("")
             continue
         heading = len(p["lines"]) == 1 and (p["lines"][0]["caps"] or (p["lines"][0]["centred"] and len(text) < 80))
+        if earle:
+            md += earle_markdown(earle_clean(text), cands, "+ " if k == 0 and not p["indent"] else "")
+            continue
+        if earle_page:
+            # his notes on the hypothesis, keyed to the lines of his printing of it: each note a
+            # paragraph of its own, its number kept in the text ("8. **δρακόντων πτερωτῶν**: …")
+            local: list[dict] = []
+            for x in earle_markdown(earle_clean(text), local, "+ " if k == 0 and not p["indent"] else ""):
+                mm = re.fullmatch("\x00(\\d+)", x)
+                if not mm:
+                    md.append(x)
+                    continue
+                c = local[int(mm.group(1))]
+                body = c["body"] or [""]
+                md += [(c["alone"] + c["label"] + " " + body[0]).rstrip()] + [y for piece in body[1:] for y in ("", piece)]
+            continue
         if under:
             # Jebb's Sophocles: the heading is settled over the pages (_resolve_note_headings);
             # a further bold lemma after a dash begins a paragraph of its own, as in Perseus's files
@@ -670,19 +913,31 @@ def analyse_page(play: Play, kind: str, leaf: int, voc, names: set[str], scan: s
             if k == 0 and not p["indent"]:
                 text = "+ " + text  # the note runs on from the page before
         elif kind == "intro":
+            if p["lines"][0].get("verse"):
+                text = " | ".join(x["text"].strip() for x in p["lines"])
+            margins = [x["margin"] for x in p["lines"] if x.get("margin")]
             m = re.match(r"^§\s*(\d+)\.?\s*(.*)$", text)
+            if not m and play.notes_layout == "earle" and scan == play.notes_scan and p["indent"]:
+                # Earle numbers the paragraphs of his introduction through all its chapters ("1. Of the
+                # facts of Euripides's personal life …"): each a section, `## § 1`
+                m = re.match(r"^(\d{1,2})\.\s+(?=[A-Z‘“(])(.*)$", text)
             if m:
-                md.append(f"## § {m.group(1)}")
+                # a note in the margin beside the section's paragraph after a dash, as Jebb's
+                md.append(f"## § {m.group(1)}" + (" — " + "; ".join(margins) if margins else ""))
                 md.append("")
                 text = m.group(2)
                 if not text:
                     continue
+                margins = []
             elif heading:
                 md.append("# " + (title_case(text) if _capitals(text) else text.strip(" .")))
                 md.append("")
                 continue
             elif k == 0 and not p["indent"]:
                 text = "+ " + text
+            if margins:
+                # a note in the margin beside a paragraph that opens no section: in italics before it
+                text = re.sub(r"^(\+ )?", lambda mm: (mm.group(1) or "") + f"*{'; '.join(margins)}* ", text, count=1)
         elif kind == "trans":
             m = re.match(r"^([A-Z][A-Za-z]+(?:\s[A-Z][A-Za-z]+)?)\.\s+(.*)$", text)
             if m:
@@ -771,6 +1026,8 @@ def write_draft(slug: str, kind: str) -> list[dict]:
         _resolve_headings(pages, kind, last_line(play))
     if kind == "notes" and play.app_rule == "under":
         _resolve_note_headings(pages, last_line(play))
+    if kind == "notes" and play.notes_layout == "earle":
+        _resolve_note_headings(pages, last_line(play), EARLE_WINDOW)
     top = route_dir("drama-prose", slug, play.scan_for(kind)) if kind not in play.notes_sources else prose_dir(play, kind, play.scan_for(kind)).parent
     index = []
     trans_starts = _greek_speech_starts(slug) if kind == "trans" else {}
@@ -921,6 +1178,66 @@ def _jebb_margins(order: list[dict], size: tuple[int, int]) -> list[dict]:
                 lines_of.append([w])
         text = _join_lines([" ".join(x["text"] for x in sorted(ws, key=lambda w: w["bbox"][0])) for ws in lines_of])
         y = (note[0]["bbox"][1] + note[0]["bbox"][3]) / 2
+        if body:
+            near = min(body, key=lambda l: abs((l["bbox"][1] + l["bbox"][3]) / 2 - y))
+            near["margin"] = (near["margin"] + " " + text) if near.get("margin") else text
+    return body
+
+
+def _earle_margins(order: list[dict], size: tuple[int, int]) -> list[dict]:
+    """Earle's introduction: his notes in the outer margin ("Sources", "Birth and death",
+    "Parentage"), set in smaller bold type into a space left beside two or three shortened lines
+    (at the right of a right-hand page, the left of a left-hand page), taken out and attached, as
+    l["margin"], to the nearest line of the text; Tesseract reads such a note as a line of its own
+    (smaller type, three words at most, in the outer fifth of the page) or as the last (first)
+    words of a shortened line after a wide space. The accents of quoted Greek verses that
+    Tesseract reads as a line of their own (tiny type) are dropped."""
+    W, _H = size
+    if not order:
+        return order
+    sizes = sorted(l["x_size"] for l in order if len(l["words"]) >= 4 and l["x_size"])
+    med = sizes[len(sizes) // 2] if sizes else 0
+    hs = sorted(l["bbox"][3] - l["bbox"][1] for l in order if len(l["words"]) >= 4)
+    h = hs[len(hs) // 2] if hs else 30
+    right = max((l["bbox"][2] for l in order if len(l["words"]) >= 4), default=W)
+    keep = [l for l in order if not (med and l["x_size"] < 0.6 * med and l["bbox"][3] - l["bbox"][1] < 0.6 * h)
+            and (re.search(r"[A-Za-zͰ-Ͽἀ-῿]{3}|\d{2}", " ".join(w["text"] for w in l["words"])) or len(l["words"]) < 2)]
+    found: list[tuple[float, str]] = []
+    body: list[dict] = []
+    for l in keep:
+        ws = l["words"]
+        text = " ".join(w["text"] for w in ws)
+        if (len(ws) <= 3 and med and l["x_size"] <= 0.85 * med and re.search(r"[A-Za-z]{3}", text)
+                and (l["bbox"][0] >= 0.76 * W or l["bbox"][2] <= 0.24 * W)):
+            found.append(((l["bbox"][1] + l["bbox"][3]) / 2, text))
+            continue
+        out: list[dict] = []
+        wh = sorted(w["bbox"][3] - w["bbox"][1] for w in ws)
+        for i in range(len(ws) - 1):
+            gap = ws[i + 1]["bbox"][0] - ws[i]["bbox"][2]
+            after, before = ws[i + 1:], ws[: i + 1]
+            # (at the right only: on a left-hand page Tesseract reads the note as a line of its own)
+            if (gap >= 25 and len(after) <= 3 and len(before) >= 3 and after[0]["bbox"][0] >= 0.76 * W
+                    and before[-1]["bbox"][2] <= 0.81 * W and after[-1]["bbox"][2] <= right - 12
+                    and max(w["bbox"][3] - w["bbox"][1] for w in after) <= 0.85 * wh[len(wh) // 2]):
+                out = after
+                break
+        if out and re.search(r"[A-Za-z]{3}", " ".join(w["text"] for w in out)):
+            found.append(((out[0]["bbox"][1] + out[0]["bbox"][3]) / 2, " ".join(w["text"] for w in out)))
+            rest = [w for w in ws if w not in out]
+            l["words"] = rest
+            l["bbox"] = [min(w["bbox"][0] for w in rest), l["bbox"][1], max(w["bbox"][2] for w in rest), l["bbox"][3]]
+        body.append(l)
+    # the lines of one note (Birth | and death) follow one another closely
+    notes: list[list[tuple[float, str]]] = []
+    for y, t in sorted(found):
+        if notes and y - notes[-1][-1][0] < 1.6 * h:
+            notes[-1].append((y, t))
+        else:
+            notes.append([(y, t)])
+    for note in notes:
+        text = _join_lines([t for _y, t in note])
+        y = note[0][0]
         if body:
             near = min(body, key=lambda l: abs((l["bbox"][1] + l["bbox"][3]) / 2 - y))
             near["margin"] = (near["margin"] + " " + text) if near.get("margin") else text
@@ -1109,7 +1426,14 @@ def _jebb_markdown(paras: list[dict], kind: str, cands: list[dict]) -> list[str]
 
 
 def last_line(play: Play) -> int:
-    """The highest line number of the check text (the bound of an Appendix note's number)."""
+    """The highest line number of the check text (the bound of an Appendix note's number), or of
+    texts/<slug>/grc.txt for a play merged without one (Earle's notes on Murray's Medea)."""
+    if not play.check_text and play.notes_layout == "earle":
+        path = ROOT / "texts" / play.slug / "grc.txt"
+        if path.exists():
+            found = [int(m.group(1)) for m in re.finditer(r"^(\d+)[a-z]?\t", path.read_text(encoding="utf-8"), re.M)]
+            if found:
+                return max(found)
     if play.check_text:
         path = PIPELINE / "transcriptions" / play.check_text
         if path.exists():
