@@ -216,6 +216,21 @@ own text): rewrite each at its turn as the Medea's was.
 
 ## Progress
 
+* **2026-11-17, Medea prose: first check back, second reading running.** First check of the
+  31 batches: 31 agents, 4.3 M tokens, every flag answered (private cdc2c1c). Second reading
+  of a sample (notes-03, 09, 15, 20) and of the two batches with Murray's hypotheses and
+  persons (intro-08, 09): 0.8 M. In the 32 commentary pages it found four small errors: two
+  phrases bolded that are plain in print, twice a Latin A for the Greek book letter of Homer;
+  no wrong accent or breathing; two batches needed nothing. In Murray's persons page the
+  names had been taken across the columns instead of down them (corrected). By the author's
+  rule (a pass stays if it catches errors that would otherwise remain; the author does not
+  want quality compromised) the other 18 commentary batches and the 7 batches of Earle's
+  introduction get the second reading too: running, nine at once. **For the next plays**:
+  the look-alike letter can be caught by the checker (a Latin capital as a book letter after
+  "Hom."); the bolding cannot; consider after the Alcestis whether the second reading of an
+  English commentary keeps earning its cost (yield here: one small error per eight pages).
+
+
 * **2026-11-17, Medea prose.** Set-up agent's report (log build/logs/medea-prose-setup.md;
   public commit a631275, private d7cee8c): Earle's notes 175 pages, 22 batches, 2,623 flags,
   1,039 note headings; introduction 67 pages, 9 batches, 1,021 flags (Earle's introduction 58
