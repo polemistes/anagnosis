@@ -620,10 +620,17 @@ own text): rewrite each at its turn as the Medea's was.
 
 ## For the author
 
-* **Alcestis, Hayley's introduction**: a footnote cites "Rivista di filol. class. 185" as printed
-  (a figure dropped from the year or volume; it shows in the app): kept as printed unless you want
-  the reference completed from another source. And, as before, chapter E's author Paton's death
-  year (believed 1944) to confirm before the release.
+* **Alcestis, Hayley's introduction: settled 2026-11-16.** The footnote citing "Rivista di filol.
+  class. 185" stays as printed, with a "[Note in this edition: …]" paragraph after it: 185 is a
+  misprint for 1895 (Eleuterio Menozzi's article on Laevius begins on p. 182 of vol. XXIII, 1895:
+  seen in that volume's contents, archive.org rivistadifilolog23toriuoft). Chapter E's author,
+  James M. Paton, died 23 November 1944 (Wikidata, Find a Grave): free in Norway since 2015, the
+  chapter stays.
+* **The author's phone: settled 2026-11-16.** The held-back texts reach it through an internal
+  testing release on Google Play (see "The author's build"). That bundle must never be promoted
+  to another track. A later production version without the texts would take them off the phone
+  (their packs go with the version that carried them), so every production release is paired
+  with an author's release one version code above it.
 * **Which printing of Murray's vols II and III to read.** Perseus's scans (vol. II 1962, vol.
   III 1925-1946 printings of the 1913 editions) keep the print and the check text one edition;
   from 2028 any printing of Murray's text is free in Norway, so the printing matters only for
