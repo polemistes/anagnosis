@@ -545,6 +545,22 @@ The metrical analyses are not transcribed (as for Ajax and Electra).
   the Medea's draft: 57 pages, 1,405 verses, 72 flagged, 10 batches). The Medea's batch 01
   runs alone as a trial.
 
+* **2026-11-17 (night). Philoctetes built, complete but for the emulator check** (bd05a37).
+  The commentary's second reading of the other 24 batches is back (24 agents, 3.6 M tokens;
+  44 `rev:` corrections in the whole commentary, mostly a Greek accent or breathing, a
+  bolding, a run-on mark); `sophocles-prose`, `build --only`, `catalog`, `check` run: 0 errors,
+  commentary 820 notes, apparatus 815, 1,469 verses. Finishing agent's results in
+  build/logs/philoctetes-finish-agent.md (the commentary builder's first real run: two
+  repairs; `TRANSLATION_NUMBERS["philoctetes"]`; three lyric stretches renumbered; the first
+  kommos added to the play's parts; 43 hand analyses, 12 lemma fixes; glossary 18, shortdefs
+  11). The emulator check runs (same agent as for the Oedipus at Colonus; its scratch on disk).
+  When it is back and its findings are fixed, all four plays are done.
+* Token use, for the record (agent tokens, Opus): Philoctetes text first pass 2.9 M,
+  residuals 1.6 M, review 3.1 M; introduction and Appendix 2.9 M; commentary set-up 0.35 M,
+  first check 4.6 M, second reading 0.6 + 3.6 M; finishing 0.47 M. Oedipus at Colonus: first
+  pass 4.0 M, residuals 2.0 M, review 4.1 M, prose 1.9 M, finishing 0.85 M. Oedipus Tyrannus:
+  first pass 2.0 M, residuals 1.4 M, review 2.6 M, prose 3.9 M, finishing 0.85 M.
+
 ## Decisions
 
 * 2026-11-15: order by least work left (Trachiniae first).
