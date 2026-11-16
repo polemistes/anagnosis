@@ -62,7 +62,7 @@
 --- text
 188.1	ἀλλʼ ἐκεῖνο ἐνθυμεῖσθε, ὅτι ⟨αὐτῷ⟩ [πρὶν Νικοφήμῳ ἢ καὶ
 188.2	Ἀριστοφάνει], πρὶν τὴν ναυμαχίαν νικῆσαι ⟨Κόνωνα⟩, γῆ
-188.3	μὲν οὐκ ἦν ἀλλʼ ἢ χωρίδιον μικρὸν Ῥαμνοῦντι. ἐγένετο δʼ
+188.3	μὲν οὐκ ἦν ἄλλʼ ἢ χωρίδιον μικρὸν Ῥαμνοῦντι. ἐγένετο δʼ
 188.4	⟨ἡ⟩ ναυμαχία ἐπʼ Εὐβουλίδου ἄρχοντος. §19.29 ἐν οὖν τέτταρσιν
 188.5	ἢ πέντε ἔτεσι, πρότερον μὴ ὑπαρχούσης οὐσίας, χαλεπόν, ὦ
 188.6	ἄνδρες δικασταί, τραγῳδοῖς τε δὶς χορηγῆσαι, ὑπὲρ αὑτοῦ τε
@@ -123,6 +123,7 @@
 188.20	ἀπεφαίνοντο as printed (Hude's reading; app. "20 ἀπεφαίνετο Pertz")
 188.20	§19.32 moved to Hude's line 188.21, after the full stop (before πρὸς); the check text begins it at ὅσα on 188.20
 188.24	⟨τὰς⟩ added before ἑπτὰ, as printed (angle brackets; app. "τὰς add. Westermann")
+188.3	rev: ἄλλʼ ἢ (smooth breathing and acute) as printed, not ἀλλʼ (app. "3 ἀλλ L")
 
 === p-0189
 --- text
@@ -235,7 +236,7 @@
 13	τι C: τί X
 15	γὰρ ⟨ἂν⟩ Westermann
 16	νήσῳ Taylor
-16	διέθετο Taylor: ἥσθετο L
+16	διέθετο Taylor: ἤσθετο L
 16	τοῦτον μάρτυρα L
 18	μάρτυρας C: om. X, sed est spatium
 21	ᾠήθη ἂν Stephanus: ὠήθησαν L
@@ -251,6 +252,7 @@
 190.13	κεφάλαιον [τι] as printed: τι in square brackets, κεφάλαιον without the second accent
 190.21	ᾠήθη as printed (OCR error)
 190.23	αὑτοῦ checked: rough breathing as printed
+190.16	rev: apparatus item 16 ἤσθετο L (smooth breathing, no iota subscript) as printed, not ἥσθετο
 
 === p-0191
 --- text

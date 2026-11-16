@@ -196,7 +196,7 @@
 251.15	δίκην λαβεῖν, καὶ τοῖς ἄλλοις Ἕλλησιν ἐπιδεῖξαι ὡς τοὺς
 251.16	ἀδικοῦντας τιμωρεῖσθε, καὶ τοὺς ὑμετέρους ἄρχοντας βελτίους
 251.17	ποιήσετε. §28.16 ἐγὼ μὲν οὖν ταῦθʼ ὑμῖν παρακελεύομαι· ὑμᾶς δὲ
-251.18	χρὴ εἰδέναι ὅτι, ἂν μὲν ἐμοὶ πεισθῆτε, εὖ περὶ αὐτῶν βουλεύσεσθε,
+251.18	χρὴ εἰδέναι ὅτι, ἂν μὲν ἐμοὶ πεισθῆτε, εὖ περὶ αὑτῶν βουλεύσεσθε,
 251.19	εἰ δὲ μή, χείροσι τοῖς ἄλλοις πολίταις χρήσεσθε.
 251.20	ἔτι δέ, ὦ ἄνδρες Ἀθηναῖοι, ἂν αὐτῶν ἀποψηφίσησθε, οὐδεμίαν
 251.21	ὑμῖν εἴσονται χάριν, ἀλλὰ τοῖς ἀνηλωμένοις καὶ τοῖς
@@ -223,10 +223,11 @@
 28	καὶ om. C
 31	τὴν om. C
 --- notes
-251.18	ἂν as printed, not ἐὰν; αὐτῶν with smooth breathing as printed (compared with εἰδέναι and ὅτι on the same line), not αὑτῶν
+251.18	ἂν as printed, not ἐὰν
 251.20	ἂν as printed, not ἐὰν
 251.30	the margin's 30 stands beside this line; the count is right
 251.3	res: ἢ with grave accent, as printed (the text had ἤ)
+251.18	rev: αὑτῶν restored (rough breathing, as printed: the mark opens to the right like ὅτι on the same line and ὑμᾶς/αὑτοῖς on 251.27, unlike the smooth of εἰδέναι, εὖ, ἐμοὶ); the first pass had made it αὐτῶν
 
 === p-0252
 --- text

@@ -141,7 +141,7 @@
 5	Λυσίμαχον L: corr. Schottus
 6	μάρτυρας C
 8	τήν ⟨τε⟩ Cobet
-8	τὴν N. X: τοῦ N. C
+8	τὴν Ν. X: τοῦ Ν. C
 16	an ἀναδυομένοις?
 17	λειτ. L (it. 24)
 18	ἐκείνοις Taylor
@@ -155,6 +155,7 @@
 207.10	οὕτως as printed
 207.19	ἂν as printed (for ἐὰν)
 207.24	ἂν as printed (for ἐὰν)
+207.8	rev: apparatus item 8 τὴν Ν. X: τοῦ Ν. C: the abbreviation Ν. (Ναυσιμάχου) written with the Greek capital Ν, not the Latin N
 
 === p-0208
 --- text

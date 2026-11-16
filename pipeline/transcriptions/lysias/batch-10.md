@@ -46,7 +46,7 @@
 18	ἀλύπῳ Stephanus
 18	ἢ C solus
 20	τοσοῦτο C
-21	τὰ πολιτικὰ πράττειν Valckenaer: τῇ πόλει καὶ πράττει L
+21	τὰ πολιτικὰ πράττειν Valckenaer: τῆ πόλει καὶ πράττει L
 22	τῶν ἀρχόντων τισὶ καὶ ἀποδοκιμάζει Reiske
 --- notes
 73.9	ἐστὶ as printed (the check text ἔστι)
@@ -56,6 +56,7 @@
 73.23	εἰς added before τὴν βουλὴν, as printed (συμβου-/λεύει εἰς)
 73.18	ἢ checked on the image: smooth breathing, as in the apparatus (ἢ C solus)
 73.5	apparatus 5 γιν. C printed without an accent, 8 γίν. with one: copied as printed
+73.21	rev: apparatus item 21 τῇ πόλει corrected to τῆ πόλει (printed without the iota subscript, checked enlarged)
 
 === p-0074
 --- text
@@ -105,7 +106,7 @@
 23	ὧν Reiske: τῶν L
 23	τῷ del. Pertz
 24	ἡμῶν C X: ὑμῶν rell.
-26	ἄλλου X
+26	ἀλλου X
 28	ἄστεος L
 28	⟨τῶν⟩ ἐκ Cobet
 --- notes
@@ -114,6 +115,7 @@
 74.9	the parenthesis closes after διαγνῶτε, then a raised stop: διαγνῶτε)· as printed (the draft had a full stop)
 74.17	αἱ checked (rough breathing); apparatus 17 αὐ C (smooth breathing) is C's reading for it
 74.17	apparatus 17: a speck under the η of ἀπολογήσασθαι, not an iota subscript; written without one
+74.26	rev: apparatus item 26 ἄλλου corrected to ἀλλου: printed with the smooth breathing and no accent (checked enlarged)
 
 === p-0075
 --- text

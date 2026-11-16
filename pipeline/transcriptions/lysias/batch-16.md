@@ -54,7 +54,7 @@
 --- text
 110.1	πίστιν παρʼ αὐτοῦ λαβεῖν. §12.10 ἐπειδὴ δὲ ὤμοσεν, ἐξώλειαν
 110.2	ἑαυτῷ καὶ τοῖς παισὶν ἐπαρώμενος, λαβὼν τὸ τάλαντόν με
-110.3	σώσειν, εἰσελθὼν εἰς τὸ δωμάτιον τὴν κιβωτὸν ἀνοίγνυμι.
+110.3	σώσειν, εἰσελθὼν εἰς τὸ δωμάτιον τὴν κιβωτὸν ἀνοίγνυμι·
 110.4	Πείσων δʼ αἰσθόμενος εἰσέρχεται, καὶ ἰδὼν τὰ ἐνόντα καλεῖ
 110.5	τῶν ὑπηρετῶν δύο, καὶ τὰ ἐν τῇ κιβωτῷ λαβεῖν ἐκέλευσεν.
 110.6	§12.11 ἐπεὶ δὲ οὐχ ὅσον ὡμολόγητο εἶχεν, ὦ ἄνδρες δικασταί, ἀλλὰ
@@ -100,6 +100,7 @@
 110.16	Πείσων with a capital, as printed; the line begins with -που., the end of Δαμνίππου, which stands whole on 110.15
 110.28	apparatus ἤδειν L: smooth breathing, as printed (checked enlarged)
 110.28	res: no comma after οἰκίας, as printed
+110.3	rev: raised stop after ἀνοίγνυμι, as printed (was a full stop)
 
 === p-0111
 --- text
@@ -290,7 +291,7 @@
 114.26	ἢ καὶ ὑεῖς; ἀπεψηφίζεσθε ⟨ἄν⟩; δεῖ γάρ, ὦ ἄνδρες δικασταί,
 114.27	Ἐρατοσθένη δυοῖν θάτερον ἀποδεῖξαι, ἢ ὡς οὐκ ἀπήγαγεν
 --- apparatus
-1	σῴζειν τε αὐτὸν κ. τ. τ. ἐ. παρόν Sauppe: σώζοντα αὐτὸν κ. τ. τ. ἐ. ὂν X: σώζων αὑτὸν κ. τ. τ. ἐ. C: σῴζοντα αὑτόν, κατὰ τ. τ. ἐ. Baiter
+1	σῴζειν τε αὐτὸν κ. τ. τ. ἐ. παρόν Sauppe: σώζοντα αὐτὸν κ. τ. τ. ἐ. ὃν X: σώζων αὑτὸν κ. τ. τ. ἐ. C: σῴζοντα αὑτόν, κατὰ τ. τ. ἐ. Baiter
 3	πᾶσιν Reiske: πάντες L
 3	ὠργίζεσθε Markland
 5	τοῖς Reiske: τούτοις L: που τοῖς Jacobs
@@ -315,3 +316,4 @@
 114.1	apparatus: σώζοντα and σώζων without the iota subscript, αὐτὸν (X) smooth, αὑτὸν (C) and αὑτόν (Baiter) rough, as printed (checked enlarged)
 114.10	apparatus βουλό-/μενον divided at the line's end in the apparatus, written whole
 114.4	res: comma after καίτοι, as printed
+114.1	rev: apparatus item 1 ὃν X (rough breathing with the grave, as printed; was ὂν): the mark has the same shape as the rough breathing of ἃ on 114.16, not that of the smooth one of ἢ on 114.13 (checked enlarged)

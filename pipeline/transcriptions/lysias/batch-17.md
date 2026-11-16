@@ -251,7 +251,7 @@
 119.23	ἐκ τῆς πόλεως ἐξέπεσον, §12.58 ἀλλὰ τούτων. ὥστε σφόδρα χρὴ
 119.24	ὀργίζεσθαι, ὅτι Φείδων αἱρεθεὶς ὑμᾶς διαλλάξαι καὶ καταγαγεῖν
 119.25	τῶν αὐτῶν ἔργων Ἐρατοσθένει μετεῖχε καὶ τῇ αὐτῇ
-119.26	γνώμῃ τοὺς μὲν κρείττους αὐτῶν διʼ ὑμᾶς κακῶς ποιεῖν
+119.26	γνώμῃ τοὺς μὲν κρείττους αὑτῶν διʼ ὑμᾶς κακῶς ποιεῖν
 --- apparatus
 1	ἐγίν. L
 3	ἔδειξάν Canter: ἔδοξαν L: ἐδείξαμεν Geel
@@ -285,6 +285,7 @@
 119.23	§12.58: Hude's 58 stands beside this line; the mark left where it is
 119.26	αὐτῶν with the smooth breathing, as printed (the draft had αὑτῶν; seen enlarged beside ὑμᾶς; Hude's apparatus gives αὑτοῦ as Burger's)
 119.24	apparatus: Dobree printed with its last e faint (it looks like Dobrec): read as Dobree
+119.26	rev: αὑτῶν with the rough breathing restored, reversing the change noted above (enlarged five times, the mark has the same shape as the certain rough breathing of ὑμᾶς beside it and of ἡμᾶς and αὑτοῦ in apparatus 24 and 26, and not that of the smooth αὐτῶν on 119.25)
 
 === p-0120
 --- text

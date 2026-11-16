@@ -86,7 +86,7 @@
 7	μὲν om. Gal.
 7	τοῦ ἡμετέρου πλήθους Gal.
 8	μὲν om. C
-8	καὶ Gal.: ἰδίᾳ L: καὶ ⟨μεγάλων⟩ Baiter
+8	καὶ Gal.: ἰδία L: καὶ ⟨μεγάλων⟩ Baiter
 9	αἴτιος om. C
 9	γενόμενος Gal.
 9	μέγιστα κακὰ] ἄχρηστα Gal.
@@ -98,6 +98,7 @@
 176.7	πλήθους τοῦ added after ὑπὲρ τοῦ, as printed (the apparatus: 7 τοῦ ἡμετέρου πλήθους Gal.)
 176.17	ἕκαστον as printed (the draft had ἕκατον)
 176.19	ἐκείνου as printed (the draft had ἐκεῖνον)
+176.8	rev: apparatus item 8 ἰδία L printed without the iota subscript (enlarged); the subscript removed
 
 === p-0177
 --- text

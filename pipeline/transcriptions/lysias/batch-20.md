@@ -250,7 +250,7 @@
 137.14	ἐψήφιστο. Καί μοι ἀνάγνωθι τὸ ψήφισμα.
 137.15	[label] ΨΗΦΙΣΜΑ.
 ¶
-137.16	§13.36 Εἰ μὲν οὖν ἐν τῷ δικαστηρίῳ ἐκρίνοντο, ῥαδίως ἂν
+137.16	§13.36 Εἰ μὲν οὖν ἐν τῷ δικαστηρίῳ ἐκρίνοντο, ῥᾳδίως ἂν
 137.17	ἐσῴζοντο· ἅπαντες γὰρ ἤδη ἐγνωκότες ἦτε οὗ ἦν κακοῦ ἡ
 137.18	πόλις, ἐν ᾧ οὐδὲν ἔτι ὠφελεῖν ἐδύνασθε· νῦν δʼ εἰς τὴν
 137.19	βουλὴν αὐτοὺς τὴν ἐπὶ τῶν τριάκοντα εἰσάγουσιν. ἡ δὲ
@@ -284,7 +284,7 @@
 137.11	question mark after ἐγένετο, as printed (the draft had a full stop; unflagged line, seen on the page image)
 137.12	comma after κατεστάθησαν, as printed (unflagged line, seen on the page image)
 137.13	ἐν printed; Hude's single quotation marks ‘ἐν τῷ δικαστηρίῳ ἐν δισχιλίοις’ as printed; nothing changed
-137.16	ῥαδίως printed (no iota subscript); nothing changed
+137.16	rev: ῥᾳδίως with the iota subscript, as printed (clear under the alpha on the enlarged image); the draft had ῥαδίως, and an earlier note here wrongly said it was printed without the subscript (that note removed)
 137.18	raised stop after ἐδύνασθε, as printed (seen on the page image)
 137.19	ἡ printed; nothing changed
 137.21	νῦν as printed (the draft had the typo νῖν)
@@ -300,7 +300,7 @@
 138.5	[label] ΟΝΟΜΑΤΑ.
 ¶
 138.6	§13.39 Ἐπειδὴ τοίνυν, ὦ ἄνδρες δικασταί, θάνατος αὐτῶν κατεγνώσθη
-138.7	καὶ ἔδει αὐτοὺς ἀποθνήσκειν, μεταπέμπονται εἰς τὸ
+138.7	καὶ ἔδει αὐτοὺς ἀποθνῄσκειν, μεταπέμπονται εἰς τὸ
 138.8	δεσμωτήριον ὁ μὲν ἀδελφήν, ὁ δὲ μητέρα, ὁ δὲ γυναῖκα, ὁ
 138.9	δʼ ἥ τις ἦν ἑκάστῳ αὐτῶν προσήκουσα, ἵνα τὰ ὕστατα
 138.10	ἀσπασάμενοι τοὺς αὑτῶν οὕτω τὸν βίον τελευτήσειαν. §13.40 καὶ
@@ -341,6 +341,7 @@
 23	μάρτυρες C
 27	ἐπειδὴ δὲ Fuhr
 --- notes
+138.7	rev: ἀποθνῄσκειν with the iota subscript, as printed (clear on the enlarged image); the draft had ἀποθνήσκειν
 138.11	δὴ printed; nothing changed
 138.13	obelus † before τε, as printed (apparatus 13 "τὸ Koen: an τι?"); no lacuna printed after ἠμφιεσμένη (Reiske's supplement is in the apparatus); §13.41 moved to Hude's line 138.14
 138.14	§13.41 moved to Hude's line, after the full stop, before ἐναντίον; the check text begins it at ὡς εἰκὸς on 138.13

@@ -89,7 +89,7 @@
 7	Ἱππαρμοδώρου suspectum Fuhrio
 8	υἱὸν L
 8	Πλαταιέα L (it. infra)
-9	Ἱππαρμόδδωρον μὲν ex Ἱππαρμοδώρου υἱὸν corr. X¹
+9	Ἱππαρμόδωρον μὲν ex Ἱππαρμοδώρου υἱὸν corr. X¹
 9	γιν. L
 9	υἱὸν L
 11	ἤδειν L
@@ -109,7 +109,7 @@
 218.21	§23.8 moved to Hude's line, after the full stop; the check text begins it at τήν τε on 218.20
 218.23	Πλαταιῶν as printed
 218.28	ἐμαρτύρη-/σεν divided as printed, written whole on 218.28
-218.9	apparatus: misprint: Ἱππαρμόδδωρον for Ἱππαρμόδωρον, as printed (the lemma of line 9)
+218.9	rev: apparatus item 9 Ἱππαρμόδωρον with one δ, as printed (the enlarged image shows no doubled δ; the misprint note withdrawn)
 218.14	apparatus: ἔνη X: ἔννη C with smooth breathing and acute, as printed
 218.10	res: comma after the first οὐδένα and after the second, as printed
 
@@ -306,4 +306,4 @@
 222.8	οἴομαι as printed
 222.9	τελευτή-/σασαν divided as printed, written whole on 222.9
 222.16	ἔστιν as printed
-222.27	apparatus: 27 τοῦτο Rosenberg as printed (τοῦτο stands in the text on line 25, not 27; the number kept as printed)
+222.27	rev: apparatus: 27 τοῦτο Rosenberg as printed; the number is right (Rosenberg's conjecture for τότε on line 27, not the τοῦτο of line 25); the earlier note corrected

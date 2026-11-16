@@ -78,7 +78,7 @@
 --- apparatus
 2	τρέψεσθαι Markland: τρέπεσθαι L
 2	ὡς om. C
-4	οὐδεμίαν Brulart coll. xi 11: οὐδεμιᾷ L
+4	οὐδεμίαν Brulart coll. xi 11: οὐδεμιᾶ L
 7	ἤδειν L
 8	ἀποβαλοῦσι Cobet: ἀποβάλλουσι L
 12	τούτου supra v. add. X¹
@@ -88,6 +88,7 @@
 104.5	μὴ checked: printed at the end of this line
 104.6	ἤδη checked: printed
 104.7	γάρ πω as printed (acute before the enclitic); ᾔδη checked
+104.4	rev: apparatus item 4 οὐδεμιᾶ L without the iota subscript, as printed (was οὐδεμιᾷ)
 
 === p-0105
 --- text

@@ -199,7 +199,7 @@
 155.21	τις ἀξιοῖ, ἐὰν μέν τις προσιόντων τῶν πολεμίων τῆς πρώτης
 155.22	τάξεως τεταγμένος τῆς δευτέρας γένηται, τούτου μὲν δειλίαν
 155.23	καταψηφίζεσθαι, ἐὰν δέ τις ἐν τοῖς ὁπλίταις τεταγμένος ἐν
-155.24	τοῖς ἱππεῦσιν ἀναφανῇ, §14.12 τούτῳ συγγνώμην ἔχειν. καὶ μὲν
+155.24	τοῖς ἱππεῦσιν ἀναφανῇ, τούτῳ συγγνώμην ἔχειν. §14.12 καὶ μὲν
 155.25	δή, ὦ ἄνδρες δικασταί, ἡγοῦμαι δικάζειν ὑμᾶς οὐ μόνον
 155.26	τῶν ἐξαμαρτανόντων ἕνεκα, ἀλλʼ ἵνα καὶ τοὺς ἄλλους τῶν
 155.27	ἀκοσμούντων σωφρονεστέρους ποιῆτε. ἐὰν μὲν τοίνυν τοὺς
@@ -220,6 +220,7 @@
 155.8	ἕτεροι checked on the crop, as printed
 155.9	καὶ added after δὲ, as printed (Hude's apparatus: pr. καὶ om. C)
 155.15	the repeated βῆναι, deleted: the line prints ἀναβῆναι, οὔτε; ὢν checked (smooth breathing, grave)
+155.24	rev: §14.12 moved within Hude's line (his 12 stands beside it) from before τούτῳ (the check text's place, inside the sentence) to the line's first sentence break, after ἔχειν., before καὶ μὲν δή
 155	apparatus 6: two dots in the lemma range (καὶ τὰ . . δημευθῆναι), as printed; καὶ πολλὰ] (lines 9-10) has no number of its own, so 9
 
 === p-0156
@@ -235,7 +236,7 @@
 156.9	κάμνοντες ἐτύγχανον, οἱ δὲ ἐνδεεῖς ὄντες τῶν ἐπιτηδείων, καὶ
 156.10	ἡδέως ἂν οἱ μὲν ἐν ταῖς πόλεσι καταμείναντες ἐθεραπεύοντο,
 156.11	οἱ δὲ οἴκαδʼ ἀπελθόντες τῶν οἰκείων ἐπεμέλοντο, οἱ δὲ ψιλοὶ
-156.12	ἐστρατεύοντο, οἱ δʼ ἐν τοῖς §14.15 ἱππεῦσιν ἐκινδύνευον· ἀλλʼ ὅμως
+156.12	ἐστρατεύοντο, οἱ δʼ ἐν τοῖς ἱππεῦσιν ἐκινδύνευον· §14.15 ἀλλʼ ὅμως
 156.13	οὐκ ἐτολμᾶτε ἀπολιπεῖν τὰς τάξεις οὐδὲ τἀρεστὰ ὑμῖν αὐτοῖς
 156.14	αἱρεῖσθαι, ἀλλὰ πολὺ μᾶλλον ἐφοβεῖσθε τοὺς τῆς πόλεως
 156.15	νόμους ἢ τὸν πρὸς τοὺς πολεμίους κίνδυνον. ὧν χρὴ μεμνημένους
@@ -272,4 +273,5 @@
 156.16	res: no comma after φέρειν, as printed
 156.15	μεμνημένους checked on the crop (divided μεμνη-/μένους), as printed
 156.27	ὑέος as printed (Hude's apparatus: υἱοῦ L)
+156.12	rev: §14.15 moved within Hude's line (his 15 stands beside it) from before ἱππεῦσιν (the check text's place, inside the clause) to the line's first sentence break, after the raised stop, before ἀλλʼ ὅμως
 156	apparatus 24: only one dot, at the height of a raised stop, stands between C and om. (a colon with a lost lower dot?), copied as printed

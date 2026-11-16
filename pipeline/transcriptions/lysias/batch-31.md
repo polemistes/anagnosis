@@ -174,7 +174,7 @@
 --- text
 ¶
 202.1	§20.28 Ἀλλὰ μὴν καὶ τὸν ἀδελφὸν τὸν νεώτατον, οἷος εἰς ὑμᾶς
-202.2	ἐστιν, ἐγὼ ἀποδείξω. καταδρομῆς γὰρ γενομένης τῶν φυγάδων,
+202.2	εστιν, ἐγὼ ἀποδείξω. καταδρομῆς γὰρ γενομένης τῶν φυγάδων,
 202.3	⟨οἳ⟩ οὐ μόνον ἐνθάδε ὅ τι οἷοί τʼ ἦσαν κακὸν ἠργάζοντο,
 202.4	ἀλλὰ καὶ ἀπὸ τοῦ τείχους ἔφερον καὶ ἦγον ὑμᾶς, ἐξελάσας
 202.5	ἐκ τῶν ἄλλων ἱππέων ἕνα ἀπέκτεινεν. ὧν ὑμῖν αὐτοὺς
@@ -210,7 +210,7 @@
 8	αὐτοί ⟨τε⟩ Schottus: οὗτοι Wilamowitz
 9	⟨καὶ ὑμῶν⟩ οἵτινες Schottus
 9	μετὰ Λέοντος Wilamowitz: ἐνθάδε ὄντες L
-9	εἴτε X: οἵ τε C
+9	είτε X: οἵ τε C
 10	ἥττονʼ C: ἧττον X
 12	tit. om. X
 14	ἀλλʼ C solus: ἢ add. Reiske
@@ -230,6 +230,9 @@
 202.3	ἠργάζοντο as printed (app. 3: εἰργ. L); οἷοί with the acute before τʼ, as printed
 202.8	apparatus: πρεσβύ-τερον and Wilamo-witz (18) divided at the apparatus line's end, written whole
 202.10	res: Καί with the acute before μοι, as printed
+202.2	misprint: εστιν for ἐστιν, as printed (no breathing printed)
+202.2	rev: εστιν copied as printed, without breathing (was ἐστιν); the misprint noted above
+202.9	rev: apparatus item 9 είτε X printed without breathing, copied so (was εἴτε)
 
 === p-0203
 --- text
