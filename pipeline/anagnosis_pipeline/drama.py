@@ -375,15 +375,26 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          trans_edition="The Plays of Euripides, translated by E. P. Coleridge, vol. II, London, G. Bell and Sons, 1913 (Wikisource)",
          trans_license="Public domain; Wikisource transcription CC BY-SA 4.0",
          notes_editor="sandys", notes_editor_name="John Edwin Sandys"),
+    # Euripides from Murray's Oxford text (pipeline/PLAN-euripides.md; private until 2028-01-01):
+    # the Alcestis's text and apparatus are Murray's, vol. I, the same scan and page as the Medea;
+    # Hayley (Ginn 1898) is the commentary and introduction beside it
     Play("alcestis", "Ἄλκηστις", "Alcestis", "Εὐριπίδης", "Euripides", "tlg0006.tlg002",
-         "The Alcestis of Euripides, edited with an introduction and critical and exegetical notes by H. W. Hayley, Boston, Ginn & Company, 1898",
-         "alcestisofeuripi00euriuoft", "hayley", "H. W. Hayley", "euripides_alcestis_hayley",
+         "Euripidis Fabulae, recognovit brevique adnotatione critica instruxit Gilbertus Murray, tomus I, Oxford, Clarendon Press, 1902",
+         "euripidisfabulae01euriuoft", "murray", "G. Murray", "euripides_alcestis_murray",
          glaux="0006-002.xml",
          trans_file="drama/tlg0006.tlg002.perseus-eng2.xml", translator="E. P. Coleridge", trans_key="coleridge",
          trans_edition="The Plays of Euripides, translated by E. P. Coleridge, London, George Bell and Sons, 1891",
          trans_license="CC BY-SA 4.0 (Perseus Digital Library)",
          notes_editor="hayley", notes_editor_name="Harry Wilson Hayley",
-         app_langs=("grc+eng", "eng+grc")),
+         notes_edition="The Alcestis of Euripides, edited with an introduction and critical and exegetical notes by H. W. Hayley, Boston, Ginn & Company, 1898",
+         notes_scan="alcestisofeuripi00euriuoft",
+         # Murray's page, as for the Medea (see that entry for what each option answers)
+         speaker_trust=True, app_bare_numbers=True, verse_size_q=0.75, foot_signature=True, app_pitch_cut=True,
+         head_frac=0.065, metre_labels=True,
+         # Murray's scan: the hypotheses with their apparatus leaves 54-55, the persons with his
+         # note leaf 56, the text leaves 57-101 (seen 2026-11-16), the volume's Sigla leaf 24.
+         # Hayley's leaves (notes at the back, the introduction) are still to be found.
+         text_leaves=[(57, 101)], sigla_leaves=[24]),
     Play("lysistrata", "Λυσιστράτη", "Lysistrata", "Ἀριστοφάνης", "Aristophanes", "tlg0019.tlg007",
          "Aristophanis Comoediae, recognoverunt brevique adnotatione critica instruxerunt F. W. Hall et W. M. Geldart, tomus II, Oxford, Clarendon Press, 1907",
          "aristophaniscomo02arisuoft", "hall-geldart", "F. W. Hall and W. M. Geldart", "aristophanes_lysistrata_hall_geldart",
