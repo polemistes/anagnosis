@@ -125,7 +125,7 @@
 --- apparatus
 3	ἐγίν. C X
 3	οὐδεπώποτε C: οὐδὲν πώποτε Herwerden
-4	ᾤμην post γυναῖκα C
+4	ὤμην post γυναῖκα C
 4	ἑαυτοῦ N P X¹: ἐμαυτοῦ C Xʳ
 8	λυπούμενος C
 10	παιδίω Hᶜ X (comp.): παιδίον H¹: παιδὶ rell.
@@ -142,6 +142,7 @@
 --- notes
 21.4	ἑαυτοῦ as printed (the check text ἐμαυτοῦ; apparatus 4)
 21.12	ἑορακυῖα as printed (the check text ἑωρακυῖα; apparatus 12)
+21.4	rev: apparatus item 4 ὤμην without iota subscript, as printed (enlarged; the text has ᾤμην)
 
 === p-0022
 --- text

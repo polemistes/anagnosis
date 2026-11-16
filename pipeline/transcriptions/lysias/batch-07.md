@@ -62,7 +62,7 @@
 56.11	ὥσπερ κατʼ ἐμαυτοῦ τὴν πρόνοιαν ἐξευρίσκων, ἵνʼ ὡς
 56.12	μάλιστα ὑπὸ τῶν ἐχθρῶν ὑβρισθείην;
 ¶
-56.13	§3.35 ἔτι τοίνυν, ὦ βουλή, καὶ ἐκ τῆς μάχης τῆς γενομένης
+56.13	§3.35 Ἔτι τοίνυν, ὦ βουλή, καὶ ἐκ τῆς μάχης τῆς γενομένης
 56.14	ῥᾴδιον γνῶναι ὅτι ψεύδεται. τὸ γὰρ μειράκιον ὡς ἔγνω, ῥῖψαν
 56.15	θοἰμάτιον, φεῦγον ᾤχετο, οὗτοι δὲ αὐτὸν ἐπεδίωκον, ἐγὼ δὲ
 56.16	ἑτέραν ἀπελθὼν ὁδὸν ᾠχόμην. §3.36 καίτοι ποτέρους χρὴ αἰτίους
@@ -100,6 +100,7 @@
 56.7	τοσοῦτο as printed
 56.21	(and 56.20) ⟨μέν⟩ not on the page: see 56.20
 56.20	⟨μέν⟩ of the check text (Sauppe's) is not printed: deleted; Hude's apparatus gives Reiske's and Sauppe's supplements
+56.13	rev: Ἔτι with a capital, as printed (the paragraph opens with it)
 
 === p-0057
 --- text
@@ -256,7 +257,7 @@
 7	φανερός C¹ Mᶜ Xᶜ(1): φανερῶς Cˢ M¹ O X¹
 8	ἃ Taylor: ἣ L
 9	γʼ ἀληθῆ Hirschig
-16	ἧς Scaliger: ἧ L: ἧν Reiske
+16	ἧς Scaliger: ἧ L: ἣν Reiske
 16	αὐτὸν οἱ] οἱ αὐτὸν Contius
 17	ἕνεκα M¹: εἵνεκα rell.
 17	ἐκαθίζετο C M X: ἐκαθέζετο O rell.
@@ -268,3 +269,4 @@
 60.20	διὰ as printed (the draft had δὶα)
 60.2	ἡμῖν as printed (a damaged μ, read ἡβῖν by the OCR)
 60.20	res: βίᾳ with the iota subscript, as printed
+60.16	rev: apparatus item 16 Reiske's ἣν with the grave (the draft had ἧν), as printed

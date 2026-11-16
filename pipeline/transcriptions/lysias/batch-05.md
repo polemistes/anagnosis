@@ -123,7 +123,7 @@
 45.16	αὑτῶν ἐλευθερίας καὶ τοῖς βουλομένοις δουλεύειν μετέδοσαν,
 45.17	τῆς δʼ ἐκείνων δουλείας αὐτοὶ μετέχειν οὐκ ἠξίωσαν. §2.65 ἔργοις
 45.18	δὲ μεγίστοις καὶ καλλίστοις ἀπελογήσαντο, ὅτι οὐ κακίᾳ τῇ
-45.19	αὐτῶν οὐδʼ ἀρετῇ τῶν πολεμίων πρότερον ἐδυστύχησεν
+45.19	αὑτῶν οὐδʼ ἀρετῇ τῶν πολεμίων πρότερον ἐδυστύχησεν
 45.20	ἡ πόλις· εἰ γὰρ στασιάσαντες πρὸς ἀλλήλους βίᾳ παρόντων
 45.21	Πελοποννησίων καὶ τῶν ἄλλων ἐχθρῶν εἰς τὴν αὑτῶν οἷοί
 45.22	τε ἐγένοντο κατελθεῖν, δῆλον ὅτι ῥᾳδίως ἂν ὁμονοοῦντες
@@ -157,13 +157,14 @@
 45.4	⟨τε⟩ added after τούς, as printed (apparatus "τε addidi"); τούς with the acute before the enclitic, as printed
 45.10	τὴν lower-case, as printed (the draft had Τὴν)
 45.17	§2.65 moved to Hude's line, after the full stop (his 65 stands beside 45.17); the check text begins it at ὅτι on 45.18
-45.19	⟨τῇ⟩ deleted: Hude does not print it (apparatus "ἀρετῇ ⟨τῇ⟩ Hertlein"); αὐτῶν (smooth breathing) as printed
+45.19	⟨τῇ⟩ deleted: Hude does not print it (apparatus "ἀρετῇ ⟨τῇ⟩ Hertlein")
 45.22	ῥᾳδίως with iota subscript, as printed
 45.2	ἀποθνῄσκειν checked: printed with iota subscript, as in the draft
 45.24	no square brackets printed on this line (OCR noise)
 45.25	no brackets printed: ζηλοῦνται (OCR read ζ as a round bracket)
 45.10	apparatus 10: the item (δὲ ⟨νέα⟩ vel ⟨νέα⟩ ἀνέστησαν Turr.) concerns the words of text line 11 (τείχη δὲ … ἀνέστησαν), number kept as printed; the two supplements are printed identically
 45.19	apparatus 19: προτερον printed without its accent (misprint, as printed)
+45.19	rev: αὑτῶν (rough breathing, as printed: the mark is the same as on 45.16 αὑτῶν, not the smooth one of οὐδʼ beside it); the earlier note "αὐτῶν (smooth breathing) as printed" was wrong
 
 === p-0046
 --- text
@@ -235,7 +236,7 @@
 47.8	εἰσιν ἢ ὥστε εἰδέναι οἵων πατέρων ἐστέρηνται, ἐξ ὧν δʼ
 47.9	οὗτοι γεγόνασιν, οἰκτίρω, ὅτι πρεσβύτεροι ἢ ὥστε ἐπιλαθέσθαι
 47.10	τῆς δυστυχίας τῆς ἑαυτῶν. §2.73 τί γὰρ ἂν τούτων ἀνιαρότερον
-47.11	γένοιτο, ἢ τεκεῖν μὲν καὶ θρέψαι καὶ θάψαι τοὺς αὐτῶν,
+47.11	γένοιτο, ἢ τεκεῖν μὲν καὶ θρέψαι καὶ θάψαι τοὺς αὑτῶν,
 47.12	ἐν δὲ τῷ γήρᾳ ἀδυνάτους μὲν εἶναι τῷ σώματι, πασῶν δʼ
 47.13	ἀπεστερημένους τῶν ἐλπίδων ἀφίλους καὶ ἀπόρους γεγονέναι,
 47.14	ὑπὲρ δὲ τῶν αὐτῶν πρότερον ζηλοῦσθαι καὶ νῦν ἐλεεῖσθαι,
@@ -280,6 +281,7 @@
 47.17	πότε as printed for the check text's πῶς (apparatus "πότε Mᶜ et marg. Ald.: πῶς rell."); χρὴ lower-case, as printed
 47.16	apparatus 16: τοσοῦτω X printed with the circumflex and without the iota subscript, copied as printed
 47.11	res: αὐτῶν (smooth breathing), as printed (the draft had αὑτῶν)
+47.11	rev: αὑτῶν restored (rough breathing, as printed: the same mark as 47.5 αὑτῶν, not the smooth one of 47.7 αὐτῶν); the "res:" note above was wrong
 
 === p-0048
 --- text
