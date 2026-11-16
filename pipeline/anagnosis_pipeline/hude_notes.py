@@ -36,6 +36,9 @@ ROOT = Path(__file__).resolve().parent.parent.parent
 PIPELINE = ROOT / "pipeline"
 DRAMA = PIPELINE / "transcriptions" / "drama"
 REACH = 2  # how many sections either side of the one named a lemma is looked for
+# Where Hude numbers the sections otherwise than the check text (he prints 13.65-66 of the vulgate
+# after 13.67-68 and numbers the four in his own order): the check text's section -> Hude's
+CHECK_TO_HUDE = {13: {65: 67, 66: 68, 67: 65, 68: 66}}
 
 
 def entry(speech: int) -> str:
@@ -93,7 +96,7 @@ def split_notes(paras: list[str]) -> tuple[list[str], list[tuple[str, list[str]]
 # --- the lemma in Hude's text --------------------------------------------------------------------
 
 _BOLD = re.compile(r"^\*\*(.+?)\*\*")
-_OMISSION = re.compile(r"\s*(?:\.\s?\.\s?\.|…|κτλ\.?|κ\.τ\.λ\.?)\s*")
+_OMISSION = re.compile(r"\s*(?:\.(?:\s?\.)+|…|κτλ\.?|κ\.τ\.λ\.?)\s*")  # Shuckburgh prints two dots
 
 
 def lemma_parts(paragraph: str) -> list[list[str]]:
@@ -230,7 +233,8 @@ def shuckburgh_lines(speech: int, sources: Path) -> dict[int, list[int]]:
         for m in pl["nums"]:
             if m % 5 == 0 and m != n and abs(m - n) <= 6:
                 n = m
-        out[n] = [int(toks[j]["sec"].split(".")[1]) for j in sorted(hits)]
+        renumber = CHECK_TO_HUDE.get(speech, {})
+        out[n] = [renumber.get(x, x) for x in (int(toks[j]["sec"].split(".")[1]) for j in sorted(hits))]
     return out
 
 

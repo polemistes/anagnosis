@@ -34,10 +34,30 @@ from .lucian_pages import SECTION_MARK
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 PIPELINE = ROOT / "pipeline"
-# Evident misprints in Hude's text: the batches keep what is printed; the text shows the right
-# reading and an apparatus note says so (the author's rule). Key: leaf.line -> (printed, right).
-MISPRINTS: dict[str, dict[str, tuple[str, str]]] = {
-    "lysias": {},
+# Evident misprints in Hude's print (the author's rule: keep to the printed edition; correct
+# evident misprints everywhere, the apparatus too, each with a note). The batches keep what is
+# printed; the merge puts the right reading in and says so in the apparatus of the section.
+# Text: (leaf.line, the printed words, the right words; the same number of words).
+MISPRINTS: dict[str, list[tuple[str, str, str]]] = {
+    "lysias": [
+        ("89.22", "ἔλεγετʼ,", "ἐλέγετʼ,"),                    # 8.8: the accent on the wrong syllable; his apparatus has ἐλέγετʼ
+        ("100.16", "Αυσιθέῳ", "Λυσιθέῳ"),                    # 10.12: a capital alpha for the lambda; his apparatus has Λυσιθέῳ
+        ("184.15", "πεπιστευμενους", "πεπιστευμένους"),      # 19.13: no accent (the word divided at the line's end)
+        ("202.2", "εστιν,", "ἐστιν,"),                        # 20.28: no breathing
+        ("205.21", "ἐνίκων καὶ,", "ἐνίκων, καὶ"),             # 21.4: the comma set after καὶ instead of before it
+        ("229.27", "ὀλιγαοχικὸς", "ὀλιγαρχικὸς"),            # 25.8: an omicron for the rho
+    ],
+}
+# Apparatus: (leaf.number of the item as the batch has it, the printed word, the right word).
+APPARATUS_MISPRINTS: dict[str, list[tuple[str, str, str]]] = {
+    "lysias": [
+        ("45.19", "προτερον", "πρότερον"),            # no accent
+        ("76.26", "συμβαλόμενυς", "συμβαλόμενος"),    # an upsilon for the omicron
+        ("77.3", "ἐφʼ ᾖ", "ἐφʼ ᾗ"),                   # a smooth breathing for the rough
+        ("146.27", "οὑτυσὶ", "οὑτοσὶ"),               # an upsilon for the omicron
+        ("211.16", "ούνεκα", "οὔνεκα"),               # no breathing (οὔνεκα L on leaves 213 and 215)
+        ("238.25", "ούνεκα", "οὔνεκα"),
+    ],
 }
 # The speeches' names for the book chooser: Hude's printed title (capitals without accents in
 # the print) in lower case with accents and breathings, the first word capitalised, his brackets
@@ -106,6 +126,7 @@ def assemble(pages: dict[str, dict], index: list[dict]) -> dict:
     units: list[dict] = []
     lines: dict[str, list[tuple[int, int, str]]] = {}
     titles: dict[int, list[str]] = {}
+    labels: dict[str, str] = {}
     problems: list[str] = []
     speech = 0
     sec: str | None = None
@@ -137,8 +158,9 @@ def assemble(pages: dict[str, dict], index: list[dict]) -> dict:
                     speech += 1
                     titles[speech] = []
                     sec, letter, in_title = None, 0, True
-                    if pending_labels:
-                        problems.append(f"{p['stem']}: a heading before a speech's title: {pending_labels}")
+                    if pending_labels and units:
+                        # a heading after a speech's last words (14.47: the laws, oaths and indictment read at the end)
+                        units[-1].setdefault("after", []).extend(pending_labels)
                         pending_labels.clear()
                 titles[speech].append(text.strip())
                 pending_para = False
@@ -153,6 +175,7 @@ def assemble(pages: dict[str, dict], index: list[dict]) -> dict:
             seen.add(key)
             lines[key] = []
             if text.startswith(LABEL):
+                labels[key] = text[len(LABEL):].strip()
                 pending_labels.append(text[len(LABEL):].strip())
                 pending_para = False
                 continue
@@ -207,11 +230,13 @@ def assemble(pages: dict[str, dict], index: list[dict]) -> dict:
             if pending_para:
                 problems.append(f"{p['stem']} {key}: ¶ before a line without words")
                 pending_para = False
-    if pending_labels:
-        problems.append(f"a heading after the last words of the text: {pending_labels}")
+    if pending_labels and units:
+        units[-1].setdefault("after", []).extend(pending_labels)
     # long sections divided at sentence ends; the headings stay before the part they stood before
+    # (after the last part, for a heading that ends a speech)
     before = {id(u): u["before"] for u in units}
     firsts = [(ui, u["words"][0][1]) for ui, u in enumerate(units) if u["words"] and u["before"]]
+    lasts = [(ui, u["words"][-1][1], len(u["words"]) - 1, u["after"]) for ui, u in enumerate(units) if u["words"] and u.get("after")]
     old_lines = lines
     new_units, lines = split_long(units, old_lines)
     for u in new_units:
@@ -219,7 +244,10 @@ def assemble(pages: dict[str, dict], index: list[dict]) -> dict:
     for ui, key in firsts:
         k = next(i for i, (a, b, _w) in enumerate(old_lines[key]) if a == ui and b == 0)
         new_units[lines[key][k][0]]["before"] = before[id(units[ui])]
-    return {"units": new_units, "lines": lines, "titles": titles, "problems": problems}
+    for ui, key, wi, after in lasts:
+        k = next(i for i, (a, b, _w) in enumerate(old_lines[key]) if a == ui and b == wi)
+        new_units[lines[key][k][0]]["after"] = after
+    return {"units": new_units, "lines": lines, "titles": titles, "labels": labels, "problems": problems}
 
 
 def _letters(s: str) -> str:
@@ -239,22 +267,46 @@ def speech_title(lines: list[str]) -> tuple[str, str]:
 
 
 def correct_misprints(slug: str, text: dict, problems: list[str]) -> list[tuple[int, str]]:
-    """The right reading in the text where the edition misprints a word (MISPRINTS), and for each
-    an apparatus note on its section, marked as this edition's: [(unit index, note)]."""
+    """The right reading in the text where the edition misprints (MISPRINTS), and for each an
+    apparatus note on its section, marked as this edition's: [(unit index, note)]."""
     notes: list[tuple[int, str]] = []
-    for key, (printed, right) in MISPRINTS.get(slug, {}).items():
-        done = False
-        for k, (u, wi, w) in enumerate(text["lines"].get(key, [])):
-            if printed in w:
-                text["lines"][key][k] = (u, wi, w.replace(printed, right))
-                word, wkey = text["units"][u]["words"][wi]
-                text["units"][u]["words"][wi] = (word.replace(printed, right), wkey)
-                notes.append((u, f"{right}: Hude prints {printed}, a misprint; corrected in this edition."))
-                done = True
-                break
-        if not done:
+    for key, printed, right in MISPRINTS.get(slug, []):
+        want, new = printed.split(), right.split()
+        entries = text["lines"].get(key, [])
+        at = next((i for i in range(len(entries) - len(want) + 1) if [e[2] for e in entries[i:i + len(want)]] == want), None)
+        if at is None or len(want) != len(new):
             problems.append(f"misprint {key}: “{printed}” not found on the line")
+            continue
+        for k, w in enumerate(new):
+            u, wi, _old = entries[at + k]
+            entries[at + k] = (u, wi, w)
+            text["units"][u]["words"][wi] = (w, text["units"][u]["words"][wi][1])
+        bare = lambda x: x.strip(",.·;")  # noqa: E731
+        if len(want) == 1:
+            notes.append((entries[at][0], f"{bare(right)}: Hude prints {bare(printed)}, a misprint; corrected in this edition."))
+        else:
+            notes.append((entries[at][0], f"{right}: Hude prints {printed}, a misprint; corrected in this edition."))
     return notes
+
+
+def correct_apparatus(slug: str, pages: dict[str, dict], problems: list[str]) -> int:
+    """The right word in an apparatus item where Hude's apparatus misprints one
+    (APPARATUS_MISPRINTS), with the note in brackets after the item. Returns how many."""
+    done = 0
+    for key, printed, right in APPARATUS_MISPRINTS.get(slug, []):
+        leaf, _, number = key.partition(".")
+        block = pages.get(f"p-{int(leaf):04d}")
+        hit = False
+        for k, (n, item) in enumerate(block["apparatus"] if block else []):
+            if n == number and printed in item:
+                block["apparatus"][k] = (n, item.replace(printed, right, 1)
+                                         + f" [{right}: Hude's apparatus prints {printed}, a misprint; corrected in this edition.]")
+                hit = True
+                done += 1
+                break
+        if not hit:
+            problems.append(f"apparatus misprint {key}: “{printed}” not found in an item numbered {number}")
+    return done
 
 
 # --- the apparatus ---------------------------------------------------------------------------
@@ -281,6 +333,7 @@ def place_apparatus(pages: dict[str, dict], index: list[dict], text: dict) -> tu
             continue
         leaf = p["leaf"]
         keys = [k for k, _t in block["text"] if KEY.match(k)]
+        noted = {m_.group(1) for x in block["notes"] if (m_ := re.match(r"^(\d+\.\d+)", x))}
         last_unit = None
         for n, item in block["apparatus"]:
             m = APP_KEY.match(n)
@@ -305,9 +358,17 @@ def place_apparatus(pages: dict[str, dict], index: list[dict], text: dict) -> tu
             mo = ORDINAL.match(item)
             nth = ORDINALS[mo.group(1)] if mo else 0
             rest = item[mo.end():] if mo else item
-            first, last = lemma_of(rest)
+            # Hude writes a lemma's range with dots ("τούτῳ . . . εἰ] οὐδὲ C")
+            first, last = lemma_of(re.sub(r"\s*\.\s\.\s\.\s*", " — ", rest))
             runs = greek_runs(rest)
             where = f"{leaf}.{n}"
+            if not own and first and ka in text.get("labels", {}) and _sk(" ".join(first)) in _sk(text["labels"][ka]):
+                # an item on a heading (μάρτυρες] spatium X): the part the heading stands before
+                u = next((lines[k][0][0] for k in ordered[ia:] if lines[k]), None)
+                if u is not None:
+                    placed.append((u, item))
+                    last_unit = u
+                    continue
             hit = None
             exact = False
             if first:
@@ -339,9 +400,15 @@ def place_apparatus(pages: dict[str, dict], index: list[dict], text: dict) -> tu
                         hit = got[0]
                 later = any(_find(r, own, exact=True) is not None for r in runs[1:])
                 bracket = "]" in rest.split(":")[0] and not re.match(r"^\S*\[", rest)
-                if not exact and (bracket or (later and ":" in rest)):
+                # the hands of one manuscript are given in their order, the first hand's reading
+                # first ("κοινὰ X¹: κοινὴ Xˢ"): there the text has the later reading by rule
+                hands = re.match(r"^[^:]*?\s[A-Za-z]¹(?:\s[A-Za-z]¹?)*\s*:", rest) is not None
+                if last and hit is not None and bracket:
+                    bracket = False  # a range whose first word stands on the line
+                if not exact and not hands and (bracket or (later and ":" in rest)):
                     why = "the lemma] is not in the text" if bracket else "a later reading of the item stands in the text"
-                    misses.append(f"SERIOUS {where}: Hude's reading “{' '.join(first)}” is not on the line as written ({why}) "
+                    mark = " (the line is noted in the batch)" if any(k in noted for k in ordered[ia: ib + 1]) else ""
+                    misses.append(f"SERIOUS {where}{mark}: Hude's reading “{' '.join(first)}” is not on the line as written ({why}) "
                                   f"(the line: {' '.join(c[2] for c in own)}): {item}")
                 elif hit is None:
                     misses.append(f"WEAK {where}: “{' '.join(first)}” matches nothing on the line: {item}")
@@ -526,6 +593,51 @@ def write_translation(slug: str, sources: Path, out: Path, units: list[dict], pr
     return len(rows)
 
 
+def write_gillies(slug: str, out: Path, units: list[dict], problems: list[str], drafts: bool = False) -> int:
+    """eng-gillies.txt: Gillies's version (1778) of the speeches the 1898 translation lacks, from
+    the checked batches of the entries lysias-gillies-NN (kind intro). It is a free version without
+    section numbers: each of his paragraphs is filed under the section of Hude's text where it
+    begins, which an alignment pass writes at the paragraph's head as `§7 ` (PLAN-lysias.md,
+    step 8); a paragraph without the mark runs on in the segment before; his footnotes
+    ([Note: …]) and the oration's heading are not shipped. A speech whose paragraphs carry no
+    marks yet is left out and named."""
+    from .drama import GILLIES_EDITION, LYSIAS_GILLIES
+    from .hude_notes import paragraphs
+
+    have = {base(u["n"]) for u in units}
+    rows: list[str] = []
+    done = []
+    for speech in sorted(LYSIAS_GILLIES):
+        paras = paragraphs(f"lysias-gillies-{speech:02d}", "intro", drafts)
+        if paras is None:
+            continue
+        segs: list[list] = []
+        for p_ in paras:
+            if p_.startswith("#") or p_.startswith("[Note:"):
+                continue
+            m = re.match(r"^§(\d+)\s+", p_)
+            if m:
+                segs.append([int(m.group(1)), p_[m.end():]])
+            elif segs:
+                segs[-1][1] += " " + p_
+        if not segs:
+            problems.append(f"Gillies, speech {speech}: transcribed, but its paragraphs are not yet placed (§N at each paragraph's head)")
+            continue
+        for n, text in segs:
+            if f"{speech}.{n}" not in have:
+                problems.append(f"Gillies: section {speech}.{n} is not in the Greek")
+            rows.append(f"{speech}.{n}\t{text}")
+        done.append(speech)
+    if rows:
+        meta = {"title": PLAYS[slug].title_en, "translator": "John Gillies (1778)", "lang": "eng",
+                "source": f"{GILLIES_EDITION} (speeches {', '.join(str(x) for x in done)}); transcribed from the Internet Archive scan "
+                          "bim_eighteenth-century_the-orations-of-lysias-a_lysias_1778; a free version, laid beside the Greek by paragraphs",
+                "license": "Public domain"}
+        (out / "eng-gillies.txt").write_text("\n".join(_meta_lines(meta) + [""] + rows) + "\n", encoding="utf-8")
+        print(f"wrote eng-gillies.txt: {len(rows)} paragraphs of speeches {done}")
+    return len(rows)
+
+
 # --- merge -----------------------------------------------------------------------------------
 
 def base(n: str) -> str:
@@ -547,6 +659,7 @@ def merge(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path | No
     problems = list(text["problems"])
     units = text["units"]
     misprint_notes = correct_misprints(slug, text, problems)
+    correct_apparatus(slug, pages, problems)
     out = texts / slug
     out.mkdir(parents=True, exist_ok=True)
 
@@ -595,6 +708,8 @@ def merge(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path | No
         if u["para"]:
             doc.items.append(Speaker(""))
         doc.items.append(Line(u["n"], " ".join(w for w, _k in u["words"])))
+        for heading in u.get("after", []):
+            doc.items.append(Stage(heading))
     write_file(out / "grc.txt", doc)
     print(f"wrote {out / 'grc.txt'}: {len(units)} lines ({len(have)} sections of {len(want)}), "
           f"{len(text['titles'])} speeches, {sum(1 for u in units if u['para'])} paragraphs, from {len(pages)} pages")
@@ -627,6 +742,7 @@ def merge(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path | No
         n = tokens(slug, doc, sources, out, lexicon, build)
         print(f"review list: {n} words in {build / f'{slug}-review.tsv'}")
         write_translation(slug, sources, out, units, problems)
+        write_gillies(slug, out, units, problems, drafts)
         from . import hude_notes
 
         hude_notes.write(texts, slug, sources, build, drafts)

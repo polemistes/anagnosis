@@ -822,8 +822,19 @@ speech's part is yours (the draft has cut the rest; check it).
   without a number** ("**ἐνόμιζον μὲν οὖν** ‘well, then, I *used* to think.’"): a paragraph of
   its own under the same heading, the lemma in `**…**`. The draft bolded the Greek that opens such
   a paragraph: check that it is in the bold type, and that the bold ends where the print's does.
-* His single quotation marks ‘ ’ around a rendering are kept; words he prints in italics inside
-  it are `*…*`.
+* His single quotation marks ‘ ’ around a rendering are kept (the OCR reads them as “ ” ' " and
+  sets spaces inside them: `‘pettifogging’ or ‘litigious.’`); words he prints in italics are
+  `*…*` (*i.e.*, *Vide*, Latin quotations). **Greek in the bold type inside a note** (a further
+  word of the line taken up in passing: "… is in the genitive, **κακηγορίας** ‘for slander.’") is
+  bold too; Greek in the ordinary type is plain.
+* **His introduction to the speech stands in square brackets** ("[The last case arose … *relicta
+  non bene parmula*.]"): keep the brackets as printed, at the start of its first paragraph and the
+  end of its last.
+* **The figures in the outer margin beside the notes (22, 23) are the pages of his text**: not
+  notes, left out (the draft has dropped those it recognised; delete one that stands at the end
+  of a line of the draft). His references to his own lines ("see ii. l. 216", "Cf. i. l. 3":
+  his speech number, "l.", the line) are copied as printed; the OCR reads the "l." as 1 or I.
+* A range in a note's number is printed with a hyphen ("4-5.", "19-21."): `## 4-5`.
 
 **Gillies's translation** (`lysias-gillies-NN`, `intro-NN.md`). An English version of 1778 in
 one column, a clean bitonal scan, **printed with the long s**. Everything is written in modern

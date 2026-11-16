@@ -175,6 +175,21 @@ def _region(play: Play, kind: str, leaf: int, lines: list[dict], size: tuple[int
         # Shuckburgh's running head on a right-hand page: the speech's numeral and the page number ("IV. 221")
         body = [l for l in body if not (l["bbox"][1] < 0.1 * H and len(l["words"]) <= 3
                                         and re.search(r"\d{3}", " ".join(w["text"] for w in l["words"])))]
+        # the pages of his text, printed in the outer margin beside the notes ("22", "23"): a figure
+        # standing beyond the column's edge at a line's end or start
+        if body:
+            ends = sorted(l["bbox"][2] for l in body if not re.fullmatch(r"\d{1,3}", l["words"][-1]["text"]))
+            starts = sorted(l["bbox"][0] for l in body if not re.fullmatch(r"\d{1,3}", l["words"][0]["text"]))
+            right = ends[int(0.9 * len(ends))] if ends else W
+            left = starts[len(starts) // 10] if starts else 0
+            for l in body:
+                ws = l["words"]
+                if len(ws) > 1 and re.fullmatch(r"\d{1,3}", ws[-1]["text"]) and ws[-1]["bbox"][0] > right - 5:
+                    l["words"] = ws[:-1]
+                elif len(ws) > 1 and re.fullmatch(r"\d{1,3}", ws[0]["text"]) and ws[0]["bbox"][2] < left + 5:
+                    l["words"] = ws[1:]
+            body = [l for l in body if not (len(l["words"]) == 1 and re.fullmatch(r"\d{1,3}", l["words"][0]["text"])
+                                            and (l["bbox"][0] > right - 5 or l["bbox"][2] < left + 5))]
         body = _own_oration(play, leaf, body)
     if play.intro_foot_columns and kind == "intro":
         # Morgan's introductions: the text in one column, his footnotes under it in two (found as
@@ -871,12 +886,18 @@ def long_s(word: str, english: set[str]) -> str:
     becomes an s only where the word as read is no English word and the word with s is one (the
     first such reading, the fewest letters changed); the ligatures ct and st are plain letters."""
     w = word.replace("ſ", "s").replace("ﬅ", "st").replace("ﬆ", "st").replace("\ueada", "ct")
+    w = re.sub(r"^\{(?=[a-z])", "s", w)  # a long s at a word's head read as a brace ("{trumpet")
     m = re.match(r"^([^A-Za-z]*)([A-Za-z]+(?:[-'’][A-Za-z]+)*)([^A-Za-z]*)$", w)
     if not m or "f" not in m.group(2).lower():
         return w
     core = m.group(2)
     if core.lower() in english:
         return w
+    if "fl" in core:
+        # the double long s before i, read as the ligature fl ("impoflible", "poflefs")
+        double = long_s(m.group(1) + core.replace("fl", "ff") + m.group(3), english)
+        if re.sub(r"[^A-Za-z]", "", double).lower() in english:
+            return double
     spots = [i for i, c in enumerate(core) if c == "f"]
     if len(spots) > 4:
         return w
@@ -933,8 +954,9 @@ def analyse_page(play: Play, kind: str, leaf: int, voc, names: set[str], scan: s
                 w["text"] = long_s(w["text"], voc[2])
                 core = re.sub(r"[^A-Za-z]", "", w["text"]).lower()
                 # a word that is English with f and with s (fame / same, fight / sight): the OCR cannot tell
-                if "f" in core and core in voc[2] and any(
-                        (core[:i] + "s" + core[i + 1:]) in voc[2] for i, c in enumerate(core) if c == "f"):
+                # (the long s never ends a word; "for", "from", "after", "before" are too common to list)
+                if "f" in core and core in voc[2] and core not in ("for", "from", "after", "before", "few", "fell") and any(
+                        (core[:i] + "s" + core[i + 1:]) in voc[2] for i, c in enumerate(core[:-1]) if c == "f"):
                     doubtful.append(core)
     order, mid = _region(play, kind, leaf, lines, img.size, scan)
     omitted: list[tuple[int, int]] = []

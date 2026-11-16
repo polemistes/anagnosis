@@ -326,20 +326,38 @@ class Merge(unittest.TestCase):
         self.assertEqual([m.split(":")[0] for m in misses if m.startswith("SERIOUS")], ["SERIOUS 41.2"])
         self.assertFalse([m for m in misses if "40.1" in m or "40.2" in m])
 
-    def test_misprint_table_is_keyed_by_line(self):
+    def test_misprints(self):
         from anagnosis_pipeline import hude_merge
 
         old = dict(hude_merge.MISPRINTS)
+        olda = dict(hude_merge.APPARATUS_MISPRINTS)
         try:
-            hude_merge.MISPRINTS["t"] = {"40.2": ("μικρὰς", "μακρὰς"), "40.9": ("x", "y")}
+            hude_merge.MISPRINTS["t"] = [("40.2", "μικρὰς", "μακρὰς"), ("40.4", "ἀκηκόατε· καί", "ἀκηκόατε, καὶ"), ("40.9", "x", "y")]
             problems: list[str] = []
             notes = hude_merge.correct_misprints("t", self.text, problems)
-            self.assertEqual(notes, [(0, "μακρὰς: Hude prints μικρὰς, a misprint; corrected in this edition.")])
+            self.assertEqual(notes, [(0, "μακρὰς: Hude prints μικρὰς, a misprint; corrected in this edition."),
+                                     (2, "ἀκηκόατε, καὶ: Hude prints ἀκηκόατε· καί, a misprint; corrected in this edition.")])
             self.assertEqual(self.text["units"][0]["words"][-2][0], "μακρὰς")
+            self.assertIn("ἀκηκόατε, καὶ", " ".join(w for w, _k in self.text["units"][2]["words"]))
+            self.assertEqual(len(problems), 1)
+            hude_merge.APPARATUS_MISPRINTS["t"] = [("40.2", "μακρὰς", "μακράς"), ("40.2", "nothing", "x")]
+            problems = []
+            self.assertEqual(hude_merge.correct_apparatus("t", self.pages, problems), 1)
+            self.assertEqual(self.pages["p-0040"]["apparatus"][2][1],
+                             "μικρὰς Xᶜ: μακράς C H [μακράς: Hude's apparatus prints μακρὰς, a misprint; corrected in this edition.]")
             self.assertEqual(len(problems), 1)
         finally:
-            hude_merge.MISPRINTS.clear()
-            hude_merge.MISPRINTS.update(old)
+            hude_merge.MISPRINTS.clear(); hude_merge.MISPRINTS.update(old)
+            hude_merge.APPARATUS_MISPRINTS.clear(); hude_merge.APPARATUS_MISPRINTS.update(olda)
+
+    def test_heading_at_a_speechs_end(self):
+        # the documents read after a speech's last words: a heading before the next speech's title
+        batch = BATCH.replace("40.6\tἀκούετε, ὦ ἄνδρες, ὅτι κελεύει.\n", "40.6\tἀκούετε, ὦ ἄνδρες, ὅτι κελεύει.\n40.7\t[label] ΝΟΜΟΙ. ΟΡΚΟΙ.\n")
+        with tempfile.TemporaryDirectory() as t:
+            (Path(t) / "batch-01.md").write_text(batch, encoding="utf-8")
+            text = assemble(read_batches(Path(t)), INDEX)
+        self.assertEqual(text["problems"], [])
+        self.assertEqual([(u["n"], u.get("after")) for u in text["units"] if u.get("after")], [("1.3b", ["ΝΟΜΟΙ. ΟΡΚΟΙ."])])
 
 
 if __name__ == "__main__":
@@ -388,7 +406,7 @@ class Commentaries(unittest.TestCase):
         english = {"should", "possession", "himself", "of", "defence", "said", "first", "same", "fame", "self-defence"}
         for read, want in (("fhould", "should"), ("ſhould", "should"), ("poffeffion", "possession"), ("himfelf,", "himself,"),
                            ("of", "of"), ("defence", "defence"), ("faid", "said"), ("firft", "first"), ("fame", "fame"),
-                           ("Athenians!", "Athenians!"), ("xyzf", "xyzf")):
+                           ("Athenians!", "Athenians!"), ("xyzf", "xyzf"), ("poffeflion", "possession"), ("{aid", "said")):
             self.assertEqual(long_s(read, english), want, read)
 
     def test_own_oration(self):

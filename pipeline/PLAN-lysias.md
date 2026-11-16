@@ -206,19 +206,158 @@ built in this stage.
 7. **Words and syntax.** The token step for 34 GLAUx files (see "Syntax"), the analyser for the
    rest, the review list `pipeline/build/lysias-review.tsv`, `HAND_ANALYSES` / `LEMMA_FIXES` in
    drama_fixes.py.
-8. **Translations.** The 1898 version from the Gutenberg text by speech and section (its
-   headings are "ORATION II." … with the OCR's slips "XXXL", "XXXIL"; sections are numbered in
-   the text); Gillies's speeches by the prose route from the scan (long s; a free version
-   without section numbers: how it is laid beside the Greek is a question for the author).
-9. **Commentaries and introductions.** Adams, Morgan, Shuckburgh by the prose route
-   (`drama-prose`, a section per editor in `INSTRUCTIONS-prose.md`; each has a general
-   introduction and one to each speech); notes keyed `## 12.7`.
+8. **Translations.** (a) The 1898 version: `hude_merge.translation_1898` reads the Gutenberg
+   text by speech and section (headings "ORATION II." …, with the transcription's "XXXL." and
+   "XXXIL."; most section numbers stand in the text, a segment runs from one printed number to
+   the next): `eng-1898.txt`. At 13.65–68 it follows the same order as Hude, so nothing is
+   re-filed. (b) Gillies (1778) for the six speeches the 1898 version lacks: see "Gillies"
+   below: transcribed by the prose route, then laid beside the Greek by paragraphs
+   (`hude_merge.write_gillies`: `eng-gillies.txt`).
+9. **Commentaries and introductions.** See "The commentaries" below: every speech's commentary
+   an entry of the prose route, 74 batches; first check and second reading by agents
+   (`lysias-prose.workflow.js`); `merge-lysias` then writes `commentary-adams.md`,
+   `commentary-morgan.md`, `commentary-shuckburgh.md`, `introduction.md` and `appendix.md`
+   (`hude_notes.py`) and the log `pipeline/build/lysias-notes.log`.
 10. **sigla.md, glossary.md, shortdefs.tsv, aliases.tsv, about.md** (no `google_play`; a
     `product_id` only once the author has confirmed it), the texts/README.md section.
 11. **Build and emulator check** (`build --only lysias`, `check`, `catalog`, the pack; the
     emulator check of PLAN-drama.md step 10: a book chooser of 34 speeches, a heading inside a
     speech, a hypothesis, a speech without English, the apparatus, the syntax label). Memory
     rules as PLAN-hermas.md.
+
+## The commentaries (step 9)
+
+One commentary to a speech, from three school editions; nineteen speeches have one. Each speech
+is **an entry of the prose route of its own** (`drama.LYSIAS_NOTES`; `drama-prose lysias-12
+notes|intro fetch|ocr|draft`; batches `pipeline/transcriptions/drama/lysias-12/notes-NN.md`,
+`intro-NN.md`; crops `pipeline/build/drama-prose/lysias-12/`; checker `check-drama-prose
+lysias-12 <file>`), because the prose route's checks expect a note's numbers to run upwards
+within an entry, as a play's do. The agents' brief is the section "Lysias: the three
+commentaries, their introductions, and Gillies's translation" of
+`pipeline/transcriptions/drama/INSTRUCTIONS-prose.md`.
+
+| book | scan (leaf = page + …) | what ships | what is left out |
+|---|---|---|---|
+| **Adams**, *Lysias: Selected Speeches*, 1905 | `lysiasselectedsp0000char` (416 leaves, + 8) | his general introduction pp. 9–42 (leaves 17–50: life, works, style, the revolutions of 411 and 404); for 12, 16, 19, 22, 24, 25, 32, 34 the introduction before each speech (with its outline and "Comments on argument and style") and the notes under his text; Appendix I–V pp. 327–362 (leaves 335–370: Chronological outline, Athenian legal procedure, Rhetorical terms, Money and prices at Athens, The manuscripts): his notes cite its numbered paragraphs ("App. § 57. 3") | his Greek text; Appendix VI Bibliography; VII Critical notes (pp. 363–389: on his own text); the indices; the preface |
+| **Morgan**, *Eight Orations*, 1895 (the scan is the 1900 printing) | `eightorations00lysi` (296 leaves, + 64) | for 7, 23, 31 the introduction before each speech and the notes under his text | his general introduction (pp. vii–lii), his other five speeches (12, 16, 22, 24, 32: Adams's are used), his Greek text, the appendices and indices |
+| **Shuckburgh**, *Lysiae Orationes XVI*, 1882 | `orationes16witha00lysiuoft` (430 leaves, + 38) | for 5, 9, 10, 13, 14, 17, 28, 30 the notes at the back (pp. 193 ff.), with his introduction to each speech, which stands in square brackets at the head of its notes | his general introduction, his Greek text with its English summaries (read only to map his line numbers), his other eight speeches, the appendices and indices |
+
+Leaves of each speech's parts: `drama.LYSIAS_NOTES` (speech: editor, introduction leaves, notes
+leaves, last section, the commentator's text leaves). Sizes: Adams 353 pages in 51 batches,
+3,888 flags; Morgan 54 pages, 9 batches, 898 flags; Shuckburgh 86 pages, 14 batches, 1,011
+flags: 493 pages, 74 batches, 5,797 flags (12 a page).
+
+**The pages.** Adams and Morgan (`notes_layout="college"`): the editor's Greek at the top of the
+page in large type, the notes under it in two columns in small type, no rule; found as the
+earlier two-column commentary under verses is (the first three rows where a left and a right
+column stand side by side). A note opens an indented paragraph with its **section number**;
+further lemmas follow after a dash, each made a paragraph of its own; the lemma runs to its
+colon (`college_lemma`). Morgan's footnotes to his introductions stand in two columns under the
+text (`intro_foot_columns`). Shuckburgh (`notes_layout="back"`): one column; a speech's notes
+begin under "ORATION IV. [10.]" (his number, then the usual one), on a page that may also hold
+the end of the speech before: only this speech's part is taken (`_own_oration`); the figures in
+the outer margin are the pages of his text and are dropped; a note opens with **the line number
+of his own text**, counted through the speech.
+
+**Every note ends on a reference speech.section with its lemma** (`hude_notes.py`, run by
+`merge-lysias`). Adams's and Morgan's numbers are sections. Shuckburgh's are lines of his own
+text: his text pages (leaves in `LYSIAS_NOTES`) are read by Tesseract and matched to the check
+text, which gives the sections of the words on each of his lines (`shuckburgh_lines`; for speech
+10: 212 lines, the printed fives agreeing with the count; 13.65–68 renumbered to Hude's order).
+Then, for all three, **the lemma decides**: it is looked for in the section named, then in the two
+sections either side (Hude marks the line where a section begins, the school editions follow the
+vulgate division, and the two differ by some words at many section starts), and the note is
+filed where its lemma stands. **A lemma that is not in Hude's text** (the commentator reads
+otherwise than Hude, or abbreviates) keeps the section the commentator names and its lemma as he
+prints it; it is listed in `pipeline/build/lysias-notes.log` (`MISS`), as are the notes moved to
+a neighbouring section (`NEAR`), for one reader to go through after the batches are checked. The
+trial merge on the unchecked drafts: 2,761 paragraphs under 641 sections; 192 moved by their
+lemma, 309 lemmas not found (most of them OCR damage in the draft's lemma; the number to look at
+is the one after the check).
+
+**The introduction** (`introduction.md`): Adams's general introduction, then a chapter for each
+of the nineteen speeches that has one, in the order of the speeches, headed with the speech's
+number, English name and commentator ("# 12. Against Eratosthenes (Charles Darwin Adams)").
+**The appendix** (`appendix.md`): Adams's Appendix I–V.
+
+**Pilot** (four pages checked by the brief by the set-up session; their batch files carry the
+answers): Adams p-0069 and p-0078 (speech 12), Morgan p-0172 (speech 23), Shuckburgh p-0259
+(speech 10). What they showed, all now in the brief or the tool: the OCR knows no italics and
+misreads italic words ("7 am guilty", "20 go", "27 seemed"): the columns must be read through,
+not only the flags; Adams's braced displays and spaced colons; a page that opens with a dash and
+a lemma opens a paragraph of the note before, not a run-on; figures of references misread (GMT.
+592 as 502, § 8 as "καὶ ὃ", 16. 8 as "τό. 8"); a bold lemma read in Latin letters is not cut
+("— kal: αἴϑ8ο." for — **καί**: *also*.); Shuckburgh's margin figures, his two dots of omission,
+his bracketed introduction, his bold Greek inside a note.
+
+## Gillies (step 8)
+
+John Gillies, *The Orations of Lysias and Isocrates*, London 1778 (scan
+`bim_eighteenth-century_the-orations-of-lysias-a_lysias_1778`, 676 leaves, a bitonal film scan
+at 800 ppi, clean; the jp2 zip is 8 GB, so leaves are fetched one by one). **What he really has**
+(his table of contents, and the first pages of six orations looked at on the page images): of
+Lysias eighteen speeches, in this order: 2 (p. 81), 14 (195), 13 (233), 12 (257), 25 (285),
+34 (319), 21 (329), 26 (341), 31 (353), 16 (365), 7 (377), 17 (389), 19 (399), 1 (419), 4 (433),
+3 (439), 32 (453), 10 (465); each has an introduction of his own before it (not taken). Twelve of
+them the 1898 version covers; **Gillies is needed for six: 1, 3, 4, 21, 26, 34**. So speech 21 is
+his "Defence of a Citizen accused of receiving a Bribe" (confirmed: it opens "I had no sooner
+become of age, under the archonship …"), and **speech 4 has a translation after all** (his
+"Defence … of a Citizen accused of giving a Wound from Malice aforethought"): the speeches
+without English are eight, not nine: 6, 8, 11, 15, 18, 20, 27, 29. Leaves (page + 175 up to
+p. 350, + 174 from p. 419): 1: 593–604; 3: 613–625; 4: 607–612; 21: 504–513; 26: 516–525;
+34: 494–499 (`drama.LYSIAS_GILLIES`; entries `lysias-gillies-NN`, kind `intro`).
+
+**The sample**: speech 4 (six pages) fetched, read and drafted by the prose route
+(`transcriptions/drama/lysias-gillies-04/intro-01.md`, 93 flags). The print has the long s:
+`drama_prose.long_s` writes it s wherever that turns a non-word into an English word ("fhould",
+"poffeffion", "impoflible"); a word that is English both ways (same/fame, so/fo, sight/fight) it
+cannot decide, and the draft lists those per page for the agent. Tesseract garbles the spaced
+capitals of the title and the ct ligature; the body reads well.
+
+**How it is laid beside the Greek** (proposed; For the author). Gillies is a free version without
+section numbers, in long paragraphs, and he recasts sentences; the 1898 version by contrast
+follows the sections. So: by paragraph. After the transcription is checked, **an alignment
+pass** (one agent per speech, with Hude's Greek of that speech and the checked English; proper
+names, numbers and the order of events fix the places) writes at the head of each of Gillies's
+paragraphs the section of Hude's text where it begins (`§7 `); a paragraph that begins in the
+middle of a section takes that section; the merge files each paragraph under its section
+(`eng-gillies.txt`) and the reader shows it beside the Greek from that section on. Nothing is
+cut, reordered or reworded; where Gillies leaves something out or adds, the paragraph simply
+runs on. `about.md` says that these six are in a free eighteenth-century version.
+
+## The reader (not changed in this stage; `app/` untouched)
+
+Two things the reader needs for this text; both are small and neither changes another text.
+
+1. **The syntax label by speech.** Today `AnagnosisRepository` reads the meta key `syntax` once
+   (`automaticSyntax = selectMeta("syntax") == "automatic"`, AnagnosisRepository.kt line 136) and
+   uses it in three places: the word sheet's role line ("… (automatic)", line 169), the syntax
+   screen (`SyntaxScreen(…, automatic = data.automaticSyntax)`, ReaderScreen.kt line 979) and the
+   search screen's remark on lemma search (SearchScreen.kt line 390). The built database now also
+   carries the meta key **`syntax_by_book`** for a text that has one: `"1=manual 14=manual
+   15=manual 23=manual 24=manual 12=none 13=none 19=none"` (the books that differ from the
+   text's own `syntax` value). The change: `WorkData` gets `syntaxByBook: Map<Int, String>`
+   (parsed from that key; empty for every other text) and a function `automaticSyntaxAt(nInt:
+   Long): Boolean` = `when (syntaxByBook[bookOf(nInt)]) { "manual" -> false; "none" -> false;
+   null -> automaticSyntax; else -> true }`; the word sheet and the syntax screen call it with
+   the token's line instead of reading `automaticSyntax`; the search remark stays as it is (the
+   text as a whole is mostly automatic). A speech marked `none` has no sentence ids on its
+   tokens, so the reader already offers no syntax there (the Syntax button is shown only for a
+   token with a sentence): nothing to do but check it on the emulator. The pipeline side is
+   done: `hude_merge.merge` writes `# syntax-by-book: …` into grc.txt and `build.build_work`
+   copies it into `meta` (other texts have no such line and get no such key).
+2. **The chooser of 34 speeches.** `WorkData.books` (Models.kt line 100) already builds the
+   list from the level-1 sections, with each section's label (`"12 · Κατὰ Ἐρατοσθένους τοῦ
+   γενομένου …"`), but marks a book `named` only for a verse-numbered text (the New Testament);
+   for a text numbered book.line the chooser shows the number alone, as for the Odyssey's
+   books. The change: `named = verses || label is not just the number` (or: `named` when the
+   section's label holds " · " and a name after it), so that the chooser lists "12 · Κατὰ
+   Ἐρατοσθένους …"; the list must scroll (34 rows; the New Testament's 27 already do) and a
+   long name must wrap or be cut with an ellipsis (the longest is 67 letters). The True Story's
+   two books ("1 · Α") would then show their label too, which is what its section label says.
+   To check on the emulator with the rest of step 11: the `!` lines (headings inside a speech)
+   in prose, a hypothesis (section 0, shown as "§ 0": perhaps better without a number), a speech
+   without English, a speech without syntax.
 
 ## Hand-over: the agents' runs
 
@@ -286,7 +425,83 @@ reviewed with the others: it has had no second reader.
 How far the two second passes go is step 5's decision: both on batches 01–08 first, their
 yield written under Decisions.
 
+**The commentaries and introductions** (`pipeline/transcriptions/lysias/lysias-prose.workflow.js`;
+model opus, general-purpose; a first check and, by the experience of the two earlier
+commentaries, **a second reading of every batch**: `"review": true`). One run per editor keeps
+the waves small:
+
+```json
+{ "scratch": "/home/proteus/koding/anagnosis/pipeline/build/agent-scratch", "atOnce": 8, "review": true,
+  "jobs": [
+    {"entry": "lysias-07", "file": "intro-01"}, {"entry": "lysias-07", "file": "notes-01"}, {"entry": "lysias-07", "file": "notes-02"},
+    {"entry": "lysias-07", "file": "notes-03"}, {"entry": "lysias-23", "file": "intro-01"}, {"entry": "lysias-23", "file": "notes-01"},
+    {"entry": "lysias-31", "file": "intro-01"}, {"entry": "lysias-31", "file": "notes-01"}, {"entry": "lysias-31", "file": "notes-02"}
+  ] }
+```
+
+(Morgan: 9 batches: the first run, the smallest, to see the brief work.) Shuckburgh, 14 batches:
+
+```json
+{ "scratch": "/home/proteus/koding/anagnosis/pipeline/build/agent-scratch", "atOnce": 8, "review": true,
+  "jobs": [
+    {"entry": "lysias-05", "file": "notes-01"}, {"entry": "lysias-09", "file": "notes-01"}, {"entry": "lysias-09", "file": "notes-02"},
+    {"entry": "lysias-10", "file": "notes-01"}, {"entry": "lysias-10", "file": "notes-02"}, {"entry": "lysias-13", "file": "notes-01"},
+    {"entry": "lysias-13", "file": "notes-02"}, {"entry": "lysias-13", "file": "notes-03"}, {"entry": "lysias-14", "file": "notes-01"},
+    {"entry": "lysias-14", "file": "notes-02"}, {"entry": "lysias-17", "file": "notes-01"}, {"entry": "lysias-28", "file": "notes-01"},
+    {"entry": "lysias-30", "file": "notes-01"}, {"entry": "lysias-30", "file": "notes-02"}
+  ] }
+```
+
+Adams, 51 batches, the same arguments with these jobs (entry: files): `lysias-12`: intro-01…03,
+notes-01…09; `lysias-16`: intro-01, 02, notes-01…03; `lysias-19`: intro-01, 02, notes-01…05;
+`lysias-22`: intro-01, notes-01, 02; `lysias-24`: intro-01, notes-01, 02; `lysias-25`: intro-01,
+notes-01…03; `lysias-32`: intro-01, 02, notes-01…03; `lysias-34`: intro-01, notes-01;
+`lysias-appendix`: intro-01…05; `lysias-intro`: intro-01…05. The pilot pages (p-0069 in
+lysias-12/notes-01, p-0078 in notes-02, p-0172 in lysias-23/notes-01, p-0259 in
+lysias-10/notes-01) are already answered; the agent of the batch does the other pages and the
+second reader reads all.
+
+Gillies: `{"entry": "lysias-gillies-04", "file": "intro-01"}` is the sample batch; for the other
+five speeches first `drama-prose lysias-gillies-NN intro fetch`, `ocr`, `draft` (NN = 01, 03, 21,
+26, 34; about 60 leaves of 12 MB each from the Archive), then their batches by the same script;
+then the alignment pass ("Gillies" above), whose brief is not written yet.
+
+After each wave: `check-drama-prose <entry> <file>` on every file, commit
+(`git commit pipeline/transcriptions/drama/lysias-NN`), and at the end `merge-lysias`, then read
+`pipeline/build/lysias-notes.log`.
+
 ## For the author
+
+**New questions (2026-11-16, from the commentaries, translations and merge stage):**
+
+* **Adams's appendices.** Proposed: his Appendix I–V ships as the text's appendix (Chronological
+  outline, Athenian legal procedure, Rhetorical terms, Money and prices, The manuscripts: 36
+  pages), because his notes cite its numbered paragraphs all the time ("App. § 57. 3"). His
+  Bibliography and his Critical Notes (27 pages on his own text against Thalheim's) are left out,
+  so his "See Crit. Note" in a note leads nowhere: say if the Critical Notes should ship too, or
+  if the appendix should not.
+* **Gillies has speech 4**, so only eight speeches are without English (6, 8, 11, 15, 18, 20, 27,
+  29). His version is free and has no section numbers: proposed to lay it beside the Greek by
+  his paragraphs, each filed under the section where it begins, the places set by an alignment
+  pass after the transcription is checked. The alternative is to show Gillies's speeches as
+  running text apart from the Greek (as an appendix), not beside it.
+* **The chooser's names** are Hude's titles as he prints them, in lower case with accents. Three
+  are odd because the print is: speech 17 is headed Δημοσίων ἀδικημάτων (the manuscripts' wrong
+  title, which Hude keeps; the speech is the one usually called "On the property of Eraton"),
+  and 4, 18, 24, 26, 27 carry his brackets (⟨ἄδηλον⟩, ⟨τῶν⟩, [Πρὸς τὴν εἰσαγγελίαν], ⟨…⟩, [ὡς
+  Θεόδωρος]). Kept as printed; say if the brackets should go from the chooser, or 17 take the
+  usual title.
+* **The hypotheses** of 32–34 are section 0 of their speech; the reader would label them "§ 0".
+  A label without a number ("Hypothesis") needs a line in the reader; say if wanted.
+* **Notes whose lemma is not in Hude's text** stay under the section their commentator names,
+  with his lemma, unmarked. They could instead carry a mark ("Adams reads …"); the number to
+  judge by comes after the batches are checked (the log lists them).
+* **Misprints corrected** (each with a note in the apparatus; the batches keep the print): text:
+  ἔλεγετʼ → ἐλέγετʼ (8.8), Αυσιθέῳ → Λυσιθέῳ (10.12), πεπιστευμενους → πεπιστευμένους (19.13),
+  εστιν → ἐστιν (20.28), "ἐνίκων καὶ," → "ἐνίκων, καὶ" (21.4, the comma misplaced), ὀλιγαοχικὸς →
+  ὀλιγαρχικὸς (25.8); apparatus: προτερον, συμβαλόμενυς, ἐφʼ ᾖ, οὑτυσὶ, and ούνεκα twice
+  (printed οὔνεκα on two other pages). Left as printed: ἑβδομήκοντα at 19.47 (a damaged ν, not a
+  misprint). Say if any should stand as printed.
 
 **Answered by the author on 2026-11-16** (these settle the matching questions below):
 
@@ -384,10 +599,10 @@ Nothing here blocks the text batches. In the order in which an answer is needed:
 - [ ] Step 4: text and apparatus batches, first pass
 - [ ] Step 5: second passes
 - [ ] Step 6: merge and the checks
-- [ ] Step 7: words and syntax
-- [ ] Step 8: translations
-- [ ] Step 9: commentaries and introductions
-- [ ] Step 10: sigla, glossary, about
+- [x] Step 7: words and syntax, the pipeline side (2026-11-16): `hude_merge.tokens` (each speech aligned to its own trees: AGDT 1, 14, 15, 23; GLAUx for the rest, hand-made for 24; none for 12, 13, 19), the label by speech (`# syntax-by-book` in grc.txt, `syntax_by_book` in the built meta table); trial merge: 56,484 words, 71 without a lemma, review list 830. The reader's change is described under "The reader" and not made
+- [ ] Step 8: translations: the 1898 version done in the merge (`eng-1898.txt`: 699 segments of 20 speeches, every one under a section of Hude's text); Gillies: his contents established (six speeches needed: 1, 3, 4, 21, 26, 34), entries `lysias-gillies-NN` set up, speech 4 fetched, read and drafted as the sample; the other five to fetch and draft, all six to check, then the alignment pass
+- [ ] Step 9: commentaries and introductions: set up and drafted (2026-11-16): 21 entries, 493 pages, 74 batches, 5,797 flags (Adams 353 pages / 51 batches / 3,888 flags; Morgan 54 / 9 / 898; Shuckburgh 86 / 14 / 1,011); pilot pages checked (Adams p-0069, p-0078; Morgan p-0172; Shuckburgh p-0259); the brief's section, the workflow script and its arguments under "Hand-over"; `hude_notes.py` files the notes under Hude's sections (trial merge on the drafts: 2,761 paragraphs under 641 sections). Still to do: the agents' first check and second reading of the 74 batches
+- [ ] Step 10: sigla, glossary, about: `sigla.md` (from Hude's SIGLA page) and `about.md` written (`transcriptions/lysias/static/`, copied by the merge); the book names in lower-case Greek with numbers (`hude_merge.SPEECH_NAMES`); still to do after the real merge: `glossary.md`, `shortdefs.tsv`, `aliases.tsv` (the trial `check`: 213 lemmas in no dictionary, 158 without a short definition), the review list, the texts/README.md section
 - [ ] Step 11: build and emulator check
 
 ## Decisions
