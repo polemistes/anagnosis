@@ -299,7 +299,8 @@ yield written under Decisions.
 * Settled as proposed, the author not objecting: Hude's Latin praefatio is not shipped, his sigla
   are; the introduction is Adams's general one plus each commentator's introduction to his speech;
   13.65-68 follow Hude's own order and numbers.
-* Still open: whether the Eroticus (XXXV, from Plato's Phaedrus) goes in.
+* The Eroticus (XXXV, from Plato's Phaedrus): **left out** (it survives only in Plato's dialogue
+  and belongs there; whether it is Lysias's own is an old open question).
 
 
 Nothing here blocks the text batches. In the order in which an answer is needed:
