@@ -248,9 +248,11 @@ own text): rewrite each at its turn as the Medea's was.
   died in 1944 (then free in Norway since 2015); if the year proves later than 1955 the
   chapter is held out. For the agents to repair by hand: the garbled heading of chapter B,
   a stray heading on p-10073 and a stray accent line on p-10027, Murray's two hypothesis
-  pages and persons page. **Running: the first check of the 24 batches** (nine at once);
-  then the second reading (all batches: the Medea showed that a small sample understates
-  what it finds), `merge-drama alcestis`, the finishing steps as for the Medea, the
+  pages and persons page. The first check of the 24 batches is done (2026-11-16, private
+  cdfc752: every flag answered; the checker's remaining remarks are explained in the files;
+  some thirty evident misprints of Hayley's corrected, each with a note). **Running: the
+  second reading of all 24 batches** (nine at once; the Medea showed that a small sample
+  understates what it finds). Then `merge-drama alcestis`, the finishing steps as for the Medea, the
   emulator check with the author's build (add `alcestis` to app/author-packs.txt).
 
 
