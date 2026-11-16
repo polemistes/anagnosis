@@ -484,6 +484,32 @@ class WordsAndTranslation(unittest.TestCase):
         self.assertEqual(sorted(SPEECH_NAMES), list(range(1, 35)))
         self.assertEqual(NO_SYNTAX, {12, 13, 19})
 
+    def test_compound_verbs(self):
+        from anagnosis_pipeline.hude_merge import _join_prefix, compound_analysis
+
+        self.assertEqual([_join_prefix(a, b) for a, b in (("κατα", "ἕζομαι"), ("ἀπο", "ἄγω"), ("συν", "λέγω"), ("ἐκ", "ἐλαύνω"),
+                                                          ("ἐν", "βάλλω"), ("περι", "ὁράω"), ("ἀπο", "γράφω"), ("ἀπο", "ἵημι"))],
+                         ["καθέζομαι", "ἀπάγω", "συλλέγω", "ἐξελαύνω", "ἐμβάλλω", "περιοράω", "ἀπογράφω", "ἀφίημι"])
+        forms = {"εχορηγησε": [("ἐχορήγησε", "χορηγέω", "v3saia---")], "ιεναι": [("ἱέναι", "ἵημι", "v--pna---"), ("ἰέναι", "εἶμι", "v--pna---")],
+                 "εγραψασ": [("ἔγραψας", "γράφω", "v2saia---")]}
+        import unicodedata
+
+        def analyse(form):
+            key = "".join(c for c in unicodedata.normalize("NFD", form.lower()) if not unicodedata.combining(c)).replace("ς", "σ")
+            return forms.get(key, [])
+
+        known = lambda lemma: lemma in ("καταχορηγέω", "ἄπειμι", "ἀφίημι", "ἀπογράφω", "προσαπογράφω")  # noqa: E731
+        self.assertEqual(compound_analysis("κατεχορήγησε", analyse, known), ("καταχορηγέω", "v3saia---"))
+        self.assertEqual(compound_analysis("ἀπέγραψας", analyse, known), ("ἀπογράφω", "v2saia---"))
+        self.assertEqual(compound_analysis("προσαπέγραψας", analyse, known), ("προσαπογράφω", "v2saia---"))
+        # the prefix shows the stem's breathing: ἀφ- before ἱέναι, ἀπ- before ἰέναι
+        self.assertEqual(compound_analysis("ἀφιέναι", analyse, known), ("ἀφίημι", "v--pna---"))
+        # (ἄπειμι draws its accent back: the joined ἀπεῖμι is in no dictionary, so nothing is offered,
+        # and above all not ἀφίημι; such a word goes to the hand table)
+        self.assertIsNone(compound_analysis("ἀπιέναι", analyse, known))
+        self.assertIsNone(compound_analysis("κατεχορήγησε", analyse, lambda lemma: False))
+        self.assertIsNone(compound_analysis("λόγος", analyse, known))
+
     def test_names_have_hudes_letters(self):
         from anagnosis_pipeline.hude_merge import SPEECH_NAMES, _letters
 

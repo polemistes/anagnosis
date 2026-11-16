@@ -27,6 +27,7 @@ import json
 import re
 from pathlib import Path
 
+from . import greek
 from .drama import PLAYS, TRANSCRIPTION_LICENSE, _meta_lines
 from .hude_pages import APP_KEY, HYPOTHESIS, KEY, LABEL, SPEECHES, TITLE, check_tokens, is_numeral, out_dir, read_batches, transcriptions_dir
 from .lucian_merge import LETTERS, _LOWER_GREEK, _find, _sk, greek_runs, lemma_of, split_long
@@ -47,6 +48,18 @@ MISPRINTS: dict[str, list[tuple[str, str, str]]] = {
         ("205.21", "ἐνίκων καὶ,", "ἐνίκων, καὶ"),             # 21.4: the comma set after καὶ instead of before it
         ("229.27", "ὀλιγαοχικὸς", "ὀλιγαρχικὸς"),            # 25.8: an omicron for the rho
     ],
+}
+# Apparatus items whose first reading is not the text's, each looked at on the page image
+# (2026-11-16): the batch has the line and the item as printed; the item reports a variant, a
+# conjecture or the manuscripts' reading first (Hude's apparatus is largely negative). The lemma
+# check does not list these again. Key: "leaf.number: the item's first words".
+SETTLED: dict[str, set[str]] = {
+    "lysias": {
+        "32.5: δὲ μὴ γενομένων", "35.13: εἰς", "44.11: τῆς τούτων", "68.19: οὐδὲν χαρισ. αὐτῶ", "72.23: εἰς δημοκρατίαν",
+        "139.5: μὴ", "161.6: διὰ τὴν δύναμιν, ὅτε", "186.23: μάρτυρες", "199.15: δὲ [ἐν", "210.2: τοσοῦτ", "212.4: ἀξιοῖς ἢ",
+        "219.5: ἀντιγρᾱ", "226.24: ⟨περὶ⟩ ἁπάντων", "233.23: ἐκ τοῦ ἄστεος", "239.8: τῇ αὐτῇ", "258.23: ὑπὸ λόγον",
+        "278.1: δικασταί", "279.20: αὐτῷ οὐδεὶς", "286.19: ὦ Ἀθηναῖοι",
+    },
 }
 # Apparatus: (leaf.number of the item as the batch has it, the printed word, the right word).
 APPARATUS_MISPRINTS: dict[str, list[tuple[str, str, str]]] = {
@@ -405,13 +418,22 @@ def place_apparatus(pages: dict[str, dict], index: list[dict], text: dict) -> tu
                 hands = re.match(r"^[^:]*?\s[A-Za-z]¹(?:\s[A-Za-z]¹?)*\s*:", rest) is not None
                 if last and hit is not None and bracket:
                     bracket = False  # a range whose first word stands on the line
-                if not exact and not hands and (bracket or (later and ":" in rest)):
+                if not exact and not hands and (bracket or (later and ":" in rest)) \
+                        and f"{where}: {' '.join(first)}" not in SETTLED.get("lysias", ()):
                     why = "the lemma] is not in the text" if bracket else "a later reading of the item stands in the text"
                     mark = " (the line is noted in the batch)" if any(k in noted for k in ordered[ia: ib + 1]) else ""
                     misses.append(f"SERIOUS {where}{mark}: Hude's reading “{' '.join(first)}” is not on the line as written ({why}) "
                                   f"(the line: {' '.join(c[2] for c in own)}): {item}")
                 elif hit is None:
                     misses.append(f"WEAK {where}: “{' '.join(first)}” matches nothing on the line: {item}")
+                    if len({c[0] for c in own}) > 1:
+                        # a variant without its lemma, on a line that holds the end of one section
+                        # and the start of the next: the section of the word most like it
+                        # (ᾔδειν beside the text's ᾔδη, οἷς beside οὓς)
+                        best = max(((difflib.SequenceMatcher(None, _sk(c[2]), _sk(w)).ratio(), -k, c) for k, c in enumerate(own)
+                                    for w in first if _sk(w)), default=(0, 0, None))
+                        if best[0] >= 0.5:
+                            hit = best[2]
                 elif last and _find(last, cands) is None:
                     misses.append(f"WEAK {where}: the end of the lemma range “{' '.join(last)}” not found: {item}")
             u = hit[0] if hit is not None else None
@@ -459,6 +481,75 @@ def speech_treebank(speech: int, sources: Path) -> list[dict]:
     return tb
 
 
+# a verb's prefixes as they stand before the stem (elided, assimilated, aspirated) and as the
+# dictionary writes them
+PREFIXES = {"ανα": "ἀνα", "αν": "ἀνα", "αντι": "ἀντι", "αντ": "ἀντι", "ανθ": "ἀντι", "απο": "ἀπο", "απ": "ἀπο", "αφ": "ἀπο",
+            "δια": "δια", "δι": "δια", "εισ": "εἰσ", "εκ": "ἐκ", "εξ": "ἐκ", "εν": "ἐν", "εμ": "ἐν", "εγ": "ἐν",
+            "επι": "ἐπι", "επ": "ἐπι", "εφ": "ἐπι", "κατα": "κατα", "κατ": "κατα", "καθ": "κατα", "μετα": "μετα", "μετ": "μετα",
+            "μεθ": "μετα", "παρα": "παρα", "παρ": "παρα", "περι": "περι", "προ": "προ", "προσ": "προσ", "συν": "συν", "συμ": "συν",
+            "συγ": "συν", "συλ": "συν", "υπερ": "ὑπερ", "υπο": "ὑπο", "υπ": "ὑπο", "υφ": "ὑπο"}
+_ASPIRATE = {"π": "φ", "τ": "θ", "κ": "χ"}
+
+
+def _join_prefix(prefix: str, lemma: str) -> str:
+    """A dictionary prefix before a verb's lemma: ἀπο + γράφω = ἀπογράφω; before a vowel the
+    prefix's last vowel goes (ἀπο + ἄγω = ἀπάγω; not περι, προ), and a rough breathing aspirates
+    it (κατα + ἕζομαι = καθέζομαι); συν takes the stem's first consonant (συλλέγω, συμβάλλω,
+    συγγράφω); ἐκ is ἐξ before a vowel. The lemma's breathing goes."""
+    import unicodedata
+
+    d = unicodedata.normalize("NFD", lemma)
+    rough = "\u0314" in d[:4]
+    vowel = d[0] in "αεηιουω"
+    bare = unicodedata.normalize("NFC", d.replace("\u0313", "", 1).replace("\u0314", "", 1)) if vowel else lemma
+    if vowel:
+        if prefix == "ἐκ":
+            prefix = "ἐξ"
+        elif prefix[-1] in "αοι" and prefix not in ("περι", "προ"):
+            prefix = prefix[:-1]
+            if rough and prefix[-1] in _ASPIRATE:
+                prefix = prefix[:-1] + _ASPIRATE[prefix[-1]]
+    elif prefix in ("συν", "ἐν"):
+        first = greek.strip_diacritics(bare)[0]
+        last = "μ" if first in "πβφμψ" else "γ" if first in "κγχξ" else "λ" if first == "λ" and prefix == "συν" else "ρ" if first == "ρ" and prefix == "συν" else "ν"
+        prefix = prefix[:-1] + last
+    return prefix + bare
+
+
+def _rough(form: str) -> bool:
+    import unicodedata
+
+    return "\u0314" in unicodedata.normalize("NFD", form)[:4]
+
+
+def compound_analysis(form: str, analyse, known, depth: int = 2, pick=None) -> tuple[str, str] | None:
+    """(lemma, postag) of a compound verb the analyser does not know, from its simple verb:
+    κατεχορήγησε = κατ + ἐχορήγησε (χορηγέω, aorist) gives καταχορηγέω; with two prefixes,
+    συνεκπλευσεῖσθαι. Taken only if the dictionaries have the compound (`known(lemma)`)."""
+    key = greek.strip_diacritics(form.replace(greek.APOSTROPHE, "")).lower()
+    for i in range(5, 1, -1):
+        prefix = PREFIXES.get(key[:i])
+        rest = form[i:] if len(form) > i + 2 else ""
+        if not prefix or not rest:
+            continue
+        found = [a for a in analyse(rest) if len(a) >= 3 and a[2].startswith("v")]
+        if rest[0] in "αεηιουω":
+            # the stem's breathing shows in the prefix: ἀπ-ιέναι is from εἶμι, ἀφ-ιέναι from ἵημι
+            aspirated = key[:i][-1] in "φθχ"
+            if key[:i][-1] in "πτκφθχ":
+                found = [a for a in found if _rough(a[0]) == aspirated]
+        chosen = pick(rest, found) if pick and found else None   # the commonest reading of the simple form
+        cands = ([chosen] if chosen else []) + [(a[1], a[2]) for a in found if (a[1], a[2]) != chosen]
+        if not cands and depth > 1:
+            inner = compound_analysis(rest, analyse, lambda _l: True, depth - 1, pick)
+            cands = [inner] if inner else []
+        for lemma, postag in cands:
+            whole = _join_prefix(prefix, re.sub(r"\d+$", "", lemma))
+            if known(whole):
+                return whole, postag
+    return None
+
+
 def tokens(slug: str, doc, sources: Path, out: Path, lexicon: Path, build: Path) -> int:
     """tokens.tsv and syntax-nodes.tsv: each speech's words aligned to its own trees (the words
     alone decide: neither source knows Hude's lines), the analyser for the words the trees lack
@@ -473,6 +564,8 @@ def tokens(slug: str, doc, sources: Path, out: Path, lexicon: Path, build: Path)
 
     analyse = Analyser(lexicon)
     freq = Frequencies(sources / "treebanks")
+    known_keys = {k for (k,) in analyse.db.execute("SELECT DISTINCT lemma_key FROM lexicon_entries")}
+    known = lambda lemma: greek.lemma_key(lemma) in known_keys  # noqa: E731
     by_speech: dict[int, Document] = {}
     for line in doc.lines:
         by_speech.setdefault(int(line.n.split(".")[0]), Document(meta={})).items.append(line)
@@ -491,6 +584,13 @@ def tokens(slug: str, doc, sources: Path, out: Path, lexicon: Path, build: Path)
             chosen = choose_analysis(r["form"], analyse(r["form"]), r["postag"], r["lemma"], freq, tb_form)
             if chosen is not None:
                 r["lemma"], r["postag"] = fix_lemma(chosen[0]), chosen[1]
+            elif not r["lemma"]:
+                compound = compound_analysis(r["form"], analyse, known, pick=lambda f, found: choose_analysis(f, found, freq=freq))
+                if compound:
+                    r["lemma"], r["postag"] = compound
+                    review.append({"line": r["line"], "form": r["form"], "lemma": r["lemma"], "postag": r["postag"],
+                                   "reason": "a compound verb read from its simple verb"})
+                    continue
             if not tb:
                 if not r["lemma"]:
                     review.append({"line": r["line"], "form": r["form"], "lemma": "", "postag": r["postag"], "reason": "no trees for this speech; the analyser has no reading"})
@@ -644,7 +744,8 @@ def base(n: str) -> str:
     return re.sub(r"[a-z]$", "", n)
 
 
-def merge(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path | None = None, drafts: bool = False) -> int:
+def merge(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path | None = None, drafts: bool = False,
+          notes: bool = True) -> int:
     from .textfmt import Document, Line, Section, Speaker, Stage, write_file
 
     play = PLAYS[slug]
@@ -742,10 +843,13 @@ def merge(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path | No
         n = tokens(slug, doc, sources, out, lexicon, build)
         print(f"review list: {n} words in {build / f'{slug}-review.tsv'}")
         write_translation(slug, sources, out, units, problems)
-        write_gillies(slug, out, units, problems, drafts)
-        from . import hude_notes
+        if notes:
+            # (left out while the commentary batches are with their checking agents: a batch whose
+            # flags are answered may still be waiting for its second reading)
+            write_gillies(slug, out, units, problems, drafts)
+            from . import hude_notes
 
-        hude_notes.write(texts, slug, sources, build, drafts)
+            hude_notes.write(texts, slug, sources, build, drafts)
         for path in sorted(STATIC.glob("*")):
             (out / path.name).write_bytes(path.read_bytes())
     log = [f"# merge-lysias {slug}", "", f"## Problems ({len(problems)})", ""] + [f"* {x}" for x in problems]

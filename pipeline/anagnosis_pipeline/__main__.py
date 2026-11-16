@@ -105,6 +105,7 @@ def main(argv: list[str] | None = None) -> int:
     mly.add_argument("slug", nargs="?", default="lysias")
     mly.add_argument("--out", default=str(TEXTS), help="the texts folder to write <slug>/ into (default: texts/)")
     mly.add_argument("--text-only", action="store_true", help="only the Greek text and the apparatus (no words, syntax, translation, commentaries)")
+    mly.add_argument("--without-notes", action="store_true", help="leave the commentaries, introduction, appendix and Gillies's translation out (while their batches are being checked)")
     mly.add_argument("--drafts", action="store_true", help="a trial: take the commentary batches as they are, flags not yet answered (never into texts/)")
     sub.add_parser("fetch-nt", help="download the New Testament sources into pipeline/sources/nt/ (SBLGNT, MACULA, Dodson, BSB)")
     sub.add_parser("import-nt", help="texts/newtestament/ from the SBLGNT, MACULA, Dodson and the Berean Standard Bible")
@@ -326,7 +327,7 @@ def main(argv: list[str] | None = None) -> int:
         if args.drafts and Path(args.out).resolve() == TEXTS.resolve():
             raise SystemExit("--drafts is for a trial merge: give --out a scratch folder")
         return 1 if merge_lysias(args.slug, SOURCES, Path(args.out), ROOT / "pipeline" / "build",
-                                 None if args.text_only else DATA / "lexicon.sqlite", args.drafts) else 0
+                                 None if args.text_only else DATA / "lexicon.sqlite", args.drafts, not args.without_notes) else 0
     elif args.cmd == "fetch-nt":
         from .nt import fetch_nt
         fetch_nt(SOURCES)
