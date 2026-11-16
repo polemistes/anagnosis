@@ -57,7 +57,7 @@ Like the Homeric ἐΰρροος, ἐϋρρείτης, the epithet refers simply
 Beyond the flags: S. for 8./5. (twice), καὶ for kal, MSS. for mss., the lemma Τραχινίαν...δειράδα, δειράδα καὶ τὸν and the Greek of the conjecture in bold as printed, ἐς for ἐθ, Δ for A (the capitals read from the image), id. *Theb.* 493 for '7 εὖ. 493', *Tr.* 297 for '77. 297', ἐϋρρείτης, *Il.* 16. 176, *Hymn. Del.*, *Geo. of Greece*, *Spercheius* and the other italics, closing stop of the Herodotus parenthesis. Structure: the 493 note's second lemma was split in two by the draft ('**παλαιὸν**' alone, then a repeated paragraph): mended to one paragraph, '**παλαιὸν**=παλαιόν (ἐστιν) **ἐξ ὅτου**'.
 
 === p-0157
-+ Isocr. or. 5 § 47 οὗτοι γὰρ ἄρχοντες τῶν Ἑλλήνων οὐ πολὺς χρόνος (*sc.* ἐστὶν) ἐξ οὗ καὶ κατὰ γῆν καὶ κατὰ θάλατταν εἰς τοσαύτην μεταβολὴν ἦλθον. *Ai.* 600 ἐγὼ δ’ ὁ τλάμων παλαιὸς ἀφ’ οὗ χρόνος | ...εὐνῶμαι.—In L παλαιὰν is manifestly a mere blunder for παλαιόν. Those who read **παλαί’ ἂν** explain it in one of two ways. (1) εἴη is to be supplied with it,—βεβήκῃ, or βέβηκε, being read in 494. Such an ellipse of εἴη is impossible. (2) The ἂν is to go with βεβήκοι in 494. Cp. *Tr.* 630 δέδοικα γὰρ | μὴ πρῷ λέγοις ἄν: Thuc. 2. 93 προσδοκία οὐδεμία (ἦν) μὴ ἄν ποτε οἱ πολέμιοι...ἐπιπλεύσειαν. But in this constr. the ἄν which belongs to the optative verb could not precede the μή. In Eur. *Med.* 941 οὐκ οἶδ’ ἂν εἰ πείσαιμι, the place of ἄν has a special excuse, viz., the analogy of sentences with the *inf.* (such as οὐκ ἂν οἶμαι πεῖσαι).
++ Isocr. or. 5 § 47 οὗτοι γὰρ ἄρχοντες τῶν Ἑλλήνων οὐ πολὺς χρόνος (*sc.* ἐστὶν) ἐξ οὗ καὶ κατὰ γῆν καὶ κατὰ θάλατταν εἰς τοσαύτην μεταβολὴν ἦλθον. *Ai.* 600 ἐγὼ δ’ ὁ τλάμων παλαιὸς ἀφ’ οὗ χρόνος | ...εὐνῶμαι.—In L παλαιὰν is manifestly a mere blunder for παλαιόν. Those who read **παλαί’ ἂν** explain it in one of two ways. (1) εἴη is to be supplied with it,—βεβήκῃ, or βέβηκε, being read in 494. Such an ellipse of εἴη is impossible. (2) The ἂν is to go with βεβήκοι in 494. Cp. *Tr.* 630 δέδοικα γὰρ | μὴ πρῲ λέγοις ἄν: Thuc. 2. 93 προσδοκία οὐδεμία (ἦν) μὴ ἄν ποτε οἱ πολέμιοι...ἐπιπλεύσειαν. But in this constr. the ἄν which belongs to the optative verb could not precede the μή. In Eur. *Med.* 941 οὐκ οἶδ’ ἂν εἰ πείσαιμι, the place of ἄν has a special excuse, viz., the analogy of sentences with the *inf.* (such as οὐκ ἂν οἶμαι πεῖσαι).
 
 ## 494
 **μή μοι βεβήκῃ**. μοι is ethic dat. (*Ant.* 50 n.) The subjunct. is right here: cp. 30 κυρῇ, n. The indic. βέβηκε would also be correct (Dem. or. 19 § 96 δέδοικα μὴ λελήθαμεν), but would express conviction rather than anxious fear.—For βέβηκα as=οἴχομαι, of death, cp. Eur. *Andr.* 1026 βέβακε δ’ Ἀτρείδας ἀλόχου παλάμαις.
@@ -126,6 +126,7 @@ After **τὰ τῶν διακόνων** we might have expected ἠμελεῖτ
 52 Soph. [conf] → ok (*Soph.*)
 --- notes
 Beyond the flags: γὰρ for yap (twice), *sc.*, εἰς, ἦν for ἣν, ἂν for dv, εἰ for el, the italics (*Ai.*, *Med.*, *Ep.*, *Lach.*, *Phaed.*, *Soph.*, *for*, *in his own ship*), κατὰ for kara, οἱ for ol, *Phaed.* 77 D for '77 Ὁ', Soph. 261 B; lemma bold on δόμους/δόμοις, πλεύσαντα, ἐκσῶσαι, τὰ τῶν διακόνων, ποιούμενοι, τὸ/τὰ as printed. Structure: the draft had cut the run-on paragraph into three ('ἴπ 1, παλαιὰν…', 'ἰεβήκῃ…'): the print has '…εὐνῶμαι.—In L παλαιὰν…' and '…with it,—βεβήκῃ…' in plain type: joined into the first paragraph.
+rev: πρῲ for πρῷ (Tr. 630 quotation; the print has the grave)
 
 === p-0158
 **ὡς εἰκός** expresses that such neglect might have been expected, while **οἶμαι** conveys the belief that it was actually committed; tautology cannot be pleaded, then, as a ground for conjecturing **οἴμοι**.
@@ -306,7 +307,7 @@ Beyond the flags: the draft had interleaved the two columns' words in the 516 no
 **πονεῖν**, epexegetic of ἐνδεέστερον, ‘in respect of toiling’: cp. *O. C.* 335 οἱ δ’ αὐθόμαιμοι ποῦ νεανίαι πονεῖν;
 
 ## 526
-**ὁρμάσθω**, let Philoctetes set out with us for the ship at once. **ταχύς**=ταχέως: cp. 808, 1080. **χἤ ναῦς**, the ship, on her part. If the sick man’s shipmates make no difficulty, the ship will make none: *i.e.*, it will be easy to find room for him on board (cp. 481). Neoptolemus is on his guard against betraying elation. He speaks as if the granting of Ph.’s prayer was now a simple matter,—and one which did not greatly interest him.
+**ὁρμάσθω**, let Philoctetes set out with us for the ship at once. **ταχύς**=ταχέως: cp. 808, 1080. **χἡ ναῦς**, the ship, on her part. If the sick man’s shipmates make no difficulty, the ship will make none: *i.e.*, it will be easy to find room for him on board (cp. 481). Neoptolemus is on his guard against betraying elation. He speaks as if the granting of Ph.’s prayer was now a simple matter,—and one which did not greatly interest him.
 
 **ἀπαρνηθήσεται** is usu. taken as passive: either (1) ‘the boon shall not be refused’: or (2) ‘he shall not be refused his wish.’ This second version is inadmissible. Classical Greek allows ἀπαρνοῦμαι δοῦναί τι, but not ἀπαρνοῦμαι τὸν αἰτοῦντα. And with either version the change of subject would be harsh. Rather the verb is deponent, with ἡ ναῦς for subject. Prof. Ridgeway, supporting this view (*Trans. Camb. Philol. Soc.* 1. p. 244), illustrates the personification of the ship from *Od.* 10. 131 ἀσπασίως δ’ ἐς πόντον ἐπηρεφέας φύγε πέτρας, and Arist. *Pol.* 3. 13. § 16, where the ship Argo—endued by legend with a voice—is described as refusing to carry Heracles (οὐ γὰρ ἐθέλειν αὐτὸν ἄγειν τὴν Ἀργώ).—It is true that the classical fut. of ἀρνέομαι, where it occurs, is ἀρνήσομαι (*O. T.* 571, etc.). But there is no classical instance of ἀρνηθήσομαι as fut. pass. And since the aor. ἠρνήθην is always deponent, analogy suggests that a deponent use of ἀρνηθήσομαι would have been possible. Cp. διαλέγομαι, aor. διελέχθην (deponent), fut. διαλεχθήσομαι (deponent), as well as διαλέξομαι. In later Greek ἀρνηθήσομαι occurs, indeed, as pass. (St Luke xii. 9, ἀπαρνηθήσεται, ‘he will be disowned’), but also as deponent (LXX. Is. xxxi. 7 ἀπαρνηθήσονται, with v.l. ἀπαρνήσονται).
 
@@ -328,7 +329,7 @@ Beyond the flags: the draft had interleaved the two columns' words in the 516 no
 13 3819... [conf] → 38 ἦ...
 14 O.C. [conf] → *O. C.*
 15 Taxvs [latin] → **ταχύς**
-16 x1 [digit] (Greek model: χή) → **χἤ**
+16 x1 [digit] (Greek model: χή) → **χἡ**
 17 Trend [conf] → deleted (stray: the line is ‘—and one which did not greatly interest him.’)
 18 Clas [rare] → Classical
 19 sical [rare] → Classical
@@ -342,7 +343,7 @@ Beyond the flags: the draft had interleaved the two columns' words in the 516 no
 27 γιοσάο [greek] (Greek model: νιοάῖο,) → =*modo*
 --- notes
 Misprint corrected: Jebb prints διαλεχθήσυμαι (526, the ἀπαρνηθήσεται paragraph); written διαλεχθήσομαι. The print also divides Clas|sical at a line end without a hyphen; written Classical.
-χἤ ναῦς (526): the print shows a breathing and an acute on the η (χἤ), copied so.
+rev: χἡ for χἤ (526 **χἡ ναῦς**): the print has one mark on the η, a rough breathing of the same form as that of ὁρμάσθω above it, and no accent (cp. χἡ δίκη in the Oedipus Coloneus commentary)
 
 === p-0162
 + etc.).

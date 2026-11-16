@@ -55,7 +55,7 @@ Read through against both columns. Beyond the flags: italics restored (*Ai.*, *O
 ## 1293
 **ἐγὼ δ’ ἀπαυδῶ γ’**: γε emphasises the verb: cp. 660, 1037. Odysseus darts forward from his place of concealment (cp. 1257 n.),—his voice being heard before he is seen (1295). At v. 974 he was just in time to prevent the bow being restored; now he is too late.
 
-**ὡς θεοὶ ξυνίστορες**: cp. *Ant.* 542 ὧν τοὔργον, Ἅιδης χοἰ κάτω ξυνίστορες: Eur. *Suppl.* 1174 Ζεὺς δὲ ξυνίστωρ οἵ τ’ ἐν οὐρανῷ θεοί. For the invocation of the gods in a protest, cp. Thuc. 4. 87 μάρτυρας μὲν θεοὺς... ποιήσομαι ὡς ἐπ’ ἀγαθῷ ἥκων οὐ πείθω: and id. 1. 78, 2. 71.
+**ὡς θεοὶ ξυνίστορες**: cp. *Ant.* 542 ὧν τοὔργον, Ἅιδης χοἰ κάτω ξυνίστορες: Eur. *Suppl.* 1174 Ζεὺς δὲ ξυνίστωρ οἵ τ’ ἐν οὐρανῷ θεοί. For the invocation of the gods in a protest, cp. Thuc. 4. 87 μάρτυρας μὲν θεοὺς...ποιήσομαι ὡς ἐπ’ ἀγαθῷ ἥκων οὐ πείθω: and id. 1. 78, 2. 71.
 
 **ὑπέρ τ’**: τε irregularly placed, as in 185: *O. C.* 33 τῆς ὑπέρ τ’ ἐμοῦ | αὑτῆς θ’ ὁρώσης.
 
@@ -84,15 +84,16 @@ Read through against both columns. Beyond the flags: italics restored (*Ai.*, *O
 18 vooéws [latin] (Greek model: ᾿Οϑυσσέως,) → Ὀδυσσέως
 --- notes
 Beyond the flags: bold kept on οὐ γὰρ, πῶς εἶπας, φανερόν, ἐπῃσθόμην, Ὀδυσσέως inside their paragraphs; Ar. *Eq.*, *ib.*, *El.* italic; Aesch. *Suppl.* 652 ἁγνοῦ and "ἁγνόν is oft." written with the rough breathing of the bold lemma (the italic breathing is too small to tell); χοἰ (Ant. 542) as the print appears to show it.
+1293	rev: "θεοὺς... ποιήσομαι" → θεοὺς...ποιήσομαι (no space after Jebb's dots; the line breaks there)
 
 === p-0270
 ## 1297
 **ἀποστελῶ**, here, ‘convey away’; cp. 983 στελοῦσι (=ἄξουσιν in 985).
 
 ## 1299
-**ἀλλ’ οὔ τι χαίρων**: a regular formula in threats,—most forcible when, as here, the verb is left to be supplied from the last speaker’s words: so Eur. *Or.* 1592 f. ΟΡ.... ἀρκέσω δ’ ἐγὼ λέγων. | ΜΕ. ἀλλ’ οὔ τι χαίρων, ἤν γε μὴ φυγῇς πτεροῖς. Her. 3. 36 ἀπὸ δὲ ὤλεσας Κῦρον πειθόμενόν σοι. ἀλλ’ οὔ τι χαίρων, ἐπεὶ κ.τ.λ. Sometimes, again, the verb is expressed: as in *O. T.* 363: Ar. *Ran.* 843 ἀλλ’ οὔ τι χαίρων αὔτ’ ἐρεῖς: id. *Ach.* 563 ἀλλ’ οὔτι (so Bentley for οὐδὲ) χαίρων ταῦτα τολμήσει λέγειν.
+**ἀλλ’ οὔ τι χαίρων**: a regular formula in threats,—most forcible when, as here, the verb is left to be supplied from the last speaker’s words: so Eur. *Or.* 1592 f. ΟΡ....ἀρκέσω δ’ ἐγὼ λέγων. | ΜΕ. ἀλλ’ οὔ τι χαίρων, ἤν γε μὴ φυγῇς πτεροῖς. Her. 3. 36 ἀπὸ δὲ ὤλεσας Κῦρον πειθόμενόν σοι. ἀλλ’ οὔ τι χαίρων, ἐπεὶ κ.τ.λ. Sometimes, again, the verb is expressed: as in *O. T.* 363: Ar. *Ran.* 843 ἀλλ’ οὔ τι χαίρων αὔτ’ ἐρεῖς: id. *Ach.* 563 ἀλλ’ οὔτι (so Bentley for οὐδὲ) χαίρων ταῦτα τολμήσει λέγειν.
 
-**ὀρθωθῇ**, be directed straight: fr. 430. 5 ὀρθοῦται κανών. Cp. the fig. sense in *Ant.* 675 τῶν... ὀρθουμένων, ‘lives whose course is fair.’
+**ὀρθωθῇ**, be directed straight: fr. 430. 5 ὀρθοῦται κανών. Cp. the fig. sense in *Ant.* 675 τῶν...ὀρθουμένων, ‘lives whose course is fair.’
 
 ## 1300
 **ἆ**, in reproof, as *O. T.* 1147 ἆ, μὴ κόλαζε: Aesch. *Ag.* 1087 ἆ, ποῖ ποτ’ ἤγαγές με; the doubled ἆ ἆ also occurs in trimeters, as Eur. *Or.* 1598 ΟΡ. ἔσται τάδ’. ΜΕ. ἆ ἆ, μηδαμῶς δράσῃς τάδε.
@@ -123,6 +124,8 @@ Beyond the flags: bold kept on οὐ γὰρ, πῶς εἶπας, φανερό�
 16 Ῥγενθηίβά [greek] (Greek model: “Ρτονθηϊοα) → prevented
 --- notes
 "φυγῇς" (Eur. Or. 1593) kept as printed, with the circumflex on the η. Beyond the flags: ΟΡ./ΜΕ. in Greek capitals; the draft's false cut at "(" in 1297 joined (=ἄξουσιν in 985); "Itis" → It is; "παλτὰ.." → παλτὰ...; "kal" → καὶ (twice), "dv" → ἄν; πειθόμενόν σοι as printed; the false paragraph "Ῥγενθηίβά thee’). Eur. 770. 1145" rebuilt from the image: ‘prevented thee’). Eur. *Tro.* 1145.
+1299	rev: "ΟΡ.... ἀρκέσω" → ΟΡ....ἀρκέσω (no space in the print)
+1299	rev: "τῶν... ὀρθουμένων" → τῶν...ὀρθουμένων (no space after Jebb's dots; the line breaks there)
 
 === p-0271
 + τὸ δεσπότου τάχος | ἀφείλετ’ αὐτὴν παῖδα μὴ δοῦναι τάφῳ, ‘her master’s haste deprived her of the power to bury her son.’ So, here, the true construction seems to be, **τί ἀφείλου με μὴ κτανεῖν ἄνδρα πολέμιον;** ‘why hast thou robbed me of the chance of slaying a foe?’ In admitting, but not requiring, μή with the inf., this ἀφαιροῦμαι is like other verbs of hindering. **πολέμιον**: for the tribrach in the 5th place, cp. *O. T.* 719 n. This is the rarest form of it (the last word of the verse being a ‘paeon quartus’): cp. 1327: Aesch. *Eum.* 780 ἐγὼ δ’ ἄτιμος ἡ τάλαινα βαρύκοτος.
@@ -172,12 +175,12 @@ Beyond the flags: "pe" → με; the sentence τί ἀφείλου ... πολέ�
 
 **οὐχὶ Σισύφου πατρός**, explaining what precedes: (‘thou hast shown, I say, that thou dost not spring from) Sisyphus.’ It is simpler to supply βλαστών (from ἔβλαστες) than φύσιν. The gen. is influenced by the prep. before **ἧς**: for **πατρός**, cp. 3.
 
-**μετὰ ζώντων θ’**. The θ’, though wanting in L, seems genuine. For τε... δέ (instead of τε...τε), cp. *Ant.* 1096 n.
+**μετὰ ζώντων θ’**. The θ’, though wanting in L, seems genuine. For τε...δέ (instead of τε...τε), cp. *Ant.* 1096 n.
 
 **τεθνηκότων** might be governed by μετά, but really depends rather on the unexpressed ἄριστα ἀκούει. The poet may have been thinking of *Od.* 11. 482 ff., σεῖο δ’ Ἀχιλλεῦ, | οὔτις ἀνὴρ προπάροιθε μακάρτατος οὔτ’ ἄρ’ ὀπίσσω· | πρὶν μὲν γάρ σε ζωὸν ἐτίομεν ἶσα θεοῖσιν | Ἀργεῖοι, νῦν δ’ αὖτε μέγα κρατέεις νεκύεσσιν.
 
 ## 1314
-**ἥσθην**: for the aor., cp. 1289 n.: for the acc., *O. T.* 236 (n.): *Ai.* 136 σὲ μὲν εὖ πράσσοντ’ ἐπιχαίρω: Eur. *Hipp.* 1339 τοὺς γὰρ εὐσεβεῖς θεοὶ | θνήσκοντας οὐ χαίρουσι.
+**ἥσθην**: for the aor., cp. 1289 n.: for the acc., *O. T.* 236 (n.): *Ai.* 136 σὲ μὲν εὖ πράσσοντ’ ἐπιχαίρω: Eur. *Hipp.* 1339 τοὺς γὰρ εὐσεβεῖς θεοὶ | θνῄσκοντας οὐ χαίρουσι.
 
 **ἀμὸν** for ἐμὸν is the best correction. The phrase πατέρα τὸν ἀμὸν occurs in *El.* 279, 588, 1496, and in the first two of those passages ἀμὸν in L has been made from ἐμὸν. Cp. 1118 above (ἀμᾶς for ἐμᾶς).—With ἥσθην πατέρα **τε** τὸν ἐμὸν, or ἥσθην **γε** πατέρα τὸν ἐμὸν, the rhythm is enfeebled by two consecutive tribrachs,—without the justification given in 1029 by the pause after ἄγετε. And **γε** would be somewhat weak.
 
@@ -230,9 +233,11 @@ Beyond the flags: "pe" → με; the sentence τί ἀφείλου ... πολέ�
 36 mpd [rare] → πρὸ
 --- notes
 Heavily garbled draft; the whole page rewritten from the column images. Beyond the flags: "1914 f." → heading ## 1314, "cp. 1280 n." → 1289 n. as printed; Eur. *Hipp.* 1339 (draft "Hi 122. 1330"); a bold "μετὰ ζώντων θ’" lemma and the sentence on τε...δέ restored (the draft had mixed in words of the next lines); the Od. 11. 482 ff. quotation rebuilt (σεῖο δ’ Ἀχιλλεῦ ... νεκύεσσιν); 1315 rebuilt (ὧν...σου τυχεῖν, ‘in a case where we expect to win praise from all men’, *O. C.* 1170 n., ἐφίεμαι, ‘desire,’ ... ἐφιέμενοι...τῆς πάσης ἄρξειν); 1316 lemma τὰς μὲν ἐκ θεῶν τύχας δοθείσας and αἱ πρὸ τοῦ στόματος; bold τε, γε, ἧς, πατρός, ἐκ inside paragraphs. Checker: "ε" is Jebb's ε̆ (ε with a breve, no precomposed form) and "ι" the letter named in "the ι of περιβλέπω": letters, not words, so no breathing.
+1314	rev: θνήσκοντας → θνῄσκοντας (iota subscript printed)
+1310	rev: "τε... δέ" → τε...δέ (no space, as τε...τε; the line breaks after the dots)
 
 === p-0273
-+ his own choice. Cp. *El.* 215 οἰκείας εἰς ἄτας | ἐμπίπτεις. ἑκούσιος is in Attic either of two or of three terminations: cp. *Tr.* 727 ἐξ ἑκουσίας, *ib.* 1123 ἑκουσία: Thuc. 8. 27 καθ’ ἑκουσίαν (yet id. 7. 57 ἑκούσιος...στρατεία): Plat. *Rep.* 603 C βιαίους ἢ ἑκουσίας πράξεις. But of ἀκούσιος the fem. in **-ία, -ιαι** seems not to occur: cp. Plat. *Legg.* 861 E βλάβαι...ἀκούσιοι.
++ his own choice. Cp. *El.* 215 οἰκείας εἰς ἄτας | ἐμπίπτεις. ἑκούσιος is in Attic either of two or of three terminations: cp. *Tr.* 727 ἐξ ἑκουσίας, *ib.* 1123 ἑκουσία: Thuc. 8. 27 καθ’ ἑκουσίαν (yet id. 7. 57 ἑκούσιος...στρατεία): Plat. *Rep.* 603 C βιαίους ἢ ἑκουσίας πράξεις. But of ἀκούσιος the fem. in -ία, -ιαι seems not to occur: cp. Plat. *Legg.* 861 E βλάβαι...ἀκούσιοι.
 
 **ἔγκεινται**, ‘are intent upon,’ meaning here, ‘persist in enduring,’ though a release is offered to them. Cp. Eur. *Andr.* 91 οἷσπερ ἐγκείμεσθ’ ἀεὶ | θρήνοισι καὶ γόοισι καὶ δακρύμασι, | πρὸς αἰθέρ’ ἐκτενοῦμεν· ἐμπέφυκε γὰρ | γυναιξὶ τέρψις τῶν παρεστώτων κακῶν: where the sense is, ‘to which I give my days.’ So id. *I. T.* 144 ἴδεθ’ ὡς θρήνοις ἔγκειμαι: *Ion* 182 οἷς δ’ ἔγκειμαι μόχθοις. But sometimes Eur. uses this verb as simply =κεῖμαι ἐν: *Helen.* 269 πολλαῖς συμφοραῖς ἐγκείμεθα (‘are plunged in’): and so *ib.* 924.
 
@@ -276,7 +281,8 @@ Heavily garbled draft; the whole page rewritten from the column images. Beyond t
 22 ἀεαεί [greek] (Greek model: γἀεαεί.) → *Theaet.*
 23 ἀπογράφομαι [greek] (Greek model: ᾿ἀπογράφομαι,) → ok
 --- notes
-Beyond the flags: italics restored (*Tr.*, *ib.*, *Rep.*, *Andr.*, *I. T.*, *Ion*, *Helen.*, *Od.*, *Cho.*, *P. V.* 789 (draft "2. V. 780"), *Tr.* 683, *Eum.* 275 (draft "Lum.")); "del" → ἀεί, "kal" → καί, "Te" → τε, "ol" → οἱ, Ἀθηναῖοι, "quoted above on v. 980" → 950 as printed; "(‘so Jar from" → (‘*so far from*; "Σοι was" → σοι; ἁλισθεῖεν; Ὅρκος; "Eur," → Eur.; "γράφου" without the stray quote. Words letter-spaced for emphasis in the print (ἐγκείμεσθ’, μήτε ἁλισθεῖεν, διεσκεδασμένοι) are written plain. Checker: "-ία, -ιαι" are endings as printed (bold), not words, so no breathing.
+Beyond the flags: italics restored (*Tr.*, *ib.*, *Rep.*, *Andr.*, *I. T.*, *Ion*, *Helen.*, *Od.*, *Cho.*, *P. V.* 789 (draft "2. V. 780"), *Tr.* 683, *Eum.* 275 (draft "Lum.")); "del" → ἀεί, "kal" → καί, "Te" → τε, "ol" → οἱ, Ἀθηναῖοι, "quoted above on v. 980" → 950 as printed; "(‘so Jar from" → (‘*so far from*; "Σοι was" → σοι; ἁλισθεῖεν; Ὅρκος; "Eur," → Eur.; "γράφου" without the stray quote. Words letter-spaced for emphasis in the print (ἐγκείμεσθ’, μήτε ἁλισθεῖεν, διεσκεδασμένοι) are written plain. Checker: "-ία, -ιαι" are endings as printed, not words, so no breathing.
+1318	rev: -ία, -ιαι are in plain (italic) Greek, not bold: bold taken away
 
 === p-0274
 ## 1326
@@ -327,7 +333,7 @@ The draft wrongly began this page with `+ `: it opens with a new note, ## 1326 (
 + ‘feeling confident,’ not to the imperat.: see on *O. T.* 1455 τοσοῦτόν γ’ οἶδα, μήτε μ’ ἂν νόσον | μήτ’ ἄλλο πέρσαι μηδέν.
 
 ## 1330
-**ἕως ἂν** is a certain emendation of **ὡς ἂν**, which would mean ‘in whatever way,’ ‘however’ (*Ai.* 1369). But, ‘however the sun may rise,’ etc., could not stand for, ‘so long as the sun continues to rise.’ ὡς ἄν never means, or could mean, ‘while.’ For ἕως scanned as one syllable (by synizesis), cp. *Il.* 17. 727, *Od.* 2. 148. Cp. *O. C.* 1361 ἕωσπερ (ὥσπερ MSS.) ἂν ζῶ: *Ai.* 1117 ἕως (ὡς MSS.) ἂν ἦς οἷός περ εἶ.
+**ἕως ἂν** is a certain emendation of **ὡς ἂν**, which would mean ‘in whatever way,’ ‘however’ (*Ai.* 1369). But, ‘however the sun may rise,’ etc., could not stand for, ‘so long as the sun continues to rise.’ ὡς ἄν never means, or could mean, ‘while.’ For ἕως scanned as one syllable (by synizesis), cp. *Il.* 17. 727, *Od.* 2. 148. Cp. *O. C.* 1361 ἕωσπερ (ὥσπερ MSS.) ἂν ζῶ: *Ai.* 1117 ἕως (ὡς MSS.) ἂν ᾖς οἷός περ εἶ.
 
 **αὐτὸς ἥλιος**. Cp. Her. 8. 143 νῦν τε ἀπάγγελλε Μαρδονίῳ ὡς Ἀθηναῖοι λέγουσι, ἔστ’ ἂν ἥλιος τὴν αὐτὴν ὁδὸν ἴῃ τῇ περ καὶ νῦν ἔρχεται, μήκοτε ὁμολογήσειν ἡμέας Ξέρξῃ. ‘While *the same* sun rises,’ etc., =‘while the sun rises as he now does.’ It is possible that **αὐτὸς** may be a reminiscence of τὴν αὐτὴν ὁδόν in Her.; at any rate it is decidedly more forcible here than Brunck’s **οὗτος**, which he illustrates from Plut. *Arist.* 10, τὸν ἥλιον δείξας· ἄχρις ἂν οὗτος ταύτην πορεύηται τὴν πορείαν, Ἀθηναῖοι πολεμήσουσι Πέρσαις. The gesture implied by **οὗτος** would be superfluous here, since in saying **ταύτῃ**, **τῇδε**, he points to the east and to the west. (For the combination of these pronouns, cp. 841 n.)
 
@@ -394,3 +400,4 @@ This verse implies that both the sons of Asclepius were to have a part in the cu
 49 Jliad [latin] (Greek model: ]ϊαά,) → *Iliad*
 --- notes
 Beyond the flags: "Ὁ. 7." → *O. T.*; "1880 f." → heading ## 1330; "dv" → ἂν/ἄν throughout, ὡς ἂν bold; "41. 1369" → *Ai.* 1369; "71. 17. 727." → *Il.* 17. 727,; "Az. 1117" → *Ai.*; "el." → εἶ.; "TOV" → τὸν; ταύτῃ, τῇδε bold; "wap" → παρ’ in the lemma τῶν παρ’ ἡμῖν...Ἀσκληπιδῶν (a new paragraph, unnumbered and indented in the print); "26. 9. 623" → *ib.* 9. 623; "C. 7. 1. 411" → *C. I.* 1. 411; "e.g." italic; "Ithome" → Ithomè as printed; "Ἐριχθον ἰδης" is Ἐριχθονίδης letter-spaced. Checker: ᾱ, ᾰ, α, -ιο-, -ια-, -ιδᾱ, -ίδη- are letters and stems in Jebb's rule on patronymics, as printed, not words: no breathing.
+1330	rev: ἦς → ᾖς (Ai. 1117, iota subscript printed)

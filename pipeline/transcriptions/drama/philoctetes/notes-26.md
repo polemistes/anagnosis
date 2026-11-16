@@ -60,7 +60,7 @@ We cannot remove the difficulty by supposing that μαλαχθῇς denotes mere
 **δίδωσ’...ἑαυτόν**, offers himself, **κτείνειν**, (for us) to slay : cp. 618 : Ar. *Nub.* 440 τουτὶ τό γ’ ἐμὸν σῶμ’ αὐτοῖσιν | παρέχω τύπτειν.
 
 ## 1344
-**καλὴ γὰρ ἡ ’πίκτησις**. The further gain (ἐπίκτησις) is the fame which he will win, in addition to being cured. This is indicated by the place of the words ‘**Ἑλλήνων ἕνα | κριθέντ’ ἄριστον** (for ἕνα with the superl., cp. *O. C.* 563 f., n.). Then the clause relating to the cure is co-ordinated with the clause relating to victory ; see on *Ant.* 1112. We should say rather, ‘that, *while* you are cured, you should *also* win fame.’ For **τοῦτο μὲν** followed by **εἶτα**, cp. *Ant.* 61 n.: for **εἶτα** (without δέ), *El.* 261 f. πρῶτα μὲν...εἶτα. Ellendt says, ‘κτῆσιν interpretatus schol. errat’: but the schol.’s words are, ἡ ’πίκτησις· ἡ κτῆσις τῆς δόξης: which is exactly right.
+**καλὴ γὰρ ἡ ’πίκτησις**. The further gain (ἐπίκτησις) is the fame which he will win, in addition to being cured. This is indicated by the place of the words **Ἑλλήνων ἕνα | κριθέντ’ ἄριστον** (for ἕνα with the superl., cp. *O. C.* 563 f., n.). Then the clause relating to the cure is co-ordinated with the clause relating to victory ; see on *Ant.* 1112. We should say rather, ‘that, *while* you are cured, you should *also* win fame.’ For **τοῦτο μὲν** followed by **εἶτα**, cp. *Ant.* 61 n.: for **εἶτα** (without δέ), *El.* 261 f. πρῶτα μὲν...εἶτα. Ellendt says, ‘κτῆσιν interpretatus schol. errat’: but the schol.’s words are, ἡ ’πίκτησις· ἡ κτῆσις τῆς δόξης: which is exactly right.
 
 ## 1348
 **ὦ στυγνὸς αἰών**: for the nom., cp. 1186, 1213. αἰών is here tinged with the notion of ‘fortune,’ cp. 179.
@@ -103,7 +103,7 @@ We cannot remove the difficulty by supposing that μαλαχθῇς denotes mere
 32 avrdy [latin] (Greek model: νρδαυτόν,) → ἑαυτόν,
 33 πίκτησις [accent] (Greek model: ᾿πίκτησις.) → ’πίκτησις.
 34 (ἐπίκτησις) [conf] → ok
-35 “Ἑλλήνων [conf] → ‘Ἑλλήνων
+35 “Ἑλλήνων [conf] → Ἑλλήνων
 36 f., [conf] → ok
 37 n.). [conf] → ok
 38 while [conf] → *while*
@@ -121,6 +121,7 @@ We cannot remove the difficulty by supposing that μαλαχθῇς denotes mere
 50 ἀφῆκας... [conf] → ok
 --- notes
 Heading 1336 restored (draft read "Ya36" into the paragraph before). 1337: "—ἡμῖν ἔστιν" made a new paragraph (a further note on the accent; only ἔστιν and ἐστιν are bold in the print). 1348: the print shows the first word as a bare ω (breathing and accent not printed or worn); written ὦ (v. 1348 ὦ στυγνὸς αἰών).
+rev: 1344: the ‘ before Ἑλλήνων is the printed rough breathing of Ἑ (Jebb's ‘Ε), not a quotation mark; the stray ‘ deleted.
 
 === p-0278
 + unnecessary) cp. Her. 1. 194 τὸ πλοῖον...ἀπιεῖσι κατὰ τὸν ποταμὸν φέρεσθαι.
@@ -194,6 +195,7 @@ Instead of saying, ποίοις ὄμμασι βλέπων (*O. T.* 1371 n.) ξ�
 45 ols [rare] → οἷς
 --- notes
 1352: "τῷ προσήγορος" made a paragraph of its own (bold after a dash; the draft had it as "τῷ προσή**yopos"). 1354: the draft's garbled interleaving of two lines ("literεν, oy me’ ‘ye + ye (τὰ that that …") rebuilt from the image; "κοίτα᾽, KT." was "καθέστατ’, κ.τ.λ."; "77. 1090" was *Tr.* 1090. O. T. 1270 ff. quotation: printed "αὐτοῦ" (breathing indistinct; Jebb's O. T. has αὑτοῦ, kept) and "ὄψοιντο νιν" in spaced type without the enclitic accent, written ὄψοιντό νιν; printed οἷ’ (draft οἵ’).
+rev: 1354: on the image the breathing of αὐτοῦ in the O. T. 1270 quotation looks smooth, like that of αὐδῶν beside it; αὑτοῦ (Jebb's O. T. text) kept as the correction of a misprint or worn type.
 
 === p-0279
 + a man’s mind has (once) become a mother of evil deeds, it trains him to be evil in everything else,’—*i.e.*, in all subsequent deeds. For **κακούς** as proleptic predicate, cp. *Ant.* 475 n.; Eur. *Med.* 296 παῖδας περισσῶς ἐκδιδάσκεσθαι σοφούς.
@@ -249,7 +251,7 @@ Bold Greek inside the paragraphs (κακούς, κακά, τἄλλα, κακῶ
 ## 1365
 **πατρὸς γέρας**, the arms, wrought by Hephaestus, which were a gift of honour to Achilles (cp. note on σέβας ὑπέρτατον in 402). It would strain the words to render them, ‘a gift of honour (bequeathed to thee) from thy sire.’
 
-[**οἵ τὸν ἄθλιον...ἔκριναν**.] It can hardly be doubted that these words are spurious. See Appendix.
+[**οἳ τὸν ἄθλιον...ἔκριναν**.] It can hardly be doubted that these words are spurious. See Appendix.
 
 ## 1366
 **ἀναγκάζεις** with double acc.: cp. *O. T.* 280. The present tense, expressing endeavour, is quite compatible with **εἶ** (‘dost thou intend to go..., and art thou trying to force...?’).
@@ -289,6 +291,7 @@ Bold Greek inside the paragraphs (κακούς, κακά, τἄλλα, κακῶ
 22 k.7.\. [conf] (Greek model: κιτιλ.) → κ.τ.λ.
 --- notes
 1363: the draft's garbled note (two lines interleaved) rebuilt from the image: "οἵ γε = ἐπεὶ ἐκεῖνοι" and "καθύβρισαν" made paragraphs (bold after a dash); "μήτε...τε" (bold, after "—For") kept in its paragraph. 1366: "εἶ" bold as printed.
+rev: 1365: "οἵ τὸν ἄθλιον" corrected to οἳ (printed with grave, as in v. 1365).
 
 === p-0281
 + a certain deliberate emphasis: cp. 101 n. By **ἀπόλλυσθαι** he means the failure and ruin at Troy with which the gods will visit the Greeks: cp. 1035 ff. For **κακῶς...κακούς** cp. 166 n.

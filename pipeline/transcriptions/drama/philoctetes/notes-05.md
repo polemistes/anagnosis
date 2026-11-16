@@ -363,7 +363,7 @@ The page continues the paragraph from p-0113 ("Plat. *Rep.* | 399 D …"): `+ ` 
 + 1450 f. Heinrich Schmidt seems right in holding that δεινόν here does not require θρηνεῖ (for θροεῖ) in 209. Lachmann’s conjecture, προβοᾷ γὰρ **αἴλινον**, hardly deserved to be adopted by Blaydes. See Metrical Analysis.—Hermann’s view, that in 209 διάσημα θροεῖ γάρ should be read, as here, προβοᾷ **δέ** τι δεινόν, involves the arbitrary substitution of δέ for γάρ. It would be obvious to suggest προβοᾷ τι γὰρ αἰνόν, or προβοᾷ γὰρ ἐλεινόν: but neither is probable.
 
 ## 219-675
-First ἐπεισόδιον. Philoctetes tells his story to Neoptolemus; who pretends that he has quarrelled with the Atreidae, and is sailing home. He promises to take Ph. with him. At this point the emissary of Odysseus (126) enters, disguised as the captain of a merchantship. He says that the Greeks have sent men in pursuit of N.; while Odysseus and Diomedes are coming to take Ph. It is decided that N. and Ph. must sail at once; they then withdraw into Ph.’s cave.
+First ἐπεισόδιον. Philoctetes tells his story to Neoptolemus; who pretends that he has quarrelled with the Atreidae, and is sailing home. He promises to take Ph. with him. At this point the emissary of Odysseus (126) enters, disguised as the captain of a merchant-ship. He says that the Greeks have sent men in pursuit of N.; while Odysseus and Diomedes are coming to take Ph. It is decided that N. and Ph. must sail at once; they then withdraw into Ph.’s cave.
 
 ## 219
 **ἰὼ ξένοι**, ‘extra metrum,’ as 736 ἰὼ θεοί, *O. T.* 1468 ἴθ᾽, ὦναξ, etc. Here ἰώ is a cry of surprise. In *O. C.* 822 ἰὼ ξένοι (within the verse) is a despairing appeal (‘Alas, friends...’).
@@ -385,4 +385,5 @@ But κἀκ ποίας πάτρας in v. 220 and ποίας πάτρας in 222
 10 πορεύεσθ᾽ [accent] → ok
 --- notes
 The page continues the paragraph from p-0114 ("cp. below, | 1450 f."): `+ ` added.
+219-675	rev: "merchantship" → "merchant-ship" (divided at the hyphen at a line end; Jebb writes merchant-ship elsewhere in this commentary, notes-03, notes-21, and in the introduction)
 "however,": divided at the foot of the page ("how-|ever,"); written whole here, so the "ever," that opens p-0116 (notes-06) is to be left out there.

@@ -103,7 +103,7 @@ Divided lemma "τεθρή-|νηται" joined (draft had "refpn-" / "ν"); "ἐ�
 **ἀντέρειδε**, plant firmly (on the ground). Lucian (perhaps with a reminiscence of this v.) uses the word of one who refuses to move,—τὼ πόδε ἀντερείδων πρὸς τοὔδαφος (Κατάπλους § 4). Cp. Anthol. 12. 84 ἐπὶ γαῖαν,...ἴχνος ἐρειδόμενος. This is better than to render, ‘lean thy steps on mine.’
 
 ## 1405
-**τί γάρ, ἐὰν** κ.τ.λ. Cp. Ar. *Nub.* 1445 τί δ᾽, ἢν ἔχων τὸν ἥττω | λόγον σε νικήσω...; (also τί γάρ, ἢν κ.τ.λ. *ib.* 351).
+**τί γάρ, ἐὰν** κ.τ.λ. Cp. Ar. *Nub.* 1445 τί δ᾽, ἢν ἔχων τὸν ἥττω | λόγον σε νικήσω...; (also τί γάρ, ἥν κ.τ.λ. *ib.* 351).
 
 **ἐγὼ παρὼν**: for the interruption of the sentence, cp. 210 n., 1226.
 
@@ -126,6 +126,7 @@ After **πελάζειν** the MSS. have σῆς πάτρας. ΝΕ. ἀλλ᾽ 
 9 avdgs [latin] (Greek model: αὐδᾷτ:) → αὐδᾷς
 --- notes
 Two false cuts joined: "taken,—μῆτερ, οὐ λόγων ἔθ᾽ ἁγών κ.τ.λ." and "the best,—ἀλλ᾽ εἰ σὺ δὴ | ταῦτα δράσεις…" are plain-type quotations, not lemmas (bold taken away; Jebb's own | kept); "doπερ" ὥσπερ; "ἤν" (Nub. 351) read ἢν as printed; "NE." written ΝΕ. (Greek capitals, the speaker); italics *Phoen.*, *O. T.*, *Nub.*, *ib.*, *Pers.* added; bold πελάζειν, στεῖχε inside paragraphs as printed.
+1405	rev: "τί γάρ, ἢν κ.τ.λ. ib. 351" is ἥν in the print (rough breathing and acute, the same marks as ἥττω above it; Jebb keeps the acute before κ.τ.λ.)
 
 === p-0287
 + the simple στεῖχε—implying his inward contentment with the answer, εἴρξω πελάζειν—is in truer harmony with the context than a form of words which would suggest that his consent depended, even now, on an explicit assurance.
@@ -324,7 +325,7 @@ Tradition placed Sophocles in a near relation to the cult of Asclepius. The poet
 ## 1440
 **ἐννοεῖθ᾽**, as a correction of the MS. **ἐννοεῖσθ᾽**, is commended by the fact that, out of five other places where Soph. uses this compound, there are two (*O. T.* 559, *Ant.* 61) in which the act. form is proved by metre; while in a third, *Tr.* 578, ἐννοήσασ᾽ is not likely to have come from ἐννοηθεῖσ᾽. On the other hand, the midd. was not less Attic than the act.; and, if ἐννοεῖσθ᾽ here were not followed by an aspirate, it would have been rash to alter it.
 
-**εὐσεβεῖν**. As the schol. observes, this warning derives force from the tradition that, after the fall of Troy, Neoptolemus ‘slew Priam, when he had taken refuge at the altar of Ζεὺς ἑρκεῖος.’ Neoptolemus himself was afterwards assassinated at Delphi: whence the proverb Νεοπτολέμειος τίσις (Paus. 4. 17. 4), meaning, τὸ παθεῖν ὁποῖόν τις καὶ ἔδρασε. The outrage of Ajax Oileus on Cassandra, in the temple of Athena at Troy (Eur. *Tro.* 70), was another instance of **δυσσέβεια**.
+**εὐσεβεῖν**. As the schol. observes, this warning derives force from the tradition that, after the fall of Troy, Neoptolemus ‘slew Priam, when he had taken refuge at the altar of Ζεὺς ἑρκεῖος.’ Neoptolemus himself was afterwards assassinated at Delphi: whence the proverb Νεοπτολέμειος τίσις (Paus. 4. 17. 4), meaning, τὸ παθεῖν ὁποῖόν τις καὶ ἔδρασε. The outrage of Ajax Oileus on Cassandra, in the temple of Athena at Troy (Eur. *Tro.* 70), was another instance of δυσσέβεια.
 
 ## 1442
 **ὡς τἄλλα πάντα** κ.τ.λ. The ground for the precept (εὐσεβεῖν) is given by **ὡς**,—viz., that Zeus deems ‘all other things,’—such as conquest, or glory—of secondary moment (**δεύτερ᾽ ἡγεῖται**: cp. *O. C.* 351). Then the sentence introduced
@@ -360,3 +361,4 @@ Tradition placed Sophocles in a near relation to the cult of Asclepius. The poet
 --- notes
 "Ἡρακλῆς πρότερον" is Ἡρακλῆι in the print; "47. 1302: 7]. 5. 6381" *Ai.* 1302: *Il.* 5. 638 ff.; "Preller 1. 423 ἢ. 2" n. 2; "Ms." MS.; "77. 578" *Tr.* 578; "Tis kal" τις καὶ; "ds,—viz." **ὡς**,—viz.; "ἑρκεῖος.᾽" closing quotation mark ’; Propertius verse in italics with the dash before the next lemma dropped; "Ἴλιον" (after αὐτὴν) bold as printed; bold ἐννοεῖσθ᾽, δυσσέβεια, ὡς, δεύτερ᾽ ἡγεῖται inside paragraphs; italics *Ant.*, *Iliad*, *Vit. Soph.*, *Enc. Dem.*, *Num.*, *Ai.*, *Il.*, *I.*, *Andr.*, *O. T.*, *Tr.*, *Tro.*, *O. C.* added.
 “ων” and “ήπιος” without breathing: second halves of Jebb's hyphenated etymologies Ἄλκ-ων and Ἀλεξ-ήπιος, printed so (the checker's two remarks).
+1440	rev: δυσσέβεια (end of the εὐσεβεῖν paragraph) is plain italic Greek in the print, not bold: bold taken away

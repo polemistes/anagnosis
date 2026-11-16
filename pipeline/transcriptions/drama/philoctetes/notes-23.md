@@ -279,7 +279,7 @@ The first note's heading is 1193 ff. in the print (draft had ## 1198 twice): cor
 ## 1204
 **ἐρεῖς**: for the fut., cp. 441 n.
 
-**εἴ ποθεν** sc. προπέμψαι ἔχετε,=‘from *any* quarter.’ So in *Ai.* 886 εἴ ποθι...λεύσσων=λεύσσων, εἴ που (λεύσσει). The elliptical use of εἴ τις is frequent (Thuc. 4. 26 ἐσάγειν σῖτόν τε...καὶ εἴ τι ἄλλο βρῶμα).
+**εἴ ποθεν** *sc.* προπέμψαι ἔχετε,=‘from *any* quarter.’ So in *Ai.* 886 εἴ ποθι...λεύσσων=λεύσσων, εἴ που (λεύσσει). The elliptical use of εἴ τις is frequent (Thuc. 4. 26 ἐσάγειν σῖτόν τε...καὶ εἴ τι ἄλλο βρῶμα).
 
 **γένυν**, axe: *El.* 485 ἀμφάκης γένυς: cp. *Ant.* 249 n.
 
@@ -315,6 +315,7 @@ The first note's heading is 1193 ff. in the print (draft had ## 1198 twice): cor
 20 it [conf] → ok
 --- notes
 The asterisk before χρῶτ’ is Jebb's (Hermann's correction in the text), written \*. 1206: ΟΙ. and ΧΡ. in Greek capitals; παλαμάων rejoined (draft split it as a bold fragment). In Ai. 886 εἴ ποθι...λεύσσων is sloped (plain) type, not bold.
+1204	rev: *sc.* in italics as printed (εἴ ποθεν *sc.* προπέμψαι)
 
 === p-0258
 + Then, παραλαβὼν τὸν σίδηρον ἄρχετο ἐκ κνημέων ἑωυτὸν λωβώμενος· ἐπιτάμνων γὰρ κατὰ μῆκος τὰς σάρκας (cp. **χρῶτα πάντα**) προέβαινε ἐκ τῶν κνημέων ἐς τοὺς μηρούς, ἐκ δὲ τῶν μηρῶν ἔς τε τὰ ἰσχία καὶ τὰς λαπάρας, ἐς ὃ ἐς τὴν γαστέρα ἀπίκετο, καὶ ταύτην καταχορδεύων ἀπέθανε.

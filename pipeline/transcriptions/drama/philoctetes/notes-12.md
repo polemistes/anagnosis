@@ -1,5 +1,5 @@
 === p-0164
-+ **ξυνέμπορον**, fellow-traveller, as *Tr.* 318, etc.
+**ξυνέμπορον**, fellow-traveller, as *Tr.* 318, etc.
 
 ## 544
 **φράσαι σε, ποῦ** κ.τ.λ.: for the constr., cp. n. on 443 f., *ad fin.*
@@ -36,7 +36,9 @@
 17 Evoenum [latin] (Greek model: ᾿Εσοδφεφε7)1.) → ok
 18 Ponticus [rare] → ok
 --- notes
-Structure: the page's first line (ξυνέμπορον …) is not indented and has no dash before it: it runs on from the last paragraph of p-0163 (note 542), so it is marked '+ ' with the lemma in bold inside the paragraph.
+(Superseded by the rev: line below.) Structure: the page's first line (ξυνέμπορον …) is not indented and has no dash before it: it runs on from the last paragraph of p-0163 (note 542), so it is marked '+ ' with the lemma in bold inside the paragraph.
+rev: '+ ' removed: p-0163 ends its last paragraph with a short line ("to Troy.") and no dash, so ξυνέμπορον (bold lemma at the head of the column, its indent lost at the page top) begins a new lemma paragraph under 542, not a run-on.
+rev: the checker's remark that the page begins neither with a heading nor with '+ ' is answered here: the page begins with a further lemma of note 542 (whose heading is on p-0163) as a new paragraph; the merge files it under 542 as its own paragraph.
 Beyond the flags: n. (for τ.) after τυμβήρης μὲν οὔ; S.W. (small capitals); νηί (not νηΐ); ταὐτὸν...πέδον and εὔβοτρυν in bold as printed; italics restored.
 
 === p-0165

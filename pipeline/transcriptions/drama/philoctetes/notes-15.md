@@ -218,7 +218,7 @@ p-0192: 736 f. made ## 736 (the f. was at the start of the text). Unflagged corr
 Written as above, the exclamations represent three successive cries of pain, each longer than the last, as the agony becomes sharper; they seem to suggest the convulsive movement of the lips from which the sounds are wrung.
 
 ## 747
-**εἴ τί σοι ξίφος πρόχειρον** (=πάρεστι) **χεροῖν**, if you have any sword ready in your hands. πρόχειρος can be combined with **χεροῖν** (as in Eur. *El.* 696 πρόχειρον ἔγχος χειρὶ βαστάζουσ’ ἐμῇ) without seeming pleonastic, since the derived sense of the compound adj. (*promptus*) is prominent. Cp. 407 n.: Plat. *Theaet.* 200 C ἐὰν μὴ προχείρους ἔχῃ (ἐπιστήμας) ἐν τῇ ψυχῇ.
+**εἴ τί σοι ξίφος πρόχειρον** (=πάρεστι) **χεροῖν**, if you have any sword ready in your hands. πρόχειρος can be combined with χεροῖν (as in Eur. *El.* 696 πρόχειρον ἔγχος χειρὶ βαστάζουσ’ ἐμῇ) without seeming pleonastic, since the derived sense of the compound adj. (*promptus*) is prominent. Cp. 407 n.: Plat. *Theaet.* 200 C ἐὰν μὴ προχείρους ἔχῃ (ἐπιστήμας) ἐν τῇ ψυχῇ.
 
 **πάταξον εἰς ἄκρον πόδα**. The ulcered heel is to be severed from the foot. ἄκρος ποῦς seems to mean simply, ‘the end of the foot,’ *i.e.* the heel (πτέρνα), the seat of the ulcer. Cp. 824. The phrase could also mean, ‘the foot at the end of the leg,’ as in *Il.* 16. 640 ἐκ κεφαλῆς εἴλυτο διαμπερὲς ἐς πόδας ἄκρους (=simply ‘from head *to foot*’): but this is less fitting here.
 
@@ -243,6 +243,7 @@ Written as above, the exclamations represent three successive cries of pain, eac
 11 vulg. [conf] → ok
 --- notes
 p-0193: τί θεοὺς ἀναστένων καλεῖς (bold, after the dash) made a new paragraph under 736 (run on from p-0192); the 751 note, scrambled by the OCR across lines, rewritten from the image, ὅτου (bold after the dash) a new paragraph; "—I give" stays (English). Unflagged corrections: κυρῶν: cp. 544 n. (for CP. 5441.), Tr. 987 (for 7: 77.), ἡ δ’ αὖ, ἐξαίφνης, γενναῖε., ἀρτίως νεοσφαγής, the 747 lemma split as printed (=πάρεστι not bold), bold on θεοὺς, χεροῖν; italics added.
+747	rev: bold taken off the second χεροῖν ("can be combined with χεροῖν"), printed in plain italic Greek
 
 === p-0194
 + periphrasis for ἀθύρειν, but=‘making playthings’ in the sand,—houses, dykes, etc. Nor can δεινὰ ποιῶ be cited, which is not an equiv. for δεινὸν ποιοῦμαι, but means ‘to do dreadful things,’ referring to the outward display of horror or grief by gestures or cries. (Cp. my n. on Andoc. or. 1 § 41.) In *Ai.* 75, where ἀρεῖ (midd.) is now read by most edd., L has ἄρηισ.

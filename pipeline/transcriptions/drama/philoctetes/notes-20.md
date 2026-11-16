@@ -5,7 +5,7 @@
 **στελοῦσί σε**, *sc.* the two attendants of Odysseus, who have entered along with him (cp. 985 οἵδε, and 1003). It should be remembered that, to the spectators, there could be nothing obscure in στελοῦσι, since Odysseus would glance or point at the men. There is no need, then, for the conjectures (cr. n.) which have sought either to introduce οἵδε or to remove αὐτοῖς. Greek idiom readily tolerated either change or ellipse of subject: cp. n. on *O. C.* 1065 ἁλώσεται.—We cannot well refer **αὐτοῖς** either to the attendants of Od., or to Neoptolemus and the Chorus. Odysseus would rather say, ἡμῖν. If it is objected that the bow cannot be said στείχειν, the answer is that στείχειν ἅμ᾽ αὐτοῖς is merely a way of saying στείχειν ἅμα τοῖς τὰ τόξα φέρουσι.
 
 ## 984
-**τολμήστατε**=τολμηέστατε, superl. of τολμήεις. Odysseus says in *Od.* 17. 284 τολμήεις μοι θυμός, ἐπεὶ κακὰ πολλὰ πέπονθα. The contracted form has been much suspected here ; Nauck pronounces it corrupt, because (1) tragic dialogue nowhere admits adjectives in άεις, ήεις, όεις, and (2) the contr. ήστατος from ηέστατος is unexampled. As to (1), we may observe that in *O. T.* 1279 it is almost certain that Soph. used αἱματόεις : Porson there conjectured αἱματοῦσσ᾽ (for αἵματος) : Heath, with greater probability, αἱματοῦς. As to (2), it is true that there is no other instance of this contr. in a superlative : but there are epic examples of the same contr. in the positive: *Od.* 7. 110 τεχνῆσσαι, restored by Bekker from τεχνῆσαι (schol. τεχνήεσσαι, τεχνιτίδες): *Il.* 18. 475 καὶ χρυσὸν τιμῆντα καὶ ἄργυρον (where no emend. is probable). I do not add *Il.* 9. 605 οὐκέθ᾽ ὁμῶς τιμῇς ἔσεαι: for, though we cannot read ὁμῶς τιμῆς, I would suggest that the change of one letter will restore the true reading, viz. ὁμῆς τιμῆς: and C. A. Lobeck, while conceding that Florian Lobeck (*Quaest. Ion.* p. 8) used ‘too great severity’ in condemning τολμήστατος, agrees with him in pointing out that such a contraction as τεχνῇς for τεχνήεις cannot be safely inferred from τεχνῆσσα for τεχνήεσσα (*Pathol.* 1. 343). This consideration is a fresh argument against Hermann’s conj. χαλαζῆς in *O. T.* 1279 : and it also reminds us that τολμήστατος does not imply τολμῇς. The example of Oppian (*Cyneg.* 2. 140 ἀργῆντα χαλινά) shows that late poets did not shrink from this contraction. In Pindar we find αἰγλάεντα (*P.* 2. 10), ἀλκάεντας (*O.* 9. 77), ἀργάεντα (*O.* 13. 69), φωνάεντα (*O.* 2. 93), with synizesis of αε; though recent edd. no longer write αἰγλᾶντα, etc. On the whole, I believe that Soph. would have felt that he had sufficient poetical warrant for τολμήστατε. No emendation seems possible which is at once tolerable in itself, and such as to account for the tradition. τολμίστατε was a worthless conjecture. Such forms as κλεπτίστατος, φαρμακίστατος always imply a positive in -ης or -ος, and occur only in Comedy or in late prose.
+**τολμήστατε**=τολμηέστατε, superl. of τολμήεις. Odysseus says in *Od.* 17. 284 τολμήεις μοι θυμός, ἐπεὶ κακὰ πολλὰ πέπονθα. The contracted form has been much suspected here ; Nauck pronounces it corrupt, because (1) tragic dialogue nowhere admits adjectives in άεις, ήεις, όεις, and (2) the contr. ήστατος from ηέστατος is unexampled. As to (1), we may observe that in *O. T.* 1279 it is almost certain that Soph. used αἱματόεις : Porson there conjectured αἱματοῦσσ᾽ (for αἵματος) : Heath, with greater probability, αἱματοῦς. As to (2), it is true that there is no other instance of this contr. in a superlative : but there are epic examples of the same contr. in the positive: *Od.* 7. 110 τεχνῆσσαι, restored by Bekker from τεχνῆσαι (schol. τεχνήεσσαι, τεχνιτίδες): *Il.* 18. 475 καὶ χρυσὸν τιμῆντα καὶ ἄργυρον (where no emend. is probable). I do not add *Il.* 9. 605 οὐκέθ᾽ ὁμῶς τιμῇς ἔσεαι: for, though we cannot read ὁμῶς τιμῆς, I would suggest that the change of one letter will restore the true reading, viz. ὁμῆς τιμῆς: and C. A. Lobeck, while conceding that Florian Lobeck (*Quaest. Ion.* p. 8) used ‘too great severity’ in condemning τολμήστατος, agrees with him in pointing out that such a contraction as τεχνῇς for τεχνήεις cannot be safely inferred from τεχνῆσσα for τεχνήεσσα (*Pathol.* 1. 343). This consideration is a fresh argument against Hermann’s conj. χαλαζῇς in *O. T.* 1279 : and it also reminds us that τολμήστατος does not imply τολμῇς. The example of Oppian (*Cyneg.* 2. 140 ἀργῆντα χαλινά) shows that late poets did not shrink from this contraction. In Pindar we find αἰγλάεντα (*P.* 2. 10), ἀλκάεντας (*O.* 9. 77), ἀργάεντα (*O.* 13. 69), φωνάεντα (*O.* 2. 93), with synizesis of αε; though recent edd. no longer write αἰγλᾶντα, etc. On the whole, I believe that Soph. would have felt that he had sufficient poetical warrant for τολμήστατε. No emendation seems possible which is at once tolerable in itself, and such as to account for the tradition. τολμίστατε was a worthless conjecture. Such forms as κλεπτίστατος, φαρμακίστατος always imply a positive in -ης or -ος, and occur only in Comedy or in late prose.
 
 ## 985
 **οἵδ᾽** : cp. 1003.
@@ -31,7 +31,7 @@
 17 τολμήoraros [mixed] → τολμήστατος
 18 τεχρνῇς [greek] (Greek model: τεχνῇς) → τεχνῇς
 19 τεχνῆσσα [greek] → ok
-20 χαλαΐῆς [greek] (Greek model: χαλαζῆῇς) → χαλαζῆς
+20 χαλαΐῆς [greek] (Greek model: χαλαζῆῇς) → χαλαζῇς
 21 τολμήoraros [mixed] → τολμήστατος
 22 τολμήoraros [mixed] → τολμήστατος
 23 τολμῇς. [conf] → ok (τολμῇς.)
@@ -46,6 +46,7 @@
 32 épmys [latin] (Greek model: ἕρπῃϑ:) → ἕρπῃς:
 --- notes
 Joined "τολμήστατε=τολμηέστατε" (cut at the = by the draft). The endings άεις, ήεις, όεις, ήστατος, ηέστατος, -ης, -ος and the letters αε are printed without breathing (endings, not words); kept so, the checker's remarks on them stand. τιμῇς (Il. 9. 605), τεχνῇς and τολμῇς are printed with iota subscript; the second and third τιμῆς without.
+984	rev: χαλαζῆς corrected to χαλαζῇς (iota subscript in the print, as τεχνῇς)
 
 === p-0229
 + coalescence of final **η** with an *aspirated* **ε** or **α** is extremely rare: Ar. *Ach.* 828 εἰ μὴ ἑτέρωσε (cp. *Ran.* 64, *Lys.* 736): Philemon Παρεισίων 3 ἢ ἁμάρτημα τί ;—The addition of **γ᾽** to **ἕρπῃς** is plausible : but the placid answer is perhaps more effective without it : cp. 105.
@@ -119,9 +120,7 @@ Joined "him,—Ἡφαίστῳ...γαιάων πολὺ φιλτάτη" back in
 **ἡ δ᾽ ὁδὸς**: cp. *El.* 1501 πόλλ᾽ ἀντιφωνεῖς, ἡ δ᾽ ὁδὸς βραδύνεται.
 
 ## 994
-**οὐ φήμ᾽**.
-
-**ἐγὼ δὲ φημί**. So Gernhard. The MSS. have οὔ φημ᾽ ἔγωγε.—φημί. Now, φημί could stand thus alone, if it were the answer to a question, φὴς ἢ οὐ φής; but not here, where two persons are opposed to each other. Cp. *O. C.* 840 ΧΟ. χαλᾶν λέγω σοι. ΚΡ. σοὶ δ᾽ ἔγωγ᾽ ὁδοιπορεῖν.
+**οὐ φήμ᾽.—ἐγὼ δὲ φημί**. So Gernhard. The MSS. have οὔ φημ᾽ ἔγωγε.—φημί. Now, φημί could stand thus alone, if it were the answer to a question, φὴς ἢ οὐ φής; but not here, where two persons are opposed to each other. Cp. *O. C.* 840 ΧΟ. χαλᾶν λέγω σοι. ΚΡ. σοὶ δ᾽ ἔγωγ᾽ ὁδοιπορεῖν.
 
 **πειστέον τάδε**=δεῖ πείθεσθαι τάδε. Cp. 1252.
 
@@ -169,6 +168,7 @@ Joined "him,—Ἡφαίστῳ...γαιάων πολὺ φιλτάτη" back in
 24 Phoen. [conf] → ok
 --- notes
 994: split "οὐ φήμ’.—ἐγὼ δὲ φημί." into two lemmas (both bold); joined the MSS. reading "ἔγωγε.—φημί" (italic) and made "πειστέον τάδε=δεῖ πείθεσθαι τάδε" a lemma paragraph (draft had split it at the =). 999: lemma γῆς (draft τῆς), joined at the =.
+994	rev: "οὐ φήμ’.—ἐγὼ δὲ φημί" joined again into one lemma (one verse quoted with its change of speaker; Jebb's "So Gernhard" bears on the whole)
 
 === p-0231
 ## 1002

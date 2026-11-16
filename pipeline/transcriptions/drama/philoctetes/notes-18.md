@@ -48,6 +48,7 @@
 21 473.-- [conf] → 473.
 --- notes
 Beyond the flags: "cp. 22, 417 f." read "cp. *El.* 417 f." as printed; "ὁμιλίαν: Eur. Ale." → *Alc.*; "the Ms." → MS.; ἦγον (OCR "γον"); bold kept on ἐξηύχησ’, τλῆναι, ἂν, τἀμὰ πήματα, εὐπόρως inside the notes; italics added (*Ai.*, *Ant.*, *El.*, *Vesp.*, *Aph.*, *ib.*, *sc.*, *pledge*).
+872	rev: no change; ἦγον (O. T. 783 quoted) is printed without a visible breathing and circumflex (worn type), written ἦγον as the verse has it
 
 === p-0213
 ## 878
@@ -80,7 +81,7 @@ Beyond the flags: the draft's separate paragraphs **δή** / **ἤδη**. are on
 
 === p-0214
 ## 882
-**ἀλλ’ ἥδομαι μέν**: here **μέν** slightly emphasises the verb, but does not oppose it to any other thought: the νῦν δ’ in 886 should not be regarded as answering to it. Cp. 1278: *O. T.* 82 ἀλλ’ εἰκάσαι μέν, ἡδύς: *ib.* 769 ἀλλ’ ἵξεται μέν.
+**ἀλλ’ ἥδομαι μέν**: here **μέν** slightly emphasises the verb, but does not oppose it to any other thought: the **νῦν δ’** in 886 should not be regarded as answering to it. Cp. 1278: *O. T.* 82 ἀλλ’ εἰκάσαι μέν, ἡδύς: *ib.* 769 ἀλλ’ ἵξεται μέν.
 
 **ἀνώδυνον** masc., to be taken adverbially with both participles (‘living and breathing, free from pain’): not neut., with βλέποντα only, as if the sense were, ‘showing the absence of pain by thy looks.’
 
@@ -128,6 +129,7 @@ Beyond the flags: the draft's separate paragraphs **δή** / **ἤδη**. are on
 30 αἶρε [conf] → ok
 --- notes
 Beyond the flags: the 882 and 884 notes were garbled across lines and are rewritten from the image: "Cp. 1248" → 1278; the paragraph "**βλέποντα**=ζῶντα … οἰμώξειαν." restored (its words were scattered); in 884 the draft's "Judged meaning in is the…" and "in view mistaken of, cp. for Thue. fo …" were the two columns' lines mixed: the sentence order restored from the image; "—Not: ‘In view of…" is in plain type after the dash and stays in the 884 paragraph (the draft had made it a lemma **Νοῖ**); αἳ (twice, OCR "al"); "Eur. Lon 411d" → *Ion* 411 ἅ; bold kept on μέν, συμβόλαια, τὰς παρούσας ξυμφορὰς, πρὸς, τὰς παρ. ξυμφοράς, πρὸς τὰς παρ. ξυμφορὰς; italics as printed.
+882	rev: "the νῦν δ’ in 886" → "the **νῦν δ’** in 886": δ’ is printed bold, νῦν in the italic sort the bold fount uses for νῦν here and in 879 and the lemma of 886
 
 === p-0215
 + Aesch. *P. V.* 747 τί δῆτ’ ἐμοὶ ζῆν κέρδος, ἀλλ’ οὐκ ἐν τάχει | ἔρριψ’ ἐμαυτὴν τῆσδ’ ἀπὸ στύφλου πέτρας...; At v. 879 Ph. asked N. to assist him; and now—after a kindly greeting—N. proceeds to do so. His hands are now stretched forth to Ph., ready to raise him, and the words νῦν δ’ αἶρε σαυτόν prepare Ph. for the effort.
