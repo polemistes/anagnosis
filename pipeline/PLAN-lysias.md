@@ -288,6 +288,20 @@ yield written under Decisions.
 
 ## For the author
 
+**Answered by the author on 2026-11-16** (these settle the matching questions below):
+
+* Syntax for speeches 12, 13 and 19: **ship them without syntax** (the only trees are under a
+  non-commercial licence).
+* The syntax label: **per speech** (hand-made or automatic), with the small build and reader
+  change that needs.
+* The speeches' names in the chooser: **lower-case Greek with accents, with the speech's number**.
+* The product id: **`lysias_speeches_hude`**.
+* Settled as proposed, the author not objecting: Hude's Latin praefatio is not shipped, his sigla
+  are; the introduction is Adams's general one plus each commentator's introduction to his speech;
+  13.65-68 follow Hude's own order and numbers.
+* Still open: whether the Eroticus (XXXV, from Plato's Phaedrus) goes in.
+
+
 Nothing here blocks the text batches. In the order in which an answer is needed:
 
 1. **Syntax for speeches 12, 13 and 19** (needed at step 7). GLAUx's trees for seven speeches
