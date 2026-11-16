@@ -653,6 +653,23 @@ def tokens(slug: str, doc, sources: Path, out: Path, lexicon: Path, build: Path)
         nodes += syntax_nodes(tb, used)
         rows += got
     relatives_and_articles(rows)
+    # the checking pass over the speeches without trees (hude_analyses.py): the agents' choices
+    from .hude_analyses import answers as checked_analyses
+    table = checked_analyses() if slug == "lysias" else {}
+    applied = 0
+    for r in rows:
+        a = table.get((r["line"], int(r["ord"])))
+        if a is None or r.get("sentence"):
+            continue
+        if a[0] != r["form"]:
+            review.append({"line": r["line"], "form": r["form"], "lemma": r["lemma"], "postag": r["postag"],
+                           "reason": f"the checked analysis was made for {a[0]}: the text has changed"})
+            continue
+        if (r["lemma"], r["postag"]) != (a[1], a[2]):
+            applied += 1
+        r["lemma"], r["postag"] = a[1], a[2]
+    if table:
+        print(f"checked analyses (speeches without trees): {len(table)} words in the table, {applied} readings changed by it")
     hands = HAND_ANALYSES.get(slug, {})
     fixes = TEXT_LEMMA_FIXES.get(slug, {})
     for r in rows:
@@ -792,7 +809,7 @@ def write_gillies(slug: str, out: Path, units: list[dict], problems: list[str], 
     the oration's heading are not shipped. A speech whose paragraphs carry no marks yet is left
     out and named."""
     from .drama import GILLIES_EDITION, LYSIAS_GILLIES
-    from .hude_notes import paragraphs
+    from .hude_notes import english_stops, paragraphs
 
     have = {base(u["n"]) for u in units}
     rows: list[str] = []
@@ -809,7 +826,7 @@ def write_gillies(slug: str, out: Path, units: list[dict], problems: list[str], 
         for n, text in segs:
             if f"{speech}.{n}" not in have:
                 problems.append(f"Gillies: section {speech}.{n} is not in the Greek")
-            rows.append(f"{speech}.{n}\t" + " ".join(text.split()))
+            rows.append(f"{speech}.{n}\t" + english_stops(" ".join(text.split())))
         done.append(speech)
     if rows:
         meta = {"title": PLAYS[slug].title_en, "translator": "John Gillies (1778)", "lang": "eng",

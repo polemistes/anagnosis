@@ -107,6 +107,9 @@ def main(argv: list[str] | None = None) -> int:
     mly.add_argument("--text-only", action="store_true", help="only the Greek text and the apparatus (no words, syntax, translation, commentaries)")
     mly.add_argument("--without-notes", action="store_true", help="leave the commentaries, introduction, appendix and Gillies's translation out (while their batches are being checked)")
     mly.add_argument("--drafts", action="store_true", help="a trial: take the commentary batches as they are, flags not yet answered (never into texts/)")
+    lan = sub.add_parser("lysias-analyses", help="the checking pass over the word analyses of the speeches of Lysias without trees (hude_analyses.py): jobs (write the job files), check FILE..., measure (the control jobs against the hand-made trees)")
+    lan.add_argument("step", choices=["jobs", "check", "measure"])
+    lan.add_argument("files", nargs="*")
     cgm = sub.add_parser("check-gillies-marks", help="after the alignment pass on Gillies's translation of Lysias: only the marks added, the marks sections of the Greek and rising; lists each mark beside the Greek")
     cgm.add_argument("speeches", nargs="+", type=int)
     sub.add_parser("fetch-nt", help="download the New Testament sources into pipeline/sources/nt/ (SBLGNT, MACULA, Dodson, BSB)")
@@ -330,6 +333,23 @@ def main(argv: list[str] | None = None) -> int:
             raise SystemExit("--drafts is for a trial merge: give --out a scratch folder")
         return 1 if merge_lysias(args.slug, SOURCES, Path(args.out), ROOT / "pipeline" / "build",
                                  None if args.text_only else DATA / "lexicon.sqlite", args.drafts, not args.without_notes) else 0
+    elif args.cmd == "lysias-analyses":
+        from . import hude_analyses
+        if args.step == "jobs":
+            for line in hude_analyses.make_jobs(TEXTS, SOURCES, DATA / "lexicon.sqlite"):
+                print(line)
+        elif args.step == "measure":
+            for line in hude_analyses.measure(TEXTS, SOURCES, DATA / "lexicon.sqlite"):
+                print(line)
+        else:
+            bad = 0
+            for f in args.files:
+                problems = hude_analyses.check_job(Path(f))
+                print(f"{f}: {len(problems)} remarks")
+                for p in problems:
+                    print("  " + p)
+                bad += len(problems)
+            return 1 if bad else 0
     elif args.cmd == "check-gillies-marks":
         from .hude_merge import check_gillies_marks
         bad = 0

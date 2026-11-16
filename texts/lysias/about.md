@@ -16,4 +16,4 @@ The thirty-four speeches of Lysias in the Greek text of Karl Hude's Oxford editi
 
 Each speech is a book of the text; a passage is cited by speech and section (12.7). The text and apparatus were read from the scan of Hude's edition, matched word by word to the Perseus Digital Library's text of the speeches to find reading errors, and checked against the page wherever the two differed; where Hude evidently misprints a word it is corrected, and a note in the apparatus says so. Four pages of the second speech (2.23–2.30 and 2.59–2.66) are missing from the Internet Archive's online view of the scan; they were read from the scan's own image files.
 
-Speeches 12, 13 and 19 have no syntax trees: the only trees made for them are under a licence that does not allow use here. Eight speeches have no English translation in the public domain.
+Speeches 12, 13 and 19 have no syntax trees: the only trees made for them are under a licence that does not allow use here. The word analyses (dictionary form and grammatical form) of these three speeches are automatic. Eight speeches have no English translation in the public domain.

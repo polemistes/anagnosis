@@ -286,6 +286,28 @@ def speech_notes(speech: int, sections: dict[str, list[str]], sources: Path, dra
     return placed, intro, log
 
 
+_SPACED_STOP = re.compile(r"(?<=\S)[ \u00a0]+([;:?!])(?=[\s)\]*’”\"']|$)")
+_GREEK_LETTER = re.compile(r"[\u0370-\u03ff\u1f00-\u1fff]")
+_LETTER = re.compile(r"[^\W\d_]")
+
+
+def english_stops(text: str) -> str:
+    """The old print sets a space before ; : ? ! and the readers of the pages did not all keep it:
+    the merged English prose has none. Only English is touched. After a Greek word a ; may be the
+    Greek question mark, so the space before ; ? ! stays where the last letter before it is
+    Greek; a colon is no Greek stop and loses its space after a Greek lemma too, but not where
+    Greek stands on both sides of it. The raised stop is never touched."""
+    def fix(m: re.Match) -> str:
+        before = _LETTER.findall(text[:m.start()][-12:])
+        greek_before = bool(before) and bool(_GREEK_LETTER.match(before[-1]))
+        if m.group(1) != ":":
+            return m.group(0) if greek_before else m.group(1)
+        after = _LETTER.search(text[m.end():m.end() + 12])
+        greek_after = bool(after) and bool(_GREEK_LETTER.match(after.group(0)))
+        return m.group(0) if greek_before and greek_after else m.group(1)
+    return _SPACED_STOP.sub(fix, text)
+
+
 def write(texts: Path, slug: str, sources: Path, build: Path, drafts: bool = False) -> list[str]:
     """commentary-<editor>.md for the three commentators, introduction.md and appendix.md, from
     the checked batches (with `drafts`, from the batches as they are: a trial). Returns the log."""
@@ -304,7 +326,7 @@ def write(texts: Path, slug: str, sources: Path, build: Path, drafts: bool = Fal
             placed, intro, lg = res
             log += lg
             for sec, p in placed:
-                by_editor.setdefault(editor, {}).setdefault(sec, []).append(p)
+                by_editor.setdefault(editor, {}).setdefault(sec, []).append(english_stops(p))
             if intro:
                 speech_intros[speech] = intro
         own = paragraphs(speech, "intro", drafts)
@@ -330,7 +352,7 @@ def write(texts: Path, slug: str, sources: Path, build: Path, drafts: bool = Fal
                                     + ": Adams's general introduction and each editor's introduction to his speeches",
                           "license": TRANSCRIPTION_LICENSE}) + [""]
         for p in general or []:
-            md += [p, ""]
+            md += [english_stops(p), ""]
         for speech in sorted(speech_intros):
             name = LYSIAS_EDITORS[LYSIAS_NOTES[speech][0]][1]
             md += [f"# {speech}. {SPEECH_NAMES[speech][1]} ({name})", ""]
@@ -340,7 +362,7 @@ def write(texts: Path, slug: str, sources: Path, build: Path, drafts: bool = Fal
                     if re.fullmatch(r"# (?:Introduction|[IVXL]+)\.?", p) or len(skel(p)) == 0 and False:
                         continue
                     p = "#" + p
-                md += [p, ""]
+                md += [english_stops(p), ""]
         (out / "introduction.md").write_text("\n".join(md).rstrip() + "\n", encoding="utf-8")
         print(f"wrote introduction.md: the general introduction {'present' if general else 'MISSING'}, {len(speech_intros)} speeches")
     appendix = paragraphs("lysias-appendix", "intro", drafts)
@@ -350,7 +372,7 @@ def write(texts: Path, slug: str, sources: Path, build: Path, drafts: bool = Fal
                           "source": f"{edition}, Appendix I-V; transcribed from the Internet Archive scan {scan}",
                           "license": TRANSCRIPTION_LICENSE}) + [""]
         for p in appendix:
-            md += [p, ""]
+            md += [english_stops(p), ""]
         (out / "appendix.md").write_text("\n".join(md).rstrip() + "\n", encoding="utf-8")
         print(f"wrote appendix.md: {len(appendix)} paragraphs")
     (build / f"{slug}-notes.log").write_text("\n".join(log) + "\n", encoding="utf-8")

@@ -357,6 +357,61 @@ merge takes the text from one mark to the next as one segment under that section
 (`hude_merge.gillies_segments`); a speech without marks is left out and named in the log. The
 prose checker (`check-drama-prose`) gives the same output with the marks as without.
 
+## The words without trees: the checking pass (speeches 12, 13, 19)
+
+**Why.** In these speeches every word has the lemma and form the analyser gives the word by
+itself. Against the hand-made trees of speeches 1, 14, 15, 23, 24 (7,590 words, each given to
+the analyser alone) that reading differs from the trees' in 5.8 words of a hundred: the case in
+214 words, the lemma in 190, the number in 73, mood, tense, person, voice in fewer. Counted as
+the same reading: gender, pronoun or adjective, particle or adverb, middle or passive, which the
+trees themselves do not treat alike (`hude_analyses.signature`).
+
+**What the agent does.** It sees a section's Greek and, for each word whose spelling allows more
+than one reading, the readings (lemma, tag, the tag in words; the present reading first), and
+writes the number of the one that is right in the sentence. A reading that is not offered can
+only be given as `other: lemma tag reason`; `? reason` keeps the present reading. It translates
+nothing and may not open the trees, the tokens or a translation. Brief:
+`transcriptions/lysias/ANALYSES.md`.
+
+**Which words.** Those where the analyser's readings of exactly this spelling differ in lemma,
+person, number, tense, mood, voice or case; for the commonest words (the article, καί, οὗτος …:
+`STOP`) only readings of their own lemma that the treebanks know (the case of τὸ, not whether
+καί is a form of καίω); a tag with letters missing beside a fuller one is dropped; at most eight
+readings. On the speeches with trees this shows 37 % of the words and holds 83 % of the
+differences. Words settled by hand (`HAND_ANALYSES`) are not asked about.
+
+**The jobs** (`lysias-analyses jobs`; an existing file is never written again):
+`transcriptions/lysias/analyses/job-01.tsv` … `job-28.tsv`, about 160 words to decide each (a
+run of whole sections, about 400 words of text): speech 12 in jobs 01–10, 13 in 11–21, 19 in
+22–28; 4,214 words to decide in all. **Jobs 91 and 92 are the control**: speech 1, 1.1–1.10
+(154 words to decide) and speech 24, 24.1–24.10 (164), which have hand-made trees (by two
+different annotators) and are set exactly as the others, from the analyser alone; the agents are
+not told.
+
+**The checker**: `lysias-analyses check FILE…`: every word answered, the number within the
+list, `other:` with a lemma, a well-formed tag and a reason, and nothing but the answers changed
+(compared with the committed file).
+
+**How the answers enter the build.** The finished job files are the table:
+`hude_analyses.answers()` reads every job of 12, 13, 19 in which all words are answered, and
+`hude_merge.tokens` gives each word its chosen lemma and tag (after the rules, before the hand
+analyses and the lemma fixes; a word whose form no longer matches the file goes to the review
+list). `tokens.tsv` is never edited by hand; `merge-lysias` prints how many readings the table
+changed. The control jobs never reach the merge.
+
+**The measurement** (`lysias-analyses measure`): for every word of the two control stretches
+(985 words) it compares the reading with the trees' before the pass (the analyser alone) and
+after it (the agent's choice where it made one), and prints the words differing before and
+after, those corrected and those spoiled, with each spoiled word and each word still differing.
+Before: 56 words differ (5.7 %: 3.6 % in speech 1, 7.6 % in speech 24). With every choice right
+the pass would leave 14 (1.4 %: nine words it does not show, five where the trees' reading is not
+among the analyser's). **The rule for going on**: run the two control jobs first; the pass goes
+on to jobs 01–28 if it removes at least half of the differences (56 down to 28 or fewer) and
+spoils no more than one word for every ten it corrects, the spoiled words read by eye first (a
+few are the trees' own slips or conventions). If a cheaper model fails that, the control files
+are restored from git and run again with the stronger model; if that fails too, the pass is
+dropped and the speeches stay as they are, with the line in about.md.
+
 ## The reader (not changed in this stage; `app/` untouched)
 
 Two things the reader needs for this text; both are small and neither changes another text.
@@ -526,13 +581,39 @@ only after the transcription batches above are checked, read a second time **and
 Then `.venv/bin/python -m anagnosis_pipeline check-gillies-marks 1 3 4 21 26 34` (0 remarks; its
 listing read down once), commit, and `merge-lysias` writes `eng-gillies.txt`.
 
+**The words without trees** (`pipeline/transcriptions/lysias/lysias-analyses.workflow.js`, brief
+`ANALYSES.md`; general-purpose; the model is an argument). First the control:
+
+```json
+{ "atOnce": 2, "model": "sonnet", "jobs": ["91", "92"] }
+```
+
+then `.venv/bin/python -m anagnosis_pipeline lysias-analyses check transcriptions/lysias/analyses/job-9*.tsv`
+and `… lysias-analyses measure`, and the rule above. If the pass goes on:
+
+```json
+{ "atOnce": 8, "model": "sonnet", "jobs": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14",
+  "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28"] }
+```
+
+then the checker on every file (`job-[0-2]*.tsv`), commit `pipeline/transcriptions/lysias/analyses`,
+`merge-lysias` (it prints "checked analyses: … words in the table, … readings changed"), build.
+
 After each wave: `check-drama-prose <entry> <file>` on every file, commit
 (`git commit pipeline/transcriptions/drama/lysias-NN`), and at the end `merge-lysias`, then read
 `pipeline/build/lysias-notes.log`.
 
 ## For the author
 
-**New questions (2026-11-16, from the merge, the words and the build):**
+**Answered on 2026-11-16 (the questions that follow, from the merge, the words and the build):**
+speeches 12, 13, 19: **the checking pass**, judged by a measurement ("The words without trees"
+below), and about.md says in one line that their word analyses are automatic; Gillies: **marks
+inside his paragraphs where the place can be told, at the paragraph's head otherwise**; the two
+words cut by a supplement **stay two tappable halves**; the catalogue entry is fine, nothing is
+released before the commentaries and Gillies are in. **Still open: the glossary** (whether
+every party to a speech should have an entry; no more entries for now).
+
+**The questions as they were put:**
 
 * **Speeches 12, 13 and 19 have no trees, so every word there (12,860, a quarter of the text)
   has the lemma and form the analyser gives the word by itself.** Measured on the speeches with
@@ -690,7 +771,7 @@ Nothing here blocks the text batches. In the order in which an answer is needed:
 - [x] Step 4: text and apparatus batches, first pass (2026-11-16, run by the main session): all 45 batches checked by agents against the crops
 - [x] Step 5: second passes (2026-11-16, the main session): the residual pass on all 45 batches (71 corrections) and the independent review of all 45 (35 corrections); commit 1e8aef8. Both stayed for the whole text: each caught errors the pass before had left
 - [x] Step 6: merge and the checks (2026-11-16): `merge-lysias`: 1,145 lines (1,116 sections of 1,116), 34 speeches, 280 paragraphs, from 269 pages; 4,091 apparatus items under 1,061 sections; 0 problems. The 19 serious lemma misses looked up on the page and settled (none a slip of the text: `SETTLED`), 568 weak ones sampled (no class of fault); the pages flagged at set-up looked at; the misprint tables (6 in the text, 6 in the apparatus). See Decisions
-- [x] Step 7: words and syntax (2026-11-16): each speech aligned to its own trees (AGDT 1, 14, 15, 23; GLAUx for the rest, hand-made for 24; none for 12, 13, 19); the label by speech (`# syntax-by-book`, `syntax_by_book` in the built meta table); 56,484 words, none without a lemma; 6,923 syntax nodes; the review list (830 words) gone through: what it was and what was done under Decisions. The reader's change is described under "The reader" and not made
+- [x] Step 7: words and syntax (2026-11-16): each speech aligned to its own trees (AGDT 1, 14, 15, 23; GLAUx for the rest, hand-made for 24; none for 12, 13, 19); the label by speech (`# syntax-by-book`, `syntax_by_book` in the built meta table); 56,484 words, none without a lemma; 6,923 syntax nodes; the review list (830 words) gone through: what it was and what was done under Decisions. The reader's change is described under "The reader" and not made. Still to do: the checking pass over the words of 12, 13, 19 (prepared: "The words without trees"; the control jobs first)
 - [ ] Step 8: translations: the 1898 version done in the merge (`eng-1898.txt`: 699 segments of 20 speeches, every one under a section of Hude's text). Gillies: all six speeches (1, 3, 4, 21, 26, 34) fetched, read and drafted (45 pages, 8 batch files, 1,726 flags; the ranges cut back to the orations on the drafts); the brief for his batches (INSTRUCTIONS-prose.md) and for the alignment pass (`transcriptions/lysias/GILLIES-ALIGN.md`), the script `lysias-gillies-align.workflow.js`, the checker `check-gillies-marks`; the arguments under "Hand-over". Still to do: the agents' check and second reading of the batches, the commit, the alignment pass, the merge
 - [ ] Step 9: commentaries and introductions: set up and drafted (2026-11-16): 21 entries, 493 pages, 74 batches, 5,797 flags (Adams 353 pages / 51 batches / 3,888 flags; Morgan 54 / 9 / 898; Shuckburgh 86 / 14 / 1,011); pilot pages checked (Adams p-0069, p-0078; Morgan p-0172; Shuckburgh p-0259); the brief's section, the workflow script and its arguments under "Hand-over"; `hude_notes.py` files the notes under Hude's sections. With the main session's agents since 2026-11-16: Morgan's nine batches checked and read a second time (a412f1e), Shuckburgh's and Adams's following; then `merge-lysias` (without `--without-notes`) and `pipeline/build/lysias-notes.log`
 - [x] Step 10: sigla, glossary, about (2026-11-16): `sigla.md` and `about.md` (`transcriptions/lysias/static/`, copied by the merge); the book names in lower-case Greek with numbers (`hude_merge.SPEECH_NAMES`); `glossary.md` (188 names), `shortdefs.tsv` (21 ordinary words, 185 names, one line for δῆμος), `aliases.tsv` (13), written by hand in `texts/lysias/` (the merge does not touch them); `check`: 2,801 lemmas, none missing from the dictionaries and the glossary, none without a short definition; the texts/README.md section
@@ -927,6 +1008,25 @@ Nothing here blocks the text batches. In the order in which an answer is needed:
   are to be merged before any reader release carries the catalogue. Other texts verified
   unchanged: data/lexicon.sqlite and the databases of three other texts by checksum before and
   after; the tests (277).
+
+* **2026-11-16, the space before ; : ? ! in the English prose.** The old prints set a space
+  before these stops and the agents who read the pages did not all keep it. The merge of the
+  Lysias prose (the three commentaries, the introduction, the appendix: `hude_notes.write`;
+  Gillies: `write_gillies`) now writes it without the space (`hude_notes.english_stops`; the
+  batch files keep what their reader typed). Only English is touched: where the last letter
+  before the stop is Greek, the space before ; ? ! stays (a ; there may be the Greek question
+  mark); a colon is no Greek stop and loses its space after a Greek lemma too ("**κινδυνεύειν** :"),
+  but not where Greek stands on both sides of it; the raised stop is never touched. Test:
+  `test_english_stops`. **The other texts' prose merges do not do this**: nothing in
+  `drama_prose.py` or the older merges touches the space; their output is as the readers typed
+  it, without the space throughout in three commentaries looked at (Jerram, Taylor, Jebb's
+  Trachiniae: no line with it) and with it here and there in three others (Sidgwick's Agamemnon
+  70 lines of 2,664, Starkie 53 of 6,900, Paley 15 of 1,516). They were not changed.
+* **2026-11-16, the words without trees: the checking pass prepared** (the author's answer; the
+  section of that name): the module `hude_analyses.py`, the CLI `lysias-analyses jobs | check |
+  measure`, 28 job files and two control jobs, the brief, the workflow script; the merge reads
+  the answers as a table. Nothing is answered yet, so tokens.tsv is unchanged by it. about.md
+  now says that the word analyses of the three speeches are automatic.
 
 ## Sizes, for planning
 

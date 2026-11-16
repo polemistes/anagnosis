@@ -504,6 +504,55 @@ class WordsAndTranslation(unittest.TestCase):
         self.assertEqual([(r["lemma"], r["postag"]) for r in rows if r["form"] in ("ὃ", "ὅ", "ἥ")],
                          [("ὅς", "p-s---na-"), ("ὅς", "p-s---na-"), ("ὁ", "l-s---fn-"), ("ὁ", "p-s---mn-")])  # the trees' word is left
 
+    def test_english_stops(self):
+        from anagnosis_pipeline.hude_notes import english_stops as f
+        self.assertEqual(f("we had not settled our differences ; and though it be so : he said, why ? Athenians !"),
+                         "we had not settled our differences; and though it be so: he said, why? Athenians!")
+        self.assertEqual(f("(as he says) ; *so* : and “thus” ?"), "(as he says); *so*: and “thus”?")
+        # after a Greek word ; may be the Greek question mark: untouched, as are · and a ; that stands close
+        self.assertEqual(f("he asks τί δέ ; and goes on"), "he asks τί δέ ; and goes on")
+        self.assertEqual(f("τί δέ; πῶς · οὕτως ·"), "τί δέ; πῶς · οὕτως ·")
+        # a colon is no Greek stop: after a lemma it loses its space, between Greek words it stays
+        self.assertEqual(f("**κινδυνεύειν** : *to run a risk*"), "**κινδυνεύειν**: *to run a risk*")
+        self.assertEqual(f("αἰνέσαι : ἐπαινέσαι"), "αἰνέσαι : ἐπαινέσαι")
+        # nothing else moves: a time, a ratio, a stop already close
+        self.assertEqual(f("at 3:15; so: yes"), "at 3:15; so: yes")
+
+    def test_checked_analyses(self):
+        import tempfile
+        from anagnosis_pipeline import hude_analyses as H
+        self.assertEqual(H.describe("v3saia---"), "verb, 3rd singular aorist indicative active")
+        self.assertEqual(H.describe("v-sapamn-"), "verb, aorist participle active, singular masculine nominative")
+        self.assertEqual(H.describe("n-p---mv-"), "noun, plural masculine vocative")
+        # the same reading for a learner: gender, part of speech, middle or passive do not count; case does
+        self.assertEqual(H.signature("οὗτος", "p-p---ng-", {}), H.signature("οὗτος", "a-p---mg-", {}))
+        self.assertEqual(H.signature("γίγνομαι", "v--anm---", {}), H.signature("γίγνομαι", "v--ane---", {}))
+        self.assertNotEqual(H.signature("ὁ", "l-s---na-", {}), H.signature("ὁ", "l-s---nn-", {}))
+        words = [{"line": "12.1", "ord": k, "form": f, "now": ("", ""), "readings": r} for k, (f, r) in enumerate((
+            ("τὸ", [("ὁ", "l-s---na-"), ("ὁ", "l-s---nn-")]), ("πλῆθος", []), ("ἀξιῶ", [("ἄξιος", "a-d---nn-"), ("ἀξιόω", "v1spia---")]),
+            ("δοκεῖ", [("δοκέω", "v3spia---"), ("δοκέω", "v2spie---")])))]
+        text = H.job_text(1, 12, words, {"12.1": "τὸ πλῆθος ἀξιῶ δοκεῖ"})
+        with tempfile.TemporaryDirectory() as d:
+            f = Path(d) / "job-01.tsv"
+            f.write_text(text, encoding="utf-8")
+            self.assertEqual(len(H.check_job(f)), 3)   # three words, none answered
+            self.assertEqual(H.answers(Path(d)), {})   # a half-done file gives nothing to the merge
+            lines = text.splitlines()
+            items = [i for i, l in enumerate(lines) if l.endswith("→ ")]
+            lines[items[0]] += "2"
+            lines[items[1]] += "other: ἀξιόω v1spia--- the verb, not the adjective"
+            lines[items[2]] += "? either person fits"
+            f.write_text("\n".join(lines) + "\n", encoding="utf-8")
+            self.assertEqual(H.check_job(f), [])
+            self.assertEqual(H.answers(Path(d)), {("12.1", 0): ("τὸ", "ὁ", "l-s---nn-"), ("12.1", 2): ("ἀξιῶ", "ἀξιόω", "v1spia---")})
+            lines[items[0]] = lines[items[0]][:-1] + "5"
+            lines[items[1]] = lines[items[1]].split("→")[0] + "→ other: ἀξιόω"
+            f.write_text("\n".join(lines) + "\n", encoding="utf-8")
+            self.assertEqual(len(H.check_job(f)), 2)
+            (Path(d) / "job-91.tsv").write_text(text.replace("→ ", "→ 1"), encoding="utf-8")
+            self.assertEqual(H.answers(Path(d)), {})   # the control jobs never reach the merge
+        self.assertEqual(H._frame("12.1:0\tx\ty\t→ 2\n"), H._frame("12.1:0\tx\ty\t→ \n"))
+
     def test_gillies_marks(self):
         from anagnosis_pipeline.hude_merge import _batch_text, gillies_segments
         paras = ["# An Oration", "§1 It is wonderful, O Senators! he should pretend. §3 But granting I was his enemy.",
