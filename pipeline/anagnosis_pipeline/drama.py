@@ -1051,7 +1051,8 @@ def perseus_translation(path: Path, stages_apart: bool = False) -> list[tuple[st
     when it stands before the verse's words); but a short direction before the words of a verse
     or a speech (Coleridge's "MEDEA (within)."; "(To the Nurse.)"), which says how the speaker
     speaks, stays at the head of the verse's text in parentheses, "(within) Ah, me!", as the
-    Clouds' and the Agamemnon's translations show such directions."""
+    Clouds' and the Agamemnon's translations show such directions, and a short one in
+    parentheses among the words stays where it stands ("… hearth. (To a Servant) Go before …")."""
     from lxml import etree
 
     root = etree.parse(str(path)).getroot()
@@ -1103,13 +1104,18 @@ def perseus_translation(path: Path, stages_apart: bool = False) -> list[tuple[st
                         if isinstance(sub.tag, str) and etree.QName(sub).localname == "stage":
                             raw = re.sub(r"\s+", " ", "".join(sub.itertext())).strip()
                             st = _stage_text(raw)
+                            inline = ""
                             if st and not seen_words and short(raw):
                                 head.append(st.rstrip(".").strip())
+                            elif st and short(raw) and raw.startswith("(") and not re.match(r"\(\s*(?:Exit|Exeunt|Enter)\b", raw):
+                                # a short direction in parentheses among the words ("… hearth.
+                                # (To a Servant.) Go before …") stays where it stands
+                                inline = f" ({st.rstrip('.').strip()}) "
                             elif st:
                                 (after if seen_words else before).append(st)
                             # the stage's place keeps a space between the words round it
                             prev = sub.getprevious()
-                            tail = (sub.tail or "")
+                            tail = inline + (sub.tail or "")
                             if prev is not None:
                                 prev.tail = (prev.tail or "") + " " + tail
                             else:
