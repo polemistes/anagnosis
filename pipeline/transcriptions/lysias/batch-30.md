@@ -111,7 +111,7 @@
 
 === p-0195
 --- text
-195.1	αὑτοῦ, ἐν ἑβδομήκοντα δὲ ἔτεσιν οὐδʼ ἂν εἶς λάθοι πονηρὸς
+195.1	αὑτοῦ, ἐν ἑβδομήκοντα δὲ ἔτεσιν οὐδʼ ἂν εἷς λάθοι πονηρὸς
 195.2	ὤν. τῷ τοίνυν πατρὶ τῷ ἐμῷ ἄλλα μὲν ἄν τις ἔχοι ἐπικαλέσαι
 195.3	ἴσως, εἰς χρήματα δὲ οὐδεὶς οὐδὲ τῶν ἐχθρῶν ἐτόλμησε
 195.4	πώποτε. §19.61 οὔκουν ἄξιον τοῖς τῶν κατηγόρων λόγοις πιστεῦσαι
@@ -160,6 +160,7 @@
 195.23	ἀθλητὰς ⟨οἷς⟩ as printed (apparatus 23: ἀθληταῖς Taylor: οἷς add. Reiske)
 195.25	§19.64 left after the comma: Hude's 64 stands beside this line
 -	apparatus 8 δη-μεύσηθʼ divided at the apparatus line's end, written whole
+195.1	res: εἷς (rough breathing) for εἶς, as printed
 
 === p-0196
 --- text
@@ -224,7 +225,7 @@
 197.4	πόλει. οὐ γὰρ οἱ καλῶς ἄρχοντες προὐδίδοσαν τὴν πόλιν,
 197.5	§20.6 ἀλλʼ οἱ μὴ δικαίως. οὗτος δὲ πρῶτον μὲν ἄρξας ἐν Ὠρωπῷ
 197.6	οὔτε προέδωκε καὶ ἑτέραν πολιτείαν κατέστησε, τῶν ἄλλων
-197.7	ἁπάντων ὅσοι ἦρχον καταπροδόντων τὰ πράγματα. οἱ δʼ οὐχ
+197.7	ἁπάντων, ὅσοι ἦρχον, καταπροδόντων τὰ πράγματα. οἱ δʼ οὐχ
 197.8	ὑπέμειναν, καταγνόντες σφῶν αὐτῶν ἀδικεῖν· ὁ δὲ ἡγούμενος
 197.9	μηδὲν ἠδικηκέναι δίκην δίδωσι. §20.7 καὶ τοὺς μὲν ἀδικοῦντας
 197.10	οἱ κατήγοροι ἐκκλέπτουσιν, ἀργύριον λαμβάνοντες· παρʼ ὧν
@@ -270,6 +271,7 @@
 197.25	§20.10 moved to Hude's line, before its first word: 197.24 ends with a full stop, so the section begins at δεινὸν (the line's only stop inside is a comma, which is not where the section begins); the check text begins it at τούτων on 197.24
 197.5	§20.6 left at the line's start: Hude's 6 stands beside this line, as the check text has it
 -	apparatus 2 "μὲν X. om. C" with a full stop after X, copied as printed; apparatus 27 "ἡμᾶς X¹: corr. X¹" copied as printed
+197.7	res: commas after ἁπάντων and after ἦρχον, as printed
 
 === p-0198
 --- text

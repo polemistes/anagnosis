@@ -288,8 +288,8 @@
 78.2	ταῦτα ἀνασχέσθαι; §6.53 ποῖον φίλον, ποῖον συγγενῆ, ποῖον
 78.3	δημότην χρὴ τούτῳ χαρισάμενον κρύβδην φανερῶς τοῖς
 78.4	θεοῖς ἀπεχθέσθαι; νῦν οὖν χρὴ νομίζειν τιμωρουμένους καὶ
-78.5	ἀπαλλαττομένους Ἀνδοκίδου τὴν πόλιν καθαίρειν [ἀρὰν ἀπάγεσθαι]
-78.6	καὶ ἀποδιοπομπεῖσθαι καὶ φαρμακὸν ἀποπέμπειν
+78.5	ἀπαλλαττομένους Ἀνδοκίδου τὴν πόλιν καθαίρειν [ἀρὰν
+78.6	ἀπάγεσθαι] καὶ ἀποδιοπομπεῖσθαι καὶ φαρμακὸν ἀποπέμπειν
 78.7	καὶ ἀλιτηρίου ἀπαλλάττεσθαι, ὡς ἓν τούτων οὗτός ἐστι.
 ¶
 78.8	§6.54 Βούλομαι τοίνυν εἰπεῖν ἃ Διοκλῆς ὁ Ζακόρου τοῦ ἱεροφάντου,
@@ -315,5 +315,6 @@
 14	τὸν add. X¹
 --- notes
 78.5	[ἀρὰν ἀπάγεσθαι] added, as printed (ἀρὰν at the end of 78.5, ἀπάγεσθαι] at the start of 78.6; the check text does not have the words; apparatus 5 ἀρὰν ἀπάγεσθαι del. Taylor); the line was not flagged
+78.6	res: ἀπάγεσθαι] moved from 78.5 to the start of 78.6, where it is printed (not a divided word)
 78.16	the draft's ¶ before this line removed: the line is not indented on the page; comma after Ἀθηναῖοι and none after the bracket, as printed
 78.17	full stop after τούτου, as printed (the draft had a comma)

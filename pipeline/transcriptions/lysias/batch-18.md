@@ -219,8 +219,7 @@
 26	ἀκρίτως L (post ἀπέκτειναν C)
 --- notes
 124.2	no flags on this page; § marks 78, 79, 80, 81, 82 and the ¶ before 79 and 81 checked against the margin
-124.1	apparatus 1: αὐτῶ
- (X) printed without iota subscript; copied as printed
+124.1	apparatus 1: αὐτῶ (X) printed without iota subscript; copied as printed
 
 
 === p-0125

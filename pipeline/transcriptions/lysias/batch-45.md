@@ -30,6 +30,7 @@
 [title]	ΠΕΡΙ ΤΟΥ ΜΗ ΚΑΤΑΛΥΣΑΙ ΤΗΝ ΠΑΤΡΙΟΝ
 [title]	ΠΟΛΙΤΕΙΑΝ ΑΘΗΝΗΣΙ
 [title]	ΥΠΟΘΕΣΙΣ ΔΙΟΝΥΣΙΟΥ.
+¶
 284.1	[hypothesis] Τοῦ δήμου κατελθόντος ἐκ Πειραιῶς καὶ ψηφισαμένου διαλύσασθαι
 284.2	[hypothesis] πρὸς τοὺς ἐν ἄστει καὶ μηδενὸς τῶν γενομένων μνησικακεῖν,
 284.3	[hypothesis] δέους δὲ ὄντος μὴ πάλιν τὸ πλῆθος εἰς τοὺς εὐπόρους ὑβρίζῃ τὴν
@@ -76,6 +77,7 @@
 284.12	ἄδηλον· with the raised stop, as printed (the draft had a colon)
 284.14	⟨ἄνδρες⟩ added after ὦ, as printed (Usener's supplement, apparatus 14); ἐνομίζομεν as printed
 284.18	no comma after ψηφίσμασιν, as printed (removed)
+284.1	res: ¶ added before the hypothesis's first line, which Hude indents
 
 === p-0285
 --- text

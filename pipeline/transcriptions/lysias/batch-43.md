@@ -143,7 +143,7 @@
 --- text
 274.1	ὀφειλομένας ἐν Χερρονήσῳ. ἐπέσκηψε δέ, ἐάν τι πάθῃ,
 274.2	τάλαντον μὲν ἐπιδοῦναι τῇ γυναικὶ καὶ τὰ ἐν τῷ δωματίῳ
-274.3	δοῦναι, τάλαντον δὲ τῇ θυγατρί· κατέλιπε ⟨δὲ⟩ καὶ εἴκοσι
+274.3	δοῦναι, τάλαντον δὲ τῇ θυγατρί. κατέλιπε ⟨δὲ⟩ καὶ εἴκοσι
 274.4	μνᾶς τῇ γυναικὶ καὶ τριάκοντα στατῆρας Κυζικηνούς. §32.7 ταῦτα
 274.5	δὲ πράξας καὶ οἴκοι ἀντίγραφα καταλιπὼν ᾤχετο στρατευσόμενος
 274.6	μετὰ Θρασύλλου. ἀποθανόντος δὲ ἐκείνου ἐν
@@ -189,6 +189,7 @@
 27	ἀποστερρ. F
 --- notes
 274.1	Χερρονήσῳ with iota subscript, as printed
+274.3	res: full stop after θυγατρί, as printed
 274.7	¶ removed before this line: Hude does not indent it (Ἐφέσῳ stands flush with the lines around it; the check text begins a paragraph here)
 274.16	δʼ added after ὀγδόῳ, as printed (seen on the image)
 274.24	ᾤχοντο with iota subscript, as printed (seen on the image)

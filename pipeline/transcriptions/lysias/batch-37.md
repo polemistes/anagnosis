@@ -48,6 +48,7 @@
 28	πράττονται C
 --- notes
 235.19	⟨ἂν⟩ moved to the start of 235.20, where it is printed (before παραμεῖναι); no square brackets on 235.13 or 235.19 (OCR noise)
+235.20	⟨ἂν⟩ checked on the page: printed in angle brackets (smooth breathing, grave) before παραμεῖναι; Hude's supplement (apparatus 20: ἂν add. Taylor), which the check text lacks
 235.10	apparatus line 10: a thin stray stroke stands before γίν., read as a printing flaw, not a sign
 
 === p-0236
@@ -120,7 +121,7 @@
 237.8	καὶ ἀκουσομένων. §26.2 αἴτιοι δὲ τούτων ὑμεῖς ἐστε· οὐ
 237.9	γὰρ ἐνθυμεῖσθε ὅτι οὗτοι μέν, ὅτε ἡ πόλις ὑπὸ [τῶν] Λακεδαιμονίων
 237.10	ἤρχετο, οὐδὲ τῆς αὐτῆς δουλείας ὑμῖν μεταδοῦναι
-237.11	ἠξίωσαν, ἀλλὰ καὶ τῆς πόλεως ἐξήλασαν· ὑμεῖς δʼ ἐλευθέραν
+237.11	ἠξίωσαν, ἀλλὰ καὶ τῆς πόλεως ἐξήλασαν, ὑμεῖς δʼ ἐλευθέραν
 237.12	αὐτὴν ποιήσαντες οὐ μόνον τῆς ἐλευθερίας αὐτοῖς ἀλλὰ καὶ
 237.13	τοῦ δικάζειν καὶ τοῦ ἐκκλησιάζειν περὶ τῶν κοινῶν μετέδοτε,
 237.14	ὥστε εἰκότως ὑμῶν ταύτην τὴν εὐήθειαν καταγιγνώσκουσιν.
@@ -148,6 +149,7 @@
 20	-λειτ. L (it. infra)
 --- notes
 237.1	title in angle brackets as printed (⟨ΠΕΡΙ … ΔΟΚΙΜΑΣΙΑΣ⟩); line 1 begins with a lacuna, as printed: . . . ⟨οὐδʼ⟩ (Hude's angle brackets around οὐδʼ); ¶ added before the speech's first line
+237.11	res: comma after ἐξήλασαν, as printed (not a raised stop)
 237.20	the 20 stands beside this line; λελῃτουργήκασι divided at the line's end (λελῃτουργή-/κασι), written whole here
 
 === p-0238
@@ -217,8 +219,8 @@
 239.10	πόλεως, ἣν πρότερον παραλαβόντες οὕτως αἰσχρῶς καὶ
 239.11	δεινῶς ἐλωβήσαντο. ὥστʼ οὐκ ἄξιον τῆς δοκιμασίας ὀλιγώρως
 239.12	ἔχειν, οὐδὲ μικρὸν ἡγουμένους τὸ πρᾶγμα μὴ φροντίζειν
-239.13	αὐτῆς, ἀλλὰ φυλάττειν· ὡς ἐν τῷ ἕκαστον δικαίως ἄρχειν
-239.14	ἥ τε πολιτεία καὶ τὸ ἄλλο πλῆθος τὸ ὑμέτερον σῴζεται
+239.13	αὐτῆς, ἀλλὰ φυλάττειν, ὡς ἐν τῷ ἕκαστον δικαίως ἄρχειν
+239.14	ἥ τε πολιτεία καὶ τὸ ἄλλο πλῆθος τὸ ὑμέτερον σῴζεται.
 239.15	§26.10 ⟨καὶ⟩ εἰ μὲν βουλεύσων νυνὶ ἐδοκιμάζετο καὶ ὡς ἱππευκότος
 239.16	αὐτοῦ ἐπὶ τῶν τριάκοντα τοὔνομα ἐν ταῖς σανίσιν ἐνεγέγραπτο,
 239.17	καὶ ἄνευ κατηγόρου ἂν αὐτὸν ἀπεδοκιμάζετε· νῦν
@@ -251,6 +253,8 @@
 26	τε om. C
 26	γενήσεται Thalheim: γενέσθαι L
 --- notes
+239.13	res: comma after φυλάττειν, as printed (not a raised stop)
+239.14	res: full stop after σῴζεται, as printed
 239.15	δὴ deleted: Hude prints ⟨καὶ⟩ εἰ μὲν βουλεύσων (his apparatus: μὲν] μὲν δὴ C)
 239.24	ἠξιωμένος as printed (Weidner's, see the apparatus), not the check text's ἀξιούμενος; full stop after ἐκωλύετο, as printed
 239.25	the 25 stands beside this line; βουλῆς divided (βου-/λῆς), written whole here; αὑτὸν checked (rough breathing)
