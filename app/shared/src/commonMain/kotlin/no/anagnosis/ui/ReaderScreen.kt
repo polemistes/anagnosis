@@ -1564,10 +1564,8 @@ private fun GreekLineRow(
             fun tokenAt(tap: Offset): Tokens? {
                 val result = layout ?: return null
                 val pos = tap - Offset(indentPx.toFloat(), 0f)  // the text of an indented part starts further in
-                val lineIndex = result.getLineForVerticalPosition(pos.y)
-                // a tap in the blank space to the right of the words is not a tap on a word
-                if (pos.x > result.getLineRight(lineIndex) + 4.dp.toPx()) return null
-                val offset = result.charAt(pos)
+                // a tap in the blank space before or after the words is not a tap on a word
+                val offset = result.wordCharAt(pos, 4.dp.toPx()) ?: return null
                 return tokens.firstOrNull { offset >= it.start && offset < it.end }
             }
             detectTapGestures(
@@ -2022,9 +2020,7 @@ private fun ProseParagraph(
         Modifier.fillMaxWidth().padding(top = if (opens) PARAGRAPH_GAP else 0.dp).pointerInput(words) {
             fun tokenAt(pos: Offset): Tokens? {
                 val result = layout ?: return null
-                val lineIndex = result.getLineForVerticalPosition(pos.y)
-                if (pos.x > result.getLineRight(lineIndex) + 4.dp.toPx()) return null
-                val offset = result.charAt(pos)
+                val offset = result.wordCharAt(pos, 4.dp.toPx()) ?: return null
                 return words.firstOrNull { offset >= it.first && offset < it.second }?.third
             }
             detectTapGestures(

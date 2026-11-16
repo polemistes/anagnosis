@@ -17,3 +17,25 @@ internal fun TextLayoutResult.charAt(pos: Offset): Int {
     }
     return offset
 }
+
+/**
+ * Whether a tap at [x] falls on a row of text that is drawn from [left] to [right], with [slop]
+ * allowed on either side. A tap in the blank space before a row (the indent of a staggered
+ * part, the hanging indent of a wrapped verse's second row, a paragraph's first-line indent)
+ * or after it is no tap on a word.
+ */
+internal fun withinRow(x: Float, left: Float, right: Float, slop: Float): Boolean =
+    x >= left - slop && x <= right + slop
+
+/**
+ * The character under a tap on a word, or null when the tap is beside the row's text.
+ * getOffsetForPosition clamps a tap left of a row to the row's first character, so without the
+ * left bound a tap in an indent opened the first word of the row. The row's left edge is the
+ * drawn position of its first character (getLineLeft gives the layout's edge, not the indent).
+ */
+internal fun TextLayoutResult.wordCharAt(pos: Offset, slop: Float): Int? {
+    val line = getLineForVerticalPosition(pos.y)
+    val left = getHorizontalPosition(getLineStart(line), usePrimaryDirection = true)
+    if (!withinRow(pos.x, left, getLineRight(line), slop)) return null
+    return charAt(pos)
+}

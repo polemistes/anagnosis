@@ -579,6 +579,12 @@ The metrical analyses are not transcribed (as for Ajax and Electra).
   again: the English of a lettered part clipped at the foot of the page; a tap on a word
   registering a little to the left of it; "Second kommos" and "Strophe 1" left alone at the
   foot of a page.
+  **Corrected and fixed 2026-11-16** (log build/logs/app-fixes.md): measured against the ink on
+  full-size screenshots, taps inside a word always opened the word drawn there; the "drift" came
+  from reading positions off reduced screenshots. What was wrong: a tap in the blank space LEFT
+  of a row (a staggered part's indent, a wrapped verse's hanging indent, a prose paragraph's
+  first-line indent) opened the row's first word, because tokenAt() checked only the right end.
+  Fixed in TextTaps.kt (`wordCharAt`, `withinRow`, test TextTapsTest) for verse and prose.
 
 * **2026-11-17: ALL FOUR SOPHOCLES PLAYS ARE FINISHED** (da66cbd): Trachiniae, Oedipus
   Tyrannus, Oedipus at Colonus, Philoctetes: built, in the catalogue with their product ids,
