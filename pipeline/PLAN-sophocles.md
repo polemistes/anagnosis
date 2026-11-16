@@ -580,6 +580,22 @@ The metrical analyses are not transcribed (as for Ajax and Electra).
   registering a little to the left of it; "Second kommos" and "Strophe 1" left alone at the
   foot of a page.
 
+* **2026-11-17: ALL FOUR SOPHOCLES PLAYS ARE FINISHED** (da66cbd): Trachiniae, Oedipus
+  Tyrannus, Oedipus at Colonus, Philoctetes: built, in the catalogue with their product ids,
+  asset packs registered, emulator-checked, NO sale marks (the author says when each is
+  offered; each then needs its product in the Console and a reader release). The fix round
+  after the Philoctetes check (finishing agent, Round 2): `merge_repeated_subsections` (one
+  heading per strophe: 11 dropped in the Philoctetes, 2 in the Oedipus Tyrannus, 1 in the
+  Trachiniae); asterisks escaped in the apparatus writer and, before a Greek letter, in the
+  prose writers; `split_translation_stages` sets a stage direction inside a verse apart
+  (Trachiniae 7, O.T. 4, O.C. 8, Philoctetes 11); `TRANSLATION_FIXES` for typos in Perseus's
+  translation file. The Clouds' and Agamemnon's apparatus have bare asterisks too: escaped at
+  their next merge (not run). `check` shows one error by design: the Medea has no about.md
+  yet. **Open**: the read-aloud crash (an Opus agent is tracing it: log
+  build/logs/speech-crash.md); and the author's decisions listed in the memory and above
+  (rebuilding the published Jebb plays; the "Critical notes." label; Ajax and Electra by the
+  OCR route; the app behaviours noted by the emulator checks).
+
 ## Decisions
 
 * 2026-11-15: order by least work left (Trachiniae first).
