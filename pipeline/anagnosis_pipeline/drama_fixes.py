@@ -480,6 +480,22 @@ HAND_ANALYSES: dict[str, dict[str, tuple[str, str]]] = {
         "486 Πελίαν": ("Πελίας", "n-s---ma-"),
         "746 Ἥλιον": ("Ἥλιος", "n-s---ma-"),
     },
+    "alcestis": {
+        # Murray's Alcestis (GLAUx, automatic, on Murray's own text): the review list
+        # (build/alcestis-review.tsv) and the lexicon check, each word read in its verse (finishing
+        # agent, 2026-11-17); a verse and a form only, no text of the edition
+        "1 Ἀδμήτειʼ": ("Ἀδμήτειος", "a-p---nv-"),     # with δώματʼ
+        "70 κοὔθʼ": ("οὔτε", "d--------"),           # καὶ οὔτε (no parse)
+        "116 Ἀμμωνιάδας": ("Ἀμμωνιάς", "a-p---fa-"),
+        "117 παραλύσαι": ("παραλύω", "v--ana---"),    # GLAUx: a non-word
+        "208 προσόψεται": ("προσοράω", "v3sfim---"),  # future
+        "651 λοιπὸν": ("λοιπός", "a-s---ma-"),        # with χρόνον
+        "652 ἔστενον": ("στένω", "v1siia---"),        # first person
+        "652 ἐμοῖς": ("ἐμός", "a-p---nd-"),           # with κακοῖς
+        "965 Ἀνάγκας": ("ἀνάγκη", "n-s---fg-"),       # genitive of comparison (GLAUx: a name)
+        "967 Θρῄσσαις": ("Θρῇσσα", "a-p---fd-"),
+        "1102a ῎λαβές": ("λαμβάνω", "v2saia---"),     # ἔλαβες by prodelision after μή (GLAUx: a non-word)
+    },
     "theogony": {
         "116 γένετʼ": ("γίγνομαι", "v3saim---"),  # the treebank has γενέτης
         "282 ὅτʼ": ("ὅτε", "d--------"),  # the treebank has ὅτι, which is never elided
@@ -795,6 +811,18 @@ LEMMA_FIXES: dict[str, dict[str, str]] = {
         "νυν": "νῦν",                           # 105, 584, 593, 699 (LSJ under νῦν)
         "ξυνωρίς": "συνωρίς",                   # 1145 ξυνωρίδα
         "διαπέταμαι": "διαπέτομαι",             # 1 διαπτάσθαι
+    },
+    "alcestis": {
+        "τηλικόσς": "τηλικόσδε",               # 643 τηλικόσδʼ
+        "Πέλιος": "Πελίας",                     # 37, 82, 435 Πελίου
+        "ὑπερθνῄσκω": "ὑπερθνήσκω",             # 155, 682
+        "μιμνῄσκω": "μιμνήσκω",                 # 531, 878
+        "ἀναμιμνῄσκω": "ἀναμιμνήσκω",           # 1045
+        "νυν": "νῦν",                           # enclitic νυν (LSJ under νῦν)
+        "Ἀίδης": "ᾍδης",                        # 436 Ἀίδαο
+        "ἐποράω": "ἐφοράω",                     # 232a ἐπόψῃ
+        "φίλτερος": "φίλος",                    # 432 φίλτερον (comparative)
+        "προσζεύγνυμαι": "προσζεύγνυμι",        # 482 προσέζευξαι
     },
     "theogony": {
         "βριάρεως": "Βριάρεως",
