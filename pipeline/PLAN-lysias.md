@@ -412,7 +412,21 @@ few are the trees' own slips or conventions). If a cheaper model fails that, the
 are restored from git and run again with the stronger model; if that fails too, the pass is
 dropped and the speeches stay as they are, with the line in about.md.
 
-## The reader (not changed in this stage; `app/` untouched)
+## The reader (the change is made: commit 757b603, by the reader's own session)
+
+**Made on 2026-11-16 (757b603)**, as described below and a little more: the syntax label goes by
+speech (`WorkData.syntaxByBook`, `automaticSyntaxAt`, `automaticSyntaxOfSentence`, read from the
+meta key `syntax_by_book`: the word sheet's "(automatic)" and the syntax view's banner follow the
+speech in view; a text without the key is as before); the chooser offers the speeches by number
+and name (`Book.hasTitle`: a label "12 · Κατὰ Ἐρατοσθένους …" makes the book named, two lines at
+most; an epic's "1 · Α" stays "Book 1 · Α"); the English column of a speech that has no
+translation says so; a section 0 (the hypotheses) carries no number; the asset pack
+`app/packs/lysias` with its entries in the Gradle files; unit tests `SpeechesTest`. Left as it
+is: the page range at the foot reads "§§ 0–…" on a page that begins with a hypothesis. Two lines
+the app shows once for the whole text cannot follow the speech, so they are worded for the mixed
+sources in about.md: the shop's "Syntax:" line (`# syntax:`) and the credits' "Lemmas,
+morphology and syntax:" line (`# syntax_source:`). What follows is the description the change
+was made from.
 
 Two things the reader needs for this text; both are small and neither changes another text.
 The files are all under `app/shared/src/commonMain/kotlin/no/anagnosis/`: `data/Models.kt`
@@ -772,10 +786,10 @@ Nothing here blocks the text batches. In the order in which an answer is needed:
 - [x] Step 5: second passes (2026-11-16, the main session): the residual pass on all 45 batches (71 corrections) and the independent review of all 45 (35 corrections); commit 1e8aef8. Both stayed for the whole text: each caught errors the pass before had left
 - [x] Step 6: merge and the checks (2026-11-16): `merge-lysias`: 1,145 lines (1,116 sections of 1,116), 34 speeches, 280 paragraphs, from 269 pages; 4,091 apparatus items under 1,061 sections; 0 problems. The 19 serious lemma misses looked up on the page and settled (none a slip of the text: `SETTLED`), 568 weak ones sampled (no class of fault); the pages flagged at set-up looked at; the misprint tables (6 in the text, 6 in the apparatus). See Decisions
 - [x] Step 7: words and syntax (2026-11-16): each speech aligned to its own trees (AGDT 1, 14, 15, 23; GLAUx for the rest, hand-made for 24; none for 12, 13, 19); the label by speech (`# syntax-by-book`, `syntax_by_book` in the built meta table); 56,484 words, none without a lemma; 6,923 syntax nodes; the review list (830 words) gone through: what it was and what was done under Decisions. The reader's change is described under "The reader" and not made. The checking pass over the words of 12, 13, 19 is done and applied: 591 readings changed (Decisions)
-- [ ] Step 8: translations: the 1898 version done in the merge (`eng-1898.txt`: 699 segments of 20 speeches, every one under a section of Hude's text). Gillies: all six speeches (1, 3, 4, 21, 26, 34) fetched, read and drafted (45 pages, 8 batch files, 1,726 flags; the ranges cut back to the orations on the drafts); the brief for his batches (INSTRUCTIONS-prose.md) and for the alignment pass (`transcriptions/lysias/GILLIES-ALIGN.md`), the script `lysias-gillies-align.workflow.js`, the checker `check-gillies-marks`; the arguments under "Hand-over". Still to do: the agents' check and second reading of the batches, the commit, the alignment pass, the merge
+- [x] Step 8: translations (2026-11-16): `eng-1898.txt`: 699 segments of 20 speeches, every one under a section of Hude's text; `eng-gillies.txt`: Gillies's six speeches (1, 3, 4, 21, 26, 34), transcribed and read a second time (91798f7), laid beside the Greek by the alignment pass (57a1545; `check-gillies-marks`: 0 remarks; 157 marks for 178 sections: 43 of 50, 44 of 48, 17 of 20, 19 of 25, 23 of 24, 11 of 11), merged as 157 segments; looked at beside the Greek at the start and end of speeches, at a marked section and at one that runs on under the mark before
 - [x] Step 9: commentaries and introductions (2026-11-16): 21 entries, 493 pages, 74 batches, checked and read a second time by the main session's agents (a412f1e, 62bce24, 364f4a2, a38cf55); merged: `commentary-adams.md` (308 notes, 1,616 paragraphs), `commentary-morgan.md` (90 notes, 432 paragraphs), `commentary-shuckburgh.md` (573 notes, 631 paragraphs under 253 sections), `introduction.md` (Adams's general introduction and a chapter for each of the nineteen speeches), `appendix.md` (Adams's Appendix I–V); the notes log settled (Decisions)
 - [x] Step 10: sigla, glossary, about (2026-11-16): `sigla.md` and `about.md` (`transcriptions/lysias/static/`, copied by the merge); the book names in lower-case Greek with numbers (`hude_merge.SPEECH_NAMES`); `glossary.md` (188 names), `shortdefs.tsv` (21 ordinary words, 185 names, one line for δῆμος), `aliases.tsv` (13), written by hand in `texts/lysias/` (the merge does not touch them); `check`: 2,801 lemmas, none missing from the dictionaries and the glossary, none without a short definition; the texts/README.md section
-- [ ] Step 11: build and emulator check: `build --only lysias` (data/lysias.sqlite, 8.3 MB), `catalog` (Lysias in data/catalog.json, no `google_play`), `check` (0 errors; no warning in Lysias) done on 2026-11-16 on the text without the commentaries and Gillies; the lexicon and the other texts' databases unchanged (checksums of lexicon.sqlite and three texts compared). Still to do: the build again after the commentaries and Gillies are merged, the asset pack, the reader's two changes, the emulator check
+- [ ] Step 11: build and emulator check: the final merge and build on 2026-11-16 with everything in (1,116 sections in 34 speeches, 56,484 words, 6,923 syntax nodes, 4,091 apparatus items under 1,061 sections, Adams 308 notes, Morgan 90, Shuckburgh 253, the 1898 translation 699 segments, Gillies 157, the introduction, the appendix, the sigla, 188 glossary entries; `data/lysias.sqlite` 9.6 MB, version 5897863ec0a34c22, the same in the catalogue); `catalog` (no `google_play`), `check` (0 errors; no warning in Lysias), the tests; the reader's change made (757b603) with the asset pack. Still to do: the emulator check (the main session)
 
 ## Decisions
 

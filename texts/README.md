@@ -407,8 +407,6 @@ The thirty-four speeches in Karl Hude's Oxford text (*Lysiae orationes*, Oxford,
 the checked transcription in `pipeline/transcriptions/lysias/` (brief `pipeline/PLAN-lysias.md`,
 modules `hude_pages.py`, `hude_merge.py`, `hude_notes.py`). The editions are in the public domain;
 the transcription is published under CC BY-SA 4.0. The Eroticus (XXXV) is left out.
-(2026-11-16: Gillies's translation is merged in when its batches are checked and laid beside the
-Greek; `eng-gillies.txt` is not there yet.)
 
 * Greek text (`grc.txt`): Hude's, read by OCR and matched word by word to the Perseus text of the
   speeches (Lamb's Loeb, the check text only, never shipped); the flags, then every word, stop and
@@ -428,8 +426,9 @@ Greek; `eng-gillies.txt` is not there yet.)
   page and are readings Hude reports without the word of his text (`SETTLED`).
 * Translations: `eng-1898.txt`, the anonymous literal translation of 1898 (*The Orations of
   Lysias*, Handy Literal Translations; Project Gutenberg #6969) for twenty speeches, by section;
-  `eng-gillies.txt`, John Gillies's version of 1778 for six more (1, 3, 4, 21, 26, 34), by his
-  paragraphs, each under the section where it begins. Eight speeches have no English (6, 8, 11,
+  `eng-gillies.txt`, John Gillies's free version of 1778 for six more (1, 3, 4, 21, 26, 34): 157
+  segments, each under the section of Hude's text where it begins (section marks set at his
+  paragraphs and, where the place can be told, at his sentences; his words unchanged). Eight speeches have no English (6, 8, 11,
   15, 18, 20, 27, 29).
 * Commentaries and introductions (`commentary-adams.md`, `commentary-morgan.md`,
   `commentary-shuckburgh.md`, `introduction.md`, `appendix.md`): C. D. Adams (*Lysias: Selected
@@ -444,7 +443,9 @@ Greek; `eng-gillies.txt` is not there yet.)
 * Lemmas, morphology and syntax (`tokens.tsv`, `syntax-nodes.tsv`): by speech. Hand-made trees
   for 1, 14, 15, 23 (Ancient Greek Dependency Treebank, CC BY-SA 3.0) and 24 (Pedalion Trees,
   through GLAUx); GLAUx's automatic trees (CC BY-SA 4.0) for the rest; none for 12, 13, 19 (the
-  only trees are under a non-commercial licence), whose lemmas and forms are the analyser's.
+  only trees are under a non-commercial licence), whose lemmas and forms are the analyser's, each
+  word with more than one possible reading chosen in its sentence by a checking pass
+  (`pipeline/transcriptions/lysias/analyses/`, `hude_analyses.py`; 591 readings changed).
   The header says which (`# syntax: automatic` with `# syntax-by-book: 1=manual … 12=none …`;
   the build copies it to the meta key `syntax_by_book`). Where Hude reads otherwise than the
   trees, the analyser, listed in `pipeline/build/lysias-review.tsv`; garbled lemmas and names
