@@ -495,6 +495,10 @@ HAND_ANALYSES: dict[str, dict[str, tuple[str, str]]] = {
         "965 Ἀνάγκας": ("ἀνάγκη", "n-s---fg-"),       # genitive of comparison (GLAUx: a name)
         "967 Θρῄσσαις": ("Θρῇσσα", "a-p---fd-"),
         "1102a ῎λαβές": ("λαμβάνω", "v2saia---"),     # ἔλαβες by prodelision after μή (GLAUx: a non-word)
+        # names GLAUx took for others (the short definitions shown showed it)
+        "1 Ὦ": ("ὦ", "i--------"),                    # GLAUx: Ὦς
+        "5 Δίου": ("Δῖος", "a-s---ng-"),              # of Zeus (GLAUx: the city Dion)
+        "980 Χαλύβοις": ("Χάλυψ", "n-p---md-"),        # the Chalybes
     },
     "theogony": {
         "116 γένετʼ": ("γίγνομαι", "v3saim---"),  # the treebank has γενέτης
@@ -823,6 +827,9 @@ LEMMA_FIXES: dict[str, dict[str, str]] = {
         "ἐποράω": "ἐφοράω",                     # 232a ἐπόψῃ
         "φίλτερος": "φίλος",                    # 432 φίλτερον (comparative)
         "προσζεύγνυμαι": "προσζεύγνυμι",        # 482 προσέζευξαι
+        "Ὦ": "ὦ",                               # 177
+        "Διόβολος": "διόβολος",                 # 128 διόβολον
+        "Κόρα": "Κόρη",                         # 852 Κόρης, Persephone
     },
     "theogony": {
         "βριάρεως": "Βριάρεως",
