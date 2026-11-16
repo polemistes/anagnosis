@@ -184,9 +184,11 @@ def _line_text(words: list[dict]) -> str:
 
 
 def is_numeral(text: str) -> bool:
-    """A speech's number as Tesseract reads it: I, XII, XXXIV (Latin or Greek look-alike letters)."""
-    t = text.strip().rstrip(".").replace(" ", "")
-    return bool(t) and len(t) <= 7 and re.fullmatch(r"[IVXLΙΧΥΛ1l|]+", t) is not None
+    """A speech's number as Tesseract reads it: I, XII, XXXIV, in Latin or Greek look-alike
+    letters (ΙΠ for II, ΧΙΝ for XIV, ὟΥΙ for XXI: the accents are not looked at)."""
+    d = unicodedata.normalize("NFD", text.strip().rstrip(".").replace(" ", ""))
+    t = "".join(c for c in d if not unicodedata.combining(c))
+    return bool(t) and len(t) <= 7 and re.fullmatch(r"[IVXLΙΧΥΛΠΝΨ1l|]+", t) is not None
 
 
 def to_roman(n: int) -> str:
@@ -489,7 +491,8 @@ def ocr_stream(layouts: list[dict]) -> tuple[list[dict], list[dict]]:
             ws = sorted(p["words"], key=lambda w: w["bbox"][0])
             text = " ".join(w["text"] for w in ws)
             li = len(lines)
-            x0 = min((w["bbox"][0] for w in ws if len(skel(w["text"])) >= 2), default=p["x0"])
+            # where the line's words begin (a one-letter word, ὦ ἄνδρες, counts if Tesseract is sure of it)
+            x0 = min((w["bbox"][0] for w in ws if len(skel(w["text"])) >= 2 or (skel(w["text"]) and w["conf"] >= 40)), default=p["x0"])
             centred = abs((p["x0"] + p["x1"]) / 2 - mid) < 0.06 * lay["width"] and (p["x1"] - p["x0"]) < 0.8 * (lay["right"] - lay["left"])
             lines.append({"leaf": lay["leaf"], "y0": p["y0"], "y1": p["y1"], "oy0": p.get("oy0", p["y0"]), "oy1": p.get("oy1", p["y1"]),
                           "x0": x0, "indent": x0 - lay["left"], "line_h": lay["line_h"], "ocr": ocr_norm(text),
@@ -612,6 +615,7 @@ def check_margins(play: Play, numbered: list[dict], lines: list[dict], layouts: 
         seen_line: set[int] = set()
         seen_sec: set[int] = set()
         off_line: list[dict] = []
+        loose: list[tuple[dict, dict]] = []   # section numbers beside a line where no section begins
         page_secs = {int(sec.split(".")[1]) for L in Ls for _j, sec in L["starts"]}
         for mk in marks:
             near = min(Ls, key=lambda L: abs(centre(L) - mk["y"]))
@@ -634,10 +638,9 @@ def check_margins(play: Play, numbered: list[dict], lines: list[dict], layouts: 
                     best = min(starting, key=lambda L: abs(centre(L) - mk["y"]))
                     best.setdefault("marks", []).append(f"section {shown}")
                     seen_sec.add(id(best))
-                elif dist <= 0.8 * pitch and n is not None and (n in page_secs or any(n - 1 <= x <= n + 1 for x in page_secs)):
+                elif dist <= 0.8 * pitch:
                     near.setdefault("marks", []).append(f"section {shown}")
-                    near["flags"].append(f"the margin has a section number (read “{n}”) at this line, "
-                                         "but the check text begins no section here")
+                    loose.append((mk, near))
             elif dist <= 0.8 * pitch:
                 near.setdefault("marks", []).append(f"Stephanus [{shown}]")
         # numbers beside lines that are not fifth lines: if the page's fifth lines went without, the count is off
@@ -649,7 +652,22 @@ def check_margins(play: Play, numbered: list[dict], lines: list[dict], layouts: 
             if L["count"] % 5 == 0 and id(L) not in seen_line:
                 L["flags"].append(f"no line number read in the margin, though {L['n']} should have one ({L['count']})")
             if L["starts"] and id(L) not in seen_sec:
-                L["flags"].append(f"no section number read in the margin, though section {L['starts'][-1][1]} begins on this line")
+                # Hude's number beside a line near by: the editions begin the section at different words
+                by = [(mk, near) for mk, near in loose if abs(centre(near) - centre(L)) <= 2.2 * pitch]
+                if by:
+                    mk, near = min(by, key=lambda x: abs(centre(x[1]) - centre(L)))
+                    loose.remove((mk, near))
+                    L["flags"].append(f"the check text begins section {L['starts'][-1][1]} on this line, but Hude's section number seems to "
+                                      f"stand beside {near['n']}: put the § mark on Hude's line (the brief: where a section begins)")
+                    near["flags"].append(f"Hude's section number seems to stand beside this line (the check text begins section "
+                                         f"{L['starts'][-1][1]} on {L['n']})")
+                else:
+                    L["flags"].append(f"no section number read in the margin, though section {L['starts'][-1][1]} begins on this line")
+        for mk, near in loose:
+            n = mk["n"]
+            if n is not None and (n in page_secs or any(n - 1 <= x <= n + 1 for x in page_secs)):
+                near["flags"].append(f"the margin has a section number (read “{n}”) at this line, "
+                                     "but the check text begins no section here")
 
 
 def line_texts(numbered: list[dict], lines: list[dict], ocr: list[dict], pers: list[dict], match: list[int | None]) -> None:
@@ -720,8 +738,10 @@ def line_texts(numbered: list[dict], lines: list[dict], ocr: list[dict], pers: l
                 out.append(w)
             if o is None:
                 flags.append(f"{w}: not found in the OCR; check it is printed" + (", and on which line" if t.get("guess") else " on this line"))
-            elif t["sim"] < 1.0 and ocr[o]["conf"] >= 70:
-                flags.append(f"{w}: the OCR reads “{ocr[o]['t']}”")
+            elif t["sim"] < 1.0:
+                # also where Tesseract was unsure: the check text is another edition, and a reading
+                # of Hude's own (ἑορακυῖα for ἑωρακυῖα) may hide behind a doubtful reading
+                flags.append(f"{w}: the OCR{'' if ocr[o]['conf'] >= 70 else ', unsure,'} reads “{ocr[o]['t']}”")
             elif t["sim"] == 1.0 and len(t["skel"]) >= 4 and ocr[o]["conf"] >= 95 and not t.get("heading") and not t.get("run_on"):
                 if _accent_letters(w) != _accent_letters(ocr[o]["t"]):
                     flags.append(f"{w}: the OCR reads “{ocr[o]['t']}” (accents)")
@@ -730,7 +750,9 @@ def line_texts(numbered: list[dict], lines: list[dict], ocr: list[dict], pers: l
             if t.get("gap"):
                 flags.append(f"{w}: the check text marks a gap (lost text) after this word; copy what Hude prints (. . .)")
         for k in by_line_o.get(L["line"], []):
-            if k not in paired_o and len(ocr[k]["skel"]) >= 4 and ocr[k]["conf"] >= 80:
+            # a word Hude prints and Lamb lacks; a short one (ἣ, καὶ, μὲν) only where Tesseract is sure of it
+            if k not in paired_o and (len(ocr[k]["skel"]) >= 4 and ocr[k]["conf"] >= 80 or
+                                      ocr[k]["conf"] >= 90 and SHORT_WORD.match(ocr[k]["t"]) and re.search("[αεηιουω]", ocr[k]["skel"])):
                 flags.append(f"the OCR reads “{ocr[k]['t']}” on this line, which the check text does not have here")
         text = " ".join(out)
         if L["kind"] == "label":
@@ -746,7 +768,7 @@ def line_texts(numbered: list[dict], lines: list[dict], ocr: list[dict], pers: l
         if L["kind"] == "label":
             L["text"] = f"{LABEL} {text}"
             continue
-        L["para"] = pl["indent"] > 0.6 * pl["line_h"] and not pl["centred"]
+        L["para"] = pl["indent"] > 0.95 * pl["line_h"] and not pl["centred"]  # Hude indents by a line's height and a fifth; a lost first letter is less
         L["text"] = text
     real = [L for L in numbered if L["kind"] != "title"]
     for k, L in enumerate(real):
@@ -757,6 +779,7 @@ def line_texts(numbered: list[dict], lines: list[dict], ocr: list[dict], pers: l
                                   "check that no printed line is missing")
 
 
+SHORT_WORD = re.compile(r"^[Ͱ-Ͽἀ-῿ʼ]{1,4}[.,·;:]?$")
 MOVE_MIN = 15      # words: a passage the print has in another place than the check text
 LEFT_OUT_MIN = 8   # words: a run of the check text that the page does not show is left out of the draft
 # Tesseract's readings of Hude's δʼ (the apostrophe taken for a breathing or an accent)
@@ -1040,19 +1063,21 @@ def plain(text: str) -> str:
     return SECTION_MARK.sub(" ", MARKER.sub("", text))
 
 
-def quote_remarks(text: str, open_: int) -> tuple[list[str], int]:
-    """Remarks on the elision signs and quotation marks of a line, and how many quotations are
+def quote_remarks(text: str, open_: bool) -> tuple[list[str], bool]:
+    """Remarks on the elision signs and quotation marks of a line, and whether a quotation is
     open after it. Elision is ʼ (U+02BC); ‘ opens and ’ closes a quotation (Hude's single
-    marks), so a ’ counts as a closing mark only while a quotation is open."""
+    marks), so a ’ counts as a closing mark only while a quotation is open. (Hude sets a new ‘
+    before a sentence inside a quotation that is still open, "πεύσει. ‘ἔστι δʼ’ ἔφη
+    ‘Ἐρατοσθένης": the marks are not counted, a quotation is open or it is not.)"""
     remarks: list[str] = []
     if re.search(r"[᾽']", text):
         remarks.append("elision written other than ʼ (U+02BC), or a quotation mark written ' (‘ ’ are Hude's)")
     for c in text:
         if c == "‘":
-            open_ += 1
+            open_ = True
         elif c == "’":
-            if open_ > 0:
-                open_ -= 1
+            if open_:
+                open_ = False
             else:
                 remarks.append("a ’ where no quotation is open: elision is ʼ (U+02BC); a quotation begins with ‘")
     return remarks, open_
@@ -1083,7 +1108,7 @@ def check_batch(slug: str, path: Path, sources: Path) -> list[str]:
     secs: list[str] = []
     noted: set[str] = set()
     prev_sec: tuple[int, int] | None = None
-    open_quotes = 0
+    open_quotes = False
     for stem, block in pages.items():
         for e in block["errors"]:
             remarks.append(f"{stem}: {e}")
@@ -1213,6 +1238,20 @@ def check_batch(slug: str, path: Path, sources: Path) -> list[str]:
     return remarks
 
 
+def known_misreading(r: dict) -> bool:
+    """A residual that is one of Tesseract's standing misreadings of this print, not a question
+    for a reader: the raised stop read as an apostrophe (διοικοῦσαʼ for διοικοῦσα·), δʼ read as ὃ,
+    Hude's angle brackets read as round ones (the review reads the brackets' kind)."""
+    text, ocr = r.get("text") or "", r.get("ocr") or ""
+    if r["kind"] == "punctuation" and text.endswith("·") and re.search(r"[ʼ᾽’'\"”˙]$", ocr):
+        return True
+    if text.strip(".,·;:") == "δʼ" and ocr.strip(".,·;:") in DELTA_ELIDED:
+        return True
+    if r["kind"] == "bracket" and text.replace("⟨", "(").replace("⟩", ")") == ocr.replace("〈", "(").replace("〉", ")").replace("<", "(").replace(">", ")"):
+        return True
+    return False
+
+
 def residuals(slug: str, files: list[Path] | None = None) -> list[dict]:
     """The residual pass (pipeline/transcriptions/<slug>/RESIDUALS.md): what the checked lines and
     Tesseract's reading of them still disagree on (words, accents, punctuation, brackets), per
@@ -1243,7 +1282,7 @@ def residuals(slug: str, files: list[Path] | None = None) -> list[dict]:
         items = [(k, plain(t)) for k, t in block["text"] if KEY.match(k) and not t.startswith(HYPOTHESIS)]
         lay = page_layout(play, leaf)
         lay["lines"] = [p for p in lay["lines"] if p["kind"] != "title"]
-        res = page_residuals(play, lay, items, stream)
+        res = [r for r in page_residuals(play, lay, items, stream) if not known_misreading(r)]
         noted = {m.group(1) for x in block["notes"] if (m := re.match(r"^(\d+\.\d+)", x))}
         for r in res:
             r["stem"] = stem

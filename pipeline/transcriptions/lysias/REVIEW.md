@@ -25,15 +25,17 @@ agent wrote is right until you have seen it on the image. For each page:
    missing, correct what is wrong. This is where most errors are.
 2. **The keys and marks**: the lines of the page counted (a speech's number and title are not
    counted; a heading inside a speech and the lines of a hypothesis are), every `§` mark on the
-   line where Hude's section number stands and before the right word (after the wider space),
-   every `¶` where he indents, every heading and `[title]` line letter by letter.
+   line where Hude's section number stands and before the right word (the rule in
+   INSTRUCTIONS.md: the check text's word if it stands on Hude's line, else the first sentence
+   break of his line), every `¶` where he indents, every heading and `[title]` line letter by letter.
 3. **The text**: every change the first agent made (its notes, and the checker's remarks), and
    any flagged line whose resolution looks doubtful; Hude's reading must stand, not the check
    text's.
 4. **Reading the page.** Read every line of the batch text against the whole page image, for
    what the flags do not compare: the punctuation (comma, full stop, raised stop, question
    mark), accents and breathings, iota subscripts, capitals, the quotation marks ‘ ’, square and
-   angle brackets, the dots of a lacuna, an obelus.
+   angle brackets (Tesseract reads Hude's angle brackets ⟨ ⟩ as round ones and the draft cannot
+   tell them apart: look at the shape of every bracket), the dots of a lacuna, an obelus.
 
 Correct what is wrong in place, with one line for each change under `--- notes` beginning `rev:`
 (`28.5	rev: apparatus item 11 ποθεν Emperius added`). Then run the checker (from `pipeline/`:

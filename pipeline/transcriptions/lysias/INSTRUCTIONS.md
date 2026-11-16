@@ -116,17 +116,21 @@ The key and the text are separated by a single TAB. Edit the file in place, page
 * **`§1.44`** (speech.section) stands, followed by a space, before the word where a section
   begins: at the start of the line or inside it (`ταύτης. §1.44 οὐδεμίαν γὰρ`). The draft puts it
   where the check text begins the section. **Hude's number in the outer margin is the
-  authority**: the mark belongs on the line beside which his number stands. On that line the
-  section begins (a) after the wider space, where Hude leaves one (as a rule after a full stop or
-  a raised stop); (b) where the line shows no wider space: at the check text's word, if that
-  word stands on this line; (c) otherwise before the first word after a stop on the line (a full
-  stop, raised stop or question mark; failing those, a comma), or at the line's first word if it
-  has no stop. Lamb sometimes begins a section a few words earlier or later than Hude: **move the
-  mark to Hude's line** and note it (`26.4	§1.33 moved to Hude's line, after βλάβην, (no wider
-  space)`). Every section of a speech once, in order, the speech's first being `§N.1` on its
-  first line (Hude prints a 1 beside it). Where Hude's numbers differ from the check text's (he
-  prints a passage in another place, or leaves one out), **number the sections as his margin
-  does** and note it.
+  authority for the line**: the mark belongs on the line beside which his number stands (where
+  the number is set above or below a Stephanus page, the line of the two it belongs to is the
+  one the check text's section begins on, if that is one of them).
+  * If the check text's word stands on Hude's line, **leave the mark where it is** (also where
+    that is after a comma: Hude marks the line, not the word).
+  * If Hude's number stands beside another line (about one section in twelve, more in some speeches: Lamb begins many
+    sections a line or two earlier or later), **move the mark to Hude's line**: before the first
+    word after a full stop, raised stop or question mark inside that line (Hude leaves a wider
+    space after a full stop); if the line has none, after a comma inside it; if it has no stop
+    inside it at all, before its first word. Note it (`22.4	§1.16 moved to Hude's line, after
+    the full stop; the check text begins it at ὁ γὰρ on 22.6`).
+  * Every section of a speech once, in order, the speech's first being `§N.1` on its first line
+    (Hude prints a 1 beside it). Where Hude's numbers differ from the check text's (he prints a
+    passage in another place, or leaves one out), **number the sections as his margin does** and
+    note it.
 * **A new paragraph** (a line Hude indents) has a line with only `¶` before it. A speech's first
   line is indented: it has one.
 * **A heading inside a speech** (ΜΑΡΤΥΡΕΣ. ΜΑΡΤΥΡΙΑ. ΝΟΜΟΣ. ΝΟΜΟΙ. ΨΗΦΙΣΜΑ. ΟΡΚΟΙ. and the
@@ -140,18 +144,30 @@ The key and the text are separated by a single TAB. Edit the file in place, page
   stop ·; the question mark ;; the iota subscript as he prints it. **Quotation marks**: Hude sets
   direct speech in single marks: write ‘ (U+2018) where one opens and ’ (U+2019) where one
   closes (`ἀπιέναι, ‘ἵνα σύ γε’ ἔφη ‘πειρᾷς ἐνταῦθα τὴν παιδίσκην·`); do not confuse the closing
-  mark with the elision sign. A lacuna is three dots with spaces between, as printed (`. . .`),
+  mark with the elision sign (`ἔστι δʼ’ ἔφη`: elision, then the closing mark). The check text's
+  marks are Lamb's and often not Hude's: copy exactly what is printed: no mark where a quotation
+  simply runs on (`πρὸς σέ· ὁ γὰρ ἀνὴρ`), a second ‘ where Hude sets one before a new sentence
+  inside a quotation (`πεύσει. ‘ἔστι δʼ’ ἔφη ‘Ἐρατοσθένης`), the closing mark before or after
+  the stop as printed (`εἶναι’.`). A lacuna is three dots with spaces between, as printed (`. . .`),
   with a space before and after. Square brackets [ ] for words Hude deletes, angle brackets ⟨ ⟩
   (U+27E8, U+27E9) for words he adds, an obelus † where he prints one. **Capitals as printed**:
   Hude begins a new train of thought with a capital, also in the middle of a line after a wider
   space (`αὐτήν. Πρῶτον μὲν οὖν`), and proper names; he does not capitalise after every full
   stop. The draft took the capitals from the OCR where it was sure.
 
+**While you look at a flagged line, make the whole line follow the print**: its punctuation
+(comma, full stop, raised stop, question mark), accents, capitals and marks too, not only the
+flagged word; the flags compare letters only, and a later pass looks at the punctuation of the
+unflagged lines. Note what you change.
+
 The flags, and what to do:
 
-* **"X: the OCR reads “Y”"**: the check text and the OCR differ. Look at the crop. Most are OCR
-  errors, but some are Hude's own readings: if the page prints something other than X, write
-  what it prints, and say so under notes (`28.15	ἑορακὼς as printed`). **"(accents)"**: the
+* **"X: the OCR reads “Y”"**, **"X: the OCR, unsure, reads “Y”"**: the check text and the OCR
+  differ. Look at the crop. Most are OCR errors, but about one in eight is Hude's own reading
+  (ἑαυτοῦ for ἐμαυτοῦ, ἑορακυῖα for ἑωρακυῖα, τέτταρες for τέσσαρες, πεύσει for πεύσῃ,
+  ἐπιμέλεσθαι for ἐπιμελεῖσθαι on the first six pages): if the page prints something other than
+  X, write what it prints, and say so under notes (`21.12	ἑορακυῖα as printed`). Hude's
+  apparatus on the same line often confirms it ("12 ἑωρ. L"). **"(accents)"**: the
   letters agree, the accents or breathings do not: Tesseract confuses ἂν/ἃν, ἡ/ἣ/ἢ, ἦν/ἣν,
   ὢν/ὧν, αὐτ-/αὑτ- constantly; change an accent only where the crop is clear.
 * **"X: not found in the OCR; check it is printed on this line"** (or "…, and on which
@@ -167,22 +183,26 @@ The flags, and what to do:
   check text does not; the draft has put the check text's words there. Check the lines like any
   other and give the sections the numbers Hude's margin gives them.
 * **"the OCR reads “Y” on this line, which the check text does not have here"**: a word Hude
-  prints that the check text lacks (add it where printed, with a note), a margin number, or OCR
-  noise.
+  prints that the check text lacks (add it where printed, with a note: `20.16	ἣ added before
+  πάντων, as printed`), a margin number, or OCR noise.
 * **"this printed line matched no words of the check text"**, **"a line of the hypothesis"**:
   the draft holds only what Tesseract read; type the line from the image (or delete it and
   renumber, if it is no line of the text).
 * **"below this line the OCR read “…”, which was passed over"**: a line the draft may have lost
   (then add it with its key and renumber the page's lines after it), or a smudge.
-* **Margin flags.** "no line number read in the margin, though K should have one", "the margin
-  has a line number at this line, which is K by the count": count the lines of the page on the
-  whole page image and **renumber** what is wrong: a line missing from the file is added (its
-  words taken out of the line where the draft put them), a line split in two is joined. Often
-  the number was simply not read: then nothing is wrong. "no section number read in the margin,
-  though section S begins on this line", "the margin has a section number … but the check text
-  begins no section here": look where Hude's section number stands and **move `§S` to the line it
-  marks**, before the word where the section begins (after the wider space). Write the change
-  under notes. (A Stephanus page in brackets is not a section number.)
+* **Margin flags: line numbers.** "no line number read in the margin, though K should have
+  one", "the margin has a line number at this line, which is K by the count": count the lines of
+  the page on the whole page image and **renumber** what is wrong: a line missing from the file
+  is added (its words taken out of the line where the draft put them), a line split in two is
+  joined (Tesseract now and then reads the end of a line a second time as a line of its own).
+  Often the number was simply not read: then nothing is wrong.
+* **Margin flags: sections.** "the check text begins section S on this line, but Hude's section
+  number seems to stand beside K" (and on line K: "Hude's section number seems to stand beside
+  this line"): both lines are in the lines image; if Hude's number does stand beside K, move the
+  mark there by the rule above. "no section number read in the margin, though section S begins
+  on this line", "the margin has a section number … but the check text begins no section here":
+  look where Hude's number stands (the whole page) and do the same. A number in square brackets
+  is a Stephanus page, not a section number. Write every move under notes.
 * **"the check text marks a gap"**, **"the OCR reads a row of dots"**: copy what Hude prints
   there (`. . .`, or nothing).
 * **Brackets**: "the OCR shows square brackets on this line, the check text has none", "the OCR
@@ -211,7 +231,13 @@ The flags, and what to do:
   no line, gets `-` as its number.
 * **Copy each item exactly as printed**: the lemma, the readings, the sigla, Hude's Latin and the
   scholars' names. Greek with full accents and breathings, as printed (the manuscripts' readings
-  he reports are sometimes unaccented or abbreviated, "ἐγίν.", "συνοιθ.": copy what he prints).
+  he reports are sometimes abbreviated or oddly spelt, "ἐγίν.", "συνοιθ.", "ποδηγεὶσ": copy what
+  he prints). **The small Greek of the apparatus is where a breathing, an accent or an iota
+  subscript is most easily misread, and often it is the whole point of the item** ("16 ἣ πάντων
+  H P (ἢ)": the manuscripts' breathing against the text's; "θέλη rell.", "πεύση L", "αὐτῆ H N
+  X" printed without the subscript that the text's form has): cut such a word out of the page
+  image at four to six times its size, compare the mark with a certain one beside it, and copy
+  what is printed, not what the form "should" be.
   Italics are ignored. A colon between readings is written without a space before it (`εἴητε
   marg. Ald.: εἰ ἦτε C H X`). Brackets and signs as printed: `]` after a lemma (`εἰπὼν] ὑπονοῶν
   Hirschig`), ⟨ ⟩, [ ], round brackets, the dots of a lemma range (`εἴπερ . . . μοι om. C`),
@@ -221,7 +247,8 @@ The flags, and what to do:
   exactly), L (the consensus), Aldus, marg. Ald., Turr.; for speeches 32–34 F G M T and L.
   Sigla stand apart with spaces as printed (`C H P X¹`). **Raised letters and digits** as Unicode
   superscripts: X¹ P¹ M¹ F² (¹ ² ³), Xᶜ Mᶜ Hᶜ (ᶜ, the corrected reading), Xʳ (ʳ, a later hand), Xˢ
-  Fˢ (ˢ, written above); `Xᶜ (1)` as printed, with its space.
+  Fˢ (ˢ, written above); `Xᶜ (1)` or `Xᶜ(1)` with or without the space, as printed (the figure
+  is a 1, Hude's old-style one, not the letter I).
 * **Abbreviations and words** as printed: om., add., del., corr., ex … corr., suprascr., supra
   v., in ras., transp., coni., lac., lacunam statuit, post, ante, alt., pr., it. (item), cf.,
   rell., all., soli, vulg., comp., marg., lex. Vindob.; the scholars as printed (Reiske, Dobree,

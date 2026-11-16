@@ -128,7 +128,7 @@ def perseus_prose(path: Path, book: str = "", quotes: bool = False, headings: bo
         if tag in ("bibl", "pb", "milestone"):
             return
         if tag == "gap":
-            parts.append(GAP)
+            parts.append(GAP + (" " if quotes else ""))  # (the Lysias files set a gap between two words without a space)
             return
         if tag == "div":
             if el.get("subtype") == "book":
@@ -174,6 +174,7 @@ def perseus_prose(path: Path, book: str = "", quotes: bool = False, headings: bo
     if quotes:
         s = re.sub(QOPEN + r"\s*", "‘", s)
         s = re.sub(r"\s*" + QCLOSE, "’", s)
+        s = re.sub(r"(?<=[,.;·])\(", " (", s)  # a parenthesis the file sets against the stop before it
     s = re.sub(r"([⟨\[“])\s+", r"\1", s)
     s = re.sub(r"\s+([⟩\]”])", r"\1", s)
     out: list[dict] = []

@@ -52,7 +52,7 @@ class CheckText(unittest.TestCase):
 
 class Page(unittest.TestCase):
     def test_numeral_and_capitals(self):
-        for t in ("I", "II.", "XXXIV", "ΧΙΙ", "X1"):
+        for t in ("I", "II.", "XXXIV", "ΧΙΙ", "X1", "ΙΠ", "ΧΧῚΙ", "ΧΧΧΙΙΠ", "ὟΥΙ", "ΧΙΝ"):
             self.assertTrue(is_numeral(t), t)
         for t in ("ΜΑΡΤΥΡΕΣ", "καὶ", "23", "ΥΠΕΡ ΤΟΥ", ""):
             self.assertFalse(is_numeral(t), t)
@@ -213,20 +213,33 @@ class Checker(unittest.TestCase):
         for n in ("3/4", "3 sq.", "a", ""):
             self.assertIsNone(APP_KEY.match(n))
 
+    def test_known_misreadings_are_no_residuals(self):
+        from anagnosis_pipeline.hude_pages import known_misreading
+
+        self.assertTrue(known_misreading({"kind": "punctuation", "text": "διοικοῦσα·", "ocr": "διοικοῦσαʼ"}))
+        self.assertTrue(known_misreading({"kind": "word", "text": "δʼ", "ocr": "ὃ"}))
+        self.assertTrue(known_misreading({"kind": "bracket", "text": "⟨οὐκ⟩", "ocr": "(οὐκ)"}))
+        self.assertFalse(known_misreading({"kind": "punctuation", "text": "ἐκέλευον,", "ocr": "ἐκέλευον"}))
+        self.assertFalse(known_misreading({"kind": "punctuation", "text": "εἶναι·", "ocr": "εἶναι."}))
+        self.assertFalse(known_misreading({"kind": "bracket", "text": "οὐκ", "ocr": "(οὐκ)"}))
+
     def test_plain(self):
         self.assertEqual(plain("[label] ΜΑΡΤΥΡΕΣ."), "ΜΑΡΤΥΡΕΣ.")
         self.assertEqual(plain("ταύτης. §1.44 οὐδεμίαν γὰρ").split(), ["ταύτης.", "οὐδεμίαν", "γὰρ"])
 
     def test_quotes_and_elision(self):
         # ’ closes a quotation that ‘ opened, also on a later line; otherwise it is a wrong elision sign
-        r, open_ = quote_remarks("ἀπιέναι, ‘ἵνα σύ γε’ ἔφη ‘πειρᾷς ἐνταῦθα", 0)
-        self.assertEqual((r, open_), ([], 1))
+        r, open_ = quote_remarks("ἀπιέναι, ‘ἵνα σύ γε’ ἔφη ‘πειρᾷς ἐνταῦθα", False)
+        self.assertEqual((r, open_), ([], True))
         r, open_ = quote_remarks("εἷλκες αὐτήν.’ κἀγὼ μὲν ἐγέλων, ἀλλʼ οὕτως", open_)
-        self.assertEqual((r, open_), ([], 0))
-        r, open_ = quote_remarks("ἀλλ’ ἐν ἁπάσῃ", 0)
+        self.assertEqual((r, open_), ([], False))
+        r, open_ = quote_remarks("ἀλλ’ ἐν ἁπάσῃ", False)
         self.assertEqual(len(r), 1)
-        r, _ = quote_remarks("παρ᾽ ὑμῖν", 0)
+        r, _ = quote_remarks("παρ᾽ ὑμῖν", False)
         self.assertEqual(len(r), 1)
+        # a second ‘ inside an open quotation (Hude at 1.16) leaves one quotation open, closed by one ’
+        r, open_ = quote_remarks("‘μηδεμιᾷ πολυπραγμοσύνῃ πεύσει. ‘ἔστι δʼ’ ἔφη ‘Ἐρατοσθένης ἔχει.’ ταῦτα", False)
+        self.assertEqual((r, open_), ([], False))
 
 
 BATCH = """=== p-0040

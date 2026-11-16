@@ -37,7 +37,7 @@ Lysias is wholly in the public domain (Hude died in 1936), so its files are ordi
 | check text (never shipped) | Perseus canonical-greekLit `tlg0540.tlg001` … `tlg034` `.perseus-grc2.xml` = W. R. M. Lamb's Loeb (1930), one file per speech, sections as `div subtype="section"`, with Lamb's 845 critical footnotes as `<note>` elements (stripped from the check text), 74 headings (`<label>`: Μάρτυρες, Νόμος, Ψήφισμα …) and 41 quotations (`<q>`). 56,162 words, 1,116 sections. Fetched to `pipeline/sources/drama/` |
 | translation | **Twenty speeches** (2, 5, 7, 9, 10, 12, 13, 14, 16, 17, 19, 22, 23, 24, 25, 28, 30, 31, 32, 33): the anonymous literal translation of 1898 (*The Orations of Lysias*, Handy Literal Translations; Project Gutenberg #6969, sections numbered; `pipeline/sources/gutenberg/pg6969.txt`). **Four or five more** (1, 3, 26, 34, probably 21): John Gillies, *The Orations of Lysias and Isocrates*, London 1778 (scan `bim_eighteenth-century_the-orations-of-lysias-a_lysias_1778`, long-s print): where both exist the 1898 version is used. **Nine speeches go in without English** (4, 6, 8, 11, 15, 18, 20, 27, 29): no public-domain translation was found. Lamb's translation (Perseus) is protected until the end of 2031: never used. Nothing is ever translated by us or by a model |
 | commentary, one per speech (read from scans, a later step) | C. D. Adams, *Lysias: Selected Speeches*, 1905 (scan `lysiasselectedsp0000char`) for 12, 16, 19, 22, 24, 25, 32, 34; M. H. Morgan, *Eight Orations of Lysias*, 1895 (`eightorations00lysi`) for 7, 23, 31; E. S. Shuckburgh, *Lysiae orationes XVI*, 1882 (`orationes16witha00lysiuoft`) for 5, 9, 10, 13, 14, 17, 28, 30. Fourteen speeches (1, 2, 3, 4, 6, 8, 11, 15, 18, 20, 21, 26, 27, 29, 33) have none of the three |
-| syntax | **GLAUx `0540-001.xml` … `0540-034.xml`** (CC BY-SA 4.0), one file per speech, aligned to Hude's words; fetched to `pipeline/sources/glaux/`. GLAUx marks every sentence `analysis="manual"` or `"auto"`: speeches **1, 12, 13, 14, 15, 19, 23, 24 are manual** in GLAUx (1, 14, 15, 23 are the AGDT's hand-made trees, also in `pipeline/sources/treebanks/tlg0540.tlg0NN.perseus-grc1.tb.xml`; where GLAUx took 12, 13, 19 and 24 from is to be found out before they are shown as hand-made), the other 26 automatic. Automatic syntax is always shown as automatic. See "Syntax" below |
+| syntax | Three sources, by speech (see "Syntax" below; **one question is open, for the author**): the AGDT's hand-made trees for **1, 14, 15, 23** (`pipeline/sources/treebanks/tlg0540.tlg0NN.perseus-grc1.tb.xml`, release 2.1 of 2015, CC BY-SA 3.0; annotated by Vanessa Gorman); **GLAUx `0540-0NN.xml`** (CC BY-SA 4.0; fetched to `pipeline/sources/glaux/`) for the rest: hand-made for **24** (the Pedalion trees, CC BY-SA 4.0), automatic for 26 speeches. **Speeches 12, 13 and 19** are in GLAUx only with Gorman's own later trees, which GLAUx's README lists as CC BY-NC-SA 4.0: not usable in an app that is sold, and GLAUx has no automatic trees for them. Automatic syntax is always shown as automatic |
 | sigla | `sigla.md` written by hand from Hude's SIGLA page (leaf 18) and what the praefatio says of the manuscripts |
 | slug, titles, product | `lysias`; the speeches are the text's books; product id proposed `lysias_speeches_hude` (see For the author); no `google_play` |
 | pronunciation | `# pronunciation: attic` |
@@ -143,18 +143,33 @@ their speech (`34.0`; see For the author). Notes and translations are keyed by s
 
 ## Syntax
 
-GLAUx has all 34 speeches, tokenised with `div_section` on every word, so each word's section is
-known and the alignment (`odyssey.align`, as for every GLAUx text) runs speech by speech. What the
-merge needs that the other texts do not: `Play.glaux` names one file, here there are 34 (the
-token step takes the speech's file by number); and **the label is per speech**, not per text:
-GLAUx's `analysis="manual"` on every sentence of speeches 1, 12, 13, 14, 15, 19, 23, 24, `"auto"`
-on the rest. The text files carry one `# syntax: automatic` line for the whole text today, and
-the reader shows one label per text. Until the author decides (For the author), the plan is: one
-GLAUx source for all speeches; the label "automatic" for the whole text unless the reader learns
-a per-book label (a `# syntax-manual: 1 12 13 14 15 19 23 24` header key read by the build into
-the sections table would be the small change); the AGDT files for 1, 14, 15, 23 are kept as the
-check of GLAUx's manual trees for those speeches (the same trees, converted), not as a second
-source. Not built in this stage.
+GLAUx has all 34 speeches (one file each, `div_section` on every word, so each word's section is
+known and the alignment, `odyssey.align` as for every GLAUx text, runs speech by speech). It
+marks every sentence `analysis="manual"` or `"auto"`, and its `metadata.txt` names where the
+manual trees come from (looked up 2026-11-16):
+
+| speeches | in GLAUx | source of the trees | usable |
+|---|---|---|---|
+| 1, 14, 15, 23 | manual | "Vanessa Gorman's Ancient Greek Prose Dependency Treebanks" (GLAUx's README: CC BY-NC-SA 4.0) | not from GLAUx; **but the same speeches are in the AGDT release 2.1** (2015, CC BY-SA 3.0, annotator Vanessa Gorman, in `pipeline/sources/treebanks/`): use those |
+| 12, 13, 19 | manual | Gorman's treebanks only | **no**: non-commercial licence, and no automatic trees exist in GLAUx for them |
+| 24 | manual | the Pedalion trees (CC BY-SA 4.0) | yes, hand-made |
+| the other 26 | automatic | GLAUx's parser | yes, shown as automatic |
+
+So five speeches have hand-made trees we may use, 26 automatic ones, and **three (12, 13, 19:
+14,000 words, among them the two longest and best-known speeches) have none we may use** until
+the author decides (For the author): ask Vanessa Gorman for leave; ship those three without
+syntax (lemmas and forms from the analyser, as for words the treebanks lack); or wait for a
+GLAUx release that offers automatic trees for them.
+
+What the merge needs that the other texts do not: `Play.glaux` and `Play.treebank` name one file
+each, here the source is chosen per speech (a table in `hude_merge.py`); and **the label is per
+speech**, not per text. The text files carry one `# syntax: automatic` line for the whole text
+today and the reader shows one label per text: a per-book label (for instance a header key
+`# syntax-manual: 1 14 15 23 24` that the build reads into the sections table) is a small change
+to the build and the reader, to be made at step 7 if the author agrees; until then the whole
+text would be labelled automatic. The AGDT files were made on Lamb's text, like GLAUx's: both
+are aligned to Hude's words, and a word Hude has otherwise gets the analyser's reading. Not
+built in this stage.
 
 ## Steps
 
@@ -229,6 +244,94 @@ source. Not built in this stage.
 ## Decisions
 
 (append dated entries: what was open, what was chosen, why, which pages were looked at)
+
+* **2026-11-16, steps 1–2: the book, the page, the modules.** Pages looked at: leaves 5–18 (front
+  matter), 19–21, 26, 28–30, 35–38, 43–46, 143, 284, 287–297, and the OCR of every text leaf.
+  * **Four pages of speech 2 are missing from the Archive's reader but not from the scan.**
+    The scan's page list marks leaves 36, 37, 44 and 45 "Delete" (hidden). They are not
+    duplicates: the visible leaves run from 2.22 (leaf 35) straight to 2.31 (leaf 38), and from
+    2.58 (leaf 43) to 2.67 (leaf 46); the two openings between exist only as the camera's whole
+    frames (the book on its mat between two rulers, 3744 × 5616 pixels), which the hidden leaves
+    are. `Play.unhide = (36, 37, 44, 45)` keeps them; `hude_pages.FRAMES` holds each page's
+    rectangle in its frame and `hude-pages lysias fetch` cuts the page image to it once. So the
+    text is 269 pages, leaves 19–287 without a gap, and a reader who looks a place up in the
+    Archive's online reader will not find these four pages there.
+  * **Keys by leaf.** Hude prints no page numbers; a line is `leaf.line` (`28.5`), the page's
+    files `p-0028…`. A right-hand page is an odd leaf (line numbers left, section numbers
+    right), a left-hand page an even leaf (the other way round); this holds through the four
+    cut pages.
+  * **What counts as a line** (settled from the margin numbers and the apparatus's references on
+    leaves 19, 28, 284): not the running head, not a speech's number and title, not the heading
+    ΥΠΟΘΕΣΙΣ ΔΙΟΝΥΣΙΟΥ; but every line of a hypothesis and every heading inside a speech
+    (ΜΑΡΤΥΡΕΣ.).
+  * **The running head and the apparatus are found on each page by itself** (`head_bottom`,
+    `apparatus_top`). The scan's pages are not cut alike (the head ends between 1.4 % and 8.2 % of
+    the page's height), so no fixed share works. The apparatus has no rule above it and
+    Tesseract's type sizes are not sure (it sizes a last line of text as small as the apparatus
+    on some pages), but the apparatus's lines stand at two thirds of the text's pitch and the
+    text ends a line and a half above it: the block is taken from the foot upwards by pitch and
+    size together. A one-line apparatus under the last lines of a speech (leaves 59, 64) and a
+    stray stamp under the apparatus (leaf 55) are provided for. The shared drama layout is used
+    with the head and the apparatus handed to it; lines it drops as noise (a short last line of
+    a paragraph read with little confidence, a speech's numeral) are put back, and a line
+    Tesseract read twice is left out.
+  * **Margin numbers by their place.** Each margin is cut into its clusters of ink, each read
+    by Tesseract (digits). Hude's old-style figures are misread often (10 as 1, 3 as 8), so a
+    number confirms a fifth line, or the line where a section begins, by standing beside it,
+    whatever it was read as. A Stephanus page is told from a section number by its brackets,
+    which stand taller than any figure. The Stephanus pages (and for speeches 32–34 the
+    Dionysius pages) are **not recorded**: Lysias is cited by speech and section, and Hude marks
+    only the line, not the word, where a page begins (as Nilén's Vulgate pages in the True Story).
+  * **The check text.** `perseus_prose` gained three options, all off by default (the True
+    Story's output is unchanged: a scratch merge gave byte-identical files): `book` (the speech's
+    number for a file without book divisions), `quotes` (a `<q>` written ‘ ’: Hude's single
+    marks; the closing mark is kept apart from the elision sign ʼ), `headings` (the words of a
+    `<label>` marked, and the section that Perseus begins with its label begun at the first word
+    after it, where Hude's margin number stands).
+  * **Three things Tesseract does on this print, and what the draft does about them.** It reads
+    δʼ as ὃ (the check word δʼ is paired with such a reading standing free in its place: no
+    flag; a risk accepted, as the ζ/ξ fold of the True Story: a real ὃ against δʼ between the
+    editions would go unflagged). It runs two words together (ὑπὸτῶν: both words paired, no
+    flag). It reads Hude's angle brackets ⟨ ⟩ as round ones: round and angle brackets are
+    counted together when the OCR is compared with the check text, so a ⟨ ⟩ that Hude prints as
+    ( ) or the reverse is not flagged; the review's reading task covers the brackets' kind.
+  * **Where the editions differ in order or extent.** A run of eight or more check words that
+    the page does not show is left out of the draft with one flag (a passage Hude deletes). A
+    passage of fifteen words or more that the print has in another place is moved in the check
+    text before the matching (`transposed`): one case, 13.65–66, which Hude prints after 13.68
+    and whose sections he numbers in his own order (his 65–68 are Lamb's 67, 68, 65, 66). **The
+    print's numbers win**: the agents number the sections as Hude's margin does; the merge's
+    "every section once, in order" check then holds, and the translation and GLAUx, which follow
+    Lamb's numbers there, are re-filed for these four sections at steps 7–8.
+  * **Where a section begins.** Hude's number stands beside the line; inside the line the section
+    begins after a wider space. Lamb begins some sections a few words earlier or later (1.33:
+    Hude's 33 stands at the line "βην, ἡγούμενος τοὺς μὲν …", Lamb begins at "τοὺς δὲ
+    πείσαντας" a line below). Rule for the agents (INSTRUCTIONS.md): the mark goes on Hude's
+    line; there after the wider space, else at Lamb's word if it is on that line, else after the
+    line's first stop. About 80 places are flagged for it (see For the author).
+  * **Batch conventions** (not settled by the brief): `[title]<TAB>…` lines without a key for a
+    speech's number and title (one per printed line; the numeral is written from the speech's
+    number, since Tesseract reads the Roman numerals badly); `[label] ` after the TAB for a
+    heading inside a speech; `[hypothesis] ` for a hypothesis's lines; `§12.7 ` before the word
+    where a section begins; `¶` before an indented line; apparatus numbers as printed (`3`,
+    `22-23`), an item printed without a number given the number of the item before it, `-` for
+    an item on a speech's title. Quotations ‘ ’ (U+2018, U+2019), elision ʼ (U+02BC): the checker
+    takes a ’ for a closing mark only while a quotation is open.
+  * **In grc.txt** (`hude_merge.py`): a heading inside a speech is a `!` line (the format's
+    stage direction: a line without a number and without words to tap); a hypothesis is the
+    speech's section 0 (`34.0`); the book's label is the speech's number and Hude's title as
+    printed, in capitals without accents (`== book 1 · ΥΠΕΡ ΤΟΥ ΕΡΑΤΟΣΘΕΝΟΥΣ ΦΟΝΟΥ ΑΠΟΛΟΓΙΑ`).
+    How the reader shows each of these is checked at step 11; the three are listed under For the
+    author.
+  * **The Murray options.** Hude's page shares `app_bare_numbers`, `verse_size_q`,
+    `foot_signature` and `app_pitch_cut` with Murray's Oxford text; `tests/test_murray_layout.py`
+    allowed them for that editor only and now allows the route `hude` too.
+  * **Texts verified unchanged**: the True Story (a scratch merge into
+    `pipeline/build/agent-scratch/lysias/verify/`: grc.txt, the apparatus, tokens, syntax,
+    translation, both commentaries and the introduction byte-identical to `texts/truestory/`;
+    `check-lucian-batch` gives the same remarks). No other text reads through the changed code
+    (`perseus_prose` is the True Story's alone; `Play.unhide` is empty for every other entry;
+    the fetch list only grew). Nothing was rebuilt.
 
 ## Sizes, for planning
 

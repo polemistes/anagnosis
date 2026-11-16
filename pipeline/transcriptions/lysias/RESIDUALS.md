@@ -37,7 +37,8 @@ For each page `p-0028` that has residuals, in `pipeline/build/hude-pages/lysias/
 
 On every page of your batches, against the whole page image: each section number in the outer
 margin must have its `§speech.section` mark on that line, before the word where the section
-begins (after the wider space, where it begins inside the line); each line Hude indents must have
+begins (the rule in INSTRUCTIONS.md: the check text's word if it stands on Hude's line, else the
+first sentence break of his line); each line Hude indents must have
 a `¶` line before it, and no other line; each heading inside a speech must be a `[label]` line of
 its own, counted in the keys. Correct and note what is wrong.
 
