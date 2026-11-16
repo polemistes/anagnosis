@@ -71,6 +71,13 @@ object TextOwnership {
      * that are not on the device from the store in that version, unless a text app has
      * already brought them.
      */
+    /**
+     * What is owned: the texts the store says are bought, and the texts this build gives
+     * without a purchase (the author's own build: the held-back texts it carries; empty in
+     * every public build).
+     */
+    fun owned(bought: Set<String>, granted: Set<String>): Set<String> = bought + granted
+
     fun toFetch(owned: Set<String>, storeVersions: Map<String, String?>, catalogVersions: Map<String, String>, fromApps: Collection<String>): List<String> =
         owned.filter { slug ->
             val wanted = catalogVersions[slug] ?: return@filter false

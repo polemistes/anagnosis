@@ -118,13 +118,18 @@ database as for any text (data/<slug>.sqlite, ignored).
   **The public build** as before, after moving the file away (`mv app/author-packs.txt
   ../author-packs.txt.off` or delete it): `./gradlew :androidApp:bundleRelease` (or
   bundleDebug); with the file present a release task is refused.
-* **Open: the shop.** The reader offers only texts marked `google_play: yes` and bought. On the
-  emulator the debug build's fake billing sells a text once the sale mark is in a scratch copy
-  of the bundle's catalogue (pipeline/tools/emulator-check/patch_aab.py, slugs edited); on the
-  author's phone a debug build uses Play Billing, which cannot sell a product that is not
-  active in Play Console. So on a phone the private texts cannot yet be opened: to be decided
-  (e.g. the author's build marks its packs for sale and uses the fake billing on any device, or
-  the text installed by hand). Not done.
+* **The shop: done 2026-11-16** (log build/logs/app-fixes.md). A build that carries the author's
+  packs gives the texts of app/author-packs.txt without a purchase: BuildConfig.AUTHOR_TEXTS
+  (generated from the file; empty in every public build) → `AnagnosisRepository.textsGranted` →
+  `PlayTextShop(granted)`: owned from the start (`TextOwnership.owned`), packs fetched as for a
+  bought text, no product in Play Console, not stored with the bought texts. No sale mark and no
+  scratch catalogue needed any more. **Internal testing release**: a release task with author
+  packs is refused unless `-PauthorRelease=true`
+  (`./gradlew :androidApp:bundleRelease -PauthorRelease=true`); that bundle has versionName
+  "…-author" and versionCode = production + 1 (rule in androidApp/build.gradle.kts and
+  play/README.md); internal testing track only, never promoted. Emulator-checked with the
+  debug build: Medea and Alcestis owned and readable on a fresh install; the seven texts on sale
+  offered with Buy; finished texts not on sale nowhere.
 * The **public** pack lists (settings.gradle.kts, androidApp's `assetPacks`) must not name a
   held-back text; `check` reports it if they do.
 * On 2028-01-01: move the plays' folders from `private/` into the public repository (replace

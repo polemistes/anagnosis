@@ -27,7 +27,9 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         val driverFactory = DriverFactory(applicationContext)
         val repository = AnagnosisRepository(driverFactory)
-        shop = PlayTextShop(this, driverFactory, repository.textsOnSale())
+        // the author's own build gives the held-back texts it carries without a purchase
+        val granted = repository.textsGranted(BuildConfig.AUTHOR_TEXTS.split(',').map { it.trim() }.filter { it.isNotEmpty() })
+        shop = PlayTextShop(this, driverFactory, repository.textsOnSale(), granted)
         val settingsStore = SettingsStore(applicationContext)
         val version = packageManager.getPackageInfo(packageName, 0).versionName ?: "?"
         if (savedInstanceState == null) openText.value = intent?.getStringExtra(EXTRA_OPEN_TEXT)

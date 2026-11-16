@@ -11,6 +11,9 @@ plugins {
 // file the build is the public one, unchanged.
 val authorPacks = rootProject.file("author-packs.txt").takeIf { it.isFile }?.readLines()
     ?.map { it.substringBefore('#').trim() }?.filter { it.isNotEmpty() }.orEmpty()
+/** The public release's version; the author's build sits one above it (see versionCode below). */
+val productionVersionCode = 19
+val productionVersionName = "0.7.0"
 
 dependencies {
     implementation(projects.shared)
@@ -29,8 +32,20 @@ android {
         applicationId = "no.anagnosis.reader"
         minSdk = libs.versions.android.minSdk.get().toInt()
         targetSdk = libs.versions.android.targetSdk.get().toInt()
-        versionCode = 19
-        versionName = "0.7.0"
+        // Version rule (play/README.md): productionVersionCode is the public release's. A build
+        // that carries the author's packs (app/author-packs.txt; released only with
+        // -PauthorRelease=true, to the internal testing track) takes productionVersionCode + 1 and
+        // the versionName suffix "-author": a tester's phone installs the highest code it may have,
+        // so the author's bundle must stand above the production one; the next production release
+        // then takes the code after the author's.
+        versionCode = if (authorPacks.isEmpty()) productionVersionCode else productionVersionCode + 1
+        versionName = if (authorPacks.isEmpty()) productionVersionName else "$productionVersionName-author"
+        // The held-back texts this build gives its user without a purchase (comma-separated
+        // slugs): empty in every public build
+        buildConfigField("String", "AUTHOR_TEXTS", "\"${authorPacks.joinToString(",")}\"")
+    }
+    buildFeatures {
+        buildConfig = true
     }
     // the texts sold in the app, delivered by Google Play once bought (see packs/antigone)
     assetPacks += listOf("antigone", "ajax", "electra", "odyssey", "symposium", "gorgias", "agamemnon", "choephoroi", "eumenides", "clouds", "theogony", "truestory", "hermas", "newtestament", "trachiniae", "oedipustyrannus", "oedipuscoloneus", "philoctetes").map { ":packs:$it" }

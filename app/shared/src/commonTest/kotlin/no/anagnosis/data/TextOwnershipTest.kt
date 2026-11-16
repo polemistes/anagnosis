@@ -34,4 +34,21 @@ class TextOwnershipTest {
         // the catalog is not fetched
         assertEquals(listOf("ajax", "odyssey"), fetch)
     }
+
+    @Test
+    fun givenTextsAreOwnedBesideTheBoughtOnes() {
+        // the author's build gives the held-back texts it carries; the store's answer does not take them away
+        assertEquals(setOf("antigone", "medea", "alcestis"), TextOwnership.owned(setOf("antigone"), setOf("medea", "alcestis")))
+        assertEquals(setOf("medea"), TextOwnership.owned(emptySet(), setOf("medea")))
+        // a public build gives nothing
+        assertEquals(setOf("antigone"), TextOwnership.owned(setOf("antigone"), emptySet()))
+    }
+
+    @Test
+    fun givenTextsAreFetchedLikeBoughtOnes() {
+        val owned = TextOwnership.owned(setOf("antigone"), setOf("medea"))
+        val fetch = TextOwnership.toFetch(owned, mapOf("antigone" to "v1", "medea" to null),
+            mapOf("antigone" to "v1", "medea" to "m1"), emptyList())
+        assertEquals(listOf("medea"), fetch)
+    }
 }

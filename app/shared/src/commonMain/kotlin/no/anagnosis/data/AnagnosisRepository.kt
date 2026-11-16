@@ -44,6 +44,17 @@ class AnagnosisRepository(private val driverFactory: DriverFactory) {
             .filter { it.onGooglePlay && it.productId.isNotEmpty() && it.version.isNotEmpty() }
             .map { OnSale(it.slug, it.productId, it.version) }
 
+    /**
+     * The texts this build gives without a purchase (the author's own build, [slugs] from its
+     * BuildConfig), as far as the catalogue has them with a built database. They carry no sale
+     * mark and need no product in the store; their packs are fetched as for a bought text.
+     */
+    fun textsGranted(slugs: Collection<String>): List<OnSale> =
+        if (slugs.isEmpty()) emptyList()
+        else driverFactory.readCatalog()?.let(::parseCatalog).orEmpty().distinctBy { it.slug }
+            .filter { it.slug in slugs && it.version.isNotEmpty() }
+            .map { OnSale(it.slug, it.productId, it.version) }
+
     private fun CatalogEntry.copy(installed: Boolean) =
         CatalogEntry(slug, title, author, titleEn, authorEn, description, edition, installed, appId,
             editor, apparatus, translation, commentary, syntax, dictionaries, onGooglePlay, productId,

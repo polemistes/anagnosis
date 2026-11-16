@@ -29,14 +29,22 @@ class PlayTextShop(
     private val activity: Activity,
     private val driverFactory: DriverFactory,
     onSale: List<OnSale>,
+    /**
+     * The texts this build gives without a purchase: in the author's own build the held-back
+     * texts it carries (BuildConfig.AUTHOR_TEXTS), empty in every public build. They are owned
+     * from the start, never bought, and their packs are fetched like a bought text's.
+     */
+    granted: List<OnSale> = emptyList(),
 ) : TextShop {
-    /** The version of each text on sale in this build, by slug. */
-    private val versions = onSale.associate { it.slug to it.version }
+    /** The version of each text on sale or given in this build, by slug. */
+    private val versions = (onSale + granted).associate { it.slug to it.version }
     private val productOf = onSale.associate { it.slug to it.productId }
     private val slugOf = onSale.associate { it.productId to it.slug }
+    private val grantedSlugs = granted.map { it.slug }.toSet() - productOf.keys
 
     private val prefs = activity.getSharedPreferences(PREFS, Context.MODE_PRIVATE)
-    private val _state = MutableStateFlow(ShopState(owned = prefs.getStringSet(OWNED, null).orEmpty().toSet()))
+    private val _state = MutableStateFlow(ShopState(
+        owned = TextOwnership.owned(prefs.getStringSet(OWNED, null).orEmpty().toSet(), grantedSlugs)))
     override val state: StateFlow<ShopState> = _state.asStateFlow()
 
     private val billing = createBilling(activity.applicationContext) { bought ->
@@ -50,6 +58,8 @@ class PlayTextShop(
 
     init {
         packs.registerListener(packListener)
+        // a given text needs no answer from the store: fetch it now if it is not on the device
+        if (grantedSlugs.isNotEmpty()) fetchMissing()
     }
 
     fun close() {
@@ -95,14 +105,15 @@ class PlayTextShop(
         val pending = slugs(BoughtState.PENDING)
         for (b in bought) if (b.state == BoughtState.PURCHASED && !b.acknowledged) billing.acknowledge(b.token)
         _state.update { s ->
-            val owned = if (complete) paid else s.owned + paid
+            val owned = TextOwnership.owned(if (complete) paid else s.owned + paid, grantedSlugs)
             s.copy(
                 owned = owned,
                 pending = (if (complete) pending else s.pending - paid + pending),
                 revision = if (owned != s.owned) s.revision + 1 else s.revision,
             )
         }
-        prefs.edit().putStringSet(OWNED, _state.value.owned).apply()
+        // only what was bought is kept: a given text is owned only in the build that gives it
+        prefs.edit().putStringSet(OWNED, _state.value.owned - grantedSlugs).apply()
         fetchMissing()
     }
 
