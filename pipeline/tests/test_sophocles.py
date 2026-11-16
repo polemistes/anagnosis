@@ -252,6 +252,29 @@ class LabelParts(unittest.TestCase):
         self.assertEqual(labels, ["Third episode", "Third stasimon", "Exodos"])
 
 
+class MergeRepeatedSubsections(unittest.TestCase):
+    def test_one_heading_per_stanza(self):
+        from anagnosis_pipeline.sophocles import merge_repeated_subsections
+        from anagnosis_pipeline.textfmt import Section, Speaker
+
+        # Philoctetes 1169-1182: Perseus's "epode" at every change of speaker; a new top-level
+        # section or another stanza ends the run
+        items = [Section(1, "choral", "Second kommos"), Section(2, "antistrophe", "2"), Line("1168", "…"),
+                 Section(2, "epode", ""), Speaker("Φιλοκτήτης"), Line("1169", "…"),
+                 Section(2, "epode", ""), Speaker("Χορός"), Line("1173", "…"),
+                 Section(2, "epode", ""), Speaker("Φιλοκτήτης"), Line("1173a", "…"),
+                 Section(1, "episode", "Exodos"), Section(2, "epode", ""), Line("1218", "…"),
+                 Section(2, "strophe", "1"), Line("1219", "…"), Section(2, "strophe", "2"), Line("1220", "…")]
+        doc = Document(items=items)
+        self.assertEqual(merge_repeated_subsections(doc), 2)
+        seq = [(i.kind, i.label) if isinstance(i, Section) else getattr(i, "n", getattr(i, "name", ""))
+               for i in doc.items]
+        self.assertEqual(seq, [("choral", "Second kommos"), ("antistrophe", "2"), "1168", ("epode", ""),
+                               "Φιλοκτήτης", "1169", "Χορός", "1173", "Φιλοκτήτης", "1173a",
+                               ("episode", "Exodos"), ("epode", ""), "1218", ("strophe", "1"), "1219",
+                               ("strophe", "2"), "1220"])
+
+
 class AlignPartStarts(unittest.TestCase):
     def test_section_moved_to_the_division_start(self):
         from anagnosis_pipeline.sophocles import PLAYS, align_part_starts, label_parts
@@ -296,3 +319,31 @@ class PlainHeading(unittest.TestCase):
         from anagnosis_pipeline.sophocles import plain_heading
         self.assertEqual(plain_heading("## § 18 — The *Oedipus* of Seneca."), "## § 18 — The Oedipus of Seneca.")
         self.assertEqual(plain_heading("### § 1. *Opening* Scene\\_"), "### § 1. Opening Scene")
+
+
+class TranslationStages(unittest.TestCase):
+    def test_stage_inside_a_verse_set_apart_and_milestone_space(self):
+        import tempfile
+        from pathlib import Path
+
+        from anagnosis_pipeline.import_perseus import tei_to_document
+        from anagnosis_pipeline.sophocles import split_translation_stages
+        from anagnosis_pipeline.textfmt import Speaker, Stage
+
+        xml = """<TEI xmlns="http://www.tei-c.org/ns/1.0"><text><body><div type="textpart" subtype="section" n="1">
+<sp><speaker>Philoctetes</speaker>
+<l n="1215">for leaving your sacred stream! I am nothing now!  <stage rend="italic">Exit Philoctetes into the cave.</stage>
+</l></sp>
+<sp><speaker>Antigone</speaker><l n="1270">but can never be made worse.<milestone unit="para"/>Why are you silent?</l></sp>
+</div></body></text></TEI>"""
+        with tempfile.TemporaryDirectory() as t:
+            path = Path(t) / "eng.xml"
+            path.write_text(xml, encoding="utf-8")
+            doc = tei_to_document(path, {})
+            changes = split_translation_stages(doc, path)
+        seq = [(type(i).__name__, getattr(i, "text", getattr(i, "name", ""))) for i in doc.items
+               if not type(i).__name__ == "Section"]
+        self.assertEqual(seq, [("Speaker", "Philoctetes"), ("Line", "for leaving your sacred stream! I am nothing now!"),
+                               ("Stage", "Exit Philoctetes into the cave."), ("Speaker", "Antigone"),
+                               ("Line", "but can never be made worse. Why are you silent?")])
+        self.assertEqual(len(changes), 2)

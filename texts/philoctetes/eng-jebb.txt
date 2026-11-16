@@ -52,7 +52,8 @@
 45	Send your attendant, therefore, to keep watch, lest he come upon me unawares, since he would rather take me than all the Greeks together.
 
 @ Neoptolemus
-48	The man is going, and the path will be watched. And now, if you need anything else, say so. Exit Attendant, on the spectators’ left.
+48	The man is going, and the path will be watched. And now, if you need anything else, say so.
+!	Exit Attendant, on the spectators’ left.
 
 @ Odysseus
 50	Son of Achilles, you must be loyal to the goals of your mission—and not with your body alone. Should you hear some new plan unknown to you till now, you must serve it, since it is to serve that you are here.
@@ -150,7 +151,8 @@
 @ Odysseus
 123	You stay here, then, to wait for him. Meanwhile I will go away, so as not to be observed here with you,
 125	and I will send our lookout back to your ship. And, if in my view you seem to linger at all beyond the due time, I will send that same man back again, after disguising him as the captain of a merchant-ship, so that secrecy may be on our side.
-130	Then, son, as he tells his artful story, take whatever in his tale is from time to time helpful to you. Now I will go to the ship, leaving matters here to you. May escorting Hermes the Deceiver, lead us on, and divine Victory, Athena Polias, who saves me always! Exit Odysseus, on the spectators’ left.
+130	Then, son, as he tells his artful story, take whatever in his tale is from time to time helpful to you. Now I will go to the ship, leaving matters here to you. May escorting Hermes the Deceiver, lead us on, and divine Victory, Athena Polias, who saves me always!
+!	Exit Odysseus, on the spectators’ left.
 
 == choral
 
@@ -201,7 +203,7 @@
 
 === strophe 3
 @ Chorus
-201	Hush,boy!
+201	Hush, boy!
 
 @ Neoptolemus
 201a	What is it?
@@ -443,7 +445,8 @@
 
 @ Philoctetes
 530	O day of joy unsurpassed! Most delightful man, and you good sailors! If only I could show you in deeds what a true friend you have made in me! Let us be going, my son, when we two have made a solemn farewell to my homeless home inside, so that you may also learn
-535	by what means I sustained my life, and how stout of heart I was born. For I believe that the mere sight would have deterred any other man but me from enduring these sufferings. But I have been slowly schooled by necessity to endure misery. Neoptolemus is about to follow Philoctetes into the cave.
+535	by what means I sustained my life, and how stout of heart I was born. For I believe that the mere sight would have deterred any other man but me from enduring these sufferings. But I have been slowly schooled by necessity to endure misery.
+!	Neoptolemus is about to follow Philoctetes into the cave.
 
 @ Chorus
 539	Wait, let us listen to the two men who are coming!
@@ -537,7 +540,8 @@
 625	from Hades into the light, as his father did!
 
 @ Merchant
-626	I know nothing about that. But for my part I must return to ship, while for you I pray that god may help you in every possible way. Exit Merchant.
+626	I know nothing about that. But for my part I must return to ship, while for you I pray that god may help you in every possible way.
+!	Exit Merchant.
 
 @ Philoctetes
 628	Now is it not astounding, boy, that Odysseus would ever have expected by means of soft words
@@ -601,7 +605,8 @@
 
 @ Philoctetes
 674a	Agreed, and I will bring you also.
-675	My sickness craves the comfort of your presence. Philoctetes and Neoptolemus enter the cave.
+675	My sickness craves the comfort of your presence.
+!	Philoctetes and Neoptolemus enter the cave.
 
 == choral
 
@@ -660,7 +665,7 @@
 740	What troubles you? Speak, do not keep so silent. It is plain enough that you are suffering somehow.
 
 @ Philoctetes
-742	I am destroyed, boy—I can never conceal my suffering when you are close. Ah! Ah! It shoots through me, shoots straight through! Oh, the pain,the misery!
+742	I am destroyed, boy—I can never conceal my suffering when you are close. Ah! Ah! It shoots through me, shoots straight through! Oh, the pain, the misery!
 745	I am destroyed, boy—I am devoured! Ah, by the gods I beg you, if you have a sword ready to hand, strike at my ankle—cut it off now! Do not spare my life!
 750	Quick, boy, quick!
 
@@ -1044,7 +1049,8 @@
 @ Neoptolemus
 1074	I shall be told by Odysseus here that I am too
 1075	soft-hearted; but remain here, if that one agrees, until the sailors have readied everything on board, and we have made our prayers to the gods. In the interval, perhaps, he will obtain a better attitude towards us. And so we two are going.
-1080	And you, when we call you, be quick to come. Exeunt Odysseus and Neoptolemus.
+1080	And you, when we call you, be quick to come.
+!	Exeunt Odysseus and Neoptolemus.
 
 == choral
 
@@ -1165,7 +1171,8 @@
 
 @ Philoctetes
 1211a	In Hades; he dwells in the sunlight no more. Ah, my city, city of my fathers! I crave to see you, unhappy man that I truly am
-1215	for leaving your sacred stream and going to help the Danaans, my enemies! I am nothing now, nothing anymore! Exit Philoctetes into the cave.
+1215	for leaving your sacred stream and going to help the Danaans, my enemies! I am nothing now, nothing anymore!
+!	Exit Philoctetes into the cave.
 
 == episode
 @ Chorus
@@ -1278,14 +1285,16 @@
 
 @ Neoptolemus
 1259	You have come to your senses. And if you are so prudent hereafter,
-1260	perhaps you may steer clear of trouble. Odysseus feigns departure, but conceals himself nearby.
+1260	perhaps you may steer clear of trouble.
+!	Odysseus feigns departure, but conceals himself nearby.
 
 @ 
 1261	But you, son of Poeas, Philoctetes, come out! Leave the shelter of your rocky home!
 
 @ Philoctetes
 !	Within.
-1263	What is this disruptive cry once more rising beside my cave? Why do you call me? What do you want of me? He appears at the mouth of the cave, and sees Neoptolemus.
+1263	What is this disruptive cry once more rising beside my cave? Why do you call me? What do you want of me?
+!	He appears at the mouth of the cave, and sees Neoptolemus.
 1265	Oh, no! This business will bring me no good. Have you come bringing me new misery on top of the old?
 
 @ Neoptolemus
@@ -1313,7 +1322,7 @@
 1277a	More firmly, believe me, than words can say.
 
 @ Neoptolemus
-1278	Well, I could have wished that you had listened to my words, but if nothing that I say will help,then I am finished.
+1278	Well, I could have wished that you had listened to my words, but if nothing that I say will help, then I am finished.
 
 @ Philoctetes
 1280a	Yes, all your pleas will be in vain. You will never gain my mind’s good will, since first you fraudulently seized my means of life and robbed me of it, and then you have come here to admonish me, you most hateful descendant of so noble a father!
@@ -1332,7 +1341,8 @@
 1290	O welcome words—if your words are true!
 
 @ Neoptolemus
-1291	The deed will soon make it plain. Come, stretch out your right hand and be master of your bow! As he hands the bow and arrows to Philoctetes, Odysseus suddenly appears.
+1291	The deed will soon make it plain. Come, stretch out your right hand and be master of your bow!
+!	As he hands the bow and arrows to Philoctetes, Odysseus suddenly appears.
 
 @ Odysseus
 1293	But I forbid it, as the gods are my witnesses, in the name of the Atreids and the entire army!
@@ -1344,7 +1354,8 @@
 1296a	Be sure of it, and you see him at your side, who will carry you to the plains of Troy by force, whether or not the son of Achilles is willing.
 
 @ Philoctetes
-1299	But it will bring you no joy, if this arrow fly straight. Odysseus flees from the stage.
+1299	But it will bring you no joy, if this arrow fly straight.
+!	Odysseus flees from the stage.
 
 @ Neoptolemus
 1300	Wait—by the gods, no! Do not let it fly!

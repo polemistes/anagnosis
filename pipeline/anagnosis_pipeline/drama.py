@@ -1187,6 +1187,14 @@ def note_heading(raw: str, regex: str) -> tuple[str, int] | None:
 _GREEK_WORD = r"[Ͱ-Ͽἀ-῿ʼ’᾽]+"
 
 
+def escape_apparatus_asterisks(bold, text: str) -> str:
+    """The apparatus lines of the batches are plain text, so every asterisk in them is printed
+    (Jebb's mark of a conjecture, *θεῶν; an erased letter, ὧ* L): written \\* so that it cannot
+    open italics in the markdown. `bold` (sophocles_pages.bold_lemmas) puts the lemmas in bold
+    first, a starred lemma (*λόγων]) too."""
+    return bold(text.replace("*", "\x00")).replace("\x00", "\\*")
+
+
 def bold_lemma(text: str) -> str:
     """The Greek at the start of a note, up to its colon, comma, bracket, stop or the first word
     in Latin letters, in bold: "κρίσιν ποεῖν: not = …" -> "**κρίσιν ποεῖν**: not = …"."""
@@ -1425,6 +1433,7 @@ def merge_play(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path
             for m in sophocles.align_part_starts(doc, sophocles.PLAYS[slug]):
                 print(m)
             sophocles.label_parts(doc, sophocles.PLAYS[slug])
+            print(f"lyric sub-headings repeated within a stanza dropped: {sophocles.merge_repeated_subsections(doc)}")
     out.mkdir(parents=True, exist_ok=True)
     write_file(out / "grc.txt", doc)
     print(f"wrote {out / 'grc.txt'}: {len(lines)} lines from {len(pages)} pages")
@@ -1457,7 +1466,7 @@ def merge_play(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path
     md = _meta_lines(apparatus_meta(play)) + [""]
     for heading, body in notes:
         md.append(f"## {heading}")
-        md.append(bold_lemmas("\n\n".join(body)))
+        md.append(escape_apparatus_asterisks(bold_lemmas, "\n\n".join(body)))
         md.append("")
     (out / f"commentary-{play.app_editor}-apparatus.md").write_text("\n".join(md) + "\n", encoding="utf-8")
     print(f"wrote commentary-{play.app_editor}-apparatus.md: {len(notes)} notes, {sum(len(b) for _h, b in notes)} items")

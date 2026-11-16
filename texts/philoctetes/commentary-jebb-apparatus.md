@@ -275,7 +275,7 @@ L has μέλον πάλαι μέλημά μοι λέγεισ ἄναξ τὸ σ�
 **ἐπὶ παντί τῳ**] Aristeides (I. p. 61) loosely quotes these words as ἐπὶ ἅπαντι τῷ (sic).
 
 ## 177
-*θεῶν Lachmann: θνητῶν MSS.
+\*θεῶν Lachmann: θνητῶν MSS.
 
 ## 179
 **οἷς**] οἷσι Suidas s.v. παλάμαι.—**αἰών**] Burges conj. ἀγών.
@@ -918,7 +918,7 @@ Nauck places in the text his conjectures οἶδʼ ἐγώ for οἶδά πω, a
 ἐγώ εἰμʼ L 1st hand, altered by S to ἐγὼ ʼμʼ. Most of the other MSS. have ἐγώ εἰμʼ (as A), or ἐγώ ʼμʼ (as B): ἐγὼ μὲν Γ. Nauck conj. ἔγωγʼ.
 
 ## 587
-προσφιλῆ, *λόγων] προσφιλῆ λόγον L, etc.: προσφιλεῖ λόγῳ in Harl. (15th cent.), which Burges adopts in his text, is an isolated v. l. For λόγον Burges conj. λόγων, received by Nauck, Wecklein, Mekler.
+**προσφιλῆ, \*λόγων**] προσφιλῆ λόγον L, etc.: προσφιλεῖ λόγῳ in Harl. (15th cent.), which Burges adopts in his text, is an isolated v. l. For λόγον Burges conj. λόγων, received by Nauck, Wecklein, Mekler.
 
 ## 588
 After ἡμᾶς two letters (δὲ?) have been erased in L.—μηδένʼ MSS.: Linwood conj. μηδὲν, and so Blaydes.
@@ -1658,7 +1658,7 @@ Nauck conj. ἀριστεῦσιν.
 Hermann conj. πέτρας ἄνωθεν τῆσδʼ ἐναιμάξω πεσών.
 
 ## 1003
-*ξυλλάβετον αὐτὸν Bernhardy: ξυλλάβετʼ αὐτὸν L: ξυλλάβετέ γʼ αὐτὸν A: ξυλλάβετε τοῦτον Triclinius: ξυλλάβετʼ ἄρʼ αὐτὸν Wecklein (Ars p. 33) and Hartung: ξυλλάβετʼ, ἄγʼ, αὐτὸν Burges: ξυλλάβετε, ναῦται Hense: ξυλλάβετʼ, ἄγʼ, οὗτοι Cavallin: ξύλλαβέ τις αὐτὸν Bergk: ξυμμάρψατʼ αὐτὸν M. Schmidt.
+\*ξυλλάβετον αὐτὸν Bernhardy: ξυλλάβετʼ αὐτὸν L: ξυλλάβετέ γʼ αὐτὸν A: ξυλλάβετε τοῦτον Triclinius: ξυλλάβετʼ ἄρʼ αὐτὸν Wecklein (Ars p. 33) and Hartung: ξυλλάβετʼ, ἄγʼ, αὐτὸν Burges: ξυλλάβετε, ναῦται Hense: ξυλλάβετʼ, ἄγʼ, οὗτοι Cavallin: ξύλλαβέ τις αὐτὸν Bergk: ξυμμάρψατʼ αὐτὸν M. Schmidt.
 
 ## 1007
 οἷʼ αὖ μʼ Hermann: οἷά μʼ L (with most MSS.): οἵως r (and Porson Adv. p. 201): οἷός μʼ Triclin.: οἷόν μʼ Blaydes.—ὥς μʼ MSS. (Γ has γρ. ὁ written above): Wakefield conj. ὅς μʼ, and so Dindorf.

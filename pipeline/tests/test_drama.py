@@ -234,3 +234,16 @@ class ItemNumberTest(unittest.TestCase):
         self.assertTrue(_item_number(w("215"), bare=True, right=1700))
         self.assertFalse(_item_number(w("215", x=1800), bare=True, right=1700))  # a margin number
         self.assertFalse(_item_number(w("5", conf=80), bare=True, right=1700))
+
+
+class ApparatusAsterisks(unittest.TestCase):
+    def test_printed_asterisks_escaped_after_the_lemma_is_bold(self):
+        from anagnosis_pipeline.drama import escape_apparatus_asterisks
+        from anagnosis_pipeline.sophocles_pages import bold_lemmas
+
+        self.assertEqual(escape_apparatus_asterisks(bold_lemmas, "*θεῶν Lachmann: θνητῶν MSS."),
+                         "\\*θεῶν Lachmann: θνητῶν MSS.")
+        self.assertEqual(escape_apparatus_asterisks(bold_lemmas, "προσφιλῆ, *λόγων] προσφιλῆ λόγον L"),
+                         "**προσφιλῆ, \\*λόγων**] προσφιλῆ λόγον L")
+        self.assertEqual(escape_apparatus_asterisks(bold_lemmas, "ὧν Haun.: ὧ* L: ὧν μʼ rell."),
+                         "ὧν Haun.: ὧ\\* L: ὧν μʼ rell.")

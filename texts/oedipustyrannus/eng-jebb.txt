@@ -685,7 +685,8 @@
 676	Will you not be gone and leave me in peace?
 
 @ Creon
-676a	I will go on my way. I have found you undiscerning, but in the view of these men I am just. He exits.
+676a	I will go on my way. I have found you undiscerning, but in the view of these men I am just.
+!	He exits.
 
 === antistrophe 1
 @ Chorus
@@ -874,7 +875,8 @@
 860	and do not neglect this matter.
 
 @ Iocasta
-861	I will send for him without delay. But let us go into the house: I will do nothing which does not please you. Exeunt Oedipus and Iocasta.
+861	I will send for him without delay. But let us go into the house: I will do nothing which does not please you.
+!	Exeunt Oedipus and Iocasta.
 
 == choral
 
@@ -1216,7 +1218,8 @@
 1070	Leave this woman to glory in her princely stock.
 
 @ Iocasta
-1071	Alas, alas, miserable man—that word alone can I say to you—and no other word ever again. She rushes into the palace.
+1071	Alas, alas, miserable man—that word alone can I say to you—and no other word ever again.
+!	She rushes into the palace.
 
 @ Chorus
 1073	Why has this woman gone, Oedipus, rushing off in wild grief? I fear
@@ -1411,7 +1414,8 @@
 
 @ Oedipus
 1182	Oh, oh! All brought to pass, all true. Light, may I now look on you for the last time—I who have been found to be accursed in birth,
-1185	accursed in wedlock, accursed in the shedding of blood. He rushes into the palace.
+1185	accursed in wedlock, accursed in the shedding of blood.
+!	He rushes into the palace.
 
 == choral
 

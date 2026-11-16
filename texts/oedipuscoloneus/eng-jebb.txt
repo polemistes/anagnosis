@@ -130,7 +130,8 @@
 
 @ Stranger
 75	Take care now, stranger, that you come to no harm; for you are noble, if I may judge by your looks, leaving your ill-fortune aside. Stay here, where I found you, until I go and tell these things to the people of this district—not in the city.
-80	They will decide for you whether you should stay or go back. Stranger exits.
+80	They will decide for you whether you should stay or go back.
+!	Stranger exits.
 
 @ Oedipus
 81	My child, has the stranger left us?
@@ -152,7 +153,8 @@
 
 @ Oedipus
 113	I will be mute. But hide me in the grove, apart from the road, till I learn
-115	how these men will speak. For in learning is the safeguard of our course. They exit.
+115	how these men will speak. For in learning is the safeguard of our course.
+!	They exit.
 
 == choral
 
@@ -661,7 +663,8 @@
 505	On the further side of this grove, stranger. And if you have need of anything, there is a guardian of the place. He will direct you.
 
 @ Ismene
-507	Off to my task. But you, Antigone, watch our father here. In the case of parents, if we toil, we must not keep a memory of it. Ismene exits.
+507	Off to my task. But you, Antigone, watch our father here. In the case of parents, if we toil, we must not keep a memory of it.
+!	Ismene exits.
 
 == choral
 
@@ -1165,7 +1168,8 @@
 847	Away with you!
 
 @ Oedipus
-847a	I am wretched, wretched! The guards exit with Antigone.
+847a	I am wretched, wretched!
+!	The guards exit with Antigone.
 
 @ Creon
 848	So those two staffs will never again support your path.
@@ -1337,7 +1341,8 @@
 1040	I will not cease until I put you in possession of your children.
 
 @ Oedipus
-1042	Thanks to you, Theseus, for your nobleness and your righteous care for me! Theseus exits with attendants and Creon.
+1042	Thanks to you, Theseus, for your nobleness and your righteous care for me!
+!	Theseus exits with attendants and Creon.
 
 == choral
 
@@ -1499,7 +1504,8 @@
 
 @ Theseus
 1208	Once only do I need hear such words, and no more, old man. I do not want to boast,
-1210	but you may feel sure that your life is safe, while any of the gods preserves mine. Theseus exits.
+1210	but you may feel sure that your life is safe, while any of the gods preserves mine.
+!	Theseus exits.
 
 == choral
 
@@ -1538,7 +1544,7 @@
 1255	for my own woes, sisters, or for those of my father here, in his old age? I have found him in a foreign land, here with you two as an exile, clad in such garments as these. Their unfriendly filth has resided with the old man for long,
 1260	wasting his flesh; while above the sightless eyes the unkempt hair flutters in the breeze; and matching with these things, it seems, is the food that he carries, sustenance for his poor stomach. Wretch that I am! I learn all this too late.
 1265	And I bear witness that I have proved the worst of men in all that concerns care for you; from my own lips hear what I am. But seeing that Zeus himself in all his actions has Shame beside him to share his throne, may she come to your aid too, father. For the sins committed can be healed,
-1270	but can never be made worse.Why are you silent? Speak, father. Do not turn away from me. Do you not have any answer at all for me? Will you dismiss me without a word, dishonored, and not tell me why you are angry?
+1270	but can never be made worse. Why are you silent? Speak, father. Do not turn away from me. Do you not have any answer at all for me? Will you dismiss me without a word, dishonored, and not tell me why you are angry?
 1275	Seed of this man, my sisters, you at least must try to move our father’s implacable, inexorable silence, so that he may not send me away like this, dishonored and with no word in return, when I am the suppliant of the god.
 
 @ Antigone
@@ -1648,7 +1654,8 @@
 
 @ Polyneices
 1443a	It rests with the divinity, this way or that. But as for you two,
-1445	I pray to the gods that you may never meet with evil; for in all men’s eyes you do not deserve to suffer. Polyneices exits.
+1445	I pray to the gods that you may never meet with evil; for in all men’s eyes you do not deserve to suffer.
+!	Polyneices exits.
 
 == choral
 
@@ -1750,7 +1757,8 @@
 1542	Children, follow me. For now in turn it is I that shine forth wondrously as a leader for you, as you were your father’s. Onward. Do not touch me, but
 1545	allow me unaided to find the sacred tomb where it is my fate to be buried in this land. This way, here—come this way! Hermes the Conductor and the goddess of the dead lead me in this direction. Light of day, no light to me, once you were mine,
 1550	but now my body feels you for the last time! For now I go to hide the end of my life in the house of Hades. But you, dearest of strangers, may you yourself be prosperous, and this land, and your followers. In your prosperity,
-1555	remember me in my death, and be fortunate evermore. He exits, followed by his daughters, Theseus, and attendants.
+1555	remember me in my death, and be fortunate evermore.
+!	He exits, followed by his daughters, Theseus, and attendants.
 
 == choral
 

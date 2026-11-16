@@ -450,6 +450,10 @@ page's block with `+ `; a page whose first line is a new, indented paragraph get
   the Trachiniae's) and the range notes as notes (`## 1-134`), in italics where Jebb prints them.
 * Jebb's dash is —, in ranges too ("vv. 264—269"; the draft wrote the OCR's -- and --- so);
   only the heading's range has a hyphen.
+* Jebb's printed asterisk before a word (his mark of a conjecture: \*θεῶν, \*οὑκ, in the text,
+  the commentary, the introduction and the Appendix) is written `\*`: a bare `*` is italics
+  markup and would run the italics on to the next asterisk. (`sophocles-prose` also escapes a
+  bare `*` directly before a Greek letter that does not close italics.)
 
 **Jebb's references and abbreviations**, copied exactly as printed, italics as printed:
 Sophocles' plays *Ai.*, *Ant.*, *El.*, *O. T.*, *O. C.*, *Tr.*, *Ph.* and other works (*Il.*,

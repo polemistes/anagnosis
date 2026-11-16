@@ -189,3 +189,16 @@ class Draft(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class JebbAsterisks(unittest.TestCase):
+    def test_conjecture_mark_escaped_italics_kept(self):
+        from anagnosis_pipeline.sophocles import escape_jebb_asterisks
+
+        self.assertEqual(escape_jebb_asterisks("**ὦ παλάμαι *θεῶν**: the ‘devices’ … cp. *Ant.* 360"),
+                         "**ὦ παλάμαι \\*θεῶν**: the ‘devices’ … cp. *Ant.* 360")
+        self.assertEqual(escape_jebb_asterisks("**τῶνδ’ *οὑκ μελάθρων**. For ἐκ, *i.e.*, the cave"),
+                         "**τῶνδ’ \\*οὑκ μελάθρων**. For ἐκ, *i.e.*, the cave")
+        # already escaped, and an asterisk closing italics before Greek, are left alone
+        self.assertEqual(escape_jebb_asterisks("**\\*ὀρεία δ’**, S. Mekler’s *conj.*θ"),
+                         "**\\*ὀρεία δ’**, S. Mekler’s *conj.*θ")

@@ -1,5 +1,5 @@
 === p-0108
-+ tains ἀθυρόστομος in 188, on the ground that, in this logaoedic measure, the ‘irrational syllable’ is admissible in the choree (αῑ θνῆτ). A probably authentic example is δεινόν in 218 (=θροεῖ in 209). παλάμαι **θνητῶν**, if sound, would mean, ‘the resources of men’ (as shown by Philoctetes): so Theognis 623 παντοῖαι κακότητες ἐν ἀνθρώποισιν ἔασιν, | παντοῖαι δ᾽ ἀρεταὶ καὶ βιότου παλάμαι. Cp. the praise of man as παντοπόρος in *Ant.* 360. Not, ‘the (wicked) devices of men,’ as seen in the hero’s enemies.
++ ἀθυρόστομος in 188, on the ground that, in this logaoedic measure, the ‘irrational syllable’ is admissible in the choree (αῑ θνῆτ). A probably authentic example is δεινόν in 218 (=θροεῖ in 209). παλάμαι **θνητῶν**, if sound, would mean, ‘the resources of men’ (as shown by Philoctetes): so Theognis 623 παντοῖαι κακότητες ἐν ἀνθρώποισιν ἔασιν, | παντοῖαι δ᾽ ἀρεταὶ καὶ βιότου παλάμαι. Cp. the praise of man as παντοπόρος in *Ant.* 360. Not, ‘the (wicked) devices of men,’ as seen in the hero’s enemies.
 
 ## 178
 **γένη**, ‘races,’ in the narrower sense of ‘houses’ or ‘families,’ such as the princely house to which Philoctetes belonged: cp. *Od.* 15. 533 ὑμετέρου δ᾽ οὐκ ἔστι γένος βασιλεύτερον ἄλλο. Not ‘generations,’ γενεαί (*O. T.* 1186): nor, again, ‘*sons* of men,’—a sense which could not be justified by the bold phrase in *Ai.* 784, Τέκμησσα, δύσμορον γένος. In Her. 3. 159 read ἵνα σφι γενεὴ (not γένεα) ὑπογίνηται.
@@ -41,6 +41,7 @@
 --- notes
 Breathing remark on “αῑ”: a syllable quoted as a metrical example (αῑ θνῆτ), not a word.
 "(αῑ θνῆτ)": Jebb prints the sign of the irrational syllable (>) over the circumflex of θνῆτ; written here without it.
+rev: "tains" at the head of this page deleted: the word re-|tains is written whole ("retains") at the foot of p-0107 (notes-04), so the merge doubled it ("retains tains"); seen on the column image.
 
 === p-0109
 + himself), οὔτ᾽ εὐτυχίᾳ δοκῶν που ὕστερός του εἶναι. So we sometimes guard a statement by saying, ‘perhaps’ the greatest, etc.

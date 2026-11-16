@@ -259,7 +259,7 @@
     "syntax_source": "GLAUx (Alek Keersmaekers, KU Leuven): automatic annotation, not checked by hand",
     "syntax_license": "CC BY-SA 4.0",
     "product_id": "sophocles_oedipuscoloneus_jebb",
-    "version": "695e53cb7046a2c9"
+    "version": "022d33fef32e42c0"
   },
   {
     "slug": "oedipustyrannus",
@@ -281,7 +281,7 @@
     "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
     "syntax_license": "CC BY-SA 3.0 US",
     "product_id": "sophocles_oedipustyrannus_jebb",
-    "version": "4f331a92043e128a"
+    "version": "b796c99cf6a3cc3a"
   },
   {
     "slug": "philoctetes",
@@ -303,7 +303,7 @@
     "syntax_source": "GLAUx (Alek Keersmaekers, KU Leuven): automatic annotation, not checked by hand",
     "syntax_license": "CC BY-SA 4.0",
     "product_id": "sophocles_philoctetes_jebb",
-    "version": "6def937c9a3446c6"
+    "version": "bea8a87e93697338"
   },
   {
     "slug": "symposium",
@@ -369,7 +369,7 @@
     "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
     "syntax_license": "CC BY-SA 3.0 US",
     "product_id": "sophocles_trachiniae_jebb",
-    "version": "09f1002764290c93"
+    "version": "cee43bdfb643954e"
   },
   {
     "slug": "truestory",

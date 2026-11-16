@@ -399,6 +399,31 @@ def align_part_starts(doc, play: Play, window: int = 6) -> list[str]:
     return moves
 
 
+def merge_repeated_subsections(doc) -> int:
+    """One heading per strophe, antistrophe or epode: Perseus puts each speaker's part of a lyric
+    stanza in a division of its own (Philoctetes 1169-1217: "epode" six times), which the check
+    text keeps; a sub-section with the same kind and number as the sub-section before it, with no
+    other section between, is dropped (its verses stay, under the first). Run by merge-drama with
+    label_parts. Returns the number of headings dropped."""
+    from .textfmt import Section
+
+    out: list = []
+    last = None          # (kind, label) of the last sub-section since the last top-level one
+    dropped = 0
+    for item in doc.items:
+        if isinstance(item, Section):
+            if item.level == 1:
+                last = None
+            elif (item.kind, item.label) == last:
+                dropped += 1
+                continue
+            else:
+                last = (item.kind, item.label)
+        out.append(item)
+    doc.items[:] = out
+    return dropped
+
+
 def label_parts(doc, play: Play) -> None:
     """Name each top-level section by Jebb's division (play.parts) in which most of its verses
     fall; a later section of a division already named is "(continued)" (a lyric part inside an
@@ -587,7 +612,33 @@ def prose_paragraphs(directory: Path, kind: str) -> list[str]:
 
     pages = {stem: block["md"] for stem, block in read_prose_batches(directory, kind).items()}
     paras = [re.sub(r"(?<=[\u0370-\u03ff\u1f00-\u1fff])[\u1fbd\u02bc]", "\u2019", p) for p in merge_page_blocks(pages)]
-    return join_footnote_rests([plain_heading(p) if p.startswith("#") else p for p in paras])
+    return join_footnote_rests([plain_heading(p) if p.startswith("#") else escape_jebb_asterisks(p) for p in paras])
+
+
+_GREEK_LETTER = re.compile(r"[Ͱ-Ͽἀ-῿]")
+
+
+def escape_jebb_asterisks(para: str) -> str:
+    """Jebb marks a conjecture with an asterisk before the word (*θεῶν, *οὑκ); in the batches'
+    markdown `*…*` is italics, so such a mark left bare opens italics that run on to the next
+    asterisk ("… Ant.* 360"). A single asterisk directly before a Greek letter that does not
+    close an italics span (an even number of single asterisks before it) is Jebb's mark and is
+    written \\*; one already escaped, and bold `**`, are left alone."""
+    out: list[str] = []
+    singles = 0
+    pos = 0
+    for m in re.finditer(r"\\\*|\*\*|\*", para):
+        out.append(para[pos:m.start()])
+        tok = m.group()
+        if tok == "*":
+            if singles % 2 == 0 and _GREEK_LETTER.match(para, m.end()):
+                tok = "\\*"
+            else:
+                singles += 1
+        out.append(tok)
+        pos = m.end()
+    out.append(para[pos:])
+    return "".join(out)
 
 
 _FOOTNOTE_OPEN = re.compile(r"[.!?;:)\]\u2019\u201d]\s*$")
@@ -769,15 +820,80 @@ def write_transcribed_commentary(slug: str, texts: Path, transcriptions: Path, i
 
 
 def jebb_translation(play: Play, sources: Path):
-    """Jebb's translation from Perseus as a Document (the eng-jebb.txt import_play writes)."""
+    """Jebb's translation from Perseus as a Document (the eng-jebb.txt import_play writes), with
+    the stage directions Perseus sets inside a verse's <l> made stage directions of their own
+    (after the segment), the space Perseus's <milestone/> stood for kept, and TRANSLATION_FIXES."""
     from .import_perseus import tei_to_document
 
-    return tei_to_document(sources / sources_for(play)["eng"], {
+    path = sources / sources_for(play)["eng"]
+    doc = tei_to_document(path, {
         "title": play.title_en, "translator": "Richard C. Jebb", "lang": "eng",
         "source": f"urn:cts:greekLit:tlg0011.{play.tlg}.{play.eng}",
         "edition": f"Sophocles: The Plays and Fragments, {PART_ROMAN[play.part]}: The {play.title_en}, tr. R. C. Jebb, Cambridge; modernized by Perseus",
         "license": "CC BY-SA 4.0",
     })
+    split_translation_stages(doc, path)
+    fixes = TRANSLATION_FIXES.get(play.slug, [])
+    from .textfmt import Line
+    for it in doc.items:
+        if isinstance(it, Line):
+            for wrong, right in fixes:
+                it.text = it.text.replace(wrong, right)
+    return doc
+
+
+# Perseus's English: words run together in its own file (no space after the comma)
+TRANSLATION_FIXES: dict[str, list[tuple[str, str]]] = {
+    "philoctetes": [("Hush,boy!", "Hush, boy!"), ("the pain,the misery", "the pain, the misery"),
+                    ("will help,then", "will help, then")],
+}
+
+
+def split_translation_stages(doc, path: Path) -> list[str]:
+    """In Perseus's TEI a stage direction may stand inside the verse's <l> after the words ("…
+    nothing anymore! <stage>Exit Philoctetes into the cave.</stage>"), which tei_to_document runs
+    into the segment; and a <milestone/> between two sentences is dropped without the space it
+    stood for ("worse.Why"). Each such stage direction becomes a Stage after its segment; the
+    space is put back. Changes the Document in place; returns one line per change."""
+    from lxml import etree
+
+    from .import_perseus import _inline_text, _local
+    from .textfmt import Line, Stage
+
+    stages: dict[str, list[str]] = {}
+    joins: dict[str, list[tuple[str, str]]] = {}
+    for el in etree.parse(str(path)).iter():
+        if not isinstance(el.tag, str) or _local(el) != "l":
+            continue
+        n = el.get("n")
+        for child in el:
+            if not isinstance(child.tag, str):
+                continue
+            if _local(child) == "stage":
+                stages.setdefault(n, []).append(_inline_text(child))
+            elif _local(child) == "milestone":
+                prev = child.getprevious()
+                before = (prev.tail if prev is not None else el.text) or ""
+                after = child.tail or ""
+                if before and after and not before[-1].isspace() and not after[0].isspace():
+                    joins.setdefault(n, []).append((before.split()[-1], after.split()[0]))
+    changes: list[str] = []
+    out: list = []
+    for it in doc.items:
+        out.append(it)
+        if not isinstance(it, Line):
+            continue
+        for a, b in joins.get(it.n, []):
+            if a + b in it.text:
+                it.text = it.text.replace(a + b, f"{a} {b}", 1)
+                changes.append(f"translation {it.n}: space put back in {a}{b}")
+        for text in stages.get(it.n, []):
+            if text and it.text.rstrip().endswith(text):
+                it.text = it.text.rstrip()[:-len(text)].rstrip()
+                out.append(Stage(text))
+                changes.append(f"translation {it.n}: stage direction set apart: {text}")
+    doc.items[:] = out
+    return changes
 
 
 def refile_translation(doc, numbers: list[str], speech_starts: set[str] | None = None,
@@ -1236,6 +1352,9 @@ COMMENTARY_FIXES: dict[str, list[tuple[str, str]]] = {
         ('thou comest [?]hither', 'thou comest thither'),
         ('*γεν[?]ῦ*', '*γενοῦ*'),
         ('τὸ σὸν ἔ[?]ον', 'τὸ σὸν ἔργον'),
+        # note 418: the italics of the conjecture "κάτοισθα δῆτʼ;—οὔ φημί" doubled into "**" (a stray
+        # asterisk that ran the italics on)
+        ("*δῆτʼ**;*—*οὔ*", "*δῆτʼ;*—*οὔ*"),
     ],
     "oedipustyrannus": [
         # leaf 191, note on 640 (synizesis of υ): the bar stands over both vowels (υ͞ω), not
@@ -1245,6 +1364,14 @@ COMMENTARY_FIXES: dict[str, list[tuple[str, str]]] = {
         # leaf 127, note on 118 f.: "χωρὶς τοῦ ῑ...ἡ μέντοι παράδοσις ἔχει τὸ ῑ." (Perseus: the
         # second ῑ without its mark)
         ("ἡ μέντοι παράδοσις ἔχει τὸ ι.", "ἡ μέντοι παράδοσις ἔχει τὸ ῑ."),
+        # Perseus's Betacode read wrongly, leaving a stray asterisk that opens italics: its "(" and
+        # ")" (Jebb's brackets) taken for breathings and "*" (a capital) left bare: note 472 Hes.
+        # Th. 217 "(Νὺξ) καὶ Μοίρας"; 1463 Arndt's ἄλλη for ἡμή "(Λ for Μ)"; 1525 "Kontos (Λόγιος
+        # Ἑρμῆς p. 61)", "(or ᾔδειν)"; and two words broken: 510 Plat. Theaet. 179 D "ὦ φίλε
+        # Θεόδωρε", 772 Dem. 19. 248 "τῆς πόλεως"
+        ("*ʽνὺξʼ καὶ Μοίρας", "(Νὺξ) καὶ Μοίρας"), ("*ʽλΛ for M)", "(Λ for Μ)"),
+        ("Kontos *ʽλόγιος Ἑρμῆς p. 61)", "Kontos (Λόγιος Ἑρμῆς p. 61)"), ("(or ᾔδεινʼ.", "(or ᾔδειν)."),
+        ("ὦ φλ* ́ʼε Θεόδωρε", "ὦ φίλε Θεόδωρε"), ("τῆς π*|ολεως", "τῆς πόλεως"),
     ],
     "oedipuscoloneus": [
         # Perseus's Betacode v (digamma) where the page has another letter: leaf 155 (note 307)
@@ -1258,6 +1385,8 @@ COMMENTARY_FIXES: dict[str, list[tuple[str, str]]] = {
         # "pseudo-Philem."
         ("προστρέπω),φράσαι", "προστρέπω), φράσαι"), ("ἀνδρί [ γ' ] ἐσθλὰ", "ἀνδρί [γ'] ἐσθλὰ"),
         ("pseudo - Philem.", "pseudo-Philem."),
+        # note 1248: Ῥιπᾶν, Ῥῖπαι (Perseus's Betacode *(ripa=n read as a bare asterisk and a breathing)
+        ("***ʽπιπᾶν**", "**Ῥιπᾶν**"), ("*ʽπῖπαι", "Ῥῖπαι"),
     ],
 }
 
