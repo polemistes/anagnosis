@@ -1,31 +1,19 @@
 === p-0087
-+ §§ 390-43.] ΠΕΡῚ TOY ZHKOY. 23
++ κατέστησεν, ζητεῖ, ἤθελεν.
 
-**ἀξιοῦν παρὰ τούτου πυθέσθαι ὅτου ἕνεκα**, ἐξὸν ἐπ᾽ αὐτο-
+**ἐπ᾽ αὐτοφώρῳ**: see on § 20.
 
-» “ Ν / / ν μά » \ » 3 » “οφώρῳ ἐλέγξαι, τοσούτῳ χρόνῳ ὕστερον εἰς τοσοῦτόν με 48 κατέστησεν ἀγῶνα, καὶ μάρτυρα οὐδένα παρασχόμενος ἐκ
-
-**τῶν λόγων ζητεῖ πιστὸς γενέσθαι**, ἐξὸν αὐτοῖς τοῖς ἔργοις
-
-**ἀδικοῦντα ἀποδεῖξαι**, καὶ ἐμοῦ ἅπαντας παραδιδόντος
-
-\ ’ὔ ν id ~
-
-**τοὺς θεράποντας οὖς φησι παραγενέσθαι**, παραλαβεῖν 245 οὐκ ἤθελεν.
-
-**κατέστησεν**, ζητεῖ, ἤθελεν.
-
-**ἔπ᾽ αὐτο**- 43. ἐκ: of ground for confidence,
-
-**φώρῳ**: see on § 20. - frequent with πιστός and πιστεύειν.
+## 43
+**ἐκ**: of ground for confidence, frequent with πιστός and πιστεύειν.
 --- flags
-1 390-43.] [conf] →
-2 ZHKOY [latin] (Greek model: ΣΗΚΟΥ.) →
-3 / [conf] →
-4 μά [conf] →
-5 οφώρῳ [greek] (Greek model: μοφώρῳ) →
-6 id [conf] →
-7 ---- [conf] →
-8 φώρῳ [greek] →
-9 20. [conf] →
+1 390-43.] [conf] → 39-43.] (running head, deleted)
+2 ZHKOY [latin] (Greek model: ΣΗΚΟΥ.) → ΣΗΚΟΥ. (running head, deleted)
+3 / [conf] → (Greek text of the speech, deleted)
+4 μά [conf] → (Greek text of the speech, deleted)
+5 οφώρῳ [greek] (Greek model: μοφώρῳ) → 240 φώρῳ (Greek text of the speech with its line number, deleted)
+6 id [conf] → (Greek text of the speech, deleted)
+7 ---- [conf] → — (the dash before the lemma ἐπ᾽ αὐτοφώρῳ; left out at the cut)
+8 φώρῳ [greek] → αὐτοφώρῳ (lemma divided at the line end, written whole)
+9 20. [conf] → ok
 --- notes
+The draft had taken in the speech's Greek text (§§ 42-43, lines 239-245) and the running head, and had split them into false lemmas: all deleted. The notes on this page are only two lines in each column: the left column runs on from the page before (κατέστησεν, ζητεῖ, ἤθελεν. in the ordinary type, not a lemma), then the further lemma ἐπ᾽ αὐτοφώρῳ after a dash; the right column holds the note on § 43.
