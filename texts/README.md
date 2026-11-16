@@ -400,6 +400,57 @@ editions are in the public domain; the transcription is published under CC BY-SA
 * `sigla.md` (from Lake's introduction and his apparatus), `glossary.md` (the names) and
   `shortdefs.tsv` (the words no dictionary has) are written by hand.
 
+## Lysias' speeches (`texts/lysias/`)
+
+The thirty-four speeches in Karl Hude's Oxford text (*Lysiae orationes*, Oxford, Clarendon Press,
+1912), read from the Internet Archive scan orationesrecogno00lysi and made by `merge-lysias` from
+the checked transcription in `pipeline/transcriptions/lysias/` (brief `pipeline/PLAN-lysias.md`,
+modules `hude_pages.py`, `hude_merge.py`, `hude_notes.py`). The editions are in the public domain;
+the transcription is published under CC BY-SA 4.0. The Eroticus (XXXV) is left out.
+(2026-11-16: the commentaries, the introduction, the appendix and Gillies's translation are
+merged in when their batches are checked; the files are not there yet.)
+
+* Greek text (`grc.txt`): Hude's, read by OCR and matched word by word to the Perseus text of the
+  speeches (Lamb's Loeb, the check text only, never shipped); the flags, then every word, stop and
+  accent where print and text still differed, settled against the page image, and every batch
+  read again by a second reader. Prose, one line per section: each speech is a book (`12.7`:
+  speech and section, Hude's section numbers; at 13.65-68 his order and numbers), named by its
+  number and Hude's title in lower-case Greek; a paragraph that begins inside a section continues
+  it on a lettered line (`1.7b`); the headings inside a speech (ΜΑΡΤΥΡΕΣ. ΝΟΜΟΣ.) are `!` lines;
+  the hypotheses Hude prints before speeches 32-34 are section 0 (`34.0`). Six misprints in the
+  text are corrected (`MISPRINTS` in `hude_merge.py`; the batches keep the print), each with a
+  note in the apparatus; so are six inside apparatus items (`APPARATUS_MISPRINTS`). His brackets
+  ⟨ ⟩ and [ ] and his obeli are kept. Read aloud in the Attic pronunciation.
+* Critical apparatus (`commentary-hude-apparatus.md`): Hude's 4,091 items, in Latin, each under
+  the section that holds its lemma; the page-line number in front of each item is left out (it
+  refers to Hude's page). Checked: every item's lemma looked for on its line (the log
+  `pipeline/build/lysias-merge.log`); the 19 that were found nowhere near were looked up on the
+  page and are readings Hude reports without the word of his text (`SETTLED`).
+* Translations: `eng-1898.txt`, the anonymous literal translation of 1898 (*The Orations of
+  Lysias*, Handy Literal Translations; Project Gutenberg #6969) for twenty speeches, by section;
+  `eng-gillies.txt`, John Gillies's version of 1778 for six more (1, 3, 4, 21, 26, 34), by his
+  paragraphs, each under the section where it begins. Eight speeches have no English (6, 8, 11,
+  15, 18, 20, 27, 29).
+* Commentaries and introductions (`commentary-adams.md`, `commentary-morgan.md`,
+  `commentary-shuckburgh.md`, `introduction.md`, `appendix.md`): C. D. Adams (*Lysias: Selected
+  Speeches*, 1905) on 12, 16, 19, 22, 24, 25, 32, 34; M. H. Morgan (*Eight Orations of Lysias*,
+  1895) on 7, 23, 31; E. S. Shuckburgh (*Lysiae Orationes XVI*, 1882) on 5, 9, 10, 13, 14, 17,
+  28, 30; read by OCR and checked against the page images, each note under the section of the
+  word its lemma names (Shuckburgh numbers by the lines of his own text; his text pages were
+  read and matched to the Greek). The introduction is Adams's general one and each commentator's
+  introduction to his speech; the appendix is Adams's Appendix I-V.
+* Lemmas, morphology and syntax (`tokens.tsv`, `syntax-nodes.tsv`): by speech. Hand-made trees
+  for 1, 14, 15, 23 (Ancient Greek Dependency Treebank, CC BY-SA 3.0) and 24 (Pedalion Trees,
+  through GLAUx); GLAUx's automatic trees (CC BY-SA 4.0) for the rest; none for 12, 13, 19 (the
+  only trees are under a non-commercial licence), whose lemmas and forms are the analyser's.
+  The header says which (`# syntax: automatic` with `# syntax-by-book: 1=manual … 12=none …`;
+  the build copies it to the meta key `syntax_by_book`). Where Hude reads otherwise than the
+  trees, the analyser, listed in `pipeline/build/lysias-review.tsv`; garbled lemmas and names
+  read as common words are corrected in `drama_fixes.py` (`LEMMA_FIXES["lysias"]`,
+  `HAND_ANALYSES["lysias"]`).
+* `sigla.md` (from Hude's SIGLA page), `glossary.md` (188 names), `shortdefs.tsv` and
+  `aliases.tsv` are written by hand.
+
 ## The Odyssey (`texts/odyssey/`)
 
 The Greek text is T. W. Allen's Oxford edition (*Homeri Opera* III–IV, 2nd ed., 1917 and 1919),
