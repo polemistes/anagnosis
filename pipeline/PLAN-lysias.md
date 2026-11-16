@@ -80,16 +80,18 @@ Lysias is wholly in the public domain (Hude died in 1936), so its files are ordi
 ## Hude's book
 
 308 leaves in the scan (0–307; the jp2 files carry these numbers). Leaves 0, 36, 37, 44, 45 and
-307 are hidden by the scan's own page list (36–37 and 44–45 are openings photographed twice; the
-text runs on without them). The page image the Archive serves as `page/n<N>` is leaf N+1 up to
-leaf 35, leaf N+3 for 38–43, leaf N+5 from 46.
+307 are hidden by the scan's own page list. **Leaves 36–37 and 44–45 are four pages of speech 2
+(2.23–2.30 and 2.59–2.66)** that the scan holds only as the camera's uncropped frames, marked
+"Delete": the Archive's online reader and its page images skip them, the jp2 files have them, and
+they are used here (Decisions). The page image the Archive serves as `page/n<N>` is leaf N+1 up
+to leaf 35, leaf N+3 for 38–43, leaf N+5 from 46.
 
 | part | leaves | |
 |---|---|---|
 | series title, title page (no date; verso "Excudebat Horatius Hart") | 5, 7 | |
 | Praefatio, pp. iii–x | 9–16 | Latin: the manuscripts (the Palatinus X of the 12th century, the source of all others for speeches 3–31; speeches 1–2 also in other families: H, P, and F V for 2), the first hand's index of X, the editions used; pp. viii–ix a list of spellings adopted, with references; signed "Scribebam Romae Kal. Dec. MCMXI" |
 | SIGLA | 18 | three lists: speeches 1–31 (X and its correcting hands X¹ Xᶜ Xᶜ(1) Xʳ Xˢ, C D E F f G g H h I K M N O P Q q R S U V W, L = consensus codicum, Aldus, marg. Ald., Turr., the signs + / [X]); speeches 32–34 (the manuscripts of Dionysius of Halicarnassus F G M T); speech 35 (Plato's B T W) |
-| **Speeches I–XXXIV** | **19–287** | **265 pages** (269 leaves less the four hidden); every speech begins on a fresh page |
+| **Speeches I–XXXIV** | **19–287** | **269 pages**, none missing; every speech begins on a fresh page (the page after the last of the speech before, left or right) |
 | XXXV, the Eroticus (Plato, *Phaedrus* 230e–234c) | 288–292 | not part of this text: see For the author |
 | Index nominum | 293–296 | not shipped |
 | the publisher's list, August 1914 | 297– | |
@@ -220,18 +222,150 @@ built in this stage.
 
 ## Hand-over: the agents' runs
 
-(filled in at the end of the set-up stage: see Progress)
+Everything the agents read is in `pipeline/transcriptions/lysias/`: `INSTRUCTIONS.md` (the
+first pass), `RESIDUALS.md`, `REVIEW.md`; the scripts `lysias-text.workflow.js` and
+`lysias-pass.workflow.js`. Their crops and check sheets are in `pipeline/build/hude-pages/lysias/`
+(git-ignored; made again by `hude-pages lysias draft`, which never overwrites a batch file),
+the whole pages in `pipeline/build/drama-scans/orationesrecogno00lysi/pages/`. Scratch for the
+agents: `pipeline/build/agent-scratch/` (on disk). **Batch 01 is done (the pilot): the first run
+begins with batch 02.**
+
+**First pass** (`lysias-text.workflow.js`; model opus, general-purpose; ten at once at most,
+fewer while the laptop is in use):
+
+```json
+{ "scratch": "/home/proteus/koding/anagnosis/pipeline/build/agent-scratch", "atOnce": 8,
+  "batches": [
+    {"id": "02", "first": "p-0025", "last": "p-0030"}, {"id": "03", "first": "p-0031", "last": "p-0036"},
+    {"id": "04", "first": "p-0037", "last": "p-0042"}, {"id": "05", "first": "p-0043", "last": "p-0048"},
+    {"id": "06", "first": "p-0049", "last": "p-0054"}, {"id": "07", "first": "p-0055", "last": "p-0060"},
+    {"id": "08", "first": "p-0061", "last": "p-0066"}, {"id": "09", "first": "p-0067", "last": "p-0072"},
+    {"id": "10", "first": "p-0073", "last": "p-0078"}, {"id": "11", "first": "p-0079", "last": "p-0084"},
+    {"id": "12", "first": "p-0085", "last": "p-0090"}, {"id": "13", "first": "p-0091", "last": "p-0096"},
+    {"id": "14", "first": "p-0097", "last": "p-0102"}, {"id": "15", "first": "p-0103", "last": "p-0108"},
+    {"id": "16", "first": "p-0109", "last": "p-0114"}, {"id": "17", "first": "p-0115", "last": "p-0120"},
+    {"id": "18", "first": "p-0121", "last": "p-0126"}, {"id": "19", "first": "p-0127", "last": "p-0132"},
+    {"id": "20", "first": "p-0133", "last": "p-0138"}, {"id": "21", "first": "p-0139", "last": "p-0144"},
+    {"id": "22", "first": "p-0145", "last": "p-0150"}, {"id": "23", "first": "p-0151", "last": "p-0156"},
+    {"id": "24", "first": "p-0157", "last": "p-0162"}, {"id": "25", "first": "p-0163", "last": "p-0168"},
+    {"id": "26", "first": "p-0169", "last": "p-0174"}, {"id": "27", "first": "p-0175", "last": "p-0180"},
+    {"id": "28", "first": "p-0181", "last": "p-0186"}, {"id": "29", "first": "p-0187", "last": "p-0192"},
+    {"id": "30", "first": "p-0193", "last": "p-0198"}, {"id": "31", "first": "p-0199", "last": "p-0204"},
+    {"id": "32", "first": "p-0205", "last": "p-0210"}, {"id": "33", "first": "p-0211", "last": "p-0216"},
+    {"id": "34", "first": "p-0217", "last": "p-0222"}, {"id": "35", "first": "p-0223", "last": "p-0228"},
+    {"id": "36", "first": "p-0229", "last": "p-0234"}, {"id": "37", "first": "p-0235", "last": "p-0240"},
+    {"id": "38", "first": "p-0241", "last": "p-0246"}, {"id": "39", "first": "p-0247", "last": "p-0252"},
+    {"id": "40", "first": "p-0253", "last": "p-0258"}, {"id": "41", "first": "p-0259", "last": "p-0264"},
+    {"id": "42", "first": "p-0265", "last": "p-0270"}, {"id": "43", "first": "p-0271", "last": "p-0276"},
+    {"id": "44", "first": "p-0277", "last": "p-0282"}, {"id": "45", "first": "p-0283", "last": "p-0287"}
+  ] }
+```
+
+Economy first (one text at a time, about ten agents): start with **batches 02–08** (speeches 1–5:
+the end of speech 1, the Funeral Oration with the two cut openings in batches 03 and 05, and the
+first pages with a one-line apparatus), read their replies and run the checker
+(`.venv/bin/python -m anagnosis_pipeline check-lysias-batch transcriptions/lysias/batch-0[2-8].md`)
+before the rest go out; commit every wave (`git commit pipeline/transcriptions/lysias`). Pages
+that will want a second look whatever the agent says: p-0143/p-0144 (13.65–66 printed after
+13.68, Hude's own section numbers), p-0163/p-0164 (a heading of the check text at the end of
+speech 14 that fell on speech 15's title), p-0106, p-0153, p-0272 (the line count), p-0272,
+p-0281, p-0284 (the hypotheses, typed from the image).
+
+**Residual pass** (after a wave's first pass is back and committed):
+`.venv/bin/python -m anagnosis_pipeline lysias-residuals` (all batch files, or name some) writes
+`pipeline/build/hude-pages/lysias/residuals/r-NNNN.md` and `.png`; then `lysias-pass.workflow.js`
+with `{ "scratch": "…/pipeline/build/agent-scratch", "kind": "residuals", "atOnce": 8, "jobs":
+[{ "id": "01", "batches": ["01", "02"], "pages": "p-0019, p-0020, …" }, …] }` (two batches a
+job; `pages` = the pages of those batches that have an `r-NNNN.md`).
+
+**Review** (one batch a job): the same script with `"kind": "review"` and `"jobs": [{ "id":
+"01", "batches": ["01"] }, …]`; REVIEW.md already holds the reading task (its point 4), so no
+`extra` is needed; give one only for something found on the way. Batch 01, the pilot, is
+reviewed with the others: it has had no second reader.
+
+How far the two second passes go is step 5's decision: both on batches 01–08 first, their
+yield written under Decisions.
 
 ## For the author
 
-(filled in at the end of the set-up stage)
+Nothing here blocks the text batches. In the order in which an answer is needed:
+
+1. **Syntax for speeches 12, 13 and 19** (needed at step 7). GLAUx's trees for seven speeches
+   are Vanessa Gorman's, which GLAUx lists as CC BY-NC-SA 4.0: not usable in an app that is
+   sold. For four of them (1, 14, 15, 23) the same annotator's trees were released in the AGDT
+   in 2015 under CC BY-SA 3.0, and we have those files; for 12 (Against Eratosthenes), 13
+   (Against Agoratus) and 19 (On the Property of Aristophanes) there is nothing else, and GLAUx
+   has no automatic trees for them. Choose: (a) write to Vanessa Gorman for leave to use her
+   trees of the three speeches in the reader; (b) ship the three without syntax trees (lemmas
+   and forms from the analyser; the Syntax button absent there); (c) wait for GLAUx. Speech 24
+   has hand-made trees we may use (Pedalion).
+2. **How the syntax is labelled** (step 7). Five speeches hand-made (1, 14, 15, 23, 24), 26
+   automatic, three perhaps none. The reader shows one label for a whole text today. Either the
+   whole text is called automatic (safe, but understates five speeches), or the label goes by
+   speech (a small change to the build and the reader: proposed).
+3. **The product id**, which can never be changed once it exists in the Play Console: proposed
+   **`lysias_speeches_hude`** (the pattern of `plato_gorgias_burnet`, `lucian_truestory_nilen`;
+   "orations" would be the other word: `lysias_orations_hude`). It stands in `drama.PLAYS` only;
+   no about.md and no `google_play` line exists.
+4. **Titles.** The text's Greek title (now Λόγοι; Hude's title page reads LYSIAE ORATIONES) and
+   English title (now "Speeches"); and **the names of the 34 speeches in the book chooser**: the
+   merge writes the speech's number and Hude's Greek title as printed, in capitals without
+   accents ("1 · ΥΠΕΡ ΤΟΥ ΕΡΑΤΟΣΘΕΝΟΥΣ ΦΟΝΟΥ ΑΠΟΛΟΓΙΑ"; some run to three lines of print: "12 ·
+   ΚΑΤΑ ΕΡΑΤΟΣΘΕΝΟΥΣ ΤΟΥ ΓΕΝΟΜΕΝΟΥ ΤΩΝ ΤΡΙΑΚΟΝΤΑ, ΟΝ ΑΥΤΟΣ ΕΙΠΕ ΛΥΣΙΑΣ"). Would you rather
+   have them in lower case with accents (not in the print: taken from the Perseus headers), or
+   with the usual English names beside the number ("12 · Against Eratosthenes")?
+5. **Hude's Latin praefatio** (eight pages: the manuscripts, the editions he used, two pages of
+   spellings adopted). The other editions' prefaces in Latin were not shipped (Nilén's); the
+   English introductions were. Proposed: not shipped as an introduction; `sigla.md` is written
+   from his SIGLA page and from what the praefatio says of the manuscripts. Say if you want the
+   praefatio transcribed as it stands.
+6. **The introductions of the three commentators.** Adams, Morgan and Shuckburgh each have a
+   general introduction (Lysias's life, style, the courts) and an introduction to every speech
+   they edit; the reader has one introduction per text. Proposed: one `introduction.md` whose
+   first part is one general introduction (Adams's, the fullest and latest), followed by a
+   chapter per speech with that speech's introduction by its commentator, named ("Speech 12,
+   Against Eratosthenes · C. D. Adams"); the other two general introductions left out. The
+   alternative is to keep all three general introductions as three parts.
+7. **Where a section begins.** Hude's section numbers stand in the margin beside a line; he
+   does not mark the word. Lamb's text (and with it Perseus, GLAUx and the 1898 translation)
+   begins some sections a line or two earlier or later than Hude's number stands (five of the
+   28 sections on the pilot pages; about ninety flagged in the whole text), and begins about
+   150 sections in mid-sentence after a comma. The rule the agents work by: the section begins
+   on the line Hude's number marks; if Lamb's word is on that line it is kept (so most sections
+   begin exactly where every digital Lysias begins them); otherwise the section begins at the
+   first sentence break of Hude's line. The other possible rule, to begin every section at the
+   sentence break of Hude's line, would read better and depart further from the digital texts.
+   Say if you want that.
+8. **Speech 13, sections 65–68.** Hude prints the passage Lamb numbers 65–66 after 67–68 and
+   numbers the four in his own order. The print's numbers are followed; the translation and the
+   syntax are re-filed for these four sections. (Only place of the kind.)
+9. **The Dionysius hypotheses** before speeches 32, 33 and 34 (Hude prints them in smaller
+   type). Proposed: shipped as the speech's section 0 (`34.0`), words tappable, lemmas from the
+   analyser, no syntax (GLAUx has not got them), no translation unless the 1898 version gives
+   one. The alternative is to leave them to the commentary.
+10. **The headings inside a speech** (ΜΑΡΤΥΡΕΣ. ΝΟΜΟΣ. ΨΗΦΙΣΜΑ.): proposed as lines of their
+    own without a number, as stage directions are in the plays; how the reader shows such a line
+    in prose is looked at on the emulator at step 11.
+11. **Speech 35, the Eroticus** (Plato, *Phaedrus* 230e–234c, five pages, with Hude's apparatus
+    from Plato's manuscripts): left out, as you said thirty-four. It could be added later as a
+    35th book (check text: Burnet's Phaedrus on Perseus; Stephanus numbering). The **Index
+    nominum** is not shipped.
+12. **The Stephanus pages** in Hude's margin are not recorded (he marks the line, not the word;
+    Lysias is cited by speech and section). Say if you want them.
+13. **Gillies's translation** (1778) for speeches 1, 3, 26, 34 and perhaps 21 is a free version
+    without section numbers in long-s print. It will come by the prose route from the scan; how
+    it is laid beside the Greek (by paragraphs placed at the nearest section, as Jowett's
+    Symposium was) is settled at step 8, with a sample put before you first.
+14. **The missing pages in the Archive's reader.** Anyone who opens the scan online will not
+    find pages 2.23–2.30 and 2.59–2.66: they are in our text from the scan's own files. Worth a
+    sentence in about.md.
 
 ## Progress
 
 - [x] Step 1: modules, tests, CLI (2026-11-16): `hude_pages.py` (layout, margins, draft, checker, residuals), `hude_merge.py` (text, apparatus, lemma check), `tests/test_lysias.py`; `lucian_pages.perseus_prose` takes a speech's number, quotations and headings; `Play.unhide`; CLI `hude-pages`, `check-lysias-batch`, `lysias-residuals`, `merge-lysias`; the briefs and workflow scripts in `transcriptions/lysias/`; the 34 Perseus files, the 34 GLAUx files and Gutenberg #6969 in `fetch.py` and fetched
 - [x] Step 2: leaves and layout (2026-11-16): text leaves 19–287 (269 pages, with the four leaves the scan hides), SIGLA 18, praefatio 9–16; the tables above
-- [ ] Step 3: OCR and draft
-- [ ] Pilot: one batch checked by the set-up session
+- [x] Step 3: OCR and draft (2026-11-16): 269 pages fetched, cut (the four frames) and read; draft: 6,798 lines (6,698 of text, 67 headings, 26 hypothesis lines, 7 lines the check text lacks) and 82 title lines; 1,242 text lines flagged (18 %), 1,681 flags in all (6.2 a page; 11 pages with none; the most 34); the apparatus found on all 269 pages, a title on 34; 45 batch files `transcriptions/lysias/batch-NN.md`
+- [x] Pilot (2026-11-16): batch 01 (leaves 19–24, 1.1–1.28) checked by the set-up session by the brief: 56 flags, 21 changes to the text, 85 apparatus items, checker 8 remarks all noted; the brief, the flags and the tools mended from it (Decisions); `lysias-residuals` on it: 27 items; a scratch merge of the draft runs (`--out pipeline/build/agent-scratch/lysias/texts`)
 - [ ] Step 4: text and apparatus batches, first pass
 - [ ] Step 5: second passes
 - [ ] Step 6: merge and the checks
@@ -327,13 +461,92 @@ built in this stage.
     `foot_signature` and `app_pitch_cut` with Murray's Oxford text; `tests/test_murray_layout.py`
     allowed them for that editor only and now allows the route `hude` too.
   * **Texts verified unchanged**: the True Story (a scratch merge into
-    `pipeline/build/agent-scratch/lysias/verify/`: grc.txt, the apparatus, tokens, syntax,
-    translation, both commentaries and the introduction byte-identical to `texts/truestory/`;
-    `check-lucian-batch` gives the same remarks). No other text reads through the changed code
-    (`perseus_prose` is the True Story's alone; `Play.unhide` is empty for every other entry;
-    the fetch list only grew). Nothing was rebuilt.
+    `pipeline/build/agent-scratch/lysias/verify/`, run twice, after the first and after the last
+    change to `perseus_prose`: grc.txt, the apparatus, tokens, syntax, translation, both
+    commentaries and the introduction byte-identical to `texts/truestory/`; `check-lucian-batch`
+    gives the same remarks). No other text reads through the changed code (`perseus_prose` is
+    the True Story's alone; `Play.unhide` is empty for every other entry; the fetch list only
+    grew; the test that allowed the Oxford page's options for one editor only now allows the
+    route `hude` too). Nothing was rebuilt.
+* **2026-11-16, step 3: the draft.** `hude-pages lysias fetch | ocr | draft`
+  (`TMPDIR=pipeline/build/tmp DRAMA_WORKERS=5 nice -n 19`; the jp2 files were taken from the
+  scan's zip in one download, the per-leaf route being slow that day). Tesseract's reading of
+  this print is very good: of 56,424 words read, 387 matched no word of the check text, and of
+  the check text's 56,162 words 118 were not found. The first draft flagged 19 % of the lines
+  with 2,700 flags; what was wrong was the page, not the print: the four hidden leaves, the
+  running head taken for a line where the page is cut lower, the last line of text taken into
+  the apparatus (or the apparatus into the text), a ghost line. After the layout was mended:
+  1,239 flags; after the pilot widened the flags (below): **1,681 flags on 269 pages**: 441 words
+  that differ, 243 that differ where Tesseract was unsure, 190 printed words the check text
+  lacks, 118 check words not found, 156 brackets, 106 accents only, 180 for 90 sections whose
+  number stands beside another line (each such place flags both lines), 82 title lines, 60
+  quotation marks, 26 hypothesis lines, 28 line numbers, 17 gaps of the check text, 11 lines of
+  the moved passage, 7 lines the check text lacks, a dozen others.
+* **2026-11-16, the pilot: batch 01 (leaves 19–24, 1.1–1.28), checked by the brief.** 56 flags
+  on six pages; 21 changes to the text: five section marks moved to Hude's line (1.7, 1.16,
+  1.20, 1.23, 1.26); seven of Hude's own readings against Lamb's (ἑαυτοῦ 21.4, ἑορακυῖα 21.12,
+  πεύσει 22.10, τέτταρες 23.18, ἐπιμέλεσθαι 23.28, ⟨οὐκ⟩ … οὐδʼ 24.2, ἣ added 20.16), each
+  borne out by his apparatus on the line; two lacunae written as printed; quotation marks
+  corrected in four places; a capital, three stops and an accent seen on flagged lines. 85
+  apparatus items written. What it taught, and what was changed:
+  * Two of Hude's readings had not been flagged: ἑορακυῖα (Tesseract was unsure of the word, and
+    the True Story's rule passed over unsure readings) and ἣ (a word of one letter). **For a
+    check text of another edition the flags must be wider**: a differing word is now flagged
+    whatever Tesseract's confidence (243 more flags), and a short printed word the check text
+    lacks is flagged where Tesseract is sure of it (about 100 more).
+  * Section numbers: where Hude's number stands beside another line than the check text's
+    section start, the flag now names that line, and both lines are in the lines image (in the
+    pilot each case needed a crop of the page to find the number).
+  * In the apparatus the breathings and iota subscripts of the small Greek cannot be read at
+    the crops' size where they matter most ("ἣ πάντων H P (ἢ)", "θέλη rell.", "πεύση L"): the
+    brief tells the agent to enlarge such words and to copy a form without its subscript as
+    printed; the review repeats it.
+  * Quotation marks: Lamb's are not Hude's (no marks where a quotation runs on after ἔφη-less
+    breaks; a second opening mark before a new sentence; the closing mark before the stop). The
+    checker now asks only whether a quotation is open when a ’ comes.
+  * Punctuation, accents and capitals are not compared by the flags; on the six pages four such
+    differences were seen by chance on flagged lines. `lysias-residuals` on the checked batch
+    lists 27 items (19 accents, 6 words, 2 stops) after Tesseract's standing misreadings on
+    this print are taken out (the raised stop read as an apostrophe, δʼ as ὃ, ⟨ ⟩ as ( )): so a
+    residual pass is expected to be needed, as the brief said for an Oxford text whose check
+    text is another edition.
+  * Small faults of the draft mended: a paragraph mark before a line that begins with a
+    one-letter word; the check text's "ἄνδρες,(δεῖ" and "πέντε,ὡς" (no space in the Perseus
+    file); speech numerals written from the speech's number (Tesseract reads them as ΙΠ, ΧΧῚΙ).
+  * The merge was run on the draft into a scratch folder: 1,116 sections of 1,116, 34 speeches,
+    the 85 pilot items filed under their sections, no serious lemma miss, 15 weak (all
+    manuscripts' spellings and conjectures); its four problems are the draft's open places named
+    under "Hand-over".
 
 ## Sizes, for planning
 
-34 speeches, 1,116 sections, 56,162 Greek words in the check text; 265 pages of Hude; 45 text
-batches of six pages (the last of one).
+34 speeches, 1,116 sections, 56,162 Greek words in the check text; 269 pages of Hude, 6,798
+printed lines (25 to a page on average, 27–30 on a full one), about 4,100 apparatus items (1,878
+printed lines of apparatus; 85 items on the six pilot pages; speech 2 has a third more to the
+page than the rest); 45 text batches (44 of six pages, the last of five).
+
+| speech | words | leaves | | speech | words | leaves |
+|---|---|---|---|---|---|---|
+| 1 | 2,413 | 19–29 | | 18 | 1,346 | 176–181 |
+| 2 | 4,067 | 30–49 | | 19 | 3,120 | 182–195 |
+| 3 | 2,184 | 50–59 | | 20 | 1,920 | 196–204 |
+| 4 | 950 | 60–64 | | 21 | 1,297 | 205–210 |
+| 5 | 278 | 65–66 | | 22 | 1,125 | 211–216 |
+| 6 | 2,615 | 67–78 | | 23 | 777 | 217–220 |
+| 7 | 2,030 | 79–87 | | 24 | 1,432 | 221–227 |
+| 8 | 1,039 | 88–92 | | 25 | 2,022 | 228–236 |
+| 9 | 880 | 93–97 | | 26 | 1,386 | 237–243 |
+| 10 | 1,498 | 98–104 | | 27 | 749 | 244–247 |
+| 11 | 549 | 105–107 | | 28 | 911 | 248–251 |
+| 12 | 4,859 | 108–129 | | 29 | 664 | 252–254 |
+| 13 | 4,882 | 130–152 | | 30 | 1,887 | 255–263 |
+| 14 | 2,426 | 153–163 | | 31 | 1,826 | 264–271 |
+| 15 | 602 | 164–166 | | 32 | 1,703 | 272–280 |
+| 16 | 1,151 | 167–172 | | 33 | 432 | 281–283 |
+| 17 | 588 | 173–175 | | 34 | 554 | 284–287 |
+
+Agent cost, from the texts made by the same route: a first-pass batch of six pages took about
+0.13–0.15 M tokens for the plays (the Sophocles plays: 19 batches 2.9 M; the first Oxford-text
+play: 10 batches 1.3 M); 45 batches would be about 6–7 M for the first pass, the residual pass
+about half of that, a review of every batch as much as the first pass again. At ten agents at
+once the first pass is five waves.
