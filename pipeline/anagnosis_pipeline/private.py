@@ -14,7 +14,12 @@ symbolic links:
 (pipeline/tools/pre-push), `check` and `catalog` all read it from here. This module uses the
 standard library only, so that the hook can load it with any Python 3.
 
-    python -m anagnosis_pipeline private-setup <slug>   the folders and links for a slug
+    python -m anagnosis_pipeline private-setup <slug>          the folders and links for a slug
+    python -m anagnosis_pipeline private-setup <slug> --pack   also its asset pack (app/packs/<slug>
+                                                               -> ../../private/app/packs/<slug>)
+
+The author's own build of the reader bundles the held-back texts named in app/author-packs.txt
+(ignored; see AUTHOR_PACKS) with data/catalog-author.json; the public pack lists never name them.
 """
 from __future__ import annotations
 
@@ -49,6 +54,14 @@ LINKS = (("texts/{slug}", "texts/{slug}"),
 # the public files that list the reader's asset packs
 PACK_LISTS = ("app/settings.gradle.kts", "app/androidApp/build.gradle.kts")
 
+# the author's own builds of the reader: this file (ignored by the public repository) names the
+# held-back texts to bundle as asset packs, one slug a line; when it lists any, both Gradle files
+# above include those packs and the reader bundles data/catalog-author.json as its catalogue, and
+# Gradle refuses every release task (pipeline/PLAN-euripides.md, "The author's build")
+AUTHOR_PACKS = "app/author-packs.txt"
+# a private text's asset pack: app/packs/<slug> is a link to this folder inside private/
+PACK_LINK = ("app/packs/{slug}", "app/packs/{slug}")
+
 
 def public_patterns(slug: str) -> list[str]:
     """The public repository's paths that belong to a private slug (as .gitignore lines)."""
@@ -57,7 +70,7 @@ def public_patterns(slug: str) -> list[str]:
 
 def gitignore_lines(slugs: Iterable[str] = PRIVATE_SLUGS) -> list[str]:
     """Every line the public .gitignore must hold for the private texts."""
-    out = [f"/{PRIVATE}/", f"/{AUTHOR_CATALOG}"]
+    out = [f"/{PRIVATE}/", f"/{AUTHOR_CATALOG}", f"/{AUTHOR_PACKS}"]
     for slug in slugs:
         out += public_patterns(slug)
     return out
@@ -71,6 +84,8 @@ def private_slug_of(path: str, slugs: Iterable[str] = PRIVATE_SLUGS) -> str | No
         return PRIVATE
     if p == AUTHOR_CATALOG:
         return "catalog"
+    if p == AUTHOR_PACKS:
+        return "author-packs"
     for slug in slugs:
         for prefix in (f"texts/{slug}", f"pipeline/transcriptions/drama/{slug}", f"app/packs/{slug}"):
             if p == prefix or p.startswith(prefix + "/"):
@@ -214,11 +229,37 @@ def check_private(root: Path = ROOT, tracked: list[str] | None = None, today: _d
     return errors, notes
 
 
-def setup(slug: str, root: Path = ROOT, git: bool = True) -> list[str]:
+PACK_TEMPLATE = """// The {slug} text as an on-demand asset pack; see packs/antigone. A text held back until its
+// release date (pipeline/PLAN-euripides.md): this folder lives in private/ (app/packs/{slug} is a
+// link to it) and the pack is built only by the author's own builds (app/author-packs.txt).
+plugins {{
+    alias(libs.plugins.assetPack)
+}}
+
+assetPack {{
+    packName.set("{slug}")
+    dynamicDelivery {{
+        deliveryType.set("on-demand")
+    }}
+}}
+
+val copyText by tasks.registering(Sync::class) {{
+    from(rootProject.file("../data")) {{
+        include("{slug}.sqlite", "{slug}.sqlite.version")
+    }}
+    into(layout.projectDirectory.dir("src/main/assets/data"))
+}}
+tasks.matching {{ it.name != copyText.name }}.configureEach {{ dependsOn(copyText) }}
+"""
+
+
+def setup(slug: str, root: Path = ROOT, git: bool = True, pack: bool = False) -> list[str]:
     """The private folders of a slug and the links to them from the public paths; private/ gets
     its own git repository the first time. An empty folder at a public path is replaced by the
     link; a folder with files that git does not track is moved into private/ first; a tracked
-    file there stops the set-up."""
+    file there stops the set-up. With `pack`, also the text's asset pack for the author's own
+    builds: private/app/packs/<slug>/build.gradle.kts (as the public packs') and the link
+    app/packs/<slug> to it."""
     if slug not in PRIVATE_SLUGS:
         raise SystemExit(f"{slug}: not a private text (anagnosis_pipeline/private.py, PRIVATE_SLUGS)")
     said: list[str] = []
@@ -236,7 +277,14 @@ def setup(slug: str, root: Path = ROOT, git: bool = True) -> list[str]:
             "pipeline/anagnosis_pipeline/private.py in the public repository. This folder has its own\n"
             "git history; it has no remote. The public paths texts/<slug> and\n"
             "pipeline/transcriptions/drama/<slug> are symbolic links into it.\n", encoding="utf-8")
-    for public_rel, private_rel in LINKS:
+    links = LINKS + ((PACK_LINK,) if pack else ())
+    if pack:
+        gradle = priv / PACK_LINK[1].format(slug=slug) / "build.gradle.kts"
+        if not gradle.exists():
+            gradle.parent.mkdir(parents=True, exist_ok=True)
+            gradle.write_text(PACK_TEMPLATE.format(slug=slug), encoding="utf-8")
+            said.append(f"{gradle.relative_to(root)}: the asset pack's build file")
+    for public_rel, private_rel in links:
         target = priv / private_rel.format(slug=slug)
         target.mkdir(parents=True, exist_ok=True)
         link = root / public_rel.format(slug=slug)

@@ -46,3 +46,21 @@ include(":trachiniaeApp")
 for (slug in listOf("antigone", "ajax", "electra", "odyssey", "symposium", "gorgias", "agamemnon", "choephoroi", "eumenides", "clouds", "theogony", "truestory", "hermas", "newtestament", "trachiniae", "oedipustyrannus", "oedipuscoloneus", "philoctetes")) {
     include(":packs:$slug")
 }
+
+// The author's own build (pipeline/PLAN-euripides.md, "The author's build"): author-packs.txt
+// beside this file, ignored by git and absent from every public build, may name texts held back
+// until their release date, one slug a line; their packs are included too, and the reader
+// bundles data/catalog-author.json (androidApp/build.gradle.kts). Without the file nothing here
+// changes. Such a build is for the author's own device only: every release task is refused.
+val authorPacks = file("author-packs.txt").takeIf { it.isFile }?.readLines()
+    ?.map { it.substringBefore('#').trim() }?.filter { it.isNotEmpty() }.orEmpty()
+if (authorPacks.isNotEmpty()) {
+    val release = gradle.startParameter.taskNames.filter { it.contains("release", ignoreCase = true) }
+    if (release.isNotEmpty()) {
+        throw GradleException("app/author-packs.txt names held-back texts ($authorPacks): this is the author's " +
+            "own build, never a release (asked for: $release). Move the file away to build a release.")
+    }
+    for (slug in authorPacks) {
+        include(":packs:$slug")
+    }
+}

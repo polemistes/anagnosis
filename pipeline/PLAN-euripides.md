@@ -97,21 +97,41 @@ public texts to **`data/catalog-author.json`**, the catalogue for the author's o
 about.md lacks the key or gives an earlier date. `build --only <slug>` builds the text's
 database as for any text (data/<slug>.sqlite, ignored).
 
-**What the app side will need (not done; Kotlin and Gradle were not touched).**
-* A **private build** of the reader for the author's own phone: it bundles
-  `data/catalog-author.json` instead of `data/catalog.json` (androidApp's `copyBundle` takes
-  catalog.json today) and includes the private asset packs. Its pack list must live outside the
-  public files, e.g. a Gradle file under `private/app/` read by app/settings.gradle.kts and
-  androidApp/build.gradle.kts only when it exists, or the private texts installed by hand as
-  downloaded texts (data/<slug>.sqlite into the app's download folder with its catalog entry,
-  as the text apps do). The private packs themselves (`app/packs/<slug>/build.gradle.kts`) are
-  ignored by name, or live under `private/` with a link.
+**The author's build** (made 2026-11-17 by the Medea's finishing agent; Gradle not yet run).
+* **The private packs.** `private-setup <slug> --pack` writes private/app/packs/<slug>/
+  build.gradle.kts (the public packs' template) and links app/packs/<slug> to it (the public
+  path is ignored by name). The Medea's is there.
+* **The list.** `app/author-packs.txt` (ignored by the public repository; the line is in
+  `private.gitignore_lines()`, so `check` reports it missing, and the pre-push hook refuses the
+  file) names the held-back texts to bundle, one slug a line (`#` starts a comment). It holds
+  `medea`. When it names any text, app/settings.gradle.kts includes `:packs:<slug>` for each,
+  app/androidApp/build.gradle.kts adds them to `assetPacks` and copies
+  `data/catalog-author.json` into the bundle as its catalog.json, and **Gradle refuses every task
+  whose name contains "release"** (the build stops at configuration with a message). Without the
+  file both Gradle files do exactly what they did (same includes, packs and copied files).
+  Chosen over a Gradle property: the author's builds stay the usual command, and the guard
+  covers the one dangerous case, a release built while the file is there.
+* **The author's build** (from app/, JAVA_HOME=/opt/android-studio/jbr; first `build --only
+  <slug>` and `catalog` in pipeline/): with app/author-packs.txt in place,
+  `./gradlew :androidApp:bundleDebug`, then `./gradlew --stop`; install as in PLAN-sophocles.md
+  "Trachiniae emulator check" (bundletool 1.18.1 `build-apks --local-testing`, `install-apks`).
+  **The public build** as before, after moving the file away (`mv app/author-packs.txt
+  ../author-packs.txt.off` or delete it): `./gradlew :androidApp:bundleRelease` (or
+  bundleDebug); with the file present a release task is refused.
+* **Open: the shop.** The reader offers only texts marked `google_play: yes` and bought. On the
+  emulator the debug build's fake billing sells a text once the sale mark is in a scratch copy
+  of the bundle's catalogue (pipeline/tools/emulator-check/patch_aab.py, slugs edited); on the
+  author's phone a debug build uses Play Billing, which cannot sell a product that is not
+  active in Play Console. So on a phone the private texts cannot yet be opened: to be decided
+  (e.g. the author's build marks its packs for sale and uses the fake billing on any device, or
+  the text installed by hand). Not done.
 * The **public** pack lists (settings.gradle.kts, androidApp's `assetPacks`) must not name a
   held-back text; `check` reports it if they do.
 * On 2028-01-01: move the plays' folders from `private/` into the public repository (replace
-  the links by the folders), remove the slugs from `PRIVATE_SLUGS` and the .gitignore block,
-  add the packs to the public lists, run `catalog` (the release date has passed), build and
-  publish a reader release that day; activate the products in Play Console that day.
+  the links by the folders, packs included), remove the slugs from `PRIVATE_SLUGS` and the
+  .gitignore block, add the packs to the public lists, empty app/author-packs.txt, run `catalog`
+  (the release date has passed), build and publish a reader release that day; activate the
+  products in Play Console that day.
 
 ## The route per play
 
@@ -191,7 +211,7 @@ otherwise; treebank = GLAUx `0006-<nnn>.xml`.
 
 | # | slug | play | tlg | Murray | Perseus page | commentary and introduction (scan) | translation | treebank | product id |
 |---|---|---|---|---|---|---|---|---|---|
-| 1 | medea | Medea | tlg003 | I | n103: text leaves 105-161 | M. L. Earle, American Book Co. 1904 (d. 1905), cu31924079583609, notes under the text in two columns (leaves 80-254), introduction leaves 14-71 | eng2 | GLAUx 0006-003; Pedalion hand-made trees (compare first) | euripides_medea_murray |
+| 1 | medea | Medea (built 2026-11-17, author's catalogue only; emulator check to do) | tlg003 | I | n103: text leaves 105-161 | M. L. Earle, American Book Co. 1904 (d. 1905), cu31924079583609, notes under the text in two columns (leaves 80-254), introduction leaves 14-71 | eng2 | GLAUx 0006-003; Pedalion hand-made trees (compare first) | euripides_medea_murray |
 | 2 | alcestis | Alcestis | tlg002 | I (euripidisfabulae01euriuoft) | n55: half-title and ΥΠΟΘΕΣΙΣ ΑΛΚΗΣΤΙΔΟΣ [ΔΙΚΑΙΑΡΧΟΥ] and [ΑΛΛΩΣ] with apparatus leaf 54, their end leaf 55, persons with Murray's note leaf 56, text leaves 57-101 (seen 2026-11-16) | H. W. Hayley, Ginn 1898 (d. 1899), alcestisofeuripi00euriuoft (284 leaves, jp2, clean), "critical and exegetical notes" at the back, introduction about 90 pp. (leaves to find) | eng2 (sources/drama/tlg0006.tlg002.perseus-eng2.xml, on disk) | GLAUx 0006-002 (on disk) | euripides_alcestis_murray |
 | 3 | heraclidae | Heraclidae | tlg004 | I | n163 (persons leaf 164) | A. C. Pearson, Cambridge 1907 (d. 1935), heraclidae00euri, notes at the back | eng2 | GLAUx 0006-004 | euripides_heraclidae_murray |
 | 4 | helen | Helen | tlg014 | III | n13 | A. C. Pearson, Cambridge 1903, helena__00euriuoft, notes at the back | eng2 | GLAUx 0006-014 | euripides_helen_murray |
@@ -215,6 +235,22 @@ drama.py's `bacchae` and `alcestis` entries still describe the older plan (Sandy
 own text): rewrite each at its turn as the Medea's was.
 
 ## Progress
+
+* **2026-11-17, Medea finished but for the emulator check** (finishing agent; log
+  build/logs/medea-finish-agent.md; private commits fe80aeb … a94f6ca). Numbering: no verse
+  renumbered (`sophocles-numbering medea` now reads Murray's apparatus, items without "]" taking
+  their first Greek words; every margin of the lyric and anapaestic passages seen on the pages);
+  one misprint of Murray's corrected with a note in the item (apparatus 1384 for 1383, τοῦδε).
+  Sections: Earle's divisions (introduction § 32) as `Play.parts`: Prologue 1, Parodos 131 (Perseus
+  96), episodes and five stasima, Exodos 1293. Trees: 25 hand analyses, 18 lemma fixes, one alias.
+  Translation: aligned throughout (no number table needed); stage directions set apart
+  (`Play.trans_stages_apart`); Coleridge gives 945 to Jason and 1004a to Medea where Murray does
+  not (left). sigla.md (Murray's Latin Sigla page and his note on the Medea's codices), glossary 14,
+  shortdefs 18, about.md (product id, release 2028-01-01, no sale mark), true licence lines
+  (`Play.edition_license`) and syntax line (`Play.syntax_note`, not "automatic"). Built
+  (data/medea.sqlite), in catalog-author.json only; `check` 0 errors. The pack and the author's
+  build: see "The author's build" above. **Next**: the emulator check with the author's build
+  (8 GB free; patch_aab.py with SLUGS = ['medea']); the shop on a phone (open, above).
 
 * **2026-11-17, Medea: prose done and merged; finishing.** Second reading of the other 18
   commentary batches and the 7 of Earle's introduction: 25 agents, 3.2 M tokens; 38 `rev:`
@@ -437,7 +473,23 @@ own text): rewrite each at its turn as the Medea's was.
   play that label is untrue, so before the build either give the Play a way to say the trees
   are hand-made but of another text (a new field, as the review list's HAND_ANALYSES and
   LEMMA_FIXES mend the worst of the 194 words), or accept "automatic" knowingly. Not decided
-  here.
+  here. **Settled 2026-11-17** (finishing agent): `Play.syntax_note`; grc.txt says "hand-made
+  (Pedalion trees, with GLAUx), made on a later edition of the text than Murray's", and the
+  app's automatic-analysis notice (shown only for the value "automatic") is not shown.
+
+* 2026-11-17 (finishing agent): the Medea's sections are Earle's divisions (§ 32), the parodos
+  from 131 (his proöde) though Perseus begins the choral section with the anapaests at 96; the
+  notes of Earle's commentary stay in his printed order (out of numeric order in nine places: a
+  range note before its single notes, "131 ff." after 131-133); the apparatus item without a
+  number after 143 (on his supplement in 144) stays under 143 as printed; an exclamation printed on its
+  own line (292, 386, 1009, 1056) carries the number Murray's apparatus gives it and the rest of
+  the verse the letter; words Murray divides across two lyric lines (ὀρ-|γὰς, μό-|χθων) stand
+  whole in the line where they begin; Coleridge's speaker attributions are kept where Paley's
+  text differs from Murray's (945, 1004a); a middle stage direction of the translation stands
+  after its segment (895).
+* 2026-11-17: the author's build: an ignored list app/author-packs.txt (not a Gradle property),
+  release tasks refused while it names a text; the private packs live in private/app/packs/
+  through links made by `private-setup <slug> --pack`.
 
 ## For the author
 

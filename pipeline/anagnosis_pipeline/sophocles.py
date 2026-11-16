@@ -384,7 +384,10 @@ def align_part_starts(doc, play: Play, window: int = 6) -> list[str]:
             if isinstance(it, Speaker):
                 speaker = it
         k = target
-        while k > 0 and isinstance(items[k - 1], (Speaker, Stage)):
+        # before the speaker and stage lines just before the verse, and before a lyric
+        # sub-section that begins at that verse (Medea 131: "=== lyric" opens the parodos)
+        while k > 0 and (isinstance(items[k - 1], (Speaker, Stage))
+                         or isinstance(items[k - 1], Section) and items[k - 1].level > 1):
             k -= 1
         section = items.pop(si)
         if si < k:
@@ -1553,7 +1556,7 @@ def _letters(s: str) -> str:
     return "".join(skel(w, adscript=True) for w, _s, _e in greek.words(s))
 
 
-def numbering_suspects(lines: list[tuple[str, str]], apparatus: str, reach: int = 3) -> list[dict]:
+def numbering_suspects(lines: list[tuple[str, str]], apparatus: str, reach: int = 3, unbolded: bool = False) -> list[dict]:
     """Where our verse numbers may not be Jebb's (lyric verses his longer verse covers, numbered
     on from the last margin number): from grc.txt's verses (`lines`: (number, verse) in order)
     and the merged apparatus (commentary-jebb-apparatus.md text). A note's lemma stands in the
@@ -1564,7 +1567,10 @@ def numbering_suspects(lines: list[tuple[str, str]], apparatus: str, reach: int 
         numbering lacks it.
     Each item: kind, note (the note's number), lemma, filed (the number it is filed under),
     found (the number of the verse that holds the lemma, or None), context (the verses from
-    `reach` lines before to `reach` after, as (number, verse))."""
+    `reach` lines before to `reach` after, as (number, verse)).
+    `unbolded` (Murray's Euripides, whose items mostly have no "]" and give the text's reading
+    first, "<reading> L: <variant> rell."): an item without a bold lemma takes its first one or
+    two Greek words, up to the first word in Latin letters, as its lemma."""
     numbers = [n for n, _t in lines]
     index = {n: i for i, n in enumerate(numbers)}
     letters = [_letters(t) for _n, t in lines]
@@ -1587,6 +1593,8 @@ def numbering_suspects(lines: list[tuple[str, str]], apparatus: str, reach: int 
         note = pm.group(1) if pm else heading
         lm = _APP_LEMMA.match(para)
         lemma = re.split(r"\.\.\.|…|\|", lm.group(1))[0].strip() if lm else ""
+        if unbolded and not lm:
+            lemma = _first_greek(para[len(pm.group(0)):] if pm else para)
         key = _letters(lemma)
         near = range(max(0, i - reach), min(len(lines), i + reach + 1))
         found = None
@@ -1601,15 +1609,7 @@ def numbering_suspects(lines: list[tuple[str, str]], apparatus: str, reach: int 
                 # no bold lemma: the words before a "]", else the first two Greek words
                 rest = para[len(pm.group(0)):]
                 bm = re.match(r"^([^\]:]{1,60})\]", rest)
-                if bm:
-                    lemma = bm.group(1).strip()
-                else:
-                    run = []
-                    for w, _s, _e in greek.words(rest):
-                        if not re.search(r"[\u0370-\u03ff\u1f00-\u1fff]", w) or len(run) == 2:
-                            break
-                        run.append(w)
-                    lemma = " ".join(run)
+                lemma = bm.group(1).strip() if bm else _first_greek(rest)
                 key = _letters(lemma)
                 hits = [j for j in near if key and key in letters[j]]
                 found = numbers[min(hits, key=lambda j: (abs(j - i), j))] if hits else None
@@ -1618,22 +1618,34 @@ def numbering_suspects(lines: list[tuple[str, str]], apparatus: str, reach: int 
     return out
 
 
-def report_numbering(work_dir: Path, reach: int = 3) -> int:
+def _first_greek(text: str, most: int = 2) -> str:
+    """The first one or two Greek words of an apparatus item, up to the first word in Latin
+    letters (a siglum, "om.", a scholar's name)."""
+    run = []
+    for w, _s, _e in greek.words(text):
+        if not re.search(r"[\u0370-\u03ff\u1f00-\u1fff]", w) or len(run) == most:
+            break
+        run.append(w)
+    return " ".join(run)
+
+
+def report_numbering(work_dir: Path, reach: int = 3, apparatus: str = "commentary-jebb-apparatus.md",
+                     unbolded: bool = False) -> int:
     """sophocles-numbering: print numbering_suspects for texts/<slug>/ from the apparatus
     (commentary-jebb-apparatus.md); returns how many. (Jebb's commentary from Perseus is not
     scanned: Perseus drops the "f." of its headings, so a note on two verses whose lemma stands in
     the second would be listed everywhere; look at its numbers by hand in a suspect stretch.)"""
     from .textfmt import parse_file
 
-    grc, app = work_dir / "grc.txt", work_dir / "commentary-jebb-apparatus.md"
+    grc, app = work_dir / "grc.txt", work_dir / apparatus
     if not grc.exists() or not app.exists():
-        print(f"{work_dir}: no grc.txt or commentary-jebb-apparatus.md")
+        print(f"{work_dir}: no grc.txt or {apparatus}")
         return 0
     lines = [(l.n, l.text) for l in parse_file(grc).lines]
     total = 0
     for path in (app,):
         label = "apparatus"
-        items = numbering_suspects(lines, path.read_text(encoding="utf-8"), reach)
+        items = numbering_suspects(lines, path.read_text(encoding="utf-8"), reach, unbolded)
         for it in items:
             what = ("the lemma is not in the verse it is filed under" if it["kind"] == "lemma"
                     else "printed number kept in front: our numbering lacks it")

@@ -275,7 +275,34 @@ class MergeRepeatedSubsections(unittest.TestCase):
                                ("strophe", "2"), "1220"])
 
 
+class NumberingSuspectsUnbolded(unittest.TestCase):
+    def test_murray_items_without_a_lemma_mark(self):
+        # Murray's items mostly lack "]": the first Greek words are the lemma (unbolded=True)
+        # made-up verses and items (nothing of Murray's own text or apparatus in a public file)
+        lines = [("10", "ἄνδρες πολῖται χαίρετε"), ("11", "λόγος δὲ τοῦδε μακρός"), ("12", "ἐγὼ δʼ ἀπειμι νῦν")]
+        app = "## 10\nχαίρετε A B: χαίρετʼ C\n\n## 12\nτοῦδε A: τοῦ B\n"
+        self.assertEqual(numbering_suspects(lines, app), [])
+        items = numbering_suspects(lines, app, unbolded=True)
+        self.assertEqual([(i["kind"], i["note"], i["lemma"], i["found"]) for i in items], [("lemma", "12", "τοῦδε", "11")])
+
+
 class AlignPartStarts(unittest.TestCase):
+    def test_section_moved_before_a_lyric_subsection(self):
+        from anagnosis_pipeline.sophocles import align_part_starts, label_parts
+        from anagnosis_pipeline.textfmt import Section, Speaker
+
+        class P:  # Earle's Medea: the parodos at 131, Perseus's choral section from 96
+            parts = [(1, "Prologue"), (131, "Parodos")]
+        items = ([Section(1, "episode", ""), Speaker("Τροφός"), Line("95", "…"), Section(1, "choral", ""),
+                  Section(2, "anapests", ""), Speaker("Μήδεια"), Line("96", "…"), Line("130", "…"),
+                  Section(2, "lyric", ""), Speaker("Χορός"), Line("131", "…")])
+        doc = Document(items=items)
+        self.assertEqual(len(align_part_starts(doc, P, window=40)), 1)
+        seq = [type(i).__name__ + ":" + getattr(i, "n", getattr(i, "name", getattr(i, "kind", ""))) for i in doc.items]
+        self.assertEqual(seq[-5:], ["Line:130", "Section:choral", "Section:lyric", "Speaker:Χορός", "Line:131"])
+        label_parts(doc, P)
+        self.assertEqual([i.label for i in doc.items if isinstance(i, Section) and i.level == 1], ["Prologue", "Parodos"])
+
     def test_section_moved_to_the_division_start(self):
         from anagnosis_pipeline.sophocles import PLAYS, align_part_starts, label_parts
         from anagnosis_pipeline.textfmt import Section, Speaker

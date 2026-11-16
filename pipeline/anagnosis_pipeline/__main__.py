@@ -63,7 +63,7 @@ def main(argv: list[str] | None = None) -> int:
     cdp.add_argument("files", nargs="+")
     spr = sub.add_parser("sophocles-prose", help="texts/<play>/introduction.md (Perseus's chapters, then the transcribed ones) and appendix.md from the checked prose batches (intro-NN.md, appendix-NN.md) of a Sophocles play on the drama route")
     spr.add_argument("play")
-    snu = sub.add_parser("sophocles-numbering", help="apparatus notes that suggest our verse numbers are not Jebb's (a lemma in a nearby verse, a printed number kept in front), from texts/<play>/grc.txt and commentary-jebb-apparatus.md")
+    snu = sub.add_parser("sophocles-numbering", help="apparatus notes that suggest our verse numbers are not the edition's (a lemma in a nearby verse, a printed number kept in front), from texts/<play>/grc.txt and commentary-jebb-apparatus.md (a drama-route play such as the Medea: commentary-<app_editor>-apparatus.md)")
     snu.add_argument("play")
     drs = sub.add_parser("drama-residuals", help="what the checked text and the OCR still disagree on, per page, for a second pass (drama_residuals.py)")
     drs.add_argument("play")
@@ -115,6 +115,7 @@ def main(argv: list[str] | None = None) -> int:
     c.add_argument("--out", default=str(DATA))
     pvs = sub.add_parser("private-setup", help="the private folders of a text not public before its release (private/texts/<slug>, private/transcriptions/drama/<slug>) and the links to them (private.py)")
     pvs.add_argument("slug")
+    pvs.add_argument("--pack", action="store_true", help="also the text's asset pack for the author's own builds (private/app/packs/<slug>, linked from app/packs/<slug>)")
     args = ap.parse_args(argv)
 
     if args.cmd == "fetch":
@@ -229,8 +230,15 @@ def main(argv: list[str] | None = None) -> int:
         return 1 if write_prose(args.play, SOURCES, TEXTS, ROOT / "pipeline" / "transcriptions" / "drama" / args.play,
                                 ROOT / "pipeline" / "build" / "drama-prose" / args.play) else 0
     elif args.cmd == "sophocles-numbering":
+        from .drama import PLAYS as DRAMA
         from .sophocles import report_numbering
-        report_numbering(TEXTS / args.play)
+        dp = DRAMA.get(args.play)
+        if dp is not None and not dp.check_text:
+            # a play of the drama route (Murray's Euripides): its own apparatus file, whose items
+            # mostly have no "]" (the text's reading first)
+            report_numbering(TEXTS / args.play, apparatus=f"commentary-{dp.app_editor}-apparatus.md", unbolded=True)
+        else:
+            report_numbering(TEXTS / args.play)
     elif args.cmd == "drama-residuals":
         from collections import Counter
         from .drama_residuals import residuals
@@ -412,7 +420,7 @@ def main(argv: list[str] | None = None) -> int:
         build_catalog(TEXTS, Path(args.out))
     elif args.cmd == "private-setup":
         from .private import setup as private_setup
-        for line in private_setup(args.slug, ROOT):
+        for line in private_setup(args.slug, ROOT, pack=args.pack):
             print(line)
     return 0
 

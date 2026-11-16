@@ -446,6 +446,36 @@ HAND_ANALYSES: dict[str, dict[str, tuple[str, str]]] = {
         "1372 ὦλεξίκακε": ("ἀλεξίκακος", "a-s---mv-"),
         "1490 ἐνεγκάτω": ("φέρω", "v3sama---"),
     },
+    "medea": {
+        # Murray's Medea (the hand-made Pedalion trees, made on a later text): the review list
+        # (build/medea-review.tsv), each word read in its verse (finishing agent, 2026-11-17); the
+        # words name only a verse and a form (no text of the edition is kept here)
+        "5 ἀρίστων": ("ἄριστος", "a-p---mgs"),        # the trees: ἀριστέων; the analyser: a name
+        "5 δέρας": ("δέρας", "n-s---na-"),            # LSJ's own headword; accusative
+        "480 δέρας": ("δέρας", "n-s---na-"),
+        "13 αὐτή": ("αὐτός", "p-s---fn-"),            # nominative
+        "133 γηραιά": ("γηραιός", "a-s---fv-"),        # vocative
+        "135 ἀμφιπύλου": ("ἀμφίπυλος", "a-s---ng-"),   # with μελάθρου
+        "138 φίλον": ("φίλος", "a-s---nn-"),
+        "138 κέκρανται": ("κραίνω", "v3srie---"),      # perf. pass. of κραίνω, not κεράννυμι (plural)
+        "143 παραθαλπομένα": ("παραθάλπω", "v-sppefn-"),  # singular, not dual
+        "144 Φῶς": ("φάος", "n-s---nv-"),             # vocative
+        "215 μέμφησθʼ": ("μέμφομαι", "v2ppse---"),      # present subjunctive (the trees: aor. μέμψησθʼ)
+        "373 ἀφῆκεν": ("ἀφίημι", "v3saia---"),         # not ἀφήκω
+        "382 ὑπεσβαίνουσα": ("ὑπεισβαίνω", "v-sppafn-"),  # the trees: ὑπερβαίνουσα
+        "443 τῶν": ("ὁ", "l-p---ng-"),                # with λέκτρων
+        "840 αὔρας": ("αὔρα", "n-p---fa-"),           # analyser: a name
+        "887 ξυγγαμεῖν": ("συγγαμέω", "v--pna---"),     # no lemma (the trees lack the verse)
+        "927 δράσω": ("δράω", "v1sfia---"),            # future, as ἀπιστήσω
+        "927 ἀπιστήσω": ("ἀπιστέω", "v1sfia---"),
+        "928 θῆλυ": ("θῆλυς", "a-s---nn-"),            # predicate nominative
+        "938 ἀπαίρομεν": ("ἀπαίρω", "v1ppia---"),       # present
+        "1012 κατηφεῖς": ("κατηφέω", "v2spia---"),      # the verb, as δακρυρροεῖς (the trees: κατηφὲς)
+        "1037 ἐμοί": ("ἐγώ", "p1s---md-"),             # the trees: ἐμόν
+        "1180 δρομήμασιν": ("δρόμημα", "n-p---nd-"),    # the trees: δραμήμασιν
+        "1181 ἔκπλεθρον": ("ἕκπλεθρος", "a-s---na-"),   # with κῶλον
+        "1255 χρυσέας": ("χρύσεος", "a-s---fg-"),       # with γονᾶς
+    },
     "theogony": {
         "116 γένετʼ": ("γίγνομαι", "v3saim---"),  # the treebank has γενέτης
         "282 ὅτʼ": ("ὅτε", "d--------"),  # the treebank has ὅτι, which is never elided
@@ -739,6 +769,28 @@ LEMMA_FIXES: dict[str, dict[str, str]] = {
         "Μεγακλέης": "Μεγακλῆς",
         "εὐτάκτως": "εὔτακτος",
         "ξυνωρίς": "συνωρίς",
+    },
+    "medea": {
+        # the trees' (and the analyser's) lemmas spelled otherwise than the dictionaries' headword
+        # (the form and verse in the comment)
+        "προδέω": "προδίδωμι",                  # 606 προδοῦσά
+        "παραμφιΐσχω": "παραμπίσχω",            # 282 παραμπίσχειν (aliases.tsv: under παραμπέχω)
+        "ἄλγιστος": "ἀλγεινός",                 # 486 ἄλγιστον (superlative)
+        "τυραννέω": "τυραννεύω",                # 967 τυραννεῖ
+        "Πέλιος": "Πελίας",                     # 734 Πελίου
+        "Ἀκραίη": "Ἀκραία",                     # 1379 Ἀκραίας (Hera of the Height: glossary)
+        "Τυρσηνίς": "Τυρσηνός",                 # 1342 Τυρσηνίδος
+        "Κηφισσός": "Κηφισός",                  # 835 Κηφισοῦ
+        "παιδολέτειρα": "παιδολέτωρ",           # 849 παιδολέτειραν (LSJ: fem. of παιδολέτωρ)
+        "παρηΐδα": "παρηΐς",                    # 923, 1006, 1148 παρηίδα
+        "νήϊος": "νήιος",                       # 1122 ναΐαν
+        "εἶ’": "εἶα",                           # 1242 εἶʼ
+        "αὐδάομαι": "αὐδάω",                    # 174 αὐδαθέντων
+        "μιμνῄσκω": "μιμνήσκω",                 # 933 μνησθήσομαι
+        "ἀναμιμνῄσκω": "ἀναμιμνήσκω",           # 1246 ἀναμνησθῇς
+        "νυν": "νῦν",                           # 105, 584, 593, 699 (LSJ under νῦν)
+        "ξυνωρίς": "συνωρίς",                   # 1145 ξυνωρίδα
+        "διαπέταμαι": "διαπέτομαι",             # 1 διαπτάσθαι
     },
     "theogony": {
         "βριάρεως": "Βριάρεως",

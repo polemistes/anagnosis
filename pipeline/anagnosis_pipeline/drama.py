@@ -61,6 +61,10 @@ class Play:
     trans_key: str = ""          # eng-<trans_key>.txt
     trans_edition: str = ""
     trans_license: str = "Public domain"
+    # a stage direction inside a verse of Perseus's translation set apart from the speech (before
+    # the verse when it stands before its words, else after it) instead of in parentheses within
+    # it (the Medea; the plays made earlier keep theirs inline)
+    trans_stages_apart: bool = False
     gutenberg_title: str = ""    # the play's heading in the Gutenberg volume (THE FROGS)
     # the commentary and introduction
     notes_editor: str = ""       # commentary-<notes_editor>.md
@@ -171,6 +175,22 @@ class Play:
     # of the canonical Perseus TEI: Jebb's Sophocles, whose Perseus text (TEI P4, Jebb's own) was
     # imported by sophocles.py and frozen as sophocles/<slug>/reference-grc.txt
     check_text: str = ""
+    # the divisions of the play as the commentator gives them, (first verse, name): the top-level
+    # sections are moved to begin at these verses and named after them (sophocles.align_part_starts,
+    # label_parts, merge_repeated_subsections, as for Jebb's Sophocles); parts_window = how far
+    # (in verses) a check-text section may lie from a division's first verse to be moved there
+    # (Earle's Medea: Perseus begins the parodos with the anapaests at 96, Earle at 131)
+    parts: list[tuple[int, str]] = field(default_factory=list)
+    parts_window: int = 6
+    # the licence line of the files that hold the edition's text or apparatus, where "the edition
+    # is in the public domain" would not be true everywhere (Murray's Oxford text: free in the
+    # United States, protected in Norway, the EU and the UK until the end of 2027); "" = the
+    # usual TRANSCRIPTION_LICENSE
+    edition_license: str = ""
+    # grc.txt's `syntax:` line when the trees are hand-made but are not the AGDT's on this
+    # edition (the Medea: the Pedalion trees, made on a later text); "" = "automatic" for GLAUx,
+    # nothing for an AGDT treebank
+    syntax_note: str = ""
 
     @property
     def perseus(self) -> str:
@@ -178,7 +198,11 @@ class Play:
 
     @property
     def syntax_automatic(self) -> bool:
-        return not self.treebank
+        return not self.treebank and not self.syntax_note
+
+    @property
+    def text_license(self) -> str:
+        return self.edition_license or TRANSCRIPTION_LICENSE
 
     def leaves(self, kind: str) -> list[int]:
         ranges = {"text": self.text_leaves, "notes": self.notes_leaves, "intro": self.intro_leaves,
@@ -322,7 +346,13 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          glaux="0006-003.xml",
          trans_file="drama/tlg0006.tlg003.perseus-eng2.xml", translator="E. P. Coleridge", trans_key="coleridge",
          trans_edition="The Plays of Euripides, translated by E. P. Coleridge, London, George Bell and Sons, 1891",
-         trans_license="CC BY-SA 4.0 (Perseus Digital Library)",
+         trans_license="CC BY-SA 4.0 (Perseus Digital Library)", trans_stages_apart=True,
+         # Murray died in 1957: his edition is free in the United States (published before 1931),
+         # and in Norway, the EU and the UK only from 2028 (pipeline/PLAN-euripides.md)
+         edition_license="CC BY-SA 4.0 (transcription); Murray's edition is in the public domain in the United States, "
+                         "and in Norway, the EU and the UK from 1 January 2028",
+         # the hand-made Pedalion trees (GLAUx 0006-003, all sentences manual), made on a later text
+         syntax_note="hand-made (Pedalion trees, with GLAUx), made on a later edition of the text than Murray's",
          notes_editor="earle", notes_editor_name="Mortimer Lamson Earle",
          notes_edition="The Medea of Euripides, edited by Mortimer Lamson Earle, New York, Cincinnati, Chicago, American Book Company, 1904",
          notes_scan="cu31924079583609", notes_layout="earle",
@@ -358,7 +388,13 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          # merged in this order (the stems p-1…, p-2…, p-3…, p-4…)
          notes_sources={"intro": [("cu31924079583609", [(14, 71)]), ("euripidisfabulae01euriuoft", [(102, 103)]),
                                   ("cu31924079583609", [(73, 78)]), ("euripidisfabulae01euriuoft", [(104, 104)])]},
-         notes_region_leaves=[(73, 78)], notes_refile_mark=True),
+         notes_region_leaves=[(73, 78)], notes_refile_mark=True,
+         # Earle's "Divisions of the play" (introduction § 32, after Aristotle's Poetics ch. 12)
+         parts=[(1, "Prologue"), (131, "Parodos"), (214, "First episode"), (410, "First stasimon"),
+                (446, "Second episode"), (627, "Second stasimon"), (663, "Third episode"),
+                (824, "Third stasimon"), (866, "Fourth episode"), (976, "Fourth stasimon"),
+                (1002, "Fifth episode"), (1251, "Fifth stasimon"), (1293, "Exodos")],
+         parts_window=40),
     Play("frogs", "Βάτραχοι", "Frogs", "Ἀριστοφάνης", "Aristophanes", "tlg0019.tlg009",
          "The Frogs of Aristophanes, with introduction and commentary by T. G. Tucker, London, Macmillan, 1906",
          "frogsofaristopha00arisrich", "tucker", "T. G. Tucker", "aristophanes_frogs_tucker",
@@ -935,10 +971,23 @@ def perseus_number_map(lines: list[tuple[str, str]], pers: dict) -> dict[str, st
 
 # ---------------------------------------------------------------- translations
 
-def perseus_translation(path: Path) -> list[tuple[str, str, str]]:
+def _stage_text(text: str) -> str:
+    """A stage direction set apart: without the parentheses or the opening bracket Perseus keeps
+    round it ("(within)." -> "within.", "[Exit Attendant …" -> "Exit Attendant …")."""
+    t = re.sub(r"\s+", " ", text).strip()
+    t = re.sub(r"^\[\s*", "", t)
+    m = re.fullmatch(r"\((.*)\)([.,;:]?)", t)
+    if m and "(" not in m.group(1) and ")" not in m.group(1):
+        t = m.group(1).strip() + m.group(2)
+    return t.strip()
+
+
+def perseus_translation(path: Path, stages_apart: bool = False) -> list[tuple[str, str, str]]:
     """A Perseus translation in verse-numbered TEI: (Perseus line number, speaker, text) for each
     <l>, and ("!", "", text) for a stage direction between verses; the display line n="0" left out;
-    a stage direction inside a verse kept in parentheses."""
+    a stage direction inside a verse kept in parentheses, or with `stages_apart` (Play.
+    trans_stages_apart) set apart as a ("!", "", text) row of its own: before the verse when it
+    stands before the verse's words ("(within). Ah, me!"), else after it."""
     from lxml import etree
 
     root = etree.parse(str(path)).getroot()
@@ -977,10 +1026,31 @@ def perseus_translation(path: Path) -> list[tuple[str, str, str]]:
                 n = (child.get("n") or "").strip()
                 if n == "0" or not n:
                     continue
+                before: list[str] = []
+                after: list[str] = []
+                if stages_apart:
+                    seen_words = bool((child.text or "").strip())
+                    for sub in list(child):
+                        if isinstance(sub.tag, str) and etree.QName(sub).localname == "stage":
+                            st = _stage_text("".join(sub.itertext()))
+                            if st:
+                                (after if seen_words else before).append(st)
+                            # the stage's place keeps a space between the words round it
+                            prev = sub.getprevious()
+                            tail = (sub.tail or "")
+                            if prev is not None:
+                                prev.tail = (prev.tail or "") + " " + tail
+                            else:
+                                child.text = (child.text or "") + " " + tail
+                            child.remove(sub)
+                        elif (isinstance(sub.tag, str) and "".join(sub.itertext()).strip()) or (sub.tail or "").strip():
+                            seen_words = True
                 text = re.sub(r"\s+", " ", text_of(child)).strip()
                 text = re.sub(r"\(\s+", "(", re.sub(r"\s+\)", ")", text))
+                out.extend(("!", "", st) for st in before)
                 if text:
                     out.append((n, speaker[0], text))
+                out.extend(("!", "", st) for st in after)
             elif tag == "stage":
                 st = re.sub(r"\s+", " ", "".join(child.itertext())).strip()
                 if st:
@@ -1333,7 +1403,7 @@ def apparatus_meta(play: Play) -> dict[str, str]:
         "author": play.app_editor_name,
         "lang": "eng" if play.app_langs[1].startswith("eng") else "lat",
         "source": f"{play.edition}; transcribed from the Internet Archive scan {play.scan}",
-        "license": TRANSCRIPTION_LICENSE,
+        "license": play.text_license,
     }
 
 
@@ -1419,9 +1489,11 @@ def merge_play(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path
         "source": f"{play.edition}; read from the Internet Archive scan {play.scan} by OCR, matched word by word to "
                   f"{check_text_name(play)}, and checked against the scan where the two disagreed",
         "edition": play.edition,
-        "license": TRANSCRIPTION_LICENSE,
+        "license": play.text_license,
     }
-    if play.syntax_automatic:
+    if play.syntax_note:
+        meta["syntax"] = play.syntax_note
+    elif play.syntax_automatic:
         meta["syntax"] = "automatic"
     if play.pronunciation:
         meta["pronunciation"] = play.pronunciation
@@ -1445,6 +1517,14 @@ def merge_play(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path
                 print(m)
             sophocles.label_parts(doc, sophocles.PLAYS[slug])
             print(f"lyric sub-headings repeated within a stanza dropped: {sophocles.merge_repeated_subsections(doc)}")
+    elif play.parts:
+        # the commentator's divisions (Earle's Medea), by the same rules as Jebb's
+        from . import sophocles
+
+        for m in sophocles.align_part_starts(doc, play, window=play.parts_window):
+            print(m)
+        sophocles.label_parts(doc, play)
+        print(f"lyric sub-headings repeated within a stanza dropped: {sophocles.merge_repeated_subsections(doc)}")
     out.mkdir(parents=True, exist_ok=True)
     write_file(out / "grc.txt", doc)
     print(f"wrote {out / 'grc.txt'}: {len(lines)} lines from {len(pages)} pages")
@@ -1555,9 +1635,16 @@ def write_prose_documents(play: Play, transcriptions: Path, out: Path, lines: li
             source = (f"{play.notes_edition}, the introduction and the notes on the hypothesis (Internet Archive scan "
                       f"{play.notes_scan}); {play.edition}, the ancient hypotheses with the critical apparatus and the "
                       f"persons of the drama (scan {play.scan}); transcribed from the scans")
+        license = TRANSCRIPTION_LICENSE
+        if author != play.notes_editor_name and play.edition_license:
+            # the text's edition's hypotheses and persons stand in it too (the Medea: Murray's)
+            tail = re.sub(r"^.*?\bis\b", "which is", play.edition_license.split("; ", 1)[-1], count=1)
+            license = (f"CC BY-SA 4.0 (transcription); {play.notes_editor_name}'s edition is free of copyright; the "
+                       f"ancient hypotheses with their apparatus and the persons are from {play.app_editor_name}'s "
+                       f"edition, {tail}")
         md = _meta_lines({
             "title": "Introduction", "author": author, "source": source,
-            "license": TRANSCRIPTION_LICENSE,
+            "license": license,
         }) + [""] + ["\n\n".join(paras)]
         (out / "introduction.md").write_text("\n".join(md).rstrip() + "\n", encoding="utf-8")
         print(f"wrote introduction.md: {sum(1 for p in paras if p.startswith('#'))} headings")
@@ -1629,7 +1716,8 @@ def _translation(play: Play, sources: Path, out: Path, lines: list[tuple[str, st
         return
     if play.translation == "perseus":
         # verses the edition does not print (Play.perseus_drop) have no translation either
-        rows = [r for r in perseus_translation(sources / play.trans_file) if r[0] not in play.perseus_drop]
+        rows = [r for r in perseus_translation(sources / play.trans_file, play.trans_stages_apart)
+                if r[0] not in play.perseus_drop]
         nmap = perseus_number_map(lines, pers)
         order = {n: i for i, (n, _t) in enumerate(lines)}
         meta["source"] = f"Perseus Digital Library, {Path(play.trans_file).stem}: {play.trans_edition}; its line numbers mapped to the edition's"

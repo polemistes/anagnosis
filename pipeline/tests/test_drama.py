@@ -247,3 +247,24 @@ class ApparatusAsterisks(unittest.TestCase):
                          "**προσφιλῆ, \\*λόγων**] προσφιλῆ λόγον L")
         self.assertEqual(escape_apparatus_asterisks(bold_lemmas, "ὧν Haun.: ὧ* L: ὧν μʼ rell."),
                          "ὧν Haun.: ὧ\\* L: ὧν μʼ rell.")
+
+
+class TranslationStagesApart(unittest.TestCase):
+    TEI = """<TEI xmlns="http://www.tei-c.org/ns/1.0"><text><body><div>
+<sp><speaker>Nurse</speaker><l n="95">to her foes.</l></sp>
+<sp><speaker>Medea</speaker><l n="96"><stage>(within).</stage>  Ah, me!</l></sp>
+<sp><speaker>Nurse</speaker><l n="110">be guilty of? <stage>[Exit Attendant with the children.</stage> </l>
+<l n="895">and anger is no more. <stage>Enter the Children.</stage> Take his right hand.</l></sp>
+</div></body></text></TEI>"""
+
+    def test_stages_apart(self):
+        from anagnosis_pipeline.drama import perseus_translation
+
+        with tempfile.TemporaryDirectory() as t:
+            path = Path(t) / "eng.xml"
+            path.write_text(self.TEI, encoding="utf-8")
+            self.assertEqual(perseus_translation(path)[1], ("96", "Medea", "((within).) Ah, me!"))
+            self.assertEqual(perseus_translation(path, stages_apart=True), [
+                ("95", "Nurse", "to her foes."), ("!", "", "within."), ("96", "Medea", "Ah, me!"),
+                ("110", "Nurse", "be guilty of?"), ("!", "", "Exit Attendant with the children."),
+                ("895", "Nurse", "and anger is no more. Take his right hand."), ("!", "", "Enter the Children.")])

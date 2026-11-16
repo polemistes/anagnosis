@@ -44,15 +44,17 @@ class Paths(unittest.TestCase):
                  "pipeline/transcriptions/drama/medea/batch-01.md", "pipeline/transcriptions/drama/clouds/batch-01.md",
                  "data/medea.sqlite", "data/medea.catalog.json", "data/ion.sqlite.version", "data/ionic.sqlite",
                  "app/packs/helen/build.gradle.kts", "app/packs/gorgias/build.gradle.kts", "private/README.md",
-                 "privateer.txt", "data/catalog-author.json", "data/catalog.json", "pipeline/PLAN-euripides.md"]
+                 "privateer.txt", "data/catalog-author.json", "data/catalog.json", "pipeline/PLAN-euripides.md",
+                 "app/author-packs.txt", "app/settings.gradle.kts"]
         self.assertEqual(find_private(paths), sorted([
             "texts/medea/grc.txt", "texts/medea", "pipeline/transcriptions/drama/medea/batch-01.md",
             "data/medea.sqlite", "data/medea.catalog.json", "data/ion.sqlite.version",
-            "app/packs/helen/build.gradle.kts", "private/README.md", "data/catalog-author.json"]))
+            "app/packs/helen/build.gradle.kts", "private/README.md", "data/catalog-author.json",
+            "app/author-packs.txt"]))
 
     def test_gitignore_lines(self):
         lines = gitignore_lines(["medea"])
-        self.assertEqual(lines, ["/private/", "/data/catalog-author.json", "/texts/medea",
+        self.assertEqual(lines, ["/private/", "/data/catalog-author.json", "/app/author-packs.txt", "/texts/medea",
                                  "/pipeline/transcriptions/drama/medea", "/data/medea.*", "/app/packs/medea"])
 
     def test_real_gitignore_and_pack_lists(self):
@@ -145,6 +147,23 @@ class Setup(unittest.TestCase):
             self.assertTrue(all("already there" in s for s in said if "->" in s))
             with self.assertRaises(SystemExit):
                 setup("antigone", root, git=False)
+
+    def test_pack(self):
+        # the asset pack of the author's own builds: its build file in private/, a link from app/packs
+        with tempfile.TemporaryDirectory() as t:
+            root = _fake_root(t)
+            setup("medea", root, git=False, pack=True)
+            link = root / "app" / "packs" / "medea"
+            self.assertTrue(link.is_symlink())
+            self.assertEqual(os.readlink(link), "../../private/app/packs/medea")
+            gradle = (link / "build.gradle.kts").read_text()
+            self.assertIn('packName.set("medea")', gradle)
+            self.assertIn('include("medea.sqlite", "medea.sqlite.version")', gradle)
+            (link / "build.gradle.kts").write_text(gradle + "// edited\n")
+            setup("medea", root, git=False, pack=True)  # a second run keeps the file
+            self.assertTrue((link / "build.gradle.kts").read_text().endswith("// edited\n"))
+            errors, _notes = check_private(root, tracked=["texts/antigone/grc.txt"], today=TODAY)
+            self.assertEqual(errors, [])
 
 
 class Check(unittest.TestCase):

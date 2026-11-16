@@ -6,6 +6,12 @@ plugins {
     alias(libs.plugins.composeCompiler)
 }
 
+// The author's own build (see settings.gradle.kts): the held-back texts named in
+// app/author-packs.txt as asset packs, and data/catalog-author.json as the catalogue. Without the
+// file the build is the public one, unchanged.
+val authorPacks = rootProject.file("author-packs.txt").takeIf { it.isFile }?.readLines()
+    ?.map { it.substringBefore('#').trim() }?.filter { it.isNotEmpty() }.orEmpty()
+
 dependencies {
     implementation(projects.shared)
     implementation(libs.androidx.activity.compose)
@@ -28,6 +34,7 @@ android {
     }
     // the texts sold in the app, delivered by Google Play once bought (see packs/antigone)
     assetPacks += listOf("antigone", "ajax", "electra", "odyssey", "symposium", "gorgias", "agamemnon", "choephoroi", "eumenides", "clouds", "theogony", "truestory", "hermas", "newtestament", "trachiniae", "oedipustyrannus", "oedipuscoloneus", "philoctetes").map { ":packs:$it" }
+    assetPacks += authorPacks.map { ":packs:$it" }
     packaging {
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
@@ -73,7 +80,9 @@ kotlin {
 // of its own (see antigoneApp).
 val copyBundle by tasks.registering(Sync::class) {
     from(rootProject.file("../data")) {
-        include("lexicon.sqlite", "lexicon.sqlite.version", "catalog.json")
+        include("lexicon.sqlite", "lexicon.sqlite.version", if (authorPacks.isEmpty()) "catalog.json" else "catalog-author.json")
+        // the author's build: every text's catalogue, under the name the app reads
+        rename("catalog-author\\.json", "catalog.json")
     }
     into(layout.projectDirectory.dir("src/main/assets/data"))
 }

@@ -24,9 +24,11 @@ pipeline/tessdata/*.traineddata
 # Texts that may not be public before their release date (Murray's Euripides: 2028-01-01).
 # Generated from pipeline/anagnosis_pipeline/private.py (PRIVATE_SLUGS); `check` reports a missing line.
 # Their files live in private/ (its own git repository); texts/<slug> and
-# pipeline/transcriptions/drama/<slug> are links into it. data/catalog-author.json lists every text.
+# pipeline/transcriptions/drama/<slug> are links into it. data/catalog-author.json lists every text;
+# app/author-packs.txt names the held-back packs of the author's own builds.
 /private/
 /data/catalog-author.json
+/app/author-packs.txt
 /texts/alcestis
 /pipeline/transcriptions/drama/alcestis
 /data/alcestis.*
