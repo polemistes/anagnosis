@@ -515,6 +515,9 @@ class WordsAndTranslation(unittest.TestCase):
         # a colon is no Greek stop: after a lemma it loses its space, between Greek words it stays
         self.assertEqual(f("**κινδυνεύειν** : *to run a risk*"), "**κινδυνεύειν**: *to run a risk*")
         self.assertEqual(f("αἰνέσαι : ἐπαινέσαι"), "αἰνέσαι : ἐπαινέσαι")
+        # an elision typed with the closing quotation mark becomes the Greek's own apostrophe
+        self.assertEqual(f("ὁ δ’ ἔφασκεν and **κᾆτ’**: after; but ‘ἐς τὰς χύτρας’ (cf. Ar.)"),
+                         "ὁ δʼ ἔφασκεν and **κᾆτʼ**: after; but ‘ἐς τὰς χύτρας’ (cf. Ar.)")
         # nothing else moves: a time, a ratio, a stop already close
         self.assertEqual(f("at 3:15; so: yes"), "at 3:15; so: yes")
 
@@ -552,6 +555,13 @@ class WordsAndTranslation(unittest.TestCase):
             (Path(d) / "job-91.tsv").write_text(text.replace("→ ", "→ 1"), encoding="utf-8")
             self.assertEqual(H.answers(Path(d)), {})   # the control jobs never reach the merge
         self.assertEqual(H._frame("12.1:0\tx\ty\t→ 2\n"), H._frame("12.1:0\tx\ty\t→ \n"))
+
+    def test_footnote_over_a_page(self):
+        from anagnosis_pipeline.hude_notes import join_footnotes
+        got = join_footnotes(["Text.¹", "[Note: ¹ Lysias had three brothers, Pole-]", "More text.", "[Note: marchus, Euthydemus, and Brachyllus.]",
+                              "[Note: A second paragraph of the same note.]", "[Note: ² Another note,]", "[Note: ³ and a marked one.]"])
+        self.assertEqual(got, ["Text.¹", "[Note: ¹ Lysias had three brothers, Polemarchus, Euthydemus, and Brachyllus.]", "More text.",
+                               "[Note: A second paragraph of the same note.]", "[Note: ² Another note,]", "[Note: ³ and a marked one.]"])
 
     def test_gillies_marks(self):
         from anagnosis_pipeline.hude_merge import _batch_text, gillies_segments

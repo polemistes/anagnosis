@@ -323,15 +323,27 @@ def check_job(path: Path) -> list[str]:
     return problems
 
 
+def _uncommitted(path: Path) -> bool:
+    """Is this file of the repository changed since its last commit (or not committed at all)?
+    False for a file outside the repository (the tests')."""
+    if ROOT not in path.resolve().parents:
+        return False
+    got = subprocess.run(["git", "-C", str(ROOT), "status", "--porcelain", "--", str(path.resolve())], capture_output=True, text=True)
+    return got.returncode == 0 and bool(got.stdout.strip())
+
+
 def answers(directory: Path = DIR) -> dict[tuple[str, int], tuple[str, str, str]]:
     """The table for the merge: (section, word number) -> (form, lemma, tag), from the job files
     of the speeches without trees in which every word is answered and the checker finds nothing
-    (a half-done file is not used; the control jobs never)."""
+    (a half-done file is not used, nor one changed since its last commit; the control jobs
+    never)."""
     table: dict[tuple[str, int], tuple[str, str, str]] = {}
     for path in sorted(directory.glob("job-*.tsv")):
         number = int(path.stem.split("-")[1])
         if number in CONTROL:
             continue
+        if _uncommitted(path):
+            continue  # an agent may still be at work on it: only what is checked and committed counts
         items = read_job(path)
         if any(not it["answer"] for it in items) or any("not understood" in p or "wants" in p or "readings are" in p for p in check_job(path)):
             continue

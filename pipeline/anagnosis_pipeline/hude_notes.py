@@ -96,7 +96,8 @@ def split_notes(paras: list[str]) -> tuple[list[str], list[tuple[str, list[str]]
 # --- the lemma in Hude's text --------------------------------------------------------------------
 
 _BOLD = re.compile(r"^\*\*(.+?)\*\*")
-_OMISSION = re.compile(r"\s*(?:\.(?:\s?\.)+|…|κτλ\.?|κ\.τ\.λ\.?)\s*")  # Shuckburgh prints two dots
+# Shuckburgh prints two dots, and a dash between the first and last word of a clause; κτλ., κτέ.
+_OMISSION = re.compile(r"\s*(?:\.(?:\s?\.)+|…|—|κτλ\.?|κτέ\.?|κ\. ?τ\. ?[λἑέ]\.?)\s*")
 
 
 def lemma_parts(paragraph: str) -> list[list[str]]:
@@ -115,13 +116,17 @@ def lemma_parts(paragraph: str) -> list[list[str]]:
     return runs
 
 
+_ELIDED = {"δε", "τε", "γε", "με", "σε"}  # δέ in a lemma for the text's δʼ
+
+
 def _has_run(words: list[str], run: list[str], start: int = 0) -> int | None:
     """Where `run` stands in `words` from `start` on (a final sigma and an elided ending count as
     the word: τοῦτʼ for τοῦτο is looked for by its letters)."""
     n = len(run)
     for i in range(start, len(words) - n + 1):
         if all(words[i + k] == run[k] or (len(run[k]) >= 3 and (words[i + k].startswith(run[k]) or run[k].startswith(words[i + k]))
-                                          and abs(len(words[i + k]) - len(run[k])) <= 1) for k in range(n)):
+                                          and abs(len(words[i + k]) - len(run[k])) <= 1)
+               or (run[k] in _ELIDED and words[i + k] == run[k][0]) for k in range(n)):
             return i
     return None
 
@@ -147,7 +152,7 @@ def hude_sections(grc: Path) -> dict[str, list[str]]:
     return out
 
 
-def place(speech: int, named: list[int], paragraph: str, sections: dict[str, list[str]]) -> tuple[str, str]:
+def place(speech: int, named: list[int], paragraph: str, sections: dict[str, list[str]], reach: int = 0) -> tuple[str, str]:
     """(the section of Hude's text a note's paragraph belongs to, how it was found: 'lemma',
     'near' (the lemma stands in a section beside the one named), 'none' (no Greek lemma), 'miss'
     (the lemma is not in Hude's text near there)). `named`: the sections the commentator's number
@@ -162,7 +167,7 @@ def place(speech: int, named: list[int], paragraph: str, sections: dict[str, lis
     for n in named:
         if find_lemma(runs, sections.get(f"{speech}.{n}", [])):
             return f"{speech}.{n}", "lemma"
-    for d in range(1, REACH + 1):
+    for d in range(1, (reach or REACH) + 1):
         for n in (named[0] - d, named[0] + d):
             if find_lemma(runs, sections.get(f"{speech}.{n}", [])):
                 return f"{speech}.{n}", "near"
@@ -170,6 +175,27 @@ def place(speech: int, named: list[int], paragraph: str, sections: dict[str, lis
     for n in named:
         if find_lemma(runs[:1], sections.get(f"{speech}.{n}", []) + sections.get(f"{speech}.{n + 1}", [])):
             return f"{speech}.{n}", "lemma"
+    # a lemma that names words standing apart without dots between them ("ἐπιβουλεύετε, ἀφῆτε";
+    # "τῇ ἀρετῇ" for τῇ τούτων ἀρετῇ): every one of its words is in the section
+    words = [w for run in runs for w in run]
+    if len(words) > 1:
+        def all_there(n: int) -> bool:
+            have = sections.get(f"{speech}.{n}", [])
+            return all(_has_run(have, [w]) is not None for w in words)
+        for n in named:
+            if all_there(n):
+                return f"{speech}.{n}", "lemma"
+        if any(len(w) >= 5 for w in words):
+            for d in range(1, REACH + 1):
+                for n in (named[0] - d, named[0] + d):
+                    if all_there(n):
+                        return f"{speech}.{n}", "near"
+    # the same letters divided otherwise (δή που for δήπου, οἷοί περ for οἷοίπερ)
+    letters = "".join(words)
+    if len(letters) >= 5:
+        for n in named:
+            if letters in "".join(sections.get(f"{speech}.{n}", [])):
+                return f"{speech}.{n}", "lemma"
     return home, "miss"
 
 
@@ -252,6 +278,58 @@ def line_sections(lines: dict[int, list[int]], a: int, b: int | None = None) -> 
 
 # --- writing ------------------------------------------------------------------------------------
 
+# Notes on a reading that is not Hude's: the commentator's text had another word there. Looked up
+# one by one in Hude's section (2026-11-16): speech -> {the note's lemma as printed: Hude's words
+# at the place, or "" where his text differs but no single counterpart can be named}. The note
+# stays under its section with its lemma, followed by a line in square brackets that says so.
+# Not here: a lemma given in its dictionary form (χιτωνίσκος), a heading (ΜΑΡΤΥΡΕΣ), a lemma whose
+# counterpart in Hude is not plain.
+OTHER_READINGS: dict[int, dict[str, str]] = {
+    7: {"δωρειάν": "δωρεὰν", "περιποιήσαντι": "ποιήσαντι", "ὡς φῄς": "⟨ὅτε⟩ φής", "παρέχομαι": "παρέξομαι", "σχεῖν": "ἔχειν",
+        "ὅσῳ μάλιστα": "ὅσοι μάλιστα", "αἱρούμενος κτλ.": "ἡγούμενος"},
+    9: {"οἷα πεπονθὼς ἦν": "οἷα πεπονθὼς ἦ", "διʼ ἰδίας ἔχθρας": "διὰ τὰς ἔχθρας"},
+    10: {"ἀκοῦσαί τινα": "ἀκοῦσαι", "εἴημεν . . χρῆσθαι": "εἶμεν", "οὐ γάρ πω ᾔδειν": "οὐ γάρ πω ᾔδη"},
+    12: {"τὴν κατηγορίαν ποιήσωμαι": "τὴν κατηγορίαν ποιήσομαι", "εἰς τἀδελφοῦ . . . εἰς Δαμνίππου": "εἰς τὰ τοῦ ἀδελφοῦ",
+         "οὐδεμιᾶς": "οὐδʼ ἐκ μιᾶς", "ἀπεψηφίσασθε": "ἀπεψηφίζεσθε ⟨ἄν⟩", "ψηφιεῖσθε": "ψηφίσησθε", "πόλεις ὅλας": "πόλεις",
+         "τῇ πολιτείᾳ": "τῇ πόλει", "ἀποστερήσεσθε": "ἀποστερηθήσεσθε", "ἀπέδειξε . . . κελεύοιεν": "ὑπέδειξε", "τὰς τιμωρίας": "τιμωρίας"},
+    13: {"οὐκ ἔφασαν ἐπιτρέψαι . . γενέσθαι": "ἐπιτρέψειν", "οὐκ ἔφασαν ἐπιτρέψαι": "ἐπιτρέψειν", "ξυνειδότα": "συνειδότα",
+         "ἐκπέμπουσι": "εἰσπέμπουσι", "τὸν βωμὸν Μουνυχίασιν": "Μουνιχίασιν", "ἡ ἐκκλησία Μουνυχίασι": "ἡ ἐκκλησία [ἐν] Μουνιχίασιν",
+         "σοῦ . . καταμαρτυρήσει": "σοὶ", "Ξενοφῶν ὁ Ἰκαριεύς": "Ξενοφῶν ὁ Κουριεύς", "τό γε ἐπʼ ἐκεῖνον εἶναι": "τό γε ἐπʼ ἐκείνῳ εἶναι",
+         "πολλὰ . . ὅσα κακὰ . . ἐπιτετήδευται . . λέγειν": "πολὺ ἂν εἴη ἔργον λέγειν", "συκοφαντίας . . ὤφλησεν": "ὦφλεν",
+         "καὶ ἀφεὶς . . ἐγίγνετο": "καθυφεὶς", "ἂν γενέσθαι": "γενήσεσθαι"},
+    14: {"ἔνοχός ἐστι λειποταξίου": "λιποταξίου", "χρῆται παραδείγματι": "χρῆται παραδείγμασι", "ἐπὶ τῷ στρώματι": "ὑπὸ τῷ αὐτῷ ἱματίῳ"},
+    16: {"προσιέναι": "παριέναι"},
+    17: {"τὰ δύο μέρη": "τὼ δύο μέρει"},
+    19: {"βελτίω ἢ πλουσιώτερον": "βελτίονα … ἢ πλουσιώτερον", "ἀπεφαίνετο": "ἀπεφαίνοντο", "ἐκείνων": "τἀκείνων",
+         "ἀθληταῖς": "ἀθλητὰς ⟨οἷς⟩", "ὑποθήσει κτλ.": ""},
+    22: {"οἱ μὲν τέτταρες": "οἱ μὲν δύο"},
+    23: {"Δεκελέων οὓς": "Δεκελειῶν οὓς"},
+    24: {"οἷός τʼ ὦ": "", "ψηφίσασθαι πάντας": "ψηφίσασθαι ἐλεήσαντας", "οὔθʼ οὗτος ὑμῖν": "οὔθʼ οὗτος εὖ φρονεῖ", "εὖ ποιῶν": "εὖ φρονεῖ"},
+    25: {"πειθομένοις": "πιθομένοις", "τούτους μέν . . . ἐκείνους δέ": "αὐτοὶ μὲν … ἐκείνους δὲ",
+         "ὅτε ἀκούοιτε, ἐπειδὴ πυνθάνοισθε": "ὅτε … ἀκούοιτε … ἐπειδὴ δὲ ἐπυνθάνεσθε"},
+    28: {"ἂν . . λάβητε": "ἐὰν … λάβητε"},
+    30: {"καὶ τοσαῦτα . . ἔδωκεν": "καὶ ὅσα ⟨οὐδεὶς πώποτε⟩", "κατὰ πρυτανείαν λόγον ἀναφέρουσι": "ἀποφέρουσι", "Νικομαχίδην": "Νικόμαχον",
+         "ὑπὲρ τοῦ δήμου": "ὑπὸ τοῦ δήμου"},
+    31: {"μετεβάλλοντο": "μετεβάλοντο", "τἀναγκαῖα": "ἀναγκαῖα", "παρεδείχθη": "ἐδείχθη"},
+    32: {"προθυμῇ": "προθυμεῖ"},
+}
+
+
+def other_reading(speech: int, paragraph: str, name: str, used: set | None = None) -> str:
+    """The bracketed line for a note whose lemma is another reading than Hude's ("" if it is
+    not in OTHER_READINGS)."""
+    m = _BOLD.match(paragraph)
+    table = OTHER_READINGS.get(speech, {})
+    if not m or m.group(1) not in table:
+        return ""
+    if used is not None:
+        used.add((speech, m.group(1)))
+    surname = name.split()[-1]
+    hude = table[m.group(1)]
+    return (f"[{surname}'s text reads otherwise here; the text shown has {hude}.]" if hude
+            else f"[{surname}'s text reads otherwise here.]")
+
+
 def speech_notes(speech: int, sections: dict[str, list[str]], sources: Path, drafts: bool = False) -> tuple[list[tuple[str, str]], list[str], list[str]] | None:
     """A speech's notes placed: ([(section, paragraph)] in the commentator's order, the
     paragraphs of his introduction that stand at the head of the notes (Shuckburgh), log lines);
@@ -265,6 +343,9 @@ def speech_notes(speech: int, sections: dict[str, list[str]], sources: Path, dra
     lines = shuckburgh_lines(speech, sources) if by_line else {}
     placed: list[tuple[str, str]] = []
     log: list[str] = []
+    name = LYSIAS_EDITORS[editor][1]
+    count: dict[str, int] = {}
+    used: set = set()
     for head, ps in notes:
         m = re.match(r"^(\d+)(?:-(\d+))?$", head)
         a, b = int(m.group(1)), int(m.group(2)) if m.group(2) else None
@@ -273,7 +354,13 @@ def speech_notes(speech: int, sections: dict[str, list[str]], sources: Path, dra
             log.append(f"{speech}: note on line {head}: the line is not in the line map; filed under the speech's first section")
         prev = None
         for p in ps:
-            sec, how = place(speech, named, p, sections)
+            sec, how = place(speech, named, p, sections, reach=4 if by_line else 0)
+            if how == "miss":
+                line = other_reading(speech, p, name, used)
+                if line:
+                    log.append(f"READS {speech} note {head}: {line} {p[:50]}")
+                    p, how = p + "\n\n" + line, "reads"
+            count[how] = count.get(how, 0) + 1
             if how == "none" and prev is not None:
                 sec = prev  # a further paragraph of the note before
             elif how == "near":
@@ -283,12 +370,30 @@ def speech_notes(speech: int, sections: dict[str, list[str]], sources: Path, dra
                 log.append(f"MISS {speech} note {head}: the lemma is not in Hude's text at {sec} (another reading, or abbreviated): {p[:70]}")
             placed.append((sec, p))
             prev = sec
+    for lemma in OTHER_READINGS.get(speech, {}):
+        if (speech, lemma) not in used:
+            log.append(f"TABLE {speech}: OTHER_READINGS names the lemma “{lemma}”, which no unplaced note of the speech has")
+    log.append(f"COUNT {speech} {editor}: {len(notes)} notes, {len(placed)} paragraphs: " + ", ".join(
+        f"{count.get(k, 0)} {label}" for k, label in (("lemma", "placed by their lemma in the section named"), ("near", "by their lemma in a section beside it"),
+                                                      ("none", "without a Greek lemma (kept with the note or at the number)"),
+                                                      ("reads", "on another reading than Hude's (marked)"), ("miss", "lemma not found (left at the number)"))))
     return placed, intro, log
 
 
 _SPACED_STOP = re.compile(r"(?<=\S)[ \u00a0]+([;:?!])(?=[\s)\]*’”\"']|$)")
 _GREEK_LETTER = re.compile(r"[\u0370-\u03ff\u1f00-\u1fff]")
 _LETTER = re.compile(r"[^\W\d_]")
+
+
+_ELISION = re.compile(r"(?<=[\u0370-\u03ff\u1f00-\u1fff])’(?=\*\*|[\s*]*[\u0370-\u03ff\u1f00-\u1fff])")
+
+
+def greek_elisions(text: str) -> str:
+    """An elision in quoted Greek typed with the closing quotation mark (δ’ ἐστὶ, **κᾆτ’**) is
+    written with the modifier apostrophe, as everywhere in the Greek (δʼ): after a Greek letter,
+    before a Greek word or the end of a bold lemma. A quotation's closing mark before English
+    stays."""
+    return _ELISION.sub("ʼ", text)
 
 
 def english_stops(text: str) -> str:
@@ -305,7 +410,33 @@ def english_stops(text: str) -> str:
         after = _LETTER.search(text[m.end():m.end() + 12])
         greek_after = bool(after) and bool(_GREEK_LETTER.match(after.group(0)))
         return m.group(0) if greek_before and greek_after else m.group(1)
-    return _SPACED_STOP.sub(fix, text)
+    return _SPACED_STOP.sub(fix, greek_elisions(text))
+
+
+_NOTE_MARK = re.compile(r"^(?:[⁰¹²³⁴⁵⁶⁷⁸⁹]+|[*†‡§]|\d+ )")
+
+
+def join_footnotes(paras: list[str]) -> list[str]:
+    """A footnote that runs over to the foot of the next page stands in the batches as two
+    [Note: …] paragraphs, the second without a mark (the readers of the pages wrote its rest at
+    the head of the next page's block: "[Note: ⁵ … three brothers, Pole-]" … "[Note: marchus,
+    Euthydemus …]"). Where the note before ends without a stop and the next unmarked one goes on
+    with it, the two are one note again; a word divided between the pages is joined."""
+    from .sophocles_pages import join_run_on
+
+    out: list[str] = []
+    last = None  # index in `out` of the last footnote
+    for p in paras:
+        if p.startswith("[Note:") and p.endswith("]"):
+            inner = p[6:-1].strip()
+            if last is not None and not _NOTE_MARK.match(inner):
+                before = out[last][6:-1].strip()
+                if before and before[-1] not in ".?!”’\")" and not before.endswith(".*"):
+                    out[last] = "[Note: " + join_run_on(before, inner) + "]"
+                    continue
+            last = len(out)
+        out.append(p)
+    return out
 
 
 def write(texts: Path, slug: str, sources: Path, build: Path, drafts: bool = False) -> list[str]:
@@ -343,7 +474,8 @@ def write(texts: Path, slug: str, sources: Path, build: Path, drafts: bool = Fal
         (out / f"commentary-{editor}.md").write_text("\n".join(md) + "\n", encoding="utf-8")
         print(f"wrote commentary-{editor}.md: {sum(len(v) for v in by_sec.values())} paragraphs under {len(by_sec)} sections")
     # the introduction: Adams's general one, then the speeches'
-    general = paragraphs("lysias-intro", "intro", drafts)
+    general = join_footnotes(paragraphs("lysias-intro", "intro", drafts) or [])
+    speech_intros = {k: join_footnotes(v) for k, v in speech_intros.items()}
     if general or speech_intros:
         from .hude_merge import SPEECH_NAMES
 
@@ -365,7 +497,7 @@ def write(texts: Path, slug: str, sources: Path, build: Path, drafts: bool = Fal
                 md += [english_stops(p), ""]
         (out / "introduction.md").write_text("\n".join(md).rstrip() + "\n", encoding="utf-8")
         print(f"wrote introduction.md: the general introduction {'present' if general else 'MISSING'}, {len(speech_intros)} speeches")
-    appendix = paragraphs("lysias-appendix", "intro", drafts)
+    appendix = join_footnotes(paragraphs("lysias-appendix", "intro", drafts) or [])
     if appendix:
         scan, name, _layout, edition = LYSIAS_EDITORS[LYSIAS_PROSE["lysias-appendix"][0]]
         md = _meta_lines({"title": "Appendix", "author": name,
@@ -376,6 +508,22 @@ def write(texts: Path, slug: str, sources: Path, build: Path, drafts: bool = Fal
         (out / "appendix.md").write_text("\n".join(md).rstrip() + "\n", encoding="utf-8")
         print(f"wrote appendix.md: {len(appendix)} paragraphs")
     (build / f"{slug}-notes.log").write_text("\n".join(log) + "\n", encoding="utf-8")
+    # the misprints of the commentators that the readers of the pages corrected, each with its note
+    found = []
+    for d in sorted(DRAMA.glob("lysias-*")):
+        if "gillies" in d.name:
+            continue
+        for f in sorted(d.glob("*.md")):
+            page, notes = "", False
+            for raw in f.read_text(encoding="utf-8").splitlines():
+                if raw.startswith("=== "):
+                    page, notes = raw[4:], False
+                elif raw.startswith("--- notes"):
+                    notes = True
+                elif notes and re.search(r"misprint", raw, re.I):
+                    found.append(f"{d.name}/{f.stem} {page}: {raw.strip()}")
+    (build / f"{slug}-commentary-misprints.log").write_text("\n".join(found) + "\n", encoding="utf-8")
+    print(f"the commentators' misprints corrected by the readers: {len(found)} notes in {build / f'{slug}-commentary-misprints.log'}")
     near = sum(1 for x in log if x.startswith("NEAR"))
     miss = sum(1 for x in log if x.startswith("MISS"))
     print(f"notes: {near} filed under a neighbouring section by their lemma, {miss} lemmas not in Hude's text (log {build / f'{slug}-notes.log'})")
