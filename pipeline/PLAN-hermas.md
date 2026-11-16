@@ -276,6 +276,7 @@ converter and came out as Greek letters.)
 - [x] Step 8: appendix (the Latin end) (2026-11-08): `appendix.md` from `batch-latin.md` (checked and reviewed at step 4), 34 sections 9.30.3-10.4.5 in order with Lake's translation and his 5 apparatus items, Taylor's 6 notes on the Latin end at its foot; one slip of the Perseus translation corrected; p. 304 read against the file
 - [x] Step 9: translation, sigla, glossary, aliases, short definitions, homographs, about, READMEs (2026-11-08): 47 lemma corrections, 5 tokens by hand, one more misprint (26.23.5); glossary 43 names and shortdefs.tsv 72 entries (written and reviewed by agents, the rest by hand): every lemma has a short definition; 24 aliases; 2 homograph groups; sigla.md, about.md, texts/README.md, play/README.md
 - [x] Step 10: build, pack, catalogue, emulator check (2026-11-08): data/hermas.sqlite (4.4 MB), app/packs/hermas, catalogue 18 texts; emulator check done, one fix (the short definition of πορεύω)
+- [x] Footnote marks (2026-11-17, the author: "Fix the footnotes"): Taylor's footnote asterisks in the introduction (6 `[Note: *`, 12 paragraphs with unpaired asterisks) had paired with italics; lake_merge now writes them escaped (drama.escape_footnote_marks): merged (only the escapes changed) and rebuilt, every paragraph's italics pair; sigla.md's two ℵ* escaped by hand. Lake's apparatus (21 ℵ*, the first hand of Sinaiticus, one to an item) renders right and was not changed (log build/logs/footnote-marks.md)
 
 ## Decisions
 

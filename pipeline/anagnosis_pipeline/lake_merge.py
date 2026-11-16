@@ -29,7 +29,7 @@ import unicodedata
 from pathlib import Path
 
 from . import greek
-from .drama import PLAYS, TRANSCRIPTION_LICENSE, _meta_lines, skel
+from .drama import PLAYS, TRANSCRIPTION_LICENSE, _meta_lines, escape_footnote_marks, skel
 from .hermas_text import (BOOK_NAMES, LAST_GREEK, book_name, cite, compare_form, continuous_chapter, first1k_marks,
                           headings, lake_notes, lake_translation, sec_key, tauber_sections)
 from .lake_pages import SUP_RE, VKEY, marks_in, out_dir, plain, read_batches, transcriptions_dir
@@ -647,7 +647,7 @@ def taylor_notes_and_introduction(play, tdir: Path, out: Path, have_n: set[str],
             "source": f"{play.edition}, the introduction to the Shepherd (pp. 2-5); {play.notes_edition}, the introduction "
                       "(vol. I) and the appendix on Hermas and the Gospels (vol. II); transcribed from the Internet Archive scans",
             "license": TRANSCRIPTION_LICENSE,
-        }) + [""] + ["\n\n".join(paras)]
+        }) + [""] + ["\n\n".join(escape_footnote_marks(p) for p in paras)]
         (out / "introduction.md").write_text("\n".join(md).rstrip() + "\n", encoding="utf-8")
         print(f"wrote introduction.md: {sum(1 for p in paras if p.startswith('#'))} headings")
 
