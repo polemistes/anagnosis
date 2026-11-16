@@ -7,7 +7,7 @@ export const meta = {
 }
 // scratch = /home/proteus/koding/anagnosis/pipeline/build/agent-scratch (on disk, git-ignored; NOT the
 // session scratchpad, which is a RAM disk and is emptied at a restart)
-// args: { play, scan, scratch, kind: 'residuals' | 'review', atOnce: 12,
+// args: { play, scan, scratch, kind: 'residuals' | 'review', atOnce: 12, edition: "Murray's Euripides (Oxford text)" (default: Jebb's Sophocles),
 //         extra: 'a further instruction for every review agent',
 //         jobs: [{ id: '01', batches: ['01', '02'], pages: 'p-0080, p-0082', open: 'numbering questions left open …' }] }
 // residuals: after `drama-residuals <play>`; two batch files per job, `pages` = the pages that have residuals.
@@ -17,7 +17,7 @@ const { play, scan, scratch, kind, jobs } = args
 const atOnce = args.atOnce || 12
 const files = j => j.batches.map(b => `transcriptions/drama/${play}/batch-${b}.md`)
 const common = j => `Working directory: ${ROOT} (run commands from there).
-Play: ${play} (edition section in INSTRUCTIONS-text.md: "Jebb's Sophocles" for the Sophocles plays)
+Play: ${play} (your edition's section in INSTRUCTIONS-text.md: "${args.edition || "Jebb's Sophocles"}")
 Batch file${j.batches.length > 1 ? 's' : ''} (edit in place, save after each page): ${files(j).join(', ')}
 Whole pages: build/drama-scans/${scan}/pages/leaf_NNNN.png
 Checker: .venv/bin/python -m anagnosis_pipeline check-drama-batch ${play} <batch file>
