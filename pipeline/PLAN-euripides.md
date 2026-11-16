@@ -216,6 +216,19 @@ own text): rewrite each at its turn as the Medea's was.
 
 ## Progress
 
+* **2026-11-17, Medea, residual pass and review.** Residual pass back (ten agents, 0.87 M
+  tokens, four minutes): of the 235 listed items ONE needed a change (a comma at 1178); the
+  rest were Tesseract's own slips, since print and check text are one edition. The three
+  other changes it made were Murray's daggers (910, 1256, 1359), seen by looking at the whole
+  page, not from the list. **So for the next plays from Murray the residual pass is left out**
+  (the author's rule: a pass stays only if it catches errors that would otherwise remain; the
+  review reads every verse against the page and covers what the lists held), unless the
+  Medea's review shows the two together did more than the review alone would. The review
+  runs (ten jobs, nine at once), with the five points adapted to Murray: verse reading;
+  daggers, brackets and lacuna marks on every page; the apparatus's breathings and sigla;
+  numbering by his apparatus; shared lines and capitals.
+
+
 * **2026-11-17, Medea, text.** Batch 01 ran alone as the trial (clean: 74 apparatus items on
   six pages, checker silent); batches 02–10 followed. First pass of all ten: 1.27 M agent
   tokens for 57 pages (the Sophocles plays took two to three times that per page: the check
