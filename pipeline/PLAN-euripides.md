@@ -236,6 +236,28 @@ own text): rewrite each at its turn as the Medea's was.
 
 ## Progress
 
+* **2026-11-17, Medea built for the author; emulator check running.** Finishing agent's
+  report (log build/logs/medea-finish-agent.md; public commit 081018f; private a94f6ca): the
+  play is in data/catalog-author.json only; `check` 0 errors; no verse renumbered (every
+  margin number in the lyrics agrees; `sophocles-numbering` now also reads Murray's
+  apparatus); sections by Earle's divisions (`Play.parts`, parodos from 131); 25 hand
+  analyses, 18 lemma fixes; sigla from Murray's page; glossary 14, shortdefs 18; truthful
+  syntax and licence lines (`syntax_note`, `edition_license`); stage directions apart in the
+  translation. **The author's build**: app/author-packs.txt (ignored; holds `medea`): with it
+  both Gradle files add the pack and the bundle takes catalog-author.json, and every release
+  task is refused; without it the build is today's. **Open, the author's decision**: on a
+  real phone the debug build uses real Play Billing, which cannot sell a product that does
+  not exist yet, so the author cannot "buy" the Medea on his own phone; ways out to put to
+  him: the product created in the Console but left inactive is not enough (inactive products
+  cannot be bought); an internal-testing release would upload Murray's text to Google's
+  servers for the testers only; or a small change that lets the author's build treat the
+  texts named in author-packs.txt as owned (no billing), which keeps everything on his
+  devices. The emulator check (author's build, scratch copy patched for the shop) runs.
+* **2026-11-17, Alcestis: draft judged, first pass running.** Draft: 45 pages, 1,172 verses,
+  119 flagged (10 %: 47 of them speaker changes the margin reader missed; apparatus found on
+  every page), 8 batches, committed in private/ (259100c). First pass: 8 agents at once.
+
+
 * **2026-11-17, Medea finished but for the emulator check** (finishing agent; log
   build/logs/medea-finish-agent.md; private commits fe80aeb … a94f6ca). Numbering: no verse
   renumbered (`sophocles-numbering medea` now reads Murray's apparatus, items without "]" taking
