@@ -212,7 +212,7 @@ otherwise; treebank = GLAUx `0006-<nnn>.xml`.
 | # | slug | play | tlg | Murray | Perseus page | commentary and introduction (scan) | translation | treebank | product id |
 |---|---|---|---|---|---|---|---|---|---|
 | 1 | medea | Medea (built 2026-11-17, author's catalogue only; emulator check to do) | tlg003 | I | n103: text leaves 105-161 | M. L. Earle, American Book Co. 1904 (d. 1905), cu31924079583609, notes under the text in two columns (leaves 80-254), introduction leaves 14-71 | eng2 | GLAUx 0006-003; Pedalion hand-made trees (compare first) | euripides_medea_murray |
-| 2 | alcestis | Alcestis | tlg002 | I (euripidisfabulae01euriuoft) | n55: half-title and ΥΠΟΘΕΣΙΣ ΑΛΚΗΣΤΙΔΟΣ [ΔΙΚΑΙΑΡΧΟΥ] and [ΑΛΛΩΣ] with apparatus leaf 54, their end leaf 55, persons with Murray's note leaf 56, text leaves 57-101 (seen 2026-11-16) | H. W. Hayley, Ginn 1898 (d. 1899), alcestisofeuripi00euriuoft (284 leaves, jp2, clean), "critical and exegetical notes" at the back, introduction about 90 pp. (leaves to find) | eng2 (sources/drama/tlg0006.tlg002.perseus-eng2.xml, on disk) | GLAUx 0006-002 (on disk) | euripides_alcestis_murray |
+| 2 | alcestis | Alcestis (built 2026-11-17, author's catalogue only; emulator check to do) | tlg002 | I (euripidisfabulae01euriuoft) | n55: half-title and ΥΠΟΘΕΣΙΣ ΑΛΚΗΣΤΙΔΟΣ [ΔΙΚΑΙΑΡΧΟΥ] and [ΑΛΛΩΣ] with apparatus leaf 54, their end leaf 55, persons with Murray's note leaf 56, text leaves 57-101 (seen 2026-11-16) | H. W. Hayley, Ginn 1898 (d. 1899), alcestisofeuripi00euriuoft (284 leaves, jp2, clean), "critical and exegetical notes" at the back, introduction about 90 pp. (leaves to find) | eng2 (sources/drama/tlg0006.tlg002.perseus-eng2.xml, on disk) | GLAUx 0006-002 (on disk) | euripides_alcestis_murray |
 | 3 | heraclidae | Heraclidae | tlg004 | I | n163 (persons leaf 164) | A. C. Pearson, Cambridge 1907 (d. 1935), heraclidae00euri, notes at the back | eng2 | GLAUx 0006-004 | euripides_heraclidae_murray |
 | 4 | helen | Helen | tlg014 | III | n13 | A. C. Pearson, Cambridge 1903, helena__00euriuoft, notes at the back | eng2 | GLAUx 0006-014 | euripides_helen_murray |
 | 5 | bacchae | Bacchae | tlg017 | III | n229 | J. E. Sandys, Cambridge, 3rd ed. 1892 (d. 1922), BacchaeOfEuripides_680, notes at the back | Coleridge's Bacchantes, Wikisource (speeches); Perseus eng2 is Buckley | GLAUx 0006-017 | euripides_bacchae_murray |
@@ -235,6 +235,26 @@ drama.py's `bacchae` and `alcestis` entries still describe the older plan (Sandy
 own text): rewrite each at its turn as the Medea's was.
 
 ## Progress
+
+* **2026-11-17, Alcestis finished but for the emulator check** (finishing agent; log
+  build/logs/alcestis-finish-agent.md; public de1219f, 37e2589, 334e8bf, e5c8c9f and this plan;
+  private 437084a … 96d42cd). Numbering: no verse renumbered; every suspect of
+  `sophocles-numbering alcestis` explained (divided words, lettered parts, unnumbered items);
+  Murray's margins agree. Hayley numbers several stretches otherwise than Murray: new
+  `Play.notes_follow_lemma` (drama.follow_lemmas) moves a note paragraph to the neighbouring
+  verse that holds its lemma, his number in front (26 moves). Sections by Hayley's divisions
+  (`parts`; the third stasimon begins at 962 inside Perseus's choral section: shared change in
+  `sophocles.align_part_starts`, no other play's output changes). Review list: 11 hand analyses,
+  10 lemma fixes, then 6 more for names GLAUx took for others (Ὦς, Δίον, Κόρα …). Translation:
+  aligned; stage directions apart (a short direction in parentheses among the words now stays
+  where it stands, 545; not exits). sigla.md (Murray's page, the Alcestis's note), glossary 18,
+  shortdefs 24 (Logeion's Pelias "king of Kolchis" again), about.md (GLAUx automatic,
+  product id, release 2028-01-01). The readings' open points settled (a misprint κομιδῇ;
+  Hayley's uncials in Greek letters ϵ, Ϲ, Ο instead of Cyrillic Є and Latin C, O, which split
+  words; a prodelision mark); Murray's persons notes with his en dash in both plays (the Medea
+  merged and rebuilt). Built (data/alcestis.sqlite), catalog-author.json only; `check` 0 errors;
+  pack linked; app/author-packs.txt holds medea and alcestis. **Next**: the emulator check with the
+  author's build.
 
 * **2026-11-17, Alcestis prose: set up, drafted, first check running.** Set-up agent's
   report (log build/logs/alcestis-prose-setup.md; public commit 02e0be7; private 289900e):
@@ -572,8 +592,18 @@ own text): rewrite each at its turn as the Medea's was.
   release tasks refused while it names a text; the private packs live in private/app/packs/
   through links made by `private-setup <slug> --pack`.
 
+* 2026-11-17 (Alcestis finishing agent): Hayley's note paragraphs follow their lemma to the
+  neighbouring verse with his number in front (his numbering differs from Murray's); the Alcestis's
+  sections are Hayley's divisions, the two kommoi "(continued)" parts of their episodes; Murray's
+  range rule is an en dash in both plays' persons notes; uncial letters in the commentaries are
+  written with Greek code points (ϵ U+03F5, Ϲ U+03F9), never Cyrillic or Latin look-alikes.
+
 ## For the author
 
+* **Alcestis, Hayley's introduction**: a footnote cites "Rivista di filol. class. 185" as printed
+  (a figure dropped from the year or volume; it shows in the app): kept as printed unless you want
+  the reference completed from another source. And, as before, chapter E's author Paton's death
+  year (believed 1944) to confirm before the release.
 * **Which printing of Murray's vols II and III to read.** Perseus's scans (vol. II 1962, vol.
   III 1925-1946 printings of the 1913 editions) keep the print and the check text one edition;
   from 2028 any printing of Murray's text is free in Norway, so the printing matters only for
