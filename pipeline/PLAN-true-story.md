@@ -179,7 +179,7 @@ Nilén's apparatus, but an altered one, which will make you the editor".
 - [x] Step 8: DCC notes (2026-11-08): 86 pages (89 sections; 2.7-2.10 one page), 1798 paragraphs; twenty notes compared with the site, all agree
 - [x] Step 9: translation, sigla, glossary, about, READMEs (2026-11-08): eng-harmon.txt 89 sections (no problems); sigla.md from the praefatio; glossary 79, short definitions 106, aliases 26, 16 lemma fixes and 12 hand analyses; lexicon coverage complete
 - [x] Step 10: build, pack, catalogue, emulator check (2026-11-08): data/truestory.sqlite, app/packs/truestory, catalogue 17 texts; emulator check done after four fixes (long sections divided, inline section numbers, apparatus by section, commentators named)
-- [x] Footnote and sign asterisks (2026-11-17, the author: "Fix the footnotes"): Nilén's printed asterisks (Γ* the first hand, *** erased letters) had paired into italics in 28 apparatus notes (30 items with two of them); the apparatus writer now writes every asterisk escaped; merged (only the escapes changed) and rebuilt; no `<i>` left in the apparatus HTML (log build/logs/footnote-marks.md)
+- [x] Footnote and sign asterisks (2026-11-17, the author: "Fix the footnotes"): Nilén's printed asterisks (Γ* the first hand, *** erased letters) had paired into italics in 28 apparatus notes (30 items with two of them); the apparatus writer now writes every asterisk escaped; merged (only the escapes changed) and rebuilt; no `<i>` left in the apparatus HTML; the same signs in the hand-written sigla.md (24 places, Γ\*, ***) escaped too (log build/logs/footnote-marks.md)
 
 ## Decisions
 

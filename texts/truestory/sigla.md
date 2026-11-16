@@ -26,7 +26,7 @@ Nilén's table of the witnesses used for each of libelli 1–14 (p. X) gives for
 
 Less often the apparatus names other witnesses. For these, Nilén's table (p. XI) says that the silence of the apparatus cannot be trusted enough: an unnamed manuscript need not agree with the text.
 
-**I** — Urbinas 118 (Rome, Vatican Library), date class rᶠ (p. VII). It is cited in both books ("ΩIS"), more often in Book 1. In Book 1 a middle part is lost (table, p. XI; repertory, p. XIV, "ιη*").
+**I** — Urbinas 118 (Rome, Vatican Library), date class rᶠ (p. VII). It is cited in both books ("ΩIS"), more often in Book 1. In Book 1 a middle part is lost (table, p. XI; repertory, p. XIV, "ιη\*").
 
 **i** — the supplements of I, written by a later hand to fill its gaps, date class rˣ (p. VII; "s." = supplied, p. XIV). In Book 1 I is missing from chapter 13 (after ἐθεασάμην) to the beginning of chapter 21, and i stands in for it ("defic. I suppl. i", in the apparatus).
 
@@ -46,9 +46,9 @@ Nilén explains the raised signs in a key on p. XI, written for the correctors o
 
 **¹** (Γ¹, Ω¹, S¹, P¹ ...) — the original writing of the first hand, where the manuscript was later corrected.
 
-**\*** (Γ*, Ω*) — a correction made with the scraper, by erasing; "eras. Γ*" means erased.
+**\*** (Γ\*, Ω\*) — a correction made with the scraper, by erasing; "eras. Γ\*" means erased.
 
-**\* with another sign** (Γ*ᵃ, Ω*ˣ, S*², P*ˣ ...) — a correction made both by scraping and with ink, by the hand that the second sign shows: Γ*ᵃ is a correction by erasure and fresh ink by hand a.
+**\* with another sign** (Γ\*ᵃ, Ω\*ˣ, S\*², P\*ˣ ...) — a correction made both by scraping and with ink, by the hand that the second sign shows: Γ\*ᵃ is a correction by erasure and fresh ink by hand a.
 
 **²** (Γ², Ω², S²) — the first hand, in its own ink.
 
@@ -64,7 +64,7 @@ Nilén explains the raised signs in a key on p. XI, written for the correctors o
 
 **ʳ** (Γʳ, Ωʳ, Sʳ, Pʳ) — the most recent corrector.
 
-For the True Story, Nilén's tables (pp. XI–XII) list these hands: in Γ, Γ*, Γ², Γ³, Γᵃ, Γˣ and Γᶜ (Book 1), and Γ*, Γ², Γ³, Γᵃ, Γᵛ, Γˣ and Γʳ (Book 2); in Ω, Ω*, Ω², Ωᵃ, Ωᵛ, Ωˣ, Ωᶜ and Ωʳ (Book 1), and Ω*, Ω², Ωᵛ, Ωˣ, Ωᶜ and Ωʳ (Book 2); in S, S², Sᵛ, Sˣ and Sʳ (Book 1), and S*, S², S³, Sᵛ and Sˣ (Book 2). He gives no tables for Z, P, N, F and I, but marks them the same way (Z¹, Z², Z³, Zˣ, Z*ˣ; P¹, P*, Pˣ, P*ˣ, Pʳ; N¹, N², Nˣ; F¹, Fˣ; I¹, I², Iˣ, I*ˣ). Pˣ is the hand named most often in the apparatus. Once the apparatus has Γ¹* (on τέγος, Book 2), a combination that the key does not explain.
+For the True Story, Nilén's tables (pp. XI–XII) list these hands: in Γ, Γ\*, Γ², Γ³, Γᵃ, Γˣ and Γᶜ (Book 1), and Γ\*, Γ², Γ³, Γᵃ, Γᵛ, Γˣ and Γʳ (Book 2); in Ω, Ω\*, Ω², Ωᵃ, Ωᵛ, Ωˣ, Ωᶜ and Ωʳ (Book 1), and Ω\*, Ω², Ωᵛ, Ωˣ, Ωᶜ and Ωʳ (Book 2); in S, S², Sᵛ, Sˣ and Sʳ (Book 1), and S\*, S², S³, Sᵛ and Sˣ (Book 2). He gives no tables for Z, P, N, F and I, but marks them the same way (Z¹, Z², Z³, Zˣ, Z\*ˣ; P¹, P\*, Pˣ, P\*ˣ, Pʳ; N¹, N², Nˣ; F¹, Fˣ; I¹, I², Iˣ, I\*ˣ). Pˣ is the hand named most often in the apparatus. Once the apparatus has Γ¹\* (on τέγος, Book 2), a combination that the key does not explain.
 
 ## Editors and scholars named
 
@@ -132,7 +132,7 @@ Other works of Lucian are cited by short titles to compare: **Iupp. Trag.** (Zeu
 
 Nilén does not explain any of these in the praefatio. The meanings given here are the usual ones in a Teubner apparatus, checked against how he uses them.
 
-**corr.** — corrected: "corr. Fˣ" means F's later hand corrected it. **ex corr.** — produced by correction. **ex ... corr.** — corrected from the reading given ("ex φ***τίδος corr. Z*ˣ"). **in ... corr.** — changed into the reading given. **correx.**, **emendavit** — corrected (by a scholar).
+**corr.** — corrected: "corr. Fˣ" means F's later hand corrected it. **ex corr.** — produced by correction. **ex ... corr.** — corrected from the reading given ("ex φ\*\*\*τίδος corr. Z\*ˣ"). **in ... corr.** — changed into the reading given. **correx.**, **emendavit** — corrected (by a scholar).
 
 **spscr.** — written above, over the line or over the word. **supra vs.**, **supra** — above the line. **in vsu** — in the line itself (versu, as opposed to above it or in the margin). **subscr.** — written below; also the subscription at the end of a book ("subscr. Γᵃ in mg.", the note of Alexander, bishop of Nicaea, at the end of Book 1).
 
@@ -152,7 +152,7 @@ Nilén does not explain any of these in the praefatio. The meanings given here a
 
 **■** — a black block, printed for a letter lost or unreadable in the manuscript, for example where the margin of Γ is damaged; there is roughly one block for each letter.
 
-**\*** inside a Greek word (ἰχ***, **θέντες) — erased letters, one sign for each letter as far as can be told. Nilén sometimes says in brackets what they seem to have been ("ἰχ*** (θ**)") or how many letters are gone ("2 vel 3 litt. funditus erasae"). For the asterisk after a siglum, see Hands and corrections.
+**\*** inside a Greek word (ἰχ\*\*\*, \*\*θέντες) — erased letters, one sign for each letter as far as can be told. Nilén sometimes says in brackets what they seem to have been ("ἰχ\*\*\* (θ\*\*)") or how many letters are gone ("2 vel 3 litt. funditus erasae"). For the asterisk after a siglum, see Hands and corrections.
 
 **|** — the end of a line in the manuscript.
 
