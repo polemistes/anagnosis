@@ -236,6 +236,24 @@ own text): rewrite each at its turn as the Medea's was.
 
 ## Progress
 
+* **2026-11-17, Alcestis prose: set up, drafted, first check running.** Set-up agent's
+  report (log build/logs/alcestis-prose-setup.md; public commit 02e0be7; private 289900e):
+  Hayley's notes pp. 61-167 = leaves 159-267 (critical and exegetical mixed: all kept; six
+  headings step back in his own order), 107 pages, 14 batches, 2,920 flags, 646 headings;
+  the introduction 74 pages, 10 batches, 1,215 flags (Hayley's chapters A-F on leaves 21-97
+  less the lists left out by the bibliography rule and his own Greek hypotheses and sigla;
+  Murray's hypotheses leaves 54-55 and persons leaf 56). New in the checker:
+  `homer_latin_letters`, `homer_greek_numerals`. **Unverified, for the author**: chapter E of
+  Hayley's introduction (the Alcestis in ancient art) is by James M. Paton, believed to have
+  died in 1944 (then free in Norway since 2015); if the year proves later than 1955 the
+  chapter is held out. For the agents to repair by hand: the garbled heading of chapter B,
+  a stray heading on p-10073 and a stray accent line on p-10027, Murray's two hypothesis
+  pages and persons page. **Running: the first check of the 24 batches** (nine at once);
+  then the second reading (all batches: the Medea showed that a small sample understates
+  what it finds), `merge-drama alcestis`, the finishing steps as for the Medea, the
+  emulator check with the author's build (add `alcestis` to app/author-packs.txt).
+
+
 * **2026-11-17: THE MEDEA IS FINISHED** (for the author's own use; held back until
   2028-01-01). Emulator check with the author's build (it built first time; the pack and
   data/catalog-author.json were bundled; the app itself knows nothing of `release`, the
