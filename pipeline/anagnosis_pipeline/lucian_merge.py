@@ -531,7 +531,9 @@ def merge(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path) -> 
         grouped.setdefault(re.sub(r"[a-z]$", "", units[u]["n"]), []).append(item)
     for sec, items in grouped.items():
         md.append(f"## {sec}")
-        md.append("\n\n".join(items))
+        # every asterisk of Nilén's apparatus is printed (Γ* the first hand, *** erased letters):
+        # written \\* so that two in one item cannot become italics (build.md_to_html)
+        md.append("\n\n".join(items).replace("*", "\\*"))
         md.append("")
     (out / f"commentary-{play.app_editor}-apparatus.md").write_text("\n".join(md) + "\n", encoding="utf-8")
     print(f"wrote commentary-{play.app_editor}-apparatus.md: {len(grouped)} sections, {len(placed)} items; "
