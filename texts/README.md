@@ -73,7 +73,7 @@ is often another edition than the one printed here. A text that says so names th
 grc.txt's header (`# syntax-text: …`, the database's meta key `syntax_text`) and in about.md
 (`# syntax_text: …`, for the catalog), and records in `syntax-text.tsv` what each word is to it
 where it is not simply the trees' own word. Columns: `kind line ord form sentence word_id
-tree_form tree_lemma tree_postag same_construction extent`. The principle: the tree is shown with
+tree_form tree_lemma tree_postag same_construction difference extent`. The principle: the tree is shown with
 the words it was made for.
 
 * `unit`: our word is a part of a tree word (αἵ θʼ for αἵθʼ), or several tree words joined (οὐδέ
@@ -86,6 +86,10 @@ the words it was made for.
   does. It is 0 where our word stands in another construction: its token row has the sentence
   but no word id, relation or head, the tree word is a node of its own in `syntax-nodes.tsv`,
   and only this record ties our word to it.
+  `difference` says how the two words differ: `elision` (μʼ / μοι), `nu` (the movable ν: τέκε /
+  τέκεν), `spelling` (the same word in the same form, spelled otherwise), `form` (the same word in
+  another form; an iota subscript is a letter of the form: παιπαλοέσσης / παιπαλοέσσῃς), `word`
+  (another word).
 * `absent`: the trees' text has no word for it, so it has no node. It has the `sentence` it
   stands in (also in its row of tokens.tsv, with an empty word id), so that the tree opens from
   it: the sentence of the words around it, or at the seam of two sentences the one no stop of

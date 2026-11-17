@@ -298,6 +298,33 @@ def _bare(s: str) -> str:
     return "".join(c for c in _skeleton(s) if c.isalpha())
 
 
+def _subscripts(s: str) -> list[int]:
+    """Which letters of a word carry an iota subscript (ῃ, ᾳ, ῳ): it is no accent but a letter
+    of the form (παιπαλοέσσης a genitive, παιπαλοέσσῃς a dative)."""
+    import unicodedata
+
+    out, k = [], 0
+    for c in unicodedata.normalize("NFD", s):
+        if c.isalpha():
+            k += 1
+        elif c == "\u0345":
+            out.append(k)
+    return out
+
+
+def _two_forms(a: str, b: str) -> bool:
+    """Whether two words of unequal letters look like one word in two forms: one elided or
+    shortened to the other's beginning (ταῦτʼ / ταῦτα, ἐν / ἔνι), or nearly the same letters
+    (νισομένων / νισσομένων, λήγουσαι / ἐκλήγουσαι, ἐκ / κἀκ)."""
+    a, b = _bare(a), _bare(b)
+    if not a or not b:
+        return False
+    short, long_ = sorted((a, b), key=len)
+    if long_.startswith(short) and len(long_) - len(short) <= 2:
+        return True
+    return len(short) >= 2 and difflib.SequenceMatcher(None, a, b, autojunk=False).ratio() >= 0.75
+
+
 # Treebank lemmas to correct (spelling, or a form used as lemma). Applied after alignment, after
 # a stray breathing mark at the start of a lemma (̓ὀδυσσεύς) has been removed.
 LEMMA_FIXES: dict[str, str] = {
@@ -397,14 +424,19 @@ def align(doc: Document, tb: list[dict], keep_tb_form: bool = False, units: bool
                 if not units or i + k > i2:
                     break
                 acc += ta[i + k - 1]
-                if k > 1 and acc == tbs[j]:
+                # the same letters, or the treebank's crasis of our καὶ and the next word (καὶ ἐκ / κἀκ)
+                if k > 1 and (acc == tbs[j] or (k == 2 and ta[i] == "και" and ta[i + 1][:1] in "αεηιουω"
+                                                and "κα" + ta[i + 1][1:] == tbs[j])):
                     hit = k
                     break
-                if len(acc) >= len(tbs[j]):
+                if len(acc) > len(tbs[j]) + 1:  # (a crasis is shorter than its two words)
                     break
             if hit:
+                # the node goes to the first word; in a crasis with καί to the second, whose word
+                # the treebank's word is (κἀκ is ἐκ with καί before it)
+                crasis = acc != tbs[j]
                 for k in range(hit):
-                    unit[i + k] = (tb_words[j], k)
+                    unit[i + k] = (tb_words[j], (hit - 1 - k) if crasis else k)
                 i += hit
                 j += 1
             else:
@@ -414,6 +446,16 @@ def align(doc: Document, tb: list[dict], keep_tb_form: bool = False, units: bool
             for k in range(rest_t):  # a variant reading: same number of words, paired in order
                 matched[i + k] = [tb_words[j + k]]
                 warnings.append(f"{text_words[i + k][0]}: paired {text_words[i + k][2]!r} with treebank {tb_words[j + k]['form']!r}")
+        elif units and rest_t and rest_b:
+            # another number of words on the two sides (ταῦτά γʼ ἄρʼ / ταῦτʼ ἄρα; ἐν / ἔνι beside
+            # a word only one side has): the words that are one word in two forms are paired, in order
+            jj = j
+            for ii in range(i, i2):
+                for cand in range(jj, j2):
+                    if _two_forms(text_words[ii][2], tb_words[cand]["form"]):
+                        matched[ii] = [tb_words[cand]]
+                        jj = cand + 1
+                        break
         elif rest_t:
             warnings.append(
                 f"{text_words[i][0]}: no treebank words for {[f for _, _, f in text_words[i:i2]]}"
@@ -454,6 +496,24 @@ def align(doc: Document, tb: list[dict], keep_tb_form: bool = False, units: bool
                                 free_runs.append(part)
                         break
             i = j
+    if units:
+        # a word of ours and a treebank word left over at the same place that are one word in two
+        # forms, though not in the same order (ἐν σπῆι / σπῆι ἔνι): paired
+        place = {id(w): k for k, w in enumerate(tb_words)}
+        taken = {place[id(w)] for ws in matched.values() for w in ws} | {place[id(w)] for w, _k in unit.values()}
+        where = {i: place[id(ws[0])] for i, ws in matched.items()}
+        for i in range(len(text_words)):
+            if i in matched or i in unit:
+                continue
+            before = next((where[k] for k in range(i - 1, max(-1, i - 4), -1) if k in where), None)
+            after = next((where[k] for k in range(i + 1, min(len(text_words), i + 4)) if k in where), None)
+            if before is None or after is None or not 0 <= after - before <= 6:
+                continue
+            for k in range(before + 1, after + 3):
+                if k < len(tb_words) and k not in taken and _two_forms(text_words[i][2], tb_words[k]["form"]):
+                    matched[i] = [tb_words[k]]
+                    taken.add(k)
+                    break
     rows: list[dict] = []
     for idx, (n, ord_, form) in enumerate(text_words):
         ws = matched.get(idx)
@@ -488,7 +548,8 @@ def align(doc: Document, tb: list[dict], keep_tb_form: bool = False, units: bool
                 note = ("unit", unit[idx][0]["form"], unit[idx][0]["lemma"], unit[idx][0]["postag"])
             elif ws and len(ws) > 1:
                 note = ("unit", " ".join(x["form"] for x in ws), " ".join(x["lemma"] for x in ws), "")
-            elif ws and _bare(ws[0]["form"]) != _bare(form):  # an editor's bracket on the word is no other reading
+            elif ws and (_bare(ws[0]["form"]) != _bare(form) or _subscripts(ws[0]["form"]) != _subscripts(form)):
+                # (an editor's bracket on the word is no other reading; an iota subscript is)
                 note = ("reading", ws[0]["form"], ws[0]["lemma"], ws[0]["postag"])
             elif not ws:
                 note = ("absent", "", "", "")

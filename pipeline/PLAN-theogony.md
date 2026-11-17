@@ -304,3 +304,28 @@ As PLAN-drama.md "Steps for each play", with the play's slug `theogony`:
     after a stop the trees' words belong to the second: 578 ἀμφὶ δέ οἱ στεφάνην … is whole in
     its tree, and 576–577 whole outside it.
   * Version 8c3530cb7d7003ec.
+* **2026-11-17, after the reader's check of the trees' text** (the reader agent's two points and
+  a column for the author).
+  * **An iota subscript is a letter of the form.** 860 παιπαλοέσσης passed as the trees'
+    παιπαλοέσσῃς (the letters without accents are the same) and wore its analysis, a dative
+    plural with βήσσῃσιν. The record and the token step now compare the subscripts
+    (`odyssey._subscripts`): it is a reading (another construction: ours is a genitive with
+    Ἀίτνης), with its own analysis by hand. The class in the Theogony is this one word.
+  * **One word in two forms beside words only one text has** was recorded as absent plus
+    unprinted. Such pairs are now found (`odyssey._two_forms`: one elided or shortened to the
+    other's beginning, or nearly the same letters), in a stretch with another number of words on
+    the two sides and across another order: 297 ἐν / ἔνι (the trees' preposition stands after
+    its noun), 71 νισομένων / νισσομένων and πατέρα / πατέρʼ, 335 σπείρῃσιν / πείρασιν and
+    μεγάλῃς / μεγάλοις, 532 ταῦτά / ταῦτʼ and ἄρʼ / ἄρα, 920 γείνατο / γείνατʼ, 48 λήγουσαί /
+    ἐκλήγουσαι: nine readings, each with its decision. And 447 καὶ ἐκ is a unit on the trees'
+    crasis κἀκ (the node on ἐκ, whose word κἀκ is).
+  * **How a reading differs** (`difference`, for the author to choose what is marked): of the 62
+    readings, **6 by elision** (μʼ / μοι), **13 by the movable ν** (τέκε / τέκεν), **22 in
+    spelling** only (μειχθεὶς / μιχθεὶς, the names), **9 in form** (νύκτας / νυκτὸς), **12 are
+    another word** (ἀοιδὴν / αὐδὴν). So 41 of the 62 are the same word in the same form.
+    Worked out from the letters and tags, with the value given by hand in `TREE_READINGS` where
+    they would mislead (ten places). In the same construction: 54; in another: 8 (the six, with
+    335 σπείρῃσιν and 860 παιπαλοέσσης).
+  * Numbers now: unit 50, reading 62, absent 18 (12 the passage 576–577 without a tree; 6
+    single words, all with their sentence: 48 θεαὶ, τʼ; 370 οἳ, ἂν; 532 γʼ; 887 θεῶν),
+    unprinted 136 (129 in passages, 7 single); 266 rows. Version 3f8796cba6c2bcbb.

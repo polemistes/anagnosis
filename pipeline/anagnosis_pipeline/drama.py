@@ -2053,6 +2053,11 @@ def _tokens(play: Play, doc, sources: Path, out: Path, lexicon: Path, build: Pat
     for r in rows:
         tb_form = r.pop("tb_form", "")
         same = tb_form and greek.strip_diacritics(tb_form) == greek.strip_diacritics(r["form"])
+        if same and play.syntax_text:
+            # an iota subscript is a letter of the form: παιπαλοέσσης is not the trees' παιπαλοέσσῃς,
+            # and our word wants its own analysis
+            from .odyssey import _subscripts
+            same = _subscripts(tb_form) == _subscripts(r["form"])
         if r["lemma"] and r["postag"] and (same or not tb_form):
             continue
         chosen = choose_analysis(r["form"], analyse(r["form"]), r["postag"], r["lemma"], freq, tb_form)
@@ -2083,8 +2088,9 @@ def _tokens(play: Play, doc, sources: Path, out: Path, lexicon: Path, build: Pat
         r["lemma"] = LEMMA_FIXES.get(r["lemma"], r["lemma"])
         r["lemma"] = fixes.get(r["lemma"], r["lemma"])
     if record is not None:
-        from .syntax_text import give_sentences, settle, shift_repeats, write_record
+        from .syntax_text import differences, give_sentences, settle, shift_repeats, write_record
         undecided = settle(play.slug, rows, record)
+        print("readings by their difference: " + ", ".join(f"{n} {k}" for k, n in sorted(differences(rows, record).items())))
         greek_lines = [(line.n, line.text) for line in doc.lines]
         shift_repeats(greek_lines, rows, record)
         given, left = give_sentences(greek_lines, rows, record)

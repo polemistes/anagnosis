@@ -33,7 +33,8 @@ import csv
 import sqlite3
 from pathlib import Path
 
-COLUMNS = ["kind", "line", "ord", "form", "sentence", "word_id", "tree_form", "tree_lemma", "tree_postag", "same_construction", "extent"]
+COLUMNS = ["kind", "line", "ord", "form", "sentence", "word_id", "tree_form", "tree_lemma", "tree_postag", "same_construction",
+           "difference", "extent"]
 PASSAGE = 3  # so many absent or unprinted words in a row are a passage
 
 SCHEMA = """
@@ -43,7 +44,7 @@ SCHEMA = """
 CREATE TABLE syntax_text_words (
     id INTEGER PRIMARY KEY, kind TEXT NOT NULL, token_id INTEGER REFERENCES tokens(id),
     sentence TEXT, word_id INTEGER, tree_form TEXT, tree_lemma TEXT, tree_postag TEXT,
-    same_construction INTEGER, extent TEXT
+    same_construction INTEGER, difference TEXT, extent TEXT
 );
 CREATE INDEX syntax_text_words_token ON syntax_text_words(token_id);
 CREATE INDEX syntax_text_words_node ON syntax_text_words(sentence, word_id);
@@ -72,9 +73,56 @@ def settle(slug: str, rows: list[dict], record: list[dict]) -> list[str]:
             undecided.append(key)
             continue
         rec["same_construction"] = "1" if decision[0] == "keep" else "0"
+        if len(decision) > 2:
+            rec["difference"] = decision[2]  # by hand, where the letters and tags would mislead
         if decision[0] == "drop":
             by[(rec["line"], int(rec["ord"]))].update(relation="", head="", word_id="")
     return undecided
+
+
+def differences(rows: list[dict], record: list[dict]) -> dict[str, int]:
+    """How each reading differs from the trees' word (`difference`), so that the reader can leave
+    the slightest unmarked if the author wishes:
+
+      elision   one of the two is the other elided (μʼ / μοι, ταῦτά / ταῦτʼ)
+      nu        the same form with and without the movable ν (τέκε / τέκεν)
+      spelling  the same word in the same form, spelled otherwise (μειχθεὶς / μιχθεὶς; a name)
+      form      the same word in another form (νύκτας / νυκτὸς; παιπαλοέσσης / παιπαλοέσσῃς)
+      word      another word
+
+    Returns the count of each."""
+    import difflib
+
+    from . import greek
+    from .odyssey import _bare, fix_lemma
+
+    by = {(r["line"], int(r["ord"])): r for r in rows}
+    counts: dict[str, int] = {}
+    for rec in record:
+        if rec["kind"] != "reading":
+            continue
+        row = by[(rec["line"], int(rec["ord"]))]
+        ours, theirs = _bare(rec["form"]), _bare(rec["tree_form"])
+        short, long_ = sorted((ours, theirs), key=len)
+        elided = any(greek.nfd(x).rstrip()[-1:] in "ʼ’\u0313\u1fbd\u02bc" for x in (rec["form"], rec["tree_form"]))
+        same_lemma = greek.lemma_key(fix_lemma(rec.get("tree_lemma", ""))) == greek.lemma_key(row["lemma"])
+        same_tag = (rec.get("tree_postag") or "")[1:6] == row["postag"][1:6] and (rec.get("tree_postag") or "")[7:8] == row["postag"][7:8]
+        alike = difflib.SequenceMatcher(None, ours, theirs, autojunk=False).ratio() >= 0.75
+        if rec.get("difference"):
+            kind = rec["difference"]
+        elif elided and long_.startswith(short) and len(long_) - len(short) <= 2:
+            kind = "elision"
+        elif short + "ν" == long_ and (same_lemma or same_tag):
+            kind = "nu"
+        elif same_tag and (same_lemma or alike):
+            kind = "spelling"
+        elif same_lemma or (alike and (rec.get("tree_postag") or "")[:1] == row["postag"][:1]):
+            kind = "form"
+        else:
+            kind = "word"
+        rec["difference"] = kind
+        counts[kind] = counts.get(kind, 0) + 1
+    return counts
 
 
 STOPS = ".;·"  # the marks that end a sentence in our text (the full stop, the question mark, the raised stop)
@@ -267,10 +315,11 @@ def build_table(db: sqlite3.Connection, work_dir: Path) -> int:
         if r["line"] and tid is None:
             raise SystemExit(f"{work_dir.name}: syntax-text.tsv names the word {r['line']}:{r['ord']} {r['form']}, which the text has not")
         word = r["word_id"].lstrip("=").split("+")[0]
-        db.execute("INSERT INTO syntax_text_words (kind, token_id, sentence, word_id, tree_form, tree_lemma, tree_postag, same_construction, extent) "
-                   "VALUES (?,?,?,?,?,?,?,?,?)",
+        db.execute("INSERT INTO syntax_text_words (kind, token_id, sentence, word_id, tree_form, tree_lemma, tree_postag, same_construction, "
+                   "difference, extent) VALUES (?,?,?,?,?,?,?,?,?,?)",
                    (r["kind"], tid, r["sentence"] or None, int(word) if word.isdigit() else None, r["tree_form"] or None,
                     r["tree_lemma"] or None, r.get("tree_postag") or None,
-                    int(r["same_construction"]) if r.get("same_construction") in ("0", "1") else None, r["extent"] or None))
+                    int(r["same_construction"]) if r.get("same_construction") in ("0", "1") else None,
+                    r.get("difference") or None, r["extent"] or None))
     db.execute("INSERT OR REPLACE INTO meta VALUES ('syntax_text_words', ?)", (str(len(rows)),))
     return len(rows)

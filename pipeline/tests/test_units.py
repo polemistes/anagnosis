@@ -126,6 +126,40 @@ class TreesText(unittest.TestCase):
         self.assertEqual(sorted((r["line"], r["ord"]) for r in rec), [("2", o) for o in range(6)])
         self.assertEqual(give_sentences(lines, rows, rec), (0, 6))   # a sentence of its own between two stops: no tree
 
+    def test_how_a_reading_differs(self):
+        from anagnosis_pipeline.syntax_text import differences
+        from anagnosis_pipeline.odyssey import _subscripts, _two_forms
+        cases = [("μʼ", "ἐγώ", "p-s---md-", "μοι", "ἐγώ", "p-s---md-", "elision"), ("τέκε", "τίκτω", "v3saia---", "τέκεν", "τίκτω", "v3saia---", "nu"),
+                 ("οὐδὲ", "οὐδέ", "d--------", "οὐδὲν", "οὐδείς", "a-s---na-", "word"),            # not the movable ν: another word
+                 ("μειχθεὶς", "μίγνυμι", "v-sappmn-", "μιχθεὶς", "μίγνυμι", "v-sappmn-", "spelling"),
+                 ("παιπαλοέσσης", "παιπαλόεις", "a-s---fg-", "παιπαλοέσσῃς", "παιπαλόεις", "a-p---fd-", "form"),
+                 ("ἀοιδὴν", "ἀοιδή", "n-s---fa-", "αὐδὴν", "αὐδή", "n-s---fa-", "word")]
+        rows = [{"line": str(i), "ord": 0, "form": c[0], "lemma": c[1], "postag": c[2]} for i, c in enumerate(cases)]
+        rec = [{"line": str(i), "ord": 0, "form": c[0], "kind": "reading", "tree_form": c[3], "tree_lemma": c[4], "tree_postag": c[5]} for i, c in enumerate(cases)]
+        differences(rows, rec)
+        self.assertEqual([r["difference"] for r in rec], [c[6] for c in cases])
+        rec[5]["difference"] = "spelling"                      # a value given by hand stands
+        differences(rows, rec)
+        self.assertEqual(rec[5]["difference"], "spelling")
+        self.assertNotEqual(_subscripts("παιπαλοέσσης"), _subscripts("παιπαλοέσσῃς"))   # an iota subscript is a letter of the form
+        self.assertEqual(_subscripts("τῇσι"), _subscripts("τῇσιν"))
+        self.assertTrue(_two_forms("ἐν", "ἔνι") and _two_forms("ταῦτά", "ταῦτ̓") and _two_forms("νισομένων", "νισσομένων"))
+        self.assertFalse(_two_forms("θεῶν", "δ̓") or _two_forms("οἳ", "ὅσοι"))
+
+    def test_crasis_and_another_order(self):
+        tb = [word(1, "βριάει", "βριάω", "v3spia---", "PRED", 0), word(2, "κἀκ", "ἐκ", "r--------", "AuxP", 1),
+              word(3, "πολλῶν", "πολύς", "a-p---mg-", "ADV", 2), word(4, "σπῆι", "σπέος", "n-s---nd-", "ADV", 5),
+              word(5, "ἔνι", "ἐν", "r--------", "AuxP", 1), word(6, "γλαφυρῷ", "γλαφυρός", "a-s---nd-", "ATR", 4)]
+        d = Document(meta={})
+        d.items += [Line("1", "βριάει καὶ ἐκ πολλῶν"), Line("2", "ἐν σπῆι γλαφυρῷ")]
+        rec = []
+        rows, _ = align(d, tb, units=True, record=rec)
+        by = {(r["line"], r["form"]): r for r in rows}
+        self.assertEqual((by[("1", "καὶ")]["word_id"], by[("1", "ἐκ")]["word_id"]), ("=2", "2"))       # the trees' crasis: a unit, the node on ἐκ
+        self.assertEqual(by[("2", "ἐν")]["word_id"], "5")                                              # the preposition after its noun
+        self.assertEqual({(r["form"], r["kind"], r["tree_form"]) for r in rec},
+                         {("καὶ", "unit", "κἀκ"), ("ἐκ", "unit", "κἀκ"), ("ἐν", "reading", "ἔνι")})
+
     def test_decisions_runs_and_table(self):
         import sqlite3, tempfile
         from pathlib import Path

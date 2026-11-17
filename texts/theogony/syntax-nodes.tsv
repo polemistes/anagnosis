@@ -50,7 +50,6 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2273685	4	,	,	u--------	APOS	13	
 2273685	10	,	,	u--------	AuxX	4	
 2273685	14	καὶ	καί	c--------	COORD	13	
-2273685	15	ἐκλήγουσαι	ἐκλήγω	v-pppafn-	ADV_CO	14	
 2273685	17	,	,	u--------	AuxX	20	
 2273685	25	.	.	u--------	AuxK	0	
 2273686	17	,	,	u--------	APOS	10	
@@ -74,8 +73,6 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2273693	9	,	,	u--------	COORD	6	
 2273693	12	·	·	u--------	AuxK	0	
 2273694	7	,	,	u--------	AuxX	9	
-2273694	14	νισσομένων	νίσσομαι	v-pppefg-	ADV	13	
-2273694	15	πατέῤ	πατήρ	n-s---ma-	OBJ	16	
 2273694	16	εἰς	εἰς	r--------	AuxP	14	
 2273694	18	·	·	u--------	AuxK	0	
 2273695	5	,	,	u--------	AuxX	7	
@@ -331,7 +328,6 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2273790	7	,	,	u--------	AuxX	9	
 2273790	8	οὐδὲν	οὐδείς	a-s---na-	ADV	9	
 2273790	16	,	,	u--------	AuxX	9	
-2273790	18	ἔνι	ἐν	r--------	AuxP	3	
 2273790	23	,	,	u--------	APOS	3	
 2273790	29	,	,	u--------	AuxX	31	
 2273790	45	.	.	u--------	AuxK	0	
@@ -386,7 +382,6 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2273807	10	,	,	u--------	AuxX	20	
 2273807	15	πείρασιν	πεῖραρ	n-p---nd-	ADV	16	
 2273807	16	ἐν	ἐν	r--------	AuxP	20	
-2273807	17	μεγάλοις	μέγας	a-p---nd-	ATR	15	
 2273807	21	.	.	u--------	AuxK	0	
 2273807	22	[1]			OBJ_AP	23	1
 2273807	23	[0]			APOS	7	1
@@ -520,7 +515,6 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2273846	10	[0]			PRED_CO	2	1
 2273847	13	,	,	u--------	AuxX	16	
 2273847	17	,	,	u--------	AuxX	16	
-2273847	21	κἀκ	ἐκ	r--------	AuxP	24	
 2273847	25	.	.	u--------	AuxK	0	
 2273847	26	[0]			COORD	2	1
 2273848	13	.	.	u--------	AuxK	0	
@@ -612,8 +606,6 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2273883	39	.	.	u--------	AuxK	0	
 2273883	40	[0]			APOS	8	1
 2273883	41	[1]			ADV	33	1
-2273884	1	ταῦτ̓	οὗτος	a-p---na-	ADV	3	
-2273884	2	ἄρα	ἄρα	g--------	AuxY	3	
 2273884	7	·	·	u--------	AuxK	0	
 2273885	6	,	,	u--------	AuxX	9	
 2273885	10	,	,	u--------	AuxX	11	
@@ -995,6 +987,7 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2274029	11	,	,	u--------	AuxX	13	
 2274029	16	.	.	u--------	AuxK	0	
 2274030	10	ἀιδνῇς	ἀιδνός	a-p---fd-	ATR	9	
+2274030	11	παιπαλοέσσῃς	παιπαλόεις	a-p---fd-	ATR	9	
 2274030	12	,	,	u--------	AuxX	13	
 2274030	14	.	.	u--------	AuxK	0	
 2274031	19	,	,	u--------	AuxX	20	
@@ -1062,7 +1055,6 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2274057	21	.	.	u--------	AuxK	0	
 2274058	7	,	,	u--------	APOS	14	
 2274058	13	,	,	u--------	AuxX	7	
-2274058	14	γείνατ̓	γείνομαι	v3saim---	PRED_CO	2	
 2274058	15	ἄῤ	ἄρα	g--------	AuxY	14	
 2274058	20	.	.	u--------	AuxK	0	
 2274059	7	·	·	u--------	AuxK	0	
