@@ -110,7 +110,7 @@
 --- apparatus
 91	In L the first h. omitted μὴ: S added it.
 93	ἐχθαρεῖ] ἐχθρανῆι L, with γρ. ἐχθαρῇ from a later hand in marg.
-94	ἐχθρὰ] ἐχθρᾷ Emper, Donaldson. ἔχθρᾳ Kvičala.—δίκῃ] Δίκῃ Lehrs: κάσει Dindorf: κάτω L. Dindorf. πρὸς δίκης ἔσει Herwerden (Stud. crit. p. 9).
+94	ἐχθρὰ] ἐχθρᾷ Emper, Donaldson. ἔχθρᾳ Kvíčala.—δίκῃ] Δίκῃ Lehrs: κάσει Dindorf: κάτω L. Dindorf. πρὸς δίκης ἔσει Herwerden (Stud. crit. p. 9).
 96	οὐ] οὖν Elms. on Eur. Med. 804, M. Seyffert, Dindorf.
 --- notes
 90	the apparatus opens with the end of the note on 86 ("so Nauck, Wecklein: see comment."), written whole on p-0092.
@@ -118,6 +118,7 @@
 98	print has a comma after ἴσθʼ (the check text has none).
 93	apparatus: ἐχθρανῆι with the iota written on the line, as printed (L's spelling).
 94	rev: every verse and apparatus item (with the run-on on leaf 95) re-read, no change; full stop after δίκῃ is print.
+94	rev: apparatus Kvičala corrected to Kvíčala: the page (leaf 94, enlarged) prints í with the acute here (at 323 the same name is printed Kvičala); found by the comparison with the apparatus formerly on sale.
 
 === p-0096
 --- text

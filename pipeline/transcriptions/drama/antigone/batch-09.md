@@ -196,7 +196,7 @@
 --- apparatus
 597	ἐρείπει r, ἐρίπει L. Seyffert conject. ἐπείγει.
 599	νῦν γὰρ ἐσχάτας ὑπὲρ (ὕπερ L) | ῥίζας τέτατο φάος MSS.—Hermann proposed three different emendations: (1) ὑπὲρ | ῥίζας ὃ τέτατο, to which the schol. points. (2) ὑπὲρ ῥίζας ἐπέτατο, so that a new sentence begins with κατʼ αὖ. (3) ὅπερ | ῥίζας ἐτέτατο. This last he preferred.—Nauck would change ὑπέρ into θάλος (acc. governed by καταμᾷ). Keeping ὑπέρ, Theod. Kock and others would substitute θάλος for φάος.
-601	κατʼ] κᾶτʼ L, but a line has been drawn through the ⌢. The later MSS. have κᾶτʼ, κατʼ, κᾆτʼ (V⁴), κἄτʼ (L²), or κατά νιν. Gaisford, writing κᾆτʼ with Brunck and others, reads ὑπὲρ | ῥίζας ἐτέτατο (see last note).—καὶ ταύταν Semitelos.
+601	κατʼ] κᾶτʼ L, but a line has been drawn through the ⌢. The later MSS. have κᾶτʼ, κατʼ, κᾷτʼ (V⁴), κἄτʼ (L²), or κατά νιν. Gaisford, writing κᾷτʼ with Brunck and others, reads ὑπὲρ | ῥίζας ἐτέτατο (see last note).—καὶ ταύταν Semitelos.
 602	ἀμᾶι L, ἀμᾷ r.—κόνις MSS. The conjecture κοπὶς has been made by several scholars independently. Gaisford gives the priority, though doubtfully (‘ni fallor’), to John Jortin (ob. 1770). Heath ascribes it to Askew. Reiske also suggested it.
 604	τεάν] Triclinius conject. τὰν σάν: Wecklein, σὰν ἄν: Nauck, τίς σάν.—δύναμιν L, with ·σ· over μ from the first hand.
 605	ὑπερβασίᾳ r. Meineke conject. ὑπέρβασις (Pallis ὑπέρβιος) ἄν. Nauck, ἂν παρβασία.—κατάσχοι L, and so almost all the later MSS.: E seems to be alone in κατάσχῃ.
@@ -210,3 +210,4 @@
 604	Renumbered 605 → 604: Jebb's apparatus names τεάν 604 (the margin 605 stands beside this line because 605, ὑπερβασία, falls in it; his note 605 ὑπερβασίᾳ).
 601	Apparatus: "the ⌢" is printed as a bare circumflex sign; written ⌢.
 605	The note on 605 runs on to the head of p-0184's apparatus ("ject. ὑπέρβασις … alone in κατάσχῃ."): its end taken from there; p-0184 must not write it again.
+601	rev: apparatus κᾆτʼ (V⁴) and Gaisford's κᾆτʼ corrected to κᾷτʼ: the page prints the circumflex with an iota subscript and no breathing in both places (as κᾷτʼ in Jebb's commentary on 601); found by the comparison with the apparatus formerly on sale.

@@ -78,7 +78,7 @@
 425	εὐνῆς νεοσσῶν ὀρφανὸν βλέψῃ λέχος·
 426	οὕτω δὲ χαὔτη, ψιλὸν ὡς ὁρᾷ νέκυν,
 --- apparatus
-414	ἀφειδήσοι MSS.: ἀκηδήσοι Bonitz. Golisch proposed ἀφʼ εὐδήσοι (Jahr. Phil. p. 176, 1878), and so, by an independent conjecture, Semitelos reads (1887).
+414	ἀφειδήσοι MSS.: ἀκηδήσοι Bonitz. Golisch proposed ἀφʼ εὑδήσοι (Jahr. Phil. p. 176, 1878), and so, by an independent conjecture, Semitelos reads (1887).
 420	ἐν δʼ r: ἔνθʼ L.
 423	πικρᾶς] πικρῶς Bothe.
 424	In L two letters have been erased before κενῆσ, perh. ἐκ.
@@ -88,6 +88,7 @@
 418	page: comma after σκηπτόν; check text has none.
 424	page: ὡς (flag); check text ἐς.
 425	page: raised stop after λέχος; check text has a full stop.
+414	rev: apparatus Golisch's εὐδήσοι corrected to εὑδήσοι: at enlargement (leaf 152) the breathing has the rough form (as ἁμὲ in 734), as ἀφʼ before it requires; found by the comparison with the apparatus formerly on sale.
 
 === p-0154
 --- text

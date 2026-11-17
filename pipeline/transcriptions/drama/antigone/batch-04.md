@@ -166,7 +166,7 @@
 242	τὸ πρᾶγμα· δηλοῖς δʼ ὥς τι σημανῶν νέον.
 --- apparatus
 234	σοὶ κʼ εἰ L (the apostrophe after κ from a later hand). Erfurdt, κεἴ σοι: Hartung, σοὶ δʼ οὖν.—φράσω δʼ] φράσαι δʼ Wunder; φράσων (without δʼ) Wecklein.
-235	πεπραγμένοσ L, with schol. ὑπὸ γὰρ τῆς ἐλπίδος νενικημένος ἐλήλυθα. ἢ οὕτως· ἀντειλημμένος τῆς ἐλπίδος ἐλήλυθα. We have here two commentators: the first was attempting to explain πεπραγμένος: the second read δεδραγμένος, which is in E (with φαρ written above) and V³: while in Aug. b and V⁴ is the gl., γρ. δὲ καὶ δεδραγμένος. The rest of the later MSS. have either πεπραγμένος (as A, L²), or πεφραγμένος (as Aug. b, Vat., V⁴).—Dindorf wrote πεφαργμένος.—Semitelos conject. δεδραμένοις ('on account of my deeds').
+235	πεπραγμένοσ L, with schol. ὑπὸ γὰρ τῆς ἐλπίδος νενικημένος ἐλήλυθα. ἢ οὕτως· ἀντειλημμένος τῆς ἐλπίδος ἐλήλυθα. We have here two commentators: the first was attempting to explain πεπραγμένος: the second read δεδραγμένος, which is in E (with φαρ written above) and V³: while in Aug. b and V⁴ is the gl., γρ. δὲ καὶ δεδραγμένος. The rest of the later MSS. have either πεπραγμένος (as A, L²), or πεφραγμένος (as Aug. b, Vat., V⁴).—Dindorf wrote πεφαργμένος.—Semitelos conject. δεδραμένοις (‘on account of my deeds’).
 238	πρῶτα L: πάντα r.
 241	στοχάζει MSS.: Hartung conject. στιχάζει (others, στιχίζει): Emper, σκεπάζει: F. Jacobs, στεγάζει.—From Arist. Rhet. 3. 14. 11 Bergk and others adopt τί φροιμιάζει; Wecklein suggests εὖ φροιμιάζει.—κἀποφράγνυσαι MSS.: κἀποφάργνυσαι Dindorf.
 242	σημαίνων L: σημανῶν r. Didymus (circ. 30 B.C.) read the latter, as appears from the schol. on Ai. 1225 Δίδυμος· καὶ δῆλός ἐστιν ὥς τι σημανῶν νέον, a verse composed by a slip of memory, as Dindorf saw, from this verse and Ai. 326 καὶ δῆλός ἐστιν ὥς τι δρασείων κακόν.
@@ -177,3 +177,4 @@
 240	page: a reader's pencil gloss (πίπτω) in the margin is not print.
 234	apparatus: the page's apparatus begins with the end of the note on 231, written with it on p-0120.
 242	apparatus: the note runs on to the top of p-0124's apparatus ("σείων κακόν."): written whole here (δρα-|σείων joined); σημαίνων likewise divided ση-|μαίνων. p-0124 must not write that end again.
+235	rev: the English quotation ‘on account of my deeds’ opens with ‘ (it was typed as an apostrophe and came out as the elision mark ʼ); found by the comparison with the apparatus formerly on sale.

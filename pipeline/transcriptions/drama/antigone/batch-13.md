@@ -69,7 +69,7 @@
 851	οὔτʼ ἐν βροτοῖσιν οὔτʼ ἐν νεκροῖσιν | L. Triclinius changed βροτοῖσιν to βροτοῖς.—The antistr. v. is 870 κασίγνητε γάμων κυρήσας. Boeckh conject. βροτοῖς οὔτʼ ἐν νεκροῖς κυροῦσα (with κασίγνητος in 870): Seyffert, βροτοῖς οὔτε νεκροῖς κυροῦσα: and so Wecklein, but with ἰοῦσα. Emperius, οὔτʼ ἐν τοῖσιν ἔτʼ οὔτε τοῖσιν, which Heinrich Schmidt receives, adding γʼ after δύστανος. Gleditsch, ἰὼ δύσποτμος | βροτῶν, οὐδὲ νεκρὸς νεκροῖσιν. Cp. on 869 f.
 853	ἔσχατον] ἐσχάτου F. Kern, and so Bellermann.
 855	πολύν L: πολύ r. Dindorf (who, however, suspects a lacuna) conject. πάλιν: Schneidewin, ποδοῖν: Wolff, πόλει: Todt, πάθει: Seyffert, πολύς (as fem.): Bonitz, μόρῳ: Hartung, τάφῳ: Blaydes, μέγα. Wieseler points at τέκνον, joining πολύν with ἆθλον.
-856	πατρῷον . . τινʼ ἆθλον] Blaydes conj. πατρῴαν . . τινʼ ἄταν: Seyffert, πατρῷον . . γένεθλον.—ἐκτείνεισ L, ἐκτίνεις ϒ. Donaldson conj. ἐκτελεῖς: Pallis, ἐκπονεῖς.
+856	πατρῷον . . τινʼ ἆθλον] Blaydes conj. πατρῴαν . . τινʼ ἄταν: Seyffert, πατρῷον . . γένεθλον.—ἐκτείνεισ L, ἐκτίνεις Υ. Donaldson conj. ἐκτελεῖς: Pallis, ἐκπονεῖς.
 857	ἔψαυσας] Blaydes writes ἔμνασας.
 858	τριπόλιστον] Blaydes gives τριπόλητον: Hermann, τριπλοϊστὸν (‘triplicatum’): Reiske, τριπάλαιστον (with οἶτον): Bergk τρίπαλτον (with τε after πατρός).—οἶκτον L, and so the later MSS., though in L² (cod. Laur. 31. 10) the κ has been erased, and in V οἶτον is indicated as a variant. οἶκον in the lemma of L's schol. was doubtless a mere slip. Brunck gave οἶτον, which Dindorf and others adopt.
 --- notes
@@ -80,8 +80,9 @@
 850	Jebb's asterisk before βροτοῖς left out.
 854	ὑψηλὸν confirmed on this verse (the OCR lost it).
 849	the apparatus numbers 849 and 851 name verses that Jebb prints inside the verses 848 and 850.
-856	the siglum after ἐκτίνεις is printed as a hooked capital upsilon, written ϒ.
+856	the siglum after ἐκτίνεις is printed as a hooked capital upsilon (this type's Υ).
 858	this note runs on to the next spread: its end "οἶτον, which Dindorf and others adopt." is taken from the head of p-0226's apparatus.
+856	rev: the siglum written Υ (capital upsilon), not ϒ: the hooked form is simply this Greek type's capital upsilon, as in the speaker name ΦΥ(ΛΑΞ); found by the comparison with the apparatus formerly on sale.
 
 === p-0226
 --- text
@@ -131,7 +132,7 @@
 --- apparatus
 874	οὐδαμᾶι L.
 876	L divides the vv. thus: ἄκλαυτος— | ταλαίφρων— | τάνδʼ— | μοι—ὄμ|μα—ἐ|μὸν— | φίλων . . . στενάζει. For ταλαίφρων ἄγομαι τάνδʼ ἑτοίμαν ὁδόν Dindorf writes ἔρχομαι τὰν πυμάταν ὁδόν. (Reiske had conjectured τάνδε πυμάταν ὁδόν.) Heinrich Schmidt places ταλαίφρων after ἄγομαι.
-880	ταλαίναι L (not ταλαίνα). The final ι is from the first hand; but the word was first accented τάλαιναι, and then ταλαῖναι.
+880	ταλαίναι L (not ταλαίνα). The final ι is from the first hand; but the word was first accented τάλαιναι, and then ταλᾶιναι.
 884	χρεῖʼ ηι L: χρείη Dawes.—Blaydes conject. παύσειεν for παύσαιτʼ ἄν: but prints, by another conject., παύσαιτʼ ἄν, εἰ ʼξείη, ʼκχέων. Semitelos, προτοῦ λέγων | ὡς οὐδʼ ἂν εἷς παύσαιτʼ ἄν, εἰ χρείη θανεῖν.
 885	ἄξεσθʼ L, ἄξετʼ r.
 887	ἀφεῖτε μόνην L. Aldus (with A) has μόνην ἀφῆτʼ. Most of the later MSS. have ἀφεῖτε, ἄφειτε, or ἀφῆτε: but for ἄφετε Vat. is cited. Blaydes, with Brunck, reads ἄπιτε μόνην, a v. l. noted in A.—χρὴ L: Dindorf conject. χρῇ: Hermann, εἰ χρῄζει: Nauck λῇ.
@@ -144,6 +145,7 @@
 884	the apparatus note on 884 begins at the foot of the text page and runs on to the facing page.
 873	the reader's pencil strokes through 873-875 and 876-881 are not print.
 887	rev: apparatus 887: Hermann's εἰ χρῄζει with the iota subscript as printed (was χρήζει).
+880	rev: apparatus ταλαῖναι corrected to ταλᾶιναι: the page (leaf 228, enlarged) prints the circumflex over the α, before the ι (L's accentuation as Jebb reproduces it); found by the comparison with the apparatus formerly on sale.
 
 === p-0230
 --- text

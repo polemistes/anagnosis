@@ -146,8 +146,13 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2900135	37	·	·	u--------	AuxK	0	
 2900136	17	,	,	u--------	AuxX	21	
 2900136	22	,	,	u--------	AuxX	27	
+2900136	29	κορύθεσσιν	κόρυς	n-p---fd-	ADV_CO	26	
 2900136	30	.	.	u--------	AuxK	0	
 2900136	31	[0]			ADV	15	1
+2900137	1	ξύν	σύν	r--------	AuxP	2	
+2900137	2	θ̓	τε	g--------	COORD	6	
+2900137	3	ἱπποκόμοις	ἱππόκομος	a-p---fd-	ATR	4	
+2900137	4	κορύθεσσιν	κόρυς	n-p---fd-	ADV_CO	1	
 2900137	5	.	.	u--------	AuxK	0	
 2900137	6	[0]			PRED	0	1
 2900138	12	,	,	u--------	AuxX	13	
@@ -169,6 +174,7 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2900144	28	,	,	u--------	AuxX	31	
 2900144	35	.	.	u--------	AuxK	0	
 2900145	7	,	,	u--------	APOS	17	
+2900145	11	[ἄρχων]	ἄρχων	n-s---mn-	ATR	8	
 2900145	18	,	,	u--------	AuxX	3	
 2900145	23	,	,	u--------	AuxX	24	
 2900145	30	,	,	u--------	AuxX	33	
@@ -218,6 +224,7 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2900158	4	,	,	u--------	AuxX	7	
 2900158	8	,	,	u--------	AuxX	7	
 2900158	16	·	·	u--------	AuxK	0	
+2900159	6	πάρεστί	πάρειμι	v3spia---	PRED	0	
 2900159	14	.	.	u--------	AuxK	0	
 2900159	15	[0]			COORD	13	1
 2900160	8	.	.	u--------	AuxK	0	
@@ -292,6 +299,8 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2900197	15	.	.	u--------	AuxK	0	
 2900197	16	[0]			PRED_CO	7	1
 2900198	14	,	,	u--------	AuxX	18	
+2900198	24	μη	μηδέ	g--------	AuxZ	26	
+2900198	25	δ̓	δέ	g--------	COORD	19	
 2900198	27	.	.	u--------	AuxK	0	
 2900199	8	,	,	u--------	AuxX	3	
 2900199	12	,	,	u--------	AuxX	20	
@@ -849,6 +858,7 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2900442	18	.	.	u--------	AuxK	0	
 2900443	10	,	,	u--------	AuxX	8	
 2900443	18	.	.	u--------	AuxK	0	
+2900444	4	θυμῷ	θυμός	n-s---md-	OBJ	6	
 2900444	7	.	.	u--------	AuxK	0	
 2900445	9	,	,	u--------	AuxX	8	
 2900445	20	·	·	u--------	AuxK	0	
@@ -882,6 +892,7 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2900458	12	[0]			ADV	3	1
 2900459	9	.	.	u--------	AuxK	0	
 2900460	7	;	;	u--------	AuxK	0	
+2900461	2	γ̓	γε	g--------	AuxZ	1	
 2900461	9	.	.	u--------	AuxK	0	
 2900462	2	,	,	u--------	AuxX	3	
 2900462	5	,	,	u--------	AuxX	3	
@@ -1122,6 +1133,7 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2900561	10	.	.	u--------	AuxK	0	
 2900562	9	,	,	u--------	AuxX	11	
 2900562	14	.	.	u--------	AuxK	0	
+2900563	12	ἄξενος	ἄξενος	a-s---mn-	ATR	13	
 2900563	14	,	,	u--------	AuxX	20	
 2900563	32	,	,	u--------	AuxX	36	
 2900563	39	.	.	u--------	AuxK	0	
@@ -1177,6 +1189,9 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2900589	8	·	·	u--------	AuxK	0	
 2900590	4	,	,	u--------	AuxX	3	
 2900590	13	,	,	u--------	AuxX	20	
+2900590	18	ἀκῆται	ἀκέομαι	v3spse---	ATR_CO	20	
+2900590	19	μη	μηδέ	g--------	AuxZ	22	
+2900590	20	δ̓	δέ	g--------	COORD	5	
 2900590	23	.	.	u--------	AuxK	0	
 2900591	5	.	.	u--------	AuxK	0	
 2900592	9	·	·	u--------	AuxK	0	
@@ -1312,6 +1327,7 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2900649	15	,	,	u--------	AuxX	17	
 2900649	19	,	,	u--------	UNDEFINED	0	
 2900649	24	,	,	u--------	APOS	40	
+2900649	34	ῥείθρων	ῥεῖθρον	n-p---ng-	ADV_CO	31	
 2900649	40	[0]			PRED	0	1
 2900650	9	,	,	u--------	AuxX	10	
 2900650	15	,	,	u--------	AuxX	17	
@@ -1427,6 +1443,7 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2900701	24	.	.	u--------	AuxK	0	
 2900702	10	.	.	u--------	AuxK	0	
 2900703	6	,	,	u--------	AuxX	10	
+2900703	12	εἰν	ἐν	r--------	AuxP	10	
 2900703	15	,	,	u--------	AuxX	16	
 2900703	26	.	.	u--------	AuxK	0	
 2900703	27	[0]			APOS	16	1
@@ -1489,6 +1506,8 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2900727	6	.	.	u--------	AuxK	0	
 2900728	3	,	,	u--------	AuxX	4	
 2900728	5	;	;	u--------	AuxK	0	
+2900729	1	τίν̓	τίς	p-s---ma-	ATR	15	
+2900729	2	αὖ	αὖ	d--------	AuxX	1	
 2900729	6	,	,	u--------	AuxX	8	
 2900729	9	,	,	u--------	AuxX	8	
 2900729	16	;	;	u--------	AuxK	0	
@@ -1528,6 +1547,7 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2900744	11	,	,	u--------	AuxX	12	
 2900744	14	.	.	u--------	AuxK	0	
 2900745	3	,	,	u--------	AuxX	2	
+2900745	6	ὅτι	ὅτι	d--------	AuxZ	7	
 2900745	8	,	,	u--------	COORD	0	
 2900745	12	,	,	u--------	APOS	9	
 2900745	19	.	.	u--------	AuxK	0	
@@ -1543,8 +1563,10 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2900749	9	.	.	u--------	AuxK	0	
 2900750	3	.	.	u--------	AuxK	0	
 2900750	4	[0]			PRED	0	1
+2900751	5	μέλειν	μέλω	v--pna---	SBJ	4	
 2900751	7	.	.	u--------	AuxK	0	
 2900753	4	,	,	u--------	AuxX	3	
+2900753	5	τοιαῦτα	τοιοῦτος	a-p---na-	OBJ	6	
 2900753	7	.	.	u--------	AuxK	0	
 2900754	5	·	·	u--------	AuxK	0	
 2900755	8	.	.	u--------	AuxK	0	
@@ -1554,6 +1576,8 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2900756	11	,	,	u--------	AuxX	10	
 2900756	21	,	,	u--------	AuxX	23	
 2900756	24	,	,	u--------	AuxX	23	
+2900756	28	ὅπᾳ	ὅπη	d--------	ADV	31	
+2900756	30	πότερα	πότερος	a-p---na-	OBJ	29	
 2900756	32	·	·	u--------	AuxK	0	
 2900757	6	,	,	u--------	AuxX	8	
 2900757	15	.	.	u--------	AuxK	0	
