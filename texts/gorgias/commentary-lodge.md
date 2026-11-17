@@ -2046,7 +2046,7 @@ sum deorsum, with μεταστρέφειν, στρέφειν [(511 a](#511a1)), 
 **τὸ ἴσον**: Callicles is thinking of the fundamental principle of democratic states, the ἰσονομία and ἰσότης of all.
 
 ## 483d1
-**αυ<*>τό**: draws especial attention to the following clause, which it introduces. By its proximity to αὐτή this emphasis is still more increased.
+**αὐτό**: draws especial attention to the following clause, which it introduces. By its proximity to αὐτή this emphasis is still more increased.
 
 **ἀμείνω**: is here probably used purposely instead of κρείττω, as Callicles had in mind also the mental superiority of the rhetorically educated over the great multitude. Hence, too, δυνατώτερον.
 
@@ -3859,10 +3859,10 @@ ous results of the principle defended by Callicles, which was sure to introduce 
 **οὕστινας ωφέληκε** κτἑ.: reminds us of Matt. xviii. 6, where of those who offend it is said: συμφέρει αὐτῷ ἵνα... καταποντισθῇ ἐν τῷ πελάγει τῆς θαλάσσης.
 
 ## 512a1
-**ἢ οἳ α<*>νέβησαν**: it is a Greek peculiarity to compare different states by employing the gen. of the reflexive. Here a clause takes its place.
+**ἢ οἳ ἀνέβησαν**: it is a Greek peculiarity to compare different states by employing the gen. of the reflexive. Here a clause takes its place.
 
 ## 512a2
-**λογίζεται ὅτι οὐκ**: the force of the neg. extends over the whole sentence, which is developed antithet ically. Since both leading clauses are hypothetical, we have a double employment of μέν and δέ. The first member of the antithesis is given first only for the sake of the contrast; we should use a subordinate clause in English, and lay the most stress on the second member, and, too, on its conclusion. *Cf. Apol.* 28 e ἐγὼ οὖν δεινὰ ἂν εἴην εἰργασμένος, εἰ ὅτε μέν με οἱ ἄρχοντες ἔταττον, οὓς ὑμεῖς εἵλεσθε ἄρχειν μου, τότε μὲν οὗ ἐκεῖνοι ἔταττον ἔμενον—τοῦ δὲ θεοῦ τάττοντος, ὡς ἐγὼ ᾠήθην τε καὶ ὑπέλαβον, φιλοσοφοῦντά με δεῖν ζῆν—ἐντ<*>ῦθα δὲ φοβηθεὶς ἢ θάνατον ἢ ἄλλο ὁτιοῦν πρᾶγμα λίποιμι τὴν τάξιν. See on [502 b](#502b1) and [499 d](#499d1).
+**λογίζεται ὅτι οὐκ**: the force of the neg. extends over the whole sentence, which is developed antithet ically. Since both leading clauses are hypothetical, we have a double employment of μέν and δέ. The first member of the antithesis is given first only for the sake of the contrast; we should use a subordinate clause in English, and lay the most stress on the second member, and, too, on its conclusion. *Cf. Apol.* 28 e ἐγὼ οὖν δεινὰ ἂν εἴην εἰργασμένος, εἰ ὅτε μέν με οἱ ἄρχοντες ἔταττον, οὓς ὑμεῖς εἵλεσθε ἄρχειν μου, τότε μὲν οὗ ἐκεῖνοι ἔταττον ἔμενον—τοῦ δὲ θεοῦ τάττοντος, ὡς ἐγὼ ᾠήθην τε καὶ ὑπέλαβον, φιλοσοφοῦντά με δεῖν ζῆν—ἐνταῦθα δὲ φοβηθεὶς ἢ θάνατον ἢ ἄλλο ὁτιοῦν πρᾶγμα λίποιμι τὴν τάξιν. See on [502 b](#502b1) and [499 d](#499d1).
 
 ## 512a4
 **ἄθλιος ὅτι οὐκ ἀπέθανεν**: some such idea as this frequently occurs in Plato; for example, in the *Republic* and *Laws. Cf. Crito* 47 d, e ἐὰν διολέσωμεν (sc. τὸ σῶμα) ἆρα βιωτὸν ἡμῖν ἐστι διεφθαρμένου αὐτοῦ; Οὐδαμῶς. Socrates makes there a similar estimate of the relationship of soul to body.
@@ -4206,7 +4206,7 @@ must be supplied the participial clause of the preceding sentence. From this als
 **οὔτε τῃ κολακικῃ**: sc. with which they might have saved themselves, according to Callicles' view [(511 c](#511c1), [486 b](#486b1)), but which Pericles despised.
 
 ## 517a7-517a8
-**<*>λλὰ μέντοι... μή ποτε**: “But yet, the men of the present day are at least far from being able to,” *etc.*
+**ἀλλὰ μέντοι... μή ποτε**: “But yet, the men of the present day are at least far from being able to,” *etc.*
 
 ## 517b1
 **ὃς** (ὅστις)
@@ -4254,7 +4254,7 @@ must be supplied the participial clause of the preceding sentence. From this als
 ## 517e2
 **σκυτοδεψόν**: is unusual for βυρ- σοδέψης (*tanner*).
 
-**ὄντα τοιοῦτον**: includes under one expression all the divisions and subdivisions of the πορ<*>στικὸν εἶναι, but owing to the introduction of θαυμαστόν ἐστιν the construction is changed and the partic. takes the place of the inf. What Socrates wishes to explain is that one who attends to the needs of the body, even though he may understand nothing of either gymnastics or medicine, may very easily himself become possessed of the idea that he is the genuine conserver of the body, as well as inspire the same belief in others.
+**ὄντα τοιοῦτον**: includes under one expression all the divisions and subdivisions of the ποριστικὸν εἶναι, but owing to the introduction of θαυμαστόν ἐστιν the construction is changed and the partic. takes the place of the inf. What Socrates wishes to explain is that one who attends to the needs of the body, even though he may understand nothing of either gymnastics or medicine, may very easily himself become possessed of the idea that he is the genuine conserver of the body, as well as inspire the same belief in others.
 
 ## 517e3-517e4
 **παντὶ τῷ μὴ εἰδότι**: added as a restrictive explanation to the preceding τοῖς ἄλλοις, which is far too general a statement for Socrates.
@@ -4269,7 +4269,7 @@ must be supplied the participial clause of the preceding sentence. From this als
 **τὰς ἄλλας τέχνας**: “arts ordinarily designated as such.”
 
 ## 518b5
-**Θεαρίων**: and the followingnamed persons are sometimes mentioned by later authors, Μίθαικος for example, among those whom Athenaeus xii. 12 cites as authors of works on cookery (τὰ ὀψαρτυτικά). The title of his work can be surmised from this passage. That the art of cookery, especially in rich and proud Syracuse, was early developed, Plato testifies in *Rep.* iii. 404 d Συρακοσίαν τράπεζαν καὶ Σικελικὴν ποικιλίαν <*>ʼ ́ψου. Cf. Hor. *Od.* iii. I. 18 Siculae dapes. The ἀρτοκόπος is at the same time a cake-baker. The ἄρτος made from wheat meal was a festival dainty, as is to be judged from Athenaeus iv. 14 Σόλων δὲ τοῖς ἐν πρυτανείῳ σιτουμένοις μᾶζαν παρέχειν κελεύει, ἄρτον δὲ ταῖς ἑορταῖς προσπαρατιθέναι. Sarambus probably had a wine-shop.
+**Θεαρίων**: and the followingnamed persons are sometimes mentioned by later authors, Μίθαικος for example, among those whom Athenaeus xii. 12 cites as authors of works on cookery (τὰ ὀψαρτυτικά). The title of his work can be surmised from this passage. That the art of cookery, especially in rich and proud Syracuse, was early developed, Plato testifies in *Rep.* iii. 404 d Συρακοσίαν τράπεζαν καὶ Σικελικὴν ποικιλίαν ὄψου. Cf. Hor. *Od.* iii. I. 18 Siculae dapes. The ἀρτοκόπος is at the same time a cake-baker. The ἄρτος made from wheat meal was a festival dainty, as is to be judged from Athenaeus iv. 14 Σόλων δὲ τοῖς ἐν πρυτανείῳ σιτουμένοις μᾶζαν παρέχειν κελεύει, ἄρτον δὲ ταῖς ἑορταῖς προσπαρατιθέναι. Sarambus probably had a wine-shop.
 
 ## 518c1
 **ἴσως ἂν οὖν ἠγανάκτεις**: as Callicles really did when Socrates proved to him that he understood nothing at all of statecraft.
@@ -4574,7 +4574,7 @@ tition in a changed form of the idea already expressed serves to heighten the co
 ginning, in order to stimulate interest. Similarly *Tim.* 20 d ἄκουε δὴ, ὦ Σώκρατες, λόγου μάλα μὲν ἀτόπου, παντάπασί γε μὴν ἀληθοῦς, *Theaet.* 201 d ἄκουε δὴ ὄναρ ἀντὶ ὀνείρατος. The gen. with ἀκούω gives the λόγος almost the authority of a person. See G. 171, 2, N. 1; H. 742 c. The distinction between λόγος and μῦθος, which are often contrasted, is that λόγος is said of the true and the actual; μῦθος, of the fictitious. By this distinction Socrates wishes to call attention to the fact that a truth lies at the basis of the following myth, while the dress of it is a matter of indifference,—not that he actually believes the story as it stands. In this light we must also consider his statement ὡς ἀληθῆ κτἑ., looking to his explanation in *Phaedo* 114 d τὸ μὲν οὖν ταῦτα διισχυρίσασθαι οὕτως ἔχειν ὡς ἐγὼ διελήλυθα, οὐ πρέπει νοῦν ἔχοντι ἀνδρί, ὅτι μέντοι ἢ ταῦτʼ ἐστὶν ἢ τοιαῦτʼ ἄττα περὶ τὰς ψυχὰς ἡμῶν καὶ τὰς οἰκήσεις, ἐπεί περ ἀθάνατόν γε ἡ ψυχὴ φαίνεται οὖσα, τοῦτο καὶ πρέπειν μοι δοκεῖ καὶ ἄξιον κινδυνεῦσαι οἰομένῳ οὕτως ἔχειν. See Thompson's note.
 
 ## 523a3
-**ὥσπερ Ὅμηρος λέγει**: Socrates refers to O 187 ff., where Poseidon says:— τρεῖς γάρ τʼ ἐκ Κρόνου εἰμὲν ἀδελφεοὶ οὓς τέκετο *ʽπέα, Ζεὺς καὶ ἐγώ, τρίτατος δʼ Ἀίδης ἐνέροισιν ἀνάσσων. τριχθὰ δὲ πάντα δέδασται, ἕκαστος δʼ ἔμμορε τιμῆς· ἦ τοι ἐγὼν ἔλαχον πολιὴν ἅλα ναιέμεν αἰεί παλλομένων, Ἀίδης δʼ ἔλαχε ζόφον ἠερόεντα, Ζεὺς δʼ ἔλαχʼ οὐρανὸν εὐρὺν ἐν αἰθέρι καὶ νεφέλῃσιν γαῖα δʼ ἔτι ξυνὴ πάντων καὶ μακρὸς Ὄλυμπος. Socrates commences with this passage so as to be able to assume therefrom an empire of the dead, or the existence of the soul after death, as an admitted fact which requires no proof.
+**ὥσπερ Ὅμηρος λέγει**: Socrates refers to O 187 ff., where Poseidon says:— τρεῖς γάρ τʼ ἐκ Κρόνου εἰμὲν ἀδελφεοὶ οὓς τέκετο Ῥέα, Ζεὺς καὶ ἐγώ, τρίτατος δʼ Ἀίδης ἐνέροισιν ἀνάσσων. τριχθὰ δὲ πάντα δέδασται, ἕκαστος δʼ ἔμμορε τιμῆς· ἦ τοι ἐγὼν ἔλαχον πολιὴν ἅλα ναιέμεν αἰεί παλλομένων, Ἀίδης δʼ ἔλαχε ζόφον ἠερόεντα, Ζεὺς δʼ ἔλαχʼ οὐρανὸν εὐρὺν ἐν αἰθέρι καὶ νεφέλῃσιν γαῖα δʼ ἔτι ξυνὴ πάντων καὶ μακρὸς Ὄλυμπος. Socrates commences with this passage so as to be able to assume therefrom an empire of the dead, or the existence of the soul after death, as an admitted fact which requires no proof.
 
 ## 523a5
 **παρὰ τοῦ πατρὸς παρέλαβον**: by making thus the sway over the world a matter of inheritance simply, Socrates avoids the common story of hostile relations between Cronus and his sons.

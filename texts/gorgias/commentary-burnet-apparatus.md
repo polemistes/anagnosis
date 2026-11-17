@@ -1212,7 +1212,7 @@ post κακῷ add. ἢ ἀμφοτέροις Hirschig
 πάσχον B T P F: πάσχειν Stobaeus
 
 ## 476b7
-τὸ τοιόνδε B T P: τόδε τοι**** F: τοιόνδε Stobaeus
+τὸ τοιόνδε B T P: τόδε τοι\*\*\*\* F: τοιόνδε Stobaeus
 
 ## 476c7
 τι T P: τί B F: τις Stobaeus
@@ -1792,7 +1792,7 @@ ante τὸ ἀδικεῖσθαι lacunam statuit Stephanus
 
 ὅστις ἀγνοοίη Alexander
 
-οὐ τοῦτο P F Alexander: οὐ τοῦτο ** (sed τοῦ ex emend.) T: ουτω B
+οὐ τοῦτο P F Alexander: οὐ τοῦτο \*\* (sed τοῦ ex emend.) T: ουτω B
 
 ## 492a2
 ἡ] ἐν P
@@ -2896,7 +2896,7 @@ post θεραπεύομεν lacunam indicat Schanz
 ἅπαντας F
 
 ## 516b2
-ἢ P F: ἢ* T: ᾗ B
+ἢ P F: ἢ\* T: ᾗ B
 
 ## 516b8
 ἐπεμέλετο B T P: ἐπεμελεῖτο F
@@ -2983,7 +2983,7 @@ post θεραπεύομεν lacunam indicat Schanz
 ἀκούω B T P: οὐκ ἀκούω F
 
 ## 519b3-519b4
-πέρι. αἰσθάνομαι b t: περιαισθάνομαι B T P: **** ὑπεραισθάνομαι F (πέρι in lac. suppl. et ὕπερ punctis del. f)
+πέρι. αἰσθάνομαι b t: περιαισθάνομαι B T P: \*\*\*\* ὑπεραισθάνομαι F (πέρι in lac. suppl. et ὕπερ punctis del. f)
 
 ## 519c1
 αὐτῆς B T P: αὐτῆς ταύτης F

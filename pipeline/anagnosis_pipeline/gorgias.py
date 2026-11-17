@@ -294,6 +294,21 @@ def _locate_fuzzy(lemma: str, words: list[tuple[str, str]], hint: int) -> tuple[
     return words[i][1], words[min(end, len(words) - 1)][1], i
 
 
+# Perseus's file of Lodge where it is not what the page prints: (the text as imported, the page's).
+# Its "<*>" (imported as "[?]") marks what its keyers could not read; each was read on the scan
+# gorgiasss00platuoft (its OCR text, and the page itself for the lemma at 512 a, which Lodge's
+# note prints ἀνέβησαν though his text has ἐνέβησαν). "*ʽπέα" is a mis-keyed Ῥέα (Iliad 15. 187).
+LODGE_FIXES: list[tuple[str, str]] = [
+    ("**αυ[?]τό**", "**αὐτό**"),                         # 483 d, note XXXIX. 4
+    ("**ἢ οἳ α[?]νέβησαν**", "**ἢ οἳ ἀνέβησαν**"),       # 512 a, note 23
+    ("ἐντ[?]ῦθα δὲ φοβηθεὶς", "ἐνταῦθα δὲ φοβηθεὶς"),    # 512 a, the Apology quoted (28 e)
+    ("**[?]λλὰ μέντοι", "**ἀλλὰ μέντοι"),                # 517 a, note LXXIII. 1
+    ("πορ[?]στικὸν εἶναι", "ποριστικὸν εἶναι"),          # 517 e
+    ("ποικιλίαν [?]ʼ ́ψου", "ποικιλίαν ὄψου"),            # 518 b, Republic 404 d quoted
+    ("τέκετο *ʽπέα", "τέκετο Ῥέα"),                      # 523 a
+]
+
+
 def import_lodge(source: Path, lines: list[tuple[str, str]], out: Path) -> tuple[int, int]:
     """Lodge's commentary, each note under the line its lemma is on (the first line of its section
     where the lemma is not found). Returns (notes, notes not located)."""
@@ -370,5 +385,7 @@ def import_lodge(source: Path, lines: list[tuple[str, str]], out: Path) -> tuple
         md_out.append(f"## {heading}")
         md_out.append("\n\n".join(body_))
         md_out.append("")
-    out.write_text("\n".join(md_out) + "\n", encoding="utf-8")
+    from .commentary import apply_fixes
+
+    out.write_text(apply_fixes("\n".join(md_out) + "\n", LODGE_FIXES, out.name), encoding="utf-8")
     return len(merged), lost

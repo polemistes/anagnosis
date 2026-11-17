@@ -193,7 +193,9 @@ def merge(transcriptions: Path, pages_dir: Path, texts: Path, sources: Path, lex
     md = [f"# {k}: {v}" for k, v in APPARATUS_META.items()] + [""]
     for heading, items in notes:
         md.append(f"## {heading}")
-        md.append("\n\n".join(items))
+        # every asterisk of the apparatus is Burnet's sign for an erased letter and is printed:
+        # it is written \* so that two in one item cannot become italics (build.md_to_html)
+        md.append("\n\n".join(items).replace("*", "\\*"))
         md.append("")
     (out / "commentary-burnet-apparatus.md").write_text("\n".join(md) + "\n", encoding="utf-8")
     print(f"wrote {out / 'commentary-burnet-apparatus.md'}: {len(notes)} notes, {sum(len(i) for _, i in notes)} items")
