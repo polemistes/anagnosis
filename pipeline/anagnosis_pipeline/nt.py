@@ -492,8 +492,10 @@ def import_nt(sources: Path, texts: Path, build: Path, slug: str = "newtestament
             dictionary += [f"## {lemma}", f"**{lemma}** {HAND_GLOSSES[lemma]}", ""]
     (out / "dictionary-dodson.md").write_text("\n".join(dictionary), encoding="utf-8")
     (out / "glossary.md").unlink(missing_ok=True)
-    # a short definition for every lemma: Logeion's, else Dodson's; for a lemma LSJ lacks
-    # (mostly names) always Dodson's, since Logeion might only match it loosely (Ἠλίας, ἡλιάς)
+    # short definitions: Logeion's, else the brief gloss of Dodson's own entry, unchanged; for a
+    # lemma LSJ lacks (mostly names) always Dodson's, since Logeion might only match it loosely
+    # (Ἠλίας, ἡλιάς). A lemma that neither has gets none: no definition is written by us
+    # (texts/README.md, shortdefs.tsv), so HAND_GLOSSES gives no short definition
     exact, loose = load_logeion_shortdefs(sources)
     shortdefs = ["# Short definitions from Dodson's lexicon where Logeion has none, or the word is not in LSJ (made by 'import-nt'). lemma\tdefinition"]
     missing_set = set(missing)
@@ -503,17 +505,16 @@ def import_nt(sources: Path, texts: Path, build: Path, slug: str = "newtestament
         if lemma in aliases and resolve_short_definition(aliases[lemma], exact, loose) is not None:
             continue
         d = dodson_of(lemma)
-        gloss = d["brief"] if d is not None else HAND_GLOSSES.get(lemma)
-        if gloss:
-            shortdefs.append(f"{lemma}\t{gloss}")
+        if d is not None and d["brief"]:
+            shortdefs.append(f"{lemma}\t{d['brief']}")
         else:
             no_entry.append(lemma)
     (out / "shortdefs.tsv").write_text("\n".join(shortdefs) + "\n", encoding="utf-8")
     print(f"lemmas: {len(counts)}; {len(aliases)} found under another headword (aliases.tsv), "
           f"{len(missing)} not in LSJ or Middle Liddell ({sum(counts[l] for l in missing)} words), "
           f"{len(dictionary) // 3} entries of Dodson (dictionary-dodson.md), "
-          f"{len(shortdefs) - 1} short definitions from Dodson (shortdefs.tsv), {len(no_entry)} with nothing: {no_entry[:20]}")
-    problems += [f"no definition for {l}" for l in no_entry]
+          f"{len(shortdefs) - 1} short definitions from Dodson (shortdefs.tsv), "
+          f"{len(no_entry)} without a short definition (neither Logeion nor Dodson has the lemma): {no_entry[:20]}")
 
     # --- the apparatus and its sigla
     notes = read_apparatus(sources)
