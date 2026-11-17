@@ -165,6 +165,22 @@ text or a reference work. Stated in `texts/README.md`, "Short definitions". Log:
   no entry (π͂ας, οβριμοπάτρη, παρήμαι, ἀλεόμαι, εὐρυσθενης, ἀμετρητος, οἶκόνδε, ἀγυιά, πυέλος,
   σιάλος: fix the lemma in `odyssey.py`); in Lysias the lemmas δὲ, καὶ, μὴ with a grave.
 
+## Fifth round, 2026-11-17: what the check in the app found
+
+* **One short definition for two words.** `short_definitions` was keyed by the lower-case key, so
+  a text with Πῶλος and πῶλος (Gorgias), Ἔρως and ἔρως (Antigone, Symposium), Λύπη and λύπη (the
+  Shepherd) had one row for both: Polus showed "a foal", ἔρως nothing. Now a capitalised lemma
+  has its row under its own spelling (meta `short_definitions_by_spelling`; 43a01cf), and the
+  reader looks it up so (the app change is in hand). A lemma written small whose words are all
+  printed with a capital takes the name's entry first (the tagger's πῶλος for Polus; τηλέμαχος).
+* Quoted verses in documents ran together (the converter joins a paragraph's lines): a backslash
+  at a line's end is now a line break; set in the Antigone's appendix (four quotations).
+* Section headings: "Exodos (continued)" inside the Antigone's closing anapests; "X (continued)"
+  directly after "X" and a second "Kommos" in the Ajax: given to the plays' agent.
+* Reader: pages cut a pixel wider than the text is drawn (e48d6c9); a gap where a word has no
+  short definition (9c4ae60).
+* Open: the loose dictionary search from a name to a common word (QUESTIONS.md 11, being changed).
+
 ## What `check` still says of the texts on sale and the free texts (2026-11-17)
 
 * Lemmas without a short definition (counted, no fault): Antigone 38, Ajax 39, Electra 27, the
