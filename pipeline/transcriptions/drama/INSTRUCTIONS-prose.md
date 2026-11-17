@@ -478,6 +478,43 @@ wants `## N` or `## N-M` headings, rising numbers, each in `texts/philoctetes/gr
 numbers a verse our text lacks, which happens in the lyrics, keep his number and say under notes
 "## 1100: Jebb's number; our text has no 1100"), every flag answered, `+ ` only at a page's start.
 
+### The Antigone's commentary (Part III, second edition 1891)
+
+The **Antigone**'s commentary is read the same way (batches
+`pipeline/transcriptions/drama/antigone/notes-NN.md`, crops in `pipeline/build/drama-prose/antigone/`,
+scan `sophocles03soph`, leaves 76-307; check with `check-drama-prose antigone …`). Everything in the
+Philoctetes section above holds, with these additions. Perseus's digital text of this commentary
+exists, but it is **not** Jebb's page (authors and titles added or respelt, words dropped): never
+use it, and do not open `texts/antigone/`; the page is the only authority.
+
+* **Headings and "f."/"ff."**: `## 27` for "27 f.", `## 4` for "4 ff." (the merge puts his f./ff.
+  back from the scan); a range "100—161" is `## 100-161`. Where his number is one our text lacks
+  (his longer lyric lines: 122, 335, 343 …), keep his number; the merge files the note.
+* **Citations exactly as printed, nothing supplied, nothing dropped.** Where he writes "(*Th.* 218"
+  write that, not "Aesch. *Th.* 218"; "Plat. *Rep.* 370 D, 389 D, *Soph.* 253 A" stays one author
+  for three places; "so above, 904" stays without author or title; "Ar. *Av.* 168" is not
+  "Aristoph."; "*P. V.*" not "PV"; "*O. T.* 303", "*O. C.* 1241" with the space. A bare number
+  ("cp. 210", "as in 203") is a verse of this play.
+* **Italics**: titles (*Il.*, *Aen.*, *Carm.*, *Mor.*), the plays (*Ai.*, *El.*, *Tr.*, *Ph.*, *O. T.*),
+  and **Latin**: *ib.*, *sc.*, *i.e.*, *e.g.*, *ap.*, *s.v.*, *v.l.*, *circ.*, *c.*, single Latin
+  words (*tyrannus*) and Latin quotations ("Horace's *tam cari capitis*", "*nomen coniugis, nati,
+  patris*") as he prints them. **Not** in italics: cp., viz., n., schol., usu., MSS. Read the
+  italics off the image, not from a rule: "466 **ἄλγος**, nom., *sc.* ἐστί".
+* **"="** stands closed up between Greek words as printed ("**ἐκκεκηρῦχθαι** = προκεκηρῦχθαι");
+  the OCR reads it "--" or "—": restore it.
+* **Metrical schemes** (in the notes on the lyrics and some quoted verses) in the signs he prints:
+  – ⏑ ⏒ ⏓ × ‖, the ictus as an accent on the sign (–́), as in the apparatus batches.
+* **Footnotes** (a small ¹ in the note, the text at the foot of the column): `[Note: ¹ …]` after
+  the paragraph where the mark stands; a footnote that runs to the next page goes whole with its
+  mark's paragraph.
+* **A note that runs from one opening to the next** (right-hand page of leaf 101 to left-hand page
+  of leaf 102): the next page's block begins `+ `, even across the spread.
+* **Pencil**: this copy (Boston College) has a reader's pencil underlining and marginal ticks,
+  grey and hand-drawn: not print, never transcribed; a word under a pencil stroke is read through
+  it. Faint ink marks in the margin likewise.
+* Bold old-style figures: "1" is often read as I or l, "0" as o; "27 f." as "27 ξ." (the Greek
+  model): take every heading from the image.
+
 ## Earle's Medea: the commentary and the introduction
 
 M. L. Earle, *The Medea of Euripides*, New York, American Book Company, 1904 (scan
