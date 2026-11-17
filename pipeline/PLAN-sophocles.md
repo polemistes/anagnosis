@@ -81,6 +81,23 @@ The metrical analyses are not transcribed (as for Ajax and Electra).
 
 ## Progress
 
+* **2026-11-17, THE ANTIGONE'S TEXT IS RE-ESTABLISHED FROM JEBB'S PAGE (the author: faults in texts on
+  sale come first).** Its Greek, from Perseus's soph.ant_gk.xml, differs from Jebb's printed page in
+  about one verse in three (words, accents, punctuation; log build/logs/sophocles-on-sale-fixes.md).
+  Set up for the drama route (f76a0d2, d3cd402): scan sophocles03soph (2nd ed. 1891, jp2), entries in
+  drama.py and sophocles.py (Jebb's divisions as `parts`), the published text as the check text
+  (transcriptions/sophocles/antigone/reference-grc.txt), the published apparatus kept aside for a later
+  comparison (previous-apparatus.md). Draft: 116 pages, 1,257 verses, only 203 flagged, because the
+  flag rules trust a check text of the same edition; a pilot of batch-01 by hand (pp. 9-18, vv. 1-55)
+  found 3 word/accent and 6 punctuation errors the draft did not flag (42 εἶ, 44 ἦ, 45 ἐμόν; commas at
+  11, 24, 25, 45, 49), all in the residual lists made from the draft (`drama-residuals antigone`: 753
+  items, ocr-only 266, punctuation 262, accent 167, word 54). So the first pass reads EVERY verse and the
+  residual list of each page (INSTRUCTIONS-text.md, "Jebb's Antigone"). 20 batches (six pages each).
+  Then review (the five-point extra text), merge-drama, and sophocles-prose for the commentary (its 41
+  unread places and two Ῥ words are already in COMMENTARY_FIXES["antigone"]), the translation, sections,
+  syntax record afresh (`syntax-text antigone`), glossary, build. Ajax and Electra: their words agree
+  with Jebb's page at every place checked; their lyric numbering runs behind Jebb's margins in places.
+
 * **2026-11-15, Trachiniae.** Before the author's word on the route, eight by-eye batches of
   the old kind were started (transcriptions/sophocles/trachiniae/batch-01…08, pages 80–143,
   Opus). They are let finish and kept **only as an audit**: once the drama route has merged the

@@ -236,6 +236,29 @@ translation and the rule (crops `-app2-l.png`, `-app2-r.png`): write it with the
   … r = one or more of the later MSS. … MSS., after a reading, means …"): it is not an item.
   Copy it under `--- notes` in one line beginning `Sigla:`.
 
+**Jebb's Antigone (Part III, second edition 1891; scan sophocles03soph).** Everything above for
+Jebb's Sophocles holds, with these differences:
+* **The check text is NOT Jebb's.** It is the text we published, from Perseus's file, which proved to
+  differ from this page in about one verse in three: words (195 δόρει for δορί, 198 Πολυνείκη for
+  Πολυνείκην, 213 που πάρεστί for πού γʼ ἔνεστί, 424 ἐς for ὡς, 803 δάκρυ for δακρύων, 1136 πᾶσαι for
+  πασᾶν), accents (42 εἰ for εἶ, 44 ἢ for ἦ, 45 ἐμὸν for ἐμόν) and above all punctuation (commas and
+  colons lost or added: 11, 24, 25, 45, 49, 191 …). The draft flags only some of this, because its
+  rules trust a check text of the same edition. So **read every verse of your pages word by word and
+  sign by sign against the page** (letters, accents, breathings, iota subscripts, every comma, colon,
+  raised stop, question mark and full stop, brackets, daggers), not only the flagged ones, and correct
+  the batch to what Jebb prints. A list of what the OCR and the draft disagree on is ready for each page,
+  `build/drama-pages/antigone/residuals/r-NNNN.md` (with an image of each line): go through it as well;
+  it is a help (much of it is OCR noise), not a substitute for reading the verses.
+* **Numbering by Jebb's margins and his notes**, not by the draft: the draft numbered by the check text,
+  whose numbers follow the treebank and run a verse apart from Jebb's in some lyrics (591-593, 799-800
+  were seen). Jebb prints a number at odd places too (593, 799 …); where his margin or his apparatus
+  names a number, that number stands, and the verses between are counted from it.
+* The scan is a library copy with a reader's pencil and ink: underlining, upright strokes inside the
+  verses, words in the margins (stage notes). None of it is print: ignore it, and be careful where a
+  stroke falls on a letter or a stop.
+* The first text page (p-0076) holds Jebb's note on his symbols at the head of the apparatus ("L = cod.
+  Laur. 32. 9 …"): `Sigla:` under `--- notes`, as above.
+
 **Murray's Euripides (Oxford text).** G. Murray, Euripidis Fabulae, Oxford (vol. I 1902:
 Cyclops, Alcestis, Medea, Heraclidae, Hippolytus, Andromache, Hecuba; vols. II-III the other
 plays). These plays are **private until 2028-01-01** (pipeline/PLAN-euripides.md): their batch
