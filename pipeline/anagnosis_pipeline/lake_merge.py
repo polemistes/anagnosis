@@ -502,6 +502,11 @@ def merge(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path) -> 
     # Taylor's notes, the introductions (steps 6-7)
     taylor_notes_and_introduction(play, tdir, out, have_n, problems)
 
+    # the record of the text the trees were made on (syntax_text.py): from the files just written
+    from . import syntax_text
+
+    problems += syntax_text.after_merge(slug, texts, sources)
+
     log = build / f"{slug}-merge.log"
     log.write_text("\n".join(problems + ["", f"# the apparatus against First1K's ({len(comparison)})"] + comparison) + "\n",
                    encoding="utf-8")

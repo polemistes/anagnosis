@@ -130,11 +130,37 @@ lemmas no word has any more (ἀχεύω, ἐμπελάζω, ἐσθέω, ἦδ�
 comes. Nothing else. Lysias's merge can be run again and now ends with this step; run again it
 gave the very same files.
 
+### The Shepherd of Hermas (free) — done 2026-11-17, version `a45c12c26fcfe14d`
+
+**The trees' text: the First1KGreek project's digital text of this same edition (Lake's Loeb).**
+Established so: the file (`pipeline/sources/hermas/tlg1419.tlg001.1st1K-grc1.xml`) names Lake's
+Apostolic Fathers, vol. 2, as its source; GLAUx's words follow it (27,339 tree words: 147 not in
+it at their place, the words written in two), and five of the six words in which the trees
+differ from ours are that file's own misprints (ἀσύμποφα, ἀκοκριθεῖσαι, μενανοήσωσι,
+μετανήσατε, αὐτῇς; the sixth, παρθένον for παρθένων, is in the trees). So this is not another
+edition: the two differ only where the digital copy misprints.
+
+| kind | rows | |
+|---|---|---|
+| unit | 56 | the words GLAUx writes in two (οὔτε, οὐδέ, μηδέ, εἴτε); the merge had joined them |
+| reading | 6 | by rule: spelling 2, form 2, word 2 (the pass will set them: a misprint that is no word is a spelling) |
+| absent | 0 | |
+| unprinted | 145 | the Greek of the end of the book, which Lake prints in Latin: in 16 sentences none of our words stands in, so never shown |
+
+**4 of 2,086 sentences really differ** by the rule's values. Own analysis: one word (14.1.10
+αὐτῆς). Compared with the installed database: `tokens` (that one tag), `meta` (two keys),
+`syntax_text_words` (new, 207 rows); everything else the same. The merge (`merge-hermas`) gives
+its present files again and now ends with the step.
+
+For the author: whether six misprints deserve the sentence in the description and the credits'
+line (`syntax_text`); the record itself is needed either way for the word that had a wrong tag
+and so that the tree shows what the parser read.
+
 ## Progress
 
 - [x] The step, its command, tests (`tests/test_syntax_text_files.py`), the checking pass's module
 - [x] Lysias
-- [ ] The Shepherd of Hermas
+- [x] The Shepherd of Hermas
 - [ ] The Odyssey
 - [ ] The Gorgias
 - [ ] The Symposium

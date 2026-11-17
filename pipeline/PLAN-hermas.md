@@ -608,6 +608,23 @@ converter and came out as Greek letters.)
   `google_play` mark; the product id stays in about.md, unused. Version unchanged
   (c5ef5e89bff80ef6): the key is in the catalogue, not in the database.
 
+* **2026-11-17, the trees' text** (the author's order: the record in the texts on sale and the
+  free texts). GLAUx's trees of the Shepherd were made on the First1KGreek project's digital
+  text of this same edition (Lake's Loeb): the tree words follow that file word for word, its
+  misprints included (ἀσύμποφα, ἀκοκριθεῖσαι, μενανοήσωσι, μετανήσατε, αὐτῇς, and παρθένον for
+  παρθένων). So the two texts differ in six words only, all misprints of the digital copy;
+  `texts/hermas/syntax-text.tsv` records them as readings, the 56 words GLAUx writes in two
+  (οὔτε) as units, and the 145 tree words of the Greek end that Lake prints in Latin (they
+  stand in sentences none of our words is in, so no tree of them is ever shown) as unprinted.
+  One word that wore the analysis of a misprint has its own (14.1.10 αὐτῆς, a genitive
+  singular, not the dative plural the parser made of αὐτῇς). 4 of 2,086 sentences really
+  differ by the rule's values. grc.txt and about.md name the trees' text; the merge ends with
+  the step. In the database only that one word's tag, the two meta keys and the new table
+  differ. **For the author:** whether six misprints deserve the sentence in the description
+  and the line in the credits; without them the record can stay (the reader then marks the
+  sentences but is not told why once). `pipeline/PLAN-syntax-text.md`. Version
+  `a45c12c26fcfe14d`.
+
 ## Sizes, for planning
 
 The Shepherd: 27,340 Greek words in 695 verses (Tauber; GLAUx 27,570 word tokens), on about 150

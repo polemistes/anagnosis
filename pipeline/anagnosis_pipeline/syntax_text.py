@@ -730,11 +730,25 @@ def _lysias_trees(sources: Path) -> list[dict]:
     return out
 
 
+def _play_trees(slug: str):
+    """The trees of a text of the drama route (drama.PLAYS), as its merge reads them."""
+    def load(sources: Path) -> list[dict]:
+        from .drama import PLAYS
+        from .sophocles import read_agdt, read_glaux_lines
+
+        play = PLAYS[slug]
+        if play.treebank:
+            return read_agdt(sources / "treebanks" / play.treebank, play.treebank.startswith("tlg0020."))
+        return read_glaux_lines(sources / "glaux" / play.glaux)
+    return load
+
+
 # The texts whose record is made from their files (record_from_files): how their trees are read
 # and what the trees' text is called. A text is added here only when its trees' text has been
 # confirmed from its sources (the plan of each text says how).
 FROM_FILES: dict[str, tuple] = {
     "lysias": (_lysias_trees, "the Perseus Digital Library's text of the speeches (W. R. M. Lamb's Loeb edition, 1930)"),
+    "hermas": (_play_trees("hermas"), "the First1KGreek project's digital text of this edition, which misprints six words"),
 }
 
 
@@ -786,3 +800,15 @@ def run(slug: str, texts: Path, sources: Path, write: bool) -> dict:
     out["sentences"] = len({t["sentence"] for t in tokens if t["sentence"]})
     out["sentences that really differ"] = really_differing(out["rows"], tokens)
     return out
+
+
+def after_merge(slug: str, texts: Path, sources: Path) -> list[str]:
+    """For the end of a text's merge: the record made again from the files just written (so
+    that a merge run again leaves the text as it is). Returns what is to be looked at by hand,
+    as lines for the merge's problems."""
+    if slug not in FROM_FILES:
+        return []
+    got = run(slug, texts, sources, True)
+    print("trees' text: " + ", ".join(f"{k} {v}" for k, v in got["kinds"].items()) + f"; {got['sentences that really differ']} of "
+          f"{got['sentences']} sentences really differ; {len(got['look'])} to look at")
+    return [f"trees' text: {x}" for x in got["look"]]
