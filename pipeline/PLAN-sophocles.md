@@ -55,8 +55,8 @@ What has to be set up once for the Sophocles plays (then each play is a `drama.P
    texts/electra/appendix.md; APPENDIX.md and INTRODUCTION.md keep their format rules). For
    the Oedipus Tyrannus and the Philoctetes the whole introduction, for the Philoctetes the
    whole commentary (kind `notes`), come this way too.
-7. `sigla.md`, `glossary.md`, review list (no `shortdefs.tsv`: no short definition is written
-   by us, texts/README.md, "Short definitions"), `about.md` with its `product_id`
+7. `sigla.md`, review list (no `shortdefs.tsv` and no `glossary.md`: no definition or entry is written
+   by us, texts/README.md, "Short definitions" and "No glossaries"), `about.md` with its `product_id`
    (no sale mark), `build --only <play>`, `check`, `catalog`, the asset pack, play/README.md
    row, texts/README.md, emulator check: as PLAN-drama.md steps 8–10.
 
@@ -81,6 +81,26 @@ tests and mechanical checks.
 The metrical analyses are not transcribed (as for Ajax and Electra).
 
 ## Progress
+
+* **2026-11-17, THE ANTIGONE MERGED AND REBUILT FROM JEBB'S PAGE** (version 1e0c2ae1b5dbecc9; commits
+  31b4c85, f25ed27, ea5f12d, 0074aa6, 165c3c2, 4b8b794). 1,257 verses (59 renumbered by Jebb's
+  margins; against the text on sale 148 verses differ in words, 154 more only in punctuation or
+  spacing), 639 apparatus notes holding 657 items (37 on lyric numbers his longer lines cover, filed
+  to the verse that holds the lemma, printed number in front), 807 commentary notes (39 re-filed,
+  f./ff. put back from the scan's OCR text), 544 translation segments (18 re-filed or joined).
+  Apparatus compared word by word with the one on sale (175 differences, each settled on the page):
+  the new reading right in 168, the old in five (corrected: Kvíčala 94, εὑδήσοι 414, κᾷτʼ 601, Υ 856,
+  ταλᾶιναι 880), both wrong in two (235 quotation mark corrected; 171 the ει-ligature, left for the
+  author). Sections: the kommoi named "Fourth episode: kommos" and "Exodos: kommos" after Jebb's
+  structure, 1115-1154 "Hyporcheme" as his list and note have it. Appendix "Lines 904–920" read from
+  the page by the prose route (batch kept apart in transcriptions/drama/antigone/appendix-904-920/),
+  our OCR note removed; one bracketed note of ours remains (the description of Thompson's facsimile,
+  appendix line 47): the author's. Commentary: Jebb's "=" inside Greek had come out as a lone
+  circumflex (59 places on sale), now kept; eight circumflexes Perseus keyed apart fixed (and one
+  each in the Ajax and Electra tables, applied at their next merge). Syntax record afresh: 686
+  sentences, 26 really differ; 48 readings, of which only 212 and 281 keep a checked classification
+  (196, 424, 591, 803, 1137: the text on sale had a slip where the trees agree with Jebb). Ten hand
+  analyses from the review list (drama_fixes "antigone"), four in syntax_text.OWN_ANALYSES.
 
 * **2026-11-17, after the reboot.** Electra drafted (99 pages, 17 batches; residuals 359); Ajax and
   Electra piloted (text agrees with Jebb's page; Electra's lyric numbers run one behind his margins at
@@ -109,7 +129,7 @@ The metrical analyses are not transcribed (as for Ajax and Electra).
   residual list of each page (INSTRUCTIONS-text.md, "Jebb's Antigone"). 20 batches (six pages each).
   Then review (the five-point extra text), merge-drama, and sophocles-prose for the commentary (its 41
   unread places and two Ῥ words are already in COMMENTARY_FIXES["antigone"]), the translation, sections,
-  syntax record afresh (`syntax-text antigone`), glossary, build. Ajax and Electra: their words agree
+  syntax record afresh (`syntax-text antigone`), build. Ajax and Electra: their words agree
   with Jebb's page at every place checked; their lyric numbering runs behind Jebb's margins in places.
 
 * **2026-11-15, Trachiniae.** Before the author's word on the route, eight by-eye batches of
