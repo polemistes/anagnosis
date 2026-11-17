@@ -194,6 +194,36 @@ def _merge_lemma(form: str, ws: list[dict]) -> str:
     return MERGED_LEMMAS.get(key, key)
 
 
+def joined_main(ws: list[dict], by_id: dict | None = None) -> dict:
+    """Of the tree words that one word of ours joins (οὐδέ: οὐ, δέ), the one whose relation and
+    head the word carries: the topmost, the part that does not hang, directly or through other
+    words, on another part of the same word. `by_id`: (sentence, word id) -> tree word, to follow
+    the heads upward; without it only a part's own head is looked at.
+
+    GLAUx ties the δέ of οὐδέ to its οὐ ("MWE"), the εἰ of εἴτε to its τε; the treebank ties ἐὺ
+    to φρονέων; and the οὔ of οὔτε is an AuxZ on a member of the coordination that the τε
+    heads. Carrying the lower part's relation and head, the word would hang on itself, or on a
+    word that hangs on it. Where neither part is above the other, the part that is not a mere
+    particle (AuxZ, AuxY) is taken, else the first."""
+    ids = {str(w["word_id"]) for w in ws}
+
+    def under_another(w: dict) -> bool:
+        seen, x = set(), w
+        while x is not None and str(x["head"]) not in ("", "0") and len(seen) < 400:
+            h = str(x["head"])
+            if h in ids and h != str(w["word_id"]):
+                return True
+            if by_id is None or h in seen:
+                return False
+            seen.add(h)
+            x = by_id.get((x["sentence"], h))
+        return False
+
+    top = [w for w in ws if not under_another(w)]
+    pool = top or ws
+    return next((w for w in pool if w["relation"] not in ("AuxZ", "AuxY", "")), pool[0])
+
+
 def align_tokens(doc: Document, tb: list[dict]) -> tuple[list[dict], list[str]]:
     """Match the words of the text, in document order, to the treebank words in document order.
 
@@ -207,6 +237,7 @@ def align_tokens(doc: Document, tb: list[dict]) -> tuple[list[dict], list[str]]:
         for ord_, (form, _s, _e) in enumerate(greek.words(line.text)):
             text_words.append((line.n, ord_, form))
     tb_words = [w for w in tb if w["is_word"]]
+    by_id = {(w["sentence"], w["word_id"]): w for w in tb}
     ta = [greek.strip_diacritics(f) for _, _, f in text_words]
     tb_sk = [greek.strip_diacritics(w["form"]) for w in tb_words]
 
@@ -275,7 +306,8 @@ def align_tokens(doc: Document, tb: list[dict]) -> tuple[list[dict], list[str]]:
             # the merged word takes the syntax of the part that is not a mere particle: the τε of
             # οὔτε is the coordinator (COORD), the οὔ only an AuxZ on a member
             main = next((x for x in ws if x["relation"] not in ("AuxZ", "AuxY", "")), ws[0])
-            postag, relation, head = main["postag"], main["relation"], main["head"]
+            hangs = joined_main(ws, by_id)  # never a part that hangs on another part
+            postag, relation, head = main["postag"], hangs["relation"], hangs["head"]
             sentence, word_id = w["sentence"], "+".join(x["word_id"] for x in ws)
         else:
             lemma = postag = relation = head = sentence = word_id = ""

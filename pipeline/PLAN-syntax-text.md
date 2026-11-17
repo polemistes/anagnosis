@@ -375,3 +375,41 @@ Nothing is started; the main session runs it.
   Symposium 4, the Electra 2, Ajax 1. The step's own joins take the half that hangs outside
   (`_main`); the old ones are as they were, since changing them is a change to trees on sale.
   (2) The Antigone's text at 424, 803, 1136 and perhaps 196 (above).
+
+* **2026-11-17, the kinds of difference as checked** (the pass: 21 jobs, 1,089 readings, commit
+  67c17f7; the answers entered by `syntax-text <slug>` / the merges). Sentences that really
+  differ after it: **Lysias 269 of 2,056** (readings: elision 9, nu 1, spelling 105, form 80,
+  word 69), **the Shepherd 2 of 2,086** (spelling 4, form 2), **the Odyssey 258 of 6,721**
+  (elision 64, nu 133, spelling 321, form 86, word 119). Antigone, Ajax and Electra wait for the
+  agent that is mending those plays.
+* **2026-11-17, the Shepherd is not told of another text** (the author): the sentence in the
+  description, the `syntax_text` key and the header line are out again (about.md and grc.txt
+  are as they were before); the record stays (`FROM_FILES["hermas"]` has no name).
+* **2026-11-17, joined words that hung on themselves** (the author: mistakes in texts on sale
+  first). A word of ours that is several tree words (οὐδέ = οὐ δέ) carries one part's relation
+  and head. The older rule took the part that is no mere particle, else the first; that gave
+  two kinds of fault, found by building every tree as the reader does
+  (`pipeline/build/agent-scratch/record/treecheck.py`):
+  (1) the part carried hangs on the other part, so the word hung on itself: οὐδέ, μηδέ (GLAUx
+  ties the δέ to the οὐ as "MWE"), εἴτε, ἐάντε (the εἰ tied to the τε), and in the Odyssey
+  ἐϋφρονέων, εὐρυκρείων, πασιμέλουσα (the treebank ties the first half to the second);
+  (2) the part carried hangs on a word that hangs on the other part, so the two hung on each
+  other: οὔτε, μήτε where the οὔ is an AuxZ on a member of the coordination the τε heads.
+  **The rule now: the word carries the relation and head of its topmost part**, the one that
+  does not hang, directly or through other words, on another of its parts
+  (`import_perseus.joined_main`, used by both aligners and by `syntax_text.mend_joined`, which
+  mends the files as they stand). So οὐδέ hangs where its οὐ hangs (an AuxZ on the word
+  negated: 3.31 οὐδὲ διελέγετο, Gorgias 455b1 οὐδʼ … δύναμαι); εἴτε, οὔτε, μήτε take the τε's
+  place (the coordinator, or AuxY on the next εἴτε); ἐϋφρονέων takes φρονέων's. Mended: Lysias
+  87 words, the Gorgias 56, the Symposium 49, the Shepherd 10, the Odyssey 11. After it no word
+  hangs on itself and no joined word is in a cycle in these five texts (before: 83+4, 45+4,
+  4+93, 8+2, 5+14 words). The merges now give these very tokens (the Symposium's "66 joined
+  words" that a merge would have changed are this). **To pass on for Ajax and Electra:** the
+  same is in the shared code, so an import after this commit mends Ajax 1073 οὔτʼ and Electra
+  1061 εὕρωσι, 1073 διαίτᾳ by itself; otherwise `syntax-text ajax` / `electra` does.
+* **2026-11-17, not settled: fourteen sentences of the Odyssey whose trees hold a cycle in the
+  treebank itself** (an omitted-word node "[0]" that hangs on a word which hangs on it): 2.9
+  (sentence 2185777), 2.58, 3.102, 3.210, 3.265, 4.632, 5.265, 5.347, 9.313, 17.283, 17.386,
+  20.220, 22.302, 24.376. Each needs its sentence read to say where the omitted word belongs;
+  nothing was changed. What the reader does with such a tree was not checked.
+

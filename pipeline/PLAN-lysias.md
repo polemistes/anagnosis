@@ -1215,6 +1215,13 @@ Nothing here blocks the text batches. In the order in which an answer is needed:
   database is as it was, table by table. How, and the checking pass over the kinds of
   difference: `pipeline/PLAN-syntax-text.md`. Version `896cbeb066d4c9b8`.
 
+* **2026-11-17, the kinds of difference checked, and joined words mended.** The agents' checked
+  kinds entered (264 readings): 269 of 2,056 sentences really differ. 87 joined words (οὐδέ,
+  μηδέ, εἴτε, οὔτε) that carried the relation and head of a part hanging on their other part,
+  so that they hung on themselves or in a ring of two, now carry their topmost part's
+  (`pipeline/PLAN-syntax-text.md`, Decisions). The merge gives the same. Version
+  `dab5a6bad3865651`.
+
 ## Sizes, for planning
 
 34 speeches, 1,116 sections, 56,162 Greek words in the check text; 269 pages of Hude, 6,798

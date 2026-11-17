@@ -132,6 +132,16 @@ def _alnum(c: str) -> bool:
 UNREAD, GAP = "\ue003", "[?]"
 
 
+def apply_fixes(text: str, fixes: list[tuple[str, str]], name: str) -> str:
+    """A text's fix table over an imported commentary: (the text as imported, the page's). A fix
+    whose text is not found is reported, so that a table cannot go stale unseen."""
+    for wrong, right in fixes:
+        if wrong not in text:
+            print(f"{name}: fix not applied, not found: {wrong}")
+        text = text.replace(wrong, right)
+    return text
+
+
 def _txt(s: str | None, grk: bool) -> str:
     if not s:
         return ""

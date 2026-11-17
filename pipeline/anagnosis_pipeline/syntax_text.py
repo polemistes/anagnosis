@@ -362,13 +362,59 @@ def _greek(form: str) -> str:
     return "".join(c for c in form if not (c.isascii() and (c.isalpha() or c in "?-")))
 
 
-def _main(ws: list[dict]) -> dict:
-    """Of the tree words one word of ours joins, the one whose syntax the word carries: the part
-    that is not a mere particle and hangs outside the unit (as import_perseus: the τε of οὔτε is
-    the coordinator, the οὔ only an AuxZ on a member)."""
-    ids = {str(w["word_id"]) for w in ws}
-    return next((w for w in ws if w["relation"] not in ("AuxZ", "AuxY", "") and str(w["head"]) not in ids),
-                next((w for w in ws if str(w["head"]) not in ids), ws[0]))
+def _main(ws: list[dict], by_id: dict | None = None) -> dict:
+    """Of the tree words one word of ours joins, the one whose syntax the word carries: the
+    topmost (import_perseus.joined_main)."""
+    from .import_perseus import joined_main
+
+    return joined_main(ws, by_id)
+
+
+def mend_joined(rows: list[dict], by_id: dict) -> list[str]:
+    """A word that joins several tree words must carry the relation and head of its topmost
+    part. The older merges gave some the relation and head of a part that hangs on another part
+    (οὐδέ: the δέ that GLAUx ties to the οὐ; εἴτε; ἐϋφρονέων) or on a word under another part
+    (οὔτε: the οὔ on a member of the coordination the τε heads): in the tree such a word hangs
+    on itself, or on a word that hangs on it. Those get the topmost part's relation and head.
+    A word that already carries its topmost part's, or whose relation and head are no part's
+    (set by hand), is left. Returns what was mended."""
+    done = []
+    for r in rows:
+        ids = r["word_id"].split("+")
+        if len(ids) < 2 or r["word_id"].startswith("="):
+            continue
+        ws = [by_id.get((r["sentence"], x)) for x in ids]
+        if any(w is None for w in ws):
+            continue
+        m = _main(ws, by_id)
+        carried = [w for w in ws if (w["relation"], str(w["head"])) == (r["relation"], r["head"])]
+        if not carried or m in carried or _main([m] + carried, by_id) is not m or len({id(w) for w in [m] + carried}) < 2:
+            continue
+        # only where the part carried is under the topmost one: else the choice was a fair one
+        from .import_perseus import joined_main
+        if joined_main([carried[0], m], by_id) is not m or joined_main([m, carried[0]], by_id) is not m:
+            continue
+        done.append(f"{r['line']} {r['form']}: {r['relation']} on {r['head']} -> {m['relation']} on {m['head']}")
+        r["relation"], r["head"] = m["relation"], str(m["head"])
+    return done
+
+
+def mend_joined_file(work_dir: Path, tb: list[dict]) -> list[str]:
+    """mend_joined on a text's tokens.tsv, only the lines concerned (for a text without a record)."""
+    path = work_dir / "tokens.tsv"
+    raw = path.read_text(encoding="utf-8").split("\n")
+    head = raw[0].split("\t")
+    col = {k: i for i, k in enumerate(head)}
+    body = [(i, l.split("\t")) for i, l in enumerate(raw) if i and l]
+    rows = [{k: f[col[k]] for k in head} for _i, f in body]
+    done = mend_joined(rows, {(w["sentence"], w["word_id"]): w for w in tb})
+    for (at, f), r in zip(body, rows):
+        if (f[col["relation"]], f[col["head"]]) != (r["relation"], r["head"]):
+            f[col["relation"]], f[col["head"]] = r["relation"], r["head"]
+            raw[at] = "\t".join(f)
+    if done:
+        path.write_text("\n".join(raw), encoding="utf-8")
+    return done
 
 
 def _joined(forms: list[str], ours: str) -> bool:
@@ -506,6 +552,7 @@ def record_from_files(work_dir: Path, tb: list[dict], name: str, write: bool = T
     look: list[str] = []
     reanalysed: list[str] = []
     hand = hand or {}
+    mended = mend_joined(rows, by_id)
 
     def note(i: int, kind: str, w: dict | None, sentence: str = "", word_id: str = "", form: str = "", lemma: str = "", tag: str = "") -> None:
         r = rows[i]
@@ -544,7 +591,7 @@ def record_from_files(work_dir: Path, tb: list[dict], name: str, write: bool = T
             continue  # a node the treebank itself put in for a word its text lacks: nothing to compare
         theirs = _greek(ws[0]["form"])
         if r["word_id"].startswith("=") or len(ws) > 1 or (r["sentence"], r["word_id"]) in carriers:
-            note(i, "unit", None, form=" ".join(w["form"] for w in ws), lemma=" ".join(w["lemma"] for w in ws), tag=_main(ws)["postag"])
+            note(i, "unit", None, form=" ".join(w["form"] for w in ws), lemma=" ".join(w["lemma"] for w in ws), tag=_main(ws, by_id)["postag"])
         elif _bare(theirs) != _bare(r["form"]):
             both = halves(i, ws[0])
             if both:
@@ -636,7 +683,7 @@ def record_from_files(work_dir: Path, tb: list[dict], name: str, write: bool = T
                     if all(x in free_set and x in local and words[x]["sentence"] == words[k]["sentence"] for x in part) \
                             and _joined([words[x]["form"] for x in part], ours):
                         ws = [words[x] for x in part]
-                        main = _main(ws)
+                        main = _main(ws, by_id)
                         r = rows[j]
                         r["sentence"], r["word_id"], r["relation"], r["head"] = main["sentence"], "+".join(w["word_id"] for w in ws), main["relation"], main["head"]
                         for w in ws:
@@ -727,7 +774,7 @@ def record_from_files(work_dir: Path, tb: list[dict], name: str, write: bool = T
         lengths[r["line"]] = lengths.get(r["line"], 0) + 1
     fields = ("lemma", "postag", "relation", "head", "sentence", "word_id")
     changed = [i for i, (_at, f) in enumerate(body) if any(f[col[k]] != rows[i][k] for k in fields)]
-    out = {"changed tokens": len(changed), "look": look, "given their own analysis": reanalysed, "difference": counts_diff,
+    out = {"changed tokens": len(changed), "look": look, "given their own analysis": reanalysed, "joined words mended": mended, "difference": counts_diff,
            "absent with a sentence": given, "absent without": without, "differences checked": checked}
     words_only = [w for w in tb if _bare(_greek(w["form"]))]
     if not write:
@@ -757,7 +804,8 @@ def record_from_files(work_dir: Path, tb: list[dict], name: str, write: bool = T
     old = (work_dir / "grc.txt").read_text(encoding="utf-8")
     grc = [l for l in old.split("\n") if not l.startswith("# syntax-text:")]
     last = max(k for k, l in enumerate(grc[:40]) if l.startswith("# "))
-    grc.insert(last + 1, f"# syntax-text: {name}")
+    if name:  # a text whose trees' text is its own edition in a digital copy is not named (the Shepherd)
+        grc.insert(last + 1, f"# syntax-text: {name}")
     if "\n".join(grc) != old:
         (work_dir / "grc.txt").write_text("\n".join(grc), encoding="utf-8")
     return out
@@ -847,7 +895,10 @@ FROM_FILES: dict[str, tuple] = {
     "antigone": (_antigone_trees, "the Perseus Digital Library's text of the play as the treebank's annotators had it"),
     "ajax": (_sophocles_trees("ajax"), "the Perseus Digital Library's text of the play (F. Storr's Loeb edition, 1913)"),
     "electra": (_sophocles_trees("electra"), "the Perseus Digital Library's text of the play (F. Storr's Loeb edition, 1913)"),
-    "hermas": (_play_trees("hermas"), "the First1KGreek project's digital text of this edition, which misprints six words"),
+    # the Shepherd's trees were made on First1KGreek's digital text of this same edition, which
+    # misprints six words: the record is kept, the reader is not told of another text (the author,
+    # 2026-11-17), so no name
+    "hermas": (_play_trees("hermas"), ""),
 }
 
 
@@ -886,7 +937,22 @@ def difference_answers(slug: str) -> dict[tuple[str, int], tuple[str, str, str]]
     return answers(slug)
 
 
+# Texts without a record (their trees were made on the very text printed) whose trees the step
+# still reads, to mend their joined words (mend_joined).
+NO_RECORD: dict[str, object] = {
+    "symposium": _glaux_trees("symposium_merge"),
+}
+
+
 def run(slug: str, texts: Path, sources: Path, write: bool, lexicon: Path | None = None) -> dict:
+    if slug in NO_RECORD:
+        tb = NO_RECORD[slug](sources)
+        if write:
+            mended = mend_joined_file(texts / slug, tb)
+        else:
+            with (texts / slug / "tokens.tsv").open(encoding="utf-8", newline="") as f:
+                mended = mend_joined(list(csv.DictReader(f, delimiter="\t", quoting=csv.QUOTE_NONE)), {(w["sentence"], w["word_id"]): w for w in tb})
+        return {"changed tokens": len(mended), "joined words mended": mended, "look": [], "kinds": {}, "sentences": 0, "sentences that really differ": 0, "rows": []}
     loader, name = FROM_FILES[slug]
     out = record_from_files(texts / slug, loader(sources), name, write, exact_reader(sources, lexicon or texts.parent / "data" / "lexicon.sqlite"),
                             OWN_ANALYSES.get(slug, {}), difference_answers(slug))
@@ -905,6 +971,10 @@ def after_merge(slug: str, texts: Path, sources: Path, lexicon: Path | None = No
     """For the end of a text's merge: the record made again from the files just written (so
     that a merge run again leaves the text as it is). Returns what is to be looked at by hand,
     as lines for the merge's problems."""
+    if slug in NO_RECORD:
+        got = run(slug, texts, sources, True, lexicon)
+        print(f"trees' text: none (the trees were made on the text printed); joined words mended: {len(got['joined words mended'])}")
+        return []
     if slug not in FROM_FILES:
         return []
     got = run(slug, texts, sources, True, lexicon)

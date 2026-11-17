@@ -38,6 +38,7 @@ GREEK_META = {
     "license": "CC BY-SA 4.0 (transcription; the edition is in the public domain)",
     # the word sheet offers the Homeric dictionary first
     "dictionaries": "autenrieth ml lsj",
+    "pronunciation": "homeric",
 }
 
 DRAFT_META = {
@@ -209,6 +210,30 @@ COMMENTARY_META = {
 _SUP = str.maketrans("0123456789", "⁰¹²³⁴⁵⁶⁷⁸⁹")
 
 
+_GREEK_LETTER = r"[\u0370-\u03ff\u1f00-\u1fff]"
+# the digamma named by itself in a note ("has the v"): the places, so that "the v. l." is not touched
+_DIGAMMA_ALONE = [
+    ("the v prefixed to ἄγνυμι", "the ϝ prefixed to ἄγνυμι"), ("has the v as in", "has the ϝ as in"),
+    ("the v is dropped", "the ϝ is dropped"), ("until the v of", "until the ϝ of"), ("ἁνδάνω has the v.", "ἁνδάνω has the ϝ."),
+    ("here with the v, sc.", "here with the ϝ, sc."), ("νέ v ος", "νέϝος"), 
+    # Monro on 17.387, the forms with the rough breathing before the digamma, read on the scan
+    # homersodyssey00homeiala (Perseus: "v() αὐτόν", "vʽεαυτόν", "‘vὲ αὐτόν")
+    ("v() αὐτόν", "ʽϝʼ αὐτόν"), ("vʽεαυτόν", "ʽϝεαυτόν"), ("‘vὲ αὐτόν", "ʽϝὲ αὐτόν"),
+    ("the initial v in", "the initial ϝ in"), ("of initial v or ς", "of initial ϝ or ς"),
+]
+
+
+def digamma(md: str) -> str:
+    """Perseus keys the digamma as Betacode "v" ("*v" the capital), and the converter leaves it a
+    Latin v: κλέvος, "take the *v". A v that touches a Greek letter is the digamma (ϝ); "*v" not
+    followed by a Latin letter is the capital (Ϝ); the digamma named by itself is in a table."""
+    for wrong, right in _DIGAMMA_ALONE:
+        md = md.replace(wrong, right)
+    md = re.sub(r"\*v(?!\w)", "Ϝ", md)
+    md = re.sub(rf"(?<={_GREEK_LETTER})v|v(?={_GREEK_LETTER})", "ϝ", md)
+    return re.sub(rf"(?<={_GREEK_LETTER}[\u0300-\u036f])v", "ϝ", md)
+
+
 def import_commentary(source: Path, out: Path) -> int:
     from .commentary import _md
 
@@ -221,7 +246,7 @@ def import_commentary(source: Path, out: Path) -> int:
         md = re.sub(r"\^\{(\d+)\}", lambda m: m.group(1).translate(_SUP), md)
         md = re.sub(r"[ \t]+\n", "\n", md)
         md = re.sub(r"\n{3,}", "\n\n", md).strip()
-        return re.sub(r" +", " ", md)
+        return digamma(re.sub(r" +", " ", md))
 
     for div1 in root.iter("div1"):
         book = int(div1.get("n"))
@@ -388,6 +413,7 @@ def align(doc: Document, tb: list[dict], keep_tb_form: bool = False, units: bool
     for line in doc.lines:
         for ord_, (form, _s, _e) in enumerate(greek.words(line.text)):
             text_words.append((line.n, ord_, form))
+    by_id = {(w["sentence"], w["word_id"]): w for w in tb}
     tb_words = [w for w in tb if w["is_word"]]
     ta = [_skeleton(f) for _, _, f in text_words]
     tbs = [_skeleton(w["form"]) for w in tb_words]
@@ -524,14 +550,16 @@ def align(doc: Document, tb: list[dict], keep_tb_form: bool = False, units: bool
             if keep_tb_form:
                 row["tb_form"] = w["form"]
         elif ws:
-            from .import_perseus import _merge_lemma
+            from .import_perseus import _merge_lemma, joined_main
 
             w = ws[0]
             # the merged word takes the syntax of the part that is not a mere particle: the δέ of
-            # οὐδέ is the coordinator, the οὐ only an AuxZ on a member
+            # οὐδέ is the coordinator, the οὐ only an AuxZ on a member; never of a part that hangs
+            # on the other part (joined_main)
             main = next((x for x in ws if x["relation"] not in ("AuxZ", "AuxY", "")), ws[0])
+            hangs = joined_main(ws, by_id)
             row.update(lemma=_merge_lemma(form, ws), sentence=w["sentence"], word_id="+".join(x["word_id"] for x in ws),
-                       relation=main["relation"], head=main["head"])
+                       relation=hangs["relation"], head=hangs["head"])
             # the first part's tag fits when the merge is a crasis or compound of it
             row["postag"] = w["postag"] if _skeleton(ws[0]["lemma"]).startswith(_skeleton(form)[:2]) else main["postag"] if main is not w else ""
         if idx in unit:
