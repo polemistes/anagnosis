@@ -111,6 +111,7 @@ The gen. **αὐτοῦ** depends on the phrase κλέπτης ψηφοποιό�
 9 Ψηφοποιός [conf] → ψηφοποιός
 10 ‘speciously.’ [conf] → ok
 --- notes
+1132	rev: the print has the bold "αὐτοῦ=ἐμαυτοῦ" with a smooth breathing (the lemma and the quotation from O. C. 929 have the rough αὑτοῦ); an evident misprint for the reflexive, kept as αὑτοῦ
 
 === p-0256
 + clearly a case in which L has preserved a true reading which the other MSS. have lost. Teucer means, ‘It might *seem* to be the judges’ doing, while it was really yours.’ The common reading **κακῶς** misses this point. For καλῶς in a bad sense, cp. *Ant.* 1047 (λόγους) αἰσχροὺς καλῶς λέγωσι τοῦ κέρδους χάριν.
@@ -340,7 +341,7 @@ While the child knelt as a suppliant by the body, with his hand upon it, the cor
 === p-0261
 + shades; the gift of hair being a substitute for self-immolation at the grave.
 
-**τρίτου**, marking the completion of the lucky number; *O. C.* 7 f. αἱ πάθαι..χὡ χρόνος..| ..καὶ τὸ γενναῖον τρίτον: Aesch. *Eum.* 758 ff. Παλλάδος καὶ Λοξίου | ἕκατι καὶ τοῦ πάντα κραίνοντος τρίτου | Σωτῆρος.
+**τρίτου**, marking the completion of the lucky number; *O. C.* 7 f. αἱ πάθαι..χὠ χρόνος.. | ..καὶ τὸ γενναῖον τρίτον: Aesch. *Eum.* 758 ff. Παλλάδος καὶ Λοξίου | ἕκατι καὶ τοῦ πάντα κραίνοντος τρίτου | Σωτῆρος.
 
 ## 1175
 **ἱκτήριον θησαυρόν**, ‘the suppliant’s *store*’; *i.e.*, the efficacy of the supplication is stored up in, resides in, these gifts of hair, which symbolise the appeal of the ἱκέτης to the spirit of the dead.—G. Wolff takes the phrase as pathetic,—‘the suppliant’s only wealth,’ ‘all that he has to offer,’—as Electra says of the gifts of hair, σμικρὰ μὲν τάδ’, ἀλλ’ ὅμως | ἄχω (*El.* 450). But it is rather the *power* than the poverty of the offering which is expressed by θησαυρόν.
@@ -404,3 +405,4 @@ While the child knelt as a suppliant by the body, with his hand upon it, the cor
 37 Tdkof’ [latin] (Greek model: κοιθ᾽) → τάκοιθ’
 --- notes
 1173 (run on): the further lemma τρίτου (after a dash) made its own paragraph. 1179: the draft had cut at "truce,—ὧδέ σφ’ …", a quotation in plain Greek; joined again with the dash. 1178: the draft's "**Ζ**, δ." is "—*i.e.*,"; joined.
+1173	rev: O. C. 7 f. "χὠ" (coronis; the file had "χὡ") and a space before "|" ("χρόνος.. | ..καὶ") as printed

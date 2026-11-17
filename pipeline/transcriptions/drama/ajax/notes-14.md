@@ -55,7 +55,7 @@
 **καταξανθεὶς**, carded (like wool), torn to shreds; Eur. imitates this (*Suppl.* 503) πέτροις καταξανθέντες ὀστέων ῥαφάς. Cp. Ar. *Ach.* 319 τί φειδόμεσθα τῶν λίθων, ὦ δημόται, | μὴ οὐ καταξαίνειν τὸν ἄνδρα τοῦτον εἰς φοινικίδα;
 
 ## 729
-**ὥστ’** (‘and so’) has been suspected on account of the second **ὥστε**: but the latter, going with **τοσοῦτον**, does not offend the ear, since its sense is different and subordinate; cp. *Ant.* 735 ὁρᾷς τόδ’ ὡς εἴρηκας ὡς ἄγαν νέος; *Tr.* 1241 τάχ’, ὡς ἔοικας, ὡς νοσεῖς φράσεις. So in Xen. *Anab.* 2. 2. 17 κραυγὴν.. ἐποίουν,..ὥστε καὶ τοὺς πολεμίους ἀκούειν· ὥστε οἱ μὲν ἐγγυτάτω..ἔφυγον: where the first ὥστε=‘so that,’ while the second =‘and so.’
+**ὥστ’** (‘and so’) has been suspected on account of the second **ὥστε**: but the latter, going with **τοσοῦτον**, does not offend the ear, since its sense is different and subordinate; cp. *Ant.* 735 ὁρᾷς τόδ’ ὡς εἴρηκας ὡς ἄγαν νέος; *Tr.* 1241 τάχ’, ὡς ἔοικας, ὡς νοσεῖς φράσεις. So in Xen. *Anab.* 2. 2. 17 κραυγὴν..ἐποίουν,..ὥστε καὶ τοὺς πολεμίους ἀκούειν· ὥστε οἱ μὲν ἐγγυτάτω..ἔφυγον: where the first ὥστε=‘so that,’ while the second =‘and so.’
 
 **κολεῶν..ξίφη**. The swords **διεπεραιώθη** κολεῶν, were drawn through (and out of) the scabbards, **ἐρυστά**, by a sharp, quick pull,—*i.e.* with angry haste.—Not, ‘swords plucked from the sheaths were *crossed*’: as if Teucer actually crossed swords with one or more of his assailants. The whole scene has been suggested by that in the first book of the *Iliad*, as the schol. in L saw:—ἐκ τῆς Ἀχιλλέως δὲ πρὸς Ἀγαμέμνονα ἀρχῆς (read ὀργῆς) παραγέγραπται. There, Achilles was drawing his sword—ἕλκετο δ’ ἐκ κολεοῖο μέγα ξίφος—when Athena came to him (*Il.* 1. 194): ἂψ δ’ ἐς κουλεὸν ὦσε μέγα ξίφος (*ib.* 220).—Some of the later MSS. here have **κουλεῶν**, which was a current form in late Greek (Eustathius p. 1604. 58 τὸ κολεὸν κοινότερον κουλεὸν λέγεται).
 
@@ -104,6 +104,7 @@
 30 νέοισιν... [conf] → νέοισιν..
 31 NV. [conf] (Greek model: ΡᾺ) → *N.*
 --- notes
+729	rev: "κραυγὴν.. ἐποίουν" closed up to "κραυγὴν..ἐποίουν" (the dots end a printed line; written closed as every other ".." in the file)
 
 === p-0200
 ## 737

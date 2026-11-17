@@ -277,7 +277,7 @@ Beyond the flags: "(=ποιμνίων ἐπιστάταις, 27)" was cut into a
 ## 228: Jebb's number (print "228 περίφαντος"); our text has no 228.
 
 === p-0131
-+ **ποίμνην** is a ‘noun of multitude’; cp. *O. C.* 1070 ἄμβασις, οἱ κ.τ.λ. (n.). Then **τὴν μὲν** (*sc.* ποίμνην) follows ὧν, as it might have followed ἧς: cp. Thuc. 1. 2 § 3 τῆς γῆς ἡ ἀρίστη, *ib.* 5 § 1 τὸν πλεῖστον τοῦ βίου. Finally, **τὰ δὲ** (*sc.* βοτὰ) refers to ὧν.—The antithesis to τὴν **μὲν** is given by τὰ **δέ**, not (as some have thought) by δύο **δ᾽**.
++ **ποίμνην** is a ‘noun of multitude’; cp. *O. C.* 1070 ἄμβασις, οἳ κ.τ.λ. (n.). Then **τὴν μὲν** (*sc.* ποίμνην) follows ὧν, as it might have followed ἧς: cp. Thuc. 1. 2 § 3 τῆς γῆς ἡ ἀρίστη, *ib.* 5 § 1 τὸν πλεῖστον τοῦ βίου. Finally, **τὰ δὲ** (*sc.* βοτὰ) refers to ὧν.—The antithesis to τὴν **μὲν** is given by τὰ **δέ**, not (as some have thought) by δύο **δ᾽**.
 
 **ἔσω**, ‘within the house,’ refers to all the incidents that followed his arrival (ἤλυθε). Schneidewin wrongly joins **ἔσω σφάζε** (‘stach tot’), comparing Aesch. *Ag.* 1343 πέπληγμαι καιρίαν πληγὴν ἔσω. But σφάζε denotes ‘cutting the throat,’ not ‘stabbing’; cp. 298.
 
@@ -315,6 +315,7 @@ If the two rams are the two Atreidae, then Odysseus is ignored here. This would 
 20 (7{. [conf] → (*Il.*
 --- notes
 Beyond the flags: bold set as printed (ποίμνην, τὴν μὲν, τὰ δὲ, μὲν, δέ, δ᾽ inside the paragraph; ἔσω σφάζε); "(sc. Bora)" → (*sc.* βοτὰ); "(Pax 95)" → (*Pax* 92) from the print; italics set (O. C., sc., ib., Ag., caught up, Eq., Pax, flog, brethren, Ph., Il., Od.); Menelaiis → Menelaüs (twice); "IIO" → 110; 237 ff. → ## 237. Spaced δεσμίους written plain.
+235	rev: "ἄμβασις, οἱ κ.τ.λ." → οἳ (the print has breathing and grave: the relative, *O. C.* 1070).
 
 === p-0132
 + reference here to the sacrificial custom; the act of Ajax rather expresses merely fierce hatred of a slanderer.
@@ -377,7 +378,7 @@ Beyond the flags: "Τί has good authority" → "It has good authority", "Τί, 
 ## 252
 **πεφόβημαι**: 139 n.
 
-**λιθόλευστον Ἄρη**, a violent death by stoning; cp. *Ant.* 36 φόνον..δημόλευστον. Aesch. *Ag.* 1616 δημορριφεῖς..λευσίμους ἀράς. When, as here, Ἄρης stands for the notion of a ‘violent death,’ it always, of course, implies an onslaught; as in *O. C.* 1679 ὅτῳ μήτ᾽ Ἄρης | μήτε πόντος ἀντέκυρσεν (death in battle, or by drowning): Aesch. *P. V.* 860 θηλυκτόνῳ | Ἄρει δαμέντων, *i.e.*, by the onslaught of murderous women. (In Pind. *P.* 11. 36 χρονίῳ σὺν Ἄρει is best taken, with Gildersleeve, as =‘by tardy help of Ares.’) The initial A is long here (answering to the penult. of συγκατακτὰς in 230), as in 614, *Ant.* 139, *El.* 96.
+**λιθόλευστον Ἄρη**, a violent death by stoning; cp. *Ant.* 36 φόνον..δημόλευστον. Aesch. *Ag.* 1616 δημορριφεῖς..λευσίμους ἀράς. When, as here, Ἄρης stands for the notion of a ‘violent death,’ it always, of course, implies an onslaught; as in *O. C.* 1679 ὅτῳ μήτ᾽ Ἄρης | μήτε πόντος ἀντέκυρσεν (death in battle, or by drowning): Aesch. *P. V.* 860 θηλυκτόνῳ | Ἄρει δαμέντων, *i.e.*, by the onslaught of murderous women. (In Pind. *P.* 11. 36 χρονίῳ σὺν Ἄρει is best taken, with Gildersleeve, as=‘by tardy help of Ares.’) The initial A is long here (answering to the penult. of συγκατακτὰς in 230), as in 614, *Ant.* 139, *El.* 96.
 
 The accus. is, in the first place, object to **πεφόβημαι**, but is felt also as a cognate acc. to **ξυναλγεῖν** (like ἄλγος ἀλγῶ), and could be, further, an acc. of the inner object with **τυπείς** (*Il.* 24. 420 ἕλκεα... ὅσσ᾽ ἐτύπη): it is one of those cumulative
 --- flags
@@ -420,3 +421,4 @@ The accus. is, in the first place, object to **πεφόβημαι**, but is felt
 37 (//. [conf] → (*Il.*
 --- notes
 Beyond the flags: "able," (end of "improbable" divided between the pages) left out here, written whole on p-0132; the lemma "**κρᾶτα**. -κρυψάμενον" corrected to **κρᾶτα..κρυψάμενον** (one bold lemma, as printed); the false paragraph at "—ἡνίας" (plain type in the print) joined back; "388 πὶ" → 388 E; "Tas διστόλους | . . ἀδελφὰς, ἐ εν." → "τὰς διστόλους | ..ἀδελφὰς, *i.e.*"; "(η.)", "139 η." → n.; "Pind. 2. τι. 36" → *P.* 11. 36; ol → οἱ; bold set as printed (κλοπὰν, εἰρεσίας, ζυγὸν, πεφόβημαι, ξυναλγεῖν, τυπείς); "—δικρατεῖς", "—λιθόλευστον" (bold after dashes) made paragraphs of their own; italics set (Phaedo, the Livy quotation, Pers., Rhes., Or., Ant., Ag., indulgere, e.g., Rep., ap., swift strains, O. C., i.e., ib., P. V., P., El., Il.); "Ares.”)" → ’; 249 f., 251 f., 252 ff. → ## 249, 251, 252. The page ends inside the second paragraph of 252 ("cumulative").
+252	rev: "as =‘by tardy help" → "as=‘by tardy help" ("as" ends the printed line, "=" opens the next; closed up as Jebb's "as=" everywhere else).

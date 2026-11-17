@@ -148,6 +148,7 @@ Beyond the flags: the lines of 904 and 905 had been scrambled into one paragraph
 18 Eud. [conf] → *Eud.*
 --- notes
 Beyond the flags: "77. 935" → *Tr.* 935; XO./AT. → ΧΟ./ΑΓ. (Greek capitals); "ἐν yap σε" → ἐν γάρ σε; "id. I. 108" → id. 1. 108; "ἐκ γάρ ol" → ἐκ γάρ οἱ; "ὄψιος.. ἐσήμαινον", "οἱ.. πηκτὸν", "ἄσκευον .. στρατοῦ", "ἄγκιστρα.. περιπαγέντα" closed up as printed; "vol. 11." → vol. III.; "ἢ. on 595" → n. on 595; "3. 7: 6 (p. 1234 @ 5)" → 3. 7. 6 (p. 1234 *a* 5); "¢. 200 B.C." → *c.* 290 B.C.; "22. 36" → *El.* 36; "§ 43" kept; bold οἱ..πηκτὸν, φίλων, πάντα inside the notes as printed; italics set (Tr., ib., Ph., Th., Ag., Ant., Hist. An., i.e., Opp., Gramm. Att. Inschr., c., El., O. C., Eth. Eud., a); 906 f., 909 f., 913 f. → ## 906, 909, 913. The breathings of the two οἷος in 909 are not clear on the scan: the sense needs a contrast (the MSS. reading against another), and the lemma is written οἶος, the other οἷος; please confirm on the page if possible.
+rev: 909 οἶος (lemma) / οἷος (the other reading) kept: the breathings under the circumflex are not decisive even enlarged, but Jebb's translation on leaf 225 ("all alone, then, thou hast fallen in blood, unwatched of friends") confirms οἶος as his (the MSS.') reading.
 
 === p-0225
 + opposite extreme to βωμολόχος, while the εὐτράπελος is the happy mean.

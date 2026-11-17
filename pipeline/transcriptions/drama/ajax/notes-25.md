@@ -2,7 +2,7 @@
 ## 1358
 **τοιοίδε..φῶτες..βροτῶν**: ‘such men, however, are the unstable of mankind’;—such, namely, as relent like Odysseus. **βροτῶν**, L’s reading, is strongly confirmed by the exactly similar pleonasm in *O. C.* 280 f., φυγὴν δέ του | μήπω γενέσθαι φωτὸς ἀνοσίου βροτῶν. Cp. also *Od.* 17. 587 οὐ γάρ πώ τινες ὧδε καταθνητῶν ἀνθρώπων | ἀνέρες κ.τ.λ.: 23. 187 ἀνδρῶν δ’ οὔ κέν τις ζωὸς βροτός. The *v. l.* **βροτοῖς** would be an ethic dat., ‘in men’s judgment’ (cp. 1363). It has more point than its rival: but this seems a case in which a tenable reading, with the stronger evidence on its side, should be preferred to a more attractive variant.
 
-**ἔμπληκτοι** (from ἐμπλήσσω, to ‘rush’ or ‘dash’ in), ‘impulsive,’ with the notion of ‘inconstant’: Eur. *Tro.* 1205 (αἱ τύχαι) ἔμπληκτος ὡς ἄνθρωπος, ἄλλοτ’ ἄλλοσε | πηδῶσι. Plat. *Lys.* 214 C μηδέποτε ὁμοίους μηδ’ αὐτοὺς αὑτοῖς εἶναι, ἀλλ’ ἐμπλήκτους τε καὶ ἀσταθμήτους. Plut. *Eumenes* 3 ἔμπληκτον ὄντα καὶ φορᾶς μεστὸν ἀβεβαίου καὶ ὀξείας.
+**ἔμπληκτοι** (from ἐμπλήσσω, to ‘rush’ or ‘dash’ in), ‘impulsive,’ with the notion of ‘inconstant’: Eur. *Tro.* 1205 (αἱ τύχαι) ἔμπληκτος ὡς ἄνθρωπος, ἄλλοτ’ ἄλλοσε | πηδῶσι. Plat. *Lys.* 214 C μηδέποτε ὁμοίους μηδ’ αὐτοὺς αὐτοῖς εἶναι, ἀλλ’ ἐμπλήκτους τε καὶ ἀσταθμήτους. Plut. *Eumenes* 3 ἔμπληκτον ὄντα καὶ φορᾶς μεστὸν ἀβεβαίου καὶ ὀξείας.
 
 ## 1359
 **καὖθις**: αὖθις=‘afterwards,’ as in *Tr.* 270, *Ant.* 1204.
@@ -64,12 +64,13 @@ Odysseus is here replying to the taunt that he is ἔμπληκτος, inconstan
 --- notes
 The lemma of 1365, ἐνθάδ’ ἵξομαι, is divided between this page and the next (ἐνθάδ’ | ἵξομαι): written whole here, its second word left out on p-0287.
 Lines of the draft garbled by the OCR (1358, the Tro. quotation; 1359 "679 ff.") rewritten from the image; ἔμπληκτοι is a new indented paragraph in the print.
+1358	rev: Plat. Lys. 214 C "αὐτοῖς": printed with the smooth breathing (as αὐτοὺς before it), not αὑτοῖς
 
 === p-0287
 + *sc.* τὸ θάπτεσθαι. Cp. *O. T.* 1158 ἀλλ’ εἰς τόδ’ ἥξεις, *sc.* εἰς τὸ ὀλέσθαι. Eur. *H. F.* 1356 ἐς τοῦθ’ ἱκέσθαι, δάκρυ’ ἀπ’ ὀμμάτων βαλεῖν. Here **ἐνθάδε**=ἐκεῖσε: cp. *Ph.* 304 οὐκ ἐνθάδ’ οἱ πλοῖ (=δεῦρο).
 
 ## 1366
-**ἦ πάνθ’ ὅμοια**. Many editors place a colon after ὅμοια, explaining the phrase as a proverb: ‘It is always so: every man works for himself.’ One of the later scholia gives this view: ὄντως πάντα τὰ ἀνθρώπινα ὅμοια· πᾶς γὰρ ἄνθρωπος τὴν ἑαυτοῦ πραγματεύεται σωτηρίαν. (Cp. Terence *Phormio* 264 *ecce autem similia omnia: omnes congruont* etc.) This may be right; but the somewhat homely proverb seems rather too abrupt here for Sophocles. I still prefer the simpler view that ὅμοια is adverbial: ‘in all things alike every man works for himself.’ Even in the matter of giving burial to another man a selfish motive enters. For **αὑτῷ** as dat. of interest with **πονεῖ**, cp. Eur. *H. F.* 388 Μυκηναίῳ πονῶν τυράννῳ.—Some understand, ‘every man does deeds like himself,’—works in his characteristic way,—meaning that Odysseus is, as usual, φίλαυτος. This seems too artificial.
+**ἦ πάνθ’ ὅμοια**. Many editors place a colon after ὅμοια, explaining the phrase as a proverb: ‘It is always so: every man works for himself.’ One of the later scholia gives this view: ὄντως πάντα τὰ ἀνθρώπινα ὅμοια· πᾶς γὰρ ἄνθρωπος τὴν ἑαυτοῦ πραγματεύεται σωτηρίαν. (Cp. Terence *Phormio* 264 *ecce autem similia omnia: omnes congruont* etc.) This may be right; but the somewhat homely proverb seems rather too abrupt here for Sophocles. I still prefer the simpler view that ὅμοια is adverbial: ‘in all things alike every man works for himself.’ Even in the matter of giving burial to another man a selfish motive enters. For **αὐτῷ** as dat. of interest with **πονεῖ**, cp. Eur. *H. F.* 388 Μυκηναίῳ πονῶν τυράννῳ.—Some understand, ‘every man does deeds like himself,’—works in his characteristic way,—meaning that Odysseus is, as usual, φίλαυτος. This seems too artificial.
 
 ## 1367
 **τῷ γάρ με μᾶλλον** κ.τ.λ. Odysseus frankly accepts the imputation of selfishness, which helps his cause by making the favour seem done to *him*. Cp. *Ant.* 736 ἄλλῳ γὰρ ἢ ’μοὶ χρή με τῆσδ’ ἄρχειν χθονός;
@@ -78,7 +79,7 @@ Lines of the draft garbled by the OCR (1358, the Tro. quotation; 1359 "679 ff.")
 **σὸν** appears better than **σόν γ’** here: the σὸν γὰρ ἄρα in a few of the inferior MSS. was probably a conjectural attempt to restore the metre, when ἆρα had become ἄρα.
 
 ## 1369
-**ὡς ἂν ποήσῃς**, *i.e.*, whether you make the deed your own, or merely consent to others doing it. For ὡς ἄν, ‘in whatever way,’ cp. Plat. *Legg.* 881 D κολαζόντων αὐτὸν..ὡς ἂν ἐθέλωσι: *Symp.* 181 A ἐν τῇ πράξει, ὡς ἂν πραχθῇ, τοιοῦτο ἀπέβη: *Crat.* 424 E ὡς ἄν, οἶμαι, δοκῇ ἑκάστη ἡ εἰκὼν δεῖσθαι ἑκάστου φαρμάκου. Apoll. Rhod. 2. 345 καὶ τὰ μὲν ὥς κε πέλῃ, τὼς ἔσσεται. Elsewhere in Sophocles ὡς ἄν=‘in order that’: 655; *O. T.* 329; *O. C.* 72; *Ant.* 215; *Ph.* 129, 826; fr. 816; fr. 1019. 11.
+**ὡς ἂν ποήσῃς**, *i.e.*, whether you make the deed your own, or merely consent to others doing it. For ὡς ἂν, ‘in whatever way,’ cp. Plat. *Legg.* 881 D κολαζόντων αὐτὸν..ὡς ἂν ἐθέλωσι: *Symp.* 181 A ἐν τῇ πράξει, ὡς ἂν πραχθῇ, τοιοῦτο ἀπέβη: *Crat.* 424 E ὡς ἄν, οἶμαι, δοκῇ ἑκάστη ἡ εἰκὼν δεῖσθαι ἑκάστου φαρμάκου. Apoll. Rhod. 2. 345 καὶ τὰ μὲν ὥς κε πέλῃ, τὼς ἔσσεται. Elsewhere in Sophocles ὡς ἄν=‘in order that’: 655; *O. T.* 329; *O. C.* 72; *Ant.* 215; *Ph.* 129, 826; fr. 816; fr. 1019. 11.
 
 **πανταχῇ**, ‘in every case’: cp. 1241; *Ant.* 634 πανταχῇ δρῶντες, ‘however we act’ (n.).
 
@@ -102,6 +103,8 @@ Lines of the draft garbled by the OCR (1358, the Tro. quotation; 1359 "679 ff.")
 --- notes
 ἵξομαι, the second word of the lemma of 1365, written at the end of p-0286 with ἐνθάδ’.
 "apa had become dpa" read from the image: "when ἆρα had become ἄρα"; πανταχῇ (bold, after a dash) made a paragraph of its own under 1369. Many garbled words (Ἐπ. ΑΕ. F., ἐνθάδε-Ξ-, Ὁ.ς. γι, 8206, ws dv, ke) rewritten from the image.
+1366	rev: "For αὐτῷ as dat. of interest": the bold word is printed with the smooth breathing (αὐτῷ, not αὑτῷ); copied as printed (an older spelling of the reflexive, not an evident misprint)
+1369	rev: "For ὡς ἂν, ‘in whatever way,’": printed with the grave (ἂν), not ἄν
 
 === p-0288
 ## 1370

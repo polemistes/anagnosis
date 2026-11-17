@@ -224,7 +224,7 @@ Note 13: the draft's cut at "=" joined again (**σπουδὴν ἔθου τήν
 ## 17
 **κώδωνος..Τυρσηνικῆς**. The trumpet meant here was in form like the Roman,—straight, gradually increasing in diameter, and ending in a bell-shaped aperture (κώδων). ‘Tyrrhenian,’ a frequent epithet of the trumpet (Aesch. *Eum.* 567, Eur. *Phoen.* 1377, Verg. *Aen.* 8. 526, etc.), perhaps means no more than that the instrument was first brought to Europe by Tyrrhenian pirates,—the λῃστοσαλπιγκταί of Menander (frag. incert. 399). The Tyrrheni, according to a tradition for which Herodotus is the earliest witness (1. 94), were of Lydian origin; and the bronze trumpet may have been a Lydian invention (see *Dict. Ant.* ‘Tuba’). Homer mentions the trumpet only in similes, as when the voice of Achilles is likened to it (*Il.* 18. 219, etc.). But the Greeks must have had it as early at least as the time of the Dorian conquest, to judge from the legends heard by Pausanias at Argos (2. 21, § 3), where there was a shrine of Ἀθηνᾶ Σάλπιγξ.—See Appendix.
 
-As to the gender of κώδων, Arist. *De Sens.* 6 p. 446 *b* 22 has τῆς κώδωνος (bell). In Ar. *Pax* 1078 the words χὴ κώδων ἀκαλανθίς are said to mean a kind of hound. But κώδων (bell) is masc. with Thuc., Strabo, Plutarch, Diodorus and Lucian.
+As to the gender of κώδων, Arist. *De Sens.* 6 p. 446 *b* 22 has τῆς κώδωνος (bell). In Ar. *Pax* 1078 the words χἡ κώδων ἀκαλανθίς are said to mean a kind of hound. But κώδων (bell) is masc. with Thuc., Strabo, Plutarch, Diodorus and Lucian.
 
 ## 18
 **ἐπέγνως** with partic. (κυκλοῦντ’) of the act *observed*, as Xen. *Cyr.* 8. 1. 33 ἐπέγνως δ’ ἂν..οὐδένα οὔτε ὀργιζόμενον..οὔτε χαίροντα. For slightly different uses of ἐπιγιγνώσκω, cp. *Ant.* 960, *El.* 1296. Remark **εὖ** as 2nd syll. of 4th foot, referring to the word before it: cp. 95, *Ant.* 166, 723.
@@ -263,6 +263,7 @@ As to the gender of κώδων, Arist. *De Sens.* 6 p. 446 *b* 22 has τῆς κ
 22 (0. [conf] → (*O.*
 --- notes
 Note 19 (τῷ σακεσφόρῳ): the draft's garbled line ("together ἑπταβόειον seven") and the false paragraph at "*i.e.*" mended from the image. "21 f." is ## 21. Verg. *Aen.* 8. 526 (draft 520).
+17	rev: "χὴ κώδων" corrected to "χἡ κώδων" (rough breathing, no accent, as printed)
 
 === p-0099
 + δρᾶν, ποιεῖν, etc. (cp. 1324).

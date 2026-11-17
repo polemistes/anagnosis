@@ -158,7 +158,7 @@ Read through from the column images: the Shakespeare verses are italic as printe
 
 **οὐκ ἀντιτείσειν**: for the spelling τείσω, etc., see on *O. T.* 810. οὐ with inf. is normal after a verb of saying or thinking (n. on *O. T.* 1455).
 
-**ἃν λυπώμεθα**: for the assonance (parechesis) at the end of two successive verses, cp. 807 f., *Ph.* 121 f. (παρήνεσα, συνήνεσα), *Tr.* 1265 f. (συγγνωμοσύνην, ἀγνωμοσύνην). It is needless to read ἃν λυποίμεθα, though the optat. might be illustrated by Alcaeus fr. 82 (Bergk) αἴ κ᾽ εἴπῃς τὰ θέλεις, ἢ κεν ἀκούσαις τά κεν οὐ θέλοις. Schneidewin quotes also Hes. *Op.* 721 εἰ δὲ κακὸν εἴπῃς, τάχα κ᾽ αὐτὸς μεῖζον ἀκούσαις: Libanius 2. 84 δρῶντες ἅττα ἐθέλουσι πάσχειν δύναιντ᾽ ἂν ἅττα ἂν οὐκ ἐθέλοιεν.
+**ἃν λυπώμεθα**: for the assonance (parechesis) at the end of two successive verses, cp. 807 f., *Ph.* 121 f. (παρῄνεσα, συνῄνεσα), *Tr.* 1265 f. (συγγνωμοσύνην, ἀγνωμοσύνην). It is needless to read ἃν λυποίμεθα, though the optat. might be illustrated by Alcaeus fr. 82 (Bergk) αἴ κ᾽ εἴπῃς τὰ θέλεις, ἦ κεν ἀκούσαις τά κεν οὐ θέλοις. Schneidewin quotes also Hes. *Op.* 721 εἰ δὲ κακὸν εἴπῃς, τάχα κ᾽ αὐτὸς μεῖζον ἀκούσαις: Libanius 2. 84 δρῶντες ἅττα ἐθέλουσι πάσχειν δύναιντ᾽ ἂν ἅττα ἂν οὐκ ἐθέλοιεν.
 
 ## 1087
 **παραλλὰξ**, alternately; so in Her. 3. 40 ἐναλλὰξ πρήσσων=‘with alternations of fortune’ (good and evil).
@@ -191,8 +191,8 @@ The dramatic function of a Chorus required that these Salaminian sailors, while 
 12 7. [conf] → *Tr.*
 13 807 [conf] → ok
 14 f. [conf] (Greek model: τ) → f.
-15 παρήνεσα [accent] → ok
-16 συνήνεσα [accent] → ok
+15 παρήνεσα [accent] → παρῄνεσα
+16 συνήνεσα [accent] → συνῄνεσα
 17 λυποίμεθα [greek] → ok
 18 Schneidewin [conf] → ok
 19 δύναιντ᾽ [accent] → ok
@@ -205,6 +205,8 @@ The dramatic function of a Chorus required that these Salaminian sailors, while 
 26 ὑποθείς.---ἐν [conf] → ὑποθείς. (then **ἐν θανοῦσιν** new paragraph)
 --- notes
 Read through from the column images: "Polyb. 1. 47. 2" (draft "47- 2"); bold καίριον inside its paragraph (draft "καίρwv"); lemma "ἃν λυπώμεθα" (draft "dv") cut at its dash into a new paragraph; "ὅπως | μὴ" with the printed bar; "v. 1109" is printed in bold; "Menelaüs" as printed; ἐναλλὰξ πρήσσων=‘with (draft "=*"); "see n. on" (draft "ἢ."); italics *Ach.*, *Ph.*, *Op.*.
+1085	rev: παρήνεσα, συνήνεσα → παρῄνεσα, συνῄνεσα (iota subscript printed under both)
+1085	rev: Alcaeus "ἢ κεν" → "ἦ κεν" (circumflex printed)
 
 === p-0250
 ## 1093

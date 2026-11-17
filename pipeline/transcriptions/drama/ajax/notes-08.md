@@ -3,7 +3,7 @@
 **ὦ πρὸς θεῶν** κ.τ.λ. The MSS. seem right in giving this verse to the Chorus. Just after so violent a rebuke, the timid Tecmessa would scarcely venture on praying her ‘master’ to be ‘sane’; while the intercession of the Chorus is natural enough.
 
 ## 372
-**ὦ δύσμορος**: cp. *Ant.* 1319 ὦ μέλεος, where ὦ is exclamatory, and stronger than the mere sign of the vocative (ὦ).
+**ὢ δύσμορος**: cp. *Ant.* 1319 ὢ μέλεος, where ὢ is exclamatory, and stronger than the mere sign of the vocative (ὦ).
 
 **ὃς**, with causal force; *El.* 160 n.
 
@@ -26,7 +26,7 @@
 --- flags
 1 k.7.\. [conf] (Greek model: κιτιλ.) → κ.τ.λ.
 2 mss. [conf] → MSS.
-3 ὠὦ [accent] (Greek model: ὠ) → ὦ
+3 ὠὦ [accent] (Greek model: ὠ) → ὢ
 4 (w).—8s, [digit] (Greek model: (ὦ).---ὃς,) → (ὦ).—ὃς,
 5 ZZ [latin] (Greek model: ΤΥ) → El.
 6 xepl [latin] (Greek model: πιποχερὶ) → χερὶ
@@ -42,6 +42,7 @@
 16 (1) [digit] → ok
 --- notes
 Heading "372 ff." → ## 372. Further lemmas ὃς and χερὶ μὲν μεθῆκα cut into paragraphs (bold after a dash); χερὶ inside the paragraph bold as printed. Read-through: θεών → θεῶν; § χρό → § 296; 77. τι. → Il. 11.; Ξε ποίμνιον → =ποίμνιον; 77. 848 → Tr. 848; dv → ἂν; il → it; italics set.
+372	rev: lemma ὦ δύσμορος → ὢ δύσμορος, and "ὦ μέλεος, where ὦ is exclamatory" → ὢ (smooth breathing and grave, as printed; only the vocative sign "(ὦ)" has the circumflex)
 
 === p-0151
 + (2) οὐκ ἂν γένοιτο ὅπως τοῦτο οὐχ ὧδ’ ἕξει,—with the same meaning: cp. *O. T.* 1058 f. οὐκ ἂν γένοιτο τοῦθ’, ὅπως ἐγὼ . . | . . οὐ φανῶ τοὐμὸν γένος. In other words, the constr. would be plain if **ὅπως** were struck out. The irregular presence of ὅπως is due to its association with statements of impossibility in the formula οὐκ ἔστιν ὅπως οὐ (*O. C.* 97, *El.* 1479): its *place* is explained by the analogy of such a sentence as *O. T.* 1058 οὐκ ἂν γένοιτο τοῦθ’, ὅπως κ.τ.λ., where τοῦτο is subject to γένοιτο. The declension of οὐδεὶς-ὅστις-οὐ, as an integral equivalent for πᾶς τις, similarly illustrates the manner in which the associations of idiom could sometimes generate anomalies in grammar.
@@ -168,7 +169,7 @@ Headings "389 f.", "394 f.", "396 f." → ## 389, ## 394, ## 396. "etc.—βασ
 **βλέπειν**, to look for help; cp. *El.* 958 ἐς τίν’ ἐλπίδων | βλέψασ’ ἔτ’ ὀρθήν;
 
 ## 401
-**ἁ Διὸς...θεὸς**: cp. 450: *O. C.* 623 χὢ Διὸς Φοῖβος.
+**ἁ Διὸς...θεὸς**: cp. 450: *O. C.* 623 χὠ Διὸς Φοῖβος.
 
 **ὀλέθριον** should answer metrically to εὔφρονες in 420. If it be sound, the first syllable must represent the anacrusis, which is omitted before εὔφρονες: and the ε is long, as it is in 799 (ὀλεθρίαν), *O. T.* 1341 (ὀλέθριον), and *O. C.* 1683 (ὀλεθρία): though we find ε̆ in *Tr.* 845 (ὀλεθρίαισι), and *ib.* 878 (ὀλεθρία). The neatest emendation is **οὔλιον** (cr. n.).
 
@@ -199,6 +200,7 @@ Headings "389 f.", "394 f.", "396 f." → ## 389, ## 394, ## 396. "etc.—βασ
 --- notes
 Headings "398 ff.", "401 f.", "403 f.", "405 ff." → ## 398, ## 401, ## 403, ## 405. 401: lemma restored (the draft had "ff a Διὸς.. θεὸς" as plain text); ἄξιος and βλέπειν (after dashes) and ὀλέθριον are further lemmas. Bold inside paragraphs as printed: ὄνασιν, εἰς, οὔλιον, τοῖσδ’, τινα, ὁμοῦ πέλας, τοιοῖσδ’. Read-through: xw → χὢ; € in 77. 845 → ε̆ in Tr. 845; 76. 878 → ib. 878; 77. 973 → Tr. 973; φύγῃ... μενῶ; Twa of of- Twa → τινα of οὔτινα; a → α; οὔτιν’ a → οὔτιν’ ἁ (rough breathing as printed); ~— → ⏑ –; "merits," → "merits."; "ἐξερῶ," → "ἐξερῶ."; italics set.
 "ε" (twice) and "α" are the letters Jebb names ("the ε is long", "we find ε̆", "the α, being the last syllable"), printed without breathing: kept (the checker's three remarks).
+401	rev: χὢ → χὠ (coronis only, no grave, as printed)
 
 === p-0155
 + be: ‘If those things (τὰ μὲν, his glories in the past) perish, my friends, ὁμοῦ τοιοῖσδε, *along with* (*i.e.*, by the slaughter of) such creatures, πέλας, near me there’. But πέλας may have been a marginal gloss (on ὁμοῦ), which has displaced some other word: *e.g.*, the poet may have written **τοιοῖσδ’ ὁμοῦ βοτοῖς** (cp. v. 453).

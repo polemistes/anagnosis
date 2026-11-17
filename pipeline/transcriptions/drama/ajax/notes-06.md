@@ -239,7 +239,8 @@ The general word, **ἄκλητος**, is defined by the two clauses in appositi
 25 σίγων [accent] (Greek model: ἔόγον,) → ’σίγων
 26 -κόσμον [conf] → **κόσμον**:
 --- notes
-The right column was garbled in the draft (from "σάλπιγγος" to "Liv. 25. 9 § 8" and the Aristophanes quotation): rewritten from the image. Cut at the bold lemmas after dashes: ἐξόδους ἕρπειν, κενάς (under 287; the draft had run κενάς into a garble), σάλπιγγος, πᾶς εὕδει στρατός (under 289), κόσμον (under 292). Bold inside paragraphs as printed: ἄκλητος, οὔτε, πεῖραν. Corrected from the read-through: ἔμεν (draft ἐμὲν), θέρεσθαι). (draft "θέρεσθαι!)"), φαείνοιεν· (draft "φαείνοιεν "), *Il.* 2. 414 (draft 71.), Thuc. 1. 15 § 2 (draft "1. Τό ξ᾽ 2"), *El.* 1054 (draft 22:), Thuc. 4. 78 § 5 (draft $5), *decantata*, ἀεὶ, καὶ (draft del, kal), Plat. *Rep.* p. 549 D (draft Ὁ), σιγή τε καὶ (draft Te kal), ἀλλ’ αὐτόκλητος (draft ἀλλ᾽ αὐτόκλητος, from the right column's top); italics set.
+The right column was garbled in the draft (from "σάλπιγγος" to "Liv. 25. 9 § 8" and the Aristophanes quotation): rewritten from the image. Cut at the bold lemmas after dashes: ἐξόδους ἕρπειν, κενάς (under 287; the draft had run κενάς into a garble), σάλπιγγος, πᾶς εὕδει στρατός (under 289), κόσμον (under 292). Bold inside paragraphs as printed: ἄκλητος, οὔτε, πεῖραν. Corrected from the read-through: θέρεσθαι). (draft "θέρεσθαι!)"), φαείνοιεν· (draft "φαείνοιεν "), *Il.* 2. 414 (draft 71.), Thuc. 1. 15 § 2 (draft "1. Τό ξ᾽ 2"), *El.* 1054 (draft 22:), Thuc. 4. 78 § 5 (draft $5), *decantata*, ἀεὶ, καὶ (draft del, kal), Plat. *Rep.* p. 549 D (draft Ὁ), σιγή τε καὶ (draft Te kal), ἀλλ’ αὐτόκλητος (draft ἀλλ᾽ αὐτόκλητος, from the right column's top); italics set.
+rev: *Od.* 19. 64 "φόως ἔμεν": Jebb prints "ἐμὲν" (smooth breathing, grave on the last syllable; the first agent's note called this the draft's error, but it is the print). An evident misprint for Homer's infinitive ἔμεν (no word ἐμέν exists); ἔμεν kept, as corrected.
 
 === p-0139
 ## 294
@@ -271,7 +272,7 @@ The right column was garbled in the draft (from "σάλπιγγος" to "Liv. 25
 **φῶτας**, here opposed, as ἄνδρας is in 64, to θῆρας: sometimes φώς is opp. to θεός (*Il.* 17. 98 etc.).
 
 ## 301
-**ὑπᾴξας** is not a certain reading here; but (despite the fact that the first hand in L wrote ἀπᾷξας) it has, on the whole, at least as good authority as **ἀπᾴξας**. The latter makes good sense
+**ὑπᾴξας** is not a certain reading here; but (despite the fact that the first hand in L wrote ἀπᾶξας) it has, on the whole, at least as good authority as **ἀπᾴξας**. The latter makes good sense
 --- flags
 1 μαθοῦσ᾽ [accent] → μαθοῦσ’
 2 #. [conf] → *v.*
@@ -296,10 +297,11 @@ The right column was garbled in the draft (from "σάλπιγγος" to "Liv. 25
 21 801f. [digit] (Greek model: 8901:) → 301 f. (the heading: `## 301`)
 22 ὑπάξας [accent] (Greek model: ὑπάξας.) → ὑπᾴξας
 23 is [conf] → ok
-24 ἀπᾶξας [greek] (Greek model: ἀπᾶξαϑ)) → ἀπᾷξας
+24 ἀπᾶξας [greek] (Greek model: ἀπᾶξαϑ)) → ok
 25 ἀπάξας [greek] → ἀπᾴξας
 --- notes
-Cut at the bold lemmas after dashes: ἐσσύθη (under 294), εὔερον (under 297), ἔσφαζε, κἀρράχιζε, ὥστε, φῶτας (under 298; the draft had run ἔσφαζε into the ἄνω τρέπων paragraph and "κἀρράχιζε" and "ὥστε" into the paragraphs before). Bold inside paragraphs as printed: τύχας, εὔκερων (first), ἀπᾴξας. The digamma written ϝ (ἀϝ-ϝέρυσαν, ἀν-ϝερ). ὑπᾴξας, ἀπᾷξας, ἀπᾴξας with the iota subscript as printed. Corrected from the read-through: *Theog.*, *ib.* 1724 (draft 10.), *Ant.* 979 (draft 070), "a certain emendation" (draft ἃ), *Tr.* 675, *P.* 2. 93, *Il.* 1. 459 (draft 7.), καὶ (draft kal), *O. C.* 343, etc. (draft εἰς.), ".." of omission as printed; italics set.
+Cut at the bold lemmas after dashes: ἐσσύθη (under 294), εὔερον (under 297), ἔσφαζε, κἀρράχιζε, ὥστε, φῶτας (under 298; the draft had run ἔσφαζε into the ἄνω τρέπων paragraph and "κἀρράχιζε" and "ὥστε" into the paragraphs before). Bold inside paragraphs as printed: τύχας, εὔκερων (first), ἀπᾴξας. The digamma written ϝ (ἀϝ-ϝέρυσαν, ἀν-ϝερ). ὑπᾴξας, ἀπᾴξας with the iota subscript as printed. Corrected from the read-through: *Theog.*, *ib.* 1724 (draft 10.), *Ant.* 979 (draft 070), "a certain emendation" (draft ἃ), *Tr.* 675, *P.* 2. 93, *Il.* 1. 459 (draft 7.), καὶ (draft kal), *O. C.* 343, etc. (draft εἰς.), ".." of omission as printed; italics set.
+rev: 301: the first hand's reading is printed "ἀπᾶξας" (circumflex, no iota subscript, italic), as the OCR read it: the draft's ἀπᾷξας put back to the print (flag 24 → ok); it reports a manuscript spelling, so it is not a misprint to correct.
 
 === p-0140
 + enough, ‘rushing *away* from me’; but ὑπᾴξας, expressing the sudden rush *forward*, as if towards something which had suddenly caught his attention, adds a picturesque touch which is absent from the other reading. For this sense of ὑπό in comp., cp. ὑπάγω, etc. The third possibility, **ἐπᾴξας**, would properly denote a rush *onwards* in a direction which had already been taken; and is thus less fitting here.

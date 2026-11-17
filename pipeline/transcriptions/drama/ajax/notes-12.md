@@ -1,5 +1,5 @@
 === p-0182
-+ sonification that the tautology of this phrase would not be felt. Cp. *Il.* 2. 758 Πρόθοος θοὸς ἡγεμόνευεν. The Homeric sense of ἀΐδηλος is active, ‘destroying’ (ἀφανίζων): but Hes. *Op.* 754 has ἀΐδηλα as = ἀφανῆ.
++ sonification that the tautology of this phrase would not be felt. Cp. *Il.* 2. 758 Πρόθοος θοὸς ἡγεμόνευεν. The Homeric sense of ἀΐδηλος is active, ‘destroying’ (ἀφανίζων): but Hes. *Op.* 754 has ἀΐδηλα as=ἀφανῆ.
 
 ## 610
 **ἔφεδρος** was said of an athlete who ‘sat by’ at a match between two other men, prepared to engage the winner (cp. *suppositicius* in Mart. 5. 24. 8). Thus in *Ran.* 792 Sophocles proposes ἔφεδρος καθεδεῖσθαι, while the two other poets contend, and to encounter Euripides if the latter should vanquish Aeschylus. To the Chorus (χρόνῳ τρυχόμενος), Ajax is an ἔφεδρος, as being a fresh trouble in reserve. Schol.: πρὸς τοῖς πρώτοις κακοῖς ὥσπερ δεύτερόν ἐστί μοι κακὸν τὸ τοῦ Αἴαντος ξυνεστηκός: where the last word is happily chosen to mark that ἔφεδρος implies a trouble with which they have *to grapple*: see on *O. C.* 514 ἀλγηδόνος, ᾇ ξυνέστας. For the fig. sense, cp. Philo vol. 2 p. 527 μετὰ πάσας τὰς αἰκίας..αὐτοῖς ἡ τελευταία καὶ ἔφεδρος τιμωρία σταυρὸς ἦν, ‘after all their torments, the final doom *reserved* for them was the cross.’ The technical sense of the word was so familiar (cp. Pind. *N.* 4. 96, Aesch. *Cho.* 866) that it would be understood here without direct help from the context.
@@ -16,7 +16,7 @@ Prof. Campbell pronounces this interpretation ‘untenable,’ and renders ἔφ
 
 **πρὶν δή ποτε**, ‘in some bygone day.’
 
-**Ἄρει** with ᾱ, as in 254 (n.).
+**Ἄρει** with **ᾱ**, as in 254 (n.).
 
 ## 614
 **φρενὸς οἰοβώτας**, ‘a lonely pasturer of his thoughts,’—*i.e.*, one who nurses lonely thoughts. They allude to the gloomy and ominous despair which has replaced his frenzy. The ending -βώτης could mean either βοσκόμενος, as in *Ph.* 1148 οὐρεσιβώτας (θῆρας), or βόσκων. The latter seems best here; his φρήν represents the flock; he is the shepherd. Cp. Aesch. *Suppl.* 304 ποῖον
@@ -39,9 +39,11 @@ Prof. Campbell pronounces this interpretation ‘untenable,’ and renders ἔφ
 --- notes
 ## 614: Jebb's number; our text has no 614. "ᾱ" (after Ἄρει) is the letter alpha with a long mark, as printed, so it has no breathing.
 612: the lemma ends the note at "from herself.’"; Jebb's further bold lemmas after dashes (πρὶν δή ποτε, Ἄρει) made new paragraphs; ξύναυλος: only the Greek word is bold, (αὐλή) plain.
+run-on	rev: "as = ἀφανῆ" made "as=ἀφανῆ" (closed up as printed)
+612	rev: the ᾱ after Ἄρει is printed bold: made **ᾱ**
 
 === p-0183
-+ πανόπτην οἰοβουκόλον λέγεις; (Argus,—Io being his sole charge.) Simonides fr. 133 Ὄσσα, Κιθαιρῶνός τ’ οἰονόμοι σκοπιαί. Other compounds in which οἷος has a like force are οἰόφρων (πέτρα, Aesch. *Suppl.* 795), οἰόζωνος (*O. T.* 846).
++ πανόπτην οἰοβουκόλον λέγεις; (Argus,—Io being his sole charge.) Simonides fr. 133 Ὄσσα, Κιθαιρῶνός τ’ οἰονόμοι σκοπιαί. Other compounds in which οἶος has a like force are οἰόφρων (πέτρα, Aesch. *Suppl.* 795), οἰόζωνος (*O. T.* 846).
 
 ## 615
 **ηὕρηται**. ηὕρημαι is usually pass.; but sometimes midd., as in Dem. or. 19 § 17, or. 55 § 31, Aeschin. or. 3 § 162. Here the pass. sense is more forcible: Ajax is himself the πένθος.
@@ -89,6 +91,7 @@ Prof. Campbell pronounces this interpretation ‘untenable,’ and renders ἔφ
 21 εὖ. [conf] → Theb.
 --- notes
 ## 625: Jebb's number; our text has no 625. "εν" (622, "the εν of μὲν") is two letters of μέν, as printed, so it has no breathing.
+run-on	rev: "οἷος" made "οἶος" (smooth breathing on the page, as on ὦ below; the word is οἶος, alone, as in οἰοβώτας)
 616: Jebb divides "hand-|deeds" at a line end; written hand-deeds (taken as his compound), not "handdeeds".
 
 === p-0184
@@ -106,7 +109,7 @@ Prof. Campbell pronounces this interpretation ‘untenable,’ and renders ἔφ
 **χερόπλακτοι..δοῦποι**, the sound of beating hands: cp. 55 πολύκερων φόνον (n.): *O. C.* 1464 κτύπος..διόβολος.
 
 ## 634
-**ἄμυγμα**, here ‘rending,’ would ordinarily mean ‘a scratch’; cp. Aesch. *Ch.* 24 πρέπει παρηΐς φοινίοις ἀμυγμοῖς. The more natural word here would have been σπάραγμα: cp. Eur. *Andr.* 826 σπάραγμα κόμας ὀνύχων τε δάϊ’ ἀμύγματα θήσομαι: *ib.* 1209 οὐ σπαράξομαι κόμαν.
+**ἄμυγμα**, here ‘rending,’ would ordinarily mean ‘a scratch’; cp. Aesch. *Ch.* 24 πρέπει παρηῒς φοινίοις ἀμυγμοῖς. The more natural word here would have been σπάραγμα: cp. Eur. *Andr.* 826 σπάραγμα κόμας ὀνύχων τε δάϊ’ ἀμύγματα θήσομαι: *ib.* 1209 οὐ σπαράξομαι κόμαν.
 
 ## 635
 **κρείσσων..κεύθων**, the personal constr., instead of κρεῖσσόν ἐστι κεύθειν αὐτόν: cp. *O. T.* 1368 κρείσσων γὰρ ἦσθα μηκέτ’ ὢν ἢ ζῶν τυφλός: Lys. or. 26 § 4 κρείττων ἦν ὁ πατὴρ αὐτοῦ μὴ λειτουργήσας: Dem. or. 4 § 34 οἴκοι μένων βελτίων: Dionys. *Ant.* 6. 9 κρείττων γὰρ ἂν...γένοιτο ὁ τοιοῦτος πολίτης ἀποθανών.
@@ -128,7 +131,7 @@ Elmsley’s emendation, **παρ’** Ἅιδᾳ, instead of **γὰρ** Ἅιδ
 13 ZZ [latin] (Greek model: Υ͂) → Il.
 14 FEI. [conf] → El.
 15 ‘rending,” [conf] → ‘rending,’
-16 παρηϊς [accent] (Greek model: παρηῖς) → παρηΐς
+16 παρηϊς [accent] (Greek model: παρηῖς) → παρηῒς
 17 2b. [digit] (Greek model: τό.) → ib.
 18 635 [conf] → ok
 19 f. [conf] (Greek model: «.) → ok
@@ -140,7 +143,8 @@ Elmsley’s emendation, **παρ’** Ἅιδᾳ, instead of **γὰρ** Ἅιδ
 25 Αἰδᾳ [accent] (Greek model: “Αιδᾳ.) → Ἅιδᾳ
 26 Μ55.), [digit] → MSS.),
 --- notes
-634: Jebb prints παρηΐς (diaeresis with an acute), as written.
+634: Jebb prints παρηῒς (diaeresis with a grave), as written.
+634	rev: παρηΐς made παρηῒς: the accent between the dots is a grave on the page (it slopes as the grave of γὰρ), not an acute; the first agent's note above corrected
 
 === p-0185
 + but here he may have been thinking of *Il.* 23. 244 εἰς ὅ κεν αὐτὸς ἐγὼν Ἄϊδι κεύθωμαι. The personal sense of Hades easily passes into the local; thus we have not only εἰς Ἅιδου (*Tr.* 4), but εἰς Ἀΐδαν (*El.* 833). For the simple dat., cp. *El.* 174 οὐρανῷ (n.).
@@ -207,7 +211,7 @@ The ingenious conjecture of Burges, ὃς **εὖ** πατρῴας ἥκων γ
 ## 644
 **ἔθρεψεν**: cp. 503, n. on τρέφει.
 
-**αἰὼν** (if sound) means ‘life,’ not merely as = ‘living man,’ but in the sense of ‘life-destiny’: cp. *Tr.* 34 τοιοῦτος αἰὼν εἰς δόμους τε κἀκ δόμων | ἀεὶ τὸν ἄνδρ’ ἔπεμπε. The strict meaning would be then, ‘no life-destiny which the line of Aeacus has known.’ There is a certain pathos in this which may plead for it as against Reiske’s very plausible emendation **δίων** (Δ for A), which may be right, though, as compared with αἰών, it is perhaps a little weak. Cp. *Il.* 5. 451 δῖοι Ἀχαιοί.
+**αἰὼν** (if sound) means ‘life,’ not merely as=‘living man,’ but in the sense of ‘life-destiny’: cp. *Tr.* 34 τοιοῦτος αἰὼν εἰς δόμους τε κἀκ δόμων | ἀεὶ τὸν ἄνδρ’ ἔπεμπε. The strict meaning would be then, ‘no life-destiny which the line of Aeacus has known.’ There is a certain pathos in this which may plead for it as against Reiske’s very plausible emendation **δίων** (Δ for A), which may be right, though, as compared with αἰών, it is perhaps a little weak. Cp. *Il.* 5. 451 δῖοι Ἀχαιοί.
 
 ## 646-692
 Second ἐπεισόδιον. Ajax comes forth from the tent, and addresses his faithful friends. The speech translates his unshaken purpose into the terms of his altered mood; yet so as to veil his meaning from the hearers, and to make them think that not only the mood, but the purpose, is changed. (See Introduction, § 12.) Tecmessa who left the scene at 595, now returns, entering on the right of the spectators, and leading her child. Their presence adds effect to v. 653; and Ajax addresses her at v. 684.
@@ -215,7 +219,7 @@ Second ἐπεισόδιον. Ajax comes forth from the tent, and addresses his 
 ## 646
 **ὁ μακρὸς..χρόνος**: see Her. 5. 9, quoted in n. on 86.
 
-**φύει τ’** κ.τ.λ.: the emphasis is on the power of time to enfeeble and destroy, rather than to produce; but the first clause serves to bring the second into relief, and is co-ordinated with it, as in *Ant.* 1112 αὐτός τ’ ἔδησα καὶ παρὼν ἐκλύσομαι.—The rash change of **φύει** to **φαίνει** overlooks the poet’s tendency to vary his phrase in such cases; *e.g.* *O. C.* 1501 σαφὴς μὲν ἀστῶν ἐμφανὴς δὲ τοῦ ξένου: *O. T.* 54 ἄρξεις..κρατεῖς.
+**φύει** τ’ κ.τ.λ.: the emphasis is on the power of time to enfeeble and destroy, rather than to produce; but the first clause serves to bring the second into relief, and is co-ordinated with it, as in *Ant.* 1112 αὐτός τ’ ἔδησα καὶ παρὼν ἐκλύσομαι.—The rash change of **φύει** to **φαίνει** overlooks the poet’s tendency to vary his phrase in such cases; *e.g.* *O. C.* 1501 σαφὴς μὲν ἀστῶν ἐμφανὴς δὲ τοῦ ξένου: *O. T.* 54 ἄρξεις..κρατεῖς.
 
 **κρύπτεται**, properly, ‘hides in its own bosom’ (midd.): cp. Aesch. *Cho.* 127 γαῖαν..ἣ τὰ πάντα τίκτεται, ‘produces from herself.’ The midd. of the simple κρύπτω is rare: but cp. 246, and *Tr.* 474 κρύψομαι (n.).
 
@@ -252,6 +256,8 @@ Second ἐπεισόδιον. Ajax comes forth from the tent, and addresses his 
 22 ---περισκελεῖς [conf] → —περισκελεῖς
 --- notes
 646: the draft's "566 Her." is "see Her." in the print.
+646	rev: lemma "**φύει τ’**" made "**φύει** τ’": only φύει is bold on the page, τ’ is in the light italic type
+644	rev: "as = ‘living man,’" made "as=‘living man,’" (closed up as printed)
 
 === p-0187
 + *Ant.* 475 σίδηρον ὀπτὸν ἐκ πυρὸς περισκελῆ (n.). Thus the associations of the word lead naturally to his next thought.

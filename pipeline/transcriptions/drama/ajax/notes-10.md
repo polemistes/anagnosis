@@ -363,7 +363,7 @@ The draft cut "question of Ajax—ἐν τοῖσδε τοῖς κακοῖσι�
 ## 547
 **δικαίως**, in a full and true sense: cp. *O. T.* 852 οὔτοι ποτ’, ὦναξ, τόν γε Λαΐου φόνον | φανεῖ δικαίως ὀρθόν, *i.e.* ‘properly fulfilled.’
 
-**τὰ πατρόθεν** is redundant, but not pointless; the qualities derived from the father will prevail over any weaker qualities derived μητρόθεν.
+**τὰ πατρόθεν** is redundant,
 --- flags
 1 pass. [conf] → pass.;
 2 2. [conf] → *P.*
@@ -389,8 +389,11 @@ The draft cut "question of Ajax—ἐν τοῖσδε τοῖς κακοῖσι�
 22 πλήγpaow [mixed] (Greek model: 'μασιν.---ὙΠετα.) → πλήγμασιν.—There
 --- notes
 The 543 note was scrambled in the draft (left out its heading, its lines run together: "presses χωρῶν 548 ἀπείλει … exunable"): heading ## 543 and the note rewritten from the image; further lemma λελειμμένῳ λόγων made a paragraph. The draft had cut "παρουσίαν ἔχειν=παρεῖναι" at the "=" (read "--"): joined, the bold on παρουσίαν ἔχειν only. Further lemmas γε (with bold πέλας), προσπόλοις, παρουσίαν ἔχειν, ταρβήσει γὰρ οὐ, τὰ πατρόθεν made paragraphs. The draft had cut "the helmet,—ταρβήσας χαλκόν τε ἰδὲ λόφον ἱππιοχαίτην." at the dash and bolded it: it is a plain-type quotation of *Il.* 6. 469: joined again with the dash. Bold που, τοῦ, τοῦτόν γε, του inside the 546 paragraph as printed. "Ar. *Pax* 1 αἶρ’ αἶρε μᾶζαν" (draft "Ar. αχ τ αἷρ᾽"); "τὸ πᾶν" (draft TO); "*i.e.* ‘properly fulfilled.’"; "re-|dundant" divided between pages: written whole here.
+547	rev: the rest of the τὰ πατρόθεν paragraph ("but not pointless; … μητρόθεν.") stands at the top of p-0173 in the print: moved there as a `+ ` run-on; only the divided word "redundant," stays here
 
 === p-0173
++ but not pointless; the qualities derived from the father will prevail over any weaker qualities derived μητρόθεν.
+
 ## 548
 **ὠμοῖς..ἐν νόμοις**, the rugged usages of a warrior inured to the sight of bloodshed. For the adj., cp. 205 ὠμοκρατής, n. In saying νόμοις rather than τρόποις, he speaks with a certain heroic grandeur (μεγαλοφρονῶν, as the schol. remarks). Cp. Hor. *C.* 2. 15. 11 *non ita Romuli* | *Praescriptum et intonsi Catonis* | *Auspiciis veterumque norma.*
 
@@ -436,5 +439,7 @@ The 543 note was scrambled in the draft (left out its heading, its lines run tog
 22 (cp. [conf] → ok
 23 Anz. [conf] → *Ant.*
 --- notes
-The page begins with the rest of "re-|dundant", written whole at the foot of p-0172: the run-on paragraph is complete there, so this block has no `+ ` (the word is left out here). The draft had cut "his father,—ὧδε βίην τ’ ἀγαθὸν καὶ Ἰλίου ἶφι ἀνάσσειν" at the dash and bolded it: a plain-type quotation of *Il.* 6. 478: joined again with the dash. Further lemmas σε and τοῦτό γε made paragraphs. "Xen. *Oec.* 3. 10" (draft "Xen, Ow."), "Plut. *Mor.* 13 E" (draft Plat.), "Verg. *Aen.*" (draft den.), "*Armorum Iudicium*" (the swash I of the italic), "τουτὶ γάρ τοί σε μόνον..μακαρίζω", "It might, however, be adv." (draft δᾶν..), "*O. T.* 424" (draft Ο. 7:). Latin of Horace, Attius and Vergil in italics.
+The page begins with the rest of "re-|dundant", written whole at the foot of p-0172 (the word is left out here).
+547	rev: the run-on "but not pointless; the qualities derived from the father will prevail over any weaker qualities derived μητρόθεν." is printed at the head of this page's left column: put here with `+ ` (it had been put whole on p-0172)
+The draft had cut "his father,—ὧδε βίην τ’ ἀγαθὸν καὶ Ἰλίου ἶφι ἀνάσσειν" at the dash and bolded it: a plain-type quotation of *Il.* 6. 478: joined again with the dash. Further lemmas σε and τοῦτό γε made paragraphs. "Xen. *Oec.* 3. 10" (draft "Xen, Ow."), "Plut. *Mor.* 13 E" (draft Plat.), "Verg. *Aen.*" (draft den.), "*Armorum Iudicium*" (the swash I of the italic), "τουτὶ γάρ τοί σε μόνον..μακαρίζω", "It might, however, be adv." (draft δᾶν..), "*O. T.* 424" (draft Ο. 7:). Latin of Horace, Attius and Vergil in italics.
 

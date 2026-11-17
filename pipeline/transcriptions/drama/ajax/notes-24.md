@@ -1,7 +1,7 @@
 === p-0278
 + ὑμᾶς· πολεμίοις δ’ ἐθρεψάμην | ὕβρισμα κἀπίχαρμα καὶ διαφθοράν.
 
-**ἐλλοῖς**, traditionally explained as ‘mute,’ is a word of unknown origin. In Athen. 277 C this verse is quoted, and the question is raised whether any one before Sophocles had used the word : the answer is a quotation from a Τιτανομαχία (variously ascribed to Eumêlus or Arctînus), ἐν δ’ αὐτῇ πλωτοὶ χρυσώπιδες ἰχθύες ἐλλοί : with the comment, ἔχαιρε δὲ Σοφοκλῆς τῷ Ἐπικῷ κύκλῳ. The form ἔλλοψ occurs in Hes. *Scut.* 212 (ἔλλοπας ἰχθῦς), and as a subst. (‘fish’) in the Alexandrian poets (Lycophron 598, 1375: Nicander *Alex.* 481). A third form, ἔλλοπος, is the epithet of ἰχθύς in Empedocles, v. 12. A desperate etymology is suggested in Athen. 307 C, from ἴλλεσθαι (as=εἴργεσθαι) and ὄψ, ‘debarred from utterance.’ Cp. Aesch. *Pers.* 578 σκύλλονται πρὸς ἀναύδων, ἐή, | παίδων τᾶς ἀμιάντου.
+**ἐλλοῖς**, traditionally explained as ‘mute,’ is a word of unknown origin. In Athen. 277 C this verse is quoted, and the question is raised whether any one before Sophocles had used the word: the answer is a quotation from a Τιτανομαχία (variously ascribed to Eumêlus or Arctînus), ἐν δ’ αὐτῇ πλωτοὶ χρυσώπιδες ἰχθύες ἐλλοί: with the comment, ἔχαιρε δὲ Σοφοκλῆς τῷ Ἐπικῷ κύκλῳ. The form ἔλλοψ occurs in Hes. *Scut.* 212 (ἔλλοπας ἰχθῦς), and as a subst. (‘fish’) in the Alexandrian poets (Lycophron 598, 1375: Nicander *Alex.* 481). A third form, ἔλλοπος, is the epithet of ἰχθύς in Empedocles, v. 12. A desperate etymology is suggested in Athen. 307 C, from ἴλλεσθαι (as=εἴργεσθαι) and ὄψ, ‘debarred from utterance.’ Cp. Aesch. *Pers.* 578 σκύλλονται πρὸς ἀναύδων, ἐή, | παίδων τᾶς ἀμιάντου.
 
 ## 1299
 **ἐκ πατρὸς μὲν**, as if ἐκ δὲ μητρὸς were to follow, but the constr. changes; cp. *Tr.* 6 ἥτις πατρὸς μὲν κ.τ.λ. (where no δέ follows).
@@ -14,17 +14,17 @@
 ## 1301
 **ἴσχει**, historic pres., referring to a well-known fact (cp. *O. T.* 560 ἔρρει: *Ph.* 727 θεοῖς πλάθει).
 
-**φύσει μὲν**: the antithesis is with ἔκκριτον δέ : as her *birth* was royal, so her *beauty* marked her out to be his prize.
+**φύσει μὲν**: the antithesis is with ἔκκριτον δέ: as her *birth* was royal, so her *beauty* marked her out to be his prize.
 
 ## 1302
 **βασίλεια**: for the initial anapaest, cp. 1172.
 
 **Λαομέδοντος**, his daughter; cp. 172 Διὸς Ἄρτεμις (n.). For the anapaest in the proper name, cp. *Ant.* 11, *O. C.* 507.—Apollo and Poseidon having been defrauded by Laomedon of their recompense for building the walls of Troy, the sea-god sent a dragon into the Troad. Hesionè, the false king’s daughter, was doomed to be sacrificed to the monster, when Heracles slew it, and saved her. He, too, was cheated by Laomedon of his promised reward (the horses given to Tros by Zeus); he sacked Troy, and gave Hesionè to Telamon. (*Il.* 5. 638 ff.: Pind. *I.* 5. 27 ff.)
 
-**ἔκκριτον**, chosen out of the spoil, and reserved as a special meed of honour : cp. Aesch. *Ag.* 954 (of Cassandra) αὕτη δέ, πολλῶν χρημάτων ἐξαίρετον | ἄνθος, στρατοῦ δώρημ’, ἐμοὶ ξυνέσπετο. So in Latin *exsors*, Verg. *Aen.* 8. 552 *Ducunt exsortem Aeneae* (equum).
+**ἔκκριτον**, chosen out of the spoil, and reserved as a special meed of honour: cp. Aesch. *Ag.* 954 (of Cassandra) αὕτη δέ, πολλῶν χρημάτων ἐξαίρετον | ἄνθος, στρατοῦ δώρημ’, ἐμοὶ ξυνέσπετο. So in Latin *exsors*, Verg. *Aen.* 8. 552 *Ducunt exsortem Aeneae* (equum).
 
 ## 1304
-**ἄριστος** combines the ideas of τὸ γενναῖον and τὸ εὐγενές : cp. 636 ἐκ
+**ἄριστος** combines the ideas of τὸ γενναῖον and τὸ εὐγενές: cp. 636 ἐκ
 --- flags
 1 Eumélus [latin] (Greek model: Ἑππιέϊας.) → Eumêlus
 2 εἴργεσθαι) [conf] → ok
@@ -44,6 +44,7 @@
 --- notes
 The page begins with the end of ἐτέκ|ομεν (Eur. H. F. 458), divided between pp.: "ομεν" left out here (written whole at the end of p-0277 by the rule).
 1300-1301: the draft's scrambled lines of the two columns ("referring to Ph. a well-known 727 …", "φύσει fact (cp. O. T. …") re-ordered from the image; "τὰ πρῶτ’" and "φύσει μὲν" restored as lemmas.
+rev: five colons written closed up (spaced colon → ":"), as in the rest of the file (Jebb's thin space before a colon is typography)
 
 === p-0279
 + πατρῴας ἥκων γενεᾶς ἄριστος. The conjecture **ἀριστεὺς** is needless, and is also less suitable, since it would imply a recognised rank which Teucer did not actually hold.

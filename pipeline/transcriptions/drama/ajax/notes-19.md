@@ -8,7 +8,7 @@
 
 **πάρα**. πάρεστι, when thus used, is susceptible of two different shades of meaning. (1) More often it denotes one’s situation at some given moment; as in 432, νῦν γὰρ πάρεστι καὶ δὶς αἰάζειν ἐμοί. (2) Sometimes, as here, it denotes a trait of character or disposition; cp. Eur. *Med.* 658 ἀχάριστος ὄλοιθ᾽ ὅτῳ πάρεστι | μὴ φίλους τιμᾶν (‘one who is capable of not respecting friendship’). In this sense πρόσεστι is more frequent.
 
-The *v.l.* **ἵλεων** for **ἥδιον** is very inferior, and undoubtedly corrupt. It evidently arose from λεως in 1009. The force of the comparative here is manifest: ‘If good fortune cannot *lessen* his gloom, what will his aspect be *now?*’
+The *v.l.* **ἵλεων** for **ἥδιον** is very inferior, and undoubtedly corrupt. It evidently arose from ἵλεως in 1009. The force of the comparative here is manifest: ‘If good fortune cannot *lessen* his gloom, what will his aspect be *now?*’
 
 ## 1012
 **τί κρύψει**; *i.e.* ‘what thought, however injurious to me, will he leave unspoken?’
@@ -28,7 +28,7 @@ The *v.l.* **ἵλεων** for **ἥδιον** is very inferior, and undoubtedly
 2 1010f%. [digit] (Greek model: ἴοῖος.) → 1010 f. (heading ## 1010)
 3 (πάρεστι)... [conf] → (πάρεστι)..
 4 ὄλοιθ᾽ [accent] → ok
-5 λεὼς [conf] → λεως
+5 λεὼς [conf] → ἵλεως (see rev note)
 6 Jessen [latin] (Greek model: ΓΣ) → *lessen*
 7 7ow?’ [digit] → *now?*’
 8 f. [conf] (Greek model: τ) → ok (1012 f., heading ## 1012)
@@ -42,6 +42,7 @@ The *v.l.* **ἵλεων** for **ἥδιον** is very inferior, and undoubtedly
 16 avévτος [mixed] → τος: (end of θανόντος)
 --- notes
 Heading ## 1010 made from "1010 f." (the draft had left it in the text); the lemmas ποῖον οὐκ ἐρεῖ κακὸν, ἐκ δορὸς γεγῶτα πολεμίου, σέ, φίλτατ᾽ Αἴας, τὰ σὰ...θανόντος restored in bold from the image; italics set from the image.
+1010	rev: misprint corrected: the print has "arose from  λεως in 1009" with a blank before λεως where the type of ἵ dropped out (the v.l. ἵλεων arose from ἵλεως in 1009): written ἵλεως.
 
 === p-0239
 + συγκλείσει τὸ σόν.

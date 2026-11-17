@@ -8,7 +8,7 @@
 
 **ἐπώνυμον** here goes closely with **ξυνοίσειν**, ‘would *agree so significantly*’ with my woes. Hence in 914 he is called δυσώνυμος. For the verb, cp. Ar. *Eq.* 1232 καὶ μήν σ’ ἐλέγξαι βούλομαι τεκμηρίῳ, | εἴ τι ξυνοίσεις τοῦ θεοῦ τοῖς θεσφάτοις, *i.e.*, ‘agree’ with the description of the person mentioned in them. For the adj., cp. *Od.* 7. 54 Ἀρήτη δ’ ὄνομ’ ἐστὶν ἐπώνυμον: *ib.* 19. 409 τῷ δ’ Ὀδυσεὺς ὄνομ’ ἔστω ἐπώνυμον: where in each case ἐπώνυμον means that the name is *significant* (the queen was the ‘desired one’; the child was to be ‘a man of wrath’). This usage of ἐπώνυμος, with ref. to the *aptness* of a name (or surname), is different from that in which a person or thing is said to be ἐπώνυμός τινος, either as (1) being named from it, or (2) giving a name to it. Cp. 574.
 
-Pindar adopts the derivation of Αἴας from **αἰετός**: *I.* 5. 53 καί νιν ὄρνιχος φανέντος κέκλετ’ ἐπώνυμον εὐρυβίαν Αἴαντα. This was the popular etymology (schol. Apoll. Rh. 1. 1289; schol. Theocr. 13. 37: Apollod. 3. 12 § 7). But the association of Αἴας with αἶ αἶ appears in the legend that a hyacinth (on whose petals the letters AI were supposed to be legible, Moschus 3. 6) sprang from the blood of Ajax, as it had sprung from that of Hyacinthus: Ov. *Met.* 13. 397: *Littera communis mediis pueroque viroque | Inscripta est foliis; haec nominis* (Ajax), *illa querelae* (the wail of Hyacinthus).
+Pindar adopts the derivation of Αἴας from **αἰετός**: *I.* 5. 53 καί νιν ὄρνιχος φανέντος κέκλετ’ ἐπώνυμον εὐρυβίαν Αἴαντα. This was the popular etymology (schol. Apoll. Rh. 1. 1289; schol. Theocr. 13. 37: Apollod. 3. 12 § 7). But the association of Αἴας with **αἶ αἶ** appears in the legend that a hyacinth (on whose petals the letters AI were supposed to be legible, Moschus 3. 6) sprang from the blood of Ajax, as it had sprung from that of Hyacinthus: Ov. *Met.* 13. 397: *Littera communis mediis pueroque viroque | Inscripta est foliis; haec nominis* (Ajax), *illa querelae* (the wail of Hyacinthus).
 
 So Odysseus was associated with ὀδύσσομαι (*Od.* 1. 62 τί νύ οἱ τόσον ὠδύσαο, Ζεῦ; imitated by Soph., fr. 880): Pentheus, with πένθος (Eur. *Bacch.* 507): Polyneices, with νεῖκος (Aesch. *Th.* 577, etc., Soph. *Ant.* 110 f.): Meleager, with μελέα ἄγρα (Eur. fr. 517): Sidêro with σίδηρος (Soph. fr. 597): and Helen is ἑλέναυς, etc. (Aesch. *Ag.* 689).
 
@@ -38,6 +38,8 @@ Such play on names did not seem to the Greeks unworthy of grave poetry, because 
 22 Sapia [rare] → Sapía
 --- notes
 Heading ## 430 made from the print's bold "430 f." (the draft had it as text "4805."); the further lemma **ἐπώνυμον** after the dash made a paragraph. Read through: *Tr.* 1058 (draft 77. 1038), *O. T.* 1367, Dem. or. 9, ib. 19. 409 (draft 400), Cp. 574 (draft 374), αἰετός bold, *I.* 5. 53, Αἴας (draft Alas), οἱ, *Th.*, *Ag.* 689 (draft 680), italics throughout.
+rev: **αἶ αἶ** set in bold (the print sets it in the bold type, as αἰετός)
+rev: ἑλέναυς: printed ἐλέναυς (smooth breathing, unlike the rough of ὅπως on this page); an evident misprint (Aesch. *Ag.* 689 ἑλέναυς, from ἑλεῖν); the draft's correction ἑλέναυς kept, this note added
 
 === p-0159
 + Shakesp. *Rich. II.* act 2 sc. 1. 73 (Gaunt) *O how that name befits my composition! | Old Gaunt indeed; and gaunt in being old* etc. The king asks, *Can sick men play so nicely with their names? No*, is the reply, *misery makes sport to mock itself.*
@@ -116,7 +118,7 @@ Headings ## 432, ## 434, ## 437, ## 439, ## 441-444 from the print (432 f., 434 
 **κράτη**: cp. *El.* 689 οὐκ οἶδα τοιοῦδ’ ἀνδρὸς ἔργα καὶ κράτη.
 
 ## 447
-**τόδ’ ὄμμα**: some force and pathos are lost by reading τό τ’ ὄμμα (with χαί). Cp. Athena’s words (51) δυσφόρους ἐπ’ ὄμμασι | γνώμας βαλοῦσα.
+**τόδ’ ὄμμα**: some force and pathos are lost by reading τό τ’ ὄμμα (with χαἰ). Cp. Athena’s words (51) δυσφόρους ἐπ’ ὄμμασι | γνώμας βαλοῦσα.
 
 **διάστροφοι**: Aesch. *P. V.* 673 (Io speaking of herself) εὐθὺς δὲ μορφὴ καὶ φρένες διάστροφοι | ἦσαν.
 
@@ -146,6 +148,7 @@ Headings ## 432, ## 434, ## 437, ## 439, ## 441-444 from the print (432 f., 434 
 --- notes
 The draft's text from "It implies that" to the foot (two lines run together across the Pindar quotation) rewritten from the image. Further lemmas ἀντ’ ἐμοῦ, παντουργῷ, ἀπώσαντες, κράτη, διάστροφοι, τῆς ἐμῆς made paragraphs; the heading ## 447 was "447 ff." in the print and the draft's "fl." left in the text removed. "(with χαί)": printed so, acute on ι and no breathing or coronis visible. Read through: *Th.* 671, παντόλμῳ, *Pomp.*, ἑαυτοῖς, *Tr.* 216, *El.* 689, Athena’s (51), (Io …), *Gorg.*, κατ’ ἄλλου φωτὸς and δίκην ἐψήφισαν in bold.
 The page begins with the bold lemma **ἔμαρψεν**, a further lemma of the note on 441-444 beginning a new indented line (p-0159 ends "1774 n." with no dash): a new paragraph of that note, so neither a heading nor `+ ` (the checker's remark "begins neither …" is answered so).
+rev: (with χαί) → (with χαἰ): the mark on the ι is a coronis (a blob with its tail down to the left, as the smooth breathings of this page), not an acute; the crasis χαἰ = καὶ αἱ
 
 === p-0161
 + στερηθεὶς ὅπλων φόνῳ πάλαισεν. [ἐψήφισαν certainly has not the technical sense of ἐπεψήφισαν, as if the Atreidae were the ἡγεμόνες δικαστηρίου, who put the issue to the vote. Even if the simple ψηφίζω could be so used, this would be too technical and prosaic.]

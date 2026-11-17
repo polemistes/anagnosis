@@ -3,7 +3,7 @@
 The sense of **πομπαῖον** (=ψυχοπομπόν) is defined by **χθόνιον**, just as in *O. C.* 1548 the context defines a like epithet,—Ἑρμῆς ὁ πομπὸς ἥ τε νερτέρα θεός. See n. there, and on *Ph.* 133 (Ἑρμῆς ὁ πέμπων).
 
 ## 833
-**ἀσφαδάστῳ**, ‘without convulsion.’ σφαδᾴζω is from rt. σφαδ, denoting sudden, violent movement: whence σφεδανός, σφοδρός, σφενδόνη (a sling): Curt. *Etym.* § 296. The verb was often used with ref. to a convulsive *death*-struggle; Eur. fr. 1020 ὁ δ’ ἐσφάδαζεν, οὐκ ἔχων ἀπαλλαγάς: Plut. *Anton.* 76 σφαδάζοντος (cp. δυσθανατῶν *ib.*). Aesch. *Ag.* 1292 ἐπεύχομαι δὲ καιρίας πληγῆς τυχεῖν, | ὡς ἀσφάδαστος, αἱμάτων εὐθνησίμων | ἀπορρυέντων, ὄμμα συμβάλω τόδε.
+**ἀσφαδάστῳ**, ‘without convulsion.’ σφαδάζω is from rt. σφαδ, denoting sudden, violent movement: whence σφεδανός, σφοδρός, σφενδόνη (a sling): Curt. *Etym.* § 296. The verb was often used with ref. to a convulsive *death*-struggle; Eur. fr. 1020 ὁ δ’ ἐσφάδαζεν, οὐκ ἔχων ἀπαλλαγάς: Plut. *Anton.* 76 σφαδάζοντος (cp. δυσθανατῶν *ib.*). Aesch. *Ag.* 1292 ἐπεύχομαι δὲ καιρίας πληγῆς τυχεῖν, | ὡς ἀσφάδαστος, αἱμάτων εὐθνησίμων | ἀπορρυέντων, ὄμμα συμβάλω τόδε.
 
 The precept to write σφαδᾴζω (and therefore, as Nauck does, ἀσφάδᾳστος) dates from Herodian (*c.* 160 A.D.), but is not confirmed by any such independent evidence as exists in the case of ματᾴζω (*O. T.* 891). Ellendt writes σφαδᾴζω, yet ἀσφάδαστος.
 
@@ -48,6 +48,7 @@ The precept to write σφαδᾴζω (and therefore, as Nauck does, ἀσφάδ�
 22 ane [conf] → Σεμναί: / —τανύποδας (new lemma paragraph)
 --- notes
 Read through from the column images; the draft's interleaved lines in 833 (Aesch. Ag. 1292), 835 (ἀεί θ’ ὁρώσας) and 837 (Eum. 1040) rewritten from the print. 832: the draft's cut before ψυχοπομπόν and before Ἑρμῆς ὁ πομπὸς joined again (plain Greek; πομπαῖον and χθόνιον bold inside the paragraph). 834: πλευρὰν inside the note is in plain type. Italics set; *Helen.* 96 (OCR οὔ), *c.* 160 A.D., σφαδᾴζω and ματᾴζω with iota subscript as printed (σφαδάζοντος in the Plutarch quotation without), 835 f. as ## 835.
+833	rev: the first σφαδάζω ("σφαδάζω is from rt. σφαδ") has no iota subscript in the print (the draft's check had given it one); the three later ones (σφαδᾴζω, ἀσφάδᾳστος, Ellendt's σφαδᾴζω) and ματᾴζω have it
 
 === p-0215
 + Aesch. *Theb.* 791): cp. *O. T.* 418 δεινόπους ἀρά. Aesch. *Eum.* 371 σφαλερὰ καὶ τανυδρόμοις | κῶλα, δύσφορον ἄταν.
@@ -118,7 +119,7 @@ Read through from the column images; italics set (*Theb.*, *Eum.*, *Th.*, *Od.*,
 ## 847
 **ἴδῃς**: for the non-emphatic word thus placed, and followed by a pause, cp. 332 ἡμῖν, n.
 
-**χρυσόνωτον ἡνίαν**. Cp. *O. C.* 693 χρυσάνιος Ἀφροδίτα (n.). ‘Golden’ is similarly an Homeric epithet, not only of reins, but of shoes (*Il.* 24. 340 πέδιλα...χρύσεια), a belt (*Od.* 11. 610 χρύσεος...τελαμών), and a girdle (*Od.* 5. 231). Helbig (*Das hom. Epos*, p. 86) supposes that overlaying with gold-leaf is denoted in all these cases. Achilles Tatius (1. 14) refers to φαλάροις ἀργυροῖς, χρυσαῖς ἡνίαις, as parts of a luxurious equipment. The epithet in *Anth. Pal.* 7. 219, οὐκέτι χρυσοχάλινον ὁρᾷ δρόμον ἠελίοιο, refers to the bit or bridle, not to the reins.
+**χρυσόνωτον ἡνίαν**. Cp. *O. C.* 693 χρυσάνιος Ἀφροδίτα (n.). ‘Golden’ is similarly an Homeric epithet, not only of reins, but of shoes (*Il.* 24. 340 πέδιλα..χρύσεια), a belt (*Od.* 11. 610 χρύσεος..τελαμών), and a girdle (*Od.* 5. 231). Helbig (*Das hom. Epos*, p. 86) supposes that overlaying with gold-leaf is denoted in all these cases. Achilles Tatius (1. 14) refers to φαλάροις ἀργυροῖς, χρυσαῖς ἡνίαις, as parts of a luxurious equipment. The epithet in *Anth. Pal.* 7. 219, οὐκέτι χρυσοχάλινον ὁρᾷ δρόμον ἠελίοιο, refers to the bit or bridle, not to the reins.
 
 ## 849
 **τροφῷ**=μητρί, as one’s ‘mother-country’ is called simply τὴν θρέψασαν by Lycurg. *In Leocr.* § 47.
@@ -126,14 +127,14 @@ Read through from the column images; italics set (*Theb.*, *Eum.*, *Th.*, *Od.*,
 ## 850
 **ἦ που**: 622.
 
-**ἥσει...κωκυτὸν**: cp. 627 αἴλινον... | ἥσει. *Tr.* 866 ἠχεῖ τις... | κωκυτόν. Eur. *Ph.* 1350 ἀνάγετ’ ἀνάγετε κωκυτόν.
+**ἥσει..κωκυτὸν**: cp. 627 αἴλινον.. | ἥσει. *Tr.* 866 ἠχεῖ τις.. | κωκυτόν. Eur. *Ph.* 1350 ἀνάγετ’ ἀνάγετε κωκυτόν.
 
 **ἐν πάσῃ πόλει**. This is Homeric: Sophocles is thinking of the lamentation for Hector, begun by Cassandra: *Il.* 24. 703 κώκυσέν τ’ ἄρ’ ἔπειτα γέγωνέ τε πᾶν κατὰ ἄστυ: cp. *ib.* 776 (after Helen’s lament) ὡς ἔφατο κλαίουσ’· ἐπὶ δ’ ἔστενε δῆμος ἀπείρων. There is more of Athenian feeling in the surmise concerning Eurydicè (*Ant.* 1247), ἐς πόλιν γόους | οὐκ ἀξιώσειν.
 
 ## 852
 **ἔργον**: 12 n.
 
-**ἀλλ’...ἀλλ’**. The second ἀλλὰ here merely opposes its own clause to that which the first ἀλλὰ introduces, as in *El.* 881 ἀλλ’ οὐχ ὕβρει | λέγω τάδ’, ἀλλ’ ἐκεῖνον ὡς παρόντα νῷν.
+**ἀλλ’..ἀλλ’**. The second ἀλλὰ here merely opposes its own clause to that which the first ἀλλὰ introduces, as in *El.* 881 ἀλλ’ οὐχ ὕβρει | λέγω τάδ’, ἀλλ’ ἐκεῖνον ὡς παρόντα νῷν.
 --- flags
 1 843 [conf] → ok
 2 f. [conf] (Greek model: ἘΦ) → ok (843 f., heading ## 843)
@@ -142,26 +143,27 @@ Read through from the column images; italics set (*Theb.*, *Eum.*, *Th.*, *Od.*,
 5 1011 [conf] → ok
 6 τ.---χρυσόνωτον [conf] → n.—**χρυσόνωτον**
 7 Αφροδίτα [accent] (Greek model: ᾿Αφροδίτα.) → Ἀφροδίτα
-8 πέδιλα... [conf] → πέδιλα...χρύσεια
-9 -.τελαμών), [conf] → χρύσεος...τελαμών),
+8 πέδιλα... [conf] → πέδιλα..χρύσεια
+9 -.τελαμών), [conf] → χρύσεος..τελαμών),
 10 hom. [conf] → ok (*Das hom. Epos*)
 11 f. [conf] → ok (850 f., heading ## 850)
 12 1 [digit] → ἦ
 13 που: [conf] → ok
-14 622.---ἥσει. [conf] → 622.—**ἥσει...κωκυτὸν**
+14 622.---ἥσει. [conf] → 622.—**ἥσει..κωκυτὸν**
 15 .κωκυτὸν [conf] → κωκυτὸν
 16 Zr. [conf] (Greek model: Ζ».) → *Tr.*
-17 Tis. [conf] → τις...
+17 Tis. [conf] → τις..
 18 ἀνάγετ’ [accent] (Greek model: ἀνάγετ᾽) → ok
 19 ZZ [latin] (Greek model: .) → *Il.*
 20 κὠώκυσέν [greek] (Greek model: κὠκυσέν τ᾽) → κώκυσέν
 21 κλαίουσ᾽" [conf] → κλαίουσ’·
 22 (47n¢. [digit] → (*Ant.*
 23 Φ. [conf] → 852 f. (heading ## 852)
-24 η.--ἀλλ᾽... [conf] → n.—**ἀλλ’...ἀλλ’**.
+24 η.--ἀλλ᾽... [conf] → n.—**ἀλλ’..ἀλλ’**.
 25 νῷν. [conf] → ok
 --- notes
 Read through from the column images; italics set. 845: the draft had not cut at "—οὐρανὸν διφρηλατῶν" (bold lemma, OCR ovpavov): new paragraph. In that lemma the print shows a speck under each α (οὐρανὸν, διφρηλατῶν), a flaw of the type, not an iota subscript. 849: the draft's cut at "=μητρί" joined again (τροφῷ=μητρί, μητρί plain). 850: lemma ἦ που (OCR "1 που"); Eurydicè as printed; *Anth. Pal.* 7. 219 (OCR 210); *Ant.* 1247.
+847-852	rev: Jebb's two dots of omission written as printed (the check had made them three), in the text and the flag answers: πέδιλα..χρύσεια, χρύσεος..τελαμών, ἥσει..κωκυτὸν, αἴλινον.. | ἥσει, τις.. | κωκυτόν, ἀλλ’..ἀλλ’
 
 === p-0217
 ## 854
@@ -174,17 +176,17 @@ The absence of caesura gives a more deliberate weight to σὲ μὲν κἀκε
 ## 856
 **τὸ νῦν σέλας**, *i.e.*, ‘which I see now, but soon shall see no more.’ Cp. 753 κατ’ ἦμαρ τοὐμφανὲς τὸ νῦν τόδε.
 
-**διφρευτὴν** (845): cp. *Ant.* 1065 τρόχους ἁμιλλητῆρας ἡλίου, ‘courses of the sun’s swift chariot.’ For καὶ τὸν...Ἥλιον (instead of καὶ σέ, ὦ Ἥλιε), cp. 862 n.
+**διφρευτὴν** (845): cp. *Ant.* 1065 τρόχους ἁμιλλητῆρας ἡλίου, ‘courses of the sun’s swift chariot.’ For καὶ τὸν..Ἥλιον (instead of καὶ σέ, ὦ Ἥλιε), cp. 862 n.
 
 ## 858
 **πανύστατον δὴ**: cp. 992 ἁπάντων δή.
 
-**κοὔποτ’...ὕστερον**: *Ant.* 808 νέατον...φέγγος λεύσσουσαν ἀελίου, | κοὔποτ’ αὖθις.
+**κοὔποτ’..ὕστερον**: *Ant.* 808 νέατον..φέγγος λεύσσουσαν ἀελίου, | κοὔποτ’ αὖθις.
 
 ## 859
 **ἱερὸν**: an epithet given to cities in respect of their πολισσοῦχοι or ἐγχώριοι θεοί: cp. 1221. Ajax refers esp. to Zeus and the Aeacidae. Among the shrines of Salamis in the poet’s day were those of Athena Σκιράς (Her. 8. 94), Enyalios (v. 179 n.), Artemis (Paus. 1. 36. 1), and Ajax (*ib.* 35. 3).
 
-**πατρῷον** instead of πατρῴας, since ἑστίας βάθρον is a single notion: see on κυνὸς...εὔρινος βάσις (8). **βάθρον**: 135 n.
+**πατρῷον** instead of πατρῴας, since ἑστίας βάθρον is a single notion: see on κυνὸς..εὔρινος βάσις (8). **βάθρον**: 135 n.
 
 ## 861
 **κλειναί**: Pind. fr. 76 ὦ ταὶ λιπαραὶ καὶ ἰοστέφανοι καὶ ἀοίδιμοι, | Ἑλλάδος ἔρεισμα, κλειναὶ Ἀθᾶναι, δαιμόνιον πτολίεθρον. *O. C.* 108 πασῶν Ἀθῆναι τιμιωτάτη πόλις: *ib.* 282 τὰς εὐδαίμονας: *El.* 707 τῶν θεοδμήτων.
@@ -202,7 +204,7 @@ The absence of caesura gives a more deliberate weight to σὲ μὲν κἀκε
 9 viv [rare] → νῦν
 10 οδιφρευτὴν [greek] (Greek model: τ ϑιφρευτὴν.) → —**διφρευτὴν** (new lemma paragraph)
 11 κοὔποτ᾽ [accent] (Greek model: δή.---κοὔποτ᾽...) → κοὔποτ’
-12 . [conf] → νέατον...φέγγος
+12 . [conf] → νέατον..φέγγος
 13 1), [digit] → ok
 14 (26. [conf] → (*ib.*
 15 135}. [conf] → 135 n.
@@ -212,17 +214,18 @@ The absence of caesura gives a more deliberate weight to σὲ μὲν κἀκε
 19 Αθήναις [accent] (Greek model: ᾿Αθήναις:) → Ἀθήναις
 --- notes
 Read through from the column images; italics set. 854 f., 856 f., 859 f. as ## 854, ## 856, ## 859. 859: **βάθρον** (bold, no dash) stays inside the paragraph of πατρῷον. Persephonè as printed; "sun-light" divided at the line end written sunlight.
+856-859	rev: Jebb's two dots of omission written as printed (the check had made them three), in the text and the flag answers: τὸν..Ἥλιον, κοὔποτ’..ὕστερον, νέατον..φέγγος, κυνὸς..εὔρινος
 
 === p-0218
 ## 862
 **κρῆναί τε ποταμοί θ’ οἵδε**: the Scamander (417), the Simois, the springs and fountains πολυπίδακος Ἴδης. So Philoctetes, on leaving Lemnos (*Ph.* 1461): νῦν δ’, ὦ κρῆναι Λύκιόν τε ποτόν, | λείπομεν ὑμᾶς.
 
-**καὶ τὰ Τρ. πεδία προσαυδῶ**: this clause follows the series of vocatives, and precedes their verb, as in the similar passage, Aesch. *P. V.* 88—92 ὦ δῖος αἰθὴρ κ.τ.λ. ... | καὶ τὸν πανόπτην κύκλον Ἡλίου καλῶ· | ἴδεσθέ μ’ κ.τ.λ.
+**καὶ τὰ Τρ. πεδία προσαυδῶ**: this clause follows the series of vocatives, and precedes their verb, as in the similar passage, Aesch. *P. V.* 88—92 ὦ δῖος αἰθὴρ κ.τ.λ. .. | καὶ τὸν πανόπτην κύκλον Ἡλίου καλῶ· | ἴδεσθέ μ’ κ.τ.λ.
 
 **τροφῆς** (cp. 189 βασιλῆς): the soil and the streams have sustained his life. Ar. *Th.* 299 τῇ Κουροτρόφῳ (*i.e.* τῇ Γῇ), Aesch. *Th.* 477 τροφεῖα πληρώσει χθονί. There was a custom that youths on coming of age should offer a ‘nurture-lock’ to rivers (Aesch. *Ch.* 6 πλόκαμον Ἰνάχῳ θρεπτήριον).
 
 ## 864
-**Αἴας...θροεῖ**, followed by **μυθήσομαι**: as τὸν πλανήτην Οἰδίπουν (*O. C.* 3) is followed by ἐμοί (*ib.* 6). Cp. 427 πρόκειμαι after ἄνδρα τόνδε (n.).
+**Αἴας..θροεῖ**, followed by **μυθήσομαι**: as τὸν πλανήτην Οἰδίπουν (*O. C.* 3) is followed by ἐμοί (*ib.* 6). Cp. 427 πρόκειμαι after ἄνδρα τόνδε (n.).
 
 Ajax falls upon his sword. (See n. on 815.)—The actor Timotheus of Zacynthus (says the scholiast) was celebrated in this scene: ἦγε τοὺς θεατὰς καὶ ἐψυχαγώγει, ὡς Σφαγέα αὐτὸν κληθῆναι.
 
@@ -248,7 +251,7 @@ The extant examples of hemichoria in Tragedy are not many. In Aesch. *Theb.* 106
 12 (1... [digit] → (*i.e.* τῇ Γῇ)
 13 7h. [digit] → *Th.*
 14 ‘nurture-lock’ [conf] → ok
-15 Αἴας... [conf] → Αἴας...θροεῖ
+15 Αἴας... [conf] → Αἴας..θροεῖ
 16 A [conf] → Ajax (stage-direction paragraph)
 17 5-)—The [conf] → 815.)—The
 18 ΑΙ [conf] → omitted (OCR debris of "Ajax")
@@ -258,19 +261,21 @@ The extant examples of hemichoria in Tragedy are not many. In Aesch. *Theb.* 106
 22 Ww [latin] → W.
 23 Al. [conf] → *Alc.*
 --- notes
-Read through from the column images; italics set. 862: the draft's cut at "88—92" joined again; the print has "κ.τ.λ. . . |" (the abbreviation's stop and two dots of omission), written "κ.τ.λ. ... |". 864: **μυθήσομαι** bold inside the paragraph; the paragraph "Ajax falls upon his sword. (See n. on 815.)—The actor Timotheus …", which the OCR had interleaved with the line before, rewritten from the print (upright type, indented, no number). 866-878: ἐπιπάροδος is in plain italic Greek, not bold (bold taken away); *Theb.* 1066 (OCR 10606); Laïus; small capitals E. and W.
+Read through from the column images; italics set. 862: the draft's cut at "88—92" joined again; the print has "κ.τ.λ. . . |" (the abbreviation's stop and two dots of omission), written "κ.τ.λ. .. |". 864: **μυθήσομαι** bold inside the paragraph; the paragraph "Ajax falls upon his sword. (See n. on 815.)—The actor Timotheus …", which the OCR had interleaved with the line before, rewritten from the print (upright type, indented, no number). 866-878: ἐπιπάροδος is in plain italic Greek, not bold (bold taken away); *Theb.* 1066 (OCR 10606); Laïus; small capitals E. and W.
+862	rev: "κ.τ.λ. . . |" is the abbreviation's stop and two dots (three dots in all): written κ.τ.λ. .. | (the check had four)
+864	rev: lemma Αἴας..θροεῖ with Jebb's two dots (the check had three)
 
 === p-0219
 + from twelve to fifteen, his object was to provide a coryphaeus (distinct from the ordinary choreutae), and two subordinate leaders. The technical name for these leaders of hemichoria was παραστάται, because they stood one on each side of the coryphaeus when the Chorus was drawn up in ranks (κατὰ ζυγά).
 
 ## 869
-**κοὐδεὶς...τόπος**. The reading of the MSS. can mean only: ‘and no place is conscious that I have learned along with it,’ *i.e.*, ‘have learned what it knows,’ ‘share its secret.’ The constr. ἐπίσταταί με συμμαθεῖν (instead of συμμαθόντα) is warranted by *Ant.* 1092 ff. ἐπιστάμεσθα...αὐτὸν...λακεῖν): see also *ib.* 293, *El.* 616. **συμμαθεῖν**, as=‘to learn *with* one,’ may be defended by Xen. *Symp.* 3. 20 ἐμὲ μὲν παρακάλει, ὅταν μέλλῃς μανθάνειν..., ἵνα σοι...συμμανθάνω. But, though this sense is possible for συμμαθεῖν, the language of the verse, as it stands, is too elliptical and obscure. Clearly there has been some corruption. I suspect that it began under the influence of πᾷ γὰρ οὐκ ἔβαν ἐγώ, with the change of an original **σφε** into **με**. ΣΥΜΜΑΘΕΙΝ may have been corrupted, to suit με, from ΣΥΝΝΑΙΕΙΝ. I would read, **κοὐδεὶς ἐπίσταταί σφε συνναίειν τόπος**, ‘and no place is conscious of his presence.’ ναίειν can be said of temporary presence in a place: see *O. C.* 117, where the men of Colonus are searching for Oedipus:—ὅρα· τίς ἄρ’ ἦν; ποῦ ναίει; And so in *Tr.* 99 πόθι μοι... | ναίει refers to the wandering Heracles.
+**κοὐδεὶς..τόπος**. The reading of the MSS. can mean only: ‘and no place is conscious that I have learned along with it,’ *i.e.*, ‘have learned what it knows,’ ‘share its secret.’ The constr. ἐπίσταταί με συμμαθεῖν (instead of συμμαθόντα) is warranted by *Ant.* 1092 ff. ἐπιστάμεσθα..αὐτὸν..λακεῖν): see also *ib.* 293, *El.* 616. **συμμαθεῖν**, as=‘to learn *with* one,’ may be defended by Xen. *Symp.* 3. 20 ἐμὲ μὲν παρακάλει, ὅταν μέλλῃς μανθάνειν.., ἵνα σοι..συμμανθάνω. But, though this sense is possible for συμμαθεῖν, the language of the verse, as it stands, is too elliptical and obscure. Clearly there has been some corruption. I suspect that it began under the influence of πᾷ γὰρ οὐκ ἔβαν ἐγώ, with the change of an original **σφε** into **με**. ΣΥΜΜΑΘΕΙΝ may have been corrupted, to suit με, from ΣΥΝΝΑΙΕΙΝ. I would read, **κοὐδεὶς ἐπίσταταί σφε συνναίειν τόπος**, ‘and no place is conscious of his presence.’ ναίειν can be said of temporary presence in a place: see *O. C.* 117, where the men of Colonus are searching for Oedipus:—ὅρα· τίς ἄρ’ ἦν; ποῦ ναίει; And so in *Tr.* 99 πόθι μοι.. | ναίει refers to the wandering Heracles.
 
 ## 870
 **ἰδού**, with ref. to sound: *O. C.* 1477, *El.* 1410.
 
 ## 872
-**ἡμῶν...ναὸς...ὁμιλίαν**=ἡμᾶς τοὺς συνναύτας: for the double gen., cp. 308 f.: for the periphrasis, *El.* 417 εἰσιδεῖν πατρὸς | ...ὁμιλίαν: Eur. *Hipp.* 1179 ὀπισθόπους | φίλων...ὁμήγυρις.
+**ἡμῶν..ναὸς..ὁμιλίαν**=ἡμᾶς τοὺς συνναύτας: for the double gen., cp. 308 f.: for the periphrasis, *El.* 417 εἰσιδεῖν πατρὸς | ..ὁμιλίαν: Eur. *Hipp.* 1179 ὀπισθόπους | φίλων..ὁμήγυρις.
 
 **κοινόπλουν**: cp. *El.* 1104 ἡμῶν ποθεινὴν κοινόπουν παρουσίαν.
 
@@ -285,20 +290,20 @@ Read through from the column images; italics set. 862: the draft's cut at "88—
 --- flags
 1 ζυγά). [conf] → ok
 2 z.., [conf] → *i.e.*,
-3 αὐτὸν... [conf] → αὐτὸν...λακεῖν)
+3 αὐτὸν... [conf] → αὐτὸν..λακεῖν)
 4 70. [conf] → *ib.*
 5 EI. [conf] → *El.*
 6 as=‘to [conf] → ok
-7 σοι... [conf] → σοι...συμμανθάνω
+7 σοι... [conf] → σοι..συμμανθάνω
 8 σφε [conf] → **σφε** (bold)
 9 ZTMMAOEIN [latin] (Greek model: ΣΥΜΜΑΘΕΙΝ.) → ΣΥΜΜΑΘΕΙΝ
 10 ZTNNAIEIN [latin] (Greek model: ΣΥΝΝΑΙΕΙ͂Ν.) → ΣΥΝΝΑΙΕΙΝ
 11 kovdels [latin] → **κοὐδεὶς**
 12 kovdels [latin] → **κοὐδεὶς**
 13 dp’ [rare] → ἄρ’
-14 μοι... [conf] → ok
+14 μοι... [conf] → μοι..
 15 El. [conf] → *El.*
-16 .ναὸς.. [conf] → ...ναὸς...
+16 .ναὸς.. [conf] → ..ναὸς..
 17 308f.: [digit] → 308 f.:
 18 7222. [conf] → *Hipp.*
 19 Z%eb. [conf] → *Theb.*
@@ -306,7 +311,8 @@ Read through from the column images; italics set. 862: the draft's cut at "88—
 21 : [conf] → omitted (debris)
 22 ἐστίβευται [greek] → ok
 --- notes
-Read through from the column images; italics set (*with* in "to learn *with* one"). 869: the draft's cut at "ὅρα τίς" joined again (plain Greek after "Oedipus:—"); **συμμαθεῖν**, **σφε**, **με** and Jebb's proposed verse **κοὐδεὶς ἐπίσταταί σφε συνναίειν τόπος** are bold inside the paragraph, as printed; *Tr.* 99 (OCR 90). Left as printed: "*Ant.* 1092 ff. ἐπιστάμεσθα...αὐτὸν...λακεῖν):" has a closing bracket with no opening one (the print's).
+Read through from the column images; italics set (*with* in "to learn *with* one"). 869: the draft's cut at "ὅρα τίς" joined again (plain Greek after "Oedipus:—"); **συμμαθεῖν**, **σφε**, **με** and Jebb's proposed verse **κοὐδεὶς ἐπίσταταί σφε συνναίειν τόπος** are bold inside the paragraph, as printed; *Tr.* 99 (OCR 90). Left as printed: "*Ant.* 1092 ff. ἐπιστάμεσθα..αὐτὸν..λακεῖν):" has a closing bracket with no opening one (the print's).
+869-872	rev: Jebb's two dots of omission written as printed (the check had made them three), in the text and the flag answers: κοὐδεὶς..τόπος, ἐπιστάμεσθα..αὐτὸν..λακεῖν, μανθάνειν.., ἵνα σοι..συμμανθάνω, μοι.. | ναίει, ἡμῶν..ναὸς..ὁμιλίαν, πατρὸς | ..ὁμιλίαν, φίλων..ὁμήγυρις
 
 === p-0220
 + similar phrase in *Suppl.* 818 (Adrastus) ἔχεις ἔχεις (*sc.* τὰ τέκνα)—ΧΟ. πημάτων γ’ ἅλις βάρος. Cp. also *Cycl.* 683 ΧΟ... ἔχεις; (‘hast thou caught them?’) ΚΥ. κακόν γε πρὸς κακῷ. For a like coincidence, see 591 n.
@@ -319,7 +325,7 @@ Read through from the column images; italics set (*with* in "to learn *with* one
 
 **τὴν ἀφ’ ἡλίου βολῶν**: so Eur. *Or.* 1258 ἐγὼ μὲν οὖν τρίβον | τόνδ’ ἐκφυλάξω, τὸν πρὸς ἡλίου βολάς. βολαί, like *ictus* (Hor. *C.* 2. 15. 10),=ἀκτῖνες: cp. Eur. *Bacch.* 14 ἡλιοβλήτους πλάκας.
 
-**δηλοῖ**=δῆλός ἐστι: cp. 471 n. ‘He is not found to have appeared anywhere *along the path* from the east.’ The acc. **κέλευθον** denotes the ground which the searchers have traversed: the phrase is a terse equivalent for οὐδαμοῦ δηλοῖ φανεὶς τοῖς τὴν...κέλευθον ἐλθοῦσιν. There is no real resemblance to *El.* 1273 φιλτάταν | ὁδὸν ἐπαξιώσας ὧδέ μοι φανῆναι, where ὁδὸν is cognate acc. to φανῆναι as implying ἐλθεῖν (cp. *ib.* 1318 ἐξήκεις ὁδόν).
+**δηλοῖ**=δῆλός ἐστι: cp. 471 n. ‘He is not found to have appeared anywhere *along the path* from the east.’ The acc. **κέλευθον** denotes the ground which the searchers have traversed: the phrase is a terse equivalent for οὐδαμοῦ δηλοῖ φανεὶς τοῖς τὴν..κέλευθον ἐλθοῦσιν. There is no real resemblance to *El.* 1273 φιλτάταν | ὁδὸν ἐπαξιώσας ὧδέ μοι φανῆναι, where ὁδὸν is cognate acc. to φανῆναι as implying ἐλθεῖν (cp. *ib.* 1318 ἐξήκεις ὁδόν).
 
 ## 879-973
 A κομμός, in which the Chorus has both lyrics and trimeters; Tecmessa, trimeters only (except ἰώ μοί μοι, etc.). Verses 879—914 form a strophe,=antistr. 925—960. The lyric parts of strophe and antistrophe correspond thus: (1) 879—890=925—936: (2) 900—903=946—949: (3) 909—914=954—960. The intervals between the lyrics are filled by dialogue between the Chorus and Tecmessa, mainly in trimeters: thus (1) 891—899=937—945: (2) 904—907=950—953.
@@ -366,11 +372,12 @@ For the lyric metres see Metrical Analysis.
 31 ZZ [latin] (Greek model: ΞΖ) → *El.*
 --- notes
 Read through from the column images; the draft's text of 877 (βολαί … δηλοῖ) and of 879-973 (the OCR had interleaved the two columns' lines) rewritten from the print. Range heading 879—973 (draft 879-978); the range note is in plain type, no lemma. 879 ff. as ## 879; ἁλιαδᾶν (bold, after a dash) a new paragraph. Italics set (*sc.*, *Cycl.*, *ictus*, *C.*, *along the path*). The speaker sigla ΧΟ. and ΚΥ. in Greek capitals as printed; the breathing of ἅλις (Suppl. 818) is faint on the scan and read as rough.
+877	rev: τὴν..κέλευθον with Jebb's two dots (the check had three); "ΧΟ..." (Cycl. 683) has three dots in the print (the abbreviation's stop and two), kept
 
 === p-0221
 + fishermen); poetical for ἁλιέων, like παῖδες Ἑλλήνων (Aesch. *Pers.* 402). The use of the patronymic in Greek poetry was a free one; thus Pindar can say ἀφθίτου Ἐννοσίδα (Poseidon, *P.* 4. 33), forming the word from ἔνοσις. We might compare τεκτονίδης, which occurs as a proper name in *Od.* 8. 114.
 
-**ἔχων...ἄγρας**: cp. 564 θήραν ἔχων (n.).
+**ἔχων..ἄγρας**: cp. 564 θήραν ἔχων (n.).
 
 **ἀΰπνους**: the υ is long here, as in *O. C.* 685 (where ἄϋπνοι=ἀηδών in 672), though short in *Ph.* 848: as in *Ph.* 827 the first Ὕπνε has ῡ, and the second ῠ. Hermann unnecessarily inserted **ἀμφ’** before ἀΰπνους (taking the υ as short). The metre is dochmiac: cp. 926 n.
 
@@ -382,7 +389,7 @@ Read through from the column images; the draft's text of 877 (βολαί … δ�
 **Βοσπορίων**, of the Hellespont; cp. Aesch. *Pers.* 723, καὶ τόδ’ ἐξέπραξεν, ὥστε Βόσπορον κλῇσαι μέγαν; with ref. to the bridges of boats made by order of Xerxes, ἡ ζεῦξις τοῦ Ἑλλησπόντου (Her. 7. 35).—The word **ἴδρις**, added in L and most MSS. after **ποταμῶν**, was an early interpolation, caused by the elliptical construction. The schol. (on 879) read it, and explains ποταμῶν ἴδρις by Ναΐς. But the antistr., v. 930, πάννυχα καὶ φαέθοντ’ ἀνεστέναζες, is clearly sound; though Elmsley suggested that ἄναξ may have dropped out before ἀνεστέναζες.
 
 ## 885
-**εἴ ποθι...λεύσσων**=λεύσσων, εἴ ποθι (=που) λεύσσει: *Ph.* 1204 ξίφος, εἴ ποθεν, | ἢ γένυν, ἢ βελέων τι, προπέμψατε, *i.e.*, εἴ ποθεν προπέμψαι ἔχετε (n.).
+**εἴ ποθι..λεύσσων**=λεύσσων, εἴ ποθι (=που) λεύσσει: *Ph.* 1204 ξίφος, εἴ ποθεν, | ἢ γένυν, ἢ βελέων τι, προπέμψατε, *i.e.*, εἴ ποθεν προπέμψαι ἔχετε (n.).
 
 **ἀπύοι**, –⏑–: Ar. *Eq.* 1023 ἐγὼ μέν εἰμ’ ὁ κύων· πρὸ σοῦ γὰρ ἀπύω. (Moschus 2. 124 has ἠπύοντες with ῡ: elsewhere the pres. has ῠ: the fut. and aor. have ῡ.)
 
@@ -390,7 +397,7 @@ Read through from the column images; the draft's text of 877 (βολαί … δ�
 
 **τὸν μακρῶν ἀλάταν πόνων**. The similar phrase in Aesch. *P. V.* 900, ἀλατείαις πόνων, implies the constr. ἀλᾶσθαι πόνους (as cogn. acc.); and Sophocles may have had that in mind. But the gen. could also be explained as equiv. to an adj. πολύπονον: cp. *Ant.* 114 λευκῆς χιόνος πτέρυγι (n.).
 
-**οὐρίῳ μὴ πελάσαι δρόμῳ**, ‘cannot come near him (*sc.* τῷ Αἴαντι), with prospered course.’ Others take δρόμῳ with πελάσαι, ‘*attain to*, obtain, a prosperous course.’ (Cp. Pind. *O.* 1. 78 κράτει...πέλασον, ‘bring me to victory.’) Those who read οὐρίων...δρόμων (cr. n.) explain it in the same way. But this is surely forced.
+**οὐρίῳ μὴ πελάσαι δρόμῳ**, ‘cannot come near him (*sc.* τῷ Αἴαντι), with prospered course.’ Others take δρόμῳ with πελάσαι, ‘*attain to*, obtain, a prosperous course.’ (Cp. Pind. *O.* 1. 78 κράτει..πέλασον, ‘bring me to victory.’) Those who read οὐρίων..δρόμων (cr. n.) explain it in the same way. But this is surely forced.
 
 ## 890
 **ἀμενηνὸν**, enfeebled in mind by
@@ -398,7 +405,7 @@ Read through from the column images; the draft's text of 877 (βολαί … δ�
 1 2. [conf] → *P.* 4. 33
 2 ἔνοσι. [conf] → ἔνοσις.
 3 τεκτονίδης [greek] → ok
-4 τι4.--ἔχων.. [digit] → 114.—**ἔχων...ἄγρας**
+4 τι4.--ἔχων.. [digit] → 114.—**ἔχων..ἄγρας**
 5 dimrvous [latin] (Greek model: (..---ἀὐπ-) → **ἀΰπνους**
 6 dimrvous [latin] → **ἀΰπνους**
 7 ἄὔπνοι [accent] (Greek model: ἄσπνοιτει) → ἄϋπνοι=ἀηδών
@@ -428,7 +435,9 @@ Read through from the column images; the draft's text of 877 (βολαί … δ�
 31 κύων. [conf] → κύων·
 32 v: [conf] → ῡ: / ῠ: / ῡ.
 33 (η.).--- [conf] → (n.).—**ἀπύοι** (new lemma paragraph)
-34 οὐρίων... [conf] → οὐρίων...δρόμων
+34 οὐρίων... [conf] → οὐρίων..δρόμων
 --- notes
-Read through from the column images; italics set (*sc.*, *attain to*, *i.e.*). The quantity marks ῡ ῠ as printed (macron, breve over υ); the metrical scheme of ἀπύοι as –⏑–. The draft's lost cut at "—ἀΰπνους" (OCR dimrvous) made; the draft's cut at "ἀηδών" joined again (ἄϋπνοι=ἀηδών, plain). 883: **θεᾶν**, **ποταμῶν**, and after "—The word" **ἴδρις** and **ποταμῶν** are bold inside the paragraphs (no new lemma: the dash is followed by English). 885: ἀπύοι (bold, after the dash) and σχέτλια (new indented line) and the two lemmas after dashes each a paragraph. *P.* 4. 33 (OCR "2."), *O. C.* 685, ἐφίζοισα, ἁλιέων, ζεῦξις as printed.
+Read through from the column images; italics set (*sc.*, *attain to*, *i.e.*). The quantity marks ῡ ῠ as printed (macron, breve over υ); the metrical scheme of ἀπύοι as –⏑–. The draft's lost cut at "—ἀΰπνους" (OCR dimrvous) made; the draft's cut at "ἀηδών" joined again (ἄϋπνοι=ἀηδών, plain). 883: **θεᾶν**, **ποταμῶν**, and after "—The word" **ἴδρις** and **ποταμῶν** are bold inside the paragraphs (no new lemma: the dash is followed by English). 885: ἀπύοι (bold, after the dash) and σχέτλια (new indented line) and the two lemmas after dashes each a paragraph. *P.* 4. 33 (OCR "2."), *O. C.* 685, ἐφίζοισα, ἁλιέων as printed.
 The checker's "no breathing" remarks on υ, ῡ, ῠ: single letters named by Jebb (the υ is long; has ῡ; the pres. has ῠ), printed without breathing.
+883	rev: the print has "ἡ ξεῦξις" (both letters ξ: compared with the ζ of ἐφίζοισα on the same column), an evident misprint for ζεῦξις (Hdt. 7. 35 on the bridging of the Hellespont); ζεῦξις kept by the misprint rule (the check's note had called it "as printed")
+879-889	rev: Jebb's two dots of omission written as printed (the check had made them three), in the text and the flag answers: ἔχων..ἄγρας, εἴ ποθι..λεύσσων, κράτει..πέλασον, οὐρίων..δρόμων

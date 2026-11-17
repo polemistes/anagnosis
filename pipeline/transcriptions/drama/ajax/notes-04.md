@@ -8,7 +8,7 @@
 **ἄχεσιν καθυβρίζων**: for the dat., cp. Her. 1. 212 τριτημορίδι τοῦ στρατοῦ κατυβρίσας: Paus. 4. 27. 3 καθυβρίσαντες τῶν Διοσκούρων τῇ θυσίᾳ. Similarly Her. 3. 37 τῷ ἀγάλματι κατεγέλασε.
 
 ## 154
-**τῶν... μεγάλων ψυχῶν**, those διοτρεφεῖς βασιλεῖς like Ajax, who, in the true Homeric spirit, are conceived as μεγάθυμοι, μεγαλόψυχοι above common men.
+**τῶν..μεγάλων ψυχῶν**, those διοτρεφεῖς βασιλεῖς like Ajax, who, in the true Homeric spirit, are conceived as μεγάθυμοι, μεγαλόψυχοι above common men.
 
 **ἱεὶς** with gen., like other verbs of ‘aiming at’: *Ant.* 1034 τοξεύετ’ ἀνδρὸς τοῦδε: Eur. *Cycl.* 51 ῥίψω πέτρον σου.
 
@@ -40,6 +40,7 @@
 --- notes
 153: the draft had scrambled the two lines of the Pausanias quotation; reordered from the image.
 157: "—ὁ φθόνος." is a bold lemma after a dash: made a new paragraph.
+154	rev: lemma τῶν..μεγάλων ψυχῶν with Jebb's two dots (the draft had "τῶν... μεγάλων")
 
 === p-0119
 + λαμπρὸν ὁ φθόνος βιάζεται (λιάζεται Wecklein).
@@ -104,7 +105,7 @@
 
 (4) This reading is confirmed by the fact that since **ὑποδείσαντες** refers to the foes of Ajax (and not, as the schol. took it, to the birds), there is a change from simile to metaphor: the ‘vulture’ is Ajax. This is quite in the manner of Sophoclean imagery: cp. n. on *Ant.* 117 ff.—For other views, see Appendix.
 
-**ὅτε... δὴ**, epic, ‘when now,’ ‘when at length,’ *Od.* 2. 314 νῦν δ’ ὅτε δὴ μέγας εἰμί.
+**ὅτε..δὴ**, epic, ‘when now,’ ‘when at length,’ *Od.* 2. 314 νῦν δ’ ὅτε δὴ μέγας εἰμί.
 
 **ἀπέδραν**, for ἀπέδρασαν (Thuc. 1. 128), like the poetical ἔβαν, ἔσταν, ἔτλαν, etc.
 
@@ -153,6 +154,7 @@ The sailors ask whether Artemis or Ares can have driven Ajax to such a deed. In 
 "ἀπέδραν, … ἔτλαν, etc.—αἰγυπιὸν" and the Od. 22. 302 quotation were scrambled by the OCR (the line "an Homeric image" mixed into the Greek); rewritten from the image and cut at the bold lemma αἰγυπιὸν.
 Ταυροπόλα=Ταυροπόλος: the draft had cut at "=" (read as "--"); joined again, only Ταυροπόλα bold.
 (4): the draft had "ἢ. on “1212. 117 ff."; the print reads "n. on *Ant.* 117 ff."
+167-171	rev: lemma ὅτε..δὴ with Jebb's two dots (the draft had "ὅτε... δὴ")
 
 === p-0121
 + Artemis Ταυρική (or Ταυρώ) had orgiastic elements; it was of Asiatic origin, and belonged to a primitive stage of nature-worship. The ritual was a bloody one, and in early times involved human sacrifice. This was the Artemis whose cult was said to have been brought to Brauron in Attica, from the Tauric Chersonese, by Iphigeneia and Orestes.
@@ -167,16 +169,16 @@ It is possible that Sophocles here was thinking *only* of the Ταυροπόλο
 **μᾶτερ αἰσχύνας ἐμᾶς**: as πειθαρχία is τῆς εὐπραξίας μήτηρ (Aesch. *Theb.* 224), etc. The boldness is somewhat like that of *O. T.* 157, ὦ χρυσέας τέκνον Ἐλπίδος, ἄμβροτε Φάμα.
 
 ## 175
-**πανδάμους... βοῦς**, because they were still common property, λεία ἄδαστος: see on 54.
+**πανδάμους..βοῦς**, because they were still common property, λεία ἄδαστος: see on 54.
 
 ## 176
 **ἦ που**, ‘I ween’: a phrase frequent in this play; cp. 382, 622, 850, 1008: *Tr.* 846.
 
-**νίκας τινὸς ἀκάρπωτον χάριν**, on account of some victory (given by her to Ajax) which brought her no καρπός, no reward; **ἤ ῥα... ψευσθεῖσα ἐνάρων**, *either*, it may be, because she was disappointed of spoils; **εἴτ’ ἀδώροις ἐλαφαβολίαις**, *or* by reason of deer-slaying after which he made no δῶρα to her. The general cause, denoted by νίκας.. χάριν, is divided into two special cases; (1) a victory in *war*; (2) a victory in *hunting*. [This is simpler than to suppose that νίκας.. χάριν refers to the withholding of a *public* offering,—which Ajax ought to have made on behalf of those who fought under his command; and that ἐνάρων refers to a private vow, which he had made on his own account. On this view, *three* different causes would be indicated; and ἦ που in 176 would be disjunctive,—‘*either*, I ween,’—as it is in *Od.* 13. 234.]
+**νίκας τινὸς ἀκάρπωτον χάριν**, on account of some victory (given by her to Ajax) which brought her no καρπός, no reward; **ἤ ῥα..ψευσθεῖσα ἐνάρων**, *either*, it may be, because she was disappointed of spoils; **εἴτ’ ἀδώροις ἐλαφαβολίαις**, *or* by reason of deer-slaying after which he made no δῶρα to her. The general cause, denoted by νίκας..χάριν, is divided into two special cases; (1) a victory in *war*; (2) a victory in *hunting*. [This is simpler than to suppose that νίκας..χάριν refers to the withholding of a *public* offering,—which Ajax ought to have made on behalf of those who fought under his command; and that ἐνάρων refers to a private vow, which he had made on his own account. On this view, *three* different causes would be indicated; and ἦ που in 176 would be disjunctive,—‘*either*, I ween,’—as it is in *Od.* 13. 234.]
 
-**νίκας ἀκάρπωτον χάριν**=νίκας..ἀκαρπώτου χάριν (*Ant.* 793 f. νεῖκος ἀνδρῶν ξύναιμον): cp. Eur. *I. T.* 566 κακῆς γυναικὸς χάριν ἄχαριν ἀπώλετο. Plat. *Legg.* p. 853 D ὧν δὴ χάριν οὐκ ἐπίχαριν λέγοιμ’ ἂν ..νόμον. (Others take χάριν as acc. of respect with ψευσθεῖσα: ‘disappointed *as to* the tribute,’ etc.)
+**νίκας ἀκάρπωτον χάριν**=νίκας..ἀκαρπώτου χάριν (*Ant.* 793 f. νεῖκος ἀνδρῶν ξύναιμον): cp. Eur. *I. T.* 566 κακῆς γυναικὸς χάριν ἄχαριν ἀπώλετο. Plat. *Legg.* p. 853 D ὧν δὴ χάριν οὐκ ἐπίχαριν λέγοιμ’ ἂν..νόμον. (Others take χάριν as acc. of respect with ψευσθεῖσα: ‘disappointed *as to* the tribute,’ etc.)
 
-**ἤ ῥα**: the *disjunctive* ἤ (or ἦ=ἠέ) is rarely thus followed by ῥα. (Cp. 172 n.) For **ἢ...εἴτε**, cp. Eur. *Alc.* 114 ἢ Λυκίας | εἴτ’ ἐπὶ τὰς ἀνύδρους | Ἀμμωνίδας ἕδρας.
+**ἤ ῥα**: the *disjunctive* ἢ (or ἦ=ἠέ) is rarely thus followed by ῥα. (Cp. 172 n.) For **ἢ...εἴτε**, cp. Eur. *Alc.* 114 ἢ Λυκίας | εἴτ’ ἐπὶ τὰς ἀνύδρους | Ἀμμωνίδας ἕδρας.
 
 **κλυτῶν**: cp. the Homeric κλυτὰ τεύχεα.
 
@@ -216,6 +218,9 @@ It is possible that Sophocles here was thinking *only* of the Ταυροπόλο
 --- notes
 175: the draft had "see on 34"; the print reads 54.
 176: the draft had "Ant. 703 ἴ."; the print reads *Ant.* 793 f. Cut at the bold lemmas νίκας τινὸς ἀκάρπωτον χάριν and ἤ ῥα after dashes.
+175	rev: lemma πανδάμους..βοῦς with Jebb's two dots (the draft had "πανδάμους... βοῦς")
+176	rev: lemma ἤ ῥα..ψευσθεῖσα ἐνάρων with two dots (the draft had three and a space); νίκας..χάριν (twice) and λέγοιμ’ ἂν..νόμον closed up as printed
+176	rev: "the *disjunctive* ἢ" with the grave as printed (the draft had ἤ)
 
 === p-0122
 **ἀδώροις..ἐλαφαβολίαις**: for the causal dat., cp. *Tr.* 1127 τοῖς γε πρόσθεν ἡμαρτημένοις (n.). Those who retain the MS. reading **δώροις** understand: ‘deceived either *by gifts* of spoils (promised, but not given), or in regard to slaying of deer.’ (Nauck, reading the genitive ἐλαφαβολίας, takes δώροις with that also.) But this is awkward. And, in support of **ἀδώροις**, it should be noted that Sophocles elsewhere also has co-ordinated a causal dat. with a partic. (or adj.) of causal force, like ψευσθεῖσα here. See *Tr.* 239 ΔΗ. εὐκταῖα φαίνων, ἢ ’πὸ μαντείας τινός; ΛΙ. εὐχαῖς (‘for a vow’). *O. C.* 333 ΟΙ. πότερα πόθοισι; ΙΣ. καὶ λόγων γ’ αὐτάγγελος.
@@ -225,7 +230,7 @@ It is possible that Sophocles here was thinking *only* of the Ταυροπόλο
 The causes here conjectured for her wrath remind us of her anger with Oeneus, who had failed to render first-fruits at harvest-tide (*Il.* 9. 534 χωσαμένη, ὅ οἱ οὔ τι θαλύσια γουνῷ ἀλωῆς | Οἰνεὺς ῥέξ’). Cp. Eur. *Hipp.* 147 where the Chorus suggest that the Cretan Dictynna may be wroth with Phaedra, as ἀνίερος ἀθύτων πελάνων (for having failed to make holy offerings of honey-cakes).
 
 ## 179
-**ἢ..\*μὴ..**; The reading of the MSS., ἢ χαλκοθώραξ ἢ τιν’ Ἐνυάλιος, was explained by supposing that χαλκοθώραξ meant Ares, as distinguished from Enyalios (so the schol. here). How the second **ἢ** should be corrected, is uncertain. (1) In favour of **μή**, it may be noted that the interrogative μή is often followed, as here, by τις, and that its tone of tentative suggestion is just in place. Cp. *Od.* 9. 405 f. ἦ μή τίς σεο μῆλα βροτῶν ἀέκοντος ἐλαύνει; | ἦ μή τίς σ’ αὐτὸν κτείνει δόλῳ ἠὲ βίηφι; *O. C.* 1502 μή τις Διὸς κεραυνός, ἢ τις ὀμβρία | χάλαζ’ ἐπιρράξασα; (2) Another possibility is **δή**, as=‘then’ (to make a last guess). (3) **σοί** would be fitting, indeed, but would require us to suppose that the second ἢ in the MSS. is an inadvertent repetition of the first, not a corruption of some word like itself. (4) **εἴ** has also been suggested. But the implied construction, μομφὰν ἔχων, εἴ τιν’ (εἶχεν), would be too harsh. (5) **ἦ** is condemned by the fact that with Sophocles this interrogative ἦ regularly stands first in its clause; only a vocative sometimes precedes it: see on *Ant.* 1281.
+**ἢ..\*μὴ..**; The reading of the MSS., **ἢ** χαλκοθώραξ **ἢ** τιν’ Ἐνυάλιος, was explained by supposing that χαλκοθώραξ meant Ares, as distinguished from Enyalios (so the schol. here). How the second **ἢ** should be corrected, is uncertain. (1) In favour of **μή**, it may be noted that the interrogative μή is often followed, as here, by τις, and that its tone of tentative suggestion is just in place. Cp. *Od.* 9. 405 f. ἦ μή τίς σεο μῆλα βροτῶν ἀέκοντος ἐλαύνει; | ἦ μή τίς σ’ αὐτὸν κτείνει δόλῳ ἠὲ βίηφι; *O. C.* 1502 μή τις Διὸς κεραυνός, ἢ τις ὀμβρία | χάλαζ’ ἐπιρράξασα; (2) Another possibility is **δή**, as=‘then’ (to make a last guess). (3) **σοί** would be fitting, indeed, but would require us to suppose that the second ἢ in the MSS. is an inadvertent repetition of the first, not a corruption of some word like itself. (4) **εἴ** has also been suggested. But the implied construction, μομφὰν ἔχων, εἴ τιν’ (εἶχεν), would be too harsh. (5) **ἦ** is condemned by the fact that with Sophocles this interrogative ἦ regularly stands first in its clause; only a vocative sometimes precedes it: see on *Ant.* 1281.
 
 **Ἐνυάλιος** is in the *Iliad* either the War-god (2. 651), seemingly identical with Ares, or an epithet of Ares (17. 211 Ἄρης | δεινὸς ἐνυάλιος). Like Ἐνυώ, the word is of uncertain (possibly Thracian) origin. The mention of this deity has a two-fold fitness here; (1) on account of the reference in 178 to Artemis Agrotera; for, acc. to Pollux 8. 91, the Athenian Polemarch made annual offerings Ἀρτέμιδι Ἀγροτέρᾳ καὶ τῷ Ἐνυαλίῳ: (2) because in the island-home of Ajax there was a
 --- flags
@@ -274,6 +279,7 @@ The causes here conjectured for her wrath remind us of her anger with Oeneus, wh
 The page begins with a new indented paragraph (ἀδώροις..ἐλαφαβολίαις, still under 176): no `+ `, as printed.
 The draft had lost the heading of 179 ("MSS., 179 ἢ TRI …"): `## 179` added, lemma ἢ..\*μὴ.. (Jebb's asterisk) from the image. The draft's text of the note on 179, points (2)-(5), had lines interleaved by the OCR: rewritten from the column image.
 The OCR had read the Od. 9. 405 f. quotation without the | between the verses: added.
+179	rev: "the MSS., **ἢ** χαλκοθώραξ **ἢ** τιν’": the two ἢ are in the bold type in the print; bolded
 
 === p-0123
 + ἱερόν of Enyalios, founded by Solon to commemorate the victory by which Athens wrested Salamis from the Megarians (Plut. *Sol.* 9). Further, Enyalios is here supposed to have helped Ajax; whereas Ares usually favoured the Trojans (cp. *Il.* 20. 38). As to the Attic relationship between the two deities, see Appendix.
@@ -290,7 +296,7 @@ The OCR had read the Od. 9. 405 f. quotation without the | between the verses: a
 ## 183
 **φρενόθεν γ’**, by the prompting of thine own mind,—if it had not been deranged by some god. Schol. οἴκοθεν (=in virtue of *thine own* qualities), ἀπὸ οἰκείας γνώσεως. The emphasis given by **γε** shows that this is the meaning.—Not ἐπ’ ἀριστερὰ φρενόθεν (as=φρενῶν), ‘to the leftward of thy mind’: nor, ‘went from good sense (=ἀπὸ φρενῶν) into folly.’
 
-**ἐπ’ ἀριστερὰ... ἔβας**, deviating from the right course: Aesch. *P. V.* 883 ἔξω δὲ δρόμου φέρομαι λύσσης | πνεύματι μάργῳ. Theognetus (a poet of the New Comedy), Φάσμα fr. 1. 7 ἐπαρίστερ’ ἔμαθες, ὦ πονηρέ, γράμματα (*i.e.*, ‘to your misfortune’). Schneid. cp. Ennius *Annales* 208 *Quo vobis mentes, rectae quae stare solebant | Antehac, dementes sese flexere viai?*
+**ἐπ’ ἀριστερὰ..ἔβας**, deviating from the right course: Aesch. *P. V.* 883 ἔξω δὲ δρόμου φέρομαι λύσσης | πνεύματι μάργῳ. Theognetus (a poet of the New Comedy), Φάσμα fr. 1. 7 ἐπαρίστερ’ ἔμαθες, ὦ πονηρέ, γράμματα (*i.e.*, ‘to your misfortune’). Schneid. cp. Ennius *Annales* 208 *Quo vobis mentes, rectae quae stare solebant | Antehac, dementes sese flexere viai?*
 
 **τόσσον**: the only example, except Aesch. *Ag.* 140, of this form in Tragedy.
 
@@ -301,7 +307,7 @@ The OCR had read the Od. 9. 405 f. quotation without the | between the verses: a
 
 From verse 172 down to this point, the Chorus have been asking whether the rumour can be true. Now they pass to the alternative:—‘But if it is untrue, then up and refute it.’
 
-**Ζεὺς... Φοῖβος**. Both gods are averters of evil, ἀλεξίκακοι, ἀποτρόπαιοι. But Zeus is invoked with especial fitness as being the source of mysterious voices and rumours (*Il.* 8. 250 ἔνθα πανομφαίῳ Ζηνὶ ῥέζεσκον Ἀχαιοί).
+**Ζεὺς...Φοῖβος**. Both gods are averters of evil, ἀλεξίκακοι, ἀποτρόπαιοι. But Zeus is invoked with especial fitness as being the source of mysterious voices and rumours (*Il.* 8. 250 ἔνθα πανομφαίῳ Ζηνὶ ῥέζεσκον Ἀχαιοί).
 --- flags
 1 Sol. [conf] → *Sol.*
 2 g). [conf] → 9).
@@ -357,6 +363,8 @@ From verse 172 down to this point, the Chorus have been asking whether the rumou
 183: the draft had cut "(as=φρενῶν)" into a false lemma paragraph "**φρενῶν)**"; joined again. The draft had also doubled "ἔβας" in the lemma ἐπ’ ἀριστερὰ... ἔβας.
 Ant. 752: the draft had ἢ; the print reads ἦ.
 “η” (the form in η) is a letter, printed without breathing.
+183	rev: lemma ἐπ’ ἀριστερὰ..ἔβας with Jebb's two dots (the draft had "ἀριστερὰ... ἔβας")
+186	rev: lemma Ζεὺς...Φοῖβος closed up as printed (the draft had "Ζεὺς... Φοῖβος")
 
 === p-0124
 ## 188
@@ -374,7 +382,7 @@ Ant. 752: the draft had ἢ; the print reads ἦ.
 **Σισυφιδᾶν**. Anticleia, the mother of Odysseus, was said to have been with child by Sisyphus when she married Laertes: hence *Ph.* 417 οὑμπολητὸς Σισύφου Λαερτίῳ, the son of Sisyphus, bought (with ἕδνα) by Laertes: see n. there, and on *Ph.* 625.
 
 ## 191
-**μή, μή μ’, ἄναξ**. If **μ’** be sound, it can be only the acc.: an elision of μοι is impossible (see *O. C.* 1436, n. in Appendix). And με could be explained only as depending on the phrase **κακὰν φάτιν ἄρῃ**, as meaning, ‘win an evil repute, to my injury’ (μή με διαβάλῃς, αὐτὸς διαβαλλόμενος): cp. *El.* 123 ff. τάκεις..οἰμωγὰν ..Ἀγαμέμνονα. But this is certainly forced; and, though the Chorus afterwards speak of themselves as involved in their chief’s peril (252 ff.), that thought is less fitting here.
+**μή, μή μ’, ἄναξ**. If **μ’** be sound, it can be only the acc.: an elision of μοι is impossible (see *O. C.* 1436, n. in Appendix). And με could be explained only as depending on the phrase **κακὰν φάτιν ἄρῃ**, as meaning, ‘win an evil repute, to my injury’ (μή με διαβάλῃς, αὐτὸς διαβαλλόμενος): cp. *El.* 123 ff. τάκεις..οἰμωγὰν..Ἀγαμέμνονα. But this is certainly forced; and, though the Chorus afterwards speak of themselves as involved in their chief’s peril (252 ff.), that thought is less fitting here.
 
 The simplest remedy is that which is proposed by Prof. v. Wilamowitz-Möllendorff (cr. n.), who, referring to the hiatus after ἄνα in 193, would here omit **μ’**. The syllables μή, μή μ’ answer metrically to μομφὰν in 180, and we should thus have to suppose that **μή, μή, ἄναξ** represents – – ⏑ –. Such an hiatus seems a very doubtful one for tragic lyrics: otherwise the suggestion would be welcome, as μή, μή is supported by *O. C.* 210 μή, μή μ’ ἀνέρῃ. Morstadt’s remedy, **μὴ μηκέθ’, ὦναξ**, (instead of μή, μή μ’, ἄναξ, ἔθ’,) has found much favour, and is satisfactory in itself; but it does not account for the origin of the vulgate.
 
@@ -412,6 +420,7 @@ The simplest remedy is that which is proposed by Prof. v. Wilamowitz-Möllendorf
 --- notes
 188: the draft had "ποῖ μεγάλοι βασιλῆς" for **οἱ μεγάλοι βασιλῆς** (bold after a dash: kept as its own paragraph). 190: "ἀσι του" is **ἀσώτου**. 191: the metrical scheme read "—~—," is – – ⏑ – in the print.
 “-ῆς” and “-εὺς” are endings, printed without breathing.
+191	rev: *El.* 123 ff. τάκεις..οἰμωγὰν..Ἀγαμέμνονα closed up (the draft had a space where the print breaks the line before the dots)
 
 === p-0125
 + *within* his tent is not then expressed.
@@ -421,7 +430,7 @@ The simplest remedy is that which is proposed by Prof. v. Wilamowitz-Möllendorf
 ## 193
 **ἄνα**, the prep., with anastrophe, as=ἀνάστηθι: the hiatus as in *Il.* 9. 247 ἀλλ’ ἄνα, εἰ μέμονάς γε.
 
-**ὅπου ..ποτέ**, ‘wheresoever,’ *i.e.* in whatever spot within the dwelling. The change of **ποτὲ** to **ποτὶ** (on which see *Tr.* 1214 n.) introduces a strange phrase, στηρίζει πρὸς σχολῇ. The simple dat. (of circumstance) is clearly right.
+**ὅπου..ποτέ**, ‘wheresoever,’ *i.e.* in whatever spot within the dwelling. The change of **ποτὲ** to **ποτὶ** (on which see *Tr.* 1214 n.) introduces a strange phrase, στηρίζει πρὸς σχολῇ. The simple dat. (of circumstance) is clearly right.
 
 **ἀγωνίῳ σχολᾷ** seems to mean, ‘battle-pause,’ *i.e.*, rest from battle. Other explanations are: (1) σχολή which causes an ἀγών (*discrimen*); because, while Ajax rests, *his foes* are perilously active. Now, if the Chorus assumed that *Ajax*, while absent from battle, had been employed in other effort, then, indeed, they might call his rest ἀγώνιος σχολή, ‘a strenuous rest,’ like *otium negotiosum*. But it seems impossible that ἀγώνιος σχολή should mean merely, his ‘perilous’ or ‘critical’ rest,—made so by the acts of others.
 
@@ -467,7 +476,8 @@ The simplest remedy is that which is proposed by Prof. v. Wilamowitz-Möllendorf
 30 440 [conf] → 449
 31 Ἴδης [conf] → ok
 --- notes
-The draft headed the note on 193 as a second `## 191`; the print reads "193 f.": `## 193`. "ἀνάστηθι" is plain italic Greek after "as=", not a lemma: joined back into the paragraph; the bold lemma **ὅπου ..ποτέ** after the dash made a paragraph of its own.
+The draft headed the note on 193 as a second `## 191`; the print reads "193 f.": `## 193`. "ἀνάστηθι" is plain italic Greek after "as=", not a lemma: joined back into the paragraph; the bold lemma **ὅπου..ποτέ** after the dash made a paragraph of its own.
 "see Appendix on 75" as printed (the draft had 735).
 196: Pind. *O.* 7. 45 (the draft had "*O. T.* 45").
 “α”, “ᾰ”, “ᾱ” are letters (vowel quantity), printed without breathing.
+193	rev: lemma ὅπου..ποτέ closed up (the print breaks the line before the dots; Jebb sets .. closed elsewhere)

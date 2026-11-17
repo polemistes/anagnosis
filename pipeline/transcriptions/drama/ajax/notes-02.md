@@ -5,7 +5,7 @@
 **ὡς ἐπ’ Ἀργείοις**: ὡς here marks the intention of Ajax (which was frustrated): cp. *Ph.* 58 πλεῖς δ’ ὡς πρὸς οἶκον (n.).
 
 ## 45
-**κἂν ἐξεπράξατ’**: schol. μὴ λέγε βούλευμα, φησίν· οὐ γὰρ ἦν βούλευμα ἀλλὰ πρᾶγμα, εἰ κατημέλησα ἐγώ. Cp. *Ph.* 555 κοὐ μόνον βουλεύματα, | ἀλλ’ ἔργα δρώμεν’. The answer is more forcible than if the poet had written κἂν ἐξέπραξέ γ’: see on *Ph.* 105, 985, *El.* 408.—The midd. ἐκπράσσομαι is rare; in Her. 7. 158 it means ‘to avenge’ (φόνον). Cp. *O. T.* 287 ἐπραξάμην (n.).
+**κἂν ἐξεπράξατ’**: schol. μὴ λέγε βούλευμα, φησίν· οὐ γὰρ ἦν βούλευμα ἀλλὰ πρᾶγμα, εἰ κατημέλησα ἐγώ. Cp. *Ph.* 555 κοὐ μόνον βουλεύματα, | ἀλλ’ ἔργα δρώμεν’. The answer is more forcible than if the poet had written κἂν ἐξέπραξέ **γ’**: see on *Ph.* 105, 985, *El.* 408.—The midd. ἐκπράσσομαι is rare; in Her. 7. 158 it means ‘to avenge’ (φόνον). Cp. *O. T.* 287 ἐπραξάμην (n.).
 
 ## 46
 **ποίαισι** κ.τ.λ. The datives denote manner (or attendant circumstance), and refer to τὸ βούλευμ’...ἦν in 44. ‘What were these daring schemes, what was this rash confidence, with which he planned the attack?’—*i.e.*, ‘How could he possibly have conceived such a mad enterprise?’ For **ταῖσδε** combined with **ποίαισι**, cp. *Ph.* 1204 ποῖον ἐρεῖς τόδ’ ἔπος;
@@ -66,6 +66,7 @@
 The page's text was rewritten from the column images where the OCR had run the two columns together (45 Ph. 555, the end of 51) and garbled the lemmas of 44 and 48 (ἦ καὶ).
 50: Lycophron 1171 is printed κορέσσὰι, with a stray grave over the α: an evident misprint, written κορέσσαι.
 49: the lemma is printed δισσαῖς . . στρατηγίσιν (two dots), written δισσαῖς..στρατηγίσιν.
+45	rev: "κἂν ἐξέπραξέ γ’": the γ’ is printed bold, now **γ’**
 
 === p-0103
 + miseries. Besides this sense, the only other in which the word occurs is, ‘hard to carry about,’ ‘moving with difficulty,’ as Plat. *Tim.* p. 74 E ἵνα μὴ δύσφορα τὰ σώματα ἀπεργάζοιντο (‘unwieldy’). A scholiast wrongly took δυσφόρους here as=κακῶς φερομένας, παραφόρους, *i.e.* ‘led astray,’ ‘misguided.’
@@ -336,7 +337,7 @@ Breathing remark (ᾰ): the letter cited with its short mark, as printed.
 ## 88
 **μένοιμ’ ἄν**. Among its many shades of meaning, the opt. with ἄν sometimes expresses, as here, what the speaker feels that he *must* do; cp. *Ant.* 1108 ὧδ’ ὡς ἔχω στείχοιμ’ ἄν (n.). See below, 186.
 
-**ἤθελον δ’ ἄν**, as *Ph.* 1278, and *ib.* 1239 ἂν..ἐβουλόμην: so ἠθέλησα with ἄν, *ib.* 427, *O. T.* 1348, and εἱλόμην ἄν, *Tr.* 734. For ἤθελον without ἄν, see 1400.
+**ἤθελον δ’ ἂν**, as *Ph.* 1278, and *ib.* 1239 ἂν..ἐβουλόμην: so ἠθέλησα with ἄν, *ib.* 427, *O. T.* 1348, and εἱλόμην ἄν, *Tr.* 734. For ἤθελον without ἄν, see 1400.
 
 **ἐκτὸς ὢν τυχεῖν**, to be clear of the peril: cp. *Ph.* 504 ἐκτὸς ὄντα πημάτων: *ib.* 1260 ἴσως ἂν ἐκτὸς κλαυμάτων ἔχοις πόδα: fr. 657. 3 ἐκτός εἰσι τῶν κακῶν.
 
@@ -373,6 +374,7 @@ Breathing remark (ᾰ): the letter cited with its short mark, as printed.
 --- notes
 The draft had run the columns together in 88 and 89; both rewritten from the image. 86: "Plat. Rep. p. 375 D" (draft "Plat, Rep. p- 375 ἢ"); "1105", not the draft's "1103".
 Breathing remarks (αντ, ᾱς, ᾰ): stem, ending and letter cited without breathing, as printed.
+88	rev: lemma "ἤθελον δ’ ἂν": the print has ἂν (grave), the draft ἄν
 
 === p-0109
 + from stems in οντ, as Κρέον (stem Κρεοντ). The vocatives Πουλυδάμα (*Il.* 12. 231), Λαοδάμα (*Od.* 8. 141) are exceptions, due perhaps to a sense that here the ending -αν might suggest an accusative.

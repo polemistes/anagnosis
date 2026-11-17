@@ -276,7 +276,7 @@ Structure: after dashes the lemmas ἐμμένοντες, ὀρθῷ νόμῳ, 
 
 **ἐπέβας**, absol., ‘embarked’ (as in Thuc. 7. 62 § 2 ἐπιβήσονται),—recalling the moment when they set forth from Salamis together; a point which is lost if ἐπέβας be taken as =‘thou hast come hither.’
 
-**ἐλίσσων**: cp. Eur. *Or.* 171 πόδα σὸν εἱλίξεις, *i.e.*, ‘move swiftly.’
+**ἑλίσσων**: cp. Eur. *Or.* 171 πόδα σὸν εἱλίξεις, *i.e.*, ‘move swiftly.’
 
 ## 360
 **πημονὰν ἐπαρκέσοντ’**: cp. *Il.* 2. 873 οὐδέ τί οἱ τό γ’ ἐπήρκεσε λυγρὸν ὄλεθρον: *Od.* 17. 568 οὔτε τι Τηλέμαχος τό γ’ ἐπήρκεσεν οὔτε τις ἄλλος. Thus, though ἐπαρκεῖν could not mean literally ‘to ward *off*,’ epic precedent warranted its use in an equivalent sense, which was strictly that of bringing one help *against* a danger. In lyrics, at least, where epic associations have a large scope, it seems needless to write **ἀπαρκέσοντ’**.
@@ -321,6 +321,7 @@ The traditional reading **ποιμένων** is explained by the schol. in L, τ
 26 Prot. [conf] → *Prot.*
 --- notes
 Structure: the draft had scrambled the end of 358 and the note 362 ("**τ ρα** ]]ησ…", "κακὸν 362 κακῷ f. δι η s a ἄκος: φώνει: 50 fr. cp. 74 ἐνταῦθα 591."): rewritten from the image; heading 362 made (εὔφημα φώνει, then κακὸν κακῷ διδοὺς ἄκος as a paragraph); in 358 the further lemmas ὃς, ἐπέβας, ἐλίσσων as paragraphs. The page ends "ποιῶ.—" and the next lemma (τὸ πῆμα τῆς ἄτης) begins p-0149: dash dropped. Read-through: ἁλίαν 8s → **ἁλίαν ὃς ἐπέβας** (bold); Hermann's ὃς ἁλίαν ἔβας bold; Fl 1359 με ] → *El.* 1359 με |; πὶ τοῖς → ἅμα τοῖς; bold ποιμένων, πημονὰν, με, γένος as printed; italics set (*Heracl.*, *Ant.*, *Or.*, *Il.*, *Od.*, *off*, *against*, *of my shepherds*, *Suppl.*, *come*). ἐλίσσων (358) is printed with a smooth breathing; kept as printed.
+358	rev: lemma ἐλίσσων → ἑλίσσων: the print has a smooth breathing (checked against ἐπέβας and ὃς on the same page), an evident misprint for the verb ἑλίσσω (cp. εἱλίξεις in the same note); corrected by the misprint rule, printed ἐλίσσων
 ## 360: Jebb's number; our text has no 360 (the checker's remark; Jebb's lyric numbering).
 
 === p-0149
@@ -369,3 +370,4 @@ For **ἐκτὸς** cp. *O. T.* 676 οὔκουν μ’ ἐάσεις κἀκτ
 18 ἐκνεμεῖς [greek] → ok (bold)
 --- notes
 Structure: the page opens with a new lemma of 362 (τὸ πῆμα τῆς ἄτης, after the dash at the foot of p-0148): no `+ `; the draft's "+ " removed. In 369 the lemma ἄψορρον (after a dash) made a paragraph. Read-through: TO πῆμα → τὸ πῆμα; ἃ δούλη → a δούλη; Mss. → MSS.; 77. 0902 → *Tr.* 902; 9. τό 8 1 → 9. 16 § 1; "—~" → –⏑; bold lemma οὐκ ἐκτὸς ἄψορρον ἐκνεμεῖ πόδα, εὐκάρδιον, ἄτρεστον, ἐκτὸς as printed; italics set (*Ph.*, *Od.*, *original*, *formidable*, *El.*, *depascunt*).
+362	rev: checked on the image: the page begins with the bold lemma **τὸ πῆμα τῆς ἄτης**, a further lemma of the note on 362 after the dash at the foot of p-0148: a new paragraph of that note, so neither a heading nor `+ ` (the checker's remark "begins neither …" is answered so).

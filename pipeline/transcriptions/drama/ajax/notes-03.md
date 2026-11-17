@@ -236,7 +236,7 @@ Structure: **προνούστερος** cut as a further lemma of 119 (bold afte
 
 **μακροῦ**, extensive, ‘large’: cp. 825: *Tr.* 1217 χάριν βραχεῖαν πρὸς μακροῖς ἄλλοις διδούς.
 
-**πλούτου βάθει**: cp. Tyrtaeus fr. 12. 6 πλουτοίη δὲ Μίδεω καὶ Κινύρεω βάθιον (so Camerarius: μάλιον G. M. Schmidt): Pind. *O.* 13. 63 βαθὺν κλᾶρον (‘a rich domain’): Aesch. *Suppl.* 555 βαθύπλουτον χθόνα (referring to soil): Eur. fr. 453 Εἰρήνα βαθύπλουτε: Callim. *Cer.* 114 τὸν βαθὺν οἶκον (‘opulent’): Aelian *V. H.* 3. 18 ἐν εἰρήνῃ τε διάγειν καὶ πλούτῳ βαθεῖ. Indeed, βαθύς could be said (like **παχύς**) of a rich *man*: Xen. *Oec.* 11. 10 βαθεῖς τε καὶ ἐρρωμένους ἄνδρας, ‘men of substance and power.’—The feeble *v.l.* **βάρει** (cr. n.) was prompted by βρίθεις.
+**πλούτου βάθει**: cp. Tyrtaeus fr. 12. 6 πλουτοίη δὲ Μίδεω καὶ Κινύρεω βάθιον (so Camerarius: μάλιον G. M. Schmidt): Pind. *O.* 13. 63 βαθὺν κλᾶρον (‘a rich domain’): Aesch. *Suppl.* 555 βαθύπλουτον χθόνα (referring to soil): Eur. fr. 453 Εἰρήνα βαθύπλουτε: Callim. *Cer.* 114 τὸν βαθὺν οἶκον (‘opulent’): Aelian *V. H.* 3. 18 ἐν εἰρήνῃ τε διάγειν καὶ πλούτῳ βαθεῖ. Indeed, βαθύς could be said (like παχύς) of a rich *man*: Xen. *Oec.* 11. 10 βαθεῖς τε καὶ ἐρρωμένους ἄνδρας, ‘men of substance and power.’—The feeble *v.l.* **βάρει** (cr. n.) was prompted by βρίθεις.
 
 ## 131
 **ἡμέρα**: cp. 475: Pind. *P.* 8. 95 ἐπάμεροι· τί δέ τις; τί δ’ οὔ τις; σκιᾶς ὄναρ | ἄνθρωπος.
@@ -262,6 +262,7 @@ Structure: **προνούστερος** cut as a further lemma of 119 (bold afte
 17 ἄνθρωπος-.--- [conf] → ἄνθρωπος.—
 --- notes
 Note 129 rewritten from the image (the OCR had interleaved the two columns: "‘take aor. upon ἠράμην thee,’ …"); the letter "would have ᾰ" printed bold with a breve, written **ᾰ**: a letter cited with its quantity mark, no breathing printed (the checker's remark on it is answered so). Corrected beyond the flags: καὶ (OCR kal), τοὺς, *constrain into*, ᾧ, *Merch.*, MS. (OCR Ms.), "so Camerarius" (OCR 530), *N.*, *O.*, *P.* 8. 95, τε, τις (OCR Tis); παχύς and βάρει are in bold type inside the paragraph.
+130	rev: παχύς un-bolded: it is in the ordinary (italic) Greek type, spaced, like βαθύς beside it; only βάρει is bold
 
 === p-0115
 + *Il.* 19. 223 ἐπὴν κλίνῃσι τάλαντα | Ζεύς.

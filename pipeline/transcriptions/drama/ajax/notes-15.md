@@ -1,5 +1,5 @@
 === p-0206
-+ (Cp. *Il.* 2. 96 λαῶν ἱζόντων,—in the agora.) Some take εὐθὺς ἐξ ἕδρας as= ‘immediately, *from* his seat,’—*i.e.*, without rising (so that he would beckon or call the man to him): cp. *Il.* 19. 77 αὐτόθεν ἐξ ἕδρης, οὐδ’ ἐν μέσσοισιν ἀναστάς: *Od.* 13. 56 (ἔσπεισαν) αὐτόθεν ἐξ ἑδρέων, ‘even there as they sat.’ But in those phrases αὐτόθεν helps to fix the sense: whereas ἐκ following **εὐθὺς** regularly denotes the point from which the further action sets out (εὐθὺς ἐξ ἀρχῆς, εὐθὺς ἐκ νέου, etc.). Hence εὐθὺς ἐξ ἕδρας *ought* to mean, ‘immediately *after* sitting.’—Other explanations of ἐξ ἕδρας are: (1) ‘from where I (the messenger) sat.’ (2) ‘After the sitting of the council.’ But Teucer would not wait for that. (3) ‘Leaving the council’ (or strictly, its neighbourhood, since Calchas had come apart from it, 750). This would imply that Teucer had been included in the ξύνεδρος κύκλος: but the tone used towards him by Menelaüs (1120 ὁ τοξότης) and Agamemnon (1235 δούλων) makes this very unlikely.
++ (Cp. *Il.* 2. 96 λαῶν ἱζόντων,—in the agora.) Some take εὐθὺς ἐξ ἕδρας as=‘immediately, *from* his seat,’—*i.e.*, without rising (so that he would beckon or call the man to him): cp. *Il.* 19. 77 αὐτόθεν ἐξ ἕδρης, οὐδ’ ἐν μέσσοισιν ἀναστάς: *Od.* 13. 56 (ἔσπεισαν) αὐτόθεν ἐξ ἑδρέων, ‘even there as they sat.’ But in those phrases αὐτόθεν helps to fix the sense: whereas ἐκ following **εὐθὺς** regularly denotes the point from which the further action sets out (εὐθὺς ἐξ ἀρχῆς, εὐθὺς ἐκ νέου, etc.). Hence εὐθὺς ἐξ ἕδρας *ought* to mean, ‘immediately *after* sitting.’—Other explanations of ἐξ ἕδρας are: (1) ‘from where I (the messenger) sat.’ (2) ‘After the sitting of the council.’ But Teucer would not wait for that. (3) ‘Leaving the council’ (or strictly, its neighbourhood, since Calchas had come apart from it, 750). This would imply that Teucer had been included in the ξύνεδρος κύκλος: but the tone used towards him by Menelaüs (1120 ὁ τοξότης) and Agamemnon (1235 δούλων) makes this very unlikely.
 
 Teucer sends a messenger, instead of going himself, probably because he hopes that his mediation with the chiefs may do some good. What he dreads is simply that Ajax should leave the tent; and a message could prevent that. He has no cause to suspect that Ajax meditates suicide.
 
@@ -45,6 +45,7 @@ Teucer sends a messenger, instead of going himself, probably because he hopes th
 28 χολωσα [greek] → χολωσαμένη (divided between pages: whole here)
 --- notes
 Much of the left column and the end of 784 were garbled (lines interleaved); both columns retyped from the image. "781 f." and "784 f." headed `## 781`, `## 784`. "365" (draft 305), "913" (draft 013), "Menelaüs" read from the image. λαῶν ἱζόντων is printed letter-spaced (emphasis), written plain. εὐθὺς after "ἐκ following" is printed bold, kept bold.
+780	rev: "as= ‘immediately" closed up to "as=‘immediately" (the = stands at a line end; closed up as elsewhere)
 
 === p-0207
 + δῖον γένος ἰοχέαιρα: *ib.* 6. 180 (the Chimaera) ἡ δ’ ἄρ’ ἔην θεῖον γένος οὐδ’ ἀνθρώπων.
@@ -166,7 +167,7 @@ Many lines garbled (left column foot of 798, the end of 798 interleaved with the
 
 **ὅτ’ αὐτῷ..φέρει**. The traditional **ὅτ’** (ὅτε) seems right. Tecmessa has already heard that the ἔξοδος is perilous. The new fact which she is now to learn is that ‘*this day*’ must decide the fate of Ajax. If, however, **ὅτ’** be changed to **ὃς**, then this new fact will not be told, unless the words καθ’ ἡμέραν τὴν νῦν be taken with what follows (ὃς..φέρει). But they go more naturally with what precedes them (τοῦ..μάντεως, *sc.* μαθών).
 
-If **φέρει** be sound, the subject to it is ἡ ἔξοδος (798). There is nothing harsh in this, since the ἔξοδος is the matter uppermost in the minds of the speakers. **φέρει..θάνατον ἢ βίον** then means, ‘is *fraught with* death or life’: cp. *Ph.* 109 εἰ τὸ σωθῆναί γε τὸ ψεῦδος φέρει: *El.* 84 ταῦτα γὰρ φέρει | νίκην: *ib.* 1042 χἢ δίκη βλάβην φέρει. The subject to φέρει is certainly not ἡμέρα ἡ νῦν. If Calchas were subject to φέρει, the verb would mean ἀγγέλλει: but, for this sense, the subject must be the ἄγγελος himself, not the sender. There is no parallel for φέρει as=merely ‘*portends*.’
+If **φέρει** be sound, the subject to it is ἡ ἔξοδος (798). There is nothing harsh in this, since the ἔξοδος is the matter uppermost in the minds of the speakers. **φέρει..θάνατον ἢ βίον** then means, ‘is *fraught with* death or life’: cp. *Ph.* 109 εἰ τὸ σωθῆναί γε τὸ ψεῦδος φέρει: *El.* 84 ταῦτα γὰρ φέρει | νίκην: *ib.* 1042 χἡ δίκη βλάβην φέρει. The subject to φέρει is certainly not ἡμέρα ἡ νῦν. If Calchas were subject to φέρει, the verb would mean ἀγγέλλει: but, for this sense, the subject must be the ἄγγελος himself, not the sender. There is no parallel for φέρει as=merely ‘*portends*.’
 
 It is possible that ΦΕΡΕΙ came, under the influence of ΦΕΡΕΙΝ in 799, from ΘΡΟΕΙ (the subject being Calchas): but we should not be warranted in altering the text. Wecklein and Blaydes, reading **θροεῖ**, compare *O. C.* 1425 (τὰ τοῦδε) μαντεύμαθ’, ὃς σφῷν θάνατον ἐξ ἀμφοῖν θροεῖ.
 
@@ -214,6 +215,7 @@ It is possible that ΦΕΡΕΙ came, under the influence of ΦΕΡΕΙΝ in 799,
 30 Tevkpov [latin] → **Τεῦκρον μολεῖν** (bold lemma after a dash: new paragraph)
 --- notes
 Read through and retyped where garbled. "804 ff." headed `## 804`. Mended beyond the flags: "οἵ᾽ γώ" → οἲ ’γώ (and in the Eur. quotation: "οἱ ᾽γώ, τί λέξεις :" → οἲ ’γώ, τί λέξεις;), "Ξι 674" → *El.* 674, "Pk. 109" → *Ph.* 109, "σωθῆναί" (enclitic accent as printed), "7b. 1042 χὴ" → *ib.* 1042 χἢ (as printed), "kim" → *him*, "ot δὲ.. οἱ δέ" → **οἱ δὲ..οἱ δέ**, "(= αἰτησάμενος" closed up as printed, "vol. 11." → vol. II. Bold inside paragraphs as printed: ὅτ’, ὃς, φέρει, θροεῖ, σπεύσατε.
+801	rev: "χἢ δίκη" → χἡ δίκη (El. 1042: enlarged beside "ἡμέρα ἡ" on the same page: the same rough breathing, no accent; as printed)
 
 === p-0210
 **ἑσπέρους...ἀντηλίους**. So in Eur. *Or.* 1258 ff. the Chorus is divided into two ἡμιχόρια, which, by Electra’s direction, guard respectively the east and the west side of the palace at Mycenae:—ΗΜ. χωρεῖτ’, ἐπειγώμεσθ’· ἐγὼ μὲν οὖν τρίβον | τόνδ’ ἐκφυλάξω, τὸν πρὸς ἡλίου βολάς. | ΗΜ. καὶ μὲν ἐγὼ τόνδ’, ὃς πρὸς ἑσπέραν φέρει. There, the ‘eastward path’ is the πάροδος on the spectator’s left; the ‘westward,’ that on his right. In the *Orestes*, however, the hemichoria do not leave the orchestra. The Ionic form ἀντήλιος was used in Tragedy: so ἀπηλιώτης, even in Attic prose. ἀνθήλιος occurs first in the comic poet Theopompus (*circ.* 390 B.C.).
@@ -384,7 +386,7 @@ Mended beyond the flags: "Hence ὁ μὲν σφαγεὺς k.7.\." (italic, not
 
 **βαστάσῃ**, take in the hands, ‘lift’ (920). Cp. Eur. *Alc.* 724 βαστάζων νεκρόν=ἐκφέρων. Cp. *Ant.* 43 νεκρὸν..κουφιεῖς.
 
-**πεπτῶτα περὶ ξίφει**: cp. 899, 907: *Od.* 11. 424 ἀποθνήσκων περὶ φασγάνῳ: *Il.* 13. 570 περὶ δουρὶ | ἤσπαιρ’: *ib.* 8. 86 κυλινδόμενος περὶ χαλκῷ (said of a wounded horse, ‘writhing about’ the barb of an arrow): *ib.* 23. 30 (βόες) ἀμφὶ σιδήρῳ | σφαζόμενοι. See on 899.
+**πεπτῶτα περὶ ξίφει**: cp. 899, 907: *Od.* 11. 424 ἀποθνῄσκων περὶ φασγάνῳ: *Il.* 13. 570 περὶ δουρὶ | ἤσπαιρ’: *ib.* 8. 86 κυλινδόμενος περὶ χαλκῷ (said of a wounded horse, ‘writhing about’ the barb of an arrow): *ib.* 23. 30 (βόες) ἀμφὶ σιδήρῳ | σφαζόμενοι. See on 899.
 
 ## 830
 **πρόβλητος** goes closely with the datives: Her. 9. 112 τοὺς μαζοὺς κυσὶ προέβαλε. Cp. Hor. *Epod.* 6. 10 *proiectum odoraris cibum*.
@@ -420,3 +422,4 @@ Ajax forebodes that, as a public enemy, he will suffer the doom which Achilles a
 20 Αργείων [accent] (Greek model: ᾿Αργείων.) → Ἀργείων
 --- notes
 Read through; mended beyond the flags: "kal γὰρ εἰκός" made a bold lemma paragraph (printed bold, on its own indented line); "**μέγα Ξ**- μέγα" → **μακρὸν**=μέγα (the lemma read from the image; draft had lost it); "See on 809" → See on 899; "Τe" → τε; "πέλew" → πέλειν; "κἀπιχωρίοις" as printed (κἀπι-|χωρίοις); "καλώ δ᾽" → **καλῶ δ’**; καλῶ θ’ bold as printed; *proiectum odoraris cibum* italic; trailing ":" after "(‘pray that..’)." removed. Headings "826 ff." as `## 826`; 830, 831 as printed.
+826	rev: "ἀποθνήσκων" → ἀποθνῄσκων (Od. 11. 424: iota subscript printed under η, enlarged)
