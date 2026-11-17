@@ -841,6 +841,15 @@ def write_prose(slug: str, sources: Path, texts: Path, transcriptions: Path, ind
     from_page = slug in COMMENTARY_FROM_PAGE and write_transcribed_commentary(slug, texts, transcriptions, index_dir) > 0
     if from_page:
         ff_marks()
+        # what the scan's OCR text did not give, from our own OCR of the commentary's pages
+        from .drama import PLAYS as DRAMA
+        from .drama_pages import scan_dirs
+        from .ffmarks import apply_hocr_marks
+        _src, build = scan_dirs(DRAMA[slug].scan)
+        hocr = [build / "hocr" / f"leaf_{leaf:04d}.eng.hocr" for a, b in DRAMA[slug].notes_leaves
+                for leaf in range(a, b + 1)]
+        print(f"{slug} commentary: f./ff. marks from the pages' own OCR: "
+              f"{apply_hocr_marks(out / 'commentary-jebb.md', [h for h in hocr if h.exists()])} headings")
     elif write_commentary(slug, sources, texts):
         ff_marks()
     elif not play.commentary:
