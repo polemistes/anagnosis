@@ -856,7 +856,7 @@ post 425 transposuit Goettling; ab interpolatore (versuum 411—415 auctore) imp
 ## 429
 ὡς δʼ Anecd. Par. IV 11, 32 Cr.
 
-ἐθέλη HI
+ἐθέλῃ HI
 
 **ἠδʼ**] καὶ Et. gen. v. μεγάλως
 
@@ -876,7 +876,7 @@ sq. om. HΨ, m. alia in marg. HL
 θωρήσσονται ΩcL, θωρήσσοιντο Ωb
 
 ## 433
-προφρονέους D
+προφρονέουσ D
 
 ## 435
 δʼ αὖ DΩbGK, θʼ m. alia add. L
@@ -899,7 +899,7 @@ sq. om. HΨ, m. alia in marg. HL
 δʼ dedi, τʼ ΩΨ, delevit Peppmüller
 
 ## 447
-καὶ ἐκ libri, cf. Fr. 117, 3, κἂκ Winterton, κἢκ Menrad, πολλῶν δʼ ἐκ Voss
+καὶ ἐκ libri, cf. Fr. 117, 3, κἀκ Winterton, κἠκ Menrad, πολλῶν δʼ ἐκ Voss
 
 ## 451
 πολυκέρδεον Ψ (γρ. πολυδερκέος marg. L), πολλυκέρδιον C
@@ -959,7 +959,7 @@ sq. om. HΨ, m. alia in marg. HL
 Λύκτον, γρ. δί (= δίκτον) in marg. E, λύκτρον C
 
 ## 478
-τέξεσθαι ἔμελλε Kinkel, ἤμελλε τεκέσθαι libri, ἢ μέλλε τεκέσθαι Herwerden
+τέξεσθαι ἔμελλε Kinkel, ἤμελλε τεκέσθαι libri, ἣ μέλλε τεκέσθαι Herwerden
 
 ## 480
 τραφέμεν α in ε m¹ mut. D, τρεφέμεν (τρέφεν K) codd. cett.
@@ -1019,7 +1019,7 @@ resecuit Wolf
 ὑπὸ Ωbc, ἀπὸ DΨ
 
 ## 521
-δήσας Herodianus περὶ διχρ. II 7, 24 L. Choeroboscus schol. Theod. I 123, 12 H.; unde aliquid ante 521 intercidisse censuit Muetzell al.; Ζεὺς | δήσας — ἀργαλέοισι, μέσον κτλ. Hermann, δήσας . . . ἔλασσεν Ludwich Herodianum legisse arbitrati sunt
+δήσας Herodianus περὶ διχρ. II 7, 24 L. Choeroboscus schol. Theod. I 123, 12 H.; unde aliquid ante 521 intercidisse censuit Muetzell al.; Ζεὺς | δήσας — ἀργαλέοισι, μέσον κτλ. Hermann, δήσας . . . . ἔλασσεν Ludwich Herodianum legisse arbitrati sunt
 
 ## 525
 ἔδει ΩbΨ
@@ -1148,7 +1148,7 @@ sq. variae recensionis esse putavit Hermann, 590 eiecit Goettling, 591 Schoemann
 ἠμάτιον Ωb
 
 ## 600
-ὣς δʼ αὔτως Stobaeus, ex ὡσαύτως rest. D, ὣς δʼ αὔτως Ψ, ὡσαύτως Ωbc
+ὣς δʼ αὔτως Stobaeus, ex ὡσαύτως rest. D, ὡς δʼ αὔτως Ψ, ὡσαύτως Ωbc
 
 γυναῖκα cod. Casanat. 356 Laur. LXXXXI sup. 10
 
@@ -1285,7 +1285,7 @@ sq. hoc ordine RΩΨ
 
 ἀλλήλοις Aldus, ἀλλήλοισιν ΩΨ
 
-ἕσαν G, εσαν (ἵ m. ead.) H
+ἔσαν G, εσαν (ἵ m. ead.) H
 
 ## 687
 ἔσχεν FH m¹, ἴσχεν H m²
@@ -1414,7 +1414,7 @@ seclusit A. Meyer
 ἐρεμνοὶ D
 
 ## 761
-εἴς οὐρανὸν ἀνιὼν Ωc, εἰσανιὼν codd. cett.
+εἰς οὐρανὸν ἀνιὼν Ωc, εἰσανιὼν codd. cett.
 
 ## 762
 τῶν δʼ DΩbΨ
@@ -1439,7 +1439,7 @@ spurium om. ΩΨ, m² adscr. H
 ἀγγελίην Wolf, ἀγγελίη ΩΨ, ΑΓΓΕ . . . R
 
 ## 783
-ὅς τις R (OCT⟨ις) ΩΨ, superscr. μὲν D
+ὅς τις R (ΟCΤ⟨ις) ΩΨ, superscr. μὲν D
 
 ## 784
 τε libri, κε Klouček, cf. v. 87
@@ -1616,7 +1616,7 @@ sqq. alteram fabulae de Metide et Minerva recensionem, quam Chrysippus Stoic. Fr
 δὴ ἄρʼ ἔμελλε (cf. Hom. ζ 110) Fick, δή ῥα ἔμελλε DΩc Galenus, δή ῥʼ ἔμελλε Ωb, δή ῥʼ ἤμελλε Ψ
 
 ## 890
-ἐσκάτθετο D, ἐσ κάτθετο Ψ (σ et τθ iu ras. L), ἐγκάτθετο (γ in ras. E) Ωb Chrysippus, ἐγκάτθεο G, ἐσκάτθεο (corr. m¹) H
+ἐσκάτθετο D, ἐσ κάτθετο Ψ (σ et τθ in ras. L), ἐγκάτθετο (γ in ras. E) Ωb Chrysippus, ἐγκάτθεο G, ἐσκάτθεο (corr. m¹) H
 
 ## 891-899
 non commemoravit Chrysippus
@@ -1675,7 +1675,7 @@ sqq. ‘ἀθετοῦνται ἐφεξῆς στίχοι ἐννέα’ schol.
 neglexit schol. Laur. Apoll. Rhod. Arg. Γ 242
 
 ## 961
-δη Guyet, δέ codd., δέ ⟨νυ⟩ Triclinius
+δή Guyet, δέ codd., δέ ⟨νυ⟩ Triclinius
 
 ## 962
 χρυσῆν codd.

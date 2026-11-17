@@ -1,5 +1,6 @@
 sentence	word_id	form	lemma	postag	relation	head	artificial
 2273668	5	,	,	u--------	AuxX	14	
+2273668	6	αἵθ̓	ὅστε	p-p---fn-	SBJ	8	
 2273668	26	.	.	u--------	AuxK	0	
 2273669	18	,	,	u--------	COORD	15	
 2273669	20	·	·	u--------	AuxK	0	
