@@ -928,6 +928,8 @@ def write_transcribed_commentary(slug: str, texts: Path, transcriptions: Path, i
             md.append("")
         count += 1
     text = _METRE.sub(lambda m: m.group(1).translate(_METRE_SIGNS), "\n".join(md).rstrip("\n") + "\n")
+    # the OCR's ᾽ (koronis sign) for Jebb's elision and prodelision mark: ’, as the brief says
+    text = text.replace("\u1fbd", "\u2019")
     path = texts / slug / "commentary-jebb.md"
     tmp = path.with_name(path.name + ".part")
     tmp.write_text(text, encoding="utf-8")

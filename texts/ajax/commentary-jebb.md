@@ -3158,7 +3158,7 @@ Schneidewin strangely understands, ‘Odysseus mocks at the frenzy-darkened soul
 
 **κεἰ..μὴ**, where εἰ καὶ μή would be normal (563 n.).
 
-**᾽πόθουν**, ‘missed him,’ during the interval between the award of the arms and his death, when he remained in seclusion (193 f., n.). *Il.* 6. 361 (Hector) ὄφρ’ ἐπαμύνω | Τρώεσσ’, οἳ μέγ’ ἐμεῖο ποθὴν ἀπεόντος ἔχουσιν. 1. 240 ἦ ποτ’ Ἀχιλλῆος ποθὴ ἵξεται υἷας Ἀχαιῶν. For the prodelision of the augment in the last foot of the v., cp. 557 ᾽τράφης.
+**’πόθουν**, ‘missed him,’ during the interval between the award of the arms and his death, when he remained in seclusion (193 f., n.). *Il.* 6. 361 (Hector) ὄφρ’ ἐπαμύνω | Τρώεσσ’, οἳ μέγ’ ἐμεῖο ποθὴν ἀπεόντος ἔχουσιν. 1. 240 ἦ ποτ’ Ἀχιλλῆος ποθὴ ἵξεται υἷας Ἀχαιῶν. For the prodelision of the augment in the last foot of the v., cp. 557 ’τράφης.
 
 **ἐν χρείᾳ δορός**, ‘in the need of the spear’=‘in the straits of war’: cp. 1275: *Ant.* 670 δορὸς..ἐν χειμῶνι.—Not, ‘when they need *his* spear.’
 
@@ -3470,7 +3470,7 @@ The slow movement of the verse (with only quasi-caesura after the 3rd foot) is i
 **μῆλα καὶ ποίμνας**, ‘sheep and cattle’: ποῖμναι being used here (as in 42 and 300) in the wider sense, so as to include herds of oxen: see 53 n.
 
 ## 1062 f.
-The acc. **αὐτὸν** is resumed and more closely defined by **σῶμα**: cp. 1149 (βοήν after σέ, etc.): *O. T.* 819 καὶ τάδ’ οὔτις ἄλλος ἦν | ἢ ᾽γὼ ᾽π’ ἐμαυτῷ τάσδ’ ἀρὰς ὁ προστιθείς. Similarly *Tr.* 287 ff. νιν after αὐτόν.
+The acc. **αὐτὸν** is resumed and more closely defined by **σῶμα**: cp. 1149 (βοήν after σέ, etc.): *O. T.* 819 καὶ τάδ’ οὔτις ἄλλος ἦν | ἢ ’γὼ ’π’ ἐμαυτῷ τάσδ’ ἀρὰς ὁ προστιθείς. Similarly *Tr.* 287 ff. νιν after αὐτόν.
 
 **τυμβεῦσαι τάφῳ**: Lycophron 154 ἐτύμβευσεν τάφῳ. Ar. *Thesm.* 885 ποῦ δ’ ἐτυμβεύθη τάφῳ;
 
@@ -3490,7 +3490,7 @@ The acc. **αὐτὸν** is resumed and more closely defined by **σῶμα**: 
 **ἐξάρῃς** (ᾱ): cp. *O. T.* 914 ὑψοῦ γὰρ αἴρει θυμόν.
 
 ## 1067
-**εἰ..μὴ ᾽δυνήθημεν**, ‘granting that we were unable.’ Cp. Thuc. 3. 40 § 4 εἰ γὰρ οὗτοι ὀρθῶς ἀπέστησαν, ὑμεῖς ἂν οὐ χρεὼν ἄρχοιτε, ‘assuming that they were right to revolt, your rule would be unwarrantable.’
+**εἰ..μὴ ’δυνήθημεν**, ‘granting that we were unable.’ Cp. Thuc. 3. 40 § 4 εἰ γὰρ οὗτοι ὀρθῶς ἀπέστησαν, ὑμεῖς ἂν οὐ χρεὼν ἄρχοιτε, ‘assuming that they were right to revolt, your rule would be unwarrantable.’
 
 ## 1069 f.
 **χερσὶν παρευθύνοντες**, ‘guiding him with our hands’: cp. 542 χερσὶν εὐθύνων, said of guiding a child’s steps. ‘He will be docile enough now, and will go whither our hands guide him’ (*i.e.*, the body shall be laid where we please). Then **χερσὶν** suggests the bitter comment, (‘our *hands*, I say,) for our *words* were at all times lost upon him.’ For **ὅπου**, cp. *O. T.* 448 οὐ γὰρ ἔσθ’ ὅπου μ’ ὀλεῖς.
@@ -3503,7 +3503,7 @@ The acc. **αὐτὸν** is resumed and more closely defined by **σῶμα**: 
 ## 1073
 **καλῶς φέροιντ’ ἄν**, ‘have a prosperous course.’ Thuc. 5. 16 § 1 εὖ φερόμενος ἐν στρατηγίαις: Xen. *Oecon.* 5. 17 εὖ..φερομένης τῆς γεωργίας.
 
-**ἔνθα μὴ** with subjunct. (without ἄν), as in *O. T.* 316 ἔνθα μὴ τέλη | λύῃ. **καθεστήκῃ**, which L supports, seems slightly better here than καθεστήκοι, which would make the statement more abstract or hypothetical. Similarly in 1081 we have ὅπου..παρῇ. (On the other hand, in such a passage as *Tr.* 1235, τίς ταῦτ’ ἄν, ὅστις μὴ ᾽ξ ἀλαστόρων νοσοῖ, | ἕλοιτο; the optative is clearly better than νοσῇ.)
+**ἔνθα μὴ** with subjunct. (without ἄν), as in *O. T.* 316 ἔνθα μὴ τέλη | λύῃ. **καθεστήκῃ**, which L supports, seems slightly better here than καθεστήκοι, which would make the statement more abstract or hypothetical. Similarly in 1081 we have ὅπου..παρῇ. (On the other hand, in such a passage as *Tr.* 1235, τίς ταῦτ’ ἄν, ὅστις μὴ ’ξ ἀλαστόρων νοσοῖ, | ἕλοιτο; the optative is clearly better than νοσῇ.)
 
 ## 1076
 **φόβου πρόβλημα**, a screen (*Ph.* 1008 n.), a defence, afforded by fear,—the gen. defining that in which the defence consists; cp. *El.* 682 πρόσχημ’ ἀγῶνος, *ib.* 857 ἐλπίδων..ἀρωγαί.
