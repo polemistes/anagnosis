@@ -5,274 +5,274 @@
 … ὃν δεῖ μʼ ἀρέσκειν τοῖς κάτω τῶν ἐνθάδε ἐκεῖ γὰρ «ἀεὶ» κείσομαι σοὶ δʼ εἰ δοκεῖ τὰ τῶν θεῶν …
    ours:  ἀεὶ  (ἀεί d-------- adverb)
    trees: αἰεὶ  (ἀεί d-------- adverb)
-76:2	ἀεὶ	αἰεὶ	ἀεί d-------- | ἀεί d--------	rule: spelling	→ 
+76:2	ἀεὶ	αἰεὶ	ἀεί d-------- | ἀεί d--------	rule: spelling	→ spelling
 
 == 113
 … ἐφʼ ἡμετέρᾳ γᾷ Πολυνείκους ἀρθεὶς νεικέων ἐξ ἀμφιλόγων ὀξέα κλάζων «αἰετὸς» εἰς γᾶν ὣς ὑπερέπτα λευκῆς χιόνος πτέρυγι στεγανός …
    ours:  αἰετὸς  (ἀετός n-s---mn- noun, singular masculine nominative)
    trees: ἀετὸς  (ἀετός n-s---mn- noun, singular masculine nominative)
-113:0	αἰετὸς	ἀετὸς	ἀετός n-s---mn- | ἀετός n-s---mn-	rule: spelling	→ 
+113:0	αἰετὸς	ἀετὸς	ἀετός n-s---mn- | ἀετός n-s---mn-	rule: spelling	→ spelling
 
 == 116
 … λευκῆς χιόνος πτέρυγι στεγανός πολλῶν μεθʼ ὅπλων ξύν θʼ ἱπποκόμοις «κορύθεσσι» στὰς δʼ ὑπὲρ μελάθρων φονώσαισιν ἀμφιχανὼν κύκλῳ λόγχαις …
    ours:  κορύθεσσι  (κόρυς n-p---fd- noun, plural feminine dative)
    trees: κορύθεσσιν  (κόρυς n-p---fd- noun, plural feminine dative)
-116:3	κορύθεσσι	κορύθεσσιν	κόρυς n-p---fd- | κόρυς n-p---fd-	rule: nu	→ 
+116:3	κορύθεσσι	κορύθεσσιν	κόρυς n-p---fd- | κόρυς n-p---fd-	rule: nu	→ nu
 
 == 195
 … πέρι Ἐτεοκλέα μέν ὃς πόλεως ὑπερμαχῶν ὄλωλε τῆσδε πάντʼ ἀριστεύσας «δορί» τάφῳ τε κρύψαι καὶ τὰ πάντʼ ἐφαγνίσαι ἃ …
    ours:  δορί  (δόρυ n-s---nd- noun, singular neuter dative)
    trees: δόρει  (δόρυ n-s---nd- noun, singular neuter dative)
-195:4	δορί	δόρει	δόρυ n-s---nd- | δόρυ n-s---nd-	rule: spelling	→ 
+195:4	δορί	δόρει	δόρυ n-s---nd- | δόρυ n-s---nd-	rule: spelling	→ spelling
 
 == 198
 … τοῖς ἀρίστοις ἔρχεται κάτω νεκροῖς τὸν δʼ αὖ ξύναιμον τοῦδε «Πολυνείκην» λέγω ὃς γῆν πατρῴαν καὶ θεοὺς τοὺς ἐγγενεῖς …
    ours:  Πολυνείκην  (Πολυνείκης n-s---ma- noun, singular masculine accusative)
    trees: Πολυνείκη  (Πολυνείκης n-s---ma- noun, singular masculine accusative)
-198:5	Πολυνείκην	Πολυνείκη	Πολυνείκης n-s---ma- | Πολυνείκης n-s---ma-	rule: nu	→ 
+198:5	Πολυνείκην	Πολυνείκη	Πολυνείκης n-s---ma- | Πολυνείκης n-s---ma-	rule: nu	→ spelling accusative singular of the name, -ην against -η, no movable nu
 
 == 208
 … ἐδεστὸν αἰκισθέντʼ ἰδεῖν τοιόνδʼ ἐμὸν φρόνημα κοὔποτʼ ἔκ γʼ ἐμοῦ «τιμῇ» προέξουσʼ οἱ κακοὶ τῶν ἐνδίκων ἀλλʼ ὅστις εὔνους …
    ours:  τιμῇ  (τιμή n-s---fd- noun, singular feminine dative)
    trees: τιμὴν  (τιμή n-s---fa- noun, singular feminine accusative)
-208:0	τιμῇ	τιμὴν	τιμή n-s---fd- | τιμή n-s---fa-	rule: nu	→ 
+208:0	τιμῇ	τιμὴν	τιμή n-s---fd- | τιμή n-s---fa-	rule: nu	→ form dative against accusative
 
 == 215
 … καὶ τῶν θανόντων χὠπόσοι ζῶμεν πέρι ὡς ἂν σκοποί νυν «ἦτε» τῶν εἰρημένων νεωτέρῳ τῳ τοῦτο βαστάζειν πρόθες ἀλλʼ …
    ours:  ἦτε  (εἰμί v2ppsa--- verb, 2nd plural present subjunctive active)
    trees: εἴτε  (εἰμί -2ppsa--- ?, plural)
-215:4	ἦτε	εἴτε	εἰμί v2ppsa--- | εἰμί -2ppsa---	rule: spelling	→ 
+215:4	ἦτε	εἴτε	εἰμί v2ppsa--- | εἰμί -2ppsa---	rule: spelling	→ spelling
 
 == 241
 … οὐδʼ ἂν δικαίως ἐς κακὸν πέσοιμί τι εὖ γε στοχάζει «κἀποφράγνυσαι» κύκλῳ τὸ πρᾶγμα δηλοῖς δʼ ὥς τι σημανῶν …
    ours:  κἀποφράγνυσαι  (ἀποφράγνυμι v2spie--- verb, 2nd singular present indicative middle or passive)
    trees: κἀποφάργνυσαι  (ἀποφράγνυμι v2spie--- verb, 2nd singular present indicative middle or passive)
-241:3	κἀποφράγνυσαι	κἀποφάργνυσαι	ἀποφράγνυμι v2spie--- | ἀποφράγνυμι v2spie---	rule: spelling	→ 
+241:3	κἀποφράγνυσαι	κἀποφάργνυσαι	ἀποφράγνυμι v2spie--- | ἀποφράγνυμι v2spie---	rule: spelling	→ spelling
 
 == 248
 … βέβηκε κἀπὶ χρωτὶ διψίαν κόνιν παλύνας κἀφαγιστεύσας ἃ χρή τί «φῄς» τίς ἀνδρῶν ἦν ὁ τολμήσας τάδε οὐκ οἶδʼ …
    ours:  φῄς  (φημί v2spia--- verb, 2nd singular present indicative active)
    trees: φής  (φημί v2spia--- verb, 2nd singular present indicative active)
-248:1	φῄς	φής	φημί v2spia--- | φημί v2spia---	rule: spelling	→ 
+248:1	φῄς	φής	φημί v2spia--- | φημί v2spia---	rule: spelling	→ spelling
 
 == 267
 … ὁρκωμοτεῖν τὸ μήτε δρᾶσαι μήτε τῳ ξυνειδέναι τὸ πρᾶγμα βουλεύσαντι «μήτʼ» εἰργασμένῳ τέλος δʼ ὅτʼ οὐδὲν ἦν ἐρευνῶσιν πλέον …
    ours:  μήτʼ  (μήτε g-------- particle)
    trees: μη  (μηδέ g-------- particle)
-267:3	μήτʼ	μη	μήτε g-------- | μηδέ g--------	rule: elision	→ 
+267:3	μήτʼ	μη	μήτε g-------- | μηδέ g--------	rule: elision	→ word μήτε against μηδέ
 
 == 269
 … τέλος δʼ ὅτʼ οὐδὲν ἦν ἐρευνῶσιν πλέον λέγει τις εἷς «ὃς» πάντας ἐς πέδον κάρα νεῦσαι φόβῳ προὔτρεψεν οὐ …
    ours:  ὃς  (ὅς p-s---mn- pronoun, singular masculine nominative)
    trees: ὃ  (ὅς p-s---nn- pronoun, singular neuter nominative)
-269:3	ὃς	ὃ	ὅς p-s---mn- | ὅς p-s---nn-	rule: spelling	→ 
+269:3	ὃς	ὃ	ὅς p-s---mn- | ὅς p-s---nn-	rule: spelling	→ form masculine against neuter nominative
 
 == 299
 … ἐξανίστησιν δόμων τόδʼ ἐκδιδάσκει καὶ παραλλάσσει φρένας χρηστὰς πρὸς αἰσχρὰ «πράγμαθʼ» ἵστασθαι βροτῶν πανουργίας δʼ ἔδειξεν ἀνθρώποις ἔχειν καὶ …
    ours:  πράγμαθʼ  (πρᾶγμα n-p---na- noun, plural neuter accusative)
    trees: πράγματ̓  (πρᾶγμα n-p---na- noun, plural neuter accusative)
-299:3	πράγμαθʼ	πράγματ̓	πρᾶγμα n-p---na- | πρᾶγμα n-p---na-	rule: spelling	→ 
+299:3	πράγμαθʼ	πράγματ̓	πρᾶγμα n-p---na- | πρᾶγμα n-p---na-	rule: spelling	→ spelling
 
 == 323a
 … ἐπʼ ἀργύρῳ γε τὴν ψυχὴν προδούς φεῦ ἦ δεινόν ᾧ «δοκεῖ» γε καὶ ψευδῆ δοκεῖν κόμψευέ νυν τὴν δόξαν …
    ours:  δοκεῖ  (δοκέω v3spia--- verb, 3rd singular present indicative active)
    trees: δοκῇ  (δοκέω v3spsa--- verb, 3rd singular present subjunctive active)
-323a:3	δοκεῖ	δοκῇ	δοκέω v3spia--- | δοκέω v3spsa---	rule: form	→ 
+323a:3	δοκεῖ	δοκῇ	δοκέω v3spia--- | δοκέω v3spsa---	rule: form	→ form
 
 == 357
 … καὶ ἀνεμόεν φρόνημα καὶ ἀστυνόμους ὀργὰς ἐδιδάξατο καὶ δυσαύλων πάγων «ἐναίθρεια» καὶ δύσομβρα φεύγειν βέλη παντοπόρος ἄπορος ἐπʼ οὐδὲν …
    ours:  ἐναίθρεια  (ἐναίθριος a-p---na- adjective, plural neuter accusative)
    trees: ὑπαίθρεια  (ὑπαίθριος a-p---na- adjective, plural neuter accusative)
-357:1	ἐναίθρεια	ὑπαίθρεια	ἐναίθριος a-p---na- | ὑπαίθριος a-p---na-	rule: word	→ 
+357:1	ἐναίθρεια	ὑπαίθρεια	ἐναίθριος a-p---na- | ὑπαίθριος a-p---na-	rule: word	→ word
 
 == 386
 … τήνδʼ εἵλομεν θάπτουσαν ἀλλὰ ποῦ Κρέων ὅδʼ ἐκ δόμων ἄψορρος «ἐς» δέον περᾷ τί δʼ ἔστι ποίᾳ ξύμμετρος προὔβην …
    ours:  ἐς  (εἰς r-------- preposition)
    trees: εἰς  (εἰς r-------- preposition)
-386:4	ἐς	εἰς	εἰς r-------- | εἰς r--------	rule: spelling	→ 
+386:4	ἐς	εἰς	εἰς r-------- | εἰς r--------	rule: spelling	→ spelling
 
 == 403
 … ἔθαπτε πάντʼ ἐπίστασαι ἦ καὶ ξυνίης καὶ λέγεις ὀρθῶς ἃ «φής» ταύτην γʼ ἰδὼν θάπτουσαν ὃν σὺ τὸν νεκρὸν …
    ours:  φής  (φημί v2spia--- verb, 2nd singular present indicative active)
    trees: φῄς  (φημί v2spia--- verb, 2nd singular present indicative active)
-403:7	φής	φῄς	φημί v2spia--- | φημί v2spia---	rule: word	→ 
+403:7	φής	φῄς	φημί v2spia--- | φημί v2spia---	rule: word	→ spelling same 2nd singular of φημί, only the iota subscript differs
 
 == 412
 … εὖ καθήμεθʼ ἄκρων ἐκ πάγων ὑπήνεμοι ὀσμὴν ἀπʼ αὐτοῦ μὴ «βάλῃ» πεφευγότες ἐγερτὶ κινῶν ἄνδρʼ ἀνὴρ ἐπιρρόθοις κακοῖσιν εἴ …
    ours:  βάλῃ  (βάλλω v3sasa--- verb, 3rd singular aorist subjunctive active)
    trees: βάλοι  (βάλλω v3saoa--- verb, 3rd singular aorist optative active)
-412:4	βάλῃ	βάλοι	βάλλω v3sasa--- | βάλλω v3saoa---	rule: form	→ 
+412:4	βάλῃ	βάλοι	βάλλω v3sasa--- | βάλλω v3saoa---	rule: form	→ form
 
 == 441
 … ἐμοὶ πέφυκε τῆς ἐμῆς σωτηρίας σὲ δή σὲ τὴν νεύουσαν «ἐς» πέδον κάρα φής ἢ καταρνεῖ μὴ δεδρακέναι τάδε …
    ours:  ἐς  (εἰς r-------- preposition)
    trees: εἰς  (εἰς r-------- preposition)
-441:5	ἐς	εἰς	εἰς r-------- | εἰς r--------	rule: spelling	→ 
+441:5	ἐς	εἰς	εἰς r-------- | εἰς r--------	rule: spelling	→ spelling
 
 == 520
 … νόμους τούτους ποθεῖ ἀλλʼ οὐχ ὁ χρηστὸς τῷ κακῷ λαχεῖν «ἴσους» τίς οἶδεν εἰ κάτωθεν εὐαγῆ τάδε οὔτοι ποθʼ …
    ours:  ἴσους  (ἴσος a-p---ma- adjective, plural masculine accusative)
    trees: ἴσος  (ἴσος a-s---mn- adjective, singular masculine nominative)
-520:7	ἴσους	ἴσος	ἴσος a-p---ma- | ἴσος a-s---mn-	rule: form	→ 
+520:7	ἴσους	ἴσος	ἴσος a-p---ma- | ἴσος a-s---mn-	rule: form	→ form
 
 == 547
 … θάνῃς σὺ κοινά μηδʼ ἃ μὴ ʼθιγες ποιοῦ σεαυτῆς ἀρκέσω «θνήσκουσʼ» ἐγώ καὶ τίς βίος μοι σοῦ λελειμμένῃ φίλος …
    ours:  θνήσκουσʼ  (θνήσκω v-sppafn- verb, present participle active, singular feminine nominative)
    trees: θνῄσκουσ̓  (θνήσκω v-sppafn- verb, present participle active, singular feminine nominative)
-547:3	θνήσκουσʼ	θνῄσκουσ̓	θνήσκω v-sppafn- | θνήσκω v-sppafn-	rule: elision	→ 
+547:3	θνήσκουσʼ	θνῄσκουσ̓	θνήσκω v-sppafn- | θνήσκω v-sppafn-	rule: elision	→ spelling both elided, only the subscript of θνῄσκ- differs
 
 == 575
 … τῆσδε τὸν σαυτοῦ γόνον Ἅιδης ὁ παύσων τούσδε τοὺς γάμους «ἐμοί» δεδογμένʼ ὡς ἔοικε τήνδε κατθανεῖν καὶ σοί γε …
    ours:  ἐμοί  (ἐγώ p-s---md- pronoun, singular masculine dative)
    trees: ἔφυ  (φύω v3saia--- verb, 3rd singular aorist indicative active)
-575:6	ἐμοί	ἔφυ	ἐγώ p-s---md- | φύω v3saia---	rule: word	→ 
+575:6	ἐμοί	ἔφυ	ἐγώ p-s---md- | φύω v3saia---	rule: word	→ word
 
 == 607
 … ὕπνος αἱρεῖ ποθʼ ὁ πάντʼ ἀγρεύων οὔτε θεῶν ἄκματοι μῆνες «ἀγήρως» δὲ χρόνῳ δυνάστας κατέχεις Ὀλύμπου μαρμαρόεσσαν αἴγλαν τό …
    ours:  ἀγήρως  (ἀγήραος a-s---mn- adjective, singular masculine nominative)
    trees: ἀγήρῳ  (ἀγήραος a-s---md- adjective, singular masculine dative)
-607:4	ἀγήρως	ἀγήρῳ	ἀγήραος a-s---mn- | ἀγήραος a-s---md-	rule: form	→ 
+607:4	ἀγήρως	ἀγήρῳ	ἀγήραος a-s---mn- | ἀγήραος a-s---md-	rule: form	→ form
 
 == 630
 … νέατον γέννημʼ ἆρʼ ἀχνύμενος τῆς μελλογάμου τάλιδος ἥκει μόρον Ἀντιγόνης «ἀπάτας» λεχέων ὑπεραλγῶν τάχʼ εἰσόμεσθα μάντεων ὑπέρτερον ὦ παῖ …
    ours:  ἀπάτας  (ἀπάτη n-p---fa- noun, plural feminine accusative)
    trees: ἀπάτης  (ἀπάτη n-s---fg- noun, singular feminine genitive)
-630:0	ἀπάτας	ἀπάτης	ἀπάτη n-p---fa- | ἀπάτη n-s---fg-	rule: form	→ 
+630:0	ἀπάτας	ἀπάτης	ἀπάτη n-p---fa- | ἀπάτη n-s---fg-	rule: form	→ form
 
 == 725
 … καίριον λέγει μαθεῖν σέ τʼ αὖ τοῦδʼ εὖ γὰρ εἴρηται «διπλᾶ» οἱ τηλικοίδε καὶ διδαξόμεσθα δὴ φρονεῖν ὑπʼ ἀνδρὸς …
    ours:  διπλᾶ  (διπλόος a-p---na- adjective, plural neuter accusative)
    trees: διπλῇ  (διπλῇ d-------- adverb)
-725:8	διπλᾶ	διπλῇ	διπλόος a-p---na- | διπλῇ d--------	rule: word	→ 
+725:8	διπλᾶ	διπλῇ	διπλόος a-p---na- | διπλῇ d--------	rule: word	→ word
 
 == 760
 … οὐ τόνδʼ Ὄλυμπον ἴσθʼ ὅτι χαίρων ἐπὶ ψόγοισι δεννάσεις ἐμέ «ἄγετε» τὸ μῖσος ὡς κατʼ ὄμματʼ αὐτίκα παρόντι θνήσκῃ …
    ours:  ἄγετε  (ἄγω v2ppma--- verb, 2nd plural present imperative active)
    trees: ἄγαγε  (ἄγω v2sama--- verb, 2nd singular aorist imperative active)
-760:0	ἄγετε	ἄγαγε	ἄγω v2ppma--- | ἄγω v2sama---	rule: form	→ 
+760:0	ἄγετε	ἄγαγε	ἄγω v2ppma--- | ἄγω v2sama---	rule: form	→ form
 
 == 761
 … δεννάσεις ἐμέ ἄγετε τὸ μῖσος ὡς κατʼ ὄμματʼ αὐτίκα παρόντι «θνήσκῃ» πλησία τῷ νυμφίῳ οὐ δῆτʼ ἔμοιγε τοῦτο μὴ …
    ours:  θνήσκῃ  (θνήσκω v3spsa--- verb, 3rd singular present subjunctive active)
    trees: θνῄσκῃ  (θνήσκω v3spsa--- verb, 3rd singular present subjunctive active)
-761:1	θνήσκῃ	θνῄσκῃ	θνήσκω v3spsa--- | θνήσκω v3spsa---	rule: form	→ 
+761:1	θνήσκῃ	θνῄσκῃ	θνήσκω v3spsa--- | θνήσκω v3spsa---	rule: form	→ spelling same 3rd singular present subjunctive, only the subscript of θνῄσκ- differs
 
 == 765
 … κρᾶτʼ ἐν ὀφθαλμοῖς ὁρῶν ὡς τοῖς θέλουσι τῶν φίλων μαίνῃ «ξυνών» ἁνήρ ἄναξ βέβηκεν ἐξ ὀργῆς ταχύς νοῦς δʼ …
    ours:  ξυνών  (σύνειμι v-sppamn- verb, present participle active, singular masculine nominative)
    trees: συνών  (σύνειμι v-sppamn- verb, present participle active, singular masculine nominative)
-765:6	ξυνών	συνών	σύνειμι v-sppamn- | σύνειμι v-sppamn-	rule: spelling	→ 
+765:6	ξυνών	συνών	σύνειμι v-sppamn- | σύνειμι v-sppamn-	rule: spelling	→ spelling
 
 == 823
 … ἀλλʼ αὐτόνομος ζῶσα μόνη δὴ θνητῶν Ἀΐδην καταβήσει ἤκουσα δὴ «λυγροτάταν» ὀλέσθαι τὰν Φρυγίαν ξέναν Ταντάλου Σιπύλῳ πρὸς ἄκρῳ …
    ours:  λυγροτάταν  (λυγρός a-s---fas adjective, singular feminine accusative, superlative)
    trees: λυγρότατον  (λυγρός a-s---nas adjective, singular neuter accusative, superlative)
-823:2	λυγροτάταν	λυγρότατον	λυγρός a-s---fas | λυγρός a-s---nas	rule: spelling	→ 
+823:2	λυγροτάταν	λυγρότατον	λυγρός a-s---fas | λυγρός a-s---nas	rule: spelling	→ form feminine against neuter accusative
 
 == 878
 … σὲ δʼ αὐτόγνωτος ὤλεσʼ ὀργά ἄκλαυτος ἄφιλος ἀνυμέναιος ταλαίφρων ἄγομαι «τάνδʼ» ἑτοίμαν ὁδόν οὐκέτι μοι τόδε λαμπάδος ἱερὸν ὄμμα …
    ours:  τάνδʼ  (ὅδε p-s---fa- pronoun, singular feminine accusative)
    trees: τὰν  (ὁ l-s---fa- article, singular feminine accusative)
-878:0	τάνδʼ	τὰν	ὅδε p-s---fa- | ὁ l-s---fa-	rule: elision	→ 
+878:0	τάνδʼ	τὰν	ὅδε p-s---fa- | ὁ l-s---fa-	rule: elision	→ word demonstrative ὅδε against the article
 
 == 878
 … δʼ αὐτόγνωτος ὤλεσʼ ὀργά ἄκλαυτος ἄφιλος ἀνυμέναιος ταλαίφρων ἄγομαι τάνδʼ «ἑτοίμαν» ὁδόν οὐκέτι μοι τόδε λαμπάδος ἱερὸν ὄμμα θέμις …
    ours:  ἑτοίμαν  (ἕτοιμος a-s---fa- adjective, singular feminine accusative)
    trees: πυμάταν  (πύματος a-s---fa- adjective, singular feminine accusative)
-878:1	ἑτοίμαν	πυμάταν	ἕτοιμος a-s---fa- | πύματος a-s---fa-	rule: word	→ 
+878:1	ἑτοίμαν	πυμάταν	ἕτοιμος a-s---fa- | πύματος a-s---fa-	rule: word	→ word
 
 == 970
 … πελάγει διδύμας ἁλὸς ἀκταὶ Βοσπόριαι ἠδʼ ὁ Θρῃκῶν Σαλμυδησσός ἵνʼ «ἀγχίπολις» Ἄρης δισσοῖσι Φινεΐδαις εἶδεν ἀρατὸν ἕλκος τυφλωθὲν ἐξ …
    ours:  ἀγχίπολις  (ἀγχίπολις a-s---mn- adjective, singular masculine nominative)
    trees: ἀγχίπτολις  (ἀγχίπτολις n-s---mn- noun, singular masculine nominative)
-970:2	ἀγχίπολις	ἀγχίπτολις	ἀγχίπολις a-s---mn- | ἀγχίπτολις n-s---mn-	rule: spelling	→ 
+970:2	ἀγχίπολις	ἀγχίπτολις	ἀγχίπολις a-s---mn- | ἀγχίπτολις n-s---mn-	rule: spelling	→ spelling
 
 == 1027
 … οὐκέτʼ ἔστʼ ἀνὴρ ἄβουλος οὐδʼ ἄνολβος ὅστις ἐς κακὸν πεσὼν «ἀκεῖται» μηδʼ ἀκίνητος πέλει αὐθαδία τοι σκαιότητʼ ὀφλισκάνει ἀλλʼ …
    ours:  ἀκεῖται  (ἀκέομαι v3spie--- verb, 3rd singular present indicative middle or passive)
    trees: ἀκῆται  (ἀκέομαι v3spse--- verb, 3rd singular present subjunctive middle or passive)
-1027:1	ἀκεῖται	ἀκῆται	ἀκέομαι v3spie--- | ἀκέομαι v3spse---	rule: form	→ 
+1027:1	ἀκεῖται	ἀκῆται	ἀκέομαι v3spie--- | ἀκέομαι v3spse---	rule: form	→ form
 
 == 1027
 … ἄβουλος οὐδʼ ἄνολβος ὅστις ἐς κακὸν πεσὼν ἀκεῖται μηδʼ ἀκίνητος «πέλει» αὐθαδία τοι σκαιότητʼ ὀφλισκάνει ἀλλʼ εἶκε τῷ θανόντι …
    ours:  πέλει  (πέλω v3spia--- verb, 3rd singular present indicative active)
    trees: πέλῃ  (πέλω v3spsa--- verb, 3rd singular present subjunctive active)
-1027:4	πέλει	πέλῃ	πέλω v3spia--- | πέλω v3spsa---	rule: form	→ 
+1027:4	πέλει	πέλῃ	πέλω v3spia--- | πέλω v3spsa---	rule: form	→ form
 
 == 1065
 … εὖ γέ τοι κάτισθι μὴ πολλοὺς ἔτι τρόχους ἁμιλλητῆρας ἡλίου «τελῶν» ἐν οἷσι τῶν σῶν αὐτὸς ἐκ σπλάγχνων ἕνα …
    ours:  τελῶν  (τελέω v-sfpamn- verb, future participle active, singular masculine nominative)
    trees: τελεῖν  (τελέω v--fna--- verb, future infinitive active)
-1065:3	τελῶν	τελεῖν	τελέω v-sfpamn- | τελέω v--fna---	rule: form	→ 
+1065:3	τελῶν	τελεῖν	τελέω v-sfpamn- | τελέω v--fna---	rule: form	→ form
 
 == 1089
 … θυμὸν οὗτος ἐς νεωτέρους ἀφῇ καὶ γνῷ τρέφειν τὴν γλῶσσαν «ἡσυχωτέραν» τὸν νοῦν τʼ ἀμείνω τῶν φρενῶν ἢ νῦν …
    ours:  ἡσυχωτέραν  (ἥσυχος a-s---fa- adjective, singular feminine accusative)
    trees: ἡσυχαιτέραν  (ἥσυχος a-s---fa- adjective, singular feminine accusative)
-1089:5	ἡσυχωτέραν	ἡσυχαιτέραν	ἥσυχος a-s---fa- | ἥσυχος a-s---fa-	rule: spelling	→ 
+1089:5	ἡσυχωτέραν	ἡσυχαιτέραν	ἥσυχος a-s---fa- | ἥσυχος a-s---fa-	rule: spelling	→ spelling
 
 == 1102
 … ἄνες κτίσον δὲ τῷ προκειμένῳ τάφον καὶ ταῦτʼ ἐπαινεῖς καὶ «δοκεῖ» παρεικαθεῖν ὅσον γʼ ἄναξ τάχιστα συντέμνουσι γὰρ θεῶν …
    ours:  δοκεῖ  (δοκέω v3spia--- verb, 3rd singular present indicative active)
    trees: δοκεῖς  (δοκέω v2spia--- verb, 2nd singular present indicative active)
-1102:4	δοκεῖ	δοκεῖς	δοκέω v3spia--- | δοκέω v2spia---	rule: form	→ 
+1102:4	δοκεῖ	δοκεῖς	δοκέω v3spia--- | δοκέω v2spia---	rule: form	→ form
 
 == 1121
 … βαρυβρεμέτα γένος κλυτὰν ὃς ἀμφέπεις Ἰταλίαν μέδεις δὲ παγκοίνοις Ἐλευσινίας «Δηοῦς» ἐν κόλποις Βακχεῦ Βακχᾶν ὁ ματρόπολιν Θήβαν ναιετῶν …
    ours:  Δηοῦς  (Δηώ n-s---fg- noun, singular feminine genitive)
    trees: Δῃοῦς  (Δηώ n-s---fg- noun, singular feminine genitive)
-1121:0	Δηοῦς	Δῃοῦς	Δηώ n-s---fg- | Δηώ n-s---fg-	rule: spelling	→ 
+1121:0	Δηοῦς	Δῃοῦς	Δηώ n-s---fg- | Δηώ n-s---fg-	rule: spelling	→ spelling
 
 == 1123
 … Δηοῦς ἐν κόλποις Βακχεῦ Βακχᾶν ὁ ματρόπολιν Θήβαν ναιετῶν παρʼ «ὑγρὸν» Ἰσμηνοῦ ῥεῖθρόν τʼ ἀγρίου τʼ ἐπὶ σπορᾷ δράκοντος …
    ours:  ὑγρὸν  (ὑγρός a-s---nn- adjective, singular neuter nominative)
    trees: ὑγρῶν  (ὑγρός a-p---ng- adjective, plural neuter genitive)
-1123:2	ὑγρὸν	ὑγρῶν	ὑγρός a-s---nn- | ὑγρός a-p---ng-	rule: form	→ 
+1123:2	ὑγρὸν	ὑγρῶν	ὑγρός a-s---nn- | ὑγρός a-p---ng-	rule: form	→ form
 
 == 1124
 … κόλποις Βακχεῦ Βακχᾶν ὁ ματρόπολιν Θήβαν ναιετῶν παρʼ ὑγρὸν Ἰσμηνοῦ «ῥεῖθρόν» τʼ ἀγρίου τʼ ἐπὶ σπορᾷ δράκοντος σὲ δʼ …
    ours:  ῥεῖθρόν  (ῥεῖθρον n-s---na- noun, singular neuter accusative)
    trees: ῥείθρων  (ῥεῖθρον n-p---ng- noun, plural neuter genitive)
-1124:1	ῥεῖθρόν	ῥείθρων	ῥεῖθρον n-s---na- | ῥεῖθρον n-p---ng-	rule: form	→ 
+1124:1	ῥεῖθρόν	ῥείθρων	ῥεῖθρον n-s---na- | ῥεῖθρον n-p---ng-	rule: form	→ form
 
 == 1241
 … κεῖται δὲ νεκρὸς περὶ νεκρῷ τὰ νυμφικὰ τέλη λαχὼν δείλαιος «ἔν» γʼ Ἅιδου δόμοις δείξας ἐν ἀνθρώποισι τὴν ἀβουλίαν …
    ours:  ἔν  (ἐν r-------- preposition)
    trees: εἰν  (ἐν r-------- preposition)
-1241:3	ἔν	εἰν	ἐν r-------- | ἐν r--------	rule: word	→ 
+1241:3	ἔν	εἰν	ἐν r-------- | ἐν r--------	rule: word	→ spelling ἐν and its poetic variant εἰν are one preposition
 
 == 1269
 … νέος νέῳ ξὺν μόρῳ αἰαῖ αἰαῖ ἔθανες ἀπελύθης ἐμαῖς οὐδὲ «σαῖσι» δυσβουλίαις οἴμʼ ὡς ἔοικας ὀψὲ τὴν δίκην ἰδεῖν …
    ours:  σαῖσι  (σός a-p---fd- adjective, plural feminine dative)
    trees: σαῖς  (σός a-p---fd- adjective, plural feminine dative)
-1269:2	σαῖσι	σαῖς	σός a-p---fd- | σός a-p---fd-	rule: spelling	→ 
+1269:2	σαῖσι	σαῖς	σός a-p---fd- | σός a-p---fd-	rule: spelling	→ spelling
 
 == 1289
 … θροεῖς λόγον αἰαῖ ὀλωλότʼ ἄνδρʼ ἐπεξειργάσω τί φής ὦ παῖ «τίνα» λέγεις μοι νέον αἰαῖ αἰαῖ σφάγιον ἐπʼ ὀλέθρῳ …
    ours:  τίνα  (τίς p-s---ma- pronoun, singular masculine accusative)
    trees: τίν̓  (τίς p-s---ma- pronoun, singular masculine accusative)
-1289:4	τίνα	τίν̓	τίς p-s---ma- | τίς p-s---ma-	rule: elision	→ 
+1289:4	τίνα	τίν̓	τίς p-s---ma- | τίς p-s---ma-	rule: elision	→ elision
 
 == 1336
 … μέλει γὰρ τῶνδʼ ὅτοισι χρὴ μέλειν ἀλλʼ ὧν ἐρῶ μέν «ταῦτα» συγκατηυξάμην μή νυν προσεύχου μηδέν ὡς πεπρωμένης οὐκ …
    ours:  ταῦτα  (οὗτος p-p---na- pronoun, plural neuter accusative)
    trees: τοιαῦτα  (τοιοῦτος a-p---na- adjective, plural neuter accusative)
-1336:4	ταῦτα	τοιαῦτα	οὗτος p-p---na- | τοιοῦτος a-p---na-	rule: word	→ 
+1336:4	ταῦτα	τοιαῦτα	οὗτος p-p---na- | τοιοῦτος a-p---na-	rule: word	→ word
 
 == 1340
 … μάταιον ἄνδρʼ ἐκποδών ὅς ὦ παῖ σέ τʼ οὐχ ἑκὼν «κατέκανον» σέ τʼ αὖ τάνδʼ ὤμοι μέλεος οὐδʼ ἔχω …
    ours:  κατέκανον  (κατακαίνω v1saia--- verb, 1st singular aorist indicative active)
    trees: κἄκτανον  (κτείνω v1saia--- verb, 1st singular aorist indicative active)
-1340:7	κατέκανον	κἄκτανον	κατακαίνω v1saia--- | κτείνω v1saia---	rule: word	→ 
+1340:7	κατέκανον	κἄκτανον	κατακαίνω v1saia--- | κτείνω v1saia---	rule: word	→ word
 
 == 1342
 … κατέκανον σέ τʼ αὖ τάνδʼ ὤμοι μέλεος οὐδʼ ἔχω πρὸς «πότερον» ἴδω πᾷ κλιθῶ πάντα γὰρ λέχρια τἀν χεροῖν …
    ours:  πότερον  (πότερος a-s---na- adjective, singular neuter accusative)
    trees: πότερα  (πότερος a-p---na- adjective, plural neuter accusative)
-1342:1	πότερον	πότερα	πότερος a-s---na- | πότερος a-p---na-	rule: form	→ 
+1342:1	πότερον	πότερα	πότερος a-s---na- | πότερος a-p---na-	rule: form	→ form
 
 == 1352
 … θεοὺς μηδὲν ἀσεπτεῖν μεγάλοι δὲ λόγοι μεγάλας πληγὰς τῶν ὑπεραύχων «ἀποτείσαντες» γήρᾳ τὸ φρονεῖν ἐδίδαξαν …
    ours:  ἀποτείσαντες  (ἀποτίνω v-papamn- verb, aorist participle active, plural masculine nominative)
    trees: ἀποτίσαντες  (ἀποτίνω v-papamn- verb, aorist participle active, plural masculine nominative)
-1352:0	ἀποτείσαντες	ἀποτίσαντες	ἀποτίνω v-papamn- | ἀποτίνω v-papamn-	rule: spelling	→ 
+1352:0	ἀποτείσαντες	ἀποτίσαντες	ἀποτίνω v-papamn- | ἀποτίνω v-papamn-	rule: spelling	→ spelling
