@@ -119,6 +119,7 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import no.anagnosis.data.AnagnosisRepository
 import no.anagnosis.data.Book
+import no.anagnosis.data.TranslationPaging
 import no.anagnosis.data.Bookmark
 import no.anagnosis.data.Bookmarks
 import no.anagnosis.data.PlacedBookmark
@@ -365,12 +366,13 @@ fun ReaderScreen(
     if (bookmarking) PlatformBackHandler { bookmarking = false }
     if (choosingRead) PlatformBackHandler { choosingRead = false }
 
-    val translation = data.translations.firstOrNull()
     val allRows = remember(data) { buildRows(data) }
     // An epic is read one book at a time: pagination stays quick, and a page before and after
     // each book leads to the neighbouring one. For a play `book` is null and all rows are paged.
     var book by remember(data) { mutableStateOf(if (data.byBook) data.bookOf(startLine).coerceIn(data.books.first().number, data.books.last().number) else null) }
     val currentBook = book?.let { b -> data.books.firstOrNull { it.number == b } }
+    // the translation of the book in view (a text may have two that cover different books)
+    val translation = remember(data, book) { currentBook?.let { data.translationFor(it.firstN, it.lastN) } ?: data.translations.firstOrNull() }
     val rows = remember(allRows, book) { if (book == null) allRows else allRows.filter { data.bookOf(it.nInt) == book } }
     val bookLines = remember(data, book) { if (currentBook == null) data.lines else data.lines.filter { it.n_int in currentBook.firstN..currentBook.lastN } }
     val bookSegments = remember(translation, book) {
@@ -924,7 +926,7 @@ fun ReaderScreen(
                     CircularProgressIndicator(Modifier.align(Alignment.Center))
                 }
                 if (pages.isNotEmpty()) {
-                    val pageSegments = remember(pages, bookSegments) { segmentsByPage(pages, bookSegments, bookLines) }
+                    val pageSegments = remember(pages, bookSegments) { segmentsByPage(pages, bookSegments, bookLines, fillGaps = data.prose) }
                     HorizontalPager(state = pagerState, modifier = Modifier.fillMaxSize(), beyondViewportPageCount = 1) { index ->
                         if (index < offset || index >= offset + pages.size) {
                             val target = if (index < offset) prevBook else nextBook
@@ -1214,7 +1216,7 @@ private fun sentenceLabel(tree: no.anagnosis.data.SyntaxTree, data: WorkData): S
  * The translation segments belonging to each Greek page: a segment goes with the page that
  * holds the first line at or after its anchor. English page N is thus the prose for Greek page N.
  */
-private fun segmentsByPage(pages: List<Page>, segments: List<Translation_segments>, lines: List<Lines>): List<List<Translation_segments>> {
+private fun segmentsByPage(pages: List<Page>, segments: List<Translation_segments>, lines: List<Lines>, fillGaps: Boolean = false): List<List<Translation_segments>> {
     val pageOfLine = HashMap<Long, Int>()
     pages.forEachIndexed { i, page -> page.rows.forEach { if (it is ReaderRow.GreekLine) pageOfLine[it.line.id] = i } }
     val out = List(pages.size) { mutableListOf<Translation_segments>() }
@@ -1223,6 +1225,15 @@ private fun segmentsByPage(pages: List<Page>, segments: List<Translation_segment
         if (lines.isEmpty()) break
         val line = firstLineFrom(lines, seg.from_n_int)
         out[pageOfLine[line.id] ?: (pages.size - 1)] += seg
+    }
+    if (fillGaps) {
+        // prose: a page whose sections the translation renders together with an earlier one
+        // (Lysias 1.3–4 as one passage) shows that passage again, not an empty column
+        pages.forEachIndexed { i, page ->
+            if (out[i].isNotEmpty()) return@forEachIndexed
+            val first = page.rows.firstNotNullOfOrNull { (it as? ReaderRow.GreekLine)?.line?.n_int } ?: return@forEachIndexed
+            TranslationPaging.covering(segments, first)?.let { out[i] += it }
+        }
     }
     return out
 }
@@ -1535,6 +1546,8 @@ private fun PageContent(
 private fun sectionLabel(section: Sections): String {
     val label = section.label
     if (!label.isNullOrBlank() && label.first().isLetter()) return label
+    // a book with a title of its own ("12 · Κατὰ Ἐρατοσθένους …", a speech) is headed by its label alone
+    if (!label.isNullOrBlank() && Book.hasTitle(label)) return label
     val kind = section.kind.replaceFirstChar { it.uppercase() }
     return listOfNotNull(kind, label?.takeIf { it.isNotBlank() }).joinToString(" ")
 }

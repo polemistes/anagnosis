@@ -69,4 +69,29 @@ class SpeechesTest {
         assertEquals("Book 1 · Α", Book(1, "1 · Α", 1001, 1444, named = Book.hasTitle("1 · Α")).title)
         assertTrue(Book.hasTitle("3 · Πρὸς Σίμωνα ἀπολογία"))
     }
+
+    @Test
+    fun eachSpeechShowsTheTranslationItHas() {
+        fun tr(id: Long, books: List<Long>) = TranslationData(
+            no.anagnosis.db.Translations(id, 1, "t$id", "Speeches", null, "eng", null, null, null),
+            books.mapIndexed { i, b -> no.anagnosis.db.Translation_segments(i + 1L, id, i.toLong(), "speech", null, 1, b * 1000 + 1, "", b * 1000 + 1, "", "English") })
+        val base = text(true, emptyMap())
+        val lysias = WorkData(base.slug, base.work, base.lines, base.tokensByLine, emptyMap(), emptyMap(),
+            listOf(tr(1, listOf(2, 12)), tr(2, listOf(1, 26))), emptyList(), emptySet(), bookNumbered = true, prose = true)
+        assertEquals(2L, lysias.translationFor(1000, 1999)?.translation?.id)   // Gillies's speech
+        assertEquals(1L, lysias.translationFor(12000, 12999)?.translation?.id) // the 1898 version
+        assertEquals(1L, lysias.translationFor(6000, 6999)?.translation?.id)   // none has it: the first
+    }
+
+    @Test
+    fun aSectionRenderedWithTheOneBeforeShowsThatPassage() {
+        fun seg(id: Long, from: Long, to: Long, kind: String = "speech") =
+            no.anagnosis.db.Translation_segments(id, 2, id, kind, null, 0, from, "", to, "", "English $id")
+        val segs = listOf(seg(1, 1002, 1002), seg(2, 1003, 1004), seg(3, 1005, 1005), seg(4, 1011, 1012))
+        assertEquals(2L, TranslationPaging.covering(segs, 1004)?.id)   // 1.4 under 1.3
+        assertEquals(4L, TranslationPaging.covering(segs, 1012)?.id)   // 1.12 under 1.11
+        assertEquals(null, TranslationPaging.covering(segs, 1003))     // 1.3 has its own
+        assertEquals(null, TranslationPaging.covering(segs, 1007))     // nothing covers it
+        assertEquals(null, TranslationPaging.covering(listOf(seg(5, 1003, 1004, "stage")), 1004))
+    }
 }

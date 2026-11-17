@@ -94,6 +94,14 @@ class WorkData(
 
     val tokenById: Map<Long, Tokens> by lazy { tokensByLine.values.flatten().associateBy { it.id } }
 
+    /**
+     * The translation shown beside the lines [firstN]..[lastN] (a book): the first that has a
+     * segment there, else the first. A text may have two that cover different books (Lysias: the
+     * 1898 version for some speeches, Gillies's for others); each book shows the one it has.
+     */
+    fun translationFor(firstN: Long, lastN: Long): TranslationData? =
+        translations.firstOrNull { t -> t.segments.any { it.from_n_int in firstN..lastN } } ?: translations.firstOrNull()
+
     /** Whether the syntax of the line [nInt] was made by a parser: per book where the text says so ([syntaxByBook]). */
     fun automaticSyntaxAt(nInt: Long): Boolean =
         if (syntaxByBook.isEmpty()) automaticSyntax
