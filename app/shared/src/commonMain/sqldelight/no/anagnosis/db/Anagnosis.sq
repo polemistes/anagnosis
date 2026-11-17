@@ -122,6 +122,10 @@ SELECT * FROM commentaries ORDER BY id;
 selectNoteStarts:
 SELECT DISTINCT from_n_int FROM commentary_notes ORDER BY from_n_int;
 
+-- Where each commentary's notes begin (for marking which books a commentary covers)
+selectNoteStartsByCommentary:
+SELECT DISTINCT commentary_id, from_n_int FROM commentary_notes;
+
 -- Notes starting on the page (or on a skipped number just before it), plus short-range notes
 -- overlapping it. Long ranges (scene introductions) appear only where they start.
 selectNotesForPage:

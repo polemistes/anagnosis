@@ -79,6 +79,8 @@ class WorkData(
      * "manual" (made by hand), "none" (no trees), "automatic"; empty for every other text.
      */
     val syntaxByBook: Map<Int, String> = emptyMap(),
+    /** Where the notes on the Greek begin (not the apparatus, not a translator's notes), for the chooser's marks. */
+    val commentaryStarts: List<Long> = emptyList(),
     /** The dictionaries the word sheet offers first, most fitting first (abbott-smith dodson ml lsj). */
     val dictionaryOrder: List<String> = emptyList(),
     /** The pronunciation the text is read in unless the reader chooses another. */
@@ -86,6 +88,12 @@ class WorkData(
 ) {
     /** The lines by their citation (n_int, n_sub), for placing the reader's notes. */
     val linesByCitation: Map<Pair<Long, String>, Lines> by lazy { lines.associateBy { it.n_int to it.n_sub } }
+
+    /** What each book comes with (translation, commentary), or null when every book has the same: see [BookContents]. */
+    val bookContents: Map<Int, BookContents>? by lazy {
+        if (!byBook) null
+        else BookContents.of(books.map { it.number }, ::bookOf, translations.flatMap { t -> t.segments.filter { it.kind != "stage" }.map { it.from_n_int } }, commentaryStarts)
+    }
 
     /** A line's place in [lines], by line id. */
     val lineIndex: Map<Long, Int> by lazy { lines.withIndex().associate { (i, l) -> l.id to i } }

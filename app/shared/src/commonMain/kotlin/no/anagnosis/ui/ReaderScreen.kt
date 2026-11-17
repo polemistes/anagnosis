@@ -654,8 +654,17 @@ fun ReaderScreen(
                             DropdownMenu(expanded = showBooks, onDismissRequest = { showBooks = false }) {
                                 for (b in data.books) {
                                     DropdownMenuItem(
-                                        // a long title (a speech of Lysias) takes two lines at most, then an ellipsis
-                                        text = { Text(b.title, fontWeight = if (b.number == currentBook.number) FontWeight.Bold else null, maxLines = 2, overflow = TextOverflow.Ellipsis) },
+                                        // a long title (a speech of Lysias) takes two lines at most, then an
+                                        // ellipsis; in a text whose books differ in what they come with, a
+                                        // small line says it ("Translation · Commentary")
+                                        text = {
+                                            Column {
+                                                Text(b.title, fontWeight = if (b.number == currentBook.number) FontWeight.Bold else null, maxLines = 2, overflow = TextOverflow.Ellipsis)
+                                                data.bookContents?.get(b.number)?.let {
+                                                    Text(it.label, style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.secondary)
+                                                }
+                                            }
+                                        },
                                         onClick = { showBooks = false; if (b.number != currentBook.number) goToBook(b) },
                                     )
                                 }

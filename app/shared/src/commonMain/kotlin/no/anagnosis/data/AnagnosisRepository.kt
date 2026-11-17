@@ -125,6 +125,11 @@ class AnagnosisRepository(
             if (mark) withNotes += line.id
         }
         val numbering = q.selectMeta("line_numbers").executeAsOneOrNull()
+        // where the notes on the Greek begin, for the book chooser's marks (only books are marked)
+        val declaredTranslationNotes = q.selectMeta("translation_notes").executeAsOneOrNull()?.split(' ')?.filter { it.isNotBlank() }?.toSet() ?: emptySet()
+        val onGreek = commentaries.filter { it.kind() == NoteKind.COMMENTARY && !BookContents.isTranslationNotes(it.slug, it.title, declaredTranslationNotes) }.map { it.id }.toSet()
+        val commentaryStarts = if (light || onGreek.isEmpty() || numbering !in setOf("book.line", "verse")) emptyList()
+            else q.selectNoteStartsByCommentary().executeAsList().filter { it.commentary_id in onGreek }.map { it.from_n_int }
         return WorkData(
             slug, work, lines, tokens, nodes, sections, translations, commentaries, withNotes,
             bookNumbered = numbering == "book.line",
@@ -135,6 +140,7 @@ class AnagnosisRepository(
             closedDashes = q.selectMeta("dashes").executeAsOneOrNull() == "closed",
             automaticSyntax = q.selectMeta("syntax").executeAsOneOrNull() == "automatic",
             syntaxByBook = Book.parseSyntaxByBook(q.selectMeta("syntax_by_book").executeAsOneOrNull()),
+            commentaryStarts = commentaryStarts,
             dictionaryOrder = q.selectMeta("dictionaries").executeAsOneOrNull()?.split(' ')?.filter { it.isNotBlank() } ?: emptyList(),
             pronunciation = defaultPronunciation(slug, work.author, q.selectMeta("pronunciation").executeAsOneOrNull()),
         )
