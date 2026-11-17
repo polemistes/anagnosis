@@ -20,6 +20,7 @@
 605	The head of this page's apparatus ("ject. ὑπέρβασις … alone in κατάσχῃ.") ends the note on 605, written with p-0182 in batch-09.
 606	The note on 606 runs on to the facing page (leaf 185): written whole here.
 612	The note on 612 runs on to the head of p-0186's apparatus ("adopts."): its end taken from there.
+606	rev: every verse, the numbering (609 for δυνάστας: Jebb's 607-608 in the verse before, margin 610 in this one) and every apparatus item read against the page (leaf 184-185, end of 612 on leaf 186); no change.
 
 === p-0186
 --- text
@@ -52,6 +53,7 @@
 614	Apparatus: in πάμπολισ L a bar over μ and a thin upright stroke between μ and π are taken as a reader's marks (a long syllable and a division, as in scanning; the stroke is paler and thinner than the print and runs below the line), not print: left out. Not certain for the bar, which is as dark as the print.
 612	The head of this page's apparatus ("adopts.") ends the note on 612, written with p-0184.
 622	The note on 622 runs on to the head of p-0188's apparatus ("conject. τότʼ."): its end taken from there.
+613	rev: every verse and every apparatus item read against the page (leaf 186-187, end of 622 on leaf 188); no change. 614 πάμ|πολισ: the bar over μ is crisp and as dark as the print, the stroke thin and pale; left out as decided, not certain (open).
 
 === p-0188
 --- text
@@ -81,6 +83,7 @@
 630	Flag: the page prints ἀπάτας (check text ἀπάτης).
 622	The head of this page's apparatus ("conject. τότʼ.") ends the note on 622, written with p-0186.
 628	The note "628 f." is written under 628 ("f." left out).
+623	rev: every verse and every apparatus item read against the page (leaf 188-189); ἄρʼ in 628 f. smooth, as ἀχνύμενοσ; no change.
 
 === p-0190
 --- text
@@ -115,6 +118,7 @@
 643	The page prints a comma after κακοῖς (check text none).
 642	A reader's ink note (ἀκούω) in the right margin beside 642: not print, ignored.
 637	Apparatus: the character "somewhat like ε" is printed as a lunate-looking ϵ in the italic Greek, written ε.
+634	rev: every verse and every apparatus item read against the page (leaf 190-191); 634 ἢ (smooth breathing, grave); no change.
 
 === p-0192
 --- text
@@ -144,6 +148,7 @@
 659	The page prints a raised stop after ξύναιμον (check text a full stop).
 660	The page prints a full stop after γένους (check text none).
 653	Reader's ink and pencil in the right margin (ὠθέω beside 653, ἀφίστημι beside 656, "acc" above 647, strokes): not print, ignored.
+647	rev: every verse and every apparatus item read against the page (leaf 192-193); no change.
 
 === p-0194
 --- text
@@ -178,3 +183,4 @@
 674	The page prints a raised stop after τίθησιν (check text a comma), and an asterisk before συμμάχου (Jebb's conjecture mark, Reiske's and Bothe's): left out.
 664	Reader's ink in the right margin (ἐπιτάσσω beside 664, "believe" beside 668): not print, ignored.
 674	The note on 674 runs on to the next spread (leaf 196, "with στίχας for τροπὰς in 675."): written whole here; p-0196 must not write it again.
+674	rev: every verse and every apparatus item read against the page (leaf 194-195, end of 674 on leaf 196); 673 ἥδʼ (Dindorf) rough with acute, ἠδʼ (Nauck, later MSS.) smooth without accent, L ἧδʼ, compared with ὄλλυσιν beside them; no change.

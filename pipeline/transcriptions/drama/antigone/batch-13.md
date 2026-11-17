@@ -134,7 +134,7 @@
 880	ταλαίναι L (not ταλαίνα). The final ι is from the first hand; but the word was first accented τάλαιναι, and then ταλαῖναι.
 884	χρεῖʼ ηι L: χρείη Dawes.—Blaydes conject. παύσειεν for παύσαιτʼ ἄν: but prints, by another conject., παύσαιτʼ ἄν, εἰ ʼξείη, ʼκχέων. Semitelos, προτοῦ λέγων | ὡς οὐδʼ ἂν εἷς παύσαιτʼ ἄν, εἰ χρείη θανεῖν.
 885	ἄξεσθʼ L, ἄξετʼ r.
-887	ἀφεῖτε μόνην L. Aldus (with A) has μόνην ἀφῆτʼ. Most of the later MSS. have ἀφεῖτε, ἄφειτε, or ἀφῆτε: but for ἄφετε Vat. is cited. Blaydes, with Brunck, reads ἄπιτε μόνην, a v. l. noted in A.—χρὴ L: Dindorf conject. χρῇ: Hermann, εἰ χρήζει: Nauck λῇ.
+887	ἀφεῖτε μόνην L. Aldus (with A) has μόνην ἀφῆτʼ. Most of the later MSS. have ἀφεῖτε, ἄφειτε, or ἀφῆτε: but for ἄφετε Vat. is cited. Blaydes, with Brunck, reads ἄπιτε μόνην, a v. l. noted in A.—χρὴ L: Dindorf conject. χρῇ: Hermann, εἰ χρῄζει: Nauck λῇ.
 --- notes
 873	comma after δʼ and after μέλει as printed (the draft had neither).
 874	comma after πέλει as printed (the draft had a raised stop); οὐδαμᾷ confirmed on this verse.
@@ -143,6 +143,7 @@
 880	raised stop after ταλαίνᾳ as printed (the draft had a full stop).
 884	the apparatus note on 884 begins at the foot of the text page and runs on to the facing page.
 873	the reader's pencil strokes through 873-875 and 876-881 are not print.
+887	rev: apparatus 887: Hermann's εἰ χρῄζει with the iota subscript as printed (was χρήζει).
 
 === p-0230
 --- text
@@ -164,8 +165,9 @@
 891	In L the first hand accented ὦ—ὢ—ὦ. The first ὦ has been made ὢ.
 892	ἀείφρουροσ L: αἰείφρουρος r.
 894	φερσέφασσʼ L (the first σ from ρ): Περσέφασσʼ r.
-895	λοίσθιʼ ἀγὼ L. (The accent on the first ι is faint.) The difference between the contracted αγ and εγ in L may be seen by comparing vv. 913, 916.
+895	λοίσθίʼ ἀγὼ L. (The accent on the first ι is faint.) The difference between the contracted αγ and εγ in L may be seen by comparing vv. 913, 916.
 --- notes
 888	numbering confirmed by Jebb's margins 890 and 895.
 889	raised stop after κόρην as printed (the draft had none); the dotted pencil trail after it is not print.
 900	the draft's last line "900 ἐπεὶ" removed: the page ends with 899 (κασίγνητον κάρα·); ἐπεὶ was the OCR's misreading of ὑμνῳ-|δεῖν in the apparatus, and verse 900 (ἐπεὶ θανόντας …) begins the next page (batch-14, p-0232). The other "matched no Perseus words" lines are the apparatus.
+895	rev: apparatus 895: L's reading λοίσθίʼ with an acute on both iotas as printed (was λοίσθιʼ); Jebb's remark on the faint accent on the first ι refers to it.

@@ -133,12 +133,12 @@ Sigla: L = cod. Laur. 32. 9 (first half of eleventh century). r = one or more of
 49	οἴμοι· φρόνησον, ὦ κασιγνήτη, πατὴρ
 50	ὡς νῷν ἀπεχθὴς δυσκλεής τʼ ἀπώλετο,
 51	πρὸς αὐτοφώρων ἀμπλακημάτων διπλᾶς
-52	ὄψεις ἀράξας αὐτὸς αὐτουργῷ χερί.
+52	ὄψεις ἀράξας αὐτὸς αὐτουργῷ χερί·
 53	ἔπειτα μήτηρ καὶ γυνή, διπλοῦν ἔπος,
 54	πλεκταῖσιν ἀρτάναισι λωβᾶται βίον·
 55	τρίτον δʼ ἀδελφὼ δύο μίαν καθʼ ἡμέραν
 --- apparatus
-45	L points thus: τὸν γοῦν ἐμὸν καὶ τὸν σόν· ἢν σὺ μὴ θέλῃς ἀδελφὸν, etc.—Benedict (Observ. in Soph., Leipsic, 1820, p. 104) is followed by several edd. in rejecting v. 46, which was already suspected in antiquity: see comment. In v. 45 Dindorf conject. κοὐ τὸν σόν: M. Schmidt, τὸν καὶ σόν: Nauck, ἔγωγε τὸν ἐμόν, τὸν σόν.
+45	L points thus: τὸν γοῦν ἐμὸν καὶ τὸν σὸν· ἢν σὺ μὴ θέλῃς ἀδελφὸν, etc.—Benedict (Observ. in Soph., Leipsic, 1820, p. 104) is followed by several edd. in rejecting v. 46, which was already suspected in antiquity: see comment. In v. 45 Dindorf conject. κοὐ τὸν σόν: M. Schmidt, τὸν καὶ σόν: Nauck, ἔγωγε τὸν ἐμόν, τὸν σόν.
 48	μʼ was added by Brunck, from the schol., εἴργειν με ἀπὸ τῶν ἐμῶν.
 53	ἔπος] πάθος was a variant. L has ἔπος in the text, with πάθος written above by the first corrector (S). Other MSS. (as A) read πάθος in the text, with γρ. ἔπος.
 --- notes
@@ -146,3 +146,5 @@ Sigla: L = cod. Laur. 32. 9 (first half of eleventh century). r = one or more of
 49	raised stop after οἴμοι, as printed (the check text has a full stop).
 50	ἀπώλετο, stands on verse 50 as printed; the margin 45, 50, 55 confirm the numbering.
 45	in the apparatus, the breathing of ἢν in L's pointing is indistinct in the small type; written ἢν as in the text above.
+52	rev: raised stop after χερί, as printed (was a full stop; the dot stands at mid-height, checked enlarged).
+45	rev: apparatus, L's pointing: σὸν· with the grave, as printed (was σόν·).

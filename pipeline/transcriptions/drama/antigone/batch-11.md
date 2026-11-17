@@ -93,7 +93,7 @@
 711	ἄγαν] L has γαν in an erasure: the scribe had written μανθάν.
 712	παραρρείθροισι L.
 713	ἐκσωίζεται L.
-715	αὔτως] οὕτωσ L, made from αὔτωσ.—ὅστις] εἴτισ L, with ὁσ written above by first hand.—ἐγκρατῆ] ἐγκρατεῖ L, with η written above by first hand: ἐγκρατὴς r.
+715	αὔτως] οὕτωσ L, made from αὕτωσ.—ὅστις] εἴτισ L, with ὁσ written above by first hand.—ἐγκρατῆ] ἐγκρατεῖ L, with η written above by first hand: ἐγκρατὴς r.
 --- notes
 700	Every verse read against the page. Margin numbers 700, 705, 710, 715 agree.
 702	The page prints a full stop after τιμιώτερον (check text a comma).
@@ -102,6 +102,7 @@
 715	The page prints αὔτως with the smooth breathing (check text αὕτως); Jebb's apparatus and commentary on 715 have αὔτως.
 699	The head of this page's apparatus ("καὶ στήλης in marg. by S. τιμῆς r.") ends the note on 699, written with p-0198.
 715	The note on 715 runs on to the head of p-0202's apparatus ("by first hand.—ἐγκρατῆ] … ἐγκρατὴς r."): its end taken from there.
+715	rev: apparatus 715 "made from αὔτωσ" corrected to αὕτωσ: the page (leaf 201, enlarged) prints the rough breathing, the same mark as on οὕτωσ and ὅστις beside it, unlike the smooth one of the lemma αὔτως] and of ἄγαν (711).
 
 === p-0202
 --- text

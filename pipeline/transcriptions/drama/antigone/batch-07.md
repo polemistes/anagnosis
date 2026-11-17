@@ -30,6 +30,7 @@
 391	page: comma after ἀπειλαῖς and raised stop after τότε.
 403	page: φής (no iota subscript); check text φῄς.
 392	apparatus: εἰκὸς printed with grave before the stop and dash, copied as printed.
+390	rev: all six pages (390-466) read verse by verse and the whole apparatus (with the facing pages) item by item against the page images: no change needed; apparatus 390 (ἡίξειν L) compared at enlargement with ἥξειν (rough) and ἐξηύχουν (smooth) on the same line: rough.
 
 === p-0150
 --- text

@@ -23,8 +23,10 @@
 981	Dindorf conject. ἀρχαιογόνοιο | . . Ἐρεχθείδα, reading ἀγχίπτολις in 970.
 984	θυέλλησιν MSS.
 987	ὦ παῖ] Meineke conject. ὦ Ζεῦ: Bergk, ὦπα.
-990	ἐκ] Blaydes conject. ἥκ.
+990	ἐκ] Blaydes conject. ἡκ.
 --- notes
+990	rev: apparatus Blaydes's ἥκ corrected to ἡκ: the page (leaf 245, enlarged) prints a rough breathing and no accent (crasis of ἡ ἐκ; Jebb's note on 990 speaks of "the art. ἡ with ἐκ"); breathing compared with the smooth one on ἐκ in the same line.
+977	rev: every verse and the apparatus (leaves 244-245) read against the page; ἁ (981) rough, ἐκείνᾳ (986) with iota subscript, ὦπα (987 app.) smooth as ὦ Ζεῦ beside it, confirmed.
 977	no margin number was read: the page prints 977 beside the first verse (977-979 in one printed verse), 980, 985, 990 at the right; numbering agrees.
 977	the comma the OCR saw after μέλεοι is a pencil stroke, not print.
 982	the page prints Ἐρεχθεϊδᾶν with diaeresis (check text Ἐρεχθειδᾶν).
@@ -193,3 +195,4 @@
 1042	ὣς confirmed (rough breathing, grave).
 1042	Jebb's note is numbered "1042 f.".
 1046	the note runs on to the facing page (leaf 255).
+1048	rev: Jebb's commentary on leaf 255 heads its note "1048 ἆρʼ οἶδεν κ.τ.λ.": φεῦ· (extra metrum, on its own printed line) and ἆρʼ οἶδεν … are together his verse 1048; kept as 1048 + 1048a, as this play's batch-06 does for 323 φεῦ. / 323a; 1049 and the margin 1050 agree.

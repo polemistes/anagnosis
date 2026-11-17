@@ -23,6 +23,7 @@
 56	no margin number on this page above 60; 60 (ψῆφον) and 65 (ἐγὼ) read in the margin, numbering confirmed.
 56	apparatus: Coraës's word is printed with a rough breathing, αὑτοκτονοῦντε (compared at enlargement with ὁθούνεκʼ in 63 and αὐτοκτενοῦντε in the same note).
 62	print has a raised stop after μαχουμένα (draft: full stop).
+59	rev: every verse and apparatus item re-read against the page, no change. The small dot above the line after εἰ is a speck (too high for a raised stop), not print. Coraës's αὑτοκτονοῦντε confirmed rough at enlargement against the smooth breathing of L's αὐτοκτενοῦντε in the same note.
 68	the note "68 f." begins at the foot of the facing page (leaf 89) and ends at the head of p-0090's apparatus; written here whole, where it begins (the brief's rule for notes that run on beyond the spread). Its verse 68 stands on p-0090.
 
 === p-0090
@@ -49,6 +50,7 @@
 74	print has a raised stop after πανουργήσασʼ (check text: full stop).
 76	print has ἀεὶ (check text αἰεὶ, L's reading per the apparatus) and no comma after δʼ.
 70	margin numbers 70 (πράσσειν) and 75 (ὃν) read on the page: numbering confirmed.
+70	rev: every verse and apparatus item (with its run-on on leaf 91) re-read against the page, no change; the comma after πράσσειν is print (the wavy line under it is ink).
 
 === p-0092
 --- text
@@ -85,6 +87,7 @@
 86	the "square brackets" the OCR saw are a reader's ink strokes after ἔσει.
 89	the "printed line that matched no Perseus words" under 89 is the reader's pencil (ἁνδάνω) and the apparatus: nothing added.
 83	apparatus: no colon after "MSS." before μὴ ʼμοῦ in the print; copied as printed. μή (acute) before μου as printed.
+85	rev: every verse and apparatus item re-read, no change. Breathings compared at enlargement: verse 85 αὔτως and Hermann's αὔτως smooth (tail turns left, as an elision mark), the MSS. αὕτως rough (tail turns right).
 86	the note "86" begins on the facing page (leaf 93) and ends at the head of p-0094's apparatus ("so Nauck, Wecklein: see comment."): written whole here.
 
 === p-0094
@@ -114,6 +117,7 @@
 90	margin number 90 read on the page (95 is hidden under a reader's ink note, counted on from 90): numbering confirmed. The strokes and brackets after 91, 94-97 are ink, not print.
 98	print has a comma after ἴσθʼ (the check text has none).
 93	apparatus: ἐχθρανῆι with the iota written on the line, as printed (L's spelling).
+94	rev: every verse and apparatus item (with the run-on on leaf 95) re-read, no change; full stop after δίκῃ is print.
 
 === p-0096
 --- text
@@ -137,6 +141,7 @@
 108	the draft's "ὃς ἐφʼ" at the end of this verse belongs to 110 on p-0098 (the print begins 110 with *ὃς ἐφʼ): moved there.
 106	apparatus: on the facing page (leaf 97) a reader's broad ink stroke covers the middle of Ἀργογενῆ, the end of Ἰναχόθεν and the last letter of φῶτα; read from the visible letters (Ἀργ…ογενῆ, Ἰναχο…θεν, φῶτ…α.) and Jebb's commentary on the same page, which spells Ἀργογενῆ and Ἰναχόθεν ("I had thought of Ἰναχόθεν, which Mekler, too, has lately suggested").
 108	the note "108" runs on to the head of p-0098's apparatus ("ὀξυτόνῳ or ὀξυτόμῳ: Nauck, ὀξυκρότῳ."): written whole here.
+100	rev: every verse and apparatus item (with the run-on on leaf 97) re-read, no change; renumbering 100, 102, 103, 104, 106, 108 confirmed (margin 100 and 106; apparatus 102, 104, 106, 108). Hermann's ἒκ (smooth, grave) as printed.
 
 === p-0098
 --- text
@@ -165,3 +170,5 @@
 119	renumbered from 118: Jebb's apparatus names this verse 119 (λόγχαις), the antistrophe's first printed verse covering 117-118 as the strophe's first covers 100-101. Print has a comma after στόμα.
 110	apparatus: L's spellings copied as printed (γᾶι, πολυνείκησ, ἀρθεὶσ, αἰετὸσ, εἰσ, ὡσ, ἡμερα without accent). The note "112" runs on to the facing page (leaf 99) and "113", "117", "119" stand there.
 112	apparatus: the breathing under the circumflex of ὦρσεν is too small to read for certain at enlargement; written smooth, as the word requires.
+113	rev: the mark after αἰετὸς looked at: the paper is displaced along the ink stroke (the letters right of it stand about 35 px lower than those left of it, in 112 and 113 alike); the mark sits at the displaced baseline, joins the stroke's edge and has the shape of the ς's tail; no comma written (Jebb's note on 112 f. and the sense, αἰετὸς … ὣς, agree). Not certain from the image alone.
+110	rev: every verse and apparatus item (with the run-on on leaf 99) re-read, no change. Apparatus breathings compared at enlargement: L's ὡσ (sic) rough with no accent, matching ὑ of ὑπερέπτα beside it; Pallis's ὁ δʼ rough; ἤλασʼ, ἤγαγεν smooth; 119 ἑπτάπυλον] ἑπταπύλῳ rough.

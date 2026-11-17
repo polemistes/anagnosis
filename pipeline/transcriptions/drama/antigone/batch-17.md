@@ -34,7 +34,7 @@
 1139	ματρὶ σὺν κεραυνίᾳ·
 1140	καὶ νῦν, ὡς βιαίας ἔχεται
 1141	πάνδαμος πόλις ἐπὶ νόσου,
-1142	μολεῖν καθαρσίῳ ποδὶ Παρνασίαν ὑπὲρ κλιτὺν
+1143	μολεῖν καθαρσίῳ ποδὶ Παρνασίαν ὑπὲρ κλιτὺν
 1145	ἢ στονόεντα πορθμόν.
 --- apparatus
 1130	κασταλείασ L, with ϊ above ει from the first hand.
@@ -50,8 +50,8 @@
 1135	Comma after εὐαζόντων as printed (the draft had none). Jebb's verse 1135 covers 1135-1136 (margin 1135; his apparatus numbers the next verse 1137).
 1137	Renumbered 1136 to 1137 and 1137 to 1139 by Jebb's apparatus (1137—1145 L divides thus: τὰν—; 1137 f. τὰν ἐκ πασᾶν) and margin 1140 at καὶ νῦν: τὰν ... πόλεων covers 1137-1138.
 1137	The print reads πασᾶν (the draft had πᾶσαι).
-1137	Apparatus: Blaydes's ἁπασᾶν: the breathing looks smooth in the scan (the same shape as on ἐξ before it); written with the rough breathing the word requires.
-1142	Jebb's verse 1142 covers 1142-1144 (his note 1144 παρνησίαν names Παρνασίαν on it); the item keeps his number 1144, hence the checker's remark that 1144 is not a line on the page.
+1137	rev: Apparatus: Blaydes's ἁπασᾶν: at enlargement the breathing is printed rough (tail to the right, the same shape as on ὑπὲρ in the same line; the smooth one on ἐξ before it has its tail to the left): as printed, no misprint (the earlier note said it looked smooth).
+1143	rev: μολεῖν ... κλιτὺν renumbered 1142 to 1143 by Jebb's commentary (leaf 271: "1143 ff. μολεῖν: infin. for imperat.") and the strophic correspondence: his πάνδαμος ... νόσου (1141) covers 1141-1142 as its antistrophic ὦναξ verse covers 1150-1151 (his apparatus on 1141 names "the antistrophic verse, 1150"), and μολεῖν ... κλιτὺν covers 1143-1144 (his apparatus 1144 παρνησίαν names Παρνασίαν on it), answering Θυίαισιν ... χορεύουσι 1152-1153. The item keeps his number 1144, hence the checker's remark that 1144 is not a line on the page.
 
 === p-0272
 --- text

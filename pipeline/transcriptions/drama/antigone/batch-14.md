@@ -96,13 +96,14 @@
 940	οἱ] ὦ Pallis.
 941	τὴν βασιλίδα μούνην λοιπήν L. The correction βασιλειδᾶν, which recent edd. have generally received, was first proposed by K. Winckelmann (Salzwedler Programm, p. 30, 1852); afterwards by M. Seyffert, in his ed. (1865). Triclinius conjectured βασίλειαν: Bergk, Λαβδακιδᾶν: Doederlein, Οἰδιπόδα: Seidler and others, βασιληΐδα. Emperius proposed λεύσσετε Θήβης τὴν κοιρανιδᾶν | μούνην λοιπήν, regarding τὴν βασιλίδα as a gloss.
 943	εὐσέβειαν MSS.: εὐσεβίαν Triclinius, saying, οὕτω χρὴ γράφειν ἰωνικῶς .. ἀλλὰ καὶ τὸ σεβίσασα ἀπὸ τοῦ σεβίζω ὀφείλεις λέγειν, which shows that his text had σεβήσασα.
-944-954	L divides the vv. thus: ἔτλα— | ἀλλάξαι— | αὐλαῖσ— | τυμβήρει— | καίτοι— | καὶ Ζηνὸσ— | σκε γονὰσ— | ἀλλʼ ἀ— | οὔτʼ ἄν νιν— | οὐ πύργοσ— | κελαιναὶ .. ἐκφύγοιεν.
+944-954	L divides the vv. thus: ἔτλα— | ἀλλάξαι— | αὐλαῖσ— | τυμβήρει— | καίτοι— | καὶ Ζηνὸσ— | σκε γονὰσ— | ἀλλʼ ἁ— | οὔτʼ ἄν νιν— | οὐ πύργοσ— | κελαιναὶ .. ἐκφύγοιεν.
 --- notes
 940	comma after λεύσσετε, as printed.
 941	Jebb marks βασιλειδᾶν with an asterisk (his conjecture admitted): left out.
 944	the two upright strokes after φῶς and αὐλαῖς· are a reader's ink, not print; στρ. α΄. in the margin left out.
 941	apparatus: βασι- | ληΐδα divided at the line end in the print, written whole.
 944	apparatus: σκε γο- | νὰσ divided at the line end in the print, written whole; ἀλλʼ ἀ— printed with a smooth breathing on the second ἀ (L's spelling), copied as printed.
+944	rev: apparatus 944-954 ἀλλʼ ἀ— corrected to ἀλλʼ ἁ—: at enlargement the second breathing has its tail to the right like the rough one of οἱ] in the 940 note, unlike the smooth one of ἀλλʼ beside it (and the text 951 prints ἁ); the note above is superseded.
 
 === p-0238
 --- text
@@ -146,7 +147,7 @@
 961	ψαύων] Herwerden conject. χραίνων: M. Schmidt, θήγων: Nauck (formerly), θραύων: Mekler, σεύων.
 965	φιλαύλουσ L: φιλαύλους τʼ r: φιλαύλους δʼ Seyffert, and so most recent edd.
 966-976	L divides the vv. thus: παρὰ— | διδύμασ— | ἀκταὶ— | ἧδʼ ὁ θρηικῶν— | ἵνʼ— | δισσοῖσι— | εἶδεν— | τυφλωθὲν— | ἀλαὸν— | ἀραχθὲν— | χείρεσσι .. ἀκμαῖσι.
-966	παρα δε (sic) κυανέων πελάγεων (note the accent) πετρῶν | διδύμασ ἀλὸσ L. Brunck omitted πετρῶν. For πελάγεων I conjecture πελάγει. See comment.
+966	παρα δε (sic) κυανέων πελάγεων (note the accent) πετρῶν | διδύμασ ἁλὸσ L. Brunck omitted πετρῶν. For πελάγεων I conjecture πελάγει. See comment.
 --- notes
 959	Renumbered 958 → 959 by Jebb's commentary (959 f. οὕτω), following on from 957 (covers 957-958, p-0238). τᾶς in lower case as printed (the draft had Τᾶς). The OCR's "]" is a reader's ink stroke.
 961	ψαύων … γλώσσαις is 961 by Jebb's apparatus (961 ψαύων]); it covers 961-962.
@@ -154,6 +155,7 @@
 965	margin 965 beside φιλαύλους … Μούσας.
 966	Jebb marks πελάγει with an asterisk (his conjecture): left out. στρ. β΄. in the margin left out; the strokes after Κυανεᾶν and ἁλὸς are a reader's ink.
 966	apparatus: "966 f." written under 966. In the 966-976 note the L form ἧδʼ is read from the facing page (circumflex over a rough breathing, as in the 968 note on p-0242).
+966	rev: apparatus 966 ἀλὸσ corrected to ἁλὸσ: at enlargement its breathing has the tail to the right like the rough one of ὁ in the 966-976 note above it, unlike the smooth one of ἀλαὸν.
 
 === p-0242
 --- text

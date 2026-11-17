@@ -141,13 +141,14 @@
 --- apparatus
 1105	καρδίαι L. Most of the later MSS. have καρδίας: but some καρδίᾳ (as A, L²), καρδίαν, or καρδία. In L there is an erasure before ἐξίσταμαι, the first hand having first written ἐξεπίσταμαι. Semitelos writes καὶ βίᾳ ʼξεπίσταμαι (=‘have been taught’ how to act).
 1107	νῦν L.
-1108	ἴτʼ ἴτʼ] Triclinius conjecturally added the second ἴτʼ. L has ἵτʼ, as Elmsley read it: the rough breathing has been questioned, but is certain. The later MSS. have ἴτ, or (as A) οἴτʼ. Nauck conject. εἶτʼ or ἀλλʼ: Mekler, ἄνιτʼ.
+1108	ἴτʼ ἴτʼ] Triclinius conjecturally added the second ἴτʼ. L has ἵτʼ, as Elmsley read it: the rough breathing has been questioned, but is certain. The later MSS. have ἴτ, or (as A) οἵτʼ. Nauck conject. εἶτʼ or ἀλλʼ: Mekler, ἄνιτʼ.
 1111	δόξαι τῆδʼ (sic) ἐπεστράφην L: δόξα τῇδʼ ἐπεστράφη r. The corruption in L (shared by L² and V⁴) evidently arose from failure to perceive that τῇδʼ was an adverb.
 1112	αὐτός τʼ ἔδησα] Semitelos conject. αὐτὸς πεδήσας.
 --- notes
 1103	every verse read against the page word by word: the draft agrees with the print throughout (words, accents, stops, speakers); no flags on this page; margin numbers 1105 (οἴμοι) and 1110 (ὁρμᾶσθʼ) confirm the numbering. ἀνάγκῃ (1106) with iota subscript, δρᾶ νυν (1107) and ἴτʼ ἴτʼ (1108) as printed, checked at enlargement.
 1108	apparatus: the breathings of the small ἴτʼ forms cannot be told apart at the scan's resolution; L's ἵτʼ is written rough as Jebb's words say ("the rough breathing has been questioned, but is certain"), the others smooth as the lemma. "The later MSS. have ἴτ," is printed without an elision mark: copied as printed.
 1111	apparatus: L's τῆδʼ is printed without iota subscript (marked sic), r's τῇδʼ with it.
+1108	rev: apparatus A's reading οἴτʼ corrected to οἵτʼ: at 5x on the scan (leaf 265) its breathing has the same looped rough form as L's ἵτʼ (leaf 264), not the thin smooth mark of the lemma's and the later MSS.' ἴτ; Nauck's εἶτʼ smooth, as printed.
 
 === p-0266
 --- text

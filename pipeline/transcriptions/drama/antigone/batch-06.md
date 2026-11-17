@@ -32,6 +32,7 @@
 323	the page prints φεῦ. (full stop), ἦ δεινόν, ᾧ δοκεῖ γε, (draft ἦ δεινὸν ᾧ δοκῇ γε): his apparatus has the lemma ᾧ δοκεῖ].
 323	apparatus: L's reading is printed ἦ followed by a separate grave mark (ἦ`): written with the Greek varia sign U+1FEF.
 332	the page ends the verse with a raised stop (draft: full stop).
+321	rev: every verse and every apparatus item read again against the page (leaves 136-137); the breathings of ὧι, ἣν, ᾧ (Hartung, Anonym.), ᾖ (Hartung) and ὃς (Pallis) compared at enlargement with the lemma's ἦ (smooth) and ᾧ (rough): all as written; no change.
 
 === p-0138
 --- text
@@ -56,6 +57,9 @@
 339	apparatus: printed "339 f."; the breathings of ἁπλωμένων and εἱλομένων are small in the print and read as rough.
 338	rev: apparatus "After τὰν": a thin grey stroke under the grave over α is fainter and thinner than the printed macron of ὀρεσσιβάτᾱ (350, leaf 140): taken as a reader's pencil, τὰν kept.
 339	rev: the rough breathings of ἁπλωμένων and εἱλομένων confirmed at enlargement against the rough of ὃς (leaf 136) and the smooth of ἔτος, ἐξ (this spread).
+338	rev (second review): the stroke under the grave of "After τὰν" checked at pixel level: grey and three or four pixels thick, whereas the printed macron of ὀρεσσιβάτᾱ (350, leaf 140) is solid black and about seven: pencil, τὰν kept.
+339	rev (second review): ἁπλωμένων's breathing is clearly rough (tail turned down to the right, as ᾧ on leaf 136; the smooth ἀπλομένων, εἰσ, ἀρότρων turn down to the left). εἱλομένων's mark is a small blot with no visible tail, which the image cannot settle: kept rough as written (the form is εἱλέω; nothing on the page argues for smooth).
+334	rev (second review): every verse read word by word against leaf 138 (the upright stroke after ἀκαμάταν is pencil); no change.
 
 === p-0140
 --- text
@@ -81,6 +85,9 @@
 351	the page prints asterisks before ὀχμάζεται and ἀμφὶ (Jebb's mark of conjectures admitted): left out; and a comma after ζυγῶν (draft: none).
 351	apparatus: in "ἀμφίλοφον" a thin upright stroke after ἀμ is a reader's pencil mark (thinner and greyer than the type, like the pencil strokes in the verses): left out.
 351	rev: at enlargement the page prints the last two forms of "The later MSS. have ἄξεται (A), ἄξετʼ, ἕξεται, ἕξετʼ" with a SMOOTH breathing (the same mark as ἀπὸ, ἄξεται; unlike the rough of ἵππον, ὑπὸ and of L's ἕξεται twice in the same note): ἔξεται is no Greek form and the note names L's ἕξεται, so taken as an evident misprint and kept rough (ἕξεται, ἕξετʼ); the user may prefer the print's ἔξεται, ἔξετʼ.
+342	rev: Jebb's commentary heads its note "343 κουφονόων", his apparatus "342 κουφονέωντὲ", and the margin 343 stands beside this one printed verse: the verse keeps 342, the first number it covers (the apparatus's).
+351	rev (second review): confirmed at pixel level: in "ἄξετʼ, ἔξεται, ἔξετʼ" the last two marks are shaped like the smooth of ἄξεται and of "with ἄ", while L's ἕξεται, the scholion's ἕξεται, "over ἕ" and ἵππον are rough. The correction to ἕξεται, ἕξετʼ is kept, but it is a judgement (Jebb may be reporting a later manuscript's spelling): left open for the user.
+342	rev: every verse read word by word against leaf 140, apparatus against leaves 140-141; no further change.
 354	καὶ φθέγμα καὶ ἀνεμόεν (strophe β΄, verse 1): Jebb's margin 354 and his commentary "354 φθέγμα" (leaf 141); the draft had 355.
 
 === p-0142
@@ -103,6 +110,8 @@
 356	apparatus: printed ἐδα-|δάξατο across the line end, written whole.
 359	apparatus: L's reading printed παντ followed by a separate grave mark (Greek varia U+1FEF) and όποροσ with an acute and no breathing.
 362	apparatus: ἐπάξεται stands in our verse 361 (361-362); the item keeps Jebb's number.
+357	rev: Jebb's commentary heads its note "358 πάγων κ.τ.λ." while his apparatus has "357 αἴθρια MSS." for ἐναίθρεια in the same printed verse: the verse keeps 357, the first number it covers (the apparatus's); his margin 360 beside the next verse agrees.
+355	rev: every verse read word by word against leaf 142, apparatus against leaves 142-143 (breathings of ἁμερόφρον, ὁρμὰς rough, ὀρχμὰς, ἀρχὰς, ἀγορὰς smooth checked at enlargement); no change.
 
 === p-0144
 --- text
@@ -130,6 +139,7 @@
 368	the page prints an asterisk before γεραίρων (Jebb's mark of a conjecture admitted): left out.
 370	the page prints a comma after ἄπολις.
 374	the page prints μητʼ without an accent, an evident misprint (the verse before has μήτʼ, and Jebb's apparatus lemma here is μήτʼ ἴσον]): corrected to μήτʼ. The page prints a comma after φρονῶν.
+363	rev: every verse read word by word against leaf 144 (ἕρπει rough, ἔρδει smooth checked at enlargement), apparatus against leaves 144-145; commentary "363 f." agrees with 363; no change.
 367	apparatus: τοτὲ stands in our verse 366 (366-367); the item keeps Jebb's number. Likewise 373 (μήτʼ ἐμοὶ, in our verse 371) and 375 (ἔρδει, in our verse 374).
 
 === p-0146
@@ -167,3 +177,4 @@
 387	the draft split this verse into 387, 387a, 387b (τί | δʼ | ἔστι …) with its words misplaced; the print has ΚΡ. and the whole verse on one line: joined as 387.
 388	the page prints ἐστʼ (no accent; draft ἔστʼ) and a raised stop after ἀπώμοτον (draft: full stop).
 387	apparatus: the note runs on to the top of the next page's apparatus (leaf 148), from which its end "ξύμμετρʼ ἐξέβην." is taken; not to be written again there.
+376	rev: every verse read word by word against leaf 146 (the dot before εἵλομεν and the marks under θάπτουσαν and καθελόντες are pencil), apparatus against leaves 146-147 and the run-on at the head of leaf 148 (ξύμμετρʼ ἐξέβην. confirmed); no change.

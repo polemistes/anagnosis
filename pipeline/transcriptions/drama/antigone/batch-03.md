@@ -91,6 +91,7 @@
 158	Numbering kept: margin 150, 155, 160 (at ὅτι). Jebb's note "159 ἐρέσσων" is filed under 159 as printed: ἐρέσσων stands in our 158, which covers 158-159 (his commentary has "158 ff. μῆτιν ἐρέσσων").
 149	The strophe numerals 2-7 in the margin are not text.
 156	Jebb's note is numbered "156 f." (written 156).
+158	rev: numbering kept (158 χωρεῖ covering 158-159, 160 ὅτι, 161 προὔθετο, 161a κοινῷ), as it fits his margin 160 at ὅτι, his apparatus "159 ἐρέσσων" and his commentary "158 ff. μῆτιν ἐρέσσων"; but his commentary on the metre ("both v. 156 and v. 160 should be made dimeters by supplying three anapaests") treats 160 as a monometer, i.e. προὔθετο λέσχην, which is the traditional numbering (158 χωρεῖ, 159 ὅτι, 160 προὔθετο, 161 κοινῷ). Jebb's own witnesses disagree here; left open.
 
 === p-0108
 --- text

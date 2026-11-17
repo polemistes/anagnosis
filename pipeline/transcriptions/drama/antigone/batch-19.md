@@ -19,6 +19,7 @@
 1273	all seven verses read word by word against the page: words, accents and stops agree with the print.
 1276	numbering by Jebb: his verse 6 of the antistrophe, φεῦ φεῦ, ὦ πόνοι βροτῶν δύσπονοι, covers 1276-1277 (L divides φεῦ φεῦ | ἰὼ πόνοι, see 1271-1277 on the page before); his margin has 1278 at ὦ δέσποθʼ and his apparatus 1278 ΕΞΑΓΓΕΛΟΣ, 1279 πρὸ χειρῶν. So ὦ δέσποθʼ 1278, τὰ μὲν 1279 (the draft had 1277, 1278); 1277 is skipped.
 1280	the apparatus "auto- | type" across the line end written autotype.
+1273	rev: every verse, the numbering and the apparatus (with its end on leaf 293) checked against the page: no change (ὡς in 1278 rough against ὦ smooth at enlargement; Enger's ἆρα smooth with circumflex).
 
 === p-0294
 --- text
@@ -38,12 +39,20 @@
 --- apparatus
 1281	τί δʼ εστιν (sic) αὖ κάκιον ἢ κακῶν ἔτι; L.—J. Pflugk (whom Schneidewin follows) conject., τί δʼ ἔστιν; ἢ κάκιον αὖ κακῶν ἔτι; So Emperius, but with ἦ.—Reiske, τί δʼ ἔστιν αὖ; κάκιον ἦ κακῶν ἔτι; So Wecklein and Bellermann.—Canter, τί δʼ ἔστιν αὖ κάκιον ἐκ κακῶν ἔτι; So Brunck and Hermann.—Herm. also proposed, κάκιον ὂν κακῶν ἔτι; which Schütz prefers.—G. H. Müller, τί δʼ ἔστι δὴ κάκιον αὖ κακῶν ἔτι;—Blaydes, τί δʼ ἔστιν αὖ κάκιον ἢ τὰ νῦν ἔτι;—Heiland (Progr. Stendal. 1851) would delete the verse, so that the five vv. (1278—80, 1282 f.) might answer to 1301—1305. Mekler agrees with him.
 1282	τέθνηκεν L.—Nauck conject. τέθνηχʼ, ἡ τοῦδε γεννήτωρ νεκροῦ: Semitelos, τέθνηκʼ ἐκ τοῦδε πημάτων νεκροῦ: Pallis, μήτηρ τέθνηκεν τοῦδε παμμόρου νεκροῦ.
+1284-1292	L divides thus: ἰὼ ἰὼ—δυσκάθαρ|τοσ—ὀλέκεισ· | ἰὼ— | προπέμψας— | αἰαῖ— | τί φηὶσ— | σφάγιον— | γυναικεῖον . . . μόρον. |
+1284	In L the first hand wrote χο before these vv.; a later hand changed it to κρε.
+1286	ἰὼ L: ὦ r.
+1287	λόγον] In L the first hand wrote λόγωι, and then changed it to λόγων: a later hand has made λόγον.
+1288	αἰαῖ] αἶ αἶ L.—ἄνδρʼ] ἄνδρα L. Cp. on 1147.
+1289	τί φηὶσ ὦ παῖ· τίνα λέγεισ μοι νέον λόγον L.—R. Enger, omitting λόγον with Seidler, reads ὢ τίνʼ αὖ for ὦ παῖ τίνα, which Wecklein receives. Nauck prefers παῖ; τίνʼ αὖ.—Donaldson, τί φής; τίνα λέγεις νέον μοι νέῳ, which Dindorf adopts. And so Schütz would read, only with the MS. λόγον (followed by a note of interrogation) instead of νέῳ.
 --- notes
 1281	Jebb marks ἐκ with an asterisk (Canter's conjecture, see the apparatus): asterisk left out. Numbering checked on the page: margin 1284 at ἰὼ δυσκάθαρτος, 1285 at τί μʼ ἄρα; the antistrophe's ἰώ, keeps 1284 and ἰὼ δυσκάθαρτος 1284a, as the strophe's ἰὼ 1261 / φρενῶν 1261a (batch-18).
 1284	comma after ἰώ as printed (the check text has a full stop).
 1285	ὀλέκεις; is printed on this verse (flag checked).
 1289	the print has τί φής, ὦ παῖ, τίνα λέγεις μοι νέον, (the check text τί φής, παῖ; τίνʼ αὖ λέγεις μοι νέον,): ὦ added, comma for the question mark after παῖ, τίνα for τίνʼ αὖ.
 1281	every verse of the page read word by word; the others agree with the print. In the apparatus the η of L's reading, Pflugk's and Blaydes's has a breathing with a grave (ἢ), Emperius's and Reiske's a breathing with a circumflex (ἦ), as printed.
+1284	rev: apparatus items 1284-1292, 1284, 1286, 1287, 1288 and 1289 added from the facing page (leaf 295), which the draft had left out. In L's division the stroke inside δυσκάθαρ|τοσ and the lines "προ- | πέμψας" (written whole) as printed; Enger's ὢ (breathing and grave) and ὦ παῖ (breathing and circumflex) compared at enlargement; L's φηὶσ (iota with grave) as printed.
+1281	rev: every verse and the apparatus of leaf 294 checked against the page; the verses, the numbering (margin 1284 at ἰὼ δυσκάθαρτος, 1285 at τί μʼ ἄρα) and the items 1281, 1282 confirmed (ἢ in L's, Pflugk's and Blaydes's readings smooth, Nauck's ἡ rough, at enlargement).
 
 === p-0296
 --- text
@@ -74,6 +83,7 @@
 1301	the print has ἥδʼ (Arndt's conjecture, see the apparatus) where the check text has ἡ δʼ (flag on δʼ checked). Jebb marks ὀξυθήκτῳ and ξίφει with asterisks: left out. The underlining under ἥδʼ and περὶ ξίφει is a reader's pencil.
 1301	apparatus: the breathing under the circumflex of L's ἧδʼ (sic) is small; at enlargement on leaf 297 its tail turns as in the rough breathing of ἡ on the next line, so ἧδʼ (the "sic" fits a non-word).
 1294	apparatus: the item ends with a stroke after τέκνον. as printed.
+1293	rev: every verse, the numbering and the apparatus (with its end on leaf 297) checked against the page: no change. Jebb's commentary heads its note on ὁρᾶν πάρεστιν "1294", but his apparatus names the verse 1293 and his margin has 1295 at κακὸν τόδʼ, with οἴμοι between: 1293 kept (the commentary's number is a slip). L's ἧδʼ (sic) in item 1301 compared at enlargement with the smooth breathing of ὦ on leaf 295: its tail turns the other way, so rough, as written. The stops after ἔτι (1293), τάλας (1295) and νεκρόν (1298) are full stops at enlargement.
 
 === p-0298
 --- text
@@ -103,6 +113,7 @@
 1307	ἀνέπταν is printed on this verse (flag checked; the OCR garbled it).
 1310	Jebb marks αἰαῖ with an asterisk (Erfurdt's conjecture): left out.
 1306	the dot after the comma of αἰαῖ αἰαῖ, is a speck, not print.
+1302	rev: every verse, the numbering and the apparatus (with its end on leaf 299) checked against the page: no change.
 
 === p-0300
 --- text
@@ -128,7 +139,7 @@
 1313	μόρων] μόρωι L. The later MSS. have μόρων, μόρω (as A), or μόρων (as Aug. b and T).
 1314	ἐν φοναῖς] L has εἰς φονάσ written by S above ἐν φοναῖσ.
 1317	ὤμοι MSS. (ὤι μοι μοι L). Erfurdt gave ἰώ μοι for the sake of closer metrical agreement with 1339, ἄγοιτʼ ἄν.—ἐπʼ ἄλλον] Pallis conject. ἐπʼ ἄλλῳ.
-1319	ἐγὼ γὰρ σʼ ἐγὼ ἔκανον ὦ μέλεοσ L, with most of the later MSS.: but Aug. b has ἔκτανον, and so the Aldine. Hermann inserted a second σʼ after ἐγώ. Nauck proposes ἐγὼ γάρ σʼ ἔκτανον, ὢ μέλεος, and in 1341 σέ τʼ αὖ τάνδʼ· οὐδʼ ἔχω, ὦ μέλεος.
+1319	ἐγὼ γὰρ σʼ ἐγὼ ἔκανον ὢ μέλεοσ L, with most of the later MSS.: but Aug. b has ἔκτανον, and so the Aldine. Hermann inserted a second σʼ after ἐγώ. Nauck proposes ἐγὼ γάρ σʼ ἔκτανον, ὢ μέλεος, and in 1341 σέ τʼ αὖ τάνδʼ· οὐδʼ ἔχω, ὢ μέλεος.
 1320	ἐγὼ φᾶμʼ ἔτυμον L. Semitelos conject. ἐγώ, φαμί, σύννομʼ.
 1322	ἄγετέ μʼ ὅτι τάχοσ, ἄγετέ μʼ ἐκ ποδῶν (sic, not ἐκποδῶν) L. Unless the ος of τάχος is lengthened before the pause, the dochmiac requires either (a) a long syllable there, or (b) the addition of one short. Hence (a) Erfurdt proposed τάχιστʼ instead of τάχος. Many edd. receive this. Enger, ἄγʼ ἄγεθʼ ὅτι τάχος μʼ, ἀπάγετʼ ἐκποδών. Meineke, ἄγετέ μʼ, ὅτι τάχος μʼ ἀπάγετʼ ἐκποδών. Pallis, ἄγετέ μʼ ὅτι τάχος, τίθεσθέ μʼ ἐκποδών. (b) Schöne, ἀπάγετέ μʼ ὅτι τάχος, ἄγετέ μʼ ἐκποδών.
 1327	βράχιστα γὰρ κράτιστα] In L, S notes a v. l., κράτιστα γὰρ τάχιστα.
@@ -143,6 +154,8 @@
 1326	raised stop after κακοῖς as printed (the check text has a full stop).
 1327	βράχιστα as printed (flag checked: the OCR lost the β). The five lines flagged after 1327 are the apparatus read as text (OCR noise): nothing added.
 1322	the apparatus note 1320 and the note 1322 f. stand on the facing page (leaf 301), together with 1327.
+1319	rev: apparatus: L's ὢ μέλεοσ and Nauck's second ὢ μέλεος (for 1341) have a breathing with a straight grave, not a circumflex (compared at enlargement with the arched circumflex of αὖ on the same line and with Nauck's first ὢ): ὦ corrected to ὢ in both.
+1312	rev: every verse of leaf 300 read word by word against the page (αὑτήν rough against αὐτόχειρ smooth, ᾔσθετʼ with iota subscript, τἀν with coronis, ὤμοι, ὢ, ἢ checked at enlargement), the numbering and the other items 1313, 1314, 1317, 1320, 1322, 1327 confirmed: no other change. In 1313 Jebb prints μόρων twice ("μόρων, μόρω (as A), or μόρων"), as written.
 
 === p-0302
 --- text
@@ -175,3 +188,4 @@
 1336	apparatus: the print has no opening bracket before "the schol. there having …" but closes one after ἐλύετο . . ; (evident misprint): "(" added before "the schol.". The note ends on the facing page (leaf 303).
 1330	the item 1330 (ἔχων Pallis) names the second traditional number of Jebb's verse 1329 (φανήτω … ἔχων, which covers 1329-1330): kept as printed, the checker's remark is explained by this.
 1336	apparatus: ἐλύετο . . ; written without the space before the semicolon (format rule).
+1328	rev: every verse, the numbering and the apparatus (with its end on leaf 303) checked against the page: no change. The missing "(" before "the schol." confirmed at enlargement (a wider space, no bracket printed); Seyffert's ἅπαντα rough, ἁμέραν (1331) rough.

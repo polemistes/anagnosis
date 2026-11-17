@@ -37,7 +37,7 @@
 546	The page prints κοινά, with acute and comma (check text κοινὰ without comma).
 546	The apparatus note runs on to the head of p-0174's apparatus ("δʼ L.—ʼθιγες] θίγεσ L. Cp. 457, 539."): taken from there.
 542	rev: χοἰ → χοἱ: the mark on ι is a rough breathing, the same shape as ἁ in ἁγνίσαι (545) and unlike the smooth ʼ on this page (Jebb marks the aspirate of καὶ οἱ).
-535	Apparatus lemma breathings (ἣ in 531, ἢ in 535) are blurred at enlargement; written as the text words they quote.
+535	rev: apparatus breathings checked at enlargement against ἐξομῆι (smooth) on the same line: 531 ἣ and ἡ rough, 535 ἢ smooth, as written. Every verse and apparatus item of this page re-read against the print: no further change.
 
 === p-0174
 --- text
@@ -79,6 +79,7 @@
 551	The page prints *γελῶ (asterisk left out) and commas after δῆτʼ and γʼ (check text has none).
 559	Flag: δʼ is printed on this line (ἡ δʼ ἐμὴ); nothing changed.
 546	Apparatus: the head of this page's apparatus (δʼ L.—ʼθιγες] θίγεσ L. Cp. 457, 539.) ends the note on 546, written with p-0172.
+557	rev: every verse and apparatus item (557 to 560 on leaf 175 too) re-read against the print: no change.
 
 === p-0176
 --- text
@@ -116,6 +117,7 @@
 569	rev: χἀτέρων → χἁτέρων: the page prints a rough breathing on α (the same c-shape as ἡρμοσμένα 570, unlike the smooth of ἀρώσιμοι on this line); his apparatus quotes the MSS. χἀτέρων with a smooth one.
 563	rev: apparatus 563 ἀλλὰ γάρ → ἀλλὰ γὰρ (grave, as printed).
 569	The 563-569 notes and the start of 571 continue from p-0176 onto the facing page (leaf 177), read from the whole page.
+569	rev: re-checked at enlargement: χἁτέρων (verse) rough like ἡρμοσμένα, the apparatus χἀτέρων (twice) smooth like ἀρώσιμοι; every verse and item re-read, no further change.
 
 === p-0178
 --- text
@@ -151,6 +153,7 @@
 571	The head of this page's apparatus ("υἱέσι r.") ends the note on 571, written with p-0176.
 577	The notes from 577 on stand on the facing page (leaf 179) and were read from the whole page; the note on 579 ends at the head of p-0180's apparatus ("τᾶσδε, viz. … both vv."), taken from there.
 578	The correction "ȣ" is printed as the ου ligature: written ȣ (U+0223) as printed.
+580	rev: χοἱ re-checked at enlargement (rough); every verse and apparatus item re-read against the print: no further change.
 
 === p-0180
 --- text
@@ -180,6 +183,7 @@
 587	Checker: apparatus 587 (ποντίαις) names a number inside the printed verse 586 (ὅμοιον … ὅταν, Jebb's 586-588); it stays 587 as printed.
 595	The page prints an asterisk before φθιτῶν (Jebb's conjecture mark, Dindorf's conjecture): left out.
 579	The head of this page's apparatus ("τᾶσδε, viz. to make the word the same in both vv.") ends the note on 579, written with p-0178.
+593	rev: every verse, the numbering (margins 585, 590, 593, 595; apparatus 587, 589, 591, 593) and every apparatus item re-read against the print: no change.
 
 === p-0182
 --- text
@@ -199,6 +203,7 @@
 --- notes
 596	Every verse read against the page. Margin numbers: 600 (ῥίζας), 605 (τεάν); the strophe numerals and στρ. β΄. left out.
 597	Flag: the page prints ὑπὲρ (Jebb's apparatus: ὑπὲρ (ὕπερ L)); check text ὕπερ. The number 597 for θεῶν τις … is the draft's: Jebb's notes name ἐρείπει (end of 596's line) 597 and νῦν (in this line) 599; nothing on the page shows whether θεῶν begins 597 or 598.
+597	rev: 597 confirmed: in Jebb's count 597 holds ἐρείπει (his apparatus) and 599 begins at νῦν, so θεῶν stands in 597 (whether 597 is ἀλλʼ ἐρείπει θεῶν τις or θεῶν τις, οὐδʼ ἔχει λύσιν); the printed line covers 597-599.
 600	The page prints ⟨ὃ⟩ in angle brackets (Jebb's supplement, Hermann's (1)); check text ὃ without brackets.
 602	The page prints a comma after κόνις (check text none).
 599	Checker: apparatus 599 (νῦν γὰρ ἐσχάτας) names a number inside the printed verse 597 (θεῶν τις … ὑπὲρ); it stays 599 as printed.

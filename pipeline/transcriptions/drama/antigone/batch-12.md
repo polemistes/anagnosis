@@ -36,6 +36,7 @@
 756	comma after δούλευμα added, as printed.
 758	comma after οὐ added, as printed.
 755	apparatus: L's reading printed ἦισθʼ (iota written on the line), kept as printed.
+750	rev: all ten verses and the apparatus (750-759, with the run-on on leaf 209) read again on the page; breathings of ἥδʼ, ἧδʼ, κἀπα-, ἡδʼ/ἡ δʼ compared at enlargement; no change.
 
 === p-0210
 --- text
@@ -81,6 +82,7 @@
 766	ἁνήρ with rough breathing confirmed on the page (the OCR's ἀνήρ is wrong).
 768	comma after δράτω, as printed (check text has a raised stop).
 773	ᾖ confirmed (the OCR's ἡ is wrong).
+760	rev: all fifteen verses and the apparatus (760-774, with the run-on on leaf 211) read again on the page; ἁνήρ (text) and ἀνὴρ L / ἁνὴρ r (apparatus) confirmed at enlargement; no change.
 
 === p-0212
 --- text
@@ -105,6 +107,7 @@
 781	Jebb prints Ἔρως ἀνίκατε … πίπτεις as one line covering the traditional 781-782: his apparatus 782 (ὃς … κτήμασι) and his commentary "782 ἐν κτήμασι πίπτεις" name the second half; πίπτεις stands on this line (flag confirmed).
 783	renumbered from 782: the line ὃς ἐν μαλακαῖς … ἐννυχεύεις covers 783-784 (Jebb's commentary "783 f. ἐν μαλακαῖς παρειαῖς"); 782 is part of the line above.
 783	νεάνιδος with a small ν as printed (check text Νεάνιδος). The OCR's extra "printed line" after it is the first line of the apparatus.
+775	rev: all eight verses and the apparatus (775-782) read again on the page; numbering 781 (covers 782) and 783 (covers 784) confirmed; no change.
 
 === p-0214
 --- text
@@ -132,6 +135,7 @@
 793	renumbered from 792 (the line covers 793-794: commentary "794 ξύναιμον").
 797	renumbered from 796 (the line covers 797-798: apparatus "798 πάρεδρος ἐν ἀρχαῖς"); τῶν with a small τ as printed (check text Τῶν).
 795	margin 795 confirmed; the line covers 795-796 (apparatus "796 εὐλέκτρου").
+785	rev: all seven verses and the apparatus (785-798) read again on the page; the raised stop after λώβᾳ (791) is print; apparatus numbers 786, 790, 796, 798 are covered numbers of the long lyric lines; no change.
 
 === p-0216
 --- text
@@ -161,6 +165,7 @@
 806	the line covers 806-807 (τὰν νεάταν ὁδὸν is 807).
 808	renumbered from 807: the line covers 808-809 (apparatus "809 λεύσουσαν L" names λεύσσουσαν on it).
 810	raised stop after αὖθις as printed (check text a full stop); the line covers 810-811 (apparatus "810 παγκοίτας", "811 Ἅιδας"); margin 805 confirmed above.
+799	rev: all nine verses and the apparatus (799-811) read again on the page; apparatus 800, 809, 811 are covered numbers (799, 808, 810 lines); no change.
 
 === p-0218
 --- text
@@ -191,3 +196,4 @@
 821	comma after αὐτόνομος as printed.
 822	Jebb prints Ἀΐδην (check text Ἅιδην; his note: "Dindorf writes Ἀΐδην: others, Ἅιδην").
 823	Jebb prints λυγροτάταν (check text λυγρότατον); the line covers 823-824; margin 825 confirmed on the next line.
+812	rev: all eleven verses and the apparatus (814-822) read again on the page; apparatus 814 is covered by the line 813; no change.
