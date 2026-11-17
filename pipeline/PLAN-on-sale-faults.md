@@ -80,9 +80,11 @@ be corrected.
   (τειρεσίης → Τειρεσίης), 5.125 Ἰασίωνι (ἰασίων → Ἰασίων, the glossary's heading too), 8.517
   Δηϊφόβοιο (Δηίφοβος → Δηΐφοβος, the glossary's spelling), 2.241 κατερύκετε (κατερυκάνω →
   κατερύκω, a present).
-* Short definitions for the 53 lemmas that had none: 52 names, each with the opening words of
-  its own entry in `glossary.md` (written from the poem when the glossary was made; nothing
-  new), and Τρῳάς from Middle Liddell ("fem. of Τρώιος, Trojan"). `check`: every lemma covered.
+* **Withdrawn the same day; it was no fix.** Short definitions had been written for the 53
+  lemmas that had none: 52 names, each with the opening words of its own entry in `glossary.md`
+  (an agent's words), and Τρῳάς reworded from Middle Liddell (ML: "fem. of Τρώιος I. Trojan";
+  the line: "Trojan (fem. of Τρώιος)"). These were definitions written by us, against the
+  author's rule, and went with all the others (third round, below).
 
 **The Gorgias** (version `88d98c600fbbaf09`)
 * Ten names no dictionary has now have glossary entries, each from the passage itself, two with
@@ -90,16 +92,64 @@ be corrected.
   Κλεοπάτρα (471c), Νικήρατος (472a), Σκελλίας (472b; the second form of the name from Lodge),
   Κλεινίας (481d), Κλεινίειος (482a), Ξέρξης (483d), Ἀφιδναῖος (487c; the tribe from Lodge),
   Ἀνδροτίων (487c), Ἀλωπεκῆθεν (495d).
-* 470d1 πρώην: lemma πρῴην → πρώην (its gloss in shortdefs.tsv follows). The enclitic νυν
-  (lemma νύν) and οἷον "for instance" are deliberate lemmas with their own glosses; the
-  dictionaries are found for them by the loose key.
+* 470d1 πρώην: lemma πρῴην → πρώην. The enclitic νυν (lemma νύν) and οἷον "for instance" are
+  deliberate lemmas; the dictionaries are found for them by the loose key. (The glosses these
+  had in shortdefs.tsv were ours and are removed: third round, below; οἷον now shows Logeion's
+  "Oeum", the place Οἶον, found by the same loose key.)
 
 **The Symposium** (version `2a56801e3fa7bb7c`)
 * Two names: Ἦλις (182b) and Διοκλῆς (222b; Bury on the passage), glossary entries from the text.
 
+## Third round, 2026-11-17: no definition written by us
+
+The author's rule: "I don't want you to invent any dictionary definitions. If the short form
+dictionary does not have it, we just don't offer it"; then: every hand-kept short definition
+goes, also one an agent picked out of another dictionary; nothing of ours may pass as part of a
+text or a reference work. Stated in `texts/README.md`, "Short definitions". Log:
+`pipeline/build/logs/shortdefs-audit.md`; what each build lost, lemma by lemma:
+`pipeline/build/agent-scratch/shortdefs/diff-<slug>.tsv`.
+
+* **Audit.** Every line of every hand-kept `shortdefs.tsv` was worded by an agent; no file
+  named a dictionary as its source. All are removed and the files with them (the texts not on
+  sale and the held-back texts too). Each build was compared table by table with the database
+  before: only rows of `short_definitions` differ.
+* **Antigone 38, Ajax 39, Electra 27**: files removed, not rebuilt here (the plays are being
+  re-established; their next build drops the rows: 38, 39, 27 lemmas, none has a gloss in
+  Logeion's list).
+* **The Symposium** (version `99265bdb0c674359`): 17 removed; 17 lemmas (65 words) have none now.
+* **The Gorgias** (version `6e9eb00e53e86f7c`): 32 removed; 20 lemmas have none, 12 show
+  Logeion's again (names by their bare name: "Xerxes"; οἷον "Oeum").
+* **The Odyssey** (version `e85e2888a3f3bfee`): 167 removed, the 53 of the second round among
+  them; 149 lemmas (1,121 words) have none, 16 show Logeion's again.
+* **The New Testament** (version `e83462eef6e30b4e`): the 11 short definitions and the 20
+  entries in `dictionary-dodson.md` that were not Dodson's but ours (`nt.HAND_GLOSSES`, deleted)
+  are removed: a lemma Dodson lacks has no Dodson entry. Four such lemmas (18 words) are now in
+  no dictionary: περισσοτέρως, ἀκριβέστερον, Ἀρνί, ἱππικόν. The 802 lines that `import-nt`
+  takes unchanged from the brief glosses of Dodson's lexicon are still in `shortdefs.tsv`: the
+  author has said they go too (Dodson is read under his own button); not yet removed.
+* **The Theogony** (version `9b95cf65fd322698`): 69 removed; 61 have none, 8 show Logeion's.
+* **Lysias** (version `6b3bc7fe24463128`): 211 removed; 93 have none, 118 show Logeion's.
+* **The Shepherd** (version `eebecc7c365a659e`): 73 removed; 71 have none, 2 show Logeion's.
+* **Glosses of Logeion's that are wrong for the text and show again** (nothing was written in
+  their place; open: the data could suppress the gloss for the lemma in that text, or the rule
+  that gives a capitalised lemma the gloss of the common word spelled alike could be dropped):
+  the Gorgias οἷον "Oeum"; the Odyssey Δαναός "king of Argos, father of fifty daughters" (the
+  Danaans), Γόρτυς "Gortys founder of Gortyn" (the city), Ἴασος "Iasus (m. hero; f. town in
+  Caria …)" (Ἴασον Ἄργος), Ἀλκιμίδης "Alcimedes", Μερμερίδης "son of Mermesus", Μέδων "Medon"
+  (right for the herald's 10 words, wrong for the 11 of μέδων, ruler: μέδοντες), ἀμφιμαίομαι "seek about" (wipe), ἐπισταμένως "to
+  know" (also the Theogony), ὑποδάμναμαι "to master"; Lysias, fourteen names with the gloss of
+  a common word: Αἴσιμος "fatal, destined; fitting", Αὐτοκράτης, Δημοφάνης, Εὐμάρης, Εὔνομος,
+  Ζάκορος "a temple-servant", Θαλλός, Θεόκριτος "judging between gods", Θεότιμος, Πολύαινος,
+  Πυριλάμπης, Φίλιος, Φείδων "an oil-can with a narrow neck …", Ὀρθόβουλος; the Shepherd πορεύω
+  "to make to go, carry, convey" (45 words, all middle: "go").
+* `check` no longer prints "add them to shortdefs.tsv" nor lists the lemmas: it counts them.
+
 ## What `check` still says of the texts on sale and the free texts (2026-11-17)
 
-* Antigone, Ajax, the New Testament, Lysias: nothing.
+* Lemmas without a short definition (counted, no fault): Antigone 38, Ajax 39, Electra 27, the
+  New Testament 11, the Symposium 17, the Gorgias 20, the Odyssey 150, the Theogony 61, Lysias
+  93, the Shepherd 72.
+* Antigone, Ajax, Lysias: nothing else. The New Testament: the four lemmas above in no dictionary.
 * Electra: Ἀτρεύς (1 word) is in no dictionary and has no glossary entry (for the agent that has
   the play); Αὐλίς found by the loose key.
 * The Theogony: four warnings "line 407 does not follow 408" (426/427, 430/434, 630/631): Rzach

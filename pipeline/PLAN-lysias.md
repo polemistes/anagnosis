@@ -219,7 +219,8 @@ built in this stage.
    (`lysias-prose.workflow.js`); `merge-lysias` then writes `commentary-adams.md`,
    `commentary-morgan.md`, `commentary-shuckburgh.md`, `introduction.md` and `appendix.md`
    (`hude_notes.py`) and the log `pipeline/build/lysias-notes.log`.
-10. **sigla.md, glossary.md, shortdefs.tsv, aliases.tsv, about.md** (no `google_play`; a
+10. **sigla.md, glossary.md, aliases.tsv, about.md** (no shortdefs.tsv any more: no short
+    definition is written by us, texts/README.md, "Short definitions"; no `google_play`; a
     `product_id` only once the author has confirmed it), the texts/README.md section.
 11. **Build and emulator check** (`build --only lysias`, `check`, `catalog`, the pack; the
     emulator check of PLAN-drama.md step 10: a book chooser of 34 speeches, a heading inside a

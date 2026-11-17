@@ -55,7 +55,8 @@ What has to be set up once for the Sophocles plays (then each play is a `drama.P
    texts/electra/appendix.md; APPENDIX.md and INTRODUCTION.md keep their format rules). For
    the Oedipus Tyrannus and the Philoctetes the whole introduction, for the Philoctetes the
    whole commentary (kind `notes`), come this way too.
-7. `sigla.md`, `glossary.md`, `shortdefs.tsv`, review list, `about.md` with its `product_id`
+7. `sigla.md`, `glossary.md`, review list (no `shortdefs.tsv`: no short definition is written
+   by us, texts/README.md, "Short definitions"), `about.md` with its `product_id`
    (no sale mark), `build --only <play>`, `check`, `catalog`, the asset pack, play/README.md
    row, texts/README.md, emulator check: as PLAN-drama.md steps 8–10.
 

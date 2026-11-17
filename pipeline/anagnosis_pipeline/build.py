@@ -590,7 +590,11 @@ def build_work(db: sqlite3.Connection, work_dir: Path, homographs: "Homographs |
 
 
 def read_shortdef_overrides(path: Path) -> dict[str, str]:
-    """texts/<work>/shortdefs.tsv: 'lemma<TAB>definition' lines; '#' comments."""
+    """texts/<work>/shortdefs.tsv: 'lemma<TAB>definition' lines; '#' comments.
+
+    No such file is written by hand or by an agent (texts/README.md, "Short definitions": no
+    definition is written by us). The one left is the New Testament's, made by import-nt from
+    the brief glosses of Dodson's lexicon, unchanged; it is to go as well."""
     out: dict[str, str] = {}
     if not path.exists():
         return out
@@ -761,7 +765,7 @@ def build_short_definitions(db: sqlite3.Connection, sources: Path, lemmas: dict[
         else:
             rows.append((key, "logeion", definition))
     db.executemany("INSERT INTO short_definitions (lemma_key, source, definition) VALUES (?,?,?)", rows)
-    print(f"short definitions: {len(rows)} of {len(lemmas)} lemmas ({len(missing)} missing; 'check' lists them)")
+    print(f"short definitions: {len(rows)} of {len(lemmas)} lemmas ({len(missing)} have none: the short dictionary lacks them)")
 
 
 def build_document(db: sqlite3.Connection, work_id: int, path: Path) -> None:

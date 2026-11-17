@@ -137,11 +137,13 @@ Nilén's apparatus, but an altered one, which will make you the editor".
    lemma in bold, the note's text; vocabulary lists and images left out), header `# license:
    CC BY-SA (Dickinson College Commentaries)` with the editors' names and the URL. Read twenty
    notes against the site by eye. Commit.
-9. **Translation, sigla, glossary, short definitions, about.md, README.** The merge writes
+9. **Translation, sigla, glossary, about.md, README.** The merge writes
    `eng-harmon.txt`; read its log. sigla.md from Nilén's page (step 2). glossary.md for the
    names (Endymion, Phaethon, Rhadamanthus, the Islands of the Blest, the Moonites and
    Sunites: expect many coinages; the analyser will miss Lucian's invented words, which go to
-   shortdefs.tsv or the glossary with a gloss from Harmon's translation). about.md as
+   the glossary with a gloss from Harmon's translation). No shortdefs.tsv any more: no short
+   definition is written by us (texts/README.md, "Short definitions"; the 106 written at this
+   step were removed on 2026-11-17). about.md as
    texts/gorgias/about.md, with `ref_edition`, `ref_translation`, `ref_commentary` (Jerram and
    DCC), `syntax` "machine-made (GLAUx), not checked by hand", `google_play: yes`,
    `product_id`. A "Lucian" section in texts/README.md, the row in play/README.md. Commit.

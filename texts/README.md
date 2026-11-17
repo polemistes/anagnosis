@@ -181,13 +181,26 @@ Hand-written dictionary entries for words the lexica lack, typically proper name
 
 The heading is the lemma exactly as it appears in `tokens.tsv`; the body is Markdown.
 
-## `shortdefs.tsv` (optional)
+## Short definitions
 
-One-line glosses shown first in the word popup. The bundle takes them from Logeion's short
-definitions (Helma Dik, University of Chicago; based on the Perseus short definitions,
-https://github.com/helmadik/shortdefs); this file adds glosses for lemmas Logeion lacks or
-overrides Logeion's. Format: `lemma<TAB>definition`, `#` starts a comment. `check` lists the
-lemmas still without a gloss.
+The one-line gloss shown first on the word sheet is the short-form dictionary's own: Logeion's
+short definitions (Helma Dik, University of Chicago; based on the Perseus short definitions,
+https://github.com/helmadik/shortdefs), found by the lemma (a name under its capitalised form
+first; an aliased lemma under its headword).
+
+**No definition is written by us** (the author's rule, 2026-11-17: "If the short form dictionary
+does not have it, we just don't offer it"). Where Logeion's list lacks a word, the word sheet
+shows no short definition and the reader looks in a dictionary. No agent writes a gloss, mends
+one of Logeion's, or picks one out of another dictionary: a gloss of Logeion's that is wrong for
+a text is reported to the author, not replaced. A lemma without a short definition is neither an
+error nor a warning of `check`, which only counts them.
+
+Until 2026-11-17 every text had a file `shortdefs.tsv` (`lemma<TAB>definition`) with glosses
+written by agents; all are removed. One such file is left, `texts/newtestament/shortdefs.tsv`,
+which `import-nt` writes: the brief gloss of Dodson's own entry, unchanged, for 802 lemmas. The
+author has said that these leave the short-definition line too (Dodson's lexicon is read under
+its own button); until the file is removed the build reads it. No other `shortdefs.tsv` is to be
+made.
 
 **Homographs.** Where Logeion lists words spelled alike (μήν "now verily", μήν2 "month"; its
 placeholders "[lexical cite]" left out), the word sheet shows all of them, numbered, and marks
@@ -277,7 +290,7 @@ files here.
   (`INTRODUCTION.md`, `introduction-NN.md`) and added after Perseus's chapters by
   `import-sophocles`; the Appendix (`APPENDIX.md`, `appendix-NN.md`) is merged into
   `appendix.md` by `merge-sophocles-appendix`.
-* `glossary.md` (names the dictionaries lack) and `shortdefs.tsv` are written by hand; `sigla.md`
+* `glossary.md` (names the dictionaries lack) is written by hand; `sigla.md`
   gives Jebb's note on his symbols.
 * Done so far: all six plays (Ajax, Electra, the Trachiniae, the Oedipus Tyrannus, the Oedipus
   at Colonus and the Philoctetes). The last four were made by the drama pipeline's route (`pipeline/PLAN-sophocles.md`: Tesseract
@@ -330,8 +343,8 @@ domain; the transcription is published under CC BY-SA 4.0.
   of our longer lyric verses stands at the verse that holds its lemma. His lists of editions and
   translations and his appendices are left out. The Eumenides has no commentary: Sidgwick's notes are in a second
   volume (1887) of which the Internet Archive holds no scan; its introduction is volume I's.
-* `sigla.md` (his manuscripts, signs and the editors he cites), `glossary.md` and `shortdefs.tsv`
-  are written by hand.
+* `sigla.md` (his manuscripts, signs and the editors he cites) and `glossary.md` are written by
+  hand.
 
 ## Aristophanes' Clouds (`texts/clouds/`)
 
@@ -355,8 +368,7 @@ edition is in the public domain; the transcription is published under CC BY-SA 4
 * Lemmas, morphology and syntax (`tokens.tsv`, `syntax-nodes.tsv`): GLAUx (automatic, CC BY-SA
   4.0) aligned to Starkie's words; where he reads otherwise, the analyser, listed in
   `pipeline/build/clouds-review.tsv` and corrected by hand in `drama_fixes.py`.
-* `sigla.md`, `glossary.md` (names and comic words), `shortdefs.tsv` and `aliases.tsv` are
-  written by hand.
+* `sigla.md`, `glossary.md` (names and comic words) and `aliases.tsv` are written by hand.
 
 ## Hesiod's Theogony (`texts/theogony/`)
 
@@ -384,8 +396,8 @@ The editions are in the public domain; the transcription is published under CC B
   Treebank 2.1 (annotated by hand, CC BY-SA 3.0 US) aligned to Rzach's words; where he reads
   otherwise, the analyser, listed in `pipeline/build/theogony-review.tsv` and corrected by hand
   in `drama_fixes.py`.
-* `sigla.md`, `glossary.md` (the names of the catalogues), `shortdefs.tsv` and `aliases.tsv` are
-  written by hand.
+* `sigla.md`, `glossary.md` (the names of the catalogues) and `aliases.tsv` are written by
+  hand.
 
 ## Lucian's A True Story (`texts/truestory/`)
 
@@ -421,8 +433,8 @@ the public domain; the transcription is published under CC BY-SA 4.0.
 * Lemmas, morphology and syntax (`tokens.tsv`, `syntax-nodes.tsv`): GLAUx 0062-012 (automatic,
   CC BY-SA 4.0) aligned to Nilén's words; where he reads otherwise, the analyser, listed in
   `pipeline/build/truestory-review.tsv` and corrected by hand in `drama_fixes.py`.
-* `sigla.md` (from Nilén's praefatio), `glossary.md` (the names and Lucian's invented words),
-  `shortdefs.tsv` and `aliases.tsv` are written by hand.
+* `sigla.md` (from Nilén's praefatio), `glossary.md` (the names and Lucian's invented words) and
+  `aliases.tsv` are written by hand.
 
 ## The Shepherd of Hermas (`texts/hermas/`)
 
@@ -465,8 +477,8 @@ editions are in the public domain; the transcription is published under CC BY-SA
   CC BY-SA 4.0) aligned to Lake's words; garbled lemmas corrected in `drama_fixes.py`
   (`LEMMA_FIXES["hermas"]`). The numerals keep their keraia (μʹ). Koine spellings lead to
   Abbott-Smith through `aliases.tsv`.
-* `sigla.md` (from Lake's introduction and his apparatus), `glossary.md` (the names) and
-  `shortdefs.tsv` (the words no dictionary has) are written by hand.
+* `sigla.md` (from Lake's introduction and his apparatus) and `glossary.md` (the names) are
+  written by hand.
 
 ## Lysias' speeches (`texts/lysias/`)
 
@@ -528,8 +540,8 @@ the transcription is published under CC BY-SA 4.0. The Eroticus (XXXV) is left o
   trees, the analyser, listed in `pipeline/build/lysias-review.tsv`; garbled lemmas and names
   read as common words are corrected in `drama_fixes.py` (`LEMMA_FIXES["lysias"]`,
   `HAND_ANALYSES["lysias"]`).
-* `sigla.md` (from Hude's SIGLA page), `glossary.md` (188 names), `shortdefs.tsv` and
-  `aliases.tsv` are written by hand.
+* `sigla.md` (from Hude's SIGLA page), `glossary.md` (188 names) and `aliases.tsv` are written
+  by hand.
 
 ## The Odyssey (`texts/odyssey/`)
 
@@ -592,8 +604,9 @@ Every file here is made by `import-nt` from the sources `fetch-nt` downloads; ed
 * Dictionaries: `aliases.tsv` sends New Testament lemmas to the LSJ headword they stand under
   (ἀποκρίνομαι to ἀποκρίνω, γινώσκω to γιγνώσκω); `dictionary-dodson.md` is J. J. Dodson's
   *A Lexicon of the Greek New Testament* (CC0) under the lemmas it is linked to by Strong's
-  number, a dictionary that only the New Testament carries; `shortdefs.tsv` has his short
-  glosses where Logeion has none or the word is not in LSJ. Abbott-Smith's *Manual Greek
+  number, a dictionary that only the New Testament carries (Dodson's entries only: a lemma he
+  lacks has none); `shortdefs.tsv` has his brief glosses, unchanged, where Logeion has none or
+  the word is not in LSJ (to be removed: see "Short definitions"). Abbott-Smith's *Manual Greek
   Lexicon of the New Testament* is one of the reader's shared dictionaries (data/lexicon.sqlite).
   The header line `# dictionaries:` of `grc.txt` gives the order of the word sheet's buttons.
 * Translation (`eng-bsb.txt`): the Berean Standard Bible (public domain since 2023), a paragraph
