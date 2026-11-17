@@ -425,7 +425,7 @@
 ## Ἀστερίς
 **Ἀστερίς, -ίδος, ἡ** Asteris, a small rocky island between Ithaca and Samos, with a harbour open at both ends, where the suitors lie in wait for Telemachus (4.844–847).
 
-## ἰασίων
+## Ἰασίων
 **Ἰασίων, -ωνος, ὁ** Iasion, beloved of Demeter, killed by Zeus with a thunderbolt (5.125–128).
 
 ## Σόλυμοι

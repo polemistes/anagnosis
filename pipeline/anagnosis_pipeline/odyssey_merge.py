@@ -99,6 +99,7 @@ def _draft_witnesses(md: Path) -> list[str]:
 # Forms of Allen's text that neither the treebank nor the analyser knows: (lemma, tag).
 # Analyses chosen by hand, by form or by "line form" where the form is ambiguous
 HAND_ANALYSES: dict[str, tuple[str, str]] = {
+    "2.241 κατερύκετε": ("κατερύκω", "v2ppia---"),  # the analyser gave it to κατερυκάνω, an imperfect
     "ἀγάσσεαι": ("ἄγαμαι", "v2sfim---"),
     "ἥ": ("ὁ", "p-s---fn-"),  # 2.434 ἥ γε
     "κῆται": ("κεῖμαι", "v3spse---"),  # Epic subjunctive (19.147, 24.137)
@@ -182,6 +183,34 @@ def choose_analysis(form: str, analyses: list, near: str = "", lemma: str = "",
 
     best = max(pool, key=score)  # max keeps the first of equals: the analyser lists treebank analyses first
     return best[1], best[2][:9]
+
+
+# Lemmas of the treebank that are slips of its keying (an accent lost, a name in lower case, a
+# diaeresis misplaced): no dictionary and no glossary entry is found under them.
+LEMMA_SLIPS = {"πατηρ": "πατήρ", "ὄψε": "ὀψέ", "τειρεσίης": "Τειρεσίης", "ἰασίων": "Ἰασίων", "Δηίφοβος": "Δηΐφοβος"}
+
+
+# In fourteen sentences the treebank gives an omitted-word node ("[0]") a head that hangs on that
+# very node (a slip of the annotation: the node's head names one of its own dependents), so the
+# tree is no tree and the reader shows the two as separate roots. The treebank's file is not
+# edited: here each such node gets the head it belongs to. (sentence, node) -> (the treebank's
+# head, the right head, the reason). The verse is the first of the sentence.
+TREE_FIXES: dict[tuple[str, str], tuple[str, str, str]] = {
+    ("2185777", "32"): ("30", "22", "2.9-11: the omitted conjunction of 'ἅμα τῷ γε δύω κύνες ἀργοὶ ἕποντο' hung on its own verb ἕποντο; the clause explains οὐκ οἶος"),
+    ("2185806", "15"): ("3", "2", "2.58: the omitted ἐστί of 'οὐ γὰρ ἔπʼ ἀνήρ' hung on its own ἔπʼ; a PRED_CO belongs to the coordinator γάρ"),
+    ("2186082", "9"): ("7", "3", "3.102: the apposition node of 'Γερήνιος ἱππότα Νέστωρ' hung on its member Νέστωρ; it is the subject of ἠμείβετο"),
+    ("2186136", "9"): ("7", "3", "3.210: the same verse"),
+    ("2186169", "14"): ("12", "8", "3.265: the apposition node of 'ἡ … δῖα Κλυταιμνήστρη' hung on its member; it is the subject of ἀναίνετο"),
+    ("2186628", "22"): ("13", "11", "4.632: the omitted ἴδμεν of 'ἦε καὶ οὐκί' hung on its own οὐκί; a PRED_CO belongs to the coordinator ἦε"),
+    ("2186900", "24"): ("20", "18", "5.265-6: the omitted ἔθηκε of 'ἐν δὲ καὶ ᾖα κωρύκῳ' hung on its object ᾖα; a PRED_CO belongs to the coordinator δέ"),
+    ("2186944", "13"): ("9", "7", "5.347: the omitted ἐστί of 'οὐδʼ ἀπολέσθαι' hung on ἀπολέσθαι, which hangs (through the omitted δέος) on it; a PRED_CO belongs to the coordinator οὐδέ"),
+    ("2187882", "13"): ("6", "4", "9.313-4: the omitted verb of the comparison 'ὡς εἴ τε φαρέτρῃ πῶμʼ ἐπιθείη' hung on its own ὡς; the comparison belongs to ἐπέθηκε"),
+    ("2190236", "10"): ("4", "6", "17.283: the omitted εἰμί of 'οὐ γάρ τι πληγέων ἀδαήμων' hung on πληγέων, which hangs (through ἀδαήμων) on it; a PRED_CO belongs to the coordinator οὐδέ"),
+    ("2190293", "10"): ("2", "0", "17.386: the omitted εἰσί of 'οὗτοι γὰρ κλητοί γε' hung on its own γάρ; it is the predicate of the sentence"),
+    ("2191180", "14"): ("4", "0", "20.220-1: the omitted ἐστί of 'τὸ δὲ ῥίγιον … ἄλγεα πάσχειν' hung on the comma that hangs (through δέ) on it; it is the predicate of the sentence"),
+    ("2191697", "16"): ("14", "2", "22.302-3: the omitted verb of the main clause 'οἱ δʼ, ὥς τʼ αἰγυπιοὶ … θόρωσι' hung on the verb of its own comparison; a PRED_CO belongs to the coordinator δέ"),
+    ("2192196", "44"): ("15", "27", "24.376-9: the omitted verb of 'οἷος Νήρικον εἷλον' hung on εἷλον, which hangs (through the omitted conjunction) on it; the οἷος clause belongs to its τοῖος ἐών"),
+}
 
 
 def merge(transcriptions: Path, pages_dir: Path, texts: Path, sources: Path, lexicon: Path, build: Path) -> int:
@@ -305,13 +334,23 @@ def merge(transcriptions: Path, pages_dir: Path, texts: Path, sources: Path, lex
             continue
         r["lemma"], r["postag"] = fix_lemma(chosen[0]), chosen[1]
         review.append({"line": r["line"], "form": r["form"], "lemma": r["lemma"], "postag": r["postag"], "reason": reason})
+    for r in rows:
+        r["lemma"] = LEMMA_SLIPS.get(r["lemma"], r["lemma"])
     write_tokens(out / "tokens.tsv", rows)
     used = set()
     for r in rows:
         for wid in r["word_id"].split("+"):
             if wid:
                 used.add((r["sentence"], wid))
-    write_syntax_nodes(out / "syntax-nodes.tsv", syntax_nodes(tb, used))
+    nodes = syntax_nodes(tb, used)
+    # the treebank's omitted-word nodes whose head is a word that hangs on them (TREE_FIXES)
+    for n in nodes:
+        fix = TREE_FIXES.get((n["sentence"], str(n["word_id"])))
+        if fix:
+            if str(n["head"]) != fix[0]:
+                problems.append(f"trees: {n['sentence']} node {n['word_id']} has head {n['head']}, not {fix[0]}: the treebank has changed, look at TREE_FIXES")
+            n["head"] = fix[1]
+    write_syntax_nodes(out / "syntax-nodes.tsv", nodes)
     without = sum(1 for r in rows if not r["lemma"])
     print(f"wrote {out / 'tokens.tsv'}: {len(rows)} words, {without} without lemma; {len(review)} for review")
 

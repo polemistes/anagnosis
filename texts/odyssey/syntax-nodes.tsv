@@ -651,7 +651,7 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2185777	23	,	,	u--------	AuxX	32	
 2185777	27	δύω	δύο	m--------	ATR	28	
 2185777	31	.	.	u--------	AuxK	0	
-2185777	32	[0]			AuxC	30	1
+2185777	32	[0]			AuxC	22	1
 2185778	9	.	.	u--------	AuxK	0	
 2185779	8	·	·	u--------	AuxK	0	
 2185780	6	,	,	u--------	AuxX	8	
@@ -729,7 +729,7 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2185806	5	,	,	u--------	AuxX	8	
 2185806	9	,	,	u--------	AuxX	6	
 2185806	14	.	.	u--------	AuxK	0	
-2185806	15	[0]			PRED_CO	3	1
+2185806	15	[0]			PRED_CO	2	1
 2185807	8	·	·	u--------	AuxK	0	
 2185807	9	[0]			PRED_CO	2	1
 2185808	11	.	.	u--------	AuxK	0	
@@ -1450,7 +1450,7 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2186081	33	,	,	u--------	AuxX	34	
 2186081	38	.	.	u--------	AuxK	0	
 2186082	8	·	·	u--------	AuxK	0	
-2186082	9	[0]			APOS	7	1
+2186082	9	[0]			APOS	3	1
 2186083	1	""""	""""	u--------	AuxG	5	
 2186083	4	,	,	u--------	AuxX	3	
 2186083	9	,	,	u--------	AuxX	14	
@@ -1612,7 +1612,7 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2186135	6	.	.	u--------	AuxK	0	
 2186135	7	""""	""""	u--------	AuxG	3	
 2186136	8	·	·	u--------	AuxK	0	
-2186136	9	[0]			APOS	7	1
+2186136	9	[0]			APOS	3	1
 2186137	1	""""	""""	u--------	AuxG	13	
 2186137	4	,	,	u--------	AuxX	3	
 2186137	12	,	,	u--------	AuxX	5	
@@ -1692,7 +1692,7 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2186167	9	·	·	u--------	AuxK	0	
 2186168	12	.	.	u--------	AuxK	0	
 2186169	13	·	·	u--------	AuxK	0	
-2186169	14	[0]			APOS	12	1
+2186169	14	[0]			APOS	8	1
 2186170	5	·	·	u--------	AuxK	0	
 2186171	8	,	,	u--------	AuxX	11	
 2186171	17	.	.	u--------	AuxK	0	
@@ -2965,7 +2965,7 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2186628	10	,	,	u--------	AuxX	11	
 2186628	14	,	,	u--------	AuxX	17	
 2186628	21	;	;	u--------	AuxK	0	
-2186628	22	[0]			PRED_CO	13	1
+2186628	22	[0]			PRED_CO	11	1
 2186629	5	·	·	u--------	AuxK	0	
 2186630	10	,	,	u--------	AuxX	18	
 2186630	16	,	,	u--------	AuxX	18	
@@ -3674,7 +3674,7 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2186900	16	,	,	u--------	AuxX	18	
 2186900	22	·	·	u--------	AuxK	0	
 2186900	23	[0]			PRED_CO	18	1
-2186900	24	[1]			PRED_CO	20	1
+2186900	24	[1]			PRED_CO	18	1
 2186901	8	·	·	u--------	AuxK	0	
 2186902	8	.	.	u--------	AuxK	0	
 2186903	8	.	.	u--------	AuxK	0	
@@ -3786,7 +3786,7 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2186944	10	.	.	u--------	AuxK	0	
 2186944	11	[0]			PRED_CO	8	1
 2186944	12	[2]			SBJ	13	1
-2186944	13	[1]			PRED_CO	9	1
+2186944	13	[1]			PRED_CO	7	1
 2186945	6	,	,	u--------	AuxX	2	
 2186945	16	,	,	u--------	AuxX	18	
 2186945	21	.	.	u--------	AuxK	0	
@@ -6315,7 +6315,7 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2187881	12	·	·	u--------	AuxK	0	
 2187882	5	,	,	u--------	AuxX	13	
 2187882	12	.	.	u--------	AuxK	0	
-2187882	13	[1]			ADV	6	1
+2187882	13	[1]			ADV	4	1
 2187883	10	·	·	u--------	AuxK	0	
 2187884	6	,	,	u--------	APOS	5	
 2187884	10	,	,	u--------	AuxX	12	
@@ -12549,7 +12549,7 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2190235	4	,	,	u--------	AuxX	6	
 2190235	9	.	.	u--------	AuxK	0	
 2190236	9	·	·	u--------	AuxK	0	
-2190236	10	[0]			PRED_CO	4	1
+2190236	10	[0]			PRED_CO	6	1
 2190236	11	[1]			PRED_CO	7	1
 2190236	12	[2]			PNOM	11	1
 2190237	4	,	,	u--------	AuxX	5	
@@ -12717,7 +12717,7 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2190292	37	[0]			ADV	12	1
 2190292	38	[1]			OBJ_AP	37	1
 2190293	9	·	·	u--------	AuxK	0	
-2190293	10	[0]			PRED	2	1
+2190293	10	[0]			PRED	0	1
 2190294	10	.	.	u--------	AuxK	0	
 2190295	10	,	,	u--------	AuxX	12	
 2190295	15	·	·	u--------	AuxK	0	
@@ -15029,7 +15029,7 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2191179	17	[0]			PRED	0	1
 2191180	4	,	,	u--------	APOS	2	
 2191180	13	.	.	u--------	AuxK	0	
-2191180	14	[0]			PRED_CO	4	1
+2191180	14	[0]			PRED_CO	0	1
 2191181	10	,	,	u--------	AuxX	11	
 2191181	15	·	·	u--------	AuxK	0	
 2191182	6	,	,	u--------	AuxX	7	
@@ -16398,7 +16398,7 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2191696	17	.	.	u--------	AuxK	0	
 2191697	8	,	,	u--------	AuxX	14	
 2191697	15	·	·	u--------	AuxK	0	
-2191697	16	[0]			PRED_CO	14	1
+2191697	16	[0]			PRED_CO	2	1
 2191698	9	,	,	u--------	AuxX	23	
 2191698	16	,	,	u--------	AuxX	23	
 2191698	25	·	·	u--------	AuxK	0	
@@ -17772,7 +17772,7 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2192196	33	,	,	u--------	COORD	39	
 2192196	37	,	,	u--------	AuxX	33	
 2192196	43	·	·	u--------	AuxK	0	
-2192196	44	[0]			ADV	15	1
+2192196	44	[0]			ADV	27	1
 2192196	45	[1]			AuxC	44	1
 2192196	46	[2]			ATR	20	1
 2192197	9	,	,	u--------	AuxX	11	
