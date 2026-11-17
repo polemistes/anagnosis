@@ -1203,7 +1203,7 @@
 1320	I admit the truth. Lead me away, my servants, lead me from here with all haste, who am no more than a dead man!
 
 @ Chorus
-1324	The course you recommend is to your gain, if there can be gain amidst evil. What is briefest is best, when trouble lies at your feet.
+1326	The course you recommend is to your gain, if there can be gain amidst evil. What is briefest is best, when trouble lies at your feet.
 
 === antistrophe 3
 @ Creon

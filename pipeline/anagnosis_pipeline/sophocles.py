@@ -1134,6 +1134,25 @@ def write_translation(slug: str, sources: Path, texts: Path) -> list[str]:
 # refile_translation (read beside the Greek): Perseus's number -> our verse, None = a "…" standing
 # for a verse lost in the MSS. (Jebb prints a line of metrical signs, our text no verse)
 TRANSLATION_NUMBERS: dict[str, dict[str, str | None]] = {
+    # the Chorus's κέρδη παραινεῖς … 1326 (Perseus 1325; the rule had given it Creon's 1324)
+    "antigone": {"1325": "1326"},
+    # Tecmessa's ὤμοι· κεῖθεν κεῖθεν … 233 (Perseus 231, a verse of the Chorus in Jebb's numbering)
+    "ajax": {"231": "233"},
+    "electra": {
+        # read beside the Greek, each segment to the verse its speaker's words begin (2026-11-17):
+        # ἀπολεῖς 831 (Electra), πῶς; 831a (Chorus)
+        "830a": "831", "831": "831a",
+        # the recognition: ψεῦδος οὐδὲν 1220a, ἦ ζῇ γὰρ ἁνήρ; 1221, εἴπερ ἔμψυχος 1221a, ἦ γὰρ σὺ
+        # κεῖνος; 1222, τήνδε προσβλέψασα 1222a (Perseus counts each half a verse late)
+        "1221": "1220a", "1221a": "1221", "1222": "1221a", "1222a": "1222", "1223": "1222a",
+        # the second speaker's part of a shared verse (the rule would take the plain number)
+        "1323a": "1323a", "1477a": "1477a", "1483a": "1483a", "1502a": "1502a", "1502b": "1502b",
+        # the murder and the kommos: Jebb's lines here cover two of Perseus's numbers
+        "1408": "1409", "1409": "1410", "1410": "1410a", "1411a": "1411a", "1417": "1416a",
+        "1418": "1417", "1420": "1419", "1427": "1426a", "1429": "1428", "1431": "1431a",
+        "1436": "1435a", "1437": "1436", "1438": "1436a", "1439": "1437", "1440": "1439",
+        "1442": "1442",
+    },
     "oedipuscoloneus": {
         # parodos: the lost verses after 181 and 182; 193 (οὕτως;) is Jebb's 194; Perseus counts
         # 197-199 one ahead; τί τόδʼ … τέκνον, ὤμοι, τί γεγώνω; are Jebb's 212-212c (Perseus 211-214)
@@ -1441,6 +1460,8 @@ COMMENTARY_FIXES: dict[str, list[tuple[str, str]]] = {
         ("ὦ φλ* ́ʼε Θεόδωρε", "ὦ φίλε Θεόδωρε"), ("τῆς π*|ολεως", "τῆς πόλεως"),
     ],
     "electra": [
+        # Pind. P. 3. 24 (note on 1427): Jebb prints the digamma, ἀϝάταν (leaf 286, read 2026-11-17)
+        ('μεγάλαν ἀvάταν', 'μεγάλαν ἀϝάταν'),
         # Perseus's o=io/llusai (the lemma of 141) for dio/llusai
         ('**ο ͂ιόλλυσαι**', '**διόλλυσαι**'),
         # Perseus's "<*>" (imported as "[?]"), read on Jebb's page (1894, scan sophoclesplaysfr06soph;
@@ -1496,8 +1517,8 @@ COMMENTARY_FIXES: dict[str, list[tuple[str, str]]] = {
         ('ἔκλυες, [?], |', 'ἔκλυες, ὦ, |'),
         ('γαίης | [?]χετʼ', 'γαίης | ᾤχετʼ'),
         ('etc.), [?]ντιθυρὼν', 'etc.), ἀντιθυρὼν'),
-        # the rest, read on the page (leaves 131-295); 601 (Whitelaw's version, ‘O[?]: a damaged letter at
-        # the column's edge) stays unread
+        # the rest, read on the page (leaves 131-295); the note on 603 (Whitelaw's version, ‘O[?]) stays
+        # unread: the letter after O is cut off at the page's edge in this scan (leaf 184)
         ('*Hipp.* 337 ο[?]ον, μῆτερ', '*Hipp.* 337 οἷον, μῆτερ'),
         ('δαίμων was there, wor[?]ng out', 'δαίμων was there, working out'),
         ('*M.* 1. 3. 9 ε[?]ναι τῶν', '*M.* 1. 3. 9 εἶναι τῶν'),

@@ -16,15 +16,15 @@
 @ Orestes
 23	True friend and follower, how well you prove your loyalty to our house!
 25	Just as a thoroughbred mount, even if advanced in years, does not lose courage in danger, but pricks up his ears, so you speed us forward and follow in the first ranks. I will tell you, then, what I have determined.
-30	Listen closely to my words and correct me, if I miss the mark in any way.When I went to the Pythian oracle to learn how I might avenge my father on his murderers,
+30	Listen closely to my words and correct me, if I miss the mark in any way. When I went to the Pythian oracle to learn how I might avenge my father on his murderers,
 35	Phoebus gave me the commandment which you will now hear: that alone, and by stealth, without the aid of arms or large numbers, I should carry off my right hand’s just slaughters. Accordingly, since I received this divine declaration, you must go into that house there
 40	when opportunity gives you entrance, and learn all that is happening, so that you may report to us out of sure knowledge. Your age and the lapse of time will prevent them from recognizing you; they will never suspect who you are with that silvered hair. Let your story be that you are a Phocian stranger
 45	sent by Phanoteus, since he is the greatest of their allies. Tell them, and affirm it with your oath, that Orestes has perished by a fatal chance, hurled at the Pythian games
 50	from his speeding chariot. Let that be the substance of your message. Meanwhile, we will first crown my father’s tomb as the god ordered with libations and the luxuriant tribute of a severed lock; then we will return here, bearing in our hands an urn of hammered bronze
 55	—now hidden, as you no doubt know, in the brushwood—so that we may gladden them with the false tidings that this body of mine exists no more, but has been consumed with fire and reduced to ashes. How does it hurt me, when by feigned death
 60	I find true life and win renown? No word is ill-omened, I trust, if it yields gain. For often before now I have seen clever men die in false report; then, when they return home, they are held in greater honor.
-65	And so for myself I trust that as a result of this rumor I, too, shall live, shining down like a star upon my enemies.But you, O my fatherland and native gods of my soil, receive me with good fortune in this journey, and you also, house of my ancestors,
-70	since I come by divine mandate to cleanse you as justice demands. Do not dismiss me from this land in dishonor, but grant that I may rule over my possessions and restore my house!I have said enough. Go now, old one, and take care to watch over your task.
+65	And so for myself I trust that as a result of this rumor I, too, shall live, shining down like a star upon my enemies. But you, O my fatherland and native gods of my soil, receive me with good fortune in this journey, and you also, house of my ancestors,
+70	since I come by divine mandate to cleanse you as justice demands. Do not dismiss me from this land in dishonor, but grant that I may rule over my possessions and restore my house! I have said enough. Go now, old one, and take care to watch over your task.
 75	The two of us will depart; for so opportunity bids, chief ruler of every enterprise for men.
 !	Within.
 
@@ -39,7 +39,8 @@
 
 @ Paedagogus
 82	No, no; before all else, let us strive to obey the commands of Loxias and from them make a fair beginning by pouring libations to your father. For such actions bring
-85	victory within our grasp and give us mastery in all our doings. Exeunt Paedagogus on the spectators left, Orestes and Pylades on the right.
+85	victory within our grasp and give us mastery in all our doings.
+!	Exeunt Paedagogus on the spectators left, Orestes and Pylades on the right.
 !	Enter Electra, from the house.
 
 @ Electra
@@ -63,7 +64,7 @@
 125	ensnared in your false mother’s wiles and betrayed by her corrupt hand? May the one who did that perish, if I may speak such a curse without breaking the gods’ laws.
 
 @ Electra
-129	Ah, noble-hearted girls,
+128	Ah, noble-hearted girls,
 130	you have come to relieve me in my troubles. I know and feel it: it does not escape me. Still I cannot leave this task undone, nor abandon this mourning for my poor father. Ah, friends whose love responds to mine in every mood,
 135	allow me to rave as I am, oh, please, I beg you!
 
@@ -78,7 +79,7 @@
 
 === strophe 2
 @ Chorus
-154	Not to you alone of mortals, my daughter, has sorrow come,
+153	Not to you alone of mortals, my daughter, has sorrow come,
 155	though you face it with less restraint than those girls inside, Chrysothemis and Iphianassa, whose parents and blood you share. They still live, as he, too, lives, sorrowing in his secluded youth,
 160	yet happy in that this famous realm of the Mycenaeans shall one day receive him as a noble lord, if with the blessing of Zeus’s escort he, Orestes, returns to this land.
 
@@ -89,7 +90,7 @@
 
 === antistrophe 2
 @ Chorus
-174	Courage, my daughter, courage; Zeus in the sky
+173	Courage, my daughter, courage; Zeus in the sky
 175	is still mighty, and he sees and rules all. Leave your oversharp anger to him; be neither excessively hostile to those you hate, nor forgetful of them, since Time is a god who brings ease.
 180	Neither the son of Agamemnon, who dwells by Crisa’s cattle-feeding shore nor the god who reigns beside Acheron is unmindful of you.
 
@@ -126,9 +127,9 @@
 
 @ Electra
 236	But what limit has nature begot for my affliction? Tell me, how can it be right to neglect the dead? Has such a seed been sown in any mortal? May I never have such men’s esteem;
-240	never, when I am close to prosperity, may I dwell in ease, hindering the wings of shrill lamentation so as to deprive my begetter of his honors!For if the dead is to lie a wretch, merely dust and nothingness,
+240	never, when I am close to prosperity, may I dwell in ease, hindering the wings of shrill lamentation so as to deprive my begetter of his honors! For if the dead is to lie a wretch, merely dust and nothingness,
 245	while his slayers do not pay back to him blood for blood in penalty,
-250	then shame and reverence will vanish from all humanity.
+249	then shame and reverence will vanish from all humanity.
 
 == episode
 @ Chorus
@@ -138,7 +139,7 @@
 254	I am ashamed, my friends, if you judge me
 255	too intolerant with my many laments; but, since rough compulsion forces me to act this way, forgive me. How indeed could any woman of noble nature not act, when she sees her father’s sufferings as I see them day and night continually,
 260	and flourishing rather than fading? First, everything to do with the mother who bore me has become most hateful towards me; next, in my own home I live with my father’s murderers; they rule over me and from them
-265	equally I either have or do without.And then think what manner of days I pass, when I see Aegisthus sitting on my father’s throne; when I look on him wearing the very robes which my father wore and
+265	equally I either have or do without. And then think what manner of days I pass, when I see Aegisthus sitting on my father’s throne; when I look on him wearing the very robes which my father wore and
 270	pouring libations at the hearth where he killed him; and when I see the chief outrage of them all, the murderer in my father’s bed at my wretched mother’s side, if I must call her mother, even though she shares her bed with that man.
 275	So hardened is she that she joins with this polluter, fearing no Erinys. No, as if laughing at her deeds, having found the day on which in the past she treacherously killed my father,
 280	she celebrates it with dance and song, and in monthly rites she sacrifices sheep to the gods who worked her deliverance.
@@ -195,7 +196,7 @@
 @ Electra
 341	It is strange, indeed, that you, the daughter of our father from whom you grew, should forget him and instead show concern for your mother! All your admonitions to me have been taught by her; you speak no word of your own.
 345	So now take your choice: be imprudent, or be prudent, but forgetful of your friends. You have just said that if could you find the strength, you would show your hatred of them; yet, when I am doing my utmost to avenge our father,
-350	you do not work with me, but seek to deflect your sister from her deed.Does this not add cowardice to our miseries? Therefore instruct me, or rather learn from me what gain there might be for me if I ended my lamentation. Am I not now alive? Miserably so, I know, but well enough for me.
+350	you do not work with me, but seek to deflect your sister from her deed. Does this not add cowardice to our miseries? Therefore instruct me, or rather learn from me what gain there might be for me if I ended my lamentation. Am I not now alive? Miserably so, I know, but well enough for me.
 355	And I hurt them, and thereby affix an honorable tribute to the dead, in case those in that world can enjoy it and feel gratitude. But you, who tell me of your hatred, hate in word alone, while by your behavior you unite with the murderers of our father. I, however, would never yield to them, not even if
 360	one of them were to bring to me the gifts in which you now glory. Let yours be the richly-spread table and superabundant lifestyle. As for me, let my sustenance be only that I do not wound my own conscience—I do not covet such privilege as yours and
 365	neither would you, if you had self-control. But now, when you could be called the child of the noblest father among men, be called instead your mother’s daughter, for in this way your corruptness will be evident to the greatest number as you betray your dead father and your true friends.
@@ -318,9 +319,9 @@
 431	Dear sister, let none of these offerings in your hands touch the tomb. For neither divine law nor piety allows you to dedicate funeral gifts or bring libations to our father from his hateful wife.
 435	No! To the winds with them! Or cover them in a deep, dusty hole, where not one of them will ever come near our father’s resting place. Rather let these treasures be preserved for her below when she dies. Were she not by nature the most audacious
 440	of all women, she would never at all have tried to pour these ill-willed offerings to the man she killed. Consider whether you believe that the dead in his tomb will welcome this tribute with affection towards her, by whose hand he died dishonored and was mutilated
-445	like an enemy? She, who, as if to wash herself clean, wiped off the bloodstains on his head? Surely you do not believe that your bringing these things will absolve her of the murder?It is not possible. No, be rid of them. Give him instead a lock of your hair’s ends, cut from your own head,
+445	like an enemy? She, who, as if to wash herself clean, wiped off the bloodstains on his head? Surely you do not believe that your bringing these things will absolve her of the murder? It is not possible. No, be rid of them. Give him instead a lock of your hair’s ends, cut from your own head,
 450	and from wretched me, too, give these gifts, poor as they are, though all I have. Take this hair, not glossy with unguents, and this girdle, decked with no rich ornament. Then fall down and pray that he himself may come in kindness to us from the world below, a helper against our enemies;
-455	and that young Orestes may live to set his foot upon our enemies in superior might, so that hereafter we may crown our father’s tomb with wealthier hands than those with which we honor him now.I think, yes, I think that he too had some part
+455	and that young Orestes may live to set his foot upon our enemies in superior might, so that hereafter we may crown our father’s tomb with wealthier hands than those with which we honor him now. I think, yes, I think that he too had some part
 460	in sending her these appalling dreams. Still, sister, do yourself this service and help me, and him, too, that most beloved of all men, who rests in Hades’ domain, our shared father.
 
 @ Chorus
@@ -329,30 +330,30 @@
 
 @ Chrysothemis
 466	I will. In regard to a just deed, it is unreasonable for two people to argue, but reasonable to jump to action. But, by the gods, my friends, when I attempt this task, let me have your silence,
-470	since if my mother hears of it, I believe that this attempt which I will dare shall in the end cause me bitterness. Exit Chrysothemis on the spectators’ right.
+470	since if my mother hears of it, I believe that this attempt which I will dare shall in the end cause me bitterness.
+!	Exit Chrysothemis on the spectators’ right.
 
 == choral
 
 === strophe 1
 @ Chorus
 472	If I am not a deranged prophet and one who lacks wise judgments,
-475	Justice, the sender of the omen, will come, winning the just victory of her hands’ might. She will come in pursuit before long, my child. Courage is mine,
-480	since I heard just now of this sweet-blowing dream. Never does the lord of the Hellenes, your producer forget,
-485	nor does the axe of long ago forget, striking with bronze on its jaws, which in most shameless disgrace annihilated him.
+473	Justice, the sender of the omen, will come, winning the just victory of her hands’ might. She will come in pursuit before long, my child. Courage is mine,
+479	since I heard just now of this sweet-blowing dream. Never does the lord of the Hellenes, your producer forget,
+484	nor does the axe of long ago forget, striking with bronze on its jaws, which in most shameless disgrace annihilated him.
 
 === antistrophe 1
 @ Chorus
 488	She, too, will come, she of many hands and many feet who lurks in her terrible ambush,
-490	the bronze-shod Erinys. For an unwed, unbetrothed passion for a marriage polluted by murder seized the pair, though divine law forbade it to them.
+489	the bronze-shod Erinys. For an unwed, unbetrothed passion for a marriage polluted by murder seized the pair, though divine law forbade it to them.
 495	Therefore I am confident that the portent—a wonder which I will never blame—will draw near to the criminals and conspirators. To be sure, mortal prophecy
 500	from fearful dreams or divine signs exists no more, if this vision of the night does not find due fulfillment.
 
 === epode
 @ Chorus
-504	O chariot-race of Pelops long ago, source of many a sorrow,
-505	what disaster you have brought upon this land! For ever since Myrtilus sank to rest beneath the waves,
+504	O chariot-race of Pelops long ago, source of many a sorrow, what disaster you have brought upon this land! For ever since Myrtilus sank to rest beneath the waves,
 510	hurled to utter destruction from his golden chariot in disgraceful outrage, from that time to this, outrage and its many sorrows
-515	were never yet gone from this house.
+514	were never yet gone from this house.
 
 == episode
 !	Enter Clytaemnestra, with attendants, from the house.
@@ -361,7 +362,7 @@
 516	You run loose again, it seems, since Aegisthus is not here, who used always to keep you at least from coming out to the gates and shaming your family. But now, since he is absent, you pay
 520	me no mind. And yet you have said of me often and to many listeners that I am a rash and unjust tyrant, who violently abuse you and yours. But it is not I who do violence; I only return the insults that I so often hear from you.
 525	Your father—this and nothing else is your constant pretext—was slain by me. Yes, by me. I know it well. I make no denial. Justice took hold of him, not I alone—Justice, whom you ought to have supported, if you had been in your right mind.
-530	For this father of yours whom you constantly bewail alone of all the Greeks had the heart to sacrifice your own blood, your sister, to the gods—he, who, when sowing his seed, felt none of the pains I did when I gave birth.Come, tell me now, why, or to please whom,
+530	For this father of yours whom you constantly bewail alone of all the Greeks had the heart to sacrifice your own blood, your sister, to the gods—he, who, when sowing his seed, felt none of the pains I did when I gave birth. Come, tell me now, why, or to please whom,
 535	did he sacrifice her? To please the Argives, you will say? No, they had no right to kill my daughter. Or, if indeed it was for the sake of his brother Menelaus that he killed my child, was he not to pay me the penalty for that? Did Menelaus not have two children,
 540	who should in fairness have died instead of my daughter, since the father and mother from whom they were sprung had caused that voyage? Did Hades have some greater desire to feast on my offspring than on hers? Or had all love of the children of my womb been
 545	abandoned by their accursed father, while love for the children of Menelaus filled him? Were these not the marks of a thoughtless and malicious parent? I think so, even if I differ from your judgment. So, too, would the dead girl speak, if she could find a voice. For myself, then, I view the past without
@@ -376,11 +377,11 @@
 
 @ Electra
 558	Then I will speak. You admit that you killed my father. What statement could be more shameful still than that,
-560	whether you did it justly or not? But I will demonstrate to you that you did not justly kill him. No, the persuasion of that wicked man with whom you now sleep dragged you to it.Ask the huntress Artemis what wrong she punished when she stayed the frequent winds at Aulis;
+560	whether you did it justly or not? But I will demonstrate to you that you did not justly kill him. No, the persuasion of that wicked man with whom you now sleep dragged you to it. Ask the huntress Artemis what wrong she punished when she stayed the frequent winds at Aulis;
 565	or I will tell you, since we may not learn from her. My father, as I have heard, was once hunting in the grove of the goddess, when his footfall flushed a dappled and antlered stag; he shot it, and chanced to make a certain boast concerning its slaughter.
 570	Angered by this, Leto’s daughter detained the Greeks so that in requital for the beast’s life my father should sacrifice his own daughter. So it was that she was sacrificed, since the fleet had no other release, neither homeward nor to Troy.
-575	For that reason, under fierce constraint and with much resistance, at last he sacrificed her—but it was not for the sake of Menelaus.But suppose—for I will make your own plea—suppose that the motive of his deed was to benefit his brother. Should you have killed him because of that? Under what sort of law?
-580	See that by laying down such a law for men, you do not lay down trouble and remorse for yourself. For, if we are to take blood for blood, you surely would be the first to die, if you were to meet with justice.But consider whether this pretext is any excuse at all.
+575	For that reason, under fierce constraint and with much resistance, at last he sacrificed her—but it was not for the sake of Menelaus. But suppose—for I will make your own plea—suppose that the motive of his deed was to benefit his brother. Should you have killed him because of that? Under what sort of law?
+580	See that by laying down such a law for men, you do not lay down trouble and remorse for yourself. For, if we are to take blood for blood, you surely would be the first to die, if you were to meet with justice. But consider whether this pretext is any excuse at all.
 585	For tell me, if you please, what crime it is that you requite by doing the most shameless deeds of all: sharing your bed with that blood-guilty one, with whom you first destroyed my father and now bear his children
 590	while you have cast out the earlier born, the pious offspring of a pious marriage? How can I commend these deeds? Or will you claim that this, too, is recompense for your daughter? No, it is a shameful plea, if you so plead, for there is nothing noble in marrying an enemy for a daughter’s sake.
 595	But no, I can hardly even admonish you, when your every cry is that I slander my mother. I think, rather, that you are no less a mistress to me than a mother; so lowly is the life that I live,
@@ -473,7 +474,7 @@
 680	I was sent for that purpose, and will tell you all. Having gone to the shrine which is Greece’s common glory in order to compete for Delphi’s prizes and having heard the herald’s loud summons to the foot-race, the first contest,
 685	he entered the lists, a brilliant form, a wonder in the eyes of all there. When he had finished the race at the point where it began, he went out with the glorious honor of victory. To say the most with the least words, I do not know the man whose deeds and triumphs have matched his.
 690	But this one thing you must know: in all the contests that the judges announced, he carried away the prize, and men deemed him happy as often as the herald proclaimed him an Argive, by name Orestes, son of
-695	Agamemnon, who once marshalled Greece’s famous expedition.So far Orestes fared as I described. But when a god sends harm, not even the strong man can escape. For on another day, when with the rising sun there was held the race of the swift-footed horses,
+695	Agamemnon, who once marshalled Greece’s famous expedition. So far Orestes fared as I described. But when a god sends harm, not even the strong man can escape. For on another day, when with the rising sun there was held the race of the swift-footed horses,
 700	he entered it along with many charioteers. One was an Achaean, one from Sparta; two masters of yoked cars were Libyans; Orestes, driving Thessalian mares, came fifth among them; the sixth was from Aetolia,
 705	with chestnut colts; a Magnesian was the seventh; the eighth, with white horses, was of Aenian stock; the ninth hailed from Athens, built of gods; there was a Boeotian too, making the tenth chariot. They took their stations where the appointed umpires
 710	placed them by lot and ranged the cars. Then at the sound of the bronze trumpet, they started. All shouted to their horses, and shook the reins in their hands; the whole course was filled with the clatter of rattling chariots; and the dust flew upward.
@@ -486,10 +487,10 @@
 731	Seeing this, the clever charioteer from Athens drew aside and paused, allowing the equestrian flood to pass in mid-crest. Orestes was driving last, keeping his horses
 735	behind, as his trust was in the race’s end. But when he sees that the Athenian is alone left in, he sends a shrill cry ringing through the ears of his swift colts, and gives chase. Bringing yoke level with yoke the two of them raced, first one man, then the other,
 740	showing his head in front of the other’s chariot. Up to now the ill-fated Orestes had driven upright safely through every circuit, upright in his upright car. But then he slackened his left rein while the horse was turning and unwittingly struck the edge of the pillar,
-745	breaking the axle-box in two. He spilled forward over the chariot-rail and was caught in the trim reins, and as he fell to the ground, his colts were scattered into the middle of the course.But when the crowd saw that he had fallen
+745	breaking the axle-box in two. He spilled forward over the chariot-rail and was caught in the trim reins, and as he fell to the ground, his colts were scattered into the middle of the course. But when the crowd saw that he had fallen
 750	from the chariot, a cry of pity went up for the young man who had done such deeds and was allotted such bad fortune—now dashed against the earth, now tossed with his feet to the sky until the charioteers with difficulty reigned in the gallop of his horses and
 755	freed him, so covered with blood that no friend who saw it would have known the pitiful corpse. Immediately they burned him on a pyre, and chosen men of Phocis now bring the sad dust of that mighty form in a small urn of bronze,
-760	so that he may find due burial in his fatherland.Such is my story—it is grievous even to hear, but for us witnesses who looked on, it was the greatest of sorrows that these eyes have seen.
+760	so that he may find due burial in his fatherland. Such is my story—it is grievous even to hear, but for us witnesses who looked on, it was the greatest of sorrows that these eyes have seen.
 
 @ Chorus
 764	Oh, sorrow! It seems now that all the stock of our ancient masters
@@ -542,7 +543,8 @@
 799	Then I would take my leave, if all is well.
 
 @ Clytaemnestra
-800	Not so; your welcome would then be unworthy of me, and of my ally who sent you. No, come in. Leave her out here to shout out loud her misfortunes and those of her friends. Clytaemnestra and the Paedagogus enter the house.
+800	Not so; your welcome would then be unworthy of me, and of my ally who sent you. No, come in. Leave her out here to shout out loud her misfortunes and those of her friends.
+!	Clytaemnestra and the Paedagogus enter the house.
 
 @ Electra
 804	What do you think? Does it seem to you that she, poor woman, wept and wailed terribly,
@@ -571,10 +573,10 @@
 830	Give no cry of bad omen!
 
 @ Electra
-830a	You will break my heart!
+831	You will break my heart!
 
 @ Chorus
-831	How do you mean?
+831a	How do you mean?
 
 @ Electra
 832	If you suggest that I keep hope for those who have surely passed to Hades,
@@ -619,7 +621,7 @@
 855	Cease, then, to divert me from it, since no longer—
 
 @ Chorus
-856a	What do you say?
+856	What do you say?
 
 @ Electra
 857	—Since I no longer have hope in my brother, the seed of our shared noble line, to aid me.
@@ -682,7 +684,7 @@
 @ Chrysothemis
 892	Well, I will tell you all that I have seen. When I came to Father’s ancestral tomb, I saw that streams of milk had recently flowed from the top of the mound
 895	and that his sepulchre was encircled with garlands of all flowers that grow. I was astonished at the sight, and peered about lest somehow someone should approach close to me. But when I perceived that all the place was in stillness,
-900	I crept nearer to the tomb, and on the mound’s edge I saw a lock of hair, freshly severed.And the very moment I see it—ah me!—a familiar image rushes into my mind, and I feel that I am looking at a token of him whom I most love, Orestes.
+900	I crept nearer to the tomb, and on the mound’s edge I saw a lock of hair, freshly severed. And the very moment I see it—ah me!—a familiar image rushes into my mind, and I feel that I am looking at a token of him whom I most love, Orestes.
 905	Then I lift it in my hands and make no sound of bad omen, but the tears of joy straightaway fill my eyes. Even now I know well, just as I knew then, that this fair tribute has come from no one but him. Whom else does that tomb concern, save me and you?
 910	And I did not make those offerings, I know, nor did you. How could you, when you cannot leave this house even to worship the gods without later regretting it? Nor, again, does our mother’s heart incline to do such deeds, nor could she have done so without our knowledge.
 915	No, these offerings are from Orestes! Come, dear sister, have courage! Not always does the same fortune, it is true, attend the same individuals. Ours was once to be despised, but today, perhaps, will seal the promise of much good.
@@ -752,12 +754,12 @@
 @ Electra
 947	Hear, then, in what way I have decided to take action. As for the support of friends, you yourself doubtless know that we have none. Hades has taken our friends away,
 950	and we two are left alone. I, so long as I heard that my brother still lived and prospered, had hopes that he would yet come to avenge the murder of our father. But now that he is no more, I look next to you
-955	and ask that you not flinch from aiding me, your sister, to slay our father’s murderer, Aegisthus. There—I can have no secrets from you anymore.How long will you wait in indifference? What hope is left standing, to which your eyes can turn? Now you are right to complain
+955	and ask that you not flinch from aiding me, your sister, to slay our father’s murderer, Aegisthus. There—I can have no secrets from you anymore. How long will you wait in indifference? What hope is left standing, to which your eyes can turn? Now you are right to complain
 960	that you are robbed of possession of your father’s estate; now you may mourn that you have advanced this far in years without wedded love or bridal song. And do not cling to hopes that you will ever meet with such joys. The man, Aegisthus, is not so unthinking
 965	as ever to permit that offspring should shoot up from you or from me either to be a certain bane for himself. But if you will follow my plans, first you will win praise for piety from our dead father below, and from our brother, too;
-970	next, you shall be called hereafter free, just as you were born, and shall find a worthy marriage. For noble natures draw the gaze of all.Then do you not see what fair fame you will procure for yourself and for me, by obeying me?
+970	next, you shall be called hereafter free, just as you were born, and shall find a worthy marriage. For noble natures draw the gaze of all. Then do you not see what fair fame you will procure for yourself and for me, by obeying me?
 975	What citizen or stranger when he sees us will not greet us with praises such as these: “Behold these two sisters, my friends! They saved their father’s house, and at a time when their foes were firmly established, they took their lives in their hands and administered bloodshed! Worthy of love is this pair, worthy of reverence from all. At festivals, and wherever the citizenry is assembled, let these two be honored by all men for their manly courage.” Thus will every one speak of us,
-985	so that in life and in death our glory shall not fail.Come, dear sister, be persuaded! Toil with our father, share the burden of your brother, put an end to my troubles and an end to yours, keeping in mind that a shameful life brings shame upon the noble-born.
+985	so that in life and in death our glory shall not fail. Come, dear sister, be persuaded! Toil with our father, share the burden of your brother, put an end to my troubles and an end to yours, keeping in mind that a shameful life brings shame upon the noble-born.
 
 @ Chorus
 990	In a crisis such as this, forethought is an ally both to those who speak and those who listen.
@@ -867,7 +869,8 @@
 1052	No, go inside. I will never come after you, even though you may strongly desire it, since it is great folly even to attempt a useless quest.
 
 @ Chrysothemis
-1055	Well, if you seem to think straight in your own eyes, may you go on thinking so. Eventually, when you have fallen into trouble, you will approve my advice. Exit Chrysothemis into the house.
+1055	Well, if you seem to think straight in your own eyes, may you go on thinking so. Eventually, when you have fallen into trouble, you will approve my advice.
+!	Exit Chrysothemis into the house.
 
 == choral
 
@@ -942,13 +945,14 @@
 @ Orestes
 !	To the attendants.
 1123	Take it and give it to her, whoever she may be. For she asks this for herself not as if with hostile intent,
-1125	but like one who is his friend, or a kinswoman by blood. The urn is placed in Electra’s hands.
+1125	but like one who is his friend, or a kinswoman by blood.
+!	The urn is placed in Electra’s hands.
 
 @ Electra
 1126	Memorial of him whom I loved best on earth, sole remnant of Orestes’ vitality! How contrary to the hopes with which I sent you away do I receive you back! Now I raise your nothingness in my hands;
 1130	but then, my child, you were radiant, when I sent you away from home! Would that I had first abandoned life, before, stealing you away with these hands, I sent you to a strange land and rescued you from death, in order that you might have lain dead on that same day
-1135	and had your share in the tomb of our father!But now, an exile from home and fatherland, you have perished miserably, far from your sister. Ah, me, these loving hands have not washed or decked your corpse, nor taken up
-1140	their sad burden from the all-consuming pyre, as was proper. No! At the hands of strangers, poor Orestes, you have been tended, and so have come to us, a small bulk in a small urn.Ah, I grieve at the uselessness of my nursing long ago, the service that I often bestowed
+1135	and had your share in the tomb of our father! But now, an exile from home and fatherland, you have perished miserably, far from your sister. Ah, me, these loving hands have not washed or decked your corpse, nor taken up
+1140	their sad burden from the all-consuming pyre, as was proper. No! At the hands of strangers, poor Orestes, you have been tended, and so have come to us, a small bulk in a small urn. Ah, I grieve at the uselessness of my nursing long ago, the service that I often bestowed
 1145	on you in sweet labor! For you were never your mother’s darling so much as mine, nor was any in the house your nurse but I, and by you I was ever called “sister.” But now all this has vanished in a day
 1150	with your death. Like a whirlwind you have swept everything away with you. Our father is gone; I am dead because of you; you yourself are dead and gone; our enemies laugh at us; and our mother, who is no mother, raves with joy. Unknown to her, you often
 1155	sent me messages about her, saying that you yourself would appear for vengeance. But our evil fortune, yours and mine, has torn all that away, and has sent you back to me in this state, ash and a useless shade in place of your beloved form.
@@ -1090,7 +1094,8 @@
 1216	Yes it is, if these are the remains of Orestes that I hold.
 
 @ Orestes
-1217	They are not his, except inasmuch as fiction alone contrives to make them so. He gently takes the urn from her.
+1217	They are not his, except inasmuch as fiction alone contrives to make them so.
+!	He gently takes the urn from her.
 
 @ Electra
 1218	And where is that sufferer’s tomb?
@@ -1102,19 +1107,19 @@
 1220	What are you saying, boy?
 
 @ Orestes
-1221	Nothing that is untrue.
+1220a	Nothing that is untrue.
 
 @ Electra
-1221a	The man is alive?
+1221	The man is alive?
 
 @ Orestes
-1222	If there is life in me.
+1221a	If there is life in me.
 
 @ Electra
-1222a	What? Are you he?
+1222	What? Are you he?
 
 @ Orestes
-1223	Look at this signet, once our father’s, and know if I speak the truth.
+1222a	Look at this signet, once our father’s, and know if I speak the truth.
 
 @ Electra
 1224	O blissful day!
@@ -1165,7 +1170,7 @@
 
 @ Electra
 1245	oh, no! ah, me! You have reminded me of my sorrow, one which by its nature cannot be veiled,
-1250	cannot be done away with, cannot be forgotten!
+1249	cannot be done away with, cannot be forgotten!
 
 @ Orestes
 1251	I know this, too; but when occasion prompts, we must recall those crimes.
@@ -1192,7 +1197,7 @@
 
 @ Electra
 1265	You have told me of a grace higher still than the first, if a god brought you to our house;
-1270	I acknowledge in it the work of the divine.
+1269	I acknowledge in it the work of the divine.
 
 @ Orestes
 1271	On the one hand I hesitate to curb your gladness, but on the other I fear that you may be overwhelmed by too much joy.
@@ -1230,7 +1235,7 @@
 
 @ Electra
 1301	Brother, be assured that my conduct will be as pleases you, since all my joy derives from you, and is not my own. Nor would I consent
-1305	to win a great good for myself at the cost of the slightest pain to you. For in doing so I would not honorably support the divine power that attends us now.But you know how matters stand here. I do not doubt it. You must have heard that Aegisthus is away from home, but that our mother is inside. And never fear that she
+1305	to win a great good for myself at the cost of the slightest pain to you. For in doing so I would not honorably support the divine power that attends us now. But you know how matters stand here. I do not doubt it. You must have heard that Aegisthus is away from home, but that our mother is inside. And never fear that she
 1310	will ever see my face lit up with smiles. My old hatred of her has been welded to my heart, and since I have seen you, for very joy I will never cease to weep. How indeed could I stop when I have seen you come home on this one day first as dead,
 1315	and then in life? What you have done to me is inconceivable—so much so that, if my father were to return to me alive, I would no longer think it a portent, but would believe that I truly saw him. Therefore now that you have come to me by such a path, command me as your spirit bids you. For had I been alone,
 1320	I would not have failed in one of two things: a noble salvation, or a noble destruction.
@@ -1309,11 +1314,13 @@
 
 @ Orestes
 1372	Pylades, in no way does our task call any longer for many words, but rather demands that we enter the house immediately, after first adoring the shrines of my father’s
-1375	gods, the keepers of these gates. Orestes and Pylades enter the house, followed by the Paedagogus. Electra remains outside.
+1375	gods, the keepers of these gates.
+!	Orestes and Pylades enter the house, followed by the Paedagogus. Electra remains outside.
 
 @ Electra
 1376	King Apollo! Hear them with favor, and hear me besides, who so often have come before your altar with hands rich in such gifts as I could obtain! And now, O Lycean Apollo, with what means I have
-1380	I pray to you, I supplicate you, I implore you, be our ready champion in these designs, and show what rewards the gods bestow on humans in return for their impiety! Exit Electra, into the house.
+1380	I pray to you, I supplicate you, I implore you, be our ready champion in these designs, and show what rewards the gods bestow on humans in return for their impiety!
+!	Exit Electra, into the house.
 
 == choral
 
@@ -1359,14 +1366,14 @@
 
 @ Clytaemnestra
 !	Within.
-1408	Ah, misery! Aegisthus, where, where are you?
+1409	Ah, misery! Aegisthus, where, where are you?
 
 @ Electra
-1409	Look, once more someone cries out!
+1410	Look, once more someone cries out!
 
 @ Clytaemnestra
 !	Within.
-1410	My son, my son, have pity on your mother!
+1410a	My son, my son, have pity on your mother!
 
 @ Electra
 1411a	Why? You had none for him, nor for the father that begot him.
@@ -1386,11 +1393,11 @@
 1416	Ah, wounded again!
 
 @ Electra
-1417	Would that Aegisthus, too, were wounded!
+1416a	Would that Aegisthus, too, were wounded!
 
 @ Chorus
-1418	The curses bring fulfillment: those who are buried live.
-1420	For men long dead are draining their killers’ blood in a stream of requital.
+1417	The curses bring fulfillment: those who are buried live.
+1419	For men long dead are draining their killers’ blood in a stream of requital.
 
 === antistrophe 2
 !	Enter Orestes and Pylades from the house.
@@ -1409,10 +1416,10 @@
 1426	The miserable woman is dead?
 
 @ Orestes
-1427	Have no more fear that your haughty mother will ever again trample on your rights.
+1426a	Have no more fear that your haughty mother will ever again trample on your rights.
 
 @ Chorus
-1429	Quiet! For I see Aegisthus in plain sight.
+1428	Quiet! For I see Aegisthus in plain sight.
 
 @ Electra
 1430	You, young men, get back inside!
@@ -1421,7 +1428,7 @@
 1430a	Where do you see the man?
 
 @ Electra
-1431	He is at our mercy walking from the suburb, full of joy.
+1431a	He is at our mercy walking from the suburb, full of joy.
 
 @ Chorus
 1433	Go with all speed to the vestibule, so that, just as your first task prospered, so this one again may prosper now.
@@ -1430,17 +1437,18 @@
 1435	Have courage. We will accomplish it.
 
 @ Electra
-1436	Hurry, then, to wherever you wish.
+1435a	Hurry, then, to wherever you wish.
 
 @ Orestes
-1437	See, I am gone.
+1436	See, I am gone.
 
 @ Electra
-1438	Things here will be my concern. Exeunt Orestes and Pylades, into the house.
+1436a	Things here will be my concern.
+!	Exeunt Orestes and Pylades, into the house.
 
 @ Chorus
-1439	It would be well to whisper into this man’s ear some few words of seeming gentleness,
-1440	so that he may rush blindly upon his trial before Justice.
+1437	It would be well to whisper into this man’s ear some few words of seeming gentleness,
+1439	so that he may rush blindly upon his trial before Justice.
 
 == episode
 !	Enter Aegisthus.
