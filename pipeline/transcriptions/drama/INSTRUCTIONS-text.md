@@ -259,6 +259,17 @@ Jebb's Sophocles holds, with these differences:
 * The first text page (p-0076) holds Jebb's note on his symbols at the head of the apparatus ("L = cod.
   Laur. 32. 9 …"): `Sigla:` under `--- notes`, as above.
 
+**Jebb's Ajax (Part VII, 1896, scan playsfragmentswi07sophuoft) and Electra (Part VI, 1894, scan
+sophoclesplaysfr06soph).** Everything above for Jebb's Sophocles holds. The check text is the text we
+published; in the samples read against the page its words, accents and stops agree with Jebb's, but
+it was typed by eye: check the flags, go through the page's residual list
+(`build/drama-pages/<play>/residuals/r-NNNN.md`: mostly OCR noise; a real difference is what you must
+find), and look over every verse for brackets, daggers and stops. **Numbering**: the check text's
+numbers follow the treebank and in the lyrics run one behind Jebb's margins in places (Electra
+249-250, 473-485, 504-515, 1249-1250, 1419-1420, 1439-1440, 1160/1162 were seen; the Ajax agreed where
+seen): number by Jebb's margin and his apparatus, as the brief says above. The critical apparatus is
+written fresh from the crops, as for every play.
+
 **Murray's Euripides (Oxford text).** G. Murray, Euripidis Fabulae, Oxford (vol. I 1902:
 Cyclops, Alcestis, Medea, Heraclidae, Hippolytus, Andromache, Hecuba; vols. II-III the other
 plays). These plays are **private until 2028-01-01** (pipeline/PLAN-euripides.md): their batch
