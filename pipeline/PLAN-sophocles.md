@@ -82,6 +82,23 @@ The metrical analyses are not transcribed (as for Ajax and Electra).
 
 ## Progress
 
+* **2026-11-17, THE AJAX MERGED AND REBUILT FROM JEBB'S PAGE** (version 85d03e0c8ebb780f; commits
+  9dcffc4, 8bef6a0, 751a184, 423787e, e27570d). 1,366 verses (18 renumbered against the text on sale,
+  among them ἐγὼ δʼ ὁ τλάμων … 600 → 599: it covers L's two lines 599-600, Jebb's commentary 600 names
+  its second half; 11 verses differ in words, 5 only in punctuation), 801 apparatus notes holding 821
+  items (30 on numbers his lines cover, printed number in front), 856 commentary notes (21 re-filed,
+  f./ff. from the scan's OCR text), 564 translation segments (10 re-filed). Apparatus compared with
+  the one on sale: 127 differences; the new reading right in 106 (5 of them Jebb's evident misprints
+  corrected with a note, which the old one copied), the old in 11 (corrected: 40, 97, 107, 190, 198,
+  345, 393, 482, 635, 961, 1043), 10 unreadable at the scan's resolution and left as the reviewers
+  have them (546 Γ's τοῦτὄν, 645, 757, 930, 936, 967, 1144, 1154, the scholion at 155, the metrical
+  sign at 636). Sections now follow Jebb's structure list: the two kommoi of the first episode
+  (201-262, 348-429) named inside it, third episode 719, epiparodos 866-878, kommos 879-973, fourth
+  episode 974 (the text on sale had no third or fourth episode and no epiparodos, and "Second
+  stasimon (continued)" over 719 ff.). Syntax record: 46 readings, 45 classified; 1012 οὐκ new.
+  Our own words found in texts/ajax/sigla.md (two sentences, and "critical notes") and in the
+  Antigone's and Electra's sigla.md: listed for the author, not changed.
+
 * **2026-11-17, THE ANTIGONE MERGED AND REBUILT FROM JEBB'S PAGE** (version 1e0c2ae1b5dbecc9; commits
   31b4c85, f25ed27, ea5f12d, 0074aa6, 165c3c2, 4b8b794). 1,257 verses (59 renumbered by Jebb's
   margins; against the text on sale 148 verses differ in words, 154 more only in punctuation or
