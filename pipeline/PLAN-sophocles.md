@@ -82,6 +82,13 @@ The metrical analyses are not transcribed (as for Ajax and Electra).
 
 ## Progress
 
+* **2026-11-17, stopped for a reboot: where the on-sale Sophocles work stands** (details: the end of
+  build/logs/sophocles-on-sale-fixes.md). Antigone: first pass running in the main session; then review,
+  merge, numbering, apparatus comparison, sophocles-prose (commentary fixes all in), syntax record,
+  build. Ajax: drafted (17 batches, transcriptions/drama/ajax/) and residuals made; first pass not
+  started. Electra: fetch stopped at leaf 132 (a leaf the jp2 zip lacks: to look into), then OCR, draft.
+  Commentary fix tables: Antigone complete, Ajax 16/20, Electra 51/76. No on-sale text rebuilt yet.
+
 * **2026-11-17, THE ANTIGONE'S TEXT IS RE-ESTABLISHED FROM JEBB'S PAGE (the author: faults in texts on
   sale come first).** Its Greek, from Perseus's soph.ant_gk.xml, differs from Jebb's printed page in
   about one verse in three (words, accents, punctuation; log build/logs/sophocles-on-sale-fixes.md).
