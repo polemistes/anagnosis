@@ -563,6 +563,11 @@ longer description (not shown in the app at present); its `# key: value` headers
   listed in app/settings.gradle.kts and the reader's `assetPacks`) and the shop offers it as the
   in-app product named by `product_id`, once that product is active in Play Console. Texts
   without it are not listed.
+* `free: yes`: a free text: users add it in the reader without paying (Google Play has no in-app
+  product at price zero, so a free text has no product; the reader shows Download and fetches the
+  pack itself). The catalog entry then carries `"free": true` (no such key otherwise). A free
+  text has no `google_play` mark; `check` reports a text that has both. Its `product_id` may stay
+  in about.md, unused.
 * `product_id`: the text's product id in Google Play: author, work and edition, in lower case
   with underscores (`sophocles_electra_jebb`, `homer_odyssey_allen`, `newtestament_sbl`). It can
   never be changed or reused once the product is created.

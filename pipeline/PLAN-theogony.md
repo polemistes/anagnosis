@@ -177,3 +177,7 @@ As PLAN-drama.md "Steps for each play", with the play's slug `theogony`:
   garbled (Ι{ππώ, Ἀφροδ́ιτη, Καλλιπόη …) corrected in LEMMA_FIXES rather than aliased, so that the
   reader finds their glossary entries; 426 οὐδʼ (οὐ+??) and 976 Ἀγαυὴν (Agave, not ἀγαυός) by hand.
   `check`: every lemma found, every lemma glossed.
+* **2026-11-17, a free text** (the author's decision): the Theogony is added in the reader without
+  paying. about.md says `# free: yes`; the catalogue entry carries `"free": true`; no
+  `google_play` mark; the product id stays in about.md, unused. The database is not rebuilt for
+  it (the catalogue only; version unchanged).

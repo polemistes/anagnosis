@@ -396,6 +396,11 @@ def write_catalog(catalog: list[dict], out_dir: Path, today: "datetime.date | No
         version = out_dir / f"{entry['slug']}.sqlite.version"
         if version.exists():
             entry["version"] = version.read_text(encoding="utf-8").strip()
+    # a free text (`# free: yes` in about.md): the reader offers it without a purchase and
+    # fetches its pack itself. The entry carries "free": true; any other text has no such key
+    for entry in catalog:
+        if str(entry.pop("free", "")).strip().lower() in ("yes", "true"):
+            entry["free"] = True
     public = [e for e in catalog if not held_back(e["slug"], e.get("release"), today)]
     back = [e for e in catalog if e not in public]
     # the reader shows a text only from its release date (ReleaseGate in the app): the entry

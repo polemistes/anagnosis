@@ -11,5 +11,6 @@
 # syntax_source: Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition
 # syntax_license: CC BY-SA 3.0 US
 # product_id: hesiod_theogony_rzach
+# free: yes
 
 The Greek text of Alois Rzach's Teubner edition of Hesiod's Theogony, with his critical apparatus, F. A. Paley's English commentary, preface and epitome of the poem, Hugh G. Evelyn-White's translation, and the Liddell–Scott dictionaries. Tap any word for its meaning and form. The syntax of every sentence is annotated by hand.

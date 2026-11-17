@@ -169,6 +169,17 @@ def check_all(texts: Path, sources: Path) -> int:
     if not perrors and not held:
         print("  nothing held back; no private text's file in the public repository")
     errors += len(perrors)
+    # a free text is not for sale: `free: yes` and `google_play: yes` cannot both stand in about.md
+    from .build import read_catalog_entry
+    for work_dir in sorted(p for p in texts.iterdir() if p.is_dir() and (p / "grc.txt").exists()):
+        entry = read_catalog_entry(work_dir)
+        free = entry.get("free", "").strip().lower()
+        if free and free != "yes":
+            print(f"ERROR texts/{work_dir.name}/about.md: `free: {entry['free']}`: the key is `free: yes` or absent")
+            errors += 1
+        elif free and entry.get("google_play", "").strip().lower() == "yes":
+            print(f"ERROR texts/{work_dir.name}/about.md: both `free: yes` and `google_play: yes`: a free text has no product on sale")
+            errors += 1
     # the built databases against the records of their versions and contents (versions.py)
     from .versions import check as check_versions
     verrors, vnotes = check_versions()

@@ -603,6 +603,10 @@ converter and came out as Greek letters.)
   and stands in the description. Rebuilt: version c5ef5e89bff80ef6 (content changed: the two
   titles and the meta key); no other text's version changed (Lysias's about line
   moved to the new key; its database is the same).
+* **2026-11-17, a free text** (the author's decision): the Shepherd is added in the reader without
+  paying. about.md says `# free: yes`; the catalogue entry carries `"free": true`; no
+  `google_play` mark; the product id stays in about.md, unused. Version unchanged
+  (c5ef5e89bff80ef6): the key is in the catalogue, not in the database.
 
 ## Sizes, for planning
 

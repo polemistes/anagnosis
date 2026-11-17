@@ -1198,6 +1198,11 @@ Nothing here blocks the text batches. In the order in which an answer is needed:
   translator's notes have keys of their own, `translation_notes` (and `ref_translation_notes`
   for their book), never `commentary`: Lysias's commentary line names Adams, Morgan and
   Shuckburgh only, and `translation_notes: John Gillies (1778), on speeches 1, 4, 21, 26, 34`.
+* **2026-11-17, a free text** (the author's decision): Lysias is added in the reader without
+  paying. about.md (`transcriptions/lysias/static/`) says `# free: yes`; the catalogue entry
+  carries `"free": true`; no `google_play` mark; the product id `lysias_speeches_hude` stays in
+  about.md, unused. Version unchanged (1c2a5bd5093e2915): the key is in the catalogue, not in
+  the database.
 
 ## Sizes, for planning
 

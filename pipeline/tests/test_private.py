@@ -120,6 +120,20 @@ class Release(unittest.TestCase):
             write_catalog([dict(e) for e in cat], out, today=dt.date(2028, 1, 1))
             self.assertEqual(len(json.loads((out / "catalog.json").read_text())), 3)
 
+    def test_free_text(self):
+        # `free: yes` in about.md becomes "free": true in the entry; any other text has no such key
+        with tempfile.TemporaryDirectory() as t:
+            out = Path(t)
+            cat = [{"slug": "antigone", "title": "Ἀντιγόνη", "google_play": "yes"},
+                   {"slug": "lysias", "title": "Λόγοι", "product_id": "lysias_speeches_hude", "free": "yes"},
+                   {"slug": "odd", "title": "x", "free": "no"}]
+            write_catalog(cat, out, today=TODAY)
+            public = {e["slug"]: e for e in json.loads((out / "catalog.json").read_text())}
+            self.assertIs(public["lysias"]["free"], True)
+            self.assertNotIn("free", public["antigone"])
+            self.assertNotIn("free", public["odd"])
+            self.assertIn('"free": true', (out / "lysias.catalog.json").read_text())
+
 
 def _fake_root(t: str) -> Path:
     root = Path(t)

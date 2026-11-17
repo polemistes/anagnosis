@@ -12,6 +12,7 @@
 # syntax_source: speeches 1, 14, 15, 23: Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library; annotated by hand by Vanessa Gorman); speech 24: Pedalion Trees (KU Leuven; by hand), through GLAUx; 26 speeches: GLAUx (Alek Keersmaekers, KU Leuven), automatic, not checked by hand; speeches 12, 13, 19: no syntax, lemmas and forms automatic and checked word by word in their sentences
 # syntax_license: CC BY-SA 3.0 US (Ancient Greek Dependency Treebank); CC BY-SA 4.0 (Pedalion Trees, GLAUx)
 # product_id: lysias_speeches_hude
+# free: yes
 
 The thirty-four speeches of Lysias in the Greek text of Karl Hude's Oxford edition (1912), with his critical apparatus, English commentaries on nineteen of the speeches (Adams, Morgan, Shuckburgh) with their introductions, English translations of twenty-six, and the Liddell–Scott dictionaries. Tap any word for its meaning and form.
 
