@@ -1466,10 +1466,41 @@ COMMENTARY_FIXES: dict[str, list[tuple[str, str]]] = {
         ('ἔκλυες, [?], |', 'ἔκλυες, ὦ, |'),
         ('γαίης | [?]χετʼ', 'γαίης | ᾤχετʼ'),
         ('etc.), [?]ντιθυρὼν', 'etc.), ἀντιθυρὼν'),
+        # the rest, read on the page (leaves 131-295); 601 (Whitelaw's version, ‘O[?]: a damaged letter at
+        # the column's edge) stays unread
+        ('*Hipp.* 337 ο[?]ον, μῆτερ', '*Hipp.* 337 οἷον, μῆτερ'),
+        ('δαίμων was there, wor[?]ng out', 'δαίμων was there, working out'),
+        ('*M.* 1. 3. 9 ε[?]ναι τῶν', '*M.* 1. 3. 9 εἶναι τῶν'),
+        ('rash, then, to asser[?] that', 'rash, then, to assert that'),
+        ('in the vault (3[?]1).', 'in the vault (381).'),
+        ('κλύουσαν ο[?]κτον.', 'κλύουσαν οἶκτον.'),
+        ('τοὺς πέλας ψ[?]γε ἡμᾶς', 'τοὺς πέλας ψέγε ἡμᾶς'),
+        ('Cp. *[?]r.* 1236 f.', 'Cp. *Tr.* 1236 f.'),
+        ('calls u[?]n the virgin', 'calls upon the virgin'),
+        ('as guilty [?] unmaidenly', 'as guilty of unmaidenly'),
+        ('As Arist. say[?] ( Arist. *Rhet.*', 'As Arist. says (*Rhet.*'),
+        ('Cp. 13 [?] τὸν ἄσκοπον', 'Cp. 1315: *Tr.* 246 τὸν ἄσκοπον'),
+        ('οὐ φαι[?]νετο πάσης', 'οὐ φαίνετο πάσης'),
+        ('57 πυρὰ[?] τάφον', '57 πυρὰν τάφον'),
+        ('*Ph.* 442, ο[?] τοῦτον', '*Ph.* 442, οὐ τοῦτον'),
+        ("ὅτ' ο[?]ν ἐκεῖνοι", "ὅτ' οὖν ἐκεῖνοι"),
+        ('**μ[?] ʼξέλη**', '**μὴ ʼξέλη**'),
+        ('part of an [?]ξάγγελος', 'part of an ἐξάγγελος'),
+        ('| [?]ζηλα νίκης', '| ἄζηλα νίκης'),
+        ('οὐκ ἐκτὸς ἄψο[?]ρον [?]κνεμεῖ πόδα', 'οὐκ ἐκτὸς ἄψορρον ἐκνεμεῖ πόδα'),
+        ('Clytaemnestra[?]s death', 'Clytaemnestra’s death'),
+        ('οὐδ[?] θανόντι', 'οὐδὲ θανόντι'),
+        # Jebb's asterisk before a conjecture (686, Musgrave's τἀφέσει): printed, not italics
+        ('**ἰσώσας * τἀφέσει**', '**ἰσώσας \\* τἀφέσει**'),
+        # Perseus's Betacode v left a Latin v: the digamma (ϝ, Ϝ; read on the page: Ajax leaves 139, 265, 293;
+        # Electra 137) or a mistyped ν (the word is plain)
+        ('being vεκ,', 'being ϝεκ,'),
+        ('for ἐvέκηλος, ἔvκηλος', 'for ἐϝέκηλος, ἔϝκηλος'),
+        ('(for ἔκηvα)', '(for ἔκηϝα)'),
     ],
     "ajax": [
         # Perseus's "<*>" (imported as "[?]") and capital rho keyed *(p, read on Jebb's page (1896, scan
-        # playsfragmentswi07sophuoft; 2026-11-17): 16 of the 20; notes 68, 500, 797, 977 still to read
+        # playsfragmentswi07sophuoft; 2026-11-17): all 20
         ('εἱλόμη[?] ἄν', 'εἱλόμην ἄν'),
         ('Menander *ʽπαπιζομένης', 'Menander Ῥαπιζομένης'),
         ('γυμνικὸν [?]ιὰ πάσης', 'γυμνικὸν διὰ πάσης'),
@@ -1486,6 +1517,21 @@ COMMENTARY_FIXES: dict[str, list[tuple[str, str]]] = {
         ('τῷ *ʽποιτείῳ', 'τῷ Ῥοιτείῳ'),
         ('fairly wo[?] The fut.', 'fairly won. The fut.'),
         ('ἐμβρόντητε, ε[?] ͂τα νῦν', 'ἐμβρόντητε, εἶτα νῦν'),
+        # the last four (68 leaf 106, 500 leaf 167, 797 leaf 208, 977 leaf 233)
+        ('εἰ[?]ιδεῖν**', 'εἰσιδεῖν**'), ('the Lat. *[?]a-c* is', 'the Lat. *ja-c* is'),
+        ('*Ph.* 174 [?]λύει δʼ', '*Ph.* 174 ἀλύει δʼ'),
+        ('For ξύναιμον, cp. [?] σοπη. *αντ.* αὐτάδελφον..κάρα, Soph. *O. C.*', 'For ξύναιμον, cp. *Ant.* 1 αὐτάδελφον..κάρα, *O. C.*'),
+        # Perseus's Betacode v left a Latin v: the digamma (ϝ, Ϝ; read on the page: Ajax leaves 139, 265, 293;
+        # Electra 137) or a mistyped ν (the word is plain)
+        ('**vαὸς ἀρωγοὶ**', '**ναὸς ἀρωγοὶ**'),
+        ('= ἀv-vέρυσαν', '= ἀϝ-ϝέρυσαν'),
+        ('for ἀν-vερ,', 'for ἀν-ϝερ,'),
+        ('form was Αἴvας', 'form was ΑἴϜας'),
+        ('root (vεργ)', 'root (ϝεργ)'),
+        ('the rt. ἀv (ἄω)', 'the rt. ἀϝ (ἄω)'),
+        ('a rt. ἀvες', 'a rt. ἀϝες'),
+        ('rt. vελ, εἴλω', 'rt. ϝελ, εἴλω'),
+        ('**vαύταις**', '**ναύταις**'),
     ],
     "antigone": [
         # Perseus's "<*>" (imported as "[?]") and capital rho keyed *(p ("*ʽπ"), each read on Jebb's
@@ -1524,6 +1570,14 @@ COMMENTARY_FIXES: dict[str, list[tuple[str, str]]] = {
         ('as usu. [?]πισφάττειν', 'as usu. ἐπισφάττειν'),
         ('ἔρεβος ω[?] φαεννότατον', 'ἔρεβος ὦ φαεννότατον'),
         ('his *ʽπιζοτόμοι gave', 'his Ῥιζοτόμοι gave'),
+        # Perseus's Betacode v left a Latin v: the digamma (ϝ, Ϝ; read on the page: Ajax leaves 139, 265, 293;
+        # Electra 137) or a mistyped ν (the word is plain)
+        ('εἴς τιvα', 'εἴς τινα'),
+        ('παρά τιvα', 'παρά τινα'),
+        ('επεδειξάμηv.', 'επεδειξάμην.'),
+        ('ἔστι vόσος', 'ἔστι νόσος'),
+        ('| vίκης τε', '| νίκης τε'),
+        ('μοι vέα |', 'μοι νέα |'),
     ],
     "oedipuscoloneus": [
         # Perseus's Betacode v (digamma) where the page has another letter: leaf 155 (note 307)
