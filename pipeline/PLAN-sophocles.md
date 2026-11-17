@@ -82,6 +82,26 @@ The metrical analyses are not transcribed (as for Ajax and Electra).
 
 ## Progress
 
+* **2026-11-17, THE ELECTRA MERGED AND REBUILT FROM JEBB'S PAGE** (version 8d22d0c59ea0dfe9; commits
+  8aa993e, 453cb25, 6d49edc, 0e7a0e7, 1530d6f). 1,490 verses (the line of metrical signs after 1264
+  unnumbered, as printed; the lyric numbering by Jebb's margins as the reviewers settled it: 249, 473,
+  479, 484, 504-514, 1249, 1419, 1439 each numbered by the first number it covers); against the
+  text on sale 3 verses differ in words (1506 ὅστις … γε, on sale the garbled ὅσγες … τι), 5 only in
+  punctuation. 828 apparatus notes holding 842 items (21 with the printed number in front), 854
+  commentary notes, 674 translation segments. Apparatus compared with the one on sale: 123
+  differences; old right in 1 (454 αὐτοὺς, corrected), new right or kept as the readers' enlargement
+  notes have it in the rest (about 10 not legible at the scan's resolution: 173, 201, 363, 472,
+  665, 711, 940, 1146, 1496 and the reviewers' 136, 152, 337, 1052, 1053, 1385/1394). Commentary:
+  Pindar's ἀϝάταν (note on 1427) read; Whitelaw's ‘O[?] (note on 603) cannot be read in this scan
+  (the letter is cut off at the page's edge, leaf 184). Translation: TRANSLATION_NUMBERS["electra"]
+  so that each speaker's words stand at his verse (830a-831, 1220a-1222a, 1409-1439, the second
+  parts of shared verses; a speaker check found one misplaced segment each in the Antigone (1326)
+  and the Ajax (233), set and rebuilt). Sections: the kommos 823-870 inside the second episode,
+  Electra's song 1232-1287 inside the third (1288, not Jebb's list's 1287: his text gives 1287 to
+  the song), the kommos 1398-1441 inside the exodos. Five hand analyses from the review list.
+  Ours in the documents: the appendix's "[Jebb's diagram is not reproduced here …]" (line 198),
+  for the author.
+
 * **2026-11-17, THE AJAX MERGED AND REBUILT FROM JEBB'S PAGE** (version 85d03e0c8ebb780f; commits
   9dcffc4, 8bef6a0, 751a184, 423787e, e27570d). 1,366 verses (18 renumbered against the text on sale,
   among them ἐγὼ δʼ ὁ τλάμων … 600 → 599: it covers L's two lines 599-600, Jebb's commentary 600 names
