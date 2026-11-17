@@ -11,7 +11,8 @@
 # syntax: annotated by hand (Ancient Greek Dependency Treebank)
 # syntax_source: Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition
 # syntax_license: CC BY-SA 3.0 US
+# syntax_text: the Perseus Digital Library's text of the poem (A. T. Murray's Loeb edition, 1919), which differs in places from Allen's text printed here
 # google_play: yes
 # product_id: homer_odyssey_allen
 
-The Greek text of T. W. Allen's Oxford edition with its critical apparatus, A. T. Murray's translation, the commentary of Merry, Riddell and Monro, Autenrieth's Homeric Dictionary and the Liddell–Scott dictionaries. Tap any word for its meaning and form.
+The Greek text of T. W. Allen's Oxford edition with its critical apparatus, A. T. Murray's translation, the commentary of Merry, Riddell and Monro, Autenrieth's Homeric Dictionary and the Liddell–Scott dictionaries. Tap any word for its meaning and form. The syntax of the sentences is annotated by hand; the syntax trees were made on the Perseus Digital Library's text of the poem (A. T. Murray's Loeb edition, 1919), which differs in places from Allen's text printed here, and where a sentence differs the syntax view shows both and marks the words.

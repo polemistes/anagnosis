@@ -6,6 +6,7 @@
 # license: CC BY-SA 4.0 (transcription; the edition is in the public domain)
 # dictionaries: autenrieth ml lsj
 # pronunciation: homeric
+# syntax-text: the Perseus Digital Library's text of the poem (A. T. Murray's Loeb edition, 1919)
 
 == book 1 · Α
 1.1	Ἄνδρα μοι ἔννεπε, Μοῦσα, πολύτροπον, ὃς μάλα πολλὰ

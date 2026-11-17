@@ -505,7 +505,7 @@ def merge(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path) -> 
     # the record of the text the trees were made on (syntax_text.py): from the files just written
     from . import syntax_text
 
-    problems += syntax_text.after_merge(slug, texts, sources)
+    problems += syntax_text.after_merge(slug, texts, sources, lexicon)
 
     log = build / f"{slug}-merge.log"
     log.write_text("\n".join(problems + ["", f"# the apparatus against First1K's ({len(comparison)})"] + comparison) + "\n",

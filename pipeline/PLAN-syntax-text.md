@@ -156,12 +156,45 @@ For the author: whether six misprints deserve the sentence in the description an
 line (`syntax_text`); the record itself is needed either way for the word that had a wrong tag
 and so that the tree shows what the parser read.
 
+### The Odyssey (on sale) — done 2026-11-17, version `a6c82a64772c8ecc`
+
+**The trees' text: the Perseus Digital Library's text of the poem (A. T. Murray's Loeb edition,
+1919).** Established so: the treebank file (`tlg0012.tlg002.perseus-grc1.tb.xml`, AGDT 2.1)
+names that edition in its header; its words, compared book by book with Perseus's Greek and
+with Allen's, follow Perseus's (87,625 tree words: 1,311 not in Perseus's text at their place,
+nearly all the words the treebank writes in two, οὐ δέ; 2,075 not in ours).
+
+| kind | rows | |
+|---|---|---|
+| unit | 680 | 648 words that are two tree words (οὐδέ, οὔτε, μηδέ; the merge had joined 643), 32 words of 16 places where ours prints two for the trees' one (ὅ τι, ὥς τε, ἐπεὶ δή) |
+| reading | 723 | by rule: nu 137, elision 83, spelling 294, form 85, word 124 (to be checked by the pass) |
+| absent | 233 | 56 with their sentence; 177 without: the verses the treebank has no trees for (9.522–535, 21.109–117 and a few single verses) |
+| unprinted | 75 | all single words |
+
+**260 of 6,721 sentences really differ** by the rule's values. Own analyses: 9 words (8 by the
+analyser, e.g. 3.128 νόῳ a dative where the trees' νόω was tagged a genitive; 5.243 ἤνυτο, from
+ἀνύω, which wore the αἴνυμαι of the trees' ᾔνυτο).
+
+Compared with the installed database: `tokens` (168 words: 83 given a sentence only; 60 newly
+tied to a node, among them the last verses of books 2, 3, 4, 17 and 20, which the treebank cites
+by the book alone and the alignment had lost; 16 second halves; 9 analyses), `sentence_nodes`
+(65 nodes fewer: now carried by words), `syntax_text_words` (new, 1,711 rows), `meta` (two
+keys). Nothing else; the short definitions are the same.
+
+**What else would have changed, and how it was avoided.** The Odyssey's merge (`merge-odyssey`)
+run again would take out the header line `# pronunciation: homeric` of grc.txt and undo two
+corrections made by hand in the apparatus (a breve written `^` at two items). So the merge was
+not run on the text: the step alone was (`syntax-text odyssey`). The merge now ends with the
+step too, and run into a scratch folder it gives the same tokens.tsv, syntax-nodes.tsv and
+syntax-text.tsv as the step alone; whoever runs it on the text must keep those three hand-made
+things.
+
 ## Progress
 
 - [x] The step, its command, tests (`tests/test_syntax_text_files.py`), the checking pass's module
 - [x] Lysias
 - [x] The Shepherd of Hermas
-- [ ] The Odyssey
+- [x] The Odyssey
 - [ ] The Gorgias
 - [ ] The Symposium
 - [ ] Antigone, Ajax, Electra

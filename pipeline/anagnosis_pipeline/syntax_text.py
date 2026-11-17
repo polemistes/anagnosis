@@ -353,6 +353,9 @@ def _book(line: str) -> str:
     return line.split(".")[0] if "." in line else ""
 
 
+FAR = 400  # tree words: how far from its neighbours' place a run of words may be tied elsewhere
+
+
 def _greek(form: str) -> str:
     """A tree word without the marks that are not of the text (GLAUx's "G?" at a gap, the
     treebank's "κ-" for the καί of a crasis)."""
@@ -403,6 +406,21 @@ OWN_ANALYSES: dict[str, dict[str, tuple[str, str]]] = {
         "24.13 ἐλεήσαντας": ("ἐλεέω", "v-papama-"),  # wore the analysis of the trees' πάντας
         "28.6 ἐνέπληντο": ("ἐμπίμπλημι", "v3paim---"),  # the trees' ἐνεπέπληντο, given to ἐμπελάζω
         "33.7 καινομένην": ("καίνω", "v-sppmfa-"),  # Hude's own conjecture; wore the καίω of the trees' καομένην
+    },
+    "odyssey": {
+        "5.243 ἤνυτο": ("ἀνύω", "v3siie---"),       # θοῶς δέ οἱ ἤνυτο ἔργον; the trees' ᾔνυτο given to αἴνυμαι
+        "1.29 μνῄσατο": ("μιμνήσκω", "v3sai----"),
+        "8.113 Πρῳρεύς": ("Πρωρεύς", "n-s---mn-"),
+        "8.526 θνῄσκοντα": ("θνήσκω", "v-sppama-"),
+        "18.137 ἄγῃσι": ("ἄγω", "v3spsa---"),
+        "19.115 τῶ": ("τῷ", "d--------"),
+        "19.526 δμῳάς": ("δμώς", "n-p---ma-"),
+        "21.362 πῇ": ("πη", "g--------"),
+        "21.394 πάντῃ": ("πάντῃ", "d--------"),
+        "21.405 πάντῃ": ("πάντῃ", "d--------"),
+        "24.208 πάντῃ": ("πάντῃ", "d--------"),
+        "24.355 πάντῃ": ("πάντῃ", "d--------"),
+        "24.413 πάντῃ": ("πάντῃ", "d--------"),
     },
 }
 
@@ -642,10 +660,23 @@ def record_from_files(work_dir: Path, tb: list[dict], name: str, write: bool = T
         ours = [_bare(rows[x]["form"]) for x in range(a, i)]
         if len(ours) < 3:
             continue
+        # not far from where the words around them stand in the trees (a verse that recurs in
+        # the poem is not tied to its twin in another book): near in the trees' order, or in a
+        # sentence numbered between the sentences around (the Odyssey's treebank cites the last
+        # verse of some books by the book alone, and it is read after all the rest)
+        near = next((where[k] for k in list(range(a - 1, max(-1, a - 40), -1)) + list(range(i, min(len(rows), i + 40))) if where.get(k) is not None), None)
+        lo = next((rows[k]["sentence"] for k in range(a - 1, max(-1, a - 40), -1) if rows[k]["sentence"] and rows[k]["word_id"]), "")
+        hi = next((rows[k]["sentence"] for k in range(i, min(len(rows), i + 40)) if rows[k]["sentence"] and rows[k]["word_id"]), "")
+
+        def close(k: int) -> bool:
+            sentence = words[k]["sentence"]
+            if near is not None and abs(k - near) <= FAR:
+                return True
+            return lo.isdigit() and hi.isdigit() and sentence.isdigit() and int(lo) <= int(sentence) <= int(hi)
         for run in runs:
             theirs = [_bare(_greek(words[k]["form"])) for k in run]
             at = next((s for s in range(len(theirs) - len(ours) + 1) if theirs[s:s + len(ours)] == ours), None)
-            if at is not None and all(k in free_set for k in run[at:at + len(ours)]):
+            if at is not None and all(k in free_set for k in run[at:at + len(ours)]) and close(run[at]):
                 for m, x in enumerate(range(a, i)):
                     link(x, words[run[at + m]], node=True)
                 break
@@ -743,11 +774,18 @@ def _play_trees(slug: str):
     return load
 
 
+def _odyssey_trees(sources: Path) -> list[dict]:
+    from .odyssey import TREEBANK, read_treebank
+
+    return read_treebank(sources / TREEBANK)
+
+
 # The texts whose record is made from their files (record_from_files): how their trees are read
 # and what the trees' text is called. A text is added here only when its trees' text has been
 # confirmed from its sources (the plan of each text says how).
 FROM_FILES: dict[str, tuple] = {
     "lysias": (_lysias_trees, "the Perseus Digital Library's text of the speeches (W. R. M. Lamb's Loeb edition, 1930)"),
+    "odyssey": (_odyssey_trees, "the Perseus Digital Library's text of the poem (A. T. Murray's Loeb edition, 1919)"),
     "hermas": (_play_trees("hermas"), "the First1KGreek project's digital text of this edition, which misprints six words"),
 }
 
@@ -787,9 +825,9 @@ def difference_answers(slug: str) -> dict[tuple[str, int], tuple[str, str, str]]
     return answers(slug)
 
 
-def run(slug: str, texts: Path, sources: Path, write: bool) -> dict:
+def run(slug: str, texts: Path, sources: Path, write: bool, lexicon: Path | None = None) -> dict:
     loader, name = FROM_FILES[slug]
-    out = record_from_files(texts / slug, loader(sources), name, write, exact_reader(sources, texts.parent / "data" / "lexicon.sqlite"),
+    out = record_from_files(texts / slug, loader(sources), name, write, exact_reader(sources, lexicon or texts.parent / "data" / "lexicon.sqlite"),
                             OWN_ANALYSES.get(slug, {}), difference_answers(slug))
     with (texts / slug / "tokens.tsv").open(encoding="utf-8", newline="") as f:
         tokens = list(csv.DictReader(f, delimiter="\t", quoting=csv.QUOTE_NONE))
@@ -802,13 +840,13 @@ def run(slug: str, texts: Path, sources: Path, write: bool) -> dict:
     return out
 
 
-def after_merge(slug: str, texts: Path, sources: Path) -> list[str]:
+def after_merge(slug: str, texts: Path, sources: Path, lexicon: Path | None = None) -> list[str]:
     """For the end of a text's merge: the record made again from the files just written (so
     that a merge run again leaves the text as it is). Returns what is to be looked at by hand,
     as lines for the merge's problems."""
     if slug not in FROM_FILES:
         return []
-    got = run(slug, texts, sources, True)
+    got = run(slug, texts, sources, True, lexicon)
     print("trees' text: " + ", ".join(f"{k} {v}" for k, v in got["kinds"].items()) + f"; {got['sentences that really differ']} of "
           f"{got['sentences']} sentences really differ; {len(got['look'])} to look at")
     return [f"trees' text: {x}" for x in got["look"]]

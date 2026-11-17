@@ -314,6 +314,10 @@ def merge(transcriptions: Path, pages_dir: Path, texts: Path, sources: Path, lex
         w = csv.DictWriter(f, fieldnames=["line", "form", "lemma", "postag", "reason"], delimiter="\t", lineterminator="\n")
         w.writeheader()
         w.writerows(review)
+    # the record of the text the trees were made on (syntax_text.py): from the files just written
+    from . import syntax_text
+
+    problems += syntax_text.after_merge("odyssey", texts, sources, lexicon)
     (build / "odyssey-merge.log").write_text("\n".join(problems) + "\n", encoding="utf-8")
     for p in problems[:40]:
         print("  " + p, file=sys.stderr)
