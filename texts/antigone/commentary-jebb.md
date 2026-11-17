@@ -1100,7 +1100,7 @@ It is still the early morning of the day on which the drama opens. The Argives h
 ## 322
 ‘Yes, (you have done it,) and that, too, at the cost of betraying,’ etc. The particle **γε** implies the contradiction, ἐποίησας: **καὶ ταῦτα** goes with the participle (**προδούς**): cp. *O. T.* 37, *El.* 614 τὴν τεκοῦσαν ὕβρισεν, | καὶ ταῦτα τηλικοῦτος. So Lat., *hominem . . studiis optimis deditum, idque a puero* (Cic. *Fam.* 13. 16).
 
-## 323
+## 323a
 **ἦ δεινόν**. Creon has pronounced the Guard guilty on mere δόξα, without proof. The Guard says, ‘It is grievous that, when a man *does* harbour suspicions (ᾧ δοκεῖ **γε**), those suspicions should at the same time (**καὶ**) be false.’ **γε** means that, in such a matter, hasty δόξα should be avoided altogether. It is always bad to assume a man guilty without proof; it is worse when the rash assumption is also erroneous. Cp. δόκησις ἀγνώς, ‘a blind suspicion’ (*O. T.* 681), and *ib.* 608 γνώμῃ δ’ ἀδήλῳ μή με χωρὶς αἰτιῶ. Eur. *Bacch.* 311 μηδ’ ἢν δοκῇς μέν, (ἡ δὲ δόξα σου νοσεῖ,) | φρονεῖν δόκει τι.—Nauck supposes a play on two senses of δοκεῖν, ᾧ δοκεῖ (or, as he reads, δοκῇ) having been suggested by ἔδοξε τῷ δήμῳ, etc.: ‘’Tis monstrous that he who *decides* should have false views.’ But, even if the absolute ᾧ δοκεῖ could be thus used, the colloquial frequency of δοκεῖ (μοι ποιεῖν τι) in Aristophanes suffices to show that ᾧ δοκεῖ could not, to an Athenian ear, have suggested ‘the ruler’ or ‘the judge’: it would have seemed to mean merely one who ‘proposes,’ not ‘disposes.’—Schütz makes δοκεῖν depend on δοκεῖ: ‘’Tis grievous when a man is *resolved* to believe even what is false’ (if only he wishes to believe it). A bold speech for the Guard to Creon; nor does it satisfy either γε or καί.
 
 ## 324
@@ -3415,7 +3415,7 @@ This view seems to do some injustice to the poet’s dramatic psychology. I read
 ## 1047
 **καλῶς**,=εὐπρεπῶς, in a bad sense: Eur. *Hipp.* 505 τἀσχρὰ δ’ ἢν λέγῃς καλῶς: Thuc. 5. 89 μετ’ ὀνομάτων καλῶν. So Eur. *Hec.* 1191 τἄδικ’ εὖ λέγειν: cp. *O. C.* 807.
 
-## 1048
+## 1048a
 **ἆρ’ οἶδεν** κ.τ.λ. Instead of being angered by Creon’s bitter words, Teiresias is communing with the mournful thought which they suggest—the thought of human folly. His sorrowful exclamation here is like his πάντες γὰρ οὐ φρονεῖτ’ in the scene with Oedipus (*O. T.* 328).
 
 ## 1049
@@ -4152,9 +4152,10 @@ This κομμός is composed of four strophes and four antistrophes, which corr
 The lyric strophes and antistrophes are divided from each other by iambic trimeters, spoken by the Chorus or by the Messenger.—See Metrical Analysis.
 
 ## 1261 f.
-**φρενῶν δυσφρόνων**: 502 n. Cp. Aesch. *Th.* 874 ἰὼ ἰὼ δύσφρονες, ‘misguided ones.’ More often, δύσφρων=‘gloomy,’ or ‘malignant.’
-
 **στερεά**, with ref. to his own αὐθάδεια, cp. 1028, 714. So Plat. *Polit.* 309 B τὸ στερεὸν ἦθος. Cp. *Ai.* 925 ἔμελλες χρόνῳ | στερεόφρων ἄρ’ ὧδ’ ἐξανύσειν κακὰν | μοῖραν.
+
+## 1261a
+**φρενῶν δυσφρόνων**: 502 n. Cp. Aesch. *Th.* 874 ἰὼ ἰὼ δύσφρονες, ‘misguided ones.’ More often, δύσφρων=‘gloomy,’ or ‘malignant.’
 
 ## 1263 f.
 **ὦ...βλέποντες**. Like Antigone (937), Creon now calls the Theban Elders to witness. Cp. n. on 162—210.
@@ -4216,7 +4217,7 @@ Since **τὰ δ’ ἐν δόμοις** is governed by ὄψεσθαι only, th
 
 **νεοτόμ.**: adj. compounded with a word cognate in sense to the subst.: cp. 7 n. **ἄρτι** (‘a moment ago’) gives precision to the less definite νεοτόμοισι: *Tr.* 1130 τέθνηκεν ἀρτίως νεοσφαγής (cp. *Ai.* 898): Plat. *Legg.* 792 E τὸν ἀρτίως νεογενῆ.
 
-## 1284
+## 1284a
 **δυσκάθαρτος Ἅιδου λιμήν** (nom. for voc., 1211). The ‘haven’ or ‘receptacle’ of Hades,—that nether world in which he receives the dead (810, 893)—is ‘hard to be appeased,’ in the sense that Hades is ever demanding fresh victims. The life of Haemon has already been exacted by Hades as a penalty for the offence of Creon against the νέρτεροι. But even this atonement (καθαρμός) has not proved enough. δυσκάθαρτος is used here as if one could say καθαίρω (for ἱλάσκομαι) θεόν: but that constr. does not occur. Cp. *O. C.* 466 καθαρμὸν...δαιμόνων (n.), such an atonement as belongs (is due) to them. Plat. *Rep.* 364 E λύσεις τε καὶ καθαρμοὶ ἀδικημάτων.—For **λιμήν** cp. 1000: *Anth. P.* 7. 452 μνήμονες Εὐβούλοιο σαόφρονος, ὦ παριόντες, | πίνωμεν· κοινὸς πᾶσι λιμὴν Ἀΐδης.
 
 ## 1286 f.

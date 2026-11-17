@@ -857,6 +857,8 @@ def write_prose(slug: str, sources: Path, texts: Path, transcriptions: Path, ind
         if write_transcribed_commentary(slug, texts, transcriptions, index_dir) < 0:
             skipped += 1
     refile_commentary(out)
+    if from_page:
+        file_at_half_lines(out)
     write_translation(slug, sources, texts)
     return skipped
 
@@ -1809,6 +1811,58 @@ def refile_notes(text: str, lines: dict[str, str],
             out.append([new_heading, body])
     lines_out = head + [l for heading, body in out for l in [heading, *body]]
     return "\n".join(lines_out), moves
+
+
+def file_at_half_lines(work_dir: Path) -> list[str]:
+    """Jebb's notes on a verse our text divides between two speakers (981 and 981a): his heading
+    carries no letter, so a note "## 982" may hold lemmas of the second part. Each paragraph that
+    begins with a bold lemma whose first word stands in Na and not in N goes, with the paragraphs
+    after it that have no lemma, under a heading `## Na` after the note; run by sophocles-prose
+    for a commentary read from the page (COMMENTARY_FROM_PAGE). Returns one line per note split."""
+    from .textfmt import parse_file
+
+    path, grc = work_dir / "commentary-jebb.md", work_dir / "grc.txt"
+    if not path.exists() or not grc.exists():
+        return []
+    lines = {l.n: l.text for l in parse_file(grc).lines}
+
+    def words(t: str) -> set[str]:
+        return {_skel(w) for w, _s, _e in greek.words(t)}
+
+    text = path.read_text(encoding="utf-8")
+    blocks = re.split(r"(?m)^(?=## )", text)
+    moves = []
+    for k, blk in enumerate(blocks):
+        m = re.match(r"^## (\d+)( ff?\.)?\n(.*)$", blk, re.S)
+        if not m or m.group(1) + "a" not in lines:
+            continue
+        n = m.group(1)
+        here, there = words(lines[n]), words(lines[n + "a"])
+        paras = [p for p in m.group(3).split("\n\n")]
+        stay, go, current = [], [], None
+        for para in paras:
+            lm = re.match(r"^(?:\[[^\]]+\]\s*)?\*\*([^*]+)\*\*", para.strip())
+            if lm:
+                first = [_skel(w) for w, _s, _e in greek.words(lm.group(1))][:1]
+                current = "go" if first and first[0] in there and first[0] not in here else "stay"
+            (go if current == "go" else stay).append(para)
+        if not go:
+            continue
+        body_stay = "\n\n".join(p for p in stay if p.strip())
+        body_go = "\n\n".join(p.strip("\n") for p in go if p.strip())
+        if not body_stay.strip():
+            blocks[k] = f"## {n}a\n{body_go}\n\n"
+        else:
+            blocks[k] = f"## {n}{m.group(2) or ''}\n{body_stay.rstrip()}\n\n## {n}a\n{body_go}\n\n"
+        moves.append(f"commentary: {len(go)} paragraph(s) of the note on {n} filed at {n}a (their lemma stands there)")
+    new = "".join(blocks)
+    if new != text:
+        tmp = path.with_name(path.name + ".part")
+        tmp.write_text(new, encoding="utf-8")
+        tmp.replace(path)
+    for mv in moves:
+        print(mv)
+    return moves
 
 
 def refile_commentary(work_dir: Path) -> list[str]:
