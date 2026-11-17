@@ -9,7 +9,6 @@
 # dictionaries: abbott-smith ml lsj
 # pronunciation: koine
 # citation: dotted
-# syntax-text: the First1KGreek project's digital text of this edition, which misprints six words
 
 == book Vision 1 · Ὅρασις αʹ
 

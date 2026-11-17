@@ -10,8 +10,7 @@
 # syntax: machine-made (GLAUx), not checked by hand
 # syntax_source: GLAUx (Alek Keersmaekers, KU Leuven): automatic annotation, not checked by hand
 # syntax_license: CC BY-SA 4.0
-# syntax_text: the First1KGreek project's digital text of this edition, which misprints six words
 # product_id: hermas_shepherd_lake
 # free: yes
 
-The Greek text of the Shepherd of Hermas in Kirsopp Lake's Loeb edition, with his critical apparatus and his translation, the notes to the translation by Lake and by Charles Taylor (they explain the English version, not the Greek text), both translators' introductions and Taylor's essay on Hermas and the Gospels, the end of the book in the Latin version with the Greek of the papyri, and the Abbott-Smith and Liddell–Scott dictionaries. Tap any word for its meaning and form. The analysis of each sentence's syntax is automatic (GLAUx) and has not been checked by hand. The syntax trees were made on the First1KGreek project's digital text of this edition, which misprints six words; where a sentence differs for that reason the syntax view shows both and marks the words.
+The Greek text of the Shepherd of Hermas in Kirsopp Lake's Loeb edition, with his critical apparatus and his translation, the notes to the translation by Lake and by Charles Taylor (they explain the English version, not the Greek text), both translators' introductions and Taylor's essay on Hermas and the Gospels, the end of the book in the Latin version with the Greek of the papyri, and the Abbott-Smith and Liddell–Scott dictionaries. Tap any word for its meaning and form. The analysis of each sentence's syntax is automatic (GLAUx) and has not been checked by hand.

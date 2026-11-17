@@ -625,6 +625,11 @@ converter and came out as Greek letters.)
   sentences but is not told why once). `pipeline/PLAN-syntax-text.md`. Version
   `a45c12c26fcfe14d`.
 
+* **2026-11-17, the trees' text: not named** (the author). The sentence in the description, the
+  catalogue key and the header line are out again; the record stays (6 readings, as checked:
+  spelling 4, form 2; 2 of 2,086 sentences really differ). 10 joined words (οὐδέ, εἴτε, οὔτε)
+  mended as in Lysias. Version `783b695a865c4589`.
+
 ## Sizes, for planning
 
 The Shepherd: 27,340 Greek words in 695 verses (Tauber; GLAUx 27,570 word tokens), on about 150
