@@ -130,6 +130,18 @@ texts/README.md say where it comes from. Only `commentaries` (1 row) and `commen
 changed in the database. Not yet said truly in texts/README.md: the Greek text's line still names
 Perseus's file (the text is Jebb's page since 31b4c85), and the translation line.
 
+**Ajax switched over (2026-11-18)**: first check 94e2100, second reading 8ca2c6b (59 corrections),
+merge aee2e3f and after, version 64cef7ca92cc5015. 865 notes (Perseus's file 856: it gave further
+lemmas headings of their own, numbered range notes by their last verse, and put 13 of Jebb's notes
+under the verse before; each difference read on the page). 20 re-filed with "[N ff.]"; f./ff. on
+239 headings (193 + 46); in a sample of 26 headings seen on the page one lacked its mark (1283 f.),
+so perhaps 30 in all. New for both page commentaries: `file_at_half_lines` files a paragraph whose
+lemma stands only in the second part of a divided verse under "## Na" (Ajax 394a, 412a, 591a,
+593a, 982a, 983a; Antigone 323a, 1048a, 1261a, 1284a; the Antigone rebuilt, 088426b7c2265af0);
+the OCR's ᾽ written ’. Twenty notes read against the page by the merger: as printed. Fallen
+away: COMMENTARY_FIXES["ajax"], LATIN_ITALICS for it. texts/README.md has the Ajax's own lines.
+Only `commentaries` and `commentary_notes` changed in its database.
+
 **Ajax and Electra (2026-11-17), set up and drafted** (notes_leaves in drama.PLAYS, both in
 COMMENTARY_FROM_PAGE, the brief's subsection "The Ajax's and the Electra's commentaries"; Perseus's
 commentary stays until every notes batch is checked, tested). Ajax: 202 pages (leaves 94-295) in 26
