@@ -14,4 +14,4 @@
 # product_id: hesiod_theogony_rzach
 # free: yes
 
-The Greek text of Alois Rzach's Teubner edition of Hesiod's Theogony, with his critical apparatus, F. A. Paley's English commentary, preface and epitome of the poem, Hugh G. Evelyn-White's translation, and the Liddell–Scott dictionaries. Tap any word for its meaning and form. The syntax of every sentence is annotated by hand.
+The Greek text of Alois Rzach's Teubner edition of Hesiod's Theogony, with his critical apparatus, F. A. Paley's English commentary, preface and epitome of the poem, Hugh G. Evelyn-White's translation, and the Liddell–Scott dictionaries. Tap any word for its meaning and form. The syntax of the sentences is annotated by hand; the syntax trees were made on the Perseus Digital Library's text of the poem (H. G. Evelyn-White's Loeb edition, 1914), which differs in places from Rzach's text printed here, and where a sentence differs the syntax view shows both and marks the words.

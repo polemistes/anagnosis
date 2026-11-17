@@ -358,7 +358,7 @@
     "author": "Ἡσίοδος",
     "title_en": "Theogony",
     "author_en": "Hesiod",
-    "description": "The Greek text of Alois Rzach's Teubner edition of Hesiod's Theogony, with his critical apparatus, F. A. Paley's English commentary, preface and epitome of the poem, Hugh G. Evelyn-White's translation, and the Liddell–Scott dictionaries. Tap any word for its meaning and form. The syntax of every sentence is annotated by hand.",
+    "description": "The Greek text of Alois Rzach's Teubner edition of Hesiod's Theogony, with his critical apparatus, F. A. Paley's English commentary, preface and epitome of the poem, Hugh G. Evelyn-White's translation, and the Liddell–Scott dictionaries. Tap any word for its meaning and form. The syntax of the sentences is annotated by hand; the syntax trees were made on the Perseus Digital Library's text of the poem (H. G. Evelyn-White's Loeb edition, 1914), which differs in places from Rzach's text printed here, and where a sentence differs the syntax view shows both and marks the words.",
     "edition": "Hesiodi carmina, recensuit Aloisius Rzach, Leipzig, B. G. Teubner, 1908",
     "ref_edition": "A. Rzach, Hesiodi carmina, Leipzig, Teubner 1908",
     "ref_translation": "H. G. Evelyn-White, Hesiod, the Homeric Hymns and Homerica, Loeb Classical Library 1914 (Perseus Digital Library)",
