@@ -18,7 +18,7 @@
     "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
     "syntax_license": "CC BY-SA 3.0 US",
     "product_id": "aeschylus_agamemnon_sidgwick",
-    "version": "c7f8e6369fa70288"
+    "version": "7edf5fdadde2e3f0"
   },
   {
     "slug": "ajax",
@@ -87,7 +87,7 @@
     "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
     "syntax_license": "CC BY-SA 3.0 US",
     "product_id": "aeschylus_choephoroi_sidgwick",
-    "version": "a08742bb610b825a"
+    "version": "299328c25d3a0ea4"
   },
   {
     "slug": "clouds",
@@ -108,7 +108,7 @@
     "syntax_source": "GLAUx (Alek Keersmaekers, KU Leuven): automatic annotation, not checked by hand",
     "syntax_license": "CC BY-SA 4.0",
     "product_id": "aristophanes_clouds_starkie",
-    "version": "d1e395b9b8fc1b87"
+    "version": "ef8358b62b47a4ac"
   },
   {
     "slug": "electra",
@@ -152,7 +152,7 @@
     "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
     "syntax_license": "CC BY-SA 3.0 US",
     "product_id": "aeschylus_eumenides_sidgwick",
-    "version": "82948c65bbaeac41"
+    "version": "557c1abb74ff5d3b"
   },
   {
     "slug": "gorgias",
@@ -175,7 +175,7 @@
     "syntax_text": "the Perseus Digital Library's text of this edition, without the words Burnet brackets as not Plato's",
     "google_play": "yes",
     "product_id": "plato_gorgias_burnet",
-    "version": "6e9eb00e53e86f7c"
+    "version": "dd380dc8f0a57788"
   },
   {
     "slug": "hermas",
@@ -196,7 +196,7 @@
     "syntax_source": "GLAUx (Alek Keersmaekers, KU Leuven): automatic annotation, not checked by hand",
     "syntax_license": "CC BY-SA 4.0",
     "product_id": "hermas_shepherd_lake",
-    "version": "eebecc7c365a659e",
+    "version": "2392ed48a682fd13",
     "free": true
   },
   {
@@ -220,7 +220,7 @@
     "syntax_license": "CC BY-SA 3.0 US (Ancient Greek Dependency Treebank); CC BY-SA 4.0 (Pedalion Trees, GLAUx)",
     "syntax_text": "the Perseus Digital Library's text of the speeches (W. R. M. Lamb's Loeb edition, 1930), which differs in places from Hude's text printed here",
     "product_id": "lysias_speeches_hude",
-    "version": "6b3bc7fe24463128",
+    "version": "7a752aa8c7cef157",
     "free": true
   },
   {
@@ -267,7 +267,7 @@
     "syntax_text": "the Perseus Digital Library's text of the poem (A. T. Murray's Loeb edition, 1919), which differs in places from Allen's text printed here",
     "google_play": "yes",
     "product_id": "homer_odyssey_allen",
-    "version": "e85e2888a3f3bfee"
+    "version": "f5228cc2b12d661c"
   },
   {
     "slug": "oedipuscoloneus",
@@ -289,7 +289,7 @@
     "syntax_source": "GLAUx (Alek Keersmaekers, KU Leuven): automatic annotation, not checked by hand",
     "syntax_license": "CC BY-SA 4.0",
     "product_id": "sophocles_oedipuscoloneus_jebb",
-    "version": "bc574c9b0866b6b7"
+    "version": "e079830b11e8d5b0"
   },
   {
     "slug": "oedipustyrannus",
@@ -311,7 +311,7 @@
     "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
     "syntax_license": "CC BY-SA 3.0 US",
     "product_id": "sophocles_oedipustyrannus_jebb",
-    "version": "3611d40f5bc917d7"
+    "version": "31286dce0ba41fe4"
   },
   {
     "slug": "philoctetes",
@@ -333,7 +333,7 @@
     "syntax_source": "GLAUx (Alek Keersmaekers, KU Leuven): automatic annotation, not checked by hand",
     "syntax_license": "CC BY-SA 4.0",
     "product_id": "sophocles_philoctetes_jebb",
-    "version": "ca4a61208e2aa636"
+    "version": "2ab23ff25e73a754"
   },
   {
     "slug": "symposium",
@@ -356,7 +356,7 @@
     "syntax_license": "CC BY-SA 4.0",
     "google_play": "yes",
     "product_id": "plato_symposium_burnet",
-    "version": "99265bdb0c674359"
+    "version": "266228cd96195672"
   },
   {
     "slug": "theogony",
@@ -378,7 +378,7 @@
     "syntax_license": "CC BY-SA 3.0 US",
     "syntax_text": "the Perseus Digital Library's text of the poem (H. G. Evelyn-White's Loeb edition, 1914), which differs in places from Rzach's text printed here",
     "product_id": "hesiod_theogony_rzach",
-    "version": "9b95cf65fd322698",
+    "version": "3d7edae6f91711c5",
     "free": true
   },
   {
@@ -401,7 +401,7 @@
     "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
     "syntax_license": "CC BY-SA 3.0 US",
     "product_id": "sophocles_trachiniae_jebb",
-    "version": "dd31e5c74d801423"
+    "version": "7e36d2f39e12f045"
   },
   {
     "slug": "truestory",
@@ -422,6 +422,6 @@
     "syntax_source": "GLAUx (Alek Keersmaekers, KU Leuven): automatic annotation, not checked by hand",
     "syntax_license": "CC BY-SA 4.0",
     "product_id": "lucian_truestory_nilen",
-    "version": "bcd6216507fedd78"
+    "version": "68a1563e8d7d79b0"
   }
 ]

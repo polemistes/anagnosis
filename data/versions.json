@@ -1,7 +1,7 @@
 {
   "agamemnon": {
-    "version": "c7f8e6369fa70288",
-    "digest": "c7f8e6369fa702882fa11d9264ffa78ef627e3f2cdd44c209b87b54f19cc9756"
+    "version": "7edf5fdadde2e3f0",
+    "digest": "7edf5fdadde2e3f01b67af6fd037f18b90f5525811eee9742d3586317a47a7e1"
   },
   "ajax": {
     "version": "14b31d994d660e82",
@@ -12,71 +12,71 @@
     "digest": "2f00f3809d86f0a90193753493448e8f95ff371bf6378018524272f77569cf93"
   },
   "choephoroi": {
-    "version": "a08742bb610b825a",
-    "digest": "a08742bb610b825a452991d71c6f15eacf31895d4f711efc93a1f956b5f7be87"
+    "version": "299328c25d3a0ea4",
+    "digest": "299328c25d3a0ea4a1f563c225bed66ee1f992a6ea9772c4f6bf2c302d1fc7e0"
   },
   "clouds": {
-    "version": "d1e395b9b8fc1b87",
-    "digest": "d1e395b9b8fc1b87a96719b00d7a8620655a986cccfe1e997ee2b25db25f7ea4"
+    "version": "ef8358b62b47a4ac",
+    "digest": "ef8358b62b47a4ac49067eaee817d17265fd3a3e5f771fa29addc983e61a6a63"
   },
   "electra": {
     "version": "ed9f0c9a4a7e2978",
     "digest": "ed9f0c9a4a7e2978b27fdc1a9e7e28642c5f36f5233c0c42d663d5ece9a0f731"
   },
   "eumenides": {
-    "version": "82948c65bbaeac41",
-    "digest": "82948c65bbaeac41fab196499a3832efccff30c05916bf62aeafcd42b3682d5d"
+    "version": "557c1abb74ff5d3b",
+    "digest": "557c1abb74ff5d3b10eaf842a723e9f56a1f2d24725413f94e14950548384c44"
   },
   "gorgias": {
-    "version": "6e9eb00e53e86f7c",
-    "digest": "6e9eb00e53e86f7cae3a3bd4c3b9ffae0ce7156f16ecffeefb87b1c92f3a7d17"
+    "version": "dd380dc8f0a57788",
+    "digest": "dd380dc8f0a57788e2079500be7d55c115c054c91e102308c962b191d6263e65"
   },
   "hermas": {
-    "version": "eebecc7c365a659e",
-    "digest": "eebecc7c365a659e5bd0e2b0bea8c52aa787e50f99dccf693977b6cc3538199c"
+    "version": "2392ed48a682fd13",
+    "digest": "2392ed48a682fd13d0cf098c3ecfd1c618ef2d90cb4f003554829d7877a44e8b"
   },
   "lexicon": {
     "version": "9881e87715df0bba",
     "digest": "64b1aab277a078635003de6f161edd13dbdb580e432d2dec6186f2acdda3af96"
   },
   "lysias": {
-    "version": "6b3bc7fe24463128",
-    "digest": "6b3bc7fe24463128597948057268a8bea3bd93ebf68bbef9a82e3ef6beab4bf3"
+    "version": "7a752aa8c7cef157",
+    "digest": "7a752aa8c7cef1570ff1419408f410e0ddab143dbfd3b8c7ca7a765598a9d545"
   },
   "newtestament": {
     "version": "e83462eef6e30b4e",
     "digest": "e83462eef6e30b4eaa4575e808a6ae1cb07b80e15d8894099f1b5ae5ce3d7656"
   },
   "odyssey": {
-    "version": "e85e2888a3f3bfee",
-    "digest": "e85e2888a3f3bfee3b1b97b67cfcd0c2bd6ce7624e4cea57175046250c5d8f91"
+    "version": "f5228cc2b12d661c",
+    "digest": "f5228cc2b12d661cb23becf863d9b12e4f1c94c0531b37153dbeef41e8d5c057"
   },
   "oedipuscoloneus": {
-    "version": "bc574c9b0866b6b7",
-    "digest": "bc574c9b0866b6b78dea379e8a9450203031952bacd84da4b976025e7e407125"
+    "version": "e079830b11e8d5b0",
+    "digest": "e079830b11e8d5b052a0b7619de2ff9fda95570f602b7ae43b9650d235f9b37a"
   },
   "oedipustyrannus": {
-    "version": "3611d40f5bc917d7",
-    "digest": "3611d40f5bc917d7cf6d49f98c06007d296a93ca1bc5b027a3679fc97aca9fe9"
+    "version": "31286dce0ba41fe4",
+    "digest": "31286dce0ba41fe4f6bf2a9b8f01f8d3570cf4c09c2e5fb1d8c9842d068f6f2e"
   },
   "philoctetes": {
-    "version": "ca4a61208e2aa636",
-    "digest": "ca4a61208e2aa636b51b970d8f94faa439aacb77821ff3caa9158952384ac1b3"
+    "version": "2ab23ff25e73a754",
+    "digest": "2ab23ff25e73a7541ce1796e64c0e3a65f045225c29815bbc1ae8f10801cba9c"
   },
   "symposium": {
-    "version": "99265bdb0c674359",
-    "digest": "99265bdb0c6743596e5ddf1ab8b4841b8e15680c80e867b2a6bef1d14ebbb30d"
+    "version": "266228cd96195672",
+    "digest": "266228cd96195672a8e419c9207d95421a25ad308c62339900cf368b5cb324b6"
   },
   "theogony": {
-    "version": "9b95cf65fd322698",
-    "digest": "9b95cf65fd3226985dc67139d0c0eff0a1a4e6be3b6d6d21f2fc2b166fe6cf7a"
+    "version": "3d7edae6f91711c5",
+    "digest": "3d7edae6f91711c5f688daf820771a062bde2a1186e8b990d6bc20153b42d016"
   },
   "trachiniae": {
-    "version": "dd31e5c74d801423",
-    "digest": "dd31e5c74d801423927420dec196caf43169cb9e6a817356a98bb01deff4f859"
+    "version": "7e36d2f39e12f045",
+    "digest": "7e36d2f39e12f045262bd3c3cc286c57fb5a692d5711fc6fe678b861c8b4ae4c"
   },
   "truestory": {
-    "version": "bcd6216507fedd78",
-    "digest": "bcd6216507fedd7854610756aa4108c3e94206cab9aad98523155205435d2fab"
+    "version": "68a1563e8d7d79b0",
+    "digest": "68a1563e8d7d79b05b7dbfe7dde4ed5a3c6af507871fb812966962f92c96b900"
   }
 }

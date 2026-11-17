@@ -579,9 +579,8 @@ def build_work(db: sqlite3.Connection, work_dir: Path, homographs: "Homographs |
     for path in sorted(docs, key=lambda p: (preferred.index(p.stem) if p.stem in preferred else len(preferred), p.stem)):
         build_document(db, work_id, path)
 
-    # glossary (hand-written entries, e.g. proper names missing from the lexica)
-    if (work_dir / "glossary.md").exists():
-        build_glossary(db, slug, work_dir / "glossary.md")
+    # No glossary of names: nothing written by us may stand as a reference work (the author's
+    # rule of 2026-11-17; texts/README.md). A name no dictionary has is simply not explained.
     # dictionaries that only this text carries (dictionary-dodson.md: lexicon "dodson")
     for path in sorted(work_dir.glob("dictionary-*.md")):
         build_glossary(db, slug, path, lexicon_slug=path.stem.removeprefix("dictionary-"))
