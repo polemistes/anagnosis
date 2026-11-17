@@ -835,9 +835,14 @@ fun ReaderScreen(
                 val limit = with(density) { (sample * settings.lineLength).toDp() }
                 return (if (sideBySide) (available - COLUMN_GAP) / 2 else available).coerceAtMost(limit)
             }
-            val columnWidth = columnFor(styles)
-            val widthPx = with(density) { columnWidth.roundToPx() }
-            val heightPx = with(density) { (maxHeight - vertical * 2).roundToPx() }
+            // in whole pixels as the layout draws them (each padding rounded on its own), so that
+            // the pages are cut to the width and height the text is drawn in
+            fun columnPxFor(column: Dp): Int = with(density) {
+                PageArea.columnWidth(constraints.maxWidth, horizontal.roundToPx(), column.roundToPx(), if (sideBySide) 2 else 1, COLUMN_GAP.roundToPx())
+            }
+            val widthPx = columnPxFor(columnFor(styles))
+            val columnWidth = with(density) { widthPx.toDp() }
+            val heightPx = with(density) { PageArea.height(constraints.maxHeight, vertical.roundToPx()) }
             // With numbers on every line, reserve a column for them so the text wraps around it.
             // Prose keeps a narrower column for its section marks (172, b, c ...) unless they are hidden.
             val numberColumnPx = if (data.prose) {
@@ -880,8 +885,8 @@ fun ReaderScreen(
             // Live preview during a pinch: only the current page, re-laid out at the previewed size.
             val previewStyles = pinchSize?.let { size -> stylesFor(typography, base, family, (size + 0.5f).toInt()) }
             // the column widens or narrows with the previewed size, as it will when the size is committed
-            val previewColumn = previewStyles?.let { columnFor(it) } ?: columnWidth
-            val previewWidthPx = with(density) { previewColumn.roundToPx() }
+            val previewWidthPx = previewStyles?.let { columnPxFor(columnFor(it)) } ?: widthPx
+            val previewColumn = with(density) { previewWidthPx.toDp() }
             val previewPage = if (previewStyles != null && pages.isNotEmpty()) {
                 val page = pageAt(pagerState.currentPage)
                 val first = page?.rows?.firstOrNull()
