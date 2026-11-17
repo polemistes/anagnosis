@@ -148,16 +148,24 @@ line 503. Everything else is plain text.
 
 ## Sources and licences
 
-* Greek text: R. C. Jebb's text (*The Antigone of Sophocles*, 1891), Perseus Digital Library,
-  `soph.ant_gk.xml`. CC BY-SA 3.0 US.
+* Greek text and critical apparatus: R. C. Jebb, *Sophocles: The Plays and Fragments, part III*,
+  second edition (1891), read from the Internet Archive scan `sophocles03soph` by OCR with
+  Perseus's digital text (`soph.ant_gk.xml`) as a check, every verse and every apparatus item
+  then read against the page images by AI agents in two readings (2026; batches in
+  `pipeline/transcriptions/drama/antigone/batch-*.md`). The edition is in the public domain; the
+  transcription CC BY-SA 4.0. (Until 2026 the text was Perseus's digital text, which is not
+  Jebb's: about one verse in four differed from his page in words or punctuation.)
 * Lemmas and morphology: Ancient Greek Dependency Treebank 2.1 (Perseus). CC BY-SA 3.0 US.
-* Translation: R. C. Jebb (1891), Perseus `perseus-eng2`, modernized by Perseus. CC BY-SA 4.0.
+* Translation: R. C. Jebb's, in the form the Perseus Digital Library gives it (`perseus-eng2`:
+  his English with the spelling and some words modernized by Perseus; not read against his
+  page). CC BY-SA 4.0.
 * Commentary: R. C. Jebb, *Sophocles: The Plays and Fragments, part III*, second edition (1891),
   read from the Internet Archive scan `sophocles03soph` by OCR and checked against the page
   images by AI agents in two readings (2026; batches in `pipeline/transcriptions/drama/antigone/notes-*.md`).
   The edition is in the public domain; the transcription CC BY-SA 4.0. (Until 2026 it was
   Perseus's digitisation of the 1900 edition, which differs from Jebb's page in many places.)
-* Introduction: R. C. Jebb (1900), Perseus. CC BY-SA 3.0 US.
+* Introduction: R. C. Jebb's, from Perseus's digitisation of the 1900 edition (not yet read
+  against his page). CC BY-SA 3.0 US.
 * Lexica: LSJ (1940) and Middle Liddell (1889), Perseus. CC BY-SA 4.0 / 3.0 US.
 * The reader's other dictionaries, shared by all texts (data/lexicon.sqlite), each with a
   switch in Options: Abbott-Smith's *Manual Greek Lexicon of the New Testament* (1922; see the
