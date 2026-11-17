@@ -82,6 +82,12 @@ The metrical analyses are not transcribed (as for Ajax and Electra).
 
 ## Progress
 
+* **2026-11-17, after the reboot.** Electra drafted (99 pages, 17 batches; residuals 359); Ajax and
+  Electra piloted (text agrees with Jebb's page; Electra's lyric numbers run one behind his margins at
+  250, 475-485, 505-515, 1250, 1420, 1440); brief section for both volumes; first pass for both by flags,
+  residual lists and a look over every verse. Commentary fix tables complete for all three plays (one
+  damaged letter left in the Electra, note 601), Jebb's conjecture asterisk, the digamma by hand.
+
 * **2026-11-17, stopped for a reboot: where the on-sale Sophocles work stands** (details: the end of
   build/logs/sophocles-on-sale-fixes.md). Antigone: first pass running in the main session; then review,
   merge, numbering, apparatus comparison, sophocles-prose (commentary fixes all in), syntax record,
