@@ -51,7 +51,7 @@
     "title_en": "Antigone",
     "author_en": "Sophocles",
     "description": "The Greek text of Sir Richard Jebb's edition, with his translation, critical apparatus and commentary, and the Liddell–Scott dictionaries. Tap any word for its meaning and form. The syntax of the sentences is annotated by hand; the syntax trees were made on the Perseus Digital Library's text of the play as the treebank's annotators had it, which differs in a few words from the text printed here, and where a sentence differs the syntax view shows both and marks the words.",
-    "edition": "The Antigone of Sophocles, ed. R. C. Jebb, Cambridge University Press, 1891 (Perseus Digital Library)",
+    "edition": "Sophocles: The Plays and Fragments, Part III: The Antigone, ed. R. C. Jebb, second edition, Cambridge University Press, 1891",
     "app_id": "no.anagnosis.antigone",
     "ref_edition": "R. C. Jebb, Sophocles: The Plays and Fragments, Part III: The Antigone, 2nd edition, Cambridge University Press 1891",
     "ref_translation": "R. C. Jebb, Sophocles: The Plays and Fragments, Part III: The Antigone, 2nd edition, Cambridge University Press 1891",
@@ -175,7 +175,7 @@
     "syntax_text": "the Perseus Digital Library's text of this edition, without the words Burnet brackets as not Plato's",
     "google_play": "yes",
     "product_id": "plato_gorgias_burnet",
-    "version": "dd380dc8f0a57788"
+    "version": "e871845c5e7891de"
   },
   {
     "slug": "hermas",
@@ -196,7 +196,7 @@
     "syntax_source": "GLAUx (Alek Keersmaekers, KU Leuven): automatic annotation, not checked by hand",
     "syntax_license": "CC BY-SA 4.0",
     "product_id": "hermas_shepherd_lake",
-    "version": "2392ed48a682fd13",
+    "version": "2e3704208d16a83f",
     "free": true
   },
   {
@@ -220,7 +220,7 @@
     "syntax_license": "CC BY-SA 3.0 US (Ancient Greek Dependency Treebank); CC BY-SA 4.0 (Pedalion Trees, GLAUx)",
     "syntax_text": "the Perseus Digital Library's text of the speeches (W. R. M. Lamb's Loeb edition, 1930), which differs in places from Hude's text printed here",
     "product_id": "lysias_speeches_hude",
-    "version": "7a752aa8c7cef157",
+    "version": "f0ecdbc147a7ae68",
     "free": true
   },
   {
@@ -243,7 +243,7 @@
     "dictionaries": "Dodson's lexicon of the New Testament",
     "google_play": "yes",
     "product_id": "newtestament_sbl",
-    "version": "e83462eef6e30b4e"
+    "version": "efe1b2aa9a994e1c"
   },
   {
     "slug": "odyssey",
@@ -267,7 +267,7 @@
     "syntax_text": "the Perseus Digital Library's text of the poem (A. T. Murray's Loeb edition, 1919), which differs in places from Allen's text printed here",
     "google_play": "yes",
     "product_id": "homer_odyssey_allen",
-    "version": "f5228cc2b12d661c"
+    "version": "4b86b52a2704cc7c"
   },
   {
     "slug": "oedipuscoloneus",
@@ -356,7 +356,7 @@
     "syntax_license": "CC BY-SA 4.0",
     "google_play": "yes",
     "product_id": "plato_symposium_burnet",
-    "version": "266228cd96195672"
+    "version": "e2fe680535a1ae33"
   },
   {
     "slug": "theogony",
@@ -378,7 +378,7 @@
     "syntax_license": "CC BY-SA 3.0 US",
     "syntax_text": "the Perseus Digital Library's text of the poem (H. G. Evelyn-White's Loeb edition, 1914), which differs in places from Rzach's text printed here",
     "product_id": "hesiod_theogony_rzach",
-    "version": "3d7edae6f91711c5",
+    "version": "97bc66a169f10402",
     "free": true
   },
   {

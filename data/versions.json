@@ -28,28 +28,28 @@
     "digest": "557c1abb74ff5d3b10eaf842a723e9f56a1f2d24725413f94e14950548384c44"
   },
   "gorgias": {
-    "version": "dd380dc8f0a57788",
-    "digest": "dd380dc8f0a57788e2079500be7d55c115c054c91e102308c962b191d6263e65"
+    "version": "e871845c5e7891de",
+    "digest": "e871845c5e7891de2d6030e3c2e0bb209b98f6d28161d35d5c01023dd0cd9ec7"
   },
   "hermas": {
-    "version": "2392ed48a682fd13",
-    "digest": "2392ed48a682fd13d0cf098c3ecfd1c618ef2d90cb4f003554829d7877a44e8b"
+    "version": "2e3704208d16a83f",
+    "digest": "2e3704208d16a83f9c99cea9b551574fec9795ab7df76e96b00b596d59604e9b"
   },
   "lexicon": {
     "version": "9881e87715df0bba",
     "digest": "64b1aab277a078635003de6f161edd13dbdb580e432d2dec6186f2acdda3af96"
   },
   "lysias": {
-    "version": "7a752aa8c7cef157",
-    "digest": "7a752aa8c7cef1570ff1419408f410e0ddab143dbfd3b8c7ca7a765598a9d545"
+    "version": "f0ecdbc147a7ae68",
+    "digest": "f0ecdbc147a7ae68b149bf83e2876d1517d120ae005045dacd51127726491575"
   },
   "newtestament": {
-    "version": "e83462eef6e30b4e",
-    "digest": "e83462eef6e30b4eaa4575e808a6ae1cb07b80e15d8894099f1b5ae5ce3d7656"
+    "version": "efe1b2aa9a994e1c",
+    "digest": "efe1b2aa9a994e1c1487211ad7e3994110d997cbaa6f2ca117b72b015a80d18d"
   },
   "odyssey": {
-    "version": "f5228cc2b12d661c",
-    "digest": "f5228cc2b12d661cb23becf863d9b12e4f1c94c0531b37153dbeef41e8d5c057"
+    "version": "4b86b52a2704cc7c",
+    "digest": "4b86b52a2704cc7c4fb4863a0f29918fcc936f744d942831e156d5fab464d034"
   },
   "oedipuscoloneus": {
     "version": "e079830b11e8d5b0",
@@ -64,12 +64,12 @@
     "digest": "2ab23ff25e73a7541ce1796e64c0e3a65f045225c29815bbc1ae8f10801cba9c"
   },
   "symposium": {
-    "version": "266228cd96195672",
-    "digest": "266228cd96195672a8e419c9207d95421a25ad308c62339900cf368b5cb324b6"
+    "version": "e2fe680535a1ae33",
+    "digest": "e2fe680535a1ae3364d83edcaa0a76abbb3242a0101989dedf83cb1075e06db1"
   },
   "theogony": {
-    "version": "3d7edae6f91711c5",
-    "digest": "3d7edae6f91711c5f688daf820771a062bde2a1186e8b990d6bc20153b42d016"
+    "version": "97bc66a169f10402",
+    "digest": "97bc66a169f10402fc4f5f2f9a1f60cc903f5be83f4663fbbb429db538b181e4"
   },
   "trachiniae": {
     "version": "7e36d2f39e12f045",
