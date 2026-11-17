@@ -171,9 +171,9 @@ FROM tokens JOIN lines ON lines.id = tokens.line_id WHERE tokens.lemma_key = ? O
 -- word by word. Only in texts with the meta key syntax_text_words; never queried otherwise.
 CREATE TABLE syntax_text_words (
     id INTEGER PRIMARY KEY, kind TEXT NOT NULL, token_id INTEGER,
-    sentence TEXT, word_id INTEGER, tree_form TEXT, tree_lemma TEXT, tree_postag TEXT, same_construction INTEGER, extent TEXT
+    sentence TEXT, word_id INTEGER, tree_form TEXT, tree_lemma TEXT, tree_postag TEXT, same_construction INTEGER, difference TEXT, extent TEXT
 );
 
 selectSyntaxTextWords:
-SELECT kind, token_id, sentence, word_id, tree_form, tree_lemma, extent, same_construction, tree_postag FROM syntax_text_words;
+SELECT kind, token_id, sentence, word_id, tree_form, tree_lemma, extent, same_construction, tree_postag, difference FROM syntax_text_words;
 

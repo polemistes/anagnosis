@@ -146,7 +146,7 @@ class AnagnosisRepository(
         // the trees made on another text: the rows only where the text says it has them
         val syntaxText = q.selectMeta("syntax_text").executeAsOneOrNull()?.takeIf { it.isNotBlank() }
         val textWords = if (light || q.selectMeta("syntax_text_words").executeAsOneOrNull() == null) emptyList()
-            else q.selectSyntaxTextWords().executeAsList().map { SyntaxTextWord(it.kind, it.token_id, it.sentence, it.word_id?.toInt(), it.tree_form, it.tree_lemma, it.extent, it.same_construction, it.tree_postag) }
+            else q.selectSyntaxTextWords().executeAsList().map { SyntaxTextWord(it.kind, it.token_id, it.sentence, it.word_id?.toInt(), it.tree_form, it.tree_lemma, it.extent, it.same_construction, it.tree_postag, it.difference) }
         // where the notes on the Greek begin, for the book chooser's marks (only books are marked)
         val declaredTranslationNotes = q.selectMeta("translation_notes").executeAsOneOrNull()?.split(' ')?.filter { it.isNotBlank() }?.toSet() ?: emptySet()
         val onGreek = commentaries.filter { it.kind() == NoteKind.COMMENTARY && !BookContents.isTranslationNotes(it.slug, it.title, declaredTranslationNotes) }.map { it.id }.toSet()

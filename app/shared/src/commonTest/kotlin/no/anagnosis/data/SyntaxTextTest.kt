@@ -37,6 +37,39 @@ class SyntaxTextTest {
         assertEquals("αἵθʼ", SyntaxText.elisionMark("αἵθ̓"))
     }
 
+    private fun reading(tree: String, difference: String?, same: Long? = 1) =
+        SyntaxTextWord("reading", 1, "s", 2, tree, null, null, same, null, difference)
+
+    @Test
+    fun onlyRealDifferencesAreMarked() {
+        assertTrue(SyntaxText.isReading(reading("αὐδὴν", "word"), "ἀοιδὴν"))
+        assertTrue(SyntaxText.isReading(reading("νυκτὸς", "form"), "νύκτας"))
+        assertTrue(!SyntaxText.isReading(reading("μοι", "elision"), "μʼ"))
+        assertTrue(!SyntaxText.isReading(reading("τέκεν", "nu"), "τέκε"))
+        assertTrue(!SyntaxText.isReading(reading("μιχθεὶς", "spelling"), "μειχθεὶς"))
+        assertNull(SyntaxText.nodeMark(reading("τέκεν", "nu"), "τέκε"))
+        // another construction is shown whatever the difference
+        assertTrue(SyntaxText.isReading(reading("παιπαλοέσσῃς", "spelling", same = 0), "παιπαλοέσσης"))
+    }
+
+    @Test
+    fun aUnitWhoseFirstWordCarriesTheMarkIsOneNode() {
+        // 447: καὶ ἐκ, the trees' κἀκ; the node on ἐκ, καὶ "=21"
+        val kai = tok(11, 0, "καὶ", null, null, "=21")
+        val ek = tok(12, 1, "ἐκ", "AuxP", 23, "21")
+        val pol = tok(13, 2, "πολλῶν", "ADV", 21, "22")
+        val verb = tok(14, 3, "βριάει", "PRED", 0, "23")
+        val tree = Syntax.build("s", listOf(kai, ek, pol, verb), emptyList())
+        val node = tree.nodeFor(kai)!!
+        assertSame(node, tree.nodeFor(ek))
+        assertEquals("καὶ ἐκ", node.form)
+        assertEquals(3, tree.nodes.size)
+        assertEquals("adverbial of καὶ ἐκ", Syntax.roleOf(tree, pol))
+        val marked = Syntax.marked(tree, listOf(kai, ek, pol, verb),
+            mapOf(11L to row("unit", "κἀκ", token = 11), 12L to row("unit", "κἀκ", token = 12)), emptyMap())
+        assertSame(tree, marked)                       // a unit marks no node
+    }
+
     @Test
     fun anAbsentWordSaysWhatStandsThereIfAnything() {
         assertEquals("This word is not in the text the syntax was made on; that text has τῷ here, in another construction.",

@@ -17,6 +17,8 @@ class SyntaxTextWord(
     val sameConstruction: Long? = null,
     /** The trees' word's morphological tag, where the row has a tree word. */
     val treePostag: String? = null,
+    /** On a reading, how the two words differ: elision, nu, spelling (not shown), form, word (shown). */
+    val difference: String? = null,
 )
 
 /** A tree node's mark where the trees' text differs: not printed here, or read otherwise there. */
@@ -62,7 +64,7 @@ object SyntaxText {
         return out
     }
 
-    /** The shop's and the credits' line name. */
+    /** The credits' line name. */
     const val CREDIT_KIND = "Trees made on"
 
     /**
@@ -93,9 +95,21 @@ object SyntaxText {
         }
     }
 
-    /** Whether a reading row is a difference to show: not where the two differ only in accent, capital or elision mark. */
-    fun isReading(row: SyntaxTextWord?, printed: String): Boolean =
-        row?.kind == "reading" && !row.treeForm.isNullOrBlank() && !sameLetters(row.treeForm, printed)
+    /**
+     * Whether a reading row is a real difference, to be shown: another form or another word, or a
+     * word in another construction; not an elision, a movable ν or a spelling (the author, 2026-11-17).
+     * Without the record of the difference, any difference of letters (not of accent, capital or elision mark).
+     */
+    fun isReading(row: SyntaxTextWord?, printed: String): Boolean {
+        if (row?.kind != "reading" || row.treeForm.isNullOrBlank()) return false
+        if (row.sameConstruction == 0L) return true
+        return when (row.difference) {
+            null -> !sameLetters(row.treeForm, printed)
+            else -> row.difference in REAL
+        }
+    }
+
+    private val REAL = setOf("form", "word")
 
     /** A node's mark in the tree view; [printed] is our word at a word node. */
     fun nodeMark(row: SyntaxTextWord?, printed: String?): NodeMark? = when {

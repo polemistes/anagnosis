@@ -50,7 +50,7 @@ class CatalogEntry(
     val refTranslationNotes: String = "",
     /** A free text: added without payment (no product in the store). */
     val free: Boolean = false,
-    /** The text the syntax trees were made on, where it is not the one printed (shop and credits line). */
+    /** The text the syntax trees were made on, where it is not the one printed (the credits line). */
     val syntaxText: String = "",
 )
 
