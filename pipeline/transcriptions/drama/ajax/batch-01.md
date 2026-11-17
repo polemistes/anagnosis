@@ -9,7 +9,17 @@
 6	ἴχνη τὰ κείνου νεοχάραχθʼ, ὅπως ἴδῃς
 7	εἴτʼ ἔνδον εἴτʼ οὐκ ἔνδον. εὖ δέ σʼ ἐκφέρει
 --- apparatus
+1	Λαρτίου] λʼαρτίου L, the coronis from a later hand.
+2	K. Lugebil conj. θήραν...πειρώμενον.
+3	σκηναῖσσε, with a slight erasure at the last σ (from σκηναῖσι?).
+4-6	Nauck suggests one verse in place of these three, viz., Αἴαντʼ ἰχνοσκοποῦντα, τεκμαρούμενον.
+6	κείνου] ʼκείνου L.—νεοχάραχθʼ] νεοχάρακθʼ L (θʼ from τʼ).
 --- notes
+Sigla: L = cod. Laur. 32. 9 (first half of eleventh century). r = one or more of the later MSS. This symbol is used where a more particular statement is unnecessary. ‘MSS.,’ after a reading, means that it is in all the MSS. known to the editor.
+1	no flags; verses 1-7 read against the page: they agree. The opening ʼΑΕΙ in capitals kept as the check text spells it (Ἀεὶ).
+1	apparatus on the facing page (leaf 95); the coronis in λʼαρτίου L written ʼ.
+3	σκη-|ναῖσι divided at the line end in the apparatus, written whole; printed "σκηναῖσι ?)".
+6	the note runs on to the next spread (leaf 97, "from τʼ).") and is written whole here.
 
 === p-0096
 --- text
@@ -20,10 +30,18 @@
 12	ἔτʼ ἔργον ἐστίν, ἐννέπειν δʼ ὅτου χάριν
 13	σπουδὴν ἔθου τήνδʼ, ὡς παρʼ εἰδυίας μάθῃς.
 @ Ὀδυσσεύς
-14	ὦ φθέγμʼ Ἀθάνας, Φιλτάτης ἐμοὶ θεῶν,
+14	ὦ φθέγμʼ Ἀθάνας, φιλτάτης ἐμοὶ θεῶν,
 15	ὡς εὐμαθές σου, κἂν ἄποπτος ᾖς ὅμως,
 --- apparatus
+9	ἁνὴρ] ἀνὴρ Ald., with all or most MSS. In L the breathing on α is a mere dot, but was doubtless meant for ʼ.
+14	Ἀθάνας] Ἀθήνας Libanius I. p. 460. 17, where the accent (instead of Ἀθηνᾶς) shows the error, as Dind. remarks.
+15	κἂν] Blaydes writes κἢν, as usual.
 --- notes
+8	no flags; verses 8-15 read against the page.
+9	ἁνὴρ: the page prints the rough breathing (crasis), as the check text; the apparatus lemma likewise.
+9	"meant for ’": the printed mark (a smooth breathing) written ʼ.
+14	the page prints φιλτάτης with a small φ; the check text had a capital Φιλτάτης: corrected.
+14	apparatus continues on the facing page (leaf 97): "460. 17, where the accent ... remarks."
 
 === p-0098
 --- text
@@ -42,7 +60,14 @@
 28	τήνδʼ οὖν ἐκείνῳ πᾶς τις αἰτίαν νέμει.
 29	καί μοί τις ὀπτὴρ αὐτὸν εἰσιδὼν μόνον
 --- apparatus
+23	ἴσμεν] ἴδμεν Etym. Magn. p. 466. 12.—τρανές] Nauck conj. τρανόν: see comm.
+24	ʼθελοντὴς] θελοντὴς L, A, and most MSS.: ἐθελοντὴς r.
+28	νέμει A, with most MSS.: τρέπει L, with a few others.
 --- notes
+21	flag τῆσδε (OCR "τησὸ"): the page prints τῆσδε; unchanged.
+22	residuals on 21, 22, 23 (the raised stops after τάδε and ἀλώμεθα) are OCR noise: the page prints ·.
+16	verses 16-29 read against the page: they agree; no change.
+24	apparatus "L, A, and": a speck beside the comma after A, not a semicolon.
 
 === p-0100
 --- text
@@ -68,7 +93,16 @@
 @ Ἀθήνα
 43	δοκῶν ἐν ὑμῖν χεῖρα χραίνεσθαι φόνῳ.
 --- apparatus
+33	ὅτου L, the τ in an erasure (from π?): gloss in marg. οὐκ ἔχω ὅπως μάθω ἢ ποῦ ἐστιν (as P. N. Papageorgius reads it, Schol. in Soph. Trag. Vetera, 1888). Most MSS., and the Aldine, have ὅτου. But ὅπου is in A, with γρ. ὅτου, and in L² (=Lb, cod. Laur. 31. 10), with τ superscript: also in four MSS. of Suidas (including the best, A, cod. Par. 2625) s.v. σημαίνομαι.
+37	κυναγίᾳ L, and Pal.: κυνηγίᾳ most MSS., and Ald.—A v. l. τῆς σῆς..κυνηγίας is noted in Δ (cod. Abbat. Flor. 41) and A.
+38	πονῶι L.
+39	τοῦδε τἄργα] Hermann reads ἔργα τοῦδε with two of the later MSS. (Γ and Mosq. a), thinking that otherwise ταῦτα is redundant.
+40	ᾖξεν] ἧξεν L. For ὧδʼ ᾖξεν, Bergk conj. ᾔμαξεν: Wecklein, ᾔχμαξεν.
+43	ὑμῖν] Nauck conj. ὑμῶν.
 --- notes
+30	no flags; verses 30-43 read against the page: they agree; residuals on 35 (κυβερνῶμαι) and 39 (τἄργα) are OCR noise.
+33	apparatus: printed "(from π ?)"; the apparatus continues on the facing page (leaf 101) from "and Ald.—A v. l." to item 43.
+40	apparatus: L's reading has the rough breathing and no iota subscript (ἧξεν), compared at enlargement with ὧδʼ (rough) and the lemma ᾖξεν (smooth) beside it.
 
 === p-0102
 --- text
@@ -92,7 +126,17 @@
 53	καὶ πρός τε ποίμνας ἐκτρέπω σύμμικτά τε
 54	λείας ἄδαστα βουκόλων φρουρήματα·
 --- apparatus
+44	ἦ καὶ..;] Lobeck and Blaydes conj. ἦ γὰρ..;—βούλευμʼ A, with most MSS., and Ald.: βούλημʼ L, with a few others.—Ἀργείοις] In L ἀργείοισ has been made from ἀργείουσ.
+45	ἐξεπράξατʼ L, with gl. in marg. from a later hand, γρ. ἐξέπραξεν. A and the other MSS. have ἐξέπραξεν: so, too, Eustathius (p. 571. 10 and 1564. 19), Thomas Magister (s. v. εὖ, p. 269), and the Aldine. The lemma of the schol. in L has κἂν ἐξεπράξατο.
+49	καὶ δὴ] Nauck writes ἤδη.
+50	μαιμῶσαν] Schol. in marg. of L, γρ. καὶ διψῶσαν, a v. l. noted also in Γ; see comm.—Nauck conj. μαργῶσαν.
+51	ἀπείργω L (with ξω written above γω by a later hand), A (with ξα above). So most MSS., and Ald.: ἀπεῖρξα Γ, with a few others; and so the schol. in L on 52.—δυσφόρους] Hartung writes παραφόρους, the gl. of a schol. in the Pal. MS. on δυσφόρους.
+52	γνώμας] Madvig (Adv. Crit. I. 206) conj. λήμας, which is adopted by Nauck and Mekler.—ἀνηκέστου] ἀνεικάστου (‘inconceivable’) Turnebus (ed. 1552–3) in marg.—χαρᾶς] Reiske conj. φορᾶς: Rauchenstein, φθορᾶς.
 --- notes
+44	no flags; verses 44-54 read against the page: they agree; residuals on 44 (ἦ, ἦν;) are OCR noise.
+44	apparatus printed "ἦ καὶ.. ;]" and "ἦ γὰρ.. ;": the space before the question mark not kept.
+50	apparatus continues on the facing page (leaf 103) from "comm.—Nauck conj." to the end of 52.
+52	ἀνει-|κάστου divided at the line end in the apparatus, written whole.
 
 === p-0104
 --- text
@@ -111,4 +155,19 @@
 67	ὡς πᾶσιν Ἀργείοισιν εἰσιδὼν θροῇς.
 68	θαρσῶν δὲ μίμνε μηδὲ συμφορὰν δέχου
 --- apparatus
+55	εἰσπεσὼν L: ἐσπεσὼν Dindorf.—πολύκερων] In L the ω has been partly erased, to make ο.
+57	ἔχων] Schol. in L, γρ. παρών. Morstadt conj. ἑλών.
+58	ὅτʼ ἄλλοτʼ] Wunder conj. ὅτʼ ἄλλοσʼ. Blaydes writes ὅτε δʼ ἄλλοτʼ.—In L, δ has been written over ὅτʼ by a late hand.—ἐμπίτνων Elmsley: ἐμπίπτων L (with τνῶν written above πτων by a late hand), Γ: ἐμπιτνῶν A, with most MSS., and Aldine. Schol. in L, γρ. ἐμπεσών.
+59	μανιάσιν] In L the final ν has been added by a late hand above the line.
+60	ὤτρυνον, εἰσέβαλλον] Hermann writes Ἐρινύων ὤτρυνον, led thereto by the schol. in L on εἰς ἕρκη κακά, γρ. εἰς ἐρινῦν κακήν: and so Wecklein.
+61	πόνου r (as Vat. a, Harl., Ien., R (Bibl. Riccard. Flor. 77): φόνου L, A, with most MSS., and Ald. Cp. O. C. 542, where in L φόνον has been made from πόνον.
+64	In L there is an erasure between εὔκερων and ἄγραν.
+65	συνδέτους] Blaydes writes συνδέτους σφʼ.
+66	καὶ σοὶ] Seyffert writes καί σοι.
+68-70	These three vv. are rejected by E. Reichard (De interpolatione fabulae Soph. quae inscribitur Aiax, p. 14, 1875): see comm.
 --- notes
+64	flag οὐχ (OCR "οὐ"): the page prints οὐχ; unchanged. Residual on 56 (ῥαχίζων·) is OCR noise: the page prints the raised stop.
+55	verses 55-68 read against the page: they agree; no change.
+57	apparatus: ἑλών has the rough breathing, ἐσπεσὼν (55) and ἐρινῦν (60) the smooth, compared at enlargement with ὅτʼ and ἐμπίτνων on the same page.
+60	apparatus continues on the facing page (leaf 105) from "and so Wecklein." to the end of 68-70.
+61	the parenthesis "(as Vat. a, ... R (Bibl. Riccard. Flor. 77)" is left unclosed as printed.
