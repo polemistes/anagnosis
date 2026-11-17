@@ -1,208 +1,208 @@
-kind	line	ord	form	sentence	word_id	tree_form	tree_lemma	tree_postag	same_construction	difference	extent
-unit	1.1.2	49	οὐδὲ	1047379	7+8	οὐ δὲ	οὐ δέ	d--------			
-unit	2.3.1	8	μηδὲ	1047489	11+12	μη δὲ	μή δέ	c--------			
-unit	7.1.2	4	μηδὲ	1047883	5+6	μη δὲ	μή δέ	c--------			
-unit	8.1.4	26	μηδὲ	1047917	21+22	μη δὲ	μή δέ	c--------			
-unit	9.1.10	7	εἴτε	1047950	9+10	εἴ τε	εἰ τε	c--------			
-unit	9.1.10	9	εἴτε	1047950	12+13	εἴ τε	εἰ τε	c--------			
-unit	10.2.1	35	οὐδὲ	1048018	10+11	οὐ δὲ	οὐ δέ	c--------			
-unit	10.2.6	11	μηδὲ	1048028	13+14	μη δὲ	μή δέ	c--------			
-unit	11.1.4	10	οὔτε	1048047	1+2	οὔ τε	οὐ τε	d--------			
-unit	11.1.4	14	οὔτε	1048047	6+7	οὔ τε	οὐ τε	c--------			
-reading	11.2.6	19	ἀσύμφορα	1048068	22	ἀσύμποφα	ἀσύμποφος	a-p---nn-		spelling	
-unit	12.1.2	24	οὐδὲ	1048084	8+9	οὐ δὲ	οὐ δέ	c--------			
-unit	12.1.5	50	οὐδὲ	1048100	9+10	οὐ δὲ	οὐ δέ	d--------			
-reading	14.1.10	34	αὐτῆς	1048157	20	αὐτῇς	αὐτός	p-p---fd-		form	
-unit	15.1.4	8	μηδὲ	1048169	7+8	μη δὲ	μή δέ	d--------			
-unit	15.2.6	14	οὐδὲ	1048184	15+16	οὐ δὲ	οὐ δέ	c--------			
-unit	15.3.2	31	μηδὲ	1048189	13+14	μη δὲ	μή δέ	c--------			
-unit	16.1.8	37	οὐδὲ	1048218	39+40	οὐ δὲ	οὐ δέ	d--------			
-unit	16.1.8	40	οὐδὲ	1048218	44+45	οὐ δὲ	οὐ δέ	d--------			
-unit	17.3.6	13	οὔτε	1048292	12+13	οὔ τε	οὐ τε	d--------			
-unit	17.3.6	17	οὔτε	1048292	17+18	οὔ τε	οὐ τε	c--------			
-unit	17.4.5	26	οὔτε	1048301	31+32	οὔ τε	οὐ τε	d--------			
-unit	17.4.5	28	οὔτε	1048301	34+35	οὔ τε	οὐ τε	c--------			
-unit	18.1.10	9	μηδὲ	1048357	11+12	μη δὲ	μή δέ	c--------			
-unit	18.1.11	12	μηδὲ	1048360	15+16	μη δὲ	μή δέ	d--------			
-unit	18.1.11	16	μηδὲ	1048360	20+21	μη δὲ	μή δέ	c--------			
-unit	19.1.8	13	οὐδὲ	1048390	15+16	οὐ δὲ	οὐ δέ	c--------			
-unit	20.1.2	11	οὔτε	1048403	5+6	οὔ τε	οὐ τε	d--------			
-unit	20.1.2	15	οὔτε	1048403	10+11	οὔ τε	οὐ τε	c--------			
-unit	20.1.3	29	οὔτε	1048405	31+32	οὔ τε	οὐ τε	d--------			
-unit	20.1.3	32	οὔτε	1048405	35+36	οὔ τε	οὐ τε	c--------			
-unit	22.1.3	6	οὐδέ	1048433	10+11	οὐ δέ	οὐ δέ	c--------			
-unit	22.3.1	8	οὐδὲ	1048474	9+10	οὐ δὲ	οὐ δέ	c--------			
-unit	22.5.4	19	οὐδὲ	1048525	1+2	οὐ δὲ	οὐ δέ	d--------			
-unit	22.7.4	8	μηδὲ	1048552	29+30	μη δὲ	μή δέ	c--------			
-unit	25.3.7	24	μηδὲ	1048784	27+28	μη δὲ	μή δέ	c--------			
-reading	25.6.3	38	μετανοήσωσι	1048833	42	μενανοήσωσι	μενανοέω	v3pasa---		spelling	
-unit	25.6.4	48	οὐδὲ	1048837	5+6	οὐ δὲ	οὐ δέ	d--------			
-unit	25.7.1	20	οὔτε	1048850	1+2	οὔ τε	οὐ τε	d--------			
-unit	25.7.1	23	οὔτε	1048850	5+6	οὔ τε	οὐ τε	c--------			
-unit	26.4.6	27	οὐδὲ	1048999	8+9	οὐ δὲ	οὐ δέ	c--------			
-unit	26.6.4	21	οὔτε	1049035	27+28	οὔ τε	οὐ τε	d--------			
-unit	26.6.4	23	οὔτε	1049035	30+31	οὔ τε	οὐ τε	c--------			
-unit	26.9.2	8	οὐδὲ	1049102	13+14	οὐ δὲ	οὐ δέ	d--------			
-unit	26.9.2	11	οὐδὲ	1049102	17+18	οὐ δὲ	οὐ δέ	c--------			
-reading	26.11.2	19	ἀποκριθεῖσαι	1049159	3	ἀκοκριθεῖσαι	ἀκοκριτίθημι	v-pappfn-		spelling	
-reading	26.11.7	50	παρθένων	1049177	12	παρθένον	παρθένος	n-s---fa-		form	
-unit	26.14.4	33	οὐδʼ	1049253	13+14	οὐ δʼ	οὐ δέ	d--------			
-unit	26.15.6	14	οὔτε	1049278	18+19	οὔ τε	οὐ τε	d--------			
-unit	26.15.6	20	οὔτε	1049278	25+26	οὔ τε	οὐ τε	c--------			
-unit	26.19.3	32	οὐδὲ	1049343	16+17	οὐ δὲ	οὐ δέ	c--------			
-unit	26.19.3	70	μηδὲ	1049346	11+12	μη δὲ	μή δέ	c--------			
-unit	26.21.2	25	οὔτε	1049360	3+4	οὔ τε	οὐ τε	d--------			
-unit	26.21.2	27	οὔτε	1049360	6+7	οὔ τε	οὐ τε	c--------			
-unit	26.21.2	38	οὔτε	1049362	5+6	οὔ τε	οὐ τε	d--------			
-unit	26.21.2	41	οὔτε	1049362	9+10	οὔ τε	οὐ τε	c--------			
-unit	26.21.2	43	οὔτε	1049363	1+2	οὔ τε	οὐ τε	d--------			
-unit	26.21.2	46	οὔτε	1049363	5+6	οὔ τε	οὐ τε	c--------			
-unit	26.21.4	3	οὔτε	1049365	4+5	οὔ τε	οὐ τε	d--------			
-unit	26.21.4	5	οὔτε	1049365	7+8	οὔ τε	οὐ τε	c--------			
-reading	26.23.5	15	μετανοήσατε	1049389	9	μετανήσατε	μετανέω	v2pama---		spelling	
-unit	26.29.1	23	οὐδὲ	1049448	13+14	οὐ δὲ	οὐ δέ	c--------			
-unprinted				1049460	1	πιστεύσαντες	πιστεύω	v-papamn-			passage
-unprinted				1049460	2	καὶ	καί	c--------			passage
-unprinted				1049460	3	οἱ	ὁ	l-p---mn-			passage
-unprinted				1049460	4	μέλλοντες	μέλλω	v-pppamn-			passage
-unprinted				1049460	5	πιστεύειν	πιστεύω	v--pna---			passage
-unprinted				1049461	1	ἐκ	ἐκ	r--------			passage
-unprinted				1049461	2	τοῦ	ὁ	l-s---ng-			passage
-unprinted				1049461	3	αὐτοῦ	αὐτός	p-s---ng-			passage
-unprinted				1049461	4	γὰρ	γάρ	g--------			passage
-unprinted				1049461	5	γένους	γένος	n-s---ng-			passage
-unprinted				1049461	6	εἰσίν	εἰμί	v3ppia---			passage
-unprinted				1049462	1	μακάριον	μακάριος	a-s---nn-			passage
-unprinted				1049462	2	τὸ	ὁ	l-s---nn-			passage
-unprinted				1049462	3	γένος	γένος	n-s---nn-			passage
-unprinted				1049462	4	τοῦτο	οὗτος	p-s---nn-			passage
-unprinted				1049462	6	ὅτι	ὅτι	c--------			passage
-unprinted				1049462	7	ἄκακόν	ἄκακος	a-s---nn-			passage
-unprinted				1049462	8	ἐστιν	εἰμί	v3spia---			passage
-unprinted				1049463	1	ἄκουε	ἀκούω	v2spma---			passage
-unprinted				1049463	2	νῦν	νῦν	d--------			passage
-unprinted				1049463	3	καὶ	καί	c--------			passage
-unprinted				1049463	4	περὶ	περί	r--------			passage
-unprinted				1049463	5	τῶν	ὁ	l-p---mg-			passage
-unprinted				1049463	6	λίθων	λίθος	n-p---mg-			passage
-unprinted				1049463	7	τῶν	ὁ	l-p---mg-			passage
-unprinted				1049463	8	στρογγύλων	στρογγύλος	a-p---mg-			passage
-unprinted				1049463	9	καὶ	καί	c--------			passage
-unprinted				1049463	10	λαμπρῶν	λαμπρός	a-p---mg-			passage
-unprinted				1049464	1	καὶ	καί	c--------			passage
-unprinted				1049464	2	αὐτοὶ	αὐτός	p-p---mn-			passage
-unprinted				1049464	3	πάντες	πᾶς	p-p---mn-			passage
-unprinted				1049464	4	ἐκ	ἐκ	r--------			passage
-unprinted				1049464	5	τοῦ	ὁ	l-s---ng-			passage
-unprinted				1049464	6	ὄρους	ὄρος	n-s---ng-			passage
-unprinted				1049464	7	τοῦ	ὁ	l-s---ng-			passage
-unprinted				1049464	8	λευκοῦ	λευκός	a-s---ng-			passage
-unprinted				1049464	9	εἰσίν	εἰμί	v3ppia---			passage
-unprinted				1049465	1	χαρήσεται	χαίρω	v3sfip---			passage
-unprinted				1049465	2	δέ	δέ	c--------			passage
-unprinted				1049465	4	ἐὰν	ἐάν	c--------			passage
-unprinted				1049465	5	πάντα	πᾶς	p-p---nn-			passage
-unprinted				1049465	6	ὑγιῆ	ὑγιής	a-p---nn-			passage
-unprinted				1049465	7	εὑρεθῇ	εὑρίσκω	v3sasp---			passage
-unprinted				1049465	9	καὶ	καί	c--------			passage
-unprinted				1049465	10	μὴ	μή	d--------			passage
-unprinted				1049465	11	διαπεπτωκότα	διαπίπτω	v-prpann-			passage
-unprinted				1049465	12	ἐξ	ἐκ	r--------			passage
-unprinted				1049465	13	αὐτῶν	αὐτός	p-p---ng-			passage
-unprinted				1049466	1	ἐὰν	ἐάν	c--------			passage
-unprinted				1049466	2	δὲ	δέ	c--------			passage
-unprinted				1049466	3	εὑρεθῇ	εὑρίσκω	v3sasp---			passage
-unprinted				1049466	4	τινα	τις	p-p---nn-			passage
-unprinted				1049466	5	ἐξ	ἐκ	r--------			passage
-unprinted				1049466	6	αὐτῶν	αὐτός	p-p---mg-			passage
-unprinted				1049466	7	διαπεπτωκότα	διαπίπτω	v-prpann-			passage
-unprinted				1049466	9	οὐαὶ	οὐαί	i--------			passage
-unprinted				1049466	10	τοῖς	ὁ	l-p---md-			passage
-unprinted				1049466	11	ποιμέσιν	ποιμήν	n-p---md-			passage
-unprinted				1049466	12	ἔσται	εἰμί	v3sfim---			passage
-unprinted				1049467	1	ἐὰν	ἐάν	c--------			passage
-unprinted				1049467	2	δὲ	δέ	c--------			passage
-unprinted				1049467	3	καὶ	καί	c--------			passage
-unprinted				1049467	4	αὐτοὶ	αὐτός	p-p---mn-			passage
-unprinted				1049467	5	οἱ	ὁ	l-p---mn-			passage
-unprinted				1049467	6	ποιμένες	ποιμήν	n-p---mn-			passage
-unprinted				1049467	7	εὑρεθῶσι	εὑρίσκω	v3pasp---			passage
-unprinted				1049467	8	διαπεπτωκότες	διαπίπτω	v-prpamn-			passage
-unprinted				1049467	10	τί	τίς	p-s---na-			passage
-unprinted				1049467	11	ἐροῦσι	λέγω	v3pfia---			passage
-unprinted				1049467	12	τῷ	ὁ	l-s---md-			passage
-unprinted				1049467	13	δεσπότῃ	δεσπότης	n-s---md-			passage
-unprinted				1049467	14	τοῦ	ὁ	l-s---ng-			passage
-unprinted				1049467	15	ποιμνίου	ποίμνιον	n-s---ng-			passage
-unprinted				1049468	1	ὅτι	ὅτι	c--------			passage
-unprinted				1049468	2	ἀπὸ	ἀπό	r--------			passage
-unprinted				1049468	3	τῶν	ὁ	l-p---ng-			passage
-unprinted				1049468	4	προβάτων	πρόβατον	n-p---ng-			passage
-unprinted				1049468	5	διέπεσαν	διεφίημι	v3paia---			passage
-unprinted				1049469	1	οὐ	οὐ	d--------			passage
-unprinted				1049469	2	πιστευθήσονται	πιστεύω	v3pfip---			passage
-unprinted				1049470	1	ἄπιστον	ἄπιστος	a-s---nn-			passage
-unprinted				1049470	2	γὰρ	γάρ	g--------			passage
-unprinted				1049470	3	πρᾶγμά	πρᾶγμα	n-s---nn-			passage
-unprinted				1049470	4	ἐστι	εἰμί	v3spia---			passage
-unprinted				1049470	5	ποιμένα	ποιμήν	n-s---ma-			passage
-unprinted				1049470	6	ὑπὸ	ὑπό	r--------			passage
-unprinted				1049470	7	προβάτων	πρόβατον	n-p---ng-			passage
-unprinted				1049470	8	παθεῖν	πάσχω	v--ana---			passage
-unprinted				1049470	9	τι	τις	p-s---na-			passage
-unprinted				1049471	1	μᾶλλον	μάλα	d-------c			passage
-unprinted				1049471	2	δὲ	δέ	c--------			passage
-unprinted				1049471	3	κολασθήσονται	κολάζω	v3pfip---			passage
-unprinted				1049471	4	διὰ	διά	r--------			passage
-unprinted				1049471	5	τὸ	ὁ	l-s---na-			passage
-unprinted				1049471	6	ψεῦδος	ψεῦδος	n-s---na-			passage
-unprinted				1049471	7	αὐτῶν	αὐτός	p-p---mg-			passage
-unprinted				1049472	1	καὶ	καί	c--------			passage
-unprinted				1049472	2	ὥσπερ	ὥσπερ	c--------			passage
-unprinted				1049472	3	οὗτος	οὗτος	p-s---mn-			passage
-unprinted				1049472	5	ᾧ	ὅς	p-s---md-			passage
-unprinted				1049472	6	παρέδωκάς	παραδίδωμι	v2saia---			passage
-unprinted				1049472	7	με	ἐγώ	p-s---ca-			passage
-unprinted				1049472	9	οὐ	οὐ	d--------			passage
-unprinted				1049472	10	μέμφεταί	μέμφομαι	v3spim---			passage
-unprinted				1049472	11	με	ἐγώ	p-s---ca-			passage
-unprinted				1049472	13	οὐ	οὐ	d--------			passage
-unprinted				1049472	14	δὲ	δέ	c--------			passage
-unprinted				1049472	15	αὗται	οὗτος	p-p---fn-			passage
-unprinted				1049472	16	μέμψονταί	μέμφομαι	v3pfim---			passage
-unprinted				1049472	17	με	ἐγώ	p-s---ca-			passage
-unprinted				1049473	1	λέγει	λέγω	v3spia---			passage
-unprinted				1049473	2	τῷ	ὁ	l-s---md-			passage
-unprinted				1049473	3	ποιμένι	ποιμήν	n-s---md-			passage
-unprinted				1049474	1	οἶδα	οἶδα	v1sria---			passage
-unprinted				1049474	3	ὅτι	ὅτι	c--------			passage
-unprinted				1049474	4	ὁ	ὁ	l-s---mn-			passage
-unprinted				1049474	5	δοῦλος	δοῦλος	n-s---mn-			passage
-unprinted				1049474	6	τοῦ	ὁ	l-s---mg-			passage
-unprinted				1049474	7	θεοῦ	θεός	n-s---mg-			passage
-unprinted				1049474	8	θέλει	ἐθέλω	v3spia---			passage
-unprinted				1049474	9	ζῆν	ζάω	v--pna---			passage
-unprinted				1049474	10	καὶ	καί	c--------			passage
-unprinted				1049474	11	τηρήσει	τηρέω	v3sfia---			passage
-unprinted				1049474	12	τὰς	ὁ	l-p---fa-			passage
-unprinted				1049474	13	ἐντολὰς	ἐντολή	n-p---fa-			passage
-unprinted				1049474	14	ταύτας	οὗτος	p-p---fa-			passage
-unprinted				1049474	15	καὶ	καί	c--------			passage
-unprinted				1049474	16	τὰς	ὁ	l-p---fa-			passage
-unprinted				1049474	17	παρθένους	παρθένος	n-p---fa-			passage
-unprinted				1049474	18	ἐν	ἐν	r--------			passage
-unprinted				1049474	19	καθαρότητι	καθαρότης	n-s---fd-			passage
-unprinted				1049474	20	καταστήσει	καθίστημι	v3sfia---			passage
-unprinted				1049475	1	ταῦτα	οὗτος	p-p---na-			passage
-unprinted				1049475	2	εἰπὼν	λέγω	v-sapamn-			passage
-unprinted				1049475	3	τῷ	ὁ	l-s---md-			passage
-unprinted				1049475	4	ποιμένι	ποιμήν	n-s---md-			passage
-unprinted				1049475	5	πάλιν	πάλιν	d--------			passage
-unprinted				1049475	6	παρέδωκέν	παραδίδωμι	v3saia---			passage
-unprinted				1049475	7	με	ἐγώ	p-s---ca-			passage
-unprinted				1049475	8	καὶ	καί	c--------			passage
-unprinted				1049475	9	τὰς	ὁ	l-p---fa-			passage
-unprinted				1049475	10	παρθένους	παρθένος	n-p---fa-			passage
-unprinted				1049475	11	καλέσας	καλέω	v-sapamn-			passage
-unprinted				1049475	13	λέγει	λέγω	v3spia---			passage
-unprinted				1049475	14	αὐταῖς	αὐτός	p-p---fd-			passage
+kind	line	ord	form	sentence	word_id	tree_form	tree_lemma	tree_postag	same_construction	difference	extent	misprint
+unit	1.1.2	49	οὐδὲ	1047379	7+8	οὐ δὲ	οὐ δέ	d--------				
+unit	2.3.1	8	μηδὲ	1047489	11+12	μη δὲ	μή δέ	c--------				
+unit	7.1.2	4	μηδὲ	1047883	5+6	μη δὲ	μή δέ	c--------				
+unit	8.1.4	26	μηδὲ	1047917	21+22	μη δὲ	μή δέ	c--------				
+unit	9.1.10	7	εἴτε	1047950	9+10	εἴ τε	εἰ τε	c--------				
+unit	9.1.10	9	εἴτε	1047950	12+13	εἴ τε	εἰ τε	c--------				
+unit	10.2.1	35	οὐδὲ	1048018	10+11	οὐ δὲ	οὐ δέ	c--------				
+unit	10.2.6	11	μηδὲ	1048028	13+14	μη δὲ	μή δέ	c--------				
+unit	11.1.4	10	οὔτε	1048047	1+2	οὔ τε	οὐ τε	d--------				
+unit	11.1.4	14	οὔτε	1048047	6+7	οὔ τε	οὐ τε	c--------				
+reading	11.2.6	19	ἀσύμφορα	1048068	22	ἀσύμποφα	ἀσύμποφος	a-p---nn-		spelling		1
+unit	12.1.2	24	οὐδὲ	1048084	8+9	οὐ δὲ	οὐ δέ	c--------				
+unit	12.1.5	50	οὐδὲ	1048100	9+10	οὐ δὲ	οὐ δέ	d--------				
+reading	14.1.10	34	αὐτῆς	1048157	20	αὐτῇς	αὐτός	p-p---fd-		form		1
+unit	15.1.4	8	μηδὲ	1048169	7+8	μη δὲ	μή δέ	d--------				
+unit	15.2.6	14	οὐδὲ	1048184	15+16	οὐ δὲ	οὐ δέ	c--------				
+unit	15.3.2	31	μηδὲ	1048189	13+14	μη δὲ	μή δέ	c--------				
+unit	16.1.8	37	οὐδὲ	1048218	39+40	οὐ δὲ	οὐ δέ	d--------				
+unit	16.1.8	40	οὐδὲ	1048218	44+45	οὐ δὲ	οὐ δέ	d--------				
+unit	17.3.6	13	οὔτε	1048292	12+13	οὔ τε	οὐ τε	d--------				
+unit	17.3.6	17	οὔτε	1048292	17+18	οὔ τε	οὐ τε	c--------				
+unit	17.4.5	26	οὔτε	1048301	31+32	οὔ τε	οὐ τε	d--------				
+unit	17.4.5	28	οὔτε	1048301	34+35	οὔ τε	οὐ τε	c--------				
+unit	18.1.10	9	μηδὲ	1048357	11+12	μη δὲ	μή δέ	c--------				
+unit	18.1.11	12	μηδὲ	1048360	15+16	μη δὲ	μή δέ	d--------				
+unit	18.1.11	16	μηδὲ	1048360	20+21	μη δὲ	μή δέ	c--------				
+unit	19.1.8	13	οὐδὲ	1048390	15+16	οὐ δὲ	οὐ δέ	c--------				
+unit	20.1.2	11	οὔτε	1048403	5+6	οὔ τε	οὐ τε	d--------				
+unit	20.1.2	15	οὔτε	1048403	10+11	οὔ τε	οὐ τε	c--------				
+unit	20.1.3	29	οὔτε	1048405	31+32	οὔ τε	οὐ τε	d--------				
+unit	20.1.3	32	οὔτε	1048405	35+36	οὔ τε	οὐ τε	c--------				
+unit	22.1.3	6	οὐδέ	1048433	10+11	οὐ δέ	οὐ δέ	c--------				
+unit	22.3.1	8	οὐδὲ	1048474	9+10	οὐ δὲ	οὐ δέ	c--------				
+unit	22.5.4	19	οὐδὲ	1048525	1+2	οὐ δὲ	οὐ δέ	d--------				
+unit	22.7.4	8	μηδὲ	1048552	29+30	μη δὲ	μή δέ	c--------				
+unit	25.3.7	24	μηδὲ	1048784	27+28	μη δὲ	μή δέ	c--------				
+reading	25.6.3	38	μετανοήσωσι	1048833	42	μενανοήσωσι	μενανοέω	v3pasa---		spelling		1
+unit	25.6.4	48	οὐδὲ	1048837	5+6	οὐ δὲ	οὐ δέ	d--------				
+unit	25.7.1	20	οὔτε	1048850	1+2	οὔ τε	οὐ τε	d--------				
+unit	25.7.1	23	οὔτε	1048850	5+6	οὔ τε	οὐ τε	c--------				
+unit	26.4.6	27	οὐδὲ	1048999	8+9	οὐ δὲ	οὐ δέ	c--------				
+unit	26.6.4	21	οὔτε	1049035	27+28	οὔ τε	οὐ τε	d--------				
+unit	26.6.4	23	οὔτε	1049035	30+31	οὔ τε	οὐ τε	c--------				
+unit	26.9.2	8	οὐδὲ	1049102	13+14	οὐ δὲ	οὐ δέ	d--------				
+unit	26.9.2	11	οὐδὲ	1049102	17+18	οὐ δὲ	οὐ δέ	c--------				
+reading	26.11.2	19	ἀποκριθεῖσαι	1049159	3	ἀκοκριθεῖσαι	ἀκοκριτίθημι	v-pappfn-		spelling		1
+reading	26.11.7	50	παρθένων	1049177	12	παρθένον	παρθένος	n-s---fa-		form		1
+unit	26.14.4	33	οὐδʼ	1049253	13+14	οὐ δʼ	οὐ δέ	d--------				
+unit	26.15.6	14	οὔτε	1049278	18+19	οὔ τε	οὐ τε	d--------				
+unit	26.15.6	20	οὔτε	1049278	25+26	οὔ τε	οὐ τε	c--------				
+unit	26.19.3	32	οὐδὲ	1049343	16+17	οὐ δὲ	οὐ δέ	c--------				
+unit	26.19.3	70	μηδὲ	1049346	11+12	μη δὲ	μή δέ	c--------				
+unit	26.21.2	25	οὔτε	1049360	3+4	οὔ τε	οὐ τε	d--------				
+unit	26.21.2	27	οὔτε	1049360	6+7	οὔ τε	οὐ τε	c--------				
+unit	26.21.2	38	οὔτε	1049362	5+6	οὔ τε	οὐ τε	d--------				
+unit	26.21.2	41	οὔτε	1049362	9+10	οὔ τε	οὐ τε	c--------				
+unit	26.21.2	43	οὔτε	1049363	1+2	οὔ τε	οὐ τε	d--------				
+unit	26.21.2	46	οὔτε	1049363	5+6	οὔ τε	οὐ τε	c--------				
+unit	26.21.4	3	οὔτε	1049365	4+5	οὔ τε	οὐ τε	d--------				
+unit	26.21.4	5	οὔτε	1049365	7+8	οὔ τε	οὐ τε	c--------				
+reading	26.23.5	15	μετανοήσατε	1049389	9	μετανήσατε	μετανέω	v2pama---		spelling		1
+unit	26.29.1	23	οὐδὲ	1049448	13+14	οὐ δὲ	οὐ δέ	c--------				
+unprinted				1049460	1	πιστεύσαντες	πιστεύω	v-papamn-			passage	
+unprinted				1049460	2	καὶ	καί	c--------			passage	
+unprinted				1049460	3	οἱ	ὁ	l-p---mn-			passage	
+unprinted				1049460	4	μέλλοντες	μέλλω	v-pppamn-			passage	
+unprinted				1049460	5	πιστεύειν	πιστεύω	v--pna---			passage	
+unprinted				1049461	1	ἐκ	ἐκ	r--------			passage	
+unprinted				1049461	2	τοῦ	ὁ	l-s---ng-			passage	
+unprinted				1049461	3	αὐτοῦ	αὐτός	p-s---ng-			passage	
+unprinted				1049461	4	γὰρ	γάρ	g--------			passage	
+unprinted				1049461	5	γένους	γένος	n-s---ng-			passage	
+unprinted				1049461	6	εἰσίν	εἰμί	v3ppia---			passage	
+unprinted				1049462	1	μακάριον	μακάριος	a-s---nn-			passage	
+unprinted				1049462	2	τὸ	ὁ	l-s---nn-			passage	
+unprinted				1049462	3	γένος	γένος	n-s---nn-			passage	
+unprinted				1049462	4	τοῦτο	οὗτος	p-s---nn-			passage	
+unprinted				1049462	6	ὅτι	ὅτι	c--------			passage	
+unprinted				1049462	7	ἄκακόν	ἄκακος	a-s---nn-			passage	
+unprinted				1049462	8	ἐστιν	εἰμί	v3spia---			passage	
+unprinted				1049463	1	ἄκουε	ἀκούω	v2spma---			passage	
+unprinted				1049463	2	νῦν	νῦν	d--------			passage	
+unprinted				1049463	3	καὶ	καί	c--------			passage	
+unprinted				1049463	4	περὶ	περί	r--------			passage	
+unprinted				1049463	5	τῶν	ὁ	l-p---mg-			passage	
+unprinted				1049463	6	λίθων	λίθος	n-p---mg-			passage	
+unprinted				1049463	7	τῶν	ὁ	l-p---mg-			passage	
+unprinted				1049463	8	στρογγύλων	στρογγύλος	a-p---mg-			passage	
+unprinted				1049463	9	καὶ	καί	c--------			passage	
+unprinted				1049463	10	λαμπρῶν	λαμπρός	a-p---mg-			passage	
+unprinted				1049464	1	καὶ	καί	c--------			passage	
+unprinted				1049464	2	αὐτοὶ	αὐτός	p-p---mn-			passage	
+unprinted				1049464	3	πάντες	πᾶς	p-p---mn-			passage	
+unprinted				1049464	4	ἐκ	ἐκ	r--------			passage	
+unprinted				1049464	5	τοῦ	ὁ	l-s---ng-			passage	
+unprinted				1049464	6	ὄρους	ὄρος	n-s---ng-			passage	
+unprinted				1049464	7	τοῦ	ὁ	l-s---ng-			passage	
+unprinted				1049464	8	λευκοῦ	λευκός	a-s---ng-			passage	
+unprinted				1049464	9	εἰσίν	εἰμί	v3ppia---			passage	
+unprinted				1049465	1	χαρήσεται	χαίρω	v3sfip---			passage	
+unprinted				1049465	2	δέ	δέ	c--------			passage	
+unprinted				1049465	4	ἐὰν	ἐάν	c--------			passage	
+unprinted				1049465	5	πάντα	πᾶς	p-p---nn-			passage	
+unprinted				1049465	6	ὑγιῆ	ὑγιής	a-p---nn-			passage	
+unprinted				1049465	7	εὑρεθῇ	εὑρίσκω	v3sasp---			passage	
+unprinted				1049465	9	καὶ	καί	c--------			passage	
+unprinted				1049465	10	μὴ	μή	d--------			passage	
+unprinted				1049465	11	διαπεπτωκότα	διαπίπτω	v-prpann-			passage	
+unprinted				1049465	12	ἐξ	ἐκ	r--------			passage	
+unprinted				1049465	13	αὐτῶν	αὐτός	p-p---ng-			passage	
+unprinted				1049466	1	ἐὰν	ἐάν	c--------			passage	
+unprinted				1049466	2	δὲ	δέ	c--------			passage	
+unprinted				1049466	3	εὑρεθῇ	εὑρίσκω	v3sasp---			passage	
+unprinted				1049466	4	τινα	τις	p-p---nn-			passage	
+unprinted				1049466	5	ἐξ	ἐκ	r--------			passage	
+unprinted				1049466	6	αὐτῶν	αὐτός	p-p---mg-			passage	
+unprinted				1049466	7	διαπεπτωκότα	διαπίπτω	v-prpann-			passage	
+unprinted				1049466	9	οὐαὶ	οὐαί	i--------			passage	
+unprinted				1049466	10	τοῖς	ὁ	l-p---md-			passage	
+unprinted				1049466	11	ποιμέσιν	ποιμήν	n-p---md-			passage	
+unprinted				1049466	12	ἔσται	εἰμί	v3sfim---			passage	
+unprinted				1049467	1	ἐὰν	ἐάν	c--------			passage	
+unprinted				1049467	2	δὲ	δέ	c--------			passage	
+unprinted				1049467	3	καὶ	καί	c--------			passage	
+unprinted				1049467	4	αὐτοὶ	αὐτός	p-p---mn-			passage	
+unprinted				1049467	5	οἱ	ὁ	l-p---mn-			passage	
+unprinted				1049467	6	ποιμένες	ποιμήν	n-p---mn-			passage	
+unprinted				1049467	7	εὑρεθῶσι	εὑρίσκω	v3pasp---			passage	
+unprinted				1049467	8	διαπεπτωκότες	διαπίπτω	v-prpamn-			passage	
+unprinted				1049467	10	τί	τίς	p-s---na-			passage	
+unprinted				1049467	11	ἐροῦσι	λέγω	v3pfia---			passage	
+unprinted				1049467	12	τῷ	ὁ	l-s---md-			passage	
+unprinted				1049467	13	δεσπότῃ	δεσπότης	n-s---md-			passage	
+unprinted				1049467	14	τοῦ	ὁ	l-s---ng-			passage	
+unprinted				1049467	15	ποιμνίου	ποίμνιον	n-s---ng-			passage	
+unprinted				1049468	1	ὅτι	ὅτι	c--------			passage	
+unprinted				1049468	2	ἀπὸ	ἀπό	r--------			passage	
+unprinted				1049468	3	τῶν	ὁ	l-p---ng-			passage	
+unprinted				1049468	4	προβάτων	πρόβατον	n-p---ng-			passage	
+unprinted				1049468	5	διέπεσαν	διεφίημι	v3paia---			passage	
+unprinted				1049469	1	οὐ	οὐ	d--------			passage	
+unprinted				1049469	2	πιστευθήσονται	πιστεύω	v3pfip---			passage	
+unprinted				1049470	1	ἄπιστον	ἄπιστος	a-s---nn-			passage	
+unprinted				1049470	2	γὰρ	γάρ	g--------			passage	
+unprinted				1049470	3	πρᾶγμά	πρᾶγμα	n-s---nn-			passage	
+unprinted				1049470	4	ἐστι	εἰμί	v3spia---			passage	
+unprinted				1049470	5	ποιμένα	ποιμήν	n-s---ma-			passage	
+unprinted				1049470	6	ὑπὸ	ὑπό	r--------			passage	
+unprinted				1049470	7	προβάτων	πρόβατον	n-p---ng-			passage	
+unprinted				1049470	8	παθεῖν	πάσχω	v--ana---			passage	
+unprinted				1049470	9	τι	τις	p-s---na-			passage	
+unprinted				1049471	1	μᾶλλον	μάλα	d-------c			passage	
+unprinted				1049471	2	δὲ	δέ	c--------			passage	
+unprinted				1049471	3	κολασθήσονται	κολάζω	v3pfip---			passage	
+unprinted				1049471	4	διὰ	διά	r--------			passage	
+unprinted				1049471	5	τὸ	ὁ	l-s---na-			passage	
+unprinted				1049471	6	ψεῦδος	ψεῦδος	n-s---na-			passage	
+unprinted				1049471	7	αὐτῶν	αὐτός	p-p---mg-			passage	
+unprinted				1049472	1	καὶ	καί	c--------			passage	
+unprinted				1049472	2	ὥσπερ	ὥσπερ	c--------			passage	
+unprinted				1049472	3	οὗτος	οὗτος	p-s---mn-			passage	
+unprinted				1049472	5	ᾧ	ὅς	p-s---md-			passage	
+unprinted				1049472	6	παρέδωκάς	παραδίδωμι	v2saia---			passage	
+unprinted				1049472	7	με	ἐγώ	p-s---ca-			passage	
+unprinted				1049472	9	οὐ	οὐ	d--------			passage	
+unprinted				1049472	10	μέμφεταί	μέμφομαι	v3spim---			passage	
+unprinted				1049472	11	με	ἐγώ	p-s---ca-			passage	
+unprinted				1049472	13	οὐ	οὐ	d--------			passage	
+unprinted				1049472	14	δὲ	δέ	c--------			passage	
+unprinted				1049472	15	αὗται	οὗτος	p-p---fn-			passage	
+unprinted				1049472	16	μέμψονταί	μέμφομαι	v3pfim---			passage	
+unprinted				1049472	17	με	ἐγώ	p-s---ca-			passage	
+unprinted				1049473	1	λέγει	λέγω	v3spia---			passage	
+unprinted				1049473	2	τῷ	ὁ	l-s---md-			passage	
+unprinted				1049473	3	ποιμένι	ποιμήν	n-s---md-			passage	
+unprinted				1049474	1	οἶδα	οἶδα	v1sria---			passage	
+unprinted				1049474	3	ὅτι	ὅτι	c--------			passage	
+unprinted				1049474	4	ὁ	ὁ	l-s---mn-			passage	
+unprinted				1049474	5	δοῦλος	δοῦλος	n-s---mn-			passage	
+unprinted				1049474	6	τοῦ	ὁ	l-s---mg-			passage	
+unprinted				1049474	7	θεοῦ	θεός	n-s---mg-			passage	
+unprinted				1049474	8	θέλει	ἐθέλω	v3spia---			passage	
+unprinted				1049474	9	ζῆν	ζάω	v--pna---			passage	
+unprinted				1049474	10	καὶ	καί	c--------			passage	
+unprinted				1049474	11	τηρήσει	τηρέω	v3sfia---			passage	
+unprinted				1049474	12	τὰς	ὁ	l-p---fa-			passage	
+unprinted				1049474	13	ἐντολὰς	ἐντολή	n-p---fa-			passage	
+unprinted				1049474	14	ταύτας	οὗτος	p-p---fa-			passage	
+unprinted				1049474	15	καὶ	καί	c--------			passage	
+unprinted				1049474	16	τὰς	ὁ	l-p---fa-			passage	
+unprinted				1049474	17	παρθένους	παρθένος	n-p---fa-			passage	
+unprinted				1049474	18	ἐν	ἐν	r--------			passage	
+unprinted				1049474	19	καθαρότητι	καθαρότης	n-s---fd-			passage	
+unprinted				1049474	20	καταστήσει	καθίστημι	v3sfia---			passage	
+unprinted				1049475	1	ταῦτα	οὗτος	p-p---na-			passage	
+unprinted				1049475	2	εἰπὼν	λέγω	v-sapamn-			passage	
+unprinted				1049475	3	τῷ	ὁ	l-s---md-			passage	
+unprinted				1049475	4	ποιμένι	ποιμήν	n-s---md-			passage	
+unprinted				1049475	5	πάλιν	πάλιν	d--------			passage	
+unprinted				1049475	6	παρέδωκέν	παραδίδωμι	v3saia---			passage	
+unprinted				1049475	7	με	ἐγώ	p-s---ca-			passage	
+unprinted				1049475	8	καὶ	καί	c--------			passage	
+unprinted				1049475	9	τὰς	ὁ	l-p---fa-			passage	
+unprinted				1049475	10	παρθένους	παρθένος	n-p---fa-			passage	
+unprinted				1049475	11	καλέσας	καλέω	v-sapamn-			passage	
+unprinted				1049475	13	λέγει	λέγω	v3spia---			passage	
+unprinted				1049475	14	αὐταῖς	αὐτός	p-p---fd-			passage	

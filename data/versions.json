@@ -28,28 +28,28 @@
     "digest": "286777e1c7df947daef1eedf5d0f4e81c63eceaddf09658fa97b664ba2e59ae9"
   },
   "gorgias": {
-    "version": "88d98c600fbbaf09",
-    "digest": "88d98c600fbbaf09cabe2f7d943e5a5837bb260c3096ce852333c7f7496d7b1a"
+    "version": "058ce3e029aad4ed",
+    "digest": "058ce3e029aad4ed95d152b230b7cdf32de6444aa0e53555ac0cc64036736238"
   },
   "hermas": {
-    "version": "783b695a865c4589",
-    "digest": "783b695a865c458926db8b2ba126386fe953e3044b47cf00f100341799ff1aaa"
+    "version": "be3974baf4ad532c",
+    "digest": "be3974baf4ad532c9a2a6296fe9a37842e1ea619a513a79b9592f52f5065b6d6"
   },
   "lexicon": {
     "version": "9881e87715df0bba",
     "digest": "64b1aab277a078635003de6f161edd13dbdb580e432d2dec6186f2acdda3af96"
   },
   "lysias": {
-    "version": "dab5a6bad3865651",
-    "digest": "dab5a6bad386565131d5ce8cf72af8f294f9d07d3c79c779506d42444184a9ad"
+    "version": "758fc7ffcaab0f0b",
+    "digest": "758fc7ffcaab0f0bdd6893c4d512adf5afd231abc44a9a1a42c831166fbad5a5"
   },
   "newtestament": {
     "version": "2bf47c6026ec2f98",
     "digest": "097190756f18728c6438aecbecd8c25000512646fb32e741266f71681c020cf5"
   },
   "odyssey": {
-    "version": "95f40d8b5d29be7a",
-    "digest": "95f40d8b5d29be7a7aac61e332bfe4ef4a195697bd95493b780b58f8e3cdebe2"
+    "version": "f1a1f7472791d20e",
+    "digest": "f1a1f7472791d20ea1981b3922ae3495f8f17f4cb74366376540cea9ce2b0c3d"
   },
   "oedipuscoloneus": {
     "version": "0d85bd33e7783498",
@@ -68,8 +68,8 @@
     "digest": "2a56801e3fa7bb7cd6b97b469f32825354951e76cfbbe11780f17a9ff61715ce"
   },
   "theogony": {
-    "version": "3f8796cba6c2bcbb",
-    "digest": "3f8796cba6c2bcbb8e25d79f299ac12ddde4585f41229c9e187d6344dd7800dd"
+    "version": "2975d4c7255bfdd4",
+    "digest": "2975d4c7255bfdd41da367eac6b234d7e54aafb916799e02142a81b1809b7170"
   },
   "trachiniae": {
     "version": "cee43bdfb643954e",

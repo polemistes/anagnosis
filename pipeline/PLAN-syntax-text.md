@@ -413,3 +413,26 @@ Nothing is started; the main session runs it.
   20.220, 22.302, 24.376. Each needs its sentence read to say where the omitted word belongs;
   nothing was changed. What the reader does with such a tree was not checked.
 
+* **2026-11-17, misprints of the trees' text** (the author: "a misprint in the trees' text is
+  mentioned where that text is shown, and nowhere else"). `syntax-text.tsv` and
+  `syntax_text_words` have a column `misprint` (1 or empty) on reading rows: 1 where the trees'
+  word is an evident misprint of the text the trees were made on. The reader treats such a
+  reading as a real difference whatever its `difference` and says that the trees' text has a
+  misprint there. The hand list, with the reason for each, is `syntax_text.MISPRINTS`; an entry
+  that is no reading of the record any more is reported. Marked: the Shepherd 6 (11.2.6
+  ἀσύμποφα, 14.1.10 αὐτῇς, 25.6.3 μενανοήσωσι, 26.11.2 ἀκοκριθεῖσαι, 26.11.7 παρθένον, 26.23.5
+  μετανήσατε); Lysias 6 (6.20 τούτω, 7.20 ἔραττες, 8.3 χειρεῖτε, 8.15 ἐβάδιξε, 14.7 ἐξῆθε, 23.13
+  ἔραξε); the Odyssey 4 (3.74 πέροντες, 3.435 εἰργάξετο, 4.270 οἷν, 4.332 προσέθη). The Odyssey's
+  four are those seen while the readings were gone through for other ends, not a reading of all
+  723: a pass over the readings for misprints is still to be made. The Theogony: none found (no
+  tree form in other letters that the analyser cannot read); the Gorgias has no readings. For
+  Antigone, Ajax and Electra, whose records are remade after the other run: one candidate,
+  Antigone 803 δάκρυ against the trees' mis-accented δάκρυων, if that reading still stands.
+* **2026-11-17, a printed word is filed under its own lemma** (the author, on Theogony 754: "if
+  we print εἰς we file it under εἰς"). 754 ἔς (of ἔς τʼ, the trees' ἔστʼ) is under εἰς, a
+  preposition, no longer under ἔστε. Every other word of a place where the print divides what
+  the trees join was looked at (the Theogony's 13 places, Lysias's 8, the Odyssey's 16): each
+  is under its own lemma already (αἵ under ὅς, τʼ under τε, ὅ τι under ὅς and τις). Two places
+  of Lysias are one word cut by the line (25.35 ὑπο|ψίαν, 33.9 ἀγανακτήσει|εν): both halves
+  stay under the whole word.
+

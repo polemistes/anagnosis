@@ -175,7 +175,7 @@
     "syntax_text": "the Perseus Digital Library's text of this edition, without the words Burnet brackets as not Plato's",
     "google_play": "yes",
     "product_id": "plato_gorgias_burnet",
-    "version": "88d98c600fbbaf09"
+    "version": "058ce3e029aad4ed"
   },
   {
     "slug": "hermas",
@@ -196,7 +196,7 @@
     "syntax_source": "GLAUx (Alek Keersmaekers, KU Leuven): automatic annotation, not checked by hand",
     "syntax_license": "CC BY-SA 4.0",
     "product_id": "hermas_shepherd_lake",
-    "version": "783b695a865c4589",
+    "version": "be3974baf4ad532c",
     "free": true
   },
   {
@@ -220,7 +220,7 @@
     "syntax_license": "CC BY-SA 3.0 US (Ancient Greek Dependency Treebank); CC BY-SA 4.0 (Pedalion Trees, GLAUx)",
     "syntax_text": "the Perseus Digital Library's text of the speeches (W. R. M. Lamb's Loeb edition, 1930), which differs in places from Hude's text printed here",
     "product_id": "lysias_speeches_hude",
-    "version": "dab5a6bad3865651",
+    "version": "758fc7ffcaab0f0b",
     "free": true
   },
   {
@@ -267,7 +267,7 @@
     "syntax_text": "the Perseus Digital Library's text of the poem (A. T. Murray's Loeb edition, 1919), which differs in places from Allen's text printed here",
     "google_play": "yes",
     "product_id": "homer_odyssey_allen",
-    "version": "95f40d8b5d29be7a"
+    "version": "f1a1f7472791d20e"
   },
   {
     "slug": "oedipuscoloneus",
@@ -378,7 +378,7 @@
     "syntax_license": "CC BY-SA 3.0 US",
     "syntax_text": "the Perseus Digital Library's text of the poem (H. G. Evelyn-White's Loeb edition, 1914), which differs in places from Rzach's text printed here",
     "product_id": "hesiod_theogony_rzach",
-    "version": "3f8796cba6c2bcbb",
+    "version": "2975d4c7255bfdd4",
     "free": true
   },
   {

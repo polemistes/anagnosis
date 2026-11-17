@@ -617,8 +617,10 @@ HAND_ANALYSES: dict[str, dict[str, tuple[str, str]]] = {
     },
     "theogony": {
         # the text prints ἔς τʼ ἂν ἵκηται for the treebank's ἔστʼ (ἔστε, "until"): the two words are a
-        # unit on that word's node (Play.tree_units), and ἔς is no preposition here
-        "754 ἔς": ("ἔστε", "c--------"),
+        # unit on that word's node (Play.tree_units). The printed word is filed under its own lemma
+        # (the author, 2026-11-17: "if we print εἰς we file it under εἰς. It can have the same
+        # meaning, which must be the editor's judgement when dividing it")
+        "754 ἔς": ("εἰς", "r--------"),
         # the trees' παιπαλοέσσῃς (dative plural, with βήσσῃσιν) is not our word: a genitive with Ἀίτνης
         "860 παιπαλοέσσης": ("παιπαλόεις", "a-s---fg-"),
         "116 γένετʼ": ("γίγνομαι", "v3saim---"),  # the treebank has γενέτης

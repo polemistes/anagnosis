@@ -34,7 +34,7 @@ import sqlite3
 from pathlib import Path
 
 COLUMNS = ["kind", "line", "ord", "form", "sentence", "word_id", "tree_form", "tree_lemma", "tree_postag", "same_construction",
-           "difference", "extent"]
+           "difference", "extent", "misprint"]
 PASSAGE = 3  # so many absent or unprinted words in a row are a passage
 
 SCHEMA = """
@@ -44,7 +44,8 @@ SCHEMA = """
 CREATE TABLE syntax_text_words (
     id INTEGER PRIMARY KEY, kind TEXT NOT NULL, token_id INTEGER REFERENCES tokens(id),
     sentence TEXT, word_id INTEGER, tree_form TEXT, tree_lemma TEXT, tree_postag TEXT,
-    same_construction INTEGER, difference TEXT, extent TEXT
+    same_construction INTEGER, difference TEXT, extent TEXT,
+    misprint INTEGER  -- 1 on a reading where the trees' word is an evident misprint of the text the trees were made on
 );
 CREATE INDEX syntax_text_words_token ON syntax_text_words(token_id);
 CREATE INDEX syntax_text_words_node ON syntax_text_words(sentence, word_id);
@@ -334,11 +335,11 @@ def build_table(db: sqlite3.Connection, work_dir: Path) -> int:
             raise SystemExit(f"{work_dir.name}: syntax-text.tsv names the word {r['line']}:{r['ord']} {r['form']}, which the text has not")
         word = r["word_id"].lstrip("=").split("+")[0]
         db.execute("INSERT INTO syntax_text_words (kind, token_id, sentence, word_id, tree_form, tree_lemma, tree_postag, same_construction, "
-                   "difference, extent) VALUES (?,?,?,?,?,?,?,?,?,?)",
+                   "difference, extent, misprint) VALUES (?,?,?,?,?,?,?,?,?,?,?)",
                    (r["kind"], tid, r["sentence"] or None, int(word) if word.isdigit() else None, r["tree_form"] or None,
                     r["tree_lemma"] or None, r.get("tree_postag") or None,
                     int(r["same_construction"]) if r.get("same_construction") in ("0", "1") else None,
-                    r.get("difference") or None, r["extent"] or None))
+                    r.get("difference") or None, r["extent"] or None, 1 if r.get("misprint") == "1" else None))
     db.execute("INSERT OR REPLACE INTO meta VALUES ('syntax_text_words', ?)", (str(len(rows)),))
     return len(rows)
 
@@ -477,6 +478,36 @@ OWN_ANALYSES: dict[str, dict[str, tuple[str, str]]] = {
         "24.208 πάντῃ": ("πάντῃ", "d--------"),
         "24.355 πάντῃ": ("πάντῃ", "d--------"),
         "24.413 πάντῃ": ("πάντῃ", "d--------"),
+    },
+}
+
+
+# Readings where the trees' word is an evident misprint of the text the trees were made on (the
+# author, 2026-11-17: "a misprint in the trees' text is mentioned where that text is shown, and
+# nowhere else"). The reader treats such a reading as a real difference whatever its kind and
+# says that the trees' text has a misprint there. slug -> "line form" -> (the trees' word, why).
+MISPRINTS: dict[str, dict[str, tuple[str, str]]] = {
+    "hermas": {  # First1KGreek's digital text of the same edition: its own slips
+        "11.2.6 ἀσύμφορα": ("ἀσύμποφα", "no word; π for φ and φ for ρ"),
+        "14.1.10 αὐτῆς": ("αὐτῇς", "no form; an iota subscript put in"),
+        "25.6.3 μετανοήσωσι": ("μενανοήσωσι", "no word; ν for τ"),
+        "26.11.2 ἀποκριθεῖσαι": ("ἀκοκριθεῖσαι", "no word; κ for π"),
+        "26.11.7 παρθένων": ("παρθένον", "τῶν παρθένων in the edition; ο for ω"),
+        "26.23.5 μετανοήσατε": ("μετανήσατε", "no word; an ο dropped"),
+    },
+    "lysias": {  # Perseus's digital text of Lamb
+        "6.20 τούτῳ": ("τούτω", "Perseus's file has τούτω τῷ χρόνῳ; the iota subscript dropped"),
+        "7.20 ἔπραττες": ("ἔραττες", "no word; a π dropped"),
+        "8.3 ἐπιχειρεῖτε": ("χειρεῖτε", "no word; the ἐπι- lost"),
+        "8.15 ἐβάδιζε": ("ἐβάδιξε", "no form; ξ for ζ"),
+        "14.7 ἐξῆλθε": ("ἐξῆθε", "no form; a λ dropped"),
+        "23.13 ἔπραξε": ("ἔραξε", "a π dropped, as at 7.20"),
+    },
+    "odyssey": {  # Perseus's digital text of Murray, as the treebank had it
+        "3.74 φέροντες": ("πέροντες", "no sense; π for φ"),
+        "3.435 ἐργάζετο": ("εἰργάξετο", "no form; ξ for ζ"),
+        "4.270 οἷον": ("οἷν", "no word; an ο dropped"),
+        "4.332 προσέφη": ("προσέθη", "no form; θ for φ"),
     },
 }
 
@@ -768,6 +799,15 @@ def record_from_files(work_dir: Path, tb: list[dict], name: str, write: bool = T
             rec["difference"] = a[2]
             checked += 1
     counts_diff = differences(rows, record, reader.known if reader else None)
+    # the trees' words that are evident misprints of the text the trees were made on (MISPRINTS)
+    marks = MISPRINTS.get(work_dir.name, {})
+    marked = set()
+    for rec in record:
+        m = marks.get(f"{rec['line']} {rec['form']}") if rec["kind"] == "reading" else None
+        if m and m[0] == rec["tree_form"]:
+            rec["misprint"] = "1"
+            marked.add(f"{rec['line']} {rec['form']}")
+    look += [f"{k}: the misprint {v[0]} is not a reading of the record any more (MISPRINTS)" for k, v in marks.items() if k not in marked]
 
     lengths: dict[str, int] = {}
     for r in rows:
