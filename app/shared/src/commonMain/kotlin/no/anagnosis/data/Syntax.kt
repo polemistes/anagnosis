@@ -17,6 +17,11 @@ class SyntaxNode(
     /** The token of the text, when the node is a word of it. */
     val token: Tokens?,
     val artificial: Boolean,
+    /**
+     * Further words of the text the tree takes as one with [token] (the print's αἵ θʼ, the tree's
+     * αἵθʼ): their word id is "=N", N this node's id; [form] then holds all of them in order.
+     */
+    val joined: List<Tokens> = emptyList(),
 ) {
     val isWord get() = token != null
     val isPunctuation get() = token == null && !artificial
@@ -59,7 +64,8 @@ class SyntaxTree(val sentence: String, val nodes: List<SyntaxNode>) {
     fun headOf(node: SyntaxNode): SyntaxNode? = node.head?.let { byId[it] }?.takeIf { node !in roots }
 
     /** The node that stands for a token of the text. */
-    fun nodeFor(token: Tokens): SyntaxNode? = nodes.firstOrNull { it.token?.id == token.id }
+    fun nodeFor(token: Tokens): SyntaxNode? =
+        nodes.firstOrNull { it.token?.id == token.id || it.joined.any { j -> j.id == token.id } }
 
     /**
      * Whether a node is shown: words and omitted words always; a punctuation mark only when
@@ -89,10 +95,15 @@ object Syntax {
     /** The sentence tree holding the tokens of one sentence, in text order. */
     fun build(sentence: String, tokens: List<Tokens>, extra: List<Sentence_nodes>): SyntaxTree {
         val nodes = ArrayList<SyntaxNode>(tokens.size + extra.size)
+        // words the tree takes as one with an earlier word ("=N": the node N), by that node's id
+        val joinedTo = tokens.mapNotNull { t -> joinedNode(t.word_id)?.let { it to t } }.groupBy({ it.first }, { it.second })
         for (t in tokens) {
+            if (joinedNode(t.word_id) != null) continue
             // a word the treebank splits in two (κἀγώ = καί + ἐγώ) carries both ids; it keeps the first
             val id = t.word_id?.substringBefore('+')?.toIntOrNull() ?: continue
-            nodes += SyntaxNode(id, t.form, t.postag, t.relation, t.head?.toInt(), t, artificial = false)
+            val joined = joinedTo[id].orEmpty()
+            val form = if (joined.isEmpty()) t.form else (listOf(t) + joined).sortedWith(compareBy({ it.line_id }, { it.ord })).joinToString(" ") { it.form }
+            nodes += SyntaxNode(id, form, t.postag, t.relation, t.head?.toInt(), t, artificial = false, joined = joined)
         }
         for (n in extra) {
             nodes += SyntaxNode(n.word_id.toInt(), n.form, n.postag, n.relation, n.head?.toInt(), null, n.artificial != 0L)
@@ -106,10 +117,13 @@ object Syntax {
         }
         val fixed = if (merged.isEmpty()) nodes else nodes.map { n ->
             val h = n.head
-            if (h != null && h in merged) SyntaxNode(n.id, n.form, n.postag, n.relation, merged[h], n.token, n.artificial) else n
+            if (h != null && h in merged) SyntaxNode(n.id, n.form, n.postag, n.relation, merged[h], n.token, n.artificial, n.joined) else n
         }
         return SyntaxTree(sentence, fixed)
     }
+
+    /** The node a word joins when its word id is "=N" (the print's second word of the tree's one), else null. */
+    fun joinedNode(wordId: String?): Int? = wordId?.takeIf { it.startsWith("=") }?.drop(1)?.toIntOrNull()
 
     /**
      * The role a relation label names, in words: "subject", "object", "attribute" ...
