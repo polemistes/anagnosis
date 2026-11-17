@@ -538,7 +538,12 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          # the prose route into appendix-01.md, checked, spliced into texts/antigone/appendix.md
          # and the batch kept in appendix-904-920/ (out of sophocles-prose's way, which would
          # otherwise write the whole appendix.md from this one batch)
-         text_leaves=[(76, 307)], appendix_leaves=[(326, 331)]),
+         # notes_leaves: Jebb's commentary (kind notes), under the rule of every leaf 76-307, both
+         # pages of each spread, two columns, as the Philoctetes's: Perseus's digitisation of it is
+         # not his page (authors and titles added or respelt, slips), so it is read from the page
+         # (2026-11-17; written by sophocles-prose once every notes batch is checked)
+         text_leaves=[(76, 307)], appendix_leaves=[(326, 331)],
+         notes_leaves=[(76, 307)], notes_editor="jebb", notes_editor_name="Richard C. Jebb"),
     # Jebb's Ajax and Electra (on sale; typed by eye from Perseus's text and checked against the scans
     # by the older route): re-read from Jebb's page by this route at the author's word (2026-11-17);
     # the check text is the text as it stood

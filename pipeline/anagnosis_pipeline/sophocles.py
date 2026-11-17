@@ -825,16 +825,24 @@ def write_prose(slug: str, sources: Path, texts: Path, transcriptions: Path, ind
                 print(f"{slug}: {n} sections of the introduction from Perseus")
         add_transcribed_introduction(tmp, transcriptions, play, paras=paras, how=PROSE_HOW)
         os.replace(tmp, path)
-    if write_commentary(slug, sources, texts):
-        # Perseus drops Jebb's "f." / "ff." after a note's number; where the scan's own OCR text
-        # is at hand (the Antigone's sophocles03soph_djvu.txt) they are put back from it, as the
-        # Antigone's old import did (ffmarks.py), before the notes are re-filed
+    def ff_marks() -> None:
+        # Perseus, and the batches, drop Jebb's "f." / "ff." after a note's number; where the
+        # scan's own OCR text is at hand (sophocles03soph_djvu.txt) they are put back from it, as
+        # the Antigone's old import did (ffmarks.py), before the notes are re-filed
         from .drama import PLAYS as DRAMA
         from .ffmarks import apply_ff_marks
         ocr = sources / "scans" / f"{DRAMA[slug].scan}_djvu.txt" if slug in DRAMA else None
         if ocr is not None and ocr.exists():
             print(f"{slug} commentary: f./ff. marks from the scan's OCR text: "
                   f"{apply_ff_marks(out / 'commentary-jebb.md', ocr)} headings")
+
+    # a play whose commentary is read from Jebb's page (COMMENTARY_FROM_PAGE): the checked notes
+    # batches make commentary-jebb.md once they are all checked; until then Perseus's stays
+    from_page = slug in COMMENTARY_FROM_PAGE and write_transcribed_commentary(slug, texts, transcriptions, index_dir) > 0
+    if from_page:
+        ff_marks()
+    elif write_commentary(slug, sources, texts):
+        ff_marks()
     elif not play.commentary:
         # Perseus has no commentary for this play (the Philoctetes): Jebb's, read by OCR
         if write_transcribed_commentary(slug, texts, transcriptions, index_dir) < 0:
@@ -842,6 +850,13 @@ def write_prose(slug: str, sources: Path, texts: Path, transcriptions: Path, ind
     refile_commentary(out)
     write_translation(slug, sources, texts)
     return skipped
+
+
+# Plays on sale whose commentary is read whole from Jebb's page by the prose route (kind notes),
+# because Perseus's digitisation of it is not his page (authors and titles added or respelt,
+# slips): sophocles-prose writes commentary-jebb.md from the notes batches once every one is
+# checked, and Perseus's (write_commentary, COMMENTARY_FIXES, jebb_authors.restored) until then
+COMMENTARY_FROM_PAGE = {"antigone"}
 
 
 def write_transcribed_commentary(slug: str, texts: Path, transcriptions: Path, index_dir: Path | None = None) -> int:
