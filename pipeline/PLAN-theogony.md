@@ -285,3 +285,22 @@ As PLAN-drama.md "Steps for each play", with the play's slug `theogony`:
     tree shows `tree_form` there, marked as differing from the printed text; the word's sheet
     says "the trees' text reads `tree_form` here" and names that node's role, "in the same
     construction" or "in another construction" by the column.
+* **2026-11-17, pressing any word of a sentence opens its tree** (the author). A word the trees'
+  text has not ("absent") had no sentence, so pressing it opened nothing. Now it gets the
+  sentence it stands in, in its token row and in its record row, with no node of its own: **the
+  word id is left empty** (the reader skips a word without a numeric id, as it skips the "=N"
+  of a unit; the six readings in another construction are written the same way).
+  `syntax_text.give_sentences`: between two words of the same tree sentence, that sentence; at
+  the seam of two sentences, the sentence of the words before it unless one of our
+  sentence-ending stops (. ; ·) stands between, then the sentence of the words after it unless
+  a stop stands between; cut off by stops on both sides, none.
+  * **The 29 absent words**: 17 now select a sentence (11 single words; the two phrases worded
+    otherwise, 48 θεαὶ † λήγουσαί τʼ and 532 ταῦτά γʼ ἄρʼ); **12 are a passage without a tree**:
+    verses 576–577, a sentence of its own that the trees' text lacks (no sentence; extent
+    `passage`).
+  * For that, one thing put right in the alignment (`shift_repeats`): 576 begins with the same
+    words as 578 (ἀμφὶ δέ οἱ), and the trees' ἀμφὶ δέ οἱ had gone to their first occurrence, so
+    that the passage's rest and the opening of 578 were left over. Where both occurrences begin
+    after a stop the trees' words belong to the second: 578 ἀμφὶ δέ οἱ στεφάνην … is whole in
+    its tree, and 576–577 whole outside it.
+  * Version 8c3530cb7d7003ec.

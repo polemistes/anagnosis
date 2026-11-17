@@ -87,6 +87,45 @@ class TreesText(unittest.TestCase):
         self.assertEqual({k: v[0] for k, v in got.items() if k[0] == "3"},
                          {("3", "νέος"): "absent", ("3", "στίχος"): "absent", ("3", "ὅλος"): "absent"})
 
+    def test_a_word_outside_the_trees_text_has_its_sentence(self):
+        from anagnosis_pipeline.syntax_text import give_sentences
+        lines = [("1", "πρῶτος δὲ λόγος καινὸς ἦν."), ("2", "ἄλλος δὲ ἦλθεν· [ὅλος στίχος ξένος.]"), ("3", "καὶ τρίτος, ὡς ἔφη, λέγει·")]
+        forms = [w for _n, text in lines for w in text.replace(".", "").replace("·", "").replace(",", "").replace("[", "").replace("]", "").split()]
+        sent = {"πρῶτος": "s1", "δὲ": "s1", "λόγος": "s1", "ἦν": "s1", "ἄλλος": "s2", "ἦλθεν": "s2", "καὶ": "s3", "τρίτος": "s3", "λέγει": "s3"}
+        rows, k = [], {}
+        for n, text in lines:
+            for o, f in enumerate(text.replace(".", "").replace("·", "").replace(",", "").replace("[", "").replace("]", "").split()):
+                rows.append({"line": n, "ord": o, "form": f, "sentence": sent.get(f, "") if not (n == "2" and f == "δὲ") else "s2", "word_id": "", "relation": "", "head": ""})
+        absent = [("1", "καινὸς"), ("2", "ὅλος"), ("2", "στίχος"), ("2", "ξένος"), ("3", "ὡς"), ("3", "ἔφη")]
+        rec = [{"line": r["line"], "ord": r["ord"], "form": r["form"], "kind": "absent", "sentence": "", "word_id": ""} for r in rows if (r["line"], r["form"]) in absent]
+        self.assertEqual(give_sentences(lines, rows, rec), (3, 3))
+        got = {(r["line"], r["form"]): r["sentence"] for r in rec}
+        self.assertEqual(got[("1", "καινὸς")], "s1")                                   # between two words of one sentence
+        self.assertEqual((got[("3", "ὡς")], got[("3", "ἔφη")]), ("s3", "s3"))           # likewise, two words
+        self.assertEqual([got[("2", f)] for f in ("ὅλος", "στίχος", "ξένος")], ["", "", ""])   # a sentence of its own between two stops
+        self.assertEqual([r["sentence"] for r in rows if r["form"] == "καινὸς"], ["s1"])   # the token has it too, and no node
+        self.assertEqual([(r["word_id"], r["relation"]) for r in rows if r["form"] == "καινὸς"], [("", "")])
+
+    def test_a_passage_that_begins_like_the_sentence_after_it(self):
+        from anagnosis_pipeline.syntax_text import give_sentences, shift_repeats
+        lines = [("1", "ἦλθεν ὁ ἀνήρ·"), ("2", "[ἀμφὶ δέ οἱ στεφάνους ἔθηκε θεά.]"), ("3", "ἀμφὶ δέ οἱ στεφάνην ἔθηκε,")]
+        rows = []
+        for n, forms in (("1", "ἦλθεν ὁ ἀνήρ"), ("2", "ἀμφὶ δέ οἱ στεφάνους ἔθηκε θεά"), ("3", "ἀμφὶ δέ οἱ στεφάνην ἔθηκε")):
+            for o, f in enumerate(forms.split()):
+                rows.append({"line": n, "ord": o, "form": f, "lemma": f, "postag": "", "relation": "", "head": "", "sentence": "", "word_id": ""})
+        def link(i, sentence, wid):
+            rows[i].update(sentence=sentence, word_id=str(wid), relation="X", head="0")
+        for i in (0, 1, 2):
+            link(i, "s1", i + 1)
+        for i, wid in ((3, 1), (4, 2), (5, 3), (12, 4), (13, 5)):   # the trees' ἀμφὶ δέ οἱ given to their first occurrence
+            link(i, "s2", wid)
+        rec = [{"line": rows[i]["line"], "ord": rows[i]["ord"], "form": rows[i]["form"], "kind": "absent", "sentence": "", "word_id": ""} for i in (6, 7, 8, 9, 10, 11)]
+        self.assertEqual(shift_repeats(lines, rows, rec), 3)
+        self.assertEqual([(r["line"], r["form"], r["word_id"]) for r in rows if r["sentence"] == "s2"],
+                         [("3", "ἀμφὶ", "1"), ("3", "δέ", "2"), ("3", "οἱ", "3"), ("3", "στεφάνην", "4"), ("3", "ἔθηκε", "5")])
+        self.assertEqual(sorted((r["line"], r["ord"]) for r in rec), [("2", o) for o in range(6)])
+        self.assertEqual(give_sentences(lines, rows, rec), (0, 6))   # a sentence of its own between two stops: no tree
+
     def test_decisions_runs_and_table(self):
         import sqlite3, tempfile
         from pathlib import Path

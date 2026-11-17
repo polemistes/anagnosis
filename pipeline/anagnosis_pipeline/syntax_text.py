@@ -14,7 +14,9 @@ told (pipeline/PLAN-theogony.md, "The trees' text"):
              construction (1: its token then carries the node in its own columns too, as a word
              of the trees does) or in another (0: the token has the sentence but no node of its
              own, so that nothing but this row gives it the tree word's role)
-  absent     the trees' text has no word for it (no node)
+  absent     the trees' text has no word for it (no node). It has the `sentence` it stands in
+             (give_sentences), so that the tree can be opened from it; none where it is part of a
+             passage that makes sentences of its own, for which there is no tree
   unprinted  a tree word our edition does not print (kept as a node so that the tree stays whole)
 
 `extent` says of an absent or unprinted word whether it stands alone ("word") or in a run of
@@ -75,6 +77,104 @@ def settle(slug: str, rows: list[dict], record: list[dict]) -> list[str]:
     return undecided
 
 
+STOPS = ".;·"  # the marks that end a sentence in our text (the full stop, the question mark, the raised stop)
+
+
+def stops_before(lines: list[tuple[str, str]], words: int) -> list[bool]:
+    """For every word of the text, whether a sentence-ending stop stands between it and the word
+    before it."""
+    from . import greek
+
+    out: list[bool] = []
+    tail = ""
+    for _n, text in lines:
+        at = 0
+        for _form, start, end in greek.words(text):
+            out.append(any(c in STOPS for c in tail + text[at:start]))
+            tail, at = "", end
+        tail = text[at:] + " "
+    if len(out) != words:
+        raise SystemExit(f"syntax_text: {len(out)} words in the text, {words} token rows")
+    return out
+
+
+def shift_repeats(lines: list[tuple[str, str]], rows: list[dict], record: list[dict]) -> int:
+    """Where our text has a passage the trees' text lacks, and the passage begins with the same
+    words as the sentence after it (Theogony 576-577, "[ἀμφὶ δέ οἱ στεφάνους … Παλλὰς Ἀθήνη.]"
+    before 578 "ἀμφὶ δέ οἱ στεφάνην …"), the alignment gives the trees' words to their first
+    occurrence, and the passage's rest with the true sentence's opening is left over. If both
+    occurrences begin after a stop, the trees' words belong to the second: the annotation of the
+    two is exchanged, so that the passage is whole and the sentence after it too. Returns the
+    number of words moved."""
+    from .odyssey import _bare
+
+    stop_before = stops_before(lines, len(rows))
+    place = {(r["line"], int(r["ord"])): i for i, r in enumerate(rows)}
+    recs = {place[(r["line"], int(r["ord"]))]: r for r in record}
+    moved = 0
+    i = 0
+    while i < len(rows):
+        if not (i in recs and recs[i]["kind"] == "absent"):
+            i += 1
+            continue
+        a = i
+        while i < len(rows) and i in recs and recs[i]["kind"] == "absent":
+            i += 1
+        b = i  # rows[a:b]: a run of words the trees' text has not
+        for k in range(min(6, b - a, a), 1, -1):
+            first, second = range(a - k, a), range(b - k, b)
+            if (all(rows[x]["sentence"] and x not in recs for x in first)
+                    and [_bare(rows[x]["form"]) for x in first] == [_bare(rows[x]["form"]) for x in second]
+                    and stop_before[a - k] and stop_before[b - k]):
+                for x, y in zip(first, second):
+                    for key in ("lemma", "postag", "relation", "head", "sentence", "word_id"):
+                        rows[x][key], rows[y][key] = rows[y][key], rows[x][key]
+                    rec = recs.pop(y)
+                    rec.update(line=rows[x]["line"], ord=rows[x]["ord"], form=rows[x]["form"])
+                    recs[x] = rec
+                moved += k
+                break
+    return moved
+
+
+def give_sentences(lines: list[tuple[str, str]], rows: list[dict], record: list[dict]) -> tuple[int, int]:
+    """A word of ours that the trees' text has not ("absent") still stands in a sentence, and
+    pressing it must open that sentence's tree. Each such word gets the sentence it stands in
+    (in its token row and in the record), with no node of its own (the word id stays empty):
+
+    * between two words of the same tree sentence: that sentence;
+    * at the seam of two sentences: the sentence of the words before it, unless one of our
+      sentence-ending stops (. ; ·) stands between them and the word; then the sentence of the
+      words after it, unless a stop stands between the word and them;
+    * cut off by stops on both sides (a sentence of its own that the trees' text lacks: verses
+      576-577 of the Theogony): no sentence.
+
+    `lines`: (number, text) of the Greek in order; `rows`: the token rows in the same order.
+    Returns (words given a sentence, words left without)."""
+    stop_before = stops_before(lines, len(rows))
+    absent = {(r["line"], int(r["ord"])): r for r in record if r["kind"] == "absent"}
+    linked = [bool(r["sentence"]) for r in rows]
+    given = left = 0
+    for i, r in enumerate(rows):
+        rec = absent.get((r["line"], int(r["ord"])))
+        if rec is None:
+            continue
+        p = next((k for k in range(i - 1, -1, -1) if linked[k]), None)
+        n = next((k for k in range(i + 1, len(rows)) if linked[k]), None)
+        before = rows[p]["sentence"] if p is not None else ""
+        after = rows[n]["sentence"] if n is not None else ""
+        cut_before = p is None or any(stop_before[p + 1:i + 1])
+        cut_after = n is None or any(stop_before[i + 1:n + 1])
+        sentence = before if before and before == after else before if not cut_before else after if not cut_after else ""
+        if sentence:
+            rec["sentence"] = sentence
+            r["sentence"] = sentence  # no node: relation, head and word id stay empty
+            given += 1
+        else:
+            left += 1
+    return given, left
+
+
 def _runs(flags: list[bool]) -> list[int]:
     """For each place, the length of the run of true flags it stands in (0 where false)."""
     out = [0] * len(flags)
@@ -95,7 +195,7 @@ def _runs(flags: list[bool]) -> list[int]:
 def write_record(path: Path, record: list[dict], tb: list[dict], used: set[tuple[str, str]], lengths: dict[str, int] | None = None) -> dict[str, int]:
     """syntax-text.tsv from the aligner's record and the tree words no word of ours uses; returns
     the number of rows by kind."""
-    rows = [dict(r, extent="") for r in record]
+    rows = sorted((dict(r, extent="") for r in record), key=lambda r: (_line_key(r["line"]), int(r["ord"])))
     # our words without a tree word: alone, or a run (a verse the trees' text lacks). A run is
     # counted among the words of the text in their order, whatever stands between in the record
     order = sorted(range(len(rows)), key=lambda i: (_line_key(rows[i]["line"]), int(rows[i]["ord"])))

@@ -86,7 +86,11 @@ the words it was made for.
   does. It is 0 where our word stands in another construction: its token row has the sentence
   but no word id, relation or head, the tree word is a node of its own in `syntax-nodes.tsv`,
   and only this record ties our word to it.
-* `absent`: the trees' text has no word for it, so it has no node.
+* `absent`: the trees' text has no word for it, so it has no node. It has the `sentence` it
+  stands in (also in its row of tokens.tsv, with an empty word id), so that the tree opens from
+  it: the sentence of the words around it, or at the seam of two sentences the one no stop of
+  ours (. ; ·) parts it from. A passage cut off by stops on both sides is a sentence of its own
+  that the trees' text lacks: no sentence, no tree (`extent` is `passage`).
 * `unprinted`: a tree word this edition does not print (`sentence`, `word_id` of its node in
   `syntax-nodes.tsv`, where it is kept so that the tree stays whole).
 * `extent` (absent, unprinted): `word`, or `passage` for one of three or more such words in a

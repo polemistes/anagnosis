@@ -4,12 +4,12 @@ unit	2	1	θʼ	2273668	=6	αἵθ̓	ὅστε	p-p---fn-
 reading	15	2	γαιήοχον	2273671	41	γεήοχον	γαιήοχος	n-s---ma-	1	
 reading	31	4	μʼ	2273677	3	μοι	ἐγώ	p-s---md-	1	
 reading	31	5	ἀοιδὴν	2273677	4	αὐδὴν	αὐδή	n-s---fa-	1	
-absent	48	3	θεαὶ							passage
-absent	48	4	λήγουσαί							passage
-absent	48	5	τʼ							passage
+absent	48	3	θεαὶ	2273685						passage
+absent	48	4	λήγουσαί	2273685						passage
+absent	48	5	τʼ	2273685						passage
 reading	56	3	νύκτας	2273688	4	νυκτὸς	νύξ	n-s---fg-	1	
-absent	71	0	νισομένων							word
-absent	71	1	πατέρα							word
+absent	71	0	νισομένων	2273694						word
+absent	71	1	πατέρα	2273694						word
 reading	77	6	Μελπομένη	2273697	22	Μελπομέενη	Μελπομένη	n-s---fn-	1	
 unit	102	5	οὐδέ	2273709	34+35	οὐ δέ	οὐ δέ			
 unit	126	7	ἑʼ	2273718	8	ἑαυτῇ	ἑαυτοῦ	a-s---fd-		
@@ -31,13 +31,13 @@ reading	282	0	τᾷ	2273785	1	τῷ	ὁ	p-s---md-	1
 reading	288	0	μειχθεὶς	2273788	6	μιχθεὶς	μίγνυμι	v-sappmn-	1	
 reading	295	6	οὐδὲ	2273790	8	οὐδὲν	οὐδείς	a-s---na-	0	
 unit	296	2	οὐδʼ	2273790	12+13	οὐ δ̓	οὐ δέ			
-absent	297	0	ἐν							word
+absent	297	0	ἐν	2273790						word
 reading	304	6	χθόνα	2273793	7	χθονὶ	χθών	n-s---fd-	1	
-absent	335	0	σπείρῃσιν							word
-absent	335	1	μεγάλῃς							word
+absent	335	0	σπείρῃσιν	2273807						word
+absent	335	1	μεγάλῃς	2273807						word
 reading	354	2	Θόη	2273810	65	Φόη	Φόη	n-s---fn-	1	
-absent	370	4	οἳ							word
-absent	370	5	ἂν							word
+absent	370	4	οἳ	2273815						word
+absent	370	5	ἂν	2273815						word
 reading	375	2	Εὐρυβίη	2273817	3	Εὐρυβίν	Εὐρυβία	n-s---fn-	1	
 reading	377	5	μετέπρεπε	2273817	21	μετέπρεπεν	μεταπρέπω	v3siia---	1	
 reading	381	4	τίκτʼ	2273819	5	τίκτεν	τίκτω	v3siia---	1	
@@ -52,8 +52,8 @@ reading	406	0	Λητὼ	2273829	8	Δητὼ	Λητώ	n-s---fa-	1
 unit	423	0	οὐδέ	2273837	1+2	οὐ δέ	οὐ δέ			
 unit	423	5	οὐδέ	2273837	7+8	οὐ δέ	οὐ δέ			
 unit	426	0	οὐδʼ	2273838	1+2	οὐ δ̓	οὐ ??			
-absent	447	3	καὶ							word
-absent	447	4	ἐκ							word
+absent	447	3	καὶ	2273847						word
+absent	447	4	ἐκ	2273847						word
 reading	451	0	ὀφθαλμοῖσι	2273849	10	ὀφθαλμοῖσιν	ὀφθαλμός	n-p---md-	1	
 reading	472	2	τείσαιτο	2273856	36	τίσαιτο	τίνω	v3saom---	1	
 reading	485	0	τᾷ	2273862	1	τῷ	τῷ	d--------	0	
@@ -61,10 +61,13 @@ unit	488	1	οὐδʼ	2273864	1+2	οὐ δ̓	οὐ δέ
 reading	497	2	ἐξείμεσσε	2273867	4	ἐξέμεσεν	ἐξεμέω	v3saia---	1	
 reading	497	5	καταπίνων	2273867	9	κατέπινεν	καταπίνω	v3siia---	0	
 reading	506	4	ἀθανάτοισι	2273872	5	ἀθανάτοισιν	ἀθάνατος	a-p---md-	1	
-absent	532	0	ταῦτά							passage
-absent	532	1	γʼ							passage
-absent	532	2	ἄρʼ							passage
+absent	532	0	ταῦτά	2273884						passage
+absent	532	1	γʼ	2273884						passage
+absent	532	2	ἄρʼ	2273884						passage
 unit	551	2	οὐδʼ	2273894	8+9	οὐ δ̓	οὐ δέ			
+absent	576	0	ἀμφὶ							passage
+absent	576	1	δέ							passage
+absent	576	2	οἱ							passage
 absent	576	3	στεφάνους							passage
 absent	576	4	νεοθηλέος							passage
 absent	576	5	ἄνθεα							passage
@@ -74,9 +77,6 @@ absent	577	1	περίθηκε							passage
 absent	577	2	καρήατι							passage
 absent	577	3	Παλλὰς							passage
 absent	577	4	Ἀθήνη							passage
-absent	578	0	ἀμφὶ							passage
-absent	578	1	δέ							passage
-absent	578	2	οἱ							passage
 reading	584	1	ζῴοισι	2273912	35	ζῴοισιν	ζῷον	n-p---nd-	1	
 unit	613	6	οὐδὲ	2273923	7+8	οὐ δὲ	οὐ δέ			
 unit	614	0	οὐδὲ	2273924	1+2	οὐ δὲ	οὐ δέ			
@@ -109,13 +109,13 @@ reading	834	3	σκυλάκεσσι	2274018	32	σκυλάκεσσιν	σκύλα�
 reading	837	6	ἀθανάτοισι	2274019	15	ἀθανάτοισιν	ἀθάνατος	a-p---md-	1	
 reading	850	4	καταφθιμένοισι	2274026	6	καταφθιμένοισιν	καταφθίω	v-papmmd-	1	
 reading	860	3	Ἀίτνης	2274030	10	ἀιδνῇς	ἀιδνός	a-p---fd-	0	
-absent	887	1	θεῶν							word
+absent	887	1	θεῶν	2274044						word
 reading	902	0	Εὐνομίην	2274051	10	Εὐνουμίην	Εὐνουμίη	n-s---fa-	1	
 reading	904	2	ἧς	2274051	27	ᾗ	ὅς	p-s---fd-	1	
 unit	905	6	αἵ	2274051	41	αἵτε	ὅστε	p-p---fn-		
 unit	905	7	τε	2274051	=41	αἵτε	ὅστε	p-p---fn-		
 reading	917	1	τῇσι	2274057	15	τῇσιν	ὁ	p-p---fd-	1	
-absent	920	0	γείνατο							word
+absent	920	0	γείνατο	2274058						word
 reading	923	0	μειχθεῖσʼ	2274060	9	μιχθεῖσ̓	μίγνυμι	v-sappfn-	1	
 unit	931	4	ὅς	2274071	12	ὅστε	ὅστε	p-s---mn-		
 unit	931	5	τε	2274071	=12	ὅστε	ὅστε	p-s---mn-		

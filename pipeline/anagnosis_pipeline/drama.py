@@ -2083,8 +2083,12 @@ def _tokens(play: Play, doc, sources: Path, out: Path, lexicon: Path, build: Pat
         r["lemma"] = LEMMA_FIXES.get(r["lemma"], r["lemma"])
         r["lemma"] = fixes.get(r["lemma"], r["lemma"])
     if record is not None:
-        from .syntax_text import settle, write_record
+        from .syntax_text import give_sentences, settle, shift_repeats, write_record
         undecided = settle(play.slug, rows, record)
+        greek_lines = [(line.n, line.text) for line in doc.lines]
+        shift_repeats(greek_lines, rows, record)
+        given, left = give_sentences(greek_lines, rows, record)
+        print(f"words the trees' text has not: {given} given the sentence they stand in, {left} in passages without a tree")
     write_tokens(out / "tokens.tsv", rows)
     used = {(r["sentence"], w) for r in rows for w in r["word_id"].split("+") if r["sentence"]}
     write_syntax_nodes(out / "syntax-nodes.tsv", syntax_nodes(tb, used))
