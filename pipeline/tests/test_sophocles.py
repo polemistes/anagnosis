@@ -228,14 +228,31 @@ class LabelParts(unittest.TestCase):
             return [Section(1, kind, "x")] + [Line(str(n), "…") for n in numbers]
 
         # Perseus's boundaries a verse early: 462 (in the First episode) heads the stasimon,
-        # 512 (in the First stasimon) heads the Second episode; the kommos 649-697 lies inside it
+        # 512 (in the First stasimon) heads the Second episode; the kommos 649-697 lies inside it,
+        # and as it is no division of its own in play.parts, the episode simply goes on: one
+        # section, not "Second episode (continued)" twice
         doc = Document(items=sec("episode", range(216, 462)) + sec("choral", range(462, 512))
                        + sec("episode", range(512, 649)) + sec("choral", range(649, 698))
                        + sec("episode", range(698, 863)))
         label_parts(doc, PLAYS["oedipustyrannus"])
         labels = [i.label for i in doc.items if isinstance(i, Section)]
-        self.assertEqual(labels, ["First episode", "First stasimon", "Second episode",
-                                  "Second episode (continued)", "Second episode (continued)"])
+        self.assertEqual(labels, ["First episode", "First stasimon", "Second episode"])
+        self.assertEqual(sum(1 for i in doc.items if isinstance(i, Line)), 863 - 216)
+
+    def test_a_division_taken_up_again_is_continued(self):
+        from anagnosis_pipeline.sophocles import PLAYS, label_parts
+        from anagnosis_pipeline.textfmt import Section
+
+        def sec(kind, numbers):
+            return [Section(1, kind, "x")] + [Line(str(n), "…") for n in numbers]
+
+        # the Ajax: the parodos's anapests and its strophes in two sections of the check text are
+        # one division; the first episode is taken up again after its kommos
+        doc = Document(items=sec("episode", range(134, 172)) + sec("choral", range(172, 201))
+                       + sec("choral", range(201, 263)) + sec("episode", range(263, 348)))
+        label_parts(doc, PLAYS["ajax"])
+        labels = [i.label for i in doc.items if isinstance(i, Section)]
+        self.assertEqual(labels, ["Parodos", "First episode: kommos", "First episode (continued)"])
 
     def test_a_division_named_nowhere_keeps_its_section(self):
         from anagnosis_pipeline.sophocles import PLAYS, label_parts
