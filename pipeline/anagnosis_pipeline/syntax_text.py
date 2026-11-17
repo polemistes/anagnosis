@@ -407,6 +407,16 @@ OWN_ANALYSES: dict[str, dict[str, tuple[str, str]]] = {
         "28.6 ἐνέπληντο": ("ἐμπίμπλημι", "v3paim---"),  # the trees' ἐνεπέπληντο, given to ἐμπελάζω
         "33.7 καινομένην": ("καίνω", "v-sppmfa-"),  # Hude's own conjecture; wore the καίω of the trees' καομένην
     },
+    "ajax": {
+        # words the importer left wearing the analysis of the trees' word
+        "178 ἐλαφαβολίαις": ("ἐλαφηβολία", "n-p---fd-"),   # the trees' ἐλαφαβολίας, a genitive
+        "1184 μεληθεὶς": ("ἐπιμελέομαι", "v-sapemn-"),     # the trees' μεληθῶ, a subjunctive
+        "1230 ἐφώνεις": ("φωνέω", "v2siia---"),            # the trees' ἐκόμπεις
+        "1404 ταχύνετε": ("ταχύνω", "v2ppma---"),          # the trees' ταχύνατε, an aorist
+    },
+    "electra": {
+        "1486 τοῦ": ("ὁ", "l-s---mg-"),                    # τοῦ χρόνου; the trees read οὐ
+    },
     "odyssey": {
         "5.243 ἤνυτο": ("ἀνύω", "v3siie---"),       # θοῶς δέ οἱ ἤνυτο ἔργον; the trees' ᾔνυτο given to αἴνυμαι
         "1.29 μνῄσατο": ("μιμνήσκω", "v3sai----"),
@@ -422,6 +432,13 @@ OWN_ANALYSES: dict[str, dict[str, tuple[str, str]]] = {
         "24.355 πάντῃ": ("πάντῃ", "d--------"),
         "24.413 πάντῃ": ("πάντῃ", "d--------"),
     },
+}
+
+
+# Words of ours that the trees' text has not and that were given a node by hand in the text's
+# importer (import_perseus.TOKEN_FIXES): absent from the trees' text, the node kept.
+HAND_NODES: dict[str, set[str]] = {
+    "antigone": {"591 δʼ"},  # the trees read βρέμουσιν, without the δʼ
 }
 
 
@@ -518,8 +535,13 @@ def record_from_files(work_dir: Path, tb: list[dict], name: str, write: bool = T
         ids = r["word_id"].lstrip("=").split("+")
         ws = [by_id.get((r["sentence"], x)) for x in ids]
         if any(w is None for w in ws):
-            look.append(f"{r['line']} {r['form']}: its word id {r['word_id']} is not in the trees")
+            if f"{r['line']} {r['form']}" in HAND_NODES.get(work_dir.name, ()):
+                note(i, "absent", None)  # it keeps the node made for it by hand
+            else:
+                look.append(f"{r['line']} {r['form']}: its word id {r['word_id']} is not in the trees")
             continue
+        if any(w["artificial"] for w in ws):
+            continue  # a node the treebank itself put in for a word its text lacks: nothing to compare
         theirs = _greek(ws[0]["form"])
         if r["word_id"].startswith("=") or len(ws) > 1 or (r["sentence"], r["word_id"]) in carriers:
             note(i, "unit", None, form=" ".join(w["form"] for w in ws), lemma=" ".join(w["lemma"] for w in ws), tag=_main(ws)["postag"])
@@ -795,6 +817,26 @@ def _glaux_trees(module: str):
     return load
 
 
+def _antigone_trees(sources: Path) -> list[dict]:
+    from .import_perseus import read_treebank
+
+    from .import_perseus import read_treebank_nodes
+
+    # the importer reads the real words and the other nodes apart
+    words = [dict(w, artificial=False) for w in read_treebank(sources / "antigone.tb.xml")]
+    nodes = [dict(w, artificial=bool(w["artificial"]), is_word=False) for w in read_treebank_nodes(sources / "antigone.tb.xml")]
+    return words + nodes
+
+
+def _sophocles_trees(slug: str):
+    """The treebank of a play of the Perseus importer (sophocles.PLAYS), as it reads it."""
+    def load(sources: Path) -> list[dict]:
+        from .sophocles import PLAYS, read_agdt
+
+        return read_agdt(sources / "treebanks" / PLAYS[slug].treebank)
+    return load
+
+
 # The texts whose record is made from their files (record_from_files): how their trees are read
 # and what the trees' text is called. A text is added here only when its trees' text has been
 # confirmed from its sources (the plan of each text says how).
@@ -802,6 +844,9 @@ FROM_FILES: dict[str, tuple] = {
     "lysias": (_lysias_trees, "the Perseus Digital Library's text of the speeches (W. R. M. Lamb's Loeb edition, 1930)"),
     "odyssey": (_odyssey_trees, "the Perseus Digital Library's text of the poem (A. T. Murray's Loeb edition, 1919)"),
     "gorgias": (_glaux_trees("gorgias_merge"), "the Perseus Digital Library's text of this edition, without the words Burnet brackets"),
+    "antigone": (_antigone_trees, "the Perseus Digital Library's text of the play as the treebank's annotators had it"),
+    "ajax": (_sophocles_trees("ajax"), "the Perseus Digital Library's text of the play (F. Storr's Loeb edition, 1913)"),
+    "electra": (_sophocles_trees("electra"), "the Perseus Digital Library's text of the play (F. Storr's Loeb edition, 1913)"),
     "hermas": (_play_trees("hermas"), "the First1KGreek project's digital text of this edition, which misprints six words"),
 }
 

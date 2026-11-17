@@ -641,3 +641,13 @@ The metrical analyses are not transcribed (as for Ajax and Electra).
   route"). My first choice that day, to go on with the old by-eye batches, was wrong: it
   ignored that the route had been replaced after the Gorgias and the Agamemnon showed what a
   reader's eye misses (PLAN-drama.md, Decisions, "Agamemnon step 4: a second pass").
+
+* **2026-11-17, the trees' text of Antigone, Ajax and Electra** (the author's order: the record
+  in the texts on sale and the free texts). Ajax and Electra: the trees were made on Perseus's
+  text of Storr's Loeb edition (1913), which differs in places from Jebb's; Antigone: on
+  Perseus's text as the annotators had it, seven words otherwise than ours. Each play has
+  `syntax-text.tsv`, the header line and the sentence in about.md; five words of Ajax and
+  Electra that wore the analysis of the trees' word have their own. The importer was not run
+  (its pending fixes would change the commentaries); it now calls the step after its tokens.
+  Four of the Antigone's seven words look like faults of our text and want a look at Jebb's
+  page (424, 803, 1136, perhaps 196). All of it: `pipeline/PLAN-syntax-text.md`.

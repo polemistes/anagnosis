@@ -588,6 +588,11 @@ def import_play(slug: str, sources: Path, texts: Path, build: Path, lexicon: Pat
     write_syntax_nodes(out / "syntax-nodes.tsv", syntax_nodes(tb, used))
     missing = sum(1 for r in rows if not r["lemma"])
     print(f"wrote {out / 'tokens.tsv'}: {len(rows)} words, {missing} without lemma, {len(review)} for review")
+    # the record of the text the trees were made on (syntax_text.py): from the files just written
+    from . import syntax_text
+
+    for line in syntax_text.after_merge(slug, texts, sources, lexicon):
+        print(line)
     build.mkdir(parents=True, exist_ok=True)
     with (build / f"{slug}-review.tsv").open("w", encoding="utf-8") as f:
         f.write("line\tform\tlemma\tpostag\treason\n")

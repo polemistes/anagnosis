@@ -11,7 +11,8 @@
 # syntax: annotated by hand (Ancient Greek Dependency Treebank)
 # syntax_source: Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition
 # syntax_license: CC BY-SA 3.0 US
+# syntax_text: the Perseus Digital Library's text of the play as the treebank's annotators had it, which differs in a few words from the text printed here
 # google_play: yes
 # product_id: sophocles_antigone_jebb
 
-The Greek text of Sir Richard Jebb's edition, with his translation, critical apparatus and commentary, and the Liddell–Scott dictionaries. Tap any word for its meaning and form.
+The Greek text of Sir Richard Jebb's edition, with his translation, critical apparatus and commentary, and the Liddell–Scott dictionaries. Tap any word for its meaning and form. The syntax of the sentences is annotated by hand; the syntax trees were made on the Perseus Digital Library's text of the play as the treebank's annotators had it, which differs in a few words from the text printed here, and where a sentence differs the syntax view shows both and marks the words.

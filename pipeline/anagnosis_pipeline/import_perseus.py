@@ -399,6 +399,13 @@ def import_antigone(sources: Path, texts: Path) -> None:
     write_tokens(out / "tokens.tsv", rows)
     missing = sum(1 for r in rows if not r["lemma"])
     print(f"wrote {out/'tokens.tsv'}: {len(rows)} words, {missing} without lemma, {len(warnings)} warnings")
+    # the record of the text the trees were made on (syntax_text.py): from the files just written
+    # (the other nodes of the trees are written by import-syntax; without them, not yet)
+    if (out / "syntax-nodes.tsv").exists():
+        from . import syntax_text
+
+        for line in syntax_text.after_merge("antigone", texts, sources):
+            print(line)
     for w in warnings:
         print("  " + w, file=sys.stderr)
     import_syntax_nodes(sources, texts)

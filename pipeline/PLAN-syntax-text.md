@@ -230,6 +230,74 @@ reading, no absent word and no unprinted word. So there is no `syntax-text.tsv`,
 and head of 66 joined words, three lines of Bury's commentary and three of the introduction.
 It was not run on the text. Its end calls the step, which does nothing for a text not entered.)
 
+### Ajax and Electra (on sale) — done 2026-11-17, versions `14b31d994d660e82` and `ed9f0c9a4a7e2978`
+
+**The trees' text: the Perseus Digital Library's text of each play (F. Storr's Loeb edition,
+1913).** Established so: the AGDT files (`tlg0011.tlg003.perseus-grc1.tb.xml`,
+`tlg0011.tlg005.perseus-grc2.tb.xml`) name that edition in their headers; the tree words
+follow Perseus's Storr file more closely than Jebb's text (Ajax: 74 tree words not in it at
+their place against 117 not in ours; Electra 141 against 191; most of both are the words written
+in two); and of fifteen readings looked up, the trees' word is in Storr's file every time
+(τίσει, δόρει, εἵνεκα, ἐκόμπεις; αἰεὶ, κλεινὸν, προπίτνω) and ours mostly is not.
+
+| kind | Ajax | Electra | |
+|---|---|---|---|
+| unit | 35 | 69 | words that are two tree words (οὐδέ, οὔτε, μηδέ); in the Electra two newly joined at 138 (ἀνστάσεις, οὔτε) |
+| reading | 45 | 44 | by rule: Ajax elision 5, nu 6, spelling 14, form 3, word 17; Electra elision 3, nu 2, spelling 21, form 5, word 13 |
+| absent | 2 | 9 | all with their sentence (Electra 691, a verse the trees' text has not, is 5 of them) |
+| unprinted | 3 | 10 | single words |
+
+**Sentences that really differ: Ajax 20 of 785, Electra 25 of 929** by the rule's values. Own
+analyses, where the importer had left a word wearing the analysis of the trees' word: Ajax four
+(178 ἐλαφαβολίαις a dative plural, 1184 μεληθεὶς a participle, 1230 ἐφώνεις from φωνέω, not
+the trees' κομπέω, 1404 ταχύνετε a present), Electra one (1486 τοῦ, the article, not the trees'
+οὐ).
+
+Compared with the installed databases: Ajax `tokens` (9 words: 5 given a sentence, 4 analyses),
+`meta`, `syntax_text_words` (new, 85 rows); Electra `tokens` (16 words: 13 given a sentence
+only, 2 newly joined, 1 analysis), `sentence_nodes` (4 nodes fewer: now carried by the two
+words), `meta`, `syntax_text_words` (new, 132 rows). Nothing else: no commentary, translation
+or short definition changed.
+
+**What else would have changed, and how it was avoided.** The Perseus importer of these plays
+(`import-sophocles`) was not run: its pending fixes would change the commentaries, which is a
+decision the author has not taken. The step alone was run. The importer now calls the step
+after it writes its tokens, so a later import leaves the record in step.
+
+### Antigone (on sale) — done 2026-11-17, version `2f00f3809d86f0a9`
+
+**The trees' text: the Perseus Digital Library's text of the play as the treebank's annotators
+had it.** The treebank's header names Storr's Loeb edition (1912), and that could not be
+confirmed: Perseus's file under that name is, in the words where editions part, the same text
+as ours (ἀφαγνίσαι 196, κἀς 212, πᾶσαι 1136), and the trees agree with neither in a handful of
+words. Compared in order, the tree words differ from our text in seven words and one more:
+
+| verse | ours | the trees |
+|---|---|---|
+| 196 | ἀφαγνίσαι | ἐφαγνίσαι (L's reading, the lemma of Jebb's apparatus) |
+| 212 | κἀς | καὶ |
+| 281 | ʼφευρεθῇς | φευρεθῇς |
+| 424 | ἐς | ὡς |
+| 591 | βρέμουσι δʼ | βρέμουσιν (the δʼ has a node made by hand in the importer: recorded as absent, node kept) |
+| 803 | δάκρυ | δάκρυων |
+| 1136 | πᾶσαι | πασᾶν (L's reading in Jebb's apparatus) |
+
+unit 65 (words that are two tree words), reading 7 (by rule: nu 1, spelling 1, form 2, word 3),
+absent 1, unprinted 4 (verse 116 a second time, as a sentence of its own that none of our
+words stands in: never shown). **6 of 686 sentences really differ.** No token changed: compared
+with the installed database only `meta` and the new table `syntax_text_words` (77 rows) differ.
+The importer (`import`) was not run.
+
+**Stopped on, for the author.** Four of these look like faults of our text (which is Perseus's
+file of Jebb), not readings of Jebb: 424 ἐς ὅταν (ὡς ὅταν is the Greek), 803 δάκρυ, 1136 πᾶσαι
+(the apparatus quotes L with πασᾶν and reports no change), and perhaps 196. They need a look at
+Jebb's page. Until then the words keep the analyses they wear (the trees': 803 δάκρυ a genitive
+plural, 1136 πᾶσαι a genitive plural, 424 ἐς as ὡς, 196 under ἐφαγνίζω), which fit the trees'
+words; if Jebb does print ours, they want their own in `OWN_ANALYSES`. Nothing of the text was
+changed.
+
+### The New Testament (on sale) — see below
+
 ## Progress
 
 - [x] The step, its command, tests (`tests/test_syntax_text_files.py`), the checking pass's module
@@ -238,7 +306,7 @@ It was not run on the text. Its end calls the step, which does nothing for a tex
 - [x] The Odyssey
 - [x] The Gorgias
 - [x] The Symposium (no record: the trees were made on the text printed)
-- [ ] Antigone, Ajax, Electra
+- [x] Antigone, Ajax, Electra
 - [ ] The New Testament
 - [ ] The checking pass prepared (job files, control, brief, workflow); run by the main session
 

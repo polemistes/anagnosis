@@ -4,6 +4,7 @@
 # source: Perseus Digital Library, soph.ant_gk.xml
 # edition: The Antigone of Sophocles, ed. R. C. Jebb, Cambridge University Press, 1891 (Perseus Digital Library)
 # license: CC BY-SA 3.0 US
+# syntax-text: the Perseus Digital Library's text of the play as the treebank's annotators had it
 
 == episode Prologue
 @ Ἀντιγόνη
