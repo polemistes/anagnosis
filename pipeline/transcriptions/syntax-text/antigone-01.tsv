@@ -1,0 +1,44 @@
+# The trees' text, kinds of difference · job antigone-01 · antigone, 196–1136 · 7 readings
+# Write your answer after the arrow of each line: transcriptions/syntax-text/DIFFERENCES.md
+
+== 196
+… τῆσδε πάντʼ ἀριστεύσας δόρει τάφῳ τε κρύψαι καὶ τὰ πάντʼ «ἀφαγνίσαι» ἃ τοῖς ἀρίστοις ἔρχεται κάτω νεκροῖς τὸν δʼ …
+   ours:  ἀφαγνίσαι  (ἐφαγνίζω v--ana--- verb, aorist infinitive active)
+   trees: ἐφαγνίσαι  (ἐφαγνίζω v--ana--- verb, aorist infinitive active)
+196:6	ἀφαγνίσαι	ἐφαγνίσαι	ἐφαγνίζω v--ana--- | ἐφαγνίζω v--ana---	rule: word	→ 
+
+== 212
+… τιμήσεται σοὶ ταῦτʼ ἀρέσκει παῖ Μενοικέως Κρέον τὸν τῇδε δύσνουν «κἀς» τὸν εὐμενῆ πόλει νόμῳ δὲ χρῆσθαι παντί που …
+   ours:  κἀς  (καί c-------- conjunction)
+   trees: καὶ  (καί c-------- conjunction)
+212:3	κἀς	καὶ	καί c-------- | καί c--------	rule: word	→ 
+
+== 281
+… βουλεύει πάλαι παῦσαι πρὶν ὀργῆς καὶ ʼμὲ μεστῶσαι λέγων μὴ «ʼφευρεθῇς» ἄνους τε καὶ γέρων ἅμα λέγεις γὰρ οὐκ …
+   ours:  ʼφευρεθῇς  (ἐφευρίσκω v2sasp--- verb, 2nd singular aorist subjunctive passive)
+   trees: φευρεθῇς  (ἐφευρίσκω v2sasp--- verb, 2nd singular aorist subjunctive passive)
+281:1	ʼφευρεθῇς	φευρεθῇς	ἐφευρίσκω v2sasp--- | ἐφευρίσκω v2sasp---	rule: spelling	→ 
+
+== 424
+… χρόνῳ μακρῷ ἡ παῖς ὁρᾶται κἀνακωκύει πικρᾶς ὄρνιθος ὀξὺν φθόγγον «ἐς» ὅταν κενῆς εὐνῆς νεοσσῶν ὀρφανὸν βλέψῃ λέχος οὕτω …
+   ours:  ἐς  (ὡς d-------- adverb)
+   trees: ὡς  (ὡς d-------- adverb)
+424:3	ἐς	ὡς	ὡς d-------- | ὡς d--------	rule: word	→ 
+
+== 591
+… ὕφαλον ἐπιδράμῃ πνοαῖς κυλίνδει βυσσόθεν κελαινὰν θῖνα καὶ δυσάνεμοι στόνῳ «βρέμουσι» δʼ ἀντιπλῆγες ἀκταί ἀρχαῖα τὰ Λαβδακιδᾶν οἴκων ὁρῶμαι …
+   ours:  βρέμουσι  (βρέμω v3ppia--- verb, 3rd plural present indicative active)
+   trees: βρέμουσιν  (βρέμω v3ppia--- verb, 3rd plural present indicative active)
+591:2	βρέμουσι	βρέμουσιν	βρέμω v3ppia--- | βρέμω v3ppia---	rule: nu	→ 
+
+== 803
+… θεσμῶν ἔξω φέρομαι τάδʼ ὁρῶν ἴσχειν δʼ οὐκέτι πηγὰς δύναμαι «δάκρυ» τὸν παγκοίτην ὅθʼ ὁρῶ θάλαμον τήνδʼ Ἀντιγόνην ἀνύτουσαν …
+   ours:  δάκρυ  (δάκρυον n-p---ng- noun, plural neuter genitive)
+   trees: δάκρυων  (δάκρυον n-p---ng- noun, plural neuter genitive)
+803:3	δάκρυ	δάκρυων	δάκρυον n-p---ng- | δάκρυον n-p---ng-	rule: form	→ 
+
+== 1136
+… πολυστάφυλος πέμπει ἀμβρότων ἐπέων εὐαζόντων Θηβαΐας ἐπισκοποῦντʼ ἀγυιάς τὰν ἐκ «πᾶσαι» τιμᾷς ὑπερτάταν πόλεων ματρὶ σὺν κεραυνίᾳ καὶ νῦν …
+   ours:  πᾶσαι  (πᾶς a-p---fg- adjective, plural feminine genitive)
+   trees: πασᾶν  (πᾶς a-p---fg- adjective, plural feminine genitive)
+1136:2	πᾶσαι	πασᾶν	πᾶς a-p---fg- | πᾶς a-p---fg-	rule: form	→ 

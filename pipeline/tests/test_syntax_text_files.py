@@ -148,6 +148,11 @@ class Differences(unittest.TestCase):
             # an existing file is never written again
             self.assertEqual(syntax_differences.make_jobs(texts, ["sample"], jobs), ["sample: job files exist already; none written"])
 
+    def test_a_short_last_job_joins_the_one_before(self):
+        self.assertEqual(syntax_differences.split(list(range(13)), 6), [[0, 1, 2, 3, 4, 5], [6, 7, 8, 9, 10, 11, 12]])
+        self.assertEqual(syntax_differences.split(list(range(14)), 6), [[0, 1, 2, 3, 4, 5], [6, 7, 8, 9, 10, 11], [12, 13]])
+        self.assertEqual(syntax_differences.split(list(range(4)), 6), [[0, 1, 2, 3]])
+
     def test_an_answer_that_is_no_kind(self):
         with tempfile.TemporaryDirectory() as d:
             _texts, jobs, _ = self.jobs(d)

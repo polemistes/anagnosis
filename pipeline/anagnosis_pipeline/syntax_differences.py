@@ -86,6 +86,16 @@ def job_text(name: str, title: str, items: list[dict]) -> str:
     return "\n".join(out) + "\n"
 
 
+def split(items: list, size: int) -> list[list]:
+    """The items in pieces of `size`; a file is never nearly empty: a last piece of less than a
+    third joins the one before."""
+    pieces = [items[i:i + size] for i in range(0, len(items), size)]
+    if len(pieces) > 1 and len(pieces[-1]) < size // 3:
+        last = pieces.pop()
+        pieces[-1] = pieces[-1] + last
+    return pieces
+
+
 def make_jobs(texts: Path, slugs: list[str], directory: Path = DIR) -> list[str]:
     """Write the job files of the texts named (and of the control); returns what was done."""
     directory.mkdir(parents=True, exist_ok=True)
@@ -97,11 +107,7 @@ def make_jobs(texts: Path, slugs: list[str], directory: Path = DIR) -> list[str]
         if list(directory.glob(f"{prefix}-*.tsv")):
             done.append(f"{prefix}: job files exist already; none written")
             continue
-        size = (len(items) + 1) // 2 if control else JOB_SIZE
-        # a file is never nearly empty: the last short piece joins the one before
-        pieces = [items[i:i + size] for i in range(0, len(items), size)]
-        if len(pieces) > 1 and len(pieces[-1]) < size // 3:
-            pieces[-2] += pieces.pop()
+        pieces = split((items), (len(items) + 1) // 2 if control else JOB_SIZE)
         for n, piece in enumerate(pieces, 1):
             name = f"{prefix}-{n:02d}"
             title = f"{piece[0]['line']}–{piece[-1]['line']}" if control else f"{slug}, {piece[0]['line']}–{piece[-1]['line']}"

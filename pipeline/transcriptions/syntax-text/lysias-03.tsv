@@ -1,0 +1,362 @@
+# The trees' text, kinds of difference · job lysias-03 · lysias, 14.1–22.6 · 60 readings
+# Write your answer after the arrow of each line: transcriptions/syntax-text/DIFFERENCES.md
+
+== 14.1
+… πολίτην ἑαυτὸν ἐξ ἀρχῆς παρέσχεν ὥστε καὶ εἰ μή τις «ἰδίᾳ» ἀδικούμενος ὑπʼ αὐτοῦ τυγχάνει οὐδὲν ἧττον προσήκει ἐκ …
+   ours:  ἰδίᾳ  (ἴδιος a-s---fd- adjective, singular feminine dative)
+   trees: ἰδία  (ἴδιος a-p---na- adjective, plural neuter accusative)
+14.1:27	ἰδίᾳ	ἰδία	ἴδιος a-s---fd- | ἴδιος a-p---na-	rule: form	→ 
+
+== 14.7
+… μὲν γὰρ δικαίως ἂν αὐτὸν ἁλῶναι ὅτι καταλεγεὶς ὁπλίτης οὐκ «ἐξῆλθε» μεθʼ ὑμῶν λιποταξίου δὲ ὅτι ἐν τῷ στρατοπέδῳ …
+   ours:  ἐξῆλθε  (ἐξέρχομαι v3saia--- verb, 3rd singular aorist indicative active)
+   trees: ἐξῆθε  (ἐκ-ἔθω v3siia--- verb, 3rd singular imperfect indicative active)
+14.7:25	ἐξῆλθε	ἐξῆθε	ἐξέρχομαι v3saia--- | ἐκ-ἔθω v3siia---	rule: word	→ 
+
+== 14.17
+… δικασταί εἶναι εἰ αὐτοῦ μὲν ἐκείνου θάνατον κατέγνωτε τοῦ δὲ «ὑέος» ἀδικοῦντος διʼ ἐκεῖνον ἀποψηφιεῖσθε ὃς αὐτὸς μὲν οὐκ …
+   ours:  ὑέος  (υἱός n-s---mg- noun, singular masculine genitive)
+   trees: ὑοῦ  (υἱός n-s---mg- noun, singular masculine genitive)
+14.17:16	ὑέος	ὑοῦ	υἱός n-s---mg- | υἱός n-s---mg-	rule: spelling	→ 
+
+== 14.29
+… δεινὰ καὶ πολλὰ καὶ μεγάλα πεποιηκότι οὔτε τῶν γεγενημένων αὐτῷ «μεταμέλει» οὔτε μέλει τῶν μελλόντων ἔσεσθαι ἀλλʼ ὃν ἔδει …
+   ours:  μεταμέλει  (μεταμέλομαι v2spie--- verb, 2nd singular present indicative middle or passive)
+   trees: μέλει  (μέλω v3spia--- verb, 3rd singular present indicative active)
+14.29:15	μεταμέλει	μέλει	μεταμέλομαι v2spie--- | μέλω v3spia---	rule: word	→ 
+
+== 14.30
+… ἀνθʼ ὧν καὶ ὑμῖν καὶ τοῖς μέλλουσιν ἔσεσθαι τιμωρεῖσθαι προσήκει «ὅντινʼ» ἂν λαμβάνητε τούτων καίτοι σφόδρα εἴθισται λέγειν ὡς …
+   ours:  ὅντινʼ  (ὅστις p-s---ma- pronoun, singular masculine accusative)
+   trees: ὅντινα  (ὅστις p-s---ma- pronoun, singular masculine accusative)
+14.30:44	ὅντινʼ	ὅντινα	ὅστις p-s---ma- | ὅστις p-s---ma-	rule: elision	→ 
+
+== 14.30
+… καὶ ὑμῖν καὶ τοῖς μέλλουσιν ἔσεσθαι τιμωρεῖσθαι προσήκει ὅντινʼ ἂν «λαμβάνητε» τούτων καίτοι σφόδρα εἴθισται λέγειν ὡς οὐκ εἰκός …
+   ours:  λαμβάνητε  (λαμβάνω v2ppsa--- verb, 2nd plural present subjunctive active)
+   trees: λαμβάνετε  (λαμβάνω v2ppma--- verb, 2nd plural present imperative active)
+14.30:46	λαμβάνητε	λαμβάνετε	λαμβάνω v2ppsa--- | λαμβάνω v2ppma---	rule: form	→ 
+
+== 14.33
+… φυγόντες μετὰ τῶν πολεμίων ἐπὶ τὴν χώραν ἐστράτευσαν καὶ ὅσοι «κατῇσαν» Λακεδαιμονίων ἐχόντων τὴν πόλιν καὶ μὲν δὴ πᾶσιν …
+   ours:  κατῇσαν  (κάτειμι v3piia--- verb, 3rd plural imperfect indicative active)
+   trees: κατῄεσαν  (κάτειμι v3piia--- verb, 3rd plural imperfect indicative active)
+14.33:45	κατῇσαν	κατῄεσαν	κάτειμι v3piia--- | κάτειμι v3piia---	rule: spelling	→ 
+
+== 14.38
+… οὐδέποτʼ ἐλθὼν εὐθύνας ἐτόλμησε δοῦναι ἀλλὰ φυγὴν αὑτοῦ καταγνοὺς καὶ «Θρᾴκης» καὶ πάσης πόλεως ἐβούλετο πολίτης γενέσθαι μᾶλλον ἢ …
+   ours:  Θρᾴκης  (Θρᾴκη n-s---fg- noun, singular feminine genitive)
+   trees: Θράκης  (Θράκη n-s---fg- noun, singular feminine genitive)
+14.38:26	Θρᾴκης	Θράκης	Θρᾴκη n-s---fg- | Θράκη n-s---fg-	rule: word	→ 
+
+== 14.41
+… φείσαιτο πότερον ὡς πρὸς μὲν τὴν πόλιν δεδυστυχήκασιν ἄλλως δὲ «κόσμιοί» εἰσι καὶ σωφρόνως βεβιώκασιν οὐχ οἱ μὲν πολλοὶ …
+   ours:  κόσμιοί  (κόσμιος a-p---mn- adjective, plural masculine nominative)
+   trees: κόσμοί  (κόσμος n-p---mn- noun, plural masculine nominative)
+14.41:22	κόσμιοί	κόσμοί	κόσμιος a-p---mn- | κόσμος n-p---mn-	rule: spelling	→ 
+
+== 14.42
+… ἄλλους πολιτευόμενοι καὶ πρὸς σφᾶς αὐτοὺς διακείμενοι οὐδεμιᾶς τόλμης ἀπεχόμενοι «οὐδενὸς» ἔργου δεινοῦ ἄπειροι γεγενημένοι ἀλλʼ ἅπερ πεπόνθασιν ἅπαντα …
+   ours:  οὐδενὸς  (οὐδείς p-s---mg- pronoun, singular masculine genitive)
+   trees: οὐδὲ  (οὐδὲ c-------- conjunction)
+14.42:36	οὐδενὸς	οὐδὲ	οὐδείς p-s---mg- | οὐδὲ c--------	rule: word	→ 
+
+== 14.42
+… αὐτοὺς διακείμενοι οὐδεμιᾶς τόλμης ἀπεχόμενοι οὐδενὸς ἔργου δεινοῦ ἄπειροι γεγενημένοι «ἀλλʼ» ἅπερ πεπόνθασιν ἅπαντα ἃ πεποιήκασι καὶ ἃ πεποιήκασι …
+   ours:  ἀλλʼ  (ἀλλά c-------- conjunction)
+   trees: ἀλλὰ  (ἀλλά d-------- adverb)
+14.42:41	ἀλλʼ	ἀλλὰ	ἀλλά c-------- | ἀλλά d--------	rule: elision	→ 
+
+== 14.43
+… ἀπολογῆται εἴσεσθε ὅτι δὲ πονηρός ἐστιν ἐκ τῶν ἄλλων ἐπιτηδευμάτων «ᾔσθησθε» ἀλλὰ μὲν δὴ οὐδʼ ἂν ἐξελθὼν ἐκ τῆς …
+   ours:  ᾔσθησθε  (αἰσθάνομαι v2plie--- verb, 2nd plural pluperfect indicative middle or passive)
+   trees: ἤσθησθε  (ἐσθέω v2prie--- verb, 2nd plural perfect indicative middle or passive)
+14.43:48	ᾔσθησθε	ἤσθησθε	αἰσθάνομαι v2plie--- | ἐσθέω v2prie---	rule: word	→ 
+
+== 17.1
+… ὧν ἀναγκαῖόν μοί ἐστι λέγειν ἀδύνατος ὦ τὰ δέοντα εἰπεῖν «οἴομαι» μὲν οὖν ἂν πάντα διηγήσωμαι τὰ πεπραγμένα ἡμῖν …
+   ours:  οἴομαι  (οἴομαι v1spie--- verb, 1st singular present indicative middle or passive)
+   trees: οἴμαι  (οἴμη n-s---fd- noun, singular feminine dative)
+17.1:46	οἴομαι	οἴμαι	οἴομαι v1spie--- | οἴμη n-s---fd-	rule: word	→ 
+
+== 17.1
+… ἐστι λέγειν ἀδύνατος ὦ τὰ δέοντα εἰπεῖν οἴομαι μὲν οὖν «ἂν» πάντα διηγήσωμαι τὰ πεπραγμένα ἡμῖν πρὸς Ἐράτωνα καὶ …
+   ours:  ἂν  (ἐάν c-------- conjunction)
+   trees: ἐάν  (ἐάν c-------- conjunction)
+17.1:49	ἂν	ἐάν	ἐάν c-------- | ἐάν c--------	rule: spelling	→ 
+
+== 17.1
+… διηγήσωμαι τὰ πεπραγμένα ἡμῖν πρὸς Ἐράτωνα καὶ τοὺς ἐκείνου παῖδας «ῥᾳδίως» ἐξ αὐτῶν ὑμᾶς εὑρήσειν ἃ προσήκει σκέψασθαι περὶ …
+   ours:  ῥᾳδίως  (ῥᾴδιος d-------- adverb)
+   trees: ῥαδίως  (ῥᾴδιος d-------- adverb)
+17.1:61	ῥᾳδίως	ῥαδίως	ῥᾴδιος d-------- | ῥᾴδιος d--------	rule: spelling	→ 
+
+== 17.4
+… κέκτημαι ὡς μὲν οὖν ἡμῖν οὐδʼ ἑτέρωθεν εἰσπράξασθαι οἷόν τε «ἂν» ὑμεῖς ταῦτα δημεύσητε εὔγνωστόν μοι δοκεῖ εἶναι ὡς …
+   ours:  ἂν  (ἐάν c-------- conjunction)
+   trees: ἐὰν  (ἐάν c-------- conjunction)
+17.4:65	ἂν	ἐὰν	ἐάν c-------- | ἐάν c--------	rule: spelling	→ 
+
+== 17.9
+… ταῦτα τὰ χρήματα ἀξιοῦμεν ἡμέτερα εἶναι οὔτε νυνὶ τῷ δημοσίῳ «πλεόνων» ἀμφισβητοῦμεν ἢ τῷ ἔμπροσθεν χρόνῳ τοῖς ἰδιώταις Καί …
+   ours:  πλεόνων  (πλείων a-p---ngc adjective, plural neuter genitive, comparative)
+   trees: πλειόνων  (πολύς a-p---ngc adjective, plural neuter genitive, comparative)
+17.9:25	πλεόνων	πλειόνων	πλείων a-p---ngc | πολύς a-p---ngc	rule: word	→ 
+
+== 18.3
+… καὶ καλὰ κατὰ τῶν πολεμίων ἔστησε τρόπαια ὧν καθʼ ἓν «ἕκαστον» πολὺ ἂν ἔργον εἴη λέγειν Εὐκράτης τοίνυν ἀδελφὸς …
+   ours:  ἕκαστον  (ἕκαστος a-s---ma- adjective, singular masculine accusative)
+   trees: ἕκατον  (ἕκατος n-s---ma- noun, singular masculine accusative)
+18.3:41	ἕκαστον	ἕκατον	ἕκαστος a-s---ma- | ἕκατος n-s---ma-	rule: spelling	→ 
+
+== 18.4
+… πολὺ ἂν ἔργον εἴη λέγειν Εὐκράτης τοίνυν ἀδελφὸς μὲν ὢν «ἐκείνου» πατὴρ δʼ ἐμός ἤδη τῆς τελευταίας ναυμαχίας γεγενημένης …
+   ours:  ἐκείνου  (ἐκεῖνος p-s---mg- pronoun, singular masculine genitive)
+   trees: ἐκεῖνον  (ἐκεῖνος p-s---ma- pronoun, singular masculine accusative)
+18.4:5	ἐκείνου	ἐκεῖνον	ἐκεῖνος p-s---mg- | ἐκεῖνος p-s---ma-	rule: form	→ 
+
+== 18.9
+… ἄνδρες δικασταί καὶ Διόγνητος διαβληθεὶς μὲν ὑπὸ τῶν συκοφαντῶν φεύγων «ᾤχετο» μετʼ ὀλίγων δὲ τῶν ἐκπεπτωκότων οὔτʼ ἐπὶ τὴν …
+   ours:  ᾤχετο  (οἴχομαι v3siim--- verb, 3rd singular imperfect indicative middle)
+   trees: ὤχετο  (ἀχεύω v3siim--- verb, 3rd singular imperfect indicative middle)
+18.9:14	ᾤχετο	ὤχετο	οἴχομαι v3siim--- | ἀχεύω v3siim---	rule: word	→ 
+
+== 18.10
+… παραστησάμενος ἔλεγε πρὸς ἐκεῖνον καὶ τοὺς ἄλλους τοὺς παρόντας ὅσα «εἶμεν» πεπονθότες καὶ οἵαις τύχαις κεχρημένοι καὶ ἠξίου Παυσανίαν …
+   ours:  εἶμεν  (εἰμί v1ppoa--- verb, 1st plural present optative active)
+   trees: εἴημεν  (εἰμί v1ppoa--- verb, 1st plural present optative active)
+18.10:45	εἶμεν	εἴημεν	εἰμί v1ppoa--- | εἰμί v1ppoa---	rule: spelling	→ 
+
+== 18.12
+… ὑπὸ μὲν τῶν πολεμίων παῖδας ἡμᾶς ὄντας ἐλεεῖσθαι οἳ τῇ «ὀλιγαρχίᾳ» βοηθήσοντες ἦλθον ὑπὸ δʼ ὑμῶν ὦ ἄνδρες δικασταί …
+   ours:  ὀλιγαρχίᾳ  (ὀλιγαρχία n-s---fd- noun, singular feminine dative)
+   trees: ὀλιγαρχία  (ὀλιγαρχία n-s---fn- noun, singular feminine nominative)
+18.12:39	ὀλιγαρχίᾳ	ὀλιγαρχία	ὀλιγαρχία n-s---fd- | ὀλιγαρχία n-s---fn-	rule: form	→ 
+
+== 18.13
+… τὴν ἐπίδειξιν καὶ πρὸς τοὺς πολίτας καὶ τοὺς ξένους ὅτι «Ἀθήνησι» τοσοῦτον δύναται ὥσθʼ ὑμᾶς τοὺς αὐτούς περὶ ὧν …
+   ours:  Ἀθήνησι  (Ἀθήνη n-p---fd- noun, plural feminine dative)
+   trees: Ἀθήνῃσι  (Ἀθήνη n-p---fd- noun, plural feminine dative)
+18.13:30	Ἀθήνησι	Ἀθήνῃσι	Ἀθήνη n-p---fd- | Ἀθήνη n-p---fd-	rule: word	→ 
+
+== 18.14
+… ποιεῖν ψηφίζεσθαι πάντες γὰρ εἴσονται ὅτι τότε μὲν χιλίαις δραχμαῖς «ἐζημιώσατʼ» αὐτὸν βουλόμενον τὴν ἡμετέραν γῆν δημοσίαν ποιῆσαι νυνὶ …
+   ours:  ἐζημιώσατʼ  (ζημιόω v2paia--- verb, 2nd plural aorist indicative active)
+   trees: ἐζημιώσατε  (ζημιόω v2paia--- verb, 2nd plural aorist indicative active)
+18.14:8	ἐζημιώσατʼ	ἐζημιώσατε	ζημιόω v2paia--- | ζημιόω v2paia---	rule: elision	→ 
+
+== 18.14
+… ψηφίζεσθαι πάντες γὰρ εἴσονται ὅτι τότε μὲν χιλίαις δραχμαῖς ἐζημιώσατʼ «αὐτὸν» βουλόμενον τὴν ἡμετέραν γῆν δημοσίαν ποιῆσαι νυνὶ δὲ …
+   ours:  αὐτὸν  (αὐτός p-s---ma- pronoun, singular masculine accusative)
+   trees: τὸν  (ὁ l-s---ma- article, singular masculine accusative)
+18.14:9	αὐτὸν	τὸν	αὐτός p-s---ma- | ὁ l-s---ma-	rule: word	→ 
+
+== 18.17
+… κακῶν αἰτίαν διαφέρεσθαι δὲ πρὸς ἀλλήλους ἐκ τῶν τοιούτων μάλιστʼ «ἂν» οἱ μὲν τῶν ἀλλοτρίων ἐπιθυμῶσιν οἱ δʼ ἐκ …
+   ours:  ἂν  (ἐάν c-------- conjunction)
+   trees: ἐὰν  (ἐάν c-------- conjunction)
+18.17:49	ἂν	ἐὰν	ἐάν c-------- | ἐάν c--------	rule: spelling	→ 
+
+== 18.19
+… μείναντες ταύτην ὑμῖν οἴονται διδόναι πίστιν τῆς αὑτῶν εὐνοίας ἑτέρους «κακῶς» ποιοῦντες ἀλλʼ οὐ σφᾶς αὐτοὺς χρηστοὺς παρέχοντες καὶ …
+   ours:  κακῶς  (κακός d-------- adverb)
+   trees: κακοὺς  (κακός a-p---ma- adjective, plural masculine accusative)
+18.19:37	κακῶς	κακοὺς	κακός d-------- | κακός a-p---ma-	rule: form	→ 
+
+== 18.20
+… ὑπὸ τούτων ἀφανίζεται τὰ δὲ πολλοῦ ἄξια ὄντα ὀλίγου πιπράσκεται «ἂν» δʼ ἐμοὶ πίθησθε οὐκ ἐλάττω ἀπʼ αὐτῶν ὑμεῖς …
+   ours:  ἂν  (ἐάν c-------- conjunction)
+   trees: ἐὰν  (ἐάν c-------- conjunction)
+18.20:34	ἂν	ἐὰν	ἐάν c-------- | ἐάν c--------	rule: spelling	→ 
+
+== 18.20
+… τὰ δὲ πολλοῦ ἄξια ὄντα ὀλίγου πιπράσκεται ἂν δʼ ἐμοὶ «πίθησθε» οὐκ ἐλάττω ἀπʼ αὐτῶν ὑμεῖς ὠφεληθήσεσθε ἢ ἡμεῖς …
+   ours:  πίθησθε  (πείθω v2pasm--- verb, 2nd plural aorist subjunctive middle)
+   trees: πείθησθε  (πείθω v2ppsm--- verb, 2nd plural present subjunctive middle)
+18.20:37	πίθησθε	πείθησθε	πείθω v2pasm--- | πείθω v2ppsm---	rule: form	→ 
+
+== 18.25
+… ἄξιον ὑμᾶς ἐνθυμηθέντας προθύμως ἡμῖν βοηθῆσαι ἡγησαμένους τούτους ἂν ἐν «δημοκρατίᾳ» δικαίως εὖ πάσχειν ὑφʼ ὑμῶν οἵπερ ἐν ὀλιγαρχίᾳ …
+   ours:  δημοκρατίᾳ  (δημοκρατία n-s---fd- noun, singular feminine dative)
+   trees: δημοκρατία  (δημοκρατία n-s---fn- noun, singular feminine nominative)
+18.25:28	δημοκρατίᾳ	δημοκρατία	δημοκρατία n-s---fd- | δημοκρατία n-s---fn-	rule: form	→ 
+
+== 20.8
+… τις καὶ ἐβούλετο ἐναντιοῦσθαι ὑπὲρ ὑμῶν τὸ δέος καὶ ὁ «φόβος» τῶν πεπονθότων ἀπέτρεπε πάντας ὥστε οἱ πολλοὶ πάντα …
+   ours:  φόβος  (φόβος n-s---mn- noun, singular masculine nominative)
+   trees: φόνος  (φόνος n-s---mn- noun, singular masculine nominative)
+20.8:53	φόβος	φόνος	φόβος n-s---mn- | φόνος n-s---mn-	rule: word	→ 
+
+== 20.9
+… πάντα ἀπεγίγνωσκον αὐτῶν τοὺς μὲν γὰρ ἐξήλαυνον αὐτῶν τοὺς δὲ «ἀπεκτίννυσαν» οἳ δὲ ἐκείνων ἔμελλον ἀκροᾶσθαι καὶ μηδὲν ἐπιβουλεύειν …
+   ours:  ἀπεκτίννυσαν  (ἀποκτείνω v3piia--- verb, 3rd plural imperfect indicative active)
+   trees: ἀπεκτίνυσαν  (ἀποκτείνω v3paia--- verb, 3rd plural aorist indicative active)
+20.9:13	ἀπεκτίννυσαν	ἀπεκτίνυσαν	ἀποκτείνω v3piia--- | ἀποκτείνω v3paia---	rule: form	→ 
+
+== 20.10
+… μὲν τὸν βίον ἅπαντα πονηροὶ ὄντες χρηστοὶ ἐν τῷ λογιστηρίῳ «γεγένηνται» πείσαντες τοὺς κατηγόρους οἳ δʼ ἀεὶ ὑμῖν χρηστοὶ …
+   ours:  γεγένηνται  (γίγνομαι v3prie--- verb, 3rd plural perfect indicative middle or passive)
+   trees: γεγένηται  (γίγνομαι v3srim--- verb, 3rd singular perfect indicative middle)
+20.10:46	γεγένηνται	γεγένηται	γίγνομαι v3prie--- | γίγνομαι v3srim---	rule: form	→ 
+
+== 20.12
+… ὁ δʼ ἐλθὼν εἰς τὸ ἄστυ ἐσυκοφάντει ὥστε μηδὲν ὁμολογεῖν «τὼ» τρόπω τὼ ἀλλήλων καὶ ὅτʼ ἐξέτινε τῷ δημοσίῳ …
+   ours:  τὼ  (ὁ l-d---mn- article, dual masculine nominative)
+   trees: τῷ  (ὁ l-s---md- article, singular masculine dative)
+20.12:17	τὼ	τῷ	ὁ l-d---mn- | ὁ l-s---md-	rule: form	→ 
+
+== 20.12
+… δʼ ἐλθὼν εἰς τὸ ἄστυ ἐσυκοφάντει ὥστε μηδὲν ὁμολογεῖν τὼ «τρόπω» τὼ ἀλλήλων καὶ ὅτʼ ἐξέτινε τῷ δημοσίῳ οὐκ …
+   ours:  τρόπω  (τρόπος n-d---ma- noun, dual masculine accusative)
+   trees: τρόπῳ  (τρόπος n-s---md- noun, singular masculine dative)
+20.12:18	τρόπω	τρόπῳ	τρόπος n-d---ma- | τρόπος n-s---md-	rule: form	→ 
+
+== 20.16
+… ἐβούλετο εἰς τὸ ὑμέτερον πλῆθος οὐκ ἄν ποτʼ ἐν ὀκτὼ «ἡμέρας» εἰσελθὼν εἰς τὸ βουλευτήριον ᾤχετο ἐκπλέων ἀλλʼ εἴποι …
+   ours:  ἡμέρας  (ἡμέρα n-p---fa- noun, plural feminine accusative)
+   trees: ἡμέραις  (ἡμέρα n-p---fd- noun, plural feminine dative)
+20.16:62	ἡμέρας	ἡμέραις	ἡμέρα n-p---fa- | ἡμέρα n-p---fd-	rule: form	→ 
+
+== 20.18
+… ἐστιν ὁ δῆμος βοηθοῦσι τῷ μὲν ὀνόματι ὑμῖν τῷ δὲ «ἔργῳ» σφίσιν αὐτοῖς καὶ μὴ θαυμάζετε ὦ ἄνδρες δικασταί …
+   ours:  ἔργῳ  (ἔργον n-s---nd- noun, singular neuter dative)
+   trees: ἔργω  (ἔργον n-d---na- noun, dual neuter accusative)
+20.18:2	ἔργῳ	ἔργω	ἔργον n-s---nd- | ἔργον n-d---na-	rule: form	→ 
+
+== 20.18
+… κατηγόρων τοῖς δὲ καὶ τὰ ψευδῆ δεδοικότες ἐμαρτύρουν ἦ δεινά «τἂν» πάθοιμεν ὦ ἄνδρες δικασταί εἰ τοὺς μὲν οὐχ …
+   ours:  τἂν  (ἄν g-------- particle)
+   trees: ἂν  (ἄν g-------- particle)
+20.18:50	τἂν	ἂν	ἄν g-------- | ἄν g--------	rule: spelling	→ 
+
+== 20.23
+… ὡς δʼ ἦν δημοτικός ἐγὼ ὑμῖν ἀποδείξω πρῶτον μὲν γὰρ «ὅσον» οὐδεμιᾶς στρατείας ἀπελείφθη ἀλλʼ ἐστρατεύετο ὡς συνειδότες ἂν …
+   ours:  ὅσον  (ὅσος a-s---na- adjective, singular neuter accusative)
+   trees: ὅσων  (ὅσος p-p---ng- pronoun, plural neuter genitive)
+20.23:3	ὅσον	ὅσων	ὅσος a-s---na- | ὅσος p-p---ng-	rule: form	→ 
+
+== 20.23
+… καὶ λῃτουργοίη καὶ ἡμᾶς παρεσκεύασεν ὡς ἂν τῇ πόλει ὠφελιμώτατοι «εἶμεν» καὶ ἐμὲ μὲν εἰς Σικελίαν ἐξέπεμψεν ὑμῖν δʼ …
+   ours:  εἶμεν  (εἰμί v1ppoa--- verb, 1st plural present optative active)
+   trees: εἴημεν  (εἰμί v1ppoa--- verb, 1st plural present optative active)
+20.23:53	εἶμεν	εἴημεν	εἰμί v1ppoa--- | εἰμί v1ppoa---	rule: spelling	→ 
+
+== 20.24
+… πολεμίους κακῶς ἐποίουν ὥστε τῇ θεῷ τε τὰς δεκάτας ἐξαιρεθῆναι «πλεῖν» ἢ τριάκοντα μνᾶς καὶ τοῖς στρατιώταις εἰς σωτηρίαν …
+   ours:  πλεῖν  (πλείων a-s---na- adjective, singular neuter accusative)
+   trees: πλέον  (πολύς a-s---nac adjective, singular neuter accusative, comparative)
+20.24:45	πλεῖν	πλέον	πλείων a-s---na- | πολύς a-s---nac	rule: word	→ 
+
+== 20.25
+… καὶ οὐδενὸς οὐδʼ ἐνταῦθα κινδύνου ἀπελειπόμην ὥστʼ εἰδέναι ἅπαντας οἷος «ἦ» τὴν ψυχὴν ἱππεύων τε καὶ ὁπλιτεύων ὧν ὑμῖν …
+   ours:  ἦ  (εἰμί v3siia--- verb, 3rd singular imperfect indicative active)
+   trees: ἦν  (εἰμί v3siia--- verb, 3rd singular imperfect indicative active)
+20.25:16	ἦ	ἦν	εἰμί v3siia--- | εἰμί v3siia---	rule: nu	→ 
+
+== 20.26
+… περὶ τὸ ὑμέτερον πλῆθος ἐγὼ ὑμῖν ἀποδείξω ἀφικομένου γὰρ ἐκεῖσε «Συρακοσίου» ὅρκιον ἔχοντος καὶ ἑτοίμου ὄντος ὁρκοῦν καὶ προσιόντος …
+   ours:  Συρακοσίου  (Συρακόσιος a-s---mg- adjective, singular masculine genitive)
+   trees: Συρακουσίου  (Συρακούσιος a-s---mg- adjective, singular masculine genitive)
+20.26:20	Συρακοσίου	Συρακουσίου	Συρακόσιος a-s---mg- | Συρακούσιος a-s---mg-	rule: spelling	→ 
+
+== 20.28
+… οἳ οὐ μόνον ἐνθάδε ὅ τι οἷοί τʼ ἦσαν κακὸν «ἠργάζοντο» ἀλλὰ καὶ ἀπὸ τοῦ τείχους ἔφερον καὶ ἦγον …
+   ours:  ἠργάζοντο  (ἐργάζομαι v3piie--- verb, 3rd plural imperfect indicative middle or passive)
+   trees: εἰργάζοντο  (ἐργάζομαι v3piim--- verb, 3rd plural imperfect indicative middle)
+20.28:28	ἠργάζοντο	εἰργάζοντο	ἐργάζομαι v3piie--- | ἐργάζομαι v3piim---	rule: form	→ 
+
+== 20.33
+… εἰς ὑμᾶς εἰδότες ὅτι χρήματα μὲν ἡμῖν οὐκ εἴη ὁπόθεν «ἐκτείσομεν» αὐτοὶ δὲ πρόθυμοι ὄντες εἰς ὑμᾶς ἀξιοῦμεν εὑρίσκεσθαι …
+   ours:  ἐκτείσομεν  (ἐκτίνω v1pfia--- verb, 1st plural future indicative active)
+   trees: ἐκτίσομεν  (ἐκτίνω v1pfia--- verb, 1st plural future indicative active)
+20.33:38	ἐκτείσομεν	ἐκτίσομεν	ἐκτίνω v1pfia--- | ἐκτίνω v1pfia---	rule: spelling	→ 
+
+== 20.34
+… γʼ ὑμᾶς ὦ ἄνδρες δικασταί ἐάν τις παῖδας αὑτοῦ ἀναβιβασάμενος «κλάῃ» καὶ ὀλοφύρηται τούς τε παῖδας διʼ αὐτὸν εἰ …
+   ours:  κλάῃ  (κλαίω v3spsa--- verb, 3rd singular present subjunctive active)
+   trees: κλαίῃ  (κλαίω v3spsa--- verb, 3rd singular present subjunctive active)
+20.34:12	κλάῃ	κλαίῃ	κλαίω v3spsa--- | κλαίω v3spsa---	rule: spelling	→ 
+
+== 21.4
+… δώδεκα μνᾶς καὶ ὕστερον κατέστην χορηγὸς παιδικῷ χορῷ καὶ ἀνήλωσα «πλεῖν» ἢ πεντεκαίδεκα μνᾶς ἐπὶ δὲ Εὐκλείδου ἄρχοντος κωμῳδοῖς …
+   ours:  πλεῖν  (πλείων a-s---na- adjective, singular neuter accusative)
+   trees: πλέον  (πολύς a-s---nac adjective, singular neuter accusative, comparative)
+21.4:8	πλεῖν	πλέον	πλείων a-s---na- | πολύς a-s---nac	rule: word	→ 
+
+== 21.5
+… ἀρχιθεωρίας καὶ Ἐρρηφορίας καὶ ἄλλα τοιαῦτα εἰς ἃ ἐμοὶ δεδαπάνηται «πλεῖν» ἢ τριάκοντα μναῖ καὶ τούτων ὧν κατέλεξα εἰ …
+   ours:  πλεῖν  (πλείων a-s---na- adjective, singular neuter accusative)
+   trees: πλέον  (πολύς a-s---nac adjective, singular neuter accusative, comparative)
+21.5:22	πλεῖν	πλέον	πλείων a-s---na- | πολύς a-s---nac	rule: word	→ 
+
+== 21.8
+… μὲν ὑμεῖς ἐπαύσατε τῆς ἀρχῆς τοὺς δὲ μετὰ Θρασύλλου δέκα «εἵλεσθε» οὗτοι πάντες ἐβούλοντο ἐπὶ τῆς ἐμῆς νεὼς πλεῖν …
+   ours:  εἵλεσθε  (αἱρέω v2paim--- verb, 2nd plural aorist indicative middle)
+   trees: ἕλεσθε  (αἱρέω v2paim--- verb, 2nd plural aorist indicative middle)
+21.8:5	εἵλεσθε	ἕλεσθε	αἱρέω v2paim--- | αἱρέω v2paim---	rule: spelling	→ 
+
+== 21.9
+… πεποιηκέναι τεκμήριον δὲ τούτου μέγιστον ὅτε γὰρ ἐν τῇ τελευταίᾳ «ναυμαχίᾳ» αἱ νῆες διεφθάρησαν οὐδενός μοι συμπλέοντος στρατηγοῦ ἵνα …
+   ours:  ναυμαχίᾳ  (ναυμαχία n-s---fd- noun, singular feminine dative)
+   trees: ναυμαχία  (ναυμαχία n-s---fn- noun, singular feminine nominative)
+21.9:15	ναυμαχίᾳ	ναυμαχία	ναυμαχία n-s---fd- | ναυμαχία n-s---fn-	rule: form	→ 
+
+== 21.10
+… τὴν Ναυσιμάχου τοῦ Φαληρέως ἔσωσα καὶ ταῦτα οὐκ ἀπὸ τύχης «ἐγένετο» ἀλλʼ ἀπὸ παρασκευῆς τῆς ἐμῆς εἶχον γὰρ χρήμασι …
+   ours:  ἐγένετο  (γίγνομαι v3saim--- verb, 3rd singular aorist indicative middle)
+   trees: ἐγίγνετο  (γίγνομαι v3siim--- verb, 3rd singular imperfect indicative middle)
+21.10:5	ἐγένετο	ἐγίγνετο	γίγνομαι v3saim--- | γίγνομαι v3siim---	rule: form	→ 
+
+== 21.10
+… τῶν Ἑλλήνων ἄριστος εἶναι παρεσκευασάμην δὲ καὶ τὸ πλήρωμα πρὸς «ἐκείνου» καὶ τὴν ἄλλην ὑπηρεσίαν ἀκόλουθον καὶ ταῦθʼ ὅτι …
+   ours:  ἐκείνου  (ἐκεῖνος p-s---mg- pronoun, singular masculine genitive)
+   trees: ἐκεῖνον  (ἐκεῖνος p-s---ma- pronoun, singular masculine accusative)
+21.10:32	ἐκείνου	ἐκεῖνον	ἐκεῖνος p-s---mg- | ἐκεῖνος p-s---ma-	rule: form	→ 
+
+== 21.11b
+… ὑμῖν δύο ἐκόμισα τὴν ἐμαυτοῦ καὶ τὴν Ναυσιμάχου τριήρη Καὶ «οὕτως» πολλοὺς κινδύνους ὑπὲρ ὑμῶν κεκινδυνευκὼς καὶ τοσαῦτα ἀγαθὰ …
+   ours:  οὕτως  (οὕτως d-------- adverb)
+   trees: οὕτω  (οὕτως d-------- adverb)
+21.11b:1	οὕτως	οὕτω	οὕτως d-------- | οὕτως d--------	rule: spelling	→ 
+
+== 21.12
+… δοκεῖν ὀρθῶς βεβουλεῦσθαι ὅτι ὑμῖν οὐδὲν προεῖνται τῶν σφετέρων αὐτῶν «ἂν» οὖν ἐμοὶ πεισθῆτε τά τε δίκαια ψηφιεῖσθε καὶ …
+   ours:  ἂν  (ἐάν c-------- conjunction)
+   trees: ἐὰν  (ἐάν c-------- conjunction)
+21.12:42	ἂν	ἐὰν	ἐάν c-------- | ἐάν c--------	rule: spelling	→ 
+
+== 21.13
+… ἡγεῖσθαι πρόσοδον βεβαιοτάτην τῇ πόλει τὰς οὐσίας τῶν ἐθελόντων λῃτουργεῖν «ἂν» οὖν εὖ βουλεύσησθε οὐδὲν ἧττον ἐπιμελήσεσθε τῶν ἡμετέρων …
+   ours:  ἂν  (ἐάν c-------- conjunction)
+   trees: ἐὰν  (ἐάν c-------- conjunction)
+21.13:32	ἂν	ἐὰν	ἐάν c-------- | ἐάν c--------	rule: spelling	→ 
+
+== 21.14
+… ἐὰν δʼ ἐμὲ πένητα ποιήσητε καὶ ὑμᾶς αὐτοὺς ἀδικήσετε ἕτεροι «γὰρ» καὶ ταῦτα διανεμοῦνται ὥσπερ καὶ τἆλλα Ἄξιον δέ …
+   ours:  γὰρ  (γάρ g-------- particle)
+   trees: δὲ  (δέ c-------- conjunction)
+21.14:40	γὰρ	δὲ	γάρ g-------- | δέ c--------	rule: word	→ 
+
+== 21.17
+… ὑφʼ ὑμῶν δικαίως σῴζεσθαι ὥστʼ οὐκ ἂν εἰκότως ἕτεροί με «ἐξαιτήσαιντο» παρʼ ὑμῶν ἀλλὰ καὶ εἴ τις τῶν ἐμῶν …
+   ours:  ἐξαιτήσαιντο  (ἐξαιτέω v3paim--- verb, 3rd plural aorist indicative middle)
+   trees: ἐξῃτήσαντο  (ἐξαιτέω v3paim--- verb, 3rd plural aorist indicative middle)
+21.17:34	ἐξαιτήσαιντο	ἐξῃτήσαντο	ἐξαιτέω v3paim--- | ἐξαιτέω v3paim---	rule: spelling	→ 
+
+== 21.23
+… καὶ τούτων μνησθῆναι οὐδεπώποτε λῃτουργεῖν ὑπὲρ ὑμῶν δέον ἐνενόουν εἰ «τοσοῦτον» πενεστέρους τοὺς παῖδας καταλείψω ἀλλὰ πολὺ μᾶλλον εἰ …
+   ours:  τοσοῦτον  (τοσοῦτος p-s---na- pronoun, singular neuter accusative)
+   trees: τοσούτῳ  (τοσοῦτος p-s---nd- pronoun, singular neuter dative)
+21.23:18	τοσοῦτον	τοσούτῳ	τοσοῦτος p-s---na- | τοσοῦτος p-s---nd-	rule: form	→ 
+
+== 22.6
+… ὧν ὁ νόμος ἐξεῖναι κελεύει Ἐγὼ τῶν ἀρχόντων κελευόντων συνεπριάμην «Ἂν» μὲν τοίνυν ἀποδείξῃ ὦ ἄνδρες δικασταί ὡς ἔστι …
+   ours:  Ἂν  (ἐάν c-------- conjunction)
+   trees: ἐὰν  (ἐάν c-------- conjunction)
+22.6:0	Ἂν	ἐὰν	ἐάν c-------- | ἐάν c--------	rule: spelling	→ 
+
+== 22.6
+… ὡς ἔστι νόμος ὃς κελεύει τοὺς σιτοπώλας συνωνεῖσθαι τὸν σῖτον «ἂν» οἱ ἄρχοντες κελεύωσιν ἀποψηφίσασθε εἰ δὲ μή δίκαιον …
+   ours:  ἂν  (ἐάν c-------- conjunction)
+   trees: ἐὰν  (ἐάν c-------- conjunction)
+22.6:17	ἂν	ἐὰν	ἐάν c-------- | ἐάν c--------	rule: spelling	→ 

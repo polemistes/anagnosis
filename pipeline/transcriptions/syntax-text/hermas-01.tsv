@@ -1,0 +1,38 @@
+# The trees' text, kinds of difference · job hermas-01 · hermas, 11.2.6–26.23.5 · 6 readings
+# Write your answer after the arrow of each line: transcriptions/syntax-text/DIFFERENCES.md
+
+== 11.2.6
+… μηδὲν αὐτῷ πίστευε ὅτι τὰ ἔργα αὐτοῦ πονηρά εἰσι καὶ «ἀσύμφορα» τοῖς δούλοις τοῦ θεοῦ ἔχεις οὖν ἀμφοτέρων τῶν …
+   ours:  ἀσύμφορα  (ἀσύμφορος a-p---nn- adjective, plural neuter nominative)
+   trees: ἀσύμποφα  (ἀσύμποφος a-p---nn- adjective, plural neuter nominative)
+11.2.6:19	ἀσύμφορα	ἀσύμποφα	ἀσύμφορος a-p---nn- | ἀσύμποφος a-p---nn-	rule: word	→ 
+
+== 14.1.10
+… ἡ δὲ διψυχία μὴ καταπιστεύουσα ἑαυτῇ πάντων ἀποτυγχάνει τῶν ἔργων «αὐτῆς» ὧν πράσσει βλέπεις οὖν φησίν ὅτι ἡ πίστις …
+   ours:  αὐτῆς  (αὐτός p-s---fg- pronoun, singular feminine genitive)
+   trees: αὐτῇς  (αὐτός p-p---fd- pronoun, plural feminine dative)
+14.1.10:34	αὐτῆς	αὐτῇς	αὐτός p-s---fg- | αὐτός p-p---fd-	rule: form	→ 
+
+== 25.6.3
+… τεθλακότες αὐτὴν καὶ μὴ τηρήσαντες ὑγιῆ ἐπιγνόντες τὰ ἑαυτῶν ἔργα «μετανοήσωσι» λαβόντες ὑπὸ σοῦ σφραγῖδα καὶ δοξάσωσι τὸν κύριον …
+   ours:  μετανοήσωσι  (μετανοέω v3pasa--- verb, 3rd plural aorist subjunctive active)
+   trees: μενανοήσωσι  (μενανοέω v3pasa--- verb, 3rd plural aorist subjunctive active)
+25.6.3:38	μετανοήσωσι	μενανοήσωσι	μετανοέω v3pasa--- | μενανοέω v3pasa---	rule: spelling	→ 
+
+== 26.11.2
+… ἔλθῃ ἀπελεύσομαι εἰς τὸν οἶκον καὶ πρωῒ ἐπανήξω αἱ δὲ «ἀποκριθεῖσαι» λέγουσί μοι Ἡμῖν παρεδόθης οὐ δύνασαι ἀφʼ ἡμῶν …
+   ours:  ἀποκριθεῖσαι  (ἀποκρίνω v-pappfn- verb, aorist participle passive, plural feminine nominative)
+   trees: ἀκοκριθεῖσαι  (ἀκοκριτίθημι v-pappfn- verb, aorist participle passive, plural feminine nominative)
+26.11.2:19	ἀποκριθεῖσαι	ἀκοκριθεῖσαι	ἀποκρίνω v-pappfn- | ἀκοκριτίθημι v-pappfn-	rule: word	→ 
+
+== 26.11.7
+… ἔμεινα ἐκεῖ μέχρι τῆς αὔριον ἕως ὥρας δευτέρας μετὰ τῶν «παρθένων» εἶτα παρῆν ὁ ποιμήν καὶ λέγει ταῖς παρθένοις …
+   ours:  παρθένων  (παρθένος n-p---fg- noun, plural feminine genitive)
+   trees: παρθένον  (παρθένος n-s---fa- noun, singular feminine accusative)
+26.11.7:50	παρθένων	παρθένον	παρθένος n-p---fg- | παρθένος n-s---fa-	rule: form	→ 
+
+== 26.23.5
+… τῆς μετανοίας ὅσοι ταύτην ἔχετε τὴν αἵρεσιν ἀπόθεσθε αὐτὴν καὶ «μετανοήσατε» καὶ ὁ κύριος ἰάσεται ὑμῶν τὰ πρότερα ἁμαρτήματα …
+   ours:  μετανοήσατε  (μετανοέω v2pama--- verb, 2nd plural aorist imperative active)
+   trees: μετανήσατε  (μετανέω v2pama--- verb, 2nd plural aorist imperative active)
+26.23.5:15	μετανοήσατε	μετανήσατε	μετανοέω v2pama--- | μετανέω v2pama---	rule: spelling	→ 

@@ -74,7 +74,7 @@ the readings looked up in the Perseus file. The scratch scripts are
 otherwise), `form` (the same word in another form), `word` (another word). Only `form` and `word`
 make the reader mark a sentence. The value is set by rule (`syntax_text.differences`; in this
 step helped by the analyser: what it knows of our spelling under the trees' lemma). In the
-Theogony the rule had 52 of 62 right. So every reading is checked by an agent
+Theogony the rule had 53 of 62 right (and 53 as to the one thing that shows: marked or not). So every reading is checked by an agent
 (`syntax_differences.py`, the brief `pipeline/transcriptions/syntax-text/DIFFERENCES.md`, the
 workflow `pipeline/transcriptions/syntax-text/syntax-differences.workflow.js`):
 
@@ -296,7 +296,42 @@ plural, 1136 πᾶσαι a genitive plural, 424 ἐς as ὡς, 196 under ἐφ�
 words; if Jebb does print ours, they want their own in `OWN_ANALYSES`. Nothing of the text was
 changed.
 
-### The New Testament (on sale) — see below
+### The New Testament (on sale) — no record; nothing changed, version as it was
+
+**The trees were made on the very text printed.** Established so: MACULA Greek's trees are its
+`SBLGNT/lowfat` files, the annotation of the SBL edition, and its README names the SBLGNT
+(the commit of July 2023) as its text; its words, set beside our tokens one by one, are the
+same 137,741 words in the same order, and one differs in letters: John 8:5, ours Μωσῆς, MACULA
+Μωϋσῆς, a spelling of the name (the elision mark, which MACULA keeps apart from the word, is no
+difference). Every word of ours has its node. So there is no `syntax-text.tsv`, no `syntax_text`
+key and no sentence in the description: a single spelling would never be marked, and a credits'
+line for it would mislead. `import-nt` was not run and does not call the step.
+
+## The checking pass: what is prepared (2026-11-17)
+
+Nothing is started; the main session runs it.
+
+* **Job files** in `pipeline/transcriptions/syntax-text/`: 1,089 readings in 21 files:
+  `lysias-01` … `lysias-05` (264), `hermas-01` (6), `odyssey-01` … `odyssey-12` (723),
+  `antigone-01` (7), `ajax-01` (45), `electra-01` (44). The Gorgias has no readings. Each
+  reading stands in ten words of our text before it and eight after, with both words, both
+  analyses in letters and in words, and the rule's value.
+* **The control**: `control-01`, `control-02`: the Theogony's 62 readings (31 each) with the
+  values the rule alone gives; in the record ten of them are set by hand and nine of those
+  differ from the rule. `syntax-differences measure` gives, for the rule and for the agents, the
+  values right out of 62 and how many are right as to whether a sentence is marked. The rule
+  alone: 53 and 53. A pass worth running should come near 60.
+* **The brief**: `DIFFERENCES.md` (the five kinds with examples from these texts; the line
+  between spelling and form; the iota subscript; misprints of the trees' text; crasis).
+  **The checker**: `syntax-differences check FILE...` (every line answered with one of the five
+  words or `?` and a reason; a changed value needs a reason; nothing else changed, against the
+  committed file). **The workflow**: `syntax-differences.workflow.js`, args
+  `{ atOnce: 8, model: 'sonnet', jobs: ['control-01', 'control-02'] }` first, then the 21 jobs.
+* **How the answers enter**: commit the checked files; for each text `syntax-text <slug>` (for
+  Lysias and the Shepherd the merge does the same); build into scratch and compare (only
+  `syntax_text_words.difference` may differ); `build --only <slug>`, `check`, commit. The
+  versions of the six texts with readings will change once more then.
+
 
 ## Progress
 
@@ -307,9 +342,36 @@ changed.
 - [x] The Gorgias
 - [x] The Symposium (no record: the trees were made on the text printed)
 - [x] Antigone, Ajax, Electra
-- [ ] The New Testament
-- [ ] The checking pass prepared (job files, control, brief, workflow); run by the main session
+- [x] The New Testament (no record: the trees were made on the text printed)
+- [x] The checking pass prepared (job files, control, brief, workflow)
+- [ ] The checking pass run by the main session, its answers entered
 
 ## Decisions
 
 (append dated entries)
+
+* **2026-11-17, from the files, not from the merges.** Running an import or merge again would
+  change other things in six of the nine texts (found by running each into a scratch folder:
+  the Odyssey a header line and two apparatus items, the Gorgias six commentary lines, the
+  Symposium 66 joined words and six lines of commentary and introduction; the Sophocles
+  importers have pending fixes). So one step works on the files as they stand. Lysias's and the
+  Shepherd's merges give their files again exactly and end with the step.
+* **2026-11-17, what counts as a word of the trees' text.** Not GLAUx's crasis marks ("τα-"
+  before ταὐτόν, "κα-" before κἄν) nor its gap marks ("G?"): they are devices. Not the half of a
+  word the treebank writes in two ("κ-" of κἀγώ): our word is a unit of both, and the half
+  stays a node of the tree as it was. So none of these is an unprinted word.
+* **2026-11-17, a run of words tied elsewhere** (three or more words that stand word for word
+  among the tree words left over) must lie within 400 tree words of its neighbours' place or in
+  a sentence numbered between theirs: a verse that recurs in Homer is not tied to its twin in
+  another book. This tied the last verses of Odyssey 2, 3, 4, 17 and 20 to their own trees
+  (the treebank cites them by the book alone, and the alignment had lost them).
+* **2026-11-17, sentences counted.** "Really differ" counts only sentences in which a word of
+  ours stands: a tree sentence none of our words is in (the Shepherd's Greek end, a verse the
+  treebank has twice) is never shown.
+* **2026-11-17, found on the way, not changed (for the author).** (1) In the joined words the
+  merges made earlier (εἴτε, οὐδέ where GLAUx hangs one half on the other), the word sometimes
+  carries the relation and head of the half that hangs on the other half, so its head is one of
+  its own tree words: Lysias 83 words, the Gorgias 45, the Shepherd 8, the Odyssey 5, the
+  Symposium 4, the Electra 2, Ajax 1. The step's own joins take the half that hangs outside
+  (`_main`); the old ones are as they were, since changing them is a change to trees on sale.
+  (2) The Antigone's text at 424, 803, 1136 and perhaps 196 (above).

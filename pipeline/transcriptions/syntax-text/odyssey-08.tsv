@@ -1,0 +1,362 @@
+# The trees' text, kinds of difference · job odyssey-08 · odyssey, 12.275–15.44 · 60 readings
+# Write your answer after the arrow of each line: transcriptions/syntax-text/DIFFERENCES.md
+
+== 12.275
+… νῆσον ἀλεύασθαι τερψιμβρότου Ἠελίοιο ἔνθα γὰρ αἰνότατον κακὸν ἔμμεναι ἄμμιν «ἔφασκον» ἀλλὰ παρὲξ τὴν νῆσον ἐλαύνετε νῆα μέλαιναν Ὣς …
+   ours:  ἔφασκον  (φάσκω v1siia--- verb, 1st singular imperfect indicative active)
+   trees: ἔφασκεν  (φάσκω v3siia--- verb, 3rd singular imperfect indicative active)
+12.275:6	ἔφασκον	ἔφασκεν	φάσκω v1siia--- | φάσκω v3siia---	rule: form	→ 
+
+== 12.298
+… Εὐρύλοχʼ ἦ μάλα δή με βιάζετε μοῦνον ἐόντα ἀλλʼ ἄγε «δή» μοι πάντες ὀμόσσατε καρτερὸν ὅρκον εἴ κέ τινʼ …
+   ours:  δή  (δή g-------- particle)
+   trees: νῦν  (νῦν d-------- adverb)
+12.298:2	δή	νῦν	δή g-------- | νῦν d--------	rule: word	→ 
+
+== 12.303
+… βρώμην τὴν ἀθανάτη πόρε Κίρκη Ὣς ἐφάμην οἱ δʼ αὐτίκʼ «ἀπόμνυον» ὡς ἐκέλευον αὐτὰρ ἐπεί ῥʼ ὄμοσάν τε τελεύτησάν …
+   ours:  ἀπόμνυον  (ἀπόμνυμι v3piia--- verb, 3rd plural imperfect indicative active)
+   trees: ἀπώμνυον  (ἀπόμνυμι v3piia--- verb, 3rd plural imperfect indicative active)
+12.303:5	ἀπόμνυον	ἀπώμνυον	ἀπόμνυμι v3piia--- | ἀπόμνυμι v3piia---	rule: spelling	→ 
+
+== 12.317
+… οὐρανόθεν νύξ ἦμος δʼ ἠριγένεια φάνη ῥοδοδάκτυλος Ἠώς νῆα μὲν «ὁρμίσαμεν» κοῖλον σπέος εἰσερύσαντες ἔνθα δʼ ἔσαν Νυμφέων καλοὶ …
+   ours:  ὁρμίσαμεν  (ὁρμίζω v1paia--- verb, 1st plural aorist indicative active)
+   trees: ὡρμίσαμεν  (ὁρμίζω v1paia--- verb, 1st plural aorist indicative active)
+12.317:2	ὁρμίσαμεν	ὡρμίσαμεν	ὁρμίζω v1paia--- | ὁρμίζω v1paia---	rule: spelling	→ 
+
+== 12.339
+… μοι γλυκὺν ὕπνον ἐπὶ βλεφάροισιν ἔχευαν Εὐρύλοχος δʼ ἑτάροισι κακῆς «ἐξάρχετο» βουλῆς Κέκλυτέ μευ μύθων κακά περ πάσχοντες ἑταῖροι …
+   ours:  ἐξάρχετο  (ἐξάρχω v3siie--- verb, 3rd singular imperfect indicative middle or passive)
+   trees: ἐξήρχετο  (ἐξάρχω v3siie--- verb, 3rd singular imperfect indicative middle or passive)
+12.339:4	ἐξάρχετο	ἐξήρχετο	ἐξάρχω v3siie--- | ἐξάρχω v3siie---	rule: spelling	→ 
+
+== 12.356
+… τῆλε νεὸς κυανοπρῴροιο βοσκέσκονθʼ ἕλικες καλαὶ βόες εὐρυμέτωποι τὰς δὲ «περιστήσαντο» καὶ εὐχετόωντο θεοῖσι φύλλα δρεψάμενοι τέρενα δρυὸς ὑψικόμοιο …
+   ours:  περιστήσαντο  (περιίστημι v3paim--- verb, 3rd plural aorist indicative middle)
+   trees: περίστησάν  (περιίστημι v3paia--- verb, 3rd plural aorist indicative active)
+12.356:2	περιστήσαντο	περίστησάν	περιίστημι v3paim--- | περιίστημι v3paia---	rule: form	→ 
+
+== 12.356
+… βοσκέσκονθʼ ἕλικες καλαὶ βόες εὐρυμέτωποι τὰς δὲ περιστήσαντο καὶ εὐχετόωντο «θεοῖσι» φύλλα δρεψάμενοι τέρενα δρυὸς ὑψικόμοιο οὐ γὰρ ἔχον …
+   ours:  θεοῖσι  (θεός n-p---md- noun, plural masculine dative)
+   trees: θεοῖσιν  (θεός n-p---md- noun, plural masculine dative)
+12.356:5	θεοῖσι	θεοῖσιν	θεός n-p---md- | θεός n-p---md-	rule: nu	→ 
+
+== 12.364
+… ἱεροῖσιν ἀλλʼ ὕδατι σπένδοντες ἐπώπτων ἔγκατα πάντα αὐτὰρ ἐπεὶ κατὰ «μῆρε» κάη καὶ σπλάγχνα πάσαντο μίστυλλόν τʼ ἄρα τἆλλα …
+   ours:  μῆρε  (μῆρα n-d---nn- noun, dual neuter nominative)
+   trees: μῆῤ  (μῆρα n-p---nn- noun, plural neuter nominative)
+12.364:3	μῆρε	μῆῤ	μῆρα n-d---nn- | μῆρα n-p---nn-	rule: elision	→ 
+
+== 12.364
+… ἀλλʼ ὕδατι σπένδοντες ἐπώπτων ἔγκατα πάντα αὐτὰρ ἐπεὶ κατὰ μῆρε «κάη» καὶ σπλάγχνα πάσαντο μίστυλλόν τʼ ἄρα τἆλλα καὶ …
+   ours:  κάη  (καίω v3saip--- verb, 3rd singular aorist indicative passive)
+   trees: ἐκάη  (καίω v3saip--- verb, 3rd singular aorist indicative passive)
+12.364:4	κάη	ἐκάη	καίω v3saip--- | καίω v3saip---	rule: spelling	→ 
+
+== 12.370
+… καὶ τότε με κνίσης ἀμφήλυθεν ἡδὺς ἀϋτμή οἰμώξας δὲ θεοῖσι «μετʼ» ἀθανάτοισι γεγώνευν Ζεῦ πάτερ ἠδʼ ἄλλοι μάκαρες θεοὶ …
+   ours:  μετʼ  (μετά r-------- preposition)
+   trees: μέγ̓  (μέγας a-s---na- adjective, singular neuter accusative)
+12.370:3	μετʼ	μέγ̓	μετά r-------- | μέγας a-s---na-	rule: word	→ 
+
+== 12.395
+… δʼ ἀποτέθνασαν ἤδη τοῖσιν δʼ αὐτίκʼ ἔπειτα θεοὶ τέραα προὔφαινον «ἕρπον» μὲν ῥινοί κρέα δʼ ἀμφʼ ὀβελοῖσι μεμύκει ὀπταλέα …
+   ours:  ἕρπον  (ἕρπω v3piia--- verb, 3rd plural imperfect indicative active)
+   trees: εἷρπον  (ἕρπω v3piia--- verb, 3rd plural imperfect indicative active)
+12.395:0	ἕρπον	εἷρπον	ἕρπω v3piia--- | ἕρπω v3piia---	rule: spelling	→ 
+
+== 12.446
+… ἐμῇσι Σκύλλην δʼ οὐκέτʼ ἔασε πατὴρ ἀνδρῶν τε θεῶν τε «ἐσιδέειν» οὐ γάρ κεν ὑπέκφυγον αἰπὺν ὄλεθρον Ἔνθεν δʼ …
+   ours:  ἐσιδέειν  (εἰσείδω v--ana--- verb, aorist infinitive active)
+   trees: εἰσιδέειν  (εἰσείδω v--ana--- verb, aorist infinitive active)
+12.446:0	ἐσιδέειν	εἰσιδέειν	εἰσείδω v--ana--- | εἰσείδω v--ana---	rule: word	→ 
+
+== 13.48
+… πάντες ἐπῄνεον ἠδʼ ἐκέλευον πεμπέμεναι τὸν ξεῖνον ἐπεὶ κατὰ μοῖραν «ἔειπε» καὶ τότε κήρυκα προσέφη μένος Ἀλκινόοιο Ποντόνοε κρητῆρα …
+   ours:  ἔειπε  (εἶπον v3saia--- verb, 3rd singular aorist indicative active)
+   trees: ἔειπεν  (εἶπον v3saia--- verb, 3rd singular aorist indicative active)
+13.48:6	ἔειπε	ἔειπεν	εἶπον v3saia--- | εἶπον v3saia---	rule: nu	→ 
+
+== 13.77
+… καθῖζον ἐπὶ κληῗσιν ἕκαστοι κόσμῳ πεῖσμα δʼ ἔλυσαν ἀπὸ τρητοῖο «λίθοιο» εὖθʼ οἱ ἀνακλινθέντες ἀνερρίπτουν ἅλα πηδῷ καὶ τῷ …
+   ours:  λίθοιο  (λίθος n-s---mg- noun, singular masculine genitive)
+   trees: λίθοις  (λίθος n-p---md- noun, plural masculine dative)
+13.77:6	λίθοιο	λίθοις	λίθος n-s---mg- | λίθος n-p---md-	rule: form	→ 
+
+== 13.105
+… νυμφάων αἳ νηϊάδες καλέονται ἐν δὲ κρητῆρές τε καὶ ἀμφιφορῆες «ἔασι» λάϊνοι ἔνθα δʼ ἔπειτα τιθαιβώσσουσι μέλισσαι ἐν δʼ …
+   ours:  ἔασι  (εἰμί v3ppia--- verb, 3rd plural present indicative active)
+   trees: ἔασιν  (εἰμί v3ppia--- verb, 3rd plural present indicative active)
+13.105:6	ἔασι	ἔασιν	εἰμί v3ppia--- | εἰμί v3ppia---	rule: nu	→ 
+
+== 13.115
+… μὲν ἔπειτα ἠπείρῳ ἐπέκελσεν ὅσον τʼ ἐπὶ ἥμισυ πάσης σπερχομένη «τοίων» γὰρ ἐπείγετο χέρσʼ ἐρετάων οἱ δʼ ἐκ νηὸς …
+   ours:  τοίων  (τοῖος a-p---fg- adjective, plural feminine genitive)
+   trees: τοῖον  (τοῖον d-------- adverb)
+13.115:1	τοίων	τοῖον	τοῖος a-p---fg- | τοῖον d--------	rule: word	→ 
+
+== 13.125
+… τις ὁδιτάων ἀνθρώπων πρὶν Ὀδυσῆʼ ἔγρεσθαι ἐπελθὼν δηλήσαιτο αὐτοὶ δʼ «αὖ» οἶκόνδε πάλιν κίον οὐδʼ ἐνοσίχθων λήθετʼ ἀπειλάων τὰς …
+   ours:  αὖ  (αὖ d-------- adverb)
+   trees: αὖτ̓  (αὖτε d-------- adverb)
+13.125:2	αὖ	αὖτ̓	αὖ d-------- | αὖτε d--------	rule: elision	→ 
+
+== 13.129
+… μετʼ ἀθανάτοισι θεοῖσι τιμήεις ἔσομαι ὅτε με βροτοὶ οὔ τι «τίουσι» Φαίηκες τοί πέρ τοι ἐμῆς ἔξ εἰσι γενέθλης …
+   ours:  τίουσι  (τίω v3ppia--- verb, 3rd plural present indicative active)
+   trees: τίουσιν  (τίω v3ppia--- verb, 3rd plural present indicative active)
+13.129:7	τίουσι	τίουσιν	τίω v3ppia--- | τίω v3ppia---	rule: nu	→ 
+
+== 13.163
+… ῥίμφα διωκομένη τῆς δὲ σχεδὸν ἦλθʼ ἐνοσίχθων ὅς μιν λᾶαν «θῆκε» καὶ ἐρρίζωσεν ἔνερθε χειρὶ καταπρηνεῖ ἐλάσας ὁ δὲ …
+   ours:  θῆκε  (τίθημι v3saia--- verb, 3rd singular aorist indicative active)
+   trees: ἔθηκε  (τίθημι v3saia--- verb, 3rd singular aorist indicative active)
+13.163:3	θῆκε	ἔθηκε	τίθημι v3saia--- | τίθημι v3saia---	rule: spelling	→ 
+
+== 13.170
+… καὶ δὴ προὐφαίνετο πᾶσα Ὣς ἄρα τις εἴπεσκε τὰ δʼ «οὐ» ἴσαν ὡς ἐτέτυκτο τοῖσιν δʼ Ἀλκίνοος ἀγορήσατο καὶ …
+   ours:  οὐ  (οὐ d-------- adverb)
+   trees: οὐκ  (οὐ d-------- adverb)
+13.170:6	οὐ	οὐκ	οὐ d-------- | οὐ d--------	rule: elision	→ 
+
+== 13.173
+… ἦ μάλα δή με παλαίφατα θέσφαθʼ ἱκάνει πατρὸς ἐμοῦ ὃς «φάσκε» Ποσειδάωνʼ ἀγάσεσθαι ἡμῖν οὕνεκα πομποὶ ἀπήμονές εἰμεν ἁπάντων …
+   ours:  φάσκε  (φάσκω v3siia--- verb, 3rd singular imperfect indicative active)
+   trees: ἔφασκε  (φάσκω v3siia--- verb, 3rd singular imperfect indicative active)
+13.173:3	φάσκε	ἔφασκε	φάσκω v3siia--- | φάσκω v3siia---	rule: spelling	→ 
+
+== 13.173
+… δή με παλαίφατα θέσφαθʼ ἱκάνει πατρὸς ἐμοῦ ὃς φάσκε Ποσειδάωνʼ «ἀγάσεσθαι» ἡμῖν οὕνεκα πομποὶ ἀπήμονές εἰμεν ἁπάντων φῆ ποτὲ …
+   ours:  ἀγάσεσθαι  (ἄγαμαι v--fnm--- verb, future infinitive middle)
+   trees: ἀγάσασθαι  (ἄγαμαι v--anm--- verb, aorist infinitive middle)
+13.173:5	ἀγάσεσθαι	ἀγάσασθαι	ἄγαμαι v--fnm--- | ἄγαμαι v--anm---	rule: form	→ 
+
+== 13.196
+… τε διηνεκέες λιμένες τε πάνορμοι πέτραι τʼ ἠλίβατοι καὶ δένδρεα «τηλεθάοντα» στῆ δʼ ἄρʼ ἀναΐξας καί ῥʼ ἔσιδε πατρίδα …
+   ours:  τηλεθάοντα  (τηλεθάω v-pppann- verb, present participle active, plural neuter nominative)
+   trees: τηλεθόωντα  (τηλεθάω v-pppann- verb, present participle active, plural neuter nominative)
+13.196:5	τηλεθάοντα	τηλεθόωντα	τηλεθάω v-pppann- | τηλεθάω v-pppann-	rule: spelling	→ 
+
+== 13.197
+… ἠλίβατοι καὶ δένδρεα τηλεθάοντα στῆ δʼ ἄρʼ ἀναΐξας καί ῥʼ «ἔσιδε» πατρίδα γαῖαν ᾤμωξέν τʼ ἄρʼ ἔπειτα καὶ ὣ …
+   ours:  ἔσιδε  (ἐσείδω v3saia--- verb, 3rd singular aorist indicative active)
+   trees: εἴσιδε  (εἰσοράω v3saia--- verb, 3rd singular aorist indicative active)
+13.197:6	ἔσιδε	εἴσιδε	ἐσείδω v3saia--- | εἰσοράω v3saia---	rule: word	→ 
+
+== 13.203
+… νόος ἐστὶ θεουδής πῇ δὴ χρήματα πολλὰ φέρω τάδε πῇ «δὲ» καὶ αὐτὸς πλάζομαι αἴθʼ ὄφελον μεῖναι παρὰ Φαιήκεσσιν …
+   ours:  δὲ  (δέ g-------- particle)
+   trees: τε  (τε g-------- particle)
+13.203:7	δὲ	τε	δέ g-------- | τε g--------	rule: word	→ 
+
+== 13.266
+… οὐχ ᾧ πατρὶ χαριζόμενος θεράπευον δήμῳ ἔνι Τρώων ἀλλʼ ἄλλων «ἄρχον» ἑταίρων τὸν μὲν ἐγὼ κατιόντα βάλον χαλκήρεϊ δουρὶ …
+   ours:  ἄρχον  (ἄρχω v1siia--- verb, 1st singular imperfect indicative active)
+   trees: ἦρχον  (ἄρχω v1siia--- verb, 1st singular imperfect indicative active)
+13.266:5	ἄρχον	ἦρχον	ἄρχω v1siia--- | ἄρχω v1siia---	rule: spelling	→ 
+
+== 13.286
+… ἐπὶ ψαμάθοισιν ἐκείμην οἱ δʼ ἐς Σιδονίην εὖ ναιομένην ἀναβάντες «οἴχοντʼ» αὐτὰρ ἐγὼ λιπόμην ἀκαχήμενος ἦτορ Ὣς φάτο μείδησεν …
+   ours:  οἴχοντʼ  (οἴχομαι v3piie--- verb, 3rd plural imperfect indicative middle or passive)
+   trees: ᾤχοντ̓  (οἴχομαι v3piie--- verb, 3rd plural imperfect indicative middle or passive)
+13.286:0	οἴχοντʼ	ᾤχοντ̓	οἴχομαι v3piie--- | οἴχομαι v3piie---	rule: spelling	→ 
+
+== 13.349
+… ἠεροειδές ἱρὸν νυμφάων αἳ νηϊάδες καλέονται τοῦτο δέ τοι σπέος «εὐρὺ» κατηρεφές ἔνθα σὺ πολλὰς ἔρδεσκες νύμφῃσι τεληέσσας ἑκατόμβας …
+   ours:  εὐρὺ  (εὐρύς a-s---na- adjective, singular neuter accusative)
+   trees: ἐστὶ  (εἰμί v3spia--- verb, 3rd singular present indicative active)
+13.349:4	εὐρὺ	ἐστὶ	εὐρύς a-s---na- | εἰμί v3spia---	rule: word	→ 
+
+== 13.364
+… μετὰ φρεσὶ σῇσι μελόντων ἀλλὰ χρήματα μὲν μυχῷ ἄντρου θεσπεσίοιο «θείομεν» αὐτίκα νῦν ἵνα περ τάδε τοι σόα μίμνῃ …
+   ours:  θείομεν  (θέω v1ppia--- verb, 1st plural present indicative active)
+   trees: θείμεν  (θέω v--pna--- verb, present infinitive active)
+13.364:0	θείομεν	θείμεν	θέω v1ppia--- | θέω v--pna---	rule: form	→ 
+
+== 13.374
+… παρὰ πυθμένʼ ἐλαίης φραζέσθην μνηστῆρσιν ὑπερφιάλοισιν ὄλεθρον τοῖσι δὲ μύθων «ἄρχε» θεὰ γλαυκῶπις Ἀθήνη διογενὲς Λαερτιάδη πολυμήχανʼ Ὀδυσσεῦ φράζευ …
+   ours:  ἄρχε  (ἄρχω v3siia--- verb, 3rd singular imperfect indicative active)
+   trees: ἦρχε  (ἄρχω v3siia--- verb, 3rd singular imperfect indicative active)
+13.374:3	ἄρχε	ἦρχε	ἄρχω v3siia--- | ἄρχω v3siia---	rule: spelling	→ 
+
+== 13.400
+… ὀλέσω τρίχας ἀμφὶ δὲ λαῖφος ἕσσω ὅ κε στυγέῃσιν ἰδὼν «ἄνθρωπος» ἔχοντα κνυζώσω δέ τοι ὄσσε πάρος περικαλλέʼ ἐόντε …
+   ours:  ἄνθρωπος  (ἄνθρωπος n-s---mn- noun, singular masculine nominative)
+   trees: ἄνθρωπον  (ἄνθρωπος n-s---ma- noun, singular masculine accusative)
+13.400:5	ἄνθρωπος	ἄνθρωπον	ἄνθρωπος n-s---mn- | ἄνθρωπος n-s---ma-	rule: form	→ 
+
+== 13.415
+… φίλον υἱόν Ὀδυσσεῦ ὅς τοι ἐς εὐρύχορον Λακεδαίμονα πὰρ Μενέλαον «οἴχετο» πευσόμενος μετὰ σὸν κλέος εἴ που ἔτʼ εἴης …
+   ours:  οἴχετο  (οἴχομαι v3siie--- verb, 3rd singular imperfect indicative middle or passive)
+   trees: ᾤχετο  (οἴχομαι v3siie--- verb, 3rd singular imperfect indicative middle or passive)
+13.415:0	οἴχετο	ᾤχετο	οἴχομαι v3siie--- | οἴχομαι v3siie---	rule: spelling	→ 
+
+== 13.417
+… δʼ ἀπαμειβόμενος προσέφη πολύμητις Ὀδυσσεύς τίπτε τʼ ἄρʼ οὔ οἱ «εἶπες» ἐνὶ φρεσὶ πάντα ἰδυῖα ἦ ἵνα που καὶ …
+   ours:  εἶπες  (εἶπον v2saia--- verb, 2nd singular aorist indicative active)
+   trees: ἔειπες  (εἶπον v2saia--- verb, 2nd singular aorist indicative active)
+13.417:5	εἶπες	ἔειπες	εἶπον v2saia--- | εἶπον v2saia---	rule: spelling	→ 
+
+== 13.430
+… τοι βίοτον κατέδουσιν Ὣς ἄρα μιν φαμένη ῥάβδῳ ἐπεμάσσατʼ Ἀθήνη «κάρψε» μέν οἱ χρόα καλὸν ἐνὶ γναμπτοῖσι μέλεσσι ξανθὰς …
+   ours:  κάρψε  (κάρφω v3saia--- verb, 3rd singular aorist indicative active)
+   trees: κάρψεν  (κάρφω v3saia--- verb, 3rd singular aorist indicative active)
+13.430:0	κάρψε	κάρψεν	κάρφω v3saia--- | κάρφω v3saia---	rule: nu	→ 
+
+== 14.25
+… ἀράρισκε πέδιλα τάμνων δέρμα βόειον ἐϋχροές οἱ δὲ δὴ ἄλλοι «οἴχοντʼ» ἄλλυδις ἄλλος ἅμʼ ἀγρομένοισι σύεσσιν οἱ τρεῖς τὸν …
+   ours:  οἴχοντʼ  (οἴχομαι v3piie--- verb, 3rd plural imperfect indicative middle or passive)
+   trees: ᾤχοντ̓  (οἴχομαι v3piie--- verb, 3rd plural imperfect indicative middle or passive)
+14.25:0	οἴχοντʼ	ᾤχοντ̓	οἴχομαι v3piie--- | οἴχομαι v3piie---	rule: spelling	→ 
+
+== 14.31
+… ἴδον κύνες ὑλακόμωροι οἱ μὲν κεκλήγοντες ἐπέδραμον αὐτὰρ Ὀδυσσεὺς ἕζετο «κερδοσύνῃ» σκῆπτρον δέ οἱ ἔκπεσε χειρός ἔνθα κεν ᾧ …
+   ours:  κερδοσύνῃ  (κερδοσύνη n-s---fd- noun, singular feminine dative)
+   trees: κερδοσύνη  (κερδοσύνη n-s---fd- noun, singular feminine dative)
+14.31:1	κερδοσύνῃ	κερδοσύνη	κερδοσύνη n-s---fd- | κερδοσύνη n-s---fd-	rule: spelling	→ 
+
+== 14.52
+… Ὀδυσσεὺς ὅττι μιν ὣς ὑπέδεκτο ἔπος τʼ ἔφατʼ ἔκ τʼ «ὀνόμαζε» Ζεύς τοι δοίη ξεῖνε καὶ ἀθάνατοι θεοὶ ἄλλοι …
+   ours:  ὀνόμαζε  (ὀνομάζω v3siia--- verb, 3rd singular imperfect indicative active)
+   trees: ὀνόμαζεν  (ὀνομάζω v3siia--- verb, 3rd singular imperfect indicative active)
+14.52:9	ὀνόμαζε	ὀνόμαζεν	ὀνομάζω v3siia--- | ὀνομάζω v3siia---	rule: nu	→ 
+
+== 14.67
+… ἀέξεται ᾧ ἐπιμίμνω τῷ κέ με πόλλʼ ὤνησεν ἄναξ εἰ «αὐτόθι» γήρα ἀλλʼ ὄλεθʼ ὡς ὤφελλʼ Ἑλένης ἀπὸ φῦλον …
+   ours:  αὐτόθι  (αὐτόθι d-------- adverb)
+   trees: αὐτόθ̓  (αὐτόθι d-------- adverb)
+14.67:7	αὐτόθι	αὐτόθ̓	αὐτόθι d-------- | αὐτόθι d--------	rule: elision	→ 
+
+== 14.67
+… ᾧ ἐπιμίμνω τῷ κέ με πόλλʼ ὤνησεν ἄναξ εἰ αὐτόθι «γήρα» ἀλλʼ ὄλεθʼ ὡς ὤφελλʼ Ἑλένης ἀπὸ φῦλον ὀλέσθαι …
+   ours:  γήρα  (γηράσκω v3siia--- verb, 3rd singular imperfect indicative active)
+   trees: ἐγήρα  (γηράσκω v3siia--- verb, 3rd singular imperfect indicative active)
+14.67:8	γήρα	ἐγήρα	γηράσκω v3siia--- | γηράσκω v3siia---	rule: spelling	→ 
+
+== 14.89
+… μὲν τοῖς ὄπιδος κρατερὸν δέος ἐν φρεσὶ πίπτει οἵδε δέ «τοι» ἴσασι θεοῦ δέ τινʼ ἔκλυον αὐδήν κείνου λυγρὸν …
+   ours:  τοι  (σύ p-s----d- pronoun, singular dative)
+   trees: τι  (τις p-s---na- pronoun, singular neuter accusative)
+14.89:2	τοι	τι	σύ p-s----d- | τις p-s---na-	rule: word	→ 
+
+== 14.109
+… τε καί σφι συῶν τὸν ἄριστον ἐῢ κρίνας ἀποπέμπω Ὣς «φάθʼ» ὁ δʼ ἐνδυκέως κρέα τʼ ἤσθιε πῖνέ τε …
+   ours:  φάθʼ  (φημί v3saim--- verb, 3rd singular aorist indicative middle)
+   trees: φύθ̓  ( v3siie--- verb, 3rd singular imperfect indicative middle or passive)
+14.109:1	φάθʼ	φύθ̓	φημί v3saim--- |  v3siie---	rule: word	→ 
+
+== 14.112
+… ἐπεὶ δείπνησε καὶ ἤραρε θυμὸν ἐδωδῇ καί οἱ πλησάμενος δῶκε «σκύφος» ᾧ περ ἔπινεν οἴνου ἐνίπλειον ὁ δʼ ἐδέξατο …
+   ours:  σκύφος  (σκύφος n-s---mn- noun, singular masculine nominative)
+   trees: σκύφον  (σκύφος n-s---ma- noun, singular masculine accusative)
+14.112:4	σκύφος	σκύφον	σκύφος n-s---mn- | σκύφος n-s---ma-	rule: form	→ 
+
+== 14.176
+… ἔρνεϊ ἶσον καί μιν ἔφην ἔσσεσθαι ἐν ἀνδράσιν οὔ τι «χέρεια» πατρὸς ἑοῖο φίλοιο δέμας καὶ εἶδος ἀγητόν τὸν …
+   ours:  χέρεια  (χείρων a-p---na- adjective, plural neuter accusative)
+   trees: χέρηα  (χερείων n-s---ma- noun, singular masculine accusative)
+14.176:8	χέρεια	χέρηα	χείρων a-p---na- | χερείων n-s---ma-	rule: word	→ 
+
+== 14.203
+… ἀλόχου ἐμὲ δʼ ὠνητὴ τέκε μήτηρ παλλακίς ἀλλά με ἶσον «ἰθαγενέεσσιν» ἐτίμα Κάστωρ Ὑλακίδης τοῦ ἐγὼ γένος εὔχομαι εἶναι …
+   ours:  ἰθαγενέεσσιν  (ἰθαγενής a-p---md- adjective, plural masculine dative)
+   trees: ἰθαιγενέεσσιν  (ἰθαγενής a-p---md- adjective, plural masculine dative)
+14.203:4	ἰθαγενέεσσιν	ἰθαιγενέεσσιν	ἰθαγενής a-p---md- | ἰθαγενής a-p---md-	rule: spelling	→ 
+
+== 14.208
+… κῆρες ἔβαν θανάτοιο φέρουσαι εἰς Ἀΐδαο δόμους τοὶ δὲ ζωὴν «ἐδάσαντο» παῖδες ὑπέρθυμοι καὶ ἐπὶ κλήρους ἐβάλοντο αὐτὰρ ἐμοὶ …
+   ours:  ἐδάσαντο  (δατέομαι v3paim--- verb, 3rd plural aorist indicative middle)
+   trees: ἐδύσαντο  (δύω v3paim--- verb, 3rd plural aorist indicative middle)
+14.208:6	ἐδάσαντο	ἐδύσαντο	δατέομαι v3paim--- | δύω v3paim---	rule: word	→ 
+
+== 14.221
+… πρώτιστος ἐπάλμενος ἔγχει ἕλεσκον ἀνδρῶν δυσμενέων ὅ τέ μοι εἴξειε «πόδεσσι» τοῖος ἔα ἐν πολέμῳ ἔργον δέ μοι οὐ …
+   ours:  πόδεσσι  (πούς n-p---md- noun, plural masculine dative)
+   trees: πόδεσσιν  (πούς n-p---md- noun, plural masculine dative)
+14.221:6	πόδεσσι	πόδεσσιν	πούς n-p---md- | πούς n-p---md-	rule: nu	→ 
+
+== 14.230
+… ἔργοις πρὶν μὲν γὰρ Τροίης ἐπιβήμεναι υἷας Ἀχαιῶν εἰνάκις ἀνδράσιν «ἄρξα» καὶ ὠκυπόροισι νέεσσιν ἄνδρας ἐς ἀλλοδαπούς καί μοι …
+   ours:  ἄρξα  (ἄρχω v1saia--- verb, 1st singular aorist indicative active)
+   trees: ἦρξα  (ἄρχω v1saia--- verb, 1st singular aorist indicative active)
+14.230:2	ἄρξα	ἦρξα	ἄρχω v1saia--- | ἄρχω v1saia---	rule: spelling	→ 
+
+== 14.244
+… δειλῷ κακὰ μήδετο μητίετα Ζεύς μῆνα γὰρ οἶον ἔμεινα τεταρπόμενος «τεκέεσσι» κουριδίῃ τʼ ἀλόχῳ καὶ κτήμασιν αὐτὰρ ἔπειτα Αἴγυπτόνδε …
+   ours:  τεκέεσσι  (τέκος n-p---nd- noun, plural neuter dative)
+   trees: τεκέεσσιν  (τέκος n-p---nd- noun, plural neuter dative)
+14.244:5	τεκέεσσι	τεκέεσσιν	τέκος n-p---nd- | τέκος n-p---nd-	rule: nu	→ 
+
+== 14.248
+… ἐῢ στείλαντα σὺν ἀντιθέοις ἑτάροισιν ἐννέα νῆας στεῖλα θοῶς δʼ «ἐσαγείρετο» λαός ἑξῆμαρ μὲν ἔπειτα ἐμοὶ ἐρίηρες ἑταῖροι δαίνυντʼ …
+   ours:  ἐσαγείρετο  (εἰσαγείρω v3siie--- verb, 3rd singular imperfect indicative middle or passive)
+   trees: ἐσαγείρατο  (εἰσαγείρω v3saim--- verb, 3rd singular aorist indicative middle)
+14.248:5	ἐσαγείρετο	ἐσαγείρατο	εἰσαγείρω v3siie--- | εἰσαγείρω v3saim---	rule: form	→ 
+
+== 14.261
+… πὰρ νήεσσι μένειν καὶ νῆας ἔρυσθαι ὀπτῆρας δὲ κατὰ σκοπιὰς «ὄτρυνα» νέεσθαι οἱ δʼ ὕβρει εἴξαντες ἐπισπόμενοι μένεϊ σφῷ …
+   ours:  ὄτρυνα  (ὀτρύνω v1saia--- verb, 1st singular aorist indicative active)
+   trees: ὤτρυνα  (ὀτρύνω v1saia--- verb, 1st singular aorist indicative active)
+14.261:4	ὄτρυνα	ὤτρυνα	ὀτρύνω v1saia--- | ὀτρύνω v1saia---	rule: spelling	→ 
+
+== 14.287
+… δίδοσαν γὰρ ἅπαντες ἀλλʼ ὅτε δὴ ὄγδοόν μοι ἐπιπλόμενον ἔτος «ἦλθε» δὴ τότε Φοῖνιξ ἦλθεν ἀνὴρ ἀπατήλια εἰδώς τρώκτης …
+   ours:  ἦλθε  (ἔρχομαι v3saia--- verb, 3rd singular aorist indicative active)
+   trees: ἦλθεν  (ἔρχομαι v3saia--- verb, 3rd singular aorist indicative active)
+14.287:7	ἦλθε	ἦλθεν	ἔρχομαι v3saia--- | ἔρχομαι v3saia---	rule: nu	→ 
+
+== 14.342
+… μέν με χλαῖνάν τε χιτῶνά τε εἵματʼ ἔδυσαν ἀμφὶ δέ «με» ῥάκος ἄλλο κακὸν βάλον ἠδὲ χιτῶνα ῥωγαλέα τὰ …
+   ours:  με  (ἐγώ p-s---ma- pronoun, singular masculine accusative)
+   trees: μοι  (ἐγώ p-s---md- pronoun, singular masculine dative)
+14.342:2	με	μοι	ἐγώ p-s---ma- | ἐγώ p-s---md-	rule: form	→ 
+
+== 14.423
+… κεφαλῆς τρίχας ἐν πυρὶ βάλλεν ἀργιόδοντος ὑός καὶ ἐπεύχετο πᾶσι «θεοῖσι» νοστῆσαι Ὀδυσῆα πολύφρονα ὅνδε δόμονδε κόψε δʼ ἀνασχόμενος …
+   ours:  θεοῖσι  (θεός n-p---md- noun, plural masculine dative)
+   trees: θεοῖσιν  (θεός n-p---md- noun, plural masculine dative)
+14.423:5	θεοῖσι	θεοῖσιν	θεός n-p---md- | θεός n-p---md-	rule: nu	→ 
+
+== 14.426
+… σχίζῃ δρυός ἣν λίπε κείων τὸν δʼ ἔλιπε ψυχή τοὶ «δὲ» σφάξάν τε καὶ εὗσαν αἶψα δέ μιν διέχευαν …
+   ours:  δὲ  (δέ g-------- particle)
+   trees: δ̓  (δέ g-------- particle)
+14.426:5	δὲ	δ̓	δέ g-------- | δέ g--------	rule: elision	→ 
+
+== 14.426
+… δρυός ἣν λίπε κείων τὸν δʼ ἔλιπε ψυχή τοὶ δὲ «σφάξάν» τε καὶ εὗσαν αἶψα δέ μιν διέχευαν ὁ …
+   ours:  σφάξάν  (σφάζω v3paia--- verb, 3rd plural aorist indicative active)
+   trees: ἔσφαξάν  (σφάζω v3paia--- verb, 3rd plural aorist indicative active)
+14.426:6	σφάξάν	ἔσφαξάν	σφάζω v3paia--- | σφάζω v3paia---	rule: spelling	→ 
+
+== 14.441
+… αἴθʼ οὕτως Εὔμαιε φίλος Διὶ πατρὶ γένοιο ὡς ἐμοί ὅττι «με» τοῖον ἐόντʼ ἀγαθοῖσι γεραίρεις Τὸν δʼ ἀπαμειβόμενος προσέφης …
+   ours:  με  (ἐγώ p-s---ma- pronoun, singular masculine accusative)
+   trees: τε  (τε g-------- particle)
+14.441:3	με	τε	ἐγώ p-s---ma- | τε g--------	rule: word	→ 
+
+== 14.526
+… κοῖτος ὑῶν ἄπο κοιμηθῆναι ἀλλʼ ὅ γʼ ἄρʼ ἔξω ἰὼν «ὁπλίζετο» χαῖρε δʼ Ὀδυσσεύς ὅττι ῥά οἱ βιότου περικήδετο …
+   ours:  ὁπλίζετο  (ὁπλίζω v3siie--- verb, 3rd singular imperfect indicative middle or passive)
+   trees: ὡπλίζετο  (ὁπλίζω v3siie--- verb, 3rd singular imperfect indicative middle or passive)
+14.526:6	ὁπλίζετο	ὡπλίζετο	ὁπλίζω v3siie--- | ὁπλίζω v3siie---	rule: spelling	→ 
+
+== 15.2
+… Βορέω ὑπʼ ἰωγῇ Ἡ δʼ εἰς εὐρύχορον Λακεδαίμονα Παλλὰς Ἀθήνη «οἴχετʼ» Ὀδυσσῆος μεγαθύμου φαίδιμον υἱὸν νόστου ὑπομνήσουσα καὶ ὀτρυνέουσα …
+   ours:  οἴχετʼ  (οἴχομαι v3siie--- verb, 3rd singular imperfect indicative middle or passive)
+   trees: ᾤχετ̓  (οἴχομαι v3siie--- verb, 3rd singular imperfect indicative middle or passive)
+15.2:0	οἴχετʼ	ᾤχετ̓	οἴχομαι v3siie--- | οἴχομαι v3siie---	rule: spelling	→ 
+
+== 15.23
+… κεν ὀπυίῃ παίδων δὲ προτέρων καὶ κουριδίοιο φίλοιο οὐκέτι μέμνηται «τεθνηότος» οὐδὲ μεταλλᾷ ἀλλὰ σύ γʼ ἐλθὼν αὐτὸς ἐπιτρέψειας …
+   ours:  τεθνηότος  (θνήσκω v-srpamg- verb, perfect participle active, singular masculine genitive)
+   trees: τεθνηκότος  (θνήσκω v-srpamg- verb, perfect participle active, singular masculine genitive)
+15.23:2	τεθνηότος	τεθνηκότος	θνήσκω v-srpamg- | θνήσκω v-srpamg-	rule: spelling	→ 
+
+== 15.44
+… ἀπέβη πρὸς μακρὸν Ὄλυμπον αὐτὰρ ὁ Νεστορίδην ἐξ ἡδέος ὕπνου «ἔγειρε» λὰξ ποδὶ κινήσας καί μιν πρὸς μῦθον ἔειπεν …
+   ours:  ἔγειρε  (ἐγείρω v3saia--- verb, 3rd singular aorist indicative active)
+   trees: ἔγειρεν  (ἐγείρω v3saia--- verb, 3rd singular aorist indicative active)
+15.44:6	ἔγειρε	ἔγειρεν	ἐγείρω v3saia--- | ἐγείρω v3saia---	rule: nu	→ 

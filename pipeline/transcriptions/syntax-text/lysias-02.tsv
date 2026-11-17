@@ -1,0 +1,362 @@
+# The trees' text, kinds of difference · job lysias-02 · lysias, 6.46–11.8 · 60 readings
+# Write your answer after the arrow of each line: transcriptions/syntax-text/DIFFERENCES.md
+
+== 6.46
+… οὔτʼ ἐπιβάτης οὔτε πρὸ τῆς συμφορᾶς οὔτε μετὰ τὴν συμφοράν «πλεῖν» ἢ τετταράκοντα ἔτη γεγονώς καίτοι ἕτεροι φεύγοντες ἐν …
+   ours:  πλεῖν  (πλείων a-s---na- adjective, singular neuter accusative)
+   trees: πλέον  (πολύς a-s---nac adjective, singular neuter accusative, comparative)
+6.46:35	πλεῖν	πλέον	πλείων a-s---na- | πολύς a-s---nac	rule: word	→ 
+
+== 7.2
+… ἀδικοῦντά με οὐδὲν εὑρεῖν ἐδυνήθησαν νυνί με σηκόν φασιν ἀφανίζειν «οἰόμενοι» ἐμοὶ μὲν ταύτην τὴν αἰτίαν ἀπορωτάτην εἶναι ἀπελέγξαι …
+   ours:  οἰόμενοι  (οἴομαι v-pppemn- verb, present participle middle or passive, plural masculine nominative)
+   trees: ἡγούμενοι  (ἡγέομαι v-pppmmn- verb, present participle middle, plural masculine nominative)
+7.2:43	οἰόμενοι	ἡγούμενοι	οἴομαι v-pppemn- | ἡγέομαι v-pppmmn-	rule: word	→ 
+
+== 7.4
+… τὸ χωρίον δημευθέντων δὲ τῶν ὄντων ἐκείνου Ἀπολλόδωρος ὁ Μεγαρεὺς «δωρεὰν» παρὰ τοῦ δήμου λαβὼν τὸν μὲν ἄλλον χρόνον …
+   ours:  δωρεὰν  (δωρεά n-s---fa- noun, singular feminine accusative)
+   trees: δωρειὰν  (δωρειά n-s---fa- noun, singular feminine accusative)
+7.4:15	δωρεὰν	δωρειὰν	δωρεά n-s---fa- | δωρειά n-s---fa-	rule: word	→ 
+
+== 7.5
+… ἐν αὐτῷ νομίζω γὰρ τοῦ μὲν προτέρου χρόνου οὐδʼ εἰ «πολλαὶ» ἐνῆσαν μοριαί οὐκ ἂν δικαίως ζημιοῦσθαι εἰ γὰρ …
+   ours:  πολλαὶ  (πολύς a-p---fn- adjective, plural feminine nominative)
+   trees: πάλαι  (πάλαι d-------- adverb)
+7.5:27	πολλαὶ	πάλαι	πολύς a-p---fn- | πάλαι d--------	rule: word	→ 
+
+== 7.7
+… φυλάττειν ἐδυνάμεθα ἐπίστασθε δέ ὦ βουλή ὅσοι μάλιστα τῶν τοιούτων «ἐπιμέλεσθε» πολλὰ ἐν ἐκείνῳ τῷ χρόνῳ δασέα ὄντα ἰδίαις …
+   ours:  ἐπιμέλεσθε  (ἐπιμελέομαι v2ppie--- verb, 2nd plural present indicative middle or passive)
+   trees: ἐπιμελεῖσθε  (ἐπιμελέομαι v2ppim--- verb, 2nd plural present indicative middle)
+7.7:24	ἐπιμέλεσθε	ἐπιμελεῖσθε	ἐπιμελέομαι v2ppie--- | ἐπιμελέομαι v2ppim---	rule: form	→ 
+
+== 7.10
+… οὔτε μοριὰν οὔτε σηκὸν παραλαβών τρίτῳ δὲ ἔτει Δημήτριος οὑτοσὶ «ἠργάσατο» ἐνιαυτόν τῷ δὲ τετάρτῳ Ἀλκίᾳ Ἀντισθένους ἀπελευθέρῳ ἐμίσθωσα …
+   ours:  ἠργάσατο  (ἐργάζομαι v3saie--- verb, 3rd singular aorist indicative middle or passive)
+   trees: εἰργάσατο  (ἐργάζομαι v3saim--- verb, 3rd singular aorist indicative middle)
+7.10:17	ἠργάσατο	εἰργάσατο	ἐργάζομαι v3saie--- | ἐργάζομαι v3saim---	rule: form	→ 
+
+== 7.12
+… ὅ τι κέρδος ἐγίγνετο τῷ ἀφανίσαντι καὶ ἥτις ζημία τῷ «ποιήσαντι» καὶ τί ἂν λαθὼν διεπραξάμην καὶ τί ἂν …
+   ours:  ποιήσαντι  (ποιέω v-sapamd- verb, aorist participle active, singular masculine dative)
+   trees: περιποιήσαντι  (περιποιέω v-sapamd- verb, aorist participle active, singular masculine dative)
+7.12:63	ποιήσαντι	περιποιήσαντι	ποιέω v-sapamd- | περιποιέω v-sapamd-	rule: word	→ 
+
+== 7.14
+… τι τοιοῦτον ἔπραττον πολλὰς γὰρ ἂν καὶ μεγάλας ἐμαυτῷ ζημίας «γιγνομένας» ἀποφήναιμι ὃς πρῶτον μὲν μεθʼ ἡμέραν ἐξέκοπτον τὸν …
+   ours:  γιγνομένας  (γίγνομαι v-pppefa- verb, present participle middle or passive, plural feminine accusative)
+   trees: γενομένας  (γίγνομαι v-papmfa- verb, aorist participle middle, plural feminine accusative)
+7.14:51	γιγνομένας	γενομένας	γίγνομαι v-pppefa- | γίγνομαι v-papmfa-	rule: form	→ 
+
+== 7.16
+… εἰ καὶ τὰ μέγιστα εἰς ἐμὲ ἐξημάρτανον οὐκ ἂν οἷόν «τʼ» ἦν δίκην με παρʼ αὐτῶν λαμβάνειν εὖ γὰρ …
+   ours:  τʼ  (τε g-------- particle)
+   trees: τε  (τε g-------- particle)
+7.16:35	τʼ	τε	τε g-------- | τε g--------	rule: elision	→ 
+
+== 7.19
+… οἱ δʼ οἰκέται ἐξέτεμνον τὰ πρέμνα ἀναθέμενος δὲ ὁ βοηλάτης «ᾤχετο» ἀπάγων τὰ ξύλα Καίτοι ὦ Νικόμαχε χρῆν σε …
+   ours:  ᾤχετο  (οἴχομαι v3siim--- verb, 3rd singular imperfect indicative middle)
+   trees: ὤχετο  (ἀχεύω v3siim--- verb, 3rd singular imperfect indicative middle)
+7.19:28	ᾤχετο	ὤχετο	οἴχομαι v3siim--- | ἀχεύω v3siim---	rule: word	→ 
+
+== 7.20
+… τρόπῳ ἦσθα ἄν με τετιμωρημένος εἰ δὲ τῆς πόλεως ἕνεκα «ἔπραττες» οὕτως ἐξελέγξας οὐκ ἂν ἐδόκεις εἶναι συκοφάντης εἰ …
+   ours:  ἔπραττες  (πράσσω v2siia--- verb, 2nd singular imperfect indicative active)
+   trees: ἔραττες  (ῥήγνυμι v2siia--- verb, 2nd singular imperfect indicative active)
+7.20:43	ἔπραττες	ἔραττες	πράσσω v2siia--- | ῥήγνυμι v2siia---	rule: word	→ 
+
+== 7.22
+… τῶν ἐμῶν χρημάτων οὐδεὶς ἐθέλει σοι μαρτυρεῖν καίτοι εἰ ὅτε «φής» μʼ ἰδεῖν τὴν μοριὰν ἀφανίζοντα τοὺς ἐννέα ἄρχοντας …
+   ours:  φής  (φημί v2spia--- verb, 2nd singular present indicative active)
+   trees: φῄς  (φημί v2spia--- verb, 2nd singular present indicative active)
+7.22:3	φής	φῄς	φημί v2spia--- | φημί v2spia---	rule: word	→ 
+
+== 7.23
+… οἵπερ καὶ διαγιγνώσκειν ἔμελλον περὶ τοῦ πράγματος Δεινότατα οὖν πάσχω «ὅσῳ» εἰ μὲν παρέσχετο μάρτυρας τούτοις ἂν ἠξίου πιστεύειν …
+   ours:  ὅσῳ  (ὅσος a-s---md- adjective, singular masculine dative)
+   trees: ὃς  (ὅς p-s---mn- pronoun, singular masculine nominative)
+7.23:3	ὅσῳ	ὃς	ὅσος a-s---md- | ὅς p-s---mn-	rule: word	→ 
+
+== 7.25
+… εἶναί μοι τὸν κίνδυνον αὐτοὺς τοίνυν ὑμᾶς τούτων μάρτυρας παρέξομαι «ἐπιμελομένους» μὲν ἑκάστου μηνός ἐπιγνώμονας δὲ πέμποντας καθʼ ἕκαστον …
+   ours:  ἐπιμελομένους  (ἐπιμελέομαι v-pppema- verb, present participle middle or passive, plural masculine accusative)
+   trees: ἐπιμελουμένους  (ἐπιμελέομαι v-pppmma- verb, present participle middle, plural masculine accusative)
+7.25:29	ἐπιμελομένους	ἐπιμελουμένους	ἐπιμελέομαι v-pppema- | ἐπιμελέομαι v-pppmma-	rule: form	→ 
+
+== 7.27
+… ἢ νυνί ἐγὼ τοίνυν οὐδʼ ἐν ἐκείνῳ τῷ χρόνῳ οὔτε «τοιοῦτο» οὔτε ἄλλο οὐδὲν κακὸν ποιήσας φανήσομαι Πῶς δʼ …
+   ours:  τοιοῦτο  (τοιοῦτος p-s---nn- pronoun, singular neuter nominative)
+   trees: τοιοῦτον  (τοιοῦτος p-s---na- pronoun, singular neuter accusative)
+7.27:42	τοιοῦτο	τοιοῦτον	τοιοῦτος p-s---nn- | τοιοῦτος p-s---na-	rule: nu	→ 
+
+== 7.28
+… ἄν εἰ μὴ πάντων ἀνθρώπων ἐμαυτῷ κακονούστατος ἦ ὑμῶν οὕτως «ἐπιμελομένων» ἐκ τούτου τὴν μοριὰν ἀφανίζειν ἐπεχείρησα τοῦ χωρίου …
+   ours:  ἐπιμελομένων  (ἐπιμελέομαι v-pppemg- verb, present participle middle or passive, plural masculine genitive)
+   trees: ἐπιμελουμένων  (ἐπιμελέομαι v-pppmmg- verb, present participle middle, plural masculine genitive)
+7.28:12	ἐπιμελομένων	ἐπιμελουμένων	ἐπιμελέομαι v-pppemg- | ἐπιμελέομαι v-pppmmg-	rule: form	→ 
+
+== 7.29
+… ὑπὸ τῆς πόλεως τὸν ἅπαντα χρόνον προστέτακται τῶν μοριῶν ἐλαῶν «ἐπιμέλεσθαι» μήθʼ ὡς ἐπεργαζόμενον πώποτε ζημιῶσαί με μήθʼ ὡς …
+   ours:  ἐπιμέλεσθαι  (ἐπιμελέομαι v--pne--- verb, present infinitive middle or passive)
+   trees: ἐπιμελεῖσθαι  (ἐπιμελέομαι v--pnm--- verb, present infinitive middle)
+7.29:11	ἐπιμέλεσθαι	ἐπιμελεῖσθαι	ἐπιμελέομαι v--pne--- | ἐπιμελέομαι v--pnm---	rule: form	→ 
+
+== 7.35
+… ἤθελεν οὐδὲν φάσκων πιστὸν εἶναι τοῖς θεράπουσιν ἐμοὶ δὲ δοκεῖ «δεινὸν» εἶναι εἰ περὶ αὑτῶν μὲν οἱ βασανιζόμενοι κατηγοροῦσιν …
+   ours:  δεινὸν  (δεινός a-s---na- adjective, singular neuter accusative)
+   trees: θαυμαστὸν  (θαυμαστός a-s---nn- adjective, singular neuter nominative)
+7.35:13	δεινὸν	θαυμαστὸν	δεινός a-s---na- | θαυμαστός a-s---nn-	rule: word	→ 
+
+== 7.36
+… παραλαβεῖν οὐκ ἤθελε δίκαιον καὶ περὶ τούτου τὴν αὐτὴν γνώμην «ἔχειν» ἄλλως τε καὶ τοῦ κινδύνου οὐκ ἴσου ἀμφοτέροις …
+   ours:  ἔχειν  (ἔχω v--pna--- verb, present infinitive active)
+   trees: σχεῖν  (ἔχω v--ana--- verb, aorist infinitive active)
+7.36:36	ἔχειν	σχεῖν	ἔχω v--pna--- | ἔχω v--ana---	rule: form	→ 
+
+== 7.38
+… καὶ πότερον οἴεσθε αὐτὸν ὑπὲρ τῆς πόλεως βοηθεῖν ἢ συκοφαντοῦντα «αἰτιᾶσθαι» ἐγὼ μὲν γὰρ ὑμᾶς ἡγοῦμαι νομίζειν ὅτι Νικόμαχος …
+   ours:  αἰτιᾶσθαι  (αἰτιάομαι v--pne--- verb, present infinitive middle or passive)
+   trees: αἰτιάσασθαι  (αἰτιάομαι v--anm--- verb, aorist infinitive middle)
+7.38:41	αἰτιᾶσθαι	αἰτιάσασθαι	αἰτιάομαι v--pne--- | αἰτιάομαι v--anm---	rule: form	→ 
+
+== 8.3
+… τί δῆτά με κακῶς τὰ μὲν λέγειν τὰ δὲ ποιεῖν «ἐπιχειρεῖτε» καὶ ταῦτα πρὸς τούτους ἡμᾶς διαβάλλειν οὓς πρὸς …
+   ours:  ἐπιχειρεῖτε  (ἐπιχειρέω v2ppia--- verb, 2nd plural present indicative active)
+   trees: χειρεῖτε  (χειρέω v2ppia--- verb, 2nd plural present indicative active)
+8.3:49	ἐπιχειρεῖτε	χειρεῖτε	ἐπιχειρέω v2ppia--- | χειρέω v2ppia---	rule: word	→ 
+
+== 8.4
+… τούτους ἡμᾶς διαβάλλειν οὓς πρὸς ἡμᾶς αὐτοὺς διεβάλλετε καίτοι οὕτως «ἐνοχλεῖτε» ὥστε περὶ πλείονος ἐποιήσασθε δοκεῖν ἐμοῦ κήδεσθαι καὶ …
+   ours:  ἐνοχλεῖτε  (ἐνοχλέω v2piia--- verb, 2nd plural imperfect indicative active)
+   trees: ἠνωχλεῖτε  (ἀνοχλέω v2piia--- verb, 2nd plural imperfect indicative active)
+8.4:2	ἐνοχλεῖτε	ἠνωχλεῖτε	ἐνοχλέω v2piia--- | ἀνοχλέω v2piia---	rule: spelling	→ 
+
+== 8.4
+… καίτοι οὕτως ἐνοχλεῖτε ὥστε περὶ πλείονος ἐποιήσασθε δοκεῖν ἐμοῦ κήδεσθαι «καὶ» μᾶλλον ἐμοῦ κατειπεῖν ἃ δʼ ἐλέγετε πάντα μὲν …
+   ours:  καὶ  (καί c-------- conjunction)
+   trees: ἢ  (ἤ c-------- conjunction)
+8.4:10	καὶ	ἢ	καί c-------- | ἤ c--------	rule: word	→ 
+
+== 8.4
+… οὕτως ἐνοχλεῖτε ὥστε περὶ πλείονος ἐποιήσασθε δοκεῖν ἐμοῦ κήδεσθαι καὶ «μᾶλλον» ἐμοῦ κατειπεῖν ἃ δʼ ἐλέγετε πάντα μὲν οὐκ …
+   ours:  μᾶλλον  (μάλα d-------c adverb, comparative)
+   trees: ἄλλον  (ἄλλος p-s---ma- pronoun, singular masculine accusative)
+8.4:11	μᾶλλον	ἄλλον	μάλα d-------c | ἄλλος p-s---ma-	rule: word	→ 
+
+== 8.4
+… ἐνοχλεῖτε ὥστε περὶ πλείονος ἐποιήσασθε δοκεῖν ἐμοῦ κήδεσθαι καὶ μᾶλλον «ἐμοῦ» κατειπεῖν ἃ δʼ ἐλέγετε πάντα μὲν οὐκ ἂν …
+   ours:  ἐμοῦ  (ἐγώ p-s---mg- pronoun, singular masculine genitive)
+   trees: ἐμοὶ  (ἐγώ p-s---cd- pronoun, singular common dative)
+8.4:12	ἐμοῦ	ἐμοὶ	ἐγώ p-s---mg- | ἐγώ p-s---cd-	rule: form	→ 
+
+== 8.4
+… ἐποιήσασθε δοκεῖν ἐμοῦ κήδεσθαι καὶ μᾶλλον ἐμοῦ κατειπεῖν ἃ δʼ «ἐλέγετε» πάντα μὲν οὐκ ἂν εἴποιμι καὶ γὰρ ἀκούων …
+   ours:  ἐλέγετε  (λέγω v2piia--- verb, 2nd plural imperfect indicative active)
+   trees: ἔλεγε  (λέγω v3siia--- verb, 3rd singular imperfect indicative active)
+8.4:16	ἐλέγετε	ἔλεγε	λέγω v2piia--- | λέγω v3siia---	rule: form	→ 
+
+== 8.4
+… γὰρ ἂν ἀπολύοιμι τῆς αἰτίας ὑμᾶς εἴπερ ὑμῖν ταὐτὰ λέγοιμι «ὑπὲρ» ἐμαυτοῦ ἃ δὲ ὑβρίζειν οἰόμενοι ἐμὲ καταγελάστους ὑμᾶς …
+   ours:  ὑπὲρ  (ὑπέρ r-------- preposition)
+   trees: περὶ  (περί r-------- preposition)
+8.4:48	ὑπὲρ	περὶ	ὑπέρ r-------- | περί r--------	rule: word	→ 
+
+== 8.9
+… ὑμᾶς οὐ γὰρ ἐπὶ τοῖς αὐτοῖς ἐκεῖνος ἡμῖν ἀπήγγελλεν ἐφʼ «οἷσπερ» ὑμεῖς ἐλέγετε πρὸς ἐκεῖνον ἐκεῖνος μὲν γὰρ ἐμοὶ …
+   ours:  οἷσπερ  (ὅς p-p---md- pronoun, plural masculine dative)
+   trees: οἷπερ  (οἷπερ d-------- adverb)
+8.9:20	οἷσπερ	οἷπερ	ὅς p-p---md- | οἷπερ d--------	rule: word	→ 
+
+== 8.11
+… τούτων ἔπραττον ἀδικουμένῳ μοι μηδὲν ἦν δίκαιον εἰπεῖν ἦ που «καλῶς» συνέπραττον καὶ ἐγὼ μὲν ᾤμην φιλοσοφοῦντας αὐτοὺς περὶ …
+   ours:  καλῶς  (καλός d-------- adverb)
+   trees: κακῶς  (κακός d-------- adverb)
+8.11:20	καλῶς	κακῶς	καλός d-------- | κακός d--------	rule: word	→ 
+
+== 8.12
+… οἱ δʼ ἄρα οὐκ ἀντέλεγον ἀλλʼ ἀντέπραττον καὶ διὰ τοῦτο «ἀντέπραττον» ἵνα τὸν ἐμὸν λόγον εἰδείη Πολυκλῆς ἐδηλώθη γὰρ …
+   ours:  ἀντέπραττον  (ἀντιπράσσω v1siia--- verb, 1st singular imperfect indicative active)
+   trees: ἀντέλεγον  (ἀντιλέγω v3piia--- verb, 3rd plural imperfect indicative active)
+8.12:3	ἀντέπραττον	ἀντέλεγον	ἀντιπράσσω v1siia--- | ἀντιλέγω v3piia---	rule: word	→ 
+
+== 8.12
+… τινας ἤδη κωλύσαιτε καὶ ταῦτα τί με δεῖ φανερώτερον ἐξελέγχειν «ὅτι» φέρε γάρ ᾔδει ποτʼ ἐκεῖνος ὅτι Κλειτοδίκου δεηθεὶς …
+   ours:  ὅτι  (ὅτι c-------- conjunction)
+   trees: ἔτι  (ἔτι d-------- adverb)
+8.12:61	ὅτι	ἔτι	ὅτι c-------- | ἔτι d--------	rule: word	→ 
+
+== 8.14
+… ὁ Θρασύμαχος ἦν ἐξελέγχεσθαι περὶ ὧν οὗτος ἔλεγεν οὗτος δὲ «πάντα» μᾶλλον διεπράττετο μετὰ τοῦτο Αὐτοκράτης ἐμοῦ παρόντος Θρασυμάχῳ …
+   ours:  πάντα  (πᾶς a-p---na- adjective, plural neuter accusative)
+   trees: πάντʼ  (πᾶς p-p---na- pronoun, plural neuter accusative)
+8.14:58	πάντα	πάντʼ	πᾶς a-p---na- | πᾶς p-p---na-	rule: elision	→ 
+
+== 8.15
+… οὗτος δὲ πάντα μᾶλλον διεπράττετο μετὰ τοῦτο Αὐτοκράτης ἐμοῦ παρόντος «Θρασυμάχῳ» ἔλεγεν Εὐρυπτόλεμον αὐτῷ μέμφεσθαι φάσκοντα κακῶς ἀκούειν ὑπʼ …
+   ours:  Θρασυμάχῳ  (Θρασύμαχος n-s---md- noun, singular masculine dative)
+   trees: Θρασυμάχω  (Θρασύμαχος n-s---mg- noun, singular masculine genitive)
+8.15:5	Θρασυμάχῳ	Θρασυμάχω	Θρασύμαχος n-s---md- | Θρασύμαχος n-s---mg-	rule: form	→ 
+
+== 8.15
+… ἀπαγγέλλοντα δὲ εἶναι Μηνόφιλον εὐθὺς δʼ ἐκεῖνος ἐπὶ τὸν Μηνόφιλον «ἐβάδιζε» μετʼ ἐμοῦ κἀκεῖνος οὔτε ἀκοῦσαι πώποτε ἔφασκεν οὔτε …
+   ours:  ἐβάδιζε  (βαδίζω v3siia--- verb, 3rd singular imperfect indicative active)
+   trees: ἐβάδιξε  (βαδίζω v3saia--- verb, 3rd singular aorist indicative active)
+8.15:26	ἐβάδιζε	ἐβάδιξε	βαδίζω v3siia--- | βαδίζω v3saia---	rule: form	→ 
+
+== 8.19
+… τὰ δίκαια ξύνεστε τοῖς ἐμοῖς ἀντιδίκοις καὶ μαρτυρεῖτε ἀλλʼ ὡς «εὔνους» ὄντες ἐμοὶ τὰ βέλτιστα ἐρεῖτε περὶ ἐμοῦ ἀλλὰ …
+   ours:  εὔνους  (εὔνους a-p---mn- adjective, plural masculine nominative)
+   trees: εὖνοι  (εὔνους a-p---mn- adjective, plural masculine nominative)
+8.19:2	εὔνους	εὖνοι	εὔνους a-p---mn- | εὔνους a-p---mn-	rule: spelling	→ 
+
+== 8.20
+… ὁ λειπόμενος αὐτὸς αὑτὸν κακῶς ἐρεῖ κερδανῶ δὲ τοσοῦτον ὅτι «πρῶτον» μὲν ὑμῶν ἀπαλλαγεὶς ἐλάχιστα κακῶς ὑφʼ ὑμῶν πείσομαι …
+   ours:  πρῶτον  (πρῶτος a-s---ma- adjective, singular masculine accusative)
+   trees: πρῶτος  (πρῶτος a-s---mn- adjective, singular masculine nominative)
+8.20:4	πρῶτον	πρῶτος	πρῶτος a-s---ma- | πρῶτος a-s---mn-	rule: form	→ 
+
+== 8.20
+… λειπόμενος αὐτὸς αὑτὸν κακῶς ἐρεῖ κερδανῶ δὲ τοσοῦτον ὅτι πρῶτον «μὲν» ὑμῶν ἀπαλλαγεὶς ἐλάχιστα κακῶς ὑφʼ ὑμῶν πείσομαι τοὺς …
+   ours:  μὲν  (μέν g-------- particle)
+   trees: νῦν  (νῦν d-------- adverb)
+8.20:5	μὲν	νῦν	μέν g-------- | νῦν d--------	rule: word	→ 
+
+== 9.6
+… οἱ δὲ μετὰ Κτησικλέους τοῦ ἄρχοντος ἀπαγγείλαντός τινος ὡς ἐγὼ «λοιδοροίην» τοῦ νόμου ἀπαγορεύοντος ἐάν τις ἀρχὴν ἐν συνεδρίῳ …
+   ours:  λοιδοροίην  (λοιδορέω v1spoa--- verb, 1st singular present optative active)
+   trees: λοιδοροῖμι  (λοιδορέω v1spoa--- verb, 1st singular present optative active)
+9.6:10	λοιδοροίην	λοιδοροῖμι	λοιδορέω v1spoa--- | λοιδορέω v1spoa---	rule: spelling	→ 
+
+== 9.7
+… αἰτίας τὴν πρόφασιν ἀκούσαντες δὲ τὸ γεγενημένον ἐννοούμενοι οἷα πεπονθὼς «ἦ» τὸ μὲν πρῶτον ἔπειθον αὐτοὺς ἀφεῖναι διδάσκοντες ὡς …
+   ours:  ἦ  (εἰμί v3siia--- verb, 3rd singular imperfect indicative active)
+   trees: ἦν  (εἰμί v3siia--- verb, 3rd singular imperfect indicative active)
+9.7:30	ἦ	ἦν	εἰμί v3siia--- | εἰμί v3siia---	rule: nu	→ 
+
+== 9.9
+… τὸν νόμον Τοῦ μὲν νόμου διαρρήδην ἀγορεύοντος τοὺς ἐν τῷ «συνεδρίῳ» λοιδοροῦντας ζημιοῦν ἀκηκόατε ἐγὼ δʼ ὅτι μὲν οὐκ …
+   ours:  συνεδρίῳ  (συνέδριον n-s---nd- noun, singular neuter dative)
+   trees: συνεδρίω  (συνέδριον n-s---ng- noun, singular neuter genitive)
+9.9:8	συνεδρίῳ	συνεδρίω	συνέδριον n-s---nd- | συνέδριον n-s---ng-	rule: form	→ 
+
+== 9.16
+… ὠφελήσειν οἵτινες οὐδετέρου τούτων ὑπάρχοντος πάντα περὶ ἐλάττονος ποιοῦνται τοῦ «δικαιοῦν» ἀλλὰ γὰρ οἳ κατεφρόνησαν τοῦ ὑμετέρου πλήθους οὐδὲ …
+   ours:  δικαιοῦν  (δικαιόω v--pna--- verb, present infinitive active)
+   trees: ἀδικεῖν  (ἀδικέω v--pna--- verb, present infinitive active)
+9.16:38	δικαιοῦν	ἀδικεῖν	δικαιόω v--pna--- | ἀδικέω v--pna---	rule: word	→ 
+
+== 9.21
+… περὶ πολιτείας τυχὼν μὲν γὰρ τῶν δικαίων πιστεύω δὲ τῇ «ὑμετέρᾳ» γνώμῃ μείναιμι ἂν ἐν τῇ πόλει παραχθεὶς δὲ …
+   ours:  ὑμετέρᾳ  (ὑμέτερος a-s---fd- adjective, singular feminine dative)
+   trees: ὑμετέρα  (ὑμέτερος a-s---fn- adjective, singular feminine nominative)
+9.21:19	ὑμετέρᾳ	ὑμετέρα	ὑμέτερος a-s---fd- | ὑμέτερος a-s---fn-	rule: form	→ 
+
+== 10.2
+… εἴ τι ἄλλο τῶν ἀπορρήτων ἤκουσα οὐκ ἂν ἐπεξῆλθον αὐτῷ «ἀνελεύθερον» γὰρ καὶ λίαν φιλόδικον εἶναι νομίζω κακηγορίας δικάζεσθαι …
+   ours:  ἀνελεύθερον  (ἀνελεύθερος a-s---ma- adjective, singular masculine accusative)
+   trees: ἀνελευθέρου  (ἀνελεύθερος a-s---mg- adjective, singular masculine genitive)
+10.2:31	ἀνελεύθερον	ἀνελευθέρου	ἀνελεύθερος a-s---ma- | ἀνελεύθερος a-s---mg-	rule: form	→ 
+
+== 10.2
+… ἀπορρήτων ἤκουσα οὐκ ἂν ἐπεξῆλθον αὐτῷ ἀνελεύθερον γὰρ καὶ λίαν «φιλόδικον» εἶναι νομίζω κακηγορίας δικάζεσθαι νυνὶ δὲ αἰσχρόν μοι …
+   ours:  φιλόδικον  (φιλόδικος a-s---ma- adjective, singular masculine accusative)
+   trees: φιλοδίκου  (φιλόδικος a-s---mg- adjective, singular masculine genitive)
+10.2:35	φιλόδικον	φιλοδίκου	φιλόδικος a-s---ma- | φιλόδικος a-s---mg-	rule: form	→ 
+
+== 10.4
+… φαίνομαι οὖν τρισκαιδεκέτης ὢν ὅτε ὁ πατὴρ ὑπὸ τῶν τριάκοντα «ἀπέθνῃσκε» ταύτην δὲ ἔχων τὴν ἡλικίαν οὔτε τί ἐστιν …
+   ours:  ἀπέθνῃσκε  (ἀποθνῄσκω v3siia--- verb, 3rd singular imperfect indicative active)
+   trees: ἀπέθνησκε  (ἀποθνῄσκω v3siia--- verb, 3rd singular imperfect indicative active)
+10.4:27	ἀπέθνῃσκε	ἀπέθνησκε	ἀποθνῄσκω v3siia--- | ἀποθνῄσκω v3siia---	rule: spelling	→ 
+
+== 10.5
+… ἡμᾶς τῶν πατρῴων ἀπεστέρησεν ὥστε πολλῶν ἕνεκα ὦ ἄνδρες δικασταί «προσῆκέ» μοι αὐτὸν βούλεσθαι ζῆν ἀνάγκη μὲν οὖν περὶ …
+   ours:  προσῆκέ  (προσήκω v3siia--- verb, 3rd singular imperfect indicative active)
+   trees: προσήκει  (προσήκω v3spia--- verb, 3rd singular present indicative active)
+10.5:30	προσῆκέ	προσήκει	προσήκω v3siia--- | προσήκω v3spia---	rule: form	→ 
+
+== 10.14
+… οὐδέποτε οἴει τοὺς ἀδικουμένους ὑπὸ σοῦ τιμωρίας τεύξεσθαι εἶτʼ οὐκ «αἰσχύνει» οὕτως ἀνοήτως διακείμενος ὥστε οὐκ ἐξ ὧν εὖ …
+   ours:  αἰσχύνει  (αἰσχύνω v2spie--- verb, 2nd singular present indicative middle or passive)
+   trees: αἰσχύνῃ  (αἰσχύνω v2spim--- verb, 2nd singular present indicative middle)
+10.14:2	αἰσχύνει	αἰσχύνῃ	αἰσχύνω v2spie--- | αἰσχύνω v2spim---	rule: form	→ 
+
+== 10.15
+… βούλομαι οὖν αὐτὸν καὶ ἐξ ἑτέρων νόμων περὶ τούτων διδάξαι «ἄν» πως ἀλλὰ νῦν ἐπὶ τοῦ βήματος παιδευθῇ καὶ …
+   ours:  ἄν  (ἐάν c-------- conjunction)
+   trees: ἐάν  (ἐάν c-------- conjunction)
+10.15:36	ἄν	ἐάν	ἐάν c-------- | ἐάν c--------	rule: spelling	→ 
+
+== 10.17b
+… δὲ δίκης ἕνεκα δρασκάζειν Τοῦτο τὸ ἐπιορκήσαντα ὀμόσαντά ἐστι τὸ «δὲ» δρασκάζειν ὃ νῦν ἀποδιδράσκειν ὀνομάζομεν Ὅστις δὲ ἀπίλλει …
+   ours:  δὲ  (δέ g-------- particle)
+   trees: τε  (τε c-------- conjunction)
+10.17b:6	δὲ	τε	δέ g-------- | τε c--------	rule: word	→ 
+
+== 10.17d
+… ἀπίλλει τῇ θύρᾳ ἔνδον τοῦ κλέπτου ὄντος Τὸ ἀπίλλειν τοῦτο «ἀποκλῄειν» νομίζεται καὶ μηδὲν διὰ τοῦτο διαφέρου Τὸ ἀργύριον …
+   ours:  ἀποκλῄειν  (ἀποκλείω v--pna--- verb, present infinitive active)
+   trees: ἀποκλείειν  (ἀποκλείω v--pna--- verb, present infinitive active)
+10.17d:3	ἀποκλῄειν	ἀποκλείειν	ἀποκλείω v--pna--- | ἀποκλείω v--pna---	rule: spelling	→ 
+
+== 10.22
+… ὑφʼ ὑμῶν ἠλεήθη ἀλλὰ καὶ τὸν μαρτυρήσαντα ἠτίμωσεν ἐγὼ δὲ «ἑορακὼς» μὲν ἐκεῖνο τοῦτον ποιήσαντα ὃ καὶ ὑμεῖς ἴστε …
+   ours:  ἑορακὼς  (ὁράω v-srpamn- verb, perfect participle active, singular masculine nominative)
+   trees: ἑωρακὼς  (ὁράω v-srpamn- verb, perfect participle active, singular masculine nominative)
+10.22:25	ἑορακὼς	ἑωρακὼς	ὁράω v-srpamn- | ὁράω v-srpamn-	rule: spelling	→ 
+
+== 10.25
+… ἀπιόντα δὲ ἀπὸ τοῦ δικαστηρίου καὶ λέγοντα ὅτι δυστυχεστάτην ἐκείνην «εἶμεν» στρατείαν ἐστρατευμένοι ἐν ᾗ πολλοὶ μὲν ἡμῶν ἀπέθανον …
+   ours:  εἶμεν  (εἰμί v1ppoa--- verb, 1st plural present optative active)
+   trees: εἴημεν  (εἰμί v1ppoa--- verb, 1st plural present optative active)
+10.25:10	εἶμεν	εἴημεν	εἰμί v1ppoa--- | εἰμί v1ppoa---	rule: spelling	→ 
+
+== 10.26
+… ἂν ἐμοὶ μείζων ταύτης γένοιτο συμφορά περὶ τοιούτου πατρὸς οὕτως «αἰσχρὰν» αἰτίαν ἀκηκοότι ὃς πολλάκις μὲν ἐστρατήγησε πολλοὺς δὲ …
+   ours:  αἰσχρὰν  (αἰσχρός a-s---fa- adjective, singular feminine accusative)
+   trees: αἰσχρὰς  (αἰσχρός a-p---fa- adjective, plural feminine accusative)
+10.26:30	αἰσχρὰν	αἰσχρὰς	αἰσχρός a-s---fa- | αἰσχρός a-p---fa-	rule: form	→ 
+
+== 10.26
+… ἐμοὶ μείζων ταύτης γένοιτο συμφορά περὶ τοιούτου πατρὸς οὕτως αἰσχρὰν «αἰτίαν» ἀκηκοότι ὃς πολλάκις μὲν ἐστρατήγησε πολλοὺς δὲ καὶ …
+   ours:  αἰτίαν  (αἰτία n-s---fa- noun, singular feminine accusative)
+   trees: αἰτίας  (αἰτία n-p---fa- noun, plural feminine accusative)
+10.26:31	αἰτίαν	αἰτίας	αἰτία n-s---fa- | αἰτία n-p---fa-	rule: form	→ 
+
+== 10.29
+… ὦ ἄνδρες δικασταί ὅσῳ μείζους εἰσὶ καὶ νεανίαι τὰς ὄψεις «τοσοῦτο» μᾶλλον ὀργῆς ἄξιοί εἰσι δῆλον γὰρ ὅτι τοῖς …
+   ours:  τοσοῦτο  (τοσοῦτος p-s---na- pronoun, singular neuter accusative)
+   trees: τοσούτῳ  (τοσοῦτος p-s---nd- pronoun, singular neuter dative)
+10.29:13	τοσοῦτο	τοσούτῳ	τοσοῦτος p-s---na- | τοσοῦτος p-s---nd-	rule: form	→ 
+
+== 10.30
+… Ἀκούω δʼ αὐτόν ὦ ἄνδρες δικασταί ἐπὶ τοῦτον τὸν λόγον «τρέψεσθαι» ὡς ὀργισθεὶς εἴρηκε ταῦτα ἐμοῦ μαρτυρήσαντος τὴν αὐτὴν …
+   ours:  τρέψεσθαι  (τρέπω v--fnm--- verb, future infinitive middle)
+   trees: τρέπεσθαι  (τρέπω v--pnm--- verb, present infinitive middle)
+10.30:10	τρέψεσθαι	τρέπεσθαι	τρέπω v--fnm--- | τρέπω v--pnm---	rule: form	→ 
+
+== 11.6
+… φῇ ἀποβεβληκέναι πῶς οὖν οὐ δεινόν ἐὰν μέν τις σὲ «εἴπῃ» τοὺς νόμους ἐκλαμβάνειν οὕτως ὥσπερ ἐγὼ νῦν καὶ …
+   ours:  εἴπῃ  (εἶπον v2sasm--- verb, 2nd singular aorist subjunctive middle)
+   trees: ἔπῃ  (ἐφίημι v2sasm--- verb, 2nd singular aorist subjunctive middle)
+11.6:41	εἴπῃ	ἔπῃ	εἶπον v2sasm--- | ἐφίημι v2sasm---	rule: word	→ 
+
+== 11.7
+… τοιαύτην γνώμην περὶ τὸν πατέρα ἔχειν καίτοι γε τοῦτον μὲν «ἑόρακα» ποιοῦντα ὡς καὶ ὑμεῖς ἴστε αὐτὸς δʼ ἔσωσα …
+   ours:  ἑόρακα  (ὁράω v1sria--- verb, 1st singular perfect indicative active)
+   trees: ἑώρακα  (ὁράω v1sria--- verb, 1st singular perfect indicative active)
+11.7:33	ἑόρακα	ἑώρακα	ὁράω v1sria--- | ὁράω v1sria---	rule: spelling	→ 
+
+== 11.8
+… ὡς δικαίως ἤκουσα ἀλλʼ οὐδʼ ἂν αὐτοὶ φήσαιτε ἀλλʼ ὡς «βελτίονος» ὄντος ἀλλʼ οὐδʼ ἂν αὐτὸς ἀξιώσειεν ἀλλʼ ὅτι …
+   ours:  βελτίονος  (βελτίων a-s---ngc adjective, singular neuter genitive, comparative)
+   trees: βελτίων  (ἀγαθός a-s---mnc adjective, singular masculine nominative, comparative)
+11.8:15	βελτίονος	βελτίων	βελτίων a-s---ngc | ἀγαθός a-s---mnc	rule: word	→ 
+
+== 11.8
+… δικαίως ἤκουσα ἀλλʼ οὐδʼ ἂν αὐτοὶ φήσαιτε ἀλλʼ ὡς βελτίονος «ὄντος» ἀλλʼ οὐδʼ ἂν αὐτὸς ἀξιώσειεν ἀλλʼ ὅτι ἀποβεβληκὼς …
+   ours:  ὄντος  (εἰμί v-sppamg- verb, present participle active, singular masculine genitive)
+   trees: οὗτος  (οὗτος p-s---mn- pronoun, singular masculine nominative)
+11.8:16	ὄντος	οὗτος	εἰμί v-sppamg- | οὗτος p-s---mn-	rule: word	→ 
