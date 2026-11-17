@@ -119,6 +119,7 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import no.anagnosis.data.AnagnosisRepository
 import no.anagnosis.data.Book
+import no.anagnosis.data.SyntaxText
 import no.anagnosis.data.TranslationPaging
 import no.anagnosis.data.SectionKinds
 import no.anagnosis.data.Bookmark
@@ -1000,8 +1001,12 @@ fun ReaderScreen(
     syntaxSentence?.let { sentence ->
         val tree = remember(sentence, data) { repository.sentenceTree(data, sentence) }
         val label = remember(tree, data) { sentenceLabel(tree, data) }
+        // printed words of the sentence that the trees' text lacks: not in the tree, named at its head
+        val notInTree = remember(sentence, data) { SyntaxText.absentForms(repository.sentenceTokens(data, sentence), data.syntaxTextByToken) }
         Box(Modifier.fillMaxSize()) {
-            SyntaxScreen(tree, label, family, onWord = { selectedTokenId = it }, onBack = { syntaxSentence = null }, automatic = data.automaticSyntaxOfSentence(sentence))
+            SyntaxScreen(tree, label, family, onWord = { selectedTokenId = it }, onBack = { syntaxSentence = null }, automatic = data.automaticSyntaxOfSentence(sentence),
+                textNotice = data.syntaxText?.let(SyntaxText::notice),
+                notInTree = notInTree)
         }
         PlatformBackHandler { syntaxSentence = null }
     }

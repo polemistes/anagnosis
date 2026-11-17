@@ -50,6 +50,8 @@ class CatalogEntry(
     val refTranslationNotes: String = "",
     /** A free text: added without payment (no product in the store). */
     val free: Boolean = false,
+    /** The text the syntax trees were made on, where it is not the one printed (shop and credits line). */
+    val syntaxText: String = "",
 )
 
 /** Everything needed to display one work, loaded once. */
@@ -86,6 +88,11 @@ class WorkData(
     val syntaxByBook: Map<Int, String> = emptyMap(),
     /** Where the notes on the Greek begin (not the apparatus, not a translator's notes), for the chooser's marks. */
     val commentaryStarts: List<Long> = emptyList(),
+    /** The text the syntax trees were made on, where it is not the one printed (meta syntax_text), else null. */
+    val syntaxText: String? = null,
+    /** How the trees' text differs, by token (unit, reading, absent) and by tree node (unprinted): [SyntaxText]. */
+    val syntaxTextByToken: Map<Long, SyntaxTextWord> = emptyMap(),
+    val syntaxTextByNode: Map<Pair<String, Int>, SyntaxTextWord> = emptyMap(),
     /** The note sets that are notes to the translation, not a commentary on the Greek (meta `translation_notes`), by id. */
     val translationNoteIds: Set<Long> = emptySet(),
     /** The dictionaries the word sheet offers first, most fitting first (abbott-smith dodson ml lsj). */
@@ -268,6 +275,8 @@ class WordInfo(
     /** Which of the homographs listed in [shortDefinition] ("1. …\n2. …") this word is, when the
      * text's annotation tells (1-based); null when it does not. */
     val homograph: Int? = null,
+    /** Where the trees were made on another text and it differs at this word: what to say by the syntax ([SyntaxText.wordRemark]). */
+    val syntaxNote: String? = null,
 )
 
 /** A lemma as the tokens store it may end in its homograph's number (μήν2): the lemma without it, and the number. */

@@ -95,7 +95,7 @@ class AnagnosisRepository(
         CatalogEntry(slug, title, author, titleEn, authorEn, description, edition, installed, appId,
             editor, apparatus, translation, commentary, syntax, dictionaries, offered, productId,
             refEdition, refTranslation, refCommentary, syntaxSource, syntaxLicense, version, release,
-            translationNotes, refTranslationNotes, free)
+            translationNotes, refTranslationNotes, free, syntaxText)
 
     private fun parseCatalog(json: String): List<CatalogEntry> {
         // the catalog is a flat JSON array of objects with string values; a small parser suffices
@@ -112,7 +112,7 @@ class AnagnosisRepository(
                 field(o, "syntax"), field(o, "dictionaries"), field(o, "google_play") == "yes", field(o, "product_id"),
                 field(o, "ref_edition"), field(o, "ref_translation"), field(o, "ref_commentary"),
                 field(o, "syntax_source"), field(o, "syntax_license"), field(o, "version"), field(o, "release"),
-                field(o, "translation_notes"), field(o, "ref_translation_notes"), flag(o, "free"))
+                field(o, "translation_notes"), field(o, "ref_translation_notes"), flag(o, "free"), field(o, "syntax_text"))
         }.filter { it.slug.isNotEmpty() }.toList()
     }
 
@@ -143,6 +143,10 @@ class AnagnosisRepository(
             if (mark) withNotes += line.id
         }
         val numbering = q.selectMeta("line_numbers").executeAsOneOrNull()
+        // the trees made on another text: the rows only where the text says it has them
+        val syntaxText = q.selectMeta("syntax_text").executeAsOneOrNull()?.takeIf { it.isNotBlank() }
+        val textWords = if (light || q.selectMeta("syntax_text_words").executeAsOneOrNull() == null) emptyList()
+            else q.selectSyntaxTextWords().executeAsList().map { SyntaxTextWord(it.kind, it.token_id, it.sentence, it.word_id?.toInt(), it.tree_form, it.tree_lemma, it.extent, it.same_construction, it.tree_postag) }
         // where the notes on the Greek begin, for the book chooser's marks (only books are marked)
         val declaredTranslationNotes = q.selectMeta("translation_notes").executeAsOneOrNull()?.split(' ')?.filter { it.isNotBlank() }?.toSet() ?: emptySet()
         val onGreek = commentaries.filter { it.kind() == NoteKind.COMMENTARY && !BookContents.isTranslationNotes(it.slug, it.title, declaredTranslationNotes) }.map { it.id }.toSet()
@@ -159,6 +163,9 @@ class AnagnosisRepository(
             automaticSyntax = q.selectMeta("syntax").executeAsOneOrNull() == "automatic",
             syntaxByBook = Book.parseSyntaxByBook(q.selectMeta("syntax_by_book").executeAsOneOrNull()),
             commentaryStarts = commentaryStarts,
+            syntaxText = syntaxText,
+            syntaxTextByToken = textWords.filter { it.tokenId != null }.associateBy { it.tokenId!! },
+            syntaxTextByNode = textWords.filter { it.sentence != null && it.wordId != null && it.kind != "unit" }.associateBy { it.sentence!! to it.wordId!! },
             translationNoteIds = commentaries.filter { it.kind() == NoteKind.COMMENTARY && BookContents.isTranslationNotes(it.slug, it.title, declaredTranslationNotes) }.map { it.id }.toSet(),
             dictionaryOrder = q.selectMeta("dictionaries").executeAsOneOrNull()?.split(' ')?.filter { it.isNotBlank() } ?: emptyList(),
             pronunciation = defaultPronunciation(slug, work.author, q.selectMeta("pronunciation").executeAsOneOrNull()),
@@ -191,10 +198,14 @@ class AnagnosisRepository(
         val glossary = q.selectGlossaryByKey(token.lemma_key).executeAsList()
             .map { Entry(it.lexicon_slug, it.lexicon_title, it.headword, it.homograph, it.html) }
         val short = q.selectShortDefinition(token.lemma_key).executeAsOneOrNull()?.definition
+        // where the trees' text reads otherwise, the role is that of the trees' word, said as such
+        val textRow = data.syntaxTextByToken[token.id]
         val syntax = token.sentence?.let { Syntax.roleOf(sentenceTree(data, it), token) }
+            ?.let { if (textRow != null && SyntaxText.isReading(textRow, token.form)) SyntaxText.readingRole(textRow, it) else it }
             ?.let { if (data.automaticSyntaxAt(data.lineById[token.line_id]?.n_int ?: 0L)) "$it (automatic)" else it }
         val (lemma, homograph) = splitHomograph(token.lemma)
-        return WordInfo(token.form, lemma, Morphology.describe(token.postag), short, glossary + rows, syntax, markedForm(token), homograph)
+        return WordInfo(token.form, lemma, Morphology.describe(token.postag), short, glossary + rows, syntax, markedForm(token), homograph,
+            syntaxNote = SyntaxText.wordRemark(textRow))
     }
 
     /** The token's form with the long vowels its spelling does not show marked, or null (see [VowelLength]). */
@@ -212,7 +223,10 @@ class AnagnosisRepository(
 
     /** The dependency tree of a sentence, from its tokens and the treebank's extra nodes. */
     fun sentenceTree(data: WorkData, sentence: String): SyntaxTree =
-        Syntax.build(sentence, sentenceTokens(data, sentence), data.nodesBySentence[sentence] ?: emptyList())
+        sentenceTokens(data, sentence).let { tokens ->
+            Syntax.marked(Syntax.build(sentence, tokens, data.nodesBySentence[sentence] ?: emptyList()), tokens,
+                data.syntaxTextByToken, data.syntaxTextByNode)
+        }
 
     /**
      * Notes of the given kind for a page: every note that starts on the page (or on a skipped
@@ -460,6 +474,9 @@ class AnagnosisRepository(
         }
         if (entry.syntaxSource.isNotEmpty()) {
             out += Credit("Lemmas, morphology and syntax", entry.syntaxSource, null, entry.syntaxLicense.ifEmpty { null })
+        }
+        if (entry.syntaxText.isNotEmpty()) {
+            out += Credit(SyntaxText.CREDIT_KIND, entry.syntaxText, null, null)
         }
         return out
     }

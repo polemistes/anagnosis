@@ -31,6 +31,7 @@ import androidx.compose.ui.unit.dp
 import no.anagnosis.data.CatalogEntry
 import no.anagnosis.data.DownloadStatus
 import no.anagnosis.data.ShopState
+import no.anagnosis.data.SyntaxText
 
 /**
  * The shop: the texts on sale in the reader, in the order of their authors, with what each
@@ -100,6 +101,7 @@ fun AvailableTextsScreen(
                         Detail("Commentary", entry.commentary)
                         Detail("Notes to the translation", entry.translationNotes)
                         Detail("Syntax", entry.syntax)
+                        Detail(SyntaxText.CREDIT_KIND, entry.syntaxText)
                         Detail("Extra dictionaries", entry.dictionaries)
                         Spacer(Modifier.height(8.dp))
                         Purchase(entry, shop, onBuy, onDownload, onOpen, onAdd)

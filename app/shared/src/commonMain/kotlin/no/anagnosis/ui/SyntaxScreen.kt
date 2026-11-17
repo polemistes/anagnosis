@@ -66,7 +66,9 @@ import androidx.compose.ui.unit.sp
 import no.anagnosis.data.Morphology
 import no.anagnosis.data.SimpleSyntax
 import no.anagnosis.data.Syntax
+import no.anagnosis.data.NodeMark
 import no.anagnosis.data.SyntaxNode
+import no.anagnosis.data.SyntaxText
 import no.anagnosis.data.SyntaxTree
 
 /** One colour per syntactic role, legible on the light and on the dark backgrounds. */
@@ -102,7 +104,13 @@ private enum class SyntaxView(val label: String) { SIMPLE("Simple"), DIAGRAM("Di
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun SyntaxScreen(tree: SyntaxTree, label: String, family: FontFamily, onWord: (Long) -> Unit, onBack: () -> Unit, automatic: Boolean = false) {
+fun SyntaxScreen(
+    tree: SyntaxTree, label: String, family: FontFamily, onWord: (Long) -> Unit, onBack: () -> Unit, automatic: Boolean = false,
+    textNotice: String? = null, notInTree: List<String> = emptyList(),
+) {
+    // where the trees were made on another text: said at the head, and how this sentence's marks read where it differs
+    val legend = if (textNotice == null) null
+        else SyntaxText.legend(unprinted = tree.nodes.any { it.isUnprinted }, reading = tree.nodes.any { it.mark is NodeMark.Reading })
     // the Simple and Diagram views are drawn; with a screen reader the page opens on the Tree, which is text
     val screenReader = rememberScreenReaderActive()
     var view by remember { mutableStateOf(if (screenReader) SyntaxView.TREE else SyntaxView.SIMPLE) }
@@ -132,6 +140,14 @@ fun SyntaxScreen(tree: SyntaxTree, label: String, family: FontFamily, onWord: (L
                 // a parser's analysis, which the reader should not take for an editor's
                 Text(
                     "Automatic analysis (GLAUx), not checked by hand: expect mistakes, above all in the structure.",
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    modifier = Modifier.fillMaxWidth().background(MaterialTheme.colorScheme.surfaceVariant).padding(horizontal = 16.dp, vertical = 6.dp),
+                )
+            }
+            if (textNotice != null) {
+                Text(
+                    listOfNotNull(textNotice, legend, SyntaxText.notInTree(notInTree)).joinToString(" "),
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                     modifier = Modifier.fillMaxWidth().background(MaterialTheme.colorScheme.surfaceVariant).padding(horizontal = 16.dp, vertical = 6.dp),
@@ -318,7 +334,7 @@ private fun DrawScope.drawDiagram(layout: DiagramLayout, styles: DiagramStyles) 
         drawLabel(root.label, root.x, y, root.color)
     }
     for (t in layout.tokens) {
-        val color = if (t.node.artificial) styles.muted else Syntax.role(t.node.relation)?.let { styles.roleColors[it] } ?: styles.text
+        val color = if (t.node.artificial || t.node.isUnprinted) styles.muted else Syntax.role(t.node.relation)?.let { styles.roleColors[it] } ?: styles.text
         drawText(t.form, color, Offset(t.cx - t.form.size.width / 2, layout.wordTop))
         t.pos?.let { drawText(it, styles.muted, Offset(t.cx - it.size.width / 2, layout.posTop)) }
     }
@@ -399,6 +415,13 @@ fun SyntaxTreeView(tree: SyntaxTree, family: FontFamily, onWord: (Long) -> Unit)
             val token = node.token
             val text = buildAnnotatedString {
                 if (node.artificial) withStyle(SpanStyle(fontStyle = FontStyle.Italic)) { append(Syntax.displayForm(node)) }
+                else if (node.isUnprinted) withStyle(SpanStyle(color = small.color)) { append(Syntax.displayForm(node)) }
+                else if (node.mark is NodeMark.Reading) {
+                    // the trees' own word, with the printed word beside it, small
+                    val reading = node.mark as NodeMark.Reading
+                    append(reading.treeForm)
+                    withStyle(small.copy(fontFamily = family, fontSize = 13.sp)) { append(" (printed: ${reading.printed})") }
+                }
                 else append(Syntax.displayForm(node))
                 val role = Syntax.describe(node.relation)
                 if (role.isNotEmpty()) {
@@ -542,7 +565,7 @@ private fun layoutOutline(items: List<SimpleSyntax.Item>, measurer: TextMeasurer
                 .let { if (node.artificial) it.copy(fontStyle = FontStyle.Italic) else it }
             val t = measurer.measure(Syntax.displayForm(node), style)
             if (x > x0 && x + t.size.width > limit) newRow()
-            val color = when { node.artificial || glue || dim -> styles.muted; else -> colour ?: styles.text }
+            val color = when { node.artificial || node.isUnprinted || glue || dim -> styles.muted; else -> colour ?: styles.text }
             words += OWord(node, t, x, rowTop, color)
             rowHeight = maxOf(rowHeight, t.size.height.toFloat())
             rowBaseline = maxOf(rowBaseline, t.firstBaseline)

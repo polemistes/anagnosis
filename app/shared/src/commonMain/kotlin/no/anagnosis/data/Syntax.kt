@@ -22,9 +22,13 @@ class SyntaxNode(
      * αἵθʼ): their word id is "=N", N this node's id; [form] then holds all of them in order.
      */
     val joined: List<Tokens> = emptyList(),
+    /** Where the trees' text differs here: a node not printed in this edition, or read otherwise ([SyntaxText]). */
+    val mark: NodeMark? = null,
 ) {
     val isWord get() = token != null
-    val isPunctuation get() = token == null && !artificial
+    /** Also a node in the trees' text that is not printed here is a word, not punctuation ([NodeMark.Unprinted]). */
+    val isPunctuation get() = token == null && !artificial && mark !is NodeMark.Unprinted
+    val isUnprinted get() = mark is NodeMark.Unprinted
     /** The treebank's bare label, e.g. "SBJ_CO". */
     val label get() = relation ?: ""
 }
@@ -117,7 +121,7 @@ object Syntax {
         }
         val fixed = if (merged.isEmpty()) nodes else nodes.map { n ->
             val h = n.head
-            if (h != null && h in merged) SyntaxNode(n.id, n.form, n.postag, n.relation, merged[h], n.token, n.artificial, n.joined) else n
+            if (h != null && h in merged) SyntaxNode(n.id, n.form, n.postag, n.relation, merged[h], n.token, n.artificial, n.joined, n.mark) else n
         }
         return SyntaxTree(sentence, fixed)
     }
@@ -231,10 +235,34 @@ object Syntax {
     /** How an omitted word or a punctuation mark is named when something depends on it. */
     fun headLabel(node: SyntaxNode): String = when {
         node.artificial -> "an omitted word"
-        node.isWord -> node.form
+        node.isWord -> (node.mark as? NodeMark.Reading)?.treeForm ?: node.form
+        node.isUnprinted -> SyntaxText.unprintedHead(node.form)
         else -> "“${node.form}”"
     }
 
     /** How a node is shown in the tree: a word's form, an omitted word's placeholder, a punctuation mark. */
-    fun displayForm(node: SyntaxNode): String = if (node.artificial) "[…]" else node.form
+    fun displayForm(node: SyntaxNode): String = if (node.artificial) "[…]" else SyntaxText.displayForm(node.form, node.mark)
+
+    /** The tree with each node's mark where the trees' text differs from the one printed; unchanged without differences. */
+    fun marked(
+        tree: SyntaxTree, tokens: List<Tokens>, byToken: Map<Long, SyntaxTextWord>, byNode: Map<Pair<String, Int>, SyntaxTextWord>,
+    ): SyntaxTree {
+        if (byToken.isEmpty() && byNode.isEmpty()) return tree
+        val tokenById = tokens.associateBy { it.id }
+        var any = false
+        val nodes = tree.nodes.map { n ->
+            // a reading's row names the trees' word's node; where that word stands in another construction,
+            // our word is not on the node in the token's columns, and the row ties the two
+            val row = byNode[tree.sentence to n.id] ?: n.token?.let { byToken[it.id] }
+            val printed = n.token ?: row?.takeIf { it.kind == "reading" }?.tokenId?.let { tokenById[it] }
+            val mark = SyntaxText.nodeMark(row, printed?.let { if (n.token != null) n.form else it.form })
+            if (mark == null) n else {
+                any = true
+                val reading = mark is NodeMark.Reading
+                SyntaxNode(n.id, n.form, if (reading) row?.treePostag ?: n.postag else n.postag, n.relation, n.head,
+                    if (reading) printed else n.token, n.artificial, n.joined, mark)
+            }
+        }
+        return if (any) SyntaxTree(tree.sentence, nodes) else tree
+    }
 }

@@ -119,6 +119,10 @@ fun WordSheet(
                 info.syntax?.takeIf { showFunction }?.let {
                     Text(it.replaceFirstChar { c -> c.uppercase() }, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
                 }
+                // where the trees were made on another text and it differs at this word
+                info.syntaxNote?.takeIf { showFunction }?.let {
+                    Text(it, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.secondary)
+                }
                 pronunciation?.let { p ->
                     val ipa = remember(info, p) { Phonology.ipa(info.form, info.marked, p) }
                     if (ipa.isNotEmpty()) {
