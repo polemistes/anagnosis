@@ -4,12 +4,12 @@
     "digest": "7edf5fdadde2e3f01b67af6fd037f18b90f5525811eee9742d3586317a47a7e1"
   },
   "ajax": {
-    "version": "693b9f6a5bc1855f",
-    "digest": "693b9f6a5bc1855f96484862f7e1b4ccdd9b74134a9ad9ccfca4f3ce271f4272"
+    "version": "d7a79307dec61c99",
+    "digest": "d7a79307dec61c9918ab7d603b5b4fa18fa4a3188df6a861610bb784fbfca601"
   },
   "antigone": {
-    "version": "a1acfcb4033bb44a",
-    "digest": "a1acfcb4033bb44ade95da565c176111b2519fead284b38840fee20911afc416"
+    "version": "a238c8b0124014c4",
+    "digest": "a238c8b0124014c4ec29ad913141543e9b125c7b75a5300d174086c892938792"
   },
   "choephoroi": {
     "version": "299328c25d3a0ea4",
@@ -20,8 +20,8 @@
     "digest": "ef8358b62b47a4ac49067eaee817d17265fd3a3e5f771fa29addc983e61a6a63"
   },
   "electra": {
-    "version": "8872055b12e23756",
-    "digest": "8872055b12e2375644f825f9c171e1acfc08b19b91ee4b661f36c1156d22ca67"
+    "version": "8af84e36a0b5a60c",
+    "digest": "8af84e36a0b5a60c18f80109b99fc2e2a0e2dcd001d5492a04014ce29918f717"
   },
   "eumenides": {
     "version": "557c1abb74ff5d3b",
