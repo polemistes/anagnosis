@@ -464,6 +464,15 @@ OWN_ANALYSES: dict[str, dict[str, tuple[str, str]]] = {
     "electra": {
         "1486 τοῦ": ("ὁ", "l-s---mg-"),                    # τοῦ χρόνου; the trees read οὐ
     },
+    "antigone": {
+        # Jebb's spelling without the trees' iota subscript (θνῄσκω, φῄς, Δῃώ): the trees' analysis
+        # is right and stands
+        "403 φής": ("φημί", "v2spia---"),
+        "547 θνήσκουσʼ": ("θνήσκω", "v-sppafn-"),
+        "1121 Δηοῦς": ("Δηώ", "n-s---fg-"),
+        # ὡς … θνήσκῃ: the analyser reads only a middle 2nd person; the trees' 3rd sing. subj. active
+        "761 θνήσκῃ": ("θνήσκω", "v3spsa---"),
+    },
     "odyssey": {
         "5.243 ἤνυτο": ("ἀνύω", "v3siie---"),       # θοῶς δέ οἱ ἤνυτο ἔργον; the trees' ᾔνυτο given to αἴνυμαι
         "1.29 μνῄσατο": ("μιμνήσκω", "v3sai----"),

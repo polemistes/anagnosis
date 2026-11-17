@@ -1190,8 +1190,6 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2900590	4	,	,	u--------	AuxX	3	
 2900590	13	,	,	u--------	AuxX	20	
 2900590	18	ἀκῆται	ἀκέομαι	v3spse---	ATR_CO	20	
-2900590	19	μη	μηδέ	g--------	AuxZ	22	
-2900590	20	δ̓	δέ	g--------	COORD	5	
 2900590	23	.	.	u--------	AuxK	0	
 2900591	5	.	.	u--------	AuxK	0	
 2900592	9	·	·	u--------	AuxK	0	
@@ -1547,7 +1545,6 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 2900744	11	,	,	u--------	AuxX	12	
 2900744	14	.	.	u--------	AuxK	0	
 2900745	3	,	,	u--------	AuxX	2	
-2900745	6	ὅτι	ὅτι	d--------	AuxZ	7	
 2900745	8	,	,	u--------	COORD	0	
 2900745	12	,	,	u--------	APOS	9	
 2900745	19	.	.	u--------	AuxK	0	
