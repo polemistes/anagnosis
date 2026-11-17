@@ -172,6 +172,7 @@ class AnagnosisRepository(
             translationNoteIds = commentaries.filter { it.kind() == NoteKind.COMMENTARY && BookContents.isTranslationNotes(it.slug, it.title, declaredTranslationNotes) }.map { it.id }.toSet(),
             dictionaryOrder = q.selectMeta("dictionaries").executeAsOneOrNull()?.split(' ')?.filter { it.isNotBlank() } ?: emptyList(),
             pronunciation = defaultPronunciation(slug, work.author, q.selectMeta("pronunciation").executeAsOneOrNull()),
+            shortDefinitionsBySpelling = q.selectMeta(LemmaSpelling.BY_SPELLING_META).executeAsOneOrNull() == "1",
         )
     }
 
@@ -192,7 +193,9 @@ class AnagnosisRepository(
             for ((slug, es) in found.groupBy { it.lexiconSlug }) if (slug !in bySlug) bySlug[slug] = es
         }
         if (bySlug.isEmpty()) {
-            lq.selectEntriesByLooseKey(looseKey(token.lemma)).executeAsList()
+            // a name finds by the loose key only headwords with a capital (Ἰωνία is not ἰωνιά)
+            val loose = lq.selectEntriesByLooseKey(looseKey(token.lemma)).executeAsList()
+            LemmaSpelling.looseMatches(token.lemma, loose) { it.headword }
                 .map { Entry(it.lexicon_slug, it.lexicon_title, it.headword, it.homograph, inflate(it.html)) }
                 .groupBy { it.lexiconSlug }.forEach { (slug, es) -> bySlug[slug] = es }
         }
@@ -200,7 +203,9 @@ class AnagnosisRepository(
         // the text's own glossary and dictionaries (Dodson in the New Testament)
         val glossary = q.selectGlossaryByKey(token.lemma_key).executeAsList()
             .map { Entry(it.lexicon_slug, it.lexicon_title, it.headword, it.homograph, it.html) }
-        val short = q.selectShortDefinition(token.lemma_key).executeAsOneOrNull()?.definition
+        // a name by its own spelling only, where the text is keyed so (Πῶλος "Polus", never πῶλος "a foal")
+        val shortKey = LemmaSpelling.shortDefinitionKey(token.lemma, token.lemma_key, data.shortDefinitionsBySpelling)
+        val short = q.selectShortDefinition(shortKey).executeAsOneOrNull()?.definition
         // where the trees were made on another text, a role only where our word is the trees' own word
         val syntax = token.sentence?.takeIf { SyntaxText.showsRole(data.syntaxTextByToken[token.id], token.form) }
             ?.let { Syntax.roleLine(sentenceTree(data, it), token) }
@@ -414,7 +419,7 @@ class AnagnosisRepository(
         val exact = lq.selectEntriesByKey(lemma.lowercase()).executeAsList()
             .map { Entry(it.lexicon_slug, it.lexicon_title, it.headword, it.homograph, inflate(it.html)) }
         if (exact.isNotEmpty()) return exact
-        return lq.selectEntriesByLooseKey(looseKey(lemma)).executeAsList()
+        return LemmaSpelling.looseMatches(lemma, lq.selectEntriesByLooseKey(looseKey(lemma)).executeAsList()) { it.headword }
             .map { Entry(it.lexicon_slug, it.lexicon_title, it.headword, it.homograph, inflate(it.html)) }
     }
 

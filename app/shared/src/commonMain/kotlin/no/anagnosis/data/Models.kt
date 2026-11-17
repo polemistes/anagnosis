@@ -97,6 +97,8 @@ class WorkData(
     val dictionaryOrder: List<String> = emptyList(),
     /** The pronunciation the text is read in unless the reader chooses another. */
     val pronunciation: no.anagnosis.greek.Pronunciation = no.anagnosis.greek.Pronunciation.ATTIC,
+    /** The short definitions of a lemma written with a capital stand under its own spelling (meta [LemmaSpelling.BY_SPELLING_META]). */
+    val shortDefinitionsBySpelling: Boolean = false,
 ) {
     /** The lines by their citation (n_int, n_sub), for placing the reader's notes. */
     val linesByCitation: Map<Pair<Long, String>, Lines> by lazy { lines.associateBy { it.n_int to it.n_sub } }
