@@ -60,6 +60,12 @@ Tab-separated with a header row: `line ord form lemma postag relation head sente
 If you change the words of a line in `grc.txt`, update the matching rows here. `check`
 fails when the words of a line and its token rows disagree.
 
+Where the text prints as two or more words what the treebank has as one (the Theogony's αἵ θʼ
+for αἵθʼ, ὅς τις for ὅστις), the words are a unit on the treebank word's node: the first carries
+the node (sentence, word id, relation, head), each further word the same sentence and the word id
+written `=N` ("one node with word N"), with no relation or head of its own. Each word keeps its
+own lemma and form. Switched on per text (`Play.tree_units` in `drama.py`; the Theogony only).
+
 ## `syntax-nodes.tsv`
 
 The treebank's tokens that are not words of the text but take part in the syntax: the

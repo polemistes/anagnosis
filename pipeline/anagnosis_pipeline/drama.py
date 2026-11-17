@@ -114,6 +114,9 @@ class Play:
     intro_foot_columns: bool = False
     # an eighteenth-century print with the long s (Gillies's Lysias, 1778): written s
     long_s: bool = False
+    # words the text prints apart and the treebank as one (αἵ θʼ for αἵθʼ) form a unit on the
+    # treebank word's node (odyssey.align, units): a change of tokens, so a text's own choice
+    tree_units: bool = False
     # leaves of the notes scan read with another kind (the introduction) that are laid out as the
     # notes pages and take their region (Earle's notes on the hypothesis under his Greek, "earle")
     notes_region_leaves: list[tuple[int, int]] = field(default_factory=list)
@@ -567,7 +570,7 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
     Play("theogony", "Θεογονία", "Theogony", "Ἡσίοδος", "Hesiod", "tlg0020.tlg001",
          "Hesiodi carmina, recensuit Aloisius Rzach, Leipzig, B. G. Teubner, 1908",
          "hesiodicarminare00hesi", "rzach", "A. Rzach", "hesiod_theogony_rzach",
-         treebank="tlg0020.tlg001.perseus-grc1.tb.xml",
+         treebank="tlg0020.tlg001.perseus-grc1.tb.xml", tree_units=True,
          trans_file="drama/tlg0020.tlg001.perseus-eng2.xml", translator="Hugh G. Evelyn-White", trans_key="evelyn-white",
          trans_edition="Hesiod, the Homeric Hymns and Homerica, with an English translation by Hugh G. Evelyn-White, Loeb Classical Library, London, Heinemann, 1914",
          trans_license="CC BY-SA 4.0 (Perseus Digital Library)",
@@ -2035,7 +2038,7 @@ def _tokens(play: Play, doc, sources: Path, out: Path, lexicon: Path, build: Pat
     from .sophocles import read_agdt, read_glaux_lines
 
     tb = read_agdt(sources / "treebanks" / play.treebank, play.treebank.startswith("tlg0020.")) if play.treebank else read_glaux_lines(sources / "glaux" / play.glaux)
-    rows, _warnings = align(doc, tb, keep_tb_form=True)
+    rows, _warnings = align(doc, tb, keep_tb_form=True, units=play.tree_units)
     analyse = Analyser(lexicon)
     freq = Frequencies(sources / "treebanks")
     review = []

@@ -325,13 +325,20 @@ def fix_lemma(lemma: str) -> str:
     return LEMMA_FIXES.get(lemma, lemma)
 
 
-def align(doc: Document, tb: list[dict], keep_tb_form: bool = False) -> tuple[list[dict], list[str]]:
+def align(doc: Document, tb: list[dict], keep_tb_form: bool = False, units: bool = False) -> tuple[list[dict], list[str]]:
     """Pair the words of the text with treebank words, in order.
 
     A difflib alignment of skeletons (no diacritics) finds the stretches that agree; inside a
     stretch that differs, a text word may equal 2-4 consecutive treebank words joined
     (the treebank splits οὔτε, κἀγώ ...), or be paired one to one when the counts agree.
     Words left over get no annotation here; merge-odyssey and the analyser fill them in.
+
+    With `units`, the reverse case too: two to four consecutive words of the text that are ONE
+    treebank word when joined (the text prints αἵ θʼ, the treebank αἵθʼ, lemma ὅστε). They form
+    a unit on the treebank word's node: the first word carries the node (sentence, word id,
+    relation, head; the treebank's tag as a hint for its own analysis), each further word the
+    same sentence and the word id written "=N" ("one node with word N"; no relation or head of
+    its own). Every word keeps its own lemma and form, which the analyser gives it.
     """
     text_words: list[tuple[str, int, str]] = []
     for line in doc.lines:
@@ -341,6 +348,7 @@ def align(doc: Document, tb: list[dict], keep_tb_form: bool = False) -> tuple[li
     ta = [_skeleton(f) for _, _, f in text_words]
     tbs = [_skeleton(w["form"]) for w in tb_words]
     matched: dict[int, list[dict]] = {}
+    unit: dict[int, tuple[dict, int]] = {}  # text word -> (the treebank word it is part of, its place in the unit)
     warnings: list[str] = []
     sm = difflib.SequenceMatcher(None, ta, tbs, autojunk=False)
     for op, i1, i2, j1, j2 in sm.get_opcodes():
@@ -365,6 +373,23 @@ def align(doc: Document, tb: list[dict], keep_tb_form: bool = False) -> tuple[li
                 matched[i] = tb_words[j : j + hit]
                 i += 1
                 j += hit
+                continue
+            # the reverse: several text words = one treebank word
+            acc, hit = "", 0
+            for k in range(1, 5):
+                if not units or i + k > i2:
+                    break
+                acc += ta[i + k - 1]
+                if k > 1 and acc == tbs[j]:
+                    hit = k
+                    break
+                if len(acc) >= len(tbs[j]):
+                    break
+            if hit:
+                for k in range(hit):
+                    unit[i + k] = (tb_words[j], k)
+                i += hit
+                j += 1
             else:
                 break
         rest_t, rest_b = i2 - i, j2 - j
@@ -397,6 +422,14 @@ def align(doc: Document, tb: list[dict], keep_tb_form: bool = False) -> tuple[li
                        relation=main["relation"], head=main["head"])
             # the first part's tag fits when the merge is a crasis or compound of it
             row["postag"] = w["postag"] if _skeleton(ws[0]["lemma"]).startswith(_skeleton(form)[:2]) else main["postag"] if main is not w else ""
+        if idx in unit:
+            w, place = unit[idx]
+            if place == 0:
+                row.update(postag=w["postag"], relation=w["relation"], head=w["head"], sentence=w["sentence"], word_id=w["word_id"])
+                if keep_tb_form:
+                    row["tb_form"] = w["form"]
+            else:
+                row.update(sentence=w["sentence"], word_id="=" + w["word_id"])
         row["lemma"] = fix_lemma(row["lemma"])
         rows.append(row)
     return rows, warnings

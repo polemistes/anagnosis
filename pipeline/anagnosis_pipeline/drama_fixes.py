@@ -616,6 +616,9 @@ HAND_ANALYSES: dict[str, dict[str, tuple[str, str]]] = {
         "980 Χαλύβοις": ("Χάλυψ", "n-p---md-"),        # the Chalybes
     },
     "theogony": {
+        # the text prints ἔς τʼ ἂν ἵκηται for the treebank's ἔστʼ (ἔστε, "until"): the two words are a
+        # unit on that word's node (Play.tree_units), and ἔς is no preposition here
+        "754 ἔς": ("ἔστε", "c--------"),
         "116 γένετʼ": ("γίγνομαι", "v3saim---"),  # the treebank has γενέτης
         "282 ὅτʼ": ("ὅτε", "d--------"),  # the treebank has ὅτι, which is never elided
         "426 οὐδʼ": ("οὐδέ", "d--------"),  # the treebank has οὐ+??

@@ -181,3 +181,28 @@ As PLAN-drama.md "Steps for each play", with the play's slug `theogony`:
   paying. about.md says `# free: yes`; the catalogue entry carries `"free": true`; no
   `google_play` mark; the product id stays in about.md, unused. The database is not rebuilt for
   it (the catalogue only; version unchanged).
+* **2026-11-17, words printed apart that the trees have as one** (the author: the meaning is the
+  same; mark them as a unit so the syntax link shows). The review divided verse 2 as Rzach prints
+  it, αἵ θʼ, where Perseus and the hand-made tree have αἵθʼ (lemma ὅστε, subject); the two words
+  then stood outside the tree. Now (`odyssey.align(units=True)`, switched on by
+  `Play.tree_units`, for the Theogony only, since it changes tokens and so a text's version):
+  two to four consecutive words of the text that are one treebank word when joined are a unit on
+  that word's node. **The form**: the first word carries the node (sentence, word id, relation,
+  head); each further word has the same sentence and the word id `=N`, no relation or head. Why:
+  the reader makes one node per word id; two words with the same id would both be shown as
+  nodes under the same head, each called the subject, and what depends on them twice. With `=N`
+  the present reader gives the second word no node (the id is no number) but knows its sentence,
+  so a long press on either word opens the tree, and the word sheet of the first names its role.
+  Each word keeps its own lemma and form (αἵ: ὅς; θʼ: τε); the tree's lemma ὅστε is not shown
+  anywhere. **Twelve places**: 2 αἵ θʼ, 126 ἑʼ αὐτῇ, 218 αἵ τε, 220 αἵ τʼ, 395 ὅς τις, 754 ἔς τʼ,
+  783 ὅς τις, 786 ὅ τʼ, 831 ὥς τε, 905 αἵ τε, 931 ὅς τε, 935 οἵ τʼ. At 754 (ἔς τʼ ἂν ἵκηται, the
+  tree's ἔστʼ "until") ἔς is no preposition: its lemma is ἔστε by hand (`HAND_ANALYSES`). The
+  tree words are no longer among the extra nodes. A dry count for the other texts with trees
+  (from their files as they are; nothing changed): Odyssey 16, Lysias 8, Eumenides 4,
+  Agamemnon, Choephoroi and Clouds 3 each, Oedipus Tyrannus and Philoctetes 2, Trachiniae 1,
+  the rest none; a few of them are other readings spelled with the same letters (Choephoroi 492
+  ᾧ σʼ for ὡς, Odyssey 12.61 δʼ ἦ for δή), so they want a look before the rule is switched on
+  there. **For the reader, to make it a true unit** (not needed for the link): in `Syntax.build`
+  a token whose word id begins with `=` joins the node of that number: the node's form is the
+  words joined (αἵ θʼ), and `nodeFor` answers with that node for either word, so both are
+  highlighted and the second's word sheet names the role too. Version 715628c66e892934.
