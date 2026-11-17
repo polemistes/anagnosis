@@ -145,7 +145,12 @@ class AnagnosisRepository(
         val numbering = q.selectMeta("line_numbers").executeAsOneOrNull()
         // the trees made on another text: the rows only where the text says it has them
         val textWords = if (light || q.selectMeta("syntax_text_words").executeAsOneOrNull() == null) emptyList()
-            else q.selectSyntaxTextWords().executeAsList().map { SyntaxTextWord(it.kind, it.token_id, it.sentence, it.word_id?.toInt(), it.tree_form, it.tree_lemma, it.extent, it.same_construction, it.tree_postag, it.difference) }
+            else try {
+                q.selectSyntaxTextWords().executeAsList().map { SyntaxTextWord(it.kind, it.token_id, it.sentence, it.word_id?.toInt(), it.tree_form, it.tree_lemma, it.extent, it.same_construction, it.tree_postag, it.difference, it.misprint == 1L) }
+            } catch (e: Exception) {
+                // a database made before the column misprint
+                q.selectSyntaxTextWordsWithoutMisprint().executeAsList().map { SyntaxTextWord(it.kind, it.token_id, it.sentence, it.word_id?.toInt(), it.tree_form, it.tree_lemma, it.extent, it.same_construction, it.tree_postag, it.difference) }
+            }
         // where the notes on the Greek begin, for the book chooser's marks (only books are marked)
         val declaredTranslationNotes = q.selectMeta("translation_notes").executeAsOneOrNull()?.split(' ')?.filter { it.isNotBlank() }?.toSet() ?: emptySet()
         val onGreek = commentaries.filter { it.kind() == NoteKind.COMMENTARY && !BookContents.isTranslationNotes(it.slug, it.title, declaredTranslationNotes) }.map { it.id }.toSet()
@@ -228,7 +233,9 @@ class AnagnosisRepository(
         val tokens = sentenceTokens(data, sentence)
         val marked = SyntaxText.markedTokens(tokens, data.syntaxTextByToken)
         if (marked.isEmpty() && tree.nodes.none { it.differs }) return null
-        return SyntaxText.printedSentence(tokens, marked) { data.lineById[it]?.text }
+        val misprint = tokens.any { data.syntaxTextByToken[it.id]?.misprint == true } ||
+            data.syntaxTextByNode.any { (k, v) -> k.first == sentence && v.misprint }
+        return SyntaxText.printedSentence(tokens, marked, misprint) { data.lineById[it]?.text }
     }
 
     fun sentenceTree(data: WorkData, sentence: String): SyntaxTree =
@@ -236,17 +243,24 @@ class AnagnosisRepository(
             data.syntaxTextByToken, data.syntaxTextByNode)
 
     /**
-     * Notes of the given kind for a page: every note that starts on the page (or on a skipped
-     * number just before it) or whose short range overlaps it, grouped by line or range.
+     * Notes of the given kind for a page that prints the verses (or sections) [pageNumbers]: every
+     * note that starts on one of them (or on a number printed nowhere just before the page's last)
+     * or whose short range takes one in, grouped by line or range. The page's numbers, not its
+     * first and last, decide: a text may print verses out of their numbers' order ([LineOrder]).
      */
-    fun notesForPage(data: WorkData, firstN: Long, lastN: Long, kind: NoteKind): List<NoteGroup> {
+    fun notesForPage(data: WorkData, pageNumbers: Collection<Long>, kind: NoteKind): List<NoteGroup> {
+        if (pageNumbers.isEmpty()) return emptyList()
         val q = textDb(data.slug).anagnosisQueries
-        val firstIdx = data.lines.indexOfFirst { it.n_int >= firstN }
-        val prevN = if (firstIdx > 0) data.lines[firstIdx - 1].n_int else 0L
+        val firstN = pageNumbers.min()
+        val lastN = pageNumbers.max()
+        val printed = data.printedNumbers
+        val prevN = printed.filter { it < firstN }.maxOrNull() ?: 0L
+        val onPage = pageNumbers.toSet()
         val commentaries = data.commentaries.filter { it.kind() == kind }
         val order = commentaries.withIndex().associate { (i, c) -> c.id to i }
         val notes = commentaries
             .flatMap { q.selectNotesForPage(it.id, prevN, lastN, firstN, OVERLAP_MAX_SPAN).executeAsList() }
+            .filter { LineOrder.noteOnPage(it.from_n_int, it.to_n_int, onPage, printed, prevN, OVERLAP_MAX_SPAN) }
             .sortedWith(compareBy({ it.from_n_int }, { -it.to_n_int }, { order[it.commentary_id] ?: 0 }, { it.ord }))
         // where the text has two or more sets of notes of this kind (Jerram's and the Dickinson
         // College Commentaries' on Lucian; Lysias's four, Gillies's notes to his translation among
@@ -269,7 +283,7 @@ class AnagnosisRepository(
             } + byWhom
             // the line's text once, above the first commentator's notes on it
             val lineText = if (mixed && groups.isNotEmpty() && groups.last().key == key.first) null
-                else data.lines.firstOrNull { it.n_int >= first.from_n_int }?.text?.let(::displayText)
+                else LineOrder.lineAtOrAfter(data.lines, first.from_n_int).text.let(::displayText)
             groups += NoteGroup(heading, lineText, group, key.first)
         }
         return groups

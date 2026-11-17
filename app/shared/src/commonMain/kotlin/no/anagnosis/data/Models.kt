@@ -131,6 +131,9 @@ class WorkData(
     fun translationFor(firstN: Long, lastN: Long): TranslationData? =
         translations.firstOrNull { t -> t.segments.any { it.from_n_int in firstN..lastN } } ?: translations.firstOrNull()
 
+    /** Every verse (or section) number the text prints. */
+    val printedNumbers: Set<Long> by lazy { lines.mapTo(HashSet()) { it.n_int } }
+
     /** Whether the text has syntax at all: any word in a sentence of a tree. */
     val hasSyntax: Boolean by lazy { tokensByLine.values.any { line -> line.any { it.sentence != null } } }
 

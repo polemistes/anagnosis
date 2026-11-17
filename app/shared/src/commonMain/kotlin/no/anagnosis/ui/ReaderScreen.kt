@@ -18,6 +18,9 @@ import no.anagnosis.speech.sentencesOf
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.gestures.animateScrollBy
+import androidx.compose.foundation.layout.ColumnScope
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.foundation.gestures.awaitEachGesture
 import androidx.compose.foundation.gestures.awaitFirstDown
 import androidx.compose.foundation.gestures.detectTapGestures
@@ -118,6 +121,7 @@ import kotlinx.coroutines.ensureActive
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import no.anagnosis.data.AnagnosisRepository
+import no.anagnosis.data.LineOrder
 import no.anagnosis.data.Book
 import no.anagnosis.data.SyntaxText
 import no.anagnosis.data.TranslationPaging
@@ -180,7 +184,15 @@ sealed interface ReaderRow {
 private class Measured(val row: ReaderRow, val height: Int, val numberFits: Boolean = false, val indent: Int = 0)
 
 class Page(val rows: List<ReaderRow>, val numbers: Map<ReaderRow, String>, val forced: Set<ReaderRow>, val firstN: Long, val lastN: Long,
-           val indents: Map<ReaderRow, Int> = emptyMap())
+           val indents: Map<ReaderRow, Int> = emptyMap()) {
+    /** The verse (or section) numbers the page prints, in printed order. */
+    fun numbers(): List<Long> = rows.mapNotNull { (it as? ReaderRow.GreekLine)?.line?.n_int }
+    /** Whether the page prints the verse [n] (verses may be printed out of their numbers' order). */
+    fun holds(n: Long): Boolean = rows.any { (it as? ReaderRow.GreekLine)?.line?.n_int == n }
+}
+
+/** The page that holds the verse [n]: where it is printed, else the last that starts at or before it. */
+private fun pageIndexFor(pages: List<Page>, n: Long): Int = LineOrder.pageHolding(pages.map { it.numbers() }, n)
 
 private class Styles(
     val section: TextStyle,
@@ -532,7 +544,7 @@ fun ReaderScreen(
             anchorN = nInt
             book = target.number
         } else if (pages.isNotEmpty()) {
-            val i = pages.indexOfLast { it.firstN <= nInt }.coerceAtLeast(0)
+            val i = pageIndexFor(pages, nInt).coerceAtLeast(0)
             scope.launch { pagerState.scrollToPage(i + offset) }
         }
     }
@@ -547,7 +559,7 @@ fun ReaderScreen(
     LaunchedEffect(pagerState.settledPage, pages, positioned) {
         if (pages.isEmpty() || !positioned) return@LaunchedEffect
         val i = pagerState.settledPage
-        highlight?.let { h -> pageAt(i).let { p -> if (p == null || h.nInt < p.firstN || h.nInt > p.lastN) highlight = null } }
+        highlight?.let { h -> pageAt(i).let { p -> if (p == null || (!p.holds(h.nInt) && (h.nInt < p.firstN || h.nInt > p.lastN))) highlight = null } }
         if (i < offset) prevBook?.let { goToBook(it, atEnd = true) }
         else if (i >= offset + pages.size) nextBook?.let { goToBook(it) }
     }
@@ -555,7 +567,7 @@ fun ReaderScreen(
         val kind = pageNotesKind
         val page = pageAt(pagerState.currentPage)
         pageNotes = if (kind == null || page == null) emptyList() else withContext(Dispatchers.Default) {
-            repository.notesForPage(data, page.firstN, page.lastN, kind)
+            repository.notesForPage(data, page.numbers(), kind)
         }
     }
 
@@ -583,8 +595,8 @@ fun ReaderScreen(
         if (!positioned || pages.isEmpty()) return@LaunchedEffect
         val n = data.lineById[w.lineId]?.n_int ?: return@LaunchedEffect
         val current = pageAt(pagerState.currentPage)
-        if (current == null || n < current.firstN || n > current.lastN) {
-            val i = pages.indexOfLast { it.firstN <= n }
+        if (current == null || !current.holds(n)) {
+            val i = pageIndexFor(pages, n)
             if (i >= 0) pagerState.animateScrollToPage(i + offset)
         }
     }
@@ -859,7 +871,7 @@ fun ReaderScreen(
                 pinchAnchorRow = null
                 pinchSize = null  // a committed pinch keeps its preview on screen until here
                 val byRow = if (anchorRow != null) computed.indexOfFirst { page -> page.rows.any { it === anchorRow } } else -1
-                val target = if (byRow >= 0) byRow else computed.indexOfLast { it.firstN <= anchorN }.coerceAtLeast(0)
+                val target = if (byRow >= 0) byRow else pageIndexFor(computed, anchorN).coerceAtLeast(0)
                 // the page before the book exists once pages do
                 pagerState.scrollToPage(target + (if (prevBook != null) 1 else 0))
                 positioned = true
@@ -929,14 +941,16 @@ fun ReaderScreen(
             @Composable
             fun PageFrame(greek: @Composable () -> Unit, english: (@Composable () -> Unit)?, modifier: Modifier = Modifier, column: Dp = columnWidth) {
                 Box(modifier.fillMaxSize().padding(horizontal = horizontal, vertical = vertical), contentAlignment = Alignment.TopCenter) {
+                    // a column whose page holds more than shows (a long English passage, a section
+                    // longer than a short landscape page) scrolls, and says so at its foot
                     if (sideBySide && english != null) {
                         Row(Modifier.fillMaxHeight()) {
-                            Column(Modifier.width(column).fillMaxHeight()) { greek() }
+                            OverflowColumn(Modifier.width(column).fillMaxHeight()) { greek() }
                             Spacer(Modifier.width(COLUMN_GAP))
-                            Column(Modifier.width(column).fillMaxHeight()) { english() }
+                            OverflowColumn(Modifier.width(column).fillMaxHeight()) { english() }
                         }
                     } else {
-                        Column(Modifier.width(column).fillMaxHeight()) { if (english != null && mode == ViewMode.TRANSLATION) english() else greek() }
+                        OverflowColumn(Modifier.width(column).fillMaxHeight()) { if (english != null && mode == ViewMode.TRANSLATION) english() else greek() }
                     }
                 }
             }
@@ -1249,7 +1263,7 @@ private fun segmentsByPage(pages: List<Page>, segments: List<Translation_segment
     if (pages.isEmpty()) return out
     for (seg in segments) {
         if (lines.isEmpty()) break
-        val line = firstLineFrom(lines, seg.from_n_int)
+        val line = LineOrder.lineAtOrAfter(lines, seg.from_n_int)
         out[pageOfLine[line.id] ?: (pages.size - 1)] += seg
     }
     if (fillGaps) {
@@ -1264,17 +1278,6 @@ private fun segmentsByPage(pages: List<Page>, segments: List<Translation_segment
     return out
 }
 
-/** The first line at or after n (binary search; `lines` is in order), or the last line. */
-private fun firstLineFrom(lines: List<Lines>, n: Long): Lines {
-    var lo = 0
-    var hi = lines.size - 1
-    if (lines[hi].n_int < n) return lines[hi]
-    while (lo < hi) {
-        val mid = (lo + hi) / 2
-        if (lines[mid].n_int >= n) hi = mid else lo = mid + 1
-    }
-    return lines[lo]
-}
 
 /** The page before or after a book: its title, leading on to it. */
 @Composable
@@ -1481,7 +1484,7 @@ private fun translationHeights(
     val gap = with(density) { SEGMENT_GAP.roundToPx() }
     val speakerTop = with(density) { (SPEAKER_TOP + ROW_GAP).roundToPx() }
     val out = HashMap<Long, Int>()
-    fun lineOf(seg: Translation_segments) = firstLineFrom(lines, seg.from_n_int)
+    fun lineOf(seg: Translation_segments) = LineOrder.lineAtOrAfter(lines, seg.from_n_int)
     fun add(seg: Translation_segments, h: Int) {
         val id = lineOf(seg).id
         out[id] = (out[id] ?: 0) + h
@@ -1675,6 +1678,42 @@ private fun GreekLineRow(
  * Jebb's prose for one Greek page. Consecutive segments of the same speech are joined into
  * one paragraph; each segment's anchor line number is shown as a small raised figure.
  */
+/** What the foot of a column says when the page holds more than shows. */
+private const val CONTINUES = "continues below"
+
+/**
+ * A page's column: as tall as the page, scrolling where its content is taller (nothing of the
+ * translation or of an overlong section may be lost), with a sign at its foot while there is
+ * more below; tapping the sign scrolls on.
+ */
+@Composable
+private fun OverflowColumn(modifier: Modifier, content: @Composable ColumnScope.() -> Unit) {
+    val state = rememberScrollState()
+    val scope = rememberCoroutineScope()
+    Box(modifier) {
+        Column(Modifier.fillMaxSize().verticalScroll(state)) { content() }
+        if (state.canScrollForward) {
+            val ground = MaterialTheme.colorScheme.background
+            Box(
+                Modifier.align(Alignment.BottomCenter).fillMaxWidth()
+                    .background(Brush.verticalGradient(listOf(ground.copy(alpha = 0f), ground)))
+                    .padding(top = 20.dp),
+                contentAlignment = Alignment.BottomEnd,
+            ) {
+                Text(
+                    "$CONTINUES ↓",
+                    style = MaterialTheme.typography.labelMedium,
+                    color = MaterialTheme.colorScheme.primary,
+                    modifier = Modifier
+                        .clickable { scope.launch { state.animateScrollBy(state.viewportSize * 0.8f) } }
+                        .background(ground)
+                        .padding(horizontal = 8.dp, vertical = 2.dp),
+                )
+            }
+        }
+    }
+}
+
 @Composable
 private fun TranslationPage(
     segments: List<Translation_segments>,
@@ -1691,7 +1730,8 @@ private fun TranslationPage(
         color = MaterialTheme.colorScheme.outline,
         baselineShift = BaselineShift.Superscript,
     )
-    Column(modifier.verticalScroll(rememberScrollState())) {
+    // the page's column scrolls where the translation is longer than the page (OverflowColumn)
+    Column(modifier) {
         var i = 0
         while (i < segments.size) {
             val seg = segments[i]

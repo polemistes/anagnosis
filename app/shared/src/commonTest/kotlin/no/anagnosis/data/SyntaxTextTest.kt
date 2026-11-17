@@ -100,6 +100,21 @@ class SyntaxTextTest {
     }
 
     @Test
+    fun aMisprintInTheTreesTextIsMarkedButKeepsTheRole() {
+        // the Shepherd 11.2.6: ἀσύμφορα, the trees' ἀσύμποφα (a misprint, a spelling difference otherwise)
+        val r = SyntaxTextWord("reading", 4, "s", 4, "ἀσύμποφα", null, null, 1, null, "spelling", misprint = true)
+        assertTrue(SyntaxText.isRealReading(r, "ἀσύμφορα"))
+        assertTrue(SyntaxText.showsRole(r, "ἀσύμφορα"))
+        val ws = listOf(tok(1, 0, "ἐστιν", "PRED", 0, "1"), tok(4, 1, "ἀσύμφορα", "PNOM", 1, "4"))
+        val tree = Syntax.asTreesText(Syntax.build("s", ws, emptyList()), mapOf(4L to r), mapOf(("s" to 4) to r))
+        assertTrue(tree.nodeFor(ws[1])!!.differs)
+        assertEquals(setOf(4L), SyntaxText.markedTokens(ws, mapOf(4L to r)))
+        // the same reading without the misprint is not marked
+        val plain = SyntaxTextWord("reading", 4, "s", 4, "ἀσύμποφα", null, null, 1, null, "spelling")
+        assertFalse(SyntaxText.isRealReading(plain, "ἀσύμφορα"))
+    }
+
+    @Test
     fun absentAndUnprintedWordsAreMarked() {
         // 48: our θεαὶ λήγουσαί τʼ are not in the trees' text; their καὶ ἐκλήγουσαι are not printed
         val ws = listOf(tok(1, 0, "ὑμνεῦσι", "PRED", 0, "1"), tok(2, 1, "θεαὶ", null, null, null), tok(3, 2, "λήγουσαί", null, null, null))

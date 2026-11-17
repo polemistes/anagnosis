@@ -173,7 +173,9 @@ class WordMark(val fill: Color, val line: Color) {
 @Composable
 fun rememberWordMark(): WordMark {
     val c = MaterialTheme.colorScheme
-    return remember(c) { WordMark(c.tertiaryContainer, c.tertiary) }
+    // the line in the text's own colour: the colour the Tree view's and the head's underline takes
+    // (a text decoration is drawn in its text's colour), so that it is the same in all views
+    return remember(c) { WordMark(c.tertiaryContainer, c.onSurface) }
 }
 
 private fun DrawScope.drawWordMark(mark: WordMark, topLeft: Offset, width: Float, height: Float) {
@@ -208,6 +210,7 @@ private fun PrintedHead(printed: PrintedSentence, family: FontFamily) {
     }
     Column(Modifier.fillMaxWidth().background(MaterialTheme.colorScheme.surfaceVariant).padding(horizontal = 16.dp, vertical = 6.dp)) {
         Text(SyntaxText.DIFFERS, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        if (printed.misprint) Text(SyntaxText.MISPRINT, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
         Text(SyntaxText.PRINTED_HERE, style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.onSurfaceVariant,
             modifier = Modifier.padding(top = 4.dp))
         Box(Modifier.heightIn(max = 132.dp).verticalScroll(rememberScrollState())) {

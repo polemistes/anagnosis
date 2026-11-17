@@ -21,6 +21,8 @@ class SyntaxTextWord(
     val treePostag: String? = null,
     /** On a reading, how the two words differ: elision, nu, spelling (not shown), form, word (shown). */
     val difference: String? = null,
+    /** On a reading: the trees' word is a misprint in their text (shown as a real difference). */
+    val misprint: Boolean = false,
 )
 
 /**
@@ -31,6 +33,9 @@ class SyntaxTextWord(
 object SyntaxText {
     /** The syntax view's head, only where the sentence differs ([PrintedSentence]). */
     const val DIFFERS = "The syntax tree was made on another text. Marked words differ from the text printed here."
+
+    /** Added to that head where the trees' word is a misprint in their text. */
+    const val MISPRINT = "The text the syntax tree was made on has a misprint here."
 
     /** The label of the sentence as printed, in that head. */
     const val PRINTED_HERE = "Printed here:"
@@ -51,13 +56,18 @@ object SyntaxText {
      * construction, is not (no role line). Without the record of the difference, a difference of
      * letters (not of accent, capital or elision mark) counts.
      */
-    fun showsRole(row: SyntaxTextWord?, printed: String): Boolean = row?.kind != "absent" && !isRealReading(row, printed)
+    fun showsRole(row: SyntaxTextWord?, printed: String): Boolean = row?.kind != "absent" && !isOtherWord(row, printed)
 
     /**
-     * Whether a reading is a real difference: another form or another word, or a word in another
-     * construction; not an elision, a movable ν or a spelling (the author, 2026-11-17).
+     * Whether a reading is a real difference, marked in the syntax view: another form or another
+     * word, or a word in another construction, or a misprint in the trees' text; not an elision,
+     * a movable ν or a spelling (the author, 2026-11-17).
      */
-    fun isRealReading(row: SyntaxTextWord?, printed: String): Boolean {
+    fun isRealReading(row: SyntaxTextWord?, printed: String): Boolean =
+        isOtherWord(row, printed) || (row?.kind == "reading" && row.misprint)
+
+    /** Whether the trees' word is another than ours: another form or word, or in another construction. */
+    private fun isOtherWord(row: SyntaxTextWord?, printed: String): Boolean {
         if (row == null || row.kind != "reading" || row.treeForm.isNullOrBlank()) return false
         if (row.sameConstruction == 0L) return true
         return when (row.difference) {
@@ -65,6 +75,7 @@ object SyntaxText {
             else -> row.difference in OTHER_WORD
         }
     }
+
 
     /** The printed words of a sentence that differ from the trees' text: another form or word, or not in that text. */
     fun markedTokens(tokens: List<Tokens>, byToken: Map<Long, SyntaxTextWord>): Set<Long> =
@@ -76,7 +87,7 @@ object SyntaxText {
      * from its first word to its last (with the punctuation that closes it), and the ranges of the
      * [marked] words in it. [lineText] gives a line's text by its id.
      */
-    fun printedSentence(tokens: List<Tokens>, marked: Set<Long>, lineText: (Long) -> String?): PrintedSentence? {
+    fun printedSentence(tokens: List<Tokens>, marked: Set<Long>, misprint: Boolean = false, lineText: (Long) -> String?): PrintedSentence? {
         if (tokens.isEmpty()) return null
         val lines = tokens.map { it.line_id }.distinct()
         val sb = StringBuilder()
@@ -96,8 +107,9 @@ object SyntaxText {
                 if (s >= base + from && e <= sb.length && s < e) marks += s until e
             }
         }
-        return PrintedSentence(sb.toString(), marks)
+        return PrintedSentence(sb.toString(), marks, misprint)
     }
+
 
     private val OTHER_WORD = setOf("form", "word")
 
@@ -113,4 +125,4 @@ object SyntaxText {
 }
 
 /** A sentence as printed, with the ranges of the words marked as differing from the trees' text. */
-class PrintedSentence(val text: String, val marks: List<IntRange>)
+class PrintedSentence(val text: String, val marks: List<IntRange>, val misprint: Boolean = false)
