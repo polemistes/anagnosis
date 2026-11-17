@@ -1,8 +1,8 @@
 # title: Antigone
 # translator: Richard C. Jebb
 # lang: eng
-# source: urn:cts:greekLit:tlg0011.tlg002.perseus-eng2
-# edition: Sophocles: The Plays and Fragments, part III: The Antigone, tr. R. C. Jebb, Cambridge 1891; modernized by Perseus
+# source: urn:cts:greekLit:tlg0011.tlg002.eng2
+# edition: Sophocles: The Plays and Fragments, Part III: The Antigone, tr. R. C. Jebb, Cambridge; modernized by Perseus
 # license: CC BY-SA 4.0
 
 == episode
@@ -103,7 +103,8 @@
 95	But leave me and the foolish plan I have authored to suffer this terrible thing, for I will not suffer anything so terrible that my death will lack honor.
 
 @ Ismene
-98	Go, then, if you so decide. And of this be sure: though your path is foolish, to your loved ones your love is straight and true. Exit Antigone on the spectators’ left. Ismene exits into the palace.
+98	Go, then, if you so decide. And of this be sure: though your path is foolish, to your loved ones your love is straight and true.
+!	Exit Antigone on the spectators’ left. Ismene exits into the palace.
 
 == choral
 
@@ -112,7 +113,7 @@
 
 @ Chorus
 100	Shaft of the sun, fairest light of all that have dawned on Thebes of the seven gates, you have shone forth at last, eye of golden day, advancing over Dirce’s streams!
-105	You have goaded with a sharper bit the warrior of the white shield, who came from Argos in full armor, driving him to headlong retreat.
+104	You have goaded with a sharper bit the warrior of the white shield, who came from Argos in full armor, driving him to headlong retreat.
 
 === anapests
 @ Chorus
@@ -270,36 +271,38 @@
 
 @ Creon
 324	Expound on “judgment” as you will. But, if you fail to
-325	show me the perpetrators of these crimes, you will avow that money basely earned wreaks sorrows. Exit Creon.
+325	show me the perpetrators of these crimes, you will avow that money basely earned wreaks sorrows.
+!	Exit Creon.
 
 @ Guard
 327	Well, may the man be found! That would be best. But, whether he be caught or not—for fortune must decide that—I assure you that you will not see me come here again.
-330	Saved just now beyond hope and belief, I owe the gods great thanks. Exit the Guard.
+330	Saved just now beyond hope and belief, I owe the gods great thanks.
+!	Exit the Guard.
 
 == choral
 
 === strophe 1
 @ Chorus
 332	Wonders are many, and none is more wonderful than man.
-335	This power spans the sea, even when it surges white before the gales of the south-wind, and makes a path under swells that threaten to engulf him. Earth, too, the eldest of the gods, the immortal, the unwearied,
+334	This power spans the sea, even when it surges white before the gales of the south-wind, and makes a path under swells that threaten to engulf him. Earth, too, the eldest of the gods, the immortal, the unwearied,
 340	he wears away to his own ends, turning the soil with the offspring of horses as the plows weave to and fro year after year.
 
 === antistrophe 1
 @ Chorus
-343	The light-hearted tribe of birds
+342	The light-hearted tribe of birds
 345	and the clans of wild beasts and the sea-brood of the deep he snares in the meshes of his twisted nets, and he leads them captive, very-skilled man. He masters by his arts
 350	the beast who dwells in the wilds and roams the hills. He tames the shaggy-maned horse, putting the yoke upon its neck, and tames the tireless mountain bull.
 
 === strophe 2
 @ Chorus
 354	Speech and thought fast as the wind and the moods that give order to a city he has taught himself, and how to flee the arrows of the inhospitable frost under clear skies and the arrows of the storming rain.
-360	He has resource for everything. Lacking resource in nothing he strides towards what must come. From Death alone he shall procure no escape, but from baffling diseases he has devised flights.
+359	He has resource for everything. Lacking resource in nothing he strides towards what must come. From Death alone he shall procure no escape, but from baffling diseases he has devised flights.
 
 === antistrophe 2
 @ Chorus
 365	Possessing resourceful skill, a subtlety beyond expectation he moves now to evil, now to good. When he honors the laws of the land and the justice of the gods to which he is bound by oath,
 370	his city prospers. But banned from his city is he who, thanks to his rashness, couples with disgrace. Never may he share my home,
-375	never think my thoughts, who does these things!
+374	never think my thoughts, who does these things!
 
 === anapests
 !	Enter the Guard, on the spectators’ left, leading in Antigone.
@@ -361,7 +364,8 @@
 @ Creon
 !	To the Guard.
 444	You can take yourself wherever you please,
-445	free and clear of a heavy charge. Exit Guard.
+445	free and clear of a heavy charge.
+!	Exit Guard.
 
 @ 
 !	To Antigone.
@@ -565,7 +569,8 @@
 
 @ Creon
 577	Resolved, yes, for you and by me. To the two Attendants. No more delay! Servants, take them inside! Hereafter they must be women, and not left at large.
-580	For it is known that even the brave seek to flee, when they see Death now closing on their life. Exeunt Attendants, guarding Antigone and Ismene. Creon remains.
+580	For it is known that even the brave seek to flee, when they see Death now closing on their life.
+!	Exeunt Attendants, guarding Antigone and Ismene. Creon remains.
 
 == choral
 
@@ -583,13 +588,13 @@
 
 === strophe 2
 @ Chorus
-605	Your power, great Zeus—what human overstepping can check it? Yours is power that neither Sleep, the all-ensnaring, nor the untiring months of the gods can defeat. Unaged through time,
-610	you rule by your power and dwell thereby in the brilliant splendor of Olympus. And through the future, both near and distant, as through the past, shall this law prevail: nothing that is vast comes to the life of mortals without ruin.
+604	Your power, great Zeus—what human overstepping can check it? Yours is power that neither Sleep, the all-ensnaring, nor the untiring months of the gods can defeat. Unaged through time,
+609	you rule by your power and dwell thereby in the brilliant splendor of Olympus. And through the future, both near and distant, as through the past, shall this law prevail: nothing that is vast comes to the life of mortals without ruin.
 
 === antistrophe 2
 @ Chorus
 615	See how that hope whose wanderings are so wide truly is a benefit to many men, but to an equal number it is a false lure of light-headed desires. The deception comes to one who is wholly unawares until he burns his foot on a hot fire.
-620	For with wisdom did someone once reveal the maxim, now famous, that evil at one time or another seems good, to him whose mind a god leads to ruin.
+619	For with wisdom did someone once reveal the maxim, now famous, that evil at one time or another seems good, to him whose mind a god leads to ruin.
 625	But for the briefest moment such a man fares free of destruction.
 
 === anapests
@@ -731,7 +736,8 @@
 
 @ Haemon
 762	No, not at my side will she die—do not ever imagine it. Nor shall you ever look at me and set eyes on my face again.
-765	Indulge in your madness now with whomever of your friends can endure it. Exit Haemon.
+765	Indulge in your madness now with whomever of your friends can endure it.
+!	Exit Haemon.
 
 @ Chorus
 766	The man is gone, King Creon, in anger and haste. A young mind is fierce when stung.
@@ -751,7 +757,8 @@
 @ Creon
 773	I will take her where the path is deserted, unvisited by men, and entomb her alive in a rocky vault,
 775	setting out a ration of food, but only as much as piety requires so that all the city may escape defilement. And praying there to Hades, the only god she worships, perhaps she will obtain immunity from death, or else will learn, at last, even this late,
-780	that it is fruitless labor to revere the dead. Exit Creon.
+780	that it is fruitless labor to revere the dead.
+!	Exit Creon.
 
 == choral
 
@@ -759,13 +766,13 @@
 @ Chorus
 781	Love, the unconquered in battle, Love, you who descend upon riches, and watch the night through on a girl’s soft cheek,
 785	you roam over the sea and among the homes of men in the wilds. Neither can any immortal escape you,
-790	nor any man whose life lasts for a day. He who has known you is driven to madness.
+789	nor any man whose life lasts for a day. He who has known you is driven to madness.
 
 === antistrophe 1
 @ Chorus
 791	You seize the minds of just men and drag them to injustice, to their ruin. You it is who have incited this conflict of men whose flesh and blood are one.
 795	But victory belongs to radiant Desire swelling from the eyes of the sweet-bedded bride. Desire sits enthroned in power beside the mighty laws.
-800	For in all this divine Aphrodite plays her irresistible game.
+799	For in all this divine Aphrodite plays her irresistible game.
 
 === anapests
 !	Enter Antigone under guard from the palace.
@@ -812,10 +819,9 @@
 
 === antistrophe 2
 @ Antigone
-858	You have touched on my most bitter thought
-860	and moved my ever-renewed pity for my father and for the entire doom ordained for us, the famed house of Labdacus. Oh, the horrors of our mother’s bed! Oh, the slumbers of the wretched mother at the side
-865	of her own son, my own father! What manner of parents gave me my miserable being! It is to them that I go like this, accursed and unwed, to share their home.
-870	Ah, my brother, the marriage you made was doomed, and by dying you killed me still alive!
+858	You have touched on my most bitter thought and moved my ever-renewed pity for my father and for the entire doom ordained for us, the famed house of Labdacus. Oh, the horrors of our mother’s bed! Oh, the slumbers of the wretched mother at the side
+864	of her own son, my own father! What manner of parents gave me my miserable being! It is to them that I go like this, accursed and unwed, to share their home.
+869	Ah, my brother, the marriage you made was doomed, and by dying you killed me still alive!
 
 === antistrophe 3
 @ Chorus
@@ -861,7 +867,8 @@
 
 @ Antigone
 937	O city of my fathers, land of Thebes, and you gods, our ancestors! I am led away now; there is no more delay!
-940	Look at me, you who are Thebes’ lords—look at the only remaining daughter of the house of your kings. See what I suffer, and at whose hands, because I revered reverence! Antigone is led away by the guards.
+940	Look at me, you who are Thebes’ lords—look at the only remaining daughter of the house of your kings. See what I suffer, and at whose hands, because I revered reverence!
+!	Antigone is led away by the guards.
 
 == choral
 
@@ -869,7 +876,7 @@
 @ Chorus
 944	So too endured Danae in her beauty to change
 945	the light of the sky for brass-bound walls, and in that chamber, both burial and bridal, she was held in strict confinement. And yet was she of esteemed lineage, my daughter,
-950	and guarded a deposit of the seed of Zeus that had fallen in a golden rain. But dreadful is the mysterious power of fate—there is no deliverance from it by wealth or by war, by towered city, or dark, sea-beaten ships.
+949	and guarded a deposit of the seed of Zeus that had fallen in a golden rain. But dreadful is the mysterious power of fate—there is no deliverance from it by wealth or by war, by towered city, or dark, sea-beaten ships.
 
 === antistrophe 1
 @ Chorus
@@ -988,7 +995,8 @@
 1075	the Furies of Hades and of the gods, lie in ambush for you, waiting to seize you in these same sufferings. And look closely if I tell you this with a silvered palm. A time not long to be delayed will reveal in your house wailing over men and over women.
 1080	All the cities are stirred up in hostility, whose mangled corpses the dogs, or the wild beasts or some winged bird buried, carrying an unholy stench to the city that held each man’s hearth. There, now, are arrows for your heart, since you provoke me,
 1085	launched at you, archer-like, in my anger. They fly true—you cannot run from their burning sting. Boy, lead me home, so that he may launch his rage against younger men, and learn to keep a quieter tongue
-1090	and a better mind within his breast than he now bears. Exit Teiresias.
+1090	and a better mind within his breast than he now bears.
+!	Exit Teiresias.
 
 @ Chorus
 1091	The man is gone, my king, leaving dire prophecies behind. And for all the time that I have had this hair on my head, now white, once dark, I know that he has never been a false prophet to our city.
@@ -1027,7 +1035,7 @@
 @ Chorus
 1115	God of many names, glory of the Cadmeian bride and offspring of loud-thundering Zeus, you who watch over far-famed Italy and reign
 1120	in the valleys of Eleusinian Deo where all find welcome! O Bacchus, denizen of Thebes, the mother-city of your Bacchants, dweller by the wet stream of Ismenus on the soil
-1125	of the sowing of the savage dragon’s teeth!
+1124	of the sowing of the savage dragon’s teeth!
 
 === antistrophe 1
 @ Chorus
@@ -1102,7 +1110,8 @@
 1225	But his father, when he saw him, cried aloud with a dreadful cry and went in and called to him with a voice of wailing: “Ah, unhappy boy, what have you done! What plan have you seized on? By what misfortune have you lost your reason?”
 1230	“Come out, my son, I pray you, I beg you!” But the boy glared at him with savage eyes, spat in his face, and without a word in response drew his twin-edged sword. As his father rushed out in flight, he missed his aim. Then the ill-fated boy was enraged with himself
 1235	and straightway stretched himself over his sword and drove it, half its length, into his side. Still conscious, he clasped the maiden in his faint embrace, and, as he gasped, he shot onto her pale cheek a swift stream of oozing blood.
-1240	Corpse enfolding corpse he lay, having won his marriage rites, poor boy, not here, but in Hades’ palace, and having shown to mankind by how much the failure to reason wisely is the most severe of all afflictions assigned to man. Eurydice departs into the house.
+1240	Corpse enfolding corpse he lay, having won his marriage rites, poor boy, not here, but in Hades’ palace, and having shown to mankind by how much the failure to reason wisely is the most severe of all afflictions assigned to man.
+!	Eurydice departs into the house.
 
 @ Chorus
 1244	What would you infer from this? The lady
@@ -1117,7 +1126,8 @@
 
 @ Messenger
 1253	I will find out whether she is not, in fact, hiding some repressed plan in the darkness of her passionate heart.
-1255	I will go in, since you are right—in an excess of silence, too, there may be trouble. Exit Messenger.
+1255	I will go in, since you are right—in an excess of silence, too, there may be trouble.
+!	Exit Messenger.
 
 === anapests
 !	Enter Creon, attended and carrying the shrouded body of Haemon, on the spectators’ left.
@@ -1193,12 +1203,12 @@
 1320	I admit the truth. Lead me away, my servants, lead me from here with all haste, who am no more than a dead man!
 
 @ Chorus
-1325	The course you recommend is to your gain, if there can be gain amidst evil. What is briefest is best, when trouble lies at your feet.
+1324	The course you recommend is to your gain, if there can be gain amidst evil. What is briefest is best, when trouble lies at your feet.
 
 === antistrophe 3
 @ Creon
 1328	Let it come, let it appear, that fairest of fates for me, that brings my final day,
-1330	the fate supreme! Oh, let it come, so that I may never see tomorrow’s light!
+1329	the fate supreme! Oh, let it come, so that I may never see tomorrow’s light!
 
 @ Chorus
 1334	These things are in the future. We must see to present affairs.
@@ -1214,7 +1224,7 @@
 @ Creon
 1339	Lead me away, I beg you, a rash, useless man.
 1340	I have murdered you, son, unwittingly, and you, too, my wife—the misery! I do not know which way I should look, or where I should seek support. All is
-1345	amiss that is in my hands, and, again, a crushing fate has leapt upon my head.
+1344	amiss that is in my hands, and, again, a crushing fate has leapt upon my head.
 
 == episode
 

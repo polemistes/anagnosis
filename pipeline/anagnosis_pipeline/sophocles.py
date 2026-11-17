@@ -40,13 +40,15 @@ PLAYS = {p.slug: p for p in [
     # set when the merge is planned
     Play("antigone", "ant", "tlg002", "Ἀντιγόνη", "Antigone", "III", "1891",
          treebank="tlg0011.tlg002.perseus-grc2.tb.xml", eng="eng2",
-         # Jebb's "Structure of the play" (introduction § 5; the kommoi as the published text named
-         # them: 806-882 opens the fourth episode, 1261-1347 stands in the exodos)
+         # Jebb's "Structure of the play" (introduction § 5): "ἐπεισόδιον τέταρτον 806-943, beginning
+         # with a κομμός, 806-882", "ὑπόρχημα 1115-1154, taking the place of a fifth stasimon",
+         # "ἔξοδος 1155-1352, including a κομμός, 1261-1347": the kommoi named as parts of the
+         # fourth episode and the exodos (label_parts: "Fourth episode (continued)" after it)
          parts=[(1, "Prologue"), (100, "Parodos"), (162, "First episode"), (332, "First stasimon"),
                 (384, "Second episode"), (582, "Second stasimon"), (631, "Third episode"),
-                (781, "Third stasimon"), (806, "Kommos"), (883, "Fourth episode"), (944, "Fourth stasimon"),
-                (988, "Fifth episode"), (1115, "Hyporcheme"), (1155, "Exodos"), (1261, "Kommos"),
-                (1348, "Exodos")]),
+                (781, "Third stasimon"), (806, "Fourth episode: kommos"), (883, "Fourth episode"),
+                (944, "Fourth stasimon"), (988, "Fifth episode"), (1115, "Hyporcheme"), (1155, "Exodos"),
+                (1261, "Exodos: kommos"), (1348, "Exodos")]),
     Play("ajax", "aj", "tlg003", "Αἴας", "Ajax", "VII", "1896",
          treebank="tlg0011.tlg003.perseus-grc1.tb.xml",
          parts=[(1, "Prologue"), (134, "Parodos"), (201, "First episode"), (596, "First stasimon"),
@@ -494,9 +496,12 @@ def label_parts(doc, play: Play) -> None:
                 named = set(chosen.values())
     seen: set[str] = set()
     for i, k in chosen.items():
+        # "Exodos: kommos" (a lyric part named inside its division) counts as the division
+        # "Exodos" begun, so the episode after it is "Exodos (continued)"
         name = play.parts[k][1]
-        doc.items[i].label = name if name not in seen else f"{name} (continued)"
-        seen.add(name)
+        base = name.split(":")[0]
+        doc.items[i].label = f"{name} (continued)" if name in seen or (":" not in name and base in seen) else name
+        seen.update({name, base})
 
 
 def add_transcribed_introduction(path: Path, checked: Path, play: Play, paras: list[str] | None = None,
@@ -788,7 +793,17 @@ def write_prose(slug: str, sources: Path, texts: Path, transcriptions: Path, ind
                 print(f"{slug}: {n} sections of the introduction from Perseus")
         add_transcribed_introduction(tmp, transcriptions, play, paras=paras, how=PROSE_HOW)
         os.replace(tmp, path)
-    if not write_commentary(slug, sources, texts) and not play.commentary:
+    if write_commentary(slug, sources, texts):
+        # Perseus drops Jebb's "f." / "ff." after a note's number; where the scan's own OCR text
+        # is at hand (the Antigone's sophocles03soph_djvu.txt) they are put back from it, as the
+        # Antigone's old import did (ffmarks.py), before the notes are re-filed
+        from .drama import PLAYS as DRAMA
+        from .ffmarks import apply_ff_marks
+        ocr = sources / "scans" / f"{DRAMA[slug].scan}_djvu.txt" if slug in DRAMA else None
+        if ocr is not None and ocr.exists():
+            print(f"{slug} commentary: f./ff. marks from the scan's OCR text: "
+                  f"{apply_ff_marks(out / 'commentary-jebb.md', ocr)} headings")
+    elif not play.commentary:
         # Perseus has no commentary for this play (the Philoctetes): Jebb's, read by OCR
         if write_transcribed_commentary(slug, texts, transcriptions, index_dir) < 0:
             skipped += 1
@@ -1413,6 +1428,8 @@ COMMENTARY_FIXES: dict[str, list[tuple[str, str]]] = {
         ("ὦ φλ* ́ʼε Θεόδωρε", "ὦ φίλε Θεόδωρε"), ("τῆς π*|ολεως", "τῆς πόλεως"),
     ],
     "electra": [
+        # Perseus's o=io/llusai (the lemma of 141) for dio/llusai
+        ('**ο ͂ιόλλυσαι**', '**διόλλυσαι**'),
         # Perseus's "<*>" (imported as "[?]"), read on Jebb's page (1894, scan sophoclesplaysfr06soph;
         # 2026-11-17): 51 of the 76; the rest still to read (build/logs/sophocles-on-sale-fixes.md)
         ('... [?]λευθέρωσε ...', '... ἠλευθέρωσε ...'),
@@ -1499,6 +1516,8 @@ COMMENTARY_FIXES: dict[str, list[tuple[str, str]]] = {
         ('(for ἔκηvα)', '(for ἔκηϝα)'),
     ],
     "ajax": [
+        # Perseus's e)=nai for ei)=nai (a circumflex over nothing)
+        ('ellipse of ἐ ͂ναι', 'ellipse of εἶναι'),
         # Perseus's "<*>" (imported as "[?]") and capital rho keyed *(p, read on Jebb's page (1896, scan
         # playsfragmentswi07sophuoft; 2026-11-17): all 20
         ('εἱλόμη[?] ἄν', 'εἱλόμην ἄν'),
@@ -1534,6 +1553,16 @@ COMMENTARY_FIXES: dict[str, list[tuple[str, str]]] = {
         ('**vαύταις**', '**ναύταις**'),
     ],
     "antigone": [
+        # a circumflex Perseus keyed apart from its vowel (ou)\= for oi)=, h\= for h)=), and its
+        # mhde= for mhde\; and in the OC quotation an equals sign keyed against the next word
+        ('ἐξ ἀμφοῖν ͂ἐξ ἀλλήλοιν', 'ἐξ ἀμφοῖν = ἐξ ἀλλήλοιν'),
+        ('περὶ ὼ ͂ν ἂν βουληθῶμεν', 'περὶ ὧν ἂν βουληθῶμεν'),
+        ('ὴ ͂ κἀμὲ γάρ', 'ἦ κἀμὲ γάρ'),
+        ("οὶ ͂δ' ἡνίκ'", "οἶδ' ἡνίκ'"),
+        ('δεῖ εὶ ͂ναι', 'δεῖ εἶναι'),
+        ('μηδε ͂ ἰατρεύεσθαι', 'μηδὲ ἰατρεύεσθαι'),
+        ('**γτ ͂ν πατρῴαν', '**γῆν πατρῴαν'),  # gt=n for gh=n
+        ("**ἀλλ' εὺ ͂ γέ τοι**", "**ἀλλ' εὖ γέ τοι**"),
         # Perseus's "<*>" (imported as "[?]") and capital rho keyed *(p ("*ʽπ"), each read on Jebb's
         # page (2nd ed. 1891, scan sophocles03soph; notes 155, 215, 401, 473, 493, 630-635, 732, 1030,
         # 1161, 1199; 2026-11-17): 41 unread places and two Ῥ words
@@ -1705,12 +1734,13 @@ def refile_notes(text: str, lines: dict[str, str],
                 new_b = inside[-1] if inside else ""
             if new_b and base(new_b) <= base(new_a):
                 new_b = ""
-        new_heading = f"## {new_a}" + (f"-{new_b}" if new_b else "") + (f" {ff}" if ff and not new_b else "")
+        new_heading = f"## {new_a}" + (f"-{new_b}" if new_b else "") + (f" {ff}" if ff and not new_b and new_a == a else "")
         if new_a != a:
-            # the printed number in front of the note, as in the apparatus
+            # the printed number in front of the note, as in the apparatus, with Jebb's "f."/"ff."
+            # (they belong to his number, not to the line the note is filed under)
             i = next((k for k, l in enumerate(body) if l.strip()), None)
             if i is not None:
-                body = body[:i] + [f"[{printed}] {body[i]}"] + body[i + 1:]
+                body = body[:i] + [f"[{printed}{' ' + ff if ff else ''}] {body[i]}"] + body[i + 1:]
             moves.append(f"commentary: line {a} is not in our numbering; the note on {printed} goes to "
                          f"{new_heading[3:]} ({how})")
         else:

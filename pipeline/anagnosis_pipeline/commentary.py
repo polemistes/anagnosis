@@ -162,7 +162,7 @@ def _txt(s: str | None, grk: bool) -> str:
 # parenthesis. The parentheses and the elisions are kept apart from the conversion. A
 # quotation that ends in a vowel and ) while the paragraph has a parenthesis open closes it:
 # (e)stefanwme/noi) where the ( stands in the English before the quotation.
-OPEN, CLOSE, ELIDED = "\ue000", "\ue001", "\ue002"
+OPEN, CLOSE, ELIDED, EQUALS = "\ue000", "\ue001", "\ue002", "\ue00e"
 BREATHING_AFTER = re.compile(r"[bgdzqklmncprstfxyv]{0,2}[aeiouhwr]{1,2}")
 ENGLISH = {"the", "and", "of", "to", "in", "is", "with", "this", "that", "not", "do", "as", "by", "for",
            "at", "on", "it", "be", "which", "from", "or", "an", "are", "was", "his", "her", "we", "they",
@@ -182,11 +182,13 @@ _open = [0]  # parentheses opened earlier in the paragraph and not yet closed
 def _beta(s: str, outer: int = 0) -> tuple[str, int]:
     """Betacode to Unicode, parentheses and elisions as described above; with the count of
     parentheses open before the text and after it."""
-    protected = _protect_parens(s, outer)
+    # Jebb's equals sign standing alone inside a Greek quotation (*κείνους* = τοὺς ἐκεῖ), which
+    # betacode would read as a circumflex over nothing
+    protected = _protect_parens(re.sub(r"(?<!\S)=(?!\S)", EQUALS, s), outer)
     outer = max(0, outer + protected.count(OPEN) - protected.count(CLOSE))
     out = greek.betacode_to_unicode(protected)
     out = re.sub("σ(?=" + CLOSE + ")", "ς", out)  # a final sigma before the parenthesis
-    return out.replace(OPEN, "(").replace(CLOSE, ")").replace(ELIDED, "\u02bc"), outer
+    return out.replace(OPEN, "(").replace(CLOSE, ")").replace(ELIDED, "\u02bc").replace(EQUALS, "="), outer
 
 
 def _protect_parens(s: str, outer: int = 0) -> str:
