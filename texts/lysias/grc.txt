@@ -8,6 +8,7 @@
 # syntax: automatic
 # syntax-by-book: 1=manual 14=manual 15=manual 23=manual 24=manual 12=none 13=none 19=none
 # pronunciation: attic
+# syntax-text: the Perseus Digital Library's text of the speeches (W. R. M. Lamb's Loeb edition, 1930)
 
 == book 1 · Ὑπὲρ τοῦ Ἐρατοσθένους φόνου ἀπολογία
 @ 

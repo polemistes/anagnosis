@@ -80,7 +80,7 @@ def settle(slug: str, rows: list[dict], record: list[dict]) -> list[str]:
     return undecided
 
 
-def differences(rows: list[dict], record: list[dict]) -> dict[str, int]:
+def differences(rows: list[dict], record: list[dict], known=None) -> dict[str, int]:
     """How each reading differs from the trees' word (`difference`), so that the reader can leave
     the slightest unmarked if the author wishes:
 
@@ -108,6 +108,24 @@ def differences(rows: list[dict], record: list[dict]) -> dict[str, int]:
         same_lemma = greek.lemma_key(fix_lemma(rec.get("tree_lemma", ""))) == greek.lemma_key(row["lemma"])
         same_tag = (rec.get("tree_postag") or "")[1:6] == row["postag"][1:6] and (rec.get("tree_postag") or "")[7:8] == row["postag"][7:8]
         alike = difflib.SequenceMatcher(None, ours, theirs, autojunk=False).ratio() >= 0.75
+        tree_tag = rec.get("tree_postag") or ""
+        # what the analyser knows of our spelling (`known`), where the word wears the trees' analysis
+        mine = known(rec["form"]) if known and same_lemma and same_tag else None
+        if mine:
+            under = [t for l, t in mine if greek.lemma_key(l) == greek.lemma_key(fix_lemma(rec.get("tree_lemma", "")))]
+            same_lemma = bool(under)
+            if not under:
+                # known only under other lemmas: another word, unless a lemma is the trees' lemma
+                # spelled otherwise (ἐπιμέλομαι, ἐπιμελέομαι)
+                tree_lemma = _bare(rec.get("tree_lemma", ""))
+                alike = len(tree_lemma) >= 8 and any(difflib.SequenceMatcher(None, _bare(l), tree_lemma, autojunk=False).ratio() >= 0.9 for l, _t in mine)
+            same_tag = any(t[1:6] == tree_tag[1:6] and t[7:8] == tree_tag[7:8] for t in under) if under else \
+                any(t[1:6] == tree_tag[1:6] and t[7:8] == tree_tag[7:8] for _l, t in mine)
+        if known and not same_lemma and not mine:
+            # two words of their own (a pair made by one word in two forms): a spelling only where
+            # the lemmas are one lemma spelled otherwise
+            a, b = _bare(row["lemma"]), _bare(rec.get("tree_lemma", ""))
+            alike = alike and min(len(a), len(b)) >= 6 and difflib.SequenceMatcher(None, a, b, autojunk=False).ratio() >= 0.85
         if rec.get("difference"):
             kind = rec["difference"]
         elif elided and long_.startswith(short) and len(long_) - len(short) <= 2:
@@ -323,3 +341,448 @@ def build_table(db: sqlite3.Connection, work_dir: Path) -> int:
                     r.get("difference") or None, r["extent"] or None))
     db.execute("INSERT OR REPLACE INTO meta VALUES ('syntax_text_words', ?)", (str(len(rows)),))
     return len(rows)
+
+
+# --- the record made from a text's files as they stand ------------------------------------------
+#
+# For a text that is on sale nothing but the syntax record may change. Its merge or import is
+# therefore not run again: the record is worked out from texts/<slug>/grc.txt, tokens.tsv and
+# syntax-nodes.tsv and the trees, and only the rows it concerns are rewritten, line by line.
+
+def _book(line: str) -> str:
+    return line.split(".")[0] if "." in line else ""
+
+
+def _greek(form: str) -> str:
+    """A tree word without the marks that are not of the text (GLAUx's "G?" at a gap, the
+    treebank's "κ-" for the καί of a crasis)."""
+    return "".join(c for c in form if not (c.isascii() and (c.isalpha() or c in "?-")))
+
+
+def _main(ws: list[dict]) -> dict:
+    """Of the tree words one word of ours joins, the one whose syntax the word carries: the part
+    that is not a mere particle and hangs outside the unit (as import_perseus: the τε of οὔτε is
+    the coordinator, the οὔ only an AuxZ on a member)."""
+    ids = {str(w["word_id"]) for w in ws}
+    return next((w for w in ws if w["relation"] not in ("AuxZ", "AuxY", "") and str(w["head"]) not in ids),
+                next((w for w in ws if str(w["head"]) not in ids), ws[0]))
+
+
+def _joined(forms: list[str], ours: str) -> bool:
+    """Whether the tree words, written together, are our word: in their order, or the enclitic
+    first as the treebank has it (μήτε: "-τε", "μή")."""
+    from .odyssey import _bare
+
+    parts = [_bare(_greek(f)) for f in forms]
+    return "".join(parts) == ours or (len(parts) == 2 and parts[1] + parts[0] == ours)
+
+
+# A word of ours that differs from the trees' word by an iota subscript wears the analysis of the
+# trees' word; where the analyser cannot give ours by rule (no reading of our spelling under the
+# trees' lemma), it is set here: slug -> "line form" -> (lemma, tag). An entry that repeats the
+# trees' analysis says that it is right as it stands. Also here: a reading in other letters that
+# was left wearing the analysis of the trees' word because the analyser cannot read ours.
+OWN_ANALYSES: dict[str, dict[str, tuple[str, str]]] = {
+    "lysias": {
+        "6.20 δέη": ("δέος", "n-p---na-"),          # δέη πολλὰ καὶ κινδύνους ὁ θεὸς ἐπιπέμπει; the trees' δέῃ a verb
+        "6.21 ᾔδει": ("οἶδα", "v3slia---"),         # the trees' ἤδει read as a dative of ἦδος
+        "6.34 πραότητα": ("πραότης", "n-s---fa-"),
+        "7.19 ᾤχετο": ("οἴχομαι", "v3siim---"),     # the trees' ὤχετο read as a form of ἀχεύω
+        "7.22 φής": ("φημί", "v2spia---"),
+        "10.4 ἀπέθνῃσκε": ("ἀποθνῄσκω", "v3siia---"),
+        "14.38 Θρᾴκης": ("Θρᾴκη", "n-s---fg-"),
+        "14.43 ᾔσθησθε": ("αἰσθάνομαι", "v2plie---"),  # the trees' ἤσθησθε read as a form of ἐσθέω
+        "18.9 ᾤχετο": ("οἴχομαι", "v3siim---"),
+        "18.13 Ἀθήνησι": ("Ἀθήνη", "n-p---fd-"),
+        "22.13 δέῃ": ("δέω", "v3spsa---"),          # ὅταν μὲν εἰσφορὰν εἰσενεγκεῖν δέῃ; the trees' δέη a noun
+        "30.31 σῴζειν": ("σῴζω", "v--pna---"),
+        "32.10 ᾤχοντο": ("οἴχομαι", "v3piim---"),
+        "18.20 πίθησθε": ("πείθω", "v2pasm---"),    # the trees' πείθησθε a present; ours wore an aorist active
+        "34.4 πίθησθε": ("πείθω", "v2pasm---"),
+        "34.5 πίθησθε": ("πείθω", "v2pasm---"),
+        "24.13 ἐλεήσαντας": ("ἐλεέω", "v-papama-"),  # wore the analysis of the trees' πάντας
+        "28.6 ἐνέπληντο": ("ἐμπίμπλημι", "v3paim---"),  # the trees' ἐνεπέπληντο, given to ἐμπελάζω
+        "33.7 καινομένην": ("καίνω", "v-sppmfa-"),  # Hude's own conjecture; wore the καίω of the trees' καομένην
+    },
+}
+
+
+def record_from_files(work_dir: Path, tb: list[dict], name: str, write: bool = True, reader=None,
+                      hand: dict | None = None, answers: dict | None = None) -> dict:
+    """Work out the record of a text from its files and its trees (`tb`: the treebank words as
+    the text's merge reads them, sentence ids as in tokens.tsv), and write it. Nothing of the
+    text is made again: only the words concerned change.
+
+    * A word that is linked already stays as it is. It is recorded as a unit where its word id
+      joins several tree words, or where the trees write it as two words of which it carries one
+      (κἀγὼ: "κ-" and "ἀγὼ"; the other stays a node of the tree and is no unprinted word); as a
+      reading where the tree word has other letters or another iota subscript. An iota subscript
+      is a letter of the form (ναυμαχία a nominative, ναυμαχίᾳ a dative): such a word wears the
+      analysis of the trees' word and gets its own, the analyser's reading of exactly our
+      spelling under the trees' lemma, or the one set by hand (`hand`: "line form" -> (lemma, tag)).
+    * The words without a link are looked at between their linked neighbours, against the tree
+      words there that no word of ours uses: two to four of ours that are one tree word when
+      joined become a unit (the first carries the node; in a crasis with καί the second); one of
+      ours that is two or three tree words joined becomes a unit with all their ids; one word in
+      two forms becomes a reading (the token gets the sentence, the tree word stays a node of its
+      own); three or more words that stand word for word elsewhere among the tree words left
+      over are linked there.
+    * What is left gets the sentence it stands in ("absent"), in a book that has trees at all.
+    * The tree words no word of ours uses are "unprinted".
+
+    Run on its own result it gives the same again. `answers`: (line, ord) -> (our word, the
+    trees' word, difference), the checked kinds of difference of the readings.
+
+    Changed: tokens.tsv (only the lines of the words concerned), syntax-nodes.tsv (the nodes a
+    word of ours now carries are taken out), syntax-text.tsv, grc.txt (the header line
+    `# syntax-text:`). Returns counts and what to look at by hand."""
+    from .odyssey import _bare, _subscripts, _two_forms
+    from .textfmt import parse_file
+
+    doc = parse_file(work_dir / "grc.txt")
+    lines = [(line.n, line.text) for line in doc.lines]
+    tok_path = work_dir / "tokens.tsv"
+    raw = tok_path.read_text(encoding="utf-8").split("\n")
+    head = raw[0].split("\t")
+    col = {k: i for i, k in enumerate(head)}
+    body = [(i, l.split("\t")) for i, l in enumerate(raw) if i and l]
+    rows = [{k: f[col[k]] for k in head} for _i, f in body]
+    index = {(r["line"], int(r["ord"])): i for i, r in enumerate(rows)}
+    # run again on its own result: the words that had only a sentence (absent words, readings
+    # whose tree word stays a node of its own) are as they were before
+    record_path = work_dir / "syntax-text.tsv"
+    if record_path.exists():
+        for old in read_record(record_path):
+            i = index.get((old["line"], int(old["ord"]))) if old["line"] else None
+            if i is not None and old["kind"] in ("absent", "reading") and not rows[i]["word_id"]:
+                rows[i]["sentence"] = ""
+    words = [w for w in tb if w["is_word"] and not w["artificial"] and _bare(_greek(w["form"]))]
+    place = {(w["sentence"], w["word_id"]): k for k, w in enumerate(words)}
+    by_id = {(w["sentence"], w["word_id"]): w for w in tb}
+    used: set[tuple[str, str]] = set()
+    for r in rows:
+        if r["sentence"]:
+            for w in r["word_id"].lstrip("=").split("+"):
+                if w:
+                    used.add((r["sentence"], w))
+    carriers = {(r["sentence"], r["word_id"][1:]) for r in rows if r["word_id"].startswith("=")}
+    accounted: set[tuple[str, str]] = set()  # tree words that are half of a word of ours and stay nodes
+    record: list[dict] = []
+    look: list[str] = []
+    reanalysed: list[str] = []
+    hand = hand or {}
+
+    def note(i: int, kind: str, w: dict | None, sentence: str = "", word_id: str = "", form: str = "", lemma: str = "", tag: str = "") -> None:
+        r = rows[i]
+        record.append({"line": r["line"], "ord": int(r["ord"]), "form": r["form"], "kind": kind,
+                       "tree_form": form or (w["form"] if w else ""), "tree_lemma": lemma or (w["lemma"] if w else ""),
+                       "tree_postag": tag or (w["postag"] if w else ""), "sentence": sentence or r["sentence"], "word_id": word_id or r["word_id"]})
+
+    def halves(i: int, w: dict) -> list[dict] | None:
+        """The tree words next to `w` that, joined with it, are our word (κ- ἀγὼ; οὐ δὲ)."""
+        k = place.get((w["sentence"], w["word_id"]))
+        if k is None:
+            return None
+        ours = _bare(rows[i]["form"])
+        for a, b in ((k - 1, k + 1), (k, k + 2), (k - 2, k + 1), (k, k + 3), (k - 1, k + 2)):
+            if a < 0 or b > len(words) or any(words[x]["sentence"] != w["sentence"] for x in range(a, b)):
+                continue
+            if any(x != k and (words[x]["sentence"], words[x]["word_id"]) in used for x in range(a, b)):
+                continue
+            if _joined([words[x]["form"] for x in range(a, b)], ours):
+                return words[a:b]
+        return None
+
+    # 1. the words that are linked
+    for i, r in enumerate(rows):
+        if not r["sentence"] or not r["word_id"]:
+            continue
+        ids = r["word_id"].lstrip("=").split("+")
+        ws = [by_id.get((r["sentence"], x)) for x in ids]
+        if any(w is None for w in ws):
+            look.append(f"{r['line']} {r['form']}: its word id {r['word_id']} is not in the trees")
+            continue
+        theirs = _greek(ws[0]["form"])
+        if r["word_id"].startswith("=") or len(ws) > 1 or (r["sentence"], r["word_id"]) in carriers:
+            note(i, "unit", None, form=" ".join(w["form"] for w in ws), lemma=" ".join(w["lemma"] for w in ws), tag=_main(ws)["postag"])
+        elif _bare(theirs) != _bare(r["form"]):
+            both = halves(i, ws[0])
+            if both:
+                accounted.update((w["sentence"], w["word_id"]) for w in both)
+                note(i, "unit", None, form=" ".join(w["form"] for w in both), lemma=" ".join(w["lemma"] for w in both), tag=ws[0]["postag"])
+            else:
+                note(i, "reading", ws[0])
+                key = f"{r['line']} {r['form']}"
+                if key in hand and tuple(hand[key]) != (r["lemma"], r["postag"]):
+                    reanalysed.append(f"{key}: {r['lemma']} {r['postag']} -> {hand[key][0]} {hand[key][1]} (the trees: {ws[0]['form']})")
+                    r["lemma"], r["postag"] = hand[key]
+        elif _subscripts(theirs) != _subscripts(r["form"]):
+            note(i, "reading", ws[0])
+            key = f"{r['line']} {r['form']}"
+            mine = hand.get(key) or (reader(r["form"], ws[0]["lemma"], ws[0]["postag"]) if reader else None)
+            if mine is None:
+                look.append(f"{key}: differs from the trees' {ws[0]['form']} by an iota subscript and wears its analysis "
+                            f"({r['lemma']} {r['postag']}); the analyser has no reading of our spelling under that lemma: set it by hand")
+            elif tuple(mine) != (r["lemma"], r["postag"]):
+                reanalysed.append(f"{key}: {r['lemma']} {r['postag']} -> {mine[0]} {mine[1]} (the trees: {ws[0]['form']})")
+                r["lemma"], r["postag"] = mine
+
+    # 2. the words without a link, between their linked neighbours
+    linked = [bool(r["sentence"]) for r in rows]
+    where = {i: place.get((r["sentence"], r["word_id"].lstrip("=").split("+")[0])) for i, r in enumerate(rows) if r["sentence"] and r["word_id"]}
+    has_trees = {_book(r["line"]) for r in rows if r["sentence"]}
+    free_set = {k for k, w in enumerate(words) if (w["sentence"], w["word_id"]) not in used and (w["sentence"], w["word_id"]) not in accounted}
+
+    def link(i: int, w: dict, node: bool, word_id: str | None = None) -> None:
+        r = rows[i]
+        r["sentence"] = w["sentence"]
+        if node:
+            r["word_id"], r["relation"], r["head"] = (word_id or w["word_id"]), w["relation"], w["head"]
+            used.add((w["sentence"], w["word_id"]))
+            free_set.discard(place[(w["sentence"], w["word_id"])])
+        elif word_id:
+            r["word_id"] = word_id
+        linked[i] = True
+
+    paired: set[int] = set()  # the tree words a reading of ours is paired with
+    i = 0
+    while i < len(rows):
+        if linked[i]:
+            i += 1
+            continue
+        a = i
+        while i < len(rows) and not linked[i]:
+            i += 1
+        b = i
+        before = next((where[k] for k in range(a - 1, max(-1, a - 6), -1) if where.get(k) is not None), None)
+        after = next((where[k] for k in range(b, min(len(rows), b + 6)) if where.get(k) is not None), None)
+        if before is None or after is None or not 0 < after - before <= (b - a) + 12:
+            continue
+        local = [k for k in range(before + 1, after) if k in free_set]
+        settled: set[int] = set()
+        # first the units, through the whole run: a tree word that is one of ours written
+        # otherwise is no reading of a neighbour
+        j = a
+        while j < b:
+            done = False
+            # two to four of our words are one tree word (the same letters, or καί in crasis)
+            for size in (2, 3, 4):
+                if j + size > b or done:
+                    break
+                joined = "".join(_bare(rows[x]["form"]) for x in range(j, j + size))
+                for k in local:
+                    if k not in free_set:
+                        continue
+                    theirs = _bare(_greek(words[k]["form"]))
+                    crasis = (size == 2 and _bare(rows[j]["form"]) == "και" and _bare(rows[j + 1]["form"])[:1] in "αεηιουω"
+                              and "κα" + _bare(rows[j + 1]["form"])[1:] == theirs)
+                    if joined == theirs or crasis:
+                        w = words[k]
+                        carrier = j + size - 1 if crasis else j
+                        for x in range(j, j + size):
+                            link(x, w, node=(x == carrier), word_id=None if x == carrier else "=" + w["word_id"])
+                            note(x, "unit", w)
+                            settled.add(x)
+                        j += size
+                        done = True
+                        break
+            if done:
+                continue
+            # the other way: our one word is two or three tree words in a row (μήτε: μή, τε)
+            ours = _bare(rows[j]["form"])
+            for k in local:
+                for size in (2, 3):
+                    part = list(range(k, k + size))
+                    if all(x in free_set and x in local and words[x]["sentence"] == words[k]["sentence"] for x in part) \
+                            and _joined([words[x]["form"] for x in part], ours):
+                        ws = [words[x] for x in part]
+                        main = _main(ws)
+                        r = rows[j]
+                        r["sentence"], r["word_id"], r["relation"], r["head"] = main["sentence"], "+".join(w["word_id"] for w in ws), main["relation"], main["head"]
+                        for w in ws:
+                            used.add((w["sentence"], w["word_id"]))
+                            free_set.discard(place[(w["sentence"], w["word_id"])])
+                        linked[j] = True
+                        settled.add(j)
+                        note(j, "unit", None, form=" ".join(w["form"] for w in ws), lemma=" ".join(w["lemma"] for w in ws), tag=main["postag"])
+                        done = True
+                        break
+                if done:
+                    break
+            j += 1
+        # then one word in two forms: a reading; the tree word stays a node of its own
+        for j in range(a, b):
+            if j in settled:
+                continue
+            for k in local:
+                if k in free_set and k not in paired and _two_forms(rows[j]["form"], _greek(words[k]["form"])):
+                    w = words[k]
+                    paired.add(k)
+                    link(j, w, node=False)
+                    note(j, "reading", w, sentence=w["sentence"], word_id=w["word_id"])
+                    break
+
+    # 3. three or more words that stand word for word elsewhere among the tree words left over
+    read = {(r["sentence"], str(r["word_id"])) for r in record if r["kind"] == "reading"}
+    left = [k for k in sorted(free_set) if (words[k]["sentence"], words[k]["word_id"]) not in read]
+    runs: list[list[int]] = []
+    for k in left:
+        if runs and runs[-1][-1] == k - 1:
+            runs[-1].append(k)
+        else:
+            runs.append([k])
+    i = 0
+    while i < len(rows):
+        if linked[i]:
+            i += 1
+            continue
+        a = i
+        while i < len(rows) and not linked[i]:
+            i += 1
+        ours = [_bare(rows[x]["form"]) for x in range(a, i)]
+        if len(ours) < 3:
+            continue
+        for run in runs:
+            theirs = [_bare(_greek(words[k]["form"])) for k in run]
+            at = next((s for s in range(len(theirs) - len(ours) + 1) if theirs[s:s + len(ours)] == ours), None)
+            if at is not None and all(k in free_set for k in run[at:at + len(ours)]):
+                for m, x in enumerate(range(a, i)):
+                    link(x, words[run[at + m]], node=True)
+                break
+
+    # 4. what is left: the sentence it stands in, in a book that has trees
+    for i, r in enumerate(rows):
+        if not linked[i] and _book(r["line"]) in has_trees:
+            note(i, "absent", None)
+    given, without = give_sentences(lines, rows, record)
+    # the checked kinds of difference (syntax_differences.py), where both words are still the
+    # ones the answer was given for
+    checked = 0
+    for rec in record:
+        a = answers.get((rec["line"], int(rec["ord"]))) if answers and rec["kind"] == "reading" else None
+        if a and a[0] == rec["form"] and a[1] == rec["tree_form"]:
+            rec["difference"] = a[2]
+            checked += 1
+    counts_diff = differences(rows, record, reader.known if reader else None)
+
+    lengths: dict[str, int] = {}
+    for r in rows:
+        lengths[r["line"]] = lengths.get(r["line"], 0) + 1
+    fields = ("lemma", "postag", "relation", "head", "sentence", "word_id")
+    changed = [i for i, (_at, f) in enumerate(body) if any(f[col[k]] != rows[i][k] for k in fields)]
+    out = {"changed tokens": len(changed), "look": look, "given their own analysis": reanalysed, "difference": counts_diff,
+           "absent with a sentence": given, "absent without": without, "differences checked": checked}
+    words_only = [w for w in tb if _bare(_greek(w["form"]))]
+    if not write:
+        import tempfile
+        with tempfile.TemporaryDirectory() as d:
+            out["kinds"] = write_record(Path(d) / "x.tsv", record, words_only, used | accounted, lengths)
+            out["rows"] = read_record(Path(d) / "x.tsv")
+        return out
+    out["kinds"] = write_record(record_path, record, words_only, used | accounted, lengths)
+    out["rows"] = read_record(record_path)
+    # tokens.tsv: only the changed lines
+    for i in changed:
+        at, f = body[i]
+        for k in fields:
+            f[col[k]] = rows[i][k]
+        raw[at] = "\t".join(f)
+    if changed:
+        tok_path.write_text("\n".join(raw), encoding="utf-8")
+    # syntax-nodes.tsv: the nodes a word of ours now carries are no extra nodes any more
+    nodes_path = work_dir / "syntax-nodes.tsv"
+    node_lines = nodes_path.read_text(encoding="utf-8").split("\n")
+    keep = [node_lines[0]] + [l for l in node_lines[1:] if not l or tuple(l.split("\t")[:2]) not in used]
+    out["nodes taken out"] = len(node_lines) - len(keep)
+    if len(keep) != len(node_lines):
+        nodes_path.write_text("\n".join(keep), encoding="utf-8")
+    # grc.txt: the header names the trees' text
+    old = (work_dir / "grc.txt").read_text(encoding="utf-8")
+    grc = [l for l in old.split("\n") if not l.startswith("# syntax-text:")]
+    last = max(k for k, l in enumerate(grc[:40]) if l.startswith("# "))
+    grc.insert(last + 1, f"# syntax-text: {name}")
+    if "\n".join(grc) != old:
+        (work_dir / "grc.txt").write_text("\n".join(grc), encoding="utf-8")
+    return out
+
+
+def really_differing(rows: list[dict], tokens: list[dict] | None = None) -> int:
+    """How many sentences have a real difference: a reading in another form or another word, a
+    word of ours the trees' text has not, a tree word not printed (not a unit, an elision, a
+    movable ν or a spelling). Only sentences that have a word of ours (`tokens`: the token rows)
+    count: the tree of another is never shown."""
+    ours = {t["sentence"] for t in tokens if t["sentence"]} if tokens is not None else None
+    real = set()
+    for r in rows:
+        if r["kind"] in ("absent", "unprinted") or (r["kind"] == "reading" and r.get("difference") in ("form", "word")):
+            if r["sentence"] and (ours is None or r["sentence"] in ours):
+                real.add(r["sentence"])
+    return len(real)
+
+
+def _lysias_trees(sources: Path) -> list[dict]:
+    from .hude_merge import speech_treebank
+    from .hude_pages import SPEECHES
+
+    out: list[dict] = []
+    for speech in range(1, SPEECHES + 1):
+        out += speech_treebank(speech, sources)
+    return out
+
+
+# The texts whose record is made from their files (record_from_files): how their trees are read
+# and what the trees' text is called. A text is added here only when its trees' text has been
+# confirmed from its sources (the plan of each text says how).
+FROM_FILES: dict[str, tuple] = {
+    "lysias": (_lysias_trees, "the Perseus Digital Library's text of the speeches (W. R. M. Lamb's Loeb edition, 1930)"),
+}
+
+
+def exact_reader(sources: Path, lexicon: Path):
+    """read(form, lemma, tag): the analyser's reading of exactly this spelling (accents and iota
+    subscripts as written) under the lemma named, the one whose tag agrees best with `tag`:
+    (lemma, tag), or None where it has none under that lemma. read.known(form): all its readings
+    of exactly this spelling, [(lemma, tag)]."""
+    from . import greek
+    from .odyssey import fix_lemma
+    from .odyssey_merge import Analyser, Frequencies, _accent_key
+
+    analyse, freq = Analyser(lexicon), Frequencies(sources / "treebanks")
+
+    def known(form: str) -> list[tuple[str, str]]:
+        key = _accent_key(form)
+        return [(fix_lemma(a[1]), a[2][:9]) for a in analyse(form) if len(a) > 2 and len(a[2]) >= 9 and _accent_key(a[0]) == key]
+
+    def read(form: str, lemma: str, tag: str = "") -> tuple[str, str] | None:
+        key = _accent_key(form)
+        want = greek.lemma_key(fix_lemma(lemma))
+        same = [a for a in known(form) if greek.lemma_key(a[0]) == want and greek.nfc(a[0])[:1].isupper() == greek.nfc(fix_lemma(lemma))[:1].isupper()]
+        if not same:
+            return None
+        best = max(same, key=lambda a: (sum(1 for x, y in zip(a[1], tag.ljust(9, "-")) if x == y), freq.analysis[(key, greek.nfc(a[0]), a[1])]))
+        return fix_lemma(lemma), best[1]
+    read.known = known
+    return read
+
+
+def difference_answers(slug: str) -> dict[tuple[str, int], tuple[str, str, str]]:
+    """The checked kinds of difference of a text's readings: (line, ord) -> (our word, the trees'
+    word, difference)."""
+    from .syntax_differences import answers
+
+    return answers(slug)
+
+
+def run(slug: str, texts: Path, sources: Path, write: bool) -> dict:
+    loader, name = FROM_FILES[slug]
+    out = record_from_files(texts / slug, loader(sources), name, write, exact_reader(sources, texts.parent / "data" / "lexicon.sqlite"),
+                            OWN_ANALYSES.get(slug, {}), difference_answers(slug))
+    with (texts / slug / "tokens.tsv").open(encoding="utf-8", newline="") as f:
+        tokens = list(csv.DictReader(f, delimiter="\t", quoting=csv.QUOTE_NONE))
+    if not write:  # the sentences of the words that would get one
+        given = {(r["line"], str(r["ord"])): r["sentence"] for r in out["rows"] if r["line"] and r["sentence"]}
+        for t in tokens:
+            t["sentence"] = t["sentence"] or given.get((t["line"], t["ord"]), "")
+    out["sentences"] = len({t["sentence"] for t in tokens if t["sentence"]})
+    out["sentences that really differ"] = really_differing(out["rows"], tokens)
+    return out

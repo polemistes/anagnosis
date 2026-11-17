@@ -1204,6 +1204,17 @@ Nothing here blocks the text batches. In the order in which an answer is needed:
   about.md, unused. Version unchanged (1c2a5bd5093e2915): the key is in the catalogue, not in
   the database.
 
+* **2026-11-17, the trees' text** (the author's order: the record in the texts on sale and the
+  free texts). The trees of Lysias were made on the Perseus Digital Library's text of the
+  speeches (W. R. M. Lamb's Loeb edition, 1930), not on Hude's: the AGDT files say so, and
+  GLAUx's words follow Perseus's text, misprints included. `texts/lysias/syntax-text.tsv` records
+  what each word is to that text (unit 367, reading 264, absent 493, unprinted 75; 295 of 2,056
+  sentences really differ by the rule's values), grc.txt and about.md name it, 39 words that
+  wore the analysis of a tree word in another form have their own. The merge ends with the step
+  (`syntax_text.run`), so a merge run again gives the same files. Everything else in the
+  database is as it was, table by table. How, and the checking pass over the kinds of
+  difference: `pipeline/PLAN-syntax-text.md`. Version `896cbeb066d4c9b8`.
+
 ## Sizes, for planning
 
 34 speeches, 1,116 sections, 56,162 Greek words in the check text; 269 pages of Hude, 6,798

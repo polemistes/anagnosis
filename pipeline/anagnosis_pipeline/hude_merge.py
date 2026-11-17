@@ -1053,6 +1053,14 @@ def merge(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path | No
             hude_notes.write(texts, slug, sources, build, drafts)
         for path in sorted(STATIC.glob("*")):
             (out / path.name).write_bytes(path.read_bytes())
+        # the record of the text the trees were made on (syntax_text.py): from the files just written
+        from . import syntax_text
+
+        if slug in syntax_text.FROM_FILES:
+            got = syntax_text.run(slug, texts, sources, True)
+            print("trees' text: " + ", ".join(f"{k} {v}" for k, v in got["kinds"].items()) + f"; {got['sentences that really differ']} of "
+                  f"{got['sentences']} sentences really differ; {len(got['look'])} to look at")
+            problems += [f"trees' text: {x}" for x in got["look"]]
     log = [f"# merge-lysias {slug}", "", f"## Problems ({len(problems)})", ""] + [f"* {x}" for x in problems]
     log += ["", f"## Apparatus lemmas not found on their lines ({len(misses)})", "",
             "SERIOUS: the text may have slipped to the check text's reading; look at the page. WEAK: a conjecture, a "

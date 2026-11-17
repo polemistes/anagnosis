@@ -31,18 +31,12 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 1.8	74	ἔπραξα			OBJ_AP_CO	62	1
 1.9	11	,	,	u--------	AuxX	15	
 1.9	14	,	,	u--------	AuxX	13	
-1.9	17	τ-	τά	l-p---na-	ATR	18	
-1.9	18	ἀληθῆ	ἀληθής	a-p---na-	OBJ	16	
 1.9	19	·	·	u--------	AuxK	0	
 1.10	7	,	,	u--------	AuxX	5	
 1.10	15	.	.	u--------	AuxK	0	
 1.11	3	,	,	u--------	AuxX	5	
 1.11	6	,	,	u--------	AuxX	7	
 1.11	17	,	,	u--------	AuxX	7	
-1.11	25	-τε	τε	d--------	AuxY	28	
-1.11	26	μή	μή	d--------	AuxZ	27	
-1.11	28	-τε	τε	c--------	COORD	24	
-1.11	29	μή	μή	d--------	AuxZ	33	
 1.11	39	,	,	u--------	AuxX	23	
 1.11	46	,	,	u--------	AuxX	42	
 1.11	54	.	.	u--------	AuxK	0	
@@ -96,14 +90,10 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 1.28	9	,	,	u--------	AuxX	1	
 1.28	18	·	·	u--------	AuxK	0	
 1.29	7	.	.	u--------	AuxK	0	
-1.30	1	κ-	καί	d--------	AuxY	7	
-1.30	2	ἀγὼ	ἐγὼ	p-s---mn-	SBJ	4	
 1.30	5	,	,	u--------	AuxX	4	
 1.30	14	,	,	u--------	AuxX	15	
 1.30	17	,	,	u--------	AuxX	15	
 1.30	22	.	.	u--------	AuxK	0	
-1.31	1	κ-	καί	d--------	AuxY	8	
-1.31	2	ἀγὼ	ἐγὼ	p-s---mn-	SBJ	8	
 1.31	10	,	,	u--------	AuxX	11	
 1.31	14	.	.	u--------	AuxK	0	
 1.32	6	,	,	u--------	AuxX	1	
@@ -152,16 +142,10 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 1.46	31	·	·	u--------	AuxK	0	
 1.47	9	,	,	u--------	APOS	4	
 1.47	21	,	,	u--------	AuxX	15	
-1.47	25	τ-	τέ	c--------	COORD	23	
-1.47	26	ἀληθῆ	ἀληθής	a-p---na-	OBJ_CO	25	
 1.47	30	,	,	u--------	AuxX	28	
 1.47	38	.	.	u--------	AuxK	0	
 1.48	4	,	,	u--------	AuxX	1	
-1.48	7	τ-	τε	c--------	COORD	9	
-1.48	8	ἀληθῆ	ἀληθής	a-p---na-	OBJ_CO	7	
 1.48	10	.	.	u--------	AuxK	0	
-1.49	1	κ-	καί	d--------	AuxY	9	
-1.49	2	ἀκείνη	ἐκεῖνος	p-s---fn-	SBJ	9	
 1.49	8	,	,	u--------	AuxX	7	
 1.49	15	·	·	u--------	AuxK	0	
 1.50	4	·	·	u--------	AuxK	0	
@@ -175,8 +159,6 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 1.52	40	,	,	u--------	AuxX	39	
 1.52	47	,	,	u--------	AuxX	35	
 1.52	64	·	·	u--------	AuxK	0	
-1.53	2	τ-	τε	d--------	AuxY	8	
-1.53	3	ἆλλα	ἄλλος	a-p---na-	ATR	5	
 1.53	9	.	.	u--------	AuxK	0	
 1.54	6	,	,	u--------	AuxX	7	
 1.54	9	,	,	u--------	AuxX	7	
@@ -206,8 +188,6 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 1.66	7	,	,	u--------	AuxX	6	
 1.66	9	,	,	u--------	AuxX	8	
 1.66	20	.	.	u--------	AuxK	0	
-1.67	1	κ-	καί	d--------	AuxY	20	
-1.67	2	ἀγὼ	ἐγὼ	p-s---mn-	SBJ	20	
 1.67	8	,	,	u--------	AuxX	3	
 1.67	12	,	,	u--------	AuxX	11	
 1.67	19	,	,	u--------	AuxX	13	
@@ -224,11 +204,7 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 1.71	3	,	,	u--------	AuxX	5	
 1.71	6	,	,	u--------	AuxX	5	
 1.71	10	,	,	u--------	AuxX	8	
-1.71	16	τ-	τε	d--------	AuxY	18	
-1.71	17	οὔπισθεν	ὄπισθεν	d--------	ADV	15	
 1.71	30	.	.	u--------	AuxK	0	
-1.72	1	κ-	καί	d--------	AuxY	8	
-1.72	2	ἀκεῖνος	ἐκεῖνος	p-s---mn-	SBJ	8	
 1.72	6	,	,	u--------	AuxX	5	
 1.72	16	.	.	u--------	AuxK	0	
 1.73	9	,	,	u--------	AuxX	8	
@@ -377,12 +353,9 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 1.117	16	,	,	u--------	AuxX	8	
 1.117	23	,	,	u--------	AuxX	28	
 1.117	31	.	.	u--------	AuxK	0	
-1.118	1	καίτοιγε	καίτοι	d--------	AuxY	7	
 1.118	4	,	,	u--------	AuxX	2	
 1.118	16	,	,	u--------	AuxX	17	
 1.118	23	(	(	u--------	AuxG	26	
-1.118	29	κ-	καί	d--------	AuxZ	30	
-1.118	30	ἀκεῖνος	ἐκεῖνος	p-s---mn-	SBJ	31	
 1.118	33	;	;	u--------	AuxK	26	
 1.118	34	)	)	u--------	AuxG	26	
 1.118	35	,	,	u--------	AuxX	22	
@@ -1142,7 +1115,6 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 3.148053	28	,	,	u--------	AuxX	0	
 3.148053	31	.	.	u--------	AuxK	0	
 3.148054	3	,	,	u--------	AuxX	0	
-3.148054	4	διότι	διότι	c--------	AuxC	12	
 3.148054	10	,	,	u--------	AuxX	0	
 3.148054	15	,	,	u--------	AuxX	0	
 3.148054	22	.	.	u--------	AuxK	0	
@@ -2191,8 +2163,6 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 7.148384	22	.	.	u--------	AuxK	0	
 7.148384	23	E			ADV	20	1
 7.148385	11	τοιοῦτον	τοιοῦτος	p-s---na-	OBJ	17	
-7.148385	12	οὔ	οὐ	d--------	AuxZ	14	
-7.148385	13	τε	τε	c--------	AuxY	14	
 7.148385	19	.	.	u--------	AuxK	0	
 7.148386	4	,	,	u--------	AuxX	0	
 7.148386	12	,	,	u--------	AuxX	0	
@@ -2210,8 +2180,6 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 7.148388	8	,	,	u--------	AuxX	0	
 7.148388	20	ἐπιμελεῖσθαι	ἐπιμελέομαι	v--pnm---	OBJ	16	
 7.148388	21	,	,	u--------	AuxX	0	
-7.148388	22	μή	μή	d--------	AuxZ	27	
-7.148388	23	θʼ	τε	c--------	AuxY	30	
 7.148388	36	,	,	u--------	AuxX	0	
 7.148388	57	,	,	u--------	AuxX	0	
 7.148388	64	.	.	u--------	AuxK	0	
@@ -2347,7 +2315,6 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 8.148421	10	(	(	u--------	AuxG	0	
 8.148421	15	)	)	u--------	AuxG	0	
 8.148421	21	,	,	u--------	AuxX	0	
-8.148421	22	ὅτι	ὅτι	c--------	AuxC	20	
 8.148421	26	,	,	u--------	AuxX	0	
 8.148421	27	ὁ	ὁ	l-p---na-	ATR	28	
 8.148421	30	.	.	u--------	AuxK	0	
@@ -2369,8 +2336,6 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 8.148427	6	,	,	u--------	AuxX	0	
 8.148427	12	,	,	u--------	AuxX	0	
 8.148427	14	οὓ	ἕ	p-s---ca-	OBJ	13	
-8.148427	15	οὐ	οὐ	d--------	AuxZ	19	
-8.148427	16	δὲ	δέ	c--------	MWE	15	
 8.148427	20	;	;	u--------	AuxK	0	
 8.148428	13	.	.	u--------	AuxK	0	
 8.148429	8	,	,	u--------	AuxX	0	
@@ -2413,7 +2378,6 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 8.148440	4	,	,	u--------	AuxX	0	
 8.148440	15	,	,	u--------	AuxX	0	
 8.148440	25	.	.	u--------	AuxK	0	
-8.148441	1	καίτοιγε	καίτοι	g--------	AuxY	5	
 8.148441	6	.	.	u--------	AuxK	0	
 8.148442	13	,	,	u--------	AuxX	0	
 8.148442	18	.	.	u--------	AuxK	0	
@@ -3043,8 +3007,6 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 14.11	12	·	·	u--------	AuxK	0	
 14.12	5	,	,	u--------	AuxX	4	
 14.12	10	,	,	u--------	AuxX	11	
-14.12	17	τ-	ὁ	l-s---na-	ATR	18	
-14.12	18	οὐπίσω	ὀπίσω	d--------	ADV	16	
 14.12	21	,	,	u--------	AuxX	13	
 14.12	25	,	,	u--------	AuxX	22	
 14.12	31	.	.	u--------	AuxK	0	
@@ -3057,8 +3019,6 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 14.16	2	,	,	u--------	AuxX	4	
 14.16	6	,	,	u--------	AuxX	4	
 14.16	11	,	,	u--------	AuxX	7	
-14.16	18	τ-	ὁ	l-s---na-	ATR	19	
-14.16	19	οὐπίσω	ὀπίσω	d--------	OBJ	17	
 14.16	21	,	,	u--------	AuxX	20	
 14.16	31	.	.	u--------	AuxK	0	
 14.17	8	.	.	u--------	AuxK	0	
@@ -3139,8 +3099,6 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 14.37	45	,	,	u--------	AuxX	44	
 14.37	52	·	·	u--------	AuxK	0	
 14.37	53	ἐτύγχανον			OBJ_CO	17	1
-14.38	9	τ-	τε	d--------	AuxZ	13	
-14.38	10	ἀρεστὰ	ἀρεστός	a-p---na-	OBJ	13	
 14.38	28	.	.	u--------	AuxK	0	
 14.38	29	ἐφοβεῖσθε			ADV	22	1
 14.39	9	,	,	u--------	AuxX	8	
@@ -3230,8 +3188,6 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 14.60	5	,	,	u--------	AuxX	6	
 14.60	9	.	.	u--------	AuxK	0	
 14.61	10	,	,	u--------	AuxX	16	
-14.61	12	κ-	καί	d--------	AuxZ	13	
-14.61	13	ἀκείνῳ	ἐκεῖνος	p-s---md-	OBJ	16	
 14.61	22	;	;	u--------	AuxK	0	
 14.62	9	.	.	u--------	AuxK	0	
 14.63	12	,	,	u--------	AuxX	8	
@@ -3410,8 +3366,6 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 15.5	38	,	,	u--------	AuxX	22	
 15.5	50	.	.	u--------	AuxK	0	
 15.6	6	,	,	u--------	AuxX	7	
-15.6	17	κ-	καί	c--------	COORD	13	
-15.6	18	ἀν	ἔν	r--------	AuxP	21	
 15.6	22	,	,	u--------	AuxX	23	
 15.6	32	,	,	u--------	AuxX	23	
 15.6	39	.	.	u--------	AuxK	0	
@@ -4740,7 +4694,6 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 23.35	14	.	.	u--------	AuxK	0	
 23.36	5	,	,	u--------	AuxX	0	
 23.36	9	,	,	u--------	AuxX	0	
-23.36	11	ὅτι	ὅστις	p-s---na-	ADV	10	
 23.36	13	.	.	u--------	AuxK	0	
 23.37	3	,	,	u--------	AuxX	0	
 23.37	7	,	,	u--------	AuxX	0	
@@ -4759,8 +4712,6 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 23.45	6	,	,	u--------	AuxX	0	
 23.45	10	·	·	u--------	AuxK	0	
 23.46	4	,	,	u--------	AuxX	0	
-23.46	11	τ-	ὁ	l-p---na-	ATR	12	
-23.46	12	ἀληθῆ	ἀληθής	a-p---na-	OBJ_CO	10	
 23.46	14	,	,	u--------	AuxX	0	
 23.46	20	.	.	u--------	AuxK	0	
 24.149860	6	,	,	u--------	AuxX	0	
@@ -5182,8 +5133,6 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 25.149986	49	,	,	u--------	AuxX	0	
 25.149986	55	ἀφῃρημένους	ἀφαιρέω	v-prpmma-	SBJ_CO	70	
 25.149986	56	,	,	u--------	AuxX	0	
-25.149986	57	οὐ	οὐ	d--------	AuxZ	65	
-25.149986	58	δὲ	δέ	c--------	MWE	57	
 25.149986	69	,	,	u--------	AuxX	0	
 25.149986	78	.	.	u--------	AuxK	0	
 25.149987	5	,	,	u--------	AuxX	0	
@@ -5335,7 +5284,6 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 25.150023	36	,	,	u--------	AuxX	0	
 25.150023	45	,	,	u--------	AuxX	0	
 25.150023	58	,	,	u--------	AuxX	0	
-25.150023	64	ὑποψίαν	ὑποψία	n-s---fa-	ADV	63	
 25.150023	65	καταστήσετεG?	G	z--------	GAP	64	
 25.150023	66	E			UNLINKED	65	1
 26.150024	12	,	,	u--------	AuxX	0	
@@ -6198,8 +6146,6 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 30.150282	36	.	.	u--------	AuxK	0	
 30.150283	4					0	
 30.150283	5					0	
-30.150283	6	οὐ	οὐ	d--------	AuxZ	13	
-30.150283	7	δὲ	δέ	c--------	MWE	6	
 30.150283	16	,	,	u--------	AuxX	0	
 30.150283	20	,	,	u--------	AuxX	0	
 30.150283	30	.	.	u--------	AuxK	0	
@@ -6275,7 +6221,6 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 31.150300	46	E			ADV	36	1
 31.150301	7	,	,	u--------	AuxX	0	
 31.150301	16	.	.	u--------	AuxK	0	
-31.150302	1	καίτοιγε	καίτοι	g--------	AuxY	16	
 31.150302	8	,	,	u--------	AuxX	0	
 31.150302	18	;	;	u--------	AuxK	0	
 31.150303	15	,	,	u--------	AuxX	0	
@@ -6616,8 +6561,6 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 32.150407	10	,	,	u--------	AuxX	0	
 32.150407	16	αἰσχύνῃ	αἰσχύνη	n-s---fd-	OBJ	15	
 32.150407	17	,	,	u--------	AuxX	0	
-32.150407	18	οὔ	οὐ	d--------	AuxZ	22	
-32.150407	19	τε	τε	c--------	AuxY	24	
 32.150407	23	,	,	u--------	AuxX	0	
 32.150407	31	""""	""""	u--------	AuxG	0	
 32.150407	32	.	.	u--------	AuxK	0	
@@ -6806,7 +6749,6 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 33.150453	31	,	,	u--------	AuxX	0	
 33.150453	34	τούτων	οὗτος	p-p---mg-	ATR	35	
 33.150453	37	.	.	u--------	AuxK	0	
-33.150454	5	ἀγανακτήσειεν	ἀγανακτέω	v3saoa---	PRED	0	
 33.150454	15	;	;	u--------	AuxK	0	
 33.150455	9	,	,	u--------	AuxX	0	
 33.150455	18	,	,	u--------	AuxX	0	
@@ -6841,8 +6783,6 @@ sentence	word_id	form	lemma	postag	relation	head	artificial
 34.150461	2	,	,	u--------	AuxX	0	
 34.150461	5	πείθησθε	πείθω	v2ppsm---	ADV	3	
 34.150461	6	,	,	u--------	AuxX	0	
-34.150461	7	οὐ	οὐ	d--------	AuxZ	11	
-34.150461	8	δὲ	δέ	c--------	MWE	7	
 34.150461	17	,	,	u--------	AuxX	0	
 34.150461	24	,	,	u--------	AuxX	0	
 34.150461	30	,	,	u--------	AuxX	0	

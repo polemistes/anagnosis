@@ -101,7 +101,27 @@ the words it was made for.
   row (a verse or more that one of the two texts lacks).
 
 The build makes the table `syntax_text_words` of it, only for a text that has the file. Made by
-the text's merge (`Play.syntax_text` in `drama.py`; the Theogony only so far).
+the text's merge (`Play.syntax_text` in `drama.py`: the Theogony), or for the other texts from
+the text's files as they stand, by `syntax_text.record_from_files` (`python -m anagnosis_pipeline
+syntax-text <slug>`, `--dry` to count only; called at the end of a merge that has it, Lysias's
+so far). That step makes nothing of the text again: it adds `syntax-text.tsv`, the header line of
+grc.txt, and changes only the rows of tokens.tsv and syntax-nodes.tsv of the words concerned (a
+word the trees' text has not gets its sentence; our word that is two tree words gets both ids;
+a word that differs from the trees' word by an iota subscript and wore its analysis gets its
+own, by the analyser or from `OWN_ANALYSES`). Run on its own result it gives the same again. A
+text is entered there (`FROM_FILES`) only when its trees' text has been confirmed from its
+sources; `pipeline/PLAN-syntax-text.md` says how for each text, and which texts have no record
+because their trees were made on the very text printed.
+
+Two more shapes of `unit` come from this step: our word carries one of the two words the trees
+write for it (κἀγὼ, the treebank's "κ-" and "ἀγὼ"): the other stays a node of the tree and is
+no unprinted word; and our word is two tree words in a row that no word of ours had (μήτε, the
+treebank's "-τε" and "μή"): its word id joins both (`25+26`).
+
+`difference` is set by rule and then checked reading by reading by agents
+(`syntax_differences.py`, the job files in `pipeline/transcriptions/syntax-text/`); a checked
+value enters at the next run of the step or the merge, when its job file is finished and
+committed.
 
 ## `syntax-nodes.tsv`
 

@@ -110,6 +110,12 @@ def main(argv: list[str] | None = None) -> int:
     lan = sub.add_parser("lysias-analyses", help="the checking pass over the word analyses of the speeches of Lysias without trees (hude_analyses.py): jobs (write the job files), check FILE..., measure (the control jobs against the hand-made trees)")
     lan.add_argument("step", choices=["jobs", "check", "measure"])
     lan.add_argument("files", nargs="*")
+    stx = sub.add_parser("syntax-text", help="the record of the text the syntax trees were made on (syntax_text.py), made from a text's files as they stand, without running its merge: syntax-text.tsv, and the lines of tokens.tsv and syntax-nodes.tsv it concerns")
+    stx.add_argument("slug")
+    stx.add_argument("--dry", action="store_true", help="count only, write nothing")
+    sdf = sub.add_parser("syntax-differences", help="the checking pass over the kinds of difference between our words and the trees' words (syntax_differences.py): jobs SLUG... (write the job files; 'theogony' writes the control), check FILE..., measure (the control against the Theogony's record)")
+    sdf.add_argument("action", choices=["jobs", "check", "measure"])
+    sdf.add_argument("names", nargs="*")
     cgm = sub.add_parser("check-gillies-marks", help="after the alignment pass on Gillies's translation of Lysias: only the marks added, the marks sections of the Greek and rising; lists each mark beside the Greek")
     cgm.add_argument("speeches", nargs="+", type=int)
     sub.add_parser("fetch-nt", help="download the New Testament sources into pipeline/sources/nt/ (SBLGNT, MACULA, Dodson, BSB)")
@@ -345,6 +351,33 @@ def main(argv: list[str] | None = None) -> int:
             bad = 0
             for f in args.files:
                 problems = hude_analyses.check_job(Path(f))
+                print(f"{f}: {len(problems)} remarks")
+                for p in problems:
+                    print("  " + p)
+                bad += len(problems)
+            return 1 if bad else 0
+    elif args.cmd == "syntax-text":
+        from .syntax_text import run as syntax_text_run
+        got = syntax_text_run(args.slug, TEXTS, SOURCES, not args.dry)
+        for k, v in got.items():
+            if k in ("look", "given their own analysis"):
+                print(f"{k}: {len(v)}")
+                for line in v[:12 if k != "look" else 40]:
+                    print("  " + line)
+            elif k != "rows":
+                print(f"{k}: {v}")
+    elif args.cmd == "syntax-differences":
+        from . import syntax_differences
+        if args.action == "jobs":
+            for line in syntax_differences.make_jobs(TEXTS, args.names):
+                print(line)
+        elif args.action == "measure":
+            for line in syntax_differences.measure(TEXTS):
+                print(line)
+        else:
+            bad = 0
+            for f in args.names:
+                problems = syntax_differences.check_job(Path(f))
                 print(f"{f}: {len(problems)} remarks")
                 for p in problems:
                     print("  " + p)
