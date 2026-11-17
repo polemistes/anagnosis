@@ -35,6 +35,10 @@ class AnagnosisRepository(
      */
     var ownedTexts: Set<String> = emptySet()
 
+    /** The note sets a text's meta `translation_notes` names as notes to the translation (slugs). */
+    private fun translationNoteSlugs(q: no.anagnosis.db.AnagnosisQueries): Set<String> =
+        q.selectMeta("translation_notes").executeAsOneOrNull()?.split(' ')?.filter { it.isNotBlank() }?.toSet() ?: emptySet()
+
     /** The texts this app knows about, installed ones marked. */
     fun catalog(): List<CatalogEntry> {
         val all = catalogEntries()
@@ -66,6 +70,7 @@ class AnagnosisRepository(
             .map { OnSale(it.slug, it.productId, it.version) }
     }
 
+
     /**
      * The texts this build gives without a purchase (the author's own build, [slugs] from its
      * BuildConfig), as far as the catalogue has them with a built database. They carry no sale
@@ -79,7 +84,8 @@ class AnagnosisRepository(
     private fun CatalogEntry.copy(installed: Boolean, offered: Boolean) =
         CatalogEntry(slug, title, author, titleEn, authorEn, description, edition, installed, appId,
             editor, apparatus, translation, commentary, syntax, dictionaries, offered, productId,
-            refEdition, refTranslation, refCommentary, syntaxSource, syntaxLicense, version, release)
+            refEdition, refTranslation, refCommentary, syntaxSource, syntaxLicense, version, release,
+            translationNotes, refTranslationNotes)
 
     private fun parseCatalog(json: String): List<CatalogEntry> {
         // the catalog is a flat JSON array of objects with string values; a small parser suffices
@@ -94,7 +100,8 @@ class AnagnosisRepository(
                 field(o, "editor"), field(o, "apparatus"), field(o, "translation"), field(o, "commentary"),
                 field(o, "syntax"), field(o, "dictionaries"), field(o, "google_play") == "yes", field(o, "product_id"),
                 field(o, "ref_edition"), field(o, "ref_translation"), field(o, "ref_commentary"),
-                field(o, "syntax_source"), field(o, "syntax_license"), field(o, "version"), field(o, "release"))
+                field(o, "syntax_source"), field(o, "syntax_license"), field(o, "version"), field(o, "release"),
+                field(o, "translation_notes"), field(o, "ref_translation_notes"))
         }.filter { it.slug.isNotEmpty() }.toList()
     }
 
@@ -141,6 +148,7 @@ class AnagnosisRepository(
             automaticSyntax = q.selectMeta("syntax").executeAsOneOrNull() == "automatic",
             syntaxByBook = Book.parseSyntaxByBook(q.selectMeta("syntax_by_book").executeAsOneOrNull()),
             commentaryStarts = commentaryStarts,
+            translationNoteIds = commentaries.filter { it.kind() == NoteKind.COMMENTARY && BookContents.isTranslationNotes(it.slug, it.title, declaredTranslationNotes) }.map { it.id }.toSet(),
             dictionaryOrder = q.selectMeta("dictionaries").executeAsOneOrNull()?.split(' ')?.filter { it.isNotBlank() } ?: emptyList(),
             pronunciation = defaultPronunciation(slug, work.author, q.selectMeta("pronunciation").executeAsOneOrNull()),
         )
@@ -218,7 +226,8 @@ class AnagnosisRepository(
         val groups = mutableListOf<NoteGroup>()
         for ((key, group) in notes.groupBy { it.n to (if (mixed) it.commentary_id else 0L) }) {
             val first = group.first()
-            val byWhom = if (mixed) " · ${names[first.commentary_id]}" else ""
+            val byWhom = if (mixed) " · " + NoteLabels.groupName(names[first.commentary_id].orEmpty(),
+                first.commentary_id in data.translationNoteIds, data.onlyTranslationNotes) else ""
             val heading = when {
                 data.verses -> data.range(first.from_n_int, first.to_n_int)
                 data.sectioned && first.to_n_int > first.from_n_int -> "§§ ${key.first.replace("-", "–")}"
@@ -425,8 +434,9 @@ class AnagnosisRepository(
         for (t in q.selectAllTranslations().executeAsList()) {
             out += Credit("Translation", listOfNotNull(t.translator, t.title).joinToString(", "), t.edition ?: t.source, t.license)
         }
+        val declared = translationNoteSlugs(q)
         for (c in q.selectAllCommentaries().executeAsList()) {
-            val kind = if (c.kind() == NoteKind.APPARATUS) "Critical apparatus" else "Commentary"
+            val kind = NoteLabels.creditKind(c.kind() == NoteKind.APPARATUS, BookContents.isTranslationNotes(c.slug, c.title, declared))
             out += Credit(kind, listOfNotNull(c.author, c.title).joinToString(", "), c.source, c.license)
         }
         for (l in q.selectLexicons().executeAsList()) {
@@ -462,9 +472,10 @@ class AnagnosisRepository(
             val units = q.selectSegments(t.id).executeAsList().map { SearchUnit(it.from_n_int, it.from_n_sub, it.text) }
             docs += SearchDoc(slug, SearchSource.TRANSLATION, SearchSource.TRANSLATION.label, units)
         }
+        val declared = translationNoteSlugs(q)
         for (c in q.selectCommentaries(work.work.id).executeAsList()) {
             val units = q.selectAllNotes(c.id).executeAsList().map { SearchUnit(it.from_n_int, "", plainText(it.html), extra = c.id) }
-            docs += SearchDoc(slug, SearchSource.COMMENTARY, c.kind().label, units)
+            docs += SearchDoc(slug, SearchSource.COMMENTARY, NoteLabels.searchLabel(c.kind(), BookContents.isTranslationNotes(c.slug, c.title, declared)), units)
         }
         TextCorpus(slug, work, docs)
     }

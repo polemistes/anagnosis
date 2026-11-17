@@ -174,6 +174,8 @@ fun PageNotesSheet(
     kind: NoteKind,
     entries: List<NoteGroup>,
     sigla: Documents?,
+    /** The sheet's heading: the kind's name, or "Notes to the translation" where those are a text's only notes. */
+    heading: String = kind.label,
     onDismiss: () -> Unit,
     /** The line whose note the sheet scrolls to when it opens (a hit of the search), or null. */
     focusN: Long? = null,
@@ -187,7 +189,7 @@ fun PageNotesSheet(
         SheetText {
             Column(Modifier.fillMaxWidth().verticalScroll(scroll).padding(horizontal = 20.dp, vertical = 8.dp)) {
                 Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
-                    Text(kind.label, style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary, modifier = Modifier.weight(1f))
+                    Text(heading, style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary, modifier = Modifier.weight(1f))
                     if (sigla != null) {
                         // named by its document: "Manuscripts and sigla" gives Manuscripts, "Editions cited ..." Editions
                         TextButton(onClick = { showSigla = true }) { Text(sigla.title.substringBefore(' ')) }

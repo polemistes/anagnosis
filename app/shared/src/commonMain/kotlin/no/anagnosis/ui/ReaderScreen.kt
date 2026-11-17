@@ -787,6 +787,8 @@ fun ReaderScreen(
                 bookmarkedPages = bookmarkedPages,
                 noteKinds = data.commentaries.map { it.kind() }.distinct(),
                 onNotes = { pageNotesKind = it },
+                noteLabel = data::noteLabel,
+                noteShortLabel = data::noteShortLabel,
                 hasMyNotes = notes.isNotEmpty(),
                 onMyNotes = { showMyPageNotes = true },
                 hasBookmarks = bookmarks.isNotEmpty(),
@@ -1053,7 +1055,7 @@ fun ReaderScreen(
     }
     pageNotesKind?.let { kind ->
         val sigla = remember(kind) { if (kind == NoteKind.APPARATUS) repository.document(data, "sigla") else null }
-        PageNotesSheet(kind, pageNotes, sigla, onDismiss = { pageNotesKind = null }, focusN = highlight?.takeIf { it.noteKind == kind }?.nInt)
+        PageNotesSheet(kind, pageNotes, sigla, heading = data.noteSheetHeading(kind), onDismiss = { pageNotesKind = null }, focusN = highlight?.takeIf { it.noteKind == kind }?.nInt)
     }
     val noteLabel: (no.anagnosis.data.Note) -> String = { Notes.rangeLabel(data, it.from, it.to) }
     if (showMyPageNotes) {
@@ -1744,6 +1746,9 @@ private fun ProgressScrubber(
     bookmarkedPages: Set<Int>,
     noteKinds: List<NoteKind>,
     onNotes: (NoteKind) -> Unit,
+    /** How the text names a kind of notes, in full and short ("Commentary", "Comm."; "Translation notes", "Tr. notes"). */
+    noteLabel: (NoteKind) -> String = { it.label },
+    noteShortLabel: (NoteKind) -> String = { it.short },
     /** Whether the text has any of the reader's own notes, which then get a button of their own. */
     hasMyNotes: Boolean,
     onMyNotes: () -> Unit,
@@ -1769,7 +1774,7 @@ private fun ProgressScrubber(
             val buttonStyle = MaterialTheme.typography.labelLarge
             val page = pages.getOrNull(currentPage)
             val span = if (page != null && count > 0) span(page.firstN, page.lastN) else null
-            val labels = noteKinds.map { it.label } + listOfNotNull("Notes".takeIf { hasMyNotes }, "Bookmarks".takeIf { hasBookmarks })
+            val labels = noteKinds.map(noteLabel) + listOfNotNull("Notes".takeIf { hasMyNotes }, "Bookmarks".takeIf { hasBookmarks })
             val buttonsWidth = remember(labels, buttonStyle, density) {
                 with(density) { labels.sumOf { maxOf(measurer.measure(it, buttonStyle).size.width + 24.dp.roundToPx(), ButtonDefaults.MinWidth.roundToPx()) } }
             }
@@ -1794,7 +1799,7 @@ private fun ProgressScrubber(
                     Spacer(Modifier.weight(1f))
                 }
                 for (kind in noteKinds) {
-                    BarButton(kind.label, short, tight, kind.short) { onNotes(kind) }
+                    BarButton(noteLabel(kind), short, tight, noteShortLabel(kind)) { onNotes(kind) }
                 }
                 if (hasMyNotes) {
                     BarButton("Notes", short, tight, onClick = onMyNotes)

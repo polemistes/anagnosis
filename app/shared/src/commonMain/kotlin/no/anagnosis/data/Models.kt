@@ -45,6 +45,9 @@ class CatalogEntry(
     val version: String = "",
     /** The day from which the text is offered (YYYY-MM-DD), or empty: see [ReleaseGate]. */
     val release: String = "",
+    /** Notes to the translation (a translator's notes, not a commentary on the Greek), for the shop; and their book. */
+    val translationNotes: String = "",
+    val refTranslationNotes: String = "",
 )
 
 /** Everything needed to display one work, loaded once. */
@@ -81,6 +84,8 @@ class WorkData(
     val syntaxByBook: Map<Int, String> = emptyMap(),
     /** Where the notes on the Greek begin (not the apparatus, not a translator's notes), for the chooser's marks. */
     val commentaryStarts: List<Long> = emptyList(),
+    /** The note sets that are notes to the translation, not a commentary on the Greek (meta `translation_notes`), by id. */
+    val translationNoteIds: Set<Long> = emptySet(),
     /** The dictionaries the word sheet offers first, most fitting first (abbott-smith dodson ml lsj). */
     val dictionaryOrder: List<String> = emptyList(),
     /** The pronunciation the text is read in unless the reader chooses another. */
@@ -94,6 +99,15 @@ class WorkData(
         if (!byBook) null
         else BookContents.of(books.map { it.number }, ::bookOf, translations.flatMap { t -> t.segments.filter { it.kind != "stage" }.map { it.from_n_int } }, commentaryStarts)
     }
+
+    /** Whether every note set of the commentary kind is notes to the translation (the Shepherd of Hermas). */
+    val onlyTranslationNotes: Boolean
+        get() = commentaries.filter { it.kind() == NoteKind.COMMENTARY }.let { cs -> cs.isNotEmpty() && cs.all { it.id in translationNoteIds } }
+
+    /** How the reader names a kind of notes in this text: [NoteLabels]. */
+    fun noteLabel(kind: NoteKind): String = NoteLabels.label(kind, onlyTranslationNotes)
+    fun noteShortLabel(kind: NoteKind): String = NoteLabels.short(kind, onlyTranslationNotes)
+    fun noteSheetHeading(kind: NoteKind): String = NoteLabels.heading(kind, onlyTranslationNotes)
 
     /** A line's place in [lines], by line id. */
     val lineIndex: Map<Long, Int> by lazy { lines.withIndex().associate { (i, l) -> l.id to i } }

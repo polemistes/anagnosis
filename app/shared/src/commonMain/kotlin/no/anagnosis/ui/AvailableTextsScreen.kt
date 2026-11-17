@@ -87,6 +87,7 @@ fun AvailableTextsScreen(
                         Detail("Critical apparatus", entry.apparatus)
                         Detail("Translation", entry.translation)
                         Detail("Commentary", entry.commentary)
+                        Detail("Notes to the translation", entry.translationNotes)
                         Detail("Syntax", entry.syntax)
                         Detail("Extra dictionaries", entry.dictionaries)
                         Spacer(Modifier.height(8.dp))

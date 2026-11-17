@@ -291,7 +291,8 @@ private fun TextCard(
  * book share one line ("Edition and translation", "Edition, translation and commentary").
  */
 internal fun references(entry: CatalogEntry): List<Pair<String, String>> {
-    val parts = listOf("edition" to entry.refEdition, "translation" to entry.refTranslation, "commentary" to entry.refCommentary)
+    val parts = listOf("edition" to entry.refEdition, "translation" to entry.refTranslation, "commentary" to entry.refCommentary,
+        "notes to the translation" to entry.refTranslationNotes)
         .filter { it.second.isNotBlank() }
     return parts.groupBy({ it.second }, { it.first }).map { (reference, names) ->
         val label = if (names.size == 1) names[0] else names.dropLast(1).joinToString(", ") + " and " + names.last()

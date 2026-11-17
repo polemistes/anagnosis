@@ -99,7 +99,8 @@ fun App(
     fun openHit(hit: SearchHit, from: Screen) {
         target = SearchTarget(
             hit.slug, hit.source, hit.nInt, hit.nSub, hit.start, hit.end,
-            noteKind = if (hit.source == SearchSource.COMMENTARY) NoteKind.entries.firstOrNull { it.label == hit.label } else null,
+            // a hit in notes to the translation opens the commentary-kind sheet
+            noteKind = if (hit.source == SearchSource.COMMENTARY) (NoteKind.entries.firstOrNull { it.label == hit.label } ?: NoteKind.COMMENTARY) else null,
             noteId = if (hit.source == SearchSource.NOTES) hit.extra else null,
         )
         expanded = hit.slug
