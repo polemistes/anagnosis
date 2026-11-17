@@ -930,7 +930,7 @@ Eryximachus analyses Music into Theory (αὐτὴ ἡ σύστασις) and Pra
 **πάχναι...καὶ ἐρυσῖβαι**. Timaeus defines thus: ἐρυσίβη μιλτώδης δρόσος· πάχνη δὲ δρόσος χιονώδης. Roman religion had a goddess *Robigo.* Ruhnken (*ad Tim.* p. 122) cites *Orph. de lap.* 15, v. 91 καὶ αἰθερίην ἐρυσίβην, | ἥτε κατουρανόθεν πταμένη ποτὶ καρπὸν ἐρυθρή, | ἀμφὶ περὶ σταχύεσσι περισμύχουσα κάθηται.
 
 ## 188b4
-**τῶν τοιούτων γίγνεται** κτλ. There are two difficulties in this passage: (1) the singular verb after the plural subjects is harsh; to explain it we must assume a mental unification of the subjects, of which similar but easier instances occur in *Rep.* 363 A, 618 D, *Laws* 925 E. We might evade this difficulty by removing the colon at φυτοῖς, marking καὶ γὰρ...ἐρυσῖβαι as parenthetic, and thus construing ἄλλα...νοσήματα as the direct subject of γίγνεται. (2) We should naturally expect τοιούτων to have the same reference here as τῶν τοιούτων has above (*viz.* to the combinations of elements in which the bad Eros predominates), whereas it seemingly stands in agreement with <*>οωτικῶν: this being so, what does ἐρωτικῶν precisely mean? For it cannot well retain, in this connexion, its proper meaning as genitive of τὰ ἐρωτικά “the laws of affinity” (186 C, [187 C](#187c1)). Ought we, then, to put a stop after γίγνεται and begin a new sentence with ἐρωτικῶν οὖν ἐπιστήμη κτλ.?
+**τῶν τοιούτων γίγνεται** κτλ. There are two difficulties in this passage: (1) the singular verb after the plural subjects is harsh; to explain it we must assume a mental unification of the subjects, of which similar but easier instances occur in *Rep.* 363 A, 618 D, *Laws* 925 E. We might evade this difficulty by removing the colon at φυτοῖς, marking καὶ γὰρ...ἐρυσῖβαι as parenthetic, and thus construing ἄλλα...νοσήματα as the direct subject of γίγνεται. (2) We should naturally expect τοιούτων to have the same reference here as τῶν τοιούτων has above (*viz.* to the combinations of elements in which the bad Eros predominates), whereas it seemingly stands in agreement with ἐρωτικῶν: this being so, what does ἐρωτικῶν precisely mean? For it cannot well retain, in this connexion, its proper meaning as genitive of τὰ ἐρωτικά “the laws of affinity” (186 C, [187 C](#187c1)). Ought we, then, to put a stop after γίγνεται and begin a new sentence with ἐρωτικῶν οὖν ἐπιστήμη κτλ.?
 
 ## 188b6
 **ἀστρονομία**. The term as here used includes what we should rather call “meteorology”: cp. *Rep.* 527 D τρίτον θῶμεν ἀστρονομίαν;...τὸ γὰρ περὶ ὥρας εὐαισθητοτέρως ἔχειν καὶ μηνῶν καὶ ἐνιαυτῶν...ναυτιλίᾳ προσήκει. For “astronomy” as a regular part of the school curriculum see *n.* on παιδεία 187 D, and cp. *Theaet.* 145 C, D; *Protag.* 318 E.
@@ -1130,7 +1130,7 @@ The clause ἢ ὥσπερ...ταῖς θριξίν is condemned by most edd. It
 **γυναικὸς τμῆμα**, i.e. a section of the γυνὴ ὅλη (“Doppelweib”) of [191 B](#191b1). Similarly below ἄρρενος τμῆμα refers to the ἀνὴρ ὅλος (“Doppelmann”). With the theory of sex-characters here expounded, cp. Hippocr. *de diaet.* I. 28 ff.
 
 ## 191e5
-**αἱ ἑταιρίστριαι**. Timaeus ἑταιρίστριαι· αἱ καλούμεναι τριβάδες. Cp. Clem. Alex. *Paed.* III. 21, p. 264 P. γυναῖκες ἀνδρίζονται παρὰ φύσιν γαμο<*>μεναί τε καὶ γαμοῦσαι γυναῖκες: and Ep. *Rom.* i. 26.
+**αἱ ἑταιρίστριαι**. Timaeus ἑταιρίστριαι· αἱ καλούμεναι τριβάδες. Cp. Clem. Alex. *Paed.* III. 21, p. 264 P. γυναῖκες ἀνδρίζονται παρὰ φύσιν γαμούμεναί τε καὶ γαμοῦσαι γυναῖκες: and Ep. *Rom.* i. 26.
 
 ## 191e6-191e7
 **τέως ἂν**. “I.q. ἕως ἄν, *quamdiu*” (Ast). As this use is unique in Plato, Ast proposed to write ἕως ἄν. In [191 B](#191b1) τέως has its usual force. *adhuc.*
@@ -1733,7 +1733,7 @@ The clause ἢ ὥσπερ...ταῖς θριξίν is condemned by most edd. It
 ## 202a5
 **Τὸ ὀρθὰ δοξάζειν** κτλ. This distinction between δόξα and ἐπιστήμη is much insisted on by Plato; see esp. *Rep.* 477 ff.; *Meno* 99 A: cp. Isocr. *Hel.* 209 A. For τὸ ἔχειν λόγον δοῦναι as the distinctive mark of ἐπιστήμη, cp. *Meno* 98 A; but this definition is criticised unfavourably in *Theaet.* 201 C ff. (see Zeller, *Plato*, pp. 171 ff.). I bracket καὶ before ἄνευ: if retained, we must render with Rückert (and Hug) “*auch* ohne Rechenschaft geben zu können.” For this “intensive” use of καί, see Thompson on *Meno* 71 B. Rettig defends the Bodleian ὀρθοδοξάζειν thus “ὀρθὰ δοξάζειν ginge auf Einzelnes und Thatsächliches, nicht auf den Begriff als solchen und die geistige Eigenschaft”: but this distinction is imaginary, and there is no other evidence, in Plato or elsewhere, for the existence of this compound, Aristotle's word (*E. N.* VII. 8. 4) being ὀρθοδοξέω. Possibly we should write καὶ <ὄντα> ἄ., cp. *Rep.* 413 A.
 
-*μεταξὺ φρον<*>σεως* κτλ. Cp. *Rep.* 477 A μεταξύ τι...ἀγνοίας τε καὶ ἐπιστήμης: ib. 478 D.
+*μεταξὺ φρονήσεως* κτλ. Cp. *Rep.* 477 A μεταξύ τι...ἀγνοίας τε καὶ ἐπιστήμης: ib. 478 D.
 
 ## 202b1
 **Μὴ τοίνυν ἀνάγκαζε**. “I. q. μὴ ἀναγκαῖον νόμιζε, v. Heindorf ad Euthyd. (sic) p. 432 C” (Stallb.). For this use to denote logical compulsion, cp. also *Crat.* 432 E μὴ ἀνάγκαζε πάντ' ἔχειν τὰ γράμματα...ἀλλ' ἔα κτλ.: *Parmen.* 133 C.

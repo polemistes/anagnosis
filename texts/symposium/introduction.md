@@ -581,7 +581,7 @@ It will be noticed that in this list the passages which find responsions in the 
 
 212 A τίκτειν οὐκ εἴδωλα ἀρετῆς...ἀλλ' ἀληθῆ.
 
-209 B εὐπορεῖ λόγων περὶ ἀρετῆς καὶ οἶον χρὴ ε<*>ναι τὸν ἄνδρα τὸν ἀγαθόν (cp. [185 B](#185b1) πολλὴν ἐπεμέλειαν...πρὸς ἀρετήν).
+209 B εὐπορεῖ λόγων περὶ ἀρετῆς καὶ οἷον χρὴ εἶναι τὸν ἄνδρα τὸν ἀγαθόν (cp. [185 B](#185b1) πολλὴν ἐπεμέλειαν...πρὸς ἀρετήν).
 
 210 D καλοὺς λόγους...τίκτῃ...ἐν φιλοσοφίᾳ ἀφθόνῳ.
 
@@ -683,7 +683,7 @@ It will be seen that the available evidence is not sufficient to justify us in d
 
 (1) *Ancient authorities.* The chief manuscripts which contain the text of the *Symposium* are:—
 
-B=codex Bodleianus (or Clarkianus or Oxoniensis); Bekker's <\*>
+B=codex Bodleianus (or Clarkianus or Oxoniensis); Bekker's 𝔄.
 
 T=codex Venetus append. class. 4, cod. 1: Bekker's t (“omnium librorum secundae familiae fons” Schanz).
 

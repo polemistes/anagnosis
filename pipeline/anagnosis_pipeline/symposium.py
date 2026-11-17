@@ -282,6 +282,21 @@ def _locate(lemma: str, words: list[tuple[str, str]], start_hint: int = 0) -> tu
     return None
 
 
+# Perseus's file of Bury where it is not what the page prints: (the text as imported, the page's).
+# Its "<*>" (imported as "[?]") marks what its keyers could not read; each was read on the scan
+# cu31924073426151 (its OCR text; the page itself for Bekker's siglum, a black-letter A).
+BURY_FIXES: list[tuple[str, str]] = [
+    ("agreement with [?]οωτικῶν:", "agreement with ἐρωτικῶν:"),   # on 188 b; the page's first ἐρωτικῶν is broken type
+    ("γαμο[?]μεναί", "γαμούμεναί"),                                # on 191 e, Clement quoted
+    ("φρον[?]σεως", "φρονήσεως"),                                  # on 202 a
+]
+BURY_INTRODUCTION_FIXES: list[tuple[str, str]] = [
+    ("καὶ οἶον χρὴ ε[?]ναι", "καὶ οἷον χρὴ εἶναι"),               # § vi, 209 B quoted
+    ("Bekker's [?]", "Bekker's 𝔄."),                               # § on the text: the siglum of the Bodleianus
+    ("*Dio* tima", "*Dio*tima"),                                   # one word, its first half in italics
+]
+
+
 def import_bury(source: Path, lines: list[tuple[str, str]], out: Path) -> tuple[int, int]:
     """Bury's commentary, each note under the line its lemma is on (the first line of its
     section where the lemma is not found). Returns (notes, notes not located)."""
@@ -345,7 +360,9 @@ def import_bury(source: Path, lines: list[tuple[str, str]], out: Path) -> tuple[
         md.append(f"## {heading}")
         md.append("\n\n".join(body))
         md.append("")
-    out.write_text("\n".join(md) + "\n", encoding="utf-8")
+    from .commentary import apply_fixes
+
+    out.write_text(apply_fixes("\n".join(md) + "\n", BURY_FIXES, out.name), encoding="utf-8")
     return len(merged), lost
 
 
@@ -382,5 +399,7 @@ def import_bury_introduction(source: Path, out: Path) -> int:
                 walk(child, level)
 
     walk(intro.find("body") if intro.find("body") is not None else intro, 2)
-    out.write_text("\n".join(md).rstrip() + "\n", encoding="utf-8")
+    from .commentary import apply_fixes
+
+    out.write_text(apply_fixes("\n".join(md).rstrip() + "\n", BURY_INTRODUCTION_FIXES, out.name), encoding="utf-8")
     return count

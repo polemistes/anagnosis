@@ -148,7 +148,7 @@
 ἐφεστήκῃ T: ἀφεστήκη W: ἐφεστήκει B
 
 ## 175c4
-ἓ δὲ B: ἑ δε W: ***δὲ T (τὸν δὲ fuisse videtur): αὐτὸν δὲ vulg.: ἳ δὲ ci. Bekker
+ἓ δὲ B: ἑ δε W: \*\*\*δὲ T (τὸν δὲ fuisse videtur): αὐτὸν δὲ vulg.: ἳ δὲ ci. Bekker
 
 οὐκ ἐᾶν B W: οὐκαν T
 
@@ -545,7 +545,7 @@ ante μετὰ add. φησὶ B T W: ⟨ὅς⟩ φησι Schanz: post σύμφ�
 τὸν ἰατρὸν T W: τῶν ἰατρῶν B
 
 ## 185d6
-π**ν χρόνον ἀπνευστὶ ἔχοντι W
+π\*\*ν χρόνον ἀπνευστὶ ἔχοντι W
 
 ## 185e2
 κινήσαις B T W Stobaeus et legit Athenaeus: κνήσαις Wyttenbach
@@ -1306,7 +1306,7 @@ post εὖ dist. Vahlen
 οὖν B T Oxy.: om. W
 
 ## 206a11
-τοῦ τὸ W: τοῦ τὸ* T: τοῦτο B
+τοῦ τὸ W: τοῦ τὸ\* T: τοῦτο B
 
 αὑτῷ T W Oxy.: αὐτὸ B
 
@@ -1627,7 +1627,7 @@ post εὖ dist. Vahlen
 ὁ B: οὐ T W
 
 ## 213d2
-οὑτοσὶ B W (sed ω supra ο) Oxy.: οὑτοσὶ *** T (οὑτοσί πως Coisl.)
+οὑτοσὶ B W (sed ω supra ο) Oxy.: οὑτοσὶ \*\*\* T (οὑτοσί πως Coisl.)
 
 ## 213d3
 θαυμαστὰ B Oxy.: θαυμάσια T W
