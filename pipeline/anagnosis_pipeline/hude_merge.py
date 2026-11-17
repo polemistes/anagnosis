@@ -752,7 +752,7 @@ def write_translation(slug: str, sources: Path, out: Path, units: list[dict], pr
             if f"{speech}.{n}" not in have:
                 problems.append(f"translation 1898: section {speech}.{n} is not in the Greek")
                 continue
-            rows.append(f"{speech}.{n}\t{text}")
+            rows.append(f"{speech}.{n}\t{plain(text)}")
     meta = {"title": play.title_en, "translator": "Anonymous (1898)", "lang": "eng",
             "source": "The Orations of Lysias, literally translated, Handy Literal Translations, New York, 1898 (speeches "
                       + ", ".join(str(x) for x in TRANSLATED_1898) + "); from the Project Gutenberg text, ebook 6969",
@@ -760,6 +760,16 @@ def write_translation(slug: str, sources: Path, out: Path, units: list[dict], pr
     (out / "eng-1898.txt").write_text("\n".join(_meta_lines(meta) + [""] + rows) + "\n", encoding="utf-8")
     print(f"wrote eng-1898.txt: {len(rows)} segments of {len(by_speech)} speeches")
     return len(rows)
+
+
+# The translations are shown as plain text (no other text's translation has markup): italics
+# marks are taken out, and so are the raised letters of Gillies's footnotes, which are not shipped
+_ITALICS = re.compile(r"\*([^*\n]+)\*")
+_FOOTNOTE_LETTER = re.compile(r"(?<=\S)[ᵃᵇᶜᵈᵉᶠᵍʰⁱʲᵏˡᵐⁿᵒᵖ]")
+
+
+def plain(text: str) -> str:
+    return _ITALICS.sub(r"\1", text)
 
 
 GILLIES_MARK = re.compile(r"(?:^|(?<=\s))§(\d+)\s+")
@@ -826,7 +836,7 @@ def write_gillies(slug: str, out: Path, units: list[dict], problems: list[str], 
         for n, text in segs:
             if f"{speech}.{n}" not in have:
                 problems.append(f"Gillies: section {speech}.{n} is not in the Greek")
-            rows.append(f"{speech}.{n}\t" + english_stops(" ".join(text.split())))
+            rows.append(f"{speech}.{n}\t" + plain(_FOOTNOTE_LETTER.sub("", english_stops(" ".join(text.split())))))
         done.append(speech)
     if rows:
         meta = {"title": PLAYS[slug].title_en, "translator": "John Gillies (1778)", "lang": "eng",
@@ -958,13 +968,17 @@ def merge(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path | No
             if title and _letters(name) != _letters(title):
                 problems.append(f"speech {b}: the name “{name}” has other letters than Hude's title “{title}”")
             doc.items.append(Section(1, "book", f"{b} · {name}"))
+        # a heading inside a speech (ΜΑΡΤΥΡΕΣ. ΝΟΜΟΣ.) is a section of the second level without a
+        # number: the reader shows a section's label on a line of its own before the section's
+        # first line, as it shows a play's strophes. A heading after a speech's last line has no
+        # line to stand before: its kind is heading-after, and the build ties it to the line before
         for heading in u["before"]:
-            doc.items.append(Stage(heading))
+            doc.items.append(Section(2, "heading", heading))
         if u["para"]:
             doc.items.append(Speaker(""))
         doc.items.append(Line(u["n"], " ".join(w for w, _k in u["words"])))
         for heading in u.get("after", []):
-            doc.items.append(Stage(heading))
+            doc.items.append(Section(2, "heading-after", heading))
     write_file(out / "grc.txt", doc)
     print(f"wrote {out / 'grc.txt'}: {len(units)} lines ({len(have)} sections of {len(want)}), "
           f"{len(text['titles'])} speeches, {sum(1 for u in units if u['para'])} paragraphs, from {len(pages)} pages")

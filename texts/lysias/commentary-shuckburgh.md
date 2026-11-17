@@ -1328,7 +1328,7 @@ The point of this passage (of which the text is in great confusion) seems to be 
 
 **ἐνέπληντο**. Veitch objects to this word on the ground that it is not a prose form. Prose writers, he argues, used ἐνεπλήσθη, -θησαν. On the other hand, Cobet and others support ἐνέπληντο by Arist. Vespæ. 911, 1304. See also Rutherford, *New Phrynichus*, p. 63, who supports Cobet’s emendation ἐνέπληντο for ἐνεπέπληντο. Aristoph. l. c. εὐθὺς γὰρ ὡς ἐνέπληντο πολλῶν κἀγαθῶν ‘as soon as they were gorged.’
 
-**ἀπέλαυσαν** ‘enjoyed a taste of,’ with an idea of dishonesty. [Rt. λαF, λά-ω, ἀπο-λαύ-ω, λε-ία, λη-ΐ-(δ)-ς, λη-ΐ-ζ-ο-μαι. Lat. *lû-cru-m*, Lav-er-na (goddess of thieves). Curtius, 365.] **ἀλλοτρίους** ‘aliens,’ as though they no longer owed any allegiance to the State.
+**ἀπέλαυσαν** ‘enjoyed a taste of,’ with an idea of dishonesty. [Rt. λαϝ, λά-ω, ἀπο-λαύ-ω, λε-ία, λη-ΐ-(δ)-ς, λη-ΐ-ζ-ο-μαι. Lat. *lû-cru-m*, Lav-er-na (goddess of thieves). Curtius, 365.] **ἀλλοτρίους** ‘aliens,’ as though they no longer owed any allegiance to the State.
 
 ## 28.7
 **χωρία** ‘fortified places.’ Thucyd. 1, 12, 5. **ὀλιγαρχίαν καθιστάναι** we have seen (note on l. 23) that as a matter of fact Thrasybulus put down the Oligarchy in Byzantium.

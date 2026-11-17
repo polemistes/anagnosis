@@ -625,7 +625,8 @@ below), and about.md says in one line that their word analyses are automatic; Gi
 inside his paragraphs where the place can be told, at the paragraph's head otherwise**; the two
 words cut by a supplement **stay two tappable halves**; the catalogue entry is fine, nothing is
 released before the commentaries and Gillies are in. **Still open: the glossary** (whether
-every party to a speech should have an entry; no more entries for now).
+every party to a speech should have an entry; no more entries for now). **New (2026-11-17): Gillies's thirteen
+footnotes** are not shipped; they could be a small commentary of their own (Decisions).
 
 **The questions as they were put:**
 
@@ -789,7 +790,7 @@ Nothing here blocks the text batches. In the order in which an answer is needed:
 - [x] Step 8: translations (2026-11-16): `eng-1898.txt`: 699 segments of 20 speeches, every one under a section of Hude's text; `eng-gillies.txt`: Gillies's six speeches (1, 3, 4, 21, 26, 34), transcribed and read a second time (91798f7), laid beside the Greek by the alignment pass (57a1545; `check-gillies-marks`: 0 remarks; 157 marks for 178 sections: 43 of 50, 44 of 48, 17 of 20, 19 of 25, 23 of 24, 11 of 11), merged as 157 segments; looked at beside the Greek at the start and end of speeches, at a marked section and at one that runs on under the mark before
 - [x] Step 9: commentaries and introductions (2026-11-16): 21 entries, 493 pages, 74 batches, checked and read a second time by the main session's agents (a412f1e, 62bce24, 364f4a2, a38cf55); merged: `commentary-adams.md` (308 notes, 1,616 paragraphs), `commentary-morgan.md` (90 notes, 432 paragraphs), `commentary-shuckburgh.md` (573 notes, 631 paragraphs under 253 sections), `introduction.md` (Adams's general introduction and a chapter for each of the nineteen speeches), `appendix.md` (Adams's Appendix I–V); the notes log settled (Decisions)
 - [x] Step 10: sigla, glossary, about (2026-11-16): `sigla.md` and `about.md` (`transcriptions/lysias/static/`, copied by the merge); the book names in lower-case Greek with numbers (`hude_merge.SPEECH_NAMES`); `glossary.md` (188 names), `shortdefs.tsv` (21 ordinary words, 185 names, one line for δῆμος), `aliases.tsv` (13), written by hand in `texts/lysias/` (the merge does not touch them); `check`: 2,801 lemmas, none missing from the dictionaries and the glossary, none without a short definition; the texts/README.md section
-- [ ] Step 11: build and emulator check: the final merge and build on 2026-11-16 with everything in (1,116 sections in 34 speeches, 56,484 words, 6,923 syntax nodes, 4,091 apparatus items under 1,061 sections, Adams 308 notes, Morgan 90, Shuckburgh 253, the 1898 translation 699 segments, Gillies 157, the introduction, the appendix, the sigla, 188 glossary entries; `data/lysias.sqlite` 9.6 MB, version 5897863ec0a34c22, the same in the catalogue); `catalog` (no `google_play`), `check` (0 errors; no warning in Lysias), the tests; the reader's change made (757b603) with the asset pack. Still to do: the emulator check (the main session)
+- [ ] Step 11: build and emulator check: the final merge and build on 2026-11-16 with everything in (1,116 sections in 34 speeches, 56,484 words, 6,923 syntax nodes, 4,091 apparatus items under 1,061 sections, Adams 308 notes, Morgan 90, Shuckburgh 253, the 1898 translation 699 segments, Gillies 157, the introduction, the appendix, the sigla, 188 glossary entries; `data/lysias.sqlite` 9.6 MB, version bd16a48438392b06 after the emulator check's four points (2026-11-17), the same in the catalogue); `catalog` (no `google_play`), `check` (0 errors; no warning in Lysias), the tests; the reader's change made (757b603) with the asset pack. Still to do: the emulator check (the main session)
 
 ## Decisions
 
@@ -1109,6 +1110,56 @@ Nothing here blocks the text batches. In the order in which an answer is needed:
   would not offer them). Three short definitions added (πρῶτον, φίλτατος, ὕστατος) and one made
   to fit (προσδέω, "need besides"). `check`: 2,799 lemmas, none missing, none without a short
   definition. The merge uses a job file only when it is committed and unchanged.
+
+* **2026-11-17, after the emulator check** (record `pipeline/build/logs/lysias-app.md`): four
+  faults in the data and one question.
+  * **The headings inside a speech were not in the database.** The build drops `!` lines (stage
+    directions) from the Greek for every text; nothing shows them. What the reader does show on
+    a line of its own is a section's label before the section's first line (a play's strophes,
+    the Shepherd's chapters). So the 68 headings that stand before a line are now sections of
+    the second level, `=== heading ΜΑΡΤΥΡΕΣ.` (kind `heading`, the label Hude's words): no
+    change to the build, and the reader shows them as they are. One heading stands after a
+    speech's last line (ΝΟΜΟΙ. ΟΡΚΟΙ. ΓΡΑΦΗ. after 14.47) and has no line to stand before:
+    `=== heading-after …`; `build.py` ties a section of that kind to the line before it
+    (`first_line_id` = that line) and opens nothing with it. **For the reader** (not made here):
+    (1) a section of kind `heading-after` belongs after its line, not before it (`buildRows` in
+    ReaderScreen.kt puts every section of `sectionsByFirstLine` before the line; until that is
+    changed the one heading shows above 14.47 instead of under it); (2) `sectionLabel` shows a
+    label that does not begin with a letter as "Heading ⟨ΜΑΡΤΥΡΕΣ.⟩": for the kinds `heading`
+    and `heading-after` the label alone is wanted (four headings begin with Hude's angle
+    bracket). No other text has these kinds. Verified: theogony and clouds built with the
+    committed build.py and with the changed one are identical byte for byte; the databases of
+    all other texts and the lexicon have the checksums they had before.
+  * **Found on the way: seven databases under data/ are older than their sources.** A full
+    `build`, run once to compare, gave other databases for agamemnon, choephoroi, clouds,
+    eumenides, gorgias, newtestament and theogony than those on disk, with the committed
+    build.py as with mine (their texts or the pipeline changed after their last build). They
+    were put back from the asset packs' copies, which are the same files as before (checksums
+    compared), and the catalogue keeps their versions. Whether and when they are rebuilt is the
+    main session's call.
+  * **sigla.md**: the five lines on the hands of X were a list; they are paragraphs.
+  * **Gillies's footnotes are not shipped.** He has thirteen (a ward of Attica, concubinage,
+    the oaths of the parties, Athenian money, the trierarchy, Cinesias, the crown of office …),
+    transcribed in his batch files. No translation in the app carries notes (Harmon's are left
+    out too) and a translation segment has no place for one, so the raised letters are taken
+    out at the merge. They could ship as a small commentary of their own, as Lake's footnotes
+    to his translation of the Shepherd do: For the author.
+  * **The translations are plain text.** The reader shows a translation's words as they stand,
+    and no other text's translation has markup; the italics marks of Gillies (16 segments) and
+    of the 1898 version (22: the translator's supplied words, which also stand in brackets)
+    would have shown as asterisks. Taken out at the merge (`hude_merge.plain`); the batch files
+    and the Gutenberg text keep them.
+  * **A digamma printed as F**: Shuckburgh's note on 28.6 (his l. 44) prints the root "λαF"
+    with the printer's sort for the digamma; written λαϝ in `lysias-28/notes-01.md` with a
+    note. All the Lysias prose searched for a Latin letter inside or beside a Greek word: no
+    other.
+  * **13.65–68, confirmed.** Hude prints the passage Τἆλλα τοίνυν … κάλει first (leaf 143 line
+    28 to leaf 144 line 11) with 65 and 66 in his margin, then Ἦσαν τοίνυν … παρέξομαι (144.13
+    to 144.23) with 67 and 68: the other editions and the check text have the two passages the
+    other way round. The built text has them in Hude's order under Hude's numbers (13.65 Τἆλλα
+    τοίνυν, 13.66 ὥστε τοῦτο μὲν, 13.67 Ἦσαν τοίνυν, 13.68 τὸν δὲ τρίτον), so the numbers run
+    plainly 65, 66, 67, 68 and the page and the database agree. The 1898 translation follows
+    the same order; Shuckburgh's notes are filed by their lemmas.
 
 ## Sizes, for planning
 

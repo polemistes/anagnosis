@@ -414,7 +414,10 @@ the transcription is published under CC BY-SA 4.0. The Eroticus (XXXV) is left o
   read again by a second reader. Prose, one line per section: each speech is a book (`12.7`:
   speech and section, Hude's section numbers; at 13.65-68 his order and numbers), named by its
   number and Hude's title in lower-case Greek; a paragraph that begins inside a section continues
-  it on a lettered line (`1.7b`); the headings inside a speech (ΜΑΡΤΥΡΕΣ. ΝΟΜΟΣ.) are `!` lines;
+  it on a lettered line (`1.7b`); the headings inside a speech (ΜΑΡΤΥΡΕΣ. ΝΟΜΟΣ.) are sections of the second
+  level (`=== heading ΜΑΡΤΥΡΕΣ.`), which the reader shows on a line of their own before the
+  section's first line; a heading after a speech's last line is `=== heading-after …`, which
+  the build ties to the line before it;
   the hypotheses Hude prints before speeches 32-34 are section 0 (`34.0`). Six misprints in the
   text are corrected (`MISPRINTS` in `hude_merge.py`; the batches keep the print), each with a
   note in the apparatus; so are six inside apparatus items (`APPARATUS_MISPRINTS`). His brackets
@@ -428,7 +431,9 @@ the transcription is published under CC BY-SA 4.0. The Eroticus (XXXV) is left o
   Lysias*, Handy Literal Translations; Project Gutenberg #6969) for twenty speeches, by section;
   `eng-gillies.txt`, John Gillies's free version of 1778 for six more (1, 3, 4, 21, 26, 34): 157
   segments, each under the section of Hude's text where it begins (section marks set at his
-  paragraphs and, where the place can be told, at his sentences; his words unchanged). Eight speeches have no English (6, 8, 11,
+  paragraphs and, where the place can be told, at his sentences; his words unchanged). Both
+  translations are plain text: the italics of the prints are not kept, and Gillies's thirteen
+  footnotes are not shipped (their raised letters are taken out at the merge). Eight speeches have no English (6, 8, 11,
   15, 18, 20, 27, 29).
 * Commentaries and introductions (`commentary-adams.md`, `commentary-morgan.md`,
   `commentary-shuckburgh.md`, `introduction.md`, `appendix.md`): C. D. Adams (*Lysias: Selected

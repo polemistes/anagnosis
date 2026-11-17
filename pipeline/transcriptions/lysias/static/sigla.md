@@ -8,11 +8,15 @@ Hude's critical apparatus stands at the foot of each page of his text, in Latin.
 
 **X** — codex Palatinus 88 (Heidelberg). According to Hude's Praefatio it was written in the twelfth century and is the source of all the other manuscripts of speeches 3–31; for speeches 1 and 2 other manuscripts are independent witnesses beside it. Its hands are told apart:
 
-* **X¹** — the reading before a correction was made
-* **Xᶜ** — the reading brought in by a correction
-* **Xᶜ (1)** — the reading brought in by a correction of the first hand
-* **Xʳ** — the reading brought in by a correction of a later hand
-* **Xˢ** — a reading written above the line by the first hand
+**X¹** — the reading before a correction was made
+
+**Xᶜ** — the reading brought in by a correction
+
+**Xᶜ (1)** — the reading brought in by a correction of the first hand
+
+**Xʳ** — the reading brought in by a correction of a later hand
+
+**Xˢ** — a reading written above the line by the first hand
 
 The same raised letters and figures are used with the other manuscripts (H¹, Hᶜ, Mᶜ, P¹).
 

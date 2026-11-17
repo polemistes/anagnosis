@@ -574,6 +574,10 @@ class WordsAndTranslation(unittest.TestCase):
         self.assertEqual(segs[1][1], "But granting I was his enemy.\n\nHe goes on without a mark.")
         # the marks must rise; text before the first mark has no place
         self.assertEqual(len(gillies_segments(["Unplaced.", "§4 One.", "§4 Two.", "§2 Three."])[1]), 3)
+        # shipped as plain text: no italics marks, no footnote letters (his notes are not shipped)
+        from anagnosis_pipeline.hude_merge import _FOOTNOTE_LETTER, plain
+        self.assertEqual(plain(_FOOTNOTE_LETTER.sub("", "Eratosthenes of Æaᵃ, mistress of *my* fortune. *The law is read.*")),
+                         "Eratosthenes of Æa, mistress of my fortune. The law is read.")
         # the alignment pass may add marks and nothing else: the flags and notes do not count
         was = "=== p-0607\nIt is wonderful. But granting.\n--- notes\nnone\n"
         now = "=== p-0607\n§1 It is wonderful. §3 But granting.\n--- notes\nplaced by the alignment pass\n"

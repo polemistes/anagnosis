@@ -446,8 +446,16 @@ def build_work(db: sqlite3.Connection, work_dir: Path, homographs: "Homographs |
     line_texts: dict[str, str] = {}
     ord_line = ord_section = 0
     pending_section_ids: list[int] = []
+    last_line_id = None
     for item in doc.items:
-        if isinstance(item, Section):
+        if isinstance(item, Section) and item.kind == "heading-after":
+            # a heading printed after the last line of a book (Lysias 14: ΝΟΜΟΙ. ΟΡΚΟΙ. ΓΡΑΦΗ.): it
+            # belongs to the line before it, which the reader shows it after; it opens nothing, so
+            # the lines that follow are not in it
+            ord_section += 1
+            db.execute("INSERT INTO sections (work_id, ord, level, kind, label, first_line_id) VALUES (?,?,?,?,?,?)",
+                       (work_id, ord_section, item.level, item.kind, item.label or None, last_line_id))
+        elif isinstance(item, Section):
             while section_stack and section_stack[-1][0] >= item.level:
                 section_stack.pop()
             ord_section += 1
@@ -474,6 +482,7 @@ def build_work(db: sqlite3.Connection, work_dir: Path, homographs: "Homographs |
                 raise SystemExit(f"{slug}: duplicate line number {item.n}")
             line_ids[item.n] = cur.lastrowid
             line_texts[item.n] = item.text
+            last_line_id = cur.lastrowid
             for sid in pending_section_ids:
                 db.execute("UPDATE sections SET first_line_id = ? WHERE id = ?", (cur.lastrowid, sid))
             pending_section_ids = []
