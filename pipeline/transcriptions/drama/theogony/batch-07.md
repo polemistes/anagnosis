@@ -29,7 +29,7 @@
 --- apparatus
 754	εὖτʼ ἂν DFK, superscr. ἔς τʼ ἂν E, ἔστʼ ἂν e corr. L
 758	ἐρεμνοὶ D
-761	εἴς οὐρανὸν ἀνιὼν Ωc, εἰσανιὼν codd. cett.
+761	εἰς οὐρανὸν ἀνιὼν Ωc, εἰσανιὼν codd. cett.
 762	τῶν δʼ DΩbΨ
 762	ἕτερος γαίην (γαῖαν restitui) D, ἕτερος μὲν γαίην Ψ, ἕτερος μὲν γῆν Ωbc
 768	suspectus Wolfio, cf. Hom. κ 534
@@ -40,7 +40,7 @@
 754	the page prints ἔς τʼ ἂν (two words), not Perseus's ἔστʼ ἂν: changed.
 762	the page prints τῶν ἕτερος without δʼ (the apparatus gives τῶν δʼ as the reading of DΩbΨ): δʼ removed.
 768	Rzach brackets the verse (suspected, see apparatus): brackets added.
-761	apparatus: the lemma is printed εἴς (acute), the text has εἲς.
+761	rev: apparatus lemma εἴς corrected to εἰς: the print has a smooth breathing only, no accent (same mark as on ἐρεμνοὶ in 758).
 
 === p-0050
 --- text
@@ -72,7 +72,7 @@
 778	μακροῖσιν πέτροισι D
 778	κατηρεφῆ D
 781	ἀγγελίην Wolf, ἀγγελίη ΩΨ, ΑΓΓΕ . . . R
-783	ὅς τις R (OCT⟨ις) ΩΨ, superscr. μὲν D
+783	ὅς τις R (ΟCΤ⟨ις) ΩΨ, superscr. μὲν D
 784	τε libri, κε Klouček, cf. v. 87
 785	πολυόμβριμον D (altera recensio)
 787	δέ θʼ Ωbc
@@ -85,7 +85,8 @@
 786	the page prints ὅ τʼ (two words), not Perseus's ὅτʼ: changed.
 788	νύκτα as printed (OCR misread).
 781	apparatus: the papyrus letters are printed in uncials with a round (lunate) epsilon, ΑΓΓЄ; written with Ε, as in the Choephoroi notes.
-783	apparatus: the print has an opening angle bracket only, "(OCT⟨ις)"; copied as printed.
+783	apparatus: the print has an opening angle bracket only, "(ΟCΤ⟨ις)"; copied as printed.
+783	rev: apparatus (OCT⟨ις): the Latin O and T replaced by Greek capitals Ο, Τ (the C stays Latin for the lunate sigma), as in the other batches' papyrus readings.
 
 === p-0051
 --- text

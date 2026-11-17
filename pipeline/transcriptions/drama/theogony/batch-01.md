@@ -1,7 +1,7 @@
 === p-0013
 --- text
 1	Μουσάων Ἑλικωνιάδων ἀρχώμεθʼ ἀείδειν,
-2	αἵθʼ Ἑλικῶνος ἔχουσιν ὄρος μέγα τε ζάθεόν τε
+2	αἵ θʼ Ἑλικῶνος ἔχουσιν ὄρος μέγα τε ζάθεόν τε
 3	καί τε περὶ κρήνην ἰοειδέα πόσσʼ ἁπαλοῖσιν
 4	ὀρχεῦνται καὶ βωμὸν ἐρισθενέος Κρονίωνος.
 5	καί τε λοεσσάμεναι τέρενα χρόα Περμησσοῖο
@@ -31,6 +31,7 @@
 --- notes
 15	the print reads γαιήοχον (Perseus γεήοχον, which Rzach gives as D's reading in the apparatus)
 2	final τε is printed on verse 2: checked
+2	rev: αἵ θʼ printed as two words (Perseus αἵθʼ): divided as printed
 
 === p-0014
 --- text

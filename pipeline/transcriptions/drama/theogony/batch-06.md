@@ -46,6 +46,7 @@
 636	In R's papyrus reading the second Ν is damaged in the print (a partial letter); written Ν. Rzach's angle bracket before ς is printed without a closing one; copied as printed. Likewise "(μα⟩ΧΗΝ)" at 635.
 639	The page prints παρέσχεθον (Goettling, see the apparatus), not Perseus's παρέσχεθεν; unflagged, changed on the image.
 639	The item "ἄρμενα" runs on to p-0044 ("Ψ, ἄρμετα D, superscr. γρ. ἄρμενα E, ἄρματα G"); written here in full.
+635	rev: the print shows no elision mark after θυμαλγέ (a lost sort; the space is there); θυμαλγέʼ kept.
 
 === p-0044
 --- text
@@ -129,7 +130,7 @@
 682	ποδῶν τʼ αἰπεῖα Hermann, ποδῶν αἰπεῖά τʼ libri Et. gen. v. ἔνοσις
 684	ἂν DΨ
 684	ἀλλήλοις Aldus, ἀλλήλοισιν ΩΨ
-684	ἕσαν G, εσαν (ἵ m. ead.) H
+684	ἔσαν G, εσαν (ἵ m. ead.) H
 687	ἔσχεν FH m¹, ἴσχεν H m²
 --- notes
 667	The print accents θήλειαί τε; changed on the image.
@@ -137,6 +138,8 @@
 674	οἳ: the print has οἳ, as the draft.
 684	In "εσαν (ἵ m. ead.) H" the ἵ is also printed above the ε of εσαν (the added letter); written once, inline, as the bracket gives it.
 687	Rzach leaves a blank line before 687 (new paragraph); not recorded.
+684	rev: apparatus "ἕσαν G" corrected to ἔσαν G (smooth breathing, compared with ἔνοσις and ἔσχεν beside it and the rough ὅ, οὕς).
+681	rev: the print shows no elision mark after ὕπ (a lost sort, as θυμαλγέ at 635); ὕπʼ kept.
 
 === p-0046
 --- text
@@ -153,7 +156,7 @@
 698	ἄσπετος, ὄσσε δʼ ἄμερδε καὶ ἰφθίμων περ ἐόντων
 699	αὐγὴ μαρμαίρουσα κεραυνοῦ τε στεροπῆς τε.
 700	καῦμα δὲ θεσπέσιον κάτεχεν Χάος· εἴσατο δʼ ἄντα
-701	ὀφθαλμοῖσιν ἰδεῖν ἠδʼ οὔασι ὄσσαν ἀκοῦσαι
+701	ὀφθαλμοῖσι ἰδεῖν ἠδʼ οὔασι ὄσσαν ἀκοῦσαι
 702	αὔτως, ὡς εἰ Γαῖα καὶ Οὐρανὸς εὐρὺς ὕπερθε
 703	πίλνατο· τοῖος γάρ κε μέγας ὑπὸ δοῦπος ὀρώρει
 704	τῆς μὲν ἐρειπομένης, τοῦ δʼ ὑψόθεν ἐξεριπόντος·
@@ -183,6 +186,7 @@
 702	The print sets a space before the semicolon after ὀρώροι; written without it.
 706	ἐσφαράγιζον: the print has it, as the draft. The stop after "κόνιν τʼ Ψ" in the apparatus is blurred; read as a comma.
 707	βροντήν: the print has it, as the draft.
+701	rev: the print has ὀφθαλμοῖσι (no ν before ἰδεῖν), not Perseus's ὀφθαλμοῖσιν; changed on the image.
 
 === p-0047
 --- text

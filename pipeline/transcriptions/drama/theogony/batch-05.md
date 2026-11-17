@@ -74,7 +74,7 @@
 528	Ἰαπετιονίδῃ καὶ ἐλύσατο δυσφροσυνάων
 529	οὐκ ἀέκητι Ζηνὸς Ὀλυμπίου ὑψιμέδοντος,
 --- apparatus
-521	δήσας Herodianus περὶ διχρ. II 7, 24 L. Choeroboscus schol. Theod. I 123, 12 H.; unde aliquid ante 521 intercidisse censuit Muetzell al.; Ζεὺς | δήσας — ἀργαλέοισι, μέσον κτλ. Hermann, δήσας . . . ἔλασσεν Ludwich Herodianum legisse arbitrati sunt
+521	δήσας Herodianus περὶ διχρ. II 7, 24 L. Choeroboscus schol. Theod. I 123, 12 H.; unde aliquid ante 521 intercidisse censuit Muetzell al.; Ζεὺς | δήσας — ἀργαλέοισι, μέσον κτλ. Hermann, δήσας . . . . ἔλασσεν Ludwich Herodianum legisse arbitrati sunt
 525	ἔδει ΩbΨ
 526-534	removebat Francken
 --- notes
@@ -82,6 +82,7 @@
 525	the print has a comma after νυκτός
 511	res: comma after Ἐπιμηθέα, as printed
 518	res: Ἑσπερίδων with rough breathing, as printed (the draft's Εσπερίδων had none)
+521	rev: apparatus "δήσας . . . . ἔλασσεν": four dots as printed (was three)
 
 === p-0039
 --- text
@@ -225,6 +226,7 @@
 590	the print sets 590 in square brackets, not 591 (apparatus: 590 eiecit Goettling, 591 Schoemann; Rzach brackets 590)
 591	no square brackets on this line in the print: removed
 595	the print ends the verse with a raised stop (ἔργων·), not a dash
+589	rev: the print has ἔιδον (breathing and acute on the ε, nothing on the ι), an evident misprint for εἶδον; εἶδον kept
 
 === p-0042
 --- text
@@ -249,7 +251,7 @@
 616	καὶ πολύιδριν ἐόντα μέγας κατὰ δεσμὸς ἐρύκει.
 617	Ὀβριάρεῳ δʼ ὡς πρῶτα πατὴρ ὠδύσσατο θυμῷ
 --- apparatus
-600	ὣς δʼ αὔτως Stobaeus, ex ὡσαύτως rest. D, ὣς δʼ αὔτως Ψ, ὡσαύτως Ωbc
+600	ὣς δʼ αὔτως Stobaeus, ex ὡσαύτως rest. D, ὡς δʼ αὔτως Ψ, ὡσαύτως Ωbc
 600	γυναῖκα cod. Casanat. 356 Laur. LXXXXI sup. 10
 601	ξυνήονας m. rec. superscr. ρασ H, addito γρ. ξυνήνορας E, ξυνήορας F, ξυνήνορα cod. Casanat. 356 Laur. LXXXXI sup. 10
 602	λευγαλέων Stobaeus
@@ -275,3 +277,5 @@
 608	apparatus: a raised stop is printed after "Stobaeus" (608 ἔσχετʼ Stobaeus·); copied as printed
 612	apparatus: "recensio x" with a Latin x as printed
 599	res: the print ends the verse with a raised stop (ἀμῶνται·), not Perseus's dash
+600	rev: apparatus "ὡς δʼ αὔτως Ψ": the print has ὡς with the rough breathing alone (no grave), as in ὡσαύτως beside it (was ὣς)
+617	rev: the text prints Οβριάρεῳ with no breathing on the capital, an evident misprint (his apparatus 617 has Ὀβριάρεῳ L. Dindorf); Ὀβριάρεῳ kept

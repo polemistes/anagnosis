@@ -9,7 +9,7 @@
 893	ἄλλος ἔχοι Διὸς ἀντὶ θεῶν αἰειγενετάων.
 894	ἐκ γὰρ τῆς εἵμαρτο περίφρονα τέκνα γενέσθαι·
 895	πρώτην μὲν κούρην γλαυκώπιδα Τριτογένειαν
-896	ἶσον ἔχουσαν πατρὶ μένος καὶ ἐπίφρονα βουλήν.
+896	ἶσον ἔχουσαν πατρὶ μένος καὶ ἐπίφρονα βουλήν,
 897	αὐτὰρ ἔπειτʼ ἄρα παῖδα θεῶν βασιλῆα καὶ ἀνδρῶν
 898	ἤμελλεν τέξεσθαι, ὑπέρβιον ἦτορ ἔχοντα·
 899	ἀλλʼ ἄρα μιν Ζεὺς πρόσθεν ἑὴν ἐσκάτθετο νηδύν,
@@ -26,7 +26,7 @@
 --- apparatus
 887	τε ἰδυῖαν Schoemann, εἰδυῖαν codd., ἐιδυῖαν?
 888	δὴ ἄρʼ ἔμελλε (cf. Hom. ζ 110) Fick, δή ῥα ἔμελλε DΩc Galenus, δή ῥʼ ἔμελλε Ωb, δή ῥʼ ἤμελλε Ψ
-890	ἐσκάτθετο D, ἐσ κάτθετο Ψ (σ et τθ iu ras. L), ἐγκάτθετο (γ in ras. E) Ωb Chrysippus, ἐγκάτθεο G, ἐσκάτθεο (corr. m¹) H
+890	ἐσκάτθετο D, ἐσ κάτθετο Ψ (σ et τθ in ras. L), ἐγκάτθετο (γ in ras. E) Ωb Chrysippus, ἐγκάτθεο G, ἐσκάτθεο (corr. m¹) H
 891-899	non commemoravit Chrysippus
 899	ἐσκάτθετο DEH, ἐσ κάτθετο Ψ, ἐγκάτθετο F, ἐγκάτθεο G
 900	ὡς οἱ συμφράσσαιτο Chrysippus
@@ -45,6 +45,8 @@
 901	Θέμιν confirmed on the image.
 890	apparatus: in "ἐσκάτθεο (corr. m¹) H" Rzach prints a small γ above the σ and a small τ above, between θ and ε (H's first-hand correction to ἐγκάτθετο); these cannot be set on the line and are left out of the item.
 890	apparatus: "iu ras." is printed so (a misprint for "in ras."), copied as printed.
+896	rev: the page prints a comma after βουλήν, not a full stop: changed.
+890	rev: apparatus "iu ras." is an evident misprint (a turned n) for "in ras.": corrected to "in ras." (the rule: evident misprints corrected, with a note).
 
 === p-0056
 --- text
@@ -160,7 +162,7 @@
 981	Καλλιρόη τέκε παῖδα βροτῶν κάρτιστον ἁπάντων,
 --- apparatus
 959	neglexit schol. Laur. Apoll. Rhod. Arg. Γ 242
-961	δη Guyet, δέ codd., δέ ⟨νυ⟩ Triclinius
+961	δή Guyet, δέ codd., δέ ⟨νυ⟩ Triclinius
 962	χρυσῆν codd.
 964	imitantur Callim. Hymn. Del. 266 Dionys. Perieg. 1181 Orac. Sib. XI 182 Quint. Smyrn. XIV 512; reiecit Heyne
 970	Ἰασίωνʼ D, ἰασίῳ (altera rec.) Ωbc, ἀσσίῳ Ψ
@@ -180,6 +182,7 @@
 979	the page opens a square bracket before κούρη (Clericus's deletion of 979-983, see the apparatus); it closes on the next page: added.
 980	the page prints μειχθεῖσʼ, not Perseus's μιχθεῖσʼ: changed.
 961	apparatus: the lemma δη is printed without an accent (the text has δή); copied as printed.
+961	rev: apparatus lemma δη (no accent, checked at enlargement) is an evident misprint for the text's δή (Guyet's reading, against δέ codd.): corrected to δή, by the rule that evident misprints are corrected with a note.
 964	apparatus: "Quint . Smyrn." is printed with a space before the stop; written "Quint. Smyrn.".
 960	res: βουλῇσι, (no ν, comma after it), as printed (seen on the whole page)
 

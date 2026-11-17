@@ -158,7 +158,7 @@
 419	ὑπεδέξατο, in marg. γρ. ὑποδέξεται E, ὑποδέξατο I
 427	post 425 transposuit Goettling; ab interpolatore (versuum 411—415 auctore) importatum esse censuit A. Meyer
 429	ὡς δʼ Anecd. Par. IV 11, 32 Cr.
-429	ἐθέλη HI
+429	ἐθέλῃ HI
 429	ἠδʼ] καὶ Et. gen. v. μεγάλως
 434	post 429 collocavit Schoemann
 430	ᾧ κʼ K, ὅν in ras. (fuit ᾧ) L
@@ -166,7 +166,7 @@
 431	ἣν (ἣ/// E) δέ ποτʼ Ωb
 431	φθησήνορα HI, φθισήνορα codd. cett.
 431	θωρήσσονται ΩcL, θωρήσσοιντο Ωb
-433	προφρονέους D
+433	προφρονέουσ D
 435	δʼ αὖ DΩbGK, θʼ m. alia add. L
 435	ἀεθλεύωσιν ἀγῶνι Koechly, ἀγῶνι ἀεθλεύωσιν DΩc, ἀγῶνι ἀθλεύωσιν (superscr. ε m. al. L) Ψ, ἐν ἀγῶνι ἀθλεύωσι (superscr. ου E) Ωb
 437	τε Ψ
@@ -179,7 +179,9 @@
 433	The words ἔν τε δίκῃ … καθίζει, hung on 433: they are verse 434, which Rzach prints after 429 (margin 434 beside it; apparatus "434 post 429 collocavit Schoemann"). Moved there as its own verse: order 429, 434, 430, 431, 432, 433, 435; the checker reports that 430 follows 434: that is the print's order.
 435	The print has a comma after αὖθʼ (ἐσθλὴ δʼ αὖθʼ, ὁπότʼ): seen on the page, written as printed.
 421	ὅσσοι confirmed on the page (the OCR's ὕσσοι is a misreading).
-429	apparatus: ἐθέλη HI is printed without an iota subscript (as against θαλάσσῃ in the text, where it is clear): copied as printed. "431 sq. om. HΨ …" is filed under 431 with "sq." kept.
+429	apparatus: "431 sq. om. HΨ …" is filed under 431 with "sq." kept.
+429	rev: apparatus ἐθέλη HI corrected to ἐθέλῃ HI: at enlargement the η has an iota subscript beside its stem (a plain η, as in φθησήνορα on this page, has none); the earlier note that it was printed without one is withdrawn
+433	rev: apparatus προφρονέους D corrected to προφρονέουσ D: the print ends the word with a medial σ (D's spelling as quoted), copied as printed
 
 === p-0035
 --- text
@@ -209,7 +211,7 @@
 442	ῥηιδίως F, δʼ addunt codd. cett.
 443	ἀφείλατο Ψ
 445	δʼ dedi, τʼ ΩΨ, delevit Peppmüller
-447	καὶ ἐκ libri, cf. Fr. 117, 3, κἂκ Winterton, κἢκ Menrad, πολλῶν δʼ ἐκ Voss
+447	καὶ ἐκ libri, cf. Fr. 117, 3, κἀκ Winterton, κἠκ Menrad, πολλῶν δʼ ἐκ Voss
 451	πολυκέρδεον Ψ (γρ. πολυδερκέος marg. L), πολλυκέρδιον C
 452	αἵδε τε Ωb, αίδεται C
 453	ῥειη δὲ δμηθήσα C, ῥείη δʼ ὑποδμηθεῖσα (ποδ del., αυ superscr. I) ΩbcΨ, ῥεῖα δʼ ὑποδμηθεῖσα D
@@ -220,9 +222,9 @@
 459	κρόνος μέγας ΩbΨ
 459	ώστις C (ὥς τις? Wolf), ὅστις codd. cett., ὅς τε Flach, ὥς τε Fick
 --- notes
-447	The print reads καὶ ἐκ where Perseus has κἀκ (apparatus: "καὶ ἐκ libri … κἂκ Winterton"): written as printed.
+447	The print reads καὶ ἐκ where Perseus has κἀκ (apparatus: "καὶ ἐκ libri … κἀκ Winterton"): written as printed.
 451	The print reads ὀφθαλμοῖσι ἴδοντο (no movable ν); not flagged, seen while checking Ἠοῦς (which is confirmed): written as printed.
-447	apparatus: the crasis forms are printed κἂκ and κἢκ (breathing with a grave): copied as printed.
+447	rev: apparatus κἂκ and κἢκ corrected to κἀκ and κἠκ: at enlargement each crasis carries only a smooth breathing (the same shape as the breathing of ἠδʼ in the apparatus of p-0034), no grave; the earlier note of a breathing with a grave is withdrawn
 452	apparatus: αίδεται C and ῥειη … C (453) and ώστις C (459) are printed without a breathing or accent where shown: copied as printed (C's readings). In αἵδε τε the breathing is small; read as rough.
 454	apparatus: "ε⟨ι?⟩στιὴν" is printed with angle brackets and a question mark; copied.
 
@@ -262,7 +264,7 @@
 473	θʼ Schoemann, om. libri
 473	ἀγκυλομήτις E, ἀγκυλόμητις F
 477	Λύκτον, γρ. δί (= δίκτον) in marg. E, λύκτρον C
-478	τέξεσθαι ἔμελλε Kinkel, ἤμελλε τεκέσθαι libri, ἢ μέλλε τεκέσθαι Herwerden
+478	τέξεσθαι ἔμελλε Kinkel, ἤμελλε τεκέσθαι libri, ἣ μέλλε τεκέσθαι Herwerden
 480	τραφέμεν α in ε m¹ mut. D, τρεφέμεν (τρέφεν K) codd. cett.
 481	μιν Hermann (cf. schol.), μὲν libri
 482	λύκτρον C, Δίκτην Schoemann
@@ -272,3 +274,4 @@
 472	The print reads τείσαιτο where Perseus has τίσαιτο: written as printed.
 468	Δίʼ, 473 θʼ, (Schoemann's addition, see the apparatus), 474 οἳ, 476 υἱέι, 479 οἱ: all confirmed on the page, no change.
 470	apparatus: ϝοὺς is printed with Teubner's F-shaped digamma, written ϝ (U+03DD) as on p-0033. In 471 E's reading Rzach prints a small α above the end of τιν: written "μή τιν (α superscr.) φράσασθαι E". "αλλὰ σκοπιὴν C" (466) is printed without a breathing: copied.
+478	rev: apparatus ἢ μέλλε (Herwerden) corrected to ἣ μέλλε: at enlargement the breathing is the open c-shape of a rough breathing (as on εἷʼ in 470), unlike the smooth breathing of ἤμελλε in the same item
