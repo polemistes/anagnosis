@@ -816,13 +816,15 @@ def write_gillies(slug: str, out: Path, units: list[dict], problems: list[str], 
     section numbers: each of his paragraphs is filed under the section of Hude's text where it
     begins, which an alignment pass writes at the paragraph's head as `§7 `
     (transcriptions/lysias/GILLIES-ALIGN.md; gillies_segments); his footnotes ([Note: …]) and
-    the oration's heading are not shipped. A speech whose paragraphs carry no marks yet is left
-    out and named."""
+    the oration's heading are not shipped in the translation; the footnotes are a small
+    commentary of their own (commentary-gillies.md), each under the section of the segment that
+    holds its mark. A speech whose paragraphs carry no marks yet is left out and named."""
     from .drama import GILLIES_EDITION, LYSIAS_GILLIES
     from .hude_notes import english_stops, paragraphs
 
     have = {base(u["n"]) for u in units}
     rows: list[str] = []
+    notes: list[tuple[str, str]] = []
     done = []
     for speech in sorted(LYSIAS_GILLIES):
         paras = paragraphs(f"lysias-gillies-{speech:02d}", "intro", drafts)
@@ -833,10 +835,27 @@ def write_gillies(slug: str, out: Path, units: list[dict], problems: list[str], 
             problems.append(f"Gillies, speech {speech}: transcribed, but its paragraphs are not yet placed (§N at each paragraph's head)")
             continue
         problems += [f"Gillies, speech {speech}: {w}" for w in wrong]
+        # his footnotes ([Note: ᵃ …] paragraphs after the paragraph that holds the mark), by letter
+        footnotes: dict[str, str] = {}
+        for p_ in paras:
+            m = re.match(r"^\[Note:\s*([ᵃᵇᶜᵈᵉᶠᵍʰⁱʲᵏˡᵐⁿᵒᵖ])\s*(.*)\]$", p_, re.S)
+            if m:
+                footnotes[m.group(1)] = " ".join(m.group(2).split())
         for n, text in segs:
             if f"{speech}.{n}" not in have:
                 problems.append(f"Gillies: section {speech}.{n} is not in the Greek")
-            rows.append(f"{speech}.{n}\t" + plain(_FOOTNOTE_LETTER.sub("", english_stops(" ".join(text.split())))))
+            text = english_stops(" ".join(text.split()))
+            # a footnote goes under the section of the segment that holds its mark, led by his own
+            # words before the mark (the mark itself is not shown in the translation)
+            for m in _FOOTNOTE_LETTER.finditer(text):
+                if m.group(0) not in footnotes:
+                    problems.append(f"Gillies, speech {speech}: the mark {m.group(0)} in § {n} has no footnote")
+                    continue
+                before = plain(_FOOTNOTE_LETTER.sub("", text[:m.start()])).split()[-4:]
+                lead = " ".join(before).strip(",;:.“”‘’\"()")
+                notes.append((f"{speech}.{n}", f"**… {lead}**: {english_stops(footnotes.pop(m.group(0)))}"))
+            rows.append(f"{speech}.{n}\t" + plain(_FOOTNOTE_LETTER.sub("", text)))
+        problems += [f"Gillies, speech {speech}: the footnote {k} has no mark in the translation" for k in footnotes]
         done.append(speech)
     if rows:
         meta = {"title": PLAYS[slug].title_en, "translator": "John Gillies (1778)", "lang": "eng",
@@ -845,6 +864,19 @@ def write_gillies(slug: str, out: Path, units: list[dict], problems: list[str], 
                 "license": "Public domain"}
         (out / "eng-gillies.txt").write_text("\n".join(_meta_lines(meta) + [""] + rows) + "\n", encoding="utf-8")
         print(f"wrote eng-gillies.txt: {len(rows)} paragraphs of speeches {done}")
+    if notes:
+        md = _meta_lines({"title": "Notes to the translation (John Gillies)", "author": "John Gillies", "lang": "eng",
+                          "source": f"{GILLIES_EDITION}: his footnotes to the speeches translated here "
+                                    f"({', '.join(sorted({k.split('.')[0] for k, _ in notes}, key=int))}); transcribed from the Internet Archive scan "
+                                    "bim_eighteenth-century_the-orations-of-lysias-a_lysias_1778",
+                          "license": TRANSCRIPTION_LICENSE}) + [""]
+        by_section: dict[str, list[str]] = {}
+        for k, body in notes:
+            by_section.setdefault(k, []).append(body)
+        for k in sorted(by_section, key=lambda x: [int(y) for y in x.split(".")]):
+            md += [f"## {k}", "\n\n".join(by_section[k]), ""]
+        (out / "commentary-gillies.md").write_text("\n".join(md) + "\n", encoding="utf-8")
+        print(f"wrote commentary-gillies.md: {len(notes)} footnotes under {len(by_section)} sections")
     return len(rows)
 
 

@@ -1,0 +1,82 @@
+{
+  "agamemnon": {
+    "version": "348333c89dd41c15",
+    "digest": "78320ac66aa2ee09303af9b86c54336fdeadcb2ffcf82f8b1e38580db59afab0"
+  },
+  "ajax": {
+    "version": "2b1f2d28d11ea325",
+    "digest": "8ca9d44819bb262cb177c725ad25215e1b53803911dc5b23328b2e76cbd101fc"
+  },
+  "antigone": {
+    "version": "f4385f8d711db686",
+    "digest": "056c74ad716ee33cff29efa949dbe5f7981571b734c31780d975a3797c4d7831"
+  },
+  "choephoroi": {
+    "version": "d5c4f0dabb7d88c6",
+    "digest": "d7209b51848d754a6ddca12ca6ae99d40b474e834d38df3d3c6376d6c906f356"
+  },
+  "clouds": {
+    "version": "789221c25a1e6e86",
+    "digest": "28778b77c5752b5c0e3b9269899d258994699246e2c97747df921e840f8e4408"
+  },
+  "electra": {
+    "version": "f3be968e9d9d201a",
+    "digest": "d3596475a47a94b64df6e20cd6c2446831651ad9c293027ebbcb87c0b8c10ee4"
+  },
+  "eumenides": {
+    "version": "e4c0c97aa0953241",
+    "digest": "286777e1c7df947daef1eedf5d0f4e81c63eceaddf09658fa97b664ba2e59ae9"
+  },
+  "gorgias": {
+    "version": "e524061127b68ab3",
+    "digest": "341dd217d9aa2fb9f3112251aeace67e0e1a2a48bfb6e749dd09565082af0f2d"
+  },
+  "hermas": {
+    "version": "93374db7378920af",
+    "digest": "94e0d071b885766429d79626a5726edb91a4e04f54925546f106bf39a5d111e4"
+  },
+  "lexicon": {
+    "version": "9881e87715df0bba",
+    "digest": "64b1aab277a078635003de6f161edd13dbdb580e432d2dec6186f2acdda3af96"
+  },
+  "lysias": {
+    "version": "1f311b1dec9fb5e4",
+    "digest": "1f311b1dec9fb5e44d93a240507f1d0800b17e02e14ca922244bd08da1de80bb"
+  },
+  "newtestament": {
+    "version": "2bf47c6026ec2f98",
+    "digest": "097190756f18728c6438aecbecd8c25000512646fb32e741266f71681c020cf5"
+  },
+  "odyssey": {
+    "version": "49f70080de0ffe30",
+    "digest": "f406036f0e6b7296b1668e30812daa54eca3189f11ce6366237e766f54fa535c"
+  },
+  "oedipuscoloneus": {
+    "version": "0d85bd33e7783498",
+    "digest": "8fad14d7715b06dd24d7ec69b72ccb1bf84bb4d60591a9e054eba77f2d299191"
+  },
+  "oedipustyrannus": {
+    "version": "b796c99cf6a3cc3a",
+    "digest": "3bf6d16b932601d3201802a991e78e7b0f39c6c346a401550faa9f6c49cd636a"
+  },
+  "philoctetes": {
+    "version": "bea8a87e93697338",
+    "digest": "ff857a20b3bccfa9ca3fd6dd08c4d325c9981c1879d7ec305309ac56f39b42b5"
+  },
+  "symposium": {
+    "version": "39c4363530c435bb",
+    "digest": "d10eb98bbfd918efa0c3ab9ab37c86bf2841c92efca3dc2c8fa6654ff993cdc5"
+  },
+  "theogony": {
+    "version": "ae6962c203eeabad",
+    "digest": "2f9a2cced35c9cc264334cc1edf64c2e062794d7a91bc08e84ba2399100e40a4"
+  },
+  "trachiniae": {
+    "version": "cee43bdfb643954e",
+    "digest": "0f9a2c0813de19e86e072b0d63ab2d08278d51f74e201695fcd351329fb9cfd2"
+  },
+  "truestory": {
+    "version": "674742fd8fa51474",
+    "digest": "988239add3bf04315bb532d1e3d8cdb8da7ad38c36d45f66fc8abe58953cc296"
+  }
+}

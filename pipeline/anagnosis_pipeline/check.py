@@ -169,5 +169,16 @@ def check_all(texts: Path, sources: Path) -> int:
     if not perrors and not held:
         print("  nothing held back; no private text's file in the public repository")
     errors += len(perrors)
+    # the built databases against the records of their versions and contents (versions.py)
+    from .versions import check as check_versions
+    verrors, vnotes = check_versions()
+    print("== versions (data/versions.json: a version changes only with the content)")
+    for line in verrors:
+        print(f"  ERROR {line}")
+    for line in vnotes:
+        print(f"  {line}")
+    if not verrors and not vnotes:
+        print("  every database has the recorded content and version")
+    errors += len(verrors)
     print(f"{errors} errors, {warnings} warnings")
     return 1 if errors else 0

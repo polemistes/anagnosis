@@ -223,10 +223,11 @@ def _finish(db: sqlite3.Connection, out: Path) -> None:
     db.commit()
     db.execute("VACUUM")
     db.close()
-    import hashlib
-    digest = hashlib.sha256(out.read_bytes()).hexdigest()[:16]
-    out.with_suffix(out.suffix + ".version").write_text(digest + "\n", encoding="utf-8")
-    print(f"wrote {out} ({out.stat().st_size / 1e6:.1f} MB), version {digest}")
+    # the version follows the content, not the file's bytes (versions.py): it stays as recorded
+    # while the content is the recorded content
+    from .versions import stamp
+    version, digest = stamp(out)
+    print(f"wrote {out} ({out.stat().st_size / 1e6:.1f} MB), version {version} (content {digest[:16]})")
 
 
 def build(texts: Path, sources: Path, out_dir: Path, only: str | None = None) -> None:
@@ -385,7 +386,12 @@ def write_catalog(catalog: list[dict], out_dir: Path, today: "datetime.date | No
     for the author's own builds (ignored by the public repository); <slug>.catalog.json per text."""
     from .private import held_back, release_of
 
-    # each built text's version, so that the reader knows when a downloaded text is out of date
+    # each built text's version, so that the reader knows when a downloaded text is out of date;
+    # a database that has no record of its version and content yet gets one (versions.seed)
+    from .versions import DATA as _records_dir, seed
+    if out_dir.resolve() == _records_dir.resolve():
+        for line in seed(out_dir):
+            print(f"version recorded: {line}")
     for entry in catalog:
         version = out_dir / f"{entry['slug']}.sqlite.version"
         if version.exists():

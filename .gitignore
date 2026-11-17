@@ -28,4 +28,5 @@ pipeline/tessdata/*.traineddata
 # app/author-packs.txt is the local list of further asset packs to bundle. `check` reports a missing line.
 /private/
 /data/catalog-author.json
+/data/versions-author.json
 /app/author-packs.txt

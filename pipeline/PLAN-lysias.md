@@ -625,8 +625,8 @@ below), and about.md says in one line that their word analyses are automatic; Gi
 inside his paragraphs where the place can be told, at the paragraph's head otherwise**; the two
 words cut by a supplement **stay two tappable halves**; the catalogue entry is fine, nothing is
 released before the commentaries and Gillies are in. **Still open: the glossary** (whether
-every party to a speech should have an entry; no more entries for now). **New (2026-11-17): Gillies's thirteen
-footnotes** are not shipped; they could be a small commentary of their own (Decisions).
+every party to a speech should have an entry; no more entries for now). Answered 2026-11-17: the glossary stays as it is; Gillies's thirteen
+footnotes ship as a small commentary of their own (Decisions).
 
 **The questions as they were put:**
 
@@ -790,7 +790,7 @@ Nothing here blocks the text batches. In the order in which an answer is needed:
 - [x] Step 8: translations (2026-11-16): `eng-1898.txt`: 699 segments of 20 speeches, every one under a section of Hude's text; `eng-gillies.txt`: Gillies's six speeches (1, 3, 4, 21, 26, 34), transcribed and read a second time (91798f7), laid beside the Greek by the alignment pass (57a1545; `check-gillies-marks`: 0 remarks; 157 marks for 178 sections: 43 of 50, 44 of 48, 17 of 20, 19 of 25, 23 of 24, 11 of 11), merged as 157 segments; looked at beside the Greek at the start and end of speeches, at a marked section and at one that runs on under the mark before
 - [x] Step 9: commentaries and introductions (2026-11-16): 21 entries, 493 pages, 74 batches, checked and read a second time by the main session's agents (a412f1e, 62bce24, 364f4a2, a38cf55); merged: `commentary-adams.md` (308 notes, 1,616 paragraphs), `commentary-morgan.md` (90 notes, 432 paragraphs), `commentary-shuckburgh.md` (573 notes, 631 paragraphs under 253 sections), `introduction.md` (Adams's general introduction and a chapter for each of the nineteen speeches), `appendix.md` (Adams's Appendix I–V); the notes log settled (Decisions)
 - [x] Step 10: sigla, glossary, about (2026-11-16): `sigla.md` and `about.md` (`transcriptions/lysias/static/`, copied by the merge); the book names in lower-case Greek with numbers (`hude_merge.SPEECH_NAMES`); `glossary.md` (188 names), `shortdefs.tsv` (21 ordinary words, 185 names, one line for δῆμος), `aliases.tsv` (13), written by hand in `texts/lysias/` (the merge does not touch them); `check`: 2,801 lemmas, none missing from the dictionaries and the glossary, none without a short definition; the texts/README.md section
-- [x] Step 11: build and emulator check: the final merge and build on 2026-11-16 with everything in (1,116 sections in 34 speeches, 56,484 words, 6,923 syntax nodes, 4,091 apparatus items under 1,061 sections, Adams 308 notes, Morgan 90, Shuckburgh 253, the 1898 translation 699 segments, Gillies 157, the introduction, the appendix, the sigla, 188 glossary entries; `data/lysias.sqlite` 9.6 MB, version bd16a48438392b06 after the emulator check's four points (2026-11-17), the same in the catalogue); `catalog` (no `google_play`), `check` (0 errors; no warning in Lysias), the tests; the reader's change made (757b603) with the asset pack. Still to do: the emulator check (the main session) **Emulator check done 2026-11-17** (record build/logs/lysias-app.md): the text works; three reader faults fixed in the check (each speech shows the translation it has; a page whose sections the translator renders with the one before shows that passage; the speech heading without "Book": 4c9deda), four data faults mended (4220396: the 69 headings inside a speech shown, the sigla's list as paragraphs, Gillies's footnote marks and the translations' italics marks taken out, a digamma), two reader changes for the headings (73d99be), rechecked on the emulator with nothing left wrong. **Lysias is finished** (database version bd16a48438392b06, not marked for sale, nothing pushed). Agents' token use, roughly: set-up and finishing 0.72 M, text pass 1 6.4 M, pass 2 3.1 M, pass 3 8.0 M, commentaries 16.7 M (74 batches, each read twice), Gillies 2.6 M, word analyses 2.8 M, reader and emulator 0.5 M: about 41 M in all.
+- [x] Step 11: build and emulator check: the final merge and build on 2026-11-16 with everything in (1,116 sections in 34 speeches, 56,484 words, 6,923 syntax nodes, 4,091 apparatus items under 1,061 sections, Adams 308 notes, Morgan 90, Shuckburgh 253, the 1898 translation 699 segments, Gillies 157, the introduction, the appendix, the sigla, 188 glossary entries; `data/lysias.sqlite` 9.6 MB, version 1f311b1dec9fb5e4 (2026-11-17, after the emulator check's points and with Gillies's notes; a version now follows the content: Decisions), the same in the catalogue); `catalog` (no `google_play`), `check` (0 errors; no warning in Lysias), the tests; the reader's change made (757b603) with the asset pack. Still to do: the emulator check (the main session) **Emulator check done 2026-11-17** (record build/logs/lysias-app.md): the text works; three reader faults fixed in the check (each speech shows the translation it has; a page whose sections the translator renders with the one before shows that passage; the speech heading without "Book": 4c9deda), four data faults mended (4220396: the 69 headings inside a speech shown, the sigla's list as paragraphs, Gillies's footnote marks and the translations' italics marks taken out, a digamma), two reader changes for the headings (73d99be), rechecked on the emulator with nothing left wrong. **Lysias is finished** (database version bd16a48438392b06, not marked for sale, nothing pushed). Agents' token use, roughly: set-up and finishing 0.72 M, text pass 1 6.4 M, pass 2 3.1 M, pass 3 8.0 M, commentaries 16.7 M (74 batches, each read twice), Gillies 2.6 M, word analyses 2.8 M, reader and emulator 0.5 M: about 41 M in all.
 
 ## Decisions
 
@@ -1130,20 +1130,23 @@ Nothing here blocks the text batches. In the order in which an answer is needed:
     bracket). No other text has these kinds. Verified: theogony and clouds built with the
     committed build.py and with the changed one are identical byte for byte; the databases of
     all other texts and the lexicon have the checksums they had before.
-  * **Found on the way: seven databases under data/ are older than their sources.** A full
-    `build`, run once to compare, gave other databases for agamemnon, choephoroi, clouds,
-    eumenides, gorgias, newtestament and theogony than those on disk, with the committed
-    build.py as with mine (their texts or the pipeline changed after their last build). They
-    were put back from the asset packs' copies, which are the same files as before (checksums
-    compared), and the catalogue keeps their versions. Whether and when they are rebuilt is the
-    main session's call.
+  * **Found on the way: a rebuild gave seven databases other bytes** (agamemnon, choephoroi,
+    clouds, eumenides, gorgias, newtestament, theogony), with the committed build.py as with
+    mine. Not their content: compared table by table with builds into a scratch folder
+    (2026-11-17) every table of all seven is the same; the files differ in the header's stamp of
+    the SQLite library. The databases overwritten by the one full build were put back from the
+    asset packs' copies (the same files, by checksum). It led to the next decision.
   * **sigla.md**: the five lines on the hands of X were a list; they are paragraphs.
-  * **Gillies's footnotes are not shipped.** He has thirteen (a ward of Attica, concubinage,
-    the oaths of the parties, Athenian money, the trierarchy, Cinesias, the crown of office …),
-    transcribed in his batch files. No translation in the app carries notes (Harmon's are left
-    out too) and a translation segment has no place for one, so the raised letters are taken
-    out at the merge. They could ship as a small commentary of their own, as Lake's footnotes
-    to his translation of the Shepherd do: For the author.
+  * **Gillies's footnotes** (thirteen: a ward of Attica, concubinage, the oaths of the parties,
+    Athenian money, the trierarchy, Cinesias, the crown of office …; transcribed in his batch
+    files). A translation segment has no place for a note, so the raised letters are taken out
+    of the translation at the merge; **by the author's decision (2026-11-17) the notes ship as a
+    small commentary of their own**, as Lake's footnotes to the Shepherd do:
+    `commentary-gillies.md`, "Notes to the translation (John Gillies)", each note under the
+    section of the segment that holds its mark, led in bold by his own four words before the
+    mark ("**… is Eratosthenes of Æa**: This is the name of the ward …"); 13 notes under 11
+    sections of speeches 1, 4, 21, 26, 34 (speech 3 has none). Nothing is rewritten. The merge
+    reports a mark without a note or a note without a mark.
   * **The translations are plain text.** The reader shows a translation's words as they stand,
     and no other text's translation has markup; the italics marks of Gillies (16 segments) and
     of the 1898 version (22: the translator's supplied words, which also stand in brackets)
@@ -1160,6 +1163,29 @@ Nothing here blocks the text batches. In the order in which an answer is needed:
     τοίνυν, 13.66 ὥστε τοῦτο μὲν, 13.67 Ἦσαν τοίνυν, 13.68 τὸν δὲ τρίτον), so the numbers run
     plainly 65, 66, 67, 68 and the page and the database agree. The 1898 translation follows
     the same order; Shuckburgh's notes are filed by their lemmas.
+
+* **2026-11-17, a text's version follows its content** (the author's decision;
+  `anagnosis_pipeline/versions.py`, tests `tests/test_versions.py`). The catalogue's version of
+  a text was a hash of the database file, which changes with the SQLite library's stamp in the
+  header, so a rebuild with nothing changed would have made every phone fetch the pack again.
+  Now: a **content digest** (SHA-256 over the schema number and, table by table in the order of
+  the names, the table's name, its columns and its rows' digests sorted; a value with its type
+  and length; compressed html hashed as the text it holds; no index, page layout, library or
+  file time enters); **the version stays as recorded while the digest is the recorded one, and
+  is the digest's first sixteen digits when the content changes**. The records:
+  `data/versions.json` (tracked; the public texts and the lexicon) and
+  `data/versions-author.json` (not tracked; the texts held back); the catalogue's format is
+  untouched. They began with the digests of the databases installed on that day beside the
+  versions they had (`catalog` records a database that has no record; never twice). Only a build
+  into data/ writes them; `build --out` elsewhere reads them. `check` reports a database whose
+  content is not the recorded content, a .version file or catalogue entry that disagrees with
+  the record, and a version that changed since the last commit though the content did not.
+  **Proof**: `catalog` after the change left data/catalog.json and the author's catalogue byte
+  for byte as they were; gorgias, newtestament, theogony, agamemnon, choephoroi, eumenides and
+  clouds built into a scratch folder have no table that differs from the installed databases
+  (their files differ) and keep their versions. Lysias, rebuilt with Gillies's notes, changed
+  in content and has the new version 1f311b1dec9fb5e4.
+* **2026-11-17, the glossary stays as it is** (the author): no new entries.
 
 ## Sizes, for planning
 

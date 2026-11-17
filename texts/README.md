@@ -432,8 +432,10 @@ the transcription is published under CC BY-SA 4.0. The Eroticus (XXXV) is left o
   `eng-gillies.txt`, John Gillies's free version of 1778 for six more (1, 3, 4, 21, 26, 34): 157
   segments, each under the section of Hude's text where it begins (section marks set at his
   paragraphs and, where the place can be told, at his sentences; his words unchanged). Both
-  translations are plain text: the italics of the prints are not kept, and Gillies's thirteen
-  footnotes are not shipped (their raised letters are taken out at the merge). Eight speeches have no English (6, 8, 11,
+  translations are plain text: the italics of the prints are not kept. Gillies's thirteen
+  footnotes are a small commentary of their own (`commentary-gillies.md`), each under the section
+  of the segment that holds its mark and led by his words before the mark; the raised letters
+  are not shown in the translation. Eight speeches have no English (6, 8, 11,
   15, 18, 20, 27, 29).
 * Commentaries and introductions (`commentary-adams.md`, `commentary-morgan.md`,
   `commentary-shuckburgh.md`, `introduction.md`, `appendix.md`): C. D. Adams (*Lysias: Selected
@@ -554,7 +556,10 @@ longer description (not shown in the app at present); its `# key: value` headers
   never be changed or reused once the product is created.
 
 The catalog is bundled with the reader, so a change here reaches users with the reader's next
-update. `catalog` rewrites the catalog without rebuilding any database; it also writes each
+update. A text's `version` in the catalog follows the content of its database, not the
+file's bytes: it changes if and only if a row of a table changes (`pipeline/anagnosis_pipeline/versions.py`;
+the versions and content digests are recorded in `data/versions.json`, and `check` compares the
+built databases with them). `catalog` rewrites the catalog without rebuilding any database; it also writes each
 built text's `version`, by which the reader knows that a downloaded text is out of date.
 
 ## Other documents (`sigla.md`, `introduction.md`, `appendix.md`)
