@@ -293,6 +293,11 @@ def _skeleton(s: str) -> str:
     return greek.strip_diacritics(s).replace("ς", "σ")
 
 
+def _bare(s: str) -> str:
+    """The letters alone: no accents, no brackets or other marks."""
+    return "".join(c for c in _skeleton(s) if c.isalpha())
+
+
 # Treebank lemmas to correct (spelling, or a form used as lemma). Applied after alignment, after
 # a stray breathing mark at the start of a lemma (̓ὀδυσσεύς) has been removed.
 LEMMA_FIXES: dict[str, str] = {
@@ -325,7 +330,8 @@ def fix_lemma(lemma: str) -> str:
     return LEMMA_FIXES.get(lemma, lemma)
 
 
-def align(doc: Document, tb: list[dict], keep_tb_form: bool = False, units: bool = False) -> tuple[list[dict], list[str]]:
+def align(doc: Document, tb: list[dict], keep_tb_form: bool = False, units: bool = False,
+          record: list[dict] | None = None) -> tuple[list[dict], list[str]]:
     """Pair the words of the text with treebank words, in order.
 
     A difflib alignment of skeletons (no diacritics) finds the stretches that agree; inside a
@@ -338,7 +344,18 @@ def align(doc: Document, tb: list[dict], keep_tb_form: bool = False, units: bool
     a unit on the treebank word's node: the first word carries the node (sentence, word id,
     relation, head; the treebank's tag as a hint for its own analysis), each further word the
     same sentence and the word id written "=N" ("one node with word N"; no relation or head of
-    its own). Every word keeps its own lemma and form, which the analyser gives it.
+    its own). Every word keeps its own lemma and form, which the analyser gives it. And a run of
+    three or more words of ours that the alignment left without treebank words is looked for,
+    word for word, among the treebank words left over: a verse that stands at another place in
+    the treebank's text is found there.
+
+    `record`, if given, receives what each word of the text is to the treebank's text where it
+    is not simply the treebank's own word: {"line", "ord", "form", "kind", "tree_form",
+    "tree_lemma", "sentence", "word_id"} with kind "unit" (the text's word is a part of a
+    treebank word, or several treebank words joined), "reading" (the treebank's text has another
+    word here; ours is paired with it in order and takes over its relation and head) or "absent"
+    (the treebank's text has no word for it). The words in the same letters, whatever their
+    accents, are the treebank's own and are not recorded.
     """
     text_words: list[tuple[str, int, str]] = []
     for line in doc.lines:
@@ -402,6 +419,41 @@ def align(doc: Document, tb: list[dict], keep_tb_form: bool = False, units: bool
                 f"{text_words[i][0]}: no treebank words for {[f for _, _, f in text_words[i:i2]]}"
                 + (f" (treebank has {[w['form'] for w in tb_words[j:j2]]})" if rest_b else "")
             )
+    if units:
+        # a verse the two editions place differently (Theogony 214, 407, 631): a run of three or
+        # more words of ours without a treebank word that stands, word for word, among the
+        # treebank words no word of ours has taken, is found there
+        place = {id(w): k for k, w in enumerate(tb_words)}
+        taken = {place[id(w)] for ws in matched.values() for w in ws} | {place[id(w)] for w, _k in unit.values()}
+        free = [k for k in range(len(tb_words)) if k not in taken]
+        free_runs: list[list[int]] = []
+        for k in free:
+            if free_runs and free_runs[-1][-1] == k - 1:
+                free_runs[-1].append(k)
+            else:
+                free_runs.append([k])
+        i = 0
+        while i < len(text_words):
+            if i in matched or i in unit:
+                i += 1
+                continue
+            j = i
+            while j < len(text_words) and j not in matched and j not in unit:
+                j += 1
+            ours = ta[i:j]
+            if len(ours) >= 3:
+                for run in free_runs:
+                    theirs = [tbs[k] for k in run]
+                    at = next((a for a in range(len(theirs) - len(ours) + 1) if theirs[a:a + len(ours)] == ours), None)
+                    if at is not None:
+                        for m in range(len(ours)):
+                            matched[i + m] = [tb_words[run[at + m]]]
+                        free_runs.remove(run)
+                        for part in (run[:at], run[at + len(ours):]):
+                            if part:
+                                free_runs.append(part)
+                        break
+            i = j
     rows: list[dict] = []
     for idx, (n, ord_, form) in enumerate(text_words):
         ws = matched.get(idx)
@@ -430,6 +482,19 @@ def align(doc: Document, tb: list[dict], keep_tb_form: bool = False, units: bool
                     row["tb_form"] = w["form"]
             else:
                 row.update(sentence=w["sentence"], word_id="=" + w["word_id"])
+        if record is not None:
+            note = None
+            if idx in unit:
+                note = ("unit", unit[idx][0]["form"], unit[idx][0]["lemma"])
+            elif ws and len(ws) > 1:
+                note = ("unit", " ".join(x["form"] for x in ws), " ".join(x["lemma"] for x in ws))
+            elif ws and _bare(ws[0]["form"]) != _bare(form):  # an editor's bracket on the word is no other reading
+                note = ("reading", ws[0]["form"], ws[0]["lemma"])
+            elif not ws:
+                note = ("absent", "", "")
+            if note:
+                record.append({"line": n, "ord": ord_, "form": form, "kind": note[0], "tree_form": note[1], "tree_lemma": note[2],
+                               "sentence": row["sentence"], "word_id": row["word_id"]})
         row["lemma"] = fix_lemma(row["lemma"])
         rows.append(row)
     return rows, warnings

@@ -66,6 +66,30 @@ the node (sentence, word id, relation, head), each further word the same sentenc
 written `=N` ("one node with word N"), with no relation or head of its own. Each word keeps its
 own lemma and form. Switched on per text (`Play.tree_units` in `drama.py`; the Theogony only).
 
+## `syntax-text.tsv` (optional): the text the trees were made on
+
+The syntax trees are the treebank's, made on the Perseus Digital Library's text of a work, which
+is often another edition than the one printed here. A text that says so names that text in
+grc.txt's header (`# syntax-text: …`, the database's meta key `syntax_text`) and in about.md
+(`# syntax_text: …`, for the catalog), and records in `syntax-text.tsv` what each word is to it
+where it is not simply the trees' own word. Columns: `kind line ord form sentence word_id
+tree_form tree_lemma extent`.
+
+* `unit`: our word is a part of a tree word (αἵ θʼ for αἵθʼ), or several tree words joined (οὐδέ
+  for the treebank's οὐ δέ); `tree_form` is the trees' word or words.
+* `reading`: the trees' text has another word here (`tree_form`, `tree_lemma`); ours is paired
+  with it and takes over its relation and head. Kept only where the role fits our word: every
+  such pair is decided in `TREE_READINGS` (`drama_fixes.py`), with a reason.
+* `absent`: the trees' text has no word for it, so it has no node. With a `tree_form`: the word
+  the trees' text has in its place in another construction (a reading that was not kept).
+* `unprinted`: a tree word this edition does not print (`sentence`, `word_id` of its node in
+  `syntax-nodes.tsv`, where it is kept so that the tree stays whole).
+* `extent` (absent, unprinted): `word`, or `passage` for one of three or more such words in a
+  row (a verse or more that one of the two texts lacks).
+
+The build makes the table `syntax_text_words` of it, only for a text that has the file. Made by
+the text's merge (`Play.syntax_text` in `drama.py`; the Theogony only so far).
+
 ## `syntax-nodes.tsv`
 
 The treebank's tokens that are not words of the text but take part in the syntax: the
@@ -565,6 +589,8 @@ longer description (not shown in the app at present); its `# key: value` headers
   `syntax` says whether the syntax is annotated by hand or machine-made.
 * `syntax_source`, `syntax_license`: where the lemmas, morphology and syntax come from, for the
   text's About and credits.
+* `syntax_text`: the text the syntax trees were made on, where it is another than the printed
+  edition (see `syntax-text.tsv` above); absent for a text whose trees were made on its own text.
 * `google_play: yes`: the text is on sale in the reader: it has an asset pack (`app/packs/<slug>`,
   listed in app/settings.gradle.kts and the reader's `assetPacks`) and the shop offers it as the
   in-app product named by `product_id`, once that product is active in Play Console. Texts

@@ -551,6 +551,14 @@ def build_work(db: sqlite3.Connection, work_dir: Path, homographs: "Homographs |
     # hand-made trees in speech 1, none in speech 12, in a text whose other speeches are automatic)
     if m.get("syntax-by-book"):
         db.execute("INSERT OR REPLACE INTO meta VALUES ('syntax_by_book', ?)", (m["syntax-by-book"],))
+    # the text the trees were made on, where it is another than the printed edition, and what each
+    # word is to it (syntax_text.py): a meta key and a table of their own, only for a text that has them
+    if m.get("syntax-text"):
+        db.execute("INSERT OR REPLACE INTO meta VALUES ('syntax_text', ?)", (m["syntax-text"],))
+    from .syntax_text import build_table
+    recorded = build_table(db, work_dir)
+    if recorded:
+        print(f"syntax text: {recorded} words recorded")
 
     last_line = max(line_ids, key=lambda n: line_n_parts(n))
     last_int, last_sub = line_n_parts(last_line)

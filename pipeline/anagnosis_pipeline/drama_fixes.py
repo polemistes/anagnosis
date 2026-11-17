@@ -659,6 +659,68 @@ HAND_ANALYSES: dict[str, dict[str, tuple[str, str]]] = {
     },
 }
 
+# Where the text the syntax trees were made on has another word than ours, our word is paired with
+# it and takes over its relation and head (odyssey.align; syntax_text.py). Each such reading was
+# looked at in its verse beside the trees' reading: "keep" where the inherited role fits our word,
+# "drop" where it does not (the link is then given up: our word is "not in the trees' text", the
+# trees' word stays in the tree as a word this edition does not print). Keyed by line and form.
+TREE_READINGS: dict[str, dict[str, tuple[str, str]]] = {
+    "theogony": {
+        "15 γαιήοχον": ("keep", "the same word in the same form, spelled otherwise"),
+        "31 μʼ": ("keep", "the same pronoun, elided"),
+        "31 ἀοιδὴν": ("keep", "another noun (the trees' αὐδὴν) in the same place: the object of ἐνέπνευσαν"),
+        "56 νύκτας": ("keep", "accusative of duration for the trees' genitive of time: an adverbial of ἐμίσγετο either way"),
+        "77 Μελπομένη": ("keep", "the same name (the trees' form is a misprint)"),
+        "159 στεναχίζετο": ("keep", "the same word in the same form, spelled otherwise"),
+        "165 τεισαίμεθα": ("keep", "the same word in the same form, spelled otherwise"),
+        "230 Ἀάτην": ("keep", "the same word in the same form, spelled otherwise"),
+        "240 μεγήριτα": ("keep", "another adjective (the trees' μεγήρατα) on the same noun: an attribute of τέκνα"),
+        "266 τέκε": ("keep", "the same form without the movable ν"),
+        "279 ἄνθεσι": ("keep", "the same form without the movable ν"),
+        "282 τᾷ": ("keep", "the same pronoun in the feminine: the dative with ἐπώνυμον ἦεν"),
+        "288 μειχθεὶς": ("keep", "the same word in the same form, spelled otherwise"),
+        "295 οὐδὲ": ("drop", "the trees read οὐδὲν, an adverbial accusative with ἐοικός; our οὐδὲ joins ἀμήχανον and ἐοικὸς and is no adverbial"),
+        "304 χθόνα": ("keep", "accusative for the trees' dative after ὑπὸ: the same phrase"),
+        "354 Θόη": ("keep", "the same name (the trees' Φόη)"),
+        "375 Εὐρυβίη": ("keep", "the same name (the trees' form is a misprint)"),
+        "377 μετέπρεπε": ("keep", "the same form without the movable ν"),
+        "381 τίκτʼ": ("keep", "the same verb form, elided"),
+        "381 Ἠοσφόρον": ("keep", "the same word in the same form, spelled otherwise"),
+        "399 ἔδωκεν": ("keep", "aorist for the trees' perfect: the verb of the same clause"),
+        "401 ἕο": ("keep", "the genitive of the pronoun for the trees' possessive ἑοῦ: an attribute of μεταναιέτας either way"),
+        "406 Λητὼ": ("keep", "the same name (the trees' form is a misprint)"),
+        "451 ὀφθαλμοῖσι": ("keep", "the same form without the movable ν"),
+        "472 τείσαιτο": ("keep", "the same word in the same form, spelled otherwise"),
+        "485 τᾷ": ("drop", "the trees read τῷ as an adverb (\"then\"); our τᾷ is a pronoun in the dative, not a particle"),
+        "497 ἐξείμεσσε": ("keep", "the same word in the same form, spelled otherwise"),
+        "497 καταπίνων": ("drop", "the trees read ὃν πύματον κατέπινεν, the verb of a relative clause; our participle belongs to the subject of ἐξείμεσσε"),
+        "506 ἀθανάτοισι": ("keep", "the same form without the movable ν"),
+        "584 ζῴοισι": ("keep", "the same form without the movable ν"),
+        "617 Ὀβριάρεῳ": ("keep", "the same name (the trees' Βριάρεῳ)"),
+        "622 ἥατʼ": ("keep", "the same word in the same form, spelled otherwise"),
+        "639 παρέσχεθον": ("keep", "plural for the trees' singular: the verb of the same clause"),
+        "659 δεῦρʼ": ("drop", "the trees read δʼ, the connective; our δεῦρο is an adverb of place"),
+        "659 αὖτις": ("keep", "the simple adverb for the trees' ἐξαῦτις: the same adverbial"),
+        "669 Ἐρέβεσφιν": ("keep", "the same word in the same form, spelled otherwise"),
+        "701 ὀφθαλμοῖσι": ("keep", "the same form without the movable ν"),
+        "834 σκυλάκεσσι": ("keep", "the same form without the movable ν"),
+        "837 ἀθανάτοισι": ("keep", "the same form without the movable ν"),
+        "850 καταφθιμένοισι": ("keep", "the same form without the movable ν"),
+        "860 Ἀίτνης": ("drop", "the trees read ἀιδνῇς, an adjective with βήσσῃσιν; our Ἀίτνης is a name in the genitive with οὔρεος"),
+        "902 Εὐνομίην": ("keep", "the same name (the trees' form is a misprint)"),
+        "904 ἧς": ("keep", "plural for the trees' singular ᾗ: the dative with πόρε either way"),
+        "917 τῇσι": ("keep", "the same form without the movable ν"),
+        "923 μειχθεῖσʼ": ("keep", "the same word in the same form, spelled otherwise"),
+        "941 μειχθεῖσʼ": ("keep", "the same word in the same form, spelled otherwise"),
+        "944 μειχθεῖσʼ": ("keep", "the same word in the same form, spelled otherwise"),
+        "960 βουλῇσι": ("keep", "the same form without the movable ν"),
+        "961 δή": ("drop", "the trees read δέ, the connective; our δή is a particle on ἣ"),
+        "980 μειχθεῖσʼ": ("keep", "the same word in the same form, spelled otherwise"),
+        "1001 Χίρων": ("keep", "the same word in the same form, spelled otherwise"),
+        "1016 ἀγακλειτοῖσι": ("keep", "the same form without the movable ν"),
+    },
+}
+
 LEMMA_FIXES: dict[str, dict[str, str]] = {
     "lysias": {
         # lemmas of the trees that are garbled, split at a prefix, accented otherwise than the

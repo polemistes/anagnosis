@@ -117,6 +117,10 @@ class Play:
     # words the text prints apart and the treebank as one (αἵ θʼ for αἵθʼ) form a unit on the
     # treebank word's node (odyssey.align, units): a change of tokens, so a text's own choice
     tree_units: bool = False
+    # the text the syntax trees were made on, where it is another than the printed edition (the
+    # Perseus text of another editor): named in grc.txt's header ("syntax-text") and so in the
+    # database, and what each word is to that text recorded in syntax-text.tsv (syntax_text.py)
+    syntax_text: str = ""
     # leaves of the notes scan read with another kind (the introduction) that are laid out as the
     # notes pages and take their region (Earle's notes on the hypothesis under his Greek, "earle")
     notes_region_leaves: list[tuple[int, int]] = field(default_factory=list)
@@ -571,6 +575,7 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          "Hesiodi carmina, recensuit Aloisius Rzach, Leipzig, B. G. Teubner, 1908",
          "hesiodicarminare00hesi", "rzach", "A. Rzach", "hesiod_theogony_rzach",
          treebank="tlg0020.tlg001.perseus-grc1.tb.xml", tree_units=True,
+         syntax_text="the Perseus Digital Library's text of the poem (H. G. Evelyn-White's Loeb edition, 1914)",
          trans_file="drama/tlg0020.tlg001.perseus-eng2.xml", translator="Hugh G. Evelyn-White", trans_key="evelyn-white",
          trans_edition="Hesiod, the Homeric Hymns and Homerica, with an English translation by Hugh G. Evelyn-White, Loeb Classical Library, London, Heinemann, 1914",
          trans_license="CC BY-SA 4.0 (Perseus Digital Library)",
@@ -1833,6 +1838,8 @@ def merge_play(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path
         meta["syntax"] = "automatic"
     if play.pronunciation:
         meta["pronunciation"] = play.pronunciation
+    if play.syntax_text:
+        meta["syntax-text"] = play.syntax_text
     doc = Document(meta=meta)
     for i, (kind, a, b) in enumerate(items):
         for s in before.get(i, []):
@@ -2038,7 +2045,8 @@ def _tokens(play: Play, doc, sources: Path, out: Path, lexicon: Path, build: Pat
     from .sophocles import read_agdt, read_glaux_lines
 
     tb = read_agdt(sources / "treebanks" / play.treebank, play.treebank.startswith("tlg0020.")) if play.treebank else read_glaux_lines(sources / "glaux" / play.glaux)
-    rows, _warnings = align(doc, tb, keep_tb_form=True, units=play.tree_units)
+    record: list[dict] | None = [] if play.syntax_text else None
+    rows, _warnings = align(doc, tb, keep_tb_form=True, units=play.tree_units, record=record)
     analyse = Analyser(lexicon)
     freq = Frequencies(sources / "treebanks")
     review = []
@@ -2074,9 +2082,19 @@ def _tokens(play: Play, doc, sources: Path, out: Path, lexicon: Path, build: Pat
             r["lemma"], r["postag"] = hand
         r["lemma"] = LEMMA_FIXES.get(r["lemma"], r["lemma"])
         r["lemma"] = fixes.get(r["lemma"], r["lemma"])
+    if record is not None:
+        from .syntax_text import settle, write_record
+        undecided = settle(play.slug, rows, record)
     write_tokens(out / "tokens.tsv", rows)
     used = {(r["sentence"], w) for r in rows for w in r["word_id"].split("+") if r["sentence"]}
     write_syntax_nodes(out / "syntax-nodes.tsv", syntax_nodes(tb, used))
+    if record is not None:
+        lengths: dict[str, int] = {}
+        for r in rows:
+            lengths[r["line"]] = lengths.get(r["line"], 0) + 1
+        counts = write_record(out / "syntax-text.tsv", record, tb, used, lengths)
+        print("wrote syntax-text.tsv: " + ", ".join(f"{v} {k}" for k, v in counts.items())
+              + (f"; {len(undecided)} readings without a decision (kept): {', '.join(undecided[:8])}" if undecided else ""))
     missing = sum(1 for r in rows if not r["lemma"])
     print(f"wrote tokens.tsv: {len(rows)} words, {missing} without lemma")
     build.mkdir(parents=True, exist_ok=True)

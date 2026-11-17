@@ -5,6 +5,7 @@
 # edition: Hesiodi carmina, recensuit Aloisius Rzach, Leipzig, B. G. Teubner, 1908
 # license: CC BY-SA 4.0 (transcription; the edition is in the public domain)
 # pronunciation: homeric
+# syntax-text: the Perseus Digital Library's text of the poem (H. G. Evelyn-White's Loeb edition, 1914)
 
 1	Μουσάων Ἑλικωνιάδων ἀρχώμεθʼ ἀείδειν,
 2	αἵ θʼ Ἑλικῶνος ἔχουσιν ὄρος μέγα τε ζάθεόν τε

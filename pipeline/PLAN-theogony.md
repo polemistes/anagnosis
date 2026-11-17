@@ -206,3 +206,58 @@ As PLAN-drama.md "Steps for each play", with the play's slug `theogony`:
   a token whose word id begins with `=` joins the node of that number: the node's form is the
   words joined (αἵ θʼ), and `nodeFor` answers with that node for either word, so both are
   highlighted and the second's word sheet names the role too. Version 715628c66e892934.
+* **2026-11-17, the trees' text** (the author: "The most important thing is that the reader is
+  made aware that the syntax tree is based on a (slightly) different text. Then provide the
+  pertinent specific information."). The trees are the treebank's, made on the Perseus text of
+  the poem (Evelyn-White's Loeb, 1914), not on Rzach's. Module `syntax_text.py`; switched on by
+  `Play.syntax_text`, for the Theogony only.
+  * **The text-level fact**: grc.txt's header `# syntax-text: the Perseus Digital Library's text
+    of the poem (H. G. Evelyn-White's Loeb edition, 1914)` becomes the database's meta key
+    `syntax_text`; about.md's `# syntax_text:` puts it into the catalogue.
+  * **The word-level facts**: the file `syntax-text.tsv` (texts/README.md) and, in the
+    database, the table `syntax_text_words (id, kind, token_id, sentence, word_id, tree_form,
+    tree_lemma, extent)` with the meta key `syntax_text_words` (the number of rows). **Why a
+    table of its own and meta keys**: the reader's queries name their tables and columns; a new
+    column in `tokens` or `sentence_nodes` would be missing from the databases already on the
+    phones and from the seven texts on sale, and the reader's generated code would fail on them.
+    A table the present reader never asks for is invisible to it; a later reader asks for it
+    only where the meta key is there (a missing meta key reads as null, as `syntax_by_book`
+    does). The table exists only in a text that has the record, so no other text's content or
+    version changes. The schema number is not raised.
+  * **The Theogony's numbers** (6,923 words): 6,794 are the trees' own words (the same letters);
+    **unit 48** (24 words in the twelve places where our text divides a tree word; 24 words the
+    treebank divides and we print as one: οὐδέ, μηδέ, οὔτε, a matter of the treebank's habit, not
+    of the text); **reading 46**; **absent 35** (18 in passages: verses 576–577, which Rzach
+    brackets and the trees' text has not, with the opening of 578, and two places where the two
+    texts word a phrase in another number of words, 48 θεαὶ † λήγουσαί τʼ / καὶ ἐκλήγουσαι, 532
+    ταῦτά γʼ ἄρʼ / ταῦτʼ ἄρα; 17 single words, 6 of them readings not kept); **unprinted 152**
+    (135 in passages: above all the 129 words of the verses on Hera and Hephaestus after 929 that
+    Rzach does not print; 17 single words).
+  * **The readings looked at** (`TREE_READINGS["theogony"]`, 52, each with its reason): **46
+    kept**, where the inherited role fits our word: the same form spelled otherwise or without
+    the movable ν (34: τέκε/τέκεν, μειχθεὶς/μιχθεὶς, Χίρων/Χείρων), the same name (6), and six
+    where another word stands in the same construction (31 ἀοιδὴν for αὐδὴν, object of
+    ἐνέπνευσαν; 56 νύκτας for νυκτὸς, an adverbial either way; 240 μεγήριτα for μεγήρατα; 399
+    ἔδωκεν for δέδωκεν; 401 ἕο for ἑοῦ; 904 ἧς for ᾗ). **6 dropped**, where it does not: 295
+    οὐδὲ (the trees' οὐδὲν is an adverbial accusative), 485 τᾷ (the trees' τῷ is an adverb), 497
+    καταπίνων (the trees' κατέπινεν is the verb of a relative clause), 659 δεῦρʼ (the trees' δʼ
+    is the connective), 860 Ἀίτνης (the trees' ἀιδνῇς is an adjective with another noun), 961 δή
+    (the trees' δέ is the connective). A dropped word has no link; the trees' word stays in the
+    tree as not printed. Eight more pairs were no readings at all (the trees' form carries an
+    editor's bracket: [οἵ, [ἀθανάτων): they are the trees' own words.
+  * **Found on the way: three verses the editions place differently** (214, 407, 631: among the
+    four "printed verse order" remarks) stood outside the trees, and their tree words as not
+    printed. A run of three or more words of ours that stands word for word among the tree
+    words left over is now found there (`odyssey.align`, with `units`): 16 words linked.
+  * **The other texts** (not set; each to be confirmed from its sources before it is switched
+    on): the Odyssey (Allen's Oxford text; trees on Perseus's text, Murray's Loeb 1919), the
+    seven plays of Sophocles (Jebb; trees on Perseus's text of Sophocles), the Oresteia
+    (Sidgwick; Perseus's text, Smyth's Loeb), Lysias (Hude; Perseus's text, Lamb's Loeb, for the
+    hand-made and the automatic trees alike), the Clouds (Starkie's text; GLAUx on Perseus's
+    text, Hall and Geldart) and A True Story (Nilén; GLAUx on Perseus's text, Harmon's Loeb)
+    have trees made on another edition. The Symposium and the Gorgias (Burnet in both), the
+    Shepherd (Lake in both) and the New Testament (the SBL text in both) have trees made on the
+    same edition's digital text: they would need at most the word-level record. Review lists'
+    "reads X where the trees have Y": Odyssey 654, Lysias 209: those are the pairs that would
+    want decisions.
+  * Version d2f7cbb023efbec9; no other text's database changed (checksums).
