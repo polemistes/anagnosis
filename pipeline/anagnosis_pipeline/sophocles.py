@@ -1462,6 +1462,8 @@ COMMENTARY_FIXES: dict[str, list[tuple[str, str]]] = {
         ("ὦ φλ* ́ʼε Θεόδωρε", "ὦ φίλε Θεόδωρε"), ("τῆς π*|ολεως", "τῆς πόλεως"),
     ],
     "electra": [
+        # a breathing Perseus left out (note on 1485): ἐξ ἀρχῆς
+        ('κακὸν ὲξ ἀρχῆς', 'κακὸν ἐξ ἀρχῆς'),
         # Pind. P. 3. 24 (note on 1427): Jebb prints the digamma, ἀϝάταν (leaf 286, read 2026-11-17)
         ('μεγάλαν ἀvάταν', 'μεγάλαν ἀϝάταν'),
         # Perseus's o=io/llusai (the lemma of 141) for dio/llusai
@@ -1589,6 +1591,16 @@ COMMENTARY_FIXES: dict[str, list[tuple[str, str]]] = {
         ('**vαύταις**', '**ναύταις**'),
     ],
     "antigone": [
+        # a breathing Perseus left out (e\k for e)k): 27 f. ἐκ (leaf 82), 10 ἐχθρῶν and 489 ἐπιθυμία
+        # read on the page (leaves 78, 165); the rest evident (Simonides's ἐπεὶ δʼ ἱκανὸν … ἐποίησε,
+        # Arist. Rhet. 3. 2 § 14 ὁ Σιμωνίδης)
+        ('The compound with ὲκ usu.', 'The compound with ἐκ usu.'),
+        ('τῶν ὲχθρῶν κακά', 'τῶν ἐχθρῶν κακά'),
+        ('οὐδ\' ὲπιθυμία', 'οὐδ\' ἐπιθυμία'),
+        ('μὴ ὲλλείπεσθαι', 'μὴ ἐλλείπεσθαι'),
+        ("ἐπεὶ δ' ικανὸν ἔδωκεν, ὲποίησε", "ἐπεὶ δ' ἱκανὸν ἔδωκεν, ἐποίησε"),
+        ('§ 14 ὸ Σιμωνίδης', '§ 14 ὁ Σιμωνίδης'),
+        ('αὐτῷ ὸ νικήσας', 'αὐτῷ ὁ νικήσας'),
         # a circumflex Perseus keyed apart from its vowel (ou)\= for oi)=, h\= for h)=), and its
         # mhde= for mhde\; and in the OC quotation an equals sign keyed against the next word
         ('ἐξ ἀμφοῖν ͂ἐξ ἀλλήλοιν', 'ἐξ ἀμφοῖν = ἐξ ἀλλήλοιν'),
