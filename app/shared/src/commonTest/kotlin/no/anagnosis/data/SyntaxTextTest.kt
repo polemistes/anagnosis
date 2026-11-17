@@ -65,6 +65,8 @@ class SyntaxTextTest {
         assertEquals("καὶ ἐκ", node.form)
         assertEquals(3, tree.nodes.size)
         assertEquals("adverbial of καὶ ἐκ", Syntax.roleOf(tree, pol))
+        assertEquals("καὶ ἐκ together: preposition of βριάει", Syntax.roleLine(tree, kai))
+        assertEquals("καὶ ἐκ together: preposition of βριάει", Syntax.roleLine(tree, ek))
         val marked = Syntax.marked(tree, listOf(kai, ek, pol, verb),
             mapOf(11L to row("unit", "κἀκ", token = 11), 12L to row("unit", "κἀκ", token = 12)), emptyMap())
         assertSame(tree, marked)                       // a unit marks no node

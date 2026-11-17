@@ -232,6 +232,17 @@ object Syntax {
         return "$role of ${headLabel(head)}"
     }
 
+    /**
+     * The word sheet's role line: [roleOf], and for a word printed apart from the other words
+     * of its node (αἵ θʼ for the trees' one word) the role is said to be theirs together:
+     * "αἵ θʼ together: subject of ἔχουσιν".
+     */
+    fun roleLine(tree: SyntaxTree, token: Tokens): String? {
+        val role = roleOf(tree, token) ?: return null
+        val node = tree.nodeFor(token) ?: return role
+        return if (node.joined.isEmpty()) role else "${node.form} together: $role"
+    }
+
     /** How an omitted word or a punctuation mark is named when something depends on it. */
     fun headLabel(node: SyntaxNode): String = when {
         node.artificial -> "an omitted word"

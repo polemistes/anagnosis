@@ -200,7 +200,7 @@ class AnagnosisRepository(
         val short = q.selectShortDefinition(token.lemma_key).executeAsOneOrNull()?.definition
         // where the trees' text reads otherwise, the role is that of the trees' word, said as such
         val textRow = data.syntaxTextByToken[token.id]
-        val syntax = token.sentence?.let { Syntax.roleOf(sentenceTree(data, it), token) }
+        val syntax = token.sentence?.let { Syntax.roleLine(sentenceTree(data, it), token) }
             ?.let { if (textRow != null && SyntaxText.isReading(textRow, token.form)) SyntaxText.readingRole(textRow, it) else it }
             ?.let { if (data.automaticSyntaxAt(data.lineById[token.line_id]?.n_int ?: 0L)) "$it (automatic)" else it }
         val (lemma, homograph) = splitHomograph(token.lemma)

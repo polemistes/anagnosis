@@ -117,7 +117,8 @@ fun WordSheet(
                     Text(subtitle, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
                 }
                 info.syntax?.takeIf { showFunction }?.let {
-                    Text(it.replaceFirstChar { c -> c.uppercase() }, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    // capitalised where it begins with an English word, not where it begins with the Greek words of a unit
+                    Text(it.replaceFirstChar { c -> if (c in 'a'..'z') c.uppercase() else c.toString() }, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
                 }
                 // where the trees were made on another text and it differs at this word
                 info.syntaxNote?.takeIf { showFunction }?.let {
