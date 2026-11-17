@@ -114,7 +114,19 @@ pages each; notes-29 = leaves 300-307), 6,238 flags (median 25 a page), 768 note
 draft (751 distinct numbers; Perseus's file 783, 716 in both); as a rough measure the draft shares
 92.8 % of the words of the commentary on sale and 85.3 % of its Greek words. `sophocles-prose
 antigone` keeps Perseus's commentary until every batch is checked (tested). Next: the first
-check of the 29 batches, then the second reading (the coordinator's agents). Ajax and Electra follow by the same steps: the Ajax
+check of the 29 batches, then the second reading (the coordinator's agents). Ajax and Electra follow by the same steps:
+
+**Ajax and Electra (2026-11-17), set up and drafted** (notes_leaves in drama.PLAYS, both in
+COMMENTARY_FROM_PAGE, the brief's subsection "The Ajax's and the Electra's commentaries"; Perseus's
+commentary stays until every notes batch is checked, tested). Ajax: 202 pages (leaves 94-295) in 26
+batches notes-01…26 (notes-26 = leaves 294-295), 4,673 flags (median 22 a page), 829 note headings
+(812 distinct numbers; Perseus 841, 775 in both); the draft shares 92.3 % of the words of the
+commentary on sale, 84.8 % of its Greek. Electra: 198 pages (leaves 102-299) in 25 batches
+notes-01…25 (notes-25 = leaves 294-299), 4,796 flags (median 23.5), 844 headings (828 distinct;
+Perseus 830, 762 in both); 92.3 % of the words, 84.2 % of the Greek. Next for both: the first check,
+then the second reading (the coordinator's agents). When switched on, for each play fall away
+COMMENTARY_FIXES[<play>] (Perseus's unread places, the digamma and mistyped ν, the circumflexes,
+the Electra's ἀϝάταν and διόλλυσαι), jebb_authors.restored for it, LATIN_ITALICS for it. the Ajax
 scan playsfragmentswi07sophuoft (University of Toronto, 1896), text leaves 94-295; the Electra
 sophoclesplaysfr06soph (University of Florida, 1894), text leaves 102-299; both have the scan's
 OCR text (`*_djvu.txt`) for the f./ff. step; the Electra's leaf 184 cuts a letter at the page's
