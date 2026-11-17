@@ -547,6 +547,9 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          "playsfragmentswi07sophuoft", "jebb", "R. C. Jebb", "sophocles_ajax_jebb",
          treebank="tlg0011.tlg003.perseus-grc1.tb.xml", translation="kept", translator="Richard C. Jebb", trans_key="jebb", layout="jebb", app_rule="under", head_frac=0.095, speaker_trust=True, app_langs=("eng+grc", "grc+eng"),
          check_text="sophocles/ajax/reference-grc.txt",
+         # the fourth episode (974) begins 13 verses after the check text's section (961: Tecmessa's
+         # speech, which Jebb counts in the kommos 879-973)
+         parts_window=14,
          # leaf = PDF page (Toronto, reprint 1914 of the 1896 edition; leaves 352-355 hidden): the Greek
          # on the even leaves 94-294 (pp. 10-210), Jebb's translation facing it; the Appendix from 298
          text_leaves=[(94, 295)]),
@@ -1893,7 +1896,7 @@ def merge_play(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path
         from . import sophocles
 
         if slug in sophocles.PLAYS:
-            for m in sophocles.align_part_starts(doc, sophocles.PLAYS[slug]):
+            for m in sophocles.align_part_starts(doc, sophocles.PLAYS[slug], window=play.parts_window):
                 print(m)
             sophocles.label_parts(doc, sophocles.PLAYS[slug])
             print(f"lyric sub-headings repeated within a stanza dropped: {sophocles.merge_repeated_subsections(doc)}")

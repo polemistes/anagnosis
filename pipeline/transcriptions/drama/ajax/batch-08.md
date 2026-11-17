@@ -53,7 +53,7 @@
 596	ὦ κλεινὰ Σαλαμίς, σὺ μέν
 597	που ναίεις ἁλίπλακτος εὐδαίμων,
 598	πᾶσιν περίφαντος ἀεί·
-600	ἐγὼ δʼ ὁ τλάμων παλαιὸς ἀφʼ οὗ χρόνος
+599	ἐγὼ δʼ ὁ τλάμων παλαιὸς ἀφʼ οὗ χρόνος
 601	Ἰδαῖα μίμνων λειμώνιʼ ἔπαυλα μηνῶν
 603	ἀνήριθμος αἰὲν εὐνῶμαι,
 605	χρόνῳ τρυχόμενος,
@@ -74,6 +74,7 @@
 605	τρυχόμενος (flag): printed on verse 605 (7), as the draft has it.
 601	Jebb's asterisks before ἔπαυλα, μηνῶν, εὐνῶμαι left out.
 600	rev: numbering of ἐγὼ δʼ … χρόνος kept at 600 (margin 600 beside it; commentary "600 παλαιὸς ἀφʼ οὗ χρόνος", apparatus on p-0182 "παλαιὸς in 600"). Open: the verse may cover 599-600 (L's lines ἐγὼ δʼ— | παλαιὸσ— are two, and nothing on the page places 599 in πᾶσιν … ἀεί), which would make it 599 as 624 is beside the margin's 625 on p-0182; nothing Jebb prints names ἐγὼ δʼ by number, so not changed.
+599	rev: RENUMBERED from 600 (the open question above, settled 2026-11-17): the verse covers 599-600. L divides ὦ κλεινὰ— | ναίεισ— | πᾶσι— | ἐγὼ δʼ— | παλαιὸσ— (Jebb's apparatus 596-608), five of L's lines for 596-600, of which Jebb prints the last two as one verse; his commentary's "600 παλαιὸς ἀφʼ οὗ χρόνος" names its second half, and his margin 600 stands beside it because 600 falls in it (as 624 beside the margin's 625 on p-0182, and as at Antigone 1344). A verse covering two numbers is numbered by the first, as 601 (covering 601-602) and 603 here.
 603	rev: RENUMBERED from 602 (the question the first pass left open): Jebb's apparatus gives L's three lines ἰδαία μίμνων | λειμωνίᾳ … μήλων | ἀνήριθμοσ … as "601—603", and his commentary sets "601—603 Ἰδαῖα κ.τ.λ." against the antistrophic "613—615 κρατοῦντʼ … ηὕρηται", whose first verse covers 613-614 (614 οἰοβώτας in apparatus and commentary) and whose second is 615 (margin): so Ἰδαῖα … μηνῶν covers 601-602 and ἀνήριθμος … εὐνῶμαι begins at 603 (covering 603-604, up to the margin's 605 at χρόνῳ). The check text numbers it 602.
 
 === p-0182

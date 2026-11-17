@@ -51,7 +51,11 @@ PLAYS = {p.slug: p for p in [
                 (1261, "Exodos: kommos"), (1348, "Exodos")]),
     Play("ajax", "aj", "tlg003", "Αἴας", "Ajax", "VII", "1896",
          treebank="tlg0011.tlg003.perseus-grc1.tb.xml",
-         parts=[(1, "Prologue"), (134, "Parodos"), (201, "First episode"), (596, "First stasimon"),
+         # Jebb's "Structure of the play" (introduction): "ἐπεισόδιον πρῶτον, 201—595 (including two
+         # κομμοί, 201—262, and 348—429)", "ἐπιπάροδος (866—878), followed by a κομμός (879—973)",
+         # "ἐπεισόδιον τέταρτον, 974—1184"
+         parts=[(1, "Prologue"), (134, "Parodos"), (201, "First episode: kommos"), (263, "First episode"),
+                (348, "First episode: second kommos"), (430, "First episode"), (596, "First stasimon"),
                 (646, "Second episode"), (693, "Second stasimon"), (719, "Third episode"),
                 (866, "Epiparodos"), (879, "Kommos"), (974, "Fourth episode"), (1185, "Third stasimon"),
                 (1223, "Exodos")]),
@@ -390,7 +394,11 @@ def align_part_starts(doc, play: Play, window: int = 6) -> list[str]:
         tops = [(i, l) for i, l in tops if l is not None]
         if any(base(l.n) == start for _i, l in tops):
             continue
-        near = [(abs(base(l.n) - start), i, l) for i, l in tops if abs(base(l.n) - start) <= window]
+        # a section that already begins exactly at another division is that division's: never
+        # taken (the Ajax: the kommos's section at 879 is not the epiparodos's at 866)
+        starts = {s for s, _l in play.parts}
+        near = [(abs(base(l.n) - start), i, l) for i, l in tops
+                if abs(base(l.n) - start) <= window and base(l.n) not in starts]
         if not near:
             # no top-level section near, but a lyric sub-section of the check text begins at the
             # division's first verse (the Alcestis: the third stasimon 962 inside Perseus's choral
