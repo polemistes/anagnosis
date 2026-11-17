@@ -53,7 +53,7 @@
 492	λυσσῶσαν αὐτὴν οὐδʼ ἐπήβολον φρενῶν·
 493	φιλεῖ δʼ ὁ θυμὸς πρόσθεν ᾑρῆσθαι κλοπεὺς
 494	τῶν μηδὲν ὀρθῶς ἐν σκότῳ τεχνωμένων.
-495	μισῶ γε μέντοι χὤταν ἐν κακοῖσί τις
+495	μισῶ γε μέντοι χὥταν ἐν κακοῖσί τις
 496	ἁλοὺς ἔπειτα τοῦτο καλλύνειν θέλῃ.
 --- apparatus
 487	ἑρκίου L: ἑρκείου r.
@@ -67,6 +67,7 @@
 493	the page prints no comma after πρόσθεν (the check text has one)
 494	the page prints a full stop after τεχνωμένων (the check text has a raised stop)
 490	ἐπι-|ψαῦσαι divided at the line end in the apparatus: written whole
+495	rev: χὤταν → χὥταν: the page prints rough breathing with acute, the same glyph as ὅστις (479) and unlike ἔπειτα (496), as in χἡ (488); the check text has χὤταν
 
 === p-0166
 --- text

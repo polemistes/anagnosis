@@ -14,7 +14,7 @@
 540	ἀλλʼ ἐν κακοῖς τοῖς σοῖσιν οὐκ αἰσχύνομαι
 541	ξύμπλουν ἐμαυτὴν τοῦ πάθους ποιουμένη.
 @ Ἀντιγόνη
-542	ὧν τοὔργον, Ἅιδης χοἰ κάτω ξυνίστορες·
+542	ὧν τοὔργον, Ἅιδης χοἱ κάτω ξυνίστορες·
 543	λόγοις δʼ ἐγὼ φιλοῦσαν οὐ στέργω φίλην.
 @ Ἰσμήνη
 544	μήτοι, κασιγνήτη, μʼ ἀτιμάσῃς τὸ μὴ οὐ
@@ -36,6 +36,7 @@
 536	The page prints a comma after ὁμορροθεῖ (check text has none).
 546	The page prints κοινά, with acute and comma (check text κοινὰ without comma).
 546	The apparatus note runs on to the head of p-0174's apparatus ("δʼ L.—ʼθιγες] θίγεσ L. Cp. 457, 539."): taken from there.
+542	rev: χοἰ → χοἱ: the mark on ι is a rough breathing, the same shape as ἁ in ἁγνίσαι (545) and unlike the smooth ʼ on this page (Jebb marks the aspirate of καὶ οἱ).
 535	Apparatus lemma breathings (ἣ in 531, ἢ in 535) are blurred at enlargement; written as the text words they quote.
 
 === p-0174
@@ -96,13 +97,13 @@
 @ Ἰσμήνη
 568	ἀλλὰ κτενεῖς νυμφεῖα τοῦ σαυτοῦ τέκνου;
 @ Κρέων
-569	ἀρώσιμοι γὰρ χἀτέρων εἰσὶν γύαι.
+569	ἀρώσιμοι γὰρ χἁτέρων εἰσὶν γύαι.
 @ Ἰσμήνη
 570	οὐχ ὥς γʼ ἐκείνῳ τῇδέ τʼ ἦν ἡρμοσμένα.
 @ Κρέων
 571	κακὰς ἐγὼ γυναῖκας υἱέσι στυγῶ.
 --- apparatus
-563	οὐ γάρ ποτʼ] ἀλλʼ οὐ γὰρ Plutarch Phoc. 1, and Mor. 460 E. The grammarian Gregorius Corinthius (c. 1150 A.D.) p. 417 has ἀλλὰ γάρ.
+563	οὐ γάρ ποτʼ] ἀλλʼ οὐ γὰρ Plutarch Phoc. 1, and Mor. 460 E. The grammarian Gregorius Corinthius (c. 1150 A.D.) p. 417 has ἀλλὰ γὰρ.
 564	πράσσουσιν] πράξασιν Plut. Mor. 460 E. πράττουσιν Gregorius l. c.
 565	σοὶ γοῦν] καὶ has been deleted before σοὶ in L.—κακοῖς] L has ·ῆι· written above by S. Some of the later MSS. have κακῇ or (as A) κακῷ.
 567	μέν σοι L, and so nearly all the later MSS.; but E has μέν τοι σοὶ: Brunck replaced μέντοι.
@@ -112,6 +113,8 @@
 --- notes
 570	Flag: γʼ is printed on this line (ὥς γʼ); nothing changed. Every verse read against the page: no other difference.
 571	The apparatus note on 571 runs on to the head of p-0178's apparatus: its end taken from there.
+569	rev: χἀτέρων → χἁτέρων: the page prints a rough breathing on α (the same c-shape as ἡρμοσμένα 570, unlike the smooth of ἀρώσιμοι on this line); his apparatus quotes the MSS. χἀτέρων with a smooth one.
+563	rev: apparatus 563 ἀλλὰ γάρ → ἀλλὰ γὰρ (grave, as printed).
 569	The 563-569 notes and the start of 571 continue from p-0176 onto the facing page (leaf 177), read from the whole page.
 
 === p-0178
@@ -130,7 +133,7 @@
 577	καὶ σοί γε κἀμοί. μὴ τριβὰς ἔτʼ, ἀλλά νιν
 578	κομίζετʼ εἴσω, δμῶες· ἐκ δὲ τοῦδε χρὴ
 579	γυναῖκας εἶναι τάσδε μηδʼ ἀνειμένας.
-580	φεύγουσι γάρ τοι χοἰ θρασεῖς, ὅταν πέλας
+580	φεύγουσι γάρ τοι χοἱ θρασεῖς, ὅταν πέλας
 581	ἤδη τὸν Ἅιδην εἰσορῶσι τοῦ βίου.
 --- apparatus
 572	The MSS. give this v. to Ismene. The Aldine ed. (1502) and that of Turnebus (1553) first gave it to Antigone; and so Boeckh.—αἵμων L. αἷμον r.
@@ -144,6 +147,7 @@
 572	Flags: the print marks the speakers of 572 (*ΑΝ.) and 574 (*ΧΟ.) with an asterisk (Jebb's attribution against the MSS., see his notes); the speaker changes stand: nothing changed. Margin 575 checked: numbering right.
 575	The page prints ἐμοί (Jebb's apparatus: ἐμοί L: ἔφυ r); check text ἔφυ.
 581	The page prints no comma after τὸν (check text τὸν,).
+580	rev: χοἰ → χοἱ: the mark on ι is the rough breathing (c-shape like ὅταν on this line; κἀμοί 577 has the smooth one), as in 542.
 571	The head of this page's apparatus ("υἱέσι r.") ends the note on 571, written with p-0176.
 577	The notes from 577 on stand on the facing page (leaf 179) and were read from the whole page; the note on 579 ends at the head of p-0180's apparatus ("τᾶσδε, viz. … both vv."), taken from there.
 578	The correction "ȣ" is printed as the ου ligature: written ȣ (U+0223) as printed.

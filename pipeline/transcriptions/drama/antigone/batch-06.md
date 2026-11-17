@@ -54,6 +54,8 @@
 340	the page ends the verse with a comma.
 335	apparatus: the item is numbered 335 as printed (πόντου stands in our verse 334).
 339	apparatus: printed "339 f."; the breathings of ἁπλωμένων and εἱλομένων are small in the print and read as rough.
+338	rev: apparatus "After τὰν": a thin grey stroke under the grave over α is fainter and thinner than the printed macron of ὀρεσσιβάτᾱ (350, leaf 140): taken as a reader's pencil, τὰν kept.
+339	rev: the rough breathings of ἁπλωμένων and εἱλομένων confirmed at enlargement against the rough of ὃς (leaf 136) and the smooth of ἔτος, ἐξ (this spread).
 
 === p-0140
 --- text
@@ -78,6 +80,7 @@
 344	apparatus: ἀμφιβαλὼν stands in our verse 342 (342-344); the item keeps Jebb's number.
 351	the page prints asterisks before ὀχμάζεται and ἀμφὶ (Jebb's mark of conjectures admitted): left out; and a comma after ζυγῶν (draft: none).
 351	apparatus: in "ἀμφίλοφον" a thin upright stroke after ἀμ is a reader's pencil mark (thinner and greyer than the type, like the pencil strokes in the verses): left out.
+351	rev: at enlargement the page prints the last two forms of "The later MSS. have ἄξεται (A), ἄξετʼ, ἕξεται, ἕξετʼ" with a SMOOTH breathing (the same mark as ἀπὸ, ἄξεται; unlike the rough of ἵππον, ὑπὸ and of L's ἕξεται twice in the same note): ἔξεται is no Greek form and the note names L's ἕξεται, so taken as an evident misprint and kept rough (ἕξεται, ἕξετʼ); the user may prefer the print's ἔξεται, ἔξετʼ.
 354	καὶ φθέγμα καὶ ἀνεμόεν (strophe β΄, verse 1): Jebb's margin 354 and his commentary "354 φθέγμα" (leaf 141); the draft had 355.
 
 === p-0142
