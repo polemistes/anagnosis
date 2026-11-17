@@ -80,6 +80,48 @@ tests and mechanical checks.
 
 The metrical analyses are not transcribed (as for Ajax and Electra).
 
+## The commentaries of the plays on sale, read from the page
+
+**Why.** Jebb's commentary on the Antigone, the Ajax and the Electra came from Perseus's
+digitisation, and that is not his page: the agents who restored the dropped authors (b8afd0f)
+reported, in passing, authors and titles added where Jebb prints none ("( Aesch. Th. 218" for
+"(*Th.* 218"), titles respelt ("Hellen." for "*H.*", "Aristoph." for "Ar.", "PV" for "*P. V.*"),
+authors missing where no rule finds them, slips ("Au." for "*Av.*", "instead o going", "δρἆν",
+"ἅλλος", "GeelJ."), lost apostrophes, a lemma in italics for bold; Perseus's links ("see on 13")
+are its own wording too. The texts on sale are mended first, by the newest proven route: the
+whole commentary is read from the page by the prose route (kind `notes`), as the Philoctetes's.
+
+**Steps, per play.** (1) `notes_leaves` in drama.PLAYS (the commentary under the rule of every
+text leaf, both pages, two columns), `drama-prose <play> notes fetch|ocr|draft` (the page images
+of the text route are reused): batches `transcriptions/drama/<play>/notes-NN.md`, eight pages
+each, crops in build/drama-prose/<play>/. (2) The brief: INSTRUCTIONS-prose.md, "Jebb's
+Sophocles: the commentary" and the volume's own subsection (headings, citations exactly as
+printed, italics for Latin and titles, "=", metrical signs, footnotes, run-ons across openings,
+pencil). (3) First check of every batch, then a second reading (drama-prose.workflow.js;
+the agents are the coordinator's). (4) When every batch is checked, `sophocles-prose <play>`
+writes commentary-jebb.md from them (`write_transcribed_commentary`; the play in
+`sophocles.COMMENTARY_FROM_PAGE`): f./ff. put back from the scan's OCR text, notes on numbers our
+text lacks re-filed ("[124 ff.] …"), header and licence of the scan (CC BY-SA 4.0); until then
+Perseus's stays. Then `build --only`, catalog, check, tests, and an emulator look.
+(5) What then falls away for that play: COMMENTARY_FIXES[<play>] (Perseus's unread places,
+breathings, the circumflex and equals-sign repairs, the digamma), jebb_authors.restored for it,
+LATIN_ITALICS for it (the batches carry the italics), Perseus's 65 "see on N" links (the
+Antigone's; the page prints "N n.", which stays as text).
+
+**State (2026-11-17).** Antigone: set up (notes_leaves 76-307, COMMENTARY_FROM_PAGE = {"antigone"},
+the brief's subsection) and drafted: 232 pages (leaves 76-307) in 29 batches notes-01…29 (eight
+pages each; notes-29 = leaves 300-307), 6,238 flags (median 25 a page), 768 note headings in the
+draft (751 distinct numbers; Perseus's file 783, 716 in both); as a rough measure the draft shares
+92.8 % of the words of the commentary on sale and 85.3 % of its Greek words. `sophocles-prose
+antigone` keeps Perseus's commentary until every batch is checked (tested). Next: the first
+check of the 29 batches, then the second reading (the coordinator's agents). Ajax and Electra follow by the same steps: the Ajax
+scan playsfragmentswi07sophuoft (University of Toronto, 1896), text leaves 94-295; the Electra
+sophoclesplaysfr06soph (University of Florida, 1894), text leaves 102-299; both have the scan's
+OCR text (`*_djvu.txt`) for the f./ff. step; the Electra's leaf 184 cuts a letter at the page's
+edge (Whitelaw's ‘O… in the note on 603), which no reading of this scan can settle. Their
+commentaries carry the same Perseus slips; their Appendix and introduction are already from the
+page.
+
 ## Progress
 
 * **2026-11-17, Latin in italics in Jebb's commentaries.** Jebb prints Latin in italics (ap., sc., ib.,
