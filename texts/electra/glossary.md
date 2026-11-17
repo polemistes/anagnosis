@@ -40,3 +40,6 @@
 
 ## πάγχρυσος
 **πάγχρυσος, -ον** all of gold, all-golden.
+
+## Ἀτρεύς
+**Ἀτρεύς, -έως, ὁ** Atreus, king of Mycenae, father of Agamemnon and Menelaus; σπέρμʼ Ἀτρέως, the seed of Atreus (1508).

@@ -6,7 +6,7 @@
 **ΥΠΟΘΕΣΙΣ.** Τὸ δρᾶμα τῆς Τρωϊκῆς ἐστι πραγματείας, ὥσπερ οἱ ΑΝΤΗΝΟΡΙΔΑΙ καὶ
 ΑΙΧΜΑΛΩΤΙΔΕΣ καὶ ΕΛΕΝΗΣ ΑΡΠΑΓΗ καὶ ΜΕΜΝΩΝ. πεπτωκότος
 
-*Critical notes.* This Argument is found in A (cod. Par. 2712, 13th cent.), and in a large
+*Critical apparatus.* This Argument is found in A (cod. Par. 2712, 13th cent.), and in a large
 number of the later MSS., but not in the Laurentian MS. (L).
 
 The first paragraph of this ὑπόθεσις (ending with ἀναγέγραπται) is complete in itself, and is

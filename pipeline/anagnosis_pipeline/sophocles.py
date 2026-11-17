@@ -1412,6 +1412,26 @@ COMMENTARY_FIXES: dict[str, list[tuple[str, str]]] = {
         ("Kontos *ʽλόγιος Ἑρμῆς p. 61)", "Kontos (Λόγιος Ἑρμῆς p. 61)"), ("(or ᾔδεινʼ.", "(or ᾔδειν)."),
         ("ὦ φλ* ́ʼε Θεόδωρε", "ὦ φίλε Θεόδωρε"), ("τῆς π*|ολεως", "τῆς πόλεως"),
     ],
+    "ajax": [
+        # Perseus's "<*>" (imported as "[?]") and capital rho keyed *(p, read on Jebb's page (1896, scan
+        # playsfragmentswi07sophuoft; 2026-11-17): 16 of the 20; notes 68, 500, 797, 977 still to read
+        ('εἱλόμη[?] ἄν', 'εἱλόμην ἄν'),
+        ('Menander *ʽπαπιζομένης', 'Menander Ῥαπιζομένης'),
+        ('γυμνικὸν [?]ιὰ πάσης', 'γυμνικὸν διὰ πάσης'),
+        ('in which Soph [?]es has used', 'in which Sophocles has used'),
+        ('**ἐπεντύνον[?]**', '**ἐπεντύνοντʼ**'),
+        ('the fore[?]st thought', 'the foremost thought'),
+        ('τῶν τρ[?]άκοντα', 'τῶν τριάκοντα'),
+        ('κανόνητα σ[?]ματα', 'κανόνητα σώματα'),
+        ('stem the [?]de.', 'stem the tide.'),
+        ('ἀτρύτ [?]τιν |', 'ἀτρύτοισιν |'),
+        ('ὁ ἀεὶ as=[?] ἀεὶ ὤν', 'ὁ ἀεὶ as=ὁ ἀεὶ ὤν'),
+        ('διαφέρε[?]ν τὸν', 'διαφέρειν τὸν'),
+        ('ᾧ καὶ Ζ[?]ὺς', 'ᾧ καὶ Ζεὺς'),
+        ('τῷ *ʽποιτείῳ', 'τῷ Ῥοιτείῳ'),
+        ('fairly wo[?] The fut.', 'fairly won. The fut.'),
+        ('ἐμβρόντητε, ε[?] ͂τα νῦν', 'ἐμβρόντητε, εἶτα νῦν'),
+    ],
     "antigone": [
         # Perseus's "<*>" (imported as "[?]") and capital rho keyed *(p ("*ʽπ"), each read on Jebb's
         # page (2nd ed. 1891, scan sophocles03soph; notes 155, 215, 401, 473, 493, 630-635, 732, 1030,

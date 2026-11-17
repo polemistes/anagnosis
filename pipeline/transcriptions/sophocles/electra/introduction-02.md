@@ -12,7 +12,7 @@
 κλέψας ἐκ τοῦ Ἄργους ὁ παιδαγωγὸς ἔφυγεν καὶ διὰ εἴκοσιν ἐτῶν ἐπανελθὼν εἰς τὸ Ἄργος μετ’
 αὐτοῦ δείκνυσιν αὐτῷ τὰ ἐν Ἄργει.
 
-*Critical notes.* These so-called ὑποθέσεις are merely notes, by two different commentators,
+*Critical apparatus.* These so-called ὑποθέσεις are merely notes, by two different commentators,
 explanatory of the situation with which the play opens. In the Laurentian MS. (L), p. 17 *a*,
 they are prefixed to the text, and run on continuously, the word ἄλλως being absent. But in the
 Florentine MS., cod. Abbat. 2725 (late 13th cent.), the second is distinguished from the first

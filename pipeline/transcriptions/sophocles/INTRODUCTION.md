@@ -28,7 +28,7 @@ All the rules of APPENDIX.md (same folder) hold here: read it first. The differe
   The heading in Greek capitals (ΥΠΟΘΕΣΙΣ, ΑΡΙΣΤΟΦΑΝΟΥΣ ΓΡΑΜΜΑΤΙΚΟΥ ΥΠΟΘΕΣΙΣ) begins its
   first paragraph in bold: `**ΥΠΟΘΕΣΙΣ.** Τὸ δρᾶμα …`.
 * Jebb's critical notes on it (the small full-width block) follow it as one paragraph beginning
-  `*Critical notes.*`, the notes in print order, each with its line number: `*Critical notes.*
+  `*Critical apparatus.*`, the notes in print order, each with its line number: `*Critical apparatus.*
   2 **ἐπιγράφουσιν**] So Dindorf with L: vulg. ἐπέγραφον. 4 …`.
 * His commentary on it (the two columns below): a paragraph per note, the lemma in bold, as in
   `texts/antigone/introduction.md`: `**ΑΡΙΣΤΟΦΑΝΟΥΣ ΓΡΑΜΜΑΤΙΚΟΥ**] The first of the three …`
