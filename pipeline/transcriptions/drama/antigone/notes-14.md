@@ -39,6 +39,7 @@ The sentence of death just passed on Antigone leads the Chorus to reflect on the
 21 πνοαῖς: [conf] → ok
 --- notes
 The page begins with a new, indented paragraph of the note on 582-625 (on p-0179): no `+ `, as the brief says; the checker's remark on it is expected. Draft's "**ναι** mortal" was "What mortal", run on in the same paragraph after a dash: joined. The draft's cut before ἄτας kept (bold lemma after a dash), the lemma completed **ἄτας οὐδὲν ἐλλείπει**; **γενεᾶς ἐπὶ πλῆθος** made a new paragraph (bold after a dash). "the second ι": the letter as printed (the checker's breathing remark on it is expected). Corrected among others: act. (was οί.), *O. T.* 969, Eur. *Alc.* 1069 ὡς ἄρτι, ἀρά, Laïus, (*O. T.* p. xix.), οἷς=τούτοις οἷς, Dem. or. 18 § 92 (was 8), *Mem.*, *Phaedr.*, ‘*in* speaking,’ γενεᾶν, *Legg.* 628 D, ἡγοῖτό, ‘generosity.’ (closing quote), italics set from the image.
+582	the page begins with a new, indented paragraph of the note before (## 582-625, whose heading ends p-0179): "The sentence of death …": no '+ ' (settled at the merge, 2026-11-17).
 
 === p-0181
 + from Thrace.’ Construe: **ὅταν οἶδμα**, when a surge, **ποντίαις δυσπν. Θρ. πνοαῖς**, driven by stormy sea-winds from Thrace (instr. dat., cp. on 335 νότῳ), **ἐπιδράμῃ ἔρεβος ὕφαλον**, rushes over the dark depths of the sea (lit., the darkness under the surface of the sea). For δυσπν. πνοαῖς, cp. 502 n.: for **Θρῄσσαισιν**, Aesch. *Ag.* 192 πνοαὶ δ’ ἀπὸ Στρυμόνος μολοῦσαι, *ib.* 654 Θρῄκιαι πνοαί (and 1418): *Il.* 9. 5 (where the tumult in the breasts of the Greeks is likened to a storm) Βορέης καὶ Ζέφυρος, τώ τε Θρῄκηθεν ἄητον.
@@ -152,6 +153,7 @@ It has further been urged against κοπίς that the word is too homely. This m
 12 2.6. [conf] → *i.e.*
 --- notes
 The page begins with a new, indented paragraph "(1) If κόνις be right" of the note on 601: no `+ `; the checker's remark is expected. Corrected among others: καὶ (twice, was kal), *i.e.* (three times), resolve.’ and death.’ and cuts.’ (closing quotes), p. lviii (was viii), *agent*, *cause*, (*a*), (*b*), τοίη οἱ, *Ther.* 780, be right, 256 (draft 250), ἄνουν, ἀφροσύνῃ, **φρενῶν ἐρινύς** bold inside the paragraph as printed, *impulse*. ## 603: Jebb's number; our text has no 603.
+601	the page begins with a new, indented paragraph of the note before: "(1) If **κόνις** be right …": no '+ ' (settled at the merge, 2026-11-17).
 
 === p-0184
 + Her., Pind., etc.); admitted by Aesch. and Eur. in lyrics.
