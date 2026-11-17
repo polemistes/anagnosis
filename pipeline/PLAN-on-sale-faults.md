@@ -52,19 +52,69 @@ something).
   there, in the passage of the adulteress, and Μωϋσ- everywhere else (78 lines); MACULA spells
   the word Μωϋσῆς like the rest. Our lemma is Μωϋσῆς.
 
+## Mended 2026-11-17, second round
+
+**Read on the page image** (not only in the scan's OCR): all ten restored places, small strips
+cut from the page images (`pipeline/build/agent-scratch/record/strip.py`). Bury: on 188 b the
+page has ἐρωτικῶν with a broken ρ (it looks like ἐοωτικῶν; the same word follows whole in the
+line); 191 e γαμούμεναί; 202 a μεταξὺ φρονήσεως; the introduction οἷον / χρὴ εἶναι (εἶναι
+clear; over οἷον the breathing cannot be told from the circumflex at that size: the word is
+Plato's οἷον); Bekker's 𝔄. Lodge: XXXIX. 4. αὐτό; 23. ἢ οἳ ἀνέβησαν; ζῆν — ἐνταῦθα δὲ φοβηθεὶς;
+LXXIII. 1. ἀλλὰ μέντοι . . . μή ποτε; ποριστικὸν; ποικιλίαν ὄψου; οὓς τέκετο Ῥέα. Nothing had to
+be corrected.
+
+**The Odyssey** (version `95f40d8b5d29be7a`)
+* The fourteen sentences whose trees held a cycle: in each, an omitted-word node of the
+  treebank had as its head a word that hangs on that node. The reader (`SyntaxTree`, "a head
+  that leads back to the node itself makes a root") showed both as separate roots, so the
+  sentence fell into two or three trees. Each node now has the head it belongs to, by
+  `odyssey_merge.TREE_FIXES` (sentence, node, the treebank's head, the right head, the reason;
+  the treebank's file is not edited; the merge reports it if the treebank's head is no longer
+  the one the fix was made for). The rule in eleven of them: an omitted predicate marked as a
+  member of a coordination hangs on the coordinator (2.58, 4.632, 5.265, 5.347, 17.283, 22.302),
+  an apposition node on the verb its members are subject of (3.102, 3.210, 3.265), an omitted
+  predicate that is the sentence's own on the root (17.386, 20.220). Three are judgements:
+  2.9–11 (the clause of the two dogs under οὐκ οἶος), 9.313 (the comparison under ἐπέθηκε),
+  24.376 (the οἷος clause under τοῖος ἐών). No tree of the text holds a cycle now.
+* Slips of the lemma: 13.128 πάτερ (πατηρ → πατήρ), 12.439 ὄψʼ (ὄψε → ὀψέ), 11.139 Τειρεσίη
+  (τειρεσίης → Τειρεσίης), 5.125 Ἰασίωνι (ἰασίων → Ἰασίων, the glossary's heading too), 8.517
+  Δηϊφόβοιο (Δηίφοβος → Δηΐφοβος, the glossary's spelling), 2.241 κατερύκετε (κατερυκάνω →
+  κατερύκω, a present).
+* Short definitions for the 53 lemmas that had none: 52 names, each with the opening words of
+  its own entry in `glossary.md` (written from the poem when the glossary was made; nothing
+  new), and Τρῳάς from Middle Liddell ("fem. of Τρώιος, Trojan"). `check`: every lemma covered.
+
+**The Gorgias** (version `88d98c600fbbaf09`)
+* Ten names no dictionary has now have glossary entries, each from the passage itself, two with
+  a fact from Lodge's note, named in the entry: Ἀγλαοφῶν (448b; Polygnotus from Lodge),
+  Κλεοπάτρα (471c), Νικήρατος (472a), Σκελλίας (472b; the second form of the name from Lodge),
+  Κλεινίας (481d), Κλεινίειος (482a), Ξέρξης (483d), Ἀφιδναῖος (487c; the tribe from Lodge),
+  Ἀνδροτίων (487c), Ἀλωπεκῆθεν (495d).
+* 470d1 πρώην: lemma πρῴην → πρώην (its gloss in shortdefs.tsv follows). The enclitic νυν
+  (lemma νύν) and οἷον "for instance" are deliberate lemmas with their own glosses; the
+  dictionaries are found for them by the loose key.
+
+**The Symposium** (version `2a56801e3fa7bb7c`)
+* Two names: Ἦλις (182b) and Διοκλῆς (222b; Bury on the passage), glossary entries from the text.
+
+## What `check` still says of the texts on sale and the free texts (2026-11-17)
+
+* Antigone, Ajax, the New Testament, Lysias: nothing.
+* Electra: Ἀτρεύς (1 word) is in no dictionary and has no glossary entry (for the agent that has
+  the play); Αὐλίς found by the loose key.
+* The Theogony: four warnings "line 407 does not follow 408" (426/427, 430/434, 630/631): Rzach
+  prints those verses out of their numbers' order; as printed.
+* The Gorgias 2, the Symposium 11, the Odyssey 36 lemmas "found only loosely": the dictionary
+  entry is found when accents, diaeresis and capitals are left out of the comparison (Φαῖδρος,
+  μιμνῄσκω, ἀναίσσω, Εὐπείθης): nothing is missing for the reader.
+* The Shepherd: 37 lemmas (79 words) in none of the dictionaries: Koine words the lexica here
+  lack (διψυχέω 21, συμψέλιον 10, πολυσπλαγχνία …) and nine numerals written with the numeral
+  sign (μʹ, λεʹ). Open; glosses could only come from a printed lexicon of the Apostolic Fathers.
+
 ## Open (found, not settled)
 
-* **The Odyssey: fourteen sentences whose trees hold a cycle in the treebank's own data** (an
-  omitted-word node that hangs on a word which hangs on it): 2.9, 2.58, 3.102, 3.210, 3.265,
-  4.632, 5.265, 5.347, 9.313, 17.283, 17.386, 20.220, 22.302, 24.376. Each needs its sentence
-  read. Listed with their nodes by `pipeline/build/agent-scratch/record/treecheck.py`.
-* **Words no dictionary has under their lemma** (`check`, "lexicon coverage"): nearly all are
-  proper names (the Gorgias 10: Ἀγλαοφῶν, Κλεοπάτρα, Νικήρατος …; the Symposium 2: Ἦλις,
-  Διοκλῆς; the Odyssey 58 names). A few are slips of the lemma, not names: the Odyssey πατηρ
-  (1 word), ὄψε (1), τειρεσίης (1, lower case), κατερυκάνω, ἰασίων; the Gorgias νύν, πρῴην, οἷον
-  (found only loosely). And the Odyssey has 56 lemmas (109 words) without a short definition.
-  These want their own pass (lemma fixes; glosses only from printed dictionaries).
+* The Shepherd's 37 lemmas without a dictionary (above).
 * **The shared Betacode converter** still leaves a Latin v for the digamma in every other
   Perseus import (Jebb's commentaries among them); it was not changed, because the plays' fix
   tables match the text as imported and an entry with such a v in it would stop matching.
-  `odyssey.digamma` can be applied to those commentaries after their fix tables.
+  `odyssey.digamma(text)` can be applied to those commentaries after their fix tables.

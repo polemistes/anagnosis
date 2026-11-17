@@ -175,7 +175,7 @@
     "syntax_text": "the Perseus Digital Library's text of this edition, without the words Burnet brackets as not Plato's",
     "google_play": "yes",
     "product_id": "plato_gorgias_burnet",
-    "version": "a40493c7382b5acc"
+    "version": "88d98c600fbbaf09"
   },
   {
     "slug": "hermas",
@@ -267,7 +267,7 @@
     "syntax_text": "the Perseus Digital Library's text of the poem (A. T. Murray's Loeb edition, 1919), which differs in places from Allen's text printed here",
     "google_play": "yes",
     "product_id": "homer_odyssey_allen",
-    "version": "27ef263073555801"
+    "version": "95f40d8b5d29be7a"
   },
   {
     "slug": "oedipuscoloneus",
@@ -356,7 +356,7 @@
     "syntax_license": "CC BY-SA 4.0",
     "google_play": "yes",
     "product_id": "plato_symposium_burnet",
-    "version": "b0f1889471aa9622"
+    "version": "2a56801e3fa7bb7c"
   },
   {
     "slug": "theogony",
