@@ -235,10 +235,11 @@ As PLAN-drama.md "Steps for each play", with the play's slug `theogony`:
     Rzach does not print; 17 single words).
   * **The readings looked at** (`TREE_READINGS["theogony"]`, 52, each with its reason): **46
     kept**, where the inherited role fits our word: the same form spelled otherwise or without
-    the movable ν (34: τέκε/τέκεν, μειχθεὶς/μιχθεὶς, Χίρων/Χείρων), the same name (6), and six
-    where another word stands in the same construction (31 ἀοιδὴν for αὐδὴν, object of
-    ἐνέπνευσαν; 56 νύκτας for νυκτὸς, an adverbial either way; 240 μεγήριτα for μεγήρατα; 399
-    ἔδωκεν for δέδωκεν; 401 ἕο for ἑοῦ; 904 ἧς for ᾗ). **6 dropped**, where it does not: 295
+    the movable ν or elided (30: τέκε/τέκεν, μειχθεὶς/μιχθεὶς, Χίρων/Χείρων), the same name (6), and ten
+    where another word or form stands in the same construction (31 ἀοιδὴν for αὐδὴν, object of
+    ἐνέπνευσαν; 56 νύκτας for νυκτὸς, an adverbial either way; 240 μεγήριτα for μεγήρατα; 282
+    τᾷ for τῷ; 304 χθόνα for χθονὶ; 399 ἔδωκεν for δέδωκεν; 401 ἕο for ἑοῦ; 639 παρέσχεθον for
+    παρέσχεθεν; 659 αὖτις for ἐξαῦτις; 904 ἧς for ᾗ). **6 dropped**, where it does not: 295
     οὐδὲ (the trees' οὐδὲν is an adverbial accusative), 485 τᾷ (the trees' τῷ is an adverb), 497
     καταπίνων (the trees' κατέπινεν is the verb of a relative clause), 659 δεῦρʼ (the trees' δʼ
     is the connective), 860 Ἀίτνης (the trees' ἀιδνῇς is an adjective with another noun), 961 δή
