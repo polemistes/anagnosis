@@ -128,11 +128,20 @@ fun WordSheet(
                         Text("/$ipa/  ·  ${p.label}", style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
                     }
                 }
-                Spacer(Modifier.height(12.dp))
+                // the space above the gloss only where a gloss is shown: a word without one keeps no gap
                 when {
-                    info.shortDefinition != null -> ShortDefinition(info.shortDefinition, info.homograph)
-                    glossary.isNotEmpty() -> glossary.forEach { HtmlText(it.html, onGreekWord = onGreekWord) }
-                    info.entries.isEmpty() -> Text("No dictionary entry found.", style = MaterialTheme.typography.bodyMedium)
+                    info.shortDefinition != null -> {
+                        Spacer(Modifier.height(12.dp))
+                        ShortDefinition(info.shortDefinition, info.homograph)
+                    }
+                    glossary.isNotEmpty() -> {
+                        Spacer(Modifier.height(12.dp))
+                        glossary.forEach { HtmlText(it.html, onGreekWord = onGreekWord) }
+                    }
+                    info.entries.isEmpty() -> {
+                        Spacer(Modifier.height(12.dp))
+                        Text("No dictionary entry found.", style = MaterialTheme.typography.bodyMedium)
+                    }
                 }
                 if (buttons.isNotEmpty() || onSyntax != null || noSyntax || notes.isNotEmpty() || onOccurrences != null) {
                     Spacer(Modifier.height(16.dp))
