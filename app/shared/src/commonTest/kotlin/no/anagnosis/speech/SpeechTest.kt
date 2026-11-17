@@ -37,6 +37,21 @@ class SpeechTest {
     }
 
     @Test
+    fun aKoineWordBeginningWithAStressMarkIsFoundWhereESpeakReportsIt() {
+        // ἐν ἀρχῇ ἦν ὁ λόγος: Koine words may begin with ' or %; eSpeak reports them past the mark
+        val line = "ἐν ἀρχῇ ἦν ὁ λόγος"
+        val words = listOf(SpeechWord(1, 1, "ἐν", 0, 2), SpeechWord(2, 1, "ἀρχῇ", 3, 7), SpeechWord(3, 1, "ἦν", 8, 10),
+            SpeechWord(4, 1, "ὁ", 11, 12), SpeechWord(5, 1, "λόγος", 13, 18))
+        val u = Utterances.build(words, { line }, Pronunciation.KOINE, verse = false)
+        val events = u.words.mapIndexed { i, w ->
+            val past = if (w.phonemes.first() == '\'' || w.phonemes.first() == '%') 3 else 2
+            (u.offsets[i] + past) to (i + 1) * 1000
+        }
+        assertEquals(true, u.words.any { it.phonemes.first() == '\'' || it.phonemes.first() == '%' })
+        assertEquals(listOf(1000, 2000, 3000, 4000, 5000), wordStarts(u, events).toList())
+    }
+
+    @Test
     fun voices() {
         assertEquals("grc", voiceOf(Pronunciation.ATTIC))
         assertEquals("grc", voiceOf(Pronunciation.HOMERIC))

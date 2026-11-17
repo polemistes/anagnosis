@@ -82,14 +82,18 @@ fun engineRate(speed: Int): Pair<Int, Float> {
 
 /**
  * Where each word of [u] starts, from the engine's word events (character offset in [Utterance.text],
- * sample). A word's phonemes start two characters after its offset (past "[["); events for the
- * pauses are not words. A word without an event (one run into the word before, as an elided
- * word is) starts where the one before it does.
+ * sample). A word's phonemes start two characters after its offset (past "[["); where they begin
+ * with a stress mark (Koine's ' or %), eSpeak reports the word one character further on, at its
+ * first sound. Events for the pauses are not words. A word without an event (one run into the
+ * word before, as an elided word is) starts where the one before it does.
  */
 fun wordStarts(u: Utterance, events: List<Pair<Int, Int>>): IntArray {
     val starts = IntArray(u.words.size) { -1 }
     val byOffset = HashMap<Int, Int>()
-    for ((i, o) in u.offsets.withIndex()) byOffset[o + 2] = i
+    for ((i, o) in u.offsets.withIndex()) {
+        byOffset[o + 2] = i
+        if (u.words[i].phonemes.firstOrNull().let { it == '\'' || it == '%' }) byOffset[o + 3] = i
+    }
     for ((pos, sample) in events) {
         val i = byOffset[pos] ?: continue
         if (starts[i] < 0) starts[i] = sample
