@@ -1007,9 +1007,11 @@ fun ReaderScreen(
     syntaxSentence?.let { sentence ->
         val tree = remember(sentence, data) { repository.sentenceTree(data, sentence) }
         val label = remember(tree, data) { sentenceLabel(tree, data) }
+        // where the trees were made on another text and this sentence differs: the sentence as printed
+        val printed = remember(tree, data) { repository.printedSentence(data, sentence, tree) }
         Box(Modifier.fillMaxSize()) {
             SyntaxScreen(tree, label, family, onWord = { selectedTokenId = it }, onBack = { syntaxSentence = null }, automatic = data.automaticSyntaxOfSentence(sentence),
-                textNotice = data.syntaxText?.let(SyntaxText::notice))
+                printed = printed)
         }
         PlatformBackHandler { syntaxSentence = null }
     }

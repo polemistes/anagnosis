@@ -2,6 +2,9 @@ package no.anagnosis.ui
 
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.semantics.stateDescription
+import androidx.compose.ui.text.style.TextDecoration
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -66,7 +69,9 @@ import androidx.compose.ui.unit.sp
 import no.anagnosis.data.Morphology
 import no.anagnosis.data.SimpleSyntax
 import no.anagnosis.data.Syntax
+import no.anagnosis.data.PrintedSentence
 import no.anagnosis.data.SyntaxNode
+import no.anagnosis.data.SyntaxText
 import no.anagnosis.data.SyntaxTree
 
 /** One colour per syntactic role, legible on the light and on the dark backgrounds. */
@@ -104,7 +109,7 @@ private enum class SyntaxView(val label: String) { SIMPLE("Simple"), DIAGRAM("Di
 @Composable
 fun SyntaxScreen(
     tree: SyntaxTree, label: String, family: FontFamily, onWord: (Long) -> Unit, onBack: () -> Unit, automatic: Boolean = false,
-    textNotice: String? = null,
+    printed: PrintedSentence? = null,
 ) {
     // the Simple and Diagram views are drawn; with a screen reader the page opens on the Tree, which is text
     val screenReader = rememberScreenReaderActive()
@@ -140,14 +145,7 @@ fun SyntaxScreen(
                     modifier = Modifier.fillMaxWidth().background(MaterialTheme.colorScheme.surfaceVariant).padding(horizontal = 16.dp, vertical = 6.dp),
                 )
             }
-            if (textNotice != null) {
-                Text(
-                    textNotice,
-                    style = MaterialTheme.typography.bodySmall,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                    modifier = Modifier.fillMaxWidth().background(MaterialTheme.colorScheme.surfaceVariant).padding(horizontal = 16.dp, vertical = 6.dp),
-                )
-            }
+            if (printed != null) PrintedHead(printed, family)
             Box(Modifier.weight(1f).fillMaxWidth()) {
                 when (view) {
                     SyntaxView.SIMPLE -> SyntaxOutline(tree, family, onWord, Modifier.fillMaxSize())
@@ -158,6 +156,63 @@ fun SyntaxScreen(
                     }
                 }
             }
+        }
+    }
+}
+
+// ------------------------------------------------------------------ the words that differ
+
+/**
+ * How a word that differs from the text printed is marked, the same in the printed sentence and
+ * in all three views: a tinted ground and an underline (not by colour alone).
+ */
+class WordMark(val fill: Color, val line: Color) {
+    val span get() = SpanStyle(background = fill, textDecoration = TextDecoration.Underline)
+}
+
+@Composable
+fun rememberWordMark(): WordMark {
+    val c = MaterialTheme.colorScheme
+    return remember(c) { WordMark(c.tertiaryContainer, c.tertiary) }
+}
+
+private fun DrawScope.drawWordMark(mark: WordMark, topLeft: Offset, width: Float, height: Float) {
+    val pad = 2.dp.toPx()
+    drawRect(mark.fill, Offset(topLeft.x - pad, topLeft.y), Size(width + 2 * pad, height))
+    val y = topLeft.y + height - 1.5.dp.toPx()
+    drawLine(mark.line, Offset(topLeft.x - pad, y), Offset(topLeft.x + width + pad, y), strokeWidth = 1.5.dp.toPx())
+}
+
+/**
+ * The head of a sentence whose tree was made on another text that differs here: one line that
+ * says so, and the sentence as printed with its differing words marked (scrolling within a
+ * limited height when it is long). A marked word is read out as differing.
+ */
+@Composable
+private fun PrintedHead(printed: PrintedSentence, family: FontFamily) {
+    val mark = rememberWordMark()
+    val text = remember(printed, mark) {
+        buildAnnotatedString {
+            append(printed.text)
+            for (r in printed.marks) addStyle(mark.span, r.first, r.last + 1)
+        }
+    }
+    val spoken = remember(printed) {
+        buildString {
+            var at = 0
+            for (r in printed.marks.sortedBy { it.first }) {
+                append(printed.text, at, r.last + 1); append(" (" + SyntaxText.MARKED + ")"); at = r.last + 1
+            }
+            append(printed.text, at, printed.text.length)
+        }
+    }
+    Column(Modifier.fillMaxWidth().background(MaterialTheme.colorScheme.surfaceVariant).padding(horizontal = 16.dp, vertical = 6.dp)) {
+        Text(SyntaxText.DIFFERS, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        Text(SyntaxText.PRINTED_HERE, style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.onSurfaceVariant,
+            modifier = Modifier.padding(top = 4.dp))
+        Box(Modifier.heightIn(max = 132.dp).verticalScroll(rememberScrollState())) {
+            Text(text, fontFamily = family, fontSize = 17.sp, lineHeight = 24.sp, color = MaterialTheme.colorScheme.onSurface,
+                modifier = Modifier.semantics { contentDescription = spoken })
         }
     }
 }
@@ -196,6 +251,7 @@ private class DiagramLayout(
 private class DiagramStyles(
     val word: TextStyle, val pos: TextStyle, val label: TextStyle,
     val roleColors: Map<Syntax.Role, Color>, val muted: Color, val text: Color, val arc: Color, val background: Color,
+    val mark: WordMark,
 )
 
 /**
@@ -269,12 +325,14 @@ private fun DependencyDiagram(tree: SyntaxTree, family: FontFamily, onWord: (Lon
     val density = LocalDensity.current
     val colors = MaterialTheme.colorScheme
     val roleColors = rememberRoleColors()
-    val styles = remember(family, colors, roleColors) {
+    val mark = rememberWordMark()
+    val styles = remember(family, colors, roleColors, mark) {
         DiagramStyles(
             word = TextStyle(fontFamily = family, fontSize = 16.sp),
             pos = TextStyle(fontSize = 10.sp),
             label = TextStyle(fontSize = 10.sp, fontWeight = FontWeight.Medium),
             roleColors = roleColors, muted = colors.onSurfaceVariant, text = colors.onSurface, arc = colors.outline, background = colors.background,
+            mark = mark,
         )
     }
     val gap = with(density) { SLOT_GAP.toPx() }
@@ -330,6 +388,7 @@ private fun DrawScope.drawDiagram(layout: DiagramLayout, styles: DiagramStyles) 
     }
     for (t in layout.tokens) {
         val color = if (t.node.artificial) styles.muted else Syntax.role(t.node.relation)?.let { styles.roleColors[it] } ?: styles.text
+        if (t.node.differs) drawWordMark(styles.mark, Offset(t.cx - t.form.size.width / 2, layout.wordTop), t.form.size.width.toFloat(), t.form.size.height.toFloat())
         drawText(t.form, color, Offset(t.cx - t.form.size.width / 2, layout.wordTop))
         t.pos?.let { drawText(it, styles.muted, Offset(t.cx - it.size.width / 2, layout.posTop)) }
     }
@@ -405,11 +464,13 @@ fun SyntaxTreeView(tree: SyntaxTree, family: FontFamily, onWord: (Long) -> Unit)
     val small = SpanStyle(fontSize = 11.sp, color = MaterialTheme.colorScheme.onSurfaceVariant)
     val wordStyle = TextStyle(fontFamily = family, fontSize = 15.sp, lineHeight = 21.sp)
     val guide = MaterialTheme.colorScheme.outlineVariant
+    val mark = rememberWordMark()
     Column(Modifier.fillMaxWidth()) {
         for ((node, depth) in tree.flatten()) {
             val token = node.token
             val text = buildAnnotatedString {
                 if (node.artificial) withStyle(SpanStyle(fontStyle = FontStyle.Italic)) { append(Syntax.displayForm(node)) }
+                else if (node.differs) withStyle(mark.span) { append(Syntax.displayForm(node)) }
                 else append(Syntax.displayForm(node))
                 val role = Syntax.describe(node.relation)
                 if (role.isNotEmpty()) {
@@ -423,6 +484,7 @@ fun SyntaxTreeView(tree: SyntaxTree, family: FontFamily, onWord: (Long) -> Unit)
             Row(
                 Modifier.fillMaxWidth()
                     .then(if (token != null) Modifier.clickable { onWord(token.id) } else Modifier)
+                    .then(if (node.differs) Modifier.semantics { stateDescription = SyntaxText.MARKED } else Modifier)
                     .drawBehind {
                         for (d in 0 until depth) {
                             val x = (TREE_INDENT * d).toPx() + 3.dp.toPx()
@@ -482,6 +544,7 @@ private class OutlineLayout(val words: List<OWord>, val texts: List<OText>, val 
 private class OutlineStyles(
     val word: TextStyle, val verb: TextStyle, val label: TextStyle, val header: TextStyle,
     val roleColors: Map<Syntax.Role, Color>, val muted: Color, val text: Color, val bar: Color, val background: Color,
+    val mark: WordMark,
 )
 
 private class OutlineMetrics(
@@ -501,7 +564,8 @@ fun SyntaxOutline(tree: SyntaxTree, family: FontFamily, onWord: (Long) -> Unit, 
     val density = LocalDensity.current
     val colors = MaterialTheme.colorScheme
     val roleColors = rememberRoleColors()
-    val styles = remember(family, colors, roleColors) {
+    val mark = rememberWordMark()
+    val styles = remember(family, colors, roleColors, mark) {
         val word = TextStyle(fontFamily = family, fontSize = 18.sp, lineHeight = 24.sp)
         OutlineStyles(
             word = word,
@@ -509,6 +573,7 @@ fun SyntaxOutline(tree: SyntaxTree, family: FontFamily, onWord: (Long) -> Unit, 
             label = TextStyle(fontSize = 11.sp, lineHeight = 14.sp, fontWeight = FontWeight.SemiBold),
             header = TextStyle(fontSize = 12.sp, lineHeight = 16.sp, fontStyle = FontStyle.Italic),
             roleColors = roleColors, muted = colors.onSurfaceVariant, text = colors.onSurface, bar = colors.outlineVariant, background = colors.background,
+            mark = mark,
         )
     }
     val items = remember(tree) { SimpleSyntax.outline(tree) }
@@ -610,5 +675,8 @@ private fun DrawScope.drawOutline(layout: OutlineLayout, styles: OutlineStyles) 
     val stroke = 1.5.dp.toPx()
     for (b in layout.bars) drawLine(styles.bar, Offset(b.x, b.top), Offset(b.x, b.bottom), strokeWidth = stroke)
     for (t in layout.texts) drawText(t.text, t.color, Offset(t.x, t.y))
-    for (w in layout.words) drawText(w.text, w.color, Offset(w.x, w.y))
+    for (w in layout.words) {
+        if (w.node.differs) drawWordMark(styles.mark, Offset(w.x, w.y), w.text.size.width.toFloat(), w.text.size.height.toFloat())
+        drawText(w.text, w.color, Offset(w.x, w.y))
+    }
 }

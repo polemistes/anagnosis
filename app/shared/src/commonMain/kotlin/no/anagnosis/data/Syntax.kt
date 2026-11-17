@@ -24,6 +24,8 @@ class SyntaxNode(
     val joined: List<Tokens> = emptyList(),
     /** A word of the text the trees were made on that has no word of the printed text on it ([Syntax.asTreesText]). */
     val treeOnly: Boolean = false,
+    /** A word of the trees' text that differs from the text printed: another form or word, or not printed. */
+    val differs: Boolean = false,
 ) {
     val isWord get() = token != null
     /** A tree word without a printed word ([treeOnly]) is a word all the same, not punctuation. */
@@ -120,7 +122,7 @@ object Syntax {
         }
         val fixed = if (merged.isEmpty()) nodes else nodes.map { n ->
             val h = n.head
-            if (h != null && h in merged) SyntaxNode(n.id, n.form, n.postag, n.relation, merged[h], n.token, n.artificial, n.joined, n.treeOnly) else n
+            if (h != null && h in merged) SyntaxNode(n.id, n.form, n.postag, n.relation, merged[h], n.token, n.artificial, n.joined, n.treeOnly, n.differs) else n
         }
         return SyntaxTree(sentence, fixed)
     }
@@ -264,10 +266,12 @@ object Syntax {
             val row = byNode[tree.sentence to n.id] ?: n.token?.let { byToken[it.id] }
             val treeOnly = n.token == null && !n.artificial && row != null && row.kind in TREE_WORDS
             val treeForm = row?.takeIf { it.kind == "reading" }?.treeForm?.takeIf { it.isNotBlank() }?.let(SyntaxText::elisionMark)
+            // marked: a word not printed here, or one of another form or word than ours
+            val differs = treeOnly || (treeForm != null && n.token != null && SyntaxText.isRealReading(row, n.form))
             if (!treeOnly && treeForm == null) n else {
                 any = true
                 SyntaxNode(n.id, treeForm ?: n.form, row?.treePostag?.takeIf { treeForm != null } ?: n.postag, n.relation, n.head,
-                    n.token, n.artificial, n.joined, treeOnly)
+                    n.token, n.artificial, n.joined, treeOnly, differs)
             }
         }
         return if (any) SyntaxTree(tree.sentence, nodes) else tree

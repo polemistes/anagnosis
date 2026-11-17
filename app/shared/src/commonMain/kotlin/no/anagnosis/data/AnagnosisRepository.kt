@@ -144,7 +144,6 @@ class AnagnosisRepository(
         }
         val numbering = q.selectMeta("line_numbers").executeAsOneOrNull()
         // the trees made on another text: the rows only where the text says it has them
-        val syntaxText = q.selectMeta("syntax_text").executeAsOneOrNull()?.takeIf { it.isNotBlank() }
         val textWords = if (light || q.selectMeta("syntax_text_words").executeAsOneOrNull() == null) emptyList()
             else q.selectSyntaxTextWords().executeAsList().map { SyntaxTextWord(it.kind, it.token_id, it.sentence, it.word_id?.toInt(), it.tree_form, it.tree_lemma, it.extent, it.same_construction, it.tree_postag, it.difference) }
         // where the notes on the Greek begin, for the book chooser's marks (only books are marked)
@@ -163,7 +162,6 @@ class AnagnosisRepository(
             automaticSyntax = q.selectMeta("syntax").executeAsOneOrNull() == "automatic",
             syntaxByBook = Book.parseSyntaxByBook(q.selectMeta("syntax_by_book").executeAsOneOrNull()),
             commentaryStarts = commentaryStarts,
-            syntaxText = syntaxText,
             syntaxTextByToken = textWords.filter { it.tokenId != null }.associateBy { it.tokenId!! },
             syntaxTextByNode = textWords.filter { it.sentence != null && it.wordId != null && it.kind != "unit" }.associateBy { it.sentence!! to it.wordId!! },
             translationNoteIds = commentaries.filter { it.kind() == NoteKind.COMMENTARY && BookContents.isTranslationNotes(it.slug, it.title, declaredTranslationNotes) }.map { it.id }.toSet(),
@@ -221,6 +219,18 @@ class AnagnosisRepository(
         data.lines.asSequence().flatMap { data.tokensByLine[it.id] ?: emptyList() }.filter { it.sentence == sentence }.toList()
 
     /** The dependency tree of a sentence, from its tokens and the treebank's extra nodes. */
+    /**
+     * The sentence as printed, with its differing words marked, where the trees were made on
+     * another text and this sentence differs from it; null where it does not (the view says nothing).
+     */
+    fun printedSentence(data: WorkData, sentence: String, tree: SyntaxTree): PrintedSentence? {
+        if (data.syntaxTextByToken.isEmpty() && data.syntaxTextByNode.isEmpty()) return null
+        val tokens = sentenceTokens(data, sentence)
+        val marked = SyntaxText.markedTokens(tokens, data.syntaxTextByToken)
+        if (marked.isEmpty() && tree.nodes.none { it.differs }) return null
+        return SyntaxText.printedSentence(tokens, marked) { data.lineById[it]?.text }
+    }
+
     fun sentenceTree(data: WorkData, sentence: String): SyntaxTree =
         Syntax.asTreesText(Syntax.build(sentence, sentenceTokens(data, sentence), data.nodesBySentence[sentence] ?: emptyList()),
             data.syntaxTextByToken, data.syntaxTextByNode)

@@ -88,8 +88,6 @@ class WorkData(
     val syntaxByBook: Map<Int, String> = emptyMap(),
     /** Where the notes on the Greek begin (not the apparatus, not a translator's notes), for the chooser's marks. */
     val commentaryStarts: List<Long> = emptyList(),
-    /** The text the syntax trees were made on, where it is not the one printed (meta syntax_text), else null. */
-    val syntaxText: String? = null,
     /** How the trees' text differs, by token (unit, reading, absent) and by tree node (reading, unprinted): [Syntax.asTreesText]. */
     val syntaxTextByToken: Map<Long, SyntaxTextWord> = emptyMap(),
     val syntaxTextByNode: Map<Pair<String, Int>, SyntaxTextWord> = emptyMap(),

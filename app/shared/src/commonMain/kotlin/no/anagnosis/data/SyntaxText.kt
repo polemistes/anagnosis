@@ -1,5 +1,7 @@
 package no.anagnosis.data
 
+import no.anagnosis.db.Tokens
+
 /**
  * Where a text's syntax trees were made on another text than the one printed (the Theogony's
  * trees on the Perseus text, Rzach's text printed): one row of how the two differ (table
@@ -27,9 +29,14 @@ class SyntaxTextWord(
  * annotated (the author, 2026-11-17).
  */
 object SyntaxText {
-    /** The syntax view's head, for every sentence of such a text. */
-    fun notice(syntaxText: String): String =
-        "These trees were made on $syntaxText, which differs in places from the text printed here."
+    /** The syntax view's head, only where the sentence differs ([PrintedSentence]). */
+    const val DIFFERS = "The syntax tree was made on another text. Marked words differ from the text printed here."
+
+    /** The label of the sentence as printed, in that head. */
+    const val PRINTED_HERE = "Printed here:"
+
+    /** What a screen reader says of a marked word. */
+    const val MARKED = "differs from the text printed here"
 
     /** The credits' line name. */
     const val CREDIT_KIND = "Trees made on"
@@ -44,13 +51,52 @@ object SyntaxText {
      * construction, is not (no role line). Without the record of the difference, a difference of
      * letters (not of accent, capital or elision mark) counts.
      */
-    fun showsRole(row: SyntaxTextWord?, printed: String): Boolean {
-        if (row == null || row.kind != "reading" || row.treeForm.isNullOrBlank()) return row?.kind != "absent"
-        if (row.sameConstruction == 0L) return false
+    fun showsRole(row: SyntaxTextWord?, printed: String): Boolean = row?.kind != "absent" && !isRealReading(row, printed)
+
+    /**
+     * Whether a reading is a real difference: another form or another word, or a word in another
+     * construction; not an elision, a movable ν or a spelling (the author, 2026-11-17).
+     */
+    fun isRealReading(row: SyntaxTextWord?, printed: String): Boolean {
+        if (row == null || row.kind != "reading" || row.treeForm.isNullOrBlank()) return false
+        if (row.sameConstruction == 0L) return true
         return when (row.difference) {
-            null -> sameLetters(row.treeForm, printed)
-            else -> row.difference !in OTHER_WORD
+            null -> !sameLetters(row.treeForm, printed)
+            else -> row.difference in OTHER_WORD
         }
+    }
+
+    /** The printed words of a sentence that differ from the trees' text: another form or word, or not in that text. */
+    fun markedTokens(tokens: List<Tokens>, byToken: Map<Long, SyntaxTextWord>): Set<Long> =
+        if (byToken.isEmpty()) emptySet()
+        else tokens.filter { t -> byToken[t.id]?.let { it.kind == "absent" || isRealReading(it, t.form) } == true }.map { it.id }.toSet()
+
+    /**
+     * The sentence as printed, for the head of its tree where it differs: the text of its lines
+     * from its first word to its last (with the punctuation that closes it), and the ranges of the
+     * [marked] words in it. [lineText] gives a line's text by its id.
+     */
+    fun printedSentence(tokens: List<Tokens>, marked: Set<Long>, lineText: (Long) -> String?): PrintedSentence? {
+        if (tokens.isEmpty()) return null
+        val lines = tokens.map { it.line_id }.distinct()
+        val sb = StringBuilder()
+        val marks = ArrayList<IntRange>()
+        for ((i, lineId) in lines.withIndex()) {
+            val text = lineText(lineId) ?: continue
+            val here = tokens.filter { it.line_id == lineId }
+            val from = if (i == 0) here.minOf { it.start }.toInt().coerceIn(0, text.length) else 0
+            var to = if (i == lines.lastIndex) here.maxOf { it.end }.toInt().coerceIn(from, text.length) else text.length
+            if (i == lines.lastIndex) while (to < text.length && !text[to].isLetter() && !text[to].isWhitespace()) to++
+            if (sb.isNotEmpty()) sb.append(' ')
+            val base = sb.length - from
+            sb.append(text, from, to)
+            for (t in here) if (t.id in marked) {
+                val s = t.start.toInt() + base
+                val e = t.end.toInt() + base
+                if (s >= base + from && e <= sb.length && s < e) marks += s until e
+            }
+        }
+        return PrintedSentence(sb.toString(), marks)
     }
 
     private val OTHER_WORD = setOf("form", "word")
@@ -65,3 +111,6 @@ object SyntaxText {
     fun elisionMark(form: String): String =
         if (form.length > 1 && form.last() in "\u0313\u2019'᾽") form.dropLast(1) + "ʼ" else form
 }
+
+/** A sentence as printed, with the ranges of the words marked as differing from the trees' text. */
+class PrintedSentence(val text: String, val marks: List<IntRange>)
