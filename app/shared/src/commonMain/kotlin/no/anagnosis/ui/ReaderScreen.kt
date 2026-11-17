@@ -1399,24 +1399,11 @@ private fun paginate(
 
     /** Cuts rows[from until to) into pages from the front. */
     fun forward(from: Int, to: Int): List<List<ReaderRow>> {
-        val pages = mutableListOf<List<ReaderRow>>()
-        var current = mutableListOf<ReaderRow>()
-        var used = 0
-        var usedEn = 0
-        var i = from
-        while (i < to) {
-            val m = measured[i]
-            val heading = isHeading(m.row) && i + 1 < to
-            val needed = if (heading) m.height + measured[i + 1].height else m.height
-            val neededEn = enHeight(m.row) + (if (heading) enHeight(measured[i + 1].row) else 0)
-            if (current.isNotEmpty() && (used + needed > pageHeight || usedEn + neededEn > heightPx)) {
-                pages += current; current = mutableListOf(); used = 0; usedEn = 0
-                continue
-            }
-            current += m.row; used += m.height; usedEn += enHeight(m.row); i++
-        }
-        if (current.isNotEmpty()) pages += current
-        return pages
+        val heights = IntArray(measured.size) { measured[it].height }
+        val enHeights = IntArray(measured.size) { enHeight(measured[it].row) }
+        val headings = BooleanArray(measured.size) { isHeading(measured[it].row) }
+        return PageCutting.forward(heights, enHeights, headings, from, to, pageHeight, heightPx)
+            .map { range -> range.map { measured[it].row } }
     }
 
     /** Cuts rows[0 until to) into pages from the back, so that a page ends just before `to`. */
