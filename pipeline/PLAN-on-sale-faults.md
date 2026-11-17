@@ -18,7 +18,7 @@ something).
   his text has ἐνέβησαν) and the Apology quoted, ἐνταῦθα; 517 a **ἀλλὰ μέντοι**; 517 e ποριστικὸν;
   518 b ποικιλίαν ὄψου; 523 a Ῥέα (was "*ʽπέα").
 * Burnet's apparatus: his asterisks for erased letters are written `\*`, so that two in a note
-  no longer turn into italics (476b7 τοι****, 519b3–4 ****, 487e-note οὐ τοῦτο **; as Lysias's).
+  no longer turn into italics (476b7 τοι****, 491e3 οὐ τοῦτο **, 519b3–4 ****; as in Lysias).
 * 56 joined words (οὐδέ, μηδέ, εἴτε, ἐάντε) that hung on themselves or on a word under them
   carry their topmost part's relation and head (`PLAN-syntax-text.md`, Decisions).
 
@@ -28,7 +28,7 @@ something).
   word follows in the sentence); on 191 e γαμούμεναί; on 202 a φρονήσεως.
 * The introduction (`BURY_INTRODUCTION_FIXES`): § vi οἷον χρὴ εἶναι (was "οἶον χρὴ ε<*>ναι");
   Bekker's siglum of the Bodleianus, a black-letter 𝔄 (seen on the page; was "<*>").
-* Burnet's apparatus: asterisks written `\*` (175c4 ***δὲ, 213d2 οὑτοσὶ ***, π**ν).
+* Burnet's apparatus: asterisks written `\*` (175c4 ***δὲ, 185d6 π**ν, 213d2 οὑτοσὶ ***).
 * 49 joined words (οὔτε, μήτε, οὐδέ, μηδέ, εἴτε, ἐάντε) mended as above. These are what a merge
   run again "would have changed" (reported as 66 words): the merge was right about the τε of
   οὔτε and wrong about οὐδέ; both are right now and the merge gives the shipped tokens.
@@ -44,7 +44,7 @@ something).
   scan `homersodyssey00homeiala` (OCR text). The shipped file was mended by the same function
   (the commentary import itself does not give the shipped file again and was not run).
 * Kept against the merge, now made by it: the header line `# pronunciation: homeric`
-  (`GREEK_META`) and the two breves in the apparatus (3.72, 9.279: a fix in `odyssey_merge`).
+  (`GREEK_META`) and the two breves in the apparatus (at 3.284 and 6.242: a fix in `odyssey_merge`).
 * 11 joined words mended (οὐδέ, τοῦδʼ, ἐϋφρονέων, εὐρυκρείων, πασιμέλουσα).
 
 **The New Testament** (unchanged)

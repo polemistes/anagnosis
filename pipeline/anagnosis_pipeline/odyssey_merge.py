@@ -270,7 +270,7 @@ def merge(transcriptions: Path, pages_dir: Path, texts: Path, sources: Path, lex
         md.append("\n\n".join(items))
         md.append("")
     text = "\n".join(md) + "\n"
-    # a breve the transcription wrote as a caret after its letter, in two notes (3.72, 9.279)
+    # a breve the transcription wrote as a caret after its letter, in two notes (3.284, 6.242)
     for wrong, right in (("κατεσχε^τ επειγο^μ", "κατεσχε\u0306τ επειγο\u0306μ"), ("δε^οατʼ", "δε\u0306οατʼ")):
         if wrong not in text:
             problems.append(f"apparatus: fix not applied, not found: {wrong}")
