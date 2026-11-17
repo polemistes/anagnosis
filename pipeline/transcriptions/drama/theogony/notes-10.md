@@ -222,7 +222,7 @@ Run-on of note 718 from p-0300. Structure: the false heading 723-724 (from "In o
 **τριστοιχεὶ**, ‘in three rows,’ ‘in a triple fold.’ The notion of a triple wall, triple darkness, &c., is common in the poets, as is the multiple of three, nine. Cf. Georg. iv. 480, ‘novies Styx interfusa coercet.’ Aen. vi. 549, ‘sub rupe sinistra Maenia lata videt, triplici circumdata muro.’ Ovid, Fast. iii. 801, ‘Hunc triplici muro lucis incluserat atris Parcarum monitu Styx violenta trium.’
 
 ## 728
-**πεφύασι**. This is a notable instance of that singular property of the epic perfect, the evanescence of the κ, and the shortening the long vowel before it, πέφῠα for πέφυκα. So τεθνηὼς, τεθνειὼς, τεθνεὼς, for τεθνηκὼς, τεθνᾱναι, for τεθνηκέναι, Aesch. Ag. 522, and so ἐστηὼς (inf. v. 747), ἑστεὼς, ἑστὼς, &c. In φύω indeed, the υ seems only accidentally long, as in λῡω and θῡω. for we have φῠσις by the side of λῠσις and θῠσια. Homer has λῠω in Od. xxiii. 343, and even the Attic poets sometimes used φῠειν and θῠειν. The elimination of the κ is however a singular phenomenon. Like the digamma, it would seem in a certain sense to have been an arbitrary sound; and perhaps, as the forms commonly called *second* perfects are more common in the early epic, the κ did not originally form a part of the perfect termination. Dr. Donaldson’s opinion on this matter will be found in p. 185 of his larger Greek Grammar.
+**πεφύασι**. This is a notable instance of that singular property of the epic perfect, the evanescence of the κ, and the shortening the long vowel before it, πέφῠα for πέφυκα. So τεθνηὼς, τεθνειὼς, τεθνεὼς, for τεθνηκὼς, τεθνᾱναι, for τεθνηκέναι, Aesch. Ag. 522, and so ἑστηὼς (inf. v. 747), ἑστεὼς, ἑστὼς, &c. In φύω indeed, the υ seems only accidentally long, as in λῡω and θῡω. for we have φῠσις by the side of λῠσις and θῠσια. Homer has λῠω in Od. xxiii. 343, and even the Attic poets sometimes used φῠειν and θῠειν. The elimination of the κ is however a singular phenomenon. Like the digamma, it would seem in a certain sense to have been an arbitrary sound; and perhaps, as the forms commonly called *second* perfects are more common in the early epic, the κ did not originally form a part of the perfect termination. Dr. Donaldson’s opinion on this matter will be found in p. 185 of his larger Greek Grammar.
 
 ## 731
 **χώρῳ ἐν εὐρώεντι**. ‘Per loca senta situ,’ Virg. Aen. vi. 462. As ἔσχατα is rather unusual for κατὰ τὰ ἔσχατα, or adverbially for πορρωτάτω, we should perhaps read χῶρον ἐς εὐρώεντα. Compare ἐπ᾽ ἐσχατιῇ, v. 622. Gaisford, following Wolf, encloses this verse in brackets, and both Flach and Schoemann eject it. The passage seems to have been tampered with. The old reading may have been ἔνθα θεοὶ Τιτῆνες ὑπὸ ζόφῳ ἠερόεντι χώρῳ ἐν εὐρώεντι πελώρης ἔσχατα γαίης ναίουσιν βουλῇσι Διὸς νεφεληγερέταο, τῶν οὐκ ἐξιτόν ἐστι, κ.τ.λ.
@@ -254,7 +254,7 @@ Run-on of note 718 from p-0300. Structure: the false heading 723-724 (from "In o
 22 k, [conf] → κ,
 23 wépva [latin] (Greek model: πέφὑα) → πέφῠα
 24 Aesch. [conf] (Greek model: ἌρβοΙ.) → ok
-25 ἐστηὼς [accent] → ok (printed with a smooth breathing)
+25 ἐστηὼς [accent] → ἑστηὼς (printed ἐστηὼς, misprint; see notes)
 26 &e. [conf] (Greek model: ἄο.) → &c.
 27 acci- [conf] → ok (accidentally)
 28 Atw [latin] (Greek model: λῦω) → λῡω
@@ -268,6 +268,7 @@ Run-on of note 718 from p-0300. Structure: the false heading 723-724 (from "In o
 36 Gaisford, [conf] → ok
 --- notes
 Run-on of note 726-781 from p-0301. Structure: the false headings 729 (from "spot, ὑπὸ ζόφῳ, v. | 729, and") and 343 (from "Od. xxiii. | 343, and") put back into the text; "In φύω indeed" stands at the top of the right column without an indent, so it is joined to note 728 as one paragraph; the stray "K.T.A. A" at the foot of note 731 is its last line ("κ.τ.λ."), joined. Also corrected unflagged: "Titans are confined ;" → confined;, "¢ Hic ... imo.”" → ‘Hic ... imo.’, "lis" → his, "« All ... deep.”" → “All ... deep.”, *depth* in italics as printed, "© in a triple fold.”" → ‘in a triple fold.’, "‘ Hune ... trium." → ‘Hunc ... trium.’, "&e." → &c. (twice), the υ, κ and the length marks in note 728 (Paley prints φῠσις, λῠσις, θῠσια, λῠω, φῠειν, θῠειν with a breve and λῡω, θῡω, τεθνᾱναι with a macron, without accents; kept as printed), "¢vew" → φῠειν, *second* in italics as printed, "Like the digamma. it" → digamma, it. Paley's misprints kept as printed: "ἐστηὼς" with a smooth breathing (for ἑστηὼς), and the stop in "θῡω. for we". "υ" and "κ" are letters cited alone, printed without a breathing.
+728	rev: the print has "ἐστηὼς" (smooth breathing), an evident misprint for ἑστηὼς (ἑστεὼς, ἑστὼς follow with the rough breathing): corrected to ἑστηὼς, against the first agent's note above
 
 === p-0303
 ## 733

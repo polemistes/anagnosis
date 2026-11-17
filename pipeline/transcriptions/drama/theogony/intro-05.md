@@ -1,9 +1,9 @@
 === p-0043
-+ ἑόθεν. The original dative must have been σϝιφι (*sibi*), and the accusative σϝε or σε, the latter however differently pronounced from σε the accusative of σὺ, while the former passed into σφέ. In the plural we have *vos* by the side of σφὼ, and σφᾶς and σφισὶ by the side of *se* and *sibi*; σφέτερος by the side of *vester* (ϝέστερ-ος by transposition).
++ ἑόθεν. The original dative must have been σϝιφι (*sibi*), and the accusative σϝε or σε, the latter however differently pronounced from σε the accusative of σὺ, while the former passed into σφέ. In the plural we have *vos* by the side of σφὼ, and σφᾶς and σφισὶ by the side of *se* and *sibi* ; σφέτερος by the side of *vester* (ϝέστερ-ος by transposition).
 
 It is now held that neither the Greek nor the Latin F had the sound of our letter. The Greek φ is commonly represented by the Latin *f*, as φρητὴρ is *frater*, φέρω is *fero*, &c., *p-h* or *b-h* being more nearly the original sound. The digamma is most commonly the Latin *u* or *v* (οἶκος = ϝῖκος *vicus*), but we cannot certainly say if this *u* was our *v* or rather our *w*, as *uinum* and *uicus* are *wine* and *wick*. The *v* and the *f* are closely allied sounds ; between *vine* and *fine* there is no other difference than that the former word has a faint echo (so to say) in the throat, and may be called *semi-guttural*.
 
-What was the exact difference to the Greek ear between the original H or *h* ; the sibilant-aspirate in ἓξ, ἑπτὰ, ὕλη, of which the Latin forms are *sex*, *septem*, *silva* ; and the digamma presumed to exist in such words as ϝεκὼν, ϝέκαστος, and the evanescence of which has left the rough breathing; this seems a difficult question, especially as there must have been some distinction of sound between ὃς *suus*, and ὃς the relative³ ; and between ἕπομαι, which does not admit of a hiatus before it⁴, though *sequor* is its Latin form (like ἅλλεσθαι compared with *salio*), and ἕκαστος, which nearly always does. The sibilant-aspirate is well shown in our pronoun *she* from the Anglo-Saxon *heó*. Even here a local *patois* pronounced the latter word without the *s* sound, whence has arisen a modern vulgarism, which is often mistaken for an ignorant error of grammar, “*her* (or *hoo*) did it,” for “*she* did it.” A breathing ejected through compressed teeth, or what might be termed a “dental-guttural”
+What was the exact difference to the Greek ear between the original H or *h* ; the sibilant-aspirate in ἓξ, ἑπτὰ, ὕλη, of which the Latin forms are *sex*, *septem*, *silva* ; and the digamma presumed to exist in such words as ϝεκὼν, ϝέκαστος, and the evanescence of which has left the rough breathing ; this seems a difficult question, especially as there must have been some distinction of sound between ὃς *suus*, and ὃς the relative³ ; and between ἕπομαι, which does not admit of a hiatus before it⁴, though *sequor* is its Latin form (like ἅλλεσθαι compared with *salio*), and ἕκαστος, which nearly always does. The sibilant-aspirate is well shown in our pronoun *she* from the Anglo-Saxon *heó*. Even here a local *patois* pronounced the latter word without the *s* sound, whence has arisen a modern vulgarism, which is often mistaken for an ignorant error of grammar, “*her* (or *hoo*) did it,” for “*she* did it.” A breathing ejected through compressed teeth, or what might be termed a “dental-guttural”
 
 [Note: ³ The relative ὃς does not seem to take the digamma, though I have seen it so written on a rather early vase.]
 
@@ -41,6 +41,7 @@ What was the exact difference to the Greek ear between the original H or *h* ; t
 30 σι. [conf] → deleted (the signature "c 2" at the page foot)
 --- notes
 Read through against the column image. Unflagged OCR errors corrected: "Εἴκος αἷσι" → ϝῖκος *vicus*; "# was our »" → *u* was our *v*; "μίγη" → *uinum*; "«" → *u*; "ἕξ" → ἓξ (printed with the grave); "sibilantaspirate" → sibilant-aspirate (divided at the line end); "relative ®" → relative³. Latin and English words cited are printed in italics: marked *…*. The digamma, printed F-shaped in the Greek, written ϝ. Footnote marks ³ ⁴ written as superscripts; the signature "c 2" at the foot left out.
+rev: "*sibi*;" → "*sibi* ;" and "breathing;" → "breathing ;" (spaced semicolons as printed)
 Checker: “ος” is the second half of ϝέστερ-ος, a form divided by Paley's hyphen; no breathing belongs there.
 
 === p-0044
@@ -212,7 +213,7 @@ Structure: the verses (Opp. 328, Od. v. 407, the epigram in Thuc. vi. 54) are pr
 Checker: the remarks are syllables cited alone or parts of Paley's hyphenated forms, printed without breathing: εϝ (the syllable, three times), ϝε-αρ and εϝ-αρ, ἀ-εϝ-ων, and α (“α privative”, the letter named).
 
 === p-0047
-+ for κλεϝ-τός. We have, even in Pindar, αὐάτα for ἄτα, and ὑπο-φαύτιες (φάτις). So αὖλαξ for ἀϝλακς is from the root ϝελκ, which becomes a sibilant in *sulcus*. In other words the ϝ became ι, as in λεῖος for λέϝος (*levis*), καίω for κάϝω, νειὸς for νέϝος, εἶαρ for ἔϝαρ, κλαίω for κλάϝω (fut. κλαύσω), φατειὸς for φατεϝος, Scut. Herc. 161,—a form which is seen in the Latin verbal adjective *sativus*, &c. So perhaps ὁμοΐιος for ὁμόϝιος, ὀλώϊος and ὀλοιὸς for ὀλόϝιος (ὀλοφώιος).
++ for κλεϝ-τός. We have, even in Pindar, αὐάτα for ἄτα, and ὑπο-φαῠ́τιες (φάτις). So αὖλαξ for ἀϝλακς is from the root ϝελκ, which becomes a sibilant in *sulcus*. In other words the ϝ became ι, as in λεῖος for λέϝος (*levis*), καίω for κάϝω, νειὸς for νέϝος, εἶαρ for ἔϝαρ, κλαίω for κλάϝω (fut. κλαύσω), φατειὸς for φατεϝος, Scut. Herc. 161,—a form which is seen in the Latin verbal adjective *sativus*, &c. So perhaps ὁμοΐιος for ὁμόϝιος, ὀλώϊος and ὀλοιὸς for ὀλόϝιος (ὀλοφώιος).
 
 There is some difficulty in accounting for the forms οἶδα and ἔοικα, in which there is the double influence of the digamma in the root, and the lengthened syllable of the perfect, as in πέποιθα. The participle however is not οἰδὼς, but εἰδὼς, and there are metrical reasons for thinking ϝιδὼς, ϝιδυῖα, was an epic usage, though whether a genuine or merely an imitative one, seems open to doubt.
 
@@ -222,7 +223,7 @@ It may be conjectured, that the true power of the ϝ was first dropped in monosy
 --- flags
 1 k\eF-tos. [conf] (Greek model: κλεξ-τός.) → κλεϝ-τός.
 2 adara [rare] → αὐάτα
-3 φαύτιες [greek] (Greek model: ὑπο-φαύτιες,) → ok
+3 φαύτιες [greek] (Greek model: ὑπο-φαύτιες,) → ὑπο-φαῠ́τιες
 4 ἀξλακς [greek] → ἀϝλακς
 5 Fels [latin] (Greek model: Εελκ,) → ϝελκ,
 6 λέξος [greek] → λέϝος
@@ -263,6 +264,7 @@ It may be conjectured, that the true power of the ϝ was first dropped in monosy
 41 kAdFew [latin] (Greek model: κλάξειν,) → κλάϝειν
 --- notes
 Structure checked: three paragraphs as printed, the third running on to p-0048; footnote 1 (its mark at *clavis*¹ in the third paragraph) written [Note: ¹ …] at the end of the block. Unflagged OCR errors corrected from the image: "¢, as In" → ι, as in, "elap for €Fap" → εἶαρ for ἔϝαρ, "ὁμοίιος" → ὁμοΐιος (printed with diaeresis and acute on the first ι), "Ειδὼς" → ϝιδὼς, "In which" → in which, "af" → ἀϝ, "-vs" → -ὺς, "ἠὺς or ἐὺς" → ἠῢς or ἐῢς (printed with diaeresis and grave), "T is a letter" → Υ is a letter, "pv" → ρυ, "!" → ¹. The root ρυ and the ending -ὺς are cited alone without a breathing, as printed; ναϝς, βοϝς, κλαϝς, φατεϝος and the other digamma forms are printed without accent. Latin words cited in italics marked *…*.
+rev: "ὑπο-φαύτιες" → ὑπο-φαῠ́τιες: the υ is printed with a breve and the acute (breve letter with a combining acute, as κονῐ́α elsewhere); flag 3 so corrected
 Checker: ι (the letter named), the endings -ὺς and -εὺς and the root ρυ are cited alone, printed without breathing.
 
 === p-0048
@@ -270,7 +272,7 @@ Checker: ι (the letter named), the endings -ὺς and -εὺς and the root ρ�
 
 It is a singular fact, that the ϝ when represented by υ had not in itself the power of lengthening a syllable, even when it made a diphthong. Thus χυτὸς, κλυτὸς, ῥυτὸς, for χεϝτὸς &c., have the υ short, as is the αυ in the Pindaric αῠάτα for ἄτα. So ϝορανὸς (*Varuna*) became οὐρανὸς and metrically ὀρανός, as βόλομαι, Lat. *volo*, is the Aeolic form of βούλομαι. But in ἔχευα, ἀλεύασθαι, ἐπιδευὴς for ἐπιδεὴς, the ϝ does make a long syllable. The inference from this is, that in ῥέει, ῥέεθρον, ἔχεα, ἀλέασθαι, νέος, and such words, the single digamma really did exist, by which the hiatus was avoided ; while in the lengthened forms, ἔχευα &c., the ϝ was *doubled*, ἐχεϝϝα, ἀλέϝϝασθαι, and so on.
 
-The variation of the digamma between ι, υ, and ο, is a curious property, as showing how different from our F was the real power of the letter. We have ῥεῖθρον and πνείω by the side of ῥεύσομαι, ῥυτὸς, and πνεύσομαι, πνεῦμα, ἄμπνυτο. Hence ῥέϝω, πνέϝω, may well have been the primary forms, like χέϝω = χέω, and πλέϝω = πλέω, fut. πλεύσομαι. Both ἀείδειν and ἀοιδὴ come from a digammated form closely connected with αὐδᾶν, αὐδὴ, viz. ἀϝίδειν or ἀϝύδειν. The written form τραγαϝυδος for τραγῳδὸς is found in an inscription². Again, κλείω is another form of κλέω, and if we compare κλύω and κλυτὸς, we shall arrive at the conclusion that κλέϝω was the old verb. The first verse of the “Works” might therefore be given thus ;—Μοῦσαι Πιερίηθεν ἀϝυδῆσι κλέϝοντες. Thus we account for the expanded form κληΐζειν, κλήζειν.
+The variation of the digamma between ι, υ, and ο, is a curious property, as showing how different from our F was the real power of the letter. We have ῥεῖθρον and πνείω by the side of ῥεύσομαι, ῥυτὸς, and πνεύσομαι, πνεῦμα, ἄμπνυτο. Hence ῥέϝω, πνέϝω, may well have been the primary forms, like χέϝω = χέω, and πλέϝω = πλέω, fut. πλεύσομαι. Both ἀείδειν and ἀοιδὴ come from a digammated form closely connected with αὐδᾶν, αὐδὴ, viz. ἀϝίδειν or ἀϝύδειν. The written form τραγαϝυδος for τραγῳδὸς is found in an inscription². Again, κλείω is another form of κλέω, and if we compare κλύω and κλυτὸς, we shall arrive at the conclusion that κλέϝω was the old verb. The first verse of the “Works” might therefore be given thus ;—Μοῦσαι Πιερίηθεν ἀϝυδῇσι κλέϝοντες. Thus we account for the expanded form κληΐζειν, κλῄζειν.
 
 [Note: ² See Donaldson’s Greek Grammar, § 18.]
 
@@ -296,15 +298,16 @@ There are some words, however, as κρειῶν for κρεῶν, κρείων fo
 18 2 [conf] → ² (the footnote mark)
 19 κλέξω [greek] → κλέϝω
 20 ἹΠερίηθεν [greek] (Greek model: Πεερίηθεν.) → Πιερίηθεν
-21 ἀξυδῆσι [greek] (Greek model: ἀξυδῇσι.) → ἀϝυδῆσι
+21 ἀξυδῆσι [greek] (Greek model: ἀξυδῇσι.) → ἀϝυδῇσι
 22 κλέξοντεςς [greek] (Greek model: κλέρξοντες.) → κλέϝοντες.
 23 κληΐζειν [greek] → ok
-24 κλήζειν [accent] (Greek model: κλήξειν.) → ok
+24 κλήζειν [accent] (Greek model: κλήξειν.) → κλῄζειν
 25 éEéns [latin] (Greek model: (ἑξέης),) → ἑξέης
 26 εἰᾶν [accent] → ok
 27 Donaldson's [conf] → Donaldson’s
 --- notes
 Structure checked: the run-on and four paragraphs as printed; footnote 2 (its mark at "inscription²" in the third paragraph) written [Note: ² …] after that paragraph. Unflagged OCR errors corrected from the image: "Or ῥεῖ, πνεῖ, πλεῖ or πλοῦ" → or ῥεϝ, πνεϝ, πλεϝ or πλοϝ, "the v short" → the υ short, "the av" → the αυ, "80 on" → so on, "¢, v, and o" → ι, υ, and ο, "our ¥" → our F (a roman capital F, kept as F), "ῥέξω" → ῥέϝω, "πλέξω" → πλέϝω, "&e." → &c., "χάλκειος ἴον" → χάλκειος for, "in εύω" → in -εύω, "* See" → ² See. The Pindaric word is printed αῠάτα here (υ with a breve, no breathing), αὐάτα on p-0047; both copied as printed. The diphthong αυ is cited alone without a breathing, as printed. "Works" and *doubled* as printed (the latter in italics).
+rev: "ἀϝυδῆσι" → ἀϝυδῇσι and "κλήζειν" → κλῄζειν (iota subscript printed in both); flags 21 and 24 so corrected
 Checker: υ, ι, ο and αυ are letters named, and -εύω an ending, printed without breathing; αῠάτα is printed with the breve and no breathing (on p-0047 the same word has αὐάτα); copied as printed.
 
 === p-0049

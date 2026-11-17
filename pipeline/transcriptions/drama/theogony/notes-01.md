@@ -44,10 +44,11 @@ In this long prooemium the poet both addresses and eulogises the Muses, to whose
 34 ξελικῶνος [greek] (Greek model: Ἐελικῶνος.) → ϝελικῶνος
 --- notes
 The false headings `## 22-74` and `## 115` (printed lines beginning with a number inside the 1-115 note) put back into the running text, and the paragraph split at the column foot ("present in itself a | tolerably") joined: 1-115 is one paragraph. "or with v. 74+." restored as "or with v. 74. All this". Digamma printed as an italic F in the lemma of 2, written ϝ.
+1-115	rev: "conjectural" is printed "conjec-|jural" (misprint), corrected
 
 === p-0224
 ## 3
-The combinations καί τε, καί νυ, ἀλλά νυ, are not uncommon in Hesiod, but it is sometimes difficult to define in words the force which they exert on the narration. See Opp. 268. Inf. v. 22. Generally, καί τε seems to imply that an event happens conditionally rather than absolutely; ‘and it may be that,’ &c. See, for instance, Opp. 515—16. Il. x. 224, σύν τε δύ᾽ ἐρχομένω, καί τε πρὸ ὁ τοῦ ἐνόησεν. Ib. xviii. 309, ξυνὸς ἐνυάλιος, καί τε κτανέοντα κατέκτα. In many places τε seems poetically a synonyn of τοι, as inf. 609, 784, 797. Here apparently there has been some interpolation, and probably of v. 2, so that the original reading was αἵτε περὶ κρήνην κ.τ.λ. Another commencement seems to have been, Μουσάων Ἑλικωνιάδων ἀρχώμεθ᾽ ἀείδειν, αἵτε λοεσσάμεναι κ.τ.λ. (v. 5.)
+The combinations καί τε, καί νυ, ἀλλά νυ, are not uncommon in Hesiod, but it is sometimes difficult to define in words the force which they exert on the narration. See Opp. 268. Inf. v. 22. Generally, καί τε seems to imply that an event happens conditionally rather than absolutely; ‘and it may be that,’ &c. See, for instance, Opp. 515—16. Il. x. 224, σύν τε δύ᾽ ἐρχομένω, καί τε πρὸ ὁ τοῦ ἐνόησεν. Ib. xviii. 309, ξυνὸς ἐνυάλιος, καί τε κτανέοντα κατέκτα. In many places τε seems poetically a synonym of τοι, as inf. 609, 784, 797. Here apparently there has been some interpolation, and probably of v. 2, so that the original reading was αἵτε περὶ κρήνην κ.τ.λ. Another commencement seems to have been, Μουσάων Ἑλικωνιάδων ἀρχώμεθ᾽ ἀείδειν, αἵτε λοεσσάμεναι κ.τ.λ. (v. 5.)
 
 *Ibid.* περὶ κρήνην, round Aganippe, which is called ἰοείδης from the dark and shadowy aspect of its clear and tranquil surface. “Significatur splendor aquae nigricans, ut violae, qualis est in uberioris aquae fonte.” Van Lennep. The altar of Zeus, near to or in it, is regarded as the central object round which the dance was held, according to the most ancient custom of the heroic times. The regular abode of the Muses was on Olympus, inf. v. 63, so that these visits to Helicon, as to a spot consecrated to them, were occasional.
 
@@ -62,7 +63,7 @@ The combinations καί τε, καί νυ, ἀλλά νυ, are not uncommon in H
 --- flags
 1 11. [conf] → Il.
 2 xviii. [conf] → ok
-3 synonyn [rare] → ok
+3 synonyn [rare] → synonym
 4 k.T.A. [conf] → κ.τ.λ.
 5 Ἑλικωνιάdwy [mixed] (Greek model: “Ἑλικωνιά-.) → Ἑλικωνιάδων
 6 Ἑλικωνιάdwy [mixed] → Ἑλικωνιάδων
@@ -111,7 +112,8 @@ The combinations καί τε, καί νυ, ἀλλά νυ, are not uncommon in H
 49 Περμησσός [greek] → ok
 50 naovs [latin] (Greek model: -τ-ησσὺς,)) → ησσὸς
 --- notes
-False heading `## 11` ("Il. x. 224" read as "11. x. 224") put back: note 3 is one paragraph down to "(v. 5.)". The paragraph "Id. Ὀλμειός· ποταμός" at the head of the right column is not indented in the print: joined to note 5. "(—ήσσου)" and "(like —ησσὸς,)" are word endings, printed without breathing (checker remarks). "synonyn" is the print's misprint, kept.
+False heading `## 11` ("Il. x. 224" read as "11. x. 224") put back: note 3 is one paragraph down to "(v. 5.)". The paragraph "Id. Ὀλμειός· ποταμός" at the head of the right column is not indented in the print: joined to note 5. "(—ήσσου)" and "(like —ησσὸς,)" are word endings, printed without breathing (checker remarks).
+3	rev: "synonym" is printed "synonyn" (evident misprint), corrected
 
 === p-0225
 ## 8
@@ -187,6 +189,7 @@ Though αἳ may be the relative, the combination with νυ rather suggests that
 18 ἔειπαν [greek] → ok
 --- notes
 False heading `## 371` ("and v. | 371, for λαμπράν") put back into note 18. Note 19, split at the foot of the left column ("however | that v. 19"), joined into one paragraph. "interpolation—It" without a stop is as printed.
+22	rev: checked "αἳ" ("Though αἳ may be the relative"): the breathing and accent stand one above the other in the print; the same stacked sign is in "καὶ αἳ νηλειτεῖς" (Od. xxii. 418) on p-0230, so it is the grave; αἳ kept
 
 === p-0227
 ## 26

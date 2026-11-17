@@ -45,7 +45,7 @@ The syntax appears to be, τοὺς μὲν εἰσιόντας σαίνει, th
 Omitted in many copies, and certainly needless in this place. Cf. v. 768.
 
 ## 775
-**ἔνθα**, in continuation of v. 758 and 767, viz. near the abode of night.—θυγάτηρ πρεσβυτάτη, the eldest as well as most venerated, προφερεστάτη ἁπασέων, sup. v. 361.—κλυτὰ δώματα, perhaps ‘sounding halls,’ like δόμοι ἠχήεντες, sup. v. 767, κλυτὸς Ὠκεανὸς v. 274. Cf. κλυτὰ δώματα ναίειν in v. 303. As an epithet to *persons* (inf. 927. 956), it may rather mean ‘renowned.’—This episode about *Styx* is of considerable interest, and evidently of great antiquity. Derived from a root meaning ‘to shudder,’ it was held to be the one infernal power of which the celestial gods stood in dread, and the majesty of which they dared not violate. This special prerogative had been conferred on Styx sup. v. 397—9. Hesiod's conception of it seems to have been rather vague: it rose from a cavern beneath the earth (having its ultimate source,
+**ἔνθα**, in continuation of v. 758 and 767, viz. near the abode of night.—θυγάτηρ πρεσβυτάτη, the eldest as well as most venerated, προφερεστάτη ἁπασέων, sup. v. 361.—κλυτὰ δώματα, perhaps ‘sounding halls,’ like δόμοι ἠχήεντες, sup. v. 767, κλυτὸς Ὠκεανὸς v. 274. Cf. κλυτὰ δώματα ναίειν in v. 303. As an epithet to *persons* (inf. 927. 956), it may rather mean ‘renowned.’—This episode about *Styx* is of considerable interest, and evidently of great antiquity. Derived from a root meaning ‘to shudder,’ it was held to be the one infernal power of which the celestial gods stood in dread, and the majesty of which they dared not violate. This special prerogative had been conferred on Styx sup. v. 397—9. Hesiod’s conception of it seems to have been rather vague: it rose from a cavern beneath the earth (having its ultimate source,
 --- flags
 1 occursagain [latin] → occurs again
 2 leastin [rare] → least in
@@ -66,6 +66,7 @@ Omitted in many copies, and certainly needless in this place. Cf. v. 768.
 17 «τς. [conf] → deleted (no footnote on the page; noise from the margin)
 --- notes
 False heading `## 274` (κλυτὸς Ὠκεανὸς v. | 274.) put back into the 775 note; the false footnote "[Note: «τς.]" deleted (the page has none). "sup. v. 901" corrected to "sup. v. 361" as printed; "kal" → καὶ in the 763 lemma; quotation marks of ‘sounding halls,’ mended; *persons* and *Styx* in italics as printed. The 775 note runs on to p-0307.
+775	rev: "Hesiod's" written with ’ as elsewhere in the file
 
 === p-0307
 + like all other rivers, from Oceanus), but appeared on the surface of the earth falling from a rock (v. 792). In later times, at least, the Styx was thought to flow into Lake Avernus. But there was a spring so called in Arcadia, Pausan. viii. chap. 18.
@@ -258,7 +259,7 @@ False heading `## 775` ("767, | 775, 807, 811)" inside 807-810) put back into th
 **γε μὲν**, ‘but,’ i.e. there are two out of three who continue to keep guard over the Titans, sup. 735. From the contiguity of their habitation to Oceanus, we may suppose that Poseidon selected the favoured one for his son-in-law. K. O. Müller observes (Hist. Gr. Lit. p. 91) that Poseidon and Briareus seem to have had in some countries a common worship. Thus Briareus is said to be called Αἰγαίων by mortal men, Il. i. 404, and Αἰγαίων is also a name of Poseidon (Hesych. ἐνάλιος θεός). Sup. 626 it was said that Briareus Cottus and Gyes had been released from bondage for their services to Zeus; here they seem transferred to some happy land, some μακάρων νῆσος. To this Pindar alludes, Pyth. iv. 291, λῦσε δὲ Ζεὺς ἀφθίτους Τιτᾶνας.
 
 ## 819
-**ἣν** evidently takes both the σ and the ϝ, or in other words, the aspirated digamma. The metre requires σϝὴν or σφήν. So Scut. H. 59, αὐτὸν καὶ πατέρα ὃν Ἄρη. Il. xiii. 376, ὁ δ᾽ ὑπέσχετο θυγατέρα ἣν, and Od. xix. 400, θυγατέρος ἧς. Od. ix. 461, ὡς εἰπὼν τὸν κριὸν ἀπὸ ἕο πέμπε θύραζε. The ἐ in ἑὸν is from another form, ϝὸν for σϝὸν, or ϝεόν.
+**ἣν** evidently takes both the σ and the ϝ, or in other words, the aspirated digamma. The metre requires σϝὴν or σφήν. So Scut. H. 59, αὐτὸν καὶ πατέρα ὃν Ἄρη. Il. xiii. 376, ὁ δ᾽ ὑπέσχετο θυγατέρα ἣν, and Od. xix. 400, θυγατέρος ἧς. Od. ix. 461, ὣς εἰπὼν τὸν κριὸν ἀπὸ ἕο πέμπε θύραζε. The ἐ in ἑὸν is from another form, ϝὸν for σϝὸν, or ϝεόν.
 
 ## 820
 Hesiod continues his account of the Titanic race, and the doom which they received from the victorious Zeus. This Typhoeus, the god of volcanoes and earthquakes (see v. 306—7), was born after the expulsion of the Titans from heaven, and became a second and hardly less formidable adversary of Zeus. Müller (Hist. Gr. Lit. p. 91) calls this episode “an after-piece to the battle of the Titans.” Goettling thinks that it should follow v. 452, and so conclude the first part of the Theogony. Compare Apollodor. i. 6, 3, ὡς δὲ ἐκράτησαν οἱ θεοὶ τῶν Γιγάντων, Γῆ μᾶλλον χολωθεῖσα μίγνυται Ταρτάρῳ, καὶ γεννᾷ Τυφῶνα ἐν Κιλικίᾳ, μεμιγμένην ἔχοντα φύσιν ἀνδρὸς καὶ θηρίου. Aeschylus calls the monster γηγενὴς, as born from Earth, Prom. 359. Pindar, Pyth. i. 25, mentions it as κεῖνο ἕρπετον.
@@ -286,6 +287,7 @@ Hesiod continues his account of the Titanic race, and the doom which they receiv
 18 Perhaps [conf] → ok
 --- notes
 False heading `## 626` ("Sup. | 626 it was said …", inside 817) put back into the running text ("Βαρ." was the OCR's reading of "Sup."), and the 819 note, split at the column foot ("σϝὴν or | σφήν"), joined into one paragraph. Paley's digamma (F) written ϝ in σϝὴν, ϝὸν, σϝὸν, ϝεόν and "the ϝ". "Il. xiii. 576" corrected to 376 as printed; "Miiller" → Müller, "son-inlaw" → son-in-law, "6 δ᾽" → ὁ δ᾽, "oi θεοὶ" → οἱ θεοὶ; quotation marks mended (‘but,’; ‘for strength;’ ‘whose hands …’). "The ἐ in ἑὸν": Paley prints the lone epsilon with a smooth breathing and ἑὸν with a rough one; copied as printed. The 823 note runs on to p-0312.
+819	rev: ὡς → ὣς (Od. ix. 461, rough breathing and grave as printed)
 
 === p-0312
 + strong in action.’ But the phrase is difficult to explain. It may mean, ‘besides,’ ‘over and above,’ his strength; having both power and the desire to exert it. So sup. v. 153, ἰσχὺς δ᾽ ἄπλητος κρατερὴ μεγάλῳ ἐπὶ εἴδει. Also v. 146, βίη—ἐπὶ ἔργοις. Aesch. Theb. 549, χεὶρ ὁρᾷ τὸ δράσιμον. Flach reads οὗ χεῖρες μὲν ἄϝαπτοι ἐπ᾽ ἰσχύϊ ϝέργματ᾽ ἔχουσαι, Schoemann having proposed ἄαπτοι for ἔασιν.

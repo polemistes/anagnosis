@@ -126,7 +126,7 @@ The page begins inside "De Hip- | pocr.", written whole at the foot of p-0322; t
 A redundant and perhaps interpolated verse. Ariadne is mentioned in Od. xi. 321—5, in connexion with both Theseus and Dionysus.
 
 ## 952
-This verse occurs in Od. xi. 604, where Bekker omits it as interpolated from this passage; αὐτὸς δὲ (Ἡρακλέης) μετ᾽ ἀθανάτοισι θεοῖσι τέρπεται ἐν θαλίῃς καὶ ἔχει καλλίσφορον Ἥβην, παῖδα Διὸς μεγάλοιο κ.τ.λ.
+This verse occurs in Od. xi. 604, where Bekker omits it as interpolated from this passage; αὐτὸς δὲ (Ἡρακλέης) μετ᾽ ἀθανάτοισι θεοῖσι τέρπεται ἐν θαλίῃς καὶ ἔχει καλλίσφυρον Ἥβην, παῖδα Διὸς μεγάλοιο κ.τ.λ.
 
 ## 954
 **ἐν ἀθανάτοισιν**. Perhaps ἐν ἀνθρώποισιν, or ἐνὶ θνητοῖσιν. Otherwise, with Goettling, we must construe μέγα ἐν ἀθανάτοισιν, ‘great in the sight of the gods,’ rather than ναίει ἐν ἀθανάτοισιν. With ναίει we may supply αὐτοῦ ἐν Ὀλύμπῳ.
@@ -152,7 +152,7 @@ Hesych. ἀπήμαντος· ἀβλαβής.
 13 viii. [conf] → ok
 14 Aphrodite [conf] → ok
 15 321—5, [conf] → ok
-16 καλλίσφορον [greek] (Greek model: καλλίσφορον.) → ok (Paley's misprint for καλλίσφυρον, as printed)
+16 καλλίσφορον [greek] (Greek model: καλλίσφορον.) → καλλίσφυρον (the print's misprint καλλίσφορον corrected; see rev note)
 17 ἂνθρώποισιν [accent] → ἀνθρώποισιν
 18 ἂνθρώποισιν [accent] → ἀνθρώποισιν
 19 τοισιν. [conf] → ok
@@ -160,6 +160,8 @@ Hesych. ἀπήμαντος· ἀβλαβής.
 21 ἀπήμαντος: [conf] → ἀπήμαντος·
 --- notes
 The page runs on (the first line is not indented). False headings `## 952` ("at v. | 952 we come …") and `## 942-950` ("were v. | 942—950, …") removed and joined into the run-on paragraph. "938 | —944" joined as 938—944. ἐννέα (θ΄) for the draft's "(8)"; καὶ for "kal"; Ἡρακλέης for "‘Ἡρακλέης"; κ.τ.λ. for "K.T.A."; *may* italic. καλλίσφορον is Paley's misprint (Od. xi. 603 καλλίσφυρον), kept as printed.
+952	rev: the print has καλλίσφορον, an evident misprint for καλλίσφυρον (Od. xi. 603; Paley quotes καλλίσφυρος Ἰνώ on p-0326): corrected, against the note above
+952	rev: the print has θαλίης without the iota subscript, an evident misprint for θαλίῃς (Od. xi. 603): θαλίῃς kept, as the first agent wrote it
 
 === p-0325
 + an enchantress, Circe has the same mother as the goddess Hecate, who presided over poisons and baleful drugs, Eur. Ion 1050. In Od. x. 136 she is called the αὐτοκασιγνήτη of Aeetes, and daughter of the sun and an Oceanid nymph Perse. This clearly illustrates the meaning of *Perses*. The union of *the sun* with one of the *Oceanides* refers to the apparent rise and setting of the sun over the sea. From this passage to the end (excepting however v. 963, and adding to it αὐτὰρ ἐγὼν ὑμέων τε καὶ ἄλλης μνήσομ᾽ ἀοιδῆς) Flach supposes that a compiler has been at work, and he rejects the list of the ἡμίθεοι, the offspring of mortal by an immortal, as taken from some other epic. If it is the work of Hesiod at all, it is perhaps the commencement of another poem, a Ἡρωογονία, as Wolf and others have supposed. There followed (see v. 1021) a corresponding list of heroines (the same perhaps as those of the Μεγάλαι Ἠοῖαι attributed to Hesiod), as a counterpart to the verses now concluding the Theogony; and that list seems to have included the heroes born from gods and mortal women,—“a far more frequent occurrence in Greek mythology,” says Müller, Hist. Gr. Lit. p. 93.

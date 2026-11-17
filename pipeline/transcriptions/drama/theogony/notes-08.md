@@ -292,7 +292,7 @@ The whole digamma band (555. ϝίδεν βοϝὸς 557. κάϝουσ᾽ 559. 56
 **νάρθηκι**. See Opp. 52.—νειόθι, ἐκ νέου, for νεάτου, ‘at the very bottom.’ Photius, νεάτη· ἐσχάτη. Il. xxi. 317, οὔτε τὰ τεύχεα καλὰ, τά που μάλα νειόθι λίμνης κείσεται.
 
 ## 569
-**ὥς ἴδεν**. Perhaps ὥς ἴδ᾽ ἐν κ.τ.λ. But this verse seems made up from 555 and 566. Goettling is inclined to include in brackets v. 568, and in the preceding one to adopt the reading of the Emmanuel MS. (N.), δάκεν δέ ἑ κ.τ.λ.
+**ὥς ἴδεν**. Perhaps ὥς ἴδ᾽ ἐν κ.τ.λ. But this verse seems made up from 555 and 566. Goettling is inclined to include in brackets v. 568, and in the preceding one, to adopt the reading of the Emmanuel MS. (N.), δάκεν δέ ἑ κ.τ.λ.
 
 ## 570
 **ἀντὶ πυρός**. See Opp. 57. For the next three verses see ibid. 70—2.—ἴκελον, supply πλάσμα from σύμπλασσε.
@@ -326,6 +326,7 @@ The whole digamma band (555. ϝίδεν βοϝὸς 557. κάϝουσ᾽ 559. 56
 21 τήνγε [greek] → ok
 --- notes
 Heading "## 809" corrected to 569 (lemma ὥς ἴδεν, rough breathing and acute as printed). The note on 575 runs from the foot of the left column ("So") to the top of the right ("Penelope in Od. xxi. 65 …"): joined into one paragraph; the false heading "## 11" ("Il. iii. 419" at the head of a printed line) put back into the text. "Opp. T+" corrected to "Opp. 74".
+569	rev: "preceding one to adopt" → "preceding one, to adopt": the print has a mark after "one" (a broken comma, printed like a stop before lower-case "to"), which the draft had dropped
 
 === p-0288
 + ἄνθεσιν εἰαρινοῖσι. Here the entire decoration of the woman is attributed to Pallas, who ζῶσε καὶ κόσμησε v. 573, where ζωννύναι refers to the ἐσθὴς, κοσμεῖν to the head-ornaments.—For παρέθηκε, which Goettling explains παρὰ τὴν καλύπτρην ἔθηκε, Hermann would read περίθηκε or περέθηκε (like περίαχε inf. v. 678). The former is better, and appears very probable. But the reading of the Emmanuel MS., ἱμερτούς τε, suggests ἱμερτούς τ᾽ ἐπέθηκε κ.τ.λ. And this is adopted by Dr. Flach, who however excludes from the text 366—584. We might also suggest προσέθηκε.

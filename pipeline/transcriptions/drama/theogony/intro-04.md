@@ -250,7 +250,7 @@ We may further compare the Latin with the Greek reflexive pronoun, which suggest
 
 οὗ *sui* · ἓ *se*.
 
-Here it is easy to see that the genitive οὗ has passed through the several forms σϝέο, ἕο, εἷο, όο, besides which there is ἕθεν for
+Here it is easy to see that the genitive οὗ has passed through the several forms σϝέο, ἕο, εἷο, ὅο, besides which there is ἕθεν for
 --- flags
 1 aso, [conf] → as ο, (a letter cited alone, printed without a breathing)
 2 oh, [conf] → σφ,
@@ -283,3 +283,5 @@ Here it is easy to see that the genitive οὗ has passed through the several fo
 29 co, [conf] → όο, (printed with an acute and no breathing)
 --- notes
 Greek corrected from enlarged crops throughout: "6. g." → "e. g.", "ὃς" (relative and possessive, rough and grave), "ἑλπὶς" (printed with the rough breathing, the point of the remark), "o Fos, or Fos" → "σϝὸς, or ϝὸς", "sv or of *" → "*sv* or σϝ²", "making ef for of" → "making εϝ for σϝ", "ope for of = ἃ" → "σφε for σϝ = ἓ", "εἶσ" → "εἷο", "ὅθεν" → "ἕθεν"; italics restored (*aspirated*, *identical*, *sequor*, *aspirated labial*, *who*, *when*, *suavis*, *d*). Checker: the letters ο, ι, υ (as ο, ι, υ, σφ), ε ("passed into ε") and the cluster εϝ ("making εϝ for σϝ") are sounds cited alone, printed without breathings, and kept as printed. όο (the Homeric genitive ὅο) is printed with an acute and no visible breathing: copied as printed (a misprint or a lost breathing; the checker may remark on it). Structure: "Of aspirated words … μειλίσσεσθαι." is one printed paragraph (the line after the verse of Theog. 1021, "But *suavis* …", begins at the left edge), so the verse is kept in it. The small table of the reflexive pronoun (two rows, Greek and Latin in pairs; garbled in the draft) is written as a paragraph per row, the pairs separated by " · "; ἳ is printed with a rough breathing and a grave. "Here it is easy to see" begins unindented after the table but is necessarily its own paragraph after the rows; it runs on to the next page. Footnote ² ("ὃ 25" → "§ 25", *j* italic) placed after its paragraph.
+rev: "όο" → "ὅο": printed όο (acute, no breathing, seen enlarged); an evident misprint (the Homeric genitive ὅο, the step after ἕο, εἷο, needs its rough breathing), corrected.
+rev: checker remarks on ο, ι, υ, ε, εϝ: letters and a cluster cited alone as sounds, printed without breathings; kept as printed (explained above).

@@ -37,7 +37,7 @@ Most copies give ῥοίζασχ᾽, which would imply a present tense in —ά�
 Heading 833 corrected to `## 835` (the print has "835. Most copies give ῥοίζασχ᾽"); its paragraph, broken at the column foot ("in —άω or | —άζω"), joined. The verses of Aeschylus (Prom. 360 seqq.), set off in the print, joined into the running paragraph of note 832, which continues with "But Ovid …". The sheet signature "2" at the foot (read as "[Note: pe]]") deleted: not a footnote. Digamma (Paley's F) written ϝ in ϝόσσα, ϝήχεεν, ϝήχεε. "—άω", "—άζω" are verb endings cited alone, as printed (checker remark). "Viz." corrected to "viz." as printed; quotation marks ‘ ’ as printed.
 
 === p-0314
-+ κεφαλῶν τοῦ Τυφωέως, τοῦ μὲν διὰ τὰς βροντὰς, τοῦ δὲ διὰ τὰ πνεύματα. In fact, the next verse is exegetical of this. It is surprising therefore that Goettling should explain ὑπ᾽ ἀμφοτέρων of both the earth and Olympus placed on it. The reading of MS. Emm. (N) ἀμφοτερήνων, seems to indicate a confusion between ἀμφοτέρῃ (viz. βροντῇ τε στεροπῇ τε) and ἀπφοτέρων.—Unless in the next verse we should read ἄπο, βροντῆς, &c. are the genitives after καῦμα.
++ κεφαλῶν τοῦ Τυφωέως, τοῦ μὲν διὰ τὰς βροντὰς, τοῦ δὲ διὰ τὰ πνεύματα. In fact, the next verse is exegetical of this. It is surprising therefore that Goettling should explain ὑπ᾽ ἀμφοτέρων of both the earth and Olympus placed on it. The reading of MS. Emm. (N) ἀμφοτερήνων, seems to indicate a confusion between ἀμφοτέρῃ (viz. βροντῇ τε στεροπῇ τε) and ἀμφοτέρων.—Unless in the next verse we should read ἄπο, βροντῆς, &c. are the genitives after καῦμα.
 
 ## 846
 If this verse be genuine, and not another ancient reading of the preceding, the πρηστῆρες ἄνεμοι mean the gushing and bursting winds, which the ancients supposed to be the cause of earthquakes. Hesych. πρηστήρ· σφοδρὸς ἄνεμος. Cf. πρημαινούσας θυέλλας, Ar. Nub. 336. The τε added by Gaisford and Van Lennep after πρηστήρων has but little MS. authority. The latter critic takes πρηστήρων to mean ‘blasting and burning flames.’ We may remark on the whole of this description, that it accurately describes, though in somewhat symbolic language, some ancient volcanic eruption. We have the rumblings, the fire bursting out of the sea, the great earthquake wave, the liquified lava, the explosion of confined gases. This account however is so mixed up with the mythical notions of the bolts of Zeus and the fire of the monster, that the poet seems unconscious that he is describing any real natural phenomenon. It is an interesting question, whether this should be referred to the earliest recorded eruption of Etna (see Thuc. iii. 116), which is Goettling’s opinion, or to the outbreak of some other volcanic mountain, now extinct (perhaps Typhaonium, near Olympus, Scut. H. 32), as Van Lennep suggests.
@@ -52,7 +52,7 @@ These verses are probably an interpolation. They are rejected by Flach. Wolf rem
 5 ἀμφοτερήνων [greek] → ok (ἀμφοτε-|ρήνων)
 6 ἀμφοτερήνων [greek] → ok
 7 τε) [conf] → ok
-8 ἀπφοτέρων [greek] (Greek model: ἀπφοτέρων.---) → ἀπφοτέρων.— (misprint for ἀμφοτέρων, as printed)
+8 ἀπφοτέρων [greek] (Greek model: ἀπφοτέρων.---) → ἀμφοτέρων.— (the print's misprint ἀπφοτέρων corrected; see rev note)
 9 σφοδρὺς [greek] → σφοδρὸς
 10 σφοδρὺς [greek] → σφοδρὸς
 11 deseription [rare] → description,
@@ -73,6 +73,8 @@ These verses are probably an interpolation. They are rejected by Flach. Wolf rem
 26 844—5.— [conf] → ok
 --- notes
 The readings band (845. πυρός τ᾽ N. πυρὸς L, Ald. 847. ἔζεε πυρὶ N. 848. ἀμφὶ κύματα L. 850. τρέσσε δ᾽ ἀΐτης N. τρέσσε δ᾽ ἅδης L, Ald. 851. Τιτῆνες δ᾽ N. κρόνου L (gl. περὶ τὸν κρόνον), Ald.) had slipped in as notes 845, 847, 850 and 851: deleted. The page begins with the run-on of note 844 (`+ `). Note 846 runs from the foot of the left column ("of the monster, that") to the head of the right ("the poet seems unconscious"): the draft had cut it with the false heading 847 and band lines; joined into one paragraph. "ἀπφοτέρων" is Paley's misprint (for ἀμφοτέρων), copied as printed. ἀμφοτέρῃ, βροντῇ, στεροπῇ with iota subscript as printed. Note 850-852 (printed "850—2.") runs on to the next page.
+844	rev: the print has ἀπφοτέρων, an evident misprint for ἀμφοτέρων (Paley explains ἀμφοτερήνων as a confusion of ἀμφοτέρῃ and ἀμφοτέρων): corrected.
+850-852	rev: the print shows the first relative of the Iliad quotation as οἱ (rough breathing, no grave visible; the second is οἳ); Il. xiv. 274 has οἳ ἔνερθε: kept οἳ, as the first agent wrote it.
 
 === p-0315
 + ἀμφὶς, ‘apart from Cronus,’ arose from no mention having been made of Cronus being imprisoned.

@@ -24,7 +24,7 @@ This verse is rejected as spurious by Gaisford and Schoemann after Wolf and Heyn
 **ὅν κ᾽ ἐθέλησιν**, viz. ὃν ἂν ἐθέλῃ Ἑκάτη μεταπρέπειν. Hecate is here described as bringing success in all the affairs of life, in the popular assembly, in war, in the law court, in athletic contests, in sailing (fishing), provided that she is religiously worshipped and duly propitiated.
 
 ## 431
-**ἥ δ᾽**. Rather, perhaps, ἧδ᾽ ὁπότ᾽ κ.τ.λ.—θωρήσσωνται is given by Goettling and Van Lennep from one MS. for θωρήσσονται, which Gaisford retains. The subjunctive is defended by ἀεθλεύωσιν, v. 435. In this latter verse, to avoid the unusual hiatus (see v. 399), we might read ἀγῶσιν or even ἀγῶνας. For the influence of the goddess on games, see Donaldson on Pind. Isthm. iv. 1.
+**ἡ δ᾽**. Rather, perhaps, ἥδ᾽ ὁπότ᾽ κ.τ.λ.—θωρήσσωνται is given by Goettling and Van Lennep from one MS. for θωρήσσονται, which Gaisford retains. The subjunctive is defended by ἀεθλεύωσιν, v. 435. In this latter verse, to avoid the unusual hiatus (see v. 399), we might read ἀγῶσιν or even ἀγῶνας. For the influence of the goddess on games, see Donaldson on Pind. Isthm. iv. 1.
 --- flags
 1 ὀπάζει, [conf] → ok
 2 αἶσαν, [conf] → ok
@@ -48,6 +48,7 @@ This verse is rejected as spurious by Gaisford and Schoemann after Wolf and Heyn
 20 ἀεθλεύwow [mixed] → ἀεθλεύωσιν
 --- notes
 False heading "## 240" removed: the number ends the note on 422 ("See Opp. 240."). "On the long ι" (428): ι is the letter named, printed without breathing; the checker's remark on it is expected. The note on 428 joined across the column break. 430: μεταπρέπει corrected to μεταπρέπειν, ὃν ἂν ἐθέλῃ from the print; 431 lemma ἡ δ corrected to ἥ δ᾽ as printed; "(see v. 399)." corrected to "(see v. 399),". adesse in italics as printed.
+431	rev: lemma ἥ δ᾽ put back to ἡ δ᾽ (the print, as Paley's verse above, has the rough breathing only, no accent); "ἧδ᾽" corrected to ἥδ᾽ (rough breathing and acute, as printed)
 
 === p-0274
 ## 434
@@ -195,7 +196,7 @@ The *hiatus* in ὅγε οὐκ is unusual; but examples are not wanting in Hesi
 One may reasonably suspect that this unnecessary verse was added by some rhapsodist as a comment on τοκῆας. If so, the correction of Reize, τοὺς αὐτῆς for τοὺς αὑτῆς, as being more truly epic, is perhaps superfluous, though Van Lennep finds it in two MSS.
 
 ## 471
-**λελάθοιτο**, the reduplicated aorist middle, for λάθοι, scil. Κρόνον. Perhaps, ὅπως λελάθοι ἕ τεκοῦσα κ.τ.λ. Flach reads ὅπως κε λάθοι τε, and so Schoemann. But λελαθέσθαι is an Homeric form.
+**λελάθοιτο**, the reduplicated aorist middle, for λάθοι, scil. Κρόνον. Perhaps, ὅπως λελάθοι ἓ τεκοῦσα κ.τ.λ. Flach reads ὅπως κε λάθοι τε, and so Schoemann. But λελαθέσθαι is an Homeric form.
 
 ## 472
 Hesych. Ἐριννῦς· ἁμαρτίας. This gloss is by some referred to this passage, which is certainly a difficult one. Goettling compares Il. xxi. 412, οὕτω κεν τῆς μητρὸς ἐρινύας ἐξαποτίνοις, said by Pallas to the wounded Ares; ‘so you may atone for the anger of your mother.’ But the middle τίσαιτο ought here to mean, ‘and might avenge the curse of her father Uranus;’ whereas the context requires, ‘might exact vengeance for the crying sin of his father Cronus.’ Perhaps therefore it is best to assume that there is a change of the subject, i. e. that παῖς φίλος, i. e. Ζεὺς, is the nominative to τίσαιτο,—‘that she might bring him forth in secret, and he (in after times) might avenge the accursed deed of his father.’ Guietus proposed ἀνδρὸς for πατρός. The next verse, if genuine, means, ‘on account of the children which crafty Cronus had severally swallowed.’ Gaisford however and Goettling enclose it in brackets, after Wolf and Heyne, but Flach and Schoemann retain it, reading παίδων θ᾽. In one MS. it is omitted in the text, but added in the margin. Perhaps, after all, the verse is original, and ἐρινῦς πατρὸς παίδων may mean, ‘a father’s sinful treatment of his children.’
@@ -204,7 +205,7 @@ Hesych. Ἐριννῦς· ἁμαρτίας. This gloss is by some referred to 
 2 Reize [rare] → ok
 3 MSS. [conf] → ok
 4 λελάθοι [greek] → ok
-5 ὃ [conf] → ἕ
+5 ὃ [conf] → ἓ
 6 κιτ [greek] (Greek model: κιτιλο) → κ.τ.λ.
 7 Homeric [conf] → ok
 8 Ἐριννῦς [accent] (Greek model: Ἐρωνῦς") → Ἐριννῦς·
@@ -215,6 +216,7 @@ Hesych. Ἐριννῦς· ἁμαρτίας. This gloss is by some referred to 
 13 Guietus [rare] → ok
 --- notes
 The note on 471 made one paragraph: the draft broke it at the column foot and read "scil. Κρόνον." as "501]. Κρόνον."; "Perhaps, …" at the top of the right column is not indented and runs on. The last word of the page, "child-|ren", divided between pages, is written whole here; the next page begins with what follows it. Unflagged corrections: kal → καὶ, i. 6. → i. e. (twice), MS, → MS., margin, → margin., ‘so you may … mother.” / father Cronus.” / swallowed.” closed with ’ as printed; spaces before ; removed; *hiatus* in italics as printed.
+471	rev: ἕ corrected to ἓ (rough breathing and grave, as printed), in the text and in flag 5
 
 === p-0278
 + In this case the consequence of a crime, which is the vengeance it incurs, is put for the crime itself.

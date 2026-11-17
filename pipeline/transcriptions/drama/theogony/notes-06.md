@@ -109,7 +109,7 @@ Checker remark “ι … has no breathing”: the letter iota named, not a word 
 The whole digamma band (347. ϝάνακτι … 356. Περσηΐς, ϝιάνειρά τ᾽) and the band of manuscript readings (351. ῥοδία τε M, Ald. … 359. κρησηΐς τ᾽ M, in which the first hand recurs from this verse to 372, then the second hand again) had slipped into the draft as false notes 347, 349, 350, 351, 352, 353, 355, 356, 357, 358, 359, 964, 957: all deleted. The run-on from p-0263 (“campum petit amnis …”) had been put after these lines and the end of the left column (“rain-”) cut from its continuation at the top of the right column (“fed, Κερκηΐς …”): now one run-on paragraph, “rain-fed” whole. Notes 347, 352, 359 as printed.
 
 === p-0265
-+ early edd., Κρυσίη, Κρισίη, Κρησίη, Κρησηΐς. Schol. Κρυσηΐς. διὰ τὸ κρυερόν. A good conjecture of Naeke’s is Κρισσηΐς.
++ early edd., Κρυσίη, Κρισίη, Κρησίη, Κρησηΐς. Schol. Κρυσηΐς, διὰ τὸ κρυερόν. A good conjecture of Naeke’s is Κρισσηΐς.
 
 ## 361
 **προφερεστάτη**, has precedence over all the rest. This is the probable meaning, since Zeus gave to her peculiar prerogatives, v. 400. But inf. v. 766 she is also spoken of as the *eldest*: δεινὴ Στὺξ, θυγατὴρ ἀψορρόου Ὠκεανοῖο πρεσβυτάτη, so that both ideas may here be combined.
@@ -157,6 +157,7 @@ Hesych. καναχηδά· ἠχητικῶς.
 26 ἀξώς [greek] → ἀϝώς
 --- notes
 False headings 766 (“But inf. v. | 766 she is …”) and 4 (“lxvi. | 4. Ovid …”) put back into the notes on 361 and 371. The note on 370 had been split into two paragraphs at the column break: joined. Naeke’s conjecture, divided at a line end (Κρισ-σηΐς), written whole.
+359	rev: “Schol. Κρυσηΐς, διὰ τὸ κρυερόν”: comma after Κρυσηΐς as printed (the draft had a stop).
 
 === p-0266
 ## 373
@@ -283,6 +284,7 @@ The *hiatus* is rather unusual. See sup. v. 10, 369. Inf. v. 435. 466. Dr. Flach
 22 transeribers [rare] → transcribers
 --- notes
 The band of manuscript readings (393. ἀποραίσειν Ald. 395. ἔφατ᾽ Ald. 397. ἄφθιτον οὐλυμπόν τε M. (gl. εἰς τόν.) 398. σφῇσϊ M. σφίσι Ald. 400. μὲν om. M.) had slipped in as false notes 393, 395, 397, 398, 400: deleted. The note on 397 (“Her coming first is made | the ground of …”) runs from the foot of the left column to the top of the right: joined into one paragraph. 992 read 392 as printed. Paley’s digamma in σϝος written ϝ (Greek type in the print).
+397	rev: the print has ἐός (smooth breathing), an evident misprint for ἑός (Paley’s own text prints ἑός, ἑοὺς): ἑός kept, as the first agent wrote it.
 
 === p-0269
 + Here, as often elsewhere, ὅρκος is the object by which the oath is taken. As that object was a divine person, who would be aggrieved by her name being used for false swearing, she becomes also the avenging Ὅρκος who is mentioned in Opp. 804. The form of taking the oath was to bring some water from the spring called Styx: see inf. v. 784. Hom. Il. xv. 37, καὶ τὸ κατειβόμενον Στυγὸς ὕδωρ, ὅστε μέγιστος Ὅρκος δεινότατός τε πέλει μακάρεσσι θεοῖσιν.
@@ -328,6 +330,7 @@ Most critics agree in rejecting this verse, which, besides the tautology of ἤ�
 21 154).---Πέρσης, [conf] → 134).—Πέρσης,
 --- notes
 The bands (401. ϝεοὺς 403. ϝανάσσει; 405. θεὰ θεῶν M. 410. ἠγάγεθ᾽ ὡς M.) had slipped in as false notes 401, 405 (glued to the run-on), 403, 410: deleted. The left column opens, not indented, with the rest of the note on 400 (“Here, as often elsewhere …”): marked as a run-on. False heading 119 (“Curtius, | 119, wrongly”) put back into the note on 406, and the note joined across the columns, λαν-|θάνειν written whole.
+401	rev: the print has ἐοὺς (smooth breathing) in “For ἐοὺς many MSS.”, an evident misprint for ἑοὺς (v. 401 of Paley’s text above prints ἑοὺς): ἑοὺς kept, as the first agent wrote it.
 
 === p-0270
 ## 411-452

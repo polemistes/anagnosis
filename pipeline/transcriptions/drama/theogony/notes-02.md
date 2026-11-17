@@ -240,7 +240,7 @@ The draft's "## 172" ("Od. viii. | 172 refers" in the note on 91) and "## 62" ("
 As several MSS. give ἐκ γάρ τοι Μουσάων, we should perhaps read ἐκ μὲν γὰρ Μούσεων. If these verses are here genuine,—and they occur in the Homeric Hymn to the Muses and Apollo, v. 2,—the meaning seems to be, that though kings, holding their prerogative from Zeus, stand first, yet bards, inspired by the Muses, as even kings are with eloquence, hold the next place. The context shows that ὁ δ᾽ ὄλβιος κ.τ.λ. refers alike to kings and poets. The γλυκερὴ αὐδὴ, or royal eloquence, was mentioned in similar terms above, v. 83—4. Here it refers principally to poets, who thereby obtain success and notoriety,—for this is implied in ἐπὶ χθόνα, ‘over the wide earth.’ Cf. Od. viii. 479—81, πᾶσι γὰρ ἀνθρώποισιν ἐπιχθονίοισιν ἀοιδοὶ τιμῆς ἔμμοροί εἰσι καὶ αἰδοῦς, οὕνεκ᾽ ἄρα σφέας Οἴμας μοῦσ᾽ ἐδίδαξε, φίλησε δὲ φῦλον ἀοιδῶν.—For the accusative χθόνα, which indicates the wandering lives of the ancient bards, see Opp. 11, οὐκ ἄρα μοῦνον ἔην ἐρίδων γένος, ἀλλ᾽ ἐπὶ γαῖαν εἰσὶ δύω. Ibid. v. 125, πάντῃ φοιτῶντες ἐπ᾽ αἶαν. Inf. v. 187, Νύμφας θ᾽ ἃς Μελίας καλέουσ᾽ ἐπ᾽ ἀπείρονα γαῖαν.—ἀοιδοὶ is not here the predicate, the sense being ἄνδρες ἀοιδοὶ ἐκ Μουσῶν, βασιλῆες ἐκ Διός εἰσι.
 
 ## 97
-The MSS. vary between φίλωνται, φιλῶνται, φιλεῦνται. The first is preferred by Hermann and Goettling (the aorist φίλατο occurs Il. v. 61), the second by Van Lennep, the third, which is the vulgate reading, by Gaisford. It is probable that the ι is never intrinsically long, but the λ is sometimes doubled in the pronunciation, as in the address φίλε κασίγνητε. So Ὄλλυμπος may be more correct than Οὔλυμπος. Some distinguish three forms of the verb, φῑλομαι, φιλέω, φίλημι.
+The MSS. vary between φίλωνται, φιλῶνται, φιλεῦνται. The first is preferred by Hermann and Goettling (the aorist φῑλατο occurs Il. v. 61), the second by Van Lennep, the third, which is the vulgate reading, by Gaisford. It is probable that the ι is never intrinsically long, but the λ is sometimes doubled in the pronunciation, as in the address φίλε κασίγνητε. So Ὄλλυμπος may be more correct than Οὔλυμπος. Some distinguish three forms of the verb, φῑλομαι, φιλέω, φίλημι.
 
 ## 98
 **νεοκηδέϊ**, recently afflicted with grief for the death of a relative (this being implied in πένθος). Hesych. νεωστὶ πενθήσαντι. Similarly Aeschylus has νεοπαθὴς, Eum. 489. Van Lennep conjectures that the poet alludes to his own poetic efforts at the funeral of Amphidamas, at which he was present, Opp. 654.—ἄζηται, ‘should pine,’ or become dry in heart,—an idea perhaps derived from exhausting the fountain of tears, οὐδ᾽ ἔνι σταγὼν, Aesch. Ag. 861. Cf. Opp. 587, ἐπεὶ κεφαλὴν καὶ γούνατα Σείριος ἄζει. Scut. H. 397, ὅτε τε χρόα Σείριος ἄζει. Il. iv. 487, ἡ μέν τ᾽ ἀζομένη κεῖται ποταμοῖο παρ᾽ ὄχθας. Compare the use of παχνοῦσθαι, of the effects of grief, Opp. 360. Goettling seems to have forgotten the Homeric passage when he says, “Hic usus verbi ἄζομαι non reperitur nisi apud Hesiodum.”
@@ -293,6 +293,7 @@ The MSS. vary between φίλωνται, φιλῶνται, φιλεῦνται. 
 46 Hesio [latin] (Greek model: Ἡρῖο-) → Hesiodum.”
 --- notes
 The draft's "## 322" and "## 37" ("Again, in Opp. | 322 we have …, as in Opp. | 37 ἄλλα τε πολλὰ") and "## 861" ("Aesch. Ag. | 861. Cf. Opp. 587") were false headings: joined back into the run-on from 93 and the note on 98 (ἄλλα τε πολλὰ is not a lemma). The note on 94-97 was broken by OCR noise ("42]", "JX.") at the column foot and again at "γαῖαν | εἰσὶ δύω": joined into one paragraph as printed, the noise deleted. Latin quotations in the run-on printed in italics marked *…*. "φῑλομαι" with the macron as printed. The checker's remark on "ι" (no breathing) is answered: it is the letter named ("the ι is never intrinsically long"), printed without breathing.
+97	rev: "φίλατο" corrected to "φῑλατο": Paley prints a macron over the ι, no acute (as in φῑλομαι below)
 
 === p-0237
 ## 100
@@ -305,7 +306,7 @@ For αἶψ᾽ ὅγε there are variants αἶψα δ᾽ ὁ, αἶψα δ᾽ �
 **παρέτραπε**, scil. θυμὸν ἀπὸ κηδέων. Euripides, Med. 195, laments that music was not much used for consoling grief; στυγίους δὲ βροτῶν οὐδεὶς λύπας εὕρετο μούσῃ καὶ πολυχόρδοις ᾠδαῖς παύειν.
 
 ## 104
-**χαίρετε**, “farewell,”—a common conclusion to long invocations, e. g. in Theocr. Id. ii. 165, xxii. 214, xvii. 136. Perhaps, if we regard this verse as a continuation of the praises of the Muse, the meaning is ‘all hail to you!’, i. e. assist me to sing. Goettling condemns as spurious the passage from 105—115. He says, “hoc versu (104) *necessario* concluditur prooemium theogoniae.” He objects, that in v. 108 we should have expected χάος καὶ γαῖα instead of θεοὶ καὶ γαῖα, especially as the birth of the gods is mentioned in v. 111. This latter verse indeed occurred as v. 46, and it is omitted in the quotation of this passage by Origen (see on v. 125). Further, it seems likely that v. 110 was made up from v. 382. Others have thought that there are traces of two recensions, e. g. 105—7 in place of 108—13. We can determine nothing here with certainty, and perhaps Van Lennep is as near the truth as any of the other critics: “Mihi, quod in rudioris aevi carmine non sunt omnia pro nostro sensu concinne dicta aut disposita, quodque tautologia in quibusdam offensionem facit, non adferrre continuo necessitatem videtur, ut vel ordinem in eo versuum immutemus, vel duplicis recensionis commento tautologia liberare illud conemur.” He thinks that in this brief epitome of the subject (105—115) the Muses are invoked to relate *who* were brought into being, *how* (108), and in *what order* (115).
+**χαίρετε**, “farewell,”—a common conclusion to long invocations, e. g. in Theocr. Id. ii. 165, xxii. 214, xvii. 136. Perhaps, if we regard this verse as a continuation of the praises of the Muse, the meaning is ‘all hail to you!’, i. e. assist me to sing. Goettling condemns as spurious the passage from 105—115. He says, “hoc versu (104) *necessario* concluditur prooemium theogoniae.” He objects, that in v. 108 we should have expected χάος καὶ γαῖα instead of θεοὶ καὶ γαῖα, especially as the birth of the gods is mentioned in v. 111. This latter verse indeed occurred as v. 46, and it is omitted in the quotation of this passage by Origen (see on v. 125). Further, it seems likely that v. 110 was made up from v. 382. Others have thought that there are traces of two recensions, e. g. 105—7 in place of 108—13. We can determine nothing here with certainty, and perhaps Van Lennep is as near the truth as any of the other critics: “Mihi, quod in rudioris aevi carmine non sunt omnia pro nostro sensu concinne dicta aut disposita, quodque tautologia in quibusdam offensionem facit, non adferre continuo necessitatem videtur, ut vel ordinem in eo versuum immutemus, vel duplicis recensionis commento tautologia liberare illud conemur.” He thinks that in this brief epitome of the subject (105—115) the Muses are invoked to relate *who* were brought into being, *how* (108), and in *what order* (115).
 --- flags
 1 1, [digit] → ok
 2 ῥυτὺς [greek] → ῥυτὸς
@@ -343,7 +344,7 @@ For αἶψ᾽ ὅγε there are variants αἶψα δ᾽ ὁ, αἶψα δ᾽ �
 34 quodque [rare] → ok
 35 tautologia [rare] → ok
 36 offen- [conf] → ok
-37 adferrre [rare] → ok
+37 adferrre [rare] → adferre
 38 necessitatem [rare] → ok
 39 immutemus [rare] → ok
 40 duplieis [latin] → duplicis
@@ -354,7 +355,8 @@ For αἶψ᾽ ὅγε there are variants αἶψα δ᾽ ὁ, αἶψα δ᾽ �
 45 liberare [rare] → ok
 46 conemur [rare] → ok
 --- notes
-The note on 104, split across the columns in the draft ("e. g. in | Theocr."), joined into one paragraph. "adferrre" is Paley's misprint, kept as printed. "v. 332" corrected to "v. 382" from the print. The digamma in κλεϝ-ς written ϝ as in the other batches. The checker's remark on "οσύνη" (no breathing) is answered: it is the termination "—οσύνη", printed without breathing.
+The note on 104, split across the columns in the draft ("e. g. in | Theocr."), joined into one paragraph. "v. 332" corrected to "v. 382" from the print. The digamma in κλεϝ-ς written ϝ as in the other batches. The checker's remark on "οσύνη" (no breathing) is answered: it is the termination "—οσύνη", printed without breathing.
+104	rev: "adferrre" (an evident misprint of the print, a letter doubled) corrected to "adferre"; the print has "adferrre"
 
 === p-0238
 ## 112

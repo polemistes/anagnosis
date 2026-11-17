@@ -57,7 +57,7 @@ Checker: the ending "ᾰς" without breathing is as printed (a letter group, not
 + islands of the Atlantic, or the name Ἑσπερίδες was a Grecised form of a similar sound belonging to some other dialect, and so a significance was attached to it. So perhaps Κύκλωπες and other legendary monsters. That the Gorgons were commonly thought to inhabit the western coast of Africa has been remarked by Van Lennep, who thinks the story may have arisen from the capture of Gorilla apes.
 
 ## 281
-**ἐξέθορε** MSS., and so Goettling, who thinks Χρυσάωρ may be a spondee by synizesis. It is more likely that the transcribers were misled by the frequent Attic abbreviation of χρῦσεος. (See on Scut. H. 199.) Gaisford admits the conjecture of Guiet., ἔκθορε κ.τ.λ., remarking that the Schol. on Pind. Ol. xiii. 89 (63) agrees with the MSS. reading. So also Van Lennep, Schoemann, and Flach.
+**ἐξέθορε** MSS., and so Goettling, who thinks Χρυσάωρ may be a spondee by synizesis. It is more likely that the transcribers were misled by the frequent Attic abbreviation of χρῠσεος. (See on Scut. H. 199.) Gaisford admits the conjecture of Guiet., ἔκθορε κ.τ.λ., remarking that the Schol. on Pind. Ol. xiii. 89 (63) agrees with the MSS. reading. So also Van Lennep, Schoemann, and Flach.
 
 ## 282
 **ὅτ᾽**, for ὅτι, not ὅτε. Goettling compares Il. viii. 251, οἵδ᾽ ὡς οὖν εἴδονθ᾽, ὅτ᾽ ἄρ᾽ ἐκ Διὸς ἤλυθεν ὄρνις. He encloses however in brackets the passage down to v. 286, Wolf, followed by Gaisford, having previously condemned vv. 282—3. Either the etymology of both names is spurious, or both are genuine, as Goettling contends: otherwise we might incline to Hermann’s emendation, ὅτ᾽ ἄρ᾽ Ὠκεανοῦ περὶ πηγὰς ᾤχετ᾽ ἀποπτάμενος κ.τ.λ. Goettling objects to the crasis χὠ μὲν, as not epic, and further observes that the giving wings to Pegasus was a device of the later poets. He might have added, that τῷ μὲν ἐπώνυμον ἦν is very unusual for ὁ μὲν ἐπώνυμος ἦν, or τῷ μὲν ἐπώνυμον ὄνομα ἦν. Cf. v. 144, Κύκλωπες δ᾽ ὄνομ᾽ ἦσαν ἐπώνυμον. Still Euripides may have had this passage in view when he wrote his play of Bellerophon, ridiculed by Aristoph. Pac. 722, ὑφ᾽ ἅρματ᾽ ἐλθὼν Ζηνὸς ἀστραπηφορεῖ, and ibid. v. 135, οὔκουν ἐχρῆν σε Πηγάσου ζεῦξαι πτερόν;
@@ -70,7 +70,7 @@ Checker: the ending "ᾰς" without breathing is as printed (a letter group, not
 3 χρύσαορ [greek] (Greek model: 'χρύσαορ.) → deleted: band line (manuscript readings, 287. χρύσαορ M, Ald.)
 4 Greeised [latin] (Greek model: ΟἸεοϊβοᾶ) → Grecised
 5 MSS, [conf] → MSS.,
-6 χρύσεος. [conf] → χρῦσεος.
+6 χρύσεος. [conf] → χρῠσεος.
 7 k.7.A., [conf] → κ.τ.λ.,
 8 1], [digit] → Il.
 9 εἴδονθ᾽ [accent] → ok
@@ -89,6 +89,7 @@ Checker: the ending "ᾰς" without breathing is as printed (a letter group, not
 22 ἄστραπηφορεῖ [accent] → ἀστραπηφορεῖ
 --- notes
 Paley's manuscript-readings band (276-287: σθενώ τ᾽ M, Ald., ἀγήρως, 279 In M, Ald. after this verse v. 288 is added …, χρύσαορ, ὅτ᾽ ἂν, γείναθ᾽, γείνεθ᾽, τρικέφαλον Ald.) had slipped into the draft and split the commentary into false notes (## 276, 281, 279, 277, 3, 722): deleted. The page begins with the run-on of the note on 274 ("+ islands of the Atlantic …", which the draft had glued under a band line); 282 runs from the foot of the left column to the top of the right ("ὅτ᾽ ἄρ᾽ ἐκ Διὸς …") and is one paragraph; "722, ὑφ᾽ ἅρματ᾽ …" was a false heading (Aristoph. Pac. 722) and is put back into the text.
+281	rev: "χρῦσεος" corrected to "χρῠσεος" (281 n.): Paley prints a breve on the υ, not a circumflex
 
 === p-0257
 + τρισώματος and *triplex*, as comprising three bodies joined in one. Many copies give τρικέφαλον, (as inf. v. 312,) which some would retain, pronouncing it with double λ, like Ar. Equit. 417, μαχεῖ σὺ κυνοκεφάλλῳ; The reading probably proceeded from a gloss: see however sup. on v. 229, μάχας τ᾽ ἀμφῑλογίας τε. The name Γηρυὼν (Γηρυονὴς, Γηρυονεὺς) contains the root γαρ, as in γηρύεσθαι, *garrire*. Theocr. ix. 7, ἁδὺ μὲν ἁ μόσχος γαρύεται, ἁδὺ δὲ χἂ βώς.
@@ -227,7 +228,7 @@ Checker: "υ" and "ι" without breathing are the letters named in the text ("the
 **ἀμήχανον**, ἄπορον, difficult to deal with. Cf. 295.—οὔτι φατειὸν, see sup. 148. Scut. H. 144.
 
 ## 311
-**Κέρβερον**. Van Lennep remarks, from Pausan. iii. 25, 4, (who says that Hecataeus spoke of a δεινὸς ὄφις, called Ἅιδου κύων, at Taenarus,) that the origin of this legend probably arose from the subterranean sounds heard in the caves of that very volcanic district. “Pluto’s palace is guarded by the monstrous dogs Orthrus and Cerberus, the latter of whom has three heads. These are the Vritra and Çarvara of the Vedic mythology of India.” (Mythology and Folk-lore, p. 245.) Van Lennep and Schoemann retain the reading of nearly all the copies, πεντηκοντακέφαλον, doubling however the λ, perhaps unnecessarily. See sup. on v. 287. By ‘fifty-headed,’ which perhaps expresses an indefinite number, later poets gave the epithet τρίκρανος. Horace has *bellua centiceps*, Carm. ii. 13, 34. Similarly the fifty Nereids are called ‘centum sorores’ in Ovid, Fast. vi. 499.—ἀναιδέα, ‘cruel,’ ‘remorseless.’—Goettling has an idea, that this verse belonged originally to Typhaon, and should follow v. 306; and he remarks that the Scholiast seems to have found it so in his copy; ὁ μὲν Πίνδαρος ἑκατογκέφαλόν φησιν εἶναι τὸν Τηφωέα, οὗτος δὲ πεντηκοντακέφαλον.
+**Κέρβερον**. Van Lennep remarks, from Pausan. iii. 25, 4, (who says that Hecataeus spoke of a δεινὸς ὄφις, called Ἅιδου κύων, at Taenarus,) that the origin of this legend probably arose from the subterranean sounds heard in the caves of that very volcanic district. “Pluto’s palace is guarded by the monstrous dogs Orthrus and Cerberus, the latter of whom has three heads. These are the Vritra and Çarvara of the Vedic mythology of India.” (Mythology and Folk-lore, p. 245.) Van Lennep and Schoemann retain the reading of nearly all the copies, πεντηκοντακέφαλον, doubling however the λ, perhaps unnecessarily. See sup. on v. 287. By ‘fifty-headed,’ which perhaps expresses an indefinite number, later poets gave the epithet τρίκρανος. Horace has *bellua centiceps*, Carm. ii. 13, 34. Similarly the fifty Nereids are called ‘centum sorores’ in Ovid, Fast. vi. 499.—ἀναιδέα, ‘cruel,’ ‘remorseless.’—Goettling has an idea, that this verse belonged originally to Typhaon, and should follow v. 306; and he remarks that the Scholiast seems to have found it so in his copy; ὁ μὲν Πίνδαρος ἑκατογκέφαλόν φησιν εἶναι τὸν Τυφωέα, οὗτος δὲ πεντηκοντακέφαλον.
 
 ## 315
 **ἄπλητον**, so as to be unapproachable; ἄπλητον κότον ἔχουσα. Here (cf.
@@ -256,11 +257,12 @@ Checker: "υ" and "ι" without breathing are the letters named in the text ("the
 22 Vritra [latin] (Greek model: εῖίσα.) → ok
 23 Carvara [rare] → Çarvara
 24 sorores’ [conf] → ok
-25 Τηφωέα [greek] → ok
+25 Τηφωέα [greek] → Τυφωέα (misprint corrected; see notes)
 26 ἄπλητον. [conf] → ἄπλητον,
 --- notes
 Paley's bands (digamma readings 307-313, manuscript readings 307-315) did not reach the draft. False headings mended: "## 39" (Theognis, v. 39) and "## 648" (Phoen. 648) are put back into the note on 308, which is one paragraph; "## 910" is the note on 310 (ἀμήχανον). Paley prints macrons and a breve on the verbs (κύειν (ῡ), κῠέω, κῡω, ἐκῡσάμην, κῡρω, μαρτῡρω): kept as printed, κῡω and κῡρω with the macron and no accent mark, as printed. "MS. Barocc. (M)" corrected from the draft's "Baroce. (Δ)".
 Checker: "(ῡ)" after κύειν is the letter with its quantity mark, printed without breathing.
+311	rev: "Τηφωέα" (printed so, in the scholion quoted at the end of the note) corrected to "Τυφωέα": an evident misprint (η for υ), no such form of the name
 
 === p-0260
 + v. 151) ἄπληστον would not be a bad reading. But Hesych. has ἄπλητον· ἀπρόσιτον, ἀχώρητον, μέγα.
@@ -411,3 +413,4 @@ An enumeration of the principal rivers known to the Greeks in Hesiod’s time. G
 --- notes
 No band lines in the draft. False headings mended: "## 15" (Pausan. ii. 15, 3), "## 400" (Eur. Herc. F. 394—400) and "## 23" (Pyth. xii. 23) put back into their notes; the note on 338 runs from the foot of the left column to the top of the right ("time. Goettling here …") and is one paragraph. The lemma of 332 is Paley's digamma reading (ἀλλά ϝε … ϝις for ἀλλά ἑ ἶς). The endings "—υος", "—υνος", "—ου" (Phorcys) are printed without breathing. Italics added (Peloponnesus, vis, Phorcys).
 Checker: the endings "—υος", "—υνος", "—ου" are as printed, without breathing.
+338	rev: the scholion's "καλεῖ" is printed "κὰλεῖ" with a stray grave over the α: an evident misprint, kept corrected as καλεῖ (checked on the image)
