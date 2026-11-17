@@ -1278,7 +1278,7 @@ def perseus_source(play: Play) -> str:
 # Plays whose commentary gives Jebb's italics to the Latin Perseus marks (commentary._latin;
 # 2026-11-17, the three on sale, their fix tables written against the italics); the others get it
 # at their next merge (their fix tables match the text as imported without it)
-LATIN_ITALICS = {"ajax", "electra"}  # the Antigone: read from the page, its batches carry the italics
+LATIN_ITALICS = {"electra"}  # the Antigone and the Ajax: read from the page, their batches carry the italics
 
 
 def import_options(play: Play) -> dict:
@@ -1627,43 +1627,8 @@ COMMENTARY_FIXES: dict[str, list[tuple[str, str]]] = {
         ('for ἐvέκηλος, ἔvκηλος', 'for ἐϝέκηλος, ἔϝκηλος'),
         ('(for ἔκηvα)', '(for ἔκηϝα)'),
     ],
-    "ajax": [
-        # Perseus's e)=nai for ei)=nai (a circumflex over nothing)
-        ('ellipse of ἐ ͂ναι', 'ellipse of εἶναι'),
-        # Perseus's "<*>" (imported as "[?]") and capital rho keyed *(p, read on Jebb's page (1896, scan
-        # playsfragmentswi07sophuoft; 2026-11-17): all 20
-        ('εἱλόμη[?] ἄν', 'εἱλόμην ἄν'),
-        ('Menander *ʽπαπιζομένης', 'Menander Ῥαπιζομένης'),
-        ('γυμνικὸν [?]ιὰ πάσης', 'γυμνικὸν διὰ πάσης'),
-        ('in which Soph [?]es has used', 'in which Sophocles has used'),
-        ('**ἐπεντύνον[?]**', '**ἐπεντύνοντʼ**'),
-        ('the fore[?]st thought', 'the foremost thought'),
-        ('τῶν τρ[?]άκοντα', 'τῶν τριάκοντα'),
-        ('κανόνητα σ[?]ματα', 'κανόνητα σώματα'),
-        ('stem the [?]de.', 'stem the tide.'),
-        ('ἀτρύτ [?]τιν |', 'ἀτρύτοισιν |'),
-        ('ὁ ἀεὶ as=[?] ἀεὶ ὤν', 'ὁ ἀεὶ as=ὁ ἀεὶ ὤν'),
-        ('διαφέρε[?]ν τὸν', 'διαφέρειν τὸν'),
-        ('ᾧ καὶ Ζ[?]ὺς', 'ᾧ καὶ Ζεὺς'),
-        ('τῷ *ʽποιτείῳ', 'τῷ Ῥοιτείῳ'),
-        ('fairly wo[?] The fut.', 'fairly won. The fut.'),
-        ('ἐμβρόντητε, ε[?] ͂τα νῦν', 'ἐμβρόντητε, εἶτα νῦν'),
-        # the last four (68 leaf 106, 500 leaf 167, 797 leaf 208, 977 leaf 233)
-        ('εἰ[?]ιδεῖν**', 'εἰσιδεῖν**'), ('the Lat. *[?]a-c* is', 'the Lat. *ja-c* is'),
-        ('*Ph.* 174 [?]λύει δʼ', '*Ph.* 174 ἀλύει δʼ'),
-        ('For ξύναιμον, cp. [?] σοπη. *αντ.* αὐτάδελφον..κάρα, Soph. *O. C.*', 'For ξύναιμον, cp. *Ant.* 1 αὐτάδελφον..κάρα, *O. C.*'),
-        # Perseus's Betacode v left a Latin v: the digamma (ϝ, Ϝ; read on the page: Ajax leaves 139, 265, 293;
-        # Electra 137) or a mistyped ν (the word is plain)
-        ('**vαὸς ἀρωγοὶ**', '**ναὸς ἀρωγοὶ**'),
-        ('= ἀv-vέρυσαν', '= ἀϝ-ϝέρυσαν'),
-        ('for ἀν-vερ,', 'for ἀν-ϝερ,'),
-        ('form was Αἴvας', 'form was ΑἴϜας'),
-        ('root (vεργ)', 'root (ϝεργ)'),
-        ('the rt. ἀv (ἄω)', 'the rt. ἀϝ (ἄω)'),
-        ('a rt. ἀvες', 'a rt. ἀϝες'),
-        ('rt. vελ, εἴλω', 'rt. ϝελ, εἴλω'),
-        ('**vαύταις**', '**ναύταις**'),
-    ],
+    # the Ajax: none since its commentary is read from Jebb's page (COMMENTARY_FROM_PAGE,
+    # 2026-11-18); the fixes to Perseus's digitisation it had are in git history (before aee2e3f)
     # the Antigone: none since its commentary is read from Jebb's page (COMMENTARY_FROM_PAGE,
     # 2026-11-17); the fixes to Perseus's digitisation it had are in git history (before be034e2)
     "oedipuscoloneus": [
