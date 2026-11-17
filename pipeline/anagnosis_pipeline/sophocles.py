@@ -1242,6 +1242,17 @@ def perseus_source(play: Play) -> str:
     return f"Perseus Digital Library, jebb.soph.{play.code}_eng.xml ({edition})"
 
 
+# Plays whose commentary gives Jebb's italics to the Latin Perseus marks (commentary._latin;
+# 2026-11-17, the three on sale, their fix tables written against the italics); the others get it
+# at their next merge (their fix tables match the text as imported without it)
+LATIN_ITALICS = {"antigone", "ajax", "electra"}
+
+
+def import_options(play: Play) -> dict:
+    """The switches write_commentary gives commentary.import_jebb_commentary for a play."""
+    return {"latin_italics": play.slug in LATIN_ITALICS}
+
+
 def write_commentary(slug: str, sources: Path, texts: Path) -> int:
     """texts/<slug>/commentary-jebb.md afresh from sources/jebb-<slug>-commentary.xml, with the
     header import_play gives it, and the metrical schemes Perseus writes with breves and macrons
@@ -1264,7 +1275,7 @@ def write_commentary(slug: str, sources: Path, texts: Path) -> int:
     try:
         n = import_jebb_commentary(src, tmp, {
             "title": f"Commentary on Sophocles: {play.title_en}", "author": "Richard C. Jebb", "lang": "eng",
-            "source": perseus_source(play), "license": "CC BY-SA 3.0 US"})
+            "source": perseus_source(play), "license": "CC BY-SA 3.0 US"}, **import_options(play))
     except SystemExit as e:  # the file holds no commentary
         tmp.unlink(missing_ok=True)
         print(f"{src.name}: {e}; {path.name} left as it is")
@@ -1492,7 +1503,7 @@ COMMENTARY_FIXES: dict[str, list[tuple[str, str]]] = {
         ('οὐ λανθάνε[?] με ἀλλʼ', 'οὐ λανθάνει με ἀλλʼ'),
         ("οὐ λάθει μ' [?]ν δεῖ", "οὐ λάθει μ' ὧν δεῖ"),
         ('παῦσαι· κρα[?]εῖς τοι', 'παῦσαι· κρατεῖς τοι'),
-        ('(sc. [?]ησι)', '(sc. ἔῃσι)'),
+        ('(*sc.* [?]ησι)', '(*sc.* ἔῃσι)'),
         ('τόνδε to π[?]λιν', 'τόνδε to πόλιν'),
         ('fr. 658 [?] πρῷρα', 'fr. 658 ὦ πρῷρα'),
         ('αὐθέντης, u[?]ed by', 'αὐθέντης, used by'),
@@ -1505,7 +1516,7 @@ COMMENTARY_FIXES: dict[str, list[tuple[str, str]]] = {
         ('=σῳζόμενα [?].', '=σῳζόμενα ἦ.'),
         ('κεφαλῇ [?]ναμάξεις', 'κεφαλῇ ἀναμάξεις'),
         ('Ἄτην τʼ, [?]ρινύν', 'Ἄτην τʼ, Ἐρινύν'),
-        ('τὸν ο[?]κον (i.e.', 'τὸν οἶκον (i.e.'),
+        ('τὸν ο[?]κον (*i.e.*', 'τὸν οἶκον (*i.e.*'),
         ('τῶν ἐμ[?]ν, and', 'τῶν ἐμῶν, and'),
         ('instead of [?]δʼ εἶχε', 'instead of ὧδʼ εἶχε'),
         ('*Ph.* 243 [?] τοῦ γέροντος', '*Ph.* 243 ὦ τοῦ γέροντος'),
@@ -1612,6 +1623,8 @@ COMMENTARY_FIXES: dict[str, list[tuple[str, str]]] = {
         # read on the page (leaves 78, 165); the rest evident (Simonides's ἐπεὶ δʼ ἱκανὸν … ἐποίησε,
         # Arist. Rhet. 3. 2 § 14 ὁ Σιμωνίδης)
         ('The compound with ὲκ usu.', 'The compound with ἐκ usu.'),
+        # words run together in Perseus (note on 341, leaf 139: "as simply =ἵπποις are, that (1)")
+        ('as simply =ἵπποιςare,that (1)', 'as simply =ἵπποις are, that (1)'),
         ('τῶν ὲχθρῶν κακά', 'τῶν ἐχθρῶν κακά'),
         ('οὐδ\' ὲπιθυμία', 'οὐδ\' ἐπιθυμία'),
         ('μὴ ὲλλείπεσθαι', 'μὴ ἐλλείπεσθαι'),

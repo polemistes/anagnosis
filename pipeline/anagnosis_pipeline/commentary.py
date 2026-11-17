@@ -42,6 +42,21 @@ def _md(el, grk: bool) -> str:
         return f"**{inner.strip()}**"
     if tag in ("emph", "title", "hi"):
         return f"*{inner.strip()}*"
+    if tag in ("foreign", "quote") and el.get("lang") == "la" and not grk and _latin_italics[0]:
+        return _latin(el, inner)
+    if _latin_italics[0] and el.get("lang") not in (None, "la") and _in_latin(el):
+        # an English aside or Greek inside a Latin quotation stays upright: kept apart from the
+        # italics _latin gives the Latin round it
+        return _out_md(tag, el, inner, grk, upright=True)
+    return _out_md(tag, el, inner, grk)
+
+
+def _out_md(tag: str, el, inner: str, grk: bool, upright: bool = False) -> str:
+    md = _plain_md(tag, el, inner)
+    return f"{UPRIGHT_OPEN}{md}{UPRIGHT_CLOSE}" if upright and md.strip() else md
+
+
+def _plain_md(tag: str, el, inner: str) -> str:
     if tag == "ref":
         target = el.get("target") or ""
         m = re.match(r"^cl(\d+)$", target)
@@ -66,6 +81,45 @@ def _md(el, grk: bool) -> str:
         # ("duoi=n<gap/>a)pokri/nas kakoi=n"): an ellipsis, spaced as the other files' &hellip;
         return "…"
     return inner
+
+
+UPRIGHT_OPEN, UPRIGHT_CLOSE = "\ue010", "\ue011"
+
+
+def _in_latin(el) -> bool:
+    return any(etree.QName(a).localname in ("foreign", "quote") and a.get("lang") == "la"
+               for a in el.iterancestors() if isinstance(a.tag, str))
+
+
+# Latin that Jebb prints in italics (ap., sc., ib., i.e., e.g., a Latin quotation), marked by Perseus
+# <foreign lang="la"> or <quote lang="la">: in italics when the importer is asked for it
+# (import_jebb_commentary(latin_italics=True), sophocles.import_options), not inside an element
+# already in italics, and around the plain runs only where the Latin holds an italic title itself
+_latin_italics = [False]
+_ITALIC_TAGS = ("emph", "title", "hi")
+
+
+def _latin(el, inner: str) -> str:
+    if any(etree.QName(a).localname in _ITALIC_TAGS or (etree.QName(a).localname in ("foreign", "quote")
+           and a.get("lang") == "la") for a in el.iterancestors() if isinstance(a.tag, str)):
+        return inner.replace(UPRIGHT_OPEN, "").replace(UPRIGHT_CLOSE, "")  # already in italics
+    if not inner.strip():
+        return inner
+    lead = inner[:len(inner) - len(inner.lstrip())]
+    trail = inner[len(inner.rstrip()):]
+    body = inner.strip()
+    # stretches already in italics (a title inside the Latin: *Aen.*) or bold stay as they are;
+    # every other stretch is put in italics, its outer spaces kept outside the marks
+    pieces = re.split(r"(\ue010[^\ue011]*\ue011|\\\*|\*\*[^*]+\*\*|\*[^*]+\*)", body)
+    out = []
+    for k, piece in enumerate(pieces):
+        if k % 2 or not piece.strip():
+            out.append(piece)
+            continue
+        a = piece[:len(piece) - len(piece.lstrip())]
+        b = piece[len(piece.rstrip()):]
+        out.append(f"{a}*{piece.strip()}*{b}")
+    return (lead + "".join(out) + trail).replace(UPRIGHT_OPEN, "").replace(UPRIGHT_CLOSE, "")
 
 
 def _md_children(el, grk: bool) -> str:
@@ -240,7 +294,17 @@ def _protect_parens(s: str, outer: int = 0) -> str:
     return "".join(out)
 
 
-def import_jebb_commentary(source: Path, out: Path, meta: dict[str, str]) -> int:
+def import_jebb_commentary(source: Path, out: Path, meta: dict[str, str], latin_italics: bool = False) -> int:
+    """`latin_italics`: Latin marked lang="la" in italics, as Jebb prints it (_latin); off by
+    default, for the plays whose fix tables match the text as imported without it."""
+    _latin_italics[0] = latin_italics
+    try:
+        return _import_jebb_commentary(source, out, meta)
+    finally:
+        _latin_italics[0] = False
+
+
+def _import_jebb_commentary(source: Path, out: Path, meta: dict[str, str]) -> int:
     root = load_p4(source)
     comm = None
     for d in root.iter("div1"):
@@ -301,7 +365,8 @@ def import_jebb_commentary(source: Path, out: Path, meta: dict[str, str]) -> int
         emit_intro(d2)
         for d3 in d2.iter("div3"):
             emit_line_note(d3)
-    out.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    text = "\n".join(lines) + "\n"
+    out.write_text(text.replace(UPRIGHT_OPEN, "").replace(UPRIGHT_CLOSE, ""), encoding="utf-8")
     return n_notes
 
 

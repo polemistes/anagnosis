@@ -82,6 +82,19 @@ The metrical analyses are not transcribed (as for Ajax and Electra).
 
 ## Progress
 
+* **2026-11-17, Latin in italics in Jebb's commentaries.** Jebb prints Latin in italics (ap., sc., ib.,
+  i.e., e.g., s.v., circ., v.l., Latin words and quotations); Perseus marks most of it
+  `<foreign lang="la">` / `<quote lang="la">`, which the importer had left upright. Checked on the page
+  first: 39 marked places over the three volumes, all italic (an unmarked i.e. at Electra p. 164 is
+  upright in print too; viz. is upright and unmarked). commentary.import_jebb_commentary(latin_italics=True)
+  now gives them italics (an English aside or Greek inside the Latin stays upright), switched on per
+  play by sophocles.LATIN_ITALICS / import_options: so far the Antigone, the Ajax and the Electra
+  (359, 408 and 268 places). **The other plays (OT, OC, Philoctetes, Trachiniae) get it at their next
+  merge**: add the slug to LATIN_ITALICS and mend the fix-table entries the italics divide ("fix not
+  applied"). Perseus leaves some Latin unmarked, which stays upright: in the Antigone all 269 i.e. and
+  25 e.g. and 7 ap. (italic in print), in the Electra 6 ib., 17 v.l., some sc. (sc. = scene is English);
+  not changed, for the author or a page-reading job.
+
 * **2026-11-17, THE ELECTRA MERGED AND REBUILT FROM JEBB'S PAGE** (version 8d22d0c59ea0dfe9; commits
   8aa993e, 453cb25, 6d49edc, 0e7a0e7, 1530d6f). 1,490 verses (the line of metrical signs after 1264
   unnumbered, as printed; the lyric numbering by Jebb's margins as the reviewers settled it: 249, 473,

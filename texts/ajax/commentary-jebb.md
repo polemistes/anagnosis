@@ -10,10 +10,10 @@ Prologue. Athena confirms the surmise of Odysseus as to the guilt of Ajax; shows
 ## 1
 **ἀεὶ μέν**, followed in 3 by **καὶ νῦν**: cp. *Tr.* 689-691 ἔχρισα μὲν...κἄθηκα (n.): Lucian *Dialog. marin.* 8 πάλαι μὲν τὸ τῆς Ἰνοῦς παιδίον ἐπὶ τὸν Ἰσθμὸν ἐκομίσατε..., καὶ νῦν σὺ τὸν κιθαρῳδὸν...ἀναλαβὼν ἐξενήξω. The passage in Aesch. *Ag.* 587—598 (ἀνωλόλυξα μὲν πάλαι...καὶ νῦν τὰ μάσσω μὲν τί δεῖ σ' ἐμοὶ λέγειν;) is scarcely a true parallel,—the interval being so long. Plato has ἀεὶ μὲν followed by ἀτὰρ καὶ νῦν (*Prot.* 335 D), ἀτὰρ οὖν καὶ τότε (*Rep.* 367 E). Similarly I. *Il.* 107 ff. αἰεὶ τοι...καὶ νῦν.
 
-**Λαρτίου**, as in 380: but Λαερτίου in 101, and Λαέρτου in 1393. Λαέρτης is the only Homeric form ( *Ph.* 87 n.), but Eur. , like Soph. , uses all three. In Latin, *Laertius* or *Lartius* is usu. the adj. (Plaut. *Bacch.* 4. 9. 22 Ulixes Lartius), but, acc. to Priscian (7. 5, p. 303), could be also the name. The writing Λἀρτίου appears in all the editions from the Aldine to Brunck's; the coronis was first omitted by Schaefer (ed. 1810), on the ground that crasis is not marked within a word.
+**Λαρτίου**, as in 380: but Λαερτίου in 101, and Λαέρτου in 1393. Λαέρτης is the only Homeric form ( *Ph.* 87 n.), but Eur. , like Soph. , uses all three. In Latin, *Laertius* or *Lartius* is usu. the adj. (Plaut. *Bacch.* 4. 9. 22 *Ulixes Lartius*), but, acc. to Priscian (7. 5, p. 303), could be also the name. The writing Λἀρτίου appears in all the editions from the Aldine to Brunck's; the coronis was first omitted by Schaefer (ed. 1810), on the ground that crasis is not marked within a word.
 
 ## 2
-**πεῖράν τιν' ἐχθρῶν ἁρπάσαι**, to *snatch* (by vigilant and subtle craft) some *means of attacking* foes,—some moment when foes can be taken at a disadvantage. For the objective gen. **ἐχθρῶν**, cp. Diod. Sic. 14. 80 καιρὸν εὔθετον εἰς τὴν τῶν πολεμίων ἐπίθεσιν: for **ἁρπάσαι**, Plut. *Philop.* 15 ἁρπάσας τὸν καιρόν: Xen. *An.* 4. 6. 11 τοῦ ἐρήμου ὄρους..κλέψαι τι..καὶ ἁρπάσαι φθάσαντας. Like the verb (πειρᾶν τῆς πόλεως, Her. 6. 82), πεῖρα often denotes an enterprise against an enemy (Thuc. 3. 20, etc.).—Not, ‘to forestall (or baffle) some attempt *by* a foe.’ **θηρώ-** **μενον** with inf.: cp. Eur. *Helen.* 63 θηρᾷ γαμεῖν με: ib. 545 ὅς με θηρᾶται λαβεῖν.
+**πεῖράν τιν' ἐχθρῶν ἁρπάσαι**, to *snatch* (by vigilant and subtle craft) some *means of attacking* foes,—some moment when foes can be taken at a disadvantage. For the objective gen. **ἐχθρῶν**, cp. Diod. Sic. 14. 80 καιρὸν εὔθετον εἰς τὴν τῶν πολεμίων ἐπίθεσιν: for **ἁρπάσαι**, Plut. *Philop.* 15 ἁρπάσας τὸν καιρόν: Xen. *An.* 4. 6. 11 τοῦ ἐρήμου ὄρους..κλέψαι τι..καὶ ἁρπάσαι φθάσαντας. Like the verb (πειρᾶν τῆς πόλεως, Her. 6. 82), πεῖρα often denotes an enterprise against an enemy (Thuc. 3. 20, etc.).—Not, ‘to forestall (or baffle) some attempt *by* a foe.’ **θηρώ-** **μενον** with inf.: cp. Eur. *Helen.* 63 θηρᾷ γαμεῖν με: *ib.* 545 ὅς με θηρᾶται λαβεῖν.
 
 Athena's words are illustrated by the action of Odysseus against Palamedes (Xen. *Mem.* 4. 2. 33),—by his capture of Helenus (*Ph.* 606),—his designs on Philoctetes,—his theft of the Palladium (Ov. *Met.* 13. 99),—and his nocturnal expedition with Diomedes (*Il.* 10).
 
@@ -28,7 +28,7 @@ The Homeric κλισία was a wooden hut (*Il.* 24. 448 ff.). By σκηνή, an
 ## 5
 **κυνηγετοῦντα**: his keen scrutiny suggests a hunter; as his sagacity suggests a hound (8). We can speak of a dog ‘hunting,’ but a Greek would hardly have said κύων κυνηγετεῖ. The transition from one image to the other is natural and easy.
 
-**μετρούμενον**, with the eyes. In Attic the midd. is rare, except as=‘to have measured out to one,’ [Dem.] or. 34 § 37: but it is frequent in later poetry, as Apoll. Rh. 1. 724, Mosch. 2. 157. Nauck holds that μετρούμενον could denote only literal measurement (as with a foot-rule). But its figurative sense—as denoting a mental process of examination and comparison— is exactly illustrated by the use of συμμετρεῖσθαι in the sense of ‘to *compute*’ ( Her. 4. 158, etc.). Cp. also Lat. metiri (oculis, auribus, etc.).
+**μετρούμενον**, with the eyes. In Attic the midd. is rare, except as=‘to have measured out to one,’ [Dem.] or. 34 § 37: but it is frequent in later poetry, as Apoll. Rh. 1. 724, Mosch. 2. 157. Nauck holds that μετρούμενον could denote only literal measurement (as with a foot-rule). But its figurative sense—as denoting a mental process of examination and comparison— is exactly illustrated by the use of συμμετρεῖσθαι in the sense of ‘to *compute*’ ( Her. 4. 158, etc.). Cp. also Lat. *metiri (oculis, auribus*, etc.).
 
 ## 6
 **νεοχάρακτα**, newly imprinted on the sandy soil. The tent was close to the sea (ἔφαλος, 192). Ajax had gone out in the past night, and come back at dawn. All the footprints are fresh; but Odysseus has to make out whether the *more* recent lead to or from the tent.
@@ -39,14 +39,14 @@ The Homeric κλισία was a wooden hut (*Il.* 24. 448 ff.). By σκηνή, an
 **ἐκφέρει**: schol. εἰς τέλος ἐξάγει: ‘brings *out*,’ as from a labyrinth, to the desired goal. Cp. *O. C.* 98 ἐξήγαγ' εἰς τόδ' ἄλσος, (your guidance) ‘hath *led me home* to this grove.’ Plat. *Phaedo* p. 66 B κινδυνεύει τοι ὥσπερ ἀτραπός τις ἐκφέρειν ἡμᾶς.
 
 ## 8
-**κυνὸς Λακαίνης**. According to Aristotle, the Laconian dogs were crossbred with foxes (ἐξ ἀλώπεκος καὶ κυνὸς οἱ Λακωνικοί, *Hist. Anim.* 8. 28, p. 607 *a* 3). He describes them as a small breed, with long nostrils and keen scent (ὅσων οἱ μυκτῆρες μακροί, οἷον τῶν Λακωνικῶν κυνιδίων, ὀσφραντικά: *Gener. Anim.* 5. 2, p. 781 *b* 9). They were the best hunting dogs, as Pindar testifies, fr. 106: ἀπὸ Ταϋγέτοιο μὲν Λάκαιναν | ἐπὶ θηρσὶ κύνα τρέφειν [v.l. τρέχειν] πυκινώτατον ἑρπετόν. The Molossian dog is often associated with the Laconian ( Hor. *Epod.* 6. 5 *Molossus aut fulvus Laco:* *G.* 3. 405 *Velocis Spartae catulos acremque Molossum*); but Aristotle tells us that the Molossian breed had no special merit for sporting purposes; its best product was the large sheep-dog. The chief points common to the Laconian and Molossian breeds were courage and pertinacity (ἀνδρία and φιλοπονία, *Hist. An.* 9. 1, p. 608 *a* 31).
+**κυνὸς Λακαίνης**. According to Aristotle, the Laconian dogs were crossbred with foxes (ἐξ ἀλώπεκος καὶ κυνὸς οἱ Λακωνικοί, *Hist. Anim.* 8. 28, p. 607 *a* 3). He describes them as a small breed, with long nostrils and keen scent (ὅσων οἱ μυκτῆρες μακροί, οἷον τῶν Λακωνικῶν κυνιδίων, ὀσφραντικά: *Gener. Anim.* 5. 2, p. 781 *b* 9). They were the best hunting dogs, as Pindar testifies, fr. 106: ἀπὸ Ταϋγέτοιο μὲν Λάκαιναν | ἐπὶ θηρσὶ κύνα τρέφειν [*v.l.* τρέχειν] πυκινώτατον ἑρπετόν. The Molossian dog is often associated with the Laconian ( Hor. *Epod.* 6. 5 *Molossus aut fulvus Laco:* *G.* 3. 405 *Velocis Spartae catulos acremque Molossum*); but Aristotle tells us that the Molossian breed had no special merit for sporting purposes; its best product was the large sheep-dog. The chief points common to the Laconian and Molossian breeds were courage and pertinacity (ἀνδρία and φιλοπονία, *Hist. An.* 9. 1, p. 608 *a* 31).
 
-The use of the feminine gender by Sophocles here may be illustrated by Aristotle's remark,—αἱ Λάκαιναι κύνες αἱ θήλειαι εὐφυέστεραι τῶν ἀρρένων εἰσίν,— i.e., ‘of a finer intelligence’ (ib. p. 608 *a* 27).—Cp. Shakesp. *Midsummer-Night's Dream* 4. 1. 124, where Theseus says, My hounds are bred out of the Spartan kind | ... A cry more tuneable | Was never holla'd to, nor cheer'd with horn, | In Crete, in Sparta, nor in Thessaly.
+The use of the feminine gender by Sophocles here may be illustrated by Aristotle's remark,—αἱ Λάκαιναι κύνες αἱ θήλειαι εὐφυέστεραι τῶν ἀρρένων εἰσίν,— *i.e.*, ‘of a finer intelligence’ (*ib.* p. 608 *a* 27).—Cp. Shakesp. *Midsummer-Night's Dream* 4. 1. 124, where Theseus says, My hounds are bred out of the Spartan kind | ... A cry more tuneable | Was never holla'd to, nor cheer'd with horn, | In Crete, in Sparta, nor in Thessaly.
 
-**εὔρινος** is nom., not gen. (from εὔρις). It is true that εὔρις occurs in Aesch. *Ag.* 1093, and ἄρρινες in Xen. *Cyn.* 3. 2; while εὔρινος (from ῥίς) occurs only in late Greek, as Babrius 43. 8 σκύλαξιν εὐρίνοις: Aelian *N. A.* 2. 15 δίκην εὐρίνου κυνός, etc. (In Apoll. Rh. 3. 1299 ἐΰρινοι is not from ῥίς, but from ῥινός,—‘of good leather.’) But the form is correct in itself; such alternatives were frequent (cp. σύζυγος by the side of σύζυξ, etc.); and three points here recommend the nominative. (1) The order of the words ὥς τις εὔρινος βάσις. (2) The idiom, consonant with tragic style, by which the epithet of the hound is transferred to βάσις: cp. Eur. *H. F.* 450 γραίας ὄσσων..πηγάς: *Phoen.* 1351 λευκοπήχεις κτύπους χεροῖν. (3) The fact that βάσις, with no epithet, would be somewhat weak. Libanius (c. 350 A.D. ) took εὔρινος as nom., vol. 4. p. 1065 εὐρίνῳ βάσει τὸ λανθάνον ἀνιχνεύοντες. The genitive was understood by the schol. on v. 7, and by Manuel Palaeologus or. 6. 331 (λάκαιναι κύνες· εὔρινας ταύτας εἶπε Σοφοκλῆς).
+**εὔρινος** is nom., not gen. (from εὔρις). It is true that εὔρις occurs in Aesch. *Ag.* 1093, and ἄρρινες in Xen. *Cyn.* 3. 2; while εὔρινος (from ῥίς) occurs only in late Greek, as Babrius 43. 8 σκύλαξιν εὐρίνοις: Aelian *N. A.* 2. 15 δίκην εὐρίνου κυνός, etc. (In Apoll. Rh. 3. 1299 ἐΰρινοι is not from ῥίς, but from ῥινός,—‘of good leather.’) But the form is correct in itself; such alternatives were frequent (cp. σύζυγος by the side of σύζυξ, etc.); and three points here recommend the nominative. (1) The order of the words ὥς τις εὔρινος βάσις. (2) The idiom, consonant with tragic style, by which the epithet of the hound is transferred to βάσις: cp. Eur. *H. F.* 450 γραίας ὄσσων..πηγάς: *Phoen.* 1351 λευκοπήχεις κτύπους χεροῖν. (3) The fact that βάσις, with no epithet, would be somewhat weak. Libanius (*c.* 350 A.D. ) took εὔρινος as nom., vol. 4. p. 1065 εὐρίνῳ βάσει τὸ λανθάνον ἀνιχνεύοντες. The genitive was understood by the schol. on v. 7, and by Manuel Palaeologus or. 6. 331 (λάκαιναι κύνες· εὔρινας ταύτας εἶπε Σοφοκλῆς).
 
 ## 9
-**τυγχάνει**: sc. ὤν: cp. *El.* 46 n.
+**τυγχάνει**: *sc.* ὤν: cp. *El.* 46 n.
 
 ## 10
 **στάζων ἱδρῶτι**. Some think that ἱδρῶτι refers to κάρα only, and that στάζων χέρας ξιφοκτόνους is equivalent to στάζων αἵματι χέρας: cp. *El.* 1422 φοινία δὲ χεὶρ | στάζει θυηλῆς Ἄρεος: Aesch. *Eum.* 41 αἵματι | στάζοντα χεῖρας. Certainly ξιφοκτόνους suggests the blood upon his hands. But the integral phrase, στάζων ἱδρῶτι, must surely go with χέρας no less than with κάρα. The hands are bathed in sweat *and* in blood.
@@ -55,14 +55,14 @@ The use of the feminine gender by Sophocles here may be illustrated by Aristotle
 **παπταίνειν**, from meaning ‘to glance timidly’ around, passes into the sense of looking about anxiously *for* someone or something ( *Il.* 17. 115 παπταίνων Αἴαντα), and so comes to denote restless search, as in Pind. *O.* 1. 114 μηκέτι πάπταινε πόρσιον, Pind. *P.* 3. 22 παπταίνει τὰ πόρσω. Here, the notion of moving *forward* in a wary quest is assisted by **εἴσω**.
 
 ## 12
-**ἔργον**, opus est: 852: *El.* 1372 n.
+**ἔργον**, *opus est:* 852: *El.* 1372 n.
 
 **ἐννέπειν δʼ**: here δὲ=ἀλλά: *Ant.* 85 n.: *Ph.* 94.
 
 **ὅτου χάριν**. Athena already knows his motive (36); but this touch of divine irony is dramatically useful by giving the cue for his statement.
 
 ## 13
-**σπουδὴν ἔθου τήνδʼ**=ἐσπούδασας περὶ τούτου. This periphrasis, more elegant than that with ποιεῖσθαι, is much used by the poet; thus τίθεσθαι πρόνοιαν (536), ἐπιστροφήν ( *O. T.* 134), τάφον (ib. 1447), φόνον ( *O. C.* 542), μῆκος λόγων (ib. 1139), λησμοσύναν ( *Ant.* 151), συγγνωμοσύνην ( *Tr.* 1265).
+**σπουδὴν ἔθου τήνδʼ**=ἐσπούδασας περὶ τούτου. This periphrasis, more elegant than that with ποιεῖσθαι, is much used by the poet; thus τίθεσθαι πρόνοιαν (536), ἐπιστροφήν ( *O. T.* 134), τάφον (*ib.* 1447), φόνον ( *O. C.* 542), μῆκος λόγων (*ib.* 1139), λησμοσύναν ( *Ant.* 151), συγγνωμοσύνην ( *Tr.* 1265).
 
 ## 14
 **ὦ φθέγμ' Ἀθάνας**: cp. *El.* 1225 ὦ φθέγμʼ, ἀφίκου; (n.).
@@ -77,7 +77,7 @@ When Ajax comes forth, he, indeed, appears to see her (v. 91, ὦ χαῖρ' Ἀ
 For ἄποπτος as=‘*out of* sight,’ cp. *El.* 1488 (of Aegisthus) πρόθες | ἄποπτον ἡμῶν: Dionys. Hal. 2. 54 ἐν ἀπόπτῳ τίθενται τὸν χάρακα (‘in a place out of sight’). It may be added that we might suppose Athena to be invisible to Odysseus *now*, without necessarily excluding the idea that she becomes visible to him at a later moment in the dialogue. Thus in Eur. *Hipp.* 1391 the presence of Artemis is known to Hippolytus only by a divine fragrance, though to the spectators she is doubtless visible; but a little later he beholds her (1440).—See Appendix.
 
 ## 16
-**ξυναρπάζω φρενί** expresses the thrill of instant recognition, as the voice falls distinctly (εὐμαθὲς) on his ear; it also suggests the emotion of joy. For the verb, cp. Simylus (a poet of the Middle Comedy) ap. Stobaeus *Flor.* 360. 4. 14 κριτὴν τὸ ῥηθὲν δυνάμενον ξυναρπάσαι.
+**ξυναρπάζω φρενί** expresses the thrill of instant recognition, as the voice falls distinctly (εὐμαθὲς) on his ear; it also suggests the emotion of joy. For the verb, cp. Simylus (a poet of the Middle Comedy) *ap.* Stobaeus *Flor.* 360. 4. 14 κριτὴν τὸ ῥηθὲν δυνάμενον ξυναρπάσαι.
 
 ## 17
 **κώδωνος … Τυρσηνικῆς**. The trumpet meant here was in form like the Roman,—straight, gradually increasing in diameter, and ending in a bell-shaped aperture (κώδων). ‘Tyrrhenian,’ a frequent epithet of the trumpet ( Aesch. *Eum.* 567, Eur. *Phoen.* 1377, Verg. *Aen.* 8. 526, etc.), perhaps means no more than that the instrument was first brought to Europe by Tyrrhenian pirates,—the λῃστοσαλπιγκταί of Menander (frag.incert. 399). The Tyrrheni, according to a tradition for which Herodotus is the earliest witness (1. 94), were of Lydian origin; and the bronze trumpet may have been a Lydian invention (see *Dict. Ant.* ‘Tuba’). Homer mentions the trumpet only in similes, as when the voice of Achilles is likened to it ( *Il.* 18. 219, etc.). But the Greeks must have had it as early at least as the time of the Dorian conquest, to judge from the legends heard by Pausanias at Argos (2. 21, § 3), where there was a shrine of Ἀθηνᾶ Σάλπιγξ.—See Appendix.
@@ -90,7 +90,7 @@ As to the gender of κώδων, *De Sens.* 6 p. 446 *b* 22 has τῆς κώδω�
 ## 19
 **βάσιν κυκλοῦντʼ**, moving round and round, going backwards and forwards in the attempt to make out the footprints,—like a hound questing about for the scent. Cp. *Ant.* 226 ὁδοῖς κυκλῶν ἐμαυτὸν εἰς ἀναστροφήν. Eur. *Or.* 632 ποῖ σὸν πόδ' ἐπὶ συννοίᾳ κυκλεῖς (‘pacing to and fro in meditation’), | διπλῆς μερίμνης διπτύχους ἰὼν ὁδούς;
 
-**τῷ σακεσφόρῳ**: *Il.* 7. 219 Αἴας δ' ἐγγύθεν ἦλθε φέρων σάκος ἠΰτε πύργον, | χάλκεον, ἑπταβόειον,—i.e., made by stitching together seven layers of ox-hide, and then covering the outer face with plates of bronze. Cp. 576: Ovid *Met.* 13. 2 clypei dominus septemplicis Aiax.
+**τῷ σακεσφόρῳ**: *Il.* 7. 219 Αἴας δ' ἐγγύθεν ἦλθε φέρων σάκος ἠΰτε πύργον, | χάλκεον, ἑπταβόειον,—*i.e.*, made by stitching together seven layers of ox-hide, and then covering the outer face with plates of bronze. Cp. 576: Ovid *Met.* 13. 2 *clypei dominus septemplicis Aiax.*
 
 ## 21
 **ἄσκοπον**, inconceivable,—of unimaginable horror: cp. *El.* 864 ἄσκοπος ἁ λώβα.
@@ -100,12 +100,12 @@ As to the gender of κώδων, *De Sens.* 6 p. 446 *b* 22 has τῆς κώδω�
 **εἴργασται**, instead of repeating ἔχει περάνας: cp. *O. T.* 54 ὡς εἴπερ ἄρξεις τῆσδε γῆς, ὥσπερ κρατεῖς (n.).
 
 ## 23
-**τρανές**, ‘clear,’ like the cognate τορόν (rt. τερ, τρα, τε-τραίνω, to pierce). The adj. τρανής is not elsewhere extant, but τρανῶς is used by Aesch. ( Aesch. *Ag.* 1371) and Eur. ( Eur. *El.* 758). The form τρανός was current in later Greek; the earliest instance seems to be Halic. Dionys. (c. 25 B.C.) *De Comp. Verborum* c. 22 τρανὴν καὶ καθαρὰν δύναμιν.
+**τρανές**, ‘clear,’ like the cognate τορόν (rt. τερ, τρα, τε-τραίνω, to pierce). The adj. τρανής is not elsewhere extant, but τρανῶς is used by Aesch. ( Aesch. *Ag.* 1371) and Eur. ( Eur. *El.* 758). The form τρανός was current in later Greek; the earliest instance seems to be Halic. Dionys. (*c.* 25 B.C.) *De Comp. Verborum* c. 22 τρανὴν καὶ καθαρὰν δύναμιν.
 
 **ἀλώμεθα**: this fig. sense, with ref. to uncertainty (‘to be at sea,’ as we say), belongs nowhere else to this verb, but often to πλανᾶσθαι ( Her. 6. 37, etc.; *Hipp. Ma.* 304 C πλανῶμαι μὲν καὶ ἀπορῶ ἀεί).
 
 ## 24
-**ʼθελοντής**. The form ἐθελοντής occurs in Herodotus, Thucydides, Xenophon, and the Orators, as ἐθελοντήρ does in *Od.* 2. 292. On the other hand θελοντής is cited only from Porphyrius (c. 270 A.D. , see Lobeck, *Phryn.* 7) and Hierocles (c. 450 A.D. ), ap. *Flor.* 75. 14 (p. 449. 20). Similarly ἐθελήμων is the form used by Plato (*Crat.* 406 A), while the earliest authority for θελήμων is Apoll. Rhod. 2. 557. In tragic iambics θέλω was naturally preferred, on metrical grounds, to ἐθέλω, though the latter occurs in tragic anapaests (as *O. T.* 1303, *Ph.* 145). If θελοντής were found in a passage where metre *required* it, the rarity of the form would not justify its rejection. But where, as here, aphaeresis was available, it is surely more probable that the poet wrote ἐθελοντής.
+**ʼθελοντής**. The form ἐθελοντής occurs in Herodotus, Thucydides, Xenophon, and the Orators, as ἐθελοντήρ does in *Od.* 2. 292. On the other hand θελοντής is cited only from Porphyrius (*c.* 270 A.D. , see Lobeck, *Phryn.* 7) and Hierocles (*c.* 450 A.D. ), *ap.* *Flor.* 75. 14 (p. 449. 20). Similarly ἐθελήμων is the form used by Plato (*Crat.* 406 A), while the earliest authority for θελήμων is Apoll. Rhod. 2. 557. In tragic iambics θέλω was naturally preferred, on metrical grounds, to ἐθέλω, though the latter occurs in tragic anapaests (as *O. T.* 1303, *Ph.* 145). If θελοντής were found in a passage where metre *required* it, the rarity of the form would not justify its rejection. But where, as here, aphaeresis was available, it is surely more probable that the poet wrote ἐθελοντής.
 
 **ὑπεζύγην**, as if the task were a yoke under which he placed himself: cp. *Ph.* 1025 κλοπῇ τε κἀνάγκῃ ζυγείς (n.): Aesch. *P. V.* 108 ἀνάγκαις ταῖσδ' ὑπέζευγμαι.
 
@@ -169,7 +169,7 @@ As to the gender of κώδων, *De Sens.* 6 p. 446 *b* 22 has τῆς κώδω�
 
 **ᾖξεν**, trans., as Eur. *Or.* 1427 ff. παρὰ βόστρυχον αὔραν.. | .. κύκλῳ | πτερίνῳ...ᾄσσων, ‘agitating’ the air with a fan. Eur. Itis not impossible to take ᾖξεν as intrans. (‘broke forth *in* violence’); but it would be very harsh.
 
-**δυσλόγιστον** is an epithet proper to the *violence*, transferred to the *hand* which wrought it; ‘reasoning amiss,’ i.e. ‘irrational,’ ‘insensate.’ Cp. 229 παραπλήκτῳ χερί. An exact parallel to this active sense is afforded by Arist. *Rhet.* 2. 8. 4, where οἱ πεπαιδευμένοι are called εὐλόγιστοι, i.e., ‘*reflecting*,’ ‘prudent.’ In its passive sense, δυσλόγιστον would mean that the deed is ‘inexplicable’: cp. Anaximenes ap. *Eclog.* 2. 8. 17 τὸ γὰρ δυσλόγιστον τοῦ βίου τοῖς ἀνθρώποις τύχην προσαγορεύομεν, ‘we give the name of chance to that element in life which men find hard to explain.’ But here the agent's frenzy is more in point than the observer's perplexity.—Some take **δυσλόγιστον** with **τί**: ‘for what unintelligible reason?’ But this enfeebles the sense and mars the rhythm.
+**δυσλόγιστον** is an epithet proper to the *violence*, transferred to the *hand* which wrought it; ‘reasoning amiss,’ *i.e.* ‘irrational,’ ‘insensate.’ Cp. 229 παραπλήκτῳ χερί. An exact parallel to this active sense is afforded by Arist. *Rhet.* 2. 8. 4, where οἱ πεπαιδευμένοι are called εὐλόγιστοι, *i.e.*, ‘*reflecting*,’ ‘prudent.’ In its passive sense, δυσλόγιστον would mean that the deed is ‘inexplicable’: cp. Anaximenes *ap.* *Eclog.* 2. 8. 17 τὸ γὰρ δυσλόγιστον τοῦ βίου τοῖς ἀνθρώποις τύχην προσαγορεύομεν, ‘we give the name of chance to that element in life which men find hard to explain.’ But here the agent's frenzy is more in point than the observer's perplexity.—Some take **δυσλόγιστον** with **τί**: ‘for what unintelligible reason?’ But this enfeebles the sense and mars the rhythm.
 
 ## 41
 **βαρυνθεὶς**, incensed, vexed, as *O.T.* 781: cp. βαρύς in 1017.
@@ -177,7 +177,7 @@ As to the gender of κώδων, *De Sens.* 6 p. 446 *b* 22 has τῆς κώδω�
 **ὅπλων**, causal gen.: cp. *Tr.* 269 ὧν ἔχων χόλον: *Ph.* 327 n. For the adj. **Ἀχιλλείων**, instead of Ἀχιλλέως, cp. *O.T.* 267 τῷ Λαβδακείῳ παιδί (n.).
 
 ## 42
-**τί δῆτα**: i.e., why, in that case, did he attack *cattle*, rather than the men who had awarded the arms?
+**τί δῆτα**: *i.e.*, why, in that case, did he attack *cattle*, rather than the men who had awarded the arms?
 
 **ἐπεμπίπτει**: cp. 185 ἐν ποίμναις πίτνων, and 374 f.— **τήνδε … βάσιν**, a cognate acc. (as if the verb were ἐπεμβαίνει): cp. Aesch. *Pers.* 305 πήδημα κοῦφον ἐκ νεὼς ἀφήλατο. ( Soph. *Tr.* 339, τοῦ με τήνδ' ἐφίστασαι βάσιν, is different: see n. there.)
 
@@ -193,7 +193,7 @@ As to the gender of κώδων, *De Sens.* 6 p. 446 *b* 22 has τῆς κώδω�
 **κἂν ἐξεπράξατʼ**: schol. μὴ λέγε βούλευμα, φησίν· οὐ γὰρ ἦν βούλευμα ἀλλὰ πρᾶγμα, εἰ κατημέλησα ἐγώ. Cp. *Ph.* 555 κοὐ μόνον βουλεύματα, | ἀλλ' ἔργα δρώμενʼ. The answer is more forcible than if the poet had written κἂν ἐξέπραξέ *γ'*: see on *Ph.* 105, Ph. 985, *El.* 408.—The midd. ἐκπράσσομαι is rare; in Her. 7. 158 it means ‘to avenge’ (φόνον). Cp. *O.T.* 287 ἐπραξάμην (n.).
 
 ## 46
-**ποίαισι** κ.τ.λ. The datives denote manner (or attendant circumstance), and refer to τὸ βούλευμʼ...ἦν in 44. ‘What were these daring schemes, what was this rash confidence, with which he planned the attack?’—i.e., ‘How could he possibly have conceived such a mad enterprise?’ For **ταῖσδε** combined with **ποίαισι**, cp. *Ph.* 1204 ποῖον ἐρεῖς τόδ' ἔπος;
+**ποίαισι** κ.τ.λ. The datives denote manner (or attendant circumstance), and refer to τὸ βούλευμʼ...ἦν in 44. ‘What were these daring schemes, what was this rash confidence, with which he planned the attack?’—*i.e.*, ‘How could he possibly have conceived such a mad enterprise?’ For **ταῖσδε** combined with **ποίαισι**, cp. *Ph.* 1204 ποῖον ἐρεῖς τόδ' ἔπος;
 
 ## 47
 **νύκτωρ** κ.τ.λ.: an answer to the last question:—he relied on darkness, and on craft; and none shared his secret.
@@ -204,7 +204,7 @@ As to the gender of κώδων, *De Sens.* 6 p. 446 *b* 22 has τῆς κώδω�
 **παρέστη**, came close to us: cp. *Tr.* 748 ποῦ δ' ἐμπελάζεις τἀνδρὶ καὶ παρίστασαι; *El.* 295 βοᾷ παραστᾶς.
 
 ## 49
-**καὶ δὴ**, ‘already’: *O.C.* 31 n.— **δισσαῖς … στρατηγίσιν πύλαις**, the tentdoors of the two chiefs, Agamemnon and Menelaüs. (Cp. Paus. 4. 19. 2 τὴν σκηνὴν τὴν στρατηγίδα.) The phrase is equivalent, of course, to δισσῶν στρατηγῶν πύλαις. 721 στρατήγιον, n. But, since there were two tents and two entrances, δισσαῖς is strictly the epithet of πύλαις|: i.e., the literal sense is, ‘two doors of chiefs.’ If the two chiefs had shared the same tent, so that only one entrance could be meant by πύλαις, then, indeed, δισσαῖς could be explained only as referring to the subst. implied in στρατηγίσιν,—‘the tent-door of two chiefs,’= δισσοστρατηγίσιν πύλαις. But such a use of δισσαῖς seems impossible. Could δισσὰ ἀδελφῶν ἅρματα (e.g.) mean, ‘a chariot belonging to two brothers’?
+**καὶ δὴ**, ‘already’: *O.C.* 31 n.— **δισσαῖς … στρατηγίσιν πύλαις**, the tentdoors of the two chiefs, Agamemnon and Menelaüs. (Cp. Paus. 4. 19. 2 τὴν σκηνὴν τὴν στρατηγίδα.) The phrase is equivalent, of course, to δισσῶν στρατηγῶν πύλαις. 721 στρατήγιον, n. But, since there were two tents and two entrances, δισσαῖς is strictly the epithet of πύλαις|: *i.e.*, the literal sense is, ‘two doors of chiefs.’ If the two chiefs had shared the same tent, so that only one entrance could be meant by πύλαις, then, indeed, δισσαῖς could be explained only as referring to the subst. implied in στρατηγίσιν,—‘the tent-door of two chiefs,’= δισσοστρατηγίσιν πύλαις. But such a use of δισσαῖς seems impossible. Could δισσὰ ἀδελφῶν ἅρματα (*e.g.*) mean, ‘a chariot belonging to two brothers’?
 
 ## 50
 **καὶ πῶς**: for καὶ prefixed to interrogative words, see on *O.C.* 263.—Join **ἐπέσχε** with **φόνου**. The word **μαιμῶσαν** is Homeric: *Il.* 13. 77 περὶ δούρατι χεῖρες ἄαπτοι | μαιμῶσιν. Cp. Lycophron 1171 μαιμῶν κορέσσαι χεῖρα διψῶσαν φόνου,—a reminiscence, partly of this v., and partly of one of an unknown poet (τῶν τραγικῶν τις, Athen. 10. p. 433 F), frag. adesp. 96, ἴσχειν κελεύω χεῖρα διψῶσαν φόνου.
@@ -212,7 +212,7 @@ As to the gender of κώδων, *De Sens.* 6 p. 446 *b* 22 has τῆς κώδω�
 ## 51
 **ἐγώ**, an expression of divine majesty and power; cp. 69, 85.
 
-**δυσφόρους**, hard to bear up against: her hand is heavy upon him. Cp. 643 δύσφορον ἄταν: *O.T.* 87 τὰ δύσφορʼ, i.e., the woes of Thebes: *El.* 144 τῶν δυσφόρων, miseries. Besides this sense, the only other in which the word occurs is, ‘hard to carry about,’ ‘moving with difficulty,’ as Plat. *Tim.* p. 74 E ἵνα μὴ δύσφορα τὰ σώματα ἀπεργάζοιντο (‘unwieldy’). A scholiast wrongly took δυσφόρους here as=κακῶς φερομένας, παραφόρους, i.e. ‘led astray,’ ‘misguided.’
+**δυσφόρους**, hard to bear up against: her hand is heavy upon him. Cp. 643 δύσφορον ἄταν: *O.T.* 87 τὰ δύσφορʼ, *i.e.*, the woes of Thebes: *El.* 144 τῶν δυσφόρων, miseries. Besides this sense, the only other in which the word occurs is, ‘hard to carry about,’ ‘moving with difficulty,’ as Plat. *Tim.* p. 74 E ἵνα μὴ δύσφορα τὰ σώματα ἀπεργάζοιντο (‘unwieldy’). A scholiast wrongly took δυσφόρους here as=κακῶς φερομένας, παραφόρους, *i.e.* ‘led astray,’ ‘misguided.’
 
 ## 52
 **γνώμας**, opinions, beliefs,—here, the fancies or illusions of madness. There is a certain irony in the word. Some editors strangely prefer the conjecture **λήμας**,—as if the goddess had afflicted him with sore or weak eyes ( *Plut.* 581 Κρονικαῖς λήμαις...λημῶντες τὰς φρένας).
@@ -224,7 +224,7 @@ Others take the gen. as depending on **ἀπείργω**, placing a comma after 
 ## 53 f.
 **πρός τε ποίμνας**=πρὸς ποίμνας τε: for τε misplaced, cp. 654: *O.T.* 258 n. As distinguished from herds of oxen, ποῖμναι are flocks of sheep and goats; cp. 63, 297, 374. But the word ποῖμναι is also used more vaguely to denote both herds and flocks (42, 300): and in 1061 we find even μῆλα καὶ ποίμνας, ‘sheep and cattle.’
 
-**σύμμικτά τε … φρουρήματα**: confused, unshared, spoil-charges of herdsmen, i.e., ‘the confused droves, your unshared spoil, guarded by herdsmen.’ **λείας** is a defining gen., denoting that in which the φρουρήματα consisted; **βουκόλων** is a possessive gen. Cp. *El.* 681 Ἑλλάδος | πρόσχημ' ἀγῶνος, the pride of Greece (possessive gen.), consisting in a festival (defining gen.): so Aesch. *Ch.* 183 καρδίας κλυδώνιον | χολῆς (defining gen.). Others prefer to take λείας as a partitive gen. (‘forming part of the spoil’),—less fitly, I think.
+**σύμμικτά τε … φρουρήματα**: confused, unshared, spoil-charges of herdsmen, *i.e.*, ‘the confused droves, your unshared spoil, guarded by herdsmen.’ **λείας** is a defining gen., denoting that in which the φρουρήματα consisted; **βουκόλων** is a possessive gen. Cp. *El.* 681 Ἑλλάδος | πρόσχημ' ἀγῶνος, the pride of Greece (possessive gen.), consisting in a festival (defining gen.): so Aesch. *Ch.* 183 καρδίας κλυδώνιον | χολῆς (defining gen.). Others prefer to take λείας as a partitive gen. (‘forming part of the spoil’),—less fitly, I think.
 
 ## 54
 **ἄδαστα**: cp. *Il.* 1. 125 ἀλλὰ τὰ μὲν πολίων ἐξεπράθομεν, τὰ δέδασται. At v. 26 the word λείας is used to denote the slaughtered animals generally. Sheep and oxen were alike λεία in the large sense, as having been taken from the foe, but the *oxen* are more especially so-called, because they were to be shared among individual chiefs or others, while the *flocks* were kept for the public maintenance. With **ἄδαστα** here, cp. 146 λοιπή, and 175 πανδάμους (n.).
@@ -232,12 +232,12 @@ Others take the gen. as depending on **ἀπείργω**, placing a comma after 
 ## 55
 **ἔκειρε … φόνον**. κείρειν φόνον=to *cause* bloodshed *by hewing*; as τυφλοῦν ἕλκος=‘to inflict a blinding wound’ ( *Ant.* 972 n.), τρῶσαι φόνον=‘to deal a deathwound’ ( *Suppl.* 1205).—Note the παρήχησις in ἔκειρε—πολύκερων: cp. 528, 1112: *O. T.* 370 n.
 
-**πολύκερων φόνον**, a slaughter of many horned creatures, like χερόπλακτοι...δοῦποι (631 ff.), αὔχημα εὔιππον, a glory consisting in good horses ( *O. C.* 711 n.), ῥιμφάρματοι ἅμιλλαι, contests of swift chariots (ib. 1062 f. n.).— The accent of πολύκερων (cp. 64 εὔκερων) is acc. to the rule that adjectives in -ως follow the Attic 2nd decl. of nouns in -ως or -ων, which can be proparoxytone if the ω in the last syll. is immediately preceded by ε, or separated from it only by a liquid: thus ἀξιόχρεως, βαθύγεως, ἵλεως, φιλόγελως.
+**πολύκερων φόνον**, a slaughter of many horned creatures, like χερόπλακτοι...δοῦποι (631 ff.), αὔχημα εὔιππον, a glory consisting in good horses ( *O. C.* 711 n.), ῥιμφάρματοι ἅμιλλαι, contests of swift chariots (*ib.* 1062 f. n.).— The accent of πολύκερων (cp. 64 εὔκερων) is acc. to the rule that adjectives in -ως follow the Attic 2nd decl. of nouns in -ως or -ων, which can be proparoxytone if the ω in the last syll. is immediately preceded by ε, or separated from it only by a liquid: thus ἀξιόχρεως, βαθύγεως, ἵλεως, φιλόγελως.
 
 ## 56 f.
 **ῥαχίζων**, here in a general sense, ‘hewing down’; properly, to cut through the spine (ῥάχις), to cleave in twain; cp. 299: Aesch. *Pers.* 426 ἔπαιον, ἐρράχιζον.
 
-**κἀδόκει μὲν** κ.τ.λ.: properly, κἀδόκει ἔστι μὲν ὅτε..., ἔστι δὲ ὅτε: but μὲν is misplaced (as in *Ph.* 279 ὁρῶντα μὲν ναῦς, and ib. 1136 ὁρῶν μὲν ἀπάτας); and ἔστι δὲ is omitted. Cp. *O. T.* 603 τοῦτο μέν, balanced in 605 by τοῦτ' ἄλλο.
+**κἀδόκει μὲν** κ.τ.λ.: properly, κἀδόκει ἔστι μὲν ὅτε..., ἔστι δὲ ὅτε: but μὲν is misplaced (as in *Ph.* 279 ὁρῶντα μὲν ναῦς, and *ib.* 1136 ὁρῶν μὲν ἀπάτας); and ἔστι δὲ is omitted. Cp. *O. T.* 603 τοῦτο μέν, balanced in 605 by τοῦτ' ἄλλο.
 
 ## 59
 **φοιτῶντʼ**: cp. Aesch. *Th.* 661 (boasts) φλύοντα σὺν φοίτῳ φρενῶν. For the plur. νόσοις cp. 338 νοσήμασι: Eur. *Or.* 270 μανιάσιν λυσσήμασι.
@@ -270,7 +270,7 @@ Others take the gen. as depending on **ἀπείργω**, placing a comma after 
 **θροῇς**, ‘proclaim’: cp. 785: *O. C.* 597 πᾶς τοῦτό γ' Ἑλλήνων θροεῖ.
 
 ## 68
-**μηδὲ συμφορὰν δέχου τὸν ἄνδρα**, lit., ‘do not receive (or take) the man as a calamity,’ i.e., ‘do not apprehend harm from his coming.’ There is a light touch of half-playful irony in the words with which the goddess reassures her favourite. Cp. Eur. *Or.* 138 ἀλλ' ἐμοὶ | τόνδ' ἐξεγεῖραι ξυμφορὰ γενήσεται. Hdt. 6. 61 τοὺς γονέας συμφορὴν τὸ εἶδος αὐτῆς ποιευμένους. Similarly *Il.* 21. 39 τῷ δ' ἄρ' ἀνώϊστον κακὸν ἤλυθε δῖος Ἀχιλλεύς: *O. T.* 379 Κρέων δέ σοι πῆμ' οὐδέν. —Whitelaw (*Translation*, p. 440) takes the constr. to be, μίμνε (μηδὲ συμφορὰν δέχου) τὸν ἄνδρα,—‘Bravely await, expecting no mischance, | His coming,’— διὰ μέσου construction ( *Ant.* 1279 f., n.). A difficulty in this view is that **δέχου** must then have definitely the sense of προσδέχου.
+**μηδὲ συμφορὰν δέχου τὸν ἄνδρα**, lit., ‘do not receive (or take) the man as a calamity,’ *i.e.*, ‘do not apprehend harm from his coming.’ There is a light touch of half-playful irony in the words with which the goddess reassures her favourite. Cp. Eur. *Or.* 138 ἀλλ' ἐμοὶ | τόνδ' ἐξεγεῖραι ξυμφορὰ γενήσεται. Hdt. 6. 61 τοὺς γονέας συμφορὴν τὸ εἶδος αὐτῆς ποιευμένους. Similarly *Il.* 21. 39 τῷ δ' ἄρ' ἀνώϊστον κακὸν ἤλυθε δῖος Ἀχιλλεύς: *O. T.* 379 Κρέων δέ σοι πῆμ' οὐδέν. —Whitelaw (*Translation*, p. 440) takes the constr. to be, μίμνε (μηδὲ συμφορὰν δέχου) τὸν ἄνδρα,—‘Bravely await, expecting no mischance, | His coming,’— διὰ μέσου construction ( *Ant.* 1279 f., n.). A difficulty in this view is that **δέχου** must then have definitely the sense of προσδέχου.
 
 **ἀποστρόφους**, proleptic: cp. *Ant.* 791 σὺ καὶ δικαίων ἀδίκους φρένας παρασπᾷς. Here the adj. is equiv. to ἀποστρέψασα,— ‘I will avert, and (thereby) hinder.’— **ἀπείρξω … εἰσιδεῖν**, without μή: as εἴργω takes the simple inf. in *O. T.* 129, *Ph.* 1407, *Tr.* 1257.
 
@@ -283,7 +283,7 @@ These three verses have been rejected (cr. n.), on the ground that, after this p
 
 **αἰχμαλωτίδας**, instead of αἰχμαλώτων: cp. Eur. *Or.* 222 ἀδελφῇ χειρί (a sister's hand); *I. A.* 1306 εὐναῖς βασιλίσι (the bed of a king).
 
-**ἀπευθύνοντα**, lit. ‘straightening out,’ here, binding behind the back: *O. T.* 1154 οὐχ ὡς τάχος τις τοῦδ' ἀποστρέψει χέρας; *Od.* 22. 189 σὺν δὲ πόδας χεῖράς τε δέον θυμαλγέϊ δεσμῷ | εὖ μάλ' ἀποστρέψαντε διαμπερές. So Achilles deals with his captives, *Il.* 21. 30 δῆσε δ' ὀπίσσω χεῖρας ἐϋτμήτοισιν ἱμᾶσιν. Hom. *Od.* 3. 5. 22 retorta tergo bracchia libero.
+**ἀπευθύνοντα**, lit. ‘straightening out,’ here, binding behind the back: *O. T.* 1154 οὐχ ὡς τάχος τις τοῦδ' ἀποστρέψει χέρας; *Od.* 22. 189 σὺν δὲ πόδας χεῖράς τε δέον θυμαλγέϊ δεσμῷ | εὖ μάλ' ἀποστρέψαντε διαμπερές. So Achilles deals with his captives, *Il.* 21. 30 δῆσε δ' ὀπίσσω χεῖρας ἐϋτμήτοισιν ἱμᾶσιν. Hom. *Od.* 3. 5. 22 *retorta tergo bracchia libero.*
 
 Cp. Eur. *Andr.* 719 ὧδʼ, ὦ κάκιστε, τῆσδ' ἐλυμήνω χέρας; | βοῦν ἢ λέοντ' ἤλπιζες ἐντείνειν βρόχοις; (‘strain with cords’). Ajax fancies himself to be tying the hands of human prisoners behind them, when he fastens the fore feet of an ox or sheep to its hind feet. Cp. 299.
 
@@ -322,27 +322,27 @@ Cp. Eur. *Andr.* 719 ὧδʼ, ὦ κάκιστε, τῆσδ' ἐλυμήνω χ�
 **ἐξέστην** with acc., as meaning ‘avoid’: Dem. or. 20 § 10 οὐδένα πώποτε κίνδυνον ἐξέστησαν (a phrase which occurs also in or. 23 § 76): Plat. *Phileb.* p. 43 A ἀλλὰ γὰρ ὑπεκστῆναι τὸν λόγον ἐπιφερόμενον τοῦτον βούλομαι (‘to elude the brunt of this argument’). Cp. Thuc. 2. 88 § 2 μηδένα ὄχλον...ὑποχωρεῖν (‘to face any numbers’). But ἐξίστασθαι takes a *dat.* when it means to ‘make place for’ (672), or ‘give way to’ ( Soph. *Ph.* 1053).
 
 ## 83
-**οὐδὲ νῦν** refers to οὐκ in 82: ‘even as it is (i.e. though he is insane) thou hast no reason to fear him, since he will not see thee.’
+**οὐδὲ νῦν** refers to οὐκ in 82: ‘even as it is (*i.e.* though he is insane) thou hast no reason to fear him, since he will not see thee.’
 
 ## 84
-**ὀφθαλμοῖς … τοῖς αὐτοῖς**, i.e., with eyesight as good as ever. Odysseus forgets, or ignores, the promise of Athena that she would *avert* from him the eyes of Ajax (69 f.). She now renews the assurance in a stronger form. Ajax shall, in respect to him, be *blind.*
+**ὀφθαλμοῖς … τοῖς αὐτοῖς**, *i.e.*, with eyesight as good as ever. Odysseus forgets, or ignores, the promise of Athena that she would *avert* from him the eyes of Ajax (69 f.). She now renews the assurance in a stronger form. Ajax shall, in respect to him, be *blind.*
 
 ## 85
-**δεδορκότα** properly implies *keen*, *bright* vision: *Suppl.* 409 δεδορκὸς ὄμμα (with Tucker's note). Chrysippus ap. Gellius 14. 4 ἔντονον καὶ δεδορκὸς βλέπουσα (said of Justice), which Gellius renders, luminibus oculorum acribus.
+**δεδορκότα** properly implies *keen*, *bright* vision: *Suppl.* 409 δεδορκὸς ὄμμα (with Tucker's note). Chrysippus *ap.* Gellius 14. 4 ἔντονον καὶ δεδορκὸς βλέπουσα (said of Justice), which Gellius renders, *luminibus oculorum acribus.*
 
 ## 86
 **γένοιτο** κ.τ.λ.: cp. Her. 5. 9 γένοιτο δ' ἂν πᾶν ἐν τῷ μακρῷ χρόνῳ.
 
-**μέντἂν**, a crasis frequent in Attic prose ( Dem. or. 1 § 26, Plat. *Rep.* p. 375 D, etc.). Here μέντοι expresses reflective assent (‘well, certainly’), as so often in Plato (e.g., Plat. *Soph.* p. 245 B ἀληθέστατα μέντοι λέγεις).
+**μέντἂν**, a crasis frequent in Attic prose ( Dem. or. 1 § 26, Plat. *Rep.* p. 375 D, etc.). Here μέντοι expresses reflective assent (‘well, certainly’), as so often in Plato (*e.g.*, Plat. *Soph.* p. 245 B ἀληθέστατα μέντοι λέγεις).
 
 **θεοῦ**, not θεᾶς,—the generalising masc.: Aesch. *Eum.* 297 (ref. to Athena), ἔλθοι· κλύει δὲ καὶ πρόσωθεν ὢι θεός. So Soph. *Ant.* 463 (ὅστις), Soph. *Tr.* 151 (αὑτοῦ), Soph. *El.* 145 (ὃς), Soph. El. 771 (πάσχοντι), Soph. El. 1026 (ἐγχειροῦντα), Soph. El. 1105 (τὸν ἄγχιστον).
 
 ## 88
 **μένοιμ' ἄν**. Among its many shades of meaning, the opt. with ἄν sometimes expresses; as here, what the speaker feels that he *must* do; cp. *Ant.* 1108 ὧδ' ὡς ἔχω στείχοιμ' ἄν (n.). See below, Ant. 186.
 
-**ἤθελον δ' ἂν**, as *Ph.* 1278, and ib. 1239 ἂν..ἐβουλόμην: so ἠθέλησα with ἄν, ib. 427, *O. T.* 1348, and εἱλόμην ἄν, *Tr.* 734. For ἤθελον without ἄν, see 1400.
+**ἤθελον δ' ἂν**, as *Ph.* 1278, and *ib.* 1239 ἂν..ἐβουλόμην: so ἠθέλησα with ἄν, *ib.* 427, *O. T.* 1348, and εἱλόμην ἄν, *Tr.* 734. For ἤθελον without ἄν, see 1400.
 
-**ἐκτὸς ὢν τυχεῖν**, to be clear of the peril: cp. *Ph.* 504 ἐκτὸς ὄντα πημάτων: ib. 1260 ἴσως ἂν ἐκτὸς κλαυμάτων ἔχοις πόδα: fr. 657. 3 ἐκτός εἰσι τῶν κακῶν.
+**ἐκτὸς ὢν τυχεῖν**, to be clear of the peril: cp. *Ph.* 504 ἐκτὸς ὄντα πημάτων: *ib.* 1260 ἴσως ἂν ἐκτὸς κλαυμάτων ἔχοις πόδα: fr. 657. 3 ἐκτός εἰσι τῶν κακῶν.
 
 ## 89
 **οὗτος**: 71.
@@ -359,7 +359,7 @@ Ajax enters from the tent, carrying the heavy, blood-stained thong, with which h
 ## 92 f.
 **παρέστης**: cp. 117.
 
-**στέψω**, ‘crown,’ in the fig. sense of ‘honouring with gifts’: cp. *El.* 457 ὅπως τὸ λοιπὸν αὐτὸν ἀφνεωτέραις | χερσὶ στέφωμεν ἢ τανῦν δωρούμεθα: *Ant.* 431 χοαῖσι..τὸν νέκυν στέφει. (In later Greek, στεφανοῦν is said of any honorarium; as Plut. *Timol.* 16 τὸν..ἄνθρωπον ἐστεφάνωσαν.. δέκα μναῖς.) Here, the word may refer more esp. to *hanging up* trophies in Athena's temple (Aesch. *Th.* 278 λάφυρα δᾴων δουρίπηχθ' ἁγνοῖς δόμοις | στέψω,— where, however, the text is doubtful: cp. *Agam.* 577 ff.).
+**στέψω**, ‘crown,’ in the fig. sense of ‘honouring with gifts’: cp. *El.* 457 ὅπως τὸ λοιπὸν αὐτὸν ἀφνεωτέραις | χερσὶ στέφωμεν ἢ τανῦν δωρούμεθα: *Ant.* 431 χοαῖσι..τὸν νέκυν στέφει. (In later Greek, στεφανοῦν is said of any *honorarium*; as Plut. *Timol.* 16 τὸν..ἄνθρωπον ἐστεφάνωσαν.. δέκα μναῖς.) Here, the word may refer more esp. to *hanging up* trophies in Athena's temple (Aesch. *Th.* 278 λάφυρα δᾴων δουρίπηχθ' ἁγνοῖς δόμοις | στέψω,— where, however, the text is doubtful: cp. *Agam.* 577 ff.).
 
 **λαφύροις** (rt. λαβ), spoils *taken* from the enemy, a poetical word, used by Xenophon. The epithet **παγχρύσοις** suggests votive gifts (ἀναθήματα) of golden vessels.
 
@@ -394,31 +394,31 @@ Ajax enters from the tent, carrying the heavy, blood-stained thong, with which h
 
 **τί γὰρ δὴ**: here γάρ (‘now’) merely prefaces the question; δή=‘then,’ ‘in the next place.’ Cp. *I. T.* 576 τί δ' ἡμεῖς οἵ τ ἐμοὶ γεννήτορες; | ἆρ' εἰσίν;
 
-**ποῦ σοι τύχης ἕστηκεν**; Cp. 314: *O. T.* 1442 ἵν' ἕσταμεν | χρείας: *Tr.* 375 ποῦ ποτ' εἰμὶ πράγματος; ib. 1145 ξυμφορᾶς ἵν' ἕσταμεν.
+**ποῦ σοι τύχης ἕστηκεν**; Cp. 314: *O. T.* 1442 ἵν' ἕσταμεν | χρείας: *Tr.* 375 ποῦ ποτ' εἰμὶ πράγματος; *ib.* 1145 ξυμφορᾶς ἵν' ἕσταμεν.
 
-**σοι**, ethic dat.: *O. C.* 81 ἦ βέβηκεν ἡμὶν ὁ ξένος; (i.e., ‘Do we find ourselves alone?’) For the double question, cp. 983 f.
+**σοι**, ethic dat.: *O. C.* 81 ἦ βέβηκεν ἡμὶν ὁ ξένος; (*i.e.*, ‘Do we find ourselves alone?’) For the double question, cp. 983 f.
 
 ## 103
 **τοὐπίτριπτον**, ‘accursed’; cp. the imprecation, ἐπιτριβείης ( Ar. *Av.* 1530, *Thesm.* 557). Others explain it, from the sense ‘rubbed down,’ as ‘practised in trickery,’ ‘knavish’ (cp. περίτριμμα, ἄλημα, etc.). Ar. *Plut.* 275 ὡς σεμνὸς οὑπίτριπτος: Andoc. or. 1 § 99 ὦ συκοφάντα καὶ ἐπίτριπτον κίναδος. Ar. *Av.* 430 πυκνότατον κίναδος, | σόφισμα, κύρμα, τρίμμα, παιπάλημ' ὅλον. Here **κίναδος** is acc.: cp. 118, *Ph.* 444 n.
 
-**ἐξήρου μ' ὅπου**, sc. ἐστί: a frequent ellipse after ὅπου (890, *O. T.* 926, *Ant.* 318). Cp. 33.
+**ἐξήρου μ' ὅπου**, *sc.* ἐστί: a frequent ellipse after ὅπου (890, *O. T.* 926, *Ant.* 318). Cp. 33.
 
 ## 104
 **ἔγωγʼ**. In favour of omitting the colon after ἔγωγʼ, it has been urged that, if it remains, the goddess seems to accept the description just given of her favourite; and that it would better become her to reply merely, ‘I mean Odysseus, thy foe.’ But she is displaying the insanity of Ajax, and has already received his fierce vaunts with the irony of seeming approval.
 
 **Ὀδυσσέα**, with synizesis: cp. Eur. *Phoen.* 913 σφάξαι Μενοικέα τόνδε: [Eur. ] *Rhes.* 977 ἔπειτ' Ἀχιλλέα Θέτιδος κ.τ.λ. But synizesis is not applied by Sophocles to Ὀδυσσέα in *Ph.* 1220, to Ἀχιλλέα in *Ph.* 331 and 358, or to Θησέα in *O. C.* 1055 and 1630. Here Nauck writes Ὀδυσσῆ, a form found in *Rhes.* 708; cp. Eur. *El.* 439 Ἀχιλῆ.
 
-**ἐνστάτην**, ‘adversary’: a word not extant elsewhere. It comes from ἐνίστασθαι as=‘*to stand in the way*’ of a person or thing, ‘oppose,’ ‘resist.’ For the literal sense, see Lysias or. 3 § 8 εὐθύς με τύπτειν ἐπεχείρησεν· ἐπειδὴ δὲ αὐτὸν ἠμυνάμην ἐνστάς (‘when I stood up to him and repelled him’), ἔβαλλέ με λίθοις: for the fig. sense, Thuc. 8. 69 § 2 ἤν τις ἐνιστῆται τοῖς ποιουμένοις. Hence in logic, ἔνστασις, instantia, ‘objection’ (cp. Isocr. or. 5 § 39, ἐνστῆναι τοῖς εἰρημένοις). In *Etym. M.* p. 625. 25 ἐνστάτης (quoted from this passage) is loosely explained as=ἀντιστάτης.
+**ἐνστάτην**, ‘adversary’: a word not extant elsewhere. It comes from ἐνίστασθαι as=‘*to stand in the way*’ of a person or thing, ‘oppose,’ ‘resist.’ For the literal sense, see Lysias or. 3 § 8 εὐθύς με τύπτειν ἐπεχείρησεν· ἐπειδὴ δὲ αὐτὸν ἠμυνάμην ἐνστάς (‘when I stood up to him and repelled him’), ἔβαλλέ με λίθοις: for the fig. sense, Thuc. 8. 69 § 2 ἤν τις ἐνιστῆται τοῖς ποιουμένοις. Hence in logic, ἔνστασις, *instantia*, ‘objection’ (cp. Isocr. or. 5 § 39, ἐνστῆναι τοῖς εἰρημένοις). In *Etym. M.* p. 625. 25 ἐνστάτης (quoted from this passage) is loosely explained as=ἀντιστάτης.
 
 ## 105
 **ἥδιστος**, most welcome; cp. *El.* 929 κατ' οἶκον, ἡδὺς οὐδὲ μητρὶ δυσχερής.
 
 ## 108
-**κίον' ἑρκείου στέγης**, lit., ‘a pillar of the domestic roof.’ As Ζεὺς ἑρκεῖος is the god of the household ( *Ant.* 487 n.), ἑρκεῖος στέγη is a poetical phrase for the house. In such a phrase, στέγη could mean either (*a*) ‘*roof*,’ or (*b*) generally, ‘*building.*’ Here, it probably means ‘roof’; as is suggested by the fact that, in Homer, ἕρκος sometimes denotes the enclosure of the αὐλή, open to the sky ( *Od.* 22. 442, etc.): in using ἑρκεῖος, then, as=‘domestic,’ the poet may have felt that στέγη, tectum, would make the sense clearer. This is also suggested by **κίονʼ**: see Eur. *H. F.* 1006, where the roof of the house falls in, breaking one of the κίονες (called also λάϊνοι ὀρθοστάται, ib. 979 f.) which supported it:—πρὸς κίονα | νῶτον πατάξας, ὃς πεσήμασι στέγης | διχορραγὴς ἔκειτο κρηπίδων ἔπι. Cp. also Aesch. *Ag.* 897 ὑψηλῆς στέγης | στῦλον ποδήρη (‘of a lofty roof | A strong-based pillar’; Kennedy).—I now prefer this view to that which takes ἑρκεῖος στέγη as=‘the *building* of an *enclosure*’; i.e. an αὐλή, open to the sky, within the house;—the κίων being then one of the columns of a peristyle surrounding this court, as in the ἀνδρωνῖτις of an ordinary Greek dwelling.
+**κίον' ἑρκείου στέγης**, lit., ‘a pillar of the domestic roof.’ As Ζεὺς ἑρκεῖος is the god of the household ( *Ant.* 487 n.), ἑρκεῖος στέγη is a poetical phrase for the house. In such a phrase, στέγη could mean either (*a*) ‘*roof*,’ or (*b*) generally, ‘*building.*’ Here, it probably means ‘roof’; as is suggested by the fact that, in Homer, ἕρκος sometimes denotes the enclosure of the αὐλή, open to the sky ( *Od.* 22. 442, etc.): in using ἑρκεῖος, then, as=‘domestic,’ the poet may have felt that στέγη, *tectum*, would make the sense clearer. This is also suggested by **κίονʼ**: see Eur. *H. F.* 1006, where the roof of the house falls in, breaking one of the κίονες (called also λάϊνοι ὀρθοστάται, *ib.* 979 f.) which supported it:—πρὸς κίονα | νῶτον πατάξας, ὃς πεσήμασι στέγης | διχορραγὴς ἔκειτο κρηπίδων ἔπι. Cp. also Aesch. *Ag.* 897 ὑψηλῆς στέγης | στῦλον ποδήρη (‘of a lofty roof | A strong-based pillar’; Kennedy).—I now prefer this view to that which takes ἑρκεῖος στέγη as=‘the *building* of an *enclosure*’; *i.e.* an αὐλή, open to the sky, within the house;—the κίων being then one of the columns of a peristyle surrounding this court, as in the ἀνδρωνῖτις of an ordinary Greek dwelling.
 
-**δεθεὶς πρὸς κίονʼ**: the regular preparation for a flogging: cp. Aeschin. or. 1 § 59 δήσαντες πρὸς τὸν κίονα αὐτὸν...ἐμαστίγουν. Lysias fr. 52 § 4 πάλιν πρὸς τὸν κίονα αὐτὸν μαστιγοῦν δήσαντας. Hypereides ap. Pollux 3. 80. So Plaut. *Bacch.* 4. 7. 24 abducite hunc intro atque astringite ad columnam fortiter.
+**δεθεὶς πρὸς κίονʼ**: the regular preparation for a flogging: cp. Aeschin. or. 1 § 59 δήσαντες πρὸς τὸν κίονα αὐτὸν...ἐμαστίγουν. Lysias fr. 52 § 4 πάλιν πρὸς τὸν κίονα αὐτὸν μαστιγοῦν δήσαντας. Hypereides *ap.* Pollux 3. 80. So Plaut. *Bacch.* 4. 7. 24 *abducite hunc intro atque astringite ad columnam fortiter.*
 
-δεῖν *πρὸς κίονα* (properly, ‘to *take and* bind to a pillar’), not **πρὸς κίονι**, was thus the usual phrase; but Artemidorus (c. 160 A.D. ) *Oneirocr.* 1. 78 has προσδεθεὶς κίονι ἔλαβε πληγὰς πολλάς. Cp. 240.—κίων is masc. in Herodotus Attic. uses it in both genders (fem. 1. 92, masc. 4. 184). With Pindar it is always fem.; and usually so in the *Odyssey*, but not always; in *Od.* 8. 66, πρὸς κίονα μακρὸν ἐρείσας, the masc. has a metrical motive, but not in 19. 38, κίονες ὑψόσ' ἔχοντες.
+δεῖν *πρὸς κίονα* (properly, ‘to *take and* bind to a pillar’), not **πρὸς κίονι**, was thus the usual phrase; but Artemidorus (*c.* 160 A.D. ) *Oneirocr.* 1. 78 has προσδεθεὶς κίονι ἔλαβε πληγὰς πολλάς. Cp. 240.—κίων is masc. in Herodotus Attic. uses it in both genders (fem. 1. 92, masc. 4. 184). With Pindar it is always fem.; and usually so in the *Odyssey*, but not always; in *Od.* 8. 66, πρὸς κίονα μακρὸν ἐρείσας, the masc. has a metrical motive, but not in 19. 38, κίονες ὑψόσ' ἔχοντες.
 
 ## 109
 **ἐργάσει**. In v. 107 she continued his sentence; here, feigning keener alarm, she interrupts it.—Nauck reads **ἐργάσῃ** (aor.), depending on πρὶν ἄν: which not only is weaker, but requires δήσας instead of δεθεὶς in 108.
@@ -432,9 +432,9 @@ Ajax enters from the tent, carrying the heavy, blood-stained thong, with which h
 **αἰκίσῃ**: cp. *O. T.* 1153 μὴ δῆτα, πρὸς θεῶν, τὸν γέροντά μ' αἰκίσῃ.
 
 ## 112
-**χαίρειν … σ' ἐφίεμαι**. It seems best to suppose that the constr. is ἐφίεμαι χαίρειν δε, ‘It is my injunction that thou have thy will in all else.’ Cp. *O. T.* 1054 f. ὅντιν' ἀρτίως | μολεῖν ἐφιέμεσθα: where the acc. similarly belongs to the inf. There is no example of ἐφίεμαί τινα (instead of τινι) ποιεῖν τι: though we find in *Tr.* 1221 τοσοῦτον δή σ' ἐπισκήπτω, like κελεύω τινά τι. Nor does the sense here require that σε should be the object of ἐφίεμαι.—Remark the objection to rendering ἐφίεμαι here ‘I *desire*’: when the verb has that sense, with an inf., its subject is the same as that of the inf.: e.g. *Phil.* 1315 ὧν δέ σου τυχεῖν ἐφίεμαι, | ἄκουσον. Further, the sense, ‘enjoin,’ ‘command,’ better suits the insane ὕβρις of Ajax.
+**χαίρειν … σ' ἐφίεμαι**. It seems best to suppose that the constr. is ἐφίεμαι χαίρειν δε, ‘It is my injunction that thou have thy will in all else.’ Cp. *O. T.* 1054 f. ὅντιν' ἀρτίως | μολεῖν ἐφιέμεσθα: where the acc. similarly belongs to the inf. There is no example of ἐφίεμαί τινα (instead of τινι) ποιεῖν τι: though we find in *Tr.* 1221 τοσοῦτον δή σ' ἐπισκήπτω, like κελεύω τινά τι. Nor does the sense here require that σε should be the object of ἐφίεμαι.—Remark the objection to rendering ἐφίεμαι here ‘I *desire*’: when the verb has that sense, with an inf., its subject is the same as that of the inf.: *e.g.* *Phil.* 1315 ὧν δέ σου τυχεῖν ἐφίεμαι, | ἄκουσον. Further, the sense, ‘enjoin,’ ‘command,’ better suits the insane ὕβρις of Ajax.
 
-**χαίρειν … τἄλλα**, to have her pleasure, i.e., to have her commands obeyed, in all other things: schol. ἐφίεμαί σε εἰς τὰ ἄλλα κελεύειν μοι καὶ χαίρειν ὡς πειθομένου μου.
+**χαίρειν … τἄλλα**, to have her pleasure, *i.e.*, to have her commands obeyed, in all other things: schol. ἐφίεμαί σε εἰς τὰ ἄλλα κελεύειν μοι καὶ χαίρειν ὡς πειθομένου μου.
 
 ## 114
 **σὺ σ' οὖν**: for this use of οὖν with pron. and imperat., cp. 961: *O. T.* 669 ὁ δ' οὖν ἴτω: Ar. *Ach.* 185 οἱ δ' ἐδίωκον κἀβόων. | ΔΙ. οἱ δ' οὖν βοώντων.
@@ -481,11 +481,11 @@ Ajax enters from the tent, carrying the heavy, blood-stained thong, with which h
 **ἄρῃ**, ‘take upon thee,’ ‘assume’: subjunct. of 1st aor. ἠράμην (not of 2nd aor. ἠρόμην, which would have **ᾰ**). The sense of ἠράμην is usu. ‘to take up’ or ‘take upon one,’ rarely ‘to win,’ which is the regular sense of ἠρόμην. See Appendix on 75.— **ἄρῃς** (from 1st aor. act. ἦρα) has inferior MS. authority, and is also less suitable in sense: it would mean, ‘lift up,’ ‘exalt.’
 
 ## 130
-**βρίθεις**, ‘art weighty,’ i.e. ‘powerful’: cp. Pind. *N.* 3. 40 συγγενεῖ δέ τις εὐδοξίᾳ μέγα βρίθει.
+**βρίθεις**, ‘art weighty,’ *i.e.* ‘powerful’: cp. Pind. *N.* 3. 40 συγγενεῖ δέ τις εὐδοξίᾳ μέγα βρίθει.
 
 **μακροῦ**, extensive, ‘large’: cp. 825: *Tr.* 1217 χάριν βραχεῖαν πρὸς μακροῖς ἄλλοις διδούς.
 
-**πλούτου βάθει**: cp. Tyrtaeus fr. 12. 6 πλουτοίη δὲ Μίδεω καὶ Κινύρεω βάθιον (so Camerarius: μάλιον G. M. Schmidt): Pind. *O.* 13. 63 βαθὺν κλᾶρον (‘a rich domain’): *Suppl.* 555 βαθύπλουτον χθόνα (referring to soil): Eur. fr. 453 Εἰρήνα βαθύπλουτε: Callim. *Cer.* 114 τὸν βαθὺν οἶκον (‘opulent’): Aelian *V. H.* 3. 18 ἐν εἰρήνῃ τε διάγειν καὶ πλούτῳ βαθεῖ. Indeed, βαθύς could be said (like παχύς) of a rich *man*: Xen. *Oec.* 11. 10 βαθεῖς τε καὶ ἐρρωμένους ἄνδρας, ‘men of substance and power.’—The feeble v.l. **βάρει** (cr. n.) was prompted by βρίθεις.
+**πλούτου βάθει**: cp. Tyrtaeus fr. 12. 6 πλουτοίη δὲ Μίδεω καὶ Κινύρεω βάθιον (so Camerarius: μάλιον G. M. Schmidt): Pind. *O.* 13. 63 βαθὺν κλᾶρον (‘a rich domain’): *Suppl.* 555 βαθύπλουτον χθόνα (referring to soil): Eur. fr. 453 Εἰρήνα βαθύπλουτε: Callim. *Cer.* 114 τὸν βαθὺν οἶκον (‘opulent’): Aelian *V. H.* 3. 18 ἐν εἰρήνῃ τε διάγειν καὶ πλούτῳ βαθεῖ. Indeed, βαθύς could be said (like παχύς) of a rich *man*: Xen. *Oec.* 11. 10 βαθεῖς τε καὶ ἐρρωμένους ἄνδρας, ‘men of substance and power.’—The feeble *v.l.* **βάρει** (cr. n.) was prompted by βρίθεις.
 
 ## 131
 **ἡμέρα**: cp. 475: Pind. *P.* 8. 95 ἐπάμεροι· τί δέ τις; τί δ' οὔ τις; σκιᾶς ὄναρ | ἄνθρωπος.
@@ -544,7 +544,7 @@ It can scarcely be doubted that the anapaests were chanted by the whole Chorus, 
 **ἐπὶ δυσκλείᾳ**, *for*, *tending to*, our disgrace; cp. Her. 1. 68 ἐπὶ κακῷ, Her. 4. 164 ἐπὶ διαφθορῇ.
 
 ## 144
-**τὸν ἱππομανῆ λειμῶνʼ**, the plain ‘wild with horses,’ i.e., on which great numbers of horses (out at pasture) disport themselves. In *Il.* 20. 221 Erichthonius, son of Dardanus, is described as keeping great droves of horses on the moist meadow-lands near the lower spurs of Ida: τοῦ τρισχίλιαι ἵπποι ἕλος κάτα βουκολέοντο. Sophocles used the word καρπομανής (fr. 591), doubtless in a sense parallel with that of ὑλομανής, i.e. ‘abounding in fruit’: and the sense which he attached to λειμὼν ἱππομανής was probably λειμὼν ὃς μαίνεται ἵπποις rather than ἐν ᾧ ἵπποι μαίνονται. But the idea of *wild abundance* would naturally, in this case, be blended with that of the horses *frisking* or *galloping* in freedom on the plain. Hence the difference made by the verbal analysis which we prefer is not one which much affects the picture. —See Appendix.
+**τὸν ἱππομανῆ λειμῶνʼ**, the plain ‘wild with horses,’ *i.e.*, on which great numbers of horses (out at pasture) disport themselves. In *Il.* 20. 221 Erichthonius, son of Dardanus, is described as keeping great droves of horses on the moist meadow-lands near the lower spurs of Ida: τοῦ τρισχίλιαι ἵπποι ἕλος κάτα βουκολέοντο. Sophocles used the word καρπομανής (fr. 591), doubtless in a sense parallel with that of ὑλομανής, *i.e.* ‘abounding in fruit’: and the sense which he attached to λειμὼν ἱππομανής was probably λειμὼν ὃς μαίνεται ἵπποις rather than ἐν ᾧ ἵπποι μαίνονται. But the idea of *wild abundance* would naturally, in this case, be blended with that of the horses *frisking* or *galloping* in freedom on the plain. Hence the difference made by the verbal analysis which we prefer is not one which much affects the picture. —See Appendix.
 
 ## 145 ff.
 **βοτὰ καὶ λείαν**: a hendiadys, =βοτὰ δορίληπτα: cp. *El.* 36 ἀσπίδων τε καὶ στρατοῦ (=στρατοῦ ὡπλισμένου): Eur. *Bacch.* 919 Θήβας καὶ πόλισμ' ἑπτάστομον. We might, indeed, understand βοτὰ of the sheep, and λείαν of the oxen (cp. 53 n.): but that seems less fitting here. **λοιπὴ**=ἄδαστος. [See on 53](#53).
@@ -560,7 +560,7 @@ It can scarcely be doubted that the anapaests were chanted by the whole Chorus, 
 **εὔπειστα** has the best authority here, but is otherwise known only from Aristotle. In *Eth. N.* 7. 10 (p. 1151 *b* 10) εὔπειστος, ὅταν τύχῃ, ἔσται ὁ ἐγκρατής, it means, ‘easy to persuade,’ as opp. to δύσπειστος. But in another place ( αριστ. περὶ ἀτόμων γραμμῶν, p. 969 *b* 22), the words εὔπειστον ὅτι ἀνάγκη κ.τ.λ. mean, ‘it is easy to *show*,’ etc. As we can say, πείθω τινά τι, it is natural that εὔπειστος should be capable of both senses. Here **εὔπειστα** will be, ‘things of which it is easy to persuade the hearer.’ It has more point than **εὔπιστα**, since it implies the skill of the calumniator. Cp. fr. 786 ταχεῖα πειθὼ τῶν κακῶν ὁδοιπορεῖ.
 
 ## 152
-**τοῦ λέξαντος**, not, of course, Odysseus, but simply the man from whom ὁ κλύων heard the story. The slander mobilitate viget, viresque acquirit eundo (*Aen.* 4. 175). As it spreads and gains in strength, the spiteful joy of each new hearer is greater than that of his informant.
+**τοῦ λέξαντος**, not, of course, Odysseus, but simply the man from whom ὁ κλύων heard the story. The slander *mobilitate viget, viresque acquirit eundo* (*Aen.* 4. 175). As it spreads and gains in strength, the spiteful joy of each new hearer is greater than that of his informant.
 
 ## 153
 **ἄχεσιν καθυβρίζων**: for the dat., cp. Her. 1. 212 τριτημορίδι τοῦ στρατοῦ κατυβρίσας: Paus. 4. 27. 3 καθυβρίσαντες τῶν Διοσκούρων τῇ θυσίᾳ. Similarly Her. 3. 37 τῷ ἀγάλματι κατεγέλασε.
@@ -627,7 +627,7 @@ The sailors ask whether Artemis or Ares can have driven Ajax to such a deed. In 
 
 **Ταυροπόλα**=Ταυροπόλος: for the form, cp. Pind. *O.* 3. 26 Λατοῦς ἱπποσόα θυγάτηρ: Eur. *Ion* 1478 Γοργοφόνα. There were two cults of Artemis, originally quite distinct. (1) The Ταυροπόλος was a goddess who rules over bulls,—one of the numerous attributes of Artemis in her relation to wild animals: cp. αἰπόλος, ἱπποπόλος, οἰοπόλος. A Macedonian silver coin (from Amphipolis) shows her riding on a prancing bull, and carrying a torch in either hand. On another coin she appears (with the inscr. ΤΑΥΡΟΠΟΛΟΣ) carrying two torches, and with the horns of a bull growing out of her shoulders: these horns were meant to suggest the crescent moon. The cult of the Tauropolos was purely Greek, and had nothing fierce or cruel about it. (2) The cult of Artemis Ταυρική (or Ταυρώ) had orgiastic elements; it was of Asiatic origin, and belonged to a primitive stage of natureworship. The ritual was a bloody one, and in early times involved human sacrifice. This was the Artemis whose cult was said to have been brought to Brauron in Attica, from the Tauric Chersonese, by Iphigeneia and Orestes.
 
-It is possible that Sophocles here was thinking *only* of the Ταυροπόλος proper, and names her simply because bulls had been among the victims of Ajax. On the other hand, the savage nature of the bloody onslaught might suggest that she was associated in his thought with the Ταυρική. Such an association occurs as early as *I. T.* 1457 where the Brauronian Artemis (ἐπώνυμον γῆς Ταυρικῆς, 1454) is called Ταυροπόλος. The dithyrambic poet Timotheus of Miletus (c. 400 B.C.) addressed the Ephesian Artemis as μαινάδα, θυιάδα, φοιβάδα, λυσσάδα (Bergk fr. 1). See Appendix.
+It is possible that Sophocles here was thinking *only* of the Ταυροπόλος proper, and names her simply because bulls had been among the victims of Ajax. On the other hand, the savage nature of the bloody onslaught might suggest that she was associated in his thought with the Ταυρική. Such an association occurs as early as *I. T.* 1457 where the Brauronian Artemis (ἐπώνυμον γῆς Ταυρικῆς, 1454) is called Ταυροπόλος. The dithyrambic poet Timotheus of Miletus (*c.* 400 B.C.) addressed the Ephesian Artemis as μαινάδα, θυιάδα, φοιβάδα, λυσσάδα (Bergk fr. 1). See Appendix.
 
 **Διὸς**, (daughter) of Zeus: cp. 1302 Λαομέδοντος. But the art. (ἡ) is prefixed to Διὸς in 401, 450.
 
@@ -668,21 +668,21 @@ The causes here conjectured for her wrath remind us of her anger with Oeneus, wh
 
 **ξυνοῦ δορὸς**, causal gen.: cp. 41 n., and *Il.* 1. 93 οὔτ' ἄρ' ὅ γ' εὐχωλῆς ἐπιμέμφεται οὔθʼ ἑκατόμβης. **ξυνοῦ** here=‘making common cause with him,’ ‘allied’; cp. Eur. *Tro.* 58 πρὸς σὴν ἀφῖγμαι δύναμιν, ὡς κοινὴν λάβω. (The word may have been suggested by *Il.* 18. 309 ξυνὸς Ἐνυάλιος, though there the sense is, ‘The war-god is impartial.’)
 
-**ἐννυχίοις μαχαναῖς**, by devices against Ajax in the night,—i.e., by impelling him to the nocturnal onslaught.—This seems to be the only instance in Tragedy (except Aesch. *Theb.* 132 μαχανᾷ) where the Doric form of a word from the st. μηχαν has good support from our MSS. But this fact does not warrant G. Wolff's view that the form in η was alone used by the tragic dramatists.
+**ἐννυχίοις μαχαναῖς**, by devices against Ajax in the night,—*i.e.*, by impelling him to the nocturnal onslaught.—This seems to be the only instance in Tragedy (except Aesch. *Theb.* 132 μαχανᾷ) where the Doric form of a word from the st. μηχαν has good support from our MSS. But this fact does not warrant G. Wolff's view that the form in η was alone used by the tragic dramatists.
 
 **ἐτείσατο**, not ἐτίσατο, was the Attic spelling in the poet's age: see Meisterhans, *Gramm. Att. Inschr.*, § 43.
 
 ## 183
 **φρενόθεν γʼ**, by the prompting of thine own mind,—if it had not been deranged by some god. Schol. οἴκοθεν (=in virtue of *thine own* qualities), ἀπὸ οἰκείας γνώσεως. The emphasis given by **γε** shows that this is the meaning.—Not ἐπ' ἀριστερὰ φρενόθεν (as=φρενῶν), ‘to the leftward of thy mind’: nor, ‘went from good sense (=ἀπὸ φρενῶν) into folly.’
 
-**ἐπ' ἀριστερὰ … ἔβας**, deviating from the right course: Aesch. *P. V.* 883 ἔξω δὲ δρόμου φέρομαι λύσσης | πνεύματι μάργῳ. Theognetus (a poet of the New Comedy), Φάσμα fr. 1. 7 ἐπαρίστερ' ἔμαθες, ὦ πονηρέ, γράμματα (i.e., ‘to your misfortune’). Schneid. cp. Ennius *Annales* 208 Quo vobis mentes, rectae quae stare solebant | Antehac, dementes sese flexere viai?
+**ἐπ' ἀριστερὰ … ἔβας**, deviating from the right course: Aesch. *P. V.* 883 ἔξω δὲ δρόμου φέρομαι λύσσης | πνεύματι μάργῳ. Theognetus (a poet of the New Comedy), Φάσμα fr. 1. 7 ἐπαρίστερ' ἔμαθες, ὦ πονηρέ, γράμματα (*i.e.*, ‘to your misfortune’). Schneid. cp. Ennius *Annales* 208 *Quo vobis mentes, rectae quae stare solebant | Antehac, dementes sese flexere viai?*
 
 **τόσσον**: the only example, except Aesch. *Ag.* 140, of this form in Tragedy.
 
 **πίτνων**, instead of ὥστε πίτνειν: cp. *Ant.* 752 ἦ κἀπαπειλῶν ὧδ' ἐπεξέρχει θρασύς; (‘doth thy boldness run to open threats?’)
 
 ## 186
-**ἥκοι γὰρ ἂν**, ‘will’ (or ‘must’) ‘come’: cp. 88 μένοιμ' ἄν. The **γὰρ** here refers to a thought implied in the last sentence:—‘You would never have done this thing of your own nature; (and if you have done it *in madness*, that proves nothing against your nature,) *for* heavensent madness cannot be helped; only, may the gods avert the evil rumour!’— i.e., ‘may it prove to be false.’
+**ἥκοι γὰρ ἂν**, ‘will’ (or ‘must’) ‘come’: cp. 88 μένοιμ' ἄν. The **γὰρ** here refers to a thought implied in the last sentence:—‘You would never have done this thing of your own nature; (and if you have done it *in madness*, that proves nothing against your nature,) *for* heavensent madness cannot be helped; only, may the gods avert the evil rumour!’— *i.e.*, ‘may it prove to be false.’
 
 From verse 172 down to this point, the Chorus have been asking whether the rumour can be true. Now they pass to the alternative:—‘But if it is untrue, then up and refute it.’
 
@@ -692,7 +692,7 @@ From verse 172 down to this point, the Chorus have been asking whether the rumou
 **ὑποβαλλόμενοι**. The midd. ὑποβάλλεσθαι (παισίον) was said of a woman who ‘secretly put to her breast’ the child of another, and passed it off as her own: *Thesm.* 564 τῆς δούλης τεκούσης ἄρρεν, εἶτα σαυτῇ | τοῦθ' ὑπεβάλου, τὸ σὸν δὲ θυγάτριον παρῆκας αὐτῇ. Cp. below, 481. Hence the metaphor here,—‘falsely suggesting’ stories, *laying to thy charge* things which thou hast not done.
 
 ## 189
-**κλέπτουσι μύθους**, tell crafty tales: cp. 1137: *Ph.* 57 τόδ' οὐχὶ κλεπτέον, ‘this must not be represented falsely’: *El.* 37 κλέψαι..σφαγάς, i.e. to effect by stealth. Also ib. 56 λόγῳ κλέπτοντες. The participle **ὑποβαλλόμενοι** closely coheres with **κλέπτουσι**, and **μύθους** depends on both.
+**κλέπτουσι μύθους**, tell crafty tales: cp. 1137: *Ph.* 57 τόδ' οὐχὶ κλεπτέον, ‘this must not be represented falsely’: *El.* 37 κλέψαι..σφαγάς, *i.e.* to effect by stealth. Also *ib.* 56 λόγῳ κλέπτοντες. The participle **ὑποβαλλόμενοι** closely coheres with **κλέπτουσι**, and **μύθους** depends on both.
 
 **οἱ μεγάλοι βασιλῆς**, the Atreidae. For the nom. in -ῆς, cp. *El.* 690 βραβῆς (n.).
 
@@ -713,15 +713,15 @@ The simplest remedy is that which is proposed by Prof. v. Wilamowitz-Möllendorf
 ## 193
 **ἄνα**, the prep., with anastrophe, as=ἀνάστηθι: the hiatus as in *Il.* 9. 247 ἀλλ' ἄνα, εἰ μέμονάς γε.
 
-**ὅπου … ποτέ**, ‘wheresoever,’ i.e. in whatever spot within the dwelling. The change of **ποτὲ** to **ποτὶ** (on which see *Tr.* 1214 n.) introduces a strange phrase, στηρίζει πρὸς σχολῇ. The simple dat. (of circumstance) is clearly right.
+**ὅπου … ποτέ**, ‘wheresoever,’ *i.e.* in whatever spot within the dwelling. The change of **ποτὲ** to **ποτὶ** (on which see *Tr.* 1214 n.) introduces a strange phrase, στηρίζει πρὸς σχολῇ. The simple dat. (of circumstance) is clearly right.
 
-**ἀγωνίῳ σχολᾷ** seems to mean, ‘battlepause,’ i.e., rest from battle. Other explanations are: (1) σχολή which causes an ἀγών (discrimen); because, while Ajax rests, *his foes* are perilously active. Now, if the Chorus assumed that *Ajax*, while absent from battle, had been employed in other effort, then, indeed, they might call his rest ἀγώνιος σχολή, ‘a strenuous rest,’ like otium negotiosum. But it seems impossible that ἀγώνιος σχολή should mean merely, his ‘perilous’ or ‘critical’ rest,—made so by the acts of others.
+**ἀγωνίῳ σχολᾷ** seems to mean, ‘battlepause,’ *i.e.*, rest from battle. Other explanations are: (1) σχολή which causes an ἀγών (*discrimen*); because, while Ajax rests, *his foes* are perilously active. Now, if the Chorus assumed that *Ajax*, while absent from battle, had been employed in other effort, then, indeed, they might call his rest ἀγώνιος σχολή, ‘a strenuous rest,’ like *otium negotiosum.* But it seems impossible that ἀγώνιος σχολή should mean merely, his ‘perilous’ or ‘critical’ rest,—made so by the acts of others.
 
 ## 195
 **ἄταν οὐρανίαν φλέγων**, ‘kindling a flame of ruin high as heaven,’ Whitelaw. Cp. *Suppl.* 808 ἴϋζε δ' ὀμφὰν οὐρανίαν=οὐρανομήκη: and see n. on *Ant.* 418. This is more forcible here than, ‘inflaming the *heaven-sent* plague’ (=θείαν: cp. 186).
 
 ## 196 f.
-**ἀτάρβητα**, neut. pl. as adverb. I keep this, the reading of the MSS., as Wecklein and Bellermann do. Dindorf strikes out **ὧδʼ** (unwarrantably), and writes **ἀτάρβητος**. In an epode, the strophic test is absent, and the logaoedic metre admits of Dindorf's reading. There is, however, a point in favour of **ἀτάρβητα** which deserves to be noted; viz., that the adverbial neut. pl., though it has no special relation to verbs of *motion*, is, in fact, very often joined with such verbs; and that the phrase **ἀτάρβητα ὁρμᾶται** is therefore thoroughly consonant with poetical usage. See (e.g.) *O. T.* 883 ὑπέροπτα πορεύεται: *O. C.* 1695 οὔτοι κατάμεμπτ' ἔβητον: *Il.* 17. 75 ἀκίχητα διώκων | ἵππους: Pind. *O.* 7. 45 βαίνει..ἀτέκμαρτα: Soph. *Ph.* 1740 ἀπαρθένευτ' ἀλωμένα: Eur. *Bacch.* 435 οὐδ' ἄκρανθ' ὡρμήσαμεν. For the hiatus at the end of the verse, cp. 425 χθονὸς μολόντ' ἀπὸ | Ἑλλανίδος.
+**ἀτάρβητα**, neut. pl. as adverb. I keep this, the reading of the MSS., as Wecklein and Bellermann do. Dindorf strikes out **ὧδʼ** (unwarrantably), and writes **ἀτάρβητος**. In an epode, the strophic test is absent, and the logaoedic metre admits of Dindorf's reading. There is, however, a point in favour of **ἀτάρβητα** which deserves to be noted; viz., that the adverbial neut. pl., though it has no special relation to verbs of *motion*, is, in fact, very often joined with such verbs; and that the phrase **ἀτάρβητα ὁρμᾶται** is therefore thoroughly consonant with poetical usage. See (*e.g.*) *O. T.* 883 ὑπέροπτα πορεύεται: *O. C.* 1695 οὔτοι κατάμεμπτ' ἔβητον: *Il.* 17. 75 ἀκίχητα διώκων | ἵππους: Pind. *O.* 7. 45 βαίνει..ἀτέκμαρτα: Soph. *Ph.* 1740 ἀπαρθένευτ' ἀλωμένα: Eur. *Bacch.* 435 οὐδ' ἄκρανθ' ὡρμήσαμεν. For the hiatus at the end of the verse, cp. 425 χθονὸς μολόντ' ἀπὸ | Ἑλλανίδος.
 
 **εὐανέμοις**, with **ᾰ** (not **ᾱ**, as if Doric for εὐηνέμοις): so probably in fr. 342 εὐανέμου λίμνας. Cp. *Od.* 19. 432 πτύχας ἠνεμοέσσας.
 
@@ -738,7 +738,7 @@ The simplest remedy is that which is proposed by Prof. v. Wilamowitz-Möllendorf
 The first ἐπεισόδιον falls into two principal parts. In the first (201—332), the hero's plight is made clear by the exchange of tidings between Tecmessa and the Chorus, each learning what the other has to tell. In the second part (333—595), Ajax himself speaks with the Chorus and Tecmessa; his words foreshadow a resolve to die. The first part opens with a kommos between the Chorus and Tecmessa (201—262); the second, with a kommos between the Chorus and Ajax (348—429).
 
 ## 201
-**ναὸς ἀρωγοὶ**, i.e., rendering service in it; Ajax addresses them as γένος ναΐας ἀρωγὸν τέχνας (356). The *Iliad* (2. 557) assigns twelve ships to Ajax.
+**ναὸς ἀρωγοὶ**, *i.e.*, rendering service in it; Ajax addresses them as γένος ναΐας ἀρωγὸν τέχνας (356). The *Iliad* (2. 557) assigns twelve ships to Ajax.
 
 ## 202
 **γενεᾶς**: for the gen., cp. Plat. *Prot.* 316B Ἀπολλοδώρου υἱός, οἰκίας μεγάλης.
@@ -756,12 +756,12 @@ Salamis is in this play a kingdom independent of Athens, but the Salaminians are
 **ὠμοκρατὴς** denotes the rugged, massive, untamed strength of Ajax, and is meant to suggest a contrast with his present affliction; so 548 ὠμοῖς..νόμοις, 885 ὠμόθυμος, 931 ὠμόφρων. (The word was absurdly taken by some to mean, ‘with strong shoulders,’—as the *Iliad* mentions his εὐρέας ὤμους, 3. 227.)
 
 ## 206 f.
-**θολερῷ** (θολός, ὁ, mud), ‘turbid,’ with ref. to his clouded mind: cp. Her. 4. 53 (of a river) ῥέει τε καθαρὸς παρὰ θολεροῖσι. So Aesch. *P. V.* 885 θολεροὶ δὲ λόγοι παίουδ' εἰκῇ | στυγνῆς πρὸς κύμασιν ἄτης,—words turbid with passion.— **χειμῶνι**: cp. Soph. *Ph.* 1194 ἀλύοντα χειμερίῳ | λύπᾳ: ib. 1460 χειμαζομένῳ.
+**θολερῷ** (θολός, ὁ, mud), ‘turbid,’ with ref. to his clouded mind: cp. Her. 4. 53 (of a river) ῥέει τε καθαρὸς παρὰ θολεροῖσι. So Aesch. *P. V.* 885 θολεροὶ δὲ λόγοι παίουδ' εἰκῇ | στυγνῆς πρὸς κύμασιν ἄτης,—words turbid with passion.— **χειμῶνι**: cp. Soph. *Ph.* 1194 ἀλύοντα χειμερίῳ | λύπᾳ: *ib.* 1460 χειμαζομένῳ.
 
-**νοσήσας**, ‘stricken’: this aor., in the ‘ingressive’ sense (‘*fell* ill’), is frequent in Attic: e.g. Thuc. 1. 138 § 4 νοσήσας τελευτᾷ τὸν βίον: Plat. *Tim.* p. 84 C ὅταν..νοσήσῃ.
+**νοσήσας**, ‘stricken’: this aor., in the ‘ingressive’ sense (‘*fell* ill’), is frequent in Attic: *e.g.* Thuc. 1. 138 § 4 νοσήσας τελευτᾷ τὸν βίον: Plat. *Tim.* p. 84 C ὅταν..νοσήσῃ.
 
 ## 208 f.
-**τί δὲ βάρος ἐνήλλακται νὺξ ἥδε τῆς ἡμερίας**; ‘And what heaviness (heavy trouble) has the past night *received in exchange* for the (already grievous) fortune of the day?’ **ἐνήλλακται** in a midd. sense; cp. Diod. frag. 60 ἐγένετο βασίλισσα ἰδιωτικῆς ἑστίας ἐξηλλαγμένη ἡγεμονίαν. The fact that ἤλλαγμαι has more often a passive sense in Attic is quite compatible with such an exceptional use; thus Antiphon can say, τὸν πλοῦν πεποιημένος (or. 5 § 21), and τετιμωρημένος ἑαυτόν ( β. β. § 8). But it is more doubtful whether such a notion as μοίρας, πράξεως, or καταστάσεως can here be supplied with τῆς ἡμερίας. The parallels adduced are such as ἡ ἑῴα, ἡ ἑωθινή, ἡ ὀψία, ἡ πρωΐα, τὴν θερείην (‘in summer,’ Her. 1. 189), τὴν χειμερινήν (id. 1. 202). There was indeed a tendency in Greek idiom to make substantives out of fem. adjectives; i.e. to use the fem. adj. alone, whenever the subst. (such as γῆ, ὁδός, ὥρα, μοῖρα, δίκη) could readily be understood. And that tendency must be considered here.
+**τί δὲ βάρος ἐνήλλακται νὺξ ἥδε τῆς ἡμερίας**; ‘And what heaviness (heavy trouble) has the past night *received in exchange* for the (already grievous) fortune of the day?’ **ἐνήλλακται** in a midd. sense; cp. Diod. frag. 60 ἐγένετο βασίλισσα ἰδιωτικῆς ἑστίας ἐξηλλαγμένη ἡγεμονίαν. The fact that ἤλλαγμαι has more often a passive sense in Attic is quite compatible with such an exceptional use; thus Antiphon can say, τὸν πλοῦν πεποιημένος (or. 5 § 21), and τετιμωρημένος ἑαυτόν ( β. β. § 8). But it is more doubtful whether such a notion as μοίρας, πράξεως, or καταστάσεως can here be supplied with τῆς ἡμερίας. The parallels adduced are such as ἡ ἑῴα, ἡ ἑωθινή, ἡ ὀψία, ἡ πρωΐα, τὴν θερείην (‘in summer,’ Her. 1. 189), τὴν χειμερινήν (*id.* 1. 202). There was indeed a tendency in Greek idiom to make substantives out of fem. adjectives; *i.e.* to use the fem. adj. alone, whenever the subst. (such as γῆ, ὁδός, ὥρα, μοῖρα, δίκη) could readily be understood. And that tendency must be considered here.
 
 No tolerable emendation has been made. **ἠρεμίας**, ‘stillness,’ though possible, is very feeble. **εὐμαρίας** (=εὐμαρείας), which Nauck adopts, is directly contrary to the sense; for, even *before* the dread rumour arose, the Chorus had been disquieted by the long seclusion and inaction of Ajax (194 f.). **ἀμμορίας**, without some further definition (such as τῆς πρὶν), would be too vague. And the words **νὺξ ἥδε** suggest that there was some mention of *day.* On the whole, the traditional reading, though difficult, is less open to objection than any remedy which has been proposed.
 
@@ -775,7 +775,7 @@ Lobeck remarks that the father of Tecmessa is called *Teuthras* by Malela and ot
 ## 211
 **λέχος**, concubine, ὁμευνέτις (501): being δουριάλωτος, she is δούλη (489). Cp. *Tr.* 360 κρύφιον ὡς ἔχοι λέχος (Iolè).
 
-**σε … στέρξας ἀνέχει**: lit., ‘having conceived a love for thee, he *upholds* thee,’—i.e., ‘he is constant in his affection for thee’: so Eur. *Hec.* 123 βάκχης ἀνέχων λέκτρ' Ἀγαμέμνων, ‘constant to’ her bed. (In Soph. *O. C.* 674, where τὸν οἰνῶπ' ἀνέχουσα κισσὸν is the common reading, we should probably read τὸν οἰνωπὸν ἔχουσα κισσόν.)
+**σε … στέρξας ἀνέχει**: lit., ‘having conceived a love for thee, he *upholds* thee,’—*i.e.*, ‘he is constant in his affection for thee’: so Eur. *Hec.* 123 βάκχης ἀνέχων λέκτρ' Ἀγαμέμνων, ‘constant to’ her bed. (In Soph. *O. C.* 674, where τὸν οἰνῶπ' ἀνέχουσα κισσὸν is the common reading, we should probably read τὸν οἰνωπὸν ἔχουσα κισσόν.)
 
 ## 213
 **ὑπείποις**, ‘hint,’ ‘give a clue’: they do not yet surmise, from her words in 205—207, with what terrible fulness of detail she can speak.
@@ -805,14 +805,14 @@ A strophe, to which vv. 245—256 form the antistrophe. For the metres, see Metr
 
 **αἴθονος**, ‘fiery’; cp. 1088: Aesch. *Theb.* 448 αἴθων..λῆμα: in v. 147 the word is applied to a bright sword. This inflexion (instead of αἴθωνος) occurs elsewhere only in Hes. *Op.* 361 αἴθονα λιμόν (Bergk's correction of the MS. αἴθοπα), a reading which is made certain by Aeschin. or. 3 § 184 λιμόν τ' αἴθωνα κρατερόν τ' ἐπάγοντες Ἄρηα, and Callim. *Hymn. Cer.* 68 ἔμβαλε λιμόν, | αἴθωνα, κρατερόν: where the fig. sense of the epithet is ‘fierce.’
 
-The v.l. **αἴθοπος** is impossible here, as in the verse of Hesiod; it could refer only to complexion. Cp. Eustathius p. 862. 10 φέρεται αἴθων βοῦς καὶ σίδηρος καὶ ἄνθρωπος καὶ λέων· αἴθοψ δὲ οὐδεὶς αὐτῶν λέγοιτ' ἄν, ἀλλὰ τοὔνομα οἴνῳ μέλανι ἐπιτίθεται. The variant was doubtless due, in both passages, to the rarity, for αἴθων, of the inflexion with **ο**: which is illustrated by the dat. pl. νήφοσι in Theognis 481, and by such alternative forms of the gen. as Αἴσονος, Ἀκταίονος, etc.
+The *v.l.* **αἴθοπος** is impossible here, as in the verse of Hesiod; it could refer only to complexion. Cp. Eustathius p. 862. 10 φέρεται αἴθων βοῦς καὶ σίδηρος καὶ ἄνθρωπος καὶ λέων· αἴθοψ δὲ οὐδεὶς αὐτῶν λέγοιτ' ἄν, ἀλλὰ τοὔνομα οἴνῳ μέλανι ἐπιτίθεται. The variant was doubtless due, in both passages, to the rarity, for αἴθων, of the inflexion with **ο**: which is illustrated by the dat. pl. νήφοσι in Theognis 481, and by such alternative forms of the gen. as Αἴσονος, Ἀκταίονος, etc.
 
 **ἄτλατον οὐδὲ φευκτάν**, unendurable, *and yet* one from which there is no escape: for οὐδέ as=ἀλλ' οὐ, cp. *El.* 132, El. 1034.
 
 ## 225
 **τῶν μεγάλων Δαναῶν** are clearly not the Greek *chiefs* (οἱ μεγάλοι βασιλῆς, 189), but the Greek army at large. It is the popular fury that the Salaminians are now thinking of: in 228 περίφαντος..θανεῖται alludes to public stoning, the λιθόλευστον Ἄρη of v. 253.
 
-**κλῃζομέναν**, noised abroad by them: cp. *Tr.* 659 κλῄζεται θυτήρ, he is *rumoured* to be sacrificing; and ib. 1268 κλῃζόμενοι | πατέρες.
+**κλῃζομέναν**, noised abroad by them: cp. *Tr.* 659 κλῄζεται θυτήρ, he is *rumoured* to be sacrificing; and *ib.* 1268 κλῃζόμενοι | πατέρες.
 
 ## 226
 **ὁ μέγας μῦθος**: cp. 173 ὦ μεγάλα φάτις (n.).
@@ -838,7 +838,7 @@ The v.l. **αἴθοπος** is impossible here, as in the verse of Hesiod; it c
 **ἤλυθε**. This form, not used by Aesch. , occurs only here in Soph. ; Eur. has it not only in lyrics ( Eur. *Or.* 813, etc.), but also in dialogue ( Eur. *El.* 598, Eur. *Tro.* 374).
 
 ## 235
-**ὧν** (neut.), instead of ἧς, since **ποίμνην** is a ‘noun of multitude’; cp. *O. C.* 1070 ἄμβασις, οἳ κ.τ.λ. (n.). Then **τὴν μὲν** (sc. ποίμνην) follows ὧν, as it might have followed ἧς: cp. Thuc. 1. 2 § 3 τῆς γῆς ἡ ἀρίστη, ib. 5 § 1 τὸν πλεῖστον τοῦ βίου. Finally, **τὰ δὲ** (sc. βοτὰ) refers to ὧν.—The antithesis to τὴν *μὲν* is given by τὰ *δέ*, not (as some have thought) by δύο *δ'*.
+**ὧν** (neut.), instead of ἧς, since **ποίμνην** is a ‘noun of multitude’; cp. *O. C.* 1070 ἄμβασις, οἳ κ.τ.λ. (n.). Then **τὴν μὲν** (*sc.* ποίμνην) follows ὧν, as it might have followed ἧς: cp. Thuc. 1. 2 § 3 τῆς γῆς ἡ ἀρίστη, *ib.* 5 § 1 τὸν πλεῖστον τοῦ βίου. Finally, **τὰ δὲ** (*sc.* βοτὰ) refers to ὧν.—The antithesis to τὴν *μὲν* is given by τὰ *δέ*, not (as some have thought) by δύο *δ'*.
 
 **ἔσω**, ‘within the house,’ refers to all the incidents that followed his arrival (ἤλυθε). Schneidewin wrongly joins **ἔσω σφάζε** (‘stach tot’), comparing Aesch. *Ag.* 1343 πέπληγμαι καιρίαν πληγὴν ἔσω. But σφάζε denotes ‘cutting the throat,’ not ‘stabbing’; cp. 298.
 
@@ -855,9 +855,9 @@ If the two rams are the two Atreidae, then Odysseus is ignored here. This would 
 **κεφαλὴν καὶ γλῶσσαν ἄκραν**. He first shears off the head; then, still holding it, while the carcass drops to the ground, cuts off the end of the tongue; and next hurls both head and tongue from him. ἄκρα γλῶσσα can mean the extremity, the tip, of the tongue, as in Theocr. 9. 30 ἐπὶ γλώσσας ἄκρας: so in *Ph.* 748 ἄκρον πόδα is the heel. It could not mean, ‘the tongue from the roots,’ γλῶσσαν πρυμνήν ( *Il.* 5. 292).—It was customary to cut out the tongues of animals slain for sacrifice, and to offer them separately ( *Od.* 3. 332: Ar. *Pax* 1060). But I doubt whether there is any reference here to the sacrificial custom; the act of Ajax rather expresses merely fierce hatred of a slanderer.
 
 ## 239
-**ῥιπτεῖ** has the support of the MSS., not only here, but also in *Ant.* 131, *Tr.* 780. In the latter place, it is confirmed by Athenaeus p. 65 F, for he has ῥιπτοῦντα in his paraphrase. ῥιπτεῖν, used only in pres. and impf., was current in Attic ( Ar. *Eccl.* 507 ῥιπτεῖτε χλαίνας). It has good authority in Thuc. 5. 103 § 1 (ἀναρριπτοῦσι), and *Cyneg.* 9. 20 (ῥιπτοῦσι). In Tragedy it is nowhere required by metre; and Elmsley (on Eur. *Heracl.* 150) supposes that the tragic poets used only ῥίπτω. No difference of sense between ῥιπτέω and ῥίπτω can be clearly shown; though it has been fancied that ῥιπτέω implies the frequency or vehemence of the act (iacto as compared with iacio).
+**ῥιπτεῖ** has the support of the MSS., not only here, but also in *Ant.* 131, *Tr.* 780. In the latter place, it is confirmed by Athenaeus p. 65 F, for he has ῥιπτοῦντα in his paraphrase. ῥιπτεῖν, used only in pres. and impf., was current in Attic ( Ar. *Eccl.* 507 ῥιπτεῖτε χλαίνας). It has good authority in Thuc. 5. 103 § 1 (ἀναρριπτοῦσι), and *Cyneg.* 9. 20 (ῥιπτοῦσι). In Tragedy it is nowhere required by metre; and Elmsley (on Eur. *Heracl.* 150) supposes that the tragic poets used only ῥίπτω. No difference of sense between ῥιπτέω and ῥίπτω can be clearly shown; though it has been fancied that ῥιπτέω implies the frequency or vehemence of the act (*iacto* as compared with *iacio*).
 
-**ὀρθὸν ἄνω … δήσας**: i.e., making the animal stand on its hind legs, with its forefeet lashed *up* to the pillar—as if they were the hands of a human prisoner.
+**ὀρθὸν ἄνω … δήσας**: *i.e.*, making the animal stand on its hind legs, with its forefeet lashed *up* to the pillar—as if they were the hands of a human prisoner.
 
 **κίονι**, lit., ‘*at* a pillar,’ a dat. of place (cp. *El.* 174 n.); not, ‘*to* a pillar’ (πρὸς κίονα, El. 108).
 
@@ -875,43 +875,43 @@ If the two rams are the two Atreidae, then Odysseus is ignored here. This would 
 ## 245 ff.
 **ἤδη τοι κρᾶτα**. The reading of the best MSS., both here and in the strophe (221 f.), can be retained, if in the strophe we make the slight change of **ἀνδρὸς** to **ἀνέρος**. If, on the other hand, we strike out **τοι** here, then we must also change **κρᾶτα** to **κάρα**, or else, keeping κρᾶτα, change **ἐδήλωσας** in 221 to **ἔδειξας** or **ἔφηνας**. (The impf. **ἐδήλους** would be unsuitable.) Here **τοι** is quite in place, as introducing the comment. **ἤτοι**, as a correction of ἤδη τοι, is doubly impro bable, since ἤδη is emphatic, and ἤτοι would be somewhat weak. See Appendix.
 
-**κρᾶτα … κρυψάμενον**, in token of grief and shame. Plat. *Phaedo* p. 117 C ἐγκαλυψάμενος ἀπέκλαιον ἐμαυτόν: Aeschin. or. 2 § 111 τά γε δὴ καταγέλαστα παντελῶς, ἐφ' οἷς οἱ συμπρέσβεις ἐνεκαλύψαντο. Liv. 4. 12 Multi ex plebe spe amissa..capitibus obvolutis se in Tiberim praecipitaverunt.
+**κρᾶτα … κρυψάμενον**, in token of grief and shame. Plat. *Phaedo* p. 117 C ἐγκαλυψάμενος ἀπέκλαιον ἐμαυτόν: Aeschin. or. 2 § 111 τά γε δὴ καταγέλαστα παντελῶς, ἐφ' οἷς οἱ συμπρέσβεις ἐνεκαλύψαντο. Liv. 4. 12 *Multi ex plebe spe amissa..capitibus obvolutis se in Tiberim praecipitaverunt.*
 
 **ποδοῖν κλοπὰν ἀρέσθαι**: cp. Aesch. *Pers.* 481 οὐκ εὔκοσμον αἴρονται φυγήν: [Eur. ] *Rhes.* 54 (νυκτέρῳ πλάτῃ) αἴρεσθαι φυγήν. The verb here means, ‘to take up,’ ‘betake oneself to’; not ‘to win,’ ‘secure’: see Appendix on 75. For **κλοπὰν**, cp. Eur. *Or.* 1499 ἐξέκλεπτον ἐκ δόμων πόδα.
 
 ## 247
 [249 f.] **θοὸν**, properly the epithet of **εἰρεσίας**, is transferred to **ζυγὸν** (cp. *Ant.* 794 n.): ζυγὸν ἕζομαι, as Aesch. *Ag.* 183 σέλμα..ἡμένων, Eur. *Or.* 956 τρίποδα καθίζων.
 
-**ναῒ μεθεῖναι**, ‘to let the ship go,’— ἡνίας, or the like, being understood. Cp. Eur. fr. 779 κρούσας δὲ πλευρὰ πτεροφόρων ὀχημάτων | μεθῆκεν (‘he let his horses go’)· αἱ δ' ἔπταντ' ἐπ' αἰθέρος πτυχάς. The elliptical use of μεθιέναι, with dat., in this sense, seems to be rare: but it is parallel with that of ἐφιέναι as=indulgere (e.g. Plat. *Rep.* 388E ὅταν τις ἐφιῇ..γέλωτι).
+**ναῒ μεθεῖναι**, ‘to let the ship go,’— ἡνίας, or the like, being understood. Cp. Eur. fr. 779 κρούσας δὲ πλευρὰ πτεροφόρων ὀχημάτων | μεθῆκεν (‘he let his horses go’)· αἱ δ' ἔπταντ' ἐπ' αἰθέρος πτυχάς. The elliptical use of μεθιέναι, with dat., in this sense, seems to be rare: but it is parallel with that of ἐφιέναι as=*indulgere* (*e.g.* Plat. *Rep.* 388E ὅταν τις ἐφιῇ..γέλωτι).
 
 ## 251
 **τοίας**: 164 n.
 
-**ἐρέσσουσιν**, ‘ply,’—properly, to ply the oar; then, to put anything in lively motion; *Ant.* 158 μῆτιν ἐρέσσων, ‘revolving’ thoughts in the mind. Cp. the elegiac poet Dionysius ap. Athen. p. 669 A εἰρεσίῃ γλώσσης ἀποπέμψομεν εἰς μέγαν αἶνον (‘by our *swift strains* will we waft him to the haven of fame’).
+**ἐρέσσουσιν**, ‘ply,’—properly, to ply the oar; then, to put anything in lively motion; *Ant.* 158 μῆτιν ἐρέσσων, ‘revolving’ thoughts in the mind. Cp. the elegiac poet Dionysius *ap.* Athen. p. 669 A εἰρεσίῃ γλώσσης ἀποπέμψομεν εἰς μέγαν αἶνον (‘by our *swift strains* will we waft him to the haven of fame’).
 
-**δικρατεῖς Ἀτρεῖδαι**, the two princely Atreidae: cp. 390 τούς τε δισσάρχας..βασιλῆς: *O. C.* 1055 τὰς διστόλους | ...ἀδελφὰς, i.e., the two journeying sisters; and ib. 17 n.
+**δικρατεῖς Ἀτρεῖδαι**, the two princely Atreidae: cp. 390 τούς τε δισσάρχας..βασιλῆς: *O. C.* 1055 τὰς διστόλους | ...ἀδελφὰς, *i.e.*, the two journeying sisters; and *ib.* 17 n.
 
 ## 252 ff.
 **πεφόβημαι**: 139 n.
 
-**λιθόλευστον Ἄρη**, a violent death by stoning; cp. *Ant.* 36 φόνον..δημόλευστον. Aesch. *Ag.* 1616 δημορριφεῖς..λευσίμους ἀράς. When, as here, Ἄρης stands for the notion of a ‘violent death,’ it always, of course, implies an onslaught; as in Soph. *O. C.* 1679 ὅτῳ μήτ' Ἄρης | μήτε πόντος ἀντέκυρσεν (death in battle, or by drowning): Aesch. *P. V.* 860 θηλυκτόνῳ | Ἄρει δαμέντων, i.e., by the onslaught of murderous women. (In Pind. *P.* 11. 36 χρονίῳ σὺν Ἄρει is best taken, with Gildersleeve, as =‘by tardy help of Ares.’) The initial A is long here (answering to the penult. of συγκατακτὰς in 230), as in 614, Soph. *Ant.* 139, Soph. *El.* 96.
+**λιθόλευστον Ἄρη**, a violent death by stoning; cp. *Ant.* 36 φόνον..δημόλευστον. Aesch. *Ag.* 1616 δημορριφεῖς..λευσίμους ἀράς. When, as here, Ἄρης stands for the notion of a ‘violent death,’ it always, of course, implies an onslaught; as in Soph. *O. C.* 1679 ὅτῳ μήτ' Ἄρης | μήτε πόντος ἀντέκυρσεν (death in battle, or by drowning): Aesch. *P. V.* 860 θηλυκτόνῳ | Ἄρει δαμέντων, *i.e.*, by the onslaught of murderous women. (In Pind. *P.* 11. 36 χρονίῳ σὺν Ἄρει is best taken, with Gildersleeve, as =‘by tardy help of Ares.’) The initial A is long here (answering to the penult. of συγκατακτὰς in 230), as in 614, Soph. *Ant.* 139, Soph. *El.* 96.
 
 The accus. is, in the first place, object to **πεφόβημαι**, but is felt also as a cognate acc. to **ξυναλγεῖν** (like ἄλγος ἀλγῶ), and could be, further, an acc. of the inner object with **τυπείς** ( *Il.* 24. 420 ἕλκεα... ὅσσ' ἐτύπη): it is one of those cumulative constructions which Greek idiom (esp. in poetry) favours. Note that a simple inf. after φοβοῦμαι usu. denotes what one is afraid *to do* ( Aesch. *Ch.* 46 φοβοῦμαι δ' ἔπος τόδ' ἐκβαλεῖν), but can also denote what one fears *to suffer*: Plat. *Phaedo* p. 68 E φοβούμενοι..ἡδονῶν στερηθῆναι.
 
 **αἶσ' ἄπλατος**, a fate such that no one can *approach* him, or stand at his side, without being involved in his doom. The Nemean lion is ἄπλατον θρέμμα, *Tr.* 1093.
 
 ## 257
-The words **λαμπρᾶς ἄτερ στεροπῆς** go with **λήγει**, not with **ᾄξας**: they stand first, because they express the foremost thought,—viz., that the violence of his frenzy is past. ‘Attended by the lightning-flash no more, the storm in his soul is subsiding, after a sharp outburst (ᾄξας ὀξύς), like the wind of the south.’ A key to these much-discussed verses may be found, I think, in a passage which seems to have been overlooked. The Greeks had observed that, when the Νότος was a stormy wind, it was accompanied by clouds; but, when gentler, by a clear sky: *Problem.* 26. 20 (p. 942 *a* 34) ὁ νότος, ὅταν μὲν ἐλάττων ᾖ, αἴθριός ἐστιν, ὅταν δὲ μέγας, νεφώδης. The mood of Ajax is now once more becoming αἴθριος, like the milder south-wind; lately it was like a fierce storm from the south, and νεφώδης, dark with the clouds from which the στεροπή of his madness was flashing. Compare the description of the mad Ajax by Arctînus in the *Iliupersis* (ap. Eustath. p. 859. 47), ὄμματά τ' ἀστράπτοντα βαρυνόμενόν τε νόημα.— For other views of this passage, and the attempts to amend it, see Appendix.
+The words **λαμπρᾶς ἄτερ στεροπῆς** go with **λήγει**, not with **ᾄξας**: they stand first, because they express the foremost thought,—viz., that the violence of his frenzy is past. ‘Attended by the lightning-flash no more, the storm in his soul is subsiding, after a sharp outburst (ᾄξας ὀξύς), like the wind of the south.’ A key to these much-discussed verses may be found, I think, in a passage which seems to have been overlooked. The Greeks had observed that, when the Νότος was a stormy wind, it was accompanied by clouds; but, when gentler, by a clear sky: *Problem.* 26. 20 (p. 942 *a* 34) ὁ νότος, ὅταν μὲν ἐλάττων ᾖ, αἴθριός ἐστιν, ὅταν δὲ μέγας, νεφώδης. The mood of Ajax is now once more becoming αἴθριος, like the milder south-wind; lately it was like a fierce storm from the south, and νεφώδης, dark with the clouds from which the στεροπή of his madness was flashing. Compare the description of the mad Ajax by Arctînus in the *Iliupersis* (*ap.* Eustath. p. 859. 47), ὄμματά τ' ἀστράπτοντα βαρυνόμενόν τε νόημα.— For other views of this passage, and the attempts to amend it, see Appendix.
 
 ## 260 ff.
 **οἰκεῖα πάθη**, those which one brings on himself: so *El.* 215 οἰκείας εἰς ἄτας | ἐμπίπτεις.
 
-**παραπράξαντος**, having acted ‘at the side,’ i.e., ‘having had a hand in the matter,’—‘having contributed to the result.’ This sense nowhere else belongs to παραπράσσω (which in Her. 5. 45 means ‘to do something beyond’ one's proper task, and in Plut. *Agis* 16 ‘to exact unjustly’); but for the force of the prep., cp. παραίτιος ( Aesch. *Ch.* 910, etc.), as=‘partly the cause.’— Not, ‘having done *amiss*’ (=παραβάντος).
+**παραπράξαντος**, having acted ‘at the side,’ *i.e.*, ‘having had a hand in the matter,’—‘having contributed to the result.’ This sense nowhere else belongs to παραπράσσω (which in Her. 5. 45 means ‘to do something beyond’ one's proper task, and in Plut. *Agis* 16 ‘to exact unjustly’); but for the force of the prep., cp. παραίτιος ( Aesch. *Ch.* 910, etc.), as=‘partly the cause.’— Not, ‘having done *amiss*’ (=παραβάντος).
 
 **ὑποτείνει**: lit., ‘lays to’ (or ‘beneath’) the mind: [Dem. ] or. 13 § 19 τὰς ἐλπίδας ὑμῖν ὑποτείνων.
 
 ## 263
-**πέπαυται**, sc. ὁ Αἴας τῆς νόσου: cp. 279. The subject to **εὐτυχεῖν** is rather ἡμᾶς than αὐτόν: the thought is, δοκῶ ὅτι εὐτυχοῖμεν ἄν. Cp. *O. T.* 87 λέγω γὰρ καὶ τὰ δύσφορʼ, εἰ τύχοι | κατ' ὀρθὸν ἐξελθόντα, πάντ' ἂν εὐτυχεῖν. In the omission of the subject to the inf., as in πέπαυται and in τοῦ κακοῦ, there is a shade of reticence which suits the recent sense of horror in the speaker's mind.
+**πέπαυται**, *sc.* ὁ Αἴας τῆς νόσου: cp. 279. The subject to **εὐτυχεῖν** is rather ἡμᾶς than αὐτόν: the thought is, δοκῶ ὅτι εὐτυχοῖμεν ἄν. Cp. *O. T.* 87 λέγω γὰρ καὶ τὰ δύσφορʼ, εἰ τύχοι | κατ' ὀρθὸν ἐξελθόντα, πάντ' ἂν εὐτυχεῖν. In the omission of the subject to the inf., as in πέπαυται and in τοῦ κακοῦ, there is a shade of reticence which suits the recent sense of horror in the speaker's mind.
 
 **φρούδου γὰρ** κ.τ.λ.: the gen. is not absol., but depends on **λόγος**. Cp. fr. 346 μύχθου γὰρ οὐδεὶς τοῦ παρελθόντος λόγος. Their thought is that, if he is himself again, his value to the Greeks will plead for pardon of his frenzy.
 
@@ -927,7 +927,7 @@ The words **κοινὸς ἐν κοινοῖσι** mean strictly, ‘a partner 
 ## 269
 Though **οὐ νοσοῦντος** (gen. abs.) is an easy and specious conjecture, yet **οὐ νοσοῦντες** is better; because (1) it gives a rhetorical antithesis to ἀτώμεσθα which suits her point; and (2) it suggests the identity of their interest with that of Ajax. The figurative sense of νοσεῖν is often found in juxtaposition with the literal, as in *O. T.* 60 νοσεῖτε πάντες, καὶ νοσοῦντες, ὡς ἐγὼ | οὐκ ἔστιν ὑμῶν ὅστις ἐξ ἴσου νοσεῖ.
 
-**ἀτώμεσθα**, i.e. we are worse off than before: the word is a forcible one (cp. 384), but occurs elsewhere also where the sense is only comparative: *Ant.* 17 οὔτ' εὐτυχοῦσα μᾶλλον οὔτ' ἀτωμένη: cp. ib. 314.
+**ἀτώμεσθα**, *i.e.* we are worse off than before: the word is a forcible one (cp. 384), but occurs elsewhere also where the sense is only comparative: *Ant.* 17 οὔτ' εὐτυχοῦσα μᾶλλον οὔτ' ἀτωμένη: cp. *ib.* 314.
 
 ## 270
 **πῶς … ὅπως**. The language here, to which groundless exception has been taken (cr. n.), expresses the musing wonder of simple minds.
@@ -935,7 +935,7 @@ Though **οὐ νοσοῦντος** (gen. abs.) is an easy and specious conject
 ## 272
 **οἷσιν εἴχετ' ἐν κακοῖς**=κακοῖς ἐν οἷς εἴχετο: cp. 1144: Her. 9. 37 ἐν τούτῳ τῷ κακῷ ἐχόμενος. The antecedent κακοῖς is drawn into the relative clause, though here its case is not thereby affected: cp. *Ant.* 404 θάπτουσαν ὃν σὺ τὸν νεκρὸν | ἀπεῖπας.
 
-**φρονοῦντας** is far better than the v.l. **βλέποντας**: it hints what is meant by the vague **κακοῖς**.
+**φρονοῦντας** is far better than the *v.l.* **βλέποντας**: it hints what is meant by the vague **κακοῖς**.
 
 ## 274
 **κἀνέπνευσε**: after the actual cessation (**ἔληξε**), a brief space is still needed to permit ἀναπνοή. Cp. *Il.* 11. 382 ἀνέπνευσαν κακότητος: and n. on *O. C.* 1113 f.
@@ -955,7 +955,7 @@ Instead of **κεῖνος**, we might have looked for αὐτός: but the form
 ## 278 ff.
 **δέδοικα μὴ … ἥκῃ**. Though **ἥκει** is tenable (‘I fear that it certainly has come’), **ἥκῃ** seems better, since there is still a real uncertainty and anxiety in their minds. See on *El.* 580. (**ἥκοι**, which was the common reading, is of course impossible here.)
 
-**πῶς γάρ**, sc. ἄλλως ἔχει; Normally, πῶς γάρ follows a negative statement, as in *El.* 911 οὐδ' αὖ σύ· πῶς γάρ; (sc. ἔδρασας): while πῶς γὰρ οὔ follows an affirmative, as ib. 1307 οἶσθα μὲν τἀνθένδε, πῶς γὰρ οὔ; The use of πῶς γάρ here is thus peculiar, though the sense is clear.
+**πῶς γάρ**, *sc.* ἄλλως ἔχει; Normally, πῶς γάρ follows a negative statement, as in *El.* 911 οὐδ' αὖ σύ· πῶς γάρ; (*sc.* ἔδρασας): while πῶς γὰρ οὔ follows an affirmative, as *ib.* 1307 οἶσθα μὲν τἀνθένδε, πῶς γὰρ οὔ; The use of πῶς γάρ here is thus peculiar, though the sense is clear.
 
 **εἰ πεπαυμένος** κ.τ.λ. The fact that despair has succeeded to frenzy argues that he is under the spell of some angry god. When the malady passed away, his mind ought to have recovered a healthy tone. They had already hinted at a θεία νόσος as a possibility (186).
 
@@ -976,19 +976,19 @@ From the Homeric ἔπτατο ( *Il.* 13. 592, etc.) Tragedy borrows this non-t
 ## 285
 **κεῖνος γὰρ**: here γὰρ merely prefaces the narrative ( *O. T.* 277 n.).
 
-**ἄκρας νυκτός**, as the context shows, means here, ‘at dead of night.’ The only other instance of ἄκρος so used (natural though the use is) seems to be Theocr. II. 36 τυρὸς δ' οὐ λείπει μ' οὔτ' ἐν θέρει οὔτ' ἐν ὀπώρῃ | οὐ χειμῶνος ἄκρω | (‘depth of winter’). Elsewhere ἄκρα νύξ means either (1) the beginning of night, nightfall, as in Aratus 775 ἄκρῃ νυκτί: or (2) the verge between night and dawn, as ib. 308 ἀκρόθι νυκτός. In Theophrastus *De Sign. Pluv.* 1. § 2 (p. 389 ed. Wimmer) the ἀκρόνυχοι ἀνατολαί of stars are their risings ὅταν ἅμα δυομένῳ ἀνατέλλῃ (τὰ ἄστρα), i.e. soon after sunset, at nightfall. The sense of ἀκρέσπερος varies like that of ἄκρα νύξ. In Hippocr. *Epidem.* 7. 653 ἀκρέσπερος φρίκη is a chill at the *approach* of evening (as Galen *Exeg.* p. 418 explains); while in Nicander *Ther.* 25 ἀκρέσπερος is explained by the schol. as=‘at the *close* of evening,’ ‘at nightfall.’ The latter is the sense of ἄκρᾳ σὺν ἑσπέρᾳ in Pindar *P.* 11. 10. [In *H. A.* 9. 34, p. 619 *b* 21, the words ἄχρις ἑσπερίου have been conjecturally changed to τὴν ἀρχέσπερον, from Athen. p. 353 B; or to τὴν ἀκρέσπερον: the sense required is ‘at nightfall.’]
+**ἄκρας νυκτός**, as the context shows, means here, ‘at dead of night.’ The only other instance of ἄκρος so used (natural though the use is) seems to be Theocr. II. 36 τυρὸς δ' οὐ λείπει μ' οὔτ' ἐν θέρει οὔτ' ἐν ὀπώρῃ | οὐ χειμῶνος ἄκρω | (‘depth of winter’). Elsewhere ἄκρα νύξ means either (1) the beginning of night, nightfall, as in Aratus 775 ἄκρῃ νυκτί: or (2) the verge between night and dawn, as *ib.* 308 ἀκρόθι νυκτός. In Theophrastus *De Sign. Pluv.* 1. § 2 (p. 389 ed. Wimmer) the ἀκρόνυχοι ἀνατολαί of stars are their risings ὅταν ἅμα δυομένῳ ἀνατέλλῃ (τὰ ἄστρα), *i.e.* soon after sunset, at nightfall. The sense of ἀκρέσπερος varies like that of ἄκρα νύξ. In Hippocr. *Epidem.* 7. 653 ἀκρέσπερος φρίκη is a chill at the *approach* of evening (as Galen *Exeg.* p. 418 explains); while in Nicander *Ther.* 25 ἀκρέσπερος is explained by the schol. as=‘at the *close* of evening,’ ‘at nightfall.’ The latter is the sense of ἄκρᾳ σὺν ἑσπέρᾳ in Pindar *P.* 11. 10. [In *H. A.* 9. 34, p. 619 *b* 21, the words ἄχρις ἑσπερίου have been conjecturally changed to τὴν ἀρχέσπερον, from Athen. p. 353 B; or to τὴν ἀκρέσπερον: the sense required is ‘at nightfall.’]
 
 ## 286
 **λαμπτῆρες**. These were braziers, raised on stands, in which pine-wood was burned, at once for light and for heat ( *Od.* 19. 64 φόως ἐμὲν ἠδὲ θέρεσθαι). *Od.* 18. 307 αὐτίκα λαμπτῆρας τρεῖς ἵστασαν ἐν μεγάροισιν, | ὄφρα φαείνοιεν· περὶ δὲ ξύλα κάγκανα θῆκαν, | .. καὶ δαΐδας μετέμισγον. As Helbig remarks (*Das Hom. Epos* p. 78), the smoke thus caused explains why the Homeric μέγαρον is sometimes called αἰθαλόεν ( *Il.* 2. 414, *Od.* 22. 239).
 
-For this mode of indicating the time, cp. Her. 7. 215 περὶ λύχνων ἁφάς: Propert. 3. 8. 1 ad extremas..lucernas: Aul. Gellius 3. 2 post primam facem.
+For this mode of indicating the time, cp. Her. 7. 215 περὶ λύχνων ἁφάς: Propert. 3. 8. 1 *ad extremas..lucernas*: Aul. Gellius 3. 2 *post primam facem.*
 
 ## 287
 **ἔγχος**: cp. 95.
 
 **ἐξόδους ἕρπειν**: cp. Thuc. 1. 15 § 2 ἐκδήμους στρατείας .. οὐκ ἐξῄεσαν.
 
-**κενάς**, i.e., with no apparent object; cp. *El.* 1054 θηρᾶσθαι κενά.
+**κενάς**, *i.e.*, with no apparent object; cp. *El.* 1054 θηρᾶσθαι κενά.
 
 ## 289 ff.
 The general word, **ἄκλητος**, is defined by the two clauses in apposition with it, οὔθ' ὑπ' ἀγγέλων κληθείς, οὔτε σάλπιγγός του κλύων. Here the double **οὔτε** is more emphatic than a double οὐδέ: with the latter, the sense would be, ‘uncalled, *and not* summoned,’ etc. Cp. *Tr.* 391 οὐκ ἐμῶν ὑπ' ἀγγέλων | ἀλλ' αὐτόκλητος. Aesch. *Cho.* 838 ἥκω μὲν οὐκ ἄκλητος, ἀλλ' ὑπάγγελος.
@@ -997,10 +997,10 @@ The general word, **ἄκλητος**, is defined by the two clauses in appositi
 
 **σάλπιγγος**: a non-Homeric trait; [see on 17](#17). Cp. fr. 357 ἀσάλπιγκτον ὥραν = μέσην νύκτα.
 
-**πᾶς εὕδει στρατός**. Cp. the phrases περὶ πρῶτον ὕπνον ( Thuc. 2. 2 § 1), nocte concubia ( Liv. 25. 9 § 8).
+**πᾶς εὕδει στρατός**. Cp. the phrases περὶ πρῶτον ὕπνον ( Thuc. 2. 2 § 1), *nocte concubia* ( Liv. 25. 9 § 8).
 
 ## 292
-**ὑμνούμενα**, decantata. Schol. ἀεὶ θρυλούμενα ὑπὸ πάντων ἀνθρώπων καὶ κοινά. Plat. *Rep.* p. 549 D καὶ ἄλλα δὴ ὅσα καὶ οἷα φιλοῦσιν αἱ γυναῖκες περὶ τῶν τοιούτων ὑμνεῖν. *Phorm.* 3. 2. 10 cantilenam eandem canis.
+**ὑμνούμενα**, *decantata.* Schol. ἀεὶ θρυλούμενα ὑπὸ πάντων ἀνθρώπων καὶ κοινά. Plat. *Rep.* p. 549 D καὶ ἄλλα δὴ ὅσα καὶ οἷα φιλοῦσιν αἱ γυναῖκες περὶ τῶν τοιούτων ὑμνεῖν. *Phorm.* 3. 2. 10 *cantilenam eandem canis.*
 
 **γυναιξὶ** κ.τ.λ.: cp. Eur. *Heracl.* 476 γυναικὶ γὰρ σιγή τε καὶ τὸ σωφρονεῖν | κάλλιστον. In Ar. *Lys.* 514 f. the Attic wife describes a like incident: τί δέ σοι ταῦτ' ; ἦ δ' ὃς ἂν ἁνήρ· | οὐ σιγήσει; κἀγὼ ʼσίγων.
 
@@ -1009,10 +1009,10 @@ The general word, **ἄκλητος**, is defined by the two clauses in appositi
 ## 294
 **μαθοῦσʼ**, literally, ‘having perceived’ hismood.
 
-**ἐσσύθη**=ἐσύθη, an epic license allowed in narrative. Cp. *Theog.* 183 ἀπέσσυθεν (3rd pl.). συθείς occurs in *O. C.* 119, and συθῶμεν ib. 1724: ἐσύθη in *Helen.* 1302 (lyr.).
+**ἐσσύθη**=ἐσύθη, an epic license allowed in narrative. Cp. *Theog.* 183 ἀπέσσυθεν (3rd pl.). συθείς occurs in *O. C.* 119, and συθῶμεν *ib.* 1724: ἐσύθη in *Helen.* 1302 (lyr.).
 
 ## 295
-**τὰς ἐκεῖ … πάθας**: briefly described by Athena, 55—60. The Chorus knew no details (230 f.). **τύχας** (cr. n.) is a weaker v.l. The fem. πάθη occurs also in *Ant.* 979 and *O. C.* 7.
+**τὰς ἐκεῖ … πάθας**: briefly described by Athena, 55—60. The Chorus knew no details (230 f.). **τύχας** (cr. n.) is a weaker *v.l.* The fem. πάθη occurs also in *Ant.* 979 and *O. C.* 7.
 
 ## 297
 **κύνας βοτῆρας**: schol. τοὺς ποιμενικοὺς κύνας· οὐ γὰρ ἀναιρεῖ κατὰ τὴν σκηνὴν ἄνθρωπον.
@@ -1020,11 +1020,11 @@ The general word, **ἄκλητος**, is defined by the two clauses in appositi
 **εὔερον** is a certain emendation of **εύκερων**, which was doubtless due to a reminiscence of v. 64. (Bellermann, who retains εὔκερων, refers it to the horns of the rams; while Prof. Campbell, who also keeps it, says, ‘The word describes all the cattle, small and great, excepting the bulls, which have been mentioned separately.’) The form εὔερος (Attic for εὔειρος). from εἶρος, ‘wool,’ occurs in *Tr.* 675 (οἰὸς εὐέρου) and is proved by metre in Ar. *Av.* 121. The mention of the shepherd's dogs is naturally followed by that of the sheep.
 
 ## 298 ff.
-**ηὐχένιζε** (a word not elsewhere found in classical Greek) means here, ‘beheaded,’ by a blow on the αὐχήν (cervix), or hinder part of the neck. (Cp. Pind. *P.* 2. 93 ἐπαυχένιον .. ζυγόν.) The Homeric δειρορομεῖν ( *Il.* 21. 89, etc.) may have suggested αὐχενίζειν.
+**ηὐχένιζε** (a word not elsewhere found in classical Greek) means here, ‘beheaded,’ by a blow on the αὐχήν (*cervix*), or hinder part of the neck. (Cp. Pind. *P.* 2. 93 ἐπαυχένιον .. ζυγόν.) The Homeric δειρορομεῖν ( *Il.* 21. 89, etc.) may have suggested αὐχενίζειν.
 
-**ἄνω τρέπων**, turning the heads of the victims upwards, so as to expose the throats to the sword. Cp. *Il.* 1. 459 αὐέρυσαν μὲν πρῶτα καὶ ἔσφαξαν καὶ ἔδειραν: where αὐέρυσαν is now explained as = ἀϝ-ϝέρυσαν, by assimilation for ἀν-ϝερ, ‘they *lifted up*’ the heads of the victims (not αὐ ἔρυσαν, ‘drew back,’ as it was formerly taken): see Leaf ad loc.
+**ἄνω τρέπων**, turning the heads of the victims upwards, so as to expose the throats to the sword. Cp. *Il.* 1. 459 αὐέρυσαν μὲν πρῶτα καὶ ἔσφαξαν καὶ ἔδειραν: where αὐέρυσαν is now explained as = ἀϝ-ϝέρυσαν, by assimilation for ἀν-ϝερ, ‘they *lifted up*’ the heads of the victims (not αὐ ἔρυσαν, ‘drew back,’ as it was formerly taken): see Leaf *ad loc.*
 
-**ἔσφαζε** (235), cut the σφαγή, iugulum. The whole neck is τράχηλος, collum.
+**ἔσφαζε** (235), cut the σφαγή, *iugulum.* The whole neck is τράχηλος, *collum.*
 
 **κἀρράχιζε**: [see on 56](#56).
 
@@ -1073,15 +1073,15 @@ The general word, **ἄκλητος**, is defined by the two clauses in appositi
 
 **ἐρειπίοις** is defined by **νεκρῶν**, wrecks consisting of corpses; and this phrase, again, by **ἀρνείου φόνου**, corpsewrecks of slain sheep. Thus both the genitives here serve to define; while in λείας..βουκόλων φρουρήματα (54), the first gen. defines, and the second is possessive. Cp. 465, 616 f. The phrase νεκρῶν ἐρείπια occurs also in Eur. fr. 266. 2; and χλανιδίων ἐρειπίοις (which seems to verge on bathos) in frag. incert. 7 (ed. Nauck).
 
-**ἐρειφθεὶς**: the pres. pass. ἐρείπεται (‘crashes down’) occurs in *O. C.* 1462; this aor., in Arrian *Anab.* 1. 21. 4 (of a tower) οὐδὲ..χαλεπῶς ἂν ἠρείφθη. *Ol.* 2. 47 has ἐριπέντι. The old v.l. **ἐρεισθεὶς** would mean, ‘supported on,’ but is wretchedly weak. The very fact that **ἐρειφθεὶς** follows **ἐρειπίοις**—that the slayer is prostrate among the slain—gives the word a singular force and pathos.
+**ἐρειφθεὶς**: the pres. pass. ἐρείπεται (‘crashes down’) occurs in *O. C.* 1462; this aor., in Arrian *Anab.* 1. 21. 4 (of a tower) οὐδὲ..χαλεπῶς ἂν ἠρείφθη. *Ol.* 2. 47 has ἐριπέντι. The old *v.l.* **ἐρεισθεὶς** would mean, ‘supported on,’ but is wretchedly weak. The very fact that **ἐρειφθεὶς** follows **ἐρειπίοις**—that the slayer is prostrate among the slain—gives the word a singular force and pathos.
 
 ## 310
-**ἀπρὶξ … συλλαβὼν**, tightly clutching: Plat. *Theaet.* 155 E οὗ ἂν δύνωνται ἀπρὶξ τοῖν χεροῖν λαβέσθαι. Cp. fr. 328. 3 τοῦ γε κερδαίνειν ὅμως | ἀπρὶξ ἔχονται. The word is from the rt. of πρίω, as=‘to grip’ (1030 n.), with euphonic *a*: Aesch. uses ἄπριγδα ( Aesch. *Pers.* 1057). Cp. the Latin phrase mordicus tenere.
+**ἀπρὶξ … συλλαβὼν**, tightly clutching: Plat. *Theaet.* 155 E οὗ ἂν δύνωνται ἀπρὶξ τοῖν χεροῖν λαβέσθαι. Cp. fr. 328. 3 τοῦ γε κερδαίνειν ὅμως | ἀπρὶξ ἔχονται. The word is from the rt. of πρίω, as=‘to grip’ (1030 n.), with euphonic *a*: Aesch. uses ἄπριγδα ( Aesch. *Pers.* 1057). Cp. the Latin phrase *mordicus tenere.*
 
 **ὄνυξι … χερί**, *with* the hand, *by* the nails; both datives are instrumental, but one (ὄνυξι) more closely defines the other; [see on 230](#230) f. (χερὶ..ξίφεσιν).
 
 ## 311
-**καὶ τὸν μὲν ἧστο πλεῖστον** κ.τ.λ. The bold order of words is explained by ἔπειτα in 312: i.e., the thought is; ‘for *one* part of the time—the longest —he sat mute; *then*,’ etc. By separating τὸν from πλεῖστον, the writer obtains the same effect as if he had said, καὶ πρῶτον μὲν καὶ τὸν πλεῖστον χρόνον κ.τ.λ.
+**καὶ τὸν μὲν ἧστο πλεῖστον** κ.τ.λ. The bold order of words is explained by ἔπειτα in 312: *i.e.*, the thought is; ‘for *one* part of the time—the longest —he sat mute; *then*,’ etc. By separating τὸν from πλεῖστον, the writer obtains the same effect as if he had said, καὶ πρῶτον μὲν καὶ τὸν πλεῖστον χρόνον κ.τ.λ.
 
 ## 312
 **τὰ δείν' … ἔπη**, ‘*those* dread threats’ (which still haunt my memory): cp. 650, 1226: Soph. *Ph.* 180 ποῦ δʼ, ὃς τὰ δεινὰ τῇδ' ἐφυβρίζει πόλει | Καπανεύς; ‘*those* dread vaunts’ (of which we have heard). See Soph. *Tr.* 476, and Appendix there, p. 192.
@@ -1096,7 +1096,7 @@ The general word, **ἄκλητος**, is defined by the two clauses in appositi
 The words **κἀγώ, φίλοι, δείσασα** are apologetic; she would gladly have spared him the details which his threats constrained her to relate.
 
 ## 319 f.
-**πρὸς γὰρ κακοῦ τε**: for the prep., cp. 581, 1071. He always set forth, laid down as a rule, τοιούσδε γόους *ἔχειν πρὸς* ἀνδρὸς κακοῦ, *pertain to* him, are characteristic of him. The words, πρὸς ἀνδρὸς κακοῦ κ.τ.λ., are equiv. to an adverb with the intrans. ἔχειν: i.e., as we can say, γόοι ἀνάνδρως ἔχουσι, so γόοι ἔχουσι πρὸς κακοῦ ἀνδρός. This intrans. use of ἔχειν with phrases of an adverbial kind is frequent with Herodotus; e.g. 2. 91 ἀγῶνα γυμνικὸν διὰ πάσης ἀγωνίης ἔχοντα, ‘*consisting in* every sort of contest’: see other examples on *O. T.* 709.—The alternative explanation is, ‘he taught that it (was) the part of a craven ἔχειν γόους τοιούσδε, to indulge in such laments.’ ἔχειν would then be used as in *Od.* 24. 515 δῆριν ἔχουσι. But this implies an impossible ellipse of εἶναι after ἐξηγεῖτο.
+**πρὸς γὰρ κακοῦ τε**: for the prep., cp. 581, 1071. He always set forth, laid down as a rule, τοιούσδε γόους *ἔχειν πρὸς* ἀνδρὸς κακοῦ, *pertain to* him, are characteristic of him. The words, πρὸς ἀνδρὸς κακοῦ κ.τ.λ., are equiv. to an adverb with the intrans. ἔχειν: *i.e.*, as we can say, γόοι ἀνάνδρως ἔχουσι, so γόοι ἔχουσι πρὸς κακοῦ ἀνδρός. This intrans. use of ἔχειν with phrases of an adverbial kind is frequent with Herodotus; *e.g.* 2. 91 ἀγῶνα γυμνικὸν διὰ πάσης ἀγωνίης ἔχοντα, ‘*consisting in* every sort of contest’: see other examples on *O. T.* 709.—The alternative explanation is, ‘he taught that it (was) the part of a craven ἔχειν γόους τοιούσδε, to indulge in such laments.’ ἔχειν would then be used as in *Od.* 24. 515 δῆριν ἔχουσι. But this implies an impossible ellipse of εἶναι after ἐξηγεῖτο.
 
 **βαρυψύχου**, ‘heavy-hearted,’ lacking the buoyant spirit which quickly rallies itself from despondency. Ajax was emphatically a soldier. (The schol.'s paraphrase, μικροψύχου, conveys a different idea.) The word occurs nowhere else, βαρυθυμος being the usual term; but cp. βαρύφρων, and the post-classical βαρυκάρδιος. Plutarch illustrates the poet's meaning when he speaks ( *Mor.* p. 477 E) of men ἐν ὀδυρμοῖς τὰ πολλὰ καὶ βαρυθυμίαις καὶ μερίμναις..διατρίβοντας. So Heracles says, *Tr.* 1074, ἀλλ' ἀστένακτος αἰὲν εἱπόμην κακοῖς.
 
@@ -1115,7 +1115,7 @@ The words **κἀγώ, φίλοι, δείσασα** are apologetic; she would gl
 ## 324
 **ἄσιτος**. *Od.* 4. 788 (Penelope in her anxiety for Telemachus) κεῖτ' ἄρ' ἄσιτος ἄπαστος ἐδητύος ἠδὲ ποτῆτος.
 
-**σιδηροκμῆσιν**: as the dead are οἱ καμόντες, οἱ κεκμηκότες, so σιδηροκμής is one who has died by the sword: cp. Aesch. *Cho.* 365 δουρικμῆτι λαῷ: ib. 889 ἀνδροκμῆτα πέλεκυν (an axe by which men die).
+**σιδηροκμῆσιν**: as the dead are οἱ καμόντες, οἱ κεκμηκότες, so σιδηροκμής is one who has died by the sword: cp. Aesch. *Cho.* 365 δουρικμῆτι λαῷ: *ib.* 889 ἀνδροκμῆτα πέλεκυν (an axe by which men die).
 
 ## 326
 **ὥς τι δρασείων**, instead of δρασείων τι simply: cp. *O. C.* 630 ὡς τελῶν ἐφαίνετο: Xen. *An.* 1. 5. 9 δῆλος ἦν Κῦρος ὡς σπεύδων: Lys. or. 12 § 90 δῆλοι ἔσεσθε ὡς ὀργιζόμενοι.
@@ -1140,7 +1140,7 @@ The verse is rejected by Nauck and others as though it were inconsistent with v.
 ## 331
 **Τελεύταντος**: 210 n.
 
-**ἡμῖν** could be joined with **λέγεις**: for we sometimes find a word devoid of emphasis standing first in a trimeter, though a slight pause follows; e.g. 847 ἴδῃς: Aesch. *Ag.* 1130 οὐ κομπάσαιμ' ἂν θεσφάτων γνώμων ἄκρος | εἶναι, κακῷ δέ τῳ προσεικάζω τάδε: Aesch. *P. V.* 673 διάστροφοι | ἦσαν, κεραστὶς δ' κ.τ.λ. But on the whole it seems better to have a comma after λέγεις, and to take ἡμῖν as ethic dat. (‘to our sorrow’): though this, too, is slightly harsh; for such an ethic dat. ought not to stand first, but to follow some significant word, as in 216 μανίᾳ γὰρ ἁλοὺς ἡμὶν ὁ κλεινός: *El.* 272 τὸν αὐτοέντην ἡμίν.
+**ἡμῖν** could be joined with **λέγεις**: for we sometimes find a word devoid of emphasis standing first in a trimeter, though a slight pause follows; *e.g.* 847 ἴδῃς: Aesch. *Ag.* 1130 οὐ κομπάσαιμ' ἂν θεσφάτων γνώμων ἄκρος | εἶναι, κακῷ δέ τῳ προσεικάζω τάδε: Aesch. *P. V.* 673 διάστροφοι | ἦσαν, κεραστὶς δ' κ.τ.λ. But on the whole it seems better to have a comma after λέγεις, and to take ἡμῖν as ethic dat. (‘to our sorrow’): though this, too, is slightly harsh; for such an ethic dat. ought not to stand first, but to follow some significant word, as in 216 μανίᾳ γὰρ ἁλοὺς ἡμὶν ὁ κλεινός: *El.* 272 τὸν αὐτοέντην ἡμίν.
 
 **διαπεφοιβάσθαι**: the compound occurs only here. φοιβάζω, from Φοῖβος, meant ‘to inspire,’ as Apollo inspires the divine frenzy of μάντις or of poet; *Anthol.* 9. 525. 22 Φοῖβον, φοιβάζοντα, φιλοστέφανον, φιλογηθῆ: Longinus 8 § 4 πάθος φοιβάζον τοὺς λόγους. (The word could mean also ‘to utter prophetically,’ as in Lycophron 6 δαφνηφάγων φοίβαζεν ἐκ λαιμῶν ὄπα.) Tecmessa has just described both the recent frenzy of Ajax—which she had already pictured in vv. 233 ff.—and his present despair. By διαπεφοιβάσθαι the Chorus mean that a malign power has taken *permanent possession* of his mind. The mental trouble outlasts the frenzy (279 f.). Both διά, and the perfect tense, serve to mark this. By **κακοῖς** they mean his troubles in regard to the arms of Achilles.
 
@@ -1176,17 +1176,17 @@ Prof. Campbell understands ἰὼ παῖ παῖ as meaning Teucer, whom an eld
 ## 342
 **Τεῦκρον**: the son of Telamon by Hesionè (1302), and half-brother of Ajax, whose mother was Eriboea (569).
 
-**τὸν εἰσαεὶ … χρόνον**: the phrase τὸν ἀεὶ χρόνον is frequent. The separation of τὸν εἰσαεὶ from χρόνον deserves notice, as suggesting the possibility that τὸν ἀεὶ may sometimes have been used (without χρόνον) as=‘for ever’: a usage which, however, lacks proof: see on *El.* 1075.— **λεηλατήσει**: he had gone to the uplands of Mysia (720), ‘in pursuit of foes’ (564) to be despoiled. Cp. Thuc. 1. 11 § 1 (the Greeks at Troy) φαίνονται...πρὸς γεωργίαν τῆς Χερσονήσου τραπόμενοι καὶ λῃστείαν τῆς τροφῆς ἀπορίᾳ. The *Iliad* glances at such predatory expeditions (e.g. 1. 366; 9. 328).—Note the light touch with which the poet accounts for the absence of Teucer—a necessity of the plot, since Teucer might have averted his brother's suicide.
+**τὸν εἰσαεὶ … χρόνον**: the phrase τὸν ἀεὶ χρόνον is frequent. The separation of τὸν εἰσαεὶ from χρόνον deserves notice, as suggesting the possibility that τὸν ἀεὶ may sometimes have been used (without χρόνον) as=‘for ever’: a usage which, however, lacks proof: see on *El.* 1075.— **λεηλατήσει**: he had gone to the uplands of Mysia (720), ‘in pursuit of foes’ (564) to be despoiled. Cp. Thuc. 1. 11 § 1 (the Greeks at Troy) φαίνονται...πρὸς γεωργίαν τῆς Χερσονήσου τραπόμενοι καὶ λῃστείαν τῆς τροφῆς ἀπορίᾳ. The *Iliad* glances at such predatory expeditions (*e.g.* 1. 366; 9. 328).—Note the light touch with which the poet accounts for the absence of Teucer—a necessity of the plot, since Teucer might have averted his brother's suicide.
 
 ## 344 f.
-**ἀνοίγετε**: a usual form of summons, addressed to no particular person, but to the inmates of the house generally; Aesch. *Ch.* 877 ἀλλ' ἀνοίξατε: *Adelph.* 4. 4. 26 aperite, aliquis. Ajax had πρόσπολοι, though they were not at this time in the house (539).—We should not explain the plur. as addressed by the choregus to the choreutae and Tecmessa.
+**ἀνοίγετε**: a usual form of summons, addressed to no particular person, but to the inmates of the house generally; Aesch. *Ch.* 877 ἀλλ' ἀνοίξατε: *Adelph.* 4. 4. 26 *aperite, aliquis.* Ajax had πρόσπολοι, though they were not at this time in the house (539).—We should not explain the plur. as addressed by the choregus to the choreutae and Tecmessa.
 
 **αἰδῶ … λάβοι**: cp. *Ph.* 1078 φρόνησιν.. λάβοι: *Tr.* 669 f. προθυμίαν | ... λαβεῖν.
 
 **κἀπ' ἐμοὶ**: for this modest καί, cp. *Ph.* 192 εἴπερ κἀγώ τι φρονῶ, and n. on *Ant.* 719. **βλέψας** should naturally go with κἀπ' ἐμοί, though βλέπειν ἐπί τινι seems to occur nowhere else, and ἐπιβλέπειν τινί only in Lucian *Astr.* 20 καὶ σφίσι γινομένοισι τῷ μὲν ἡ Ἀφροδίτη τῷ δὲ ὁ Ζεὺς...ἐπέβλεψαν (‘looked with favour’). The alternative is to take ἐπ' ἐμοί as= ‘in my case,’ and βλέψας as epexegetic; but this is certainly harsh.
 
 ## 346
-**διοίγω**: cp. *O. T.* 1287 διοίγειν κλῇθρα, and ib. 1295.
+**διοίγω**: cp. *O. T.* 1287 διοίγειν κλῇθρα, and *ib.* 1295.
 
 **πράγη**, deeds: cp. 21.
 
@@ -1209,7 +1209,7 @@ The structure is as follows:—1st strophe 348—355=1st antistr. 356—363: 2nd
 ## 351 ff.
 **ἴδεσθέ μʼ**: for this midd. aor., cp. *Ph.* 351 n. The constr. is as in Aesch. *P. V.* 92 ἴδεσθέ μ' οἷα πρὸς θεῶν πάσχω θεός.
 
-**κῦμα** is the bloodshed; **ζάλης**, the storm of frenzy by which it was caused: cp. Pind. *O.* 12. 11 οἱ δ' ἀνιαραῖς | ἀντικύρσαντες ζάλαις ἐσλὸν βαθὺ πήματος ἐν μικρῷ πεδάμειψαν χρόνῳ. The epithet **φοινίας**, denoting the *effect* of the ζάλη (i.e., really belonging, in sense, to κῦμα), has a more vivid fitness than in Soph. *O. T.* 24, where by βυθῶν..φοινίου σάλου is meant the pestilence.
+**κῦμα** is the bloodshed; **ζάλης**, the storm of frenzy by which it was caused: cp. Pind. *O.* 12. 11 οἱ δ' ἀνιαραῖς | ἀντικύρσαντες ζάλαις ἐσλὸν βαθὺ πήματος ἐν μικρῷ πεδάμειψαν χρόνῳ. The epithet **φοινίας**, denoting the *effect* of the ζάλη (*i.e.*, really belonging, in sense, to κῦμα), has a more vivid fitness than in Soph. *O. T.* 24, where by βυθῶν..φοινίου σάλου is meant the pestilence.
 
 **ἀμφίδρομον**, ‘running around’ me.— **κυκλεῖται**: this rare midd. is read in Her. 8. 16, μηνοειδὲς ποιήσαντες τῶν νεῶν ἐκυκλεῦντο ὡς περιλάβοιεν αὐτούς. But in fr. 787. 2 κυκλεῖται is pass.; and so Ellendt would take it here (‘*is rolled* around me’),—needlessly, I think. **κυκλοῦται** would be the more usual *midd.* form ( Her. 3. 157, and oft.).
 
@@ -1219,7 +1219,7 @@ The structure is as follows:—1st strophe 348—355=1st antistr. 356—363: 2nd
 **ἀφροντίστως ἔχει**. Cp. *Tr.* 366 πέμπων οὐκ ἀφροντίστως: Xen. *Cyr.* 1. 6. 42 μηδέποτ' οὖν ἀφροντίστως ἔχε, ‘never be heedless.’ For the pass. form of the word, cp. δυσλόγιστον (40 n.). It is not easy to decide whether the subject to ἔχει is Ajax, or τοὔργον: but the usage of the adverb rather favours the view that it is Ajax. The phrase is designedly euphemistic and reticent.
 
 ## 357
-**ναΐας ἀρωγὸν τέχνας**, helpful *of* the seaman's art, i.e., its ministers: the gen., as in Aesch. *Eum.* 486 ἀρωγὰ τῆς δίκης ὁρκώματα. Cp. 201.
+**ναΐας ἀρωγὸν τέχνας**, helpful *of* the seaman's art, *i.e.*, its ministers: the gen., as in Aesch. *Eum.* 486 ἀρωγὰ τῆς δίκης ὁρκώματα. Cp. 201.
 
 ## 358
 **ἅλιον ὃς ἐπέβας** is the best correction of **ἁλίαν ὃς ἐπέβας**. The two short syllables ὃς ἐπ- then correspond with a long syllable (the first of ἐμμένοντες) in v. 350; as the dochmiac metre allows. Hermann's later emendation, **ὃς ἁλίαν ἔβας**, avoids, indeed, resolving the long syllable, but unwarrantably alters ἐπέβας: nor is there much force in his reason for preferring it, viz., that the gloss ἐπέβας τῶν νεῶν points to ἁλιᾶν.. πλατᾶν, and this to ἁλίαν (rather than ἅλιον) πλάταν. Cp. Eur. *Heracl.* 82 ἁλίῳ πλάτᾳ.
@@ -1228,12 +1228,12 @@ The structure is as follows:—1st strophe 348—355=1st antistr. 356—363: 2nd
 
 **ἐπέβας**, absol., ‘embarked’ (as in Thuc. 7. 62 § 2 ἐπιβήσονται),—recalling the moment when they set forth from Salamis together; a point which is lost if ἐπέβας be taken as =‘thou hast come hither.’
 
-**ἐλίσσων**: cp. Eur. *Or.* 171 πόδα σὸν εἱλίξεις, i.e., ‘move swiftly.’
+**ἐλίσσων**: cp. Eur. *Or.* 171 πόδα σὸν εἱλίξεις, *i.e.*, ‘move swiftly.’
 
 ## 359
 [360] **πημονὰν ἐπαρκέσοντʼ**: cp. *Il.* 2. 873 οὐδέ τί οἱ τό γ' ἐπήρκεσε λυγρὸν ὄλεθρον: *Od.* 17. 568 οὔτε τι Τηλέμαχος τό γ' ἐπήρκεσεν οὔτε τις ἄλλος. Thus, though ἐπαρκεῖν could not mean literally ‘to ward *off*,’ epic precedent warranted its use in an equivalent sense, which was strictly that of bringing one help *against* a danger. In lyrics, at least, where epic associations have a large scope, it seems needless to write **ἀπαρκέσοντʼ**.
 
-The traditional reading **ποιμένων** is explained by the schol. in L, τῶν ἐμὲ ποιμαινόντων καὶ θαλπόντων: i.e., the sense was taken to be, ‘I see that thou, alone *of my shepherds* (=of those who care for me), canst help.’ But ποιμένων, in such a context, would suggest rather the idea of chieftainship (cp. ποιμένα λαῶν, ναῶν ποιμένες in *Suppl.* 767): and there can be little doubt that **πημονὰν** is right.
+The traditional reading **ποιμένων** is explained by the schol. in L, τῶν ἐμὲ ποιμαινόντων καὶ θαλπόντων: *i.e.*, the sense was taken to be, ‘I see that thou, alone *of my shepherds* (=of those who care for me), canst help.’ But ποιμένων, in such a context, would suggest rather the idea of chieftainship (cp. ποιμένα λαῶν, ναῶν ποιμένες in *Suppl.* 767): and there can be little doubt that **πημονὰν** is right.
 
 ## 361
 **ἀλλά**, appealing: cp. *O. T.* 14, etc.: Pind. *O.* 6. 22 ὦ Φίντις, ἀλλὰ ζεῦξον ἤδη μοι σθένος ἡμιόνων (‘*come*, yoke’).— For the enclitic **με** before its verb, cp. *El.* 1359 ἀλλά με | λόγοις ἀπώλλυς.
@@ -1264,7 +1264,7 @@ For **ἐκτὸς** cp. *O. T.* 676 οὔκουν μ' ἐάσεις κἀκτ�
 
 **ἄψορρον** is probably the adv., as in *Tr.* 902 ὅπως ἄψορρον ἀντῴη πατρί, *El.* 53 ἄψορρον ἥξομεν.
 
-**ἐκνεμεῖ** here gives the notion, ‘take forth into other pastures.’ This rare compound occurs in Theophr. *Hist. Plant.* 9. 16 § 1 ὀλίγος ὁ τόπος ὁ φέρων, καὶ τοῦτον αἱ αἶγες ἐκνέμονται, depascunt, ‘the region which bears (the plant dictamnum) is small, and is stripped of it by the browsing goats.’ The analogy of Pind. *N.* 6. 15, ἴχνεσιν ἐν Πραξιδάμαντος ἑὸν πόδα νέμων, would certainly point to **ἐκνεμεῖς**, but we must allow for the poetical use of the middle voice, so frequent with Sophocles. Of the midd. fut., Thuc. 4. 64 § 5 has νεμούμεθα, Dem. or. 21 § 203 νεμεῖσθαι.
+**ἐκνεμεῖ** here gives the notion, ‘take forth into other pastures.’ This rare compound occurs in Theophr. *Hist. Plant.* 9. 16 § 1 ὀλίγος ὁ τόπος ὁ φέρων, καὶ τοῦτον αἱ αἶγες ἐκνέμονται, *depascunt*, ‘the region which bears (the plant *dictamnum*) is small, and is stripped of it by the browsing goats.’ The analogy of Pind. *N.* 6. 15, ἴχνεσιν ἐν Πραξιδάμαντος ἑὸν πόδα νέμων, would certainly point to **ἐκνεμεῖς**, but we must allow for the poetical use of the middle voice, so frequent with Sophocles. Of the midd. fut., Thuc. 4. 64 § 5 has νεμούμεθα, Dem. or. 21 § 203 νεμεῖσθαι.
 
 ## 371
 **ὦ πρὸς θεῶν** κ.τ.λ. The MSS. seem right in giving this verse to the Chorus. Just after so violent a rebuke, the timid Tecmessa would scarcely venture on praying her ‘master’ to be ‘sane’; while the intercession of the Chorus is natural enough.
@@ -1309,7 +1309,7 @@ For the sentiment, cp. *Tr.* 742 τὸ γὰρ | φανθὲν τίς ἂν δύ
 **ἄγεις**. The phrase ἄγειν γέλωτα denotes frequent or continued derision, as ἄγειν κτύπον=‘to keep up a noise’: Eur. *Or.* 182 κτύπον ἠγάγετʼ· οὐχὶ σῖγα κ.τ.λ. So νεῖκος ἄγειν, to sustain a conflict ( Pind. *P.* 9. 33): σχολὴν ἄγειν, etc.
 
 ## 383
-**ξὺν τῷ θεῷ**. Those who write ξύν τοι θεῷ here do so on the ground that σὺν θεῷ, not σὺν τῷ θεῷ, is the regular phrase when the sense is general, ‘with the divine aid’; whereas in *O. T.* 146 σὺν τῷ θεῷ refers to a particular god (Apollo). But there is an arbitrary rigour in this doctrine. ὁ θεός often means ‘the divine power’ generally: e.g. frag. adesp. 471 ὁ γὰρ θεὸς μέγιστος ἀνθρώποις νόμος: and 496. 2 πόρρω γὰρ ἑστὼς ὁ θεὸς ἐγγύθεν βλέπει. And this very phrase, σὺν τῷ θεῷ, occurs once, at least, in a passage where the context plainly indicates that the sense is general, viz. Eur. fr. 490 σὺν τῷ θεῷ χρὴ τοὺς σοφοὺς ἀναστρέφειν | βουλεύματ' ἀεί. There, indeed, as here, Nauck changes τῷ to τοι, but without any warrant.
+**ξὺν τῷ θεῷ**. Those who write ξύν τοι θεῷ here do so on the ground that σὺν θεῷ, not σὺν τῷ θεῷ, is the regular phrase when the sense is general, ‘with the divine aid’; whereas in *O. T.* 146 σὺν τῷ θεῷ refers to a particular god (Apollo). But there is an arbitrary rigour in this doctrine. ὁ θεός often means ‘the divine power’ generally: *e.g.* frag. adesp. 471 ὁ γὰρ θεὸς μέγιστος ἀνθρώποις νόμος: and 496. 2 πόρρω γὰρ ἑστὼς ὁ θεὸς ἐγγύθεν βλέπει. And this very phrase, σὺν τῷ θεῷ, occurs once, at least, in a passage where the context plainly indicates that the sense is general, viz. Eur. fr. 490 σὺν τῷ θεῷ χρὴ τοὺς σοφοὺς ἀναστρέφειν | βουλεύματ' ἀεί. There, indeed, as here, Nauck changes τῷ to τοι, but without any warrant.
 
 **ἵδοιμι** κ.τ.λ. The question whether the MSS. have lost a syllable here depends on the view taken of 369. I have given reasons for thinking that the second οὐκ in that verse is genuine; from which it would follow that there is a defect here. Bellermann, indeed, is content to hold that Sophocles neglected an exact correspondence; but this seems very unlikely. L. Dindorf's remedy ἴδοιμι <*μήν*> νιν, has this advantage over the others (cr. n.), that it gives a light adversative force, and so fitly responds to v. 383, ξὺν τῷ θεῷ κ.τ.λ. ‘Triumph, like defeat, is the gift of heaven.’—‘*Yet* would that I could see him,’ etc. The next best conjecture is perhaps that of Apitz, ἴδοιμί *νύν* νιν.
 
@@ -1339,7 +1339,7 @@ For the sentiment, cp. *Tr.* 742 τὸ γὰρ | φανθὲν τίς ἂν δύ
 **ἕλεσθ' ἕλεσθέ μʼ**: the most probable reading; [see on 414](#414). Here the midd. means, ‘*take to yourselves*’ (and not, as normally, ‘*choose*’): it is thus more expressive than ἕλετε: cp. *O. T.* 887 κακά νιν ἕλοιτο μοῖρα. Conversely we find εὑρεῖν where εὑρέσθαι would be normal ( *El.* 1061).
 
 ## 398 ff.
-**γένος**, as well as **ὄνασιν**, is governed by **εἰς**: cp. *O. T.* 734 Δελφῶν κἀπὸ Δαυλίας: ib. 1205 τίς ἄταις ἀγρίαις, τίς ἐν πόνοις: *El.* 780 οὔτε νυκτὸς..οὔτ' ἐξ ἡμέρας.
+**γένος**, as well as **ὄνασιν**, is governed by **εἰς**: cp. *O. T.* 734 Δελφῶν κἀπὸ Δαυλίας: *ib.* 1205 τίς ἄταις ἀγρίαις, τίς ἐν πόνοις: *El.* 780 οὔτε νυκτὸς..οὔτ' ἐξ ἡμέρας.
 
 **ἄξιος**. For the ellipse of εἰμί, cp. 813 n.
 
@@ -1348,7 +1348,7 @@ For the sentiment, cp. *Tr.* 742 τὸ γὰρ | φανθὲν τίς ἂν δύ
 ## 401 f.
 **ἁ Διὸς … θεὸς**: cp. 450: *O. C.* 623 χὡ Διὸς Φοῖβος.
 
-**ὀλέθριον** should answer metrically to εὔφρονες in 420. If it be sound, the first syllable must represent the anacrusis, which is omitted before εὔφρονες: and the ε is long, as it is in 799 (ὀλεθρίαν), *O. T.* 1341 (ὀλέθριον), and *O. C.* 1683 (ὀλεθρία): though we find ε̆ in *Tr.* 845 (ὀλεθρίαισι), and ib. 878 (ὀλεθρία). The neatest emendation is **οὔλιον** (cr. n.).
+**ὀλέθριον** should answer metrically to εὔφρονες in 420. If it be sound, the first syllable must represent the anacrusis, which is omitted before εὔφρονες: and the ε is long, as it is in 799 (ὀλεθρίαν), *O. T.* 1341 (ὀλέθριον), and *O. C.* 1683 (ὀλεθρία): though we find ε̆ in *Tr.* 845 (ὀλεθρίαισι), and *ib.* 878 (ὀλεθρία). The neatest emendation is **οὔλιον** (cr. n.).
 
 ## 403 f.
 **φύγῃ … μενῶ**. For the delib. subjunct. combined with fut. indic., cp. *Tr.* 973 τί πάθω; τί δὲ μήσομαι;
@@ -1360,22 +1360,22 @@ For the sentiment, cp. *Tr.* 742 τὸ γὰρ | φανθὲν τίς ἂν δύ
 
 (2) There is only one real discrepancy of metre between the traditional text here and that of the antistrophe; viz., that **τοῖσδʼ** in 406 answers to the **τινα** of οὔτινα in 424, where the α, being the last syllable of a verse, could be either long or short, and is here long. (Some, indeed, read οὔτιν' ἁ: cr. n.) That is, instead of τοῖσδʼ, we require u-. As to ἐξερέω in 423, answering to εἰ τὰ μὲν in 405, we should write ἐξερῶ. With regard to the *diction* of 405 ff., the most suspicious point is the redundancy **ὁμοῦ πέλας**, suggesting that one of the words was a gloss upon the other.
 
-(3) If, then, we assume that the antistrophe is sound, we may conclude that the fault in the strophe lies within the words εἰ τὰ μὲν φθίνει, φίλοι, τοῖσδ' ὁμοῦ πέλας. A very slight change will restore the metre, viz. **τοιοῖσδʼ** for **τοῖσδʼ**: cp. the words of Ajax in 453 ὥστ' ἐν τοιοῖσδε χεῖρας αἱμάξαι βοτοῖς. There he points to the slain cattle around him; and so he probably does here also. We could then understand the sense to be: ‘If those things (τὰ μὲν, his glories in the past) perish, my friends, ὁμοῦ τοιοῖσδε, *along with* (i.e., by the slaughter of) such creatures, πέλας, near me there.’ But πέλας may have been a marginal gloss (on ὁμοῦ), which has displaced some other word: e.g., the poet may have written **τοιοῖσδ' ὁμοῦ βοτοῖς** (cp. v. 453).
+(3) If, then, we assume that the antistrophe is sound, we may conclude that the fault in the strophe lies within the words εἰ τὰ μὲν φθίνει, φίλοι, τοῖσδ' ὁμοῦ πέλας. A very slight change will restore the metre, viz. **τοιοῖσδʼ** for **τοῖσδʼ**: cp. the words of Ajax in 453 ὥστ' ἐν τοιοῖσδε χεῖρας αἱμάξαι βοτοῖς. There he points to the slain cattle around him; and so he probably does here also. We could then understand the sense to be: ‘If those things (τὰ μὲν, his glories in the past) perish, my friends, ὁμοῦ τοιοῖσδε, *along with* (*i.e.*, by the slaughter of) such creatures, πέλας, near me there.’ But πέλας may have been a marginal gloss (on ὁμοῦ), which has displaced some other word: *e.g.*, the poet may have written **τοιοῖσδ' ὁμοῦ βοτοῖς** (cp. v. 453).
 
-(4) Whatever may have been the original *form* of the words εἰ τὰ μὲν φθίνει, φίλοι, τοῖσδ' ὁμοῦ πέλας, it is at least highly probable that their general sense was, ‘If my old renown is perishing.’ This is suggested by the other passages where we find the same sequence of ideas,—i.e., the thought of his past glory closely followed by that of his present disgrace; see (1) 421—427: (2) 437—456: (3) 612—621.
+(4) Whatever may have been the original *form* of the words εἰ τὰ μὲν φθίνει, φίλοι, τοῖσδ' ὁμοῦ πέλας, it is at least highly probable that their general sense was, ‘If my old renown is perishing.’ This is suggested by the other passages where we find the same sequence of ideas,—*i.e.*, the thought of his past glory closely followed by that of his present disgrace; see (1) 421—427: (2) 437—456: (3) 612—621.
 
 (5) Those who believe that the antistrophic verses 423—427 are corrupt have a freer hand for emendation here; and, as will be seen in the Appendix, some of the proposed restorations have been very bold. But such remedies pass into the region of pure guess-work.
 
 ## 406
 [407] **προσκείμεθα**, ‘addicted’ to them. Her. 3. 34 φιλοινίῃ...προσκέεσθαι. The word can also denote, in a good sense, that to which the attention is given, as Thuc. (1. 93 § 7) says of Themistocles, ταῖς γὰρ ναυσὶ μάλιστα προσέκειτο.
 
-**μώραις**. L has **μωραῖς** (as it has μωρὰν in *El.* 890), that being the later accent, according to the general rule that adjectives in -ρος are oxytone. But the grammarians attest that the Attic accent was μῶρος. See, e.g., Eustath. p. 245. 17 μῶρος παρ' Ἀττικοῖς, ὁ παρὰ τοῖς ὕστερον μωρός: and Chandler, *Greek Accentuation*, § 404 (2nd ed.).
+**μώραις**. L has **μωραῖς** (as it has μωρὰν in *El.* 890), that being the later accent, according to the general rule that adjectives in -ρος are oxytone. But the grammarians attest that the Attic accent was μῶρος. See, *e.g.*, Eustath. p. 245. 17 μῶρος παρ' Ἀττικοῖς, ὁ παρὰ τοῖς ὕστερον μωρός: and Chandler, *Greek Accentuation*, § 404 (2nd ed.).
 
 ## 408
-**δίπαλτος**, in active sense (cp. ἄψαυστος ἔγχους, *O. T.* 969 n.), wielding their swords with both hands, i.e., with their utmost force. *I. T.* 323 ὡς δ' εἴδομεν δίπαλτα πολεμίων ξίφη. That the word had passed into a figurative sense (in which δι- was merely equiv. to ‘fiercely’), is indicated by τριπάλτων πημάτων in Aesch. *Th.* 985, woes hurled on one with crushing force. δίπαλτος should not be explained with ref. to the *two spears* of the Homeric warrior ( *Il.* 5. 495 πάλλων δ' ὀξέα δοῦρε).
+**δίπαλτος**, in active sense (cp. ἄψαυστος ἔγχους, *O. T.* 969 n.), wielding their swords with both hands, *i.e.*, with their utmost force. *I. T.* 323 ὡς δ' εἴδομεν δίπαλτα πολεμίων ξίφη. That the word had passed into a figurative sense (in which δι- was merely equiv. to ‘fiercely’), is indicated by τριπάλτων πημάτων in Aesch. *Th.* 985, woes hurled on one with crushing force. δίπαλτος should not be explained with ref. to the *two spears* of the Homeric warrior ( *Il.* 5. 495 πάλλων δ' ὀξέα δοῦρε).
 
 ## 411
-**φωνεῖν**, exclamatory: Aesch. *Eum.* 837 ἐμὲ παθεῖν τάδε. It was common in colloquial Attic; see e.g. *Vesp.* 835 βάλλ' ἐς κόρακας· τοιουτονὶ τρέφειν κύνα. For this inf. with the article added, see *Ph.* 234 φεῦ τὸ καὶ λαβεῖν (n.).
+**φωνεῖν**, exclamatory: Aesch. *Eum.* 837 ἐμὲ παθεῖν τάδε. It was common in colloquial Attic; see *e.g.* *Vesp.* 835 βάλλ' ἐς κόρακας· τοιουτονὶ τρέφειν κύνα. For this inf. with the article added, see *Ph.* 234 φεῦ τὸ καὶ λαβεῖν (n.).
 
 **ἔτλη**, of what one *brings oneself* to do; here, ‘deigned.’ Cp. 528, *Tr.* 158.
 
@@ -1383,7 +1383,7 @@ For the sentiment, cp. *Tr.* 742 τὸ γὰρ | φανθὲν τίς ἂν δύ
 **πόροι ἁλίρροθοι**: probably ‘paths or straits of the sounding sea,’ as in Aesch. *Pers.* 367 ἔκπλους φυλάσσειν καὶ πόρους ἁλιρρόθους: meaning here the waters of the Hellespont. His thought passes from those waters to the **πάραλα ἄντρα** beside them, and thence to the neighbouring woodlands. For the form of the phrase, cp. Soph. *O. C.* 1062 ῥιμφαρμάτοις...ἁμίλλαις.—The other version, ‘paths *by* the sounding sea,’ is possible, but less probable.
 
 ## 413
-**νέμος**, properly pasture simply; but associated with trees in *Il.* 11. 480 ἐν νέμεϊ σκιερῷ (a phrase repeated in *Anth.* 7. 55). In the Lat. nemus the notion of ‘woodland’ is seen dominant.
+**νέμος**, properly pasture simply; but associated with trees in *Il.* 11. 480 ἐν νέμεϊ σκιερῷ (a phrase repeated in *Anth.* 7. 55). In the Lat. *nemus* the notion of ‘woodland’ is seen dominant.
 
 As I have noted in writing on the Troad elsewhere, ‘nearly all the plains and hills are more or less well-wooded. Besides the valonia oak, the elm, willow, cypress and tamarisk shrub abound. Lotus, galingale, and reeds are still plentiful, as in Homeric days, about the streams in the Trojan plain.’ (*Encyc. Brit.*, art. ‘Troad,’ vol. XXIII. p. 578.)
 
@@ -1399,13 +1399,13 @@ As I have noted in writing on the Troad elsewhere, ‘nearly all the plains and 
 **Σκαμάνδριοι … ῥοαί**: cp. *Il.* 2. 467 ἐν λειμῶνι Σκαμανδρίῳ ἀνθεμόεντι. The Scamander, still called the *Mendere*, is the most important river of the Troad. Rising in Ida, it flows through the central plain which now bears the name of the town Bairamitch, and thence passes northward into the plain of Troy. On the confines between the two plains, where the river winds in large curves through deep gorges in limestone rocks, its scenery is striking. From the south border of the Trojan plain to the Hellespont, the Mendere has a course of between seven and eight miles.
 
 ## 420
-**εὔφρονες Ἀργείοις**: as supplying them with water. So in 863 the ποταμοί of the plain are called τροφῆς.— Not: ‘friendly to my Greek *foes*, but hostile to me.’ Nor should the words be taken adverbially with οὐκέτ' ἄνδρα μὴ τόνδ' ἴδητʼ, as meaning, ‘No longer, allies of the Greeks, will ye see me,’— i.e., ‘You will no longer see me victorious beside your favouring stream.’
+**εὔφρονες Ἀργείοις**: as supplying them with water. So in 863 the ποταμοί of the plain are called τροφῆς.— Not: ‘friendly to my Greek *foes*, but hostile to me.’ Nor should the words be taken adverbially with οὐκέτ' ἄνδρα μὴ τόνδ' ἴδητʼ, as meaning, ‘No longer, allies of the Greeks, will ye see me,’— *i.e.*, ‘You will no longer see me victorious beside your favouring stream.’
 
 ## 421 f.
 **οὐκέτ' ἄνδρα μὴ τόνδ' ἴδητʼ**: οὐ μὴ with subjunct. gives a strong emphasis; cp. 83, 560.
 
 ## 423 ff.
-**ἐξερῶ** gives an exact correspondence with εἰ τὰ μὲν in 405. The **ἐξερέω** of the MSS. might, indeed, be compared with *El.* 178 ὑπεράχθεο, *O. C.* 227 ὑπέσχεο, ib. 1244 κλονέουσιν. (In *Tr.* 639 καλέονται should be κλέονται.) But ἐξερέω was so familiar as the Homeric form that it could easily have displaced ἐξερῶ here. It is not likely that the poet would have written ἐξερέω if he had meant the word to be scanned -u- by synizesis.
+**ἐξερῶ** gives an exact correspondence with εἰ τὰ μὲν in 405. The **ἐξερέω** of the MSS. might, indeed, be compared with *El.* 178 ὑπεράχθεο, *O. C.* 227 ὑπέσχεο, *ib.* 1244 κλονέουσιν. (In *Tr.* 639 καλέονται should be κλέονται.) But ἐξερέω was so familiar as the Homeric form that it could easily have displaced ἐξερῶ here. It is not likely that the poet would have written ἐξερέω if he had meant the word to be scanned -u- by synizesis.
 
 Join **οὔτινα** with **στρατοῦ**: cp. 1175 κεἴ τινα στρατοῦ.
 
@@ -1414,7 +1414,7 @@ Join **οὔτινα** with **στρατοῦ**: cp. 1175 κεἴ τινα στ�
 This vaunt of Ajax (modified only by the half-apologetic ἔπος ἐξερῶ μέγα) is epic in tone; thus Achilles says of himself (*Il.* 18. 105), τοῖος ἐὼν οἷος οὔτις Αχαιῶν χαλκοχιτώνων: Odysseus, (*Od.* 9. 19,) ὃς πᾶσι δόλοισιν | ἀνθρώποισι μέλω, καί μευ κλέος οὐρανὸν ἵκει . Such a tone is better suited, indeed, to epos (in which speech is sometimes little more than audible thought) than to drama. But here, at least, as in the case of Heracles ( *Tr.* 1101 f.), it has the excuse of being prompted by the anguish of a sudden overthrow. (Cp. n. on *O. T.* 8, where Oedipus speaks of himself as ὁ πᾶσι κλεινός.)
 
 ## 427
-**πρόκειμαι**: lie prostrate (323 ff.): cp. 1059.—The v.l. **πρόκειται** was caused by **ἄνδρα … τόνδε**: but cp. *O. C.* 1329, where τῷδ' ἀνδρὶ (=ἐμοὶ) is immediately followed by τοὐμοῦ, as in *O. T.* 534 τοῦδε τἀνδρὸς by τῆς ἐμῆς. See also below, O. T. 865.
+**πρόκειμαι**: lie prostrate (323 ff.): cp. 1059.—The *v.l.* **πρόκειται** was caused by **ἄνδρα … τόνδε**: but cp. *O. C.* 1329, where τῷδ' ἀνδρὶ (=ἐμοὶ) is immediately followed by τοὐμοῦ, as in *O. T.* 534 τοῦδε τἀνδρὸς by τῆς ἐμῆς. See also below, O. T. 865.
 
 ## 428 f.
 **οὔτοι … οὐδʼ**. There can be little doubt that the οὔθʼ of the MSS. should be οὐδʼ here. In *El.* 1197 and 1412 L has οὔθʼ, where οὐδʼ is right; as in *O. C.* 496 μήθʼ instead of μηδʼ. As to the conditions under which **οὐ … οὔτε** was admitted in Attic poetry, see on *Tr.* 1058 f.
@@ -1424,9 +1424,9 @@ This vaunt of Ajax (modified only by the half-apologetic ἔπος ἐξερῶ 
 ## 430 f.
 **ἂν … ᾤεθʼ**, ‘could have thought’; cp. 119 τίς ἂν..ηὑρέθη;
 
-**ἐπώνυμον** here goes closely with **ξυνοίσειν**, ‘would *agree* so *significantly*’ with my woes. Hence in 914 he is called δυσώνυμος. For the verb, cp. Ar. *Eq.* 1232 καὶ μήν σ' ἐλέγξαι βούλομαι τεκμηρίῳ, | εἴ τι ξυνοίσεις τοῦ θεοῦ τοῖς θεσφάτοις, i.e., ‘agree’ with the description of the person mentioned in them. For the adj., cp. Hom. *Od.* 7. 54 Ἀρήτη δ' ὄνομ' ἐστὶν ἐπώνυμον: ib. 19. 409 τῷ δ' Ὀδυσεὺς ὄνομ' ἔστω ἐπώνυμον: where in each case ἐπώνυμον means that the name is *significant* (the queen was the ‘desired one’; the child was to be ‘a man of wrath’). This usage of ἐπώνυμος, with ref. to the *aptness* of a name (or surname), is different from that in which a person or thing is said to be ἐπώνυμός τινος, either as (1) being named from it, or (2) giving a name to it. Cp. 574.
+**ἐπώνυμον** here goes closely with **ξυνοίσειν**, ‘would *agree* so *significantly*’ with my woes. Hence in 914 he is called δυσώνυμος. For the verb, cp. Ar. *Eq.* 1232 καὶ μήν σ' ἐλέγξαι βούλομαι τεκμηρίῳ, | εἴ τι ξυνοίσεις τοῦ θεοῦ τοῖς θεσφάτοις, *i.e.*, ‘agree’ with the description of the person mentioned in them. For the adj., cp. Hom. *Od.* 7. 54 Ἀρήτη δ' ὄνομ' ἐστὶν ἐπώνυμον: *ib.* 19. 409 τῷ δ' Ὀδυσεὺς ὄνομ' ἔστω ἐπώνυμον: where in each case ἐπώνυμον means that the name is *significant* (the queen was the ‘desired one’; the child was to be ‘a man of wrath’). This usage of ἐπώνυμος, with ref. to the *aptness* of a name (or surname), is different from that in which a person or thing is said to be ἐπώνυμός τινος, either as (1) being named from it, or (2) giving a name to it. Cp. 574.
 
-Pindar adopts the derivation of Αἴας from αἰετός: *I.* 5. 53 καί νιν ὄρνιχος φανέντος κέκλετ' ἐπώνυμον εὐρυβίαν Αἴαντα. This was the popular etymology (schol. Apoll. Rh. 1. 1289; schol. Theocr. 13. 37: Apollod. 3. 12 § 7). But the association of Αἴας with αἶ αἶ appears in the legend that a hyacinth (on whose petals the letters AI were supposed to be legible, Moschus 3. 6) sprang from the blood of Ajax, as it had sprung from that of Hyacinthus: Ov. *Met.* 13. 397: Littera communis mediis pueroque viroque | Inscripta est foliis; haec nominis (Ajax), illa querelae (the wail of Hyacinthus).
+Pindar adopts the derivation of Αἴας from αἰετός: *I.* 5. 53 καί νιν ὄρνιχος φανέντος κέκλετ' ἐπώνυμον εὐρυβίαν Αἴαντα. This was the popular etymology (schol. Apoll. Rh. 1. 1289; schol. Theocr. 13. 37: Apollod. 3. 12 § 7). But the association of Αἴας with αἶ αἶ appears in the legend that a hyacinth (on whose petals the letters AI were supposed to be legible, Moschus 3. 6) sprang from the blood of Ajax, as it had sprung from that of Hyacinthus: Ov. *Met.* 13. 397: *Littera communis mediis pueroque viroque | Inscripta est foliis; haec nominis (Ajax), illa querelae* (the wail of Hyacinthus).
 
 So Odysseus was associated with ὀδύσσομαι ( *Od.* 1. 62 τί νύ οἱ τόσον ὠδύσαο, Ζεῦ; imitated by Soph. , fr. 880): Pentheus, with πένθος ( Eur. *Bacch.* 507): Polyneices, with νεῖκος ( Aesch. *Th.* 577, etc., Soph. *Ant.* 110 f.): Meleager, with μελέα ἄγρα ( Eur. fr. 517): Sidêro with σίδηρος ( Soph. fr. 597): and Helen is ἐλέναυς, etc. ( Aesch. *Ag.* 689).
 
@@ -1445,7 +1445,7 @@ The real etymology of Αἴας is uncertain. Vase-inscriptions show that the or
 **τὰ πρῶτα καλλιστεῖʼ ἀριστεύσας**, a free poetical mode of saying, ‘having won by prowess the first meed of honour.’ The word καλλιστεῖα (properly ‘prize for beauty’) may have been chosen because the prize was Hesionè. Cp. 1300 στρατοῦ τὰ πρῶτ' ἀριστεύσας.
 
 ## 437
-**τόπον Τροίας**, i.e. Τροίαν: a periphrasis like τὸν Κιθαιρῶνος τόπον ( *O. T.* 1134). Here Τροία is used in the Homeric manner, to denote not only the city but the country; ἡ Τρῳάς, as=‘the Troad,’ occurs first in Herodotus (5. 122).
+**τόπον Τροίας**, *i.e.* Τροίαν: a periphrasis like τὸν Κιθαιρῶνος τόπον ( *O. T.* 1134). Here Τροία is used in the Homeric manner, to denote not only the city but the country; ἡ Τρῳάς, as=‘the Troad,’ occurs first in Herodotus (5. 122).
 
 **ἐπελθὼν**, *after* Telamon; cp. ἐπιγίγνομαι.
 
@@ -1459,7 +1459,7 @@ The real etymology of Αἴας is uncertain. Vase-inscriptions show that the or
 
 **εἰ … κρίνειν ἔμελλε**, ‘if he *had been going to* award,’ ‘if it had devolved upon him to award.’ The imperfect (here referring to an unreal condition in past, not in present, time) is rightly used, because it expresses the constraint of a supposed situation. But in the apodosis, the aor., **οὐκ ἄν τις ἔμαρψεν**, is used, because the taking of the prize is an act done at a given moment.
 
-**ὅπλων τῶν ὧν πέρι**, i.e. in a case where they were the prize. Sophocles has ὅς, *suus*, (epic ἑός,) in *O. T.* 1248 (οἷσιν), *O. C.* 1639 and *Tr.* 266 (ὧν), ib. 525 (ὅν). Here it is emphatic: ‘his own arms,’—of which he could dispose with the best right.
+**ὅπλων τῶν ὧν πέρι**, *i.e.* in a case where they were the prize. Sophocles has ὅς, *suus*, (epic ἑός,) in *O. T.* 1248 (οἷσιν), *O. C.* 1639 and *Tr.* 266 (ὧν), *ib.* 525 (ὅν). Here it is emphatic: ‘his own arms,’—of which he could dispose with the best right.
 
 **κρίνειν … κράτος ἀριστείας**, to award the first place for prowess; cp. Pind. *I.* 7. 5 ἀέθλων..κράτος, victory in them. For the pres. inf. κρίνειν with ἔμελλε, cp. Soph. *O. C.* 1774 n.
 
@@ -1483,7 +1483,7 @@ The real etymology of Αἴας is uncertain. Vase-inscriptions show that the or
 
 **τῆς ἐμῆς** is emphatic: my true purpose: so 100 τἄμʼ: 442 τῶν ὧν.
 
-**οὐκ ἄν ποτε … ἐψήφισαν**: i.e., they would have died before they could repeat such a villainy. See on v. 100, θανόντες ..ἀφαιρείσθων. The midd. ψηφίζομαι δίκην means ‘to decide a cause by one's vote’; Isae. or. 3 § 7 τοῖς περὶ αὐτοῦ τούτου τὴν δίκην μέλλουσι ψηφιεῖσθαι. And for **κατ' ἄλλου φωτὸς** cp. Plat. *Gorg.* p. 515 E οὐδεμίαν αἰσχρὰν δίκην κατεψηφίσαντο αὐτοῦ. The act. ψηφίζω usu.=‘to count’ (as Polyb. 5. 26 κατὰ τὴν τοῦ ψηφίζοντος βούλησιν, ‘at the reckoner's will’). Here, **δίκην ἐψήφισαν** has the general sense of δίκην ἐψηφίσαντο: but it is not directly modelled on that prose idiom: rather it is a new poetical phrase, meaning strictly, ‘*get* a cause *decided* by ψῆφοι.’ It implies that the votes against Ajax were secured by the intrigues of the chiefs: cp. Pind. *N.* 8. 26 f. κρυφίαισι γὰρ ἐν ψάφοις Ὀδυσσῆ Δαναοὶ θεράπευσαν· | χρυσέων δ' Αἴας στερηθεὶς ὅπλων φόνῳ πάλαισεν. [ἐψήφισαν certainly has not the technical sense of ἐπεψήφισαν, as if the Atreidae were the ἡγεμόνες δικαστηρίου, who put the issue to the vote. Even if the simple ψηφίζω could be so used, this would be too technical and prosaic.]
+**οὐκ ἄν ποτε … ἐψήφισαν**: *i.e.*, they would have died before they could repeat such a villainy. See on v. 100, θανόντες ..ἀφαιρείσθων. The midd. ψηφίζομαι δίκην means ‘to decide a cause by one's vote’; Isae. or. 3 § 7 τοῖς περὶ αὐτοῦ τούτου τὴν δίκην μέλλουσι ψηφιεῖσθαι. And for **κατ' ἄλλου φωτὸς** cp. Plat. *Gorg.* p. 515 E οὐδεμίαν αἰσχρὰν δίκην κατεψηφίσαντο αὐτοῦ. The act. ψηφίζω usu.=‘to count’ (as Polyb. 5. 26 κατὰ τὴν τοῦ ψηφίζοντος βούλησιν, ‘at the reckoner's will’). Here, **δίκην ἐψήφισαν** has the general sense of δίκην ἐψηφίσαντο: but it is not directly modelled on that prose idiom: rather it is a new poetical phrase, meaning strictly, ‘*get* a cause *decided* by ψῆφοι.’ It implies that the votes against Ajax were secured by the intrigues of the chiefs: cp. Pind. *N.* 8. 26 f. κρυφίαισι γὰρ ἐν ψάφοις Ὀδυσσῆ Δαναοὶ θεράπευσαν· | χρυσέων δ' Αἴας στερηθεὶς ὅπλων φόνῳ πάλαισεν. [ἐψήφισαν certainly has not the technical sense of ἐπεψήφισαν, as if the Atreidae were the ἡγεμόνες δικαστηρίου, who put the issue to the vote. Even if the simple ψηφίζω could be so used, this would be too technical and prosaic.]
 
 ## 450
 **ἡ Διὸς … θεὰ**: cp. 401.
@@ -1507,16 +1507,16 @@ The real etymology of Αἴας is uncertain. Vase-inscriptions show that the or
 **βλάπτοι**: cp. *El.* 696 ὅταν δέ τις θεῶν | βλάπτῃ, δύναιτ' ἂν οὐδ' ἂν ἰσχύων φυγεῖν (n.).
 
 ## 457 ff.
-**ὅστις**, causal. It is needless to read δρᾶν *μʼ*. See on *O. C.* 263 κἄμοιγε ποῦ ταῦτ' ἐστίν; οἵτινες κ.τ.λ. (i.e. ἐπεὶ ὑμεῖς).
+**ὅστις**, causal. It is needless to read δρᾶν *μʼ*. See on *O. C.* 263 κἄμοιγε ποῦ ταῦτ' ἐστίν; οἵτινες κ.τ.λ. (*i.e.* ἐπεὶ ὑμεῖς).
 
-**μισεῖ δέ μʼ**: the relative clause passes into an independent sentence; see appendix on *O. C.* 424.— **πεδία**: for the tribrach in the 5th foot, consisting of a single word, cp. *O. T.* 719 ἄβατον ὄρος (n.), ib. 1496 πατέρα πατήρ.
+**μισεῖ δέ μʼ**: the relative clause passes into an independent sentence; see appendix on *O. C.* 424.— **πεδία**: for the tribrach in the 5th foot, consisting of a single word, cp. *O. T.* 719 ἄβατον ὄρος (n.), *ib.* 1496 πατέρα πατήρ.
 
 ## 460 f.
 **πότερα**: cp. 265 n.
 
 **ναυλόχους … ἕδρας**. Cp. Eur. *Hec.* 1015 Ἀχαιῶν ναύλοχοι περιπτυχαί (the Greek camp at the ships, with its τεῖχος).
 
-**μόνους τ' Ἀτρείδας** (λιπών), i.e., leaving them bereft of my aid. Eur. *Med.* 52 πῶς σοῦ μόνη Μήδεια λείπεσθαι θέλει; Cp. *Il.* 9. 437, where Phoenix imagines himself remaining with the army at Troy after Achilles has gone home,—πῶς ἂν ἔπειτ' ἀπὸ σεῖο, φίλον τέκος, αὖθι λιποίμην | οἶος;
+**μόνους τ' Ἀτρείδας** (λιπών), *i.e.*, leaving them bereft of my aid. Eur. *Med.* 52 πῶς σοῦ μόνη Μήδεια λείπεσθαι θέλει; Cp. *Il.* 9. 437, where Phoenix imagines himself remaining with the army at Troy after Achilles has gone home,—πῶς ἂν ἔπειτ' ἀπὸ σεῖο, φίλον τέκος, αὖθι λιποίμην | οἶος;
 
 ## 462
 **καὶ ποῖον**..; for καί in questions, cp. *O. C.* 263 (n.), *El.* 236.
@@ -1538,20 +1538,20 @@ The real etymology of Αἴας is uncertain. Vase-inscriptions show that the or
 **δρῶν τι χρηστόν**: for the order of words, cp. Ar. *Ach.* 128 ἀλλ' ἐργάσομαί τι δεινὸν ἔργον καὶ μέγα. The sense of δρᾶν τι alone is often similar: *El.* 305n. The pres. part., not δράσας, because he would die in the act.—There was a legend, which the poet glances at here, that Ajax, in his madness, attacked the Trojans with success; *manu restituit praelium insaniens* ( Cic. *Tusc.* 4. 23); and that his death was caused by an arrow from the bow of Paris: see n. on the Argument to the play, line 33.
 
 ## 469
-**Ἀτρείδας … εὐφράναιμί που**. Verg. *Aen.* 2. 104 Hoc Ithacus velit et magno mercentur Atreidae.
+**Ἀτρείδας … εὐφράναιμί που**. Verg. *Aen.* 2. 104 *Hoc Ithacus velit et magno mercentur Atreidae.*
 
 ## 470
-**οὐκ ἔστι ταῦτα**, as in *Tr.* 449: but οὐκ ἔστι simply, ib. 709, *Ant.* 289, *El.* 448.
+**οὐκ ἔστι ταῦτα**, as in *Tr.* 449: but οὐκ ἔστι simply, *ib.* 709, *Ant.* 289, *El.* 448.
 
 ## 471
 **δηλώσω … γεγώς**: cp. Thuc. 1. 21 § 2 δηλώσει...μείζων γεγενημένος: Andoc. or. 4 § 14 ἐδήλωσε τῶν νόμων καταφρονῶν.
 
-**μή τοι φύσιν γʼ**: for μή τοι...γε, see on *El.* 518. **τοι** (‘at any rate,’ Lat. *sane*) limits, while **γε** emphasises the word which it follows. Note that **οὔ τοι** could be used here, if the result were viewed simply as a fact; *O. C.* 1353 (ἀκούσας) τοιαῦθ' ἃ τὸν τοῦδ' οὔ ποτ' εὐφρανεῖ βίον. But **μή τοι** is used, because the result is viewed as an aim; i.e., the relative clause is virtually a final clause: cp. Isocr. or. 11 § 49 τοιαῦτα ζητήσεις λέγειν, ἐξ ὧν μήτ' αὐτὸς χείρων εἶναι δόξεις μήτε τοὺς μιμουμένους λυμανεῖ μήτε τὴν περὶ τοὺς λόγους παίδευσιν διαβαλεῖς.
+**μή τοι φύσιν γʼ**: for μή τοι...γε, see on *El.* 518. **τοι** (‘at any rate,’ Lat. *sane*) limits, while **γε** emphasises the word which it follows. Note that **οὔ τοι** could be used here, if the result were viewed simply as a fact; *O. C.* 1353 (ἀκούσας) τοιαῦθ' ἃ τὸν τοῦδ' οὔ ποτ' εὐφρανεῖ βίον. But **μή τοι** is used, because the result is viewed as an aim; *i.e.*, the relative clause is virtually a final clause: cp. Isocr. or. 11 § 49 τοιαῦτα ζητήσεις λέγειν, ἐξ ὧν μήτ' αὐτὸς χείρων εἶναι δόξεις μήτε τοὺς μιμουμένους λυμανεῖ μήτε τὴν περὶ τοὺς λόγους παίδευσιν διαβαλεῖς.
 
 **ἄσπλαγχνος**, only here in this sense; but cp. κακόσπλαγχνος ( Aesch. *Th.* 237), θρασύσπλαγχνος: and εὐσπλαγχνία [Eur. ] *Rhes.* 192.
 
 ## 473
-**τοῦ μακροῦ … βίου**, i.e., the normal span of life; cp. *O. T.* 518 οὔτοι βίου μοι τοῦ μακραίωνος πόθος.
+**τοῦ μακροῦ … βίου**, *i.e.*, the normal span of life; cp. *O. T.* 518 οὔτοι βίου μοι τοῦ μακραίωνος πόθος.
 
 **κακοῖσιν … μηδὲν ἐξαλλάσσεται**, finds no variation in respect to his woes; for the dat. cp. *O. T.* 25 φθίνουσα μὲν κάλυξιν: Xen. *Cyr.* 4. 1. 8 διεφθάρθαι..ταῖς γνώμαις. The generic negative **μηδὲν** is used, because ὅστις refers to a class or type. (Cp. Soph. *Ant.* 178 f. ὅστις..μὴ..ἅπτεται.) For the sentiment, cp. Soph. *Ant.* 463 ὅστις γὰρ ἐν πολλοῖσιν, ὡς ἐγώ, κακοῖς | ζῇ, πῶς ὅδ' οὐχὶ κατθανὼν κέρδος φέρει; fr. 866 ὅστις γὰρ ἐν κακοῖσιν ἱμείρει βίου, | ἢ δειλός ἐστιν ἢ δυσάλγητος φρένας.
 
@@ -1584,12 +1584,12 @@ The real etymology of Αἴας is uncertain. Vase-inscriptions show that the or
 ## 488
 **εἴπερ τινὸς σθένοντος**,=σθένοντος, εἴ τις ἔσθενε: cp. *O.C.* 733 πρὸς πόλιν δ' ἐπίσταμαι | σθένουσαν ἥκων, εἴ τιν' Ἑλλάδος, μέγα (n.).
 
-**ἐν πλούτῳ**, lit., *amid* wealth; i.e., the phrase = ‘strong *and* rich,’ rather than, ‘strong *in* riches.’ Cp. Aesch. *Eum.* 996 χαίρετ' ἐν αἰσιμίαισι πλούτου.
+**ἐν πλούτῳ**, lit., *amid* wealth; *i.e.*, the phrase = ‘strong *and* rich,’ rather than, ‘strong *in* riches.’ Cp. Aesch. *Eum.* 996 χαίρετ' ἐν αἰσιμίαισι πλούτου.
 
 ## 489
 **θεοῖς**: for the synizesis, cp. 1129: *El.* 1264 n.
 
-**μάλιστα**: i.e., as the immediate and visible agent of the gods.
+**μάλιστα**: *i.e.*, as the immediate and visible agent of the gods.
 
 ## 490 f.
 **τοιγαροῦν**, ‘So then’—marking that she turns away from the mournful past.
@@ -1614,7 +1614,7 @@ The real etymology of Αἴας is uncertain. Vase-inscriptions show that the or
 ## 496
 **ᾗ γὰρ θάνῃς σὺ** κ.τ.λ. The reason for preferring Bothe's **ᾗ** to **εἰ** is that it brings out her thought with greater force: the last day of his life will be the first of her misery. There is no objection to εἰ with the subjunctive, even in trimeters; cp. *O. C.* 1443 εἴ σου στερηθῶ, and see *O.T.* 198 n. Either εἰ or ᾗ would have been written EI by Sophocles.
 
-**ἀφῇς**, sc. με: but it is needless to write μ' ἀφῇς with Brunck. For the omission of the pron. in acc., cp. *Ph.* 801 ἔμπρησον (‘burn me’): ib. 769 ἕκηλον εὕδειν (sc. αὐτόν): ib. 1368 πέμψον (sc. με): *O.T.* 461 κἂν λάβῃς ἐψευσμένον.—For the sense of ἀφῇς, cp. *Ant.* 887 ἄφετε μόνην, ἔρημον: Her. 8. 70 ἀπέντες τὴν ἑωυτῶν ἀφύλακτον.
+**ἀφῇς**, *sc.* με: but it is needless to write μ' ἀφῇς with Brunck. For the omission of the pron. in acc., cp. *Ph.* 801 ἔμπρησον (‘burn me’): *ib.* 769 ἕκηλον εὕδειν (*sc.* αὐτόν): *ib.* 1368 πέμψον (*sc.* με): *O.T.* 461 κἂν λάβῃς ἐψευσμένον.—For the sense of ἀφῇς, cp. *Ant.* 887 ἄφετε μόνην, ἔρημον: Her. 8. 70 ἀπέντες τὴν ἑωυτῶν ἀφύλακτον.
 
 ## 498
 **ξυναρπασθεῖσαν**. Ajax being now viewed as a public enemy (1132), his property, including the δούλη and her son, would be seized by the Greek chiefs.— **δουλίαν**: the comparative rarity of the fem. form led to **δούλιν** displacing it in some MSS. (cr. n.); but cp. Aesch. *Ag.* 1084 δουλίᾳ..φρενί: Her. 3. 14 ἐσθῆτι δουλίῃ (or δουληίῃ). The Attic prose word would be δουλικήν.
@@ -1624,9 +1624,9 @@ The real etymology of Αἴας is uncertain. Vase-inscriptions show that the or
 ## 500 f.
 **καί τις** κ.τ.λ. A reminiscence of *Il.* 6. 459 ff. (where Hector forebodes the fate of Andromachè) καί ποτέ τις εἴπῃσιν, ἰδὼν κατὰ δάκρυ χέουσαν· | ‘Ἕκτορος ἥδε γυνή, ὃς ἀριστεύεσκε μάχεσθαι | Τρώων ἱπποδάμων, ὅτε Ἴλιον ἀμφεμάχοντο.’
 
-**πικρὸν πρόσφθεγμα … ἐρεῖ** describes what will be said, not to her, but *of* her; cp. *Polit.* p. 287 E ἀγγεῖον ὃ δὴ μιᾷ κλήσει προσφθεγγόμεθα (call by that name). Cp. *El.* 1213 οὔ σοι προσήκει τήνδε προσφωνεῖν φάτιν (sc. αὐτόν), i.e., to speak of him as dead. The reference of **πικρὸν** is not only to the scornful word ὁμευνέτιν, but also to οἵας λατρείας κ.τ.λ.
+**πικρὸν πρόσφθεγμα … ἐρεῖ** describes what will be said, not to her, but *of* her; cp. *Polit.* p. 287 E ἀγγεῖον ὃ δὴ μιᾷ κλήσει προσφθεγγόμεθα (call by that name). Cp. *El.* 1213 οὔ σοι προσήκει τήνδε προσφωνεῖν φάτιν (*sc.* αὐτόν), *i.e.*, to speak of him as dead. The reference of **πικρὸν** is not only to the scornful word ὁμευνέτιν, but also to οἵας λατρείας κ.τ.λ.
 
-**λόγοις ἰάπτων**, lit. ‘shooting with words,’—launching taunts like missiles. The instrum. dat. **λόγοις** marks the figurative sense of **ἰάπτων**, just as τόξοις defines its literal sense in Aesch. *Ag.* 510 (τόξοις ἰάπτων μηκέτ' εἰς ἡμᾶς βέλη): the object answering to the literal βέλη (such as ὀνείδη) is left to be understood. Cp. Rhianus (3rd cent. B.C.) ap. Stobaeus *Flor.* 4. 34. 9 μακάρεσσιν ἐπὶ ψόγον αἰνὸν ἰάπτει (by tmesis for ἐπιάπτει). This seems truer than to suppose that the constr. is λόγοις ἰάπτων (με), ‘assailing me with taunts,’ though the latter view might be supported by the rare use of ἰάλλω in *Od.* 13. 142 πρεσβύτατον καὶ ἄριστον ἀτι- μίῃσιν ἰάλλειν. As to the root of ἰάπτω, Curtius holds that ἰα-π is expanded from ἰα (=Skt. jA, ‘go’), in a causative sense, by the determinative π, just as the Lat. *ja-c* is by *k.* (*Greek Verb*, p. 167 Eng. ed.) Cp. 700.
+**λόγοις ἰάπτων**, lit. ‘shooting with words,’—launching taunts like missiles. The instrum. dat. **λόγοις** marks the figurative sense of **ἰάπτων**, just as τόξοις defines its literal sense in Aesch. *Ag.* 510 (τόξοις ἰάπτων μηκέτ' εἰς ἡμᾶς βέλη): the object answering to the literal βέλη (such as ὀνείδη) is left to be understood. Cp. Rhianus (3rd cent. B.C.) *ap.* Stobaeus *Flor.* 4. 34. 9 μακάρεσσιν ἐπὶ ψόγον αἰνὸν ἰάπτει (by tmesis for ἐπιάπτει). This seems truer than to suppose that the constr. is λόγοις ἰάπτων (με), ‘assailing me with taunts,’ though the latter view might be supported by the rare use of ἰάλλω in *Od.* 13. 142 πρεσβύτατον καὶ ἄριστον ἀτι- μίῃσιν ἰάλλειν. As to the root of ἰάπτω, Curtius holds that ἰα-π is expanded from ἰα (=Skt. jA, ‘go’), in a causative sense, by the determinative π, just as the Lat. *ja-c* is by *k.* (*Greek Verb*, p. 167 Eng. ed.) Cp. 700.
 
 ## 502 ff.
 **ἵσχυσε** would usu. be an ‘ingressive’ aor. (‘became powerful’), like ἐνόσησε etc. Here, however, it refers to the past *period* of his pre-eminence; as the reign of a king is summed up in retrospect by ἦρξε, ἐβασίλευσε. Cp. the aor. in *El.* 1144 (τροφῆς) τὴν ἐγὼ θάμ' ἀμφὶ σοὶ | πόνῳ γλυκεῖ παρέσχον: where Electra looks back on a closed chapter of her life.
@@ -1652,7 +1652,7 @@ The real etymology of Αἴας is uncertain. Vase-inscriptions show that the or
 ## 510
 **οἴκτιρε**..**εἰ** κ.τ.λ. A clause with εἰ and fut. indic. often denotes an object of pity or indignation ( *El.* 1210, *Ph.* 988). Cp. Lys. or. 13 § 15 οὐκ ἐλεοῦντες..τὰ τείχη, εἰ πεσεῖται, οὐδὲ κηδόμενοι τῶν νεῶν, εἰ..παραδοθήσονται.— *νέας τροφῆς*, the nurture suitable to the young: *O. C.* 345 ἐξ ὅτου νέας | τροφῆς ἔληξε (n.).
 
-**διοίσεται**, sc. βίον, ‘pass his life’: schol. διάξει, βιώσεται. The midd. has this absolute sense in Hippocr. *De artic.* p. 823 ὑγιηροὶ τἄλλα..διαφέρονται (‘they pass through life’): Xen. *Mem.* 2. 1. 24 σκοπούμενος διοίσει (a correction of διέσῃ). We find also διαφέρειν βίον or αἰῶνα ( Her. 3. 40, *Helen.* 10), or διαφέρειν only ([Eur. ] *Rhes.* 982).—Others explain διοίσεται as pass., *diripietur*, ‘(if) he shall be plundered.’ In this sense the usual word is διαφορεῖν, though Eur. *Bacch.* 754 has διέφερον in a kindred sense, and Arist. *Poet.* 8 § 4 the pass. διαφέρεσθαι: but such a meaning, which would fix attention on the boy's property, is utterly out of place here. [Lobeck, and Blaydes after him, cite Dion or. 41 p. 506 C ὑπ' ὀρφανιστῶν διασπασθήσεται: but the correct reference is or. 43 p. 506 C, and the words, ὑπὸ τῶν συγγενῶν καὶ ἐπιτρόπων διασπασθῆναι.]— **σοῦ … μόνος**: cp. Soph. *O. C.* 1250 ἀνδρῶν γε μοῦνος: Eur. *Med.* 52 σοῦ μόνη.
+**διοίσεται**, *sc.* βίον, ‘pass his life’: schol. διάξει, βιώσεται. The midd. has this absolute sense in Hippocr. *De artic.* p. 823 ὑγιηροὶ τἄλλα..διαφέρονται (‘they pass through life’): Xen. *Mem.* 2. 1. 24 σκοπούμενος διοίσει (a correction of διέσῃ). We find also διαφέρειν βίον or αἰῶνα ( Her. 3. 40, *Helen.* 10), or διαφέρειν only ([Eur. ] *Rhes.* 982).—Others explain διοίσεται as pass., *diripietur*, ‘(if) he shall be plundered.’ In this sense the usual word is διαφορεῖν, though Eur. *Bacch.* 754 has διέφερον in a kindred sense, and Arist. *Poet.* 8 § 4 the pass. διαφέρεσθαι: but such a meaning, which would fix attention on the boy's property, is utterly out of place here. [Lobeck, and Blaydes after him, cite Dion or. 41 p. 506 C ὑπ' ὀρφανιστῶν διασπασθήσεται: but the correct reference is or. 43 p. 506 C, and the words, ὑπὸ τῶν συγγενῶν καὶ ἐπιτρόπων διασπασθῆναι.]— **σοῦ … μόνος**: cp. Soph. *O. C.* 1250 ἀνδρῶν γε μοῦνος: Eur. *Med.* 52 σοῦ μόνη.
 
 ## 512
 **ὑπ' ὀρφανιστῶν** (διοίσεται), if he shall have his life *controlled by* them: cp. ὑπό with the midd. πορεύεται in 1253 f.: *O. C.* 681 θἁλλει δʼ..ὑπ' ἄχνας. The sense is not merely, ‘live *under* them,’ as if ὑπό with the genitive here took the sense of ὑπό with the dative (*subditus illorum imperio*, Ellendt).
@@ -1674,7 +1674,7 @@ Compare Andromachè's description, in her lament over Hector, of the lot in stor
 **ἄλλη μοῖρα**. Destiny, working through Ajax, ravaged her country. Destiny in some other form brought her father and mother to the grave. The poet did not wish to represent Tecmessa as living with the man who had slain her parents; and so followed, or invented, a legend which ascribed their deaths to a different agency. Throughout this speech, the Homeric scene between Hector and Andromachè is present to the mind of Sophocles. Andromachè's father had been slain by Achilles; her mother, by the visitation of Artemis ( *Il.* 6. 414—428).
 
 ## 517
-**καθεῖλεν … οἰκήτορας** (proleptic), brought them low, so that they should be dwellers, etc. After **Ἅιδου, θανασίμους** is redundant; but cp. *Tr.* 1161 ἀλλ' ὅστις Ἅιδου φθίμενος οἰκήτωρ πέλοι: though ib. 282 we have simply, Ἅιδου πάντες εἴσ' οἰκήτορες. For θανάσιμος said of the *dead*, cp. *O.T.* 959, *Ph.* 819.
+**καθεῖλεν … οἰκήτορας** (proleptic), brought them low, so that they should be dwellers, etc. After **Ἅιδου, θανασίμους** is redundant; but cp. *Tr.* 1161 ἀλλ' ὅστις Ἅιδου φθίμενος οἰκήτωρ πέλοι: though *ib.* 282 we have simply, Ἅιδου πάντες εἴσ' οἰκήτορες. For θανάσιμος said of the *dead*, cp. *O.T.* 959, *Ph.* 819.
 
 ## 518
 **πατρίς**: Cp. Xen. *An.* 1. 3 § 6 νομίζω γὰρ ὑμᾶς ἐμοὶ εἶναι καὶ πατρίδα καὶ φίλους καὶ συμμάχους.
@@ -1686,7 +1686,7 @@ Compare Andromachè's description, in her lament over Hector, of the lot in stor
 
 **προσεῖναι**, of a quality or attribute; cp. 1079, *Ant.* 720.
 
-**τερπνὸν εἴ τί που πάθοι**: cp. Dido's words to Aeneas ( *Aen.* 4. 316 ff.) Per conubia nostra, per inceptos hymenaeos, | Si bene quid de te merui, fuit aut tibi quicquam | Dulce meum, miserere. For the optat., marking the generality of the statement, cp. 1344: *Ant.* 666 ἀλλ' δ`ν πόλις στήσειε, τοῦδε χρὴ κλύειν (n.).
+**τερπνὸν εἴ τί που πάθοι**: cp. Dido's words to Aeneas ( *Aen.* 4. 316 ff.) *Per conubia nostra, per inceptos hymenaeos, | Si bene quid de te merui, fuit aut tibi quicquam | Dulce meum, miserere.* For the optat., marking the generality of the statement, cp. 1344: *Ant.* 666 ἀλλ' δ`ν πόλις στήσειε, τοῦδε χρὴ κλύειν (n.).
 
 ## 522
 **χάρις χάριν γάρ**: *Helen.* 1234 χάρις γὰρ ἀντὶ χάριτος ἐλθέτω. For the place of γάρ, cp. Aesch. *P. V.* 29 θεὸς θεῶν γάρ κ.τ.λ.: for that of the art., Soph. *O. T.* 139 ἐκεῖνον ὁ κτανών.
@@ -1701,12 +1701,12 @@ Compare Andromachè's description, in her lament over Hector, of the lot in stor
 ## 525 f.
 **ἔχειν σ' ἂν … θέλοιμ' ἄν**: the first ἄν, as well as the second, belongs to θέλοιμι: cp. 537: *O.T.* 339 n.
 
-**ὡς κἀγὼ**, sc. ἔχω. Cp. *Il.* 6. 476 δότε δὴ καὶ τόνδε γενέσθαι | παῖδ' ἐμόν, ὡς καὶ ἐγώ περ, ἀριπρεπέα Τρώεσσιν: this also illustrates the use of καί, on which see *O.C.* 53 ὅσ' οἶδα κἀγώ (n.).
+**ὡς κἀγὼ**, *sc.* ἔχω. Cp. *Il.* 6. 476 δότε δὴ καὶ τόνδε γενέσθαι | παῖδ' ἐμόν, ὡς καὶ ἐγώ περ, ἀριπρεπέα Τρώεσσιν: this also illustrates the use of καί, on which see *O.C.* 53 ὅσ' οἶδα κἀγώ (n.).
 
 ## 527
 **καὶ κάρτʼ**. Here καὶ=‘and.’ But where καὶ κάρτα replies to a question (*O.C.* 65 and 301), the verb being understood, καὶ merely emphasises (‘Yea, surely’), and καὶ κάρτα is then equiv. to ἦ κάρτα ( *El.* 312). Similarly in καὶ μάλα, καὶ sometimes=‘and,’ but sometimes merely strengthens the adv. (*vel maxime*): *El.* 1178 n.
 
-**τὸ ταχθὲν**=ὃ ἂν ταχθῇ: he has not yet given his command. Cp. *Tr.* 1187 ἦ μὴν ἐμοὶ τὸ λεχθὲν ἔργον ἐκτελεῖν, i.e. ὃ ἂν λεχθῇ.
+**τὸ ταχθὲν**=ὃ ἂν ταχθῇ: he has not yet given his command. Cp. *Tr.* 1187 ἦ μὴν ἐμοὶ τὸ λεχθὲν ἔργον ἐκτελεῖν, *i.e.* ὃ ἂν λεχθῇ.
 
 **τολμᾷ**, bring herself to do it: cp. 411: *Ph.* 481 τόλμησον, ‘make the effort.’ Instead of agreeing to take her *advice* (ἔπη), Ajax replies that he will be ready to praise her *obedience.*
 
@@ -1719,11 +1719,11 @@ For the alliteration (παρήχησις) cp. 1112: *O.T.* 371 τυφλὸς τ�
 **ὡς ἴδω**: cp. 538. The words express his impatient yearning.
 
 ## 531
-**καὶ μὴν φόβοισί γʼ**. The formula καὶ μήν (lit. ‘and verily’) introduces a new fact or thought; as in Tragedy it often announces a new comer (1168). When this new fact or thought raises a difficulty in the way of something proposed by the last speaker, then καὶ μήν acquires an adversative force. Thus here, its literal sense, ‘and verily,’ ‘indeed,’ is tinged by the context with the sense, ‘oh, but,’ or ‘nay, but.’ The effect of **γε** is to place a slight stress on **φόβοισι**. The combination **καὶ μήν … γε** is very frequent with Sophocles: cp. 539: *O. T.* 290, O. T. 345, O. T. 836, O. T. 987, O. T. 1004, O. T. 1066: *O. C.* 396: *Ant.* 221: *Ph.* 660: *El.* 1045, El. 1188. In all these passages the effect of **γε** is the same; i.e., it does not modify the sense of καὶ μήν, but emphasises the word or phrase with which it is immediately connected.
+**καὶ μὴν φόβοισί γʼ**. The formula καὶ μήν (lit. ‘and verily’) introduces a new fact or thought; as in Tragedy it often announces a new comer (1168). When this new fact or thought raises a difficulty in the way of something proposed by the last speaker, then καὶ μήν acquires an adversative force. Thus here, its literal sense, ‘and verily,’ ‘indeed,’ is tinged by the context with the sense, ‘oh, but,’ or ‘nay, but.’ The effect of **γε** is to place a slight stress on **φόβοισι**. The combination **καὶ μήν … γε** is very frequent with Sophocles: cp. 539: *O. T.* 290, O. T. 345, O. T. 836, O. T. 987, O. T. 1004, O. T. 1066: *O. C.* 396: *Ant.* 221: *Ph.* 660: *El.* 1045, El. 1188. In all these passages the effect of **γε** is the same; *i.e.*, it does not modify the sense of καὶ μήν, but emphasises the word or phrase with which it is immediately connected.
 
 **φόβοισι**, causal dat.: the plur. as in *O. T.* 585 ξὺν φόβοισι. Her fears were indicated at v. 340.
 
-**ἐξελυσάμην**, lit. ‘released’: i.e., allowed him to leave the tent. The midd. ἐκλύομαι means to ‘release,’ ‘set free,’ in *O.T.* 1003, *Ant.* 1112, *Tr.* 21: *H.* 7. 1. 25 ἐξελύσαντο τοὺς Ἀργείους. The choice of the word seems to be prompted by a wish not to say more than is implied in φόβοισι, or to imply that she had *rescued* the child from a danger. She speaks merely as if (in her undefined ‘fears’) she had left the care of the child to others. Then the blunt and impatient question of Ajax—ἐν τοῖσδε τοῖς κακοῖσιν κ.τ.λ.—startles her into speaking plainly,—μὴ σοί γέ που δύστηνος κ.τ.λ.
+**ἐξελυσάμην**, lit. ‘released’: *i.e.*, allowed him to leave the tent. The midd. ἐκλύομαι means to ‘release,’ ‘set free,’ in *O.T.* 1003, *Ant.* 1112, *Tr.* 21: *H.* 7. 1. 25 ἐξελύσαντο τοὺς Ἀργείους. The choice of the word seems to be prompted by a wish not to say more than is implied in φόβοισι, or to imply that she had *rescued* the child from a danger. She speaks merely as if (in her undefined ‘fears’) she had left the care of the child to others. Then the blunt and impatient question of Ajax—ἐν τοῖσδε τοῖς κακοῖσιν κ.τ.λ.—startles her into speaking plainly,—μὴ σοί γέ που δύστηνος κ.τ.λ.
 
 The conjecture **ἐξερρυσάμην** (cr. n.), ‘rescued,’ would efface this trait of reticence. It is inferred from the scholiast's phrase, τῶν φόβων χάριν ῥύσασθαι θέλουσα ἐξήγαγον. But ἐξήγαγον is there the important word, while the words ῥύσασθαι θέλουσα are merely the scholiast's expansion of the motive implied in φόβοισι.
 
@@ -1751,14 +1751,14 @@ The conjecture **ἐξερρυσάμην** (cr. n.), ‘rescued,’ would efface
 **ἔθου**: cp. 13 n.
 
 ## 537
-**ὡς ἐκ τῶνδʼ**: i.e., seeing that the child has been sent away, and that Ajax approves of her precaution (536). She wishes to divert him from the desire of seeing his son. But he instantly recurs to it.—For **ἐκτῶνδε**, ‘under these conditions,’ cp. *Tr.* 1109 (n.). **ὡς** gives a limiting force (as in ὡς ἐμοί, Tr. 395): Eur. *Andr.* 1184 οὗτός τ' ἂν ὡς ἐκ τῶνδ' ἐτιμᾶτ' ἄν, γέρον, | θανών. Thuc. 4. 17 § 1 ὡς ἐκ τῶν παρόντων. There is a verbal likeness to Soph. *Ant.* 552 τί δῆτ' ἂν ἀλλὰ νῦν σ' ἔτ' ὠφελοῖμʼ ἐγώ;
+**ὡς ἐκ τῶνδʼ**: *i.e.*, seeing that the child has been sent away, and that Ajax approves of her precaution (536). She wishes to divert him from the desire of seeing his son. But he instantly recurs to it.—For **ἐκτῶνδε**, ‘under these conditions,’ cp. *Tr.* 1109 (n.). **ὡς** gives a limiting force (as in ὡς ἐμοί, Tr. 395): Eur. *Andr.* 1184 οὗτός τ' ἂν ὡς ἐκ τῶνδ' ἐτιμᾶτ' ἄν, γέρον, | θανών. Thuc. 4. 17 § 1 ὡς ἐκ τῶν παρόντων. There is a verbal likeness to Soph. *Ant.* 552 τί δῆτ' ἂν ἀλλὰ νῦν σ' ἔτ' ὠφελοῖμʼ ἐγώ;
 
 ## 539
 **καὶ μὴν** here announces a fact which favours the last speaker's wish, and not, as in 531, a fact opposed to it; here, therefore, it becomes an expression of assent.
 
 **γε** emphasises **πέλας.**
 
-**προσπόλοις**, dat. of agent; rare, except with the *perf.* pass.; but cp. *Ant.* 1218 θεοῖσι κλέπτομαι, and ib. 504 f. (n.).
+**προσπόλοις**, dat. of agent; rare, except with the *perf.* pass.; but cp. *Ant.* 1218 θεοῖσι κλέπτομαι, and *ib.* 504 f. (n.).
 
 ## 540
 **μὴ οὐ**, since **τί μέλλει** is equiv. to μὴ μελλέτω: cp. Aesch. *P. V.* 627 τί δῆτα μέλλεις μὴ οὐ γεγωνίσκειν τὸ πᾶν;
@@ -1785,16 +1785,16 @@ The conjecture **ἐξερρυσάμην** (cr. n.), ‘rescued,’ would efface
 **νεοσφαγῆ … φόνον**, the adj. compounded with a word akin in sense to the subst.; cp. *Ant.* 1283 νεοτόμοισι πλήγμασιν.—There is no reason to doubt the genuineness of **που**, which gives a touch of grim irony. L's reading, **τοῦ**, certainly points to **τοῦτόν γε**: but this is very in ferior to the vulgate. Wecklein, reading **του**, thinks that Ajax wishes to avoid saying μου.
 
 ## 547
-**δικαίως**, in a full and true sense: cp. *O. T.* 852 οὔτοι ποτʼ, ὦναξ, τόν γε Λαΐου φόνον | φανεῖ δικαίως ὀρθόν, i.e. ‘properly fulfilled.’
+**δικαίως**, in a full and true sense: cp. *O. T.* 852 οὔτοι ποτʼ, ὦναξ, τόν γε Λαΐου φόνον | φανεῖ δικαίως ὀρθόν, *i.e.* ‘properly fulfilled.’
 
 **τὰ πατρόθεν** is re dundant, but not pointless; the qualities derived from the father will prevail over any weaker qualities derived μητρόθεν.
 
 ## 548
-**ὠμοῖς … ἐν νόμοις**, the rugged usages of a warrior inured to the sight of bloodshed. For the adj., cp. 205 ὠμοκρατής, n. In saying νόμοις rather than τρόποις, he speaks with a certain heroic grandeur (μεγαλοφρονῶν, as the schol. remarks). Cp. *C.* 2. 15. 11 non ita Romuli | Praescriptum et intonsi Catonis | Auspiciis veterumque norma.
+**ὠμοῖς … ἐν νόμοις**, the rugged usages of a warrior inured to the sight of bloodshed. For the adj., cp. 205 ὠμοκρατής, n. In saying νόμοις rather than τρόποις, he speaks with a certain heroic grandeur (μεγαλοφρονῶν, as the schol. remarks). Cp. *C.* 2. 15. 11 *non ita Romuli | Praescriptum et intonsi Catonis | Auspiciis veterumque norma.*
 
 **πωλοδαμνεῖν**, to break him in like a colt. The word was familiar in Attic ( Xen. *Oec.* 3. 10, etc.). Cp. Plut. *Mor.* 13 E οὕτω σκιρτῶσα νεότης πωλοδαμνεῖται. Lucian *Amor.* 45 τὴν νεότητα πωλοδαμνήσας. For the metaphor implicit in the compound verb, cp. *Ant.* 994 ἐναυκλήρεις πόλιν.
 
-**κἀξομοιοῦσθαι** is passive, and αὐτόν (the object of πωλοδαμνεῖν) is its subject, **φύσιν** being acc. of respect. For the infinitives, linked by καί, yet having different subjects, cp. Plat. *Rep.* p. 359 E (λέγουσιν) αὐτὸν ἀφανῆ γενέσθαι τοῖς παρακαθημένοις, καὶ διαλέγεσθαι [sc. αὐτοὺς] ὡς περὶ οἰχομένου.
+**κἀξομοιοῦσθαι** is passive, and αὐτόν (the object of πωλοδαμνεῖν) is its subject, **φύσιν** being acc. of respect. For the infinitives, linked by καί, yet having different subjects, cp. Plat. *Rep.* p. 359 E (λέγουσιν) αὐτὸν ἀφανῆ γενέσθαι τοῖς παρακαθημένοις, καὶ διαλέγεσθαι [*sc.* αὐτοὺς] ὡς περὶ οἰχομένου.
 
 ## 550
 **ὦ παῖ** κ.τ.λ. Paraphrased by Attius, *Armorum Iudicium* fr. 10, *Virtuti sis par*, *dispar fortunis patris*: and imitated by Verg. *Aen.* 12. 435 (Aeneas to Ascanius), *Disce*, *puer*, *virtutem ex me verumque laborem*, | *Fortunam ex aliis.*
@@ -1806,25 +1806,25 @@ The conjecture **ἐξερρυσάμην** (cr. n.), ‘rescued,’ would efface
 
 **σε** is better here than **σὲ** (which L has), though the emphasis could be defended (‘I, the man, might envy *thee*, the child’).
 
-**τοῦτό γε**: this acc. of respect (instead of the ordinary genitive) with ζηλοῦν is unusual; but the same constr. sometimes occurs with words of a like sense, e.g. *Vesp.* 588 τουτὶ γάρ τοί σε μόνον..μακαρίζω.
+**τοῦτό γε**: this acc. of respect (instead of the ordinary genitive) with ζηλοῦν is unusual; but the same constr. sometimes occurs with words of a like sense, *e.g.* *Vesp.* 588 τουτὶ γάρ τοί σε μόνον..μακαρίζω.
 
 **οὐδὲν** is best taken as acc. governed by **ἐπαισθάνει**: cp. 996: *O. T.* 424 ἄλλων δὲ πλῆθος οὐκ ἐπαισθάνει κακῶν. It might, however, be adv. (cp. *Ant.* 1183 τῶν λόγων ἐπῃσθόμην).
 
 ## 554
-**ἐν τῷ φρονεῖν μηδὲν**: i.e., before there is any intelligent consciousness of joy or sorrow (555).
+**ἐν τῷ φρονεῖν μηδὲν**: *i.e.*, before there is any intelligent consciousness of joy or sorrow (555).
 
-*554* *b* [**τὸ μὴ φρονεῖν γὰρ** κ.τ.λ.] Such an unconsciousness is an ‘evil,’ as excluding τὸ χαίρειν, but ‘painless,’ as exempt from τὸ λυπεῖσθαι. This verse was probably written in the margin, as a parallel passage to v. 554, and then crept into the text. It may come (as Valckenär thought) from some other play of Sophocles; its tone seems less suggestive of Euripides. That it was a familiar quotation, may be seen from the way in which it is brought in by the novelist Eustathius (or Eumathius), in τὸ καθ' Ὑσμίνην καὶ Ὑσμινίαν σρᾶμα (c. 1100 A.D. ?), ch. 2 § 7 (*Erot. Scriptores* vol. II. p. 174 ed. Hercher), τοῦ ἔπους ἐμνήσθην ὡς τὸ μὴ φρονεῖν κάρτ' ἀνώδυνον κακόν. It is translated, along with v. 553, in the sentences of Publilius Syrus (c. 45 B.C.), 876 f., Suavissima haec est vita, si sapias nihil: | Nam sapere nil doloris expers est malum. But those two verses are doubtless later interpolations in the text of Publilius: they are wanting in the best MS. (Monac. lat. 6292).
+*554* *b* [**τὸ μὴ φρονεῖν γὰρ** κ.τ.λ.] Such an unconsciousness is an ‘evil,’ as excluding τὸ χαίρειν, but ‘painless,’ as exempt from τὸ λυπεῖσθαι. This verse was probably written in the margin, as a parallel passage to v. 554, and then crept into the text. It may come (as Valckenär thought) from some other play of Sophocles; its tone seems less suggestive of Euripides. That it was a familiar quotation, may be seen from the way in which it is brought in by the novelist Eustathius (or Eumathius), in τὸ καθ' Ὑσμίνην καὶ Ὑσμινίαν σρᾶμα (*c.* 1100 A.D. ?), ch. 2 § 7 (*Erot. Scriptores* vol. II. p. 174 ed. Hercher), τοῦ ἔπους ἐμνήσθην ὡς τὸ μὴ φρονεῖν κάρτ' ἀνώδυνον κακόν. It is translated, along with v. 553, in the sentences of Publilius Syrus (*c.* 45 B.C.), 876 f., *Suavissima haec est vita, si sapias nihil: | Nam sapere nil doloris expers est malum.* But those two verses are doubtless later interpolations in the text of Publilius: they are wanting in the best MS. (Monac. lat. 6292).
 
 ## 555
 **ἕως**, without ἄν: so *Ph.* 764, *Tr.* 148.
 
 ## 556
-**ἵκῃ πρὸς τοῦτο**, i.e. πρὸς τὸ μαθεῖν. Cp. 1365.
+**ἵκῃ πρὸς τοῦτο**, *i.e.* πρὸς τὸ μαθεῖν. Cp. 1365.
 
 **δεῖ σ' ὅπως … δείξεις**: see on *Ph.* 54 f. τὴν Φιλοκτήτου σε δεῖ | ψυχὴν ὅπως λόγοισιν ἐκκλέψεις λέγων.— *ʼτράφης* suggests the inbred qualities of the race; cp. *Ph.* 3 κρατίστου πατρὸς Ἑλλήνων τραφείς. For the prodelision of the augment in the 6th foot of the v., cp. *Ant.* 457ʼφάνη: *Helen.* 263 (εἴθε) αἴσχιον εἶδος ἀντὶ τοῦ καλοῦ ʼλαβον.
 
 ## 558
-**τέως**, ‘meanwhile,’ referring to the limit of time marked by v. 556. So in *Od.* 15. 127, τῆος δὲ φίλῃ παρὰ μητρὶ | κείσθω, the ref. is to the limit marked by ἐς γάμου ὥρην just before. And ib. 230 εἰς ἐνιαυτὸν | εἶχε βίῃ· ὁ δὲ τῆος...δέδετο. Other usages of τέως are: (1) when it answers to ἕως: Ar. *Pax* 32 τέως ἕως λάθοις σαυτὸν διαρραγείς: and (2) when it means, ‘for a time’ (or, ‘hitherto’), and is followed by a clause with δέ or ἀλλά: Her. 1. 82 τέως μὲν δὴ..τέλος δέ κ.τ.λ.
+**τέως**, ‘meanwhile,’ referring to the limit of time marked by v. 556. So in *Od.* 15. 127, τῆος δὲ φίλῃ παρὰ μητρὶ | κείσθω, the ref. is to the limit marked by ἐς γάμου ὥρην just before. And *ib.* 230 εἰς ἐνιαυτὸν | εἶχε βίῃ· ὁ δὲ τῆος...δέδετο. Other usages of τέως are: (1) when it answers to ἕως: Ar. *Pax* 32 τέως ἕως λάθοις σαυτὸν διαρραγείς: and (2) when it means, ‘for a time’ (or, ‘hitherto’), and is followed by a clause with δέ or ἀλλά: Her. 1. 82 τέως μὲν δὴ..τέλος δέ κ.τ.λ.
 
 **κούφοις πνεύμασιν**, light airs, gentle breezes, such as nourish young plants. Lobeck quotes Dion Chrysostomus or. 12 p. 202 B τρεφόμενοι τῇ διηνεκεῖ τοῦ πνεύματος ἐπιρροῇ ἀέρα ὑγρὸν ἕλκοντες ὥσπερ νήπιοι παῖδες. Pliny *H. N.* 18. 34 *Zephyrum dicit in plantas nutricium exercere.* Lucian *Bix accus.* § 1 τοὺς ἀνέμους φυτουργοῦντας. We might add Catull. 62. 39 *ut flos*.. | *Quem mulcent aurae*, *firmat sol*, *educat imber.*
 
@@ -1889,7 +1889,7 @@ But a loop at the edge of the shield, such as the πόρπαξ offered to the wa
 
 **πολυρράφου** (‘much, or well, stitched’) is a general epithet for elaborate leatherwork, and is again illustrated by the vase-painting cited above, where ornamental tassels hang from the pins which divide the loops of the πόρπαξ. In Theocr. 25. 265, πολύρραπτόν τε φαρέτρην, the epithet probably refers to braiding; quivers were often made of hide or leather.
 
-**ἑπτάβοιον**=epic ἑπταβόειον: see n. on 19. The second part of the compound is not βοῦς, but βοεία, ox-hide ( *Il.* 12. 296). The shield was the work of Τυχίος, σκυτοτόμων ὄχ' ἄριστος,—so essentially was the currier's art that which it chiefly demanded ( *Il.* 7. 220). Tychios dwelt at Ὕλη,—probably the Boeotian ( *Il.* 2. 500). The number of *seven* layers of hide was probably exceptional; in *Il.* 15. 479 Teucer has a σάκος τετραθέλυμνον, i.e., with four such layers.
+**ἑπτάβοιον**=epic ἑπταβόειον: see n. on 19. The second part of the compound is not βοῦς, but βοεία, ox-hide ( *Il.* 12. 296). The shield was the work of Τυχίος, σκυτοτόμων ὄχ' ἄριστος,—so essentially was the currier's art that which it chiefly demanded ( *Il.* 7. 220). Tychios dwelt at Ὕλη,—probably the Boeotian ( *Il.* 2. 500). The number of *seven* layers of hide was probably exceptional; in *Il.* 15. 479 Teucer has a σάκος τετραθέλυμνον, *i.e.*, with four such layers.
 
 ## 577
 **τεθάψεται**. Here, as at 1141, the fut. perf. gives a peremptory tone. Athena uses it in *I. T.* 1464: οὗ καὶ τεθάψει. (Cp. *Nub.* 1436 τεθνήξεις.) The ordinary fut. pass. was ταφήσομαι. The practice of burying a warrior's arms with him was a primitive Aryan custom; witness the swords found in the graves at Mycenae. Sophocles in this play follows the legend that the body of Ajax was *interred*, and not, as was the ordinary practice in the heroic age, burned (cp. 1166 n.). The reference to the burial of the arms is thus perfectly fitting. There was less meaning in the practice, noticed by Homer, of *burning* a warrior's armour with him; *Il.* 6. 418 ἀλλ' ἄρα μιν κατέκηε σὺν ἔντεσι δαιδαλέοισιν: *Od.* 11. 74 ἀλλά με κακκῆαι σὺν τεύχεσιν. It may have come down from the earlier days when interment was the rule. No arms are burned on the pyre of Patroclus ( *Il.* 23. 165 ff.), Hector (24. 785 ff.), or Achilles ( *Od.* 24. 65 ff.).
@@ -1899,7 +1899,7 @@ But a loop at the edge of the shield, such as the πόρπαξ offered to the wa
 ## 579 ff.
 **πάκτου**. πακτόω (πακτός= πηκτός) is used by Her. 2. 96 (in the compound ἐμ-), and by *Vesp.* 128, of ‘stopping up’ holes, ‘caulking,’ and this may have been its special sense. But the general sense, ‘to make fast,’ occurs in Ar. *Lys.* 264 μοχλοῖς τε καὶ κλήθροισι τὰ προπύλαια πακτοῦν. Eustathius, who explains it by ἀσφαλίζεσθαι (p. 742. 43), seems to regard the use of the word with ref. to closing doors as peculiarly Attic (p. 1937. 62 τὸ συγκλεῖσαι, πακτῶσαι παρ' Ἀττικοῖς). According to Pollux 10. 27, however, Archilochus had used πακτῶσαι as=κλεῖσαι.
 
-**ἐπισκήνους**=ἐπὶ τῇ σκηνῇ, *at* the tent, i.e., in front of it. Cp. *Ant.* 1247 ἐς πόλιν γόους | οὐκ ἀξιώσειν, ἀλλ' ὑπὸ στέγης ἔσω, κ.τ.λ.
+**ἐπισκήνους**=ἐπὶ τῇ σκηνῇ, *at* the tent, *i.e.*, in front of it. Cp. *Ant.* 1247 ἐς πόλιν γόους | οὐκ ἀξιώσειν, ἀλλ' ὑπὸ στέγης ἔσω, κ.τ.λ.
 
 **φιλοίκτιστον**: schol. on *Il.* 22. 88 φίλοικτον χρῆμα ἡ γυνή. Eur. *H. F.* 536 τὸ θῆλυ γάρ πως μᾶλλον οἰκτρὸν ἀρσένων. For the neut., cp. Eur. *El.* 1035 μῶρον μὲν οὖν γυναῖκες: O. *C.* 592 n. The adj. is formed from the midd. οἰκτίζομαι as= ‘to lament’ ( *I. T.* 486, etc.).
 
@@ -1910,12 +1910,12 @@ But a loop at the edge of the shield, such as the πόρπαξ offered to the wa
 
 **θρηνεῖν ἐπῳδὰς**: as to the medical use of ἐπῳδαί, see on *O. C.* 1194 φίλων ἐπῳδαῖς ἐξεπᾴδονται φύσιν. The transition from gentle incantations to drastic surgery is similarly implied in *Tr.* 1000 τίς γὰρ ἀοιδός, τίς ὁ χειροτέχνης | ἰατορίας, ὃς τήνδ' ἄτην | χωρὶς Ζηνὸς κατακηλήσει; (n.)
 
-**τομῶντι** means here, not ἐπιθυμοῦντι τέμνειν, but δεομένῳ τομῆς: cp. Lucian *Lexiphanes* 4 τὰ ὄμματά μοι φαρμακᾷ,= δεῖται φαρμάκων. Ov. *Met.* 1. 190 Cuncta prius tentata; sed immedicabile vulnus | Ense recidendum est, ne pars sincera trahatur.
+**τομῶντι** means here, not ἐπιθυμοῦντι τέμνειν, but δεομένῳ τομῆς: cp. Lucian *Lexiphanes* 4 τὰ ὄμματά μοι φαρμακᾷ,= δεῖται φαρμάκων. Ov. *Met.* 1. 190 *Cuncta prius tentata; sed immedicabile vulnus | Ense recidendum est, ne pars sincera trahatur.*
 
 ## 583 f.
 **προθυμίαν**, the eagerness expressed by πύκαζε θᾶσσον.
 
-**ἀρέσκει** with acc., as often in Attic: Eur. *Hipp.* 185 οὐδέ σ' ἀρέσκει τὸ παρόν (and ib. 106 οὐδείς μ' ἀρέσκει): *Vesp.* 776 τουτί μ' ἀρέσκει: *Th.* 406, *Ran.* 103, *Pl.* 353. Cp. *El.* 147 ἐμέ γʼ...ἄραρεν (n.).
+**ἀρέσκει** with acc., as often in Attic: Eur. *Hipp.* 185 οὐδέ σ' ἀρέσκει τὸ παρόν (and *ib.* 106 οὐδείς μ' ἀρέσκει): *Vesp.* 776 τουτί μ' ἀρέσκει: *Th.* 406, *Ran.* 103, *Pl.* 353. Cp. *El.* 147 ἐμέ γʼ...ἄραρεν (n.).
 
 **τεθηγμένη**: cp. Aesch. *P. V.* 311 τραχεῖς καὶ τεθηγμένους λόγους.
 
@@ -1950,7 +1950,7 @@ The division of the verse between two speakers (ἀντιλαβή) is here used 
 **ξυνέρξεθʼ**,=συγκλείσετε, fut. of ξυνείργω: but in *Ph.* 1407 we find εἴρξω, a form which the poet may have preferred there, because in the verse before he had used ἔρξεις as fut. of ἔρδω. (In *Tr.* 83 ξυνέρξων is fut. of ξυνέρδω.) The command is given to the πρόσπολοι (544).
 
 ## 595
-**ἄρτι**: i.e. this new hope (if such she has) is one of which long experience might have taught her the vanity.
+**ἄρτι**: *i.e.* this new hope (if such she has) is one of which long experience might have taught her the vanity.
 
 Ajax is now withdrawn into the tent on the eccyclema (εἰσκυκλεῖται), and the entrance is closed. Tecmessa and her child retire by another door into the part of the dwelling which is supposed to represent the γυναικών. They re-enter after the Choral ode, and are present while Ajax speaks (see 684 ff.). Some, indeed, suppose that they remain on the scene during the ode; but the command of Ajax to Tecmessa in 579 f., μηδ' ἐπισκήνους γόους | δάκρυε, is against this.
 
@@ -1993,7 +1993,7 @@ For other views of the passage, and other emendations, see Appendix.
 **ἐλπίδʼ**, the neutral ‘expectation,’ is here colured by **κακάν**: below, in 1382, it stands alone as=a foreboding of evil: cp. 799 ἐλπίζει.
 
 ## 607 ff.
-**ἔτι**: i.e., before the campaign is over.
+**ἔτι**: *i.e.*, before the campaign is over.
 
 **με**, though the pron. refers to the subject of the inf.: *Tr.* 706 n.— **ἀνύσειν … Ἅιδαν**, as *Suppl.* 1142 ποτανοὶ δ' ἤνυσαν τὸν Ἅιδαν. Cp. *O. C.* 1562 ἐξανύσαι τὰν παγκευθῆ κάτω | νεκρῶν πλάκα. But in *Tr.* 657 πρὸς πόλιν ἀνύσειε.
 
@@ -2002,7 +2002,7 @@ For other views of the passage, and other emendations, see Appendix.
 **ἀΐδηλον Ἅιδαν**: the etymology of Hades was so far forgotten in the per sonification that the tautology of this phrase would not be felt. Cp. *Il.* 2. 758 Πρόθοος θοὸς ἡγεμόνευεν. The Homeric sense of ἀΐδηλος is active, ‘destroying’ (ἀφανίζων): but Hes. *Op.* 754 has ἀΐδηλα as=ἀφανῆ.
 
 ## 610
-**ἔφεδρος** was said of an athlete who ‘sat by’ at a match between two other men, prepared to engage the winner (cp. suppositicius in Mart. 5. 24. 8). Thus in Aristoph. *Ran.* 792 Sophocles proposes ἔφεδρος καθεδεῖσθαι, while the two other poets contend, and to encounter Euripides if the latter should vanquish Aeschylus. To the Chorus (χρόνῳ τρυχόμενος), Ajax is an ἔφεδρος, as being a fresh trouble in reserve. Schol.: πρὸς τοῖς πρώτοις κακοῖς ὥσπερ δεύτερόν ἐστί μοι κακὸν τὸ τοῦ Αἴαντος ξυνεστηκός: where the last word is happily chosen to mark that ἔφεδρος implies a trouble with which they have *to grapple*: see on Soph. *O. C.* 514 ἀλγηδόνος, ᾇ ξυνέστας. For the fig. sense, cp. Philo vol. 2 p. 527 μετὰ πάσας τὰς αἰκίας..αὐτοῖς ἡ τελευταία καὶ ἔφεδρος τιμωρία σταυρὸς ἦν, ‘after all their torments, the final doom *reserved* for them was the cross.’ The technical sense of the word was so familiar (cp. Pind. *N.* 4. 96, Aesch. *Cho.* 866) that it would be understood here without direct help from the context.
+**ἔφεδρος** was said of an athlete who ‘sat by’ at a match between two other men, prepared to engage the winner (cp. *suppositicius* in Mart. 5. 24. 8). Thus in Aristoph. *Ran.* 792 Sophocles proposes ἔφεδρος καθεδεῖσθαι, while the two other poets contend, and to encounter Euripides if the latter should vanquish Aeschylus. To the Chorus (χρόνῳ τρυχόμενος), Ajax is an ἔφεδρος, as being a fresh trouble in reserve. Schol.: πρὸς τοῖς πρώτοις κακοῖς ὥσπερ δεύτερόν ἐστί μοι κακὸν τὸ τοῦ Αἴαντος ξυνεστηκός: where the last word is happily chosen to mark that ἔφεδρος implies a trouble with which they have *to grapple*: see on Soph. *O. C.* 514 ἀλγηδόνος, ᾇ ξυνέστας. For the fig. sense, cp. Philo vol. 2 p. 527 μετὰ πάσας τὰς αἰκίας..αὐτοῖς ἡ τελευταία καὶ ἔφεδρος τιμωρία σταυρὸς ἦν, ‘after all their torments, the final doom *reserved* for them was the cross.’ The technical sense of the word was so familiar (cp. Pind. *N.* 4. 96, Aesch. *Cho.* 866) that it would be understood here without direct help from the context.
 
 Prof. Campbell pronounces this interpretation ‘untenable,’ and renders ἔφεδρος ‘fixed at my side,’ because ‘Ajax had remained sitting throughout the previous scene,’ and had now apparently relapsed into sullen inaction within his tent.
 
@@ -2017,7 +2017,7 @@ Prof. Campbell pronounces this interpretation ‘untenable,’ and renders ἔφ
 **Ἄρει** with **ᾱ**, as in 254 (n.).
 
 ## 613
-[614] **φρενὸς οἰοβώτας**, ‘a lonely pasturer of his thoughts,’—i.e., one who nurses lonely thoughts. They allude to the gloomy and ominous despair which has replaced his frenzy. The ending -βώτης could mean either βοσκόμενος, as in *Ph.* 1148 οὐρεσιβώτας (θῆρας), or βόσκων. The latter seems best here; his φρήν represents the flock; he is the shepherd. Cp. *Suppl.* 304 ποῖον πανόπτην οἰοβουκόλον λέγεις; (Argus,— Io being his sole charge.) Simonides fr. 133 Ὄσσα, Κιθαιρῶνός τ' οἰονόμοι σκοπιαί. Other compounds in which οἶος has a like force are οἰόφρων (πέτρα, *Suppl.* 795), οἰόζωνος ( *O. T.* 846).
+[614] **φρενὸς οἰοβώτας**, ‘a lonely pasturer of his thoughts,’—*i.e.*, one who nurses lonely thoughts. They allude to the gloomy and ominous despair which has replaced his frenzy. The ending -βώτης could mean either βοσκόμενος, as in *Ph.* 1148 οὐρεσιβώτας (θῆρας), or βόσκων. The latter seems best here; his φρήν represents the flock; he is the shepherd. Cp. *Suppl.* 304 ποῖον πανόπτην οἰοβουκόλον λέγεις; (Argus,— Io being his sole charge.) Simonides fr. 133 Ὄσσα, Κιθαιρῶνός τ' οἰονόμοι σκοπιαί. Other compounds in which οἶος has a like force are οἰόφρων (πέτρα, *Suppl.* 795), οἰόζωνος ( *O. T.* 846).
 
 ## 615
 **ηὕρηται**. ηὕρημαι is usually pass.; but sometimes midd., as in Dem. or. 19 § 17, or. 55 § 31, Aeschin. or. 3 § 162. Here the pass. sense is more forcible: Ajax is himself the πένθος.
@@ -2037,7 +2037,7 @@ Prof. Campbell pronounces this interpretation ‘untenable,’ and renders ἔφ
 
 **παλαιᾷ … ἁμέρᾳ**, the day of old age; cp. Eur. *Ion* 720 νέαν δ' ἁμέραν ἀπολιπὼν θάνοι. Ar. *Ran.* 347 χρονίους τ' ἐτῶν παλαιῶν ἐνιαυτούς.
 
-**λευκῷ**, the general epithet of γῆρας, seems slightly more poetical here than **λευκὰ**, though the latter may be supported by Eur. *H. F.* 909 ὦ λευκὰ γήρᾳ σώματʼ. Cp. Eur. *Bacch.* 258 γῆρας πολιόν. The use of **μὲν** and **δὲ** here is the same as in ‘epanaphora,’ where the ideas represented by the formally opposed clauses are often closely akin; e.g. *Theog.* 656 ἴδμεν ὅ τοι πέρι μὲν πραπίδες πέρι δ' ἐστὶ νόημα, Her. 7. 9 τῶν ἐπιστάμεθα μὲν τὴν μάχην ἐπιστάμεθα δὲ τὴν δύναμιν.
+**λευκῷ**, the general epithet of γῆρας, seems slightly more poetical here than **λευκὰ**, though the latter may be supported by Eur. *H. F.* 909 ὦ λευκὰ γήρᾳ σώματʼ. Cp. Eur. *Bacch.* 258 γῆρας πολιόν. The use of **μὲν** and **δὲ** here is the same as in ‘epanaphora,’ where the ideas represented by the formally opposed clauses are often closely akin; *e.g.* *Theog.* 656 ἴδμεν ὅ τοι πέρι μὲν πραπίδες πέρι δ' ἐστὶ νόημα, Her. 7. 9 τῶν ἐπιστάμεθα μὲν τὴν μάχην ἐπιστάμεθα δὲ τὴν δύναμιν.
 
 ## 624
 [625 f.] **νοσοῦντα φρενομόρως**, suffering from a calamity (μόρος) to the mind. The adv. (a somewhat strange compound) may have been suggested by the Aeschylean φρενώλης ( *Theb.* 757), φρενομανής ( *Ag.* 1140). It recalls also the paraphrase of μανία in Eur. *H. F.* 1024 by λυσσάδι..μοίρᾳ.
@@ -2054,7 +2054,7 @@ Prof. Campbell pronounces this interpretation ‘untenable,’ and renders ἔφ
 **χερόπλακτοι … δοῦποι**, the sound of beating hands: cp. 55 πολύκερων φόνον (n.): *O. C.* 1464 κτύπος.. διόβολος.
 
 ## 633
-[634] **ἄμυγμα**, here ‘rending,’ would ordinarily mean ‘a scratch’; cp. Aesch. *Ch.* 24 πρέπει παρηῒς φοινίοις ἀμυγμοῖς. The more natural word here would have been σπάραγμα: cp. Eur. *Andr.* 826 σπάραγμα κόμας ὀνύχων τε δάϊʼ ἀμύγματα θήσομαι: ib. 1209 οὐ σπαράξομαι κόμαν.
+[634] **ἄμυγμα**, here ‘rending,’ would ordinarily mean ‘a scratch’; cp. Aesch. *Ch.* 24 πρέπει παρηῒς φοινίοις ἀμυγμοῖς. The more natural word here would have been σπάραγμα: cp. Eur. *Andr.* 826 σπάραγμα κόμας ὀνύχων τε δάϊʼ ἀμύγματα θήσομαι: *ib.* 1209 οὐ σπαράξομαι κόμαν.
 
 ## 635 f.
 **κρείσσων … κεύθων**, the personal constr., instead of κρεῖσσόν ἐστι κεύθειν αὐτόν: cp. *O. T.* 1368 κρείσσων γὰρ ἦσθα μηκέτ' ὢν ἢ ζῶν τυφλός: Lys. or. 26 § 4 κρείττων ἦν ὁ πατὴρ αὐτοῦ μὴ λειτουργήσας: Dem. or. 3 § 34 οἴκοι μένων βελτίων: Soph. *Ant.* 6. 9 κρείττων γὰρ ἂν... γένοιτο ὁ τοιοῦτος πολίτης ἀποθανών.
@@ -2063,10 +2063,10 @@ Elmsley's emendation, *παῤ* Ἄιδᾳ, instead of *γὰρ* Ἅιδᾳ (the
 
 **κεύθων**, as in *O. T.* 968 κεύθει κάτω δὴ γῆς. *Ant.* 911 ἐν Ἅιδου..κεκευθότοιν.
 
-**ὁ νοσῶν μάταν**: here the adv. = ‘foolishly,’ i.e., insanely. Cp. Ar. *Pax* 95 τί πέτει; τί μάτην οὐχ ὑγιαίνεις; Aesch. *Cho.* 288 καὶ λύσσα καὶ μάταιος ἐκ νυκτῶν φόβος. For the order of words, instead of ὁ μάταν νοσῶν, cp. *El.* 792 τοῦ θανόντος ἀρτίως (n.).
+**ὁ νοσῶν μάταν**: here the adv. = ‘foolishly,’ *i.e.*, insanely. Cp. Ar. *Pax* 95 τί πέτει; τί μάτην οὐχ ὑγιαίνεις; Aesch. *Cho.* 288 καὶ λύσσα καὶ μάταιος ἐκ νυκτῶν φόβος. For the order of words, instead of ὁ μάταν νοσῶν, cp. *El.* 792 τοῦ θανόντος ἀρτίως (n.).
 
 ## 636
-**ἐκ πατρῴας ἥκων γενεᾶς ἄριστος … Ἀχαιῶν**, lit., ‘noblest of the Achaeans by his descent (ἥκων) from the line of his fathers’: i.e., having a prouder lineage than any other Achaean can claim. **ἥκων** here, going with **ἄριστος**, has nearly the same force as (e.g.) in *O. T.* 1519 θεοῖς ἔχθιστος ἥκω, ‘I have become most hateful to them’: i.e., it denotes the *outcome* of an illustrious ancestry. Though **ἄριστος** (see cr. n.) cannot be regarded as certain, and may be a mere conjecture, it is at least far better than anything else that has been suggested.
+**ἐκ πατρῴας ἥκων γενεᾶς ἄριστος … Ἀχαιῶν**, lit., ‘noblest of the Achaeans by his descent (ἥκων) from the line of his fathers’: *i.e.*, having a prouder lineage than any other Achaean can claim. **ἥκων** here, going with **ἄριστος**, has nearly the same force as (*e.g.*) in *O. T.* 1519 θεοῖς ἔχθιστος ἥκω, ‘I have become most hateful to them’: *i.e.*, it denotes the *outcome* of an illustrious ancestry. Though **ἄριστος** (see cr. n.) cannot be regarded as certain, and may be a mere conjecture, it is at least far better than anything else that has been suggested.
 
 The ingenious conjecture of Burges, ὃς *εὖ* πατρῴας ἥκων γενεᾶς *ἄνωθεν*, would mean, ‘fortunate (εὖ ἥκων) in his descent (ἄνωθεν) with regard to paternal lineage’ (the gen. γενεᾶς as in χρημάτων εὖ ἥκοντες, Her. 5. 62, etc.). But this is tame; and εὖ ἥκων is also prosaic: nor does it account for the gen. Ἀχαιῶν. Wecklein, reading εὖ πατρῴας ἥκων γενεᾶς, *ἄριστα*..Ἀχαιῶν, understands, ‘fortunate in his lineage, — *most* so, indeed, of the Achaeans’: so that ἄριστα defines εὖ.
 
@@ -2075,10 +2075,10 @@ The ingenious conjecture of Burges, ὃς *εὖ* πατρῴας ἥκων γε
 ## 639 f.
 **συντρόφοις ὀργαῖς**, the dispositions that have grown with his growth, his natural τρόποι: for the subst., cp. *Ant.* 355 ἀστυνόμους ὀργάς (n.): for the adj., *Ph.* 203 (κτύπος) φωτὸς σύντροφος ὡς τειρομένου του. With **ἔμπεδος** supply ἐστί: he is not stable, constant, in respect to them (=οὐκ ἐμμένει αὐταῖς).
 
-**ἐκτὸς ὁμιλεῖ**, is conversant (with thoughts) *outside of* the ξύντροφοι ὀργαί. The only peculiarity is that from ξυντρόφοις ὀργαῖς we are left to supply ἄλλαις ὀργαῖς (suggested by **ἐκτὸς**) with **ὁμιλεῖ**. (We cannot, surely, understand ἐκτὸς ὁμιλεῖ ξυντρόφοις ὀργαῖς, as if it were an oxymoron, =οὐχ ὁμιλεῖ.) The expression is of the same stamp as that in Eur. *Bacch.* 331 οἴκει μεθ' ἡμῶν, μὴ θύραζε τῶν νόμων, (‘dwell with us, forsaking not the pale of our customs,’ etc.): ib. 853 ἔξω δ' ἐλαύνων τοῦ φρονεῖν. For **ὁμιλεῖ**, cp. *Nub.* 1399 ὡς ἡδὺ καινοῖς πράγμασιν καὶ δεξιοῖς ὁμιλεῖν.
+**ἐκτὸς ὁμιλεῖ**, is conversant (with thoughts) *outside of* the ξύντροφοι ὀργαί. The only peculiarity is that from ξυντρόφοις ὀργαῖς we are left to supply ἄλλαις ὀργαῖς (suggested by **ἐκτὸς**) with **ὁμιλεῖ**. (We cannot, surely, understand ἐκτὸς ὁμιλεῖ ξυντρόφοις ὀργαῖς, as if it were an oxymoron, =οὐχ ὁμιλεῖ.) The expression is of the same stamp as that in Eur. *Bacch.* 331 οἴκει μεθ' ἡμῶν, μὴ θύραζε τῶν νόμων, (‘dwell with us, forsaking not the pale of our customs,’ etc.): *ib.* 853 ἔξω δ' ἐλαύνων τοῦ φρονεῖν. For **ὁμιλεῖ**, cp. *Nub.* 1399 ὡς ἡδὺ καινοῖς πράγμασιν καὶ δεξιοῖς ὁμιλεῖν.
 
 ## 641
-**τλᾶμον**. Sophocles has this voc. in *Tr.* 1112 (ὦ τλῆμον Ἑλλάς), and in *O. C.* 978. In the latter place, as here, L has the nom., which may perh. be due to the fact that the nom. τλήμων so often occurs in exclamations; e.g. 893: *O.C.* 185 ὦ τλάμων: *Ant.* 229: *Ph.* 1102: *Tr.* 986.
+**τλᾶμον**. Sophocles has this voc. in *Tr.* 1112 (ὦ τλῆμον Ἑλλάς), and in *O. C.* 978. In the latter place, as here, L has the nom., which may perh. be due to the fact that the nom. τλήμων so often occurs in exclamations; *e.g.* 893: *O.C.* 185 ὦ τλάμων: *Ant.* 229: *Ph.* 1102: *Tr.* 986.
 
 ## 643
 **δύσφορον**: cp. 51.
@@ -2108,9 +2108,9 @@ Second ἐπεισόδιον. Ajax comes forth from the tent, and addresses his 
 ## 650 f.
 **τὰ δείνʼ**, adv., ‘so wondrously’: cp. 312 n. **τότε**, *olim*: cp. 1240: 1377: *Ant.* 391: *El.* 278.
 
-**βαφῇ σίδηρος ὥς**, sc. καρτερὸς γίγνεται, supplied from ἐκαρτέρουν. The βαφή is the cold bath (*lacus*) into which the hot iron is plunged, and from which it receives the temper of steel. Cp. *Od.* 9. 391 ὡς δ' ὅτ' ἀνὴρ χαλκεύς πέλεκυν μέγαν ἠὲ σκέπαρνον | εἰν ὕδατι ψυχρῷ βάπτῃ μεγάλα ἰάχοντα | φαρμάσσων· τὸ γὰρ αὖτε σιδήρου γε κράτος ἐστίν : where Eustathius says, στομοῦται σίδηρος τοιαύτῃ βαφῇ καὶ κράτος ἔχει, ὅ ἐστι κρατερὸς γίνεται πυκνούμενος εἰς πλέον. So Galen compares the tonic effect of a cold bath on the human body with the effect of the βαφή upon iron (*Meth. Med.* x. 10, vol. x. 717 Kuhn), καὶ γὰρ ψυχόμεθα καὶ τονούμεθα, καθάπερ ἐκεῖνος (iron) ἐπειδὰν διάπυρος γενόμενος ἐμβάπτηται τῷ ψυχρῷ. Lucr. 6. 968 *umor aquae ferrum porro condurat ab igni* (i.e., ‘after fire’). Hence βαφή=the ‘temper’ of steel, and is often used figuratively. Arist. *Pol.* 4. (7.) 14 § 22 τὴν γὰρ βαφὴν ἀφιᾶσιν, ὥσπερ ὁ σίδηρος, εἰρήνην ἄγοντες: Plut. *Mor.* p. 988 D τῆς μὲν ἀνδρείας οἶον βαφή τις ὁ θυμός ἐστι καὶ στόμωμα (‘wrath gives, as it were, a temper and an edge to courage’).— This passage has been discussed by R. Paehler, in an essay on ancient steel (1885), and by Prof. H. Blümner in his work on Greek and Roman technology (1887): see Appendix.
+**βαφῇ σίδηρος ὥς**, *sc.* καρτερὸς γίγνεται, supplied from ἐκαρτέρουν. The βαφή is the cold bath (*lacus*) into which the hot iron is plunged, and from which it receives the temper of steel. Cp. *Od.* 9. 391 ὡς δ' ὅτ' ἀνὴρ χαλκεύς πέλεκυν μέγαν ἠὲ σκέπαρνον | εἰν ὕδατι ψυχρῷ βάπτῃ μεγάλα ἰάχοντα | φαρμάσσων· τὸ γὰρ αὖτε σιδήρου γε κράτος ἐστίν : where Eustathius says, στομοῦται σίδηρος τοιαύτῃ βαφῇ καὶ κράτος ἔχει, ὅ ἐστι κρατερὸς γίνεται πυκνούμενος εἰς πλέον. So Galen compares the tonic effect of a cold bath on the human body with the effect of the βαφή upon iron (*Meth. Med.* x. 10, vol. x. 717 Kuhn), καὶ γὰρ ψυχόμεθα καὶ τονούμεθα, καθάπερ ἐκεῖνος (iron) ἐπειδὰν διάπυρος γενόμενος ἐμβάπτηται τῷ ψυχρῷ. Lucr. 6. 968 *umor aquae ferrum porro condurat ab igni* (*i.e.*, ‘after fire’). Hence βαφή=the ‘temper’ of steel, and is often used figuratively. Arist. *Pol.* 4. (7.) 14 § 22 τὴν γὰρ βαφὴν ἀφιᾶσιν, ὥσπερ ὁ σίδηρος, εἰρήνην ἄγοντες: Plut. *Mor.* p. 988 D τῆς μὲν ἀνδρείας οἶον βαφή τις ὁ θυμός ἐστι καὶ στόμωμα (‘wrath gives, as it were, a temper and an edge to courage’).— This passage has been discussed by R. Paehler, in an essay on ancient steel (1885), and by Prof. H. Blümner in his work on Greek and Roman technology (1887): see Appendix.
 
-**ἐθηλύνθην στόμα**. The aor. is like ἐπῄνεσα in 536 (n.): i.e., it refers, like οἰκτίρω, to the present, not to the time at which Tecmessa spoke. (Verses 594 f. suffice to prove this.) **στόμα**, standing so close to **βαφῇ σίδηρος ὥς**, necessarily suggests the sense of a sharp, hard edge. At the same time, it refers, in its literal sense, to the γλῶσσα τεθηγμένη (584) by which his purpose was announced. Just so the father in Aristophanes (*Nub.* 1107), who wishes his son to be made both acute and fluent, says, μέμνησ' ὅπως | εὖ μοι στομώσεις αὐτόν. Hence στόμα cannot be completely translated; and it is the literal sense which should here be sacrificed to the other. For the verb, cp. *Anth.* 5. 251. 6 οὔπω ἐθηλύνθης (‘softened’), οὐδὲ μαραινομένη.
+**ἐθηλύνθην στόμα**. The aor. is like ἐπῄνεσα in 536 (n.): *i.e.*, it refers, like οἰκτίρω, to the present, not to the time at which Tecmessa spoke. (Verses 594 f. suffice to prove this.) **στόμα**, standing so close to **βαφῇ σίδηρος ὥς**, necessarily suggests the sense of a sharp, hard edge. At the same time, it refers, in its literal sense, to the γλῶσσα τεθηγμένη (584) by which his purpose was announced. Just so the father in Aristophanes (*Nub.* 1107), who wishes his son to be made both acute and fluent, says, μέμνησ' ὅπως | εὖ μοι στομώσεις αὐτόν. Hence στόμα cannot be completely translated; and it is the literal sense which should here be sacrificed to the other. For the verb, cp. *Anth.* 5. 251. 6 οὔπω ἐθηλύνθης (‘softened’), οὐδὲ μαραινομένη.
 
 ## 652 f.
 **οἰκτίρω … λιπεῖν** naturally suggests the meaning, ‘pity forbids me to leave her’; cp. *Od.* 20. 202 οὐκ ἐλεαίρεις ἄνδρας.. | μισγέμεναι κακότητι. But the words could also mean, ‘I feel pity at the thought of leaving her,’ implying that he does intend to leave her, though with pain; which would usually be οἰκτίρω εἰ λείψω.
@@ -2151,10 +2151,10 @@ The exchange of gifts between the two heroes is told in *Il.* 7. 303 ff.: Hector
 ## 666 f.
 **τοιγὰρ** prefaces the announcement of a purpose, as in *Tr.* 1249 τοιγὰρ ποήσω: *El.* 29 τοιγὰρ τὰ μὲν δόξαντα δηλώσω.
 
-**τὸ λοιπὸν**, ‘henceforth.’ The hearers would infer that he had renounced his purpose of suicide. But in his own thought the phrase refers merely to the brief space before his death.— **εἰσόμεσθα**, by the experience itself; **μαθησόμεσθα**, by the self-discipline which such an experience recommends. But the principal antithesis is between θεοῖς and Ἀτρείδας, rather than between the verbs. We sometimes find, in good writers of this age, even synonymous verbs placed in apparent contrast, though the real antithesis lies elsewhere: e.g. Lys. or. 25 § 22 ἡγούμενοι διὰ τὴν τῶν τριάκοντα πονηρίαν πολὺ μᾶλλον σωθήσεσθαι ἢ διὰ τὴν τῶν φευγόντων δύναμιν κατιέναι.
+**τὸ λοιπὸν**, ‘henceforth.’ The hearers would infer that he had renounced his purpose of suicide. But in his own thought the phrase refers merely to the brief space before his death.— **εἰσόμεσθα**, by the experience itself; **μαθησόμεσθα**, by the self-discipline which such an experience recommends. But the principal antithesis is between θεοῖς and Ἀτρείδας, rather than between the verbs. We sometimes find, in good writers of this age, even synonymous verbs placed in apparent contrast, though the real antithesis lies elsewhere: *e.g.* Lys. or. 25 § 22 ἡγούμενοι διὰ τὴν τῶν τριάκοντα πονηρίαν πολὺ μᾶλλον σωθήσεσθαι ἢ διὰ τὴν τῶν φευγόντων δύναμιν κατιέναι.
 
 ## 668
-**τί μήν**; quid vero? ‘what then?’ i.e., ‘of course we must yield.’ Cp. Aesch. *Ag.* 672 λέγουσιν ἡμᾶς ὡς ὀλωλότας· τί μήν; (i.e., it is only natural that they should do so.) So in *Suppl.* 999, *Eum.* 203. With Plato τί μήν is frequent in assenting replies, as *Phaedr.* p. 229 A, ΦΑΙ. ὁρᾷς οὖν ἐκείνην τὴν..πλάτανον; ΣΩ. τί μήν; Cp. *Phileb.* p. 17 B and 44 B, *Polit.* 258 B, etc. The reason for preferring **τί μήν** to **τί μή** here is that the former is well attested, whereas there seems to be no certain example of **τί μή** in the Attic of this period. With τί μή (*quidni?*) we should supply ὑπείκωμεν; cp. Plat. *Theaet.* p. 161 E πῶς μὴ φῶμεν; Dem. or. 21 § 35 ὁ τοιοῦτος πότερα μὴ δῷ διὰ τοῦτο δίκην;
+**τί μήν**; quid vero? ‘what then?’ *i.e.*, ‘of course we must yield.’ Cp. Aesch. *Ag.* 672 λέγουσιν ἡμᾶς ὡς ὀλωλότας· τί μήν; (*i.e.*, it is only natural that they should do so.) So in *Suppl.* 999, *Eum.* 203. With Plato τί μήν is frequent in assenting replies, as *Phaedr.* p. 229 A, ΦΑΙ. ὁρᾷς οὖν ἐκείνην τὴν..πλάτανον; ΣΩ. τί μήν; Cp. *Phileb.* p. 17 B and 44 B, *Polit.* 258 B, etc. The reason for preferring **τί μήν** to **τί μή** here is that the former is well attested, whereas there seems to be no certain example of **τί μή** in the Attic of this period. With τί μή (*quidni?*) we should supply ὑπείκωμεν; cp. Plat. *Theaet.* p. 161 E πῶς μὴ φῶμεν; Dem. or. 21 § 35 ὁ τοιοῦτος πότερα μὴ δῷ διὰ τοῦτο δίκην;
 
 ## 669 ff.
 **τὰ δεινὰ**, the dread elemental forces of nature. The word δεινός might be called the key-note of the earlier part of this speech (cp. 648 f., 674): it comes readily to the mind of the strong man, full of the thought how strength can become weakness.
@@ -2173,17 +2173,17 @@ The exchange of gifts between the two heroes is told in *Il.* 7. 303 ff.: Hector
 **τῇ λευκοπώλῳ**: Aesch. *Pers.* 386 λευκόπωλος ἡμέρα | πᾶσαν κατέσχε γαῖαν εὐφεγγὴς ἰδεῖν, where the last two words suggested **φέγγος … φλέγειν** here,—epexegetic of ἐξίσταται (‘makes room for her, so that she may kindle,’ etc.). As to the ascription of white horses to deities or heroes, see on *El.* 706.
 
 ## 674 f.
-**ἐκοίμισε**, gnomic aor., followed by the pres. λύει: cp. *El.* 26 θυμὸν οὐκ ἀπώλεσεν, | ἀλλ' ὀρθὸν οὖς ἵστησιν. The ἄημα πνευμάτων is personified as an elemental power (like τὰ δεινὰ etc. in 669). That power can either vex the sea, or give it rest; as Aeolus, the ταμίης ἀνέμων, has the prerogative, ἠμὲν παυέμεναι ἠδ' ὀρνύμεν, ὅν κ' ἐθέλῃσι ( *Od.* 10. 22). So in 706 Ἄρης is a giver of *peace.* Cp. *C.* 1. 3. 15 (Notus), quo non arbiter Hadriae | Maior, tollere seu ponere vult freta. Vergil may have had Sophocles in mind when he wrote placataque venti | Dant maria ( *Aen.* 3. 69): but when he says, placidi straverunt aequora venti ( *Aen.* 5. 763), the epithet makes all the difference (=ἄνεμοι λήξαντες).
+**ἐκοίμισε**, gnomic aor., followed by the pres. λύει: cp. *El.* 26 θυμὸν οὐκ ἀπώλεσεν, | ἀλλ' ὀρθὸν οὖς ἵστησιν. The ἄημα πνευμάτων is personified as an elemental power (like τὰ δεινὰ etc. in 669). That power can either vex the sea, or give it rest; as Aeolus, the ταμίης ἀνέμων, has the prerogative, ἠμὲν παυέμεναι ἠδ' ὀρνύμεν, ὅν κ' ἐθέλῃσι ( *Od.* 10. 22). So in 706 Ἄρης is a giver of *peace.* Cp. *C.* 1. 3. 15 (Notus), *quo non arbiter Hadriae | Maior, tollere seu ponere vult freta.* Vergil may have had Sophocles in mind when he wrote *placataque venti | Dant maria* ( *Aen.* 3. 69): but when he says, *placidi straverunt aequora venti* ( *Aen.* 5. 763), the epithet makes all the difference (=ἄνεμοι λήξαντες).
 
 Lobeck, though he refrains from changing **δεινῶν** to **λείων**, thinks that the vulgate can be defended only by supposing that the foregoing verbs, ὑπείκει, ἐκχωροῦσιν, ἐξίσταται, tinge **ἐκοίμισε** with the sense, ‘*cease from troubling* the sea’: otherwise some addition to ἄημα, such as λῆξαν, would be needed; cp. Pind. *I.* 7. 12 δεῖμα..παροιχόμενον | καρτερὰν ἔπαυσε μέριμναν. But this difficulty vanishes if ἄημα is a personified agency.
 
-**ἐν δʼ**, ‘and among them’; i.e., like the other powers of nature (669). ἐν δέ is similarly used in *O. T.* 27, O. T. 181, *Tr.* 206.
+**ἐν δʼ**, ‘and among them’; *i.e.*, like the other powers of nature (669). ἐν δέ is similarly used in *O. T.* 27, O. T. 181, *Tr.* 206.
 
 ## 677
 **γνωσόμεσθα**, ‘come to know,’ ‘learn,’ with inf., as in *Ant.* 1089 καὶ γνῷ τρέφειν τὴν γλῶσσαν ἡσυχωτέραν. In *Ant.* 779 γνώσεται=‘she will learn’ (by bitter experience).
 
 ## 678
-**ἔγωγʼ·** sc. γνώσομαι: ‘I, at least, will so learn.’ For this elliptical ἔγωγʼ, cp. 1347, 1365, *Tr.* 1248.
+**ἔγωγʼ·** *sc.* γνώσομαι: ‘I, at least, will so learn.’ For this elliptical ἔγωγʼ, cp. 1347, 1365, *Tr.* 1248.
 
 The vulgate ἐγὼ *δʼ* may have come from ἡμεῖς *δὲ* in 677. It requires us to suppose that the poet was going to write ἐγὼ δʼ, ἐπίσταμαι γὰρ ἀρτίως (τοῦτο), τόν τ' ἐχθρὸν ἐχθαρῶ, κ.τ.λ.,—and then changed the constr. This is awkward. On the other hand, with ἐγὼ δʼ, we could not supply γνώσομαι.
 
@@ -2203,7 +2203,7 @@ Arist. *Rhet.* 2. 13 § 4 (old men) κατὰ τὴν Βίαντος ὑποθή
 **ἑταιρείας** has better authority here than **ἑταιρίας**. Some have supposed that ἑταιρεία was the form used in the sense of *factio*, or party ‘association,’ and ἑταιρία in that of *amicitia*; but there is really no good evidence for this. In Thuc. 3. 82 § 5, where the word has its political sense, the best MSS. give ἑταιρίας διαλυτής.
 
 ## 684 ff.
-**ἀμφὶ … τούτοισιν**: cp. 302.— *διὰ τέλους*..τελεῖσθαι, fulfilled in all fulness. For the ordinary meaning of διὰ τέλους in Attic prose, see Antiphon or. 5 § 42, where it occurs twice: παρὼν διὰ τέλους (‘present *all through*,’ from first to last): διὰ τέλους γάρ με ἀπέλυε (‘he acquitted me *throughout*,’—in all his statements). So Aesch. *P. V.* 273 ἀκούσαθ' ὡς μάθητε διὰ τέλους τὸ πᾶν (i.e. from beginning to end), etc. Here the stress on the notion of *end*, given by *διὰ τέλους* τελεῖσθαι, suits the inmost thought of Ajax. The v.l. **διὰ τάχους** is much feebler.
+**ἀμφὶ … τούτοισιν**: cp. 302.— *διὰ τέλους*..τελεῖσθαι, fulfilled in all fulness. For the ordinary meaning of διὰ τέλους in Attic prose, see Antiphon or. 5 § 42, where it occurs twice: παρὼν διὰ τέλους (‘present *all through*,’ from first to last): διὰ τέλους γάρ με ἀπέλυε (‘he acquitted me *throughout*,’—in all his statements). So Aesch. *P. V.* 273 ἀκούσαθ' ὡς μάθητε διὰ τέλους τὸ πᾶν (*i.e.* from beginning to end), etc. Here the stress on the notion of *end*, given by *διὰ τέλους* τελεῖσθαι, suits the inmost thought of Ajax. The *v.l.* **διὰ τάχους** is much feebler.
 
 ## 687 f.
 **ταὐτὰ τῇδε**=τὰ αὐτὰ ἃ ἥδε τιμᾷ: cp. *O. T.* 839 λέγων | σοὶ ταὔτʼ.— *μοι* ethic dat. ( *O. C.* 1475 n.), ‘I pray you.’
@@ -2217,7 +2217,7 @@ Arist. *Rhet.* 2. 13 § 4 (old men) κατὰ τὴν Βίαντος ὑποθή
 **ἐκεῖσʼ**. At first sight we might desire **κεῖσʼ** (810), as giving a better rhythm; but the slower movement of the verse may here be designed.—Cp. *O. T.* 1458 ἀλλ' ἡ μὲν ἡμῶν μοῖρʼ, ὅποιπερ εἶσʼ, ο. τ. ιʼ ́τω.
 
 ## 691
-**τάχ' ἄν … ἴσως**: a formula used by Thucydides to express a *strong* probability (6. 10 § 4, 34 § 2, 78 § 3).— **σεσωσμένον**: contrasted in *El.* 1229 with θανόντα: cp. ib. 59 ὅταν λόγῳ θανὼν | ἔργοισι σωθῶ. The word was thus wellchosen for his aim here.
+**τάχ' ἄν … ἴσως**: a formula used by Thucydides to express a *strong* probability (6. 10 § 4, 34 § 2, 78 § 3).— **σεσωσμένον**: contrasted in *El.* 1229 with θανόντα: cp. *ib.* 59 ὅταν λόγῳ θανὼν | ἔργοισι σωθῶ. The word was thus wellchosen for his aim here.
 
 ## 693-718
 A joyous dance-song, ὑπόρχημα, which holds the place of the second stasimon. Strophe 693—705= antistr. 706—718. For the metres see Metrical Analysis.
@@ -2225,20 +2225,20 @@ A joyous dance-song, ὑπόρχημα, which holds the place of the second stas
 The effect is to prepare for the catastrophe by a contrast. A joyous ode is introduced with a similar purpose in *O. T.* 1086—1109; *Ant.* 1115—1154; and *Tr.* 633—662.
 
 ## 693
-**ἔφριξʼ**: for the aor., cp. 536: Ar. *Eq.* 696 ἥσθην ἀπειλαῖς, ἐγέλασα ψολοκομπίαις. Aesch. fr. 387 ἔφριξ' ἔρως δὲ (ἔρωτι Brunck) τοῦδε μυστικοῦ τέλους. Here **ἔρωτι** seems to mean *a transport of joy*; it cannot be explained of their yearning for the bright future of which they are dreaming. I do not know any exactly similar use of ἔρως. Cp. Statius *Theb.* 1. 493 laetusque per artus | Horror iit.
+**ἔφριξʼ**: for the aor., cp. 536: Ar. *Eq.* 696 ἥσθην ἀπειλαῖς, ἐγέλασα ψολοκομπίαις. Aesch. fr. 387 ἔφριξ' ἔρως δὲ (ἔρωτι Brunck) τοῦδε μυστικοῦ τέλους. Here **ἔρωτι** seems to mean *a transport of joy*; it cannot be explained of their yearning for the bright future of which they are dreaming. I do not know any exactly similar use of ἔρως. Cp. Statius *Theb.* 1. 493 *laetusque per artus | Horror iit.*
 
 **ἀνεπτάμαν**: for the form, [see on 282](#282) προσέπτατο. Cp. *Ant.* 1307 ἀνέπταν φόβῳ: *Helen.* 632 γέγηθα, κρατὶ δ' ὀρθίους ἐθείρας | ἀνεπτέρωκα.
 
 *694 ff.* Pan was a domestic deity to Salaminians, since one of his reputed haunts was the islet of Psyttaleia, lying between Κυνόσουρα, a tongue of land on the E. side of Salamis, and the Peiraeus. Aesch. mentions it ( Aesch. *Pers.* 448 f.): βαιά, δύσορμος ναυσίν, ἣν ὁ φιλόχορος | Πὰν ἐμβατεύει, ποντίας ἀκτῆς ἔπι.
 
-**ἁλίπλαγκτε**, though separated from φάνηθʼ, is perhaps best taken with it, since, as merely a general epithet of the god, it would here be less fitting; but then there must be no comma after it. Cp. *Ph.* 760 δύστηνε..φανείς: ib. 828 εὐαὲς ἡμῖν ἔλθοις (n.): Theocr. 17. 66 ὄλβιε κῶρε γένοιο. Nonnus 43. 214 describes Pan as ἀβάτοισιν ἐν ὕδασι κοῦφος ὁδίτης.
+**ἁλίπλαγκτε**, though separated from φάνηθʼ, is perhaps best taken with it, since, as merely a general epithet of the god, it would here be less fitting; but then there must be no comma after it. Cp. *Ph.* 760 δύστηνε..φανείς: *ib.* 828 εὐαὲς ἡμῖν ἔλθοις (n.): Theocr. 17. 66 ὄλβιε κῶρε γένοιο. Nonnus 43. 214 describes Pan as ἀβάτοισιν ἐν ὕδασι κοῦφος ὁδίτης.
 
 **Κυλλανίας … δειράδος**. Mount Cyllenè, in the N. E. of Arcadia, a great isolated peak, was sacred (as his birth-place) to Hermes, the father of Pan,—whose own birth was associated by legend with Cyllenè. But, of the Arcadian hills, the well-wooded Maenalus, in the interior, was more especially beloved of Pan ( *Geo.* 1. 17 *tua si tibi Maenala curae*).
 
 **χιονοκτύπου** (only here): cp. *Nub.* 270 Ὀλύμπου κορυφαῖς..χιονοβλήτοισι: Soph. *Ph.* 206 ὑπὸ δειράσι νιφοβόλοις | Παρνασοῦ. Cyllenè attains a height of about 8000 feet.
 
 ## 699 f.
-**θεῶν χοροποίʼ ἄναξ**: the gen. θεῶν seems to be possessive rather than partitive; i.e. the precise sense seems to be, ‘divine dance-maker *of* the gods,’ rather than, ‘among the gods, that god who makes dances.’ For such a partitive gen., we may, indeed, compare *O. C.* 868 θεῶν | ὁ πάντα λεύσσων Ἥλιος (unless θεὸς should be read there). But here the meaning seems to be that Pan represents the gods in this function. Pan was to rustic χοροί, those of nymphs and satyrs, what Apollo Μουσαγέτης was to the Olympians; and the province denoted by χοροποιός here is thus limited by the context. So Pindar fr. 75 calls Pan χορευτὰν τελεώτατον θεῶν: and an Attic σκολιόν greets him as ὀρχηστά, βρομίαις ὀπαδὲ νύμφαις.
+**θεῶν χοροποίʼ ἄναξ**: the gen. θεῶν seems to be possessive rather than partitive; *i.e.* the precise sense seems to be, ‘divine dance-maker *of* the gods,’ rather than, ‘among the gods, that god who makes dances.’ For such a partitive gen., we may, indeed, compare *O. C.* 868 θεῶν | ὁ πάντα λεύσσων Ἥλιος (unless θεὸς should be read there). But here the meaning seems to be that Pan represents the gods in this function. Pan was to rustic χοροί, those of nymphs and satyrs, what Apollo Μουσαγέτης was to the Olympians; and the province denoted by χοροποιός here is thus limited by the context. So Pindar fr. 75 calls Pan χορευτὰν τελεώτατον θεῶν: and an Attic σκολιόν greets him as ὀρχηστά, βρομίαις ὀπαδὲ νύμφαις.
 
 **Νύσια**: such dances as the worshippers of Dionysus—with whom Pan is closely associated through the satyrs—hold in his honour at Nysa. As to the various places so called, see on *Ant.* 1131.
 
@@ -2246,7 +2246,7 @@ The effect is to prepare for the catastrophe by a contrast. A joyous ode is intr
 
 **αὐτοδαῆ** is best explained, with the schol. in L, αὐτομαθῆ, ἃ σὺ σαυτὸν ἐδίδαξας. Pan is the inspired and inspiring χοροποιός. The dances will be joyous as those of Nysa or Cnosus, but due to his prompting alone. So the minstrel Phemius says, αὐτοδίδακτος δ' εἰμί, θεὸς δέ μοι ἐν φρεσὶν οἴμας | παντοίας ἐνέφυσεν, *Od.* 22. 347.
 
-**ἰάψῃς** (cp. 501) here denotes properly the act of *putting forth* the feet or the arms in lively movement; so that ἰάπτειν ὀρχήματα means strictly, ‘to dance with lively gestures.’ The musician Aristoxenus (c. 300 B.C.) mentioned the Κρητικαὶ ὀρχήσεις among those which he admired διὰ τὴν τῶν χειρῶν κίνησιν (Athen. I. p. 22 B). How ἰάπτω could be associated with swift *motion*, appears from the intrans. use in *Suppl.* 547 ἰάπτει δ' Ἀσίδος δἰ αἴας (‘rushes’).—Pan might possibly be said ἰάπτειν ὀρχήματα as ‘*impelling*’ the dance, i.e., ‘setting it in movement’; but this seems less probable.
+**ἰάψῃς** (cp. 501) here denotes properly the act of *putting forth* the feet or the arms in lively movement; so that ἰάπτειν ὀρχήματα means strictly, ‘to dance with lively gestures.’ The musician Aristoxenus (*c.* 300 B.C.) mentioned the Κρητικαὶ ὀρχήσεις among those which he admired διὰ τὴν τῶν χειρῶν κίνησιν (Athen. I. p. 22 B). How ἰάπτω could be associated with swift *motion*, appears from the intrans. use in *Suppl.* 547 ἰάπτει δ' Ἀσίδος δἰ αἴας (‘rushes’).—Pan might possibly be said ἰάπτειν ὀρχήματα as ‘*impelling*’ the dance, *i.e.*, ‘setting it in movement’; but this seems less probable.
 
 ## 701
 **χορεῦσαι**, aor., because a particular occasion (or act) of dancing is in view: but in *O. T.* 896 τί δεῖ με χορεύειν; because the sense is, ‘why should sacred dances continue?’
@@ -2260,7 +2260,7 @@ The effect is to prepare for the catastrophe by a contrast. A joyous ode is intr
 
 **Δάλιος**: cp. *O. T.* 154 Δάλιε Παιάν (n.).
 
-**εὔγνωστος**, ‘easily recognised,’ i.e., in a visible shape, ἐναργής: cp. *Tr.* 11 n.: *Od.* 3. 420 (Athena) ἥ μοι ἐναργὴς ἦλθε. On γνωτός and γνωστός, see *O. T.*, appendix on 361, p. 225. Some editors read **εὔγνωτος**, though the form with ς is here the better attested.
+**εὔγνωστος**, ‘easily recognised,’ *i.e.*, in a visible shape, ἐναργής: cp. *Tr.* 11 n.: *Od.* 3. 420 (Athena) ἥ μοι ἐναργὴς ἦλθε. On γνωτός and γνωστός, see *O. T.*, appendix on 361, p. 225. Some editors read **εὔγνωτος**, though the form with ς is here the better attested.
 
 **διὰ παντὸς**, with ref. to time (the regular sense of the phrase in Thuc. ; see Classen on 1. 38 § 1).
 
@@ -2281,7 +2281,7 @@ The effect is to prepare for the catastrophe by a contrast. A joyous ode is intr
 **θοᾶν** describes the ship as a thing of life (*velox navis*), ὠκυάλων rather as a swift vehicle over the sea (*celeris*): cp. *Od.* 7. 34 νηυσὶ θοῇσι πεποιθότες ὠκείῃσι. For the double epithet, cp. also *Ph.* 516 εὐστόλου ταχείας νεώς.
 
 ## 710
-[711] **λαθίπονος** (sc. ἐστί),=λανθάνεται πόνων: the word occurs only here and in *Tr.* 1021 (λαθίπονον δ' ὀδυνᾶν).
+[711] **λαθίπονος** (*sc.* ἐστί),=λανθάνεται πόνων: the word occurs only here and in *Tr.* 1021 (λαθίπονον δ' ὀδυνᾶν).
 
 ## 712
 **πάνθυτα θέσμιʼ ἐξήνυσʼ**. As Ajax had announced his purpose of ‘purging his stains’ (655) and ‘submitting to the gods’ (666 f.), the Chorus assume that he has now duly performed all the rites of καθαρμός and ἱλασμός. By θεῶν πάνθυτα θέσμια is meant, ‘the ordinances of the gods, with all the θυσίαι which they enjoin’; since the ablutions of Ajax would be followed (as the Chorus conceive) by sacrifices to the deities whom he had offended, esp. to Athena and Artemis. There is thus a tragic irony in **πάνθυτα**, since a θυσία is indeed about to be offered.
@@ -2296,7 +2296,7 @@ The effect is to prepare for the catastrophe by a contrast. A joyous ode is intr
 
 [716] **ἐξ ἀέλπτων**: *Suppl.* 357 ἐξ ἀέλπτων κἀπρομηθήτων.
 
-[717] **μετανεγνώσθη** is prob. passive; ‘has been converted from his anger.’ I cannot find an example of ἐγνώσθην (simple or compound) in any but a pass. sense. ἀνεγνώσθην is regularly pass. in Herod. ; e.g. 4. 154 ἀναγνωσθεὶς ὑπὸ τῆς γυναικός (cp. 6. 50; 7. 7, etc.). The schol. in L took the word to be pass.; he explains it by μετεπείσθη (as Hesychius does), and μετεβλήθη. The other view —that μετανεγνώσθη is midd. in sense— appears in the glosses μετέγνω and μεταβεβούλευται: but no proof is brought. If it be passive, however, it does not mean that the Chorus suppose Ajax to have been converted by themselves or Tecmessa: the cause is left indefinite.—The form **μετανεγνώθη** is preferred by Wecklein: Hesychius is, however, our only witness for it.
+[717] **μετανεγνώσθη** is prob. passive; ‘has been converted from his anger.’ I cannot find an example of ἐγνώσθην (simple or compound) in any but a pass. sense. ἀνεγνώσθην is regularly pass. in Herod. ; *e.g.* 4. 154 ἀναγνωσθεὶς ὑπὸ τῆς γυναικός (cp. 6. 50; 7. 7, etc.). The schol. in L took the word to be pass.; he explains it by μετεπείσθη (as Hesychius does), and μετεβλήθη. The other view —that μετανεγνώσθη is midd. in sense— appears in the glosses μετέγνω and μεταβεβούλευται: but no proof is brought. If it be passive, however, it does not mean that the Chorus suppose Ajax to have been converted by themselves or Tecmessa: the cause is left indefinite.—The form **μετανεγνώθη** is preferred by Wecklein: Hesychius is, however, our only witness for it.
 
 ## 718
 **θυμοῦ τʼ. θυμῶν** (cr. n.) is indeed nearer to the θυμὸν of the MSS., since Sophocles would write it ΘΥΜΟΝ: but, though the plur. θυμοί is common enough in prose (as=‘fits of passion’), it never occurs in Tragedy. The gen. depends on μετανεγνώσθη as a verb of ‘desisting’ or ‘withdrawing’ from (cp. μεταστῆναί τινος). The dat. **Ἀτρείδαις** depends on μετανεγνώσθη θυμοῦ as implying κατηλλάχθη or ξυνέγνω. Cp. 774: I. *Il.* 283 Ἀχιλλῆι μεθέμεν χόλον: *Od.* 21. 377 μέθιεν χαλεποῖο χόλοιο | Τηλεμάχῳ.— *νεικέων*: for the synizesis, cp. 702 πελαγέων.
@@ -2321,7 +2321,7 @@ The third ἐπεισόδιον consists of two scenes. (1) 719—814. The messe
 ## 725
 **ἤρασσον**, as in *Ph.* 374 χολωθεὶς εὐθὺς ἤρασσον κακοῖς | τοῖς πᾶσιν. Cp. 1244: Aesch. *Theb.* 382 θείνει δ' ὀνείδει μάντιν. *Nub.* 1373 εὐθὺς ἐξαράττω | πολλοῖς κακοῖς κᾀσχροῖσι.
 
-**ἔνθεν κἄνθεν**: cp. Verg. *Aen.* 4. 447 adsiduis hinc atque hinc vocibus heros | Tunditur.
+**ἔνθεν κἄνθεν**: cp. Verg. *Aen.* 4. 447 *adsiduis hinc atque hinc vocibus heros | Tunditur.*
 
 **οὔτις ἔσθ' ὃς οὔ**: cp. *O.T.* 372 ἃ σοὶ | οὐδεὶς ὃς οὐχὶ τῶνδ' ὀνειδιεῖ τάχα.
 
@@ -2339,17 +2339,17 @@ The third ἐπεισόδιον consists of two scenes. (1) 719—814. The messe
 ## 729
 **ὥστʼ** (‘and so’) has been suspected on account of the second **ὥστε**: but the latter, going with **τοσοῦτον**, does not offend the ear, since its sense is different and subordinate; cp. *Ant.* 735 ὁρᾷς τόδ' ὡς εἴρηκας ὡς ἄγαν νέος*;* Tr. 1241 τάχʼ, ὡς ἔοικας, ὡς νοσεῖς φράσεις. So in Xen. *Anab.* 2. 2. 17 κραυγὴν.. ἐποίουν,..ὥστε καὶ τοὺς πολεμίους ἀκούειν· ὥστε οἱ μὲν ἐγγυτάτω..ἔφυγον: where the first ὥστε=‘so that,’ while the second =‘and so.’
 
-**κολεῶν … ξίφη**. The swords *διεπεραιώθη* κολεῶν, were drawn through (and out of) the scabbards, **ἐρυστά**, by a sharp, quick pull,—i.e. with angry haste.—Not, ‘swords plucked from the sheaths were *crossed*’: as if Teucer actually crossed swords with one or more of his assailants. The whole scene has been suggested by that in the first book of the *Iliad*, as the schol. in L saw:—ἐκ τῆς Ἀχιλλέως δὲ πρὸς Ἀγαμέμνονα ἀρχῆς (read ὀργῆς) παραγέγραπται. There, Achilles was drawing his sword—ἕλκετο δ' ἐκ κολεοῖο μέγα ξίφος—when Athena came to him ( I. *Il.* 194): ἄψ δ' ἐς κουλεὸν ὦσε μέγα ξίφος (ib. 220).—Some of the later MSS. here have **κουλεῶν**, which was a current form in late Greek (Eustathius p. 1604. 58 τὸ κολεὸν κοινότερον κουλεὸν λέγεται).
+**κολεῶν … ξίφη**. The swords *διεπεραιώθη* κολεῶν, were drawn through (and out of) the scabbards, **ἐρυστά**, by a sharp, quick pull,—*i.e.* with angry haste.—Not, ‘swords plucked from the sheaths were *crossed*’: as if Teucer actually crossed swords with one or more of his assailants. The whole scene has been suggested by that in the first book of the *Iliad*, as the schol. in L saw:—ἐκ τῆς Ἀχιλλέως δὲ πρὸς Ἀγαμέμνονα ἀρχῆς (read ὀργῆς) παραγέγραπται. There, Achilles was drawing his sword—ἕλκετο δ' ἐκ κολεοῖο μέγα ξίφος—when Athena came to him ( I. *Il.* 194): ἄψ δ' ἐς κουλεὸν ὦσε μέγα ξίφος (*ib.* 220).—Some of the later MSS. here have **κουλεῶν**, which was a current form in late Greek (Eustathius p. 1604. 58 τὸ κολεὸν κοινότερον κουλεὸν λέγεται).
 
 ## 731 f.
 **δραμοῦσα τοῦ προσωτάτω**: for the partitive gen., cp. Xen. *Anab.* 1. 3. 1 οὐκ ἔφασαν ἰέναι τοῦ πρόσω: Ar. *Ran.* 174 ὑπάγεθ' ὑμεῖς τῆς ὁδοῦ.
 
-**ἐν ξυναλλαγῇ λόγου … γερόντων**, by means of the conciliatory words of elders: for the double gen., cp. 308 f.: for **ἐν**, denoting the instrument, *Ph.* 60 ἐν λιταῖς στείλαντες, ib. 1393 ἐν λόγοις | πείσειν.
+**ἐν ξυναλλαγῇ λόγου … γερόντων**, by means of the conciliatory words of elders: for the double gen., cp. 308 f.: for **ἐν**, denoting the instrument, *Ph.* 60 ἐν λιταῖς στείλαντες, *ib.* 1393 ἐν λόγοις | πείσειν.
 
 ## 733
 **ἡμὶν**, ethic dat.: *O. C.* 81 ἦ βέβηκεν ἡμὶν ὁ ξένος;
 
-**τοῖς κυρίοις**, i.e., Ajax himself, who is the κύριος or ‘principal person’ in this matter, as being most nearly concerned in it. For the poet. plur., cp. Aesch. *Ch.* 688 (Orestes to Clytaemnestra) εἰ δὲ τυγχάνω | τοῖς κυρίοισι καὶ προσήκουσιν λέγων | οὐκ οἶδα.
+**τοῖς κυρίοις**, *i.e.*, Ajax himself, who is the κύριος or ‘principal person’ in this matter, as being most nearly concerned in it. For the poet. plur., cp. Aesch. *Ch.* 688 (Orestes to Clytaemnestra) εἰ δὲ τυγχάνω | τοῖς κυρίοισι καὶ προσήκουσιν λέγων | οὐκ οἶδα.
 
 ## 735 f.
 **νέας βουλὰς**, his new ‘counsels,’ in respect of his supposed resolve to propitiate gods and men; **νέοισιν … τρόποις**, the new ‘dispositions,’ the character of greater gentleness and docility, which the resolve implies. **ἐγκαταζεύξας**: he has ‘harnessed’ the new resolve, as it were, to the new character,—brought it under the yoke of his chastened will. The word conveys more than the idea of ‘adapting’ (Pindar's ἕργμασιν νικαφόροις ἐγκώμιον ζεῦξαι μέλος, *N.* 1. 7). It further implies self-conquest.
@@ -2362,7 +2362,7 @@ The third ἐπεισόδιον consists of two scenes. (1) 719—814. The messe
 ## 740
 **χρείας τῆσδʼ**, ‘this urgent matter’ (as they infer it to be from the speaker's distress). So χρεία sometimes=‘a request’: *O. T.* 1435 καὶ τοῦ με χρείας ὦδε λιπαρεῖς τυχεῖν;
 
-**ὑπεσπανισμένον**, ‘scanted,’ i.e., ‘imperfectly done.’ With Aesch. this partic. means ‘scanted of’ a thing, ‘insufficiently provided’ with it: e.g. βορᾶς ( Aesch. *Pers.* 490), φόνου ( Aesch. *Ch.* 577). Cp. Shakesp. *Othello* 1. 3. 267 You think | I will your serious and great business scant (i.e. ‘neglect’).
+**ὑπεσπανισμένον**, ‘scanted,’ *i.e.*, ‘imperfectly done.’ With Aesch. this partic. means ‘scanted of’ a thing, ‘insufficiently provided’ with it: *e.g.* βορᾶς ( Aesch. *Pers.* 490), φόνου ( Aesch. *Ch.* 577). Cp. Shakesp. *Othello* 1. 3. 267 You think | I will your serious and great business scant (*i.e.* ‘neglect’).
 
 ## 741
 **ἀπηύδα**: cp. *O. T.* 236 ἀπαυδῶ.. | μήτ' εἰσδέχεσθαι κ.τ.λ.: Xen. *Cyr.* 1. 4. 14 ἀπηγόρευε μηδένα βάλλειν.— *παρήκειν*. When verbs of motion compounded with παρά mean to ‘go *forward*,’ that sense comes through the notion of going into the presence of others (παρά τινα): so οἱ παριόντες are those who come forward to address the ecclesia. Teucer was anxious that Ajax should not go forth into public (ἔξω παρήκειν). In Soph. *O. T.* 1241, Soph. *Tr.* 900, and Soph. *El.* 1337, as often elsewhere, παρελθεῖν is said of *entering* a house.
@@ -2372,7 +2372,7 @@ The third ἐπεισόδιον consists of two scenes. (1) 719—814. The messe
 ## 743
 **οἴχεται**, an unconsciously ominous word.
 
-**τὸ κέρδιστον**, i.e. the most advantageous course which he could possibly take. Cp. *Ant.* 1113 δέδοικα γὰρ μὴ τοὺς καθεστῶτας νόμους | ἄριστον ᾖ σῴζοντα τὸν βίον τελεῖν. There is no more reason for desiring **τὸ κέρδιον** here than ἄμεινον there. For τὸ κέρδιστον.. *γνώμης*, cp. Thuc. 1. 90 § 2 τὸ..βουλόμενον καὶ ὕποπτον τῆς γνώμης.
+**τὸ κέρδιστον**, *i.e.* the most advantageous course which he could possibly take. Cp. *Ant.* 1113 δέδοικα γὰρ μὴ τοὺς καθεστῶτας νόμους | ἄριστον ᾖ σῴζοντα τὸν βίον τελεῖν. There is no more reason for desiring **τὸ κέρδιον** here than ἄμεινον there. For τὸ κέρδιστον.. *γνώμης*, cp. Thuc. 1. 90 § 2 τὸ..βουλόμενον καὶ ὕποπτον τῆς γνώμης.
 
 **θεοῖσιν … χόλου**: cp. 717 f.
 
@@ -2393,13 +2393,13 @@ The third ἐπεισόδιον consists of two scenes. (1) 719—814. The messe
 **οἶος Ἀτρειδῶν δίχα**: cp. 464 n.
 
 ## 751
-**φιλοφρόνως**: for the ο̄ before φρ, cp. *Ant.* 1104 τοὺς κακόφρονας: ib. 336 περιβρυχίοισιν (n.).
+**φιλοφρόνως**: for the ο̄ before φρ, cp. *Ant.* 1104 τοὺς κακόφρονας: *ib.* 336 περιβρυχίοισιν (n.).
 
 ## 752
 **παντοίᾳ τέχνῃ**: Her. 1. 112 ἐχρήιζε μηδεμιῇ τέχνῃ ἐκθεῖναί μιν. Xen. *Anab.* 4. 5. 16 ἐδεῖτο αὐτῶν πάσῃ τέχνῃ καὶ μηχανῇ μὴ ἀπολείπεσθαι.
 
 ## 753
-**εἶρξαι**. The primitive sense of the root (ϝεργ) was to ‘press’: whence come both the meanings of this verb, ‘to shut out,’ and ‘to shut in.’ Acc. to Eustathius (p. 1387. 3) the Attic form was εἴργω as=κωλύω (‘shut out’ or ‘hinder’), but εἵργω as=ἐγκλείω. Curtius (*Etym.* § 142) thinks that this distinction was of comparatively late origin. Our MSS. consistently give εἱρκτή, εἱργμός, ‘a prison.’ Andoc. or. 4 § 27 has εἱργνύων (‘imprisoning’): Plat. *Tim.* p. 45 E καθείργνυσι (indeed, the forms from ειργνυ are always aspirated). But in regard to the other forms the evidence of MSS. is often conflicting, and the practice of editors has varied. In Thuc. , Bekker always writers εἵργω: Classen and Stahl, always εἴργω, even (e.g.) in 8. 74 § 3 εἴρξειν and 4. 47 § 3 κατεῖρξαν, where the ref. is to imprisonment; though in the latter place the MSS. seem to agree on καθεῖρξαν. On the other hand in Eur. *Bacch.* 443 the best editions give εἶρξαι. Eur. Itmay be noted that Lobeck could find no instance of ἀφείργειν earlier than Aelian (*Hist. An.* 12. 21 ἀφειργμένη): as to ἄφερκτος in Aesch. *Ch.* 446, he justifies it as meaning, ‘shut in (apart),’ not ‘shut off.’ Recent editors are generally agreed in writing εἶρξαι here, and εἴργειν in 795. This is justifiable in any case, the sense being ‘to *restrain*,’ rather than definitely ‘to *shut in.*’
+**εἶρξαι**. The primitive sense of the root (ϝεργ) was to ‘press’: whence come both the meanings of this verb, ‘to shut out,’ and ‘to shut in.’ Acc. to Eustathius (p. 1387. 3) the Attic form was εἴργω as=κωλύω (‘shut out’ or ‘hinder’), but εἵργω as=ἐγκλείω. Curtius (*Etym.* § 142) thinks that this distinction was of comparatively late origin. Our MSS. consistently give εἱρκτή, εἱργμός, ‘a prison.’ Andoc. or. 4 § 27 has εἱργνύων (‘imprisoning’): Plat. *Tim.* p. 45 E καθείργνυσι (indeed, the forms from ειργνυ are always aspirated). But in regard to the other forms the evidence of MSS. is often conflicting, and the practice of editors has varied. In Thuc. , Bekker always writers εἵργω: Classen and Stahl, always εἴργω, even (*e.g.*) in 8. 74 § 3 εἴρξειν and 4. 47 § 3 κατεῖρξαν, where the ref. is to imprisonment; though in the latter place the MSS. seem to agree on καθεῖρξαν. On the other hand in Eur. *Bacch.* 443 the best editions give εἶρξαι. Eur. Itmay be noted that Lobeck could find no instance of ἀφείργειν earlier than Aelian (*Hist. An.* 12. 21 ἀφειργμένη): as to ἄφερκτος in Aesch. *Ch.* 446, he justifies it as meaning, ‘shut in (apart),’ not ‘shut off.’ Recent editors are generally agreed in writing εἶρξαι here, and εἴργειν in 795. This is justifiable in any case, the sense being ‘to *restrain*,’ rather than definitely ‘to *shut in.*’
 
 **ἦμαρ τοὐμφανὲς τὸ νῦν τόδε**: the cumulative phrase marks the seer's anxiety to impress the fact upon his hearer; it is like the precise fulness of 741 f., ἔνδοθεν στέγης | μὴ ʼξω παρήκειν.
 
@@ -2419,7 +2419,7 @@ The third ἐπεισόδιον consists of two scenes. (1) 719—814. The messe
 **τῇδε θἡμέρᾳ**. The fact that Aristophanes uses this crasis ( *Av.* 1071, *Thesm.* 76) proves that it was familiar to Athenian ears. There is no good reason for excluding it from Tragedy, when οἴμʼ is allowed in tragic verse on the ground that Comedy proves it to have been common.
 
 ## 757
-**ὡς ἔφη λέγων**, lit., as he said in the course of his statement, i.e., ‘as he went on to say.’ So Her. 3. 156 (Zopyrus) ‘νῦν τε,’ ἔφη λέγων, ‘ἐγὼ ὑμῖν..ἥκω μέγιστον ἀγαθόν’ (‘he went on to say’— in continuation of his story. So too in Her. 5. 36. Cp. Dem. or. 18 § 51 καὶ νῦν εἶπέ που λέγων, ‘ὁ τὴν Ἀλεξάνδρου ξενίαν ὀνειδίζων ἐμοίʼ’ (‘he has said in some discourse or other’).
+**ὡς ἔφη λέγων**, lit., as he said in the course of his statement, *i.e.*, ‘as he went on to say.’ So Her. 3. 156 (Zopyrus) ‘νῦν τε,’ ἔφη λέγων, ‘ἐγὼ ὑμῖν..ἥκω μέγιστον ἀγαθόν’ (‘he went on to say’— in continuation of his story. So too in Her. 5. 36. Cp. Dem. or. 18 § 51 καὶ νῦν εἶπέ που λέγων, ‘ὁ τὴν Ἀλεξάνδρου ξενίαν ὀνειδίζων ἐμοίʼ’ (‘he has said in some discourse or other’).
 
 ## 758
 **τὰ γὰρ περισσὰ** κ.τ.λ. To judge the text aright here, we must remember that these are the words of the μάντις, who speaks as the prophet of the gods. **περισσὰ κανόνητα σώματα** are mortals whose over-great strength and success have made them wax too proud, so that they no longer serve the gods with due piety. Such mortals are ἀνόνητοι,—their lives can yield no worthy fruit. Compare the words of warning addressed to Xerxes ( Her. 7. 10): ὁρᾷς τὰ ὑπερέχοντα ζῷα ὡς κεραυνοῖ ὁ θεὸς οὐδὲ ἐᾷ φαντάζεσθαι..φιλέει γὰρ ὁ θεὸς τὰ ὑπερέχοντα πάντα κολούειν. See also v. 1077, κἄν τις σῶμα γεννήσῃ μέγα κ.τ.λ.: and Athena's phrase in 129, μηδ' ὄγκον ἄρῃ μηδένʼ.
@@ -2448,7 +2448,7 @@ It is not without reason, then, that the reading **κἀνόνητα** is suppor
 **ὁ μηδὲν ὢν**: he who is as nought,—a mere nonentity. Cp. 1231.
 
 ## 768
-**καὶ δίχα κείνων**. In *Il.* 17. 629 ff. Ajax says that Zeus is manifestly on the side of the Trojans; and adds, ἀλλ' ἄγετʼ, αὐτοί περ φραζώμεθα μῆτιν ἀρίστην,—i.e., without his aid. But in these words there is no impiety—a trait foreign to the Ajax of the *Iliad*: see Introduction § 1.
+**καὶ δίχα κείνων**. In *Il.* 17. 629 ff. Ajax says that Zeus is manifestly on the side of the Trojans; and adds, ἀλλ' ἄγετʼ, αὐτοί περ φραζώμεθα μῆτιν ἀρίστην,—*i.e.*, without his aid. But in these words there is no impiety—a trait foreign to the Ajax of the *Iliad*: see Introduction § 1.
 
 ## 769
 **ἐπισπάσειν κλέος**. Hesych. 2, p. 168 ἐπισπάσει· ἐπιτεύξεται. Σοφοκλῆς Ἀτρεῖ ἢ Μυκήναις (=Μυκηναίας: fr. 137). ‘Draw to,’ or ‘on,’ oneself: so here, ‘achieve.’ Cp. Aesch. *Pers.* 477 τοσόνδε πλῆθος πημάτων ἐπέσπασεν, which recalls Hom. *Od.* 18. 73 ἐπίσπαστον κακὸν ἕξει. Neophron fr. 3. 2 (Nauck, *Trag. Gr. Fragm.* p. 731) βροχωτὸν ἀγχόνην ἐπισπάσας δέρῃ (where δέρῃ should prob. begin the verse). The middle voice would seem fitter in all these places: cp. Apollod. 2. 1 ἐπισπᾶσθαι τὴν ἀπὸ τῶν θεῶν ὀργήν. This seems an instance in which metrical necessity accounts for the use of the active voice; as, conversely, a metrical motive so often induced the use of middle forms.
@@ -2460,7 +2460,7 @@ Other explanations are the following. (1) The poet meant to add something to the
 
 The most attractive remedy is Mehlhorn's, **δίαν Ἀθάναν**, so that the verb shall have the same constr. as in *Ph.* 1065. But, if this be right, how did the genitive arise? Possibly some annotator, who thought that after ηὐδᾶτʼ in 772 the subject of ἀντιφωνεῖ might be obscure, wrote ΑΙΑΣ in the margin, and this, mistaken for ΔΙΑΣ, led to ΔΙΑΣ ΑΘΑΝΑΣ supplanting ΔΙΑΝ ΑΘΑΝΑΝ in the text. The occurrence of the same words in 757 may have helped. [The Homeric fem. is δῖα, δῖαν. But δίᾱ occurs in *Rhes.* 226 Ἄπολλον, ὦ δία κεφαλά.]
 
-If, on the other hand, **δίας Ἀθάνας** be genuine, then corruption may lurk in **δεύτερον**: e.g. the poet may have written εἶτα δ' ἀντίον.
+If, on the other hand, **δίας Ἀθάνας** be genuine, then corruption may lurk in **δεύτερον**: *e.g.* the poet may have written εἶτα δ' ἀντίον.
 
 ## 774
 **τοῖς ἄλλοισιν Ἀργείων**: a somewhat unusual phrase, instead of τοῖς ἄλλοις Ἀργείοις, or τοῖς ἄλλοις τῶν Ἀργείων. The dat. with **πέλας** is rare, but cp. Pind. *O.* 7. 18 Ἀσίας..νᾶσον πέλας | ἐμβόλῳ ναίοντας: *Suppl.* 208 θέλοιμ' ἂν ἤδη σοὶ πέλας θρόνους ἔχειν. Aesch. fr. 102 ἀμφωτίδες τοι τοῖς ἐνωτίοις πέλας.
@@ -2486,7 +2486,7 @@ If, on the other hand, **δίας Ἀθάνας** be genuine, then corruption ma
 ## 780
 **ὁ δ' … Τεῦκρος**: cp. *Ph.* 371 ὁ δ' εἶπ' Ὀδυσσεύς (n.).
 
-**εὐθὺς ἐξ ἕδρας**, immediately on rising from his seat beside Calchas (750 n.). No sooner had Calchas finished, than Teucer rose, and sent the messenger, who was close by,—sitting among the λαοί. (Cp. *Il.* 2. 96 λαῶν ἱζόντων,—in the agora.) Some take εὐθὺς ἐξ ἕδρας as= ‘immediately, *from* his seat,’—i.e., without rising (so that he would beckon or call the man to him): cp. *Il.* 19. 77 αὐτόθεν ἐξ ἕδρης, οὐδ' ἐν μέσσοισιν ἀναστάς: *Od.* 13. 56 (ἔσπεισαν) αὐτόθεν ἐξ ἑδρέων, ‘even there as they sat.’ But in those phrases αὐτόθεν helps to fix the sense: whereas ἐκ following **εὐθὺς** regularly denotes the point from which the further action sets out (εὐθὺς ἐξ ἀρχῆς, εὐθὺς ἐκ νέου, etc.). Hence εὐθὺς ἐξ ἕδρας *ought* to mean, ‘immediately *after* sitting.’— Other explanations of ἐξ ἕδρας are: (1) ‘from where I (the messenger) sat.’ (2) ‘After the sitting of the council.’ But Teucer would not wait for that. (3) ‘Leaving the council’ (or strictly, its neighbourhood, since Calchas had come apart from it, Od. 750). This would imply that Teucer had been included in the ξύνεδρος κύκλος: but the tone used towards him by Menelaüs (1120 ὁ τοξότης) and Agamemnon (1235 δούλων) makes this very unlikely.
+**εὐθὺς ἐξ ἕδρας**, immediately on rising from his seat beside Calchas (750 n.). No sooner had Calchas finished, than Teucer rose, and sent the messenger, who was close by,—sitting among the λαοί. (Cp. *Il.* 2. 96 λαῶν ἱζόντων,—in the agora.) Some take εὐθὺς ἐξ ἕδρας as= ‘immediately, *from* his seat,’—*i.e.*, without rising (so that he would beckon or call the man to him): cp. *Il.* 19. 77 αὐτόθεν ἐξ ἕδρης, οὐδ' ἐν μέσσοισιν ἀναστάς: *Od.* 13. 56 (ἔσπεισαν) αὐτόθεν ἐξ ἑδρέων, ‘even there as they sat.’ But in those phrases αὐτόθεν helps to fix the sense: whereas ἐκ following **εὐθὺς** regularly denotes the point from which the further action sets out (εὐθὺς ἐξ ἀρχῆς, εὐθὺς ἐκ νέου, etc.). Hence εὐθὺς ἐξ ἕδρας *ought* to mean, ‘immediately *after* sitting.’— Other explanations of ἐξ ἕδρας are: (1) ‘from where I (the messenger) sat.’ (2) ‘After the sitting of the council.’ But Teucer would not wait for that. (3) ‘Leaving the council’ (or strictly, its neighbourhood, since Calchas had come apart from it, Od. 750). This would imply that Teucer had been included in the ξύνεδρος κύκλος: but the tone used towards him by Menelaüs (1120 ὁ τοξότης) and Agamemnon (1235 δούλων) makes this very unlikely.
 
 Teucer sends a messenger, instead of going himself, probably because he hopes that his mediation with the chiefs may do some good. What he dreads is simply that Ajax should leave the tent; and a message could prevent that. He has no cause to suspect that Ajax meditates suicide.
 
@@ -2495,17 +2495,17 @@ Teucer sends a messenger, instead of going himself, probably because he hopes th
 
 **φυλάσσειν**, (these mandates) for you to observe; cp. *Suppl.* 179 αἰνῶ φυλάξαι τἄμ' ἔπη δελτουμένας: and for the epexegetic inf., *O. C.* 231 πόνον.. ἀντιδίδωσιν ἔχειν.—φυλάσσειν should not be taken as governing Αἴαντα understood.
 
-**ἀπεστερήμεθα**: ‘deprived’ (of the power to obey the command); hence, ‘frustrated.’ Cp. *O. T.* 769 ff., where Iocasta says, ἀξία δέ που μαθεῖν | κἀγὼ κ.τ.λ., and Oed. replies, κοὐ μὴ στερηθῇς (sc. τοῦ μαθεῖν). Eur. *Andr.* 913 κἄκτεινας, ἤ τις συμφορά σ' ἀφείλετο; (i.e., τὸ κτεῖναι,— ‘prevented’ or ‘baffled’ thee).—Wakefield's **ἀφυστερήμεθα** is a perf. pass. which nowhere occurs: a better conjecture is Badham's **εἰ δ' ἄρ' ὑστερήσαμεν**: but the text appears sound.
+**ἀπεστερήμεθα**: ‘deprived’ (of the power to obey the command); hence, ‘frustrated.’ Cp. *O. T.* 769 ff., where Iocasta says, ἀξία δέ που μαθεῖν | κἀγὼ κ.τ.λ., and Oed. replies, κοὐ μὴ στερηθῇς (*sc.* τοῦ μαθεῖν). Eur. *Andr.* 913 κἄκτεινας, ἤ τις συμφορά σ' ἀφείλετο; (*i.e.*, τὸ κτεῖναι,— ‘prevented’ or ‘baffled’ thee).—Wakefield's **ἀφυστερήμεθα** is a perf. pass. which nowhere occurs: a better conjecture is Badham's **εἰ δ' ἄρ' ὑστερήσαμεν**: but the text appears sound.
 
 ## 784
-**δαΐα**, pass., ‘afflicted’ (δαίω, to burn), as in Aesch. *Pers.* 280, etc. For the act. sense, ‘hostile,’ which is more frequent, see above, Aesch. Pers. 365. The epic form δήϊος (which never means ‘wretched’) is foreign to Tragedy, which, however, admits ἀδῃος ( Soph. *O. C.* 1533) and δῃοῦν (ib. 1319).
+**δαΐα**, pass., ‘afflicted’ (δαίω, to burn), as in Aesch. *Pers.* 280, etc. For the act. sense, ‘hostile,’ which is more frequent, see above, Aesch. Pers. 365. The epic form δήϊος (which never means ‘wretched’) is foreign to Tragedy, which, however, admits ἀδῃος ( Soph. *O. C.* 1533) and δῃοῦν (*ib.* 1319).
 
-**γένος**, ‘being,’ ‘creature,’ an epic use: *Il.* 9. 538 (Artemis) ἡ δὲ χολωσα- μένη δῖον γένος ἰοχέαιρα: ib. 6. 180 (the Chimaera) ἡ δ' ἄρ' ἔην θεῖον γένος οὐδ' ἀνθρώπων.
+**γένος**, ‘being,’ ‘creature,’ an epic use: *Il.* 9. 538 (Artemis) ἡ δὲ χολωσα- μένη δῖον γένος ἰοχέαιρα: *ib.* 6. 180 (the Chimaera) ἡ δ' ἄρ' ἔην θεῖον γένος οὐδ' ἀνθρώπων.
 
 **θροεῖ**: 67 n.
 
 ## 786
-**ξυρεῖ … ἐν χρῷ**. The metaphor from close shaving ( Her. 4. 175 κείροντες ἐν χροΐ) means that the moment is critical: παροιμία ἐπὶ τῶν ἐπικινδύνων πραγμάτων. The razor grazes the surface of the flesh. Itwould convey a different notion if we said, ‘the knife cuts to the quick.’ (The Lat. *tondere ad vivam cutem* is used of ‘fleecing’ a person in Plaut. *Bacch.* 2. 3. 8.) Thus the different image in *Ant.* 996, ἐπὶ ξυροῦ τύχης, is yet kindred in purport. For **ἐν χρῷ**, cp. Lucian *Adv. Indoct.* 3 τῆς ἐν χρῷ πρὸς τὰ βιβλία συνουσίας.—The dat. **χρῷ** occurs only in this phrase. Sophocles has χρωτί in *Ant.* 246, *Tr.* 767, and the Ion. χροΐ in *Tr.* 605. Cp. γέλῳ ( *Od.* 18. 100), ἔρῳ (ib. 212), ἱδρῷ ( *Il.* 17. 385), φῷ (‘light,’ Eur. fr. 534).
+**ξυρεῖ … ἐν χρῷ**. The metaphor from close shaving ( Her. 4. 175 κείροντες ἐν χροΐ) means that the moment is critical: παροιμία ἐπὶ τῶν ἐπικινδύνων πραγμάτων. The razor grazes the surface of the flesh. Itwould convey a different notion if we said, ‘the knife cuts to the quick.’ (The Lat. *tondere ad vivam cutem* is used of ‘fleecing’ a person in Plaut. *Bacch.* 2. 3. 8.) Thus the different image in *Ant.* 996, ἐπὶ ξυροῦ τύχης, is yet kindred in purport. For **ἐν χρῷ**, cp. Lucian *Adv. Indoct.* 3 τῆς ἐν χρῷ πρὸς τὰ βιβλία συνουσίας.—The dat. **χρῷ** occurs only in this phrase. Sophocles has χρωτί in *Ant.* 246, *Tr.* 767, and the Ion. χροΐ in *Tr.* 605. Cp. γέλῳ ( *Od.* 18. 100), ἔρῳ (*ib.* 212), ἱδρῷ ( *Il.* 17. 385), φῷ (‘light,’ Eur. fr. 534).
 
 **μὴ χαίρειν τινά**: inf. of result, without ὥστε: 822: *Ant.* 63 ἀρχόμεσθ' ἐκ κρεισσόνων, | καὶ ταῦτ' ἀκούειν κ.τ.λ. (n.).
 
@@ -2535,10 +2535,10 @@ Teucer sends a messenger, instead of going himself, probably because he hopes th
 **σκηνῆς ὕπαυλον**: *El.* 1386 δωμάτων ὑπόστεγοι (n.).
 
 ## 797
-**κἀπὶ τῷ**: ‘by reason of what?’ Here ἐπί with dat. denotes cause or occasion (rather than aim, ‘with a view to what?’). Cp. *El.* 333 ἀλγῶ ʼπὶ τοῖς παροῦσιν (and ib. 1230): *Ph.* 174 ἀλύει δʼ ἐπὶ παντί τῳ | χρείας ἱσταμένῳ.
+**κἀπὶ τῷ**: ‘by reason of what?’ Here ἐπί with dat. denotes cause or occasion (rather than aim, ‘with a view to what?’). Cp. *El.* 333 ἀλγῶ ʼπὶ τοῖς παροῦσιν (and *ib.* 1230): *Ph.* 174 ἀλύει δʼ ἐπὶ παντί τῳ | χρείας ἱσταμένῳ.
 
 ## 798 f.
-**τήνδε δ' ἔξοδον … φέρειν**. There is strong reason to think that φέρειν is genuine, and has the sense of ‘*tending* towards.’ For (1) Sophocles has thus used φέρω in *O. T.* 517 εἰς βλάβην φέρον: ib. 519 f. οὐ γὰρ εἰς ἁπλοῦν | ἡ ζημία μοι τοῦ λόγου τούτου φέρει: ib. 991 ἐς φόβον φέρον. Cp. Her. 1. 10 ἐς αἰσχύνην φέρει. (2) This sense precisely suits the context here, where the apprehension is *vague*; Calchas had not said *how* the ἔξοδος was to be fatal, but merely that it was to be prevented, on pain of never again seeing Ajax alive. But ὀλεθρίαν..φέρειν could not mean, ‘is of fatal tendency.’ Such a fusion of ὀλεθρίαν εἶναι with φέρειν εἰς ὄλεθρον is impossible.
+**τήνδε δ' ἔξοδον … φέρειν**. There is strong reason to think that φέρειν is genuine, and has the sense of ‘*tending* towards.’ For (1) Sophocles has thus used φέρω in *O. T.* 517 εἰς βλάβην φέρον: *ib.* 519 f. οὐ γὰρ εἰς ἁπλοῦν | ἡ ζημία μοι τοῦ λόγου τούτου φέρει: *ib.* 991 ἐς φόβον φέρον. Cp. Her. 1. 10 ἐς αἰσχύνην φέρει. (2) This sense precisely suits the context here, where the apprehension is *vague*; Calchas had not said *how* the ἔξοδος was to be fatal, but merely that it was to be prevented, on pain of never again seeing Ajax alive. But ὀλεθρίαν..φέρειν could not mean, ‘is of fatal tendency.’ Such a fusion of ὀλεθρίαν εἶναι with φέρειν εἰς ὄλεθρον is impossible.
 
 Nor can we render: ‘He (Teucer) forebodes that this going-forth, which he announces, will be fatal to Ajax.’ φέρειν could be said only of the *messenger*— not of the man who sends him. Paley's conjecture, *ἐλπίζω* φέρειν, meets the point as to φέρειν, but the change to the first person is too harsh. Bothe's **ἐλπίζειν φέρει** (‘Teucer announces that he forebodes,’ etc.) strains both verbs. Enger's **ἐλπίζει κυρεῖν** is somewhat tame, and does not seem very probable.
 
@@ -2547,16 +2547,16 @@ Could **ὀλεθρίαν Αἴαντος** have come from **Αἴαντος ε�
 ## 801
 **τοῦ Θεστορείου μάντεως**: *Il.* 1. 69 Κάλχας Θεστορίδης, οἰωνοπόλων ὄχʼ ἄριστος. Cp. above, Il. 134, Τελαμώνιε παῖ: and n. on *O. T.* 267. According to one legend, Thestor was the son of Idmon (ἴδμων), the seer who accompanied the Argonauts, and whose father was Apollo (schol. Apoll. Rhod. 1. 139). The name Θέσ-τωρ is from the root θες, ‘desire,’ ‘pray,’ whence θεσσάμενος (=αἰτησάμενος, Archil. fr. 11, etc.), πολύθεστος ‘much besought’ (Curt. *Etym.* vol. II. p. 137): meaning, ‘one who prays to the gods.’ Κάλχας is prob. from καλχαίνω, one who ‘darkly broods’ on futurity ( *Ant.* 20 n.).
 
-**ὅτ' αὐτῷ … φέρει**. The traditional **ὅτʼ** (ὅτε) seems right. Tecmessa has already heard that the ἔξοδος is perilous. The new fact which she is now to learn is that ‘*this day*’ must decide the fate of Ajax. If, however, **ὅτʼ** be changed to **ὃς**, then this new fact will not be told, unless the words καθ' ἡμέραν τὴν νῦν be taken with what follows (ὃς..φέρει). But they go more naturally with what precedes them (τοῦ..μάντεως, sc. μαθών).
+**ὅτ' αὐτῷ … φέρει**. The traditional **ὅτʼ** (ὅτε) seems right. Tecmessa has already heard that the ἔξοδος is perilous. The new fact which she is now to learn is that ‘*this day*’ must decide the fate of Ajax. If, however, **ὅτʼ** be changed to **ὃς**, then this new fact will not be told, unless the words καθ' ἡμέραν τὴν νῦν be taken with what follows (ὃς..φέρει). But they go more naturally with what precedes them (τοῦ..μάντεως, *sc.* μαθών).
 
-If **φέρει** be sound, the subject to it is ἡ ἔξοδος (798). There is nothing harsh in this, since the ἔξοδος is the matter uppermost in the minds of the speakers. **φέρει … θάνατον ἢ βίον** then means, ‘is *fraught with* death or life’: cp. *Ph.* 109 εἰ τὸ σωθῆναί γε τὸ ψεῦδος φέρει: *El.* 84 ταῦτα γὰρ φέρει | νίκην: ib. 1042 χἡ δίκη βλάβην φέρει. The subject to φέρει is certainly not ἡμέρα ἡ νῦν. If Calchas were subject to φέρει, the verb would mean ἀγγέλλει: but, for this sense, the subject must be the ἄγγελος himself, not the sender. There is no parallel for φέρει as=merely ‘*portends.*’
+If **φέρει** be sound, the subject to it is ἡ ἔξοδος (798). There is nothing harsh in this, since the ἔξοδος is the matter uppermost in the minds of the speakers. **φέρει … θάνατον ἢ βίον** then means, ‘is *fraught with* death or life’: cp. *Ph.* 109 εἰ τὸ σωθῆναί γε τὸ ψεῦδος φέρει: *El.* 84 ταῦτα γὰρ φέρει | νίκην: *ib.* 1042 χἡ δίκη βλάβην φέρει. The subject to φέρει is certainly not ἡμέρα ἡ νῦν. If Calchas were subject to φέρει, the verb would mean ἀγγέλλει: but, for this sense, the subject must be the ἄγγελος himself, not the sender. There is no parallel for φέρει as=merely ‘*portends.*’
 
 It is possible that ΦΕΡΕΙ came, under the influence of ΦΕΡΕΙΝ in 799, from ΘΡΟΕΙ (the subject being Calchas): but we should not be warranted in altering the text. Wecklein and Blaydes, reading **θροεῖ**, compare *O. C.* 1425 (τὰ τοῦδε) μαντεύμαθʼ, ὃς σφῷν θάνατον ἐξ ἀμφοῖν θροεῖ.
 
 ## 803
 **οἲ ʼγώ**: rare in Tragedy: in *El.* 674, El. 1115 τάλαινα is added: but cp. Soph. *Ph.* 1274 οἲ ʼγώ, τί λέξεις;
 
-**πρόστητʼ**, place yourselves (as it were) *in front of* it, i.e., ‘interpose between it and me,’ ‘defend me from it.’ Cp. Her. 9. 107 οἱ δορυφόροι οἱ Μασιστέω προέστησαν (sc. αὐτοῦ). For the usage of προστῆναι, see on *El.* 980.
+**πρόστητʼ**, place yourselves (as it were) *in front of* it, *i.e.*, ‘interpose between it and me,’ ‘defend me from it.’ Cp. Her. 9. 107 οἱ δορυφόροι οἱ Μασιστέω προέστησαν (*sc.* αὐτοῦ). For the usage of προστῆναι, see on *El.* 980.
 
 **ἀναγκαίας τύχης**, the fortune impending over Tecmessa from that ἀνάγκη, or destiny, which Calchas has expounded. Cp. 485.—Not, ‘avert the fatal chance’ which threatens Ajax (as if they were to place themselves between *him* and the τύχη).
 
@@ -2565,9 +2565,9 @@ It is possible that ΦΕΡΕΙ came, under the influence of ΦΕΡΕΙΝ in 799,
 
 **Τεῦκρον μολεῖν**, depending on **σπεύσατε**: cp. Her. 1. 74 ἔσπευσαν... εἰρήνην ἑωυτοῖσι γενέσθαι.
 
-**ἑσπέρους … ἀντηλίους**. So in Eur. *Or.* 1258 ff. the Chorus is divided into two ἡμιχόρια, which, by Electra's direction, guard respectively the east and the west side of the palace at Mycenae:—ΗΜ. χωρεῖτʼ, ἐπειγώμεσθʼ· ἐγὼ μὲν οὖν τρίβον | τόνδ' ἐκφυλάξω, τὸν πρὸς ἡλίου βολάς. | ΗΜ. καὶ μὲν ἐγὼ τόνδʼ, ὃς πρὸς ἑσπέραν φέρει. There, the ‘eastward path’ is the πάροδος on the spectator's left; the ‘westward,’ that on his right. In the *Orestes*, however, the hemichoria do not leave the orchestra. The Ionic form ἀντήλιος was used in Tragedy: so ἀπηλιώτης, even in Attic prose. ἀνθήλιος occurs first in the comic poet Theopompus (circ. 390 B.C.).
+**ἑσπέρους … ἀντηλίους**. So in Eur. *Or.* 1258 ff. the Chorus is divided into two ἡμιχόρια, which, by Electra's direction, guard respectively the east and the west side of the palace at Mycenae:—ΗΜ. χωρεῖτʼ, ἐπειγώμεσθʼ· ἐγὼ μὲν οὖν τρίβον | τόνδ' ἐκφυλάξω, τὸν πρὸς ἡλίου βολάς. | ΗΜ. καὶ μὲν ἐγὼ τόνδʼ, ὃς πρὸς ἑσπέραν φέρει. There, the ‘eastward path’ is the πάροδος on the spectator's left; the ‘westward,’ that on his right. In the *Orestes*, however, the hemichoria do not leave the orchestra. The Ionic form ἀντήλιος was used in Tragedy: so ἀπηλιώτης, even in Attic prose. ἀνθήλιος occurs first in the comic poet Theopompus (*circ.* 390 B.C.).
 
-**ἀγκῶνας**, the bends or bays of the coast, as in Her. 2. 99 ἀγκών is a bend of the Nile. The acc. depends on ἰόντες ( *O. T.* 637 οὐκ εἶ σύ τ' οἴκους).— **ζητεῖτʼ**, a new finite verb, instead of an inf. ζητεῖν, parallel with **μολεῖν**. This is a tendency of Greek idiom: cp. *Ph.* 216 (βοᾷ), *O. C.* 351 (ἡγεῖται), *Tr.* 267 (φωνεῖ), ib. 677 (φθίνει).
+**ἀγκῶνας**, the bends or bays of the coast, as in Her. 2. 99 ἀγκών is a bend of the Nile. The acc. depends on ἰόντες ( *O. T.* 637 οὐκ εἶ σύ τ' οἴκους).— **ζητεῖτʼ**, a new finite verb, instead of an inf. ζητεῖν, parallel with **μολεῖν**. This is a tendency of Greek idiom: cp. *Ph.* 216 (βοᾷ), *O. C.* 351 (ἡγεῖται), *Tr.* 267 (φωνεῖ), *ib.* 677 (φθίνει).
 
 ## 807
 **φωτὸς ἠπατημένη**, deceived by him: schol. καταφρονήσας ἠπάτησέ με. Cp. Eur. *Or.* 497 πληγεὶς θυγατρός. Others understand, ‘deceived *concerning* (or *in*) him’: but the genitive will hardly yield that sense.—She refers esp. to his words in 684—692.
@@ -2638,7 +2638,7 @@ The antithesis to **ὁ μὲν σφαγεὺς** κ.τ.λ. is delayed: it is gi
 
 **καὶ γὰρ εἰκός**: since Zeus is the ancestor of the Aeacidae (387).
 
-**αἰτήσομαι**: for the fut., cp. 681 n. The verb takes a double acc., and **λαχεῖν** (sc. αὐτό) is epexegetic inf.: cp. *O. T.* 1255 φοιτᾷ γὰρ ἡμᾶς ἔγχος ἐξαιτῶν πορεῖν (‘that we should give it’): *Ant.* 1098 εὐβουλίας δεῖ..λαβεῖν.
+**αἰτήσομαι**: for the fut., cp. 681 n. The verb takes a double acc., and **λαχεῖν** (*sc.* αὐτό) is epexegetic inf.: cp. *O. T.* 1255 φοιτᾷ γὰρ ἡμᾶς ἔγχος ἐξαιτῶν πορεῖν (‘that we should give it’): *Ant.* 1098 εὐβουλίας δεῖ..λαβεῖν.
 
 **μακρὸν**=μέγα (130 n.).
 
@@ -2648,7 +2648,7 @@ The antithesis to **ὁ μὲν σφαγεὺς** κ.τ.λ. is delayed: it is gi
 ## 827
 **βαστάσῃ**, take in the hands, ‘lift’ (920). Cp. Eur. *Alc.* 724 βαστάζων νεκρόν=ἐκφέρων. Cp. Soph. *Ant.* 43 νεκρὸν..κουφιεῖς.
 
-**πεπτῶτα περὶ ξίφει**: cp. 899, 907: II. *Od.* 424 ἀποθνῄσκων περὶ φασγάνῳ: *Il.* 13. 570 περὶ δουρὶ | ἤσπαιρʼ: ib. 8. 86 κυλινδόμενος περὶ χαλκῷ (said of a wounded horse, ‘writhing about’ the barb of an arrow): ib. 23. 30 (βόες) ἀμφὶ σιδήρῳ | σφαζόμενοι. [See on 899](#899).
+**πεπτῶτα περὶ ξίφει**: cp. 899, 907: II. *Od.* 424 ἀποθνῄσκων περὶ φασγάνῳ: *Il.* 13. 570 περὶ δουρὶ | ἤσπαιρʼ: *ib.* 8. 86 κυλινδόμενος περὶ χαλκῷ (said of a wounded horse, ‘writhing about’ the barb of an arrow): *ib.* 23. 30 (βόες) ἀμφὶ σιδήρῳ | σφαζόμενοι. [See on 899](#899).
 
 ## 830
 **πρόβλητος** goes closely with the datives: Her. 9. 112 τοὺς μαζοὺς κυσὶ προέβαλε. Cp. Hor. *Epod.* 6. 10 *proiectum odoraris cibum.*
@@ -2665,9 +2665,9 @@ Ajax forebodes that, as a public enemy, he will suffer the doom which Achilles a
 *832* The sense of **πομπαῖον** (=ψυχοπομπόν) is defined by **χθόνιον**, just as in *O. C.* 1548 the context defines a like epithet,—Ἑρμῆς ὁ πομπὸς ἥ τε νερτέρα θεός. See n. there, and on *Ph.* 133 (Ἑρμῆς ὁ πέμπων).
 
 ## 833
-**ἀσφαδάστῳ**, ‘without convulsion.’ σφαδάζω is from rt. σφαδ, denoting sudden, violent movement: whence σφεδανός, σφοδρός, σφενδόνη (a sling): Curt. *Etym.* § 296. The verb was often used with ref. to a convulsive *death-* struggle; Eur. fr. 1020 ὁ δ' ἐσφάδαζεν, οὐκ ἔχων ἀπαλλαγάς: *Anton.* 76 σφαδάζοντος (cp. δυσθανατῶν ib.). Aesch. *Ag.* 1292 ἐπεύχομαι δὲ καιρίας πληγῆς τυχεῖν, | ὡς ἀσφάδαστος, αἱμάτων εὐθνησίμων | ἀπορρυέντων, ὄμμα συμβάλω τόδε.
+**ἀσφαδάστῳ**, ‘without convulsion.’ σφαδάζω is from rt. σφαδ, denoting sudden, violent movement: whence σφεδανός, σφοδρός, σφενδόνη (a sling): Curt. *Etym.* § 296. The verb was often used with ref. to a convulsive *death-* struggle; Eur. fr. 1020 ὁ δ' ἐσφάδαζεν, οὐκ ἔχων ἀπαλλαγάς: *Anton.* 76 σφαδάζοντος (cp. δυσθανατῶν *ib.*). Aesch. *Ag.* 1292 ἐπεύχομαι δὲ καιρίας πληγῆς τυχεῖν, | ὡς ἀσφάδαστος, αἱμάτων εὐθνησίμων | ἀπορρυέντων, ὄμμα συμβάλω τόδε.
 
-The precept to write σφαδᾴζω (and therefore, as Nauck does, ἀσφάδᾳστος) dates from Herodian (c. 160 A.D. ), but is not confirmed by any such independent evidence as exists in the case of ματᾴζω ( Soph. *O. T.* 891). Ellendt writes σφαδᾴζω, yet ἀσφάδαστος.
+The precept to write σφαδᾴζω (and therefore, as Nauck does, ἀσφάδᾳστος) dates from Herodian (*c.* 160 A.D. ), but is not confirmed by any such independent evidence as exists in the case of ματᾴζω ( Soph. *O. T.* 891). Ellendt writes σφαδᾴζω, yet ἀσφάδαστος.
 
 **πηδήματι**, the act of throwing himself upon the sword; *Helen.* 96 (of Ajax) οἰκεῖον αὐτὸν ὤλεσ' ἅλμ' επὶξίφος. This swift act, followed by no σφαδασμός, is to be the means (**ξὺν**) by which Hermes is to lay him to rest.
 
@@ -2675,7 +2675,7 @@ The precept to write σφαδᾴζω (and therefore, as Nauck does, ἀσφάδ�
 **πλευρὰν διαρρήξαντα**. Acc. to the legend followed by Aeschylus in his Θρῇσσαι (fr. 83), Ajax was invulnerable, except in one spot; when he sought to fall on his sword, it bent ‘like a bow,’— until a δαίμων showed him the fatal place. See Introduction, § 4. The schol. here fancies that Sophocles used πλευρὰν with a purposed vagueness,—wishing neither to imitate nor to contradict his predecessor. Rather Sophocles, like the *Iliad*, ignores altogether the legend which Aeschylus used.
 
 ## 835
-**τὰς ἀεί τε παρθένους**: ‘the maidens who live for ever, and who ever behold,’ etc.: τὰς ἀεὶ=τὰς ἀεὶ οὔσας. For ὁ ἀεὶ as=ὁ ἀεὶ ὤν, cp. *O. C.* 1700 τὸν ἀεὶ- κατὰ | γᾶς σκότον εἱμένος. For παρθένους, *O. C.* 127 τᾶνδ' ἀμαιμακετᾶν κορᾶν: Aesch. *Eum.* 791 κόραι δυστυχεῖς | Νυκτός: ib. 69 γραῖαι, παλαιαὶ παῖδες αἷς οὐ μίγνυται | θεῶν τις, οὐδ' ἄνθρωπος, οὐδὲ θήρ ποτε.—By his conjecture τὰς ἀεί τ' *ἐπαργέμους*, Meineke meant, ‘ever shrouded in the nether gloom.’
+**τὰς ἀεί τε παρθένους**: ‘the maidens who live for ever, and who ever behold,’ etc.: τὰς ἀεὶ=τὰς ἀεὶ οὔσας. For ὁ ἀεὶ as=ὁ ἀεὶ ὤν, cp. *O. C.* 1700 τὸν ἀεὶ- κατὰ | γᾶς σκότον εἱμένος. For παρθένους, *O. C.* 127 τᾶνδ' ἀμαιμακετᾶν κορᾶν: Aesch. *Eum.* 791 κόραι δυστυχεῖς | Νυκτός: *ib.* 69 γραῖαι, παλαιαὶ παῖδες αἷς οὐ μίγνυται | θεῶν τις, οὐδ' ἄνθρωπος, οὐδὲ θήρ ποτε.—By his conjecture τὰς ἀεί τ' *ἐπαργέμους*, Meineke meant, ‘ever shrouded in the nether gloom.’
 
 **ἀεί θ' ὁρώσας**. Here τε is clearly better than δέ (the reading of L), as in *El.* 1098 f. ὀρθά τ' εἰσηκούσαμεν, | ὀρθῶς θ' ὁδοιποροῦμεν. For instances in which τε can fitly be followed by δέ, see *Ant.* 1096 (n.), *Tr.* 143 (n.).
 
@@ -2695,13 +2695,13 @@ The last two of these four verses are certainly spurious, as three things show.
 
 (1) The poet would not have made the dying Ajax pray that the Atreidae may die ‘at the hands of their offspring,’ unless there had been some legend that they so died. But, according to the current mythology, Agamemnon was slain by his wife and her paramour, while Menelaüs and Helen passed, without dying, to Elysium ( *Od.* 4. 561). It is only in later times that we meet with the story of Menelaüs and Helen having been sacrificed by Iphigeneia in the land of the Tauri (Ptolemy Heph. 4, cp. Roscher, *Lex.* p. 1951): a myth which the author of these verses may have had in view. Odysseus, indeed, was slain by Telegonus; but he does not come into account here, unless we make the improbable change of Ἀτρειδῶν to Ἀχαιῶν in 838. [As to the double sense of αὐτοσφαγής, with ref. to one who is slain (1) by himself, (2) by a kinsman, see on *Ant.* 56 αὐτοκτονοῦντε.]
 
-(2) These two verses confuse the construction, since ὥσπερ εἰσορῶσ' ἐμέ (sc. ξυναρπασθέντα) refers to what precedes: while τὼς in 841 refers to ὥσπερ.
+(2) These two verses confuse the construction, since ὥσπερ εἰσορῶσ' ἐμέ (*sc.* ξυναρπασθέντα) refers to what precedes: while τὼς in 841 refers to ὥσπερ.
 
 (3) The form φίλιστος occurs nowhere else, except as a proper name.
 
 τώς is not elsewhere found in Soph. or Eur. : it is, however, used by Aesch. , not only in lyrics ( Aesch. *Th.* 484, *Suppl.* 69, 670, 691), but once, at least, in a trimeter, *Th.* 637 ἢ ζῶντ' ἀτιμαστῆρα τὼς ἀνδρηλάτην. We should not, then, insist on τώς as a mark of spuriousness: and ὀλοίατο is, of course, free from objection ( *O. T.* 1274 γνωσοίατο n.). But the case against 841 f. seems conclusive without them.
 
-A more difficult question is whether vv. 839, 840 are also spurious. The schol. in L on v. 841 is as follows:—τὼς αὐτοσφαγεῖς: ταῦτα νοθεύεσθαί φασιν ὑποβληθέντα πρὸς σαφήνειαν τῶν λεγομένων. As the lemma, τὼς αὐτοσφαγεῖς, clearly indicates, ταῦτα refers only to the two verses 841 f., and not (as Dindorf and others have assumed) to all the four verses 839—842. The surmise was, says the scholiast, that vv. 841 f. were added ‘to make the meaning clearer’; i.e., to explain the elliptical phrase, ὥσπερ εἰσορῶσ' ἐμέ. Such a surmise itself shows that vv. 839, 840 were believed to be older than 841 f. It is indeed plain that all four verses are not by the same author. The incoherent construction noticed above, under (2), was possible for an interpolator whose attention was fixed on ὥσπερ εἰσορῶσ' ἐμέ, but hardly for one who was forging vv. 839—842 as a whole. If, then, all four verses are condemned, we must assume two independent interpolations.
+A more difficult question is whether vv. 839, 840 are also spurious. The schol. in L on v. 841 is as follows:—τὼς αὐτοσφαγεῖς: ταῦτα νοθεύεσθαί φασιν ὑποβληθέντα πρὸς σαφήνειαν τῶν λεγομένων. As the lemma, τὼς αὐτοσφαγεῖς, clearly indicates, ταῦτα refers only to the two verses 841 f., and not (as Dindorf and others have assumed) to all the four verses 839—842. The surmise was, says the scholiast, that vv. 841 f. were added ‘to make the meaning clearer’; *i.e.*, to explain the elliptical phrase, ὥσπερ εἰσορῶσ' ἐμέ. Such a surmise itself shows that vv. 839, 840 were believed to be older than 841 f. It is indeed plain that all four verses are not by the same author. The incoherent construction noticed above, under (2), was possible for an interpolator whose attention was fixed on ὥσπερ εἰσορῶσ' ἐμέ, but hardly for one who was forging vv. 839—842 as a whole. If, then, all four verses are condemned, we must assume two independent interpolations.
 
 I incline to think that the two verses 839 and 840 are genuine; because, otherwise, the imprecation on the πάνδημος στρατός (844) would follow too abruptly on v. 838. The prayer for the destruction of his chief foes, uttered in 839 f., leads up to the more sweeping denunciation of the Greek army.
 
@@ -2730,7 +2730,7 @@ I incline to think that the two verses 839 and 840 are genuine; because, otherwi
 
 **ἥσει … κωκυτὸν**: cp. 627 αἴλινον.. | ἥσει. *Tr.* 866 ἠχεῖ τις.. | κωκυτόν. Soph. *Ph.* 1350 ἀνάγετ' ἀνάγετε κωκυτόν.
 
-**ἐν πάσῃ πόλει**. This is Homeric: Sophocles is thinking of the lamentation for Hector, begun by Cassandra: *Il.* 24. 703 κώκυσέν τ' ἄρ' ἔπειτα γέγωνέ τε πᾶν κατὰ ἄστυ: cp. ib. 776 (after Helen's lament) ὡς ἔφατο κλαίουσʼ· ἐπὶ δ' ἔστενε δῆμος ἀπείρων. There is more of Athenian feeling in the surmise concerning Eurydicè ( *Ant.* 1247), ἐς πόλιν γόους | οὐκ ἀξιώσειν.
+**ἐν πάσῃ πόλει**. This is Homeric: Sophocles is thinking of the lamentation for Hector, begun by Cassandra: *Il.* 24. 703 κώκυσέν τ' ἄρ' ἔπειτα γέγωνέ τε πᾶν κατὰ ἄστυ: cp. *ib.* 776 (after Helen's lament) ὡς ἔφατο κλαίουσʼ· ἐπὶ δ' ἔστενε δῆμος ἀπείρων. There is more of Athenian feeling in the surmise concerning Eurydicè ( *Ant.* 1247), ἐς πόλιν γόους | οὐκ ἀξιώσειν.
 
 ## 852 f.
 **ἔργον**: 12 n.
@@ -2741,12 +2741,12 @@ I incline to think that the two verses 839 and 840 are genuine; because, otherwi
 **Θάνατε**. *Ph.* 797 ὦ Θάνατε Θάνατε, πῶς ἀεὶ καλούμενος | οὕτω κατ' ἦμαρ οὐ δύνᾳ μολεῖν ποτέ; Aesch. fr. 255 ὦ Θάνατε παιάν, μή μ' ἀτιμάσῃς μολεῖν.
 
 ## 855
-**κἀκεῖ**=καὶ ἐν Ἅιδου ( *Ant.* 76, *El.* 356). In Hesiod *Theog.* 758 ff. Thanatos and Hypnos are the sons of Night, and dwell near Hades and Persephonè. A relief from Ephesus shows Thanatos, winged, and girt with his sword, in the nether world, at the moment when Hermes is about to bring Alcestis back to the sunlight. See Baumeister, *Denkmäler* p. 281 (pl. 281), and ib. 1730, where C. Robert's interpretation of the subject is given.
+**κἀκεῖ**=καὶ ἐν Ἅιδου ( *Ant.* 76, *El.* 356). In Hesiod *Theog.* 758 ff. Thanatos and Hypnos are the sons of Night, and dwell near Hades and Persephonè. A relief from Ephesus shows Thanatos, winged, and girt with his sword, in the nether world, at the moment when Hermes is about to bring Alcestis back to the sunlight. See Baumeister, *Denkmäler* p. 281 (pl. 281), and *ib.* 1730, where C. Robert's interpretation of the subject is given.
 
-The absence of caesura gives a more deliberate weight to σὲ μὲν κἀκεῖ: cp. 994: *Ph.* 1369 ἔα κακῶς αὐτοὺς ἀπόλλυσθαι κακούς, and ib. 101: *Ant.* 44.
+The absence of caesura gives a more deliberate weight to σὲ μὲν κἀκεῖ: cp. 994: *Ph.* 1369 ἔα κακῶς αὐτοὺς ἀπόλλυσθαι κακούς, and *ib.* 101: *Ant.* 44.
 
 ## 856
-**τὸ νῦν σέλας**, i.e., ‘which I see now, but soon shall see no more.’ Cp. 753 κατ' ἦμαρ τοὐμφανὲς τὸ νῦν τόδε.
+**τὸ νῦν σέλας**, *i.e.*, ‘which I see now, but soon shall see no more.’ Cp. 753 κατ' ἦμαρ τοὐμφανὲς τὸ νῦν τόδε.
 
 **διφρευτὴν** (845): cp. *Ant.* 1065 τρόχους ἁμιλλητῆρας ἡλίου, ‘courses of the sun's swift chariot.’ For καὶ τὸν..Ἥλιον (instead of καὶ σέ, ὦ Ἥλιε), cp. 862 n.
 
@@ -2756,12 +2756,12 @@ The absence of caesura gives a more deliberate weight to σὲ μὲν κἀκε
 **κοὔποτ' … ὕστερον**: *Ant.* 808 νέατον..φέγγος λεύσσουσαν ἀελίου, | κοὔποτ' αὖθις.
 
 ## 859
-**ἱερὸν**: an epithet given to cities in respect of their πολισσοῦχοι or ἐγχώριοι θεοί: cp. 1221. Ajax refers esp. to Zeus and the Aeacidae. Among the shrines of Salamis in the poet's day were those of Athena Σκιράς ( Her. 8. 94), Enyalios (v. 179 n.), Artemis ( Paus. 1. 36. 1), and Ajax (ib. 35. 3).
+**ἱερὸν**: an epithet given to cities in respect of their πολισσοῦχοι or ἐγχώριοι θεοί: cp. 1221. Ajax refers esp. to Zeus and the Aeacidae. Among the shrines of Salamis in the poet's day were those of Athena Σκιράς ( Her. 8. 94), Enyalios (v. 179 n.), Artemis ( Paus. 1. 36. 1), and Ajax (*ib.* 35. 3).
 
 **πατρῷον** instead of πατρῴας, since ἑστίας βάθρον is a single notion: see on κυνὸς..εὔρινος βάσις (8). **βάθρον**: 135 n.
 
 ## 861
-**κλειναί**: Pind. fr. 76 ὦ ταὶ λιπαραὶ καὶ ἰοστέφανοι καὶ ἀοίδιμοι, | Ἑλλάδος ἔρεισμα, κλειναὶ Ἀθᾶναι, δαιμόνιον πτολίεθρον. Soph. *O. C.* 108 πασῶν Ἀθῆναι τιμιωτάτη πόλις: ib. 282 τὰς εὐδαίμονας: Soph. *El.* 707 τῶν θεοδμήτων.
+**κλειναί**: Pind. fr. 76 ὦ ταὶ λιπαραὶ καὶ ἰοστέφανοι καὶ ἀοίδιμοι, | Ἑλλάδος ἔρεισμα, κλειναὶ Ἀθᾶναι, δαιμόνιον πτολίεθρον. Soph. *O. C.* 108 πασῶν Ἀθῆναι τιμιωτάτη πόλις: *ib.* 282 τὰς εὐδαίμονας: Soph. *El.* 707 τῶν θεοδμήτων.
 
 **καὶ τὸ σύντροφον γένος**, following the voc., as in *Ph.* 986 ὦ Λημνία χθὼν καὶ τὸ παγκρατὲς σέλας. With σύντροφον we may understand ἡμῖν rather than Ἀθήναις: the Athenians are kinsmen and associates of the Salaminians,—as the latter are γενεᾶς χθονίων ἀπ' Ἐρεχθειδᾶν (202). Cp. *Ph.* 171 ξύντροφον ὄμμα, a companion's face. It seems improbable that σύντροφον γένος alludes specially to the Attic φυλὴ Αἰαντίς: that would unduly narrow the reference.
 
@@ -2770,10 +2770,10 @@ The absence of caesura gives a more deliberate weight to σὲ μὲν κἀκε
 
 **καὶ τὰ Τρ. πεδία προσαυδῶ**: this clause follows the series of vocatives, and precedes their verb, as in the similar passage, Aesch. *P. V.* 88—92 ὦ δῖος αἰθὴρ κ.τ.λ... | καὶ τὸν πανόπτην κύκλον Ἡλίου καλῶ· | ἴδεσθέ μ' κ.τ.λ.
 
-**τροφῆς** (cp. 189 βασιλῆς): the soil and the streams have sustained his life. Ar. *Th.* 299 τῇ Κουροτρόφῳ (i.e. τῇ Γῇ), Aesch. *Th.* 477 τροφεῖα πληρώσει χθονί. There was a custom that youths on coming of age should offer a ‘nurture-lock’ to rivers ( Aesch. *Ch.* 6 πλόκαμον Ἰνάχῳ θρεπτήριον).
+**τροφῆς** (cp. 189 βασιλῆς): the soil and the streams have sustained his life. Ar. *Th.* 299 τῇ Κουροτρόφῳ (*i.e.* τῇ Γῇ), Aesch. *Th.* 477 τροφεῖα πληρώσει χθονί. There was a custom that youths on coming of age should offer a ‘nurture-lock’ to rivers ( Aesch. *Ch.* 6 πλόκαμον Ἰνάχῳ θρεπτήριον).
 
 ## 864
-**Αἴας … θροεῖ**, followed by **μυθήσομαι**: as τὸν πλανήτην Οἰδίπουν ( *O. C.* e) is followed by ἐμοί (ib. 6). Cp. 427 πρόκειμαι after ἄνδρα τόνδε (n.).
+**Αἴας … θροεῖ**, followed by **μυθήσομαι**: as τὸν πλανήτην Οἰδίπουν ( *O. C.* e) is followed by ἐμοί (*ib.* 6). Cp. 427 πρόκειμαι after ἄνδρα τόνδε (n.).
 
 Ajax falls upon his sword. (See n. on 815.)—The actor Timotheus of Zacynthus (says the scholiast) was celebrated in this scene: ἦγε τοὺς θεατὰς καὶ ἐψυχαγώγει, ὡς Σφαγέα αὐτὸν κληθῆναι.
 
@@ -2786,7 +2786,7 @@ The extant examples of hemichoria in Tragedy are not many. In Aesch. *Theb.* 106
 **πόνος πόνῳ πόνον**: cp. 1197, and n. on *O. T.* 175. Aesch. *Pers.* 1041 δόσιν κακὰν κακῶν κακοῖς. The dialogue in 866—878 is conducted by the two leaders of hemichoria. When Sophocles raised the number of the tragic Chorus from twelve to fifteen, his object was to provide a coryphaeus (distinct from the ordinary choreutae), and two subordinate leaders. The technical name for these leaders of hemichoria was παραστάται, because they stood one on each side of the coryphaeus when the Chorus was drawn up in ranks (κατὰ ζυγά).
 
 ## 869
-**κοὐδεὶς … τόπος**. The reading of the MSS. can mean only: ‘and no place is conscious that I have learned along with it,’ i.e., ‘have learned what it knows,’ ‘share its secret.’ The constr. ἐπίσταταί με συμμαθεῖν (instead of συμμαθόντα) is warranted by *Ant.* 1092 ff. ἐπιστάμεσθα..αὐτὸν..λακεῖν): see also ib. 293, *El.* 616. **συμμαθεῖν**, as=‘to learn *with* one,’ may be defended by Plat. *Symp.* 3. 20 ἐμὲ μὲν παρακάλει, ὅταν μέλλῃς μανθάνειν.., ἵνα σοι..συμμανθάνω. But, though this sense is possible for συμμαθεῖν, the language of the verse, as it stands, is too elliptical and obscure. Clearly there has been some corruption. I suspect that it began under the influence of πᾷ γὰρ οὐκ ἔβαν ἐγώ, with the change of an original **σφε** into *με*. ΣΥΜΜΑΘΕΙΝ may have been corrupted, to suit με, from ΣΥΝΝΑΙΕΙΝ. I would read, **κοὐδεὶς ἐπίσταταί σφε συνναίειν τόπος**, ‘and no place is conscious of his presence.’ ναίειν can be said of temporary presence in a place: see Soph. *O. C.* 117, where the men of Colonus are searching for Oedipus:—ὅρα· τίς ἄρ' ἦν; ποῦ ναίει; And so in Soph. *Tr.* 99 πόθι μοι.. | ναίει refers to the wandering Heracles. See Appendix.
+**κοὐδεὶς … τόπος**. The reading of the MSS. can mean only: ‘and no place is conscious that I have learned along with it,’ *i.e.*, ‘have learned what it knows,’ ‘share its secret.’ The constr. ἐπίσταταί με συμμαθεῖν (instead of συμμαθόντα) is warranted by *Ant.* 1092 ff. ἐπιστάμεσθα..αὐτὸν..λακεῖν): see also *ib.* 293, *El.* 616. **συμμαθεῖν**, as=‘to learn *with* one,’ may be defended by Plat. *Symp.* 3. 20 ἐμὲ μὲν παρακάλει, ὅταν μέλλῃς μανθάνειν.., ἵνα σοι..συμμανθάνω. But, though this sense is possible for συμμαθεῖν, the language of the verse, as it stands, is too elliptical and obscure. Clearly there has been some corruption. I suspect that it began under the influence of πᾷ γὰρ οὐκ ἔβαν ἐγώ, with the change of an original **σφε** into *με*. ΣΥΜΜΑΘΕΙΝ may have been corrupted, to suit με, from ΣΥΝΝΑΙΕΙΝ. I would read, **κοὐδεὶς ἐπίσταταί σφε συνναίειν τόπος**, ‘and no place is conscious of his presence.’ ναίειν can be said of temporary presence in a place: see Soph. *O. C.* 117, where the men of Colonus are searching for Oedipus:—ὅρα· τίς ἄρ' ἦν; ποῦ ναίει; And so in Soph. *Tr.* 99 πόθι μοι.. | ναίει refers to the wandering Heracles. See Appendix.
 
 ## 870
 **ἰδού**, with ref. to sound: *O. C.* 1477, *El.* 1410.
@@ -2803,17 +2803,17 @@ The extant examples of hemichoria in Tragedy are not many. In Aesch. *Theb.* 106
 **ἐστίβηται**. στιβέω is not found elsewhere. The conjecture ἐστίβευται rests on the fact that στιβεύω occurs in later, though not in classical, Greek. But as Lycophron (121) used ἀστίβητος, he either knew στιβέω, or thought it a possible form.
 
 ## 875
-**ἔχεις οὖν**; Euripides has a similar phrase in *Suppl.* 818 (Adrastus) ἔχεις ἔχεις (sc. τὰ τέκνα)—ΧΟ. πημάτων γ' ἅλις βάρος. Cp. also *Cycl.* 683 ΧΟ... ἔχεις; (‘hast thou caught them?’) ΚΥ. κακόν γε πρὸς κακῷ. For a like coincidence, see 591 n.
+**ἔχεις οὖν**; Euripides has a similar phrase in *Suppl.* 818 (Adrastus) ἔχεις ἔχεις (*sc.* τὰ τέκνα)—ΧΟ. πημάτων γ' ἅλις βάρος. Cp. also *Cycl.* 683 ΧΟ... ἔχεις; (‘hast thou caught them?’) ΚΥ. κακόν γε πρὸς κακῷ. For a like coincidence, see 591 n.
 
 ## 876
-**κοὐδὲν εἰς ὄψιν πλέον**, lit., ‘and nothing more in respect to seeing,’ —i.e., to descrying the object of our search. For this sense of εἰς, cp. *O. T.* 706 n.
+**κοὐδὲν εἰς ὄψιν πλέον**, lit., ‘and nothing more in respect to seeing,’ —*i.e.*, to descrying the object of our search. For this sense of εἰς, cp. *O. T.* 706 n.
 
 ## 877
 **ἀλλ' οὐδὲ μὲν δὴ**, in rejecting an alternative: *Tr.* 1128, *El.* 913.
 
 **τὴν ἀφ' ἡλίου βολῶν**: so Eur. *Or.* 1258 ἐγὼ μὲν οὖν τρίβον | τόνδ' ἐκφυλάξω, τὸν πρὸς ἡλίου βολάς. βολαί, like *ictus* ( *C.* 2. 15. 10),=ἀκτῖνες: cp. Eur. *Bacch.* 14 ἡλιοβλήτους πλάκας.
 
-**δηλοῖ**=δῆλός ἐστι: cp. 471 n. ‘He is not found to have appeared anywhere *along the path* from the east.’ The acc. **κέλευθον** denotes the ground which the searchers have traversed: the phrase is a terse equivalent for οὐδαμοῦ δηλοῖ φανεὶς τοῖς τὴν..κέλευθον ἐλθοῦσιν. There is no real resemblance to *El.* 1273 φιλτάταν | ὁδὸν ἐπαξιώσας ὧδέ μοι φανῆναι, where ὁδὸν is cognate acc. to φανῆναι as implying ἐλθεῖν (cp. ib. 1318 ἐξήκεις ὁδόν).
+**δηλοῖ**=δῆλός ἐστι: cp. 471 n. ‘He is not found to have appeared anywhere *along the path* from the east.’ The acc. **κέλευθον** denotes the ground which the searchers have traversed: the phrase is a terse equivalent for οὐδαμοῦ δηλοῖ φανεὶς τοῖς τὴν..κέλευθον ἐλθοῦσιν. There is no real resemblance to *El.* 1273 φιλτάταν | ὁδὸν ἐπαξιώσας ὧδέ μοι φανῆναι, where ὁδὸν is cognate acc. to φανῆναι as implying ἐλθεῖν (cp. *ib.* 1318 ἐξήκεις ὁδόν).
 
 ## 879-973
 A κομμός, in which the Chorus has both lyrics and trimeters; Tecmessa, trimeters only (except ἰώ μοί μοι, etc.). Verses 879—914 form a strophe,=antistr. 925—960. The lyric parts of strophe and antistrophe correspond thus: (1) 879—890=925—936: (2) 900—903=946—949: (3) 909—914= 954—960. The intervals between the lyrics are filled by dialogue between the Chorus and Tecmessa, mainly in trimeters: thus (1) 891—899=937—945: (2) 904—907=950—953.
@@ -2837,14 +2837,14 @@ For the lyric metres see Metrical Analysis.
 **Βοσπορίων**, of the Hellespont; cp. Aesch. *Pers.* 723, καὶ τόδ' ἐξέπραξεν, ὥστε Βόσπορον κλῇσαι μέγαν; with ref. to the bridges of boats made by order of Xerxes, ἡ ξεῦξις τοῦ Ἑλλησπόντου ( Her. 7. 35).—The word **ἴδρις**, added in L and most MSS. after **ποταμῶν**, was an early interpolation, caused by the elliptical construction. The schol. (on 879) read it, and explains ποταμῶν ἴδρις by Ναΐς. But the antistr., Her. v. 930, πάννυχα καὶ φαέθοντ' ἀνεστέναζες, is clearly sound; though Elmsley suggested that ἄναξ may have dropped out before ἀνεστέναζες.
 
 ## 885 ff.
-**εἴ ποθι … λεύσσων**=λεύσσων, εἴ ποθι (=που) λεύσσει: *Ph.* 1204 ξίφος, εἴ ποθεν, | ἢ γένυν, ἢ βελέων τι, προπέμψατε, i.e., εἴ ποθεν προπέμψαι ἔχετε (n.).—*ἀπύοι*, -u-: Ar. *Eq.* 1023 ἐγὼ μέν εἰμ' ὁ κύων· πρὸ σοῦ γὰρ ἀπύω. (Moschus 2. 124 has ἠπύοντες with ῡ: elsewhere the pres. has ῠ: the fut. and aor. have ῡ.)
+**εἴ ποθι … λεύσσων**=λεύσσων, εἴ ποθι (=που) λεύσσει: *Ph.* 1204 ξίφος, εἴ ποθεν, | ἢ γένυν, ἢ βελέων τι, προπέμψατε, *i.e.*, εἴ ποθεν προπέμψαι ἔχετε (n.).—*ἀπύοι*, -u-: Ar. *Eq.* 1023 ἐγὼ μέν εἰμ' ὁ κύων· πρὸ σοῦ γὰρ ἀπύω. (Moschus 2. 124 has ἠπύοντες with ῡ: elsewhere the pres. has ῠ: the fut. and aor. have ῡ.)
 
 **σχέτλια**, instead of σχέτλιον: so 1126 δίκαια: *Ph.* 524 αἰσχρά: Eur. *Or.* 413 δεινά: Thuc. 5. 14 § 4 ἀδύνατα.
 
-**τὸν μακρῶν ἀλάταν πόνων**. The similar phrase in Aesch. *P. V.* 900, ἀλατείαις πόνων, implies the constr. ἀλᾶσθαι πόνους (as cogn. acc.); and Sophocles may have had that in mind. But the gen. could also be explained as equiv. to an adj. πολύπονον: cp. Soph. *Ant.* 114 λευκῆς χιόνος πτέρυγι (n.).— **οὐρίῳ μὴ πελάσαι δρόμῳ**, ‘cannot come near him (sc. τῷ Αἴαντι), with prospered course.’ Others take δρόμῳ with πελάσαι, ‘*attain to*, obtain, a prosperous course.’ (Cp. Pind. *O.* 1. 78 κράτει..πέλασον, ‘bring me to victory.’) Those who read οὐρίων..δρόμων (cr. n.) explain it in the same way. But this is surely forced.
+**τὸν μακρῶν ἀλάταν πόνων**. The similar phrase in Aesch. *P. V.* 900, ἀλατείαις πόνων, implies the constr. ἀλᾶσθαι πόνους (as cogn. acc.); and Sophocles may have had that in mind. But the gen. could also be explained as equiv. to an adj. πολύπονον: cp. Soph. *Ant.* 114 λευκῆς χιόνος πτέρυγι (n.).— **οὐρίῳ μὴ πελάσαι δρόμῳ**, ‘cannot come near him (*sc.* τῷ Αἴαντι), with prospered course.’ Others take δρόμῳ with πελάσαι, ‘*attain to*, obtain, a prosperous course.’ (Cp. Pind. *O.* 1. 78 κράτει..πέλασον, ‘bring me to victory.’) Those who read οὐρίων..δρόμων (cr. n.) explain it in the same way. But this is surely forced.
 
 ## 890
-**ἀμενηνὸν**, enfeebled in mind by the νόσος, distempered. Cp. *Il.* 5. 887 ἤ κε ζὼς ἀμενηνὸς ἔα χαλκοῖο τυπῇσιν (‘feeble’),—the only instance of the word in the *Iliad.* In the phrases ἀμενηνὰ κάρηνα ( *Od.* 10. 521, etc.), ἀμενηνῶν.. ὀνείρων (ib. 19. 562), the notion is ‘unsubstantial.’ ἀμενηνός is probably formed from μένος. (Wecklein suggests that Sophocles here meant by it ‘unstable,’ ‘restless,’ as if it came from μένω.)— **ὅπου**: sc. ἐστί: cp. 33.
+**ἀμενηνὸν**, enfeebled in mind by the νόσος, distempered. Cp. *Il.* 5. 887 ἤ κε ζὼς ἀμενηνὸς ἔα χαλκοῖο τυπῇσιν (‘feeble’),—the only instance of the word in the *Iliad.* In the phrases ἀμενηνὰ κάρηνα ( *Od.* 10. 521, etc.), ἀμενηνῶν.. ὀνείρων (*ib.* 19. 562), the notion is ‘unsubstantial.’ ἀμενηνός is probably formed from μένος. (Wecklein suggests that Sophocles here meant by it ‘unstable,’ ‘restless,’ as if it came from μένω.)— **ὅπου**: *sc.* ἐστί: cp. 33.
 
 ## 891
 **ἰώ μοί μοι**. Tecmessa,—who is not seen till v. 894,—is approaching the entrance on the spectator's left, when she descries the body of Ajax lying at the other side of the scene. The underwood amidst which he has fallen screens the sight from the Chorus, until they draw nearer. (Cp. 815 n.)
@@ -2853,7 +2853,7 @@ For the lyric metres see Metrical Analysis.
 **τίνος βοὴ** κ.τ.λ.: ‘whose cry came from the wood, in the covert near us?’ **πάραυλος**, having an αὐλή near at hand; screened from view in the neighbouring covert: τίνος πάραυλος βοή=τίνος παραύλου βοή. Cp. *O. C.* 785 ἀλλ' ὡς πάραυλον οἰκίσῃς (με), n.
 
 ## 893
-**ἰὼ τλήμων**, sc. ἐγώ, not Αἴας. *Ph.* 1102 ὦ τλάμων τλάμων ἄρ' ἐγώ.
+**ἰὼ τλήμων**, *sc.* ἐγώ, not Αἴας. *Ph.* 1102 ὦ τλάμων τλάμων ἄρ' ἐγώ.
 
 ## 894 f.
 **δουρίληπτον**: for the Ionic form, cp. δούρειος ( Eur. *Tro.* 14), γούνατα ( Soph. *O. C.* 1607), μοῦνος, ξεῖνος, etc.
@@ -2876,7 +2876,7 @@ For the lyric metres see Metrical Analysis.
 ## 899
 **κρυφαίῳ**: cp. 658 κρύψω.
 
-**φασ-** **γάνῳ περιπτυχής**, wrapped, as it were, round the sword; cp. Pind. *N.* 8. 23 (φθόνος) Τελαμῶνος δάψεν υἱόν, φασγάνῳ ἀμφικυλίσας. Verg. *Aen.* 10. 681 An sese mucrone ob tantum dedecus amens | Induat.
+**φασ-** **γάνῳ περιπτυχής**, wrapped, as it were, round the sword; cp. Pind. *N.* 8. 23 (φθόνος) Τελαμῶνος δάψεν υἱόν, φασγάνῳ ἀμφικυλίσας. Verg. *Aen.* 10. 681 *An sese mucrone ob tantum dedecus amens | Induat.*
 
 ## 900
 **ὤμοι** with gen.: 908, 980: *Tr.* 971. If the first thought of the Salaminians is, in Homeric phrase, ὤλετο μέν μοι νόστος ( *Il.* 9. 413), this is an indirect tribute to the chief on whom their welfare depended.
@@ -2893,7 +2893,7 @@ For the lyric metres see Metrical Analysis.
 **αἰάζειν**, with allusion to his name (430 f.): cp. 914 δυσώνυμος.
 
 ## 905
-**τίνος ποτ' ἆρ' ἔπραξε** κ.τ.λ. The antistrophic verse is 951, ἄγαν ὑπερβριθὲς ἄχθος ἤνυσαν. I believe that the text is sound here, and that γὰρ has dropped out before ἄχθος in 951. The case is parallel with that of vv. 369 and 384, in the latter of which a syllable was lost. The only tolerable emendation of **ἔπραξε** is **ἔρξε**: and ἔπραξε is the fitter word, since, with its possible sense of ‘contrived,’ it suits the hypothesis that he may have procured death from another's hand; while ἔρξε would, in that case, be somewhat forced. It may be added that the aorist of ἔρδω is never used by Sophocles in the indicative (though he has ἔρξειεν *Tr.* 935, ἔρξον ib. 1201, ἔρξας *Ph.* 117 etc.); and by Aeschylus only once, *Th.* 924 ἐρξάτην (lyr.): for in *Ag.* 1529 ἦρξεν is right, and ἔρξεν only a conjecture. As to v. 951, the insertion of γὰρ is not only admissible, but desirable.
+**τίνος ποτ' ἆρ' ἔπραξε** κ.τ.λ. The antistrophic verse is 951, ἄγαν ὑπερβριθὲς ἄχθος ἤνυσαν. I believe that the text is sound here, and that γὰρ has dropped out before ἄχθος in 951. The case is parallel with that of vv. 369 and 384, in the latter of which a syllable was lost. The only tolerable emendation of **ἔπραξε** is **ἔρξε**: and ἔπραξε is the fitter word, since, with its possible sense of ‘contrived,’ it suits the hypothesis that he may have procured death from another's hand; while ἔρξε would, in that case, be somewhat forced. It may be added that the aorist of ἔρδω is never used by Sophocles in the indicative (though he has ἔρξειεν *Tr.* 935, ἔρξον *ib.* 1201, ἔρξας *Ph.* 117 etc.); and by Aeschylus only once, *Th.* 924 ἐρξάτην (lyr.): for in *Ag.* 1529 ἦρξεν is right, and ἔρξεν only a conjecture. As to v. 951, the insertion of γὰρ is not only admissible, but desirable.
 
 ## 906 f.
 **αὐτὸς πρὸς αὑτοῦ**. Cp. *Ant.* 1176 ΧΟ. πότερα πατρῴας ἢ πρὸς οἰκείας χερός; ΑΓ. αὐτὸς πρὸς αὑτοῦ.
@@ -2902,12 +2902,12 @@ For the lyric metres see Metrical Analysis.
 
 **κατηγορεῖ**: Aesch. *Ag.* 271 εὖ γὰρ φρονοῦντος ὄμμα σοῦ κατηγορεῖ.
 
-**περιπετὲς**, in passive sense, ‘on which he has fallen’: a bold use, as Eustathius felt (p. 644. 47): Σοφοκλῆς ἔγχος περιπετὲς εἰπεῖν ἐτόλμησεν, ᾧ περιπέπτωκεν Αἴας. Lobeck quotes some phrases which, though not precisely similar, are analogous; as Aelian *Hist. An.* 15. 10 τὰ ἄγκιστρα..περιπαγέντα τοῖς ἰχθύσι, i.e., ‘on which the fish are caught,’ (περιπαρέντα Schneider): Chrysost. *Opp.* vol. III. p. 85 A ἑαυτῷ τὸ ξίφος περιέπειρε, made the sword a spit for his body, i.e. transfixed himself with his sword.
+**περιπετὲς**, in passive sense, ‘on which he has fallen’: a bold use, as Eustathius felt (p. 644. 47): Σοφοκλῆς ἔγχος περιπετὲς εἰπεῖν ἐτόλμησεν, ᾧ περιπέπτωκεν Αἴας. Lobeck quotes some phrases which, though not precisely similar, are analogous; as Aelian *Hist. An.* 15. 10 τὰ ἄγκιστρα..περιπαγέντα τοῖς ἰχθύσι, *i.e.*, ‘on which the fish are caught,’ (περιπαρέντα Schneider): Chrysost. *Opp.* vol. III. p. 85 A ἑαυτῷ τὸ ξίφος περιέπειρε, made the sword a spit for his body, *i.e.* transfixed himself with his sword.
 
 ## 908
 [909 f.] **οἶος**, the reading of the MSS., is far better here than οἷος.
 
-**ἄφρακτος**. Dindorf writes ἄφαρκτος, as the older Attic form. Attic inscriptions attest φάρξαι (420 B.C.) and διαφάρξαντι (409 B.C.): though διαφράξαι occurs as early as 347 B.C.; Meisterhans, *Gramm. Att. Inschr.* § 43. No instance of ἄφαρκτος is quoted from an Attic inscr., but ἄφρακτος occurs c. 290 B.C., and often later. For the gen. **φίλων**, cp. 321: *El.* 36 ἄσκευον..στρατοῦ.
+**ἄφρακτος**. Dindorf writes ἄφαρκτος, as the older Attic form. Attic inscriptions attest φάρξαι (420 B.C.) and διαφάρξαντι (409 B.C.): though διαφράξαι occurs as early as 347 B.C.; Meisterhans, *Gramm. Att. Inschr.* § 43. No instance of ἄφαρκτος is quoted from an Attic inscr., but ἄφρακτος occurs *c.* 290 B.C., and often later. For the gen. **φίλων**, cp. 321: *El.* 36 ἄσκευον..στρατοῦ.
 
 ## 911
 **κωφός**, in the general sense of ‘dull-witted’: schol. ἀναίσθητος. *πάντα*, adv., as *O. C.* 1458 τὸν πάντ' ἄριστον.
@@ -2939,7 +2939,7 @@ For the lyric metres see Metrical Analysis.
 **ἀκμαῖος, εἰ βαίη, μόλοι** is impossible: μόλοι could not stand here for μόλοι ἄν: see on *Ant.* 605 (κατάσχοι).
 
 ## 922
-**συγκαθαρμόσαι**: schol. περιστεῖλαι. The double compound occurs only here, but Eur. has καθαρμόζειν in a similar context, Eur. *El.* 1227 κάλυπτε μέλεα ματέρος | πέπλοις, καθάρμοσον σφαγάς (‘compose,’ ‘close,’ the wounds). Here the sense is, ‘compose,’ with ref. to the laying out of the dead; cp. Soph. *Ant.* 900 θανόντας αὐτόχειρ ὑμᾶς ἐγὼ | ἔλουσα κἀκόσμησα: Soph. *O. C.* 1602 f. (n.): Ovid *Met.* 9. 502 peream precor ante toroque | Mortua componar. The inf. συγκαθαρμόσαι stands after ἀκμαῖʼ ἂν μόλοι as an inf. follows words of ‘fitness’ ( Plat. *Symp.* 173B ὁδὸς ἐπιτηδεία καὶ λέγειν καὶ ἀκοῦσαι).
+**συγκαθαρμόσαι**: schol. περιστεῖλαι. The double compound occurs only here, but Eur. has καθαρμόζειν in a similar context, Eur. *El.* 1227 κάλυπτε μέλεα ματέρος | πέπλοις, καθάρμοσον σφαγάς (‘compose,’ ‘close,’ the wounds). Here the sense is, ‘compose,’ with ref. to the laying out of the dead; cp. Soph. *Ant.* 900 θανόντας αὐτόχειρ ὑμᾶς ἐγὼ | ἔλουσα κἀκόσμησα: Soph. *O. C.* 1602 f. (n.): Ovid *Met.* 9. 502 *peream precor ante toroque | Mortua componar.* The inf. συγκαθαρμόσαι stands after ἀκμαῖʼ ἂν μόλοι as an inf. follows words of ‘fitness’ ( Plat. *Symp.* 173B ὁδὸς ἐπιτηδεία καὶ λέγειν καὶ ἀκοῦσαι).
 
 ## 923
 **οἵως ἔχεις**. The adv. οἵως has been suspected, but there is no good reason for doubting that it was in use, though less frequent than οἷον or οἷα: it appears sound in Ar. *Vesp.* 1363, and in Apoll. Rh. 4. 786; though in *Ph.* 1007 we should read οἷʼ αὖ μ' ὑπῆλθες.—For οἷος..οἵως, cp. 557.
@@ -2971,7 +2971,7 @@ Erfurdt's insertion of **ὧδʼ** before **ἐξανύσειν** has been widel
 
 **ἐχθοδόπʼ**, poet. for ἐχθρά: *Ph.* 1137 φῶτ' ἐχθοδοπόν.
 
-**οὐλίῳ σὺν πάθει**, with deadly resentment. οὐλίῳ refers primarily to his deadly hatred of the Atreidae, but suggests also the fatal result of his mood. For πάθος with ref. to an affection of the mind, cp. *Ph.* 899 ἀλλ' ἐνθάδ' ἤδη τοῦδε τοῦ πάθους κυρῶ (sc. τῆς ἀπορίας). With the exception of these two passages, there is perhaps no clear example of πάθος so used before Plato. ( Thuc. 3. 84, where διὰ πάθους ἐπιθυμοῦντες occurs in § 1, is an interpolated chapter.)
+**οὐλίῳ σὺν πάθει**, with deadly resentment. οὐλίῳ refers primarily to his deadly hatred of the Atreidae, but suggests also the fatal result of his mood. For πάθος with ref. to an affection of the mind, cp. *Ph.* 899 ἀλλ' ἐνθάδ' ἤδη τοῦδε τοῦ πάθους κυρῶ (*sc.* τῆς ἀπορίας). With the exception of these two passages, there is perhaps no clear example of πάθος so used before Plato. ( Thuc. 3. 84, where διὰ πάθους ἐπιθυμοῦντες occurs in § 1, is an interpolated chapter.)
 
 It is indeed possible to render **οὐλίῳ σὺν πάθει**, as Prof. Campbell does, ‘under thy calamitous *wrong*’ (the disappointment as to the arms). But οὐλίῳ is clearly suggestive of a direct reference to ὠμόφρων ἐχθοδόπ' Ἀτρείδαις. Further, the prep. σὺν more naturally denotes an accompaniment of the bitter utterance than the cause which had provoked it.
 
@@ -2993,7 +2993,7 @@ It is indeed possible to render **οὐλίῳ σὺν πάθει**, as Prof. Ca
 **γενναία**, true-hearted, loyal, like γενναῖον ἔπος ( *Ph.* 1402), γενναῖοι πόνοι ( Eur. *H. F.* 357). The schol., wrongly, ἡ ἰσχυρά: a version at which he arrived perh. rather through the use of γενναῖος as=‘fine,’ ‘good of its kind,’ than through the idea of ‘genuine,’ γνησία.
 
 ## 940
-**καὶ δὶς**: cp. 432 καὶ δὶς αἰάζειν. The aor. **οἰμῶξαι** (referring to each act of utterance), as in *El.* 788 οἴμοι τάλαινα· νῦν γὰρ οἰμῶξαι πάρα: and ib. 285 κλαῦσαι. Cp. 982 στενάζειν, of continued lament.
+**καὶ δὶς**: cp. 432 καὶ δὶς αἰάζειν. The aor. **οἰμῶξαι** (referring to each act of utterance), as in *El.* 788 οἴμοι τάλαινα· νῦν γὰρ οἰμῶξαι πάρα: and *ib.* 285 κλαῦσαι. Cp. 982 στενάζειν, of continued lament.
 
 ## 941
 **ἀποβλαφθεῖσαν … φίλου**: bereft of him: properly, arrested by a hand which separates her from him ( *El.* 696 ὅταν δέ τις θεῶν | βλάπτῃ, δύναιτ' ἂν οὐδ' ἂν ἰσχύων φυγεῖν). For the gen. (not found elsewhere with ἀποβλάπτω), cp. Aesch. *Ag.* 120 βλαβέντα λοισθίων δρόμων: Tyrtaeus fr. 12. 39 οὐδέ τις αὐτὸν | βλάπτειν οὔτ' αἰδοῦς οὔτε δίκης ἐθέλει.
@@ -3011,7 +3011,7 @@ It is indeed possible to render **οὐλίῳ σὺν πάθει**, as Prof. Ca
 **σκοποί**, the δεσπόται (500) who will be the overseers of her servile tasks (503, λατρείας). Cp. *Suppl.* 381 τὸν ὑψόθεν σκοπὸν ἐπισκόπει, | φύλακα πολυπόνων | βροτῶν: the watchful god, who punishes guilt.
 
 ## 946 ff.
-**ὤμοι, ἀναλγήτων** κ.τ.λ.: ‘in this sorrow (**τῷδ' ἄχει**, lit., ‘by’ it, by the mention of it), thou hast named deeds of the Atreidae that are unutterable,—that make them ruthless’: i.e., if they should indeed enslave thee, their act would be infamous. **ἀναλγήτων**, as its emphatic place shows, has a predicative force. For **ἄναυδ' | ἔργ'**, as a correction of ἄναυδον | ἔργον, [see on 901](#901).
+**ὤμοι, ἀναλγήτων** κ.τ.λ.: ‘in this sorrow (**τῷδ' ἄχει**, lit., ‘by’ it, by the mention of it), thou hast named deeds of the Atreidae that are unutterable,—that make them ruthless’: *i.e.*, if they should indeed enslave thee, their act would be infamous. **ἀναλγήτων**, as its emphatic place shows, has a predicative force. For **ἄναυδ' | ἔργ'**, as a correction of ἄναυδον | ἔργον, [see on 901](#901).
 
 **ἄχει** does not literally mean ‘lament,’ though it might be so rendered here, as in *O. C.* 1722 λήγετε τοῦδ' ἄχους (where the literal sense is, ‘cease from this sorrowing’).
 
@@ -3022,7 +3022,7 @@ It is indeed possible to render **οὐλίῳ σὺν πάθει**, as Prof. Ca
 
 **ἔστη**, have been brought to this state: cp. *Ant.* 1156 οὐκ ἔσθ' ὁποῖον στάντ' ἂν ἀνθρώπου βίον | οὔτ' αἰνέσαιμʼ ἂν οὔτε μεμψαίμην ποτέ (n.).
 
-**μὴ θεῶν μέτα**, sc. στάντα,=εἰ μὴ μετὰ θεῶν τῇδε ἔστη: cp. *O. T.* 1456 οὐ γὰρ ἄν ποτε | θνῄσκων ἐσώθην, μὴ ʼπί τῳ δεινῷ κακῷ, sc. σωθείς.
+**μὴ θεῶν μέτα**, *sc.* στάντα,=εἰ μὴ μετὰ θεῶν τῇδε ἔστη: cp. *O. T.* 1456 οὐ γὰρ ἄν ποτε | θνῄσκων ἐσώθην, μὴ ʼπί τῳ δεινῷ κακῷ, *sc.* σωθείς.
 
 ## 951
 **ἄγαν ὑπερβριθὲς** κ.τ.λ. The defect of a syllable in the MSS. here (see 905 n.) is best supplied by **γὰρ**, which expresses assent: cp. *Ph.* 755 ΝΕ. δεινόν γε τοὐπίσαγμα τοῦ νοσήματος. | ΦΙ. δεινὸν γὰρ οὐδὲ ῥητόν. The addition of **γʼ** after **ἄγαν** in some MSS. seems to have been prompted by a sense that some such link with the preceding verse was required.— **ἄχθος**, of sorrow, as *Ph.* 1168 μυρίον ἄχθος ὃ ξυνοικεῖ. — *ἤνυσαν*, effected, brought about, as *Ph.* 1145 κοινὰν ἤνυσεν ἐς φίλους ἀρωγάν. Not, ‘have made too heavy,’ like *O. T.* 166 ἠνύσατ' ἐκτοπίαν φλόγα πήματος.
@@ -3069,7 +3069,7 @@ Schneidewin strangely understands, ‘Odysseus mocks at the frenzy-darkened soul
 
 **πρίν τις ἐκβάλῃ**=πρὶν ἐκβάλωσι: the collective τις, as in Thuc. 4. 85 § 6 οἷς ἂν ἐπίω, ἧσσόν τις ἐμοὶ πρόσεισι, δυσχερὲς ποιούμενοι κ.τ.λ. From the primary sense of ‘casting out,’ ἐκβάλλειν derives that of ‘throwing away,’ ‘losing by one's own folly’: cp. Ar. *Eccl.* 750 οὐ γὰρ τὸν ἐμὸν ἱδρῶτα καὶ φειδωλίαν | οὐδὲν πρὸς ἔπος οὕτως ἀνοήτως ἐκβαλῶ. So a schol. here explains, πρὶν ἄν τις αὐτοῦ στερηθῇ. Sophocles has this use, with various shades of meaning, in Soph. *Ant.* 648 (where see n.), Soph. *O. T.* 611, Soph. *O. C.* 631. [We could also render, ‘until one *strike it out* of their hands’; cp. Hom. *Od.* 2. 396 πλάζε δὲ πίνοντας, χειρῶν δ' ἔκβαλλε κύπελλα. But a reason for preferring the other view is that it represents the loss as due solely to the folly of the possessors themselves; and thus suits the context better.]
 
-For the sentiment, cp. Mimnermus fr. 1 (in Nauck's *Frag. Trag.* 2nd ed., p. 829) δεινοὶ γὰρ ἀνδρὶ πάντες ἐσμὲν εὐκλεεῖ | ζῶντι φθονῆσαι, κατθανόντα δ' αἰνέσαι. Plaut. *Capt.* 1. 2. 39 Tum denique homines nostra intelligimus bona, | Quom quae in potestate habuimus ea amisimus. *C.* 3. 24. 31 Virtutem incolumem odimus, | Sublatam ex oculis quaerimus invidi.
+For the sentiment, cp. Mimnermus fr. 1 (in Nauck's *Frag. Trag.* 2nd ed., p. 829) δεινοὶ γὰρ ἀνδρὶ πάντες ἐσμὲν εὐκλεεῖ | ζῶντι φθονῆσαι, κατθανόντα δ' αἰνέσαι. Plaut. *Capt.* 1. 2. 39 *Tum denique homines nostra intelligimus bona, | Quom quae in potestate habuimus ea amisimus.* *C.* 3. 24. 31 *Virtutem incolumem odimus, | Sublatam ex oculis quaerimus invidi.*
 
 ## 966-973
 Various theories of interpolation have been held with regard to this passage: see Appendix. Most of them are founded on the assumption that Tecmessa's former speech of ten lines (915—924) must be balanced by a speech of the same length here, and that therefore three of the thirteen verses (961—973) must be struck out. (Nauck, who rejects 918 f., strikes out five verses here, 966—970.)
@@ -3127,7 +3127,7 @@ The fourth ἐπεισόδιον consists of two scenes. (1) 974—1039. Teucer'
 ## 985 f.
 **μόνος**: referring to τέκνον: cp. *Il.* 22. 84 φίλε τέκνον: Eur. *Andr.* 570 τέκνου τε τοῦδʼ, ὃν κ.τ.λ. *παρὰ σκηναῖσιν*, where Tecmessa had left him at 809.
 
-**δῆτ' αὐτὸν ἄξεις**. There is no other example of δῆτα as first word of a verse. It is usually read as first word of a clause in *Nub.* 399 (καὶ πῶς) εἴπερ βάλλει τοὺς ἐπιόρκους, δῆτ' οὐχὶ Σίμων' ἐνέπρησεν..; where, however, Dindorf gives πῶς οὐχι (πῶς δῆτʼ being a variant for δῆτʼ). There is, however, no reason to doubt it here. With Sophocles the words sometimes run on from the end of one trimeter to the beginning of the next, as if there were no break between the verses. See e.g. 1089 ὅπως | μή: *Ant.* 409 πᾶσαν κόνιν σήραντες ἣ κατεῖχε τὸν | νέκυν: *Ph.* 263 ὃν οἱ | δισσοὶ στρατηγοί: *O. T.* 332 τί ταῦτ' | ἄλλως ἐλέγχεις; (Such elision at the end of the verse was remarked by the ancients as peculiar to Sophocles: see on *O. T.* 29.) The place of δῆτα here is only another example of the same tendency, and is illustrated by that of ποτέ in *O. T.* 1084 οὐκ ἂν ἐξέλθοιμ' ἔτι | ποτ' ἄλλος. This virtual synaphea of trimeters naturally occurs most often in passages where, as here, the speech is excited or rapid.
+**δῆτ' αὐτὸν ἄξεις**. There is no other example of δῆτα as first word of a verse. It is usually read as first word of a clause in *Nub.* 399 (καὶ πῶς) εἴπερ βάλλει τοὺς ἐπιόρκους, δῆτ' οὐχὶ Σίμων' ἐνέπρησεν..; where, however, Dindorf gives πῶς οὐχι (πῶς δῆτʼ being a variant for δῆτʼ). There is, however, no reason to doubt it here. With Sophocles the words sometimes run on from the end of one trimeter to the beginning of the next, as if there were no break between the verses. See *e.g.* 1089 ὅπως | μή: *Ant.* 409 πᾶσαν κόνιν σήραντες ἣ κατεῖχε τὸν | νέκυν: *Ph.* 263 ὃν οἱ | δισσοὶ στρατηγοί: *O. T.* 332 τί ταῦτ' | ἄλλως ἐλέγχεις; (Such elision at the end of the verse was remarked by the ancients as peculiar to Sophocles: see on *O. T.* 29.) The place of δῆτα here is only another example of the same tendency, and is illustrated by that of ποτέ in *O. T.* 1084 οὐκ ἂν ἐξέλθοιμ' ἔτι | ποτ' ἄλλος. This virtual synaphea of trimeters naturally occurs most often in passages where, as here, the speech is excited or rapid.
 
 **κενῆς**, ‘robbed’ of her young: Bion *Idyll.* I. 59 χήρα δ' ἁ Κυθέρεια, κενοὶ δ' ἀνὰ δώματ' Ἔρωτες. The adj. is ‘proleptic’: if the child is not quickly brought, the mother will seek him only to find that she is bereaved. Cp. *Ant.* 791 δικαίων ἀδίκους φρένας παρασπᾷς: Aesch. *Pers.* 298 ἄνανδρον τάξιν ἠρήμου θανών. Schol. οἱ γὰρ κυνηγοὶ τηροῦσι τὸν καιρὸν ὁπότε ἔρημοι τῶν μητέρων γίγνονται οἱ σκύμνοι. —Others take **κενῆς** as merely ‘separated’ (at this time) from her child: but this would be a strange sense for it.
 
@@ -3165,7 +3165,7 @@ The fourth ἐπεισόδιον consists of two scenes. (1) 974—1039. Teucer'
 ## 998
 **βάξις**, as Ajax had prayed Zeus to apprise Teucer (826).
 
-**σου** is genitive of the object (221 n.): **θεοῦ**, of the subject (as in *O. C.* 447 γένους ἐπάρκεσιν,=ἣν τὸ γένος παρέχει). For the combination, cp. Thuc. 7. 34 § 6 διὰ τὴν τοῦ ἀνέμου ἄπωσιν αὐτῶν (i.e. ὅτι ὁ ἄνεμος ἀπωθεῖ αὐτά, sc. τὰ ναυάγια).
+**σου** is genitive of the object (221 n.): **θεοῦ**, of the subject (as in *O. C.* 447 γένους ἐπάρκεσιν,=ἣν τὸ γένος παρέχει). For the combination, cp. Thuc. 7. 34 § 6 διὰ τὴν τοῦ ἀνέμου ἄπωσιν αὐτῶν (*i.e.* ὅτι ὁ ἄνεμος ἀπωθεῖ αὐτά, *sc.* τὰ ναυάγια).
 
 **διῆλθ' Ἀχαιοὺς**: Her. 9. 100 (before the battle of Mycale) ἰοῦσι δέ σφι φήμη.. ἐσέπτατο ἐς τὸ στρατόπεδον πᾶν...ἡ δὲ φήμη διῆλθέ σφι (ethic dat.) ὧδε, ὡς οἱ Ἕλληνες τὴν Μαρδονίου στρατιὴν νικῷεν ἐν Βοιωτοῖσι μαχόμενοι. As to φήμη generally, see on *El.* 1066.
 
@@ -3189,16 +3189,16 @@ Eustathius (p. 409, 46), whom some critics follow, takes the gen. as depending o
 *1008* The ironical **ἦ που** (‘methinks’) is reinforced by **ἴσως**, which goes more closely with the adjectives (‘radiant and benign, doubtless’). Hermann's change of **ἴσως** to **ἰδὼν** weakens the passage.— **ἐμός θ' ἅμα** is clearly right: ἐμός τ' ἴσως was a mere error caused by the copyist's eye wandering to the next verse. The use of ἴσως in the sense of ‘equally’ ( *Legg.* p. 805 A) is rare.—Teucer's thought is, ‘Telamon is, indeed, my father no less than thine; but he will not welcome me as a son.’
 
 ## 1010 f.
-**πῶς γὰρ οὔχ**; sc. δέξεται.
+**πῶς γὰρ οὔχ**; *sc.* δέξεται.
 
 **ὅτῳ πάρα** (πάρεστι)..**γελᾶν**, ‘the man whose wont it is to wear no brighter smile (than usual), even when he is fortunate.’ μή is used, not οὐ, because ὅτῳ here denotes a class or type. For this ‘generic’ μή, see *O. T.* 397 n.—*πάρα*. πάρεστι, when thus used, is susceptible of two different shades of meaning. (1) More often it denotes one's situation at some given moment; as in 432, νῦν γὰρ πάρεστι καὶ δὶς αἰάζειν ἐμοί. (2) Sometimes, as here, it denotes a trait of character or disposition; cp. Eur. *Med.* 658 ἀχάριστος ὄλοιθ' ὅτῳ πάρεστι | μὴ φίλους τιμᾶν (‘one who is capable of not respecting friendship’). In this sense πρόσεστι is more frequent.
 
-The v.l. **ἵλεων** for **ἥδιον** is very inferior, and undoubtedly corrupt. It evidently arose from λεως in 1009. The force of the comparative here is manifest: ‘If good fortune cannot *lessen* his gloom, what will his aspect be *now?*’
+The *v.l.* **ἵλεων** for **ἥδιον** is very inferior, and undoubtedly corrupt. It evidently arose from λεως in 1009. The force of the comparative here is manifest: ‘If good fortune cannot *lessen* his gloom, what will his aspect be *now?*’
 
 ## 1012 f.
-**τί κρύψει**; i.e. ‘what thought, however injurious to me, will he leave unspoken?’
+**τί κρύψει**; *i.e.* ‘what thought, however injurious to me, will he leave unspoken?’
 
-**ποῖον οὐκ ἐρεῖ κακὸν** κ.τ.λ. There should be no comma after κακόν: ἐρεῖ here takes a double acc. At the same time the words τὸν ἐκ δορὸς κ.τ.λ. express the substance of the taunts.— **ἐκ δορὸς γεγῶτα πολεμίου**, ‘begotten of the war-spear,’ i.e. ἐκ δορικτήτου γυναικός: cp. 1228 τὸν ἐκ τῆς αἰχμαλωτίδος. Remark that δόρυ πολέμιον, which here means *hasta bellica*, would usu. mean *hasta hostilis* (as, e.g., in Aesch. *Theb.* 216, Aesch. Theb. 416): but it would be forced here to understand, ‘begotten from the ranks of the foe.’
+**ποῖον οὐκ ἐρεῖ κακὸν** κ.τ.λ. There should be no comma after κακόν: ἐρεῖ here takes a double acc. At the same time the words τὸν ἐκ δορὸς κ.τ.λ. express the substance of the taunts.— **ἐκ δορὸς γεγῶτα πολεμίου**, ‘begotten of the war-spear,’ *i.e.* ἐκ δορικτήτου γυναικός: cp. 1228 τὸν ἐκ τῆς αἰχμαλωτίδος. Remark that δόρυ πολέμιον, which here means *hasta bellica*, would usu. mean *hasta hostilis* (as, *e.g.*, in Aesch. *Theb.* 216, Aesch. Theb. 416): but it would be forced here to understand, ‘begotten from the ranks of the foe.’
 
 ## 1014 ff.
 **κακανδρίᾳ**: a word not found elsewhere, except in *Rhes.* 814.— **σέ, φίλτατ' Αἴας**: the place of the pronoun is emphatic: ‘thee’—for whom I would gladly have died.
@@ -3212,9 +3212,9 @@ The v.l. **ἵλεων** for **ἥδιον** is very inferior, and undoubtedly c
 
 **πρὸς οὐδὲν**, ‘at nothing,’—without cause: cp. 40 πρὸς τί; 971 πρὸς ταῦτα.
 
-**εἰς ἔριν θυμούμενος**, lit. ‘growing wroth unto quarrelling,’ i.e., so as to provoke a quarrel.
+**εἰς ἔριν θυμούμενος**, lit. ‘growing wroth unto quarrelling,’ *i.e.*, so as to provoke a quarrel.
 
-*1019* Join **ἀπωστὸς** with **γῆς**: cp. *O. T.* 641 γῆς ἀπῶσαι πατρίδος, ib. 670 γῆς..ἀπωσθῆναι.
+*1019* Join **ἀπωστὸς** with **γῆς**: cp. *O. T.* 641 γῆς ἀπῶσαι πατρίδος, *ib.* 670 γῆς..ἀπωσθῆναι.
 
 **ἀπορριφθήσομαι**, ‘cast off’ by his father: cp. *O. C.* 1383 σὺ δ' ἔρρ' ἀπόπτυστός τε κἀπάτωρ ἐμοῦ. The fulness of phrase is like that in 830 ῥιφθῶ ..πρόβλητος.
 
@@ -3230,7 +3230,7 @@ In the *Teucer* of Pacuvius, fr. 19 (ed. Ribbeck), Telamon says to Teucer, *Te r
 **ηὑρόμην**, with irony, ‘gained’: Aesch. *P. V.* 267 θνητοῖς ἀρήγων αὐτὸς ηὑρόμην πόνους. In *Helen.* 94 Teucer says, Αἴας μ' ἀδελφὸς ὤλεσ' ἐν Τροίᾳ θανών.
 
 ## 1025 f.
-**τοῦδ' αἰόλου κνώδοντος**, lit., ‘this gleaming spike,’—i.e., the end or point of the sword-blade, projecting through the body of Ajax. κνώδων (κνάω, ὀδούς) meant any tooth-like prong or spike: see on *Ant.* 1233, where the ξίφους διπλοῖ κνώδοντες are the cross-pieces of the sword-hilt. Some suppose that here, too, κνώδοντος denotes the handle of the sword, against which the corpse is resting. But there are at least two decisive objections to that view,—(1) the singular number, (2) the epithet αἰόλου.
+**τοῦδ' αἰόλου κνώδοντος**, lit., ‘this gleaming spike,’—*i.e.*, the end or point of the sword-blade, projecting through the body of Ajax. κνώδων (κνάω, ὀδούς) meant any tooth-like prong or spike: see on *Ant.* 1233, where the ξίφους διπλοῖ κνώδοντες are the cross-pieces of the sword-hilt. Some suppose that here, too, κνώδοντος denotes the handle of the sword, against which the corpse is resting. But there are at least two decisive objections to that view,—(1) the singular number, (2) the epithet αἰόλου.
 
 Lycophron borrows the word κνώδων from this passage, in alluding to the suicide of Ajax (464): δυσμενεστάτου ξένων | ἔτυψε δώρῳ σπλάγχνον, ἀρνεύσας λυγρὸν | πήδημα πρὸς κνώδοντος αὐτουργοὺς σφαγάς.—For the **ἄρα** after **φονέως**, cp. 233 n.
 
@@ -3245,7 +3245,7 @@ Lycophron borrows the word κνώδων from this passage, in alluding to the su
 **σκέψασθε … κἀγὼ τάδε**. The grounds on which Morstadt and Nauck reject these twelve verses are considered in the Appendix. It is clear, I think, that the verses are genuine. If they were absent, Teucer's speech would end abruptly with v. 1027, and the Chorus could not well say, μὴ τεῖνε μακράν (1040).
 
 ## 1029
-**ᾧ δὴ τοῦδ' ἐδωρήθη πάρα**, ‘the same with which he had been presented by Ajax.’ δωροῦμαί τινά τινι, and δωροῦμαί τινί τι, are equally good constructions (the former being preferred when the notion of *honour* is prominent); but, when δωροῦμαι is passive, the subject is usually the gift, not the person (see, e.g., *Polit.* 274 C, *Tim.* 47 C). Here, however, the stress marked by **ᾧ δὴ** is on the identity of the girdle, not of the man; and the subject of ἐδωρήθη is Hector.— As to the exchange of gifts between Ajax and Hector ( *Il.* 7. 303 ff.), see n. on 661.
+**ᾧ δὴ τοῦδ' ἐδωρήθη πάρα**, ‘the same with which he had been presented by Ajax.’ δωροῦμαί τινά τινι, and δωροῦμαί τινί τι, are equally good constructions (the former being preferred when the notion of *honour* is prominent); but, when δωροῦμαι is passive, the subject is usually the gift, not the person (see, *e.g.*, *Polit.* 274 C, *Tim.* 47 C). Here, however, the stress marked by **ᾧ δὴ** is on the identity of the girdle, not of the man; and the subject of ἐδωρήθη is Hector.— As to the exchange of gifts between Ajax and Hector ( *Il.* 7. 303 ff.), see n. on 661.
 
 ## 1030
 **πρισθεὶς … ἐξ ἀντύγων**, firmly bound — *gripped* from the chariot-rail. The schol. explains πρισθείς by δεθείς: Suidas, by δεθείς, ἐξαφθείς, δεσμευθείς. The senses of πρίω are:—1. To *saw.* 2. In πρίειν τοὺς ὀδόντας, to *grind* or *clench* the teeth. Suidas quotes ἐμπρίσαντες τοὺς ὀδόντας (said of men under torture). 3. To *bite:* Soph. fr. 811 ὀδόντι πρῖε τὸ στόμα. 4. To *clutch tightly* (as with the teeth). Oppian Opp. *Hal.* 2. 138 describes a serpent winding its coils round an ἐχῖνος (hedgehog): ἴσχει τ' ἐμπρίει τε, ‘he holds *and compresses* him’ (schol. πιέζει). So Hesychius: πρισμοῖς· ταῖς βιαίοις κατοχαῖς (‘grips’). Hence ἀπρίξ, ἄπριγδα, *mordicus*, ‘tightly’ (as between the teeth): see above, Opp. Hal. v. 310.
@@ -3257,20 +3257,20 @@ Thus πρισθείς is forcibly used here to describe the fatal *grip* of the 
 ## 1031
 **ἐκνάπτετʼ**: cp. Aesch. *Pers.* 576 κναπτόμενοι..δίνᾳ (bodies *mangled* by the waves dashing them against rocks). κνάπτω, κναφεύς, κναφεῖον were the older Attic forms: γνάπτω, etc., with softening of κ to γ, came later. κναφεύς appears in an Attic inscr. of the 6th cent. B.C. (*C. I. A.* IV. 373 f.): the first trace of the γ form seems to be γναφεῖον, in an Attic inscr. of 358 B.C. (*C. I. A.* II. 817 A, 28): Meisterhans, *Gramm. d. Att. Inschr.* § 23.
 
-**ἔστ' ἀπέψυξεν βίον**. The Homeric Achilles slays Hector in fight, and then drags the corpse ( *Il.* 22. 395 ff.). Hermann sought to reconcile this verse with Homer by writing, *αἰῶνʼ εὖτʼ* ἀπέψυξεν βίου: quoting, for αἰῶνα βίου, the author of a Μελαμποδία ap. Tzetzes on Lycophron 682, Ζεῦ πάτερ, εἴθ' ἥσσω μὲν ἐμοὶ αἰῶνα βίοιο | ὤφελλες δοῦναι. There, however, αἰῶνα βίου means ‘*term* of life.’ Euripides could say, ἀπέπνευσεν αἰῶνα (fr. 801); but ἀπέψυξεν αἰῶνα βίου is surely impossible. It would have been better, for Hermann's purpose, to keep αἰέν and βίον, merely changing ἔστʼ to εὖτʼ.
+**ἔστ' ἀπέψυξεν βίον**. The Homeric Achilles slays Hector in fight, and then drags the corpse ( *Il.* 22. 395 ff.). Hermann sought to reconcile this verse with Homer by writing, *αἰῶνʼ εὖτʼ* ἀπέψυξεν βίου: quoting, for αἰῶνα βίου, the author of a Μελαμποδία *ap.* Tzetzes on Lycophron 682, Ζεῦ πάτερ, εἴθ' ἥσσω μὲν ἐμοὶ αἰῶνα βίοιο | ὤφελλες δοῦναι. There, however, αἰῶνα βίου means ‘*term* of life.’ Euripides could say, ἀπέπνευσεν αἰῶνα (fr. 801); but ἀπέψυξεν αἰῶνα βίου is surely impossible. It would have been better, for Hermann's purpose, to keep αἰέν and βίον, merely changing ἔστʼ to εὖτʼ.
 
-As a matter of verbal criticism, it might be observed that αἰέν and ἔστʼ confirm each other. But the defence of the text rests on broader ground. Evidently we must either reject the whole passage 1028 —1039, as Morstadt and Nauck do, or else leave this verse unaltered. For the parallel between the sword and the girdle, as fatal to their respective recipients, would fail altogether, if the girdle had not been an agent of *death* to Hector, but merely of insult to his corpse. It is not known whence Sophocles derived this version, which so strangely mars the very climax of the *Iliad*; possibly from one of the two Cyclic epics, the *Aethiopis* of Arctînus or the *Little Iliad* of Lesches, which related the ὅπλων κρίσις (see Introd. §§ 2, 3). One thing, at least, seems hardly doubtful. The original motive of this version must have been the same which prompts its use by Sophocles here, —viz., to point the fatal character of Hector's gift to Ajax by connecting a like result with the gift of Ajax to Hector. Two epigrams, attributed to Leontius Scholasticus (circ. 550 A.D. ), turn on the same legend (*Anthol.* 7. 151, 152): see Appendix.
+As a matter of verbal criticism, it might be observed that αἰέν and ἔστʼ confirm each other. But the defence of the text rests on broader ground. Evidently we must either reject the whole passage 1028 —1039, as Morstadt and Nauck do, or else leave this verse unaltered. For the parallel between the sword and the girdle, as fatal to their respective recipients, would fail altogether, if the girdle had not been an agent of *death* to Hector, but merely of insult to his corpse. It is not known whence Sophocles derived this version, which so strangely mars the very climax of the *Iliad*; possibly from one of the two Cyclic epics, the *Aethiopis* of Arctînus or the *Little Iliad* of Lesches, which related the ὅπλων κρίσις (see Introd. §§ 2, 3). One thing, at least, seems hardly doubtful. The original motive of this version must have been the same which prompts its use by Sophocles here, —viz., to point the fatal character of Hector's gift to Ajax by connecting a like result with the gift of Ajax to Hector. Two epigrams, attributed to Leontius Scholasticus (*circ.* 550 A.D. ), turn on the same legend (*Anthol.* 7. 151, 152): see Appendix.
 
 ## 1032
 **δωρεὰν ἔχων**. The form δωρειά is quoted by Meisterhans from three Attic inscriptions belonging to the second half of the 5th century B.C.: δωρεά appears first in 403 B.C., and does not become the predominant form till the early part of the 3rd century B.C. (*Gramm.* § 10. 4). The Hesychian by-form δωριά is also significant. Curtius, who remarks that δωρ-εά is properly a collective (like μυρμηκ-ιά etc.), meaning ‘a number of gifts,’ adds: ‘the original form was δωρειά, in which the ε is of the same kind as that of ἵππε-ιο-ς, ταύρε-ιο-σʼ (*Etym.* vol. II. p. 244, Eng. ed.). Wecklein may be right in giving δωρειὰν here.
 
 ## 1033
-**πρὸς τοῦδʼ**, i.e. **τοῦ κνώδοντος**. This would be clearer if τόδε..ἔχων had preceded, but the pronoun (τήνδε) has been assimilated to δωρεὰν by the ordinary Greek idiom (see on *O. C.* 88, ταύτην ἔλεξε παῦλαν).
+**πρὸς τοῦδʼ**, *i.e.* **τοῦ κνώδοντος**. This would be clearer if τόδε..ἔχων had preceded, but the pronoun (τήνδε) has been assimilated to δωρεὰν by the ordinary Greek idiom (see on *O. C.* 88, ταύτην ἔλεξε παῦλαν).
 
 ## 1034
 **Ἐρινὺς … ἐχάλκευσε**: so Aesch. *Cho.* 646 Δίκας δ' ἐρείδεται πυθμήν (anvil), | προχαλκεύει δ' Αἶσα φασγανουργός: Aesch. *Ag.* 1535 δίκην δ' ἐπ' ἄλλο πρᾶγμα θηγάνει βλάβης | πρὸς ἄλλαις θηγάναισι Μοῖρα.
 
-*κἀκεῖνον*, τὸν ζωστῆρα. From ἐχάλκευσε a verb of more general sense, such as εἰργάσατο, is to be supplied: cp. Her. 4. 106 ἐσθῆτα δὲ φορέουσι τῇ Σκυθικῇ ὁμοίην, γλῶσσαν δὲ ἰδίην: see also n. on *El.* 435 πνοαῖσιν ἢ..κόνει | κρύψον νιν. —Some critics think that ἐχάλκευσε might be said of the ζωστήρ no less than of the ξίφος, because a girdle was often adorned with metal-work (see, e.g., *Il.* 11. 236). This seems a little forced.
+*κἀκεῖνον*, τὸν ζωστῆρα. From ἐχάλκευσε a verb of more general sense, such as εἰργάσατο, is to be supplied: cp. Her. 4. 106 ἐσθῆτα δὲ φορέουσι τῇ Σκυθικῇ ὁμοίην, γλῶσσαν δὲ ἰδίην: see also n. on *El.* 435 πνοαῖσιν ἢ..κόνει | κρύψον νιν. —Some critics think that ἐχάλκευσε might be said of the ζωστήρ no less than of the ξίφος, because a girdle was often adorned with metal-work (see, *e.g.*, *Il.* 11. 236). This seems a little forced.
 
 **δημιουργὸς**, a general term for any artificer ( Plat. *Rep.* 373B σκευῶν..παντοδαπῶν δημιουργοί).
 
@@ -3278,12 +3278,12 @@ As a matter of verbal criticism, it might be observed that αἰέν and ἔστ
 **ἐγὼ μὲν οὖν**, which has better authority than ἐγὼ μὲν ἄν, is also intrinsically better, since οὖν serves to link this concluding sentiment with what precedes.—The active **μηχανᾶν** occurs nowhere else in classical Greek, except in *Od.* 18. 143 μηχανόωντας (Apoll. Rhod. 3. 583 ὑπέρβια μηχανόωντες). Cp. 1129 ἀτίμα, a solitary instance in Attic of the Homeric verb ἀτιμᾶν. In the *Thyestes* (fr. 247) Sophocles used ἐντέλλω as= ἐντέλλομαι.
 
 ## 1038
-**ἐν γνώμῃ φίλα**, acceptable ‘*in* his judgment,’ i.e., when he ponders them. Distinguish the phrase in Her. 6. 37 ἦν δὲ ὁ Μιλτιάδης Κροίσῳ..ἐν γνώμῃ γεγονώς, ‘had won his esteem.’
+**ἐν γνώμῃ φίλα**, acceptable ‘*in* his judgment,’ *i.e.*, when he ponders them. Distinguish the phrase in Her. 6. 37 ἦν δὲ ὁ Μιλτιάδης Κροίσῳ..ἐν γνώμῃ γεγονώς, ‘had won his esteem.’
 
 **κεῖνός τ' ἐκεῖνα** κ.τ.λ., an expression of settled conviction, serving to close the speech, as in *O. C.* 1665, εἰ δὲ μὴ δοκῶ φρονῶν λέγειν, | οὐκ ἂν παρείμην οἶσι μὴ δοκῶ φρονεῖν. Milton imitates this trait of Greek tragic style in Dalila's last words to Samson:—‘*At this whoever envies or repines*, | *I leave him to his lot*, *and like my own*’ (*Sams.* 995). For the sentiment cp. *Suppl.* 466 σοὶ μὲν δοκείτω ταῦτʼ, ἐμοὶ δὲ τἀντία. Evenus fr. 1. 4 (Bergk) σοὶ μὲν ταῦτα δοκοῦντ' ἔστω, ἐμοὶ δὲ τάδε.
 
 ## 1040
-**μὴ τεῖνε μακράν**: so Aesch. *Ag.* 1296 μακρὰν ἔτεινας: ib. 916 μακρὰν γὰρ ἐξέτεινας: Eur. *Hec.* 1177 ὡς δὲ μὴ μακροὺς τείνω λόγους.
+**μὴ τεῖνε μακράν**: so Aesch. *Ag.* 1296 μακρὰν ἔτεινας: *ib.* 916 μακρὰν γὰρ ἐξέτεινας: Eur. *Hec.* 1177 ὡς δὲ μὴ μακροὺς τείνω λόγους.
 
 ## 1042
 **κακοῖς γελῶν**: the simple dat., as in 957 γελᾷ..ἄχεσιν (n.).
@@ -3294,7 +3294,7 @@ As a matter of verbal criticism, it might be observed that αἰέν and ἔστ
 **τίς δ' ἐστὶν ὅντιν' ἄνδρα**, instead of τίς δ' ἐστὶν ἀνὴρ ὅντινʼ, the antecedent being attracted into the relative clause: cp. *El.* 1040 εἴρηκας ὀρθῶς ᾧ σὺ πρόσκεισαι κακῷ: *Tr.* 1060 f. οὔθ' Ἑλλὰς οὔτ' ἄγλωσσος οὔθ' ὅσην ἐγὼ | γαῖαν καθαίρων ἱκόμην. So in Latin, *De Legg.* 3. 5. 12 *haec est enim*, *quam Scipio laudat in libris et quam maxime probat* temperationem *reipublicae.*
 
 ## 1045
-**ᾧ δὴ**, dat. of interest (where we might rather have expected the stronger οὗ χάριν), as in *O. C.* 1673 ᾧτινι τὸν πολὺν | ... πόνον...εἴχομεν, and ib. 508 τοῖς τεκοῦσι γὰρ | οὐδ' εἰ πονεῖ τις κ.τ.λ.
+**ᾧ δὴ**, dat. of interest (where we might rather have expected the stronger οὗ χάριν), as in *O. C.* 1673 ᾧτινι τὸν πολὺν | ... πόνον...εἴχομεν, and *ib.* 508 τοῖς τεκοῦσι γὰρ | οὐδ' εἰ πονεῖ τις κ.τ.λ.
 
 **πλοῦν ἐστείλαμεν**, as *Ph.* 911 τὸν πλοῦν στελεῖν.
 
@@ -3302,12 +3302,12 @@ As a matter of verbal criticism, it might be observed that αἰέν and ἔστ
 **μαθεῖν οὐ δυσπετής**. Menelaüs, king of Lacedaemon ( *Od.* 11. 460), is for Attic Tragedy a type of Spartan harshness and arrogance. In Eur. *Andr.* 458 he is called γοργὸς ὁπλίτης.
 
 ## 1047 f.
-**οὗτος, σὲ φωνῶ**. In the older printed editions, from the Aldine onwards, a point of some kind is placed after φωνῶ, to show that σὲ φωνῶ is parenthetic (cp. 73 Αἴαντα φωνῶ),—συγκομίζειν being taken as an infinitive serving for an imperative. Lobeck, who adheres to this view, remarks that there is no other instance of φωνῶ τινα (=*iubeo*) with infin. This is true; nevertheless it seems probable that φωνῶ here is used as a verb of ‘commanding’ with the inf., like λέγω ( *Ph.* 101), εἶπον and ἐννέπω ( *O. C.* 932), αὐδῶ (ib. 1630), and φημί (below, O. C. 1108).
+**οὗτος, σὲ φωνῶ**. In the older printed editions, from the Aldine onwards, a point of some kind is placed after φωνῶ, to show that σὲ φωνῶ is parenthetic (cp. 73 Αἴαντα φωνῶ),—συγκομίζειν being taken as an infinitive serving for an imperative. Lobeck, who adheres to this view, remarks that there is no other instance of φωνῶ τινα (=*iubeo*) with infin. This is true; nevertheless it seems probable that φωνῶ here is used as a verb of ‘commanding’ with the inf., like λέγω ( *Ph.* 101), εἶπον and ἐννέπω ( *O. C.* 932), αὐδῶ (*ib.* 1630), and φημί (below, O. C. 1108).
 
-**νεκρὸν … συγκομίζειν**, to aid in paying funeral rites to the corpse. For κομίζειν, said with ref. to the dead, see *El.* 1114. In Plut. *Sull.* 38, ἔφθη τὸ σῶμα συγκομισθέν, the sense is, ‘the obsequies were already completed’ (συγ-), i.e. the body had been consumed on the pyre.
+**νεκρὸν … συγκομίζειν**, to aid in paying funeral rites to the corpse. For κομίζειν, said with ref. to the dead, see *El.* 1114. In Plut. *Sull.* 38, ἔφθη τὸ σῶμα συγκομισθέν, the sense is, ‘the obsequies were already completed’ (συγ-), *i.e.* the body had been consumed on the pyre.
 
 ## 1049
-**ἀνήλωσας**. Attic inscriptions, from the 5th cent. B.C. onwards, show that the aor. and perf. of ἀναλόω regularly took the temporal augment. No unaugmented form (such as ἀνάλωσα) occurs in them. See Meisterhans, § 40. 6, who quotes Moeris, p. 23: ἀνηλωμένον Ἀττικῶς, ἀναλωμένον Ἑλληνικῶς (i.e. in the κοινὴ διάλεκτος).
+**ἀνήλωσας**. Attic inscriptions, from the 5th cent. B.C. onwards, show that the aor. and perf. of ἀναλόω regularly took the temporal augment. No unaugmented form (such as ἀνάλωσα) occurs in them. See Meisterhans, § 40. 6, who quotes Moeris, p. 23: ἀνηλωμένον Ἀττικῶς, ἀναλωμένον Ἑλληνικῶς (*i.e.* in the κοινὴ διάλεκτος).
 
 The slow movement of the verse (with only quasi-caesura after the 3rd foot) is intended to mark haughty surprise. Cp. *Ant.* 44 ἦ γὰρ νοεῖς θάπτειν σφʼ, ἀπόρρητον πόλει;
 
@@ -3317,7 +3317,7 @@ The slow movement of the verse (with only quasi-caesura after the 3rd foot) is i
 **δοκοῦντα δʼ** (ἐκείνῳ) **ὃς κραίνει στρατοῦ**: for the omission of the antecedent in dative, cp. *El.* 1123 δόθʼ, ἥτις ἐστί, προσφέροντες: *Ant.* 35 ὃς ἃν τούτων τι δρᾷ, | φόνον προκεῖσθαι.—The full expression would be, δοκοῦντα μὲν ἐμοί, δοκοῦντα δ' ἐκείνῳ: but in such ‘anaphora’ the μέν is often omitted: cp. *O. C.* 1342 στήσω σ' ἄγων, | στήσω δ' ἐμαυτόν: *Ant.* 906 f. (n.).
 
 ## 1051
-**προθείς**, sc. κελεύεις, supplied from ἀνήλωσας λόγον (1049). Cp. 800 τοῦ ποτ' ἀνθρώπων μαθών; (sc. ἐλπίζει).
+**προθείς**, *sc.* κελεύεις, supplied from ἀνήλωσας λόγον (1049). Cp. 800 τοῦ ποτ' ἀνθρώπων μαθών; (*sc.* ἐλπίζει).
 
 ## 1052 f.
 **ἐλπίσαντες … ἄγειν**, not ἄξειν, because the sense is, ‘having formed the expectation that we *were* bringing him (to be) an ally,’ etc.; not, ‘that we *should bring* him.’ So 799 ἐλπίζει φέρειν, ‘forebodes that it *tends.*’ Ajax, as Teucer points out at v. 1097, was not ‘brought’ at all, but came of his free will.
@@ -3331,7 +3331,7 @@ The slow movement of the verse (with only quasi-caesura after the 3rd foot) is i
 **στρατῷ ξύμπαντι**, as in 726 he is called ἐπιβουλευτὴς στρατοῦ. His design had been against the chiefs (57 f.), the authors of his wrong; but that wrong had also embittered him against the whole Greek army (844).
 
 ## 1056
-**δορί**. Several editors write δόρει here, on account of the v.l. ὡς ἐλοιδόρει: which may, however, have been originally γρ. ὡς ἕλοι δόρει, i.e., merely a marginal note of δόρει as an alternative form. Metre requires δόρει in *O. C.* 620, O. C. 1314, O. C. 1386: but there is no reason to doubt that Sophocles could also use the ordinary form δορί, as Aesch. ( IIIAesch. *Ag.*) and Eur. ( Eur. *Hec.* 5) certainly did.
+**δορί**. Several editors write δόρει here, on account of the *v.l.* ὡς ἐλοιδόρει: which may, however, have been originally γρ. ὡς ἕλοι δόρει, *i.e.*, merely a marginal note of δόρει as an alternative form. Metre requires δόρει in *O. C.* 620, O. C. 1314, O. C. 1386: but there is no reason to doubt that Sophocles could also use the ordinary form δορί, as Aesch. ( IIIAesch. *Ag.*) and Eur. ( Eur. *Hec.* 5) certainly did.
 
 ## 1057
 **θεῶν τις**: only Odysseus knows who it was.
@@ -3355,9 +3355,9 @@ The slow movement of the verse (with only quasi-caesura after the 3rd foot) is i
 **τυμβεῦσαι τάφῳ**: Lycophron 154 ἐτύμβευσεν τάφῳ. *Thesm.* 885 ποῦ δ' ἐτυμβεύθη τάφῳ;
 
 ## 1064
-**ἀμφὶ … ψάμαθον**, ‘somewhere on the sand.’ The phrase implies scornful indifference as to the precise place, just as in Eur. *Andr.* 215 εἰ δ' ἀμφὶ Θρῄκην.. | τύραννον ἔσχες ἄνδρα, ‘somewhere in Thrace.’ Cp. *Il.* 11. 706 ἀμφί τε ἄστυ | ἔρδομεν ἱρὰ θεοῖς, ‘about’ the city, i.e. here and there in it.
+**ἀμφὶ … ψάμαθον**, ‘somewhere on the sand.’ The phrase implies scornful indifference as to the precise place, just as in Eur. *Andr.* 215 εἰ δ' ἀμφὶ Θρῄκην.. | τύραννον ἔσχες ἄνδρα, ‘somewhere in Thrace.’ Cp. *Il.* 11. 706 ἀμφί τε ἄστυ | ἔρδομεν ἱρὰ θεοῖς, ‘about’ the city, *i.e.* here and there in it.
 
-**χλωρὰν**, ‘yellow.’ The epithet serves to call up more vividly a picture of the desolate sea-shore, where the corpse is to lie unburied. Cp. Verg. *Aen.* 5. 374 *fulva moribundum extendit arena.* χλωρός, primarily an epithet of young verdure (χλόη), sometimes means ‘yellow’ or ‘yellowish’; a sense found in the kindred Sanskrit hAris and Lat. helvus (Curt. *Etym.* § 197). *Il.* 11. 631 μέλι χλωρόν. In *Ant.* 1132 the sense of χλωρὰ..ἀκτὰ (‘green’) is defined by the further epithet πολυστάφυλος.—The sense ‘moist’ is preferred here by Prof. Campbell (‘that part of the sands which the sea has moistened’).
+**χλωρὰν**, ‘yellow.’ The epithet serves to call up more vividly a picture of the desolate sea-shore, where the corpse is to lie unburied. Cp. Verg. *Aen.* 5. 374 *fulva moribundum extendit arena.* χλωρός, primarily an epithet of young verdure (χλόη), sometimes means ‘yellow’ or ‘yellowish’; a sense found in the kindred Sanskrit hAris and Lat. *helvus* (Curt. *Etym.* § 197). *Il.* 11. 631 μέλι χλωρόν. In *Ant.* 1132 the sense of χλωρὰ..ἀκτὰ (‘green’) is defined by the further epithet πολυστάφυλος.—The sense ‘moist’ is preferred here by Prof. Campbell (‘that part of the sands which the sea has moistened’).
 
 **λευρὰν**, the conjecture of Burges ( Eur. *Hec.* 699 ἐν ψαμάθῳ λευρᾷ), did not deserve to be received by Wecklein.
 
@@ -3373,10 +3373,10 @@ The slow movement of the verse (with only quasi-caesura after the 3rd foot) is i
 **εἰ … μὴ ʼδυνήθημεν**, ‘granting that we were unable.’ Cp. Thuc. 3. 40 § 4 εἰ γὰρ οὗτοι ὀρθῶς ἀπέστησαν, ὑμεῖς ἂν οὐ χρεὼν ἄρχοιτε, ‘assuming that they were right to revolt, your rule would be unwarrantable.’
 
 ## 1069 f.
-**χερσὶν παρευθύνοντες**, ‘guiding him with our hands’: cp. 542 χερσὶν εὐθύνων, said of guiding a child's steps. ‘He will be docile enough now, and will go whither our hands guide him’ (i.e., the body shall be laid where we please). Then **χερσὶν** suggests the bitter comment, (‘our *hands*, I say,) for our *words* were at all times lost upon him.’ For **ὅπου**, cp. *O. T.* 448 οὐ γὰρ ἔσθ' ὅπου μ' ὀλεῖς.
+**χερσὶν παρευθύνοντες**, ‘guiding him with our hands’: cp. 542 χερσὶν εὐθύνων, said of guiding a child's steps. ‘He will be docile enough now, and will go whither our hands guide him’ (*i.e.*, the body shall be laid where we please). Then **χερσὶν** suggests the bitter comment, (‘our *hands*, I say,) for our *words* were at all times lost upon him.’ For **ὅπου**, cp. *O. T.* 448 οὐ γὰρ ἔσθ' ὅπου μ' ὀλεῖς.
 
 ## 1071
-**κακοῦ πρὸς ἀνδρὸς**: for πρός, cp. 319. These remarks on authority and obedience are suggested by the alleged insubordination of Ajax, who (in disregard of Homeric conditions) is styled ἀνὴρ δημότης, in contrast to οἱ ἐφεστῶτες, —i.e. the Atreidae. (Cp. 945 ἐφεστᾶσι.) The tone of Menelaüs here recalls that of Creon in *Ant.* 663—676.
+**κακοῦ πρὸς ἀνδρὸς**: for πρός, cp. 319. These remarks on authority and obedience are suggested by the alleged insubordination of Ajax, who (in disregard of Homeric conditions) is styled ἀνὴρ δημότης, in contrast to οἱ ἐφεστῶτες, —*i.e.* the Atreidae. (Cp. 945 ἐφεστᾶσι.) The tone of Menelaüs here recalls that of Creon in *Ant.* 663—676.
 
 **ἄνδρα**, coming after ἀνδρός, is thought too inelegant by some critics, who replace it by Reiske's conjecture, **ὄντα**. But it may be doubted whether a Greek ear would have been offended; the words ἄνδρα δημότην closely cohere, and the emphasis falls, first on κακοῦ, and then on δημότην. The phrase ἀνὴρ δημότης occurs in *Ant.* 690 and *Nub.* 1219. Cp. 1093 ἄνδρες, ἄνδρα.
 
@@ -3386,14 +3386,14 @@ The slow movement of the verse (with only quasi-caesura after the 3rd foot) is i
 **ἔνθα μὴ** with subjunct. (without ἄν), as in *O. T.* 316 ἔνθα μὴ τέλη | λύῃ. *καθεστήκῃ*, which L supports, seems slightly better here than καθεστήκοι, which would make the statement more abstract or hypothetical. Similarly in 1081 we have ὅπου..παρῇ. (On the other hand, in such a passage as *Tr.* 1235, τίς ταῦτ' ἄν, ὅστις μὴ ʼξ ἀλαστόρων νοσοῖ, | ἕλοιτο; the optative is clearly better than νοσῇ.)
 
 ## 1076
-**φόβου πρόβλημα**, a screen ( *Ph.* 1008 n.), a defence, afforded by fear,— the gen. defining that in which the defence consists; cp. *El.* 682 πρόσχημ' ἀγῶνος, ib. 857 ἐλπίδων..ἀρωγαί.
+**φόβου πρόβλημα**, a screen ( *Ph.* 1008 n.), a defence, afforded by fear,— the gen. defining that in which the defence consists; cp. *El.* 682 πρόσχημ' ἀγῶνος, *ib.* 857 ἐλπίδων..ἀρωγαί.
 
-**αἰδοῦς**. The schol. on 1074 quotes from Epicharmus, ἔνθα δέος, ἐνταῦθα καὶ αἰδώς: cp. *Euthyphr.* p. 12 B, where Socrates quotes from Stasînus, ἵνα γὰρ δέος, ἔνθα καὶ αἰδώς,—remarking that we ought rather to say, ἵνα μὲν αἰδώς, ἔνθα καὶ δέος· οὐ μέντοι, ἵνα γε δέος, πανταχοῦ αἰδώς. The sentiment of Menelaüs is genuinely Spartan. Plut. *Cleom.* 9 dwells on the place of φόβος in Spartan government: τιμῶσι δὲ τὸν φόβον...τὴν πολιτείαν μάλιστα συνέχεσθαι φόβῳ νομίζοντες. The Aeschylean Athena, too, counsels μὴ τὸ δεινὸν πᾶν πόλεως ἔξω βαλεῖν ( Plut. *Eum.* 698), but there the basis of the *fear* is to be αἰδώς,—the σέβας (690) for the Areiopagus. As at Sparta there was a shrine of Φόβος ( Plut. l.c.), so at Athens there was an altar of Αἰδώς ( Paus. 1. 17. 1).
+**αἰδοῦς**. The schol. on 1074 quotes from Epicharmus, ἔνθα δέος, ἐνταῦθα καὶ αἰδώς: cp. *Euthyphr.* p. 12 B, where Socrates quotes from Stasînus, ἵνα γὰρ δέος, ἔνθα καὶ αἰδώς,—remarking that we ought rather to say, ἵνα μὲν αἰδώς, ἔνθα καὶ δέος· οὐ μέντοι, ἵνα γε δέος, πανταχοῦ αἰδώς. The sentiment of Menelaüs is genuinely Spartan. Plut. *Cleom.* 9 dwells on the place of φόβος in Spartan government: τιμῶσι δὲ τὸν φόβον...τὴν πολιτείαν μάλιστα συνέχεσθαι φόβῳ νομίζοντες. The Aeschylean Athena, too, counsels μὴ τὸ δεινὸν πᾶν πόλεως ἔξω βαλεῖν ( Plut. *Eum.* 698), but there the basis of the *fear* is to be αἰδώς,—the σέβας (690) for the Areiopagus. As at Sparta there was a shrine of Φόβος ( *Plut. l.c.*), so at Athens there was an altar of Αἰδώς ( Paus. 1. 17. 1).
 
 ## 1077
 **κἂν σῶμα γεννήσῃ μέγα**: cp. the phrases φῦσαι φρένας ( *O. C.* 804), πτερά ( Ar. *Av.* 785), etc.: Her. 5. 91 τὸν βασιλέα ἡμέων..ἐξέβαλε, δόξαν δὲ φύσας αὐξάνεται. The words allude to the stature of the πελώριος Αἴας ( *Il.* 3. 229), but are meant also to be figurative; cp. Shakesp. *Julius Caesar* 1. 2. 135 Why, man, he doth bestride the narrow world | Like a colossus, and we petty men | Walk under his huge legs.
 
-**κἂν ἀπὸ σμ. κακοῦ**,=καὶ ἐὰν (πέσῃ): cp. *El.* 1482 ἀλλά μοι πάρες | κἂν σμικρὸν εἰπεῖν, i.e., καὶ ἐὰν σμικρὸν παρῇς: Dem. or. 2 § 14 καὶ ὅποι τις ἄν, οἶμαι, προσθῇ κἂν μικρὰν δύναμιν, πάντ' ὠφελεῖ, i.e., καὶ ἐάν τις προσθῇ. We cannot here well take **κἂν** as=καὶ ἅν (the conditional particle), and suppose that it belongs to πεσεῖν understood. (See appendix on *El.* 1482.)—For **ἀπὸ** denoting result, cp. *Ant.* 695 ἀπ' ἔργων εὐκλεεστάτων φθίνει.
+**κἂν ἀπὸ σμ. κακοῦ**,=καὶ ἐὰν (πέσῃ): cp. *El.* 1482 ἀλλά μοι πάρες | κἂν σμικρὸν εἰπεῖν, *i.e.*, καὶ ἐὰν σμικρὸν παρῇς: Dem. or. 2 § 14 καὶ ὅποι τις ἄν, οἶμαι, προσθῇ κἂν μικρὰν δύναμιν, πάντ' ὠφελεῖ, *i.e.*, καὶ ἐάν τις προσθῇ. We cannot here well take **κἂν** as=καὶ ἅν (the conditional particle), and suppose that it belongs to πεσεῖν understood. (See appendix on *El.* 1482.)—For **ἀπὸ** denoting result, cp. *Ant.* 695 ἀπ' ἔργων εὐκλεεστάτων φθίνει.
 
 ## 1079
 **πρόσεστιν**, said of an attribute or quality: 521 n.
@@ -3403,7 +3403,7 @@ The slow movement of the verse (with only quasi-caesura after the 3rd foot) is i
 ## 1081
 **ὅπου … παρῇ**, without ἄν: cp. 1074.
 
-**βούλεται**, sc. τις: cp. Plat. *Apol.* 29B οὐκ ἀμαθία ἐστὶν αὕτη ἡ ἐπονείδιστος, ἡ τοῦ οἴεσθαι εἰδέναι ἃ οὐκ οἶδεν*;* Crito 49 C οὔτε ἄρα ἀνταδικεῖν δεῖ...οὐδένα ἀνθρώπων, οὐδ' ἂν ὁτιοῦν πάσχῃ ὑπ' αὐτῶν.
+**βούλεται**, *sc.* τις: cp. Plat. *Apol.* 29B οὐκ ἀμαθία ἐστὶν αὕτη ἡ ἐπονείδιστος, ἡ τοῦ οἴεσθαι εἰδέναι ἃ οὐκ οἶδεν*;* Crito 49 C οὔτε ἄρα ἀνταδικεῖν δεῖ...οὐδένα ἀνθρώπων, οὐδ' ἂν ὁτιοῦν πάσχῃ ὑπ' αὐτῶν.
 
 ## 1082
 **νόμιζε**..**χρόνῳ ποτὲ … πεσεῖν**. It seems best to take πεσεῖν as representing a gnomic aor., χρόνῳ ποτὲ ἔπεσε. Cp. Plat. *Rep.* 490C (quoted by Goodwin, *Moods and Tenses*, § 159), ἡγουμένης δὴ ἀληθείας οὐκ ἄν ποτε..φαῖμεν αὐτῇ χορὸν κακῶν ἀκολουθῆσαι, ‘when truth leads, we never could say that a chorus of evils accompanies her’ (ἠκολούθησεν). It may be observed that this view is slightly confirmed by the words **ἐξ οὐρίων δραμοῦσαν**, which clearly mean, ‘*after* running before favouring winds’ (the sense cannot be that the ship is to be *sunk* by a fatal οὖρος): for, if πεσεῖν is an appeal to experience, then the mention of such a city's transient *prosperity* is fitting; but if πεσεῖν were a simple prediction, such a clause would be less natural. [I formerly took πεσεῖν as referring to the future; but now doubt whether νόμιζε, without more help from the context, could suffice to suggest such a sense. See Appendix on *El.* 442 f., where I read δέξεσθαι for δέξασθαι. Here we might, of course, write **ποτ' ἂν**, but the change seems needless.]
@@ -3459,7 +3459,7 @@ The dramatic function of a Chorus required that these Salaminian sailors, while 
 **λεῶν**: the plur. of the Attic form is somewhat rare (except in the formula ἀκούετε λεῴ); Ar. fr. 346 has πάντες λεῴ.
 
 ## 1101
-**ἤγαγʼ**, the reading of one MS. (the Palatinus at Heidelberg, written in the 14th century), was doubtless no more than a conjectural emendation; but it appears probable. **ἡγεῖτʼ**, the reading of the other MSS., has been defended by Erfurdt and others on the ground that the elision has the effect of running the two words ἡγεῖτ' οἴκοθεν together, so that they become virtually one. This is just possible; but in tragic iambics we find no certain examples of a precisely similar kind. (As to σήμαιν' εἴτ' ἔχει in *Phil.* 22, see n. there.) If ἤγαγʼ was the original word, the change to ἡγεῖτʼ may have been caused by failure to perceive that the genitive **ὧν** (for οὓς) was due to attraction. Porson (ap. Kidd, *Tracts*, p. 194) wished to read **ἦγεν**, comparing *Il.* 2. 557, Αἴας δ' ἐκ Σαλαμῖνος ἄγεν δυοκαίδεκα νῆας. The imperfect tense is, of course, free from objection (cp. also Aesch. *Pers.* 341 Ξέρξῃ..χιλιὰς μὲν ἦν | ὧν ἦγε πλῆθος): but ΗΓΕΝ was less likely than ΗΓΑΓ to tempt the correction ΗΓΕΙΤ. Elmsley's **ἤγετʼ** (n. on Eur. *Heracl.* 371) is still nearer to the letters of ἡγεῖτʼ: but the middle voice would be at least very unusual, where the sense is simply that of ‘leading’; in Soph. *O. C.* 1460, indeed, ἄξεται is hardly more than ἄξει: but in Soph. *Ph.* 613 ἄγοιντο suggests the notion, ‘bring with them, for their own ends.’
+**ἤγαγʼ**, the reading of one MS. (the Palatinus at Heidelberg, written in the 14th century), was doubtless no more than a conjectural emendation; but it appears probable. **ἡγεῖτʼ**, the reading of the other MSS., has been defended by Erfurdt and others on the ground that the elision has the effect of running the two words ἡγεῖτ' οἴκοθεν together, so that they become virtually one. This is just possible; but in tragic iambics we find no certain examples of a precisely similar kind. (As to σήμαιν' εἴτ' ἔχει in *Phil.* 22, see n. there.) If ἤγαγʼ was the original word, the change to ἡγεῖτʼ may have been caused by failure to perceive that the genitive **ὧν** (for οὓς) was due to attraction. Porson (*ap.* Kidd, *Tracts*, p. 194) wished to read **ἦγεν**, comparing *Il.* 2. 557, Αἴας δ' ἐκ Σαλαμῖνος ἄγεν δυοκαίδεκα νῆας. The imperfect tense is, of course, free from objection (cp. also Aesch. *Pers.* 341 Ξέρξῃ..χιλιὰς μὲν ἦν | ὧν ἦγε πλῆθος): but ΗΓΕΝ was less likely than ΗΓΑΓ to tempt the correction ΗΓΕΙΤ. Elmsley's **ἤγετʼ** (n. on Eur. *Heracl.* 371) is still nearer to the letters of ἡγεῖτʼ: but the middle voice would be at least very unusual, where the sense is simply that of ‘leading’; in Soph. *O. C.* 1460, indeed, ἄξεται is hardly more than ἄξει: but in Soph. *Ph.* 613 ἄγοιντο suggests the notion, ‘bring with them, for their own ends.’
 
 ## 1103
 **οὐδ' ἔσθ' ὅπου**: cp. 1069.— **τόνδε κοσμῆσαι**, to exercise authority over him. κοσμεῖν is properly said of a commander disposing his forces; *Il.* 2. 554 κοσμῆσαι ἵππους τε καὶ ἀνέρας ἀσπιδιώτας: [Eur. ] *Rhes.* 662 κοσμήσων στρατόν. The Atreidae are κοσμήτορε λαῶν ( *Il.* 1. 16). For κοσμεῖν with ref. to civil government, cp. *Ant.* 677.
@@ -3469,7 +3469,7 @@ The dramatic function of a Chorus required that these Salaminian sailors, while 
 **ἢ καὶ τῷδε σέ**, ‘than for him, *on his part*, to rule thee’: for this καί, cp. *O. C.* 53 ὅσ' οἶδα κἀγώ (n.).
 
 ## 1105
-**ὅλων** here can be only masc. This use of ὅλοι as=**σύμπαντες** elsewhere occurs only in later Greek; Lobeck cites Nonnus (5th cent. A.D. ) *Dionysiaca* 47. 482 ὅλας οἴστρησε γυναῖκας, and *Anthol. Pal.* 7. 679. 5 κτήμασι μὲν πολύολβος ὅλων πλέον ὧν τρέφε Κύπρος (by Sophronius of Damascus, circ. 630 A.D. ). We are scarcely warranted, however, in assuming that a poet of the classical age could not have ventured on such a use. The view that ὅλων is *neuter* (*summae rerum*) is decisively condemned (1) by the direct antithesis with the masc. ἄλλων, and (2) by the absence of the article, τὰ ὅλα being the invariable phrase in this sense: see, e.g., Dem. or. 19 § 151 ὑπὲρ τῶν ὅλων πεισθεὶς εἰρήνην ἄγειν (‘for the general interests’): or. 22 § 16 τὴν τῶν ὅλων σωτηρίαν: Xen. *Cyr.* 8. 7. 22 τήνδε τὴν τῶν ὅλων τάξιν (the universe): Lucian *De Luctu* c. 6 τὴν τῶν ὅλων δεσποτείαν.
+**ὅλων** here can be only masc. This use of ὅλοι as=**σύμπαντες** elsewhere occurs only in later Greek; Lobeck cites Nonnus (5th cent. A.D. ) *Dionysiaca* 47. 482 ὅλας οἴστρησε γυναῖκας, and *Anthol. Pal.* 7. 679. 5 κτήμασι μὲν πολύολβος ὅλων πλέον ὧν τρέφε Κύπρος (by Sophronius of Damascus, *circ.* 630 A.D. ). We are scarcely warranted, however, in assuming that a poet of the classical age could not have ventured on such a use. The view that ὅλων is *neuter* (*summae rerum*) is decisively condemned (1) by the direct antithesis with the masc. ἄλλων, and (2) by the absence of the article, τὰ ὅλα being the invariable phrase in this sense: see, *e.g.*, Dem. or. 19 § 151 ὑπὲρ τῶν ὅλων πεισθεὶς εἰρήνην ἄγειν (‘for the general interests’): or. 22 § 16 τὴν τῶν ὅλων σωτηρίαν: Xen. *Cyr.* 8. 7. 22 τήνδε τὴν τῶν ὅλων τάξιν (the universe): Lucian *De Luctu* c. 6 τὴν τῶν ὅλων δεσποτείαν.
 
 Apart from the difficulty as to ὅλων, there is absolutely no ground for rejecting verses 1105 f., as Schneidewin and other critics have done.
 
@@ -3503,7 +3503,7 @@ Assuredly οἱ πόνου πολλοῦ πλέῳ does not mean ‘busybodies,�
 ## 1116
 **ψόφου … στραφείην**: the gen. is properly causal, ‘turn *for* it,’ and is joined (here only) with the simple verb, as it is regularly joined with ἐντρέπομαι (90), ἐπιστρέφομαι ( *Ph.* 599), and in Eur. *Hipp.* 1224 ff. with the act. μεταστρέφειν: (πῶλοι) οὔτε ναυκλήρου χερὸς | οὔθ' ἱπποδέσμων οὔτε κολλητῶν ὄχων | μεταστρέφουσαι.
 
-**ἕως**: cp. *Phaedr.* 243 E ἕωσπερ ἂν ᾖς ὃς εἶ. This is a certain correction of the traditional reading **ὡς**, as it is also in *Ph.* 1330 ἕως ἂν αὑτὸς ἥλιος | ταύτῃ μὲν αἴρῃ etc., and in *O. C.* 1361 ἔωσπερ ἂν ζῶ. [Hermann explained **ὡς ἂν ᾖς** as *utcunque sis qualis es*, ‘however much you may be what you are,’ i.e., *quantumlibet ferocias.* Prof. Campbell understands, ‘However you may be—just what you are,’ οἷοσπερ εἶ being said, παρὰ προσδοκίαν, instead of βασιλεύς or the like.]
+**ἕως**: cp. *Phaedr.* 243 E ἕωσπερ ἂν ᾖς ὃς εἶ. This is a certain correction of the traditional reading **ὡς**, as it is also in *Ph.* 1330 ἕως ἂν αὑτὸς ἥλιος | ταύτῃ μὲν αἴρῃ etc., and in *O. C.* 1361 ἔωσπερ ἂν ζῶ. [Hermann explained **ὡς ἂν ᾖς** as *utcunque sis qualis es*, ‘however much you may be what you are,’ *i.e.*, *quantumlibet ferocias.* Prof. Campbell understands, ‘However you may be—just what you are,’ οἷοσπερ εἶ being said, παρὰ προσδοκίαν, instead of βασιλεύς or the like.]
 
 ## 1118
 **οὐδ' αὖ**, ‘neither, again,’—referring to their reproof of Menelaüs in 1092. οὐδ' αὖ is similarly used in *El.* 1034.
@@ -3523,7 +3523,7 @@ Assuredly οἱ πόνου πολλοῦ πλέῳ does not mean ‘busybodies,�
 **ψιλὸς … ὡπλισμένῳ**. The contrast is illustrated by the case of the Locrians in the *Iliad*, who came to Troy armed only with bows, and are described as shrinking from the σταδίη ὑσμίνη, because they were not armed as hoplites:— οὐ γὰρ ἔχον κόρυθας χαλκήρεας ἱπποδασείας, | οὐδ' ἔχον ἀσπίδας εὐκύκλους καὶ μείλινα δοῦρα. ( *Il.* 13. 714 f.)
 
 ## 1124
-**τρέφει**, has in it; i.e., his valour *resides* only in his words. Cp. *Tr.* 817 ὄγκον..τρέφειν: *O. T.* 356 τἀληθὲς γὰρ ἰσχῦον τρέφω. Dryden: *Tongue-valiant hero*, *vaunter of thy might* (l. 336 of his Trans. of the Iliad, bk. 1).
+**τρέφει**, has in it; *i.e.*, his valour *resides* only in his words. Cp. *Tr.* 817 ὄγκον..τρέφειν: *O. T.* 356 τἀληθὲς γὰρ ἰσχῦον τρέφω. Dryden: *Tongue-valiant hero*, *vaunter of thy might* (l. 336 of his Trans. of the Iliad, bk. 1).
 
 ## 1125
 **ξὺν τῷ δικαίῳ**, with right on my side: *Ph.* 1251 ξὺν τῷ δικαίῳ τὸν σὸν οὐ ταρβῶ φόβον. Shakesp. *Henry VI.* pt. II. 3. 2. 233 Thrice is he armed that hath his quarrel just.
@@ -3531,7 +3531,7 @@ Assuredly οἱ πόνου πολλοῦ πλέῳ does not mean ‘busybodies,�
 ## 1126
 **δίκαια**: for the plur., cp. 887 σχέτλια (n.).
 
-**κτείναντα**: as Creüsa says to her living son ( Eur. *Ion* 1500) ἔκτεινά σ' ἄκουσʼ, i.e., ‘*doomed* thee to perish.’ So Soph. *O. C.* 1008 κλέψας τὸν ἱκέτην, meaning that Creon had *purposed* to seize him.
+**κτείναντα**: as Creüsa says to her living son ( Eur. *Ion* 1500) ἔκτεινά σ' ἄκουσʼ, *i.e.*, ‘*doomed* thee to perish.’ So Soph. *O. C.* 1008 κλέψας τὸν ἱκέτην, meaning that Creon had *purposed* to seize him.
 
 ## 1127
 **δεινόν γ' εἶπας**: for γε in comment, cp. *El.* 341 δεινόν γέ σ' οὖσαν πατρὸς οὗ σὺ παῖς ἔφυς | κείνου λελῆσθαι.
@@ -3556,7 +3556,7 @@ Assuredly οἱ πόνου πολλοῦ πλέῳ does not mean ‘busybodies,�
 **παρών** here has an indignant tone,— ‘You *come* and forbid’; cp. 338 n.
 
 ## 1132
-**τούς γ' αὐτὸς αὑτοῦ**: the inserted αὐτὸς emphasises the reflexive pron.; *O. C.* 929 αἰσχύνεις πόλιν | τὴν αὐτὸς αὑτοῦ (n.).—For **αὐτοῦ**=ἐμαυτοῦ, see *O. T.* 138 (n.), *O. C.* 966, *El.* 285.— **οὐ γὰρ καλόν**: sc. ἐᾶν θάπτειν αὐτούς. Ajax was πολέμιος, a public enemy, ‘worse than any Trojan’ (1054), in view of his intended onslaught. Menelaüs, like Creon ( *Ant.* 284 ff.), conceives that refusal of burial to a πολέμιος is warranted on religious grounds.
+**τούς γ' αὐτὸς αὑτοῦ**: the inserted αὐτὸς emphasises the reflexive pron.; *O. C.* 929 αἰσχύνεις πόλιν | τὴν αὐτὸς αὑτοῦ (n.).—For **αὐτοῦ**=ἐμαυτοῦ, see *O. T.* 138 (n.), *O. C.* 966, *El.* 285.— **οὐ γὰρ καλόν**: *sc.* ἐᾶν θάπτειν αὐτούς. Ajax was πολέμιος, a public enemy, ‘worse than any Trojan’ (1054), in view of his intended onslaught. Menelaüs, like Creon ( *Ant.* 284 ff.), conceives that refusal of burial to a πολέμιος is warranted on religious grounds.
 
 ## 1133
 **σοὶ … προὔστη**, ‘stood forth to confront thee.’ For προστῆναι, see on *El.* 980. (In Her. 1. 129 προσστὰς, not προστὰς, should probably be read.)— Teucer parries the argument by asking how Ajax could have been the enemy of Menelaüs, a chief on his own side. He thus makes it a personal question between Ajax and Menelaüs whereas the latter had referred to the design of Ajax against the common weal.
@@ -3578,24 +3578,24 @@ The gen. **αὐτοῦ** depends on the phrase κλέπτης ψηφοποιό�
 **κλέψειας κακά**, commit furtive knaveries; [see on 189](#189) κλέπτουσι μύθους.
 
 ## 1138
-**εἰς ἀνίαν … ἔρχεται**, tends to it, will issue in it (somewhat as in Her. 1. 120 it is said of dreams, ἐς ἀσθενὲς ἔρχεται): **τινί**, i.e. σοί: for this menacing τις, see on *Ant.* 751 θανοῦσ' ὀλεῖ τινά.—The traditional accentuation, as seen in L and in the Aldine edition, is **ἔρχεται τινί**, the ground of it being that τινί is here emphatic: so in *Categ.* 5 § 7 (p. 2 *b* 2) τὸ χρῶμα ἐν σώματι· οὐκοῦν καὶ ἐν τινὶ [not ἔν τινι] σώματι. (Cp. Chandler, *Accent.* § 942.) Some recent editors however write ἔρχεταί τινι.
+**εἰς ἀνίαν … ἔρχεται**, tends to it, will issue in it (somewhat as in Her. 1. 120 it is said of dreams, ἐς ἀσθενὲς ἔρχεται): **τινί**, *i.e.* σοί: for this menacing τις, see on *Ant.* 751 θανοῦσ' ὀλεῖ τινά.—The traditional accentuation, as seen in L and in the Aldine edition, is **ἔρχεται τινί**, the ground of it being that τινί is here emphatic: so in *Categ.* 5 § 7 (p. 2 *b* 2) τὸ χρῶμα ἐν σώματι· οὐκοῦν καὶ ἐν τινὶ [not ἔν τινι] σώματι. (Cp. Chandler, *Accent.* § 942.) Some recent editors however write ἔρχεταί τινι.
 
 ## 1139
-**οὐ μᾶλλον**, sc. εἰς ἀνίαν ἐμοὶ ἔρχεται (i.e. λυπηθησόμεθα).
+**οὐ μᾶλλον**, *sc.* εἰς ἀνίαν ἐμοὶ ἔρχεται (*i.e.* λυπηθησόμεθα).
 
 ## 1140
 **τόνδ' ἐστὶν οὐχὶ θαπτέον**: for the place of οὐχί, cp. 1330 ἦ γὰρ εἴην οὐκ ἂν εὖ φρονῶν: for the neuter verbal with acc., 1250 εἰρκτέον τάδ' ἐστίν.
 
 ## 1141
-**ἀλλ' ἀντακούσει τοῦτον ὡς** κ.τ.λ.: cp. *Phil.* 549 ἤκουσα τοὺς ναύτας ὅτι | ... εἷεν etc.: Xen. *Mem.* 4. 2. 33 τὸν Δαίδαλον..οὐκ ἀκήκοας, ὅτι..ἠναγκάζετο.. δουλεύειν; Wecklein's conjecture, **τοῦθ' ἕν** for τοῦτον, is very plausible, in view of 1040 ἕν σοι φράσω. We may observe, however, that τοῦτον answers to τόνδʼ in 1040, and that the stress in Teucer's retort falls on the ἀντ- in ἀντακούσει, and on τεθάψεται. There is more of dignity in that retort, as it stands with τοῦτον, than there would be with the mocking echo, τοῦθ' ἕν. If τοῦθ' ἕν were to be read, then *σὺ δʼ* ἀντακούσει (a v.l.) would be preferable to L's *ἀλλʼ* ἀντακούσει.
+**ἀλλ' ἀντακούσει τοῦτον ὡς** κ.τ.λ.: cp. *Phil.* 549 ἤκουσα τοὺς ναύτας ὅτι | ... εἷεν etc.: Xen. *Mem.* 4. 2. 33 τὸν Δαίδαλον..οὐκ ἀκήκοας, ὅτι..ἠναγκάζετο.. δουλεύειν; Wecklein's conjecture, **τοῦθ' ἕν** for τοῦτον, is very plausible, in view of 1040 ἕν σοι φράσω. We may observe, however, that τοῦτον answers to τόνδʼ in 1040, and that the stress in Teucer's retort falls on the ἀντ- in ἀντακούσει, and on τεθάψεται. There is more of dignity in that retort, as it stands with τοῦτον, than there would be with the mocking echo, τοῦθ' ἕν. If τοῦθ' ἕν were to be read, then *σὺ δʼ* ἀντακούσει (a *v.l.*) would be preferable to L's *ἀλλʼ* ἀντακούσει.
 
 **τεθάψεται**: 577 n.
 
 ## 1143
-**ναύτας ἐφορμήσαντα … τὸ | πλεῖν**: for the inf. with art., instead of a simple inf., cp. *O. C.* 442 τὸ δρᾶν | οὐκ ἠθέλησαν (and ib. 47, n.): Thuc. 2. 87 § 1 οὐχὶ δικαίαν ἔχει τέκμαρσιν τὸ ἐκφοβῆσαι (where Classen compares this verse). Liddell and Scott, s. v. ἐφορμάω, remark that the dat. **ναύταις** should be read here. It is, in fact, the reading of a few late MSS.,—having been introduced, perhaps, by Triclinius; but **ναύτας** is right. ἐφορμῶ takes a dat. of the person when it means to rouse or urge something *against* one; *e.g.* Hom. Od. 7. 272 ὅς μοι ἐφορμήσας ἀνέμους: Soph. fr. 619. 2 ᾧ καὶ Ζεὺς ἐφορμήσῃ κακά. But here, where ἐφορμῶ means to urge one to do something, the person is necessarily in the acc., as after ἐπείγω, προτρέπω, etc. Cp. Xen. *Cyr.* 8. 1. 43 τούτους οὔτε μελετᾶν τῶν ἐλευθερίων πόνων οὐδένα παρώρμα κ.τ.λ.
+**ναύτας ἐφορμήσαντα … τὸ | πλεῖν**: for the inf. with art., instead of a simple inf., cp. *O. C.* 442 τὸ δρᾶν | οὐκ ἠθέλησαν (and *ib.* 47, n.): Thuc. 2. 87 § 1 οὐχὶ δικαίαν ἔχει τέκμαρσιν τὸ ἐκφοβῆσαι (where Classen compares this verse). Liddell and Scott, s. v. ἐφορμάω, remark that the dat. **ναύταις** should be read here. It is, in fact, the reading of a few late MSS.,—having been introduced, perhaps, by Triclinius; but **ναύτας** is right. ἐφορμῶ takes a dat. of the person when it means to rouse or urge something *against* one; *e.g.* Hom. Od. 7. 272 ὅς μοι ἐφορμήσας ἀνέμους: Soph. fr. 619. 2 ᾧ καὶ Ζεὺς ἐφορμήσῃ κακά. But here, where ἐφορμῶ means to urge one to do something, the person is necessarily in the acc., as after ἐπείγω, προτρέπω, etc. Cp. Xen. *Cyr.* 8. 1. 43 τούτους οὔτε μελετᾶν τῶν ἐλευθερίων πόνων οὐδένα παρώρμα κ.τ.λ.
 
 ## 1144 f.
-**ᾧ φθέγμ' ἂν οὐκ ἂν ηὗρες**. Against reading ἐνηῦρες, it should be noted that ἐνευρίσκω is post-classical, unless Dobree was right in conjecturing ἐνηύρηκεν (for ἀνηύρηκεν) in Ar. *Ach.* 1037. On the other hand, the sarcastic force of the doubled **ἄν** is in place here. The dat. **ᾧ** is possessive: i.e. instead of the simple ᾧ οὐκ ἂν ἦν φθέγμα, we have ᾧ οὐκ ἂν ηὗρες φθέγμα, in the sense, ‘you would have found that he had not a word at his command.’ The emendation ᾧ φθέγμ' *ὂν* οὐκ ἂν ηὗρες would make this clearer, but seems needless: it is, indeed, slightly prosaic.
+**ᾧ φθέγμ' ἂν οὐκ ἂν ηὗρες**. Against reading ἐνηῦρες, it should be noted that ἐνευρίσκω is post-classical, unless Dobree was right in conjecturing ἐνηύρηκεν (for ἀνηύρηκεν) in Ar. *Ach.* 1037. On the other hand, the sarcastic force of the doubled **ἄν** is in place here. The dat. **ᾧ** is possessive: *i.e.* instead of the simple ᾧ οὐκ ἂν ἦν φθέγμα, we have ᾧ οὐκ ἂν ηὗρες φθέγμα, in the sense, ‘you would have found that he had not a word at his command.’ The emendation ᾧ φθέγμ' *ὂν* οὐκ ἂν ηὗρες would make this clearer, but seems needless: it is, indeed, slightly prosaic.
 
 **ἐν κακῷ χειμῶνος**: cp. *O. C.* 1358 ἐν πόνῳ | ... κακῶν.
 
@@ -3606,7 +3606,7 @@ The gen. **αὐτοῦ** depends on the phrase κλέπτης ψηφοποιό�
 **κρυφείς**. The form ἐκρύφην is not elsewhere found in classical Greek. At a later period ἐκρύβην was frequent (see Veitch, *Gk. Verbs* p. 393).
 
 ## 1146
-**πατεῖν παρεῖχε**, sc. ἑαυτόν: cp. *Nub.* 422 ἀμέλει θαρρῶν οὕνεκα τούτων ἐπιχαλκεύειν παρέχοιμ' ἄν. Plat. *Theaet.* p. 191 A ἐὰν δὲ πάντῃ ἀπορήσωμεν, ταπεινωθέντες, οἶμαι, τῷ λόγῳ παρέξομεν ὡς ναυτιῶντες πατεῖν τε καὶ χρῆσθαι ὅ τι ἂν βούληται. Synesius IV. Plat. *Ep.* 163D μεθῆκεν ὁ κυβερνήτης τὸ πηδάλιον καὶ καταβαλὼν ἑαυτὸν πατεῖν παρεῖχε τῷ θέλοντι ναυτίλων.—For the omission of the art. before ναυτίλων, cp. *I. A.* 340 τῷ θέλοντι δημοτῶν: *Ion* 1167 τὸν θέλοντ' ἐγχωρίων.
+**πατεῖν παρεῖχε**, *sc.* ἑαυτόν: cp. *Nub.* 422 ἀμέλει θαρρῶν οὕνεκα τούτων ἐπιχαλκεύειν παρέχοιμ' ἄν. Plat. *Theaet.* p. 191 A ἐὰν δὲ πάντῃ ἀπορήσωμεν, ταπεινωθέντες, οἶμαι, τῷ λόγῳ παρέξομεν ὡς ναυτιῶντες πατεῖν τε καὶ χρῆσθαι ὅ τι ἂν βούληται. Synesius IV. Plat. *Ep.* 163D μεθῆκεν ὁ κυβερνήτης τὸ πηδάλιον καὶ καταβαλὼν ἑαυτὸν πατεῖν παρεῖχε τῷ θέλοντι ναυτίλων.—For the omission of the art. before ναυτίλων, cp. *I. A.* 340 τῷ θέλοντι δημοτῶν: *Ion* 1167 τὸν θέλοντ' ἐγχωρίων.
 
 ## 1147 ff.
 **καὶ δὲ καὶ τὸ σὸν … στόμα**: cp. *Ant.* 573 ἄγαν γε λυπεῖς καὶ σὺ καὶ τὸ σὸν λέχος.
@@ -3630,10 +3630,10 @@ The gen. **αὐτοῦ** depends on the phrase κλέπτης ψηφοποιό�
 ## 1155
 **ποήσεις**: on the spelling, see Appendix to *Ph.* 120.
 
-**πημανούμενος**. Other examples of the passive sense in futures of middle form, from stems ending in a liquid, are *Ant.* 93 ἐχθαρεῖ: ib. 230 ἀλγυνεῖ: *O. T.* 272 φθερεῖσθαι: *Ph.* 954 αὐανοῦμαι.
+**πημανούμενος**. Other examples of the passive sense in futures of middle form, from stems ending in a liquid, are *Ant.* 93 ἐχθαρεῖ: *ib.* 230 ἀλγυνεῖ: *O. T.* 272 φθερεῖσθαι: *Ph.* 954 αὐανοῦμαι.
 
 ## 1156
-**ἄνολβον**, of folly, as in *Ant.* 1026 (οὐκ) ἄβουλος οὐδ' ἄνολβος: ib. 1265 ὤμοι ἐμῶν ἄνολβα βουλευμάτων. Cp. 1290 δύστηνε: *O.T.* 888 δυσπότμου χάριν χλιδᾶς (i.e., miserably perverse): Dem. or. 3 § 21 οὐ γὰρ οὕτως ἄφρων οὐδ' ἀτυχής εἰμι ἐγώ, ὥστ' ἀπεχθάνεσθαι βούλεσθαι.
+**ἄνολβον**, of folly, as in *Ant.* 1026 (οὐκ) ἄβουλος οὐδ' ἄνολβος: *ib.* 1265 ὤμοι ἐμῶν ἄνολβα βουλευμάτων. Cp. 1290 δύστηνε: *O.T.* 888 δυσπότμου χάριν χλιδᾶς (*i.e.*, miserably perverse): Dem. or. 3 § 21 οὐ γὰρ οὕτως ἄφρων οὐδ' ἀτυχής εἰμι ἐγώ, ὥστ' ἀπεχθάνεσθαι βούλεσθαι.
 
 **παρών** here serves merely to make the picture a little more vivid; he thus warned the man to his face. Cp. 338.
 
@@ -3653,14 +3653,14 @@ The gen. **αὐτοῦ** depends on the phrase κλέπτης ψηφοποιό�
 ## 1166
 **βροτοῖς τὸν ἀείμνηστον**=τὸν βροτοῖς ἀείμνηστον: cp. *O. C.* 714 ἵπποισιν τὸν ἀκεστῆρα χαλινόν: *Tr.* 872 (δῶρον) Ἡρακλεῖ τὸ πόμπιμον: *O. T.* 139 ἐκεῖνον ὁ κτανών.
 
-**εὐρώεντα**, from εὐρώς, ‘mould’: an epithet applied in epic poetry to the nether world, where all things moulder in damp, cheerless gloom: *Il.* 20. 65 (οἰκία, the home of Hades) σμερδαλέʼ εὐρώεντα, τά τε στυγέουσι θεοί περ. *Od.* 10. 512 Ἀΐδεω..δόμον εὔρώεντα. Simonides illustrates this sense (fr. 4. 4), ἐντάφἰον δὲ τοιοῦτον οὔτ' εὐρὼς | οὔθ' ὁ πανδαμάτωρ ἀμαυρώσει χρόνος: and Vergil reproduces it ( *Aen.* 6. 462) in his *loca senta situ*, the ‘rough and mouldering wilderness’ of the underworld. Quintus Smyrnaeus 14. 241 has τύμβον ἐπ' εὐρώεντα. But in later antiquity a false etymology connected εὐρώεις with εὐρύς: thus Hesychius, *s.v.* εὐρώεντα, gives πλατέα as one explanation of it. Oppian (circ. 180 A.D. ) actually uses the word in the sense of ‘wide,’ Opp. *Hal.* 5. 3 κόλπον ἀν' εὐρώεντα θαλάσσης: and so too Nonnus (5th cent. A.D. ) *Dionys.* 25. 476. [In *Il.* 20. 65 Döderlein and others would change εὐρώεντα to αὐερόεντα (αὐήρ =ἀήρ), or ἠερόεντα, ‘murky’: while Nauck goes so far as to pronounce εὐρώεις ‘a wholly apocryphal word.’]
+**εὐρώεντα**, from εὐρώς, ‘mould’: an epithet applied in epic poetry to the nether world, where all things moulder in damp, cheerless gloom: *Il.* 20. 65 (οἰκία, the home of Hades) σμερδαλέʼ εὐρώεντα, τά τε στυγέουσι θεοί περ. *Od.* 10. 512 Ἀΐδεω..δόμον εὔρώεντα. Simonides illustrates this sense (fr. 4. 4), ἐντάφἰον δὲ τοιοῦτον οὔτ' εὐρὼς | οὔθ' ὁ πανδαμάτωρ ἀμαυρώσει χρόνος: and Vergil reproduces it ( *Aen.* 6. 462) in his *loca senta situ*, the ‘rough and mouldering wilderness’ of the underworld. Quintus Smyrnaeus 14. 241 has τύμβον ἐπ' εὐρώεντα. But in later antiquity a false etymology connected εὐρώεις with εὐρύς: thus Hesychius, *s.v.* εὐρώεντα, gives πλατέα as one explanation of it. Oppian (*circ.* 180 A.D. ) actually uses the word in the sense of ‘wide,’ Opp. *Hal.* 5. 3 κόλπον ἀν' εὐρώεντα θαλάσσης: and so too Nonnus (5th cent. A.D. ) *Dionys.* 25. 476. [In *Il.* 20. 65 Döderlein and others would change εὐρώεντα to αὐερόεντα (αὐήρ =ἀήρ), or ἠερόεντα, ‘murky’: while Nauck goes so far as to pronounce εὐρώεις ‘a wholly apocryphal word.’]
 
 The legendary tomb of Ajax was shown on the coast of the Troad near Cape Rhoeteum; Strabo 13. p. 595 τῷ Ῥοιτείῳ συνεχὴς ᾐὼν ἁλιτενής, ἐφ' ᾗ μνῆμα καὶ ἱερὸν Αἴαντος καὶ ἀνδριάς. Alexander the Great, on landing in the Troad, offered ἐναγίσματα at the tomb of Ajax as well as at that of Achilles ( Diod. 17. 17). There were legends of gigantic bones having been found in the tomb ( Paus. 1. 35. 5).
 
 ## 1168 f.
 **καὶ μὴν**, marking the entrance of a person: 1223: *O. C.* 549 (n.).
 
-**ἐς αὐτὸν καιρὸν**: so *Ant.* 386 ἐς δέον περᾷ: Eur. *Hipp.* 899 παῖς σὸς ἐς καιρὸν πάρα.— *πλησίοι*, as in Eur. *El.* 640, παρούσης τῆσδε πλησίας ἐμοί, Soph. *Tr.* 896 παροῦσα πλησία. The v.l. **πλησίον** is equally correct ( Soph. *El.* 927 τοῦ πλησίον παρόντος, etc.).
+**ἐς αὐτὸν καιρὸν**: so *Ant.* 386 ἐς δέον περᾷ: Eur. *Hipp.* 899 παῖς σὸς ἐς καιρὸν πάρα.— *πλησίοι*, as in Eur. *El.* 640, παρούσης τῆσδε πλησίας ἐμοί, Soph. *Tr.* 896 παροῦσα πλησία. The *v.l.* **πλησίον** is equally correct ( Soph. *El.* 927 τοῦ πλησίον παρόντος, etc.).
 
 Tecmessa had left the scene after v. 989, in order to bring the child Eurysaces from the tent, where he had been left when she set forth in search of Ajax (810). The part of Tecmessa is now taken by a mute person, as the deuteragonist has presently to resume the part of Odysseus (1318).
 
@@ -3681,27 +3681,27 @@ While the child knelt as a suppliant by the body, with his hand upon it, the cor
 **τρίτου**, marking the completion of the lucky number; *O. C.* 7 f. αἱ πάθαι..χὡ χρόνος.. | ..καὶ τὸ γενναῖον τρίτον: Aesch. *Eum.* 758 ff. Παλλάδος καὶ Λοξίου | ἕκατι καὶ τοῦ πάντα κραίνοντος τρίτου | Σωτῆρος.
 
 ## 1175
-**ἱκτήριον θησαυρόν**, ‘the suppliant's *store*’; i.e., the efficacy of the supplication is stored up in, resides in, these gifts of hair, which symbolise the appeal of the ἱκέτης to the spirit of the dead.—G. Wolff takes the phrase as pathetic,—‘the suppliant's only wealth,’ ‘all that he has to offer,’—as Electra says of the gifts of hair, σμικρὰ μὲν τάδʼ, ἀλλ' ὅμως | ἅχω ( *El.* 450). But it is rather the *power* than the poverty of the offering which is expressed by θησαυρόν.
+**ἱκτήριον θησαυρόν**, ‘the suppliant's *store*’; *i.e.*, the efficacy of the supplication is stored up in, resides in, these gifts of hair, which symbolise the appeal of the ἱκέτης to the spirit of the dead.—G. Wolff takes the phrase as pathetic,—‘the suppliant's only wealth,’ ‘all that he has to offer,’—as Electra says of the gifts of hair, σμικρὰ μὲν τάδʼ, ἀλλ' ὅμως | ἅχω ( *El.* 450). But it is rather the *power* than the poverty of the offering which is expressed by θησαυρόν.
 
 ## 1177
 **κακὸς κακῶς**, as in 1391, *O.T.* 248, *Ph.* 1369.
 
-**ἄθαπτος ἐκπέσοι χθονός**, ‘may he be cast out of the land, unburied’: i.e., may he perish, and may his body then be cast beyond the boundaries of his country. Cp. Soph. *Ph.* 1629 Πολυνείκους νέκυν | ἐκβάλετ' ἄθαπτον τῆσδ' ὅρων ἔξω χθονός. Under Athenian law a person put to death for treason (προδοσία) or sacrilege was not to be buried in Attica ( *H.* 1. 7. 22): thus when Phocion was executed in 317 C.B. , ἔδοξε καὶ τὸ σῶμα..ἐξορίσαι ( Plut. *Phoc.* 37). Teucer's curse is worded as if the supposed offender were at home in Greece, and not at Troy.
+**ἄθαπτος ἐκπέσοι χθονός**, ‘may he be cast out of the land, unburied’: *i.e.*, may he perish, and may his body then be cast beyond the boundaries of his country. Cp. Soph. *Ph.* 1629 Πολυνείκους νέκυν | ἐκβάλετ' ἄθαπτον τῆσδ' ὅρων ἔξω χθονός. Under Athenian law a person put to death for treason (προδοσία) or sacrilege was not to be buried in Attica ( *H.* 1. 7. 22): thus when Phocion was executed in 317 C.B. , ἔδοξε καὶ τὸ σῶμα..ἐξορίσαι ( Plut. *Phoc.* 37). Teucer's curse is worded as if the supposed offender were at home in Greece, and not at Troy.
 
 **ἐκπέσοι**: cp. *O.C.* 766 ὅτ' ἦν μοι τέρψις ἐκπεσεῖν χθονός.
 
 ## 1178
 **γένους ἅπαντος**: Dem. or. 19 § 71 (τοῖς θεοῖς) εὔχεσθ' ἐξώλη ποιεῖν αὐτὸν καὶ γένος καὶ οἰκίαν. Lys. or. 12 § 10 ὤμοσεν ἐξώλειαν ἑαυτῷ καὶ τοῖς παισὶν ἐπαρώμενος.
 
-**ῥίζαν ἐξημημένος**, with his race extirpated from the root,—i.e., may there be no survivor to continue it. Cp. *El.* 765 πρόρριζον..ἔφθαρται γένος: Lucian *Tyr.* 13 πανωλεθρία παντὸς τοῦ γένους καὶ ῥιζόθεν τὸ δεινὸν ἅπαν ἐκκεκομμένον. So Antigone and her sister are the ἐσχάτη ῥίζα of their house ( *Ant.* 599 f.). For the constr. of the pass. verb with acc., cp. *Tr.* 157 δέλτον ἐγγεγραμμένην | ξυνθήμαθʼ (n.): Xen. *An.* 2. 6. 1 ἀποτμηθέντες τὰς κεφαλάς: Xen. *Cyr.* 5. 2. 32 τραύματα ἐπιδεδεμένους. For the use of ἐξαμᾶν, cp. Paus. 8. 7. 7 ἔμελλε δὲ ἄρα ὁ δαίμων καὶ τὸ γένος τὸ Κασσάνδρου κακῶς ἐξαμήσειν.
+**ῥίζαν ἐξημημένος**, with his race extirpated from the root,—*i.e.*, may there be no survivor to continue it. Cp. *El.* 765 πρόρριζον..ἔφθαρται γένος: Lucian *Tyr.* 13 πανωλεθρία παντὸς τοῦ γένους καὶ ῥιζόθεν τὸ δεινὸν ἅπαν ἐκκεκομμένον. So Antigone and her sister are the ἐσχάτη ῥίζα of their house ( *Ant.* 599 f.). For the constr. of the pass. verb with acc., cp. *Tr.* 157 δέλτον ἐγγεγραμμένην | ξυνθήμαθʼ (n.): Xen. *An.* 2. 6. 1 ἀποτμηθέντες τὰς κεφαλάς: Xen. *Cyr.* 5. 2. 32 τραύματα ἐπιδεδεμένους. For the use of ἐξαμᾶν, cp. Paus. 8. 7. 7 ἔμελλε δὲ ἄρα ὁ δαίμων καὶ τὸ γένος τὸ Κασσάνδρου κακῶς ἐξαμήσειν.
 
 ## 1179
 **αὔτως**: as to the breathing, see on *O. T.* 931.
 
-**ὅπωσπερ τόνδ' ἐγὼ τέμνω πλόκον**. The primary meaning of this act was self-dedication (1173 n.), but Teucer here gives it a further significance, suggested by the circumstances of the moment; exactly as in *Il.* 3. 300 the σπονδαί at the truce are turned into a symbol of death for those who break the truce,—ὧδέ σφ' ἐγκέφαλος χαμάδις ῥέοι ὡς ὅδε οἶνος. Cp. Liv. 1. 24 si prior defexit...tu illo die, Iuppiter, populum Romanum sic ferito ut ego hunc porcum hic hodie feriam. Theocr. 2. 28 ὡς τοῦτον τὸν καρὸν ἐγὼ σὺν δαίμονι τάκω | ὣς τάκοιθ' ὑπ' ἔρωτος ὁ Μύνδιος αὐτίκα Δέλφις | .
+**ὅπωσπερ τόνδ' ἐγὼ τέμνω πλόκον**. The primary meaning of this act was self-dedication (1173 n.), but Teucer here gives it a further significance, suggested by the circumstances of the moment; exactly as in *Il.* 3. 300 the σπονδαί at the truce are turned into a symbol of death for those who break the truce,—ὧδέ σφ' ἐγκέφαλος χαμάδις ῥέοι ὡς ὅδε οἶνος. Cp. Liv. 1. 24 *si prior defexit...tu illo die, Iuppiter, populum Romanum sic ferito ut ego hunc porcum hic hodie feriam.* Theocr. 2. 28 ὡς τοῦτον τὸν καρὸν ἐγὼ σὺν δαίμονι τάκω | ὣς τάκοιθ' ὑπ' ἔρωτος ὁ Μύνδιος αὐτίκα Δέλφις | .
 
 ## 1181
-**κινησάτω**: the 3rd pers. of the aor. imper. with μή, though somewhat rare, occurs in good prose ( Plat. *Apol.* 17C μηδεὶς...προσδοκησάτω). Cp. 1334.— **προσπεσὼν**, *kneeling* beside the body, **ἔχου** (sc. αὐτοῦ), cling to it. So *Tr.* 904 βωμοῖσι προσπίπτουσα, *Ph.* 485 προσπίτνω σε γόνασι.
+**κινησάτω**: the 3rd pers. of the aor. imper. with μή, though somewhat rare, occurs in good prose ( Plat. *Apol.* 17C μηδεὶς...προσδοκησάτω). Cp. 1334.— **προσπεσὼν**, *kneeling* beside the body, **ἔχου** (*sc.* αὐτοῦ), cling to it. So *Tr.* 904 βωμοῖσι προσπίπτουσα, *Ph.* 485 προσπίτνω σε γόνασι.
 
 ## 1182
 **ὑμεῖς τε**, the Chorus. It has been proposed to read **δὲ** instead of **τε**, but needlessly. δέ would mark the change in the persons addressed; τε marks the continuity of the precepts. Cp. *El.* 421 (ἔκ τε τοῦδ' ἄνω), *Tr.* 462 (ἥδε τʼ), where the reason for retaining τε is similar.
@@ -3737,12 +3737,12 @@ Third stasimon. 1st strophe, 1185—1191=1st antistr., 1192—1198: 2nd str. 119
 ## 1192
 **ὄφελε**: the unaugmented form is frequent in Homer: *e.g.* Od. 5. 308 ὡς δὴ ἐγώ γ' ὄφελον θανέειν.
 
-**αἰθέρα δῦναι μέγαν**, i.e., vanish into the depths of the sky, as if caught up by ἅρπυιαι: cp. Eur. *Or.* 1375 πᾷ φύγω, ξέναι, | πολιὸν αἰθέρ' ἀμπτάμενος ἢ πόντον;
+**αἰθέρα δῦναι μέγαν**, *i.e.*, vanish into the depths of the sky, as if caught up by ἅρπυιαι: cp. Eur. *Or.* 1375 πᾷ φύγω, ξέναι, | πολιὸν αἰθέρ' ἀμπτάμενος ἢ πόντον;
 
 **πολύκοινον Ἅιδαν**: *El.* 137 Ἀΐδα | παγκοίνου λίμνας (n.).
 
 ## 1194
-[1195 f.] **κεῖνος ἁνὴρ**, not Paris, but an indefinite person, the supposed inventor of war: cp. Tibull. 1. 10. 1 Quis fuit, horrendos primus qui protulit enses? | Quam ferus et vere ferreus ille fuit! *C.* 1. 3. 9 Illi robur et aes triplex | Circa pectus erat qui fragilem truci | Commisit pelago ratem | Primus.
+[1195 f.] **κεῖνος ἁνὴρ**, not Paris, but an indefinite person, the supposed inventor of war: cp. Tibull. 1. 10. 1 *Quis fuit, horrendos primus qui protulit enses? | Quam ferus et vere ferreus ille fuit!* *C.* 1. 3. 9 *Illi robur et aes triplex | Circa pectus erat qui fragilem truci | Commisit pelago ratem | Primus.*
 
 **ἔδειξεν**, taught: Aesch. *P. V.* 457 ἔστε δή σφιν ἀντολὰς ἐγὼ | ἄστρων ἔδειξα.
 
@@ -3782,7 +3782,7 @@ Remark the repetition of **τέρψιν** (after 1201): it recurs in 1216. See n
 ## 1206
 **ἀμέριμνος**, ‘uncared for’: the pass. sense occurs only here, but may be illustrated by the use of ἀκηδής, which can be either passive or active; and by the passive sense of ἀμελής in *H.* 6. 5. 41, where it means, ‘neglected.’ Those who make ἀμέριμνος active here explain it as=‘without occupation,’ ‘without any interest in life’; but this is clearly untenable.
 
-**οὕτως** strengthens the adj. (‘thus utterly uncared for’); cp. Aesch. *Theb.* 1056 γένος ὠλέσατε πρέμνοθεν οὕτως. This is better than to take it as=‘simply,’ as in Plat. *Gorg.* 506D οὕτως εἰκῇ [v.l. οὐ τῷ εἰκῇ], like *iacentes sic temere* in *C.* 2. 11. 14.
+**οὕτως** strengthens the adj. (‘thus utterly uncared for’); cp. Aesch. *Theb.* 1056 γένος ὠλέσατε πρέμνοθεν οὕτως. This is better than to take it as=‘simply,’ as in Plat. *Gorg.* 506D οὕτως εἰκῇ [*v.l.* οὐ τῷ εἰκῇ], like *iacentes sic temere* in *C.* 2. 11. 14.
 
 ## 1207
 **δρόσοις**: the λειμώνιαι δρόσοι of Aesch. *Ag.* 560 (quoted above on 601 ff.).
@@ -3794,7 +3794,7 @@ Remark the repetition of **τέρψιν** (after 1201): it recurs in 1216. See n
 **αἰὲν νυχίου**, G. Wolff's excellent emendation of ἐννυχίου, brings the verse into metrical agreement with 1199 ἐκεῖνος οὔτε στεφάνων (n.). The corruption could easily arise from ἐννυχίαν above (1203). Keeping ἐννυχίου, Dindorf inserts ἐξ before it; but this remedy (though better than the Triclinian οὖν) gives an unusual constr. to **προβολὰ**, which regularly takes a simple genitive,—either of the thing defended (as χώρας, *M.* 3. 5. 27), or of the thing which is warded off, as Eur. *Or.* 1488 θανάτου προβολάν: Plat. *Tim.* 74B προβολὴ..καυμάτων.— *θούριος*, as in 212.
 
 ## 1214 f.
-**ἀνεῖται στυγερῷ δαίμονι**, has been *consecrated*, *devoted*, to it; i.e., has become its victim. Cp. Soph. *Ph.* 947 οὗτος δὲ πῶλος (Menoeceus), τῇδ' ἀνειμένος πόλει, | θανὼν πατρῴαν γαῖαν ἐκσώσειεν ἄν. The word ἀνειμένος was properly said of animals which, having been consecrated to a god, were allowed to roam at liberty in the pastures; Her. 2. 65 τῶν δὲ εἵνεκεν ἀνεῖται τὰ ἱρὰ (θηρία) εἰ λέγοιμι, καταβαίην ἂν τῷ λόγῳ εἰς τὰ θεῖα πρήγματα: then the term was extended to inanimate things; *Legg.* 761 C εἴ τί που ἄλσος ἢ τέμενος περὶ ταῦτα ἀνειμένον ᾖ. The young Ionin the Delphic temple is said to be ἄφετος, ‘consecrated’ to the god ( Eur. *Ion* 822: cp. *Critias* 119 D ἀφέτων ὄντων ταύρων ἐν τῷ τοῦ Ποσειδῶνος ἱερῷ). Similarly the sacred horses of the German tribes publice aluntur..nullo mortali opere contacti (Tac. *Germ.* 10).
+**ἀνεῖται στυγερῷ δαίμονι**, has been *consecrated*, *devoted*, to it; *i.e.*, has become its victim. Cp. Soph. *Ph.* 947 οὗτος δὲ πῶλος (Menoeceus), τῇδ' ἀνειμένος πόλει, | θανὼν πατρῴαν γαῖαν ἐκσώσειεν ἄν. The word ἀνειμένος was properly said of animals which, having been consecrated to a god, were allowed to roam at liberty in the pastures; Her. 2. 65 τῶν δὲ εἵνεκεν ἀνεῖται τὰ ἱρὰ (θηρία) εἰ λέγοιμι, καταβαίην ἂν τῷ λόγῳ εἰς τὰ θεῖα πρήγματα: then the term was extended to inanimate things; *Legg.* 761 C εἴ τί που ἄλσος ἢ τέμενος περὶ ταῦτα ἀνειμένον ᾖ. The young Ionin the Delphic temple is said to be ἄφετος, ‘consecrated’ to the god ( Eur. *Ion* 822: cp. *Critias* 119 D ἀφέτων ὄντων ταύρων ἐν τῷ τοῦ Ποσειδῶνος ἱερῷ). Similarly the sacred horses of the German tribes *publice aluntur..nullo mortali opere contacti* (Tac. *Germ.* 10).
 
 ## 1216
 **ἐπέσται**, will ‘attend upon’ me; cp. *El.* 1467 εἰ δ' ἔπεστι νέμεσις (n.).
@@ -3807,7 +3807,7 @@ Remark the repetition of **τέρψιν** (after 1201): it recurs in 1216. See n
 **ἔπεστι πόντου | πρόβλημʼ**: the genitive goes with πρόβλημα: cp. *Ph.* 1455 πόντου προβολῆς: Quintus Smyrn. 9. 378 ἐπὶ προβολῇσι θαλάσσης. The scholiast confirms the reading of the MSS.: ἔνθα ὑλώδης ἐξοχὴ τῆς θαλάττης ἐστί. With **ἔπεστι** we understand πόντῳ from πόντου. For ἔπεστι after ἐπέσται in 1216, cp. *Ant.* 73, Ant. 76 (κείσομαι), Ant. 613, Ant. 618 (ἕρπει).
 
 ## 1220
-**ὑπὸ πλάκα Σουνίου**: for the ο̄ of ὑπὸ before πλ, cp. *Ant.* 612 τὸ πρίν.—Sunium, the S. E. promontory of Attica, is, in Leake's words, ‘lofty, steep, and rugged on every side, except the south-west, where there is a beach and a small bay, with an island at the entrance’ (*Demi of Attica*, vol. II. p. 63). On the highest point stood the Doric temple of Athena, built probably about the middle of the 5th century B.C. The modern name of the cape, *Colonna* (Κολόνναις), is derived from the remaining columns of the temple, which are of a brilliant whiteness, the marble of which they are made being of a much lighter colour than the Pentelic. ‘As seen from a distance, glittering in the sun across the blue sea, they look like pillars of snow or salt, rather than stone’ (Mure, *Tour* II. p. 123). Cp. Eur. *Cycl.* 293 ἥ τε Σουνίου | δίας Ἀθάνας σῶς ὑπάργυρος πέτρα (where the epithet alludes to the silver-mines of Laurium). Poseidon also was worshipped at Sunium (Σουνιάρατε, Ar. *Eq.* 560): but Leake was disposed to think that he can have had an altar only, as the sole buildings traceable were the temple of Athena and the fortress erected on Sunium circ. 413 B.C. (*Demi* II. p. 64). Wordsworth, however, saw remains which, he thought, might be those of a Poseidonion (*Athens and Attica*, p. 177).
+**ὑπὸ πλάκα Σουνίου**: for the ο̄ of ὑπὸ before πλ, cp. *Ant.* 612 τὸ πρίν.—Sunium, the S. E. promontory of Attica, is, in Leake's words, ‘lofty, steep, and rugged on every side, except the south-west, where there is a beach and a small bay, with an island at the entrance’ (*Demi of Attica*, vol. II. p. 63). On the highest point stood the Doric temple of Athena, built probably about the middle of the 5th century B.C. The modern name of the cape, *Colonna* (Κολόνναις), is derived from the remaining columns of the temple, which are of a brilliant whiteness, the marble of which they are made being of a much lighter colour than the Pentelic. ‘As seen from a distance, glittering in the sun across the blue sea, they look like pillars of snow or salt, rather than stone’ (Mure, *Tour* II. p. 123). Cp. Eur. *Cycl.* 293 ἥ τε Σουνίου | δίας Ἀθάνας σῶς ὑπάργυρος πέτρα (where the epithet alludes to the silver-mines of Laurium). Poseidon also was worshipped at Sunium (Σουνιάρατε, Ar. *Eq.* 560): but Leake was disposed to think that he can have had an altar only, as the sole buildings traceable were the temple of Athena and the fortress erected on Sunium *circ.* 413 B.C. (*Demi* II. p. 64). Wordsworth, however, saw remains which, he thought, might be those of a Poseidonion (*Athens and Attica*, p. 177).
 
 [1221] **τὰς ἱερὰς**: so Pind. fr. 75. 4 ἐν ταῖς ἱεραῖς Ἀθάναις. Ar. *Eq.* 1319 ὦ ταῖς ἱεραῖς φέγγος Ἀθήναις: Timocreon fr. I. 3 ἱερᾶν ἀπ' Ἀθηνᾶν. Cp. *El.* 707 Ἀθηνῶν τῶν θεοδμήτων.
 
@@ -3841,12 +3841,12 @@ The *exodos* falls into three parts. 1. The scene between Teucer and Agamemnon: 
 ## 1228
 **σέ τοι**: cp. *El.* 1445 σέ τοι, σὲ κρίνω: Ar. *Av.* 274 οὗτος, ὦ σέ τοι.
 
-**τὸν ἐκ τῆς** is better than the v.l. σὲ τὸν τῆς, since ἐκ lays an intentionally scornful emphasis on Teucer's origin.
+**τὸν ἐκ τῆς** is better than the *v.l.* σὲ τὸν τῆς, since ἐκ lays an intentionally scornful emphasis on Teucer's origin.
 
 ## 1229
 **τραφεὶς** = εἰ ἐτράφης.— *μητρὸς … ἄπο*: ἐκ is usu. said of parents, ἀπό (as in 202) of ancestors; but cp. *O.C.* 571 κἀφ' ὅτου πατρὸς γεγώς. ( *Ant.* 192 f., n.)
 
-**ὑψήλ' ἐφώνεις** is a choicer phrase, and marks the irony better, than the v.l. ὑψήλ' ἐκόμπεις.
+**ὑψήλ' ἐφώνεις** is a choicer phrase, and marks the irony better, than the *v.l.* ὑψήλ' ἐκόμπεις.
 
 **κἀπ' ἄκρων ὡδοιπόρεις**: schol. ἐπ' ἄκρων δακτύλων ἔβαινες γαυριῶν. Eur. *Ion* 1166 f. ἐν δ' ἄκροισι βὰς ποσὶν | κῆρυξ ἀνεῖπε (describing the proud gait of the herald). Lobeck compares Libanius 4. 162 ἐπ' ἄκρων πορεύεσθαι, and ἀκροβατεῖν ‘to strut’ in Philo *De Somn.* 1. 60.
 
@@ -3860,7 +3860,7 @@ The *exodos* falls into three parts. 1. The scene between Teucer and Agamemnon: 
 
 **οὔτε ναυάρχους**: alluding to Teucer's denial that Ajax had sailed from Salamis at the summons, or under the command, of Menelaüs (1097, 1111 f.).
 
-**Ἀχαιῶν οὔτε σοῦ**: another οὔτε is understood before Ἀχαιῶν: cp. *Ant.* 266 τὸ μήτε δρᾶσαι μήτε τῳ ξυνειδέναι | τὸ πρᾶγμα βουλεύσαντι μήτ' εἰργασμένῳ, i.e. (μήτε) βουλεύσαντι etc. (cp. *O.T.* 239 n.): Aesch. *Ag.* 532 Πάρις γὰρ οὔτε συντελὴς πόλις. It is needless to read οὐδὲ σοῦ.
+**Ἀχαιῶν οὔτε σοῦ**: another οὔτε is understood before Ἀχαιῶν: cp. *Ant.* 266 τὸ μήτε δρᾶσαι μήτε τῳ ξυνειδέναι | τὸ πρᾶγμα βουλεύσαντι μήτ' εἰργασμένῳ, *i.e.* (μήτε) βουλεύσαντι etc. (cp. *O.T.* 239 n.): Aesch. *Ag.* 532 Πάρις γὰρ οὔτε συντελὴς πόλις. It is needless to read οὐδὲ σοῦ.
 
 **διωμόσω**; the prep. gives emphasis, as in *Tr.* 378 διώμνυτο.
 
@@ -3868,7 +3868,7 @@ The *exodos* falls into three parts. 1. The scene between Teucer and Agamemnon: 
 **αὐτὸς ἄρχων … ἔπλει**: the imperf. serves to mark the position which Ajax *was holding* at the time when he was setting forth. Similarly in *Ph.* 572 πρὸς ποῖον αὖ τόνδ' αὐτὸς οὑδυσσεὺς ἔπλει; the imperf. refers to the motive which was actuating him. (Cp. κἀπεμπόμην in *El.* 680, and n. in append. there, p. 213.)
 
 ## 1235
-**δούλων**, i.e., Teucer as the son of an αἰχμαλωτίς: cp. 1020 δοῦλος.. φανείς.
+**δούλων**, *i.e.*, Teucer as the son of an αἰχμαλωτίς: cp. 1020 δοῦλος.. φανείς.
 
 ## 1236
 **ποίου κέκραγας ἀνδρὸς**: for the gen., cp. *El.* 317 τοῦ κασιγνήτου τί φής; (n.).
@@ -3889,7 +3889,7 @@ The *exodos* falls into three parts. 1. The scene between Teucer and Agamemnon: 
 **τότε**: 650 n.
 
 ## 1241
-**πανταχοῦ**, ‘in every case,’— i.e., whenever the result of the contest is disappointing to Teucer. Cp. *Ph.* 1052 νικᾶν γε μέντοι πανταχοῦ χρῄζων ἔφυν.— *φανούμεθʼ*: 1020 n.
+**πανταχοῦ**, ‘in every case,’— *i.e.*, whenever the result of the contest is disappointing to Teucer. Cp. *Ph.* 1052 νικᾶν γε μέντοι πανταχοῦ χρῄζων ἔφυν.— *φανούμεθʼ*: 1020 n.
 
 **ἐκ Τεύκρου**, on his part: cp. *O.C.* 51 κοὐκ ἄτιμος ἔκ γ' ἐμοῦ φανεῖ.
 
@@ -3897,7 +3897,7 @@ The *exodos* falls into three parts. 1. The scene between Teucer and Agamemnon: 
 **κοὐκ ἀρκέσει**, not μηδʼ, though **εἰ** precedes, for οὐκ ἀρκέσει is felt rather as a statement of that which is sure to happen, than as a hypothesis. Similarly οὐ often stands in the second of two clauses after δεινὸν εἰ or the like: Thuc. 1. 121 § 5 δεινὸν ἂν εἴη εἰ...οὐκ ἄρα δαπανήσομεν: Lys. or. 10 § 13 οὐκ οὖν δεινόν, εἰ...οὐκ ἀξιοῖς.
 
 ## 1243
-**εἴκειν ἃ … ἤρεσκεν**. The antecedent to ἅ is ταῦτα, a cognate acc.,—‘to yield *in regard to*’ what the judges decided: cp. *O. C.* 1178 τάδ' εἰκαθεῖν: ib. 172 εἴκοντας ἃ δεῖ.—Others suppose the antecedent to be τούτοις (cp. 1050). But, for Greek idiom, such a dat. ought to denote the judges, not the judgment.
+**εἴκειν ἃ … ἤρεσκεν**. The antecedent to ἅ is ταῦτα, a cognate acc.,—‘to yield *in regard to*’ what the judges decided: cp. *O. C.* 1178 τάδ' εἰκαθεῖν: *ib.* 172 εἴκοντας ἃ δεῖ.—Others suppose the antecedent to be τούτοις (cp. 1050). But, for Greek idiom, such a dat. ought to denote the judges, not the judgment.
 
 ## 1244 f.
 **κακοῖς βαλεῖτε**: cp. 724 ὀνείδεσιν | ἤρασσον (n.): *Tr.* 940 ὥς νιν ματαίως αἰτίᾳ βάλοι κακῇ.
@@ -3934,7 +3934,7 @@ The *exodos* falls into three parts. 1. The scene between Teucer and Agamemnon: 
 **ὀρθὸς**, ‘it is brought straight into the road’ (from which it has strayed): cp. *Helen.* 1555 ταύρειος δὲ ποὺς | οὐκ ἤθελ' ὀρθὸς σανίδα προσβῆναι κάτα, ‘to advance straight across the plank’ (into the ship).
 
 ## 1255 f.
-**φάρμακον**, ‘corrective,’ τὴν μάστιγα. Cp. *O.C.* 714 ἵπποισιν τὸν ἀκεστῆρα χαλινόν. So the bit for Pegasus, given by Athena to Bellerophon, is φίλτρον τόδ' ἵππειον ( Pind. *O.* 13. 68), φάρμακον πραῡ́ (ib. 85).
+**φάρμακον**, ‘corrective,’ τὴν μάστιγα. Cp. *O.C.* 714 ἵπποισιν τὸν ἀκεστῆρα χαλινόν. So the bit for Pegasus, given by Athena to Bellerophon, is φίλτρον τόδ' ἵππειον ( Pind. *O.* 13. 68), φάρμακον πραῡ́ (*ib.* 85).
 
 **νοῦν κατακτήσει**: cp. Plat. *Rep.* 591B (ἡ ψυχὴ) σωφροσύνην.. κτωμένη. So κτῆμα is said of moral or mental attributes (*O.T.* 549, *Ant.* 1050). **τινά**, ironical, some small measure of it.
 
@@ -3946,7 +3946,7 @@ The *exodos* falls into three parts. 1. The scene between Teucer and Agamemnon: 
 ## 1259
 **οὐ σωφρονήσεις**; Cp. *Ph.* 1259 ἐσωφρόνησας (‘thou hast come to thy senses’).
 
-**μαθὼν ὃς εἶ φύσιν**, i.e. δοῦλος. In *O.T.* 1068 μήποτε γνοίης ὃς εἶ, and *O.C.* 1171 ἔξοιδ' ἀκούων τῶνδ' ὅς ἐσθ' ὁ προστάτης, where ὅς stands, as here, for ὅστις, the reference is to the person's *identity*; here it is to his *quality* (=οἷος εἶ), as in Eur. *Alc.* 640 ἔδειξας εἰς ἔλεγχον ἐξελθὼν ὃς εἶ: Plat. *Euthyd.* 283D βούλεσθε γενέσθαι αὐτὸν σοφόν, ἀμαθῆ δὲ μὴ εἶναι;...οὐκοῦν ὃς μὲν οὐκ ἔστι, βούλεσθε αὐτὸν γενέσθαι, ὃς δ' ἔστι νῦν, μηκέτι εἶναι.
+**μαθὼν ὃς εἶ φύσιν**, *i.e.* δοῦλος. In *O.T.* 1068 μήποτε γνοίης ὃς εἶ, and *O.C.* 1171 ἔξοιδ' ἀκούων τῶνδ' ὅς ἐσθ' ὁ προστάτης, where ὅς stands, as here, for ὅστις, the reference is to the person's *identity*; here it is to his *quality* (=οἷος εἶ), as in Eur. *Alc.* 640 ἔδειξας εἰς ἔλεγχον ἐξελθὼν ὃς εἶ: Plat. *Euthyd.* 283D βούλεσθε γενέσθαι αὐτὸν σοφόν, ἀμαθῆ δὲ μὴ εἶναι;...οὐκοῦν ὃς μὲν οὐκ ἔστι, βούλεσθε αὐτὸν γενέσθαι, ὃς δ' ἔστι νῦν, μηκέτι εἶναι.
 
 ## 1260
 **ἄλλον τιν' … ἐλεύθερον**, some one else, who (unlike thee) is a free man. Cp. *Od.* 6. 84 ἅμα τῇ γε (with their mistress) καὶ ἀμφίπολοι κίον ἄλλαι. Plat. *Gorg.* 473C τῶν πολιτῶν καὶ τῶν ἄλλων ξένων.
@@ -3975,7 +3975,7 @@ The *exodos* falls into three parts. 1. The scene between Teucer and Agamemnon: 
 **προδοῦσ' ἁλίσκεται**. Here χάρις τοῦ θανόντος is that grateful memory of the dead which ought to abide in men's minds. When this memory deserts them, it is a traitor to the dead. Cp. *Ant.* 46 οὐ γὰρ δὴ προδοῦσ' ἁλώσομαι.
 
 ## 1268
-**οὐδ' ἐπὶ σμικρῶν λόγων**. In *El.* 415 σμικροὶ λόγοι mean ‘few’ or ‘brief’ words. Probably the sense here is, ‘not even in brief words.’ This use of ἐπί with the genitive is illustrated by two passages which Wolff has quoted; Plat. *Symp.* 192C ἕτερος ἑτέρῳ χαίρει ξυνὼν οὕτως ἐπὶ μεγάλης σπουδῆς (‘*with* such great eagerness’): Dem. or. 18 § 17 οὔτε δικαίως οὔτ' ἐπ' ἀληθείας οὐδεμιᾶς εἰρημένα (‘nor *with* any truth’). Julian or. 3. 128 A (quoted by Lobeck) has τούτων ἐπὶ σμικρῶν μνημονεύει, meaning by ἐπὶ σμικρῶν ‘in brief words only.’ (In *El.* 414 ἐπὶ σμικρὸν=‘to a small extent only’: the v.l. ἐπὶ σμικρῶν is there an error.) I formerly took ἐπὶ σμικρῶν λόγων as=‘not even in slight *respects*,’ ‘on slight accounts,’ but now doubt whether this sense can be given to the plural of λόγος.—The best emendation, if any were needed, would be οὐδ' ἐπὶ σμικρὸν λόγον, ‘not even to the extent of a brief mention’; but, though ἐπὶ σμικρὸν can bear this sense ( *El.* 414), the phrase is hardly satisfactory when λόγον is added.
+**οὐδ' ἐπὶ σμικρῶν λόγων**. In *El.* 415 σμικροὶ λόγοι mean ‘few’ or ‘brief’ words. Probably the sense here is, ‘not even in brief words.’ This use of ἐπί with the genitive is illustrated by two passages which Wolff has quoted; Plat. *Symp.* 192C ἕτερος ἑτέρῳ χαίρει ξυνὼν οὕτως ἐπὶ μεγάλης σπουδῆς (‘*with* such great eagerness’): Dem. or. 18 § 17 οὔτε δικαίως οὔτ' ἐπ' ἀληθείας οὐδεμιᾶς εἰρημένα (‘nor *with* any truth’). Julian or. 3. 128 A (quoted by Lobeck) has τούτων ἐπὶ σμικρῶν μνημονεύει, meaning by ἐπὶ σμικρῶν ‘in brief words only.’ (In *El.* 414 ἐπὶ σμικρὸν=‘to a small extent only’: the *v.l.* ἐπὶ σμικρῶν is there an error.) I formerly took ἐπὶ σμικρῶν λόγων as=‘not even in slight *respects*,’ ‘on slight accounts,’ but now doubt whether this sense can be given to the plural of λόγος.—The best emendation, if any were needed, would be οὐδ' ἐπὶ σμικρὸν λόγον, ‘not even to the extent of a brief mention’; but, though ἐπὶ σμικρὸν can bear this sense ( *El.* 414), the phrase is hardly satisfactory when λόγον is added.
 
 ## 1269
 **οὗ** depends on **προὔκαμες**: **δορί** should be taken with **προτείνων**. Cp. [Eur. ] *Rhes.* 183 ψυχὴν προβάλλοντ' ἐν κύβοισι δαίμονος. There is a reminiscence of the words of Achilles, αἰὲν ἐμὴν ψυχὴν παραβαλλόμενος πολεμίζειν ( *Il.* 9. 322).
@@ -4011,12 +4011,12 @@ The *exodos* falls into three parts. 1. The scene between Teucer and Agamemnon: 
 Other views of the passage, and some emendations which have been proposed, will be found in the Appendix.
 
 ## 1277
-**εἰς δὲ ναυτικὰ σκάφη … τάφρων ὕπερ**. The situation described here does not exactly correspond with anything in the *Iliad.* Ajax, indeed, distinguishes himself in repulsing the Trojans after they have come over the wall, and on one occasion wounds their leader Hector ( *Il.* 14. 409 ff.); but this happens before any ship has been set on fire. The supreme crisis in this part of the *Iliad* is the moment when the Trojans set fire to the ship of Protesilaüs (16. 122); but just then Ajax is driven back (χάζετο δ' ἐκ βελέων ib.); it is Patroclus who, urged by Achilles, then comes to the front, and finally beats back the foe. Nor has the *Iliad* directly furnished the picture of Hector ‘leaping high’ over the trench.
+**εἰς δὲ ναυτικὰ σκάφη … τάφρων ὕπερ**. The situation described here does not exactly correspond with anything in the *Iliad.* Ajax, indeed, distinguishes himself in repulsing the Trojans after they have come over the wall, and on one occasion wounds their leader Hector ( *Il.* 14. 409 ff.); but this happens before any ship has been set on fire. The supreme crisis in this part of the *Iliad* is the moment when the Trojans set fire to the ship of Protesilaüs (16. 122); but just then Ajax is driven back (χάζετο δ' ἐκ βελέων *ib.*); it is Patroclus who, urged by Achilles, then comes to the front, and finally beats back the foe. Nor has the *Iliad* directly furnished the picture of Hector ‘leaping high’ over the trench.
 
 Sophocles may have had some other source, epic or lyric. But it seems equally possible that he wrote from a general recollection of the *Iliad*, without caring whether he reproduced its details. Indeed, two verses of the *Iliad* might alone have sufficed to suggest the picture which he has drawn,—that which says of Ajax, Τρῶας ἄμυνε νεῶν, ὅστις φέροι ἀκάματον πῦρ (15. 731),—and the verse which describes Hector leading the Trojans from the Greek wall towards the ships,—ᾗ ῥʼ ὅ γ' ὁ λυσσώδης φλογὶ εἴκελος ἡγεμονεύει (13. 53).
 
 ## 1281
-**οὗ σὺ μή, βῆναι ποδί**. This excellent emendation (by Madvig) of the obscure **οὐδὲ συμβῆναι ποδί** is irresistibly commended by those very words of Agamemnon to which Teucer refers (1237), ποῖ βάντος ἢ ποῦ στάντος, οὗπερ οὐκ ἐγώ; The origin of the corruption may have been the effacement of the H in MH, giving rise to ΣΥΜΒΗΝΑΙ, when ΟΥ would be altered into ΟΥΔΕ to satisfy the metre. **συμβῆναι ποδί** has been explained: (1) ‘to come and join thee’ on the field of danger. But, even if συμβῆναι ποδί could bear this sense, Agam. could not say that Ajax had never fought on his side at Troy. (2) ‘To meet’ the foe, sc. τοῖς πολεμίοις: which is plainly untenable. Agamemnon had asked merely, ‘what has Ajax done *that I have not done?*’ Teucer has replied by referring to the crisis at the ships; and now drives his point home.
+**οὗ σὺ μή, βῆναι ποδί**. This excellent emendation (by Madvig) of the obscure **οὐδὲ συμβῆναι ποδί** is irresistibly commended by those very words of Agamemnon to which Teucer refers (1237), ποῖ βάντος ἢ ποῦ στάντος, οὗπερ οὐκ ἐγώ; The origin of the corruption may have been the effacement of the H in MH, giving rise to ΣΥΜΒΗΝΑΙ, when ΟΥ would be altered into ΟΥΔΕ to satisfy the metre. **συμβῆναι ποδί** has been explained: (1) ‘to come and join thee’ on the field of danger. But, even if συμβῆναι ποδί could bear this sense, Agam. could not say that Ajax had never fought on his side at Troy. (2) ‘To meet’ the foe, *sc.* τοῖς πολεμίοις: which is plainly untenable. Agamemnon had asked merely, ‘what has Ajax done *that I have not done?*’ Teucer has replied by referring to the crisis at the ships; and now drives his point home.
 
 ## 1282
 **ὑμὶν … ἔνδικα**, just in your eyes (ethic dat.): cp. *O.C.* 1446 ἀνάξιαι γὰρ πᾶσίν ἐστε δυστυχεῖν: Soph. *Ph.* 495 σοφοῖς | καὶ τοῖσι φαύλοις ἔνδιχʼ, ὡς ἐμοὶ δοκεῖ.
@@ -4024,7 +4024,7 @@ Sophocles may have had some other source, epic or lyric. But it seems equally po
 ## 1283
 **αὐτὸς**, ‘by himself,’ ‘alone’: cp. Ar. *Ach.* 504 αὐτοὶ γάρ ἐσμεν.— *μόνος μόνου*: though αὐτός has preceded, μόνος is added to emphasise the idea of single combat. Cp. 467 μόνος μόνοις: Dem. or. 18 § 137 τῷ ὑπὸ τῶν πολεμίων πεμφθέντι μόνος μόνῳ συνῄει.
 
-**λαχών τε κἀκέλευστος**: i.e., simply because, among the Greek warriors who had *offered* to meet Hector, he was the one who drew the lot; not because he had been *urged* to undertake the task. λαχών implies ἑκών, since lots were drawn only for those who had volunteered.
+**λαχών τε κἀκέλευστος**: *i.e.*, simply because, among the Greek warriors who had *offered* to meet Hector, he was the one who drew the lot; not because he had been *urged* to undertake the task. λαχών implies ἑκών, since lots were drawn only for those who had volunteered.
 
 This combat between Hector and Ajax is told in *Iliad* 7. 38—312. Hector having challenged a Greek champion, nine Greek chiefs offered themselves; lots were cast, and the honour fell to Ajax. Hector and Ajax fought till nightfall, when they were parted by heralds, and exchanged gifts (1029 n.).
 
@@ -4036,12 +4036,12 @@ This combat between Hector and Ajax is told in *Iliad* 7. 38—312. Hector havin
 **κυνῆς**: *Il.* 7. 182 ἐκ δ' ἔθορεν κλῆρος κυνέης, ὃν ἄρ' ἤθελον αὐτοί, | Αἴαντος.— *ἅλμα κουφιεῖν*=ἅλμα κοῦφον ἁλεῖσθαι. Cp. Eur. *El.* 860 οὐράνιον | πήδημα κουφίζουσα.
 
 ## 1288
-**σὺν δ' ἐγὼ παρών**. ταῦτα includes the combat with Hector, in which Teucer, of course, had no part; but he was the comrade of Ajax in the τειχομαχία ( *Il.* 15. 436 ff.), as often on other occasions (e.g., *Il.* 7. 266 ff.). For **σὺν** as adv., cp. 959.
+**σὺν δ' ἐγὼ παρών**. ταῦτα includes the combat with Hector, in which Teucer, of course, had no part; but he was the comrade of Ajax in the τειχομαχία ( *Il.* 15. 436 ff.), as often on other occasions (*e.g.*, *Il.* 7. 266 ff.). For **σὺν** as adv., cp. 959.
 
 **ὁ δοῦλος**: cp. 1260.
 
 ## 1290
-**δύστηνε**: cp. 1203 δύσμορος.— *ποῖ βλέπων*, ‘whither canst thou be looking?’ i.e., ‘how canst thou be so blind?’ [Not: ‘*in reliance on* what?’—like εἰς ὅ τι βλέπω in 514.] We should distinguish this *ποῖ* βλέπων from *πῶς* βλέπων, ‘with what face?’ ( *Ph.* 110: *O.T.* 1371 ὄμμασιν ποίοις βλέπων).
+**δύστηνε**: cp. 1203 δύσμορος.— *ποῖ βλέπων*, ‘whither canst thou be looking?’ *i.e.*, ‘how canst thou be so blind?’ [Not: ‘*in reliance on* what?’—like εἰς ὅ τι βλέπω in 514.] We should distinguish this *ποῖ* βλέπων from *πῶς* βλέπων, ‘with what face?’ ( *Ph.* 110: *O.T.* 1371 ὄμμασιν ποίοις βλέπων).
 
 **καὶ θροεῖς**: καί emphasizes the verb: ‘how *canst* thou utter the words?’ Cp. *O.T.* 1129 ποῖον ἄνδρα καὶ λέγεις; Lys. or. 12 § 29 παρὰ τοῦ ποτε καὶ λήψεσθε δίκην;
 
@@ -4096,18 +4096,18 @@ Construe: οὐκ οἶσθα ἀρχαῖον Πέλοπα, ὃς σοῦ πα�
 **τοὺς πρὸς αἵματος**: cp. *El.* 1125 ἢ φίλων τις ἢ πρὸς αἵματος (n.). Agamemnon had told Teucer to bring some free man to plead the cause of Ajax (1260 f.). Teucer asks, ‘Why should it dishonour Ajax to have his cause pleaded by the son of Telamon and Hesionè?’ For the allusive plur., cp. 734, 1092.
 
 ## 1306 f.
-**τοιοῖσδ' ἐν πόνοισι κειμένους**, ‘laid low (dead), amidst such troubles,’—i.e., self-slain, under circumstances of such horror. For κειμένους cp. *Ant.* 1174 καὶ τίς φονεύει; τίς δ' ὁ κείμενος;
+**τοιοῖσδ' ἐν πόνοισι κειμένους**, ‘laid low (dead), amidst such troubles,’—*i.e.*, self-slain, under circumstances of such horror. For κειμένους cp. *Ant.* 1174 καὶ τίς φονεύει; τίς δ' ὁ κείμενος;
 
 **ὠθεῖς**: cp. 1064 ἀμφὶ χλωρὰν ψάμαθον ἐκβεβλημένος.
 
-**οὐδ' ἐπαισχύνει λέγων**, sc. ὅτι ὠθεῖς. Agamemnon had not expressly repeated the prohibition of burial, but the whole drift of his speech was to confirm the doom pronounced by Menelaüs. It seems strange, then, that λέγων should have been so much suspected (cr. n.).—Cp. *Ph.* 929 οὐδ' ἐπαισχύνει μ' ὁρῶν.
+**οὐδ' ἐπαισχύνει λέγων**, *sc.* ὅτι ὠθεῖς. Agamemnon had not expressly repeated the prohibition of burial, but the whole drift of his speech was to confirm the doom pronounced by Menelaüs. It seems strange, then, that λέγων should have been so much suspected (cr. n.).—Cp. *Ph.* 929 οὐδ' ἐπαισχύνει μ' ὁρῶν.
 
 ## 1308 f.
 **βαλεῖτέ που**. Though ποι would better bring out the notion of ‘casting *forth*,’ που is also correct; cp. *Ph.* 481 ἐμβαλοῦ μ' ὅπῃ θέλεις (not ὅποι, though εἰς ἀντλίαν etc. follows).
 
 **χἡμᾶς τρεῖς**, Tecmessa, Eurysaces, and himself; all three are ready to perish in defence of the corpse. The child is still kneeling as a suppliant beside the body, and clinging to it (1180); his mother is near him. A scholiast in L understands the ‘three’ to be Agamemnon, Menelaüs, and Teucer— a theory which the word ἡμᾶς itself refutes. One of the later scholia, however, gives the right explanation.
 
-**συγκειμένους**, i.e. prostrate in death at his side (cp. 1306).
+**συγκειμένους**, *i.e.* prostrate in death at his side (cp. 1306).
 
 ## 1310 ff.
 **καλόν μοι**, as in *Ant.* 72 θάψω· καλόν μοι τοῦτο ποιούσῃ θανεῖν.— *ὑπερπονουμένῳ*: the only instance of this compound in the middle (as προπονουμένας in *O. T.* 685 is also unique). The active ὑπερπονεῖν occurs in *O. C.* 345.— **προδήλως**: cp. 229 περίφαντος..θανεῖται. It is better to die in making a public protest against the wrong to Ajax, than to fall in battle for Helen's sake.
@@ -4123,7 +4123,7 @@ For **ἢ … λέγω** (subjunct.), cp. Aesch. *Cho.* 1073 νῦν δ' αὖ �
 **ἐν ἐμοί**: cp. 1092 ἐν θανοῦσιν ὑβριστής.
 
 ## 1316
-**καιρὸν**, adv.: 34 f.—The sense of **ξυνάψων** here is shown by that of **συλλύσων**: i.e., the one means ‘to help in tying a knot’; the other, ‘to help in loosing it.’ ‘If thou hast come, not *to make the tangle worse*—not to embroil the feud—but to aid in solving it.’ συνάπτειν is also said of bringing opponents *into conflict;* *Suppl.* 479 ἐλπὶς βροτοῖς κάκιστον, ἣ πολλὰς πόλεις | ξυνῆψε: but here the metaphor is from a knot. Our word ‘embroil’ exactly fits συνάπτειν here, since its primary sense is ‘to entangle’ or ‘perplex’ (*embrouiller*, *imbrogliare*). (The phrase in *Ant.* 40 λύουσ' ..ἢ ʼφάπτουσα cannot properly be compared: see n. there.)
+**καιρὸν**, adv.: 34 f.—The sense of **ξυνάψων** here is shown by that of **συλλύσων**: *i.e.*, the one means ‘to help in tying a knot’; the other, ‘to help in loosing it.’ ‘If thou hast come, not *to make the tangle worse*—not to embroil the feud—but to aid in solving it.’ συνάπτειν is also said of bringing opponents *into conflict;* *Suppl.* 479 ἐλπὶς βροτοῖς κάκιστον, ἣ πολλὰς πόλεις | ξυνῆψε: but here the metaphor is from a knot. Our word ‘embroil’ exactly fits συνάπτειν here, since its primary sense is ‘to entangle’ or ‘perplex’ (*embrouiller*, *imbrogliare*). (The phrase in *Ant.* 40 λύουσ' ..ἢ ʼφάπτουσα cannot properly be compared: see n. there.)
 
 *1318 f.* The conciliatory temper of Odysseus is marked at once by the courteous form of address, ἄνδρες,—by the honourable patronymic Ἀτρειδῶν,—and by the designation of Ajax as ἄλκιμος.
 
@@ -4137,14 +4137,14 @@ For **ἢ … λέγω** (subjunct.), cp. Aesch. *Cho.* 1073 νῦν δ' αὖ �
 **ἀρτίως** is joined with the present tense as in *El.* 347 λέγεις..ἀρτίως (‘you have just been saying’).
 
 ## 1323
-**φλαῦρα**. In phrases denoting censure or disparagement, writers of the classical age regularly use the form φλαῦρος, not φαῦλος: e.g., Her. 7. 10 § 7 φλαύρως ἀκούειν: *Nub.* 834 καὶ μηδὲν εἴπῃς φλαῦρον ἄνδρας δεξιούς, *Lys.* 1044 φλαῦρον εἰπεῖν οὐδεέν: Antiphon or. 5 § 30 οὗτος μὲν οὐδὲν εἶπε περὶ ἐμοῦ φλαῦρον: Xen. *Cyr.* 8. 2. 12 μνησθῆναι..περὶ Κύρου φλαῦρόν τι: Isocr. or. 5 § 76 οὐδὲν ἂν λέγοι περὶ αὐτοῦ φλαῦρον: Dem. or. 20 § 13 οὐκ οἶδα οὐδὲ λέγω φλαῦρον οὐδέν, ib. § 102 οὐδὲν γὰρ φλαῦρον ἐρῶ δε: or. 21 § 208 περὶ ὧν οὐδὲν ἂν εἴποιμι πρὸς ὑμᾶς φλαῦρον ἐγώ: or. 22 § 12 ἵνα μηδὲν εἴπω φλαῦρον.
+**φλαῦρα**. In phrases denoting censure or disparagement, writers of the classical age regularly use the form φλαῦρος, not φαῦλος: *e.g.*, Her. 7. 10 § 7 φλαύρως ἀκούειν: *Nub.* 834 καὶ μηδὲν εἴπῃς φλαῦρον ἄνδρας δεξιούς, *Lys.* 1044 φλαῦρον εἰπεῖν οὐδεέν: Antiphon or. 5 § 30 οὗτος μὲν οὐδὲν εἶπε περὶ ἐμοῦ φλαῦρον: Xen. *Cyr.* 8. 2. 12 μνησθῆναι..περὶ Κύρου φλαῦρόν τι: Isocr. or. 5 § 76 οὐδὲν ἂν λέγοι περὶ αὐτοῦ φλαῦρον: Dem. or. 20 § 13 οὐκ οἶδα οὐδὲ λέγω φλαῦρον οὐδέν, *ib.* § 102 οὐδὲν γὰρ φλαῦρον ἐρῶ δε: or. 21 § 208 περὶ ὧν οὐδὲν ἂν εἴποιμι πρὸς ὑμᾶς φλαῦρον ἐγώ: or. 22 § 12 ἵνα μηδὲν εἴπω φλαῦρον.
 
 **συμβαλεῖν ἔπη κακά**, to pit taunts against taunts, like συμβάλλειν μάχην, ἔριν ( Eur. *Med.* 522), etc. Cp. Eur. *I.A.* 830 αἰσχρὸν δέ μοι γυναιξὶ συμβάλλειν λόγους.
 
 **κακά**, instead of repeating φλαῦρα: cp. 22 n.: *O.C.* 1501 σαφὴς μὲν ἀστῶν, ἐμφανὴς δὲ τοῦ ξένου.
 
 ## 1324
-**ἤκουσεν αἰσχρά**: so *Ph.* 607 ὁ πάντ' ἀκούων αἰσχρὰ καὶ λωβήτ' ἔπη.— *δρῶν γὰρ ἦν τοιαῦτά με*: i.e., αἰσχρὰ ἔλεγέ με, since ἤκουσεν αἰσχρά implies ἐγὼ αἰσχρὰ ἔλεγον αὐτόν.
+**ἤκουσεν αἰσχρά**: so *Ph.* 607 ὁ πάντ' ἀκούων αἰσχρὰ καὶ λωβήτ' ἔπη.— *δρῶν γὰρ ἦν τοιαῦτά με*: *i.e.*, αἰσχρὰ ἔλεγέ με, since ἤκουσεν αἰσχρά implies ἐγὼ αἰσχρὰ ἔλεγον αὐτόν.
 
 ## 1325
 **ὥστε καὶ βλάβην ἔχειν** (σε), so that you have actually been injured: cp. Aesch. *Eum.* 799 ὡς ταῦτ' Ὀρέστην δρῶντα μὴ βλάβας ἔχειν.—Not: ‘What has he done so bad that it is fraught with harm?’ (like Eur. *Ion* 1350 ἔχει δέ μοι τί κέρδος ἢ τίνα βλάβην;)
@@ -4160,7 +4160,7 @@ For **ἢ … λέγω** (subjunct.), cp. Aesch. *Cho.* 1073 νῦν δ' αὖ �
 For the metaphor, cp. *Ant.* 541 ξύμπλουν (n.). In Aesch. *Ag.* 842 the king says of Odysseus, ζευχθεὶς ἕτοιμος ἦν ἐμοὶ σειραφόρος.
 
 ## 1330
-**ἦ γὰρ εἴην οὐκ ἂν εὖ φρονῶν**, sc. εἰ μὴ ἐξείη σοι εἰπεῖν. For the elliptical use of οὐ γάρ, cp. *O. T.* 82, O. T. 318 (and Append. to *O. T.*, p. 221): I. Thuc. 11. § 4 δῆλον δέ (sc. ὅτι μάχῃ ἐκράτησαν)· τὸ γὰρ ἔρυμα..οὐκ ἂν ἐτειχίσαντο.—For the place of **οὐκ** after εἴην, cp. 1140.
+**ἦ γὰρ εἴην οὐκ ἂν εὖ φρονῶν**, *sc.* εἰ μὴ ἐξείη σοι εἰπεῖν. For the elliptical use of οὐ γάρ, cp. *O. T.* 82, O. T. 318 (and Append. to *O. T.*, p. 221): I. Thuc. 11. § 4 δῆλον δέ (*sc.* ὅτι μάχῃ ἐκράτησαν)· τὸ γὰρ ἔρυμα..οὐκ ἂν ἐτειχίσαντο.—For the place of **οὐκ** after εἴην, cp. 1140.
 
 ## 1331
 **φίλον … μέγιστον**, as in *Ph.* 585 οὗτος δέ μοι | φίλος μέγιστος: *El.* 46 μέγιστος..δορυξένων.
@@ -4189,10 +4189,10 @@ For the metaphor, cp. *Ant.* 541 ξύμπλουν (n.). In Aesch. *Ag.* 842 the 
 **ἕν' ἄνδρ' … ἄριστον**: cp. *Ph.* 1344 Ἑλλήνων ἕνα | κριθέντ' ἄριστον. See also *O. T.* 1380 (n.), *O.C.* 563 (n.).
 
 ## 1341
-**πλὴν Ἀχιλλέως**. The rank of heros ab Achille secundus (Hor. *Sat.* 2. 3. 193) is ascribed to Ajax in the *Iliad* (2. 768 f., 17. 279 f.), and by later poets; Alcaeus fr. 48 Αἴαν, τὸν ἄριστον πέδ' Ἀχίλλεα: Pind. *N.* 7. 27 κράτιστον Ἀχιλλέος ἄτερ.
+**πλὴν Ἀχιλλέως**. The rank of *heros ab Achille secundus* (Hor. *Sat.* 2. 3. 193) is ascribed to Ajax in the *Iliad* (2. 768 f., 17. 279 f.), and by later poets; Alcaeus fr. 48 Αἴαν, τὸν ἄριστον πέδ' Ἀχίλλεα: Pind. *N.* 7. 27 κράτιστον Ἀχιλλέος ἄτερ.
 
 ## 1343
-**τοὺς θεῶν νόμους**. The injury done will not be to the senseless clay, but rather to the νέρτεροι θεοί, to whom the dead belong ( *Ant.* 1070), and to their unwritten laws, ‘which live for ever’ (ib. 456). Cp. 1129 f.
+**τοὺς θεῶν νόμους**. The injury done will not be to the senseless clay, but rather to the νέρτεροι θεοί, to whom the dead belong ( *Ant.* 1070), and to their unwritten laws, ‘which live for ever’ (*ib.* 456). Cp. 1129 f.
 
 ## 1344
 **τὸν ἐσθλὸν ἄνδρα** is object to βλάπτειν. Some take τὸν ἐσθλὸν as subject, and ἄνδρα alone as object. But (*a*) the *merit* of the dead man comes into account here; cp. 1355: and (*b*) οὐ δίκαιον puts the precept on the broadest ground; it is not merely a point of honour for the ἐσθλός.
@@ -4205,7 +4205,7 @@ For the metaphor, cp. *Ant.* 541 ξύμπλουν (n.). In Aesch. *Ag.* 842 the 
 ## 1347
 **ἔγωγʼ·** cp. 104.
 
-**ἡνίκ' ἦν μισεῖν καλόν**: i.e., while he was a living and a sane foe. Even before his death, the demented Ajax had won the pity of Odysseus (121).
+**ἡνίκ' ἦν μισεῖν καλόν**: *i.e.*, while he was a living and a sane foe. Even before his death, the demented Ajax had won the pity of Odysseus (121).
 
 ## 1348
 **οὐ γὰρ**: cp. 1320.
@@ -4226,7 +4226,7 @@ For the metaphor, cp. *Ant.* 541 ξύμπλουν (n.). In Aesch. *Ag.* 842 the 
 **τιμὰς νέμειν**: for the plur., cp. *El.* 355 τῷ τεθνηκότι | τιμὰς προσάπτειν (where the sense is simply ‘to honour,’ not, ‘to render rites’).
 
 ## 1352
-**κλύειν τὸν ἐσθλὸν ἄνδρα**: i.e. ‘An ἐσθλὸς ἀνήρ, such as thou art, ought to defer to his king, instead of seeking to overrule him.’ The words seem also to glance at the alleged disloyalty of Ajax. Cp. *Ant.* 666 ἀλλ' ὃν πόλις στήσειε, τοῦδε χρὴ κλύειν. *Ph.* 925 τῶν γὰρ ἐν τέλει κλύειν | τό τ' ἔνδικόν με καὶ τὸ συμφέρον ποεῖ.—For **τῶν ἐν τέλει**, see *Ant.* 67 n.
+**κλύειν τὸν ἐσθλὸν ἄνδρα**: *i.e.* ‘An ἐσθλὸς ἀνήρ, such as thou art, ought to defer to his king, instead of seeking to overrule him.’ The words seem also to glance at the alleged disloyalty of Ajax. Cp. *Ant.* 666 ἀλλ' ὃν πόλις στήσειε, τοῦδε χρὴ κλύειν. *Ph.* 925 τῶν γὰρ ἐν τέλει κλύειν | τό τ' ἔνδικόν με καὶ τὸ συμφέρον ποεῖ.—For **τῶν ἐν τέλει**, see *Ant.* 67 n.
 
 ## 1353
 **παῦσαι** is said in a gentle and kindly tone; ‘Be content; you have the best of it,—it is your own true interest that prevails,—when you allow yourself to be overruled by a prudent friend.’ Cp. 330, 484: Aesch. *Ag.* 941 ΚΛ. τοῖς δ' ὀλβίοις γε καὶ τὸ νικᾶσθαι πρέπει. | ΑΓ. ἦ καὶ σὺ νίκην τήνδε δήριος τίεις; | ΚΛ. πιθοῦ· κρατεῖς μέντοι παρεὶς ἑκὼν ἐμοί [vulg. κράτος..πάρες γʼ]. Isocr. or. 9 § 44 πολλὰ μὲν τῶν χρωμένων ἡττώμενος (often yielding to his familiar friends), πάντα δὲ τῶν ἐχθρῶν περιγιγνόμενος.— *τῶν φίλων*: for the gen., cp. Eur. *Med.* 315 κρεισσόνων νικώμενοι: *Nub.* 1087 ἢν τοῦτο νικηθῇς ἐμοῦ.
@@ -4243,14 +4243,14 @@ For the metaphor, cp. *Ant.* 541 ξύμπλουν (n.). In Aesch. *Ag.* 842 the 
 It is very improbable that the text is corrupt. The context in verses 1355 f. at once proves that the words ἁρετή and ἔχθρας are genuine; and the article before ἀρετή confirms τῆς. As νικᾷ also is presumably sound, the fault, if any, would have to be sought in πολύ, for which neither πλέον nor πάρος is a tolerable substitute; or else in με. Now in a reply to the question, ἐχθρὸν ὧδ' αἰδεῖ νέκυν; we should expect some reference by Odysseus to his own feeling; and v. 1358 (τοιοίδε μέντοι φῶτες κ.τ.λ.) further indicates that in the preceding verse he actually did refer to himself. Hence the only correction of με which would solve the difficulty of the genitive, viz. τὰ, is unsatisfactory.
 
 ## 1358
-**τοιοίδε**..**φῶτες … βροτῶν**: ‘such men, however, are the unstable of mankind’;—such, namely, as relent like Odysseus. **βροτῶν**, L's reading, is strongly confirmed by the exactly similar pleonasm in *O. C.* 280 f., φυγὴν δέ του | μήπω γενέσθαι φωτὸς ἀνοσίου βροτῶν. Cp. also *Od.* 17. 587 οὐ γάρ πώ τινες ὧδε καταθνητῶν ἀνθρώπων | ἀνέρες κ.τ.λ.: 23. 187 ἀνδρῶν δ' οὔ κέν τις ζωὸς βροτός. The v.l. **βροτοῖς** would be an ethic dat., ‘in men's judgment’ (cp. 1363). It has more point than its rival: but this seems a case in which a tenable reading, with the stronger evidence on its side, should be preferred to a more attractive variant.
+**τοιοίδε**..**φῶτες … βροτῶν**: ‘such men, however, are the unstable of mankind’;—such, namely, as relent like Odysseus. **βροτῶν**, L's reading, is strongly confirmed by the exactly similar pleonasm in *O. C.* 280 f., φυγὴν δέ του | μήπω γενέσθαι φωτὸς ἀνοσίου βροτῶν. Cp. also *Od.* 17. 587 οὐ γάρ πώ τινες ὧδε καταθνητῶν ἀνθρώπων | ἀνέρες κ.τ.λ.: 23. 187 ἀνδρῶν δ' οὔ κέν τις ζωὸς βροτός. The *v.l.* **βροτοῖς** would be an ethic dat., ‘in men's judgment’ (cp. 1363). It has more point than its rival: but this seems a case in which a tenable reading, with the stronger evidence on its side, should be preferred to a more attractive variant.
 
 **ἔμπληκτοι** (from ἐμπλήσσω, to ‘rush’ or ‘dash’ in), ‘impulsive,’ with the notion of ‘inconstant’: Eur. *Tro.* 1205 (αἱ τύχαι) ἔμπληκτος ὡς ἄνθρωπος, ἄλλοτ' ἄλλοσε | πηδῶσι. *Lys.* 214 C μηδέποτε ὁμοίους μηδ' αὐτοὺς αὑτοῖς εἶναι, ἀλλ' ἐμπλήκτους τε καὶ ἀσταθμήτους. *Eumenes* 3 ἔμπληκτον ὄντα καὶ φορᾶς μεστὸν ἀβεβαίου καὶ ὀξείας.
 
 ## 1359
 **καὖθις**: αὖθις=‘afterwards,’ as in *Tr.* 270, *Ant.* 1204.
 
-**πικροί**, infensi: Aesch. *Cho.* 234 τοὺς φιλτάτους γὰρ οἶδα νῷν ὄντας πικρούς. Cp. *O.C.* 615 τὰ τερπνὰ πικρὰ γίγνεται καὖθις φίλα: and above, 679 ff.
+**πικροί**, *infensi:* Aesch. *Cho.* 234 τοὺς φιλτάτους γὰρ οἶδα νῷν ὄντας πικρούς. Cp. *O.C.* 615 τὰ τερπνὰ πικρὰ γίγνεται καὖθις φίλα: and above, 679 ff.
 
 Odysseus is here replying to the taunt that he is ἔμπληκτος, inconstant. ‘It is common enough for friendship to turn into bitterness. When, therefore, I forget the later enmity of Ajax, and remember only his good service, I am merely condoning a very ordinary change.’ There is also a gentle hint that Agamemnon, who had professed so much φιλία (1331), is becoming a little πικρός.
 
@@ -4268,17 +4268,17 @@ Odysseus is here replying to the taunt that he is ἔμπληκτος, inconstan
 **τῇδε θἡμέρᾳ**: 756 n. He is now ready to yield, and hesitates only from fear of public opinion.
 
 ## 1363
-**μὲν οὖν**, immo: *O. T.* 705.
+**μὲν οὖν**, *immo*: *O. T.* 705.
 
 **Ἑλλησι**, ethic dat.: 1282 (n.).
 
 ## 1365
 **ἔγωγε**: cp. 104, 1347.
 
-**ἐνθάδʼ** **ἵξομαι**, sc. τὸ θάπτεσθαι. Cp. *O. T.* 1158 ἀλλ' εἰς τόδ' ἥξεις, sc. εἰς τὸ ὀλέσθαι. Eur. *H. F.* 1356 ἐς τοῦθ' ἱκέσθαι, δάκρυʼ ἀπ' ὀμμάτων βαλεῖν. Here **ἐνθάδε**=ἐκεῖσε: cp. Soph. *Ph.* 304 οὐκ ἐνθάδ' οἱ πλοῖ (=δεῦρο).
+**ἐνθάδʼ** **ἵξομαι**, *sc.* τὸ θάπτεσθαι. Cp. *O. T.* 1158 ἀλλ' εἰς τόδ' ἥξεις, *sc.* εἰς τὸ ὀλέσθαι. Eur. *H. F.* 1356 ἐς τοῦθ' ἱκέσθαι, δάκρυʼ ἀπ' ὀμμάτων βαλεῖν. Here **ἐνθάδε**=ἐκεῖσε: cp. Soph. *Ph.* 304 οὐκ ἐνθάδ' οἱ πλοῖ (=δεῦρο).
 
 ## 1366
-**ἦ πάνθ' ὅμοια**. Many editors place a colon after ὅμοια, explaining the phrase as a proverb: ‘It is always so: every man works for himself.’ One of the later scholia gives this view: ὄντως πάντα τὰ ἀνθρώπινα ὅμοια· πᾶς γὰρ ἄνθρωπος τὴν ἑαυτοῦ πραγματεύεται σωτηρίαν. (Cp. Terence *Phormio* 264 ecce autem similia omnia: omnes congruont etc.) This may be right; but the somewhat homely proverb seems rather too abrupt here for Sophocles. I still prefer the simpler view that ὅμοια is adverbial: ‘in all things alike every man works for himself.’ Even in the matter of giving burial to another man a selfish motive enters. For **αὑτῷ** as dat. of interest with **πονεῖ**, cp. *H.F.* 388 Μυκηναίῳ πονῶν τυράννῳ.—Some understand, ‘every man does deeds like himself,’—works in his characteristic way,—meaning that Odysseus is, as usual, φίλαυτος. This seems too artificial.
+**ἦ πάνθ' ὅμοια**. Many editors place a colon after ὅμοια, explaining the phrase as a proverb: ‘It is always so: every man works for himself.’ One of the later scholia gives this view: ὄντως πάντα τὰ ἀνθρώπινα ὅμοια· πᾶς γὰρ ἄνθρωπος τὴν ἑαυτοῦ πραγματεύεται σωτηρίαν. (Cp. Terence *Phormio* 264 *ecce autem similia omnia: omnes congruont* etc.) This may be right; but the somewhat homely proverb seems rather too abrupt here for Sophocles. I still prefer the simpler view that ὅμοια is adverbial: ‘in all things alike every man works for himself.’ Even in the matter of giving burial to another man a selfish motive enters. For **αὑτῷ** as dat. of interest with **πονεῖ**, cp. *H.F.* 388 Μυκηναίῳ πονῶν τυράννῳ.—Some understand, ‘every man does deeds like himself,’—works in his characteristic way,—meaning that Odysseus is, as usual, φίλαυτος. This seems too artificial.
 
 ## 1367
 **τῷ γάρ με μᾶλλον** κ.τ.λ. Odysseus frankly accepts the imputation of selfishness, which helps his cause by making the favour seem done to *him.* Cp. *Ant.* 736 ἄλλῳ γὰρ ἢ ʼμοὶ χρή με τῆσδ' ἄρχειν χθονός;
@@ -4287,7 +4287,7 @@ Odysseus is here replying to the taunt that he is ἔμπληκτος, inconstan
 **σὸν** appears better than **σόν γʼ** here: the σὸν γὰρ ἄρα in a few of the inferior MSS. was probably a conjectural attempt to restore the metre, when ἆρα had become ἄρα.
 
 ## 1369
-**ὡς ἂν ποήσῃς**, i.e., whether you make the deed your own, or merely consent to others doing it. For ὡς ἂν, ‘in whatever way,’ cp. *Legg.* 881 D κολαζόντων αὐτὸν..ὡς ἂν ἐθέλωσι: *Symp.* 181 A ἐν τῇ πράξει, ὡς ἂν πραχθῇ, τοιοῦτο ἀπέβη: *Crat.* 424 E ὡς ἄν, οἶμαι, δοκῇ ἑκάστη ἡ εἰκὼν δεῖσθαι ἑκάστου φαρμάκου. Apoll. Rhod. 2. 345 καὶ τὰ μὲν ὥς κε πέλῃ, τὼς ἔσσεται. Elsewhere in Sophocles ὡς ἄν=‘in order that’: 655; *O. T.* 329; *O.C.* 72; *Ant.* 215; *Ph.* 129, Ph. 826; fr. 816; fr. 1019. 11.
+**ὡς ἂν ποήσῃς**, *i.e.*, whether you make the deed your own, or merely consent to others doing it. For ὡς ἂν, ‘in whatever way,’ cp. *Legg.* 881 D κολαζόντων αὐτὸν..ὡς ἂν ἐθέλωσι: *Symp.* 181 A ἐν τῇ πράξει, ὡς ἂν πραχθῇ, τοιοῦτο ἀπέβη: *Crat.* 424 E ὡς ἄν, οἶμαι, δοκῇ ἑκάστη ἡ εἰκὼν δεῖσθαι ἑκάστου φαρμάκου. Apoll. Rhod. 2. 345 καὶ τὰ μὲν ὥς κε πέλῃ, τὼς ἔσσεται. Elsewhere in Sophocles ὡς ἄν=‘in order that’: 655; *O. T.* 329; *O.C.* 72; *Ant.* 215; *Ph.* 129, Ph. 826; fr. 816; fr. 1019. 11.
 
 **πανταχῇ**, ‘in every case’: cp. 1241; *Ant.* 634 πανταχῇ δρῶντες, ‘however we act’ (n.).
 
@@ -4303,7 +4303,7 @@ Odysseus is here replying to the taunt that he is ἔμπληκτος, inconstan
 **χρῇς**. For χρῇ, χρῇς, see on *Ant.* 887 εἴτε χρῇ θανεῖν | εἴτ' ἐν τοιαύτῃ ζῶσα τυμβεύειν στέγῃ (where ζῶσα excludes χρή). Here, as in *El.* 606 κήρυσσέ μ' εἰς ἅπαντας, εἴτε χρῇς κακήν, χρή is not impossible, but is so much less suitable than χρῇς that the latter may be considered certain.
 
 ## 1376
-**τἀπὸ τοῦδʼ**=τὸ ἀπὸ τοῦδε: so Thuc. 2. 15 § 2 τὸ..πρὸ τούτου (‘formerly’): Plat. *Gorg.* 512 E τὸ ἐπὶ τούτῳ (‘next’).— **ἀγγέλλομαι** (midd.)...**εἶναι φίλος**, announce that I am ready to be a friend. This use of the simple verb does not occur elsewhere; but cp. Eur. *Heracl.* 531 κἀξαγγέλλομαι | θνῄσκειν, ‘offer to die.’ In *O. T.* 148 ἐξαγγέλλεται (with acc.)=to offer a thing spontaneously. The ordinary word in this sense was ἐπαγγέλλομαι.— *τότʼ*, olim: 650 n.
+**τἀπὸ τοῦδʼ**=τὸ ἀπὸ τοῦδε: so Thuc. 2. 15 § 2 τὸ..πρὸ τούτου (‘formerly’): Plat. *Gorg.* 512 E τὸ ἐπὶ τούτῳ (‘next’).— **ἀγγέλλομαι** (midd.)...**εἶναι φίλος**, announce that I am ready to be a friend. This use of the simple verb does not occur elsewhere; but cp. Eur. *Heracl.* 531 κἀξαγγέλλομαι | θνῄσκειν, ‘offer to die.’ In *O. T.* 148 ἐξαγγέλλεται (with acc.)=to offer a thing spontaneously. The ordinary word in this sense was ἐπαγγέλλομαι.— *τότʼ*, *olim:* 650 n.
 
 **ἦ**, the older Attic form (for ἔα): *O. T.* 1123.
 
@@ -4315,7 +4315,7 @@ Odysseus is here replying to the taunt that he is ἔμπληκτος, inconstan
 ## 1381
 **ἄριστʼ**: the first word marks his gratitude. (Nauck, however, would change it to ἄναξ.)
 
-**λόγοισι**, causal dat., ‘for thy words.’ Cp. *Tr.* 1127 οὐ δῆτα (sc. σιγᾶν πρέπει) τοῖς γε πρόσθεν ἡμαρτημένοις, ‘in view of her past crimes.’ Thuc. 3. 98 § 5 τοῖς πεπραγμένοις φοβούμενος τοὺς Ἀθηναίους (on account of what had occurred).—The objection to taking λόγοισι as =‘in my *words*’ is that the implied reservation (ἔργοις δέ σε τιμᾶν οὐκ ἔχω) would be premature and ungraceful here. It would foreshadow the exclusion of Odysseus from an active part in the funeral rites (1394).
+**λόγοισι**, causal dat., ‘for thy words.’ Cp. *Tr.* 1127 οὐ δῆτα (*sc.* σιγᾶν πρέπει) τοῖς γε πρόσθεν ἡμαρτημένοις, ‘in view of her past crimes.’ Thuc. 3. 98 § 5 τοῖς πεπραγμένοις φοβούμενος τοὺς Ἀθηναίους (on account of what had occurred).—The objection to taking λόγοισι as =‘in my *words*’ is that the implied reservation (ἔργοις δέ σε τιμᾶν οὐκ ἔχω) would be premature and ungraceful here. It would foreshadow the exclusion of Odysseus from an active part in the funeral rites (1394).
 
 ## 1383
 **ἔψευσας ἐλπίδος**, cheated me of (agreeably disappointed me in) my foreboding: cp. *O. T.* 1432 ἐλπίδος μ' ἀπέσπασας (n.), where, as here, ἐλπὶς is a dark presentiment. Xen. *H.* 7. 5. 24 οὐκ ἐψεύσθη τῆς ἐλπίδος.
@@ -4332,7 +4332,7 @@ Odysseus is here replying to the taunt that he is ἔμπληκτος, inconstan
 **ζῶν**: for the antithesis with θανόντι, cp. *Tr.* 1163 ζῶντά μ' ἔκτεινεν θανών.
 
 ## 1386
-**ὡς … ἠθελησάτην**, instead of ὡς..ἔτλησαν, ἐθέλοντες. Such compression is frequent, esp. after οὐχ ὥσπερ: e.g. Plat. *Gorg.* 522A πεινῆν καὶ διψῆν ἀναγκάζων, οὐχ ὥσπερ ἐγὼ πολλὰ καὶ ἡδέα καὶ παντοδαπὰ εὐώχουν ὑμᾶς: Plat. *Symp.* 179E ἐποίησαν τὸν θάνατον αὐτοῦ ὑπὸ γυναικῶν γενέσθαι, οὐχ ὥσπερ Ἀχιλλέα τὸν τῆς Θέτιδος υἱὸν ἐτίμησαν.
+**ὡς … ἠθελησάτην**, instead of ὡς..ἔτλησαν, ἐθέλοντες. Such compression is frequent, esp. after οὐχ ὥσπερ: *e.g.* Plat. *Gorg.* 522A πεινῆν καὶ διψῆν ἀναγκάζων, οὐχ ὥσπερ ἐγὼ πολλὰ καὶ ἡδέα καὶ παντοδαπὰ εὐώχουν ὑμᾶς: Plat. *Symp.* 179E ἐποίησαν τὸν θάνατον αὐτοῦ ὑπὸ γυναικῶν γενέσθαι, οὐχ ὥσπερ Ἀχιλλέα τὸν τῆς Θέτιδος υἱὸν ἐτίμησαν.
 
 **οὑπιβρόντητος**, crazy with arrogance (cp. 1225 σκαιὸν). Dem. or. 19 § 231 (ἡγοῦντο) ἐμβεβροντῆσθαι, they thought him crazed: id. or. 18 § 243 ἐμβρόντητε, εἶτα νῦν λέγεις; Ar. *Eccl.* 793 ὠμβρόντητε σύ. Xen. *An.* 3. 4. 12 (of a besieged city) Ζεὺς δὲ ἐμβροντήτους ποιεῖ τοὺς ἐνοικοῦντας, καὶ οὕτως ἑάλω. *P.V.* 361 (of Typhon) φρένας γὰρ εἰς αὐτὰς τυπεὶς | ἐφεψαλώθη κἀξεβροντήθη σθένος. (The form ἐπιβρόντητος occurs only here.)
 
@@ -4373,7 +4373,7 @@ On the other hand, Odysseus is at liberty to assist in protecting the funeral fr
 **καθ' ἡμᾶς**, in regard to us; Her. 7. 158 τό τε κατ' ὑμέας (‘as far as you are concerned’): Eur. *Andr.* 740 κἂν..τὸ λοιπὸν ᾖ | σώφρων καθ' ἡμᾶς, σώφρον' ἀντιλήψεται.
 
 ## 1400
-**ἀλλ' ἤθελον μέν**: sc. ἐξεῖναί μοι συνθάπτειν. This impf. (without ἄν) states a wish which has not been fulfilled; i.e., a wish that something were now true which is not true. It is usually joined with μέν (implying the contrast with the actual fact): so Ar. *Ran.* 866 ἐβουλόμην μὲν οὐκ ἐρίζειν ἐνθάδε (‘I would that I were not contending here—as I am’): Andoc. or. 5 § 1 ἐβουλόμην μέν, ὦ ἄνδρες, τὴν δύναμιν τοῦ λέγειν..ἐξἴσου μοι καθεστάναι τῇ..συμφορᾷ: Isae. or. 10 § 1 ἐβουλόμην μέν, ὦ ἄνδρες,..τἀληθῆ πρὸς ὑμᾶς..εἰπεῖν δυνηθῆναι: Aeschin. or. 3 § 2 ἐβουλόμην μὲν οὖν, ὦ Ἀθηναῖοι, καὶ τὴν βουλὴν..ὀρθῶς διοικεῖσθαι. So μάλιστα μὲν ἐβουλόμην, Isae. fr. 4 (Scheibe). This usage is analogous to that of the impers. ἔδει, χρῆν, etc., with inf. ( *O. T.* 256 n.). On the other hand, ἤθελον ἄν (88 n.), ἐβουλόμην ἄν, with inf., means that the wish would have been (or would now be) formed, if it had not been (or were not now) vain to form it.
+**ἀλλ' ἤθελον μέν**: *sc.* ἐξεῖναί μοι συνθάπτειν. This impf. (without ἄν) states a wish which has not been fulfilled; *i.e.*, a wish that something were now true which is not true. It is usually joined with μέν (implying the contrast with the actual fact): so Ar. *Ran.* 866 ἐβουλόμην μὲν οὐκ ἐρίζειν ἐνθάδε (‘I would that I were not contending here—as I am’): Andoc. or. 5 § 1 ἐβουλόμην μέν, ὦ ἄνδρες, τὴν δύναμιν τοῦ λέγειν..ἐξἴσου μοι καθεστάναι τῇ..συμφορᾷ: Isae. or. 10 § 1 ἐβουλόμην μέν, ὦ ἄνδρες,..τἀληθῆ πρὸς ὑμᾶς..εἰπεῖν δυνηθῆναι: Aeschin. or. 3 § 2 ἐβουλόμην μὲν οὖν, ὦ Ἀθηναῖοι, καὶ τὴν βουλὴν..ὀρθῶς διοικεῖσθαι. So μάλιστα μὲν ἐβουλόμην, Isae. fr. 4 (Scheibe). This usage is analogous to that of the impers. ἔδει, χρῆν, etc., with inf. ( *O. T.* 256 n.). On the other hand, ἤθελον ἄν (88 n.), ἐβουλόμην ἄν, with inf., means that the wish would have been (or would now be) formed, if it had not been (or were not now) vain to form it.
 
 ## 1401
 **ἐπαινέσας**: cp. Ar. *Av.* 1616 ἐπαινεῖ χοὗτος (‘assents’): Thuc. 4. 65 § 2 ἐπαινεσάντων δὲ αὐτῶν ἐποιοῦντο τὴν ὁμολογίαν. So αἰνεῖν in poetry, as Aesch. *Eum.* 469 πράξας γὰρ ἐν σοὶ πανταχῇ τάδ' αἰνέσω.
@@ -4393,21 +4393,21 @@ On the other hand, Odysseus is at liberty to assist in protecting the funeral fr
 **ταχύνετε** has better MS. authority than ταχύνατε. The latter may, indeed, have been read by the scholiast (μετὰ σπουδῆς ὀρύξατε); but it can derive no support from θέσθε (1406), since the *process* of digging is fitly expressed by the pres. imper., while the aor. imper. better suits the *act* of placing. ταχύνω is not elsewhere transitive.
 
 ## 1404 ff.
-**τοὶ δʼ**. The Doric (and Homeric) τοὶ occurs in tragic lyrics ( Aesch. *Pers.* 584 etc.), and once in a trimeter, Aesch. *Pers.* 424 τοὶ δ' ὥστε θύννους κ.τ.λ., where it is a trait of epic style in the narrative. Sophocles uses it only here. The v.l. **τὸν δʼ** is not only weaker, but untenable, since a pronoun is needed which shall answer to **οἱ μέν**: the λουτρά are to be prepared while the grave is being dug.
+**τοὶ δʼ**. The Doric (and Homeric) τοὶ occurs in tragic lyrics ( Aesch. *Pers.* 584 etc.), and once in a trimeter, Aesch. *Pers.* 424 τοὶ δ' ὥστε θύννους κ.τ.λ., where it is a trait of epic style in the narrative. Sophocles uses it only here. The *v.l.* **τὸν δʼ** is not only weaker, but untenable, since a pronoun is needed which shall answer to **οἱ μέν**: the λουτρά are to be prepared while the grave is being dug.
 
 **ὑψίβατον τρίποδʼ**, the caldron, supported on a high three-legged stand. (Cp. Pind. *N.* 10. 47 Ἀχαιῶν ὑψίβατοι πόλιες, built on lofty sites.) The stand was the τρίπους proper, while the caldron was λέβης, but the former term is often used so as to include the latter: Aesch. fr. 1 τὸν μὲν τρίπους ἐδέξατʼ, οἰκεῖος λέβης, | αἰεὶ φυλάσσων τὴν ὑπὲρ πυρὸς στάσιν. The fire was kindled in a brazier under the λέβης, as may be seen on a vase in the British Museum, which represents Medea boiling a ram in a lebes or χύτρα (Smith's *Dict. Ant.*, new ed., vol. I. p. 426).
 
-**ἀμφίπυρον … θέσθε**, place it so that the fire shall rise all round it from beneath: cp. *Il.* 18. 344 ἀμφὶ πυρὶ στῆσαι τρίποδα μέγαν, and ib. 348 γάστρην μὲν τρίποδος πῦρ ἄμφεπε. *Il.* 23. 702 τρίποδ' ἐμπυριβήτην.
+**ἀμφίπυρον … θέσθε**, place it so that the fire shall rise all round it from beneath: cp. *Il.* 18. 344 ἀμφὶ πυρὶ στῆσαι τρίποδα μέγαν, and *ib.* 348 γάστρην μὲν τρίποδος πῦρ ἄμφεπε. *Il.* 23. 702 τρίποδ' ἐμπυριβήτην.
 
 **λουτρῶν … ἐπίκαιρον**: a genitive of relation; cp. Xen. *Cyr.* 4. 6. 9 γάμου ἤδη ὡραία. So οἰκεῖος or ἀλλότριός τινος.
 
-**ὁσίων**, i.e., prescribed by piety ( *El.* 433 n.). Cp. *Ant.* 1201 λούσαντες ἁγνὸν λουτρόν: and ib. 901 (n.). The caldron used for this purpose is called λοετροχόος τρίπους in *Il.* 18. 346. After the washing of the dead, unguents were usually applied (as in the case of Patroclus, *Il.* 18. 350). Verg. *Aen.* 6. 218 Pars calidos latices et aëna undantia flammis | Expediunt, corpusque lavant frigentis et ungunt.
+**ὁσίων**, *i.e.*, prescribed by piety ( *El.* 433 n.). Cp. *Ant.* 1201 λούσαντες ἁγνὸν λουτρόν: and *ib.* 901 (n.). The caldron used for this purpose is called λοετροχόος τρίπους in *Il.* 18. 346. After the washing of the dead, unguents were usually applied (as in the case of Patroclus, *Il.* 18. 350). Verg. *Aen.* 6. 218 *Pars calidos latices et aëna undantia flammis | Expediunt, corpusque lavant frigentis et ungunt.*
 
 ## 1407 f.
-**ἴλη**, band, troop, from rt. ϝελ, εἴλω, to press: cp. ὅμ-ιλο-ς (Curt. *Etym.* § 660). The Ionic form is εἴλη ( Her. 1. 73 etc.). Its poetical use is as free as that of Lat. manus (e.g., Pind. *N.* 5. 38 εὔφρονες ἶλαι): but it had also a technical military sense, Xen. *An.* 1. 2. 16 κατ' ἴλας καὶ κατὰ τάξεις (‘troops’ of cavalry and ‘companies’ of infantry).— **τὸν ὑπασπίδιον κόσμον**, the armour ‘under the shield,’ i.e. the body-armour, as the θώραξ and the κνημῖδες. Ajax had directed that all his armour except his shield should be buried with him (577). ὑπασπίδιος occurs only here and in [Eur. ] *Rhes.* 740 τὸν ὑπασπίδιον κοῖτον.
+**ἴλη**, band, troop, from rt. ϝελ, εἴλω, to press: cp. ὅμ-ιλο-ς (Curt. *Etym.* § 660). The Ionic form is εἴλη ( Her. 1. 73 etc.). Its poetical use is as free as that of Lat. *manus* (*e.g.*, Pind. *N.* 5. 38 εὔφρονες ἶλαι): but it had also a technical military sense, Xen. *An.* 1. 2. 16 κατ' ἴλας καὶ κατὰ τάξεις (‘troops’ of cavalry and ‘companies’ of infantry).— **τὸν ὑπασπίδιον κόσμον**, the armour ‘under the shield,’ *i.e.* the body-armour, as the θώραξ and the κνημῖδες. Ajax had directed that all his armour except his shield should be buried with him (577). ὑπασπίδιος occurs only here and in [Eur. ] *Rhes.* 740 τὸν ὑπασπίδιον κοῖτον.
 
 ## 1409 f.
-**παῖ, σὺ δὲ πατρός γʼ**: for σὺ δέ after the vocative, cp. *O. T.* 1097, *El.* 150: for the combination δέ..γε, *O. T.* 1030 (n.). The emphasis of **γε** belongs here to the whole clause (‘do thou, *too*, raise’), and not to the word **πατρός**. For other instances, in which the stress of γε does not fall on the word next before it, but on a whole phrase or clause, see *Ant.* 213, Ant. 648, Ant. 747; *O. C.* 1278; *El.* 1506.— **πλευρὰς**: Elmsley (on Eur. *Heracl.* 824) held that the fem. plur. πλευραὶ was not used in tragedy: here he wished to read πλευρὰ (dual), or πλευράν. But, as Hermann observed, this view would involve some very improbable changes; e.g., in *I. T.* 298 παίει σιδήρῳ λαγόνας, εἰς πλευρὰς ἱείς (where Elmsley suggested λαγόνας εἰς μέσας).
+**παῖ, σὺ δὲ πατρός γʼ**: for σὺ δέ after the vocative, cp. *O. T.* 1097, *El.* 150: for the combination δέ..γε, *O. T.* 1030 (n.). The emphasis of **γε** belongs here to the whole clause (‘do thou, *too*, raise’), and not to the word **πατρός**. For other instances, in which the stress of γε does not fall on the word next before it, but on a whole phrase or clause, see *Ant.* 213, Ant. 648, Ant. 747; *O. C.* 1278; *El.* 1506.— **πλευρὰς**: Elmsley (on Eur. *Heracl.* 824) held that the fem. plur. πλευραὶ was not used in tragedy: here he wished to read πλευρὰ (dual), or πλευράν. But, as Hermann observed, this view would involve some very improbable changes; *e.g.*, in *I. T.* 298 παίει σιδήρῳ λαγόνας, εἰς πλευρὰς ἱείς (where Elmsley suggested λαγόνας εἰς μέσας).
 
 ## 1411 ff.
 **ἔτι γὰρ θερμαὶ** κ.τ.λ. In vv. 918 f. blood was said to be issuing from his nostrils, and from the wound. There, in the phrase φυσῶντ' ἄνω πρὸς ῥῖνας, the context shows that ἄνω means ‘upward (from the lower part of the body) to the nostrils.’ Here, however, ἄνω seems to have a more general sense,—‘upward to the surface’ (whether through the nostrils, or from the mouth of the wound). As Ajax must now have been dead for about an hour, the thing described seems impossible.
@@ -4417,14 +4417,14 @@ On the other hand, Odysseus is at liberty to assist in protecting the funeral fr
 **μέλαν μένος**: cp. Aesch. *Ag.* 1067 πρὶν αἱματηρὸν ἐξαφρίζεσθαι μένος.
 
 ## 1414 f.
-**φησὶ**: i.e., if he says that he is a friend, let him now prove it.
+**φησὶ**: *i.e.*, if he says that he is a friend, let him now prove it.
 
 **σούσθω**: for the form, see on *Tr.* 645 σοῦται.— *βάτω*: of this 2nd aor. imperat. we find also ἔμβᾱ ( Eur. *El.* 113), κατάβᾱ ( *Vesp.* 979), βᾶθι ( Soph. *Ph.* 1196), βᾶτε ( Soph. *O. C.* 1547).
 
 **πάντ' ἀγαθῷ**: cp. 910 ὁ πάντα κωφός.
 
 ## 1416 f.
-**κοὐδενί πω λῴονι θνητῶν**. If the text is sound, we must supply πονήσας, as **πω** indicates: lit., ‘toiling for this heroic man, and never yet (having toiled) for a worthier.’ This is a harsh kind of compression; but, as the general sense is so clear, it might be tolerated. The phrase cannot be explained by ‘attraction,’ as if πάντ' ἀγαθῷ, κοὐδενί πω λῴονι θνητῶν, could mean, πάντ' ἀγαθῷ, καὶ οὗ οὐδείς πω λῴων ἦν θνητῶν. Blaydes writes, κοὐδενὸς οὐ λῴονι θνητῶν. As to metre, the verse is a correct paroemiac, i.e., an anapaestic dimeter short of one syllable (‘catalectic’); the only peculiarity is the dactyl in the first foot, which in that place of a paroemiac is less usual than a spondee or an anapaest.
+**κοὐδενί πω λῴονι θνητῶν**. If the text is sound, we must supply πονήσας, as **πω** indicates: lit., ‘toiling for this heroic man, and never yet (having toiled) for a worthier.’ This is a harsh kind of compression; but, as the general sense is so clear, it might be tolerated. The phrase cannot be explained by ‘attraction,’ as if πάντ' ἀγαθῷ, κοὐδενί πω λῴονι θνητῶν, could mean, πάντ' ἀγαθῷ, καὶ οὗ οὐδείς πω λῴων ἦν θνητῶν. Blaydes writes, κοὐδενὸς οὐ λῴονι θνητῶν. As to metre, the verse is a correct paroemiac, *i.e.*, an anapaestic dimeter short of one syllable (‘catalectic’); the only peculiarity is the dactyl in the first foot, which in that place of a paroemiac is less usual than a spondee or an anapaest.
 
 ## 1417
 [**Αἴαντος, ὅτ' ἦν, τότε φωνῶ**.] Either this verse is spurious (as is now generally thought), or else both it and verse 1416 are corrupt. If v. 1416 is a paroemiac, it cannot be followed by a paroemiac. If, then, v. 1417 is to be retained, v. 1416 must be made into an anapaestic dimeter. Further, v. 1417, as it stands, yields no satisfactory sense. It must be taken in one of two ways: (1) by itself, a colon or stop being placed after θνητῶν:—‘I speak of Ajax, in the days when he lived’: for the genitive, cp. 1236. Or (2) in connexion with v. 1416, a colon being placed after Αἴαντος, but no point after θνητῶν:—‘and never yet (having toiled) for a worthier man than Ajax;—I speak of the time when he lived.’ (Cp. Meleager *epigr.* 22 ἦν καλὸς Ἡράκλειτος, ὅτ' ἦν ποτε.) The interpolation of v. 1417 may have been prompted by the comparative λῴονι, and by a wish to find the name of the hero at the close of the play. No emendation yet proposed is probable: see Appendix.
