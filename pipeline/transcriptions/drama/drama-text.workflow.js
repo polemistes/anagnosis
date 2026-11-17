@@ -25,7 +25,7 @@ Your own folder for crops and scripts: ${scratch}/${play}-batch-${b.id}/
 Checker: .venv/bin/python -m anagnosis_pipeline check-drama-batch ${play} transcriptions/drama/${play}/batch-${b.id}.md
 
 Write no other file in the repository and do not run git. Keep your scratch folder small (crops only as large as you need). Do not open anything under transcriptions/sophocles/ (an independent reading of these pages is kept there for comparison and must stay independent), nor texts/${play}/.
-
+${args.extra ? '\n' + args.extra + '\n' : ''}
 Reply as "Before you finish" in the brief says: for each page the flags checked, what you changed, the number of apparatus items, and the checker's last line.`
 
 const out = []
