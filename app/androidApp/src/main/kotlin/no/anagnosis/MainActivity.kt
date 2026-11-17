@@ -30,7 +30,7 @@ class MainActivity : ComponentActivity() {
         // build was asked for them on purpose; see androidApp/build.gradle.kts)
         val grantedSlugs = BuildConfig.GRANTED_TEXTS.split(',').map { it.trim() }.filter { it.isNotEmpty() }.toSet()
         val repository = AnagnosisRepository(driverFactory, granted = grantedSlugs)
-        shop = PlayTextShop(this, driverFactory, repository.textsOnSale(), repository.textsGranted(grantedSlugs))
+        shop = PlayTextShop(this, driverFactory, repository.textsOnSale(), repository.textsGranted(grantedSlugs), repository.textsFree())
         val settingsStore = SettingsStore(applicationContext)
         val version = packageManager.getPackageInfo(packageName, 0).versionName ?: "?"
         if (savedInstanceState == null) openText.value = intent?.getStringExtra(EXTRA_OPEN_TEXT)

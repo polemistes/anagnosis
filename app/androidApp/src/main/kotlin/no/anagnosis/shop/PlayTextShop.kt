@@ -35,16 +35,25 @@ class PlayTextShop(
      * their packs are fetched like a bought text's.
      */
     granted: List<OnSale> = emptyList(),
+    /**
+     * The free texts: added by the user without payment ([add]) and fetched like a bought text;
+     * never a product, never billing. What was added is kept in its own preferences, which are
+     * backed up (res/xml/backup_rules.xml), so the texts come back after a reinstall.
+     */
+    free: List<OnSale> = emptyList(),
 ) : TextShop {
-    /** The version of each text on sale or given in this build, by slug. */
-    private val versions = (onSale + granted).associate { it.slug to it.version }
+    /** The version of each text on sale, given or free in this build, by slug. */
+    private val versions = (onSale + granted + free).associate { it.slug to it.version }
     private val productOf = onSale.associate { it.slug to it.productId }
     private val slugOf = onSale.associate { it.productId to it.slug }
     private val grantedSlugs = granted.map { it.slug }.toSet() - productOf.keys
+    private val freeSlugs = free.map { it.slug }.toSet() - productOf.keys
 
     private val prefs = activity.getSharedPreferences(PREFS, Context.MODE_PRIVATE)
+    private val addedPrefs = activity.getSharedPreferences(ADDED_PREFS, Context.MODE_PRIVATE)
+    private fun added(): Set<String> = addedPrefs.getStringSet(ADDED, null).orEmpty().toSet()
     private val _state = MutableStateFlow(ShopState(
-        owned = TextOwnership.owned(prefs.getStringSet(OWNED, null).orEmpty().toSet(), grantedSlugs)))
+        owned = TextOwnership.owned(prefs.getStringSet(OWNED, null).orEmpty().toSet(), added(), freeSlugs, grantedSlugs)))
     override val state: StateFlow<ShopState> = _state.asStateFlow()
 
     private val billing = createBilling(activity.applicationContext) { bought ->
@@ -58,8 +67,8 @@ class PlayTextShop(
 
     init {
         packs.registerListener(packListener)
-        // a given text needs no answer from the store: fetch it now if it is not on the device
-        if (grantedSlugs.isNotEmpty()) fetchMissing()
+        // a given or added free text needs no answer from the store: fetch it now if it is not on the device
+        if (grantedSlugs.isNotEmpty() || (added() intersect freeSlugs).isNotEmpty()) fetchMissing()
     }
 
     fun close() {
@@ -86,6 +95,13 @@ class PlayTextShop(
         productOf[slug]?.let { billing.buy(activity, it) }
     }
 
+    override fun add(slug: String) {
+        if (slug !in freeSlugs) return
+        addedPrefs.edit().putStringSet(ADDED, added() + slug).apply()
+        _state.update { s -> if (slug in s.owned) s else s.copy(owned = s.owned + slug, revision = s.revision + 1) }
+        fetch(listOf(slug))
+    }
+
     override fun download(slug: String) {
         if (_state.value.downloads[slug]?.status == DownloadStatus.NEEDS_CONFIRMATION) {
             packs.showConfirmationDialog(activity)
@@ -105,15 +121,17 @@ class PlayTextShop(
         val pending = slugs(BoughtState.PENDING)
         for (b in bought) if (b.state == BoughtState.PURCHASED && !b.acknowledged) billing.acknowledge(b.token)
         _state.update { s ->
-            val owned = TextOwnership.owned(if (complete) paid else s.owned + paid, grantedSlugs)
+            // the store's answer replaces what was bought; the added free texts and the given stay
+            val owned = TextOwnership.owned(if (complete) paid else s.owned + paid, added(), freeSlugs, grantedSlugs)
             s.copy(
                 owned = owned,
                 pending = (if (complete) pending else s.pending - paid + pending),
                 revision = if (owned != s.owned) s.revision + 1 else s.revision,
             )
         }
-        // only what was bought is kept: a given text is owned only in the build that gives it
-        prefs.edit().putStringSet(OWNED, _state.value.owned - grantedSlugs).apply()
+        // only what was bought is kept here: a given text is owned only in the build that gives it,
+        // an added free text is kept with the added ones
+        prefs.edit().putStringSet(OWNED, _state.value.owned - grantedSlugs - freeSlugs).apply()
         fetchMissing()
     }
 
@@ -179,5 +197,8 @@ class PlayTextShop(
     private companion object {
         const val PREFS = "shop"
         const val OWNED = "owned"
+        /** The free texts the user added (backed up: res/xml/backup_rules.xml). */
+        const val ADDED_PREFS = "added_texts"
+        const val ADDED = "added"
     }
 }

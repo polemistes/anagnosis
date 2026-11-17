@@ -51,4 +51,18 @@ class TextOwnershipTest {
             mapOf("antigone" to "v1", "textb" to "m1"), emptyList())
         assertEquals(listOf("textb"), fetch)
     }
+
+    @Test
+    fun anAddedFreeTextIsOwnedAndSurvivesTheStoresAnswer() {
+        val free = setOf("theogony", "lysias", "hermas")
+        // added, not bought: owned
+        assertEquals(setOf("antigone", "lysias"), TextOwnership.owned(setOf("antigone"), setOf("lysias"), free, emptySet()))
+        // the store's complete answer (nothing bought) keeps the added free text
+        assertEquals(setOf("lysias"), TextOwnership.owned(emptySet(), setOf("lysias"), free, emptySet()))
+        // a text added once that is no longer free in this build is not kept by that
+        assertEquals(emptySet(), TextOwnership.owned(emptySet(), setOf("oldfree"), free, emptySet()))
+        // added free texts are fetched like bought ones
+        val owned = TextOwnership.owned(emptySet(), setOf("hermas"), free, emptySet())
+        assertEquals(listOf("hermas"), TextOwnership.toFetch(owned, mapOf("hermas" to null), mapOf("hermas" to "h1"), emptyList()))
+    }
 }

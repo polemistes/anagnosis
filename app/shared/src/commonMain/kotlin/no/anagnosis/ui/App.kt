@@ -180,6 +180,7 @@ fun App(
                             onDownload = { shop.download(it) },
                             onOpen = { expanded = it; screen = Screen.Reader(it) },
                             onBack = { screen = Screen.Home },
+                            onAdd = { shop.add(it) },
                         )
                         PlatformBackHandler { screen = Screen.Home }
                     }

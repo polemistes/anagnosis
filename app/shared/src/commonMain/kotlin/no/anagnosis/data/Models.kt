@@ -48,6 +48,8 @@ class CatalogEntry(
     /** Notes to the translation (a translator's notes, not a commentary on the Greek), for the shop; and their book. */
     val translationNotes: String = "",
     val refTranslationNotes: String = "",
+    /** A free text: added without payment (no product in the store). */
+    val free: Boolean = false,
 )
 
 /** Everything needed to display one work, loaded once. */

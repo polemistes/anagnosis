@@ -19,6 +19,9 @@ interface TextShop {
 
     /** Fetches a bought text again: after a failed download, or to confirm one on mobile data. */
     fun download(slug: String)
+
+    /** Adds a free text to the user's texts (no payment, no product) and fetches it. */
+    fun add(slug: String) {}
 }
 
 data class ShopState(
@@ -77,6 +80,15 @@ object TextOwnership {
      * every public build).
      */
     fun owned(bought: Set<String>, granted: Set<String>): Set<String> = bought + granted
+
+    /**
+     * What is owned when free texts can be added: the bought ones, those of the [added] that are
+     * free texts of this build ([free]; one no longer free is not kept by having been added once),
+     * and the [granted]. A complete answer from the store replaces [bought] only: the added texts
+     * stay.
+     */
+    fun owned(bought: Set<String>, added: Set<String>, free: Set<String>, granted: Set<String>): Set<String> =
+        bought + (added intersect free) + granted
 
     fun toFetch(owned: Set<String>, storeVersions: Map<String, String?>, catalogVersions: Map<String, String>, fromApps: Collection<String>): List<String> =
         owned.filter { slug ->

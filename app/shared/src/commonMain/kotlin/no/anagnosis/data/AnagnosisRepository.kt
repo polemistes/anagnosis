@@ -66,10 +66,20 @@ class AnagnosisRepository(
     fun textsOnSale(): List<OnSale> {
         val day = today()
         return catalogEntries()
-            .filter { ReleaseGate.offered(it, day) && it.productId.isNotEmpty() && it.version.isNotEmpty() }
+            .filter { !it.free && ReleaseGate.offered(it, day) && it.productId.isNotEmpty() && it.version.isNotEmpty() }
             .map { OnSale(it.slug, it.productId, it.version) }
     }
 
+    /**
+     * The free texts (catalogue `free`), released by their date and with a built database: offered
+     * with Download, added without payment and fetched like a bought text; no product is needed.
+     */
+    fun textsFree(): List<OnSale> {
+        val day = today()
+        return catalogEntries()
+            .filter { it.free && it.version.isNotEmpty() && ReleaseGate.released(it.release, day) }
+            .map { OnSale(it.slug, it.productId, it.version) }
+    }
 
     /**
      * The texts this build gives without a purchase (the author's own build, [slugs] from its
@@ -85,11 +95,12 @@ class AnagnosisRepository(
         CatalogEntry(slug, title, author, titleEn, authorEn, description, edition, installed, appId,
             editor, apparatus, translation, commentary, syntax, dictionaries, offered, productId,
             refEdition, refTranslation, refCommentary, syntaxSource, syntaxLicense, version, release,
-            translationNotes, refTranslationNotes)
+            translationNotes, refTranslationNotes, free)
 
     private fun parseCatalog(json: String): List<CatalogEntry> {
         // the catalog is a flat JSON array of objects with string values; a small parser suffices
         val objects = Regex("\\{[^{}]*\\}").findAll(json).map { it.value }
+        fun flag(obj: String, name: String): Boolean = catalogFlag(obj, name)
         fun field(obj: String, name: String): String {
             val m = Regex("\"$name\"\\s*:\\s*\"((?:[^\"\\\\]|\\\\.)*)\"").find(obj) ?: return ""
             return m.groupValues[1].replace("\\n", "\n").replace("\\\"", "\"").replace("\\\\", "\\")
@@ -101,7 +112,7 @@ class AnagnosisRepository(
                 field(o, "syntax"), field(o, "dictionaries"), field(o, "google_play") == "yes", field(o, "product_id"),
                 field(o, "ref_edition"), field(o, "ref_translation"), field(o, "ref_commentary"),
                 field(o, "syntax_source"), field(o, "syntax_license"), field(o, "version"), field(o, "release"),
-                field(o, "translation_notes"), field(o, "ref_translation_notes"))
+                field(o, "translation_notes"), field(o, "ref_translation_notes"), flag(o, "free"))
         }.filter { it.slug.isNotEmpty() }.toList()
     }
 
@@ -549,3 +560,7 @@ class AnagnosisRepository(
 
 /** A line as a reader sees it: without the verse mark ("| ") or a speaker label's braces. */
 fun displayText(text: String): String = text.removePrefix("| ").replace(Regex("\\{([^}]*)\\}"), "$1")
+
+/** A catalogue entry's yes/no key ("free": true, a JSON boolean; also the string "yes"), in one entry's JSON object. */
+internal fun catalogFlag(obj: String, name: String): Boolean =
+    Regex("\"$name\"\\s*:\\s*(true|\"yes\")").containsMatchIn(obj)

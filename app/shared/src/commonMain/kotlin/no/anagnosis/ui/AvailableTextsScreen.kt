@@ -46,9 +46,12 @@ fun AvailableTextsScreen(
     onDownload: (String) -> Unit,
     onOpen: (String) -> Unit,
     onBack: () -> Unit,
+    /** Adds a free text to the user's texts. */
+    onAdd: (String) -> Unit = {},
 ) {
+    // a free text is offered because it is free; one on sale when the store offers it
     val offered = catalog.filter { e ->
-        e.onGooglePlay && (!shop.reachable || e.slug in shop.prices || e.slug in shop.owned || e.installed)
+        e.free || (e.onGooglePlay && (!shop.reachable || e.slug in shop.prices || e.slug in shop.owned || e.installed))
     }
     Column(
         Modifier.fillMaxSize().safeDrawingPadding().verticalScroll(rememberScrollState()).padding(horizontal = 24.dp, vertical = 16.dp),
@@ -66,6 +69,14 @@ fun AvailableTextsScreen(
             style = MaterialTheme.typography.bodyMedium,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
         )
+        if (offered.any { it.free }) {
+            Spacer(Modifier.height(8.dp))
+            Text(
+                "Some texts are free: Download adds them to your texts without payment.",
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+        }
         if (!shop.reachable) {
             Spacer(Modifier.height(8.dp))
             Text(
@@ -91,7 +102,7 @@ fun AvailableTextsScreen(
                         Detail("Syntax", entry.syntax)
                         Detail("Extra dictionaries", entry.dictionaries)
                         Spacer(Modifier.height(8.dp))
-                        Purchase(entry, shop, onBuy, onDownload, onOpen)
+                        Purchase(entry, shop, onBuy, onDownload, onOpen, onAdd)
                     }
                 }
             }
@@ -114,7 +125,7 @@ fun AvailableTextsScreen(
 
 /** A card's last row: where the text stands with the buyer, and what can be done about it. */
 @Composable
-private fun Purchase(entry: CatalogEntry, shop: ShopState, onBuy: (String) -> Unit, onDownload: (String) -> Unit, onOpen: (String) -> Unit) {
+private fun Purchase(entry: CatalogEntry, shop: ShopState, onBuy: (String) -> Unit, onDownload: (String) -> Unit, onOpen: (String) -> Unit, onAdd: (String) -> Unit) {
     val slug = entry.slug
     val download = shop.downloads[slug]
     @Composable
@@ -123,7 +134,7 @@ private fun Purchase(entry: CatalogEntry, shop: ShopState, onBuy: (String) -> Un
     Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
         when {
             entry.installed -> {
-                Status("Owned", MaterialTheme.colorScheme.primary)
+                Status(if (entry.free) "Free · in your texts" else "Owned", MaterialTheme.colorScheme.primary)
                 Spacer(Modifier.weight(1f))
                 OutlinedButton(onClick = { onOpen(slug) }) { Text("Open") }
             }
@@ -149,9 +160,14 @@ private fun Purchase(entry: CatalogEntry, shop: ShopState, onBuy: (String) -> Un
                 Button(onClick = { onDownload(slug) }) { Text("Try again") }
             }
             slug in shop.owned -> {
-                Status("Owned", MaterialTheme.colorScheme.primary)
+                Status(if (entry.free) "Free" else "Owned", MaterialTheme.colorScheme.primary)
                 Spacer(Modifier.weight(1f))
                 Button(onClick = { onDownload(slug) }) { Text("Download") }
+            }
+            entry.free -> {
+                Status("Free", MaterialTheme.colorScheme.primary)
+                Spacer(Modifier.weight(1f))
+                Button(onClick = { onAdd(slug) }) { Text("Download") }
             }
             slug in shop.pending -> Status("Payment pending")
             shop.reachable && slug in shop.prices -> {
