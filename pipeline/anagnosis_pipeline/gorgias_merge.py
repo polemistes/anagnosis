@@ -38,6 +38,9 @@ APPARATUS_META = {
 GLAUX = "glaux/0059-023.xml"
 # GLAUx lemmas that are wrong or spelled otherwise than the dictionaries' headwords
 LEMMA_FIXES = {
+    # a slip of the lemma: πρώην in the Ionic spelling (the enclitic νυν keeps its own lemma νύν, set by
+    # hand and glossed in shortdefs.tsv)
+    "πρῴην": "πρώην",
     "ἁσθιͅω": "ᾄδω", "κατέρδω": "καθείργνυμι", "διαβιάω": "διαβιόω", "διαπορρήγνυμι": "διαπράσσω",
     "προσαπολόω": "προσαπόλλυμι", "ἐπιτηδευτέος": "ἐπιτηδευτέον", "ἐγχειρίδιον": "ἐγχειρίδιος",
     "ἀμφιαμφισβητέω": "ἀμφισβητέω", "οπροῗδα": "πρόοιδα", "ἐπανεράομαι": "ἐπανέρομαι", "κατοράω": "καθοράω",

@@ -142,3 +142,33 @@
 
 ## Ὅμηρος
 **Ὅμηρος, ὁ** Homer, quoted at 449a, 516c, 523a, 525d and 526d.
+
+## Ἀγλαοφῶν
+**Ἀγλαοφῶν, -ῶντος, ὁ** Aglaophon, father of the painter Aristophon and of his brother (448b); the brother was the painter Polygnotus of Thasos (Lodge on the passage).
+
+## Κλεοπάτρα
+**Κλεοπάτρα, ἡ** Cleopatra, mother of the boy whom Archelaus threw into a well and drowned, telling her that he had fallen in chasing a goose (471c).
+
+## Νικήρατος
+**Νικήρατος, ὁ** Niceratus, father of the Nicias whom Polus could call as a witness (472a).
+
+## Σκελλίας
+**Σκελλίας, -ου, ὁ** Scellias (or Scellius), father of Aristocrates, another witness Polus could call (472b; Lodge on the passage).
+
+## Κλεινίας
+**Κλεινίας, -ου, ὁ** Cleinias, father of Alcibiades, with whom Socrates says he is in love (481d).
+
+## Κλεινίειος
+**Κλεινίειος, -α, -ον** of Cleinias: ὁ Κλεινίειος οὗτος, this son of Cleinias, Alcibiades (482a).
+
+## Ξέρξης
+**Ξέρξης, -ου, ὁ** Xerxes, who marched against Greece: Callicles' example of the right of the stronger (483d).
+
+## Ἀφιδναῖος
+**Ἀφιδναῖος, -α, -ον** of Aphidnae, an Attic deme (of the tribe Aiantis, Lodge on 487c): Tisander of Aphidnae, one of Callicles' companions in the pursuit of wisdom (487c).
+
+## Ἀνδροτίων
+**Ἀνδροτίων, -ωνος, ὁ** Androtion, father of Andron, another of Callicles' companions (487c).
+
+## Ἀλωπεκῆθεν
+**Ἀλωπεκῆθεν** (adverb) from Alopece, an Attic deme: Σωκράτης ὁ Ἀλωπεκῆθεν, as Callicles is of Acharnae (495d).
