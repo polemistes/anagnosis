@@ -70,6 +70,16 @@ Only `form` and `word` make the app mark a sentence, so the line between **spell
 * **The same lemma in two dictionary spellings** is the same word: ἐπιμέλεσθαι / ἐπιμελεῖσθαι
   (ἐπιμέλομαι, ἐπιμελέομαι) are one verb; decide then whether the form is the same (here both
   present infinitives: spelling). Likewise οἰκτίρω / οἰκτείρω, θράσος / θάρσος.
+* **Names.** The same name written otherwise (Ὀβριάρεως / Βριάρεως, Κλύμενος / Κλύμενός) is a
+  `spelling`. A name with another letter that makes it another name or another person's name
+  (Θόη / Φόη, two different Nereids' names in the manuscripts) is a `word`: when in doubt
+  whether two names are one, choose `word`.
+* **Another part of speech is another word**, even from the same root: the pronoun's genitive ἕο
+  against the possessive ἑοῦ, an adverb against an adjective, an article against a relative.
+  If the two tags name different parts of speech, or the lemmas differ, it is not a `spelling`.
+* **When you cannot decide between `spelling` and a real difference, choose the real difference**
+  (`form` or `word`): a mark too many costs the reader a glance, a mark too few hides a
+  difference.
 * **τοσοῦτο / τοσοῦτον, τοιοῦτο / τοιοῦτον** (the neuter with and without ν): `spelling`. `nu`
   is only the movable ν of verb forms in -ε(ν), -σι(ν) and of datives in -σι(ν), ἐστί(ν).
 
