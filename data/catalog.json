@@ -27,7 +27,7 @@
     "title_en": "Ajax",
     "author_en": "Sophocles",
     "description": "The Greek text of Sir Richard Jebb's edition, with his translation, critical apparatus and commentary, and the Liddell–Scott dictionaries. Tap any word for its meaning and form. The syntax of the sentences is annotated by hand; the syntax trees were made on the Perseus Digital Library's text of the play (F. Storr's Loeb edition, 1913), which differs in places from Jebb's text printed here, and where a sentence differs the syntax view shows both and marks the words.",
-    "edition": "Sophocles: The Plays and Fragments, Part VII: The Ajax, ed. R. C. Jebb, Cambridge University Press, 1896 (Perseus Digital Library)",
+    "edition": "Sophocles: The Plays and Fragments, Part VII: The Ajax, ed. R. C. Jebb, Cambridge University Press, 1896",
     "app_id": "no.anagnosis.ajax",
     "ref_edition": "R. C. Jebb, Sophocles: The Plays and Fragments, Part VII: The Ajax, Cambridge University Press 1896",
     "ref_translation": "R. C. Jebb, Sophocles: The Plays and Fragments, Part VII: The Ajax, Cambridge University Press 1896",
@@ -66,7 +66,7 @@
     "syntax_text": "the Perseus Digital Library's text of the play as the treebank's annotators had it, which differs in a few words from the text printed here",
     "google_play": "yes",
     "product_id": "sophocles_antigone_jebb",
-    "version": "1e0c2ae1b5dbecc9"
+    "version": "ff17c738b58e03df"
   },
   {
     "slug": "choephoroi",
