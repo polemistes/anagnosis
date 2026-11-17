@@ -2222,7 +2222,7 @@ We might also take τέκνων as standing, by attraction, for τέκνοις. 
 **πρέπει γὰρ**: cp. *Suppl.* 1056 ὡς οὐκ ἐπ' ἀνδρὶ πένθιμος πρέπεις ὁρᾶν.
 
 ## 665
-**μάλιστα πάντων**, in reply, as Ar. *Av.* 1531, *Phaedr.* 262 C πάντων γέ που μάλιστα . So μάλιστά γε (*O.T.* 994), and καὶ μάλιστα.
+**μάλιστα πάντων**, in reply, as Ar. *Av.* 1531, Plat. *Phaedr.* 262 C πάντων γέ που μάλιστα . So μάλιστά γε (*O.T.* 994), and καὶ μάλιστα.
 
 **ἥδε σοι κείνη πάρα**, yonder (ἥδε) is she for whom you ask: *Ant.* 384 ἥδ' ἔστ' ἐκείνη: *O.C.* 138 ὅδ' ἐκεῖνος ἐγώ. Cp. 1115.
 
@@ -2486,7 +2486,7 @@ Wunder cp. *Acad. Pr.* 2. 29. 94 *Ego enim*, *ut agitator callidus*, *prius quam
 ## 738 ff.
 **κἀξισώσαντε ζυγὰ**: Orestes, who had kept on the inside all through (720), would quickly gain when the Athenian paused (732).
 
-**τότ' … ἄλλοθʼ**: cp. *Phaedr.* 237 E τοτὲ μὲν ἡ ἑτέρα, ἄλλοτε δὲ ἡ ἑτέρα κρατεῖ.
+**τότ' … ἄλλοθʼ**: cp. Plat. *Phaedr.* 237 E τοτὲ μὲν ἡ ἑτέρα, ἄλλοτε δὲ ἡ ἑτέρα κρατεῖ.
 
 **ἄλλος … ἅτερος**. Cp. *Il.* 9. 313 ὅς χ' ἕτερον μὲν κεύθῃ ἐνὶ φρεσίν, ἄλλο δὲ εἴπῃ: Her. 1. 32 ἄλλο μὲν ἔχει, ἑτέρου δὲ ἐπιδέεται. So here ἄλλος is loosely substituted for ἕτερος.
 
@@ -2664,7 +2664,7 @@ Nemesis is the goddess who requires that each man should receive his due (Νέμ
 ## 799
 **εὖ κυρεῖ**: alluding to her words in 791.
 
-*800 f.* With **πράξειας** we supply ἂν from ἀποστείχοιμ' ἄν. G. Wolff compares *Lys.* p. 208 B εἰ βούλοιο λαβὼν τὴν μάστιγα τύπτειν, ἐῷεν ἄν . Πόθεν δ', ἦ δ' ὅς, ἐῷεν; Xen. *An.* 4. 6. 13 δοκοῦμεν δ' ἄν μοι...ἐρημοτέρῳ ἂν τῷ ὄρει χρῆσθαι· μένοιεν γὰρ αὐτοῦ μᾶλλον ἀθρόοι οἱ πολέμιοι (where the insertion of ἂν after γὰρ is needless). Cp. also Soph. *O. T.* 937 n.
+*800 f.* With **πράξειας** we supply ἂν from ἀποστείχοιμ' ἄν. G. Wolff compares Plat. *Lys.* p. 208 B εἰ βούλοιο λαβὼν τὴν μάστιγα τύπτειν, ἐῷεν ἄν . Πόθεν δ', ἦ δ' ὅς, ἐῷεν; Xen. *An.* 4. 6. 13 δοκοῦμεν δ' ἄν μοι...ἐρημοτέρῳ ἂν τῷ ὄρει χρῆσθαι· μένοιεν γὰρ αὐτοῦ μᾶλλον ἀθρόοι οἱ πολέμιοι (where the insertion of ἂν after γὰρ is needless). Cp. also Soph. *O. T.* 937 n.
 
 The emendations which aim at introducing ἄν seem, then, superfluous. The change of **καταξίως** into κατάξιʼ ἂν, though specious, is not probable. Cp. *O. C.* 911 δέδρακας οὔτ' ἐμοῦ καταξίως | οὔθ' ὧν πέφυκας. *O. T.* 133 ἐπαξίως..ἀξίως. Again, **πράξειας** appears sound. In the 2nd and 3rd sing. and 3rd plur. of the sigmatic aorist, classical writers of this age prefer the forms in ει to those in αι. There are exceptions, such as *Vesp.* 726 οὐκ ἂν δικάσαις, Thuc. 2. 84 ἐκπνεύσαι: and it would be unwarrantable to deny that Soph. could have written πράξαις ἄν. But the presumption is in favour of the vulgate. Still less likely is ἐπεί τἂν, or ἐμοῦ γ' ἂν ἀξίως (cr. n.). If ἄν were required, Bergk's οὔτ' ἂν in v. 801 would be best.
 

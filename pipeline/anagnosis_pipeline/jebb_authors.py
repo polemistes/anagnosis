@@ -65,9 +65,9 @@ def mark_places(xml: str) -> str:
     return head + _TITLE.sub(title, _BIBL.sub(bibl, body))
 
 
-def marked_commentary(slug: str, sources: Path) -> str:
+def marked_commentary(slug: str, sources: Path, mark: bool = True) -> str:
     """The play's commentary as write_commentary makes it (import, range headings, the play's
-    fix table), with the marks standing in it."""
+    fix table), with the marks standing in it (`mark` False: without them, the text itself)."""
     from . import sophocles
     from .commentary import import_jebb_commentary
 
@@ -75,7 +75,8 @@ def marked_commentary(slug: str, sources: Path) -> str:
     src = sources / sophocles.sources_for(play)["commentary"]
     with tempfile.TemporaryDirectory() as d:
         marked = Path(d) / src.name
-        marked.write_text(mark_places(src.read_text(encoding="utf-8")), encoding="utf-8")
+        xml = src.read_text(encoding="utf-8")
+        marked.write_text(mark_places(xml) if mark else xml, encoding="utf-8")
         out = Path(d) / "commentary.md"
         # the same options as write_commentary gives the importer (the play's switches, if any)
         options = getattr(sophocles, "import_options", lambda _play: {})(play)
@@ -188,20 +189,21 @@ def restored(slug: str, sources: Path) -> list[tuple[str, str]]:
             answers[(it["note"], it["before"][-40:], it["after"][:25])] = it["answer"]
     if not answers:
         return []
-    text = marked_commentary(slug, sources)
-    plain = text.replace(f" {MARK} ", " ").replace(MARK, "")
-    plain = re.sub(r" +", " ", plain)
+    # the text itself, as write_commentary has it at the point where the names enter
+    real = marked_commentary(slug, sources, mark=False)
     pairs = []
     for it in places(slug, sources):
         answer = answers.get((it["note"], it["before"][-40:], it["after"][:25]))
         if not answer or answer == "-" or answer.startswith("?"):
             continue
         before, after = it["before"].split(" "), it["after"].split(" ")
-        for k in range(2, 12):
+        for k in range(2, 14):
             left, right = " ".join(before[-k:]), " ".join(after[:max(2, k // 2)])
-            wrong = f"{left} {right}"
-            if plain.count(wrong) == 1:
-                pairs.append((wrong, f"{left} {answer} {right}"))
+            # the spaces at the place itself are the importer's ("( *Phaedr.*" or "(*Phaedr.*")
+            found = re.findall(re.escape(left) + r" ?" + re.escape(right), real)
+            if len(found) == 1:
+                gap = "" if left.endswith(("(", "[", "‘")) else " "
+                pairs.append((found[0], f"{left}{gap}{answer} {right}"))
                 break
         else:
             print(f"{slug}: note {it['note']}: no words that stand once round the place ({it['before'][-30:]} | {it['after'][:20]})")
