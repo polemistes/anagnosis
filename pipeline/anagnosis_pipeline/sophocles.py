@@ -866,6 +866,11 @@ def write_prose(slug: str, sources: Path, texts: Path, transcriptions: Path, ind
 # slips): sophocles-prose writes commentary-jebb.md from the notes batches once every one is
 # checked, and Perseus's (write_commentary, COMMENTARY_FIXES, jebb_authors.restored) until then
 COMMENTARY_FROM_PAGE = {"antigone", "ajax", "electra"}
+# how a commentary read from the page was made, for its header, where more is to be said than
+# PROSE_HOW
+COMMENTARY_HOW = {
+    "antigone": "read by OCR and checked against the page images by AI agents, in two readings (2026)",
+}
 
 
 def write_transcribed_commentary(slug: str, texts: Path, transcriptions: Path, index_dir: Path | None = None) -> int:
@@ -895,7 +900,7 @@ def write_transcribed_commentary(slug: str, texts: Path, transcriptions: Path, i
     notes = notes_from_paragraphs(prose_paragraphs(transcriptions, "notes"))
     md = [f"# title: Commentary on Sophocles: {play.title_en}", "# author: Richard C. Jebb", "# lang: eng",
           f"# source: Sophocles: The Plays and Fragments, {PART_ROMAN[play.part]}: The {play.title_en}, ed. R. C. Jebb, "
-          f"Cambridge University Press, {SCAN_EDITIONS[slug]}, {PROSE_HOW}",
+          f"Cambridge University Press, {SCAN_EDITIONS[slug]}, {COMMENTARY_HOW.get(slug, PROSE_HOW)}",
           "# license: CC BY-SA 4.0 (transcription; the edition is in the public domain)", ""]
     if len(notes) > 1 and not notes[0][0]:
         # what Jebb prints before the first note's number (the Philoctetes: "Scene:—A lonely place

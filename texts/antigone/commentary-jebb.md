@@ -1,7 +1,7 @@
 # title: Commentary on Sophocles: Antigone
 # author: Richard C. Jebb
 # lang: eng
-# source: Sophocles: The Plays and Fragments, Part III: The Antigone, ed. R. C. Jebb, Cambridge University Press, second edition 1891; Internet Archive sophocles03soph (Boston College), read by OCR and checked against the page images
+# source: Sophocles: The Plays and Fragments, Part III: The Antigone, ed. R. C. Jebb, Cambridge University Press, second edition 1891; Internet Archive sophocles03soph (Boston College), read by OCR and checked against the page images by AI agents, in two readings (2026)
 # license: CC BY-SA 4.0 (transcription; the edition is in the public domain)
 
 ## 1-99
