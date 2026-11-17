@@ -96,12 +96,12 @@ The other emendations fall under three heads. (1) Those which keep at least one 
 
 The traditional text has:
 
-155 ἀλλ’ ὅδε γὰρ δὴ βασιλεὺς χώρας
-156 Κρέων ὁ Μενοικέως νεοχμὸς
-157 νεαραῖσι θεῶν ἐπὶ συντυχίαις
-158 χωρεῖ· τίνα δὴ μῆτιν ἐρέσσων
-159 ὅτι σύγκλητον τήνδε γερόντων
-160 προὔθετο λέσχην
+155 ἀλλ’ ὅδε γὰρ δὴ βασιλεὺς χώρας\
+156 Κρέων ὁ Μενοικέως νεοχμὸς\
+157 νεαραῖσι θεῶν ἐπὶ συντυχίαις\
+158 χωρεῖ· τίνα δὴ μῆτιν ἐρέσσων\
+159 ὅτι σύγκλητον τήνδε γερόντων\
+160 προὔθετο λέσχην\
 161 κοινῷ κηρύγματι πέμψας;
 
 Verse 156, now a tripody, must be either shortened to a monometer, or lengthened to a dimeter. Taking the first alternative, Dindorf omits νεοχμός, while Hartung omits Μενοικέως, reading Κρέων ὁ νεοχμὸς νεαραῖσι θεῶν|. Bergk would omit Κρέων ὁ Μενοικέως and also θεῶν, reading (with νεοχμοῖς for νεαραῖσι) νεοχμὸς νεοχμοῖς ἐπὶ συντυχίαις. But it seems far more probable that the verse should be lengthened to a dimeter, by supplying one anapaest or its equivalent (see comment. on 155 ff.).
@@ -234,8 +234,8 @@ In the third and fourth of these examples, it will be observed that the resoluti
 
 L gives the verses thus:
 
-836 καίτοι φθιμένα [with ω over α] μέγ’ ἀκοῦσαι
-837 τοῖς ἰσοθέοις ἔγκληρα λαχεῖν
+836 καίτοι φθιμένα [with ω over α] μέγ’ ἀκοῦσαι\
+837 τοῖς ἰσοθέοις ἔγκληρα λαχεῖν\
 838 ζῶσαν καὶ ἔπειτα θανοῦσαν.
 
 The following opinions on this passage claim notice. (1) Hermann, omitting v. 838, transposed the two other verses thus:—
@@ -278,13 +278,13 @@ But all that is beside the question here. We have to ask ourselves:—In adoptin
 
 The considerations which have been stated above render it incredible to me that Sophocles should have composed vv. 905—912: with which v. 913 on the one side, and v. 904 on the other, closely cohere. A. Jacob,—who, in 1821, first brought arguments against the genuineness of the passage,—was content to reject vv. 905—913. And Schneidewin, sharing his view, proposed μέντοι (or μόνῳ, to precede Κρέοντι) for νόμῳ in v. 914. The sequence would then be,
 
-904 καίτοι σ’ ἐγὼ ’τίμησα τοῖς φρονοῦσιν εὖ.
+904 καίτοι σ’ ἐγὼ ’τίμησα τοῖς φρονοῦσιν εὖ.\
 914 Κρέοντι μέντοι ταῦτ’ ἔδοξ’ ἁμαρτάνειν, κ.τ.λ.
 
 But v. 904 has thoroughly the air of a preface to a specific self-justification. If it was followed merely by the statement, ‘Yet Creon thought me wrong,’ both v. 904 and v. 914 would be very weak. Again, it is evident that v. 913 could not directly follow v. 903, since the νόμος mentioned in 914 would not then have been stated. Now observe, on the other hand, how fitly v. 921 would follow 903:—
 
-τὸ σὸν
-903 δέμας περιστέλλουσα τοιάδ’ ἄρνυμαι.
+τὸ σὸν\
+903 δέμας περιστέλλουσα τοιάδ’ ἄρνυμαι.\
 921 ποίαν παρεξελθοῦσα δαιμόνων δίκην;
 
 Verse 921 is in every way worthy of Sophocles; nor does any just suspicion rest on 922—928. I agree, then, with those who define the interpolation as consisting of vv. 904—920.

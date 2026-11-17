@@ -181,6 +181,7 @@ def md_to_html(md: str) -> str:
         s = re.sub(r"(?<!\\)\*\*(.+?)(?<!\\)\*\*", r"<b>\1</b>", s)
         s = re.sub(r"(?<!\\)\*(.+?)(?<!\\)\*", r"<i>\1</i>", s)
         s = s.replace("\\*", "*").replace("\\_", "_")
+        s = re.sub(r"[ \t]*\\\n\s*", "<br>", s)   # a backslash at a line's end: a new line (quoted verses)
         s = re.sub(r"\s*\n\s*", " ", s)
         out.append(f"<p>{s}</p>")
     return "".join(out)
@@ -602,7 +603,7 @@ def read_shortdef_overrides(path: Path) -> dict[str, str]:
             continue
         lemma, _, definition = raw.partition("\t")
         if definition.strip():
-            out[greek.lemma_key(lemma)] = definition.strip()
+            out[_cased_key(lemma)] = definition.strip()   # by the lemma as spelt: Πόλις is not πόλις
     return out
 
 
@@ -688,10 +689,11 @@ def resolve_short_definition(lemma: str, exact: dict[str, str], loose: dict[str,
       Φείδων is not "an oil-can");
     * else the one entry of the same case that is the same word otherwise written
       (_same_word_otherwise_written);
-    * a lemma in small letters that is no common word of the list takes a name's entry only
-      where the text prints every one of its words with a capital (capital_in_text: some
-      treebanks write the lemmas of names small, ζεύς); so θούριος "impetuous" does not
-      become "of Thurii".
+    * a lemma in small letters takes a name's entry only where the text prints every one of
+      its words with a capital (capital_in_text: some treebanks write the lemmas of names
+      small: ζεύς, τηλέμαχος, and the tagger's πῶλος for Polus), and then the name's entry
+      before a common word's (Τηλέμαχος is not "fighting from afar"); so θούριος "impetuous"
+      does not become "of Thurii".
 
     No other match is made: where these fail the word has no short definition, and the reader
     looks in a dictionary (texts/README.md, "Short definitions")."""
@@ -710,9 +712,9 @@ def resolve_short_definition(lemma: str, exact: dict[str, str], loose: dict[str,
     if cased != cased.lower():
         found = among(names)
     else:
-        found = among(common)
-        if found is None and capital_in_text:
-            found = among(names, str.lower)
+        found = among(names, str.lower) if capital_in_text else None
+        if found is None:
+            found = among(common)
     return exact[found] if found is not None else None
 
 
@@ -728,14 +730,15 @@ def alias_short_definition(lemma: str, headword_key: str, exact: dict[str, str],
 
 
 def capitalised_lemmas(rows) -> set[str]:
-    """The lemma keys whose words the text prints with a capital, every one of them (in prose a
-    sentence begins with a capital, so one capital says nothing: Δῆλον δή)."""
+    """The lemmas (as spelt, without homograph number) whose words the text prints with a
+    capital, every one of them (in prose a sentence begins with a capital, so one capital among
+    others says nothing: Δῆλον δή)."""
     total: dict[str, int] = {}
     capital: dict[str, int] = {}
     for form, lemma in rows:
         if not lemma:
             continue
-        key = greek.lemma_key(lemma)
+        key = _cased_key(lemma)
         total[key] = total.get(key, 0) + 1
         first = next((c for c in greek.nfc(form) if c.isalpha()), "")
         if first and first != first.lower():
@@ -826,30 +829,53 @@ class Homographs:
         return base
 
 
+def short_definition_of(lemma: str, exact, loose, capitals: set[str], overrides: dict[str, str],
+                        aliases: dict[str, str], homographs: "Homographs | None" = None) -> tuple[str, str] | None:
+    """(source, definition) of a lemma as the text spells it, or None: the text's own list
+    (the New Testament's Dodson glosses), Logeion's homograph list, Logeion's entry of the word
+    itself (resolve_short_definition), or the entry of the headword it is filed under."""
+    cased = _cased_key(lemma)
+    if cased in overrides:
+        return "override", overrides[cased]
+    listed = homographs.definition(lemma) if homographs else None
+    if listed:
+        return "logeion", listed
+    definition = resolve_short_definition(lemma, exact, loose, cased in capitals)
+    key = greek.lemma_key(lemma)
+    if definition is None and key in aliases:
+        definition = overrides.get(aliases[key]) or alias_short_definition(lemma, aliases[key], exact, loose)
+    return ("logeion", definition) if definition is not None else None
+
+
 def build_short_definitions(db: sqlite3.Connection, sources: Path, lemmas: dict[str, str], overrides: dict[str, str],
                             aliases: dict[str, str] | None = None, homographs: Homographs | None = None) -> None:
+    """The table of short definitions, by the lemma as the text spells it. A lemma in small
+    letters has its row under its key (as ever); a lemma with a capital has its row under the
+    lemma itself, capital kept (Πῶλος "Polus" beside πῶλος "a foal": one table key for both was
+    the fault that showed the speaker Polus as a foal). The reader looks a capitalised lemma up
+    under its own spelling when the text says it is built so (meta short_definitions_by_spelling).
+    For readers older than that, a capitalised lemma's definition also stands under the
+    lower-case key where the text has no lemma in small letters there."""
     exact, loose = load_logeion_shortdefs(sources)
     aliases = aliases or {}
-    capitals = capitalised_lemmas(db.execute("SELECT form, lemma FROM tokens"))
-    rows = []
+    tokens = db.execute("SELECT form, lemma FROM tokens WHERE lemma != ''").fetchall()
+    capitals = capitalised_lemmas(tokens)
+    spelt = sorted({_cased_key(lemma) for _form, lemma in tokens})
+    small = {c for c in spelt if c == c.lower()}
+    rows: dict[str, tuple[str, str]] = {}
     missing = []
-    for key, lemma in sorted(lemmas.items()):
-        if key in overrides:
-            rows.append((key, "override", overrides[key]))
-            continue
-        listed = homographs.definition(lemma) if homographs else None
-        if listed:
-            rows.append((key, "logeion", listed))
-            continue
-        definition = resolve_short_definition(lemma, exact, loose, key in capitals)
-        if definition is None and key in aliases:
-            definition = overrides.get(aliases[key]) or alias_short_definition(lemma, aliases[key], exact, loose)
-        if definition is None:
+    for lemma in spelt:
+        found = short_definition_of(lemma, exact, loose, capitals, overrides, aliases, homographs)
+        if found is None:
             missing.append(lemma)
-        else:
-            rows.append((key, "logeion", definition))
-    db.executemany("INSERT INTO short_definitions (lemma_key, source, definition) VALUES (?,?,?)", rows)
-    print(f"short definitions: {len(rows)} of {len(lemmas)} lemmas ({len(missing)} have none: the short dictionary lacks them)")
+            continue
+        rows[lemma] = found
+        if lemma != lemma.lower() and lemma.lower() not in small:
+            rows.setdefault(lemma.lower(), found)
+    db.executemany("INSERT INTO short_definitions (lemma_key, source, definition) VALUES (?,?,?)",
+                   [(k, src, d) for k, (src, d) in sorted(rows.items())])
+    db.execute("INSERT INTO meta VALUES ('short_definitions_by_spelling', '1')")
+    print(f"short definitions: {len(spelt) - len(missing)} of {len(spelt)} lemmas ({len(missing)} have none: the short dictionary lacks them)")
 
 
 def build_document(db: sqlite3.Connection, work_id: int, path: Path) -> None:

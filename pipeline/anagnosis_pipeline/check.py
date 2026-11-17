@@ -127,17 +127,15 @@ def check_work(work_dir: Path, lexicon_keys: dict[str, set[str]] | None, sources
     # short definitions: the short-form dictionary's (Logeion's list) or none. No definition is
     # written by us (texts/README.md, "Short definitions"), so a lemma without one is neither an
     # error nor a warning: they are counted, not listed for anyone to fill in
-    from .build import alias_short_definition, capitalised_lemmas, load_logeion_shortdefs, read_shortdef_overrides, resolve_short_definition
+    from .build import _cased_key, capitalised_lemmas, load_logeion_shortdefs, read_aliases, read_shortdef_overrides, short_definition_of
     exact, loose = load_logeion_shortdefs(sources)
     capitals = capitalised_lemmas((t["form"], t["lemma"]) for t in tokens)
     overrides = read_shortdef_overrides(work_dir / "shortdefs.tsv")
-    from .build import read_aliases
     aliases = read_aliases(work_dir / "aliases.tsv")
-    counts = collections.Counter(t["lemma"] for t in tokens if t["lemma"])
-    no_short = {l: c for l, c in counts.items()
-                if greek.lemma_key(l) not in overrides and resolve_short_definition(l, exact, loose, greek.lemma_key(l) in capitals) is None
-                and not (greek.lemma_key(l) in aliases and (aliases[greek.lemma_key(l)] in overrides
-                                                              or alias_short_definition(l, aliases[greek.lemma_key(l)], exact, loose) is not None))}
+    # by the lemma as the text spells it (a name and a common word are two lemmas), as build does;
+    # Logeion's homograph lists are left out here, so a lemma they alone define counts as without
+    counts = collections.Counter(_cased_key(t["lemma"]) for t in tokens if t["lemma"])
+    no_short = {l: c for l, c in counts.items() if short_definition_of(l, exact, loose, capitals, overrides, aliases) is None}
     print(f"  short definitions: {len(counts) - len(no_short)}/{len(counts)} lemmas have one; "
           f"{len(no_short)} have none ({sum(no_short.values())} words): the short dictionary lacks them, "
           f"the word sheet shows none (none is to be written)")

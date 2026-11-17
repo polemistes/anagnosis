@@ -42,7 +42,7 @@
     "syntax_text": "the Perseus Digital Library's text of the play (F. Storr's Loeb edition, 1913), which differs in places from Jebb's text printed here",
     "google_play": "yes",
     "product_id": "sophocles_ajax_jebb",
-    "version": "bdc3ffd4c42fc069"
+    "version": "f583b850e3148ba4"
   },
   {
     "slug": "antigone",
@@ -66,7 +66,7 @@
     "syntax_text": "the Perseus Digital Library's text of the play as the treebank's annotators had it, which differs in a few words from the text printed here",
     "google_play": "yes",
     "product_id": "sophocles_antigone_jebb",
-    "version": "f8dcb1882660ff30"
+    "version": "fb87f31caa0e8e0c"
   },
   {
     "slug": "choephoroi",
@@ -132,7 +132,7 @@
     "syntax_text": "the Perseus Digital Library's text of the play (F. Storr's Loeb edition, 1913), which differs in places from Jebb's text printed here",
     "google_play": "yes",
     "product_id": "sophocles_electra_jebb",
-    "version": "8d22d0c59ea0dfe9"
+    "version": "e69774f988dbd10c"
   },
   {
     "slug": "eumenides",
@@ -175,7 +175,7 @@
     "syntax_text": "the Perseus Digital Library's text of this edition, without the words Burnet brackets as not Plato's",
     "google_play": "yes",
     "product_id": "plato_gorgias_burnet",
-    "version": "e871845c5e7891de"
+    "version": "f290ff3a4c6fa191"
   },
   {
     "slug": "hermas",
@@ -196,7 +196,7 @@
     "syntax_source": "GLAUx (Alek Keersmaekers, KU Leuven): automatic annotation, not checked by hand",
     "syntax_license": "CC BY-SA 4.0",
     "product_id": "hermas_shepherd_lake",
-    "version": "2e3704208d16a83f",
+    "version": "c54f6d44f0e77c95",
     "free": true
   },
   {
@@ -220,7 +220,7 @@
     "syntax_license": "CC BY-SA 3.0 US (Ancient Greek Dependency Treebank); CC BY-SA 4.0 (Pedalion Trees, GLAUx)",
     "syntax_text": "the Perseus Digital Library's text of the speeches (W. R. M. Lamb's Loeb edition, 1930), which differs in places from Hude's text printed here",
     "product_id": "lysias_speeches_hude",
-    "version": "f0ecdbc147a7ae68",
+    "version": "6d6066165ea9919e",
     "free": true
   },
   {
@@ -243,7 +243,7 @@
     "dictionaries": "Dodson's lexicon of the New Testament",
     "google_play": "yes",
     "product_id": "newtestament_sbl",
-    "version": "efe1b2aa9a994e1c"
+    "version": "777d00a69a9bcf51"
   },
   {
     "slug": "odyssey",
@@ -267,7 +267,7 @@
     "syntax_text": "the Perseus Digital Library's text of the poem (A. T. Murray's Loeb edition, 1919), which differs in places from Allen's text printed here",
     "google_play": "yes",
     "product_id": "homer_odyssey_allen",
-    "version": "4b86b52a2704cc7c"
+    "version": "93d0cb177b82e2cf"
   },
   {
     "slug": "oedipuscoloneus",
@@ -356,7 +356,7 @@
     "syntax_license": "CC BY-SA 4.0",
     "google_play": "yes",
     "product_id": "plato_symposium_burnet",
-    "version": "e2fe680535a1ae33"
+    "version": "6ba1047935327a21"
   },
   {
     "slug": "theogony",
@@ -378,7 +378,7 @@
     "syntax_license": "CC BY-SA 3.0 US",
     "syntax_text": "the Perseus Digital Library's text of the poem (H. G. Evelyn-White's Loeb edition, 1914), which differs in places from Rzach's text printed here",
     "product_id": "hesiod_theogony_rzach",
-    "version": "97bc66a169f10402",
+    "version": "7e81a8f1956ed8cc",
     "free": true
   },
   {

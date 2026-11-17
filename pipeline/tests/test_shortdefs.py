@@ -49,7 +49,8 @@ class ShortDefinitions(unittest.TestCase):
         self.assertEqual(self.r("ζεύς", True), "Zeus")
         self.assertIsNone(self.r("ζεύς"))
         self.assertIsNone(self.r("θούριος"))            # "impetuous" in the Ajax, not "of Thurii"
-        self.assertEqual(self.r("ὅμηρος", True), "a hostage")  # the lemma as it is spelt comes first
+        self.assertEqual(self.r("ὅμηρος", True), "Homer")      # the name first, where every word has the capital
+        self.assertEqual(self.r("ὅμηρος"), "a hostage")
 
     def test_the_same_word_otherwise_written(self):
         self.assertEqual(self.r("θνήσκω"), "to die")           # iota subscript
@@ -73,9 +74,33 @@ class ShortDefinitions(unittest.TestCase):
         self.assertEqual(a("ὁμηρεύω", "ὅμηρος"), "a hostage")
         self.assertIsNone(a("Φειδώ", "φείδων"))               # never a common word's definition for a name
 
+    def test_a_name_and_a_common_word_in_one_text(self):
+        import sqlite3
+        db = sqlite3.connect(":memory:")
+        db.executescript("CREATE TABLE meta (key TEXT PRIMARY KEY, value TEXT NOT NULL);"
+                         "CREATE TABLE tokens (form TEXT, lemma TEXT);"
+                         "CREATE TABLE short_definitions (lemma_key TEXT PRIMARY KEY, source TEXT, definition TEXT);")
+        db.executemany("INSERT INTO tokens VALUES (?, ?)", [
+            ("Ὅμηρος", "Ὅμηρος"), ("ὁμήρους", "ὅμηρος"),      # the poet and the hostages: two rows
+            ("Διὸς", "Ζεύς"),                                  # a name alone: also under the small key, for older readers
+            ("Φείδωνα", "Φείδων"), ("ἔρωτι", "ἔρως"), ("Ἔρως", "Ἔρως")])
+        with tempfile.TemporaryDirectory() as d:
+            (Path(d) / "logeion-shortdefs.txt").write_text(LIST, encoding="utf-8")
+            build.build_short_definitions(db, Path(d), {}, {})
+        rows = dict(db.execute("SELECT lemma_key, definition FROM short_definitions"))
+        flag = db.execute("SELECT value FROM meta WHERE key = 'short_definitions_by_spelling'").fetchone()
+        db.close()
+        self.assertEqual(rows, {"Ὅμηρος": "Homer", "ὅμηρος": "a hostage", "Ζεύς": "Zeus", "ζεύς": "Zeus", "ἔρως": "love"})
+        self.assertEqual(flag, ("1",))
+
+    def test_a_line_break_in_a_document(self):
+        self.assertEqual(build.md_to_html("904 first verse\\\n914 second verse"), "<p>904 first verse<br>914 second verse</p>")
+        self.assertEqual(build.md_to_html("one line\nwrapped"), "<p>one line wrapped</p>")
+
     def test_words_printed_with_a_capital(self):
         rows = [("Διὸς", "ζεύς"), ("Ζεῦ", "ζεύς"), ("θούριος", "θούριος"), ("Δῆλον", "δῆλος"), ("δῆλον", "δῆλος")]
         self.assertEqual(build.capitalised_lemmas(rows), {"ζεύς"})
+        self.assertEqual(build.capitalised_lemmas([("Πῶλε", "πῶλος"), ("Πῶλος", "Πῶλος"), ("πώλους", "Πῶλος")]), {"πῶλος"})
 
 
 if __name__ == "__main__":
