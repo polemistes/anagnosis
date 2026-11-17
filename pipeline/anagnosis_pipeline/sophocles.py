@@ -1269,7 +1269,7 @@ def perseus_source(play: Play) -> str:
 # Plays whose commentary gives Jebb's italics to the Latin Perseus marks (commentary._latin;
 # 2026-11-17, the three on sale, their fix tables written against the italics); the others get it
 # at their next merge (their fix tables match the text as imported without it)
-LATIN_ITALICS = {"antigone", "ajax", "electra"}
+LATIN_ITALICS = {"ajax", "electra"}  # the Antigone: read from the page, its batches carry the italics
 
 
 def import_options(play: Play) -> dict:
@@ -1312,6 +1312,8 @@ def write_commentary(slug: str, sources: Path, texts: Path) -> int:
     # the authors' names that dropped out of Perseus's file before titles, read on Jebb's page
     # (jebb_authors.py: the answered job files transcriptions/sophocles/<slug>/authors-NN.tsv)
     from .jebb_authors import restored
+    # the authors' names restored on Perseus's text (jebb_authors); not reached for a play whose
+    # commentary is read from the page once its batches are checked (write_prose)
     names = restored(slug, sources)
     for wrong, right in names:
         if text.count(wrong) != 1:
@@ -1653,74 +1655,8 @@ COMMENTARY_FIXES: dict[str, list[tuple[str, str]]] = {
         ('rt. vελ, εἴλω', 'rt. ϝελ, εἴλω'),
         ('**vαύταις**', '**ναύταις**'),
     ],
-    "antigone": [
-        # a breathing Perseus left out (e\k for e)k): 27 f. ἐκ (leaf 82), 10 ἐχθρῶν and 489 ἐπιθυμία
-        # read on the page (leaves 78, 165); the rest evident (Simonides's ἐπεὶ δʼ ἱκανὸν … ἐποίησε,
-        # Arist. Rhet. 3. 2 § 14 ὁ Σιμωνίδης)
-        ('The compound with ὲκ usu.', 'The compound with ἐκ usu.'),
-        # words run together in Perseus (note on 341, leaf 139: "as simply =ἵπποις are, that (1)")
-        ('as simply =ἵπποιςare,that (1)', 'as simply =ἵπποις are, that (1)'),
-        ('τῶν ὲχθρῶν κακά', 'τῶν ἐχθρῶν κακά'),
-        ('οὐδ\' ὲπιθυμία', 'οὐδ\' ἐπιθυμία'),
-        ('μὴ ὲλλείπεσθαι', 'μὴ ἐλλείπεσθαι'),
-        ("ἐπεὶ δ' ικανὸν ἔδωκεν, ὲποίησε", "ἐπεὶ δ' ἱκανὸν ἔδωκεν, ἐποίησε"),
-        ('§ 14 ὸ Σιμωνίδης', '§ 14 ὁ Σιμωνίδης'),
-        ('αὐτῷ ὸ νικήσας', 'αὐτῷ ὁ νικήσας'),
-        # a circumflex Perseus keyed apart from its vowel (ou)\= for oi)=, h\= for h)=), and its
-        # mhde= for mhde\; and in the OC quotation an equals sign keyed against the next word
-        ('ἐξ ἀμφοῖν ͂ἐξ ἀλλήλοιν', 'ἐξ ἀμφοῖν = ἐξ ἀλλήλοιν'),
-        ('περὶ ὼ ͂ν ἂν βουληθῶμεν', 'περὶ ὧν ἂν βουληθῶμεν'),
-        ('ὴ ͂ κἀμὲ γάρ', 'ἦ κἀμὲ γάρ'),
-        ("οὶ ͂δ' ἡνίκ'", "οἶδ' ἡνίκ'"),
-        ('δεῖ εὶ ͂ναι', 'δεῖ εἶναι'),
-        ('μηδε ͂ ἰατρεύεσθαι', 'μηδὲ ἰατρεύεσθαι'),
-        ('**γτ ͂ν πατρῴαν', '**γῆν πατρῴαν'),  # gt=n for gh=n
-        ("**ἀλλ' εὺ ͂ γέ τοι**", "**ἀλλ' εὖ γέ τοι**"),
-        # Perseus's "<*>" (imported as "[?]") and capital rho keyed *(p ("*ʽπ"), each read on Jebb's
-        # page (2nd ed. 1891, scan sophocles03soph; notes 155, 215, 401, 473, 493, 630-635, 732, 1030,
-        # 1161, 1199; 2026-11-17): 41 unread places and two Ῥ words
-        ('*ʽπέας', 'Ῥέας'),
-        ('Ὀδυσῆι[?]', 'Ὀδυσῆϊ'),
-        ('a deceit practised on [?] disappointment, in regard to his [?]. The gen. λεχέων is one of relation [?]ed, perhaps, by the idea of privation [?] ἀπάτη were ἀποστέρησις).', 'a deceit practised on him, a disappointment, in regard to his marriage. The gen. λεχέων is one of relation, helped, perhaps, by the idea of privation (as if ἀπάτη were ἀποστέρησις).'),
-        ('(better, therefore, than they could tell [?] Schol.', '(and better, therefore, than they could tell us). Schol.'),
-        ('ὁπότε μὴ [?]σμῷ χρώμεθα', 'ὁπότε μὴ στοχασμῷ χρώμεθα'),
-        ('τῶν πρ[?] γινόμεθα. *H. F.*', 'τῶν πραγμάτων γινόμεθα. Eur. *H. F.*'),
-        ('ΑΓ. [?] δόμοισι.—ΧΟ. μάντιν οὐχ ἕτερον [?].', 'ΑΓ. ἄλαστα τὰν δόμοισι.—ΧΟ. μάντιν οὐχ ἕτερον ἄξομαι,'),
-        ('other than [?]self’', 'other than myself’'),
-        ('‘I need no [?] tell me that’', '‘I need no seer to tell me that’'),
-        ('imitated by the [?] of the *Rhesus*', 'imitated by the author of the *Rhesus*'),
-        ('ἄλλον [?]τάξομαι', 'ἄλλον οὐκ ἐπάξομαι'),
-        ('ᾔδη [?]δὲν μάντεως', 'ᾔδη τάδʼ· οὐδὲν μάντεως'),
-        ('Cp. *O.*<*\\*>* [?].', 'Cp. *O. C.* 403.'),
-        ('**ψῆφο[?]** 60.', '**ψῆφον**: cp. 60.'),
-        ('‘can it be [?]’', '‘can it be that…?’'),
-        ('for [?] gen., cp. Thuc. 1.140 τὸ Μεγαρέων [?]ισυα', 'for the gen., cp. Thuc. 1.140 τὸ Μεγαρέων ψήφισμα'),
-        ('the [?]ing of the MSS.', 'the reading of the MSS.'),
-        ('extant e[?]where', 'extant elsewhere'),
-        ('formed as [?] χαλεπαίνω', 'formed as ὀργαίνω, χαλεπαίνω'),
-        ('it [?] strong', 'it seems too strong'),
-        ('But [?]ain vehemence of language characte[?] Creon', 'But a certain vehemence of language characterises Creon'),
-        ('Instead of saying [?], ‘have you come here in displeas[?] he says, ‘have you come here to sto[?] me?’', 'Instead of saying merely, ‘have you come here in displeasure?’, he says, ‘have you come here to storm at me?’'),
-        ('there is a [?] contrast with the sisters: he had des[?] Ismene', 'there is a tacit contrast with the sisters: he had described Ismene'),
-        ('τίς πόθεν ει[?] ͂ς ἀνδρῶν;', 'τίς πόθεν εἶς ἀνδρῶν;'),
-        ("ἀλλ' εὖ[?] τοι τόδ' ἴστε", "ἀλλ' εὖ γέ τοι τόδ' ἴστε"),
-        ("ἀλλ' ἴσθι τοι τίσου[?] γ' ἀξίαν δίκην", "ἀλλ' ἴσθι τοι τίσουσά γ' ἀξίαν δίκην"),
-        ('*Ph.* 407 παν[?]ς ἂν λόγου', '*Ph.* 407 παντὸς ἂν λόγου'),
-        ('(1) ἀπορ[?] γνώμας μοι, thou guidest *my* views, [?]στὰς ἔχων', '(1) ἀπορθοῖς γνώμας μοι, thou guidest *my* views, χρηστὰς ἔχων'),
-        ('Is not she[?] then, a wrong-doer?', 'Is not she, then, a wrong-doer?'),
-        ('ἐπενά[?]οιξον', 'ἐπενάριξον'),
-        ('as usu. [?]πισφάττειν', 'as usu. ἐπισφάττειν'),
-        ('ἔρεβος ω[?] φαεννότατον', 'ἔρεβος ὦ φαεννότατον'),
-        ('his *ʽπιζοτόμοι gave', 'his Ῥιζοτόμοι gave'),
-        # Perseus's Betacode v left a Latin v: the digamma (ϝ, Ϝ; read on the page: Ajax leaves 139, 265, 293;
-        # Electra 137) or a mistyped ν (the word is plain)
-        ('εἴς τιvα', 'εἴς τινα'),
-        ('παρά τιvα', 'παρά τινα'),
-        ('επεδειξάμηv.', 'επεδειξάμην.'),
-        ('ἔστι vόσος', 'ἔστι νόσος'),
-        ('| vίκης τε', '| νίκης τε'),
-        ('μοι vέα |', 'μοι νέα |'),
-    ],
+    # the Antigone: none since its commentary is read from Jebb's page (COMMENTARY_FROM_PAGE,
+    # 2026-11-17); the fixes to Perseus's digitisation it had are in git history (before be034e2)
     "oedipuscoloneus": [
         # Perseus's Betacode v (digamma) where the page has another letter: leaf 155 (note 307)
         # υἱέος, leaf 285 (1181) νέα, leaf 232 (805) "√ΛΥ, another form of √ΛΟϜ", leaf 334 (1533)
