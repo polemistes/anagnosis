@@ -93,12 +93,9 @@ fun WordSheet(
 ) {
     val state = rememberModalBottomSheetState(skipPartiallyExpanded = true)
     val glossary = info.entries.filter { Dictionaries.isGlossary(it.lexiconSlug) }
-    // a button for each dictionary that has the word and is turned on, the text's own first
-    val ranking = Dictionaries.order(order)
-    val buttons = info.entries.filter { !Dictionaries.isGlossary(it.lexiconSlug) && it.lexiconSlug !in disabled }
-        .distinctBy { it.lexiconSlug }
-        .sortedBy { e -> ranking.indexOf(e.lexiconSlug).let { if (it < 0) ranking.size else it } }
-        .map { it.lexiconSlug to Dictionaries.label(it.lexiconSlug, it.lexiconTitle) }
+    // a button for each dictionary that has the word and is turned on, the text's own first; the
+    // glossary too where a short definition takes its place on the sheet
+    val buttons = Dictionaries.sheetButtons(info.entries, info.shortDefinition != null, disabled, order)
     // Without a gloss there is nothing to read on the sheet itself: open the only or the shorter dictionary at once.
     val initial = if (info.shortDefinition == null && glossary.isEmpty()) buttons.firstOrNull()?.first else null
     // a word looked up from the sheet takes its place: its dictionary opens anew

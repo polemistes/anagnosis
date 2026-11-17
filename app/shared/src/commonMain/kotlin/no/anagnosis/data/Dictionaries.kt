@@ -23,6 +23,25 @@ object Dictionaries {
 
     fun isGlossary(slug: String): Boolean = slug.endsWith("-glossary")
 
+    /** The name of the button that opens the text's own glossary. */
+    const val GLOSSARY_LABEL = "Glossary"
+
+    /**
+     * The word sheet's dictionary buttons, as (slug, name): each dictionary that has the word and
+     * is turned on, in the reader's order. The text's glossary is shown on the sheet itself where
+     * the word has no short definition; where it has one, the short definition stands there and
+     * the glossary gets a button of its own, first, so that both can be read.
+     */
+    fun sheetButtons(entries: List<Entry>, hasShortDefinition: Boolean, disabled: Set<String>, preferred: List<String>): List<Pair<String, String>> {
+        val ranking = order(preferred)
+        val glossary = if (!hasShortDefinition) emptyList()
+            else entries.filter { isGlossary(it.lexiconSlug) }.distinctBy { it.lexiconSlug }.map { it.lexiconSlug to GLOSSARY_LABEL }
+        return glossary + entries.filter { !isGlossary(it.lexiconSlug) && it.lexiconSlug !in disabled }
+            .distinctBy { it.lexiconSlug }
+            .sortedBy { e -> ranking.indexOf(e.lexiconSlug).let { if (it < 0) ranking.size else it } }
+            .map { it.lexiconSlug to label(it.lexiconSlug, it.lexiconTitle) }
+    }
+
     /**
      * The search key of an English headword, as the pipeline makes it (woodhouse.english_key):
      * lower case, letters and single spaces only ("Advised, Be" gives "advised be", "Ædile" "aedile").
