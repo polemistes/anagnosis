@@ -856,7 +856,7 @@ def write_prose(slug: str, sources: Path, texts: Path, transcriptions: Path, ind
 # because Perseus's digitisation of it is not his page (authors and titles added or respelt,
 # slips): sophocles-prose writes commentary-jebb.md from the notes batches once every one is
 # checked, and Perseus's (write_commentary, COMMENTARY_FIXES, jebb_authors.restored) until then
-COMMENTARY_FROM_PAGE = {"antigone"}
+COMMENTARY_FROM_PAGE = {"antigone", "ajax", "electra"}
 
 
 def write_transcribed_commentary(slug: str, texts: Path, transcriptions: Path, index_dir: Path | None = None) -> int:

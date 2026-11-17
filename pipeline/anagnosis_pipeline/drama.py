@@ -556,16 +556,22 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          # speech, which Jebb counts in the kommos 879-973)
          parts_window=14,
          # leaf = PDF page (Toronto, reprint 1914 of the 1896 edition; leaves 352-355 hidden): the Greek
-         # on the even leaves 94-294 (pp. 10-210), Jebb's translation facing it; the Appendix from 298
-         text_leaves=[(94, 295)]),
+         # on the even leaves 94-294 (pp. 10-210), Jebb's translation facing it; the Appendix from 298.
+         # notes_leaves: Jebb's commentary (kind notes) under the rule of every leaf 94-295, both pages,
+         # two columns, read from the page as the Antigone's (Perseus's digitisation is not his page)
+         text_leaves=[(94, 295)],
+         notes_leaves=[(94, 295)], notes_editor="jebb", notes_editor_name="Richard C. Jebb"),
     Play("electra", "Ἠλέκτρα", "Electra", "Σοφοκλῆς", "Sophocles", "tlg0011.tlg005",
          "Sophocles: The Plays and Fragments, Part VI: The Electra, ed. R. C. Jebb, Cambridge University Press, 1894",
          "sophoclesplaysfr06soph", "jebb", "R. C. Jebb", "sophocles_electra_jebb",
          treebank="tlg0011.tlg005.perseus-grc2.tb.xml", translation="kept", translator="Richard C. Jebb", trans_key="jebb", layout="jebb", app_rule="under", head_frac=0.095, speaker_trust=True, app_langs=("eng+grc", "grc+eng"),
          check_text="sophocles/electra/reference-grc.txt",
          # leaf = PDF page (University of Florida, reprint 1907 of the 1894 edition; leaves 0 and 345-349
-         # hidden): the Greek on the even leaves 102-298 (pp. 6-202), the translation facing it
-         text_leaves=[(102, 299)]),
+         # hidden): the Greek on the even leaves 102-298 (pp. 6-202), the translation facing it.
+         # notes_leaves: Jebb's commentary (kind notes) under the rule of every leaf 102-299, both
+         # pages, two columns, read from the page as the Antigone's (Perseus's is not his page)
+         text_leaves=[(102, 299)],
+         notes_leaves=[(102, 299)], notes_editor="jebb", notes_editor_name="Richard C. Jebb"),
     Play("trachiniae", "Τραχίνιαι", "Trachiniae", "Σοφοκλῆς", "Sophocles", "tlg0011.tlg001",
          "Sophocles: The Plays and Fragments, Part V: The Trachiniae, ed. R. C. Jebb, Cambridge University Press, 1892",
          "sophocles05soph", "jebb", "R. C. Jebb", "sophocles_trachiniae_jebb",

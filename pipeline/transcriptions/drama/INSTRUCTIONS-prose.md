@@ -515,6 +515,28 @@ use it, and do not open `texts/antigone/`; the page is the only authority.
 * Bold old-style figures: "1" is often read as I or l, "0" as o; "27 f." as "27 ξ." (the Greek
   model): take every heading from the image.
 
+### The Ajax's and the Electra's commentaries (Parts VII and VI)
+
+The **Ajax** (first edition 1896, the 1914 reprint, scan `playsfragmentswi07sophuoft`, leaves
+94-295) and the **Electra** (first edition 1894, the 1907 reprint, scan `sophoclesplaysfr06soph`,
+leaves 102-299) are read exactly as the Antigone's subsection above says (batches
+`transcriptions/drama/ajax/notes-NN.md`, `…/electra/notes-NN.md`; never use Perseus's text or
+`texts/<play>/`). What differs:
+
+* **Shared verses**: our text numbers the second speaker's part of a divided verse 981a, 1400a;
+  Jebb's headings never carry a letter: `## 981`, `## 1400` (a note on the second part has the
+  plain number too).
+* **The digamma** Jebb prints in etymologies as ϝ (Ajax: ἀϝ-ϝέρυσαν, ΑἴϜας; Electra: ϝεκ,
+  ἐϝέκηλος); the OCR reads it v or F: write ϝ (Ϝ for the capital).
+* **sc.**: Latin *sc.* (scilicet) is italic; "sc." in a reference to a play's scene ("Shakesp.
+  *As You Like It*, act 2, sc. 3. 56") is upright. Likewise read every *i.e.* off the image: the
+  Electra prints it upright at least once (p. 164, "χερί, i.e., ‘with a").
+* **Edges**: in the Electra's scan the outer edge of some right-hand pages is cut (leaf 184,
+  Whitelaw's "‘O" before "whom"): a letter you cannot see is written `[?]` and named under notes,
+  never guessed.
+* The Electra's scan is grey with ink show-through from the next page; the Ajax's is clean. In
+  both, faint marks that are not type are not transcribed.
+
 ## Earle's Medea: the commentary and the introduction
 
 M. L. Earle, *The Medea of Euripides*, New York, American Book Company, 1904 (scan
