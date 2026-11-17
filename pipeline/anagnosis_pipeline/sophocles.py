@@ -48,7 +48,9 @@ PLAYS = {p.slug: p for p in [
                 (384, "Second episode"), (582, "Second stasimon"), (631, "Third episode"),
                 (781, "Third stasimon"), (806, "Fourth episode: kommos"), (883, "Fourth episode"),
                 (944, "Fourth stasimon"), (988, "Fifth episode"), (1115, "Hyporcheme"), (1155, "Exodos"),
-                (1261, "Exodos: kommos"), (1348, "Exodos")]),
+                # 1347, not his list's 1348: his own text begins the Chorus's closing anapests with
+                # the verse numbered 1347 (πολλῷ τὸ φρονεῖν), so the exodos is taken up there
+                (1261, "Exodos: kommos"), (1347, "Exodos")]),
     Play("ajax", "aj", "tlg003", "Αἴας", "Ajax", "VII", "1896",
          treebank="tlg0011.tlg003.perseus-grc1.tb.xml",
          # Jebb's "Structure of the play" (introduction): "ἐπεισόδιον πρῶτον, 201—595 (including two
