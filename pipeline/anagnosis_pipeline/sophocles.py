@@ -416,11 +416,14 @@ def align_part_starts(doc, play: Play, window: int = 6) -> list[str]:
             k = target
             while k > 0 and isinstance(items[k - 1], (Speaker, Stage)):
                 k -= 1
-            if k > 0 and isinstance(items[k - 1], Section) and items[k - 1].level > 1:
-                enclosing = next((it for it in reversed(items[:k]) if isinstance(it, Section) and it.level == 1), None)
-                if enclosing is not None:
-                    items.insert(k - 1, Section(1, enclosing.kind, ""))
-                    moves.append(f"section {enclosing.kind} begun at {start} (Jebb's {_label})")
+            enclosing = next((it for it in reversed(items[:k]) if isinstance(it, Section) and it.level == 1), None)
+            if enclosing is not None:
+                if k > 0 and isinstance(items[k - 1], Section) and items[k - 1].level > 1:
+                    k -= 1
+                # also where no sub-section begins there (the Ajax's epiparodos 866: the check text's
+                # "=== kommos" there is not Jebb's)
+                items.insert(k, Section(1, enclosing.kind, ""))
+                moves.append(f"section {enclosing.kind} begun at {start} (Jebb's {_label})")
             continue
         _d, si, sline = min(near, key=lambda x: x[0])
         target = next((k for k, it in enumerate(items) if isinstance(it, Line) and base(it.n) == start), None)
@@ -509,6 +512,18 @@ def label_parts(doc, play: Play) -> None:
             if first not in named and c[first] > 1:
                 chosen[i] = first
                 named = set(chosen.values())
+    # a division that simply goes on in the next top-level section (Perseus begins a choral section
+    # inside Jebb's parodos at the strophe, the Ajax 172): one section, not a second heading with
+    # "(continued)"; its kind is that of the part with more verses, its sub-headings stay
+    order = sorted(chosen)
+    drop = [b for a, b in zip(order, order[1:]) if chosen[a] == chosen[b]]
+    for b in drop:
+        a = max(i for i in order if i < b and i not in drop)
+        if counts[b][chosen[b]] > counts[a][chosen[a]]:
+            doc.items[a].kind = doc.items[b].kind
+        counts[a][chosen[a]] += counts[b][chosen[b]]
+    for b in drop:
+        del chosen[b]
     seen: set[str] = set()
     for i, k in chosen.items():
         # "Exodos: kommos" (a lyric part named inside its division) counts as the division
@@ -517,6 +532,8 @@ def label_parts(doc, play: Play) -> None:
         base = name.split(":")[0]
         doc.items[i].label = f"{name} (continued)" if name in seen or (":" not in name and base in seen) else name
         seen.update({name, base})
+    for b in sorted(drop, reverse=True):
+        del doc.items[b]
 
 
 def add_transcribed_introduction(path: Path, checked: Path, play: Play, paras: list[str] | None = None,
