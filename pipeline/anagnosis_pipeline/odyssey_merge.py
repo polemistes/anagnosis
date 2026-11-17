@@ -269,7 +269,13 @@ def merge(transcriptions: Path, pages_dir: Path, texts: Path, sources: Path, lex
         md.append(f"## {heading}")
         md.append("\n\n".join(items))
         md.append("")
-    (out / "commentary-allen-apparatus.md").write_text("\n".join(md) + "\n", encoding="utf-8")
+    text = "\n".join(md) + "\n"
+    # a breve the transcription wrote as a caret after its letter, in two notes (3.72, 9.279)
+    for wrong, right in (("κατεσχε^τ επειγο^μ", "κατεσχε\u0306τ επειγο\u0306μ"), ("δε^οατʼ", "δε\u0306οατʼ")):
+        if wrong not in text:
+            problems.append(f"apparatus: fix not applied, not found: {wrong}")
+        text = text.replace(wrong, right)
+    (out / "commentary-allen-apparatus.md").write_text(text, encoding="utf-8")
     print(f"wrote {out / 'commentary-allen-apparatus.md'}: {len(notes)} notes, {sum(len(i) for _, i in notes)} items")
 
     # --- the treebank, re-aligned to Allen's text
