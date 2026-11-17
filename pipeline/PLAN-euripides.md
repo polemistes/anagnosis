@@ -153,8 +153,8 @@ matter there (a pass stays only if it catches real errors):
 7. Translation from Perseus (merge only; the translation's segments re-filed where our verse
    numbers differ, as `sophocles-prose` does); sigla.md from Murray's Sigla page (the volume's,
    one per volume, shared by its plays) with the play's own note from the persons page;
-   glossary.md, aliases.tsv (no shortdefs.tsv: no short definition is written by us,
-   texts/README.md, "Short definitions"); about.md with `product_id` and
+   aliases.tsv (no shortdefs.tsv and no glossary.md: nothing of the kind is written by us,
+   texts/README.md, "Short definitions" and "No glossaries"); about.md with `product_id` and
    `# release: 2028-01-01`, no sale mark; the texts/README.md section waits for the release
    (it would describe a text the public cannot have); a play/README.md row likewise.
 8. `build --only <slug>`, `check`, `catalog` (the play goes to catalog-author.json only), the

@@ -128,9 +128,8 @@ converter and came out as Greek letters.)
   (4–5 % of the words: διψυχία, διψυχέω, ὀξυχολία, σχισμή, πτελέα, ἰτέα, παραφυάς, ἡμίξηρος,
   συμψέλιον, ἀδίστακτος …) are in LSJ only: fine, LSJ is there. No `shortdefs.tsv` for the lemmas
   Logeion's list lacks (no short definition is written by us: texts/README.md, "Short
-  definitions"; the 73 written for this text were removed on 2026-11-17); `glossary.md` for the names (Hermas, Rhoda, Clement, Grapte, Maximus,
-  Cumae, Arcadia, the Tiber, the twelve mountains' virgins' and women's names in Sim. 9) and for
-  Hermas's own words where a gloss from Lake's English helps; rows in `pipeline/homographs.tsv` for
+  definitions"; the 73 written for this text were removed on 2026-11-17); no `glossary.md` either (the 43 entries written for this text were removed on 2026-11-17: nothing
+  of ours may stand as a reference work); rows in `pipeline/homographs.tsv` for
   every homograph group this text brings in (the homograph rule of 2026-11-08: list all, mark the
   one the tag identifies). GLAUx's gap marker (a lemma written `E`, 199 tokens) is an error of
   its source: those words get the analyser's lemma (the review list).
@@ -226,10 +225,10 @@ converter and came out as Greek letters.)
    introduction (1903)", "Taylor: Hermas and the Gospels (1906)").
 8. **The appendix.** `appendix.md` from `batch-latin.md` and the Perseus English, as described;
    read it against the pages by eye (the Greek islands, the sigla of the apparatus items there).
-9. **Translation, sigla, glossary, aliases, homographs, about.md, README** (no short definitions).
+9. **Translation, sigla, aliases, homographs, about.md, README** (no short definitions, no glossary).
    The merge writes `eng-lake.txt` and `aliases.tsv`; read their logs (sections of the translation
    with no verse, lemmas no dictionary has under any spelling). `sigla.md` from Lake's introduction
-   (step 2's leaves). `glossary.md`, the `homographs.tsv` rows (the homograph
+   (step 2's leaves). The `homographs.tsv` rows (the homograph
    groups of this text's lemmas, classified as on 2026-11-08: tag letters that fit each homograph;
    an agent, then a reviewer). `about.md` as texts/truestory/about.md with `ref_edition`,
    `ref_translation`, `ref_commentary` (Taylor; Lake's notes), `syntax` "machine-made (GLAUx), not

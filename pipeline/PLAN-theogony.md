@@ -44,11 +44,11 @@ As PLAN-drama.md "Steps for each play", with the play's slug `theogony`:
 6. Paley's notes: `drama-prose theogony notes fetch|ocr|draft`, batches of eight pages
    (INSTRUCTIONS-prose.md with its Paley section), checker, merge again.
 7. Introduction: the Epitome (and the preface if chosen), `drama-prose theogony intro …`.
-8. Translation, sigla.md (from leaf 12, with the preface's classes Ω Ψ Φ), glossary.md (the
-   Theogony's catalogues of names: Nereids, Oceanids, rivers, Titans; expect many),
-   about.md, texts/README.md section, play/README.md row. (No shortdefs.tsv any more: no short
+8. Translation, sigla.md (from leaf 12, with the preface's classes Ω Ψ Φ), about.md,
+   texts/README.md section, play/README.md row. (No shortdefs.tsv any more: no short
    definition is written by us, texts/README.md, "Short definitions"; the 69 written at this
-   step were removed on 2026-11-17.)
+   step were removed on 2026-11-17. No glossary.md either: the 120 entries written at
+   this step were removed the same day, texts/README.md, "No glossaries".)
 9. `build --only theogony`, `check`, the asset pack app/packs/theogony/, `catalog`; then the
    emulator check of PLAN-drama.md step 10 for this one text. A reader release is the author's
    call (none is planned for the Theogony alone).
@@ -104,11 +104,11 @@ As PLAN-drama.md "Steps for each play", with the play's slug `theogony`:
 6. Paley's notes: `drama-prose theogony notes fetch|ocr|draft`, batches of eight pages
    (INSTRUCTIONS-prose.md with its Paley section), checker, merge again.
 7. Introduction: the Epitome (and the preface if chosen), `drama-prose theogony intro …`.
-8. Translation, sigla.md (from leaf 12, with the preface's classes Ω Ψ Φ), glossary.md (the
-   Theogony's catalogues of names: Nereids, Oceanids, rivers, Titans; expect many),
-   about.md, texts/README.md section, play/README.md row. (No shortdefs.tsv any more: no short
+8. Translation, sigla.md (from leaf 12, with the preface's classes Ω Ψ Φ), about.md,
+   texts/README.md section, play/README.md row. (No shortdefs.tsv any more: no short
    definition is written by us, texts/README.md, "Short definitions"; the 69 written at this
-   step were removed on 2026-11-17.)
+   step were removed on 2026-11-17. No glossary.md either: the 120 entries written at
+   this step were removed the same day, texts/README.md, "No glossaries".)
 9. `build --only theogony`, `check`, the asset pack app/packs/theogony/, `catalog`; then the
    emulator check of PLAN-drama.md step 10 for this one text. A reader release is the author's
    call (none is planned for the Theogony alone).

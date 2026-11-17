@@ -169,17 +169,17 @@ line 503. Everything else is plain text.
 
 ## `dictionary-<slug>.md` (optional)
 
-A dictionary only this text carries, in the format of `glossary.md`: each entry under its
-lemma, offered on the word sheet as a button of its own (the New Testament's Dodson).
+A printed dictionary only this text carries (the New Testament's Dodson), offered on the word
+sheet as a button of its own. Each entry stands under a `## ` heading, which is the lemma
+exactly as it appears in `tokens.tsv`; the body is the dictionary's own entry, in Markdown.
 
-## `glossary.md` (optional)
+## No glossaries
 
-Hand-written dictionary entries for words the lexica lack, typically proper names:
-
-    ## Ἀντιγόνη
-    **Ἀντιγόνη, ἡ** Antigone, daughter of Oedipus ...
-
-The heading is the lemma exactly as it appears in `tokens.tsv`; the body is Markdown.
+Until 2026-11-17 the texts had a `glossary.md`: entries for names the dictionaries lack,
+written by agents. All are removed, and none is to be written (the author's rule: nothing of
+ours may stand where it could be taken for part of a text or a reference work; what is
+presented as human-made must be made by humans). A name no dictionary has stays without an
+entry.
 
 ## Short definitions
 
@@ -290,8 +290,7 @@ files here.
   (`INTRODUCTION.md`, `introduction-NN.md`) and added after Perseus's chapters by
   `import-sophocles`; the Appendix (`APPENDIX.md`, `appendix-NN.md`) is merged into
   `appendix.md` by `merge-sophocles-appendix`.
-* `glossary.md` (names the dictionaries lack) is written by hand; `sigla.md`
-  gives Jebb's note on his symbols.
+* `sigla.md` gives Jebb's note on his symbols.
 * Done so far: all six plays (Ajax, Electra, the Trachiniae, the Oedipus Tyrannus, the Oedipus
   at Colonus and the Philoctetes). The last four were made by the drama pipeline's route (`pipeline/PLAN-sophocles.md`: Tesseract
   OCR of the scan matched to Jebb's Perseus text, agents deciding the flagged places from the page,
@@ -343,8 +342,7 @@ domain; the transcription is published under CC BY-SA 4.0.
   of our longer lyric verses stands at the verse that holds its lemma. His lists of editions and
   translations and his appendices are left out. The Eumenides has no commentary: Sidgwick's notes are in a second
   volume (1887) of which the Internet Archive holds no scan; its introduction is volume I's.
-* `sigla.md` (his manuscripts, signs and the editors he cites) and `glossary.md` are written by
-  hand.
+* `sigla.md` (his manuscripts, signs and the editors he cites) is written by hand.
 
 ## Aristophanes' Clouds (`texts/clouds/`)
 
@@ -368,7 +366,7 @@ edition is in the public domain; the transcription is published under CC BY-SA 4
 * Lemmas, morphology and syntax (`tokens.tsv`, `syntax-nodes.tsv`): GLAUx (automatic, CC BY-SA
   4.0) aligned to Starkie's words; where he reads otherwise, the analyser, listed in
   `pipeline/build/clouds-review.tsv` and corrected by hand in `drama_fixes.py`.
-* `sigla.md`, `glossary.md` (names and comic words) and `aliases.tsv` are written by hand.
+* `sigla.md` and `aliases.tsv` are written by hand.
 
 ## Hesiod's Theogony (`texts/theogony/`)
 
@@ -396,8 +394,7 @@ The editions are in the public domain; the transcription is published under CC B
   Treebank 2.1 (annotated by hand, CC BY-SA 3.0 US) aligned to Rzach's words; where he reads
   otherwise, the analyser, listed in `pipeline/build/theogony-review.tsv` and corrected by hand
   in `drama_fixes.py`.
-* `sigla.md`, `glossary.md` (the names of the catalogues) and `aliases.tsv` are written by
-  hand.
+* `sigla.md` and `aliases.tsv` are written by hand.
 
 ## Lucian's A True Story (`texts/truestory/`)
 
@@ -433,8 +430,7 @@ the public domain; the transcription is published under CC BY-SA 4.0.
 * Lemmas, morphology and syntax (`tokens.tsv`, `syntax-nodes.tsv`): GLAUx 0062-012 (automatic,
   CC BY-SA 4.0) aligned to Nilén's words; where he reads otherwise, the analyser, listed in
   `pipeline/build/truestory-review.tsv` and corrected by hand in `drama_fixes.py`.
-* `sigla.md` (from Nilén's praefatio), `glossary.md` (the names and Lucian's invented words) and
-  `aliases.tsv` are written by hand.
+* `sigla.md` (from Nilén's praefatio) and `aliases.tsv` are written by hand.
 
 ## The Shepherd of Hermas (`texts/hermas/`)
 
@@ -477,8 +473,7 @@ editions are in the public domain; the transcription is published under CC BY-SA
   CC BY-SA 4.0) aligned to Lake's words; garbled lemmas corrected in `drama_fixes.py`
   (`LEMMA_FIXES["hermas"]`). The numerals keep their keraia (μʹ). Koine spellings lead to
   Abbott-Smith through `aliases.tsv`.
-* `sigla.md` (from Lake's introduction and his apparatus) and `glossary.md` (the names) are
-  written by hand.
+* `sigla.md` (from Lake's introduction and his apparatus) is written by hand.
 
 ## Lysias' speeches (`texts/lysias/`)
 
@@ -540,8 +535,7 @@ the transcription is published under CC BY-SA 4.0. The Eroticus (XXXV) is left o
   trees, the analyser, listed in `pipeline/build/lysias-review.tsv`; garbled lemmas and names
   read as common words are corrected in `drama_fixes.py` (`LEMMA_FIXES["lysias"]`,
   `HAND_ANALYSES["lysias"]`).
-* `sigla.md` (from Hude's SIGLA page), `glossary.md` (188 names) and `aliases.tsv` are written
-  by hand.
+* `sigla.md` (from Hude's SIGLA page) and `aliases.tsv` are written by hand.
 
 ## The Odyssey (`texts/odyssey/`)
 
@@ -659,7 +653,7 @@ built text's `version`, by which the reader knows that a downloaded text is out 
 
 ## Other documents (`sigla.md`, `introduction.md`, `appendix.md`)
 
-Any other `*.md` file in the work's folder (not `commentary-*.md`, `glossary.md` or `about.md`) becomes a
+Any other `*.md` file in the work's folder (not `commentary-*.md`, `dictionary-*.md` or `about.md`) becomes a
 free-standing document in the bundle, with `# key: value` headers for title, source and
 license. `sigla.md` lists the manuscripts and symbols of the critical notes; the app shows it
 from the Manuscripts button of the Apparatus view.

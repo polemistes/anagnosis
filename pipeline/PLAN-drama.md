@@ -133,8 +133,8 @@ when finding page ranges.
   for the words the treebank lacks or reads otherwise, the review list
   `pipeline/build/<slug>-review.tsv` as for the Gorgias; an agent goes through the review list
   once and fixes the entries whose lemma is empty or plainly wrong by `HAND_ANALYSES` /
-  `LEMMA_FIXES` tables in drama.py (per play); nothing more. `glossary.md` for names the
-  dictionaries lack, `aliases.tsv` where a lemma stands under another headword — as for Ajax
+  `LEMMA_FIXES` tables in drama.py (per play); nothing more. No `glossary.md` (no glossary of names is written: nothing of ours may stand as a reference work, the author's rule of 2026-11-17);
+  `aliases.tsv` where a lemma stands under another headword — as for Ajax
   and the Gorgias. No short definition is written (the author's rule of 2026-11-17,
   texts/README.md, "Short definitions"): a lemma Logeion's list lacks has none.
 * **about.md** as `texts/gorgias/about.md`, with `ref_edition`, `ref_translation`,
@@ -200,8 +200,8 @@ when finding page ranges.
   (scan aristophaniscomo04aris, the Lysistrata and Thesmophoriazusae volume): crop the
   full-width small-type block at the foot of each page; his introduction too. His verse
   translation is not used (softened); the Athenian Society's prose is. Laconian forms the
-  analyser cannot parse stay without lemma and are listed in the review file; the glossary gets
-  the commonest (σιώ, ναί, τώ, ποττάν, ὑμές …) with their Attic equivalents.
+  analyser cannot parse stay without lemma and are listed in the review file (no glossary is
+  written for them).
 
 ### Releases
 
@@ -316,13 +316,13 @@ Commit the modules with their tests before any play's step 2.
    `INSTRUCTIONS-prose.md`, eight pages each; checker; commit every few batches;
    `merge-drama <slug>` again and read the merge log (notes it could not place).
 7. **Introduction** (and the translation pages for the Clouds): the same with `intro` (`trans`).
-8. **Translation, sigla, glossary, about.md, README.** `merge-drama` writes
+8. **Translation, sigla, about.md, README.** `merge-drama` writes
    the translation; read its log (speeches it could not match: fix the SPEAKERS map, or the
    Greek speech list where the translation merges two speeches). Write sigla.md from the
-   editor's page, glossary.md (names; Laconian for the Lysistrata), about.md, the
+   editor's page, about.md, the
    texts/README.md section and the play/README.md row. No shortdefs.tsv: no short definition
    is written by us (texts/README.md, "Short definitions"); the lemmas `check` counts as
-   without one stay so. Commit.
+   without one stay so. No glossary.md either (texts/README.md, "No glossaries"). Commit.
 9. **Build.** `build --only <slug>`; `check`; the pack: copy app/packs/gorgias/build.gradle.kts
    to app/packs/<slug>/ with the slug changed, add the slug to the list in app/settings.gradle.kts
    and to `assetPacks` in app/androidApp/build.gradle.kts; `catalog`. Commit. Do not start the
