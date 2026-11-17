@@ -61,9 +61,14 @@ PLAYS = {p.slug: p for p in [
                 (1223, "Exodos")]),
     Play("electra", "el", "tlg005", "Ἠλέκτρα", "Electra", "VI", "1894",
          treebank="tlg0011.tlg005.perseus-grc2.tb.xml",
+         # Jebb's "Structure of the play" (introduction): "ἐπεισόδιον δεύτερον, 516—1057, including a
+         # κομμός, 823—870", "ἐπεισόδιον τρίτον, 1098—1383, including a μέλος ἀπὸ σκηνῆς, 1232—1286",
+         # "ἔξοδος, 1398—1510, including a κομμός, 1398—1441"
          parts=[(1, "Prologue"), (121, "Parodos"), (251, "First episode"), (472, "First stasimon"),
-                (516, "Second episode"), (1058, "Second stasimon"), (1098, "Third episode"),
-                (1384, "Third stasimon"), (1398, "Exodos")]),
+                (516, "Second episode"), (823, "Second episode: kommos"), (871, "Second episode"),
+                (1058, "Second stasimon"), (1098, "Third episode"), (1232, "Third episode: song from the stage"),
+                # 1288, not his 1287: his own text gives 1287 (ἇς ἐγὼ … λαθοίμαν) to Electra's song
+                (1288, "Third episode"), (1384, "Third stasimon"), (1398, "Exodos: kommos"), (1442, "Exodos")]),
     Play("oedipustyrannus", "ot", "tlg004", "Οἰδίπους Τύραννος", "Oedipus Tyrannus", "I", "1893",
          treebank="tlg0011.tlg004.perseus-grc1.tb.xml",
          parts=[(1, "Prologue"), (151, "Parodos"), (216, "First episode"), (463, "First stasimon"),
