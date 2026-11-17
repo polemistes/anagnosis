@@ -42,7 +42,7 @@
     "syntax_text": "the Perseus Digital Library's text of the play (F. Storr's Loeb edition, 1913), which differs in places from Jebb's text printed here",
     "google_play": "yes",
     "product_id": "sophocles_ajax_jebb",
-    "version": "9c75c015392d7ac0"
+    "version": "bdc3ffd4c42fc069"
   },
   {
     "slug": "antigone",
@@ -66,7 +66,7 @@
     "syntax_text": "the Perseus Digital Library's text of the play as the treebank's annotators had it, which differs in a few words from the text printed here",
     "google_play": "yes",
     "product_id": "sophocles_antigone_jebb",
-    "version": "8d8d27f0d8e9e516"
+    "version": "f8dcb1882660ff30"
   },
   {
     "slug": "choephoroi",
@@ -117,7 +117,7 @@
     "title_en": "Electra",
     "author_en": "Sophocles",
     "description": "The Greek text of Sir Richard Jebb's edition, with his translation, critical apparatus and commentary, and the Liddell–Scott dictionaries. Tap any word for its meaning and form. The syntax of the sentences is annotated by hand; the syntax trees were made on the Perseus Digital Library's text of the play (F. Storr's Loeb edition, 1913), which differs in places from Jebb's text printed here, and where a sentence differs the syntax view shows both and marks the words.",
-    "edition": "Sophocles: The Plays and Fragments, Part VI: The Electra, ed. R. C. Jebb, Cambridge University Press, 1894 (Perseus Digital Library)",
+    "edition": "Sophocles: The Plays and Fragments, Part VI: The Electra, ed. R. C. Jebb, Cambridge University Press, 1894",
     "app_id": "no.anagnosis.electra",
     "ref_edition": "R. C. Jebb, Sophocles: The Plays and Fragments, Part VI: The Electra, Cambridge University Press 1894",
     "ref_translation": "R. C. Jebb, Sophocles: The Plays and Fragments, Part VI: The Electra, Cambridge University Press 1894",
@@ -132,7 +132,7 @@
     "syntax_text": "the Perseus Digital Library's text of the play (F. Storr's Loeb edition, 1913), which differs in places from Jebb's text printed here",
     "google_play": "yes",
     "product_id": "sophocles_electra_jebb",
-    "version": "ed9f0c9a4a7e2978"
+    "version": "8d22d0c59ea0dfe9"
   },
   {
     "slug": "eumenides",
