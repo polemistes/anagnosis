@@ -97,3 +97,9 @@
 
 ## Εὐθύδημος
 **Εὐθύδημος, ὁ** Euthydemus, son of Diocles, another such young man (222b).
+
+## Ἦλις
+**Ἦλις, -ιδος, ἡ** Elis, in the Peloponnese: there and in Boeotia, Pausanias says, the custom about love is simple (182b).
+
+## Διοκλῆς
+**Διοκλῆς, -έους, ὁ** Diocles, father of the Euthydemus whom Alcibiades names among those Socrates has treated as he treated him (222b; Bury on the passage).
