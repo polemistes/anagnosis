@@ -105,9 +105,6 @@
 ## ἄγγος
 **ἀγγεῖον, ου, τό** a vessel, flask.
 
-## ἄγε
-**ἄγε** come now! (interjection)
-
 ## ἀγέλη
 **ἀγέλη, ης, ἡ** a flock, herd.
 
@@ -585,9 +582,6 @@
 ## ἀκρίβεια
 **ἀκρίβεια, ας, ἡ** strictness, accuracy, exactness, attention to detail, scrupulousness.
 
-## ἀκριβέστερον
-**ἀκριβέστερον** more accurately, more exactly
-
 ## ἀκριβής
 **ἀκριβέστατος** most exact, strict.
 
@@ -908,9 +902,6 @@
 
 ## ἀμώμητος
 **ἀμώμητος, ον** without blame or fault, unblemished.
-
-## ἄμωμον
-**ἄμωμον** amomum, an Indian spice plant
 
 ## ἄμωμος
 **ἄμωμος, ον** blameless, without blemish, unblemished, faultless.
@@ -2145,9 +2136,6 @@
 ## ἀρνέομαι
 **ἀρνέομαι** (a) I deny (a statement), (b) I repudiate (a person, or belief).
 
-## Ἀρνί
-**Ἀρνί** Arni, an ancestor of Jesus in Luke's genealogy
-
 ## ἀρνίον
 **ἀρνίον, ου, τό** (originally: a little lamb, but diminutive force was lost), a lamb.
 
@@ -2789,9 +2777,6 @@
 
 ## βασιλεία
 **βασιλεία, ας, ἡ** kingship, sovereignty, authority, rule, especially of God, both in the world, and in the hearts of men; hence: kingdom, in the concrete sense.
-
-## βασίλειον
-**βασίλειον** palace, royal residence; (as adj.) royal
 
 ## βασίλειος
 **βασίλειος, ον** courtiers, palaces, a body of kings, royal.
@@ -4098,9 +4083,6 @@
 ## δίς
 **δίς** twice, entirely, utterly.
 
-## δισμυριάς
-**δισμυριάς** twenty thousand
-
 ## διστάζω
 **διστάζω** I waver, doubt, hesitate.
 
@@ -4778,9 +4760,6 @@
 
 ## ἐκπέμπω
 **ἐκπέμπω** I send out, send forth.
-
-## ἐκπερισσῶς
-**ἐκπερισσῶς** beyond measure, vehemently
 
 ## ἐκπετάννυμι
 **ἐκπετάννυμι** I spread (stretch) out, expand, extend.
@@ -6603,9 +6582,6 @@
 ## ζηλόω
 **ζηλόω** (a) intrans: I am jealous, (b) trans: I am jealous of, with acc. of a person; I am eager for, am eager to possess, with acc. of a thing.
 
-## Ζηλωτής
-**Ζηλωτής** the Zealot, surname of Simon the apostle
-
 ## ζηλωτής
 **ζηλωτής, οῦ, ὁ** one who is eagerly devoted to a person or a thing, a zealot.
 
@@ -7293,9 +7269,6 @@
 ## ἵνα
 **ἵνα** in order that, so that.
 
-## ἱνατί
-**ἱνατί** why? for what reason?
-
 ## Ἰόππη
 **Ἰόππη, ης, ἡ** Joppa, a coast town of Judea, west-north-west of Jerusalem.
 
@@ -7340,9 +7313,6 @@
 
 ## ἱππεύς
 **ἱππεύς, έως, ὁ** a horse-soldier, a mounted soldier, a cavalryman.
-
-## ἱππικόν
-**ἱππικόν** cavalry, horsemen
 
 ## ἵππος
 **ἵππος, ου, ὁ** a horse.
@@ -7668,9 +7638,6 @@
 ## καλοποιέω
 **καλοποιέω** I do well, act honorably, do what is right.
 
-## Καλός
-**Καλός** Fair (Καλοὶ Λιμένες, Fair Havens, a harbour of Crete)
-
 ## καλός
 **καλός, ή, όν** beautiful, as an outward sign of the inward good, noble, honorable character; good, worthy, honorable, noble, and seen to be so.
 
@@ -7757,9 +7724,6 @@
 
 ## καταβαρέω
 **καταβαρέω** I burden, oppress, weigh down.
-
-## καταβαρύνομαι
-**καταβαρύνομαι** to be weighed down, be heavy
 
 ## κατάβασις
 **κατάβασις, εως, ἡ** descent.
@@ -9486,9 +9450,6 @@
 ## μεγιστάν
 **μεγιστάν, ᾶνος, ὁ** a great one, a lord; a courtier, satrap, nobleman.
 
-## μέγιστος
-**μέγιστος** greatest, very great
-
 ## μεθερμηνεύω
 **μεθερμηνεύω** I translate (from one language into another), interpret.
 
@@ -9800,9 +9761,6 @@
 
 ## μήτι
 **μήτι** if not, unless, whether at all.
-
-## μήτιγε
-**μήτιγε** how much more (then), not to speak of
 
 ## μήτρα
 **μήτρα, ας, ἡ** the womb.
@@ -11781,14 +11739,8 @@
 ## περισσός
 **περισσός, ή, όν** more, greater, excessive, abundant, exceedingly, vehemently; noun: preeminence, advantage.
 
-## περισσότερον
-**περισσότερον** more, all the more, the more abundantly
-
 ## περισσότερος
 **περισσότερος, τέρα, τερον** greater, more, even more, more abundantly.
-
-## περισσοτέρως
-**περισσοτέρως** more abundantly, all the more, especially
 
 ## περισσῶς
 **περισσῶς** greatly, exceedingly, abundantly, vehemently.
@@ -12981,9 +12933,6 @@
 ## πώρωσις
 **πώρωσις, εως, ἡ** hardness of heart, obtuseness.
 
-## πώς
-**πώς** somehow, in some way, perhaps
-
 ## πῶς
 **πῶς** how, in what manner, by what means.
 
@@ -13187,9 +13136,6 @@
 
 ## Σαλαμίς
 **Σαλαμίς, ῖνος, ἡ** Salamis, a city at the eastern end of Cyprus.
-
-## Σαλείμ
-**Σαλείμ** Salim, a place near Aenon
 
 ## σαλεύω
 **σαλεύω** I shake, excite, disturb in mind, stir up, drive away.
@@ -15255,9 +15201,6 @@
 ## ὑπερέκεινα
 **ὑπερέκεινα** beyond.
 
-## ὑπερεκπερισσοῦ
-**ὑπερεκπερισσοῦ** beyond all measure, most earnestly
-
 ## ὑπερεκτείνω
 **ὑπερεκτείνω** I over-stretch, stretch out beyond the measure assigned to me.
 
@@ -15551,9 +15494,6 @@
 
 ## φάρμακος
 **φάρμακος, οῦ, ὁ** a magician, sorcerer.
-
-## φαρμακός
-**φαρμακός** sorcerer, magician
 
 ## φάσις
 **φάσις, εως, ἡ** report, tidings, information.

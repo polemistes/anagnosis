@@ -82,31 +82,6 @@ GENDER = {"masculine": "m", "feminine": "f", "neuter": "n"}
 CASE = {"nominative": "n", "genitive": "g", "dative": "d", "accusative": "a", "vocative": "v"}
 DEGREE = {"comparative": "c", "superlative": "s"}
 
-# Lemmas Dodson lacks (forms MACULA lemmatises apart from their headword), with short glosses.
-HAND_GLOSSES = {
-    "ἱνατί": "why? for what reason?",
-    "περισσότερον": "more, all the more, the more abundantly",
-    "ἐκπερισσῶς": "beyond measure, vehemently",
-    "καταβαρύνομαι": "to be weighed down, be heavy",
-    "Ἀρνί": "Arni, an ancestor of Jesus in Luke's genealogy",
-    "Ζηλωτής": "the Zealot, surname of Simon the apostle",
-    "βασίλειον": "palace, royal residence; (as adj.) royal",
-    "Σαλείμ": "Salim, a place near Aenon",
-    "ἀκριβέστερον": "more accurately, more exactly",
-    "Καλός": "Fair (Καλοὶ Λιμένες, Fair Havens, a harbour of Crete)",
-    "πώς": "somehow, in some way, perhaps",
-    "μήτιγε": "how much more (then), not to speak of",
-    "περισσοτέρως": "more abundantly, all the more, especially",
-    "ὑπερεκπερισσοῦ": "beyond all measure, most earnestly",
-    "ἄγε": "come now! (interjection)",
-    "μέγιστος": "greatest, very great",
-    "ἱππικόν": "cavalry, horsemen",
-    "δισμυριάς": "twenty thousand",
-    "ἄμωμον": "amomum, an Indian spice plant",
-    "φαρμακός": "sorcerer, magician",
-}
-
-
 def fetch_nt(sources: Path) -> None:
     """Clone or download the sources into pipeline/sources/nt/ (skipping what is there)."""
     nt = sources / "nt"
@@ -481,24 +456,23 @@ def import_nt(sources: Path, texts: Path, build: Path, slug: str = "newtestament
         f.write("# lemma\theadword under which LSJ / Middle Liddell list it (made by 'import-nt')\n")
         for lemma in sorted(aliases):
             f.write(f"{lemma}\t{aliases[lemma]}\n")
-    # Dodson's whole lexicon, under the New Testament's lemmas: a dictionary of the text's own
+    # Dodson's whole lexicon, under the New Testament's lemmas: a dictionary of the text's own.
+    # Only Dodson's entries: a lemma Dodson lacks has no entry here, and nothing is written for it
     dictionary = [f"# {k}: {v}" for k, v in DODSON_META.items()] + [""]
-    no_entry = []
     for lemma in sorted(counts, key=lambda l: (greek.strip_diacritics(l), l)):
         d = dodson_of(lemma)
         if d is not None:
             dictionary += [f"## {lemma}", f"**{d['orth']}** {d['full']}", ""]
-        elif lemma in HAND_GLOSSES:
-            dictionary += [f"## {lemma}", f"**{lemma}** {HAND_GLOSSES[lemma]}", ""]
     (out / "dictionary-dodson.md").write_text("\n".join(dictionary), encoding="utf-8")
     (out / "glossary.md").unlink(missing_ok=True)
-    # short definitions: Logeion's, else the brief gloss of Dodson's own entry, unchanged; for a
-    # lemma LSJ lacks (mostly names) always Dodson's, since Logeion might only match it loosely
-    # (Ἠλίας, ἡλιάς). A lemma that neither has gets none: no definition is written by us
-    # (texts/README.md, shortdefs.tsv), so HAND_GLOSSES gives no short definition
+    # short definitions: Logeion's, else the brief gloss of Dodson's own entry, unchanged (the
+    # column "English Definition (brief)" of his lexicon); for a lemma LSJ lacks (mostly names)
+    # always Dodson's, since Logeion might only match it loosely (Ἠλίας, ἡλιάς). A lemma that
+    # neither has gets none: no definition is written by us (texts/README.md)
     exact, loose = load_logeion_shortdefs(sources)
     shortdefs = ["# Short definitions from Dodson's lexicon where Logeion has none, or the word is not in LSJ (made by 'import-nt'). lemma\tdefinition"]
     missing_set = set(missing)
+    no_entry = []
     for lemma in sorted(counts):
         if lemma not in missing_set and resolve_short_definition(lemma, exact, loose) is not None:
             continue
