@@ -521,6 +521,20 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          notes_scan="aristophaniscomo04aris"),
     # Sophocles in Jebb's edition (pipeline/PLAN-sophocles.md): text and apparatus by this route;
     # Jebb's commentary, introduction and translation are Perseus's, made by sophocles.py
+    # Jebb's Antigone (on sale since reader 0.3.0): its text from Perseus (soph.ant_gk.xml) proved to
+    # differ from Jebb's printed page in about one verse in three (2026-11-17, PLAN-sophocles.md), so
+    # it is established again by this route; the check text is the text as it stood
+    Play("antigone", "Ἀντιγόνη", "Antigone", "Σοφοκλῆς", "Sophocles", "tlg0011.tlg002",
+         "Sophocles: The Plays and Fragments, Part III: The Antigone, ed. R. C. Jebb, second edition, Cambridge University Press, 1891",
+         "sophocles03soph", "jebb", "R. C. Jebb", "sophocles_antigone_jebb",
+         treebank="tlg0011.tlg002.perseus-grc2.tb.xml", translation="kept", translator="Richard C. Jebb", trans_key="jebb", layout="jebb", app_rule="under", head_frac=0.095, speaker_trust=True, app_langs=("eng+grc", "grc+eng"),
+         check_text="sophocles/antigone/reference-grc.txt",
+         # leaf = PDF page (leaves 0 and 365 hidden; Boston College, grey ground, a reader's pencil and
+         # ink notes and underlining on some pages): the Greek on the even leaves 76-306 (pp. 8-238),
+         # Jebb's translation facing it; the Appendix from leaf 310 (p. 242; 308 blank, 309 its
+         # first page to be confirmed); the introduction pp. ix ff. from leaf 15; the argument and the
+         # persons before the text (leaves 73-75)
+         text_leaves=[(76, 307)]),
     Play("trachiniae", "Τραχίνιαι", "Trachiniae", "Σοφοκλῆς", "Sophocles", "tlg0011.tlg001",
          "Sophocles: The Plays and Fragments, Part V: The Trachiniae, ed. R. C. Jebb, Cambridge University Press, 1892",
          "sophocles05soph", "jebb", "R. C. Jebb", "sophocles_trachiniae_jebb",

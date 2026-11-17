@@ -34,6 +34,12 @@ class Play:
 
 
 PLAYS = {p.slug: p for p in [
+    # the Antigone: made by import_perseus.import_antigone (the first text), now re-established from
+    # Jebb's page by the drama route (drama.PLAYS["antigone"]); here for the drama route's merge and
+    # sophocles-prose; the old by-eye commands leave it out (OLD_ROUTE_EXCLUDED); its divisions are
+    # set when the merge is planned
+    Play("antigone", "ant", "tlg002", "Ἀντιγόνη", "Antigone", "III", "1891",
+         treebank="tlg0011.tlg002.perseus-grc2.tb.xml", eng="eng2"),
     Play("ajax", "aj", "tlg003", "Αἴας", "Ajax", "VII", "1896",
          treebank="tlg0011.tlg003.perseus-grc1.tb.xml",
          parts=[(1, "Prologue"), (134, "Parodos"), (201, "First episode"), (596, "First stasimon"),
@@ -69,6 +75,10 @@ PLAYS = {p.slug: p for p in [
                 (821, "Third stasimon"), (863, "Fourth episode"), (947, "Fourth stasimon"),
                 (971, "Exodos")]),
 ]}
+
+# plays made outside import_play / the old by-eye batches: the default lists of import-sophocles,
+# merge-sophocles-apparatus, merge-sophocles-appendix and prepare-sophocles-pages leave them out
+OLD_ROUTE_EXCLUDED = {"antigone"}
 
 PART_ROMAN = {"I": "Part I", "II": "Part II", "III": "Part III", "IV": "Part IV", "V": "Part V", "VI": "Part VI", "VII": "Part VII"}
 

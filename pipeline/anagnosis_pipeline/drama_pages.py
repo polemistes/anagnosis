@@ -79,7 +79,7 @@ def route_dir(route: str, slug: str, scan: str) -> Path:
 # scans photographed with a grey ground (the paper at about 146 of 255, where the Toronto scans
 # have 250): their pages are stretched to a white ground when they are made, because the ink
 # tests of this module (rules, margin numbers, crops) take everything under 140 for ink
-GREY_GROUND = {"sophocles05soph", "sophocles02soph_0"}
+GREY_GROUND = {"sophocles05soph", "sophocles02soph_0", "sophocles03soph"}
 
 
 def whiten(png: Path) -> bool:

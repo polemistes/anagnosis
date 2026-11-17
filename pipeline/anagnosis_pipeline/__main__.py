@@ -360,7 +360,7 @@ def main(argv: list[str] | None = None) -> int:
         from .syntax_text import run as syntax_text_run
         got = syntax_text_run(args.slug, TEXTS, SOURCES, not args.dry)
         for k, v in got.items():
-            if k in ("look", "given their own analysis"):
+            if k in ("look", "given their own analysis", "joined words mended"):
                 print(f"{k}: {len(v)}")
                 for line in v[:12 if k != "look" else 40]:
                     print("  " + line)
@@ -414,9 +414,9 @@ def main(argv: list[str] | None = None) -> int:
             bad += len(problems)
         return 1 if bad else 0
     elif args.cmd == "prepare-sophocles-pages":
-        from .sophocles import PLAYS
+        from .sophocles import OLD_ROUTE_EXCLUDED, PLAYS
         from .sophocles_pages import prepare as prepare_sophocles
-        index = prepare_sophocles(SOURCES, ROOT / "pipeline" / "build" / "sophocles-pages", args.plays or list(PLAYS))
+        index = prepare_sophocles(SOURCES, ROOT / "pipeline" / "build" / "sophocles-pages", args.plays or [s for s in PLAYS if s not in OLD_ROUTE_EXCLUDED])
         print(json.dumps(index, indent=1))
     elif args.cmd == "check-sophocles-lines":
         from .sophocles import apply_text_check
@@ -455,9 +455,9 @@ def main(argv: list[str] | None = None) -> int:
             bad += len(problems)
         return 1 if bad else 0
     elif args.cmd == "merge-sophocles-apparatus":
-        from .sophocles import PLAYS, PART_ROMAN
+        from .sophocles import OLD_ROUTE_EXCLUDED, PLAYS, PART_ROMAN
         from .sophocles_pages import SCAN_EDITIONS, merge as merge_sophocles
-        for slug in args.plays or list(PLAYS):
+        for slug in args.plays or [s for s in PLAYS if s not in OLD_ROUTE_EXCLUDED]:
             play = PLAYS[slug]
             header = (f"# title: Critical apparatus\n# author: Richard C. Jebb\n# lang: eng\n"
                       f"# source: Sophocles, The Plays and Fragments, {PART_ROMAN[play.part]}: The {play.title_en}, Cambridge University Press, "
@@ -467,17 +467,17 @@ def main(argv: list[str] | None = None) -> int:
             n, sigla = merge_sophocles(d, TEXTS / slug / "commentary-jebb-apparatus.md", header)
             print(f"{slug}: {n} notes" + (f"; sigla: {sigla[:80]}" if sigla else ""))
     elif args.cmd == "merge-sophocles-appendix":
-        from .sophocles import PLAYS, PART_ROMAN
+        from .sophocles import OLD_ROUTE_EXCLUDED, PLAYS, PART_ROMAN
         from .sophocles_pages import appendix_header, merge_appendix
-        for slug in args.plays or list(PLAYS):
+        for slug in args.plays or [s for s in PLAYS if s not in OLD_ROUTE_EXCLUDED]:
             d = ROOT / "pipeline" / "transcriptions" / "sophocles" / slug
             if not any(d.glob("appendix-*.md")):
                 continue
             n = merge_appendix(d, TEXTS / slug / "appendix.md", appendix_header(slug))
             print(f"{slug}: {n} notes")
     elif args.cmd == "import-sophocles":
-        from .sophocles import PLAYS, import_play
-        for slug in args.plays or list(PLAYS):
+        from .sophocles import OLD_ROUTE_EXCLUDED, PLAYS, import_play
+        for slug in args.plays or [s for s in PLAYS if s not in OLD_ROUTE_EXCLUDED]:
             print(f"== {slug}")
             import_play(slug, SOURCES, TEXTS, ROOT / "pipeline" / "build", DATA / "lexicon.sqlite")
     elif args.cmd == "check-autenrieth":

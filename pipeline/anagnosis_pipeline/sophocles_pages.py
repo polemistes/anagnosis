@@ -38,6 +38,7 @@ SCANS = {
     "trachiniae": ("sophocles05soph", (80, 257), (259, 284)),
 }
 SCAN_EDITIONS = {
+    "antigone": "second edition 1891; Internet Archive sophocles03soph (Boston College)",
     "ajax": "first edition 1896, reprinted 1914; Internet Archive playsfragmentswi07sophuoft (University of Toronto)",
     "electra": "first edition 1894, reprinted 1907; Internet Archive sophoclesplaysfr06soph (University of Florida)",
     "oedipustyrannus": "third edition 1893, reprinted 1914; Internet Archive playsfragmentswi01sophuoft (University of Toronto)",
