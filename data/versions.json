@@ -4,12 +4,12 @@
     "digest": "7edf5fdadde2e3f01b67af6fd037f18b90f5525811eee9742d3586317a47a7e1"
   },
   "ajax": {
-    "version": "39577d678698bf94",
-    "digest": "39577d678698bf9422bd05ab0d43703fed03e4fa2b4d59f257a8cdaa6da6f4c6"
+    "version": "64cef7ca92cc5015",
+    "digest": "64cef7ca92cc50158bf672d40478a644f76c0627d3ae27ca8602884ba3560d37"
   },
   "antigone": {
-    "version": "42a75b92bcf65b4d",
-    "digest": "42a75b92bcf65b4ddc88a47af60d8483cb9fb05bbc57d3fe56b7f4b73e9fd833"
+    "version": "088426b7c2265af0",
+    "digest": "088426b7c2265af037e7d1594f2da08a0c1ed2cc3bf3e2644d455f97ab400883"
   },
   "choephoroi": {
     "version": "299328c25d3a0ea4",

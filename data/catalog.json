@@ -42,7 +42,7 @@
     "syntax_text": "the Perseus Digital Library's text of the play (F. Storr's Loeb edition, 1913), which differs in places from Jebb's text printed here",
     "google_play": "yes",
     "product_id": "sophocles_ajax_jebb",
-    "version": "39577d678698bf94"
+    "version": "64cef7ca92cc5015"
   },
   {
     "slug": "antigone",
@@ -66,7 +66,7 @@
     "syntax_text": "the Perseus Digital Library's text of the play as the treebank's annotators had it, which differs in a few words from the text printed here",
     "google_play": "yes",
     "product_id": "sophocles_antigone_jebb",
-    "version": "42a75b92bcf65b4d"
+    "version": "088426b7c2265af0"
   },
   {
     "slug": "choephoroi",
