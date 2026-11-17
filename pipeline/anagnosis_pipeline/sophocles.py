@@ -872,6 +872,7 @@ COMMENTARY_FROM_PAGE = {"antigone", "ajax", "electra"}
 # PROSE_HOW
 COMMENTARY_HOW = {
     "antigone": "read by OCR and checked against the page images by AI agents, in two readings (2026)",
+    "ajax": "read by OCR and checked against the page images by AI agents, in two readings (2026)",
 }
 
 

@@ -276,6 +276,23 @@ made by `import-sophocles` from Perseus (`pipeline/anagnosis_pipeline/sophocles.
 `PLAYS` gives each play's volume and sources); edit the importer and the transcriptions, not the
 files here.
 
+* **The Ajax** (since 2026; the others below until they are done the same way):
+  * Greek text and critical apparatus: R. C. Jebb, *Sophocles: The Plays and Fragments, part
+    VII* (1896, the 1914 reprint), read from the Internet Archive scan `playsfragmentswi07sophuoft`
+    by OCR with Perseus's digital text as a check, every verse and every apparatus item then read
+    against the page images by AI agents in two readings (2026; batches in
+    `pipeline/transcriptions/drama/ajax/batch-*.md`). The edition is in the public domain; the
+    transcription CC BY-SA 4.0. (Before, the text had been checked page by page against the scan
+    as described below; the new reading changed 11 verses in words, 5 in punctuation, and the
+    numbering of 18.)
+  * Commentary: Jebb's, read from the same scan by OCR and checked against the page images by
+    AI agents in two readings (2026; batches `notes-*.md` in the same folder), CC BY-SA 4.0.
+    (Until 2026 it was Perseus's digitisation, which differs from Jebb's page in many places.)
+  * Translation: Jebb's, in the form the Perseus Digital Library gives it (`perseus-eng2`: his
+    English with the spelling and some words modernized by Perseus; not read against his page).
+    CC BY-SA 4.0.
+  * Introduction: Jebb's, from Perseus's digitisation (not yet read against his page), with the
+    chapters Perseus lacks transcribed from the scan; the Appendix transcribed from the scan.
 * Greek text: Jebb's text from Perseus (`soph.<play>_gk.xml`), CC BY-SA 3.0 US, checked page by
   page against the Internet Archive scans of Jebb's volumes (`SCANS` in `sophocles_pages.py`):
   the transcription batches in `pipeline/transcriptions/sophocles/<play>/` record Jebb's printed

@@ -1,7 +1,7 @@
 # title: Commentary on Sophocles: Ajax
 # author: Richard C. Jebb
 # lang: eng
-# source: Sophocles: The Plays and Fragments, Part VII: The Ajax, ed. R. C. Jebb, Cambridge University Press, first edition 1896, reprinted 1914; Internet Archive playsfragmentswi07sophuoft (University of Toronto), read by OCR and checked against the page images
+# source: Sophocles: The Plays and Fragments, Part VII: The Ajax, ed. R. C. Jebb, Cambridge University Press, first edition 1896, reprinted 1914; Internet Archive playsfragmentswi07sophuoft (University of Toronto), read by OCR and checked against the page images by AI agents, in two readings (2026)
 # license: CC BY-SA 4.0 (transcription; the edition is in the public domain)
 
 ## 1-133
