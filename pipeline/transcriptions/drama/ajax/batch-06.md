@@ -193,7 +193,7 @@
 476	κἀναθεῖσα L (with ε written above the second α by a late hand), A (also with ε superscr.), Γ, with most MSS., and Ald. A few of the later MSS. (as Aug. c, Vat. c) have κἀνεθεῖσα in the text.—τοῦ γε κατθανεῖν] γε made in L from δὲ.
 477	πριαίμην] Nauck conj. ποιοίμην.—βροτὸν] C. E. Palmer writes βροτῶν. Nauck would prefer οὐδενὸς λόγον βροτοῦ.
 481	ὑπόβλητον] ἀπόβλητον r (as Γ).—λόγον] made in L from λον, by an early hand, perh. that of the first corrector, S.
-482	Αἴας] Αἴαν Suidas s. v. ὑπόβλητον. σαυτοῦ] made in L from αὐτοῦ (the reading of Γ) by an early hand.
+482	Αἴας] Αἶαν Suidas s. v. ὑπόβλητον. σαυτοῦ] made in L from αὐτοῦ (the reading of Γ) by an early hand.
 486	κακόν] L has the letters κακ in an erasure.
 488	εἴπερ τινὸς] εἴ πέρ τινοσ L, with εσ written over οσ by a later hand. Most MSS., and Ald., have εἴ πέρ τινος: but a few, as Lips. a and b, εἴ πέρ τινες.
 493	συνηλλάχθης] συναλλάχθησ L.
@@ -205,3 +205,4 @@
 476	apparatus: 476-488 begin on this page; 481 (from "(as Γ)"), 482, 486, 488, 493, 495, 496 stand on the facing page (leaf 165).
 496	apparatus: the item runs on to the next spread (leaf 166, top of the apparatus) and is written whole here; the next batch must not write it again. Jebb's old-style (ι) written (1). θανῃσσὺ, θανῃσ and ἀφῆισ copied as printed (L's spelling). The breathing of A's ἢν (smooth, as Tesseract reads it) and of Bergk's ἃ (rough) are very small on the scan: read with the sense (ἢν = ἐάν; ἃ φής 'what you say').
 482	apparatus: αὐτοῦ is printed with the smooth breathing (checked at enlargement); copied as printed.
+482	rev: apparatus Suidas's Αἴαν corrected to Αἶαν: the page prints the circumflex (as at 923) (found by the comparison with the apparatus formerly on sale, settled on the page at enlargement, 2026-11-17)

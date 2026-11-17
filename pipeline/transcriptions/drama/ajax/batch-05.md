@@ -90,7 +90,7 @@
 357	γένος ναΐας ἀρωγὸν τέχνας,
 --- apparatus
 344	L has the ν of ἔοικεν from a later hand.—ἀνοίγετε] Wecklein writes ἄνοιγε δή.
-345	κἀπʼ] made in L from χἀπʼ: this is explained by the false reading χὐπʼ ἐμοῦ in Pal.—Blaydes conj. κἂς ἐμὲ βλέψας.
+345	κἀπʼ] made in L from χἀπʼ: this is explained by the false reading χὐπʼ ἐμοῦ in Pal.—Blaydes conj. κἀς ἐμὲ βλέψας.
 348	ἰὼ..φίλων is one v. in L.—ναυβάται] ναυάται r, and Suidas s.v. ὀρθῷ νόμῳ.
 350	μόνοι ἔτʼ Hermann: μόνοι τʼ MSS. (a few have μοῦνοί τʼ.)
 351	ἴδεσθέ μʼ...ζάλης. Two verses in L, the first ending with κῦμα: and so Ald.
@@ -100,6 +100,7 @@
 348	Jebb prints ἰὼ alone on its line (with ΑΙ. and στρ. α΄.), then "2 φίλοι ναυβάται, μόνοι ἐμῶν φίλων,": the draft's one verse 348 split into 348 ἰὼ and 349 φίλοι … φίλων, numbered by Jebb (margin 350 stands at his third verse μόνοι ἔτʼ; his note "348 f. ἰὼ..φίλων"), as the antistrophe 356 ἰὼ / 357 γένος. The speaker Αἴας stays before 348 (the flag "the print shows none" came from ΑΙ. standing on the ἰὼ line).
 351	351 ἴδεσθέ … ζάλης is one printed verse covering 351-352 (Jebb's note "351 f."); 353 ἀμφίδρομον follows: as the draft.
 345	ἄν checked: printed with acute before τινʼ; 344 ἁνὴρ rough breathing: as the draft.
+345	rev: apparatus Blaydes's κἂς corrected to κἀς: the sign over α is a coronis, with no grave (found by the comparison with the apparatus formerly on sale, settled on the page at enlargement, 2026-11-17)
 
 === p-0148
 --- text
@@ -194,7 +195,7 @@
 387-390	L divides the vv. thus:—ὦ ζεῦ— | πῶσ ἂν— | ἐχθρὸν—δισ-|σάρχασ...βασιλῆσ.
 387	προπάτωρ] πρόπατορ r: πάτερ Triclinius, and so Nauck (reading χεροῖν in 372, cr. n.). Dindorf conj. γένετορ.
 389	δισσάρχας] L has the second σ from a later hand. Blomfield conj. δισσάρχους.—ὀλέσασ L, with most MSS., and Ald.: the correction ὀλέσσας is usu. ascribed to Turnebus (ed. 1552–3), but by Herm. to Triclinius. Suidas s.v. ἄλημα has βασιλεῖς ὀλέσας (in that order).—βασιλῇσ L (sic, but the ι subscript may be from a later hand): βασιλεῖς most MSS., and Ald.: but a few have βασιλῆς, which is confirmed by the grammarian Draco Stratonicensis (c. 125 A.D) p. 115. 18, and Herodian (c. 240 A.D.) in Bekker Anecd. p. 1195: σημειοῦται δὲ ὁ Ἡρωδιανὸς παρὰ τῷ Σοφοκλεῖ τοὺς βασιλῆς διὰ τοῦ η̄ γραφομένους κατὰ τὴν αἰτιατικὴν, οἷον τούς τε δισσάρχας ὤλεσας (sic) βασιλῆς.
-393	δεῖ] εἶ made in L from η.
+393	δεῖ] εῖ made in L from η.
 394-400	L divides the vv. thus:—ἰὼ—φαεν-|νότατον ὡσ ἐμοί, | ἕλεσθέ μʼ—οἰκήτορα, | ἕλεσθέ μʼ— | γένοσ— | ἔτʼ ἄξιοσ—εἰσ | ὄνησιν ἀνθρώπων.
 395	φαεννότατον] In L the letters τα have been added by S. φαεινότατον r.—ὡς ἐμοί] Suidas s.v. ἰὼ σκότος omits ὡς.
 396	ἕλεσθʼ ἕλεσθέ μʼ Elmsley: ἕλεσθέ μʼ ἕλεσθέ μʼ L, A, with most MSS., Suid. s.v. ἰὼ σκότος, and Ald.: ἕλεσθέ μʼ ἕλεσθʼ r, and Brunck (cp. cr. n. on 414). ἕλεσθέ μʼ οἰκήτορα | ἕλεσθε οὔτε γὰρ Γ.
@@ -206,3 +207,4 @@
 387	in the apparatus Jebb prints "ἂν--" (387-390) and "ἄξιοσ-—εἰσ" (394-400) with a broken dash: written —. "δισ-|σάρχασ" and "φαεν-|νότατον" keep Jebb's dividing stroke; in Herodian's quote "δισ-" at a line end is the printer's break, written δισσάρχας.
 389	"διὰ τοῦ η̄": the η is printed with a bar over it, written η̄. "(c. 125 A.D)" without a stop after D, as printed.
 384	rev: "ἴδοιμενϊν" (Hermann's citation): at enlargement the ι has a diaeresis only, no grave (the first pass had written ῒ); corrected to ϊ.
+393	rev: apparatus "εἶ made in L" corrected to εῖ: the page prints the circumflex alone, no breathing (letters inside a word) (found by the comparison with the apparatus formerly on sale, settled on the page at enlargement, 2026-11-17)

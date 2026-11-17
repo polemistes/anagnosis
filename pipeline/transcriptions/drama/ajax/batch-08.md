@@ -134,7 +134,7 @@
 631	χερόπλακτοι Erfurdt (cp. 597 ἁλίπλακτος): χερόπληκτοι MSS.
 632	στέρνοισι Triclinius: στέρνοισ L, with most MSS., and Ald.: Suidas s. v. ἀηδών has χερόπληκτοι δὲ στέρνοις (without ἐν).
 634	ἄμυγμα Bothe: ἀμύγματα MSS., and Eustathius (p. 567. 31, p. 651. 47).—Meineke conj. κἀν πολιαῖς ἄμυγμα χαίταις: Blaydes, καὶ πολιᾶν ἀμύγματʼ ἔσται.
-635	κρείσσων L (made from κρέσσων): κρέσσων r.—γὰρ MSS.: παρʼ Elmsley, and so Dindorf.—Ἅιδᾳ] ἀΐδαι L (not ἀΐδα). ἀΐδᾳ Ald.—ὁ νοσῶν Lobeck: ἢ νοσῶν MSS.—μάταν] μάτην r.
+635	κρείσσων L (made from κρέσσων): κρέσσων r.—γὰρ MSS.: παρʼ Elmsley, and so Dindorf.—Ἅιδᾳ] ἀΐδαι L (not ἀΐδα). ἀΐδᾳ Ald.—ὁ νοσῶν Lobeck: ἦ νοσῶν MSS.—μάταν] μάτην r.
 636	ὃς ἐκ] For ἐκ Burges conj. εὖ, which Wecklein receives.—ἥκων made in L from ἥκον.—ἄριστος is found in T (which exhibits the recension of Triclinius), and in two other late MSS., both of which may have derived it from that recension, viz., Dresd. a (attributed to 14th century), and Laud. 54 in the Bodleian (early 15th cent.): it is also superscript in Mosq. b. In L, as in the other MSS., and in Ald., it is wanting, so that there is a defect of ⏑–⏓, =νοσοῦντα in the strophe, v. 625. The schol. in L on 636 has: ὃς ἄνωθεν κατὰ πατρῴας γενεᾶς ἄριστος ἥκων (λείπει γὰρ τὸ ἄριστος): and again below, λείπει τὸ ἄριστος. Triclinius: ἥκων γενεᾶς ἄριστος γράφε, ἵνα ᾖ ὅμοιον τῷ τῆς στροφῆς κώλῳ (v. 625)· οὕτω γὰρ εὑρέθη καὶ ἔν τινι τῶν πάνυ παλαιῶν. Triclinius may have inferred this ‘very old’ authority for ἄριστος from the schol. in L. At any rate, the appearance of ἄριστος in the text is due to him. Liv. b. (one of the two MSS. collated by J. Livineius in the 16th cent., cp. cr. n. on 405 ff.) has ἄριστα: and so Wecklein reads. Seyffert writes τὰ πρῶτα. Burges conj. ἄνωθεν (from schol. in L quoted above). Nauck, marking a lacuna after γενεᾶς, suggests πρόμος (=his νοσοῦντʼ in 625, cr. n.).
 638	πολυπόνων] πουλοπόνων Liv. a, which Meineke would read. Nauck conj. δουριπόνων.
 640	ὁμιλεῖ] Reiske conj. ὁμίλου: Blaydes (inter alia) ἀλᾶται.
@@ -146,6 +146,8 @@
 635	"635 f." and "636 f." written 635 and 636; the first apparatus line of the page ("Nauck, (νοσοῦντʼ) αἰνομόρως (cp. 636).") is the end of the note on 626 and is written on p-0182.
 635	rev: the half-brackets ⌜ ⌝ round ὁ REMOVED: on the page they are a reader's pencil (grey, hand-drawn strokes, far lighter than the type: darkest pixel about 140 against about 40 for the printed ὁ beside them); Jebb prints κεύθων ὁ νοσῶν with no sign (no asterisk either). The first pass took them for print; the check text has ⌜ὁ⌝ and so should be corrected.
 636	rev: apparatus 636: "=νοσοῦντα" closed up, as printed (and as "(=his νοσοῦντʼ" later in the note).
+635	rev: apparatus the MSS.' ἢ νοσῶν corrected to ἦ: the page prints a circumflex over the breathing (found by the comparison with the apparatus formerly on sale, settled on the page at enlargement, 2026-11-17)
+631	rev: apparatus "cp. 597 ἁλίπλακτος": the page prints ἀλίπλακτος with the smooth breathing, an evident misprint (597's own apparatus and text have ἁλίπλακτος): written ἁλίπλακτος (found by the comparison with the apparatus formerly on sale, which copied the misprint, 2026-11-17)
 
 === p-0186
 --- text

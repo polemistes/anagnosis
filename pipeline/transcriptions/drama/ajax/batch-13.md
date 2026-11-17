@@ -82,7 +82,7 @@
 1038	ὅτῳ] ὅτω L, made from οὕτω.
 1039	κεῖνός τʼ ἐκεῖνα] Monk conj. κεῖνος τὰ κείνου (some of the later MSS. having τʼ ἐκείνου, τἀκείνου, or τὰ ʼκείνου), and so Lobeck. Hartung, τὰ κεῖνα.
 1040	κρύψεισ made in L from κρύψησ. A has κρύψεις, with most MSS., and Ald.: but a few MSS. (as Γ, and Harl.) have κρύψῃς or κρύψης.
-1043	γελῶν] Leeuwen conj. ἑλῶν μʼ.—ἃ δὴ] In L ἃ has been made from ἇ, and a letter (ν?) erased after δή. Meineke conj. ἄδην or ἀεί.
+1043	γελῶν] Leeuwen conj. ἐλῶν μʼ.—ἃ δὴ] In L ἃ has been made from ἇ, and a letter (ν?) erased after δή. Meineke conj. ἄδην or ἀεί.
 1044	ὅντινʼ made in L from οὖν τισ.—προσλεύσσεις] προσλεύσει L, made from προσπλεύσει: a late corrector has added another σ above the line.—Nauck adopts Morstadt’s conjecture: τίς δʼ ἔστι; μῶν τινʼ ἄνδρα προσλεύσσεις στρατοῦ;
 1045	ἐστείλαμεν made in L from ἐστειλάμην.
 --- notes
@@ -92,6 +92,7 @@
 1044	Flag: the print has ΤΕΥ. in the margin here (and ΧΟ. at 1045, ΤΕΥ. at 1046, the heading ΜΕΝΕΛΑΟΣ. before 1047): the speakers stand as in the draft.
 1046	Residual ὢν: the page prints the smooth breathing.
 1043	Apparatus: ἑλῶν (rough breathing) and "from ἇ" (rough breathing under the circumflex) read at enlargement; "ὅν-|τινʼ" (1044) and "con-|jecture" divided at the line end are written whole.
+1043	rev: apparatus Leeuwen's ἑλῶν corrected to ἐλῶν: at 5x the breathing is smooth (future of ἐλαύνω); the first pass's rough reading not confirmed (found by the comparison with the apparatus formerly on sale, settled on the page at enlargement, 2026-11-17)
 
 === p-0244
 --- text

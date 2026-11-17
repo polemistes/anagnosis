@@ -97,12 +97,13 @@ Sigla: L = cod. Laur. 32. 9 (first half of eleventh century). r = one or more of
 37	κυναγίᾳ L, and Pal.: κυνηγίᾳ most MSS., and Ald.—A v. l. τῆς σῆς..κυνηγίας is noted in Δ (cod. Abbat. Flor. 41) and A.
 38	πονῶι L.
 39	τοῦδε τἄργα] Hermann reads ἔργα τοῦδε with two of the later MSS. (Γ and Mosq. a), thinking that otherwise ταῦτα is redundant.
-40	ᾖξεν] ἧξεν L. For ὧδʼ ᾖξεν, Bergk conj. ᾔμαξεν: Wecklein, ᾔχμαξεν.
+40	ᾖξεν] ἧξεν L. For ὧδʼ ᾖξεν, Bergk conj. ᾔμαξεν: Wecklein, ᾔχμαζεν.
 43	ὑμῖν] Nauck conj. ὑμῶν.
 --- notes
 30	no flags; verses 30-43 read against the page: they agree; residuals on 35 (κυβερνῶμαι) and 39 (τἄργα) are OCR noise.
 33	apparatus: printed "(from π ?)"; the apparatus continues on the facing page (leaf 101) from "and Ald.—A v. l." to item 43.
 40	apparatus: L's reading has the rough breathing and no iota subscript (ἧξεν), compared at enlargement with ὧδʼ (rough) and the lemma ᾖξεν (smooth) beside it.
+40	rev: apparatus Wecklein's ᾔχμαξεν corrected to ᾔχμαζεν: the page prints ζ (found by the comparison with the apparatus formerly on sale, settled on the page at enlargement, 2026-11-17)
 
 === p-0102
 --- text

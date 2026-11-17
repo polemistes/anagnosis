@@ -50,7 +50,7 @@ Nauck suggests one verse in place of these three, viz., Αἴαντʼ ἰχνο�
 **τοῦδε τἄργα**] Hermann reads ἔργα τοῦδε with two of the later MSS. (Γ and Mosq. a), thinking that otherwise ταῦτα is redundant.
 
 ## 40
-**ᾖξεν**] ἧξεν L. For ὧδʼ ᾖξεν, Bergk conj. ᾔμαξεν: Wecklein, ᾔχμαξεν.
+**ᾖξεν**] ἧξεν L. For ὧδʼ ᾖξεν, Bergk conj. ᾔμαξεν: Wecklein, ᾔχμαζεν.
 
 ## 43
 **ὑμῖν**] Nauck conj. ὑμῶν.
@@ -140,7 +140,7 @@ These three vv. are rejected by E. Reichard (De interpolatione fabulae Soph. qua
 τὸ μή MSS., and Ald.: Wecklein writes τὸ μὴ οὔ, as proposed, after Herm., by Nauck (who in his text, however, leaves τὸ μή).
 
 ## 97
-**ᾔχμασας**] Reiske and Musgrave conj. ᾔμαξας, which Wunder and Blaydes adopt.—**χέρα**] χέραι L: a corruption which may have arisen from χέρας (the reading of Γ), rather than from χερί.
+**ᾔχμασας**] Reiske and Musgrave conj. ᾕμαξας, which Wunder and Blaydes adopt.—**χέρα**] χέραι L: a corruption which may have arisen from χέρας (the reading of Γ), rather than from χερί.
 
 ## 98
 ὥστʼ MSS., and Ald.: Elmsley conj. ὡς.—**οἵδʼ**] οἶδʼ L: schol. in marg., ἐὰν δασυνθῇ τὸ οι [i.e., if we read οἵδʼ] ἔσται ἐπὶ τῶν Ἀτρειδ⟨ῶν⟩, ⟨ἐὰν δὲ⟩ ψιλὸν τὸ οἶδα ἀντὶ τοῦ ἐπίσταμαι. A, with most MSS. and Ald., has οἵδʼ.—**ἀτιμάσουσʼ**] ἀτιμάσωσʼ L, but a later hand has tried to alter ω into ȣ (ου).
@@ -155,7 +155,7 @@ These three vv. are rejected by E. Reichard (De interpolatione fabulae Soph. qua
 **ἔγωγʼ**] ἐγὼ δʼ Zonaras 2. p. 1448 (ap. Blaydes): ἐγώ δʼ Γ.—**ἔγωγʼ· Ὀδυσσέα**] Bothe deletes the point after ἔγωγʼ. Nauck writes ἔγωγʼ· Ὀδυσσῆ. Dindorf conj. Ὀδυσσέα ʼγώ.
 
 ## 107
-κερδάνηισ L, with εῖσ above from a late hand: κερδανεῖς A. But the aor. subj. is in most MSS., and Ald.
+κερδάνηισ L, with εῖσ above from a late hand: κερδάνεῖς A. But the aor. subj. is in most MSS., and Ald.
 
 ## 108
 ἑρκείου Elmsley: ἑρκίου MSS., and Ald.
@@ -314,7 +314,7 @@ L divides the vv. thus:—εἰ δʼ ὑποβαλλόμενοι | κλέπτο�
 βασιλεῖσ L, made from βασιλῆσ.
 
 ## 190
-**ἢ τᾶς**] Morstadt conj. χὡ τᾶς.—Σισυφιδᾶν MSS., and Ald.: Σισυφιδῶν Suidas ss. vv. ἀσωτία and Σίσυφος, and Eustath. p. 384. 6. The schol. in L, γρ. Σισυφίδα, meaning the nomin.; whether he took this to be an Aeolic nom. (as Lobeck suggests), or wrote Σισυφίδας. Hartung places Σισυφίδας in the text; and so Nauck and Wecklein.
+**ἢ τᾶς**] Morstadt conj. χὠ τᾶς.—Σισυφιδᾶν MSS., and Ald.: Σισυφιδῶν Suidas ss. vv. ἀσωτία and Σίσυφος, and Eustath. p. 384. 6. The schol. in L, γρ. Σισυφίδα, meaning the nomin.; whether he took this to be an Aeolic nom. (as Lobeck suggests), or wrote Σισυφίδας. Hartung places Σισυφίδας in the text; and so Nauck and Wecklein.
 
 ## 191
 μὴ μή μʼ ἄναξ ἔθʼ ὧδʼ MSS., and Ald.: schol. in L, μὴ μή μʼ ἄναξ· τὸ πλῆρες μὴ μή μοι (repeated by Suidas s. v. μὴ μή). Wilamowitz-Möllendorff (Hermes vol. XVIII. p. 217 n.) would delete μʼ, and assume hiatus (cp. 193). Morstadt conj. μὴ μηκέθʼ, ὦναξ, ὧδʼ: and so read Blaydes, Nauck, and Wecklein. Paley writes μή μοί γʼ (a conj. of Blaydes).
@@ -332,7 +332,7 @@ L divides the vv. thus:—εἰ δʼ ὑποβαλλόμενοι | κλέπτο�
 ἐχθρῶν δʼ ὕβρις ὧδʼ ἀτάρβητα | ὁρμᾶτʼ ἐν εὐανέμοις βάσσαις most MSS., and Ald. (L has ἀτάρβητα made from ἀταρβῆτα, and ὁρμάτʼ). A corrupt v. l. ἐν δʼ ἀνέμοις, for εὐανέμοις, is found in A and Pal. Suidas (s. v. ἀτάρβητος), ἐχθρῶν δʼ ὕβρις ἀταρβήτως ὁρμᾷ (omitting ὧδʼ). So, too, Zonaras 1. 338. For ὁρμᾶτʼ, Triclinius wrote ὁρμᾶται. Hermann writes ὧδʼ ἀταρβήτα (nom. fem.) | ὁρμᾶται: Dindorf (omitting ὧδʼ), ἀτάρβητος | ὁρμᾶται, and so Nauck and Blaydes. Gleditsch, ἀτάρβηθʼ ὁρμᾶται. Wecklein (Ars Soph. em. p. 70) conj. ὁρμᾷ τʼ, proposing to supply ἐστίν with ἀταρβήτα or ἀτάρβητος.
 
 ## 198
-πάντων καγχαζόντων γλώσσαισ | βαρυάλγητʼ L (καγχαζόντων made from κακχαζόντων by a late hand). So most MSS., and Ald. The only variants are βακχαζόντων Γ (which Campb. inadvertently ascribes to L also), καγχλαζόντων Aug. c, καχαζόντων Liv. a: and (for βαρυάλγητʼ) βαρυάλγητα Aug. b.—Dindorf writes, ἁπάντων καχαζόντων | γλώσσαις βαρυαλγήτως.
+πάντων καγχαζόντων γλώσσαισ | βαρυάλγητʼ L (καγχαζόντων made from κακχαζόντων by a late hand). So most MSS., and Ald. The only variants are βακχαζόντων Γ (which Campb. inadvertently ascribes to L also), καγχλαζόντων Aug. c, καχαζόντων Liv. a: and (for βαρυάλγητʼ) βαρυάλγητα Aug. b.—Dindorf writes, ἀπάντων καχαζόντων | γλώσσαις βαρυαλγήτως.
 
 ## 200
 **ἄχος**] Nauck writes ἄλγος.—ἕστακεν L: ἕστακε A, and Ald.: ἕστηκεν r.
@@ -599,7 +599,7 @@ In L the second ω of ἐξώιμωξεν, and the ω of οἰμωγὰσ, have 
 L has the ν of ἔοικεν from a later hand.—**ἀνοίγετε**] Wecklein writes ἄνοιγε δή.
 
 ## 345
-**κἀπʼ**] made in L from χἀπʼ: this is explained by the false reading χὐπʼ ἐμοῦ in Pal.—Blaydes conj. κἂς ἐμὲ βλέψας.
+**κἀπʼ**] made in L from χἀπʼ: this is explained by the false reading χὐπʼ ἐμοῦ in Pal.—Blaydes conj. κἀς ἐμὲ βλέψας.
 
 ## 348
 ἰὼ..φίλων is one v. in L.—**ναυβάται**] ναυάται r, and Suidas s.v. ὀρθῷ νόμῳ.
@@ -686,7 +686,7 @@ L divides the vv. thus:—ὦ ζεῦ— | πῶσ ἂν— | ἐχθρὸν—�
 [389] δισσάρχας] L has the second σ from a later hand. Blomfield conj. δισσάρχους.—ὀλέσασ L, with most MSS., and Ald.: the correction ὀλέσσας is usu. ascribed to Turnebus (ed. 1552–3), but by Herm. to Triclinius. Suidas s.v. ἄλημα has βασιλεῖς ὀλέσας (in that order).—βασιλῇσ L (sic, but the ι subscript may be from a later hand): βασιλεῖς most MSS., and Ald.: but a few have βασιλῆς, which is confirmed by the grammarian Draco Stratonicensis (c. 125 A.D) p. 115. 18, and Herodian (c. 240 A.D.) in Bekker Anecd. p. 1195: σημειοῦται δὲ ὁ Ἡρωδιανὸς παρὰ τῷ Σοφοκλεῖ τοὺς βασιλῆς διὰ τοῦ η̄ γραφομένους κατὰ τὴν αἰτιατικὴν, οἷον τούς τε δισσάρχας ὤλεσας (sic) βασιλῆς.
 
 ## 393
-**δεῖ**] εἶ made in L from η.
+**δεῖ**] εῖ made in L from η.
 
 ## 394-400
 L divides the vv. thus:—ἰὼ—φαεν-|νότατον ὡσ ἐμοί, | ἕλεσθέ μʼ—οἰκήτορα, | ἕλεσθέ μʼ— | γένοσ— | ἔτʼ ἄξιοσ—εἰσ | ὄνησιν ἀνθρώπων.
@@ -827,7 +827,7 @@ L divides the vv. thus:—ἰὼ σκαμάνδριοι— | εὔφρονεσ�
 **ὑπόβλητον**] ἀπόβλητον r (as Γ).—**λόγον**] made in L from λον, by an early hand, perh. that of the first corrector, S.
 
 ## 482
-**Αἴας**] Αἴαν Suidas s. v. ὑπόβλητον. **σαυτοῦ**] made in L from αὐτοῦ (the reading of Γ) by an early hand.
+**Αἴας**] Αἶαν Suidas s. v. ὑπόβλητον. **σαυτοῦ**] made in L from αὐτοῦ (the reading of Γ) by an early hand.
 
 ## 486
 **κακόν**] L has the letters κακ in an erasure.
@@ -1062,7 +1062,7 @@ L divides the vv. thus:—ἦ που— | λευκῶ— | μάτηρ— | φρ�
 [634] ἄμυγμα Bothe: ἀμύγματα MSS., and Eustathius (p. 567. 31, p. 651. 47).—Meineke conj. κἀν πολιαῖς ἄμυγμα χαίταις: Blaydes, καὶ πολιᾶν ἀμύγματʼ ἔσται.
 
 ## 635
-κρείσσων L (made from κρέσσων): κρέσσων r.—γὰρ MSS.: παρʼ Elmsley, and so Dindorf.—**Ἅιδᾳ**] ἀΐδαι L (not ἀΐδα). ἀΐδᾳ Ald.—ὁ νοσῶν Lobeck: ἢ νοσῶν MSS.—**μάταν**] μάτην r.
+κρείσσων L (made from κρέσσων): κρέσσων r.—γὰρ MSS.: παρʼ Elmsley, and so Dindorf.—**Ἅιδᾳ**] ἀΐδαι L (not ἀΐδα). ἀΐδᾳ Ald.—ὁ νοσῶν Lobeck: ἦ νοσῶν MSS.—**μάταν**] μάτην r.
 
 ## 636
 **ὃς ἐκ**] For ἐκ Burges conj. εὖ, which Wecklein receives.—ἥκων made in L from ἥκον.—ἄριστος is found in T (which exhibits the recension of Triclinius), and in two other late MSS., both of which may have derived it from that recension, viz., Dresd. a (attributed to 14th century), and Laud. 54 in the Bodleian (early 15th cent.): it is also superscript in Mosq. b. In L, as in the other MSS., and in Ald., it is wanting, so that there is a defect of ⏑–⏓, =νοσοῦντα in the strophe, v. 625. The schol. in L on 636 has: ὃς ἄνωθεν κατὰ πατρῴας γενεᾶς ἄριστος ἥκων (λείπει γὰρ τὸ ἄριστος): and again below, λείπει τὸ ἄριστος. Triclinius: ἥκων γενεᾶς ἄριστος γράφε, ἵνα ᾖ ὅμοιον τῷ τῆς στροφῆς κώλῳ (v. 625)· οὕτω γὰρ εὑρέθη καὶ ἔν τινι τῶν πάνυ παλαιῶν. Triclinius may have inferred this ‘very old’ authority for ἄριστος from the schol. in L. At any rate, the appearance of ἄριστος in the text is due to him. Liv. b. (one of the two MSS. collated by J. Livineius in the 16th cent., cp. cr. n. on 405 ff.) has ἄριστα: and so Wecklein reads. Seyffert writes τὰ πρῶτα. Burges conj. ἄνωθεν (from schol. in L quoted above). Nauck, marking a lacuna after γενεᾶς, suggests πρόμος (=his νοσοῦντʼ in 625, cr. n.).
@@ -1678,7 +1678,7 @@ L divides the vv. thus:—ἦ ῥα— | θυμὸν— | ὁ πολύτλασ�
 ξύν τε MSS.: ξὺν δὲ Blaydes.—βασιλῆς r: βασιλῆεσ L, A, with most MSS., and Ald.: βασιλέες T (Triclinius).
 
 ## 961
-οἵδʼ (from οἷδʼ) L, with most MSS., and Ald.: οἵδʼ αὖ one MS. of Suidas s.v. βλέποντες (where 961-963 are quoted). Hermann wrote οἳ δʼ οὖν: Bergler, οἱ δʼ οὖν (and so A).
+οἵδʼ (from οἶδʼ) L, with most MSS., and Ald.: οἵδʼ αὖ one MS. of Suidas s.v. βλέποντες (where 961-963 are quoted). Hermann wrote οἳ δʼ οὖν: Bergler, οἱ δʼ οὖν (and so A).
 
 ## 962
 **τοῦδʼ**] δ made in L from σ.—**ἴσως**] In L the 1st hand wrote ἴσω, and ϲ has been added by a corrector: cp. 921.—**ʼπόθουν**] Nauck conj. ʼφίλουν (or, as he would write it, ἐφίλουν).
@@ -1828,7 +1828,7 @@ These twelve verses are rejected by R. A. Morstadt (Progr. 1863), whom Nauck fol
 κρύψεισ made in L from κρύψησ. A has κρύψεις, with most MSS., and Ald.: but a few MSS. (as Γ, and Harl.) have κρύψῃς or κρύψης.
 
 ## 1043
-**γελῶν**] Leeuwen conj. ἑλῶν μʼ.—**ἃ δὴ**] In L ἃ has been made from ἇ, and a letter (ν?) erased after δή. Meineke conj. ἄδην or ἀεί.
+**γελῶν**] Leeuwen conj. ἐλῶν μʼ.—**ἃ δὴ**] In L ἃ has been made from ἇ, and a letter (ν?) erased after δή. Meineke conj. ἄδην or ἀεί.
 
 ## 1044
 ὅντινʼ made in L from οὖν τισ.—**προσλεύσσεις**] προσλεύσει L, made from προσπλεύσει: a late corrector has added another σ above the line.—Nauck adopts Morstadt’s conjecture: τίς δʼ ἔστι; μῶν τινʼ ἄνδρα προσλεύσσεις στρατοῦ;

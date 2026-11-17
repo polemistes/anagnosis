@@ -97,7 +97,7 @@
 956	πολύτλας] ὁ πολύτλας MSS. and Ald.: Porson on Eur. Or. 1297 pointed out that the art. should be omitted (cp. 913 f.).
 957	γελᾷ δὲ MSS.: Blaydes writes γελᾷ τε.—τοῖσδε Elmsley: τοῖσ L, with most MSS., and Ald.: τοῖσι Triclinius: σοῖσι Hermann.—ἄχεσιν r, and Ald.: ἄχεσι L.
 959	ξύν τε MSS.: ξὺν δὲ Blaydes.—βασιλῆς r: βασιλῆεσ L, A, with most MSS., and Ald.: βασιλέες T (Triclinius).
-961	οἵδʼ (from οἷδʼ) L, with most MSS., and Ald.: οἵδʼ αὖ one MS. of Suidas s.v. βλέποντες (where 961-963 are quoted). Hermann wrote οἳ δʼ οὖν: Bergler, οἱ δʼ οὖν (and so A).
+961	οἵδʼ (from οἶδʼ) L, with most MSS., and Ald.: οἵδʼ αὖ one MS. of Suidas s.v. βλέποντες (where 961-963 are quoted). Hermann wrote οἳ δʼ οὖν: Bergler, οἱ δʼ οὖν (and so A).
 962	τοῦδʼ] δ made in L from σ.—ἴσως] In L the 1st hand wrote ἴσω, and ϲ has been added by a corrector: cp. 921.—ʼπόθουν] Nauck conj. ʼφίλουν (or, as he would write it, ἐφίλουν).
 964	τἀγαθὸν χεροῖν L, with most MSS., and Ald.: τἀγάθʼ ἐν χεροῖν Mosq. b, and one of Brunck's MSS. (as Reiske had conjectured): which Cobet prefers, Var. L. p. 15.
 965	ἐκβάλῃ] ἐκβάλοι Γ.
@@ -108,6 +108,7 @@
 956	apparatus: the checker's "956 names a line not on this page" is expected: Jebb numbers the note 956 (πολύτλας), which stands inside the first printed verse (954, covering 954-956); kept as printed.
 962	apparatus: the letter "added by a corrector" is printed as a lunate sigma (c-shaped); written ϲ.
 954	apparatus: κελαινῶπʼ ἀν printed without an accent on ἀν; L's γελᾶι with the iota adscript as printed.
+961	rev: apparatus "from οἷδʼ" corrected to οἶδʼ: the breathing under the circumflex is smooth (L's οἶδʼ, as at 98) (found by the comparison with the apparatus formerly on sale, settled on the page at enlargement, 2026-11-17)
 
 === p-0232
 --- text

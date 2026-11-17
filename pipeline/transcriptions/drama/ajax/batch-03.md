@@ -97,7 +97,7 @@
 --- apparatus
 188-193	L divides the vv. thus:—εἰ δʼ ὑποβαλλόμενοι | κλέπτουσι— | ἢ τᾶσ— | μὴ μή μʼ ἄναξ | ἔθʼ ὧδʼ ἐφάλοισ— | κακὰν φάτιν ἄρῃ.
 189	βασιλεῖσ L, made from βασιλῆσ.
-190	ἢ τᾶς] Morstadt conj. χὡ τᾶς.—Σισυφιδᾶν MSS., and Ald.: Σισυφιδῶν Suidas ss. vv. ἀσωτία and Σίσυφος, and Eustath. p. 384. 6. The schol. in L, γρ. Σισυφίδα, meaning the nomin.; whether he took this to be an Aeolic nom. (as Lobeck suggests), or wrote Σισυφίδας. Hartung places Σισυφίδας in the text; and so Nauck and Wecklein.
+190	ἢ τᾶς] Morstadt conj. χὠ τᾶς.—Σισυφιδᾶν MSS., and Ald.: Σισυφιδῶν Suidas ss. vv. ἀσωτία and Σίσυφος, and Eustath. p. 384. 6. The schol. in L, γρ. Σισυφίδα, meaning the nomin.; whether he took this to be an Aeolic nom. (as Lobeck suggests), or wrote Σισυφίδας. Hartung places Σισυφίδας in the text; and so Nauck and Wecklein.
 191	μὴ μή μʼ ἄναξ ἔθʼ ὧδʼ MSS., and Ald.: schol. in L, μὴ μή μʼ ἄναξ· τὸ πλῆρες μὴ μή μοι (repeated by Suidas s. v. μὴ μή). Wilamowitz-Möllendorff (Hermes vol. XVIII. p. 217 n.) would delete μʼ, and assume hiatus (cp. 193). Morstadt conj. μὴ μηκέθʼ, ὦναξ, ὧδʼ: and so read Blaydes, Nauck, and Wecklein. Paley writes μή μοί γʼ (a conj. of Blaydes).
 192	ὄμμʼ ἔχων] Reiske conj. ἐμμένων.
 193	ἀλλʼ ἄνα] Nauck conj. ἄνστα δʼ.—μακραίωνι] Neue conj. μακραίων: Herwerden, μακρᾷ λίαν.
@@ -110,6 +110,7 @@
 197	flags "printed line matched no Perseus words" (seven): these are the OCR's readings of the apparatus lines under the verses, not verses; nothing added. The residual items 3-30 are the same apparatus words.
 190	apparatus: Morstadt's χὡ printed with the rough breathing (zoomed: tail to the right, as on ὧδʼ), as Jebb writes crasis.
 196	apparatus: "Zonaras 1. 338": Jebb's old-style figure 1 (as in "1st hand"), written 1.
+190	rev: apparatus Morstadt's χὡ corrected to χὠ: the sign over ω is the coronis (smooth form) (found by the comparison with the apparatus formerly on sale, settled on the page at enlargement, 2026-11-17)
 
 === p-0126
 --- text
@@ -128,7 +129,7 @@
 208	τί δʼ ἐνήλλακται τῆς ἡμερίας
 209	νὺξ ἥδε βάρος;
 --- apparatus
-198	πάντων καγχαζόντων γλώσσαισ | βαρυάλγητʼ L (καγχαζόντων made from κακχαζόντων by a late hand). So most MSS., and Ald. The only variants are βακχαζόντων Γ (which Campb. inadvertently ascribes to L also), καγχλαζόντων Aug. c, καχαζόντων Liv. a: and (for βαρυάλγητʼ) βαρυάλγητα Aug. b.—Dindorf writes, ἁπάντων καχαζόντων | γλώσσαις βαρυαλγήτως.
+198	πάντων καγχαζόντων γλώσσαισ | βαρυάλγητʼ L (καγχαζόντων made from κακχαζόντων by a late hand). So most MSS., and Ald. The only variants are βακχαζόντων Γ (which Campb. inadvertently ascribes to L also), καγχλαζόντων Aug. c, καχαζόντων Liv. a: and (for βαρυάλγητʼ) βαρυάλγητα Aug. b.—Dindorf writes, ἀπάντων καχαζόντων | γλώσσαις βαρυαλγήτως.
 200	ἄχος] Nauck writes ἄλγος.—ἕστακεν L: ἕστακε A, and Ald.: ἕστηκεν r.
 202	γενεᾶς] Reiske conj. γενεὰ: Blaydes, γενέθλα: Seyffert, γενεᾷ.—ἐρεχθειδᾶν L, A, and Ald.: ἐρεχθειδῶν r.
 205	μέγας] ὁ μέγας MSS. (except M, and 1st hand in V, ap. Campb.), and Ald.: the first to correct the error were Erfurdt and Seidler.
@@ -137,6 +138,7 @@
 201	the print's centred heading ΤΕΚΜΗΣΣΑ. above 201 and ΧΟ. in the margin at 208: the speakers as in the file. Margin numbers 200 and 205 agree.
 207	flag: νοσήσας. stands whole on this verse (the OCR split it into νοσή σας.); line kept.
 209	residual: βάρος; with a question mark as printed; the OCR's colon is its slip.
+198	rev: apparatus Dindorf's ἁπάντων corrected to ἀπάντων: the page prints the smooth breathing (found by the comparison with the apparatus formerly on sale, settled on the page at enlargement, 2026-11-17)
 
 === p-0128
 --- text

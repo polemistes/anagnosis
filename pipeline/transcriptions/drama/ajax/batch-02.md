@@ -69,10 +69,11 @@
 88	τυχεῖν] κυρεῖν Γ.
 89	Αἴας] In L the 1st hand wrote αἴασ, which a later has altered to αἶαν, but the accent remains, and the σ is still clear. The form Αἴας is also supported here by E and Mosq. b; also by Eustath. p. 1469. 59, Greg. Cor. De Dialect. Att. p. 53, and Choeroboscus p. 105. 13 (ed. Gaisf.)=Bekker Anecd. p. 1183. But A, with the great majority of the later MSS., has Αἶαν, and so the Aldine.
 96	τὸ μή MSS., and Ald.: Wecklein writes τὸ μὴ οὔ, as proposed, after Herm., by Nauck (who in his text, however, leaves τὸ μή).
-97	ᾔχμασας] Reiske and Musgrave conj. ᾔμαξας, which Wunder and Blaydes adopt.—χέρα] χέραι L: a corruption which may have arisen from χέρας (the reading of Γ), rather than from χερί.
+97	ᾔχμασας] Reiske and Musgrave conj. ᾕμαξας, which Wunder and Blaydes adopt.—χέρα] χέραι L: a corruption which may have arisen from χέρας (the reading of Γ), rather than from χερί.
 --- notes
 83	no flags; residuals 84 ὁρᾷ;, 88 ὢν, 89 προσκαλῶ. checked: the page prints them so (OCR noise). Every verse 83-97 read against the page (92 καὶ σε as printed): no change; margin 85, 90, 95 agree.
 83	the apparatus opens with the end of the note on 82 (T has ἐξέστην ἰδεῖν … ὀκνεῖσ.]): written with 82 on p-0106. The note on 97 runs on to leaf 110 (ᾔμαξας … χερί.): written whole here.
+97	rev: apparatus ᾔμαξας corrected to ᾕμαξας: the breathing is rough (found by the comparison with the apparatus formerly on sale, settled on the page at enlargement, 2026-11-17)
 
 === p-0110
 --- text
@@ -101,7 +102,7 @@
 99	ἅνδρες] ἄνδρες MSS., and Ald.—ἐγώ] Meineke conj. ἔπος.
 102	ἕστηκεν L and A.—ἢ L, with most MSS.: but ἦ Pal. (with ἢ above). The Aldine points thus: ποῦ σοι τύχης ἕστηκεν, ἢ πέφευγέ σε;
 104	ἔγωγʼ] ἐγὼ δʼ Zonaras 2. p. 1448 (ap. Blaydes): ἐγώ δʼ Γ.—ἔγωγʼ· Ὀδυσσέα] Bothe deletes the point after ἔγωγʼ. Nauck writes ἔγωγʼ· Ὀδυσσῆ. Dindorf conj. Ὀδυσσέα ʼγώ.
-107	κερδάνηισ L, with εῖσ above from a late hand: κερδανεῖς A. But the aor. subj. is in most MSS., and Ald.
+107	κερδάνηισ L, with εῖσ above from a late hand: κερδάνεῖς A. But the aor. subj. is in most MSS., and Ald.
 108	ἑρκείου Elmsley: ἑρκίου MSS., and Ald.
 --- notes
 99	flag ἅνδρες: the page prints ἅνδρες (rough breathing, crasis; the apparatus has ἅνδρες] ἄνδρες MSS.); no change.
@@ -109,6 +110,7 @@
 102	residuals checked (102 ἕστηκεν;, 103 a stray «ος», 107 ἂν): the page agrees with the text; 102 ἢ (smooth breathing, grave) and σέ (accented) are as printed. Every verse 98-108 read against the page: no change; margin 100, 105 agree.
 98	apparatus: the bracket of "[i.e., if we read οἵδʼ]" closes with ")" in the print, an evident misprint, corrected to "]"; ȣ is the ου ligature Jebb prints.
 98	rev: apparatus 98, L's reading οἷδʼ corrected to οἶδʼ: the breathing under the circumflex is smooth at enlargement (comma shape, tail down to the left, like the elision mark beside it; the rough breathing of ὡς in the same line opens the other way); L's οἶδʼ = "I know", which the scholion's ψιλὸν τὸ οἶδα explains.
+107	rev: apparatus A's κερδανεῖς corrected to κερδάνεῖς: the page prints an acute on α as well as the circumflex (A's mixed accentuation), as printed (found by the comparison with the apparatus formerly on sale, settled on the page at enlargement, 2026-11-17)
 
 === p-0112
 --- text
