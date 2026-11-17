@@ -42,7 +42,7 @@
 466	δράσω· τὸ γὰρ δίκαιον οὐκ ἔχει λόγον
 --- apparatus
 453	προσπίτνουσα L² (=Lb): προσπιτνοῦσα L (made from προσπίτνουσα by a later hand), with the other MSS., and Ald.—γῆθεν] Nauck conj. νέρθεν.
-454	ἐχθροὺς] αὑτοὺς E.—Nauck conj. φάος.
+454	ἐχθροὺς] αὐτοὺς E.—Nauck conj. φάος.
 456	αὐτοῦ] Blaydes conj. αὑτοῦ.—ἐπεμβῆναι made in L from ἐπιβῆναι.—ποδί] Wakefield conj. ποτε.
 457	ἀφνεωτέραις] Nauck conj. ἀφθονωτέραις.
 459	οἶμαι μὲν οὖν, οἶμαι] Nauck conj. οἶμαι μὲν οὖν εἶναι. But he would prefer, οἶμαι μὲν οὖν καὶ θεοῖσι τἀκείνου μέλειν | πέμψασι μητρὶ κ.τ.λ. The conject. μέλειν for μέλον is also made by Blaydes.
@@ -50,6 +50,7 @@
 466	λόγον] Scaliger conj. λόγοιν.
 --- notes
 466	the four flagged "printed lines" after 466 are the apparatus (the end of the note on 451 and the note on 453-454), not verses: nothing added; residuals 464 and 466 (· read as :) checked: the page has the raised stop; all verses read against the page, no change.
+454	rev: apparatus E's αὑτοὺς corrected to αὐτοὺς: at enlargement the breathing is smooth (found by the comparison with the apparatus formerly on sale, 2026-11-17)
 
 === p-0166
 --- text

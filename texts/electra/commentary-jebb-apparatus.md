@@ -766,7 +766,7 @@ Paley (Journ. Phil. vol. v. p. 89) thinks these two vv. interpolated.—τήνδ
 προσπίτνουσα L² (=Lb): προσπιτνοῦσα L (made from προσπίτνουσα by a later hand), with the other MSS., and Ald.—**γῆθεν**] Nauck conj. νέρθεν.
 
 ## 454
-**ἐχθροὺς**] αὑτοὺς E.—Nauck conj. φάος.
+**ἐχθροὺς**] αὐτοὺς E.—Nauck conj. φάος.
 
 ## 456
 **αὐτοῦ**] Blaydes conj. αὑτοῦ.—ἐπεμβῆναι made in L from ἐπιβῆναι.—**ποδί**] Wakefield conj. ποτε.
