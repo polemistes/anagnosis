@@ -266,6 +266,7 @@ As to the diction of the verse, three points claim notice. (1) The **γε** afte
 21 Azs [latin] → *his*
 --- notes
 The 809 note was garbled (lines interleaved) and its heading lost: restored from the image ("809 f." → `## 809`, lemma **τί δράσω, τέκνον**). "807 f.", "811 f." headed `## 807`, `## 811`. The page opens with a new indented lemma of the note on 804 (no `+ `). In the Orestes quotation the print has "καὶ μὲν ἐγὼ" (Euripides' MSS. καὶ μὴν): kept as printed. "op. 1083 f+" → cp. 1085 f.; "ἄν σθένω" → ἂν; σπεύδῃ with its iota subscript as printed. Bold inside paragraphs as printed: μολεῖν, γε, ἄνδρα, σπεύδῃ, θέλοντας, θέλοντες. The page begins with the bold lemma **ἑσπέρους...ἀντηλίους**, a further lemma of the note on 804 on a new indented line (p-0209 ends "γενέσθαι."): a new paragraph of that note, so neither a heading nor `+ ` (the checker's remark "begins neither …" is answered so).
+804	the page begins with a new, indented paragraph of the note before: the further lemma **ἑσπέρους...ἀντηλίους** (leaf 210, the column's first line; p-0209 ends with a full stop): no '+ ' (settled at the merge, 2026-11-18).
 
 === p-0211
 + this case, the acc. θέλοντας depends on οὐχ ἕδρας ἀκμή as=οὐχ ἱδρυτέον, a constr. quite possible for poetry: cp. *El.* 479 f. ὕπεστί μοι θράσος..κλύουσαν (n.).

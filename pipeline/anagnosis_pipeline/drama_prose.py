@@ -2008,7 +2008,7 @@ def check_prose(slug: str, kind: str, path: Path, texts: Path) -> list[str]:
         college = PLAYS[slug].notes_layout in ("college", "back")
         # a page that begins with a new paragraph of the note before (a further lemma, "(1) If …",
         # Jebb's scene before the first note) is right when the batch's notes say so
-        said = re.search(r"new(?:, indented)? paragraph of the note before|scene description", noted, re.I)
+        said = re.search(r"new,? (?:indented )?paragraph|further lemma|new lemma|scene description", noted, re.I)
         if kind == "notes" and not (first.startswith("## ") or first.startswith("+ ") or first == "# Introduction"
                                     or (college and first.startswith("**")) or said):  # a further lemma of the note before
             remarks.append(f"{stem}: the page begins neither with a note's heading nor with '+ ' (a note run on)")
