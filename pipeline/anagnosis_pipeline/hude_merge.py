@@ -866,6 +866,7 @@ def write_gillies(slug: str, out: Path, units: list[dict], problems: list[str], 
         print(f"wrote eng-gillies.txt: {len(rows)} paragraphs of speeches {done}")
     if notes:
         md = _meta_lines({"title": "Notes to the translation (John Gillies)", "author": "John Gillies", "lang": "eng",
+                          "on": "translation",  # not a commentary on the Greek: build.py, meta translation_notes
                           "source": f"{GILLIES_EDITION}: his footnotes to the speeches translated here "
                                     f"({', '.join(sorted({k.split('.')[0] for k, _ in notes}, key=int))}); transcribed from the Internet Archive scan "
                                     "bim_eighteenth-century_the-orations-of-lysias-a_lysias_1778",

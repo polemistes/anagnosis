@@ -848,6 +848,13 @@ def build_translation(db: sqlite3.Connection, work_id: int, path: Path, last: tu
 
 def build_commentary(db: sqlite3.Connection, work_id: int, path: Path) -> None:
     meta, notes = parse_commentary_md(path)
+    # a translator's notes to his translation are not a commentary on the Greek: the file says so
+    # in its header (`# on: translation`), and the text's meta key translation_notes lists such
+    # note sets by slug, separated by spaces (the reader's chooser of books reads it)
+    if meta.get("on", "").strip().lower() == "translation":
+        row = db.execute("SELECT value FROM meta WHERE key = 'translation_notes'").fetchone()
+        slugs = (row[0].split() if row else []) + [path.stem]
+        db.execute("INSERT OR REPLACE INTO meta VALUES ('translation_notes', ?)", (" ".join(dict.fromkeys(slugs)),))
     cur = db.execute(
         "INSERT INTO commentaries (work_id, slug, title, author, lang, source, license) VALUES (?,?,?,?,?,?,?)",
         (work_id, path.stem, meta.get("title"), meta.get("author"), meta.get("lang"), meta.get("source"), meta.get("license")),

@@ -1,6 +1,7 @@
 # title: Notes to the translation (John Gillies)
 # author: John Gillies
 # lang: eng
+# on: translation
 # source: The Orations of Lysias and Isocrates, translated from the Greek, with some account of their lives, by John Gillies, London, J. Murray, 1778: his footnotes to the speeches translated here (1, 4, 21, 26, 34); transcribed from the Internet Archive scan bim_eighteenth-century_the-orations-of-lysias-a_lysias_1778
 # license: CC BY-SA 4.0 (transcription; the edition is in the public domain)
 

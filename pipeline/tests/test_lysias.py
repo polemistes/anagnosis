@@ -563,6 +563,20 @@ class WordsAndTranslation(unittest.TestCase):
         self.assertEqual(got, ["Text.¹", "[Note: ¹ Lysias had three brothers, Polemarchus, Euthydemus, and Brachyllus.]", "More text.",
                                "[Note: A second paragraph of the same note.]", "[Note: ² Another note,]", "[Note: ³ and a marked one.]"])
 
+    def test_translation_notes_key(self):
+        import sqlite3, tempfile
+        from anagnosis_pipeline.build import TEXT_SCHEMA, build_commentary
+        with tempfile.TemporaryDirectory() as d:
+            d = Path(d)
+            (d / "commentary-gillies.md").write_text("# title: Notes to the translation (John Gillies)\n# on: translation\n\n## 1.16\n**… of Æa**: A ward.\n", encoding="utf-8")
+            (d / "commentary-adams.md").write_text("# title: Commentary (Adams)\n\n## 1.16\n**λέγω**: a note.\n", encoding="utf-8")
+            db = sqlite3.connect(":memory:")
+            db.executescript(TEXT_SCHEMA)
+            db.execute("INSERT INTO works (slug, title, lang) VALUES ('t', 't', 'grc')")
+            for name in ("commentary-adams.md", "commentary-gillies.md"):
+                build_commentary(db, 1, d / name)
+            self.assertEqual(db.execute("SELECT value FROM meta WHERE key = 'translation_notes'").fetchall(), [("commentary-gillies",)])
+
     def test_gillies_marks(self):
         from anagnosis_pipeline.hude_merge import _batch_text, gillies_segments
         paras = ["# An Oration", "§1 It is wonderful, O Senators! he should pretend. §3 But granting I was his enemy.",

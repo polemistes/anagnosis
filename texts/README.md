@@ -435,7 +435,9 @@ the transcription is published under CC BY-SA 4.0. The Eroticus (XXXV) is left o
   translations are plain text: the italics of the prints are not kept. Gillies's thirteen
   footnotes are a small commentary of their own (`commentary-gillies.md`), each under the section
   of the segment that holds its mark and led by his words before the mark; the raised letters
-  are not shown in the translation. Eight speeches have no English (6, 8, 11,
+  are not shown in the translation. Its header says `# on: translation`: a commentary file with
+  that line is a translator's notes, not a commentary on the Greek, and the build lists it in the
+  database's meta key `translation_notes` (the reader's chooser of books reads it). Eight speeches have no English (6, 8, 11,
   15, 18, 20, 27, 29).
 * Commentaries and introductions (`commentary-adams.md`, `commentary-morgan.md`,
   `commentary-shuckburgh.md`, `introduction.md`, `appendix.md`): C. D. Adams (*Lysias: Selected
