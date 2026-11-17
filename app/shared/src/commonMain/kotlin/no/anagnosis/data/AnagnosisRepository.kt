@@ -202,9 +202,10 @@ class AnagnosisRepository(
         val notes = commentaries
             .flatMap { q.selectNotesForPage(it.id, prevN, lastN, firstN, OVERLAP_MAX_SPAN).executeAsList() }
             .sortedWith(compareBy({ it.from_n_int }, { -it.to_n_int }, { order[it.commentary_id] ?: 0 }, { it.ord }))
-        // where a page has notes from two commentaries on the same lines (Jerram's and the
-        // Dickinson College Commentaries' on Lucian), each group names its commentator
-        val mixed = notes.map { it.commentary_id }.distinct().size > 1
+        // where the text has two or more sets of notes of this kind (Jerram's and the Dickinson
+        // College Commentaries' on Lucian; Lysias's four, Gillies's notes to his translation among
+        // them), each group names whose notes they are, also on a page where only one set speaks
+        val mixed = NoteGroups.nameEachGroup(commentaries.size)
         val names = commentaries.associate { c ->
             c.id to (c.title?.let { Regex("\\(([^)]+)\\)").find(it)?.groupValues?.get(1) } ?: c.author ?: c.slug)
         }
