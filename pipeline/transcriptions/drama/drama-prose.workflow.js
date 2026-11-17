@@ -8,7 +8,7 @@ export const meta = {
 }
 // scratch = /home/proteus/koding/anagnosis/pipeline/build/agent-scratch (on disk, git-ignored; NOT the
 // session scratchpad, which is a RAM disk and is emptied at a restart)
-// args: { play, scratch, atOnce: 12, review: true,
+// args: { play, scratch, atOnce: 12, review: true, extra: 'a further instruction for every review agent',
 //         section: "Jebb's Sophocles: the Appendix and the chapters before the text",
 //         files: ['intro-01', 'appendix-01', 'appendix-02', 'appendix-03'] }
 // The batch files are made by `drama-prose <play> <kind> draft`; the brief is INSTRUCTIONS-prose.md.
@@ -39,7 +39,7 @@ Your own folder for crops and scripts: ${scratch}/${play}-rev-${f}/
 
 The first agent's report, as information only (assume nothing in it is right until you have seen it on the image):
 ${String(report || '').slice(0, 1500)}
-
+${args.extra ? '\n' + args.extra + '\n' : ''}
 Reply as REVIEW.md says: per page what you changed (or "no change"), the number of unexplained checker remarks, anything left open.`
 
 const out = []
