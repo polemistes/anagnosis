@@ -200,6 +200,20 @@ text or a reference work. Stated in `texts/README.md`, "Short definitions". Log:
 
 ## Open (found, not settled)
 
+* **Unnumbered printed lines with words are not shown.** `build` used to leave out every `!`
+  line of grc.txt; since 2026-11-17 a line of signs alone is shown (Electra 1264a, Theogony
+  1022a: `build.printed_marks_as_lines`). Still left out, because their words have no analyses:
+  the Theogony's bracketed verse after 146 ("[οἳ δʼ ἐξ ἀθανάτων θνητοὶ τράφεν αὐδήεντες] 142b",
+  a free text: to be given its number 142b and analyses), and in texts not offered the stage
+  directions ((Μυγμός.), ⟨ἔνδοθεν⟩) and the Clouds' ⟨ᾠδή⟩ lines. The other texts with rows of
+  asterisks or dots (Agamemnon, Choephoroi, Eumenides, the held-back texts, Philoctetes,
+  Oedipus Tyrannus, Oedipus at Colonus, Clouds) get them at their next build.
+* **Jebb's commentaries on the Antigone, the Ajax and the Electra are Perseus's edited
+  digitisation, not his page** (found 2026-11-17 while reading 493 citations on the page: 188
+  authors' names restored, Latin set in italics from the file's marking; but also authors and
+  titles added, titles respelt, slips). Being read whole from the page by the prose route, the
+  Antigone first: pipeline/PLAN-sophocles.md.
+
 * The Shepherd's 37 lemmas without a dictionary (above).
 * **The shared Betacode converter** still leaves a Latin v for the digamma in every other
   Perseus import (Jebb's commentaries among them); it was not changed, because the plays' fix
