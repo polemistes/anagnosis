@@ -126,6 +126,20 @@ HAND_ANALYSES: dict[str, dict[str, tuple[str, str]]] = {
     },
     # Jebb's Trachiniae: words the review list (build/trachiniae-review.tsv) showed with the
     # treebank's parse of another reading, or with none
+    # Jebb's Antigone (2026-11-17): the review list (build/antigone-review.tsv) read word by word in
+    # its verse, and the one word the trees split that Jebb prints whole
+    "antigone": {
+        "206 αἰκισθέντʼ": ("αἰκίζω", "v-sappma-"),     # αἰκισθέντα (of Polyneices); the trees: αἰκισθέν τʼ
+        "357 ἐναίθρεια": ("ἐναίθριος", "a-p---na-"),   # the trees read ὑπαίθρεια
+        "878 ἑτοίμαν": ("ἕτοιμος", "a-s---fa-"),       # the trees read πυμάταν
+        "970 ἀγχίπολις": ("ἀγχίπολις", "a-s---mn-"),   # the trees read ἀγχίπτολις
+        "1027 ἀκεῖται": ("ἀκέομαι", "v3spie---"),      # a present, not a future
+        "1289 τίνα": ("τίς", "p-s---ma-"),             # interrogative, with λόγον
+        "1322 ὅ": ("ὅστις", "p-s---na-"),              # ὅ τι τάχιστʼ
+        "1322 τι": ("ὅστις", "p-s---na-"),
+        "1340 κατέκανον": ("κατακαίνω", "v1saia---"),  # the trees read κἄκτανον
+        "1342 πᾷ": ("πῇ", "d--------"),
+    },
     "trachiniae": {
         "122 αἰδοῖα": ("αἰδοῖος", "a-p---na-"),      # Musgrave's αἰδοῖα for the MSS.' ἁδεῖα
         "165 κἀνιαύσιος": ("ἐνιαύσιος", "a-s---mn-"),  # the treebank reads κἀνιαύσιον
