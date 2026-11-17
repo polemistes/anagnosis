@@ -1285,6 +1285,17 @@ def write_commentary(slug: str, sources: Path, texts: Path) -> int:
         if wrong not in text:
             print(f"{path.name}: fix not applied, not found: {wrong}")
         text = text.replace(wrong, right)
+    # the authors' names that dropped out of Perseus's file before titles, read on Jebb's page
+    # (jebb_authors.py: the answered job files transcriptions/sophocles/<slug>/authors-NN.tsv)
+    from .jebb_authors import restored
+    names = restored(slug, sources)
+    for wrong, right in names:
+        if text.count(wrong) != 1:
+            print(f"{path.name}: author's name not restored, the words stand {text.count(wrong)} times: {wrong}")
+            continue
+        text = text.replace(wrong, right)
+    if names:
+        print(f"{path.name}: {len(names)} authors' names restored before titles")
     text = length_signs_over(range_dash(text))
     tmp.write_text(_METRE.sub(lambda m: m.group(1).translate(_METRE_SIGNS), text), encoding="utf-8")
     os.replace(tmp, path)
