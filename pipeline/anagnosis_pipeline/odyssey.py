@@ -351,7 +351,7 @@ def align(doc: Document, tb: list[dict], keep_tb_form: bool = False, units: bool
 
     `record`, if given, receives what each word of the text is to the treebank's text where it
     is not simply the treebank's own word: {"line", "ord", "form", "kind", "tree_form",
-    "tree_lemma", "sentence", "word_id"} with kind "unit" (the text's word is a part of a
+    "tree_lemma", "tree_postag", "sentence", "word_id"} with kind "unit" (the text's word is a part of a
     treebank word, or several treebank words joined), "reading" (the treebank's text has another
     word here; ours is paired with it in order and takes over its relation and head) or "absent"
     (the treebank's text has no word for it). The words in the same letters, whatever their
@@ -485,16 +485,16 @@ def align(doc: Document, tb: list[dict], keep_tb_form: bool = False, units: bool
         if record is not None:
             note = None
             if idx in unit:
-                note = ("unit", unit[idx][0]["form"], unit[idx][0]["lemma"])
+                note = ("unit", unit[idx][0]["form"], unit[idx][0]["lemma"], unit[idx][0]["postag"])
             elif ws and len(ws) > 1:
-                note = ("unit", " ".join(x["form"] for x in ws), " ".join(x["lemma"] for x in ws))
+                note = ("unit", " ".join(x["form"] for x in ws), " ".join(x["lemma"] for x in ws), "")
             elif ws and _bare(ws[0]["form"]) != _bare(form):  # an editor's bracket on the word is no other reading
-                note = ("reading", ws[0]["form"], ws[0]["lemma"])
+                note = ("reading", ws[0]["form"], ws[0]["lemma"], ws[0]["postag"])
             elif not ws:
-                note = ("absent", "", "")
+                note = ("absent", "", "", "")
             if note:
                 record.append({"line": n, "ord": ord_, "form": form, "kind": note[0], "tree_form": note[1], "tree_lemma": note[2],
-                               "sentence": row["sentence"], "word_id": row["word_id"]})
+                               "tree_postag": note[3], "sentence": row["sentence"], "word_id": row["word_id"]})
         row["lemma"] = fix_lemma(row["lemma"])
         rows.append(row)
     return rows, warnings

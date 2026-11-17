@@ -7,10 +7,14 @@ the trees, Rzach's Teubner in the reader). The merge lines our words up with the
 told (pipeline/PLAN-theogony.md, "The trees' text"):
 
   unit       our word is a part of a tree word (αἵ θʼ for αἵθʼ), or several tree words joined
-  reading    the trees' text has another word here; ours is paired with it and takes over its
-             relation and head (kept only where the role fits our word: TREE_READINGS)
-  absent     the trees' text has no word for it (no node); `tree_form`, if any, is the word the
-             trees' text has in its place in another construction (a reading that was dropped)
+  reading    the trees' text has another word here (`tree_form`, `tree_lemma`, `tree_postag`):
+             ours is paired with it, the row naming the tree word's node. The tree is shown with
+             the word it was made for; the relation and head are that word's, not ours.
+             `same_construction` (TREE_READINGS) says whether our word stands in the same
+             construction (1: its token then carries the node in its own columns too, as a word
+             of the trees does) or in another (0: the token has the sentence but no node of its
+             own, so that nothing but this row gives it the tree word's role)
+  absent     the trees' text has no word for it (no node)
   unprinted  a tree word our edition does not print (kept as a node so that the tree stays whole)
 
 `extent` says of an absent or unprinted word whether it stands alone ("word") or in a run of
@@ -27,7 +31,7 @@ import csv
 import sqlite3
 from pathlib import Path
 
-COLUMNS = ["kind", "line", "ord", "form", "sentence", "word_id", "tree_form", "tree_lemma", "extent"]
+COLUMNS = ["kind", "line", "ord", "form", "sentence", "word_id", "tree_form", "tree_lemma", "tree_postag", "same_construction", "extent"]
 PASSAGE = 3  # so many absent or unprinted words in a row are a passage
 
 SCHEMA = """
@@ -36,7 +40,8 @@ SCHEMA = """
 -- (sentence and word_id of the node in sentence_nodes; no token).
 CREATE TABLE syntax_text_words (
     id INTEGER PRIMARY KEY, kind TEXT NOT NULL, token_id INTEGER REFERENCES tokens(id),
-    sentence TEXT, word_id INTEGER, tree_form TEXT, tree_lemma TEXT, extent TEXT
+    sentence TEXT, word_id INTEGER, tree_form TEXT, tree_lemma TEXT, tree_postag TEXT,
+    same_construction INTEGER, extent TEXT
 );
 CREATE INDEX syntax_text_words_token ON syntax_text_words(token_id);
 CREATE INDEX syntax_text_words_node ON syntax_text_words(sentence, word_id);
@@ -44,11 +49,13 @@ CREATE INDEX syntax_text_words_node ON syntax_text_words(sentence, word_id);
 
 
 def settle(slug: str, rows: list[dict], record: list[dict]) -> list[str]:
-    """Apply the decisions on the readings (drama_fixes.TREE_READINGS: "line form" -> ("keep" or
-    "drop", reason)): a reading whose inherited role does not fit our word loses the link (its
-    row's relation, head, sentence and word id are emptied) and becomes "absent", the tree's
-    word staying in the record as what the trees' text has there. Returns the readings that have
-    no decision (they are kept)."""
+    """Add the judgement on each reading (drama_fixes.TREE_READINGS: "line form" -> ("keep" or
+    "drop", reason)) as `same_construction`: 1 where our word stands in the trees' word's
+    construction, 0 where it does not. The row keeps the tree word's node either way. A word in
+    another construction does not carry the node in its own token columns (relation, head and
+    word id are emptied; the sentence stays, so that the tree can be opened from the word): the
+    tree word is then a node of its own, shown as the trees have it, and only the record ties
+    our word to it. Returns the readings that have no decision (left as paired)."""
     from .drama_fixes import TREE_READINGS
 
     decisions = TREE_READINGS.get(slug, {})
@@ -61,10 +68,10 @@ def settle(slug: str, rows: list[dict], record: list[dict]) -> list[str]:
         decision = decisions.get(key)
         if decision is None:
             undecided.append(key)
-        elif decision[0] == "drop":
-            row = by[(rec["line"], int(rec["ord"]))]
-            row.update(relation="", head="", sentence="", word_id="")
-            rec.update(kind="absent", sentence="", word_id="")
+            continue
+        rec["same_construction"] = "1" if decision[0] == "keep" else "0"
+        if decision[0] == "drop":
+            by[(rec["line"], int(rec["ord"]))].update(relation="", head="", word_id="")
     return undecided
 
 
@@ -92,21 +99,20 @@ def write_record(path: Path, record: list[dict], tb: list[dict], used: set[tuple
     # our words without a tree word: alone, or a run (a verse the trees' text lacks). A run is
     # counted among the words of the text in their order, whatever stands between in the record
     order = sorted(range(len(rows)), key=lambda i: (_line_key(rows[i]["line"]), int(rows[i]["ord"])))
-    # (a reading that was dropped is a single word whatever stands beside it)
-    absent = [i for i in order if rows[i]["kind"] == "absent" and not rows[i]["tree_form"]]
-    for i in order:
-        if rows[i]["kind"] == "absent" and rows[i]["tree_form"]:
-            rows[i]["extent"] = "word"
+    absent = [i for i in order if rows[i]["kind"] == "absent"]
     for a, b in _adjacent(absent, rows, lengths or {}):
         for i in absent[a:b]:
             rows[i]["extent"] = "passage" if b - a >= PASSAGE else "word"
     # the tree's words that our edition does not print, in the treebank's order
+    # (a tree word that a reading of ours is tied to by the record is not one of them)
+    read = {(r["sentence"], str(r["word_id"])) for r in rows if r["kind"] == "reading"}
     words = [w for w in tb if w["is_word"] and not w["artificial"]]
-    flags = [(w["sentence"], w["word_id"]) not in used for w in words]
+    flags = [(w["sentence"], w["word_id"]) not in used and (w["sentence"], w["word_id"]) not in read for w in words]
     for w, flag, run in zip(words, flags, _runs(flags)):
         if flag:
             rows.append({"kind": "unprinted", "line": "", "ord": "", "form": "", "sentence": w["sentence"], "word_id": w["word_id"],
-                         "tree_form": w["form"], "tree_lemma": w["lemma"], "extent": "passage" if run >= PASSAGE else "word"})
+                         "tree_form": w["form"], "tree_lemma": w["lemma"], "tree_postag": w["postag"],
+                         "extent": "passage" if run >= PASSAGE else "word"})
     with path.open("w", encoding="utf-8", newline="") as f:
         out = csv.DictWriter(f, fieldnames=COLUMNS, delimiter="\t", lineterminator="\n", quoting=csv.QUOTE_NONE, quotechar=None, escapechar=None)
         out.writeheader()
@@ -161,8 +167,10 @@ def build_table(db: sqlite3.Connection, work_dir: Path) -> int:
         if r["line"] and tid is None:
             raise SystemExit(f"{work_dir.name}: syntax-text.tsv names the word {r['line']}:{r['ord']} {r['form']}, which the text has not")
         word = r["word_id"].lstrip("=").split("+")[0]
-        db.execute("INSERT INTO syntax_text_words (kind, token_id, sentence, word_id, tree_form, tree_lemma, extent) VALUES (?,?,?,?,?,?,?)",
+        db.execute("INSERT INTO syntax_text_words (kind, token_id, sentence, word_id, tree_form, tree_lemma, tree_postag, same_construction, extent) "
+                   "VALUES (?,?,?,?,?,?,?,?,?)",
                    (r["kind"], tid, r["sentence"] or None, int(word) if word.isdigit() else None, r["tree_form"] or None,
-                    r["tree_lemma"] or None, r["extent"] or None))
+                    r["tree_lemma"] or None, r.get("tree_postag") or None,
+                    int(r["same_construction"]) if r.get("same_construction") in ("0", "1") else None, r["extent"] or None))
     db.execute("INSERT OR REPLACE INTO meta VALUES ('syntax_text_words', ?)", (str(len(rows)),))
     return len(rows)

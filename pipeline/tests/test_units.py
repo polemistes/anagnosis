@@ -91,8 +91,8 @@ class TreesText(unittest.TestCase):
         import sqlite3, tempfile
         from pathlib import Path
         from anagnosis_pipeline import syntax_text as S
-        rec = [{"line": "2", "ord": 3, "form": "ἔχουσι", "kind": "reading", "tree_form": "ἔχουσιν", "tree_lemma": "ἔχω", "sentence": "s1", "word_id": "5"},
-               {"line": "2", "ord": 4, "form": "πέλωρ", "kind": "reading", "tree_form": "ὄρος", "tree_lemma": "ὄρος", "sentence": "s1", "word_id": "6"},
+        rec = [{"line": "2", "ord": 3, "form": "ἔχουσι", "kind": "reading", "tree_form": "ἔχουσιν", "tree_lemma": "ἔχω", "tree_postag": "v3ppia---", "sentence": "s1", "word_id": "5"},
+               {"line": "2", "ord": 4, "form": "πέλωρ", "kind": "reading", "tree_form": "ὄρος", "tree_lemma": "ὄρος", "tree_postag": "n-s---na-", "sentence": "s1", "word_id": "6"},
                {"line": "3", "ord": 0, "form": "νέος", "kind": "absent", "tree_form": "", "tree_lemma": "", "sentence": "", "word_id": ""},
                {"line": "3", "ord": 1, "form": "στίχος", "kind": "absent", "tree_form": "", "tree_lemma": "", "sentence": "", "word_id": ""},
                {"line": "3", "ord": 2, "form": "ὅλος", "kind": "absent", "tree_form": "", "tree_lemma": "", "sentence": "", "word_id": ""}]
@@ -104,27 +104,30 @@ class TreesText(unittest.TestCase):
             self.assertEqual(S.settle("test-text", rows, rec), [])
         finally:
             del drama_fixes.TREE_READINGS["test-text"]
-        self.assertEqual((rows[0]["sentence"], rows[0]["word_id"]), ("s1", "5"))
-        self.assertEqual((rows[1]["sentence"], rows[1]["word_id"], rows[1]["relation"]), ("", "", ""))   # the link is given up
-        self.assertEqual((rec[1]["kind"], rec[1]["tree_form"]), ("absent", "ὄρος"))                        # and what the trees have is kept
-        self.assertEqual(S.settle("another-text", rows, rec[:1]), ["2 ἔχουσι"])                           # no decision: kept, and named
+        # in the same construction: the token carries the node itself
+        self.assertEqual((rows[0]["sentence"], rows[0]["word_id"], rows[0]["relation"], rec[0]["same_construction"]), ("s1", "5", "ATR", "1"))
+        # in another: the token keeps the sentence only; the record still names the tree word's node
+        self.assertEqual((rows[1]["sentence"], rows[1]["word_id"], rows[1]["relation"], rows[1]["head"]), ("s1", "", "", ""))
+        self.assertEqual((rec[1]["kind"], rec[1]["sentence"], rec[1]["word_id"], rec[1]["tree_form"], rec[1]["same_construction"]),
+                         ("reading", "s1", "6", "ὄρος", "0"))
+        self.assertEqual(S.settle("another-text", rows, rec[:1]), ["2 ἔχουσι"])                           # no decision: named
         self.assertEqual(S._runs([True, False, True, True, True]), [1, 0, 3, 3, 3])
         with tempfile.TemporaryDirectory() as d:
             path = Path(d) / "syntax-text.tsv"
-            used = {("s1", str(i)) for i in (1, 2, 3, 4, 5)}                                               # node 6 is no word of ours now
+            used = {("s1", str(i)) for i in (1, 2, 3, 5)}        # node 4 has no word of ours; node 6 is tied to πέλωρ by the record
             counts = S.write_record(path, rec, TB, used, {"2": 5, "3": 3})
-            self.assertEqual(counts, {"reading": 1, "absent": 4, "unprinted": 1})
+            self.assertEqual(counts, {"reading": 2, "absent": 3, "unprinted": 1})
             got = S.read_record(path)
-            self.assertEqual([r["extent"] for r in got], ["", "word", "passage", "passage", "passage", "word"])
-            self.assertEqual((got[-1]["kind"], got[-1]["sentence"], got[-1]["word_id"], got[-1]["tree_form"]), ("unprinted", "s1", "6", "ὄρος"))
+            self.assertEqual([r["extent"] for r in got], ["", "", "passage", "passage", "passage", "word"])
+            self.assertEqual((got[-1]["kind"], got[-1]["word_id"], got[-1]["tree_form"]), ("unprinted", "4", "Ἑλικῶνος"))
             db = sqlite3.connect(":memory:")
             db.executescript("CREATE TABLE meta (key TEXT PRIMARY KEY, value TEXT); CREATE TABLE lines (id INTEGER PRIMARY KEY, n TEXT);"
                              "CREATE TABLE tokens (id INTEGER PRIMARY KEY, line_id INTEGER, ord INTEGER);")
             db.executemany("INSERT INTO lines VALUES (?,?)", [(1, "2"), (2, "3")])
             db.executemany("INSERT INTO tokens VALUES (?,?,?)", [(10, 1, 3), (11, 1, 4), (12, 2, 0), (13, 2, 1), (14, 2, 2)])
             self.assertEqual(S.build_table(db, Path(d)), 6)
-            self.assertEqual(db.execute("SELECT kind, token_id, sentence, word_id, tree_form FROM syntax_text_words ORDER BY id").fetchall()[:2],
-                             [("reading", 10, "s1", 5, "ἔχουσιν"), ("absent", 11, None, None, "ὄρος")])
+            self.assertEqual(db.execute("SELECT kind, token_id, sentence, word_id, tree_form, tree_postag, same_construction FROM syntax_text_words ORDER BY id").fetchall()[:2],
+                             [("reading", 10, "s1", 5, "ἔχουσιν", "v3ppia---", 1), ("reading", 11, "s1", 6, "ὄρος", "n-s---na-", 0)])
             self.assertEqual(db.execute("SELECT value FROM meta WHERE key = 'syntax_text_words'").fetchone(), ("6",))
             # a text without the file gets no table
             db2 = sqlite3.connect(":memory:")

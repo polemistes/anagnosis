@@ -262,3 +262,26 @@ As PLAN-drama.md "Steps for each play", with the play's slug `theogony`:
     "reads X where the trees have Y": Odyssey 654, Lysias 209: those are the pairs that would
     want decisions.
   * Version d2f7cbb023efbec9; no other text's database changed (checksums).
+* **2026-11-17, a change of principle: the tree is shown with the words it was made for** (the
+  author). Where our text and the trees' text differ in letters, the tree displays the trees'
+  own word, and our word's sheet says what the trees' text reads there and what role that word
+  has. So no link is given up, and the judgement on a reading is information, not a filter.
+  * All 52 readings are `reading` rows tied to the tree word's node (`sentence`, `word_id`); the
+    six that had been dropped (295, 485, 497, 659, 860, 961) among them; their six `unprinted`
+    rows are gone. New columns: `same_construction` (1 for the 46, 0 for the six) and
+    `tree_postag` (the trees' word's form, for all rows that have a tree word).
+  * **What the token carries**: for the 46 in the same construction the token has the node in
+    its own columns, as before (its relation and head are the trees' word's; they fit ours).
+    For the six in another construction the token has the sentence only (no word id, relation
+    or head); the tree word is a node of its own among the extra nodes, with its own form, tag
+    and role; the record ties the two. Why not the node in the token for the six too: a reader
+    without the new code would then call δεῦρʼ a connective and καταπίνων an attribute, as it
+    did before the record existed; with the sentence only it says nothing of their role, shows
+    the trees' own word in the tree, and still opens the tree from the word.
+  * Numbers now: unit 48, reading 52 (46 + 6), absent 29 (18 in passages, 11 single), unprinted
+    146 (135 in passages, 11 single); 275 rows. Version 8892891a9e9bba5f.
+  * **For the reader**: for a `reading` row the node is `(sentence, word_id)` of the row,
+    whether it was built from the token (same_construction 1) or from the extra nodes (0); the
+    tree shows `tree_form` there, marked as differing from the printed text; the word's sheet
+    says "the trees' text reads `tree_form` here" and names that node's role, "in the same
+    construction" or "in another construction" by the column.

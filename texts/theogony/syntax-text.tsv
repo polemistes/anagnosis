@@ -1,282 +1,276 @@
-kind	line	ord	form	sentence	word_id	tree_form	tree_lemma	extent
-unit	2	0	αἵ	2273668	6	αἵθ̓	ὅστε	
-unit	2	1	θʼ	2273668	=6	αἵθ̓	ὅστε	
-reading	15	2	γαιήοχον	2273671	41	γεήοχον	γαιήοχος	
-reading	31	4	μʼ	2273677	3	μοι	ἐγώ	
-reading	31	5	ἀοιδὴν	2273677	4	αὐδὴν	αὐδή	
-absent	48	3	θεαὶ					passage
-absent	48	4	λήγουσαί					passage
-absent	48	5	τʼ					passage
-reading	56	3	νύκτας	2273688	4	νυκτὸς	νύξ	
-absent	71	0	νισομένων					word
-absent	71	1	πατέρα					word
-reading	77	6	Μελπομένη	2273697	22	Μελπομέενη	Μελπομένη	
-unit	102	5	οὐδέ	2273709	34+35	οὐ δέ	οὐ δέ	
-unit	126	7	ἑʼ	2273718	8	ἑαυτῇ	ἑαυτοῦ	
-unit	126	8	αὐτῇ	2273718	=8	ἑαυτῇ	ἑαυτοῦ	
-reading	159	4	στεναχίζετο	2273733	4	στοναχίζετο	στεναχίζω	
-reading	165	4	τεισαίμεθα	2273737	15	τισαίμεθα	τίνω	
-unit	167	8	οὐδέ	2273740	8+9	οὐ δέ	οὐ δέ	
-unit	218	6	αἵ	2273768	15	αἵτε	ὅστε	
-unit	218	7	τε	2273768	=15	αἵτε	ὅστε	
-unit	220	0	αἵ	2273768	25	αἵτ̓	ὅστε	
-unit	220	1	τʼ	2273768	=25	αἵτ̓	ὅστε	
-unit	221	0	οὐδέ	2273769	1+2	οὐ δέ	οὐ δέ	
-reading	230	2	Ἀάτην	2273772	32	Ἄτην	ἄτη	
-unit	235	5	οὐδὲ	2273774	11+12	οὐ δὲ	οὐ δέ	
-reading	240	3	μεγήριτα	2273776	4	μεγήρατα	μεγήρατος	
-reading	266	5	τέκε	2273779	4	τέκεν	τίκτω	
-reading	279	4	ἄνθεσι	2273783	10	ἄνθεσιν	ἄνθος	
-reading	282	0	τᾷ	2273785	1	τῷ	ὁ	
-reading	288	0	μειχθεὶς	2273788	6	μιχθεὶς	μίγνυμι	
-absent	295	6	οὐδὲ			οὐδὲν	οὐδείς	word
-unit	296	2	οὐδʼ	2273790	12+13	οὐ δ̓	οὐ δέ	
-absent	297	0	ἐν					word
-reading	304	6	χθόνα	2273793	7	χθονὶ	χθών	
-absent	335	0	σπείρῃσιν					word
-absent	335	1	μεγάλῃς					word
-reading	354	2	Θόη	2273810	65	Φόη	Φόη	
-absent	370	4	οἳ					word
-absent	370	5	ἂν					word
-reading	375	2	Εὐρυβίη	2273817	3	Εὐρυβίν	Εὐρυβία	
-reading	377	5	μετέπρεπε	2273817	21	μετέπρεπεν	μεταπρέπω	
-reading	381	4	τίκτʼ	2273819	5	τίκτεν	τίκτω	
-reading	381	5	Ἠοσφόρον	2273819	6	Ἑωσφόρον	Ἑωσφόρος	
-unit	386	6	οὐδέ	2273821	16+17	οὐ δέ	οὐ δέ	
-unit	387	0	οὐδʼ	2273821	21+22	οὐ δ̓	οὐ δέ	
-unit	395	3	ὅς	2273822	53	ὅστις	ὅστις	
-unit	395	4	τις	2273822	=53	ὅστις	ὅστις	
-reading	399	7	ἔδωκεν	2273824	9	δέδωκεν	δίδωμι	
-reading	401	4	ἕο	2273825	14	ἑοῦ	ἑός	
-reading	406	0	Λητὼ	2273829	8	Δητὼ	Λητώ	
-unit	423	0	οὐδέ	2273837	1+2	οὐ δέ	οὐ δέ	
-unit	423	5	οὐδέ	2273837	7+8	οὐ δέ	οὐ δέ	
-unit	426	0	οὐδʼ	2273838	1+2	οὐ δ̓	οὐ ??	
-absent	447	3	καὶ					word
-absent	447	4	ἐκ					word
-reading	451	0	ὀφθαλμοῖσι	2273849	10	ὀφθαλμοῖσιν	ὀφθαλμός	
-reading	472	2	τείσαιτο	2273856	36	τίσαιτο	τίνω	
-absent	485	0	τᾷ			τῷ	τῷ	word
-unit	488	1	οὐδʼ	2273864	1+2	οὐ δ̓	οὐ δέ	
-reading	497	2	ἐξείμεσσε	2273867	4	ἐξέμεσεν	ἐξεμέω	
-absent	497	5	καταπίνων			κατέπινεν	καταπίνω	word
-reading	506	4	ἀθανάτοισι	2273872	5	ἀθανάτοισιν	ἀθάνατος	
-absent	532	0	ταῦτά					passage
-absent	532	1	γʼ					passage
-absent	532	2	ἄρʼ					passage
-unit	551	2	οὐδʼ	2273894	8+9	οὐ δ̓	οὐ δέ	
-absent	576	3	στεφάνους					passage
-absent	576	4	νεοθηλέος					passage
-absent	576	5	ἄνθεα					passage
-absent	576	6	ποίης					passage
-absent	577	0	ἱμερτοὺς					passage
-absent	577	1	περίθηκε					passage
-absent	577	2	καρήατι					passage
-absent	577	3	Παλλὰς					passage
-absent	577	4	Ἀθήνη					passage
-absent	578	0	ἀμφὶ					passage
-absent	578	1	δέ					passage
-absent	578	2	οἱ					passage
-reading	584	1	ζῴοισι	2273912	35	ζῴοισιν	ζῷον	
-unit	613	6	οὐδὲ	2273923	7+8	οὐ δὲ	οὐ δέ	
-unit	614	0	οὐδὲ	2273924	1+2	οὐ δὲ	οὐ δέ	
-reading	617	0	Ὀβριάρεῳ	2273925	1	Βριάρεῳ	βριάρεως	
-reading	622	0	ἥατʼ	2273927	9	εἵατ̓	ἧμαι	
-unit	637	0	οὐδέ	2273932	1+2	οὐ δέ	οὐ δέ	
-unit	637	6	οὐδὲ	2273932	8+9	οὐ δὲ	οὐ δέ	
-reading	639	4	παρέσχεθον	2273933	5	παρέσχεθεν	παρέχω	
-absent	659	1	δεῦρʼ			δ̓	δέ	word
-reading	659	2	αὖτις	2273942	10	ἐξαῦτις	ἐξαῦτις	
-reading	669	3	Ἐρέβεσφιν	2273947	26	Ἐρέβευσφιν	Ἔρεβος	
-unit	687	0	οὐδʼ	2273955	1+2	οὐ δ̓	οὐ δέ	
-reading	701	0	ὀφθαλμοῖσι	2273962	4	ὀφθαλμοῖσιν	ὀφθαλμός	
-unit	740	2	οὐδέ	2273980	32+33	οὐ δέ	οὐ δέ	
-unit	751	1	οὐδέ	2273984	11+12	οὐ δέ	οὐ δέ	
-unit	754	5	ἔς	2273984	41	ἔστ̓	ἔστε	
-unit	754	6	τʼ	2273984	=41	ἔστ̓	ἔστε	
-unit	759	5	οὐδέ	2273987	1+2	οὐ δέ	οὐ δέ	
-unit	761	3	οὐδʼ	2273987	12+13	οὐ δ̓	οὐ δέ	
-unit	783	2	ὅς	2273998	10	ὅστις	ὅστις	
-unit	783	3	τις	2273998	=10	ὅστις	ὅστις	
-unit	786	1	ὅ	2273998	33	ὅτ̓	ὅστις	
-unit	786	2	τʼ	2273998	=33	ὅτ̓	ὅστις	
-unit	796	0	οὐδέ	2274003	1+2	οὐ δέ	οὐ δέ	
-unit	802	0	οὐδέ	2274005	8+9	οὐ δέ	οὐ δέ	
-unit	802	5	οὐδʼ	2274005	14+15	οὐ δ̓	οὐ δέ	
-unit	831	1	ὥς	2274018	5	ὥστε	ὥστε	
-unit	831	2	τε	2274018	=5	ὥστε	ὥστε	
-reading	834	3	σκυλάκεσσι	2274018	32	σκυλάκεσσιν	σκύλαξ	
-reading	837	6	ἀθανάτοισι	2274019	15	ἀθανάτοισιν	ἀθάνατος	
-reading	850	4	καταφθιμένοισι	2274026	6	καταφθιμένοισιν	καταφθίω	
-absent	860	3	Ἀίτνης			ἀιδνῇς	ἀιδνός	word
-absent	887	1	θεῶν					word
-reading	902	0	Εὐνομίην	2274051	10	Εὐνουμίην	Εὐνουμίη	
-reading	904	2	ἧς	2274051	27	ᾗ	ὅς	
-unit	905	6	αἵ	2274051	41	αἵτε	ὅστε	
-unit	905	7	τε	2274051	=41	αἵτε	ὅστε	
-reading	917	1	τῇσι	2274057	15	τῇσιν	ὁ	
-absent	920	0	γείνατο					word
-reading	923	0	μειχθεῖσʼ	2274060	9	μιχθεῖσ̓	μίγνυμι	
-unit	931	4	ὅς	2274071	12	ὅστε	ὅστε	
-unit	931	5	τε	2274071	=12	ὅστε	ὅστε	
-unit	935	1	οἵ	2274072	11	οἵτ̓	ὅστε	
-unit	935	2	τʼ	2274072	=11	οἵτ̓	ὅστε	
-reading	941	0	μειχθεῖσʼ	2274074	9	μιχθεῖσ̓	μίγνυμι	
-reading	944	0	μειχθεῖσʼ	2274076	7	μιχθεῖσ̓	μίγνυμι	
-reading	960	2	βουλῇσι	2274082	12	βουλῇσιν	βουλή	
-absent	961	1	δή			δέ	δέ	word
-reading	980	0	μειχθεῖσʼ	2274089	7	μιχθεῖσ̓	μίγνυμι	
-reading	1001	6	Χίρων	2274095	19	Χείρων	Χείρων	
-reading	1016	2	ἀγακλειτοῖσι	2274102	12	ἀγακλειτοῖσιν	ἀγακλειτός	
-unprinted				2273685	14	καὶ	καί	word
-unprinted				2273685	15	ἐκλήγουσαι	ἐκλήγω	word
-unprinted				2273694	14	νισσομένων	νίσσομαι	passage
-unprinted				2273694	15	πατέῤ	πατήρ	passage
-unprinted				2273694	16	εἰς	εἰς	passage
-unprinted				2273790	8	οὐδὲν	οὐδείς	word
-unprinted				2273790	18	ἔνι	ἐν	word
-unprinted				2273807	15	πείρασιν	πεῖραρ	passage
-unprinted				2273807	16	ἐν	ἐν	passage
-unprinted				2273807	17	μεγάλοις	μέγας	passage
-unprinted				2273815	14	ὅσοι	ὅσος	word
-unprinted				2273847	21	κἀκ	ἐκ	word
-unprinted				2273862	1	τῷ	τῷ	word
-unprinted				2273867	7	ὃν	ὅς	word
-unprinted				2273867	9	κατέπινεν	καταπίνω	word
-unprinted				2273884	1	ταῦτ̓	οὗτος	word
-unprinted				2273884	2	ἄρα	ἄρα	word
-unprinted				2273942	8	δ̓	δέ	word
-unprinted				2273988	2	δ̓	δέ	word
-unprinted				2274030	10	ἀιδνῇς	ἀιδνός	word
-unprinted				2274058	14	γείνατ̓	γείνομαι	word
-unprinted				2274058	15	ἄῤ	ἄρα	word
-unprinted				2274062	1	Ἥρη	Ἥρα	passage
-unprinted				2274062	2	δὲ	δέ	passage
-unprinted				2274062	3	ζαμένησε	ζαμενέω	passage
-unprinted				2274062	4	καὶ	καί	passage
-unprinted				2274062	5	ἤρισε	ἐρίζω	passage
-unprinted				2274062	6	ᾧ	ἑός	passage
-unprinted				2274062	7	παρακοίτῃ	παρακοίτης	passage
-unprinted				2274063	1	ἐκ	ἐκ	passage
-unprinted				2274063	2	ταύτης	οὗτος	passage
-unprinted				2274063	3	δ̓	δέ	passage
-unprinted				2274063	4	ἔριδος	ἔρις	passage
-unprinted				2274063	5	ἣ	ὁ	passage
-unprinted				2274063	6	μὲν	μέν	passage
-unprinted				2274063	7	τέκε	τίκτω	passage
-unprinted				2274063	8	φαίδιμον	φαίδιμος	passage
-unprinted				2274063	9	υἱὸν	υἱός	passage
-unprinted				2274063	10	Ἥφαιστον	Ἥφαιστος	passage
-unprinted				2274063	12	φιλότητος	φιλότης	passage
-unprinted				2274063	13	ἄτερ	ἄτερ	passage
-unprinted				2274063	14	Διὸς	Ζεύς	passage
-unprinted				2274063	15	αἰγιόχοιο	αἰγίοχος	passage
-unprinted				2274063	17	ἐκ	ἐκ	passage
-unprinted				2274063	18	πάντων	πᾶς	passage
-unprinted				2274063	19	παλάμῃσι	παλάμη	passage
-unprinted				2274063	20	κεκασμένον	καίνυμαι	passage
-unprinted				2274063	21	Οὐρανιώνων	Οὐρανίωνες	passage
-unprinted				2274064	1	αὐτὰρ	ἀτάρ	passage
-unprinted				2274064	2	ὅ	ὁ	passage
-unprinted				2274064	3	γ̓	γε	passage
-unprinted				2274064	4	Ὠκεανοῦ	Ὠκεανός	passage
-unprinted				2274064	5	καὶ	καί	passage
-unprinted				2274064	6	Τηθύος	Τηθύς	passage
-unprinted				2274064	7	ἠυκόμοιο	εὔκομος	passage
-unprinted				2274064	8	κούρῃ	κόρη	passage
-unprinted				2274064	9	νόσφ̓	νόσφι	passage
-unprinted				2274064	10	Ἥρης	Ἥρα	passage
-unprinted				2274064	11	παρελέξατο	παραλέχομαι	passage
-unprinted				2274064	12	καλλιπαρήῳ	καλλιπάρηος	passage
-unprinted				2274064	14	ἐξαπαφὼν	ἐξαπαφίσκω	passage
-unprinted				2274064	15	Μῆτιν	μῆτις	passage
-unprinted				2274064	16	καίπερ	καίπερ	passage
-unprinted				2274064	17	πολυδήνἐ	πολυδήνης	passage
-unprinted				2274064	18	ἐοῦσαν	εἰμί	passage
-unprinted				2274065	1	συμμάρψας	συμμάρπτω	passage
-unprinted				2274065	2	δ̓	δέ	passage
-unprinted				2274065	3	ὅ	ὁ	passage
-unprinted				2274065	4	γε	γε	passage
-unprinted				2274065	5	χερσὶν	χείρ	passage
-unprinted				2274065	6	ἑὴν	ἑός	passage
-unprinted				2274065	7	ἐγκάτθετο	ἐγκατατίθεμαι	passage
-unprinted				2274065	8	νηδὺν	νηδύς	passage
-unprinted				2274065	9	δείσας	δείδω	passage
-unprinted				2274065	11	μὴ	μή	passage
-unprinted				2274065	12	τέξῃ		passage
-unprinted				2274065	13	κρατερώτερον	κρατερός	passage
-unprinted				2274065	14	ἄλλο	ἄλλος	passage
-unprinted				2274065	15	κεραυνοῦ	κεραυνός	passage
-unprinted				2274066	1	τοὔνεκά	τοὔνεκα	passage
-unprinted				2274066	2	μιν	μιν	passage
-unprinted				2274066	3	Κρονίδης	Κρονίδης	passage
-unprinted				2274066	4	ὑψίζυγος	ὑψίζυγος	passage
-unprinted				2274066	5	αἰθέρι	αἰθήρ	passage
-unprinted				2274066	6	ναίων	ναίω	passage
-unprinted				2274066	7	κάππιεν	καταπίνω	passage
-unprinted				2274066	8	ἐξαπίνης	ἐξαπίνης	passage
-unprinted				2274067	1	ἣ	ὁ	passage
-unprinted				2274067	2	δ̓	δέ	passage
-unprinted				2274067	3	αὐτίκα	αὐτίκα	passage
-unprinted				2274067	4	Παλλάδ̓	παλλάς	passage
-unprinted				2274067	5	Ἀθήνην	Ἀθήνη	passage
-unprinted				2274067	6	κύσατο	κύω	passage
-unprinted				2274068	1	τὴν	ὁ	passage
-unprinted				2274068	2	μὲν	μέν	passage
-unprinted				2274068	3	ἔτικτε	τίκτω	passage
-unprinted				2274068	4	πατὴρ	πατήρ	passage
-unprinted				2274068	5	ἀνδρῶν	ἀνήρ	passage
-unprinted				2274068	6	τε	τε	passage
-unprinted				2274068	7	θεῶν	θεός	passage
-unprinted				2274068	8	τε	τε	passage
-unprinted				2274068	9	πὰρ	παρά	passage
-unprinted				2274068	10	κορυφὴν	κορυφή	passage
-unprinted				2274068	11	Τρίτωνος	Τρίτων	passage
-unprinted				2274068	12	ἐπ̓	ἐπί	passage
-unprinted				2274068	13	ὄχθῃσιν	ὄχθη	passage
-unprinted				2274068	14	ποταμοῖο	ποταμός	passage
-unprinted				2274069	1	Μῆτις	μῆτις	passage
-unprinted				2274069	2	δ̓	δέ	passage
-unprinted				2274069	3	αὖτε	αὖτε	passage
-unprinted				2274069	4	Ζηνὸς	Ζεύς	passage
-unprinted				2274069	5	ὑπὸ	ὑπό	passage
-unprinted				2274069	6	σπλάγχνοις	σπλάγχνον	passage
-unprinted				2274069	7	λελαθυῖα	λανθάνω	passage
-unprinted				2274069	8	ἧστο	ἧμαι	passage
-unprinted				2274069	10	Ἀθηναίης	Ἀθήνη	passage
-unprinted				2274069	11	μήτηρ	μήτηρ	passage
-unprinted				2274069	13	τέκταινα	τέκτων	passage
-unprinted				2274069	14	δικαίων	δίκαιος	passage
-unprinted				2274069	15	πλεῖστα	πλεῖστος	passage
-unprinted				2274069	16	θεῶν	θεός	passage
-unprinted				2274069	17	τε	τε	passage
-unprinted				2274069	18	ἰδυῖα	οἶδα	passage
-unprinted				2274069	19	καταθνητῶν	καταθνητός	passage
-unprinted				2274069	20	τ̓	τε	passage
-unprinted				2274069	21	ἀνθρώπων	ἄνθρωπος	passage
-unprinted				2274069	23	ἔνθα	ἔνθα	passage
-unprinted				2274069	24	θεὰ	θεά	passage
-unprinted				2274069	25	παρέδεκτο	παραδέχομαι	passage
-unprinted				2274069	26	ὅθεν	ὅθεν	passage
-unprinted				2274069	27	παλάμαις	παλάμη	passage
-unprinted				2274069	28	περὶ	περί	passage
-unprinted				2274069	29	πάντων	πᾶς	passage
-unprinted				2274069	30	ἀθανάτων	ἀθάνατος	passage
-unprinted				2274069	31	ἐκέκασθ̓	καίνυμαι	passage
-unprinted				2274069	32	οἳ	ὅς	passage
-unprinted				2274069	33	Ὀλύμπια	Ὀλύμπιος	passage
-unprinted				2274069	34	δώματ̓	δῶμα	passage
-unprinted				2274069	35	ἔχουσιν	ἔχω	passage
-unprinted				2274069	37	[αἰγίδα	αἰγίς	passage
-unprinted				2274069	38	ποιήσασα	ποιέω	passage
-unprinted				2274069	39	φοβέστρατον	φοβέστρατος	passage
-unprinted				2274069	40	ἔντος	ἔντεα	passage
-unprinted				2274069	41	Ἀθήνης	Ἀθήνη	passage
-unprinted				2274070	2	σὺν	σύν	passage
-unprinted				2274070	3	τῇ	ὁ	passage
-unprinted				2274070	4	ἐγείνατό	γείνομαι	passage
-unprinted				2274070	5	μιν	μιν	passage
-unprinted				2274070	6	πολεμήια	πολεμήιος	passage
-unprinted				2274070	7	τεύχἐ	τεῦχος	passage
-unprinted				2274070	8	ἔχουσαν	ἔχω	passage
-unprinted				2274083	2	δέ	δέ	word
+kind	line	ord	form	sentence	word_id	tree_form	tree_lemma	tree_postag	same_construction	extent
+unit	2	0	αἵ	2273668	6	αἵθ̓	ὅστε	p-p---fn-		
+unit	2	1	θʼ	2273668	=6	αἵθ̓	ὅστε	p-p---fn-		
+reading	15	2	γαιήοχον	2273671	41	γεήοχον	γαιήοχος	n-s---ma-	1	
+reading	31	4	μʼ	2273677	3	μοι	ἐγώ	p-s---md-	1	
+reading	31	5	ἀοιδὴν	2273677	4	αὐδὴν	αὐδή	n-s---fa-	1	
+absent	48	3	θεαὶ							passage
+absent	48	4	λήγουσαί							passage
+absent	48	5	τʼ							passage
+reading	56	3	νύκτας	2273688	4	νυκτὸς	νύξ	n-s---fg-	1	
+absent	71	0	νισομένων							word
+absent	71	1	πατέρα							word
+reading	77	6	Μελπομένη	2273697	22	Μελπομέενη	Μελπομένη	n-s---fn-	1	
+unit	102	5	οὐδέ	2273709	34+35	οὐ δέ	οὐ δέ			
+unit	126	7	ἑʼ	2273718	8	ἑαυτῇ	ἑαυτοῦ	a-s---fd-		
+unit	126	8	αὐτῇ	2273718	=8	ἑαυτῇ	ἑαυτοῦ	a-s---fd-		
+reading	159	4	στεναχίζετο	2273733	4	στοναχίζετο	στεναχίζω	v3siie---	1	
+reading	165	4	τεισαίμεθα	2273737	15	τισαίμεθα	τίνω	v1paom---	1	
+unit	167	8	οὐδέ	2273740	8+9	οὐ δέ	οὐ δέ			
+unit	218	6	αἵ	2273768	15	αἵτε	ὅστε	p-p---fn-		
+unit	218	7	τε	2273768	=15	αἵτε	ὅστε	p-p---fn-		
+unit	220	0	αἵ	2273768	25	αἵτ̓	ὅστε	p-p---fn-		
+unit	220	1	τʼ	2273768	=25	αἵτ̓	ὅστε	p-p---fn-		
+unit	221	0	οὐδέ	2273769	1+2	οὐ δέ	οὐ δέ			
+reading	230	2	Ἀάτην	2273772	32	Ἄτην	ἄτη	n-s---fa-	1	
+unit	235	5	οὐδὲ	2273774	11+12	οὐ δὲ	οὐ δέ			
+reading	240	3	μεγήριτα	2273776	4	μεγήρατα	μεγήρατος	a-p---nn-	1	
+reading	266	5	τέκε	2273779	4	τέκεν	τίκτω	v3saia---	1	
+reading	279	4	ἄνθεσι	2273783	10	ἄνθεσιν	ἄνθος	n-p---nd-	1	
+reading	282	0	τᾷ	2273785	1	τῷ	ὁ	p-s---md-	1	
+reading	288	0	μειχθεὶς	2273788	6	μιχθεὶς	μίγνυμι	v-sappmn-	1	
+reading	295	6	οὐδὲ	2273790	8	οὐδὲν	οὐδείς	a-s---na-	0	
+unit	296	2	οὐδʼ	2273790	12+13	οὐ δ̓	οὐ δέ			
+absent	297	0	ἐν							word
+reading	304	6	χθόνα	2273793	7	χθονὶ	χθών	n-s---fd-	1	
+absent	335	0	σπείρῃσιν							word
+absent	335	1	μεγάλῃς							word
+reading	354	2	Θόη	2273810	65	Φόη	Φόη	n-s---fn-	1	
+absent	370	4	οἳ							word
+absent	370	5	ἂν							word
+reading	375	2	Εὐρυβίη	2273817	3	Εὐρυβίν	Εὐρυβία	n-s---fn-	1	
+reading	377	5	μετέπρεπε	2273817	21	μετέπρεπεν	μεταπρέπω	v3siia---	1	
+reading	381	4	τίκτʼ	2273819	5	τίκτεν	τίκτω	v3siia---	1	
+reading	381	5	Ἠοσφόρον	2273819	6	Ἑωσφόρον	Ἑωσφόρος	n-s---ma-	1	
+unit	386	6	οὐδέ	2273821	16+17	οὐ δέ	οὐ δέ			
+unit	387	0	οὐδʼ	2273821	21+22	οὐ δ̓	οὐ δέ			
+unit	395	3	ὅς	2273822	53	ὅστις	ὅστις	p-s---mn-		
+unit	395	4	τις	2273822	=53	ὅστις	ὅστις	p-s---mn-		
+reading	399	7	ἔδωκεν	2273824	9	δέδωκεν	δίδωμι	v3sria---	1	
+reading	401	4	ἕο	2273825	14	ἑοῦ	ἑός	a-s---mg-	1	
+reading	406	0	Λητὼ	2273829	8	Δητὼ	Λητώ	n-s---fa-	1	
+unit	423	0	οὐδέ	2273837	1+2	οὐ δέ	οὐ δέ			
+unit	423	5	οὐδέ	2273837	7+8	οὐ δέ	οὐ δέ			
+unit	426	0	οὐδʼ	2273838	1+2	οὐ δ̓	οὐ ??			
+absent	447	3	καὶ							word
+absent	447	4	ἐκ							word
+reading	451	0	ὀφθαλμοῖσι	2273849	10	ὀφθαλμοῖσιν	ὀφθαλμός	n-p---md-	1	
+reading	472	2	τείσαιτο	2273856	36	τίσαιτο	τίνω	v3saom---	1	
+reading	485	0	τᾷ	2273862	1	τῷ	τῷ	d--------	0	
+unit	488	1	οὐδʼ	2273864	1+2	οὐ δ̓	οὐ δέ			
+reading	497	2	ἐξείμεσσε	2273867	4	ἐξέμεσεν	ἐξεμέω	v3saia---	1	
+reading	497	5	καταπίνων	2273867	9	κατέπινεν	καταπίνω	v3siia---	0	
+reading	506	4	ἀθανάτοισι	2273872	5	ἀθανάτοισιν	ἀθάνατος	a-p---md-	1	
+absent	532	0	ταῦτά							passage
+absent	532	1	γʼ							passage
+absent	532	2	ἄρʼ							passage
+unit	551	2	οὐδʼ	2273894	8+9	οὐ δ̓	οὐ δέ			
+absent	576	3	στεφάνους							passage
+absent	576	4	νεοθηλέος							passage
+absent	576	5	ἄνθεα							passage
+absent	576	6	ποίης							passage
+absent	577	0	ἱμερτοὺς							passage
+absent	577	1	περίθηκε							passage
+absent	577	2	καρήατι							passage
+absent	577	3	Παλλὰς							passage
+absent	577	4	Ἀθήνη							passage
+absent	578	0	ἀμφὶ							passage
+absent	578	1	δέ							passage
+absent	578	2	οἱ							passage
+reading	584	1	ζῴοισι	2273912	35	ζῴοισιν	ζῷον	n-p---nd-	1	
+unit	613	6	οὐδὲ	2273923	7+8	οὐ δὲ	οὐ δέ			
+unit	614	0	οὐδὲ	2273924	1+2	οὐ δὲ	οὐ δέ			
+reading	617	0	Ὀβριάρεῳ	2273925	1	Βριάρεῳ	βριάρεως	n-s---md-	1	
+reading	622	0	ἥατʼ	2273927	9	εἵατ̓	ἧμαι	v3prie---	1	
+unit	637	0	οὐδέ	2273932	1+2	οὐ δέ	οὐ δέ			
+unit	637	6	οὐδὲ	2273932	8+9	οὐ δὲ	οὐ δέ			
+reading	639	4	παρέσχεθον	2273933	5	παρέσχεθεν	παρέχω	v3siia---	1	
+reading	659	1	δεῦρʼ	2273942	8	δ̓	δέ	g--------	0	
+reading	659	2	αὖτις	2273942	10	ἐξαῦτις	ἐξαῦτις	d--------	1	
+reading	669	3	Ἐρέβεσφιν	2273947	26	Ἐρέβευσφιν	Ἔρεβος	d--------	1	
+unit	687	0	οὐδʼ	2273955	1+2	οὐ δ̓	οὐ δέ			
+reading	701	0	ὀφθαλμοῖσι	2273962	4	ὀφθαλμοῖσιν	ὀφθαλμός	n-p---md-	1	
+unit	740	2	οὐδέ	2273980	32+33	οὐ δέ	οὐ δέ			
+unit	751	1	οὐδέ	2273984	11+12	οὐ δέ	οὐ δέ			
+unit	754	5	ἔς	2273984	41	ἔστ̓	ἔστε	c--------		
+unit	754	6	τʼ	2273984	=41	ἔστ̓	ἔστε	c--------		
+unit	759	5	οὐδέ	2273987	1+2	οὐ δέ	οὐ δέ			
+unit	761	3	οὐδʼ	2273987	12+13	οὐ δ̓	οὐ δέ			
+unit	783	2	ὅς	2273998	10	ὅστις	ὅστις	p-s---mn-		
+unit	783	3	τις	2273998	=10	ὅστις	ὅστις	p-s---mn-		
+unit	786	1	ὅ	2273998	33	ὅτ̓	ὅστις	p-s---nn-		
+unit	786	2	τʼ	2273998	=33	ὅτ̓	ὅστις	p-s---nn-		
+unit	796	0	οὐδέ	2274003	1+2	οὐ δέ	οὐ δέ			
+unit	802	0	οὐδέ	2274005	8+9	οὐ δέ	οὐ δέ			
+unit	802	5	οὐδʼ	2274005	14+15	οὐ δ̓	οὐ δέ			
+unit	831	1	ὥς	2274018	5	ὥστε	ὥστε	c--------		
+unit	831	2	τε	2274018	=5	ὥστε	ὥστε	c--------		
+reading	834	3	σκυλάκεσσι	2274018	32	σκυλάκεσσιν	σκύλαξ	n-p---md-	1	
+reading	837	6	ἀθανάτοισι	2274019	15	ἀθανάτοισιν	ἀθάνατος	a-p---md-	1	
+reading	850	4	καταφθιμένοισι	2274026	6	καταφθιμένοισιν	καταφθίω	v-papmmd-	1	
+reading	860	3	Ἀίτνης	2274030	10	ἀιδνῇς	ἀιδνός	a-p---fd-	0	
+absent	887	1	θεῶν							word
+reading	902	0	Εὐνομίην	2274051	10	Εὐνουμίην	Εὐνουμίη	n-s---fa-	1	
+reading	904	2	ἧς	2274051	27	ᾗ	ὅς	p-s---fd-	1	
+unit	905	6	αἵ	2274051	41	αἵτε	ὅστε	p-p---fn-		
+unit	905	7	τε	2274051	=41	αἵτε	ὅστε	p-p---fn-		
+reading	917	1	τῇσι	2274057	15	τῇσιν	ὁ	p-p---fd-	1	
+absent	920	0	γείνατο							word
+reading	923	0	μειχθεῖσʼ	2274060	9	μιχθεῖσ̓	μίγνυμι	v-sappfn-	1	
+unit	931	4	ὅς	2274071	12	ὅστε	ὅστε	p-s---mn-		
+unit	931	5	τε	2274071	=12	ὅστε	ὅστε	p-s---mn-		
+unit	935	1	οἵ	2274072	11	οἵτ̓	ὅστε	p-p---mn-		
+unit	935	2	τʼ	2274072	=11	οἵτ̓	ὅστε	p-p---mn-		
+reading	941	0	μειχθεῖσʼ	2274074	9	μιχθεῖσ̓	μίγνυμι	v-sappfn-	1	
+reading	944	0	μειχθεῖσʼ	2274076	7	μιχθεῖσ̓	μίγνυμι	v-sappfn-	1	
+reading	960	2	βουλῇσι	2274082	12	βουλῇσιν	βουλή	n-p---fd-	1	
+reading	961	1	δή	2274083	2	δέ	δέ	g--------	0	
+reading	980	0	μειχθεῖσʼ	2274089	7	μιχθεῖσ̓	μίγνυμι	v-sappfn-	1	
+reading	1001	6	Χίρων	2274095	19	Χείρων	Χείρων	n-s---mn-	1	
+reading	1016	2	ἀγακλειτοῖσι	2274102	12	ἀγακλειτοῖσιν	ἀγακλειτός	a-p---md-	1	
+unprinted				2273685	14	καὶ	καί	c--------		word
+unprinted				2273685	15	ἐκλήγουσαι	ἐκλήγω	v-pppafn-		word
+unprinted				2273694	14	νισσομένων	νίσσομαι	v-pppefg-		passage
+unprinted				2273694	15	πατέῤ	πατήρ	n-s---ma-		passage
+unprinted				2273694	16	εἰς	εἰς	r--------		passage
+unprinted				2273790	18	ἔνι	ἐν	r--------		word
+unprinted				2273807	15	πείρασιν	πεῖραρ	n-p---nd-		passage
+unprinted				2273807	16	ἐν	ἐν	r--------		passage
+unprinted				2273807	17	μεγάλοις	μέγας	a-p---nd-		passage
+unprinted				2273815	14	ὅσοι	ὅσος	a-p---mn-		word
+unprinted				2273847	21	κἀκ	ἐκ	r--------		word
+unprinted				2273867	7	ὃν	ὅς	p-s---ma-		word
+unprinted				2273884	1	ταῦτ̓	οὗτος	a-p---na-		word
+unprinted				2273884	2	ἄρα	ἄρα	g--------		word
+unprinted				2273988	2	δ̓	δέ	g--------		word
+unprinted				2274058	14	γείνατ̓	γείνομαι	v3saim---		word
+unprinted				2274058	15	ἄῤ	ἄρα	g--------		word
+unprinted				2274062	1	Ἥρη	Ἥρα	n-s---fn-		passage
+unprinted				2274062	2	δὲ	δέ	g--------		passage
+unprinted				2274062	3	ζαμένησε	ζαμενέω	v3saia---		passage
+unprinted				2274062	4	καὶ	καί	c--------		passage
+unprinted				2274062	5	ἤρισε	ἐρίζω	v3saia---		passage
+unprinted				2274062	6	ᾧ	ἑός	a-s---md-		passage
+unprinted				2274062	7	παρακοίτῃ	παρακοίτης	n-s---md-		passage
+unprinted				2274063	1	ἐκ	ἐκ	r--------		passage
+unprinted				2274063	2	ταύτης	οὗτος	a-s---fg-		passage
+unprinted				2274063	3	δ̓	δέ	g--------		passage
+unprinted				2274063	4	ἔριδος	ἔρις	n-s---fg-		passage
+unprinted				2274063	5	ἣ	ὁ	p-s---fn-		passage
+unprinted				2274063	6	μὲν	μέν	g--------		passage
+unprinted				2274063	7	τέκε	τίκτω	v3saia---		passage
+unprinted				2274063	8	φαίδιμον	φαίδιμος	a-s---ma-		passage
+unprinted				2274063	9	υἱὸν	υἱός	n-s---ma-		passage
+unprinted				2274063	10	Ἥφαιστον	Ἥφαιστος	n-s---ma-		passage
+unprinted				2274063	12	φιλότητος	φιλότης	n-s---fg-		passage
+unprinted				2274063	13	ἄτερ	ἄτερ	r--------		passage
+unprinted				2274063	14	Διὸς	Ζεύς	n-s---mg-		passage
+unprinted				2274063	15	αἰγιόχοιο	αἰγίοχος	a-s---mg-		passage
+unprinted				2274063	17	ἐκ	ἐκ	r--------		passage
+unprinted				2274063	18	πάντων	πᾶς	a-p---mg-		passage
+unprinted				2274063	19	παλάμῃσι	παλάμη	n-p---fd-		passage
+unprinted				2274063	20	κεκασμένον	καίνυμαι	v-srpema-		passage
+unprinted				2274063	21	Οὐρανιώνων	Οὐρανίωνες	n-p---mg-		passage
+unprinted				2274064	1	αὐτὰρ	ἀτάρ	c--------		passage
+unprinted				2274064	2	ὅ	ὁ	p-s---mn-		passage
+unprinted				2274064	3	γ̓	γε	g--------		passage
+unprinted				2274064	4	Ὠκεανοῦ	Ὠκεανός	n-s---mg-		passage
+unprinted				2274064	5	καὶ	καί	c--------		passage
+unprinted				2274064	6	Τηθύος	Τηθύς	n-s---fg-		passage
+unprinted				2274064	7	ἠυκόμοιο	εὔκομος	a-s---fg-		passage
+unprinted				2274064	8	κούρῃ	κόρη	n-s---fd-		passage
+unprinted				2274064	9	νόσφ̓	νόσφι	r--------		passage
+unprinted				2274064	10	Ἥρης	Ἥρα	n-s---fg-		passage
+unprinted				2274064	11	παρελέξατο	παραλέχομαι	v3saim---		passage
+unprinted				2274064	12	καλλιπαρήῳ	καλλιπάρηος	a-s---fd-		passage
+unprinted				2274064	14	ἐξαπαφὼν	ἐξαπαφίσκω	v-sapamn-		passage
+unprinted				2274064	15	Μῆτιν	μῆτις	n-s---fa-		passage
+unprinted				2274064	16	καίπερ	καίπερ	g--------		passage
+unprinted				2274064	17	πολυδήνἐ	πολυδήνης	a-s---fa-		passage
+unprinted				2274064	18	ἐοῦσαν	εἰμί	v-sppafa-		passage
+unprinted				2274065	1	συμμάρψας	συμμάρπτω	v-sapamn-		passage
+unprinted				2274065	2	δ̓	δέ	g--------		passage
+unprinted				2274065	3	ὅ	ὁ	p-s---mn-		passage
+unprinted				2274065	4	γε	γε	g--------		passage
+unprinted				2274065	5	χερσὶν	χείρ	n-p---fd-		passage
+unprinted				2274065	6	ἑὴν	ἑός	a-s---fa-		passage
+unprinted				2274065	7	ἐγκάτθετο	ἐγκατατίθεμαι	v3saim---		passage
+unprinted				2274065	8	νηδὺν	νηδύς	n-s---fa-		passage
+unprinted				2274065	9	δείσας	δείδω	v-sapamn-		passage
+unprinted				2274065	11	μὴ	μή	c--------		passage
+unprinted				2274065	12	τέξῃ		v3sfim---		passage
+unprinted				2274065	13	κρατερώτερον	κρατερός	a-s---nac		passage
+unprinted				2274065	14	ἄλλο	ἄλλος	a-s---na-		passage
+unprinted				2274065	15	κεραυνοῦ	κεραυνός	n-s---mg-		passage
+unprinted				2274066	1	τοὔνεκά	τοὔνεκα	d--------		passage
+unprinted				2274066	2	μιν	μιν	p-s---fa-		passage
+unprinted				2274066	3	Κρονίδης	Κρονίδης	n-s---mn-		passage
+unprinted				2274066	4	ὑψίζυγος	ὑψίζυγος	a-s---mn-		passage
+unprinted				2274066	5	αἰθέρι	αἰθήρ	n-s---md-		passage
+unprinted				2274066	6	ναίων	ναίω	v-sppamn-		passage
+unprinted				2274066	7	κάππιεν	καταπίνω	v3saia---		passage
+unprinted				2274066	8	ἐξαπίνης	ἐξαπίνης	d--------		passage
+unprinted				2274067	1	ἣ	ὁ	p-s---fn-		passage
+unprinted				2274067	2	δ̓	δέ	g--------		passage
+unprinted				2274067	3	αὐτίκα	αὐτίκα	d--------		passage
+unprinted				2274067	4	Παλλάδ̓	παλλάς	n-s---fa-		passage
+unprinted				2274067	5	Ἀθήνην	Ἀθήνη	n-s---fa-		passage
+unprinted				2274067	6	κύσατο	κύω	v3saim---		passage
+unprinted				2274068	1	τὴν	ὁ	p-s---fa-		passage
+unprinted				2274068	2	μὲν	μέν	g--------		passage
+unprinted				2274068	3	ἔτικτε	τίκτω	v3siia---		passage
+unprinted				2274068	4	πατὴρ	πατήρ	n-s---mn-		passage
+unprinted				2274068	5	ἀνδρῶν	ἀνήρ	n-p---mg-		passage
+unprinted				2274068	6	τε	τε	g--------		passage
+unprinted				2274068	7	θεῶν	θεός	n-p---mg-		passage
+unprinted				2274068	8	τε	τε	g--------		passage
+unprinted				2274068	9	πὰρ	παρά	r--------		passage
+unprinted				2274068	10	κορυφὴν	κορυφή	n-s---fa-		passage
+unprinted				2274068	11	Τρίτωνος	Τρίτων	n-s---mg-		passage
+unprinted				2274068	12	ἐπ̓	ἐπί	r--------		passage
+unprinted				2274068	13	ὄχθῃσιν	ὄχθη	n-p---fd-		passage
+unprinted				2274068	14	ποταμοῖο	ποταμός	n-s---mg-		passage
+unprinted				2274069	1	Μῆτις	μῆτις	n-s---fn-		passage
+unprinted				2274069	2	δ̓	δέ	g--------		passage
+unprinted				2274069	3	αὖτε	αὖτε	d--------		passage
+unprinted				2274069	4	Ζηνὸς	Ζεύς	n-s---mg-		passage
+unprinted				2274069	5	ὑπὸ	ὑπό	r--------		passage
+unprinted				2274069	6	σπλάγχνοις	σπλάγχνον	n-p---nd-		passage
+unprinted				2274069	7	λελαθυῖα	λανθάνω	v-srpafn-		passage
+unprinted				2274069	8	ἧστο	ἧμαι	v3sli----		passage
+unprinted				2274069	10	Ἀθηναίης	Ἀθήνη	n-s---fg-		passage
+unprinted				2274069	11	μήτηρ	μήτηρ	n-s---fn-		passage
+unprinted				2274069	13	τέκταινα	τέκτων	n-s---fn-		passage
+unprinted				2274069	14	δικαίων	δίκαιος	a-p---ng-		passage
+unprinted				2274069	15	πλεῖστα	πλεῖστος	a-p---na-		passage
+unprinted				2274069	16	θεῶν	θεός	n-p---mg-		passage
+unprinted				2274069	17	τε	τε	g--------		passage
+unprinted				2274069	18	ἰδυῖα	οἶδα	v-srpafn-		passage
+unprinted				2274069	19	καταθνητῶν	καταθνητός	a-p---mg-		passage
+unprinted				2274069	20	τ̓	τε	g--------		passage
+unprinted				2274069	21	ἀνθρώπων	ἄνθρωπος	n-p---mg-		passage
+unprinted				2274069	23	ἔνθα	ἔνθα	d--------		passage
+unprinted				2274069	24	θεὰ	θεά	n-s---fn-		passage
+unprinted				2274069	25	παρέδεκτο	παραδέχομαι	v3saim---		passage
+unprinted				2274069	26	ὅθεν	ὅθεν	d--------		passage
+unprinted				2274069	27	παλάμαις	παλάμη	n-p---fd-		passage
+unprinted				2274069	28	περὶ	περί	d--------		passage
+unprinted				2274069	29	πάντων	πᾶς	a-p---mg-		passage
+unprinted				2274069	30	ἀθανάτων	ἀθάνατος	a-p---mg-		passage
+unprinted				2274069	31	ἐκέκασθ̓	καίνυμαι	v3slie---		passage
+unprinted				2274069	32	οἳ	ὅς	p-p---mn-		passage
+unprinted				2274069	33	Ὀλύμπια	Ὀλύμπιος	a-p---na-		passage
+unprinted				2274069	34	δώματ̓	δῶμα	n-p---na-		passage
+unprinted				2274069	35	ἔχουσιν	ἔχω	v3ppia---		passage
+unprinted				2274069	37	[αἰγίδα	αἰγίς	n-s---fa-		passage
+unprinted				2274069	38	ποιήσασα	ποιέω	v-sapafn-		passage
+unprinted				2274069	39	φοβέστρατον	φοβέστρατος	a-s---na-		passage
+unprinted				2274069	40	ἔντος	ἔντεα	n-s---na-		passage
+unprinted				2274069	41	Ἀθήνης	Ἀθήνη	n-s---fg-		passage
+unprinted				2274070	2	σὺν	σύν	r--------		passage
+unprinted				2274070	3	τῇ	ὁ	p-s---fd-		passage
+unprinted				2274070	4	ἐγείνατό	γείνομαι	v3saim---		passage
+unprinted				2274070	5	μιν	μιν	p-s---fa-		passage
+unprinted				2274070	6	πολεμήια	πολεμήιος	a-p---na-		passage
+unprinted				2274070	7	τεύχἐ	τεῦχος	n-p---na-		passage
+unprinted				2274070	8	ἔχουσαν	ἔχω	v-sppafa-		passage

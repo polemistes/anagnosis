@@ -660,10 +660,12 @@ HAND_ANALYSES: dict[str, dict[str, tuple[str, str]]] = {
 }
 
 # Where the text the syntax trees were made on has another word than ours, our word is paired with
-# it and takes over its relation and head (odyssey.align; syntax_text.py). Each such reading was
-# looked at in its verse beside the trees' reading: "keep" where the inherited role fits our word,
-# "drop" where it does not (the link is then given up: our word is "not in the trees' text", the
-# trees' word stays in the tree as a word this edition does not print). Keyed by line and form.
+# it (odyssey.align; syntax_text.py). The tree is shown with the word it was made for, and the
+# record ties our word to that word's node whatever the judgement here. The judgement is
+# information for the reader's remark: "keep" = our word stands in the same construction as the
+# trees' word (same_construction 1; its token carries the node itself), "drop" = in another
+# (same_construction 0; the token has the sentence only). Each pair was looked at in its verse
+# beside the trees' reading. Keyed by line and form.
 TREE_READINGS: dict[str, dict[str, tuple[str, str]]] = {
     "theogony": {
         "15 γαιήοχον": ("keep", "the same word in the same form, spelled otherwise"),

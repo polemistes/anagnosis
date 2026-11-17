@@ -73,15 +73,20 @@ is often another edition than the one printed here. A text that says so names th
 grc.txt's header (`# syntax-text: …`, the database's meta key `syntax_text`) and in about.md
 (`# syntax_text: …`, for the catalog), and records in `syntax-text.tsv` what each word is to it
 where it is not simply the trees' own word. Columns: `kind line ord form sentence word_id
-tree_form tree_lemma extent`.
+tree_form tree_lemma tree_postag same_construction extent`. The principle: the tree is shown with
+the words it was made for.
 
 * `unit`: our word is a part of a tree word (αἵ θʼ for αἵθʼ), or several tree words joined (οὐδέ
   for the treebank's οὐ δέ); `tree_form` is the trees' word or words.
-* `reading`: the trees' text has another word here (`tree_form`, `tree_lemma`); ours is paired
-  with it and takes over its relation and head. Kept only where the role fits our word: every
-  such pair is decided in `TREE_READINGS` (`drama_fixes.py`), with a reason.
-* `absent`: the trees' text has no word for it, so it has no node. With a `tree_form`: the word
-  the trees' text has in its place in another construction (a reading that was not kept).
+* `reading`: the trees' text has another word here (`tree_form`, `tree_lemma`, `tree_postag`);
+  ours is paired with it, and `sentence`, `word_id` name that word's node. The relation and head
+  of the node are the trees' word's, not ours. `same_construction` (from `TREE_READINGS` in
+  `drama_fixes.py`, where every pair has a reason) is 1 where our word stands in the same
+  construction: its row in tokens.tsv then carries the node itself, as a word of the trees
+  does. It is 0 where our word stands in another construction: its token row has the sentence
+  but no word id, relation or head, the tree word is a node of its own in `syntax-nodes.tsv`,
+  and only this record ties our word to it.
+* `absent`: the trees' text has no word for it, so it has no node.
 * `unprinted`: a tree word this edition does not print (`sentence`, `word_id` of its node in
   `syntax-nodes.tsv`, where it is kept so that the tree stays whole).
 * `extent` (absent, unprinted): `word`, or `passage` for one of three or more such words in a
