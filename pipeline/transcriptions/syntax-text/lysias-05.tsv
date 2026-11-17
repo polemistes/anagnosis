@@ -5,142 +5,142 @@
 … τοίνυν αὐτῷ λέγειν ὡς τῷ μὲν σώματι διʼ ἀσθένειάν τινα «ἐπιγενομένην» ἀδύνατος κατέστη βοηθῆσαι εἰς τὸν Πειραιᾶ ἀπὸ δὲ …
    ours:  ἐπιγενομένην  (ἐπιγίγνομαι v-sapmfa- verb, aorist participle middle, singular feminine accusative)
    trees: γενομένην  (γίγνομαι v-sapmfa- verb, aorist participle middle, singular feminine accusative)
-31.15:11	ἐπιγενομένην	γενομένην	ἐπιγίγνομαι v-sapmfa- | γίγνομαι v-sapmfa-	rule: word	→ 
+31.15:11	ἐπιγενομένην	γενομένην	ἐπιγίγνομαι v-sapmfa- | γίγνομαι v-sapmfa-	rule: word	→ word
 
 == 31.24
 … ἡμάρτηκε μηδέποτε τιμωρηθήσεται ἐξ ὧν δὲ μέλλει εὖ ποιήσειν ἤδη «τιμήσεται» ἀλλʼ ἄρα ἵνα βελτίους ὦσιν οἱ πολῖται ὁρῶντες …
    ours:  τιμήσεται  (τιμάω v3sfim--- verb, 3rd singular future indicative middle)
    trees: τετιμήσεται  (τιμάω v3stim--- verb, 3rd singular future perfect indicative middle)
-31.24:69	τιμήσεται	τετιμήσεται	τιμάω v3sfim--- | τιμάω v3stim---	rule: form	→ 
+31.24:69	τιμήσεται	τετιμήσεται	τιμάω v3sfim--- | τιμάω v3stim---	rule: form	→ form
 
 == 31.26
 … τόδε ἐνθυμηθῆναι ὅτι εἰ μέν τις φρούριόν τι προὔδωκεν ἢ «ναῦς» ἢ στρατόπεδόν τι ἐν ᾧ μέρος τι ἐτύγχανε …
    ours:  ναῦς  (ναῦς n-p---fa- noun, plural feminine accusative)
    trees: ναῦν  (ναῦς n-s---fa- noun, singular feminine accusative)
-31.26:13	ναῦς	ναῦν	ναῦς n-p---fa- | ναῦς n-s---fa-	rule: form	→ 
+31.26:13	ναῦς	ναῦν	ναῦς n-p---fa- | ναῦς n-s---fa-	rule: form	→ form
 
 == 31.31
 … δὲ ἐνθυμήθητε ποίων ἂν ὑμῖν δοκεῖ οὗτος ὅρκων φροντίσαι ὃς «ἔργῳ» τοὺς πατρίους θεοὺς προὔδωκεν ἢ πῶς ἂν χρηστόν …
    ours:  ἔργῳ  (ἔργον n-s---nd- noun, singular neuter dative)
    trees: ἔργω  (ἔργον n-d---na- noun, dual neuter accusative)
-31.31:11	ἔργῳ	ἔργω	ἔργον n-s---nd- | ἔργον n-d---na-	rule: form	→ 
+31.31:11	ἔργῳ	ἔργω	ἔργον n-s---nd- | ἔργον n-d---na-	rule: form	→ form
 
 == 31.31
 … ἐπὶ τοὺς κινδύνους ἦλθε πρότερον τῶν κατεργασαμένων ἢ καὶ οὕτω «συντιμηθῆναι» σχέτλιον δʼ ἂν εἴη εἰ οὗτος μὲν ἅπαντας …
    ours:  συντιμηθῆναι  (συντιμάω v--anp--- verb, aorist infinitive passive)
    trees: τιμηθῆναι  (τιμάω v--anp--- verb, aorist infinitive passive)
-31.31:60	συντιμηθῆναι	τιμηθῆναι	συντιμάω v--anp--- | τιμάω v--anp---	rule: word	→ 
+31.31:60	συντιμηθῆναι	τιμηθῆναι	συντιμάω v--anp--- | τιμάω v--anp---	rule: word	→ word
 
 == 32.2
 … ἀλλʼ ἐβουλήθη καὶ φεύγειν δίκας καὶ μὴ οὔσας διώκειν καὶ «ὑπομένειν» τοὺς ἐσχάτους κινδύνους μᾶλλον ἢ τὰ δίκαια ποιήσας …
    ours:  ὑπομένειν  (ὑπομένω v--pna--- verb, present infinitive active)
    trees: ὑπομεῖναι  (ὑπομένω v--ana--- verb, aorist infinitive active)
-32.2:55	ὑπομένειν	ὑπομεῖναι	ὑπομένω v--pna--- | ὑπομένω v--ana---	rule: form	→ 
+32.2:55	ὑπομένειν	ὑπομεῖναι	ὑπομένω v--pna--- | ὑπομένω v--ana---	rule: form	→ form
 
 == 32.6
 … ἐκδεδομένα ἑπτὰ τάλαντα καὶ τετταράκοντα μνᾶς δισχιλίας δὲ ὀφειλομένας ἐν «Χερρονήσῳ» ἐπέσκηψε δέ ἐάν τι πάθῃ τάλαντον μὲν ἐπιδοῦναι …
    ours:  Χερρονήσῳ  (Χερσόνησος n-s---fd- noun, singular feminine dative)
    trees: Χερρονήσω  (Χερσόνησος n-s---fg- noun, singular feminine genitive)
-32.6:13	Χερρονήσῳ	Χερρονήσω	Χερσόνησος n-s---fd- | Χερσόνησος n-s---fg-	rule: form	→ 
+32.6:13	Χερρονήσῳ	Χερρονήσω	Χερσόνησος n-s---fd- | Χερσόνησος n-s---fg-	rule: form	→ form
 
 == 32.10
 … ἤδη πόθεν ἕξεις τὰ ἐπιτήδεια ταῦτʼ ἀκούσαντες ἐκπεπληγμένοι καὶ δακρύοντες «ᾤχοντο» πρὸς τὴν μητέρα καὶ παραλαβόντες ἐκείνην ἧκον πρὸς …
    ours:  ᾤχοντο  (οἴχομαι v3piim--- verb, 3rd plural imperfect indicative middle)
    trees: ὤχοντο  (ἀχεύω v3piip--- verb, 3rd plural imperfect indicative passive)
-32.10:5	ᾤχοντο	ὤχοντο	οἴχομαι v3piim--- | ἀχεύω v3piip---	rule: word	→ 
+32.10:5	ᾤχοντο	ὤχοντο	οἴχομαι v3piim--- | ἀχεύω v3piip---	rule: word	→ spelling the trees' word is no Greek form, ᾤχοντο without its subscript; the analysis under ἀχεύω is mistaken
 
 == 32.13
 … ἐξέπλει πέντε τάλαντα παρʼ αὐτοῦ παρακαταθήκην καὶ περὶ τούτων ἐγὼ «ʼθέλω» τοὺς παῖδας παραστησαμένη καὶ τούτους καὶ τοὺς ὕστερον …
    ours:  ʼθέλω  (ἐθέλω v1spia--- verb, 1st singular present indicative active)
    trees: ἐθέλω  (ἐθέλω v1spia--- verb, 1st singular present indicative active)
-32.13:26	ʼθέλω	ἐθέλω	ἐθέλω v1spia--- | ἐθέλω v1spia---	rule: spelling	→ 
+32.13:26	ʼθέλω	ἐθέλω	ἐθέλω v1spia--- | ἐθέλω v1spia---	rule: spelling	→ elision aphaeresis of ἐθέλω, the same form
 
 == 32.13
 … καὶ τούτους καὶ τοὺς ὕστερον ἐμαυτῇ γενομένους ὀμόσαι ὅπου ἂν «οὗτος» λέγῃ καίτοι οὐχ οὕτως ἐγώ εἰμι ἀθλία οὐδʼ …
    ours:  οὗτος  (οὗτος p-s---mn- pronoun, singular masculine nominative)
    trees: αὐτὸς  (αὐτός p-s---mn- pronoun, singular masculine nominative)
-32.13:40	οὗτος	αὐτὸς	οὗτος p-s---mn- | αὐτός p-s---mn-	rule: word	→ 
+32.13:40	οὗτος	αὐτὸς	οὗτος p-s---mn- | αὐτός p-s---mn-	rule: word	→ word
 
 == 32.13
 … τούτους καὶ τοὺς ὕστερον ἐμαυτῇ γενομένους ὀμόσαι ὅπου ἂν οὗτος «λέγῃ» καίτοι οὐχ οὕτως ἐγώ εἰμι ἀθλία οὐδʼ οὕτω …
    ours:  λέγῃ  (λέγω v3spsa--- verb, 3rd singular present subjunctive active)
    trees: λέγῃς  (λέγω v2spsa--- verb, 2nd singular present subjunctive active)
-32.13:41	λέγῃ	λέγῃς	λέγω v3spsa--- | λέγω v2spsa---	rule: form	→ 
+32.13:41	λέγῃ	λέγῃς	λέγω v3spsa--- | λέγω v2spsa---	rule: form	→ form
 
 == 32.17
 … τοιούτοις ἔργοις οὔτε τοὺς θεοὺς φοβεῖ οὔτε ἐμὲ τὴν συνειδυῖαν «αἰσχύνει» οὔτε τοῦ ἀδελφοῦ μέμνησαι ἀλλὰ πάντας ἡμᾶς περὶ …
    ours:  αἰσχύνει  (αἰσχύνω v3spia--- verb, 3rd singular present indicative active)
    trees: αἰσχύνῃ  (αἰσχύνη n-s---fd- noun, singular feminine dative)
-32.17:47	αἰσχύνει	αἰσχύνῃ	αἰσχύνω v3spia--- | αἰσχύνη n-s---fd-	rule: word	→ 
+32.17:47	αἰσχύνει	αἰσχύνῃ	αἰσχύνω v3spia--- | αἰσχύνη n-s---fd-	rule: word	→ word
 
 == 32.20
 … μηδὲν μᾶλλον τοῖς οἰκειοτάτοις ἢ τοῖς ἐχθίστοις πιστεύειν ὃς ἐτόλμησε «τῶν» μὲν ἔξαρνος γενέσθαι τὰ δὲ τελευτῶν ὁμολογήσας ἔχειν …
    ours:  τῶν  (ὁ l-p---ng- article, plural neuter genitive)
    trees: τὰ  (ὁ l-p---na- article, plural neuter accusative)
-32.20:2	τῶν	τὰ	ὁ l-p---ng- | ὁ l-p---na-	rule: form	→ 
+32.20:2	τῶν	τὰ	ὁ l-p---ng- | ὁ l-p---na-	rule: form	→ form
 
 == 32.22
 … κεφάλαιον συνελογίζετο ὥσπερ διὰ τοῦτο ἐπίτροπος τῶν παιδίων καταλειφθείς ἵνα «γράμματʼ» αὐτοῖς ἀντὶ τῶν χρημάτων ἀποδείξειεν καὶ πενεστάτους ἀντὶ …
    ours:  γράμματʼ  (γράμμα n-p---na- noun, plural neuter accusative)
    trees: γράμματα  (γράμμα n-p---na- noun, plural neuter accusative)
-32.22:30	γράμματʼ	γράμματα	γράμμα n-p---na- | γράμμα n-p---na-	rule: elision	→ 
+32.22:30	γράμματʼ	γράμματα	γράμμα n-p---na- | γράμμα n-p---na-	rule: elision	→ elision
 
 == 33.7
 … κατέστησαν θαυμάζω δὲ Λακεδαιμονίους πάντων μάλιστα τίνι ποτὲ γνώμῃ χρώμενοι «καινομένην» τὴν Ἑλλάδα περιορῶσιν ἡγεμόνες ὄντες τῶν Ἑλλήνων οὐκ …
    ours:  καινομένην  (καίνω v-sppmfa- verb, present participle middle, singular feminine accusative)
    trees: καομένην  (καίω v-sppmfa- verb, present participle middle, singular feminine accusative)
-33.7:9	καινομένην	καομένην	καίνω v-sppmfa- | καίω v-sppmfa-	rule: word	→ 
+33.7:9	καινομένην	καομένην	καίνω v-sppmfa- | καίω v-sppmfa-	rule: word	→ word
 
 == 33.7
 … οὐκ ἀδίκως καὶ διὰ τὴν ἔμφυτον ἀρετὴν καὶ διὰ τὴν «περὶ» τὸν πόλεμον ἐπιστήμην μόνοι δὲ οἰκοῦντες ἀπόρθητοι καὶ …
    ours:  περὶ  (περί r-------- preposition)
    trees: πρὸς  (πρός r-------- preposition)
-33.7:27	περὶ	πρὸς	περί r-------- | πρός r--------	rule: word	→ 
+33.7:27	περὶ	πρὸς	περί r-------- | πρός r--------	rule: word	→ word
 
 == 34.4
 … ἐπιγαμίαν ἐποιούμεθα νῦν δὲ καὶ τοὺς ὑπάρχοντας πολίτας ἀπελῶμεν οὔκ «ἂν» ἔμοιγε πίθησθε οὐδὲ μετὰ τῶν τειχῶν καὶ ταῦτα …
    ours:  ἂν  (ἐάν c-------- conjunction)
    trees: ἐὰν  (ἐάν c-------- conjunction)
-34.4:1	ἂν	ἐὰν	ἐάν c-------- | ἐάν c--------	rule: spelling	→ 
+34.4:1	ἂν	ἐὰν	ἐάν c-------- | ἐάν c--------	rule: spelling	→ spelling
 
 == 34.4
 … νῦν δὲ καὶ τοὺς ὑπάρχοντας πολίτας ἀπελῶμεν οὔκ ἂν ἔμοιγε «πίθησθε» οὐδὲ μετὰ τῶν τειχῶν καὶ ταῦτα ἡμῶν αὐτῶν …
    ours:  πίθησθε  (πείθω v2pasa--- verb, 2nd plural aorist subjunctive active)
    trees: πείθησθε  (πείθω v2ppsm--- verb, 2nd plural present subjunctive middle)
-34.4:3	πίθησθε	πείθησθε	πείθω v2pasa--- | πείθω v2ppsm---	rule: form	→ 
+34.4:3	πίθησθε	πείθησθε	πείθω v2pasa--- | πείθω v2ppsm---	rule: form	→ form
 
 == 34.5
 … ἀπέδωκεν αὐτὸς δὲ ταύτης οὐκ ἐτόλμησε μετασχεῖν ὥστʼ ἐὰν ἔμοιγε «πίθησθε» οὐ τοὺς εὐεργέτας καθὸ δύνασθε τῆς πατρίδος ἀποστερήσετε …
    ours:  πίθησθε  (πείθω v2pasm--- verb, 2nd plural aorist subjunctive middle)
    trees: πείθησθε  (πείθω v2ppsm--- verb, 2nd plural present subjunctive middle)
-34.5:18	πίθησθε	πείθησθε	πείθω v2pasm--- | πείθω v2ppsm---	rule: form	→ 
+34.5:18	πίθησθε	πείθησθε	πείθω v2pasm--- | πείθω v2ppsm---	rule: form	→ form
 
 == 34.6
 … κτήσονται ὅταν ὑμᾶς ἐρήμους συμμάχων λάβωσιν Εἶτα τοιούτων ἡμῖν ὑπαρχόντων «ἐροῦσι» τίς ἔσται σωτηρία τῇ πόλει εἰ μὴ ποιήσομεν …
    ours:  ἐροῦσι  (ἐρῶ v3pfia--- verb, 3rd plural future indicative active)
    trees: ἐρωτῶσι  (ἐρωτάω v-pppamd- verb, present participle active, plural masculine dative)
-34.6:4	ἐροῦσι	ἐρωτῶσι	ἐρῶ v3pfia--- | ἐρωτάω v-pppamd-	rule: word	→ 
+34.6:4	ἐροῦσι	ἐρωτῶσι	ἐρῶ v3pfia--- | ἐρωτάω v-pppamd-	rule: word	→ word
 
 == 34.6
 … εἰ ποιήσομεν ἃ ἐκεῖνοι προστάττουσιν εἰ δὲ μή πολὺ κάλλιον «μαχομένους» ἀποθνῄσκειν ἢ φανερῶς ἡμῶν αὐτῶν θάνατον καταψηφίσασθαι ἡγοῦμαι …
    ours:  μαχομένους  (μάχομαι v-pppema- verb, present participle middle or passive, plural masculine accusative)
    trees: μαχομένοις  (μάχομαι v-pppmmd- verb, present participle middle, plural masculine dative)
-34.6:35	μαχομένους	μαχομένοις	μάχομαι v-pppema- | μάχομαι v-pppmmd-	rule: form	→ 
+34.6:35	μαχομένους	μαχομένοις	μάχομαι v-pppema- | μάχομαι v-pppmmd-	rule: form	→ form
 
 == 34.8
 … ὄντας ἴσασι γὰρ ἐκεῖνοι ὅτι κἂν πολλάκις εἰς τὴν τούτων «ἐμβάλωσι» πολλάκις αὐτοῖς ἀπαντήσονται ὅπλα λαβόντες ὥστε οὐ καλὸς …
    ours:  ἐμβάλωσι  (ἐμβάλλω v3pasa--- verb, 3rd plural aorist subjunctive active)
    trees: ἐμβάλλωσι  (ἐμβάλλω v3ppsa--- verb, 3rd plural present subjunctive active)
-34.8:9	ἐμβάλωσι	ἐμβάλλωσι	ἐμβάλλω v3pasa--- | ἐμβάλλω v3ppsa---	rule: form	→ 
+34.8:9	ἐμβάλωσι	ἐμβάλλωσι	ἐμβάλλω v3pasa--- | ἐμβάλλω v3ppsa---	rule: form	→ form
 
 == 34.8
 … καλὸς αὐτοῖς ὁ κίνδυνος δοκεῖ εἶναι ἐὰν μὲν νικήσωσι τούτους «οὐ» καταδουλώσασθαί γʼ ἐὰν δὲ ἡττηθῶσι σφᾶς αὐτοὺς τῶν …
    ours:  οὐ  (οὐ d-------- adverb)
    trees: μὴ  (μή d-------- adverb)
-34.8:27	οὐ	μὴ	οὐ d-------- | μή d--------	rule: word	→ 
+34.8:27	οὐ	μὴ	οὐ d-------- | μή d--------	rule: word	→ word
 
 == 34.8
 … ὁ κίνδυνος δοκεῖ εἶναι ἐὰν μὲν νικήσωσι τούτους οὐ καταδουλώσασθαί «γʼ» ἐὰν δὲ ἡττηθῶσι σφᾶς αὐτοὺς τῶν ὑπαρχόντων ἀγαθῶν …
    ours:  γʼ  (γε g-------- particle)
    trees: γε  (γε g-------- particle)
-34.8:29	γʼ	γε	γε g-------- | γε g--------	rule: elision	→ 
+34.8:29	γʼ	γε	γε g-------- | γε g--------	rule: elision	→ elision
