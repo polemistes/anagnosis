@@ -22,11 +22,12 @@
 542	ἢ τῶν ἐμῶν] ἦ τῶν ἐμῶν Brunck.
 543	δαίσασθαι] F. W. Schmidt (Sat. Crit. p. 29) conj. λήσασθαι (=ληΐσασθαι), which Wecklein receives. Hesychius has λαίσασθαι· κτήσασθαι: and ληίσασθαι· κτήσασθαι, ἀφελέσθαι.—πλέον made in L from πλέων.
 544	In L a letter has been erased after τῶν.
-545	Μενέλεω] An erroneous v. l. Μενελέῳ is implied by the schol. in cod. Barocc. 66 (Bodleian), τῷ δὲ Μενελάῳ ἐνυπῆρχε πόθος τῶν αὐτοῦ παίδων.
+545	Μενέλεω] An erroneous v. l. Μενελέῳ is implied by the schol. in cod. Barocc. 66 (Bodleian), τῷ δὲ Μενελάῳ ἐνυπῆρχε πόθος τῶν αὑτοῦ παίδων.
 --- notes
 545	the two "matched no Perseus words" flags after 545 are apparatus lines (σὴν ὅμαιμον …, 534 τίνοσ …), not verses: nothing added
 533	the apparatus opens with the end of a note begun on the page before (σὴν ὅμαιμον, wishing to read τὴν αὐτὸς αὑτοῦ.): left to the batch before. The notes 534-545 run on to leaf 175, written here.
 534	apparatus: the page (leaf 175) prints Blaydes's τεκων without an accent (an evident misprint): written τεκών
+545	rev: apparatus 545: the schol.'s αὑτοῦ has the rough breathing on the page (compared at enlargement with ὅτʼ and the smooth αὐτὸς at the head of the page): αὐτοῦ corrected to αὑτοῦ
 
 === p-0176
 --- text

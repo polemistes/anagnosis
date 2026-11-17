@@ -40,6 +40,7 @@
 783	no flags on this page; every verse read against the page: no change. Residuals checked: 785 ἦν (circumflex printed; the OCR's grave is wrong), 794 ὕβριζε· (raised stop printed).
 783	the apparatus begins with the end of the note on 781 from the page before ("Meineke conj. ὁ προσστατῶν: Blaydes writes οὑπιστατῶν."), written there by the batch before; not repeated here.
 798	the note runs on to the next spread (after "Meineke," the apparatus of leaf 212 begins "περισπερχοῦς (from Hesych., περισπέρχου βοῆς)."): written whole here, and not again on p-0212.
+783	rev: every verse and every apparatus item read against the page (797 ἂν ἧκες, ἄρʼ ἥκεις, O. Hense ἡμίν rough breathing confirmed): no change. The 781 note's end is in batch-09 (checked there, whole).
 
 === p-0212
 --- text
@@ -84,6 +85,7 @@
 818	Jebb prints an asterisk before εἴσειμʼ (his conjecture-mark): left out of the text.
 798	the apparatus begins with the end of the note on 798 (περισπερχοῦς …), written whole on p-0210.
 818	the note runs on to the next spread (leaf 214 begins "Heimsoeth conj. κείνοις ξύνοικος."): written whole here, and not again on p-0214.
+799	rev: every verse and every apparatus item read against the page (803 αὑτῆς rough, 807 ὢ smooth and grave in text and lemma, 809 οἴχῃ with subscript as printed, 818 τῇδέ): no change.
 
 === p-0214
 --- text
@@ -130,6 +132,7 @@
 821	residuals checked: 821 ἢν (smooth breathing and grave, as printed), 830 and 831a ΧΟ. (the speaker abbreviations inside the shared verse, as above), 836 οἶδα (as printed). Every verse read against the page: no change.
 826	the note runs on to the facing page ("ἕκαλοι | Blaydes."): one item.
 834	Jebb's note is numbered 834 (κατʼ ἐμοῦ τακομένας, in the second half of the printed verse numbered 833 here, which covers 833-834): kept as printed.
+819	rev: every verse, the numbering (margins 820, 826, 831, 835) and every apparatus item read against the page (825 ἅλιος, 830 ἀΰσῃσ with subscript as printed, 834 τακομένᾳ): no change.
 
 === p-0216
 --- text
@@ -165,6 +168,7 @@
 847	flag checked: "ἔτʼ ἦν," is the indented turnover of verse 7 (ἀμφὶ … ὃς γὰρ | ἔτʼ ἦν,): the join stands. Residuals on 838 (ἕρκεσι, καὶ, νῦν) checked: the page prints the accents. Every verse read against the page: no change.
 848	Jebb numbers the note "ὃς γὰρ ἔτʼ ἦν" 848; the words stand at the end of the printed verse 847 here (whose first word is in 847): kept as printed.
 848	the note runs on to the next spread (leaf 218 begins "ἔφυ: Mekler, ὃν γὰρ ἐχρῆν."): written whole here, and not again on p-0218.
+838	rev: every verse, the numbering (margins 840, 845) and every apparatus item read against the page (838 ἄρκεσι, ἄρκυσι smooth; ἕρκεσιν, ἕρμασι rough; 843 τἄρʼ): no change.
 
 === p-0218
 --- text
@@ -189,8 +193,8 @@
 860	πᾶσι θνατοῖς ἔφυ μόρος.
 --- apparatus
 850	ἴστωρ] ἵστωρ L.
-851	πανσύρτωι παμμήνω (sic) πολλῶν | δεινῶν στυγνῶν τʼ ἀχέων L: where the 1st hand probably wrote ἀχεώων, and then erased the first ω, drawing a line through the erasure from ε to the second ω. A v. l. for ἀχέων was ἀχαίων, which stands in A. Some think that this, and not ἀχεώων, was what the scribe of L had first written; but in that case L’s ε (in ἀχέων) must have been made from α, and the space between ε and ων is too large for ι. Triclinius notices another v. l. for ἀχέων, viz. ἀρχαίων. L’s reading was the general one, and is that of the Aldine. For conjectures, see Comment. and Appendix.
-853	ἁθρήνεις Dindorf: ἃ θροεῖς MSS., for which Erfurdt, on Gernhard’s conjecture, gave ἃ θρηνεῖς. Blaydes suggests ᾇ θρηνεῖς.
+851	πανσύρτωι παμμήνω (sic) πολλῶν | δεινῶν στυγνῶν τʼ ἀχέων L: where the 1st hand probably wrote ἀχεώων, and then erased the first ω, drawing a line through the erasure from ε to the second ω. A v. l. for ἀχέων was ἀχαίων, which stands in A. Some think that this, and not ἀχεώων, was what the scribe of L had first written; but in that case L's ε (in ἀχέων) must have been made from α, and the space between ε and ων is too large for ι. Triclinius notices another v. l. for ἀχέων, viz. ἀρχαίων. L's reading was the general one, and is that of the Aldine. For conjectures, see Comment. and Appendix.
+853	ἁθρήνεις Dindorf: ἃ θροεῖς MSS., for which Erfurdt, on Gernhard's conjecture, gave ἃ θρηνεῖς. Blaydes suggests ᾇ θρηνεῖς.
 854	με νῦν MSS.: μέ νυν Triclinius and Brunck, as the schol. also read (μηκέτι οὖν με, φησί, κ.τ.λ.).
 855	L has παραγάγησ made from παράγης (the reading of Γ).
 856	After τί φής, the words αὐδᾶς δὲ ποῖον (ποίαν Jen.) are added in the MSS.: they were deleted by Triclinius, but retained in the Aldine.—Bergk proposed to add αὖ after φής here, and φεῦ after παπαῖ in 867.
@@ -201,6 +205,8 @@
 850	residual checked: κἀγὼ (coronis printed). Margins 850, 856, 860 agree with the numbering. Every verse read against the page: no change (853 *ἁθρήνεις: Jebb's asterisk left out).
 848	the apparatus begins with the end of the note on 848 ("ἔφυ: Mekler, ὃν γὰρ ἐχρῆν."), written whole on p-0216.
 855	L's readings παραγάγησ and παράγης are printed without iota subscript (859 παραγάγῃς, Suidas's, has it): copied as printed.
+851	rev: the English apostrophes in "L's" (twice) and "Gernhard's" (853) written ' (were ’), as in the other batches; no change of wording.
+849	rev: every verse and every apparatus item (with the run-on parts on leaf 219 and the end of the 848 note on this page) read against the page: 850 ἴστωρ] ἵστωρ (smooth, then rough), 853 ἃ θροεῖς, ἃ θρηνεῖς, ᾇ θρηνεῖς, 855 παραγάγησ without subscript all confirmed.
 
 === p-0220
 --- text
@@ -253,3 +259,4 @@
 867	flag checked: Jebb prints "7 ἄτερ ἐμᾶν χερῶν ΧΟ. παπαῖ." as one lyric verse, kept split at the change of speaker as 866 and 867 (residual 867 is that ΧΟ.). Residual 866 χερῶν: circumflex printed.
 871	ΧΡΥΣΟΘΕΜΙΣ. centred above 871 = @ Χρυσόθεμις. Margins 865, 870, 875, 880 agree with the numbering. Every verse read against the page: no change.
 882	the apparatus ends with the note on 882 on the facing page (leaf 221); leaf 222 begins with 885: nothing runs on.
+861	rev: every verse and every apparatus item read against the page (863 L ἐν κύρσαι, 876 ἴασιν / ἴσασιν smooth, 882 νῷν): no change; leaf 222's apparatus confirmed to begin with 885.

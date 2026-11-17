@@ -34,7 +34,8 @@
 1406	τις] τίς Γ, L².
 1407	ἀνήκουστα] In L the υ has been added in a smaller character by a corrector. The two vv. in L are divided thus: ἤκουσʼ ἀνήκουστα δύ|στανοσ· ὥστε φρίξαι.—φρῖξαι Pal., and Hermann: φρίξαι most MSS., and Ald.
 --- notes
-1395	The apparatus on this page opens with "For conjectures, see below.", the end of the note on 1395 from the page before (left to the batch before).
+1395	The apparatus on this page opens with "For conjectures, see below.", the end of the note on 1394 from the page before (left to the batch before).
+1395	rev: the note above named the run-on note as 1395; it is Jebb's note on 1394 (written whole on p-0280, batch 15). Apparatus and verses re-read against the page: no change.
 1398	ἅνδρες (rough breathing, crasis) checked on the image; the OCR's ἄνδρες is wrong; Jebb's note 1398 confirms.
 1400	ΗΛ. inside the printed line: split into 1400 / 1400a as the draft has it (print shows ΧΟ. … ΗΛ. on one line); likewise 1402 / 1402a; δʼ in 1402 is printed.
 1407	The printed verse ἤκουσʼ … φρῖξαι. covers 1407-1408 (Jebb's note: "The two vv. in L are divided thus"); 1408 is skipped, the next page begins with 1409.

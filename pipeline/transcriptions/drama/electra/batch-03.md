@@ -30,6 +30,7 @@
 162	Jebb prints "162 f."; written under 162. "164 f." written under 164
 167	Jebb's apparatus numbers 167 (τὸν ἀνήνυτον, in our verse 166), 168 (ὁ δὲ λάθεται, in our verse 167) and 174 (ἔτι, in our verse 173) follow the traditional count, which begins those numbers inside his printed verses; his commentary has "166 f. δάκρυσι μυδαλέα" and his margin 165/170/175 agree with our numbering, so the verses keep their numbers (167 covers 167-168, 173 covers 173-174) and the items keep his numbers
 174	the note runs on to the top of the next page's apparatus (p-0128, "collated at Rome … 16th cent.]"): written whole here
+168	rev: checker remark "apparatus 168 names a line not on this page" explained above (verse 167 covers 167-168; Jebb's 168 lemma ὁ δὲ λάθεται stands in it)
 
 === p-0128
 --- text
@@ -59,6 +60,8 @@
 176	the prepared apparatus crops of this page show only the last line; the apparatus was read from the whole page. It opens with the end of the 174 note ("collated at Rome … 16th cent.]"), written on p-0126
 182	"ἀνεπίσ- | τροφος" divided across the two pages, written whole
 187	the note runs on to p-0130 ("the ο of τοκέων. Nauck receives τεκέων."): written whole here
+181	rev: βουνόμαν T: the accent is printed close against the ο, so that ό looks like δ ("βουνδμαν"); read as ό, no change
+178	rev: checker remark "apparatus 178 names a line not on this page" explained above (verse 177 covers 177-178)
 
 === p-0130
 --- text

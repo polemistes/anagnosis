@@ -187,6 +187,7 @@
 1065	the line flagged after this verse is the first line of the apparatus (the end of the 1047 note), not a verse; nothing added
 1058-1069	the stroke-divided list: βλα-|στῶσιν is hyphenated at the end of the printed line and written whole
 1064	the note runs on to the next text page's apparatus ("erasure (from σ?)."): written whole here
+1052	rev: οὗ σοὶ L and 1053 "made from ἦν": in the small type of this scan a breathing under a circumflex cannot be told rough from smooth (the certain ὦ, οὖν and ἧσσον look alike at enlargement); kept οὗ and ἦν, the forms that are words; no change
 
 === p-0242
 --- text

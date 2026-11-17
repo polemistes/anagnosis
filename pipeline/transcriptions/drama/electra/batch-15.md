@@ -196,7 +196,7 @@
 1379	νῦν δʼ, ὦ Λύκειʼ Ἄπολλον, ἐξ οἵων ἔχω
 --- apparatus
 1365	In L the 1st hand wrote κυκλοῦνται: a later hand altered this to κυκλοῦσι: but the letters νται were again written above, and σι partly erased. κυκλοῦσι A, with most MSS., and Ald.: κυκλοῦνται Γ (from κυκλωῦνται), Pal., T.
-1367	σφῷν] σφῶν L, ι having been erased after ῶ. σφῷν r, and Ald.—ἐννέπω γε L, with most MSS. (L² omits γε), and Ald.: Hermann wrote ἐννέπω ʼγώ.
+1367	σφῷν] σφῶν L, ι having been erased after ῶ. σφῷν r, and Ald.—ἐννέπω γε L, with most MSS. (L² omits γε), and Ald.: Hermann wrote ἐννέπω ʼγὼ.
 1368	κλυταιμήστρα L, as also in 1473, where, however, it has been made from κλυταιμνήστρα.
 1372	ἧμιν L.—οὐδὲν ἂν] Nauck conj. ἐνδέον (Fröhlich, ἐνδεὲς).
 1378	προὔστην] In L the scribe wrote πρόστην, but the ο has been altered (by himself?) to ȣ (=ου), with ῎ over it.—Blaydes (1873) writes ʼπέστην: so too, by independent conjecture, Wecklein (1877). Nauck conj. ʼτίμων.
@@ -204,6 +204,7 @@
 1365	no flags and no residual list for this page; all verses read against the image: no difference found.
 1378	the ου-ligature Jebb prints (like an 8) is written ȣ; the mark "over it" as printed (smooth breathing with acute), written ῎. The note ends at the head of p-0280's apparatus ("Nauck conj. ʼτίμων."): written here whole.
 1372	ἧμιν: rough breathing with circumflex as printed.
+1367	rev: apparatus 1367 Hermann's ʼγώ corrected to ʼγὼ (grave on the page)
 
 === p-0280
 --- text
@@ -236,3 +237,4 @@
 1380	the apparatus begins with the end of the note on 1378 ("Nauck conj. ʼτίμων."), written with p-0278.
 1384	no flags and no residual list for this page; all verses read against the image (strophe and antistrophe, Jebb's small verse numerals and the labels στρ., ἀντ. left out): no difference found; margin numbers 1380, 1385, 1390 agree.
 1394	the note on 1394 ends at the head of p-0282's apparatus ("For conjectures, see below."): written here whole. The breathings of αἷ μαχε, αἷμα (1394) and αἷμʼ (1385) are too small on the scan to tell rough from smooth: written rough, as the word is in the text.
+1385	rev: αἷμʼ (1385) and αἷ, αἷμα (1394) in the apparatus re-examined at pixel level: the breathing is merged into the circumflex on the scan and cannot be told; rough kept (the word's own breathing). No change on this page.

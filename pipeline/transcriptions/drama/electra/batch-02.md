@@ -120,6 +120,7 @@
 122	Jebb prints "122 f."; written under 122
 126	L's ὧσ: the accent over ω is broken in the print (a rough breathing and part of the accent are visible); read as ὧσ, check if in doubt
 128	the note runs on to p-0122's apparatus ("p. 435)."), written here whole
+126	rev: L's ὧσ checked enlarged beside ὧδʼ (note on 122 f.) and the lemma's ὡς: a rough breathing with the broken top of an accent curving like a circumflex, not a straight acute; ὧσ kept. The lemma's ὡς has the rough breathing only, as written
 
 === p-0122
 --- text
@@ -157,6 +158,7 @@
 139	Jebb's apparatus numbers this note 139 (the traditional number of οὔτε γόοις οὔτε λιταῖσιν, which his text prints within verse 138); kept as printed
 139	the asterisk before θρήνοις in Campbell's reading is printed in the apparatus and kept
 146	the four "matched no Perseus words" lines and the residuals 3-23 are the apparatus, read by the OCR as verses: no text
+136	rev: the breathings of L's αἶ αἶ and of "made from αἱ αἱ" compared at enlargement with ὦ (smooth, 134) and ὧδʼ, ὡς (rough, facing page): the unaccented αἱ αἱ shows rough breathings as written; the mark under each circumflex of L's αἶ αἶ is too small in the scan to tell smooth from rough with certainty (it leans to rough); kept as the first pass wrote it, left open
 
 === p-0124
 --- text
@@ -191,3 +193,4 @@
 147	margin numbers 150, 155, 160 agree (153 covers 153-154, 157 covers 157-158); all verses read against the page, no change
 154	the apparatus number 154 names a verse printed within 153 (μούνᾳ ... βροτῶν covers 153-154, ἄχος standing in it); kept as printed
 160	the note on 160—172 ends on the facing page; p-0126's apparatus begins with a new note (162 f.)
+152	rev: αἲ αἲ (twice, smooth breathing and grave) confirmed enlarged; the breathing under the circumflex of L's αἶ αἶ and on "from αἰ" cannot be told smooth from rough with certainty in the scan (the mark merges with the top of the ι); kept as the first pass wrote it, left open

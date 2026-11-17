@@ -28,13 +28,14 @@
 359	οὖν was omitted by the scribe of L, but has been added above the line by a late hand: it is omitted in L² (=Lb).—εἴ μοι τὰ σὰ] Wecklein conj. εἰ δὶς τόσα: Tournier, εἴ μοι τόσα, with ὅσοισι for ἐφʼ οἷσι in 360.
 360	μέλλοι] μέλλει E, Γ.
 362	περιρρείτωι L.
-363	τοὐμὲ μὴ λυπεῖν] The 1st hand in L wrote τοῦ μὲ (not με) μὴ λυπεῖν: then τοῦ was altered to τὸυ (sic), to avoid blotting in the erasure over υ. The other MSS. have either τοὐμὲ (as A),—sometimes written τοὔμε,—or τοῦ με (as Γ). For conjectures, see Appendix.
+363	τοὐμὲ μὴ λυπεῖν] The 1st hand in L wrote τοῦ μὲ (not με) μὴ λυπεῖν: then τοῦ was altered to τὀυ (sic), to avoid blotting in the erasure over υ. The other MSS. have either τοὐμὲ (as A),—sometimes written τοὔμε,—or τοῦ με (as Γ). For conjectures, see Appendix.
 --- notes
 352	flag checked: ἢ is printed on this line (ἢ μάθʼ).
 355	the note is printed "355 f." (355-356 transposed in L).
 359	residual checked: the page prints ἄν (acute, before ποτʼ), as the text has.
 360	residual checked: the page prints δῶρʼ (circumflex), as the text has.
 363	the apparatus note on 363 runs on to the top of p-0152 ("…For con- | jectures, see Appendix."): written here whole.
+363	rev: apparatus 363 τὸυ (sic) corrected to τὀυ (sic): the page prints a smooth breathing on ο, not a grave.
 
 === p-0152
 --- text

@@ -154,7 +154,7 @@
 939-941	These three vv. are rejected by Schenkel; the second and third of them, by Morstadt and A. Schöll. Nauck would omit 941, and place 940 before 939.
 940	ἦ made in L from ἢ.—ποτέ] Wecklein writes πάλιν.
 941	ἔσθʼ ὅ γʼ r: ἔσθʼ ὅδʼ L (with γ written above). Haupt conj. ἐς τόδʼ (a reading cited by Campb. from a Milan MS., Ambros. G. 56 sup.), which is adopted by Michaelis (3rd ed. of O. Jahn) and Mekler (6th Teubner ed. of Dindorf): Madvig, οἶσθʼ ὅ γʼ.
-943	ἃν] ʽἃν L: ἅ γʼ or ἃ σʼ r.
+943	ἃν] ʽἂν L: ἅ γʼ or ἃ σʼ r.
 944	ὠφέλειά γʼ, οὐκ] To remove γʼ, Hense conj. πῶς, and Nauck ὠφέλησις.
 945	πόνου made in L from πόνουσ.
 947	δή νυν Triclinius: δὴ νῦν L, with most MSS.—ποεῖν L (with γρ. τελεῖν from a later hand in marg.), Γ: τελεῖν A, with some other MSS., and Ald.
@@ -165,7 +165,8 @@
 --- notes
 938	no flags; residuals (940 ἦ, 941 εἶπον·, 943 δρῶσαν) are OCR noise: the page agrees with the text; every verse read against the page, no change (938 πίθῃ, 943 ἃν checked enlarged).
 935	the head of this page's apparatus ("by the 1st hand.") is the end of 935's note, written on p-0226.
-943	L's reading is printed with a separate rough breathing before ἃν ('ἃν); written ʽἃν.
+943	L's reading is printed with a separate rough breathing before the word; written ʽ.
+943	rev: L's reading corrected from ʽἃν to ʽἂν: compared at enlargement, the mark over its α is the smooth breathing with grave (as in ἂν ἔλαθεν, 914), unlike the rough breathing of the lemma ἃν and of ἃ σʼ r.
 952	the note runs on to the head of the next text page's apparatus (leaf 230, "θάλλοντά γʼ r."); written whole here.
 
 === p-0230

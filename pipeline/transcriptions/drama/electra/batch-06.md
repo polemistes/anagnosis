@@ -83,6 +83,7 @@
 473	residual (ἁ) checked: the page prints ἁ (rough, no accent); every verse read against the page, no change.
 472	"472—487" is written 472-487; "484 f." is 484. The note on 484 runs on to the head of the apparatus of p-0168 (to "ἀμφήκης MSS."), written here whole.
 479	G. Wolff's conjecture is printed "ων ἔστι" (no breathing or accent on ων), copied so.
+479	rev: apparatus and verses read against the page, no change. ων confirmed bare at enlargement; the breathing of Liv. b.'s ἔπεστί cannot be told at the scan's resolution, kept smooth (the verb ἔπεστι). Numbering 473/479/481/484 confirmed by L's division in the note 472-487 and the margins 475, 480, 485.
 
 === p-0168
 --- text
@@ -171,3 +172,5 @@
 516	flag (speaker) checked: the page prints the heading ΚΛΥΤΑΙΜΝΗΣΤΡΑ. centred above 516: the @ line stands. Flags 518 (γʼ) and 527 (ἔξοιδα·) checked: both printed on those verses. Residuals 520 γε· and 526 ἐμοῦ· checked: raised stops as printed. Every verse read against the page (529 ᾗ with iota subscript), no change; margin 520, 525, 530 agree.
 527	"526 f." and "527 f." are 526 and 527. The εἷλεν/εἷλε of the MSS. readings: the breathing under the circumflex cannot be told apart at enlargement; written rough as in the verse (528 εἷλεν).
 531	the note on 531 runs on to the head of the apparatus of p-0174 ("σὴν ὅμαιμον, wishing to read τὴν αὐτὸς αὑτοῦ."), written here whole; the apparatus of p-0174 goes on with 533.
+527	rev: εἷλεν / εἷλε / εἷλεν κοὐκ / νιν εἷλεν in the apparatus: at the highest enlargement the breathing under the circumflex is a dot that the scan cannot resolve, the same as under the known rough οὗτος (530) and smooth οἶμαι (p-0164); kept rough, the only form of the verb and Jebb's spelling in v. 528. Not a reading from the image.
+530	rev: αὐτὸς αὑτοῦ (530 and 531, also at the head of p-0174) checked at enlargement: smooth then rough, as written. Apparatus and verses read against the page, no change.

@@ -140,7 +140,7 @@
 1229	νῦν δὲ μηχαναῖς] Meineke conj. νῦν δʼ οὐ μηχαναῖς: Bergk, νῦν δὲ μοὐμφανῶς.—σεσωσμένον] σεσωμένον Wecklein. (Cp. his Curae Epigr. p. 60.)
 1230	ὁρῶμεν] ὁρῶ μεν L (and similarly Ald., ὁρῶ μεν): ὁρῶ μὲν Γ and a few others.
 1232	L has ἰὼ γοναὶ σωμάτων ἐμοὶ φιλτάτων as a single v. After the first γοναὶ, a second γοναὶ has been added above the line by a later hand. The second γοναὶ is omitted also by Γ, and Ald.: but is present in A, and most MSS. Nauck conj. ἰὼ γοναὶ, | ἰὼ σωμάτων κ.τ.λ.: Blaydes, ἰὼ ἰώ, | γοναὶ σωμάτων.
-1235	ἤλθετʼ, εἴδεθʼ] Heimsoeth conj. εἴδεθʼ, εἴλεθʼ.
+1235	ἤλθετʼ, εἴδεθʼ] Heimsoeth conj. εἴδεθʼ, εἵλεθʼ.
 1237	ἔστιν A, and Ald.: ἐστὶν L (the ν from a late hand).
 1239	ἀλλʼ οὔ, τὰν ἄρτεμϊν τὰν αἰὲν ἀδμήταν L. So A, with most MSS., and Ald. After οὔ, μὰ is added in Harl., and L². See comment.
 1242	γυναικῶν ὂν ἀεί] L adds these words to the preceding verse, and so Ald.
@@ -152,6 +152,7 @@
 1225	"ὦδέλφʼ" copied as printed (ω with smooth breathing and circumflex, the ε with an acute).
 1239	ἄρτεμϊν printed with a diaeresis on the ι, copied as printed.
 1229	the 1229 note runs on to the facing page (leaf 263), and the 1242 note runs on to the next spread (leaf 264, "and so Ald."): each written whole here.
+1235	rev: apparatus 1235 Heimsoeth's εἴλεθʼ corrected to εἵλεθʼ (the page prints the rough breathing, unlike the smooth one on εἴδεθʼ beside it).
 
 === p-0264
 --- text
@@ -191,6 +192,7 @@
 1245	Jebb's asterisk before ὀτοτοτοτοῖ left out. Every verse of the page read against the image; no change.
 1251	"1251 f." and "1253 f." written as 1251 and 1253.
 1253	the breathing on both ἅπας is too small in the scan to tell rough from smooth; written ἅπας, the only possible form of the word.
+1253	rev: both ἅπας checked at enlargement against the smooth breathing of ἐμοί beside them: the page prints the rough breathing; no change.
 1248	"Blaydes cp." copied as printed.
 
 === p-0266

@@ -22,7 +22,7 @@
 1489	ἄποπτον ἡμῶν· ὡς ἐμοὶ τόδʼ ἂν κακῶν
 --- apparatus
 1478	ζῶντας Tyrwhitt, a correction approved by Musgrave, but first placed in the text by Brunck: ζῶν τοῖς MSS.
-1481	καὶ] ὣς Tzetzes Epist. p. 19. Reiske conj. νῦν.—ἐσφάλλου made in L from ἐσφάλου, the reading of Γ and a few others, and of Ald.
+1481	καὶ] ὡς Tzetzes Epist. p. 19. Reiske conj. νῦν.—ἐσφάλλου made in L from ἐσφάλου, the reading of Γ and a few others, and of Ald.
 1483	κἂν σμικρὸν A, etc., and Ald.: κἂν ἐπιμικρὸν L (with κανσμικρ̀ written above by S), and r.
 1485	These two vv. were omitted by the scribe of L, and have been added in the right hand margin, in an erasure. The hand which wrote them is described as ‘paullo recentior’ by Dindorf, who thinks that the same verses had previously been written there by the first hand, or by the first corrector (S), and then erased. But this seems improbable. The writing appears rather to be the minuscule of S himself; though this is one of the cases in which it is not easy to distinguish it from the writing of the first hand. Other instances are noticed by Mr E. M. Thompson, in the Introduction to the Autotype Facsimile of the Laurentian MS., page 11. The later MSS. have these verses in the text.—τί made in L from τίς.—μεμιγμένων L, A, and Ald.: μεμιγμένον r.—φέροι A, and Ald.: φέρει L, made from φέροι.—Hartung writes, τί γὰρ λαλῶν ἂν ξὺν κακοῖς μεμιγμένον (‘by what speech, mingled with reproaches,’ i.e., attempts to exculpate himself at the cost of others).
 1487	πρόθεσ made in L from πρόσθεσ (the reading of Γ, etc.).
@@ -32,6 +32,7 @@
 1478	Jebb's asterisk before ζῶντας left out of the text.
 1481	residuals checked: ὢν (smooth breathing, grave) and the raised stop after τοὔπος (1479) as printed; every verse read against the page, no change.
 1483	κανσμικρ̀: the grave stands over the ρ as printed (S's abbreviation).
+1481	rev: apparatus 1481 Tzetzes's reading ὣς corrected to ὡς: the page prints a rough breathing and no accent (the same sign as Triclinius's ὡς and Heath's ἁγὼν on p-0296, compared at enlargement).
 
 === p-0296
 --- text
