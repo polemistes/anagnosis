@@ -140,6 +140,14 @@ HAND_ANALYSES: dict[str, dict[str, tuple[str, str]]] = {
         "1340 κατέκανον": ("κατακαίνω", "v1saia---"),  # the trees read κἄκτανον
         "1342 πᾷ": ("πῇ", "d--------"),
     },
+    # Jebb's Electra (2026-11-17): the review list (build/electra-review.tsv), each word read in its verse
+    "electra": {
+        "577 δʼ": ("δέ", "g--------"),                 # εἰ δʼ οὖν; the trees' οὐδέ with no tag
+        "686 τἀφέσει": ("ἄφεσις", "n-s---fd-"),        # crasis of τῇ ἀφέσει, not a verb
+        "691 δρόμων": ("δρόμος", "n-p---mg-"),
+        "691 πένταθλʼ": ("πένταθλον", "n-p---na-"),    # πένταθλα, the neuter plural
+        "1380 προπίπτω": ("προπίπτω", "v1spia---"),     # the trees read προπίτνω
+    },
     "trachiniae": {
         "122 αἰδοῖα": ("αἰδοῖος", "a-p---na-"),      # Musgrave's αἰδοῖα for the MSS.' ἁδεῖα
         "165 κἀνιαύσιος": ("ἐνιαύσιος", "a-s---mn-"),  # the treebank reads κἀνιαύσιον

@@ -4,6 +4,7 @@
 # source: Sophocles: The Plays and Fragments, Part VI: The Electra, ed. R. C. Jebb, Cambridge University Press, 1894; read from the Internet Archive scan sophoclesplaysfr06soph by OCR, matched word by word to Jebb's text in the Perseus Digital Library (soph.el_gk.xml), and checked against the scan where the two disagreed
 # edition: Sophocles: The Plays and Fragments, Part VI: The Electra, ed. R. C. Jebb, Cambridge University Press, 1894
 # license: CC BY-SA 4.0 (transcription; the edition is in the public domain)
+# syntax-text: the Perseus Digital Library's text of the play (F. Storr's Loeb edition, 1913)
 
 == episode Prologue
 @ Παιδαγωγός
