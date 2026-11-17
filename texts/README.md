@@ -383,9 +383,14 @@ editions are in the public domain; the transcription is published under CC BY-SA
   its footnote mark (the marks are numbered by the page in the print and left out of the text);
   compared item by item with First1KGreek's digital apparatus of the same edition.
 * Translation (`eng-lake.txt`): Lake's (Perseus Digital Library, CC BY-SA 4.0), by verse.
-* Commentary (`commentary-lake.md`): Lake's side-headings and footnotes from the Perseus
-  translation, and the Bible references in the margin of his Greek pages (transcribed).
-* Commentary and introduction (`commentary-taylor.md`, `introduction.md`): Charles Taylor's notes
+* Notes to the translation (`commentary-lake.md`, titled "Notes to the translation (Kirsopp
+  Lake)"): Lake's side-headings and footnotes from the Perseus translation, and the Bible
+  references in the margin of his Greek pages (transcribed). Both note sets of the Shepherd are
+  translators' notes to their English versions, not commentaries on the Greek: their headers say
+  `# on: translation`, the database lists them in the meta key `translation_notes`, and about.md
+  names them under `translation_notes`, not `commentary`.
+* Notes to the translation and introduction (`commentary-taylor.md`, titled "Notes to the
+  translation (Charles Taylor)"; `introduction.md`): Charles Taylor's notes
   to his translation (*The Shepherd of Hermas*, Early Church Classics, SPCK, vol. I 1903, vol. II
   1906; scans shepherdofhermas0000herm, shepherdofhermas02hermuoft), read by OCR and checked
   against the page images: only his footnotes, each under the verse of its mark; his introduction
@@ -546,6 +551,11 @@ longer description (not shown in the app at present); its `# key: value` headers
   translation and commentary: R. C. Jebb, ..."); an empty or missing one is left out.
 * `editor`, `apparatus`, `translation`, `commentary`, `syntax`, `dictionaries`: short phrases for
   the list of available texts (left out when the text has none, e.g. the New Testament's commentary).
+* `translation_notes`, `ref_translation_notes`: a translator's notes to his translation, which are
+  not a commentary on the Greek (the Shepherd's Lake and Taylor, Gillies in Lysias): who and when,
+  and the book they come from where it is not already named as edition or translation. Such a
+  note set is never named under `commentary` or `ref_commentary`. (The reader shows these two
+  keys once it knows them; a reader that does not shows nothing for them.)
   `syntax` says whether the syntax is annotated by hand or machine-made.
 * `syntax_source`, `syntax_license`: where the lemmas, morphology and syntax come from, for the
   text's About and credits.

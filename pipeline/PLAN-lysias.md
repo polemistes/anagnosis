@@ -1194,6 +1194,10 @@ Nothing here blocks the text batches. In the order in which an answer is needed:
   Lysias's version is 1c2a5bd5093e2915 with it. The Shepherd's two note sets are both a
   translator's notes too (Lake's footnotes and side-headings to his translation, Taylor's notes
   to his): whether they take the header is for the author; not changed here.
+  **Decided the same day**: they do (PLAN-hermas.md). In about.md and the catalogue a
+  translator's notes have keys of their own, `translation_notes` (and `ref_translation_notes`
+  for their book), never `commentary`: Lysias's commentary line names Adams, Morgan and
+  Shuckburgh only, and `translation_notes: John Gillies (1778), on speeches 1, 4, 21, 26, 34`.
 
 ## Sizes, for planning
 

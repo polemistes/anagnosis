@@ -1,6 +1,7 @@
-# title: Commentary (Charles Taylor)
+# title: Notes to the translation (Charles Taylor)
 # author: Charles Taylor
 # lang: eng
+# on: translation
 # source: The Shepherd of Hermas, translated into English with an introduction and notes by Charles Taylor, Early Church Classics, London, SPCK, vol. I 1903, vol. II 1906: the notes to his translation; transcribed from the Internet Archive scans shepherdofhermas0000herm, shepherdofhermas02hermuoft
 # license: CC BY-SA 4.0 (transcription; the edition is in the public domain)
 

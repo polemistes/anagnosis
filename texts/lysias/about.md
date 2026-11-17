@@ -6,7 +6,8 @@
 # editor: Karl Hude (Oxford 1912)
 # apparatus: Hude's critical apparatus
 # translation: anonymous literal translation (1898) for speeches 2, 5, 7, 9, 10, 12, 13, 14, 16, 17, 19, 22, 23, 24, 25, 28, 30, 31, 32, 33; John Gillies (1778) for 1, 3, 4, 21, 26, 34; none for 6, 8, 11, 15, 18, 20, 27, 29
-# commentary: C. D. Adams (1905) on 12, 16, 19, 22, 24, 25, 32, 34; M. H. Morgan (1895) on 7, 23, 31; E. S. Shuckburgh (1882) on 5, 9, 10, 13, 14, 17, 28, 30; with their introductions; J. Gillies's notes to his translation (1778)
+# commentary: C. D. Adams (1905) on 12, 16, 19, 22, 24, 25, 32, 34; M. H. Morgan (1895) on 7, 23, 31; E. S. Shuckburgh (1882) on 5, 9, 10, 13, 14, 17, 28, 30; with their introductions
+# translation_notes: John Gillies (1778), on speeches 1, 4, 21, 26, 34
 # syntax: by hand for speeches 1, 14, 15, 23, 24; machine-made (GLAUx), not checked by hand, for 26 speeches; none for 12, 13, 19
 # syntax_source: speeches 1, 14, 15, 23: Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library; annotated by hand by Vanessa Gorman); speech 24: Pedalion Trees (KU Leuven; by hand), through GLAUx; 26 speeches: GLAUx (Alek Keersmaekers, KU Leuven), automatic, not checked by hand; speeches 12, 13, 19: no syntax, lemmas and forms automatic and checked word by word in their sentences
 # syntax_license: CC BY-SA 3.0 US (Ancient Greek Dependency Treebank); CC BY-SA 4.0 (Pedalion Trees, GLAUx)

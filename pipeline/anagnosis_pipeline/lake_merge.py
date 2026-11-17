@@ -478,7 +478,9 @@ def merge(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path) -> 
             lemma = f"**…{nt['after']}**: " if nt["after"] and nt["after"] != "(the heading)" else ""
             by_sec.setdefault(nt["sec"], []).append(lemma + nt["text"])
     md = _meta_lines({
-        "title": "Commentary (Kirsopp Lake)", "author": "Kirsopp Lake", "lang": "eng",
+        # notes to his translation, not a commentary on the Greek: the title says so, and the header
+        # line "on: translation" puts the set into the database's meta key translation_notes (build.py)
+        "title": "Notes to the translation (Kirsopp Lake)", "author": "Kirsopp Lake", "lang": "eng", "on": "translation",
         "source": f"{play.trans_edition}: his footnotes and the side-headings in the margin of his translation "
                   f"(Perseus Digital Library, {Path(play.trans_file).stem}), and the Bible references in the margin "
                   f"of his Greek text (transcribed from the scan {play.scan})",
@@ -625,7 +627,8 @@ def taylor_notes_and_introduction(play, tdir: Path, out: Path, have_n: set[str],
             else:
                 cur.append(p)
         md = _meta_lines({
-            "title": f"Commentary ({play.notes_editor_name})", "author": play.notes_editor_name, "lang": "eng",
+            "title": f"Notes to the translation ({play.notes_editor_name})", "author": play.notes_editor_name, "lang": "eng",
+            "on": "translation",
             "source": f"{play.notes_edition}: the notes to his translation; transcribed from the Internet Archive "
                       f"scans {', '.join(s for s, _r in play.notes_sources.get('notes', [])) or play.notes_scan}",
             "license": TRANSCRIPTION_LICENSE,

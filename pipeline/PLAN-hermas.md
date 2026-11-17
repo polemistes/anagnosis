@@ -585,6 +585,25 @@ converter and came out as Greek letters.)
   `shortdefs.tsv` now gives "(mid.) go, journey, proceed …". The emulator closed (`adb emu kill`),
   `./gradlew --stop`.
 
+* **2026-11-17, the two note sets are notes to the translation** (the author's decision).
+  Lake's footnotes and side-headings and Taylor's footnotes explain their English versions, not
+  the Greek text, and are called so everywhere; nothing in the notes changes. Where the files
+  are made (`lake_merge.py`): the titles are "Notes to the translation (Kirsopp Lake)" and "Notes
+  to the translation (Charles Taylor)" (the form of Gillies's notes in Lysias), and both headers
+  say `# on: translation`, so the build lists them in the database's meta key
+  `translation_notes` (`commentary-lake commentary-taylor`), which the reader's chooser of books
+  reads. about.md: no `commentary` and no `ref_commentary` any more; instead `translation_notes:
+  Kirsopp Lake (1913); Charles Taylor (1903, 1906)` and `ref_translation_notes` (Taylor's book;
+  Lake's is named as edition and translation). A reader that does not know the two keys shows
+  no "Commentary" line for the Shepherd, which is true; the reader's part (a line "Notes to the
+  translation" in the shop and on the text's page, the same words for the credits' kind) is the
+  reader session's. The introductions (Lake's, Taylor's) and Taylor's essay "Hermas and the
+  Gospels" stay as the three chapters of `introduction.md` under those names; the phrase "with
+  his introduction and his appendix" left the catalogue's commentary line with the line itself
+  and stands in the description. Rebuilt: version c5ef5e89bff80ef6 (content changed: the two
+  titles and the meta key); no other text's version changed (Lysias's about line
+  moved to the new key; its database is the same).
+
 ## Sizes, for planning
 
 The Shepherd: 27,340 Greek words in 695 verses (Tauber; GLAUx 27,570 word tokens), on about 150

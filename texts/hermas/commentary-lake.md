@@ -1,6 +1,7 @@
-# title: Commentary (Kirsopp Lake)
+# title: Notes to the translation (Kirsopp Lake)
 # author: Kirsopp Lake
 # lang: eng
+# on: translation
 # source: The Apostolic Fathers, with an English translation by Kirsopp Lake, vol. II, Loeb Classical Library, London, Heinemann, 1913: his footnotes and the side-headings in the margin of his translation (Perseus Digital Library, tlg1419.tlg001.perseus-eng1), and the Bible references in the margin of his Greek text (transcribed from the scan apostolicfathers02lakeuoft)
 # license: CC BY-SA 4.0 (Perseus Digital Library; the transcription of the margin)
 
