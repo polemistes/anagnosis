@@ -120,6 +120,7 @@ import kotlinx.coroutines.withContext
 import no.anagnosis.data.AnagnosisRepository
 import no.anagnosis.data.Book
 import no.anagnosis.data.TranslationPaging
+import no.anagnosis.data.SectionKinds
 import no.anagnosis.data.Bookmark
 import no.anagnosis.data.Bookmarks
 import no.anagnosis.data.PlacedBookmark
@@ -1171,13 +1172,16 @@ private fun buildRows(data: WorkData): List<ReaderRow> {
     var previous: Lines? = null
     var verseSoFar = ""
     for (line in data.lines) {
-        data.sectionsByFirstLine[line.id]?.forEach { rows += ReaderRow.Section(it, line.n_int) }
+        val sections = data.sectionsByFirstLine[line.id].orEmpty()
+        sections.filter { !SectionKinds.after(it.kind) }.forEach { rows += ReaderRow.Section(it, line.n_int) }
         if (line.speech_start == 1L && line.speaker != null) rows += ReaderRow.Speaker(line.speaker, line.n_int)
         // a verse shared between speakers: its later parts carry a letter (591, 591a) and begin a speech
         val continues = line.n_sub.isNotEmpty() && line.speech_start == 1L && previous?.n_int == line.n_int &&
             data.sectionsByFirstLine[line.id] == null
         val after = if (continues) verseSoFar else null
         rows += ReaderRow.GreekLine(line, after)
+        // a heading printed after its line (Lysias 14.47)
+        sections.filter { SectionKinds.after(it.kind) }.forEach { rows += ReaderRow.Section(it, line.n_int) }
         verseSoFar = if (continues) "$verseSoFar ${line.text}" else line.text
         previous = line
     }
@@ -1360,7 +1364,8 @@ private fun paginate(
     }
 
     fun enHeight(row: ReaderRow) = (row as? ReaderRow.GreekLine)?.let { translationHeights[it.line.id] } ?: 0
-    fun isHeading(row: ReaderRow) = row is ReaderRow.Section || row is ReaderRow.Speaker
+    // a heading printed after its line stays with that line, not with what follows
+    fun isHeading(row: ReaderRow) = (row is ReaderRow.Section && !SectionKinds.after(row.section.kind)) || row is ReaderRow.Speaker
 
     /** Cuts rows[from until to) into pages from the front. */
     fun forward(from: Int, to: Int): List<List<ReaderRow>> {
@@ -1544,6 +1549,8 @@ private fun PageContent(
 }
 
 private fun sectionLabel(section: Sections): String {
+    // a heading inside the text (Lysias's ΜΑΡΤΥΡΕΣ., ⟨ΨΗΦΙΣΜΑ.⟩): as printed
+    SectionKinds.printedLabel(section.kind, section.label)?.let { return it }
     val label = section.label
     if (!label.isNullOrBlank() && label.first().isLetter()) return label
     // a book with a title of its own ("12 · Κατὰ Ἐρατοσθένους …", a speech) is headed by its label alone
