@@ -180,7 +180,7 @@
 1081	παρῇ] So L with most MSS., and Stobaeus Flor. 43. 17 (where he quotes vv. 1081—1087 to ταῦτα): πάρα A, and Ald. In L a late hand has written πάρα in marg., and the same v.l. occurs in a MS. of Stobaeus l.c. Cp. 1160.
 1082	ποτὲ MSS., Stobaeus l.c., and Ald. In Mus. Crit. 1. 475 Elmsley proposed ποτʼ ἄν, but afterwards (on Med. 362 n.) accepted Herm.’s view that ποτὲ..πεσεῖν represents ἔπεσέ ποτε. Madvig favours ποτʼ ἄν, which Nauck and Blaydes read.
 1083	ἐξ οὐρίων] ἐξ οὐρίας Stobaeus Flor. 43. 17. For ἐξ, Morstadt conj. κἀξ.
-1085	ἃν] ἀν́̀ L (the grave accent from a later hand). So too in 1086, where κ or χ seems to have been erased before ἀ. In both places some of the later MSS. have ἂν instead of ἅν.
+1085	ἃν] ἁνʼ` L (the grave accent from a later hand). So too in 1086, where κ or χ seems to have been erased before ἁ. In both places some of the later MSS. have ἂν instead of ἅν.
 1086	οὐκ ἀντιτείσειν] μὴ οὐκ ἀντιτίσειν Ien. and Mosq. b.—ἃν λυπώμεθα] Paley writes ἃν λυποίμεθα.
 1088	μέγʼ αὖ] μέγα Γ.
 1090	ταφὰς] L has the first α in an erasure.
@@ -188,4 +188,5 @@
 --- notes
 1078	No flags on this page; every verse read against the image: no change (ἃν 1085, 1086 checked at enlargement: rough breathing). Residuals φρονῶ 1088, προφωνῶ 1089: circumflex printed, OCR noise.
 1082	Apparatus: "Mus. Crit. 1. 475": the figure before 475 is printed in the old-style type in which 1 looks like I; written 1.
-1085	Apparatus: L's reading is printed as α with smooth breathing, ν, and over and after the ν an acute-shaped stroke and a detached grave; written ἀν́̀ (both marks kept). The breathings of "before ἀ" (smooth), "have ἂν" (smooth), "instead of ἅν" (rough), "ἃν λυπώμεθα]" and "Paley writes ἃν" (rough) read at enlargement against each other.
+1085	Apparatus: (first pass, superseded by the rev line below) L's reading had been read as α with smooth breathing and an acute-shaped stroke over ν, and "before ἀ" as smooth.
+1085	rev: apparatus 1085: L's reading is ἁ (rough breathing: reversed-comma shape, as on the lemma ἃν and on ἅν, against the comma shape of ἐξ and ἀντιτίσειν beside it), then ν with an apostrophe after it (the comma shape, not an acute: Jebb's acute is a straight wedge) and a detached grave: written ἁνʼ` (U+1FEF for the detached grave); "before ἁ" likewise rough, corrected from ἀ; "have ἂν" smooth, "ἅν", "ἃν λυπώμεθα]", "Paley writes ἃν" rough, confirmed.

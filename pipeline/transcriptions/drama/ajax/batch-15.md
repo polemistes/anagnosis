@@ -15,9 +15,9 @@
 --- apparatus
 1182	ὑμεῖς τε] ὑμεῖς δὲ Blaydes.
 1183	μόλω...μεληθεὶς MSS. (μόλω made in L from μολὼν: μολῶ Γ). Etym. Magn. (s.v. ἔστε) μολὼν...μεληθῶ, which Dindorf and Nauck adopt. G. Wolff conj. μολὼν...μελήσω.
-1185-1191	L divides the vv. thus:—τίσ— | πολυπλάγκτων— | τὰν ἄπαυστον— | δορυσσοήτων— | ἄταν— | ἀνὰ τὰν εὐρώδη— | δύστανον...ἐλλάνων.
+1185-1191	L divides the vv. thus:—τίσ— | πολυπλάγκτων— | τὰν ἄπαυστον— | δορυσσοήτων— | ἄταν— | ἀνὰ τὰν εὐρώδη— | δύστανον...ἑλλάνων.
 1185	ἐς πότε] F. Kern conj. εἴ ποτε.
-1187	ἄπαυστον] Nauck writes ἀπαύσταν (so that the last syll. = the last of ἀνὴρ in 1195).
+1187	ἄπαυστον] Nauck writes ἀπαύσταν (so that the last syll. = the last of ἁνὴρ in 1195).
 1188	δορυσσοήτων L: δορυσσόντων A and the other MSS., with Suidas s.v., and Ald. For conjectures, see below.
 1190	ἀνὰ τὰν εὐρώδη Τροίαν MSS. (τὴν for τὰν A), and Ald. After Τροίαν, three of the later MSS. (Δ, Ien., Mosq. b) add in the text ἠνεμόεσσαν. For conjectures, see below.
 1192	ὄφελε T: ὤφελε L, A, with most MSS., Suid. s.v., and Ald.—δῦναι made in L from δοῦναι.
@@ -30,7 +30,9 @@
 1190	No brackets printed (the OCR's "[00" is the margin number 1190). The page prints ἀν (smooth breathing, no accent), as the text has.
 1194	The page prints ἁνήρ with the rough breathing (zoomed; Jebb's apparatus: ἁνὴρ Bothe), as the text has.
 1197	The stop after πόνων is a raised stop, as the text has.
-1195	Apparatus items 1195 and 1196 name verses inside our verse 1194 (which covers 1194-1196); 1188 lies inside 1187. Breathings of ἀνὴρ (1187 note, smooth), ἐλλάνων (smooth), ἁνὴρ Bothe (rough) compared at enlargement with ὑμεῖς and ἀνὰ on the same page.
+1187	rev: apparatus 1187: ἀνὴρ corrected to ἁνὴρ (the page prints the rough breathing, the tail turned as in ὑμεῖς and ἁνὴρ Bothe; not as in ἀνὰ, ἀπαύσταν)
+1185-1191	rev: apparatus 1185-1191: L's ἐλλάνων corrected to ἑλλάνων (rough breathing on the page, compared at enlargement with ὑμεῖς and ἀνὰ)
+1195	Apparatus items 1195 and 1196 name verses inside our verse 1194 (which covers 1194-1196); 1188 lies inside 1187. Breathings of ἁνὴρ (1187 note), ἑλλάνων, ἁνὴρ Bothe compared at enlargement with ὑμεῖς and ἀνὰ on the same page (the first two corrected by the review: see the rev: lines).
 
 === p-0264
 --- text
@@ -86,6 +88,7 @@
 1214	No flags and no residuals. Every verse read against the page: words, accents, breathings and stops agree with the text (ἁλίκλυστον with the rough breathing checked at enlargement).
 1218	Numbering confirmed by Jebb's margin (1215, 1220, 1225) and his apparatus: verse 1218 πρόβλημʼ … ἄκραν covers 1218-1219 (his item 1219 is on ἄκραν), verse 1220 ὑπὸ πλάκα … ὅπως covers 1220-1221 (his item 1221 f. is on τὰς ἱερὰς, L's division), as the draft has it; the apparatus numbers 1219 and 1221 are kept as printed.
 1223	ΤΕΥ. in the margin at 1223, the heading ΑΓΑΜΕΜΝΩΝ. above 1226: the speaker lines stay. The notes on 1223-1225 run on to the facing page (leaf 267) and are written whole here. In the 1214 note ὧδʼ (rough) and ἱερὰσ (rough) checked at enlargement; the marks before στι in the 1225 note are written ʼ.
+1214	rev: in Wecklein's conjecture νῦν δʼ ὧδʼ ἀνάκειται the breathing under the circumflex is faint at the scan's resolution and its tail seems to turn down to the left, as in a smooth breathing (compare οὖν, 1211 note, and οὗτος, 1274 note); ὧδʼ is kept as the sense requires (ὧδε): if the print has ὦδʼ, it is an evident misprint, corrected
 
 === p-0268
 --- text

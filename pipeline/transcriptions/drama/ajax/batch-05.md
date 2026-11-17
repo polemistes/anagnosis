@@ -188,7 +188,7 @@
 395	ἔρεβος ὦ φαεννότατον, ὡς ἐμοί,
 396	ἕλεσθʼ ἕλεσθέ μʼ οἰκήτορα,
 --- apparatus
-384	ἴδοιμί νιν, καίπερ ὧδʼ L, with most MSS., and Ald.: but a few of the later MSS. have ἴδοιμί νιν ὧδʼ (omitting καίπερ), and so most MSS. of Suidas s.v. ἀτώμενος, though one at least (E) has ἴδοιμι νῦν καίπερ (Bernhardy’s Suidas I. p. 843). Triclinius wrote ἴδοιμι δή νιν: Hermann, ἴδοιμι μέν νιν (citing ἴδοιμενῒν from one MS., Aug. c): Dindorf (with L. Dindorf), ἴδοιμι μήν νιν. Apitz conj. ἴδοιμί νύν νιν: Elmsley, ἴδοιμʼ ἐγώ νιν.—Editors who omit the second οὐκ in 369 read ἴδοιμί νιν, καίπερ here.
+384	ἴδοιμί νιν, καίπερ ὧδʼ L, with most MSS., and Ald.: but a few of the later MSS. have ἴδοιμί νιν ὧδʼ (omitting καίπερ), and so most MSS. of Suidas s.v. ἀτώμενος, though one at least (E) has ἴδοιμι νῦν καίπερ (Bernhardy’s Suidas I. p. 843). Triclinius wrote ἴδοιμι δή νιν: Hermann, ἴδοιμι μέν νιν (citing ἴδοιμενϊν from one MS., Aug. c): Dindorf (with L. Dindorf), ἴδοιμι μήν νιν. Apitz conj. ἴδοιμί νύν νιν: Elmsley, ἴδοιμʼ ἐγώ νιν.—Editors who omit the second οὐκ in 369 read ἴδοιμί νιν, καίπερ here.
 385	ἰώ μοί μοι L, made from ἰώ μοι μοί: cp. 333.
 386	εἶ] made in L from ἦι.
 387-390	L divides the vv. thus:—ὦ ζεῦ— | πῶσ ἂν— | ἐχθρὸν—δισ-|σάρχασ...βασιλῆσ.
@@ -205,4 +205,4 @@
 394	394 ἰὼ / 394a σκότος, ἐμὸν φάος: Jebb prints them as two lines and his margin 395 stands at ἔρεβος: as the draft.
 387	in the apparatus Jebb prints "ἂν--" (387-390) and "ἄξιοσ-—εἰσ" (394-400) with a broken dash: written —. "δισ-|σάρχασ" and "φαεν-|νότατον" keep Jebb's dividing stroke; in Herodian's quote "δισ-" at a line end is the printer's break, written δισσάρχας.
 389	"διὰ τοῦ η̄": the η is printed with a bar over it, written η̄. "(c. 125 A.D)" without a stop after D, as printed.
-384	"ἴδοιμενῒν" (Hermann's citation): the ι has a diaeresis with a grave over it in the print, written ῒ.
+384	rev: "ἴδοιμενϊν" (Hermann's citation): at enlargement the ι has a diaeresis only, no grave (the first pass had written ῒ); corrected to ϊ.

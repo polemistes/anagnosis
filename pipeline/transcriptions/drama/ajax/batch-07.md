@@ -132,6 +132,7 @@
 539	no flags on this page; every verse read against the page: no change
 543	the apparatus prints the ου ligature (like an 8) written above λόγων in L: written ȣ
 546	Γ's spelling in brackets has a breathing with the accent on the second ο (τοῦτὄν), unlike the first τοῦτόν: copied as printed
+546	rev: Γ's (τοῦτὄν γε) checked at enlargement: the print has one short, thick mark over the second ο, unlike the thin acute of the first τοῦτόν and not clearly two signs; read as breathing with accent (the bracket only makes sense if Γ's spelling differs); a plain acute cannot be ruled out: left as it was, open
 
 === p-0174
 --- text

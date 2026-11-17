@@ -152,6 +152,7 @@
 812	the page prints θελοντας without an accent (residual 812; clear on the image, nothing broken off): an evident misprint, θέλοντας kept as Jebb's own apparatus writes it ("Hermann once wrote θέλοντας").
 810	apparatus: "ὅπη | περ" is divided at the line end without a hyphen; written as two words, as printed.
 812	apparatus: the note runs on to the facing page (leaf 211) from "from -ασ)" on; written whole here.
+812	rev: θελοντας without an accent confirmed on the page at enlargement (nothing broken off); the correction to θέλοντας with its note stands.
 
 === p-0212
 --- text

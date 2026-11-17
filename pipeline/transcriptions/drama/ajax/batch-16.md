@@ -26,6 +26,8 @@
 1283	apparatus: the breathing of Wolff's conjecture αὑτὸς is faint on the scan; rough, as the conjecture must differ from the lemma αὐτὸς.
 1281	apparatus: the note runs on to the facing page (leaf 275), written whole here.
 1283	the page prints χὥτʼ with the rough breathing and acute (the same sign as on ὅστις 1300, unlike the smooth breathing and acute of ἄκροισιν 1277): χὤτʼ changed to χὥτʼ.
+1283	rev: apparatus breathing confirmed at enlargement (leaf 275): the lemma αὐτὸς has the smooth breathing (tail to the left), Wolff's αὑτὸς the rough (tail to the right); χὥτʼ in the text confirmed rough.
+1275	rev: every verse and every apparatus item on the page and on leaf 275 read against the print; no change.
 
 === p-0276
 --- text
@@ -54,6 +56,7 @@
 1290	residuals checked: ποῖ βλέπων has no stop after it (the OCR's stop is a speck); θροεῖς ; printed; the text stands.
 1294	residual checked: τέκνων ; printed; 1287 κουφιεῖν ; printed; 1295 ἐφʼ ᾗ printed with the iota subscript.
 1293	apparatus: Jebb's "1293 f." filed under 1293.
+1286	rev: every verse and every apparatus item (leaves 276-277) read against the print; 1289 οὑκ rough confirmed at enlargement (the same sign as ὁ before it); no change.
 
 === p-0278
 --- text
@@ -89,6 +92,7 @@
 1306	residual checked: οὓς printed with the rough breathing and grave; 1307 λέγων ; and 1312 λέγω ; printed; the text stands.
 1309	the page prints χἡμᾶς with the rough breathing (the same sign as on ὃς 1299 and in Jebb's bold lemma in the commentary, unlike the smooth breathing of ἀθάπτους 1307): χἠμᾶς changed to χἡμᾶς.
 1312	apparatus: the note runs on from leaf 279 to the apparatus of leaves 280-281; written whole here. Wecklein's conjecture is printed "ποτʼ ην" without breathing or accent on ην; copied as printed.
+1298	rev: every verse and every apparatus item read against the print (leaf 278, the whole apparatus of leaf 279 from the page, as the app2 crops miss its first lines, and leaves 280-281 for the end of 1312); 1312 *γʼ: Jebb's asterisk left out; no change.
 
 === p-0280
 --- text
@@ -131,6 +135,7 @@
 1329	*ξυνηρετεῖν: Jebb's asterisk left out.
 1315	apparatus: the page's apparatus begins with the end of the note on 1312 (written on p-0278).
 1329	apparatus: the note runs on to the top of leaf 282's apparatus (to "and Ald."); written whole here. After the lemma ξυνηρετεῖν the print has a small broken mark before Lobeck (a damaged stop or a blot); left out.
+1313	rev: every verse, speaker and apparatus item (leaves 280-281, end of 1329 on leaf 282) read against the print; 1315 ἠν (smooth, no accent) confirmed at enlargement; no change.
 
 === p-0282
 --- text
@@ -164,6 +169,7 @@
 1330	flags checked: ἦ (1330) and μὴ (1333) printed on their verses; φρονῶν circumflex printed; speakers ΑΓΑ. 1330, ΟΔ. 1332 as in the file; the text stands.
 1339	*ἀντατιμάσαιμʼ: Jebb's asterisk left out.
 1330	apparatus: the page's apparatus begins with the end of the note on 1329 (written on p-0280). The margin reading is printed "γʼὰρ" (elision mark inside the word); copied as printed.
+1330	rev: every verse, speaker and apparatus item (leaves 282-283) read against the print; 1330 the margin's εἶπʼ (circumflex) against the lemma's and Γ's εἴπʼ (acute) confirmed at enlargement; no change.
 
 === p-0284
 --- text
@@ -204,3 +210,4 @@
 1357	flag checked: ἁρετή printed with the rough breathing (the same sign as ὁποίῳ 1354; likewise ἁνήρ 1355); the text stands.
 1348	residuals checked: προσεμβῆναί printed with the circumflex; 1356 ποήσεις ; and νέκυν ; printed; the text stands.
 1346	apparatus: the note on 1346—1369 covers verses beyond this page (as printed). The apparatus runs on to the facing page (leaf 285): 1352 (end), 1353, 1355, 1357 read from the whole page there, as the app2 crops missed most of it; breathings compared at enlargement (ἁνὴρ lemma rough, MSS. and Brunck ἀνὴρ smooth; ἁρετή lemma and Mekler's ἁρετή rough; ἁ ʼρετή rough without accent; ἅλις rough).
+1346	rev: every verse, speaker and apparatus item (leaves 284-285) read against the print; breathings on 1355 (lemma ἁνὴρ rough, MSS. and Brunck ἀνὴρ smooth) and 1357 (lemma ἁρετή, Mekler ἁρετή, ἅλις rough) confirmed at enlargement; no change.

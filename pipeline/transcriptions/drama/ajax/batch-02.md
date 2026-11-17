@@ -97,7 +97,7 @@
 @ Αἴας
 108	πρὶν ἂν δεθεὶς πρὸς κίονʼ ἑρκείου στέγης
 --- apparatus
-98	ὥστʼ MSS., and Ald.: Elmsley conj. ὡς.—οἵδʼ] οἷδʼ L: schol. in marg., ἐὰν δασυνθῇ τὸ οι [i.e., if we read οἵδʼ] ἔσται ἐπὶ τῶν Ἀτρειδ⟨ῶν⟩, ⟨ἐὰν δὲ⟩ ψιλὸν τὸ οἶδα ἀντὶ τοῦ ἐπίσταμαι. A, with most MSS. and Ald., has οἵδʼ.—ἀτιμάσουσʼ] ἀτιμάσωσʼ L, but a later hand has tried to alter ω into ȣ (ου).
+98	ὥστʼ MSS., and Ald.: Elmsley conj. ὡς.—οἵδʼ] οἶδʼ L: schol. in marg., ἐὰν δασυνθῇ τὸ οι [i.e., if we read οἵδʼ] ἔσται ἐπὶ τῶν Ἀτρειδ⟨ῶν⟩, ⟨ἐὰν δὲ⟩ ψιλὸν τὸ οἶδα ἀντὶ τοῦ ἐπίσταμαι. A, with most MSS. and Ald., has οἵδʼ.—ἀτιμάσουσʼ] ἀτιμάσωσʼ L, but a later hand has tried to alter ω into ȣ (ου).
 99	ἅνδρες] ἄνδρες MSS., and Ald.—ἐγώ] Meineke conj. ἔπος.
 102	ἕστηκεν L and A.—ἢ L, with most MSS.: but ἦ Pal. (with ἢ above). The Aldine points thus: ποῦ σοι τύχης ἕστηκεν, ἢ πέφευγέ σε;
 104	ἔγωγʼ] ἐγὼ δʼ Zonaras 2. p. 1448 (ap. Blaydes): ἐγώ δʼ Γ.—ἔγωγʼ· Ὀδυσσέα] Bothe deletes the point after ἔγωγʼ. Nauck writes ἔγωγʼ· Ὀδυσσῆ. Dindorf conj. Ὀδυσσέα ʼγώ.
@@ -108,6 +108,7 @@
 105	flag ἔσω: the page prints ἔσω (the OCR lost the end); no change.
 102	residuals checked (102 ἕστηκεν;, 103 a stray «ος», 107 ἂν): the page agrees with the text; 102 ἢ (smooth breathing, grave) and σέ (accented) are as printed. Every verse 98-108 read against the page: no change; margin 100, 105 agree.
 98	apparatus: the bracket of "[i.e., if we read οἵδʼ]" closes with ")" in the print, an evident misprint, corrected to "]"; ȣ is the ου ligature Jebb prints.
+98	rev: apparatus 98, L's reading οἷδʼ corrected to οἶδʼ: the breathing under the circumflex is smooth at enlargement (comma shape, tail down to the left, like the elision mark beside it; the rough breathing of ὡς in the same line opens the other way); L's οἶδʼ = "I know", which the scholion's ψιλὸν τὸ οἶδα explains.
 
 === p-0112
 --- text

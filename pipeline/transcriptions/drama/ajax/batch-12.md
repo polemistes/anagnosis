@@ -129,7 +129,7 @@
 978	ἆρʼ ἠμπόληκας ὥσπερ ἡ φάτις κρατεῖ;
 --- apparatus
 966-973	For the supposed interpolations in this passage, see Appendix.
-966	ἐμοὶ πικρὸσ τέθνηκεν ἢ κείνοισ γλυκύσ L. The accent on ἢ is from a later hand: the scribe wrote either ἠ or ἦ. The ὸ of πικρὸσ is partially erased, and the σ almost wholly. Four dots ·:· are placed before the verse. There is no variant in the other MSS. The Aldine has a comma after τέθνηκεν (as well as after γλυκύς).—For ἢ Schneidewin wrote ᾗ: Reiske, Porson and Elmsley conj. εἰ: Hartung writes ὡς: Blaydes, καί.
+966	ἐμοὶ πικρὸσ τέθνηκεν ἢ κείνοισ γλυκύσ L. The accent on ἢ is from a later hand: the scribe wrote either ἠ or ἦ. The ὸ of πικρὸσ is partially erased, and the σ almost wholly. Four dots ·:· are placed before the verse. There is no variant in the other MSS. The Aldine has a comma after τέθνηκεν (as well as after γλυκύς).—For ἢ Schneidewin wrote ᾗ: Reiske, Porson and Elmsley conj. εἰ: Hartung writes ὡς: Blaydes, καὶ.
 967	αὑτῶι made in L from αὐτῶι.—Hoffmann conj. αὑτῷ γε.
 969	τί] In L the scribe wrote τί, the reading of Γ, T, etc., and Ald.: but a late hand has made it into πῶς, the reading of A, D, and others.—τοῦδʼ] In L there has been an erasure (of ω or ου?) between ῦ and δʼ. Tournier conj. τί δῆτα τοιοῦδʼ ἐγγελῷεν. For ἐπεγγελῷεν Elmsley conj. ἂν ἐγγελῷεν.—The Aldine places χο before this verse, giving vv. 969-973 to the Chorus, as is done in some of the later MSS., but not in L or A.
 971	πρὸς] made in L from πρὸ.
@@ -144,6 +144,8 @@
 966	apparatus: the scribe's "ἠ" has a smooth breathing and no accent; Schneidewin's reading is printed with rough breathing, circumflex and iota subscript (ᾗ). The four dots copied as printed (·:·).
 969	apparatus: evident misprint corrected: Jebb prints ἐγγελῶεν (Tournier) and the lemma-word ἐπεγγελῶεν without the iota subscript, which his text (969) and Elmsley's ἂν ἐγγελῷεν beside them have; written ἐγγελῷεν, ἐπεγγελῷεν. "969—973" written 969-973. Hoffmann's αὑτῷ with rough breathing as printed.
 967	apparatus: αὑτῶι (rough) made from αὐτῶι (smooth), L's spellings with the iota adscript as printed.
+966	rev: apparatus: Blaydes's καὶ is printed with a grave accent (as it would stand in the verse), not καί: written as printed. Breathings of ἢ, ἠ, ᾗ, ὡς, εἰ, αὑτῶι/αὐτῶι, Hoffmann's αὑτῷ checked at enlargement: as written.
+969	rev: confirmed on leaf 233 at enlargement: Tournier's ἐγγελῶεν and the lemma ἐπεγγελῶεν are printed without the iota subscript, Elmsley's ἐγγελῷεν with it; the correction stands.
 
 === p-0234
 --- text
@@ -182,7 +184,7 @@
 979	ἁνήρ] ἀνὴρ MSS., and Ald.—τοῦτʼ ἐπίστασο] Nauck conj. πάντʼ ἐπίστασαι.
 982	ὦ] ὡς Suidas s.v. περισπερχὲς (though one MS., at least, has ὦ there).
 984	τὸ τοῦδε made in L from τοῦτο δὲ, by the 1st hand.—After τοῦδε Blaydes places a note of interrogation.
-986	δῆτʼ αὐτὸν ἄξεις δεῦρο] Elmsley conj. δεῦρʼ αὐτὸν ἄξεις δῆτα.—κενῆς] T. Johnson conj. κενόν.
+986	δῆτʼ αὐτὸν ἄξεις δεῦρο] Elmsley conj. δεῦρʼ αὐτὸν ἄξεις δῆτα.—κενῆς] T. Johnson conj. κενὸν.
 988	ἐγκόνει] γ made in L from ν.—θανοῦσι] Dindorf, Nauck and Blaydes write ἐχθροῖσι, with Herwerden: Wecklein, σθένουσι, with Seyffert.
 989	ἐπεγγελᾶν] Wecklein conj. ἐπεμπατεῖν.
 991	ἁνήρ] ἀνὴρ MSS., and Ald.—κεῖνος] κεῖνα L² (=Lb).
@@ -191,6 +193,7 @@
 981	flags 981a, 982a, 983a, 985a: each a half-verse of Teucer's set to the right on its own printed line after the Chorus's half (ΤΕΥ. in the margin): the lettered split stands as drafted; speakers as printed.
 988	flag: ἴθʼ, is printed at the head of this verse. Kept.
 990	residual: ζῶν, printed with the circumflex, as the text: OCR noise. Every verse read against the page (979 and 991 ἁνήρ/ἁνὴρ with rough breathing): no difference.
+986	rev: apparatus: T. Johnson's κενὸν is printed with a grave accent (as it would stand before σκύμνον), not κενόν: written as printed.
 
 === p-0236
 --- text

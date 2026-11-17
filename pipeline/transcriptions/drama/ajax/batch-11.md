@@ -129,7 +129,7 @@
 887	ἀπύοι] L has the letters οι written small in an erasure after υ. At an interval after ἀπύοι, a word of four or five letters has been erased: ῞.....—ἀπύει Γ.
 888	ἐμέ γε τὸν] Heath suspects this v., which Nauck too would omit.
 889	οὐρίωι..δρόμωι made in L from οὐρίων..δρόμων.—πελάσαι] προσπελάσας Aug. c.
-890	ἀλλʼ ἀμενηνὸν] In L the first ν has been made from μ.—ἀλλὰ μεμήνότʼ Δ (and as v. l. in Pal.), as Musgrave had conjectured. Wecklein conj. ἀλλὰ ποθεινὸν (Ars Soph. em. p. 46); Morstadt, βεβηκότʼ.
+890	ἀλλʼ ἀμενηνὸν] In L the first ν has been made from μ.—ἀλλὰ μεμηνότʼ Δ (and as v. l. in Pal.), as Musgrave had conjectured. Wecklein conj. ἀλλὰ ποθεινὸν (Ars Soph. em. p. 46); Morstadt, βεβηκότʼ.
 --- notes
 876	the print has ΗΜ. Β. (876) and ΗΜ. Α. (877), ΧΟ. at 879 (στρ.): the speakers of the draft agree. No margin number on 876-878; the margins 880 (ἁλιαδᾶν), 885 (τὸν ὠμόθυμον), 890 (ἀλλʼ ἀμενηνὸν) agree with the numbering: ἁλιαδᾶν ... ἄγρας covers 880-882 (Jebb's notes "880 f.", 883 θεᾶν, 884 ποταμῶν confirm it).
 878	ἁνὴρ with the rough breathing checked at enlargement (Jebb's note 878 ἁνὴρ] ἀνὴρ L).
@@ -137,6 +137,7 @@
 880	Jebb's note "880 f." filed under 880.
 887	apparatus: the erased word is shown by a rough breathing with acute and five dots (῞.....), copied as printed.
 890	apparatus: μεμήνότʼ (Δ's reading) is printed with two acute accents: copied as printed.
+890	rev: apparatus μεμήνότʼ corrected to μεμηνότʼ: the page prints two acutes (confirmed at enlargement), an evident misprint (perfect participle μεμηνώς, μεμηνότα; the same reading is Musgrave's conjecture); misprint corrected per the rule for evident misprints.
 
 === p-0222
 --- text
@@ -205,7 +206,7 @@
 907	περιπετὲς] Musgrave conj. περιπετοῦς.
 908-914	L divides the vv. thus:—ἰώ μοι— | ἄφρακτοσ— | ἐγὼ δʼ— | ὁ πάντʼ ἄϊδρισ— | πᾶι πᾶ κεῖται— | ὁ δυσώνυμοσ αἴασ.
 908	ὤ μοι Triclinius (T): ἰώ μοι L, with most MSS., and Ald.
-909	οἶοσ L (a corrector has retouched the smooth breathing, to make it clearer: but it was never οἷοσ). So most (perhaps all) MSS., and Ald. In his second ed. Brunck gave οἷος, and so Herm.: but almost all editors have kept οἶος.—αἱμάχθης] ἡμάχθης r.
+909	οἶοσ L (a corrector has retouched the smooth breathing, to make it clearer: but it was never οἷοσ). So most (perhaps all) MSS., and Ald. In his second ed. Brunck gave οἷος, and so Herm.: but almost all editors have kept οἶος.—αἱμάχθης] ᾑμάχθης r.
 910	ἄφρακτος MSS., Suidas s. v., Hesych., and Ald.: ἄφαρκτος Dindorf.
 912	πᾶι πᾶ L.
 913	ὁ δυστράπελος δυσώνυμος] ὁ δυστράπελοσ | ὁ δυσώνυμοσ L, with most MSS., Suidas s.v. δυστράπελος, and Ald.: but the second ὁ is rightly omitted in a few of the later MSS. (as Harl., Mosq. a and b).
@@ -221,6 +222,8 @@
 908	οἶος (flag): the print has the smooth breathing under the circumflex, checked at enlargement (Jebb's commentary prefers οἶος, the reading of the MSS., to οἷος). φίλων· (flag) is the printed turnover of this verse: kept on it. ὤμοι (smooth, acute) as printed.
 921	the print has an asterisk before ἀκμαῖʼ (Jebb's mark of a conjecture, Wakefield's): left out, as the brief says. No change on this page; every verse read against the print.
 909	apparatus: the breathings of οἶοσ / οἷοσ / οἷος / οἶος are too small in the scan to resolve under the circumflex; written as Jebb's sentence requires (L's smooth, "never" rough, Brunck's rough, the editors' smooth): the review pass should look again.
+909	rev: the four breathings looked at again in a pixel map against certain smooth (ἰώ, 908) and rough (ὁ, 908-914) breathings of the same apparatus: under the circumflex they are too small and merge with the iota, so the scan cannot tell them apart; the first pass's reading, which Jebb's sentence fixes (L's smooth, "never" rough, Brunck's rough, the editors' smooth, as in his text 908 where οἶος is clearly smooth), confirmed and kept.
+909	rev: apparatus ἡμάχθης corrected to ᾑμάχθης: the page prints an iota subscript under the first η (seen in a pixel map, the same mark as in πάσῃ, 851; not under the η of -θης), the augmented form of αἱμάσσω.
 910	checker: "apparatus 910 names a line not on this page": Jebb's 910 (ἄφρακτος φίλων) stands in our printed verse 908, which covers 908-910 (the margin 910 is beside its turnover): the item keeps Jebb's number.
 913	Jebb's notes "913 f." and "918 f." filed under 913 and 918.
 916	apparatus: the page prints "comparing 535" (the OCR read 335).

@@ -135,10 +135,11 @@
 729	ὥστʼ] Thiersch conj. ἔστʼ, which Nauck adopts: Bothe, οἱ δʼ: Meineke, κᾆτʼ: Hartung writes ἕως (as a monosyllable).
 730	κολεῶν] κουλεῶν r.—διεπεραιώθη] The scribe of L wrote διεπαιρεώθη (transposing ε and αι): S has corrected ε to αι, but the αι after π has been allowed to remain: a later hand has placed dots over it.
 733	πού στιν L, with the mark of aphaeresis (ʼ) just over π, not in front of σ: a curious error, suggestive of mechanical copying.
-735	Nauck, objecting to ἐγκαταζεύξας, would write, οὐκ ἔνδον ἀνήρ, ἀλλὰ φροῦδος ἀρτίως, | βουλὰς νέας νέοισιν ἁρμόσας τρόποις.
+735	Nauck, objecting to ἐγκαταζεύξας, would write, οὐκ ἔνδον ἁνήρ, ἀλλὰ φροῦδος ἀρτίως, | βουλὰς νέας νέοισιν ἁρμόσας τρόποις.
 --- notes
 723	flags 731 (δραμοῦσα) and 733 (ἀλλʼ) checked: both printed as the text has them; residuals 726 (κἀπιβουλευτοῦ), 731, 732 (ἀνδρῶν split by the OCR) are OCR noise. Every verse read against the page, no change.
 730	apparatus: in L's spelling διεπαιρεώθη a dot stands over the final η in this copy (a speck or a printed dot, unclear); not written.
+735	rev: apparatus 735, Nauck's ἀνήρ corrected to ἁνήρ (crasis): the page prints the rough breathing (compared at enlargement with ἀλλὰ and ἁρμόσας in the same note).
 
 === p-0200
 --- text

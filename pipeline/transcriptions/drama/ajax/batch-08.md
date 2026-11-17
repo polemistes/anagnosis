@@ -55,7 +55,7 @@
 598	πᾶσιν περίφαντος ἀεί·
 600	ἐγὼ δʼ ὁ τλάμων παλαιὸς ἀφʼ οὗ χρόνος
 601	Ἰδαῖα μίμνων λειμώνιʼ ἔπαυλα μηνῶν
-602	ἀνήριθμος αἰὲν εὐνῶμαι,
+603	ἀνήριθμος αἰὲν εὐνῶμαι,
 605	χρόνῳ τρυχόμενος,
 606	κακὰν ἐλπίδʼ ἔχων
 607	ἔτι μέ ποτʼ ἀνύσειν τὸν ἀπότροπον ἀΐδηλον Ἅιδαν.
@@ -73,6 +73,8 @@
 602	Jebb prints no number between 600 and 605: verses 5 and 6 (Ἰδαῖα …, ἀνήριθμος …) are numbered 601, 602 by run-on from 600, as the check text has them. His apparatus and commentary name "601—603" for the two verses, and the antistrophe's corresponding verses are 613 (613-614) and 615, so 603 for ἀνήριθμος is possible; not changed, left for the review.
 605	τρυχόμενος (flag): printed on verse 605 (7), as the draft has it.
 601	Jebb's asterisks before ἔπαυλα, μηνῶν, εὐνῶμαι left out.
+600	rev: numbering of ἐγὼ δʼ … χρόνος kept at 600 (margin 600 beside it; commentary "600 παλαιὸς ἀφʼ οὗ χρόνος", apparatus on p-0182 "παλαιὸς in 600"). Open: the verse may cover 599-600 (L's lines ἐγὼ δʼ— | παλαιὸσ— are two, and nothing on the page places 599 in πᾶσιν … ἀεί), which would make it 599 as 624 is beside the margin's 625 on p-0182; nothing Jebb prints names ἐγὼ δʼ by number, so not changed.
+603	rev: RENUMBERED from 602 (the question the first pass left open): Jebb's apparatus gives L's three lines ἰδαία μίμνων | λειμωνίᾳ … μήλων | ἀνήριθμοσ … as "601—603", and his commentary sets "601—603 Ἰδαῖα κ.τ.λ." against the antistrophic "613—615 κρατοῦντʼ … ηὕρηται", whose first verse covers 613-614 (614 οἰοβώτας in apparatus and commentary) and whose second is 615 (margin): so Ἰδαῖα … μηνῶν covers 601-602 and ἀνήριθμος … εὐνῶμαι begins at 603 (covering 603-604, up to the margin's 605 at χρόνῳ). The check text numbers it 602.
 
 === p-0182
 --- text
@@ -96,7 +98,7 @@
 616	χεροῖν | μεγίστας Triclinius: χερσὶν μέγιστʼ L, A, with most MSS.: χερσὶ μέγιστʼ r, Suidas s. v. τὰ δὲ πρίν, and Ald.
 620	παρʼ ἀφίλοις r, and Ald.: παρὰ φίλοις L. The scholium in L has παρὰ φίλοις in the lemma, and explains, παρὰ τοῖς πρῴην αὐτοῦ φίλοις, but adds ἢ ἄφιλα παρʼ ἀφίλοις, ἐχθρὰ παρʼ ἐχθροῖς. [In Suid. s. v. τὰ δὲ πρίν, Bernhardy gives ἀφίλοις: but παρὰ φίλοις used to be read.]
 621	ἔπεσʼ ἔπεσε r: ἔπεσʼ ἔπεσεν L, A, etc., and Ald.
-622-634	L divides the vv. thus:—ἦ που— | λευκῷ— | μάτηρ— | φρενομόρωσ— | αἴλινον αἴλινον | οὐδʼ οἰκτρᾶσ— | ἥσει—ἀλλʼ ὀ|ξυτόνουσ— | θρηνήσει· χερόπληκτοι | δʼ ἐν στέρνοισι— | δοῦποι...χαίτασ. The division in the antistr. (635—645) corresponds.
+622-634	L divides the vv. thus:—ἦ που— | λευκῶ— | μάτηρ— | φρενομόρωσ— | αἴλινον αἴλινον | οὐδʼ οἰκτρᾶσ— | ἥσει—ἀλλʼ ὀ|ξυτόνουσ— | θρηνήσει· χερόπληκτοι | δʼ ἐν στέρνοισι— | δοῦποι...χαίτασ. The division in the antistr. (635—645) corresponds.
 622	ἦ που] ἦ ποῦ L.—παλαιᾷ] Dindorf conj. ταλαίνᾳ.
 623	σύντροφος Nauck, and so J. H. Heinrich Schmidt, Wecklein, Blaydes, Mekler. ἔντροφος MSS.—ἁμέρᾳ r, and Ald. (ἁμέρα A): ἡμέραι L.
 624	λευκῷ MSS.: λευκὰ Schneidewin.
@@ -110,6 +112,7 @@
 616	"616 f." written 616, as the brief says.
 626	the note on 626 runs on to the next text page (p-0184, "Nauck, (νοσοῦντʼ) αἰνομόρως (cp. 636)."): written whole here.
 626	the eight "matched no Perseus words" flags after 626 are lines of the apparatus, not text: nothing added.
+622	rev: apparatus 622-634: L's λευκῶ— written without the iota subscript, as printed (the first pass had λευκῷ).
 
 === p-0184
 --- text
@@ -119,7 +122,7 @@
 631	θρηνήσει, χερόπλακτοι δʼ
 632	ἐν στέρνοισι πεσοῦνται
 633	δοῦποι καὶ πολιᾶς ἄμυγμα χαίτας.
-635	κρείσσων γὰρ Ἅιδᾳ κεύθων ⌜ὁ⌝ νοσῶν μάταν,
+635	κρείσσων γὰρ Ἅιδᾳ κεύθων ὁ νοσῶν μάταν,
 636	ὃς ἐκ πατρῴας ἥκων γενεᾶς ἄριστος
 638	πολυπόνων Ἀχαιῶν,
 639	οὐκέτι συντρόφοις
@@ -131,20 +134,22 @@
 632	στέρνοισι Triclinius: στέρνοισ L, with most MSS., and Ald.: Suidas s. v. ἀηδών has χερόπληκτοι δὲ στέρνοις (without ἐν).
 634	ἄμυγμα Bothe: ἀμύγματα MSS., and Eustathius (p. 567. 31, p. 651. 47).—Meineke conj. κἀν πολιαῖς ἄμυγμα χαίταις: Blaydes, καὶ πολιᾶν ἀμύγματʼ ἔσται.
 635	κρείσσων L (made from κρέσσων): κρέσσων r.—γὰρ MSS.: παρʼ Elmsley, and so Dindorf.—Ἅιδᾳ] ἀΐδαι L (not ἀΐδα). ἀΐδᾳ Ald.—ὁ νοσῶν Lobeck: ἢ νοσῶν MSS.—μάταν] μάτην r.
-636	ὃς ἐκ] For ἐκ Burges conj. εὖ, which Wecklein receives.—ἥκων made in L from ἥκον.—ἄριστος is found in T (which exhibits the recension of Triclinius), and in two other late MSS., both of which may have derived it from that recension, viz., Dresd. a (attributed to 14th century), and Laud. 54 in the Bodleian (early 15th cent.): it is also superscript in Mosq. b. In L, as in the other MSS., and in Ald., it is wanting, so that there is a defect of ⏑–⏓, = νοσοῦντα in the strophe, v. 625. The schol. in L on 636 has: ὃς ἄνωθεν κατὰ πατρῴας γενεᾶς ἄριστος ἥκων (λείπει γὰρ τὸ ἄριστος): and again below, λείπει τὸ ἄριστος. Triclinius: ἥκων γενεᾶς ἄριστος γράφε, ἵνα ᾖ ὅμοιον τῷ τῆς στροφῆς κώλῳ (v. 625)· οὕτω γὰρ εὑρέθη καὶ ἔν τινι τῶν πάνυ παλαιῶν. Triclinius may have inferred this ‘very old’ authority for ἄριστος from the schol. in L. At any rate, the appearance of ἄριστος in the text is due to him. Liv. b. (one of the two MSS. collated by J. Livineius in the 16th cent., cp. cr. n. on 405 ff.) has ἄριστα: and so Wecklein reads. Seyffert writes τὰ πρῶτα. Burges conj. ἄνωθεν (from schol. in L quoted above). Nauck, marking a lacuna after γενεᾶς, suggests πρόμος (=his νοσοῦντʼ in 625, cr. n.).
+636	ὃς ἐκ] For ἐκ Burges conj. εὖ, which Wecklein receives.—ἥκων made in L from ἥκον.—ἄριστος is found in T (which exhibits the recension of Triclinius), and in two other late MSS., both of which may have derived it from that recension, viz., Dresd. a (attributed to 14th century), and Laud. 54 in the Bodleian (early 15th cent.): it is also superscript in Mosq. b. In L, as in the other MSS., and in Ald., it is wanting, so that there is a defect of ⏑–⏓, =νοσοῦντα in the strophe, v. 625. The schol. in L on 636 has: ὃς ἄνωθεν κατὰ πατρῴας γενεᾶς ἄριστος ἥκων (λείπει γὰρ τὸ ἄριστος): and again below, λείπει τὸ ἄριστος. Triclinius: ἥκων γενεᾶς ἄριστος γράφε, ἵνα ᾖ ὅμοιον τῷ τῆς στροφῆς κώλῳ (v. 625)· οὕτω γὰρ εὑρέθη καὶ ἔν τινι τῶν πάνυ παλαιῶν. Triclinius may have inferred this ‘very old’ authority for ἄριστος from the schol. in L. At any rate, the appearance of ἄριστος in the text is due to him. Liv. b. (one of the two MSS. collated by J. Livineius in the 16th cent., cp. cr. n. on 405 ff.) has ἄριστα: and so Wecklein reads. Seyffert writes τὰ πρῶτα. Burges conj. ἄνωθεν (from schol. in L quoted above). Nauck, marking a lacuna after γενεᾶς, suggests πρόμος (=his νοσοῦντʼ in 625, cr. n.).
 638	πολυπόνων] πουλοπόνων Liv. a, which Meineke would read. Nauck conj. δουριπόνων.
 640	ὁμιλεῖ] Reiske conj. ὁμίλου: Blaydes (inter alia) ἀλᾶται.
 --- notes
 627	the speaker flag ("ΣΟΦΟΚΛΕΟΥΣ.") is the running head: no speaker change.
-635	⌜ὁ⌝ (flag): printed on this verse, ὁ between Jebb's raised half-brackets ⌜ ⌝ (his conjecture, "ὁ νοσῶν Lobeck" in the apparatus), as the text has it.
+635	ὁ (flag): printed on this verse ("ὁ νοσῶν Lobeck" in the apparatus); see the rev note on the brackets.
 634	apparatus 634 (ἄμυγμα) falls in verse 633 (δοῦποι … χαίτας), which covers 633-634 (Jebb's commentary also heads it "634 ἄμυγμα").
 638	RENUMBERED 637 → 638 and 638 → 639: Jebb's apparatus names πολυπόνων, the first word of the antistrophe's verse 3, 638 ("638 πολυπόνων]"), and the 636 note makes ἄριστος at the end of verse 2 answer νοσοῦντα (625) in the strophe: verse 2 (ὃς ἐκ … ἄριστος) covers 636-637; οὐκέτι συντρόφοις runs on as 639 to the margin's 640 (ὀργαῖς). The check text numbers them 637, 638.
 635	"635 f." and "636 f." written 635 and 636; the first apparatus line of the page ("Nauck, (νοσοῦντʼ) αἰνομόρως (cp. 636).") is the end of the note on 626 and is written on p-0182.
+635	rev: the half-brackets ⌜ ⌝ round ὁ REMOVED: on the page they are a reader's pencil (grey, hand-drawn strokes, far lighter than the type: darkest pixel about 140 against about 40 for the printed ὁ beside them); Jebb prints κεύθων ὁ νοσῶν with no sign (no asterisk either). The first pass took them for print; the check text has ⌜ὁ⌝ and so should be corrected.
+636	rev: apparatus 636: "=νοσοῦντα" closed up, as printed (and as "(=his νοσοῦντʼ" later in the note).
 
 === p-0186
 --- text
 641	ὦ τλᾶμον πάτερ, οἵαν σε μένει πυθέσθαι
-642	παιδὸς δύσφορον ἄταν,
+643	παιδὸς δύσφορον ἄταν,
 644	ἃν οὔπω τις ἔθρεψεν
 645	αἰὼν Αἰακιδᾶν ἄτερθε τοῦδε.
 @ Αἴας
@@ -158,7 +163,7 @@
 653	χήραν παρʼ ἐχθροῖς παῖδά τʼ ὀρφανὸν λιπεῖν.
 --- apparatus
 641	τλᾶμον r: τλάμων L, A, with most MSS., and Ald.
-645	αἰὼν] γρ. ἐὼν Γ.—Reiske conj. δίων. Dobree would read acc. αἰῶνʼ, to be fem., as in Eur. Ph. 1484 etc., = οἷον βίον οὐδεὶς Αἰακ. ἔτλη (Adv. II. p. 44).—ἄτερθε] ἄτερθέ γε r (due perh. to Triclinius), on account of the corrupt ἀμύγματα in 633.
+645	αἰὼν] γρ. ἐὼν Γ.—Reiske conj. δίων. Dobree would read acc. αἰῶνʼ, to be fem., as in Eur. Ph. 1484 etc.,=οἷον βίον οὐδεὶς Αἰακ. ἔτλη (Adv. II. p. 44).—ἄτερθε] ἄτερθέ γε r (due perh. to Triclinius), on account of the corrupt ἀμύγματα in 633.
 647	φύει] Herwerden conj. φαίνει, which Nauck reads. ποιεῖ Stobaeus Ecl. Phys. I. 9. 23, where he quotes vv. 646—649.
 648	κοὐκ] οὐκ Stobaeus l. c. and Suidas s. v. ἄελπτον.
 649	ὅρκος] Bothe conj. ὄγκος.—χαἱ Brunck (χʼ αἱ): καὶ MSS., Stob. l. c., Suid. s. vv. ἄελπτον and περισκελής, and Ald.
@@ -170,6 +175,8 @@
 648	residuals checked: κοὐκ (648), χαἱ (649, rough breathing on the iota), ὅς (650, rough breathing and acute) are printed as the text has them; the OCR misread them.
 650	"650 f." written 650.
 653	the apparatus prints this note as "654 παῖδά τʼ]", but παῖδά τʼ stands in 653 (χήραν … λιπεῖν., counted from the margin's 650), and 654 is ἀλλʼ εἶμι on the next page: an evident misprint, numbered 653 here.
+643	rev: RENUMBERED from 642 (the question the first pass left open): Jebb says the antistrophe (635—645) is divided in L as the strophe, whose L lines are ἦ που | λευκῷ | μάτηρ | φρενομόρωσ | αἴλινον | οὐδʼ οἰκτρᾶσ | ἥσει—ἀλλʼ ὀ | ξυτόνουσ | θρηνήσει· χερόπληκτοι | δʼ ἐν στέρνοισι | δοῦποι: eleven lines for the eleven numbers 635-645. The antistrophe's numbers follow them where Jebb prints them (635 κρείσσων; 636 ὃς ἐκ covering 636-637 like λευκῷ | μάτηρ; 638 πολυπόνων; 640 ὀργαῖς; 645 αἰὼν), so ὦ τλᾶμον … πυθέσθαι, answering ἥσει … ᾠδὰς (two L lines), covers 641-642, and παιδὸς δύσφορον ἄταν, answering θρηνήσει, χερόπλακτοι δʼ, is 643; Jebb's commentary on the page heads it "643 δύσφορον" and the next "644 f. ἔθρεψεν". The check text numbers it 642.
+645	rev: apparatus 645: "etc.,=οἷον" closed up, as printed.
 
 === p-0188
 --- text

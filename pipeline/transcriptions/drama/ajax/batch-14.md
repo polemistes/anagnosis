@@ -190,6 +190,7 @@
 1154	ὤνθρωπε printed with coronis and acute, as the text has.
 1154	In Jebb's note, "ὤ· νθρωπε" is printed with a raised dot (L's spelling as he reports it); copied as printed.
 1160	The sigla "Γ, Δ" checked at enlargement.
+1160	rev: in "(made by a later hand from παρῇ)" the print shows παρῆ without the iota subscript (checked at enlargement; the same note's first παρῇ has it): an evident misprint, παρῇ kept.
 
 === p-0260
 --- text

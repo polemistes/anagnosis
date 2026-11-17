@@ -25,7 +25,7 @@
 @ Ὀδυσσεύς
 1369	ὡς ἂν ποήσῃς, πανταχῇ χρηστός γʼ ἔσει.
 --- apparatus
-1358	ἔμπληκτοι] ἔκπληκτοι Ien., and so Ald.—βροτῶν L (with οἶσ written above by a late hand), Pal., T, etc., and Ald.: βροτοῖς A, with D, Harl., and several others.—Wecklein conj. τρόπων (as a gen. of relation, ‘in their character’).
+1358	ἔμπληκτοι] ἔκπληκτοι Ien., and so Ald.—βροτῶν L (with οῖσ written above by a late hand), Pal., T, etc., and Ald.: βροτοῖς A, with D, Harl., and several others.—Wecklein conj. τρόπων (as a gen. of relation, ‘in their character’).
 1360	δῆτα] made in L from δὴ, by a later hand.—σὺ κτᾶσθαι] συγκτᾶσθαι Aug. c.—For δῆτα σὺ κτᾶσθαι Nauck conj. δὴ σὺ καὶ κτήσῃ (κτήσει).
 1362	δειλοὺς] L has ει in an erasure (from ι).—τῇδε θἡμέρᾳ] τῆιδέ θʼ ἡμέρᾳ L (the ι subscript from a late hand). Cp. 756.—τῇδʼ ἐν ἡμέρᾳ Erfurdt.—φανεῖσ made in L by a late hand from φανείσ.—G. Wolff writes φανεῖς; (interrogative.)
 1366-1369	These four verses are suspected by Morstadt.
@@ -35,6 +35,7 @@
 1369	ποήσῃς] πο ήσησ L (made from ποιήσεισ).—πανταχῇ] πανταχῆι L, etc.: πανταχοῦ A, etc., and Ald.—χρηστός γʼ ἔσει] In L the 1st hand wrote χρηστὸσ ἔσηι: an early hand (perhaps S) has inserted γʼ, but without altering the accent on ὸσ, which is, indeed, a mere dot. (Γ, Harl., and others also omit γʼ.)—F. W. Schmidt conj. ὃς ἂν ποιήσῃ (not -ῃς), πανταχῇ χάρις γε σή: Wecklein (Ars p. 29), ὃς ἂν ποιήσῃ, πανταχῇ χρηστὸς σύ γʼ εἶ.
 --- notes
 1366	αὑτῷ: the print has the rough breathing (OCR αὐτῷ wrong); every verse read against the page, no change.
+1358	rev: apparatus 1358: L's superscript ending is printed οῖσ, circumflex without breathing (the draft had οἶσ).
 1369	apparatus: "πο ήσησ L" copied with the gap as printed (an erasure in L); "(not -ῃς)," read as a comma (a speck above it).
 
 === p-0288
