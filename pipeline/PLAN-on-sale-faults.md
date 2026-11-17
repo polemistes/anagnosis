@@ -144,6 +144,27 @@ text or a reference work. Stated in `texts/README.md`, "Short definitions". Log:
   "to make to go, carry, convey" (45 words, all middle: "go").
 * `check` no longer prints "add them to shortdefs.tsv" nor lists the lemmas: it counts them.
 
+## Fourth round, 2026-11-17: a word takes only its own short definition
+
+* Logeion's list was matched too freely: a capitalised lemma the list lacks took the lower-case
+  word's entry (Φείδων "an oil-can", Σαῦλος "swaggering", Κίς "a worm in wood"), a lower-case
+  lemma took a name's (θούριος, Ajax's "impetuous", shown as "of Thurii"; ἱρός "Irus"), and a
+  lemma found by its letters alone took whatever stood there (καλῶς, 36 words of the New
+  Testament, "a reefing rope"; ἴδε "and"; οἷον "Oeum"). Now `build.resolve_short_definition`
+  takes the word's own entry only (texts/README.md, "Short definitions"; tests in
+  `tests/test_shortdefs.py`). Lemma by lemma: `build/logs/shortdef-rule-measure.md`. About 240
+  lemmas in the ten texts offered lose a definition (wrong ones, and right ones no rule can
+  tell from them: Ἔρως "love", σάββατον); ποτέ, πού, πώς gain theirs.
+* Rebuilt with it: the New Testament, the Odyssey, the Symposium, the Gorgias, the Theogony,
+  Lysias, the Shepherd. The Antigone, the Ajax and the Electra get it with their re-read text.
+* The Shepherd: the alias καμπανός → κάμπανος (LSJ's "steelyard", for the Campanian Way) is
+  gone, also from `lake_merge.write_aliases`.
+* Open, for the author (private/QUESTIONS.md 4 i, j): short definitions borrowed through an
+  alias (πορεύομαι shows πορεύω's "to make to go"); the right definitions the rule drops.
+* Seen on the way, not done: lemmas of the Odyssey's trees that are misspelt and therefore find
+  no entry (π͂ας, οβριμοπάτρη, παρήμαι, ἀλεόμαι, εὐρυσθενης, ἀμετρητος, οἶκόνδε, ἀγυιά, πυέλος,
+  σιάλος: fix the lemma in `odyssey.py`); in Lysias the lemmas δὲ, καὶ, μὴ with a grave.
+
 ## What `check` still says of the texts on sale and the free texts (2026-11-17)
 
 * Lemmas without a short definition (counted, no fault): Antigone 38, Ajax 39, Electra 27, the
