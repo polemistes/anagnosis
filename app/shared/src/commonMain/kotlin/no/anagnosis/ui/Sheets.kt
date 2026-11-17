@@ -1,6 +1,8 @@
 package no.anagnosis.ui
 
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
@@ -44,6 +46,7 @@ import no.anagnosis.data.NoteKind
 import no.anagnosis.data.kind
 import no.anagnosis.data.Dictionaries
 import no.anagnosis.data.WordInfo
+import no.anagnosis.data.SyntaxText
 import kotlinx.coroutines.launch
 import no.anagnosis.db.Documents
 import no.anagnosis.greek.Phonology
@@ -73,6 +76,8 @@ fun WordSheet(
     info: WordInfo,
     onDismiss: () -> Unit,
     onSyntax: (() -> Unit)? = null,
+    /** In a text with syntax, a word whose sentence has none: said where the Syntax button would be. */
+    noSyntax: Boolean = false,
     notes: List<Pair<String, () -> Unit>> = emptyList(),
     showFunction: Boolean = true,
     order: List<String> = emptyList(),
@@ -120,10 +125,6 @@ fun WordSheet(
                     // capitalised where it begins with an English word, not where it begins with the Greek words of a unit
                     Text(it.replaceFirstChar { c -> if (c in 'a'..'z') c.uppercase() else c.toString() }, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
                 }
-                // where the trees were made on another text and it differs at this word
-                info.syntaxNote?.takeIf { showFunction }?.let {
-                    Text(it, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.secondary)
-                }
                 pronunciation?.let { p ->
                     val ipa = remember(info, p) { Phonology.ipa(info.form, info.marked, p) }
                     if (ipa.isNotEmpty()) {
@@ -136,7 +137,7 @@ fun WordSheet(
                     glossary.isNotEmpty() -> glossary.forEach { HtmlText(it.html, onGreekWord = onGreekWord) }
                     info.entries.isEmpty() -> Text("No dictionary entry found.", style = MaterialTheme.typography.bodyMedium)
                 }
-                if (buttons.isNotEmpty() || onSyntax != null || notes.isNotEmpty() || onOccurrences != null) {
+                if (buttons.isNotEmpty() || onSyntax != null || noSyntax || notes.isNotEmpty() || onOccurrences != null) {
                     Spacer(Modifier.height(16.dp))
                     FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                         for ((slug, label) in buttons) {
@@ -149,6 +150,10 @@ fun WordSheet(
                         }
                         if (onSyntax != null) {
                             OutlinedButton(onClick = onSyntax) { Text("Syntax") }
+                        } else if (noSyntax) {
+                            Box(Modifier.heightIn(min = 40.dp), contentAlignment = Alignment.Center) {
+                                Text(SyntaxText.NO_SYNTAX, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                            }
                         }
                         if (onOccurrences != null) {
                             OutlinedButton(onClick = onOccurrences) { Text("Occurrences") }

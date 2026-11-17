@@ -453,6 +453,12 @@ fun ReaderScreen(
     var showMenu by remember { mutableStateOf(false) }
     // The sentence whose syntax sheet is open, by treebank sentence id.
     var syntaxSentence by remember { mutableStateOf<String?>(null) }
+    // a long press (or the screen reader's action) opens the sentence's tree; in a text with syntax,
+    // a word in a sentence without it says so briefly
+    val shortNotice = rememberShortNotice()
+    val openSyntax: (Tokens) -> Unit = { t ->
+        if (t.sentence != null) syntaxSentence = t.sentence else if (data.hasSyntax) shortNotice(SyntaxText.NO_SYNTAX)
+    }
     val selectedToken = remember(selectedTokenId, data) {
         selectedTokenId?.let { id -> data.tokensByLine.values.asSequence().flatten().firstOrNull { it.id == id } }
     }
@@ -473,7 +479,7 @@ fun ReaderScreen(
             when (action) {
                 WordAction.READ_SENTENCE -> sentenceOfToken[t.id]?.let { readAloud?.start(it) }
                 WordAction.READ_FROM_HERE -> readFrom(t)
-                WordAction.SYNTAX -> syntaxSentence = t.sentence
+                WordAction.SYNTAX -> openSyntax(t)
                 WordAction.NOTE -> {
                     val a = Notes.anchorOf(data, t)
                     val line = data.lineById.getValue(t.line_id)
@@ -954,7 +960,7 @@ fun ReaderScreen(
                                         page, styles, data, numberColumn, forcedColumn,
                                         spans = shownSpans,
                                         onWord = { if (choosingRead) pickReadStart(it) else if (selecting) pickWord(it) else if (bookmarking) pickSentence(it) else selectedTokenId = it },
-                                        onSentence = { token -> if (!selecting && !bookmarking && !choosingRead) syntaxSentence = token.sentence },
+                                        onSentence = { token -> if (!selecting && !bookmarking && !choosingRead) openSyntax(token) },
                                         showMarks = settings.lineNumbers != LineNumberMode.NONE,
                                         highlight = greekHighlight,
                                     )
@@ -1001,12 +1007,9 @@ fun ReaderScreen(
     syntaxSentence?.let { sentence ->
         val tree = remember(sentence, data) { repository.sentenceTree(data, sentence) }
         val label = remember(tree, data) { sentenceLabel(tree, data) }
-        // printed words of the sentence that the trees' text lacks: not in the tree, named at its head
-        val notInTree = remember(sentence, data) { SyntaxText.absentForms(repository.sentenceTokens(data, sentence), data.syntaxTextByToken) }
         Box(Modifier.fillMaxSize()) {
             SyntaxScreen(tree, label, family, onWord = { selectedTokenId = it }, onBack = { syntaxSentence = null }, automatic = data.automaticSyntaxOfSentence(sentence),
-                textNotice = data.syntaxText?.let(SyntaxText::notice),
-                notInTree = notInTree)
+                textNotice = data.syntaxText?.let(SyntaxText::notice))
         }
         PlatformBackHandler { syntaxSentence = null }
     }
@@ -1045,6 +1048,7 @@ fun ReaderScreen(
             info,
             onDismiss = { selectedTokenId = null },
             onSyntax = if (sentence == null) null else { { syntaxSentence = sentence; selectedTokenId = null } },
+            noSyntax = sentence == null && data.hasSyntax,
             notes = wordNotes.map { pn ->
                 val label = if (wordNotes.size == 1) "Note" else "Note, ${Notes.rangeLabel(data, pn.note.from, pn.note.to).replaceFirstChar { it.lowercase() }}"
                 label to { selectedTokenId = null; editing = pn }

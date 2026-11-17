@@ -90,7 +90,7 @@ class WorkData(
     val commentaryStarts: List<Long> = emptyList(),
     /** The text the syntax trees were made on, where it is not the one printed (meta syntax_text), else null. */
     val syntaxText: String? = null,
-    /** How the trees' text differs, by token (unit, reading, absent) and by tree node (unprinted): [SyntaxText]. */
+    /** How the trees' text differs, by token (unit, reading, absent) and by tree node (reading, unprinted): [Syntax.asTreesText]. */
     val syntaxTextByToken: Map<Long, SyntaxTextWord> = emptyMap(),
     val syntaxTextByNode: Map<Pair<String, Int>, SyntaxTextWord> = emptyMap(),
     /** The note sets that are notes to the translation, not a commentary on the Greek (meta `translation_notes`), by id. */
@@ -132,6 +132,9 @@ class WorkData(
      */
     fun translationFor(firstN: Long, lastN: Long): TranslationData? =
         translations.firstOrNull { t -> t.segments.any { it.from_n_int in firstN..lastN } } ?: translations.firstOrNull()
+
+    /** Whether the text has syntax at all: any word in a sentence of a tree. */
+    val hasSyntax: Boolean by lazy { tokensByLine.values.any { line -> line.any { it.sentence != null } } }
 
     /** Whether the syntax of the line [nInt] was made by a parser: per book where the text says so ([syntaxByBook]). */
     fun automaticSyntaxAt(nInt: Long): Boolean =
@@ -275,8 +278,6 @@ class WordInfo(
     /** Which of the homographs listed in [shortDefinition] ("1. …\n2. …") this word is, when the
      * text's annotation tells (1-based); null when it does not. */
     val homograph: Int? = null,
-    /** Where the trees were made on another text and it differs at this word: what to say by the syntax ([SyntaxText.wordRemark]). */
-    val syntaxNote: String? = null,
 )
 
 /** A lemma as the tokens store it may end in its homograph's number (μήν2): the lemma without it, and the number. */

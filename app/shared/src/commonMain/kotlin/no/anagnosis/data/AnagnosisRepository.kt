@@ -198,14 +198,13 @@ class AnagnosisRepository(
         val glossary = q.selectGlossaryByKey(token.lemma_key).executeAsList()
             .map { Entry(it.lexicon_slug, it.lexicon_title, it.headword, it.homograph, it.html) }
         val short = q.selectShortDefinition(token.lemma_key).executeAsOneOrNull()?.definition
-        // where the trees' text reads otherwise, the role is that of the trees' word, said as such
-        val textRow = data.syntaxTextByToken[token.id]
-        val syntax = token.sentence?.let { Syntax.roleLine(sentenceTree(data, it), token) }
-            ?.let { if (textRow != null && SyntaxText.isReading(textRow, token.form)) SyntaxText.readingRole(textRow, it) else it }
+        // where the trees were made on another text, a role only where our word is the trees' own word
+        val syntax = token.sentence?.takeIf { SyntaxText.showsRole(data.syntaxTextByToken[token.id], token.form) }
+            ?.let { Syntax.roleLine(sentenceTree(data, it), token) }
             ?.let { if (data.automaticSyntaxAt(data.lineById[token.line_id]?.n_int ?: 0L)) "$it (automatic)" else it }
         val (lemma, homograph) = splitHomograph(token.lemma)
         return WordInfo(token.form, lemma, Morphology.describe(token.postag), short, glossary + rows, syntax, markedForm(token), homograph,
-            syntaxNote = SyntaxText.wordRemark(textRow))
+        )
     }
 
     /** The token's form with the long vowels its spelling does not show marked, or null (see [VowelLength]). */
@@ -223,10 +222,8 @@ class AnagnosisRepository(
 
     /** The dependency tree of a sentence, from its tokens and the treebank's extra nodes. */
     fun sentenceTree(data: WorkData, sentence: String): SyntaxTree =
-        sentenceTokens(data, sentence).let { tokens ->
-            Syntax.marked(Syntax.build(sentence, tokens, data.nodesBySentence[sentence] ?: emptyList()), tokens,
-                data.syntaxTextByToken, data.syntaxTextByNode)
-        }
+        Syntax.asTreesText(Syntax.build(sentence, sentenceTokens(data, sentence), data.nodesBySentence[sentence] ?: emptyList()),
+            data.syntaxTextByToken, data.syntaxTextByNode)
 
     /**
      * Notes of the given kind for a page: every note that starts on the page (or on a skipped
