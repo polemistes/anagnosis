@@ -360,6 +360,12 @@ def merge(transcriptions: Path, pages_dir: Path, texts: Path, sources: Path, lex
     n_heads = import_bury_introduction(sources / "symposium-bury-commentary.xml", out / "introduction.md")
     print(f"wrote {out / 'introduction.md'}: {n_heads} headings")
 
+    # the record of the text the trees were made on (syntax_text.py): from the files just written
+    # (nothing for a text whose trees were made on the very text printed)
+    from . import syntax_text
+
+    problems += syntax_text.after_merge("symposium", texts, sources, lexicon)
+
     log = build / "symposium-merge.log"
     log.write_text("\n".join(problems) + "\n", encoding="utf-8")
     print(f"{len(problems)} problems ({log}); review list in {build / 'symposium-review.tsv'}")

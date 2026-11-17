@@ -633,7 +633,7 @@ def record_from_files(work_dir: Path, tb: list[dict], name: str, write: bool = T
             if j in settled:
                 continue
             for k in local:
-                if k in free_set and k not in paired and _two_forms(rows[j]["form"], _greek(words[k]["form"])):
+                if k in free_set and k not in paired and not words[k]["form"].endswith("-") and _two_forms(rows[j]["form"], _greek(words[k]["form"])):
                     w = words[k]
                     paired.add(k)
                     link(j, w, node=False)
@@ -680,6 +680,10 @@ def record_from_files(work_dir: Path, tb: list[dict], name: str, write: bool = T
                 for m, x in enumerate(range(a, i)):
                     link(x, words[run[at + m]], node=True)
                 break
+
+    # GLAUx writes a crasis as a mark and the whole word ("τα-", "ταὐτόν"): the mark is its device,
+    # no word of the trees' text, and so no unprinted word
+    accounted.update((w["sentence"], w["word_id"]) for w in words if w["form"].endswith("-") and (w["sentence"], w["word_id"]) not in used)
 
     # 4. what is left: the sentence it stands in, in a book that has trees
     for i, r in enumerate(rows):
@@ -780,12 +784,24 @@ def _odyssey_trees(sources: Path) -> list[dict]:
     return read_treebank(sources / TREEBANK)
 
 
+def _glaux_trees(module: str):
+    """GLAUx's trees of a text whose merge names its file (symposium_merge.GLAUX, gorgias_merge.GLAUX)."""
+    def load(sources: Path) -> list[dict]:
+        import importlib
+
+        from .symposium_merge import read_glaux
+
+        return read_glaux(sources / importlib.import_module(f"anagnosis_pipeline.{module}").GLAUX)
+    return load
+
+
 # The texts whose record is made from their files (record_from_files): how their trees are read
 # and what the trees' text is called. A text is added here only when its trees' text has been
 # confirmed from its sources (the plan of each text says how).
 FROM_FILES: dict[str, tuple] = {
     "lysias": (_lysias_trees, "the Perseus Digital Library's text of the speeches (W. R. M. Lamb's Loeb edition, 1930)"),
     "odyssey": (_odyssey_trees, "the Perseus Digital Library's text of the poem (A. T. Murray's Loeb edition, 1919)"),
+    "gorgias": (_glaux_trees("gorgias_merge"), "the Perseus Digital Library's text of this edition, without the words Burnet brackets"),
     "hermas": (_play_trees("hermas"), "the First1KGreek project's digital text of this edition, which misprints six words"),
 }
 

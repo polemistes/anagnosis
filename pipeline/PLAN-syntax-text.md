@@ -189,14 +189,55 @@ step too, and run into a scratch folder it gives the same tokens.tsv, syntax-nod
 syntax-text.tsv as the step alone; whoever runs it on the text must keep those three hand-made
 things.
 
+### The Gorgias (on sale) — done 2026-11-17, version `20a3f7613229dcbc`
+
+**The trees' text: the Perseus Digital Library's text of this same edition (Burnet), without
+the words Burnet brackets as not Plato's.** Established so: Perseus's file names Burnet's
+Platonis Opera III (1903) as its source and marks the bracketed words as deletions (`<del>`);
+GLAUx's words (`glaux/0059-023.xml`) are that text word for word without the deleted words
+(26,443 tree words; the only tree words not in Perseus's text at their place are the 196 pairs
+GLAUx writes in two), and our text is Perseus's word for word with them. No word is read
+otherwise.
+
+| kind | rows | |
+|---|---|---|
+| unit | 196 | the words GLAUx writes in two (οὔτε, οὐδέ, μήτε, εἴτε, ἐάντε); the merge had joined them |
+| reading | 0 | |
+| absent | 32 | Burnet's bracketed words in 17 places (451b4 [γνῶσις], 470a9 [τὸ μέγα δύνασθαι], …), each with its sentence |
+| unprinted | 0 | GLAUx's crasis marks ("τα-" before ταὐτόν) are its device, no words of the text |
+
+**16 of 2,113 sentences really differ** (those with bracketed words; no classification is
+needed). Compared with the installed database: `tokens` (the 32 words: a sentence each),
+`meta` (two keys), `syntax_text_words` (new, 228 rows). Nothing else.
+
+**What else would have changed, and how it was avoided.** The Gorgias's merge run again (into
+a scratch folder) gives the same tokens, but six lines of Lodge's commentary come out otherwise
+(`αυ[?]τό` where the text file now has `αυ<*>τό`: later corrections that the merge does not
+make). So the merge was not run on the text; the step alone was. The merge now ends with the
+step and gives the same tokens.tsv and syntax-text.tsv.
+
+### The Symposium (on sale) — no record; nothing changed, version as it was
+
+**The trees were made on the very text printed.** Established so: Perseus's file names Burnet's
+Platonis Opera II as its source and has no deleted words; GLAUx's words (`glaux/0059-011.xml`)
+are our text word for word (17,495 tree words against our 17,348: the difference is the 147
+words GLAUx writes in two, which the merge had joined). The dry run of the step finds no
+reading, no absent word and no unprinted word. So there is no `syntax-text.tsv`, no
+`syntax_text` key and no sentence in the description, and the Symposium is not entered in
+`FROM_FILES`.
+
+(The Symposium's merge run again into a scratch folder would change other things: the relation
+and head of 66 joined words, three lines of Bury's commentary and three of the introduction.
+It was not run on the text. Its end calls the step, which does nothing for a text not entered.)
+
 ## Progress
 
 - [x] The step, its command, tests (`tests/test_syntax_text_files.py`), the checking pass's module
 - [x] Lysias
 - [x] The Shepherd of Hermas
 - [x] The Odyssey
-- [ ] The Gorgias
-- [ ] The Symposium
+- [x] The Gorgias
+- [x] The Symposium (no record: the trees were made on the text printed)
 - [ ] Antigone, Ajax, Electra
 - [ ] The New Testament
 - [ ] The checking pass prepared (job files, control, brief, workflow); run by the main session
