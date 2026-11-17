@@ -116,6 +116,20 @@ draft (751 distinct numbers; Perseus's file 783, 716 in both); as a rough measur
 antigone` keeps Perseus's commentary until every batch is checked (tested). Next: the first
 check of the 29 batches, then the second reading (the coordinator's agents). Ajax and Electra follow by the same steps:
 
+**Antigone switched over (2026-11-17)**: first check 9c56dc3, second reading aacade3 (58
+corrections), merge be034e2 and after, version 42a75b92bcf65b4d. 799 notes (Perseus's file had 807:
+it split notes Jebb prints as one, 46 in "45 f.", 196 in "195 f.", 210, 242, 949/950, 956, 1030,
+and the range notes 661-671 and 1080-1083, and folded his 712 into 710 f.); 38 re-filed with
+"[124 ff.]"; f./ff. on 268 headings, 189 from the scan's OCR text and 79 from our own OCR of the
+pages (`ffmarks.apply_hocr_marks`: an indented line beginning with the number and f./ff.; a few
+remain without, e.g. 559 f.). Twenty notes read against the page by the merger: word for word as
+printed. Four pages that begin with a new paragraph of the note before (p-0104, 0180, 0183, 0192)
+noted; the checker allows them when the notes say so. Fallen away: COMMENTARY_FIXES["antigone"],
+LATIN_ITALICS for it, jebb_authors (not reached), Perseus's 65 links. about.md, the header and
+texts/README.md say where it comes from. Only `commentaries` (1 row) and `commentary_notes`
+changed in the database. Not yet said truly in texts/README.md: the Greek text's line still names
+Perseus's file (the text is Jebb's page since 31b4c85), and the translation line.
+
 **Ajax and Electra (2026-11-17), set up and drafted** (notes_leaves in drama.PLAYS, both in
 COMMENTARY_FROM_PAGE, the brief's subsection "The Ajax's and the Electra's commentaries"; Perseus's
 commentary stays until every notes batch is checked, tested). Ajax: 202 pages (leaves 94-295) in 26
