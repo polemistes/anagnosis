@@ -306,6 +306,9 @@ def write_aliases(out: Path, sources: Path, build: Path, problems: list[str]) ->
     every = {e.headword for entries in lexica.values() for e in entries}
     abbott = {greek.lemma_key(e.headword): e.headword for e in lexica.get("abbott-smith", [])}
     aliases, missing = resolve_lemmas(sorted(counts), every)
+    # found by its letters alone, but another word: καμπανός (Vis. 4.1.2, the Campanian Way) is
+    # not LSJ's κάμπανος, a steelyard. No dictionary has it
+    aliases.pop("καμπανός", None)
     koine = 0
     for lemma in sorted(counts):
         key = greek.lemma_key(lemma)

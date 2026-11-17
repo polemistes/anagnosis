@@ -185,8 +185,23 @@ entry.
 
 The one-line gloss shown first on the word sheet is the short-form dictionary's own: Logeion's
 short definitions (Helma Dik, University of Chicago; based on the Perseus short definitions,
-https://github.com/helmadik/shortdefs), found by the lemma (a name under its capitalised form
-first; an aliased lemma under its headword).
+https://github.com/helmadik/shortdefs), and only the entry of the word itself
+(`build.resolve_short_definition`):
+
+* the entry spelt as the lemma is, capital or small letter included. A name the list lacks does
+  not take a common word's entry (Φείδων is not φείδων, "an oil-can"), nor a common word a
+  name's (θούριος, "impetuous", is not Θούριος, "of Thurii");
+* else the one entry that is the same word otherwise written: with or without the diaeresis or
+  the iota subscript (ἄιδρις ἄϊδρις, θνήσκω θνῄσκω, εὐπλόκαμος ἐϋπλόκαμος), or an enclitic with
+  and without its accent (ποτέ ποτε). An accent in another place or of another kind, or another
+  breathing, can be another word and is not matched (καλῶς is not κάλως, "a reefing rope");
+* a lemma written small by its treebank (ζεύς in the Sophocles trees) takes the name's entry
+  where the text prints every one of its words with a capital;
+* a lemma with none of its own that `aliases.tsv` files under a headword takes that headword's
+  entry, a name a name's and a common word a common word's.
+
+What these rules changed in the texts offered, lemma by lemma, is in
+`pipeline/build/logs/shortdef-rule-measure.md` (not in the repository).
 
 **No definition is written by us** (the author's rule, 2026-11-17: "If the short form dictionary
 does not have it, we just don't offer it"). Where Logeion's list lacks a word, the word sheet

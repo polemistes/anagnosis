@@ -607,13 +607,17 @@ def read_shortdef_overrides(path: Path) -> dict[str, str]:
 
 
 def load_logeion_shortdefs(sources: Path) -> tuple[dict[str, str], dict[str, list[str]]]:
-    """Logeion short definitions: exact key -> definition, and loose key -> [exact keys].
+    """Logeion short definitions: key -> definition, and loose key -> the entries' own spellings.
 
     Logeion lists a name and a common word that differ only in case as two entries (Ὅμηρος
     "Homer", ὅμηρος "hostage"; Ὕλη "Hyle, a town in Boeotia", ὕλη "wood"). The lower-case key
     takes the lower-case word's definition, whichever comes first in the list; a name's own
-    definition is kept under its capitalised form (a key no lower-case key can equal), which
-    resolve_short_definition tries first for a capitalised lemma."""
+    definition is kept under its capitalised form (a key no lower-case key can equal). Where
+    the list has only the name, the lower-case key has the name's definition too (for the
+    dictionary search, which knows headwords by their lower-case key).
+
+    The second map lists, under the letters alone, every entry as Logeion spells it (case and
+    marks kept): resolve_short_definition reads there whether a word is listed, and how."""
     exact: dict[str, str] = {}
     loose: dict[str, list[str]] = {}
     path = sources / "logeion-shortdefs.txt"
@@ -628,6 +632,9 @@ def load_logeion_shortdefs(sources: Path) -> tuple[dict[str, str], dict[str, lis
             continue
         key = greek.lemma_key(lemma)
         cased = _cased_key(lemma)
+        spellings = loose.setdefault(greek.strip_diacritics(cased), [])
+        if cased not in spellings:
+            spellings.append(cased)
         if cased != key and cased not in exact:
             exact[cased] = definition
         if key in exact and (key in from_lower or cased != key):
@@ -635,9 +642,6 @@ def load_logeion_shortdefs(sources: Path) -> tuple[dict[str, str], dict[str, lis
         exact[key] = definition
         if cased == key:
             from_lower.add(key)
-        keys = loose.setdefault(greek.strip_diacritics(lemma), [])
-        if key not in keys:
-            keys.append(key)
     return exact, loose
 
 
@@ -646,17 +650,97 @@ def _cased_key(lemma: str) -> str:
     return re.sub(r"\d+$", "", greek.nfc(lemma).strip())
 
 
-def resolve_short_definition(lemma: str, exact: dict[str, str], loose: dict[str, list[str]]) -> str | None:
+_ACCENTS = {"\u0301", "\u0342"}
+_VOWELS = set("αεηιουω")
+
+
+def _same_word_otherwise_written(a: str, b: str) -> bool:
+    """Two spellings that are one word written by two conventions: with or without the
+    diaeresis (ἄιδρις, ἄϊδρις; ἐϋπλόκαμος, εὐπλόκαμος), with or without the iota subscript
+    (θνήσκω, θνῄσκω), a grave for an acute, or an enclitic written with and without its accent
+    (πέρ, περ; ποτέ, ποτε). Nothing else: an accent in another place or of another kind, or
+    another breathing, can be another word (καλῶς and κάλως "a reefing rope", οἷον and Οἶον
+    "Oeum", ἡμός and ἦμος; nor ὅ and the article ὁ, which is no enclitic)."""
+    def norm(s: str, eu: bool = False) -> str:
+        s = greek.nfd(s)
+        if eu:
+            s = s.replace("ε\u0313υ\u0308", "ευ\u0313")  # ἐϋ- is εὐ-
+        return "".join("\u0301" if c == "\u0300" else c for c in s if c not in ("\u0308", "\u0345"))
+
+    def bare(s: str) -> str:
+        return "".join(c for c in s if c not in _ACCENTS)
+
+    na, nb = norm(a), norm(b)
+    if na == nb or norm(a, True) == norm(b, True):
+        return True
+    if bare(na) != bare(nb):
+        return False
+    unaccented = na if bare(na) == na else nb if bare(nb) == nb else None
+    return unaccented is not None and unaccented[:1].lower() not in _VOWELS
+
+
+def resolve_short_definition(lemma: str, exact: dict[str, str], loose: dict[str, list[str]],
+                             capital_in_text: bool = False) -> str | None:
+    """Logeion's short definition of the lemma, or None. Only the word itself is taken:
+
+    * the entry spelt as the lemma is, capital or small letter included (Ὅμηρος is Homer, not
+      ὅμηρος, a hostage; and a name Logeion lacks does not take a common word's definition:
+      Φείδων is not "an oil-can");
+    * else the one entry of the same case that is the same word otherwise written
+      (_same_word_otherwise_written);
+    * a lemma in small letters that is no common word of the list takes a name's entry only
+      where the text prints every one of its words with a capital (capital_in_text: some
+      treebanks write the lemmas of names small, ζεύς); so θούριος "impetuous" does not
+      become "of Thurii".
+
+    No other match is made: where these fail the word has no short definition, and the reader
+    looks in a dictionary (texts/README.md, "Short definitions")."""
     cased = _cased_key(lemma)
-    if cased != greek.lemma_key(lemma) and cased in exact:
-        return exact[cased]  # a name: Ὅμηρος is Homer, not ὅμηρος, a hostage
-    key = greek.lemma_key(lemma)
-    if key in exact:
-        return exact[key]
-    candidates = loose.get(greek.strip_diacritics(lemma), [])
-    if len(candidates) == 1:
-        return exact[candidates[0]]
+    spellings = loose.get(greek.strip_diacritics(cased), [])
+    names = [s for s in spellings if s != s.lower()]
+    common = [s for s in spellings if s == s.lower()]
+
+    def among(candidates: list[str], spelt=lambda s: s) -> str | None:
+        same = [c for c in candidates if spelt(c) == cased]
+        if same:
+            return same[0]
+        fitting = [c for c in candidates if _same_word_otherwise_written(cased, spelt(c))]
+        return fitting[0] if len(fitting) == 1 else None
+
+    if cased != cased.lower():
+        found = among(names)
+    else:
+        found = among(common)
+        if found is None and capital_in_text:
+            found = among(names, str.lower)
+    return exact[found] if found is not None else None
+
+
+def alias_short_definition(lemma: str, headword_key: str, exact: dict[str, str], loose: dict[str, list[str]]) -> str | None:
+    """The short definition of the headword a lemma is listed under (aliases.tsv), where the
+    lemma has none of its own: a name takes a name's entry, a common word a common word's
+    (Κώς, listed under κῶς, is the island Κῶς, not κῶς "a public prison")."""
+    capital = _cased_key(lemma) != _cased_key(lemma).lower()
+    for spelling in loose.get(greek.strip_diacritics(headword_key), []):
+        if spelling.lower() == headword_key and (spelling != spelling.lower()) == capital:
+            return exact[spelling]
     return None
+
+
+def capitalised_lemmas(rows) -> set[str]:
+    """The lemma keys whose words the text prints with a capital, every one of them (in prose a
+    sentence begins with a capital, so one capital says nothing: Δῆλον δή)."""
+    total: dict[str, int] = {}
+    capital: dict[str, int] = {}
+    for form, lemma in rows:
+        if not lemma:
+            continue
+        key = greek.lemma_key(lemma)
+        total[key] = total.get(key, 0) + 1
+        first = next((c for c in greek.nfc(form) if c.isalpha()), "")
+        if first and first != first.lower():
+            capital[key] = capital.get(key, 0) + 1
+    return {k for k, n in capital.items() if n == total[k]}
 
 
 def read_aliases(path: Path) -> dict[str, str]:
@@ -746,6 +830,7 @@ def build_short_definitions(db: sqlite3.Connection, sources: Path, lemmas: dict[
                             aliases: dict[str, str] | None = None, homographs: Homographs | None = None) -> None:
     exact, loose = load_logeion_shortdefs(sources)
     aliases = aliases or {}
+    capitals = capitalised_lemmas(db.execute("SELECT form, lemma FROM tokens"))
     rows = []
     missing = []
     for key, lemma in sorted(lemmas.items()):
@@ -756,9 +841,9 @@ def build_short_definitions(db: sqlite3.Connection, sources: Path, lemmas: dict[
         if listed:
             rows.append((key, "logeion", listed))
             continue
-        definition = resolve_short_definition(lemma, exact, loose)
+        definition = resolve_short_definition(lemma, exact, loose, key in capitals)
         if definition is None and key in aliases:
-            definition = overrides.get(aliases[key]) or exact.get(aliases[key])
+            definition = overrides.get(aliases[key]) or alias_short_definition(lemma, aliases[key], exact, loose)
         if definition is None:
             missing.append(lemma)
         else:
