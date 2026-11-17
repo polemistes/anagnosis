@@ -286,7 +286,7 @@ The quotation "ἄναξ, ἐρῶ μὲν οὐχ ὅπως σπουδῆς ὕ
 ## 234
 **σοί** with **μολεῖν**. In Attic prose a dat. of the person after ἔρχομαι is freq., and oft. can be rendered (as here) only by ‘*to*,’ though it is properly rather a dat. of interest. Thus Thuc. 1. 13 Ἀμεινοκλῆς Σαμίοις ἦλθε=‘A. came to the Samians,’ though the primary notion is, ‘the Samians enjoyed the advantage of A.’s coming’ (to build triremes for them). So id. 1. 27 ὡς αὐτοῖς...ἦλθον ἄγγελοι: Plat. *Prot.* 321 C ἀποροῦντι δὲ αὐτῷ ἔρχεται Προμηθεύς. In poetry this dat. is freely used after verbs of motion, but the idea of interest is always traceable; cp. 186 n. Aesch. *P. V.* 358 ἀλλ’ ἦλθεν αὐτῷ Ζηνὸς ἄγρυπνον βέλος. So here, μολεῖν σοί is not strictly a mere equiv. for μολεῖν πρὸς σέ, but implies Creon’s interest in the news. The notion is, ‘to come and place myself at your disposal.’ For the emphatic place of **σοί**, cp. 273 (and 46 n.): for the pause after the first syllable of the verse, 250, 464.
 
-**κεἲ**, ‘*and* if’: not, ‘*even* if.’ If καί were taken as=‘*even*,’ there would be a very harsh asyndeton, whether the stop were at σοί, or (as Nauck places it) after μολεῖν. It is true that καί could mean ‘*even*,’ without causing an asyndeton, if we adopted Wecklein’s tempting **φράσων** for **φράσω δ’**: but the latter is confirmed by *O. T.* 302 εἰ καὶ μὴ βλέπεις, φρονεῖς δ’ ὅμως (where see n.),—δέ introducing the apodosis after a concessive protasis. For **κεἲ** as=‘*and* if,’ cp. *Ai.* 447, 1057. The transposition **κεἴ σοι** is improbable, as destroying the significant emphasis and pause on **σοί**.
+**κεἰ**, ‘*and* if’: not, ‘*even* if.’ If καί were taken as=‘*even*,’ there would be a very harsh asyndeton, whether the stop were at σοί, or (as Nauck places it) after μολεῖν. It is true that καί could mean ‘*even*,’ without causing an asyndeton, if we adopted Wecklein’s tempting **φράσων** for **φράσω δ’**: but the latter is confirmed by *O. T.* 302 εἰ καὶ μὴ βλέπεις, φρονεῖς δ’ ὅμως (where see n.),—δέ introducing the apodosis after a concessive protasis. For **κεἰ** as=‘*and* if,’ cp. *Ai.* 447, 1057. The transposition **κεἴ σοι** is improbable, as destroying the significant emphasis and pause on **σοί**.
 
 **τὸ μηδέν**, what is as nought,—a tale of simple discomfiture: since he can only report the deed, without giving any clue to the doer. Cp. *Tr.* 1107 κἂν τὸ μηδὲν ὦ: *Ai.* 1275 ἤδη τὸ μηδὲν ὄντας ἐν τροπῇ δορός.
 
@@ -313,7 +313,7 @@ The quotation "ἄναξ, ἐρῶ μὲν οὐχ ὅπως σπουδῆς ὕ
 14 ἄγρυπνον [conf] → ok
 15 as [conf] → as=‘*even*,’
 16 ‘even,’ [conf] → ‘*even*,’
-17 kel [rare] → κεἲ
+17 kel [rare] → κεἰ
 18 as= [conf] → as=‘*and*
 19 ‘and [conf] → ‘*and*
 20 kel [rare] → κεἴ (**κεἴ σοι**)
@@ -329,7 +329,8 @@ The quotation "ἄναξ, ἐρῶ μὲν οὐχ ὅπως σπουδῆς ὕ
 30 1. [digit] → 1. (*Per.* 1. 1. 49)
 31 εἰς.--τὸ [conf] → etc.—τὸ
 --- notes
-"*Per.* 1. 1. 49" and "*Il.* 13. 393" were broken over a false paragraph in the draft: joined; "Eur. *Or.* 497" (the draft read 407), "*Ai.* 807", "*P. V.* 358" from the image. "=ὅτι οὐ" is plain type: joined to the lemma τὸ μὴ παθεῖν ἄν; it runs on to p-0123. κεἲ (grave) and κεἴ σοι (acute) as printed.
+"*Per.* 1. 1. 49" and "*Il.* 13. 393" were broken over a false paragraph in the draft: joined; "Eur. *Or.* 497" (the draft read 407), "*Ai.* 807", "*P. V.* 358" from the image. "=ὅτι οὐ" is plain type: joined to the lemma τὸ μὴ παθεῖν ἄν; it runs on to p-0123. κεἰ and κεἴ σοι (acute) as printed.
+rev: κεἲ → κεἰ (twice: the lemma and "For κεἰ as="): the print has the coronis only, no grave (κεἴ σοι has breathing and acute).
 
 === p-0123
 + πάθοιμι ἄν, depending on ἐλπίδος...δεδρ. as=ἐλπίζων: for the art. with infin., cp. 78 n.

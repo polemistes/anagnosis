@@ -18,7 +18,7 @@
 ## 447
 **ἤδησθα**, not **ἤδης τὰ**, is certainly right. This 2nd pers. occurs in seven places of drama, two of which require it (Eur. *El.* 926, *Cycl.* 108), while the other five admit it (this v., *Tr.* 988, Ar. *Nub.* 329, *Th.* 554, *Eccl.* 551). Similarly ἦσθα is either necessary or admissible whenever it occurs in Attic drama. Ar. *Lys.* 132 has ἔφησθα, and ἔφης nowhere: but the case for ἔφησθα as the *sole* classical form seems less strong than for ἤδησθα and ἦσθα. ἔφησθα is required in four Homeric passages (*Il.* 1. 397, 16. 830: *Od.* 3. 357, 23. 71), but ἔφης in one, *Il.* 22. 331 Ἕκτορ, ἀτάρ που ἔφης Πατροκλῆ’ ἐξεναρίζων, and in another it is traditional, 22. 280 ἤτοι ἔφης γε (where ἔφησθα is unlikely). The ending is **-σθα**, not -θα, σ being an integral part of it: Curtius compares Lat. *-sti* (dedi-sti), and Gothic *-st* (saisô-st, thou sowedst), *Gk Verb* pp. 34 ff. Besides οἶσθα, ἤδησθα, ἦσθα, and ἔφησθα, the forms which take σθα are the Hom. εἶσθα (‘thou wilt go’); the presents indic. διδοῖσθα (*Il.* 19. 270) and τίθησθα (*Od.* 9. 404, 24. 476); and a few subjunctives and optatives (as βάλῃσθα, βάλοισθα).
 
-**κηρυχθέντα**, the plur. partic. impersonal, as 570 ἡρμοσμένα, 576 δεδογμένα: a use more freq. with adjectives, as **ἀδύνατα, δίκαια** (cp. *O. C.* 485 n.), esp. verbals (below, 677).
+**κηρυχθέντα**, the plur. partic. impersonal, as 570 ἡρμοσμένα, 576 δεδογμένα: a use more freq. with adjectives, as ἀδύνατα, δίκαια (cp. *O. C.* 485 n.), esp. verbals (below, 677).
 --- flags
 1 δεδρ [greek] → ok
 2 [Π15 [digit] → this
@@ -58,7 +58,8 @@
 36 κηρνυχ [greek] (Greek model: -πτκηρυχ-) → κηρυχθέντα
 37 485n.), [digit] (Greek model: 4851:)β,) → 485 n.),
 --- notes
-442: the opening words φὴς δεδρακέναι … δεδρ. are in the ordinary (italic) Greek type, not bold: no lemma bold; καταρνεῖ and μή are bold inside the paragraph. Plat. Phaedr.: the print has αὐτοῦ (smooth breathing), kept. 444: the heading was "ξ. σὺ μέν" (444 f.). 447: the OCR had interleaved the last lines (διδοῖσθα … optatives): rewritten from the image; ἤδης τὰ, -σθα, ἀδύνατα, δίκαια bold as printed. Italics set throughout.
+442: the opening words φὴς δεδρακέναι … δεδρ. are in the ordinary (italic) Greek type, not bold: no lemma bold; καταρνεῖ and μή are bold inside the paragraph. Plat. Phaedr.: the print has αὐτοῦ (smooth breathing), kept. 444: the heading was "ξ. σὺ μέν" (444 f.). 447: the OCR had interleaved the last lines (διδοῖσθα … optatives): rewritten from the image; ἤδης τὰ, -σθα bold as printed. Italics set throughout.
+447	rev: ἀδύνατα, δίκαια are in the ordinary (italic) Greek type, not the bold: bold taken away
 
 === p-0157
 ## 448
@@ -75,7 +76,7 @@
 **Ζεύς** is opposed to Creon’s edicts, not only as supreme god and therefore guardian of all religious duty, but also in each of his two special qualities,—as χθόνιος (*O. C.* 1606 n.),—and as οὐράνιος, since the denial of burial pollutes the realm of οἱ ἄνω θεοί (1072).
 
 ## 451
-**τῶν κάτω θεῶν**. For this rare gen. (instead of the regular dat.) with **ξύνοικος**, cp. Lycurgus *In Leocr.* § 145 οὗτος ἐν ταύτῃ τῇ χώρᾳ σύνοικος ὑμῶν γενήσεται. So *O. C.* 1382 Δίκη ξύνεδρος Ζηνός. ‘The Justice that dwells with the gods below’ is their personified right to claim from the living those religious observances which devote the dead to them. A person who omits such observances is defrauding Hades of his own: see 1070. This Justice, then, ‘has not ordained such laws’ as Creon’s; it has not *forbidden* kinsfolk to bury their dead; on the contrary, it has bound them to do so. **τοιούσδ’...ὥρισεν** is a certainly true correction of the MS. **οἳ τούσδ’...ὥρισαν**. With the latter, **οἳ** are either Zeus and Δίκη,—which would be the natural sense,—or οἱ κάτω θεοί: and τούσδε νόμους are the laws of sepulture. But, after **τάδε** in 450, referring to Creon’s edicts, the demonstrative pronoun here also should refer to them. Creon has just called his own laws τούσδε νόμους (449). If Antigone, immediately afterwards, used τούσδε νόμους to describe the divine laws, the stress on τούσδε would be extremely awkward. Further, τοιούσδ’ ὥρισεν has a pathetic force which renders it incomparably finer here than the somewhat tame statement of fact, ‘who have appointed the laws of burial among men.’
+**τῶν κάτω θεῶν**. For this rare gen. (instead of the regular dat.) with **ξύνοικος**, cp. Lycurgus *In Leocr.* § 145 οὗτος ἐν ταύτῃ τῇ χώρᾳ σύνοικος ὑμῶν γενήσεται. So *O. C.* 1382 Δίκη ξύνεδρος Ζηνός. ‘The Justice that dwells with the gods below’ is their personified right to claim from the living those religious observances which devote the dead to them. A person who omits such observances is defrauding Hades of his own: see 1070. This Justice, then, ‘has not ordained such laws’ as Creon’s; it has not *forbidden* kinsfolk to bury their dead; on the contrary, it has bound them to do so. **τοιούσδ’...ὥρισεν** is a certainly true correction of the MS. **οἳ τούσδ’...ὥρισαν**. With the latter, οἳ are either Zeus and Δίκη,—which would be the natural sense,—or οἱ κάτω θεοί: and τούσδε νόμους are the laws of sepulture. But, after **τάδε** in 450, referring to Creon’s edicts, the demonstrative pronoun here also should refer to them. Creon has just called his own laws τούσδε νόμους (449). If Antigone, immediately afterwards, used τούσδε νόμους to describe the divine laws, the stress on τούσδε would be extremely awkward. Further, τοιούσδ’ ὥρισεν has a pathetic force which renders it incomparably finer here than the somewhat tame statement of fact, ‘who have appointed the laws of burial among men.’
 
 ## 454
 **ἄγραπτα...νόμιμα**. Arist. *Rhet.* 1. 13 § 2 distinguishes (1) ἴδιος νόμος, the particular law which each community defines for itself, which is partly written, partly (so far as consisting in custom) unwritten: (2) κοινὸς νόμος, the universal, unwritten law of nature (ὁ κατὰ φύσιν). ἔστι γάρ, ὃ μαντεύονταί τι πάντες, φύσει κοινὸν δίκαιον καὶ ἄδικον, κἂν μηδεμία κοινωνία πρὸς ἀλλήλους ᾖ μηδὲ συνθήκη, οἷον καὶ ἡ Σοφοκλέους Ἀντιγόνη φαίνεται λέγουσα, ὅτι δίκαιον, ἀπειρημένον (=in spite of the edict), θάψαι τὸν Πολυνείκη, ὡς φύσει ὂν τοῦτο δίκαιον. (Here he
@@ -113,10 +114,11 @@
 31 ILoAvνείκη [mixed] → Πολυνείκη
 32 ILoAvνείκη [mixed] → Πολυνείκη
 --- notes
-448: the draft had made "τί δ’ οὐ μέλλω" a bold lemma: it is the Xenophon quotation in plain type, joined with the dash. 449/450: the OCR had interleaved the two notes ("450 Diets which is opposed would …"): rewritten from the image, ## 450 (Ζεύς) made. 451 f.: Lycurgus has ὑμῶν, ταύτῃ τῇ χώρᾳ; οἳ (bold) and τάδε bold as printed. 454 f.: Rhet. (italic R), ᾖ, Ἀντιγόνη, ἡ Σοφοκλέους, (=in spite of the edict) from the image. Italics set.
+448: the draft had made "τί δ’ οὐ μέλλω" a bold lemma: it is the Xenophon quotation in plain type, joined with the dash. 449/450: the OCR had interleaved the two notes ("450 Diets which is opposed would …"): rewritten from the image, ## 450 (Ζεύς) made. 451 f.: Lycurgus has ὑμῶν, ταύτῃ τῇ χώρᾳ; τάδε bold as printed. 454 f.: Rhet. (italic R), ᾖ, Ἀντιγόνη, ἡ Σοφοκλέους, (=in spite of the edict) from the image. Italics set.
+451	rev: "With the latter, οἳ are either": οἳ is in the ordinary (italic) Greek type, not bold: bold taken away
 
 === p-0158
-+ quotes vv. 456 f.) Cp. *O. T.* 865 ff. νόμοι...| ὑψίποδες, οὐρανίαν | δι’ αἰθέρα τεκνωθέντες, with notes there. Thuc. 2. 37 (νόμοι) ὅσοι ἄγραφοι ὄντες αἰσχύνην ὁμολογουμένην φέρουσι. When ‘the unwritten laws’ are thus called νόμοι, the latter word is used figuratively. **νόμιμα**, observances sanctioned by usage, is the more correct word: so Plat. *Legg.* 793 A observes that τὰ καλούμενα ὑπὸ τῶν πολλῶν ἄγραφα νόμιμα cannot properly be called νόμοι, but still must be taken into account: δεσμοὶ γὰρ οὗτοι πάσης εἰσὶ πολιτείας, μεταξὺ πάντων ὄντες τῶν ἐν γράμμασι τεθέντων τε καὶ κειμένων καὶ τῶν ἔτι τεθησομένων.
++ quotes vv. 456 f.) Cp. *O. T.* 865 ff. νόμοι... | ὑψίποδες, οὐρανίαν | δι’ αἰθέρα τεκνωθέντες, with notes there. Thuc. 2. 37 (νόμοι) ὅσοι ἄγραφοι ὄντες αἰσχύνην ὁμολογουμένην φέρουσι. When ‘the unwritten laws’ are thus called νόμοι, the latter word is used figuratively. **νόμιμα**, observances sanctioned by usage, is the more correct word: so Plat. *Legg.* 793 A observes that τὰ καλούμενα ὑπὸ τῶν πολλῶν ἄγραφα νόμιμα cannot properly be called νόμοι, but still must be taken into account: δεσμοὶ γὰρ οὗτοι πάσης εἰσὶ πολιτείας, μεταξὺ πάντων ὄντες τῶν ἐν γράμμασι τεθέντων τε καὶ κειμένων καὶ τῶν ἔτι τεθησομένων.
 
 **ἀσφαλῆ**, they stand fast for ever, like the θεῶν ἕδος ἀσφαλὲς αἰεί (*Od.* 6. 42).
 
@@ -171,6 +173,7 @@
 35 (sc. [conf] → (*sc.*
 --- notes
 The draft's line "ΝΟΣ , ΟΞ ΜΝ ΝΙΝ, LAR 4 a. τς Ἢ By | ΟΡ" was no printed line (the OCR of two overlapping lines): deleted. 456: the draft had split the paragraph at it and had "Te kal", "Zodie": rewritten from the image (Her. 2. 53 μέχρι οὗ πρώην τε καὶ χθές, Legg. 677 D, hodie atque heri, heri et nudius tertius). 454 run-on: "quotes vv. 456 f.)", "νόμοι...| ὑψίποδες", Alc. 799, Ph. 578, Ion 973 from the image; the Euripides quotation and its rendering had been interleaved by the OCR; νόμιμα bold as printed. 458: τὴν δίκην bold as printed (two bold stretches).
+454	rev: "νόμοι...| ὑψίποδες" spaced as the other verse divisions: "νόμοι... | ὑψίποδες"
 
 === p-0159
 + shows that, like ταῦτα just before, it refers to the νόμιμα: we cannot, therefore, render, ‘the penalty of such an act’ (*sc.* τοῦ ὑπερδραμεῖν).
@@ -185,7 +188,7 @@ The draft's line "ΝΟΣ , ΟΞ ΜΝ ΝΙΝ, LAR 4 a. τς Ἢ By | ΟΡ" was no
 **τί δ’ οὔ**; *sc.* ἔμελλον ἐξειδέναι (448).
 
 ## 461
-**κεἰ μὴ σὺ προὐκήρυξας**: Even if thou hadst not proclaimed death as the penalty of infringing the edict. The apodosis might be either (*a*) ἐξῄδη ἄν, implied in **τί δ’ οὔ**; or (*b*) ἔδει ἄν με θανεῖν, implied in θανουμένη. But (*a*) is best: ‘I should have known it, even if you had not brought it publicly to my knowledge.’ For καὶ εἰ cp. *O. T.* 305 n.
+**κεἰ μὴ σὺ προὐκήρυξας**: Even if thou hadst not proclaimed death as the penalty of infringing the edict. The apodosis might be either (*a*) ἐξῄδη ἄν, implied in τί δ’ οὔ; or (*b*) ἔδει ἄν με θανεῖν, implied in θανουμένη. But (*a*) is best: ‘I should have known it, even if you had not brought it publicly to my knowledge.’ For καὶ εἰ cp. *O. T.* 305 n.
 
 **τοῦ χρόνου**, the natural term of life (cp. *O. T.* 963): expressed below by πρίν μοι μοῖραν ἐξήκειν βίου (896).
 
@@ -225,7 +228,8 @@ Kvičala and Wecklein reject these four verses, despairing of the difficulties f
 23 Az. [conf] → *Ai.*
 24 1111 [conf] → ok
 --- notes
-459: Plat. Legg. 916 B, Gorg. 464 D (draft 404 Ὁ), κρίσιν, ἐν...τοῖσδ’ from the image. 460: the draft had "-θανουμένη γάρ" inside the paragraph and "t( δ᾽ οὔ": both bold lemmas after a dash, made paragraphs; ## 460 is "460 f.". 461 f.: κεἰ, ἐξῄδη (iota subscript printed), τί δ’ οὔ bold inside the paragraph, El. 1267, ἐπόρισεν, αὖτε (L), Tr. 1010 from the image. 464: the draft had cut "φέρει" from "=φέρεται": joined with "=". 465—468: "ηἰσχόμην" is L's corrupt form, printed without a breathing on the η (the breathing stands on the ι), kept as printed; the pencil stroke in "in|which" is not print. Italics set.
+459: Plat. Legg. 916 B, Gorg. 464 D (draft 404 Ὁ), κρίσιν, ἐν...τοῖσδ’ from the image. 460: the draft had "-θανουμένη γάρ" inside the paragraph and "t( δ᾽ οὔ": both bold lemmas after a dash, made paragraphs; ## 460 is "460 f.". 461 f.: κεἰ, ἐξῄδη (iota subscript printed), El. 1267, ἐπόρισεν, αὖτε (L), Tr. 1010 from the image. 464: the draft had cut "φέρει" from "=φέρεται": joined with "=". 465—468: "ηἰσχόμην" is L's corrupt form, printed without a breathing on the η (the breathing stands on the ι), kept as printed; the pencil stroke in "in|which" is not print. Italics set.
+461	rev: "implied in τί δ’ οὔ;": in the ordinary (italic) Greek type, not bold: bold taken away
 
 === p-0160
 + adv.: ‘is a pain in no appreciable degree,’ is a pain not worth a thought: as he might have said, οὐδαμοῦ ἄλγος ἐστί. The normal use of παρ’ οὐδέν, ‘of no account,’ is either (*a*) with the verb εἶναι, as *O. T.* 982 ταῦθ’ ὅτῳ | παρ’ οὐδέν ἐστι, or (*b*) with a verb meaning ‘to esteem,’ as above, v. 34, τὸ πρᾶγμ’ ἄγειν | οὐχ ὡς παρ’ οὐδέν. The only peculiarity here is that, instead of a word in the general sense, ‘*is esteemed*’ (ἄγεται), we have a virtual equivalent, tinged with the special thought of the moment, viz., ‘*is a pain*.’ Exactly so in *El.* 1327 we have πότερα παρ’ οὐδὲν τοῦ βίου κήδεσθ’ ἔτι, instead of πότερα παρ’ οὐδὲν τὸν βίον ἄγετε. Thus the suspicions as to the genuineness of παρ’ οὐδὲν ἄλγος are illusory.

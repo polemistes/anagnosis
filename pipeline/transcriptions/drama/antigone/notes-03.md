@@ -157,7 +157,7 @@ Since **οὐκοῦν** (‘well, then’) precedes, **δὴ** is best taken as
 ## 94
 **ἐχθρὰ...τῷ θανόντι προσκείσει δίκῃ**, ‘thou wilt be subject to the lasting enmity of the dead.’ The word **προσκείσει** means literally, ‘*wilt be attached to...*,’ *i.e.*, ‘*wilt be brought into a lasting relation with*’; and **ἐχθρά** defines the nature of that relation. The sense is thus virtually the same as if we had, ὁ θανὼν ἐχθρός σοι προσκείσεται, ‘the enmity of the dead will cleave to thee.’ The convertible use of προσκεῖσθαι is illustrated by 1243 ἀνδρὶ πρόσκειται κακόν, as compared with *El.* 1040 ᾧ σὺ πρόσκεισαι κακῷ, and *ib.* 240 εἴ τῳ πρόσκειμαι χρηστῷ. Here, προσκείσει expresses merely the establishment of the permanent relation between the two persons. It does not mean, ‘you will be brought, as his foe, *into dependence* on him’ (*i.e.* under the power of his curse); as in Eur. *Tro.* 185 τῷ πρόσκειμαι δούλα τλάμων; ‘to whom have I been assigned as a slave?’ (*i.e.* by the casting of lots:—the answer is, ἐγγύς που κεῖσαι κλήρου). Nor, again, ‘you will *press upon* the dead as his foe,’ *i.e.* be hostile and grievous to him: for, as δίκῃ shows, the punishment is to be hers, not his. The idea might have been expressed in a converse form by τὸν θανόντα ἐχθρὸν προσθήσει (cf. Xen. *Cyr.* 2. 4. 12).
 
-Lehrs proposed Δίκῃ, *i.e.* ‘you will fall under the chastisement of justice.’ Donaldson, following Emper, reads ἐχθρᾷ... δίκῃ, as *iure inimicorum apud mortuum eris*: *i.e.* on the part of the dead you will be deemed to have only the rights of a foe. This is impossible. The ordinary reading is sound.
+Lehrs proposed Δίκῃ, *i.e.* ‘you will fall under the chastisement of justice.’ Donaldson, following Emper, reads ἐχθρᾷ...δίκῃ, as *iure inimicorum apud mortuum eris*: *i.e.* on the part of the dead you will be deemed to have only the rights of a foe. This is impossible. The ordinary reading is sound.
 
 ## 95
 **ἔα**, one syll. by synizesis, as *O. T.* 1451 (n.).
@@ -192,6 +192,7 @@ Lehrs proposed Δίκῃ, *i.e.* ‘you will fall under the chastisement of just
 26 δυσβ [greek] → ok
 --- notes
 Draft's "Since οὐκοῦν ... 81 is best taken" read: δὴ (bold); ὅταν and the other bold words inside paragraphs (καὶ, δυνήσει, εἰ καί, οὐκοῦν, προσκείσει, ἐχθρά) set bold as printed. New paragraphs cut at πεπαύσομαι and ἐξ ἐμοῦ (bold lemmas after a dash). Ph. 1230 of the draft is 1239 in the print. The smooth breathing printed before the capital (’Ορχομενίους) is written precomposed: Ὀρχομενίους.
+94	rev: "ἐχθρᾷ... δίκῃ" closed up to "ἐχθρᾷ...δίκῃ" (the space was the print's line break)
 
 === p-0095
 + πρῲ λέγοις ἂν τὸν πόθον τὸν ἐξ ἐμοῦ, | πρὶν εἰδέναι τἀκεῖθεν εἰ ποθούμεθα. Cp. *O. C.* 453 n.
@@ -245,7 +246,7 @@ New paragraphs cut at the bold lemmas after dashes (τὸ δεινὸν τοῦ�
 ## 100
 **ἀελίου**, Dor. for the epic ἠελίου, with ᾱ as usu. (808, *O. C.* 1245), though it is sometimes used with ᾰ, as *Tr.* 835, Eur. *Med.* 1252.
 
-**τὸ κάλλιστον ...φάος**. Two constructions are possible; I prefer the first. (1) Θήβᾳ φανὲν τὸ κάλλιστον φάος, the art. going with the superlative, which it emphasises,—‘the very fairest,’—a common use, as Plat. *Hipp.* 289 B οὐχ ἡ καλλίστη παρθένος αἰσχρὰ φανεῖται; *Od.* 17. 415 οὐ μέν μοι δοκέεις ὁ κάκιστος Ἀχαιῶν. (2) τὸ Θήβᾳ φανὲν κάλλιστον φάος, the art. going with φανέν. This seems awkward. When a voc. is followed by a noun or partic. with art., this is normally in direct agreement with the voc., as ὦ ἄνδρες...οἱ παρόντες (Plat. *Prot.* 337 C), as if here we had ἡ φανεῖσα. The Schol., who prefers this constr., shirks the difficulty by his paraphrase, ὦ τῆς ἀκτῖνος τοῦ ἡλίου φῶς, τὸ φανὲν κ.τ.λ.
+**τὸ κάλλιστον...φάος**. Two constructions are possible; I prefer the first. (1) Θήβᾳ φανὲν τὸ κάλλιστον φάος, the art. going with the superlative, which it emphasises,—‘the very fairest,’—a common use, as Plat. *Hipp.* 289 B οὐχ ἡ καλλίστη παρθένος αἰσχρὰ φανεῖται; *Od.* 17. 415 οὐ μέν μοι δοκέεις ὁ κάκιστος Ἀχαιῶν. (2) τὸ Θήβᾳ φανὲν κάλλιστον φάος, the art. going with φανέν. This seems awkward. When a voc. is followed by a noun or partic. with art., this is normally in direct agreement with the voc., as ὦ ἄνδρες...οἱ παρόντες (Plat. *Prot.* 337 C), as if here we had ἡ φανεῖσα. The Schol., who prefers this constr., shirks the difficulty by his paraphrase, ὦ τῆς ἀκτῖνος τοῦ ἡλίου φῶς, τὸ φανὲν κ.τ.λ.
 
 **ἑπταπύλῳ**; epithet of Θήβη in *Od.* 11. 263, Hes. *Op.* 161, as ἑκατόμπυλοι in *Il.* 9. 383 of Θῆβαι Αἰγύπτιαι.
 
@@ -263,7 +264,7 @@ New paragraphs cut at the bold lemmas after dashes (τὸ δεινὸν τοῦ�
 ## 106
 **τὸν λεύκασπιν...φῶτα**, in a collective sense: so ὁ Πέρσης, the Persian army, Her. 8. 108, etc. Cp. Aesch. *Theb.* 90 ὁ λεύκασπις λεώς (Dind. λευκοπρεπής): Eur. *Phoen.* 1099 λεύκασπιν εἰσορῶμεν Ἀργείων στρατόν. The round shield, painted white, which the Argive soldier carried on his left arm, is the λευκῆς χιόνος πτέρυξ of 114. The choice of *white* as the Argive colour may have been prompted by a popular association of Ἄργος with ἀργός.
 
-The words τὸν λεύκασπιν Ἀργόθεν answer metrically to 123 πευκάενθ’ Ἥφαιστον ἑλεῖν. Instead of Ἀργόθεν (–⏑–) we therefore require –⏑⏑–. The short final of λεύκασπιν is legitimate, the metre being Glyconic (see Metr. Analysis). In the antistrophic verse, the H of Ἥφαιστον is ‘irrational,’ *i.e.* is a long syllable doing
+The words τὸν λεύκασπιν Ἀργόθεν answer metrically to 123 πευκάενθ’ Ἥφαιστον ἑλεῖν. Instead of Ἀργόθεν (–⏑–) we therefore require –⏑⏑–. The short final of λεύκασπιν is legitimate, the metre being Glyconic (see Metr. Analysis). In the antistrophic verse, the Η of Ἥφαιστον is ‘irrational,’ *i.e.* is a long syllable doing
 --- flags
 1 Ὁ. [conf] → *O.*
 2 aos [latin] (Greek model: τφάος.) → φάος
@@ -304,6 +305,8 @@ The words τὸν λεύκασπιν Ἀργόθεν answer metrically to 123 π
 --- notes
 The draft had lost the order of the Ismenus sentence ("The Dirce was on the E.: between w. of Thebes, them flowed the Ismenus the less famous on the Strophia"): rewritten from the image. "Dircè" with the grave as printed. Bold-lemma paragraphs cut at ἑπταπύλῳ (draft had it), βλέφαρον, Διρκαίων. Metrical signs from the print: (–⏑–), –⏑⏑–. Milton and Goethe quotations in italics as printed.
 The checker's "no breathing" remarks on ᾱ, ᾰ, ῠ, υ: single letters named by Jebb (with ᾱ as usu.; Homer never shortens the υ), printed without breathing.
+100	rev: lemma "τὸ κάλλιστον ...φάος" closed up to "τὸ κάλλιστον...φάος" (the space was the print's line break)
+106	rev: "the H of Ἥφαιστον": the letter is the Greek capital eta (Η), not Latin H
 
 === p-0097
 + duty for a short: and Nauck is incorrect in saying that the metre ‘requires’ (though it admits) a choriambus beginning with a *consonant*. The simplest remedy is to read **Ἀργόθεν ἐκ|βάντα φῶτα**, and to suppose that, after the loss of ἐκ, βάντα and φῶτα were accidentally transposed. Cp. *O. C.* 1088 where σθένει ’πινικείῳ is certainly the right order, but the MSS. reverse it. (See also above on v. 29.) Dindorf reads ἐκ φῶτα βάντα, assuming tmesis: but tmesis of ἐκ in Soph. occurs elsewhere only before μέν (*Tr.* 1053) or δέ, and there was no motive here for interposing φῶτα. Hermann reads Ἀργόθεν ἔκ as = ἐξ Ἀργόθεν: but elsewhere ἐκ comes before, not after, such forms (ἐξ Αἰσύμηθεν, *Il.* 8. 304: ἐξ ἁλόθεν, ἐξ οὐρανόθεν, etc.). If Ἀργόθεν is not genuine, then it was probably a gloss on some other form in -θεν. Had γᾶς Πέλοπος (or Δαναοῦ) been in the text, a scholiast would have been more apt to paraphrase with ἀπ’ or ἐξ Ἄργους. This is against such conjectures as Ἀργέϊον, Ἀργογενῆ, Ἀργολικόν, Ἰναχίδαν, Ἰνάχιον, as is also the fact that βάντα suggests a mention of ‘the place whence.’ Ἀπιόθεν (Ahrens) would mean ‘from Ἄπιος,’ but we require ‘from Ἀπία’ *sc.* (γῆ, the Peloponnesus, *O. C.* 1303 n.), *i.e.* Ἀπίᾱθεν: cp. Ὀλυμπίαθεν. I had thought of **Ἰναχόθεν**, which Mekler, too, has lately suggested, though he has not supported it by argument. The points in its favour are: (*a*) the order φῶτα βάντα can be kept: (*b*) after ‘Dircè’s streams’ in v. 105 a reference to the Argive river would be appropriate: (*c*) ἀργόθεν might have come in either as a gloss, or a corruption of the letters αχόθεν, if ιν had dropped out after λεύκασπιν. But I hesitate to displace Ἀργόθεν, esp. when a direct mention of Argos here so naturally corresponds with the direct mention of Thebes in v. 101.

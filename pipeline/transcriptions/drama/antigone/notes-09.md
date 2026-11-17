@@ -91,7 +91,7 @@ The draft cut the paragraph at "ἀμφίλοφον,—ἀντὶ τοῦ" and a
 === p-0142
 + beginnings of speech...Speech is the development, through imitation, of a capacity of man—the capacity of making a noise.’ This is quite compatible with ἐδιδάξατο.
 
-**ἀνεμόεν φρόνημα**: cp. *Il.* 15. 80 ὡς δ’ ὅτ’ ἂν ἀΐξῃ νόος ἀνέρος...| ὡς κραιπνῶς μεμαυῖα διέπτατο: *Od.* 7. 36 τῶν νέες ὠκεῖαι ὡσεὶ πτερὸν ἠὲ νόημα: *O. C.* 1081 ἀελλαία ταχύρρωστος πελειάς: fr. 621 ἀελλάδες φωναί. Not ‘lofty,’ in which sense ἀνεμόεν could be said only of a high place. Cp. Shelley, *Prometheus*: ‘He gave man speech, and speech created thought, Which is the measure of the universe.’ Soph. does not imply that speech created thought; he is rather thinking of them as developed (in their riper forms) together.
+**ἀνεμόεν φρόνημα**: cp. *Il.* 15. 80 ὡς δ’ ὅτ’ ἂν ἀΐξῃ νόος ἀνέρος...| ὣς κραιπνῶς μεμαυῖα διέπτατο: *Od.* 7. 36 τῶν νέες ὠκεῖαι ὡσεὶ πτερὸν ἠὲ νόημα: *O. C.* 1081 ἀελλαία ταχύρρωστος πελειάς: fr. 621 ἀελλάδες φωναί. Not ‘lofty,’ in which sense ἀνεμόεν could be said only of a high place. Cp. Shelley, *Prometheus*: ‘He gave man speech, and speech created thought, Which is the measure of the universe.’ Soph. does not imply that speech created thought; he is rather thinking of them as developed (in their riper forms) together.
 
 ## 355
 **ἀστυνόμους ὀργάς**, ‘such dispositions as regulate cities’; *i.e.* those feelings which lead men to organise social life, and to uphold the social order by their loyalty. For ὀργάς, cp. *Ai.* 639 συντρόφοις | ὀργαῖς, the dispositions that have grown with his growth: Eur. *Tro.* 53 ἐπήνεσ’ ὀργὰς ἠπίους. The relation of φθέγμα to ἀστυνόμοι ὀργαί is illustrated by Arist. *Pol.* 1. 2 § 12, where he is showing that man, more than any other ἀγελαῖον ζῷον, is πολιτικόν: ‘Speech is intended to explain what is expedient and what is hurtful,—and so also what is just and unjust. It is characteristic of man, as compared with other animals, that he alone has a sense of good and evil, just and unjust; and it is the association of beings with this sense that make a Family and a State.’
@@ -138,6 +138,7 @@ The draft cut the paragraph at "ἀμφίλοφον,—ἀντὶ τοῦ" and a
 --- notes
 354: the draft cut at "with ἐδιδάξατο.—ἀνεμόεν"; that cut is right (bold lemma). 356: the draft's "α5 / **Ἐ μανθάνειν**" was "as=μανθάνειν" inside the paragraph: joined, bold removed. Meno p. 93 D, Theag. 122 E, Tro. 53, i.e., had/taught, on, sibi imponet set from the image; "inhos-|pitable" written whole at the foot.
 ## 358: Jebb's number; our text has no 358 (his longer lyric lines).
+354	rev: Il. 15. 80 "| ὡς κραιπνῶς" corrected to "| ὣς κραιπνῶς" (rough breathing and grave on the page)
 
 === p-0143
 + *hills*,’ citing Moschion fr. 7. 5 (*Frag. Trag.* p. 633), who describes primitive man as inhabiting ὀρειγενῆ σπήλαια: but the context is against this. As corrections of the MS. αἴθρια, there is little to choose between ἐναίθρεια and ὑπαίθρεια: Aesch. *Ag.* 335 has ὑπαιθρίων πάγων: but after πάγων the loss of ἐν would be easier than that of ὑπ. The ι of αἰθρία could be long (as Solon 13. 22): but ῑ is not elsewhere found in the derivatives; for in Cratinus Δηλιάδες fr. 5 we must read Ὑπερβορείους αἴθρια τιμῶντας στέφη (not, as Blaydes gives it, Ὑπερβορέους αἴθρῑα). The spelling ἐναίθρεια is conjectural, but in *O. C.* 1088 L has ἐπινικείῳ, as metre requires, for ἐπινικίῳ. Below, v. 814, ἐπινύμφειος has been conjectured: see n. there.
@@ -152,7 +153,7 @@ The draft cut the paragraph at "ἀμφίλοφον,—ἀντὶ τοῦ" and a
 ## 361
 **μόνον** and **μόνου** are alike admissible; μόνον means, ‘the only thing that he will not achieve is to escape death’; μόνου, ‘the only thing that he will not escape is death.’ In this general view of human achievement, μόνον seems a little the better.
 
-**φεῦξιν—ἐπάξεται**, *procure* means of escape from death. ἐπάγεσθαι, prop. ‘to bring into one’s own country’; usu. said of calling in allies to help one; or of importing foreign products: Thuc. 4. 64 ξυμμάχους δὲ οὐδέποτε ...ἐπαξόμεθα: id. 1. 81 ἐκ θαλάσσης ὧν δέονται ἐπάξονται. Then often fig., of calling in anything to one’s aid: Plat. *Legg.* 823 A τὸ δὲ δὴ παρὸν ἡμῖν τὰ νῦν οἷον μάρτυρα ἐπαγόμεθα· δηλοῖ μὲν ἂν ὃ βουλόμεθα: ‘we call to our help, as a witness, the example which is actually present with us; it will show what we mean.’ *Gorg.* 492 B αὐτοὶ ἑαυτοῖς δεσπότην ἐπαγάγοιντο τὸν τῶν πολλῶν ἀνθρώπων νόμον τε καὶ λόγον καὶ ψόγον (‘*call in* to rule them’). Menander Ὑδρία fr. 2 γέροντα δυστυχοῦντα, τῶν θ’ αὐτοῦ κακῶν | ἐπαγόμενον λήθην, ἀνέμνησας πάλιν (‘seeking to procure forgetfulness of his troubles’). The word is admirably suitable and vivid here: man looks to every side for succour against the foe that is ever in the land,—Death; but from no
+**φεῦξιν—ἐπάξεται**, *procure* means of escape from death. ἐπάγεσθαι, prop. ‘to bring into one’s own country’; usu. said of calling in allies to help one; or of importing foreign products: Thuc. 4. 64 ξυμμάχους δὲ οὐδέποτε...ἐπαξόμεθα: id. 1. 81 ἐκ θαλάσσης ὧν δέονται ἐπάξονται. Then often fig., of calling in anything to one’s aid: Plat. *Legg.* 823 A τὸ δὲ δὴ παρὸν ἡμῖν τὰ νῦν οἷον μάρτυρα ἐπαγόμεθα· δηλοῖ μὲν ἂν ὃ βουλόμεθα: ‘we call to our help, as a witness, the example which is actually present with us; it will show what we mean.’ *Gorg.* 492 B αὐτοὶ ἑαυτοῖς δεσπότην ἐπαγάγοιντο τὸν τῶν πολλῶν ἀνθρώπων νόμον τε καὶ λόγον καὶ ψόγον (‘*call in* to rule them’). Menander Ὑδρία fr. 2 γέροντα δυστυχοῦντα, τῶν θ’ αὐτοῦ κακῶν | ἐπαγόμενον λήθην, ἀνέμνησας πάλιν (‘seeking to procure forgetfulness of his troubles’). The word is admirably suitable and vivid here: man looks to every side for succour against the foe that is ever in the land,—Death; but from no
 --- flags
 1 pitable [rare] → omitted (written whole at the foot of p-0142)
 2 %i/ls,” [conf] → *hills*,’
@@ -184,6 +185,7 @@ The draft cut the paragraph at "ἀμφίλοφον,—ἀντὶ τοῦ" and a
 --- notes
 "inhos-|pitable": the word is written whole at the end of p-0142. The draft cut 360 at "παντοπόρος,—καὶ σχεδὸν …" (Isocrates quoted in plain type): joined with the dash, bold removed. 361: "φεῦξιν—ἐπάξεται" is a bold lemma inside the paragraph (no dash before it), made a paragraph of its own under 361 as a further lemma; the draft had split it as "φεῦξιν. / **ἐπάξεται**". Menander: the print has αὐτοῦ (smooth), kept. Draft "**σπήλαια** ... Aaa", "Ξκεοὐδὲν", "érafbuefa", "15 subst." mended. Italics set (hills, Frag. Trag., procure, call in).
 "ι" and "ῑ" are the letter iota named by Jebb ("The ι of αἰθρία", "but ῑ is not"), not words: no breathing.
+361	rev: "οὐδέποτε ...ἐπαξόμεθα" closed up (the dots begin a printed line; Jebb sets his dots closed)
 
 === p-0144
 + quarter can he find help. It is surprising that so many recent critics should have confidently condemned ἐπάξεται, and sought to replace it by conjectures (see cr. n.).
@@ -242,7 +244,7 @@ Heading "365-8375" read as 365—375 from the image (## 365-375); its paragraph 
 ## 370
 **ὑψίπολις** seems best taken as=ὑψηλὴν πόλιν ἔχων: cp. Pind. *P.* 8. 22 ἁ δικαιόπολις...νᾶσος (Aegina). In *O.* 2. 8 Theron, tyrant of Acragas, is called ὀρθόπολις in an active sense, as=ὀρθῶν τὴν πόλιν. In *O. T.* 510 ἁδύπολις=ἁνδάνων τῇ πόλει: but it is harder to suppose that ὑψίπολις could have been intended to mean, ‘standing high in his city.’ Nor would that be the fittest sense. The loyal citizen makes the prosperous city; and her prosperity is his. See on 189. In this clause the Chorus thinks especially of Creon (191 τοιοῖσδ’ ἐγὼ νόμοισι τήνδ’ αὔξω πόλιν).
 
-**ἄπολις**. Where the typical citizen is a law-breaker, the city is ruined, and the evil-doer is left citiless. So Creon had described law-breaking as ἄτην...ἀστοῖς (185). The contrast with ὑψίπολις shows that the sense is not merely, ‘when a man breaks the law he becomes an exile’ (Lys. or. 21 § 35 ἀντὶ ...πολιτῶν ἀπόλιδας). The central thought is the power of human wit to make or mar the πόλις, according as the man is moral or immoral.
+**ἄπολις**. Where the typical citizen is a law-breaker, the city is ruined, and the evil-doer is left citiless. So Creon had described law-breaking as ἄτην...ἀστοῖς (185). The contrast with ὑψίπολις shows that the sense is not merely, ‘when a man breaks the law he becomes an exile’ (Lys. or. 21 § 35 ἀντὶ...πολιτῶν ἀπόλιδας). The central thought is the power of human wit to make or mar the πόλις, according as the man is moral or immoral.
 
 **τὸ μὴ καλόν**, the generic μή, such a mood as is not good.
 
@@ -293,6 +295,7 @@ The choral ode has closed with an allusion to the unknown *man* (**ὅς**: cp. 
 --- notes
 The page runs on from p-0144 ("cp. Her. | 5. 67"): `+ ` added. "975 ἔρδει" in the draft was the heading 375 (## 375 made). The word divided "mo-|ment" at the foot: the draft gives "mo-" here and "ment" on p-0146; written whole here ("At this moment") — see p-0146. 370: Th. 960, P. 8. 22, O. T. 510, ἁ δικαιόπολις, ἀντὶ ...πολιτῶν, ἄτην...ἀστοῖς, ἄπολίς (ἐστι) from the image; ἁδύπολις and ἁνδάνων with rough breathing (compared with ὑψίπολις on the same page). 372: ib. 240 n., Horace in italics, lemma ἴσον, but *Il.* 15. 50 ἶσον (circumflex) as printed; like-minded. ἔρδοι and ὅς bold as printed.
 ## 369: Jebb's number; our text has no 369 (his longer lyric lines).
+370	rev: "ἀντὶ ...πολιτῶν" closed up (the dots begin a printed line; Jebb sets his dots closed)
 
 === p-0146
 + Antigone is led in by the Guard.

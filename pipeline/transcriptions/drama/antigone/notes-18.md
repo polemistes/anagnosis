@@ -9,7 +9,7 @@ Creon’s edict had announced that the transgressor would be publicly stoned to 
 The danger of a μίασμα—to be avoided by a dole of food—has no relation to the special circumstances,—Antigone’s royal birth, and the nature of her offence. In the ancient belief, that danger existed whenever a person was put to death by starvation. Two notions were probably blended; (*a*) that, if a little food was given, the death was nature’s work, not man’s; (*b*) that the νέρτεροι claimed an indemnity for the usual ἐναγίσματα. So the Greeks put Philoctetes ashore on desolate Lemnos,—ῥάκη προθέντες βαιὰ καί τι καὶ βορᾶς | ἐπωφέλημα σμικρόν (*Ph.* 274). So, too, when a Vestal was to be buried alive, the small vault in the Campus Sceleratus was furnished with a couch, a burning lamp, and a small table, on which the dole was placed,—bread, olives, milk, and a jug of water (Plut. *Num.* 10).
 
 ## 776
-**πᾶσ’**: cp. on 178. The sense is, ‘in order that the whole city may not be defiled’ (as it otherwise would be): μίασμ’ ὑπεκφύγῃ = μὴ μιανθῇ.
+**πᾶσ’**: cp. on 178. The sense is, ‘in order that the whole city may not be defiled’ (as it otherwise would be): μίασμ’ ὑπεκφύγῃ=μὴ μιανθῇ.
 
 ## 777
 **ὃν μόνον σέβει**. Polyneices had come to destroy the shrines of the θεοὶ
@@ -41,6 +41,7 @@ The danger of a μίασμα—to be avoided by a dole of food—has no relation
 25 beta [conf] → (OCR mixed two lines: "buried alive"; line rewritten from the image)
 --- notes
 Lines of the right column (ῥάκη ... σμικρόν / So, too, when a Vestal was to be buried alive) had been interleaved by the OCR: rewritten from the image. Bold ὡς and ὅσον inside the note kept bold as printed. Breathings in the Curtius passage from the image: ἅγος (would write), (1) ἀγ-, ἄγος, (2) ἁγ-, ἅγος, ἅγιος.
+776	rev: "ὑπεκφύγῃ=μὴ" closed up as printed (was " = ")
 
 === p-0213
 + ἐγγενεῖς (199). By honouring him, and Hades (519), she has dishonoured those other gods.
@@ -51,7 +52,7 @@ Lines of the right column (ῥάκη ... σμικρόν / So, too, when a Vestal
 ## 779
 **ἀλλὰ τηνικαῦτα**: cp. 552.
 
-**τἂν**, instead of τοὺς ἐν, Ἅιδου: 659.
+**τἀν**, instead of τοὺς ἐν, Ἅιδου: 659.
 
 ## 781-800
 Third stasimon. Strophe 781—790=antistr. 791—800.
@@ -110,9 +111,10 @@ The pathos of the maiden’s fate is heightened by this plea for her lover. When
 37 soldier's [conf] → soldier’s
 38 pulcris [conf] → *pulcris*
 --- notes
-779: printed "779 f." The bold crasis lemma is printed with a coronis and a grave: τἂν (as printed). After τοὺς ἐν the print has a comma-like mark before Ἅιδου; kept.
+779: printed "779 f." The bold crasis lemma is printed with a coronis only: τἀν. After τοὺς ἐν the print has a comma-like mark before Ἅιδου; kept.
 782: our text has no 782 (Jebb's longer lyric lines); Jebb's number kept. The dash before ἑλέναυς, ἕλανδρος, ἑλέπτολις is followed by plain Greek: joined back into the paragraph.
 783: printed "783 f.". Ion (draft "Του") restored. "[ἐννυχεύ]ων" is printed so (Plutarch's word with Jebb's brackets); the checker's "ων has no breathing" is this word-part.
+779	rev: lemma τἂν → τἀν: the print has the coronis only, no grave (enlarged)
 
 === p-0214
 + 4. 13. 8); cp. Xen. *An.* 6. 4. 27 ἐν δὲ τοῖς ὅπλοις ἐνυκτέρευον, and so νυκτοφυλακεῖν. Shaksp. *Rom.* 5. 3. 94 ‘beauty’s ensign yet Is crimson in thy lips and in thy cheeks.’ Gray, *Progress of Poesy* 1. 3. 16 ‘O’er her warm cheek and rising bosom move The bloom of young desire and purple light of love.’
@@ -196,6 +198,7 @@ The pathos of the maiden’s fate is heightened by this plea for her lover. When
 52 es [conf] → ἔχεις
 --- notes
 Headings printed "785 f.", "787 f.", "789 f.", "791 f.". Further lemmas after a dash made paragraphs: ἔν τ’ ἀγρ. αὐλαῖς (785), σὲ...φύξιμός (787, ἐστι plain as printed), ὁ δ’ ἔχων (789), παρασπᾷς (791), ἔχεις (794). The Greek after "on Ἔρως:—" (πῦρ καὶ θάλασσαν ...) is plain: kept in the paragraph.
+789	rev: misprint: the print has "πολει" without its accent (Aristeid. Pan. 1. 96 μόνῃ τῇ πόλει); written πόλει
 
 === p-0215
 + part.: cp. 22.

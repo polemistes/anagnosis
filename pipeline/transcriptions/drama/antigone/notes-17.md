@@ -1,5 +1,5 @@
 === p-0204
-+ On the other hand, διπλῇ is strange (though possible) as=‘in two ways,’ *i.e.* ‘on both sides.’ It usu. means, ‘doubly’ (Eur. *Ion* 760 κεὶ θανεῖν μέλλω διπλῇ); or ‘twice as much’ (Plat. *Rep.* 330 C διπλῇ ἢ οἱ ἄλλοι). So, here, it would more naturally mean, ‘twice over.’
++ On the other hand, **διπλῇ** is strange (though possible) as=‘in two ways,’ *i.e.* ‘on both sides.’ It usu. means, ‘doubly’ (Eur. *Ion* 760 κεὶ θανεῖν μέλλω διπλῇ); or ‘twice as much’ (Plat. *Rep.* 330 C διπλῇ ἢ οἱ ἄλλοι). So, here, it would more naturally mean, ‘twice over.’
 
 ## 726
 **καὶ** with **διδαξ.**, shall we *indeed* be taught: *El.* 385 ἦ ταῦτα δή με καὶ βεβούλευνται ποιεῖν; *O. T.* 772 n. For **διδαξ.** as pass., cp. 637.
@@ -59,6 +59,7 @@
 31 youapprove [rare] → you approve
 --- notes
 Last word "honour-|ing" divided between pages: written whole here.
+rev: διπλῇ at the head of the page is in the bold type in the print: bolded.
 
 === p-0205
 + law-breakers?—*H.* I should not dream of honouring wrong-doers.—*C.* Is not she, then, a wrong-doer?’ Doubtless, Creon could also say,—‘Does not she, then, honour wrong-doers (Polyneices)?’ Here, however, his point is that *she* is a rebel,—not, that her brother was a traitor.—For the fig. use of νόσος, cp. 1052, and n. on 653.

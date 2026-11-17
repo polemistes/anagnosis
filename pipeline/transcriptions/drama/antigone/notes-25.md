@@ -101,7 +101,7 @@ The simple transposition, **στείχουσι νύμφαι** for νύμφαι �
 **Κασταλίας τε νᾶμα**, *sc.* ὄπωπέ σε. The Κασταλία is a stream which flows from a fissure in the high cliffs above Delphi. It issues near the easternmost of the two peaks (1126 ff., n.),—that which was called Ὑάμπεια: and bounds in cataracts, down a precipitous channel, to Delphi, where its water was used for all sacred purposes. Below Delphi it joins the Pleistus (Aesch. *Eum.* 27). It is now called Ἅγιος Ἰωάννης. It is fitly mentioned here, since it rises on the edge of the highlands which form the scene of the revels.
 
 ## 1131
-**καί σε Νυσαίων**. And from Nysa in Euboea thou comest to visit Thebes, with thy followers who cry εὐοῖ. The Euboean Nysa was imagined near Aegae (famous for its temple of Poseidon), on the W. coast of the island, opposite Anthedon. Cp. Stephanus Byz. and Hesych. *s.v.* Νῦσα. That word. prob. denoted a moist and fertile place: Welcker would refer it to a lost νύω from rt. νυ (νέω): *Götterl.* 1. 439. ‘Dionysos’ was ‘the Zeus of Nysa’ (Preller *Myth.* 1. 549). Legend placed a Nysa in Thrace (*Il.* 6. 133), Macedonia, Thessaly, Boeotia, Naxos, Caria, Lydia, Cilicia, Arabia, Aethiopia, Libya, India, and even at Parnassus. In a fragment of the *Thyestes* Sophocles beautifully describes a wondrous vine of Euboea, which puts forth leaves and bears fruit in the same day: fr. 235 ἔστι γάρ τις ἐναλία | Εὐβοιὶς αἶα· τῇδε βάκχειος βότρυς | ἐπ’ ἦμαρ ἕρπει, κ.τ.λ.
+**καί σε Νυσαίων**. And from Nysa in Euboea thou comest to visit Thebes, with thy followers who cry εὐοῖ. The Euboean Nysa was imagined near Aegae (famous for its temple of Poseidon), on the W. coast of the island, opposite Anthedon. Cp. Stephanus Byz. and Hesych. *s.v.* Νῦσα. That word prob. denoted a moist and fertile place: Welcker would refer it to a lost νύω from rt. νυ (νέω): *Götterl.* 1. 439. ‘Dionysos’ was ‘the Zeus of Nysa’ (Preller *Myth.* 1. 549). Legend placed a Nysa in Thrace (*Il.* 6. 133), Macedonia, Thessaly, Boeotia, Naxos, Caria, Lydia, Cilicia, Arabia, Aethiopia, Libya, India, and even at Parnassus. In a fragment of the *Thyestes* Sophocles beautifully describes a wondrous vine of Euboea, which puts forth leaves and bears fruit in the same day: fr. 235 ἔστι γάρ τις ἐναλία | Εὐβοιὶς αἶα· τῇδε βάκχειος βότρυς | ἐπ’ ἦμαρ ἕρπει, κ.τ.λ.
 
 ## 1132
 **κισσήρεις ὄχθαι**, ivy-clad hills. Usually ὄχθη = a river-bank, ὄχθος = a hill: so *Ph.* 726 Σπερχειοῦ...παρ’ ὄχθας, and just afterwards (729) Οἴτας ὑπὲρ ὄχθων. But the distinction is not always observed; nor need we suspect our MSS.,
@@ -125,7 +125,8 @@ The simple transposition, **στείχουσι νύμφαι** for νύμφαι �
 17 ὄχθητεα [greek] (Greek model: ὄχθη-Ξ ἃ) → ὄχθη = a
 18 Σπερχειοῦ... [conf] → ok
 --- notes
-Stray "|" and "ἡ" in the 1131 note were a reader's pencil bracket in the margin: deleted. "That word. prob." kept as printed (a stop after "word" stands in the print, probably for a comma). Bold στείχουσι νύμφαι set inside its paragraph; the verse divider after πέτρα in the Eumenides quotation added as printed.
+Stray "|" and "ἡ" in the 1131 note were a reader's pencil bracket in the margin: deleted. (Superseded by the review: see the rev: line below on "That word. prob.") Bold στείχουσι νύμφαι set inside its paragraph; the verse divider after πέτρα in the Eumenides quotation added as printed.
+1131	rev: "That word. prob." made "That word prob.": the stop after "word" is printed (checked enlarged), an evident misprint (it makes no sense there), corrected by the misprint rule; printed "That word. prob."
 
 === p-0271
 + for the fact was noticed in antiquity (schol. on Aratus *Phaenom.* 33). Thus Pind. *P.* 1. 64 ὄχθαις ὕπο Ταϋγέτου: Eur. *Suppl.* 655 Ἰσμήνιον πρὸς ὄχθον.—The κισσός was to Dionysus what the δάφνη was to Apollo. The crowning with ivy (κίσσωσις) was a regular incident of his festivals: he was called κισσεύς, κισσοκόμης, κισσοχαίτης. Cp. Alciphron *Epist.* 2. 3 § 10 μὰ τὸν Διόνυσον καὶ τοὺς Βακχικοὺς αὐτοῦ κισσούς. Ov. *F.* 3. 767 *hedera est gratissima Baccho*.
@@ -289,7 +290,7 @@ Exodos. The threefold catastrophe. Creon’s remorse.
 **δόμων** goes with **Κάδμου** also: cp. *O. T.* 417 μητρός τε καὶ τοῦ σοῦ πατρός: *O. C.* 1399 κελεύθου τῆς τ’ ἐμῆς δυσπραξίας. Cadmus founded Thebes; at a later time, Amphion (Niobe’s husband) and his brother Zethus built a wall round it (Apoll. Rhod. 1. 740 ff.). The Thebans are **πάροικοι** (neighbours) **δόμων**, as dwelling around the Καδμεία, the Theban acropolis which was the seat of Cadmus (cp. *O. T.* 20 n.).
 
 ## 1156
-**οὐκ ἔστι** (τοιοῦτος ἀνθρώπου βίος), ὁποῖον οὔτ’ αἰνέσαιμι ἄν ποτε οὔτε μεμψαίμην στάντα: there is no kind of human life that I would ever praise, or complain of, as fixed. The partic. **στάντα** has a causal force, giving the ground for the praise or blame. Prosperity may seem secure, or misery irremediable; but no condition can be regarded as really stable (στάσιμον). Soph. has given us a perfect comment on **στάντα** (which Nauck calls ‘undoubtedly’ corrupt) in fr. 786, and it is strange that it should have escaped notice:—ἀλλ’ οὑμὸς ἀεὶ πότμος ἐν πυκνῷ θεοῦ | τροχῷ κυκλεῖται, καὶ μεταλλάσσει φύσιν· | ὥσπερ σελήνης δ’ ὄψις εὐφρόνας δύο | στῆναι δύναιτ’ ἂν οὔποτ’ ἐν μορφῇ μιᾷ,—cannot *remain fixed* in one phase.
+**οὐκ ἔστι** (τοιοῦτος ἀνθρώπου βίος), ὁποῖον οὔτ’ αἰνέσαιμι ἄν ποτε οὔτε μεμψαίμην στάντα: there is no kind of human life that I would ever praise, or complain of, as fixed. The partic. **στάντα** has a causal force, giving the ground for the praise or blame. Prosperity may seem secure, or misery irremediable; but no condition can be regarded as really stable (στάσιμον). Soph. has given us a perfect comment on **στάντα** (which Nauck calls ‘undoubtedly’ corrupt) in fr. 786, and it is strange that it should have escaped notice:—ἀλλ’ οὑμὸς ἀεὶ πότμος ἐν πυκνῷ θεοῦ | τρόχῳ κυκλεῖται, καὶ μεταλλάσσει φύσιν· | ὥσπερ σελήνης δ’ ὄψις εὐφρόνας δύο | στῆναι δύναιτ’ ἂν οὔποτ’ ἐν μορφῇ μιᾷ,—cannot *remain fixed* in one phase.
 
 **βίον** is the antecedent drawn into the clause and case of the relative: *O. C.* 56 ὃν δ’ ἐπιστείβεις τόπον | ...καλεῖται etc.: *ib.* 907 νῦν δ’ οὕσπερ αὐτὸς τοὺς νόμους εἰσῆλθ’ ἔχων.—The only other tenable view would be: οὐκ ἔστι (βίος τοιοῦτος στὰς) ὁποῖον αἰνέσαιμι ἄν: there is no life so situated that I could praise it. On this view, στάντα would cohere closely with ὁποῖον, having been attracted into the acc. like βίον itself. This is not impossible; but, if this were the construction, I should wish to read **ὁποίᾳ**: cp. *Ai.* 950 οὐκ ἂν τάδ’ ἔστη τῇδε μὴ θεῶν μέτα.
 
@@ -301,7 +302,7 @@ Exodos. The threefold catastrophe. Creon’s remorse.
 3 notice: [conf] → notice:—
 4 —d4AN’ [digit] → ἀλλ’
 5 πυκνῷ [conf] → ok
-6 τρόχῳ [accent] → τροχῷ
+6 τρόχῳ [accent] → ok (printed τρόχῳ; see notes)
 7 φύσιν". [conf] → φύσιν·
 8 ναιτ᾽ [conf] → δύναιτ’
 9 26. [conf] → ib.
@@ -314,6 +315,7 @@ Exodos. The threefold catastrophe. Creon’s remorse.
 16 AZ. [conf] → Ai.
 --- notes
 The draft had cut "—The only other tenable view…" (a dash followed by English) as a lemma "[δ": joined back into the βίον paragraph. The word divided at the page's foot, "sup-|posed", is written whole at the foot of this page and left out at the head of p-0275. 1156 (printed "1156 f."): the lemma is οὐκ ἔστι alone in bold; the rest of the Greek is in plain italic type. Bold Κάδμου, πάροικοι, δόμων, στάντα, ὁποίᾳ, ἐφεστώτων set as printed; "dv", "007", "Ο. 7" 20 π." corrected.
+1156	rev: fr. 786 "τροχῷ" put back to "τρόχῳ" as printed (checked enlarged: acute on the omicron, iota subscript); τρόχος is a word, so not an evident misprint, though the fragment is usually edited τροχῷ
 
 === p-0275
 + the sense to be, ‘no one in authority is a prophet.’ (2) The point is that things may seem established, and yet be unstable.
@@ -334,7 +336,7 @@ The draft had cut "—The only other tenable view…" (a dash followed by Englis
 **ἀφεῖται πάντα**, all has been given up,—has slipped from his grasp, and been lost. Cp. Her. 8. 49 ἡ γὰρ Ἀττικὴ ἀπεῖτο ἤδη (to the Persians). The perf. pass. of ἀφίημι is always pass. in sense, usu. meaning either ‘set free’ (as Isocr. or. 17 § 11), or, ‘left free’ (Plat. *Critias* 117 C, of open ground), or ‘permitted’ (Thuc. 5. 91). The only apparent instance of ἀφεῖμαι as a perf. *midd.* is Dem. or. 23 § 157 τοῦ μὲν τιμωρεῖσθαι τὸν Χαρίδημον ἀφεῖσθαι, ἀποστεῖλαι δ’ ὑπόσπονδον. But there, as ἀποστεῖλαι suggests, we must surely read the 2nd aor. midd. ἀφέσθαι, which was frequent in this sense (Plat. *Gorg.* 458 C; etc.). If ἀφεῖται were midd. here, we should require πάντων: cp. Thuc. 2. 60 τοῦ κοινοῦ τῆς σωτηρίας ἀφίεσθε.
 
 ## 1166
-**προδῶσιν**. προδιδόναι ἡδονάς could not mean merely, ‘to *resign*’ one’s joys. It necessarily implies a fault on the loser’s part; and it is precisely because Creon had committed such a fault that I believe **προδῶσιν** to be sound. The man accused of taking a bribe to break the law was described at 322 as ἐπ’ ἀργύρῳ... τὴν ψυχὴν προδούς. Our word, ‘to forfeit,’ *i.e.*, ‘to lose by one’s own fault,’ seems fairly to represent the shade of meaning which distinguishes προδιδόναι ἡδονάς from ἀπολλύναι ἡδονάς. Creon’s joys—the life of his son, and the good opinion of his subjects—have been sacrificed by him to the indulgence of stubborn self-will. Athenaeus, who twice quotes this passage (cr. n.), shows that *c.* 200 A.D. it was read as above: he is our oldest and best source for it. L’s **ἀνδρὸς** must be considered
+**προδῶσιν**. προδιδόναι ἡδονάς could not mean merely, ‘to *resign*’ one’s joys. It necessarily implies a fault on the loser’s part; and it is precisely because Creon had committed such a fault that I believe **προδῶσιν** to be sound. The man accused of taking a bribe to break the law was described at 322 as ἐπ’ ἀργύρῳ... τὴν ψυχὴν προδούς. Our word, ‘to forfeit,’ *i.e.*, ‘to lose by one’s own fault,’ seems fairly to represent the shade of meaning which distinguishes προδιδόναι ἡδονάς from ἀπολλύναι ἡδονάς. Creon’s joys—the life of his son, and the good opinion of his subjects—have been sacrificed by him to the indulgence of stubborn self-will. Athenaeus, who twice quotes this passage (cr. n.), shows that *c.* 200 A. D. it was read as above: he is our oldest and best source for it. L’s **ἀνδρὸς** must be considered
 --- flags
 1 Ai. [conf] (Greek model: 4:1.) → ok
 2 2b. [digit] (Greek model: 20.) → ib.
@@ -346,3 +348,4 @@ The draft had cut "—The only other tenable view…" (a dash followed by Englis
 8 ἀπολλίναι [greek] → ἀπολλύναι (printed ἀπολλίναι: misprint, see notes)
 --- notes
 "sup-|posed" is written whole at the foot of p-0274, and "con-|sidered" (its rest on p-0276) whole here. ἀπολλύναι: the print has ἀπολλίναι, an evident misprint (no such form); corrected. "ευ" (the augment note) printed in plain Greek: "ev" corrected; ws, Tov, "¢." (c.), "π." (n.) corrected; italics set from the image. Checker: "ευ" is the diphthong cited as letters (no breathing), as printed.
+1166	rev: "A.D." made "A. D." (printed with a space)

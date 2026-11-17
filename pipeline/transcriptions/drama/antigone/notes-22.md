@@ -214,7 +214,7 @@ The feuds and friendships of birds (ἔχθραι τε καὶ στέργηθρ�
 The page begins with a further lemma of the note on 1001 after a dash ("—οἴστρῳ"), run on from p-0246: `+ ` and the lemma as its own paragraph (the dash dropped).
 
 === p-0248
-+ a bad sign, if the fire was smothered in smoke, or played feebly around the flesh without consuming it. See Eur. *Ph.* 1255 μάντεις δὲ μῆλ’ ἔσφαζον, ἐμπύρους τ’ ἀκμὰς | ῥήξεις τ’ ἐνώμων, ὑγρότητ’ ἐναντίαν, | ἄκραν τε λαμπάδ’, ἧ δυοῖν ὅρους ἔχει, | νίκης τε σῆμα καὶ τὸ τῶν ἡσσωμένων: the seers ‘were watching for *points* of flame, or for *breaks* in it,—such flickering as portends evil’; *i.e.*, they were watching to see whether it would blaze up or die down. The ἄκρα λαμπάς is prob. the highest point of the fire, which, if towards the right side, meant victory; if towards the left, defeat. So Statius, *Theb.* 10. 599, where Teiresias offers ἔμπυρα, and his daughter reports the signs to him (as the παῖς does here): *Sanguineos flammarum apices* (=ἐμπύρους ἀκμάς) *geminumque per aras* | *Ignem, et clara tamen mediae fastigia lucis* (=ἄκραν λαμπάδα) | *Orta docet: tunc in speciem serpentis inanem* | *Ancipiti gyro volvi* (‘as if creeping on its way without an aim, the fire played timidly around the offering’). In Seneca *Oed.* 307 Teiresias asks, *Quid flamma? Larga iamne comprendit dapes?* | *Utrumne clarus ignis et nitidus stetit,* | *Rectusque purum verticem caelo tulit,* | *An latera circum serpit incertus viae,* | *Et fluctuante turbidus fumo labat?*
++ a bad sign, if the fire was smothered in smoke, or played feebly around the flesh without consuming it. See Eur. *Ph.* 1255 μάντεις δὲ μῆλ’ ἔσφαζον, ἐμπύρους τ’ ἀκμὰς | ῥήξεις τ’ ἐνώμων, ὑγρότητ’ ἐναντίαν, | ἄκραν τε λαμπάδ’, ἣ δυοῖν ὅρους ἔχει, | νίκης τε σῆμα καὶ τὸ τῶν ἡσσωμένων: the seers ‘were watching for *points* of flame, or for *breaks* in it,—such flickering as portends evil’; *i.e.*, they were watching to see whether it would blaze up or die down. The ἄκρα λαμπάς is prob. the highest point of the fire, which, if towards the right side, meant victory; if towards the left, defeat. So Statius, *Theb.* 10. 599, where Teiresias offers ἔμπυρα, and his daughter reports the signs to him (as the παῖς does here): *Sanguineos flammarum apices* (=ἐμπύρους ἀκμάς) *geminumque per aras* | *Ignem, et clara tamen mediae fastigia lucis* (=ἄκραν λαμπάδα) | *Orta docet: tunc in speciem serpentis inanem* | *Ancipiti gyro volvi* (‘as if creeping on its way without an aim, the fire played timidly around the offering’). In Seneca *Oed.* 307 Teiresias asks, *Quid flamma? Larga iamne comprendit dapes?* | *Utrumne clarus ignis et nitidus stetit,* | *Rectusque purum verticem caelo tulit,* | *An latera circum serpit incertus viae,* | *Et fluctuante turbidus fumo labat?*
 
 ## 1008
 The fat wrapped about the thigh-bones ought to have caught fire, when the flesh on the bones would have been burned, and the bones themselves calcined. But here there was no flame; the kindled fuel lay in smouldering embers (σποδός). The heat caused a fatty moisture to exude from the covering of the thigh-bones. Trickling forth on the embers, this moisture emitted smoke, and sputtered as it threw particles of the fat upwards. The gall-bladder, too, which lay on the top of the thigh-bones, instead of catching fire, was gradually inflated by the heat, till it burst, scattering the gall into the air. And now the melting of the fat which covered the thigh-bones had gone so far that it was no longer a covering, but merely a liquid that was streaming off them, while they themselves were left naked and intact. So utterly had the gods refused the offering.
@@ -233,7 +233,7 @@ The fat wrapped about the thigh-bones ought to have caught fire, when the flesh 
 1 ἐνώμων, [conf] → ok
 2 ὑγρότητ᾽ [accent] (Greek model: ὑγρότητ᾽.) → ok
 3 λαμπάδ᾽ [accent] (Greek model: 'λαμπάδ᾽,) → ok
-4 ἢ [conf] → ἧ
+4 ἢ [conf] → ἣ
 5 νίkms [mixed] → νί-
 6 νίkms [mixed] → κης (νίκης)
 7 Z.e., [conf] → i.e.,
@@ -276,7 +276,7 @@ The fat wrapped about the thigh-bones ought to have caught fire, when the flesh 
 44 £7. [conf] → El.
 45 divinas [latin] → divina- (divination, written whole here)
 --- notes
-1255 (Eur. Ph.): "ἧ δυοῖν" — the print shows rough breathing and circumflex on the eta, no iota subscript visible; copied as seen.
+1007	rev: Eur. Ph. 1255 quotation "ἧ δυοῖν" → "ἣ δυοῖν" (enlarged: rough breathing and a grave, not a circumflex; flag 4 answered so; the first agent's note on it replaced)
 The stray "2." the draft put before "The fat wrapped …" (## 1008) is not in the print: deleted.
 
 === p-0249
@@ -413,7 +413,7 @@ The page's first word "tion." ends "divination", written whole on p-0248.
 ## 1027
 **ἀκεῖται**. *Il.* 13. 115 ἀλλ’ ἀκεώμεθα θᾶσσον· ἀκεσταί τοι φρένες ἐσθλῶν.
 
-**ἀκίνητος**: cp. *O. T.* 336 ἄτεγκτος. Plat. *Tim.* 51 E τὸ μὲν ἀεὶ μετὰ ἀληθοῦς λόγου, τὸ δὲ ἄλογον· καὶ τὸ μὲν ἀκίνητον πειθοῖ, τὸ δὲ μεταπειστόν. *Il.* 15. 203 ἦ τι μεταστρέψεις; στρεπταὶ μέν τε φρένες ἐσθλῶν.
+**ἀκίνητος**: cp. *O. T.* 336 ἄτεγκτος. Plat. *Tim.* 51 E τὸ μὲν ἀεὶ μετὰ ἀληθοῦς λόγου, τὸ δὲ ἄλογον· καὶ τὸ μὲν ἀκίνητον πειθοῖ, τὸ δὲ μεταπειστόν. *Il.* 15. 203 ἤ τι μεταστρέψεις; στρεπταὶ μέν τε φρένες ἐσθλῶν.
 
 ## 1028
 **αὐθαδία** (poet. for αὐθάδεια), self-will, incurs the reproach of σκαιότης (for **ὀφλισκάνει** cp. 470). As δεξιός is a quick-witted man, of flexible and receptive mind, so σκαιός is one whose mental clumsiness makes him unapt to learn. σκαιότης, ‘ineptitude,’ is often associated with ignorance and with inaccessibility to new ideas. Cp. Plat. *Rep.* 411 E; one who omits to cultivate his mind acts βίᾳ...καὶ ἀγριότητι, ὥσπερ θηρίον..., καὶ ἐν ἀμαθίᾳ καὶ σκαιότητι μετὰ ἀρρυθμίας τε καὶ ἀχαριστίας ζῇ. Lys. or. 10 § 15 ἡγοῦμαι...τοῦτον...οὕτω σκαιὸν εἶναι ὥστε οὐ δύνασθαι μαθεῖν τὰ λεγόμενα. Ar. *Vesp.* 1183 ὦ σκαιὲ κἀπαίδευτε. So here σκαιότης expresses a stupidity that is deaf to remonstrance.
@@ -470,3 +470,4 @@ The page's first word "tion." ends "divination", written whole on p-0248.
 --- notes
 The page runs on from the note on 1021 at the foot of p-0250 ("Ar. *Av.* | 168"): `+ ` added.
 1021 (Her. 1. 87): printed ὥρα (Ionic for ἑώρα), as in the print.
+1027	rev: Il. 15. 203 "ἦ τι" → "ἤ τι" (enlarged: smooth breathing and acute, as printed)

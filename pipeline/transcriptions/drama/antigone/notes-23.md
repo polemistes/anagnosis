@@ -87,14 +87,14 @@
 + Delphian priestess) χρυσέων Διὸς αἰητῶν πάρεδρος (the golden eagles on the ὀμφαλός). Hor. *Carm.* 4. 4. 1 *ministrum fulminis alitem*.
 
 ## 1042
-**οὐδ’ ὥς**, not even (I say) in that case,—repeating the supposition, οὐδ’ εἰ θέλουσ’. Cp. *Il.* 9. 379 ff. οὐδ’ εἴ μοι δεκάκις τε καὶ εἰκοσάκις τόσα δοίη, | ... οὐδέ κεν ὧς ἔτι θυμὸν ἐμὸν πείσει’ Ἀγαμέμνων. *Od.* 22. 61 ff. οὐδ’ εἴ μοι πατρώϊα πάντ’ ἀποδοῖτε | ...οὐδέ κεν ὧς ἔτι χεῖρας ἐμὰς λήξαιμι φόνοιο.—Attic prose, too, used καὶ ὥς, ‘even in that case’ (Thuc. 1. 44), οὐδ’ ὥς (id. 1. 132), etc.
+**οὐδ’ ὥς**, not even (I say) in that case,—repeating the supposition, οὐδ’ εἰ θέλουσ’. Cp. *Il.* 9. 379 ff. οὐδ’ εἴ μοι δεκάκις τε καὶ εἰκοσάκις τόσα δοίη, | ... οὐδέ κεν ὣς ἔτι θυμὸν ἐμὸν πείσει’ Ἀγαμέμνων. *Od.* 22. 61 ff. οὐδ’ εἴ μοι πατρώϊα πάντ’ ἀποδοῖτε | ...οὐδέ κεν ὣς ἔτι χεῖρας ἐμὰς λήξαιμι φόνοιο.—Attic prose, too, used καὶ ὥς, ‘even in that case’ (Thuc. 1. 44), οὐδ’ ὥς (id. 1. 132), etc.
 
 **παρήσω**. οὐ μή, with the 2nd pers. fut. ind., prohibits; but with the 1st or 3rd pers. it can be used in emphatic denial, though the aor. subjunct. is more usual: *El.* 1052 οὔ σοι μὴ μεθέψομαί ποτε: see n. on *O. C.* 177. There is no reason, then, for suspecting the text (see cr. n.).
 
 ## 1044
 **θεοὺς μιαίνειν**. Teiresias had said that the altars were defiled (1016). Creon replies that he will not yield, even if birds fly with the carrion up to the very throne of Zeus;—‘*for no mortal can pollute the gods*.’ Campbell takes this to be an utterance of scepticism, like οὐκ ἔφα τις | θεοὺς βροτῶν ἀξιοῦσθαι μέλειν (Aesch. *Ag.* 369),—anticipating the Epicurean conception of gods who are neither pleased nor angered by men.
 
-This view seems to do some injustice to the poet’s dramatic psychology. I read the words quite differently. The most orthodox Greek piety held that ‘no mortal could pollute the gods.’ See, for example, Eur. *H. F.* 1232. Heracles, having recovered sanity after slaying his children, has covered his face, to hide it from the holy light of the sun. Theseus—who is a type of normal εὐσέβεια—makes him uncover, saying,—τί δ’; οὐ μιαίνεις θνητὸς ὢν τὰ τῶν θεῶν. The sungod cannot be polluted by a mortal. The idea of religious μίασμα was that a mortal had contracted some impurity which disqualified him for communion with the gods. The tainting of an altar cut off such communion by bringing uncleanness to the very place where men sought to be cleansed. Creon excitedly imagines a seemingly worse profanation, and then excuses his apparent impiety by a general maxim which all would admit:—‘no man can pollute the gods.’
+This view seems to do some injustice to the poet’s dramatic psychology. I read the words quite differently. The most orthodox Greek piety held that ‘no mortal could pollute the gods.’ See, for example, Eur. *H. F.* 1232. Heracles, having recovered sanity after slaying his children, has covered his face, to hide it from the holy light of the sun. Theseus—who is a type of normal εὐσέβεια—makes him uncover, saying,—τί δ’; οὐ μιαίνεις θνητὸς ὢν τὰ τῶν θεῶν. The sun-god cannot be polluted by a mortal. The idea of religious μίασμα was that a mortal had contracted some impurity which disqualified him for communion with the gods. The tainting of an altar cut off such communion by bringing uncleanness to the very place where men sought to be cleansed. Creon excitedly imagines a seemingly worse profanation, and then excuses his apparent impiety by a general maxim which all would admit:—‘no man can pollute the gods.’
 --- flags
 1 1 [digit] → ok
 2 Julminis [latin] (Greek model: ιεϊγεϊσιίς,) → fulminis
@@ -115,6 +115,8 @@ This view seems to do some injustice to the poet’s dramatic psychology. I read
 17 ΞΡ [greek] (Greek model: 1) → omitted (noise)
 --- notes
 1042 (1042 f.): παρήσω is bold after the dash: a further paragraph under 1042; "οὐ μή, with the 2nd pers. fut. ind., prohibits" (draft "ov μή ... ν prohibits"); καὶ ὥς, οὐδ’ ὥς (draft "kal ws", "οὐδ’ ws"); ὧς in the Homer quotations as printed; *Od.* 22. 61. 1044: the right column's last lines were interleaved by the OCR with noise from the page edge ("imagines and admit a then … ΡΨ. ΒΜ mr, ΜΝ Ψ90ΡΨ ΞΡ Ψ"): rewritten in the print's order from the image, the noise deleted; ‘*for no mortal can pollute the gods*.’ in italics as printed; "‘no mortal could" (draft "‘no’ mortal"); "Aesch. *Ag.*" (draft "Aesch.."); Theseus—who (no space). Italics set.
+1042	rev: ὣς (rough breathing and grave, as printed) twice in the Homer quotations, not ὧς
+1044	rev: "sun-god" (divided "sun-|god" at the line end; a hyphened compound, as Jebb's "Sun-god" in the Electra), not "sungod"
 
 === p-0255
 + ‘The sky-throne of Zeus is still more sacred than his altar on earth: if defilement cannot reach him there, much less here.’ The sophism is of the kind with which an honest but stubborn and wrongheaded man might seek to quiet his conscience. Creon reveres Zeus (304): he feels for the majesty of the gods, and refuses to believe that they can honour the wicked (284 ff.). But his religious sense is temporarily confused by his anger.

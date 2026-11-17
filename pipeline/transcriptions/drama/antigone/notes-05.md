@@ -49,7 +49,7 @@ Heading 162-991 read as 162-331 from the image; "**κοινῷ**® k. πέμψα
 **θρόνων . . κράτη**, powers belonging to the throne: cp. 60, 173.
 
 ## 167
-**ἡνίκ’ Οἰδίπους** κ.τ.λ. The only obscurity arises from the use of the plur. **κείνων** in 168. **κείνων παῖδας** ought to mean, ‘the descendants of Laïus and Oedipus,’ viz. Eteocles and Polyneices. But, as the sentence stands, it must mean, ‘the offspring of Laïus and of Oedipus *respectively*’; viz. Oedipus, the son of Laïus; Eteocles and Polyneices, the sons of Oedipus. The relative clause, **ἡνίκ’ . . ὤρθου πόλιν**, induced the poet to add immediately the other relative clause to which the same person is subject, viz. **ἐπεὶ διώλετο**, instead of inserting, after ὤρθου πόλιν, words expressing their loyalty to Oedipus. We might, indeed, suppose that, after ὤρθου πόλιν, we were intended to supply mentally, καὶ τὰ ἐκείνου θρόνων κράτη σέβοντας. But against this is the fact that, after **τοῦτο μὲν . . τοῦτ’ αὖθις**,—‘in the first place’ . . ‘in the second place,’—**καί** (in κἀπεὶ) would scarcely have been thus used to introduce a distinct third clause. Evidently **καί** links ἡνίκα ὤρθου to ἐπεὶ διώλετο.
+**ἡνίκ’ Οἰδίπους** κ.τ.λ. The only obscurity arises from the use of the plur. **κείνων** in 168. **κείνων παῖδας** ought to mean, ‘the descendants of Laïus and Oedipus,’ viz. Eteocles and Polyneices. But, as the sentence stands, it must mean, ‘the offspring of Laïus and of Oedipus *respectively*’; viz. Oedipus, the son of Laïus; Eteocles and Polyneices, the sons of Oedipus. The relative clause, **ἡνίκ’ . . ὤρθου πόλιν**, induced the poet to add immediately the other relative clause to which the same person is subject, viz. **ἐπεὶ διώλετο**, instead of inserting, after ὤρθου πόλιν, words expressing their loyalty to Oedipus. We might, indeed, suppose that, after ὤρθου πόλιν, we were intended to supply mentally, καὶ τὰ ἐκείνου θρόνων κράτη σέβοντας. But against this is the fact that, after **τοῦτο μέν . . τοῦτ’ αὖθις**,—‘in the first place’ . . ‘in the second place,’—**καί** (in κἀπεὶ) would scarcely have been thus used to introduce a distinct third clause. Evidently **καί** links ἡνίκα ὤρθου to ἐπεὶ διώλετο.
 
 **ἐμπέδοις φρονήμασιν**, with steadfast sentiments (of loyalty), modal dat., as oft. προθυμίᾳ, εὐνοίᾳ, φρονήματι (Thuc. 2. 62), etc. Hartung, whom some recent editors follow, adopts **ἐμπέδους** on the strange ground that Soph. must otherwise have written ἐμμένοντας. But **μένοντας** ἀμφὶ τοὺς κείνων παῖδας=‘remaining around them,’ and the modal dat. is added no less legitimately than the causal dat. in Eur. *Her.* 701 δειλίᾳ μένειν, ‘to remain through cowardice.’ Soph. could have said ἐμπέδους φρονήμασιν, as he has said συντρόφοις | ὀργαῖς ἔμπεδος (*Ai.* 639): but **ἐμπέδοις** is better here, both (*a*) because
 --- flags
@@ -75,7 +75,7 @@ Heading 162-991 read as 162-331 from the image; "**κοινῷ**® k. πέμψα
 20 dplov [latin] (Greek model: ὦρθου) → ὤρθου
 21 ὥρθου [accent] → ὤρθου
 22 ὥρθου [accent] → ὤρθου
-23 μέν... [conf] → μὲν . .
+23 μέν... [conf] → μέν . .
 24 place’. [conf] → place’
 25 . [conf] → . .
 26 place,’—kal [conf] → place,’—καί
@@ -88,6 +88,7 @@ Heading 162-991 read as 162-331 from the image; "**κοινῷ**® k. πέμψα
 33 (Ai. [conf] (Greek model: (4.) → ok
 --- notes
 **ὤρθωσαν** (after a dash, bold) made a new paragraph under 162; heading "164 f." → ## 164; "ἐμπέδοις φρονήμασιν" (bold after a dash) a new paragraph under 167; bold inside paragraphs (δίχα, κείνων, καί, μένοντας …) and italics set from the image; "be-|cause" written whole on this page.
+167	rev: "τοῦτο μὲν . ." → "τοῦτο μέν . ." (acute, as printed before the dots)
 
 === p-0110
 + a series of accusatives has preceded, and (*b*) because, as μένοντας has already marked their constancy, we now want an epithet for their φρονήματα.
@@ -186,7 +187,7 @@ The draft's lines from "ὅτε causal" to "ἀλλαλοφονίᾳ" (two colum
 **νῦν τε καὶ πάλαι**, an emphatic formula (‘seems, and has always seemed’), *El.* 676, *Ph.* 966: cp. *El.* 1049 πάλαι δέδοκται ταῦτα κοὐ νεωστί μοι: *Il.* 9. 105 οἷον ἐγὼ νοέω, ἠμὲν πάλαι ἠδ’ ἔτι καὶ νῦν.
 
 ## 182
-**μείζον’**: whoever recognises a friend *more important* than his country,—*i.e.* with stronger claims upon him: **ἀντὶ** τῆς...πάτρας instead of the simple gen., or **ἢ** with accus., as *Tr.* 576 ὥστε μήτιν’ εἰσιδὼν | στέρξει γυναῖκα κεῖνος ἀντὶ σοῦ πλέον. Cp. 638 (γάμος) μείζων φέρεσθαι, more important to win: *O. T.* 772 τῷ γὰρ ἂν καὶ μείζονι | λέξαιμ’ ἂν ἢ σοί..., ‘to whom more important,’ *i.e.* with a better claim on my confidence,—nearer and dearer. **μεῖζον** (which was written by the first hand in L) is specious,—‘a more important thing,’ a greater good: cp. Eur. *Or.* 784 μέγα γὰρ ηὑγένειά σου, *Andr.* 209 ἡ Λάκαινα μὲν πόλις | μέγ’ ἐστί. But Demosthenes, at least, seems to have read **μείζον’**: for, in applying the verses to Aeschines, he paraphrases thus (or. 19 § 248): τούτων οὐδὲν Αἰσχίνης εἶπε πρὸς αὐτὸν ἐν τῇ πρεσβείᾳ, ἀλλ’ ἀντὶ μὲν τῆς πόλεως τὴν Φιλίππου ξενίαν καὶ φιλίαν πολλῷ μείζονα ἡγήσατο αὐτῷ καὶ λυσιτελεστέραν, ἐρρῶσθαι πολλὰ φράσας τῷ σοφῷ Σοφοκλεῖ.
+**μείζον’**: whoever recognises a friend *more important* than his country,—*i.e.* with stronger claims upon him: **ἀντὶ** τῆς...πάτρας instead of the simple gen., or **ἤ** with accus., as *Tr.* 576 ὥστε μήτιν’ εἰσιδὼν | στέρξει γυναῖκα κεῖνος ἀντὶ σοῦ πλέον. Cp. 638 (γάμος) μείζων φέρεσθαι, more important to win: *O. T.* 772 τῷ γὰρ ἂν καὶ μείζονι | λέξαιμ’ ἂν ἢ σοί..., ‘to whom more important,’ *i.e.* with a better claim on my confidence,—nearer and dearer. **μεῖζον** (which was written by the first hand in L) is specious,—‘a more important thing,’ a greater good: cp. Eur. *Or.* 784 μέγα γὰρ ηὑγένειά σου, *Andr.* 209 ἡ Λάκαινα μὲν πόλις | μέγ’ ἐστί. But Demosthenes, at least, seems to have read **μείζον’**: for, in applying the verses to Aeschines, he paraphrases thus (or. 19 § 248): τούτων οὐδὲν Αἰσχίνης εἶπε πρὸς αὑτὸν ἐν τῇ πρεσβείᾳ, ἀλλ’ ἀντὶ μὲν τῆς πόλεως τὴν Φιλίππου ξενίαν καὶ φιλίαν πολλῷ μείζονα ἡγήσατο αὑτῷ καὶ λυσιτελεστέραν, ἐρρῶσθαι πολλὰ φράσας τῷ σοφῷ Σοφοκλεῖ.
 
 **οὐδαμοῦ λέγω**: Aesch. *Pers.* 497 θεοὺς δέ τις | τὸ πρὶν νομίζων οὐδαμοῦ, τότ’ ηὔχετο. Eur. *Andr.* 210 Σκῦρον οὐδαμοῦ τίθης (*nullo in numero habes*). Xen. *Mem.* 1. 2. 52 ὥστε μηδαμοῦ παρ’ αὐτοῖς τοὺς ἄλλους εἶναι πρὸς αὐτόν, ‘so that the rest *were nowhere* with them in comparison to him.’ So οὐδενὸς λόγου (or ἐν οὐδενὶ λόγῳ) ποιεῖσθαι, ἐν οὐδεμιᾷ μοίρᾳ ἄγειν, etc.
 
@@ -203,7 +204,7 @@ The draft's lines from "ὅτε causal" to "ἀλλαλοφονίᾳ" (two colum
 3 22), [conf] → ok
 4 Ξε [conf] → =a
 5 —z.e. [conf] (Greek model: -τὴπ.) → —*i.e.*
-6 7 [conf] → ἢ
+6 7 [conf] → ἤ
 7 μήτιν᾽ [accent] (Greek model: μήτω) → ok
 8 ydpos [latin] (Greek model: (φάμον)) → γάμος
 9 τὸ [conf] → τῷ
@@ -224,6 +225,8 @@ The draft's lines from "ὅτε causal" to "ἀλλαλοφονίᾳ" (two colum
 24 1]. [conf] → *Il.*
 --- notes
 The 182 note's middle (from "ἀντὶ φέρεσθαι" to "λέξαιμ’ ἂν 2.6.", lines of both columns interleaved) rewritten from the image; "(σεῖο in numero habes)" → (*nullo in numero habes*); **ἴστω** (after a dash) a new paragraph under 184; "182 f." → ## 182; αὐτὸν, αὐτῷ in the Demosthenes quotation as printed (smooth breathing).
+182	rev: the bold "ἢ" (or ἢ with accus.) is printed with the acute: **ἤ**
+182	rev: Demosthenes quotation: the print has the rough breathing in "πρὸς αὑτὸν" and "ἡγήσατο αὑτῷ" (compared under magnification with ἡ and ἀλλ’ on the same page); the remark above is wrong; Xenophon's "παρ’ αὐτοῖς … πρὸς αὐτόν" are smooth as printed
 
 === p-0113
 + that otherwise a disastrous precedent would be set. And though Polyneices was my nephew, I should never allow myself to recognise as friend or kinsman a man who had borne arms against the country.’
@@ -276,7 +279,7 @@ The 182 note's middle (from "ἀντὶ φέρεσθαι" to "λέξαιμ’ �
 ## 192
 **ἀδελφὰ τῶνδε**, the more usu. constr.: but *O. C.* 1262 ἀδελφὰ τούτοισιν (n.). This use of the word is freq. in Attic prose, as Plat. *Phaedr.* 276 D ὅσα τούτων ἀδελφά.
 
-**τῶν ἀπ’ Οἰδίπου**. In regard to origin, ἐκ is properly said of parents, ἀπό of ancestors: Isocr. or. 12 § 81 τοὺς μὲν ἀπὸ θεῶν τοὺς δ’ ἐξ αὐτῶν τῶν θεῶν γεγονότας. Cp. 466, 471, 1066; *Ph.* 260 παῖ πατρὸς ἐξ Ἀχιλλέως. *Ai.* 202 χθονίων ἀπ’ Ἐρεχθειδᾶν. But poetry oft. has ἀπό of the parent, as *O. C.* 571 κἀφ’ ὅτου πατρὸς γεγώς: while, again, ἐκ oft. denotes merely the stock (including progenitors above the parent): cp. 1056: so ἀγαθοὶ καὶ ἐξ ἀγαθῶν (Plat. *Phaedr.* 246 A), etc. The poetical indifference on this point is well seen in fr. 104, where τοὺς μὲν δυσσεβεῖς κακῶν τ’ ἄπο | βλαστόντας is opposed to τοὺς δ’ ὄντας ἐσθλοὺς ἔκ τε γενναίων ἅμα | γεγῶτας.
+**τῶν ἀπ’ Οἰδίπου**. In regard to origin, ἐκ is properly said of parents, ἀπό of ancestors: Isocr. or. 12 § 81 τοὺς μὲν ἀπὸ θεῶν τοὺς δ’ ἐξ **αὐτῶν** τῶν θεῶν γεγονότας. Cp. 466, 471, 1066; *Ph.* 260 παῖ πατρὸς ἐξ Ἀχιλλέως. *Ai.* 202 χθονίων ἀπ’ Ἐρεχθειδᾶν. But poetry oft. has ἀπό of the parent, as *O. C.* 571 κἀφ’ ὅτου πατρὸς γεγώς: while, again, ἐκ oft. denotes merely the stock (including progenitors above the parent): cp. 1056: so ἀγαθοὶ καὶ ἐξ ἀγαθῶν (Plat. *Phaedr.* 246 A), etc. The poetical indifference on this point is well seen in fr. 104, where τοὺς μὲν δυσσεβεῖς κακῶν τ’ ἄπο | βλαστόντας is opposed to τοὺς δ’ ὄντας ἐσθλοὺς ἔκ τε γενναίων ἅμα | γεγῶτας.
 
 ## 195
 **δορί** was the ordinary Attic form, occurring in prose (as Thuc. 1. 128, 4. 98), and was prob. used by Soph. as well as **δόρει**, which metre requires in *O. C.* 620 (n.), 1314, 1386: cp. n. on *O. C.* 1304.
@@ -303,6 +306,7 @@ The 182 note's middle (from "ἀντὶ φέρεσθαι" to "λέξαιμ’ �
 18  ἀφαγνίσηται, [conf] → ok
 --- notes
 **αὔξω** (bold after a dash) a new paragraph under 191; **τὰ πάντ’ ἐφαγνίσαι** (after a dash) a new paragraph under 195; **ἐπί**, **ἐφαγνίσαι**, **ἀφαγνίσαι**, **δόρει** bold inside their paragraphs as printed; "Dobree's ... 11. 60" → II. 60; "192 f.", "195 f." → ## 192, ## 195; "Thuc. I. 128" → 1. 128; "ἐπέcrepe" → ἐπέστεφε; Jebb prints "O.C. 484" without the space here, written *O. C.* as elsewhere.
+192	rev: in the Isocrates quotation "αὐτῶν" (τοὺς δ’ ἐξ αὐτῶν τῶν θεῶν) is printed in the bold type for emphasis: **αὐτῶν**
 
 === p-0115
 + she has made expiatory offerings to them. So ἀφαγνεύω in Plut. *Mor.* 943 C (the souls of the good are to suffer only so long) ὅσον ἀφαγνεῦσαι καὶ ἀποπνεῦσαι τοὺς ἀπὸ τοῦ σώματος . . μιασμούς (‘to purge away’: perh. we should read ἀφαγνίσαι). The force of **ἀπό** is thus the same as in ἀφοσιοῦσθαι, and in ἀφιερώμεθα as used by Aesch. *Eum.* 451 (‘I have been hallowed,’ *i.e.* purified). The case of κἀφαγιστεύσας below (247) is different from that of ἐφαγνίσαι here: it is, I think, for καὶ ἀφαγιστεύσας.

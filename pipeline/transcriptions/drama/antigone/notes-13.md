@@ -218,7 +218,7 @@ The apology is for her sister as well as for herself: even such prudence (cp. 68
 ## 566
 **τῆσδ᾽ ἄτερ** explains **μόνῃ**: cp. on 445.
 
-**βιώσιμον** is Ionic and poet.; the Attic word was βιωτός. It is needless to change τί (subst.) into πῶς. The more usual phrase was, indeed, impers., as Her. 1. 45 οὐδέ οἱ εἴη βιώσιμον: Plat. *Crito* 47 D ἆρα βιωτὸν ἡμῖν ἐστί; But, just as we can have ὁ βίος οὐ βιωτός ἐστι (cp. *O. C.* 1691), so also οὐδὲν βιωτόν ἐστι, no form of life is tolerable. Cp. *O. T.* 1337 τί δῆτ᾽ ἐμοὶ βλεπτόν, ἢ | στερκτόν, ἢ προσήγορον | ἔτ᾽ ἔστ᾽, etc., where the only difference is that the subst. τί corresponds to an object. accus., and not as here to a cognate (βίον βιῶναι).
+**βιώσιμον** is Ionic and poet.; the Attic word was βιωτός. It is needless to change **τί** (subst.) into πῶς. The more usual phrase was, indeed, impers., as Her. 1. 45 οὐδέ οἱ εἴη βιώσιμον: Plat. *Crito* 47 D ἆρα βιωτὸν ἡμῖν ἐστί; But, just as we can have ὁ βίος οὐ βιωτός ἐστι (cp. *O. C.* 1691), so also οὐδὲν βιωτόν ἐστι, no form of life is tolerable. Cp. *O. T.* 1337 τί δῆτ᾽ ἐμοὶ βλεπτόν, ἢ | στερκτόν, ἢ προσήγορον | ἔτ᾽ ἔστ᾽, etc., where the only difference is that the subst. τί corresponds to an object. accus., and not as here to a cognate (βίον βιῶναι).
 
 ## 567
 **ἀλλὰ...μέντοι**, ‘nay, but...’: cp. *Ph.* 524 ἀλλ᾽ αἰσχρὰ μέντοι σοῦ γέ μ᾽ ἐνδεέστερον | ξένῳ φανῆναι.
@@ -256,6 +256,7 @@ The apology is for her sister as well as for herself: even such prudence (cp. 68
 29 (e.g.) [conf] (Greek model: (.9.)) → ok (*e.g.*)
 --- notes
 Eur. *Antigone* fr. 165 (draft 163); "cp. 1105" (draft 105); "see on 21" (draft 2I1).
+566	rev: "change **τί** (subst.)": τί is in the bold type in the print (πῶς after it is not)
 
 === p-0177
 + however, no fair objection would remain if we had ἀλλὰ τὸ ἥδε μὴ λέγε, *i.e.* ‘never use the word ἥδε about her,’—which makes the sense more general than if he said, ἀλλὰ τῆσδε μὴ λέγε, *i.e.* ‘do not say (that you cannot live without) ἥδε.’ The question, then, seems to resolve itself into this:—Wishing to give the more general sense just indicated, could the poet say ἥδε instead of τὸ ἥδε? To show that the art. was not always required in such quotation, it is enough to cite Ar. *Eq.* 21 λέγε δὴ μόλωμεν, by the side of τὸ μόλωμεν *ib.* 26. While, then, I cannot produce any exact parallel for this ἥδε, I think it reasonable to suppose that colloquial idiom would have allowed it. Those who deny this have two resources. (1) To point thus: ἀλλ᾽ ἥδε μέντοι—μὴ λέγ᾽· *i.e.* instead of adding οὐκ ἔστιν ἔτι after μέντοι, he breaks off his sentence—‘do not speak of her.’ So Bellermann. (2) Semitelos reads ἀλλ᾽ ἥδε μέν σοι μὴ λέγ᾽ ὡς ἄρ᾽ [for οὐ γὰρ] ἔστ᾽ ἔτι, ‘do not say that you have *her* any longer.’ As to σοι, see cr. n. above. Neither of these readings gives such a forcible sense as the vulgate.

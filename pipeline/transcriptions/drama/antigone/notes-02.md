@@ -2,7 +2,7 @@
 ## 35
 **παρ’ οὐδέν**: cp. 466: *O. T.* 983 ταῦθ’ ὅτῳ | παρ’ οὐδέν ἐστι. The addition of **ὡς** serves to mark Creon’s point of view more strongly: cp. *O. C.* 732 ἥκω γὰρ οὐχ ὡς δρᾶν τι βουληθείς, n.
 
-**ὃς ἂν...δρᾷ**, the antecedent τούτῳ being suppressed, =a dat., τῷ δρῶντι: cp. Isocr. or. 18 § 37 προσήκει βοηθεῖν ὑμᾶς οὐχ οἵτινες ἂν δυστυχεστάτους σφᾶς αὐτοὺς ἀποδείξωσιν ἀλλ’ οἵτινες ἂν δικαιότερα λέγοντες φαίνωνται. That such a relative clause was felt as practically equivalent to a noun-case may be seen from Thuc. 2. 62, where it is co-ordinated with a dative: αὔχημα μὲν...καὶ δειλῷ τινὶ ἐγγίγνεται, καταφρόνησις δέ, ὃς ἂν καὶ γνώμῃ πιστεύῃ. Thuc. uses this constr. esp. in definitions, as 6. 14, τὸ καλῶς ἄρξαι τοῦτ’ εἶναι, ὃς ἂν τὴν πατρίδα ὠφελήσῃ.
+**ὃς ἂν...δρᾷ**, the antecedent τούτῳ being suppressed, =a dat., τῷ δρῶντι: cp. Isocr. or. 18 § 37 προσήκει βοηθεῖν ὑμᾶς οὐχ οἵτινες ἂν δυστυχεστάτους σφᾶς αὑτοὺς ἀποδείξωσιν ἀλλ’ οἵτινες ἂν δικαιότερα λέγοντες φαίνωνται. That such a relative clause was felt as practically equivalent to a noun-case may be seen from Thuc. 2. 62, where it is co-ordinated with a dative: αὔχημα μὲν...καὶ δειλῷ τινὶ ἐγγίγνεται, καταφρόνησις δέ, ὃς ἂν καὶ γνώμῃ πιστεύῃ. Thuc. uses this constr. esp. in definitions, as 6. 14, τὸ καλῶς ἄρξαι τοῦτ’ εἶναι, ὃς ἂν τὴν πατρίδα ὠφελήσῃ.
 
 ## 36
 **δημόλευστον**=λευσθέντα ὑπὸ τοῦ δήμου, the epith. of the victim being transferred to the doom: *Tr.* 357 ὁ ῥιπτὸς Ἰφίτου μόρος. Cp. Aesch. *Ag.* 1616 δημορριφεῖς...λευσίμους ἀράς. Death by public stoning would mean that the transgressor was execrated as a traitor to the commonweal: see n. on *O. C.* 435.
@@ -45,9 +45,10 @@
 21 ἐφάπτουσα [greek] (Greek model: ἸΓἐφάπτουσα ἰε) → ok
 --- notes
 Read through against the columns: the draft had run lines of the right column into the left (35, 40); rewritten in the print's order. 1020 → 1026; *Tr.* 357; n. on *O. C.* 435; δύσποτμος; ταῦτα... | ...τῇδε; italics set.
+35	rev: Isocr. quotation "σφᾶς αὑτοὺς": rough breathing as printed (enlarged; draft had αὐτοὺς)
 
 === p-0085
-+ the poet has refined a colloquialism by modifying ἅπτουσα into ἐφάπτουσα, just as τί δρῶν ἢ τί λέγων (cp. Aesch. *P. V.* 660) appears in *O. T.* 71 as ὅ τι | δρῶν ἢ τί φωνῶν. Some find a reference to weaving;—‘by loosening the web, or fastening a new thread’; but, though the phrase may have been first suggested by the loom, it was probably used without any such conscious allusion. Quite different from our passage is *Ai.* 1317 εἰ μὴ ξυνάψων ἀλλὰ συλλύσων πάρει, ‘not to embroil the feud, but to help in solving it’: cp. Eur. *Hipp.* 670 τίνας νῦν τέχνας ἔχομεν ἢ λόγους | σφαλεῖσαι κάθαμμα λύειν λόγου; ‘to loose the knot of controversy.’—Another view makes the phrase refer to Creon’s edict: ‘seeking to undo it, or *to tighten it*,’—*i.e.* to break it, or to make it more stringent than it already is (schol. λύουσα τὸν νόμον, ἢ βεβαιοῦσα αὐτόν). But, though Antigone has not yet revealed her purpose, too great callousness is ascribed to Ismene if she is supposed to doubt whether her sympathy is invited against or *for* such an edict.—The *act.* **ἐφάπτειν** is rare: *Tr.* 933 τοὔργον ὡς ἐφάψειεν, that he had imposed the deed on her (by his fierce reproaches): Pind. *O.* 9. 60 μὴ καθέλοι νιν αἰὼν πότμον ἐφάψαις | ὀρφανὸν γενεᾶς. Was Porson right in conjecturing **εἴθ’ ἅπτουσα**? For it, we may observe:—(1) An opposition of the simple λύειν and ἅπτειν suits a proverbial phrase: (2) ἢ and εἰ are elsewhere confused, as *O. C.* 80 (n.): (3) the single εἴτε is found in *O. T.* 517 λόγοισιν εἴτ’ ἔργοισιν, *Tr.* 236 πατρῴας εἴτε βαρβάρου; Against the conjecture is the fact that εἴθ’ ἅπτουσα would have been much less likely to generate the ἢ θάπτουσα of our MSS., since the intermediate εἰ θάπτουσα, being obviously unmeaning, would have been likely to cure itself.
++ the poet has refined a colloquialism by modifying ἅπτουσα into ἐφάπτουσα, just as τί δρῶν ἢ τί λέγων (cp. Aesch. *P. V.* 660) appears in *O. T.* 71 as ὅ τι | δρῶν ἢ τί φωνῶν. Some find a reference to weaving;—‘by loosening the web, or fastening a new thread’; but, though the phrase may have been first suggested by the loom, it was probably used without any such conscious allusion. Quite different from our passage is *Ai.* 1317 εἰ μὴ ξυνάψων ἀλλὰ συλλύσων πάρει, ‘not to embroil the feud, but to help in solving it’: cp. Eur. *Hipp.* 670 τίνας νῦν τέχνας ἔχομεν ἢ λόγους | σφαλεῖσαι κάθαμμα λύειν λόγου; ‘to loose the knot of controversy.’—Another view makes the phrase refer to Creon’s edict: ‘seeking to undo it, or *to tighten it*,’—*i.e.* to break it, or to make it more stringent than it already is (schol. λύουσα τὸν νόμον, ἢ βεβαιοῦσα αὐτόν). But, though Antigone has not yet revealed her purpose, too great callousness is ascribed to Ismene if she is supposed to doubt whether her sympathy is invited against or *for* such an edict.—The *act.* ἐφάπτειν is rare: *Tr.* 933 τοὔργον ὡς ἐφάψειεν, that he had imposed the deed on her (by his fierce reproaches): Pind. *O.* 9. 60 μὴ καθέλοι νιν αἰὼν πότμον ἐφάψαις | ὀρφανὸν γενεᾶς. Was Porson right in conjecturing **εἴθ’ ἅπτουσα**? For it, we may observe:—(1) An opposition of the simple λύειν and ἅπτειν suits a proverbial phrase: (2) ἢ and εἰ are elsewhere confused, as *O. C.* 80 (n.): (3) the single εἴτε is found in *O. T.* 517 λόγοισιν εἴτ’ ἔργοισιν, *Tr.* 236 πατρῴας εἴτε βαρβάρου; Against the conjecture is the fact that εἴθ’ ἅπτουσα would have been much less likely to generate the ἢ θάπτουσα of our MSS., since the intermediate εἰ θάπτουσα, being obviously unmeaning, would have been likely to cure itself.
 
 **προσθείμην**: cp. *O. C.* 767 προσθέσθαι χάριν, n.
 
@@ -106,6 +107,7 @@ Read through against the columns: the draft had run lines of the right column in
 33 n. [conf] → ok
 --- notes
 Read through: 41 f. and 43 f. lemmas read from the image (the draft had "ξ." and "Παπά"); Aesch. *P. V.*, *Ai.*, *Tr.*, Pind. *O.*, *O. T.* 517; 5106 → 516; bold inside paragraphs (ποῦ, ποῖ, ξὺν τῇδε χερί, εἴθ’ ἅπτουσα, ἐφάπτειν) as printed; italics set.
+40	rev: "The *act.* ἐφάπτειν is rare": ἐφάπτειν is in the ordinary sloping Greek (heavy ink), not the bold face: bold taken away
 
 === p-0086
 ## 45
@@ -283,7 +285,7 @@ The draft had run the right column's lines into the left at 1175 f. ("τόχει
 
 **τοὺς ὑπὸ χθονός**, the gods below (451), and also the departed spirit of Polyneices,—which, like the spirit of the unburied Patroclus (*Il.* 23. 65), can have no rest till sepulture has been given to the corpse. Cp. *O. C.* 1775 τῷ κατὰ γῆς (Oedipus): for the allusive plur., *El.* 1419 ζῶσιν οἱ γᾶς ὑπαὶ κείμενοι (Agamemnon). In ref. to the nether world, Attic writers regularly join ὑπό with *gen.*, not dat.: *El.* 841 ὑπὸ γαίας...ἀνάσσει: *Tr.* 1097 τόν θ’ ὑπὸ χθονὸς | Ἅιδου...σκύλακα: Plat. *Phaedr.* 249 A τὰ ὑπὸ γῆς δικαστήρια. Indeed ὑπό with *dat.* is altogether rare in Attic prose, except as meaning (*a*) under an authority, as ὑπὸ νόμοις, or (*b*) under a class, as Plat. *Symp.* 205 B αἱ ὑπὸ πάσαις ταῖς τέχναις ἐργασίαι. In poetry, Attic and other, it is freq. also in the local sense: cp. 337 ὑπ’ οἴδμασιν.
 
-**βιάζομαι τάδε**, pass. with cogn. acc., as 1073 βιάζονται τάδε. Cp. *Ph.* 1366 κἄμ’ ἀναγκάζεις τάδε; and below,
+**βιάζομαι τάδε**, pass. with cogn. acc., as 1073 βιάζονται τάδε. Cp. *Ph.* 1366 κἄμ’ ἀναγκάζεις τάδε; and below, 219.
 --- flags
 1 péva [latin] (Greek model: χιτεμόνα.) → cp. 7.—**μόνα** (new paragraph)
 2 “αὐ [conf] → ‘*all*
@@ -320,6 +322,7 @@ The draft had run the right column's lines into the left at 1175 f. ("τόχει
 33 κἄμ᾽ [conf] → ok
 --- notes
 Rewritten in the print's order: the draft had interleaved lines of the two columns at 60 (κράτη, the disjunctive ἢ) and 63 (*Ph.* 607, *Ai.* 1235). Lemma **βιάζομαι τάδε** read from the image (draft "βιάζομαι Ta de"). 4]50 → also; μ41 → 441; *O. C.* 392 n.; *El.* 264, *El.* 1419, *El.* 841, *Tr.* 1097 set.
+65	rev: the right column's last printed line "219." (cut off the column crop) added from the page: "and below, 219."
 
 === p-0090
 ## 67

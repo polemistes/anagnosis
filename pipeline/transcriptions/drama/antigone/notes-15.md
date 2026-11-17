@@ -51,7 +51,7 @@ In the MS. reading (see cr. n.) νύμφης is a gloss on **τάλιδος**: b
 Third ἐπεισόδιον. Haemon vainly intercedes with his father. They quarrel, and the son abruptly leaves the scene (765). Creon then commands that Antigone shall at once be immured in a rocky vault.
 
 ## 631
-**μάντεων ὑπέρτερον**=βέλτιον ἢ μάντεις ἴσασιν (and better, therefore, than they could tell us). Schol. ὁ λόγος παροιμιακῶς, ὁπότε μὴ στοχασμῷ χρώμεθα, ἀλλ’ αὐτόπται τῶν πραγμάτων γινόμεθα. Eur. *H. F.* 911 ΑΓ. ἄλαστα τἀν δόμοισι.—ΧΟ. μάντιν οὐχ ἕτερον ἄξομαι, ‘I will not bring a seer, other than myself’ (cp. *O. T.* 6), *i.e.* ‘I need no seer to tell me that’:—imitated by the author of the *Rhesus* 949 σοφιστὴν δ’ ἄλλον οὐκ ἐπάξομαι, who also has 952 ἤδη τάδ’· οὐδὲν μάντεως ἔδει φράσαι. Cp. *O. C.* 403.
+**μάντεων ὑπέρτερον**=βέλτιον ἢ μάντεις ἴσασιν (and better, therefore, than they could tell us). Schol. ὁ λόγος παροιμιακῶς, ὁπότε μὴ στοχασμῷ χρώμεθα, ἀλλ’ αὐτόπται τῶν πραγμάτων γινόμεθα. Eur. *H. F.* 911 ΑΓ. ἄλαστα τἀν δόμοισι.—ΧΟ. μάντιν οὐχ ἕτερον ἄξομαι, ‘I will not bring a seer, other than myself’ (cp. *O. T.* 6), *i.e.* ‘I need no seer to tell me that’:—imitated by the author of the *Rhesus* 949 σοφιστὴν δ’ ἄλλον οὐκ ἐπάξομαι, who also has 952 ᾔδη τάδ’· οὐδὲν μάντεως ἔδει φράσαι. Cp. *O. C.* 403.
 
 ## 632
 **τελείαν** announces that he will not yield.
@@ -115,6 +115,7 @@ Third ἐπεισόδιον. Haemon vainly intercedes with his father. They quar
 49 λυσ [accent] → λυσσῶσαν
 --- notes
 The draft had the range note 631—780 as unheaded text after 630 and the 631 lemma (μάντεων ὑπέρτερον=βέλτιον …) split in two paragraphs: made `## 631-780` and `## 631` in the print's order. "**γέννημ’**: cp. 471 n." follows a full stop without a dash: kept in the paragraph. "—ΧΟ. μάντιν …" (plain type) joined back with the dash. λυσσῶσαν divided between pages: written whole here. Checker "“ην” has no breathing": Curtius's stem division τέρ-ην, printed so (the second piece of a hyphenated word, not a word). Italics set (*also*, *Il.*, *tár-una-s*, *tál-unī*, *H. F.*, *O. T.*, *i.e.*, *Rhesus*, *O. C.*, *El.*).
+631	rev: Rhesus 952 ᾔδη (iota subscript printed), not ἤδη
 
 === p-0190
 + (492). I therefore think λυσσαίνων genuine, and a finer reading than the variant noted in L, **θυμαίνων**. The latter word is used by Hesiod, and in Attic comedy. Some recent edd. place it in the text.

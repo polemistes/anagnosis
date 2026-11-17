@@ -215,7 +215,7 @@ Read through and retyped where the OCR had mixed the columns' lines (end of 691 
 
 **ἦθος** = a way of *thinking*: the inf. depends on it, as on ‘do not *think*.’ **ὡς φὴς σύ**, your way of speaking, = ὃ σὺ φής: cp. *O. C.* 1124 (n.) καί σοι θεοὶ πόροιεν ὡς ἐγὼ θέλω.
 
-**κοὐδέν**, not καὶ μηδέν: it is merely oratio obliqua for ὅτι τοῦτο καὶ οὐδὲν ἄλλο ὀρθῶς ἔχει. The imperative μὴ...φόρει does not affect this: cp. *Ai.* 1085 καὶ μὴ δοκῶμεν δρῶντες ἂν ἡδώμεθα | οὐκ ἀντιτίσειν αὖθις ἂν λυπώμεθα. But καὶ μηδέν could also have stood here, since v. 705 could be regarded as equiv. to, ‘do not feel confident that...’: see n. on *O. T.* 1455.
+**κοὐδέν**, not καὶ μηδέν: it is merely oratio obliqua for ὅτι τοῦτο καὶ οὐδὲν ἄλλο ὀρθῶς ἔχει. The imperative μὴ...φόρει does not affect this: cp. *Ai.* 1085 καὶ μὴ δοκῶμεν δρῶντες ἃν ἡδώμεθα | οὐκ ἀντιτίσειν αὖθις ἃν λυπώμεθα. But καὶ μηδέν could also have stood here, since v. 705 could be regarded as equiv. to, ‘do not feel confident that...’: see n. on *O. T.* 1455.
 
 **τοῦτο**, antecedent to ὡς φής, emphatically placed: cp. *O. T.* 385.
 
@@ -249,6 +249,7 @@ Read through and retyped where the OCR had mixed the columns' lines (end of 691 
 23 1 [digit] → cp.
 --- notes
 Read through and retyped the right column and the foot of the left, where the OCR had mixed the lines (703, 705, 707): 703 split into θάλλοντος, μεῖζον εὐκλείας = μεῖζον ἢ εὔκλεια, πρὸς παίδων (bold lemmas after dashes); 705 into νυν, φόρει, ἦθος, κοὐδέν, τοῦτο; 707 into μόνος, ψυχήν; headings 703 f., 705 f., 707 f. → ## 703, ## 705, ## 707; Pind. "Ο. 9. τό" → *O.* 9. 16, ἀρεταῖσιν; Hes. *Op.* 234; *Ph.* 478, *Ai.* 465, *Eq.*, *Caes.*; bold ἀξία, ὡς φὴς σύ (inside the paragraph, no dash: kept there).
+705	rev: *Ai.* 1085 δρῶντες ἃν ἡδώμεθα ... αὖθις ἃν λυπώμεθα: rough breathing on both ἃν (= ἃ ἄν) as printed (the draft had ἂν)
 
 === p-0201
 + αὐτὸς μοῦνος ποικίλα δήνε’ (devices) ἔχειν, | κεῖνός γ’ ἄφρων ἐστί, νόου βεβλαμμένος ἐσθλοῦ, | ἴσως γὰρ πάντες ποικίλ’ ἐπιστάμεθα. Isocr. or. 3 § 43 joins Theognis, Hesiod and Phocylides as ἀρίστους...συμβούλους τῷ βίῳ τῷ τῶν ἀνθρώπων. They were read in schools.
@@ -318,7 +319,7 @@ Read through against the columns: κενοί (bold after a dash) made a paragrap
 Checker: "ᾱ" (for ᾱ before initial ῥ) is a letter named, printed without breathing.
 
 === p-0202
-+ Doric for νεώς, allowed by tragedy even in iambics, as *Ai.* 872, Aesch. *Th.* 62, Eur. *Med.* 523: though νᾶες (953) and ναῒ occur only in lyrics. So ναός, temple (286), Ἀθάνα, κυναγός, ὁδαγός, ποδαγός (1196): and even in Att. prose λοχαγός, οὐραγός, ξεναγός.
++ Doric for νεώς, allowed by tragedy even in iambics, as *Ai.* 872, Aesch. *Th.* 62, Eur. *Med.* 523: though νᾶες (953) and ναΐ occur only in lyrics. So ναός, temple (286), Ἀθάνα, κυναγός, ὁδαγός, ποδαγός (1196): and even in Att. prose λοχαγός, οὐραγός, ξεναγός.
 
 **ἐγκρατῆ**, proleptic: cp. 475 περισκελῆ.
 
@@ -379,6 +380,7 @@ Checker: "ᾱ" (for ᾱ before initial ῥ) is a letter named, printed without b
 36 if [conf] → ok
 --- notes
 Read through against the columns: deleted the stray "«" after ξεναγός.; στρέφω = ἀναστρέφω joined into the κάτω στρέψας paragraph (the draft had cut it and made ἀναστρέφω a false lemma); 716 f. → ## 716; εἶκε θυμοῦ made the bold lemma of 718; Eur. Hipp. 900 quotation mended (ἐξανεὶς, "472 12." → *Hipp.*, "15" → is); Andoc. παρόντος ... μετάστασιν, Alexis φρενῶν joined; *Il.* 4. 509, *ib.* 5. 348 for the OCR's "27." and "16."; bold εἶκε, καί, τὸ πλοῖον, τὸ λοιπόν, ὑπτίοις inside paragraphs; lemma of 719 εἴ τις γνώμη πρόσεστι καὶ ἀπ’ ἐμοῦ ν. all bold as printed.
+715	rev: ναῒ → ναΐ (the print has the acute with the diaeresis)
 
 === p-0203
 + opinion. Cp. *O. C.* 292 τἀνθυμήματα | ...τἀπὸ σοῦ, the thoughts urged on thy part. *El.* 1464 τελεῖται τἀπ’ ἐμοῦ. For the modest **καί**, cp. *O. T.* 1100 εἰ χρή τι κἀμὲ...σταθμᾶσθαι: *Ph.* 192 εἴπερ κἀγώ τι φρονῶ.—If **κἀπ’** were taken as καὶ ἐπί, it must mean, ‘in my case also.’ Plat. *Rep.* 475 A ἐπ’ ἐμοῦ λέγειν (to take me as an instance). In *El.* 1469 I formerly thus took κἀπ’ ἐμοῦ θρήνων τύχῃ, but now think that there, too, it is καὶ ἀπό.

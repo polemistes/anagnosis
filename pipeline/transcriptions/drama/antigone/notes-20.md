@@ -390,3 +390,4 @@ Said by Creon, clearly—not by the Chorus. ‘I can give thee no encouragement 
 --- notes
 929: "storm-gusts" is divided at the line end (storm-|gusts): written with its hyphen, as a compound. αὐταὶ, αὐταί with smooth breathing as printed (the draft had rough).
 927: only καὶ is bold in "καὶ δρῶσιν"; δρῶσιν is in plain Greek type.
+929	rev: the print has no stop after "νύμφας" at the line end before "—Dindorf’s" (dropped type; Jebb's ".—" elsewhere); the stop kept as an evident misprint corrected

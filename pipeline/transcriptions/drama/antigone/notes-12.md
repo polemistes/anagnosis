@@ -205,6 +205,7 @@
 17 it,=*‘I [conf] → it,’=‘I
 18 η.---ὑπίλλουσιν [conf] → n.—ὑπίλλουσιν
 --- notes
+508	rev: the lemma τοῦτο...ὁρᾷς is printed ὁρᾶς, without the iota subscript (dropped or worn type in the bold face, which prints it elsewhere, e.g. the lemma ᾑρῆσθαι on p-0165); kept as ὁρᾷς, the verse's form (evident misprint); not changed
 
 === p-0168
 + Appendix on 340), lit., ‘turn’ (or ‘roll’) ‘under,’ said of an animal putting its tail between its legs; cp. Eur. fr. 544 (from his Οἰδίπους,—referring to the Sphinx) οὐρὰν δ’ ὑπίλασ’ ὑπὸ λεοντόπουν βάσιν | καθέζετ’. Verg. *Aen.* 11. 812 (a terrified wolf) *caudamque remulcens Subiecit pavitantem utero.* Here, ‘keep down’ the utterance of their thoughts; ‘make their lips subservient’ to thee. Cp. σαίνειν, *adulari*.—Euphony commends, though metre does not require, the ν ἐφελκυστικόν, which L gives. Cp. 571.

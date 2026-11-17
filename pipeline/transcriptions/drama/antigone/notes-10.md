@@ -44,7 +44,7 @@
 ## 395
 **καθῃρέθη** (cp. 383 καθελόντες) is clearly better here than L’s καθευρέθη: and the compound καθευρίσκω is nowhere found in classical Attic.
 
-**τάφον κοσμοῦσα**, paying the due rites of burial (τάφον = ταφήν, cp. 490), by sprinkling the dust and pouring the libations on the corpse. κοσμέω was specially said of obsequies: cp. 901, *El.* 1139 λουτροῖς ἐκόσμησ’.
+**τάφον κοσμοῦσα**, paying the due rites of burial (τάφον=ταφήν, cp. 490), by sprinkling the dust and pouring the libations on the corpse. κοσμέω was specially said of obsequies: cp. 901, *El.* 1139 λουτροῖς ἐκόσμησ’.
 
 **ἐπάλλετο**, as when lots were shaken in a helmet (*Ai.* 1285; cp. *El.* 710). His **ἕρμαιον** is the luck of being the first to bring the glad tidings,—as his former mission was ironically called τοῦτο τἀγαθόν (275). In the discovery and seizure of Antigone he had no greater share than his comrades (432).
 
@@ -99,6 +99,7 @@ Observe the order of the words as marking his amazement. For the double interrog
 32 ze. [conf] → i.e.
 --- notes
 395: the heading "995 f." left as text by the draft made `## 395` (395 f.) from the image; ἐπάλλετο (396) after a dash is bold: a further paragraph under 395. Bold ἔοικε and ἕρμαιον inside paragraphs set as printed. 399: κρῖνε=ἀνάκρινε (only κρῖνε bold); the line "kpive=drakpwe" rewritten. 403: lemma ἦ καὶ restored (the draft had "1 καὶ … πη. … θοί}.᾽"); ὀρθῶς after the dash is bold: new paragraph. Tr. 484 (draft "77."), Ph. 241 (draft "Άλ.") set from the image. Italics set.
+395	rev: "τάφον = ταφήν" closed up to "τάφον=ταφήν" as printed
 
 === p-0150
 + mean to say? (Not, merely, ‘truly,’ *i.e.* in accordance with the fact: cp. 99 n.)
@@ -218,7 +219,7 @@ The incident of the storm was a dramatic necessity, to account for Antigone reac
 **χθονὸς** (*from* the ground) with ἀείρας: cp. *O. T.* 142 βάθρων | ἵστασθε, n.
 
 ## 418
-**τυφώς**, the whirlwind: the **σκηπτός** is the storm of dust (κονιορτός) which it lifts from the ground. The word σκηπτός usu. = ‘a thunderbolt,’ and by its deriv. ought at least to mean a storm swooping on the earth from the sky; but the schol. attests its use in a larger sense; σκηπτὸς δὲ λέγεται πᾶν πνεῦμα θυελλῶδες, ὅταν συνερείδῃ τῇ γῇ, καὶ πάλιν ἄνω αἴρῃ· τὸ δὲ τοιοῦτο καὶ στρόβῑλόν τινες καλοῦσι, παρὰ τὸ στροβεῖν.
+**τυφώς**, the whirlwind: the **σκηπτός** is the storm of dust (κονιορτός) which it lifts from the ground. The word σκηπτός usu.=‘a thunderbolt,’ and by its deriv. ought at least to mean a storm swooping on the earth from the sky; but the schol. attests its use in a larger sense; σκηπτὸς δὲ λέγεται πᾶν πνεῦμα θυελλῶδες, ὅταν συνερείδῃ τῇ γῇ, καὶ πάλιν ἄνω αἴρῃ· τὸ δὲ τοιοῦτο καὶ στρόβῑλόν τινες καλοῦσι, παρὰ τὸ στροβεῖν.
 
 **οὐράνιον ἄχος**, a trouble in the sky (cp. *O. C.* 1466 οὐρανία...ἀστραπή), since the cloud of dust darkened the sky: schol. τὸ λυποῦν τὸν αἰθέρα, καθὸ ταράσσει αὐτόν: only ἄχος is rather what annoys *us* than what annoys the (personified) οὐρανός. In these lines the poet describes the actual physical
 --- flags
@@ -255,6 +256,8 @@ The incident of the storm was a dramatic necessity, to account for Antigone reac
 31 zs [conf] → us
 --- notes
 413 run-on: "Infr. 521" is "In fr. 521" (the print's spacing). 414: the bold ἀφειδήσοι inside the paragraph set as printed. 416: Jebb prints "416 f."; χθονὸς after the dash is bold: a further paragraph under 416 (the draft had it, but lacked "*from*"); βέλε’ ἥπτετο (draft "BENE ἧπτετο"). 418: στρόβῑλόν with the macron as printed; bold σκηπτός inside the paragraph; the schol. quotation has no quotation mark in the print. Italics set.
+416	rev: "ἀείρας" kept; the scan shows no breathing on its α (worn type)
+418	rev: "usu. = ‘a" closed up to "usu.=‘a" as elsewhere in the file
 
 === p-0153
 + effects produced by the storm. He mentions the destruction of foliage; and we need some reference also to the main point of all—the obscuring of the air. Therefore I should not take οὐράνιον ἄχος as=‘a *heaven-sent* plague’; that is presently said by θείαν νόσον (421). A third version—‘a trouble rising *high as* heaven’ (like οὐράνιον πήδημα, etc.)—is also possible, but less suitable here than either of the others. In Aesch. *Suppl.* 809 ἴυζε δ’ ὀμφὰν οὐρανίαν, the adj. clearly=οὐρανομήκη, and so perh. in *Pers.* 572 ἀμβόασον οὐράνι’ ἄχη, though there (as in *Ai.* 196 ἄταν οὐρανίαν φλέγων) ‘heaven-sent’ is at least equally fitting.—For the tribrach in the 5th place, see *O. T.* 719 n.
@@ -267,7 +270,7 @@ The incident of the storm was a dramatic necessity, to account for Antigone reac
 **ἐν δ’ ἐμεστ.**, tmesis: cp. 1274, *El.* 713 ἐν δὲ πᾶς ἐμεστώθη δρόμος. Distinguish the adv. ἐν δέ (and withal), *O. T.* 27 n.
 
 ## 421
-**μύσαντες**. μύω (from μῦ, a sound made with closed lips)=‘to be shut,’ said of the eyes, the lips, or any opening (*Il.* 24. 637 οὐ γάρ πω μύσαν ὄσσε): but the aor. part. regularly meant, ‘with eyes shut’: Plat. *Gorg.* 480 C παρέχειν μύσαντα καὶ ἀνδρείως ὥσπερ τέμνειν καὶ κάειν ἰατρῷ. There was a proverb, μύσαντα φέρειν (‘to grin and bear it’), Meineke *Com.* 3, p. 4.
+**μύσαντες**. μῡ́ω (from μῦ, a sound made with closed lips)=‘to be shut,’ said of the eyes, the lips, or any opening (*Il.* 24. 637 οὐ γάρ πω μύσαν ὄσσε): but the aor. part. regularly meant, ‘with eyes shut’: Plat. *Gorg.* 480 C παρέχειν μύσαντα καὶ ἀνδρείως ὥσπερ τέμνειν καὶ κάειν ἰατρῷ. There was a proverb, μύσαντα φέρειν (‘to grin and bear it’), Meineke *Com.* 3, p. 4.
 
 **νόσον**, the scourge of the storm: cp. 1141.
 
@@ -327,6 +330,7 @@ The incident of the storm was a dramatic necessity, to account for Antigone reac
 41 Καδμογενῆ.---Ψιλόν, [conf] → Καδμογενῆ.—ψιλόν,
 --- notes
 419 (Jebb "419 f."): the heading was missing (the draft put the note under 418); cp. 406 (draft "400"); the draft's line "ΨΥ n. f. μύσαντες.ς" was "27 n." and the heading "421 f. μύσαντες." 421 (Jebb "421 f."): νόσον and ἐν χρ. μακρ. are further lemmas under 421 (the draft had a stray "ὥ" and lost the bold on χρ. μακρ.). 426: lemma ψιλόν (draft "Ψιλόν"). The last line of the column ("279.") was missing from the column crop and the draft; read from the whole page. Italics set.
+421	rev: "μύω" made "μῡ́ω" (the print has the macron over the υ under the acute); no precomposed letter exists for ῡ with acute, so it is ῡ + combining acute (as στῡ́φω in notes-04), and the checker's remark "ω has no breathing" is the word cut at the combining mark
 
 === p-0154
 ## 427

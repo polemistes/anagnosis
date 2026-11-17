@@ -50,7 +50,7 @@ The page begins with a new, indented paragraph of the note on 582-625 (on p-0179
 
 **στόνῳ βρ.**: cp. 427.
 
-**ἀντιπλῆγες** (only here) **ἀκταί**, headlands which are struck in front, struck *full*, by the waves; in contrast with παραπλῆγες, ‘struck obliquely’: see *Od.* 5. 417 (Odysseus seeking a place to land) ἤν που ἐφεύρω | ἠϊόνας τε παραπλῆγας λιμένας τε θαλάσσης (‘shores where the waves strike *aslant*’). Soph. was doubtless thinking of the Homeric phrase.—Not (1) ‘beating back the waves,’ ἀντίτυποι: nor (2) ‘beaten again,’—*i.e.* by the ever-returning waves. This last is impossible.—Cp. *O. C.* 1240 where Oed. is likened to a βόρειος...ἀκτὰ κυματοπλήξ. Oppian *Cyn.* 2. 142 κρημνοῖσι καὶ ὑδατοπλήγεσιν ἄκραις.
+**ἀντιπλῆγες** (only here) **ἀκταί**, headlands which are struck in front, struck *full*, by the waves; in contrast with παραπλῆγες, ‘struck obliquely’: see *Od.* 5. 417 (Odysseus seeking a place to land) ἤν που ἐφεύρω | ἠϊόνάς τε παραπλῆγας λιμένας τε θαλάσσης (‘shores where the waves strike *aslant*’). Soph. was doubtless thinking of the Homeric phrase.—Not (1) ‘beating back the waves,’ ἀντίτυποι: nor (2) ‘beaten again,’—*i.e.* by the ever-returning waves. This last is impossible.—Cp. *O. C.* 1240 where Oed. is likened to a βόρειος...ἀκτὰ κυματοπλήξ. Oppian *Cyn.* 2. 142 κρημνοῖσι καὶ ὑδατοπλήγεσιν ἄκραις.
 
 ## 593
 **ἀρχαῖα**, predicate: I see that, from olden time, the house-troubles (οἴκων πήματα) of the (living) Labdacidae are heaped upon the troubles of the dead. The dead are now Laïus, Oedipus, and his two sons. ἀρχαῖα carries us back to the starting-point of the troubles,—the curse pronounced on Laïus by Pelops (cp. on 583).
@@ -78,7 +78,7 @@ The page begins with a new, indented paragraph of the note on 582-625 (on p-0179
 19 Apoll. [conf] → ok
 20 Rhod. [conf] → ok
 21 πλῆγες;, [conf] → παραπλῆγες,
-22 ἠΐζονάς [greek] (Greek model: ἠΐονάς) → ἠϊόνας (printed ἠΐονάς: see notes)
+22 ἠΐζονάς [greek] (Greek model: ἠΐονάς) → ἠϊόνάς (printed ἠΐονάς: see notes)
 23 aslant’). [conf] → *aslant*’).
 24 iz [latin] (Greek model: ραίη,᾿-ττόι δ.) → *i.e.*
 25 0. [conf] → *O.
@@ -89,6 +89,7 @@ The page begins with a new, indented paragraph of the note on 582-625 (on p-0179
 30 φθίτῶν [accent] (Greek model: φθύτῶν.) → φθῐτῶν
 --- notes
 Read through against both columns. Corrected among others: ‘stormy sea-winds | from Thrace.’ (the word "winds" written whole at the end of p-0180), lemmas **ὅταν οἶδμα**, **ποντίαις δυσπν. Θρ. πνοαῖς**, **ἐπιδράμῃ ἔρεβος ὕφαλον**, **Θρῄσσαισιν** set bold as printed; Θρῄκιαι, Θρῄκηθεν (ῃ as printed), *ib.* 654, *Il.* 9. 5, *Ph.* 1124, *Il.*, ταράττεις, Verg. *G.* 3. 240 (Latin in italics), θῖνα, *i.e.*, **στόνῳ βρ.** (lemma as printed; draft had στόνῳ alone), *Od.* 5. 417, *i.e.* by the ever-returning, καὶ (was kal), **ἀρχαῖα** (draft "**Φ**- ἀρχαῖα"), Laïus, *Tr.* 306 (was 77.), φθῐτῶν (breve as printed), MSS., *Alc.* 100. Misprint corrected: Jebb prints ἠΐονάς (acute on α as well as on the ι with diaeresis) in the Homeric quotation; written ἠϊόνας (Od. 5. 418). The stray ". " after "adv." deleted.
+rev: ἠϊόνας → ἠϊόνάς: the acute on the last syllable is the printed enclitic accent before τε (proparoxytone + enclitic), not a misprint, and is kept; only the misplaced acute (on ϊ instead of ό) is corrected.
 
 === p-0182
 ## 596
@@ -284,7 +285,7 @@ Read through against both columns. Corrected among others: καὶ νῦν κα�
 
 **κουφονόων**: see on 342.
 
-## 617
+## 618
 The ἀπάτη, or final frustration of his desires, **ἕρπει**, creeps on him, **οὐδὲν εἰδότι**, knowing nothing. Others construe, οὐδὲν ἕρπει εἰδότι, nothing comes to him aware of it; *i.e.* he understands the true meaning of nothing that happens to him. This is somewhat forced; and that οὐδέν is object to εἰδότι is confirmed by Antiphon or. 1 § 29 οἱ δ’ ἐπιβουλευόμενοι οὐδὲν ἴσασι πρὶν ἐν αὐτῷ ὦσι τῷ κακῷ γ’ ἤδη. Cp. *Ai.* 964 τἀγαθὸν χεροῖν | ἔχοντες οὐκ ἴσασι, πρίν τις ἐκβάλῃ.
 
 ## 619
@@ -332,3 +333,4 @@ The ἀπάτη, or final frustration of his desires, **ἕρπει**, creeps on
 26 Samson [conf] → *Samson*
 --- notes
 Read through against both columns. The draft's first paragraph "vain ἀεοεῖϊί5.᾽" is "vain deceits.’", and πολύπλαγκτος after the dash is plain italic, not a lemma: joined to the run-on paragraph. Jebb prints the heading "617" twice (ἀπάτα...ἐρώτων, then "The ἀπάτη, or final frustration", which is on 618): kept as printed. Corrected among others: ὄνασις, ‘*though*’, εὖ μὲν ὀψὲ δ’, The gen., *i.e.*, *is*, Others construe, *Ai.* 965, *Tr.* 608, 946, (*sc.* πῦρ), Hor. *c.* 2. 1. 7, Latin in italics, *Ch.* 697, *Ph.* 1260, αὔω, σοφίᾳ, σοφῶς, *El.* 233, ἔκ του (new paragraph, bold after a dash), *Tr.* 296, ἐστὶν, ἀάω, *Samson*; heading 622 (printed "622 ff.", read "fl.") made with lemma **τὸ κακὸν δοκεῖν ποτ’**. Misprint corrected: Jebb prints the lemma πεφάνται; written πέφανται (the verb, as in his note on 613, "ἔπος πέφανται"). ## 616 and ## 620: Jebb's numbers; our text has no 616 or 620.
+rev: second heading "617" (The ἀπάτη … ἕρπει … οὐδὲν εἰδότι) made ## 618: the print has 617 twice (checked on the image), an evident misprint, since the note is on εἰδότι δ’ οὐδὲν ἕρπει, which Jebb himself numbers 618 in his note on 607 (p-0184).

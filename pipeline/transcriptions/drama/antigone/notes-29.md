@@ -4,7 +4,7 @@
 **συγκέκραμαι**, ‘blended with’ anguish, *i.e.* steeped in it: (Whitelaw: ‘Fulfilled with sorrow, and made one with grief.’) Cp. *Ai.* 895 οἴκτῳ τῷδε συγκεκραμένην, ‘her soul is steeped in the anguish of that wail’: Ar. *Plut.* 853 οὕτω πολυφόρῳ συγκέκραμαι δαίμονι, where the words just before, ὡς ἀπόλωλα δείλαῐος (850), might suggest that the parody glanced at our passage.
 
 ## 1312
-**ὡς αἰτίαν...ἔχων**, as being responsible for, = ὡς αἴτιος ὤν. So Aesch. *Eum.* 579 Apollo, defending the accused Orestes, says, αἰτίαν δ’ ἔχω | τῆς τοῦδε μητρὸς τοῦ φόνου, I am responsible for (not, ‘am accused of’) the deed. In this sense of the phrase, ἔχω=παρέχω: cp. Thuc. 2. 41 ἀγανάκτησιν ἔχει, gives cause of resentment; id. 2. 61 ἔχει αἴσθησιν, makes itself felt. But in prose αἰτίαν ἔχω usu.=‘to bear the *blame*’ for a thing, *i.e.* to be held responsible for it: Her. 5. 70 εἶχον αἰτίην τοῦ φόνου τούτου: Plat. *Apol.* 38 C ὄνομα ἕξετε καὶ αἰτίαν...ὡς Σωκράτη ἀπεκτόνατε.
+**ὡς αἰτίαν...ἔχων**, as being responsible for, = ὡς αἴτιος ὤν. So Aesch. *Eum.* 579 Apollo, defending the accused Orestes, says, αἰτίαν δ’ ἔχω | τῆς τοῦδε μητρὸς τοῦ φόνου, I am responsible for (not, ‘am accused of’) the deed. In this sense of the phrase, ἔχω=παρέχω: cp. Thuc. 2. 41 ἀγανάκτησιν ἔχει, gives cause of resentment; id. 2. 61 ἔχει αἴσθησιν, makes itself felt. But in prose αἰτίαν ἔχω usu.=‘to bear the *blame*’ for a thing, *i.e.* to *be held* responsible for it: Her. 5. 70 εἶχον αἰτίην τοῦ φόνου τούτου: Plat. *Apol.* 38 C ὄνομα ἕξετε καὶ αἰτίαν...ὡς Σωκράτη ἀπεκτόνατε.
 
 **τῶνδε...μόρων**, that of Haemon: **κἀκείνων**, that of Megareus (1303 f.). For the plur., cp. *El.* 205 τοὺς ἐμὸς ἴδε πατὴρ | θανάτους αἰκεῖς.
 
@@ -47,9 +47,10 @@
 --- notes
 Read through against both columns. The 1312 note's last lines (Her. 5. 70 … ἀπεκτόνατε) and the end of the ἐπεσκήπτου paragraph (The rare pass. … μαρτυρῆσαι.) were garbled by the OCR (two columns interleaved) and are rewritten from the image. Also corrected: **αῐ** and **ο** bold with Jebb's breve (draft αἵ, o); *Od.*, *Suppl.*, *El.* (twice; draft Εἰ.), *Ai.* 895 (draft 805), = ὡς αἴτιος ὤν (draft ws, ὦν), bold **κἀκείνων** and **καί** inside their paragraphs, 5 § 9, see on 1268 (draft 1208), *Tr.* 930 (draft 77.), *Or.*; δείλαῐος with Jebb's breve (he prints it spaced).
 Checker: "αῐ" and "ο" are the sounds cited alone ("instances of αῐ before ο", with Jebb's breve), not words: no breathing.
+1312	rev: *be held* in italics as printed ("*i.e.* to *be held* responsible")
 
 === p-0301
-+ fixed upon) another man, **ἐξ ἐμᾶς αἰτίας**, (being transferred) from my responsibility, —*i.e.*, so as to leave me blameless. For the intrans. **ἁρμόσει**, cp. *O. T.* 902 (n.), *El.* 1293. **ἐκ** here is not for ἀπό, but is used as if we had, οὔποτε ἐξ ὑπαιτίου ἀναίτιος φανοῦμαι (cp. *Tr.* 284 ἐξ ὀλβίων ἄζηλον εὑροῦσαι βίον). Thus ἐξ ἐμᾶς αἰτίας is really a compressed way of saying, ‘by change from a state of things in which the αἰτία (blame) was mine.’
++ fixed upon) another man, **ἐξ ἐμᾶς αἰτίας**, (being transferred) from my responsibility,—*i.e.*, so as to leave me blameless. For the intrans. **ἁρμόσει**, cp. *O. T.* 902 (n.), *El.* 1293. **ἐκ** here is not for ἀπό, but is used as if we had, οὔποτε ἐξ ὑπαιτίου ἀναίτιος φανοῦμαι (cp. *Tr.* 284 ἐξ ὀλβίων ἄζηλον εὑροῦσαι βίον). Thus ἐξ ἐμᾶς αἰτίας is really a compressed way of saying, ‘by change from a state of things in which the αἰτία (blame) was mine.’
 
 ## 1319
 **μέλεος**: for the nom., cp. 1211.
@@ -83,6 +84,7 @@ Checker: "αῐ" and "ο" are the sounds cited alone ("instances of αῐ before
 12 vz [latin] (Greek model: Ψ.) → *s. v.*
 --- notes
 Read through against both columns. Also corrected: bold **ἐξ ἐμᾶς αἰτίας**, **ἐκ** inside the paragraph; *Tr.* 284 (draft 77.), *i.e.* (draft Ze), ὅ τι (draft §), the 1325 lemma (draft "Tov … ἠ", not bold), a nonentity (draft ἃ), *Ai.* twice, ὢν (draft ὧν) twice, γὰρ (draft yap), *El.* 767 (draft Ξι), Καμάριναν· (raised stop as printed), *sc.*, *ap.*, *e.g.* twice, τἀν (coronis). The 1326 lemma is bold in two stretches as printed, the bracketed (ἐστι) and (ὄντα) in plain type.
+1317	rev: "responsibility,—*i.e.*," closed up (the dash opens the printed line; the join had put a space before it)
 
 === p-0302
 + immediate attention. Cp. Eur. *Alc.* 739 ἡμεῖς δέ, τοὐν ποσὶν γὰρ οἰστέον κακόν, | στείχωμεν, ὡς ἂν ἐν πυρᾷ θῶμεν νεκρόν. So Pind. *P.* 8. 32 τὸ δ’ ἐν ποσί μοι τράχον, my present theme.
@@ -256,6 +258,7 @@ Checker: "ω" is the letter cited alone ("the ω of ἴδω"), not a word: no br
 22 ἀποτείσαντες [greek] → ok
 --- notes
 Read through against both columns. Structure: "‘awry’:—τὰ πράγματα οὐκ ὀρθῶς ἔχει" is plain type after the dash: joined back into the paragraph and the bold taken away (the draft had made it a lemma paragraph); the further lemma **τὰ δ’ ἐπὶ κρατί μοι** κ.τ.λ. (draft "μου κατὰ.") read from the image; "—For the sentiment, cp. 1050 f." joined back into the τά γ’ εἰς θεούς paragraph (draft "**ον** the sentiment" as a paragraph); the draft's dash-cut at "—For the position" in 1349 kept in the paragraph as printed. Also corrected: MS., ‘…I handle.’, ‘not upright,’ (closing quotes), *erect*, *i.e.*, *prona*, bold **λέχρια** inside the paragraph, Shaksp. *Rich. II.* 2. 4. 24 and the English verse in italics (draft "Rick. 77."), καὶ (draft kal) twice, τῇ κεφαλῇ, *Rep.* 389 D (draft 380 Ὁ), ὡς, τὰ (draft Ta), bold **τάδ’** and **τὰ ἐν χεροῖν**, *all*, *ib.* 5. 56 (draft 26.). Open: in the 1349 lemma the accents of πληγὰς are covered by a pencil blot (a dark mark over η, a grey stroke over α); written πληγὰς as the play's text prints the word above on p-0306; please check on the scan.
+1349	rev: πληγὰς kept, still open: measured on p-0305-col-r.png, the stroke over α is mid-grey (pencil, like the reader's other marks), but the blot over η has a fully black core just above the letter, where a printed accent would stand; so the print may have an accent on η (a misprint πλήγας?) or the black is only the densest part of the pencil blot. Needs another copy of the edition to settle.
 
 === p-0306
 ## 1352

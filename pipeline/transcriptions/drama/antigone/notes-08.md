@@ -68,7 +68,7 @@ Read through on the column images: the lemma ὡς after the dash (OCR "ὥστ�
 ## 300
 **πανουργίας...ἔχειν**: showed men how to practise villanies. For ἔχειν of the moral habit, cp. *Od.* 1. 368 μνηστῆρες ὑπέρβιον ὕβριν ἔχοντες: *Il.* 9. 305 λύσσαν ἔχων ὀλοήν. The inf. might be epexegetic, but really depends on ἔδειξεν as implying ‘taught’: cp. Eur. *Med.* 195 οὐδεὶς λύπας | ηὕρετο... | ᾠδαῖς παύειν (has found out *how to*...). δείκνυμι of *invention*, as *Ai.* 1195 ὃς στυγερῶν ἔδειξεν ὅπλων | Ἕλλασι κοινὸν Ἄρη: fr. 396. 6 στρατοῦ φρυκτωρίαν | ἔδειξε, κἀνέφηνεν οὐ δεδειγμένα (Palamedes).
 
-**εἰδέναι**, ‘to know,’ *i.e.* to be conversant with (cp. on 71) **παντὸς ἔργου δυσσέβ.**, impiety of (shown in) *any* deed, = πᾶν δυσσεβὲς ἔργον (cp. 603 λόγου τ’ ἄνοια): for πᾶς, cp. *O. C.* 761 n. Note **παντὸς ἔργ.** after **πανουργίας**: the familiar use of πανουργία extenuates the force to which etymology entitles it, while in πᾶν ἔργον that whole force is felt: so πᾶν ποιεῖν is stronger than πανουργεῖν, and πᾶν λέγειν than παρρησιάζεσθαι (Plat. *Apol.* 39 A ἐάν τις τολμᾷ πᾶν ποιεῖν καὶ λέγειν). Cp. *Ph.* 407 παντὸς ἂν λόγου κακοῦ | γλώσσῃ θιγόντα καὶ πανουργίας, where πάσης must be supplied, showing how πανουργία could be used without direct reference to its derivation.
+**εἰδέναι**, ‘to know,’ *i.e.* to be conversant with (cp. on 71) **παντὸς ἔργου δυσσέβ.**, impiety of (shown in) *any* deed, = πᾶν δυσσεβὲς ἔργον (cp. 603 λόγου τ’ ἄνοια): for **πᾶς**, cp. *O. C.* 761 n. Note **παντὸς ἔργ.** after **πανουργίας**: the familiar use of πανουργία extenuates the force to which etymology entitles it, while in πᾶν ἔργον that whole force is felt: so πᾶν ποιεῖν is stronger than πανουργεῖν, and πᾶν λέγειν than παρρησιάζεσθαι (Plat. *Apol.* 39 A ἐάν τις τολμᾷ πᾶν ποιεῖν καὶ λέγειν). Cp. *Ph.* 407 παντὸς ἂν λόγου κακοῦ | γλώσσῃ θιγόντα καὶ πανουργίας, where πάσης must be supplied, showing how πανουργία could be used without direct reference to its derivation.
 
 ## 302
 **ἤνυσαν**: cp. 231.
@@ -111,6 +111,7 @@ Read through on the column images: the lemma ὡς after the dash (OCR "ὥστ�
 25 Avypordrav [latin] (Greek model: ἰλυγροτάταν).---τὸν) → λυγροτάταν
 --- notes
 Read through on the column images: "ἐξέπραξαν ws" → **ἐξέπραξαν ὡς**; "cp. 50, 172" → 56; the broken end ("τάφου / ταφῆς / . 7. 1447") rejoined as printed: **τάφου** = ταφῆς, as 490, 534, *O. T.* 1447; bold Greek inside the notes set bold (ἵστασθαι, καὶ παραλλάσσει, παντὸς ἔργου δυσσέβ., παντὸς ἔργ., πανουργίας, δοῦναι δίκην, τάφου); kal/al/TOV/av/ws in Latin letters corrected; italics set.
+300	rev: "for πᾶς" set bold (bold type in the print)
 
 === p-0134
 ## 308

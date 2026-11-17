@@ -93,7 +93,7 @@ Checker: "ω" and "αι" without breathing are letters named as letters ("the ω
 **ἀμφιβάλλομαι**: cp. Rhianus (the elegiac poet of Crete, *c.* 225 B.C.) *Anthol. P.* 12. 93 χαίρετε, καλοὶ παῖδες, ἐς ἀκμαίην δὲ μόλοιτε | ἥβην, καὶ λευκὴν ἀμφιέσαισθε κόμην. For the 1st pers. sing. following ἐπιστάμεσθα, see 734 n.
 
 ## 1094
-**μή**. We might have had the οὐ of oratio obliqua with λακεῖν, =ὅτι οὐκ ἔλακε. But here we have μή, as after πιστεύω and like verbs. So *O. T.* 1455 οἶδα, μήτε μ’ ἂν νόσον | μήτ’ ἄλλο πέρσαι μηδέν (n.). Cp. *O. C.* 656 n., 797 n. In such cases μή seems to add a certain emphasis to the statement of fact (like saying, ‘I *protest* that I know no instance’).
+**μή**. We might have had the οὐ of oratio obliqua with λακεῖν,=ὅτι οὐκ ἔλακε. But here we have μή, as after πιστεύω and like verbs. So *O. T.* 1455 οἶδα, μήτε μ’ ἂν νόσον | μήτ’ ἄλλο πέρσαι μηδέν (n.). Cp. *O. C.* 656 n., 797 n. In such cases μή seems to add a certain emphasis to the statement of fact (like saying, ‘I *protest* that I know no instance’).
 
 **λακεῖν**, infin. (instead of the more usual partic.) after ἐπιστάμεσθα: 293 n. This verb is esp. used of prophecy: cp. *Tr.* 822 (where τοὔπος τὸ θεοπρόπον is subject to ἔλακεν): Aesch. *Ag.* 1426 (of Clytaemnestra) περίφρονα δ’ ἔλακες. The ref. is esp. to the seer’s denunciation of Oedipus, and his command regarding Megareus (1303 n.).
 
@@ -133,6 +133,8 @@ For **τε...δέ**, instead of τε...τε, cp. *Tr.* 285 ταῦτα γὰρ �
 --- notes
 1092: the draft's "ξΞ" lemma removed; lemmas ἐξ ὅτου, λευκὴν...ἐκ μελαίνης and ἀμφιβάλλομαι each a paragraph.
 1097: two bold stretches in the lemma (ἄτῃ πατάξαι … θυμόν), both bolded; ἀντιστάντα bold in the print.
+1094	rev: "λακεῖν, =ὅτι" closed up to "λακεῖν,=ὅτι" as printed.
+1092	rev: no change; the lemma's ὅτου shows only its acute on the scan (the rough breathing not visible, worn type or misprint): written ὅτου.
 
 === p-0263
 + trees that resist it (712).
@@ -192,7 +194,7 @@ I read the impers. **δοκεῖ**: ‘and does it seem good (to you) that I sho
 **δυσμαχητέον**: *Tr.* 492 θεοῖσι δυσμαχοῦντες.
 
 ## 1107
-**ἐπ’ ἄλλ. τρέπε**=ἄλλοις ἐπίτρεπε: Aesch. *Eum.* 434 ἦ κἀπ’ ἐμοὶ τρέποιτ’ ἂν αἰτίας τέλος; (‘would ye commit the decision of the charge to me?’) This is ‘tmesis’ in the proper sense,—where the prep. determines the special sense of the verb: cp. *Il.* 8. 108 οὕς ποτ’ ἀπ’ Αἰνείαν ἑλόμην=ἀφειλόμην.
+**ἐπ’ ἄλλ. τρέπε**=ἄλλοις ἐπίτρεπε: Aesch. *Eum.* 434 ἢ κἀπ’ ἐμοὶ τρέποιτ’ ἂν αἰτίας τέλος; (‘would ye commit the decision of the charge to me?’) This is ‘tmesis’ in the proper sense,—where the prep. determines the special sense of the verb: cp. *Il.* 8. 108 οὕς ποτ’ ἀπ’ Αἰνείαν ἑλόμην=ἀφειλόμην.
 
 ## 1108
 **ὡς ἔχω**, *i.e.*, forthwith: 1235: *Ph.* 819 δέξαι θανάσιμόν μ’ ὅπως ἔχω.
@@ -245,6 +247,7 @@ The draft read the foot of the right column across the lines (1103-1108 scramble
 1103: "Δίκα—Βλάβα" is plain Greek after a dash, joined back; "ο̄" is Jebb's macron (long by position).
 "tribrach" is divided between this page and the next: written whole here.
 Checker: the two "ο" without breathing are the letter named as a letter ("over the ο", "the ο̄ before φρ"): right as they stand.
+1107	rev: Aesch. Eum. 434 "ἦ κἀπ’" corrected to "ἢ κἀπ’": the print has smooth breathing and grave, not a circumflex.
 
 === p-0265
 + suits this agitated utterance. **εἶ’** would be no improvement (see cr. n.).

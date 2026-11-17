@@ -1,5 +1,5 @@
 === p-0276
-+ sidered in connection with the fact that L (like our other MSS.) omits v. 1167. L has a point at **προδῶσιν**, and its reading was (I suspect) understood thus: ‘when (men) forfeit their pleasures, I do not count that the part of a man’ (*i.e.*, of one who can be really said to live). Hence I do not think that L’s ἀνδρὸς really confirms Seyffert’s conjecture, **καὶ γὰρ ἡδοναὶ** | ὅταν προδῶσιν ἀνδρός, ‘when a man’s pleasures *fail*.’ For this use of προδιδόναι, cp. Her. 7. 187 οὐδέν μοι θωῦμα παρίσταται προδοῦναι τὰ ῥέεθρα τῶν ποταμῶν (that they failed=ἐπιλιπεῖν): id. 8. 52 τοῦ φράγματος προδεδωκότος, the barricade having failed (them). Xenophanes fr. 1. 5 ἄλλος δ’ οἶνος ἑτοῖμος, ὃς οὔποτέ φησι προδώσειν. So with acc., [Dem.] or. 52 § 13 τὸν ὀφθαλμὸν αὐτὸν προδιδόντα (his eye-sight failing him). Yet here the phrase would seem a strange one. And if **ἄνδρες** was older than **ἀνδρός**, as we have reason to believe that it was, that fact would confirm the genuineness of **τὰς γὰρ ἡδονάς**.—See Appendix.
++ in connection with the fact that L (like our other MSS.) omits v. 1167. L has a point at **προδῶσιν**, and its reading was (I suspect) understood thus: ‘when (men) forfeit their pleasures, I do not count that the part of a man’ (*i.e.*, of one who can be really said to live). Hence I do not think that L’s ἀνδρὸς really confirms Seyffert’s conjecture, **καὶ γὰρ ἡδοναὶ** | ὅταν προδῶσιν ἀνδρός, ‘when a man’s pleasures *fail*.’ For this use of προδιδόναι, cp. Her. 7. 187 οὐδέν μοι θωῦμα παρίσταται προδοῦναι τὰ ῥέεθρα τῶν ποταμῶν (that they failed=ἐπιλιπεῖν): id. 8. 52 τοῦ φράγματος προδεδωκότος, the barricade having failed (them). Xenophanes fr. 1. 5 ἄλλος δ’ οἶνος ἑτοῖμος, ὃς οὔποτέ φησι προδώσειν. So with acc., [Dem.] or. 52 § 13 τὸν ὀφθαλμὸν αὐτὸν προδιδόντα (his eye-sight failing him). Yet here the phrase would seem a strange one. And if **ἄνδρες** was older than **ἀνδρός**, as we have reason to believe that it was, that fact would confirm the genuineness of **τὰς γὰρ ἡδονάς**.—See Appendix.
 
 **οὐ τίθημι** with inf., as oft. with the midd. τίθεμαι; Plat. *Phaed.* 93 C τῶν οὖν τιθεμένων ψυχὴν ἁρμονίαν εἶναι. Cp. *El.* 1270 δαιμόνιον αὐτὸ τίθημ’ ἐγώ.
 
@@ -45,6 +45,7 @@ For ζῆν, **ζών** has been proposed: but the Epic and Ionic ζώς does no
 21 καταλείπετ᾽ [greek] (Greek model: καταλείπετ᾽.) → ok
 --- notes
 Read through: draft's second paragraph ("ὅ5ες Appendix") was the end of the first ("τὰς γὰρ ἡδονάς.—See Appendix"), rejoined; οὐ τίθημι made a bold lemma; ἔμψ. νεκρόν made a lemma paragraph; garbled Greek and references in 1168 (Anthol. P., ib. 10. 43) restored; προδῶσιν, ἄνδρες, ἀνδρός, καὶ γὰρ ἡδοναί, ζών bold as printed; Latin-letter Greek (kal, yap, Tis) corrected.
+1166	rev: "sidered" deleted from the run-on: "con-|sidered" is written whole at the foot of p-0275 (notes-25)
 
 === p-0277
 + (nom., καπνοῦ σκιά). *Ph.* 946 οὐδ’ οἶδ’ ἐναίρων νεκρὸν ἢ καπνοῦ σκιάν, | εἴδωλον ἄλλως. Aesch. fr. 390 τὸ γὰρ βρότειον σπέρμ’ ἐφ’ ἡμέραν φρονεῖ, | καὶ πιστὸν οὐδὲν μᾶλλον ἢ καπνοῦ σκιά. So Soph. fr. 12 ἄνθρωπός ἐστι πνεῦμα καὶ σκιὰ μόνον. Cp. Pind. *P.* 8. 95 σκιᾶς ὄναρ | ἄνθρωπος. Aesch. *Ag.* 839 εἴδωλον σκιᾶς.
@@ -277,7 +278,7 @@ Read through: the 1192 lemma runs to παρήσω (bold through κοὐδὲν �
 
 **’λέλειπτο**: cp. 457 ’φάνη n.
 
-**συγκατήθομεν**. The σύν here is perh. not merely ‘completely,’ but implies the collecting of dismembered pieces: as συγκατακαίω regularly=to burn something ‘along with’ something else (Xen. *An.* 3. 2. 27). Like **εἰσεβαίνομεν** (1205), this is the imperf. of consecutive action (‘proceeded to burn,’=‘next burned’).
+**συγκατῄθομεν**. The σύν here is perh. not merely ‘completely,’ but implies the collecting of dismembered pieces: as συγκατακαίω regularly=to burn something ‘along with’ something else (Xen. *An.* 3. 2. 27). Like **εἰσεβαίνομεν** (1205), this is the imperf. of consecutive action (‘proceeded to burn,’=‘next burned’).
 
 ## 1203
 **τύμβον**. If the Homeric usage was followed, when the flesh had been burned the bones would be washed with wine or oil, wrapped in fat, and placed in an urn (λάρναξ). The urn having been deposited in a grave (κάπετος), the τύμβος (or σῆμα) would be raised over it. Cp. *Introd. to Homer*, ch. II. § 33.
@@ -302,7 +303,7 @@ Read through: the 1192 lemma runs to παρήσω (bold through κοὐδὲν �
 11 1030).—8 [conf] → 1030).—ὃ
 12 =§ [conf] → =ὅ
 13 ἀτρεκέως.---᾿λέλειπτο: [conf] → ἀτρεκέως.—’λέλειπτο:
-14 συγκατήθομεν [accent] (Greek model: πι--συγκατήθομεν.) → ok
+14 συγκατήθομεν [accent] (Greek model: πι--συγκατήθομεν.) → συγκατῄθομεν
 15 ‘completely,’ [conf] → ok
 16 as [conf] → ok
 17 ὀρθόκραvos [mixed] (Greek model: 33:--ὀρθόκρα-) → ὀρθόκρανος
@@ -311,6 +312,7 @@ Read through: the 1192 lemma runs to παρήσω (bold through κοὐδὲν �
 --- notes
 Printing slips: Her. 1. 160 is printed "οὐ γᾶρ" (circumflex): written γὰρ. In the 1204 note "167 τουτ’ αὖθις" is printed without an accent: written τοῦτ’.
 Read through: the 1201 lemma is λούσαντες alone (ἁγν. λουτρόν in plain type); "901" (draft "ροι"), [Dem.] or. 43 § 71, Ph. 1626, Ai./Introd. references and Th. 731 from the image; Jebb's macrons kept (κρᾱν, βούκρᾱνος, ταυρόκρᾱνος); "oak-leaves" divided at a line end, written with the hyphen; ὃ δὴ and ’λέλειπτο made lemma paragraphs; "ch. II." as printed; Latin-letter Greek (kal, ol) corrected; "=" restored.
+1201	rev: συγκατήθομεν → συγκατῄθομεν (the print has the iota subscript)
 
 === p-0282
 + For αὖθις as=‘afterwards,’ cp. *Ai.* 1283, *Tr.* 270.

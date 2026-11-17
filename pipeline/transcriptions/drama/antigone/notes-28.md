@@ -6,7 +6,7 @@
 **ἀγρίαις ὁδοῖς**: cp. Pind. *P.* 2. 85 ἀλλ’ ἄλλοτε πατέων ὁδοῖς σκολιαῖς, in paths of guile.
 
 ## 1275
-**λακπάτητον**, proleptic (475). The form λαξπάτητον, which Eustathius treats as the normal one (adding, ὅ τινες . . διὰ τοῦ κ γράφουσιν), is defended by Ellendt. He thinks that the **κ** form came from correctors who supposed that **ξπ** was an impossible combination for Attic Greek. We find, indeed, ἐξπηχυστί Soph. fr. 938, and the ‘Attic’ forms ἕξπουν, ἕξκλινον, ἐξμέδιμνον (*O. T.* 1137 n.). But, though λαξπάτητον may well have been admissible, it is evident that the **κ** form would be recommended by ease of pronunciation. The compound occurs only here.
+**λακπάτητον**, proleptic (475). The form λαξπάτητον, which Eustathius treats as the normal one (adding, ὅ τινες . . διὰ τοῦ κ γράφουσιν), is defended by Ellendt. He thinks that the **κ** form came from correctors who supposed that **ξπ** was an impossible combination for Attic Greek. We find, indeed, ἑξπηχυστί Soph. fr. 938, and the ‘Attic’ forms ἕξπουν, ἕξκλινον, ἑξμέδιμνον (*O. T.* 1137 n.). But, though λαξπάτητον may well have been admissible, it is evident that the **κ** form would be recommended by ease of pronunciation. The compound occurs only here.
 
 **ἀντρέπων**, as though it were an altar, a statue, or a fair building. Cp. Aesch. *Ag.* 383, *Eum.* 539 (quoted on 853 ff.).—For the apocopè of ἀνά in comp., cp. *O. C.* 1070 ἄμβασις, *Tr.* 528 ἀμμένει, *ib.* 839 ἄμμιγα, *Ai.* 416 ἀμπνοάς (all lyr.). In *Tr.* 396 (dial.) Herm. conjectured κἀννεώσασθαι for καὶ νεώσασθαι. It is unknown whether ἄγχαζε (fr. 883) occurred in lyr. or in dial. Cp. *Introd. to Homer*, Appendix, p. 197.
 
@@ -27,7 +27,7 @@
 7 ον [conf] → . . (ὅ τινες . . διὰ)
 8 ἕξπουν [greek] → ok
 9 ἕξκλινον [greek] → ok
-10 ἑξμέδμινον [greek] (Greek model: ἐξμέδμινον.) → ἐξμέδιμνον (printed ἐξμέδμινον: see notes)
+10 ἑξμέδμινον [greek] (Greek model: ἐξμέδμινον.) → ἑξμέδιμνον (printed ἑξμέδμινον: see notes)
 11 7. [conf] → *T.*
 12 ττ327}.). [digit] → 1137 n.).
 13 Eum. [conf] → *Eum.*
@@ -43,7 +43,8 @@
 23 πριάμε [accent] → πριάμενος (divided between the pages: written whole here)
 --- notes
 1273 (run-on): the draft had jumbled the lines from "(2) μέγα βάρος ἔχων" to "ἐν δ’ ἐμῷ κάρᾳ might have been followed" (marginal figures and words mixed in): rewritten from the image. με, μέγα βάρος ἔχων, ἐν δ’ ἐμῷ κάρᾳ, ἔπαισε, κάρᾳ are bold inside the paragraph as printed. ἐν δ’ ἔσεισεν and ἀγρίαις ὁδοῖς (after dashes, bold) made further paragraphs. "O. 7), 263 n." *O. T.* 263 n.; "Tas" τάς.
-1275: "Bat" But; "dvd" ἀνά; "77. 528", "τό. 839", "77. 396" *Tr.* 528, *ib.* 839, *Tr.* 396; ξπ and κ in bold as printed. Printed "ἐξμέδμινον", an evident misprint (letters transposed) for -μέδιμνον: corrected to ἐξμέδιμνον. Both ἐξπηχυστί and ἐξμέδιμνον seem printed with a smooth breathing (ἑξ-, six, would take the rough one, as ἕξπουν, ἕξκλινον beside them); at this size the mark cannot be read with certainty, so kept as it appears: for the user to decide.
+1275: "Bat" But; "dvd" ἀνά; "77. 528", "τό. 839", "77. 396" *Tr.* 528, *ib.* 839, *Tr.* 396; ξπ and κ in bold as printed. Printed "ἑξμέδμινον", an evident misprint (letters transposed) for -μέδιμνον: corrected to ἑξμέδιμνον.
+1275	rev: ἐξπηχυστί, ἐξμέδιμνον → ἑξπηχυστί, ἑξμέδιμνον: enlarged, their breathing has the tail turned to the right like the rough breathing of ὁδοῖς and ὅ on this page (the smooth one of ἐνήλατο turns left), the same as ἕξπουν, ἕξκλινον beside them; the first agent's remark that they seem smooth withdrawn
 1276: lemma φεῦ φεῦ, ὦ (its comma in the bold); πόνοι . . δύσπονοι (after a dash, bold) is a further paragraph; the draft had cut it into two.
 1278: the draft had mixed the lines from "has in store" to "Theaet. 197 B" (ἔχων … κεκτημένος bold as printed): rewritten from the image.
 
@@ -222,9 +223,9 @@ Recent explorations in the Dionysiac theatre at Athens have given rise to a theo
 17 Thealtar [latin] → The altar
 18 Epkelos [latin] (Greek model: Βρκεῖος.) → Ἑρκεῖος
 19 7°. [conf] → *T.*
-20 ἑζόμεσθ᾽ [accent] (Greek model: ἐζόμεσθ᾽) → ἑζόμεσθ’ (printed ἐζόμεσθ’: see notes)
+20 ἑζόμεσθ᾽ [accent] (Greek model: ἐζόμεσθ᾽) → ἑζόμεσθ’
 --- notes
-1301: *O. T.* 32 is printed ἐζόμεσθ’ with a smooth breathing (checked against the ἐ of ἐφέστιοι beside it, the same mark), an evident misprint for ἑζόμεσθ’ (ἕζομαι): corrected.
+1301	rev: the first agent's remark that *O. T.* 32 is printed ἐζόμεσθ’ (smooth, a misprint) withdrawn: enlarged, its breathing turns its tail to the right (rough), unlike the smooth one of ἐφέστιοι beside it; printed ἑζόμεσθ’, the text unchanged
 1297-1301: "A/c. 756" *Alc.* 756; "St Luke" as printed; "p- 591" p. 591; "Ar. Eg. 342 τῷ kal" *Eq.* 342 τῷ καὶ; "2.6..." *i.e.*,; "βώμιος. ποιεῖ" no stop in the print; bold βωμία (twice) inside the paragraphs as printed; "Suppl. 93." no stop after 93 in the print.
 
 === p-0298
