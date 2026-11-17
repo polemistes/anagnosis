@@ -440,6 +440,32 @@ def read_catalog_entry(work_dir: Path) -> dict:
     return entry
 
 
+def printed_marks_as_lines(items: list) -> list:
+    """The edition's unnumbered lines of signs (a row of asterisks or dots for a lacuna, the
+    metrical signs Jebb sets for a lost trimeter after Electra 1264) as lines of the text: each
+    becomes an extra line lettered after the verse before it (1264a), which the reader shows
+    without a number among the fifth-verse numbers. They are printed, so they are shown; until
+    2026-11-17 every `!` line was left out. A `!` line with words in it (a stage direction such
+    as (Μυγμός.), a bracketed verse) is still left out: its words have no analyses."""
+    used = {item.n for item in items if isinstance(item, Line)}
+    out = []
+    before = None
+    for item in items:
+        if isinstance(item, Stage) and before is not None and item.text.strip() and not any(c.isalpha() for c in item.text):
+            base = re.match(r"[\d.]*\d", before)
+            if base is not None:
+                letter = next((c for c in "abcdefghijklmnopqrstuvwxyz" if f"{base.group()}{c}" not in used), None)
+                if letter is not None:
+                    n = f"{base.group()}{letter}"
+                    used.add(n)
+                    out.append(Line(n, item.text.strip()))
+                    continue
+        if isinstance(item, Line):
+            before = item.n
+        out.append(item)
+    return out
+
+
 def build_work(db: sqlite3.Connection, work_dir: Path, homographs: "Homographs | None" = None) -> set[str]:
     slug = work_dir.name
     doc = parse_file(work_dir / "grc.txt")
@@ -459,7 +485,7 @@ def build_work(db: sqlite3.Connection, work_dir: Path, homographs: "Homographs |
     ord_line = ord_section = 0
     pending_section_ids: list[int] = []
     last_line_id = None
-    for item in doc.items:
+    for item in printed_marks_as_lines(doc.items):
         if isinstance(item, Section) and item.kind == "heading-after":
             # a heading printed after the last line of a book (Lysias 14: ΝΟΜΟΙ. ΟΡΚΟΙ. ΓΡΑΦΗ.): it
             # belongs to the line before it, which the reader shows it after; it opens nothing, so
@@ -481,7 +507,7 @@ def build_work(db: sqlite3.Connection, work_dir: Path, homographs: "Homographs |
             speaker = item.name or None
             speech_start = 1
         elif isinstance(item, Stage):
-            pass  # stage directions are not part of the Greek text as transmitted
+            pass  # a stage direction or another unnumbered line with words: not shown yet (see printed_marks_as_lines)
         elif isinstance(item, Line):
             n_int, n_sub = line_n_parts(item.n)
             ord_line += 1

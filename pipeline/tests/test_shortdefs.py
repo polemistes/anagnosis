@@ -97,6 +97,15 @@ class ShortDefinitions(unittest.TestCase):
         self.assertEqual(build.md_to_html("904 first verse\\\n914 second verse"), "<p>904 first verse<br>914 second verse</p>")
         self.assertEqual(build.md_to_html("one line\nwrapped"), "<p>one line wrapped</p>")
 
+    def test_a_printed_line_of_signs_is_a_line(self):
+        from anagnosis_pipeline.textfmt import Line, Speaker, Stage
+        items = [Line("1264", "τότʼ εἶδες"), Stage("⏑–́⏑–⏑–́⏑–⏑–́⏑–"), Speaker("Ἠλέκτρα"), Line("1265", "ἔφρασας"),
+                 Stage("(Μυγμός.)"), Line("1266a", "x"), Stage("* * * * *")]
+        out = build.printed_marks_as_lines(items)
+        self.assertEqual([(type(i).__name__, getattr(i, "n", None)) for i in out],
+                         [("Line", "1264"), ("Line", "1264a"), ("Speaker", None), ("Line", "1265"),
+                          ("Stage", None), ("Line", "1266a"), ("Line", "1266b")])
+
     def test_words_printed_with_a_capital(self):
         rows = [("Διὸς", "ζεύς"), ("Ζεῦ", "ζεύς"), ("θούριος", "θούριος"), ("Δῆλον", "δῆλος"), ("δῆλον", "δῆλος")]
         self.assertEqual(build.capitalised_lemmas(rows), {"ζεύς"})
