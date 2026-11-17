@@ -533,8 +533,12 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          # ink notes and underlining on some pages): the Greek on the even leaves 76-306 (pp. 8-238),
          # Jebb's translation facing it; the Appendix from leaf 310 (p. 242; 308 blank, 309 its
          # first page to be confirmed); the introduction pp. ix ff. from leaf 15; the argument and the
-         # persons before the text (leaves 73-75)
-         text_leaves=[(76, 307)]),
+         # persons before the text (leaves 73-75). appendix_leaves: only the pages of the Appendix's
+         # note "Lines 904-920" (pp. 258-263), which the published appendix had as raw OCR: read by
+         # the prose route into appendix-01.md, checked, spliced into texts/antigone/appendix.md
+         # and the batch kept in appendix-904-920/ (out of sophocles-prose's way, which would
+         # otherwise write the whole appendix.md from this one batch)
+         text_leaves=[(76, 307)], appendix_leaves=[(326, 331)]),
     # Jebb's Ajax and Electra (on sale; typed by eye from Perseus's text and checked against the scans
     # by the older route): re-read from Jebb's page by this route at the author's word (2026-11-17);
     # the check text is the text as it stood
