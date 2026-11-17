@@ -85,7 +85,7 @@ PLAYS = {p.slug: p for p in [
 
 # plays made outside import_play / the old by-eye batches: the default lists of import-sophocles,
 # merge-sophocles-apparatus, merge-sophocles-appendix and prepare-sophocles-pages leave them out
-OLD_ROUTE_EXCLUDED = {"antigone"}
+OLD_ROUTE_EXCLUDED = {"antigone", "ajax", "electra"}  # Ajax, Electra: the drama route since 2026-11-17
 
 PART_ROMAN = {"I": "Part I", "II": "Part II", "III": "Part III", "IV": "Part IV", "V": "Part V", "VI": "Part VI", "VII": "Part VII"}
 

@@ -535,6 +535,25 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          # first page to be confirmed); the introduction pp. ix ff. from leaf 15; the argument and the
          # persons before the text (leaves 73-75)
          text_leaves=[(76, 307)]),
+    # Jebb's Ajax and Electra (on sale; typed by eye from Perseus's text and checked against the scans
+    # by the older route): re-read from Jebb's page by this route at the author's word (2026-11-17);
+    # the check text is the text as it stood
+    Play("ajax", "Αἴας", "Ajax", "Σοφοκλῆς", "Sophocles", "tlg0011.tlg003",
+         "Sophocles: The Plays and Fragments, Part VII: The Ajax, ed. R. C. Jebb, Cambridge University Press, 1896",
+         "playsfragmentswi07sophuoft", "jebb", "R. C. Jebb", "sophocles_ajax_jebb",
+         treebank="tlg0011.tlg003.perseus-grc1.tb.xml", translation="kept", translator="Richard C. Jebb", trans_key="jebb", layout="jebb", app_rule="under", head_frac=0.095, speaker_trust=True, app_langs=("eng+grc", "grc+eng"),
+         check_text="sophocles/ajax/reference-grc.txt",
+         # leaf = PDF page (Toronto, reprint 1914 of the 1896 edition; leaves 352-355 hidden): the Greek
+         # on the even leaves 94-294 (pp. 10-210), Jebb's translation facing it; the Appendix from 298
+         text_leaves=[(94, 295)]),
+    Play("electra", "Ἠλέκτρα", "Electra", "Σοφοκλῆς", "Sophocles", "tlg0011.tlg005",
+         "Sophocles: The Plays and Fragments, Part VI: The Electra, ed. R. C. Jebb, Cambridge University Press, 1894",
+         "sophoclesplaysfr06soph", "jebb", "R. C. Jebb", "sophocles_electra_jebb",
+         treebank="tlg0011.tlg005.perseus-grc2.tb.xml", translation="kept", translator="Richard C. Jebb", trans_key="jebb", layout="jebb", app_rule="under", head_frac=0.095, speaker_trust=True, app_langs=("eng+grc", "grc+eng"),
+         check_text="sophocles/electra/reference-grc.txt",
+         # leaf = PDF page (University of Florida, reprint 1907 of the 1894 edition; leaves 0 and 345-349
+         # hidden): the Greek on the even leaves 102-298 (pp. 6-202), the translation facing it
+         text_leaves=[(102, 299)]),
     Play("trachiniae", "Τραχίνιαι", "Trachiniae", "Σοφοκλῆς", "Sophocles", "tlg0011.tlg001",
          "Sophocles: The Plays and Fragments, Part V: The Trachiniae, ed. R. C. Jebb, Cambridge University Press, 1892",
          "sophocles05soph", "jebb", "R. C. Jebb", "sophocles_trachiniae_jebb",
