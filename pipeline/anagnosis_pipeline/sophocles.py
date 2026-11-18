@@ -1287,7 +1287,7 @@ def perseus_source(play: Play) -> str:
 # Plays whose commentary gives Jebb's italics to the Latin Perseus marks (commentary._latin;
 # 2026-11-17, the three on sale, their fix tables written against the italics); the others get it
 # at their next merge (their fix tables match the text as imported without it)
-LATIN_ITALICS = {"electra"}  # the Antigone and the Ajax: read from the page, their batches carry the italics
+LATIN_ITALICS: set[str] = set()  # the Antigone, Ajax, Electra: read from the page, their batches carry the italics; add a play here at its next merge from Perseus
 
 
 def import_options(play: Play) -> dict:
@@ -1544,98 +1544,8 @@ COMMENTARY_FIXES: dict[str, list[tuple[str, str]]] = {
         ("Kontos *ʽλόγιος Ἑρμῆς p. 61)", "Kontos (Λόγιος Ἑρμῆς p. 61)"), ("(or ᾔδεινʼ.", "(or ᾔδειν)."),
         ("ὦ φλ* ́ʼε Θεόδωρε", "ὦ φίλε Θεόδωρε"), ("τῆς π*|ολεως", "τῆς πόλεως"),
     ],
-    "electra": [
-        # a breathing Perseus left out (note on 1485): ἐξ ἀρχῆς
-        ('κακὸν ὲξ ἀρχῆς', 'κακὸν ἐξ ἀρχῆς'),
-        # Pind. P. 3. 24 (note on 1427): Jebb prints the digamma, ἀϝάταν (leaf 286, read 2026-11-17)
-        ('μεγάλαν ἀvάταν', 'μεγάλαν ἀϝάταν'),
-        # Perseus's o=io/llusai (the lemma of 141) for dio/llusai
-        ('**ο ͂ιόλλυσαι**', '**διόλλυσαι**'),
-        # Perseus's "<*>" (imported as "[?]"), read on Jebb's page (1894, scan sophoclesplaysfr06soph;
-        # 2026-11-17): 51 of the 76; the rest still to read (build/logs/sophocles-on-sale-fixes.md)
-        ('... [?]λευθέρωσε ...', '... ἠλευθέρωσε ...'),
-        ('τὰ παρόν[?]) have prompted', 'τὰ παρόντʼ have prompted'),
-        ('οὐ λανθάνε[?] με ἀλλʼ', 'οὐ λανθάνει με ἀλλʼ'),
-        ("οὐ λάθει μ' [?]ν δεῖ", "οὐ λάθει μ' ὧν δεῖ"),
-        ('παῦσαι· κρα[?]εῖς τοι', 'παῦσαι· κρατεῖς τοι'),
-        ('(*sc.* [?]ησι)', '(*sc.* ἔῃσι)'),
-        ('τόνδε to π[?]λιν', 'τόνδε to πόλιν'),
-        ('fr. 658 [?] πρῷρα', 'fr. 658 ὦ πρῷρα'),
-        ('αὐθέντης, u[?]ed by', 'αὐθέντης, used by'),
-        ('**ἦ τ[?]ν**, or', '**ἦ τἂν**, or'),
-        ('μηδὲν α[?]τόν:', 'μηδὲν αὐτόν:'),
-        ('*Ph.* 565 η[?] ταῦτα', '*Ph.* 565 ἦ ταῦτα'),
-        ('**τίνα … τόνδʼ**[?] cp.', '**τίνα … τόνδʼ**: cp.'),
-        ('τίνʼ εἶπας, [?] γεραιέ', 'τίνʼ εἶπας, ὦ γεραιέ'),
-        ('ὀρύγματα ο[?] ͂νον', 'ὀρύγματα οἶνον'),
-        ('=σῳζόμενα [?].', '=σῳζόμενα ἦ.'),
-        ('κεφαλῇ [?]ναμάξεις', 'κεφαλῇ ἀναμάξεις'),
-        ('Ἄτην τʼ, [?]ρινύν', 'Ἄτην τʼ, Ἐρινύν'),
-        ('τὸν ο[?]κον (*i.e.*', 'τὸν οἶκον (*i.e.*'),
-        ('τῶν ἐμ[?]ν, and', 'τῶν ἐμῶν, and'),
-        ('instead of [?]δʼ εἶχε', 'instead of ὧδʼ εἶχε'),
-        ('*Ph.* 243 [?] τοῦ γέροντος', '*Ph.* 243 ὦ τοῦ γέροντος'),
-        ('*Ant.* 488 οὐ[?] ἀλύξετον', '*Ant.* 488 οὐκ ἀλύξετον'),
-        ('kinds), ο[?] μὲν παλαιοὶ', 'kinds), οἱ μὲν παλαιοὶ'),
-        ('(for κακά) ο[?]ς ἐγὼ', '(for κακά) οἷς ἐγὼ'),
-        ('offspring o[?] her', 'offspring of her'),
-        ('**πρέπ[?] γὰρ**', '**πρέπει γὰρ**'),
-        ('συλλαβὼν [?]ρῶ:', 'συλλαβὼν ἐρῶ:'),
-        ('πῶς ε[?]πας which', 'πῶς εἶπας which'),
-        ('ἤδη Λά[?]ον πάλαι', 'ἤδη Λάιον πάλαι'),
-        ('*Achaeans*’[?] *Il.* 2. 684)', '*Achaeans*’ (*Il.* 2. 684)'),
-        ('τελοῦντ[?]ες (‘doing’)', 'τελοῦντες (‘doing’)'),
-        ('αὖ ο[?]τως ἄπορος', 'αὖ οὕτως ἄπορος'),
-        ("ὄλετ' ἐ[?] Θήβῃσι", "ὄλετ' ἐν Θήβῃσι"),
-        ('νῦ[?] δέ μιν', 'νῦν δέ μιν'),
-        ('ἔρχεται [?]να ἴδῃ', 'ἔρχεται ἵνα ἴδῃ'),
-        ('σμικρὸς [?] καιρός', 'σμικρὸς ὁ καιρός'),
-        ('δὲ φρά[?] [?]ράς τʼ', 'δὲ φράστοράς τʼ'),
-        ('τοῖς [?]λλοις ἡμῖν', 'τοῖς ἄλλοις ἡμῖν'),
-        ('ἦμαρ, [?]διστος', 'ἦμαρ, ἥδιστος'),
-        ('258 [?]γʼ ἔχοντες', '258 σῖγʼ ἔχοντες'),
-        ('σῴζε[?]θαί σ`ʼ ἐκέλευσʼ', 'σῴζεσθαί σʼ ἐκέλευσʼ'),
-        ('1040 μ[?] τεῖνε', '1040 μὴ τεῖνε'),
-        ('**[?]δε**, as thou', '**ὧδε**, as thou'),
-        ('sense of [?]δε for', 'sense of ὧδε for'),
-        ('274 ε[?] ξυντυχόντων', '274 εὖ ξυντυχόντων'),
-        ('80 [?]ξεδροι', '80 ἔξεδροι'),
-        ('οὐκ [?]παμβλυνεῖς', 'οὐκ ἀπαμβλυνεῖς'),
-        ('ἔκλυες, [?], |', 'ἔκλυες, ὦ, |'),
-        ('γαίης | [?]χετʼ', 'γαίης | ᾤχετʼ'),
-        ('etc.), [?]ντιθυρὼν', 'etc.), ἀντιθυρὼν'),
-        # the rest, read on the page (leaves 131-295); the note on 603 (Whitelaw's version, ‘O[?]) stays
-        # unread: the letter after O is cut off at the page's edge in this scan (leaf 184)
-        ('*Hipp.* 337 ο[?]ον, μῆτερ', '*Hipp.* 337 οἷον, μῆτερ'),
-        ('δαίμων was there, wor[?]ng out', 'δαίμων was there, working out'),
-        ('*M.* 1. 3. 9 ε[?]ναι τῶν', '*M.* 1. 3. 9 εἶναι τῶν'),
-        ('rash, then, to asser[?] that', 'rash, then, to assert that'),
-        ('in the vault (3[?]1).', 'in the vault (381).'),
-        ('κλύουσαν ο[?]κτον.', 'κλύουσαν οἶκτον.'),
-        ('τοὺς πέλας ψ[?]γε ἡμᾶς', 'τοὺς πέλας ψέγε ἡμᾶς'),
-        ('Cp. *[?]r.* 1236 f.', 'Cp. *Tr.* 1236 f.'),
-        ('calls u[?]n the virgin', 'calls upon the virgin'),
-        ('as guilty [?] unmaidenly', 'as guilty of unmaidenly'),
-        ('As Arist. say[?] ( Arist. *Rhet.*', 'As Arist. says (*Rhet.*'),
-        ('Cp. 13 [?] τὸν ἄσκοπον', 'Cp. 1315: *Tr.* 246 τὸν ἄσκοπον'),
-        ('οὐ φαι[?]νετο πάσης', 'οὐ φαίνετο πάσης'),
-        ('57 πυρὰ[?] τάφον', '57 πυρὰν τάφον'),
-        ('*Ph.* 442, ο[?] τοῦτον', '*Ph.* 442, οὐ τοῦτον'),
-        ("ὅτ' ο[?]ν ἐκεῖνοι", "ὅτ' οὖν ἐκεῖνοι"),
-        ('**μ[?] ʼξέλη**', '**μὴ ʼξέλη**'),
-        ('part of an [?]ξάγγελος', 'part of an ἐξάγγελος'),
-        ('| [?]ζηλα νίκης', '| ἄζηλα νίκης'),
-        ('οὐκ ἐκτὸς ἄψο[?]ρον [?]κνεμεῖ πόδα', 'οὐκ ἐκτὸς ἄψορρον ἐκνεμεῖ πόδα'),
-        ('Clytaemnestra[?]s death', 'Clytaemnestra’s death'),
-        ('οὐδ[?] θανόντι', 'οὐδὲ θανόντι'),
-        # Jebb's asterisk before a conjecture (686, Musgrave's τἀφέσει): printed, not italics
-        ('**ἰσώσας * τἀφέσει**', '**ἰσώσας \\* τἀφέσει**'),
-        # Perseus's Betacode v left a Latin v: the digamma (ϝ, Ϝ; read on the page: Ajax leaves 139, 265, 293;
-        # Electra 137) or a mistyped ν (the word is plain)
-        ('being vεκ,', 'being ϝεκ,'),
-        ('for ἐvέκηλος, ἔvκηλος', 'for ἐϝέκηλος, ἔϝκηλος'),
-        ('(for ἔκηvα)', '(for ἔκηϝα)'),
-    ],
+    # the Electra: none since its commentary is read from Jebb's page (COMMENTARY_FROM_PAGE,
+    # 2026-11-18); the fixes to Perseus's digitisation it had are in git history (before 65fc421)
     # the Ajax: none since its commentary is read from Jebb's page (COMMENTARY_FROM_PAGE,
     # 2026-11-18); the fixes to Perseus's digitisation it had are in git history (before aee2e3f)
     # the Antigone: none since its commentary is read from Jebb's page (COMMENTARY_FROM_PAGE,
