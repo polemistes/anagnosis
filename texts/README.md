@@ -272,27 +272,34 @@ short definition. `check` counts aliased lemmas as covered.
 ## Sophocles' other plays (`texts/ajax/`, `electra/`, `oedipustyrannus/`, `oedipuscoloneus/`, `philoctetes/`, `trachiniae/`)
 
 Like the Antigone, each play is R. C. Jebb's (*Sophocles: The Plays and Fragments*, Cambridge),
-made by `import-sophocles` from Perseus (`pipeline/anagnosis_pipeline/sophocles.py`, where
+first made by `import-sophocles` from Perseus (`pipeline/anagnosis_pipeline/sophocles.py`, where
 `PLAYS` gives each play's volume and sources); edit the importer and the transcriptions, not the
 files here.
 
-* **The Ajax** (since 2026; the others below until they are done the same way):
-  * Greek text and critical apparatus: R. C. Jebb, *Sophocles: The Plays and Fragments, part
-    VII* (1896, the 1914 reprint), read from the Internet Archive scan `playsfragmentswi07sophuoft`
-    by OCR with Perseus's digital text as a check, every verse and every apparatus item then read
+* **The Ajax and the Electra** (since 2026; like the Antigone above):
+  * Greek text and critical apparatus: R. C. Jebb, *Sophocles: The Plays and Fragments*, part VII
+    (the Ajax, 1896, the 1914 reprint; Internet Archive scan `playsfragmentswi07sophuoft`) and part
+    VI (the Electra, 1894, the 1907 reprint; scan `sophoclesplaysfr06soph`), read from the scan by
+    OCR with Perseus's digital text as a check, every verse and every apparatus item then read
     against the page images by AI agents in two readings (2026; batches in
-    `pipeline/transcriptions/drama/ajax/batch-*.md`). The edition is in the public domain; the
-    transcription CC BY-SA 4.0. (Before, the text had been checked page by page against the scan
-    as described below; the new reading changed 11 verses in words, 5 in punctuation, and the
-    numbering of 18.)
+    `pipeline/transcriptions/drama/<play>/batch-*.md`). The editions are in the public domain; the
+    transcriptions CC BY-SA 4.0. (Before, the text had been checked page by page against the scan
+    by the older route described below; the new reading changed in the Ajax 11 verses in words, 5
+    in punctuation and the numbering of 18, in the Electra 3 verses in words and 5 in punctuation.)
   * Commentary: Jebb's, read from the same scan by OCR and checked against the page images by
     AI agents in two readings (2026; batches `notes-*.md` in the same folder), CC BY-SA 4.0.
-    (Until 2026 it was Perseus's digitisation, which differs from Jebb's page in many places.)
+    (Until 2026 it was Perseus's digitisation, which differs from Jebb's page in many places; in
+    the Electra it lacked whole notes, 818, 873 and 1211-1223.)
   * Translation: Jebb's, in the form the Perseus Digital Library gives it (`perseus-eng2`: his
     English with the spelling and some words modernized by Perseus; not read against his page).
     CC BY-SA 4.0.
   * Introduction: Jebb's, from Perseus's digitisation (not yet read against his page), with the
     chapters Perseus lacks transcribed from the scan; the Appendix transcribed from the scan.
+
+The rest of this section describes the older routes, by which the other four plays (Oedipus
+Tyrannus, Oedipus at Colonus, Philoctetes, Trachiniae) were made, and the Ajax and the Electra
+before 2026; the lines on lemmas, morphology and syntax hold for all six.
+
 * Greek text: Jebb's text from Perseus (`soph.<play>_gk.xml`), CC BY-SA 3.0 US, checked page by
   page against the Internet Archive scans of Jebb's volumes (`SCANS` in `sophocles_pages.py`):
   the transcription batches in `pipeline/transcriptions/sophocles/<play>/` record Jebb's printed
