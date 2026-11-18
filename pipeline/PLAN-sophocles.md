@@ -130,6 +130,25 @@ texts/README.md say where it comes from. Only `commentaries` (1 row) and `commen
 changed in the database. Not yet said truly in texts/README.md: the Greek text's line still names
 Perseus's file (the text is Jebb's page since 31b4c85), and the translation line.
 
+**Electra switched over (2026-11-18)**: first check 04422b6, second reading f5a5d33 (64
+corrections), merge 65fc421 and after, version 33b5ff771fef76b6. 905 notes (Perseus's file 854: it
+lacked whole notes, 818, 873 and 1211-1223, numbered range notes by their last verse, gave further
+lemmas headings of their own, filed many under the verse before). f./ff. from the readers'
+`heading:` lines (336, none naming a heading off its page or contradicting another;
+`page_ff_marks`): where a play's batches carry such lines they are the only source, the OCR
+sources are not used; the Antigone and the Ajax will take theirs at their next sophocles-prose,
+when the pass adding them is done. Half-line filing now scores each lemma over N, Na, N+1, N+1a
+(and on a tie the line with its first word): 16 groups at 1209a … 1503a, 1416a included; the
+Antigone's and the Ajax's next run may move a paragraph or two by the finer rule. Whitelaw's ‘O[?]
+(603) stays, the letter cut off in this scan. Twenty notes read against the page: as printed (the
+readers write "*O. C.* 1034" with a space where the print's space is thin or none, as elsewhere).
+Fallen away: COMMENTARY_FIXES["electra"]; LATIN_ITALICS is now empty (add a play at its next merge
+from Perseus); jebb_authors is reached by no play: its code and the job files
+(transcriptions/sophocles/<play>/authors-NN.tsv) stay as the record of the restored names, which
+Perseus's text needed and the page batches do not. texts/README.md: one bullet for the Ajax and
+the Electra, and the older routes named as such. Only `commentaries` and `commentary_notes`
+changed in its database.
+
 **Ajax switched over (2026-11-18)**: first check 94e2100, second reading 8ca2c6b (59 corrections),
 merge aee2e3f and after, version 64cef7ca92cc5015. 865 notes (Perseus's file 856: it gave further
 lemmas headings of their own, numbered range notes by their last verse, and put 13 of Jebb's notes
