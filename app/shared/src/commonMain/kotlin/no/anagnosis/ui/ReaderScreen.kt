@@ -869,7 +869,7 @@ fun ReaderScreen(
                     val enHeights = if (settings.fitTranslation && translation != null) {
                         translationHeights(bookSegments, bookLines, backgroundMeasurer, styles, widthPx, density, data::lineLabel)
                     } else emptyMap()
-                    paginate(rows, backgroundMeasurer, styles, widthPx - numberColumnPx, heightPx, density, settings.lineNumbers, enHeights, anchorIndex, cache, { data.lineLabel(it.n_int, it.n_sub) }, data.prose, data.closedDashes, verseMarks(data, settings.lineNumbers != LineNumberMode.NONE)) { ensureActive() }
+                    paginate(rows, backgroundMeasurer, styles, widthPx - numberColumnPx, heightPx, density, settings.lineNumbers, enHeights, anchorIndex, cache, { data.lineLabel(it.n_int, it.n_sub) }, data.prose, data.closedDashes, verseMarks(data, settings.lineNumbers != LineNumberMode.NONE), wordless = { MarginNumbers.isWordless(it.text, data.tokensByLine[it.id]?.size ?: 0) }) { ensureActive() }
                 }
                 measureCache.putAll(cache)
                 pages = computed
@@ -897,7 +897,7 @@ fun ReaderScreen(
                     } else emptyMap()
                     // only as many rows as could possibly fit on one page, so the preview stays cheap
                     val endIdx = minOf(rows.size, startIdx + 120)
-                    paginate(rows.subList(startIdx, endIdx), measurer, previewStyles, previewWidthPx - numberColumnPx, heightPx, density, settings.lineNumbers, enHeights, label = { data.lineLabel(it.n_int, it.n_sub) }, prose = data.prose, closedDashes = data.closedDashes, marks = verseMarks(data, settings.lineNumbers != LineNumberMode.NONE)).firstOrNull()
+                    paginate(rows.subList(startIdx, endIdx), measurer, previewStyles, previewWidthPx - numberColumnPx, heightPx, density, settings.lineNumbers, enHeights, label = { data.lineLabel(it.n_int, it.n_sub) }, prose = data.prose, closedDashes = data.closedDashes, marks = verseMarks(data, settings.lineNumbers != LineNumberMode.NONE), wordless = { MarginNumbers.isWordless(it.text, data.tokensByLine[it.id]?.size ?: 0) }).firstOrNull()
                 } else null
             } else null
             // Two-finger pinch changes the text size; one finger is left to the pager. The page
@@ -1310,6 +1310,8 @@ private fun paginate(
     prose: Boolean = false,
     closedDashes: Boolean = false,
     marks: ((Lines) -> VerseMark?)? = null,
+    /** A line with no word (a printed line of signs): no margin number in any mode ([MarginNumbers.isWordless]). */
+    wordless: (Lines) -> Boolean = { false },
     checkActive: () -> Unit = {},
 ): List<Page> {
     if (widthPx <= 0 || heightPx <= 0) return emptyList()
@@ -1351,36 +1353,17 @@ private fun paginate(
     val forced = HashSet<ReaderRow>()
     val greekIdx = measured.withIndex().filter { it.value.row is ReaderRow.GreekLine }.map { it.index }
     fun lineAt(k: Int) = measured[greekIdx[k]].row as ReaderRow.GreekLine
-    fun fitsAt(k: Int) = measured[greekIdx[k]].numberFits
-    for ((k, i) in greekIdx.withIndex()) {
-        if (prose) break  // prose shows its section marks in the margin instead
-        val row = lineAt(k)
-        when (numbering) {
-            LineNumberMode.NONE -> {}
-            LineNumberMode.ALL -> if (measured[i].numberFits) numbers[row] = label(row.line)
-            LineNumberMode.FIFTH -> {
-                // every fifth verse; a lettered line (an extra line, or the later part of a shared
-                // verse) has no number of its own in this mode. A long lyric verse that runs over a
-                // fifth number no line carries (the verse 473 that covers 475) shows that number
-                // beside it, as Jebb prints it.
-                val n = row.line.n_int
-                val next = (k + 1 until greekIdx.size).asSequence().map { lineAt(it).line }
-                    .firstOrNull { it.n_sub.isEmpty() }?.n_int
-                val covered = (n / 5 + 1) * 5
-                val shown = when {
-                    row.line.n_sub.isNotEmpty() -> null
-                    n % 5 == 0L -> row.line
-                    next != null && covered < next -> row.line.copy(n = covered.toString(), n_int = covered)
-                    else -> null
-                } ?: continue
-                val own = shown === row.line
-                when {
-                    fitsAt(k) -> numbers[row] = label(shown)
-                    own && k + 1 < greekIdx.size && fitsAt(k + 1) && lineAt(k + 1) !in numbers -> numbers[lineAt(k + 1)] = label(lineAt(k + 1).line)
-                    own && k > 0 && fitsAt(k - 1) && lineAt(k - 1) !in numbers -> numbers[lineAt(k - 1)] = label(lineAt(k - 1).line)
-                    else -> { numbers[row] = label(shown); forced += row }
-                }
-            }
+    // prose shows its section marks in the margin instead
+    if (!prose) {
+        val marks = MarginNumbers.choose(greekIdx.indices.map { k ->
+            val line = lineAt(k).line
+            MarginNumbers.Line(line.n_int, line.n_sub, measured[greekIdx[k]].numberFits, wordless(line))
+        }, numbering)
+        for ((k, mark) in marks) {
+            val row = lineAt(k)
+            val shown = if (mark.own) row.line else row.line.copy(n = mark.nInt.toString(), n_int = mark.nInt, n_sub = mark.nSub)
+            numbers[row] = label(shown)
+            if (mark.forced) forced += row
         }
     }
     // Lines that must make room for a forced number are laid out narrower.
