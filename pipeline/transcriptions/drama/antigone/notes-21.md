@@ -116,6 +116,7 @@ Acrisius, the father of Danaë, was king of Argos. The oracle at Delphi told him
 --- notes
 Read through on the column images. The range note "944—987" (the draft had lost it: "987 Fourth stasimon…" under ## 944, and "πὰ antistr." as a false lemma) is `## 944-987`, its text mended (966—976=2nd antistr. 977—987); its three further paragraphs (As Antigone…, A princess…, All four…) under it; then ## 944 (944 f.). καὶ Δανάας δέμας ἔτλα is the bold lemma of an indented paragraph, ἀλλάξαι οὐράνιον φῶς plain; ἔτλα καί bold inside; ἀλλάξαι bold alone (οὐρ. φῶς ἐν χαλκοδ. αὐλαῖς plain). Other mendings: Dione → Dionè, ’Αρης → Ἄρης, Ἥρη, Ἀΐδης, Ἅιδα, *Tr.* 908, *Ph.* 1262 (draft 1202), *three*, *exchange*, *for*, *i.e.*, *ap.*
 Checker: ε, ει are letters printed without breathing, as Jebb prints them.
+heading: 944 f.
 
 === p-0238
 + Apoll. Rhod. 4. 1091) describes it as ‘a brazen chamber (θάλαμον...χαλκοῦν) made under ground, in the court-yard (αὐλή) of his house.’ Paus. (2. 23. 7) says that he saw at Argos κατάγεων οἰκοδόμημα, ἐπ’ αὐτῷ δὲ ἦν ὁ χαλκοῦς θάλαμος (made by Acrisius): *i.e.* the θάλαμος itself was above ground;—as Horace calls it *turris aenea* (*C.* 3. 16. 1). By the epithet χαλκοῦς the legend evidently meant to denote the strength and security of the prison,—as though the doors were of bronze. But it is very probable that this epithet originally came into the story through a reminiscence of a tomb (like the ‘treasury of Atreus’ at Mycenae), to the walls of which bronze plates had been nailed. (Cp. *Introd. to Homer*, ch. II. § 25.) In Simonides fr. 37. 7 χαλκεογόμφῳ is said of the chest in which Danaë was sent adrift,—not of the θάλαμος.
@@ -164,6 +165,8 @@ Checker: ε, ει are letters printed without breathing, as Jebb prints them.
 --- notes
 Read through on the column images. 946: the draft's "—255.-κατε Ledx On:" is the bold lemma κατεζεύχθη after the dash: made its own paragraph. 948 ff. heading `## 948`. 951: lemma ἁ μοιριδία τις in bold, κ.τ.λ. plain; τις bold inside the paragraph as printed. 952 f.: lemma **οὔτ’...ὄλβος** (draft "οὔτ᾽. ὄλβος"). Other mendings: *i.e.* (×2), *C.* 3. 16. 1 (draft τό), *turris aenea*, *Introd. to Homer*, *sc.*, *Eum.*, *Pers.*, *Ai.*, *Denkm.*, *Ph.* 519 (draft Pk.), ὑπ’, καίτοι γ’ ἦν, καί (×2), ἀμφιρύτου, ρρ … ρ a diphthong. "ch. II." in the reference to the Introduction to Homer: the old-style figures and roman II look alike; read as the roman II (the book has four chapters; the draft had 11).
 Checker: ρρ, ρ are letters printed without breathing, as Jebb prints them.
+heading: 948 ff.
+heading: 952 f.
 
 === p-0239
 + θνατοῖσι δ’ οὐκ αὐθαίρετοι | οὔτ’ ὄλβος οὔτ’ ἄκαμπτος Ἄρης οὔτε παμφθέρσης στάσις, | ἀλλ’ ἐπιχρίμπτει νέφος ἄλλοτ’ ἐπ’ ἄλλαν | γαῖαν ἁ πάνδωρος αἶσα.
@@ -222,6 +225,7 @@ Dionysus, when he came from Asia with his new rites, was opposed by Lycurgus in 
 Read through on the column images. The draft's garbled "οὔτ᾽... when οὔτ᾽, only one followed οὔτε has by οὐ.. been οὐχ used" (two lines interleaved) rewritten from the image: lemma **οὔτ’...οὔτ’**, with **οὐ...οὐχ** bold inside. 955 f.: the lemma ὀξύχολος after the dash (draft "ὀξύχολος k.T.N.=6") made its own paragraph with κ.τ.λ.=ὁ plain. ὀργαῖς and κερτομίοις bold inside the paragraph as printed. πετρώδει...δεσμῷ and κατάφαρκτος (bold after dashes) made paragraphs of their own. Other mendings: ἁ πάνδωρος (draft a), Ἄρης, Ἠδωνοί/Ἠδῶνες/Ἠδωνοί precomposed, W. (draft w.), *Th.* 135 (draft 7%. 13s), *El.* 838 (draft 4. 838), *Il.* 6. 130, *Aen.*, *Legg.*, *ib.* (draft 20.), *Bacch.*, imprisonment (draft "i imprisonment"), city-walls. The print has no opening quotation mark before "whence comes this womanish youth?’": copied as printed.
 955	rev: "(‘whence comes this womanish youth?’)": the print has no opening ‘ (only the closing ’ is printed); an evident misprint, corrected (the first check had kept it as printed)
 955	rev: "The idea of κερτομίοις is mockery": the print has κερτόμιοις (acute on the antepenult before the long -οις; the same word in bold a few lines above is κερτομίοις); an evident misprint, corrected
+heading: 955 f.
 
 === p-0240
 ## 959
@@ -279,6 +283,9 @@ Read through on the column images. The draft's garbled "οὔτ᾽... when οὔ
 25 Atthe [rare] → At the
 --- notes
 Read through on the column images. 959 f.: the lemma οὕτω (draft "ξ. οὕτω, 7. 4.,"). 960 ff.: only ἐπέγνω is bold; the rest of the heading words plain. The draft's paragraph "**ἐπέγνω**, μανίαις. ψαύων…" is Jebb's re-pointing of the sentence in plain type after "thus:—": joined to its paragraph, bold taken away. "—ἀθίκτου θιγγάνων" is plain Greek after a dash: joined. New paragraphs at the bold μανίαις, ψαύων, ἐν, γλώσσαις (each after a dash). A faint upright mark at the right edge after "μανίαις" (end of a line, in prose) is not a verse division: not transcribed. Other mendings: *Polit.* 310 D (draft Ὁ), ῥώμῃ, ἄνθος=ἀκμή (draft "τε"), *Tr.* 998 (draft 77. 908), "flows from madness" in italics, *Od.* 24. 216 (draft 210), αἴ κέ, *O. T.* 1251 n., *O. C.* 680 (draft Ο.Ο. 68ο), *e.g.*, Baumeister’s.
+heading: 959 f.
+heading: 960 ff.
+heading: 963 f.
 
 === p-0241
 + save the nymph by changing her into a vine; and behind him stand his followers. At the extreme left are three Muses—Urania, with globe; Clio, with roll; Euterpè, prob. with flutes. (Zoega seems clearly right in thus explaining the three women: others have made them Moirae.)—The close relation of Dionysus with the Muses is marked by one of his Attic titles, Μελπόμενος (Paus. 1. 2. 5), as conversely Apollo had the title Διονυσόδοτος (id. 1. 31. 4). Muses were sometimes said to have nursed him. (Cp. Welcker, *Götterl.* 2. 611.)
@@ -352,6 +359,7 @@ L’s accent, **πελάγεων**, points to the truth,—as similar small hint
 19 mtrod [latin] (Greek model: (λπένοά.) → *Introd.*
 --- notes
 Read through on the column images. "L’s accent, πελάγεων…" is a new indented paragraph (kept). Bold inside paragraphs as printed: πελάγεων, πελάγει (×2), παρά, Κυανεᾶν, Θρῃκῶν, ἄξενος, κλῄζεται, †ἠδ’, ἰδ’, ἠδ’. 967 f. heading `## 967`. "In Pind. *P.* 1 75": no stop is printed between 1 and 75; copied as printed. The print has Καϋστρίων with the diaeresis on υ (and Καΰστριον), and the iota subscript in Θρῃκῶν, Θρᾴκην, κλῄζεται: as printed. Other mendings: MS., MSS. (draft ms., Mss.), "As to 1123, see n. there" (draft "Asto 1123, seen. there"), *P.* 3. 60 (draft 2. 3. 60), *P.* 10. 63, S. (×2, draft 5.), N.W., (=-τον γονάν (draft "—-τον"), ἄξενος bold, *P. V.*, *Class. Review* vol. II. (draft 11.), *Il.* 14. 175 (draft 21.), "Βοσπόριαι καὶ ὁ" (draft kal), θ’ ὅ τε, *sc.*, *An.*
+heading: 967 f.
 
 === p-0243
 ## 970
@@ -426,3 +434,4 @@ Read through on the column images. "L’s accent, πελάγεων…" is a new 
 --- notes
 Read through on the column images. Missed heading 974 restored: the draft had run two lines together ("ἕλκος τυφλωθέν. τυφλοῦν ENkos=to Znflict φόνον, a blinding he dealt wound. death ΟΡ. by Ai. hewing 55 ἔκειρε… down." and "Distinguish ἐκ Διονύσου 974 ἀλαὸν... in 957 κύκλοις, (by his order). sightless for the orbs"): both rewritten from the image, ## 974 with lemma ἀλαὸν...κύκλοις. ἕλκος τυφλωθέν (bold after a dash), ἐξ, ἀλαστόροισιν, ὑπό made paragraphs; 970: "981 ἀρχαιογόνων ων" → ἀρχαιογόνων; bold inside paragraphs as printed: ἵν’, Ἄρης τ’ (in Gleditsch's reading), ἀγχίπτολις, Ἄρης, ἀρχαιογόνων; ᾱ (draft "a"). 971 ff. heading `## 971`. Other mendings: (*a*), (*b*), *Il.* 13. 301, *O.* 1. 26, τρώσῃς, *Aen.* 11. 82 caeso *sparsuros* sanguine *flammam*, *shed*, *by cutting*, *plus*, *e.g.*, τυφλῶ ἕλκος=ποιῶ ἕλκος τυφλῶν (draft "Ξε"), Ζεὺς, Ζ. Ἀλάστωρ, οἶος, *O. T.* 1276, *Tro.* 198 (draft 770. 198), ἱστοῖς, *s.v.* *radius*, κρέκω.
 Checker: ᾱ is the letter with its quantity mark, printed without breathing, as Jebb prints it.
+heading: 971 ff.

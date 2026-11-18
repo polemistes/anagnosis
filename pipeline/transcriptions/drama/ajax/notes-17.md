@@ -61,6 +61,8 @@
 24 (τέθνηκε...) [conf] → (τέθνηκε..)
 --- notes
 Beyond the flags: ἢ → ἤ (Il. 5. 887); "το. 321" → 10. 521; 70. 19. 562 → *ib.* 19. 562; ’ / ” after ‘unsubstantial’ → ’; ἰώ pol μοι → ἰώ μοί μοι; "Z. 10 252" → *Il.* 10. 252; "1. 1809" → 1. 189; "77. 1104" → *Tr.* 1104; "3 319" → 319; "τ ἀρτίως" → ἀρτίως; "4712. 1311" → *Ant.* 1311; "(Eur. 770. 14)" → (Eur. *Tro.* 14); "ἀμενηνῶν..." and "οἴκτῳ..." with Jebb's two dots; italics set (Il., Iliad, Od., ib., sc., Ph., Tro., O. C., Ant., Pers., Tr., O. T.); bold πάραυλος inside the note as printed; 894 f., 898 f. → ## 894, ## 898. "φασγάνῳ" divided between the pages ("φασ-|γάνῳ"): written whole here; the lemma φασγάνῳ περιπτυχής runs on to p-0223.
+heading: 894 f.
+heading: 898 f.
 
 === p-0223
 + **περιπτυχής**, wrapped, as it were, round the sword; cp. Pind. *N.* 8. 23 (φθόνος) Τελαμῶνος δάψεν υἱόν, φασγάνῳ ἀμφικυλίσας. Verg. *Aen.* 10. 681 *An sese mucrone ob tantum dedecus amens* | *Induat.*
@@ -104,6 +106,7 @@ Beyond the flags: ἢ → ἤ (Il. 5. 887); "το. 321" → 10. 521; 70. 19. 562
 20 g51. [digit] → 951.
 --- notes
 Beyond the flags: the lines of 904 and 905 had been scrambled into one paragraph ("with allusion to his 905 name (430 τίνος f.) ποτ᾽ : cp. ἐπὶ ἱρ δυσώνυμος. ἔπραξε κ.τιλ."): the end of 904 and the note on 905 rewritten from the image, with its heading ## 905 and its lemma τίνος ποτ᾽ ἆρ᾽ ἔπραξε. The page begins with the rest of the lemma φασγάνῳ περιπτυχής (bold): περιπτυχής in bold after +. ὦμοι → ὤμοι (900, 901, as printed); ἀναξ → ἄναξ; "ἀναξ.. τάλας" closed up as printed; ws → ὡς (twice); Mss. → MSS.; Ms. → MS.; NV. → *N.*; "and that" kept; bold ἔπραξε and ἔρξε, and τάλας, inside the notes as printed; ὦ before ταλαίφρων γυνή is printed ὢ (smooth breathing and grave): kept so. Italics set (N., Aen., the Latin of Vergil, Tr., Il., Ant., El.); 901 f. → ## 901.
+heading: 901 f.
 
 === p-0224
 + (though he has ἔρξειεν *Tr.* 935, ἔρξον *ib.* 1201, ἔρξας *Ph.* 117 etc.); and by Aeschylus only once, *Th.* 924 ἐρξάτην (lyr.): for in *Ag.* 1529 ἦρξεν is right, and ἔρξεν only a conjecture. As to v. 951, the insertion of γὰρ is not only admissible, but desirable.
@@ -149,6 +152,9 @@ Beyond the flags: the lines of 904 and 905 had been scrambled into one paragraph
 --- notes
 Beyond the flags: "77. 935" → *Tr.* 935; XO./AT. → ΧΟ./ΑΓ. (Greek capitals); "ἐν yap σε" → ἐν γάρ σε; "id. I. 108" → id. 1. 108; "ἐκ γάρ ol" → ἐκ γάρ οἱ; "ὄψιος.. ἐσήμαινον", "οἱ.. πηκτὸν", "ἄσκευον .. στρατοῦ", "ἄγκιστρα.. περιπαγέντα" closed up as printed; "vol. 11." → vol. III.; "ἢ. on 595" → n. on 595; "3. 7: 6 (p. 1234 @ 5)" → 3. 7. 6 (p. 1234 *a* 5); "¢. 200 B.C." → *c.* 290 B.C.; "22. 36" → *El.* 36; "§ 43" kept; bold οἱ..πηκτὸν, φίλων, πάντα inside the notes as printed; italics set (Tr., ib., Ph., Th., Ag., Ant., Hist. An., i.e., Opp., Gramm. Att. Inschr., c., El., O. C., Eth. Eud., a); 906 f., 909 f., 913 f. → ## 906, 909, 913. The breathings of the two οἷος in 909 are not clear on the scan: the sense needs a contrast (the MSS. reading against another), and the lemma is written οἶος, the other οἷος; please confirm on the page if possible.
 rev: 909 οἶος (lemma) / οἷος (the other reading) kept: the breathings under the circumflex are not decisive even enlarged, but Jebb's translation on leaf 225 ("all alone, then, thou hast fallen in blood, unwatched of friends") confirms οἶος as his (the MSS.') reading.
+heading: 906 f.
+heading: 909 f.
+heading: 913 f.
 
 === p-0225
 + opposite extreme to βωμολόχος, while the εὐτράπελος is the happy mean.
@@ -198,6 +204,7 @@ rev: 909 οἶος (lemma) / οἷος (the other reading) kept: the breathings 
 --- notes
 Beyond the flags: "-δυσώνυμος" after a dash in the print (bold): made a paragraph of its own under 913; "—olkelas σφαγῆς" (bold) after a dash made a paragraph of its own; "-δὴν" → -δην (no accent in the print); "ὅστις kal φίλος" → καὶ; "Eur. A. 2. 58" → *H. F.* 58; "Lon 232" → *Ion* 232; "τού f." → 196 f.; "ἀκ**patos, εἰ βαίη, μόλοι" → **ἀκμαῖος, εἰ βαίη, μόλοι** (bold, a new paragraph after the dash); "μόλοι dv" → ἄν; ἀκμαῖος...μόλοι bold inside the note as printed (921 prints three dots here); italics set (Antigone, Electra, H. F., Ion, Od., came up, to, Ant., Ph.); 918 f. → ## 918. The spaced ἀνὰ in the Homer quotation written plain.
 The checker's remark on “α”: it is the letter alpha named as a letter ("lengthening of α"), as printed, not a word.
+heading: 918 f.
 
 === p-0226
 ## 922
@@ -295,6 +302,9 @@ It is indeed possible to render **οὐλίῳ σὺν πάθει**, as Prof. Ca
 16 χρυσοδέτων [greek] (Greek model: οδέτων:) → ok (bold)
 --- notes
 Beyond the flags: "doubled ¢" → doubled σ; "Od. τό. 373" → *Od.* 16. 373; "rightly, 1 believe" → I; "164 η." → 164 n.; "kal φαέθοντ᾽" → καὶ; "ὠμόθυμον ." closed up; "§ 1, 15 an" → is an; "Ξε σφοδρῶς" → =σφοδρῶς (closed up as printed); "ἣν λισσόμενος" → ἦν; "77. 871 ws" → *Tr.* 871 ὡς; "εἰς." → etc.; "(EL 699)" → (*El.* 699); "71. 20. 268" → *Il.* 20. 268; "see Cr. ἢ." → see cr. n.; "μέγας...ἦν... ἄρχων" → μέγας..ἦν..ἄρχων (two dots, as printed); bold οὐλίῳ (927 note), οὐλίῳ σὺν πάθει (second paragraph of 931) and χρυσοδέτων inside the notes as printed; "ἐχθοδόπ᾽" and "οὐλίῳ σὺν πάθει" (bold after dashes) are paragraphs of their own, as the draft had; the paragraph "It is indeed possible …" begins indented without a number (a further paragraph of 931); italics set (Od., Theog., P., Ph., sc., wrong, Tr., O. T., El., O. C., Il.); 929 f., 931 ff., 935 f. → ## 929, 931, 935.
+heading: 929 f.
+heading: 931 ff.
+heading: 935 f.
 
 === p-0228
 + of τίθημι (τέθειμαι being used in a middle sense). Cp. 572 f. τεύχη.. | θήσουσ᾽ Ἀχαιοῖς (n.).
@@ -341,6 +351,7 @@ Beyond the flags: "doubled ¢" → doubled σ; "Od. τό. 373" → *Od.* 16. 373
 --- notes
 Misprint corrected: in the quotation of Aesch. Eum. 135 (note on 938) the print has "ηπαρ" with neither breathing nor accent (the lemma just before has ἧπαρ); written ἧπαρ.
 Beyond the flags: "372 f." → 572 f. (print); "παρ ἐνδίκοις ὀνείδεσιν ." → ἧπαρ ἐνδίκοις ὀνείδεσιν.; "Eur. HA. F." → Eur. *H. F.*; the note on 940 had lost its lemma ("«kal dis:") → **καὶ δὶς**:; "£/. 788" → *El.* 788; "τάλαινα"" → τάλαινα·; "76. 285" → *ib.* 285; "(2. 696 ὅταν δέ Tis" → (*El.* 696 ὅταν δέ τις; "οὐδ᾽ ἄν ἰσχύων" → οὐδ᾽ ἂν; "οὐχ ὡς vy ... ἣν" → οὐχ ὥς γ᾽ ... ἦν; "conjecture ;" closed up; "λοισθίων δρόμων" (the line-end division δρό-|μων) joined; ‘I know it well.’ restored; bold οἰμῶξαι, ἀρτίου, φρονεῖν inside the notes as printed; the paragraph "ἀρτίως. The schol. …" begins indented without a number (under 941, as in the draft); italics set (Eum., Ph., H. F., El., ib., Ag., Rhein. Mus., Ant., O. C., O. T., Suppl.); 944 f. → ## 944. The page ends with the note on 944 complete; p-0229 begins with a new note (946).
+heading: 944 f.
 
 === p-0229
 ## 946
@@ -392,3 +403,5 @@ Beyond the flags: "372 f." → 572 f. (print); "παρ ἐνδίκοις ὀνε
 --- notes
 Structure: the page begins with a new note, "946 ff. ὤμοι, ἀναλγήτων κ.τ.λ.: ‘in this sorrow …" (indented, bold number), which the draft had scrambled into a run-on ("+ this 946 sorrow fl. ὦμοι, (τῷδ᾽ ἀναλγήτων ἄχει, …"): rewritten from the image as ## 946 with its lemma, no + (p-0228 ends with the note on 944 complete).
 Beyond the flags: ‘in this sorrow (τῷδ᾽ ἄχει … ruthless’ restored in order; bold τῷδ᾽ ἄχει, ἀναλγήτων, ἄναυδ᾽ | ἔργ᾽, ἀλλ᾽ ἀπείργοι θεός, γὰρ, γ᾽, ἄγαν inside the notes as printed; "ἄναυδον] ἔργον" → ἄναυδον | ἔργον; "( cease from this sorrowing )" → (‘cease from this sorrowing’).; "οὐκ dv τάδ᾽" → οὐκ ἂν τάδ᾽ (all bold); "2. V. 511" → *P. V.* 511; "(n. )- .«" → (n.).; "ἄν more" → ἄν ποτε; "gos n." → 905 n.; Mss. → MSS.; "NE," → ΝΕ.; Φι. → ΦΙ.; "ἄχθος ὃ Evvokel" → ἄχθος ὃ ξυνοικεῖ (ὃ as printed); italics set (i.e., O. C., P. V., Ant., sc., O. T., Ph.); 946 ff., 952 f. → ## 946, ## 952.
+heading: 946 ff.
+heading: 952 f.

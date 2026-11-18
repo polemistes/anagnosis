@@ -78,6 +78,9 @@ Join **οἴμοι ταλαίνης**, ‘alas for thee, unhappy one’: *O. C.*
 52 (0. [conf] → (*O.*
 --- notes
 New paragraph cut at the bold lemmas after dashes (ἀτιμάσασ’ ἔχε, ἄτιμα ποιοῦμαι, τὸ δὲ | ...δρᾶν); bold μέν, δέ, οἴμοι ταλαίνης, μου, τὸν σόν, μὴ ’μοῦ, προτάρβει inside paragraphs as printed. "Join οἴμοι ταλαίνης" is not a lemma (English first).
+heading: 78 f.
+heading: 80 f.
+heading: 82 f.
 
 === p-0093
 + Plat. *Legg.* 862 C). In the figurative uses of ὀρθός and its derivatives the context must always guide our choice between the notion of ‘upright’ and that of ‘straight.’
@@ -136,6 +139,9 @@ New paragraph cut at the bold lemmas after dashes (ἀτιμάσασ’ ἔχε,
 30 Zl [latin] (Greek model: 7.) → *Il.*
 --- notes
 New paragraph cut at the bold lemma κρυφῆ δέ after the dash (the draft had missed it). The bold lemma is printed κρυφῆ without iota subscript (verse 85 has κρυφῇ): kept as printed. Bold ἀλλά, οὖν, γε, πολλὸν, ἐὰν...τάδε, πᾶσι, ἐπί, θερμήν inside paragraphs as printed. The dash in "fear.’—Some understand" is followed by English: kept in the paragraph.
+heading: 84 f.
+heading: 86 f.
+heading: 89 f.
 
 === p-0094
 ## 90
@@ -193,6 +199,7 @@ Lehrs proposed Δίκῃ, *i.e.* ‘you will fall under the chastisement of just
 --- notes
 Draft's "Since οὐκοῦν ... 81 is best taken" read: δὴ (bold); ὅταν and the other bold words inside paragraphs (καὶ, δυνήσει, εἰ καί, οὐκοῦν, προσκείσει, ἐχθρά) set bold as printed. New paragraphs cut at πεπαύσομαι and ἐξ ἐμοῦ (bold lemmas after a dash). Ph. 1230 of the draft is 1239 in the print. The smooth breathing printed before the capital (’Ορχομενίους) is written precomposed: Ὀρχομενίους.
 94	rev: "ἐχθρᾷ... δίκῃ" closed up to "ἐχθρᾷ...δίκῃ" (the space was the print's line break)
+heading: 95 ff.
 
 === p-0095
 + πρῲ λέγοις ἂν τὸν πόθον τὸν ἐξ ἐμοῦ, | πρὶν εἰδέναι τἀκεῖθεν εἰ ποθούμεθα. Cp. *O. C.* 453 n.
@@ -307,6 +314,8 @@ The draft had lost the order of the Ismenus sentence ("The Dirce was on the E.: 
 The checker's "no breathing" remarks on ᾱ, ᾰ, ῠ, υ: single letters named by Jebb (with ᾱ as usu.; Homer never shortens the υ), printed without breathing.
 100	rev: lemma "τὸ κάλλιστον ...φάος" closed up to "τὸ κάλλιστον...φάος" (the space was the print's line break)
 106	rev: "the H of Ἥφαιστον": the letter is the Greek capital eta (Η), not Latin H
+heading: 100 f.
+heading: 103 f.
 
 === p-0097
 + duty for a short: and Nauck is incorrect in saying that the metre ‘requires’ (though it admits) a choriambus beginning with a *consonant*. The simplest remedy is to read **Ἀργόθεν ἐκ|βάντα φῶτα**, and to suppose that, after the loss of ἐκ, βάντα and φῶτα were accidentally transposed. Cp. *O. C.* 1088 where σθένει ’πινικείῳ is certainly the right order, but the MSS. reverse it. (See also above on v. 29.) Dindorf reads ἐκ φῶτα βάντα, assuming tmesis: but tmesis of ἐκ in Soph. occurs elsewhere only before μέν (*Tr.* 1053) or δέ, and there was no motive here for interposing φῶτα. Hermann reads Ἀργόθεν ἔκ as = ἐξ Ἀργόθεν: but elsewhere ἐκ comes before, not after, such forms (ἐξ Αἰσύμηθεν, *Il.* 8. 304: ἐξ ἁλόθεν, ἐξ οὐρανόθεν, etc.). If Ἀργόθεν is not genuine, then it was probably a gloss on some other form in -θεν. Had γᾶς Πέλοπος (or Δαναοῦ) been in the text, a scholiast would have been more apt to paraphrase with ἀπ’ or ἐξ Ἄργους. This is against such conjectures as Ἀργέϊον, Ἀργογενῆ, Ἀργολικόν, Ἰναχίδαν, Ἰνάχιον, as is also the fact that βάντα suggests a mention of ‘the place whence.’ Ἀπιόθεν (Ahrens) would mean ‘from Ἄπιος,’ but we require ‘from Ἀπία’ *sc.* (γῆ, the Peloponnesus, *O. C.* 1303 n.), *i.e.* Ἀπίᾱθεν: cp. Ὀλυμπίαθεν. I had thought of **Ἰναχόθεν**, which Mekler, too, has lately suggested, though he has not supported it by argument. The points in its favour are: (*a*) the order φῶτα βάντα can be kept: (*b*) after ‘Dircè’s streams’ in v. 105 a reference to the Argive river would be appropriate: (*c*) ἀργόθεν might have come in either as a gloss, or a corruption of the letters αχόθεν, if ιν had dropped out after λεύκασπιν. But I hesitate to displace Ἀργόθεν, esp. when a direct mention of Argos here so naturally corresponds with the direct mention of Thebes in v. 101.
@@ -369,6 +378,7 @@ The checker's "no breathing" remarks on ᾱ, ᾰ, ῠ, υ: single letters named 
 The draft's paragraph break before "ἐξ Ἀργόθεν" is undone: Hermann's reading runs on inside the paragraph ("Hermann reads Ἀργόθεν ἔκ as = ἐξ Ἀργόθεν: but elsewhere …"); no dash, no lemma. The vertical strokes in Ἀργόθεν ἐκ|βάντα and ἀρ|χαῖα are printed (verse divisions inside the quotation), kept. The stop after "Aesch" (before *Cho.*) and after "cp" (before Ὀλυμπίαθεν) does not show in the print (worn type): written "Aesch." and "cp.". Bold κινήσασα and πρόδρομον inside the φυγάδα paragraph as printed; "—Cp. Aesch. *Th.* 122" (dash before English) stays in its paragraph.
 ## 107: Jebb's number; our text has no 107.
 The checker's "no breathing" remarks on αχόθεν and ιν: groups of letters Jebb names inside a word, not words.
+heading: 107 ff.
 
 === p-0098
 ## 110
@@ -412,6 +422,8 @@ The MSS. have **ὃν...Πολυνείκης**. If this were sound, it would be 
 25 els [rare] → εἰς
 --- notes
 The first heading is 110 in the print ("110 f."), not 112 as the draft had it. The draft had cut the scholium out as a bold lemma paragraph ("**τι ὅντινα στρατὸν ᾿Αργείων**"): it is a quotation in ordinary Greek type after "scholium:—", joined back into the paragraph. Bold ὃν...Πολυνείκης, ὃς...Πολυνείκους, ὥς, εἰς inside paragraphs as printed. "—L has the Doric …" (dash before English) stays in the paragraph.
+heading: 110 f.
+heading: 112 f.
 
 === p-0099
 + of these descriptive verses should not be broken by a paroemiac before v. 116. No argument either way can be founded on v. 130 (where see n.), since, even if it were a paroemiac, that would not require a paroemiac here.
@@ -472,3 +484,5 @@ The words **φονώσαισιν ἀμφιχανὼν...λόγχαις** once mo
 --- notes
 The draft garbled the two lines of the left column around "ὅπλων...κορύθεσσι. The image of the eagle" and the right column from "merge the image of the eagle,—as at v. 115,—in literal description" to "thoroughly Sophoclean: cp. n. on *O. T.* 866": both rewritten from the image. New paragraphs cut at the bold lemmas after dashes (στεγανός, ὅπλων...κορύθεσσι); ἱπποκόμοις (after a full stop), ξύν, μετά, πτάς and the other bold Greek stay inside their paragraphs. Corrected references from the image: *O. C.* 1258 (draft 1238), *Il.* 23. 79 (draft 70), Eur. *Ph.* 1491, *ib.* 1526, Cp. 1307 (draft "1 807").
 The checker's "no breathing" remark on εσσι: the ending -εσσι, printed with its hyphen, not a word.
+heading: 114 ff.
+heading: 117 ff.

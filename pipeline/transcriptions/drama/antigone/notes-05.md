@@ -31,6 +31,7 @@ There is a general dramatic analogy between this speech and that of Oedipus in *
 --- notes
 Heading 162-991 read as 162-331 from the image; "**κοινῷ**® k. πέμψας" → **κοινῷ κ. πέμψας**; "CP. ON IQ." → cp. on 19; προῦθετο bold as printed; italics set.
 "genitives in ι": the letter as an ending, printed without breathing (checker remark expected).
+heading: 162 ff.
 
 === p-0109
 + The image of the State as a ship dates in Greek literature from Alcaeus (whom Horace copied, *Carm.* 1. 14), fr. 18. The ship of Alcaeus is labouring in the trough of a wild sea,—water is coming in,—the sail is torn,—the anchor will not hold: νᾶϊ φορήμεθα σὺν μελαίνᾳ | χείμωνι μοχθεῦντες μεγάλῳ μάλα, κ.τ.λ. It is only through Heracleides *Alleg. Homer.* 5 that we know the meaning of Alcaeus to have been figurative and political. Aesch. often uses the image (*Th.* 2, 62, 208 etc.). Creon returns to it at 189. It is peculiarly well suited to his point,—the unity of the public interest.
@@ -89,6 +90,8 @@ Heading 162-991 read as 162-331 from the image; "**κοινῷ**® k. πέμψα
 --- notes
 **ὤρθωσαν** (after a dash, bold) made a new paragraph under 162; heading "164 f." → ## 164; "ἐμπέδοις φρονήμασιν" (bold after a dash) a new paragraph under 167; bold inside paragraphs (δίχα, κείνων, καί, μένοντας …) and italics set from the image; "be-|cause" written whole on this page.
 167	rev: "τοῦτο μὲν . ." → "τοῦτο μέν . ." (acute, as printed before the dots)
+heading: 164 f.
+heading: 167 ff.
 
 === p-0110
 + a series of accusatives has preceded, and (*b*) because, as μένοντας has already marked their constancy, we now want an epithet for their φρονήματα.
@@ -137,6 +140,8 @@ Demosthenes, in his speech on the Embassy (343 B.C.), quotes this passage (vv. 1
 21 1 [digit] → I
 --- notes
 The draft's lines from "ὅτε causal" to "ἀλλαλοφονίᾳ" (two columns run together) rewritten from the image; "170 ff.", "173 f." → ## 170, ## 173; cuts at the dashes before **πρὸς διπλῆς μ.**, **παίσαντες . . πληγέντες**, **αὐτόχειρι . . μιάσματι**, **κράτη**, **γένους κατ’ ἀγχιστεῖα τῶν ὀλ.**; **σύν** and **διπλῆς . . μίαν** stay inside their paragraphs (no dash). συγγενέστατον is letter-spaced in the print; written plain. "cause" of "because" left on p-0109.
+heading: 170 ff.
+heading: 173 f.
 
 === p-0111
 + which Aeschines had violated, though, accustomed as he had been to play tritagonist’s parts, he ought to have known them by heart (or. 19 § 247).
@@ -176,6 +181,7 @@ The draft's lines from "ὅτε causal" to "ἀλλαλοφονίᾳ" (two colum
 20 οἵτινες... [conf] → ok
 --- notes
 "(or. 19 § 24 7)" → 247; the right column's start (ἐντριβής … Thuc. 1. 8) was run across the columns in the draft: rewritten from the image; **ἐντριβής** (after a dash) a new paragraph under 177; **φανῇ** and **πᾶσαν...πόλιν** bold inside their paragraphs (no dash); only **μὴ** of "μὴ...ἅπτεται" is bold in the print; "178 ff." → ## 178; the Shakespeare quotation in italics as printed.
+heading: 178 ff.
 
 === p-0112
 + ἔργῳ δὲ μάλιστα ἀντέχουσιν: *ib.* ὅστις λαμβάνει.
@@ -227,6 +233,7 @@ The draft's lines from "ὅτε causal" to "ἀλλαλοφονίᾳ" (two colum
 The 182 note's middle (from "ἀντὶ φέρεσθαι" to "λέξαιμ’ ἂν 2.6.", lines of both columns interleaved) rewritten from the image; "(σεῖο in numero habes)" → (*nullo in numero habes*); **ἴστω** (after a dash) a new paragraph under 184; "182 f." → ## 182; αὐτὸν, αὐτῷ in the Demosthenes quotation as printed (smooth breathing).
 182	rev: the bold "ἢ" (or ἢ with accus.) is printed with the acute: **ἤ**
 182	rev: Demosthenes quotation: the print has the rough breathing in "πρὸς αὑτὸν" and "ἡγήσατο αὑτῷ" (compared under magnification with ἡ and ἀλλ’ on the same page); the remark above is wrong; Xenophon's "παρ’ αὐτοῖς … πρὸς αὐτόν" are smooth as printed
+heading: 182 f.
 
 === p-0113
 + that otherwise a disastrous precedent would be set. And though Polyneices was my nephew, I should never allow myself to recognise as friend or kinsman a man who had borne arms against the country.’
@@ -267,6 +274,8 @@ The 182 note's middle (from "ἀντὶ φέρεσθαι" to "λέξαιμ’ �
 17 καλῴώς [greek] → καλῶς
 --- notes
 "ταύτης κατὰ" → **ταύτης** κ.τ.λ. (only ταύτης bold); "187 f.", "189 f." → ## 187, ## 189; "(see above, ἢ. on 182)" → n. on 182; "Ὁ ἐὰν" → D ἐὰν; ἀθρόαν with the smooth breathing as printed. Misprint or worn type: the print seems to read "tencamus" (Cicero's word is teneamus); written *teneamus*.
+heading: 187 f.
+heading: 189 f.
 
 === p-0114
 + εὐτυχούσῃ πολλῷ μᾶλλον διασῴζεται. ‘Pericles Thucydidis II. 60 Sophoclem videtur respexisse, vel eum Sophocles,’ is Dobree’s remark (*Adv.* 2. 37); but there is no adequate ground for such a view. The verbal coincidence of ὀρθῆς with ὀρθουμένην may well have been accidental. What is really common to poet and historian is the general sentiment of Periclean Athens. For another example of this, cp. *O. C.* 116 n.
@@ -307,6 +316,8 @@ The 182 note's middle (from "ἀντὶ φέρεσθαι" to "λέξαιμ’ �
 --- notes
 **αὔξω** (bold after a dash) a new paragraph under 191; **τὰ πάντ’ ἐφαγνίσαι** (after a dash) a new paragraph under 195; **ἐπί**, **ἐφαγνίσαι**, **ἀφαγνίσαι**, **δόρει** bold inside their paragraphs as printed; "Dobree's ... 11. 60" → II. 60; "192 f.", "195 f." → ## 192, ## 195; "Thuc. I. 128" → 1. 128; "ἐπέcrepe" → ἐπέστεφε; Jebb prints "O.C. 484" without the space here, written *O. C.* as elsewhere.
 192	rev: in the Isocrates quotation "αὐτῶν" (τοὺς δ’ ἐξ αὐτῶν τῶν θεῶν) is printed in the bold type for emphasis: **αὐτῶν**
+heading: 192 f.
+heading: 195 f.
 
 === p-0115
 + she has made expiatory offerings to them. So ἀφαγνεύω in Plut. *Mor.* 943 C (the souls of the good are to suffer only so long) ὅσον ἀφαγνεῦσαι καὶ ἀποπνεῦσαι τοὺς ἀπὸ τοῦ σώματος . . μιασμούς (‘to purge away’: perh. we should read ἀφαγνίσαι). The force of **ἀπό** is thus the same as in ἀφοσιοῦσθαι, and in ἀφιερώμεθα as used by Aesch. *Eum.* 451 (‘I have been hallowed,’ *i.e.* purified). The case of κἀφαγιστεύσας below (247) is different from that of ἐφαγνίσαι here: it is, I think, for καὶ ἀφαγιστεύσας.
@@ -380,3 +391,4 @@ L has **Πολυνείκην** here, but Πολυνείκη in *O. C.* 375. Both
 --- notes
 Pencil marginalia ("NL, … URL … iis") deleted from the 197 note; "197", "199 ff." → ## 197, ## 199; draft's "τὴν", "-ἡ", "τους", "-ov" → -ην, -η, -ους, -ου; "(1 have been hallow-ed,’ 2.2. purified)" → (‘I have been hallowed,’ *i.e.* purified); "τοὺς Ot . ." → **τοὺς δὲ . . ἄγειν**; Πολυνείκην bold as printed.
 The endings -ης, -ην, -η, -ου, -ους are printed without breathing (checker remarks expected).
+heading: 199 ff.

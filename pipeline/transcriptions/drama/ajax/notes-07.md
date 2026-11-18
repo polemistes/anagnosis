@@ -29,6 +29,7 @@ The words **κἀγώ, φίλοι, δείσασα** are apologetic; she would gl
 --- notes
 Read-through: 319 the draft had scrambled a line of the right column into the left ("ΟΙ ἀγῶνα is frequent γυμνικὸν with διὰ Herodotus…"): restored from the image (kind is frequent with Herodotus; *e.g.* 2. 91 …); lemma "πρὸς γὰρ κακοῦ τε" (τε read as Te); bold ἔχειν πρὸς and bold κἀγώ, φίλοι, δείσασα (315) as printed; italics set (*Tr.*, *Cyr.*, *Epist.*, *Ant.*, *Mor.*, *Od.*, *pertain to*, *consisting in*, *those*); kal → καί; 50 → so.
 313: the suffix ιη and the parts δρα-ο-ιη-ν are printed without breathings (morphemes, not words): kept as printed (the checker's three breathing remarks).
+heading: 319 f.
 
 === p-0143
 + the ἐξηγηταί), and suggests the submissive reverence with which Tecmessa listened to her lord.
@@ -73,6 +74,8 @@ The verse is rejected by Nauck and others as though it were inconsistent with v.
 9 silence; [conf] → *silence*;
 --- notes
 Read-through: 326 lemma restored (ds → **ὥς τι δρασείων**; ws → ὡς; ἣν → ἦν; § go → § 90; Fk. → *Ph.*); lowing (draft "owing"); ταῦρος ὣς (grave, as printed); *ib.* 889 (draft "76."); SO → so; bold πως, ἥσυχος, βριμώμενος as printed; italics set (*low*, *deep, sullen*, *lowing*, *Ant.*, *Od.*, *Cho.*, *An.*, *Vesp.*, *Cyr.*); spaces before colons dropped.
+heading: 321 f.
+heading: 324 f.
 
 === p-0144
 + drama (‘pflegt..sorgfältig zu motiviren’); but suggests that *here* the neglect of it might be ‘a mark of the archaic style’ (*Jahr. f. Class. Phil.* 97. 378).
@@ -107,6 +110,8 @@ Read-through: 326 lemma restored (ds → **ὥς τι δρασείων**; ws →
 13 prophetically,’ [conf] → ok
 --- notes
 Read-through: 328 "(36)" → (346); 330 Mss. → MSS., Κρατεῖς → κρατεῖς (lower case in the print), bold φίλοι; 331 the lemma Τελεύταντος restored as its own paragraph (draft "Te\evravros: 210 η."), bold λέγεις and κακοῖς as printed; italics set (*here*, *Jahr. f. Class. Phil.*, *El.*, *e.g.*, *Ag.*, *P. V.*, *Anthol.*, *permanent possession*).
+heading: 328 f.
+heading: 331 f.
 
 === p-0145
 ## 333
@@ -156,6 +161,9 @@ Prof. Campbell understands ἰὼ παῖ παῖ as meaning Teucer, whom an eld
 13 Hesione [conf] → Hesionè
 --- notes
 Structure: the draft had lost the headings 334 ("8384 μᾶλλον"), 337 ("887 f.") and 339 ("8389"): made headings from the image; lemmas bold (μᾶλλον, ἢ οὐκ, Αἴαντος, οἵαν, τοῖς πάλαι νοσήμασι ξυνοῦσι, ἰὼ παῖ παῖ); further lemmas after dashes (ἢ οὐκ, Αἴαντος, Εὐρύσακες, ἀμφὶ σοὶ) made paragraphs. Read-through: ὦμοι → ὤμοι (as printed); Τί → If; μία → him; 555 993 → 555, 993; 544)- → 544).; bold θωΰσσει, ξυνοῦσι, Τεῦκρον καλῶ as printed; italics set (*El.*, *Ph.*, *memory*, *see*, *second*).
+heading: 337 f.
+heading: 340 f.
+heading: 342 f.
 
 === p-0146
 + Ajax, whose mother was Eriboea (569).
@@ -209,6 +217,8 @@ Ajax, sitting among his victims, and meditating his own destruction, was the sub
 27 Zlectra [latin] (Greek model: Εἰ είγα) → *Electra*
 --- notes
 Structure: the lemmas τὸν εἰσαεὶ..χρόνον and λεηλατήσει (after dashes in 342) made paragraphs; the draft's "**αἰδῶ**. «λάβοι" mended to the one lemma **αἰδῶ..λάβοι**; "**πράγη**, deeds: ΠΡ. 21," → cp. 21. Read-through: del → ἀεὶ; ‘for ever’ as=; 22. 1075 → *El.* 1075; Thue. Το 11 → Thuc. 1. 11; kal → καὶ; Ast». → *Astr.*; 16. 1295 → *ib.* 1295; ν. 325 → v. 325; Ck. → *Ch.*; italics set (*Adelph.*, *aperite, aliquis*, *Tr.*, *Ant.*, *O. T.*, *Antigone*, *Electra*, *Vit. Apoll.*, *e.g.*).
+heading: 344 f.
+heading: 346 f.
 
 === p-0147
 + ἑαυτὸν διαφθεῖραι. The picture was at Cyzicus in 70 B.C. (Cic. *In Verr.* 2. 4. 60), but was afterwards bought by Julius Caesar for the Temple of Venus Genetrix in Rome (Plin. *N. H.* 7. 38 § 126). See Introduction § 20.
@@ -265,6 +275,9 @@ The structure is as follows:—1st strophe 348—355=1st antistr. 356—363: 2nd
 21 heedless.” [conf] → heedless.’
 --- notes
 Structure: after dashes the lemmas ἐμμένοντες, ὀρθῷ νόμῳ, κῦμα, κυκλεῖται are paragraphs (as the draft had them; checked on the image). Read-through: yo B.C. → 70 B.C.; Cie. → Cic.; *In Verr.* 2. 4. 60 (draft "2+ 4: 60"); § 126 (draft "8 126"); Introduction § 20 (draft "ἃ 20"); "Chorus and, Tecmessa": the comma is a speck outside the column, dropped; ζάλης, φοινίας and κυκλοῦται bold as printed; Aesch. 2. V. → *P. V.*; ola → οἷα; οἱ & → οἱ δ’; Her. 8. τό → 8. 16; fr. 787). 2 → fr. 787. 2; ‘zs rolled → ‘*is rolled*; Av. Ack. 500 → Ar. *Ach.* 590; ἀρωγὸν, οἱ ἐμὲ → οἲ ἐμὲ (grave, as printed); οἴμ᾽ Ξε οὔ ue → οἴμ’=οἴ με; italics set (*In Verr.*, *N. H.*, *O.*, *effect*, *i.e.*, *Anth.*, *Tr.*, *Cyr.*, *of*).
+heading: 348 ff.
+heading: 351 ff.
+heading: 354 f.
 
 === p-0148
 + the seaman’s art, *i.e.*, its ministers: the gen., as in Aesch. *Eum.* 486 ἀρωγὰ τῆς δίκης ὁρκώματα. Cp. 201.
@@ -323,6 +336,7 @@ The traditional reading **ποιμένων** is explained by the schol. in L, τ
 Structure: the draft had scrambled the end of 358 and the note 362 ("**τ ρα** ]]ησ…", "κακὸν 362 κακῷ f. δι η s a ἄκος: φώνει: 50 fr. cp. 74 ἐνταῦθα 591."): rewritten from the image; heading 362 made (εὔφημα φώνει, then κακὸν κακῷ διδοὺς ἄκος as a paragraph); in 358 the further lemmas ὃς, ἐπέβας, ἐλίσσων as paragraphs. The page ends "ποιῶ.—" and the next lemma (τὸ πῆμα τῆς ἄτης) begins p-0149: dash dropped. Read-through: ἁλίαν 8s → **ἁλίαν ὃς ἐπέβας** (bold); Hermann's ὃς ἁλίαν ἔβας bold; Fl 1359 με ] → *El.* 1359 με |; πὶ τοῖς → ἅμα τοῖς; bold ποιμένων, πημονὰν, με, γένος as printed; italics set (*Heracl.*, *Ant.*, *Or.*, *Il.*, *Od.*, *off*, *against*, *of my shepherds*, *Suppl.*, *come*). ἐλίσσων (358) is printed with a smooth breathing; kept as printed.
 358	rev: lemma ἐλίσσων → ἑλίσσων: the print has a smooth breathing (checked against ἐπέβας and ὃς on the same page), an evident misprint for the verb ἑλίσσω (cp. εἱλίξεις in the same note); corrected by the misprint rule, printed ἐλίσσων
 ## 360: Jebb's number; our text has no 360 (the checker's remark; Jebb's lyric numbering).
+heading: 362 f.
 
 === p-0149
 **τὸ πῆμα τῆς ἄτης**: cp. *Ph.* 765 τὸ πῆμα..τῆς νόσου: *Od.* 3. 152 ἐπὶ γὰρ Ζεὺς ἤρτυε πῆμα κακοῖο.—Not, ‘make the present woe worse than the (*original*) plague’: τῆς ἄτης would then need further definition.
@@ -371,3 +385,4 @@ For **ἐκτὸς** cp. *O. T.* 676 οὔκουν μ’ ἐάσεις κἀκτ
 --- notes
 Structure: the page opens with a new lemma of 362 (τὸ πῆμα τῆς ἄτης, after the dash at the foot of p-0148): no `+ `; the draft's "+ " removed. In 369 the lemma ἄψορρον (after a dash) made a paragraph. Read-through: TO πῆμα → τὸ πῆμα; ἃ δούλη → a δούλη; Mss. → MSS.; 77. 0902 → *Tr.* 902; 9. τό 8 1 → 9. 16 § 1; "—~" → –⏑; bold lemma οὐκ ἐκτὸς ἄψορρον ἐκνεμεῖ πόδα, εὐκάρδιον, ἄτρεστον, ἐκτὸς as printed; italics set (*Ph.*, *Od.*, *original*, *formidable*, *El.*, *depascunt*).
 362	rev: checked on the image: the page begins with the bold lemma **τὸ πῆμα τῆς ἄτης**, a further lemma of the note on 362 after the dash at the foot of p-0148: a new paragraph of that note, so neither a heading nor `+ ` (the checker's remark "begins neither …" is answered so).
+heading: 364 f.

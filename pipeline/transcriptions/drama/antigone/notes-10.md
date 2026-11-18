@@ -34,6 +34,7 @@
 17 ib. [conf] → ok
 --- notes
 390: the last lines (from "back.’—σχολῇ" to "mocks me once.’") were interleaved by the OCR; rewritten from the image; "the φύλαξ “Ἢ μά actually" — stray letters deleted. σχολῇ after the dash is bold: a new paragraph. Second bold stretch σχολῇ ἥξειν ποτὲ δεῦρο, and the bold ἐκτός, ἄλλῃ ἡδονῇ, οὐδέν, μῆκος inside paragraphs, set as printed. 392: only ἡ...ἐκτὸς is bold. Italics set.
+heading: 393 f.
 
 === p-0149
 + (*ib.* 4. 4. 5), and Soph. himself of μακρὸς πλοῦτος (*Ai.* 130). For **ἔοικε** Wolff-Bellermann cp. Thuc. 7. 71 ὁ...φόβος ἦν...οὐδενὶ ἐοικώς (‘great beyond example’), Xen. *De Vect.* 4. 31 οὐδενὶ τῶν παρεληλυθότων ἐοικός (‘far greater than any of the past’); and for the sentiment, Eur. fr. 554 ἐκ τῶν ἀέλπτων ἡ χάρις μείζων βροτοῖς | φανεῖσα μᾶλλον ἢ τὸ προσδοκώμενον.—Nauck’s treatment of this verse and the next has no justification: see cr. n.
@@ -100,6 +101,9 @@ Observe the order of the words as marking his amazement. For the double interrog
 --- notes
 395: the heading "995 f." left as text by the draft made `## 395` (395 f.) from the image; ἐπάλλετο (396) after a dash is bold: a further paragraph under 395. Bold ἔοικε and ἕρμαιον inside paragraphs set as printed. 399: κρῖνε=ἀνάκρινε (only κρῖνε bold); the line "kpive=drakpwe" rewritten. 403: lemma ἦ καὶ restored (the draft had "1 καὶ … πη. … θοί}.᾽"); ὀρθῶς after the dash is bold: new paragraph. Tr. 484 (draft "77."), Ph. 241 (draft "Άλ.") set from the image. Italics set.
 395	rev: "τάφον = ταφήν" closed up to "τάφον=ταφήν" as printed
+heading: 395 f.
+heading: 399 f.
+heading: 401 f.
 
 === p-0150
 + mean to say? (Not, merely, ‘truly,’ *i.e.* in accordance with the fact: cp. 99 n.)
@@ -158,6 +162,7 @@ Observe the order of the words as marking his amazement. For the double interrog
 28 στᾶσ᾽ [conf] → ok
 --- notes
 406: the paragraph on ἐπίληπτος was jumbled by the OCR ("ἀφάσσουσα (τὰ Her. ὦτα)", "‘will ἐπίλαμπτος-... be caught"): rewritten in the print's order; ὢν (draft ὧν). 404: O. C. 907 (draft "9007"). 408: "ξ. τὰ δείν᾽" — stray "ξ." (the bold "f." of 408 f.) deleted; τὸν | νέκυν after the dash is bold: new paragraph; El. 879 (draft "870"); "a 270- noun" is "a *pronoun*". 411: Dem. or. 18 § 169 (draft "ὃ τόρ"), "of 428—325" (draft "ot 428— 325"). Bold ἐκ inside the paragraph set as printed. Italics set.
+heading: 408 f.
 
 === p-0151
 + ἐξ Οὐλύμποιο ἀπὸ ῥίου. Here, ἀπὸ ῥίου goes with εἰσεῖδε: but ἐξ Οὐλύμποιο, however much εἰσεῖδε may have influenced it, at least cannot be disjoined from στᾶσ’. (2) Eur. *Ph.* 1009 ἀλλ’ εἶμι καὶ στὰς ἐξ ἐπάλξεων ἄκρων | σφάξας ἐμαυτὸν σηκὸν εἰς μελαμβαθῆ | δράκοντος, ἔνθ’ ὁ μάντις ἐξηγήσατο, | ἐλευθερώσω γαῖαν. It is impossible to sever στάς from ἐξ ἐπ., even if we partly explain ἐξ by σφάξας. (3) *ib.* 1224 Ἐτεοκλέης δ’ ὑπῆρξ’ ἀπ’ ὀρθίου σταθεὶς | πύργου κελεύσας σῖγα κηρῦξαι στρατῷ. The position of σταθείς forbids us to sever it from ἀπ’ ὀρθ. π., even though ὑπῆρξε or κελεύσας is used to explain ἀπό. (4) Eur. *Tro.* 522 ἀνὰ δ’ ἐβόασεν λεὼς | Τρῳάδος ἀπὸ πέτρας σταθείς. A similar case. In all these passages, a picture is presented, and we have to glance from a remoter to a nearer object. The mental eye is required to measure the space between Hera on the peak of Olympus, and Poseidon on the plain of Troy; between Megareus on the walls of Thebes, and the cavern into which his corpse is to fall. And, in each case, ἐκ or ἀπό denotes the *quarter* in which the remoter object is to be looked for. This, which might be called the ‘surveying’ use, is distinct from that in which the prep. has a pregnant force, as being directly suggestive of motion (οἱ ἐκ Σικελίας ἥξουσι); but it springs from the same mental tendency,—viz., to take a rapid glance over the dividing interval. Cp. ἵστασθαι πρός τινος (‘on his side’). So here: in the foreground of the picture is the corpse, which they have just laid bare. Now look to the hillocks behind it; in that quarter you will see the guards at their post.—I have not cited *Od.* 21. 419 τόν ῥ’ ἐπὶ πήχει ἑλὼν ἕλκεν νευρὴν γλυφίδας τε | αὐτόθεν ἐκ δίφροιο καθήμενος, because there ἐκ δίφροιο goes with ἕλκεν, not with καθήμενος (he drew the bow, just from the chair, where he sat).
@@ -258,6 +263,7 @@ The incident of the storm was a dramatic necessity, to account for Antigone reac
 413 run-on: "Infr. 521" is "In fr. 521" (the print's spacing). 414: the bold ἀφειδήσοι inside the paragraph set as printed. 416: Jebb prints "416 f."; χθονὸς after the dash is bold: a further paragraph under 416 (the draft had it, but lacked "*from*"); βέλε’ ἥπτετο (draft "BENE ἧπτετο"). 418: στρόβῑλόν with the macron as printed; bold σκηπτός inside the paragraph; the schol. quotation has no quotation mark in the print. Italics set.
 416	rev: "ἀείρας" kept; the scan shows no breathing on its α (worn type)
 418	rev: "usu. = ‘a" closed up to "usu.=‘a" as elsewhere in the file
+heading: 416 f.
 
 === p-0153
 + effects produced by the storm. He mentions the destruction of foliage; and we need some reference also to the main point of all—the obscuring of the air. Therefore I should not take οὐράνιον ἄχος as=‘a *heaven-sent* plague’; that is presently said by θείαν νόσον (421). A third version—‘a trouble rising *high as* heaven’ (like οὐράνιον πήδημα, etc.)—is also possible, but less suitable here than either of the others. In Aesch. *Suppl.* 809 ἴυζε δ’ ὀμφὰν οὐρανίαν, the adj. clearly=οὐρανομήκη, and so perh. in *Pers.* 572 ἀμβόασον οὐράνι’ ἄχη, though there (as in *Ai.* 196 ἄταν οὐρανίαν φλέγων) ‘heaven-sent’ is at least equally fitting.—For the tribrach in the 5th place, see *O. T.* 719 n.
@@ -331,6 +337,8 @@ The incident of the storm was a dramatic necessity, to account for Antigone reac
 --- notes
 419 (Jebb "419 f."): the heading was missing (the draft put the note under 418); cp. 406 (draft "400"); the draft's line "ΨΥ n. f. μύσαντες.ς" was "27 n." and the heading "421 f. μύσαντες." 421 (Jebb "421 f."): νόσον and ἐν χρ. μακρ. are further lemmas under 421 (the draft had a stray "ὥ" and lost the bold on χρ. μακρ.). 426: lemma ψιλόν (draft "Ψιλόν"). The last line of the column ("279.") was missing from the column crop and the draft; read from the whole page. Italics set.
 421	rev: "μύω" made "μῡ́ω" (the print has the macron over the υ under the acute); no precomposed letter exists for ῡ with acute, so it is ῡ + combining acute (as στῡ́φω in notes-04), and the checker's remark "ω has no breathing" is the word cut at the combining mark
+heading: 419 f.
+heading: 421 f.
 
 === p-0154
 ## 427
@@ -395,6 +403,10 @@ The **πρόχους**, or ‘out-pourer,’ was a jug, especially a water-jug, 
 24 ἀπαρνουμένη [greek] (Greek model: ᾿ἀπαρνουμένη,) → ok
 --- notes
 The right column's 431-432 was jumbled by the OCR (the lines of El. 51 and of 432 interleaved, the heading "432 f. ἱέμεσθα, pres.: for the ῑ" lost): rewritten from the image; ἱέμεσθα is `## 432` (432 f.) and σὺν δὲ...θηρώμεθ’ a further lemma under it. 427 (427 ff.): "cp. n. on 106" (draft "τού"); ἐκ δ’...ἠρᾶτο and διψίαν bold after dashes. 430 (430 f.): the draft had no heading (it ran on under 429) and its lemma πρόχους lost; εὐκρότητος and ἄρδην (bold after dashes) further paragraphs. 431: στέφει (bold, after the dash) further paragraph; σπ. δικτυοκλώστοις (draft "om."). 434 (434 f.): Theaet. 161 E ἐλέγχειν (draft "τότ E ἐλέγχειν"); τὰς (draft "ras"); ἄπαρνος...οὐδενός both bold; καθίστατο (bold after the dash) further paragraph. "65|": the bar is pencil. 432: "for the ῑ" is the bare letter iota with a macron as printed (a letter named, not a word: no breathing; the checker's remark is answered so). Italics set.
+heading: 427 ff.
+heading: 430 f.
+heading: 432 f.
+heading: 434 f.
 
 === p-0155
 + position of denying anything. Her *attitude* towards the charge was one of simple confession. καθίστασθαι with a predicative adj. expresses definite assumption of a character, or complete attainment of a state; Thuc. 3. 102 ξύμμαχον καθεστήξει (will have definitely allied itself): 6. 15 πολέμιοι καθέστασαν: 4. 78 τοῖς πᾶσι...ὕποπτον καθεστήκει: 2. 59 ἄποροι καθεστῶτες: 4. 26 ἀφειδὴς...καθεστήκει: 6. 59 χαλεπωτέρα...ἡ τυραννὶς κατέστη. So *Ai.* 306 ἔμφρων...καθίσταται: *O. T.* 703 φονέα...καθεστάναι.
@@ -446,3 +458,4 @@ The right column's 431-432 was jumbled by the OCR (the lines of El. 51 and of 43
 31 1226 [conf] → ok
 --- notes
 436: ἀλλ’ bold as printed; "AM for AAA" is ΑΜ for ΑΛΛ (Greek capitals); "(ὁ) with partic." is "(*b*)"; "Μοῖρ. G." is "Verg. *G.*"; ὧν ἅμα (draft "dua"). 438: only φίλους is bold (the scholium's φησί... is plain); "ἃ δοῦλος" is "a δοῦλος". 439 (439 f.): λαβεῖν, bold at the head of the right column, begins a further paragraph under 439 (no dash is printed before it at the foot of the left column); "ἤ with nom." (draft "#7"); τἄλλ’ and ταῦτ’ bold as printed. 441: ΕΥ. (draft "ET."); "πάρος | χρόνῳ" (draft "πάρος]"). Italics set.
+heading: 439 f.

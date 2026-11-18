@@ -29,6 +29,8 @@ The words **λαμπρᾶς ἄτερ στεροπῆς** go with **λήγει**
 16 mapaBdvros [latin] (Greek model: [-- παραβάντος).) → παραβάντος).
 --- notes
 Missed heading made from the image: "257 f." (the draft had run "IO 257 £ The words" into the αἷσ’ ἄπλατος note) → `## 257`; the note opens in English, the bold Greek inside it (λαμπρᾶς ἄτερ στεροπῆς, λήγει, ᾄξας) kept bold in the paragraph. Corrected from the read-through: αἶσ’ (draft αἷσ’, rough breathing), *Tr.* 1093, ἐμπίπτεις (draft ἐμπίπτει), ἄτας (draft dras), ᾖ, Arctînus (printed with the circumflex), Her. 5. 45, "68 E" (Latin small capital), italics set.
+heading: 257 f.
+heading: 260 ff.
 
 === p-0135
 **ὑποτείνει**: lit., ‘lays to’ (or ‘beneath’) the mind: [Dem.] or. 13 § 19 τὰς ἐλπίδας ὑμῖν ὑποτείνων.
@@ -75,6 +77,8 @@ Though **οὐ νοσοῦντος** (gen. abs.) is an easy and specious conject
 --- notes
 Corrected from the read-through: καὶ, κατ’ (draft kal, Kat’), ἄν (draft dv), οὐ νοσοῦντος / οὐ νοσοῦντες (draft ov; printed bold inside the paragraph, as are εὐτυχεῖν, λόγος and κοινὸς ἐν κοινοῖσι), "=κοινωνὸς" (draft Ξε), καὶ νοσοῦντες, ὡς (draft kal, ws), "Tr. 613" (draft 77. 012), "*ib.* 314." (draft 2b. 314:); italics set.
 The page begins with the bold lemma **ὑποτείνει**, a further lemma of the note on 260 (v. 261) from p-0134: a new paragraph of that note, so neither a heading nor `+ ` (the checker's remark "begins neither …" is answered so).
+heading: 263 f.
+heading: 265 ff.
 
 === p-0136
 ## 272
@@ -136,6 +140,8 @@ Instead of **κεῖνος**, we might have looked for αὐτός: but the form
 23 κ.τ.λ. [conf] → ok
 --- notes
 Structure: "272 f." is one paragraph, the lemma **οἷσιν εἴχετ’ ἐν κακοῖς** followed by "=κακοῖς ἐν οἷς εἴχετο" in plain type (the draft had made the lemma a paragraph of its own and bolded the plain words). Cut at the bold lemmas after dashes: πᾶς, ἐλήλαται (under 275), δὶς τόσ’, ἐξ ἁπλῶν (under 277; the draft had joined "δὶς τόσ’" to the 277 lemma line and made "διπλᾶ" a lemma). Bold inside paragraphs as printed: κεῖνος, ἔληξε, βλέποντας, κακοῖς, ἥκει, ἥκῃ, ἥκοι. Corrected from the read-through: κἀνέπνευσε (draft «κἀνέπνευσε), *v. l.* (draft 2. 2.), τοῦ σώματος (draft TOU), *El.* 580 (draft ZZ. 380), αὖ σύ· (draft ad σύ"), ἔδρασας (draft ἔδρασα), πῶς γάρ (draft πώς), γὰρ οὔ (draft yap), *Alc.* (draft Ale.), ὡς (draft ws), the ".." of omission as printed; italics set.
+heading: 272 f.
+heading: 278 ff.
 
 === p-0137
 + condition under which one’s opinion must be formed. Cp. Aesch. *P. V.* 760 ὡς τοίνυν ὄντων τῶνδέ σοι μαθεῖν πάρα. Eur. *Med.* 1311 ὡς οὐκέτ’ ὄντων σῶν τέκνων φρόντιζε δή. Thuc. 7. 15 § 1 ὡς..τῶν στρατιωτῶν..μὴ μεμπτῶν γεγενημένων οὕτω τὴν γνώμην ἔχετε. Xen. *An.* 1. 3. 6 ὡς ἐμοῦ οὖν ἰόντος ὅπῃ ἂν καὶ ὑμεῖς, οὕτω τὴν γνώμην ἔχετε. See also below, 904, 981.
@@ -183,6 +189,7 @@ From the Homeric ἔπτατο (*Il.* 13. 592, etc.) Tragedy borrows this non-th
 24 dkpéomepov [latin] (Greek model: σπερον :) → ἀκρέσπερον:
 --- notes
 Corrected from the read-through: "904, 981" (draft "904; 98ι"), *Alc.* 420 (draft Ale.), "2nd ed." (draft "and ed."), ‘at dead of night.’, ‘depth of winter’ (draft οἵ), ὅταν ἅμα (draft dua), *Ther.* 25 (draft 7.167.), *P.* 11. 10 (draft 2. 11. 10), *H. A.* 9. 34, p. 619 *b* 21 (draft "AZ. 4.9. 34, Ὁ: 6195 21"), *De Sign. Pluv.* 1. § 2 (draft τ.), ὑμεῖς, ὅπῃ ἂν καὶ; bold inside the τύχας paragraph as printed (δήλωσον, τύχαις, ξυναλγοῦσιν); the lemma under 285 is **κεῖνος γὰρ** (both words bold); italics set.
+heading: 282 f.
 
 === p-0138
 + heat (*Od.* 19. 64 φόως ἔμεν ἠδὲ θέρεσθαι). *Od.* 18. 307 αὐτίκα λαμπτῆρας τρεῖς ἵστασαν ἐν μεγάροισιν, | ὄφρα φαείνοιεν· περὶ δὲ ξύλα κάγκανα θῆκαν, | ..καὶ δαΐδας μετέμισγον. As Helbig remarks (*Das Hom. Epos* p. 78), the smoke thus caused explains why the Homeric μέγαρον is sometimes called αἰθαλόεν (*Il.* 2. 414, *Od.* 22. 239).
@@ -241,6 +248,8 @@ The general word, **ἄκλητος**, is defined by the two clauses in appositi
 --- notes
 The right column was garbled in the draft (from "σάλπιγγος" to "Liv. 25. 9 § 8" and the Aristophanes quotation): rewritten from the image. Cut at the bold lemmas after dashes: ἐξόδους ἕρπειν, κενάς (under 287; the draft had run κενάς into a garble), σάλπιγγος, πᾶς εὕδει στρατός (under 289), κόσμον (under 292). Bold inside paragraphs as printed: ἄκλητος, οὔτε, πεῖραν. Corrected from the read-through: θέρεσθαι). (draft "θέρεσθαι!)"), φαείνοιεν· (draft "φαείνοιεν "), *Il.* 2. 414 (draft 71.), Thuc. 1. 15 § 2 (draft "1. Τό ξ᾽ 2"), *El.* 1054 (draft 22:), Thuc. 4. 78 § 5 (draft $5), *decantata*, ἀεὶ, καὶ (draft del, kal), Plat. *Rep.* p. 549 D (draft Ὁ), σιγή τε καὶ (draft Te kal), ἀλλ’ αὐτόκλητος (draft ἀλλ᾽ αὐτόκλητος, from the right column's top); italics set.
 rev: *Od.* 19. 64 "φόως ἔμεν": Jebb prints "ἐμὲν" (smooth breathing, grave on the last syllable; the first agent's note called this the draft's error, but it is the print). An evident misprint for Homer's infinitive ἔμεν (no word ἐμέν exists); ἔμεν kept, as corrected.
+heading: 289 ff.
+heading: 292 f.
 
 === p-0139
 ## 294
@@ -302,6 +311,8 @@ rev: *Od.* 19. 64 "φόως ἔμεν": Jebb prints "ἐμὲν" (smooth breathi
 --- notes
 Cut at the bold lemmas after dashes: ἐσσύθη (under 294), εὔερον (under 297), ἔσφαζε, κἀρράχιζε, ὥστε, φῶτας (under 298; the draft had run ἔσφαζε into the ἄνω τρέπων paragraph and "κἀρράχιζε" and "ὥστε" into the paragraphs before). Bold inside paragraphs as printed: τύχας, εὔκερων (first), ἀπᾴξας. The digamma written ϝ (ἀϝ-ϝέρυσαν, ἀν-ϝερ). ὑπᾴξας, ἀπᾴξας with the iota subscript as printed. Corrected from the read-through: *Theog.*, *ib.* 1724 (draft 10.), *Ant.* 979 (draft 070), "a certain emendation" (draft ἃ), *Tr.* 675, *P.* 2. 93, *Il.* 1. 459 (draft 7.), καὶ (draft kal), *O. C.* 343, etc. (draft εἰς.), ".." of omission as printed; italics set.
 rev: 301: the first hand's reading is printed "ἀπᾶξας" (circumflex, no iota subscript, italic), as the OCR read it: the draft's ἀπᾷξας put back to the print (flag 24 → ok); it reports a manuscript spelling, so it is not a misprint to correct.
+heading: 298 ff.
+heading: 301 f.
 
 === p-0140
 + enough, ‘rushing *away* from me’; but ὑπᾴξας, expressing the sudden rush *forward*, as if towards something which had suddenly caught his attention, adds a picturesque touch which is absent from the other reading. For this sense of ὑπό in comp., cp. ὑπάγω, etc. The third possibility, **ἐπᾴξας**, would properly denote a rush *onwards* in a direction which had already been taken; and is thus less fitting here.
@@ -428,3 +439,4 @@ Checker remark on “ους”: Jebb's "(-ους?)", the ending printed with its
 --- notes
 The first word of the page, ἀπᾴξας, ends the lemma-paragraph begun under 305 on p-0140 ("**ἐπᾴξας** is better here than | **ἀπᾴξας**."): bold as printed, kept in the run-on. Lemma under 308 printed with the mark of aphaeresis, "’θώϋξεν." (kept). Joined: "The very fact that ἐρειφθεὶς follows ἐρειπίοις—that the slayer is prostrate among the slain—gives …" (the draft had made "ἰΠαΐ the slayer …" a false lemma paragraph). Cut at the bold lemma after the dash: αὖθις..πάλιν (under 305), ἐρειπίοις (under 308; the draft had it in the θώϋξεν paragraph). Bold inside paragraphs as printed: νεκρῶν, ἀρνείου φόνου, ἐρεισθεὶς, ἐρειφθεὶς, ἐρειπίοις. Corrected from the read-through: ἐπᾴσσειν, ἐσᾴξας (iota subscript), "*Tr.* 693" (draft 77.), ‘as I was going *away from you* into the house.’, ἀπᾴξας (draft ἀπᾷξας), *Prot.* p. 328 D (draft Ὁ), καθίκεο, ’κράτησα (draft ᾿κράτησα), corpse-wrecks (draft corpsewrecks), *Anab.* 1. 21. 4, οὗ ἂν (draft dv), "as=‘to grip’", "καὶ τὸν μὲν ἧστο πλεῖστον" (draft "καὶ** Tov μὲν ἧστο πλεῖστον κιτιλ."; the whole lemma bold in print), "the thought is; ‘for *one*", *Ph.* 180 (draft Pk.), ποῦ δ’, ὃς; italics set.
 Checker remark on “α”: "with euphonic α", the letter named, not a word.
+heading: 308 f.

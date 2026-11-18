@@ -57,6 +57,7 @@
 41 Αἴσωπον [conf] → ok
 42 φιάλην [conf] → ok
 --- notes
+heading: 489 f.
 
 === p-0165
 + Eur. *Ion.* 818 ὁμοῖος εἶναι τῆς τύχης τ’ ἴσον φέρειν: id. *Ph.* 547 δωμάτων ἔχων ἴσον.—Another construction is possible: ἴσον ἐπαιτιῶμαι κείνην τοῦδε τοῦ τάφου, βουλεῦσαι: ‘I charge her equally with this burial,—*i.e.* with plotting it.’ The constr. with the gen. is frequent (Aesch. *P. V.* 974 ἦ κἀμὲ γάρ τι ξυμφορᾶς ἐπαιτιᾷ;): the objection here is that the epexegetic infin. βουλεῦσαι, requiring a case different from that governed by ἐπαιτιῶμαι, ought to come last: cp. Plat. *Crito* 52 B οὐδ’ ἐπιθυμία σε ἄλλης πόλεως οὐδ’ ἄλλων νόμων ἔλαβεν εἰδέναι: Eur. *Med.* 1399 χρῄζω στόματος | παίδων ὁ τάλας προσπτύξασθαι. In *O. T.* 644 εἴ σέ τι | δέδρακ’, ὀλοίμην, ὧν ἐπαιτιᾷ με δρᾶν, ὧν might represent either (*a*) τούτων ὧν, δρᾶν being epexegetic, or (*b*) τούτων ἅ (acc. governed by δρᾶν); the latter is simplest.
@@ -110,6 +111,8 @@
 29 πανovpylas [mixed] → πανουργίας,
 30 πανovpylas [mixed] → πανουργίας,
 --- notes
+heading: 493 f.
+heading: 495 f.
 
 === p-0166
 + guilty terror is contrasted with Antigone’s impudent hardihood,—as Creon deems it. **μισῶ...ὅταν**, like μέμνησαι ὅτε...ἐποίησας (Xen. *Oec.* 2. 11), οἶδ’ ἡνίκ’ Αἴας εἷλκε (Eur. *Tro.* 70) etc.
@@ -167,6 +170,7 @@
 25 ...ἢ, [conf] → ...’),
 26 70 [conf] → 9
 --- notes
+heading: 497 f.
 
 === p-0167
 + Creon’s. ‘*Thou* wilt never approve my deed. *And yet* how could I have won a better claim to the approval of all who judge rightly?’ In καίτοι πόθεν κλέος γ’ the absence of caesura gives a slower movement, just as in v. 44: she communes with her own thought. **κλέος...εὐκλεέστερον**, like δύσπνοοι πνοαί (587), φρένες δύσφρονες (1261), πόνοι δύσπονοι (1277): *Ph.* 894 ξύνηθες...ἔθος. Distinguish the case of the adj. compounded with a noun merely cognate in sense to the subst.; above, v. 7 n.
@@ -206,6 +210,9 @@
 18 η.---ὑπίλλουσιν [conf] → n.—ὑπίλλουσιν
 --- notes
 508	rev: the lemma τοῦτο...ὁρᾷς is printed ὁρᾶς, without the iota subscript (dropped or worn type in the bold face, which prints it elsewhere, e.g. the lemma ᾑρῆσθαι on p-0165); kept as ὁρᾷς, the verse's form (evident misprint); not changed
+heading: 503 ff.
+heading: 506 f.
+heading: 508 f.
 
 === p-0168
 + Appendix on 340), lit., ‘turn’ (or ‘roll’) ‘under,’ said of an animal putting its tail between its legs; cp. Eur. fr. 544 (from his Οἰδίπους,—referring to the Sphinx) οὐρὰν δ’ ὑπίλασ’ ὑπὸ λεοντόπουν βάσιν | καθέζετ’. Verg. *Aen.* 11. 812 (a terrified wolf) *caudamque remulcens Subiecit pavitantem utero.* Here, ‘keep down’ the utterance of their thoughts; ‘make their lips subservient’ to thee. Cp. σαίνειν, *adulari*.—Euphony commends, though metre does not require, the ν ἐφελκυστικόν, which L gives. Cp. 571.
@@ -263,6 +270,9 @@
 24 equally [conf] → ok
 25 (on/y) [conf] → (only)
 --- notes
+heading: 510 f.
+heading: 512 f.
+heading: 514 f.
 
 === p-0169
 + cannot complain, for Polyneices was not his slave—his natural inferior—but his brother, and had the same claim on me that he had. Creon insists on the difference between the loyal man and the disloyal. Antigone dwells on the fact that both men had the same claim on her natural piety, and (519) on her sense of religious duty.
@@ -294,6 +304,7 @@ The MS. **λαχεῖν ἴσος** is usu. explained, ‘equal in respect to ob
 11 ἴσον [conf] → ok
 12 ἴσα. [conf] → ok
 --- notes
+heading: 521 f.
 
 === p-0170
 + θεῷ: Dem. or. 23 § 28 ὁ κάτωθεν νόμος, the law below (=the continuation of a law already cited). We need not understand here, ‘if these things are approved *from* below.’ **κάτω ’στὶν** has the MS. authority: but it is most improbable that Soph. would have given such a needlessly unpleasing verse, and the change is sufficiently explained by a later belief that the sense required κάτω.
@@ -342,6 +353,8 @@ The MS. **λαχεῖν ἴσος** is usu. explained, ‘equal in respect to ob
 27 oy [conf] → if an (lines garbled by the OCR, rewritten from the image)
 --- notes
 The draft's last paragraph (from "where Hermann" to "familiar") was garbled in its order by the OCR: rewritten from the column image. νῠν (breve) and νῡν (macron) at 524 as printed.
+heading: 524 f.
+heading: 526 f.
 
 === p-0171
 + with εἴβειν, for Homer never says κατὰ δάκρυα λείβειν. Nothing is more natural than that εἰβομένη should have become λειβομένη in the MSS., the latter word being much the commoner.
@@ -403,3 +416,4 @@ The draft's last paragraph (from "where Hermann" to "familiar") was garbled in i
 37 περκνοῦ [greek] → ok
 38 συγγινομένου [greek] → ok
 --- notes
+heading: 528 f.

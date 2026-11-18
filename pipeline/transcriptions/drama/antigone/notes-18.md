@@ -115,6 +115,8 @@ The pathos of the maiden’s fate is heightened by this plea for her lover. When
 782: our text has no 782 (Jebb's longer lyric lines); Jebb's number kept. The dash before ἑλέναυς, ἕλανδρος, ἑλέπτολις is followed by plain Greek: joined back into the paragraph.
 783: printed "783 f.". Ion (draft "Του") restored. "[ἐννυχεύ]ων" is printed so (Plutarch's word with Jebb's brackets); the checker's "ων has no breathing" is this word-part.
 779	rev: lemma τἂν → τἀν: the print has the coronis only, no grave (enlarged)
+heading: 779 f.
+heading: 783 f.
 
 === p-0214
 + 4. 13. 8); cp. Xen. *An.* 6. 4. 27 ἐν δὲ τοῖς ὅπλοις ἐνυκτέρευον, and so νυκτοφυλακεῖν. Shaksp. *Rom.* 5. 3. 94 ‘beauty’s ensign yet Is crimson in thy lips and in thy cheeks.’ Gray, *Progress of Poesy* 1. 3. 16 ‘O’er her warm cheek and rising bosom move The bloom of young desire and purple light of love.’
@@ -199,6 +201,10 @@ The pathos of the maiden’s fate is heightened by this plea for her lover. When
 --- notes
 Headings printed "785 f.", "787 f.", "789 f.", "791 f.". Further lemmas after a dash made paragraphs: ἔν τ’ ἀγρ. αὐλαῖς (785), σὲ...φύξιμός (787, ἐστι plain as printed), ὁ δ’ ἔχων (789), παρασπᾷς (791), ἔχεις (794). The Greek after "on Ἔρως:—" (πῦρ καὶ θάλασσαν ...) is plain: kept in the paragraph.
 789	rev: misprint: the print has "πολει" without its accent (Aristeid. Pan. 1. 96 μόνῃ τῇ πόλει); written πόλει
+heading: 785 f.
+heading: 787 f.
+heading: 789 f.
+heading: 791 f.
 
 === p-0215
 + part.: cp. 22.
@@ -245,6 +251,7 @@ The words answer metrically to φύξιμος οὐδείς (788). The first two
 --- notes
 795: printed "795 f.". The bold lemma is printed "βλεφάρων-" at a line's end and "ἵμερος" on the next; a hyphen between two words is no line-end division, so it is kept as Jebb's (cp. νεῖκος-ἀνδρῶν on 794). εὐλέκτρου νύμφας is bold inside the paragraph (no dash): kept in it. The dash before εὐλέκτρου (after the bracket) is followed by a bold lemma: new paragraph.
 "rt. ἰς": the root is printed in italic letters that may be Latin "is" (the draft's reading); read as Greek ἰς (italic Greek type, breathing and final sigma as printed).
+heading: 795 f.
 
 === p-0216
 + a whole, too, the phrase πάρεδρος ἐν ἀρχαῖς is suspicious. A yet stronger objection is the strangeness of describing the power which is *in conflict with* the θεσμοί as their assessor, or peer, in sway; an expression which would seem appropriate only if that power was working in harmony with them; as when Eur. (*Med.* 843) speaks of σοφίᾳ παρέδρους...ἔρωτας, | παντοίας ἀρετᾶς ξυνεργούς,—‘the loves that sit with wisdom, co-workers of all excellence,’—these aspirations of the soul which assist intellectual effort.
@@ -297,6 +304,8 @@ The best line of emendation yet suggested is that of Semitelos, who writes **ὥ
 28 r10f. [digit] → 110 f.
 --- notes
 Structure: "simpler. (Cp. Vergil’s …)" at the top of the right column ends the 800 note (the draft had made a false lemma "τ"): joined. The draft's "(see 808 on 350)" held the heading of the next note, 803 (bold, at the start of an indented paragraph): ## 803 made, "(see on 350)" as printed. Headings printed "801 f.", "804 f.".
+heading: 801 f.
+heading: 804 f.
 
 === p-0217
 + of Antigone are brought into finer relief by the different tone of the choral anapaests. Cp. 822, and see Appendix on 110.—Cp. *O. C.* 1578 (Death) τὸν αἰένυπνον. The word **θάλαμον** here has ref. to its special sense, ‘bridal-chamber’: cp. 891 νυμφεῖον, 1207 παστάδα. So oft. in epitaphs on the unmarried; *Anthol. P.* 7. 489 (by Sappho) Τιμάδος ἅδε κόνις, τὰν δὴ πρὸ γάμοιο θανοῦσαν | δέξατο Περσεφόνας κυάνεος θάλαμος. Kaibel *Epigrammata* 241 (on two young brothers) οἱ δισσοὶ συνόμαιμοι, ἰὼ ξένε, τῷδ’ ὑπὸ τύμβῳ | ἄψαυστοι τέκνων κείμεθα κουριδίων· | Ἱκέσιος κἀγὼ νεαρὰν πληρούμενος ἥβαν | Ἕρμιππος κρυερὸν τόνδ’ ἔχομεν θάλαμον.
@@ -355,6 +364,7 @@ The structure of the κομμός (806—882) is as follows. 1st strophe (806—
 35 waykolras [latin] (Greek model: παγκοίτας --καί) → παγκοίτας=καί
 --- notes
 Structure: "—Cp. the passage in Swinburne’s …" follows the κοὔποτ’ αὖθις note after a dash with English: joined to it (the draft had made "ΟΡ." a lemma). The note 810 (bold "810 παγκοίτας", indented) had been left as text: heading ## 810 made. Heading printed "806 ff.". αἰέ-|νυπνον divided at a line's end: written whole.
+heading: 806 ff.
 
 === p-0218
 ## 811
@@ -410,6 +420,8 @@ Structure: "—Cp. the passage in Swinburne’s …" follows the κοὔποτ�
 38 Αχέροντι [accent] (Greek model: ᾿Αχέροντι.) → Ἀχέροντι
 --- notes
 Headings printed "811 f." and "813 ff.". The draft's paragraph cut after "ἄειδον.—" kept: οὔτε...ὕμνησεν is a bold lemma after a dash. ἐπινύμφειος begins a new indented paragraph in the print without a number: paragraph under ## 813. Bold Greek inside paragraphs (ἐπινυμφίδιος, ἐπὶ νυμφείοις) kept bold. ## 816: Jebb's number; our text has no 816.
+heading: 811 f.
+heading: 813 ff.
 
 === p-0219
 ## 820
@@ -454,3 +466,5 @@ Headings printed "811 f." and "813 ff.". The draft's paragraph cut after "ἄε�
 18 Αρτεμις [accent] (Greek model: Ἴλρτεμιε:) → Ἄρτεμις
 --- notes
 Headings printed "821 f.", "823 ff.". Bold lemmas after dashes made paragraphs: δή (821; μόνη bold inside it), λυγροτάταν (823). ἐπίχειρα and the second ξιφέων are bold inside their paragraph. The page ends with "after-" divided to the next page: written whole, "afterwards" (the next batch's p-0220 should begin "+ Lydia.").
+heading: 821 f.
+heading: 823 ff.

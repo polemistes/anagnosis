@@ -98,6 +98,8 @@ Haemon has thrown his arms around her waist (**ἀμφὶ μέσσῃ περιπ
 --- notes
 1222: the further lemma σινδόνος (after a dash in the print) made a paragraph under 1222; the draft had run it into the note on 1223, whose bold number it had lost: heading ## 1223 restored and the further lemmas μέσσῃ, περιπετῆ cut as paragraphs.
 1228: *Ph.* 174 ἐπὶ παντί τῳ (enclitic, as printed; the draft had τῷ); Greek read in Latin letters (kal, uaτέρας, avep...) corrected throughout.
+heading: 1224 f.
+heading: 1228 f.
 
 === p-0286
 ## 1230
@@ -138,6 +140,8 @@ Haemon has thrown his arms around her waist (**ἀμφὶ μέσσῃ περιπ
 --- notes
 1232: the draft had cut the paragraph at the column foot (losing "as") and again at "=ἐπήρεισε" (= read as a dash, the word made a lemma): one paragraph as printed. "αὐτῷ χολωθείς, 1235" as printed (draft 1233).
 1233: only διπλοῦς κνώδοντας is bold; ξίφους is plain italic. "—κνώδων (κνάω, ὀδούς)" is plain Greek after the dash: kept in the paragraph. In the Latin of Silius, capuli and morae are roman in the italic line, as printed.
+heading: 1230 f.
+heading: 1233 f.
 
 === p-0287
 + head (λόγχη). In *Ai.* 1025, τοῦδ’ αἰόλου κνώδοντος, ‘this gleaming spike,’ is the end of the sword-blade projecting through the body of Ajax. So in Kaibel *Epigr.* 549. 11 (an epitaph of the 1st cent. A.D.) φασγάνου κνώδοντι=‘with the point (not, ‘edge’) of the sword’: the ref. is to thrusting, not cutting.—The Scholiast wrongly explains **διπλοῦς κνώδοντας** by διπλᾶς ἀκμάς, ‘double edge.’ This interpretation was obviously suggested by διπλοῦς (since a sword is often called δίστομον or ἄμφηκες), while the true sense of κνώδων was not accurately remembered: thus the Schol. vaguely calls it τὸ ὀξὺ τοῦ ξίφους.
@@ -193,6 +197,7 @@ Haemon, in his madness, meant to kill his father. He had harboured no such purpo
 --- notes
 1233 (run on): the draft had scrambled the start of the indented further lemma "ἐκ δ’ ὁρμ., tmesis: cp. 427.—φυγαῖσιν, dat. of manner (620 n.)" into "dat. ἐκ of δ᾽ manner ὁρμ., tmesis: (620 n. cp. ᾿ 427."; rewritten from the image as two paragraphs (the second lemma after a dash).
 1235: the draft had lost ἔγχος=ξίφος as a lemma (run into μέσσον's paragraph) and cut ἐς δ’ ὑγρὸν ἀγκῶν’ wrongly: mended. The quotation in "Andr. 844" de-duplicated ("ἵν,... lw’" → "...ἵν’").
+heading: 1235 ff.
 
 === p-0288
 ## 1241
@@ -246,6 +251,8 @@ Haemon, in his madness, meant to kill his father. He had harboured no such purpo
 1241: the draft read Heath's ἔν γ’ as "Ἡδ αι 5 ἔν Ὑ" and lost "Heath’s"; restored from the image. Bold γε, ἔν γ’, ἔν γε inside the paragraph as printed.
 1243: "cp. 94 n." (the draft had "CP. 941.").
 1249: the heading was lost and the note scrambled into the ὑπὸ στέγης paragraph ("1249 for the προθήσειν gen- cp. governs 692 n."); separated, heading ## 1249 restored.
+heading: 1244 f.
+heading: 1247 f.
 
 === p-0289
 + them’ by making a lament, after which her handmaids, sitting around her, will wail in chorus. *Il.* 24. 746 (Andromache has bewailed Hector,) ὣς ἔφατο κλαίουσ’· ἐπὶ δὲ στενάχοντο γυναῖκες. | τῇσιν δ’ αὖθ’ Ἑκάβη ἀδινοῦ ἐξῆρχε γόοιο.
@@ -285,6 +292,8 @@ Haemon, in his madness, meant to kill his father. He had harboured no such purpo
 15 770 [conf] → ok
 --- notes
 p-0289: "ὣς ἔφατο κλαίουσ’·" as printed (the draft had "ws ... κλαίουσ᾽""). Italics set from the image (*interrogative*, *feared*, *direct*, *Moods and Tenses*).
+heading: 1251 f.
+heading: 1253 f.
 
 === p-0290
 ## 1257
@@ -333,6 +342,9 @@ The lyric strophes and antistrophes are divided from each other by iambic trimet
 --- notes
 1259: the bold ἀλλοτρίαν follows a full stop, not a dash: kept inside the ἄτην paragraph, in bold, as printed.
 1263: the lemma is ὦ...βλέποντες (the draft had "**ὦ**, βλέποντες"); θανόντας bold inside the paragraph.
+heading: 1259 f.
+heading: 1261 f.
+heading: 1263 f.
 
 === p-0291
 + Haemon: for the παρήχησις, cp. *Ph.* 336 ὁ κτανών τε χὼ θανών.
@@ -375,3 +387,4 @@ The lyric strophes and antistrophes are divided from each other by iambic trimet
 1265: "See on 1209" (the draft had 12009); ὤμοι as printed.
 1268: "suggests": the t is broken in the print (it reads "suggesis"), not a misprint of the text; the draft's "τοίουςence" is "reference".
 1272: the draft had cut "ἔχω μαθὼν=μεμάθηκα" at the "=" (read as nothing); joined, μεμάθηκα plain as printed. ἔπαισέ (letters damaged in the print; v. 1274 ἔπαισεν), not ἔπεισέ.
+heading: 1272 ff.

@@ -46,6 +46,8 @@ Teucer sends a messenger, instead of going himself, probably because he hopes th
 --- notes
 Much of the left column and the end of 784 were garbled (lines interleaved); both columns retyped from the image. "781 f." and "784 f." headed `## 781`, `## 784`. "365" (draft 305), "913" (draft 013), "Menelaüs" read from the image. λαῶν ἱζόντων is printed letter-spaced (emphasis), written plain. εὐθὺς after "ἐκ following" is printed bold, kept bold.
 780	rev: "as= ‘immediately" closed up to "as=‘immediately" (the = stands at a line end; closed up as elsewhere)
+heading: 781 f.
+heading: 784 f.
 
 === p-0207
 + δῖον γένος ἰοχέαιρα: *ib.* 6. 180 (the Chimaera) ἡ δ’ ἄρ’ ἔην θεῖον γένος οὐδ’ ἀνθρώπων.
@@ -100,6 +102,8 @@ Tecmessa, who, at the desire of Ajax (684), had withdrawn into the tent (692), n
 23 dvlpwme [latin] (Greek model: ᾿ὄνθρωπε) → **ὤνθρωπε**
 --- notes
 Retyped from the image where garbled. Headings "787 f.", "792 f." as `## 787`, `## 792`. Bold inside paragraphs as printed: ἐν χρῷ, χρῷ, βάξιν, φέρων..πρᾶξιν, ὤνθρωπε, πέρι. "—The dat." is English after the dash: kept in the 786 paragraph. Mere spacing of "ἀνθρώπων ." and "Tr. 83" mended.
+heading: 787 f.
+heading: 792 f.
 
 === p-0208
 + strictly to Αἴαντος. That slight pause helps to prepare the ear for the coming construction with πέρι.
@@ -161,6 +165,9 @@ Could **ὀλεθρίαν Αἴαντος** have come from **Αἴαντος ε�
 30 6)’ [conf] → ὄχ’
 --- notes
 Many lines garbled (left column foot of 798, the end of 798 interleaved with the head of 801): retyped from the image. "795 f.", "798 f.", "801 f." headed `## 795`, `## 798`, `## 801`. "ἐξ-απείδομεν" divided at a line end written whole. Draft's "10. 901" corrected to *ib.* 991. Bold inside paragraphs as printed: γ’, θυραῖος, ἐλπίζω (φέρειν after it italic), ἐλπίζειν φέρει, ἐλπίζει κυρεῖν, ὀλεθρίαν Αἴαντος, Αἴαντος εἰς ὄλεθρον. "-ος" and "-ον" (Greek word endings, after "lost after" and "follows") have no breathing: the checker's remark on “ον” is answered so.
+heading: 795 f.
+heading: 798 f.
+heading: 801 f.
 
 === p-0209
 + ἄριστος. Cp. above, 134, Τελαμώνιε παῖ: and n. on *O. T.* 267. According to one legend, Thestor was the son of Idmon (ἴδμων), the seer who accompanied the Argonauts, and whose father was Apollo (schol. Apoll. Rhod. 1. 139). The name Θέσ-τωρ is from the root θες, ‘desire,’ ‘pray,’ whence θεσσάμενος (=αἰτησάμενος, Archil. fr. 11, etc.), πολύθεστος ‘much besought’ (Curt. *Etym.* vol. II. p. 137): meaning, ‘one who prays to the gods.’ Κάλχας is prob. from καλχαίνω, one who ‘darkly broods’ on futurity (*Ant.* 20 n.).
@@ -216,6 +223,7 @@ It is possible that ΦΕΡΕΙ came, under the influence of ΦΕΡΕΙΝ in 799,
 --- notes
 Read through and retyped where garbled. "804 ff." headed `## 804`. Mended beyond the flags: "οἵ᾽ γώ" → οἲ ’γώ (and in the Eur. quotation: "οἱ ᾽γώ, τί λέξεις :" → οἲ ’γώ, τί λέξεις;), "Ξι 674" → *El.* 674, "Pk. 109" → *Ph.* 109, "σωθῆναί" (enclitic accent as printed), "7b. 1042 χὴ" → *ib.* 1042 χἢ (as printed), "kim" → *him*, "ot δὲ.. οἱ δέ" → **οἱ δὲ..οἱ δέ**, "(= αἰτησάμενος" closed up as printed, "vol. 11." → vol. II. Bold inside paragraphs as printed: ὅτ’, ὃς, φέρει, θροεῖ, σπεύσατε.
 801	rev: "χἢ δίκη" → χἡ δίκη (El. 1042: enlarged beside "ἡμέρα ἡ" on the same page: the same rough breathing, no accent; as printed)
+heading: 804 ff.
 
 === p-0210
 **ἑσπέρους...ἀντηλίους**. So in Eur. *Or.* 1258 ff. the Chorus is divided into two ἡμιχόρια, which, by Electra’s direction, guard respectively the east and the west side of the palace at Mycenae:—ΗΜ. χωρεῖτ’, ἐπειγώμεσθ’· ἐγὼ μὲν οὖν τρίβον | τόνδ’ ἐκφυλάξω, τὸν πρὸς ἡλίου βολάς. | ΗΜ. καὶ μὲν ἐγὼ τόνδ’, ὃς πρὸς ἑσπέραν φέρει. There, the ‘eastward path’ is the πάροδος on the spectator’s left; the ‘westward,’ that on his right. In the *Orestes*, however, the hemichoria do not leave the orchestra. The Ionic form ἀντήλιος was used in Tragedy: so ἀπηλιώτης, even in Attic prose. ἀνθήλιος occurs first in the comic poet Theopompus (*circ.* 390 B.C.).
@@ -267,6 +275,9 @@ As to the diction of the verse, three points claim notice. (1) The **γε** afte
 --- notes
 The 809 note was garbled (lines interleaved) and its heading lost: restored from the image ("809 f." → `## 809`, lemma **τί δράσω, τέκνον**). "807 f.", "811 f." headed `## 807`, `## 811`. The page opens with a new indented lemma of the note on 804 (no `+ `). In the Orestes quotation the print has "καὶ μὲν ἐγὼ" (Euripides' MSS. καὶ μὴν): kept as printed. "op. 1083 f+" → cp. 1085 f.; "ἄν σθένω" → ἂν; σπεύδῃ with its iota subscript as printed. Bold inside paragraphs as printed: μολεῖν, γε, ἄνδρα, σπεύδῃ, θέλοντας, θέλοντες. The page begins with the bold lemma **ἑσπέρους...ἀντηλίους**, a further lemma of the note on 804 on a new indented line (p-0209 ends "γενέσθαι."): a new paragraph of that note, so neither a heading nor `+ ` (the checker's remark "begins neither …" is answered so).
 804	the page begins with a new, indented paragraph of the note before: the further lemma **ἑσπέρους...ἀντηλίους** (leaf 210, the column's first line; p-0209 ends with a full stop): no '+ ' (settled at the merge, 2026-11-18).
+heading: 807 f.
+heading: 809 f.
+heading: 811 f.
 
 === p-0211
 + this case, the acc. θέλοντας depends on οὐχ ἕδρας ἀκμή as=οὐχ ἱδρυτέον, a constr. quite possible for poetry: cp. *El.* 479 f. ὕπεστί μοι θράσος..κλύουσαν (n.).
@@ -314,6 +325,7 @@ The antithesis to **ὁ μὲν σφαγεὺς** κ.τ.λ.
 23 k.7.\. [conf] (Greek model: κιτιλ.) → κ.τ.λ.
 --- notes
 Read through; mended beyond the flags: "£7. 470 f." → *El.* 479 f.; "Eur. 27. 796" → Eur. *El.* 796; "Polit." italic; "209" → 299 (ἐπιπάροδος in the Eumenides); "Helen.: ἐν, 518" → *Helen.*: μ., 385: ἐ., 515; "(4) Δι: Zeel i p., 310% dy 478." → (4) Ar. *Eccl.*: μ., 310: ἐ., 478.; "(cre." n/a; "with- | drawal" joined; ποδῶν bold as printed. "813 f." headed `## 813`. 815 has no lemma (opens in English).
+heading: 813 f.
 
 === p-0212
 + is delayed: it is given by **ἐκ δὲ τῶνδε** in 823. Meanwhile, the reasons why the weapon should prove deadly have been developed in three clauses (δῶρον μὲν—πέπηγε δ’—ἔπηξα δ’). Hence ὁ μὲν σφαγεὺς κ.τ.λ. is resumed in 823 by οὕτω μὲν εὐσκευοῦμεν.
@@ -366,6 +378,9 @@ Read through; mended beyond the flags: "£7. 470 f." → *El.* 479 f.; "Eur. 27.
 15 θθανεῖν [greek] (Greek model: ᾿-οθανεῖν,) → **θανεῖν** (bold lemma after a dash: new paragraph)
 --- notes
 Mended beyond the flags: "Hence ὁ μὲν σφαγεὺς k.7.\." (italic, not bold) → ὁ μὲν σφαγεὺς κ.τ.λ.; "ὃν" → ὂν (Plat. Tim.); "**δώρον μὲν**" → **δῶρον μὲν**; "θηγάνῃ - ἀκόνῃ" → **θηγάνῃ**=ἀκόνῃ; the 821 note was garbled (lines interleaved) and is retyped from the image. Headings "819 f.", "821 f.", "823 ff." as `## 819`, `## 821`, `## 823`. Bold inside paragraphs as printed: ἐκ δὲ τῶνδε.
+heading: 819 f.
+heading: 821 f.
+heading: 823 ff.
 
 === p-0213
 + equipped’: the preparations are complete. The verb occurs nowhere else; nor is εὔσκευος found.
@@ -424,3 +439,4 @@ Ajax forebodes that, as a public enemy, he will suffer the doom which Achilles a
 --- notes
 Read through; mended beyond the flags: "kal γὰρ εἰκός" made a bold lemma paragraph (printed bold, on its own indented line); "**μέγα Ξ**- μέγα" → **μακρὸν**=μέγα (the lemma read from the image; draft had lost it); "See on 809" → See on 899; "Τe" → τε; "πέλew" → πέλειν; "κἀπιχωρίοις" as printed (κἀπι-|χωρίοις); "καλώ δ᾽" → **καλῶ δ’**; καλῶ θ’ bold as printed; *proiectum odoraris cibum* italic; trailing ":" after "(‘pray that..’)." removed. Headings "826 ff." as `## 826`; 830, 831 as printed.
 826	rev: "ἀποθνήσκων" → ἀποθνῄσκων (Od. 11. 424: iota subscript printed under η, enlarged)
+heading: 826 ff.

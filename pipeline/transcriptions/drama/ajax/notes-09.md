@@ -40,6 +40,7 @@ Such play on names did not seem to the Greeks unworthy of grave poetry, because 
 Heading ## 430 made from the print's bold "430 f." (the draft had it as text "4805."); the further lemma **ἐπώνυμον** after the dash made a paragraph. Read through: *Tr.* 1058 (draft 77. 1038), *O. T.* 1367, Dem. or. 9, ib. 19. 409 (draft 400), Cp. 574 (draft 374), αἰετός bold, *I.* 5. 53, Αἴας (draft Alas), οἱ, *Th.*, *Ag.* 689 (draft 680), italics throughout.
 rev: **αἶ αἶ** set in bold (the print sets it in the bold type, as αἰετός)
 rev: ἑλέναυς: printed ἐλέναυς (smooth breathing, unlike the rough of ὅπως on this page); an evident misprint (Aesch. *Ag.* 689 ἑλέναυς, from ἑλεῖν); the draft's correction ἑλέναυς kept, this note added
+heading: 430 f.
 
 === p-0159
 + Shakesp. *Rich. II.* act 2 sc. 1. 73 (Gaunt) *O how that name befits my composition! | Old Gaunt indeed; and gaunt in being old* etc. The king asks, *Can sick men play so nicely with their names? No*, is the reply, *misery makes sport to mock itself.*
@@ -100,6 +101,9 @@ The real etymology of Αἴας is uncertain. Vase-inscriptions show that the or
 25 17741: [conf] → 1774 n.
 --- notes
 Headings ## 432, ## 434, ## 437, ## 439, ## 441-444 from the print (432 f., 434 f., 437 f., 441—444); further lemmas τοιούτοις γὰρ, τὰ πρῶτα…, ἐπελθὼν made paragraphs. Read through: *Rich. II.*, italics of the Shakespeare and of *aiva*, *eva*, *Stud. z. griech. u. lat. Gramm.*, Αἴας (draft Alas), *Ph.* 1238, Τροίαν, *O. T.* 1248, *O. C.* 1639, *Tr.* 266, οὐκ ἄν τις ἔμαρψεν and εἰ ζῶν in bold.
+heading: 432 f.
+heading: 434 f.
+heading: 437 f.
 
 === p-0160
 **ἔμαρψεν**, *praeripuisset*; the prize due to Ajax was snatched from him.
@@ -149,6 +153,8 @@ Headings ## 432, ## 434, ## 437, ## 439, ## 441-444 from the print (432 f., 434 
 The draft's text from "It implies that" to the foot (two lines run together across the Pindar quotation) rewritten from the image. Further lemmas ἀντ’ ἐμοῦ, παντουργῷ, ἀπώσαντες, κράτη, διάστροφοι, τῆς ἐμῆς made paragraphs; the heading ## 447 was "447 ff." in the print and the draft's "fl." left in the text removed. "(with χαί)": printed so, acute on ι and no breathing or coronis visible. Read through: *Th.* 671, παντόλμῳ, *Pomp.*, ἑαυτοῖς, *Tr.* 216, *El.* 689, Athena’s (51), (Io …), *Gorg.*, κατ’ ἄλλου φωτὸς and δίκην ἐψήφισαν in bold.
 The page begins with the bold lemma **ἔμαρψεν**, a further lemma of the note on 441-444 beginning a new indented line (p-0159 ends "1774 n." with no dash): a new paragraph of that note, so neither a heading nor `+ ` (the checker's remark "begins neither …" is answered so).
 rev: (with χαί) → (with χαἰ): the mark on the ι is a coronis (a blob with its tail down to the left, as the smooth breathings of this page), not an acute; the crasis χαἰ = καὶ αἱ
+heading: 445 f.
+heading: 447 ff.
 
 === p-0161
 + στερηθεὶς ὅπλων φόνῳ πάλαισεν. [ἐψήφισαν certainly has not the technical sense of ἐπεψήφισαν, as if the Atreidae were the ἡγεμόνες δικαστηρίου, who put the issue to the vote. Even if the simple ψηφίζω could be so used, this would be too technical and prosaic.]
@@ -206,6 +212,8 @@ rev: (with χαί) → (with χαἰ): the mark on the ι is a coronis (a blob w
 25 κιτ [greek] (Greek model: κιτιλ.) → κ.τ.λ.
 --- notes
 The draft's "**Ὡς** reading ἐπευθύνοντ’" is "—The reading **ἐπευθύνοντ’**" run on in the note on 451: joined to its paragraph. The draft's trailing dash at the foot ("424.—") dropped: the next page begins with the bold lemma πεδία, a new paragraph under ## 457. Read through: Ἐργάνην, *Il.* 1. 199, οἱ, *Il.* 8. 374 (draft 71.), ἀλλὰ σὺ μὲν νῦν, Oppian *Hal.*, *Il.* 13. 53, (*i.e.* ἐπεὶ ὑμεῖς), κἄμοιγε, ψηφίζω.
+heading: 455 f.
+heading: 457 ff.
 
 === p-0162
 **πεδία**: for the tribrach in the 5th foot, consisting of a single word, cp. *O. T.* 719 ἄβατον ὄρος (n.), *ib.* 1496 πατέρα πατήρ.
@@ -259,6 +267,9 @@ The draft's "**Ὡς** reading ἐπευθύνοντ’" is "—The reading **�
 --- notes
 The page begins with the bold lemma πεδία (under ## 457 of the page before): "+ " removed, a new paragraph. Phoenix's verse (Il. 9. 437) runs on in the paragraph after "home,—" in plain type: the draft's separate paragraph with bold πῶς joined back. Draft's broken ἐρειπίοις] and «ἀρνείου mended; (λιπών) outside the bold as printed; **μόνοις** in bold inside its paragraph. Read through: 5th (draft sth), *ib.* 1496 (draft 7b.), cp. 265 n. (draft 205 η.), *Med.*, *Il.* 9. 437 (draft 77. g), οἶος, *O. T.* 1371, *Ph.* 110, *Ph.* 31, *Ant.* 445, Her. 7. 223 (draft 7:), city-wall, *Ach.* 128 (draft Ack.), καὶ μέγα (draft kal), *El.* 305 n., *El.* 537, *El.* 236.
 The page begins with the bold lemma **πεδία**, a further lemma of the note on 457 after the dash at the foot of p-0161: a new paragraph of that note, so neither a heading nor `+ ` (the checker's remark "begins neither …" is answered so).
+heading: 460 f.
+heading: 464 f.
+heading: 466 ff.
 
 === p-0163
 + was caused by an arrow from the bow of Paris: see n. on the Argument to the play, line 33.
@@ -312,6 +323,9 @@ The page begins with the bold lemma **πεδία**, a further lemma of the note 
 26 ultima [conf] → ok
 --- notes
 Read through: *Aen.*, Ithacus (draft [thacus), *Tr.* 449 (draft 77.), *Ant.* 289 (draft 280), *El.* 448, μείζων (draft uel{wy), μή τοι...γε (draft Τοί... ve), **τοι**, **γε**, **οὔ τοι**, **μή τοι** bold as printed, *sane*, ἃ τὸν, *i.e.* (draft Ζ.6.), εἶναι (draft εἷναι), *Th.* 237, *O. T.* 518, κακοῖσιν..μηδὲν, *Ant.* 178 f. (draft Auto 198 {.), ὡς ἐγώ, ἢ δειλός, *alternate*, προσθεῖσα and κἀναθεῖσα in bold, ἦμαρ (draft nuap), *El.* 955 (draft £/), τοῦ **γε** κατθανεῖν. The word divided between the pages, "sug-|gested", is written whole here.
+heading: 471 f.
+heading: 473 f.
+heading: 475 f.
 
 === p-0164
 + by the case of the man ‘whose woes are unvarying.’ *Life* has nothing in store for him; the question is merely whether he is to die at once, or to have a short and wretched reprieve. This is brought out by v. 479: καλῶς ζῆν is denied to him; and that being so, the next best thing is to die honourably *and quickly*—καλῶς τεθνηκέναι.
@@ -363,6 +377,7 @@ Read through: *Aen.*, Ithacus (draft [thacus), *Tr.* 449 (draft 77.), *Ant.* 289
 20 γνη- [conf] → γνησίους.
 --- notes
 The page begins with the rest of "sug-|gested", written whole on the page before: "+ by the case …". Heading ## 479 made from the print's bold 479 (the draft's line "279 τεθνηκέναι…" was the left and right lines run together: rewritten), ## 483 from "483 f."; the draft's "καλῶς τεθνηκέναι" set as a lemma of its own joined back into the paragraph (plain type); further lemmas λόγου, πάντ’ ἀκήκοας λόγον, κρατῆσαι made paragraphs; ye μέντοι is the bold lemma **γε μέντοι**. Read through: καλῶς ζῆν (draft ὧν), *I. A.* 540, *Hec.* 368, ἀνατίθεσθαι, *Mem.*, *Tr.* 876, *Ag.* 582, p. 106. 7 (draft τού.), *O. C.* 794 (draft 704), τῷ κατθανεῖν.
+heading: 483 f.
 
 === p-0165
 + to the context. Here, it is the fortune by which ἀνάγκη has doomed her to be a slave; but there is no *direct* reference to slavery in the words. Cp. 803. In *El.* 48 ἀναγκαίας τύχης is the ‘fatal chance’ by which Orestes was killed. In *Il.* 16. 836 ἦμαρ ἀναγκαῖον is ‘the day of doom’ hanging over Troy.
@@ -435,3 +450,6 @@ The page begins with the rest of "sug-|gested", written whole on the page before
 33 κιτ [greek] → κ.τ.λ.
 --- notes
 The draft's garbled line "(In L7/e0€7¢. … 1:8. vir. Zr. 28 …" was the end of the left column, the signature "J. S. VII." at its foot and the top of the right column run together: signature left out, "(In *Tr.* 28 λέχος is rather nom., ‘as bride’.)" rewritten from the image. Headings ## 489 and ## 494 from "489 f." and "494 f."; further lemmas ἐν πλούτῳ, μάλιστα, τὸ σὸν λέχος ξυνῆλθον, τὰ σά, χειρίαν, ἐφεὶς made paragraphs; the draft's split of the 488 lemma ("εἴπερ τινὸς σθένοντος, | σθένοντος;") mended: "=σθένοντος, εἴ τις ἔσθενε" is plain Greek after the bold lemma. Lemma of 496 is **ᾗ γὰρ θάνῃς σὺ** (draft ἡ…θάνῃς), Bothe’s **ᾗ** to **εἰ** in bold as printed (draft ἣ to εἰ). Διῒ printed with diaeresis and grave. Read through: *Il.* 16. 836, *O. C.* 733, ἥκων, *i.e.* (draft Δ δ.), *El.* 1264 n. (draft π.), *Andr.* 1245 (draft “γι.), Thuc. 1. 95 (draft I.).
+heading: 489 f.
+heading: 490 f.
+heading: 494 f.

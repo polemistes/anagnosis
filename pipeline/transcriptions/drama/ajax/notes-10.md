@@ -48,6 +48,8 @@
 29 taunts,” [conf] → taunts,’
 --- notes
 Left column's 500 note was scrambled with the line beside it ("A reminiscence bodes of the 71. fate 6. 4 of os Andromache)"): rewritten from the image: "A reminiscence of *Il.* 6. 459 ff. (where Hector forebodes the fate of Andromachè)". "Either εἰ or ᾗ" (draft ἡ); the further lemma **ἀφῇς** (draft ἀφῇ) begins an indented line: a new paragraph; the line "(‘burn me’): *ib.* 769 ἕκηλον εὕδειν" was out of order in the draft and is put back. "ἀτι-|μίῃσιν" divided between pages: written whole here.
+heading: 498 f.
+heading: 500 f.
 
 === p-0167
 + ἰάλλειν. As to the root of ἰάπτω, Curtius holds that ἰα-π is expanded from ἰα (=Skt. *jâ*, ‘go’), in a causative sense, by the determinative π, just as the Lat. *ja-c* is by *k*. (*Greek Verb*, p. 167 Eng. ed.) Cp. 700.
@@ -114,6 +116,10 @@ Left column's 500 note was scrambled with the line beside it ("A reminiscence bo
 34 παραδοθήσονται.---- [conf] → παραδοθήσονται.— (dash dropped before the new paragraph **νέας τροφῆς**)
 --- notes
 The draft's "—Πα5 around her" had made a false lemma paragraph: "only a stronger ἔχει,—has around her in her daily life" is one paragraph. Further lemmas ζήλου and αἰσχρὰ (after dashes, bold) made paragraphs; ἐλᾷ (bold, no dash) stays in its paragraph. "τὸ δ’ ‘ἐὰν … ἀποδώσω,’..αἰσχυνοίμην" (draft “ … ,". ), "Lys. or. 13 § 15" (draft "1 13 § I5"), *Tr.* 1045 (draft 77. 10435), "where see n." (draft Where). Headings ## 502, ## 506, ## 510 from "502 ff.", "506 ff.", "510 f.".
+heading: 502 ff.
+heading: 504 f.
+heading: 506 ff.
+heading: 510 f.
 
 === p-0168
 **διοίσεται**, *sc.* βίον, ‘pass his life’: schol. διάξει, βιώσεται. The midd. has this absolute sense in Hippocr. *De artic.* p. 823 ὑγιηροὶ τἄλλα..διαφέρονται (‘they pass through life’): Xen. *Mem.* 2. 1. 24 σκοπούμενος διοίσει (a correction of διέσῃ). We find also διαφέρειν βίον or αἰῶνα (Her. 3. 40, Eur. *Helen.* 10), or διαφέρειν only ([Eur.] *Rhes.* 982).—Others explain διοίσεται as pass., *diripietur*, ‘(if) he shall be plundered.’ In this sense the usual word is διαφορεῖν, though Eur. *Bacch.* 754 has διέφερον in a kindred sense, and Arist. *Poet.* 8 § 4 the pass. διαφέρεσθαι: but such a meaning, which would fix attention on the boy’s property, is utterly out of place here. [Lobeck, and Blaydes after him, cite Dion or. 41 p. 506 C ὑπ’ ὀρφανιστῶν διασπασθήσεται: but the correct reference is or. 43 p. 506 C, and the words, ὑπὸ τῶν συγγενῶν καὶ ἐπιτρόπων διασπασθῆναι.]
@@ -155,6 +161,7 @@ Compare Andromachè’s description, in her lament over Hector, of the lot in st
 19 jorwoas [latin] (Greek model: (ἡ.--ἤστωσας.) → (n.).—**ᾔστωσας**. (a new paragraph)
 --- notes
 The page begins with a new paragraph of the note before: the further lemma **διοίσεται** (note on 510, p-0167), an indented line without a number: no `+ `. Heading 514 ("514 f. βλέπω") was lost in the draft (": βλέπω"): restored. Lemma 512 is **ὑπ’ ὀρφανιστῶν** only; "(διοίσεται)" is plain. "Dion or. 41" (draft or. 41 ok), "τοὺς χηρεύοντας" (draft rods), *Il.* 5. 158 and *Il.* 22. 490—498 (draft //. and 27.), "Xen. *Mem.*", "Hippocr. *De artic.* p. 823 ὑγιηροὶ τἄλλα..διαφέρονται", "πε ἐπίτροπος" was "=ἐπίτροπος".
+heading: 514 f.
 
 === p-0169
 + other certain instance of ᾀστόω for ἀϊστόω. (In fr. 493, κόρον ἀϊστώσας πυρί, Kuster’s conjecture κηρὸν, if right, would point to ᾀστώσας.) The ordinary form occurs in *Tr.* 881 αὐτὴν διηΐστωσε.
@@ -211,6 +218,8 @@ The page begins with a new paragraph of the note before: the further lemma **δ�
 20 τοοοη [greek] (Greek model: ἸΟοΟΙ.) → 1000 n.
 --- notes
 The 517 note was scrambled in the draft (two lines interleaved: "εἴσ᾽ hiro cp. O. 7". 959, For θανάσιμος Ph. 819. said"): rewritten from the image. 518 reference is Xen. *An.* 1. 3 § 6 (draft "“2. 1. 2 8 6"). Further lemmas δορί, προσεῖναι, τερπνὸν εἴ τί που πάθοι, τίκτουσ’, γένοιτ’ (after dashes, bold) made paragraphs; πᾶσ’ (bold, no dash) stays in its paragraph. Dido's Latin in italics, "Si" (draft St), *ib.* 282 (draft 206.). "ᾀστόω", "ᾀστώσας" with iota subscript as printed.
+heading: 520 f.
+heading: 523 f.
 
 === p-0170
 ## 525
@@ -270,6 +279,8 @@ For the alliteration (παρήχησις) cp. 1112: *O. T.* 371 τυφλὸς τ
 28 Αργείους [accent] → Ἀργείους.
 --- notes
 The 525 note was scrambled in the draft (lines run across each other): rewritten from the image; further lemma ὡς κἀγὼ made a paragraph. The draft had cut "τὸ ταχθὲν=ὃ ἂν ταχθῇ" at the "=" (read "--"): joined, the bold on τὸ ταχθὲν only. Further lemma τολμᾷ (after a dash) made a paragraph. Bold γε, φόβοισι, καὶ μήν...γε inside the 531 paragraph as printed. *Tr.* 1187 (draft 77. 1 187 ἢ ἡ), *Il.* 6. 476 (draft 74.), "a new fact", "a new comer" (draft ἃ).
+heading: 525 f.
+heading: 527 f.
 
 === p-0171
 + danger. She speaks merely as if (in her undefined ‘fears’) she had left the care of the child to others. Then the blunt and impatient question of Ajax—ἐν τοῖσδε τοῖς κακοῖσιν κ.τ.λ.—startles her into speaking plainly,—μὴ σοί γέ που δύστηνος κ.τ.λ.
@@ -442,4 +453,7 @@ The 543 note was scrambled in the draft (left out its heading, its lines run tog
 The page begins with the rest of "re-|dundant", written whole at the foot of p-0172 (the word is left out here).
 547	rev: the run-on "but not pointless; the qualities derived from the father will prevail over any weaker qualities derived μητρόθεν." is printed at the head of this page's left column: put here with `+ ` (it had been put whole on p-0172)
 The draft had cut "his father,—ὧδε βίην τ’ ἀγαθὸν καὶ Ἰλίου ἶφι ἀνάσσειν" at the dash and bolded it: a plain-type quotation of *Il.* 6. 478: joined again with the dash. Further lemmas σε and τοῦτό γε made paragraphs. "Xen. *Oec.* 3. 10" (draft "Xen, Ow."), "Plut. *Mor.* 13 E" (draft Plat.), "Verg. *Aen.*" (draft den.), "*Armorum Iudicium*" (the swash I of the italic), "τουτὶ γάρ τοί σε μόνον..μακαρίζω", "It might, however, be adv." (draft δᾶν..), "*O. T.* 424" (draft Ο. 7:). Latin of Horace, Attius and Vergil in italics.
+heading: 548 f.
+heading: 550 f.
+heading: 552 f.
 

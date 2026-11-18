@@ -29,6 +29,7 @@
 Beyond the flags: lemma σούσθω (OCR "τι|.-: σούσθω"), the bold lemma φησὶ (OCR "ξ."), *Tr.* (OCR "77."), *El.* (OCR "£/."), *Vesp.* italic, ἔμβᾱ and κατάβᾱ with the printed macrons (OCR ἔμβα, κατάβα), βᾶτε (OCR "Bate"), πάντ’ ἀγαθῷ (elision mark lost in the lemma and twice in the text), closing quote after "worthier." (’ not ”), *i.e.* (OCR "Z.e."), the 1417 lemma in bold inside Jebb's brackets as in notes-11. οὐδείς before πω is printed with the acute (enclitic follows), checked on the image.
 rev: 1417 lemma: the stop after φωνῶ put outside the bold, inside the plain bracket (as the brief and the Philoctetes file have it)
 rev: "indicates : lit." closed up to "indicates: lit." (the colon spacing of the other batches)
+heading: 1414 f.
 
 === p-0295
 + paroemiac, it cannot be followed by a paroemiac. If, then, v. 1417 is to be retained, v. 1416 must be made into an anapaestic dimeter. Further, v. 1417, as it stands, yields no satisfactory sense. It must be taken in one of two ways: (1) by itself, a colon or stop being placed after θνητῶν:—‘I speak of Ajax, in the days when he lived’: for the genitive, cp. 1236. Or (2) in connexion with v. 1416, a colon being placed after Αἴαντος, but no point after θνητῶν:—‘and never yet (having toiled) for a worthier man than Ajax;—I speak of the time when he lived.’ (Cp. Meleager *epigr.* 22 ἦν καλὸς Ἡράκλειτος, ὅτ’ ἦν ποτε.) The interpolation of v. 1417 may have been prompted by the comparative λῴονι, and by a wish to find the name of the hero at the close of the play. No emendation yet proposed is probable: see Appendix.
@@ -53,3 +54,4 @@ rev: "indicates : lit." closed up to "indicates: lit." (the colon spacing of the
 --- notes
 Beyond the flags: closing quote after "lived." (’ not ”), *El.* and *Ant.* italic, καὶ (OCR "kal"), ὅ τι in the fragment (OCR "6 τι"), ὅτ’ (elision mark). "1418 ff." is the heading ## 1418. This is the last page of the commentary; nothing follows in the columns.
 rev: colons closed up as in the other batches: "θνητῶν:—" (twice), "probable: see", "fare: fr." (Jebb's thin space before the colon not kept)
+heading: 1418 ff.

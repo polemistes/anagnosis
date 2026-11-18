@@ -52,6 +52,8 @@ Schneidewin strangely understands, ‘Odysseus mocks at the frenzy-darkened soul
 --- notes
 Draft's paragraphs from "Ζηνὸς" to "Pol. 4. (7.) 7. 3" were out of order and garbled (the note 954 f. and its lemma ἦ ῥα were lost): page rewritten from the column images. "refer-|ence" divided over the page: written whole here.
 ## 956: Jebb's number (print checked: 956 πολύτλας); our text has no 956.
+heading: 954 f.
+heading: 957 f.
 
 === p-0231
 + to their source in the μανία of Ajax. Cp. Eur. *I. A.* 548 μαινομένων οἴστρων (so Reiske, for μαινόμεν᾽).
@@ -112,6 +114,8 @@ As several objections arise from the alleged incoherence of the speech, it is we
 26 966—g70.) [digit] (Greek model: οὐό--οὔο.)) → 966—970.)
 --- notes
 The rest of "reference" (divided over the pages) is written whole on p-0230. Further lemmas κεἰ..μὴ, ᾽πόθουν, τἀγαθὸν χεροῖν, πρίν τις ἐκβάλῃ split into paragraphs; ἐν χρείᾳ δορός begins an indented line without a number (under 961). Stray ":" after "966—970.)" deleted.
+heading: 961 ff.
+heading: 964 f.
 
 === p-0232
 + (961—965). No, his death is no gain for them—though it is anguish for me: for *him*, it is the release which he desired (966—968). Why should they mock at him, then? They cannot even claim that his death was their work; it is the affair of the gods (969 f.). So Odysseus may exult, if he pleases, but it is an empty triumph. He and his friends have merely suffered a *loss*; Ajax is gone,—and has left nothing behind him but the sorrow which is mine’ (971—973).
@@ -160,6 +164,7 @@ The rest of "reference" (divided over the pages) is written whole on p-0230. Fur
 29 “ὅν [conf] → ‘*by*
 --- notes
 "Thue. 1. 24 § 2" of the draft is "Thuc. 1. 34 § 2" in the print. The end of the 969 note ("are needless: the stress on τοῦδ᾽ mitigates the harshness of the verse") was garbled in the draft: rewritten from the image. The bold Greek in "substitute for ἢ (ᾗ, εἰ, ὡς, καὶ)", "γλυκύς means", "by ὧν" and "stress on τοῦδ᾽" is bold in the print, inside the paragraph.
+heading: 966 f.
 
 === p-0233
 + indeed, that sense would be forced. Tecmessa’s phrase is more expressive and more pathetic.
@@ -208,6 +213,7 @@ The fourth ἐπεισόδιον consists of two scenes. (1) 974—1039. Teucer�
 20 Kiihn [latin] → Kühn
 --- notes
 The draft lost "=πέπραγας" after the lemma of 978 (written as a paragraph of its own): mended. "Ant. τ" is *Ant.* 1; "Eum. 003" is 903; "Zr." is *Tr.*; "451. 331" is *El.* 331. Open: "De morb. II. p. 353": the old-style figure 1 and the capital I look alike in this print; read as the roman volume number II. (could be 11).
+heading: 972 f.
 
 === p-0234
 + patient’s state will be better.’ In Aesch. *Eum.* 631 ἠμποληκότα | τὰ πλεῖστ᾽ ἄμεινον (so Herm., for ἀμείνον᾽), the sense is similar.—Hermann, reading **ἠμπόληκά σ᾽**, explained, ‘Num te morando prodidi?’ This seems clearly less fitting.
@@ -249,6 +255,8 @@ The draft lost "=πέπραγας" after the lemma of 978 (written as a paragrap
 16 ἐνέπρησεν... [conf] → ἐνέπρησεν..
 --- notes
 Draft garbled the foot of the left column of 981 and the head of 982 ("see aie on O. emphasis C. 645. to the announcement", "HL done…", "Oppian (71."), the end of 985 ("πῶς οὐχὶ ; where, (πῶς δῆτ᾽ however, being a Dindorf variant…") and the last lines ("409 πᾶσαν See κόνιν e.g. σήραντες 1089 ὅπως]…"): rewritten from the image. "280 ὦμοι" made the heading ## 980 with the bold lemma ὤμοι. Lost lemma "μόνος" of 985 restored. "**παρὰ σκηναῖσιν**" is bold inside the paragraph, without a dash: kept in its paragraph. "as in 501 ff." is "591 ff." in the print.
+heading: 983 f.
+heading: 985 f.
 
 === p-0235
 + νέκυν: *Ph.* 263 ὃν οἱ | δισσοὶ στρατηγοί: *O. T.* 332 τί ταῦτ᾽ | ἄλλως ἐλέγχεις; (Such elision at the end of the verse was remarked by the ancients as peculiar to Sophocles: see on *O. T.* 29.) The place of δῆτα here is only another example of the same tendency, and is illustrated by that of ποτέ in *O. T.* 1084 οὐκ ἂν ἐξέλθοιμ᾽ ἔτι | ποτ᾽ ἄλλος. This virtual synaphea of trimeters naturally occurs most often in passages where, as here, the speech is excited or rapid.
@@ -293,6 +301,9 @@ Draft garbled the foot of the left column of 981 and the head of 982 ("see aie o
 19 Anz. [conf] → *Ant.*
 --- notes
 "Pers. 208" of the draft is 298 in the print; "Phaedr. p. 2428" is "p. 242 E". Bold κενῆς (inside the paragraph, after "Others take"), θανοῦσι and μέλειν set as printed. Lemma of 992 "θεαμάτων..προσεῖδον ὀφθαλμοῖς" made whole in bold (the draft split it at the line end).
+heading: 988 f.
+heading: 990 f.
+heading: 992 f.
 
 === p-0236
 ## 994
@@ -335,6 +346,8 @@ Draft garbled the foot of the left column of 981 and the head of 982 ("see aie o
 17 νικῷεν [conf] → ok
 --- notes
 "corrected in 1," of the draft is "corrected in L" in the print; "Τί 15 ἃ" is "It is a"; "as in 1020" is 1029; "apa" is ἆρα. The last paragraph (διῆλθ᾽ Ἀχαιοὺς, a further lemma on 998) was jumbled in the draft: rewritten from the image; "πᾶν...ἡ" with three dots as printed. Bold πασῶν, θεοῦ inside paragraphs as printed.
+heading: 994 f.
+heading: 996 f.
 
 === p-0237
 + Βοιωτοῖσι μαχόμενοι. As to φήμη generally, see on *El.* 1066.
@@ -386,3 +399,6 @@ The ironical **ἦ που** (‘methinks’) is reinforced by **ἴσως**, whi
 18 Zegg [latin] → *Legg.*
 --- notes
 The lemma of the second paragraph under 1000 is "ἐκποδὼν μὲν ὢν" (the draft had "dv"); "ἀνδρὸς … φίλοι" kept as one quotation; "the simpler νον" is "the simpler view". Lemma of 1003 "ἴθ᾽, ἐκκάλυψον" is bold as a whole (comma inside). "lows" is ἴσως. The paragraph runs on to the next page after "—Teucer’s" (a dash followed by English, kept in the paragraph). Bold ὦ, καὶ, μοι, ἦ που, ἴσως, ἰδὼν, νῦν δ᾽ ὁρῶν, δείλαιος set as printed.
+heading: 1000 f.
+heading: 1004 f.
+heading: 1006 f.

@@ -43,6 +43,7 @@ Erechtheus, ὁ γηγενής (Her. 8. 55), ‘whom Earth, the grain-giver, bro
 22 Ant. [conf] → ok
 --- notes
 Beyond the flags: italics set (Eccl., Nub., Anth. Pal., Rep., Euthyd., Prot., Ant., fraught with, us); Mss. → MSS.; "300 Ὁ" → "300 D"; "(y before x)" → "(γ before χ)"; bold καχαζόντων and βαρυάλγητ᾽ inside the note as printed; "—ἕστακεν" (bold after a dash) made a paragraph of its own; "(333— 595)" closed up.
+heading: 198 f.
 
 === p-0127
 + forth, and Athena, daughter of Zeus, fostered’ (*Il.* 2. 547), is representative of the Athenian claim to be αὐτόχθονες. It was in his reign, acc. to Her. 8. 44, that the folk once called Κραναοί, and then Κεκροπίδαι, were first named Ἀθηναῖοι. For Ἐρεχθεῖδαι as=Ἀθηναῖοι, cp. Pind. *I.* 2. 19 κλειναῖς Ἐρεχθειδᾶν χαρίτεσσιν ἀραρὼς | ταῖς λιπαραῖς ἐν Ἀθάναις, ‘having attained to the glorious honours given by the Erechtheidae in shining Athens.’ (In *Ant.* 981 f., however, the patronymic has a narrower sense, denoting merely the family of Erechtheus.) So, again, the Athenians are Θησεῖδαι (*O. C.* 1066), the Thebans Καδμεῖοι, the Trojans or Romans *Aeneadae*; and an unknown poet (frag. adesp. 274) calls the Argives χθονίους Ἰναχίδας, where Hesychius explains the adj. by αὐτόχθονας καὶ οὐκ ἐπήλυδας,—the sense of **χθονίων** here. (Cp. *O. C.* 948 n.)
@@ -92,6 +93,8 @@ Salamis is in this play a kingdom independent of Athens, but the Salaminians are
 25 (id. [conf] → (*id.*
 --- notes
 Beyond the flags: the Pindar quotation restored in Jebb's order (κλειναῖς Ἐρεχθειδᾶν χαρίτεσσιν ἀραρὼς | ταῖς λιπαραῖς ἐν Ἀθάναις; the draft had scrambled it); kal → καί, "(Cp. O. C. 9481.)" → "948 n."; italics set (Il., I., Ant., O. C., Aeneadae, Tr., Iliad, P. V., Ph., ib., fell, e.g., Tim., received in exchange, Tetr., id., i.e.); 77. 315 → Tr. 315; 2. VV. → P. V.; Te → τε; "Noma: 106." → "| λύπᾳ: ib."; 15 → is; τ. 189 → 1. 189; Z.e. → i.e.; wpa → ὥρα; bold ἐνήλλακται and χθονίων inside the notes; the lemma of 206 corrected (θολερῷ alone bold, then "(θολός, ὁ, mud)"); "τελευτᾷ τὸν βίον :" and "ὅταν. .νοσήσῃ" closed up as printed; 206 f. → ## 206, 208 f. → ## 208. Spaced Greek (Ἐρεχθεῖδαι, χθονίους, αὐτόχθονας) written plain.
+heading: 206 f.
+heading: 208 f.
 
 === p-0128
 No tolerable emendation has been made. **ἠρεμίας**, ‘stillness,’ though possible, is very feeble. **εὐμαρίας** (=εὐμαρείας), which Nauck adopts, is directly contrary to the sense; for, even *before* the dread rumour arose, the Chorus had been disquieted by the long seclusion and inaction of Ajax (194 f.). **ἀμμορίας**, without some further definition (such as τῆς πρὶν), would be too vague. And the words **νὺξ ἥδε** suggest that there was some mention of *day*. On the whole, the traditional reading, though difficult, is less open to objection than any remedy which has been proposed.
@@ -147,6 +150,7 @@ Lobeck remarks that the father of Tecmessa is called *Teuthras* by Malela and ot
 34 ‘hint,’ [conf] (Greek model: τΒἴης,᾿) → ok
 --- notes
 The checker's remark on the page's start is expected: the page opens with a new, indented paragraph of the note on 208 (no + ). Beyond the flags: bold ἠρεμίας, εὐμαρίας, ἀμμορίας, νὺξ ἥδε inside the paragraph as printed; italics set (before, day, Th., Suppl., Ch., Tr., Hec., O. C., upholds, i.e.); "οὗ ἀημερίας" → "of ἀημερίας"; "—σε..." after the dash made its own paragraph (as the draft had); the end of 211 restored ("where τὸν οἰνῶπ᾽ ἀνέχουσα κισσὸν is the common reading, we should probably read τὸν οἰνωπὸν ἔχουσα κισσόν.)"); Zh. → Th.; ὡς for ws, λέχος for λέxos; 211 f. → ## 211. Spaced Greek in the scholium written plain.
+heading: 211 f.
 
 === p-0129
 + in 205—207, with what terrible fulness of detail she can speak.
@@ -211,6 +215,10 @@ The *v.l.* **αἴθοπος** is impossible here, as in the verse of Hesiod; it
 25 £/ [conf] → *El.*
 --- notes
 Beyond the flags: the range heading 221-282 corrected to ## 221-232 (print "221—232"), "vv. 245-256" → "vv. 245—256"; "El. 603 f." → *El.* 693 f. (print); kal → καί; Alas → Αἴας; "Inv. 147" → "in v. 147"; "the Ms." → "the MS."; Eustathius quotation corrected (αἴθοψ, ·, οἴνῳ μέλανι); bold ο ("inflexion with **ο**") and bold αἴθοπος as printed; italics set (O. C., Creusa, El., O. T., Il., Ph., Gorg., Theb., Ag., Ant., Op., Hymn. Cer., v.l., and yet); "μῦθος.. φίλων", "αἴθων.. λῆμα", "τοιαῦτ᾽", "αἱμοβαφῆ :" spacing as printed; 214 f., 216 f., 218 ff., 221 ff. → ## 214, 216, 218, 221. Spaced Greek (αἴθονα, αἴθων, αἴθοψ) written plain. The checker's remark on “ο”: it is the letter omicron in bold, as printed, not a word.
+heading: 214 f.
+heading: 216 f.
+heading: 218 ff.
+heading: 221 ff.
 
 === p-0130
 ## 225
@@ -275,6 +283,9 @@ Beyond the flags: the range heading 221-282 corrected to ## 221-232 (print "221�
 --- notes
 Beyond the flags: "(=ποιμνίων ἐπιστάταις, 27)" was cut into a false lemma paragraph: joined back, plain type; bold βοτῆρας, βοτά, ἱππονόμους inside the paragraph as printed; "Cp. 77. 659 / 77. 38 / 77. 856 / 77. 1172" → *Tr.*; "20. 1268" → *ib.* 1268; "ὦ ueγάλα" → ὦ μεγάλα; "(η.)" → (n.); "2. 4. 242" → *P.* 4. 242; Jon → *Ion*; ol → οἱ; "objection— and", "tragedy— that" closed up; "Tro. 374" restored; italics set (chiefs, Tr., rumoured, ib., H. F., Or., helped, P., Ion, Helen., riding, Hipp., Nub., tending, also, warrior, El., Tro.); "non-|thematic" divided at the line end: written non-thematic (the usual form of the word); 229 ff., 233 f., 235 f. → ## 229, 233, 235.
 ## 228: Jebb's number (print "228 περίφαντος"); our text has no 228.
+heading: 229 ff.
+heading: 233 f.
+heading: 235 f.
 
 === p-0131
 + **ποίμνην** is a ‘noun of multitude’; cp. *O. C.* 1070 ἄμβασις, οἳ κ.τ.λ. (n.). Then **τὴν μὲν** (*sc.* ποίμνην) follows ὧν, as it might have followed ἧς: cp. Thuc. 1. 2 § 3 τῆς γῆς ἡ ἀρίστη, *ib.* 5 § 1 τὸν πλεῖστον τοῦ βίου. Finally, **τὰ δὲ** (*sc.* βοτὰ) refers to ὧν.—The antithesis to τὴν **μὲν** is given by τὰ **δέ**, not (as some have thought) by δύο **δ᾽**.
@@ -316,6 +327,7 @@ If the two rams are the two Atreidae, then Odysseus is ignored here. This would 
 --- notes
 Beyond the flags: bold set as printed (ποίμνην, τὴν μὲν, τὰ δὲ, μὲν, δέ, δ᾽ inside the paragraph; ἔσω σφάζε); "(sc. Bora)" → (*sc.* βοτὰ); "(Pax 95)" → (*Pax* 92) from the print; italics set (O. C., sc., ib., Ag., caught up, Eq., Pax, flog, brethren, Ph., Il., Od.); Menelaiis → Menelaüs (twice); "IIO" → 110; 237 ff. → ## 237. Spaced δεσμίους written plain.
 235	rev: "ἄμβασις, οἱ κ.τ.λ." → οἳ (the print has breathing and grave: the relative, *O. C.* 1070).
+heading: 237 ff.
 
 === p-0132
 + reference here to the sacrificial custom; the act of Ajax rather expresses merely fierce hatred of a slanderer.
@@ -355,6 +367,9 @@ Beyond the flags: bold set as printed (ποίμνην, τὴν μὲν, τὰ δ
 12 τις" [conf] → τις·
 --- notes
 Beyond the flags: "Τί has good authority" → "It has good authority", "Τί, on the other hand" → "If, on the other hand", "Tou is quite : in place" → "τοι is quite in place"; "goo" → 900, "71. 16. 475" → *Il.* 16. 475, "721. 11. 532" → *Il.* 11. 532; μάστιγι λιγυρᾷ as printed; yap → γάρ, ol → οἳ; bold set as printed inside 245 (ἀνδρὸς, ἀνέρος, τοι twice, κρᾶτα, κάρα, ἐδήλωσας, ἔδειξας, ἔφηνας, ἐδήλους, ἤτοι); "—κίονι" after a dash (bold) made a paragraph of its own; italics set (Ant., Tr., Eccl., Cyneg., Heracl., iacto, iacio, i.e., up, at, to, El., O. C., Il., Scut., O. T.); 239 f., 243 f., 245 ff. → ## 239, 243, 245. The word "impro-|able" divided between the pages written whole here ("improbable,"); its end "able," left out on p-0133.
+heading: 239 f.
+heading: 243 f.
+heading: 245 ff.
 
 === p-0133
 + since ἤδη is emphatic, and ἤτοι would be somewhat weak. See Appendix.
@@ -422,3 +437,6 @@ The accus. is, in the first place, object to **πεφόβημαι**, but is felt
 --- notes
 Beyond the flags: "able," (end of "improbable" divided between the pages) left out here, written whole on p-0132; the lemma "**κρᾶτα**. -κρυψάμενον" corrected to **κρᾶτα..κρυψάμενον** (one bold lemma, as printed); the false paragraph at "—ἡνίας" (plain type in the print) joined back; "388 πὶ" → 388 E; "Tas διστόλους | . . ἀδελφὰς, ἐ εν." → "τὰς διστόλους | ..ἀδελφὰς, *i.e.*"; "(η.)", "139 η." → n.; "Pind. 2. τι. 36" → *P.* 11. 36; ol → οἱ; bold set as printed (κλοπὰν, εἰρεσίας, ζυγὸν, πεφόβημαι, ξυναλγεῖν, τυπείς); "—δικρατεῖς", "—λιθόλευστον" (bold after dashes) made paragraphs of their own; italics set (Phaedo, the Livy quotation, Pers., Rhes., Or., Ant., Ag., indulgere, e.g., Rep., ap., swift strains, O. C., i.e., ib., P. V., P., El., Il.); "Ares.”)" → ’; 249 f., 251 f., 252 ff. → ## 249, 251, 252. The page ends inside the second paragraph of 252 ("cumulative").
 252	rev: "as =‘by tardy help" → "as=‘by tardy help" ("as" ends the printed line, "=" opens the next; closed up as Jebb's "as=" everywhere else).
+heading: 249 f.
+heading: 251 f.
+heading: 252 ff.

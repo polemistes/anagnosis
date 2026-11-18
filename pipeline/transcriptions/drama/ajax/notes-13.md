@@ -37,6 +37,8 @@
 20 Z/. [conf] → *El.*
 --- notes
 Heading ## 674 from the print's "674 f."; the 672 note is "672 ff." in the print. Read through: the Shakespeare quotation in italics, *O. C.* 440 f. (draft 4401. (η.)), καὶ (draft kal) in O. T. 301 and Suppl. 1000, *Suppl.*, *P. V.*, *Ph.* 543, the missing | after κύκλον, τάξιν· (raised stop, draft colon), *Mor.*, *Pers.*, **κύκλος** and the second **αἰανὴς** bold, φέγγος..φλέγειν (draft "φέγγος. -φλέγειν"), *range over*, El. 1365 (draft £/), ’ for ” in several quotation marks.
+heading: 672 ff.
+heading: 674 f.
 
 === p-0191
 + sea, or give it rest; as Aeolus, the ταμίης ἀνέμων, has the prerogative, ἠμὲν παυέμεναι ἠδ’ ὀρνύμεν, ὅν κ’ ἐθέλῃσι (*Od.* 10. 22). So in 706 Ἄρης is a giver of *peace*. Cp. Hor. *C.* 1. 3. 15 (Notus), *quo non arbiter Hadriae | Maior, tollere seu ponere vult freta*. Vergil may have had Sophocles in mind when he wrote *placataque venti | Dant maria* (*Aen.* 3. 69): but when he says, *placidi straverunt aequora venti* (*Aen.* 5. 763), the epithet makes all the difference (=ἄνεμοι λήξαντες).
@@ -93,6 +95,7 @@ Arist. *Rhet.* 2. 13 § 4 (old men) κατὰ τὴν Βίαντος ὑποθή
 28 7. [conf] → *T.*
 --- notes
 Draft's cut at "side—μισεῖν" joined again (μισεῖν ὡς φιλήσοντα is plain type, between dashes). Read through: *Od.* 10. 22 (draft το), seu (draft sew), venti (draft vent:), Pind. *I.* 7. 12 δεῖμα..παροιχόμενον, *O. T.* 27, 181, *Tr.* 206 (draft 77), καὶ γνῷ, γνώσεται=‘she will learn’, after ἔγωγ’ a raised stop (·) and italic *sc.*, *Tr.* 1248, γὰρ (draft yap), ἐγὼ **δ’** and ἡμεῖς **δὲ** bold as printed, ὅ τ’ ἐχθρὸς ἡμῖν (draft ὁ), ὡς (draft ws), the lemma ἔς τε τὸν φίλον (draft "ἔς Te Tov"), **ὑπουργῶν** bold, *in relation to*, *Tr.* 411, ὤν, *El.* 24, *O. C.* 1289, "below, 825" (a speck before 825 is not print), italics throughout. The heading 677 was already right; 680 from the print's "680 f.".
+heading: 680 f.
 
 === p-0192
 ## 682
@@ -153,6 +156,10 @@ Draft's cut at "side—μισεῖν" joined again (μισεῖν ὡς φιλή
 28 7b. [digit] → *ib.*
 --- notes
 Draft's cut at "reason,—τοὺς γὰρ" joined again (plain Greek, not a lemma); the 687 lemma joined to its "=τὰ αὐτὰ ἃ ἥδε τιμᾷ" (the draft had split at the "="). In the 684 note only **διὰ τέλους** is bold, τελεῖσθαι after the dots is plain type, as printed. Read through: γὰρ (draft yap), ὡς (draft ws), 1. 5 § 87 (draft 8), ἑταιρείας (draft "-ἑταιρείας") and **ἑταιρίας** bold, *amicitia*, MSS., Antiphon ‘present (stray space), *all through*, ἀκούσαθ’, (*i.e.* from, *end*, *Tro.* 1210 (draft 770), ἐκεῖσ’ (draft "Αἱ" for At), ὅποιπερ εἶσ’, *strong*, 6. 10 (draft το), ἐπιμελεῖσθαι, italics throughout. Headings 682, 684, 687, 691 from the print's "682 f.", "684 ff.", "687 f.", "691 f.".
+heading: 682 f.
+heading: 684 ff.
+heading: 687 f.
+heading: 691 f.
 
 === p-0193
 + ἔργοισι σωθῶ. The word was thus well-chosen for his aim here.
@@ -200,6 +207,8 @@ Pan was a domestic deity to Salaminians, since one of his reputed haunts was the
 19 f. [conf] (Greek model: 1.) → ok (699 f.; heading ## 699)
 --- notes
 Read through: well-chosen (a hyphenated compound at the line end), *O. T.*, *Ant.*, *Tr.* 633—662 (draft 77.), joy (draft Joy), *Theb.* 1. 493 (draft τ.), *Horror iit*, *Ant.* 1307, *Helen.*, *Pers.*, *ib.* 828 (draft 20.), *Geo.*, *tua si tibi Maenala curae*, *Nub.*, *Ph.* 206, Παρνασοῦ. (a speck after it), Cyllenè thrice, **χιονοκτύπου** after the dash a paragraph of its own (the draft had it so), italics throughout. The headings 694 and 699 from the print's "694 ff." and "699 f.".
+heading: 694 ff.
+heading: 699 f.
 
 === p-0194
 + θεῶν seems to be possessive rather than partitive; *i.e.* the precise sense seems to be, ‘divine dance-maker *of* the gods,’ rather than, ‘among the gods, that god who makes dances.’ For such a partitive gen., we may, indeed, compare *O. C.* 868 θεῶν | ὁ πάντα λεύσσων Ἥλιος (unless θεὸς should be read there). But here the meaning seems to be that Pan represents the gods in this function. Pan was to rustic χοροί, those of nymphs and satyrs, what Apollo Μουσαγέτης was to the Olympians; and the province denoted by χοροποιός here is thus limited by the context. So Pindar fr. 75 calls Pan χορευτὰν τελεώτατον θεῶν: and an Attic σκολιόν greets him as ὀρχηστά, βρομίαις ὀπαδὲ νύμφαις.
@@ -299,6 +308,8 @@ The draft had scrambled the middle of the ἰάψῃς paragraph (two lines inte
 29 λανθάνεται [greek] (Greek model: λανθάνεται.) → ok
 --- notes
 Draft's paragraph "**ΕῸΥ ὑπὲρ** with gen." joined back into the πελαγέων note (the print has "—For **ὑπὲρ** with gen."). The εὔγνωστος note was scrambled by the draft (two lines interleaved) and is rewritten from the column image. Read through: W. and E. (small capitals), Hor. *C.* 3. 7. 21, *Met.*, Latin quotations in italics, *Ant.* 105 (draft 108), Ἀπόλλων (draft ᾿Απόλλων), ἀγλαΐας, *Tr.* 11 n., γνωτός, *O. T.*, Classen on 1. 38 § 1 (draft 328), *Tr.* 654, κἀκ, *Pers.* 301 καὶ (draft kal), *Ph.* 1327, *Tr.* 17 (draft 77.), θοᾶν (draft βοᾶν), νηυσὶ θοῇσι πεποιθότες, *sc.*, *Tr.* 1021, italics throughout. ## 709 and ## 711: Jebb's numbers (his lines of the lyric hyporcheme); our text has no 709 or 711.
+heading: 702 f.
+heading: 709 f.
 
 === p-0196
 ## 712
@@ -329,6 +340,7 @@ Draft's paragraph "**ΕῸΥ ὑπὲρ** with gen." joined back into the πελ
 9 ueraβεβούλευται [mixed] → μεταβεβούλευται
 --- notes
 The draft headed this page's first note ## 711 (a repeat of p-0195's 711); the print has "712 f.": made ## 712. Read through: Dionys. *Ant.* 2. 3 ὁ πάντα (draft "2.30 πάντα"), MSS., **τε καὶ φλέγει** bold, *not*, *Ion* 782 (draft Zon), *Suppl.*, ‘has been converted from his anger.’ I cannot (draft ” and 1), *e.g.*, "view—that" (a dash at the line's start), "glosses μετέγνω and μεταβεβούλευται:", italics throughout. ## 716 and ## 717: Jebb's numbers (his lines of the lyric hyporcheme); our text has no 716 or 717.
+heading: 712 f.
 
 === p-0197
 + that the Chorus suppose Ajax to have been converted by themselves or Tecmessa: the cause is left indefinite.—The form **μετανεγνώθη** is preferred by Wecklein: Hesychius is, however, our only witness for it.
@@ -376,3 +388,4 @@ The third ἐπεισόδιον consists of two scenes. (1) 719—814. The messe
 22 στρατἤγιον [accent] (Greek model: ἥγιον) → στρατήγιον
 --- notes
 "§ 146)." stood as a false paragraph of its own in the draft: joined to its sentence. Read through: **θυμῶν** bold, MSS., μεταστῆναί τινος (draft Twos), Cp. 774: *Il.* 1. 283 (draft "774: 77. 1.283"), *Od.* 21. 377, *O. T.* 1234 f., *Tr.* 232 (draft 77.), *Eq.* 642 (draft 227.), Μυσίων..κρημνῶν (draft "Μυσίων... κρημνῶν"), *Il.* 7. 382, τε (draft Te), *Il.* 11. 807 f. (draft 7.), italics throughout. "headquarters": the print divides it at the line end as "head-|quarters"; whether Jebb hyphenates the word cannot be seen there, so the draft's "headquarters" is kept.
+heading: 720 f.

@@ -42,6 +42,7 @@ Third stasimon. 1st strophe, 1185—1191=1st antistr., 1192—1198: 2nd str. 119
 19 dpa [rare] → ἄρα
 --- notes
 The bold ἔχου (1181), δὲ and τε (1182) set in bold as printed; "ἀριθμός having …" and "τίς ἄρα ἡμῖν …" are not bold in the print (italic Greek after a dash): joined to their paragraph with the dash. The draft's "**ἔστ᾽**" / "**Ξ ἔστ᾽** dv" mended to the print's "ἔστ’=ἔστ’ ἄν". MSS. for "MsS.".
+heading: 1183 f.
 
 === p-0263
 + πότε λήξει ὁ ἀριθμὸς τῶν ἐτῶν ἐμοὶ πόνους παρασκευάζων; For **νέατος** in this sense, cp. *Ant.* 807 f.
@@ -112,6 +113,7 @@ The bold ἔχου (1181), δὲ and τε (1182) set in bold as printed; "ἀρ�
 --- notes
 Heading 1195 from the print's "1195 f." Lemmas set bold from the image (νέατος inside its paragraph, ἀν τὰν εὐρώδεα Τρωΐαν, δύστανον ὄνειδος Ἑλλάνων whole, κοινὸν Ἄρη, κεῖνος ἁνὴρ with the rough breathing of the crasis); "1107" in 1190 is the print's 1197; "apocopè" as printed; the draft's "6 ἀριθμὸς" is ὁ. Thuc.'s κοινῇ is letter-spaced in the print (emphasis), written plain. The Latin verses of Tibullus and Horace in italics as printed.
 ## 1188: Jebb's number; our text has no 1188.
+heading: 1195 f.
 
 === p-0264
 + is a parenthetic exclamation (cp. 173 f.): ‘Alas, those warlike toils (of the man who invented war), from which so many toils have sprung.’ Cp. the phrase in Plat. *Legg.* 928 E ξυμφοραὶ..ἔχθρας ἔκγονοι.—Dindorf writes ἰὼ πόνοι **πρόπονοι** (omitting πόνων, as in 1190 he reads ἀν’ εὐρώδη Τροΐαν), ‘toils pre-eminent among toils’: cp. Aesch. *Pers.* 987 κακὰ πρόκακα.
@@ -167,6 +169,7 @@ Heading 1195 from the print's "1195 f." Lemmas set bold from the image (νέατ
 26 1479) [conf] → 1479).
 --- notes
 The 1201 note was scrambled in the draft (the words of two lines interleaved): set in the print's order; νεῖμεν, τέρψιν and ὁμιλεῖν bold as printed; "Z. 2. 37" is *I.* 2. 37. In 1199 "this 15" is "this is", "ἃ. Wolff's" G. Wolff’s, "ἢ. on" n. on; kal → καί. "Ἄτ. Ack." is Ar. *Ach.*; "Symp. 2148" is *Symp.* 214 B; "1} and 13" is 1⅓ and 1½; "Τροΐαν" (1190 Dindorf) as printed. The dash before "Dindorf" and "Others" (English) kept in the paragraph.
+heading: 1203 f.
 
 === p-0265
 + ‘to pass the night in sweet repose.’ The inf. depends on νεῖμεν, with τέρψιν as cogn. acc.—The Homeric ἰαύω means, not ‘to *sleep*,’ but ‘to *pass the night*’ or ‘*bivouac*’: see, *e.g.* *Il.* 9. 325 ἀΰπνους νύκτας ἴαυον. It used to be connected with the rt. ἀϜ (ἄω), ‘breathe’: but Leo Meyer, who converted G. Curtius on this point, has shown that ἰαύω should be referred to a rt. ἀϝες, equivalent to the Sanskrit rt. *vas* (‘dwell’), whence the aorist ἄεσα, *Od.* 3. 151 νύκτα μὲν ἀέσαμεν (‘we abode’) χαλεπὰ φρεσὶν ὁρμαίνοντες. In the present ἰαύω ι is the reduplication. Curtius compares ἰ-ά-σκειν, an inchoative present from ἀγ, which Hesychius explains by ἄγειν. (See Curtius *Gk. Verb* pp. 197, 520, 543.)—ἰαύω occurs in post-Homeric Greek of the classical age only here and in Eur. *Ph.* 1537 f. δεμνίοις | ..ἰαύων. [Eur.] *Rhes.* 740 τὸν ὑπασπίδιον κοῖτον ἰαύει.
@@ -217,6 +220,7 @@ Remark the repetition of **τέρψιν** (after 1201): it recurs in 1216. See n
 --- notes
 "ἰαύω occurs in post-Homeric …" follows a dash in plain (italic) Greek, not bold: joined to the paragraph before with the dash. The draft's "ἀξ (dw)" is ἀϜ (ἄω): Jebb prints here an F of full height, and the small ϝ in ἀϝες. ἀΰπνους is letter-spaced in the print, written plain. "law ¢ is" → "ἰαύω ι is"; "(ἰά:σκειν" → ἰ-ά-σκειν; "from dy" → ἀγ; "deca" → ἄεσα; "Tov" → τὸν; "Dbe" → be; "Ὁ" (506 D, 74 B) set as the page letters D, B; "Hor..C" → Hor. *C.*; "ἐρώτων δ’, ἐρώτων" bold whole as printed; "προβολὰ" bold as printed; heading 1211 from "1211 ff.".
 Breathing remarks of the checker: "ἰ-ά-σκειν" (Jebb's divided form, ά a syllable inside it) and the letter ι named in "In the present ἰαύω ι is the reduplication" are as printed.
+heading: 1211 ff.
 
 === p-0266
 ## 1214
@@ -256,6 +260,8 @@ Breathing remarks of the checker: "ἰ-ά-σκειν" (Jebb's divided form, ά a
 --- notes
 "Her. 2. 66" is 65 in the print. Heading 1217 from "1217 ff."; ἀνειμένος and θανὼν (Eur. Ph. 947) letter-spaced in the print, written plain; "av To λόγῳ" → ἂν τῷ λόγῳ; "ἀνειμένον 7." → ᾖ.; "Zon" → *Ion*; "Dbe"/"Ὁ" → D (119 D); "vol. 11." → vol. II. (small capitals); "sth" → 5th; "o of ὑπὸ" → ο̄ (the print's omicron with a long mark). ἔπεστι bold inside its paragraph as printed; πόντῳ and πόντου there are in plain italic. The dash before "Sunium" (English) kept.
 Breathing remark of the checker: ο̄ is the letter named (the o of ὑπὸ), as printed.
+heading: 1214 f.
+heading: 1217 ff.
 
 === p-0267
 + glittering in the sun across the blue sea, they look like pillars of snow or salt, rather than stone’ (Mure, *Tour* II. p. 123). Cp. Eur. *Cycl.* 293 ἥ τε Σουνίου | δίας Ἀθάνας σῶς ὑπάργυρος πέτρα (where the epithet alludes to the silver-mines of Laurium). Poseidon also was worshipped at Sunium (Σουνιάρατε, Ar. *Eq.* 560): but Leake was disposed to think that he can have had an altar only, as the sole buildings traceable were the temple of Athena and the fortress erected on Sunium *circ.* 413 B.C. (*Demi* II. p. 64). Wordsworth, however, saw remains which, he thought, might be those of a Poseidonion (*Athens and Attica*, p. 177).
@@ -333,6 +339,9 @@ The *exodos* falls into three parts. 1. The scene between Teucer and Agamemnon: 
 45 acc, [conf] → acc.,
 --- notes
 The draft's "## 1223 / 1420 The exodos …" made the range note's heading ## 1223-1420 (the print's "1223—1420"); then "1223 ff. καὶ μὴν" is ## 1223. The 1223 note cut at each dash before bold Greek (ἡμῖν, δῆλος, μοὐστὶ, σκαιὸν..στόμα, ἐκλύσων). The fragment Eur. fr. 290 was scrambled in the draft (words of two lines interleaved): set from the image. "Aesch. Zum. 207" is *Eum.* 297; "Aen. 3. 324" is 3. 524; "Ar. Eg. 3560" is *Eq.* 560; "6 λόφος" is ὁ; "Demi 11." is II.; "N.w." is N.W.; "with ws added" ὡς; Pausanias's ἀπὸ Σουνίου προσπλέουσιν and the γένοιτο, γνοῖεν of Ph. 324 are letter-spaced in the print, written plain. The new paragraph "Pausanias says …" stays under 1221 (an indented paragraph without a number).
+heading: 1221 f.
+heading: 1223 ff.
+heading: 1226 f.
 
 === p-0268
 + addressed, is sometimes used even without a governing verb, as in *Ant.* 441 σὲ δή, σὲ τὴν νεύουσαν ἐς πέδον κάρα, | φής, κ.τ.λ.
@@ -401,6 +410,8 @@ The draft's "## 1223 / 1420 The exodos …" made the range note's heading ## 122
 --- notes
 Headings 1229, 1232 from "1229 f.", "1232 f.". In "τὰ δεινὰ ῥήματ’" and "χανεῖν ῥήματα" only the first words are bold in the print (ῥήματ’, ῥήματα in plain italic). The draft's "Ζγ122ε716, like ἀκλαύστῳ in 2). 012" is "*impune*, like ἀκλαύστῳ in *El.* 912"; "ends in υ, not εὐ" is "in **ι**, not **ει**" (bold in the print); "-os" is -ος; "σέτοι" is σέ τοι; "Libanius 4. 102" is 4. 162; "De Soman. 1 6o" is *De Somn.* 1. 60; "(1103)" is 1105; "Menelaiis" is Menelaüs; "ἢ. on", "η." are n.; "z. ὦ." is *v. l.*; "fx." is fr.; "ws" ὡς. Bold τοῦ μηδὲν..ὕπερ inside its paragraph as printed.
 Breathing remarks of the checker: **ι**, **ει** and -ος are letters and an ending named, as printed.
+heading: 1229 f.
+heading: 1232 f.
 
 === p-0269
 + sailed from Salamis at the summons, or under the command, of Menelaüs (1097, 1111 f.).
@@ -464,3 +475,4 @@ Breathing remarks of the checker: **ι**, **ει** and -ος are letters and an 
 --- notes
 "(cp. O. T. 230 n.)" is 239 in the print; "Menelaiis" is Menelaüs; "TO πρᾶγμα" τὸ; "ete." etc.; οὐδὲ bold, σοῦ plain italic (as printed); "between ¢ and v" is "between ι and υ"; "15 not" is "is not"; "(71. 9. 49)" is *Il.* 9. 49; *Hom. hymn. Apoll. Pyth.* all italic as printed; "τότε: 650 n. ; ;" stray marks removed; the stray "=" before "Similarly" (1234) removed; οὑδυσσεὺς with the rough breathing of the crasis as printed. Headings 1239 from "1239 f.".
 Breathing remarks of the checker: ι and υ are letters named ("between ι and υ"), as printed.
+heading: 1239 f.

@@ -43,6 +43,7 @@
 --- notes
 Heading "372 ff." → ## 372. Further lemmas ὃς and χερὶ μὲν μεθῆκα cut into paragraphs (bold after a dash); χερὶ inside the paragraph bold as printed. Read-through: θεών → θεῶν; § χρό → § 296; 77. τι. → Il. 11.; Ξε ποίμνιον → =ποίμνιον; 77. 848 → Tr. 848; dv → ἂν; il → it; italics set.
 372	rev: lemma ὦ δύσμορος → ὢ δύσμορος, and "ὦ μέλεος, where ὦ is exclamatory" → ὢ (smooth breathing and grave, as printed; only the vocative sign "(ὦ)" has the circumflex)
+heading: 372 ff.
 
 === p-0151
 + (2) οὐκ ἂν γένοιτο ὅπως τοῦτο οὐχ ὧδ’ ἕξει,—with the same meaning: cp. *O. T.* 1058 f. οὐκ ἂν γένοιτο τοῦθ’, ὅπως ἐγὼ . . | . . οὐ φανῶ τοὐμὸν γένος. In other words, the constr. would be plain if **ὅπως** were struck out. The irregular presence of ὅπως is due to its association with statements of impossibility in the formula οὐκ ἔστιν ὅπως οὐ (*O. C.* 97, *El.* 1479): its *place* is explained by the analogy of such a sentence as *O. T.* 1058 οὐκ ἂν γένοιτο τοῦθ’, ὅπως κ.τ.λ., where τοῦτο is subject to γένοιτο. The declension of οὐδεὶς-ὅστις-οὐ, as an integral equivalent for πᾶς τις, similarly illustrates the manner in which the associations of idiom could sometimes generate anomalies in grammar.
@@ -84,6 +85,7 @@ For the sentiment, cp. *Tr.* 742 τὸ γὰρ | φανθὲν τίς ἂν δύ
 15 κιτλ [greek] (Greek model: κιτιλ.) → κ.τ.λ.
 --- notes
 The draft broke the (2) clause and lost "—with": joined as printed. "For the early repetition…" follows a dash with English: back into the 381 paragraph (the draft had made it a lemma "βοσ"). 382 lemma ἦ που restored; ἄγεις after the dash a new paragraph. Bold ὅπως, τ’, δ’ inside paragraphs as printed. Read-through: ‘ambush.” → ’; del → ἀεὶ; τ΄ → τ’; ἂν for av; ὅστιςοὐ → ὅστις-οὐ; 77. 742 → Tr. 742; Pind. 2. 9. 33 → Pind. P. 9. 33; italics set.
+heading: 379 f.
 
 === p-0152
 + doctrine. ὁ θεός often means ‘the divine power’ generally: *e.g.* frag. adesp. 471 ὁ γὰρ θεὸς μέγιστος ἀνθρώποις νόμος: and 496. 2 πόρρω γὰρ ἑστὼς ὁ θεὸς ἐγγύθεν βλέπει. And this very phrase, σὺν τῷ θεῷ, occurs once, at least, in a passage where the context plainly indicates that the sense is general, viz. Eur. fr. 490 σὺν τῷ θεῷ χρὴ τοὺς σοφοὺς ἀναστρέφειν | βουλεύματ’ ἀεί. There, indeed, as here, Nauck changes τῷ to τοι, but without any warrant.
@@ -111,6 +113,7 @@ The draft broke the (2) clause and lost "—with": joined as printed. "For the e
 13 ‘ancestors. [conf] → ‘ancestors.’
 --- notes
 The draft had run the note on 386 into the ἴδοιμι paragraph ("perhaps 386 that μηδὲν of Apitz …"): rebuilt from the image as Apitz's conjecture (ἴδοιμί νύν νιν, νύν bold) and a new note ## 386 μηδὲν μέγ’ εἴπῃς. Heading "387 f." → ## 387. Read-through: frag. adesp. 406. 2 → 496. 2; yap → γὰρ; Mss. → MSS.; Il. 21. 180 → 21. 189; πάτερ and χεροῖν bold as printed; italics set.
+heading: 387 f.
 
 === p-0153
 + thought, ‘author of my line’; he did not trouble himself with this subtlety.—It was the nymph Aegina who bore Aeacus to Zeus (Plat. *Gorg.* p. 526 E: τὸν δικαστὴν τὸν τῆς Αἰγίνης υἱόν).
@@ -159,6 +162,9 @@ The draft had run the note on 386 into the ἴδοιμι paragraph ("perhaps 386
 --- notes
 Headings "389 f.", "394 f.", "396 f." → ## 389, ## 394, ## 396. "etc.—βασιλῆς" is a further lemma after a dash: new paragraph (the draft had "εἰο." and joined it). In 394 ἔρεβος (after a colon) stays bold in its paragraph; ὡς ἐμοί after the dash a new paragraph. Read-through: Tov → τὸν; 15 → is; ἐᾶς → -έᾱς (macron as printed); 1.1 8 2 → 1. 1 § 2; ξι. 157 → El. 157; ws → ὡς; Sop/. → Soph.; itis → it is; italics set.
 "ευ", "-έᾱς", "-εῖς", "-ῆς" are stems and endings Jebb names ("ευ stems", "the contraction in -εῖς (not -ῆς)"), printed without breathing: kept as printed (the checker's four remarks).
+heading: 389 f.
+heading: 394 f.
+heading: 396 f.
 
 === p-0154
 ## 398
@@ -201,6 +207,10 @@ Headings "389 f.", "394 f.", "396 f." → ## 389, ## 394, ## 396. "etc.—βασ
 Headings "398 ff.", "401 f.", "403 f.", "405 ff." → ## 398, ## 401, ## 403, ## 405. 401: lemma restored (the draft had "ff a Διὸς.. θεὸς" as plain text); ἄξιος and βλέπειν (after dashes) and ὀλέθριον are further lemmas. Bold inside paragraphs as printed: ὄνασιν, εἰς, οὔλιον, τοῖσδ’, τινα, ὁμοῦ πέλας, τοιοῖσδ’. Read-through: xw → χὢ; € in 77. 845 → ε̆ in Tr. 845; 76. 878 → ib. 878; 77. 973 → Tr. 973; φύγῃ... μενῶ; Twa of of- Twa → τινα of οὔτινα; a → α; οὔτιν’ a → οὔτιν’ ἁ (rough breathing as printed); ~— → ⏑ –; "merits," → "merits."; "ἐξερῶ," → "ἐξερῶ."; italics set.
 "ε" (twice) and "α" are the letters Jebb names ("the ε is long", "we find ε̆", "the α, being the last syllable"), printed without breathing: kept (the checker's three remarks).
 401	rev: χὢ → χὠ (coronis only, no grave, as printed)
+heading: 398 ff.
+heading: 401 f.
+heading: 403 f.
+heading: 405 ff.
 
 === p-0155
 + be: ‘If those things (τὰ μὲν, his glories in the past) perish, my friends, ὁμοῦ τοιοῖσδε, *along with* (*i.e.*, by the slaughter of) such creatures, πέλας, near me there’. But πέλας may have been a marginal gloss (on ὁμοῦ), which has displaced some other word: *e.g.*, the poet may have written **τοιοῖσδ’ ὁμοῦ βοτοῖς** (cp. v. 453).
@@ -273,6 +283,7 @@ As I have noted in writing on the Troad elsewhere, ‘nearly all the plains and 
 10 life.’ [conf] → ok
 --- notes
 Headings: "417 f." → ## 417. 413: lemma γέμος → νέμος. 414: pe → με; δὴ after the dash a new paragraph (δαρόν bold as printed). 416: the draft split the lemma from "=ἔμπνουν ὄντα": joined, = closed up as printed. πάραλα ἄντρα bold as printed. Read-through: ‘sea,” → ’; ὧν → *by*; "— The" → "—The"; Encyc. Brit. italic; italics set.
+heading: 417 f.
 
 === p-0157
 + northward into the plain of Troy. On the confines between the two plains, where the river winds in large curves through deep gorges in limestone rocks, its scenery is striking. From the south border of the Trojan plain to the Hellespont, the Mendere has a course of between seven and eight miles.
@@ -322,3 +333,6 @@ This vaunt of Ajax (modified only by the half-apologetic ἔπος ἐξερῶ 
 22 to [conf] → ok
 --- notes
 Headings "421 f.", "423 ff.", "428 f." → ## 421, ## 423, ## 428. 423: χθονὸς … Ἑλλανίδος (after a dash) a new paragraph, the lemma with its verse-division stroke as printed and Ἑλλανίδος inside the bold; οὔτινα, στρατοῦ, ἐξερέω, πρόκειται, ἄνδρα . . τόνδε, οὐ . . οὔτε bold as printed. Read-through: ‘…me.” → ’; ‘Ελλανίδος → Ἑλλανίδος; £7. 178 → El. 178; 77.639 → Tr. 639; — ~ — → – ⏑ –; 77. 510 → Tr. 510; Od. g. 19 → Od. 9. 19; 77. 1101 → Tr. 1101; Ξ ἐμοὶ → =ἐμοὶ; und’ → μηδ’ (unaccented as printed); Mss. → MSS.; italics set. Flag 15 was listed as "2." for the draft's "2. 4." (v. l.).
+heading: 421 f.
+heading: 423 ff.
+heading: 428 f.

@@ -101,6 +101,7 @@ Others take the gen. as depending on **ἀπείργω**, placing a comma after 
 14 ZL [latin] (Greek model: ΙΖ) → *Il.*
 --- notes
 53: the draft had split "πρός τε ποίμνας=πρὸς ποίμνας τε" into two paragraphs; joined, only "πρός τε ποίμνας" bold as printed (the heading is "53 f.").
+heading: 53 f.
 
 === p-0104
 + the *oxen* are more especially so called, because they were to be shared among individual chiefs or others, while the *flocks* were kept for the public maintenance. With **ἄδαστα** here, cp. 146 λοιπή, and 175 πανδάμους (n.).
@@ -148,6 +149,7 @@ Others take the gen. as depending on **ἀπείργω**, placing a comma after 
 55: the draft had cut "ἔκειρε—πολύκερων: cp. 528, 1112: O. T. 370 n." off as a lemma; the Greek is in plain italic type and stays in the paragraph; the bold lemma πολύκερων φόνον that follows begins the new paragraph (the draft had lost it).
 56: heading printed "56 f.". 60: lemma ὤτρυνον (the draft's ὄτρυνον) from the image.
 Breathing remarks (-ως, -ων, ω, ε): endings and letters cited by Jebb without breathing, as printed.
+heading: 56 f.
 
 === p-0105
 + τῆς Δίκης ἐν ἕρκεσιν. Here it is the epithet κακά which marks the figurative sense of ἕρκη: as dirges are ὕμνοι ἄλυροι (Eur. *Alc.* 447), and the eagle of Zeus is πτηνὸς κύων (Aesch. *P. V.* 1022). For the similar use of other words denoting nets or toils, see on *El.* 1476 ἀρκυστάτοις.
@@ -200,6 +202,7 @@ Breathing remarks (-ως, -ων, ω, ε): endings and letters cited by Jebb with
 64: the draft read "see on 335"; the print has "see on 55" (the note on πολύκερων).
 64: "ἄνδρας=ἀνθρώπους" is one paragraph, only ἄνδρας bold (the draft had split it).
 66: heading printed "66 f.".
+heading: 66 f.
 
 === p-0106
 **ἀποστρόφους**, proleptic: cp. *Ant.* 791 σὺ καὶ δικαίων ἀδίκους φρένας παρασπᾷς. Here the adj. is equiv. to ἀποστρέψασα,—‘I will avert, and (thereby) hinder.’
@@ -260,6 +263,7 @@ The page begins with a new, indented paragraph (ἀποστρόφους, on v. 6
 The draft had run the columns together in the lemmas ἀπείρξω..εἰσιδεῖν and σὲ τὸν κ.τ.λ.; both paragraphs rewritten from the image. "(85)", not the draft's "(83)".
 71: heading printed "71 f.".
 Checker remark (no heading, no `+ `): the page begins with a new, indented paragraph (ἀποστρόφους, v. 69) of the note 68—70 on p-0105, as the brief prescribes for such a page.
+heading: 71 f.
 
 === p-0107
 + μὴ τὸ μηδὲν ἄλγος εἰς μέγ’ οἴσετε; ‘Come, go thou into the house...and forbear to make much of a petty grief.’ See Appendix.
@@ -432,3 +436,5 @@ Ajax enters from the tent, carrying the heavy, blood-stained thong, with which h
 --- notes
 92: heading printed "92 f.", 94 "94 f.". 92: "cp. 117" (the draft's "τι."); Aesch. Th. 278 δᾴων, Agam. 577 ff. (draft "8{..") from the image.
 Breathing remarks (οντ, -αν): stem and ending cited without breathing, as printed.
+heading: 92 f.
+heading: 94 f.

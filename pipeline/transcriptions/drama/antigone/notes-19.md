@@ -65,6 +65,8 @@ Printed "παγκαλαύτοις" in 831 (an evident misprint: the reading disc
 828: our text has no 828 (Jebb's longer lyric lines); Jebb's number kept. Printed "828 ff.".
 Checker: "αῐ" is a pair of letters named ("For αῐ in πετραία"), printed without breathing.
 826	rev: "αϊ" corrected to "αῐ" (the print has a breve over the ι, not a diaeresis)
+heading: 826 f.
+heading: 828 ff.
 
 === p-0221
 + a woman seated on a throne. (See Stark, *Niobe*, pl. 1, Leips. 1863: cp. Baumeister, *Denkm.* p. 1029). Prof. W. M. Ramsay, however, holds that this image is the ‘very ancient’ ἄγαλμα of Cybele mentioned by Paus. 3. 22. 4. In two respects it differs from the ancient accounts of the Niobe (quoted below): (*a*) it does not ‘weep,’—for the rain-water drops from the front of the niche, clear of the figure; and (*b*) the likeness to a human form grows, instead of vanishing, as one approaches. (*Journ. Hellen. Studies* III. 61 ff., 1882.) This has been confirmed by another traveller, Herr Schweisthal (as reported in the *Berl. Phil. Wochenschr.*, May 28, 1887, p. 704). He finds the true Niobe at no great distance from the Cybele, but nearer Magnesia, and in the vicinity of a stream (the Jarikkaia) which Humann, in his ‘Excursion into Sipylus’ (1881), had already identified with the Achelous of *Il.* 24. 616. It is a natural phenomenon,—the semblance—as seen from a distance—of a draped woman, seated high on the rocks; she looks towards the right, and lifts her right arm, as if in lament.
@@ -198,6 +200,7 @@ The dash printed at the foot after "(λυγροτάταν)." introduces the bold
 846: our text has no 846 (Jebb's longer lyric lines); Jebb's number kept.
 844: printed "844 f.".
 Checker: "ῑ", "ᾱ", "ῐ" are letters named (the quantity of ι in ἰσόθεος, of α in ἀθάνατος), printed without breathing.
+heading: 844 f.
 
 === p-0224
 ## 847
@@ -287,6 +290,8 @@ The page begins with a further lemma of 847 (after the dash at the foot of p-022
 --- notes
 "853 ff." is the heading `## 853`.
 857: printed "857 ff.".
+heading: 853 ff.
+heading: 857 ff.
 
 === p-0226
 + to taking οἶκτον as acc. in apposition with ἔψαυσας...μερίμνας is that this would imply τό (σε) ψαῦσαι ἀλγ. ἐμοὶ μερίμνης οἶκτός ἐστιν: as Eur. *Or.* 1105 Ἑλένην κτάνωμεν, Μενέλεῳ λύπην πικράν, implies, τὸ Ἑλένην κτανεῖν Μενέλεῳ λύπη πικρὰ ἔσται: Aesch. *Ag.* 224 ἔτλα δ’ οὖν | θυτὴρ γενέσθαι θυγατρός, γυναικοποίνων πολέμων ἀρωγάν, implies, τὸ θυτῆρα γενέσθαι ἀρωγὴ ἦν. Now, if we had, for instance, ἀνεμνήσθην μερίμνης, it is conceivable that οἶκτον, as acc. in appos., should mean οἴκτου ἀφορμήν or ἔγερσιν. But when, as here, the subject of ἔψαυσας is distinct from the person who makes the lament, it seems impossible that οἶκτον should have this pregnant sense.
@@ -397,3 +402,5 @@ The draft's heading "## 858" is "863" in the print: made `## 863`. The draft had
 "*O. T.* 754" in 866 (the draft had 734).
 870: our text has no 870 (Jebb's longer lyric lines); Jebb's number kept.
 864, 866: printed "864 f.", "866 f.".
+heading: 864 f.
+heading: 866 f.

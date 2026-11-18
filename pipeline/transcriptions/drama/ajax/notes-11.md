@@ -47,6 +47,7 @@
 25 Pp. [conf] → p.
 --- notes
 ## 554: Jebb prints "554 b" (the bracketed verse after 554); heading without the letter. Lemma bracket printed outside the bold, κ.τ.λ.] plain. Read through: ἄν, *Ph.* 764, *Tr.* 148 (draft 77.), Cp. 1365, *Ph.* 54 f., *Od.*, *ib.* 230 (draft 74.), καὶ, ὡς τὸ (draft ws TO), MS. (draft Ms.), vol. II. (draft 11.), φίλῃ παρὰ μητρὶ | (stray ]), βίῃ·, δὴ..τέλος, Latin quotation in italics, italics throughout; the further lemmas δεῖ σ’ ὅπως..δείξεις and ’τράφης (bold after a dash) made paragraphs under ## 556 ("556 f." in print).
+heading: 556 f.
 
 === p-0175
 + πνεύματος ἐπιρροῇ ἀέρα ὑγρὸν ἕλκοντες ὥσπερ νήπιοι παῖδες. Pliny *H. N.* 18. 34 *Zephyrum dicit in plantas nutricium exercere.* Lucian *Bis accus.* § 1 τοὺς ἀνέμους φυτουργοῦντας. We might add Catull. 62. 39 *ut flos.. | Quem mulcent aurae, firmat sol, educat imber.*
@@ -121,6 +122,8 @@ It is strange that exception should have been taken to the parenthetic **οἶδ
 30 ὅπως... [conf] → ὅπως..
 --- notes
 Further lemmas after a dash in bold made paragraphs: νέαν ψυχὴν ἀτάλλων (under the run-on note 558), οὔτοι..μή, πυλωρὸν, θήραν ἔχων (wrongly left in the paragraph by the draft), χάριν. The draft had split "—The conjecture **χαρμονή** is no gain." into a false lemma paragraph: joined back; κεἰ (bold, after "n.)—") made a paragraph too. Read through: αὑτοῦ, ἀτάλλων ×2, ἀτάλλοισα... | ἐλπίς, ὣς, Andromachè, *Tro.* 956 (draft 770.), *I. T.* 1227, ἔμπᾱν (macron printed), *O. T.* appendix on v. 305 (draft 308), p. 224, ὤψ (draft wy), ἁλίως, italics throughout. Headings: "565 f." → ## 565, "567 ff." → ## 567. "α *privativum*": the bare letter α as printed (the name of the prefix), no breathing.
+heading: 565 f.
+heading: 567 ff.
 
 === p-0176
 + clause to ἀγγείλατ’ ἐντολήν. A final clause, ὅπως..δείξῃ, would be less fitting here.
@@ -172,6 +175,8 @@ No correction is very probable. We cannot read μήθ’ ὁ λυμεὼν ἐμ
 23 f£. [conf] (Greek model: :) → f. (heading ## 575)
 --- notes
 The draft's paragraph on 572 (Hipp./Theocr. parallels) was garbled by the OCR (the two columns' lines interleaved: "W 683 off Ζεύς would σ᾽ omit …"): retyped from the image. The draft's 574 note ("due 574 to the αὐτό, place that,—with …") was garbled likewise: retyped, heading ## 574 made, and ἐπώνυμον (bold after a dash) made a paragraph. The text from "She is called Periboea" was interleaved ("Pindar mentions 43). She her is called …"): retyped. Read through: Dem. or. 19 (draft 10), Alcathoüs, (*I.* 5. 45), Tov → τὸν, *Phil.*, *Philoctetes* italic, *Od.* 11. 546, ἀγωνάρχαι made a paragraph (bold after dash), "=" closed up, ἐμοὶ (Schaefer’s remedy, grave as printed) and ἐμοί (the dat.), ῥάκος. Headings "572 f." → ## 572, "575 f." → ## 575.
+heading: 572 f.
+heading: 575 f.
 
 === p-0177
 + must be interpreted by the usage of the poet’s day, not by Homeric practice. The πόρπαξ may be seen on shields depicted in Greek vase-paintings; an example is reproduced in Smith’s *Dict. of Antiquities* (3rd ed., vol. I. p. 459, art. *clipeus*). It was a leathern thong, running round the inner edge of the shield, and fixed at intervals of six inches or so by pins or nails, so as to form a succession of loops. The name, πόρπαξ, was derived from these pins (πόρπαι), which could be taken out, when it was wished to remove the πόρπαξ and so to unfit the shield for immediate use. (It is made a charge against Cleon in Ar. *Eq.* 849 that he had dedicated the shields taken at Pylos αὐτοῖσι τοῖς πόρπαξιν.)
@@ -253,6 +258,7 @@ Read through: *Dict. of Antiquities*, *clipeus*, vase-painting (hyphen printed, 
 23 implied [conf] → ok
 --- notes
 Heading "579 ff." → ## 579. The 581 note was garbled by the OCR (lines interleaved: "close,” 681 ‘cover πύκαζε: up’) the is …"): retyped from the image, heading ## 581 made. The draft's paragraph "θρηνεῖν ov πρὸς ri ἰατροῦ Ἐμὲ …" was the garbled line "οὐ πρὸς ἰατροῦ: for the prep., cp. 319.": retyped as its own paragraph (an indented bold lemma). Read through: Her. 2. 96 (draft 2. 6), *Vesp.*, *Lys.*, *at*, Pollux 10. 27 (draft ro.), *Il.* 22. 88, *H. F.* 536 (draft 27. F.), *El.* 1035, *I. T.* 486, *Tr.* 1000 (draft 77.), the extra space in "χειροτέχνης  ἰατορίας" mended with the printed " | ", "=" closed up throughout.
+heading: 579 ff.
 
 === p-0179
 + *Lexiphanes* 4 τὰ ὄμματά μοι φαρμακᾷ,=δεῖται φαρμάκων. Ov. *Met.* 1. 190 *Cuncta prius tentata; sed immedicabile vulnus | Ense recidendum est, ne pars sincera trahatur.*
@@ -325,6 +331,9 @@ The division of the verse between two speakers (ἀντιλαβή) is here used 
 29 : [conf] → ok
 --- notes
 The 587/589 notes were garbled by the OCR (lines interleaved: "589 Pk. f. ἄγαν 773 (μὴ) γε λυπεῖς …"): retyped from the image, heading ## 589 made ("589 f."). "κρῖνε=ἀνάκρινε" and "ξυνέρξεθ’,=συγκλείσετε" (the draft had cut them into two paragraphs at the "=") joined as printed. Further lemmas after a dash made paragraphs: ἀρέσκει, τεθηγμένη, φρενί, μὴ προδοὺς γένῃ, ἀρκεῖν, ὀφειλέτης (at the top of the right column), τοῖς ἀκούουσιν λέγε. Read through: *Lexiphanes*, φαρμακᾷ,=δεῖται, the Latin in italics, *ib.* 106 (draft "120. τοῦ"), *Vesp.*, *Th.*, *Ran.*, Theocr. 15. 90 (draft go), *Hercules Furens* (draft "2727- cules"), ΘΗ. … ΑΜΦ. (draft OH., AMP.), *Ph.* 1407.
+heading: 583 f.
+heading: 587 f.
+heading: 589 f.
 
 === p-0180
 + he had used ἔρξεις as fut. of ἔρδω. (In *Tr.* 83 ξυνέρξων is fut. of ξυνέρδω.) The command is given to the πρόσπολοι (544).
@@ -437,3 +446,4 @@ For other views of the passage, and other emendations, see Appendix.
 24 Αἰιδαν [greek] (Greek model: “Αιδαν:) → Ἅιδαν:
 --- notes
 The last word is divided between pages: "per-|sonification" (p-0182) written whole here. Bold inside paragraphs as printed: μίμνων, μηνῶν (twice), ἔπαυλα, μήλων, κακάν. Numbered point "3." a paragraph of its own. Further lemmas after a dash made paragraphs: με, ἀνύσειν..Ἅιδαν. Read through: *Tr.* 247 (draft 77.), *Ph.* 144 f. (draft 1441.), *Il.* 10. 408 (draft τῷ. το.), τε καὶ εὐναί (draft Te kal eval), *The Lotos-Eaters* (draft "Z%e Lotos- Eaters"), the Tennyson quotation's marks ‘“…” | “…” | … afternoon.’, 1382 (draft 138%), *Tr.* 706 and 657 (draft 77.), Ἅιδαν with rough breathing throughout, *Suppl.*, ἀπότροπον (n.).
+heading: 607 ff.

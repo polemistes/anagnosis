@@ -46,6 +46,7 @@
 --- notes
 Read through against the columns: the draft had run lines of the right column into the left (35, 40); rewritten in the print's order. 1020 → 1026; *Tr.* 357; n. on *O. C.* 435; δύσποτμος; ταῦτα... | ...τῇδε; italics set.
 35	rev: Isocr. quotation "σφᾶς αὑτοὺς": rough breathing as printed (enlarged; draft had αὐτοὺς)
+heading: 37 f.
 
 === p-0085
 + the poet has refined a colloquialism by modifying ἅπτουσα into ἐφάπτουσα, just as τί δρῶν ἢ τί λέγων (cp. Aesch. *P. V.* 660) appears in *O. T.* 71 as ὅ τι | δρῶν ἢ τί φωνῶν. Some find a reference to weaving;—‘by loosening the web, or fastening a new thread’; but, though the phrase may have been first suggested by the loom, it was probably used without any such conscious allusion. Quite different from our passage is *Ai.* 1317 εἰ μὴ ξυνάψων ἀλλὰ συλλύσων πάρει, ‘not to embroil the feud, but to help in solving it’: cp. Eur. *Hipp.* 670 τίνας νῦν τέχνας ἔχομεν ἢ λόγους | σφαλεῖσαι κάθαμμα λύειν λόγου; ‘to loose the knot of controversy.’—Another view makes the phrase refer to Creon’s edict: ‘seeking to undo it, or *to tighten it*,’—*i.e.* to break it, or to make it more stringent than it already is (schol. λύουσα τὸν νόμον, ἢ βεβαιοῦσα αὐτόν). But, though Antigone has not yet revealed her purpose, too great callousness is ascribed to Ismene if she is supposed to doubt whether her sympathy is invited against or *for* such an edict.—The *act.* ἐφάπτειν is rare: *Tr.* 933 τοὔργον ὡς ἐφάψειεν, that he had imposed the deed on her (by his fierce reproaches): Pind. *O.* 9. 60 μὴ καθέλοι νιν αἰὼν πότμον ἐφάψαις | ὀρφανὸν γενεᾶς. Was Porson right in conjecturing **εἴθ’ ἅπτουσα**? For it, we may observe:—(1) An opposition of the simple λύειν and ἅπτειν suits a proverbial phrase: (2) ἢ and εἰ are elsewhere confused, as *O. C.* 80 (n.): (3) the single εἴτε is found in *O. T.* 517 λόγοισιν εἴτ’ ἔργοισιν, *Tr.* 236 πατρῴας εἴτε βαρβάρου; Against the conjecture is the fact that εἴθ’ ἅπτουσα would have been much less likely to generate the ἢ θάπτουσα of our MSS., since the intermediate εἰ θάπτουσα, being obviously unmeaning, would have been likely to cure itself.
@@ -108,6 +109,8 @@ Read through against the columns: the draft had run lines of the right column in
 --- notes
 Read through: 41 f. and 43 f. lemmas read from the image (the draft had "ξ." and "Παπά"); Aesch. *P. V.*, *Ai.*, *Tr.*, Pind. *O.*, *O. T.* 517; 5106 → 516; bold inside paragraphs (ποῦ, ποῖ, ξὺν τῇδε χερί, εἴθ’ ἅπτουσα, ἐφάπτειν) as printed; italics set.
 40	rev: "The *act.* ἐφάπτειν is rare": ἐφάπτειν is in the ordinary sloping Greek (heavy ink), not the bold face: bold taken away
+heading: 41 f.
+heading: 43 f.
 
 === p-0086
 ## 45
@@ -149,6 +152,7 @@ Read through: 41 f. and 43 f. lemmas read from the image (the draft had "ξ." an
 29 (\/oxe, [conf] (Greek model: (ψσχε,) → (√σχε,
 --- notes
 Right column of this page rewritten in the print's order (the draft had interleaved its lines: "by 583 f. and 599 ff.", "(*b*) **οὐ γὰρ δή** … *O. T.* 576"). The draft's new paragraph at "—Two other versions" was a dash before English: joined. v. 43 → v. 45 (print). ἢν (twice, grave) and ἤν (twice, acute) checked on enlarged crops: as printed.
+heading: 45 f.
 
 === p-0087
 + σχετλία τόλμης. (*b*) ‘Suffering,’=τλήμων, as Aesch. *P. V.* 644 (of Io), Eur. *Hec.* 783. Neither Homer nor Soph. has this use. (2) Of *things*, ‘cruel,’ ‘wretched,’—a use common to all the poets: so *Ai.* 887 σχέτλια γάρ (‘tis cruel’), *Tr.* 879.
@@ -211,6 +215,9 @@ Right column of this page rewritten in the print's order (the draft had interlea
 31 (1) [digit] → ok
 --- notes
 Read through: 12064 → 1264; "Cp. on 36" → 56 (print); (*b*) ‘Suffering,’=τλήμων; αὐτουργῷ; italics set (*Odyssey*, *Antigone*, *Oedipus at Colonus*, *Oed. Tyr.*, Seneca's Latin). "αὐ-" at the foot written whole (αὐτοσφαγής).
+heading: 51 ff.
+heading: 53 f.
+heading: 55 f.
 
 === p-0088
 + αὐτοφόνος, etc. The compound merely expresses that the deed is done with one’s own hand, implying that such a use of one’s own hand is unnatural. The object of the deed may be one’s own life, or another’s. This ambiguity of the compound is illustrated by 1175 f. αὐτόχειρ δ’ αἱμάσσεται.—ΧΟ. πότερα πατρῴας ἢ πρὸς οἰκείας χερός; ‘by his father’s hand, or by his own?’
@@ -323,6 +330,9 @@ The draft had run the right column's lines into the left at 1175 f. ("τόχει
 --- notes
 Rewritten in the print's order: the draft had interleaved lines of the two columns at 60 (κράτη, the disjunctive ἢ) and 63 (*Ph.* 607, *Ai.* 1235). Lemma **βιάζομαι τάδε** read from the image (draft "βιάζομαι Ta de"). 4]50 → also; μ41 → 441; *O. C.* 392 n.; *El.* 264, *El.* 1419, *El.* 841, *Tr.* 1097 set.
 65	rev: the right column's last printed line "219." (cut off the column crop) added from the page: "and below, 219."
+heading: 61 f.
+heading: 63 f.
+heading: 65 f.
 
 === p-0090
 ## 67
@@ -382,6 +392,8 @@ Rewritten in the print's order: the draft had interleaved lines of the two colum
 38 El. [conf] → *El.*
 --- notes
 Read through; the draft's first note had the lemma split from its line (cut at "="): rejoined as **τοῖς ἐν τέλει βεβῶσι**=τυράννων in 60. The cut at "δρᾶν,—πολλὰ πράττειν" was the OCR's "=" (Greek in plain type): joined as "δρᾶν,=πολλὰ πράττειν". "οὐκ ἔχει νοῦν οὐδ." with its "=" rejoined. «412, 1352 → *Ai.* 1352; 6η.4 → 674; τών → τῶν; ἡδέως γε ἂν ἐμοῦ κ.τ.λ. in bold as printed; "Π]Π1" → him; "1’, 5 πον" → show. "μέ-" at the foot written whole (μένειν), with the colon after it.
+heading: 67 f.
+heading: 69 f.
 
 === p-0091
 + *O. T.* 435 ἡμεῖς τοιοίδ’ ἔφυμεν.
@@ -439,3 +451,6 @@ Read through; the draft's first note had the lemma split from its line (cut at "
 28 ih. [conf] → *ib.*
 --- notes
 New heading ## 74 (Jebb's "74 f." before ὅσια πανουργήσασ’, missed by the draft). Draft's "ἔσθ’ ὁποῖά" → ἴσθ’ (print); "Ζ 2. 1055" → *El.* 1055; 655 → 625; "Ὁ. C. 554" → *O. C.* 554; Polyb. "το" → 10; **μετ’ αὐτοῦ κείσομαι** made a paragraph (bold after a dash); bold **ὅσια**, **μετά**, **σὺ δ’**, **εἰ δοκεῖ** as printed; italics set.
+heading: 72 f.
+heading: 74 f.
+heading: 76 f.

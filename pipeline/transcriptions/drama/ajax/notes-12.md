@@ -41,6 +41,7 @@ Prof. Campbell pronounces this interpretation ‘untenable,’ and renders ἔφ
 612: the lemma ends the note at "from herself.’"; Jebb's further bold lemmas after dashes (πρὶν δή ποτε, Ἄρει) made new paragraphs; ξύναυλος: only the Greek word is bold, (αὐλή) plain.
 run-on	rev: "as = ἀφανῆ" made "as=ἀφανῆ" (closed up as printed)
 612	rev: the ᾱ after Ἄρει is printed bold: made **ᾱ**
+heading: 612 f.
 
 === p-0183
 + πανόπτην οἰοβουκόλον λέγεις; (Argus,—Io being his sole charge.) Simonides fr. 133 Ὄσσα, Κιθαιρῶνός τ’ οἰονόμοι σκοπιαί. Other compounds in which οἶος has a like force are οἰόφρων (πέτρα, Aesch. *Suppl.* 795), οἰόζωνος (*O. T.* 846).
@@ -93,6 +94,10 @@ run-on	rev: "as = ἀφανῆ" made "as=ἀφανῆ" (closed up as printed)
 ## 625: Jebb's number; our text has no 625. "εν" (622, "the εν of μὲν") is two letters of μέν, as printed, so it has no breathing.
 run-on	rev: "οἷος" made "οἶος" (smooth breathing on the page, as on ὦ below; the word is οἶος, alone, as in οἰοβώτας)
 616: Jebb divides "hand-|deeds" at a line end; written hand-deeds (taken as his compound), not "handdeeds".
+heading: 616 f.
+heading: 620 f.
+heading: 622 ff.
+heading: 625 f.
 
 === p-0184
 + (*Ag.* 1140). It recalls also the paraphrase of μανία in Eur. *H. F.* 1024 by λυσσάδι..μοίρᾳ.
@@ -145,6 +150,9 @@ Elmsley’s emendation, **παρ’** Ἅιδᾳ, instead of **γὰρ** Ἅιδ
 --- notes
 634: Jebb prints παρηῒς (diaeresis with a grave), as written.
 634	rev: παρηΐς made παρηῒς: the accent between the dots is a grave on the page (it slopes as the grave of γὰρ), not an acute; the first agent's note above corrected
+heading: 627 ff.
+heading: 631 ff.
+heading: 635 f.
 
 === p-0185
 + but here he may have been thinking of *Il.* 23. 244 εἰς ὅ κεν αὐτὸς ἐγὼν Ἄϊδι κεύθωμαι. The personal sense of Hades easily passes into the local; thus we have not only εἰς Ἅιδου (*Tr.* 4), but εἰς Ἀΐδαν (*El.* 833). For the simple dat., cp. *El.* 174 οὐρανῷ (n.).
@@ -200,6 +208,8 @@ The ingenious conjecture of Burges, ὃς **εὖ** πατρῴας ἥκων γ
 33 76. [conf] → ib.
 --- notes
 636: the draft had lost this note's heading ("6965."); the print has "636 ff." in bold: made `## 636`.
+heading: 636 ff.
+heading: 639 f.
 
 === p-0186
 ## 641
@@ -258,6 +268,9 @@ Second ἐπεισόδιον. Ajax comes forth from the tent, and addresses his 
 646: the draft's "566 Her." is "see Her." in the print.
 646	rev: lemma "**φύει τ’**" made "**φύει** τ’": only φύει is bold on the page, τ’ is in the light italic type
 644	rev: "as = ‘living man,’" made "as=‘living man,’" (closed up as printed)
+heading: 644 f.
+heading: 646 f.
+heading: 648 f.
 
 === p-0187
 + *Ant.* 475 σίδηρον ὀπτὸν ἐκ πυρὸς περισκελῆ (n.). Thus the associations of the word lead naturally to his next thought.
@@ -299,6 +312,8 @@ Second ἐπεισόδιον. Ajax comes forth from the tent, and addresses his 
 25 “1 [digit] → ‘I
 --- notes
 650: the print has "cp. 1240: 1377", not 1277; "τότε" is bold inside the paragraph (no dash), kept there. "—This passage has been discussed" begins the right column flush (no indent): it continues the paragraph.
+heading: 650 f.
+heading: 652 f.
 
 === p-0188
 ## 654
@@ -355,6 +370,9 @@ The exchange of gifts between the two heroes is told in *Il.* 7. 303 ff.: Hector
 26 ZZ [latin] (Greek model: 722) → Il.
 --- notes
 654: the draft had lost this note's heading and garbled its first lines (the two columns read across); rebuilt from the image: "654 ff. πρός τε λουτρὰ=πρὸς λουτρά τε: 53 n.—λύμαθ’ ἁγνίσας refers ostensibly …". 657: the print has O. T. 1257, not 1287.
+heading: 654 ff.
+heading: 657 ff.
+heading: 661 ff.
 
 === p-0189
 + gave ‘his silver-studded sword (ξίφος ἀργυρόηλον), with scabbard and well-cut baldrick; and Ajax gave his girdle bright with purple.’
@@ -411,3 +429,6 @@ The exchange of gifts between the two heroes is told in *Il.* 7. 303 ff.: Hector
 28 vizarded, [conf] → ok
 --- notes
 668: the print has a closing ’ after *quid vero?* with no opening quote; kept as printed. 669: the quotation from Shakespeare runs on to the next page; the page ends with the verse divider "|" as printed.
+heading: 664 f.
+heading: 666 f.
+heading: 669 ff.

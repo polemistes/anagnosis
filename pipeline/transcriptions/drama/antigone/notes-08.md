@@ -59,6 +59,9 @@
 35 παραστρέφει [greek] → ok
 --- notes
 Read through on the column images: the lemma ὡς after the dash (OCR "ὥστε Ξε ὥστε") made a paragraph of its own; "611" restored after *O. C.*; bold Greek inside the notes (ἐκ, ἐξεπίσταμαι, παρηγμένους, ἄνδρας, ἐξανίστ. δόμων, ἵστασθαι πρὸς αἰσχρ. πράγμ.) set bold; (*a*) for "(2)", *Tr.* for "77.", italics set.
+heading: 293 f.
+heading: 296 f.
+heading: 298 f.
 
 === p-0133
 + 7 § 7 αἱ ψυχαὶ παρεστραμμέναι τῆς κατὰ φύσιν ἕξεως (their minds being warped from their natural condition). Since παραλλάσσει implies a bad *training*, it can be followed, like ἐθίζει and like words, by an infin.: it is unnecessary, then, to make **ἵστασθαι**, in its relation to παραλλάσσει, merely epexegetic (‘so that they set themselves’); though it might, of course, be so. Wecklein takes **καὶ παραλλάσσει** as parenthetic = παραλλάσσουσα: but this, too, is needless, nor is it supported by 537 (where see n.).
@@ -112,6 +115,9 @@ Read through on the column images: the lemma ὡς after the dash (OCR "ὥστ�
 --- notes
 Read through on the column images: "ἐξέπραξαν ws" → **ἐξέπραξαν ὡς**; "cp. 50, 172" → 56; the broken end ("τάφου / ταφῆς / . 7. 1447") rejoined as printed: **τάφου** = ταφῆς, as 490, 534, *O. T.* 1447; bold Greek inside the notes set bold (ἵστασθαι, καὶ παραλλάσσει, παντὸς ἔργου δυσσέβ., παντὸς ἔργ., πανουργίας, δοῦναι δίκην, τάφου); kal/al/TOV/av/ws in Latin letters corrected; italics set.
 300	rev: "for πᾶς" set bold (bold type in the print)
+heading: 300 f.
+heading: 302 f.
+heading: 304 ff.
 
 === p-0134
 ## 308
@@ -152,6 +158,8 @@ Read through on the column images: "ἐξέπραξαν ws" → **ἐξέπρα�
 18 σταται] [conf] → σταται |
 --- notes
 Read through on the column images: "Cp. «42. 106" → *Ai.* 106; "872 Βα slave" → 872 B a slave; "2.6. 29" → 2. 6. 29; "Tas" → τάς; the end of the page (OCR had run the lines of ἐξ ἅπαντος … μηχανώμεναι into one another) rewritten from the image; bold Greek inside the notes set bold (πρὶν ἂν . . δηλώσητε, κρεμαστοί, ἔνθεν οἰστέον, τὸ κερδαίνειν); italics set.
+heading: 308 f.
+heading: 310 ff.
 
 === p-0135
 + πιεῖν. In *O. C.* 807 ἐξ ἅπαντος εὖ λέγει = speaks well on any theme (starting from anything).
@@ -228,6 +236,8 @@ Read through on the column images: "Cp. «42. 106" → *Ai.* 106; "872 Βα slav
 Structure: "918 τί δὲ …" was a missed heading: `## 318` (lemma τί δὲ … τί δαὶ in bold); the stray paragraph "ὡς καὶ νῦν" and the duplicated "—«kal νῦν ὡς" made one lemma **καὶ νῦν ὡς** = ὡς καὶ νῦν; the 315 paragraph (OCR had interleaved its lines) rewritten from the image, οὕτως and ἴω made their own paragraphs (lemmas after a dash); the Ajax quotation and the Shakespeare quotation (interleaved) rewritten from the image. "Ai. 599" → 590.
 Misprints corrected: the print has "*El*, 949" (comma for the stop after *El*) → `*El.* 949`; and "like ἐναργές  cp. on 263)" with the opening bracket dropped → `(cp. on 263)`.
 Checker: “ῑ” (twice) is the letter ι with a macron cited alone (“with ῑ”, “ἀνία (ῑ)”), not a word: no breathing.
+heading: 315 f.
+heading: 319 f.
 
 === p-0136
 ## 321
@@ -328,6 +338,7 @@ Man is master of sea and land; he subdues all other creatures; he has equipped h
 --- notes
 Structure: the stray paragraph "᾿ ταῦτα... τοὺς δρῶντας" and the next joined as printed: **ταῦτα...τοὺς δρῶντας** = τοὺς ταῦτα δρῶντας; the range note "8592—875" made the heading `## 332-375` (bold 332—375 in the print), its first paragraph "First στάσιμον …" and the two unnumbered paragraphs after it under it; "(365 —375)" closed up. "κἂν for καὶ" (plain κἂν after the dash, bold καὶ) kept in the 327 paragraph; "ἃ and »" → λ and ν (three times); "Lat." none here. Bold νῦν, γάρ, εὑρεθείη, μάλιστ’ set.
 Plat. *Legg.* 660 E "σμικρὸς...ᾖ": the scan shows ἦ with no iota subscript visible (worn or faint); written ᾖ, the subjunctive after ἐάν τε as in Plato.
+heading: 327 f.
 
 === p-0138
 + **καί** being equiv. to ‘and *yet*’: cp. *Tr.* 1046 ὦ πολλὰ δὴ καὶ θερμὰ κοὐ λόγῳ κακά | ...μοχθήσας ἐγώ· | κοὔπω τοιοῦτον οὔτ’ ἄκοιτις ἡ Διὸς | προὔθηκεν κ.τ.λ. It is stronger to say, ‘they are great; and he is greater’: than, ‘though they are great, he is greater.’
@@ -377,6 +388,7 @@ Plat. *Legg.* 660 E "σμικρὸς...ᾖ": the scan shows ἦ with no iota sub
 Structure: the first paragraph (OCR had interleaved its last lines with the next note) rewritten from the image; the false paragraph "**τὰ** ‘though δεινά …" made the lemma paragraph **τὰ δεινά** (after the dash); the 338 note (interleaved) rewritten from the image. "Aesch. Οὐ. 585" → *Ch.* 585; "a Bellermann" → as Bellermann; "ἃ way" → a way; "the © before Bp … 111%" → the ῑ before βρ … 1117; "od. I4." → *Od.* 14.; "2.6." → *i.e.*; "(Aesch. 2. V. go)" → (Aesch. *P. V.* 90); italics set.
 ## 335: Jebb's number; our text has no 335 (his longer lyric line).
 Checker: “ῑ” and “υ” are letters cited alone (“the ῑ before βρ”, “the υ would be long”), not words: no breathing.
+heading: 336 f.
 
 === p-0139
 + not ἀκαμάτοισι) χέρεσσιν be right in Hes. *Th.* 747, but is warranted by similar epic forms in tragedy, as ἀθανάτας (gen.) Aesch. *Ch.* 619, Eur. *Ph.* 235: ἀδμήταν Soph. *El.* 1238 (and -ης in dial. *O. C.* 1321). For the initial ᾱ, cp. the epic ἀθάνατος, ἀγοράασθε, etc. (and see *Introd. to Homer*, Appendix, note 5, p. 195): but in *El.* 164 we find ᾰ̓κάματα.

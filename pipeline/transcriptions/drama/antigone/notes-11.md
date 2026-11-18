@@ -60,6 +60,7 @@
 --- notes
 442: the opening words φὴς δεδρακέναι … δεδρ. are in the ordinary (italic) Greek type, not bold: no lemma bold; καταρνεῖ and μή are bold inside the paragraph. Plat. Phaedr.: the print has αὐτοῦ (smooth breathing), kept. 444: the heading was "ξ. σὺ μέν" (444 f.). 447: the OCR had interleaved the last lines (διδοῖσθα … optatives): rewritten from the image; ἤδης τὰ, -σθα bold as printed. Italics set throughout.
 447	rev: ἀδύνατα, δίκαια are in the ordinary (italic) Greek type, not the bold: bold taken away
+heading: 444 f.
 
 === p-0157
 ## 448
@@ -116,6 +117,8 @@
 --- notes
 448: the draft had made "τί δ’ οὐ μέλλω" a bold lemma: it is the Xenophon quotation in plain type, joined with the dash. 449/450: the OCR had interleaved the two notes ("450 Diets which is opposed would …"): rewritten from the image, ## 450 (Ζεύς) made. 451 f.: Lycurgus has ὑμῶν, ταύτῃ τῇ χώρᾳ; τάδε bold as printed. 454 f.: Rhet. (italic R), ᾖ, Ἀντιγόνη, ἡ Σοφοκλέους, (=in spite of the edict) from the image. Italics set.
 451	rev: "With the latter, οἳ are either": οἳ is in the ordinary (italic) Greek type, not bold: bold taken away
+heading: 451 f.
+heading: 454 f.
 
 === p-0158
 + quotes vv. 456 f.) Cp. *O. T.* 865 ff. νόμοι... | ὑψίποδες, οὐρανίαν | δι’ αἰθέρα τεκνωθέντες, with notes there. Thuc. 2. 37 (νόμοι) ὅσοι ἄγραφοι ὄντες αἰσχύνην ὁμολογουμένην φέρουσι. When ‘the unwritten laws’ are thus called νόμοι, the latter word is used figuratively. **νόμιμα**, observances sanctioned by usage, is the more correct word: so Plat. *Legg.* 793 A observes that τὰ καλούμενα ὑπὸ τῶν πολλῶν ἄγραφα νόμιμα cannot properly be called νόμοι, but still must be taken into account: δεσμοὶ γὰρ οὗτοι πάσης εἰσὶ πολιτείας, μεταξὺ πάντων ὄντες τῶν ἐν γράμμασι τεθέντων τε καὶ κειμένων καὶ τῶν ἔτι τεθησομένων.
@@ -174,6 +177,8 @@
 --- notes
 The draft's line "ΝΟΣ , ΟΞ ΜΝ ΝΙΝ, LAR 4 a. τς Ἢ By | ΟΡ" was no printed line (the OCR of two overlapping lines): deleted. 456: the draft had split the paragraph at it and had "Te kal", "Zodie": rewritten from the image (Her. 2. 53 μέχρι οὗ πρώην τε καὶ χθές, Legg. 677 D, hodie atque heri, heri et nudius tertius). 454 run-on: "quotes vv. 456 f.)", "νόμοι...| ὑψίποδες", Alc. 799, Ph. 578, Ion 973 from the image; the Euripides quotation and its rendering had been interleaved by the OCR; νόμιμα bold as printed. 458: τὴν δίκην bold as printed (two bold stretches).
 454	rev: "νόμοι...| ὑψίποδες" spaced as the other verse divisions: "νόμοι... | ὑψίποδες"
+heading: 456 f.
+heading: 458 f.
 
 === p-0159
 + shows that, like ταῦτα just before, it refers to the νόμιμα: we cannot, therefore, render, ‘the penalty of such an act’ (*sc.* τοῦ ὑπερδραμεῖν).
@@ -230,6 +235,8 @@ Kvičala and Wecklein reject these four verses, despairing of the difficulties f
 --- notes
 459: Plat. Legg. 916 B, Gorg. 464 D (draft 404 Ὁ), κρίσιν, ἐν...τοῖσδ’ from the image. 460: the draft had "-θανουμένη γάρ" inside the paragraph and "t( δ᾽ οὔ": both bold lemmas after a dash, made paragraphs; ## 460 is "460 f.". 461 f.: κεἰ, ἐξῄδη (iota subscript printed), El. 1267, ἐπόρισεν, αὖτε (L), Tr. 1010 from the image. 464: the draft had cut "φέρει" from "=φέρεται": joined with "=". 465—468: "ηἰσχόμην" is L's corrupt form, printed without a breathing on the η (the breathing stands on the ι), kept as printed; the pencil stroke in "in|which" is not print. Italics set.
 461	rev: "implied in τί δ’ οὔ;": in the ordinary (italic) Greek type, not bold: bold taken away
+heading: 460 f.
+heading: 461 f.
 
 === p-0160
 + adv.: ‘is a pain in no appreciable degree,’ is a pain not worth a thought: as he might have said, οὐδαμοῦ ἄλγος ἐστί. The normal use of παρ’ οὐδέν, ‘of no account,’ is either (*a*) with the verb εἶναι, as *O. T.* 982 ταῦθ’ ὅτῳ | παρ’ οὐδέν ἐστι, or (*b*) with a verb meaning ‘to esteem,’ as above, v. 34, τὸ πρᾶγμ’ ἄγειν | οὐχ ὡς παρ’ οὐδέν. The only peculiarity here is that, instead of a word in the general sense, ‘*is esteemed*’ (ἄγεται), we have a virtual equivalent, tinged with the special thought of the moment, viz., ‘*is a pain*.’ Exactly so in *El.* 1327 we have πότερα παρ’ οὐδὲν τοῦ βίου κήδεσθ’ ἔτι, instead of πότερα παρ’ οὐδὲν τὸν βίον ἄγετε. Thus the suspicions as to the genuineness of παρ’ οὐδὲν ἄλγος are illusory.
@@ -325,6 +332,8 @@ These two verses give a moment of stillness before the storm breaks forth. So at
 26 Ph. [conf] → ok
 --- notes
 The page runs on from p-0160 (467, "or μιᾶς (Meineke)"): the second bold stretch is "τὸν ἐξ ἐμ. | μητρὸς θανόντ’", kept in its paragraph. 470: El. 608, ib. 550, Ai. 1038, O. C. 1665, Bacch. 854, πρός τινα from the image. 471 f.: the draft had "2. These two verses"; δηλοῖ, ὠμόν, ἐξ ὠμοῦ πατρός and γέννημα bold as printed; Ἔπαφον, ἡ γεννηθεῖσα, El. 1233 from the image. 473 f.: El. 298 (draft "Kl."), πίπτοντα bold, "(as=‘I know that...’, not," from the image. Italics set.
+heading: 471 f.
+heading: 473 f.
 
 === p-0162
 ## 475
@@ -376,6 +385,8 @@ Suspicion has fallen on **ἐκπέλει**, which occurs only here: Hesych. exp
 27 (‘tis [conf] → (’tis
 --- notes
 475: the draft had cut at "(to be bad).—περισκελής" and bolded it: the Greek is in plain type, joined with the dash; Eur. El. 376 (draft "Kur. 21."), τῇ χρείᾳ, (to be bad), Ai. 649 (draft 640), αἱ, retorridus from the image. 477 f.: Plat. Legg. 808 D, Plut. Mor. 38 C, ᾗ πεφύκασι, αἱ ἐφ’ ἡδονὴν ὁρμαί, Them. 2, Eum. 473 from the image; σμικρῷ bold as printed. 478 f.: ὅστις (draft "6o ris") is a bold lemma after the dash: made a paragraph. Italics set.
+heading: 477 f.
+heading: 478 f.
 
 === p-0163
 ## 480
@@ -418,3 +429,6 @@ Suspicion has fallen on **ἐκπέλει**, which occurs only here: Hesych. exp
 17 Zysis [rare] → *Lysis*
 --- notes
 480 ff.: the draft had "**ὑβρίζειν μὲν... ὕβρις δ᾽**" with the lemma of p-0163 run together; the further lemmas after dashes (ὑβρίζειν μὲν...ὕβρις δ’, τοὺς προκ., τούτοις, δεδρακυῖαν γελᾶν) are paragraphs; ἐξηπίστατο, τότ’, ὑπερβαίνουσα bold inside the paragraph as printed; "468 κείνοις...τοῖσδε" (draft "κείνοις οὐ τοῖσδε"). 484 f.: "νυν or τἄρ’", El. 476 Δίκα, ib. 689, Pind. I. 4. 17, Ἰσθμῷ, κεῖται, "cp. 483 τούτοις" (draft "τού- Tots"), Ran. 1126 ff. from the image; κράτη, κείσεται, ταῦτ’, πείσεται, ἀνατί, ταῦτα bold as printed. 486 f.: εἴθ’ ὁμαιμονεστέρα after a dash made a paragraph. Italics set.
+heading: 480 ff.
+heading: 484 f.
+heading: 486 f.

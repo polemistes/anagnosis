@@ -48,6 +48,9 @@ The acc. **αὐτὸν** is resumed and more closely defined by **σῶμα**: 
 18 Ζ. [conf] → f. (omitted: heading ## 1071)
 --- notes
 Read through from the column images: bold αὐτὸν, σῶμα, χερσὶν, ὅπου inside paragraphs; σῶμα (draft "capa"), καὶ (draft "kal"), *Tr.* 287 (draft "77."), *i.e.* (draft "Ζ.6."), "Campbell" joined; verse division "ἄστυ | ἔρδομεν" added as printed; stray stop in "οἰωνοῖς θ᾽ ἕλωρ" deleted; italics set (*Andr.*, *Aen.*, *fulva moribundum extendit arena.*, *Ant.*, *Hec.*, *words*); closing quotes ’ for ”. "(ᾱ)" after ἐξάρῃς is Jebb's sign of a long alpha, printed bare as a letter with a macron; no breathing belongs to it (the checker's remark is expected).
+heading: 1062 f.
+heading: 1069 f.
+heading: 1071 f.
 
 === p-0247
 + and obedience are suggested by the alleged insubordination of Ajax, who (in disregard of Homeric conditions) is styled ἀνὴρ δημότης, in contrast to οἱ ἐφεστῶτες,—*i.e.* the Atreidae. (Cp. 945 ἐφεστᾶσι.) The tone of Menelaüs here recalls that of Creon in *Ant.* 663—676.
@@ -90,6 +93,8 @@ Read through from the column images: bold αὐτὸν, σῶμα, χερσὶν
 21 91 [conf] → ok
 --- notes
 Read through from the column images: "Menelaüs" as printed (draft "Menelaiis"); bold ὄντα and καθεστήκῃ inside paragraphs; ἄν in the 1073 lemma (draft "dv"); "ὅπου..παρῇ." (draft "παρῇς"), *Tr.* 1235 (draft "77."), ἕλοιτο, ἐφεστῶτες; "δέος·" (draft 'δέος"'), καὶ (draft "kal"), ἵνα; Ar. *Av.* 785 (draft "783"); *O. C.* 804, *ib.*, Αἴας, *Il.* 3. 229 (draft "74."), *Julius Caesar*, *Why,* italic; "(Paus. 1. 17. 1)." (draft "1}:").
+heading: 1073 f.
+heading: 1077 f.
 
 === p-0248
 + *man, he doth bestride the narrow world | Like a colossus, and we petty men | Walk under his huge legs.*
@@ -142,6 +147,8 @@ Read through from the column images: "Menelaüs" as printed (draft "Menelaiis");
 29 C. [conf] → *C.*
 --- notes
 Read through from the column images: the Shakespeare verses are italic as printed; lemma "κἂν ἀπὸ σμ. κακοῦ" (draft "κἀν ἀπὸ op."); bold κἂν, ἀπὸ, ἐξ οὐρίων δραμοῦσαν, ποτ᾽ ἂν inside paragraphs; ἄν for "dv"; ἀλλά, "*Crito*", "*Rep.* 490 C", "*Moods and Tenses*", "It may" (draft "Τί"), *sunk*, *prosperity*, *Lys.* set from the image; stray spaces before ";" and ":" removed.
+heading: 1079 f.
+heading: 1082 f.
 
 === p-0249
 + quotes ἐξ οὐρίων πλεῖν from Libanius 2. 421. ἐξ οὐρίας πλεῖν occurs in Polyb. 1. 47. 2, etc.
@@ -207,6 +214,10 @@ The dramatic function of a Chorus required that these Salaminian sailors, while 
 Read through from the column images: "Polyb. 1. 47. 2" (draft "47- 2"); bold καίριον inside its paragraph (draft "καίρwv"); lemma "ἃν λυπώμεθα" (draft "dv") cut at its dash into a new paragraph; "ὅπως | μὴ" with the printed bar; "v. 1109" is printed in bold; "Menelaüs" as printed; ἐναλλὰξ πρήσσων=‘with (draft "=*"); "see n. on" (draft "ἢ."); italics *Ach.*, *Ph.*, *Op.*.
 1085	rev: παρήνεσα, συνήνεσα → παρῄνεσα, συνῄνεσα (iota subscript printed under both)
 1085	rev: Alcaeus "ἢ κεν" → "ἦ κεν" (circumflex printed)
+heading: 1085 f.
+heading: 1087 f.
+heading: 1089 f.
+heading: 1091 f.
 
 === p-0250
 ## 1093
@@ -257,6 +268,8 @@ Read through from the column images: "Polyb. 1. 47. 2" (draft "47- 2"); bold κ�
 23 ‘(cp. [conf] → (cp.
 --- notes
 The draft garbled the end of the 1101 note (Porson's reference and the Homer verse mixed, "Alas δ᾽ to ἐκ read Σαλαμῖνος ἦγεν …"): rewritten from the column image. Also from the image: "τὰ σέμν᾽ ἔπη | κόλαζ᾽" (draft "ον"), bold ἐν λόγοις, ἡγεῖτ᾽, ὧν, ἦγεν inside paragraphs; "οὐδὲν ὢν has a like sense" (draft lost "ὢν has"); "πάντες λεῴ" (draft "New"); MS., MSS. (draft "Ms."); "see n. there" (draft "ἢ."); *Chorus*, *El.* 612, *Tr.* 61, *sponte sua*, *Phil.*, *ap.* italic; "...ἀλλά" as printed.
+heading: 1097 f.
+heading: 1100 f.
 
 === p-0251
 + Aesch. *Pers.* 341 Ξέρξῃ..χιλιὰς μὲν ἦν | ὧν ἦγε πλῆθος): but ΗΓΕΝ was less likely than ΗΓΑΓ to tempt the correction ΗΓΕΙΤ. Elmsley’s **ἤγετ᾽** (n. on Eur. *Heracl.* 371) is still nearer to the letters of ἡγεῖτ᾽: but the middle voice would be at least very unusual, where the sense is simply that of ‘leading’; in *O. C.* 1460, indeed, ἄξεται is hardly more than ἄξει: but in *Ph.* 613 ἄγοιντο suggests the notion, ‘bring with them, for their own ends.’
@@ -309,6 +322,7 @@ Apart from the difficulty as to ὅλων, there is absolutely no ground for rej
 27 0.7. [conf] → *O. T.*
 --- notes
 Read through from the column images: "*O. C.* 53" (draft "33"); "Elmsley’s **ἤγετ᾽**", **ἔκειτο**, **σύμπαντες** bold inside paragraphs; τε (draft "Te"); A.D. small capitals; italics *Pers.*, *Heracl.*, *on his part*, *Dionysiaca*, *Pal.*, *neuter*, *summae rerum*, *e.g.*, *Cyr.*, *De Luctu*, *Eum.*; stray spaces before ":" and ";" removed.
+heading: 1107 f.
 
 === p-0252
 + σὺ τήνδ᾽ ἀτιμάζεις πόλιν: Aesch. *Eum.* 230 δίκας | μέτειμι τόνδε φῶτα.
@@ -402,3 +416,4 @@ The Thucydides quotation and the sentence after it (1113) were garbled and out o
 20 :(— [conf] → :—
 --- notes
 Read through from the column images: "ἕωσπερ ἂν ᾖς ὃς εἶ" (draft "ἧς ὃς el."), bold ὡς and ὡς ἂν ᾖς inside the paragraph (draft "ws", "ὡς ἂν 0s"); "*Ph.* 1330 ἕως ἂν αὐτὸς" with smooth breathing as printed (draft "αὑτὸς"); "αἴρῃ"; Hermann's bracket closes with "]" (draft ")"); lemma "οὐδ᾽ αὖ" (draft "ad"); "Menelaüs"; "κέρᾳ ἀγλαέ"; "τοξοσύνῃ·" (draft '"'); "καὶ" (draft "kal"); "σῶμα" (draft "σώμα"); *Legg.* (draft "δος."), *Phaedr.*, *Hipp.*, *Od.*, *for*, *quantumlibet ferocias* italic; stray spaces before ":" and ";" removed.
+heading: 1116 f.

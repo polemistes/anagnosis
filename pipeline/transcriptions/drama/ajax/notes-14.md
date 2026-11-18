@@ -48,6 +48,8 @@
 26 2.9: [conf] → 2. 9:
 --- notes
 “ῠ” (twice, "The verb having ῠ" and "(ῠ)"): Jebb’s sign of a short upsilon, printed bare as a letter with a breve; no breathing belongs to it (the checker’s remark is expected).
+heading: 723 f.
+heading: 726 ff.
 
 === p-0199
 + dying: schol. ὡς οὐκ ἀρκέσοι ἑαυτῷ τὸ μὴ λιθόλευστος γενέσθαι. Cp. Aesch. *P. V.* 918 οὐδὲν γὰρ αὐτῷ ταῦτ’ ἐπαρκέσει τὸ μὴ οὐ | πεσεῖν ἀτίμως. For the fut. optat., cp. 313.
@@ -105,6 +107,10 @@
 31 NV. [conf] (Greek model: ΡᾺ) → *N.*
 --- notes
 729	rev: "κραυγὴν.. ἐποίουν" closed up to "κραυγὴν..ἐποίουν" (the dots end a printed line; written closed as every other ".." in the file)
+heading: 729 f.
+heading: 731 f.
+heading: 733 f.
+heading: 735 f.
 
 === p-0200
 ## 737
@@ -155,6 +161,9 @@
 22 Δ [conf] → an
 23 word.——706 [conf] → word.—τὸ κέρδιστον (new paragraph)
 --- notes
+heading: 737 ff.
+heading: 741 f.
+heading: 743 f.
 
 === p-0201
 + most advantageous course which he could possibly take. Cp. *Ant.* 1113 δέδοικα γὰρ μὴ τοὺς καθεστῶτας νόμους | ἄριστον ᾖ σῴζοντα τὸν βίον τελεῖν. There is no more reason for desiring **τὸ κέρδιον** here than ἄμεινον there. For τὸ κέρδιστον..**γνώμης**, cp. Thuc. 1. 90 § 2 τὸ..βουλόμενον καὶ ὕποπτον τῆς γνώμης.
@@ -317,6 +326,8 @@ It is not without reason, then, that the reading **κἀνόνητα** is suppor
 27 μ᾽ [conf] → ok
 --- notes
 757: the parenthesis Jebb opens before ‘he went on to say’ is not closed in the print; copied so.
+heading: 760 f.
+heading: 762 f.
 
 === p-0204
 ## 767
@@ -436,3 +447,6 @@ If, on the other hand, **δίας Ἀθάνας** be genuine, then corruption ma
 35 Απόλλωνω [greek] (Greek model: ᾿Απόλλωνι).) → Ἀπόλλωνι
 36 Οδυσσεύς [accent] → Ὀδυσσεύς
 --- notes
+heading: 774 f.
+heading: 776 f.
+heading: 778 f.

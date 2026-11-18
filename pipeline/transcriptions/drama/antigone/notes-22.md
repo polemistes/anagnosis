@@ -43,6 +43,8 @@
 22 Sarpédon’ [latin] (Greek model: ἐΒατρδάοπ᾽) → Sarpêdon’
 23 ‘Sarpe- [conf] → ok (‘Sarpedonion,’)
 --- notes
+heading: 977 f.
+heading: 981 f.
 
 === p-0245
 + of Haemus. It is of this that Soph. is thinking here: cp. fr. 575 ἡμεῖς δ’ ἐν ἄντροις, ἔνθα Σαρπηδὼν πέτρα. That verse is from the Τυμπανισταί, in which the story of Cleopatra was noticed (cp. on 966); and she was probably the speaker. Oreithyia bore two sons to Boreas, Calais and Zetes; and, besides Cleopatra, another daughter, Chionè.
@@ -95,6 +97,8 @@ Fifth ἐπεισόδιον. Teiresias denounces the divine wrath. Creon, terror
 22 Ξε [conf] → =
 23 ‘is,’ [conf] → ok
 --- notes
+heading: 986 f.
+heading: 988 f.
 
 === p-0246
 ## 993
@@ -149,6 +153,9 @@ Fifth ἐπεισόδιον. Teiresias denounces the divine wrath. Creon, terror
 24 1433). [conf] → ok
 --- notes
 1001: printed "*O.C.* 1433" closed up, kept as printed.
+heading: 993 f.
+heading: 999 f.
+heading: 1001 ff.
 
 === p-0247
 + **οἴστρῳ**, ‘gad-fly,’ then fig., ‘rage,’ a word which often suggests divine stimulation: as Heracles asks, ποῦ δ’ οἶστρος ἡμᾶς ἔλαβε; (Eur. *H. F.* 1144).
@@ -278,6 +285,7 @@ The fat wrapped about the thigh-bones ought to have caught fire, when the flesh 
 --- notes
 1007	rev: Eur. Ph. 1255 quotation "ἧ δυοῖν" → "ἣ δυοῖν" (enlarged: rough breathing and a grave, not a circumflex; flag 4 answered so; the first agent's note on it replaced)
 The stray "2." the draft put before "The fat wrapped …" (## 1008) is not in the print: deleted.
+heading: 1008 f.
 
 === p-0249
 + Cp. the unknown poet in Clemens Alex. *Strom.* p. 851 (it is vain to think that the gods rejoice) ὀστῶν ἀσάρκων καὶ χολῆς πυρουμένης. So, too, Menander *ap.* Athen. 146 E οἱ δὲ τὴν ὀσφὺν ἄκραν | καὶ τὴν χολὴν ὀστᾶ τ’ ἄβρωτα τοῖς θεοῖς | ἐπιθέντες αὐτοὶ τἄλλα καταπίνουσ’ ἀεί.
@@ -347,6 +355,7 @@ The stray "2." the draft put before "The fat wrapped …" (## 1008) is not in th
 35 2.6., [conf] → i.e.,
 --- notes
 The page's first word "tion." ends "divination", written whole on p-0248.
+heading: 1012 f.
 
 === p-0250
 ## 1016
@@ -395,6 +404,8 @@ The page's first word "tion." ends "divination", written whole on p-0248.
 1016: the Greek after "θυσιῶν):—" is Ammonius quoted in plain (italic) type, not a lemma: the draft's bold paragraph joined again with ":—".
 1017: the bold Greek inside the paragraph (ὑπ’ οἰων. κ. κυνῶν, βορᾶς τοῦ...Οἰδ. γόνου, γόνου, δυσμόρου, πεπτῶτος, τοῦ...γόνου, βορᾶς) is bold in the print and stands inside it, not after a dash: kept in the paragraph.
 1021: the lemma is printed ὄρνῐς with a breve over the iota (short ι), as against ὄρνῑς with a macron on p-0251; both written with the precomposed signs.
+heading: 1017 f.
+heading: 1021 f.
 
 === p-0251
 + 168 (*v. l.* τίς ὄρνις οὗτος, a quotation from tragedy: *v. l.* τίς οὗτος ὄρνις;). But ὄρνῑς (Eur. *Bacch.* 1364, Ar. *Av.* 833, etc.) is said to have been normal in Attic.—The ruggedness of the rhythm gives a certain impressive slowness, perhaps purposed. When an iambic verse has no caesura in the 3rd or in the 4th foot, it almost always has the ‘quasi-caesura’ (elision) after the 3rd foot (as if εὐσήμους were εὐφημοῦσ’). For other exceptions, cp. *Ai.* 1091 Μενέλαε, μὴ γνώμας ὑποστήσας σοφάς: *Ph.* 101, 1064, 1369: Aesch. *Pers.* 509 Θρῄκην περάσαντες μόγις πολλῷ πόνῳ.
@@ -471,3 +482,5 @@ The page's first word "tion." ends "divination", written whole on p-0248.
 The page runs on from the note on 1021 at the foot of p-0250 ("Ar. *Av.* | 168"): `+ ` added.
 1021 (Her. 1. 87): printed ὥρα (Ionic for ἑώρα), as in the print.
 1027	rev: Il. 15. 203 "ἦ τι" → "ἤ τι" (enlarged: smooth breathing and acute, as printed)
+heading: 1025 f.
+heading: 1029 f.

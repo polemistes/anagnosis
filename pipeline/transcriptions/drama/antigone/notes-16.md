@@ -45,6 +45,7 @@
 --- notes
 Read through against the column images and retyped where the OCR had run the two halves of lines together (end of 676, 677, 678): restored ἡ in the lemma ἡ πειθαρχία, made it a paragraph; joined κόσμος back into the 677 paragraph (plain type after the dash, not a lemma); heading 679 f. → ## 679.
 ἐκπεσεῖν) — the print has a closing bracket after the lemma, with no opening one (perhaps for a colon); kept as printed.
+heading: 679 f.
 
 === p-0197
 + thrust out: oft. of dethronement (ἐκπ. τυραννίδος, ἀρχῆς, κράτους, Aesch.), or of exile (χθονός, *O. C.* 766).
@@ -96,6 +97,8 @@ Read through against the column images and retyped where the OCR had run the two
 --- notes
 Read through and retyped the columns where the OCR had mixed the lines of the two columns (680, 681): restored the lemma κοὐκ ἂν...καλοίμεθ’ ἄν; 681 split into its three lemmas μέν, τῷ χρόνῳ, κεκλέμμεθα (bold after dashes); deleted the garble "our 0. 681 7. age 9ο63."; headings 683 ff. → ## 683, 685 f. → ## 685; μὴ after ὅπως (bold after a dash) made a new paragraph.
 Note 682: Jebb prints the opening Greek (δοκεῖς λέγειν ... ὧν λέγεις.) in ordinary italic Greek, not in the bold lemma type; written plain as printed.
+heading: 683 ff.
+heading: 685 f.
 
 === p-0198
 ## 687
@@ -139,6 +142,7 @@ Note 682: Jebb prints the opening Greek (δοκεῖς λέγειν ... ὧν λ
 --- notes
 Read through against the columns: bold Greek inside the notes set (γένοιτο ἂν καὶ ἑτέρῳ, σοῦ, σοί, σὺ δ’ οὐ πέφυκας, τις, ὄμμα), italics set (*sc.*, *i.e.*, *v. l.*, (*a*), (*b*), *though I think that other people*, *on account of*); heading 688 f. → ## 688; Thuc. "4. 65" → 4. 62 as printed; restored "Thuc." lost before it and "4216}." → *Andr.*; δείσας, ἀνδρὶ δ., κοὐδείς corrected.
 ὄμμα (690) is bold in the middle of the paragraph, not after a dash: kept in its paragraph.
+heading: 688 f.
 
 === p-0199
 + of classical idiom. We should remember that Athenians were accustomed to use a simple dat. (of ‘time’ or ‘occasion’) in speaking of festivals,—as τραγῳδοῖς καινοῖς: cp. (*e.g.*) Plat. *Symp.* 174 A χθὲς γὰρ αὐτὸν διέφυγον τοῖς ἐπινικίοις, ‘I eluded him yesterday *when he was holding* his sacrifice for victory.’ So, here, the dat. **λόγοις τοιούτοις**, though properly causal, might sound to a Greek ear like, ‘*at* such words,’ *i.e.* ‘when such words are spoken.’ The causal dat. in 391, ταῖς σαῖς ἀπειλαῖς, is similar. Cp. also Thuc. 1. 84 εὐπραγίαις...οὐκ ἐξυβρίζομεν, where the notion, ‘by reason of successes,’ is similarly blended with the notion, ‘in seasons of success.’
@@ -194,6 +198,8 @@ Read through against the columns: bold Greek inside the notes set (γένοιτ�
 27 C. [conf] → *C.*
 --- notes
 Read through and retyped where the OCR had mixed the columns' lines (end of 691 "is similarly blended with the notion", 695): οἷς ... (bold after a dash) made a new paragraph under 691; headings 692 f. → ## 692, 696 ff. → ## 696; ἀπ’ ἔργων, αὐτάδελφον, ἐν φοναῖς, λαχεῖν (bold after dashes) made paragraphs; bold inside notes set (λόγοις τοιούτοις, τέρψει, κλύων, μή, τέρψῃ, ἀκούειν, ὀδύρεται, μήθ’...μήθ’, εἴασε, ὀλέσθαι); italics set; ἐόντα → ἐόντας, Pind. "2. 3. 73" → *P.* 3. 73, Eur. "Lh." → *Ph.* 1214, "ορ." → cp., "τ433" → 1433 as printed.
+heading: 692 f.
+heading: 696 ff.
 
 === p-0200
 + gen. or acc., the latter being more freq. (*O. C.* 450 n.). But here the inf. is rather epexegetic (cp. 1098 λαβεῖν), the gen. depending on **ἀξία**.
@@ -250,6 +256,9 @@ Read through and retyped where the OCR had mixed the columns' lines (end of 691 
 --- notes
 Read through and retyped the right column and the foot of the left, where the OCR had mixed the lines (703, 705, 707): 703 split into θάλλοντος, μεῖζον εὐκλείας = μεῖζον ἢ εὔκλεια, πρὸς παίδων (bold lemmas after dashes); 705 into νυν, φόρει, ἦθος, κοὐδέν, τοῦτο; 707 into μόνος, ψυχήν; headings 703 f., 705 f., 707 f. → ## 703, ## 705, ## 707; Pind. "Ο. 9. τό" → *O.* 9. 16, ἀρεταῖσιν; Hes. *Op.* 234; *Ph.* 478, *Ai.* 465, *Eq.*, *Caes.*; bold ἀξία, ὡς φὴς σύ (inside the paragraph, no dash: kept there).
 705	rev: *Ai.* 1085 δρῶντες ἃν ἡδώμεθα ... αὖθις ἃν λυπώμεθα: rough breathing on both ἃν (= ἃ ἄν) as printed (the draft had ἂν)
+heading: 703 f.
+heading: 705 f.
+heading: 707 f.
 
 === p-0201
 + αὐτὸς μοῦνος ποικίλα δήνε’ (devices) ἔχειν, | κεῖνός γ’ ἄφρων ἐστί, νόου βεβλαμμένος ἐσθλοῦ, | ἴσως γὰρ πάντες ποικίλ’ ἐπιστάμεθα. Isocr. or. 3 § 43 joins Theognis, Hesiod and Phocylides as ἀρίστους...συμβούλους τῷ βίῳ τῷ τῶν ἀνθρώπων. They were read in schools.
@@ -317,6 +326,8 @@ Read through and retyped the right column and the foot of the left, where the OC
 --- notes
 Read through against the columns: κενοί (bold after a dash) made a paragraph under 709; heading 710 f. → ## 710, 713 f. → ## 713; lemmas mended: κεἰ...ᾖ, παρὰ ῥείθρ., ὑπείκει (the draft had "Σ."); ναός (bold after a dash) made a paragraph at the foot; the Babrius verses (ordinary italic Greek after "answers:—") joined back into the 713 paragraph, bold taken away; "or" restored in τείνειν τόξον or τείνειν πόδα; Eur. *Tro.* 449; ᾱ; *over-rigid* (hyphen at the line end kept: a compound); "Cp." in "—Cp. Shaks." kept in the paragraph.
 Checker: "ᾱ" (for ᾱ before initial ῥ) is a letter named, printed without breathing.
+heading: 710 f.
+heading: 713 f.
 
 === p-0202
 + Doric for νεώς, allowed by tragedy even in iambics, as *Ai.* 872, Aesch. *Th.* 62, Eur. *Med.* 523: though νᾶες (953) and ναΐ occur only in lyrics. So ναός, temple (286), Ἀθάνα, κυναγός, ὁδαγός, ποδαγός (1196): and even in Att. prose λοχαγός, οὐραγός, ξεναγός.
@@ -381,6 +392,8 @@ Checker: "ᾱ" (for ᾱ before initial ῥ) is a letter named, printed without b
 --- notes
 Read through against the columns: deleted the stray "«" after ξεναγός.; στρέφω = ἀναστρέφω joined into the κάτω στρέψας paragraph (the draft had cut it and made ἀναστρέφω a false lemma); 716 f. → ## 716; εἶκε θυμοῦ made the bold lemma of 718; Eur. Hipp. 900 quotation mended (ἐξανεὶς, "472 12." → *Hipp.*, "15" → is); Andoc. παρόντος ... μετάστασιν, Alexis φρενῶν joined; *Il.* 4. 509, *ib.* 5. 348 for the OCR's "27." and "16."; bold εἶκε, καί, τὸ πλοῖον, τὸ λοιπόν, ὑπτίοις inside paragraphs; lemma of 719 εἴ τις γνώμη πρόσεστι καὶ ἀπ’ ἐμοῦ ν. all bold as printed.
 715	rev: ναῒ → ναΐ (the print has the acute with the diaeresis)
+heading: 716 f.
+heading: 719 f.
 
 === p-0203
 + opinion. Cp. *O. C.* 292 τἀνθυμήματα | ...τἀπὸ σοῦ, the thoughts urged on thy part. *El.* 1464 τελεῖται τἀπ’ ἐμοῦ. For the modest **καί**, cp. *O. T.* 1100 εἰ χρή τι κἀμὲ...σταθμᾶσθαι: *Ph.* 192 εἴπερ κἀγώ τι φρονῶ.—If **κἀπ’** were taken as καὶ ἐπί, it must mean, ‘in my case also.’ Plat. *Rep.* 475 A ἐπ’ ἐμοῦ λέγειν (to take me as an instance). In *El.* 1469 I formerly thus took κἀπ’ ἐμοῦ θρήνων τύχῃ, but now think that there, too, it is καὶ ἀπό.
@@ -448,3 +461,4 @@ Read through and retyped where the OCR had mixed the lines of the two columns (t
 Note 723: the opening Greek (καὶ τὸ τῶν εὖ ... καλόν (ἐστι)) is printed in ordinary italic Greek, not in the bold lemma type; written plain as printed (bold taken away).
 The page ends at "two sets of arguments.’", a sentence end; whether 724's note runs on is for the next page.
 Checker: "ι" (ι subscript), "ῆι" and "ᾶι" are letters named, printed without breathing.
+heading: 724 f.

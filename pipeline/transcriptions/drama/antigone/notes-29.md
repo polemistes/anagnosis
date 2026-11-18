@@ -48,6 +48,9 @@
 Read through against both columns. The 1312 note's last lines (Her. 5. 70 … ἀπεκτόνατε) and the end of the ἐπεσκήπτου paragraph (The rare pass. … μαρτυρῆσαι.) were garbled by the OCR (two columns interleaved) and are rewritten from the image. Also corrected: **αῐ** and **ο** bold with Jebb's breve (draft αἵ, o); *Od.*, *Suppl.*, *El.* (twice; draft Εἰ.), *Ai.* 895 (draft 805), = ὡς αἴτιος ὤν (draft ws, ὦν), bold **κἀκείνων** and **καί** inside their paragraphs, 5 § 9, see on 1268 (draft 1208), *Tr.* 930 (draft 77.), *Or.*; δείλαῐος with Jebb's breve (he prints it spaced).
 Checker: "αῐ" and "ο" are the sounds cited alone ("instances of αῐ before ο", with Jebb's breve), not words: no breathing.
 1312	rev: *be held* in italics as printed ("*i.e.* to *be held* responsible")
+heading: 1312 f.
+heading: 1315 f.
+heading: 1317 f.
 
 === p-0301
 + fixed upon) another man, **ἐξ ἐμᾶς αἰτίας**, (being transferred) from my responsibility,—*i.e.*, so as to leave me blameless. For the intrans. **ἁρμόσει**, cp. *O. T.* 902 (n.), *El.* 1293. **ἐκ** here is not for ἀπό, but is used as if we had, οὔποτε ἐξ ὑπαιτίου ἀναίτιος φανοῦμαι (cp. *Tr.* 284 ἐξ ὀλβίων ἄζηλον εὑροῦσαι βίον). Thus ἐξ ἐμᾶς αἰτίας is really a compressed way of saying, ‘by change from a state of things in which the αἰτία (blame) was mine.’
@@ -85,6 +88,8 @@ Checker: "αῐ" and "ο" are the sounds cited alone ("instances of αῐ before
 --- notes
 Read through against both columns. Also corrected: bold **ἐξ ἐμᾶς αἰτίας**, **ἐκ** inside the paragraph; *Tr.* 284 (draft 77.), *i.e.* (draft Ze), ὅ τι (draft §), the 1325 lemma (draft "Tov … ἠ", not bold), a nonentity (draft ἃ), *Ai.* twice, ὢν (draft ὧν) twice, γὰρ (draft yap), *El.* 767 (draft Ξι), Καμάριναν· (raised stop as printed), *sc.*, *ap.*, *e.g.* twice, τἀν (coronis). The 1326 lemma is bold in two stretches as printed, the bracketed (ἐστι) and (ὄντα) in plain type.
 1317	rev: "responsibility,—*i.e.*," closed up (the dash opens the printed line; the join had put a space before it)
+heading: 1319 f.
+heading: 1326 f.
 
 === p-0302
 + immediate attention. Cp. Eur. *Alc.* 739 ἡμεῖς δέ, τοὐν ποσὶν γὰρ οἰστέον κακόν, | στείχωμεν, ὡς ἂν ἐν πυρᾷ θῶμεν νεκρόν. So Pind. *P.* 8. 32 τὸ δ’ ἐν ποσί μοι τράχον, my present theme.
@@ -122,6 +127,7 @@ Both these difficulties (which to me seem insuperable) are removed by reading μ
 23 g..287, [conf] (Greek model: 9..287,) → 9. 287,
 --- notes
 Read through against both columns. The 1329 note's (a)/(b) sentences and its "But, either with …" sentence were garbled by the OCR (lines interleaved) and are rewritten from the image. Also corrected: *P.* 8. 32, *Th.* 420, (*a*), (*b*), *sc.*, ἁμερᾶν (rough breathing as printed), *i.e.*, ὁ...ἄγων, ‘…for me.’ and ‘…adducens.’ (closing quotes), MSS., ἔφυ (draft ἐφυ), bold **ἔχων** in "μόρων ὁ κάλλιστ’ **ἔχων**, the best of fates" as printed, ὕπατος twice (draft "ὕπα- Tos"), *O.*, I prefer (draft 1). The quotation Ἠελίου | νῆσον … runs on to p-0303. Open: Jebb prints Timon's title Σιλλοί (accent on the last syllable; the usual form is Σίλλοι): kept as printed, perhaps a misprint.
+heading: 1329 ff.
 
 === p-0303
 + νῆσον ὅτ’ εἶχε Νέρων, alluding to the residence of Tiberius at Rhodes (*c.* 6 B.C.—2 A.D.). The epigram was written after Tiberius had been adopted by Augustus in 4 A.D., as he is called Ζῆνα τὸν ἐσσόμενον, and perhaps after he had come to the throne (14 A.D.). It would be interesting to know whether ὕπατος as=‘last’ can be carried back beyond the Roman, or later Alexandrian, age; I can find no trace of it.
@@ -170,6 +176,7 @@ Read through against both columns. The 1329 note's (a)/(b) sentences and its "Bu
 25 precando. [conf] → *precando.*
 --- notes
 Read through against both columns. Heading ## 1334 made from the image (the draft left "1884 f." in the text). "**τῶνδ’**=τῶν μελλόντων": = restored (draft -ε). Also corrected: (*c.* 6 B.C.—2 A.D.), bold **τι**, n. on 11 (draft 11-), *i.e.* (draft Ζ2.6.), we should (draft We), καὶ (draft kal), MS. (small capitals), bold **ἐρῶ μὲν**, **ἐρῶμεν** and **ἐρῶ** inside the paragraph as printed, *Ai.* 905 (draft gos), ἆρ’ (draft ἂρ), 951 (draft gsr), ὡς (draft ws), the closing ’ after "Chorus.", *Oed. Col.*, ἐγείρετε· | (raised stop and verse division as printed), the Latin quotation in italics (flecti, draft fecti).
+heading: 1334 f.
 
 === p-0304
 ## 1339
@@ -213,6 +220,8 @@ Read through against both columns. Heading ## 1334 made from the image (the draf
 --- notes
 Read through against both columns. Heading lemma of 1340 is **κατέκανον** (draft "**ξ**. κατέκανον"); the further lemma **σέ τ’ αὖ τάνδ’** (draft "o€ τ᾽ ad τάνδ᾽") made its own paragraph; "—Not merely," joined back into the πᾷ κλιθῶ paragraph (draft "**Ν οἱ** merely," as a new paragraph). Also corrected: *O. C.* 725, *Tr.* 565 (draft 77.), *An.* 3. 1. 2 (draft 47.), MS. twice (small capitals), bold **ὅπᾳ**, **πᾷ** (twice), **πάντα γάρ**, **κλιθῶ**, **καὶ θῶ** inside their paragraphs as printed, καὶ θῶ (draft kal θῶ), ἴδω (draft w), Eurydicè (grave as printed), *O. T.* 72, *Od.* 6. 307.
 Checker: "ω" is the letter cited alone ("the ω of ἴδω"), not a word: no breathing.
+heading: 1340 f.
+heading: 1342 f.
 
 === p-0305
 + ‘whither I am to betake myself,’ ποῖ τράπωμαι; This is shown by λέχρια.
@@ -259,6 +268,9 @@ Checker: "ω" is the letter cited alone ("the ω of ἴδω"), not a word: no br
 --- notes
 Read through against both columns. Structure: "‘awry’:—τὰ πράγματα οὐκ ὀρθῶς ἔχει" is plain type after the dash: joined back into the paragraph and the bold taken away (the draft had made it a lemma paragraph); the further lemma **τὰ δ’ ἐπὶ κρατί μοι** κ.τ.λ. (draft "μου κατὰ.") read from the image; "—For the sentiment, cp. 1050 f." joined back into the τά γ’ εἰς θεούς paragraph (draft "**ον** the sentiment" as a paragraph); the draft's dash-cut at "—For the position" in 1349 kept in the paragraph as printed. Also corrected: MS., ‘…I handle.’, ‘not upright,’ (closing quotes), *erect*, *i.e.*, *prona*, bold **λέχρια** inside the paragraph, Shaksp. *Rich. II.* 2. 4. 24 and the English verse in italics (draft "Rick. 77."), καὶ (draft kal) twice, τῇ κεφαλῇ, *Rep.* 389 D (draft 380 Ὁ), ὡς, τὰ (draft Ta), bold **τάδ’** and **τὰ ἐν χεροῖν**, *all*, *ib.* 5. 56 (draft 26.). Open: in the 1349 lemma the accents of πληγὰς are covered by a pencil blot (a dark mark over η, a grey stroke over α); written πληγὰς as the play's text prints the word above on p-0306; please check on the scan.
 1349	rev: πληγὰς kept, still open: measured on p-0305-col-r.png, the stroke over α is mid-grey (pencil, like the reader's other marks), but the blot over η has a fully black core just above the letter, where a printed accent would stand; so the print may have an accent on η (a misprint πλήγας?) or the black is only the densest part of the pencil blot. Needs another copy of the edition to settle.
+heading: 1344 f.
+heading: 1347 f.
+heading: 1349 ff.
 
 === p-0306
 ## 1352

@@ -45,6 +45,7 @@
 The page begins with the end of ἐτέκ|ομεν (Eur. H. F. 458), divided between pp.: "ομεν" left out here (written whole at the end of p-0277 by the rule).
 1300-1301: the draft's scrambled lines of the two columns ("referring to Ph. a well-known 727 …", "φύσει fact (cp. O. T. …") re-ordered from the image; "τὰ πρῶτ’" and "φύσει μὲν" restored as lemmas.
 rev: five colons written closed up (spaced colon → ":"), as in the rest of the file (Jebb's thin space before a colon is typography)
+heading: 1304 f.
 
 === p-0279
 + πατρῴας ἥκων γενεᾶς ἄριστος. The conjecture **ἀριστεὺς** is needless, and is also less suitable, since it would imply a recognised rank which Teucer did not actually hold.
@@ -96,6 +97,9 @@ rev: five colons written closed up (spaced colon → ":"), as in the rest of the
 --- notes
 1306: the draft's scrambled lines restored from the image; "ὠθεῖς" restored as a further lemma (it was lost).
 "Menelaiis" of the draft is Menelaüs as printed (twice).
+heading: 1306 f.
+heading: 1308 f.
+heading: 1310 ff.
 
 === p-0280
 + Atreidae, when he speaks of himself as ἀνδράσι μαρνάμενος ὀάρων ἕνεκα σφετεράων, ‘for their lady-loves’ sakes,’—and asks, ἢ μοῦνοι φιλέουσ’ ἀλόχους μερόπων ἀνθρώπων | Ἀτρεῖδαι; Teucer speaks, at any rate, in the same vein. The words of Eustathius prove that he read τῆς σῆς, and that he understood the text in the manner explained above: ὁ Σοφοκλῆς... ποιεῖ τὸν Τεῦκρον λέγοντα τῷ Ἀγαμέμνονι ὅτι ὁ Αἴας διὰ τὴν αὐτοῦ γυναῖκα ἐν Τροίᾳ ἐμάχετο, ταὐτόν τι λογισάμενος τὸ διὰ τὴν αὐτοῦ καὶ διὰ τὴν τοῦ Μενελάου τοῦ ἀδελφοῦ.
@@ -157,6 +161,9 @@ The conciliatory temper of Odysseus is marked at once by the courteous form of a
 32 ἀρτίως [conf] → ok
 --- notes
 Headings from the image: the draft's "## 1318" for the note on τοὐμόν is 1313; "1915 ἐν ἐμοί" is 1315, "1816 f. καιρὸν" is 1316 (both made headings). The draft's "πά" split of the 1318 note joined again; the 1320 note's scrambled cross-column lines restored from the image.
+heading: 1316 f.
+heading: 1318 f.
+heading: 1320 f.
 
 === p-0281
 + tense as in *El.* 347 λέγεις .. ἀρτίως (‘you have just been saying’).
@@ -203,6 +210,7 @@ Headings from the image: the draft's "## 1318" for the note on τοὐμόν is 
 17 ξυνηρετμεῖν [greek] → ok (bold, as printed)
 --- notes
 The draft's cut at "it,—ἄμοιρον" joined again (a quotation of Ant. 1071, not bold). "Mss." small capitals written MS. as printed (singular).
+heading: 1326 f.
 
 === p-0282
 + ξυνήρετμος, which does not occur, but which would be like εὐήρετμος, etc. (ἐρετμόν, oar). **ξυνηρετεῖν** is formed from ξυνηρέτης (ἐρέτης, oarsman), a word recorded by Photius, who explains it by σύμφωνος, and compares ἀντηρέτης (Aesch. *Theb.* 283 ἀντηρέτας ἐχθροῖσι). In Eur. fr. 776. 3 (from Stobaeus *Flor.* 93. 2), ἆρ’ ὄλβος αὐτοῖς ὅτι τυφλὸς συνηρεφεῖ, Meineke restored συνηρετεῖ. In Eur. fr. 282. 7 the best texts of Athenaeus (413 D) have οὐδ’ αὖ πένεσθαι καὶ ξυνηρετεῖν τύχαις, though Schweighäuser, following Valckenär, gave ξυνηρετμεῖν: the true reading there, however, is found in Galen’s quotation of the verse (vol. I. p. 23), viz., κἀξυπηρετεῖν. [Hesychius gives ξυνηρετίσεις· συνήσεις. συζυγήσεις. Lobeck proposed to read ξυνηρετήσεις: but the interpretation by συζυγήσεις seems rather to favour a conjecture (Ruhnken’s?) mentioned in Alberti’s ed. of Hesychius, vol. II. p. 707, ξυναρτίσεις.]
@@ -260,6 +268,7 @@ For the metaphor, cp. *Ant.* 541 ξύμπλουν (n.). In Aesch. *Ag.* 842 the 
 35 Z7rag. [digit] → *Trag.*
 --- notes
 Heading 1330 taken from the image (the draft left "1880 1] γὰρ …" as text); its lemma's first word is ἦ. The draft's false lemma paragraph "ὈΥ the place οἵ οὐκ …" joined again: "—For the place of **οὐκ** after εἴην" (οὐκ bold inside the note). 1334 made a heading (the draft left "£ ἡ Bla." as text). Hesychius bracket closes with "]" as printed.
+heading: 1334 f.
 
 === p-0283
 + where he is describing the primitive life of mankind;—ἦν δ’ ὁ μὲν νόμος | ταπεινός, ἡ βία δὲ σύνθρονος Διΐ.
@@ -323,6 +332,9 @@ Heading 1330 taken from the image (the draft left "1880 1] γὰρ …" as text)
 31 f. [conf] → ok
 --- notes
 1338: the draft's cut of "ἔμπας=ὅμως" joined again with "="; the cut at "γ’.—ἀντατιμάζω" joined again (ἀντατιμάζω, at the top of the right column, is in the ordinary italic Greek, not bold). The uncial forms ΟΥΤΑΝ, ΟΥΚΑΝ(Τ)ΑΤΙΜΑΣΑΙΜ and the letters "Τ into Κ" written in Greek capitals (Jebb prints Greek uncials). 1340: "O. C. 562" of the draft is 563 in the print. 1344: the draft's "Tov ἐσθλὸν ἄνδρα" restored as the bold lemma τὸν ἐσθλὸν ἄνδρα.
+heading: 1336 f.
+heading: 1338 f.
+heading: 1344 f.
 
 === p-0284
 ## 1346

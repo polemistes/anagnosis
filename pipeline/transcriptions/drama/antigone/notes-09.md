@@ -50,6 +50,8 @@ Thus, in this ode, the scale of achievement ever ascends: man (1) conquers inani
 21  Schol. [conf] (Greek model: ΕΝ) → ok
 --- notes
 343: the lines of the Aristophanes quotation and the next sentence were interleaved by the OCR; rewritten from the image. 345: "—Ar. *Av.* 528 …" (dash followed by English) joined back into the paragraph on σπείραισι δικτυοκλ. 349: Ai. 181, Th. 133, Bacch. 1187, Crat. 394 E set from the image; ὀρεσσιβάτα and ἀμφὶ λόφον ζυγῶν (351) bold as printed. 350: stop after the lemma, not comma. Italics set.
+heading: 345 f.
+heading: 349 f.
 
 === p-0141
 + Rhod. 1. 743 κυρίως ἐστὶν ὀχμάσαι τὸ ἵππον ὑπὸ χαλινὸν ἀγαγεῖν ἢ ὑπὸ ζυγόν. The midd. voice does not occur elsewhere; but this cannot be regarded as an objection, when we remember how many rare middle forms occur in the dramatists. Thus προσορωμένα in *O. C.* 244 is a solitary example of that verb in the midd., and if the license could be taken with so common a word, much more might it be allowed with a comparatively rare one. Blaydes writes ὀχμάζει ὑπ’ ἀμφίλοφον ζυγόν: but the MS. ἕξεται indicates that the verb, whatever it was, was of the midd. form. ὀχμάζεται was published by G. Schöne in 1833, and by Franz in 1846: they appear to have made the conjecture independently. Donaldson (1848) printed ὀχμάζεται ἀμφὶ λόφον ζυγῶν, and seems to ascribe ζυγῶν to Franz and Schöne; though Franz, at least, proposed ἀμφὶ λόφον ζυγῷ. ζυγῶν has lately been revived (seemingly without knowledge of a predecessor) by H. Schütz (1886). Sophocles would write ΑΜΦΙΛΟΦΟΝΖΥΓΟΝ, and thus ζυγῶν changes no letter. Aesch. used the fut. ζυγώσω (fr. 110), and Soph. has the verbal ζυγωτῶν (*El.* 702). To ἀμφιλόφῳ ζυγῷ it may be objected that, being clear, it was not likely to become -ον -όν: but, when ἀμφίλοφον had once been written, ζυγῶν (or ζυγῷ) would easily become ζυγόν. As to the schol. on ἀμφίλοφον,—ἀντὶ τοῦ, περιβαλὼν αὐτῷ ζυγὸν περὶ τὸν λόφον, ὑπάγει,—it cannot fairly be urged for ζυγῶν (or for any partic.), since it may be merely a paraphrase of ἀμφίλοφον.—Schütz’s **ἐφέζεται** is attractive; for the acc. he cp. Aesch. *Eum.* 409 βρέτας...ἐφημένῳ, Eur. *Helen.* 1493 Εὐρώταν ἐφεζόμεναι. Add Aesch. *Ag.* 664 ναῦν θέλουσ’ ἐφέζετο. The sense would be, ‘seats himself behind the horse’ (in a chariot): cp. *Il.* 5. 46 ἵππων ἐπιβησόμενον, etc. But, though oxen were used for draught, ἐφέζεται suits ταῦρον less well. The sense, ‘*tames*,’ is clearly that which we require. See Appendix.
@@ -186,6 +188,7 @@ The draft cut the paragraph at "ἀμφίλοφον,—ἀντὶ τοῦ" and a
 "inhos-|pitable": the word is written whole at the end of p-0142. The draft cut 360 at "παντοπόρος,—καὶ σχεδὸν …" (Isocrates quoted in plain type): joined with the dash, bold removed. 361: "φεῦξιν—ἐπάξεται" is a bold lemma inside the paragraph (no dash before it), made a paragraph of its own under 361 as a further lemma; the draft had split it as "φεῦξιν. / **ἐπάξεται**". Menander: the print has αὐτοῦ (smooth), kept. Draft "**σπήλαια** ... Aaa", "Ξκεοὐδὲν", "érafbuefa", "15 subst." mended. Italics set (hills, Frag. Trag., procure, call in).
 "ι" and "ῑ" are the letter iota named by Jebb ("The ι of αἰθρία", "but ῑ is not"), not words: no breathing.
 361	rev: "οὐδέποτε ...ἐπαξόμεθα" closed up (the dots begin a printed line; Jebb sets his dots closed)
+heading: 361 f.
 
 === p-0144
 + quarter can he find help. It is surprising that so many recent critics should have confidently condemned ἐπάξεται, and sought to replace it by conjectures (see cr. n.).
@@ -234,6 +237,8 @@ The ode closes with a more direct reference to the incident which suggested its 
 19 IIAPEIPON [latin] (Greek model: ΠΑΡΕΙΡΟΝ.) → ΠΑΡΕΙΡΟΝ.
 --- notes
 Heading "365-8375" read as 365—375 from the image (## 365-375); its paragraph was cut at "Creon—ὑψίπολις" (plain Greek after a dash): joined, bold removed. 363: Helen. 799 (draft 709), Eq. 759. 365: O. T. 380 n., above, 10 (κακά). 367: the draft had interleaved two lines ("ποτὲ MSS., μὲν though answered …"): rewritten from the image; "δίκαν *" is δίκαν· (raised stop).
+heading: 363 f.
+heading: 365 f.
 
 === p-0145
 + 5. 67 ἐτίμων τὸν Ἄδρηστον καὶ δὴ πρὸς τὰ πάθεα αὐτοῦ τραγικοῖσι χοροῖσι ἐγέραιρον. Ar. *Th.* 960 γένος Ὀλυμπίων θεῶν | μέλπε καὶ γέραιρε φωνῇ.
@@ -296,6 +301,8 @@ The choral ode has closed with an allusion to the unknown *man* (**ὅς**: cp. 
 The page runs on from p-0144 ("cp. Her. | 5. 67"): `+ ` added. "975 ἔρδει" in the draft was the heading 375 (## 375 made). The word divided "mo-|ment" at the foot: the draft gives "mo-" here and "ment" on p-0146; written whole here ("At this moment") — see p-0146. 370: Th. 960, P. 8. 22, O. T. 510, ἁ δικαιόπολις, ἀντὶ ...πολιτῶν, ἄτην...ἀστοῖς, ἄπολίς (ἐστι) from the image; ἁδύπολις and ἁνδάνων with rough breathing (compared with ὑψίπολις on the same page). 372: ib. 240 n., Horace in italics, lemma ἴσον, but *Il.* 15. 50 ἶσον (circumflex) as printed; like-minded. ἔρδοι and ὅς bold as printed.
 ## 369: Jebb's number; our text has no 369 (his longer lyric lines).
 370	rev: "ἀντὶ ...πολιτῶν" closed up (the dots begin a printed line; Jebb sets his dots closed)
+heading: 370 f.
+heading: 372 ff.
 
 === p-0146
 + Antigone is led in by the Guard.
@@ -349,6 +356,9 @@ The page runs on from p-0144 ("cp. Her. | 5. 67"): `+ ` added. "975 ἔρδει"
 --- notes
 "mo-|ment": the word divided between the pages is written whole at the end of p-0145. 376: the further lemmas ἀμφινοῶ and δαιμόνιον τέρας follow dashes; ἐς bold inside the paragraph. 377: the draft cut at "εἶναι / ὅτι οὐκ ἐστί)" wrongly (bold οὐκ εἶναι inside the paragraph, joined); a further lemma ἀντιλογήσω after a dash made its own paragraph; O. T. 1419 (draft 1410), O. T. 980, Cyr. 2. 2. 20 αἰσχρὸν ὂν (=οὐ δεῖ). Hermann's conjecture is printed in bold with very close spacing "μὴ οὐ τήνδ’": written with the space. 379, 381: further lemmas (δ. πατρός, Οἰδιπόδᾱ; οὐ δή που, ἀπιστοῦσαν, ἄγουσι) each a paragraph; Οἰδιπόδᾱ with the printed macron; "in 1," is "in L".
 "ιν" is the ending Jebb names ("the final ιν of βασιλείοισιν"): no breathing.
+heading: 377 f.
+heading: 379 f.
+heading: 381 ff.
 
 === p-0147
 + colloquialism, it would be nearly as bad as, ‘Have they taken you up?’

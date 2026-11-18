@@ -42,6 +42,9 @@ The MSS. have **τιμὴν προέξουσ’ . . τῶν ἐνδ.**, shall *h
 23 ἕξουσι [conf] → ok
 --- notes
 p-0116: the draft had scrambled the two-column lines in note 203 ("(2) of Nauck’s (1) remark:—(e) ... is In not, favour indeed"): retyped from the image; "f£. φρόνημα" made the heading 207 (207 f.) with its lemma.
+heading: 203 f.
+heading: 205 ff.
+heading: 207 f.
 
 === p-0117
 + a constr. of προέχω occurs nowhere else. But the objection to rendering, ‘shall have the advantage of the just in honour’ (**τιμήν** as acc. of respect) is that, after προέχειν in this sense, the *point* of advantage was regularly expressed by the *dat.*: see examples on *O. C.* 1007. **τιμῇ** (A. Pallis) is most probable, since either TIMHI or τιμηι might easily have become the accus. before the verb. Hermann read **προσέξουσ’** (which I do not understand) because of the hiatus (but cp. *O. T.* 351 προεῖπας, *ib.* 107 αὐτοέντας); and because the honours claimed for Polyneices are only equal, not superior. But Creon’s meaning is explained by vv. 514 ff.: the honour is greater for a public foe than for a patriot.
@@ -77,6 +80,7 @@ I print Dindorf’s **κἀς** for **καὶ** in v. 212, not as thinking it ce
 24 Creon; [conf] → ok
 --- notes
 p-0117: a stray "45" at the end of a line removed; the draft's cut before "σὺ ταῦτα δρᾶσαι διανοεῖ" (plain type after "as=") joined back.
+heading: 211 f.
 
 === p-0118
 ## 213
@@ -103,6 +107,7 @@ In **παντί πού γ’** the enclitic που closely adheres to παντί
 16 said,—‘/z [conf] (Greek model: »αἱά, τό) → said,—‘*In
 --- notes
 The draft's cut after "different," (before "take care lest") joined back into one paragraph; the draft's cut at "—παντί που μέτεστί σοι" joined back (only μέτεστί is bold, παντί που plain).
+heading: 213 f.
 
 === p-0119
 + may be watchers of my mandate,’—being about to add, μὴ ἐπιχωρεῖτε.—Dindorf’s **πῶς ἂν...εἶτε** is supported by usage, as *O. T.* 765 πῶς ἂν μόλοι δῆθ’ ἡμὶν ἐν τάχει πάλιν; Nauck (*Cur. Eur.* 11. 79) refuses εἶμεν and εἶτε to tragedy, but is not convincing. In *O. T.* 1046 εἰδεῖτ’ (for εἰδείητε) is certain: and εἶτε for εἴητε is strictly parallel. εἶτε occurs in *Od.* 21. 195 ποῖοί κ’ εἶτ’ Ὀδυσῆϊ ἀμυνέμεν, εἴ ποθεν ἔλθοι; In Eur. *Alc.* 921 ἦμεν might replace εἶμεν: though in *Hipp.* 349, at least, the opt. εἶμεν seems required. But πῶς ἂν εἶτε is here less fitting than ὡς ἂν ἦτε, because a request is less suitable than an injunction.
@@ -164,6 +169,9 @@ The draft's cut after "different," (before "take care lest") joined back into on
 30 Cp. [conf] → ok
 --- notes
 The draft had lost the heading of 216 and scrambled its lines ("task 216 (cp. f. ny 1249) ..."): retyped from the image. The lemma of 218 (τί δῆτ’ ἂν...ἐπεντέλλοις) was split from its "=τί δῆτ’ ἂν εἴη..." gloss; joined. Nauck "(*Cur. Eur.* 11. 79)": the old-style figures "11" and the numeral "II" look alike in this type; written as figures.
+heading: 216 f.
+heading: 218 f.
+heading: 220 ff.
 
 === p-0120
 + requital of disobedience is that.’ For καὶ μήν so used, cp. *O. T.* 836, 1004 f., *El.* 556.
@@ -237,6 +245,7 @@ The draft had lost the heading of 216 and scrambled its lines ("task 216 (cp. f.
 --- notes
 "(ᾱ)" after ἐξάρας is Jebb's mark of the long alpha, a letter alone, printed without breathing (the checker's remark on it is expected).
 The quotation "ἄναξ, ἐρῶ μὲν οὐχ ὅπως σπουδῆς ὕπο" (plain type after "thus:—") joined back into its paragraph; the lines of the 224 note (from "Cp. Arist. De Anim." to "κυκλῶν") were scrambled in the draft and are retyped from the image.
+heading: 224 ff.
 
 === p-0121
 ## 228
@@ -279,6 +288,7 @@ The quotation "ἄναξ, ἐρῶ μὲν οὐχ ὅπως σπουδῆς ὕ
 15 7". [conf] → *T.* (*O. T.* 442 n.)
 --- notes
 "cp. on 158 ἐρέσσων" (the draft read 138); a stray "τ" before **μένεις** (the dash) removed; "οἱ Ἀττικοὶ" and "ἡμεῖς, ἁνύειν" (comma) from the image; the rough breathings of ἁνύττειν, ἁνύειν are printed.
+heading: 228 ff.
 
 === p-0122
 + ἐκλιπεῖν τὴν πόλιν. That μολεῖν should not be regarded as the subject to ἐνίκησε, is shown by such an example as Her. 8. 9 ἐνίκα τὴν ἡμέρην ἐκείνην αὐτοῦ μείναντάς τε καὶ αὐλισθέντας μετέπειτα νύκτα μέσην παρέντας πορεύεσθαι, where the length of the interval excludes such a view. The personal constr. occurs below, 274; cp. Thuc. 2. 12 ἦν...Περικλέους γνώμη...νενικηκυῖα.
@@ -331,6 +341,7 @@ The quotation "ἄναξ, ἐρῶ μὲν οὐχ ὅπως σπουδῆς ὕ
 --- notes
 "*Per.* 1. 1. 49" and "*Il.* 13. 393" were broken over a false paragraph in the draft: joined; "Eur. *Or.* 497" (the draft read 407), "*Ai.* 807", "*P. V.* 358" from the image. "=ὅτι οὐ" is plain type: joined to the lemma τὸ μὴ παθεῖν ἄν; it runs on to p-0123. κεἰ and κεἴ σοι (acute) as printed.
 rev: κεἲ → κεἰ (twice: the lemma and "For κεἰ as="): the print has the coronis only, no grave (κεἴ σοι has breathing and acute).
+heading: 235 f.
 
 === p-0123
 + πάθοιμι ἄν, depending on ἐλπίδος...δεδρ. as=ἐλπίζων: for the art. with infin., cp. 78 n.
@@ -388,4 +399,6 @@ rev: κεἲ → κεἰ (twice: the lemma and "For κεἰ as="): the print has
 35 off).—To6 [digit] → off).—τὸ (new paragraph **τὸ πρᾶγμα**)
 --- notes
 The draft's false paragraph break at "Cp. | 1033" (foot of the left column, top of the right) joined; "στοιχίζειν was so used" (the draft read 50); αὑτῶν (Lach. 178 B) has the rough breathing in the print.
+heading: 237 f.
+heading: 241 f.
 

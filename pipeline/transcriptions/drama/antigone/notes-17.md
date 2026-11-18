@@ -60,6 +60,8 @@
 --- notes
 Last word "honour-|ing" divided between pages: written whole here.
 rev: διπλῇ at the head of the page is in the bold type in the print: bolded.
+heading: 726 f.
+heading: 728 f.
 
 === p-0205
 + law-breakers?—*H.* I should not dream of honouring wrong-doers.—*C.* Is not she, then, a wrong-doer?’ Doubtless, Creon could also say,—‘Does not she, then, honour wrong-doers (Polyneices)?’ Here, however, his point is that *she* is a rebel,—not, that her brother was a traitor.—For the fig. use of νόσος, cp. 1052, and n. on 653.
@@ -380,6 +382,9 @@ El. 628 χρῄζοιμ’: the mark over the η is not clear in the print; writ
 --- notes
 766: Il. 7. 111 the print has ἀμείμονι, an evident misprint for ἀμείνονι: corrected.
 762: the heading is "762 ff." in the print; the draft had lost the bold "f." lemma structure (the line "ΟἹ. ἐν 587 ... ἴδωμαι," was garbled): rewritten from the image.
+heading: 760 f.
+heading: 762 ff.
+heading: 766 f.
 
 === p-0211
 + αἱρήσοιμ’ ἰών: *Ai.* 304 ὅσην κατ’ αὐτῶν ὕβριν ἐκτίσαιτ’ ἰών. So here it scornfully suggests some daring enterprise.
@@ -426,4 +431,5 @@ For **δ’ οὖν** cp. 688, 722.
 --- notes
 769: heading "769 f." in the print: ## 769; the note opens in English ("For **δ’ οὖν** cp. 688, 722."), the draft's "2." removed.
 773: the draft had split the lemma; the print has **ἔνθα**=ἐκεῖσε ἔνθα as one paragraph.
+heading: 769 f.
 

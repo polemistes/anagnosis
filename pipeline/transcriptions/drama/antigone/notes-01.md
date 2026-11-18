@@ -70,6 +70,7 @@ The words **κοινὸν** (kindred) **αὐτάδελφον** (very sister) fo
 --- notes
 Checker: the page begins with Jebb's scene description, before the first heading; kept there as the brief says (the merge files it under ## 1-99).
 Pencil handwriting at the foot of both columns (read by the OCR as lines of garbage) deleted. The draft's cut at "—κοινόν" undone: κοινόν there is in the plain italic Greek, not a bold lemma. "pathethic" is printed; corrected to "pathetic" as an evident misprint. "Lys. or. 42 § 4" is as printed (the words ἀδελφοὶ ... ὁμοπάτριοι καὶ ὁμομήτριοι stand in Lys. 32 § 4; left as printed, for the user to judge).
+heading: 2 f.
 
 === p-0077
 + word, because the whole is felt as=τί Ζεὺς ὁποῖον οὐ τελεῖ;—The main objection to reading **ὅτι**, and taking ὁποῖον as substituted for the direct ποῖον (‘that he fulfils—what not?’) is the shortness of the sentence.
@@ -120,6 +121,7 @@ Paley (*Journ. Ph.* 10. 16) regards these three verses as interpolated, because 
 29 Τοαι [greek] → Todt.
 --- notes
 The draft's lines 4 (from "will be found" to "B.C.") were scrambled by a crack in the paper: rewritten from the image. "(as ἀτηρ″)": the print sets a double raised stroke (sign of abbreviation) after ἀτηρ; written as ″. "not-free" kept with Jebb's hyphen (it falls at a line end; the compound renders οὐκ ἄτερ). Heading "5 f." made ## 5.
+heading: 5 f.
 
 === p-0078
 + ὄπωπα,—‘which I have not seen as belonging to, being in the number of,’ our woes. For the omission of ὄν cp. *O. C.* 694 ἔστιν δ’ οἷον ἐγὼ γᾶς Ἀσίας οὐκ ἐπακούω.
@@ -234,6 +236,8 @@ The draft's lines 4 (from "will be found" to "B.C.") were scrambled by a crack i
 Checker: “οι” and “ω” in ## 14 are letters cited (“with οι written over ω”), not words: no breathing, as printed.
 "tions" at the head of the page left out (the word is written whole at the foot of p-0078). Heading "11 f." made ## 11, "15 ff." ## 15. The draft's ## 14 paragraph (words out of order around "So in El. 1297 ... L has") rewritten from the image. New paragraphs for the bold lemmas after dashes: Ἀντιγόνη, φίλων, ἐξ ὅτου (11), διπλῇ χερί (14), ἐν νυκτὶ τῇ νῦν, ὑπέρτερον (15); "—As οἶδ’ ..." stays (English after the dash).
 14	rev: "ἀμφοῖν =ἐξ" closed up to "ἀμφοῖν=ἐξ" ("=" between Greek words; the space was only the line break)
+heading: 11 f.
+heading: 15 ff.
 
 === p-0080
 ## 18
@@ -269,6 +273,7 @@ Checker: “οι” and “ω” in ## 14 are letters cited (“with οι writte
 Checker: “ω” is the ending in Jebb's division πορ-φύρ-ω, as printed.
 The draft's false paragraph "**Ἰ κα** heaving water…" (a break inside the καλχαίνουσ’ paragraph) joined again: "‘to be agitated,’—like heaving water". "18 ff." made ## 18. The Greek of Il. 14. 16 is printed ὥς δ’ ὅτε … ὣς ὁ γέρων (accents as printed). Greek in the right column (ἔπος, Κάλχας, πορφύρα …) is the ordinary Greek type, not bold.
 20	rev: Il. 14. 16 "ὥς δ’ ὅτε" made ὡς δ’ ὅτε (the print has the rough breathing only, no acute; seen enlarged)
+heading: 18 ff.
 
 === p-0081
 + is figuratively used like the Homeric πορφύρω. In πορφύρω the idea of trouble precedes that of colour: in καλχαίνω, *vice versa*.
@@ -308,6 +313,8 @@ The draft's false paragraph "**Ἰ κα** heaving water…" (a break inside the 
 20 Zl [rare] → *Il.*
 --- notes
 "21 f." made ## 21, "23 f." ## 23. The draft's false paragraph at "ΤῊ 8 place of τάφου" joined again (an English dash, "—The place"); "ἀτιμάσας ἔχει" (bold after a dash) made its own paragraph. In ## 23 the draft's break before "δίκῃ καὶ νόμῳ δικαίως χρώμενος" (plain Greek after "=") undone, and the paragraph "γόμον" corrected to **νόμου** (bold lemma after "?—").
+heading: 21 f.
+heading: 23 f.
 
 === p-0082
 + Patroclus to Achilles) θάπτε με ὅττι τάχιστα, πύλας Ἀΐδαο περήσω. | τῆλέ με εἴργουσι ψυχαί, εἴδωλα καμόντων, | οὐδέ μέ πω μίσγεσθαι ὑπὲρ ποταμοῖο ἐῶσιν.
@@ -353,6 +360,7 @@ Take **πρὸς χάριν βορᾶς** with γλυκὺν θησαυρόν, n
 21 οἱ [conf] → or
 --- notes
 The draft's paragraphs of ## 27 (τὸ μὴ...καλύψαι) and ## 29 were scrambled across lines (the OCR mixed two lines at a time): both rewritten from the image. The draft's false paragraph "**Ἰ**, has ἄταφον ἄκλαυτον" joined again ("—L has **ἄταφον ἄκλαυτον**", English after the dash). "27 f." made ## 27. In ## 29 Jebb sets τινα and πάντας (in the quotation of O. T. 238 ff.) letter-spaced for emphasis: written plain, since the file has no form for spaced Greek inside a quotation. "Eur. *Hec.* 30 | ἄκλαυτος" as printed (a verse-mark before the quoted words).
+heading: 27 f.
 
 === p-0083
 + an adverb, it means literally, ‘with a view to gratification’: hence (*a*) when the χάρις is one’s own, ‘*at pleasure*,’ as Philoctetes calls the birds (*Ph.* 1156) κορέσαι στόμα πρὸς χάριν, to glut their beaks on him ‘as they will’: (*b*) when the χάρις is another’s, ‘so as to *give* pleasure,’ ‘*graciously*,’ as *O. T.* 1152 σὺ πρὸς χάριν μὲν οὐκ ἐρεῖς. (2) A genitive after πρὸς χάριν can denote (*a*) that *in which* the χάρις consists, as βορᾶς here: or (*b*) the person or thing *whose* the χάρις is, as below, 908, τίνος νόμου...πρὸς χάριν; ‘in deference to what law?’ Eur. *Med.* 538 νόμοις τε χρῆσθαι μὴ πρὸς ἰσχύος χάριν, ‘not at the pleasure of force,’—*i.e.* not so that force can do what it pleases. Here, **πρὸς χάριν** βορᾶς differs from a simple χάριν βορᾶς by implying the same notion as the adverbial πρὸς χάριν in *Ph.* 1156 quoted above: ‘to feast on *at their pleasure*.’—Eustathius on *Il.* 8. 379 (p. 719. 9) defines carrion-birds as τοῖς πρὸς χάριν ὁρῶσι βορᾶς τῆς ἀπὸ τῶν σαρκῶν. It cannot be doubted that he was thinking of our passage, and that his text, like ours, had εἰσορῶσι: but, using the simple ὁρῶσι, he has made a new phrase, ‘*looking to* pleasure in food,’ and his words afford no argument for joining πρὸς χάριν with εἰσορῶσι here.
@@ -398,3 +406,4 @@ Two other explanations may be noticed. Both make **σοι** enclitic. (1) Taking
 25 --τοῖσι [conf] → **τοῖσι** (new paragraph after the dash)
 --- notes
 The draft's "91 f. ool" made the heading ## 31 ("31 f.") with **σοί**. "In Ai. 569 where L has Ἐριβοία" — Jebb writes the breathing as an apostrophe before the capital ('Ερ-); written Ἐριβοία. In (2) the draft's "σου" corrected to σοι (bold). The draft's "Here, **πρὸς χάριν** βορᾶς": πρὸς χάριν is bold in the print, βορᾶς plain (kept so).
+heading: 31 f.

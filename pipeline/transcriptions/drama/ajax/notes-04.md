@@ -41,6 +41,7 @@
 153: the draft had scrambled the two lines of the Pausanias quotation; reordered from the image.
 157: "—ὁ φθόνος." is a bold lemma after a dash: made a new paragraph.
 154	rev: lemma τῶν..μεγάλων ψυχῶν with Jebb's two dots (the draft had "τῶν... μεγάλων")
+heading: 154 f.
 
 === p-0119
 + λαμπρὸν ὁ φθόνος βιάζεται (λιάζεται Wecklein).
@@ -99,6 +100,8 @@
 27 k.T.\., [conf] (Greek model: ἀκ, τιλο) → κ.τ.λ.,
 --- notes
 (2): the draft had "Ant 158"; the print reads *Ant.* 155.
+heading: 160 f.
+heading: 164 ff.
 
 === p-0120
 + place a comma after αἰγυπιόν, and govern it by ἀποδρᾶσαι supplied from **ἀπέδραν**.
@@ -221,6 +224,8 @@ It is possible that Sophocles here was thinking *only* of the Ταυροπόλο
 175	rev: lemma πανδάμους..βοῦς with Jebb's two dots (the draft had "πανδάμους... βοῦς")
 176	rev: lemma ἤ ῥα..ψευσθεῖσα ἐνάρων with two dots (the draft had three and a space); νίκας..χάριν (twice) and λέγοιμ’ ἂν..νόμον closed up as printed
 176	rev: "the *disjunctive* ἢ" with the grave as printed (the draft had ἤ)
+heading: 173 f.
+heading: 176 ff.
 
 === p-0122
 **ἀδώροις..ἐλαφαβολίαις**: for the causal dat., cp. *Tr.* 1127 τοῖς γε πρόσθεν ἡμαρτημένοις (n.). Those who retain the MS. reading **δώροις** understand: ‘deceived either *by gifts* of spoils (promised, but not given), or in regard to slaying of deer.’ (Nauck, reading the genitive ἐλαφαβολίας, takes δώροις with that also.) But this is awkward. And, in support of **ἀδώροις**, it should be noted that Sophocles elsewhere also has co-ordinated a causal dat. with a partic. (or adj.) of causal force, like ψευσθεῖσα here. See *Tr.* 239 ΔΗ. εὐκταῖα φαίνων, ἢ ’πὸ μαντείας τινός; ΛΙ. εὐχαῖς (‘for a vow’). *O. C.* 333 ΟΙ. πότερα πόθοισι; ΙΣ. καὶ λόγων γ’ αὐτάγγελος.
@@ -365,6 +370,9 @@ Ant. 752: the draft had ἢ; the print reads ἦ.
 “η” (the form in η) is a letter, printed without breathing.
 183	rev: lemma ἐπ’ ἀριστερὰ..ἔβας with Jebb's two dots (the draft had "ἀριστερὰ... ἔβας")
 186	rev: lemma Ζεὺς...Φοῖβος closed up as printed (the draft had "Ζεὺς... Φοῖβος")
+heading: 180 f.
+heading: 183 ff.
+heading: 186 f.
 
 === p-0124
 ## 188
@@ -421,6 +429,8 @@ The simplest remedy is that which is proposed by Prof. v. Wilamowitz-Möllendorf
 188: the draft had "ποῖ μεγάλοι βασιλῆς" for **οἱ μεγάλοι βασιλῆς** (bold after a dash: kept as its own paragraph). 190: "ἀσι του" is **ἀσώτου**. 191: the metrical scheme read "—~—," is – – ⏑ – in the print.
 “-ῆς” and “-εὺς” are endings, printed without breathing.
 191	rev: *El.* 123 ff. τάκεις..οἰμωγὰν..Ἀγαμέμνονα closed up (the draft had a space where the print breaks the line before the dots)
+heading: 188 f.
+heading: 191 f.
 
 === p-0125
 + *within* his tent is not then expressed.
@@ -481,3 +491,5 @@ The draft headed the note on 193 as a second `## 191`; the print reads "193 f.":
 196: Pind. *O.* 7. 45 (the draft had "*O. T.* 45").
 “α”, “ᾰ”, “ᾱ” are letters (vowel quantity), printed without breathing.
 193	rev: lemma ὅπου..ποτέ closed up (the print breaks the line before the dots; Jebb sets .. closed elsewhere)
+heading: 193 f.
+heading: 196 f.

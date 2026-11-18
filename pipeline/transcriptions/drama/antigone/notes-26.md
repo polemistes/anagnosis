@@ -46,6 +46,7 @@ For ζῆν, **ζών** has been proposed: but the Epic and Ionic ζώς does no
 --- notes
 Read through: draft's second paragraph ("ὅ5ες Appendix") was the end of the first ("τὰς γὰρ ἡδονάς.—See Appendix"), rejoined; οὐ τίθημι made a bold lemma; ἔμψ. νεκρόν made a lemma paragraph; garbled Greek and references in 1168 (Anthol. P., ib. 10. 43) restored; προδῶσιν, ἄνδρες, ἀνδρός, καὶ γὰρ ἡδοναί, ζών bold as printed; Latin-letter Greek (kal, yap, Tis) corrected.
 1166	rev: "sidered" deleted from the run-on: "con-|sidered" is written whole at the foot of p-0275 (notes-25)
+heading: 1168 f.
 
 === p-0277
 + (nom., καπνοῦ σκιά). *Ph.* 946 οὐδ’ οἶδ’ ἐναίρων νεκρὸν ἢ καπνοῦ σκιάν, | εἴδωλον ἄλλως. Aesch. fr. 390 τὸ γὰρ βρότειον σπέρμ’ ἐφ’ ἡμέραν φρονεῖ, | καὶ πιστὸν οὐδὲν μᾶλλον ἢ καπνοῦ σκιά. So Soph. fr. 12 ἄνθρωπός ἐστι πνεῦμα καὶ σκιὰ μόνον. Cp. Pind. *P.* 8. 95 σκιᾶς ὄναρ | ἄνθρωπος. Aesch. *Ag.* 839 εἴδωλον σκιᾶς.
@@ -96,6 +97,8 @@ Read through: draft's second paragraph ("ὅ5ες Appendix") was the end of the 
 21 auol [latin] → ἁμοὶ
 --- notes
 Read through: draft had split "βασιλέων=τυράννων" and "φονεύει=ὁ φονεύς ἐστιν" into false lemma paragraphs: rejoined with "=". Figures from the image: Aesch. fr. 390 (draft 300), Pind. P. 8. 95, Ag. 839 (draft 830), v. 1190 (draft 1100), Legg. 872 B; Tr. 316, Ach. 812, Xen. H. 6. 4. 35 restored. ὁ κείμενος made a lemma paragraph. "Eurydicè" as printed (grave on the e).
+heading: 1172 f.
+heading: 1177 f.
 
 === p-0278
 ## 1179
@@ -149,6 +152,8 @@ Read through: draft had split "βασιλέων=τυράννων" and "φονε�
 25 βάλλει: [conf] → ok
 --- notes
 Read through: the 1180 note was garbled (Scut. 83, the ὁμοῦ=ἐγγύς lemma and Ai. 767 / Ph. 1218 rebuilt from the image); "ὁμοῦ" and "ἐγγύς" had been split into two lemma paragraphs: joined with "="; the 1184 lemma (draft "ξ.") restored; bold πάρεστι βουλ. τὰ ἄλλα, βουλεύειν, τὰ ἄλλα, προσήγορος kept inside their paragraphs; Ai. 551, Cyr. 8. 3. 19, ib. 1437, O. T. 919 corrected.
+heading: 1184 f.
+heading: 1186 f.
 
 === p-0279
 + the sound (cp. 1172 f. n.). For the temporal parataxis with **τε...καί**, cp. Xen. *An.* 1. 8 § 1 ἤδη τε ἦν ἀμφὶ ἀγορὰν πλήθουσαν καὶ πλησίον ἦν ὁ σταθμός: so *ib.* 4. 2. 12, 4. 6. 2, *Cyr.* 1. 4. 28. So with καί alone, *O. T.* 718 n.
@@ -257,6 +262,9 @@ Read through: οἰκείου follows a dash in bold: new paragraph; "πρὸς 
 --- notes
 Printing slip: the 1194 note prints "ὧν=τουτοις ὧν" without an accent on τουτοις (worn or dropped type); written τούτοις.
 Read through: the 1192 lemma runs to παρήσω (bold through κοὐδὲν παρήσω); "ὧν with ψεῦσται" and "ὀρθόν" follow dashes in bold: new paragraphs, "νηλεές" likewise; italics both/and/as/so, pedissequus set; Tr. 626, cp. 206 (draft "Cp. 200"), Ph. 1715 corrected; "Hecatè" as printed; "=" restored (=fabricators, as=‘to guide’, ἄκρον=the).
+heading: 1192 f.
+heading: 1194 f.
+heading: 1199 f.
 
 === p-0281
 + offerings were left for her. (Τριοδῖτις, *Trivia*: Theocr. 2. 36 ἁ θεὸς ἐν τριόδοισι.) Sophocles in his Ῥιζοτόμοι gave an incantation by Medea, invoking Helios and Hecatè (fr. 490, schol. Apoll. Rhod. 3. 1214): Ἥλιε δέσποτα καὶ πῦρ ἱερόν, | τῆς εἰνοδίας Ἑκάτης ἔγχος, | τὸ δι’ Οὐλύμπου πωλοῦσα φέρει (which she bears when she moves through the sky, as Selenè), | καὶ γῆς ναίουσ’ ἱερὰς τριόδους, | στεφανωσαμένη δρυῒ καὶ πλεκταῖς | ὠμῶν σπείραισι δρακόντων. The last two lines refer to a custom of representing her as crowned with serpents, and with chaplets of oak-leaves. Creon invokes her along with Pluto (Hades, *O. T.* 30 n.), because on earth she represented the χθόνιοι. As ἐνοδία, she was more especially associated with Hermes ἐνόδιος and ψυχοπομπός: hence she was sometimes called ἄγγελος.
@@ -313,6 +321,8 @@ Read through: the 1192 lemma runs to παρήσω (bold through κοὐδὲν �
 Printing slips: Her. 1. 160 is printed "οὐ γᾶρ" (circumflex): written γὰρ. In the 1204 note "167 τουτ’ αὖθις" is printed without an accent: written τοῦτ’.
 Read through: the 1201 lemma is λούσαντες alone (ἁγν. λουτρόν in plain type); "901" (draft "ροι"), [Dem.] or. 43 § 71, Ph. 1626, Ai./Introd. references and Th. 731 from the image; Jebb's macrons kept (κρᾱν, βούκρᾱνος, ταυρόκρᾱνος); "oak-leaves" divided at a line end, written with the hyphen; ὃ δὴ and ’λέλειπτο made lemma paragraphs; "ch. II." as printed; Latin-letter Greek (kal, ol) corrected; "=" restored.
 1201	rev: συγκατήθομεν → συγκατῄθομεν (the print has the iota subscript)
+heading: 1201 f.
+heading: 1204 f.
 
 === p-0282
 + For αὖθις as=‘afterwards,’ cp. *Ai.* 1283, *Tr.* 270.
@@ -383,6 +393,8 @@ Read through: the 1201 lemma is λούσαντες alone (ἁγν. λουτρό�
 37 Ὁ. [conf] → n.
 --- notes
 Read through: the 1213 note had been lost inside the 1210 note ("—1213 τάλας f. τῶν ..."): rebuilt from the image as ## 1213 (the print has "1213 f."), with ὦ τάλας as a lemma paragraph under 1210; "ἔπος (=θρῆνον) δυσθρήνητον" bold as printed (the bracket plain); "ἔπος" and "θρῆνον) δυσθρήνητον" had been split into two paragraphs: joined; λιθόστρωτον and κόρης νυμφεῖον Ἅιδου follow dashes in bold: lemma paragraphs; περιβαίνει likewise; the lemma "νυμφεῖον-Ἅιδου" has a hyphen in the print, kept; Tr. 298 (draft "77. 208"), cp. 28, 204, 1302 corrected; "bridal-chamber" divided at a line end, written with the hyphen as the edition's other places have it.
+heading: 1210 f.
+heading: 1213 f.
 
 === p-0283
 + which *appeals for recognition* by vividly striking our senses. Like *arridere*, the word usually implied a sensation of pleasure (*O. C.* 319 n.). But it could also denote, as here, a recognition attended by pain. So in Eur. *Hippol.* 862 f., where Theseus recognises the seal on the tablets left by his dead wife, he says τύποι...προσσαίνουσί με.

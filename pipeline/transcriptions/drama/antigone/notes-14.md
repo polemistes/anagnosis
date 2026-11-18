@@ -40,6 +40,8 @@ The sentence of death just passed on Antigone leads the Chorus to reflect on the
 --- notes
 The page begins with a new, indented paragraph of the note on 582-625 (on p-0179): no `+ `, as the brief says; the checker's remark on it is expected. Draft's "**ναι** mortal" was "What mortal", run on in the same paragraph after a dash: joined. The draft's cut before ἄτας kept (bold lemma after a dash), the lemma completed **ἄτας οὐδὲν ἐλλείπει**; **γενεᾶς ἐπὶ πλῆθος** made a new paragraph (bold after a dash). "the second ι": the letter as printed (the checker's breathing remark on it is expected). Corrected among others: act. (was οί.), *O. T.* 969, Eur. *Alc.* 1069 ὡς ἄρτι, ἀρά, Laïus, (*O. T.* p. xix.), οἷς=τούτοις οἷς, Dem. or. 18 § 92 (was 8), *Mem.*, *Phaedr.*, ‘*in* speaking,’ γενεᾶν, *Legg.* 628 D, ἡγοῖτό, ‘generosity.’ (closing quote), italics set from the image.
 582	the page begins with a new, indented paragraph of the note before (## 582-625, whose heading ends p-0179): "The sentence of death …": no '+ ' (settled at the merge, 2026-11-17).
+heading: 583 ff.
+heading: 586 ff.
 
 === p-0181
 + from Thrace.’ Construe: **ὅταν οἶδμα**, when a surge, **ποντίαις δυσπν. Θρ. πνοαῖς**, driven by stormy sea-winds from Thrace (instr. dat., cp. on 335 νότῳ), **ἐπιδράμῃ ἔρεβος ὕφαλον**, rushes over the dark depths of the sea (lit., the darkness under the surface of the sea). For δυσπν. πνοαῖς, cp. 502 n.: for **Θρῄσσαισιν**, Aesch. *Ag.* 192 πνοαὶ δ’ ἀπὸ Στρυμόνος μολοῦσαι, *ib.* 654 Θρῄκιαι πνοαί (and 1418): *Il.* 9. 5 (where the tumult in the breasts of the Greeks is likened to a storm) Βορέης καὶ Ζέφυρος, τώ τε Θρῄκηθεν ἄητον.
@@ -91,6 +93,8 @@ The page begins with a new, indented paragraph of the note on 582-625 (on p-0179
 --- notes
 Read through against both columns. Corrected among others: ‘stormy sea-winds | from Thrace.’ (the word "winds" written whole at the end of p-0180), lemmas **ὅταν οἶδμα**, **ποντίαις δυσπν. Θρ. πνοαῖς**, **ἐπιδράμῃ ἔρεβος ὕφαλον**, **Θρῄσσαισιν** set bold as printed; Θρῄκιαι, Θρῄκηθεν (ῃ as printed), *ib.* 654, *Il.* 9. 5, *Ph.* 1124, *Il.*, ταράττεις, Verg. *G.* 3. 240 (Latin in italics), θῖνα, *i.e.*, **στόνῳ βρ.** (lemma as printed; draft had στόνῳ alone), *Od.* 5. 417, *i.e.* by the ever-returning, καὶ (was kal), **ἀρχαῖα** (draft "**Φ**- ἀρχαῖα"), Laïus, *Tr.* 306 (was 77.), φθῐτῶν (breve as printed), MSS., *Alc.* 100. Misprint corrected: Jebb prints ἠΐονάς (acute on α as well as on the ι with diaeresis) in the Homeric quotation; written ἠϊόνας (Od. 5. 418). The stray ". " after "adv." deleted.
 rev: ἠϊόνας → ἠϊόνάς: the acute on the last syllable is the printed enclitic accent before τε (proparoxytone + enclitic), not a misprint, and is kept; only the misplaced acute (on ϊ instead of ό) is corrected.
+heading: 590 ff.
+heading: 593 f.
 
 === p-0182
 ## 596
@@ -125,6 +129,8 @@ rev: ἠϊόνας → ἠϊόνάς: the acute on the last syllable is the prin
 17 ἀμᾷ,Ξε [conf] → ἀμᾷ,=καταμᾷ
 --- notes
 Read through against both columns. **γενεὰν γένος** (bold after a dash) made a new paragraph under 596. Corrected among others: τινὰ (was Twa), 1067 νέκυν νεκρῶν (draft 1007), *Ai.* 475, ‘the Labdacid house,’, *i.e.*, *Tr.* 1171, (1) (was I), bold lemmas inside the paragraph (ὃ τέτατο, ἐτέτατο, κατ’ αὖ, ὑπέρ, ὅπερ, νιν, φάος, ἐσχάτη ῥίζα, θάλος, τέτατο, ῥίζας) set from the image, κᾆτ’, ἇς ὑπὲρ, ‘a grammatical’, *hope*, *persons*, φάος (was ¢dos), *Il.* 18. 102, *Hec.* 841, To say, *Ai.* 1178, *Ph.* 831, *Op.*, *Rep.*, "as violent as needless" (a stray « deleted), *O.* 2. 46, *El.* 765, Lucian *Tyr.* 13, ‘mows down’ =καταμᾷ αὖ, *Classical Review*, vol. II. p. 139. ## 599: Jebb's number; our text has no 599 (his longer lyric lines).
+heading: 596 f.
+heading: 601 f.
 
 === p-0183
 (1) If **κόνις** be right, κόνις θεῶν τῶν νερτέρων is the dust, belonging (due) to the gods infernal, which Antigone strewed on her brother’s corpse; it is φοινία, because the corpse was gory. The strongest point in favour of κόνις is that it is in harmony with the following words, λόγου τ’ ἄνοια καὶ φρενῶν ἐρινύς. The whole sense then is: ‘She, too—the last hope of the race—is now to die,—for a handful of blood-stained dust (*i.e.*, for a slight, yet obligatory, act of piety towards her slain brother)—and for those rash words to Creon,—the expression of her frenzied resolve.’ On the other hand, the objection to κόνις is the verb **καταμᾷ**, which implies the metaphor of reaping. (See Appendix.) The proposed version, ‘covers,’ is impossible, and, if possible, would be unsuitable. What we want is a verb meaning simply ‘destroys,’ or ‘dooms to death.’ Now it is true that Greek lyric poetry often tolerates some confusion of metaphor (see on v. 117, and cp. *O. T.* p. lviii): the question is whether this example of it be tolerable. Prof. Tyrrell holds that it is excused by the tumult of feeling in the mind of the Chorus. That is, the metaphor of a young life ‘mowed down’ is not completed by a mention of the *agent*, the Destroyer: it is swiftly succeeded in the speaker’s thought by a dramatic image of the *cause*, Antigone sprinkling the dust, and defying Creon. This is conceivable; but it is at least extremely bold.
@@ -231,6 +237,8 @@ I doubt whether the dat. **χρόνῳ** could be instrumental or causal here (�
 23 — [conf] → ok
 --- notes
 Read through against both columns. **ἄκματοι** (bold after a dash) made a new paragraph under 607. The draft's false cuts "**πῶς**;" and "**πρῶτον μὲν γῆ…**" (plain Greek of the Plato quotation, after dashes) joined back with the dashes. Corrected among others: bold **οὔτε θεῶν ἄκματοι**, **θεῶν**, **θεῶν μῆνες**, **οὔτε**; *Hom. hymn. Apoll.*, *Il.* 2. 134, ὥρας, ‘the months *of the gods*’, *e.g.*, ῥᾴδιον, *ib.* 809 D, εἰς μηνῶν περιόδους, κ.τ.λ., θεῶν <νιν> (Jebb's angle brackets as printed), *life*, *supremacy*, *Il.* 18. 239 ἠέλιον, ἀκάμας τε, I doubt (was 1), *by*, It rather, *Il.* 1. 532, Ὀλύμπου, δυνάστης..., *Parm.*, τοῦ τε νῦν καὶ, *Pers.*, the Latin in italics, *quique fuerunt*, ‘to-morrow’, *I. T.* 1263, ἅ τ’ (twice), τὰ πρῶτα,’, MS., καὶ (was kal). The heading of 608 printed "608 f.", 611 "611 f.". ## 608: Jebb's number; our text has no 608.
+heading: 608 f.
+heading: 611 f.
 
 === p-0186
 + it were καὶ νῦν καὶ ἀεὶ καὶ τότε ὁμολογῶ: and νῦν τε καὶ πάλαι δοκεῖ (181) is irrelevant, since πάλαι can take the pres. (279). Rather, perh., **ἐπαρκέσει**, ‘will hold good,’ means, ‘will be found true,’—both in the future, and if we scan the past.—For το̄ before πρίν, cp. *O. C.* 180 ἔτῑ; προβίβαζε. **ἐπαρκέσει**, will hold out, hold good, =διαρκέσει: so only here, perhaps, for in Solon fr. 5. 1 δήμῳ μὲν γὰρ ἔδωκα τόσον κράτος ὅσσον ἐπαρκεῖ, we must surely read ἀπαρκεῖ, with Coraës.
@@ -275,6 +283,7 @@ Read through against both columns. **ἄκματοι** (bold after a dash) made 
 28 δοντ᾽ [accent] → κυλίνδοντ’
 --- notes
 Read through against both columns. Corrected among others: καὶ νῦν καὶ ἀεὶ καὶ (was kal viv), can take the pres., το̄ and ἔτῑ (the macrons as printed, as combining marks), =διαρκέσει, Coraës, πάμπολϋν, MSS., πάμπολις (twice), *vast*, ἔξω...αἰτίας, *Rep.*, πάμπολυ ἔργον, πάμπολύ τι, *ib.* 677 E, μὴ κατ’ ἄνθρωπον, ζῷα, *Ai.*, νόμος *says*, *Cho.* 313, μῦθος...φωνεῖ., *is* the νόμος, *Ph.* 435, ἐκδιδάξω·, **ἁ γὰρ δή** κ.τ.λ. (was "a yap δή x.7.\."), bold **γάρ**, *For* hope, *O.* 12. 6 αἵ γε, κυλίνδοντ’. Headings printed "613 f." and "615—625".
+heading: 613 f.
 
 === p-0187
 + oft tossed up and down, ploughing a sea of vain deceits.’—πολύπλαγκτος might also be act., ‘causing men to err greatly’; but this is less fitting here.
@@ -336,3 +345,5 @@ The ἀπάτη, or final frustration of his desires, **ἕρπει**, creeps on
 --- notes
 Read through against both columns. The draft's first paragraph "vain ἀεοεῖϊί5.᾽" is "vain deceits.’", and πολύπλαγκτος after the dash is plain italic, not a lemma: joined to the run-on paragraph. Jebb prints the heading "617" twice (ἀπάτα...ἐρώτων, then "The ἀπάτη, or final frustration", which is on 618): kept as printed. Corrected among others: ὄνασις, ‘*though*’, εὖ μὲν ὀψὲ δ’, The gen., *i.e.*, *is*, Others construe, *Ai.* 965, *Tr.* 608, 946, (*sc.* πῦρ), Hor. *c.* 2. 1. 7, Latin in italics, *Ch.* 697, *Ph.* 1260, αὔω, σοφίᾳ, σοφῶς, *El.* 233, ἔκ του (new paragraph, bold after a dash), *Tr.* 296, ἐστὶν, ἀάω, *Samson*; heading 622 (printed "622 ff.", read "fl.") made with lemma **τὸ κακὸν δοκεῖν ποτ’**. Misprint corrected: Jebb prints the lemma πεφάνται; written πέφανται (the verb, as in his note on 613, "ἔπος πέφανται"). ## 616 and ## 620: Jebb's numbers; our text has no 616 or 620.
 rev: second heading "617" (The ἀπάτη … ἕρπει … οὐδὲν εἰδότι) made ## 618: the print has 617 twice (checked on the image), an evident misprint, since the note is on εἰδότι δ’ οὐδὲν ἕρπει, which Jebb himself numbers 618 in his note on 607 (p-0184).
+heading: 620 f.
+heading: 622 ff.

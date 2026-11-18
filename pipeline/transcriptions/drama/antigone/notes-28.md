@@ -88,6 +88,7 @@ Since **τὰ δ’ ἐν δόμοις** is governed by ὄψεσθαι only, th
 --- notes
 1279: the draft had jumbled the foot of the left column (the ends of the lines on τάδε run into the lemma τὰ δ’ ἐν δόμοις and its first lines, and the right column's first line "τάδε φέρων … ὀψόμενος" made a lemma of its own; "ἥκεις, τὰ μὲν φέρων …" made a lemma; the lines from "Since τὰ δ’ ἐν δόμοις" to "Xen. H. 7. 3. 7 …" out of order): the paragraphs rewritten from the image. τάδε (after a dash, bold) and τὰ δ’ ἐν δόμοις (a new indented line, bold) are further lemmas; the paragraph "Since …" is a new indented paragraph of the same note. "7. A. 30" is *I. A.* 36; "770. 1207" *Tro.* 1207. The pencil brackets round ‘visible in the hands,’ are a reader's, not print.
 1278 (top of page): "Ογαί. 393 A" *Crat.* 393 A; "7, .." ᾖ, . .; "the settled …" the dash is printed at the start of the line, joined without space.
+heading: 1279 f.
 
 === p-0294
 + (καὶ στᾶθι καὶ) εἴσιδε. Others, indeed, take **καὶ τάχα** as=‘full soon,’ and ὄψεσθαι as depending on ἥκειν: ‘thou seemest to have come *in order to* see full soon,’ etc. This final inf. is tenable (*O. T.* 198 n.). But I know no example of καὶ τάχα as=‘full soon,’ like καὶ μάλα, καὶ λίαν, etc. And, even if it were possible, it would here be weak.—See Appendix.
@@ -161,6 +162,9 @@ Since **τὰ δ’ ἐν δόμοις** is governed by ὄψεσθαι only, th
 1282: "παμμήτωρ usu. πὴ πάντων μήτηρ" is usu.=ἡ πάντων μήτηρ; "77. 1130" *Tr.* 1130; "Legg." in italics; bold ἄρτι inside the paragraph as printed (no dash before it).
 1284: "πίνωμεν"" πίνωμεν· as printed; "Te kal" τε καὶ; bold λιμήν inside the paragraph (the dash before it is followed by English).
 1286: "(η.)" (n.); "ws" ὡς; the draft's closing ” corrected to ’ throughout.
+heading: 1282 f.
+heading: 1286 f.
+heading: 1289 ff.
 
 === p-0296
 + αὖ (instead of ὦ παῖ τίνα), has not much palaeographical probability. It gives, indeed, a closer correspondence with 1266. But the form of dochmiac which the MS. reading gives here is equally correct. (See Metr. Analysis.) Seidler was certainly right in omitting λόγον (see cr. n.): and that remedy suffices.
@@ -318,3 +322,6 @@ Checker remarks: "ίφει" (1301) is a fragment of ξίφει, printed so witho
 1307: "(2. V7. 555" *P. V.* 555; "Τὶ is" It is; "dvralav" ἀνταίαν made a paragraph (it follows a dash, in bold).
 1310: ὕβρις … ὕβρις and ὕπν’...ὕπνε: the print's quantity marks over these υ (beside breathing and accent) are too small to read with certainty and have no precomposed form: written with breathing and accent only.
 Checker remarks: αῑ, ῡ, ῠ (1310) are letters named alone, with their quantity marks as printed, not words: no breathing.
+heading: 1304 f.
+heading: 1307 f.
+heading: 1310 f.

@@ -54,6 +54,9 @@
 22 Cycl. [conf] → *Cycl.*
 --- notes
 Page read through from the column images and the garbled passages rewritten (1243, 1244: the draft had mixed lines of the two columns; "**τ**. -κ Τεύκρου" is the lemma **ἐκ Τεύκρου**; "π-κεντήσεθ᾽" the lemma **κεντήσεθ᾽**, a paragraph of its own). Headings 1244, 1246, 1248 are "1244 f." etc. in the print. **εἰ** in 1242 is bold in the print (the text's word), inside the paragraph. Spaces before colons after lemmas removed.
+heading: 1244 f.
+heading: 1246 f.
+heading: 1248 f.
 
 === p-0271
 + *Eccl.* 300, but the ordinary future of ὠθέω is ὤσω (as if from ὤθω).
@@ -126,6 +129,10 @@ Page read through from the column images and the garbled passages rewritten (124
 34 Euthyd. [conf] → *Euthyd.*
 --- notes
 Page read through from the column images; the Greek and the references rewritten where garbled ("Her. 8. 80" is 8. 89; "(1213. 3227}" is (*Il.* 3. 227); "Plat. Euthyd. 283 Ὁ" is 283 D). **εὐρύνωτοι** (1250), **ὑβρίζεις** (1257) and **τινά** (1255: at the start of a printed line after "1050).", no dash) are bold inside their paragraphs. *O.C.* 714, *O.T.* 1068 and *O.C.* 1171 are printed closed up on this page (*O. T.* 549 spaced): written as printed.
+heading: 1250 f.
+heading: 1253 f.
+heading: 1255 f.
+heading: 1257 f.
 
 === p-0272
 ## 1260
@@ -174,6 +181,7 @@ Page read through from the column images; the Greek and the references rewritten
 15 Ant. [conf] → *Ant.*
 --- notes
 Page read through from the column images. The 1266 note was garbled in the draft (lines of the διαρρεῖ passage mixed): rewritten from the image, with **βροτοῖς** (after a dash) made a paragraph of its own; "ὁ ὁ διδάσκαλος" had a doubled ὁ. "Gorg. 463 Ὁ ap οὖν av μάθοις … 3;" is 463 D ἆρ᾽ οὖν ἂν μάθοις ἀποκριναμένου;. **μάθοιμ᾽** and **οὐκέτ᾽** (1262) are bold inside the paragraph. "αὐτὸς αὐτῷ" is printed with a smooth breathing on αὐτῷ: kept as printed. *O.T.* 410 f. and *O.C.* 181 are printed closed up, *O. T.* 618 spaced.
+heading: 1266 f.
 
 === p-0273
 + of ἐπί with the genitive is illustrated by two passages which Wolff has quoted; Plat. *Symp.* 192 C ἕτερος ἑτέρῳ χαίρει ξυνὼν οὕτως ἐπὶ μεγάλης σπουδῆς (‘*with* such great eagerness’): Dem. or. 18 § 17 οὔτε δικαίως οὔτ᾽ ἐπ᾽ ἀληθείας οὐδεμιᾶς εἰρημένα (‘nor *with* any truth’). Julian or. 3. 128 A (quoted by Lobeck) has τούτων ἐπὶ σμικρῶν μνημονεύει, meaning by ἐπὶ σμικρῶν ‘in brief words only.’ (In *El.* 414 ἐπὶ σμικρὸν=‘to a small extent only’: the *v. l.* ἐπὶ σμικρῶν is there an error.) I formerly took ἐπὶ σμικρῶν λόγων as=‘not even in slight *respects*,’ ‘on slight accounts,’ but now doubt whether this sense can be given to the plural of λόγος.—The best emendation, if any were needed, would be οὐδ᾽ ἐπὶ σμικρὸν λόγον, ‘not even to the extent of a brief mention’; but, though ἐπὶ σμικρὸν can bear this sense (*El.* 414), the phrase is hardly satisfactory when λόγον is added.
@@ -220,6 +228,7 @@ Page read through from the column images. The 1266 note was garbled in the draft
 23 τάφοον [greek] → τάφρον (printed τάφοον: misprint corrected)
 --- notes
 Page read through from the column images. Greek and references mended where garbled ("Res." is *Rhes.*; "77. 9. 322" is *Il.* 9. 322; "Zum." *Eum.*; "770. 70" *Tro.* 70; "2%. 451" *Ph.* 451; "ΖΦ. goo f." *El.* 900 f.; "τυΐέζ" *with*). In 1272 the draft had κἀνόνητ᾽ and κἀνόητ᾽ the wrong way round in places: all four forms read from the image. Bold inside paragraphs as printed: **προὔκαμες**, **δορί**, **προτείνων** (1269), **ἡνίκα** (1273). "**ἑρκέων**:" begins an indented line without a number: new paragraph under 1274. Misprint: *Il.* 12. 4 is printed "τάφοον" (Homer's τάφρον): corrected to τάφρον.
+heading: 1269 f.
 
 === p-0274
 ## 1275
@@ -261,6 +270,8 @@ Other views of the passage, and some emendations which have been proposed, will 
 18 Tdφρων [mixed] → τάφρων
 --- notes
 Page read through from the column images. "**ἡ** -ὲν τροπῇ δορός" is the lemma **ἐν τροπῇ δορός** (after a dash: own paragraph). The draft's cut of "νεῶν —ναυτικοῖς—ναυτικά" into bold paragraphs undone: plain italic Greek, joined with the dashes as printed. The lemma of 1277 (**εἰς δὲ ναυτικὰ σκάφη..τάφρων ὕπερ**) was not bold in the draft: mended. "sth cent." is 5th; "71. 16. 124" is *Il.* 16. 124; "77]. 9. 241" *Il.* 9. 241; "vol. 11." vol. II. "(3) **ναυτικοῖς**" and "(2) **ἄκροισιν**" are bold in the print.
+heading: 1276 f.
+heading: 1277 f.
 
 === p-0275
 + does not exactly correspond with anything in the *Iliad*. Ajax, indeed, distinguishes himself in repulsing the Trojans after they have come over the wall, and on one occasion wounds their leader Hector (*Il.* 14. 409 ff.); but this happens before any ship has been set on fire. The supreme crisis in this part of the *Iliad* is the moment when the Trojans set fire to the ship of Protesilaüs (16. 122); but just then Ajax is driven back (χάζετο δ᾽ ἐκ βελέων *ib.*); it is Patroclus who, urged by Achilles, then comes to the front, and finally beats back the foe. Nor has the *Iliad* directly furnished the picture of Hector ‘leaping high’ over the trench.
@@ -310,6 +321,8 @@ This combat between Hector and Ajax is told in *Iliad* 7. 38—312. Hector havin
 23 κιτιλ [greek] → κ.τ.λ.
 --- notes
 Page read through from the column images. "ωμ. 14. 409 ff." is *Il.* 14. 409 ff.; "7 ῥ᾽ 8 v6" is ᾗ ῥ᾽ ὅ γ᾽ ὁ (Il. 13. 53). The Greek capitals of the 1281 note (Η, ΜΗ, ΣΥΜΒΗΝΑΙ, ΟΥ, ΟΥΔΕ: the draft had Latin letters) written in Greek. Bold inside the paragraph as printed: **οὐδὲ συμβῆναι ποδί** and **συμβῆναι ποδί** (1281). The lemma of 1285 had lost its bold in the draft: **οὐ δραπέτην** κ.τ.λ.; the heading is "1285 ff." in the print.
+heading: 1283 f.
+heading: 1285 ff.
 
 === p-0276
 + ordinary κλῆρος was a stone or a potsherd, which its owner marked (*Il.* 7. 175 κλῆρον ἐσημήναντο ἕκαστος). Ajax did not seek to avoid being drawn by putting in, as his κλῆρος, a piece of damp earth, which would stick to the bottom of the helmet or fall to pieces. Such a κλῆρος is called δραπέτης, ‘a *runaway*,’ because it eludes the ordeal. The allusion is to the story of Cresphontes. After the Dorian conquest of the Peloponnesus, he, Temenus, and the heirs of Aristodemus agreed to cast lots. The first was to have Argos; the second, Lacedaemon; the third, Messenia. Cresphontes wished to have Messenia. He therefore put a lump of earth, as his κλῆρος, into the voting urn. It broke to pieces, so that only the two other κλῆροι came out. (Apollod. 2. 8. 4 γῆς ἐνέβαλε βῶλον, ταύτης δὲ διαλυθείσης ἔδει τοὺς δύο κλήρους ἀναφανῆναι.) The scholiast remarks on the anachronism (ἀνῆκται τοῖς χρόνοις ἡ ἱστορία ἡ περὶ Κρεσφόντου): so, too, does Eustathius (p. 361. 26).
@@ -371,6 +384,7 @@ Construe: οὐκ οἶσθα ἀρχαῖον Πέλοπα, ὃς σοῦ πα�
 32 piya [latin] (Greek model: ποφρύγα:) → Φρύγα
 --- notes
 Page read through from the column images. The draft had lost the lemma **ἐς μέσον καθείς** (an indented line without a number under 1285, a paragraph of its own) and mixed the lines of 1288 and 1290 (the heading 1290 and the lemmas **δύστηνε**, **ὁ δοῦλος**, **ποῖ βλέπων** were lost): rewritten from the image. "κλῆς pov" is κλῆρον; "**ἅλμα κουφιεῖντ**- ἅλμα" is **ἅλμα κουφιεῖν**=ἅλμα. Bold inside paragraphs as printed: **σὺν** (1288), **ποῖ**, **πῶς** (1290), **ἀρχαῖον** (1291).
+heading: 1291 f.
 
 === p-0277
 + region. (Cp. *Ant.* 824 where Niobe, daughter of Tantalus, is τὰν Φρυγίαν.) In Her. 7. 11 Xerxes speaks of Πέλοψ ὁ Φρύξ.
@@ -429,3 +443,5 @@ Page read through from the column images. The draft had lost the lemma **ἐς �
 --- notes
 Page read through from the column images. "**ἀδελφῷ**@" is **ἀδελφῷ** (after a dash: own paragraph); the stray "=" before "The scholiast on 1297" and the stray mark before "not Atreus" deleted; "(ἄγχι. Eur. 4/.)" is (*Argum.* Eur. *Alc.*); "Eur. Jon 592" is *Ion* 592; "Eur. 27. F. 458" is *H. F.* 458, and "—(Ρ." is "—Cp." (a dash followed by English: stays in the paragraph, not a lemma). Bold inside the paragraph as printed: **πατὴρ**, **σ᾽ Ἀτρεὺς**, **σ᾽ ἀνὴρ** (1296). "ἐτέκ-|ομεν" is divided over the pages: written whole here (the next batch leaves "ομεν" out). Heading 1295 is "1295 ff." in the print.
 
+heading: 1293 f.
+heading: 1295 ff.

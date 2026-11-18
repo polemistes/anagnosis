@@ -35,6 +35,7 @@
 22 ὁδόν; [conf] → ok
 --- notes
 Run on from p-0187 (Milton, Samson | 1676): `+ ` added. Theognis 404: Jebb prints ἔθηκη (a misprint; the copy's pencil strikes it); written ἔθηκε. The dash before "The epic **ἔμμεν**" is followed by English: kept in the paragraph, ἔμμεν bold as printed. Rewrote the garbled end of 625 (Berlin ed. … *with a small force*) from the image; italics set (Samson quotation, *in Leocr.*, *Pax*, *multesimus*, *Metaph.*, *a*, *Anton.*, *Caes.*, *Rep.*, *Eq.*, *Ai.*).
+heading: 626 f.
 
 === p-0189
 + to a person, νέατος could not be said of a sole survivor unless he was *also* the latest-born. **γέννημ’**: cp. 471 n.
@@ -116,6 +117,7 @@ Third ἐπεισόδιον. Haemon vainly intercedes with his father. They quar
 --- notes
 The draft had the range note 631—780 as unheaded text after 630 and the 631 lemma (μάντεων ὑπέρτερον=βέλτιον …) split in two paragraphs: made `## 631-780` and `## 631` in the print's order. "**γέννημ’**: cp. 471 n." follows a full stop without a dash: kept in the paragraph. "—ΧΟ. μάντιν …" (plain type) joined back with the dash. λυσσῶσαν divided between pages: written whole here. Checker "“ην” has no breathing": Curtius's stem division τέρ-ην, printed so (the second piece of a hyphenated word, not a word). Italics set (*also*, *Il.*, *tár-una-s*, *tál-unī*, *H. F.*, *O. T.*, *i.e.*, *Rhesus*, *O. C.*, *El.*).
 631	rev: Rhesus 952 ᾔδη (iota subscript printed), not ἤδη
+heading: 632 f.
 
 === p-0190
 + (492). I therefore think λυσσαίνων genuine, and a finer reading than the variant noted in L, **θυμαίνων**. The latter word is used by Hesiod, and in Attic comedy. Some recent edd. place it in the text.
@@ -159,6 +161,8 @@ The draft had the range note 631—780 as unheaded text after 630 and the 631 le
 24 72g%¢ly [digit] → *rightly*
 --- notes
 λυσσῶσαν, divided between the pages, is written whole on p-0189; the run-on here begins "(492)". "—Others understand …" had been cut off as a new paragraph with a false lemma: joined back into the 635 paragraph (dash followed by English). Bold set as printed on **γνώμας ἔχων χρηστάς**, **ἀπορθοῖς** … **μοι**, **ἀξ. μείζων φέρεσθαι**, **ἀξίως ἔσται**, **θυμαίνων**. "cp. 439 ἥσσω λαβεῖν": the print shows ησσω without breathing and accent (worn type); written ἥσσω. Rewrote the garbled Greek of the page from the image (Ai. 1369, Her. 9. 27, Theaet. 161 D, Legg. 917 D, Thuc. 3. 40 κολάσατε...ἀξίως, μείζων φ.); italics set.
+heading: 635 f.
+heading: 637 f.
 
 === p-0191
 + have been the easier, since the ordinary fut. was ἀξιωθήσομαι.
@@ -210,6 +214,8 @@ The draft had the range note 631—780 as unheaded text after 630 and the 631 le
 23 edwN [latin] (Greek model: εἴδωλ᾽.) → εἴδωλ’
 --- notes
 Cuts at the dashes before **σοῦ καλῶς ἡγουμ.**, **διὰ στέρνων ἔχειν**, **ἀνταμύνωνται**, **ἐξ ἴσου πατρί** made as the print's bold lemmas (the draft had run three of them on and lost the bold). The page ends "**πόνους**: cp. 533.—": the dash at the foot is dropped (the next lemma begins p-0192). Bold set as printed on **μείζων**, **διά**, **ἔχειν**, **οὕτω**, **ἑστάναι**, **κακοῖς**, **φῦσαι**, **πλήν**, **εἴποις**. A stray speck before "*O. T.* 1197" in 640 is not transcribed. Greek of Thuc. 2. 67, 1. 42, *O. C.* 171, Pind. *P.* 2. 83 and *Ai.* 125 rewritten from the image.
+heading: 643 f.
+heading: 646 f.
 
 === p-0192
 **γέλων**: cp. *El.* 1153 γελῶσι δ’ ἐχθροί: *Ai.* 79 οὔκουν γέλως ἥδιστος εἰς ἐχθροὺς γελᾶν; 961 οἱ δ’ οὖν γελώντων κἀπιχαιρόντων κακοῖς.
@@ -274,6 +280,7 @@ Cuts at the dashes before **σοῦ καλῶς ἡγουμ.**, **διὰ στέ
 --- notes
 The page begins with the bold lemma **γέλων**, a further lemma under 646 after the dash at the foot of p-0191 (the print's line is not indented): a new paragraph of that note, so neither a heading nor `+ ` (the checker's remark "begins neither …" is answered so). *El.* 1153: the italic l is broken in the print (reads "Ei."); written *El.* El. 1153: Jebb prints ἔχθροι (a misprint for ἐχθροί, the line as quoted); written ἐχθροί. The page ends with the bold lemma **ὡσεί**, a new paragraph after a dash; the lemma (**ὡσεί τε δυσμενῆ**) runs on to p-0193, the bold closed on each page. *Ai.* 79 and 961 rewritten (the draft had garbled and run them together); 648, 650, 651 Greek and references rewritten from the image (*Alc.* 355, not 358; τέρψιν; *Tr.* 540). Italics set.
 647	the page begins with a new paragraph of the note before: the further lemma **γέλων**: no '+ ' (settled at the merge, 2026-11-17).
+heading: 651 f.
 
 === p-0193
 + **τε δυσμενῆ** (οὖσαν), *and* as if she were a foe. For πτύσας connected by **τε** with an adj. in a different case, see n. on 381 σέ γ’ ἀπιστοῦσαν...ἄγουσι...καὶ...καθελόντες. In *El.* 234 we have μάτηρ ὡσεί τις πιστά: but nowhere in Attic poetry do we find the epic and lyric use of ὡσεί τε as merely=ὡσεί (*Il.* 2. 780, Pind. 1. 44, etc.). And, as we have seen, it is needless to assume it here. Yet supposed difficulties about φίλος and ὡσεί τε have led Nauck to propose that vv. 652—654 should be made into two, thus: γένοιτ’ ἂν ἕλκος μεῖζον; ἀλλ’ ἀποπτύσας | τὴν παῖδ’ ἐν Ἅιδου τήνδε νυμφεύειν μέθες.
@@ -349,6 +356,8 @@ The connection of thought in the whole passage—which is slightly obscured by c
 38 I [conf] → ok
 --- notes
 Run on from the lemma **ὡσεί** at the foot of p-0192: the bold **τε δυσμενῆ** continues it. "Pind. 1. 44" is printed so (no title; the place is *P.* 1. 44): kept as printed. Greek rewritten from the image throughout (381, *El.* 234, Nauck's verses, *I. A.* 461, *P. V.* 216 for the draft's «τό, *Ph.* 448, *Il.* 2. 213 with ᾗσιν and ᾔδη, *O. T.* 1 ὦ τέκνα); *and*, *nubere*, *uxorem ducere*, *sc.* in italics; "**ἄκοσμα**" (after the dash at the top of the right column) made a paragraph of its own; the 661—671 note's second paragraph (indented in the print) kept apart.
+heading: 656 f.
+heading: 659 f.
 
 === p-0194
 + in my own relatives, I shall encourage it in other citizens. (2) 661 f. *For* (γάρ) only a man who is firm (χρηστός) where his own relatives are concerned will be found to uphold justice in the State (*i.e.* will have the authority necessary for doing so). (3) 663 f. Now, I recognise disloyalty in any one who breaks the law and defies the government, as Antigone has done. (4) 666 f. Instead of so doing, the citizen is bound to obey the government in everything. (5) 668—671. There is nothing slavish in that; on the contrary, it shows that the citizen is not only a good subject, but would, if required, be a good ruler;—as he would also be a good soldier.—Then comes the general censure on unruliness (672—676). And then the conclusion:—I must vindicate my authority, and punish Antigone (677—680).
@@ -392,6 +401,9 @@ Run on from the lemma **ὡσεί** at the foot of p-0192: the bold **τε δυ�
 20 930.---καλώς.. [conf] → 939.—καλῶς...
 --- notes
 The draft had run the columns of the 666 note together (Plat. *Rep.* 472 C, Leutsch *Paroem.* App. 1. 100, the schol. on *P. V.* 75): rewritten from the image. *O. C.* 942: Jebb's "in 939" (the draft read 930). Cut at the dashes before **τοὐπιτάσσειν**, **νοεῖ**, **καὶ τἀναντία**, **καλῶς...εὖ** (bold lemmas); the dash before "Antigone ‘did violence …’" is followed by English and stays. Italics set (*For*, *i.e.*, *Il.*, *Rep.*, *O. C.*, *Pol.*, *Tr.*, *O. T.*, *ib.*, *Paroem.*, *P. V.*).
+heading: 663 f.
+heading: 666 f.
+heading: 668 f.
 
 === p-0195
 + cp. *O. C.* 1501 σαφὴς μὲν ἀστῶν ἐμφανὴς δὲ τοῦ ξένου (n.).
@@ -444,3 +456,5 @@ The draft had run the columns of the 666 note together (Plat. *Rep.* 472 C, Leut
 25 163, [conf] → ok
 --- notes
 The 673 note: the draft had cut "τοῦτο—τόδ’—τόδ’, just as here αὕτη—ἥδ’...ἥδ’" into false bold lemmas; they are in plain (italic) Greek in the print: joined back into the paragraph. The lemma is **πόλεις ὄλλυσιν, ἥδ’** (the bold runs to ἥδ’); the bold **πόλεις τ’ ὄλλυσιν ἠδ’** and **πόλεις τ’...ἥδ’** stay inside the paragraph. "—Campb. reads …" follows a dash with English: kept in the paragraph. 674 is printed "674 ff." (heading ## 674). The page ends with the bold lemma **τὰ πολλὰ σώματα**, run on to p-0196. Rewrote the Greek and references from the image (Xen. *Cyr.* 3. 3. 21, Stob. *Serm.* 43. 48, Athen. 130 C, Thuc. 2. 60); italics set.
+heading: 670 f.
+heading: 674 ff.

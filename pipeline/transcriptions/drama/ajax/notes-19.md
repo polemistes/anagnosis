@@ -43,6 +43,9 @@ The *v.l.* **ἵλεων** for **ἥδιον** is very inferior, and undoubtedly
 --- notes
 Heading ## 1010 made from "1010 f." (the draft had left it in the text); the lemmas ποῖον οὐκ ἐρεῖ κακὸν, ἐκ δορὸς γεγῶτα πολεμίου, σέ, φίλτατ᾽ Αἴας, τὰ σὰ...θανόντος restored in bold from the image; italics set from the image.
 1010	rev: misprint corrected: the print has "arose from  λεως in 1009" with a blank before λεως where the type of ἵ dropped out (the v.l. ἵλεων arose from ἵλεως in 1009): written ἵλεως.
+heading: 1010 f.
+heading: 1012 f.
+heading: 1014 ff.
 
 === p-0239
 + συγκλείσει τὸ σόν.
@@ -96,6 +99,7 @@ In the *Teucer* of Pacuvius, fr. 19 (ed. Ribbeck), Telamon says to Teucer, *Te r
 20 ὥλεσ᾽ [accent] → ὤλεσ᾽
 --- notes
 The draft's opening lines (κράτη, δόμους) were garbled out of order: rewritten from the image. Corrected beyond the flags: Ag. 593 (draft 503), "τυφλὸς..ἐκ δεδορκότος" (draft τυφλὸς... ἐκ. . ἐκ), καὶ, κακοί:, ὤλεσ᾽, Helen. 94 (draft 04), τὰς χρηστὰς, El. 972, italics throughout; lemma εἰς ἔριν θυμούμενος made its own paragraph; bold ἐν γήρᾳ βαρύς, ἀπωστὸς, γῆς, λόγοισιν, ἀντ᾽ ἐλευθέρου inside paragraphs as printed.
+heading: 1017 f.
 
 === p-0240
 ## 1025
@@ -146,6 +150,7 @@ Thus πρισθείς is forcibly used here to describe the fatal *grip* of the 
 --- notes
 Corrected beyond the flags from the image: ῑ (draft ©), Eum. 173 (draft 373), O. T. 202, v. 1027 (draft 102%), 274 C, "see n. on 661" (draft ἢ.), Tr. 1221 and 1163 (draft 77.), ἄρα and φονέως bold inside the paragraph, stray "Ξ" after εἶδες deleted, σφαγάς.—For, lemma πρισθεὶς..ἐξ ἀντύγων whole in bold, "ὀδόντας teeth" garble in the senses of πρίω untangled (Suidas quotes ἐμπρίσαντες τοὺς ὀδόντας), italics throughout.
 Checker remarks on ῑ and ῐ: the bare vowel with its quantity mark, as printed ("always have ῑ", "with ῐ"); no breathing belongs there.
+heading: 1025 f.
 
 === p-0241
 + not think that the word was meant *also* to suggest that the girdle cut into his flesh.—Paley is surely mistaken in explaining ζωστῆρι πρισθείς as ‘*lacerated by means of* the girdle’: πρισθείς could not bear that sense, which is expressed in the next verse by ἐκνάπτετ᾽.
@@ -229,6 +234,9 @@ Corrected beyond the flags from the image: the draft had mixed the lines of the 
 --- notes
 Corrected beyond the flags from the image: vol. II. (draft 11.), τοῦ κνώδοντος (bold, draft TOV), τόδε..ἔχων, lemma Ἐρινὺς..ἐχάλκευσε bolded (draft had a stray ' and no bold), n. on El. 435 (draft ἢ.), ἢ..κόνει, ἐγὼ μὲν ἄν (draft dv), μηχανόωντας, μηχανᾶν bold inside the paragraph, lemma δημιουργὸς made its own paragraph (after a dash in the print), ἐν γνώμῃ, italics throughout.
 Checker remarks on εά, ιά, ε, ιο: parts of words cut by Curtius's hyphens (δωρ-εά, μυρμηκ-ιά, ἵππε-ιο-ς, ταύρε-ιο-ς) and the letter ε named, as printed; no breathing belongs there.
+heading: 1034 f.
+heading: 1036 f.
+heading: 1038 f.
 
 === p-0243
 + 37 ἦν δὲ ὁ Μιλτιάδης Κροίσῳ..ἐν γνώμῃ γεγονώς, ‘had won his esteem.’
@@ -281,6 +289,8 @@ Checker remarks on εά, ιά, ε, ιο: parts of words cut by Curtius's hyphens
 22 (=7iubeo) [digit] → (=*iubeo*)
 --- notes
 "+ " added: the line "37 ἦν δὲ …" runs on from Her. 6. at the foot of p-0242 (note 1038). The draft's 1045 note was garbled across lines (words of both lines mixed into two false paragraphs): rewritten from the image. Corrected beyond the flags: Ag. 1296 (draft 1206), ἃ δὴ made its own paragraph (bold after a dash), ἅ τις, ὅντιν᾽, Ἑλλὰς, Tr. 1060 f., El. 1040; συγκομίζειν after the dash in 1047 is plain italic Greek, not a lemma: joined back into its paragraph with the dash; italics throughout.
+heading: 1042 f.
+heading: 1047 f.
 
 === p-0244
 + ‘commanding’ with the inf., like λέγω (*Ph.* 101), εἶπον and ἐννέπω (*O. C.* 932), αὐδῶ (*ib.* 1630), and φημί (below, 1108).
@@ -325,6 +335,7 @@ The slow movement of the verse (with only quasi-caesura after the 3rd foot) is i
 17 fends.” [conf] → *tends*.’
 --- notes
 Corrected beyond the flags from the image: O. C. 932 (draft τος.), σῶμα, *i.e.* (draft Z.e.), 5th (draft sth), ἀνηλωμένον Ἀττικῶς, ἀναλωμένον Ἑλληνικῶς (spaced type in the print, plain here), καὶ δόξαντ᾽ … κ.τ.λ., lemma δοκοῦντα δ᾽ (ἐκείνῳ) ὃς κραίνει στρατοῦ bolded as printed (the parenthesis plain), El. 1123 δόθ᾽, Ant. 35 ὃς ἂν, Ant. 906 f. (draft gob f.), *sc.* italic, ‘that we *should bring* him.’, italics throughout. "Ar." at the foot runs on to *Ran.* on p-0245.
+heading: 1052 f.
 
 === p-0245
 + *Ran.* 96 γόνιμον δὲ ποιητὴν ἂν οὐχ εὕροις ἔτι | ζητῶν ἄν (if you searched for one). Here, it could doubtless mean, ‘on inquiry’ (into the slaughter of the cattle); but this sense is too narrow for the context.
@@ -379,3 +390,5 @@ Corrected beyond the flags from the image: O. C. 932 (draft τος.), σῶμα,
 ## 1058: the print has "1358 f." (an evident misprint between 1057 and 1060; the note is on 1058 f. τήνδ᾽..τύχην): heading corrected to 1058.
 Misprint corrected: the print has "κατασβέσειὰν" (O. C. 422) with a stray grave on the last syllable besides the acute: written κατασβέσειαν.
 Corrected beyond the flags from the image: Φρυγῶν=Τρώων as one lemma (the draft split it), Il. 3. 184—189 (draft 7.), Hec. 4 Φρυγῶν πόλιν=Τροίαν, *v. l.* ὡς ἐλοιδόρει, Hec. 5 (draft χα.), Od. 1. 166 ἀπόλωλε, bold θανόντες, ἣν ὅδ᾽ εἴληχεν τύχην, τήνδ᾽, λαχόντες, ἐχθίστῳ, ἀθλίῳ inside the paragraphs as printed; the bold αἰσχίστῳ after a dash made its own paragraph; μῆλα καὶ ποίμνας restored; the printer's signature "II" at the foot deleted; italics throughout.
+heading: 1058 f.
+heading: 1060 f.

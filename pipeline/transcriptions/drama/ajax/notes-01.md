@@ -264,6 +264,7 @@ As to the gender of κώδων, Arist. *De Sens.* 6 p. 446 *b* 22 has τῆς κ
 --- notes
 Note 19 (τῷ σακεσφόρῳ): the draft's garbled line ("together ἑπταβόειον seven") and the false paragraph at "*i.e.*" mended from the image. "21 f." is ## 21. Verg. *Aen.* 8. 526 (draft 520).
 17	rev: "χὴ κώδων" corrected to "χἡ κώδων" (rough breathing, no accent, as printed)
+heading: 21 f.
 
 === p-0099
 + δρᾶν, ποιεῖν, etc. (cp. 1324).
@@ -330,6 +331,7 @@ Note 19 (τῷ σακεσφόρῳ): the draft's garbled line ("together ἑπτ
 29 5190.--ὀπτὴρ, [conf] → 519.—ὀπτὴρ,
 --- notes
 "26 f." is ## 26; "Xen. *H.*" as printed (Hellenica). In note 28 "**τρέπει**" is bold in the print, kept in its paragraph; "(Kühn)" restored (the draft read "(Κύμη)").
+heading: 26 f.
 
 === p-0100
 + 261 ὀπτῆρας δὲ κατὰ σκοπιὰς ὤτρυνα νέεσθαι: Aesch. *Theb.* 36 σκοποὺς δὲ κἀγὼ καὶ κατοπτῆρας στρατοῦ | ἔπεμψα. In Aesch. *Suppl.* 185, however, ὀπτῆρες are ‘eye-witnesses,’—the usual sense of the word in Attic prose.
@@ -384,6 +386,7 @@ Note 19 (τῷ σακεσφόρῳ): the draft's garbled line ("together ἑπτ
 22 .εἰς [conf] → εἰς
 --- notes
 The page begins with the end of a quotation (Od. 14. 261) run on from note 29 on p-0099: `+ ` added. Heading ## 33 restored (the draft had "88 τὰ δ’ ἐκπέπληγμαι" as text). "36 f." is ## 36. "*O.T.* 1049" closed up as printed in a tight line (elsewhere *O. T.*).
+heading: 36 f.
 
 === p-0101
 + by which Ajax must pass.

@@ -34,6 +34,8 @@
 16  Creon, [conf] (Greek model: Οἴβοη,) → ok
 --- notes
 1031 (Jebb "1031 f."), 1033 "ὥστε=ὡς" (the draft split it into two lemmas), 1034 (1034 f.). "—The conjecture ἄπρατος" is a dash followed by English: kept in the paragraph (the draft had made "**Ὡς** conjecture" a new paragraph). Bold ἥδιστον, ἄπρακτος, μαντικῆς, α, μαντικῇ, ἄπρατος, τῶν, δ’ inside paragraphs set as printed. "so *Il.* 4. 100" (draft "80 72."), περί τινος, τινί (draft "Twos", "Twi"), *i.e.* (draft "Ζ.6."), καὶ μαντικὴ (draft "kal"), "as in", "for the" (draft run together). Quotation marks set from the image. Italics set. "with **α** privative": the letter named, printed without breathing (checker remark expected).
+heading: 1031 f.
+heading: 1034 f.
 
 === p-0253
 + refer to **ὑμῖν**: it could hardly refer to **μαντικῆς**. The conjecture of Semitelos, **μαντικοῖς**, would then be attractive. But such a substitute for μάντεσι would be very strange. And, if we keep L’s **τῶν δ’**, the scornful demonstrative sufficiently interprets the reference to μάντεις.
@@ -82,6 +84,7 @@
 25 71. [conf] → Il.
 --- notes
 1034 f. run-on: ὑπαί (draft "ὑπαί π") and γένους are bold after dashes: further paragraphs under 1034; "cp. 1055.—For other views" kept in its paragraph. Bold ὑμῖν, μαντικῆς, μαντικοῖς, τῶν δ’ inside the paragraph set as printed; *El.* 711 (draft "Z/."). 1037 (1037 f.): "μετὰ δ’ ἠλέκτροισιν ἔερτο" is a quotation in plain type, joined back with the dash; τἀπό and Ἰνδικὸν χρυσόν are bold after dashes: further paragraphs; τὸν πρός, πρό bold; Her. 3. 94 (draft "3. 04"); "range S." small capital; *fit et cura,...addito argento* (draft "fiz εἰ cura"); 33. 80. 1036: "—Neither" kept in the paragraph (dash before English). 1040: lemma οἱ Ζηνὸς αἰετοί restored (draft "oi Ζηνὸς alerol"); ὅς τε, καί (draft "Te", "kal"). Italics set.
+heading: 1037 f.
 
 === p-0254
 + Delphian priestess) χρυσέων Διὸς αἰητῶν πάρεδρος (the golden eagles on the ὀμφαλός). Hor. *Carm.* 4. 4. 1 *ministrum fulminis alitem*.
@@ -117,6 +120,7 @@ This view seems to do some injustice to the poet’s dramatic psychology. I read
 1042 (1042 f.): παρήσω is bold after the dash: a further paragraph under 1042; "οὐ μή, with the 2nd pers. fut. ind., prohibits" (draft "ov μή ... ν prohibits"); καὶ ὥς, οὐδ’ ὥς (draft "kal ws", "οὐδ’ ws"); ὧς in the Homer quotations as printed; *Od.* 22. 61. 1044: the right column's last lines were interleaved by the OCR with noise from the page edge ("imagines and admit a then … ΡΨ. ΒΜ mr, ΜΝ Ψ90ΡΨ ΞΡ Ψ"): rewritten in the print's order from the image, the noise deleted; ‘*for no mortal can pollute the gods*.’ in italics as printed; "‘no mortal could" (draft "‘no’ mortal"); "Aesch. *Ag.*" (draft "Aesch.."); Theseus—who (no space). Italics set.
 1042	rev: ὣς (rough breathing and grave, as printed) twice in the Homer quotations, not ὧς
 1044	rev: "sun-god" (divided "sun-|god" at the line end; a hyphened compound, as Jebb's "Sun-god" in the Electra), not "sungod"
+heading: 1042 f.
 
 === p-0255
 + ‘The sky-throne of Zeus is still more sacred than his altar on earth: if defilement cannot reach him there, much less here.’ The sophism is of the kind with which an honest but stubborn and wrongheaded man might seek to quiet his conscience. Creon reveres Zeus (304): he feels for the majesty of the gods, and refuses to believe that they can honour the wicked (284 ff.). But his religious sense is temporarily confused by his anger.
@@ -192,6 +196,7 @@ In **ἀντειπεῖν κακῶς**, ἀντί qualifies the whole phrase: *
 31 aloypoκέρδειαν [mixed] (Greek model: κέρδειαν:) → αἰσχροκέρδειαν
 --- notes
 1046 "πολλά, adv.,=‘very,’" (draft garbled). 1048: lemma ἆρ’ οἶδεν (draft "dp οἶδεν κιτιλ." as text). 1049: *Hec.* 754 (draft "Hee. 734"), "ἱκετεύω,) ΑΓ." (the speaker's Greek capitals); πάγκοινον (bold, after the dash) a further paragraph; the last line "(1066)." was missing from the column crop and the draft: read from the whole page. 1050 (1050 f.): ὅσῳπερ bold after the dash: a further paragraph; μὴ φρονεῖν bold. 1053: no lemma (the note opens "In"); ἀντειπεῖν κακῶς bold; "(*O. C.* 1191)=ἀνταδικεῖν" (draft "(O. ς. το τ) τε"). 1054: the OCR had interleaved the last lines ("profession λέγεις, sc. and κακῶς his Tov practice"): rewritten from the image; λέγεις (bold, after the dash) a further paragraph. 1055: *I. A.* 520, *Helen.* 755, ὤν (acute, as printed); "—*i.e.*, the seer’s client" kept in the paragraph (the draft had made "ἶ.6." a lemma). 1056: ἐκ bold inside the paragraph; αἰσχροκέρδειαν after the dash bold: a further paragraph; "un-|worthy" divided between the pages, written whole here. Italics set.
+heading: 1050 f.
 
 === p-0256
 + personal triumph by trampling on religion and silencing just remonstrance (505 ff.). Such a triumph is an αἰσχρὸν κέρδος.
@@ -249,6 +254,7 @@ In **ἀντειπεῖν κακῶς**, ἀντί qualifies the whole phrase: *
 30 hand:—(a) [conf] → ok
 --- notes
 The page's first word "worthy" belongs to "un-|worthy", written whole at the end of p-0255. 1057 (1057 f.): only ἆρ’ οἶσθα is bold at the head (λέγων … λέγῃς in ordinary type), restored from the draft's "f£. ap οἶσθα"; ἃ ἂν λέγῃς and ταγούς bold inside the paragraph; *P. V.* 96, *I. A.* 269 (draft "2. Κ΄.", "7. A."). 1058: ἔχεις σώσας bold after the dash: a further paragraph; "(794; *Ai.* 22 ἔχει περάνας)" (draft "(7943 Ai. 22 ἔχει mepdvas)"). 1060: the OCR had interleaved the last lines ("cp. βαθεῖαν 659 n.: for ἄλοκα διά, διὰ 639 φρενὸς n.: …"): rewritten from the image; "=τὰ διὰ φρενῶν ἀκίνητα" is the same paragraph (the draft had made it a lemma). 1061: μόνον δέ, ἐπὶ κέρδεσιν bold after dashes: further paragraphs. 1062: τὸ σὸν μέρος and καί bold inside the paragraph (running text, not after a dash); "—fitly preludes" (draft lost it and made "**Πι]**γ" a paragraph): joined, one paragraph; (*a*), (*b*) italic letters as printed. Italics set.
+heading: 1057 f.
 
 === p-0257
 + 1055, 1059); not, indeed, in so directly personal a form, yet still openly enough. (*b*) Though the seer is angered (1085), it is dramatically better to conceive him as speaking here with a stern calmness. (*c*) It would be correct to say (*e.g.*) πέφασμαι λέγων, τὸ σὸν μέρος (‘I have been represented as speaking..., so far as you could create such a belief’): but hardly, δοκῶ τὸ σὸν μέρος, as merely=δοκῶ σοί.—On the whole, then, the first view is best.—Others, which may be rejected, are:—(1) ‘I think that I *shall* speak for your *good*.’ But, if we are thus to supply ἐπὶ κέρδεσιν, and not οὐκ ἐπὶ κέρδεσιν, the verse must be interrogative. (2) ‘So far as you are concerned, I do not expect to speak for my own profit’; *i.e.*, I shall receive no thanks from you. (3) ‘Do you really think that I shall find any satisfaction in speaking?’—*i.e.*, it will be only pain for you, without advantage for me.
@@ -309,6 +315,7 @@ The page's first word "worthy" belongs to "un-|worthy", written whole at the end
 35 i.e, [conf] → i.e.,
 --- notes
 1062 run-on: (*b*), (*c*) italic letters; πέφασμαι λέγων; "(‘I have been" (draft "(1 have"); "*shall* … *good*." in italics. 1063: the OCR had interleaved the foot of the left column (Her. 1. 91 … πεπρωμένης, φρένα, 1064 f. ἀλλ’ εὖ γέ τοι … μὴ …τελῶν): rewritten from the image; ὡς bold inside the paragraph; φρένα (bold, after the dash) a further paragraph (the draft had it twice and a stray "**μὴ μένης**." paragraph). 1064 (1064 f.): the heading and lemma ἀλλ’ εὖ γέ τοι restored; μὴ...τελῶν, τρόχους (bold "τρόχους=δρόμους", the draft had split it at the "="), ἁμιλλητῆρας: further paragraphs after dashes; ἥλιον τελεῖν, τελῶν, τροχούς bold as printed. Ammonius' Greek corrected (καὶ, ὀξυτονοῦντες· with the high stop, ἐν δευτέρᾳ, Ἀττικοῖς, Ἀττικῆς). 1066: "ἐν οἷσι=ἐντὸς ὧν" one paragraph (the draft had split it at the "="); τῶν σῶν...ἐκ σπλάγχνων ἕνα (bold, after the dash) a further paragraph. Italics set.
+heading: 1064 f.
 
 === p-0258
 + fig. phrase, one whose life is nourished by thine own heart’s blood,—the son begotten of thee. If the ref. were to the mother, σπλάγχνα could mean ‘womb’: cp. Kaibel *Epigr.* 691 ζωὴ δὲ πλείων μητρὸς ἐν σπλάγχνοις ἐμή (of a babe who died just after birth). So brothers and sisters are ὁμόσπλαγχνοι (511).
@@ -361,6 +368,7 @@ Bothe, omitting **τε** after **ψυχήν**, takes the latter with **τῶν �
 24 π.---ἄμοιρον, [conf] → n.—ἄμοιρον,
 --- notes
 1067: ἀντιδοὺς ἔσει (bold, after the dash) a further paragraph. 1068: "here=ἀντὶ τούτων ὅτι" (draft "here=dvrl"); ἔχεις βαλὼν κάτω τῶν ἄνω (bold, after the dash, the draft's "¥éxeas") a further paragraph; *El.* 1322 (draft "El"). 1069: no lemma (the note opens "Bothe"); the OCR had interleaved the foot of the left column ("τῶν ἄνω 45 | **τῶν ἄνω τινά** …", "**χήν τ’… κατῴκισας**"): rewritten from the image as one paragraph (no dash before the bold words, so no further lemmas); τε, ψυχήν, τῶν ἄνω, ἀνθ’ ὧν bold as printed; Schütz (draft "Schiitz"); εἰς Ἅιδου μολεῖν; (draft "εἰς “Αἰδου μολεῖν ;"); ἀτίμως after the dash bold: a further paragraph; *El.* 1181 (draft "EL"). 1070 (1070 f.): "ἔχεις δέ=κατέχεις δέ" (draft "δέΞΞ"); νέκυν bold; τῶν κάτωθεν θεῶν, ἄμοιρον after dashes: further paragraphs; 521 n., *Ai.* 1327 (draft "521 π.", "AZ."). Italics set.
+heading: 1070 f.
 
 === p-0259
 + κ. θεῶν with ἄμοιρον: ‘without a portion in the gods below,’ *i.e.*, not admitted to communion with them. But the phrase is a strange one; and the leading thought here is that the νέρτεροι are robbed of one who belongs to them.
@@ -429,3 +437,6 @@ The **πόλεις** are the cities which had furnished contingents to the Argiv
 31 συνταράξονται [greek] → ok
 --- notes
 1070 f. run-on: "Others take τῶν | κ. θεῶν": the page begins with the italic κ. (draft "Kk."); ἀκτέριστον, ἀνόσιον (bold, after dashes) further paragraphs under 1070 (the merge files them there: Jebb's 1070 f. note); cp. 204 (draft "Cp."); *Haml.* 1. 5. 77 (draft "τ. 5. 77"). 1072 (1072 f.): νεκρῶν (draft "νεκρών"). 1074: *ib.* 664 (draft "10. 664"); the OCR had interleaved the lines of ὑστεροφθόροι: rewritten from the image (*long* after; Aesch. *Ag.* 58 (Zeus) ὑστερόποινον | πέμπει παραβᾶσιν Ἐρινύν). 1075 (1075 f.): *El.* 490 ἁ δεινοῖς (the relative, rough breathing, no accent, as printed); Ἅιδου καὶ θεῶν and ληφθῆναι bold after dashes. *O. C.* 385 ὤραν (ὤρα, smooth breathing, as printed; draft "ὦραν"). 1077 (1077 ff.): Pind. *P.* 11. 41 (draft "2. 11. 41"); οὐ μακρ. χρόν. τριβή bold after the dash: a further paragraph; φανεῖ bold. Heading 1080-1083 from the image (draft "1080—1Οο88" left as text); πόλεις bold, no lemma at the head; *direct* italic. Italics set.
+heading: 1072 f.
+heading: 1075 f.
+heading: 1077 ff.

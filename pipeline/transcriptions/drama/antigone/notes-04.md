@@ -63,6 +63,8 @@ The interpretation of the passage turns primarily on two points.
 --- notes
 Read through against both columns. Heading "120 ff." → ## 120. Further lemmas after dashes made paragraphs: γένυσιν (draft had "-Ο-Ο γένυσιν" in the αἱμάτων paragraph), ἐτάθη. Restored ‘or *ever*,’ *Tr.* 17, *O. T.* 258, *Hec.* 910, *O. C.* 15, *Il.* (three times), the (V has …) parenthesis, *Alc.*, italics throughout. "diffi-|culty.’" divided between the pages: written whole here with its stop and quotation mark; p-0101 begins after it.
 ## 124: Jebb's number (his longer lyric line); our text has no 124.
+heading: 120 ff.
+heading: 124 ff.
 
 === p-0101
 + So δυσχείρωτος is ‘hard to subdue’ (Her. 7. 9), as ἀχείρωτος is ‘unsubdued’ (Thuc. 6. 10), and εὐχείρωτος ‘easy to subdue’ (Xen. *Hellen.* 5. 3. 4). Cp. δυσπάλαιστος, δυσπάλαμος, δύσμαχος, etc., used with poetical irony to express the irresistible. In *O. T.* 560 θανάσιμον χείρωμα is a deed of deadly violence: in Aesch. *Th.* 1022 τυμβοχόα χειρώματα are works of the hand in mound-making. In itself, δυσχείρωμα might mean ‘a thing achieved with difficulty’; but here the irony is clearly pointed against the routed Argives: the poet does not mean that the Thebans won with difficulty. Thus δυσχείρωμα is here the opposite of what Aesch. calls εὐμαρὲς χείρωμα, a thing easily subdued: *Ag.* 1326 δούλης θανούσης, εὐμαροῦς χειρώματος. The Theban πάταγος Ἄρεος was a thing which the Argives could not overcome.
@@ -108,6 +110,7 @@ Those who read **ἀντιπάλου...δράκοντος** understand (*a*) a t
 27 i, [conf] → ῑ,
 --- notes
 Read through against both columns. Heading "127 ff." → ## 127. The two "Those who read …" paragraphs are indented plain paragraphs of the note on 124 (no lemma). Corrected among others: (*b*) twice, *Th.* 1022, Thuc., Xen. *Hellen.* 5. 3. 4, μεγάλῳ (was μεγάλω), Eur. *I. T.* 1437 (was "7. 7:"), the epic ῑ (iota with macron) twice, ὑπεροπλίῃ, italics throughout. "δηλῶ δ’." has a full stop as printed. "ῑ" twice is the letter iota with a long mark, printed so ("the epic ῑ", "Theocr. ῑ, 25. 138"), not a word: no breathing.
+heading: 127 ff.
 
 === p-0102
 + μέγας. In post-Homeric poetry ὑπέροπλος is a freq. epith. of overweening strength (ἠνορέη, βίη, ἥβη, etc.).—Other readings are:—(1) χρυσοῦ καναχῇ θ’ ὑπερόπτας, ‘and haughty in the clang of gold.’ This involves an improbable change; the subst. ὑπερόπτης, too, is unsuitable here, and cannot be defended by Theocr. 22. 58 πρὸς πάντα παλίγκοτος ἠδ’ ὑπερόπτης. Wecklein, reading ὑπερόπτας, keeps καναχῆς in the sense, ‘hoffärtig *auf*’: but a genit. after ὑπερόπτης could not denote that *in which* one takes pride. (2) χρυσοῦ καναχῆς ὑπερόπτης, or -όπτα, *i.e.*, ‘Zeus, a despiser of the clang of gold.’ (3) χρυσοῦ καναχῆς ὑπέροπτα, adv. neut. plur. (as *O. T.* 883), ‘advancing haughtily in a great stream of clanging gold.’ But the adv. comes weakly at the end, and χρυσοῦ κ. is harshly joined with π. ῥεύματι.—Aesch., too, gives prominence to *gold* in picturing the Argive chiefs: Capaneus has golden letters on his shield (*Th.* 434), Polyneices has the image of a warrior in golden armour, with a golden legend (644, 660).
@@ -164,6 +167,7 @@ Read through against both columns. Heading "127 ff." → ## 127. The two "Those 
 36 ἐννυχία [greek] (Greek model: ννυχία.) → ok
 --- notes
 Read through against both columns. Headings "131 ff." → ## 131, "134" → ## 134. Corrected among others: βίη, χρυσοῦ καναχῇ θ’, "hoffärtig *auf*", *in which*, (*Th.* 434), *gold*, *Av.* twice, οὐδ’ ἂν, "S. side" (small capital), "Adjectives in ος" (Greek), (*Adv.* p. 169), italics throughout; **ἀλαλάξαι** is bold inside the νίκην paragraph as printed. "-όπτα" (an ending of ὑπερόπτης) and "Adjectives in ος" (an ending) are printed without breathing, rightly.
+heading: 131 ff.
 
 === p-0103
 + As regards the sense, ἀντίτυπος was regularly used of hard surfaces, which, as it were, *repel* that which strikes them (for the accent ἀντίτυπος, not ἀντιτύπος, though the sense is act., see on *O. T.* 460). Arist. *Probl.* 5. 40 οἱ...ἐν ἀντιτύποις περίπατοι. Lucian *Amor.* 13 τὴν ἀντίτυπον οὕτω καὶ καρτερὰν τοῦ λίθου φύσιν. So, fig., Plat. *Crat.* 420 D τὸ...ἀναγκαῖον καὶ ἀντίτυπον, what is necessary, and what *resists* us.
@@ -217,6 +221,8 @@ Read through against both columns. Headings "131 ff." → ## 131, "134" → ## 1
 31 ZZ [latin] (Greek model: 71.) → *Il.*
 --- notes
 Read through against both columns. Headings "135 ff." → ## 135, "138 ff." → ## 138. The draft had garbled the end of the 138 note ("κρᾶναι readings, πέπρωται. see Appendix, For other —trevipa proposed"): rewritten from the image, with the new lemma **ἐπενώμα** as a paragraph. Bold Greek inside the 138 paragraph as printed (**ἄλλα δ’ ἐπ’ ἄλλοις**, L's reading, **τὰ μέν**, **ἄλλα δέ**, **ἄλλᾳ**). *O. C.* 1671: the print has a stray mark ’ between "μέν," and ἄλλο (a displaced breathing); written "μέν, ἄλλο". στῡ́φω is printed with a long mark and an acute on υ; there is no precomposed character for it (ῡ + combining acute). Also corrected: Arist. *Probl.*, *Amor.*, *Crat.* 420 D, Aesch. *Th.* 433 (was "77."), ὡπλισμένη·, "pural" → ῥιπαί, οὐ τὸ μέν, καὶ τῇδε, ἁμά.
+heading: 135 ff.
+heading: 138 ff.
 
 === p-0104
 **δεξιόσειρος**, ‘right-hand trace-horse,’ here means a vigorous ally, who does more than his own share of the work. Ares has brought the Theban chariot victoriously through the crisis of the race against its Argive rival. In the four-horse chariot-race the four horses were harnessed abreast: the two in the middle were under the yoke (ζύγιοι), being called ὁ μέσος δεξιός and ὁ μέσος ἀριστερός (schol. Ar. *Nub.* 122): the two outside horses drew in traces (σειραῖοι). The chariot went down the right-hand side of the course, turned sharply from right to left at the distance-post (καμπτήρ, νύσσα), and came back down the left side. Hence, at the turning-point, the right-hand trace-horse had most work to do; and the best horse was put in that place. Cp. *El.* 721 (at the turning-post) δεξιόν τ’ ἀνεὶς | σειραῖον ἵππον εἶργε τὸν προσκείμενον. Xen. *Symp.* 4. 6 ἁρματηλατοῦντα δεῖ ἐγγὺς μὲν τῆς στήλης κάμψαι, quoting from *Il.* 23. 336 the precept τὸν δεξιὸν ἵππον | κένσαι ὁμοκλήσαντ’, εἶξαί τέ οἱ ἡνία χερσίν. Cp. Aesch. *Ag.* 842 ζευχθεὶς ἕτοιμος ἦν ἐμοὶ σειραφόρος (said by Agam. of Odysseus): and cp. *ib.* 1640.—The old *v. l.* **δεξιόχειρος**, explained by the schol. γενναῖος καὶ παραδέξιος, is read by Musgrave, Hartung, and A. Pallis. Hartung renders it ‘der Starke,’—understanding it as ‘the strong and deft striker.’ Neither δεξιόχειρος nor δεξιόχειρ seems to occur, though ἀριστερόχειρ (left-handed) is found in late Greek.
@@ -257,6 +263,7 @@ Read through against both columns. Headings "135 ff." → ## 135, "138 ff." → 
 --- notes
 Read through against both columns. The page begins with a new indented lemma without a number (**δεξιόσειρος**, v. 140), a further paragraph under ## 138 on p-0103: neither a heading nor '+ ' is right here (the merge files it under the last heading). Heading "141 ff." → ## 141. The draft's false cut "**ἃ** common idiom" joined back ("πρὸς ἑπτά,—a common idiom"); **Ζηνὶ τροπαίῳ** is an indented paragraph of its own, as printed. Corrected among others: (ζύγιοι) and ὁ μέσος, *Il.* 23. 336, *v. l.*, ἴσα (four times, was "loa"), ὦ Ζεῦ πατρῷε καὶ, *Her.* 867, *Tr.* 303 and 238, Κηναίῳ Διΐ, *i. e.* (spaced, as printed), stray "τ" before πάγχαλκα removed. "τρό-|παιον" divided between the pages: written whole here; p-0105 begins after it.
 138	the page begins with a new paragraph of the note before: the further lemma **δεξιόσειρος** (leaf 104, the column's first line), not a run-on: no '+ ' (settled at the merge, 2026-11-17).
+heading: 141 ff.
 
 === p-0105
 + (old Att. τροπαῖον) after a victory, on the spot where it had been won, or, in the case of a sea-fight, on the nearest land (Thuc. 2. 92). Such a trophy ordinarily consisted of shields, helmets, and weapons, conspicuously displayed on wooden supports, and dedicated, with an inscription, to a deity. Cp. Eur. *Ph.* 1473 (of the Thebans after the victory) οἱ μὲν Διὸς τροπαῖον ἵστασαν βρέτας (*i.e.* a wooden image of Ζεὺς Τροπαῖος), | οἱ δ’ ἀσπίδας συλῶντες Ἀργείων νεκρῶν | σκυλεύματ’ εἴσω τειχέων ἐπέμπομεν. Part of the armour would be affixed to the walls of Theban temples (cp. Aesch. *Ag.* 577, *Th.* 276).
@@ -320,6 +327,8 @@ Read through against both columns. The page begins with a new indented lemma wit
 37 yapeica [latin] → χαρεῖσα
 --- notes
 Read through against both columns. The draft had lost the heading "144 ff." (its first line garbled as "(as 144 Ph. ff. 166): πλὴν λέ τ, τ. στυγεροῖν …"): rebuilt as ## 144 with the lemma **πλὴν τ. στυγεροῖν** from the image. The heading "148 f." (read "Sas f.") was inside the στήσαντε paragraph: made ## 148 with the lemma **ἀλλὰ γάρ**. "Below, 155" (draft 153). Nikè and Thebè with their grave accents as printed. Corrected among others: "old Att." (was "Αἴ."), (*i.e.* …), ἑπτὰ...ἔλιπον..., καὶ (twice, was "kal"), τε (was "Te"), *Prot.*, *Ai.*, *O. C.* 1055 διστόλους...ἀδελφάς, ἦλθε, = ‘*since*.’, "Isthm." in italics, fr. 1. 10.
+heading: 144 ff.
+heading: 148 f.
 
 === p-0106
 + smile, as in ἀντιλάμπω of light to light, or in ἀντιφθέγγομαι of sound to sound. I do not take ἀντί here to mean *merely* ‘over against,’ as when Pind. *Ol.* 3. 19 says ἤδη γὰρ αὐτῷ... | ...ὀφθαλμὸν ἀντέφλεξε Μήνα, the (mid-month) moon showed the light of her eye over against him.—Not (1) ἴσον αὐτῇ χαρεῖσα (schol.), *i.e.* merely, ‘rejoicing as Thebes does,’ which extenuates ἀντιχαρεῖσα into συγχαρεῖσα. Nor (2) ἀντὶ τῶν κακῶν χαρεῖσα, *i.e.* rejoicing in requital of past troubles.
@@ -376,6 +385,8 @@ Read through against both columns. The draft had lost the heading "144 ff." (its
 26 Thatv [rare] → That v.
 --- notes
 Read through against both columns. Headings "150 ff." → ## 150, "155 ff." → ## 155. The draft had garbled the notes on Κρέων and Μενοικέως ("ἐκπνέων is monosyll.", "Μενοικέως, a spondee. Cp. O. =~——, C. 1073 as Ῥέας, O. c. a 1003"): rewritten from the image. The lemma **ὁ Θήβας** (gen. sing.) **ἐλελίχθων** is one note, bold in two stretches as printed (the draft had split it in two paragraphs). Metrical signs as printed: (– for ⏑), = ⏑ – –, (– –). Corrected among others: ἤδη γὰρ, ἐκ...πολέμων, ‘after the recent wars.’, καὶ, (*i.e.* …), *An.*, *Bacch.* twice, **ἄρχοι** (breathing), *sc.* in italics, ἀλλὰ...γάρ, *Od.* 1. 183, *Ai.* 735 νέας | βουλὰς, *Tr.* 613 (was "77."), "νεαρός usu. =" (was "τι. =:"), *new* twice.
+heading: 150 ff.
+heading: 155 ff.
 
 === p-0107
 + their equivalents. See Appendix. I prefer the first of these views. An anapaest or spondee, meaning ‘ruler,’ has probably dropped out before **νεοχμός**. Seyffert’s **κρείων** is at first sight attractive, as accounting for its own disappearance; but, since it is the same word as Κρέων—which had an epic form Κρείων, as conversely Pind. and Aesch. use κρέων—this would be rather a feeble pun than a strong παρήχησις. Either **ἄρχων** or **ταγός** is possible.
@@ -438,3 +449,4 @@ Read through against both columns. Headings "150 ff." → ## 150, "155 ff." → 
 47 at [conf] → omitted (no word in the print: προγράψαι τοὺς)
 --- notes
 Read through against both columns. Heading "158 ff." → ## 158. The draft had garbled the end of the ἐρέσσειν passage (lines run together: "as A. 251 (utter ἐρέσσουσιν them repeatedly ἀπειλάς …"): rewritten from the image, the parenthesis "(*Not*, … Ellendt.)" kept in the paragraph after its dash. "it is the same word" (was "it 15"). Bold inside paragraphs as printed: **νεοχμός**, **κρείων**, **ἄρχων**, **ταγός**, **ἐπὶ**, **ἐπί**, **λέσχην**. *Ph.* 1116 (was "Phi. T116"), Eur. *Aeol.*, Arist. *Pol.* 3. 1. 10, *Mem.*, ἐκκλησία ἣν (was "ἐκκλησία ἣν" with ἣ), περί τινος, ἐπιλαβούσης·.
+heading: 158 ff.

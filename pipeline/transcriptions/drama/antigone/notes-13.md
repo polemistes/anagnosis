@@ -36,6 +36,7 @@
 16 ἥδ᾽" [conf] → ἥδ᾽·
 --- notes
 536: printed "536 f.".
+heading: 536 f.
 
 === p-0173
 + τετολμηκὼς ἐμοί, the pron. might be dat. of interest with the second partic.; but we ought perhaps to read συντετολμηκώς τ᾽ ἐμοί.
@@ -93,6 +94,9 @@ Cp. *Ph.* 1293 ὡς θεοὶ ξυνίστορες.
 30 σ) [conf] → ὧν).
 --- notes
 Lines of the right column were interleaved in the draft (538, end of 546): rewritten from the image. 538: the lemma ᾽κοινωσάμην after the dash made a paragraph of its own. Theocr. 1. 59 (draft 50); 961 (draft 061).
+heading: 538 f.
+heading: 542 f.
+heading: 544 f.
 
 === p-0174
 + ᾽θιγες ποιοῦ σεαυτῆς would have been intolerable, on account of the second gen. after ποιοῦ. For the sake of compactness, and of clearly marking the object to ποιοῦ, the poet has here allowed **ἅ** to stand for ταῦτα ὧν. I do not compare *O. C.* 1106, αἰτεῖς ἃ τεύξει, holding that ἅ there=ταῦτα ἅ (not ὧν): see n.
@@ -192,6 +196,7 @@ Lines of the right column were interleaved in the draft (538, end of 546): rewri
 24 —t.e., [conf] (Greek model: πολιν,) → —*i.e.*,
 --- notes
 557: the note's heading was missed and its lines interleaved with 556 in the draft; rewritten from the image. In 557 "σὺ μὲν σοί" after the dash is plain Greek with σοί bold (a reading, not a lemma): kept in the paragraph. 559: the interleaved lines of the right column rewritten from the image.
+heading: 559 f.
 
 === p-0176
 ## 561
@@ -257,6 +262,7 @@ The apology is for her sister as well as for herself: even such prudence (cp. 68
 --- notes
 Eur. *Antigone* fr. 165 (draft 163); "cp. 1105" (draft 105); "see on 21" (draft 2I1).
 566	rev: "change **τί** (subst.)": τί is in the bold type in the print (πῶς after it is not)
+heading: 563 f.
 
 === p-0177
 + however, no fair objection would remain if we had ἀλλὰ τὸ ἥδε μὴ λέγε, *i.e.* ‘never use the word ἥδε about her,’—which makes the sense more general than if he said, ἀλλὰ τῆσδε μὴ λέγε, *i.e.* ‘do not say (that you cannot live without) ἥδε.’ The question, then, seems to resolve itself into this:—Wishing to give the more general sense just indicated, could the poet say ἥδε instead of τὸ ἥδε? To show that the art. was not always required in such quotation, it is enough to cite Ar. *Eq.* 21 λέγε δὴ μόλωμεν, by the side of τὸ μόλωμεν *ib.* 26. While, then, I cannot produce any exact parallel for this ἥδε, I think it reasonable to suppose that colloquial idiom would have allowed it. Those who deny this have two resources. (1) To point thus: ἀλλ᾽ ἥδε μέντοι—μὴ λέγ᾽· *i.e.* instead of adding οὐκ ἔστιν ἔτι after μέντοι, he breaks off his sentence—‘do not speak of her.’ So Bellermann. (2) Semitelos reads ἀλλ᾽ ἥδε μέν σοι μὴ λέγ᾽ ὡς ἄρ᾽ [for οὐ γὰρ] ἔστ᾽ ἔτι, ‘do not say that you have *her* any longer.’ As to σοι, see cr. n. above. Neither of these readings gives such a forcible sense as the vulgate.
@@ -382,3 +388,5 @@ Second στάσιμον. 1st strophe, 582—592,=1st antistr., 593—603. 2nd st
 22 2nd [conf] → ok
 --- notes
 577: the lines of the left column were interleaved in the draft; rewritten from the image; "καὶ σοί γε. καί μοι" is bold in the print (μὴ τριβάς plain). 578: "Ar. *Lys.* 16" (draft "τό"). 580: χοἱ as printed (a rough breathing over the ι, no accent).
+heading: 578 f.
+heading: 580 f.

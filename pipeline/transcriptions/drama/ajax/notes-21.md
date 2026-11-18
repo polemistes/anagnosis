@@ -206,6 +206,8 @@ The gen. **αὐτοῦ** depends on the phrase κλέπτης ψηφοποιό�
 20 Αἴγισθ᾽ [accent] → ok
 --- notes
 1146: the draft had cut the note at "—For the omission" (a dash followed by English) and made "For" a bold lemma; joined again.
+heading: 1144 f.
+heading: 1147 ff.
 
 === p-0258
 ## 1152
@@ -291,6 +293,7 @@ The legendary tomb of Ajax was shown on the coast of the Troad near Cape Rhoeteu
 21 Ῥοιτείῳ [conf] → ok
 --- notes
 1166: the draft had split the lemma from "=τὸν βροτοῖς ἀείμνηστον" (OCR "--"); joined; O. T. 139 (draft 130). Nonnus Dionys. 25. 476 (draft 28). Strabo: ᾐὼν, ἐφ’ ᾗ (draft "ov", "ἐφ᾽ ἣ"). Paus. 1. 35. 5 (draft garbled).
+heading: 1166 f.
 
 === p-0260
 ## 1168
@@ -337,6 +340,8 @@ While the child knelt as a suppliant by the body, with his hand upon it, the cor
 19 —the [conf] → ok
 --- notes
 1168: O. C. 549 (draft 349); "after v. 989" (draft 980). 1172: the further lemma ὅς σ’ ἐγείνατο (after a dash) was garbled in the draft ("τὶ ὃς a’ ἐγείνατο"); made its own paragraph. 1173: Ant. 902 (draft "002 TO").
+heading: 1168 f.
+heading: 1173 ff.
 
 === p-0261
 + shades; the gift of hair being a substitute for self-immolation at the grave.

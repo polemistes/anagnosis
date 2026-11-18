@@ -48,6 +48,7 @@ L has **ὑγρὸν...ῥέεθρον**, not **ὑγρῶν...ῥεέθρων**
 28 Op., [conf] → δρ.,
 --- notes
 Further lemma Ἐλευσῐνίας (after a dash) made its own paragraph; Βακχεῦ—Θήβαν (plain type) joined back into the 1122 note; bold ὦ, ὁ, ματρόπολιν, ὑγρὸν...ῥέεθρον, ὑγρῶν...ῥεέθρων, τ’, ῥεῖθρον, ὑγρόν, παρά set bold inside their paragraphs as printed; Arrian's "An. 2. 16 § 3" (read "47. 2. τό"), "Tr. 510" (read "77. 510"), kal, Anw, italics restored from the image. ## 1125: Jebb's number (his line division of the lyric); our text has no 1125. Checker: "ῐ" is the vowel cited alone (with Jebb's breve), not a word.
+heading: 1123 f.
 
 === p-0269
 + of the dragon,’ *i.e.*, on the ground where Cadmus sowed the dragon’s teeth, from which the ancestors of the Cadmeans sprang. Hence the Thebans are called σπαρτοὶ ἄνδρες (*O. C.* 1534 n.). The place where Cadmus sowed the teeth was shown on the S. side of Thebes, near the Ἤλεκτραι πύλαι (Paus. 9. 10. 1).—Not, ‘(ruling) over the dragon’s seed,’ as if σπορᾷ meant the Thebans.
@@ -91,6 +92,7 @@ By **ὑπὲρ διλόφου πέτρας** Soph. means the high ground above 
 24 Arachova [rare] → Aráchova
 --- notes
 1126 (printed "1126 ff."): the draft had mixed the lemma διλόφου πέτρας and its first words into the general-sense sentence; restored from the image (the lemma follows a dash, so a paragraph of its own). Bold ὑπὲρ διλόφου πέτρας and στέροψ set inside their paragraphs; "Sat." (read "δα."), the verse divider in the Ion quotation, and the italics of the Latin quotation and titles restored; "s." made "S." (small capital).
+heading: 1126 ff.
 
 === p-0270
 + of about 100 ft.; the greatest breadth is about 200 ft., and the greatest height, 40. In 480 B.C., when the Persians were coming, many of the Delphians took refuge in it (Her. 8. 36). An old place of sacrifice can still be seen in it; and an inscription found there shows that it was sacred Πανὶ καὶ νύμφαις (*C. I. G.* 1728). Aesch. *Eum.* 22 σέβω δὲ νύμφας, ἔνθα Κωρυκὶς πέτρα | κοίλη, φίλορνις, δαιμόνων ἀναστροφή.
@@ -183,6 +185,10 @@ The words **ἀμβρότων ἐπέων** answer metrically to ναιετῶν
 24 dud [conf] → ἀμὰ
 --- notes
 "festivals": the print has the misprint "fesitvals"; corrected. In 1140, "—For βίαῐας cp. …" (a dash followed by English) joined back into the paragraph; the print marks the iota short with a breve (βίαῐας, δείλαῐος). Bold τάν, ἐκ, ὑπερτάταν, ἀμβρότων ἐπέων, ὑπό, ἔχεται, ἀμὰ, πόλις set inside their paragraphs. "Eur. I. A. 573" (read "7. 4."), "P. 4. 299" (read "}. 4-299"), "evoe" (read "ευσε"), stray "ἰ" after ἄβροτος deleted; "830 n." (n. was lost).
+heading: 1134 f.
+heading: 1137 f.
+heading: 1140 f.
+heading: 1143 ff.
 
 === p-0272
 + was often invested with the attributes of the Purifier and Healer, as καθάρσιος, ἀλεξίκακος, ἀκέσιος, etc. Cp. Athen. 22 E, and 36—37. This was one aspect of the Delphian cult which associated him with Apollo.
@@ -225,6 +231,7 @@ Other conjectures are: (1) **ἰὼ πύρπνων ἄστρων χοραγὲ �
 25 πύρπνων [greek] (Greek model: πύρπνων.) → ok
 --- notes
 1146 (printed "1146 f."). The end of the page had the two columns' lines interleaved (Campbell's conjecture and the Medea quotation mixed): rewritten from the image. Metrical signs set as printed (– ⏑, – –, – – –, ⏑ – –); ῠν / ῡν with breve and macron as printed. Checker: ῠν, ῡν and οντ are syllables cited as such (no breathing), as printed. *El.* 157 "οἵα": the breathing in the scan looks smooth (worn or misprinted); written with the rough breathing of the word (Jebb's own text of El. 157). Bold πνειόντων (second), the two conjectures, ὢ and χοραγὲ ἄστρων set as printed; kal, {dw, ola, Mss. corrected.
+heading: 1146 f.
 
 === p-0273
 + originally preceded χοραγέ. Neglect of elision is frequent in L: thus, to take one play only, the *O. C.* supplies these examples: 266 τἀμά· ἐπεὶ: 694 ἔστιν δὲ οἷον: 883 τάδε. ὕβρις: 915 κύρια ὧδε: 1026 θηρῶντα ἡ τύχη: 1210 ἴσθι, ἐάνπερ. The deletion of **καί** before **νυχίων** is also warranted by instances in which καί has been thrust into L. Here, the καί would decidedly enfeeble the passage.
@@ -284,6 +291,7 @@ Exodos. The threefold catastrophe. Creon’s remorse.
 30 χοράγ᾽ [accent] (Greek model: 'χοράγ᾽) → ok
 --- notes
 χοράγ’ ἄστρων begins an indented paragraph in bold (a further lemma of the 1146 note); νυχίων φθεγμάτων (after a dash) made a paragraph. Joined back: "τελεῖς;—ΔΙ. νύκτωρ …" and "Νυκτέλια,—ὧν τὰ πολλὰ …" (plain Greek after the dash), "παῖ Διὸς = καὶ νῦν ὡς" (the "=" was read as a cut), "(καὶ νῦν—ἐπὶ νόσου)". The lemma of 1152 is Θυίαισιν alone (the bold had run into "(θύω"). The range note "1155—1352 Exodos." (read "11565—1852") made the heading ## 1155-1352. "(1146)" restored after χοράγ’ ἄστρων in the 1154 note; "Plin. N. H." (read "V. A."), "Aen." (read "den."), a stray ” after "his" deleted.
+heading: 1152 f.
 
 === p-0274
 ## 1155
@@ -316,6 +324,7 @@ Exodos. The threefold catastrophe. Creon’s remorse.
 --- notes
 The draft had cut "—The only other tenable view…" (a dash followed by English) as a lemma "[δ": joined back into the βίον paragraph. The word divided at the page's foot, "sup-|posed", is written whole at the foot of this page and left out at the head of p-0275. 1156 (printed "1156 f."): the lemma is οὐκ ἔστι alone in bold; the rest of the Greek is in plain italic type. Bold Κάδμου, πάροικοι, δόμων, στάντα, ὁποίᾳ, ἐφεστώτων set as printed; "dv", "007", "Ο. 7" 20 π." corrected.
 1156	rev: fr. 786 "τροχῷ" put back to "τρόχῳ" as printed (checked enlarged: acute on the omicron, iota subscript); τρόχος is a word, so not an evident misprint, though the fragment is usually edited τροχῷ
+heading: 1156 f.
 
 === p-0275
 + the sense to be, ‘no one in authority is a prophet.’ (2) The point is that things may seem established, and yet be unstable.
@@ -349,3 +358,4 @@ The draft had cut "—The only other tenable view…" (a dash followed by Englis
 --- notes
 "sup-|posed" is written whole at the foot of p-0274, and "con-|sidered" (its rest on p-0276) whole here. ἀπολλύναι: the print has ἀπολλίναι, an evident misprint (no such form); corrected. "ευ" (the augment note) printed in plain Greek: "ev" corrected; ws, Tov, "¢." (c.), "π." (n.) corrected; italics set from the image. Checker: "ευ" is the diphthong cited as letters (no breathing), as printed.
 1166	rev: "A.D." made "A. D." (printed with a space)
+heading: 1162 ff.

@@ -41,6 +41,7 @@
 --- notes
 873: the draft had scrambled the lines (cp. 904 / cp. 763 / μέλει cp. 1335) and bolded the whole lemma; set as printed: only κράτος δὲ bold, the rest of the quoted verse in plain Greek; οὐδαμᾷ after the dash a new paragraph.
 879: Ion 1467 printed λαμπ´σιν, the α under the accent lost (broken type): corrected to λαμπάσιν.
+heading: 873 f.
 
 === p-0229
 + (and so it remains) unwept. Soph. has several instances of the predicative adj. thus added to a subst. which has the art. and possessive pron.; as *O. T.* 671 τὸ γὰρ σόν, οὐ τὸ τοῦδ’, ἐποικτείρω στόμα | ἐλεινόν (n.): *El.* 1143 τῆς ἐμῆς πάλαι τροφῆς | ἀνωφελήτου. Cp. 791.
@@ -87,6 +88,7 @@
 --- notes
 883: the bold lemma is ἆρ’ ἴστε only; the rest of the quoted verse plain. οὐδ’ ἂν εἷς after the dash a new paragraph.
 887: "contraction into ῆ instead of ᾶ": the letters are printed alone, with circumflex and no breathing (the checker's two remarks); kept as printed.
+heading: 883 f.
 
 === p-0230
 + σιγῆν; but the MSS. are supported by the testimony of Suidas and Hesychius to χρῇς as=χρῄζεις. In the other four places where these forms are usu. read, they are not indispensable, χρή being possible; but in two, at least, they are much better than χρή, viz. *El.* 606 κήρυσσέ μ’ εἰς ἅπαντας, εἴτε χρῇς κακήν, | εἴτε στόμαργον, κ.τ.λ.: and *Ai.* 1373 σοὶ δὲ δρᾶν ἔξεσθ’ ἃ χρῇς. In the other two, χρή might well stand: Eur. fr. 910 πρὸς ταῦθ’ ὅ τι χρῇ καὶ παλαμάσθω | καὶ πᾶν ἐπ’ ἐμοὶ τεκταινέσθω: Cratinus Νόμοι fr. 2 νῦν γὰρ δή σοι πάρα μὲν θεσμοὶ | τῶν ἡμετέρων, πάρα δ’ ἄλλ’ ὅ τι χρῇς. Except in *Ach.* 778, the MSS. everywhere give χρή: and the variants in the next v. (see cr. n.) show that χρῇ was strange to the copyists, though known to the Scholiast.
@@ -149,6 +151,8 @@
 888: the draft had cut the paragraph at "—to toss them" and run the note on στέγῃ into the quotation from El. 381; rejoined, στέγῃ a new paragraph after the dash.
 890-891: the draft had scrambled the lines of 890/891; ὦ τύμβος (891 f.) made its own heading; νυμφεῖον, κατασκαφής, ἀείφρουρος (bold, after dashes) new paragraphs.
 893: ἐν νεκροῖς and δέδεκται both bold in the print.
+heading: 891 f.
+heading: 893 f.
 
 === p-0231
 + πύλαι to Hades (*O. C.* 1569 f.). So Oedipus is led by Ἑρμῆς ὁ πομπὸς ἥ τε νερτέρα θεός (*ib.* 1548). As ἡ ἀφανὴς θεός she is associated with Hades (*ib.* 1556).
@@ -200,6 +204,8 @@
 --- notes
 Last paragraph of 893 (on Φερσέφασσα): the print has "may therefore he allowed", an evident misprint for "be": corrected to "be".
 895: the draft had run 897's heading into the text ("Ph. I “807 f."); μοῖραν...βίου after the dash a new paragraph; 895 "(cp. 59)" from the image (the draft had 50).
+heading: 895 f.
+heading: 897 f.
 
 === p-0232
 ## 900
@@ -240,6 +246,7 @@ The main points (to my mind) are briefly these. (1) The general validity of the 
 --- notes
 904-920: a faint speck before "whether" (the draft's ",whether") is not print: left out.
 904: the draft had scrambled the lines of this note into the end of 904-920; set out from the image.
+heading: 900 ff.
 
 === p-0233
 ## 906
@@ -286,6 +293,7 @@ Three points in these vv. are strange. (1) The gen. abs. **κατθανόντο�
 --- notes
 909: the Greek of Herodotus after "verses:—" is a quotation in plain type, not a lemma: joined to the paragraph. In Aristotle's quotation τὰ μὲν γὰρ ἂν γενέσθαι ἀπολόμενα is letter-spaced in the print (emphasis); written in ordinary letters.
 909: the draft had run the lines of this note and of 913 out of order; set from the image.
+heading: 909 ff.
 
 === p-0234
 ## 916
@@ -331,6 +339,8 @@ The gods are allowing her to perish. But it does not follow that they approve of
 --- notes
 916: a reader's pencil note "cp. 1258" in the margin after χερῶν (the draft's "04") is not print: left out.
 922: only βλέπειν is bold; εἴς τινα is in plain Greek type.
+heading: 922 ff.
+heading: 925 f.
 
 === p-0235
 + by **ἀλλ’ οὖν** (‘well then’). (1) If the gods approve of my doom, then, after suffering it, I shall become conscious (in the other world) that I have sinned. (2) But if they disapprove of it, and regard Creon as the sinner, then they will punish him at last. And I could wish him no sorer doom than mine.
@@ -391,3 +401,8 @@ Said by Creon, clearly—not by the Chorus. ‘I can give thee no encouragement 
 929: "storm-gusts" is divided at the line end (storm-|gusts): written with its hyphen, as a compound. αὐταὶ, αὐταί with smooth breathing as printed (the draft had rough).
 927: only καὶ is bold in "καὶ δρῶσιν"; δρῶσιν is in plain Greek type.
 929	rev: the print has no stop after "νύμφας" at the line end before "—Dindorf’s" (dropped type; Jebb's ".—" elsewhere); the stop kept as an evident misprint corrected
+heading: 927 f.
+heading: 929 f.
+heading: 931 f.
+heading: 933 f.
+heading: 935 f.

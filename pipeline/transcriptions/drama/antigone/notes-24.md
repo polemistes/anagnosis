@@ -83,6 +83,7 @@ L’s **καθήγνισαν**=‘hallowed’ them, in the sense of, ‘gave bur
 1084: the draft's false lemma "Ψ οῖ" (for "—Not, arrows from") joined back; "Suppl. τῶν" was "*Suppl.* 1004"; τῶν alone is the bold lemma of the last note (=ὧν plain).
 Checker: "ω" and "αι" without breathing are letters named as letters ("the ω form", "a form in αι"), bold as printed: right as they stand.
 1090: only τὸν νοῦν...τῶν φρενῶν is bold; the rest of the lemma line is in plain italic Greek; the draft's doubled ἢ removed.
+heading: 1084 ff.
 
 === p-0262
 ## 1092
@@ -135,6 +136,8 @@ For **τε...δέ**, instead of τε...τε, cp. *Tr.* 285 ταῦτα γὰρ �
 1097: two bold stretches in the lemma (ἄτῃ πατάξαι … θυμόν), both bolded; ἀντιστάντα bold in the print.
 1094	rev: "λακεῖν, =ὅτι" closed up to "λακεῖν,=ὅτι" as printed.
 1092	rev: no change; the lemma's ὅτου shows only its acute on the scan (the rough breathing not visible, worn type or misprint): written ὅτου.
+heading: 1092 f.
+heading: 1097 f.
 
 === p-0263
 + trees that resist it (712).
@@ -169,6 +172,7 @@ I read the impers. **δοκεῖ**: ‘and does it seem good (to you) that I sho
 15 κτιζοίατ᾽ [accent] (Greek model: 'κτιζοίατ᾽.) → ok (κτιζοίατ’)
 16 1 [digit] → I
 --- notes
+heading: 1100 f.
 
 === p-0264
 + in *Ph.* 526 ἀλλ’, εἰ δοκεῖ, πλέωμεν, and *ib.* 645. This correction is confirmed by Aesch. *Th.* 650 σὺ δ’ αὐτὸς ἤδη γνῶθι τίνα πέμπειν δοκεῖ, where L has δοκεῖ with an accent erased over the ο,—showing that the use of the impers. verb without a dat., seeming strange, had suggested δόκει (imperat.). There, some of the later MSS. have δοκεῖς. Here, L shares the error of the rest, and has **δοκεῖς**—generated, doubtless, from δοκεῖ by the same misapprehension as in Aesch. *l. c.* The decisive objection to **δοκεῖς** here is that it could mean only, ‘art thou minded to yield?’ (Aesch. *Ag.* 16 ὅταν δ’ ἀείδειν ἢ μινύρεσθαι δοκῶ); not, ‘dost thou think it right that I should yield?’
@@ -248,6 +252,8 @@ The draft read the foot of the right column across the lines (1103-1108 scramble
 "tribrach" is divided between this page and the next: written whole here.
 Checker: the two "ο" without breathing are the letter named as a letter ("over the ο", "the ο̄ before φρ"): right as they stand.
 1107	rev: Aesch. Eum. 434 "ἦ κἀπ’" corrected to "ἢ κἀπ’": the print has smooth breathing and grave, not a circumflex.
+heading: 1103 f.
+heading: 1105 f.
 
 === p-0265
 + suits this agitated utterance. **εἶ’** would be no improvement (see cr. n.).
@@ -353,6 +359,8 @@ This ὑπόρχημα, or ‘dance-song,’ takes the place of a fifth stasimon
 Misprints: "λυω" printed without accent, written λύω; in τελευτήσῃς the print sets the iota subscript under the first η (or a speck stands there), written in its right place.
 1115: Καδμείας, ἄγαλμα and νύμφας each a lemma after a dash: each its own paragraph.
 Checker: "ῡ" without breathing is the letter named as a letter ("for the ῡ", Jebb's macron): right as it stands.
+heading: 1113 f.
+heading: 1115 f.
 
 === p-0267
 + *immixtaque fulgura ventis | Addidit, et tonitrus, et inevitabile fulmen*.
@@ -385,3 +393,4 @@ The only worthy rival of Ἰταλίαν is the conjecture **Ἰκαρίαν**. 
 18 Alda [latin] (Greek model: ᾽Αἴδα) → Ἀΐδα
 --- notes
 "mountain-chain": divided at a line's end in the print; written with its hyphen, as Jebb's other compounds (birth-place, head-quarters).
+heading: 1120 f.

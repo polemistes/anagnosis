@@ -75,6 +75,7 @@
 42 oy [conf] → noise (a speck), deleted
 --- notes
 Read through from the column images and the column text rewritten where the OCR had scrambled it (101 and 103 above all: lines of the two columns interleaved). Jebb's two spaced dots of omission written "..." (as the checked Antigone batches). οὐπίτριπτος (Ar. Plut. 275) written with the smooth mark as printed (coronis).
+heading: 101 f.
 
 === p-0111
 + that, if it remains, the goddess seems to accept the description just given of her favourite; and that it would better become her to reply merely, ‘I mean Odysseus, thy foe.’ But she is displaying the insanity of Ajax, and has already received his fierce vaunts with the irony of seeming approval.
@@ -210,6 +211,9 @@ Structure: the draft's paragraphs "**δεῖν πρὸς κίονα**" and "**κ
 15 ZZ [latin] (Greek model: ΤΑ) → *Il.*
 --- notes
 Structure: **προνούστερος** cut as a further lemma of 119 (bold after a dash; the OCR had read "mpoνούστερος"). Rewritten from the image where the OCR had garbled: ΔΙ. (OCR "AL."), ἄν for "dv", Dem. or. 37 (OCR 27), cp. 455 (OCR 43%), *P. V.*, Αἶαν, ἀχνύμενοί περ, ὧν=τούτων ἅ (ὧν bold as printed). Italics set throughout.
+heading: 114 f.
+heading: 119 f.
+heading: 121 f.
 
 === p-0114
 ## 123
@@ -314,6 +318,7 @@ It can scarcely be doubted that the anapaests were chanted by the whole Chorus, 
 22 Σαλαμῖνος... [conf] → ok
 --- notes
 The first paragraph (the end of 131's note on κλίνει) stops at "Ζεύς." and the further lemma **κἀνάγει** after the dash is a paragraph of its own (as the draft had it). Corrected beyond the flags: καὶ (OCR kal), "ἦρ’ ἄνω", 172—200 (OCR "172— 200"), *Supplices*, *Prometheus Vinctus*, *Antigone*, *Philoctetes*, *Persae*, *Agamemnon* in italics, the dashes in 134 (OCR "tent, —where"), βάθρον bold as the second bold stretch of the lemma, ᾖ (OCR ἢ).
+heading: 134 f.
 
 === p-0116
 + for the place of the second epithet, see n. on *O. T.* 1199 τὰν γαμψώνυχα παρθένον | χρησμῳδόν. While **τῆς ἀμφιρύτου** would suggest to an Athenian the narrow strait, so familiar to his sight, which divides Salamis from the Attic mainland, the second epithet, **ἀγχιάλου**, would, as it were, turn his eyes seaward, inviting him to look forth from the shore of Salamis itself towards the Saronic Gulf. Each adjective lends a touch to the picture. This is thoroughly Greek. See, for instance, Eur. *I. A.* 164 ἔμολον ἀμφὶ παρακτίαν ψάμαθον Αὐλίδος ἐναλίας, the sandy *sea-shore* of Aulis *by the waves*: *Helen.* 400 ἐπ’ οἶδμα πόντιον γλαυκῆς ἁλός,—where the blue expanse, the surge, and the depths beneath it (πόντιον) are all suggested.
@@ -361,6 +366,8 @@ The first paragraph (the end of 131's note on κλίνει) stops at "Ζεύς."
 20 ἢ.-πτηνῆς [conf] → ’).—πτηνῆς (a further lemma: new paragraph)
 --- notes
 Structure: the heading ## 137 was missing (the draft had "1971. πληγὴ Διὸς" as text): made from the image ("137 f."); the paragraph that opens "ἀγχίαλος was properly said" is indented without a number and its Greek is in the plain type: bold taken away; the further lemmas **λόγος...κακόθρους**, **ἐπιβῇ** and **πτηνῆς** (bold after dashes) cut as paragraphs; note 137 rewritten from the image (the OCR had interleaved the columns: "cp. cp. O. ἦθος 7. -ἐπιβῇ 1299 τίς with σ’, ὦ acc. τλῆμον, is rare"). Corrected beyond the flags: n. (OCR ἢ.), *I. A.* 164, παρακτίαν, *Helen.*, *sea-shore*, *by the waves*, *on the sea-coast*, τ’ ἀγχίαλον, *Pers.*, θνῄσκοντας, *Hipp.* 1339 (OCR 1 339), τὸν ἀμὸν (smooth, as printed), *Hom. hymn. Merc.*, Eur. *Andr.* 491 (OCR 401), λέκτρον written whole.
+heading: 137 f.
+heading: 139 f.
 
 === p-0117
 + flight; cp. *Il.* 5. 778 τρήρωσι πελειάσιν ἴθμαθ’ ὁμοῖαι.
@@ -413,3 +420,6 @@ Structure: the heading ## 137 was missing (the draft had "1971. πληγὴ Δι
 23 Οδυσεύς [accent] (Greek model: ᾽Οδυσεύς.) → Ὀδυσεύς
 --- notes
 Structure: the draft's paragraph "**ὀλέσαι**." joined back (ὀλέσαι is plain Greek after the dash of "ἐπιβάντ’—ὀλέσαι"); the signature "J. S. VII." (draft "1.5. vin,") deleted, so the last paragraph of 144 runs on from the left column to the right one unbroken; **λοιπὴ** is bold inside 145's paragraph (no dash before it), kept there. Corrected beyond the flags: *Il.* 5. 778, ὁρῶ τιν’, the verse divider in *O. C.* 729, ἐπὶ (bold, part of the lemma), *i.e.*, ‘abounding (OCR "¢ abounding"), καρπομανής, *wild abundance*, *frisking*, *galloping*, =βοτὰ (OCR Ξε), ψιθύρους (OCR Ψιθύρους), οἷα (OCR ola), *Ep. Rom.*, *Hec.*
+heading: 141 ff.
+heading: 145 ff.
+heading: 148 f.

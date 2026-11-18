@@ -161,6 +161,9 @@ Lines of the draft garbled by the OCR (1358, the Tro. quotation; 1359 "679 ff.")
 26 1881. [conf] → 1381 f. (heading ## 1381)
 --- notes
 1376 and 1379 were left by the draft as text ("1976 f.", "1979 2."): made headings from the image (1376 f., 1379 f.). The 1379 note (lines interleaved by the OCR) rewritten from the image. τότ’ and ἦ (bold lemmas after dashes) made paragraphs; "ἀγγέλλομαι (midd.)...εἶναι φίλος" printed with two bold stretches.
+heading: 1376 f.
+heading: 1379 f.
+heading: 1381 f.
 
 === p-0289
 + change it to ἄναξ.)
@@ -215,6 +218,8 @@ Lines of the draft garbled by the OCR (1358, the Tro. quotation; 1359 "679 ff.")
 23 .. [conf] → ok
 --- notes
 λόγοισι (bold lemma after the dash on the page's first line) made a paragraph of its own; ἔτλης, παρὼν and μολὼν likewise. The crasis forms χἡ and χὡ (and θἡμέρᾳ on p-0286) are printed with a rough breathing (Jebb gives the breathing of the second word): copied as printed.
+heading: 1384 f.
+heading: 1386 f.
 
 === p-0290
 + often occurs when the mention of the other person or persons is an afterthought: *O. C.* 462 αὐτός τε παῖδές θ’ αἵδε (n.).
@@ -270,6 +275,8 @@ On the other hand, Odysseus is at liberty to assist in protecting the funeral fr
 20 κιτ [greek] → κ.τ.λ.
 --- notes
 "co-operate" is divided at the line's end (co-|operate): written with its hyphen.
+heading: 1391 f.
+heading: 1394 ff.
 
 === p-0291
 + or to have any active part in the rites. So in *El.* 442 ff. the spirit of Agamemnon is conceived as refusing Clytaemnestra’s χοαί at his grave; and in the same play, when (1123) Electra is allowed to handle the funeral urn, the pretended Phocian justifies the boon by saying that she is evidently not δυσμενὴς to the dead. The wrath of Ajax against Odysseus was conceived as enduring in the world below: οἴη δ’ Αἴαντος ψυχὴ Τελαμωνιάδαο | νόσφιν ἀφεστήκει (*Od.* 11. 543)—when Odysseus approached.
@@ -308,6 +315,8 @@ On the other hand, Odysseus is at liberty to assist in protecting the funeral fr
 1398 (the draft's "## 1398" with "ξ." in the text) and 1402 (left as text ". 1402 ξ. ἅλις"…) set right from the image: headings ## 1398, ## 1402, lemmas τἄλλα πάντα and ἅλις· ἤδη γὰρ. Garbled references (5 8 1, 1586. ΟΥ. 10, ΟΥ̓ 3, 0, 7. 256) rewritten from the image.
 Misprint corrected: in 1401 the print has "ξυνῆκ ἐγώ" without the elision mark (at Ajax 99 the verse reads ξυνῆκ’); written ξυνῆκ’.
 χοὗτος is printed with a rough breathing under the circumflex (as Jebb's other crasis forms here): kept.
+heading: 1398 f.
+heading: 1402 f.
 
 === p-0292
 + Salaminian sailors to go and dig the grave; others are to place the tripod near it; a third detachment is to bring thither the hero’s armour from the tent. Tecmessa and Eurysaces are still kneeling beside the corpse (1171 ff.). Verses 1409 ff. mark the moment when the body is lifted from the ground. Then it is borne forth (probably by Teucer and one or more πρόσπολοι), the Chorus following, before they separate to their several tasks.
@@ -359,6 +368,8 @@ Misprint corrected: in 1401 the print has "ξυνῆκ ἐγώ" without the elis
 25 Z.e., [conf] (Greek model: ΓΕ) → *i.e.*,
 --- notes
 The parenthesis of 1403 (οἱ μὲν—τοὶ δ’—μία δ’..ἀνδρῶν ἴλη) is plain Greek in the print: the draft's cuts there joined again and the bold taken away. κάπετον and ταχύνετε (bold, the first on a new indented line, the second after a dash) made paragraphs under 1403. "and 20. 348" is "and *ib.* 348" in the print.
+heading: 1403 f.
+heading: 1404 ff.
 
 === p-0293
 + 433 n.). Cp. *Ant.* 1201 λούσαντες ἁγνὸν λουτρόν: and *ib.* 901 (n.). The caldron used for this purpose is called λοετροχόος τρίπους in *Il.* 18. 346. After the washing of the dead, unguents were usually applied (as in the case of Patroclus, *Il.* 18. 350). Verg. *Aen.* 6. 218 *Pars calidos latices et aëna undantia flammis | Expediunt, corpusque lavant frigentis et ungunt.*
@@ -405,3 +416,6 @@ The parenthesis of 1403 (οἱ μὲν—τοὶ δ’—μία δ’..ἀνδρ
 --- notes
 The page begins with the rest of ὁσίων (1404, p-0292): marked `+ `. ἀρτηρίαι after the dash is not a lemma (plain italic): joined again into the σύριγγες paragraph. 1407 "rt. ϝελ" (printed with the digamma; the draft had "Αλ\").
 The checker's remark on “ιλο”: Jebb prints the stem analysis ὅμ-ιλο-ς with the breathing only on the first piece; kept as printed.
+heading: 1407 f.
+heading: 1409 f.
+heading: 1411 ff.

@@ -49,6 +49,7 @@ The precept to write σφαδᾴζω (and therefore, as Nauck does, ἀσφάδ�
 --- notes
 Read through from the column images; the draft's interleaved lines in 833 (Aesch. Ag. 1292), 835 (ἀεί θ’ ὁρώσας) and 837 (Eum. 1040) rewritten from the print. 832: the draft's cut before ψυχοπομπόν and before Ἑρμῆς ὁ πομπὸς joined again (plain Greek; πομπαῖον and χθόνιον bold inside the paragraph). 834: πλευρὰν inside the note is in plain type. Italics set; *Helen.* 96 (OCR οὔ), *c.* 160 A.D., σφαδᾴζω and ματᾴζω with iota subscript as printed (σφαδάζοντος in the Plutarch quotation without), 835 f. as ## 835.
 833	rev: the first σφαδάζω ("σφαδάζω is from rt. σφαδ") has no iota subscript in the print (the draft's check had given it one); the three later ones (σφαδᾴζω, ἀσφάδᾳστος, Ellendt's σφαδᾴζω) and ματᾴζω have it
+heading: 835 f.
 
 === p-0215
 + Aesch. *Theb.* 791): cp. *O. T.* 418 δεινόπους ἀρά. Aesch. *Eum.* 371 σφαλερὰ καὶ τανυδρόμοις | κῶλα, δύσφορον ἄταν.
@@ -164,6 +165,9 @@ Read through from the column images; italics set (*Theb.*, *Eum.*, *Th.*, *Od.*,
 --- notes
 Read through from the column images; italics set. 845: the draft had not cut at "—οὐρανὸν διφρηλατῶν" (bold lemma, OCR ovpavov): new paragraph. In that lemma the print shows a speck under each α (οὐρανὸν, διφρηλατῶν), a flaw of the type, not an iota subscript. 849: the draft's cut at "=μητρί" joined again (τροφῷ=μητρί, μητρί plain). 850: lemma ἦ που (OCR "1 που"); Eurydicè as printed; *Anth. Pal.* 7. 219 (OCR 210); *Ant.* 1247.
 847-852	rev: Jebb's two dots of omission written as printed (the check had made them three), in the text and the flag answers: πέδιλα..χρύσεια, χρύσεος..τελαμών, ἥσει..κωκυτὸν, αἴλινον.. | ἥσει, τις.. | κωκυτόν, ἀλλ’..ἀλλ’
+heading: 843 f.
+heading: 850 f.
+heading: 852 f.
 
 === p-0217
 ## 854
@@ -215,6 +219,9 @@ The absence of caesura gives a more deliberate weight to σὲ μὲν κἀκε
 --- notes
 Read through from the column images; italics set. 854 f., 856 f., 859 f. as ## 854, ## 856, ## 859. 859: **βάθρον** (bold, no dash) stays inside the paragraph of πατρῷον. Persephonè as printed; "sun-light" divided at the line end written sunlight.
 856-859	rev: Jebb's two dots of omission written as printed (the check had made them three), in the text and the flag answers: τὸν..Ἥλιον, κοὔποτ’..ὕστερον, νέατον..φέγγος, κυνὸς..εὔρινος
+heading: 854 f.
+heading: 856 f.
+heading: 859 f.
 
 === p-0218
 ## 862
@@ -264,6 +271,8 @@ The extant examples of hemichoria in Tragedy are not many. In Aesch. *Theb.* 106
 Read through from the column images; italics set. 862: the draft's cut at "88—92" joined again; the print has "κ.τ.λ. . . |" (the abbreviation's stop and two dots of omission), written "κ.τ.λ. .. |". 864: **μυθήσομαι** bold inside the paragraph; the paragraph "Ajax falls upon his sword. (See n. on 815.)—The actor Timotheus …", which the OCR had interleaved with the line before, rewritten from the print (upright type, indented, no number). 866-878: ἐπιπάροδος is in plain italic Greek, not bold (bold taken away); *Theb.* 1066 (OCR 10606); Laïus; small capitals E. and W.
 862	rev: "κ.τ.λ. . . |" is the abbreviation's stop and two dots (three dots in all): written κ.τ.λ. .. | (the check had four)
 864	rev: lemma Αἴας..θροεῖ with Jebb's two dots (the check had three)
+heading: 862 f.
+heading: 864 f.
 
 === p-0219
 + from twelve to fifteen, his object was to provide a coryphaeus (distinct from the ordinary choreutae), and two subordinate leaders. The technical name for these leaders of hemichoria was παραστάται, because they stood one on each side of the coryphaeus when the Chorus was drawn up in ranks (κατὰ ζυγά).
@@ -373,6 +382,8 @@ For the lyric metres see Metrical Analysis.
 --- notes
 Read through from the column images; the draft's text of 877 (βολαί … δηλοῖ) and of 879-973 (the OCR had interleaved the two columns' lines) rewritten from the print. Range heading 879—973 (draft 879-978); the range note is in plain type, no lemma. 879 ff. as ## 879; ἁλιαδᾶν (bold, after a dash) a new paragraph. Italics set (*sc.*, *Cycl.*, *ictus*, *C.*, *along the path*). The speaker sigla ΧΟ. and ΚΥ. in Greek capitals as printed; the breathing of ἅλις (Suppl. 818) is faint on the scan and read as rough.
 877	rev: τὴν..κέλευθον with Jebb's two dots (the check had three); "ΧΟ..." (Cycl. 683) has three dots in the print (the abbreviation's stop and two), kept
+heading: 877 f.
+heading: 879 ff.
 
 === p-0221
 + fishermen); poetical for ἁλιέων, like παῖδες Ἑλλήνων (Aesch. *Pers.* 402). The use of the patronymic in Greek poetry was a free one; thus Pindar can say ἀφθίτου Ἐννοσίδα (Poseidon, *P.* 4. 33), forming the word from ἔνοσις. We might compare τεκτονίδης, which occurs as a proper name in *Od.* 8. 114.
@@ -441,3 +452,5 @@ Read through from the column images; italics set (*sc.*, *attain to*, *i.e.*). T
 The checker's "no breathing" remarks on υ, ῡ, ῠ: single letters named by Jebb (the υ is long; has ῡ; the pres. has ῠ), printed without breathing.
 883	rev: the print has "ἡ ξεῦξις" (both letters ξ: compared with the ζ of ἐφίζοισα on the same column), an evident misprint for ζεῦξις (Hdt. 7. 35 on the bridging of the Hellespont); ζεῦξις kept by the misprint rule (the check's note had called it "as printed")
 879-889	rev: Jebb's two dots of omission written as printed (the check had made them three), in the text and the flag answers: ἔχων..ἄγρας, εἴ ποθι..λεύσσων, κράτει..πέλασον, οὐρίων..δρόμων
+heading: 883 ff.
+heading: 885 ff.

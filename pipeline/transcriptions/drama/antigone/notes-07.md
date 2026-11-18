@@ -56,6 +56,9 @@
 32 ἐκβολάδες [greek] → ok
 33 (‘hard,” [conf] → (‘hard,’
 --- notes
+heading: 243 f.
+heading: 245 ff.
+heading: 248 ff.
 
 === p-0125
 + why no foot-prints were traceable.
@@ -120,6 +123,8 @@ It is still the early morning of the day on which the drama opens. The Argives h
 38 αὐτῷ [conf] → ok
 --- notes
 λεπτῇ δὲ κόνει (## 255, "instead of ..."): printed λέπτῃ, an evident misprint (accent on the wrong syllable; the lemma reads λεπτὴ); corrected to λεπτῇ.
+heading: 253 f.
+heading: 255 f.
 
 === p-0126
 + Βουζύγης): and of the elephant, *H. A.* 5. 49 τὸν ἐλέφαντα θεασάμενος ἐλέφας νεκρὸν οὐκ ἂν παρέλθοι, μὴ τῇ προβοσκίδι γῆν ἀρυσάμενος καὶ ἐπιβαλών, ὁσίαν τινὰ ἀπόρρητον ὑπὲρ τῆς κοινῆς φύσεως τελῶν (‘fulfilling some mysterious law of piety imposed by Nature’), καὶ φεύγων ἄγος· εἶναι γὰρ τὸ μὴ δρᾶσαι τοῦτο ἐναγές. It was remembered as a disgrace to Lysander that, having put to death some prisoners of war, οὐδὲ ἀποθανοῦσιν ἐπήνεγκε γῆν (Paus. 9. 32. 6). Cp. id. 1. 32. 5 πάντως ὅσιον ἀνθρώπου νεκρὸν γῇ κρύψαι. Hor. *Carm.* 1. 28. 33 *precibus non linquar inultis, Teque piacula nulla resolvent...licebit Iniecto ter pulvere curras.*
@@ -163,6 +168,8 @@ It is still the early morning of the day on which the drama opens. The Argives h
 27 στενάζων... [conf] → ok
 28 αἱ [conf] → ok
 --- notes
+heading: 257 f.
+heading: 259 ff.
 
 === p-0127
 + γλώσσης ῥόθος, of an unintelligible jargon.
@@ -229,6 +236,7 @@ It is still the early morning of the day on which the drama opens. The Argives h
 38 ὦμοσεν [accent] → ὤμοσεν
 39 Αθηναίων [accent] (Greek model: ᾿Αθηναίων.) → ok
 --- notes
+heading: 262 f.
 
 === p-0128
 + a *red-hot mass* of metal, and that the custom was symbolical of an older use of the μύδρος in ordeals by fire. This would explain how the Alexandrian poets of the 3rd cent. B.C. (Lycophron, Callimachus) came to use the word μύδρος, in defiance of its etymology, as simply ‘a lump’ (or even ‘a stone’). They supposed that the μύδροι had been cold masses.
@@ -275,6 +283,9 @@ It is still the early morning of the day on which the drama opens. The Argives h
 19 Ξεὐνάγκασε [greek] (Greek model: Ξεἠὐνάγκασε:) → =ἠνάγκασε
 20 if [conf] → ok
 --- notes
+heading: 265 ff.
+heading: 268 f.
+heading: 270 ff.
 
 === p-0129
 + As **ἀντιφωνεῖν** means *opposing* his suggestion, so **δρῶντες** means acting on it. Others join **ὅπως δρῶντες**, ‘by what course of action.’ Since, however, a definite proposal was before them—viz., reference to Creon—we must then understand, ‘by what *other* course’ (than the proposed one). But the sense is, ‘We could not refute him, and, on the other hand, we dreaded your anger if we followed his advice.’ **εἴχομεν** has the same sense in both clauses. ἔχω, as=‘*to know how*,’ takes (1) an infin., or (2) a relat. clause with subjunct., as 1342, *Tr.* 705 οὐκ ἔχω...ποῖ γνώμης πέσω. This is merely an indirect form of the deliberative subjunct., ποῖ γνώμης πέσω; So here, πράξαιμεν would be πράξωμεν if the principal verb were in a primary tense. The direct question would be, πῶς καλῶς πράξωμεν; Carefully distinguish ὅπως (or πῶς) ἄν with optat. after this οὐκ ἔχω, as *Tr.* 991 οὐ γὰρ ἔχω πῶς ἂν | στέρξαιμι, I know not how I *could*. The two constructions are combined again in *Ai.* 428 οὔτοι σ’ ἀπείργειν οὐδ’ ὅπως ἐῶ λέγειν | ἔχω.
@@ -335,6 +346,8 @@ It is still the early morning of the day on which the drama opens. The Argives h
 --- notes
 ## 273, τὰς...ἀπολογίας (ib. § 64): printed ἀπόλογίας (an accent too many), an evident misprint; corrected to ἀπολογίας.
 ## 273: the draft's stray "." between ἐδόκει and (‘seemed good’) was a speck at the head of the right column; deleted, the sentence joined.
+heading: 273 ff.
+heading: 278 f.
 
 === p-0130
 + burial of Sarpedon. Cp. *O. C.* p. xxxv.
@@ -377,6 +390,7 @@ It is still the early morning of the day on which the drama opens. The Argives h
 16 Pp. [conf] → p.
 17 dpiklovas [latin] (Greek model: πιπτἀμφικίονας,) → ἀμφικίονας
 --- notes
+heading: 284 ff.
 
 === p-0131
 + Her. 1. 50; Thuc. 6. 46; Isae. or. 7 § 41.) The wealth of Delphi in ἀναθήματα is already proverbial in *Il.* 9. 404: at Thebes the Ἰσμήνιον (*O. T.* 21) also seems to have been rich in them. After ἀνάθημα the gen. denotes either ὁ ἀναθείς (as more oft.), or, as here, the divine owner.
@@ -440,3 +454,4 @@ It is still the early morning of the day on which the drama opens. The Argives h
 31 —Nauck [conf] (Greek model: - Νιοὶς) → —Nauck
 32 74. [conf] → Il.
 --- notes
+heading: 289 f.
