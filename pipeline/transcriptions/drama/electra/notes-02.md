@@ -53,6 +53,8 @@
 27 ). [conf] → ok
 --- notes
 Beyond the flags: italics set (*sc.*, *i.e.*, *formed*, *moulded*, *Ant.*, *Ch.*, *O. T.*); ν. 35 → v. 35; (890) → (896) as printed; "Πυθικοῖσιν" bold as printed (two bold stretches with "(from ἆθλος)" between); λοιβαῖσι and στέψαντες follow a dash: new paragraphs; Tov → τὸν, Ξε → =.
+heading: 48 ff.
+heading: 51 ff.
 
 === p-0111
 + Cp. Aeschin. or. 3 § 164 ἐπιστολὰς ἃς ἐξηρτημένος ἐκ τῶν δακτύλων περιήεις (as Hor. *Sat.* 1. 6. 74 *suspensi loculos*): Xen. *Anab.* 7. 4. 16 ἐσπασμένοι τὰ ξίφη: *id.* *Cyr.* 6. 3. 24 προβεβλημένοι...τοὺς θωρακοφόρους: Plut. *Phoc.* 10 πώγωνα...καθειμένος. See also *Tr.* 157 n.
@@ -122,6 +124,9 @@ The *v.l.* **μοι** is inferior. As an enclitic, it could not go with the foll
 30 ο95τι.-- [digit] → 995 n.—
 --- notes
 Beyond the flags: kal → καί, mov → που, ds → ἃς, τό → 16, k.7.\. etc.; Mss. → MSS.; ‘thou’ for ‘που’; italics set (*Anab.*, *id.*, *Cyr.*, *Phoc.*, *Tr.*, *e.g.*, *O. C.*, *Helen.*, *sc.*); lemma bold limited to the bold type: **δοκῶ** μέν (μέν is in the italic Greek face), **σὺν κέρδει** (ὄν); **που**, **καὶ σὺ**, **μοι** bold inside the paragraphs as printed; the quotation after "He replies:—" (κακὸς μὲν ὄρνις· …) is in the italic Greek face, not a lemma: bold taken away and joined again to its paragraph; ἔρρει (new indented paragraph at the top of the right column) and δέμας made paragraphs under 56.
+heading: 56 f.
+heading: 59 f.
+heading: 62 ff.
 
 === p-0112
 + of preliminary advertisement, it would seem, to his poem the *Arimaspeia* (Her. 4. 14). It is vain to ask what particular story or stories Sophocles was thinking of; very possibly he knew those in Herodotus (cp. *O. C.* 337 n.); but it was enough for him that his hearers would recognise the allusion to stories of that type. Hartung thinks that the reference is to Odysseus; but, as Odysseus did not contrive the rumour of his own death, the case is not in point.
@@ -131,7 +136,7 @@ Beyond the flags: kal → καί, mov → που, ds → ἃς, τό → 16, k.7
 **ἐκτετίμηνται**. The emphatic perf. might denote either (1) permanence,—‘they are in greater honour *thenceforth*’; or (2) the instantaneous result,—‘*forthwith*.’ Perhaps the usage of the perf. pass. of τιμάω rather favours (1). Cp. *O. C.* 1304 τετίμηνται δορί (with Thuc. 2. 45, cited there): *Od.* 7. 69 (of Arêtè) τετίμηται.—The finite verb, instead of ἐκτετιμημένους, by a frequent idiom; cp. 192 (ἀμφίσταμαι): *O. C* 351 n.—ἐκτιμάω is rare in classical Greek. Arist. *Oec.* 2. 33 (p. 1352 *b* 5) has ἐκτετιμημένα as=‘things on which a high price is set,’ opp. to εὔωνα, ‘cheap.’
 
 ## 65
-**ὡς**, ‘as,’ seems better here than ὣς, ‘thus.’ It gives a smoother transition; and it is also more in accord with usage. Except in the phrases οὐδ’ ὣς (*Ant.* 1042), καὶ ὥς, etc., Attic writers seldom use ὥς, ‘thus.’ Among the rare instances are Aesch. *Ag.* 930 εἰ πάντα δ’ ὣς πράσσοιμεν: Plat. *Prot.* 326 D ὥσπερ οἱ γραμματισταὶ..., ὣς δὲ καὶ ἡ πόλις: *ib.* p. 338 A ὣς (*v.l.* ὡς) οὖν ποιήσετε: Thuc. 3. 37 ὣς οὖν χρὴ καὶ ἡμᾶς ποιοῦντας.
+**ὡς**, ‘as,’ seems better here than ὣς, ‘thus.’ It gives a smoother transition; and it is also more in accord with usage. Except in the phrases οὐδ’ ὥς (*Ant.* 1042), καὶ ὥς, etc., Attic writers seldom use ὥς, ‘thus.’ Among the rare instances are Aesch. *Ag.* 930 εἰ πάντα δ’ ὣς πράσσοιμεν: Plat. *Prot.* 326 D ὥσπερ οἱ γραμματισταὶ..., ὣς δὲ καὶ ἡ πόλις: *ib.* p. 338 A ὣς (*v.l.* ὡς) οὖν ποιήσετε: Thuc. 3. 37 ὣς οὖν χρὴ καὶ ἡμᾶς ποιοῦντας.
 
 **κἄμ’ ἐπαυχῶ**: for the accus. (though the pron. refers to the subject of the verb), cp. 470 f., *Tr.* 706 n.
 
@@ -171,6 +176,8 @@ Beyond the flags: kal → καί, mov → που, ds → ἃς, τό → 16, k.7
 26 (¢6. [conf] → (*ib.*
 --- notes
 Beyond the flags: "It 15 vain" → It is vain; (p- 1352 ὁ 5) → (p. 1352 *b* 5); stray comma after "instantaneous" (a speck) dropped; "**π**.-ἐκτιμάω" was a false paragraph: ἐκτιμάω is in the plain italic Greek after a dash, joined again as "n.—ἐκτιμάω"; the 65 note rewritten from the image (the OCR scrambled the Plato/Thuc. citations): ὣς (grave) and ὥς (acute) as printed; Ξε → =, kal → καί, el → εἰ; ἄπο, ἐχθροῖς, ἄστρον made new paragraphs after their dashes; **λάμψειν** bold inside the paragraph as printed; italics set (*Oec.*, *Od.*, *Prot.*, *Ag.*, *Tr.*, *baleful*). "*O. C* 351": the print has no stop after C, kept as printed.
+65	rev: "οὐδ’ ὣς (*Ant.* 1042)" → οὐδ’ ὥς (the print has rough breathing and acute here, as in καὶ ὥς and "use ὥς")
+heading: 65 f.
 
 === p-0113
 + will prove an οὔλιος ἀστήρ.—Whitelaw: ‘So living, doubt not, from this falsehood’s cloud | I on my dazzled foes, starlike, shall break.’
@@ -233,6 +240,9 @@ Beyond the flags: "It 15 vain" → It is vain; (p- 1352 ὁ 5) → (p. 1352 *b* 
 24 47. [conf] → *Ai.*
 --- notes
 Beyond the flags: "ἔτι., menacing: cp. 471: 77. 257:" → **ἔτι**, … *Tr.* 257. (new paragraph after its dash); 68 "σωτήριον .." → σωτήριον.; "Aesch. (Οὐ. 940" → Aesch. *Ch.* 940; "CZ. 68 ff." → *Ch.* 968 ff.; "Pind. 2. 9. 58" → Pind. *P.* 9. 58; "Pindar 2. 4. 110" → Pindar *P.* 4. 110; ἀλλ᾽ → ἀλλ’; (cp. 1430) → (cp. 1436); "cp. 30 ἢ." → cp. 39 n.; "ἰώ pol μοι" → ἰώ μοί μοι; "ἰώ μοι μοί" kept as printed; italics set (*sc.*, *O. T.*, *Ant.*, *master of*, *founder*, *founded*, *e.g.*).
+67	rev: checked; "*O. C.* 553 (n.)": the print sets "O.C." closed up here (a tight line); written with the usual space, no other change
+heading: 67 f.
+heading: 74 f.
 
 === p-0114
 + often added to such interjections; *Ant.* 850 ἰὼ δύστανος: *O. C.* 876 ἰὼ τάλας: *O. T.* 1307 αἰαῖ, φεῦ φεῦ, δύστανος.
@@ -242,7 +252,7 @@ Beyond the flags: "ἔτι., menacing: cp. 471: 77. 257:" → **ἔτι**, … *
 
 **θυρῶν** is perhaps best taken as denoting *the quarter whence* the sound strikes the ear, so that it goes with αἰσθέσθαι (‘hear *from* the doors’). The order of the words, and the rhythm, favour this. It might, however, be a local gen., ‘*at* the doors,’ going with ὑποστενούσης: cp. 900 n.
 
-I should agree with the schol. in governing θυρῶν by **ἔνδον**, did not the wide separation of the words make this so awkward. When Sophocles places a genitive long before the preposition which governs it, the genitive is usu. *causal*; and, as this sense is readily perceived, the delay of the prep. then matters less. See, *e.g.*, 578 f. τούτου...οὕνεκ’: *O. T.* 857 f. μαντείας...οὕνεκ’: *Ph.* 598 f. τίνος ...χάριν.
+I should agree with the schol. in governing θυρῶν by **ἔνδον**, did not the wide separation of the words make this so awkward. When Sophocles places a genitive long before the preposition which governs it, the genitive is usu. *causal*; and, as this sense is readily perceived, the delay of the prep. then matters less. See, *e.g.*, 578 f. τούτου...οὕνεκ’: *O. T.* 857 f. μαντείας...οὕνεκ’: *Ph.* 598 f. τίνος...χάριν.
 
 **προσπόλων τινὸς**: the old man conjectures that it is a slave, because a daughter of the house was not to be expected at the gates, especially at such an early hour: cp. 518 n. But Orestes fancies that he recognises the voice.
 
@@ -303,6 +313,11 @@ On the other hand Sophocles has ἐπακούω, ‘to listen,’ in *O. T.* 708
 41 Thue [latin] (Greek model: (Τμυς.) → Thuc.
 --- notes
 Beyond the flags: "Az. 850" → *Ant.* 850 (the print); "ΠΟ comer" → new comer; Cp. 900 1. → cp. 900 n.; "MSs." → MSS.; "Κύμη vol. 1." → Kühn vol. 1.; "(ἰαχῆς, Or" → ἰαχῆς, or; "K. 111." → K. III.; "ἀρχηγετεῖν ... τε ἄρχεσθαι" → merely=ἄρχεσθαι; "Ant. 497 τι." → *Ant.* 497 n.; "ν. 51" → v. 51; "ὁ. ἀρχαγέτας..’ Ἀπόλλων" → ὁ...ἀρχαγέτας...Ἀπόλλων; τὰ Λοξίου made a new paragraph after its dash; italics set (*De Corde*, *De Humid.*, *De artic.*, *Bell. Civ.*, *O. T.*, *O. C.*).
+78	rev: "τίνος ...χάριν" → τίνος...χάριν (the dots begin the next printed line; closed up like the other ellipses of the note)
+82	rev: checked; "(*O. C.* 60 n.)": the print sets "O.C." closed up here; written with the usual space
+heading: 78 f.
+heading: 80 f.
+heading: 82 f.
 
 === p-0115
 + with the founding of Cyrene by Battus.
@@ -353,6 +368,8 @@ Verses 86—102 form a σύστημα, =vv. 103—120 (ἀντισύστημα).
 23 Hamlet's [conf] → Hamlet’s
 --- notes
 Beyond the flags: "Ale. 613" → *Alc.* 613; 805 → 895; "ἴῃ this sense" → in; "Pk. 1667" → *Ph.* 1667; "2.2. brings" → *i.e.* brings; "272 our case" → *in our case*; kal → καί; "77. 588" → *Tr.* 588; "v. 09" → v. 99; "Aesch. 2. 7. 88 ff." → Aesch. *P. V.* 88 ff.; "P. V. 281" set in italics; **κράτος τῶν δρωμένων** bold inside its paragraph as printed; italics set (*Alc.*, *Ph.*, *O. C.*, *O. T.*, *Mor.*, *Ajax*, *Andr.*). ## 86 after ## 86-120 is Jebb's order (the range note on the whole θρῆνος, then the first verse).
+heading: 84 f.
+heading: 86 f.
 
 === p-0116
 + most excellent canopy, the air’ (2. 2. 311). Hes. *Th.* 126 Γαῖα δέ τοι πρῶτον μὲν ἐγείνατο ἶσον ἑαυτῇ | Οὐρανὸν ἀστερόενθ’, ἵνα μιν περὶ πάντα καλύπτοι. A genitive after ἰσόμοιρος usu. denotes that *in which* persons share alike (as Isae. or. 6 § 25 ἰσομοίρους...τῶν πατρῴων). Here it denotes the partner. Cp. Arist. *De Mund.* 6. 18 (p. 399 *a* 8) ἥλιος...καὶ οἱ τούτου [not τούτῳ] ἰσόδρομοι, ὅ τε Φωσφόρος καὶ ὁ Ἑρμῆς. So adjectives of similarity or equivalence can take a gen. (as προσφερής Eur. *H. F.* 131, ἀντίπαλος Pind. *O.* 8. 71). Such genitives are analogous to those which follow words expressing community or participation, as κοινός, συγγενής, etc.—Others, taking ἀήρ as that which is intermediate between γῆ and αἰθήρ, explain, ‘air, which has the same share in earth (as it has in αἰθήρ),’—comparing Ar. *Av.* 187 ἐν μέσῳ δήπουθεν ἀήρ ἐστι γῆς (where καὶ οὐρανοῦ is to be supplied). This is very forced.
@@ -403,6 +420,7 @@ Beyond the flags: "Ale. 613" → *Alc.* 613; 805 → 895; "ἴῃ this sense" �
 31 Α7αν [digit] → *Ajax*
 --- notes
 ᾰ ("would require ᾰ in ἀήρ") is Jebb's sign of a short alpha, a letter on its own, so it has no breathing (checker remark expected). Ὑμνῶμεν: the print has Ὑμνώμεν (acute), an evident misprint for the subjunctive Ὑμνῶμεν (Synesius, Hymn 5. 1); corrected. Beyond the flags: the draft had run the 88 lemma (πολλὰς μὲν...ἤσθου, "88 f.") into the ἰσόμοιρ’ paragraph as garble ("by 88 Eustathius f. πολλὰς p. 17. i) 46. «ἤσθου"): rebuilt as "Eustathius p. 17. 46." and a new note ## 88 with its lemma; "7%. 126" → *Th.* 126; "Ἡ το it" → Here it; "(p- 399 α 8)" → (p. 399 *a* 8); "A. F. 131" → *H. F.* 131; "O. 8. 71" → *O.* 8. 71; "(er. π.}" → (cr. n.); "& in d7p" → ᾰ in ἀήρ; "pseudo- Phocylides" → pseudo-Phocylides; "7. 7°. 130" → *I. T.* 130; "ΝΥ. Christ" → W. Christ; "in 10" → in 19; ὑπολείπῃ; italics set (*De Mund.*, *Av.*, *i.e.*).
+heading: 88 f.
 
 === p-0117
 + the intrans. use is frequent with Aristotle. The subjunct. can follow **ἤσθου**, since the thought is, ‘hast heard’ (and still hearest). For the converse (an optat. after a primary tense which implies a secondary), cp. *O. C.* 11 n.
@@ -485,3 +503,6 @@ The MS. **οἴκων** is better than the proposed **λέκτρων**, since (*
 41 ‘rushes.’ [conf] → ok
 --- notes
 ᾱ ("Ἄρης with ᾱ") is Jebb's sign of a long alpha, a letter on its own, so it has no breathing (checker remark expected). πελέκει: the lemma is printed πέλεκει (acute on the first syllable), an evident misprint for the dative πελέκει (v. 99); corrected. Beyond the flags: "**ξ**. τὰ...παννυχίδων" → **τὰ...παννυχίδων** (the "ξ." was debris); **ξυνίσασ’**, **ὅσα...θρηνῶ**, **οἴκων**, **λέκτρων**, **μογερῶν**, **ἐξένισεν** (in 95) bold inside their paragraphs as printed; "(μὰς. 2. 11)" → (Thuc. 2. 11); "(4)" → (*b*); Ms. → MS.; the Homeric quotation rebuilt from the image (verse divisions | as printed, the bold of the first verse taken away: it is the italic Greek type; δειπνίσσας is letter-spaced in the print, written plain); "v. οὔ" → v. 96; "ft." → ff.; "ὁ1τ4" → 614; "ZZ 13. 380 ff" → *Il.* 13. 389 ff.; "727. 267" → *Tr.* 267; "Tis" → τις; "2. 1301 ... (ῃ.)" → *Ph.* 1301 ... (n.); "ἃ two-edged" → a two-edged; "singleheaded" → single-headed (hyphen at the line end, a compound); "Pind. 2. 1. 87" → Pind. *P.* 1. 87; kal → καί; italics set (*Ph.*, *Ran.*, *Rep.*, *Ag.*, *Od.*, *Helen.*, *Anthol.*, *Anab.*, *proceeds*).
+heading: 92 f.
+heading: 98 f.
+heading: 100 f.

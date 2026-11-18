@@ -36,6 +36,7 @@ The alternative, which most editors have preferred, is to take τίνων as the
 20 ἀπήτουν [accent] → ἀπῄτουν
 --- notes
 Paragraph 1 rewritten from the image (the OCR had scrambled the Greek of Lys. 19 § 36 and Ag. 1417 and the P. V./Ag. quotations in 534); "366 n." (draft 566).
+heading: 537 f.
 
 === p-0175
 + μεθύων ἐπαρῴνησα; In this verse, ἀλλὰ introduces both the supposed argument and the reply, since **κτανὼν**=εἰ ἔκτανεν (as=‘granting that he slew’). Cp. Andoc. or. 1. § 148 τίνα γὰρ καὶ ἀναβιβάσομαι δεησόμενον ὑπὲρ ἐμαυτοῦ; τὸν πατέρα; ἀλλὰ τέθνηκεν. ἀλλὰ τοὺς ἀδελφούς; ἀλλ᾽ οὐκ εἰσίν. ἀλλὰ τοὺς παῖδας; ἀλλ᾽ οὔπω γεγένηνται.
@@ -98,6 +99,10 @@ The sense does not absolutely require us to take **Μενέλεω δ᾽** as=τ�
 30 Mevéλεω [mixed] → Μενέλεω
 --- notes
 Draft headings "## 540" (print 540 f.), "## 542" (542 f.), "524 f." in the text made ## 544 (print 544 f.); ἤ at the head of 542 is plain type, unbolded; κτανὼν bold, Μενέλεω δ᾽ bold as printed; draft paragraph split "Μενέλεω δ᾽ α5 / τῶν δὲ Μενέλεω" joined; λῄσασθαι, θνῄσκειν with iota subscript as printed.
+rev: 537, the Andoc. quotation (first paragraph): the print has the misprint "δεήσομενον" (accent on the η); written δεησόμενον (correction kept, note added)
+heading: 540 f.
+heading: 542 f.
+heading: 544 f.
 
 === p-0176
 ## 546
@@ -149,6 +154,8 @@ Draft headings "## 540" (print 540 f.), "## 542" (542 f.), "524 f." in the text 
 18 els [rare] → εἰς
 --- notes
 552: the OCR had scrambled two lines ("For Ant. the constr., 223 ἄναξ ..."); rewritten from the image. ἐρεῖς and ἐρεῖς...μ᾽ ὡς, and ἁξήκουσεν in the Ph. quotation, are bold in the print; ὑπάρ-χω read as plain (doubtful weight at the line break). Headings 552, 554 are "552 f.", "554 f." in print.
+heading: 552 f.
+heading: 554 f.
 
 === p-0177
 + acted against his own will.—Hermann, reading τοῦ τεθνηκότος **γ᾽**, took γε to imply that she would not defend *herself*. But the double **τε** suits the promise of impartiality.
@@ -164,7 +171,7 @@ Clytaemnestra has argued that she was justified in slaying Agamemnon, because he
 (1) 558—562. The wife who slew her husband would be a criminal, even if the motive had been just retribution; but the real motive was her love for Aegisthus. (2) 563—576. Agamemnon was not a free agent in slaying Iphigeneia; the act was forced upon him by Artemis. (3) 577—583. Suppose, however, that he was a free agent, and wished to please his brother; still she was not justified in taking his life. (4) 584—594. And in any case her plea does not excuse her for living with the man who helped to slay her husband.—The speech then closes in a strain of reproach and defiance (595—609).
 
 ## 558
-**καὶ δὴ λέγω σοι**: the same formula as in 892 and *Ant.* 245,—καὶ δὴ expressing prompt compliance. Cp. also 1436, 1464. The sense of **πατέρα** is relative to the speaker, and not (as would be more natural) to the subject of **φῂς**: see on *Tr.* 1125 τῆς πατροφόντου μητρός.—For the doubled ἄν, cp. 333 f.
+**καὶ δὴ λέγω σοι**: the same formula as in 892 and *Ant.* 245,—καὶ δὴ expressing prompt compliance. Cp. also 1436, 1464. The sense of **πατέρα** is relative to the speaker, and not (as would be more natural) to the subject of **φὴς**: see on *Tr.* 1125 τῆς πατροφόντου μητρός.—For the doubled ἄν, cp. 333 f.
 
 ## 560
 **εἴτ᾽ οὖν...εἴτε**: cp. 199 n. We supply ἔκτεινας: cp. Aesch. *Eum.* 468 σὺ δ᾽, εἰ δικαίως εἴτε μή, κρῖνον δίκην, where ἔκτεινα is understood from v. 463.
@@ -196,6 +203,9 @@ Clytaemnestra has argued that she was justified in slaying Agamemnon, because he
 23 SEEMS [conf] → seems
 --- notes
 "(2) 563—576" with Jebb's dash (draft had a hyphen); "(595—609)" (draft "595 —600"); 558 f. split off from the 558-609 paragraph as its own heading ## 558; "Εοῦ the doubled" was "—For the doubled ἄν", rejoined to 558.
+rev: 558 "**φὴς**": the print's bold φὴς has no iota subscript (the bold δίκῃ on p-0178 shows one plainly); written as printed (was φῂς)
+heading: 556 f.
+heading: 558 f.
 
 === p-0178
 ## 561
@@ -249,6 +259,8 @@ The conjecture **πλοῖα** for πολλὰ (cr. n.) would be an attractive r
 25 Fr. [conf] → *Ph.*
 --- notes
 563: the paragraph on τὰ πολλὰ πνεύματ᾽ ἔσχ᾽, split by the draft at "For ἔσχε as=", rejoined; "Proclus Chrest. p. 455" (draft 435); "Ph. 1119" (draft "Fr."); "Eur. I. A. 9 ff." (draft "2. 4. g ff."); ἐπ᾽ in "ἐπ᾽ Αὐλίδι" bold as printed.
+heading: 561 f.
+heading: 563 f.
 
 === p-0179
 + channel (αὐλός), as other towns were named from αὐλών ‘a valley.’ It stood on the Boeotian coast, in the territory of Tanagra, about three miles S. of the point where, at Chalcis in Euboea, the Euripus is narrowest. The site was a rocky peninsula (hence Αὐλίδα πετρήεσσαν, *Il.* 2. 496), having on the south of it a large basin, known as the βαθὺς λιμήν (Strabo 3. p. 403). Pausanias saw at Aulis an ancient temple of Artemis, with two statues of the goddess (9. 19. 6).
@@ -310,6 +322,8 @@ The conjecture **πλοῖα** for πολλὰ (cr. n.) would be an attractive r
 31 ΓΑρτεpuis [mixed] (Greek model: μιϑ) → Ἄρτεμις
 --- notes
 "about three miles S." (small capital; draft "s."); "Tanagra," (draft "Tanagra."); 566 "θεᾶς...κατ᾽ ἄλσος" lemma restored; "Proclus Chrest. p. 455" (draft 453); in the Wolff quotation the print sets only "beim" in italics, kept so; βαλών bold inside 569 as printed.
+rev: 563 (run-on) "Strabo 3. p. 403": the print clearly has 3 (Strabo's p. 403 is in book 9); left as printed, for the author to decide whether it is to be corrected as a misprint
+heading: 566 f.
 
 === p-0180
 This is the reason against taking τυγχάνει with βαλών, as=‘he shoots and hits’; cp. *Il.* 15. 581 θηρητὴρ ἐτύχησε βαλών: Her. 3. 35 εἰ...τοῦ παιδὸς...βαλὼν τύχοιμι. The vaunt must then *precede* the hit.
@@ -373,6 +387,8 @@ Monk, with Musgrave, took **σφαγὰς** as=*iugulum*, understanding, ‘he u
 30 Menelaiis [latin] (Greek model: Μεπεϊαϊ5.) → Menelaüs
 --- notes
 First paragraph has no "+": it begins indented in the print (a new paragraph of the note on 569). Rewritten from the image: "(1) ἐκβάλλειν ... Her. 6. 69, etc. But βάλλειν ἔπος does not seem to occur" (lines interleaved in the draft); "Ar. Ran. 595" (draft 505); 570 "O. T. 267" (draft 207); 571 the OCR had interleaved two lines, the three lemmas ὡς, ἀντίσταθμον, ἐκθύσειε rebuilt from the image; 573 "Eur. Med. 89" (draft 80); "Λητῴα κόρη" restored.
+heading: 571 f.
+heading: 573 f.
 
 === p-0181
 ## 575
@@ -453,3 +469,6 @@ Here, either τίθης or τιθῇς would be suitable. (1) With τίθης:�
 47 χολώσεται [conf] → ok
 --- notes
 580: the OCR had interleaved the two columns of the second paragraph ("cuse’ see that (she you is are actually not making ..."); the whole note rewritten from the image, and the draft's false paragraph break before "—‘See lest" joined; 582: the draft's split "“727 that is to be the rule, / τάμε (¢f you got" rejoined as one paragraph; "Ant. 908" (draft οοϑ); "Eur. Tro. 730" (draft "Ἑπτ. 770").
+heading: 578 f.
+heading: 580 f.
+heading: 582 f.

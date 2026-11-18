@@ -47,6 +47,7 @@ The *v.l.* νόει for **νῷν** was suggested by such passages as *Ph.* 415,
 17 ἀρχαῖον [conf] → ok
 --- notes
 Read through on the column images: Ai. 852 (draft 41.), ὡς bold, ὡς/ἐκεῖνον, cp. (draft cp-), τε καί bold (draft Te), εἰς τί μοι cut as a further lemma, Ai. 52, Ai. 478 (draft «12.), θερμὴν .. καρδίαν, ib. 961, 317 n. (draft 517 π.), italics set.
+heading: 887 f.
 
 === p-0223
 + πατρῷα μνήματα at Athens in which members of the same γένος were buried, [Dem.] or. 57 § 28. He may have conceived that the ashes of Agamemnon, after his corpse was burned (901 πυρᾶς), were deposited in a stone vault, above or beside which the tumulus (κολώνη) was raised. Pausanias saw ‘in the ruins of Mycenae’ a legendary τάφος of Agamemnon, and of others who were slain along with him (2. 16. § 6).
@@ -98,6 +99,9 @@ Read through on the column images: Ai. 852 (draft 41.), ὡς bold, ὡς/ἐκ�
 23 —the [conf] → ok
 --- notes
 Draft cut "ἔσχον θαῦμα=ἐθαύμασα" at the "=" (read "--"): joined again. ἐγχρίμπτει is bold inside the paragraph. ψαλίδα is printed letter-spaced (emphasis), written plain. Also mended from the image: Plato's 947 D (draft Ὁ), ἐς πατέρων .. θήκας, ἐστὶν, *Or.*, ἀμφὶ τὸν (draft Tov), 899 *sc.* ὄντα and *O.C.* 29 (draft 20), *ib.* 586 (draft 26.), the lemma ἐν γαλήνῃ.
+heading: 894 ff.
+heading: 897 f.
+heading: 900 f.
 
 === p-0224
 + so ‘in the region of’): cp. *Il.* 9. 219 (ἷζεν) τοίχου τοῦ ἑτέροιο: 17. 372 νέφος δ’ οὐ φαίνετο πάσης | γαίης οὐδ’ ὀρέων. The word πυρὰ can mean, not only a funeral pyre, but also the place where a corpse was formerly burned (*bustum*), and is here a synonym for τύμβος, κολώνη. So Pind. *I.* 7. 57 πυρὰν τάφον θ’ (of Achilles): Eur. *Hec.* 386 πυρὰν Ἀχιλλέως.
@@ -164,11 +168,14 @@ The elliptical **πῶς γὰρ** (*sc.* ἔδρασας) is followed by the re
 32 f. [conf] → ok (911 f., heading ## 911)
 --- notes
 Structure: the scholium's quotation after "thus:—" is in plain type, not a lemma: joined again with the dash (draft "**οτ**-"); "—Others understand merely" was split off as "**ποιοῖς** understand merely": joined to the δυσφημῶ paragraph. σύνηθες after "brother,—" is bold: cut as a further lemma. (ὥρα) after νεώρη is not bold. ὅραμα ὃ ἀεὶ printed letter-spaced, written plain. Also mended: *Il.* 9. 219 (ἷζεν), 17. 372, φαίνετο, γαίης, "mean," (draft "mean."), Pind. 57 πυρὰν (draft "5%"), ἐμπαίει μοι, παρίσταταί μοι, *Ag.*, *Ai.* 545 ταρβήσει γὰρ, *Ant.* 96 (draft "gb"), ΕΚ., ὤμοι, τί με, νῦν θ’ ὁμοίως καὶ τότ’, 676, the lemma πῶς γὰρ and *sc.* in 911.
+heading: 902 ff.
+heading: 907 f.
+heading: 911 f.
 
 === p-0225
 + **ᾗ γε**, with a causal force, as in *Ph.* 1386 πῶς (*sc.* φίλος εἶ), ὅς γε τοῖς ἐχθροῖσί μ’ ἐκδοῦναι θέλεις; This causal force is further marked here by the use of **μηδὲ** instead of οὐδέ,—‘one who is not allowed’ (cui ne ad deos quidem *liceat* egredi).
 
-**πρὸς θεοὺς**, *i.e.* to their shrines; cp. Aesch. *P. V.* 530 θεοὺς ὁσίαις | θοίναις **ποτινισσομένα**. The reference is to the neighbouring Heraeum (v. 8), and to the altars or images of gods in front of the palace itself (637, 1374). So in Eur. *El.* 310 Electra says that she is ἀνέορτος ἱρῶν καὶ χορῶν τητωμένη. At Athens religious festivals were among the few occasions on which unmarried women could leave the house.
+**πρὸς θεοὺς**, *i.e.* to their shrines; cp. Aesch. *P. V.* 530 θεοὺς ὁσίαις | θοίναις ποτινισσομένα. The reference is to the neighbouring Heraeum (v. 8), and to the altars or images of gods in front of the palace itself (637, 1374). So in Eur. *El.* 310 Electra says that she is ἀνέορτος ἱρῶν καὶ χορῶν τητωμένη. At Athens religious festivals were among the few occasions on which unmarried women could leave the house.
 
 **ἀκλαύστῳ**: so L here, though it supports ἄκλαυτος in the other places (*O. C.* 1708, *Ant.* 29, 847, 876). L also gives κλαυστὰ in *O. C.* 1360 (the only Sophoclean instance of that word). Cp. γνωστός and γνωτός (*O. T.* 361 n.).—For the sense, *impune*, cp. *O. T.* 401 κλαίων (n.), *Ph.* 1260 ἐκτὸς κλαυμάτων.
 
@@ -189,7 +196,7 @@ But is **ἐλάνθανεν**, the reading of the MSS., even tenable? Surely no
 5 zceat [latin] (Greek model: “εεαΐ) → *liceat*
 6 2.6. [conf] → *i.e.*
 7 P. [conf] → *P.*
-8 ποτινισσouéva [mixed] → ποτινισσο- (printed in heavier type: bold)
+8 ποτινισσouéva [mixed] → ποτινισσο-
 9 ποτινισσouéva [mixed] → ποτινισσομένα.
 10 1374). [conf] → ok
 11 (0. [conf] → (*O.*
@@ -215,8 +222,9 @@ But is **ἐλάνθανεν**, the reading of the MSS., even tenable? Surely no
 31 ‘ [conf] → ‘nor,
 32 she [conf] → ok (*was she in the way to escape*)
 --- notes
-Structure: the page runs on from 911 (`+ ` added); "egredi).—πρὸς θεοὺς" is a further lemma: cut (dash dropped). ποτινισσομένα in the Aeschylus quotation is printed in heavier type, written bold. Also mended from the image: *sc.* φίλος εἶ, ὅς γε, **μηδὲ**, ἱρῶν καὶ χορῶν, Eur. *El.*, ἄν (draft dv/av, several), Ar. *Plut.* (draft Put.), ΧΡ., Eur. *Ion* (draft 7071), ν ἐφελκυστικόν (draft »), *e.g.* (draft 6...), *Hec.* 1113, ‘nor, *was she escaping* (draft ske), *H. F.* (draft 27. 2.), ἔθνῃσκε, καὶ τἄμ’; italics set throughout.
+Structure: the page runs on from 911 (`+ ` added); "egredi).—πρὸς θεοὺς" is a further lemma: cut (dash dropped). Also mended from the image: *sc.* φίλος εἶ, ὅς γε, **μηδὲ**, ἱρῶν καὶ χορῶν, Eur. *El.*, ἄν (draft dv/av, several), Ar. *Plut.* (draft Put.), ΧΡ., Eur. *Ion* (draft 7071), ν ἐφελκυστικόν (draft »), *e.g.* (draft 6...), *Hec.* 1113, ‘nor, *was she escaping* (draft ske), *H. F.* (draft 27. 2.), ἔθνῃσκε, καὶ τἄμ’; italics set throughout.
 The checker's two remarks on "ε" without a breathing: the letter named on its own ("elide the ε", "the elision of ε"), as printed.
+rev: ποτινισσομένα (*P. V.* 530) bold taken away: it is the italic Greek of the quotation, only more heavily inked, not the upright bold lemma type
 
 === p-0226
 + Before δρῶσα can mean εἰ ἔδρα, we must have ἐλάνθαν’ ἄν, or some equivalent (as ἔμελλε λανθάνειν), in the apodosis. Conversely, before the simple ἐλάνθανεν could have a conditional sense, we should require as protasis, not δρῶσα, but εἰ ἔδρα.
@@ -252,6 +260,8 @@ If **ἐλάνθαν’ ἄν** were incorrect (which has not been proved), I sh
 11 Phoen. [conf] → *Phoen.*
 --- notes
 The draft's lines of the 915 note were scrambled ("as denoting cp. 1382. ‘ the dues’ It cannot paid by be Orestes explained"): rewritten in the print's order from the image. τἀπιτίμια and δ’ are bold inside their paragraphs; ἐλάνθαν’ ἄν and ἔληθεν ἄν bold in the second paragraph. Also mended: ἄν (draft dv/av), *Ant.* 901, *Tr.* 129, *P. V.* 397 (draft 2. V.), *precedes*, *Ag.*
+heading: 916 f.
+heading: 918 f.
 
 === p-0227
 ## 922
@@ -306,6 +316,9 @@ The draft's lines of the 915 note were scrambled ("as denoting cp. 1382. ‘ the
 15 ΟἿ7: [digit] → *O. T.*
 --- notes
 Structure: the draft had scrambled the 922 note over two paragraphs ("**τάδ**., what how regions far from your realities"): rewritten from the image as one paragraph; "—like ἐλπίδες τινός" (plain type) joined back to 924; "992 f." and "f ὦ δυστυχής", "996 ἵν’" left as text by the draft: made headings ## 932, ## 934, ## 936. Also mended: ὑπῆρχες; ἐπὶ (draft ";" doubled), *Paroem.*, *from*, *Tr.* 377 (draft 77.), ἵν’ εἶ κακοῦ, *ib.* 1442 (draft 10.), *sc.* ἐγώ, "so joyful" (draft 50).
+heading: 924 f.
+heading: 932 f.
+heading: 934 f.
 
 === p-0228
 ## 939
@@ -351,7 +364,7 @@ The draft had split the lemma of 943 ("**τλῆναι**. δρῶσαν:"): one 
 **ποεῖν**. The *v.l.* τελεῖν (cr. n.) is less fitting here than the simpler word.
 
 ## 948
-**παρουσίαν** here implies the notion of ‘support,’ ‘aid,’ as **παρεῖναι** often does (*Ph.* 373 n.).
+**παρουσίαν** here implies the notion of ‘support,’ ‘aid,’ as παρεῖναι often does (*Ph.* 373 n.).
 
 **καὶ σύ που**: cp. 55.
 
@@ -388,4 +401,5 @@ The draft had split the lemma of 943 ("**τλῆναι**. δρῶσαν:"): one 
 19 δὴ... [conf] → δὴ..
 20 ὦλοντο [accent] → ὤλοντο
 --- notes
-The draft had split "βιοῦν.—Cp. *Tr.* 235" into a false lemma "**ΟΡ**. 77. 235": joined. παρεῖναι and βίῳ are bold inside their paragraphs. εὔθυνος printed letter-spaced, written plain. Also mended: *id.* fr. 432, *v.l.* (draft 2./.), cr. n., *Il.* 23. 485 (draft 71.), ἐν βίῳ, *Tr.* 235, *Eum.* 319 (draft 310), "a penalty" (draft ἃ), *Ai.* 508 (draft Az.), μητέρα | πολλῶν (bar), Ἅιδης (draft “Αιδης), γὰρ (draft yap), ὅτ’ οὖν ἐκεῖνοι..
+The draft had split "βιοῦν.—Cp. *Tr.* 235" into a false lemma "**ΟΡ**. 77. 235": joined. βίῳ is bold inside its paragraph. εὔθυνος printed letter-spaced, written plain. Also mended: *id.* fr. 432, *v.l.* (draft 2./.), cr. n., *Il.* 23. 485 (draft 71.), ἐν βίῳ, *Tr.* 235, *Eum.* 319 (draft 310), "a penalty" (draft ἃ), *Ai.* 508 (draft Az.), μητέρα | πολλῶν (bar), Ἅιδης (draft “Αιδης), γὰρ (draft yap), ὅτ’ οὖν ἐκεῖνοι..
+rev: παρεῖναι (948) bold taken away: italic Greek, heavily inked, not the upright bold type

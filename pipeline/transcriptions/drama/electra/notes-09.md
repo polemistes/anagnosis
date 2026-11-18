@@ -17,7 +17,7 @@ First στάσιμον. Strophe, 472—487=antistrophe, 488—503: epode, 504—
 Encouraged by the tidings of Clytaemnestra’s dream, the Chorus predict an early retribution on the murderers.
 
 ## 472
-**εἰ μὴ ᾿γὼ** κ.τ.λ. The sanguine prediction of the Chorus in *O. T.* 1086 ff. has a similar preface,—εἴπερ ἐγὼ μάντις εἰμὶ καὶ κατὰ γνώμαν ἴδρις.
+**εἰ μὴ ’γὼ** κ.τ.λ. The sanguine prediction of the Chorus in *O. T.* 1086 ff. has a similar preface,—εἴπερ ἐγὼ μάντις εἰμὶ καὶ κατὰ γνώμαν ἴδρις.
 
 **γνώμας λειπομένα**, *failing in* it: cp. *Tr.* 936 οὔτ᾽ ὀδυρμάτων | ἐλείπετ᾽ οὐδέν.
 
@@ -47,6 +47,10 @@ Encouraged by the tidings of Clytaemnestra’s dream, the Chorus predict an earl
 --- notes
 Read through both columns: 3560 → 356; ws dv → ὡς ἂν; θάνῃ; ἡ πόλις; closing quotation marks ’; italics set (afford any ground, afford a, failing in, Tr., I. A., Bacch., Cho., Phaedo); "—εἴπερ ἐγὼ…" is plain Greek (a quotation): joined back to the 472 paragraph with its dash; "—For δοκῶ με...τολμήσειν" and "—For ἔτι" stay in the 470 paragraph (bold as printed).
 ## 475: Jebb's number (lyric verse); our text has no 475.
+rev: 472 lemma: prodelision mark ᾿ (psili) → ’ (εἰ μὴ ’γὼ)
+heading: 470 f.
+heading: 472 ff.
+heading: 475 f.
 
 === p-0167
 + just preceded gives no ground for suspecting πρόμαντις: cp. 163 (γᾶν after γᾶ) n. For Δίκη as an avenging power, cp. 528: *Ai.* 1390 μνήμων τ᾽ Ἐρινὺς καὶ τελεσφόρος Δίκη.
@@ -97,6 +101,8 @@ The very axe (φόνιος πέλεκυς, 99) with which the blow was dealt is 
 22 φυλο [greek] → φυλοβασιλεῖς (divided between pages: written whole here, with its bracket and stop)
 --- notes
 Read through both columns: the paragraph wrongly cut at "45 | φέρειν" joined again (as=φέρειν; "45" was noise); 051 → 951 (Suppl.); 307 → 397 (O. C.); ἐν δίκους → ἐνδίκους; φεροίμὴν → φεροίμην; kal → καί; Ἐρινὺς without stray quotation mark; ἡλικίαν; κλύουσαν (bold in the print, inside the 479 paragraph); the Cho. 32 ff. quotation keeps Jebb's printed verse strokes (φόβος, | … κότον |); italics set (Ai., Il., Suppl., in her hands, Cho., Pers., Med., Ant., Ph., O. C.). Greek spaced for emphasis in the print (ἐσιδόντ᾽, κλύουσαν, πάσχουσαν, ὕπνου κότον πνέων) written plain.
+heading: 479 ff.
+heading: 484 f.
 
 === p-0168
 + Aeschin. or. 3 § 244 τὰ μὲν ξύλα καὶ τοὺς λίθους καὶ τὸν σίδηρον, τὰ ἄφωνα καὶ ἀγνώμονα, ἐάν τῳ ἐμπεσόντα ἀποκτείνῃ, ὑπερορίζομεν. (Cp. Dem. or. 23 § 76.) A like conception was implied in the English law (repealed in 1846) of ‘deodands’ (Deo danda), *i.e.*, personal chattels (whether animals or things) which, having caused the death of a human being, were forfeited to the Crown for pious uses.
@@ -166,13 +172,16 @@ Verses 495—497 (πρὸ τῶνδέ τοι...τέρας) answer metrically to 
 --- notes
 Read through both columns: kal → καί; 'deodands' quotation marks; Βα. Bacch. → Eur. *Bacch.*; wath → with; Kal πολύπους Kal → **καὶ πολύπους καὶ πολύχειρ** (the lemma, bold in the print); 1200 → 1290; φυγᾷ σᾷ (og); αἰκία bold in the print inside the 487 paragraph; πρὸ τῶνδε bold in the print; italics set (O. C., P.V., Bacch., Ant., O. T., Hipp., Ph., i.e., for, prae, prae timore, Il.).
 ## 490: Jebb's number (lyric verse); our text has no 490.
+heading: 488 f.
+heading: 490 f.
+heading: 492 ff.
 
 === p-0169
 + as Düntzer explains, ‘forward on the path of flight’: cp. Leaf *ad loc.*). *Tr.* 505 κατέβαν πρὸ γάμων, ‘entered the contest *for* the marriage’ (not ‘before’ it, which would there be pointless).
 
 (2) Could **ἔχει με**, μήποτε τέρας πελᾶν (etc.) mean, ‘*the belief* possesses me, that’ etc.? Surely not. No real parallel for so strange a phrase has been produced. It is irrelevant to quote those impersonal verbs which directly express the *occurrence* of a thought to the mind; as Xen. *An.* 6. 1. 17 εἰσῄει αὐτοὺς ὅπως ἂν καὶ ἔχοντές τι οἴκαδε ἀφίκοιντο (‘the thought came to them, how they might,’ etc.): Thuc. 6. 78. § 1 εἰ δέ τῳ ἄρα παρέστηκε, τὸν μὲν Συρακόσιον...πολέμιον εἶναι κ.τ.λ. Either, then, the subject to ἔχει has dropped out, or the words μ᾽ ἔχει conceal a corruption.
 
-The following remedies are possible: I incline to the first, as involving least change. (1) Reading in 479 ὕπεστί μοι θράσος, we may read here πρὸ τῶνδέ τοί μ᾽ ἔχει | <θάρσος τι>, μήποθ᾽ ἡμῖν etc. (It may be remarked that τι is in harmony with the tone of ὕπεστί μοι in 479.) Another available word is ξύννοια (cp. *Ant.* 279). (2) Or, reading in 479 ὕπεστί μοι θάρσος, we could read here πρὸ τῶνδέ τοι θάρσος ἴσχει με. On either view, the υ of ἁδυπνόων in 480 is long (as several critics have assumed). It should be noted that (1) involves a different constitution of the verses: see p. lxxxii.
+The following remedies are possible: I incline to the first, as involving least change. (1) Reading in 479 ὕπεστί μοι θράσος, we may read here πρὸ τῶνδέ τοί μ᾽ ἔχει | <θάρσος τι>, μήποθ᾽ ἡμῖν etc. (It may be remarked that τι is in harmony with the tone of ὕπεστί μοι in 479.) Another available word is ξύννοια (cp. *Ant.* 279). (2) Or, reading in 479 ὕπεστί μοι θάρσος, we could read here πρὸ τῶνδέ τοι θάρσος ἴσχει με. On either view, the **υ** of ἁδυπνόων in 480 is long (as several critics have assumed). It should be noted that (1) involves a different constitution of the verses: see p. lxxxii.
 
 In those MSS. which have **μή ποτε μή ποθ᾽ ἡμῖν**, the first μήποτε (absent from L) was probably an attempt to fill the gap: unless, indeed, μ᾽ ἔχει should be θράσος (as Wunder thought).—For other conjectures, see Appendix.
 
@@ -241,6 +250,7 @@ In those MSS. which have **μή ποτε μή ποθ᾽ ἡμῖν**, the first 
 Read through both columns: pe → με; {etc.) → (etc.); Tw dpa, TOV → τῳ ἄρα, τὸν; εἷναι → εἶναι; 7¢ → τι; the strophe-line stroke after μ᾽ ἔχει kept as printed (| <θάρσος τι>); ἁδυπνόων; mss. → MSS.; IL → L; Ἂμ’ ἔχει → μ᾽ ἔχει; the "Bergk" paragraph was a wrong cut (dash followed by English): joined; ὄνειρος· with its high stop; 71. → *Il.*; italics set (ad loc., for, the belief, occurrence, An., Ant., O. C., P. V., Ph., Hom. hymn., O.C., l.c., Tr., Il., H. F.); bold inside paragraphs as printed (ἔχει με, μή ποτε μή ποθ᾽ ἡμῖν, ἀψεφές, τοῖς συνδρῶσιν).
 ## 499, ## 503, ## 505: Jebb's numbers (lyric verses); our text has no 499, 503, 505.
 “υ” without breathing is Jebb's name of the letter (‘the υ of ἁδυπνόων’), as printed.
+rev: "the υ of ἁδυπνόων": the υ is in the bold type in the print → **υ**
 
 === p-0170
 + raids of Centaurs (χθόνα Θεσσαλῶν ἱππείαις ἐδάμαζον).
@@ -288,6 +298,7 @@ The form αἰανὴς has the best authority, and some critics hold that αἰ
 25 Αμεινοκλῆς [accent] (Greek model: ᾿Αμεινοκλῆς,) → Ἀμεινοκλῆς
 --- notes
 Read through both columns: the Apollonius verse after "wheels,’—" is plain Greek, not a lemma: joined back to its paragraph with the dash, bold taken away; italics set (Or., Helen., circ., O., persistent, Eum., ib., P., I.); 7. I. 49 → *I.* 1. 49; κόρος...αἰανής; εἶτε → εὖτε (the lemma).
+heading: 508 f.
 
 === p-0171
 **ὁ ποντισθεὶς Μυρτίλος**. The legendary scene was at Geraestus (now Cape Mandelo), the S. promontory of Euboea: Eur. *Or.* 990 Πέλοψ ὁπότε πελάγεσι διεδίφρευσε, Μυρτίλου φόνον | δικὼν ἐς οἶδμα πόντου, | λευκοκύμοσιν | πρὸς Γεραιστίαις | ποντίων σάλων | ἠόσιν ἁρματεύσας. Tzetzes on Lycophron 156 ῥίπτεται παρὰ Πέλοπος περὶ Γεραιστὸν ἀκρωτήριον. ὁ δὲ τελευτῶν ἀρὰς ἀρᾶται τοῖς Πελοπίδαις δεινάς κ.τ.λ. To Myrtilus was sometimes traced the name of the Μυρτῷον πέλαγος which lay S. of Euboea, E. of the Peloponnesus, and W. of the Cyclades. Pausanias (8. 14. 12) rejects this etymology, supposing Myrtilus to have perished on the coast of Elis. The Myrtoan sea was probably so called from the islet Myrto near Geraestus.
@@ -301,7 +312,7 @@ A vase found at Capua shows Pelops and Hippodameia in a ship, from which Myrtilu
 
 **πρόρριζος** here=πανώλεθρος, as in Ar. *Ran.* 587 πρόρριζος αὐτός, ἡ γυνή, τὰ παιδία, | κάκιστ᾽ ἀπολοίμην. It would strain the word to understand, ‘torn from his place’ in the chariot.
 
-**ἐκριφθείς**. In Her. 6. 86 ἐκτέτριπται...πρόρριζος is said of a man whose family is exterminated (cp. Eur. *Hipp.* 684); but ἐκτριφθεὶς is manifestly unsuitable here.
+**ἐκριφθείς**. In Her. 6. 86 ἐκτέτριπται...πρόρριζος is said of a man whose family is exterminated (cp. Eur. *Hipp.* 684); but ἐκτριφθείς is manifestly unsuitable here.
 
 ## 514
 **ἔλειπεν** (cr. n.) is confirmed by metre, since every other v. of this epode has anacrusis, which **ἔλιπεν** would exclude. For the intrans. λείπω, cp. Eur. *H. F.* 133 τὸ δὲ κακοτυχὲς οὐ λέλοιπεν ἐκ τέκνων: *Helen.* 1156 οὔποτ᾽ ἔρις | λείψει κατ᾽ ἀνθρώπων πόλεις. And ἔλειπεν in turn confirms **οἴκου** as against **οἴκους**. For **πω** suits the imperf. in this sense (‘was never yet absent from the house’), but would require the aor. if the sense were, ‘has never yet left the house.’ For the sing. οἴκου (=family), cp. 978.
@@ -329,7 +340,7 @@ This second ἐπεισόδιον comprises four scenes. (1) 516—659. Electra 
 15 (—~-). [conf] → (– ⏑ –).
 16 ἡ [conf] → ok
 17 Azpp [latin] (Greek model: ΤΠ.) → *Hipp.*
-18 ἐκτριφθείς [greek] (Greek model: ἐκτριφθείς.) → ἐκτριφθεὶς
+18 ἐκτριφθείς [greek] (Greek model: ἐκτριφθείς.) → ok
 19 H. [conf] → ok (*H. F.*)
 20 F. [conf] → ok (*H. F.*)
 21 πολυπάμονας [greek] → ok
@@ -342,6 +353,8 @@ This second ἐπεισόδιον comprises four scenes. (1) 516—659. Electra 
 28 ύο [accent] (Greek model: 66οΞΞ.) → 660—
 --- notes
 Page begins with a new indented paragraph (a further lemma on 508 f.): no `+ `. Read through both columns: small capitals s., E., w., Ms., MsS. → S., E., W., MS., MSS.; ῥίπτεται; k.7.\. → κ.τ.λ.; p- 1204 → p. 1204; ἅμα | πομπαῖον with Jebb's verse stroke; the 510 ff. note was left as text by the draft: made the heading ## 510 with its lemma **παγχρυσέων δίφρων**; Pind. O. τ. 87 → *O.* 1. 87; πρόρριζος, ἐκριφθείς are bold lemmas after dashes (new paragraphs); ἐκριφθείς (lemma) vs ἐκτριφθεὶς (in the text) as printed; the 514 and 515 notes: kar’ → κατ᾽, mw → πω (bold), 15 → is; ἔλιπεν, οἴκου, οἴκους, πω, αἰκία bold in the print inside their paragraphs; italics set (Or., Denkmäler, Mon. Inst., Ai., O., one, Tr., Ran., Hipp., H. F., Helen., v. l.).
+rev: 510: ἐκτριφθεὶς → ἐκτριφθείς (the print has the acute, seen enlarged; flag 18 answered ok)
+heading: 510 ff.
 
 === p-0172
 ## 516
@@ -400,6 +413,8 @@ Clytaemnestra begins in the same strain as Chrysothemis, who likewise emphasised
 26 «ἔχειν [conf] → ...ἔχειν
 --- notes
 Read through both columns: "where see π." → n.; ὀς ἔοικας → **ὡς ἔοικας** (bold lemma after a dash, its own paragraph); 77. Qo → *Tr.* 907; μή τοί..γε; AZ. → *Ai.*; 202 ἐχθίστα δή (n.) with a stray ")" dropped; Eur. 1. 7. → *I. T.*; ἀνομίᾳ; τραχεῖα bold in the print; ἄρχω® → **ἄρχω** (bold after a dash: a new paragraph); 204 → 264; 507 → 597; the last sentence of 523 was scrambled by the OCR ("words to words: you are ‘Insolent only such I as ‘am you not; address my"): rewritten from the page ("…the emphatic words: ‘Insolent I am not; my words to you are only such as you address to me.’", its last line "to me.’" read from leaf_0172, below the column crop); μέν, αὖ, πολλούς, κακῶς κλύουσα bold inside their paragraphs as printed; italics set (Ant., Tr., versaris, H., sane, O. C., Ai., and yet, Legg., I. T., P. V.).
+heading: 520 ff.
+heading: 523 f.
 
 === p-0173
 ## 525
@@ -417,7 +432,7 @@ Read through both columns: "where see π." → n.; ὀς ἔοικας → **ὡ
 The order of words in the MSS., ἐπεὶ πατὴρ οὗτος σός, is probably right; the words would then fall from her with a certain deliberate bitterness. Cp. 542: *Ant.* 44 ἦ γὰρ νοεῖς θάπτειν σφ᾽ (n.): *Ph.* 101 λέγω σ᾽ ἐγὼ δόλῳ Φιλοκτήτην λαβεῖν.
 
 ## 531
-**μοῦνος** (*O.T.* 304 n.) **Ἑλλήνων**. He of all men—the father of the maiden—was the one who resolved on sacrificing her. The sacrifice was, indeed, approved by the other chiefs (Aesch. *Ag.* 230 φιλόμαχοι βραβῆς); and several persons took part in the deed itself (*ib.* 240 ἕκαστον θυτήρων). But, in the first instance, when Calchas spoke, the decision rested with Agamemnon. Cp. Aesch. *Ag.* 205—225, ending with ἔτλα δ᾽ οὖν | θυτὴρ γενέσθαι θυγατρός. Sophocles, like Aeschylus, ignores the legend used by Euripides, that Iphigeneia was not really slain at Aulis, but wafted by Artemis to the Tauric Chersonese.
+**μοῦνος** (*O.T.* 304 n.) Ἑλλήνων. He of all men—the father of the maiden—was the one who resolved on sacrificing her. The sacrifice was, indeed, approved by the other chiefs (Aesch. *Ag.* 230 φιλόμαχοι βραβῆς); and several persons took part in the deed itself (*ib.* 240 ἕκαστον θυτήρων). But, in the first instance, when Calchas spoke, the decision rested with Agamemnon. Cp. Aesch. *Ag.* 205—225, ending with ἔτλα δ᾽ οὖν | θυτὴρ γενέσθαι θυγατρός. Sophocles, like Aeschylus, ignores the legend used by Euripides, that Iphigeneia was not really slain at Aulis, but wafted by Artemis to the Tauric Chersonese.
 
 Nauck requires τὴν αὐτὸς αὑτοῦ instead of τὴν σὴν ὅμαιμον, because Agamemnon’s unique crime was the slaughter of his own child: as if the text did not convey this. Clytaemnestra means, ‘while mourning a father, you forget a sister.’
 
@@ -453,3 +468,7 @@ The regular mode of expression would be, οὐκ ἴσον λύπης καμὼ�
 27 be, [conf] → ok
 --- notes
 Read through both columns: ds, ws → ὡς; the πρόσχημα lemma after the dash is bold: its own paragraph; 632 → 682; 4751. → 475 f.; the Ag. 1432 verse stroke | Ἄτην; the 529 note was scrambled by the OCR (the Lysias quotation interleaved with the Medea one): rewritten from the column image; the 529 lemma read as ᾗ (circumflex and iota subscript under the bold eta), the 528 lemma ἡ (rough breathing, no accent); the 531 note was left as text by the draft ("591 μοῦνος"): made ## 531, its lemma **μοῦνος** … **Ἑλλήνων** bold in two stretches as printed; "maiden —was" closed up (the dash begins a printed line); ‘ while → ‘while; Nauck's αὑτοῦ: the breathing is faint in the scan, the OCR's rough kept (the reflexive); italics set (for, Ag., i.e., to help, Med., Ant., Ph., O.T., ib.).
+rev: 531: Ἑλλήνων is in the ordinary (light) Greek type, not the bold of μοῦνος (seen enlarged): bold taken away
+rev: 531 (Nauck's τὴν αὐτὸς αὑτοῦ): enlarged, the breathing of the second word looks like a worn smooth breathing (blob on top, as on αὐτὸς); αὑτοῦ (the reflexive the sense needs) kept; if Jebb's page has αὐτοῦ it is a misprint, so αὑτοῦ stands either way: left open for a look at a better copy
+heading: 525 f.
+heading: 532 f.

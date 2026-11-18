@@ -100,6 +100,7 @@ The ancient temple was burnt down in 423 B.C. (Thuc. 4. 133). A new Heraeum was 
 24 Προσυμναία [accent] (Greek model: “Προσυμναία) → ok
 25 Flu. [conf] → *Fluv.*
 --- notes
+heading: 6 f.
 Heading 6 (‘6 f.’) was missing in the draft (‘62.’): made `## 6`; the paragraph **Λύκειος** must be ... is a new paragraph under it.
 Misprint corrected: the print has ’Αρτερίων (clearly ρ) for the stream at the Heraeum; the river is Ἀστερίων (Paus. 2. 17. 2): written Ἀστερίων by the misprint rule.
 
@@ -220,6 +221,10 @@ The vocative **σὺ** is no argument for the conjecture **βουλεύετον*
 31 (1) [digit] → ok
 32 -Ξ- [conf] → as=ἐσμέν
 --- notes
+heading: 13 f.
+heading: 15 f.
+heading: 17 f.
+heading: 21 f.
 Headings 13 and 21 (printed 13 f., 21 f.) taken from the image; 17 f. likewise. The draft had made ‘They must concert…’ a bold paragraph ‘ΓΕ’: joined back into note 20 after the dash. Il. 9. 485 (draft 483). ἴμεν (draft ἔμεν).
 θεραπείας: the print shows a dot under the first α (a speck, or a stray iota subscript in no word): written θεραπείας.
 
@@ -261,12 +266,14 @@ Headings 13 and 21 (printed 13 f., 21 f.) taken from the image; 17 f. likewise. 
 16 Larm [rare] → *Parm.*
 17 ἀεθλοφόρος. [conf] → ἀεθλοφόρος (no stop in the print)
 --- notes
+heading: 23 f.
+heading: 26 f.
 The draft had scrambled the end of (2) and the beginning of (3) (‘Ph. 429, (3) 433: Supposing 77. 37, that 772, ἐνταῦθ’ 936 is genuine’): rewritten from the image. ἔργων ἀκμή stays under 21 (Jebb gives it no number; v. 22). σημεῖα φαίνεις ... γεγώς: both bold stretches bolded.
 
 === p-0107
 + Thuc. 1. 70 ἐπὶ τοῖς δεινοῖς εὐέλπιδες; *ib.* 84 τῶν...ἐξοτρυνόντων ἡμᾶς ἐπὶ τὰ δεινά,
 
-**ἀπώλεσεν**, gnomic aor., combined with pres. **ἵστησιν**: *Ai.* 674 ff. δεινῶν τ’ ἄημα πνευμάτων ἐκοίμισε | στένοντα πόντον· ἐν δ’ ὁ παγκρατὴς ὕπνος | λύει πεδήσας: *Il.* 17. 177 ὅς τε καὶ ἄλκιμον ἄνδρα φοβεῖ καὶ ἀφείλετο νίκην: Plat. *Rep.* 566 D, E ἀσπάζεται ... ὑπισχνεῖται ... ἠλευθέρωσε ... διένειμε...προσποιεῖται: Dem. or. 2 § 9 ἐθέλουσιν...ἀνεχαίτισε καὶ διέλυσεν.—Distinguish those instances in which the ordinary (and not gnomic) aor. is combined with the *historic* pres., as *Ant.* 406 ὁρᾶται...ἡρέθη (n.).
+**ἀπώλεσεν**, gnomic aor., combined with pres. **ἵστησιν**: *Ai.* 674 ff. δεινῶν τ’ ἄημα πνευμάτων ἐκοίμισε | στένοντα πόντον· ἐν δ’ ὁ παγκρατὴς ὕπνος | λύει πεδήσας: *Il.* 17. 177 ὅς τε καὶ ἄλκιμον ἄνδρα φοβεῖ καὶ ἀφείλετο νίκην: Plat. *Rep.* 566 D, E ἀσπάζεται ... ὑπισχνεῖται ... ἠλευθέρωσε ... διένειμε...προσποιεῖται: Dem. or. 2 § 9 ἐθέλουσιν...ἀνεχαίτισε καὶ διέλυσεν.—Distinguish those instances in which the ordinary (and not gnomic) aor. is combined with the *historic* pres., as *Ant.* 406 ὁρᾶται...ᾑρέθη (n.).
 
 **ὡσαύτως δὲ**: here δὲ introduces the apodosis; so οὕτω δέ, *Ant.* 426 (n.).
 
@@ -307,7 +314,7 @@ The draft had scrambled the end of (2) and the beginning of (3) (‘Ph. 429, (3)
 9 Zistoric [latin] (Greek model: λιρίογές) → *historic*
 10 Ant. [conf] → *Ant.*
 11 ὁρᾶται... [conf] → ok
-12 ἠρέθη [accent] (Greek model: ἡρέθη) → ἡρέθη
+12 ἠρέθη [accent] (Greek model: ἡρέθη) → ᾑρέθη
 13 ZZ [latin] → *Il.*
 14 ZZ [latin] (Greek model: .) → *Il.*
 15 Ζγεφγάέηγεῖς [greek] (Greek model: ἐηιῤγέηείε,) → *imprimis*
@@ -328,6 +335,8 @@ The draft had scrambled the end of (2) and the beginning of (3) (‘Ph. 429, (3)
 30 6o4, [digit] → 604,
 31 n.—6 [conf] → n.—**ὁ Φοῖβος** (new paragraph)
 --- notes
+heading: 32 ff.
+rev: ᾑρέθη (Ant. 406): the print has the iota subscript under the η (draft ἡρέθη)
 The draft had cut ‘—Distinguish those instances…’ into a bold paragraph ‘Τ)15- tinguish’: joined back into the paragraph of ἀπώλεσεν (English after the dash). In 32 the further lemmas ἱκόμην, μάθοιμ’, ἀροίμην (each after a dash, bold) made paragraphs; in 35 τοιαῦθ’…ὧν and ὁ Φοῖβος likewise (ὁ Φοῖβος runs on to p-0108). Read-through: Il. 11. 795 (draft 705), ἐξοτρυνόντων…δεινά, (draft 70. 84 …δεινά .), ἠλευθέρωσε, ὁρᾶται…ἡρέθη (rough breathing as printed).
 
 === p-0108
@@ -384,6 +393,9 @@ This verse might seem the preface to some longer recital (cp. *Ph.* 1418 n.). Bu
 11 ὑποπτεύσωσιν [greek] → ok
 12 αϑ- [conf] → as=ἠσκημένον
 --- notes
+heading: 36 f.
+heading: 38 ff.
+heading: 42 f.
 The draft had scrambled the O. C. 677 / 1029 lines (‘O. C. occurs 677 ἀνήνεμον.. also in pti O. C. 1029 (n.). οὐ ψιλὸν The οὐδ’ adj. …’): rewritten from the image (χειμώνων restored). Further lemmas after dashes made paragraphs: ἀσπίδων τε καὶ στρατοῦ, δόλοισι, χειρὸς, κλέψαι (36); σὺ μὲν μολὼν, καιρὸς, ἴσθι (38); οὐδ’ ὑποπτεύσουσιν (42). Read-through: O. C. 1650 (draft τόξο), Eq. 1024, ib. 1174, Ph. 466, ib. 837. The word ‘men-|tioned’ divided between the pages is written whole here (‘mentioned,—’).
 
 === p-0109

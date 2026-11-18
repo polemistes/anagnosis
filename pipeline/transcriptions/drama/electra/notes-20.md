@@ -61,12 +61,16 @@
 30 4. [conf] → *Alc.*
 --- notes
 Read through on the column images. Structure: ## 1173 made from the draft's text "1178 πᾶσιν yap ἡμῖν." (lemma bold); δῆτ’ cut as a lemma after its dash; the draft's lemma "Ξ-. τοιγὰρ…" mended; "ἀπολείπεσθαι=" after "Ph. 782," is plain Greek in the print, kept in its paragraph. Words: 106 (draft 100), Romeo quote marks, Ai. 1231, Tr. 1107 (draft 77.), Ant. 1325 n., μἀπο-, μὴ ’πο-, θανεῖν·, O.C. 955, Tr. 1173, Alc. 419 ὡς, *ib.*, (not, ‘be patient’), θανόντ’; italics set; spaces before colons dropped.
+heading: 1163 f.
+heading: 1165 f.
+heading: 1168 f.
+heading: 1171 f.
 
 === p-0255
 + 782). It is true that the comment of the Chorus on an actor’s speech is usu. limited to two verses. But we find three above, 369—371, and in *O. T.* 1073—1075. Few will think with Dindorf that **τοῦτ’** (=τὸ θανεῖν, implied in θνητὸς) is too obscure.
 
 ## 1174
-**φεῦ φεῦ, τί λέξω;** Orestes, deeply moved, speaks to himself, though loud enough for Electra to hear. A similar ‘aside’ (if it can be called so) marks the crisis in the purpose of Neoptolemus, *Ph.* 895 f.: NE. παπαῖ· τί δῆτ’ ἂν δρῷμ’ ἐγὼ τοὐνθένδε γε; ΦΙ. τί δ’ ἔστιν, ὦ παῖ; ποῖ ποτ’ ἐξέβης λόγῳ;
+**φεῦ φεῦ, τί λέξω;** Orestes, deeply moved, speaks to himself, though loud enough for Electra to hear. A similar ‘aside’ (if it can be called so) marks the crisis in the purpose of Neoptolemus, *Ph.* 895 f.: ΝΕ. παπαῖ· τί δῆτ’ ἂν δρῷμ’ ἐγὼ τοὐνθένδε γε; ΦΙ. τί δ’ ἔστιν, ὦ παῖ; ποῖ ποτ’ ἐξέβης λόγῳ;
 
 **λόγων** goes with **ποῖ**, not with **ἀμηχανῶν**. Cp. *O.C.* 310 ὦ Ζεῦ, τί λέξω; ποῖ φρενῶν ἔλθω, πάτερ; *Ph.* 897 οὐκ οἶδ’ ὅποι χρὴ τἄπορον τρέπειν ἔπος.
 
@@ -103,6 +107,7 @@ The preparation is now complete: the actual disclosure follows. (i) 1205—1210.
 18 Tole [latin] (Greek model: Ἰοϊὲ,) → Iolè
 --- notes
 Read through on the column images. Structure: heading ## 1174 (draft ## 1172: Jebb prints "1174"); the draft's paragraph "**Τ που** joined with εἶδος…" was a false cut: Jebb's "—Though joined with **εἶδος**, κλεινὸν…" runs on in the 1177 note (dash followed by English), joined again. Words: τοῦτ’ bold, =τὸ θανεῖν, the Ph. 895 quotation (ἂν, τοὐνθένδε, ΦΙ., ἔστιν, ὦ, ποῖ ποτ’) and O.C. 310 / Ph. 897 (οἶδ’) quotations, λόγων/ποῖ/ἀμηχανῶν bold, *her*, 1188—1198, quotation marks, καὶ (draft kal), (*Tr.* 379), *Ph.* 575; italics set. In τοὐνθένδε (Ph. 895) an ink blot covers the letters -έν-; what shows of them and the verse fit the reading.
+1174	rev: speaker "NE." in the Ph. 895 quotation written in Greek capitals ΝΕ. (was Latin N, E)
 
 === p-0256
 ## 1178-1184
@@ -407,3 +412,4 @@ Nauck would re-write the vv. thus:—ΗΛ. ἦ γὰρ σὺ κεῖνος; ΟΡ
 20 καταστένδι [greek] → καταστένοι
 --- notes
 Read through on the column images. Words: ὦ τᾶν bold, *a congenital mark*, (p. 135 A), *Cho.* 168—234 (draft C/o.), Eur. *El.* 513—573 (draft £/.), "thus:—ΗΛ." with ΗΛ./ΟΡ./ΑΝ. in Greek capitals, ἦ γὰρ, *O. C.* 1439—1442, "μή τοί μ’ ὀδύρου." (stop as printed), Ἅιδην, καταστένοι, πεῖθ’, "if chosen" (draft "it": the f is worn in the print, the word is "if"); italics set.
+heading: 1222 f.

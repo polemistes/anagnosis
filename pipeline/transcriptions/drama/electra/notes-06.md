@@ -45,6 +45,8 @@ The δαίς is the feast which, in Homeric fashion (*Il.* 1. 467), would follow
 24 gods,’ [conf] → ok
 25 as [conf] → ok
 --- notes
+heading: 285 f.
+heading: 289 f.
 285: the lemma κλαῦσαι after the dash is bold in the print: cut as a new paragraph (the draft had left it in the paragraph as "- κλαῦσαι"); the second αὑτήν is bold as printed. 286 ἡδονὴν φέρει: "lit." (the draft's "πεν."); "1094" (the draft's "1004").
 289: the draft had cut the note after its number ("289:. δύσθεον" / "**ἄθεον**"); one paragraph, the lemma δύσθεον bold, "=ἄθεον" plain, as printed. The heading is printed "289 f.".
 
@@ -134,6 +136,10 @@ The adv. **πάντα** often thus strengthens an adj., as *Ai.* 911 ὁ πάν�
 31 is [conf] → ok
 32 2. [conf] → *ib.*
 --- notes
+heading: 291 f.
+heading: 293 f.
+heading: 296 f.
+heading: 299 f.
 296: Thuc. 1. 89 διεκομίζοντο: the μ is printed without its tail (worn type; it looks like υ, "διεκουίζοντο"); written μ.
 The page's Greek and references were corrected throughout from the column images (the draft had Pk., Fh., Foc, Az., AZ., Οὐ., 2b., 2. ὁ., A/c., 77., Anz. for *Ph.*, *O. C.*, *Ai.*, *Od.*, *ib.*, *i.e.*, *Alc.*, *Tr.*, *Ant.*; "133 Ὦ" for "153 n."; "τήν δ᾽" for "τήνδ’"; "εἴ τίς ce" for "εἴ τίς σε"; "kal" for καὶ; "ὦν" for ὤν). Headings printed "291 f.", "293 f.", "296 f.", "299 f.". 298: ἔτ’ is bold in the print. 301: πάντα is bold in the print.
 
@@ -183,6 +189,8 @@ I place only a comma, not a colon,
 18 7.., [conf] → *i.e.*,
 19 —i.e., [conf] → —*i.e.*,
 --- notes
+heading: 305 f.
+heading: 307 f.
 The page's Greek and references were corrected throughout from the column images (the draft had 47., 42., 77., ZZ, Ck., Az, 0. 7% for *Ant.*, *Ai.*, *Tr.*, *Il.*, *Ch.*, *Ai.*, *O. T.*; "ἀλλ᾽ ws τι" for "ἀλλ’ ὥς τι"; "Te...kal" for "τε...καὶ"; "ἔτ᾽ ἔτ᾽" for "ἴτ’ ἴτ’"; "pov ... pou" for "μου ... μοι"; "Tot" for τοι; "yap" for γὰρ; "πολλή στ’" for "πολλή ’στ’"; "77. 2095" for "*Tr.* 295"). Headings printed "305 f.", "307 f.".
 305: the bold μου after the dash begins a new paragraph (the draft had it in the paragraph); μοι after "prefer" is bold in the print. 307: εὐσεβεῖν after "recommend;" is bold in the print, inside the paragraph.
 
@@ -232,6 +240,9 @@ With the other punctuation, **ἱστόρει τί σοι φίλον**, the word
 15 wish’; [conf] → wish’;
 16 χρῃζει [accent] (Greek model: χρήζει5).) → χρῄζεις).
 --- notes
+heading: 310 f.
+heading: 312 f.
+heading: 314 f.
 314: the heading was left in the text ("914 f. ἡ κἂν.."); made ## 314 from the image (printed "314 f."), the lemma bold. Heading 310 and 312 printed "310 f.", "312 f.".
 312: the bold lemmas θυραῖον, οἰχνεῖν, ἀγροῖσι, τυγχάνει after dashes cut as new paragraphs (the draft had θυραῖον in the paragraph, read "0vpaiov"); "*O. C.* 65" (the draft's 63); "*Tr.* 379; *Ai.* 1359" (the draft's "77. 379 5 Ai."); "174 οὐρανῷ n." (the draft's "οὐρανῷ τι"). 314: ἦ τἂν and ἦ δἂν are bold in the print; only ἐς λόγους τοὺς σοὺς is bold in that lemma, ἱκοίμην plain. 316: ὥς νυν is in the bold type; τό and τά bold. Above, πάρεστιν is bold.
 
@@ -300,6 +311,7 @@ Here, as in 316, **νῦν** is better than **νυν**. The Chorus wish Electra 
 29 ὁμοὭὯτ [greek] → ὁμο- (ὁμοπάτριοι, written whole here)
 30 ὁμοὭὯτ [greek] (Greek model: ]) → omitted (the dark edge of the scan, no print)
 --- notes
+heading: 317 f.
 The draft garbled the paragraph of ἥξοντος ... ἢ μέλλοντος (the OCR ran its two halves into each other: "HL ἥξοντος, or about delaying?..."), the lemma of 317 τοῦ κασιγνήτου τί φής...; ("Cp. O. C. Od. 31τ1.—11. 174 τοῦ εἰπὲ ..."), 321 καὶ μὴν ἔγωγ’ ("«kal μὴν"), the end of 323 and 322 (split into "ἀρκεῖν" / "ἐπαρκεῖν"): all rewritten from the column images. The stray "[Note: ὭὯτ΄-]" (the scan's edge) deleted.
 317: ἥξοντος and ἢ μέλλοντος, the further lemma that begins its own indented line, are both bold; "*Ph.* 439" (the draft's 430); "*Tr.* 75" printed ". ." (two spaced dots), written ".." as elsewhere; the heading printed "317 f.". 319: ποεῖ is a bold lemma after the dash: new paragraph. 321: γε bold in the print; οὐκ ὄκνῳ bold after the dash: new paragraph. 324: νῦν and νυν bold; δόμων bold after the dash: new paragraph; φέρουσαν bold. 325: "cp. 156" (the draft's 1560); ὁμοπάτριοι divided between the pages, written whole here.
 
@@ -358,6 +370,7 @@ For the repeated **ἄν**, cp. *O. T.* 339 n.
 21 0.7. [conf] → *O. T.*
 22 n.—oi’ [conf] (Greek model: τι. οἱ) → n.— (then the new lemma οἷ’ αὐτοῖς φρονῶ)
 --- notes
+heading: 333 f.
 πάτριοι, the end of ὁμοπάτριοι divided between the pages, is written whole at the foot of p-0146 and left out here.
 The headings of 327 ("927 οἷα") and 333 ("9599.") had been left in the text: made headings from the image (printed "327", "333 f."). 326: the bold ἐντάφια after the dash begins a new paragraph. 327: νομίζεται bold in the print. 328: φωνεῖς, ἐλθοῦσα, αὖ bold in the print; "As αὖ implies" (the draft's "As ad"); "*Th.* 33" (the draft's 7%.). 330: "*Ph.* 101 n." (the draft's "Fh. τοι."). 331: "Antiphon *Tetr.* Γ. γ. § 2" (the draft's "Anti phon Zetr. I. ~."). 332: κἀμαυτήν, ὅτι bold as one lemma; "ὅτι κἀγὼ" (the draft's "ὅτε"). 333: ἄν bold; the bold οἷ’ αὐτοῖς φρονῶ after the dash begins a new paragraph; "Ar. *Ach.*" (the draft's "Ack.").
 
@@ -416,6 +429,7 @@ For the image, cp. Eur. *Med.* 524 ἄκροισι λαίφους κρασπέδ
 30 ---ἐλευθέραν, [conf] → —**ἐλευθέραν**, (new paragraph)
 31 ζῆν. [conf] → ok
 --- notes
+heading: 338 ff.
 The headings of 335 ("885") and 337 ("887") had been left in the text: made headings from the image (printed "335", "337"); 338 is printed "338 ff.". The draft had cut 337 at "The MS." (read "**Τὴ** MS."): one paragraph, as printed ("—The MS." is a dash followed by English); ἀλλὰ and ἄλλα are bold in it.
 335: πλεῖν bold in the print; "Ar. *Ran.* 997" (the draft's 007); "Plut. *Luc.* 3" (the draft's "3."); Ovid's verses in italics as printed. 336: the lemma and quotations corrected ("ἀλλὰ...πημαίνεις", "Plat. *Alcib.* 1. p. 124 C", "†μοίραις† ποεῖσθε μηδαμῶς"). 337: "Her. 1. 191 τά περ ἡ" (the draft's "7"). 338: κρίνεις, εἰ..με δεῖ (printed ". ." spaced) and ἐλευθέραν are bold lemmas after dashes: new paragraphs; ζῆν begins its own indented line: new paragraph; "οὐχ ᾗ ἐγὼ κρίνω, ἀλλ’ ᾗ σύ" (the draft's "ἣ").
 
@@ -487,5 +501,6 @@ Other explanations are:—(1) ‘Choose to be thought either *lost to right feel
 30 Jorgetful [latin] (Greek model: 7ογφοίζε,) → *forgetful*
 31 unintelligent [conf] → *unintelligent*
 --- notes
+heading: 343 f.
 The headings of 343 ("**ΞΖ**. τἀμὰ") and 345—351 ("945 351", printed with Jebb's dash) had been left in the text: made headings from the image (343 printed "343 f."). 345-351 is Jebb's note on the whole passage; his note on 345 follows it.
 339 (top): πάντ’ is a bold lemma after the dash: new paragraph. 343: "*O. T.* 969" (the draft's "Ὁ. 7."), "σῇ...προμηθίᾳ" (the draft's "07..."), "*Tr.* 934" (the draft's 77.); ἐκ σαυτῆς is a bold lemma after the dash: new paragraph. 345: "ΘΕ." and "ΗΡ." (speakers in Greek capitals); "ἀλλ’ ... Ἀδμήτου" corrected; "(cp. *Il.* 5. 812, 10. 243)" (the draft's "71."). 342: "Eur. *Ion* 1560" (the draft's 7071); "*Ai.* 688" (the draft's Az.); "ἅμα" (the draft's dua).

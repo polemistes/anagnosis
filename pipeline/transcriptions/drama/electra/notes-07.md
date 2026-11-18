@@ -42,6 +42,7 @@
 13 ze. [conf] (Greek model: 7.6.ν) → *i.e.*
 --- notes
 Beyond the flags (read through): "me,—at least" (the draft lost "—at"), ’ after father; φίλους=Electra; φρονοῦσα bold in 347 as printed; "dv" ἄν, "οἵ’ αὖτοῖς" οἷ’ αὐτοῖς; in 349 the words of the line "(the accus., denoting the person chastised, being often omitted), as *O. T.* 136" were scrambled: restored; heading 350 (draft "9550"), 1363 (draft 1563), ‘*her* who *does* act.’; in 351 ᾖ (draft ἢ), "κακὰ".
+heading: 347 f.
 
 === p-0151
 + this controversial ἐπεί with the imperat., see *O. T.* 390, *O. C.* 969.
@@ -106,6 +107,10 @@ Beyond the flags (read through): "me,—at least" (the draft lost "—at"), ’ 
 26 familiar: [conf] → ok
 --- notes
 After "969.—" the print has ἢ in the plain type and μάθ’ ἐξ ἐμοῦ in the bold lemma type (verse 352 ἢ μάθ’ ἐξ ἐμοῦ): cut as a further lemma, ἢ left outside the bold as printed. ἐκεὶ (grave) as printed. Beyond the flags: the draft had bolded the Greek after "world,—" (ὅπου τὸ χαίρειν … νομίζεται, plain italic in the print): joined again with the dash; "Τί seems" It seems; "22. 24." *Il.* 24.; "*Eum.*", "*Ai.*", "*Per.*", "*Ch.*", "*Cycl.*" italics; "**ἐφ’ οἷσι**" cut as a further lemma (bold after a dash); οἰκίᾳ μεγάλῃ, οἷον; ἢ ’μοὶ (the draft "ἢ μοὶ"); ἀν-|θρώποισι written whole here.
+heading: 357 f.
+heading: 359 f.
+heading: 361 f.
+heading: 363 f.
 
 === p-0152
 + τοῖσι σώφροσι, | λυπεῖν δὲ μηδὲν αὑτόν: Eur. (?) fr. 174 (Nauck) μὴ οὖν ἔθελε λυπεῖν σαυτόν (where Hermann conjectured μή νυν θέλε | λυπεῖν σεαυτόν). The tone of the phrase here is explained by the context. In the preceding verses Electra has fully set forth her view: now she is summing it up, in words suited to a hearer of whose sympathy she despairs. ‘Enough for me if I do not offend my own sense of right’; *i.e.*, ‘I must obey my own instincts,—as you follow yours.’
@@ -219,6 +224,9 @@ The draft had made the schol.'s words (τοῦτο μόνον ἐμὲ βοσκ�
 26 8oo, [digit] → 800,
 --- notes
 The first two lines of the right column (the end of the note on 372: "*Andr.* 744 τοὺς σοὺς δὲ μύθους ῥᾳδίως ἐγὼ | φέρω.") were missing from the draft (cut off the column crop): added from the page. Headings 371, 372 (draft "971", "972 f.") and 374 (draft "9742.") made from the image. Beyond the flags: πρὸς ὀργὴν, τοῖς λόγοις, πάλιν, ποτέ, εἰ, λόγων bold as printed; "(Ph. gon.)" (*Ph.* 90 n.); "Z/." *Il.*; "a plur." (draft ἃ); "εστον" ἐστον; "ἔα pe.." ἔα με..; "εἰ yap" γὰρ, "sth" 5th, "yap" γὰρ, *e.g.* italic; "(Λᾶ...γῶν)" (γᾶ...γᾶν); "77. 1193" *Tr.*; "ἰῶσα" ζῶσα (cut as a further lemma), "Anz." *Ant.*; κατηρεφεῖ is an indented paragraph without a number (a further lemma on 380 ff.).
+heading: 372 f.
+heading: 374 f.
+heading: 380 ff.
 
 === p-0154
 + also). So the sepulchral chamber of Antigone is a κατηρεφὴς τύμβος (*Ant.* 885, n.: cp. *ib.* 774, and 891).
@@ -278,6 +286,7 @@ Nauck reads **κοὔ**, the conjecture of Blaydes. But **καί** is right. She
 29 τίνα... [conf] → ok
 --- notes
 In 385 the draft had interleaved the words of several lines ("just as in βάται Ph. 565 |... ἡ δρῶσιν …", "kal βεβούλευνται: καί emphasises the verb: μεσθα cp. δή.. Ant. τ Ὁ 726 …"): both paragraphs rewritten from the image. The quotation after "threat—" (ὅπως ἀφ’ ὑμῶν … ἐκφύγω, plain italic) had been made a bold paragraph: joined again with the dash. Beyond the flags: "άπ." *Ant.*; *decantabis*; "βαί’" as printed; κοὔ, καί bold; *will not*; "27." *H.*; "(ἐστι)=καίριον", "εἰς καλόν=καιρίως" closed up; "Lh." *Ph.*; "eg." *e.g.*; "Ὁ. 7." *O. T.*; "τοῦδέ γ’ οὕνεκ’" cut as a further lemma (bold after a dash); "77)." *Tr.*.
+heading: 383 f.
 
 === p-0155
 + εἶπας, ὦ γεραιέ, τόνδε μοι λόγον; *O. C.* 68 n.

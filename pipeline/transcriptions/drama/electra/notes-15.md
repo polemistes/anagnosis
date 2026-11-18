@@ -48,6 +48,8 @@ These lyrics mark the climax of Electra’s grief. The comforter vainly seeks to
 17 dvoms [latin] (Greek model: ἀΐσῃς.) → ἀΰσῃς
 --- notes
 Headings mended: "825-8870" is 823—870 (## 823-870); the second "## 828" is "823 ff." (## 823). Speaker names ΗΛ., ΧΟ. written in Greek capitals. Spaces before colons and semicolons closed up.
+heading: 823 ff.
+rev: page read through against the columns; no change to the text
 
 === p-0215
 + warn her against any irreverent utterance (schol.). Cp. *Ai.* 386 μηδὲν μέγ᾽ εἴπῃς: *Od.* 22. 287 μή ποτε πάμπαν | εἴκων ἀφραδίῃς μέγα εἰπεῖν: Plat. *Phaedo* p. 95 B μὴ μέγα λέγε: Eur. *H. F.* 1244 ἴσχε στόμ’, ὡς μὴ μέγα λέγων μεῖζον πάθῃς: Theocr. 10. 20 μηδὲν μέγα μυθεῦ (do not boast). Verg. *Aen.* 10. 547 *Dixerat ille aliquid magnum.*
@@ -98,6 +100,10 @@ Headings mended: "825-8870" is 823—870 (## 823-870); the second "## 828" is "8
 --- notes
 "—ἀΰσῃς" (bold, after a dash) made a paragraph of its own under 830. Eriphylè with grave as printed.
 ## 834: Jebb's number; our text has no 834 (Jebb's "834 f.", the lyric line κατ’ ἐμοῦ τακομένας: our text numbers the lyrics otherwise).
+heading: 832 f.
+heading: 834 f.
+heading: 836 f.
+rev: page read through against the columns; no change to the text
 
 === p-0216
 + Amphiaraüs was approaching the river Ismenus, near Thebes, when the earth, riven by a thunderbolt, swallowed him up, with his chariot: cp. *fr.* 873. Sophocles wrote an Ἐριφύλη, and also a satyric Ἀμφιάρεως.
@@ -162,6 +168,8 @@ The cult of Amphiaraüs had its chief
 --- notes
 The draft's paragraph "**ποτε** the instrum. dat." is the oracle's quotation running on ("ἵπποις,—where the instrum. dat. ᾧ"): joined to the κρυφθέντα paragraph. Heading 840 made from "84C ἔ" lw." (lemma ἒ ἔ· ἰώ). Other corrections from the image: *P. V.* 468, *Rep.* 590 A, Apollod. 3. 6. 6, *Theb.* 587 f., πιανῶ, *Od.* 10. 495, καὶ, *Il.* 23. 104, Roscher p. 295. λινόπτερον: its first letters look heavier in the print, but the word is in the plain Greek face (ink), so left unbolded.
 ## 837: Jebb's number; our text has no 837 (Jebb's "837 f.", χρυσοδέτοις ἕρκεσι: our text numbers the lyrics otherwise).
+heading: 837 f.
+rev: page read through against the columns; no change to the text
 
 === p-0217
 + seat in Boeotia, but afterwards spread thence to Argos, and throughout Greece. He was a chthonian deity, like Melampus; associated with Dionysus, and then with the Apollinar μαντική. The Ἀμφιάρειον near Thebes, a dream-oracle, was consulted by Mardonius (Her. 8. 134). In later times the shrine near Oropus was more famous (Paus. 1. 34. 2).
@@ -211,6 +219,8 @@ Amphiaraüs was avenged by his son Alcmaeon,—the counterpart, in this story, o
 27 ἐπεί [conf] → *luctu*
 --- notes
 842: Jebb's lemma "φεῦ.—φεῦ δῆτ’." (two speakers' words, one lemma before his note) kept as one bold lemma; the draft had split off "φεῖ." as a paragraph and put a stray "[" before Electra's. "cp. 200" is 290 on the image. "*Anecd. Oxon.* II.": the figures look like Jebb's old-style 1s, but the volume (of four) is II. Other corrections from the image: *Il.* 16. 849, *Tr.* 846, *Th.* 485, *Eum.* 95 ff., *Od.* 1. 241 νῦν, καὶ, ΧΟ./ΟΙ. in Greek capitals.
+heading: 842 ff.
+rev: page read through against the columns; no change to the text
 
 === p-0218
 ## 849
@@ -254,6 +264,8 @@ This view gives πανσύρτῳ a more forcible and more poetical sense than i
 --- notes
 Corrections from the image beyond the flags: *I. T.* 1431 (draft "7. 7: 1431: 50"), *Ant.* 1074, **αἰῶνι** bold where Jebb first names Hermann's reading, **παμμήνῳ** bold, *of*, *accumulated*, closing quotation marks ’.
 "the αι of δειλαία": Jebb names the diphthong αι, not a word; it has no breathing in the print.
+heading: 851 f.
+rev: page read through against the columns; no change to the text
 
 === p-0219
 ## 853
@@ -302,6 +314,9 @@ That the MSS. have εὐπατριδᾶν is more significant than that they als
 --- notes
 854: "—ἵν’, in a case where" is printed in the plain italic Greek, not in the bold lemma type, so by the brief it is joined to the παραγάγῃς paragraph with the dash (though it reads as a further lemma, on 855). 853: Jebb prints a macron over the ο in "*Ant.* 612 το̄ πρίν" (no accent shown): written ο + combining macron (U+0304), as there is no precomposed form. "ἁ λώβα" (Doric article, draft "a"), "ἃ θροεῖς" and "ἃ θρηνεῖς" (bold) from the image; "ᾇ θρηνεῖς" the compromise.
 "A lengthening of ᾰ": Jebb names the short alpha (with its breve), not a word; no breathing in the print.
+heading: 854 f.
+heading: 857 ff.
+rev: page read through against the columns; no change to the text
 
 === p-0220
 ## 861
@@ -347,6 +362,8 @@ That the MSS. have εὐπατριδᾶν is more significant than that they als
 15 κλύων [conf] → ok
 --- notes
 The draft garbled the first note (861: its words interleaved, "+ vivid 861 epithet, χαλαργοῖς describing (" and a false lemma **χηλῶν**): rewritten from the image as ## 861; the page begins with a new note, so no "+ ". 868: "*Ai.* 290" (draft "42. 200"), *Ant.* 900 (draft "goo"), *Ant.* 911, "ἀντιάσας = ἀντήσας (*O. C.* 1445)" (draft had garbled it into the bold) from the image.
+heading: 868 ff.
+rev: page read through against the columns; no change to the text
 
 === p-0221
 + (1009).
@@ -396,3 +413,6 @@ For the place of **ὧν** at the end of the v., cp. *O. T.* 298, *O. C.* 14, *T
 12 20. [conf] → *ib.*
 --- notes
 Corrections from the image beyond the flags: heading 875 from "£ σὺ" (875 f.) with the lemma **σὺ**; **ὧν** (bold) in 873; εἶναι, οἱ, καὶ in the Plato quotation; "οὐκ ἔνεστι" (draft "οὐκ. ἔνεστι"); *Od.* 14. 159 (draft "Ομ. 14. 150"); *ib.* 753, 759 (draft "20. 753, 750"); Xen. *Mem.* 3. 13. 3 (draft "3. 13. 5"); "ΝΕ." and "ΔΙ." (speakers in the Frogs) in Greek capitals.
+heading: 875 f.
+heading: 881 f.
+rev: page read through against the columns; no change to the text

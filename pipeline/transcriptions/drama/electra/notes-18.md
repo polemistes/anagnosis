@@ -101,6 +101,7 @@
 27 ἄλλοι,..τὰ [conf] → ἄλλοι...τὰ
 --- notes
 1041: printed "1041 f.", heading ## 1041; the lemma "τί δ᾽; οὐ δοκῶ σοι" bold, κ.τ.λ. plain. Bold δῆτ᾽ and ἐξαμαρτάνειν (inside paragraphs) set bold. Also: instead?’, ‘what is right according to you,’, ‘the right on which you rely,’, ἦ δεινόν, ᾧ, καί, *Ant.* 323, [Not: ‘It is sad, cp. 240 n.: (was "Cp. 240 ἢ."), *Ai.* 1155 (was "47."), *Ph.* 66, *Ph.* 961, *Ant.* 370 f. (was "“7212"), ἐμοὶ..|..ἴσον; "chang:" on the print is worn type at the line's end (the e partly visible), written change.
+heading: 1041 f.
 
 === p-0240
 ## 1049
@@ -154,6 +155,7 @@ The contrast between the attitude of the two sisters suggests the theme of this 
 23 will [conf] → ok
 --- notes
 1052: the draft had jumbled the last two lines ("ον: ὀψομάπελθόντ᾽. Ar. Ran. 508 See οὐ n. on μή 0. σ᾽ C. ἐγὼ 177. | περι-"): rewritten from the image. 1056: printed "1056 f.", heading ## 1056; stray “ before Ὁμηρικὸν removed. Bold **ι** (1049) and **καὶ** (1054) inside paragraphs as printed. The checker's remark on “ι”: it is the letter named (quantity of ι), printed without breathing. Also: *O. C.* 1251, *O. C.* 184, ἀποστυγεῖν:, *Ph.* 82 n. (was "Fh."), *Ant.* 92, Plat. *Prot.*, (‘the very attempt …’), *Il.* 17. 32 (was "71."), colons closed up.
+heading: 1056 f.
 
 === p-0241
 + her righteous cause. May she yet prevail!
@@ -209,6 +211,9 @@ The contrast between the attitude of the two sisters suggests the theme of this 
 25 14). [conf] → ok
 --- notes
 The checker's remark on “οῐ”: the diphthong named (οι with a short mark), printed without breathing. 1058, 1059, 1061 printed "1058 f.", "1059 f.", "1061 f.": headings ## 1058, ## 1059, ## 1061 (the draft had "1061:." in the text: made the heading). 1058: the further lemma οἰωνοὺς after the dash made a paragraph. Also: here=ἄνω (was "drw"), *Od.* 7. 312, *Tr.* 909 (was "77. gog"), *Ant.* 593 (was 503), *Ant.* 994 (was "πὲ 004"), *sc.*, τὸν ἀεὶ πατρὸς (was "Tov del"), μὰ is (was "15"), Pind. *Ol.* 8. 21, Her. 2. 14, closing quote Seasons,’ and suffering.’, prevail!
+heading: 1058 f.
+heading: 1059 f.
+heading: 1061 f.
 
 === p-0242
 ## 1066
@@ -269,6 +274,8 @@ Some write **Φάμα**. Aeschines mentions Φήμης θεοῦ μεγίστη�
 29 --- [conf] → — (cut: **διπλῆ φύλοπις** new paragraph)
 --- notes
 1068: printed "1068 f.", heading ## 1068; "Cho. 49" as printed. The draft had cut "house,—not reproaches" into a false paragraph "**ποῖ** reproaches": joined again. 1071: printed "1071 ff.", heading ## 1071; "equal-|ised" divided between the pages, written whole here. Also: Pind. *O.* 8. 81, *O.* 14. 20 ff., Persephonè.’, Her. 9. 100, (or. 1. § 291), *Op.* 761 f., *O. C.* 1222 f., *Suppl.*, *Tro.* 121 and 233 (were "770."), *I. T.* 146 (was "7. 7."), ἁμετέρου, bold **βροτοῖσι**, **ὀνείδη**, **δή** as printed, closing quotes ’.
+heading: 1068 f.
+heading: 1071 ff.
 
 === p-0243
 + *i.e.*, cannot be resolved into harmony, does not permit unity of feeling, **φιλοτασίῳ διαίτᾳ**, in a friendly home-life; for the dat. seems to be modal rather than instrumental. The boldness of the phrase resides in the fact that διπλῆ φύλοπις, ‘strife between two,’ is treated as=‘two who are at strife,’ and so ἐξισοῦται expresses what would more properly be said of the sisters’ minds. The schol. gives the sense rightly: οὐκέτι ἴσα φρονοῦσιν ὡς ἐν φιλίᾳ διαιτώμεναι, ἀλλὰ στασιάζουσι πρὸς ἀλλήλας.
@@ -332,6 +339,7 @@ Far the best conjecture is Heath’s, **ἁ παῖς, οἶτον ἀεὶ πα
 31 ‘what [conf] (Greek model: ἐγγῃαϊ) → ok
 --- notes
 1078: printed "1078 f.", heading ## 1078. "home-|life" divided at the line end: written home-life (a compound). The draft's 1077 "**πάνδυρτος**" kept; πανόδυρτος is plain type. Bold inside paragraphs as printed: **φιλοτασίῳ διαίτᾳ**, **τὸν εἰσαεὶ** (Ai. 342), **ἀεὶ**, **πατρὸς**, and Heath's **ἁ παῖς, οἶτον ἀεὶ πατρὸς**. Also: *compatible with*, *Legg.* 923 B (was "Lege. 923 Β"), the dagger before τὸν in the 1075 lemma, τὸν ἀεὶ throughout (was "del"), | before ὡς ἑνός (Il. 22. 424) as printed, *Il.*, *Ai.*, *Tr.* 80, Fröhlich (was "Frohlich"), indicates—as, *own*, τὸν ἑὸν (was "Tov"), ἁ παῖς (was "a"), ἁ στονόεσσ᾽, cp. 350 (was "CP. 35ο"), *Pers.*, *Hec.*, *Aen.*
+heading: 1078 f.
 
 === p-0244
 + woman so truly noble is likely ever to be born?’ Will the world see again a maiden so worthy of her descent? εὔπατρις is chosen so as to suggest the *father* to whom she was so loyal. Cp. Byron, *The Giaour*, v. 6, ‘When shall such hero live again?’
@@ -374,6 +382,7 @@ Far the best conjecture is Heath’s, **ἁ παῖς, οἶτον ἀεὶ πα
 20 κἀπολακτίσασ᾽ [accent] → ok
 --- notes
 1083: printed "1083 f.", heading ## 1083. Bold **τῶν ἀγαθῶν** (1082) as printed. Also: *The Giaour* (was "7%e"), ‘When shall … again?’ (was "¢"), baseness.’, By (was "ΒΥ"), οἱ καλῶς (was "ol"), *Ai.* 265 ff. (was "Az. 2065"), ἄν, τις (was "Tis"), *P. V.* 651 (was "2. V."), the (κοινόν) colon closed up.
+heading: 1083 f.
 
 === p-0245
 + the original word, then we must suppose that it had been partly obliterated before καθοπλίσασα took its place. The same remark, however, applies more or less to the other conjectures, as ἀποπτύσασα (Gleditsch, prefixing δ᾽: Blaydes, prefixing τ᾽): καταπτύσασα (Paley): καθαγνίσασα (Campbell, ‘purging away as by fire’): καθιππάσασα (Hermann; but the act. form does not occur).
@@ -447,3 +456,6 @@ If **καθοπλίσασα** be retained, the choice is between two explanation
 40 ᾽φάνη [conf] → ok
 --- notes
 ## 1088: Jebb's number; our text has no 1088. 1090, 1094, 1095 printed "1090 f.", "1094 f.", "1095 ff.": headings ## 1090, ## 1094, ## 1095. Bold **καθοπλίσασα** (If … retained), **τῶν** and **τοσόνδ᾽** (1090) as printed. Also: (1) (was "(r)"), *i.e.* (twice, was "Ζ.6." and "z.e."), *so as*, *Ph.* 117 ὡς (was "ws"), "(cp. ἐπίχειρ, ἀντίχειρ)", *P. V.* 162 (was "2. V."), Ionic (was "Tonic"), *Ant.* 454 f. (was "“1527."), ὦ παῖ παῖ (was "ὦ mat παῖ"), ἐν κακοῖς | βεβήκῃς.
+heading: 1090 f.
+heading: 1094 f.
+heading: 1095 ff.

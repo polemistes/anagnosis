@@ -46,6 +46,8 @@ Here, again, it is supposed that we have lost a trimeter, answering to 1409. (He
 22 παρεσκευάμεθα [greek] → ok
 --- notes
 ## 1429: Jebb's number; our text has no 1429 (the checker finds no such line in texts/electra/grc.txt; Jebb's note on 1429 is as printed). Beyond the flags: answering to 1409 (draft 1400); Pind. P. 8. 44 and P. 3. 24 (draft "2."); Ai. 1311 (draft "Az"); lemma ἐκφοβοῦ..ὡς as printed (two dots); bold κυρεῖ, κυρεῖ δὲ, λῆμα, παύσασθε as printed; καὶ, τε, ἄζηλα νίκης, εἰ..ἦν, ὡς, "etc.:" mended; "|" stray before ἄζηλα was the printed verse division (kept as " | ").
+heading: 1426 f.
+rev: page read through against the columns; no change to the text
 
 === p-0287
 + Cp. *Ai.* 369 οὐκ ἐκτὸς ἄψορρον ἐκνεμεῖ πόδα; *O. T.* 430 n.
@@ -97,6 +99,7 @@ Here, τὰ ἀντίθυρα seems to mean, as in the *Odyssey*, a place close 
 30 κάταν [greek] → κάταντα (divided across the page: written whole here)
 --- notes
 Beyond the flags: Ph. 1003 (draft "Ὠλ."); οἵ γ’ (draft "of Ὑ"); "the words" (draft "the. words"); τοῦτον; (draft "τοῦτov"); λέγειν κατά τινος; Lucian Alex., Odyssey, doorway, opposite to the door, vestibule in italics as printed; "‘make for the vestibule.’"; MS. (draft "Ms."); bold κατ’ ἀντιθυρῶν’ as printed.
+rev: page read through against the columns; no change
 
 === p-0288
 + ‘down hill,’ as opp. to ἄναντα. This suggests another possibility, with θυρῶνα,—**βᾶτε κάταντα θυρῶν’**, where κάταντα would be explained by a gesture, ‘haste down there to the porch.’
@@ -104,7 +107,7 @@ Beyond the flags: Ph. 1003 (draft "Ὠλ."); οἵ γ’ (draft "of Ὑ"); "the 
 ## 1434
 **εὖ θέμενοι**: cp. *O. T.* 633 νεῖκος εὖ θέσθαι: fr. 324 ἢν παρὸν θέσθαι καλῶς | αὐτός τις αὑτῷ τὴν βλάβην προσθῇ φέρων: Eur. *Bacch.* 49 τἀνθένδε θέμενος εὖ.
 
-**τάδ’ ὡς πάλιν**, *sc.* εὖ θῆσθε. For πάλιν as = ‘in their turn,’ cp. 371.
+**τάδ’ ὡς πάλιν**, *sc.* εὖ θῆσθε. For πάλιν as= ‘in their turn,’ cp. 371.
 
 ## 1435
 **ᾗ νοεῖς**, lit., hasten ‘on the path that thou hast in view,’—*i.e.*, to the execution of the plan within the house. Cp. *Ai.* 868 πᾷ γὰρ οὐκ ἔβαν ἐγώ;
@@ -145,6 +148,7 @@ These verses are antistrophic to 1417—1421. **δι’ ὠτὸς** implies gen
 20 ‘blindly.’—8(kas [conf] (Greek model: ΡΠπα]γ.᾽--δίκας,) → ‘blindly.’ / **δίκας ἀγῶνα**.
 --- notes
 The draft's first line and its 1435-1437 paragraph were scrambled (lines of the right column mixed); rebuilt from the image: headings 1435 (draft "14385" in the text), 1436 and 1437-1441 restored. —**βᾶτε κάταντα θυρῶν’** is bold in the print but is Jebb's conjecture inside his argument, not a further lemma: kept in its paragraph with the dash. Also: ἢν (draft "ἣν"), Bacch. 49 (draft 497), "]" after καλῶς was the verse division " | ", ᾗ νοεῖς (draft "ἡ"/"7"), (1) τελοῦμεν (draft "15"), τοῦτο; ὡς ἠπίως moved from the wrong paragraph; bold τελοῦμεν, ᾗ νοεῖς, δι’ ὠτὸς as printed.
+1434	rev: "as = ‘in their turn,’" made "as= ‘in their turn,’" (the print closes up "as=" at the line end)
 
 === p-0289
 + him. δίκης ἀγών is the struggle which this retribution brings upon him,—his conflict with the avenging power.
@@ -185,6 +189,8 @@ Possibly this is the only ambiguity intended. But τῆς συμφορᾶς..τ�
 18 8o4 [digit] → 804
 --- notes
 Beyond the flags: Tr. 314 (draft "77."), κρίνω=ἀνακρίνω closed as printed; ‘Of course (draft "‘ Of"); "the most welcome fortune" and "reached her house" in italics as printed; heading 1448 from "1448 f.".
+heading: 1448 f.
+rev: page read through against the columns; no change to the text (οἶκον: the circumflex is faint but printed)
 
 === p-0290
 + τὸν παγκοίτην..θάλαμον | ..ἀνύτουσαν. *O. C.* 1562 ἐξανύσαι | ..τὰν.. | νεκρῶν πλάκα. The hidden meaning is, φίλης προξένου κατήνυσαν φόνον: they have *accomplished her murder*. To the ear of the audience, the nature of the ellipse would be plain enough.—This is Whitelaw’s view, and I am now satisfied that it is the best. The English rendering given above is borrowed from his verse translation, ‘To the heart of their hostess they have found their way.’ I formerly took the inner meaning to be, φίλην..πρόξενον κατήνυσαν (*confecerunt*). But this is hardly warranted by (*e.g.*) Eur. *Or.* 89 αἷμα γενέθλιον κατήνυσεν: and the genitive ought to suffice for both meanings.
@@ -229,6 +235,7 @@ Beyond the flags: Tr. 314 (draft "77."), κρίνω=ἀνακρίνω closed as 
 17 App. [conf] → *Hipp.*
 --- notes
 Beyond the flags: ἦ καὶ (draft "ἢ kal"); "Cp." after the dash in 1453 is English: the false lemma "Ορ." joined back into the paragraph; ΗΡ. written in Greek (the draft had Latin HP.); 843: καὶ μάλ’, 1178 (draft "καὶ μάλ᾽, τι 78"); bold οὐ λόγῳ μόνον, οὔκ, πάρεστι, δῆτα, καὶ μάλ’ as printed; κ.τ.λ., ὡς, ἀλλὰ κ.τ.λ. mended; ὥστε restored (draft "do re"); ἆρ’ (draft "ap"); "accomplished her murder", "Or.", "e.g." in italics.
+rev: page read through against the columns; no change
 
 === p-0291
 + however *Ai.* 112 χαίρειν, Ἀθάνα, τἄλλ’ ἐγώ σ’ ἐφίεμαι, *i.e.*, ‘be happy in all else.’
@@ -284,6 +291,10 @@ While **τυγχάνοι** has the support of L, the more prevalent reading **τ
 21 (i.., [conf] → (*i.e.*,
 --- notes
 Beyond the flags: heading 1464 restored (the draft left "£ καὶ δὴ" as text; print "1464 f."); 1460 and 1462 from "1460 f.", "1462 f."; Plut. *Compar. Pericl. et Fabii* 1 (draft "Ῥογεῖ. et Fabii τ"); φανεῖ | φρένας as printed (draft lost φανεῖ's verse division); "‘Rejoice", ‘open the gates … interior.’, *is*, *were*, *Nub.*, *Med.*, *Lys.* as printed; Ἀθάνα, τἄλλ’; βοᾷ (draft "Bog"), τινα, ὦ πάντες; ἁ κλεινὰ | γᾶ..Μυκηναίων; bold Ἀργείοις and τἀπ’ ἐμοῦ inside their paragraphs as printed.
+heading: 1460 f.
+heading: 1462 f.
+heading: 1464 f.
+rev: page read through against the columns; no change to the text
 
 === p-0292
 As Electra utters these words, the central doors are opened, and the eccyclema is pushed forward. This was a small and low stage. A corpse is seen upon it, the face and outlines concealed by a covering. Near it stand Orestes and Pylades—the ‘Phocians’ whom Aegisthus seeks. The eccyclema remains displayed to the end, and at v. 1507 Orestes and Pylades go out behind it. So in the *Antigone* the eccyclema is in view from 1293 to the close, and at 1347 Creon is led off behind it.
@@ -334,6 +345,9 @@ Aegisthus corrects himself with hypocritical piety; it is as if he said, ‘but 
 17 βάσταϊζ᾽ [greek] → βάσταζ’
 --- notes
 Misprint corrected: the lemma on 1469 is printed **θρήνων τύψη** (ψ for χ, no iota subscript); the verse and Jebb's own text read τύχῃ: written τύχῃ. Beyond the flags: the paragraph "As Electra utters these words …" opens the page (new indented paragraph, no number: filed after 1464 as printed); headings 1466 and 1470 from "1466 f.", "1470 f."; the draft's split "**κἀπ’ ἐμοῦ** / **καὶ ἀπ’ ἐμοῦ**" joined with "=" as printed; ‘I behold … gods.’, ‘If he … kinsman.’ quotation marks mended; bold ὦ Ζεῦ, φθόνου, φάσμα, δέδορκα, πεπτωκός inside their paragraphs as printed; Cyr., Mem., Antigone, divine, Tr. in italics; χρή· (draft "χρή""), ποινὰ γὰρ, γάρ τις, ἐμοί τοι, ‘in my case’ mended; *O. C.* 1753, 1289 f.; trailing "," after κάλυμμα kept: the note runs on to p-0293.
+heading: 1466 f.
+heading: 1470 f.
+1469	rev: the misprint is τύψῃ (ψ for χ); the iota subscript is printed inside the bold η (the remark above says "no iota subscript"): only the ψ is the misprint; text τύχῃ unchanged
 
 === p-0293
 + ‘handle it,’ *i.e.*, ‘lift it’: cp. 905 n.
@@ -389,3 +403,6 @@ For **μέσοις**, cp. Aesch. *Eum.* 112 ἐκ μέσων ἀρκυστάτω
 23 ), [conf] → ok
 --- notes
 Beyond the flags: cp. 905 n. (draft 903); the dash-split lemmas οὐκ ἐμὸν, ταῦθ’, εἴ που κατ’ οἶκόν μοι, πέπτωκα checked (all bold in print); headings 1472 and 1476 from "1472 f.", "1476 f."; μοι (draft "μου"), bold μοι, κάλει, μέσοις inside their paragraphs; Tr. 1147 (draft "77."), κάλει τὸ πᾶν; οἴχῃ, καταλιπὼν κ.τ.λ.; ‘Whom dost thou fear?…’ and Campbell's quotation marks mended; "It is thus" (draft "Τί is thus"); *cassis*, *Orestes*, *for* in italics; Xen. Cyneg. 6 § 7 (draft "6 8 7"); ὡς ἐν (draft "ws").
+heading: 1472 f.
+heading: 1476 f.
+rev: page read through against the columns; no change to the text

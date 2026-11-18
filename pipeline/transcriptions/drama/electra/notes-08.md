@@ -56,6 +56,8 @@ In choosing the *sceptre* of Agamemnon as the stock from which the wondrous grow
 32 θαλλῷ, [conf] → ok
 --- notes
 Page read through from the column images and the block rewritten: 417 ff. lemma is "πατρὸς..δευτέραν ὁμιλίαν" (all bold), "=" restored; OCR debris in 421 (βρύοντα, ᾧ...γενέσθαι) removed; italics set.
+heading: 417 ff.
+heading: 421 ff.
 
 === p-0159
 + had in mind the words of Achilles (*Il.* 1. 234 ff.); ναὶ μὰ τόδε σκῆπτρον· τὸ μὲν οὔποτε φύλλα καὶ ὄζους | φύσει, ἐπεὶ δὴ πρῶτα τομὴν ἐν ὄρεσσι λέλοιπεν, | οὐδ’ ἀναθηλήσει.
@@ -103,6 +105,8 @@ These three verses, which the MSS. give to Electra, and which several recent cri
 28 k.7.\. [conf] (Greek model: κιτ.λ.) → κ.τ.λ.
 --- notes
 Page read through from the column images and the block rewritten. Heading 428 corrected to 428-430 (printed "428—430"; the draft had "490" in the text). 426 f. lemma is "οὐ κάτοιδα, πλὴν" in bold.
+heading: 424 f.
+heading: 426 f.
 
 === p-0160
 + dream is only a new reason why Electra should be cautious,—not why she should hope.
@@ -131,7 +135,7 @@ The current ascription of the verses to Electra was doubtless prompted by verse 
 
 **ἐχθρᾶς ἀπὸ γυναικὸς**: for ἀπό, ‘on the part of,’ cp. 1469: *O. C.* 1289 καὶ ταῦτ’ ἀφ’ ὑμῶν ... βουλήσομαι | ..κυρεῖν ἐμοί. The prep., emphasising the quarter from which the offerings come, is suitable here.
 
-**κτερίσματ’**, used at 931 as including libations (894), but here distinguished from them. See on *O. C.* 1410 ἀλλ’ ἐν τάφοισι θέσθε κἂν κτερίσμασιν. The verb κτερίζειν occurs in *Ant.* 204 (n.).
+**κτερίσματ’**, used at 931 as including libations (894), but here distinguished from them. See on *O. C.* 1410 ἀλλ’ ἐν τάφοισι θέσθε κἀν κτερίσμασιν. The verb κτερίζειν occurs in *Ant.* 204 (n.).
 
 **λουτρὰ** = χοάς: 84 n.
 
@@ -158,7 +162,11 @@ The current ascription of the verses to Electra was doubtless prompted by verse 
 18 xods [latin] (Greek model: Ξεχοάς :) → χοάς
 19 ‘cast [conf] (Greek model: ἐραβί) → ok
 --- notes
-Page read through from the column images and the block rewritten. 432 ff. lemma restored (**οὐ...θέμις**), **οὐδ’ ὅσιον** bold inside the paragraph. "κἂν" (O. C. 1410) as printed (coronis with grave).
+Page read through from the column images and the block rewritten. 432 ff. lemma restored (**οὐ...θέμις**), **οὐδ’ ὅσιον** bold inside the paragraph. "κἂν" (O. C. 1410) as printed (coronis with grave) [superseded by the rev line below].
+432	rev: κἂν corrected to κἀν (O. C. 1410): the enlarged image shows the coronis alone, no grave
+heading: 429 f.
+heading: 432 ff.
+heading: 435 f.
 
 === p-0161
 + the earth.’ The first thought is a passionate utterance of scorn and loathing. Cp. Eur. *Bacch.* 350, where Pentheus, in his rage against Teiresias, cries, καὶ στέμματ’ ἀνέμοις καὶ θυέλλαισιν μέθες. *Tro.* 418 Ἀργεῖ’ ὀνείδη καὶ Φρυγῶν ἐπαινέσεις | ἀνέμοις φέρεσθαι | παραδίδωμ’. Ap. Rhod. 1. 1334 ἀλλ’ ἀνέμοισι | δώομεν ἀμπλακίην. Theocr. 22. 167 ἴσκον (*dicebam*) τοιάδε πολλά· τὰ δ’ εἰς ὑγρὸν ᾤχετο κῦμα | πνοιὴ ἔχοισ’ ἀνέμοιο. (So, too, the Latin poets: Verg. *Aen.* 11. 795: Hor. *C.* 1. 26. 1: Ov. *Trist.* 1. 2. 15: Tibull. 1. 5. 35, etc.) The passage is wretchedly enfeebled by the conjecture **ῥοαῖσιν** (as if she were to *sink* them in a river).
@@ -235,6 +243,8 @@ The position of **αὐτῇ** shows that the dat. must be influenced by προ�
 39 Lh. [conf] (Greek model: .»λ.) → *Ph.*
 --- notes
 Page read through from the column images and the block rewritten. The draft's "497 f." paragraph is the note 437 f. (heading added); "ἔβλαστε, with initial ε̆" has a breve as printed; the checker's two "ε has no breathing" remarks are this letter and "this **ε** is long": the letter cited by itself, printed without breathing; "προσ-|φιλῶς" divided between pages, written whole here.
+heading: 437 f.
+heading: 442 f.
 
 === p-0162
 + though it would be sufficiently explained by δέξασθαι: cp. Eur. *Hec.* 535 δέξαι χοάς μοι τάσδε.
@@ -280,6 +290,7 @@ Two different motives are assigned by the Greek commentators; viz.:—(1) the de
 26 κηλῖδας [conf] → ok
 --- notes
 Page read through from the column images and the block rewritten (the draft's first lines were garbled: the end of the 442 f. note, "δέξαι χοάς μοι τάσδε", and the list of places under δέξεσθαι restored from the image). Heading 444 added (printed "444 ff."; the draft had none).
+heading: 444 ff.
 
 === p-0163
 + κακοῦ. Cp. *Od.* 19. 92 ἔρδουσα μέγα ἔργον, ὃ σῇ κεφαλῇ ἀναμάξεις, ‘of which thou shalt take the stain on thine own head,’ *i.e.* ‘of which the guilt shall rest upon thy head’: imitated by Her. 1. 155 τὰ μὲν γὰρ πρότερον ἐγώ τε ἔπρηξα καὶ ἐγὼ ἐμῇ κεφαλῇ ἀναμάξας φέρω. Besides the proverbial εἰς κεφαλὴν σοί (Ar. *Pax* 1063 etc.), cp. Dem. or. 18 § 294 οἷς ἂν εἰκότως..τὴν τῶν γεγενημένων αἰτίαν ἐπὶ τὴν κεφαλὴν ἀναθεῖεν ἅπαντες.—This is better than to take ἐπὶ λουτροῖς as=‘for washing (of the corpse),’—*i.e.*, in lieu of the λουτρά which it was the duty of relatives to give the dead (*Ai.* 1405 λουτρῶν ὁσίων: *O. C.* 1602 n.: *Ant.* 901).
@@ -335,6 +346,7 @@ Page read through from the column images and the block rewritten (the draft's fi
 32 pov [rare] → μου
 --- notes
 Page read through from the column images and the block rewritten. Headings 448, 449 (printed "449 f."; the draft had "449:" in the text) and 451 (printed "451 †ἀλιπαρῆ", with Jebb's obelus) set; draft's "4. 401" is 4. 491, "7. 150" is 7. 159, "4. 2. 88. 5, 6" is 4. 2. §§ 5, 6.
+heading: 449 f.
 
 === p-0164
 + τάδ’ ἐμῶν. But ἀλιπαρής, the negative of λιπαρής, could mean only, ‘not earnest,’ ‘not persevering.’ In v. 1378 Electra says (to Apollo), ἥ σε πολλὰ δὴ | ἀφ’ ὧν ἔχοιμι λιπαρεῖ προὔστην χερί, i.e., ‘with a zealous, a devout, hand.’ And we learn from the scholiast here that a variant, probably as old as Didymus (*circ.* 30 B.C.), for ἀλιπαρῆ was **λιπαρῆ**: ὅ ἐστιν, ἐξ ἧς αὐτὸν λιπαρήσομεν, ὡς εἰ ἔλεγεν ἱκέτιν τρίχα, ‘a *suppliant* lock.’ It is surely manifest, however, that λιπαρὴς θρίξ could not mean, ‘a lock of hair *offered by a suppliant*.’ We may safely, then, reject Hermann’s corresponding interpretation of ἀλιπαρῆ, *comam non accommodatam supplicationi*. Nor do I now think that ἀλιπαρὴς θρίξ could mean ‘not *cared for*,’ ‘neglected.’
@@ -436,3 +448,7 @@ If **μέλον** be kept, we must supply ἦν, and take οἶμαι as parenth
 20 ἀνεμείvate [mixed] → ἀνεμείνατε
 --- notes
 Page read through from the column images and the block rewritten. 461 and 464: the draft had split "σοί=σεαυτῇ" and "πρὸς εὐσέβειαν=εὐσεβῶς" at the "=" into two paragraphs; joined, only the lemma bold, "=" closed up as printed. Headings from the print: 453 f., 455 f., 457 f., 466 f. Xen. *H.* 7. 3. 7 (draft "27. 7. 3: 7").
+heading: 453 f.
+heading: 455 f.
+heading: 457 f.
+heading: 466 f.

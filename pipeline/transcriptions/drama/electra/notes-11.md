@@ -9,9 +9,9 @@
 **εἰ..θέλεις**, here merely a form of ironical courtesy: but in *O. T.* 343=‘if you choose.’
 
 ## 587
-**τῷ παλαμναίῳ**, more forcible than φονεῖ: cp. *Tr.* 1207 φονέα γενέσθαι καὶ παλαμναῖον σέθεν (n.).
+**τῷ παλαμναίῳ**, more forcible than **φονεῖ**: cp. *Tr.* 1207 φονέα γενέσθαι καὶ παλαμναῖον σέθεν (n.).
 
-**πρόσθεν ἐξαπώλεσας**. The point of πρόσθεν is that, having *first* used his aid to slay her husband, she has put him in that husband’s place.
+**πρόσθεν ἐξαπώλεσας**. The point of **πρόσθεν** is that, having *first* used his aid to slay her husband, she has put him in that husband’s place.
 
 ## 589
 **παιδοποιεῖς**. The active voice of this verb is rarer than the middle, but is proved by metre in Eur. *Heracl.* 524, Ar. *Eccl.* 615. In both forms it is usually said of the man.
@@ -31,7 +31,7 @@ By τοὺς...πρόσθεν εὐσεβεῖς Electra means Orestes and herse
 ## 591
 **πῶς ταῦτ᾽ ἐπαινέσαιμ᾽ ἄν**; Cp. *Ph.* 451 ποῦ χρὴ τίθεσθαι ταῦτα, ποῦ δ᾽ αἰνεῖν...;
 
-ἢ is better here than ἦ. ‘How can such an act be approved? *Or* will you plead that, though bad in itself, it is excused
+**ἢ** is better here than **ἦ**. ‘How can such an act be approved? *Or* will you plead that, though bad in itself, it is excused
 --- flags
 1 EY [rare] → ΕΥ
 2 ξυνἐθηκα [accent] → ξυνέθηκα
@@ -63,6 +63,12 @@ By τοὺς...πρόσθεν εὐσεβεῖς Electra means Orestes and herse
 28 Cp. [conf] → ok
 --- notes
 Rewritten from the column images (the draft garbled much of the right column): lemmas after dashes made new paragraphs (οὐκ οὖσαν, τίθης, εἰ..θέλεις, πρόσθεν ἐξαπώλεσας, κἀξ εὐσεβῶν, βλαστόντας, ἐκβαλοῦσ᾽ ἔχεις); the draft's "Βυτοὺς..." lemma is "By τοὺς...πρόσθεν εὐσεβεῖς" in plain type; ΕΥ./ΑΙΣ. Greek capitals; "Erigonè" as printed; the last paragraph (ἢ is better here than ἦ…) retyped; "excused" divided between the pages, written whole here. Headings printed "584 f.", "587 f.", "589 f.", "591 f.".
+rev: bold φονεῖ (587) and πρόσθεν ("The point of πρόσθεν"): printed in the heavy cursive Greek (clearly heavier than φονέα in the same line), as σοί on p-0188, which the draft bolds
+rev: bold ἢ and ἦ (591, "ἢ is better here than ἦ") as printed (the upright bold η)
+heading: 584 f.
+heading: 587 f.
+heading: 589 f.
+heading: 591 f.
 
 === p-0183
 + by the provocation?’—The constr. is:—ἢ ἐρεῖς ὡς **καὶ ταῦτα** λαμβάνεις ἀντίποινα τῆς θυγατρός; lit., ‘that thou takest this also as compensation,’ etc. (This seems truer than to make ταῦτα an acc. of respect, ‘in regard to this also.’) The traditional reading, **καὶ τοῦτ᾽**, admits of the same rendering. But Greek idiom favours the assimilation of the pronoun to **ἄποινα** (cp. *O. C.* 88 n.); and ταῦτ᾽ would easily have become τοῦτ᾽, if it had been supposed that the sense was, ‘Wilt thou *say this* too?’
@@ -122,11 +128,14 @@ These two verses, though not indispensable, seem genuine. Were they omitted, the
 34 ‘And [conf] → ok (‘*And indeed*)
 --- notes
 Retyped from the column images: the start ("excused" written whole on p-0182; "ἢ ἐρεῖς ὡς **καὶ ταῦτα** …", bold καὶ ταῦτα, καὶ τοῦτ᾽, ἄποινα and the traditional δ᾽ as printed); ἐάν περ καὶ λέγῃς and πᾶσαν ἵης γλῶσσαν are bold lemmas after dashes: new paragraphs; the verses of *Tr.* 1236 f., the 595 note (the draft's "(I 5952. will argue ἀλλ᾽ no ov more)…") and the 597 note retyped; "Iolè" as printed; "ἀντίποινα" divided at a line end. Headings printed "593 f.", "595 f.", "597 f.".
+heading: 593 f.
+heading: 595 f.
+heading: 597 f.
 
 === p-0184
 + of a slave taunting her mistress’: but this is perhaps too artificial.] For δεσπότιν, cp. 264, and 1192 δουλεύω.
 
-**εἰς ἡμᾶς** is best taken as=εἰς ἐμέ, since Orestes (601) is beyond the reach of the domestic tyranny denoted by δεσπότιν. Cp. 116 ἡμετέρου. There is no awkwardness in ἣ (599), since it follows νέμω.
+**εἰς ἡμᾶς** is best taken as=εἰς ἐμέ, since Orestes (601) is beyond the reach of the domestic tyranny denoted by δεσπότιν. Cp. 116 ἡμετέρου. There is no awkwardness in **ἣ** (599), since it follows νέμω.
 
 ## 599
 **βίον μοχθηρόν**: see vv. 189 ff.
@@ -202,6 +211,11 @@ The reason for writing **δή με σοὶ** rather than **δή μέ σοι** is
 38 ΖΦ [greek] (Greek model: Σ᾿) → ok (608 f.: ## 608)
 --- notes
 Retyped from the column images: ἔκ τε σοῦ, κακοῖς...ξυνοῦσα, συννόμου, χεῖρα σὴν, χρῇς are bold lemmas after dashes: new paragraphs; "ἣ (599)" is the relative of v. 596 (the draft's ἢ); the 601 note retyped (the draft had scrambled it: "(589)", "*O. T.* 290 n."); the 603 note begins in English (no lemma; δή με σοὶ, δή μέ σοι, σοι in bold as printed). Whitelaw's quotation: the outer edge of the page is cut after "‘O" (a stem with a foot serif is all that shows, presumably "Of"); written ‘O[?]. The bold στομαργία, γλωσσαργία as printed. "ironical" divided between the pages, written whole here. Headings printed "599 f.", "601 f.", "606 f.", "608 f.".
+rev: bold ἣ in "no awkwardness in ἣ (599)" as printed
+heading: 599 f.
+heading: 601 f.
+heading: 606 f.
+heading: 608 f.
 
 === p-0185
 + as though these ἔργα were praiseworthy accomplishments. The *v.l.* κακῶν, for ἔργων, is very inferior.
@@ -248,6 +262,7 @@ Other interpretations are:—(1) ‘I see that Electra is wroth; but as to wheth
 26 Z.e., [conf] → *i.e.*,
 --- notes
 Corrected from the column images: the 610 heading's "Σ." debris taken out and the lemma **ὁρῶ μένος πνέουσαν** κ.τ.λ. made (the draft's "ε" with no breathing); "v. 595" (the draft's 505); bold μένος πνέουσαν inside the note as printed; "αὐτῇ (schol.)" and "ἐκείνη" (the draft's "(Βοο1.)", "ἐκείνῃ"); italics set (*v.l.*, *i.e.*, *Il.*, *Ai.*, *Or.*, *Ch.*, *Pers.*, *Ph.*, *no longer*, *Clytaemnestra*, *Electra’s*, (*a*) (*b*) (*c*), *I*, *her*); quotation marks corrected throughout. Headings printed "610 f.", "612".
+heading: 610 f.
 
 === p-0186
 + anything?’ (614 f.). Cp. Ar. *Nub.* 1032 δεινῶν δέ σοι βουλευμάτων ἔοικε δεῖν πρὸς αὐτόν. The sense recommends **ἐμοὶ** in preference to **μοι**. The order of words also favours it, since μοι would have been better placed after δεῖ.—As to **δεῖ**, remark that δεῖ **μοί** τινος is normal: see, *e.g.*, fr. 852: Aesch. *Ag.* 848: Eur. *Med.* 565: Thuc. 1. 71 § 3: Plat. *Rep.* 370 D, 389 D, *Soph.* 253 A, *Men.* 79 C, *Critias* 108 B, *Legg.* 674 C, 881 A: while δεῖ **μέ** τινος is much rarer (Aesch. *P. V.* 86, Eur. *Hipp.* 23, etc.). On the other hand, with the inf., δεῖ **με** λέγειν is normal, and δεῖ **μοι** λέγειν extremely rare (Xen. *An.* 3. 4. 35).
@@ -319,6 +334,9 @@ Others understand: (1) ‘If Electra has no consideration for justice, why shoul
 38 fo [conf] → f.
 --- notes
 Retyped from the column images: the first paragraph's list of references and the lines after it (the draft had interleaved the two halves of the lines); bold ἐμοὶ, μοι, δεῖ, μοί, μέ, με, μοι as printed; τηλικοῦτος, ἆρα, χωρεῖν ἂν (=ὅτι χωροίη ἂν) εἰς πᾶν ἔργον, προσεικότα, ἡ...ἐκ σοῦ δυσμένεια, ἐξαναγκάζει, αἰσχροῖς are bold lemmas after dashes: new paragraphs (the χωρεῖν lemma has two bold stretches with the plain bracket between, as printed); the 619 notes retyped (the draft's "ἡ...ἐκ ἐξ ἐμοῦ σοῦ…" was two lines interleaved; "ἐξαναγκάζει: cp. 256" was lost). Headings printed "614 f.", "616 ff.", "619 ff.".
+heading: 614 f.
+heading: 616 ff.
+heading: 619 ff.
 
 === p-0187
 ## 622
@@ -372,6 +390,9 @@ Cp. Milton, *Apology for Smectymnuus* (in his *Prose Works*, ed. Symmons, vol. 1
 23 — [conf] → ok (the dash before **μόλῃ**, a bold lemma: new paragraph)
 --- notes
 Corrected from the column images: the lemma of 624 is **νιν** (=αὐτά plain; the draft had split it into "νιν" / "εαὐτά"); εὑρίσκεται, μόλῃ are bold lemmas after dashes (εὑρίσκεται already cut); "ηὑρόμην=‘gained’" restored; Milton's quotation in italics as printed ("‘’*Tis you…*’’", "vol. 1." with the old-style figure); "Persephonè" as printed; "Ἄρτεμιν" lemma bold; italics set throughout (*Ph.*, *Tr.*, *Th.*, *Ai.*, *Il.*, *Ran.*, *Legg.*, *Ant.*, *Nub.*, *Ch.*, *O. T.*, *Andr.*, *forbearance*, *for*, *boldness*, *penalty of*, *e.g.*). Headings printed "622 f.", "624 f.", "626 f.", "628". The note on 628 runs on to p-0188.
+heading: 622 f.
+heading: 624 f.
+heading: 626 f.
 
 === p-0188
 + ἀπαυδᾷς ἐν κακοῖς φίλοισι σοῖς.
@@ -431,6 +452,9 @@ An altar, and probably an image, of Apollo stand before the palace. The attendan
 28 ἄπυρον [conf] → ok
 --- notes
 Corrected from the column images: the page begins with the rest of the quotation from Eur. *Andr.* 87 (run on from p-0187); ἐκφέρει, ὑπ᾽ εὐφήμου βοῆς, πᾶν λέγειν, τοὐμὸν στόμ᾽ are bold lemmas after dashes: new paragraphs; the 630 lemma is **οὐδὲ** (the draft's "Σ" debris taken out); the heading of the note on κελεύω is 632 (printed "632 f."; the draft's "692 f." in the text); bold παρεῖσα, σοί, ἔπαιρε, ἐς and ᾽ς (the correction προΐτω ᾽ς) as printed. Misprint: Aesch. *P. V.* 937 "κρατουντ’" is printed without its circumflex; written κρατοῦντ᾽. "κωμωδεῖν" printed without iota subscript: kept. Headings printed "630 f.", "632 f.", "634 f.".
+heading: 630 f.
+heading: 632 f.
+heading: 634 f.
 
 === p-0189
 ## 635
@@ -506,3 +530,6 @@ Corrected from the column images: the page begins with the rest of the quotation
 38 Riel [latin] (Greek model: Φλεί.) → *Rhet.*
 --- notes
 Corrected from the column images: προστατήριε, οὐ γὰρ ἐν φίλοις, σπείρῃ, ματαίαν, δισσῶν ὀνείρων are bold lemmas after dashes: new paragraphs (οὐ γὰρ, ματαίαν and δισσῶν had been left in the text with Latin letters or digits); "cp. 1491" (the draft's 1401); "here=αἰνιγματώδη"; Persius's Latin in italics; "*Ph.* 580" (the draft's "Ὠ»Ά."). Eur. *El.* 592 is printed "ἔνεχε χέρας, ἄνεχε λόγον": kept as printed (Euripides' text has ἄνεχε twice; not changed, since it is not certain that this is a misprint). Headings printed "635 f.", "637", "638", "640", "641 f.", "643", "644 f.". The page ends inside the note on 644 (runs on to p-0190).
+heading: 635 f.
+heading: 641 f.
+heading: 644 f.

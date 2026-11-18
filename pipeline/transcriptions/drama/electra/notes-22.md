@@ -59,6 +59,9 @@ The schol. has: ἀφαιρεῖται γάρ, φησι, τὴν εὐκαιρί
 --- notes
 The page's first words close the note on 1291 from the page before; ‘aimlessly.’ has no closing quotation mark in the print (kept as printed).
 Note 1292 rewritten from the image (the draft had scrambled Hermann's paragraph): ἐξείργοι, after a dash, is a further lemma (own paragraph); ‘Hermann took …’ and ‘The schol. has …’ are indented paragraphs in the print. Plain Greek quotations un-bolded (εὐμενὴς ὢν σύμμαχος …). Lemma 1296 printed **οὕτω δὲ** (σκόπει) **ὅπως** with the parenthesis in plain type. In 1294 κεκρυμμένοι is bold in the print; in 1298 μὴ and τῇ are bold. Ar. Ran. 905 (draft ‘gos’).
+heading: 1294 f.
+heading: 1296 f.
+heading: 1298 f.
 
 === p-0271
 ## 1301
@@ -126,6 +129,8 @@ Note 1292 rewritten from the image (the draft had scrambled Hermann's paragraph)
 37 1426f.: [digit] → 1426 f.:
 --- notes
 Heading 1301 (printed ‘1301 f.’) was left as text ‘1901 f.’ in the draft; 1303 likewise (‘1805’): both made headings from the image. The note on 1307 had been cut into three pieces: τἀνθένδε=τὰ ἐνθάδε is one lemma (only τἀνθένδε bold), ‘—Not, …’ runs on in the paragraph. In 1304 the draft had cut at ‘—The part.’ (English): joined; βραχὺ, καὶ, λυπήσασα, δεξαίμην are bold in the print. In O. C. 1205 the print sets οὖν in the bold type (kept bold, as printed). οἴκοις (1308) is bold in the print. Last word ἀπο-|ρήσεις divided between the pages: written whole here.
+heading: 1301 f.
+heading: 1308 ff.
 
 === p-0272
 + ἀξίου. So with ὅπως: Eur. *Heracl.* 248 μὴ τρέσῃς ὅπως σέ τις | σὺν παισὶ βωμοῦ τοῦδ’ ἀποσπάσει βίᾳ.—Distinguish the wholly different use of ὅπως μή, instead of a simple μή, after a verb of fearing (*O. T.* 1074 δέδοιχ’ ὅπως | μὴ..ἀναρρήξει, ‘I fear that it will break forth’). Here, for example, δείσῃς ὅπως μὴ ὄψεται would mean the same thing as δείσῃς ὡς (or ὅπως) ὄψεται.
@@ -173,6 +178,9 @@ Heading 1301 (printed ‘1301 f.’) was left as text ‘1901 f.’ in the draft
 21 ool [rare] → σοὶ
 --- notes
 The page begins with the rest of the note on 1308 (ἀπο-|ρήσεις written whole on p-0271). The draft had cut it at ‘—Distinguish’ (English): joined. Misprints corrected: the lemma is printed ασκοπα without breathing and accent (the verse has ἄσκοπα): written **ἄσκοπα**; ‘See also Tr 463’ is printed without the stop after Tr: written *Tr.* 463. ἥτις, ὅτε, δακρυρροοῦσα, χαρᾶς and ὡς σοὶ are in the bold type. Menex. p. 245 D and Julian p. 130 C: the letters are small capitals in the print.
+heading: 1312 f.
+heading: 1314 f.
+heading: 1318 f.
 
 === p-0273
 + emphatic αὐτός, the next stress should fall rather on θυμός than on σοι (‘rule me thyself, as thou *wilt*’).
@@ -224,6 +232,10 @@ The page begins with the rest of the note on 1308 (ἀπο-|ρήσεις written
 23 n. [conf] → ok
 --- notes
 Note 1320 rewritten in its dilemma passage from the image (ἢ with grave each time; Thuc. 1. 33 § 3); the draft's false paragraph ‘Ποτα δὺ οὖν …’ joined back into it. ‘βεβαιώσασθαι n.’: the print has a roman ‘n.’ after the Greek (Thucydides' words go on ἡμᾶς ἢ σφᾶς αὐτοὺς βεβαιώσασθαι); kept as printed. δυοῖν before ‘is merely a bad conjecture’ is letterspaced in the print (written plain). The further lemmas ἐπῄνεσ’ (after a dash), ἐπ’ ἐξόδῳ (an indented line) and τῶν ἔνδοθεν (after a dash) are paragraphs of their own; οἷ’ ἂν..ἀπώσαιτ’ was not bold in the draft: made bold. *sc.* (1322) is italic in the print. Pers. 689 (draft 680).
+heading: 1320 f.
+heading: 1322 f.
+heading: 1324 f.
+heading: 1326 f.
 
 === p-0274
 ## 1329
@@ -266,6 +278,9 @@ It has been held that these verses, or at least 1340—1344, are spurious (cr. n
 15 (r153—1156). [digit] → (1153—1156).
 --- notes
 Note 1329 rewritten from the image: the draft had scrambled two lines (‘They ¢ just in stand, the midst,’ …); in the print **παρὰ** and **ἐν** before κακοῖς and **αὐτοῖς** are bold. Heading 1331 was left as text ‘1991’: made a heading. **τὰ σώματα** is bold in the print. Od. 22. 181; Tr. 88 … in 90 (draft ‘go’); Ai. 479 (draft Az.).
+heading: 1329 f.
+heading: 1332 f.
+heading: 1334 f.
 
 === p-0275
 + should make some reference (as he does in 1341) to his emissary’s performance of the task. Not less natural is the question in 1343, since the old man, who entered the house at v. 803, is the only person who can tell whether the feeling described by Electra still exists.
@@ -314,6 +329,7 @@ Note 1329 rewritten from the image: the draft had scrambled two lines (‘They �
 22 these [conf] → those
 --- notes
 Heading 1339 (τἀντεῦθεν) was left as text ‘1999’: made a heading; it follows the range note 1339-1345 as printed. Lemma 1341 is **ὡς ἔοικεν, ὡς τεθν.** (all bold in the print). Bold inside paragraphs as printed: σε..τινά (1340), εἷς and ἐνθάδε (1342), ἐν and οὖν (1343). τελουμένων in the quotation from Andr. 997 is letterspaced (written plain). ‘ὡς δὲ νῦν ἔχει’ begins a new indented paragraph (a further lemma, with **τὰ κείνων πάντα καλῶς** and **καὶ τὰ μὴ καλῶς** bold). Thuc. 1. 116 § 3 (draft ‘8 3’).
+heading: 1344 f.
 
 === p-0276
 + the death of her son, and those insults which expressed her new sense of security (773—803).
@@ -367,6 +383,7 @@ Heading 1339 (τἀντεῦθεν) was left as text ‘1999’: made a heading;
 20 when [conf] → ok
 --- notes
 Note 1349's further lemmas rewritten from the image (the draft had run 643, 297 and the Ph. 598 quotation together): οὗ...χεροῖν, πέδον, ὑπεξεπέμφθην, σῇ προμηθίᾳ each a paragraph (the last three after dashes). Bold inside paragraphs as printed: οὐδέ (1347), ὅτῳ and οἶσθα (1349), κεῖνος and ὃς (1356); ἠξίωσας is letterspaced (written plain). Ai. 1322 (draft 411.); ‘*found* a true *ally*’ italics as printed; Heracl. 945 ff. (draft 045 ἢ.).
+heading: 1349 f.
 
 === p-0277
 + a speaker has referred to himself in the 3rd person, he quickly reverts to the first, as in *O. C.* 6 (n.) ἐμοί follows Οἰδίπουν in v. 3.
@@ -407,3 +424,6 @@ Note 1349's further lemmas rewritten from the image (the draft had run 643, 297 
 19 ..ἐν [conf] → ok
 --- notes
 In 1359 the draft had made ‘φαίνω is never …’ a bold new paragraph: φαίνω after the dash is in plain type, so joined back with the dash. Bold inside paragraphs as printed: ἔχων (1357), ἀλλά με (1359), ἐμοί and με (1360), χαῖρ’, ὦ πάτερ and πατέρα (1361). Ant. 9 (draft ‘ο’), Ant. 300, O. T. 248, Tro. 497, Ant. 31 taken from the image; ‘(*e.g.*’ in 1361 is printed without a comma.
+Lemma 1364: the print sets ἐν inside the bold lemma τοὺς..ἐν μέσῳ λόγους in the lighter Greek type (a wrong fount, it seems); the lemma is kept whole in bold.
+heading: 1357 f.
+heading: 1364 ff.

@@ -39,6 +39,9 @@
 --- notes
 Read through from the column images; italics set (*i.e.*, *Eum.*, *Od.*, *Th.*, *Ant.*, *O. T.*, *O. C.*, *Ai.*, *P. V.*, *precedes*). Structure: **Διὸς εὔφρονι | βήματι** (bold over the line end) one lemma; **γᾶν** cut as a further lemma after the dash; **ὃν** and **ἄτεκνος** bold inside their paragraphs. Corrected beyond the flags: 375 (OCR 373), ἀνὴρ, ὑπέροπτα, ᾰ/ᾱ (OCR ἃ), the lemma of 164 **ἀκάματα** (OCR "Σ."), =οἴχομαι (OCR Ξε), εἰσ- (OCR 2, V.), *Eum.* 315 (OCR πηι.), Ἀργεῖος/Ὀρέσταν/Ἀρκάδα precomposed, spaces before : and ; taken away as in the checked batches. ἀλάωσεν: the faint stroke over its ε is show-through, not an accent (the print's accents are dark).
 ᾰ and ᾱ (in 164) are the letter cited with its quantity mark, no breathing printed (the checker's remarks on them are answered so).
+heading: 162 f.
+heading: 164 f.
+heading: 166 f.
 
 === p-0127
 + υ is properly short, as in μυδάω (*O. T.* 1278, *Ant.* 410).
@@ -81,6 +84,8 @@ Herwerden’s **οὐχί μοι**, for **οὐκ ἐμοί**, is specious; but 
 --- notes
 Read through from the column images; italics set (*that*, *his wrongs*, *pres.*, *Ai.*, *Tr.*, *Il.*, *O. T.*, *O. C.*, *Ant.*, *Op.*, *N.*). Structure: **τὸν ἀνήνυτον** and **οἶτον ἔχουσα** (bold after dashes) are further lemmas of 166 and paragraphs of their own; the draft's paragraph "**πᾶν τι**" was a false cut at "as=πᾶν τι" (plain Greek): joined again; **ὧν τ’ ἐδάη**, **ἐδάην**, **τί...οὐκ**, **οὐχί μοι**, **οὐκ ἐμοί**, **ὁ δέ**, **ἐν** are bold inside their paragraphs as printed. Corrected beyond the flags: τὸν (OCR Tov), ὁ δεινὸς, Δὶς → *his wrongs*, ‘avenge.’ (OCR .”), ἀεὶ (OCR del), οὐχί μοι (OCR pot), MSS. (OCR Mss.), 10. 58 (OCR το. 58). A speck before "because" (after "part.,") is not a quotation mark.
 υ at the head of the page is the letter cited ("υ is properly short"), no breathing printed. ## 174: Jebb's number ("174 ἔτι μέγας οὐρανῷ" as printed); our text has no 174.
+heading: 169 f.
+heading: 171 f.
 
 === p-0128
 ## 176
@@ -185,6 +190,7 @@ Ulrichs (*Reisen in Griechenland*) was the first to place the relations of Crisa
 25 ἀνύμ [greek] → ἀνύμφευτος. (divided between the pages: written whole here)
 --- notes
 Read through from the column images; italics set (*Reisen in Griechenland*, *O. T.*, *Ai.*, *s. v.*, *not returning*, *Ant.*, *Ph.*, *parents*, *children*). Structure: **βούνομον ἀκτὰν**, **ὁ πολὺς...βίοτος** and **ἀνέλπιστος** (bold after dashes) cut as further lemmas; the draft's paragraphs "**ἐπιστραφείην** (412. 1117) …" and "**ἔχει ἐπιστροφὴν καὶ ἐπιμέλειαν ποιεῖται**. …" were false cuts (plain Greek after "as=" and after a dash): joined again into 182's paragraph with "as=" and the dash. Bold inside paragraphs as printed: **βουνόμον**, **Κρῖσαν**, **ἀνάσσων**, **θεὸς**, **τοκέων**, **ἅτις**, **ἄτεκνος** (upright bold, ἀνύμφευτος after it in the plain italic). Corrected beyond the flags: ἱερὰ, B.C., βούνομοί τ’ (OCR 7), μετατρέπομαί τινος (OCR Twos), ‘to regard.’, *Ai.* 1117 (OCR 412.), *s. v.* (OCR s. 2.), for (OCR tor), ‘*not returning*,’, see n. on (OCR ἢ.), ὁ πολὺς (OCR o6), Thuc. 1. 24, the asterisk of Jebb's conjecture before **τεκέων** written \*, ‘without *parents*,’ (OCR ©), of (OCR ot), the page's last word ἀνύμ-|φευτος written whole here.
+heading: 185 f.
 
 === p-0130
 + (3) If **τοκέων** be right, it means that, while Agamemnon is dead, the living Clytaemnestra is a μήτηρ ἀμήτωρ (1154): but this is forced.
@@ -289,6 +295,7 @@ The sense then is:—‘There was a voice of lamentation at the return from Troy
 23 Chorusdoubt [rare] → Chorus doubt
 --- notes
 Read through from the column images; italics set (*Ag.*, *O. T.*, *Symp.*, *Ant.*, *Ai.*, *c.*, *Hipp.*, *Tr.*, *i.e.*, *Ph.*). Structure: the Homer quotation (*Od.* 11. 418 ff.) runs on in Jebb's paragraph after "banquet:—" in the plain italic Greek, its verses divided by his printed "|": the draft's bold paragraph "**ἀλλά κε κεῖνα μάλιστα ἰδὼν ὀλοφύραο θυμῷ**, …" joined again to the run-on paragraph, the bold taken away; further lemmas after dashes cut as paragraphs: **κοίταις**, **ὅτε \*οἱ**, **ἀνταία**, **γενύων** (the draft had "**π**- γενύων"); **κοίταις**, **οἰκτρὰ...αὐδὰ**, **ἐν**, **σοι**, **δεινὰν...μορφάν** bold inside their paragraphs as printed. Corrected beyond the flags: ἀμφ’ ἐμοί· (OCR dug’ ἐμοί"), *Ai.* 900 (OCR goo), ‘There … Troy’ (OCR *There), ‘the slayer,’ (OCR ”), MS. (OCR Ms.), πέλεκυς (99 n.) (OCR 00 n.), γενῄς (acute with iota subscript, as printed), ἁ δέ οἱ (OCR a δέ οἱ).
+heading: 198 f.
 
 === p-0132
 + the agency in the terrible crime was merely human. Perchance an evil δαίμων was there, working out the curse upon the line of Pelops (504—515). The δεινὴ μορφή, offspring of δόλος and ἔρος, is the act of murder, embodied in the image of a supernatural ἀλάστωρ. Sophocles may have had in mind the words of the Aeschylean Clytaemnestra (*Ag.* 1500 f.); the slayer of Agamemnon, she says, was in truth the Avenger of the house, who took her form:—φανταζόμενος δὲ γυναικὶ νεκροῦ | τοῦδ’ ὁ παλαιὸς δριμὺς ἀλάστωρ | Ἀτρέως, χαλεποῦ θοινατῆρος, | τόνδ’ ἀπέτεισεν, | τέλεον νεαροῖς ἐπιθύσας.
@@ -327,6 +334,8 @@ Read through from the column images; italics set (*Ag.*, *O. T.*, *Symp.*, *Ant.
 15 9ο1). [digit] → 901).
 --- notes
 Read through from the column images; italics set (*Ag.*, *O. T.*, *M.*, *Ai.*, *O. C.*, *Od.*, *Tr.*, *Ant.*). Structure: the Aeschylus quotation runs on in the paragraph after "her form:—" in the plain italic Greek (the draft's bold paragraph "**τφανταζόμενος δὲ γυναικὶ νεκροῦ** | …" joined again with the dash, the bold taken away); the draft's paragraph "**(ρ**. *O. T.* 1258 …" was "—Cp." (dash and English): joined again to 198's paragraph on **βροτῶν**; **εἴτ’ οὖν...εἴτε** (OCR "εἴτ᾽ οὖν... εἴτε") a further lemma of 198. In 204 only **ἐμὸς**, **πατήρ** and **τοῖς** are bold inside the paragraph (τοὺς and ἴδε in the plain italic), as printed. Jebb's two dots of omission (πλέον..ἐχθίστα, ἀνθρώπων..) written "...". Corrected beyond the flags: δαίμων, ἀνθρώπων. (OCR "ἀνθρώπων ."), Xen. *M.* 1. 3. 9 (OCR 77. τ. 3. 9), δείκνυσί, the lemma of 204 **ἄχθη** (OCR "Ἐν."), ἃ δαίμων.
+heading: 201 f.
+heading: 204 ff.
 
 === p-0133
 + ‘by which’) would enfeeble the passage. For the tragic plur. **θανάτους**, cp. *Tr.* 1276 (Deianeira’s death), *O. T.* 497 (that of Laïus): so below, 779 φόνους: *Ant.* 1313 μόρων: Eur. *El.* 137 αἱμάτων.
@@ -391,3 +400,5 @@ Read through from the column images; italics set (*Ag.*, *O. T.*, *M.*, *Ai.*, *
 28 caused [conf] (Greek model: τραυβεά) → ‘caused
 --- notes
 Read through from the column images; italics set (*Tr.*, *O. T.*, *Ant.*, *El.*, *Gramm. d. Att. Inschr.*, *O. C.*, *Ph.*, *Od.*, *O.*, *Tro.*, *i.e.*, *Ai.*). Structure: the heading ## 214 was missing (the draft had "212 f. γνώμαν ἴσχεις ΞΞ …" as text under 213): made from the image ("214 f."), the note on **ἐξ οἵων** (after the dash) a further lemma under it, not under 213; **Ὀλύμπιος** and **ἀποναίατο** cut as further lemmas after their dashes. Bold inside paragraphs as printed: **θανάτους**, **διδύμοιν**; τὰ παρόντα and τὰ παρόντ’ in 214's last sentences are in the plain italic (only darker ink), not bold. Jebb's two dots (διδύμαν..Ἐρινύν, ἀνάστατον..) written "...". Corrected beyond the flags: ‘by which’) (OCR “), *O. T.* 497 (OCR O. 7". 497), Eur. *El.* 137 (OCR 27.), Ἐρινύν, B.C., τὸν κύκλον (OCR Tov), ἥρει...ἀνάστατον, αἷς (OCR ais), *O. C.* 730 τῆς ἐμῆς ἐπεισόδου· | ὃν μήτ’ (OCR "© ἐπεισόδου" | by"), οἷ’ Ὀλύμπιοι (OCR of’ ᾽Ολύμπιοι), *O.* 13. 14 (OCR 0.13. 14), *Tro.* 189 (OCR 770.), *Ph.* 837 (OCR Pr.), 235 (OCR 233), ἀεὶ γὰρ (OCR del yap), διὰ τὸ (OCR TO), ‘caused by thyself’, ἄλλου (OCR ἄλλον).
+heading: 207 f.
+heading: 214 f.

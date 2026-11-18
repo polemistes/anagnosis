@@ -55,6 +55,8 @@ A μέλος ἀπὸ σκηνῆς between Electra and Orestes. Strophe, 1232�
 24 σῶν... [conf] → σῶν..
 --- notes
 1228, 1230 printed "1228 f.", "1230 f.": headings ## 1228, ## 1230. 1232—1287: the range note was left as text ("1292. 1287"): made the heading ## 1232-1287. Misprint corrected: the print has "Strophe, 1232—1352," for 1232—1252 (the strophe is 1232—1252, the antistrophe 1253—1272, as the same sentence says): written 1252. Bold **σώματα φίλτατα** (1233) inside the paragraph as printed. Also: *Ph.* 234 (was "δι."), *Ai.* 14 (was "41."), *O.* 1. 114, *Tr.* 610 (was "77."), *Eq.* 406, *Ant.* 527, ΟΡ. as printed, dots as printed (ἔχω...ἔχοις, γεγηθὸς...ἄπο, γεγηθὸς..δάκρυον).
+heading: 1228 f.
+heading: 1230 f.
 
 === p-0263
 + is tenable. In either case the use of the plur. σωμάτων instead of σώματος (schol. ἀντὶ τοῦ ἑνικοῦ) is very bold, and seemingly unique. (Cp. 206, n. on θανάτους.) It is confirmed, however, by the fact that Latin poetry tolerates a corresponding use of *corpora*: Ovid *Her. Epist.* 8. 113 *male corpora tacta relinquo*, the (living) body of Pyrrhus. (Conversely in Eur. *Med.* 1108 σῶμα τέκνων=*ib.* 1111 σώματα τέκνων.) The plur. certainly cannot be explained by supposing a reference to Pylades also.
@@ -98,6 +100,8 @@ A μέλος ἀπὸ σκηνῆς between Electra and Orestes. Strophe, 1232�
 17 Αρτep [mixed] → Ἄρτεμιν
 --- notes
 1234: printed "1234 f.", heading ## 1234; the further lemmas οὓς and ἐχρῄζετε (bold, after dashes) made paragraphs. 1240: printed "1240 ff.", heading ## 1240. 1239: the further lemma Ἄρτεμιν (bold, after a dash) made a paragraph. Also: Latin in italics (*corpora*, *male corpora tacta relinquo*, *ib.*), *Her. Epist.*, *Med.*, MSS. (twice, was "Mss."), *pairs*, Danaïdes, *Suppl.*, ἀλλ᾽ οὐ τὰν Ἄρτεμιν (was ""Apreuw"), colons closed up.
+heading: 1234 f.
+heading: 1240 ff.
 
 === p-0264
 + sense that she has a brother for her champion.
@@ -146,6 +150,8 @@ The author of the scholium on 1245 read **ἐνέβαλες**:—ἐπείπερ
 24 ἐπέβαλες [greek] → ok
 --- notes
 The draft had jumbled the quotations of 1241 (fr. 859, *Od.* 20. 378, *Il.* 18. 104) and the further lemma ἔνδον..ὂν ἀεί: rewritten from the image; ἔνδον..ὂν ἀεί (bold, after a dash) made a paragraph. Bold **περισσὸν** inside the quotation of fr. 859, and **ἐνέβαλες**, **ἐπέβαλες**, **ὑπέβαλες** inside the paragraph, as printed. 1243: printed "1243 f.", heading ## 1243; the further lemma Ἄρης (bold, after a dash) made a paragraph. 1246: printed "1246 ff.", heading ## 1246. The draft had made the scholium after "read ἐνέβαλες:—" a bold paragraph: it is in the ordinary (italic) Greek after a dash, joined to its paragraph, bold taken away. Also: *Tr.* 484 (was "77."), *Suppl.*, *Rep.*, Latin *mentionem iniecisti*, *mentioned*, *laid*, *upon*, *i.e.*, closing quotes ’, colons and semicolons closed up.
+heading: 1243 f.
+heading: 1246 ff.
 
 === p-0265
 + of καταλύεσθαι ἔχθραν, πόλεμον, κ.τ.λ.
@@ -192,6 +198,8 @@ The *v.l.* **παρρησία**, doubtless a conjecture, would enfeeble the pass
 17 ζ.6., [conf] → *i.e.*,
 --- notes
 The draft had cut "Eur. Alc. 198.—λησόμενον could mean" into a false paragraph: λησόμενον is in the ordinary (italic) type, joined again with the dash. 1251: printed "1251 f.", heading ## 1251. 1253: printed "1253 ff.", heading ## 1253. Bold inside paragraphs as printed: **καὶ**, **φράζῃ** (twice), **ἔργων τῶνδε**, **παρρησία**, **παρὼν**, **δίκᾳ**, **ἐννέπειν**, **πρέποι**. "free-|dom" divided between the pages: written whole here. Also: *can forget*, *be forgotten*, *escape notice*, *also*, *Tr.* 455, *Pr. Anal.*, *P.* 1. 46 (was "2. τ."), *cum res ipsa feret*, ὅταν ἐπιτρέπῃ ὁ καιρὸς καὶ καλῇ (was "kal"), τούτων ᾖ, εἰ πάσας τὰς (was "Tas"), οἰκτρὰ..βόσκειν, ὃ ξυνοικεῖ, closing quotes ’, colons and semicolons closed up.
+heading: 1251 f.
+heading: 1253 ff.
 
 === p-0266
 + Except in the sense of ‘remembering’ (993 n.), the midd. of the simple σῴζω is somewhat rare; but cp. Ar. *Eq.* 1017 σῴζεσθαί σ᾽ ἐκέλευσ᾽ ἱερὸν κύνα.
@@ -227,6 +235,8 @@ After **τότ᾽ εἶδες**, the MSS. have **ὅτε**: but the tribrach in 
 13 always [conf] → ok
 --- notes
 "free-|dom" divided between the pages: written whole at the end of p-0265. The draft had jumbled the first lines (1017 quotation and the note on 1259 run together): rewritten from the image; ## 1259 made from the text. 1260: printed "1260 ff.", heading ## 1260; the further lemma ὧδε (bold, after a dash) made a paragraph; Antiphon's quotation rewritten from the image. 1266: printed "1266 f.", heading ## 1266. Bold inside paragraphs as printed: **ἀξίαν**, **σοῦ πεφηνότος**, **λόγων**, **μεταβάλοιτ᾽** (1260), **τότ᾽ εἶδες**, **ὅτε** (three times), **εὖτε**, **θεοὶ**, **τότ᾽** (1264). Also: *Th.* 382, *Ai.* 1040, *Ag.* 916, ἐξέτεινας, MSS. (was "Mss."), *Ai.* 489 (was "AZ."), ἀξίαν: *ib.* 133, τίς ἄν (was "av"), colons closed up.
+heading: 1260 ff.
+heading: 1266 f.
 
 === p-0267
 + her, a matter for thankfulness.
@@ -279,6 +289,8 @@ The punctuation given in the text seems best. The Aldine has only a comma after 
 21 μεθεῖ᾽ [conf] → ok
 --- notes
 1269: printed "1269 f.", heading ## 1269; the further lemma τίθημ᾽=τίθεμαι (all bold in the print) mended (was "τίθημ᾽ Ξετίθεμαι"). 1269 "(411: 459)" (was "439"). 1277: printed "1277 f.", heading ## 1277. 1276: in "μή τί με—" the μή is in the bold type, τί με in the ordinary italic Greek, as printed. Also: It is (was "Τί is"), *Mem.*, δαιμονίᾳ τινὶ καὶ (was "kal"), *Tr.* 534 f. (was "77."), *Ai.* 878 (was "Az."), *Tetral.* B. γ. § 2, τὰ..χρήματα, *An.*, *sc.*, *Med.*, dots as printed (..), closing quotes ’, colons closed up.
+heading: 1269 f.
+heading: 1277 f.
 
 === p-0268
 + acc. depends on the part., and ἐμοῦ is to be supplied with the verb. (Porson, in his note on that v., suggests ἁδονᾶν here, comparing the plur. ἡδονὰς in 1302.)
@@ -332,6 +344,9 @@ The context is the best guide to the sense which should be restored. Throughout
 28 337. [conf] → ok
 --- notes
 1279, 1281, 1283 printed "1279 f.", "1281 f.", "1283 f.": headings ## 1279, ## 1281, ## 1283. 1279: the further lemma τί μὴν οὔ (bold, after a dash) made a paragraph; the semichorus labels ΗΜ. Α., ΗΜ. Β. written in Greek letters. 1283: the paragraph "ὀργή in Sophocles …" begins with ὀργή in the ordinary (italic) Greek: the draft's bold taken away. Bold inside paragraphs as printed: **ὦ φίλ᾽, ὅτ᾽**, **φίλαι**, **οὐδ᾽ ἂν ἤλπισ᾽**, **ἔσχον**, **οὐδ᾽ ἂν**, **ὁρμὰν**. "Through-|out" divided between the pages: written whole here. Also: *Mus. Crit.* 1. 214, (1) (was "(τ)"), *Ant.* 875 αὐτόγνωτος..ὀργά: *ib.* 355 (was "τ. 358"), *Ai.* 639 (was "630"), MSS. (was "Mss."), *Tr.* 720 (was "77."), the scholium καὶ γὰρ ἡ ἡδονὴ προετρέπετο (was garbled), ἂν ἐγὼ (was "av"), οὐδ᾽ ἂν (was "dv"), closing quotes ’, colons and semicolons closed up.
+heading: 1279 f.
+heading: 1281 f.
+heading: 1283 f.
 
 === p-0269
 + these lyrics, Orestes has been endeavouring to repress Electra’s cries, lest she should be overheard (1236, 1238, 1251 f., 1257, 1259, 1271 f.). The corrupt words probably referred to this. **ὁρμὰν** is the ‘impulse’ or ‘emotion’ which compelled her to utter her new joy. She turns to these sympathetic women, and excuses her incaution by her happiness.
@@ -392,3 +407,5 @@ Another theory, that Sophocles alludes to the earlier part of the *Choephori*, i
 27 exlkawrit [latin] (Greek model: ἐχλαμγίζ,) → *exhaurit*
 --- notes
 "Through-|out" divided between the pages: written whole at the end of p-0268. 1288—1383: the range note was left as text with a wrong heading ("## 1288 / 1985 The first part"): heading ## 1288-1383; then ## 1288 for the note on 1288 as printed. 1289: printed "1289 ff.", heading ## 1289. 1290: printed "1290 f.", heading ## 1290; the further lemma after the dash "(τὰ μὲν) ἀντλεῖ, τὰ δ᾽ ἐκχεῖ" made a paragraph: "(τὰ μὲν)" is in the ordinary italic Greek, "ἀντλεῖ, τὰ δ᾽ ἐκχεῖ" bold, as printed. The draft's bold paragraph "**οὐδ᾽** dv ἔσχον" mended: the whole of οὐδ᾽ ἂν ἔσχον is bold. Bold inside paragraphs as printed: **ὁρμὰν**, **ἄναυδον**, **δόμων**, **διασπείρει μάτην**, **ἀντλεῖ**. Also: the references 1251 f. … 1271 f. (were "1250101257, 1250, 1271 5"), *Moods and Tenses*, (‘how could … thee?’), dots as printed (ἂν...ἐγώ, εὔφημον...κοίμησον, τὰ...περισσ., πλοῦτον...), *O. C.* 1115 f., Eur. *El.* 300—338 (was "ἐδ"), *Pers.*, *Anth. Pal.*, *effundit*, colons and semicolons closed up.
+heading: 1289 ff.
+heading: 1290 f.

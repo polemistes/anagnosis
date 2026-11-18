@@ -1,5 +1,5 @@
 === p-0246
-**τῶνδε φερομέναν ἄριστα**: ‘on account of these,—*i.e.*, for observance of them,—winning excellent things,’ ‘winning an excellent reward,’—viz., praise of the noblest kind. **τῶνδε** is then a causal gen.: cp. *O. T.* 48 σωτῆρα κλήζει τῆς πάρος προθυμίας. That this is the sense of φερομέναν here, is strongly suggested by other passages; cp. 968 f. εὐσέβειαν.. | ..οἴσει, and esp. *O. T.* 863 ff. εἴ μοι ξυνείη φέροντι (=φερομένῳ) | μοῖρα τὰν εὔσεπτον ἁγνείαν λόγων | ἔργων τε πάντων, ὧν νόμοι πρόκεινται | ὑψίποδες (‘winning the praise of reverent purity,’ etc.). Some take ἄριστα as = ἀριστεῖα (‘winning the foremost place’ in respect to these laws): an impossible sense for it. ἄριστα might, indeed, be taken with τῶνδε as possessive gen.: ‘winning the best things belonging to these laws,’—their best gifts; those, namely, which they bring to those who obey them. But this would be somewhat forced.
+**τῶνδε φερομέναν ἄριστα**: ‘on account of these,—*i.e.*, for observance of them,—winning excellent things,’ ‘winning an excellent reward,’—viz., praise of the noblest kind. **τῶνδε** is then a causal gen.: cp. *O. T.* 48 σωτῆρα κλήζει τῆς πάρος προθυμίας. That this is the sense of φερομέναν here, is strongly suggested by other passages; cp. 968 f. εὐσέβειαν.. | ..οἴσει, and esp. *O. T.* 863 ff. εἴ μοι **ξυνείη** φέροντι (=φερομένῳ) | μοῖρα τὰν εὔσεπτον ἁγνείαν λόγων | ἔργων τε πάντων, ὧν νόμοι πρόκεινται | ὑψίποδες (‘winning the praise of reverent purity,’ etc.). Some take ἄριστα as = ἀριστεῖα (‘winning the foremost place’ in respect to these laws): an impossible sense for it. ἄριστα might, indeed, be taken with τῶνδε as possessive gen.: ‘winning the best things belonging to these laws,’—their best gifts; those, namely, which they bring to those who obey them. But this would be somewhat forced.
 
 I formerly understood:—‘in respect to these laws, prospering full well’: ἄριστα being then an adv., while φερομέναν is used as in Thuc. 2. 60 § 3 καλῶς.. φερόμενος τὸ καθ’ ἑαυτόν: 5. 15 § 2 εὖ φερόμενοι: 5. 16 § 1 εὖ φερόμενος ἐν στρατηγίαις. This view is recommended by the fact that φερομέναν ἄριστα then forms a clear antithesis to μοίρᾳ.. οὐκ ἐν ἐσθλᾷ βεβῶσαν. But two points are against it. (1) τῶνδε, as a genitive of relation, is somewhat awkward; though we might compare Thuc. 3. 92 § 4 τοῦ πρὸς Ἀθηναίους πολέμου καλῶς ἐδόκει αὐτοῖς ἡ πόλις καθίστασθαι...τῆς τε ἐπὶ Θρᾴκης παρόδου χρησίμως ἕξειν: and id. 1. 36 § 2 Σικελίας καλῶς παράπλου κεῖται. (2) The poet’s usage, as we have seen, favours the other sense of φερομέναν.
 
@@ -41,6 +41,7 @@ Orestes reveals himself to Electra, who gives utterance to her joy (1098—1287)
 28 bronze” [conf] → bronze
 --- notes
 The lemma's paragraph is a further note under 1095 (begins a new indented paragraph: no `+ `). Also: **τῶνδε** (causal gen.) bold as printed; 5. 15 § 2 (was "5. τῷ § 2"); ἡ πόλις (was "7 πόλις"); Θρᾴκης; MSS.; *Tr.* 956 (was "77. 956"); bold **Διὸς** and **Ζηνὸς** (first) as printed; "winning excellent things,’" (was ”).
+rev: **ξυνείη** in the quotation of *O. T.* 863 bold as printed (φέροντι is letter-spaced in the print, left plain)
 
 === p-0247
 He then speaks of his plans. The Paedagogus enters (1326), and urges them to lose no more time. Orestes and Pylades, with their attendants and the Paedagogus, enter the house (1375).
@@ -62,7 +63,7 @@ Electra, after a brief prayer, follows them in (1383).
 ## 1102
 **ἀλλ’**, ‘well’: cp. *Tr.* 229 ἀλλ’ εὖ μὲν ἵγμεθ’.
 
-**χὠ φράσας**: cp. Pind. *P.* 4. 117 δόμους πατέρων.. | φράσσατέ μοι: Aesch. *Suppl.* 492 ὀπάονας δὲ φράστοράς τ’ ἐγχωρίων: Xen. *Cyr.* 5. 4. 40 ὁδῶν φραστῆρα.
+**χὡ φράσας**: cp. Pind. *P.* 4. 117 δόμους πατέρων.. | φράσσατέ μοι: Aesch. *Suppl.* 492 ὀπάονας δὲ φράστοράς τ’ ἐγχωρίων: Xen. *Cyr.* 5. 4. 40 ὁδῶν φραστῆρα.
 
 **ἀζήμιος**, *i.e.* οὐκ ἔνοχος ζημίᾳ: schol. ἄμεμπτος.
 
@@ -91,7 +92,7 @@ Electra, after a brief prayer, follows them in (1383).
 10 ᾧκηκεν [accent] → ᾤκηκεν
 11 Legg. [conf] → *Legg.*
 12 ὑγμεθ᾽ [greek] (Greek model: ἵγμεθ᾽.---κχὼ) → ἵγμεθ’
-13 κχὼ [greek] (Greek model: ἵγμεθ᾽.---κχὼ) → χὠ
+13 κχὼ [greek] (Greek model: ἵγμεθ᾽.---κχὼ) → χὡ
 14 φράσας [conf] → ok
 15 2. [conf] → *P.*
 16 2%. [conf] → *Ph.*
@@ -103,6 +104,9 @@ Electra, after a brief prayer, follows them in (1383).
 22 wv. [conf] → v.
 --- notes
 The page continues the range note 1098-1383 from p-0246 with a new paragraph (no `+ `). 1098 and 1103 printed "1098 f.", "1103 f.": headings ## 1098, ## 1103. Also: a speck before "The Paedagogus" dropped; bold **δ’**, **θ’**, **τε**, **δέ** (1098) as printed; *Ant.*, *Tr.* 143, *Tr.* 229 (was "77. 220"), *Ph.* 444; ἄστεσι κατῳκηκότων (stray stop removed); lemma 1103 **τίς..φράσειεν ἄν** (was "av" outside the bold); ἆρ’ ἄν τις (was "ap’ dv Tis"); "λόγους | ἡδεῖς" with the printed |; lemma 1106 **ἴθ’, ὦ γύναι** bold whole.
+heading: 1098 f.
+heading: 1103 f.
+rev: lemma 1102 **χὡ φράσας** with the rough breathing as printed (the same glyph as in the bold οἱ of 1147; Jebb prints such crasis with the second word's breathing elsewhere too); the flag 13 answer "χὠ" is so corrected
 
 === p-0248
 ## 1108
@@ -136,6 +140,9 @@ The page continues the range note 1098-1383 from p-0246 with a new paragraph (no
 15 ἐκεῖνο’ [conf] → ἐκεῖνο·
 --- notes
 Also: *Tr.* 876 (was "77."), lemmas **φέροντες** and **κομίζομεν** (bold in the print; φέροντες lost its bold and had a stray "1."), *remove*, *bearers* italic, *Tr.* 223 (was "77."), "σοι |" (was "σοι]"), "now placed" (was "πον"), ποῖ (was ποὶ), quotation marks ‘ ’.
+heading: 1110 f.
+heading: 1113 f.
+heading: 1115 f.
 
 === p-0249
 + Eur. (*Or.* 804 τοῦτ’ ἐκεῖνο, κτᾶσθ’ ἑταίρους), seems too homely for the style of Sophocles. In 1178 we have merely τόδ’ ἔστ’ ἐκεῖνο: in *O. C.* 137 ὅδ’ ἐκεῖνος ἐγώ.
@@ -190,6 +197,8 @@ Then **οὐχ ὧνπερ** (if sound) is best explained as standing, by attrac
 22 αἷσπερ: [conf] → ok
 --- notes
 1123 printed "1123 ff.", 1127 "1127 f.": headings ## 1123, ## 1127. Also: *Or.*, *Ph.* 747, *P. V.* 637 ὡς (was "2. V. 637 ws"), lemma 1123 as printed **δότε** (αὐτῇ), **ἥτις ἐστί** (the bracket in italic, not bold), "δρᾷ, | φόνον" with the printed |, *O.C.* 1364 (closed up as printed), *Ai.* 1305 (was "47."), *Pol.*, lemma 1127 **ψυχῆς Ὀρέστου λοιπόν** (was "£ ψυχῆς"), *Od.* 11. 344 and *Il.* 10. 324 (were "τι.", "το."), *Tr.* 389, **οὐχ ὧνπερ** bold as printed (was ὦνπερ).
+heading: 1123 ff.
+heading: 1127 f.
 
 === p-0250
 + —‘In a manner how contrary to my hopes—not with those hopes wherewith I sent thee forth—have I received thee back.’ The notion of contrariety is thus expressed twice over; first by ἀπό, then by οὐχ. If this is awkward in grammar, yet it has a certain pathetic emphasis.
@@ -240,6 +249,8 @@ On the whole, I retain the traditional reading, though not without a suspicion t
 24 ὠφελες [accent] (Greek model: ὦφελες.) → ὤφελες
 --- notes
 The draft had scrambled the lines of (1) ("Thuc. it σκευῆς. τῶν τ (Gbserve …"): rewritten from the image. The false paragraph "**ἀπό** meaning …" joined back to "ἐλπίδων—" (it runs on in the print, plain type). Bold as printed: **ὑπ’** (2), **ἀπ’**, **οὐχ ὅνπερ**, **οὐχ ὥσπερ** (3). Lemmas 1129 **νῦν μὲν γὰρ** and 1131 **ὡς ὤφελον** restored (1131 printed "1131 ff."). Also ὧνπερ (twice, was ὦνπερ), ἀπ’ (was "am"), MSS., Briseïs, *Il.* 19. 288 (was "71."), *Ion* (was "Zon"), *O.T.* 81 closed up as printed, *Il.* 3. 428 (was "74.").
+heading: 1129 f.
+heading: 1131 ff.
 
 === p-0251
 + ὡς and αἴθ’ are alike frequent in this phrase: Attic usage prefers εἴθ’ (1021), though ὡς also occurs (as in Ar. *Ran.* 955, Eur. *Ion* 286). The simple ὤφελον stands in *O. T.* 1157, and with μή in *Ph.* 969, *Tr.* 998.
@@ -318,6 +329,9 @@ The *v.l.* **ὤφελες** is excluded by **κλέψασα**, since we should 
 42 μαρτυρεὶ [accent] → μαρτυρεῖ
 --- notes
 1134 and 1141 printed "1134 f.", "1141 f.": headings ## 1134, ## 1141. 1138: the paragraph cut at "—**φίλαισι**" (bold lemma after the dash). Also: *Ran.* 955 (was 953), *Ion* (was "Zon"), *Tr.* 998, *Ant.* 764 n. (was "πὲ 764 τι."), "Cp. Pope’s" (was "ΟΡ."), *Elegy*, *Ant.* 900 f. (was "goof."), "τάφον |" (was "τάφον]"), *dressed* italic, νιν (was "vw"), ἂν, καὶ (was "kal"), *O.C.*, ἐκείνου | συμμεταχειρίζεσθαι divided at the line's end in the print, § 9 (was "ὃ g"), vol. II. (was "11."), lemmas 1140 **ἄθλιον βάρος** and 1141 **ἐν ξέναισι χερσὶ κηδευθεὶς** restored, spaces before ? ! in Pope dropped. Open: "*O.T.* 1319" is as printed (the old-style figures read 1319 clearly), though the words quoted, ἵν’ ἦ τυφλός τε καὶ κλύων μηδέν, are O. T. 1389 (beside "ib. 1392"): perhaps a misprint of Jebb's, left as printed for the user to decide.
+heading: 1134 f.
+heading: 1141 f.
+rev: page read through, no change; "O.T. 1319" confirmed on the image (clearly 1319; the words quoted are O. T. 1389): still open for the user
 
 === p-0252
 + verse?). Kaibel *Epigr. Gr.* 604. 3 Μαρκιανὸς δέ μ’ ἔθαψε καὶ ἐκήδευσεν.
@@ -337,7 +351,7 @@ The *v.l.* **ὤφελες** is excluded by **κλέψασα**, since we should 
 The schol. on 1146 has, τὸ δὲ φίλος ἀντὶ ὄφελος. But P. N. Papageorgius corrects ὄφελος to ὦ φίλος (*Scholia in Soph. Trag. Vetera*, Leipsic, 1888). And this is confirmed by the first part of the same scholium: οὐκ ἦσθα τῆς μητρὸς ἀλλὰ μᾶλλον καὶ ἐμοῦ: *i.e.*, the scholiast understood, ‘for thou didst not *belong* to thy mother more than to me,’ and took φίλος as=a vocative.
 
 ## 1147
-**οἱ κατ’ οἶκον**, here=οἱ οἰκέται, as in *Tr.* 934 τῶν κατ’ οἶκον. In Aesch. *Cho.* 749 ff. it is a domestic, the τροφός. who dwells on her care for the infancy of
+**οἱ κατ’ οἶκον**, here=οἱ οἰκέται, as in *Tr.* 934 τῶν κατ’ οἶκον. In Aesch. *Cho.* 749 ff. it is a domestic, the τροφός, who dwells on her care for the infancy of
 --- flags
 1 Epigor [latin] (Greek model: Ἔλίον.) → *Epigr.*
 2 Μαρκcavos [mixed] → Μαρκιανὸς
@@ -358,6 +372,8 @@ The schol. on 1146 has, τὸ δὲ φίλος ἀντὶ ὄφελος. But P. 
 17 7491. [conf] → 749 ff.
 --- notes
 1143 printed "1143 ff.": heading ## 1143. Also: lemma **σμικρὸς..ὄγκος** whole in bold, "cp. 758 n." (was "Cp. 758."); lemma 1143 **τῆς ἐμῆς..τρ. ἀνωφελήτου** whole (was "Tp."); **παρεῖχον** bold as printed; *O.C.* 53 closed up as printed; ‘friend,’; *i.e.* (twice); *Scholia in Soph. Trag. Vetera*; *belong*; *Tr.* 934 (was "77. 034"); *Cho.* "τροφός." with a stop before "who" is as printed (looks like a full stop, though a comma is meant): left.
+heading: 1143 ff.
+rev: 1147 "τροφός, who": the mark after τροφός is a short slanted stroke, unlike the round stops on the page (Aesch.): a comma with its tail worn, written as the comma (lower-case "who" follows)
 
 === p-0253
 + Orestes. **ἦσαν**, *sc.* τροφοί.
@@ -379,7 +395,7 @@ The schol. on 1146 has, τὸ δὲ φίλος ἀντὶ ὄφελος. But P. 
 **θύελλ’**: *Il.* 13. 39 φλογὶ ἶσοι ἀολλέες ἠὲ θυέλλῃ.
 
 ## 1152
-**τέθνηκ’ ἐγὼ σοί**: ‘I am dead in relation to thee.’ For Electra, this is another way of saying, ‘I am dead, so far as any aim or joy in life is concerned’; since the only hopes which made life tolerable to her were centred in her brother. See her words in 808 ff., ὥς μ’ ἀπώλεσας θανών· | ἀποσπάσας γὰρ κ.τ.λ. For the dat. **σοί**, cp. *Ph.* 1030 τέθνηχ’ ὑμὶν πάλαι. These words are usu. written **τέθνηκ’ ἐγώ σοι**: but the enclitic **σοι** destroys the point.
+**τέθνηκ’** ἐγὼ **σοί**: ‘I am dead in relation to thee.’ For Electra, this is another way of saying, ‘I am dead, so far as any aim or joy in life is concerned’; since the only hopes which made life tolerable to her were centred in her brother. See her words in 808 ff., ὥς μ’ ἀπώλεσας θανών· | ἀποσπάσας γὰρ κ.τ.λ. For the dat. **σοί**, cp. *Ph.* 1030 τέθνηχ’ ὑμὶν πάλαι. These words are usu. written **τέθνηκ’** ἐγώ **σοι**: but the enclitic **σοι** destroys the point.
 
 Others explain: (1) ‘I am dead *because of* thee’; ‘thou hast been the death of me.’ The dat. is then like that in *Ai.* 1128 τῷδε δ’ οἴχομαι (‘in his purpose, I am dead’). But this is less suitable to the context. (2) ‘I am dead to thee, as thou to me,’—*i.e.*, we are now parted from each other by the barrier between earth and Hades.—The objection to **τέθνηκ’ ἐγώ· σὺ** κ.τ.λ. is that the unqualified τέθνηκα would be unfitting when a reference to actual death immediately follows.
 
@@ -421,3 +437,6 @@ Others explain: (1) ‘I am dead *because of* thee’; ‘thou hast been the dea
 28 Zlectra [latin] (Greek model: Εἰ ρείγα,) → *Electra*
 --- notes
 1149 and 1154 printed "1149 ff.", "1154 ff."; 1160—1162 as printed: headings ## 1149, ## 1154, ## 1160-1162. 1147 (run on): cut at "—**ἀλλ’ ἐγὼ τροφός**"; **ἦσαν** bold inside the paragraph as printed. Also: *sc.* (twice), *H. F.* (was "“7. F."), ἶσοι (was ἴσοι), *Il.* 13. 39 (was "24. 13. 30"), ὥς μ’ … θανών· (was "ὡς … θανών""), bold **σοί**, **τέθνηκ’ ἐγώ σοι**, **σοι** (1152) as printed, *Ph.* 1030, *because of*, *Ai.* 1128 (was "“47."), *Ai.* 665, *P.V.*, lemma **οἴμοι μοί** (was "pol"), οἴ μοι (twice, was "of μοι", "οἵ po"), *Tr.* 1081 (was "77.").
+heading: 1149 ff.
+heading: 1154 ff.
+rev: 1152 lemma **τέθνηκ’** ἐγὼ **σοί** and "usu. written **τέθνηκ’** ἐγώ **σοι**": in both places ἐγώ is printed in the light type between the bold words (in "τέθνηκ’ ἐγώ· σὺ" below it is bold, and stays so)

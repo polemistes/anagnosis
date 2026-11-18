@@ -33,6 +33,8 @@ Cp. *Il.* 23. 467 ἔνθα μιν ἐκπεσέειν ὀΐω σύν θ’ ἅ�
 14 afzer [latin] (Greek model: (αγίεν.) → *after*
 15 ἱμασιν [accent] → ἱμᾶσιν (printed ἱμασιν, without the circumflex: corrected)
 --- notes
+heading: 749 ff.
+heading: 752 ff.
 Draft's "**δι**., from the line of the race.]" split the bracketed sentence into a false paragraph: rejoined to the run-on paragraph; the paragraph "Cp. *Il.* 23. 467 …" is indented in print (a paragraph of its own). Mended beyond the flags: *i.e.* (×2), trace-horse, yoke-horses (hyphens at line ends are the compounds'), quotation marks, "(*Tr.* 795 n.)" (draft "77. 795 π."), "**ἀνωλόλυξε**" made its own lemma paragraph (draft "π-ἀνωλόλυξε"), *Ai.* 923 οἷος ὢν, "Eur. *I. T.* 49" (draft "Z. 7. 49"), *fall from the chariot* italic, *Suppl.* 689 (draft 680), ἢ τοὺς.
 ἱμᾶσιν: the print has ἱμασιν with no accent (an evident misprint or worn type); corrected.
 
@@ -108,6 +110,10 @@ Cp. Aesch. *Ag.* 440 (Ares) πυρωθὲν ἐξ Ἰλίου | φίλοισι �
 37 nuiv [latin] (Greek model: -- ἡμῖν.) → ἡμῖν (=ἡμῖν)
 38 ἄπεστιν" [conf] → ἄπεστιν·
 --- notes
+heading: 753 f.
+heading: 757 f.
+heading: 759 f.
+heading: 761 f.
 Structure: "**ἐν βραχεῖ χαλκῷ**" begins a new indented paragraph in print (the draft had it right); "**μέγιστον**" after a dash made its own lemma paragraph (draft had it already); "**ταῦτ’ ἐστίν**" bold as printed. The garbled Propertius line (draft "of Propert. ehilles), 2. 9. et 13 tant: (Briseis …") retyped from the image. Mended beyond the flags: italics (*Hamlet*, *Silver Age*, *Ag.* ×2, *bis*, *Pax*, *Suppl.*, *e.g.*, *O. C.*, *O. T.*, *so far as*, *consisting in*), 'quotes', Ἰλίου, ἑπταπήχεϊ·, Briseïs, ὡς ἰδόντι (draft "ws"), ἡ γὰρ.
 
 === p-0208
@@ -152,6 +158,8 @@ The word **δεσπόταισι** would usu. imply that the speaker was a slave.
 16 dp [rare] → ἄρ’
 17 k.7.A. [conf] → κ.τ.λ.
 --- notes
+heading: 764 f.
+heading: 770 f.
 The draft had interleaved the two halves of the lines of the 770 note ("a strangely τὸ συγγεν potent ἐς τοι δεινὸν tie; cp. ἡ θ᾽ Aesch. …"): the note retyped from the image. Mended beyond the flags: *O. C.* 801 (draft "Sor."), *O. T.* 1231 (draft "0. 7%. 1231"), ὧν τέκῃ in bold as a new lemma paragraph (it follows a dash), the bold of **ὦ Ζεῦ** (draft "**ὦ** Zev"), *Theb.*, *Ph.*, "tie;".
 
 === p-0209
@@ -203,6 +211,8 @@ The draft had interleaved the two halves of the lines of the 770 note ("a strang
 19 ἀΐειν, [conf] → στεγάζειν,
 20 lit., [conf] (Greek model: ἨῈν) → ok
 --- notes
+heading: 776 f.
+heading: 780 ff.
 Mended beyond the flags: lemmas **ψυχῆς** (draft Ψυχῆς), **μαστῶν** (draft "1. μαστῶν" left in the text), ‘μάτην’, *Ant.*, ‘born from’, ἦν (draft ἣν), *Od.*, *Ch.* (draft Ck.), *Rhes.* (draft Rkes.), με; (draft pe ;), "these:—", the false lemma paragraph "**ἀποστὰς**" kept as the print's further lemma. In *Ant.* 567 the print sets "τοι" of μέντοι in a heavier fount (a fount slip, not a bold lemma): written plain.
 
 === p-0210
@@ -270,6 +280,8 @@ Nemesis is the goddess who requires
 20 παρεστώτων [conf] → ok
 21 Anaoc [rare] → Andoc. (printed "Anaoc.", the d broken: corrected)
 --- notes
+heading: 783 f.
+heading: 785 ff.
 The draft had interleaved the lines of the 788–790 notes ("790 τ-οἰμώξαι ἀρ ἔχει : καλῶς; for the “15 aor., it cp. not 285. well?"): retyped from the image, and the missed heading ## 790 (**ἆρ’ ἔχει καλῶς**;) restored. Mended beyond the flags: (1) (draft "¢"), Dem. or. 18 § 89 (draft § 80), ὁ γὰρ (draft "ὁ yap"), "The perf. **ἀπήλλαγμαι**" bold as printed, ἀπηλλάγην (cr. n.) (draft "(ες. n.)"), lemmas **τοὐμὸν**, **ἐκπίνουσ’** (draft "πν ἐκπίνουσ’"), ἣ κατ’ οἴκους ὡς (draft "ἢ kar’ … ws"), *Ch.* 577 (draft Ck.), "repeated from 783" (draft 785), **ἕκηλα** and **οὕνεχ’** made lemma paragraphs (each after a dash), *Ai.*, *Ran.*.
 Andoc.: the print reads "Anaoc." (worn or broken type); Andocides or. 1 § 53 is meant: corrected.
 
@@ -306,6 +318,7 @@ Andoc.: the print reads "Anaoc." (worn or broken type); Andocides or. 1 § 53 is
 14 indeed [conf] → *indeed*
 15 tormed [rare] → formed
 --- notes
+heading: 797 f.
 The draft split the 796 note at its "=": joined again ("**οὐχ ὅπως σε παύσομεν**=οὐ λέγω ὅπως κ.τ.λ.", only the first part is bold). Mended beyond the flags: *b.* 13, Δίκη τινός, Ἐρινύς τινος (draft "Twos"), ἡ Δίκη (draft ἣ), *Ag.*, *Anecd.*, (*nonne ergo* . .?) and (*ergo* . .?) (draft "ὃ"), ἀλλὰ καὶ (draft "kal"), "...οὐχ ὅπως ἀντιπράξειν...", Xen. *H.* (draft "A."), "Clyt. refers" (draft "αἰγι. refers"). In "Ἐρινύς τινος" and "πλέῃ" the print uses a heavier fount for a word (fount slips, not lemmas): written plain.
 
 === p-0212
@@ -330,6 +343,7 @@ The emendations which aim at introducing ἄν seem, then, superfluous. The chan
 7 Lys. [conf] → *Lys.*
 8 οι [conf] → 911
 --- notes
+heading: 800 f.
 Mended beyond the flags: "Wunder’s change of" (draft "οὗ"), **ἔπαυσας** bold as printed, *e.g.* *Od.* 1. 236 (draft "eg. Od. τ. 236"), ὑμεῖς ἂν (draft "av"), ἀκαχοίμην, εἰ δ’ . . ἦλθον, . . πῶς ἂν . . ψέγοις; (draft "€ 8’. . ἦλθον, .. πῶς ἂν .. ψέγοις ;"), *granting*, *Ant.* 699, **πολλῶν**, **ἄξιος**, **τυχεῖν** bold as printed, **πράξειας** (×2) and **καταξίως** bold as printed, λαβὼν (draft "Aaβὼν"), ἂν after γὰρ (draft "av after yap"), *O. T.* 937 n. (draft "37}"), *O. C.* 911, ἐπαξίως . . ἀξίως. In the Xenophon quotation and in "supply ἂν" some Greek words (ἂν, γὰρ, αὐτοῦ, οἱ πολέμιοι, δέδρακας …) are printed in a heavier sloping fount; not the upright bold of the lemmas, so written plain.
 
 === p-0213
@@ -387,5 +401,7 @@ Mended beyond the flags: "Wunder’s change of" (draft "οὗ"), **ἔπαυσα
 17 ᾿εἴσειμ᾽, [conf] → **\*εἴσειμ’**, (Jebb's asterisk)
 18 ἔσσομ᾽ [accent] → ok
 --- notes
+heading: 804 ff.
+heading: 814 ff.
 Mended beyond the flags: *Vesp.*, ἐπεὶ τἂν (draft "ἐπεί τᾶν"), the lemma paragraph **τοῦ πορεύσ. ξένου** (draft "Tod"), the lemma of 804 (only ἆρ’ is bold in the print; ὑμὶν is in the plain sloping type) and **ὧδ’** made its own lemma paragraph after the dash (draft "&d’"), *not*, *Tr.* 1163 (draft "77."), **αἵ** bold in 809 as printed (ἐκείνας between in plain type), 597 δεσπότιν (draft 507), "τὸν λ. χρόνον" (draft "A."), Her. 1. 189 (draft "τ."), **ἆρά μοι καλῶς ἔχει** as the heading's lemma (draft plain "dpd μοι καλώς").
 Checker: "ει" and "αι" ("the forms in ει to those in αι") are verb endings, printed without breathing: kept as printed.

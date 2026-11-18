@@ -44,6 +44,7 @@
 --- notes
 The page opens with a further bold lemma (ἐπιστάται) under 702: the previous page ends with "(…).—"; written as a new paragraph without `+ ` (the dash at the foot of p-0197 should be dropped there).
 Draft had joined "…as a group." and "Θεσσαλὰς...ἵππους" (new paragraph) and dropped "*ib.* 352—357"; mended. ἐπὶ (Nauck) is bold in the print.
+heading: 703 f.
 
 === p-0199
 + Pagasae. Here the name serves to recall the legends of the knightly Minyae. In Pind. *P.* 4. 117, Jason at Iolcus says, λευκίππων δὲ δόμους πατέρων...φράσσατέ μοι.
@@ -51,7 +52,7 @@ Draft had joined "…as a group." and "Θεσσαλὰς...ἵππους" (new p
 ## 706
 **λεύκιππος**, or λευκόπωλος, is often an epithet of deities or heroes, as in Pind. *O.* 6. 95 (Persephonè); *P.* 1. 66 (the Dioscuri); Ibycus fr. 16 (the sons of Poseidon, the Μολίονε of *Il.* 11. 709), etc. And white horses are especially praised for swiftness: *Il.* 10. 437 (the Thracian horses of Rhesus) λευκότεροι χιόνος, θείειν δ’ ἀνέμοισιν ὁμοῖοι: like those of Turnus (*Aen.* 12. 84), *qui candore nives anteirent, cursibus auras*. Hence the proverbs; Plaut. *Asin.* 2. 2. 13 *quadrigis albis*: Hor. *Sat.* 1. 7. 8 *equis praecurreret albis*. Yet Verg. *G.* 3. 82 says *color deterrimus albo*. It might be surmised that the reputation of white horses for *speed* rested less upon fact than upon their poetical association with divine or heroic persons.
 
-**Αἰνιάν**. The Αἰνιᾶνες (Ion. Ἐνιῆνες, *Il.* 2. 749, where the ι is short, and Her. 7. 132) were a tribe in the south of Thessaly, dwelling in the upper valley of the Spercheius, among the highlands of Oeta. The Malians were their neighbours on the south-east, and the Dolopes on the north-west; on the north, they touched the ancient Phthiotis.
+**Αἰνιὰν**. The Αἰνιᾶνες (Ion. Ἐνιῆνες, *Il.* 2. 749, where the ι is short, and Her. 7. 132) were a tribe in the south of Thessaly, dwelling in the upper valley of the Spercheius, among the highlands of Oeta. The Malians were their neighbours on the south-east, and the Dolopes on the north-west; on the north, they touched the ancient Phthiotis.
 
 ## 707
 **τῶν θεοδμήτων**, an epithet bestowed on Athens by Eur. also (*I. T.* 1449, *Hipp.* 974), recalls the legends of Cecrops, Athena, Poseidon; as in *Il.* 8. 519 the same epithet is given to the Trojan πύργοι built by Apollo, and in Pind. *O.* 6. 59 to Delos, the island which Zeus called forth from the deep.
@@ -64,12 +65,12 @@ Draft had joined "…as a group." and "Θεσσαλὰς...ἵππους" (new p
 ## 709
 **στάντες**: so at the start of the Homeric chariot-race, *Il.* 23. 358, στὰν δὲ μεταστοιχί (‘in line’).
 
-**†ὅθ’ αὐτοὺς**. The traditional **ὅθ’** can hardly be right: we should perh. read **ἵν’**. The use of ὅθι in Tragedy is elsewhere confined to lyric passages, and even in these the ι is never elided; *O.C.* 1044; Eur. *Hipp.* 125, 1127; *I.A.* 548, 1285, 1294: in Aesch. *Suppl.* 124 ὁπόθι. The elision occurs, indeed, in *Il.* 2. 572, *Od.* 4. 426; but would be foreign to Attic practice. (Cp. *O. C.*, p. 289, append. on 1436.) The simplest remedy would be **ὅτ’**, which is not necessarily excluded by **στάντες**: the sense might be, ‘having taken their stations, *when* these had been assigned.’ But we should rather expect a word meaning ‘where’; and if the local sense of ἵν’ had been explained by a marginal gloss οὗ or ὅθι, either of these might have given rise to ὅθ’.
+**†ὅθ’ αὐτοὺς**. The traditional **ὅθ’** can hardly be right: we should perh. read **ἵν’**. The use of ὅθι in Tragedy is elsewhere confined to lyric passages, and even in these the ι is never elided; *O.C.* 1044; Eur. *Hipp.* 125, 1127; *I.A.* 548, 1285, 1294: in Aesch. *Suppl.* 124 ὁπόθι. The elision occurs, indeed, in *Il.* 2. 572, *Od.* 4. 426; but would be foreign to Attic practice. (Cp. *O. C.*, p. 289, append. on 1436.) The simplest remedy would be **ὅτ’**, which is not necessarily excluded by στάντες: the sense might be, ‘having taken their stations, *when* these had been assigned.’ But we should rather expect a word meaning ‘where’; and if the local sense of ἵν’ had been explained by a marginal gloss οὗ or ὅθι, either of these might have given rise to ὅθ’.
 
 **βραβῆς**: cp. 690. The phrase **οἱ τεταγμένοι** is illustrated by Paus. 5. 9. 5. At Olympia three Hellanodicae had charge of the ἵππων δρόμος, and three of the pentathlon; while the rest supervised the other contests. The total number of these judges was ten, acc. to Pausanias, from Ol. 25 to Ol. 103 (680—368 B.C.), when it became twelve.
 
 ## 710
-**\*κλήρους ἔπηλαν**. I should much prefer to read αὐτοῖς in 709: but αὐτοὺς is defensible, and I refrain from change. Two views are possible; the first is generally received, and is perhaps simplest. (1) **αὐτοὺς** depends on κλήρους ἔπηλαν as=ἐκλήρωσαν: cp. Ar. *Eccl.* 683 κληρώσω πάντας, ‘I will place them all by lot,’ ἕως ἂν | εἰδὼς ὁ λαχὼν ἀπίῃ κ.τ.λ.
+**\*κλήρους ἔπηλαν**. I should much prefer to read αὐτοῖς in 709: but αὐτοὺς is defensible, and I refrain from change. Two views are possible; the first is generally received, and is perhaps simplest. (1) αὐτοὺς depends on κλήρους ἔπηλαν as=ἐκλήρωσαν: cp. Ar. *Eccl.* 683 κληρώσω πάντας, ‘I will place them all by lot,’ ἕως ἂν | εἰδὼς ὁ λαχὼν ἀπίῃ κ.τ.λ.
 --- flags
 1 ZZ [rare] → *Il.*
 2 ZZ [latin] (Greek model: ΤΣ) → *Il.*
@@ -97,6 +98,8 @@ Draft had joined "…as a group." and "Θεσσαλὰς...ἵππους" (new p
 24 κ.τ.λ. [conf] → ok
 --- notes
 Bold after the dash at 709: "†ὅθ’ αὐτοὺς" (Jebb's dagger) made a new paragraph; ὅθ’, ἵν’, ὅτ’, στάντες, οἱ τεταγμένοι in bold inside the note as printed. The asterisk before κλήρους (710) is Jebb's conjecture mark, written \*.
+rev: lemma Αἰνιάν corrected to Αἰνιὰν (grave, as printed)
+rev: "excluded by στάντες" and "(1) αὐτοὺς depends": plain sloped Greek in the print, bold taken away
 Checker: the two bare “ι” (706 "where the ι is short", 709 "the ι is never elided") are the letter named, as printed; no breathing.
 
 === p-0200
@@ -177,6 +180,8 @@ I formerly took κροτητῶν as=‘welded,’ ‘hammered,’ with ref. to 
 46 dwikoro [latin] (Greek model: Κοιτο.) → ἀπίκοιτο
 --- notes
 Heading 713 f. was missing (read "718:."): made `## 713`. The draft's false cut at "καὶ=κλήρους πήλαντες" (plain Greek) and at "as=ἕκαστός τις" joined again; ὑπαὶ and οἱ δ’ (bold after dashes) made paragraphs under 711.
+heading: 713 f.
+heading: 716 f.
 
 === p-0201
 + about to pass him; whereas we require rather a picture of the eagerness which each man felt to outstrip the rest.
@@ -236,6 +241,8 @@ Heading 713 f. was missing (read "718:."): made `## 713`. The draft's false cut 
 30 140n.). [digit] → 140 n.).
 31 onze [latin] (Greek model: ΓΖ) → *one*
 --- notes
+heading: 718 f.
+heading: 721 f.
 
 === p-0202
 + παρηορίαι): *Il.* 8. 87; 16. 152, 471: *Od.* 4. 590.
@@ -284,6 +291,8 @@ The Aenian, closely followed by the others, had just completed his sixth δία�
 23 coal [conf] → goal
 --- notes
 Draft lost "4. 590." and the new paragraph "Sophocles has in mind…", garbled Xen. Eq. 1. 1 into "7:1: 1:" (removed), and cut "ἐκ δ’ ὑποστροφῆς=ὑποστρέψαντες" at the "="; all mended. In the Il. 23. 336 quotation Jebb spaces some words for emphasis (δεξιὸν ἵππον, ἀριστερὸς ἐγχριμφθήτω, ποιητοῖο); written plain.
+heading: 724 f.
+heading: 726 f.
 
 === p-0203
 + horses dashed head-foremost into the Libyan’s team, striking it on the left side.
@@ -304,7 +313,7 @@ In the four-horse chariot-race at Olympia the number of double courses was *twel
 
 **κἀνοκωχεύει**: cp. Her. 9. 13 πρὶν μέν νυν ἢ πυθέσθαι ἀνεκώχευε (‘he held his hand,’ ‘kept quiet’). It may have been a nautical term: *id.* 6. 116 ἀνοκωχεύσαντες τὰς νέας (‘after *lying to*’). The verb is Ionic and poetical; but ἀνοκωχή, from which it comes, is used by Thuc. (1. 40 etc.). In Soph. fr. 304 ὀκωχεύουσιν should perh. replace κωχεύουσιν. The simple ὀκωχὴ occurs only in lexicons (*Etym. M.* 596. 51): ὄκωχα, an Ionic perf. of ἔχω (Attic ἔσχηκα), only in *Il.* 2. 218, where the MSS. have συνοχωκότε, but Cobet (*Misc. Crit.* 304) would read συνοκωχότε.
 
-**κλύδων**, a surging mass: cp. Plat. *Legg.* 758 A πόλις...ἐν κλύδωνι τῶν ἄλλων πόλεων διαγομένη.
+**κλύδων’**, a surging mass: cp. Plat. *Legg.* 758 A πόλις...ἐν κλύδωνι τῶν ἄλλων πόλεων διαγομένη.
 
 ## 734
 **ἔσχατος μὲν** corresponds with ὅπως δ’ (736): he was then last, indeed; *but*, when he saw that only one competitor was left, he pressed to the front.
@@ -331,7 +340,7 @@ In the four-horse chariot-race at Olympia the number of double courses was *twel
 18 κωχεύουσιν [greek] → ok
 19 ὀκωχὴ [accent] → ok
 20 (Etym. [conf] → *Etym.*
-21 κλύδων, [conf] → κλύδων (print has a stray mark like ’ after it; dropped)
+21 κλύδων, [conf] → κλύδων’, (elided κλύδωνα of v. 733, as printed)
 22 ἔγοηϊ [greek] (Greek model: ττοηι.--ὗστέ-) → front.— (new paragraph **ὑστέρας ἔχων**)
 23 ὑστέpas [mixed] (Greek model: ττοηι.--ὗστέ-) → ὑστέρας
 24 ὑστέpas [mixed] → ὑστέρας
@@ -340,7 +349,10 @@ In the four-horse chariot-race at Olympia the number of double courses was *twel
 27 4pologia, [digit] (Greek model: “4οϊοσία,) → *Apologia*,
 28 pologia [rare] (Greek model: “4οϊοσία,) → *Apologia*,
 --- notes
-Draft had 734 f. as ":." (heading made `## 734`), missed "front.—" and split "πίστιν φέρων as=πιστεύων" at the "="; mended. After the lemma κλύδων the print shows a mark like an apostrophe (κλύδων’,), evidently stray; written κλύδων.
+Draft had 734 f. as ":." (heading made `## 734`), missed "front.—" and split "πίστιν φέρων as=πιστεύων" at the "="; mended. rev: lemma κλύδων restored to κλύδων’ as printed: the mark is the elision of κλύδων’ (κλύδωνα) in v. 733, not a stray mark
+heading: 728 ff.
+heading: 731 ff.
+heading: 734 f.
 
 === p-0204
 + look forward steadily and hopefully to the event, τῷ τέλει πίστιν φέρων.’]
@@ -387,6 +399,8 @@ For **προβάλλων** in partitive appos. with the subject of ἠλαυνέ
 12 fair’ [conf] → fair’
 --- notes
 Headings 738 ff. and 741 f. had no number in the draft (738 was taken from the bold κἀξισώσαντε, 741 kept): checked. Lemma "ἄλλος. .ἅτερος" printed with two dots, written ἄλλος..ἅτερος. In Il. 9. 313 the draft read εἴσῃ; the print (ink-blotted) has εἴπῃ. The bold ὀρθὸς ἐξ ὀρθῶν δί-|φρων divided between pages: written whole here.
+heading: 738 ff.
+heading: 741 f.
 
 === p-0205
 + where the sense of the adj., varying from that of the verb, saves the language from seeming too redundant. Cp. n. on *Tr.* 613 καινῷ καινὸν ἐν πεπλώματι. The prep. ἐκ denotes the condition (‘with his chariot safe’): cp. 455.
@@ -433,3 +447,4 @@ Headings 738 ff. and 741 f. had no number in the draft (738 was taken from the b
 22 Eum. [conf] → *Eum.*
 --- notes
 The page begins "φρων," (the rest of δίφρων, written whole on p-0204): left out here. Heading 746 f. missing in the draft (read as "Ae." inside 745): made `## 746`. "as may been seen" is printed (evident misprint), corrected to "as may be seen". "*Et proni dant lora.*—τμητοῖς", "pain.—πέδῳ": bold lemmas after dashes, new paragraphs.
+heading: 746 f.

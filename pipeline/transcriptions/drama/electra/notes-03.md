@@ -41,6 +41,8 @@ Others read, ἔστ’ ἂν λεύσσω παμφεγγεῖς | ῥιπάς, 
 22 Jos [latin] (Greek model: οοῦ) → *lost*
 --- notes
 First paragraph: a new indented paragraph of the note before (no `+ `); its bold Greek ἀπ’ ἄλλης | ἢ ’μοῦ kept bold. 107: the lemma τεκνολέτειρ’ after a dash made a paragraph of its own.
+heading: 105 f.
+heading: 108 f.
 
 === p-0119
 + merely=‘with,’ but implies, ‘with *continual* wailing’: see n. on *Ant.* 759 ἐπὶ ψόγοισι.
@@ -159,6 +161,8 @@ Following the θρῆνος ἀπὸ σκηνῆς, the Parodos takes the form o
 24 233—=250. [conf] → 233—250.
 --- notes
 119: the paragraph runs from the foot of the left column ("Here,") to the top of the right ("Electra herself…"); the draft had made the right column's part a [Note: …]: joined back into the paragraph (the mark at the column's foot is a stray mark, not a footnote sign). "Dem. or. 22 § 76" (the draft had 70). 116: the print bolds both ἡμετέρου and μοι in the lemma; καί μοι after the dash is a further lemma.
+heading: 116 f.
+heading: 119 f.
 
 === p-0121
 This lyric dialogue strikes the key-note of the play by illustrating Electra’s constancy. The Chorus, while sympathising with her, reminds her that grief is unavailing. Let her be calm, trusting in the gods, and hoping for the return of Orestes. Let her be more conciliatory towards Clytaemnestra and Aegisthus. She replies that such a change would be disloyalty towards the dead. The character which she exhibits here is that which wins the praise of the Chorus in the latter song (1058—1097).
@@ -233,6 +237,8 @@ The general idea of this κομμός may have been suggested by that of the κ�
 --- notes
 The paragraph "ὡς is properly…" is a new indented paragraph with ὡς in bold (the draft had "ws" in plain). Lemmas after dashes (ἀκόρεστον, τὸν πάλαι, πάλαι, ἐκ, ἀθεώτατα, κακᾷ...χειρὶ πρόδοτον, ὁ τάδε πορὼν, εἴ μοι θέμις, γενναίων, παραμύθιον) are paragraphs of their own. παραμύθ-|ιον is divided between this page and the next: written whole here.
 ## 123: Jebb's number; our text has no 123.
+heading: 123 ff.
+heading: 128 f.
 
 === p-0122
 + might be nomin. in appos. with the subject of the verb, but is better taken as acc. in appos. with the sentence: cp. 564 (ποινὰς), 966 (πημονὴν): *O. T.* 603 (n.): Eur. *Or.* 1105 Ἑλένην κτάνωμεν, Μενελέῳ λύπην πικράν.
@@ -381,6 +387,10 @@ For the repetition of **ἀλλά**, so soon after the ἀλλά in 137, see 879
 --- notes
 Structure: 135 was garbled into one line ("be 135 wild with ἀλύειν…"); remade as `## 135` from the image. 139: the draft's false paragraph "ἰῃξ second ἀντήσεσιν…" joined back ("ἀντήσε(σ)ι,—the second ἀντήσεσιν…"). 140: the draft had mixed the lines; rewritten from the image, the lemmas after dashes as paragraphs. Jebb prints the emendations "γόοισιν οὔτ’ ἄνταις" and "οὔτε γόοισιν οὔτ’ εὐχαῖς" in the bold type: kept bold.
 The breathing remarks are answered here: "the form in η" and "ι" are the letters alone, as printed.
+heading: 137 ff.
+heading: 140 f.
+heading: 142 f.
+heading: 145 f.
 
 === p-0124
 ## 147
@@ -458,6 +468,7 @@ The breathing remarks are answered here: "the form in η" and "ι" are the lette
 --- notes
 150: the lemma "Νιόβα, σὲ δ’" is in a lighter upright type than the other lemmas on the page, but stands as the note's lemma: written in bold; θεόν inside the note is in the bold type. 155: the draft's false paragraph "ῖ. δ., less moderate…" joined back ("…in the house,’—*i.e.*, less moderate…": a dash followed by English stays in the paragraph). Cicero's Latin set in italics as printed.
 ## 154: Jebb's number; our text has no 154. The breathing remarks are answered here: ῡ, ῠ, ῐ stand alone as the letters with their quantity marks, as printed.
+heading: 150 ff.
 
 === p-0125
 + sorrow: the gen., as after περιγίγνομαι, περιεῖναι, περισσεύω (Xen. *An.* 4. 8. 11 περιττεύσουσιν ἡμῶν οἱ πολέμιοι). ‘They are equally affected by every one of those troubles which you lament so much more vehemently than they do.’

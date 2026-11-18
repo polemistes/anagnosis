@@ -94,6 +94,11 @@ The compound **ἐξέφυς** implies the stock from which she sprang, as in *O
 23 07. [conf] → Or.
 --- notes
 958 f.: “—βλέψασ’” (bold) made a new paragraph; 968 f.: the draft's paragraph “Α5 θανόντος” joined back (“—As” is English), θανόντος and κάτω bold as printed; 962: *Lys.* 596 (draft 590).
+heading: 958 f.
+heading: 963 f.
+heading: 965 f.
+heading: 968 f.
+heading: 970 ff.
 
 === p-0232
 + my lineage.’ It is usu. joined with a genitive.
@@ -116,7 +121,7 @@ The compound **ἐξέφυς** implies the stock from which she sprang, as in *O
 ## 979
 **εὖ βεβηκόσιν**: cp. 1057: Her. 7. 164 τυραννίδα...εὖ βεβηκυῖαν.
 
-**ἀφειδήσαντε**, fem. (cp. 1003, 1006). The properly feminine form of the dual in participles of the third declension is actually rare, though it was certainly in use (thus **ἐχούσα** occurs in an Attic inscr. of 398 B.C.). See appendix on *O. C.* 1676 ἰδόντε καὶ παθούσα.
+**ἀφειδήσαντε**, fem. (cp. 1003, 1006). The properly feminine form of the dual in participles of the third declension is actually rare, though it was certainly in use (thus ἐχούσα occurs in an Attic inscr. of 398 B.C.). See appendix on *O. C.* 1676 ἰδόντε καὶ παθούσα.
 
 **προὐστήτην φόνου**, lit., ‘became ministers
 --- flags
@@ -148,6 +153,9 @@ The compound **ἐξέφυς** implies the stock from which she sprang, as in *O
 26 φόνου, [conf] → ok
 --- notes
 975 f.: “—δεξιώσεται” (bold) made a new paragraph; doubled θ’ in ἐδεξιοῦνθ’ removed; the word “ministers” divided over the page is written whole here.
+979	rev: ἐχούσα (in “thus ἐχούσα occurs”) is in the ordinary Greek type, not bold: bold taken away
+heading: 975 f.
+heading: 979 f.
 
 === p-0233
 + of bloodshed.’ προστῆναί τινος is properly to place oneself ‘in front of,’ or ‘at the head of,’—a general sense which yields several shades of meaning; thus Eur. *Andr.* 220 χείρον’ ἀρσένων νόσον | ταύτην νοσοῦμεν, ἀλλὰ προὔστημεν καλῶς, ‘we are wont to *control* it well’: *Ai.* 803 πρόστητ’ ἀναγκαίας τύχης, ‘*shelter* it’: Aeschin. or. 2 § 161 τὸν προστάντα τῆς εἰρήνης, ‘the champion’ of it. Here, the presence of the dat. **ἐχθροῖς** serves to blend the sense of ‘administering’ required by **φόνου** with that of ‘standing forth’ to confront an adversary; cp. *Ai.* 1133 ἦ σοὶ γὰρ Αἴας πολέμιος προὔστη ποτέ;
@@ -194,6 +202,9 @@ In **τοῖς καλῶς πεφυκόσιν** both senses of ‘noble’ are i
 22 κιτ [greek] (Greek model: κιτιλ.) → κ.τ.λ.
 --- notes
 The page's first syllable “ters” is left out (the word is written whole on p-0232); the margin dot beside the “Nauck miserably” paragraph is a pencil mark, deleted.
+heading: 981 f.
+heading: 986 f.
+heading: 990 f.
 
 === p-0234
 + words of the Chorus, though neutral in tone (like their words at v. 369), imply that Electra’s plan is over-bold, and Chrys. speaks as if sure of their approval; which, indeed, she receives at v. 1015.
@@ -213,9 +224,7 @@ For the place of **μὴ**, cp. *Ph.* 66 εἰ δ’ ἐργάσει | μὴ τ�
 **θράσος..ὁπλίζει**: the acc. as with ἀμφιέννυσθαι, etc.: Schneidewin cp. *Anthol. Pal.* 5. 93 ὥπλισμαι πρὸς Ἔρωτα περὶ στέρνοισι λογισμόν.
 
 ## 997
-**εἰσορᾷς**: cp. 584.
-
-**γυνὴ μὲν** κ.τ.λ.: as Ismene, too, reminds her sister (*Ant.* 61).
+**εἰσορᾷς**: cp. 584.—γυνὴ μὲν κ.τ.λ.: as Ismene, too, reminds her sister (*Ant.* 61).
 
 **σθένεις δ’ ἔλασσον..χερί**: this is not merely an amplification of γυνὴ μὲν κ.τ.λ., meaning that a woman’s arm is weaker than a man’s, but refers to the fighting forces at the disposal of the rulers: cp. Eur. *El.* 629 οἰκεία..χείρ, a band of domestics.
 
@@ -233,6 +242,9 @@ For the place of **μὴ**, cp. *Ph.* 66 εἰ δ’ ἐργάσει | μὴ τ�
 9 £7. [conf] → El.
 10 οἰκεία... [conf] → οἰκεία..
 --- notes
+997	rev: “γυνὴ μὲν κ.τ.λ.” after the dash is in the ordinary Greek type, not the bold lemma type: the draft's paragraph joined back to “εἰσορᾷς: cp. 584.” with the dash, bold taken away
+heading: 995 f.
+heading: 997 f.
 
 === p-0235
 + off; cp. *Ai.* 523 ἀπορρεῖ μνῆστις: Verg. *Aen.* 2. 169 *Ex illo fluere ac retro sublapsa referri* | *Spes Danaum*.
@@ -280,6 +292,9 @@ For the place of **μὴ**, cp. *Ph.* 66 εἰ δ’ ἐργάσει | μὴ τ�
 17 κἀτελῆ, [conf] → ok
 --- notes
 1007 f.: the draft's paragraph “**οὐχ ὑμὶν**” joined back with the dash (plain type, a quotation); 1010: αὐτῷ as printed (smooth breathing).
+heading: 1001 f.
+heading: 1005 f.
+heading: 1007 f.
 
 === p-0236
 + will be ἀτελῆ, as finding no accomplishment, and therefore doing no harm. The dat. **σοι** implies that this is for Electra’s own interest.
@@ -325,6 +340,9 @@ The difference between **πείθου** and **πιθοῦ** is simply that the p
 14 ὦφελον [accent] (Greek model: ὥφελον.) → ὤφελον
 --- notes
 1013: “for **ἀλλὰ**” bold as printed; dat. “σοι” (draft σου).
+heading: 1017 f.
+heading: 1019 f.
+heading: 1021 f.
 
 === p-0237
 + κατειργάσω, is impossible: ἂν could not be omitted here. [Campbell defends that reading by Thuc. 8. 86. § 4, ὡρμημένων γὰρ τῶν ἐν Σάμῳ Ἀθηναίων πλεῖν ἐπὶ σφᾶς αὐτούς, ἐν ᾧ σαφέστατα Ἰωνίαν καὶ Ἑλλήσποντον εὐθὺς εἶχον οἱ πολέμιοι, κ.τ.λ. There, however, (*a*) ἐν ᾧ, ‘*in which case*,’ serves at once to suggest the conditional sense; and (*b*) εἶχον is an imperf., not an aorist (cp. 914 n.). Stahl, indeed, reads σαφέστατ’ ἂν, with Dobree: but that does not seem necessary.]

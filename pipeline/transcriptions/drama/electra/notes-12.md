@@ -40,6 +40,8 @@ Cp. Aesch. *Pers.* 217, where the Chorus are advising Atossa how to propitiate t
 23 f. [conf] (Greek model: ΓΕ) → ok
 --- notes
 The note on 646 was scrambled in the draft (lines of the right column interleaved); rewritten from the image. The Aeschylus quotation reordered as printed.
+heading: 646 f.
+heading: 648 f.
 
 === p-0191
 + Orestes. Even before the dream, this thought had haunted her (293 ff.).
@@ -96,6 +98,8 @@ Following the directions given in vv. 39 ff., the Paedagogus now appears as a ξ
 18 Pk. [conf] → *Ph.*
 19 531f. [digit] → 531 f.
 --- notes
+heading: 651 f.
+heading: 653 f.
 
 === p-0192
 ## 663
@@ -156,6 +160,8 @@ Instant recognition of an utterance as well-omened was a way of appropriating th
 23 Thue [latin] (Greek model: ὝὍΤΠαυς.) → Thuc.
 --- notes
 The note on 668 was garbled in the draft and had no heading; rewritten from the image under ## 668. Also corrected unflagged: 505 n. → 565 n., fr. 262. 5 → fr. 362. 5, γὰρ in the lemma πρέπει γὰρ (under 663 f.), σε for oe.
+heading: 663 f.
+heading: 666 f.
 
 === p-0193
 + were intended to perceive a second meaning in ξυνθείς,—that of ‘composing’ a false story (see n. on 584); but this would surely be unfitting here.
@@ -168,13 +174,13 @@ The note on 668 was garbled in the draft and had no heading; rewritten from the 
 **ταύτης**, scornful: cp. *O. T.* 429 ἦ ταῦτα δῆτ’ ἀνεκτὰ πρὸς τούτου κλύειν;
 
 ## 676
-**νῦν τε καὶ πάλαι**: cp. *Ant.* 181 n. The variants (cr. n.) seem to have been prompted by ignorance of the fact that **πάλαι** could refer to a recent moment.—Cp. *Tr.* 877 ΧΟ. τέθνηκεν ἡ τάλαινα; ΤΡ. δεύτερον κλύεις.
+**νῦν τε καὶ πάλαι**: cp. *Ant.* 181 n. The variants (cr. n.) seem to have been prompted by ignorance of the fact that πάλαι could refer to a recent moment.—Cp. *Tr.* 877 ΧΟ. τέθνηκεν ἡ τάλαινα; ΤΡ. δεύτερον κλύεις.
 
 ## 677
 **οὐδέν εἰμ’ ἔτι**: *Ph.* 1217 ἔτ’ οὐδέν εἰμι.
 
 ## 678
-**τὰ σαυτῆς πρᾶσσ’**: as ‘to be over-busy’ is **περισσὰ πράσσειν** (*Ant.* 68) or δρᾶν (*Tr.* 617). Plat. *Rep.* 433 A τὸ τὰ ἑαυτοῦ πράττειν καὶ μὴ πολυπραγμονεῖν.
+**τὰ σαυτῆς πρᾶσσ’**: as ‘to be over-busy’ is περισσὰ πράσσειν (*Ant.* 68) or δρᾶν (*Tr.* 617). Plat. *Rep.* 433 A τὸ τὰ ἑαυτοῦ πράττειν καὶ μὴ πολυπραγμονεῖν.
 
 **διόλλυται**, historic pres., as *O. T.* 560 ἔρρει, *Ant.* 1175 αἱμάσσεται.
 
@@ -213,6 +219,9 @@ The note on 668 was garbled in the draft and had no heading; rewritten from the 
 23 dlex [latin] (Greek model: 25.) → *Alex.*
 --- notes
 Unflagged corrections: O. T. 420 → 429; ἣν → ἦν (twice); the lemma of 675 bolded whole (τί φής, τί φής). The word πρό-|σχημα divided between this page and the next is written whole here.
+rev: 676 πάλαι and 678 περισσὰ πράσσειν unbolded: both are in the sloping Greek of quotations (heavily inked), not the upright bold lemma type
+heading: 678 f.
+heading: 681 f.
 
 === p-0194
 + τῆς ἐπὶ θαλάττῃ τῶν βαρβάρων ἡγεμονίας.
@@ -263,6 +272,7 @@ For ἄφεσις as=‘starting-place,’ cp. Suidas (*s.v.* ἀπὸ γραμ�
 27 σταδιοδρύμοις [greek] (Greek model: σταδιοδρόμοις.) → σταδιοδρόμοις
 --- notes
 The note on 686 had no heading (read "486"); made ## 686 from the image. Unflagged: Eur. I. A. 94 (read "7. 4. 04"), cp. 48 n., (b) twice (read "(4)"), I. → 1. in Jebb's list, εἴγε. → *circ.* (twice), 833 Ὁ → 833 D, ἧ → ᾗ (Paus. 6. 20. 9), the closing bracket after σταδίῳ restored, τῇ φύσει in bold as printed.
+heading: 683 f.
 
 === p-0195
 + ἀφέσει, ἐν μὲν τῷ ὑπαίθρῳ τῆς ἀφέσεως κ.τ.λ.—Dindorf notes that in Aristeides vol. I. p. 339 the words τῆς ἀφέσεως were corrupted to τῆς φύσεως.
@@ -323,9 +333,11 @@ Others explain:—οὐκ οἶδα δὲ ὅπως τοιοῦδ’ ἀνδρ�
 --- notes
 "ευ stems" (690): the stem ending, printed without a breathing; kept so.
 Unflagged: 10. 7. 7 (read "το."), Tempè (grave as printed), *i.e.* (read "ἀπ."), ἓν δ’ ἴσθ’ in bold as printed, (δέ) (read "6¢"), *all*, *P.* 9. 83, οἶδα, ευ stems, 693 ff. (read "693 ἢ"), Ἑλλανοδίκαι, the heading of 690 (lemma ὅσων); τῇ φύσει in bold as printed.
+rev: 688 Pind. P. 9. 83 σοφοῖς: the print has σοφοις without its accent (dropped or worn type, seen under magnification); the evident misprint corrected to σοφοῖς
+heading: 688 f.
 
 === p-0196
-+ The criticism of vv. 690—692 turns upon these points. (1) The word διαύλων cannot be right. At each festival there was only one δίαυλος. The plur. cannot be defended on the ground that a winner of the δίαυλος might have to run twice,—viz., first in one of several groups, and then in the final heat (Paus. 6. 13. 3). (2) If the sing. διαύλου be read, it is still difficult to complete the verse in any probable manner. (3) Omitting διαύλων, we might expand πένταθλ’ ἃ νομίζεται on the hypothesis that the intrusion of διαύλων had caused the mischief: *e.g.*, δρόμων, πόνων τε πεμπὰς ἣ νομίζεται. Pindar often uses **πόνος** as=ἆθλος. (4) But it seems more probable that v. 691 is an interpolation, arising perhaps from a marginal gloss, and intended to explain a general phrase in the text. Thus, if the poet had written simply, ὅσων γὰρ εἰσεκήρυξαν βραβῆς | ἄθλων ἐνεγκὼν etc., then the reference to the diaulos and the pentathlon in v. 691 might have been prompted by a wish to define ἄθλων. And the interpolation would itself account for the change of ἄθλων in 692 to τούτων. (Some, indeed, think it enough to delete 691, leaving τούτων: but the neut. plur. of the pron. seems too vague here.) (5) Nauck’s view, that the poet wrote, ὅσων γὰρ εἰσεκήρυξαν βραβῆς | δρόμων ἐνεγκὼν etc., leaves two difficulties. (*a*) There would then have been less excuse for interpolating an allusion to the pentathlon. (*b*) The tone of vv. 688 f. would lead us to suppose that the ἔργα καὶ κράτη of Orestes had not been confined to foot-races, but had included some feats in the other branches of the γυμνικοὶ ἀγῶνες.
++ The criticism of vv. 690—692 turns upon these points. (1) The word διαύλων cannot be right. At each festival there was only one δίαυλος. The plur. cannot be defended on the ground that a winner of the δίαυλος might have to run twice,—viz., first in one of several groups, and then in the final heat (Paus. 6. 13. 3). (2) If the sing. διαύλου be read, it is still difficult to complete the verse in any probable manner. (3) Omitting διαύλων, we might expand πένταθλ’ ἃ νομίζεται on the hypothesis that the intrusion of διαύλων had caused the mischief: *e.g.*, δρόμων, πόνων τε πεμπὰς ἣ νομίζεται. Pindar often uses πόνος as=ἆθλος. (4) But it seems more probable that v. 691 is an interpolation, arising perhaps from a marginal gloss, and intended to explain a general phrase in the text. Thus, if the poet had written simply, ὅσων γὰρ εἰσεκήρυξαν βραβῆς | ἄθλων ἐνεγκὼν etc., then the reference to the diaulos and the pentathlon in v. 691 might have been prompted by a wish to define ἄθλων. And the interpolation would itself account for the change of ἄθλων in 692 to τούτων. (Some, indeed, think it enough to delete 691, leaving τούτων: but the neut. plur. of the pron. seems too vague here.) (5) Nauck’s view, that the poet wrote, ὅσων γὰρ εἰσεκήρυξαν βραβῆς | δρόμων ἐνεγκὼν etc., leaves two difficulties. (*a*) There would then have been less excuse for interpolating an allusion to the pentathlon. (*b*) The tone of vv. 688 f. would lead us to suppose that the ἔργα καὶ κράτη of Orestes had not been confined to foot-races, but had included some feats in the other branches of the γυμνικοὶ ἀγῶνες.
 
 On the whole, I should incline to delete 691, and alter τούτων in 692 to ἄθλων.
 
@@ -344,7 +356,7 @@ On the whole, I should incline to delete 691, and alter τούτων in 692 to �
 ## 696
 **καὶ ταῦτα μὲν τοιαῦθ’**, a form of summary used in transitions: Plat. *Theaet.* 173 B καὶ οὗτοι μὲν δὴ τοιοῦτοι.
 
-**βλάπτῃ**, disable, impede one in his career: *Ai.* 456 εἰ δέ τις θεῶν | βλάπτοι, φύγοι τἂν χὼ κακὸς τὸν κρείσσονα. *Ant.* 1103 συντέμνουσι γὰρ | θεῶν ποδώκεις τοὺς κακόφρονας βλάβαι (n.).
+**βλάπτῃ**, disable, impede one in his career: *Ai.* 456 εἰ δέ τις θεῶν | βλάπτοι, φύγοι τἂν χὠ κακὸς τὸν κρείσσονα. *Ant.* 1103 συντέμνουσι γὰρ | θεῶν ποδώκεις τοὺς κακόφρονας βλάβαι (n.).
 
 **ἰσχύων**, without τις,—a rare usage,
 --- flags
@@ -374,6 +386,10 @@ On the whole, I should incline to delete 691, and alter τούτων in 692 to �
 24 7is,—a [digit] → τις,—a
 --- notes
 Unflagged: twice,—viz. (space dropped), τε, ἣ (read ἢ), πόνος in bold as printed, (*a*) and (*b*), foot-races (hyphen as on p. 194), φέρω, n. (read "τ."), 833 C (read "853 6"), § 319 (read "8 319"), Λάιον without diaeresis as printed, Thuc. 1. 9 (read "I. 9"), καὶ (read kal).
+rev: πόνος (in "Pindar often uses πόνος as=ἆθλος") unbolded: it is the sloping Greek of quotations, heavily inked, not the upright bold type
+rev: 696 Ai. 456 χὼ → χὠ (the print has the coronis only, no accent)
+heading: 693 ff.
+heading: 696 f.
 
 === p-0197
 + which has, however, epic precedent; *Il.* 13. 287 οὐδέ κεν ἔνθα τεόν κε μένος καὶ χεῖρας ὄνοιτο: 22. 199 ὡς δ’ ἐν ὀνείρῳ οὐ δύναται φεύγοντα διώκειν: *Od.* 5. 400 ἀλλ’ ὅτε τόσσον ἀπῆν ὅσσον τε γέγωνε βοήσας. So *O. T.* 517 φέρον, *Ant.* 687 καλῶς ἔχον, without τι. Cp. 1323.

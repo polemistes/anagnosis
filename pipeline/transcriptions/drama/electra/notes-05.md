@@ -38,6 +38,7 @@
 19 (218f.). [digit] → (218 f.).
 --- notes
 Read through on the column images: Tr. 497 and Tr. 1093 (draft 77.), etc. (draft εἰς), "οὐκ ἐριστὰ τοῖς δυνατοῖς" and "πλάθειν" bold inside the 219 note, the 219 sentence restored to the print's order, *i.e.*, *how*, ib., οἶδα, ἔξοιδ’ bold; italics set.
+heading: 219 f.
 
 === p-0135
 ## 223
@@ -102,6 +103,10 @@ For **ἐκ**, where the simple gen. would suffice, cp. 291, 987.
 26 84n. [digit] → 84 n.
 --- notes
 Read through on the column images: heading ## 231 made from "231 f." (draft "2912." left as text); ταύτας ἄτας, ἄλυτα (draft "dAv- Ta") made lemmas after their dashes; Ph. 185, Ph. 764, Il. 16. 515, Il. 5. 115, Ant. 598 n., Tr. 247; bold inside paragraphs (ἀκούσαιμ’ ἂν πρόσφορον ἔπος, τίνι, πρόσφορον, σχήσω, ἐκ, θρήνων, γε, εὐνοίᾳ) set as printed; italics set. Checker's "α without breathing": the letter's name ("the second α short"), as printed.
+heading: 223 f.
+heading: 226 ff.
+heading: 229 f.
+heading: 231 f.
 
 === p-0136
 ## 234
@@ -163,6 +168,7 @@ Read through on the column images: heading ## 231 made from "231 f." (draft "291
 26 ξύνοικος: [conf] → ok
 --- notes
 Structure: the draft had run the two columns together in the 235/236 notes (236 note and its heading lost, "238" lines interleaved); rewritten from the image: ## 236 (236 f.) with καὶ τί μέτρον..., κακότατος, φέρε, ἐπὶ τοῖς φθ. as its paragraphs; ## 238 made a heading (ἔβλαστ’). Words: Helen. 195, O.T. 175, οἷα, Tr. 526, Ph. 101 n., MSS., Il.-style italics, prosperity (draft "Prosperity"), a *region*, γὰρ, ὃ ξυνοικεῖ, I.A. 644.
+heading: 236 f.
 
 === p-0137
 + ἕκηλον). The stem of ἕκηλος being ϝεκ, εὔκηλος is perh. for ἐϝέκηλος, ἔϝκηλος (Curt. *Etym.* § 19).
@@ -229,6 +235,9 @@ The first ἐπεισόδιον falls into two parts. In the earlier, Electra fu
 25 4nf [digit] → *Ant.*
 --- notes
 Structure: second heading ## 241 for Jebb's "241 ff." (a new numbered note after the "241" note on p-0136); ## 249 made from the draft's "249f£." text; "οὐδὲν (not μηδὲν) ὤν" made a lemma paragraph after its dash (the draft had cut the paragraph at "viz." instead), "γᾶ here" restored as its own paragraph. The lemma "καὶ τὸ σὸν..καὶ τοὐμὸν" is divided between the pages: "**καὶ**" here, the rest on p-0138 after "+ ". Checker's "α without breathing": the letter's name ("α privative"), as printed. Words: Pind. I. 1. 64, Andr. 93, εἰ γὰρ, *For*, Lys. or. 10 § 13, O. T. 100, Eum. 464, Od. 2. 65, οἳ, 328—471.
+heading: 241 ff.
+heading: 244 ff.
+heading: 249 f.
 
 === p-0138
 + **τὸ σὸν...καὶ τοὐμὸν**: cp. *Ai.* 1313 ὅρα μὴ τοὐμὸν ἀλλὰ καὶ τὸ σόν. The chief stress is upon τὸ σόν: but the meaning is not merely that her interests are to them as their own. These women, representing the people of Mycenae, desire the downfall of the usurper whose unpunished crime lays an ἄγος upon the land. Their attitude is, so far, like that of the Argive elders in the *Agamemnon*. They wish Electra, not to renounce her purpose, but quietly to await her opportunity (177 ff.).
@@ -296,6 +305,8 @@ Structure: second heading ## 241 for Jebb's "241 ff." (a new numbered note after
 30 A. [conf] → —**τὰ μητρὸς** (new paragraph, dash dropped)
 --- notes
 Structure: the draft had run the two columns together in 258-259 (rewritten from the image); "71 [." line and "1, causal" mended into ## 259 and ## 261 with their lemmas; τὸ σὸν...καὶ τοὐμὸν continues the lemma begun with "**καὶ**" at the foot of p-0137. Words: Ai. 1313, Ai. 1353, Ai. 814, Tr. 563, *id.* 14. 376, γὰρ, *Agamemnon*, *come to be*, εἰμί. The checker's "η without breathing" was the draft's "ἢ" (now ᾗ).
+heading: 259 f.
+heading: 261 f.
 
 === p-0139
 + cp. however Plat. *Rep.* 329 D νεότης χαλεπὴ τῷ τοιούτῳ ξυμβαίνει.
@@ -304,7 +315,7 @@ Structure: the draft had run the two columns together in 258-259 (rewritten from
 **κἀκ τῶνδ’ ἄρχομαι**. Cp. *Ant.* 63 ἀρχόμεσθ’ ἐκ κρεισσόνων: *O. C.* 67 ἐκ τοῦ κατ’ ἄστυ βασιλέως τάδ’ ἄρχεται. Xen. *Hellen.* 3. 1. 6 ἐκείνῳ δ’ αὕτη ἡ χώρα δῶρον ἐκ βασιλέως ἐδόθη. In such phrases ἐκ is somewhat more than a mere equivalent for ὑπό (124). It suggests the head and fount of authority; a sense fitting here.
 
 ## 265
-**λαβεῖν...τὸ τητᾶσθαι**. The aor. inf. expresses the act of receiving; the pres. inf., the state of privation. Cp. *Ph.* 95 ἐξαμαρτεῖν...νικᾶν. For λαβεῖν (without art.) as subject of **πέλει**, cp. *Tr.* 134 f. ἐπέρχεται | χαίρειν τε καὶ στέρεσθαι: for the use of the art. with τητᾶσθαι only, Eur. *Ph.* 495 καὶ σοφοῖς | καὶ τοῖσι φαύλοις. Somewhat similar is *O. C.* 808 χωρὶς τό τ’ εἰπεῖν πολλὰ καὶ τὰ καίρια, unless τὸ καίρια be read. For τητᾶσθαι, cp. 1326: *O. C.* 1200 n.
+**λαβεῖν...τὸ τητᾶσθαι**. The aor. inf. expresses the act of receiving; the pres. inf., the state of privation. Cp. *Ph.* 95 ἐξαμαρτεῖν...νικᾶν. For λαβεῖν (without art.) as subject of πέλει, cp. *Tr.* 134 f. ἐπέρχεται | χαίρειν τε καὶ στέρεσθαι: for the use of the art. with τητᾶσθαι only, Eur. *Ph.* 495 καὶ σοφοῖς | καὶ τοῖσι φαύλοις. Somewhat similar is *O. C.* 808 χωρὶς τό τ’ εἰπεῖν πολλὰ καὶ τὰ καίρια, unless τὸ καίρια be read. For τητᾶσθαι, cp. 1326: *O. C.* 1200 n.
 
 ## 266
 **ποίας...δοκεῖς** κ.τ.λ.: cp. *Ph.* 276 σὺ δή, τέκνον, ποίαν μ’ ἀνάστασιν δοκεῖς | αὐτῶν βεβώτων ἐξ ὕπνου στῆναι τότε;
@@ -347,6 +358,8 @@ Acc. to *Homer. Hymn.* 29. 4 ff., feasts began and ended with libations to Hesti
 22 ἱἹστίῃ [greek] (Greek model: 1 Ἰστίῃ.) → Ἱστίῃ
 --- notes
 Structure: the draft had run the two columns together in 265/266 (the 266 heading lost); rewritten from the image: ## 266 (ποίας...δοκεῖς κ.τ.λ.) restored, ## 268 for "268 ff."; "μὲν is omitted" made a lemma paragraph after its dash. Words: Rep. 329 D, Xen. Hellen. 3. 1. 6, αὕτη ἡ, Tr. 134 f., Eur. Ph. 495, καὶ (draft kal), Ant. 898 f., Ph. 530 f., Eur. El. 319, ἅρματ’, ἐκφοιτᾷ, ἐν οἷς, *ib.* 939, Tr. 260, Il. 11. 774, ἐδόθη, Od. 14. 158, ἵν’ οὐ, Ἑστία.
+heading: 268 ff.
+265	rev: πέλει in plain type (the print's ordinary Greek, not the bold face)
 
 === p-0140
 ## 271
@@ -401,6 +414,7 @@ Brunck first adopted **αὐτοέντην** from the schol., in place of **α�
 23 émedar [latin] (Greek model: α5Ξ-: ἐπειδὰν) → as=ἐπειδὰν
 --- notes
 Structure: the draft had run the columns together in 274-275 (the 275 heading lost, "μιάστορι" inside 274): rewritten from the image, ## 275 (275 f.) restored; Brunck's paragraph rewritten (the draft's line order garbled); "ἡμὶν" made a lemma paragraph after its dash. Words: O. T. 107, φονεύς, H. F. 839, Suppl. 442, Med. 1269, *Mus. Crit.*, εὐθυντής, MSS., Ai. 957, *ib.* 1042, Ai. 650, Tr. 1178, εὕρῃ, *i.e.*, τῶν δρωμένων, of the month.
+heading: 275 f.
 
 === p-0141
 + by its coming to her in the course of each successive month (Bellermann). So, too, Wecklein, who suggests that εὑροῦσα expresses joy at the happy εὕρημα.
@@ -456,3 +470,5 @@ Argive tradition placed Agamemnon’s death on the 13th of Gamelion (about the e
 26 νψνοχάβ' [greek] (Greek model: ΟΤα5-) → words
 --- notes
 Structure: the draft had run the two columns together at the end of the 280 note (## 282 heading lost and its text mixed with Roscher's line); rewritten from the image: ## 282 restored with its lemma ἡ δύσμορος, "κατὰ στέγας" made a lemma paragraph after its dash, ## 283 (283 f.). Words: Legg. (draft "Lege."), Müller, vol. III., καὶ (draft kal), "(285)" (draft "(283)"), Laconia (draft "i in"), οἱ Ἀργολικοὶ, Zeus Sôter.
+heading: 280 f.
+heading: 283 f.

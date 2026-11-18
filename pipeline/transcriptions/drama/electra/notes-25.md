@@ -19,7 +19,7 @@ Editors from Brunck onwards have been nearly unanimous in accepting **ζῶντ�
 **πάρες κἂν σμικρὸν εἰπεῖν**. Here κἂν is most simply explained as καὶ ἐὰν, *sc.* παρῇς. Cp. Ar. *Ach.* 1021 μέτρησον εἰρήνης τί μοι, κἂν πέντ’ ἔτη, *sc.* μετρήσῃς. See Appendix.
 
 ## 1485
-**βροτῶν** is a partitive gen., on which θνήσκειν ὁ μέλλων depends (cp. Thuc. 4. 102 τῶν ἄλλων τὸν βουλόμενον, etc.) ; though the sense is not affected in
+**βροτῶν** is a partitive gen., on which θνήσκειν ὁ μέλλων depends (cp. Thuc. 4. 102 τῶν ἄλλων τὸν βουλόμενον, etc.); though the sense is not affected in
 --- flags
 1 676. [conf] → ok
 2 olktoas [latin] (Greek model: (Κμερίππηη). οἰκίσας.) → οἰκίσας
@@ -35,6 +35,10 @@ Editors from Brunck onwards have been nearly unanimous in accepting **ζῶντ�
 12 al [conf] → καὶ
 13 βροτῶν [conf] → ok
 --- notes
+heading: 1479 f.
+heading: 1482 f.
+heading: 1485 f.
+rev: page read through on the column images; "etc.) ;" closed up to "etc.);" (spaces before colons and semicolons closed, as in the other batches)
 
 === p-0295
 + a translation if it be rendered as a gen. absol.
@@ -45,12 +49,12 @@ Editors from Brunck onwards have been nearly unanimous in accepting **ζῶντ�
 
 **τοῦ χρόνου**, the time implied in μηκύνειν.
 
-Many recent critics follow Dindorf in suspecting or bracketing these two verses. Two things should be clearly recognised at the outset. First, that no suspicion is warranted by the fact that the scribe of L accidentally omitted these verses from the text,—as he also omitted several lines elsewhere which are undoubtedly genuine. Secondly, that in the language of these verses there is nothing to which exception can fairly be taken. If they are rejected, it must be on the ground that the thought which they express is inappropriate. But is it so? Aegisthus has appealed to mercy, asking for a brief respite. Electra fears that her brother may relent. What gain, she asks, would such a respite be, even to the doomed wretch himself? And her own feeling requires his instant death. It should be noted also that such a pair of verses, containing a general sentiment in an interrogative form, is Sophoclean ; cp. *Ai.* 475 τί γὰρ παρ’ ἦμαρ ἡμέρα τέρπειν ἔχει | προσθεῖσα κἀναθεῖσα τοῦ γε κατθανεῖν; also *Ant.* 463 f.
+Many recent critics follow Dindorf in suspecting or bracketing these two verses. Two things should be clearly recognised at the outset. First, that no suspicion is warranted by the fact that the scribe of L accidentally omitted these verses from the text,—as he also omitted several lines elsewhere which are undoubtedly genuine. Secondly, that in the language of these verses there is nothing to which exception can fairly be taken. If they are rejected, it must be on the ground that the thought which they express is inappropriate. But is it so? Aegisthus has appealed to mercy, asking for a brief respite. Electra fears that her brother may relent. What gain, she asks, would such a respite be, even to the doomed wretch himself? And her own feeling requires his instant death. It should be noted also that such a pair of verses, containing a general sentiment in an interrogative form, is Sophoclean; cp. *Ai.* 475 τί γὰρ παρ’ ἦμαρ ἡμέρα τέρπειν ἔχει | προσθεῖσα κἀναθεῖσα τοῦ γε κατθανεῖν; also *Ant.* 463 f.
 
 ## 1488
 **ταφεῦσιν**, birds and dogs: Aesch. *Th.* 1020 ὑπ’ οἰωνῶν... | ταφέντ’ ἀτίμως: see on *Ant.* 1081.
 
-**ἄποπτον ἡμῶν**, far from our sight; the gen. as after words of ‘distance from’ (*O. T.* 762 n.). Cp. *Od.* 3. 258, where Nestor says that, if Menelaüs on his return had found Aegisthus still living,—τῷ κέ οἱ οὐδὲ θανόντι χυτὴν ἐπὶ γαῖαν ἔχευαν, | ἀλλ’ ἄρα τόν γε κύνες τε καὶ οἰωνοὶ κατέδαψαν
+**ἄποπτον ἡμῶν**, far from our sight; the gen. as after words of ‘distance from’ (*O. T.* 762 n.). Cp. *Od.* 3. 258, where Nestor says that, if Menelaüs on his return had found Aegisthus still living,—τῷ κέ οἱ οὐδὲ θανόντι χυτὴν ἐπὶ γαῖαν ἔχευαν, | ἀλλ’ ἄρα τόν γε κύνες τε καὶ οἰωνοὶ κατέδαψαν |
 --- flags
 1 consequences.’ [conf] → ok
 2 avdpas [latin] (Greek model: (ἄνδραΞ)) → ἄνδρας
@@ -70,6 +74,8 @@ Many recent critics follow Dindorf in suspecting or bracketing these two verses.
 16 ἔχευαν, [conf] → ok
 --- notes
 κατέδαψαν: divided between this page and the next (κατ-|έδαψαν), written whole here.
+heading: 1488 f.
+rev: the printed verse divider after κατέδαψαν (the print has "κατ-|έδαψαν | κείμενον" across the page break) restored at the end of this page; "Sophoclean ;" closed up
 
 === p-0296
 + κείμενον ἐν πεδίῳ ἑκὰς ἄστεος. Pausan. 2. 16 § 7 Κλυταιμνήστρα δὲ ἐτάφη καὶ Αἴγισθος ὀλίγον ἀπωτέρω τοῦ τείχους, ἐντὸς δὲ ἀπηξιώθησαν, ἔνθα Ἀγαμέμνων τε αὐτὸς ἔκειτο καὶ οἱ σὺν αὐτῷ φονευθέντες.
@@ -78,7 +84,7 @@ Many recent critics follow Dindorf in suspecting or bracketing these two verses.
 **ἁγών**, *discrimen*, the issue: cp. *O. C.* 587: Eur. *Ph.* 588 μῆτερ, οὐ λόγων ἔθ’ ἁγών: *Or.* 1291 οὐχ ἕδρας ἀγών: Thuc. 3. 44 οὐ γὰρ περὶ τῆς ἐκείνων ἀδικίας ἡμῖν ὁ ἀγών, εἰ σωφρονοῦμεν, ἀλλὰ περὶ τῆς ἡμετέρας εὐβουλίας.
 
 ## 1494
-**πρόχειρος..κτανεῖν**. In its primary and usual sense, πρόχειρος denotes what is ready in the hand (1116). Here it passes into a wholly different sense, applied to a person whose hand is ‘forward’ or ready, as πρόθυμος is one whose spirit is forward. Cp. Eur. *H. F.* 161 τῇ φυγῇ πρόχειρος ἦν, ‘prompt *for flight*’ (=φεύγειν), where Wilamowitz illustrates the dat. by Pind. *O.* 4. 14 τροφαῖς ἕτοιμον ἵππων.
+**πρόχειρος..κτανεῖν**. In its primary and usual sense, πρόχειρος denotes what is ready in the hand (1116). Here it passes into a wholly different sense, applied to a person whose hand is ‘forward’ or ready, as πρόθυμος is one whose spirit is forward. Cp. Eur. *H. F.* 161 τῇ φυγῇ πρόχειρος ἦν, ‘prompt *for* flight’ (=φεύγειν), where Wilamowitz illustrates the dat. by Pind. *O.* 4. 14 τροφαῖς ἕτοιμον ἵππων.
 
 ## 1495
 **μὴ τάσσε**: cp. *Ant.* 664 τοὐπιτάσσειν τοῖς κρατύνουσιν: Eur. fr. 690 τάσσειν δὲ μᾶλλον ἢ ’πιτάσσεσθαι θέλοις.
@@ -120,9 +126,11 @@ Aegisthus means: ‘Must this house witness, not only those sorrows of our famil
 --- notes
 Two printed lines of note 1494 were interleaved in the draft ("denotes Here what it passes is ready into in a the wholly hand diffrent"); rewritten from the image.
 emphatic: divided between this page and the next (em-|phatic), written whole here.
+heading: 1497 f.
+rev: 1494 "‘prompt *for flight*’" → "‘prompt *for* flight’" (only "for" is italic in the print)
 
 === p-0297
-+ is elided ; see on *O. T.* 64 πόλιν τε κἀμὲ καὶ σ’ ὁμοῦ στένει.
++ is elided; see on *O. T.* 64 πόλιν τε κἀμὲ καὶ σ’ ὁμοῦ στένει.
 
 **ἄκρος**: cp. Aesch. *Ag.* 1130 οὐ κομπάσαιμ’ ἂν θεσφάτων γνώμων ἄκρος | εἶναι.
 
@@ -133,12 +141,12 @@ emphatic: divided between this page and the next (em-|phatic), written whole her
 Cp. *O. C.* 1628 πάλαι δὴ τἀπὸ σοῦ βραδύνεται.
 
 ## 1502
-The double change of person within the verse (Or.—Aeg.—Or.) is rare. As G. Wolff observes, there is no instance of it in Aesch. ; in Soph. the only other examples occur in the two latest plays, *O. C.* 832, *Ph.* 810, 814, 816, at moments of high excitement. A triple change within the verse occurs only once, in *Ph.* 753. This is another point which bears on the date of the *Electra*: cp. 1160 n.
+The double change of person within the verse (Or.—Aeg.—Or.) is rare. As G. Wolff observes, there is no instance of it in Aesch.; in Soph. the only other examples occur in the two latest plays, *O. C.* 832, *Ph.* 810, 814, 816, at moments of high excitement. A triple change within the verse occurs only once, in *Ph.* 753. This is another point which bears on the date of the *Electra*: cp. 1160 n.
 
 **ἕρφ’**. The word is always so written here, as if Orestes could foresee that Aegisthus would utter an aspirated word. Similar instances occur elsewhere: see Appendix. In the theatre, we must suppose, the actor said ἕρπε at full length: and possibly the poet so wrote it.
 
 ## 1503
-**ἦ μὴ φύγω σε**; ‘(dost thou do this), lest..?’ Cp. *O. T.* 1012 ἦ μὴ μίασμα τῶν φυτευσάντων λάβῃς ;
+**ἦ μὴ φύγω σε**; ‘(dost thou do this), lest..?’ Cp. *O. T.* 1012 ἦ μὴ μίασμα τῶν φυτευσάντων λάβῃς;
 
 **μὲν οὖν**: *O. T.* 705.
 
@@ -174,6 +182,8 @@ The imperf. **χρῆν**, with **εἶναι**, implies that, though it ought t
 --- notes
 "bears" (1502): the print shows "bcars", an e whose bar has broken off (worn type); written "bears".
 ἕρφ’ and ἕρπε (1502): the breathing is small and blurred in the scan; written rough, as the verb (ἕρπω) has it.
+heading: 1503 f.
+rev: spaces before semicolons closed ("is elided;", "Aesch.;", "λάβῃς;"); otherwise no change
 
 === p-0298
 + should wish’; and could follow a present, χρή, no less than χρῆν (cp. *Ant.* 666).
@@ -209,7 +219,7 @@ Nicephorus Vasilákes (Βασιλάκης), a professor of rhetoric at Constanti
 **ὦ σπέρμ’ Ἀτρέως**. The dynasty of the Atreidae (δεσπόται οἱ πάλαι, 764) is about to be restored in the person of the rightful heir, Orestes (162), who displaces the usurper Aegisthus, the representative of the Thyestidae.
 
 ## 1509
-**δι’ ἐλευθερίας..ἐξῆλθες**, come forth *in* freedom. For **διά** denoting the state, cp. Thuc. 6. 34 § 2 ἀεὶ διὰ φόβου εἰσί. The phrase here is in one respect peculiar. When the verb denotes *motion*, διά in this idiom usu. denotes a course of action, and not a state; *e.g.*, Thuc. 6. 60 § 3 διὰ δίκης ἐλθεῖν, Her. 6. 9 διὰ μάχης ἐλεύσονται: see on *Ant.* 742.
+**δι’ ἐλευθερίας..ἐξῆλθες**, come forth *in* freedom. For διά denoting the state, cp. Thuc. 6. 34 § 2 ἀεὶ διὰ φόβου εἰσί. The phrase here is in one respect peculiar. When the verb denotes *motion*, διά in this idiom usu. denotes a course of action, and not a state; *e.g.*, Thuc. 6. 60 § 3 διὰ δίκης ἐλθεῖν, Her. 6. 9 διὰ μάχης ἐλεύσονται: see on *Ant.* 742.
 
 ## 1510
 **ὁρμῇ**, the enterprise of the avengers against the tyrants. Cp. Xen. *An.* 3. 1. 10 οὐ γὰρ ᾔδει τὴν ἐπὶ βασιλέα ὁρμήν (‘the purpose to attack him’).
@@ -229,3 +239,4 @@ This play contains no presage of trouble to come, and fitly ends with the word �
 9 τελεοῦν [greek] → ok
 --- notes
 "the forms without ι" (1510): the letter iota named alone, printed without a breathing; kept as printed.
+rev: 1509 "For **διά** denoting" → plain διά (the print has the ordinary italic Greek, not the bold type); the checker's remark on "ι" is this letter named alone (explained above)
