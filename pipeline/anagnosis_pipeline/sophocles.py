@@ -839,7 +839,15 @@ def write_prose(slug: str, sources: Path, texts: Path, transcriptions: Path, ind
     # a play whose commentary is read from Jebb's page (COMMENTARY_FROM_PAGE): the checked notes
     # batches make commentary-jebb.md once they are all checked; until then Perseus's stays
     from_page = slug in COMMENTARY_FROM_PAGE and write_transcribed_commentary(slug, texts, transcriptions, index_dir) > 0
-    if from_page:
+    page_marks, mark_remarks = page_ff_marks(transcriptions) if from_page else ({}, [])
+    if from_page and page_marks:
+        # the readers recorded Jebb's f./ff. from the page (`heading:` lines): they are the source,
+        # the OCR sources are not used for this play
+        for r in mark_remarks:
+            print(r)
+        print(f"{slug} commentary: f./ff. marks from the readers' heading: lines: "
+              f"{apply_page_ff_marks(out / 'commentary-jebb.md', page_marks)} headings")
+    elif from_page:
         ff_marks()
         # what the scan's OCR text did not give, from our own OCR of the commentary's pages
         from .drama import PLAYS as DRAMA
@@ -1779,6 +1787,56 @@ def refile_notes(text: str, lines: dict[str, str],
             out.append([new_heading, body])
     lines_out = head + [l for heading, body in out for l in [heading, *body]]
     return "\n".join(lines_out), moves
+
+
+def page_ff_marks(transcriptions: Path) -> tuple[dict[str, str], list[str]]:
+    """Jebb's "f." / "ff." after a note's number as the readers recorded them from the page: lines
+    `heading: 27 f.` / `heading: 121 ff.` under a page's `--- notes` in the notes batches (the
+    number as in the `## ` line). Returns {number: "f." or "ff."} and remarks: a line whose number
+    is no heading of its page, or two lines that disagree."""
+    marks: dict[str, str] = {}
+    remarks: list[str] = []
+    for path in sorted(transcriptions.glob("notes-*.md")):
+        stem, section, heads = None, None, set()
+        for line in path.read_text(encoding="utf-8").splitlines():
+            m = re.match(r"^=== (p-\d+)", line)
+            if m:
+                stem, section, heads = m.group(1), "md", set()
+                continue
+            if line.startswith("--- "):
+                section = line[4:].strip()
+                continue
+            if section == "md":
+                h = re.match(r"^## (\d+[a-z]?(?:-\d+[a-z]?)?)\s*$", line)
+                if h:
+                    heads.add(h.group(1))
+            elif section == "notes":
+                h = re.match(r"^heading:\s*(\d+[a-z]?(?:-\d+[a-z]?)?)\s+(ff?\.)\s*$", line.strip())
+                if not h:
+                    continue
+                n, mark = h.groups()
+                if n not in heads:
+                    remarks.append(f"{path.name} {stem}: heading: {n} {mark} names no heading of the page")
+                if n in marks and marks[n] != mark:
+                    remarks.append(f"{path.name} {stem}: heading: {n} {mark} against {marks[n]} elsewhere")
+                marks[n] = mark
+    return marks, remarks
+
+
+def apply_page_ff_marks(md_path: Path, marks: dict[str, str]) -> int:
+    """The marks of page_ff_marks on the headings of a commentary written from the batches."""
+    text = md_path.read_text(encoding="utf-8")
+    count = 0
+
+    def put(m: re.Match) -> str:
+        nonlocal count
+        if m.group(1) in marks:
+            count += 1
+            return f"## {m.group(1)} {marks[m.group(1)]}"
+        return m.group(0)
+
+    md_path.write_text(re.sub(r"(?m)^## (\d+[a-z]?(?:-\d+[a-z]?)?)$", put, text), encoding="utf-8")
+    return count
 
 
 def file_at_half_lines(work_dir: Path) -> list[str]:
