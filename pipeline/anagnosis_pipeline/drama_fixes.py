@@ -766,6 +766,8 @@ LEMMA_FIXES: dict[str, dict[str, str]] = {
         # dictionaries' headword or given in the middle (the review of the lemmas no dictionary has;
         # pipeline/PLAN-lysias.md)
         "οὐτε": "οὔτε",
+        # the trees of speeches 1 and 14 give these three their grave from the running text (39 words)
+        "καὶ": "καί", "δὲ": "δέ", "μὴ": "μή",
         "ἀλλὰ": "ἀλλά",
         "ψηφίζομαι": "ψηφίζω",
         "παίδιον": "παιδίον",
