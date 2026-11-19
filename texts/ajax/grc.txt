@@ -1,7 +1,7 @@
 # title: Αἴας
 # author: Σοφοκλῆς
 # lang: grc
-# source: Sophocles: The Plays and Fragments, Part VII: The Ajax, ed. R. C. Jebb, Cambridge University Press, 1896; read from the Internet Archive scan playsfragmentswi07sophuoft by OCR, matched word by word to Jebb's text in the Perseus Digital Library (soph.aj_gk.xml), and checked against the scan where the two disagreed
+# source: Sophocles: The Plays and Fragments, Part VII: The Ajax, ed. R. C. Jebb, Cambridge University Press, 1896; read from the Internet Archive scan playsfragmentswi07sophuoft by OCR and checked against the page images by AI agents, every verse, in two readings (2026)
 # edition: Sophocles: The Plays and Fragments, Part VII: The Ajax, ed. R. C. Jebb, Cambridge University Press, 1896
 # license: CC BY-SA 4.0 (transcription; the edition is in the public domain)
 # syntax-text: the Perseus Digital Library's text of the play (F. Storr's Loeb edition, 1913)

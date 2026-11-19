@@ -146,6 +146,10 @@ class Play:
     # the reading voice's pronunciation (grc.txt's "pronunciation" key: homeric, attic, koine);
     # "" = the reader's default (Attic for every author but Homer)
     pronunciation: str = ""
+    # how the Greek text was read, where it was not the usual way (OCR matched to a check text,
+    # the page looked at where the two disagreed): the three plays on sale, every verse of which
+    # was read against the page image in two readings (2026-11-17). Stands in grc.txt's source line
+    text_how: str = ""
     # how a note begins in the commentary: the line number (group 1), a range end (group 2)
     note_start: str = r"^(?:l{1,2}\.\s*)?(\d{1,4})(?:\s*[-–—]\s*(\d{1,4}))?(?:\s*f{1,2}\.|\s*sqq?\.)?[.,:]?(?=\s|$)"
     speakers: dict[str, str] = field(default_factory=dict)   # the translation's names -> Greek (Perseus) names
@@ -529,6 +533,7 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          "sophocles03soph", "jebb", "R. C. Jebb", "sophocles_antigone_jebb",
          treebank="tlg0011.tlg002.perseus-grc2.tb.xml", translation="kept", translator="Richard C. Jebb", trans_key="jebb", layout="jebb", app_rule="under", head_frac=0.095, speaker_trust=True, app_langs=("eng+grc", "grc+eng"),
          check_text="sophocles/antigone/reference-grc.txt",
+         text_how="and checked against the page images by AI agents, every verse, in two readings (2026)",
          # leaf = PDF page (leaves 0 and 365 hidden; Boston College, grey ground, a reader's pencil and
          # ink notes and underlining on some pages): the Greek on the even leaves 76-306 (pp. 8-238),
          # Jebb's translation facing it; the Appendix from leaf 310 (p. 242; 308 blank, 309 its
@@ -552,6 +557,7 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          "playsfragmentswi07sophuoft", "jebb", "R. C. Jebb", "sophocles_ajax_jebb",
          treebank="tlg0011.tlg003.perseus-grc1.tb.xml", translation="kept", translator="Richard C. Jebb", trans_key="jebb", layout="jebb", app_rule="under", head_frac=0.095, speaker_trust=True, app_langs=("eng+grc", "grc+eng"),
          check_text="sophocles/ajax/reference-grc.txt",
+         text_how="and checked against the page images by AI agents, every verse, in two readings (2026)",
          # the fourth episode (974) begins 13 verses after the check text's section (961: Tecmessa's
          # speech, which Jebb counts in the kommos 879-973)
          parts_window=14,
@@ -566,6 +572,7 @@ PLAYS: dict[str, Play] = {p.slug: p for p in [
          "sophoclesplaysfr06soph", "jebb", "R. C. Jebb", "sophocles_electra_jebb",
          treebank="tlg0011.tlg005.perseus-grc2.tb.xml", translation="kept", translator="Richard C. Jebb", trans_key="jebb", layout="jebb", app_rule="under", head_frac=0.095, speaker_trust=True, app_langs=("eng+grc", "grc+eng"),
          check_text="sophocles/electra/reference-grc.txt",
+         text_how="and checked against the page images by AI agents, every verse, in two readings (2026)",
          # leaf = PDF page (University of Florida, reprint 1907 of the 1894 edition; leaves 0 and 345-349
          # hidden): the Greek on the even leaves 102-298 (pp. 6-202), the translation facing it.
          # notes_leaves: Jebb's commentary (kind notes) under the rule of every leaf 102-299, both
@@ -1878,8 +1885,8 @@ def merge_play(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path
         before.setdefault(at, []).append(Section(level, kind, label))
     meta = {
         "title": play.title, "author": play.author, "lang": "grc",
-        "source": f"{play.edition}; read from the Internet Archive scan {play.scan} by OCR, matched word by word to "
-                  f"{check_text_name(play)}, and checked against the scan where the two disagreed",
+        "source": f"{play.edition}; read from the Internet Archive scan {play.scan} by OCR" + (f" {play.text_how}" if play.text_how else
+                  f", matched word by word to {check_text_name(play)}, and checked against the scan where the two disagreed"),
         "edition": play.edition,
         "license": play.text_license,
     }

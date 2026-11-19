@@ -47,6 +47,7 @@ GREEK_META = {
     "layout": "prose",
     # the order of the dictionary buttons on the word sheet: the New Testament's own first
     "dictionaries": "abbott-smith dodson ml lsj",
+    "pronunciation": "koine",
 }
 APPARATUS_META = {
     "title": "Apparatus (SBL Greek New Testament)",
@@ -481,7 +482,10 @@ def import_nt(sources: Path, texts: Path, build: Path, slug: str = "newtestament
     (out / "commentary-sbl-apparatus.md").write_text("\n".join(md), encoding="utf-8")
     print(f"wrote {out / 'commentary-sbl-apparatus.md'}: {len(notes)} verses, {sum(len(i) for _, i in notes)} notes")
     (out / "sigla.md").write_text(SIGLA_DOC, encoding="utf-8")
-    (out / "about.md").write_text(ABOUT, encoding="utf-8")
+    # about.md is kept by hand once it exists (its catalogue headers and the description say
+    # where every part comes from): the importer only writes a first one
+    if not (out / "about.md").exists():
+        (out / "about.md").write_text(ABOUT, encoding="utf-8")
 
     # --- the Berean Standard Bible, a paragraph wherever the Greek begins one
     bsb = read_bsb(sources)

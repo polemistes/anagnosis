@@ -1,7 +1,7 @@
 # title: Ἠλέκτρα
 # author: Σοφοκλῆς
 # lang: grc
-# source: Sophocles: The Plays and Fragments, Part VI: The Electra, ed. R. C. Jebb, Cambridge University Press, 1894; read from the Internet Archive scan sophoclesplaysfr06soph by OCR, matched word by word to Jebb's text in the Perseus Digital Library (soph.el_gk.xml), and checked against the scan where the two disagreed
+# source: Sophocles: The Plays and Fragments, Part VI: The Electra, ed. R. C. Jebb, Cambridge University Press, 1894; read from the Internet Archive scan sophoclesplaysfr06soph by OCR and checked against the page images by AI agents, every verse, in two readings (2026)
 # edition: Sophocles: The Plays and Fragments, Part VI: The Electra, ed. R. C. Jebb, Cambridge University Press, 1894
 # license: CC BY-SA 4.0 (transcription; the edition is in the public domain)
 # syntax-text: the Perseus Digital Library's text of the play (F. Storr's Loeb edition, 1913)

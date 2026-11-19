@@ -14,3 +14,5 @@
 # free: yes
 
 The Greek text of the Shepherd of Hermas in Kirsopp Lake's Loeb edition, with his critical apparatus and his translation, the notes to the translation by Lake and by Charles Taylor (they explain the English version, not the Greek text), both translators' introductions and Taylor's essay on Hermas and the Gospels, the end of the book in the Latin version with the Greek of the papyri, and the Abbott-Smith and Liddell–Scott dictionaries. Tap any word for its meaning and form. The analysis of each sentence's syntax is automatic (GLAUx) and has not been checked by hand.
+
+The Greek text, the critical apparatus and Taylor's notes were read from scans of the printed books by OCR and checked against the page images by AI models. Lake's translation and his notes to it are the Perseus Digital Library's digital text.
