@@ -1,6 +1,8 @@
 # title: Manuscripts and sigla
-# source: A. Rzach, Hesiodi carmina, Leipzig, Teubner, 1908, "Notae librorum" (p. 2) and Praefatio (pp. III-V); transcribed from the Internet Archive scan hesiodicarminare00hesi
-# license: CC BY-SA 4.0 (transcription; the edition is in the public domain)
+# source: an explanation by Anagnosis, put together from A. Rzach, Hesiodi carmina, Leipzig, Teubner, 1908, "Notae librorum" (p. 2) and Praefatio (pp. III-V) (Internet Archive scan hesiodicarminare00hesi)
+# license: CC BY-SA 4.0 (this explanation)
+
+[Anagnosis: this page is the app's own explanation of the signs in the critical apparatus, put together from Rzach's "Notae librorum" and Praefatio, which are in Latin. It is not a page of Rzach's edition.]
 
 Rzach's critical apparatus stands at the foot of each page of the text, in Latin. Each item begins with the number of the line it concerns; where a reading of the text is not that of all the manuscripts, the apparatus gives the others and their sigla, and it names the scholars whose corrections or deletions are recorded ("215 ἧς scripsi, αἷς libri": Rzach's own correction; the manuscripts read αἷς). Lines he holds to be interpolated are printed in square brackets in the text; a dagger † marks a passage he thinks corrupt. In the preface he says that the manuscripts and the other evidence are described in full in the preface of his larger edition of 1902, and repeats here only what matters most about the best manuscripts and papyri.
 

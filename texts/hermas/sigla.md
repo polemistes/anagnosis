@@ -1,6 +1,8 @@
 # title: Manuscripts and sigla
-# source: K. Lake, The Apostolic Fathers, vol. II, Loeb Classical Library, London, Heinemann, 1913 (reprinted 1917), the introduction to the Shepherd (pp. 2-5) and the critical apparatus at the foot of the Greek pages; transcribed from the Internet Archive scan apostolicfathers02lakeuoft
-# license: CC BY-SA 4.0 (transcription; the edition is in the public domain)
+# source: an explanation by Anagnosis, put together from K. Lake, The Apostolic Fathers, vol. II, Loeb Classical Library, London, Heinemann, 1913 (reprinted 1917), the introduction to the Shepherd (pp. 2-5) and the critical apparatus at the foot of the Greek pages (Internet Archive scan apostolicfathers02lakeuoft)
+# license: CC BY-SA 4.0 (this explanation)
+
+[Anagnosis: this page is the app's own explanation of the signs in the critical apparatus, put together from Lake's introduction to the Shepherd and his critical apparatus. It is not a page of Lake's edition.]
 
 Lake's critical apparatus stands at the foot of each Greek page, in small type. Its items are numbered afresh on each page, and each answers a small raised numeral after a word of the text; the app drops the numbers and files each item under its verse. An item gives the reading of the text and the witnesses that have it, then the other readings with theirs ("τόπῳ ℵ\* L₁, τρόπῳ ℵᶜ AL₂(E)": ℵ in its first hand and the Vulgate Latin read τόπῳ; ℵ corrected, A, the Palatine Latin and, loosely, the Ethiopic read τρόπῳ). Where only the Latin or Ethiopic preserves a passage that A lacks, Lake translates it back into Greek and prints it in the text; the apparatus then says "retranslated from LE". He writes the readings of the versions in Latin (L) or gives them in English (E), and adds short remarks in English. The list of witnesses below is his (pp. 3-5), one paragraph to a witness, with what his apparatus adds; the abbreviations are explained from their use.
 

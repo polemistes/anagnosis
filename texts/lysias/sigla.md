@@ -1,6 +1,8 @@
 # title: Manuscripts and sigla
-# source: C. Hude, Lysiae orationes, Oxford, Clarendon Press, 1912: the page SIGLA before the text, and the Praefatio (pp. iii–x); transcribed from the Internet Archive scan orationesrecogno00lysi
-# license: CC BY-SA 4.0 (transcription; the edition is in the public domain)
+# source: an explanation by Anagnosis, put together from C. Hude, Lysiae orationes, Oxford, Clarendon Press, 1912: the page SIGLA before the text, and the Praefatio (pp. iii–x) (Internet Archive scan orationesrecogno00lysi)
+# license: CC BY-SA 4.0 (this explanation)
+
+[Anagnosis: this page is the app's own explanation of the signs in the critical apparatus, put together from Hude's page SIGLA and his Praefatio, which are in Latin. It is not a page of Hude's edition.]
 
 Hude's critical apparatus stands at the foot of each page of his text, in Latin. In the print each item begins with the number of the line of the page it concerns; the app leaves these numbers out and files each item under the section that holds the word it speaks of. An item gives the reading of the text, then who has it, then after a colon the other readings ("εἴητε marg. Ald.: εἰ ἦτε C H X"); an item without a colon reports a variant or a conjecture that Hude does not adopt ("ἀποδεῖξαι Herwerden").
 

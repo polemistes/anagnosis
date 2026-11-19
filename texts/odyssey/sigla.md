@@ -1,8 +1,8 @@
 # title: Manuscripts and sigla
-# source: Homeri Opera III, ed. T. W. Allen, editio altera, Oxford 1917, Praefatio (list of witnesses and families); transcribed from the Internet Archive scan homeriopera03home
+# source: Homeri Opera III, ed. T. W. Allen, editio altera, Oxford 1917, Praefatio (list of witnesses and families); transcribed from the Internet Archive scan homeriopera03home. The lines in brackets beginning "Anagnosis:" are the app's, not Allen's
 # license: CC BY-SA 4.0 (transcription; the edition is in the public domain)
 
-These are the manuscripts, papyri and families of manuscripts cited in Allen's critical apparatus, with the other abbreviations it uses, as he lists them in his preface; s. is the century, a. the year, and cont. the books and lines a witness contains.
+[Anagnosis: These are the manuscripts, papyri and families of manuscripts cited in Allen's critical apparatus, with the other abbreviations it uses, as he lists them in his preface; s. is the century, a. the year, and cont. the books and lines a witness contains.]
 
 *Codicum index*
 
