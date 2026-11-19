@@ -10,9 +10,9 @@ Anagnosis Ancient Greek Reader
 
 Free ancient Greek dictionaries (LSJ) and parser. Buy Greek texts in the app.
 
-## Full description (2905)
+## Full description (3736)
 
-Anagnosis is an app for reading ancient Greek texts. It provides ancient Greek dictionaries, among them LSJ and the Middle Liddell, and a parser for morphological analysis, all free. Ancient Greek texts can be bought and read inside the app. The dictionaries cover Homeric Greek, Attic Greek and Koine Greek, which includes Biblical Greek and New Testament Greek. The texts come with a critical apparatus, syntax of sentences, a translation and a commentary for each available text (the Greek New Testament does not have a commentary yet). The app has a powerful search engine, and texts can be read aloud in ancient pronunciation.
+Anagnosis is an app for reading ancient Greek texts. It provides ancient Greek dictionaries, among them LSJ and the Middle Liddell, and a parser for morphological analysis, all free. The dictionaries cover Homeric Greek, Attic Greek and Koine Greek, which includes Biblical Greek and New Testament Greek. Anagnosis comes with three free example texts. Other texts can be bought in the app. Most texts come with a critical apparatus, syntax of sentences, a translation and a commentary for each available text. See the description of each text to see what it includes. The app has a powerful search engine, and texts can be read aloud in ancient pronunciation.
 
 DICTIONARIES (Free)
 
@@ -22,15 +22,23 @@ DICTIONARIES (Free)
 • Abbott-Smith, A Manual Greek Lexicon of the New Testament (1922)
 • Woodhouse, English-Greek Dictionary (1910)
 
+FREE TEXTS
+
+• Theogony by Hesiod, Alois Rzach's Teubner edition and critical apparatus (1908), H. G. Evelyn-White's translation (1914) and F. A. Paley's commentary (1883)
+• The Speeches of Lysias, all thirty-four, in Karl Hude's Oxford edition with its apparatus (1912), English translations of twenty-six speeches (1898, and John Gillies, 1778) and commentaries on nineteen (Adams 1905, Morgan 1895, Shuckburgh 1882)
+• The Shepherd of Hermas, Kirsopp Lake's Greek text, apparatus and translation (1913), with notes to the translation by Lake and by Charles Taylor (1903, 1906)
+
+Each free text is downloaded from Available texts in the app.
+
 TEXTS AVAILABLE (Buy in app)
 
 • The Greek New Testament (GNT), in the SBL edition (2010), with its apparatus and the Berean Standard Bible translation (2023)
 • The Odyssey by Homer, T. W. Allen's Oxford edition and apparatus (1917–1919), A. T. Murray's translation (1919) and the commentary of Merry and Riddell (1886) and Monro (1901)
 • Symposium by Plato, John Burnet's Oxford Greek text and apparatus (1901), Benjamin Jowett's translation (1892) and R. G. Bury's commentary (1909)
 • Gorgias by Plato, John Burnet's Oxford Greek text and apparatus (1903), Benjamin Jowett's translation (1892) and Gonzalez Lodge's commentary (1890)
-• Antigone by Sophocles, R. C. Jebb's edition with his translation and critical apparatus (1891) and his commentary (1900)
-• Ajax by Sophocles, R. C. Jebb's edition with his translation, critical apparatus and commentary (1896)
-• Electra by Sophocles, R. C. Jebb's edition with his translation, critical apparatus and commentary (1894)
+• Antigone by Sophocles, R. C. Jebb's edition with his critical apparatus and commentary (1891), his introduction (1900) and his translation, modernised by the Perseus Digital Library
+• Ajax by Sophocles, R. C. Jebb's edition with his critical apparatus and commentary (1896) and his translation, modernised by the Perseus Digital Library
+• Electra by Sophocles, R. C. Jebb's edition with his critical apparatus and commentary (1894) and his translation, modernised by the Perseus Digital Library
 
 Each text is bought inside the app; it is then downloaded and appears on the front page of Anagnosis.
 
