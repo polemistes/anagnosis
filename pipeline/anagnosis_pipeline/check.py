@@ -127,15 +127,14 @@ def check_work(work_dir: Path, lexicon_keys: dict[str, set[str]] | None, sources
     # short definitions: the short-form dictionary's (Logeion's list) or none. No definition is
     # written by us (texts/README.md, "Short definitions"), so a lemma without one is neither an
     # error nor a warning: they are counted, not listed for anyone to fill in
-    from .build import _cased_key, capitalised_lemmas, load_logeion_shortdefs, read_aliases, read_shortdef_overrides, short_definition_of
+    from .build import SHORTDEF_PAIRS, _cased_key, capitalised_lemmas, load_logeion_shortdefs, read_shortdef_pairs, short_definition_of
     exact, loose = load_logeion_shortdefs(sources)
     capitals = capitalised_lemmas((t["form"], t["lemma"]) for t in tokens)
-    overrides = read_shortdef_overrides(work_dir / "shortdefs.tsv")
-    aliases = read_aliases(work_dir / "aliases.tsv")
+    pairs = read_shortdef_pairs(SHORTDEF_PAIRS)
     # by the lemma as the text spells it (a name and a common word are two lemmas), as build does;
     # Logeion's homograph lists are left out here, so a lemma they alone define counts as without
     counts = collections.Counter(_cased_key(t["lemma"]) for t in tokens if t["lemma"])
-    no_short = {l: c for l, c in counts.items() if short_definition_of(l, exact, loose, capitals, overrides, aliases) is None}
+    no_short = {l: c for l, c in counts.items() if short_definition_of(l, exact, loose, capitals, pairs) is None}
     print(f"  short definitions: {len(counts) - len(no_short)}/{len(counts)} lemmas have one; "
           f"{len(no_short)} have none ({sum(no_short.values())} words): the short dictionary lacks them, "
           f"the word sheet shows none (none is to be written)")

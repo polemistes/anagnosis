@@ -359,7 +359,7 @@ def read_bsb(sources: Path) -> dict[str, str]:
 # ---------------------------------------------------------------- import
 
 def import_nt(sources: Path, texts: Path, build: Path, slug: str = "newtestament") -> int:
-    from .build import load_lexica, load_logeion_shortdefs, resolve_short_definition
+    from .build import load_lexica
     from .import_perseus import write_tokens
 
     out = texts / slug
@@ -465,30 +465,13 @@ def import_nt(sources: Path, texts: Path, build: Path, slug: str = "newtestament
             dictionary += [f"## {lemma}", f"**{d['orth']}** {d['full']}", ""]
     (out / "dictionary-dodson.md").write_text("\n".join(dictionary), encoding="utf-8")
     (out / "glossary.md").unlink(missing_ok=True)
-    # short definitions: Logeion's, else the brief gloss of Dodson's own entry, unchanged (the
-    # column "English Definition (brief)" of his lexicon); for a lemma LSJ lacks (mostly names)
-    # always Dodson's, since Logeion might only match it loosely (Ἠλίας, ἡλιάς). A lemma that
-    # neither has gets none: no definition is written by us (texts/README.md)
-    exact, loose = load_logeion_shortdefs(sources)
-    shortdefs = ["# Short definitions from Dodson's lexicon where Logeion has none, or the word is not in LSJ (made by 'import-nt'). lemma\tdefinition"]
-    missing_set = set(missing)
-    no_entry = []
-    for lemma in sorted(counts):
-        if lemma not in missing_set and resolve_short_definition(lemma, exact, loose) is not None:
-            continue
-        if lemma in aliases and resolve_short_definition(aliases[lemma], exact, loose) is not None:
-            continue
-        d = dodson_of(lemma)
-        if d is not None and d["brief"]:
-            shortdefs.append(f"{lemma}\t{d['brief']}")
-        else:
-            no_entry.append(lemma)
-    (out / "shortdefs.tsv").write_text("\n".join(shortdefs) + "\n", encoding="utf-8")
+    # short definitions: Logeion's own entry of the word, or none (texts/README.md, "Short
+    # definitions"). Until 2026-11-19 Dodson's brief glosses filled Logeion's gaps here
+    # (shortdefs.tsv, 802 lemmas); Dodson is read under his own button now, and the file is gone
+    (out / "shortdefs.tsv").unlink(missing_ok=True)
     print(f"lemmas: {len(counts)}; {len(aliases)} found under another headword (aliases.tsv), "
           f"{len(missing)} not in LSJ or Middle Liddell ({sum(counts[l] for l in missing)} words), "
-          f"{len(dictionary) // 3} entries of Dodson (dictionary-dodson.md), "
-          f"{len(shortdefs) - 1} short definitions from Dodson (shortdefs.tsv), "
-          f"{len(no_entry)} without a short definition (neither Logeion nor Dodson has the lemma): {no_entry[:20]}")
+          f"{len(dictionary) // 3} entries of Dodson (dictionary-dodson.md)")
 
     # --- the apparatus and its sigla
     notes = read_apparatus(sources)

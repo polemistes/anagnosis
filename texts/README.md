@@ -210,8 +210,17 @@ https://github.com/helmadik/shortdefs), and only the entry of the word itself
   breathing, can be another word and is not matched (καλῶς is not κάλως, "a reefing rope");
 * a lemma written small by its treebank (ζεύς in the Sophocles trees) takes the name's entry
   where the text prints every one of its words with a capital;
-* a lemma with none of its own that `aliases.tsv` files under a headword takes that headword's
-  entry, a name a name's and a common word a common word's.
+* else the entry the author himself has chosen for the word, pair by pair, in
+  `pipeline/shortdef-pairs.tsv` (`lemma<TAB>Logeion's entry`): a word the list spells otherwise
+  (Ἔρως, the god, under ἔρως; σάββατον under Σάββατον) or files under another headword. The
+  definition shown is Logeion's, unchanged. Only he adds a pair: `shortdef-choices list` writes
+  him the candidates of the texts on offer with a box each
+  (`private/SHORT-DEFINITIONS-TO-CHOOSE.md`), `shortdef-choices apply` enters the pairs he ticked.
+
+Until 2026-11-19 a lemma with no entry of its own took the entry of the headword `aliases.tsv`
+files it under (πορεύομαι showed πορεύω's "to make to go, carry, convey"). That borrowing is
+gone: `aliases.tsv` only finds the dictionary entry now; such a pair shows a definition only if
+the author has ticked it.
 
 What these rules changed in the texts offered, lemma by lemma, is in
 `pipeline/build/logs/shortdef-rule-measure.md` (not in the repository).
@@ -224,11 +233,10 @@ a text is reported to the author, not replaced. A lemma without a short definiti
 error nor a warning of `check`, which only counts them.
 
 Until 2026-11-17 every text had a file `shortdefs.tsv` (`lemma<TAB>definition`) with glosses
-written by agents; all are removed. One such file is left, `texts/newtestament/shortdefs.tsv`,
-which `import-nt` writes: the brief gloss of Dodson's own entry, unchanged, for 802 lemmas. The
-author has said that these leave the short-definition line too (Dodson's lexicon is read under
-its own button); until the file is removed the build reads it. No other `shortdefs.tsv` is to be
-made.
+written by agents; all are removed. The last one, the New Testament's (the brief gloss of
+Dodson's own entry for 802 lemmas Logeion lacks, written by `import-nt`), went on 2026-11-19 by
+the author's word: Dodson's lexicon is read under its own button, like any other dictionary. No
+`shortdefs.tsv` is to be made, and the build reads none.
 
 **Homographs.** Where Logeion lists words spelled alike (μήν "now verily", μήν2 "month"; its
 placeholders "[lexical cite]" left out), the word sheet shows all of them, numbered, and marks
@@ -651,8 +659,8 @@ Every file here is made by `import-nt` from the sources `fetch-nt` downloads; ed
   (ἀποκρίνομαι to ἀποκρίνω, γινώσκω to γιγνώσκω); `dictionary-dodson.md` is J. J. Dodson's
   *A Lexicon of the Greek New Testament* (CC0) under the lemmas it is linked to by Strong's
   number, a dictionary that only the New Testament carries (Dodson's entries only: a lemma he
-  lacks has none); `shortdefs.tsv` has his brief glosses, unchanged, where Logeion has none or
-  the word is not in LSJ (to be removed: see "Short definitions"). Abbott-Smith's *Manual Greek
+  lacks has none). His brief glosses no longer fill the short-definition line (see "Short
+  definitions"). Abbott-Smith's *Manual Greek
   Lexicon of the New Testament* is one of the reader's shared dictionaries (data/lexicon.sqlite).
   The header line `# dictionaries:` of `grc.txt` gives the order of the word sheet's buttons.
 * Translation (`eng-bsb.txt`): the Berean Standard Bible (public domain since 2023), a paragraph

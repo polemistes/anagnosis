@@ -142,6 +142,9 @@ def main(argv: list[str] | None = None) -> int:
     b.add_argument("--only", help="rebuild only this text's database (and the catalog), keeping the lexicon")
     c = sub.add_parser("catalog", help="write data/catalog.json (the public catalogue: texts held back by a release date left out) and data/catalog-author.json (every text) alone, from the about.md headers and the built databases")
     c.add_argument("--out", default=str(DATA))
+    sdc = sub.add_parser("shortdef-choices", help="the author's list of short definitions to choose from: list (write private/SHORT-DEFINITIONS-TO-CHOOSE.md for the texts on offer) | apply (write pipeline/shortdef-pairs.tsv from the lines he ticked)")
+    sdc.add_argument("step", choices=["list", "apply"])
+    sdc.add_argument("--file", default=str(ROOT / "private" / "SHORT-DEFINITIONS-TO-CHOOSE.md"))
     pvs = sub.add_parser("private-setup", help="the private folders of a text not public before its release (private/texts/<slug>, private/transcriptions/drama/<slug>) and the links to them (private.py)")
     pvs.add_argument("slug")
     pvs.add_argument("--pack", action="store_true", help="also the text's asset pack for the author's own builds (private/app/packs/<slug>, linked from app/packs/<slug>)")
@@ -547,6 +550,9 @@ def main(argv: list[str] | None = None) -> int:
     elif args.cmd == "catalog":
         from .build import build_catalog
         build_catalog(TEXTS, Path(args.out))
+    elif args.cmd == "shortdef-choices":
+        from . import shortdef_choices
+        print(shortdef_choices.write_list(TEXTS, SOURCES, Path(args.file)) if args.step == "list" else shortdef_choices.apply(Path(args.file)))
     elif args.cmd == "private-setup":
         from .private import setup as private_setup
         for line in private_setup(args.slug, ROOT, pack=args.pack):

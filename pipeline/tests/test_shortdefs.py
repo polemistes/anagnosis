@@ -67,12 +67,21 @@ class ShortDefinitions(unittest.TestCase):
         self.assertIsNone(self.r("ἡμός"))    # not ἦμος
         self.assertIsNone(self.r("ὅ"))       # not the article
 
-    def test_the_headword_a_lemma_is_listed_under(self):
-        a = lambda lemma, headword: build.alias_short_definition(lemma, headword, self.exact, self.loose)
-        self.assertEqual(a("θνήσκομαι", "θνῄσκω"), "to die")
-        self.assertEqual(a("Ὁμηρίδης", "ὅμηρος"), "Homer")   # a name under a name
-        self.assertEqual(a("ὁμηρεύω", "ὅμηρος"), "a hostage")
-        self.assertIsNone(a("Φειδώ", "φείδων"))               # never a common word's definition for a name
+    def test_the_authors_chosen_pairs(self):
+        pairs = {"Ἔρως": "ἔρως", "καλῶς": "κάλως", "Φειδώ": "φειδώ"}
+        d = lambda lemma: build.short_definition_of(lemma, self.exact, self.loose, set(), pairs)
+        self.assertEqual(d("Ἔρως"), ("logeion", "love"))             # chosen: the god under the common word
+        self.assertEqual(d("καλῶς"), ("logeion", "a reefing rope"))  # whatever he chooses is taken, as he chose it
+        self.assertIsNone(d("Φειδώ"))                                # an entry Logeion has not
+        self.assertIsNone(d("Φείδων"))                               # no pair: nothing borrowed
+        self.assertEqual(d("ὅμηρος"), ("logeion", "a hostage"))      # the word's own entry first
+
+    def test_the_pairs_file(self):
+        with tempfile.TemporaryDirectory() as d:
+            f = Path(d) / "shortdef-pairs.tsv"
+            f.write_text("# lemma\tentry\nἜρως\tἔρως\nσάββατον\tΣάββατον\tnote\n\nbare\n", encoding="utf-8")
+            self.assertEqual(build.read_shortdef_pairs(f), {"Ἔρως": "ἔρως", "σάββατον": "Σάββατον"})
+            self.assertEqual(build.read_shortdef_pairs(Path(d) / "none.tsv"), {})
 
     def test_a_name_and_a_common_word_in_one_text(self):
         import sqlite3
