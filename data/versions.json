@@ -1,82 +1,82 @@
 {
   "agamemnon": {
-    "version": "7edf5fdadde2e3f0",
-    "digest": "7edf5fdadde2e3f01b67af6fd037f18b90f5525811eee9742d3586317a47a7e1"
+    "version": "17e311febfaa2b74",
+    "digest": "17e311febfaa2b74b1e7c347adc1c45dafee12807d28314db4b660b9d41350b1"
   },
   "ajax": {
-    "version": "a87094c49d008d76",
-    "digest": "a87094c49d008d7637b8df62ff419fbcd6ea63352ab9e2552187e9f17ab76d50"
+    "version": "4b380fada8f58e8d",
+    "digest": "4b380fada8f58e8d16cb7cdb4af738bbe83543897c458dc1a5a6cc80f4e9f097"
   },
   "antigone": {
-    "version": "57a7a7843fae0c5f",
-    "digest": "57a7a7843fae0c5fc2a470f9dde3ea10ee503e1bb0e5bc42a0c44ee30c9019ad"
+    "version": "07e680c30367f93a",
+    "digest": "07e680c30367f93a70f6349d8a6c5a7e0d53dc5aa986969346af4d2ad1d58d0a"
   },
   "choephoroi": {
-    "version": "299328c25d3a0ea4",
-    "digest": "299328c25d3a0ea4a1f563c225bed66ee1f992a6ea9772c4f6bf2c302d1fc7e0"
+    "version": "31a308f1032b955d",
+    "digest": "31a308f1032b955debedaf14ddfdd0074e8268dfaa2421d536861bb09963a7b2"
   },
   "clouds": {
-    "version": "ef8358b62b47a4ac",
-    "digest": "ef8358b62b47a4ac49067eaee817d17265fd3a3e5f771fa29addc983e61a6a63"
+    "version": "75b5d61c8cfdf529",
+    "digest": "75b5d61c8cfdf5299091e1e3fa30d10c02f83e8f7860146996079eb7ee5a06ef"
   },
   "electra": {
-    "version": "33b5ff771fef76b6",
-    "digest": "33b5ff771fef76b6b40fc652e3597980daa27beb267dc783b2cbbeb98f6c7102"
+    "version": "b757f21724f05c30",
+    "digest": "b757f21724f05c30b3e92722597d0f96f01ffb3c469c4b2ac45a2e636d1e5193"
   },
   "eumenides": {
-    "version": "557c1abb74ff5d3b",
-    "digest": "557c1abb74ff5d3b10eaf842a723e9f56a1f2d24725413f94e14950548384c44"
+    "version": "4dad481824ba24bd",
+    "digest": "4dad481824ba24bd3d18e97254c734ac5a870d632df5f2f4e50125e495b3efce"
   },
   "gorgias": {
-    "version": "f290ff3a4c6fa191",
-    "digest": "f290ff3a4c6fa1911273c5351e8d1ace592fd68b90b56161cea225d30864970b"
+    "version": "c55cbaa9c8e7bd3f",
+    "digest": "c55cbaa9c8e7bd3f850db807e10c4bf8d8b01d94b266694db5c673bb0bf75641"
   },
   "hermas": {
-    "version": "c54f6d44f0e77c95",
-    "digest": "c54f6d44f0e77c95bc948422a091461390f6be65cb5877391fe04b32abfe4a2c"
+    "version": "99ab0e7e34dc591f",
+    "digest": "99ab0e7e34dc591f73f00d96c22f027b55817d187a6d4026ade95cddb95172a9"
   },
   "lexicon": {
     "version": "9881e87715df0bba",
     "digest": "64b1aab277a078635003de6f161edd13dbdb580e432d2dec6186f2acdda3af96"
   },
   "lysias": {
-    "version": "6d6066165ea9919e",
-    "digest": "6d6066165ea9919ee35d022b9b2c2d640074565d907e60ee0515ac71e6e82938"
+    "version": "3de7120b71663f03",
+    "digest": "3de7120b71663f036252bb90d82eff5f8e996260b15356b2fc1232ee6472a2fb"
   },
   "newtestament": {
-    "version": "777d00a69a9bcf51",
-    "digest": "777d00a69a9bcf5196d17f81579ea962a8b28d23210fc7372d3fba28e8f68bb1"
+    "version": "001b0adce9cb2d8b",
+    "digest": "001b0adce9cb2d8b8171d816e569d748f62f5c5bc4fa489629c90446070e78ec"
   },
   "odyssey": {
-    "version": "93d0cb177b82e2cf",
-    "digest": "93d0cb177b82e2cfa23045826b1de9c9c6c21c91bd6d304aa334b6a86e4a663c"
+    "version": "3d892db40233bfd9",
+    "digest": "3d892db40233bfd99df2114d5782f337ad85a283b6ec67d0245796461ddededb"
   },
   "oedipuscoloneus": {
-    "version": "e079830b11e8d5b0",
-    "digest": "e079830b11e8d5b052a0b7619de2ff9fda95570f602b7ae43b9650d235f9b37a"
+    "version": "7b8ebe45ec22fd25",
+    "digest": "7b8ebe45ec22fd251f050e23f34e94323b11222903bf103517fa647bf9b5fc8b"
   },
   "oedipustyrannus": {
-    "version": "31286dce0ba41fe4",
-    "digest": "31286dce0ba41fe4f6bf2a9b8f01f8d3570cf4c09c2e5fb1d8c9842d068f6f2e"
+    "version": "6159d5ea73653318",
+    "digest": "6159d5ea73653318815d7008c5dceabc6914c2504d6423f8baa85866e8744be7"
   },
   "philoctetes": {
-    "version": "2ab23ff25e73a754",
-    "digest": "2ab23ff25e73a7541ce1796e64c0e3a65f045225c29815bbc1ae8f10801cba9c"
+    "version": "2051cf7b751e9a3c",
+    "digest": "2051cf7b751e9a3c31f97646f654121554459fb78f3c2d09988f1d1e85c1d5ea"
   },
   "symposium": {
-    "version": "6ba1047935327a21",
-    "digest": "6ba1047935327a21f00ff1cf451104382167c7ac3e4a87fc72a656a34714a2f1"
+    "version": "c053e93d8c5fe3f8",
+    "digest": "c053e93d8c5fe3f816333c12ec7f33a2d731c02d9adc4f8273f5239d2cef880e"
   },
   "theogony": {
-    "version": "d7f6c87798fea211",
-    "digest": "d7f6c87798fea2111b04475d6ed52bd6ddba5d1c7f86d7f7aa12247261b083b1"
+    "version": "1add7a8109da7b73",
+    "digest": "1add7a8109da7b735995e1d20ed0309fb45ba11628bd9ae1869dfab0468218d7"
   },
   "trachiniae": {
-    "version": "7e36d2f39e12f045",
-    "digest": "7e36d2f39e12f045262bd3c3cc286c57fb5a692d5711fc6fe678b861c8b4ae4c"
+    "version": "7c407b2ec99e4da8",
+    "digest": "7c407b2ec99e4da8b3bc2a1deaec392812b39b8b99053e7fea4647c56dec5d0b"
   },
   "truestory": {
-    "version": "68a1563e8d7d79b0",
-    "digest": "68a1563e8d7d79b05b7dbfe7dde4ed5a3c6af507871fb812966962f92c96b900"
+    "version": "8d786008293d10db",
+    "digest": "8d786008293d10db83bd2573187a14d66a8de43b1f1c76c6e17836c154c31423"
   }
 }

@@ -18,7 +18,7 @@
     "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
     "syntax_license": "CC BY-SA 3.0 US",
     "product_id": "aeschylus_agamemnon_sidgwick",
-    "version": "7edf5fdadde2e3f0"
+    "version": "17e311febfaa2b74"
   },
   {
     "slug": "ajax",
@@ -26,23 +26,23 @@
     "author": "Σοφοκλῆς",
     "title_en": "Ajax",
     "author_en": "Sophocles",
-    "description": "The Greek text of Sir Richard Jebb's edition, with his translation, critical apparatus and commentary, and the Liddell–Scott dictionaries. Tap any word for its meaning and form. The syntax of the sentences is annotated by hand; the syntax trees were made on the Perseus Digital Library's text of the play (F. Storr's Loeb edition, 1913), which differs in places from Jebb's text printed here, and where a sentence differs the syntax view shows both and marks the words.",
+    "description": "The Greek text of Sir Richard Jebb's edition, with his critical apparatus and commentary, his translation in the modernised wording of the Perseus Digital Library, and the Liddell–Scott dictionaries. Tap any word for its meaning and form. The syntax of the sentences is annotated by hand; the syntax trees were made on the Perseus Digital Library's text of the play (F. Storr's Loeb edition, 1913), which differs in places from Jebb's text printed here, and where a sentence differs the syntax view shows both and marks the words. About two words in a hundred are not analysed as the treebank has them: where the printed text differs from the treebank's, the dictionary form and grammatical form were set by an automatic analyser, by rule or by an AI model.\n\nThe Greek text, the critical apparatus and the commentary were read from a scan of the printed edition by OCR and checked against the page images by AI models, in two readings. The English translation is not Jebb's printed wording: it is the Perseus Digital Library's digital text, which puts his translation into modern English.",
     "edition": "Sophocles: The Plays and Fragments, Part VII: The Ajax, ed. R. C. Jebb, Cambridge University Press, 1896",
     "app_id": "no.anagnosis.ajax",
     "ref_edition": "R. C. Jebb, Sophocles: The Plays and Fragments, Part VII: The Ajax, Cambridge University Press 1896",
-    "ref_translation": "R. C. Jebb, Sophocles: The Plays and Fragments, Part VII: The Ajax, Cambridge University Press 1896",
+    "ref_translation": "R. C. Jebb, Sophocles: The Plays and Fragments, Part VII: The Ajax, Cambridge University Press 1896, in the modernised wording of the Perseus Digital Library",
     "ref_commentary": "R. C. Jebb, Sophocles: The Plays and Fragments, Part VII: The Ajax, Cambridge University Press 1896",
     "editor": "R. C. Jebb (Cambridge 1896)",
     "apparatus": "Jebb's critical apparatus",
-    "translation": "R. C. Jebb",
+    "translation": "R. C. Jebb, modernised by the Perseus Digital Library",
     "commentary": "R. C. Jebb, with his introduction and appendix",
     "syntax": "annotated by hand (Ancient Greek Dependency Treebank)",
-    "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
+    "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition; where the printed text differs from the treebank's (about 2 words in 100) the analysis is automatic: by an analyser, by rule or by an AI model",
     "syntax_license": "CC BY-SA 3.0 US",
     "syntax_text": "the Perseus Digital Library's text of the play (F. Storr's Loeb edition, 1913), which differs in places from Jebb's text printed here",
     "google_play": "yes",
     "product_id": "sophocles_ajax_jebb",
-    "version": "a87094c49d008d76"
+    "version": "4b380fada8f58e8d"
   },
   {
     "slug": "antigone",
@@ -50,23 +50,23 @@
     "author": "Σοφοκλῆς",
     "title_en": "Antigone",
     "author_en": "Sophocles",
-    "description": "The Greek text of Sir Richard Jebb's edition, with his translation, critical apparatus and commentary, and the Liddell–Scott dictionaries. Tap any word for its meaning and form. The syntax of the sentences is annotated by hand; the syntax trees were made on the Perseus Digital Library's text of the play as the treebank's annotators had it, which differs in a few words from the text printed here, and where a sentence differs the syntax view shows both and marks the words.",
+    "description": "The Greek text of Sir Richard Jebb's edition, with his critical apparatus and commentary, his translation in the modernised wording of the Perseus Digital Library, and the Liddell–Scott dictionaries. Tap any word for its meaning and form. The syntax of the sentences is annotated by hand; the syntax trees were made on the Perseus Digital Library's text of the play as the treebank's annotators had it, which differs in a few words from the text printed here, and where a sentence differs the syntax view shows both and marks the words. About two words in a hundred are not analysed as the treebank has them: where the printed text differs from the treebank's, the dictionary form and grammatical form were set by an automatic analyser, by rule or by an AI model.\n\nThe Greek text, the critical apparatus and the commentary were read from a scan of the printed edition by OCR and checked against the page images by AI models, in two readings. The English translation is not Jebb's printed wording: it is the Perseus Digital Library's digital text, which puts his translation into modern English. Jebb's introduction is the Perseus Digital Library's digital text of the third edition (1900).",
     "edition": "Sophocles: The Plays and Fragments, Part III: The Antigone, ed. R. C. Jebb, second edition, Cambridge University Press, 1891",
     "app_id": "no.anagnosis.antigone",
     "ref_edition": "R. C. Jebb, Sophocles: The Plays and Fragments, Part III: The Antigone, 2nd edition, Cambridge University Press 1891",
-    "ref_translation": "R. C. Jebb, Sophocles: The Plays and Fragments, Part III: The Antigone, 2nd edition, Cambridge University Press 1891",
-    "ref_commentary": "R. C. Jebb, Sophocles: The Plays and Fragments, Part III: The Antigone, 2nd edition, Cambridge University Press 1891 (the commentary and the appendix; the introduction from the 3rd edition, 1900)",
+    "ref_translation": "R. C. Jebb, Sophocles: The Plays and Fragments, Part III: The Antigone, 2nd edition, Cambridge University Press 1891, in the modernised wording of the Perseus Digital Library",
+    "ref_commentary": "R. C. Jebb, Sophocles: The Plays and Fragments, Part III: The Antigone, 2nd edition, Cambridge University Press 1891 (the commentary and the appendix; the introduction from the 3rd edition, 1900, in the Perseus Digital Library's digital text)",
     "editor": "R. C. Jebb (Cambridge 1891)",
     "apparatus": "Jebb's critical apparatus",
-    "translation": "R. C. Jebb",
+    "translation": "R. C. Jebb, modernised by the Perseus Digital Library",
     "commentary": "R. C. Jebb (2nd edition, 1891), with his appendix, and his introduction from the 3rd edition (1900)",
     "syntax": "annotated by hand (Ancient Greek Dependency Treebank)",
-    "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
+    "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition; where the printed text differs from the treebank's (about 2 words in 100) the analysis is automatic: by an analyser, by rule or by an AI model",
     "syntax_license": "CC BY-SA 3.0 US",
     "syntax_text": "the Perseus Digital Library's text of the play as the treebank's annotators had it, which differs in a few words from the text printed here",
     "google_play": "yes",
     "product_id": "sophocles_antigone_jebb",
-    "version": "57a7a7843fae0c5f"
+    "version": "07e680c30367f93a"
   },
   {
     "slug": "choephoroi",
@@ -87,7 +87,7 @@
     "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
     "syntax_license": "CC BY-SA 3.0 US",
     "product_id": "aeschylus_choephoroi_sidgwick",
-    "version": "299328c25d3a0ea4"
+    "version": "31a308f1032b955d"
   },
   {
     "slug": "clouds",
@@ -108,7 +108,7 @@
     "syntax_source": "GLAUx (Alek Keersmaekers, KU Leuven): automatic annotation, not checked by hand",
     "syntax_license": "CC BY-SA 4.0",
     "product_id": "aristophanes_clouds_starkie",
-    "version": "ef8358b62b47a4ac"
+    "version": "75b5d61c8cfdf529"
   },
   {
     "slug": "electra",
@@ -116,23 +116,23 @@
     "author": "Σοφοκλῆς",
     "title_en": "Electra",
     "author_en": "Sophocles",
-    "description": "The Greek text of Sir Richard Jebb's edition, with his translation, critical apparatus and commentary, and the Liddell–Scott dictionaries. Tap any word for its meaning and form. The syntax of the sentences is annotated by hand; the syntax trees were made on the Perseus Digital Library's text of the play (F. Storr's Loeb edition, 1913), which differs in places from Jebb's text printed here, and where a sentence differs the syntax view shows both and marks the words.",
+    "description": "The Greek text of Sir Richard Jebb's edition, with his critical apparatus and commentary, his translation in the modernised wording of the Perseus Digital Library, and the Liddell–Scott dictionaries. Tap any word for its meaning and form. The syntax of the sentences is annotated by hand; the syntax trees were made on the Perseus Digital Library's text of the play (F. Storr's Loeb edition, 1913), which differs in places from Jebb's text printed here, and where a sentence differs the syntax view shows both and marks the words. About two words in a hundred are not analysed as the treebank has them: where the printed text differs from the treebank's, the dictionary form and grammatical form were set by an automatic analyser, by rule or by an AI model.\n\nThe Greek text, the critical apparatus and the commentary were read from a scan of the printed edition by OCR and checked against the page images by AI models, in two readings. The English translation is not Jebb's printed wording: it is the Perseus Digital Library's digital text, which puts his translation into modern English.",
     "edition": "Sophocles: The Plays and Fragments, Part VI: The Electra, ed. R. C. Jebb, Cambridge University Press, 1894",
     "app_id": "no.anagnosis.electra",
     "ref_edition": "R. C. Jebb, Sophocles: The Plays and Fragments, Part VI: The Electra, Cambridge University Press 1894",
-    "ref_translation": "R. C. Jebb, Sophocles: The Plays and Fragments, Part VI: The Electra, Cambridge University Press 1894",
+    "ref_translation": "R. C. Jebb, Sophocles: The Plays and Fragments, Part VI: The Electra, Cambridge University Press 1894, in the modernised wording of the Perseus Digital Library",
     "ref_commentary": "R. C. Jebb, Sophocles: The Plays and Fragments, Part VI: The Electra, Cambridge University Press 1894",
     "editor": "R. C. Jebb (Cambridge 1894)",
     "apparatus": "Jebb's critical apparatus",
-    "translation": "R. C. Jebb",
+    "translation": "R. C. Jebb, modernised by the Perseus Digital Library",
     "commentary": "R. C. Jebb, with his introduction and appendix",
     "syntax": "annotated by hand (Ancient Greek Dependency Treebank)",
-    "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
+    "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition; where the printed text differs from the treebank's (about 2 words in 100) the analysis is automatic: by an analyser, by rule or by an AI model",
     "syntax_license": "CC BY-SA 3.0 US",
     "syntax_text": "the Perseus Digital Library's text of the play (F. Storr's Loeb edition, 1913), which differs in places from Jebb's text printed here",
     "google_play": "yes",
     "product_id": "sophocles_electra_jebb",
-    "version": "33b5ff771fef76b6"
+    "version": "b757f21724f05c30"
   },
   {
     "slug": "eumenides",
@@ -152,7 +152,7 @@
     "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
     "syntax_license": "CC BY-SA 3.0 US",
     "product_id": "aeschylus_eumenides_sidgwick",
-    "version": "557c1abb74ff5d3b"
+    "version": "4dad481824ba24bd"
   },
   {
     "slug": "gorgias",
@@ -160,11 +160,11 @@
     "author": "Πλάτων",
     "title_en": "Gorgias",
     "author_en": "Plato",
-    "description": "The Greek text of John Burnet's Oxford edition with its critical apparatus, Benjamin Jowett's translation, and Gonzalez Lodge's commentary and introduction, with the Liddell–Scott dictionaries. Tap any word for its meaning and form. The analysis of each sentence's syntax is automatic (GLAUx) and has not been checked by hand. The syntax trees were made on the Perseus Digital Library's text of this edition, which leaves out the words Burnet brackets as not Plato's (32 words in 17 places); in those sentences the syntax view shows the printed sentence and marks the bracketed words.",
+    "description": "The Greek text of John Burnet's Oxford edition with its critical apparatus, Benjamin Jowett's translation, and Gonzalez Lodge's commentary and introduction, with the Liddell–Scott dictionaries. Tap any word for its meaning and form. The analysis of each sentence's syntax is automatic (GLAUx) and has not been checked by hand. The syntax trees were made on the Perseus Digital Library's text of this edition, which leaves out the words Burnet brackets as not Plato's (32 words in 17 places); in those sentences the syntax view shows the printed sentence and marks the bracketed words.\n\nThe Greek text is the Perseus Digital Library's digital text of Burnet's edition; its letters were compared by OCR with a scan of the printed pages, and AI models looked at the page where the two differed. The critical apparatus was written from the scan by AI models, in one reading. The commentary is the Perseus Digital Library's digital text of Lodge's book, and the translation is Wikisource's transcription of Jowett's; they have not been compared with the books. Lodge's preface and introduction were read from a scan by OCR and checked against the page images by AI models.",
     "edition": "Platonis Opera III, ed. J. Burnet, Oxford 1903",
     "ref_edition": "J. Burnet, Platonis Opera III, Oxford 1903",
-    "ref_translation": "B. Jowett, The Dialogues of Plato, 3rd edition, Oxford 1892",
-    "ref_commentary": "G. Lodge, Plato, Gorgias, Boston 1890",
+    "ref_translation": "B. Jowett, The Dialogues of Plato, 3rd edition, Oxford 1892 (Wikisource)",
+    "ref_commentary": "G. Lodge, Plato, Gorgias, Boston 1890 (Perseus Digital Library; the introduction from a scan)",
     "editor": "John Burnet (Oxford 1903)",
     "apparatus": "Burnet's",
     "translation": "Benjamin Jowett (1892)",
@@ -175,7 +175,7 @@
     "syntax_text": "the Perseus Digital Library's text of this edition, without the words Burnet brackets as not Plato's",
     "google_play": "yes",
     "product_id": "plato_gorgias_burnet",
-    "version": "f290ff3a4c6fa191"
+    "version": "c55cbaa9c8e7bd3f"
   },
   {
     "slug": "hermas",
@@ -183,7 +183,7 @@
     "author": "Ἑρμᾶς",
     "title_en": "The Shepherd",
     "author_en": "Hermas",
-    "description": "The Greek text of the Shepherd of Hermas in Kirsopp Lake's Loeb edition, with his critical apparatus and his translation, the notes to the translation by Lake and by Charles Taylor (they explain the English version, not the Greek text), both translators' introductions and Taylor's essay on Hermas and the Gospels, the end of the book in the Latin version with the Greek of the papyri, and the Abbott-Smith and Liddell–Scott dictionaries. Tap any word for its meaning and form. The analysis of each sentence's syntax is automatic (GLAUx) and has not been checked by hand.",
+    "description": "The Greek text of the Shepherd of Hermas in Kirsopp Lake's Loeb edition, with his critical apparatus and his translation, the notes to the translation by Lake and by Charles Taylor (they explain the English version, not the Greek text), both translators' introductions and Taylor's essay on Hermas and the Gospels, the end of the book in the Latin version with the Greek of the papyri, and the Abbott-Smith and Liddell–Scott dictionaries. Tap any word for its meaning and form. The analysis of each sentence's syntax is automatic (GLAUx) and has not been checked by hand.\n\nThe Greek text, the critical apparatus and Taylor's notes were read from scans of the printed books by OCR and checked against the page images by AI models. Lake's translation and his notes to it are the Perseus Digital Library's digital text.",
     "edition": "The Apostolic Fathers, with an English translation by Kirsopp Lake, vol. II, Loeb Classical Library, London, William Heinemann, and New York, The Macmillan Co., 1913 (reprinted 1917)",
     "ref_edition": "K. Lake, The Apostolic Fathers, vol. II, Loeb Classical Library, London, Heinemann, 1913 (reprinted 1917)",
     "ref_translation": "K. Lake, The Apostolic Fathers, vol. II, Loeb Classical Library 1913 (Perseus Digital Library)",
@@ -196,7 +196,7 @@
     "syntax_source": "GLAUx (Alek Keersmaekers, KU Leuven): automatic annotation, not checked by hand",
     "syntax_license": "CC BY-SA 4.0",
     "product_id": "hermas_shepherd_lake",
-    "version": "c54f6d44f0e77c95",
+    "version": "99ab0e7e34dc591f",
     "free": true
   },
   {
@@ -205,7 +205,7 @@
     "author": "Λυσίας",
     "title_en": "Speeches",
     "author_en": "Lysias",
-    "description": "The thirty-four speeches of Lysias in the Greek text of Karl Hude's Oxford edition (1912), with his critical apparatus, English commentaries on nineteen of the speeches (Adams, Morgan, Shuckburgh) with their introductions, English translations of twenty-six, and the Liddell–Scott dictionaries. Tap any word for its meaning and form.\n\nEach speech is a book of the text; a passage is cited by speech and section (12.7). The text and apparatus were read from the scan of Hude's edition, matched word by word to the Perseus Digital Library's text of the speeches to find reading errors, and checked against the page wherever the two differed; where Hude evidently misprints a word it is corrected, and a note in the apparatus says so. Four pages of the second speech (2.23–2.30 and 2.59–2.66) are missing from the Internet Archive's online view of the scan; they were read from the scan's own image files.\n\nThe syntax trees were made on the Perseus Digital Library's text of the speeches (W. R. M. Lamb's Loeb edition, 1930), which differs in places from Hude's text printed here; where a sentence differs the syntax view shows both and marks the words. Speeches 12, 13 and 19 have no syntax trees: the only trees made for them are under a licence that does not allow use here. Their word analyses (dictionary form and grammatical form) are automatic and were checked word by word in their sentences. The English is the anonymous literal translation of 1898 for twenty speeches (2, 5, 7, 9, 10, 12, 13, 14, 16, 17, 19, 22, 23, 24, 25, 28, 30, 31, 32, 33) and John Gillies's free version of 1778, laid beside the Greek by his sentences and paragraphs, for six (1, 3, 4, 21, 26, 34); his thirteen footnotes are among the notes. Speeches 6, 8, 11, 15, 18, 20, 27 and 29 have no English translation in the public domain.",
+    "description": "The thirty-four speeches of Lysias in the Greek text of Karl Hude's Oxford edition (1912), with his critical apparatus, English commentaries on nineteen of the speeches (Adams, Morgan, Shuckburgh) with their introductions, English translations of twenty-six, and the Liddell–Scott dictionaries. Tap any word for its meaning and form.\n\nEach speech is a book of the text; a passage is cited by speech and section (12.7). The titles of the speeches are Hude's own; he prints them in capitals without accents, and they are shown here in small letters with accents. The text and apparatus were read from the scan of Hude's edition by OCR, matched word by word to the Perseus Digital Library's text of the speeches to find reading errors, and checked against the page images by AI models, in three readings; where Hude evidently misprints a word it is corrected, and a note in the apparatus says so. Four pages of the second speech (2.23–2.30 and 2.59–2.66) are missing from the Internet Archive's online view of the scan; they were read from the scan's own image files.\n\nThe syntax trees were made on the Perseus Digital Library's text of the speeches (W. R. M. Lamb's Loeb edition, 1930), which differs in places from Hude's text printed here; where a sentence differs the syntax view shows both and marks the words. In the speeches annotated by hand about two words in a hundred are not analysed as the treebank has them: there the dictionary form and grammatical form were set by an automatic analyser, by rule or by an AI model. Speeches 12, 13 and 19 have no syntax trees: the only trees made for them are under a licence that does not allow use here. Their word analyses (dictionary form and grammatical form) are automatic and were checked word by word in their sentences by AI models. The English is the anonymous literal translation of 1898 for twenty speeches (2, 5, 7, 9, 10, 12, 13, 14, 16, 17, 19, 22, 23, 24, 25, 28, 30, 31, 32, 33) and John Gillies's free version of 1778, laid beside the Greek by his sentences and paragraphs, for six (1, 3, 4, 21, 26, 34); his thirteen footnotes are among the notes. Speeches 6, 8, 11, 15, 18, 20, 27 and 29 have no English translation in the public domain.",
     "edition": "Lysiae orationes, recognovit brevique adnotatione critica instruxit Carolus Hude, Oxford, Clarendon Press, 1912",
     "ref_edition": "C. Hude, Lysiae orationes, Oxford Classical Texts, Clarendon Press 1912",
     "ref_translation": "The Orations of Lysias, literally translated, Handy Literal Translations, 1898 (twenty speeches, Project Gutenberg); J. Gillies, The Orations of Lysias and Isocrates, London 1778 (six speeches)",
@@ -215,12 +215,12 @@
     "translation": "anonymous literal translation (1898) for speeches 2, 5, 7, 9, 10, 12, 13, 14, 16, 17, 19, 22, 23, 24, 25, 28, 30, 31, 32, 33; John Gillies (1778) for 1, 3, 4, 21, 26, 34; none for 6, 8, 11, 15, 18, 20, 27, 29",
     "commentary": "C. D. Adams (1905) on 12, 16, 19, 22, 24, 25, 32, 34; M. H. Morgan (1895) on 7, 23, 31; E. S. Shuckburgh (1882) on 5, 9, 10, 13, 14, 17, 28, 30; with their introductions",
     "translation_notes": "John Gillies (1778), on speeches 1, 4, 21, 26, 34",
-    "syntax": "by hand for speeches 1, 14, 15, 23, 24; machine-made (GLAUx), not checked by hand, for 26 speeches; none for 12, 13, 19",
-    "syntax_source": "speeches 1, 14, 15, 23: Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library; annotated by hand by Vanessa Gorman); speech 24: Pedalion Trees (KU Leuven; by hand), through GLAUx; 26 speeches: GLAUx (Alek Keersmaekers, KU Leuven), automatic, not checked by hand; speeches 12, 13, 19: no syntax, lemmas and forms automatic and checked word by word in their sentences",
+    "syntax": "by hand for speeches 1, 14, 15, 23, 24; machine-made (GLAUx), not checked by hand, for 26 speeches; none for 12, 13, 19, whose word analyses are automatic",
+    "syntax_source": "speeches 1, 14, 15, 23: Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library; annotated by hand by Vanessa Gorman); speech 24: Pedalion Trees (KU Leuven; by hand), through GLAUx; 26 speeches: GLAUx (Alek Keersmaekers, KU Leuven), automatic, not checked by hand; speeches 12, 13, 19: no syntax, lemmas and forms automatic and checked word by word in their sentences by AI models",
     "syntax_license": "CC BY-SA 3.0 US (Ancient Greek Dependency Treebank); CC BY-SA 4.0 (Pedalion Trees, GLAUx)",
     "syntax_text": "the Perseus Digital Library's text of the speeches (W. R. M. Lamb's Loeb edition, 1930), which differs in places from Hude's text printed here",
     "product_id": "lysias_speeches_hude",
-    "version": "6d6066165ea9919e",
+    "version": "3de7120b71663f03",
     "free": true
   },
   {
@@ -229,7 +229,7 @@
     "author": "",
     "title_en": "New Testament",
     "author_en": "",
-    "description": "The Greek New Testament in the SBL edition of Michael W. Holmes with its apparatus and the Berean Standard Bible. Tap any word for its meaning and form in Abbott-Smith's and Dodson's lexicons of the New Testament and the Liddell–Scott dictionaries, or hold it for the syntax of its sentence; the lemmas, morphology and syntax are those of the MACULA Greek project.",
+    "description": "The Greek New Testament in the SBL edition of Michael W. Holmes with its apparatus and the Berean Standard Bible. Tap any word for its meaning and form in Abbott-Smith's and Dodson's lexicons of the New Testament and the Liddell–Scott dictionaries, or hold it for the syntax of its sentence; the lemmas and morphology are those of the MACULA Greek project. Its syntax groups the words into phrases; the links from word to word and the names of the relations shown here are computed from it by this app.\n\nThe Greek text, its apparatus, the word analyses and the translation are the publishers' own digital editions.",
     "edition": "The Greek New Testament: SBL Edition, ed. Michael W. Holmes, Society of Biblical Literature and Logos Bible Software 2010",
     "app_id": "no.anagnosis.newtestament",
     "ref_edition": "M. W. Holmes, The Greek New Testament: SBL Edition, Society of Biblical Literature and Logos Bible Software 2010",
@@ -237,13 +237,13 @@
     "editor": "Michael W. Holmes (SBL edition, 2010)",
     "apparatus": "the SBL edition's, with the readings of other editions",
     "translation": "Berean Standard Bible",
-    "syntax": "annotated by hand (MACULA Greek)",
-    "syntax_source": "MACULA Greek (Biblica, Inc.), converted to dependency trees for this app",
+    "syntax": "MACULA Greek, converted for this app",
+    "syntax_source": "MACULA Greek (Biblica, Inc.): its lemmas and morphology; its syntax, which groups words into phrases, converted by this app into links from word to word, so that each link and each name of a relation shown is computed by the app",
     "syntax_license": "CC BY 4.0",
     "dictionaries": "Dodson's lexicon of the New Testament",
     "google_play": "yes",
     "product_id": "newtestament_sbl",
-    "version": "777d00a69a9bcf51"
+    "version": "001b0adce9cb2d8b"
   },
   {
     "slug": "odyssey",
@@ -251,23 +251,23 @@
     "author": "Ὅμηρος",
     "title_en": "The Odyssey",
     "author_en": "Homer",
-    "description": "The Greek text of T. W. Allen's Oxford edition with its critical apparatus, A. T. Murray's translation, the commentary of Merry, Riddell and Monro, Autenrieth's Homeric Dictionary and the Liddell–Scott dictionaries. Tap any word for its meaning and form. The syntax of the sentences is annotated by hand; the syntax trees were made on the Perseus Digital Library's text of the poem (A. T. Murray's Loeb edition, 1919), which differs in places from Allen's text printed here, and where a sentence differs the syntax view shows both and marks the words.",
+    "description": "The Greek text of T. W. Allen's Oxford edition with its critical apparatus, A. T. Murray's translation, the commentary of Merry, Riddell and Monro, Autenrieth's Homeric Dictionary and the Liddell–Scott dictionaries. Tap any word for its meaning and form. The syntax of the sentences is annotated by hand; the syntax trees were made on the Perseus Digital Library's text of the poem (A. T. Murray's Loeb edition, 1919), which differs in places from Allen's text printed here, and where a sentence differs the syntax view shows both and marks the words. About two words in a hundred are not analysed as the treebank has them: where the printed text differs from the treebank's, the dictionary form and grammatical form were set by an automatic analyser, by rule or by an AI model.\n\nThe Greek text and the critical apparatus were typed from scans of Allen's edition by AI models, page by page, in one reading. The translation and the commentary are the Perseus Digital Library's digital texts of the printed books; they have not been compared with the books.",
     "edition": "Homeri Opera III-IV, ed. T. W. Allen, 2nd ed., Oxford 1917-1919",
     "app_id": "no.anagnosis.odyssey",
     "ref_edition": "T. W. Allen, Homeri Opera III–IV, 2nd edition, Oxford 1917–1919",
-    "ref_translation": "A. T. Murray, Homer: The Odyssey, Loeb Classical Library, 1919",
-    "ref_commentary": "W. W. Merry and J. Riddell, Homer's Odyssey, Books I–XII, 2nd edition, Oxford 1886; D. B. Monro, Homer's Odyssey, Books XIII–XXIV, Oxford 1901",
+    "ref_translation": "A. T. Murray, Homer: The Odyssey, Loeb Classical Library, 1919 (Perseus Digital Library)",
+    "ref_commentary": "W. W. Merry and J. Riddell, Homer's Odyssey, Books I–XII, 2nd edition, Oxford 1886; D. B. Monro, Homer's Odyssey, Books XIII–XXIV, Oxford 1901 (Perseus Digital Library)",
     "editor": "T. W. Allen (Oxford, 2nd edition 1917–1919)",
     "apparatus": "Allen's",
     "translation": "A. T. Murray (1919)",
     "commentary": "W. W. Merry and J. Riddell (books 1–12), D. B. Monro (books 13–24)",
     "syntax": "annotated by hand (Ancient Greek Dependency Treebank)",
-    "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
+    "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition; where the printed text differs from the treebank's (about 2 words in 100) the analysis is automatic: by an analyser, by rule or by an AI model",
     "syntax_license": "CC BY-SA 3.0 US",
     "syntax_text": "the Perseus Digital Library's text of the poem (A. T. Murray's Loeb edition, 1919), which differs in places from Allen's text printed here",
     "google_play": "yes",
     "product_id": "homer_odyssey_allen",
-    "version": "93d0cb177b82e2cf"
+    "version": "3d892db40233bfd9"
   },
   {
     "slug": "oedipuscoloneus",
@@ -289,7 +289,7 @@
     "syntax_source": "GLAUx (Alek Keersmaekers, KU Leuven): automatic annotation, not checked by hand",
     "syntax_license": "CC BY-SA 4.0",
     "product_id": "sophocles_oedipuscoloneus_jebb",
-    "version": "e079830b11e8d5b0"
+    "version": "7b8ebe45ec22fd25"
   },
   {
     "slug": "oedipustyrannus",
@@ -311,7 +311,7 @@
     "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
     "syntax_license": "CC BY-SA 3.0 US",
     "product_id": "sophocles_oedipustyrannus_jebb",
-    "version": "31286dce0ba41fe4"
+    "version": "6159d5ea73653318"
   },
   {
     "slug": "philoctetes",
@@ -333,7 +333,7 @@
     "syntax_source": "GLAUx (Alek Keersmaekers, KU Leuven): automatic annotation, not checked by hand",
     "syntax_license": "CC BY-SA 4.0",
     "product_id": "sophocles_philoctetes_jebb",
-    "version": "2ab23ff25e73a754"
+    "version": "2051cf7b751e9a3c"
   },
   {
     "slug": "symposium",
@@ -341,12 +341,12 @@
     "author": "Πλάτων",
     "title_en": "Symposium",
     "author_en": "Plato",
-    "description": "The Greek text of John Burnet's Oxford edition with its critical apparatus, Benjamin Jowett's translation, and R. G. Bury's commentary and introduction, with the Liddell–Scott dictionaries. Tap any word for its meaning and form. The analysis of each sentence's syntax is automatic (GLAUx) and has not been checked by hand.",
+    "description": "The Greek text of John Burnet's Oxford edition with its critical apparatus, Benjamin Jowett's translation, and R. G. Bury's commentary and introduction, with the Liddell–Scott dictionaries. Tap any word for its meaning and form. The analysis of each sentence's syntax is automatic (GLAUx) and has not been checked by hand.\n\nThe Greek text and the critical apparatus were typed from scans of Burnet's edition by AI models, in one reading, and the letters of the text were then compared by machine with the Perseus Digital Library's text of the same edition. The commentary and the introduction are the Perseus Digital Library's digital text of Bury's book, and the translation is Wikisource's transcription of Jowett's; they have not been compared with the books.",
     "edition": "Platonis Opera II, ed. J. Burnet, Oxford 1901 (corrected printing 1910)",
     "app_id": "no.anagnosis.symposium",
     "ref_edition": "J. Burnet, Platonis Opera II, Oxford 1901 (corrected printing 1910)",
-    "ref_translation": "B. Jowett, The Dialogues of Plato, 3rd edition, Oxford 1892",
-    "ref_commentary": "R. G. Bury, The Symposium of Plato, Cambridge 1909",
+    "ref_translation": "B. Jowett, The Dialogues of Plato, 3rd edition, Oxford 1892 (Wikisource)",
+    "ref_commentary": "R. G. Bury, The Symposium of Plato, Cambridge 1909 (Perseus Digital Library)",
     "editor": "John Burnet (Oxford 1901, corrected 1910)",
     "apparatus": "Burnet's",
     "translation": "Benjamin Jowett (1892)",
@@ -356,7 +356,7 @@
     "syntax_license": "CC BY-SA 4.0",
     "google_play": "yes",
     "product_id": "plato_symposium_burnet",
-    "version": "6ba1047935327a21"
+    "version": "c053e93d8c5fe3f8"
   },
   {
     "slug": "theogony",
@@ -364,7 +364,7 @@
     "author": "Ἡσίοδος",
     "title_en": "Theogony",
     "author_en": "Hesiod",
-    "description": "The Greek text of Alois Rzach's Teubner edition of Hesiod's Theogony, with his critical apparatus, F. A. Paley's English commentary, preface and epitome of the poem, Hugh G. Evelyn-White's translation, and the Liddell–Scott dictionaries. Tap any word for its meaning and form. The syntax of the sentences is annotated by hand; the syntax trees were made on the Perseus Digital Library's text of the poem (H. G. Evelyn-White's Loeb edition, 1914), which differs in places from Rzach's text printed here, and where a sentence differs the syntax view shows both and marks the words.",
+    "description": "The Greek text of Alois Rzach's Teubner edition of Hesiod's Theogony, with his critical apparatus, F. A. Paley's English commentary, preface and epitome of the poem, Hugh G. Evelyn-White's translation, and the Liddell–Scott dictionaries. Tap any word for its meaning and form. The syntax of the sentences is annotated by hand; the syntax trees were made on the Perseus Digital Library's text of the poem (H. G. Evelyn-White's Loeb edition, 1914), which differs in places from Rzach's text printed here, and where a sentence differs the syntax view shows both and marks the words. About two words in a hundred are not analysed as the treebank has them: where the printed text differs from the treebank's, the dictionary form and grammatical form were set by an automatic analyser, by rule or by an AI model.\n\nThe Greek text, the critical apparatus and Paley's commentary were read from scans of the printed editions by OCR and checked against the page images by AI models, in two readings. The translation is the Perseus Digital Library's digital text.",
     "edition": "Hesiodi carmina, recensuit Aloisius Rzach, Leipzig, B. G. Teubner, 1908",
     "ref_edition": "A. Rzach, Hesiodi carmina, Leipzig, Teubner 1908",
     "ref_translation": "H. G. Evelyn-White, Hesiod, the Homeric Hymns and Homerica, Loeb Classical Library 1914 (Perseus Digital Library)",
@@ -374,11 +374,11 @@
     "translation": "H. G. Evelyn-White (1914)",
     "commentary": "F. A. Paley (1883), with his preface and his epitome of the poem",
     "syntax": "annotated by hand (Ancient Greek Dependency Treebank)",
-    "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
+    "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition; where the printed text differs from the treebank's (about 2 words in 100) the analysis is automatic: by an analyser, by rule or by an AI model",
     "syntax_license": "CC BY-SA 3.0 US",
     "syntax_text": "the Perseus Digital Library's text of the poem (H. G. Evelyn-White's Loeb edition, 1914), which differs in places from Rzach's text printed here",
     "product_id": "hesiod_theogony_rzach",
-    "version": "d7f6c87798fea211",
+    "version": "1add7a8109da7b73",
     "free": true
   },
   {
@@ -401,7 +401,7 @@
     "syntax_source": "Ancient Greek Dependency Treebank 2.1 (Perseus Digital Library), aligned to this edition",
     "syntax_license": "CC BY-SA 3.0 US",
     "product_id": "sophocles_trachiniae_jebb",
-    "version": "7e36d2f39e12f045"
+    "version": "7c407b2ec99e4da8"
   },
   {
     "slug": "truestory",
@@ -422,6 +422,6 @@
     "syntax_source": "GLAUx (Alek Keersmaekers, KU Leuven): automatic annotation, not checked by hand",
     "syntax_license": "CC BY-SA 4.0",
     "product_id": "lucian_truestory_nilen",
-    "version": "68a1563e8d7d79b0"
+    "version": "8d786008293d10db"
   }
 ]
