@@ -181,6 +181,36 @@ text or a reference work. Stated in `texts/README.md`, "Short definitions". Log:
   short definition (9c4ae60).
 * Open: the loose dictionary search from a name to a common word (QUESTIONS.md 11, being changed).
 
+## Sixth round, 2026-11-19: the author's answers carried out
+
+* **Short definitions.** Dodson's 802 brief glosses no longer fill the New Testament's short line
+  (Dodson is a dictionary of its own); no word borrows the definition of the headword its alias
+  names. A word Logeion spells otherwise or files under another headword shows a definition only
+  where the author has ticked the pair: `shortdef-choices list` wrote him the 532 candidates of
+  the ten texts on offer, `shortdef-choices apply` enters his ticks in `pipeline/shortdef-pairs.tsv`
+  (empty until he has chosen). texts/README.md, "Short definitions".
+* **About pages** of the ten texts say where each part comes from and how it was read (Perseus's
+  or Wikisource's digital text; from a scan by OCR, checked by AI models; typed from a scan). The
+  three plays' translation is named as Perseus's modernised wording of Jebb's. The New Testament's
+  syntax phrase is "MACULA Greek, converted for this app".
+* **The app's own lines** inside an author's text open with "Anagnosis:" (sigla pages, Lysias's 63
+  notes, the Antigone's ligature and facsimile, the Electra's diagram and cut letter, the
+  Shepherd's appendix); a corrected misprint is noted "[Print has: …]" (Lysias 12, the Shepherd
+  35, A True Story 3). The Antigone's sigla page has Jebb's own sentence on the other manuscripts
+  again, from his Introduction.
+* **Italics in Jebb's critical apparatus** (Antigone, Ajax, Electra) are back, from the apparatus
+  as it stood before the re-reading (`apparatus_italics.py`; 479 of 481 phrases).
+* **Lemmas**: seven of the Odyssey's misspelt in the treebank; καί, δέ, μή with a grave in Lysias.
+* All texts rebuilt; the texts not on offer build as before today (their versions moved through
+  changes that had waited for a rebuild).
+* **Still open**: the misprints corrected without any note (about 175 places: Lysias's
+  commentaries 51, the Theogony 19, the Symposium 2, the Shepherd 2, the three plays about 100,
+  each recorded in its batch file's remarks) are to get "[Print has: …]"; five misprints left as
+  printed "for the author to judge" in the plays' batch remarks (Antigone, note on 1: "Lys. or.
+  42 § 4" for 32); the Theogony's bracketed verse after 146; the dictionary search's short
+  definitions keyed without capitals; `import-nt` no longer gives the shipped aliases.tsv exactly
+  (μήτι added, ὀργυιά dropped: the dictionaries changed since it was run).
+
 ## What `check` still says of the texts on sale and the free texts (2026-11-17)
 
 * Lemmas without a short definition (counted, no fault): Antigone 38, Ajax 39, Electra 27, the

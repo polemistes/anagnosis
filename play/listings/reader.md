@@ -44,6 +44,19 @@ You are welcome to download the source files for the app and the texts and build
 
 This app has been created with the help of large language models.
 
+## Release notes, 0.8.0 (493; limit 500) — draft of 2026-11-19, not yet approved by the author
+Version 0.8.0:
+
+New free texts: Hesiod's Theogony, the Speeches of Lysias and the Shepherd of Hermas, with critical apparatus, translation and notes.
+
+Corrected: Sophocles' Antigone, Ajax and Electra now follow Jebb's printed pages throughout (text, critical apparatus, commentary).
+
+A word's short definition is now always the word's own; where the short dictionary lacks a word, open a dictionary.
+
+The text's page says where each part comes from.
+
+Bugfix: reading aloud could close the app.
+
 ## Release notes, 0.7.0 (425; limit 500)
 Version 0.7.0:
 
