@@ -1140,7 +1140,7 @@ pr. καὶ] ἦν F, ut vid., et g
 ## 2.65
 ἀρετῇ ⟨τῇ⟩ Hertlein
 
-πρότερον . . . στασιάσαντες in marg. F¹ [πρότερον: Hude's apparatus prints προτερον, a misprint; corrected in this edition.]
+πρότερον . . . στασιάσαντες in marg. F¹ [Print has: προτερον]
 
 ἐδυστύχησαν g
 
@@ -2140,12 +2140,12 @@ fort. στρατιώτου ἀγαθοῦ
 γινόμενον E K M
 
 ## 6.48
-corruptelae (non lacunae) signum in X: οὐδὲν συμβαλλόμενος (συμβαλόμενος Cobet) add. Franz [συμβαλόμενος: Hude's apparatus prints συμβαλόμενυς, a misprint; corrected in this edition.]
+corruptelae (non lacunae) signum in X: οὐδὲν συμβαλλόμενος (συμβαλόμενος Cobet) add. Franz [Print has: συμβαλόμενυς]
 
 τὴν del. Francken
 
 ## 6.49
-post εἰσφορὰν lac. unius versus C: ⟨εἰσέφερε⟩—ποίαν εἰσφοράν; ⟨ἐφʼ ᾗ τί ἂν⟩ τούτῳ ἀγαθὸν γένοιτο (sic fort. E), ὃς ἐπιστάμενος Reiske [ἐφʼ ᾗ: Hude's apparatus prints ἐφʼ ᾖ, a misprint; corrected in this edition.]
+post εἰσφορὰν lac. unius versus C: ⟨εἰσέφερε⟩—ποίαν εἰσφοράν; ⟨ἐφʼ ᾗ τί ἂν⟩ τούτῳ ἀγαθὸν γένοιτο (sic fort. E), ὃς ἐπιστάμενος Reiske [Print has: ἐφʼ ᾖ]
 
 γινομένην E K M
 
@@ -2674,7 +2674,7 @@ pr. καὶ om. C
 
 ὁμιλεῖτε; Sauppe
 
-ἐλέγετʼ: Hude prints ἔλεγετʼ, a misprint; corrected in this edition.
+ἐλέγετʼ [Print has: ἔλεγετʼ]
 
 εἰδότες Reiske: εἰπόντες L
 
@@ -3045,7 +3045,7 @@ tit. O solus
 
 ἐν add. Markland
 
-Λυσιθέῳ: Hude prints Αυσιθέῳ, a misprint; corrected in this edition.
+Λυσιθέῳ [Print has: Αυσιθέῳ]
 
 ## 10.13
 δέῃ σὲ Contius: δεήση L
@@ -4667,7 +4667,7 @@ exstat aut hoc populi scitum aut id quod infra (26) laudatur Corp. Inscr. Att. i
 
 ἦλθε ⟨μὲν⟩ Herwerden
 
-οὑτοσὶ Sauppe [οὑτοσὶ: Hude's apparatus prints οὑτυσὶ, a misprint; corrected in this edition.]
+οὑτοσὶ Sauppe [Print has: οὑτυσὶ]
 
 Φυλῇ Rauchenstein: Φυλὴν L
 
@@ -5812,7 +5812,7 @@ pr. καὶ om. C
 
 πᾶν X
 
-πεπιστευμένους: Hude prints πεπιστευμενους, a misprint; corrected in this edition.
+πεπιστευμένους [Print has: πεπιστευμενους]
 
 ## 19.14
 τῇ del. Cobet
@@ -6534,7 +6534,7 @@ alt. εἶχε] ἐτόλμα Markland
 
 ὑπὸ Wesseling
 
-ἐστιν: Hude prints εστιν, a misprint; corrected in this edition.
+ἐστιν [Print has: εστιν]
 
 ## 20.29
 πρεσβύτερον Blass
@@ -6646,7 +6646,7 @@ tit. om. X
 
 πυριχ. L
 
-ἐνίκων, καὶ: Hude prints ἐνίκων καὶ,, a misprint; corrected in this edition.
+ἐνίκων, καὶ [Print has: ἐνίκων καὶ,]
 
 ## 21.5
 ἀρχιθεωρίαι καὶ ἀρρηφορίαι Reiske
@@ -6826,7 +6826,7 @@ aut δεινῷ aut [ὑμῖν] Emperius
 ## 22.3
 ταῦτα om. C
 
-οὔνεκα L [οὔνεκα: Hude's apparatus prints ούνεκα, a misprint; corrected in this edition.]
+οὔνεκα L [Print has: ούνεκα]
 
 ## 22.4
 τὰς αἰτίας· αἰσχρὸν δʼ Dobree: δὲ τὰς αἰτίας αἰσχρὸν L
@@ -7332,7 +7332,7 @@ Tit. δήμου καταλύσεως del. Thalheim
 ## 25.8
 καθιστάναι L: corr. Fuhr
 
-ὀλιγαρχικὸς: Hude prints ὀλιγαοχικὸς, a misprint; corrected in this edition.
+ὀλιγαρχικὸς [Print has: ὀλιγαοχικὸς]
 
 ## 25.9
 τῶν add. Reiske
@@ -7628,7 +7628,7 @@ Tit. ex indice suppl.
 
 ἐξιοῦσαν W: ἀξιοῦσαν C X
 
-οὔνεκα L [οὔνεκα: Hude's apparatus prints ούνεκα, a misprint; corrected in this edition.]
+οὔνεκα L [Print has: ούνεκα]
 
 τῷ ⟨ἑαυτοῦ⟩ Reiske
 

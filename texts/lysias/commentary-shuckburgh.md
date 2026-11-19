@@ -138,7 +138,7 @@ Some objection has been made to the fact of the ταμίαι being thus able to 
 
 **οἷα πεπονθὼς ἦν** ‘the treatment I had received:’ equivalent to a pluperfect. Madv. § 114 b.
 
-[Shuckburgh's text reads otherwise here; the text shown has οἷα πεπονθὼς ἦ.]
+[Anagnosis: Shuckburgh's text reads otherwise here; the text shown has οἷα πεπονθὼς ἦ.]
 
 **ἔπειθον** ‘they tried to persuade them.’
 
@@ -263,7 +263,7 @@ The argument is this: ‘Even had they been right in inflicting the fine, I shou
 
 **διʼ ἰδίας ἔχθρας**, belonging to περιπεσόντας, is out of its place in the sentence for the sake of emphasis. The order follows the order of the importance of the ideas: the two which require special prominence are his own innocence and the private ill-will of his prosecutors.
 
-[Shuckburgh's text reads otherwise here; the text shown has διὰ τὰς ἔχθρας.]
+[Anagnosis: Shuckburgh's text reads otherwise here; the text shown has διὰ τὰς ἔχθρας.]
 
 ## 10.1
 **δικάζοντας** ‘sitting on the jury.’
@@ -438,7 +438,7 @@ Another instance. The law punishes an ἀνδραποδιστὴς, *i.e.* one w
 ## 10.21
 **ἀκοῦσαί τινα** ‘that one should be said,’ l. 74.
 
-[Shuckburgh's text reads otherwise here; the text shown has ἀκοῦσαι.]
+[Anagnosis: Shuckburgh's text reads otherwise here; the text shown has ἀκοῦσαι.]
 
 **γοῦν** ‘at least.’ γοῦν introduces a reason for thinking that what has been said is true, or at least reasonable.
 
@@ -468,7 +468,7 @@ Another instance. The law punishes an ἀνδραποδιστὴς, *i.e.* one w
 ## 10.25
 **εἴημεν . . χρῆσθαι**. The words of Dionysius are given first as indirect speech, and the perfect optative is used; and then, as often in Greek, the very words are given with the verbs in the indicative, ἀπέθανον . . ἑαλώκασι . . ἦν. Goodwin, § 242 b. **στρατείαν** cogn. accus., Goodwin, § 158. **κρεῖττον—ἦν αὐτῷ** ‘it had been better for him.’ For the omission of ἂν see Goodwin, § 222, note 1.
 
-[Shuckburgh's text reads otherwise here; the text shown has εἶμεν.]
+[Anagnosis: Shuckburgh's text reads otherwise here; the text shown has εἶμεν.]
 
 ## 10.26
 **τὰ προσήκοντα** sc. ἀκούειν, ‘as he deserves.’ iii. l. 6.
@@ -501,7 +501,7 @@ Another instance. The law punishes an ἀνδραποδιστὴς, *i.e.* one w
 
 **οὐ γάρ πω ᾔδειν** ‘for I had yet to learn.’ ‘I did not know then, nor do I think now.’ **τοὺς μὲν ἰδόντας** ‘those who saw the shield thrown away.’
 
-[Shuckburgh's text reads otherwise here; the text shown has οὐ γάρ πω ᾔδη.]
+[Anagnosis: Shuckburgh's text reads otherwise here; the text shown has οὐ γάρ πω ᾔδη.]
 
 ## 10.31
 **καταψηφίσασθαι** ‘condemn,’ ‘to give votes *against*.’ κατὰ in composition with a verb takes a genitive when its sense is *adverse* or *hostile*; when its sense is *completion*, it takes the accusative. The opposite ‘to acquit’ is ἀποψηφίζεσθαι. Each dicast had two ψῆφοι given him, one for acquittal, the other for condemnation, distinguished either by colour, or by being pierced; and he put into a voting box whichever he pleased. For various methods of doing this, see Dict. of Ant., Article ψῆφος, and cf. Orat. vi. § 37.
@@ -588,7 +588,7 @@ For the historical facts here briefly epitomised, see notes on the last speech, 
 ## 13.15
 **οὐκ ἔφασαν ἐπιτρέψαι . . γενέσθαι** ‘they refused to allow this to take place.’
 
-[Shuckburgh's text reads otherwise here; the text shown has ἐπιτρέψειν.]
+[Anagnosis: Shuckburgh's text reads otherwise here; the text shown has ἐπιτρέψειν.]
 
 For the aorist **ἐπιτρέψαι** after φημί (which occurs also below, l. 325), instead of the future, on the analogy of verbs of threatening, promising, etc., see Goodwin, Gr. Gr. § 203, note 2; Moods and Tenses, § 23, note 3. Madvig (Advers., pp. 156-182) argues strongly against it, and would always change it to the future. His points are mainly these :—(1) If it is admissible, there is no means of distinguishing the past from the future in the infinitive. (2) It is often coupled with a future infinitive, with the direct purpose of distinguishing the meaning. (3) The number of examples found are few in comparison with those of the future construction. (4) It occurs principally in those authors the MSS. of whose works are modern or inferior. (5) It occurs almost always with forms so near the future forms as easily to be mistaken; as ἐπιτρέψαι, κρατῆσαι, παρασκευάσασθαι, ἐνεχυράσασθαι, δέξασθαι. See also his Gr. Gr. § 172. These arguments appear strong, but at the same time we must notice that in this case no real *futurity* is implied. Their opposition to the peace was instant.
 
@@ -600,7 +600,7 @@ For the aorist **ἐπιτρέψαι** after φημί (which occurs also below, 
 ## 13.18
 **ξυνειδότα**. See on ii. l. 113, and Index.
 
-[Shuckburgh's text reads otherwise here; the text shown has συνειδότα.]
+[Anagnosis: Shuckburgh's text reads otherwise here; the text shown has συνειδότα.]
 
 **οὕτως ἀνόητοι . . καὶ ἄφιλοι** ‘so wanting in sense and friends.’ **ὥστε περὶ τηλικούτων ἂν . . παρεκάλεσαν** ‘as to have been likely to have taken into council.’ For ὥστε, introducing a conditional result, see Clyde, § 86. The protasis and apodosis would have been εἰ ἀνόητοι ἦσαν . . A. παρεκάλεσαν ἄν. The position of ἂν after τηλικούτων (‘of such importance’), for the sake of emphasis, should be noticed. **πράττοντες** ‘being engaged.’
 
@@ -611,7 +611,7 @@ For the aorist **ἐπιτρέψαι** after φημί (which occurs also below, 
 
 **ἐκπέμπουσι** ‘they (*i.e.* the oligarchical party) commission Theocritus to go before the Boulè.’ **τὴν . . πρὸ τῶν τριάκοντα**, *i.e.* the Boulè which existed between Ægospotami and the establishment of the Thirty, who caused another to be elected of their own partizans. **τὸν . . καλούμενον** ‘*called* the son of Elaphostictus,’—as though his parentage were uncertain. The speaker wishes to allude to Theocritus’ low and probably servile origin.
 
-[Shuckburgh's text reads otherwise here; the text shown has εἰσπέμπουσι.]
+[Anagnosis: Shuckburgh's text reads otherwise here; the text shown has εἰσπέμπουσι.]
 
 ## 13.20
 **διέφθαρτο** ‘had been already tampered with,’ *i.e.* by the oligarchical party. **καὶ . . ἐπεθύμει** ‘and were already oligarchical at heart.’
@@ -644,7 +644,7 @@ Nikias and Nikomenes are two supporters of the popular party. Nikias is mentione
 
 **τὸν βωμὸν Μουνυχίασιν** ‘the altar of Artemis on Munychia,’ see Paus. i. 1, 4. Munychia on the E. of the Peiræus, containing the citadel and a smaller harbour. For the locative Μουνυχίᾱσι [cf. Ὀλυμπίᾱσι], see Goodwin, § 61, note 2.
 
-[Shuckburgh's text reads otherwise here; the text shown has Μουνιχίασιν.]
+[Anagnosis: Shuckburgh's text reads otherwise here; the text shown has Μουνιχίασιν.]
 
 ## 13.25
 **ἕως τὰ πράγματα κατασταίη** ‘until political affairs should be quieted down;’ for ἕως with optative, see Goodwin, § 239, 2.
@@ -664,7 +664,7 @@ Nikias and Nikomenes are two supporters of the popular party. Nikias is mentione
 
 **σοῦ . . καταμαρτυρήσει** ‘will prove *against* you,’ l. 339.
 
-[Shuckburgh's text reads otherwise here; the text shown has σοὶ.]
+[Anagnosis: Shuckburgh's text reads otherwise here; the text shown has σοὶ.]
 
 ## 13.30
 **ἐκομίσθησαν** ‘they were conveyed,’ *i.e.* Agoratus and his securities.
@@ -685,7 +685,7 @@ Nikias and Nikomenes are two supporters of the popular party. Nikias is mentione
 
 **ἂν γενέσθαι**. Goodwin, § 211.
 
-[Shuckburgh's text reads otherwise here; the text shown has γενήσεσθαι.]
+[Anagnosis: Shuckburgh's text reads otherwise here; the text shown has γενήσεσθαι.]
 
 ## 13.33
 **σχεδόν τι**. See iv. l. 32.
@@ -743,7 +743,7 @@ For this transaction see v. § 52. It took place at the end of B.C. 404, and was
 
 **οὐκ ἔφασαν ἐπιτρέψαι** ‘refuse to allow.’ See *supra*, l. 99. **οἱ ἀγαθοὶ ἄνδρες** ‘the loyalists.’
 
-[Shuckburgh's text reads otherwise here; the text shown has ἐπιτρέψειν.]
+[Anagnosis: Shuckburgh's text reads otherwise here; the text shown has ἐπιτρέψειν.]
 
 ## 13.48
 **ἀγαθόν τι πρᾶξαι τῇ πόλει**. The more usual construction is πράσσειν τί τινα. The dative may be regarded as dependent on ἀγαθόν.
@@ -781,7 +781,7 @@ For this transaction see v. § 52. It took place at the end of B.C. 404, and was
 ## 13.54
 **Ξενοφῶν ὁ Ἰκαριεύς** must mean ‘Xenophon of the deme Icaria,’ an Attic deme of the tribe Aegeis. And if the word is genuine it would be an instance of the torture of a citizen; but it cannot have been to extract evidence, to which a citizen was not liable (see *supra*, l. 188), in virtue of a decree of Scamandrius, a repeal of which however had at any rate been proposed; see Andok. *de Myst.* 43. [The reading Καριεὺς does not seem intelligible; a Carian is Κάρ.] **οὕτω** ‘as you know’; perhaps ὡς ἴστε has been omitted.
 
-[Shuckburgh's text reads otherwise here; the text shown has Ξενοφῶν ὁ Κουριεύς.]
+[Anagnosis: Shuckburgh's text reads otherwise here; the text shown has Ξενοφῶν ὁ Κουριεύς.]
 
 **οὐδένα γὰρ κ.τ.λ.** They (Hippias and Xenophon) were not spared by the Thirty, as you were, because they had not by their information brought any Athenian citizen to execution.
 
@@ -790,7 +790,7 @@ For this transaction see v. § 52. It took place at the end of B.C. 404, and was
 
 **ἡ ἐκκλησία Μουνυχίασι** see *supra*. l. 220. **οὗτος** *i.e.* Hagnodorus.
 
-[Shuckburgh's text reads otherwise here; the text shown has ἡ ἐκκλησία [ἐν] Μουνιχίασιν.]
+[Anagnosis: Shuckburgh's text reads otherwise here; the text shown has ἡ ἐκκλησία [ἐν] Μουνιχίασιν.]
 
 **κατὰ . . τουτὶ** ‘in virtue of the decree which I here produce.’
 
@@ -804,7 +804,7 @@ For this transaction see v. § 52. It took place at the end of B.C. 404, and was
 
 **τό γε ἐπʼ ἐκεῖνον εἶναι** ‘as far as he was concerned.’ Cf. the phrases ἑκὼν εἶναι, τὸ τήμερον εἶναι. Goodwin, § 268, note. ἐπʼ ἐκείνῳ is proposed by some; but we have ὅσον γε τοὐπʼ ἐμέ, Eur. Orest. 1345; τὸ ἐπὶ σφᾶς εἶναι, Thucyd. 4, 28, 1, and other like instances. **ἐσώθης** he suddenly addresses the defendant. See l. 528.
 
-[Shuckburgh's text reads otherwise here; the text shown has τό γε ἐπʼ ἐκείνῳ εἶναι.]
+[Anagnosis: Shuckburgh's text reads otherwise here; the text shown has τό γε ἐπʼ ἐκείνῳ εἶναι.]
 
 ## 13.59
 **ὡς οὐ καθαρῶς . . βασανισθῆναι** ‘that he should be examined by torture as not being a pure-bred Athenian.’ See *supra*, ll. 188-371. **τουτὶ** see *supra*, l. 390.
@@ -833,13 +833,13 @@ For this transaction see v. § 52. It took place at the end of B.C. 404, and was
 ## 13.65
 **πολλὰ . . ὅσα κακὰ . . ἐπιτετήδευται . . λέγειν** ‘considering how numerous are the base and shameful facts of his career, it would be too long a business to recount them.’ **ἐπιτηδεύειν** an intransitive verb, yet takes the neuter accusative of a numeral adjective, which in the passive construction becomes nominative. Madv. § 27, a. *Supra*, v. l. 7.
 
-[Shuckburgh's text reads otherwise here; the text shown has πολὺ ἂν εἴη ἔργον λέγειν.]
+[Anagnosis: Shuckburgh's text reads otherwise here; the text shown has πολὺ ἂν εἴη ἔργον λέγειν.]
 
 **συκοφαντίας . . ἀπέγραφεν**. The various forms of legal processes set on foot by this professional informer. For **συκοφαντία**, see ii. l. 140. **δίκη** and **γραφή** are respectively ‘a private’ and ‘public action,’ *i.e.* referring to some personal injury, or injury to the property or right of the State. See Classical Dicty. **ἀπογραφή** see iii. 16.
 
 **συκοφαντίας . . ὤφλησεν** ‘you convicted him of Sycophancy, and he was fined 10,000 drachmæ.’ The fine for this offence lay at the discretion of the judges. Hermann, 136.
 
-[Shuckburgh's text reads otherwise here; the text shown has ὦφλεν.]
+[Anagnosis: Shuckburgh's text reads otherwise here; the text shown has ὦφλεν.]
 
 ## 13.67
 **παραφρυκτωρευόμενος . . ληφθείς** ‘having been caught in the act of making treasonable signals to the enemy.’ The idea of malpractice is supplied by παρά, as in παραπρεσβεύειν, etc. Lamachus was killed early in 414 (Thucyd. vi. 101); the offence, therefore, must have been before that; and though it is idle perhaps to seek to fix the exact time, the occurrences in the autumn of 415, while the Athenians were at Catana, must have given many opportunities for such treason. [Thucyd. vi. 63-70.] For the use of such fire signals as giving definite information, see Herod. vii. 182. Thucyd. 2, 94; 3, 22, 9.
@@ -953,7 +953,7 @@ A third hold on him that you have is this: if forced to confess that he did *not
 
 **καὶ ἀφεὶς . . ἐγίγνετο** ‘and is shown to have abandoned and betrayed the persons by whose means it (the Demus) was ever exalted and strengthened.’ **ἐκεῖνος** refers to the Demus. The imperfect **ἐγίγνετο** is used because the influence of these men was continuous.
 
-[Shuckburgh's text reads otherwise here; the text shown has καθυφεὶς.]
+[Anagnosis: Shuckburgh's text reads otherwise here; the text shown has καθυφεὶς.]
 
 **τὸν . . ποιητὸν πατέρα** sc. the Demus, as in l. 654. **καὶ διὰ τοῦτο** ‘even for this if there were no other reason.’ **κατὰ τὸν . . κακώσεως νόμον** ‘in virtue of the law regarding the doing an injury to a father.’ To strike or ill-use a parent was an offence punishable by fine, disfranchisement, or death: the suit was called γραφὴ κακώσεως γονέων. See Arist. Av. 1344. Nub. 1419-1430.
 
@@ -1006,7 +1006,7 @@ A third hold on him that you have is this: if forced to confess that he did *not
 ## 14.5
 **ἔνοχός ἐστι λειποταξίου**, sc. γραφῆς ‘liable to the charge of desertion.’ In l. 353 we have ἔνοχος τῇ γραφῇ ; cf. l. 44: the dative is the more natural construction, but it admits of the genitive on the analogy of other *verba accusandi*. Madv. § 61.
 
-[Shuckburgh's text reads otherwise here; the text shown has λιποταξίου.]
+[Anagnosis: Shuckburgh's text reads otherwise here; the text shown has λιποταξίου.]
 
 **μάχην γὰρ οὐδεμίαν γεγονέναι**. No direct indication of the campaign referred to is given; but the facts correspond to that of 395 B.C., in which the Athenians sent a force to Haliartus, before the arrival of which the Spartans were defeated and Lysander killed. Jebb, *Att. Or.* vol. i. pp. 257-8; Xen. Hell. 3, 5, 16. **τὸν δὲ νόμον κελεύειν** ‘whereas the regulations of the law are.’
 
@@ -1106,7 +1106,7 @@ To which passage the scholiast quotes a line of Eupolis as referring to the same
 
 **ἐπὶ τῷ στρώματι** ‘on the dinner couch,’ usually called κλίνη, but which is called τὰ στρώματα in Arist. Vesp. 1213. The speaker probably uses the word ‘bed’ purposely to heighten the picture of depravity. The presence of such a woman as a guest at a banquet would be against Athenian ideas of propriety. **ἐκώμαζε** used of licentious conduct, Demosthenes (?), 1356.
 
-[Shuckburgh's text reads otherwise here; the text shown has ὑπὸ τῷ αὐτῷ ἱματίῳ.]
+[Anagnosis: Shuckburgh's text reads otherwise here; the text shown has ὑπὸ τῷ αὐτῷ ἱματίῳ.]
 
 ## 14.26
 **ἐπειδὴ . . ἐξημάρτανε** ‘upon his outrageous conduct beginning to be notorious.’ Notice the tense, and the intensive ἐκ.
@@ -1155,7 +1155,7 @@ Here follows an enumeration of the public crimes of Alcibiades; the chief of whi
 ## 14.32
 **χρῆται παραδείγματι** ‘he quotes as a precedent.’
 
-[Shuckburgh's text reads otherwise here; the text shown has χρῆται παραδείγμασι.]
+[Anagnosis: Shuckburgh's text reads otherwise here; the text shown has χρῆται παραδείγμασι.]
 
 **περὶ τῆς ἑαυτοῦ πονηρίας** ‘in support of his own baseness.’
 
@@ -1274,7 +1274,7 @@ The point of this passage (of which the text is in great confusion) seems to be 
 ## 17.6
 **τὰ δύο μέρη** ‘two thirds,’—what had belonged to the other two brothers. **τὰ Ἐρασιστράτου** his point is that in the case of Erasistratus’ share he had really had possession, and to lose that would be harder on him than to lose the other two shares, to which, however, he was, strictly speaking, entitled.
 
-[Shuckburgh's text reads otherwise here; the text shown has τὼ δύο μέρει.]
+[Anagnosis: Shuckburgh's text reads otherwise here; the text shown has τὼ δύο μέρει.]
 
 **οὐ τὴν ἀκρίβειαν ἐπισκεψάμενος** ‘not having made the calculation with minute accuracy.’ **ἐπισκέπτομαι** ‘examine closely,’ τοὺς νόμους ἐπισκεψαμένους τοῦ Δράκοντος ἐκ τῆς στήλης, Demosth. (?) 1161.
 
@@ -1387,7 +1387,7 @@ The point of this passage (of which the text is in great confusion) seems to be 
 ## 28.17
 **ἂν . . λάβητε** ‘if you shall have exacted’ (i. l. 28).
 
-[Shuckburgh's text reads otherwise here; the text shown has ἐὰν … λάβητε.]
+[Anagnosis: Shuckburgh's text reads otherwise here; the text shown has ἐὰν … λάβητε.]
 
 ## 30.1
 **ἐάν . . πεποιηκότες** ‘if they can show that they have done any service to the State.’ ii. l. 119.
@@ -1415,12 +1415,12 @@ The point of this passage (of which the text is in great confusion) seems to be 
 
 **καὶ τοσαῦτα . . ἔδωκεν** ‘and though he had the management of so much, he was the only official who gave no account of his office.’ **ἀρξάντων** used generally of all offices, see xiv. l. 72.
 
-[Shuckburgh's text reads otherwise here; the text shown has καὶ ὅσα ⟨οὐδεὶς πώποτε⟩.]
+[Anagnosis: Shuckburgh's text reads otherwise here; the text shown has καὶ ὅσα ⟨οὐδεὶς πώποτε⟩.]
 
 ## 30.5
 **κατὰ πρυτανείαν λόγον ἀναφέρουσι**. ‘Give in an account of their office every Prytany,’ *i.e.* every month [see xi. l. 8]. A passage from Pollux (8, 9, 87) is quoted by Bremi and others, to the effect that it was ‘the duty of the Archons to ask whether every officer was carrying on his office well.’ But it seems certain that the εὔθυναι was only at the end of an office, within thirty days (Harpocrat. s. v. λογισταί). The explanation may be this: the speaker regards Nicomachus as one of the inferior officers, some of whom (*e.g.* the γραμματεύς) changed each month with the Prytaneis. He may mean, ‘Other underlings have to give in their accounts every month; you take greater privileges even than an Archon, who has to give his accounts at the end of his year.’
 
-[Shuckburgh's text reads otherwise here; the text shown has ἀποφέρουσι.]
+[Anagnosis: Shuckburgh's text reads otherwise here; the text shown has ἀποφέρουσι.]
 
 **ἐγγράψαι** sc. λόγον ‘to enter his account’; or, as in l. 19, it may mean to write the laws on the στῆλαι.
 
@@ -1456,7 +1456,7 @@ The point of this passage (of which the text is in great confusion) seems to be 
 ## 30.11
 **Νικομαχίδην** Why he should be called Νικομαχίδης here, and Νικόμαχος in l. 97, there seems no certain reason producible. Perhaps the use of the patronymic may be either a more formal way of speaking of a man engaged in high functions, or it may be used sarcastically, ‘this son of Nicomachus’ (a slave). Rauchenstein compares the use of Εὐβουλίδης for Εὔβουλος. See x. l. 189. Harpocration quotes the speech as κατά Νικομαχίδου apparently; see Appendix IV., where also Φιλωνίδης seems to stand for Φίλων.
 
-[Shuckburgh's text reads otherwise here; the text shown has Νικόμαχον.]
+[Anagnosis: Shuckburgh's text reads otherwise here; the text shown has Νικόμαχον.]
 
 **συνδικάζειν** ‘to be assessors,’ *i.e.* to sit in the court with the Dicasts, and vote with them. As the Boulè was just then almost entirely oligarchical (vi. l. 135), this meant certain condemnation for Cleophon. **συνεστασίασεν** ‘joined this revolutionary plot.’
 
@@ -1555,7 +1555,7 @@ See on xi. l. 66. **τοῖς βουλεύουσιν ἑκάστοτε** ‘thos
 ## 30.30
 **ὑπὲρ τοῦ δήμου** ‘in behalf of the people.’ **συγκαταλύσας φαίνεται** ‘notoriously helped to put down the Democracy.’ See on ii. l. 119.
 
-[Shuckburgh's text reads otherwise here; the text shown has ὑπὸ τοῦ δήμου.]
+[Anagnosis: Shuckburgh's text reads otherwise here; the text shown has ὑπὸ τοῦ δήμου.]
 
 ## 30.31
 **ἐξαιτησομένων** ‘intend to beg him off.’

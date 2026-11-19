@@ -6,7 +6,7 @@
 
 Lake's critical apparatus stands at the foot of each Greek page, in small type. Its items are numbered afresh on each page, and each answers a small raised numeral after a word of the text; the app drops the numbers and files each item under its verse. An item gives the reading of the text and the witnesses that have it, then the other readings with theirs ("τόπῳ ℵ\* L₁, τρόπῳ ℵᶜ AL₂(E)": ℵ in its first hand and the Vulgate Latin read τόπῳ; ℵ corrected, A, the Palatine Latin and, loosely, the Ethiopic read τρόπῳ). Where only the Latin or Ethiopic preserves a passage that A lacks, Lake translates it back into Greek and prints it in the text; the apparatus then says "retranslated from LE". He writes the readings of the versions in Latin (L) or gives them in English (E), and adds short remarks in English. The list of witnesses below is his (pp. 3-5), one paragraph to a witness, with what his apparatus adds; the abbreviations are explained from their use.
 
-Where this edition corrects a misprint of Lake's in the Greek text, the apparatus says so: "μετανοίας: Lake prints μενανοίας, a misprint; corrected in this edition." A misprint inside one of his apparatus items is corrected in the same way, the note following the item ("θεῖον (in the note above): Lake prints θεῖαν, a misprint; corrected in this edition."). Such notes are this edition's, not Lake's.
+Where a misprint of Lake's in the Greek text is corrected, the apparatus says so: "μετανοίας [Print has: μενανοίας]". A misprint inside one of his apparatus items is corrected in the same way, the printed form following the item in the same bracket. The brackets beginning "Print has:" are the app's, not Lake's.
 
 ## The Greek manuscripts
 

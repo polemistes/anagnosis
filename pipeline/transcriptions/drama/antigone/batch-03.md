@@ -129,7 +129,7 @@
 178	ἐμοὶ γὰρ ὅστις πᾶσαν εὐθύνων πόλιν
 179	μὴ τῶν ἀρίστων ἅπτεται βουλευμάτων,
 --- apparatus
-171	παίσαντες] In L the letters αισ are small and cramped, having been substituted by the first corrector (S) for two erased letters. I suppose that the first hand had by a mere oversight written π[ligature with acute]σαντες (πείσαντες). The erasure of the original σ was necessary in order to make room for αι.
+171	παίσαντες] In L the letters αισ are small and cramped, having been substituted by the first corrector (S) for two erased letters. I suppose that the first hand had by a mere oversight written π[Anagnosis: here Jebb prints the scribes' joined sign for ει, with an acute accent]σαντες (πείσαντες). The erasure of the original σ was necessary in order to make room for αι.
 178	πᾶσαν] Nauck conject. ταγὸς: Blaydes, πρύμναν . . πόλεως.
 --- notes
 170	Flags: 170 μοίρας, 171 τε καὶ, 174 ὀλωλότων., 176 ἂν are all printed on their lines as the draft has them (the OCR split or lost them); nothing changed. Every verse read against the page; margin 170, 175.

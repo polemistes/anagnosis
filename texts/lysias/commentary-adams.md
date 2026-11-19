@@ -61,7 +61,7 @@ The verbs are thrown into the infin. by ὥστε; otherwise they would be optat
 
 **τὴν κατηγορίαν ποιήσωμαι**: cp. τοὺς λόγους ποιοῦμαι § 2. The Ms. reading is ποιήσομαι. For the question of mood involved see Crit. Note.
 
-[Adams's text reads otherwise here; the text shown has τὴν κατηγορίαν ποιήσομαι.]
+[Anagnosis: Adams's text reads otherwise here; the text shown has τὴν κατηγορίαν ποιήσομαι.]
 
 **διʼ ἐλαχίστων**: the usual expression is διὰ βραχυτάτων, as in § 62, 16. 9, 24. 4. Cp. διὰ βραχέων ἐρῶ *I will tell in a few words*, 24. 5.
 
@@ -140,7 +140,7 @@ The verbs are thrown into the infin. by ὥστε; otherwise they would be optat
 
 **εἰς τἀδελφοῦ . . . εἰς Δαμνίππου**: the Greek idiom is precisely the same as the colloquial English.
 
-[Adams's text reads otherwise here; the text shown has εἰς τὰ τοῦ ἀδελφοῦ.]
+[Anagnosis: Adams's text reads otherwise here; the text shown has εἰς τὰ τοῦ ἀδελφοῦ.]
 
 **σκέψηται**: the same sarcastic tone as in the preceding. The hearer feels with what cruel unconcern these robbers treated their victims.
 
@@ -198,7 +198,7 @@ The irregularity in this otherwise symmetrical sentence lies in the fact that af
 
 **οὐδεμιᾶς**: while οὐδεμιᾶς depends on ἐξενεχθῆναι, the negative part of it goes over to εἴασαν; hence οὐ-, not μη-.
 
-[Adams's text reads otherwise here; the text shown has οὐδʼ ἐκ μιᾶς.]
+[Anagnosis: Adams's text reads otherwise here; the text shown has οὐδʼ ἐκ μιᾶς.]
 
 **κλεισίον**: see L. & S. κλισίον. That the form is κλεισ- is determined by inscriptions.
 
@@ -406,7 +406,7 @@ For the use of antithesis in this section and the next see App. § 57. 1.
 
 **ἀπεψηφίσασθε**: on this rare use of the aorist see Crit. Note.
 
-[Adams's text reads otherwise here; the text shown has ἀπεψηφίζεσθε ⟨ἄν⟩.]
+[Anagnosis: Adams's text reads otherwise here; the text shown has ἀπεψηφίζεσθε ⟨ἄν⟩.]
 
 ## 12.35
 **καὶ μὲν δή**: force, see on § 30.
@@ -546,7 +546,7 @@ For the use of antithesis in this section and the next see App. § 57. 1.
 
 **ψηφιεῖσθε**: mood, HA. 885 a; G. 1372; B. 593; Gl. 638 a.
 
-[Adams's text reads otherwise here; the text shown has ψηφίσησθε.]
+[Anagnosis: Adams's text reads otherwise here; the text shown has ψηφίσησθε.]
 
 ## 12.45
 **πραττόντων**: *sc.* ὑμῶν. HA. 972 a; G. 1568; B. 657 n. 1; Gl. 590 a.
@@ -729,7 +729,7 @@ The English construction would put “would not” with only one of the clauses,
 
 **πόλεις ὅλας**: a great exaggeration. The only “cities” which sent out troops were those which later joined Pausanias, and these are included in τῶν συμμάχων of the next line.
 
-[Adams's text reads otherwise here; the text shown has πόλεις.]
+[Anagnosis: Adams's text reads otherwise here; the text shown has πόλεις.]
 
 **οὐ διαλλάξαι**: inserted to keep the jury intent upon the central thought that in all this Phidon and Eratosthenes were betraying their trust and belying their own professions. Note that while the infin. (not in ind. disc.) regularly takes μή, a negatived infin. standing in parenthetical antithesis takes οὐ.
 
@@ -791,7 +791,7 @@ The thought is: That citizen must indeed be in desperate straits and in sore nee
 ## 12.66
 **τῇ πολιτείᾳ**: *to the administration.*
 
-[Adams's text reads otherwise here; the text shown has τῇ πόλει.]
+[Anagnosis: Adams's text reads otherwise here; the text shown has τῇ πόλει.]
 
 **ἐπειδή**: for ἐπειδή with imperf., see on ἐγίγνοντο, § 53.
 
@@ -857,7 +857,7 @@ The following events belong to the time (404 B.C.) after the complete restoratio
 
 **ἀποστερήσεσθε**: voice, HA. 496; G. 1248; B. 514-15; Gl. 393.
 
-[Adams's text reads otherwise here; the text shown has ἀποστερηθήσεσθε.]
+[Anagnosis: Adams's text reads otherwise here; the text shown has ἀποστερηθήσεσθε.]
 
 **τιμωρίαν**: Lysias is claiming that Theramenes sought to destroy the independence of the city from fear that if the people should be left free to act their pleasure, they would inflict extreme punishment upon him. But punishment for what? He was under no accusation and in no danger. In the period immediately after the fall of the Four Hundred, when some of his colleagues were executed and others banished, he retained the confidence of the people and was for a time at the head of the new administration. In the years that followed (410-404), when the extreme democracy had returned to the fullest power, still no attack was made upon him. Had he been able to secure moderate terms from Sparta, he would have been the most popular man in the city.
 
@@ -913,7 +913,7 @@ The scheme was carried out by means of the political machinery described in deta
 
 **ἀπέδειξε . . . κελεύοιεν**: Theramenes had doubtless designated his ten candidates before the preliminary club meetings were held; at these meetings the district leaders appear to have said to the members, naming two groups of ten men each, “Vote for these ten men whom Theramenes has designated (ἀπέδειξε), and for the following ten whom our chiefs, the Ephors, order you (κελεύουσιν) to vote for.” ἀπέδειξε remains unchanged according to the regular principle that dependent *secondary* tenses of the indicative do not become opt. in ind. disc., HA. 935 b, c; G. 1497. 2, 1499; B. 675. 1, 3; GMT. 689. 3, cp. 695 I, last paragraph.
 
-[Adams's text reads otherwise here; the text shown has ὑπέδειξε.]
+[Anagnosis: Adams's text reads otherwise here; the text shown has ὑπέδειξε.]
 
 **ἐκ τῶν παρόντων**: *i.e.* from the citizens at large; a mere pretense of representation of the popular body.
 
@@ -1191,7 +1191,7 @@ For the use of antithesis in this section see App. § 57. 1.
 
 **τὰς τιμωρίας**: the penalty due. This passage is of great interest as bearing on the question of the belief of the common people, in distinction from that of the poets and philosophers, as to the condition of the dead. Lysias assumes that the jurymen believe in the conscious existence of the dead, and their knowledge of what is being done in this world for or against them. An appeal of this sort is not uncommon in Athenian pleas, but in all other instances is qualified by some expression which implies that such knowledge on the part of the dead is only a possibility. — On the remarkable ἀσύνδετον in the final sentence see App. § 58. 3.
 
-[Adams's text reads otherwise here; the text shown has τιμωρίας.]
+[Anagnosis: Adams's text reads otherwise here; the text shown has τιμωρίας.]
 
 ## 16.1
 **συνῄδη**: the older Attic form is ᾔδη, contracted from ᾔδεα (used by Homer). The later ἤδειν became the usual form in the fourth century B.C.
@@ -1407,7 +1407,7 @@ For the use of antithesis in this section see App. § 57. 1.
 
 **προσιέναι**: see Crit. Note.
 
-[Adams's text reads otherwise here; the text shown has παριέναι.]
+[Anagnosis: Adams's text reads otherwise here; the text shown has παριέναι.]
 
 **Ἀγησιλάου . . . ἐμβαλόντος**: modifying ψηφισαμένων τῶν ἀρχόντων.
 
@@ -1613,7 +1613,7 @@ On the use of borrowed material in this proem see Introd. p. 168 ff. These parts
 
 **βελτίω ἢ πλουσιώτερον**: *more honorable than rich.* “When two adjectives or adverbs are compared ἤ is always used, and both stand in the comparative degree,” B. 426 n. 3; cp. HA. 645. So in Latin: *verior quam gratior more true than agreeable,* Livy 22. 38.
 
-[Adams's text reads otherwise here; the text shown has βελτίονα … ἢ πλουσιώτερον.]
+[Anagnosis: Adams's text reads otherwise here; the text shown has βελτίονα … ἢ πλουσιώτερον.]
 
 **τὴν δέ**: see on ἀδελφήν § 12. That this was the daughter who afterward became the wife of Aristophanes is clear from § 17, where we learn that there were only two daughters.
 
@@ -1739,7 +1739,7 @@ On the use of borrowed material in this proem see Introd. p. 168 ff. These parts
 
 **ὑποθήσει κτλ.**: the text here is doubtful (see Crit. Note), but the proposition of Demus certainly was that Aristophanes loan him sixteen minae to help him fit out his trireme, and take the cup as security. The offer of 25% on the short loan was a tempting one (the ordinary rate was 12% to 18% per annum).
 
-[Adams's text reads otherwise here.]
+[Anagnosis: Adams's text reads otherwise here.]
 
 **εἰς τὴν τριηραρχίαν**: see on εἰς τὰς ναῦς § 21 (B).
 
@@ -1811,7 +1811,7 @@ On the use of borrowed material in this proem see Introd. p. 168 ff. These parts
 
 **ἀπεφαίνετο**: *i.e.* when the officers made their inventory.
 
-[Adams's text reads otherwise here; the text shown has ἀπεφαίνοντο.]
+[Anagnosis: Adams's text reads otherwise here; the text shown has ἀπεφαίνοντο.]
 
 **πλεῖν**: form, see on 32. 20.
 
@@ -1833,7 +1833,7 @@ On the use of borrowed material in this proem see Introd. p. 168 ff. These parts
 ## 19.33
 **ἐκείνων**: Aristophanes and his father. The speaker unconsciously passes from the hypothetical case (ἄνθρωποι) to his own.
 
-[Adams's text reads otherwise here; the text shown has τἀκείνων.]
+[Anagnosis: Adams's text reads otherwise here; the text shown has τἀκείνων.]
 
 **ὃ . . . δεινότατον**: the construction is, ὃ δὲ πάντων δεινότατον (ἐστίν) | (τοῦτʼ ἔστιν) | ὑποδέξασθαι καὶ τρέφειν. A simpler expression is that of Plato’s *Apology* 41 b καὶ δὴ τὸ μέγιστον | (τοῦτʼ ἔστιν) | ἐξετάζοντα διάγειν; less close is the connection where the relative precedes a clause with a finite verb, as in 32. 24 ὃ δὲ πάντων δεινότατον (ἐστίν), ὦ ἄνδρες δικασταί· οὗτος γὰρ . . . λελόγισται. So in 19. 25. Cp. HA. 1009 a.
 
@@ -2163,7 +2163,7 @@ For the question of the genuineness and position of this paragraph, see Crit. No
 
 **ἀθληταῖς**: *sc.* ἵπποις. He was not content with furnishing a cavalry horse which would make a fine appearance in the public processions, but he kept race horses also to compete in the national games.
 
-[Adams's text reads otherwise here; the text shown has ἀθλητὰς ⟨οἷς⟩.]
+[Anagnosis: Adams's text reads otherwise here; the text shown has ἀθλητὰς ⟨οἷς⟩.]
 
 **Ἰσθμοῖ, Νεμέᾳ**: for the locative see HA. 220; G. 296; B. 76. N.; Gl. 527 a. Cp. on 12. 50.
 
@@ -2260,7 +2260,7 @@ On the ἐρώτησις cp. on 12. 24.
 
 **οἱ μὲν τέτταρες**: cp. on τὰς ὀκτώ 32. 21.
 
-[Adams's text reads otherwise here; the text shown has οἱ μὲν δύο.]
+[Anagnosis: Adams's text reads otherwise here; the text shown has οἱ μὲν δύο.]
 
 **Ἄνυτος**: it is uncertain whether this was the Anytus who shared in the prosecution of Socrates. That Anytus, a rich tanner, was a leading democrat, associated with Thrasybulus in the Return. Cp. Isoc. 18. 23 Θρασύβουλος καὶ Ἄνυτος μέγιστον μὲν δυνάμενοι τῶν ἐν τῇ πόλει (*c.* 399 B.C.). This activity in protecting the poor man’s food supply would be quite in keeping with his democratic rôle.
 
@@ -2426,7 +2426,7 @@ On the ἐρώτησις cp. on 12. 24.
 
 **οἷός τʼ ὦ**: see Crit. Note.
 
-[Adams's text reads otherwise here.]
+[Anagnosis: Adams's text reads otherwise here.]
 
 **διὰ βραχυτάτων**: see on διʼ ἐλαχίστων 12. 3.
 
@@ -2535,7 +2535,7 @@ On the following argument see Introd. p. 237.
 
 **ψηφίσασθαι πάντας** (cp. πείσει τινάς above): ‘it will be as easy for all (πάντας) to see a cripple in him, as for any (τινάς) to see a sound man in me.’ Forman (Class. Rev. 10. 105) calls attention to the fact that no one of Lysias’s speakers but the cripple uses πᾶς in the order, noun (or pronoun) + verb + πᾶς. He thinks it may well be a touch of Ethopoiia to catch this trick of the old man’s speech as he does in §§ 13, 14, 19, 21, 27.
 
-[Adams's text reads otherwise here; the text shown has ψηφίσασθαι ἐλεήσαντας.]
+[Anagnosis: Adams's text reads otherwise here; the text shown has ψηφίσασθαι ἐλεήσαντας.]
 
 **θεσμοθέται**: cp. Crit. Note. Of the nine archons the first three (Βασιλεύς, Πολέμαρχος, Ἄρχων) had individual departments of administration; the six others formed one board under the name Θεσμοθέται. Their chief work was the supervision of the law courts (see App. § 5); to this was added the drawing of the lot for those officers who were not elected by vote. Cf. Gulick, p. 301 f.
 
@@ -2546,11 +2546,11 @@ On the following argument see Introd. p. 237.
 
 **οὔθʼ οὗτος ὑμῖν**: “The drastic tautology of the two disjunctive members, *You do not think as he does, and he does not think as you do, and that is a right good thing*, fits the comic coloring of the passage” (Frb.); cp. Crit. Note.
 
-[Adams's text reads otherwise here; the text shown has οὔθʼ οὗτος εὖ φρονεῖ.]
+[Anagnosis: Adams's text reads otherwise here; the text shown has οὔθʼ οὗτος εὖ φρονεῖ.]
 
 **εὖ ποιῶν**: while grammatically εὖ ποιῶν is connected with the second clause only, its force extends over both. It is a stereotyped expression, *fortunately, thank heaven*. Its formal use went so far that Demosthenes could say (23. 143), τοῦτο . . ., εὖ ποιοῦν, οὐ συνέβη *this, fortunately, did not happen*.
 
-[Adams's text reads otherwise here; the text shown has εὖ φρονεῖ.]
+[Anagnosis: Adams's text reads otherwise here; the text shown has εὖ φρονεῖ.]
 
 **ὥσπερ ἐπικλήρου**: on the simile and the personification, see Introd. p. 25, N. 5. The point is that when by the absence of sons an estate fell to a daughter, the nearest male heir could demand the hand of the heiress in marriage, even to the extent of taking her from her husband, if she was already married. The provision was made in order to keep the property in the family (cp. on 32. 4). The cripple says that the complainant looks upon his misfortune as an heiress, and is trying to get possession of her inheritance of an obol a day. It is the best of the joke to represent the complainant as trying to get the cripple’s obol for himself.
 
@@ -2898,7 +2898,7 @@ For the repeated use of antithesis in this section see App. § 57. 1.
 
 **ὅτε ἀκούοιτε, ἐπειδὴ πυνθάνοισθε** (§ 22): in both instances the reference is to the repeated rumors that came from the city. HA. 914 B (2); G. 1431. 2; B. 625; Gl. 616 b; GMT. 532.
 
-[Adams's text reads otherwise here; the text shown has ἐπειδὴ δὲ ἐπυνθάνεσθε (§ 22).]
+[Anagnosis: Adams's text reads otherwise here; the text shown has ἐπειδὴ δὲ ἐπυνθάνεσθε (§ 22).]
 
 **φυγῇ**: best taken in the (rare) collective sense = *you, the exiles*. So Xen. *Hell.* 5. 2. 9 κατάγειν ἐβούλοντο τὴν φυγήν. Cp. τὴν ἀρχήν = *the administration* Lys. 12. 6. For the argument, cp. the plea of Theramenes to the same effect, Xen. *Hell.* 2. 3. 44.
 
@@ -2992,7 +2992,7 @@ For the repeated use of antithesis in this section see App. § 57. 1.
 
 **πειθομένοις**: in agreement with ὑμῖν understood, and governing οἷς.
 
-[Adams's text reads otherwise here; the text shown has πιθομένοις.]
+[Anagnosis: Adams's text reads otherwise here; the text shown has πιθομένοις.]
 
 ## 25.28
 **οἱ ἔχοντες . . . διεκελεύσαντο**: their foremost leader, Thrasybulus, above all. Xenophon (*Hell.* 2. 4. 42) quotes these words from the speech of Thrasybulus in the assembly after the Return: οὐ μέντοι γε ὑμᾶς, ὦ ἄνδρες, ἀξιῶ ἐγὼ ὧν ὀμωμόκατε παραβῆναι οὐδέν, ἀλλὰ καὶ τοῦτο πρὸς τοῖς ἄλλοις καλοῖς ἐπιδεῖξαι, ὅτι καὶ εὔορκοι καὶ ὅσιοί ἐστε *but I would not have you, fellow-citizens, in any way violate your oaths, but rather show this in addition to your other noble deeds, that you are reverent and faithful to your pledges*. Isocrates some time later testifies to the self-restraint of Thrasybulus and Anytus: Θρασύβουλος καὶ Ἄνυτος μέγιστον μὲν δυνάμενοι τῶν ἐν τῇ πόλει, πολλῶν δʼ ἀπεστερημένοι χρημάτων, εἰδότες δὲ τοὺς ἀπογράψαντας, ὅμως οὐ τολμῶσιν αὐτοῖς δίκας λαγχάνειν οὐδὲ μνησικακεῖν *Thrasybulus and Anytus, who are the most powerful men in the city, and have been robbed of great possessions, though they know who confiscated them, nevertheless are unwilling to bring suit or cherish anger* (18. 23). Archinus, a third democratic leader, when one of the returned exiles attempted to violate the amnesty (μνησικακεῖν), carried through the Senate his condemnation to death without trial, as an example to all citizens who might be tempted to violate the oaths of reconciliation (Arist. *Resp. Ath.* 40. 2).
@@ -3050,7 +3050,7 @@ For the rhetorical ἐπαναστροφή and κύκλος see App. § 57. 7 f.
 
 **τούτους μέν . . . ἐκείνους δέ**: these sycophants (τούτους) now hold undisputed lead, on the ground of the dangers which they met in helping to secure the return. They think that if, in the new situation, other men shall come forward and benefit the state, the leadership will pass to these others (ἐκείνους); they therefore try to discredit men like the speaker who seek honestly and unselfishly to serve the state. For τούτους cp. on τούτου 12. 81.
 
-[Adams's text reads otherwise here; the text shown has αὐτοὶ μὲν … ἐκείνους δὲ.]
+[Anagnosis: Adams's text reads otherwise here; the text shown has αὐτοὶ μὲν … ἐκείνους δὲ.]
 
 **διʼ ἄλλων** (cp. διʼ ἑτέρους above): see on 12. 87.
 
@@ -3277,7 +3277,7 @@ Asyndeton between sentences (as rare in Greek as it is common in English) draws 
 
 **προθυμῇ**: in the course of the fourth century B.C. writers probably used the endings -ῃ and -ει with equal freedom; in the fifth -ῃ is to be assumed. Lysias belongs so far to the earlier generation that he is more likely to have used the older form exclusively.
 
-[Adams's text reads otherwise here; the text shown has προθυμεῖ.]
+[Anagnosis: Adams's text reads otherwise here; the text shown has προθυμεῖ.]
 
 **ἐπὶ τοιούτοις ἔργοις**: a natural development from ἐπί local is the use of ἐπί with the dat. in a figurative sense to give the *ground* of an action or feeling. So ἐφʼ ᾧ § 21; cp. 14. 35 ἐπὶ τῇ τοῦ πατρὸς πονηρίᾳ φιλοτιμεῖται *he is proud of his father’s wickedness*. For the development of this into the purpose construction see on 12. 24. For ἐπί with gen. see on 24. 1.
 

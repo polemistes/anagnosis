@@ -42,7 +42,7 @@
 
 **δωρειάν**: the regular word used of a gift of honour from the State.
 
-[Morgan's text reads otherwise here; the text shown has δωρεὰν.]
+[Anagnosis: Morgan's text reads otherwise here; the text shown has δωρεὰν.]
 
 **εἰρήνης οὔσης**: *i.e.* after the surrender of Athens to Lysander; for, according to § 9, the speaker held the estate only five days before letting it in the archonship of Pythodorus, B.C. 404–3.
 
@@ -77,7 +77,7 @@
 
 **ὅσῳ μάλιστα**: ‘particularly as,’ dat. of degree of difference, here with a sup. (G. 1185; H. 781 b); *cf.* § 39 (but with comp. § 24), and Soph. *Trach.* 313, ἐπεί νιν τῶνδε πλεῖστον ᾤκτισα βλέπουσʼ, ὅσῳπερ καὶ φρονεῖν οἶδεν μόνη.
 
-[Morgan's text reads otherwise here; the text shown has ὅσοι μάλιστα.]
+[Anagnosis: Morgan's text reads otherwise here; the text shown has ὅσοι μάλιστα.]
 
 **ὄντα**: impf. in time; see on XVI. 5.
 
@@ -130,7 +130,7 @@ The evidence being all in, the speaker now makes use of ‘arguments from probab
 
 **αἱρούμενος κτλ.**: the thought is, ‘in the past I preferred people to speak of me in appropriate terms; but now I should rather have you all think of me as a keen fellow, — one who would never be guilty of such a foolish act.’
 
-[Morgan's text reads otherwise here; the text shown has ἡγούμενος.]
+[Anagnosis: Morgan's text reads otherwise here; the text shown has ἡγούμενος.]
 
 **ἂν ὑμᾶς βουλοίμην**: *I should like to have you*, Lat. velim. G. 1327; H. 903. *Cf.* XII. 22.
 
@@ -144,7 +144,7 @@ The evidence being all in, the speaker now makes use of ‘arguments from probab
 
 **περιποιήσαντι**: *i.e.* σώσαντι, *cf.* XIII. 63, ἡ δὲ τύχη καὶ ὁ δαίμων (αὐτοὺς) περιεποίησε.
 
-[Morgan's text reads otherwise here; the text shown has ποιήσαντι.]
+[Anagnosis: Morgan's text reads otherwise here; the text shown has ποιήσαντι.]
 
 ## 7.13
 **πάντες ἄνθρωποι**: without the art.; see on XVI. 15.
@@ -244,7 +244,7 @@ The evidence being all in, the speaker now makes use of ‘arguments from probab
 ## 7.22
 **ὡς φῄς**: *cf.* the scene described by the accuser in § 19.
 
-[Morgan's text reads otherwise here; the text shown has ⟨ὅτε⟩ φής.]
+[Anagnosis: Morgan's text reads otherwise here; the text shown has ⟨ὅτε⟩ φής.]
 
 **τοὺς ἐννέα ἄρχοντας**: a loose phrase, for certainly not more than one would be needed. This would be the βασιλεύς (with his ὑπηρέται), M. and S. p. 293. See p. 4.
 
@@ -287,7 +287,7 @@ The evidence being all in, the speaker now makes use of ‘arguments from probab
 
 **παρέχομαι**: see on XII. 74.
 
-[Morgan's text reads otherwise here; the text shown has παρέξομαι.]
+[Anagnosis: Morgan's text reads otherwise here; the text shown has παρέξομαι.]
 
 **ἑκάστου μηνός**: see p. 4, note 31.
 
@@ -396,7 +396,7 @@ On the thought, *cf.* XII. 33.
 
 **σχεῖν**: ‘form.’ On the tense, see on ἐπεδήμησε, XII. 71.
 
-[Morgan's text reads otherwise here; the text shown has ἔχειν.]
+[Anagnosis: Morgan's text reads otherwise here; the text shown has ἔχειν.]
 
 ## 7.37
 **εἰ ἔλεγον**: *i.e.* ‘if their testimony had been such.’
@@ -497,7 +497,7 @@ On the thought, *cf.* XII. 33.
 ## 23.4
 **Δεκελέων οὓς**: for the position of the gen., *cf.* τῶν ἄλλων ὅσους, § 6, and see on XXII. 21.
 
-[Morgan's text reads otherwise here; the text shown has Δεκελειῶν οὓς.]
+[Anagnosis: Morgan's text reads otherwise here; the text shown has Δεκελειῶν οὓς.]
 
 **πρὸς τὸν πολέμαρχον**: the acc. (with πρός) of a word denoting a magistrate or board is common with expressions denoting appearance or action before such officers. *Cf.* §§ 2 and 5, and see Lutz, *Präp.* p. 160.
 
@@ -690,7 +690,7 @@ Here the speaker gives his conception of a good senator.
 
 **μετεβάλλοντο**: the regular word of changes from one political party to another; *cf.* XVIII. 5, XXV. 9.
 
-[Morgan's text reads otherwise here; the text shown has μετεβάλοντο.]
+[Anagnosis: Morgan's text reads otherwise here; the text shown has μετεβάλοντο.]
 
 **τὶ**: see on μέρος, § 5.
 
@@ -785,7 +785,7 @@ Application of the foregoing general principle to the case of Philon. Note the c
 
 **τἀναγκαῖα**: ‘necessaries of life,’ which would be included among ἐπιτήδεια, *provisions*, in general.
 
-[Morgan's text reads otherwise here; the text shown has ἀναγκαῖα.]
+[Anagnosis: Morgan's text reads otherwise here; the text shown has ἀναγκαῖα.]
 
 **ὑπό**: causal; see on VII. 21.
 
@@ -910,7 +910,7 @@ Application of the foregoing general principle to the case of Philon. Note the c
 
 **παρεδείχθη**: used of things set forth or exhibited side by side for comparison; *cf.* Isocr. XII. 39, ὥσπερ τὴν πορφύραν καὶ τὸν χρυσὸν θεωροῦμεν καὶ δοκιμάζομεν ἕτερα παραδεικνύοντες τῶν καὶ τὴν ὄψιν ὁμοίαν ἐχόντων καὶ τῆς τιμῆς τῆς αὐτῆς ἀξιουμένων. Here it is used like the subst. παράδειγμα, common in the sense of a model or example, to be used as a copy or a warning; *cf.* § 34 and XVI. 14, XXII. 20.
 
-[Morgan's text reads otherwise here; the text shown has ἐδείχθη.]
+[Anagnosis: Morgan's text reads otherwise here; the text shown has ἐδείχθη.]
 
 **προθυμῶνται**: *sc.* οἱ πολῖται; and for the mood, see on XVI. 6.
 

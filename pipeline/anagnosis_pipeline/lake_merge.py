@@ -205,7 +205,7 @@ def correct_misprints(slug: str, text: dict, problems: list[str]) -> list[tuple[
                 continue
             k = hits[0]
             v["words"][k] = v["words"][k].replace(printed, right)
-            notes.append((sec, f"{right}: Lake prints {printed}, a misprint; corrected in this edition."))
+            notes.append((sec, f"{right} [Print has: {printed}]"))
     for book, (printed, right) in TITLE_MISPRINTS.get(slug, {}).items():
         titles = text["titles"].get(book, [])
         if not any(printed in t for t in titles):
@@ -213,14 +213,14 @@ def correct_misprints(slug: str, text: dict, problems: list[str]) -> list[tuple[
             continue
         text["titles"][book] = [t.replace(printed, right) for t in titles]
         first = next((v["sec"] for v in text["verses"] if v["sec"].startswith(f"{book}.")), None)
-        notes.append((first, f"{right} (the title): Lake prints {printed}, without the breathing; corrected in this edition."))
+        notes.append((first, f"{right} [Print has: {printed}, in the title]"))
     return notes
 
 
 def correct_apparatus_misprints(slug: str, placed: list[tuple[str, str]],
                                 problems: list[str]) -> list[tuple[str, str]]:
     """The apparatus items with Lake's misprints in them corrected (APPARATUS_MISPRINTS), each
-    followed by a note marked as this edition's."""
+    with the printed form after it in the app's bracket, "[Print has: …]"."""
     fixes = APPARATUS_MISPRINTS.get(slug, {})
     word = lambda w: re.compile(rf"(?<![^\W\d_]){re.escape(w)}(?![^\W\d_])")
     out: list[tuple[str, str]] = []
@@ -230,8 +230,7 @@ def correct_apparatus_misprints(slug: str, placed: list[tuple[str, str]],
         for printed, right in fixes.get(sec, []):
             if len(word(printed).findall(item)) != 1:
                 continue
-            out[-1] = (sec, word(printed).sub(right, out[-1][1]))
-            out.append((sec, f"{right} (in the note above): Lake prints {printed}, a misprint; corrected in this edition."))
+            out[-1] = (sec, word(printed).sub(right, out[-1][1]) + f" [Print has: {printed}]")
             done.add((sec, printed))
     for sec, pairs in fixes.items():
         for printed, _ in pairs:
@@ -574,13 +573,13 @@ def write_appendix(play, sources: Path, tdir: Path, od: Path, out: Path, problem
 
 
 INTRO_APPENDIX = """
-Manuscript A, the only Greek manuscript that runs so far, breaks off after Similitude 9.30.2: its
+[Anagnosis: Manuscript A, the only Greek manuscript that runs so far, breaks off after Similitude 9.30.2: its
 last leaf is lost. From there to the end Lake prints the Latin version (the Vulgate, L₁), and the
 Greek where the papyri preserve it (Similitude 9.30.3-4 and 9.31.5-6 from the Amherst papyrus;
 10.3.2-5 from Oxyrhynchus papyrus 404). Lake's note at 9.30.3: “At this point A ends, as the last
 leaf is missing. The Latin text which follows is that of L₁. The few verses in Greek are from Pᵃᵐ.”
 The text below follows his pages section by section, each with his translation beneath it; it is
-not annotated word by word.
+not annotated word by word.]
 """
 
 

@@ -197,7 +197,7 @@ In L the first σ of δεξιόσειροσ has been altered from χ either by t
 **ἐμπέδοις**] ἐμπέδους Reiske.
 
 ## 171
-**παίσαντες**] In L the letters αισ are small and cramped, having been substituted by the first corrector (S) for two erased letters. I suppose that the first hand had by a mere oversight written π[ligature with acute]σαντες (πείσαντες). The erasure of the original σ was necessary in order to make room for αι.
+**παίσαντες**] In L the letters αισ are small and cramped, having been substituted by the first corrector (S) for two erased letters. I suppose that the first hand had by a mere oversight written π[Anagnosis: here Jebb prints the scribes' joined sign for ει, with an acute accent]σαντες (πείσαντες). The erasure of the original σ was necessary in order to make room for αι.
 
 ## 178
 **πᾶσαν**] Nauck conject. ταγὸς: Blaydes, πρύμναν . . πόλεως.

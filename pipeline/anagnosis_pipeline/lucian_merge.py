@@ -196,7 +196,7 @@ def correct_misprints(slug: str, text: dict, problems: list[str]) -> list[tuple[
                 text["lines"][key][k] = (u, wi, new)
                 word, wkey = text["units"][u]["words"][wi]
                 text["units"][u]["words"][wi] = (word.replace(printed, right), wkey)
-                notes.append((u, f"{right}: Nilén prints {printed}, a misprint; corrected in this edition."))
+                notes.append((u, f"{right} [Print has: {printed}]"))
                 done = True
                 break
         if not done:

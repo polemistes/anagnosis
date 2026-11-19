@@ -2091,7 +2091,7 @@ These two verses, though not indispensable, seem genuine. Were they omitted, the
 **τρίβει βίον**, in weary exile: cp. 159 ἀχέων: Ar. *Pl.* 526 ὀδυνηρότερον τρίψεις βίοτον.
 
 ## 603
-The reason for writing **δή με σοὶ** rather than **δή μέ σοι** is that σοὶ, placed thus, would almost necessarily receive a slight emphasis when the verse was spoken. But the chief emphasis is on μιάστορα, and, so far as the sense is concerned, an enclitic **σοι** would suffice. Whitelaw’s version brings this out:—‘O[?] whom I hear thee rate me that he lives | Reared up by me, for vengeance.’
+The reason for writing **δή με σοὶ** rather than **δή μέ σοι** is that σοὶ, placed thus, would almost necessarily receive a slight emphasis when the verse was spoken. But the chief emphasis is on μιάστορα, and, so far as the sense is concerned, an enclitic **σοι** would suffice. Whitelaw’s version brings this out:—‘O[Anagnosis: the scan cuts off a letter here; probably “Of”] whom I hear thee rate me that he lives | Reared up by me, for vengeance.’
 
 **μιάστορα**, here, the avenger of a crime, like ἀλάστωρ: so Aesch. *Eum.* 176 ἕτερον ἐν κάρᾳ | μιάστορ’ ἐκ κείνου πάσεται. Eur. *Med.* 1371 οἵδ’ εἰσίν, οἴμοι, σῷ κάρᾳ μιάστορες.—Cp. 275.
 

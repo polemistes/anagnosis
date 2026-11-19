@@ -296,9 +296,9 @@ def correct_misprints(slug: str, text: dict, problems: list[str]) -> list[tuple[
             text["units"][u]["words"][wi] = (w, text["units"][u]["words"][wi][1])
         bare = lambda x: x.strip(",.·;")  # noqa: E731
         if len(want) == 1:
-            notes.append((entries[at][0], f"{bare(right)}: Hude prints {bare(printed)}, a misprint; corrected in this edition."))
+            notes.append((entries[at][0], f"{bare(right)} [Print has: {bare(printed)}]"))
         else:
-            notes.append((entries[at][0], f"{right}: Hude prints {printed}, a misprint; corrected in this edition."))
+            notes.append((entries[at][0], f"{right} [Print has: {printed}]"))
     return notes
 
 
@@ -313,7 +313,7 @@ def correct_apparatus(slug: str, pages: dict[str, dict], problems: list[str]) ->
         for k, (n, item) in enumerate(block["apparatus"] if block else []):
             if n == number and printed in item:
                 block["apparatus"][k] = (n, item.replace(printed, right, 1)
-                                         + f" [{right}: Hude's apparatus prints {printed}, a misprint; corrected in this edition.]")
+                                         + f" [Print has: {printed}]")
                 hit = True
                 done += 1
                 break

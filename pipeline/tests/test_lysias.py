@@ -335,8 +335,8 @@ class Merge(unittest.TestCase):
             hude_merge.MISPRINTS["t"] = [("40.2", "μικρὰς", "μακρὰς"), ("40.4", "ἀκηκόατε· καί", "ἀκηκόατε, καὶ"), ("40.9", "x", "y")]
             problems: list[str] = []
             notes = hude_merge.correct_misprints("t", self.text, problems)
-            self.assertEqual(notes, [(0, "μακρὰς: Hude prints μικρὰς, a misprint; corrected in this edition."),
-                                     (2, "ἀκηκόατε, καὶ: Hude prints ἀκηκόατε· καί, a misprint; corrected in this edition.")])
+            self.assertEqual(notes, [(0, "μακρὰς [Print has: μικρὰς]"),
+                                     (2, "ἀκηκόατε, καὶ [Print has: ἀκηκόατε· καί]")])
             self.assertEqual(self.text["units"][0]["words"][-2][0], "μακρὰς")
             self.assertIn("ἀκηκόατε, καὶ", " ".join(w for w, _k in self.text["units"][2]["words"]))
             self.assertEqual(len(problems), 1)
@@ -344,7 +344,7 @@ class Merge(unittest.TestCase):
             problems = []
             self.assertEqual(hude_merge.correct_apparatus("t", self.pages, problems), 1)
             self.assertEqual(self.pages["p-0040"]["apparatus"][2][1],
-                             "μικρὰς Xᶜ: μακράς C H [μακράς: Hude's apparatus prints μακρὰς, a misprint; corrected in this edition.]")
+                             "μικρὰς Xᶜ: μακράς C H [Print has: μακρὰς]")
             self.assertEqual(len(problems), 1)
         finally:
             hude_merge.MISPRINTS.clear(); hude_merge.MISPRINTS.update(old)

@@ -16,15 +16,13 @@
 θυγατέρα A, dominam E.
 
 ## 1.2.2
-καρδίᾳ: Lake prints κάρδίᾳ, a misprint; corrected in this edition.
+καρδίᾳ [Print has: κάρδίᾳ]
 
 ## 1.3.1
 καταφθαρῆναι ℵ* Pᵃᵐ, καταφθαρῆναι δεινῶς ALE.
 
 ## 1.3.2
-μετανοήσουσιν ℵ, μετανοήσωσιν A.
-
-μετανοήσουσιν (in the note above): Lake prints μετανοήσοὐσιν, a misprint; corrected in this edition.
+μετανοήσουσιν ℵ, μετανοήσωσιν A. [Print has: μετανοήσοὐσιν]
 
 ## 1.3.4
 ὃν ἀγαπῶ ℵ, qui invisibili (= ἀοράτῳ) L₁, qui omnia virtute sustentabili L₂, “in his pity and in his love” E. The text is clearly corrupt, and cannot be restored with certainty.
@@ -52,7 +50,7 @@
 τῆς καρδίας ℵ, τῶν καρδιῶν A(L).
 
 ## 2.2.5
-μετανοίας: Lake prints μενανοίας, a misprint; corrected in this edition.
+μετανοίας [Print has: μενανοίας]
 
 ## 2.2.8
 Χριστόν ℵ*, κύριον ℵᶜ AL₂, filium L₁.
@@ -73,9 +71,7 @@
 Om. ℵ*.
 
 ## 3.1.5
-ἁμαρτίας μου—ἁμαρτίας μου om. per homoiot. ℵL₂.
-
-ἁμαρτίας (in the note above): Lake prints ἀμαρτίας, a misprint; corrected in this edition.
+ἁμαρτίας μου—ἁμαρτίας μου om. per homoiot. ℵL₂. [Print has: ἀμαρτίας]
 
 ## 3.1.6
 ἐστάθη A, stetit post me L₁E, ἐπεστάθη is accepted by most editors as an emendation.
@@ -136,7 +132,7 @@ Om. ℵ*.
 ## 3.7.6
 διά ℵL₂, ἐὰν ἀναβῇ ἐπὶ τὴν καρδίαν αὐτῶν AL₁E. The text of ℵL₂ can scarcely be quite correct, but the other is clearly an emendation.
 
-βασανισθῶσιν: Lake prints βασανισθωσιν, a misprint; corrected in this edition.
+βασανισθῶσιν [Print has: βασανισθωσιν]
 
 ## 3.8.4
 πιστεύων ὅτι ἐὰν ἀφέξηται ALE, καὶ ℵ.
@@ -173,7 +169,7 @@ Om. ℵ*.
 ## 3.12.2
 ἣν . . . ἀπεκάλυψεν om. ℵ.
 
-ἀλλὰ: Lake prints αλλὰ, a misprint; corrected in this edition.
+ἀλλὰ [Print has: αλλὰ]
 
 ## 3.13.4
 περὶ ἀποκαλύψεως AL₁E, om. ℵ L₂.
@@ -214,7 +210,7 @@ From here to the end of this Mandate ℵ is missing except the end of the last w
 ἀκακία A (probably, but the MS is almost illegible), ἡ καρδία edd. the versions are all paraphrastic, but “cor” is found in L₁.
 
 ## 8.1.1
-Ἐντολὴ (the title): Lake prints Εντολὴ, without the breathing; corrected in this edition.
+Ἐντολὴ [Print has: Εντολὴ, in the title]
 
 ## 8.1.2
 From here to the last words of the Mandate (-τάτου ψεύσματος ζήσεται τῷ θεῷ) ℵ is missing.
@@ -275,7 +271,7 @@ The text of this passage is reconstructed thus by the editors from LE Ant. A rea
 ## 11.2.6
 μηδὲ AE, καὶ μηδὲν Ath., L.
 
-ἀσύμφορα: Lake prints ἀσύμποφα, a misprint; corrected in this edition.
+ἀσύμφορα [Print has: ἀσύμποφα]
 
 ## 12.1.1
 σωθῆναι A, σωθήσῃ L₂ Ant.
@@ -296,13 +292,13 @@ The text of this passage is reconstructed thus by the editors from LE Ant. A rea
 φημί A, φησί L₂, om. E.
 
 ## 13.1.10
-ψυχῇ: Lake prints φυχῇ, a misprint; corrected in this edition.
+ψυχῇ [Print has: φυχῇ]
 
 ## 14.1.9
 ἀδελφή A.
 
 ## 14.1.10
-αὐτῆς: Lake prints αὐτῇς, a misprint; corrected in this edition.
+αὐτῆς [Print has: αὐτῇς]
 
 ## 14.1.12
 φρονοῦντες L₂ Ath., φρονήσαντες AL₁(E).
@@ -317,16 +313,12 @@ The text of this passage is reconstructed thus by the editors from LE Ant. A rea
 τῷ θεῷ EL Ath.² Ant., κατὰ σοῦ A, κατὰ σοῦ τοῦ θεοῦ Ath.¹
 
 ## 16.1.8
-τὸ ἄνωθεν AL₁, τὸ θεῖον τὸ ἄνωθεν EL₂.
+τὸ ἄνωθεν AL₁, τὸ θεῖον τὸ ἄνωθεν EL₂. [Print has: θεῖαν]
 
-θεῖον (in the note above): Lake prints θεῖαν, a misprint; corrected in this edition.
-
-καὶ: Lake prints και, a misprint; corrected in this edition.
+καὶ [Print has: και]
 
 ## 16.1.9
-τοῦ προφητικοῦ πνεύματος L₂E₁, τοῦ προφητοῦ A, nuntius sanctus divinitatis (ἄγγελος ἅγιος θεότητος).
-
-προφητικοῦ (in the note above): Lake prints πρυφητικοῦ, a misprint; corrected in this edition.
+τοῦ προφητικοῦ πνεύματος L₂E₁, τοῦ προφητοῦ A, nuntius sanctus divinitatis (ἄγγελος ἅγιος θεότητος). [Print has: πρυφητικοῦ]
 
 ## 16.1.18
 οὖν L (ergo) E (now), om. A.
@@ -376,10 +368,10 @@ Translated Similitudines in L, hence the custom of quoting this section of the S
 μηδέν A, μηδέ L.
 
 ## 21.1.7
-δύναται: Lake prints δυναται, a misprint; corrected in this edition.
+δύναται [Print has: δυναται]
 
 ## 22.1.1
-καὶ: Lake prints κα, a misprint; corrected in this edition.
+καὶ [Print has: κα]
 
 ## 22.1.3
 κυρίῳ AEL₂, κυρίῳ. Ναί, φημί, κύριε, μακάριόν με ποιήσεις ἐὰν γνῷ τὴν νηστείαν τὴν δεκτὴν τῷ θεῷ HL₂.
@@ -387,7 +379,7 @@ Translated Similitudines in L, hence the custom of quoting this section of the S
 ## 22.2.2
 There is probably something missing in the text: L₁ reads deinde peregre profectus elegit servum etc., EL₂ paraphrase the whole, but insert the phrase peregre afuturus, or its equivalent.
 
-δὲ: Lake prints δε, a misprint; corrected in this edition.
+δὲ [Print has: δε]
 
 ## 22.2.7
 ἐπηγγειλάμην A, Hilgenfeld and others emend to ἐνετειλάμην.
@@ -405,7 +397,7 @@ There is probably something missing in the text: L₁ reads deinde peregre profe
 L₁ adds filius autem spiritus sanctus est. Cf. Sim. ix. 1. 1, ‘ἐκεῖνο γὰρ τὸ πνεῦμα ὁ υἱὸς τοῦ θεοῦ ἐστιν.’
 
 ## 22.5.4
-καὶ: Lake prints καί, a misprint; corrected in this edition.
+καὶ [Print has: καί]
 
 ## 22.6.1
 οὐ LE, om. A.
@@ -435,7 +427,7 @@ The preceding seven lines (ταῖς ἐπιθυμίαις . . . . ἑαυτο�
 προέβην AE, προέβημεν L.
 
 ## 23.2.6
-ἀπὸ: Lake prints ἀπο, a misprint; corrected in this edition.
+ἀπὸ [Print has: ἀπο]
 
 ## 23.3.4
 τὰς ποικίλας ταύτας τιμωρίας L Ath., τὰς ποικίλας βασάνους ταύτας τιμωρίας A(E).
@@ -447,7 +439,7 @@ The preceding seven lines (ταῖς ἐπιθυμίαις . . . . ἑαυτο�
 ἐλάχιστον, φημί, κύριε, βασανίζονται om. A. The Greek is reconstructed from L.
 
 ## 23.4.4
-ἡμέρα: Lake prints ἡμερα, a misprint; corrected in this edition.
+ἡμέρα [Print has: ἡμερα]
 
 ## 24.1.2
 ἀπὸ σοῦ LE, om. A.
@@ -455,9 +447,9 @@ The preceding seven lines (ταῖς ἐπιθυμίαις . . . . ἑαυτο�
 ## 24.1.4
 εὐθύς LE, om. A.
 
-ἁμαρτίας: Lake prints ἁμαρτιας, a misprint; corrected in this edition.
+ἁμαρτίας [Print has: ἁμαρτιας]
 
-θλίψεσι: Lake prints θίψεσι, a misprint; corrected in this edition.
+θλίψεσι [Print has: θίψεσι]
 
 ## 24.1.5
 πάντως . . . καθαράν LE, πάντως τοῦ μετανοοῦντος καθαρῶς A.
@@ -480,7 +472,7 @@ The preceding seven lines (ταῖς ἐπιθυμίαις . . . . ἑαυτο�
 ἕτεροι . . . ἐχάρη, retranslated from LE, om. A.
 
 ## 25.2.2
-ῥάβδους: Lake prints ῥάβδοὺς, a misprint; corrected in this edition.
+ῥάβδους [Print has: ῥάβδοὺς]
 
 ## 25.2.9
 ἄγωμεν LE, om. A.
@@ -504,10 +496,10 @@ The preceding seven lines (ταῖς ἐπιθυμίαις . . . . ἑαυτο�
 ξηρόν LE, om. A.
 
 ## 25.6.3
-μετανοήσωσι: Lake prints μενανοήσωσι, a misprint; corrected in this edition.
+μετανοήσωσι [Print has: μενανοήσωσι]
 
 ## 25.6.4
-ἐπαισχυνθέντες: Lake prints ἐπαισχυνθεντες, a misprint; corrected in this edition.
+ἐπαισχυνθέντες [Print has: ἐπαισχυνθεντες]
 
 ## 25.6.6
 ἐλάλησα A, ἐλάλησας L, ‘nuntiatum est’ E.
@@ -522,7 +514,7 @@ The preceding seven lines (ταῖς ἐπιθυμίαις . . . . ἑαυτο�
 ἕξουσιν A, ἔχουσιν LE.
 
 ## 25.9.3
-πράξεις: Lake prints πράξέις, a misprint; corrected in this edition.
+πράξεις [Print has: πράξέις]
 
 ## 25.10.4
 καὶ φοβοῦνται A, aliqui vero eorum morte obierunt et libenter patiuntur L₁, alii vero compressi libenter patiuntur L₂, et quidam ex iis seipsos afflixerunt E; it is probable that something has dropped out from the Greek. Funk suggests καὶ [παθεῖν οὐ] φοβοῦνται.
@@ -539,7 +531,7 @@ The preceding seven lines (ταῖς ἐπιθυμίαις . . . . ἑαυτο�
 A adds τὸ δὲ ὄρος τραχὺ λίαν ἦν βοτάνας ἔχον ξηράς.
 
 ## 26.1.10
-τὸ: Lake prints το, a misprint; corrected in this edition.
+τὸ [Print has: το]
 
 ## 26.2.4
 ἦσαν Pᴬᵐʰ, om. A.
@@ -551,7 +543,7 @@ A adds τὸ δὲ ὄρος τραχὺ λίαν ἦν βοτάνας ἔχον
 μή om. AEL, but the addition seems to be made necessary by the reference in Sim. ix. 5, 3, where these stones are described as μὴ λελατομημένοι.
 
 ## 26.4.1
-κύκλῳ: Lake prints κυκλῳ, a misprint; corrected in this edition.
+κύκλῳ [Print has: κυκλῳ]
 
 ## 26.4.2
 καὶ ἐνέπλησαν . . . ἐκεῖνοι retranslated from LE, om. A.
@@ -582,7 +574,7 @@ Retranslated from LE, om. A.
 ὑγιεῖς L, ἐκεῖνοι A, om. E.
 
 ## 26.9.1
-αὐτῶν: Lake prints αὐτων, a misprint; corrected in this edition.
+αὐτῶν [Print has: αὐτων]
 
 ## 26.9.4
 πάντας A (probably, but it is difficult to read), ‘forsitan’ L which in Sim. vii. 4 seems to represent πάντως.
@@ -594,10 +586,10 @@ Retranslated from LE, om. A.
 ἠρημένων . . . βεβλημένων LE, ἠρμοσμένων εἰς τὴν οἰκοδομὴν καὶ βεβλημένων A.
 
 ## 26.11.2
-ἀποκριθεῖσαι: Lake prints ἀκοκριθεῖσαι, a misprint; corrected in this edition.
+ἀποκριθεῖσαι [Print has: ἀκοκριθεῖσαι]
 
 ## 26.11.7
-παρθένων: Lake prints παρθένον, a misprint; corrected in this edition.
+παρθένων [Print has: παρθένον]
 
 ## 26.12.2
 παλαιὰ ἡ πέτρα Pᵃᵐ παλαιός ἐστι A, om. L.
@@ -608,7 +600,7 @@ Retranslated from LE, om. A.
 τὸ ἅγιον A, τοῦ υἱοῦ αὐτοῦ E, τοῦ υἱοῦ τοῦ θεοῦ L.
 
 ## 26.12.5
-τὴν: Lake prints τῆν, a misprint; corrected in this edition.
+τὴν [Print has: τῆν]
 
 ## 26.13.4
 Retranslated from LE, om. A.
@@ -637,7 +629,7 @@ Retranslated from LE, om. A.
 ## 26.16.5
 προκεκοιμημένοις Clem. L₁E, κεκοιμημένοις AL₂.
 
-σφραγῖδα: Lake prints σφαγῖδα, a misprint; corrected in this edition.
+σφραγῖδα [Print has: σφαγῖδα]
 
 ## 26.16.6
 ἀλλʼ οὗτοι . . . ἀνέβησαν Clem. (LE) . . ., om. A.
@@ -669,21 +661,19 @@ Retranslated from LE, om. A.
 δυνήσονται . . . μετανοήσωσιν retranslated from LE, om. A.
 
 ## 26.22.2
-ἐθελοδιδάσκαλοι A, but LE seem to represent διδάσκαλοι.
-
-ἐθελοδιδάσκαλοι (in the note above): Lake prints ἐθελυδιδάσκαλοι, a misprint; corrected in this edition.
+ἐθελοδιδάσκαλοι A, but LE seem to represent διδάσκαλοι. [Print has: ἐθελυδιδάσκαλοι]
 
 ## 26.22.4
 μωροὶ καὶ . . . ἐάν retranslated from LE. A is illegible, but seems to read πονηρ(ότατοι ?) instead of μωροί.
 
 ## 26.23.5
-μετανοήσατε: Lake prints μετανήσατε, a misprint; corrected in this edition.
+μετανοήσατε [Print has: μετανήσατε]
 
 ## 26.28.5
 τοῦτο L₂, τούτου A, αὐτοῦ L₁E.
 
 ## 26.29.1
-κακία: Lake prints κακια, a misprint; corrected in this edition.
+κακία [Print has: κακια]
 
 ## 26.29.3
 πάντα γάρ . . . αὐτῷ AFL₁, om. L₂.

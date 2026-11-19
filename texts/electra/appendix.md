@@ -195,7 +195,7 @@ It is unnecessary to mention the conjectures (and there have been several) which
 
 It is remarkable that so many critics should have wished to change λύων into a word of opposite meaning (ἕλκων, ἀνέλκων, ἐπισχών, τείνων, τανύων, ἐρύκων: see cr. n.). Orestes is driving a two-wheeled chariot, drawn by four horses harnessed abreast, and is turning round the post, from right to left. In the diagram below A denotes the position of the post; the curve traced in the diagram is supposed to be such as might be described by a chariot passing close to the post.
 
-[Jebb's diagram is not reproduced here: it shows the post at A, the four horses B, C, D, E, and G, the centre of the chariot.]
+[Anagnosis: Jebb's diagram is not reproduced here: it shows the post at A, the four horses B, C, D, E, and G, the centre of the chariot.]
 
 The effect of *tightening* the rein of the horse (B) on the driver’s extreme left, who is nearest to the post, would be to lessen the force with which that horse pulls, as compared with the force exerted by the other three horses (C, D, E); and this would not, under the circumstances supposed, tend to bring the left wheel of the chariot into collision with the post.
 

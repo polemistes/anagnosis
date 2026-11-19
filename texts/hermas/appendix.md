@@ -3,13 +3,13 @@
 # source: The Apostolic Fathers, with an English translation by Kirsopp Lake, vol. II, Loeb Classical Library, London, William Heinemann, and New York, The Macmillan Co., 1913 (reprinted 1917), pp. 290-304: the Latin version (L₁) with the Greek of the papyri, transcribed from the Internet Archive scan apostolicfathers02lakeuoft; Lake's translation from the Perseus Digital Library (tlg1419.tlg001.perseus-eng1)
 # license: CC BY-SA 4.0 (transcription; the edition is in the public domain); the translation CC BY-SA 4.0 (Perseus Digital Library)
 
-Manuscript A, the only Greek manuscript that runs so far, breaks off after Similitude 9.30.2: its
+[Anagnosis: Manuscript A, the only Greek manuscript that runs so far, breaks off after Similitude 9.30.2: its
 last leaf is lost. From there to the end Lake prints the Latin version (the Vulgate, L₁), and the
 Greek where the papyri preserve it (Similitude 9.30.3-4 and 9.31.5-6 from the Amherst papyrus;
 10.3.2-5 from Oxyrhynchus papyrus 404). Lake's note at 9.30.3: “At this point A ends, as the last
 leaf is missing. The Latin text which follows is that of L₁. The few verses in Greek are from Pᵃᵐ.”
 The text below follows his pages section by section, each with his translation beneath it; it is
-not annotated word by word.
+not annotated word by word.]
 
 # Similitude 9
 

@@ -326,8 +326,8 @@ def other_reading(speech: int, paragraph: str, name: str, used: set | None = Non
         used.add((speech, m.group(1)))
     surname = name.split()[-1]
     hude = table[m.group(1)]
-    return (f"[{surname}'s text reads otherwise here; the text shown has {hude}.]" if hude
-            else f"[{surname}'s text reads otherwise here.]")
+    return (f"[Anagnosis: {surname}'s text reads otherwise here; the text shown has {hude}.]" if hude
+            else f"[Anagnosis: {surname}'s text reads otherwise here.]")
 
 
 def speech_notes(speech: int, sections: dict[str, list[str]], sources: Path, drafts: bool = False) -> tuple[list[tuple[str, str]], list[str], list[str]] | None:

@@ -141,7 +141,7 @@ two-wheeled chariot, drawn by four horses harnessed abreast, and is turning roun
 + from right to left. In the diagram below A denotes the position of the post; the curve traced in
 the diagram is supposed to be such as might be described by a chariot passing close to the post.
 
-[Jebb's diagram is not reproduced here: it shows the post at A, the four horses B, C, D, E, and G, the centre of the chariot.]
+[Anagnosis: Jebb's diagram is not reproduced here: it shows the post at A, the four horses B, C, D, E, and G, the centre of the chariot.]
 
 The effect of *tightening* the rein of the horse (B) on the driver’s extreme left, who is nearest
 to the post, would be to lessen the force with which that horse pulls, as compared with the force
