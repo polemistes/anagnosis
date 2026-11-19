@@ -187,7 +187,10 @@ def choose_analysis(form: str, analyses: list, near: str = "", lemma: str = "",
 
 # Lemmas of the treebank that are slips of its keying (an accent lost, a name in lower case, a
 # diaeresis misplaced): no dictionary and no glossary entry is found under them.
-LEMMA_SLIPS = {"πατηρ": "πατήρ", "ὄψε": "ὀψέ", "τειρεσίης": "Τειρεσίης", "ἰασίων": "Ἰασίων", "Δηίφοβος": "Δηΐφοβος"}
+LEMMA_SLIPS = {"πατηρ": "πατήρ", "ὄψε": "ὀψέ", "τειρεσίης": "Τειρεσίης", "ἰασίων": "Ἰασίων", "Δηίφοβος": "Δηΐφοβος",
+               # misspelt in the treebank, so that no dictionary entry was found (2026-11-19); the first is
+               # a pi with the circumflex set on it
+               "π͂ας": "πᾶς", "οβριμοπάτρη": "ὀβριμοπάτρη", "παρήμαι": "πάρημαι", "ἀλεόμαι": "ἀλέομαι", "εὐρυσθενης": "εὐρυσθενής", "ἀμετρητος": "ἀμέτρητος", "σιάλος": "σίαλος"}
 
 
 # In fourteen sentences the treebank gives an omitted-word node ("[0]") a head that hangs on that
