@@ -38,10 +38,10 @@ Nauck suggests one verse in place of these three, viz., Αἴαντʼ ἰχνο�
 νέμει A, with most MSS.: τρέπει L, with a few others.
 
 ## 33
-ὅτου L, the τ in an erasure (from π?): gloss in marg. οὐκ ἔχω ὅπως μάθω ἢ ποῦ ἐστιν (as P. N. Papageorgius reads it, Schol. in Soph. Trag. Vetera, 1888). Most MSS., and the Aldine, have ὅτου. But ὅπου is in A, with γρ. ὅτου, and in L² (=Lb, cod. Laur. 31. 10), with τ superscript: also in four MSS. of Suidas (including the best, A, cod. Par. 2625) s.v. σημαίνομαι.
+ὅτου L, the τ in an erasure (from π?): gloss in marg. οὐκ ἔχω ὅπως μάθω ἢ ποῦ ἐστιν (as P. N. Papageorgius reads it, *Schol. in Soph. Trag. Vetera*, 1888). Most MSS., and the Aldine, have ὅτου. But ὅπου is in A, with γρ. ὅτου, and in L² (=Lb, cod. Laur. 31. 10), with τ superscript: also in four MSS. of Suidas (including the best, A, cod. Par. 2625) s.v. σημαίνομαι.
 
 ## 37
-κυναγίᾳ L, and Pal.: κυνηγίᾳ most MSS., and Ald.—A v. l. τῆς σῆς..κυνηγίας is noted in Δ (cod. Abbat. Flor. 41) and A.
+κυναγίᾳ L, and Pal.: κυνηγίᾳ most MSS., and Ald.—A *v. l.* τῆς σῆς..κυνηγίας is noted in Δ (cod. Abbat. Flor. 41) and A.
 
 ## 38
 πονῶι L.
@@ -65,13 +65,13 @@ Nauck suggests one verse in place of these three, viz., Αἴαντʼ ἰχνο�
 **καὶ δὴ**] Nauck writes ἤδη.
 
 ## 50
-**μαιμῶσαν**] Schol. in marg. of L, γρ. καὶ διψῶσαν, a v. l. noted also in Γ; see comm.—Nauck conj. μαργῶσαν.
+**μαιμῶσαν**] Schol. in marg. of L, γρ. καὶ διψῶσαν, a *v. l.* noted also in Γ; see comm.—Nauck conj. μαργῶσαν.
 
 ## 51
 ἀπείργω L (with ξω written above γω by a later hand), A (with ξα above). So most MSS., and Ald.: ἀπεῖρξα Γ, with a few others; and so the schol. in L on 52.—**δυσφόρους**] Hartung writes παραφόρους, the gl. of a schol. in the Pal. MS. on δυσφόρους.
 
 ## 52
-**γνώμας**] Madvig (Adv. Crit. I. 206) conj. λήμας, which is adopted by Nauck and Mekler.—**ἀνηκέστου**] ἀνεικάστου (‘inconceivable’) Turnebus (ed. 1552–3) in marg.—**χαρᾶς**] Reiske conj. φορᾶς: Rauchenstein, φθορᾶς.
+**γνώμας**] Madvig (*Adv. Crit.* I. 206) conj. λήμας, which is adopted by Nauck and Mekler.—**ἀνηκέστου**] ἀνεικάστου (‘inconceivable’) Turnebus (ed. 1552–3) in marg.—**χαρᾶς**] Reiske conj. φορᾶς: Rauchenstein, φθορᾶς.
 
 ## 55
 εἰσπεσὼν L: ἐσπεσὼν Dindorf.—**πολύκερων**] In L the ω has been partly erased, to make ο.
@@ -89,7 +89,7 @@ Nauck suggests one verse in place of these three, viz., Αἴαντʼ ἰχνο�
 **ὤτρυνον, εἰσέβαλλον**] Hermann writes Ἐρινύων ὤτρυνον, led thereto by the schol. in L on εἰς ἕρκη κακά, γρ. εἰς ἐρινῦν κακήν: and so Wecklein.
 
 ## 61
-πόνου r (as Vat. a, Harl., Ien., R (Bibl. Riccard. Flor. 77): φόνου L, A, with most MSS., and Ald. Cp. O. C. 542, where in L φόνον has been made from πόνον.
+πόνου r (as Vat. a, Harl., Ien., R (Bibl. Riccard. Flor. 77): φόνου L, A, with most MSS., and Ald. Cp. *O. C.* 542, where in L φόνον has been made from πόνον.
 
 ## 64
 In L there is an erasure between εὔκερων and ἄγραν.
@@ -101,7 +101,7 @@ In L there is an erasure between εὔκερων and ἄγραν.
 **καὶ σοὶ**] Seyffert writes καί σοι.
 
 ## 68-70
-These three vv. are rejected by E. Reichard (De interpolatione fabulae Soph. quae inscribitur Aiax, p. 14, 1875): see comm.
+These three vv. are rejected by E. Reichard (*De interpolatione fabulae Soph. quae inscribitur Aiax*, p. 14, 1875): see comm.
 
 ## 70
 ἀπείρξω A, with most MSS. (Aldine, ἀπεῖρξω): ἀπείργω L, with ξ above γ from a late hand: cp. 51.
@@ -113,7 +113,7 @@ These three vv. are rejected by E. Reichard (De interpolatione fabulae Soph. qua
 **μηδαμῶς σφʼ ἔξω**] In L σφʼ has been inserted, above the line, by a late hand. The other MSS. have it. Nauck was the first to omit it.
 
 ## 75
-ἀρεῖ Schneidewin: ἄρηισ L, with εῖσ written above by a later hand, and near it, in another and still later hand, ἀρῇ (sic). The later MSS. have ἀρεῖς (as A), or ἄρης (as Γ). Hesychius: ἀρῇ· λήψῃ, οἴσῃ. Σοφοκλῆς Αἴαντι μαστιγοφόρῳ: where the future tenses show that the reference must be to this v., and not to ἄρῃ (aor. midd.) in v. 192.
+ἀρεῖ Schneidewin: ἄρηισ L, with εῖσ written above by a later hand, and near it, in another and still later hand, ἀρῇ (*sic*). The later MSS. have ἀρεῖς (as A), or ἄρης (as Γ). Hesychius: ἀρῇ· λήψῃ, οἴσῃ. Σοφοκλῆς Αἴαντι μαστιγοφόρῳ: where the future tenses show that the reference must be to this v., and not to ἄρῃ (aor. midd.) in v. 192.
 
 ## 78
 **ἐχθρός γε**] ἐχθρὸς δὲ Γ.
@@ -125,7 +125,7 @@ These three vv. are rejected by E. Reichard (De interpolatione fabulae Soph. qua
 ἐν δόμοις A, with most MSS., and Ald.: ἐσ δόμουσ L, with ἐν written above ἐσ, and ι above υ, by a late hand. εἰς δόμους Γ. The error in L may have arisen (as Schneid. says) from the scribe’s eye wandering to εἰσ ἐχθροὺσ in 79. Hartung writes τόνδʼ ἔσω δόμων μένειν: Blaydes conj. τοῦτον ἄνδρʼ ἔνδον μένειν.
 
 ## 82
-φρονοῦντα γάρ νιν MSS. The lemma of the schol. in L has φρονοῦντα γάρ τʼ ἂν. Blaydes writes φρονοῦντά γʼ ἄν νιν: Heimsoeth conj. φρονοῦντί τοί νιν.—**ὄκνῳ**] ὄκνω (sic) L, with ἰδεῖν written after it (but so blotted as to be hardly legible) by a late hand,—the same (perhaps) which corrected ἐσ δόμουσ to ἐν δόμοισ in 80. T has ἐξέστην ἰδεῖν instead of ἐξέστην ὄκνῳ, and the same v.l. is in the marg. of Pal. [Campb., by an oversight due doubtless to v. 82, attributes ὄκνωι to L in v. 81, where, like the other MSS., it has ὀκνεῖσ.]
+φρονοῦντα γάρ νιν MSS. The lemma of the schol. in L has φρονοῦντα γάρ τʼ ἂν. Blaydes writes φρονοῦντά γʼ ἄν νιν: Heimsoeth conj. φρονοῦντί τοί νιν.—**ὄκνῳ**] ὄκνω (*sic*) L, with ἰδεῖν written after it (but so blotted as to be hardly legible) by a late hand,—the same (perhaps) which corrected ἐσ δόμουσ to ἐν δόμοισ in 80. T has ἐξέστην ἰδεῖν instead of ἐξέστην ὄκνῳ, and the same *v.l.* is in the marg. of Pal. [Campb., by an oversight due doubtless to v. 82, attributes ὄκνωι to L in v. 81, where, like the other MSS., it has ὀκνεῖσ.]
 
 ## 83
 **πέλας**] Nauck conj. παρών.
@@ -134,7 +134,7 @@ These three vv. are rejected by E. Reichard (De interpolatione fabulae Soph. qua
 **τυχεῖν**] κυρεῖν Γ.
 
 ## 89
-**Αἴας**] In L the 1st hand wrote αἴασ, which a later has altered to αἶαν, but the accent remains, and the σ is still clear. The form Αἴας is also supported here by E and Mosq. b; also by Eustath. p. 1469. 59, Greg. Cor. De Dialect. Att. p. 53, and Choeroboscus p. 105. 13 (ed. Gaisf.)=Bekker Anecd. p. 1183. But A, with the great majority of the later MSS., has Αἶαν, and so the Aldine.
+**Αἴας**] In L the 1st hand wrote αἴασ, which a later has altered to αἶαν, but the accent remains, and the σ is still clear. The form Αἴας is also supported here by E and Mosq. b; also by Eustath. p. 1469. 59, Greg. Cor. *De Dialect. Att.* p. 53, and Choeroboscus p. 105. 13 (ed. Gaisf.)=Bekker *Anecd.* p. 1183. But A, with the great majority of the later MSS., has Αἶαν, and so the Aldine.
 
 ## 96
 τὸ μή MSS., and Ald.: Wecklein writes τὸ μὴ οὔ, as proposed, after Herm., by Nauck (who in his text, however, leaves τὸ μή).
@@ -143,7 +143,7 @@ These three vv. are rejected by E. Reichard (De interpolatione fabulae Soph. qua
 **ᾔχμασας**] Reiske and Musgrave conj. ᾕμαξας, which Wunder and Blaydes adopt.—**χέρα**] χέραι L: a corruption which may have arisen from χέρας (the reading of Γ), rather than from χερί.
 
 ## 98
-ὥστʼ MSS., and Ald.: Elmsley conj. ὡς.—**οἵδʼ**] οἶδʼ L: schol. in marg., ἐὰν δασυνθῇ τὸ οι [i.e., if we read οἵδʼ] ἔσται ἐπὶ τῶν Ἀτρειδ⟨ῶν⟩, ⟨ἐὰν δὲ⟩ ψιλὸν τὸ οἶδα ἀντὶ τοῦ ἐπίσταμαι. A, with most MSS. and Ald., has οἵδʼ.—**ἀτιμάσουσʼ**] ἀτιμάσωσʼ L, but a later hand has tried to alter ω into ȣ (ου).
+ὥστʼ MSS., and Ald.: Elmsley conj. ὡς.—**οἵδʼ**] οἶδʼ L: schol. in marg., ἐὰν δασυνθῇ τὸ οι [*i.e.*, if we read οἵδʼ] ἔσται ἐπὶ τῶν Ἀτρειδ⟨ῶν⟩, ⟨ἐὰν δὲ⟩ ψιλὸν τὸ οἶδα ἀντὶ τοῦ ἐπίσταμαι. A, with most MSS. and Ald., has οἵδʼ.—**ἀτιμάσουσʼ**] ἀτιμάσωσʼ L, but a later hand has tried to alter ω into ȣ (ου).
 
 ## 99
 **ἅνδρες**] ἄνδρες MSS., and Ald.—**ἐγώ**] Meineke conj. ἔπος.
@@ -152,7 +152,7 @@ These three vv. are rejected by E. Reichard (De interpolatione fabulae Soph. qua
 ἕστηκεν L and A.—ἢ L, with most MSS.: but ἦ Pal. (with ἢ above). The Aldine points thus: ποῦ σοι τύχης ἕστηκεν, ἢ πέφευγέ σε;
 
 ## 104
-**ἔγωγʼ**] ἐγὼ δʼ Zonaras 2. p. 1448 (ap. Blaydes): ἐγώ δʼ Γ.—**ἔγωγʼ· Ὀδυσσέα**] Bothe deletes the point after ἔγωγʼ. Nauck writes ἔγωγʼ· Ὀδυσσῆ. Dindorf conj. Ὀδυσσέα ʼγώ.
+**ἔγωγʼ**] ἐγὼ δʼ Zonaras 2. p. 1448 (*ap.* Blaydes): ἐγώ δʼ Γ.—**ἔγωγʼ· Ὀδυσσέα**] Bothe deletes the point after ἔγωγʼ. Nauck writes ἔγωγʼ· Ὀδυσσῆ. Dindorf conj. Ὀδυσσέα ʼγώ.
 
 ## 107
 κερδάνηισ L, with εῖσ above from a late hand: κερδάνεῖς A. But the aor. subj. is in most MSS., and Ald.
@@ -173,10 +173,10 @@ These three vv. are rejected by E. Reichard (De interpolatione fabulae Soph. qua
 **ἐγώ σʼ ἐφίεμαι**] ἔγωγέ σʼ ἐφίεμαι L, with Γ and some others: whence Schneidewin conj. ἔγωγέ σʼ εὔχομαι (noting that ἐφίεμαι recurs in 116).
 
 ## 113
-**τείσει**] τίσει MSS. For the spelling, see comm. on O. T. 810.
+**τείσει**] τίσει MSS. For the spelling, see comm. on *O. T.* 810.
 
 ## 114
-ἥδε L, A, with most MSS., and Ald.: ὧδε r (Pal., T, etc.), and as a v.l. in Γ and others.
+ἥδε L, A, with most MSS., and Ald.: ὧδε r (Pal., T, etc.), and as a *v.l.* in Γ and others.
 
 ## 115
 **ἐννοεῖς**] νοεῖς Γ.—In L the first corrector (S) has written in the marg., γρ. ἐννέπεις.
@@ -188,25 +188,25 @@ These three vv. are rejected by E. Reichard (De interpolatione fabulae Soph. qua
 **ὅση;**] ὅσηι; L.
 
 ## 120
-**ηὑρέθη**] εὑρέθη MSS. See comm. on O. T. 68.
+**ηὑρέθη**] εὑρέθη MSS. See comm. on *O. T.* 68.
 
 ## 121
-**ἐποικτίρω**] ἐποικτείρω MSS. For the spelling see comm. on O. T. 13.
+**ἐποικτίρω**] ἐποικτείρω MSS. For the spelling see comm. on *O. T.* 13.
 
 ## 122
 ἔμπης MSS., and Ald.: ἔμπας Brunck and Heath, from schol. here, Ἴωνες ἔμπης φασίν, Ἀττικοὶ δὲ ἔμπας καὶ ἔμπα. Cp. 1338.
 
 ## 123
-This v., suspected by L. Dindorf (Thes. 1. 2. p. 2367) and Leeuwen (Comment. p. 119), is bracketed by Nauck.—**ὁθούνεκʼ**] ὅθʼ οὕνεκʼ L, as usual.
+This v., suspected by L. Dindorf (*Thes.* 1. 2. p. 2367) and Leeuwen (*Comment.* p. 119), is bracketed by Nauck.—**ὁθούνεκʼ**] ὅθʼ οὕνεκʼ L, as usual.
 
 ## 126
-**εἴδωλʼ**] εἴδωλα· L. Cp. comm. on Ant. 1146.
+**εἴδωλʼ**] εἴδωλα· L. Cp. comm. on *Ant.* 1146.
 
 ## 127
 In L the indication of the person (αᶿ) has been added by a later hand.—**ὑπέρκοπον**] ὑπέρκομπον r (as Γ).
 
 ## 129
-ἄρῃ L, A, and others: ἄρῃς or ἄρης r. In Suidas, s.v. εἴδωλον, where vv. 125—133 are quoted, most MSS. have ἄρῃς, but Bernhardy cites ἄρη (sic) and αἴρη as variants. In Stobaeus also (Flor. 22. 20), where vv. 125—130 are quoted, ἄρῃς is the vulgate, and ἄρη (sic) a v.l.: see Gaisford’s ed., vol. 1. p. 419. The Aldine has ἄρῃς, and this was the prevalent reading in the earlier editions, including those of Brunck and Hermann.
+ἄρῃ L, A, and others: ἄρῃς or ἄρης r. In Suidas, s.v. εἴδωλον, where vv. 125—133 are quoted, most MSS. have ἄρῃς, but Bernhardy cites ἄρη (*sic*) and αἴρη as variants. In Stobaeus also (*Flor.* 22. 20), where vv. 125—130 are quoted, ἄρῃς is the vulgate, and ἄρη (*sic*) a *v.l.*: see Gaisford’s ed., vol. 1. p. 419. The Aldine has ἄρῃς, and this was the prevalent reading in the earlier editions, including those of Brunck and Hermann.
 
 ## 130
 **βρίθεις**] Nauck conj. σωκεῖς.—βάθει L, with most MSS.; so too Suidas and Stobaeus (see on 129): βάρει r (including A, where βάθει is written above), and Ald.
@@ -248,13 +248,13 @@ L divides the vv. thus:—ἐπὶ— | λειμῶνʼ— | βοτὰ καὶ �
 **λόγους ψιθύρους**] L has the letters σ ψι in an erasure.
 
 ## 149
-πᾶσιν Ὀδυσσεὺς A, with most MSS., and Ald.: πάντων ὀδυσσεὺς L (also as a v.l. in Pal.). Nauck writes πάντων Ὀδυσσεύς.
+πᾶσιν Ὀδυσσεὺς A, with most MSS., and Ald.: πάντων ὀδυσσεὺς L (also as a *v.l.* in Pal.). Nauck writes πάντων Ὀδυσσεύς.
 
 ## 150-152
 L divides these vv. as above; but Dindorf thus:—καὶ σφόδρα— | περὶ γὰρ— | καὶ πᾶς— | χαίρει μᾶλλον.
 
 ## 151
-εὔπειστα L, A, with most MSS., and Ald.: εὔπιστα r (Γ, Harl., Ien., etc.). The usual statement, that an early hand in L has corrected εὔπειστα to εὔπιστα, needs modification. The ει of εὔπειστα, written in the usual compendium q, remains complete. But another hand has added a light upward stroke to the left limb of q, as if to indicate a tall ι. It looks as if the writer did not feel confidence enough to correct by erasure, but merely wished to make a suggestion.
+εὔπειστα L, A, with most MSS., and Ald.: εὔπιστα r (Γ, Harl., Ien., etc.). The usual statement, that an early hand in L has *corrected* εὔπειστα to εὔπιστα, needs modification. The ει of εὔπειστα, written in the usual compendium q, remains complete. But another hand has added a light upward stroke to the left limb of q, as if to indicate a tall ι. It looks as if the writer did not feel confidence enough to correct by erasure, but merely wished to make a suggestion.
 
 ## 152
 **τοῦ λέξαντος**] Nauck brackets these words; for which F. W. Schmidt would substitute τοῦδʼ ἐξ ἀνδρός.
@@ -284,7 +284,7 @@ In L, the letters ῖσ of τοῖσ, and the circumflex of σοῖσ, are from 
 ἅτε A, with most MSS., and Ald.: in L it has been made from ἅπερ, which is in the lemma of the schol.
 
 ## 169
-μέγαν αἰγυπιὸν ὑποδείσαντες MSS. (L ὑπο δείσαντεσ, another δ having been erased after ὑπο). G. Schneider conj. μέγαν αἰγυπιῶν. After αἰγυπιὸν, Dawes adds δʼ: Heath, γʼ: Toup, σʼ. Lobeck (ed. of 1809) transposed ὑποδείσαντες to a place after φανείης (as Seyffert does); but afterwards adopted the reading of Dawes. Dobree (Adv. II. p. 43) rejects ὑποδείσαντες as a gloss: and so Bergk, Nauck, Wecklein.
+μέγαν αἰγυπιὸν ὑποδείσαντες MSS. (L ὑπο δείσαντεσ, another δ having been erased after ὑπο). G. Schneider conj. μέγαν αἰγυπιῶν. After αἰγυπιὸν, Dawes adds δʼ: Heath, γʼ: Toup, σʼ. Lobeck (ed. of 1809) transposed ὑποδείσαντες to a place after φανείης (as Seyffert does); but afterwards adopted the reading of Dawes. Dobree (*Adv.* II. p. 43) rejects ὑποδείσαντες as a gloss: and so Bergk, Nauck, Wecklein.
 
 ## 170
 Hermann points thus, τάχʼ ἂν ἐξαίφνης, εἰ: most edd. thus, τάχʼ ἄν, ἐξαίφνης εἰ. There is no such comma in L, or in the Aldine; but L has a point, and Ald. a comma, after φανείης.
@@ -293,7 +293,7 @@ Hermann points thus, τάχʼ ἂν ἐξαίφνης, εἰ: most edd. thus, τ
 **μεγάλα**] Nauck conj. μελέα.
 
 ## 176
-ἦ πού τινος Lobeck: ἤ που (i.e. ἤπου) τινὸς L, and Ald.—ἀκάρπωτον MSS.: T. Johnson (ed. 1705) conj. ἀκαρπώτου: Nauck writes ἀκάρπωτος (as = μὴ καρπωσαμένη).
+ἦ πού τινος Lobeck: ἤ που (*i.e.* ἤπου) τινὸς L, and Ald.—ἀκάρπωτον MSS.: T. Johnson (ed. 1705) conj. ἀκαρπώτου: Nauck writes ἀκάρπωτος (as = μὴ καρπωσαμένη).
 
 ## 178
 L divides the vv. thus: ἤ ῥα— | ψευσθεῖσα...ἐλαφαβολίαις.—ψευσθεῖσʼ, ἀδώροις Stephanus and Musgrave: ψευσθεῖσα δώροις MSS.—ἐλαφαβολίαισ L, made from ἐλαφαβολείαισ: ἐλαφηβολίαις A, and Ald.—Nauck, retaining the MS. δώροις, reads the gen. ἐλαφαβολίας.
@@ -317,7 +317,7 @@ L divides the vv. thus:—εἰ δʼ ὑποβαλλόμενοι | κλέπτο�
 **ἢ τᾶς**] Morstadt conj. χὠ τᾶς.—Σισυφιδᾶν MSS., and Ald.: Σισυφιδῶν Suidas ss. vv. ἀσωτία and Σίσυφος, and Eustath. p. 384. 6. The schol. in L, γρ. Σισυφίδα, meaning the nomin.; whether he took this to be an Aeolic nom. (as Lobeck suggests), or wrote Σισυφίδας. Hartung places Σισυφίδας in the text; and so Nauck and Wecklein.
 
 ## 191
-μὴ μή μʼ ἄναξ ἔθʼ ὧδʼ MSS., and Ald.: schol. in L, μὴ μή μʼ ἄναξ· τὸ πλῆρες μὴ μή μοι (repeated by Suidas s. v. μὴ μή). Wilamowitz-Möllendorff (Hermes vol. XVIII. p. 217 n.) would delete μʼ, and assume hiatus (cp. 193). Morstadt conj. μὴ μηκέθʼ, ὦναξ, ὧδʼ: and so read Blaydes, Nauck, and Wecklein. Paley writes μή μοί γʼ (a conj. of Blaydes).
+μὴ μή μʼ ἄναξ ἔθʼ ὧδʼ MSS., and Ald.: schol. in L, μὴ μή μʼ ἄναξ· τὸ πλῆρες μὴ μή μοι (repeated by Suidas s. v. μὴ μή). Wilamowitz-Möllendorff (*Hermes* vol. XVIII. p. 217 n.) would delete μʼ, and assume hiatus (cp. 193). Morstadt conj. μὴ μηκέθʼ, ὦναξ, ὧδʼ: and so read Blaydes, Nauck, and Wecklein. Paley writes μή μοί γʼ (a conj. of Blaydes).
 
 ## 192
 **ὄμμʼ ἔχων**] Reiske conj. ἐμμένων.
@@ -329,7 +329,7 @@ L divides the vv. thus:—εἰ δʼ ὑποβαλλόμενοι | κλέπτο�
 **ποτὲ**] Ritschl conj. ποτὶ, which is received by Nauck, Wecklein, and Bellermann. Morstadt, πόδα.
 
 ## 196
-ἐχθρῶν δʼ ὕβρις ὧδʼ ἀτάρβητα | ὁρμᾶτʼ ἐν εὐανέμοις βάσσαις most MSS., and Ald. (L has ἀτάρβητα made from ἀταρβῆτα, and ὁρμάτʼ). A corrupt v. l. ἐν δʼ ἀνέμοις, for εὐανέμοις, is found in A and Pal. Suidas (s. v. ἀτάρβητος), ἐχθρῶν δʼ ὕβρις ἀταρβήτως ὁρμᾷ (omitting ὧδʼ). So, too, Zonaras 1. 338. For ὁρμᾶτʼ, Triclinius wrote ὁρμᾶται. Hermann writes ὧδʼ ἀταρβήτα (nom. fem.) | ὁρμᾶται: Dindorf (omitting ὧδʼ), ἀτάρβητος | ὁρμᾶται, and so Nauck and Blaydes. Gleditsch, ἀτάρβηθʼ ὁρμᾶται. Wecklein (Ars Soph. em. p. 70) conj. ὁρμᾷ τʼ, proposing to supply ἐστίν with ἀταρβήτα or ἀτάρβητος.
+ἐχθρῶν δʼ ὕβρις ὧδʼ ἀτάρβητα | ὁρμᾶτʼ ἐν εὐανέμοις βάσσαις most MSS., and Ald. (L has ἀτάρβητα made from ἀταρβῆτα, and ὁρμάτʼ). A corrupt *v. l.* ἐν δʼ ἀνέμοις, for εὐανέμοις, is found in A and Pal. Suidas (s. v. ἀτάρβητος), ἐχθρῶν δʼ ὕβρις ἀταρβήτως ὁρμᾷ (omitting ὧδʼ). So, too, Zonaras 1. 338. For ὁρμᾶτʼ, Triclinius wrote ὁρμᾶται. Hermann writes ὧδʼ ἀταρβήτα (nom. fem.) | ὁρμᾶται: Dindorf (omitting ὧδʼ), ἀτάρβητος | ὁρμᾶται, and so Nauck and Blaydes. Gleditsch, ἀτάρβηθʼ ὁρμᾶται. Wecklein (*Ars Soph. em.* p. 70) conj. ὁρμᾷ τʼ, proposing to supply ἐστίν with ἀταρβήτα or ἀτάρβητος.
 
 ## 198
 πάντων καγχαζόντων γλώσσαισ | βαρυάλγητʼ L (καγχαζόντων made from κακχαζόντων by a late hand). So most MSS., and Ald. The only variants are βακχαζόντων Γ (which Campb. inadvertently ascribes to L also), καγχλαζόντων Aug. c, καχαζόντων Liv. a: and (for βαρυάλγητʼ) βαρυάλγητα Aug. b.—Dindorf writes, ἀπάντων καχαζόντων | γλώσσαις βαρυαλγήτως.
@@ -341,13 +341,13 @@ L divides the vv. thus:—εἰ δʼ ὑποβαλλόμενοι | κλέπτο�
 **γενεᾶς**] Reiske conj. γενεὰ: Blaydes, γενέθλα: Seyffert, γενεᾷ.—ἐρεχθειδᾶν L, A, and Ald.: ἐρεχθειδῶν r.
 
 ## 205
-**μέγας**] ὁ μέγας MSS. (except M, and 1st hand in V, ap. Campb.), and Ald.: the first to correct the error were Erfurdt and Seidler.
+**μέγας**] ὁ μέγας MSS. (except M, and 1st hand in V, *ap.* Campb.), and Ald.: the first to correct the error were Erfurdt and Seidler.
 
 ## 208
-**ἡμερίας**] ἁμερίας MSS., and Ald. So in 234 the MSS. give ποίμναν, and in 257 στεροπᾶς: though in 218 σκηνῆς and in 238 κεφαλήν. Attic rather than Doric forms suit these anapaests, which have the tone of dialogue. See Appendix to Antigone, p. 248.—Thiersch conj. ἠρεμίας: Hermann, εὐμαρίας: Seidler and Hartung, ἀμμορίας: Bergk, this, or ἀτρεμίας: Blaydes, τί δʼ ἐνήλλακται, τί (or τὸ) δυσαμερίας.
+**ἡμερίας**] ἁμερίας MSS., and Ald. So in 234 the MSS. give ποίμναν, and in 257 στεροπᾶς: though in 218 σκηνῆς and in 238 κεφαλήν. Attic rather than Doric forms suit these anapaests, which have the tone of dialogue. See Appendix to *Antigone*, p. 248.—Thiersch conj. ἠρεμίας: Hermann, εὐμαρίας: Seidler and Hartung, ἀμμορίας: Bergk, this, or ἀτρεμίας: Blaydes, τί δʼ ἐνήλλακται, τί (or τὸ) δυσαμερίας.
 
 ## 210
-φρυγίου τελεύταντοσ L (but a later hand has added a second λ below the line): and the Ald. too has φρυγίου Τελεύταντος, which was the prevalent reading. But A and a few other MSS. have φρυγίου τελλεύταντος. Jäger conj. Φρυγίοιο Τελεύταντος: Porson (on Eur. Hec. 120=123 Dind.) quotes silently Φρυγίου σὺ Τελεύταντος: though in his Adv. (p. 185), quoting Φρυγίου Τελεύταντος, he suggests no such change.
+φρυγίου τελεύταντοσ L (but a later hand has added a second λ below the line): and the Ald. too has φρυγίου Τελεύταντος, which was the prevalent reading. But A and a few other MSS. have φρυγίου τελλεύταντος. Jäger conj. Φρυγίοιο Τελεύταντος: Porson (on Eur. *Hec.* 120=123 Dind.) quotes silently Φρυγίου σὺ Τελεύταντος: though in his *Adv.* (p. 185), quoting Φρυγίου Τελεύταντος, he suggests no such change.
 
 ## 211
 δουριάλωτον Brunck: δοριάλωτον MSS., and Ald.
@@ -387,12 +387,12 @@ L divides the vv. thus:—οἵαν— | αἴθονοσ— | ἄτλατον—
 [228] ἁνὴρ Brunck: ἀνὴρ MSS.
 
 ## 229
-παραπλάκτῳ Blaydes: παραπλήκτῳ MSS. Cp. 597 ἁλίπλακτος: Ph. 688 ἀμφιπλάκτων.
+παραπλάκτῳ Blaydes: παραπλήκτῳ MSS. Cp. 597 ἁλίπλακτος: *Ph.* 688 ἀμφιπλάκτων.
 
 [230] συγκατακτὰσ made in L from συνκατακτὰσ.
 
 ## 231
-[232] ἱππονώμας Porson: ἱππον ό μȣσ L, the second ο in an erasure of ω, and ȣ in an erasure of α. [Dindorf, using Dübner's collation, says: ‘In cod. ό in litura alius literae, quam tamen non ω fuisse spatii angustia docet.’ But ό is in fact separated by narrow spaces from ν and μ, as shown above; there is ample space for ω, and that letter can be faintly seen; it was written rather small. (Autotype Facsimile of Laur. MS., p. 3 B.)] L² (=Lb) has ἱππονόμας: the other MSS., ἱππονόμους.
+[232] ἱππονώμας Porson: ἱππον ό μȣσ L, the second ο in an erasure of ω, and ȣ in an erasure of α. [Dindorf, using Dübner's collation, says: ‘In cod. ό in litura alius literae, *quam tamen non ω fuisse* *spatii angustia docet.*’ But ό is in fact separated by narrow spaces from ν and μ, as shown above; there is ample space for ω, and that letter can be faintly seen; it was written rather small. (Autotype Facsimile of Laur. MS., p. 3 B.)] L² (=Lb) has ἱππονόμας: the other MSS., ἱππονόμους.
 
 ## 234
 ποίμνην Ellendt: ποίμναν MSS.
@@ -413,13 +413,13 @@ L divides the vv. thus:—οἵαν— | αἴθονοσ— | ἄτλατον—
 ἱπποδέτην made in L from ἱππολέτην.
 
 ## 243
-δʼ ἐννάζων L (which a later hand has sought to correct): so Ant. 759 δʼ ἐννάσεις, where see cr. n.
+δʼ ἐννάζων L (which a later hand has sought to correct): so *Ant.* 759 δʼ ἐννάσεις, where see cr. n.
 
 ## 245-255
 L divides the vv. thus:—ὥρα—κα|λύμμασι— | ποδοῖν— | ἢ θοὸν— | ζυγὸν— | ποντοπόρωι— | τοίασ— | δικρατεῖσ— | καθʼ ἡμῶν— | λιθόλευστον— | ξυναλγεῖν— | τὸν—ἴσχει.
 
 ## 245
-ἤδη τοι L, with Γ, L² (=Lb), and most of the later MSS.: ἤδη (without τοι) A, T, Ien., Harl., and others, Eustath. p. 237. 14, and Ald.: Hartung writes ἤτοι.—κρᾶτα L, A, with most MSS. (κράτα r): Eustath. p. 237. 14, and Ald.: κάρα Triclinius (T, Liv. b).—**καλύμμασι**] καλύμματι Eustath. l. c.
+ἤδη τοι L, with Γ, L² (=Lb), and most of the later MSS.: ἤδη (without τοι) A, T, Ien., Harl., and others, Eustath. p. 237. 14, and Ald.: Hartung writes ἤτοι.—κρᾶτα L, A, with most MSS. (κράτα r): Eustath. p. 237. 14, and Ald.: κάρα Triclinius (T, Liv. b).—**καλύμμασι**] καλύμματι Eustath. *l. c.*
 
 ## 247
 [249] εἰρεσίας] Wecklein writes εἰρεσίαν.
@@ -443,7 +443,7 @@ L divides the vv. thus:—ὥρα—κα|λύμμασι— | ποδοῖν— | 
 **φρόνιμος**] L has ν above σ, from a later hand.
 
 ## 260
-ἐσλεύσειν L: cp. O. C. 121 cr. n.
+ἐσλεύσειν L: cp. *O. C.* 121 cr. n.
 
 ## 263
 δοκῶι L. Blaydes conj. δοκεῖ.
@@ -458,7 +458,7 @@ Nauck formerly proposed ἐν ξυνοῦσι for ἐν κοινοῖσι (think
 **διπλάζον**] Blaydes conj. διπλοῖζον.
 
 ## 269
-**ἡμεῖς ἄρʼ οὐ νοσοῦντες**] γʼ ἄρʼ for ἄρʼ r: οἱ for οὐ, Mosq. b. For νοσοῦντες, Wecklein writes νοσοῦντος (a conjecture of Hermann's). F. W. Schmidt conj. χἠμεῖς διπλοῦν νοσοῦντες: Nauck, ἔχεις ἄρʼ οὗ νοσοῦντες (scis igitur quo in malo nunc versemur).
+**ἡμεῖς ἄρʼ οὐ νοσοῦντες**] γʼ ἄρʼ for ἄρʼ r: οἱ for οὐ, Mosq. b. For νοσοῦντες, Wecklein writes νοσοῦντος (a conjecture of Hermann's). F. W. Schmidt conj. χἠμεῖς διπλοῦν νοσοῦντες: Nauck, ἔχεις ἄρʼ οὗ νοσοῦντες (*scis igitur quo in malo nunc versemur*).
 
 ## 270
 Meineke would change ὅπως to ὅπερ: Nauck (keeping ὅπως), πῶς to τί.
@@ -500,7 +500,7 @@ Nauck would reduce these three vv. to two, thus: Αἴας, τί τήνδε πε
 **βαίʼ**] In L two letters (αι or αε) have been erased before βαίʼ: the scribe, overlooking it, had begun to write αἰεὶ or ἀεί.
 
 ## 293
-**γυναιξὶ**] γυναικὶ Arist. Pol. 1. 13 § 11.
+**γυναιξὶ**] γυναικὶ Arist. *Pol.* 1. 13 § 11.
 
 ## 294
 ἔληξʼ made in L from ἔληξα, as it is written in L, etc.
@@ -548,7 +548,7 @@ Nauck would reduce these three vv. to two, thus: Αἴας, τί τήνδε πε
 φανοίην E (cod. Par. 2884, 14th cent.): φανείην L, A, with most MSS., and Ald.: φανείη D.
 
 ## 314
-κυροῖ Suidas s.v.: κυρεῖ L (made by a late hand from κύροι), with most MSS., and Ald. On the form κύρω, cp. O. C. 1159 cr. n.—**ποτέ**] Burges conj. ποτʼ ὤν.—Nauck brackets this v. (‘ein überflüssiges und mattes Anhängsel’).
+κυροῖ Suidas s.v.: κυρεῖ L (made by a late hand from κύροι), with most MSS., and Ald. On the form κύρω, cp. *O. C.* 1159 cr. n.—**ποτέ**] Burges conj. ποτʼ ὤν.—Nauck brackets this v. (‘ein überflüssiges und mattes Anhängsel’).
 
 ## 315
 In some of the later MSS. there is a comma after δείσασα: in the Aldine, after τοὐξειργασμένον.
@@ -584,7 +584,7 @@ In L the second ω of ἐξώιμωξεν, and the ω of οἰμωγὰσ, have 
 **οὕνεκʼ**] εἵνεκʼ several recent edd.
 
 ## 330
-φίλων γὰρ οἱ τοιοίδε νικῶνται λόγοις Stobaeus Flor. 113. 8: φίλων γὰρ οἱ τοιοίδε νικῶνται φίλοι MSS., and Ald.
+φίλων γὰρ οἱ τοιοίδε νικῶνται λόγοις Stobaeus *Flor.* 113. 8: φίλων γὰρ οἱ τοιοίδε νικῶνται φίλοι MSS., and Ald.
 
 ## 331
 **δεινά**] Bentley conj. δεινοῖς.—L has a comma after λέγεισ, but a later hand has added a faint point after ἡμῖν. The Aldine has a comma after ἡμῖν.—διαπεφοιβάσθαι r, and Ald.: διαπεφοιβᾶσθαι L. From the schol. (ἐκμεμηνέναι, παρὰ τὸν φοῖτον,) Valckenär conj. διαπεφοιτάσθαι.
@@ -635,7 +635,7 @@ L has the ν of ἔοικεν from a later hand.—**ἀνοίγετε**] Weckle
 οὐκ ἐκτός; οὐκ ἄψορρον MSS.: οὐκ ἐκτὸς ἄψορρον Neue, since in 384 the MSS. give ἴδοιμί νιν, καίπερ (where see n.): so Nauck and Wecklein.—**ἐκνεμεῖ**] Blaydes conj. ἐκνεμεῖς.
 
 ## 370
-αἰαῖ αἰαῖ Dindorf: αἶ αἶ αἶ αἶ (or αἲ quater) r: αἶ αἶ αἶ L, with some others: αἲ, αἲ, αἴ Ald.
+αἰαῖ αἰαῖ Dindorf: αἶ αἶ αἶ αἶ (or αἲ *quater*) r: αἶ αἶ αἶ L, with some others: αἲ, αἲ, αἴ Ald.
 
 ## 371
 ὦ πρὸς θεῶν. This v. is given to the Chorus in the MSS., and Ald.: Schneidewin was the first editor who, following O. Müller, gave it to Tecmessa.
@@ -650,16 +650,16 @@ L divides the vv. thus:—ὦ δύσμοροσ— | μεθῆκα— | ἐν δ�
 **πεσὼν**] G. Wolff would read πέσον (with δεύσας in 376) for metre’s sake, keeping the MS. ὀλέσας in the antistr., 390. For the same reason Nauck suggests, instead of κλυτοῖς πεσὼν, something like δειλοῖσιν ἐν.
 
 ## 378
-**ἔχειν**] In the citation of this v. by Suidas (s.v. τί δῆτα) a v.l. is ἔχει: and the schol. here (ὅπως ταῦτα μὴ οὕτως σχοίη) possibly read ἔχοι.—Blaydes writes οὐ γὰρ γένοιτʼ ἂν ταῦτά γʼ ὥστʼ οὐχ ὧδʼ ἔχειν.
+**ἔχειν**] In the citation of this v. by Suidas (s.v. τί δῆτα) a *v.l.* is ἔχει: and the schol. here (ὅπως ταῦτα μὴ οὕτως σχοίη) possibly read ἔχοι.—Blaydes writes οὐ γὰρ γένοιτʼ ἂν ταῦτά γʼ ὥστʼ οὐχ ὧδʼ ἔχειν.
 
 ## 379
-**πάνθʼ ὁρῶν**] Nauck reads πάντα δρῶν, a conj. of Wakefield (Silv. Crit. IV. p. 138).—ἁπάντων τʼ ἀεὶ L, with most MSS., and Ald.: ἁπάντων ἀεὶ r. In L ἁπάντων τʼ ἀεὶ has been made from πάντων ἀεί by another hand, but not (apparently) a late one; indeed, it might well be that of the first corrector, S. Eustathius p. 415. 19 has ὁ δὲ παρὰ Σοφοκλεῖ Ὀδυσσεὺς, ὡς πάντων ἀεὶ κακὸν (sic) ὄργανον, ἐπιψόγως πάνθʼ ὁρᾶν λέγεται: but this hardly warrants the conclusion that, in his text of the poet, he found πάντων rather than ἁπάντων τʼ.—Elmsley wished to read either (1) πᾶν θʼ ὁρῶν, ἁπάντων τʼ: or (2) πάνθʼ ὁρῶν, ἁπάντων δʼ.—Brunck gives ἁπάντων (without τʼ): so, too, Lobeck and Nauck.
+**πάνθʼ ὁρῶν**] Nauck reads πάντα δρῶν, a conj. of Wakefield (*Silv. Crit.* IV. p. 138).—ἁπάντων τʼ ἀεὶ L, with most MSS., and Ald.: ἁπάντων ἀεὶ r. In L ἁπάντων τʼ ἀεὶ has been made from πάντων ἀεί by another hand, but not (apparently) a late one; indeed, it might well be that of the first corrector, S. Eustathius p. 415. 19 has ὁ δὲ παρὰ Σοφοκλεῖ Ὀδυσσεὺς, ὡς πάντων ἀεὶ κακὸν (*sic*) ὄργανον, ἐπιψόγως πάνθʼ ὁρᾶν λέγεται: but this hardly warrants the conclusion that, in his text of the poet, he found πάντων rather than ἁπάντων τʼ.—Elmsley wished to read either (1) πᾶν θʼ ὁρῶν, ἁπάντων τʼ: or (2) πάνθʼ ὁρῶν, ἁπάντων δʼ.—Brunck gives ἁπάντων (without τʼ): so, too, Lobeck and Nauck.
 
 ## 380
 Λαρτίου Triclinius: λαερτίου L, with most MSS.: Λαερτίου Ald.
 
 ## 381
-κοκοπινέστατον (sic) L.—Since ἄλημα recurs in 389, Schneidewin conj. here τε λῆμα: Burges, τε λῦμα.
+κοκοπινέστατον (*sic*) L.—Since ἄλημα recurs in 389, Schneidewin conj. here τε λῆμα: Burges, τε λῦμα.
 
 ## 382
 **ἦ που**] ἦ (without που) r.—**γέλωθʼ**] γέλων Mosq. b, and the MSS. of Suidas (except A) s.v. ἄλημα.—**ἄγεις**] Nauck writes γελᾷς.
@@ -683,7 +683,7 @@ L divides the vv. thus:—ὦ ζεῦ— | πῶσ ἂν— | ἐχθρὸν—�
 **προπάτωρ**] πρόπατορ r: πάτερ Triclinius, and so Nauck (reading χεροῖν in 372, cr. n.). Dindorf conj. γένετορ.
 
 ## 388
-[389] δισσάρχας] L has the second σ from a later hand. Blomfield conj. δισσάρχους.—ὀλέσασ L, with most MSS., and Ald.: the correction ὀλέσσας is usu. ascribed to Turnebus (ed. 1552–3), but by Herm. to Triclinius. Suidas s.v. ἄλημα has βασιλεῖς ὀλέσας (in that order).—βασιλῇσ L (sic, but the ι subscript may be from a later hand): βασιλεῖς most MSS., and Ald.: but a few have βασιλῆς, which is confirmed by the grammarian Draco Stratonicensis (c. 125 A.D) p. 115. 18, and Herodian (c. 240 A.D.) in Bekker Anecd. p. 1195: σημειοῦται δὲ ὁ Ἡρωδιανὸς παρὰ τῷ Σοφοκλεῖ τοὺς βασιλῆς διὰ τοῦ η̄ γραφομένους κατὰ τὴν αἰτιατικὴν, οἷον τούς τε δισσάρχας ὤλεσας (sic) βασιλῆς.
+[389] δισσάρχας] L has the second σ from a later hand. Blomfield conj. δισσάρχους.—ὀλέσασ L, with most MSS., and Ald.: the correction ὀλέσσας is usu. ascribed to Turnebus (ed. 1552–3), but by Herm. to Triclinius. Suidas s.v. ἄλημα has βασιλεῖς ὀλέσας (in that order).—βασιλῇσ L (*sic*, but the ι subscript may be from a later hand): βασιλεῖς most MSS., and Ald.: but a few have βασιλῆς, which is confirmed by the grammarian Draco Stratonicensis (*c.* 125 A.D) p. 115. 18, and Herodian (*c.* 240 A.D.) in Bekker *Anecd.* p. 1195: σημειοῦται δὲ ὁ Ἡρωδιανὸς παρὰ τῷ Σοφοκλεῖ τοὺς βασιλῆς διὰ τοῦ η̄ γραφομένους κατὰ τὴν αἰτιατικὴν, οἷον τούς τε δισσάρχας ὤλεσας (*sic*) βασιλῆς.
 
 ## 393
 **δεῖ**] εῖ made in L from η.
@@ -707,7 +707,7 @@ L divides the vv. thus:—ἰὼ—φαεν-|νότατον ὡσ ἐμοί, | �
 **Διὸς**] Διός γʼ r, and so Hartung.—**θεὸς**] θεὰ r, Hartung.
 
 ## 402
-ὀλέθριον MSS.; keeping which, Hermann writes ἐυφρονες in 420: Dindorf, ὀλέθριʼ: Wunder, οὔλιον: Campbell conj. πάμμορον: Blaydes, ἄθλιον.—**αἰκίζει**] Bergk (p. xliii) quotes Etym. Vindob. ined. κήδω ἐνεργητικῶς τὸ λυπῶ· Σοφοκλῆς· ἀλλά με κήδει Διὸς ἀλκίμα θυγάτηρ. Παθητικῶς δὲ κήδομαι τὸ φροντίζω. Hence he conjectures ὀλέθριον κήδει: while Wecklein (Ars Soph. em. p. 51) suggests ὀλέθριʼ, αἶ, κήδει.
+ὀλέθριον MSS.; keeping which, Hermann writes ἐυφρονες in 420: Dindorf, ὀλέθριʼ: Wunder, οὔλιον: Campbell conj. πάμμορον: Blaydes, ἄθλιον.—**αἰκίζει**] Bergk (p. xliii) quotes Etym. Vindob. ined. κήδω ἐνεργητικῶς τὸ λυπῶ· Σοφοκλῆς· ἀλλά με κήδει Διὸς ἀλκίμα θυγάτηρ. Παθητικῶς δὲ κήδομαι τὸ φροντίζω. Hence he conjectures ὀλέθριον κήδει: while Wecklein (*Ars Soph. em.* p. 51) suggests ὀλέθριʼ, αἶ, κήδει.
 
 ## 403
 **φύγῃ**] schol. in L γρ. τράπη.
@@ -716,7 +716,7 @@ L divides the vv. thus:—ἰὼ—φαεν-|νότατον ὡσ ἐμοί, | �
 μενῶ MSS. and Ald. (L has μένῶ, made from μὲν ὦ.) The edd. generally give μενῶ: Blaydes, μένω.
 
 ## 405
-εἰ τὰ μὲν φθίνει φίλοι | τοῖσδʼ ὁμοῦ πέλας | μωραῖς (sic) δʼ ἄγραις προσκείμεθα MSS. and Ald. (μώραις Elmsley). In the marg. of an Aldine ed. collated at Rome by Joannes Livineius in the 16th century he quotes τοῖσιδʼ, for τοῖσδʼ, from one of his two MSS. (‘Liv. a’: Class. Journ. XIV. p. 428 f.). No other variant occurs. For the conjectures see Appendix.
+εἰ τὰ μὲν φθίνει φίλοι | τοῖσδʼ ὁμοῦ πέλας | μωραῖς (*sic*) δʼ ἄγραις προσκείμεθα MSS. and Ald. (μώραις Elmsley). In the marg. of an Aldine ed. collated at Rome by Joannes Livineius in the 16th century he quotes τοῖσιδʼ, for τοῖσδʼ, from one of his two MSS. (‘Liv. a’: *Class. Journ.* XIV. p. 428 f.). No other variant occurs. For the conjectures see Appendix.
 
 ## 408
 **δίπαλτος**] δίπλτοσ L, with α added above the line. δίπλατος Mosq. b: δίπαλτʼ Pal.
@@ -728,7 +728,7 @@ L divides the vv. thus:—ἰὼ—φαεν-|νότατον ὡσ ἐμοί, | �
 πολὺν πολύν με δαρόν τε δὴ L, with most MSS., and Ald. A few of the later MSS. give πολύν με πολὺν—, or πολύν με πολύν με—: or omit με: or substitute με for δή.
 
 ## 415
-L divides the vv. thus:—κατείχετʼ— | χρόνον· ἀλλʼ οὐκέτι μʼ· οὐκέτι (sic) | ἀμπνοὰσ ἔχοντα. τοῦ|τό τισ φρονῶν ἴστω.
+L divides the vv. thus:—κατείχετʼ— | χρόνον· ἀλλʼ οὐκέτι μʼ· οὐκέτι (*sic*) | ἀμπνοὰσ ἔχοντα. τοῦ|τό τισ φρονῶν ἴστω.
 
 ## 416
 **ἀμπνοὰς**] Wecklein writes ἀμπνοάς γʼ, as Morstadt too had proposed.
@@ -776,7 +776,7 @@ L divides the vv. thus:—ἰὼ σκαμάνδριοι— | εὔφρονεσ�
 τοσοῦτόν γʼ L, with most MSS., and Ald.: τοσοῦτον r.
 
 ## 447
-**ὄμμα**] made in L from ὄνομα, by erasing the ν and altering the second ο into μ. Conversely in Tr. 379 ὄνομα became ὄμμα.—Blaydes, with Burges and Wunder, writes τό τʼ ὄμμα χαἰ φρένες.
+**ὄμμα**] made in L from ὄνομα, by erasing the ν and altering the second ο into μ. Conversely in *Tr.* 379 ὄνομα became ὄμμα.—Blaydes, with Burges and Wunder, writes τό τʼ ὄμμα χαἰ φρένες.
 
 ## 448
 **γνώμης ἀπῇξαν**] Blaydes writes γνώμης μʼ ἀπεῖρξαν.
@@ -788,7 +788,7 @@ L divides the vv. thus:—ἰὼ σκαμάνδριοι— | εὔφρονεσ�
 ἀδάματος Elmsley, and edd. since Herm.: ἀδάμαστος MSS., Suidas s. v., and Ald.
 
 ## 451
-ἐπευθύνοντʼ was written by the 1st hand in L, but altered to ἐπεντύνοντʼ either by the scribe himself, or by an early corrector. (Valckenaer had conjectured ἐπευθύνοντʼ, on Eur. Hipp. 1183.) No other trace of ἐπευθύνοντʼ seems to occur in the MSS. Most (including A) have ἐπεντύνοντʼ, and so Ald. But some (as E and T) have ἐπεντείνοντʼ: and a few (as Lips. a and b, Dresd. a) notice a v. l. ἐπεκτείνοντʼ. (ἐπαντείνοντʼ was merely a conj. of Musgrave, who reads ἐπεντύνοντʼ.) Brunck wrote ἐπεντείνοντʼ. Hermann kept the vulgate, ἐπεντύνοντʼ, and this stands in the later edd. of Dindorf’s text. In his ed. of 1860 Dindorf gave ἐπευθύνοντʼ, the reading preferred by Bergk (1858), and by most of the subsequent editors, except Paley.
+ἐπευθύνοντʼ was written by the 1st hand in L, but altered to ἐπεντύνοντʼ either by the scribe himself, or by an early corrector. (Valckenaer had conjectured ἐπευθύνοντʼ, on Eur. *Hipp.* 1183.) No other trace of ἐπευθύνοντʼ seems to occur in the MSS. Most (including A) have ἐπεντύνοντʼ, and so Ald. But some (as E and T) have ἐπεντείνοντʼ: and a few (as Lips. a and b, Dresd. a) notice a *v. l.* ἐπεκτείνοντʼ. (ἐπαντείνοντʼ was merely a conj. of Musgrave, who reads ἐπεντύνοντʼ.) Brunck wrote ἐπεντείνοντʼ. Hermann kept the vulgate, ἐπεντύνοντʼ, and this stands in the later edd. of Dindorf’s text. In his ed. of 1860 Dindorf gave ἐπευθύνοντʼ, the reading preferred by Bergk (1858), and by most of the subsequent editors, except Paley.
 
 ## 452
 **λυσσώδη**] λυσσωίδη L.—νόσον made in L from νόσων.—λυσσώδει νόσῳ Suidas s. v. ἀδάμαστος.
@@ -806,7 +806,7 @@ L divides the vv. thus:—ἰὼ σκαμάνδριοι— | εὔφρονεσ�
 **μέγαν**] Nauck conj. λαβών.
 
 ## 467
-**μόνος μόνοις**] Bergk (Gr. Lit. Gesch. III. 370) conj. μόνος μόνως (μόνῳ Mekler): J. Geel, πᾶσιν μόνος: Nauck, with Morstadt, writes πολλοῖς μόνος.
+**μόνος μόνοις**] Bergk (*Gr. Lit. Gesch.* III. 370) conj. μόνος μόνως (μόνῳ Mekler): J. Geel, πᾶσιν μόνος: Nauck, with Morstadt, writes πολλοῖς μόνος.
 
 ## 469
 **ὧδέ γʼ**] ὧδʼ ἂν r.—εὐφραίναιμι L: conversely some of the later MSS. (as Ienensis, Aug. c, etc.) have εὐφράνοιμι: but no MS. seems to have εὐφραίνοιμι.
@@ -842,7 +842,7 @@ L divides the vv. thus:—ἰὼ σκαμάνδριοι— | εὔφρονεσ�
 ἐφείς L (with α above from a late hand), Γ, T, etc., and Suidas s. v. χειρίαν. ἀφείς A, with most of the later MSS., and Ald.
 
 ## 496
-(1) L has εἰ γὰρ θανῃσσὺ (sic) καὶ τελευτήσασ (not -ησ) ἀφῆισ: but θανῃσ has been made from θάνεισ by erasure, and τελευτήσασ from τελευτήσεισ. Most of the later MSS. agree with L. (2) A, ἢν γὰρ θάνῃς σὺ καὶ τελευτήσας ἀφῇς, and so Ald. (3) A third type of reading is Γ’s, εἰ γὰρ θανεῖ σὺ καὶ τελευτήσεις ἀφείς,—an attempt to avoid the subjunct. with εἰ.—For εἰ, Bothe conj. ᾗ. For ἀφῇς, Wecklein writes ἀπῇς (as Gomperz too proposed): Meineke conj. φανῇς or ταφῇς: Bergk, (τελευτήσῃς) ἃ φής. Pal. and L²=Lb have ἀφʼ ἧς. Brunck wrote μʼ ἀφῇς.
+(1) L has εἰ γὰρ θανῃσσὺ (*sic*) καὶ τελευτήσασ (not -ησ) ἀφῆισ: but θανῃσ has been made from θάνεισ by erasure, and τελευτήσασ from τελευτήσεισ. Most of the later MSS. agree with L. (2) A, ἢν γὰρ θάνῃς σὺ καὶ τελευτήσας ἀφῇς, and so Ald. (3) A third type of reading is Γ’s, εἰ γὰρ θανεῖ σὺ καὶ τελευτήσεις ἀφείς,—an attempt to avoid the subjunct. with εἰ.—For εἰ, Bothe conj. ᾗ. For ἀφῇς, Wecklein writes ἀπῇς (as Gomperz too proposed): Meineke conj. φανῇς or ταφῇς: Bergk, (τελευτήσῃς) ἃ φής. Pal. and L²=Lb have ἀφʼ ἧς. Brunck wrote μʼ ἀφῇς.
 
 ## 499
 **δουλίαν**] made in L from δούλιον. The lemma of the schol. in L has δούλιον ἕξειν τροφήν, and so Ald. A has δουλίαν: the later MSS. vary between δουλίαν, δούλιον, δούλειον, δουλείαν, δουλίαν γʼ. Seyffert conj. δούλιόν μʼ ἕξειν τροφήν: Schneidewin, δούλιον στέρξειν τροφήν.
@@ -878,7 +878,7 @@ L divides the vv. thus:—ἰὼ σκαμάνδριοι— | εὔφρονεσ�
 **σὺ**] σοὶ L.—**μοι**] μου r.—ἠΐστωσασ L.—**δορί**] δόρει Dindorf.
 
 ## 516
-ἄλλη Aug. b: ἀλλʼ ἡ L, with most MSS., and Ald. (a comma or colon being placed after μητέρʼ). Hermann writes ἀλαὴ: Hartung, ὀλοὴ: Nauck, ὠμὴ: Mekler, ἤδη: Apitz conj. ἄλλʼ ἢ (i.e. ἄλλο ἢ, aliud quam fatum): Herwerden, αἰνὴ: Schneidewin and Meineke, ἀμὴν: Blaydes, Αἴδου.—**τὸν φύσαντά τε**] L has τὸν φύσαντά με, but με is from a later hand, and τε has been erased before it (part of τ still remaining). Most MSS., and Ald., have με: Γ and a few others have τε. (The change of τε into με followed from that of ἄλλη into ἀλλʼ ἡ, when μητέρʼ was taken as depending on ᾔστωσας.)
+ἄλλη Aug. b: ἀλλʼ ἡ L, with most MSS., and Ald. (a comma or colon being placed after μητέρʼ). Hermann writes ἀλαὴ: Hartung, ὀλοὴ: Nauck, ὠμὴ: Mekler, ἤδη: Apitz conj. ἄλλʼ ἢ (*i.e.* ἄλλο ἢ, *aliud quam fatum*): Herwerden, αἰνὴ: Schneidewin and Meineke, ἀμὴν: Blaydes, Αἴδου.—**τὸν φύσαντά τε**] L has τὸν φύσαντά με, but με is from a later hand, and τε has been erased before it (part of τ still remaining). Most MSS., and Ald., have με: Γ and a few others have τε. (The change of τε into με followed from that of ἄλλη into ἀλλʼ ἡ, when μητέρʼ was taken as depending on ᾔστωσας.)
 
 ## 518
 **γένοιτʼ ἂν ἀντὶ**] In L the 1st hand wrote γένοιτʼ ἀντὶ: an early corrector has added ἂν above the line.
@@ -890,16 +890,16 @@ L divides the vv. thus:—ἰὼ σκαμάνδριοι— | εὔφρονεσ�
 πάθοι A, with most MSS., and Ald.: πάθῃ L (πάθηι), with Γ (πάθη), L² (= L b), Aug. b.—Badham conj. εἴ τι προὔπαθεν.
 
 ## 522
-χάρις κ.τ.λ. ‘An delendus versus?’ Dobree Adv. II. p. 43.
+χάρις κ.τ.λ. ‘An delendus versus?’ Dobree *Adv.* II. p. 43.
 
 ## 524
-γένοιτʼ ἔθʼ L, with a few others (as L², Aug. b, Mosq. b): γένοιτό ποθʼ A, with most MSS., and Ald.: γένοιθʼ οὗτος Γ, and some MSS. of Suidas s. v. μνῆστις, where other MSS. have οὔπως γένοιτʼ ἂν (see Bernhardy’s ed., vol. II. p. 868).—Wecklein (Ars Soph. em. p. 49) conj. πέλοι ποθʼ. Blaydes writes, οὐκ ἂν γένοιθʼ οὗτός ποτʼ. Elmsley conj. οὐκ ἂν γένοιτʼ ἂν οὗτος.
+γένοιτʼ ἔθʼ L, with a few others (as L², Aug. b, Mosq. b): γένοιτό ποθʼ A, with most MSS., and Ald.: γένοιθʼ οὗτος Γ, and some MSS. of Suidas s. v. μνῆστις, where other MSS. have οὔπως γένοιτʼ ἂν (see Bernhardy’s ed., vol. II. p. 868).—Wecklein (*Ars Soph. em.* p. 49) conj. πέλοι ποθʼ. Blaydes writes, οὐκ ἂν γένοιθʼ οὗτός ποτʼ. Elmsley conj. οὐκ ἂν γένοιτʼ ἂν οὗτος.
 
 ## 530
 **νυν**] νῦν L (as usual), and Ald.
 
 ## 531
-**φόβοισί γʼ**] Blaydes writes φόβῳ σῷ γʼ. Ellendt (Lex. p. 354) would write φόβοισιν (without γʼ).—**ἐξελυσάμην**] ἐξερρυσάμην Hermann, from the schol. (ῥύσασθαι θέλουσα ἐξήγαγον). So too Nauck and Wecklein.
+**φόβοισί γʼ**] Blaydes writes φόβῳ σῷ γʼ. Ellendt (*Lex.* p. 354) would write φόβοισιν (without γʼ).—**ἐξελυσάμην**] ἐξερρυσάμην Hermann, from the schol. (ῥύσασθαι θέλουσα ἐξήγαγον). So too Nauck and Wecklein.
 
 ## 533
 **θάνοι**] θάνῃ r.
@@ -920,16 +920,16 @@ L divides the vv. thus:—ἰὼ σκαμάνδριοι— | εὔφρονεσ�
 **φυλάσσεται**] In L the first σ has been added by a corrector.
 
 ## 543
-λελειμμένω (sic) L.—λόγων L, with ȣ written above by a later hand: λόγου r, and Ald.
+λελειμμένω (*sic*) L.—λόγων L, with ȣ written above by a later hand: λόγου r, and Ald.
 
 ## 544
 ὅδʼ r, and Ald.: ὧδʼ L.
 
 ## 546
-(1) που τόνδε A, and Ald.: (2) τοῦ τόνδε L: (3) τοῦτόν γε Γ (τοῦτὄν γε). The other MSS. are divided between these readings.—Hermann and Dindorf read τοῦτόν γε: Wecklein (Ars p. 136), του τόνδε: Morstadt (whom Nauck and Blaydes follow), μου τόνδε: Mekler, τοιόνδε.—**προσλεύσσων**] προσλεύσων L: but a later hand has faintly indicated a second σ.—Dindorf thinks the verse spurious.
+(1) που τόνδε A, and Ald.: (2) τοῦ τόνδε L: (3) τοῦτόν γε Γ (τοῦτὄν γε). The other MSS. are divided between these readings.—Hermann and Dindorf read τοῦτόν γε: Wecklein (*Ars* p. 136), του τόνδε: Morstadt (whom Nauck and Blaydes follow), μου τόνδε: Mekler, τοιόνδε.—**προσλεύσσων**] προσλεύσων L: but a later hand has faintly indicated a second σ.—Dindorf thinks the verse spurious.
 
 ## 547
-**δικαίως**] L has the κ in an erasure (from χ?).—Priscian (Inst. Gr. II. p. 193. 308) cites δίκαιος γόνος from this play. Nauck suggests that he read, εἴπερ δίκαιος γόνος ἐμὸς τὰ πατρόθεν: F. W. Schmidt, εἴπερ δίκαιός μοὐστὶ πατρόθεν γόνος.
+**δικαίως**] L has the κ in an erasure (from χ?).—Priscian (*Inst. Gr.* II. p. 193. 308) cites δίκαιος γόνος from this play. Nauck suggests that he read, εἴπερ δίκαιος γόνος ἐμὸς τὰ πατρόθεν: F. W. Schmidt, εἴπερ δίκαιός μοὐστὶ πατρόθεν γόνος.
 
 ## 552
 **σε**] σὲ L and r.—**τοῦτό γε**] Blaydes conj. τοῦδέ γε.
@@ -938,7 +938,7 @@ L divides the vv. thus:—ἰὼ σκαμάνδριοι— | εὔφρονεσ�
 ὅθʼ οὕνεκʼ L. Cp. 123.
 
 ## 554a
-**[τὸ μὴ φρονεῖν...κακόν**] This v. is twice quoted by Suidas, viz. (1) s. v. ζηλοῦν, where he cites vv. 552—555: and (2) s. v. κάρτα, where he cites only vv. 554 b, 555 (with φρονεῖν δὲ instead of φρονεῖν γὰρ). The schol. in L also read it. But Stobaeus (c. 480 A.D.), quoting vv. 550—555 (Flor. 78. 9), ignores it. Valckenär (on Eur. Hipp. 247) supposed it to be a marginal quotation from some other play of Sophocles. Brunck removed it from the text. Nearly all subsequent editors either omit or bracket it.
+**[τὸ μὴ φρονεῖν...κακόν**] This v. is twice quoted by Suidas, viz. (1) s. v. ζηλοῦν, where he cites vv. 552—555: and (2) s. v. κάρτα, where he cites only vv. 554 b, 555 (with φρονεῖν δὲ instead of φρονεῖν γὰρ). The schol. in L also read it. But Stobaeus (*c.* 480 A.D.), quoting vv. 550—555 (*Flor.* 78. 9), ignores it. Valckenär (on Eur. *Hipp.* 247) supposed it to be a marginal quotation from some other play of Sophocles. Brunck removed it from the text. Nearly all subsequent editors either omit or bracket it.
 
 ## 557
 δείξεισ made in L from δείξηισ. The later MSS. are divided between δείξεις, δείξης, δείξῃς. The Ald. has δείξῃς.—**ʼτράφης**] τράφηισ L: the η has been re-touched, but does not seem to have been ε.
@@ -974,7 +974,7 @@ In L the σ of ὡσ is from a corrector.
 δῶμα πάκτου Eustathius (who quotes these words thrice, p. 742. 43, p. 1532. 59, p. 1937. 62): δῶμʼ ἀπάκτου L (a letter erased above π), with most MSS. (δῶμʼ ἀπάγου r) and Suidas s. v. ἀπάκτου (where a gl. in E has ταὐτὸν τῷ ἄπαγε). In Ald. it is printed thus, καὶ δῶ μʼ ἀπάκτου. [In the superscrip. gl. in L, κατὰ τῶν σκηνῶν ἄπαγε, the last word is from a later hand, and the first three words probably refer to ἐπισκήνουσ.]
 
 ## 582
-θρηνεῖν L, with most MSS., and Ald.: Eustath. p. 648. 19, and 1147. 8: and Suidas s. v. θρηνεῖν. T has θροεῖν, which is noted as a v. l. in A, and is the reading of some MSS. of Suidas s. vv. ἐπῳδός and πύκαζε, where, however, the best have θρηνεῖν.—πήματι L (γρ. τραύματι above, from S), A, with most MSS., and Ald.: τραύματι r, which Nauck adopts. E. Werth conj. φύματι (‘tumour’).
+θρηνεῖν L, with most MSS., and Ald.: Eustath. p. 648. 19, and 1147. 8: and Suidas s. v. θρηνεῖν. T has θροεῖν, which is noted as a *v. l.* in A, and is the reading of some MSS. of Suidas s. vv. ἐπῳδός and πύκαζε, where, however, the best have θρηνεῖν.—πήματι L (γρ. τραύματι above, from S), A, with most MSS., and Ald.: τραύματι r, which Nauck adopts. E. Werth conj. φύματι (‘tumour’).
 
 ## 585
 **δρασείεις**] δράσειας or δρασείης r: δρασείης Ald.—**φρενί**] Nauck conj. φράσον.
@@ -1004,7 +1004,7 @@ L divides the vv. thus:—ὦ κλεινὰ— | ναίεισ— | πᾶσι— 
 **πᾶσιν**] πᾶσι L.—ἀεί L, with most MSS., and Ald.: αἰεί r.
 
 ## 601-603
-ἰδαία (sic) μίμνων | λειμωνίᾳ (sic, not λειμώνια) ποίαι μήλων | ἀνήριθμοσ αἰὲν εὐνόμαι L. The iota subscript of λειμωνίᾳ is from a corrector’s hand, and the α, which seems to have been re-touched, is linked to the π of ποίαι. Over ἰδαία is written τῆ τρωϊκῆ. The only variants from L in the other MSS. are: (1) Ἰδαίᾳ μίμνω in A and most MSS. (though Γ has μίμνων, with ω superscript): so Ald. (2) πόᾳ for ποίαι in Γ and a few others: so Ald. (3) εὐνόμα, εὐνόμω (or -ῳ, or -ῷ), εὐνομία, for εὐνόμαι. Triclinius wrote εὐνώμᾳ.—In the reading given above, λειμώνιʼ ἔπαυλα is due to Lobeck: μηνῶν, to Hermann: εὐνῶμαι, to Bergk.—See comment. and Appendix.
+ἰδαία (*sic*) μίμνων | λειμωνίᾳ (*sic*, not λειμώνια) ποίαι μήλων | ἀνήριθμοσ αἰὲν εὐνόμαι L. The iota subscript of λειμωνίᾳ is from a corrector’s hand, and the α, which seems to have been re-touched, is linked to the π of ποίαι. Over ἰδαία is written τῆ τρωϊκῆ. The only variants from L in the other MSS. are: (1) Ἰδαίᾳ μίμνω in A and most MSS. (though Γ has μίμνων, with ω superscript): so Ald. (2) πόᾳ for ποίαι in Γ and a few others: so Ald. (3) εὐνόμα, εὐνόμω (or -ῳ, or -ῷ), εὐνομία, for εὐνόμαι. Triclinius wrote εὐνώμᾳ.—In the reading given above, λειμώνιʼ ἔπαυλα is due to Lobeck: μηνῶν, to Hermann: εὐνῶμαι, to Bergk.—See comment. and Appendix.
 
 ## 605
 **χρόνῳ**] Martin conj. πόνῳ, which Nauck reads.
@@ -1047,7 +1047,7 @@ L divides the vv. thus:—ἦ που— | λευκῶ— | μάτηρ— | φρ�
 φρενομόρως r, and schol. in L: φρενομώρωσ L (the first ω made from ο by an early hand), A, etc., and Ald.: Dindorf conj. φρενοβόρως: Meineke, φρενομανῶς: Nauck, (νοσοῦντʼ) αἰνομόρως (cp. 636).
 
 ## 628
-**οὐδʼ οἰκτρᾶς**] Wecklein (Ars Soph. em. p. 59) conj. οὐκ οἰκτρᾶς: Nauck, φεῦ, οἰκτρᾶς.
+**οὐδʼ οἰκτρᾶς**] Wecklein (*Ars Soph. em.* p. 59) conj. οὐκ οἰκτρᾶς: Nauck, φεῦ, οἰκτρᾶς.
 
 ## 630
 **ἥσει**] ἄσει r, and Suidas s. v. ἀηδών, who omits μὲν after ὀξυτόνους.
@@ -1071,22 +1071,22 @@ L divides the vv. thus:—ἦ που— | λευκῶ— | μάτηρ— | φρ�
 **πολυπόνων**] πουλοπόνων Liv. a, which Meineke would read. Nauck conj. δουριπόνων.
 
 ## 640
-**ὁμιλεῖ**] Reiske conj. ὁμίλου: Blaydes (inter alia) ἀλᾶται.
+**ὁμιλεῖ**] Reiske conj. ὁμίλου: Blaydes (*inter alia*) ἀλᾶται.
 
 ## 641
 τλᾶμον r: τλάμων L, A, with most MSS., and Ald.
 
 ## 645
-**αἰὼν**] γρ. ἐὼν Γ.—Reiske conj. δίων. Dobree would read acc. αἰῶνʼ, to be fem., as in Eur. Ph. 1484 etc.,=οἷον βίον οὐδεὶς Αἰακ. ἔτλη (Adv. II. p. 44).—**ἄτερθε**] ἄτερθέ γε r (due perh. to Triclinius), on account of the corrupt ἀμύγματα in 633.
+**αἰὼν**] γρ. ἐὼν Γ.—Reiske conj. δίων. Dobree would read acc. αἰῶνʼ, to be fem., as in Eur. *Ph.* 1484 etc.,=οἷον βίον οὐδεὶς Αἰακ. ἔτλη (*Adv.* II. p. 44).—**ἄτερθε**] ἄτερθέ γε r (due perh. to Triclinius), on account of the corrupt ἀμύγματα in 633.
 
 ## 647
-**φύει**] Herwerden conj. φαίνει, which Nauck reads. ποιεῖ Stobaeus Ecl. Phys. I. 9. 23, where he quotes vv. 646—649.
+**φύει**] Herwerden conj. φαίνει, which Nauck reads. ποιεῖ Stobaeus *Ecl. Phys.* I. 9. 23, where he quotes vv. 646—649.
 
 ## 648
-**κοὐκ**] οὐκ Stobaeus l. c. and Suidas s. v. ἄελπτον.
+**κοὐκ**] οὐκ Stobaeus *l. c.* and Suidas s. v. ἄελπτον.
 
 ## 649
-**ὅρκος**] Bothe conj. ὄγκος.—χαἱ Brunck (χʼ αἱ): καὶ MSS., Stob. l. c., Suid. s. vv. ἄελπτον and περισκελής, and Ald.
+**ὅρκος**] Bothe conj. ὄγκος.—χαἱ Brunck (χʼ αἱ): καὶ MSS., Stob. *l. c.*, Suid. s. vv. ἄελπτον and περισκελής, and Ald.
 
 ## 650
 The punctuation in the text (a comma after τότε, and another after ὥς) is the traditional one, as seen in L, and in the Aldine.—**ἐκαρτέρουν τότε**] γρ. ἐπηπείλησʼ ἔπη S in marg. of L (cp. 312).—**βαφῇ**] Tournier conj. βαφεὶς: Musgrave, ἀβαφὴς: R. Paehler, βαύνῃ (‘furnace’).—**ἐθηλύνθην**] H. Blümner conj. ἐθηγάνθην.
@@ -1122,13 +1122,13 @@ Geel would omit this v.: see comment.
 τί μήν: Linwood (1846) and Herwerden (1868): so Nauck, Blaydes, Wecklein.—τί μή MSS. The Aldine has, ὥσθʼ ὑπεικτέον τι μῇ (=τιμῇ!).
 
 ## 669
-**τὰ δεινὰ**] τὰ θεῖα Wilamowitz-Möllendorf (Hermes XIV. p. 176).
+**τὰ δεινὰ**] τὰ θεῖα Wilamowitz-Möllendorf (*Hermes* XIV. p. 176).
 
 ## 670
 **τιμαῖς ὑπείκει**] Mekler writes ἕτοιμʼ ὑπείκει.
 
 ## 672
-αἰανὴσ L (schol. ὁ σκοτεινὸς κύκλος ἢ ἀδιάλειπτος): αἰανῆς most MSS., Stobaeus Flor. 44. 7, and Suidas s. v. λευκὴ ἡμέρα (who, however, s. v. αἰανὴς κύκλος, recognises the other form), and Ald.—For κύκλος, Nauck conj. σκότος.
+αἰανὴσ L (schol. ὁ σκοτεινὸς κύκλος ἢ ἀδιάλειπτος): αἰανῆς most MSS., Stobaeus *Flor.* 44. 7, and Suidas s. v. λευκὴ ἡμέρα (who, however, s. v. αἰανὴς κύκλος, recognises the other form), and Ald.—For κύκλος, Nauck conj. σκότος.
 
 ## 673
 **λευκοπώλῳ**] In L the first ω has been made from ο.—**φλέγειν**] made in L from φέγγειν.—Nauck conj. φέρειν.
@@ -1137,16 +1137,16 @@ Geel would omit this v.: see comment.
 **δεινῶν**] made in L from δεινόν.—Musgrave conj. λείων τʼ: F. W. Schmidt, λῆγόν τʼ.
 
 ## 675
-**ἐν δʼ**] ἔν δʼ (sic) L.—Bothe conj. ἐκ δʼ: Nauck writes ἠδʼ.
+**ἐν δʼ**] ἔν δʼ (*sic*) L.—Bothe conj. ἐκ δʼ: Nauck writes ἠδʼ.
 
 ## 677
 **γνωσόμεσθα**] Nauck conj. τλησόμεσθα.
 
 ## 678
-ἐγὼ δʼ MSS. (ἐγώδʼ Lips. a. b., acc. to Hermann praef. Aj. p. xi), and Ald.: Brunck writes ἔγωγʼ ἐπίσταμαι κ.τ.λ.: Blaydes, ἔγωγʼ· ἐπίσταμαι: Wecklein, λέγω δʼ, ἐπίσταμαι γὰρ ἀρτίως, ὅτι κ.τ.λ.: Porson and Boissonade conj. ἐγῷδʼ· ἐπίσταμαι κ.τ.λ., and so Campbell reads. Seyffert, ἔργοις ἐπίσταμαι κ.τ.λ. (without δʼ). Dindorf (deleting ἐγὼ δʼ), ἐπίσταμαι γὰρ ἀρτίως ⟨μαθὼν⟩ ὅτι, and so Nauck.
+ἐγὼ δʼ MSS. (ἐγώδʼ Lips. a. b., acc. to Hermann *praef. Aj.* p. xi), and Ald.: Brunck writes ἔγωγʼ ἐπίσταμαι κ.τ.λ.: Blaydes, ἔγωγʼ· ἐπίσταμαι: Wecklein, λέγω δʼ, ἐπίσταμαι γὰρ ἀρτίως, ὅτι κ.τ.λ.: Porson and Boissonade conj. ἐγῷδʼ· ἐπίσταμαι κ.τ.λ., and so Campbell reads. Seyffert, ἔργοις ἐπίσταμαι κ.τ.λ. (without δʼ). Dindorf (deleting ἐγὼ δʼ), ἐπίσταμαι γὰρ ἀρτίως ⟨μαθὼν⟩ ὅτι, and so Nauck.
 
 ## 679
-**ὅ τʼ ἐχθρὸς ἡμῖν**] ὅ τʼ ἐχθρὸσ ἤμην (with ἡμῖν above from a late hand) L: ὅτʼ ἐχθρὸς ἤμην most MSS., and Ald.: but L² (=Lb) has ἡμῖν, with γρ. ἤμην. Suidas s. v. ἄημα has ἤμην, but s. v. ἐχθραντέος the best MS. of Suid. (A) has ἡμῖν.—ἐχθαρτέος L² and Pal. In L the scribe wrote ἐχθαρτέοσ, but a late hand has altered it to ἐχθραντέοσ, the reading of most MSS. and Ald., as of Suidas s. vv. ἄημα and ἐχθραντέος. Porson on Med. 555 replaced ἐχθαρτέος here from the margin of the second Juntine ed.; observing that Suidas too must have read this, ‘as is proved by the order of the letters’ (meaning that ἐχθραντέος stands in his lexicon between ἔχις and ἐχθαίρει).
+**ὅ τʼ ἐχθρὸς ἡμῖν**] ὅ τʼ ἐχθρὸσ ἤμην (with ἡμῖν above from a late hand) L: ὅτʼ ἐχθρὸς ἤμην most MSS., and Ald.: but L² (=Lb) has ἡμῖν, with γρ. ἤμην. Suidas s. v. ἄημα has ἤμην, but s. v. ἐχθραντέος the best MS. of Suid. (A) has ἡμῖν.—ἐχθαρτέος L² and Pal. In L the scribe wrote ἐχθαρτέοσ, but a late hand has altered it to ἐχθραντέοσ, the reading of most MSS. and Ald., as of Suidas s. vv. ἄημα and ἐχθραντέος. Porson on *Med.* 555 replaced ἐχθαρτέος here from the margin of the second Juntine ed.; observing that Suidas too must have read this, ‘as is proved by the order of the letters’ (meaning that ἐχθραντέος stands in his lexicon between ἔχις and ἐχθαίρει).
 
 ## 681
 **τοσαῦθʼ**] τοιαῦθʼ Suidas s. v. ἐχθραντέος.
@@ -1158,7 +1158,7 @@ Geel would omit this v.: see comment.
 ἑταιρείασ L, with most MSS., and Suidas s. vv. ἄημα and λιμήν. But a few of the later MSS. have ἑταιρίας, which Lobeck prefers; and this was the common reading of the edd. from the Aldine onwards, till Erfurdt replaced ἑταιρείας.
 
 ## 685
-**διὰ τέλους**] Above these words a schol. in L has written διὰ τάχους, which seems, as Dindorf says, to be a v. l. rather than an explanation. Hartung reads διὰ τάχους in the text: so, too, Nauck, Wecklein, Blaydes, Mekler.—διατέλους Ald.
+**διὰ τέλους**] Above these words a schol. in L has written διὰ τάχους, which seems, as Dindorf says, to be a *v. l.* rather than an explanation. Hartung reads διὰ τάχους in the text: so, too, Nauck, Wecklein, Blaydes, Mekler.—διατέλους Ald.
 
 ## 687
 **ὑμεῖς θʼ**] Blaydes writes ὑμεῖς δʼ.
@@ -1205,7 +1205,7 @@ L has πελαγέων (not πελάγεων), only the accent is written slight
 **ἔλυσεν**] ἔλυσεν (not ἔλυσε) γὰρ L: but γὰρ has been added above the line by the first corrector, S. (Compare the long γ with the τ of his τὸν in 726, a similar case.) The second ε of ἔλυσεν has also been inserted above the line. ἔλυσε γὰρ is the reading of most MSS., and Ald.; but a few have ἔλυσεν γὰρ. γὰρ was deleted first by Heath, then by Hermann. Elmsley conj. ἔλυσε δʼ: Purgold, ἔλυσʼ ἄρʼ.
 
 ## 708
-[709] πελάσαι] πελᾶσαι L. There has been no attempt to correct ᾶ to ά. After ᾶ, ι has been partially erased. That is, the scribe meant πελᾷ, fut. indic. (Aesch. P.V. 282 πελῶ: cp. Ph. 1150 cr. n., where L has πελᾶτʼ made from πελᾶιτʼ.) The final αι is in an erasure, perh. from σον.—πάρα MSS. In L a line is drawn through the accent.
+[709] πελάσαι] πελᾶσαι L. There has been no attempt to correct ᾶ to ά. After ᾶ, ι has been partially erased. That is, the scribe meant πελᾷ, fut. indic. (Aesch. *P.V.* 282 πελῶ: cp. *Ph.* 1150 cr. n., where L has πελᾶτʼ made from πελᾶιτʼ.) The final αι is in an erasure, perh. from σον.—πάρα MSS. In L a line is drawn through the accent.
 
 ## 710
 θοᾶν made in L from θοῶν: θοᾶν Γ, etc.: θοῶν A, etc., and Ald.
@@ -1216,7 +1216,7 @@ L has πελαγέων (not πελάγεων), only the accent is written slight
 [713] εὐνομίᾳ σέβων μεγίστᾳ] Hartung writes Εὐνομίαν σέβων μεγίσταν (‘die hohe Gesetzlichkeit verehrend’).
 
 ## 714
-πάνθʼ ὁ μέγας χρόνος μαραίνει τε καὶ φλέγει MSS., Suidas s.v. φλέγει, and Ald. (In L τε has been made from γε: the ει of μαραίνει, and τ, are in a blot, and ε has been written above, having become illegible in the text. Over φλέγει is written ζωπυρεῖ.) Stobaeus Ecl. Phys. 1. 9. 24 (p. 234 ed. Heeren) quotes the words πάνθʼ ὁ χρόνος | ὁ μέγας μαραίνει (sic), without τε καὶ φλέγει. They come immediately after his quotation of vv. 646—649. Brunck omitted τε καὶ φλέγει, as Heath had suggested. Hermann and Lobeck keep them, supposing a lacuna in the strophe (701) after χορεῦσαι.—**μέγας**] Nauck conj. πολὺς.
+πάνθʼ ὁ μέγας χρόνος μαραίνει τε καὶ φλέγει MSS., Suidas s.v. φλέγει, and Ald. (In L τε has been made from γε: the ει of μαραίνει, and τ, are in a blot, and ε has been written above, having become illegible in the text. Over φλέγει is written ζωπυρεῖ.) Stobaeus *Ecl. Phys.* 1. 9. 24 (p. 234 ed. Heeren) quotes the words πάνθʼ ὁ χρόνος | ὁ μέγας μαραίνει (*sic*), without τε καὶ φλέγει. They come immediately after his quotation of vv. 646—649. Brunck omitted τε καὶ φλέγει, as Heath had suggested. Hermann and Lobeck keep them, supposing a lacuna in the strophe (701) after χορεῦσαι.—**μέγας**] Nauck conj. πολὺς.
 
 ## 715
 ἀναύδατον Lobeck (from Hesych. ἀναύδακτον· ἀνεξήγητον); ἀναύδητον MSS., Suidas s.v. ἄναυδος, and Ald.: and so Lobeck in his second ed.—φατίσαιμʼ Lobeck: φατίξαιμʼ L (ξ made from ζ), with most MSS., Suidas s.v. ἄναυδος, and Ald.: φατίζαιμʼ r.
@@ -1226,7 +1226,7 @@ L has πελαγέων (not πελάγεων), only the accent is written slight
 [717] μετανεγνώσθη L, with most MSS., and Suidas s.v.: μετανεγνώθη Wecklein (Hesych. μετανεγνώθη· μετανεπείσθη): μετεγνώσθη r, and Ald.: so Brunck.
 
 ## 718
-θυμοῦ τʼ Hermann: θυμὸν (without τʼ) L, with most MSS., Suidas s.v. μετανεγνώσθη, and Ald.; θυμόν τʼ A: θυμῶν Γ (as a v.l.), and Triclinius.
+θυμοῦ τʼ Hermann: θυμὸν (without τʼ) L, with most MSS., Suidas s.v. μετανεγνώσθη, and Ald.; θυμόν τʼ A: θυμῶν Γ (as a *v.l.*), and Triclinius.
 
 ## 719
 **φίλοι, τὸ πρῶτον**] Musgrave conj. φίλον τὸ πρῶτον: Dobree, φίλοισι πρῶτον: Blaydes writes φίλοι, πρῶτον τόδʼ.—τὸ πρῶτον L: τοπρῶτον r, and Ald.
@@ -1265,13 +1265,13 @@ Nauck, objecting to ἐγκαταζεύξας, would write, οὐκ ἔνδον 
 ἀπηύδα made in L from ἀπηῦδα.
 
 ## 742
-τύχῃ L, A, with most MSS., and Ald.: τύχοι Γ, and as a v.l. (superscript) Mosq. b, Lips. b.
+τύχῃ L, A, with most MSS., and Ald.: τύχοι Γ, and as a *v.l.* (superscript) Mosq. b, Lips. b.
 
 ## 743
 κέρδιστον L, with most MSS., and Ald.: κέρδιον Pal., and so Nauck and Wecklein.
 
 ## 747
-πάρει Schneidewin (first in Philol. 4. 466, 1849: Reiske had long before conjectured τί δεδιὼς .. πάρει;). πέρι MSS.
+πάρει Schneidewin (first in *Philol.* 4. 466, 1849: Reiske had long before conjectured τί δεδιὼς .. πάρει;). πέρι MSS.
 
 ## 748
 **οἶδα καὶ**] Blaydes writes οἶδʼ ἐπεὶ.
@@ -1286,16 +1286,16 @@ Nauck, objecting to ἐγκαταζεύξας, would write, οὐκ ἔνδον 
 **θέλοι**] θέλει r.—**ποτέ**] Wecklein writes πέρα. Mekler conj. βούλοιτʼ ἔτι.
 
 ## 756
-**τῇδε θἡμέρᾳ**] τῆιδεθʼ ἡμέρα L: τῆδέθʼ ἡμέραι r: τῇδε θʼ ἡμέρᾳ Ald. Cp. 778, 1362: O.T. 1283. Erfurdt writes τῇδʼ ἐν ἡμέρᾳ (once approved by Lobeck, who, however, in his 2nd ed. gives τῇδε θἠμέρᾳ). Bothe and Schaefer, τῇδʼ ἔθʼ ἡμέρᾳ.
+**τῇδε θἡμέρᾳ**] τῆιδεθʼ ἡμέρα L: τῆδέθʼ ἡμέραι r: τῇδε θʼ ἡμέρᾳ Ald. Cp. 778, 1362: *O.T.* 1283. Erfurdt writes τῇδʼ ἐν ἡμέρᾳ (once approved by Lobeck, who, however, in his 2nd ed. gives τῇδε θἠμέρᾳ). Bothe and Schaefer, τῇδʼ ἔθʼ ἡμέρᾳ.
 
 ## 757
 **ὡς**] ὣς r, and Ald. (with a colon after μῆνις).
 
 ## 758
-κἀνόνητα MSS., and Ald. This reading is given also by Didymus of Alexandria (4th cent. A.D.) περὶ Τριάδος 3. 6, p. 358 (quoted by Lobeck), Stobaeus Flor. 22. 21 and Ecl. Phys. 1. 4. 20 (ed. Heeren), and Eustath. p. 415. 13. For κἀνόητα the only authority cited is that of Suidas s.v. τὰ γὰρ: but there Bernhardy (vol. II. p. 1012) gives κἀνόνητα (the best MS., A, having καννόνητα). Here most edd. now read κἀνόητα.—**σώματα**] Morstadt conj. γνώματα: Nauck writes λήματα.
+κἀνόνητα MSS., and Ald. This reading is given also by Didymus of Alexandria (4th cent. A.D.) περὶ Τριάδος 3. 6, p. 358 (quoted by Lobeck), Stobaeus *Flor.* 22. 21 and *Ecl. Phys.* 1. 4. 20 (ed. Heeren), and Eustath. p. 415. 13. For κἀνόητα the only authority cited is that of Suidas s.v. τὰ γὰρ: but there Bernhardy (vol. II. p. 1012) gives κἀνόνητα (the best MS., A, having καννόνητα). Here most edd. now read κἀνόητα.—**σώματα**] Morstadt conj. γνώματα: Nauck writes λήματα.
 
 ## 759
-**δυσπραξίαις**] δυσπραγίαις Stobaeus in Flor. 22. 21, but δυσπραξίαις in Ecl. Phys. 1. 4. 20.
+**δυσπραξίαις**] δυσπραγίαις Stobaeus in *Flor.* 22. 21, but δυσπραξίαις in *Ecl. Phys.* 1. 4. 20.
 
 ## 761
 **βλαστὼν**] ὼ made in L from ῶ: βλαστῶν r.—φρονῆι L: but a later hand has sought to make η into q (ει): φρονεῖ A, etc., and Ald.
@@ -1307,10 +1307,10 @@ Nauck, objecting to ἐγκαταζεύξας, would write, οὐκ ἔνδον 
 **κατακτήσαιτʼ**] L has the second α above the line, and the second κ written large in an erasure; the 1st hand prob. wrote καταστήσαιτʼ, which is in L² (with κ superscr.) and M.
 
 ## 770
-**εἶτα δεύτερον**] Wecklein (Ars Soph. em. p. 26) conj. εἶτα δʼ εἰς ἔριν.
+**εἶτα δεύτερον**] Wecklein (*Ars Soph. em.* p. 26) conj. εἶτα δʼ εἰς ἔριν.
 
 ## 771
-**δίας Ἀθάνας**] Mehlhorn (Gr. Gramm. p. 139) conj. δίαν Ἀθάναν, which is received by Wecklein and Blaydes.
+**δίας Ἀθάνας**] Mehlhorn (*Gr. Gramm.* p. 139) conj. δίαν Ἀθάναν, which is received by Wecklein and Blaydes.
 
 ## 772
 **ἐχθροῖς**] ἐχθρῶν r. Reiske conj. ἐχθροὺς.
@@ -1367,7 +1367,7 @@ Nauck, objecting to ἐγκαταζεύξας, would write, οὐκ ἔνδον 
 **ἐλπίζει φέρειν**] Bothe conj. ἐλπίζειν φέρει (‘metuere nos facit’): Bergk, ἐλπίζει φρεσίν: F. W. Schmidt, ἐλπίζει ῥέπειν: Badham, ἐλπίζει φθάνειν: Enger, ἐλπίζει κυρεῖν (adopted by Nauck and Wecklein). Blaydes writes, ὄλεθρον εἰς Αἴαντος ἐλπίζει φέρειν. He also suggests (with ὀλεθρίαν) ἐλπίζει πέλειν, or ἐλπίζειν θροεῖ. Paley conj. ἐλπίζω φέρειν (with λέγεις for λέγει in 797): or ἐλπίζειν φέρω. Canter, ὀλεθρίως Αἴαντος ἐλπίζει φέρειν: Musgrave, ὀλεθρίως Αἴαντʼ ἐς ἐλπίζει φέρειν.
 
 ## 802
-ὅτʼ L, with most MSS., and Ald.: ἥτʼ, ἥιτʼ, or ἥ τʼ r. Blaydes conj. ὁ δʼ. The conjecture ὃς was made first by Fr. Jacobs (1790), but also by Wunder and by a writer in Class. Journ. VII. p. 246.—**φέρει**] Wecklein and Blaydes write θροεῖ.
+ὅτʼ L, with most MSS., and Ald.: ἥτʼ, ἥιτʼ, or ἥ τʼ r. Blaydes conj. ὁ δʼ. The conjecture ὃς was made first by Fr. Jacobs (1790), but also by Wunder and by a writer in *Class. Journ.* VII. p. 246.—**φέρει**] Wecklein and Blaydes write θροεῖ.
 
 ## 803
 οἲ ʼγὼ r: οἲ ἐγὼ L with most MSS. and Ald.:—**τύχης**] τύχας L² (=Lb), with η written above α.
@@ -1385,7 +1385,7 @@ Nauck, objecting to ἐγκαταζεύξας, would write, οὐκ ἔνδον 
 **ἐγκονῶμεν**] ο made in L from ω.
 
 ## 812
-σώιζειν θέλοντεσ (made from -ασ) ἄνδρα (sic) γʼ ὃσ ἂν σπεύδει (made from σπεύδη) θανεῖν L. (A later hand has sought to delete ἂν.) θέλοντες or θέλοντος r: θέλοντες Ald. The later MSS. are divided between ἄνδρα γʼ ὃς ἂν σπεύδῃ (Δ, Aug. c, etc.), and ἄνδρα γʼ ὃς σπεύδει (A, etc., and Ald.).—Hermann once wrote θέλοντας (the acc. to depend on οὐχ ἕδρας ἀκμή), and ἄνδρα γʼ ὃς σπεύδῃ: but later θέλοντες, and ἄνδρʼ ὃς ἐκσπεύδει.—Dindorf and others reject the verse.
+σώιζειν θέλοντεσ (made from -ασ) ἄνδρα (*sic*) γʼ ὃσ ἂν σπεύδει (made from σπεύδη) θανεῖν L. (A later hand has sought to delete ἂν.) θέλοντες or θέλοντος r: θέλοντες Ald. The later MSS. are divided between ἄνδρα γʼ ὃς ἂν σπεύδῃ (Δ, Aug. c, etc.), and ἄνδρα γʼ ὃς σπεύδει (A, etc., and Ald.).—Hermann once wrote θέλοντας (the acc. to depend on οὐχ ἕδρας ἀκμή), and ἄνδρα γʼ ὃς σπεύδῃ: but later θέλοντες, and ἄνδρʼ ὃς ἐκσπεύδει.—Dindorf and others reject the verse.
 
 ## 813
 **χωρεῖν**] χωρεῖν γʼ Γ.
@@ -1406,7 +1406,7 @@ Nauck, objecting to ἐγκαταζεύξας, would write, οὐκ ἔνδον 
 **θανεῖν**] Wecklein writes κτανεῖν, with Morstadt. Mekler conj. θενεῖν.
 
 ## 825
-λαχεῖν L (made from λαβεῖν), with most MSS., and Ald.: λαβεῖν Pal., T, etc., and as a v. l. in Γ. For γέρας λαχεῖν, Γ and others have λαχεῖν γέρας.
+λαχεῖν L (made from λαβεῖν), with most MSS., and Ald.: λαβεῖν Pal., T, etc., and as a *v. l.* in Γ. For γέρας λαχεῖν, Γ and others have λαχεῖν γέρας.
 
 ## 827
 φέροντα Τεύκρῳ Γ.—ὥσ made in L from ὅσ.—ὅς με βαστάσει Pal.
@@ -1418,7 +1418,7 @@ Nauck, objecting to ἐγκαταζεύξας, would write, οὐκ ἔνδον 
 **κυσὶν**] κυσὶ L.—θʼ ἕλωρ r, and Ald.: τʼ ἕλωρ L.
 
 ## 831
-**τοσαῦτά σʼ, ὦ**] schol. in L, γρ. τοσαῦτά σοι. Some of the later MSS. have τοσαῦτʼ, ὦ (omitting σʼ), but none has τοσαῦτά σοι.—προστρέπω schol. in L (προστρέπω δὲ ἱκετευτικῶς λέγω· προστρόπαιοι γὰρ οἱ ἱκέται). προτρέπω L (made from προστρέπω), with apparently all the MSS., Suidas (s. v. προτρέπω), and Ald.—καλῶ δʼ L, with most MSS., Suidas l. c., and Ald.: καλῶ θʼ r.
+**τοσαῦτά σʼ, ὦ**] schol. in L, γρ. τοσαῦτά σοι. Some of the later MSS. have τοσαῦτʼ, ὦ (omitting σʼ), but none has τοσαῦτά σοι.—προστρέπω schol. in L (προστρέπω δὲ ἱκετευτικῶς λέγω· προστρόπαιοι γὰρ οἱ ἱκέται). προτρέπω L (made from προστρέπω), with apparently all the MSS., Suidas (s. v. προτρέπω), and Ald.—καλῶ δʼ L, with most MSS., Suidas *l. c.*, and Ald.: καλῶ θʼ r.
 
 ## 833
 **ἀσφαδάστῳ**] L. Dindorf writes ἀσφαδᾴστῳ, as Herodian περὶ μονήρους λέξεως 23. 6 prescribes σφαδᾴζω, τερᾴζω, ματᾴζω: and so Nauck.
@@ -1477,7 +1477,7 @@ Geel rejects this v. also.
 ἄλλʼ made in L from ἄλλα.—Geel rejects the v., which Herwerden too suspects.
 
 ## 867
-**πᾷ πᾷ | πᾷ**] L has πᾶι (not παῖ) ter. For πᾷ πᾷ in 867 Lachmann wrote παπαῖ παπαῖ.
+**πᾷ πᾷ | πᾷ**] L has πᾶι (not παῖ) *ter*. For πᾷ πᾷ in 867 Lachmann wrote παπαῖ παπαῖ.
 
 ## 869
 κοὐδεὶς ἐπίσταταί με συμμαθεῖν τόπος MSS., Suidas s. v. κοὐδείς, and Ald. See below.
@@ -1486,7 +1486,7 @@ Geel rejects this v. also.
 **ἰδού**] ἰδοὺ ἰδού, δοῦπον αὖ κλύω τινά L as one verse. So most MSS., and Ald. Hermann deleted the second ἰδού. Some of the later MSS. show attempts to make the words into a trimeter: thus T δοῦπον ⟨γὰρ⟩ αὖ κλύω τινά: Liv. a ἰδοὺ ἰδού ⟨τοι⟩.—**τινά**] τίνα; G. Wolff.
 
 ## 872
-L makes two verses, ἡμῶν γε ναὸσ | κοινόπλουν ὁμιλίαν: and so Ald.—**ὁμιλίαν**] παρρησίαν Ien., i.e. παρουσίαν, a reminiscence of El. 1104.
+L makes two verses, ἡμῶν γε ναὸσ | κοινόπλουν ὁμιλίαν: and so Ald.—**ὁμιλίαν**] παρρησίαν Ien., *i.e.* παρουσίαν, a reminiscence of *El.* 1104.
 
 ## 874
 **ἐστίβηται**] Herwerden conj. ἐστίβευται: Heath and Blaydes, ἐσκόπηται.—**πλευρὸν**] ο made in L from α.
@@ -1516,7 +1516,7 @@ L divides the vv. thus:—τίσ ἂν— | φιλοπόνων— | ἔχων—
 θεᾶν L: θεῶν r, and Ald.
 
 ## 884
-ποταμῶν Mosq. a, b: ποταμῶν ἴδρις most MSS. and Ald. In L two letters have been erased between ποταμῶν and ἴδρις, whence Bergk conj. ποταμῶν ἐφυδρίς (Hist. Gr. Lit. vol. III. p. 465).
+ποταμῶν Mosq. a, b: ποταμῶν ἴδρις most MSS. and Ald. In L two letters have been erased between ποταμῶν and ἴδρις, whence Bergk conj. ποταμῶν ἐφυδρίς (*Hist. Gr. Lit.* vol. III. p. 465).
 
 ## 886
 **λεύσσων**] λεύσων L.
@@ -1531,7 +1531,7 @@ L divides the vv. thus:—τίσ ἂν— | φιλοπόνων— | ἔχων—
 οὐρίωι..δρόμωι made in L from οὐρίων..δρόμων.—**πελάσαι**] προσπελάσας Aug. c.
 
 ## 890
-**ἀλλʼ ἀμενηνὸν**] In L the first ν has been made from μ.—ἀλλὰ μεμηνότʼ Δ (and as v. l. in Pal.), as Musgrave had conjectured. Wecklein conj. ἀλλὰ ποθεινὸν (Ars Soph. em. p. 46); Morstadt, βεβηκότʼ.
+**ἀλλʼ ἀμενηνὸν**] In L the first ν has been made from μ.—ἀλλὰ μεμηνότʼ Δ (and as *v. l.* in Pal.), as Musgrave had conjectured. Wecklein conj. ἀλλὰ ποθεινὸν (*Ars Soph. em.* p. 46); Morstadt, βεβηκότʼ.
 
 ## 891
 ἰώ μοί μοι T (Triclinius): ἰὼ ἰώ μοί μοι L (μοι μοί), with most MSS., and Ald.
@@ -1595,7 +1595,7 @@ In L the final ν of νιν has been added by S above the line.
 Nauck rejects these two verses.
 
 ## 919
-**πληγῆς**] Wecklein writes φλεβὸς.—**μελανθὲν**] Burges conj. μελανθὲς: Dindorf, κελαινὸν: Mekler, μολυνθὲν εἶμʼ.—**οἰκείας**] Wecklein (Ars Soph. em. p. 49) conj. εἰκαίας (=ματαίας).
+**πληγῆς**] Wecklein writes φλεβὸς.—**μελανθὲν**] Burges conj. μελανθὲς: Dindorf, κελαινὸν: Mekler, μολυνθὲν εἶμʼ.—**οἰκείας**] Wecklein (*Ars Soph. em.* p. 49) conj. εἰκαίας (=ματαίας).
 
 ## 920
 βαστάσει r, and Ald.: βαστάσηι L, A, etc.
@@ -1619,7 +1619,7 @@ L divides the vv. thus: ἔμελλεσ— | ἔμελλεσ— | ἄρʼ— | �
 **στερεόφρων**] στερεόφρον r, and Ald.—ἄρʼ ἐξανύσσειν L, Pal.: ἄρʼ ἐξανύσειν A, with most MSS., and Ald.: Erfurdt added ὧδʼ after ἄρʼ. Blaydes writes, ὧδʼ ὢν ἐξανύσειν (omitting ἄρʼ).
 
 ## 930
-**πάννυχα καὶ φαέθοντʼ**] Blaydes conj. πάννυχα καὶ φαέθοντος ἐστέναζες (sc. τοῦ ἡλίου): Nauck, πάννυχος ἁμέριός τʼ.—**ἀνεστέναζες**] L has the first α, and αζ, in an erasure.—Elmsley conj. ἄναξ, ἀνεστέναζες, if ἴδρις be kept in 884.
+**πάννυχα καὶ φαέθοντʼ**] Blaydes conj. πάννυχα καὶ φαέθοντος ἐστέναζες (*sc.* τοῦ ἡλίου): Nauck, πάννυχος ἁμέριός τʼ.—**ἀνεστέναζες**] L has the first α, and αζ, in an erasure.—Elmsley conj. ἄναξ, ἀνεστέναζες, if ἴδρις be kept in 884.
 
 ## 931
 **ὠμόφρων**] ὠμόφρον r.—**Ἀτρείδαις | οὐλίῳ**] Nauck would write Ἀτρεΐδαις | ὠμῷ.—**σὺν**] ν made in L from μ.
@@ -1649,7 +1649,7 @@ L divides the vv. thus: ἔμελλεσ— | ἔμελλεσ— | ἄρʼ— | �
 L divides the vv. thus:—ὤιμοι— | δισσῶν— | ἄναυδον— | ἀλλʼ...θεόσ.
 
 ## 946
-ὤίμοι (sic) L: with γρ. ἰώ μοι, from S.
+ὤίμοι (*sic*) L: with γρ. ἰώ μοι, from S.
 
 ## 947
 ἄναυδʼ | ἔργʼ Hermann: ἄναυδον | ἔργον MSS.
@@ -1669,7 +1669,7 @@ L divides the vv. thus:—ἦ ῥα— | θυμὸν— | ὁ πολύτλασ�
 ## 954
 κελαινώπαν L (ώ from ῶ), with most MSS., Suidas s.v., and Ald.: κελαινῶπα Δ, with Eustathius p. 72. 4. Blaydes writes κελαινῶπʼ ἀν (=ἀνά): Hartung, κελαινῶπʼ ἔνθυμον (see comment.).
 
-[956] πολύτλας] ὁ πολύτλας MSS. and Ald.: Porson on Eur. Or. 1297 pointed out that the art. should be omitted (cp. 913 f.).
+[956] πολύτλας] ὁ πολύτλας MSS. and Ald.: Porson on Eur. *Or.* 1297 pointed out that the art. should be omitted (cp. 913 f.).
 
 ## 957
 γελᾷ δὲ MSS.: Blaydes writes γελᾷ τε.—τοῖσδε Elmsley: τοῖσ L, with most MSS., and Ald.: τοῖσι Triclinius: σοῖσι Hermann.—ἄχεσιν r, and Ald.: ἄχεσι L.
@@ -1684,7 +1684,7 @@ L divides the vv. thus:—ἦ ῥα— | θυμὸν— | ὁ πολύτλασ�
 **τοῦδʼ**] δ made in L from σ.—**ἴσως**] In L the 1st hand wrote ἴσω, and ϲ has been added by a corrector: cp. 921.—**ʼπόθουν**] Nauck conj. ʼφίλουν (or, as he would write it, ἐφίλουν).
 
 ## 964
-τἀγαθὸν χεροῖν L, with most MSS., and Ald.: τἀγάθʼ ἐν χεροῖν Mosq. b, and one of Brunck's MSS. (as Reiske had conjectured): which Cobet prefers, Var. L. p. 15.
+τἀγαθὸν χεροῖν L, with most MSS., and Ald.: τἀγάθʼ ἐν χεροῖν Mosq. b, and one of Brunck's MSS. (as Reiske had conjectured): which Cobet prefers, *Var. L.* p. 15.
 
 ## 965
 **ἐκβάλῃ**] ἐκβάλοι Γ.
@@ -1756,7 +1756,7 @@ For the supposed interpolations in this passage, see Appendix.
 οἴμοι stands in L at the beginning of v. 1003.
 
 ## 1004
-Here, as in El. 903, Nauck changes ὄμμα to φάσμα.
+Here, as in *El.* 903, Nauck changes ὄμμα to φάσμα.
 
 ## 1006
 μολεῖν μοι MSS. and Ald.: μολεῖν με Suid. s.v. ποῖ (where vv. 1006-1011 are quoted).
@@ -1810,7 +1810,7 @@ These twelve verses are rejected by R. A. Morstadt (Progr. 1863), whom Nauck fol
 ἐκνάπτετʼ L (1st hand), with a few of the later MSS. (as L²), and Suid. s.v. ἄντυγες and πρισθείς. A late corrector of L has changed it to ἐγνάπτετʼ, the reading of most MSS., and Ald.—For αἰέν, Morstadt conj. αὐχένʼ. Herm. wrote, ἐγνάπτετʼ, αἰῶνʼ εὖτʼ ἀπέψυξεν βίου (‘postquam exspiraverat animam’). E. Hoffmann conj. αἰανές τʼ ἀπέψυξεν βίον.
 
 ## 1032
-δωρειὰν Wecklein, with A. v. Bamberg, Zeitschr. f. d. Gymn., 1874, p. 620. Nauck also approved this spelling. δωρεὰν MSS.
+δωρειὰν Wecklein, with A. v. Bamberg, *Zeitschr. f. d. Gymn.*, 1874, p. 620. Nauck also approved this spelling. δωρεὰν MSS.
 
 ## 1034
 ἐχάλκευσεν L: ἐχάλκευσε r.
@@ -1849,7 +1849,7 @@ These twelve verses are rejected by R. A. Morstadt (Progr. 1863), whom Nauck fol
 **ζητοῦντες**] Reiske conj. ξυνόντες: Eldick, ζητοῦντʼ ἔτʼ.
 
 ## 1056
-ἕλοι δορί L, with γρ. ὡσ ἐλοιδόρει. The schol. in L, too, has ὡς ἐλοιδόρει· ὡς λοιδορούμενος ἐπηγγείλατο· ταῦτα γὰρ εἶπεν ὁ Αἴας. Γ reads ὡς ἐλοιδόρει, with γρ. ὡς ἕλοι δορί. The other MSS. have ὡς ἕλοι δορί (not δόρει). Dindorf writes δόρει. See on O.C. 1304.
+ἕλοι δορί L, with γρ. ὡσ ἐλοιδόρει. The schol. in L, too, has ὡς ἐλοιδόρει· ὡς λοιδορούμενος ἐπηγγείλατο· ταῦτα γὰρ εἶπεν ὁ Αἴας. Γ reads ὡς ἐλοιδόρει, with γρ. ὡς ἕλοι δορί. The other MSS. have ὡς ἕλοι δορί (not δόρει). Dindorf writes δόρει. See on *O.C.* 1304.
 
 ## 1058
 **εἴληχεν**] εἴληχε L.
@@ -1882,19 +1882,19 @@ Morstadt would arrange these four verses in the following order, 1067, 1069, 107
 **ἄνδρα**] Reiske conj. ὄντα, which several edd. adopt.
 
 ## 1074
-**φέροιντʼ**] Nauck conj. κέοιντʼ.—**καθεστήκῃ**] καθεστήκη L, with an erasure at and above the last letter: it may have been καθεστήκει. The other MSS. vary between καθεστήκῃ, καθεστήκοι (A 1st hand), καθεστήκει (so Ald.), and καθέστηκεν. Stobaeus Flor. 43. 14 (where he cites vv. 1071—1076) has παρεστήκει.
+**φέροιντʼ**] Nauck conj. κέοιντʼ.—**καθεστήκῃ**] καθεστήκη L, with an erasure at and above the last letter: it may have been καθεστήκει. The other MSS. vary between καθεστήκῃ, καθεστήκοι (A 1st hand), καθεστήκει (so Ald.), and καθέστηκεν. Stobaeus *Flor.* 43. 14 (where he cites vv. 1071—1076) has παρεστήκει.
 
 ## 1075
-ἄρχοιτʼ made in L from ἔχοιτʼ, a v.l. found also in the citation of this verse by Stobaeus, Flor. 43. 14.
+ἄρχοιτʼ made in L from ἔχοιτʼ, a *v.l.* found also in the citation of this verse by Stobaeus, *Flor.* 43. 14.
 
 ## 1081
-**παρῇ**] So L with most MSS., and Stobaeus Flor. 43. 17 (where he quotes vv. 1081—1087 to ταῦτα): πάρα A, and Ald. In L a late hand has written πάρα in marg., and the same v.l. occurs in a MS. of Stobaeus l.c. Cp. 1160.
+**παρῇ**] So L with most MSS., and Stobaeus *Flor.* 43. 17 (where he quotes vv. 1081—1087 to ταῦτα): πάρα A, and Ald. In L a late hand has written πάρα in marg., and the same *v.l.* occurs in a MS. of Stobaeus *l.c.* Cp. 1160.
 
 ## 1082
-ποτὲ MSS., Stobaeus l.c., and Ald. In Mus. Crit. 1. 475 Elmsley proposed ποτʼ ἄν, but afterwards (on Med. 362 n.) accepted Herm.’s view that ποτὲ..πεσεῖν represents ἔπεσέ ποτε. Madvig favours ποτʼ ἄν, which Nauck and Blaydes read.
+ποτὲ MSS., Stobaeus *l.c.*, and Ald. In *Mus. Crit.* 1. 475 Elmsley proposed ποτʼ ἄν, but afterwards (on *Med.* 362 n.) accepted Herm.’s view that ποτὲ..πεσεῖν represents ἔπεσέ ποτε. Madvig favours ποτʼ ἄν, which Nauck and Blaydes read.
 
 ## 1083
-**ἐξ οὐρίων**] ἐξ οὐρίας Stobaeus Flor. 43. 17. For ἐξ, Morstadt conj. κἀξ.
+**ἐξ οὐρίων**] ἐξ οὐρίας Stobaeus *Flor.* 43. 17. For ἐξ, Morstadt conj. κἀξ.
 
 ## 1085
 **ἃν**] ἁνʼ` L (the grave accent from a later hand). So too in 1086, where κ or χ seems to have been erased before ἁ. In both places some of the later MSS. have ἂν instead of ἅν.
@@ -1909,10 +1909,10 @@ Morstadt would arrange these four verses in the following order, 1067, 1069, 107
 **ταφὰς**] L has the first α in an erasure.
 
 ## 1092
-**εἶτʼ αὐτὸς**] μήτʼ αὐτὸς Stobaeus Flor. 125. 13. (μηδʼ would be possible: μήτʼ is not.)
+**εἶτʼ αὐτὸς**] μήτʼ αὐτὸς Stobaeus *Flor.* 125. 13. (μηδʼ would be possible: μήτʼ is not.)
 
 ## 1093
-**ἄνδρα**] Heimsoeth (Krit. Stud. p. 129) conj. φῶτα.
+**ἄνδρα**] Heimsoeth (*Krit. Stud.* p. 129) conj. φῶτα.
 
 ## 1096
 ἐν λόγοις ἔπη. **| ἄγʼ**] Mekler writes in the Teubner text of Dindorf (6th ed.), ἐν λόγοις· ἐπεὶ | ἄγʼ.—**εἴπʼ**] εἶπʼ L, made from εἰπὲ.
@@ -1974,7 +1974,7 @@ The MSS. and Ald. give v. 1118 to Menelaüs, and v. 1119 to Teucer: Brunck resto
 **θανόντας**] Blaydes and Wecklein add γʼ.—**ἐᾷς**] made in L from εὰ (or εά?).
 
 ## 1132
-αὑτοῦ r, αὐτοῦ L.—**οὐ γὰρ καλόν.**] οὐ γὰρ καλόν; Blaydes (as Dobree suggested, Adv. II. 45). Prinz conj. οὐ γὰρ κακόν.
+αὑτοῦ r, αὐτοῦ L.—**οὐ γὰρ καλόν.**] οὐ γὰρ καλόν; Blaydes (as Dobree suggested, *Adv.* II. 45). Prinz conj. οὐ γὰρ κακόν.
 
 ## 1134
 ἐμίσει L, A, with most MSS., and Ald.: ἐμίσουν r.—**ἠπίστασο**] ἐπίστασο r.
@@ -1995,7 +1995,7 @@ The MSS. and Ald. give v. 1118 to Menelaüs, and v. 1119 to Teucer: Brunck resto
 ναύτας L, A, etc., and Ald.: ναύταις T and a few others.
 
 ## 1144
-**ᾧ φθέγμʼ ἂν οὐκ ἂν ηὗρες**] For ἂν ηὗρες, Hartung writes ἐνεῦρες: Wecklein (Ars p. 21) formerly conj. ἀνεῦρες. Blaydes writes ᾧ φθέγμʼ ὃν οὐκ ἂν εὗρες (as G. Wolff conjectured).
+**ᾧ φθέγμʼ ἂν οὐκ ἂν ηὗρες**] For ἂν ηὗρες, Hartung writes ἐνεῦρες: Wecklein (*Ars* p. 21) formerly conj. ἀνεῦρες. Blaydes writes ᾧ φθέγμʼ ὃν οὐκ ἂν εὗρες (as G. Wolff conjectured).
 
 ## 1145
 **εἴχετʼ**] L has the τʼ in an erasure (from θ?).—**κρυφεὶς**] κρυβεὶς r.
@@ -2022,7 +2022,7 @@ The MSS. and Ald. give v. 1118 to Menelaüs, and v. 1119 to Teucer: Brunck resto
 L has the οσ of ἄλλοσ in an erasure (from ου?).
 
 ## 1160
-**κολάζειν**] altered in L to κολάζων by a late hand.—παρῇ Γ, Δ, etc., and Stobaeus Flor. 2. 28 (where he quotes vv. 1159 f.): πάρα L (made by a later hand from παρῇ), A, with most MSS., and Ald.
+**κολάζειν**] altered in L to κολάζων by a late hand.—παρῇ Γ, Δ, etc., and Stobaeus *Flor.* 2. 28 (where he quotes vv. 1159 f.): πάρα L (made by a later hand from παρῇ), A, with most MSS., and Ald.
 
 ## 1161
 ἄφερπέ νυν r: ἄφερπε νῦν L, A, etc., and Ald.
@@ -2046,7 +2046,7 @@ In Aug. c these three vv. are given to the Chorus.
 L has an erasure between εἰ and δέ.
 
 ## 1176
-**βίᾳ**] written βίᾱ in L (like θήβᾱ for Θήβᾳ in Ant. 102 and 149, ἐπιγλώσσᾱ for ἐπὶ γλώσσᾳ in O. C. 1052).
+**βίᾳ**] written βίᾱ in L (like θήβᾱ for Θήβᾳ in *Ant.* 102 and 149, ἐπιγλώσσᾱ for ἐπὶ γλώσσᾳ in *O. C.* 1052).
 
 ## 1179
 αὔτωσ L.
@@ -2055,7 +2055,7 @@ L has an erasure between εἰ and δέ.
 **ὑμεῖς τε**] ὑμεῖς δὲ Blaydes.
 
 ## 1183
-μόλω...μεληθεὶς MSS. (μόλω made in L from μολὼν: μολῶ Γ). Etym. Magn. (s.v. ἔστε) μολὼν...μεληθῶ, which Dindorf and Nauck adopt. G. Wolff conj. μολὼν...μελήσω.
+μόλω...μεληθεὶς MSS. (μόλω made in L from μολὼν: μολῶ Γ). *Etym. Magn.* (s.v. ἔστε) μολὼν...μεληθῶ, which Dindorf and Nauck adopt. G. Wolff conj. μολὼν...μελήσω.
 
 ## 1185-1191
 L divides the vv. thus:—τίσ— | πολυπλάγκτων— | τὰν ἄπαυστον— | δορυσσοήτων— | ἄταν— | ἀνὰ τὰν εὐρώδη— | δύστανον...ἑλλάνων.
@@ -2100,7 +2100,7 @@ In L these vv. are written thus, τέρψιν ἰαύειν· | ἐρώτων. |
 καὶ πρὶν μὲν ἐννυχίου MSS. and Ald. Keeping οὔτε in 1199, Triclinius here inserts οὖν, and Dindorf ἐξ, before ἐννυχίου: G. Wolff corrects ἐννυχίου to αἰὲν νυχίου.
 
 ## 1214
-ἀνεῖται L, made from ἀγκεῖται or ἄγκειται (I rather think from the former). ἀνεῖται A, and Ald.: ἔγκειται or ἐγκεῖται r. Wecklein (Ars p. 74) conj. νῦν δʼ ὧδʼ ἀνάκειται: Nauck, νῦν δʼ ἀνάκειται (and in 1202 οὐ, instead of οὔτε, before γλυκύν).—στυγερῶσ made in L from στυγερῶι.
+ἀνεῖται L, made from ἀγκεῖται or ἄγκειται (I rather think from the former). ἀνεῖται A, and Ald.: ἔγκειται or ἐγκεῖται r. Wecklein (*Ars* p. 74) conj. νῦν δʼ ὧδʼ ἀνάκειται: Nauck, νῦν δʼ ἀνάκειται (and in 1202 οὐ, instead of οὔτε, before γλυκύν).—στυγερῶσ made in L from στυγερῶι.
 
 ## 1216
 **ἐπέσται**] Blaydes writes ἔτʼ ἔσται.
@@ -2121,16 +2121,16 @@ L has γενοίμαν in a line by itself.—Nauck deletes ὑλᾶεν (cp. 12
 In L the final ον of ἀγαμέμνονʼ has been added by S.
 
 ## 1225
-μοὐστὶ Herm.: μοί ʼστι (ʼστι made from ʼστὶ) L: μοι ʼστὶ Ald. In the margin L has Δι (with a character like χ over the ι) καὶ δῆλός ἐστιν ὥσ τι σημανῶν νέον, a verse which blends reminiscences of Ai. 326, καὶ δῆλός ἐστιν ὥς τι δρασείων κακόν, and Ant. 242, δηλοῖς δʼ ὥς τι σημανῶν νέον. The Δι prefixed to the verse probably means Δίδυμος, the χ above it being merely a sign calling attention to the note; cp. cr. n. on El. 28. The object was to illustrate the construction of δῆλος in 1225,—not to record a variant.
+μοὐστὶ Herm.: μοί ʼστι (ʼστι made from ʼστὶ) L: μοι ʼστὶ Ald. In the margin L has Δι (with a character like χ over the ι) καὶ δῆλός ἐστιν ὥσ τι σημανῶν νέον, a verse which blends reminiscences of *Ai.* 326, καὶ δῆλός ἐστιν ὥς τι δρασείων κακόν, and *Ant.* 242, δηλοῖς δʼ ὥς τι σημανῶν νέον. The Δι prefixed to the verse probably means Δίδυμος, the χ above it being merely a sign calling attention to the note; cp. cr. n. on *El.* 28. The object was to illustrate the construction of δῆλος in 1225,—not to record a variant.
 
 ## 1227
 ἀνοιμωκτὶ r (including Pal.), and Eustath. p. 723. 28: ἀνοιμωκτεὶ L, A, with most MSS., and Ald.
 
 ## 1228
-σέ τοι, τὸν ἐκ τῆς L, with most MSS., and Ald.: σέ τοι, σὲ τὸν τῆς Dresd. b, as Herm. and Hartung read: a v.l. which prob. arose from the omission of ἐκ (σέ τοι τὸν τῆς Aug. c, etc.). Aug. b combines both readings, σέ τοι σὲ τὸν ἐκ τῆς.—**αἰχμαλωτίδος**] αἰχμαλώτιδος L, A, and Ald. See cr. n. on 71.
+σέ τοι, τὸν ἐκ τῆς L, with most MSS., and Ald.: σέ τοι, σὲ τὸν τῆς Dresd. b, as Herm. and Hartung read: a *v.l.* which prob. arose from the omission of ἐκ (σέ τοι τὸν τῆς Aug. c, etc.). Aug. b combines both readings, σέ τοι σὲ τὸν ἐκ τῆς.—**αἰχμαλωτίδος**] αἰχμαλώτιδος L, A, and Ald. See cr. n. on 71.
 
 ## 1230
-ἐφώνεισ L (made by erasure from ἐφρόνεισ), A (1st hand), etc., and Ald.: ἐφρόνεις A as corrected, Γ, Pal., etc., and Suidas (s.v. ὑψηλοτέρας): ἐκόμπεις T, and schol. on Ar. Ach. 638 (where vv. 1229 f. are quoted).
+ἐφώνεισ L (made by erasure from ἐφρόνεισ), A (1st hand), etc., and Ald.: ἐφρόνεις A as corrected, Γ, Pal., etc., and Suidas (s.v. ὑψηλοτέρας): ἐκόμπεις T, and schol. on Ar. *Ach.* 638 (where vv. 1229 f. are quoted).
 
 ## 1232
 **ναυάρχους**] ναυάρχας r.
@@ -2172,13 +2172,13 @@ In L the final ον of ἀγαμέμνονʼ has been added by S.
 **ἀλλʼ οἱ**] οἱ γὰρ Eustath. p. 880. 2.
 
 ## 1253
-πλευρὰ L² (=Lb), T, etc., and Stobaeus Flor. 3. 5: πλευρὰν L (made by S from πλευρᾶ): πλευρὰς A, etc., and Ald.
+πλευρὰ L² (=Lb), T, etc., and Stobaeus *Flor.* 3. 5: πλευρὰν L (made by S from πλευρᾶ): πλευρὰς A, etc., and Ald.
 
 ## 1256
 **τινά**] Nauck conj. ποτέ.
 
 ## 1257-1263
-These seven verses are suspected by E. Reichard (De interpolatione fabulae Soph. quae inscribitur Aiax, p. 28).
+These seven verses are suspected by E. Reichard (*De interpolatione fabulae Soph. quae inscribitur Aiax*, p. 28).
 
 ## 1257
 **ἀνδρὸς**] Wecklein writes τἀνδρός.—**ἀνδρὸς...ὄντος...σκιᾶς**] Reiske conj. ἄνδρας..ὄντας..σκιάς.—**ἤδη**] ἤδη·ι L.
@@ -2238,7 +2238,7 @@ In L the words λῶιον φράσαι are written in somewhat smaller letters,
 ποῖ L, etc.: ποῦ T.—αὐτὰ r, and Ald.: αὐτὸσ L, made from αὐτῶ.—For ποτʼ αὐτὰ Madvig conj. τοιαῦτα.
 
 ## 1291-1298
-Nauck brackets these eight verses as spurious. He also suspects v. 1290. Verses 1293, 1294 had already been rejected by Moritz Schmidt (Verisimilium capita duo, p. 26: 1861).
+Nauck brackets these eight verses as spurious. He also suspects v. 1290. Verses 1293, 1294 had already been rejected by Moritz Schmidt (*Verisimilium* *capita duo*, p. 26: 1861).
 
 ## 1293
 The Aldine points thus:—Ἀτρέα δʼ, ὃς αὖ σʼ ἔσπειρε δυσσεβέστατον, | προθέντʼ κ.τ.λ. In L a comma after δυσσεβέστατον has been added by a later hand.—**προθέντʼ**] προσθέντʼ Pal.
@@ -2265,7 +2265,7 @@ The Aldine points thus:—Ἀτρέα δʼ, ὃς αὖ σʼ ἔσπειρε δ�
 **βλαστὼν**] βλαστῶν L.
 
 ## 1307
-**λέγων**] Burges conj. γελῶν (Eldike, ʼγγελῶν): Erfurdt, ψέγων (as Blaydes and Hartung read): Schneidewin, βλέπων: Seyffert, πατῶν: Bergk, λεών (i.e., the Greek army).
+**λέγων**] Burges conj. γελῶν (Eldike, ʼγγελῶν): Erfurdt, ψέγων (as Blaydes and Hartung read): Schneidewin, βλέπων: Seyffert, πατῶν: Bergk, λεών (*i.e.*, the Greek army).
 
 ## 1309
 **συγκειμένους**] γρ. συνεμπόρουσ S in L.
@@ -2277,7 +2277,7 @@ The Aldine points thus:—Ἀτρέα δʼ, ὃς αὖ σʼ ἔσπειρε δ�
 **προδήλως**] Nauck would make this word change places with καλόν μοι in 1310.—For τῆς σῆς (which Nauck suspects), G. Wolff conj. βήσσαις (‘in the glens,’ referring to 720).—**ὑπὲρ**] ὕπερ L, etc., and Ald.
 
 ## 1312
-ἢ τοῦ σοῦ θʼ ὁμαίμονος MSS. For τοῦ σοῦ θʼ, Bothe conj. τοῦ σοῦ γʼ (and so Seyffert, with the further change of λέγω to λέχους): Bergk, σοῦ τοῦ θʼ: Dobree and Martin, σοῦ τοῦδʼ: Hermann writes, ἢ σοῦ σοῦ θʼ (and so Hartung, with μέτα for λέγω). Wecklein (Ars p. 77) would omit λέγω, and write ἢ τοῦ σοῦ ποτʼ ην ὁμαίμονος: but in his ed. he gives, with Dindorf, ἢ τοῦ σοῦ ξυναίμονος λέγω; Gomperz suggests ἢ τοιᾶσδʼ ὑπὲρ | γυναικὸς οἵαν τὴν ὁμαίμονος λέγω.
+ἢ τοῦ σοῦ θʼ ὁμαίμονος MSS. For τοῦ σοῦ θʼ, Bothe conj. τοῦ σοῦ γʼ (and so Seyffert, with the further change of λέγω to λέχους): Bergk, σοῦ τοῦ θʼ: Dobree and Martin, σοῦ τοῦδʼ: Hermann writes, ἢ σοῦ σοῦ θʼ (and so Hartung, with μέτα for λέγω). Wecklein (*Ars* p. 77) would omit λέγω, and write ἢ τοῦ σοῦ ποτʼ ην ὁμαίμονος: but in his ed. he gives, with Dindorf, ἢ τοῦ σοῦ ξυναίμονος λέγω; Gomperz suggests ἢ τοιᾶσδʼ ὑπὲρ | γυναικὸς οἵαν τὴν ὁμαίμονος λέγω.
 
 ## 1315
 **ἢ ʼν**] made in L from ἠν.
@@ -2292,7 +2292,7 @@ The Aldine points thus:—Ἀτρέα δʼ, ὃς αὖ σʼ ἔσπειρε δ�
 **τί γάρ σʼ**] In L the σʼ has been added by S, who altered γὰρ to γάρ.—**βλάβην**] Nauck conj. μομφήν.
 
 ## 1328
-After τἀληθῆ a letter has been erased; perhaps ι, as Dindorf thinks, comparing L's ἐναγῆι in O.T. 656, σαφῆι in Ant. 405.
+After τἀληθῆ a letter has been erased; perhaps ι, as Dindorf thinks, comparing L's ἐναγῆι in *O.T.* 656, σαφῆι in *Ant.* 405.
 
 ## 1329
 ξυνηρετεῖν Lobeck: ξυνηρεμεῖν Γ, L² (=Lb), Lc, T: ξυνηρετμεῖν L, not altered, I think, by S from ξυνηρεμεῖν, as Dindorf reports; the τ seems clearly due to the 1st hand: see Autotype facsimile, p. 16a, line 1. Above ξυνηρετμεῖν is the gloss συμφωνεῖν. ξυνηρετμεῖν is also the reading of A and the other MSS., and Ald.
@@ -2328,10 +2328,10 @@ Nauck thinks with Leeuwen that the order of the verses in this stichomuthia was 
 **σε χρή**] Leeuwen conj. με χρή, which Nauck and Mekler receive.
 
 ## 1352
-Eustath. p. 800. 9 quotes thus, τὸν ἐσθλὸν ἄνδρα χρὴ κλύειν τῶν ἐν τέλει. So, too, schol. on Il. 10. 224 (Anecd. Paris. 3 p. 87. 5).
+Eustath. p. 800. 9 quotes thus, τὸν ἐσθλὸν ἄνδρα χρὴ κλύειν τῶν ἐν τέλει. So, too, schol. on *Il.* 10. 224 (*Anecd. Paris.* 3 p. 87. 5).
 
 ## 1353
-**παῦσαι**] Markland conj. πάσαις (sc. ψήφοις).
+**παῦσαι**] Markland conj. πάσαις (*sc.* ψήφοις).
 
 ## 1355
 **ἁνὴρ**] ἀνὴρ MSS.—Brunck, ἀνὴρ ὅδʼ ἐχθρός.
@@ -2358,10 +2358,10 @@ These four verses are suspected by Morstadt.
 **πονεῖν**] L has φρο. written above, but with a line drawn through it. φρονεῖν Γ.
 
 ## 1368
-ἆρα A, etc., and Ald.: ἄρα L.—Porson (on Eur. Ph. 1366) conj. σόν γʼ ἆρα (some of the later MSS. having σὸν γὰρ ἄρα): Elmsley, σόν τἄρα (and so Hermann).
+ἆρα A, etc., and Ald.: ἄρα L.—Porson (on Eur. *Ph.* 1366) conj. σόν γʼ ἆρα (some of the later MSS. having σὸν γὰρ ἄρα): Elmsley, σόν τἄρα (and so Hermann).
 
 ## 1369
-**ποήσῃς**] πο ήσησ L (made from ποιήσεισ).—**πανταχῇ**] πανταχῆι L, etc.: πανταχοῦ A, etc., and Ald.—**χρηστός γʼ ἔσει**] In L the 1st hand wrote χρηστὸσ ἔσηι: an early hand (perhaps S) has inserted γʼ, but without altering the accent on ὸσ, which is, indeed, a mere dot. (Γ, Harl., and others also omit γʼ.)—F. W. Schmidt conj. ὃς ἂν ποιήσῃ (not -ῃς), πανταχῇ χάρις γε σή: Wecklein (Ars p. 29), ὃς ἂν ποιήσῃ, πανταχῇ χρηστὸς σύ γʼ εἶ.
+**ποήσῃς**] πο ήσησ L (made from ποιήσεισ).—**πανταχῇ**] πανταχῆι L, etc.: πανταχοῦ A, etc., and Ald.—**χρηστός γʼ ἔσει**] In L the 1st hand wrote χρηστὸσ ἔσηι: an early hand (perhaps S) has inserted γʼ, but without altering the accent on ὸσ, which is, indeed, a mere dot. (Γ, Harl., and others also omit γʼ.)—F. W. Schmidt conj. ὃς ἂν ποιήσῃ (not -ῃς), πανταχῇ χάρις γε σή: Wecklein (*Ars* p. 29), ὃς ἂν ποιήσῃ, πανταχῇ χρηστὸς σύ γʼ εἶ.
 
 ## 1372
 **ἔμοιγʼ**] ἐμοὶ δʼ Γ, Δ.—ὁμῶς A, with most MSS. and Ald. (in L ὁμῶσ has been made by a late hand from ὅμωσ): ὅμωσ r.
@@ -2379,13 +2379,13 @@ These four verses are suspected by Morstadt.
 ἦ Elmsley: ἦν MSS.—**φίλος**] made in L from φίλον. φίλον r.
 
 ## 1379
-ὅσων Porson (Adv. p. 198), and Elmsley: ὅσον MSS.: but L has ωι written above by an early hand, and Δ has ω.
+ὅσων Porson (*Adv.* p. 198), and Elmsley: ὅσον MSS.: but L has ωι written above by an early hand, and Δ has ω.
 
 ## 1380
 **ἀνδράσιν**] ἀνδράσι L and r.
 
 ## 1385
-**ζῶν**] Porson conj. ζῶντʼ (i.e., ‘thou didst not tolerate that the living should insult the dead’).
+**ζῶν**] Porson conj. ζῶντʼ (*i.e.*, ‘thou didst not tolerate that the living should insult the dead’).
 
 ## 1388
 **λωβητὸν αὐτὸν**] In L λωβητὸν and the αὐ of αὐτὸν are written small, in an erasure. The erased letters were probably λωβη, the scribe having at first omitted αὐτόν.
@@ -2403,7 +2403,7 @@ These four verses are suspected by Morstadt.
 πο ῶ L. The space would suggest that ι has been erased, but, if so, the erasure has left no trace.
 
 ## 1396-1398
-Nauck brackets these three verses, the first two of which had already been rejected by Schneidewin. As ἀνὴρ in 1399 then becomes untenable, Nauck would write ἀτὰρ, with Leeuwen Comment. p. 168.
+Nauck brackets these three verses, the first two of which had already been rejected by Schneidewin. As ἀνὴρ in 1399 then becomes untenable, Nauck would write ἀτὰρ, with Leeuwen *Comment.* p. 168.
 
 ## 1396
 ξύμπρασσε Brunck: ξύμπραττε MSS.
@@ -2442,7 +2442,7 @@ In L the words τῷ πάντʼ ἀγαθῷ belong to the next v.
 **τότε**] ποτε (or πότε) r.—Dindorf, in his ed. of 1825, was the first to reject this verse.
 
 ## 1418-1420
-These three verses are rejected by Fr. Ritter (Philol. XVII. 428 f.).
+These three verses are rejected by Fr. Ritter (*Philol.* XVII. 428 f.).
 
 ## 1418
 ἰδοῦσιν L: ἰδοῦσι r, and Ald.

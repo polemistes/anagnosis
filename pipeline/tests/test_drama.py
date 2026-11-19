@@ -196,8 +196,6 @@ class JebbSophocles(unittest.TestCase):
         self.assertIsNone(_block_above_rule(head + verses + commentary, head, 1735))
 
 
-if __name__ == "__main__":
-    unittest.main()
 
 
 class RealignTest(unittest.TestCase):
@@ -323,3 +321,27 @@ class FootnoteMarks(unittest.TestCase):
         self.assertEqual(esc("“athlete”*: the (*x*)"), "“athlete”\\*: the (*x*)")
         self.assertEqual(esc("already \\* escaped, *it*"), "already \\* escaped, *it*")
         self.assertEqual(esc("## A heading *x"), "## A heading *x")
+
+
+
+class ApparatusItalics(unittest.TestCase):
+    MD = ("# title: Critical apparatus\n\n## 52\n**γνώμας**] Madvig (Adv. Crit. I. 206) conj. λήμας. Cp. O.T. 810 and O. T. 811.\n\n"
+          "## 55\nκυνηγίᾳ (sic) L: a v.l. in Γ. \\*θεῶν basic.\n")
+
+    def test_the_tables_phrases_are_set_in_italics(self):
+        from anagnosis_pipeline import apparatus_italics as ai
+        self.assertEqual(ai.apply(self.MD, []), (self.MD, []))
+        out, missing = ai.apply(self.MD, [("52", "Adv. Crit."), ("52", "O. T."), ("52", "O. T."), ("54", "sic"), ("55", "v. l."), ("55", "Thes."), ("900", "sic")])
+        self.assertIn("(*Adv. Crit.* I. 206)", out)
+        self.assertIn("Cp. *O.T.* 810 and *O. T.* 811.", out)       # each occurrence once, the spacing as it stands
+        self.assertIn("(*sic*) L: a *v.l.* in Γ. \\*θεῶν basic.", out)   # a heading up to three verses away; 'sic' not inside 'basic'
+        self.assertEqual(missing, [("55", "Thes."), ("900", "sic")])
+
+    def test_the_old_files_italics(self):
+        from anagnosis_pipeline import apparatus_italics as ai
+        old = "# h\n\n## 7\n*sic* L, the *a* of the first hand; **λόγων**] *Ars Soph. em.* p. 3; \\*θεῶν\n"
+        self.assertEqual(ai.extract(old), [("7", "sic"), ("7", "Ars Soph. em.")])
+
+
+if __name__ == "__main__":
+    unittest.main()

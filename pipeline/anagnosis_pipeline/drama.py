@@ -1960,7 +1960,12 @@ def merge_play(slug: str, sources: Path, texts: Path, build: Path, lexicon: Path
         md.append(f"## {heading}")
         md.append(escape_apparatus_asterisks(bold_lemmas, "\n\n".join(body)))
         md.append("")
-    (out / f"commentary-{play.app_editor}-apparatus.md").write_text("\n".join(md) + "\n", encoding="utf-8")
+    # the phrases the edition prints in italics in the apparatus, where a table of them exists
+    # (apparatus-italics.tsv beside the batches: the three plays re-read in 2026; apparatus_italics.py)
+    from . import apparatus_italics
+    app_md, upright = apparatus_italics.apply("\n".join(md) + "\n", apparatus_italics.read_table(transcriptions / "apparatus-italics.tsv"))
+    problems += [f"apparatus italics: {phrase!r} not found near {heading}" for heading, phrase in upright]
+    (out / f"commentary-{play.app_editor}-apparatus.md").write_text(app_md, encoding="utf-8")
     print(f"wrote commentary-{play.app_editor}-apparatus.md: {len(notes)} notes, {sum(len(b) for _h, b in notes)} items")
 
     # lemmas, morphology, syntax
