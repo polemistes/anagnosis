@@ -16,8 +16,8 @@ val authorPacks = rootProject.file("author-packs.txt").takeIf { it.isFile }?.rea
 val authorGrant = authorPacks.isNotEmpty() &&
     (providers.gradleProperty("authorRelease").orNull == "true" || providers.gradleProperty("authorGrant").orNull == "true")
 /** The public release's version; a granting build sits one above it (see versionCode below). */
-val productionVersionCode = 19
-val productionVersionName = "0.7.0"
+val productionVersionCode = 20
+val productionVersionName = "0.8.0"
 
 dependencies {
     implementation(projects.shared)
